@@ -113,7 +113,7 @@
 																"$comment": "This attaches to the end of the final item."
 															},
 															"modifyDescription": {
-																"$comment": "The description is combined with newlines replaced by a capital N in double brackets ([[N]]), then matched against the regex, and combined into the form specified by the replacement.",
+																"$comment": "The description is combined with newlines replaced by the string !-N-!, then matched against the regex, and combined into the form specified by the replacement.",
 																"type": "object",
 																"properties": {
 																	"regex": {
@@ -252,7 +252,7 @@
 																"$comment": "This attaches to the end of the final item."
 															},
 															"modifyDescription": {
-																"$comment": "The description is combined with newlines replaced by a capital N in double brackets ([[N]]), then matched against the regex, and combined into the form specified by the replacement.",
+																"$comment": "The description is combined with newlines replaced by the string !-N-!, then matched against the regex, and combined into the form specified by the replacement.",
 																"type": "object",
 																"properties": {
 																	"regex": {

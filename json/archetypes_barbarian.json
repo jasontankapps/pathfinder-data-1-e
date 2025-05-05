@@ -838,10 +838,10 @@
 					"limit": "Totem",
 					"join": [ "", "", "" ],
 					"modifyDescription": {
-						"regex": "(.+?)(?:\\[\\[N\\]\\])+\\*\\*Totem\\*\\* rage powers are only available.+$|^>*(.+?)",
+						"regex": "(.+?)(?:!-N-!)+\\*\\*Totem\\*\\* rage powers are only available.+$|^>*(.+?)",
 						"replacement": "$1$2"
 					},
-					"template": "[[BQ]]**{ragepower/[[TITLE]]:}** [[^S]] [[DESC]]"
+					"template": "!-BQ-!:hll[ragepower/!-TITLE-!:] !-^S-! !-DESC-!"
 				}
 			]
 		}

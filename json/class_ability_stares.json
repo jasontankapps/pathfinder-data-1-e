@@ -56,7 +56,7 @@
 		"category": "-",
 		"addenda": ["devilbane"],
 		"description": [
-			"The hypnotic stare penalty also applies to the target's spell resistance. This ability doesn't stack with the sapped magic bold stare improvement."
+			"The hypnotic stare penalty also applies to the target's spell resistance. This ability doesn't stack with the {stare/sapped magic} bold stare improvement."
 		]
 	},
 	"devilbane_withering": {
@@ -81,7 +81,7 @@
 		"compilationSources": [ [ "Occult Realms", 16 ] ],
 		"category": "-",
 		"description": [
-			"The target of the hypnotic stare is shaken while in areas of total darkness."
+			"The target of the hypnotic stare is {misc/shaken} while in areas of total darkness."
 		]
 	},
 	"distracted": {
@@ -89,7 +89,7 @@
 		"compilationSources": [ [ "Heroes of Golarion", 9 ] ],
 		"category": "-",
 		"description": [
-			"The hypnotic stare penalty also applies to concentration checks."
+			"The hypnotic stare penalty also applies to {rule/concentration} checks."
 		]
 	},
 	"infiltration": {
@@ -129,7 +129,7 @@
 		"compilationSources": [ [ "Occult Realms", 16 ] ],
 		"category": "-",
 		"description": [
-			"The target of the hypnotic stare treats all enemies beyond 30 feet (except the mesmerist) as having concealment (20% miss chance)."
+			"The target of the hypnotic stare treats all enemies beyond 30 feet (except the mesmerist) as having {rule/concealment} (20% miss chance)."
 		]
 	},
 	"psychic_inception": {
@@ -201,7 +201,7 @@
 		"compilationSources": [ [ "Heroes of Golarion", 9 ] ],
 		"category": "-",
 		"description": [
-			"The target of the hypnotic stare is not able to grant or receive flanking bonuses."
+			"The target of the hypnotic stare is not able to grant or receive {rule/flanking} bonuses."
 		]
 	}
 }

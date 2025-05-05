@@ -387,7 +387,7 @@
 		"compilationSources": [ [ "Advanced Race Guide", 92 ] ],
 		"category": "Catfolk Talents",
 		"description": [
-			"**Rogue Only; Catfolk Only:** A {race/catfolk} rogue with this talent can apply poison to her claws without accidentally poisoning herself. A catfolk rogue must have the cat's claws racial trait and the poison use class feature before taking this talent."
+			"**Rogue Only; Catfolk Only:** A {race/catfolk} rogue with this talent can apply poison to her claws without accidentally poisoning herself. A catfolk rogue must have the cat's claws racial trait and the {ability/poison use} class feature before taking this talent."
 		]
 	},
 	"disarming_luck": {

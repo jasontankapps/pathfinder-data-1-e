@@ -30,10 +30,10 @@
 					"limit": "-",
 					"join": [ "", "", "" ],
 					"modifyDescription": {
-						"regex": "(.+?)((?:\\[\\[N\\]\\])+)(.+)",
-						"replacement": "$1[[^S]]$2$3"
+						"regex": "(.+?)((?:!-N-!)+)(.+)",
+						"replacement": "$1!-^S-!$2$2$3"
 					},
-					"template": "[[N]]::h3[[[TITLE]]]{jl}[[N]][[N]][[DESC]][[N]][[N]]>*Bookmarkable page: {eidolon/[[TITLE]]}*"
+					"template": "!-N-!::h3[!-TITLE-!]{jl}!-N-!!-N-!!-DESC-!!-N-!!-N-!>*Bookmarkable page: :hll[eidolon/!-TITLE-!]*"
 				}
 			]
 		},
@@ -63,7 +63,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "[[BQ]]**{invtalent/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[DESC]] [[^S]]"
+					"template": "!-BQ-!:hll[invtalent/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-DESC-! !-^S-!"
 				},
 				[
 					"",
@@ -79,7 +79,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "[[BQ]]**{invtalent/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[DESC]] [[^S]]"
+					"template": "!-BQ-!:hll[invtalent/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-DESC-! !-^S-!"
 				},
 				[
 					"",
@@ -95,7 +95,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "[[BQ]]**{invtalent/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[DESC]] [[^S]]"
+					"template": "!-BQ-!:hll[invtalent/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-DESC-! !-^S-!"
 				},
 				[
 					"",
@@ -111,7 +111,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "[[BQ]]**{invtalent/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[DESC]] [[^S]]"
+					"template": "!-BQ-!:hll[invtalent/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-DESC-! !-^S-!"
 				},
 				[
 					"",
@@ -125,7 +125,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "[[BQ]]**{invtalent/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[DESC]] [[^S]]"
+					"template": "!-BQ-!:hll[invtalent/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-DESC-! !-^S-!"
 				}
 			]
 		},
@@ -152,7 +152,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "[[BQ]]**{kipower/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[DESC]] [[^S]]"
+					"template": "!-BQ-!:hll[kipower/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-DESC-! !-^S-!"
 				}
 			]
 		},
@@ -283,7 +283,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "[[BQ]]**{hex/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[DESC]] [[^S]]"
+					"template": "!-BQ-!:hll[hex/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-DESC-! !-^S-!"
 				}
 			]
 		},
@@ -311,7 +311,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "[[BQ]]**{phrenicamp/[[TITLE]]:}** [[DESC]] [[^S]]"
+					"template": "!-BQ-!:hll[phrenicamp/!-TITLE-!:] !-DESC-! !-^S-!"
 				}
 			]
 		},
@@ -339,7 +339,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "[[BQ]]**{trick/[[TITLE]]:}** [[DESC]] [[^S]]"
+					"template": "!-BQ-!:hll[trick/!-TITLE-!:] !-DESC-! !-^S-!"
 				}
 			]
 		},
@@ -369,7 +369,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "[[BQ]]**{ninjatrick/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[DESC]] [[^S]]"
+					"template": "!-BQ-!:hll[ninjatrick/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-DESC-! !-^S-!"
 				},
 				[
 					"",
@@ -385,7 +385,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "[[BQ]]**{ninjatrick/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[DESC]] [[^S]]"
+					"template": "!-BQ-!:hll[ninjatrick/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-DESC-! !-^S-!"
 				},
 				[
 					"",
@@ -401,7 +401,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "[[BQ]]**{ninjatrick/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[DESC]] [[^S]]"
+					"template": "!-BQ-!:hll[ninjatrick/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-DESC-! !-^S-!"
 				},
 				[
 					"",
@@ -415,7 +415,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "[[BQ]]**{ninjatrick/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[DESC]] [[^S]]"
+					"template": "!-BQ-!:hll[ninjatrick/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-DESC-! !-^S-!"
 				}
 			]
 		},
@@ -444,7 +444,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "**{mercy/[[TITLE]]:}** [[DESC]][[^S]]"
+					"template": ":hll[mercy/!-TITLE-!:] !-DESC-!!-^S-!"
 				},
 				[
 					"",
@@ -458,7 +458,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "**{mercy/[[TITLE]]:}** [[DESC]][[^S]]"
+					"template": ":hll[mercy/!-TITLE-!:] !-DESC-!!-^S-!"
 				},
 				[
 					"",
@@ -472,7 +472,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "**{mercy/[[TITLE]]:}** [[DESC]][[^S]]"
+					"template": ":hll[mercy/!-TITLE-!:] !-DESC-!!-^S-!"
 				},
 				[
 					"",
@@ -486,7 +486,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "**{mercy/[[TITLE]]:}** [[DESC]][[^S]]"
+					"template": ":hll[mercy/!-TITLE-!:] !-DESC-!!-^S-!"
 				}
 			]
 		},
@@ -643,7 +643,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "[[BQ]]**{ninjatrick/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[^S]] [[DESC]]"
+					"template": "!-BQ-!:hll[ninjatrick/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-^S-! !-DESC-!"
 				},
 				[
 					"",
@@ -659,7 +659,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "[[BQ]]**{ninjatrick/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[^S]] [[DESC]]"
+					"template": "!-BQ-!:hll[ninjatrick/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-^S-! !-DESC-!"
 				},
 				[
 					"",
@@ -675,7 +675,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "[[BQ]]**{ninjatrick/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[^S]] [[DESC]]"
+					"template": "!-BQ-!:hll[ninjatrick/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-^S-! !-DESC-!"
 				},
 				[
 					"",
@@ -689,7 +689,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "[[BQ]]**{ninjatrick/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[^S]] [[DESC]]"
+					"template": "!-BQ-!:hll[ninjatrick/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-^S-! !-DESC-!"
 				}
 			]
 		},
@@ -713,7 +713,7 @@
 				{
 					"limit": "1",
 					"join": [ "", "", "" ],
-					"template": "**{swashdeed/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[DESC]]"
+					"template": ":hll[swashdeed/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-DESC-!"
 				},
 				[
 					"",
@@ -723,7 +723,7 @@
 				{
 					"limit": "3",
 					"join": [ "", "", "" ],
-					"template": "**{swashdeed/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[DESC]]"
+					"template": ":hll[swashdeed/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-DESC-!"
 				},
 				[
 					"",
@@ -733,7 +733,7 @@
 				{
 					"limit": "7",
 					"join": [ "", "", "" ],
-					"template": "**{swashdeed/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[DESC]]"
+					"template": ":hll[swashdeed/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-DESC-!"
 				},
 				[
 					"",
@@ -743,7 +743,7 @@
 				{
 					"limit": "11",
 					"join": [ "", "", "" ],
-					"template": "**{swashdeed/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[DESC]]"
+					"template": ":hll[swashdeed/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-DESC-!"
 				},
 				[
 					"",
@@ -753,7 +753,7 @@
 				{
 					"limit": "15",
 					"join": [ "", "", "" ],
-					"template": "**{swashdeed/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[DESC]]"
+					"template": ":hll[swashdeed/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-DESC-!"
 				},
 				[
 					"",
@@ -763,7 +763,7 @@
 				{
 					"limit": "19",
 					"join": [ "", "", "" ],
-					"template": "**{swashdeed/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[DESC]]"
+					"template": ":hll[swashdeed/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-DESC-!"
 				}
 			]
 		},
@@ -825,7 +825,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "[[BQ]]**{trick/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[DESC]] [[^S]]"
+					"template": "!-BQ-!:hll[trick/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-DESC-! !-^S-!"
 				}
 			]
 		},

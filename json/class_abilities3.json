@@ -160,8 +160,8 @@
 				],
 				{
 					"limit": "basic",
-					"join": [ "", "[[N]]---[[N]]", "" ],
-					"template": "**{patron/[[TITLE]]:}** [[^S]] [[DESC]]"
+					"join": [ "", "!-N-!---!-N-!", "" ],
+					"template": ":hll[patron/!-TITLE-!:] !-^S-! !-DESC-!"
 				},
 				[
 					"",
@@ -178,10 +178,10 @@
 					"limit": "unique",
 					"join": [ "", "", "" ],
 					"modifyDescription": {
-						"regex": "(.+?)(\\[\\[N\\]\\].+)",
-						"replacement": "$1 [[^S]]$2"
+						"regex": "(.+?)(!-N-!.+)",
+						"replacement": "$1 !-^S-!$2"
 					},
-					"template": "[[N]][[N]]#### [[TITLE]][[N]][[N]][[DESC]][[N]][[N]]>*Bookmarkable page: {patron/[[TITLE]]}*"
+					"template": "!-N-!!-N-!#### !-TITLE-!!-N-!!-N-!!-DESC-!!-N-!!-N-!>*Bookmarkable page: :hll[patron/!-TITLE-!]*"
 				}
 			]
 		},
@@ -207,7 +207,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "[[BQ]]**{phrenicamp/[[TITLE]]:}** [[DESC]] [[^S]]"
+					"template": "!-BQ-!:hll[phrenicamp/!-TITLE-!:] !-DESC-! !-^S-!"
 				}
 			]
 		},
@@ -294,10 +294,10 @@
 					"limit": "-",
 					"join": [ "", "", "" ],
 					"modifyDescription": {
-						"regex": "(.+?)(\\[\\[N\\]\\].+$)|^(.+)",
-						"replacement": "$1$3[[^S]]$2"
+						"regex": "(.+?)(!-N-!.+$)|^(.+)",
+						"replacement": "$1$3!-^S-!$2"
 					},
-					"template": "[[N]][[N]]::h3[[[TITLE]]??SUFFIX: [[SUFFIX]]??]{jl}[[N]][[N]][[DESC]][[N]][[N]]>*Bookmarkable page: {rangertrap/[[TITLE]]}*"
+					"template": "!-N-!!-N-!::h3[!-TITLE-!??SUFFIX: !-SUFFIX-!??]{jl}!-N-!!-N-!!-DESC-!!-N-!!-N-!>*Bookmarkable page: :hll[rangertrap/!-TITLE-!]*"
 				}
 			]
 		},
@@ -329,7 +329,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "[[BQ]]**{talent/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[^S]] [[DESC]]"
+					"template": "!-BQ-!:hll[talent/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-^S-! !-DESC-!"
 				},
 				[
 					"",
@@ -345,7 +345,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "[[BQ]]**{talent/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[^S]] [[DESC]]"
+					"template": "!-BQ-!:hll[talent/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-^S-! !-DESC-!"
 				},
 				[
 					"",
@@ -359,7 +359,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "[[BQ]]**{talent/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[^S]] [[DESC]]"
+					"template": "!-BQ-!:hll[talent/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-^S-! !-DESC-!"
 				},
 				[
 					"",
@@ -373,7 +373,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "[[BQ]]**{talent/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[^S]] [[DESC]]"
+					"template": "!-BQ-!:hll[talent/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-^S-! !-DESC-!"
 				},
 				[
 					"",
@@ -387,7 +387,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "[[BQ]]**{talent/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[^S]] [[DESC]]"
+					"template": "!-BQ-!:hll[talent/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-^S-! !-DESC-!"
 				},
 				[
 					"",
@@ -401,7 +401,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "[[BQ]]**{talent/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[^S]] [[DESC]]"
+					"template": "!-BQ-!:hll[talent/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-^S-! !-DESC-!"
 				},
 				[
 					"",
@@ -415,7 +415,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "[[BQ]]**{talent/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[^S]] [[DESC]]"
+					"template": "!-BQ-!:hll[talent/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-^S-! !-DESC-!"
 				},
 				[
 					"",
@@ -429,7 +429,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "[[BQ]]**{talent/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[^S]] [[DESC]]"
+					"template": "!-BQ-!:hll[talent/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-^S-! !-DESC-!"
 				},
 				[
 					"",
@@ -443,7 +443,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "[[BQ]]**{talent/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[^S]] [[DESC]]"
+					"template": "!-BQ-!:hll[talent/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-^S-! !-DESC-!"
 				},
 				[
 					"",
@@ -457,7 +457,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "[[BQ]]**{talent/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[^S]] [[DESC]]"
+					"template": "!-BQ-!:hll[talent/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-^S-! !-DESC-!"
 				},
 				[
 					"",
@@ -471,7 +471,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "[[BQ]]**{talent/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[^S]] [[DESC]]"
+					"template": "!-BQ-!:hll[talent/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-^S-! !-DESC-!"
 				},
 				[
 					"",
@@ -485,7 +485,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "[[BQ]]**{talent/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[^S]] [[DESC]]"
+					"template": "!-BQ-!:hll[talent/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-^S-! !-DESC-!"
 				},
 				[
 					"",
@@ -499,7 +499,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "[[BQ]]**{talent/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[^S]] [[DESC]]"
+					"template": "!-BQ-!:hll[talent/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-^S-! !-DESC-!"
 				}
 			]
 		},
@@ -563,7 +563,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "[[BQ]]**{shamanhex/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[DESC]] [[^S]]"
+					"template": "!-BQ-!:hll[shamanhex/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-DESC-! !-^S-!"
 				}
 			]
 		},
@@ -684,7 +684,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "[[BQ]]**{slayertalent/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[DESC]] [[^S]]"
+					"template": "!-BQ-!:hll[slayertalent/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-DESC-! !-^S-!"
 				},
 				[
 					"",
@@ -700,7 +700,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "[[BQ]]**{slayertalent/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[DESC]] [[^S]]"
+					"template": "!-BQ-!:hll[slayertalent/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-DESC-! !-^S-!"
 				},
 				[
 					"",
@@ -716,7 +716,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "[[BQ]]**{slayertalent/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[DESC]] [[^S]]"
+					"template": "!-BQ-!:hll[slayertalent/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-DESC-! !-^S-!"
 				},
 				[
 					"",
@@ -730,7 +730,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "[[BQ]]**{slayertalent/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[DESC]] [[^S]]"
+					"template": "!-BQ-!:hll[slayertalent/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-DESC-! !-^S-!"
 				}
 			]
 		},
@@ -758,7 +758,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "[[BQ]]**{soctalent/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[DESC]] [[^S]]"
+					"template": "!-BQ-!:hll[soctalent/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-DESC-! !-^S-!"
 				}
 			]
 		},
@@ -821,7 +821,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "[[BQ]]**{stare/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[DESC]] [[^S]]"
+					"template": "!-BQ-!:hll[stare/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-DESC-! !-^S-!"
 				}
 			]
 		},

@@ -63,9 +63,9 @@ const BasicRulesPage: FC<BasicRulesProps> = ({
 			if(pos < 0) {
 				return [null, null];
 			} else if(pos === 0) {
-				return [null, [getName(siblings[1]), siblings[1]]];
+				return [null, [getName(siblings[1]), siblings[1]] ];
 			} else if (pos === siblings.length - 1) {
-				return [[getName(siblings[pre]), siblings[pre]], null];
+				return [ [getName(siblings[pre]), siblings[pre]], null];
 			}
 			const post = pos + 1;
 			return [

@@ -105,7 +105,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "[[BQ]]**{talent/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[^S]] [[DESC]]"
+					"template": "!-BQ-!:hll[talent/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-^S-! !-DESC-!"
 				},
 				[
 					"",
@@ -119,7 +119,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "[[BQ]]**{talent/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[^S]] [[DESC]]"
+					"template": "!-BQ-!:hll[talent/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-^S-! !-DESC-!"
 				},
 				[
 					"",
@@ -133,7 +133,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "[[BQ]]**{talent/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[^S]] [[DESC]]"
+					"template": "!-BQ-!:hll[talent/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-^S-! !-DESC-!"
 				},
 				[
 					"",
@@ -147,7 +147,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "[[BQ]]**{talent/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[^S]] [[DESC]]"
+					"template": "!-BQ-!:hll[talent/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-^S-! !-DESC-!"
 				}
 			]
 		},
@@ -176,7 +176,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "[[BQ]]**{slayertalent/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[DESC]] [[^S]]"
+					"template": "!-BQ-!:hll[slayertalent/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-DESC-! !-^S-!"
 				}
 			]
 		},
@@ -392,7 +392,7 @@
 			"",
 			"::h3[Mercurial Oil]{jl}",
 			"",
-			"This gleaming silver fluid sinks into a magical metal weapon or suit of armor and temporarily liquefies the interior. An affected weapon gains momentum as its center of gravity moves outward during a swing, dealing damage as if it were one [size category larger](rule/weapon_descriptions) than it actually is. Affected armor resists impact and provides the wearer DR 2/-.",
+			"This gleaming silver fluid sinks into a magical metal weapon or suit of armor and temporarily liquefies the interior. An affected weapon gains momentum as its center of gravity moves outward during a swing, dealing damage as if it were {misc/one size category larger} than it actually is. Affected armor resists impact and provides the wearer DR 2/-.",
 			"",
 			"::h3[Orichalcum Dust]{jl}",
 			"",
@@ -422,7 +422,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "[[BQ]]**{arcanedisc/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[DESC]] [[^S]]"
+					"template": "!-BQ-!:hll[arcanedisc/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-DESC-! !-^S-!"
 				}
 			]
 		},
@@ -1203,7 +1203,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "[[BQ]]**{discovery/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[DESC]] [[^S]]"
+					"template": "!-BQ-!:hll[discovery/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-DESC-! !-^S-!"
 				},
 				[
 					"",
@@ -1217,7 +1217,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "[[BQ]]**{discovery/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[DESC]] [[^S]]"
+					"template": "!-BQ-!:hll[discovery/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-DESC-! !-^S-!"
 				},
 				[
 					"",
@@ -1231,7 +1231,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "[[BQ]]**{discovery/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[DESC]] [[^S]]"
+					"template": "!-BQ-!:hll[discovery/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-DESC-! !-^S-!"
 				},
 				[
 					"",
@@ -1245,7 +1245,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "[[BQ]]**{discovery/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[DESC]] [[^S]]"
+					"template": "!-BQ-!:hll[discovery/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-DESC-! !-^S-!"
 				},
 				[
 					"",
@@ -1259,7 +1259,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "[[BQ]]**{discovery/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[DESC]] [[^S]]"
+					"template": "!-BQ-!:hll[discovery/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-DESC-! !-^S-!"
 				},
 				[
 					"",
@@ -1273,7 +1273,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "[[BQ]]**{discovery/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[DESC]] [[^S]]"
+					"template": "!-BQ-!:hll[discovery/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-DESC-! !-^S-!"
 				},
 				[
 					"",
@@ -1287,7 +1287,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "[[BQ]]**{discovery/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[DESC]] [[^S]]"
+					"template": "!-BQ-!:hll[discovery/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-DESC-! !-^S-!"
 				}
 			]
 		},

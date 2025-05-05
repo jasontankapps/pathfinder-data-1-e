@@ -87,17 +87,17 @@
 			"",
 			"**Favored Locations:** City walls, forts, gates, keeps.",
 			"",
-			"**Influence Penalty:** You are incredibly cautious and guarded in all things, and your caution sometimes gets in the way. When attacking, you always fight defensively, and when casting a spell, you always cast defensively. Because of your focus on defense, you take a penalty on damage rolls equal to your spirit bonus.",
+			"**Influence Penalty:** You are incredibly cautious and guarded in all things, and your caution sometimes gets in the way. When {rule/attack/ing}, you always fight defensively, and when {rule/cast[ing] a spell}, you always cast defensively. Because of your focus on defense, you take a penalty on damage rolls equal to your spirit bonus.",
 			"",
 			"**Taboos:** Choose one:",
 			"",
 			"- You must always protect others from danger when you can (including defeated enemies, but not enemies that are an active threat to you and others).",
 			"- You must keep your body in fit physical condition, and you break this taboo every time you drop below half your maximum hit points.",
-			"- You must speak no words and use no abilities with the sonic descriptor, and you break this taboo if you become enraged, frightened, or panicked",
+			"- You must speak no words and use no abilities with the sonic descriptor, and you break this taboo if you become {spell/en|rage/d}, {misc/frightened}, or {misc/panicked}",
 			"",
 			"**Guardian's Shield (Lesser, Su):** You gain proficiency in heavy armors and shields (including tower shields).",
 			"",
-			"**Absorb Blow (Intermediate, Su):** You gain DR/- and resistance to acid, cold, electricity, fire, and sonic equal to 1/2 your medium level. Add paladin's sacrifice to your medium spells known as a 2nd-level spell.",
+			"**Absorb Blow (Intermediate, Su):** You gain DR/- and resistance to acid, cold, electricity, fire, and sonic equal to 1/2 your medium level. Add {spell/paladin's sacrifice} to your medium spells known as a 2nd-level spell.",
 			"",
 			"**Sudden Block (Greater, Su):** After an enemy's attack would hit you or an adjacent creature, you can use spirit surge to increase the victim's AC, possibly causing the attack to fail, by rolling your spirit surge die and adding it to the chosen character's AC. You must not be flat-footed, and you must be aware of the attack. If use of this ability causes the enemy's attack to miss, you can make an attack at your highest base attack bonus against that enemy as an immediate action.",
 			"",
@@ -115,7 +115,7 @@
 			"",
 			"**Spirit Bonus:** When you channel a hierophant, your spirit bonus applies on Wisdom checks, Wisdom-based skill checks, and Will saves.",
 			"",
-			"**Seance Boon:** Your healing spells and abilities heal an additional 2 points of damage to each target. This does not affect healing conferred by magic items, nor does it add to fast healing or similar effects.",
+			"**Seance Boon:** Your healing spells and abilities heal an additional 2 points of damage to each target. This does not affect healing conferred by magic items, nor does it add to {umr/fast healing} or similar effects.",
 			"",
 			"**Favored Locations:** Altars, churches, sacred groves, shrines.",
 			"",
@@ -127,13 +127,15 @@
 			"- You must follow a paladin or antipaladin code as appropriate for the spirit's deity.",
 			"- You may not deliberately speak any lies, including bluffing, exaggerating, stating half-truths with intent to deceive, lies by omission, and so on, and if you know the answer to a question that someone asks you, you must give the answer",
 			"",
-			"**Divine Surge (Lesser, Su):** This power functions as the archmage arcana spirit power, except that you add spells from the cleric/oracle list instead of the sorcerer/wizard list (these spells count as divine), and you need a divine focus if the spell requires one.",
+			"**Divine Surge (Lesser, Su):** This power functions as the {spirit/archmage} arcana spirit power, except that you add spells from the cleric/oracle list instead of the sorcerer/wizard list (these spells count as divine), and you need a divine focus if the spell requires one.",
 			"",
-			"**Energy Font (Intermediate, Su):** You can channel energy a number of times per day equal to 1 + your Charisma modifier. Choose whether you channel positive or negative energy each time you contact a hierophant spirit; this choice must match the spirit's faith. If you choose positive energy, add cure spells of each level you can cast from the cleric list to your medium spell list and spells known. Otherwise, add inflict spells in the same way. These spells count as divine, as in the divine surge spirit power.",
+			">*Instead of your normal spells per day for your medium level, you use the spells per day from the {class/Mesmerist} class. For each level of spell you can now cast (including level 0), each time you channel a hierophant spirit, select a single spell of that level from the {main/spells_<cleric[//oracle]/ spell list} to add to your medium spell list and spells known until you lose contact with the hierophant. When you cast these spells, they count as divine (though not for the purpose of fulfilling prerequisites), and thus you must provide verbal and somatic components instead of thought and emotion components.*",
+			"",
+			"**Energy Font (Intermediate, Su):** You can {ability/channel energy} a number of times per day equal to 1 + your Charisma modifier. Choose whether you channel positive or negative energy each time you contact a hierophant spirit; this choice must match the spirit's faith. If you choose positive energy, add {main/cure |spell/s>_groupings} of each level you can cast from the cleric list to your medium spell list and spells known. Otherwise, add inflict spells in the same way. These spells count as divine, as in the divine surge spirit power.",
 			"",
 			"**Overflowing Grace (Greater, Su):** When you heal a creature to full hit points or a creature already at full hit points with your positive or negative energy, that creature gains a +1 sacred bonus on attack rolls, skill checks, ability checks, and saving throws for 1 round. The bonus is sacred if you use positive energy and profane if you use negative energy. If you destroy or kill one or more creatures with positive or negative energy, you gain a +1 bonus of the same type on attack rolls, skill checks, ability checks, and saving throws for 1 round.",
 			"",
-			"**Legendary Hierophant (Supreme, Su):** Once per day, you can request a minor miracle. This request must be in line with the options for miracle that don't cost powdered diamond. As usual for a miracle, the deity or other being the spirit worships can choose whether or not to grant the request at its whim."
+			"**Legendary Hierophant (Supreme, Su):** Once per day, you can request a minor miracle. This request must be in line with the options for {spell/miracle} that don't cost powdered diamond. As usual for a miracle, the deity or other being the spirit worships can choose whether or not to grant the request at its whim."
 		]
 	},
 	"marshal": {
@@ -161,7 +163,7 @@
 			"",
 			"**Marshal's Order (Lesser, Su):** You can use your spirit surge on attack rolls, saving throws, ability checks, {rule/concentration} checks, and skill checks rolled by you or any allies who participated in your seance as long as you have line of sight and line of effect, and are within 30 feet of the chosen ally. You can still use spirit surge only once per round.",
 			"",
-			"**Inspiring Call (Intermediate, Su):** As a standard action, you can grant all allies who can see and hear you a competence bonus equal to your spirit bonus on either saving throws or attack and damage rolls. You choose which bonus to grant each time you use inspiring call. This ability lasts for 1 round. If you have the decisive strike greater spirit power, you can use inspiring call as a move action. If you have the legendary marshal supreme spirit power, you can use inspiring call as a swift action.",
+			"**Inspiring Call (Intermediate, Su):** As a standard action, you can grant all allies who can see and hear you a competence bonus equal to your spirit bonus on either saving throws or attack and damage rolls. You choose which bonus to grant each time you use inspiring call. This ability lasts for 1 round. If you have the *decisive strike* greater spirit power, you can use inspiring call as a move action. If you have the *legendary marshal* supreme spirit power, you can use inspiring call as a swift action.",
 			"",
 			"**Decisive Strike (Greater, Su):** You can allow the marshal to gain 1 point of influence over you as a swift action to allow an ally within 30 feet who can see and hear you to make a single melee or ranged attack during your turn. You can use this ability as a standard action to instead allow the ally to perform any standard action.",
 			"",
@@ -183,7 +185,7 @@
 			"",
 			"**Favored Locations:** Alleys, mazes, taverns, trap-filled locations.",
 			"",
-			"**Influence Penalty:** The trickster within you is a protean manipulator, and you begin to see the possibility that everyone around you might have ulterior motives as well. You never count as an ally for the purpose of gaining benefits from another creature's abilities, nor do you count as a willing target for spells. Anyone attempting to target you with a touch range spell, even a beneficial spell, must succeed at a melee touch attack, though you need not attempt saving throws against harmless spells. You gain no benefit from another creature's aid another attempts, as you are too busy making sure they aren't secretly tricking or sabotaging you.",
+			"**Influence Penalty:** The trickster within you is a protean manipulator, and you begin to see the possibility that everyone around you might have ulterior motives as well. You never count as an ally for the purpose of gaining benefits from another creature's abilities, nor do you count as a willing target for spells. Anyone attempting to target you with a touch range spell, even a beneficial spell, must succeed at a melee touch attack, though you need not attempt saving throws against harmless spells. You gain no benefit from another creature's {rule/aid another} attempts, as you are too busy making sure they aren't secretly tricking or sabotaging you.",
 			"",
 			"**Taboos:** Choose one:",
 			"",
@@ -193,11 +195,11 @@
 			"",
 			"**Trickster's Edge (Lesser, Su):** Choose any two skills. These skills count as class skills for you, and you are treated as if you had an additional number of ranks in those skills equal to your medium level (to a maximum of your character level).",
 			"",
-			"**Surprise Strike (Intermediate, Su):** When you attack an opponent that's denied its Dexterity bonus to AC, you deal 1d6 points of extra precision damage for every 3 medium levels. Your target counts as flat-footed against the first attack you make against that target in a day, regardless of abilities like uncanny dodge. After your first attack, that target is immune to being made flat-footed by your surprise strike for 24 hours.",
+			"**Surprise Strike (Intermediate, Su):** When you attack an opponent that's denied its Dexterity bonus to AC, you deal 1d6 points of extra precision damage for every 3 medium levels. Your target counts as {rule/flat-footed} against the first attack you make against that target in a day, regardless of abilities like {ability/uncanny dodge}. After your first attack, that target is immune to being made flat-footed by your surprise strike for 24 hours.",
 			"",
 			"**Transfer Magic (Greater, Su):** You can allow the trickster to gain 1 point of influence over you to make a melee touch attack against another creature as a standard action. If the attack succeeds, you randomly steal one of the harmless spells of the highest spell level active on that creature, ending the effect for the original creature and gaining all remaining duration for yourself. This ability does not work on personal-range or instantaneous- or permanent-duration spells.",
 			"",
-			"**Legendary Trickster (Supreme, Su):** Once per day, instead of rolling for a skill check, you can choose your d20 result. Additionally, you gain the ability to change form at will as if using greater polymorph, except that you can mimic the form of a specific individual."
+			"**Legendary Trickster (Supreme, Su):** Once per day, instead of rolling for a skill check, you can choose your d20 result. Additionally, you gain the ability to change form at will as if using {spell/greater polymorph}, except that you can mimic the form of a specific individual."
 		]
 	},
 	"abrogail_thrune_i": {
@@ -231,7 +233,7 @@
 			"",
 			"**Taboos:** If you accept a taboo while channeling Imre, you must never work for or ally with a monarch or totalitarian.",
 			"",
-			"**Apprentice Poisoner (Lesser, Su):** You gain poison use, as per the alchemist class feature. When using Craft (alchemy) to create poisons, you receive a bonus equal to 1/2 your medium level (minimum 1). At 4th level, you gain a +2 bonus on all saving throws against poison. This ability replaces trickster's edge."
+			"**Apprentice Poisoner (Lesser, Su):** You gain {ability/poison use}, as per the alchemist class feature. When using Craft (alchemy) to create poisons, you receive a bonus equal to 1/2 your medium level (minimum 1). At 4th level, you gain a +2 bonus on all saving throws against poison. This ability replaces trickster's edge."
 		]
 	},
 	"ardril_the_would_be_king": {
@@ -241,15 +243,23 @@
 			"## Ardril, the Would-Be King ({spirit/Champion})",
 			"",
 			"{SOURCE Heroes of Golarion/5}  ",
-			"The Would-Be King is an Ulfen folk hero famous for slaying nearly a dozen linnorms but refusing to rule any nation until she had slain Fafnheir, the father of all linnorms. The Linnorm Kings at the time were fearful of losing their positions and sent their own warriors to kill her. Ardril barely escaped with her life, and she fled her home for Valenhall.",
+			"The Would-Be King is an Ulfen folk hero famous for slaying nearly a dozen {family/linnorm/s} but refusing to rule any nation until she had slain {monster/Fafnheir}, the father of all linnorms. The Linnorm Kings at the time were fearful of losing their positions and sent their own warriors to kill her. Ardril barely escaped with her life, and she fled her home for Valenhall.",
 			"",
 			"**Gaining Favor:** To gain Ardril's favor, you must defeat an enemy with the dragon type and at least 7 Hit Dice without any aid from allies. After defeating the enemy, you must attempt a Wisdom check as you are bombarded with the memory of a linnorm's curse. If you succeed, Ardril answers your call.",
 			"",
 			"**Taboos:** If you accept a taboo while channeling Ardril, you must never seek out or accept any position of power or leadership.",
 			"",
-			"**Challenge (Lesser, Su):** You gain the challenge ability as a cavalier of your level. When you challenge a foe, your attacks ignore any damage reduction your target has. In addition, you gain a +2 bonus on saving throws until the challenge ends.",
+			"**Challenge (Lesser, Su):** You gain the challenge ability as a {class/cavalier} of your level. When you challenge a foe, your attacks ignore any damage reduction your target has. In addition, you gain a +2 bonus on saving throws until the challenge ends.",
 			"",
-			"**Death Curse (Supreme, Su):** When you channel Ardril, you can select any two linnorm death curse rage powers. You can select different rage powers each time you channel Ardril. Treat your medium level as your barbarian level for the purpose of meeting prerequisites. You gain the benefit of these rage powers against challenged foes even if you are not raging. For each additional point of damage that would be dealt by a rage power, you deal 1d6 points of damage instead."
+			"**Death Curse (Supreme, Su):** When you channel Ardril, you can select any two linnorm death curse rage powers (listed below). You can select different rage powers each time you channel Ardril. Treat your medium level as your barbarian level for the purpose of meeting prerequisites. You gain the benefit of these rage powers against challenged foes even if you are not raging. For each additional point of damage that would be dealt by a rage power, you deal 1d6 points of damage instead.",
+			"",
+			"- {ragepower/Cairn Linnorm Death Curse}",
+			"- {ragepower/Crag Linnorm Death Curse}",
+			"- {ragepower/Fjord Linnorm Death Curse}",
+			"- {ragepower/Ice Linnorm Death Curse}",
+			"- {ragepower/Taiga Linnorm Death Curse}",
+			"- {ragepower/Tarn Linnorm Death Curse}",
+			"- {ragepower/Tor Linnorm Death Curse}"
 		]
 	},
 	"arnisant": {
@@ -259,13 +269,13 @@
 			"## Arnisant ({spirit/Guardian})",
 			"",
 			"{SOURCE Occult Realms/10}  ",
-			"General Arnisant was a Taldan hero who sacrificed himself in the battle against Tar-Baphon at the end of the Shining Crusade, weakening the lich so his allies could trap the Whispering Tyrant.",
+			"General Arnisant was a Taldan hero who sacrificed himself in the battle against {monster/Tar-Baphon} at the end of the Shining Crusade, weakening the lich so his allies could trap the Whispering Tyrant.",
 			"",
 			"**Gaining Favor:** To gain Arnisant's favor, you must travel either to the Crusader War College in Vigil, where the Shattered Shield of Arnisant is enshrined, or to the site of any major Shining Crusade battle. Once there, you must swear an oath to slay any undead you meet and concoct a tincture from the remains of a corporeal undead you have killed. You then must drink the tincture and succeed at a Constitution check before Arnisant will answer your call.",
 			"",
 			"**Taboos:** If you accept a taboo while channeling Arnisant, you must always protect others from danger when you can (including defeated enemies, but not enemies that are an active threat to you and others).",
 			"",
-			"**Arnisant's Shield (Intermediate, Su):** Arnisant grants his power to a single shield you wear, allowing you to increase its enhancement bonus by 1 (or add a shield special ability with a +1 bonus base price modifier if the shield's enhancement bonus is already +5). When you would be slain, turned to stone, or otherwise incapacitated, you can allow Arnisant's spirit to sacrifice himself to protect you from the effect. This negates any single non-damaging effect, and for a damaging effect, it leaves you with 0 hit points or your hit point total just before the deathblow, whichever is lower. In exchange, you lose contact with Arnisant and have no spirit abilities until your next day's seance. Furthermore, you can't contact Arnisant for 24 hours, and when you next contact Arnisant, he starts with 1 more point of influence over you than normal. This ability replaces absorb blow."
+			"**Arnisant's Shield (Intermediate, Su):** Arnisant grants his power to a single shield you wear, allowing you to increase its enhancement bonus by 1 (or add a [shield special ability](main/magic_enhancements) with a +1 bonus base price modifier if the shield's enhancement bonus is already +5). When you would be slain, turned to stone, or otherwise incapacitated, you can allow Arnisant's spirit to sacrifice himself to protect you from the effect. This negates any single non-damaging effect, and for a damaging effect, it leaves you with 0 hit points or your hit point total just before the deathblow, whichever is lower. In exchange, you lose contact with Arnisant and have no spirit abilities until your next day's seance. Furthermore, you can't contact Arnisant for 24 hours, and when you next contact Arnisant, he starts with 1 more point of influence over you than normal. This ability replaces absorb blow."
 		]
 	},
 	"azghaad_i": {
@@ -275,7 +285,7 @@
 			"## Azghaad I ({spirit/Marshal})",
 			"",
 			"{SOURCE Occult Realms/11}  ",
-			"The ancient founder of Osirion, Azghaad I brought his people together under Nethys's guidance at the dawn of the Age of Destiny.",
+			"The ancient founder of Osirion, Azghaad I brought his people together under {faith/Nethys/'s} guidance at the dawn of the Age of Destiny.",
 			"",
 			"**Gaining Favor:** To gain Azghaad's favor, you must visit Azghaad's Spire in Sothis or any government building or ruin tied to Ancient Osirion. Once there, you must extol the greatness of the early god-kings, swear to support Osirion's return to prominence when possible, and succeed at a Charisma check before Azghaad answers your call.",
 			"",
@@ -311,15 +321,15 @@
 			"{SOURCE Horror Adventures/58}  ",
 			"The Butcher is a spirit of blood, violence, murder, and pain.",
 			"",
-			"**Gaining Favor:** To gain the Butcher's favor, you must deal a total number of hit points of bleed damage equal to twice your medium level to two dozen non-mindless living creatures, inflicting as much pain and suffering as possible. You must next vow to never use the Heal skill or magical healing to heal or treat another creature, then succeed at a Strength check.",
+			"**Gaining Favor:** To gain the Butcher's favor, you must deal a total number of hit points of {rule/bleed} damage equal to twice your medium level to two dozen non-mindless living creatures, inflicting as much pain and suffering as possible. You must next vow to never use the Heal skill or magical healing to heal or treat another creature, then succeed at a Strength check.",
 			"",
 			"**Favored Locations:** Abattoirs, battlefields, execution sites.",
 			"",
 			"**Taboos:** If you accept a taboo while channeling the Butcher, you must not attack with bludgeoning weapons in combat and must never deal nonlethal damage. You must also kill all your defeated foes in combat, although you can accept surrender or take prisoners for the purpose of torturing and then killing those prisoners later (but before the Butcher departs).",
 			"",
-			"**Bladesharp (Lesser, Ex):** You gain proficiency in all slashing martial weapons and the spiked chain. Any slashing weapon or spiked chain you wield gains the deadly weapon special quality and on a critical hit deals an amount of bleed damage equal to the weapon's critical multiplier - 1.",
+			"**Bladesharp (Lesser, Ex):** You gain proficiency in all slashing martial weapons and the {eq-weapon/spiked chain}. Any slashing weapon or spiked chain you wield gains the {magic-enh/deadly} weapon special quality and on a critical hit deals an amount of bleed damage equal to the weapon's critical multiplier - 1.",
 			"",
-			"**Bloodletter (Intermediate, Ex):** The Butcher enhances a single slashing weapon or spiked chain, allowing you to add the keen, mighty cleaving, or wounding special abilities to the weapon when you wield it. As a swift action, you can allow the Butcher to gain 1 point of influence over you to make that weapon vorpal until the end of your turn, though the vorpal special ability doesn't work with abilities that let you choose the result of your d20 roll. Each time you kill a creature whose CR is greater than your medium level with this vorpal special ability, the butcher gains an additional point of influence over you."
+			"**Bloodletter (Intermediate, Ex):** The Butcher enhances a single slashing weapon or spiked chain, allowing you to add the {magic-enh/keen}, {magic-enh/mighty cleaving}, or {magic-enh/wounding} special abilities to the weapon when you wield it. As a swift action, you can allow the Butcher to gain 1 point of influence over you to make that weapon {magic-enh/vorpal} until the end of your turn, though the vorpal special ability doesn't work with abilities that let you choose the result of your d20 roll. Each time you kill a creature whose CR is greater than your medium level with this vorpal special ability, the butcher gains an additional point of influence over you."
 		]
 	},
 	"cyricas": {
@@ -337,11 +347,13 @@
 			"",
 			"**Taboos:** If you accept a taboo while channeling Cyricas, you must vow to never harm an animal.",
 			"",
-			"**Natural Magic (Lesser, Su):** You can draw upon the power of nature itself. This functions as the archmage arcana spirit power, except that you select spells from the druid list instead of the sorcerer/wizard list (these spells count as divine), and you must present a sprig of holly or another sacred plant to cast spells that require a divine focus.",
+			"**Natural Magic (Lesser, Su):** You can draw upon the power of nature itself. This functions as the {spirit/archmage} arcana spirit power, except that you select spells from the {main/spells_<druid/ list} instead of the sorcerer/wizard list (these spells count as divine), and you must present a sprig of holly or another sacred plant to cast spells that require a divine focus.",
 			"",
-			"**Princely Allies (Intermediate, Su):** Add the appropriate summon nature's ally spell for each spell level you can cast to your medium spell list. As long as you have exactly 1 creature summoned, it gains the benefits of the Augment Summoning feat, even if you don't have that feat.",
+			">*Instead of your normal spells per day for your medium level, you use the spells per day from the {class/Mesmerist} class. For each level of spell you can now cast (including level 0), each time you channel Cyricas, select a single spell of that level from the druid spell list to add to your medium spell list and spells known until you lose contact with Cyricas. When you cast these spells, they count as divine (though not for the purpose of fulfilling prerequisites), and thus you must provide verbal and somatic components instead of thought and emotion components.*",
 			"",
-			"**Breaking Chains (Greater, Su):** As a swift action, you can allow Cyricas to gain 1 point of influence over you to grant the benefits of freedom of movement to you and all allies within 60 feet for 1 minute."
+			"**Princely Allies (Intermediate, Su):** Add the appropriate {spell/summon nature's ally>_1} spell for each spell level you can cast to your medium spell list. As long as you have exactly 1 creature summoned, it gains the benefits of the {feat/Augment Summoning} feat, even if you don't have that feat.",
+			"",
+			"**Breaking Chains (Greater, Su):** As a swift action, you can allow Cyricas to gain 1 point of influence over you to grant the benefits of {spell/freedom of movement} to you and all allies within 60 feet for 1 minute."
 		]
 	},
 	"daronlyr_xii": {
@@ -359,7 +371,7 @@
 			"",
 			"**Assume the Role (Intermediate, Su):** You can allow Daronlyr to gain 1 point of influence over you in order to swap your position with that of a willing ally within 60 feet as a swift action. This is a conjuration [teleportation] effect. The next medium spell you cast within 1 round after making this swap doesn't expend a spell slot and doesn't provoke an attack of opportunity.",
 			"",
-			"**Usurp (Supreme, Su):** Once per day, when a creature fails a Will save against one of your spell effects, you can forfeit the spell's normal effects to instead affect the target creature as if you had cast greater possession."
+			"**Usurp (Supreme, Su):** Once per day, when a creature fails a Will save against one of your spell effects, you can forfeit the spell's normal effects to instead affect the target creature as if you had cast {spell/greater possession}."
 		]
 	},
 	"deceiver": {
@@ -389,7 +401,7 @@
 			"## Father of Legends ({spirit/Marshal})",
 			"",
 			"{SOURCE Heroes of Golarion/5}  ",
-			"The Ulfen regard the Father of Legends as the greatest skald of all time. During his life, there was no greater honor than to be immortalized by his song, and several of the most famous Ulfen epics were first sung by him.",
+			"The Ulfen regard the Father of Legends as the greatest {class/skald} of all time. During his life, there was no greater honor than to be immortalized by his song, and several of the most famous Ulfen epics were first sung by him.",
 			"",
 			"**Gaining Favor:** To gain the Father of Legends' favor, you must first compose a song or poem about a heroic event that you witnessed but did not take part in. Then you must perform the piece in front of a crowd of at least 100 people. If you succeed at a Charisma check during the performance, the Father of Legends will answer your call.",
 			"",
@@ -397,7 +409,7 @@
 			"",
 			"**Song of Valor (Intermediate, Su):** As a standard action, you can begin a performance that fills allies with power and confidence. Any ally that participated in your seance who can hear your performance receives a morale bonus to Strength and Constitution equal to your spirit bonus. You can maintain this performance for a number of rounds equal to your Charisma modifier plus your spirit bonus. These rounds need not be consecutive. Maintaining your performance is a free action.",
 			"",
-			"**Saga of Future Kings (Supreme, Su):** Each ally who benefits from your song of valor gains DR/- equal to your spirit bonus. In addition, when an ally affected by your song would be reduced to fewer than 0 hit points, she can attempt a Fortitude saving throw (DC = 10 + half the damage received). If the ally succeeds, she instead is reduced to 0 hit points."
+			"**Saga of Future Kings (Supreme, Su):** Each ally who benefits from your *song of valor* gains DR/- equal to your spirit bonus. In addition, when an ally affected by your song would be reduced to fewer than 0 hit points, she can attempt a Fortitude saving throw (DC = 10 + half the damage received). If the ally succeeds, she instead is reduced to 0 hit points."
 		]
 	},
 	"gennaris_iii": {
@@ -431,13 +443,13 @@
 			"",
 			"**Spirit Bonus:** The Heretic warps the faith of a good deity.",
 			"",
-			"**Seance Boon:** For the purpose of spells and effects that have an effect based on which deity you worship, you count as worshiping the deity chosen in your vow. For the purpose of divinations, your alignment is the same as the deity's, and you have an aura corresponding to that deity's alignment as if you were a cleric of that deity. This doesn't alter other effects based on alignment, like smite evil.",
+			"**Seance Boon:** For the purpose of spells and effects that have an effect based on which deity you worship, you count as worshiping the deity chosen in your vow. For the purpose of divinations, your alignment is the same as the deity's, and you have an aura corresponding to that deity's alignment as if you were a {class/cleric} of that deity. This doesn't alter other effects based on alignment, like smite evil.",
 			"",
 			"**Favored Locations:** Hidden shrines, repositories of dark knowledge, sacrificial altars, temples.",
 			"",
-			"**Heresy (Lesser, Su):** This functions as the divine surge lesser spirit power but you gain the following inquisitor spells at the indicated spell levels, instead of selecting a set of cleric spells each day: 0-{spell/guidance}; 1st-{spell/divine favor}; 2nd-{spell/castigate}; 3rd-{spell/terrible remorse}; 4th-{spell/reprobation}; 5th-{spell/mass castigate}; 6th-{spell/overwhelming presence}. Whenever you use your spirit surge on a skill check or ability check to convince or trick someone into perverting his faith in the good deity you chose with your vow, the Heretic is pleased and does not gain the usual point of influence over you.",
+			"**Heresy (Lesser, Su):** This functions as the *divine surge* lesser spirit power but you gain the following {class/inquisitor} spells at the indicated spell levels, instead of selecting a set of cleric spells each day: 0-{spell/guidance}; 1st-{spell/divine favor}; 2nd-{spell/castigate}; 3rd-{spell/terrible remorse}; 4th-{spell/reprobation}; 5th-{spell/mass castigate}; 6th-{spell/overwhelming presence}. Whenever you use your spirit surge on a skill check or ability check to convince or trick someone into perverting his faith in the good deity you chose with your vow, the Heretic is pleased and does not gain the usual point of influence over you.",
 			"",
-			"**False Front (Intermediate, Su):** You gain the effects of the energy font intermediate spirit power, but you must match the faith you chose to pervert, meaning that you always channel positive energy and add {main/cure |spell/s>_groupings}.",
+			"**False Front (Intermediate, Su):** You gain the effects of the *energy font* intermediate spirit power, but you must match the faith you chose to pervert, meaning that you always {ability/channel positive energy} and add {main/cure |spell/s>_groupings}.",
 			"",
 			"**Stolen Grace (Greater, Su):** When a member of your chosen faith who believes that you are a member of that faith's clergy requests you to cast a cleric spell of a spell level you can cast, you can allow the Heretic to gain 1 point of influence over you and expend a spell slot of the appropriate level to cast the spell."
 		]
@@ -449,7 +461,7 @@
 			"## Kelksiomides ({spirit/Hierophant})",
 			"",
 			"{SOURCE Heroes of Golarion/14}  ",
-			"Kelksiomides spent his early years working in his family's vineyard. He was selected by his village to be blessed by the cyclopes of the isle, who told the young vintner that tragedy would precede his mythic ascension. Sure enough, Kelksiomides returned home to find his whole village slaughtered. The culprits were captured, but Kelksiomides forgave them, an act that was rewarded by the gods. Kelksiomides stands for hope in the face of despair, for new growth, and for redemption.",
+			"Kelksiomides spent his early years working in his family's vineyard. He was selected by his village to be blessed by the {monster/cyclop[e]s} of the isle, who told the young vintner that tragedy would precede his mythic ascension. Sure enough, Kelksiomides returned home to find his whole village slaughtered. The culprits were captured, but Kelksiomides forgave them, an act that was rewarded by the gods. Kelksiomides stands for hope in the face of despair, for new growth, and for redemption.",
 			"",
 			"**Gaining Favor:** To gain Kelksiomides's favor, you must travel to the hills of Pol-Ptirmeios, where the hero-god was born. There you must swear to never bear a grudge against another, even if you have been grievously wronged. You must then succeed at a Wisdom check, and if you do, Kelksiomides will answer your call.",
 			"",
@@ -459,7 +471,9 @@
 			"",
 			"**Taboos:** If you accept a taboo while channeling Kelksiomides, you may not deal lethal damage.",
 			"",
-			"**Student of the Earth (Lesser, Su):** This power functions as the archmage arcana spirit power, except that you add spells from the druid spell list instead of the sorcerer/wizard spell list. When you cast these spells, they count as divine.",
+			"**Student of the Earth (Lesser, Su):** This power functions as the {spirit/archmage} arcana spirit power, except that you add spells from the {main/spells_<druid/ spell list} instead of the sorcerer/wizard spell list. When you cast these spells, they count as divine.",
+			"",
+			">*Instead of your normal spells per day for your medium level, you use the spells per day from the {class/Mesmerist} class. For each level of spell you can now cast (including level 0), each time you channel Kelksiomides, select a single spell of that level from the druid spell list to add to your medium spell list and spells known until you lose contact with Kelksiomides. When you cast these spells, they count as divine (though not for the purpose of fulfilling prerequisites), and thus you must provide verbal and somatic components instead of thought and emotion components.*",
 			"",
 			"**Divine Overseer (Greater, Su):** You can allow Kelksiomides to gain 1 point of influence over you as a swift action to enable you to channel positive energy as a cleric of your level and automatically restore or deal the maximum amount your channel permits (for example, 6 points if you roll 1d6 when you channel). You can use this channel energy ability a number of times per day equal to your Charisma modifier (minimum 1)."
 		]
@@ -499,11 +513,11 @@
 			"",
 			"**Taboos:** If you accept a taboo while channeling Namzaruum, you must take any opportunity to seek out Ninshaburian descendants and proselytize, even if doing so would be disadvantageous.",
 			"",
-			"**Phalanx Defense (Lesser, Su):** This functions as the marshal's order ability, except if you or an ally who participated in your seance are adjacent to another ally who participated, you and any applicable allies can also add your spirit surge to your CMD against bull rush, drag, overrun, and trip attempts.",
+			"**Phalanx Defense (Lesser, Su):** This functions as the *marshal's order* ability, except if you or an ally who participated in your seance are adjacent to another ally who participated, you and any applicable allies can also add your spirit surge to your CMD against bull rush, drag, overrun, and trip attempts.",
 			"",
 			"This alters marshal's order.",
 			"",
-			"**Slumbering Sword (Greater, Su):** When an ally within 30 feet is attacked, you can allow Namzaruum to gain 1 point of influence over you as an immediate action to provide partial cover to that ally for a single attack. The ally must be able to see and hear you for this ability to function. If the attack against your ally misses, your ally can make an attack of opportunity against the enemy who made the attack if that enemy is within your ally's reach. You can use this ability as a standard action to instead grant an ally partial cover for 1 round, but missed attacks against the ally do not provoke attacks of opportunity.",
+			"**Slumbering Sword (Greater, Su):** When an ally within 30 feet is attacked, you can allow Namzaruum to gain 1 point of influence over you as an immediate action to provide partial {rule/cover} to that ally for a single attack. The ally must be able to see and hear you for this ability to function. If the attack against your ally misses, your ally can make an attack of opportunity against the enemy who made the attack if that enemy is within your ally's reach. You can use this ability as a standard action to instead grant an ally partial cover for 1 round, but missed attacks against the ally do not provoke attacks of opportunity.",
 			"",
 			"This replaces decisive strike."
 		]
@@ -519,7 +533,7 @@
 			"",
 			"The Nex legendary spirit grants modified or unique spirit powers. In all other ways, it functions identically to a standard archmage spirit.",
 			"",
-			"**Gaining Favor:** For use with the Nexian Channeler archetype only.",
+			"**Gaining Favor:** For use with the {arc-medium/Nexian Channeler} archetype only.",
 			"",
 			"**Spirit Bonus:** When you channel Nex, your spirit bonus applies on {rule/concentration} checks, Intelligence checks, and Intelligence-based skill checks.",
 			"",
@@ -529,15 +543,19 @@
 			"",
 			"**Influence Penalty:** Your body begins to respond as if you were a frail, aged scholar. You take a penalty equal to your spirit bonus on Strength checks, Strength-based skill checks, Constitution checks, attack rolls, and non-spell damage rolls.",
 			"",
-			"**Taboos:** Choose one: You eschew all faith in the divine, so you must not be the willing target of divine spells or abilities and you must attempt a Will saving throw against even harmless divine spells and abilities; you must not pass up the opportunity to learn something new and significant (a non-trivial piece of information with a Knowledge check of DC 20 or higher) when that opportunity is directly present; you must use your own magical solution to a challenge if you can, even if a mundane solution that would require fewer resources is available.",
+			"**Taboos:** Choose one:",
 			"",
-			"**Nex's Arcana (Lesser, Su):** Rather than your normal spells per day for your medium level, you gain the spells per day from Table 1-4: {class/Mesmerist}. For each level of spell you can now cast (including level 0), each time you channel Nex's spirit, select a single spell from the sorcerer/wizard spell list of that level to add to your medium spell list and spells known until you lose contact with Nex. When you cast these spells, they count as arcane (though not for the purpose of fulfilling prerequisites), and thus you must provide verbal and somatic components instead of thought and emotion components. Because of Nex's hatred of Geb, these spells can't be of the necromancy school.",
+			"- You eschew all faith in the divine, so you must not be the willing target of divine spells or abilities and you must attempt a Will saving throw against even harmless divine spells and abilities",
+			"- You must not pass up the opportunity to learn something new and significant (a non-trivial piece of information with a Knowledge check of DC 20 or higher) when that opportunity is directly present",
+			"- You must use your own magical solution to a challenge if you can, even if a mundane solution that would require fewer resources is available",
 			"",
-			"**Project Servitor (Intermediate, Su):** You can create projections of the creatures trapped in the Spire of Nex, just as Nex did during his siege of Absalom. You can expend a spell slot to cast shadow conjuration, mimicking a summon monster or summon nature's ally spell of the spell slot's level (or that spell slot's level + 1 for 5th- and 6th-level slots). These shadows are 10% real per level of the spell slot expended. If you allow Nex to gain 1 point of influence over you, double the reality percentage (to a maximum of 100%; if the result would be greater than 100%, the creature or creatures instead gain the advanced template).",
+			"**Nex's Arcana (Lesser, Su):** Rather than your normal spells per day for your medium level, you gain the spells per day from Table 1-4: {class/Mesmerist}. For each level of spell you can now cast (including level 0), each time you channel Nex's spirit, select a single spell from the {main/spells<sorcerer|//wizard/ spell list} of that level to add to your medium spell list and spells known until you lose contact with Nex. When you cast these spells, they count as arcane (though not for the purpose of fulfilling prerequisites), and thus you must provide verbal and somatic components instead of thought and emotion components. Because of Nex's hatred of Geb, these spells can't be of the necromancy school.",
+			"",
+			"**Project Servitor (Intermediate, Su):** You can create projections of the creatures trapped in the Spire of Nex, just as Nex did during his siege of Absalom. You can expend a spell slot to cast {spell/shadow conjuration}, mimicking a {spell/summon monster>_1} or {spell/summon nature's ally>_1} spell of the spell slot's level (or that spell slot's level + 1 for 5th- and 6th-level slots). These shadows are 10% real per level of the spell slot expended. If you allow Nex to gain 1 point of influence over you, double the reality percentage (to a maximum of 100%; if the result would be greater than 100%, the creature or creatures instead gain the advanced template).",
 			"",
 			"**Wild Arcana (Greater, Su):** You can allow Nex to gain 1 point of influence over you in order to cast any sorcerer/wizard spell of a level you can cast (even necromancy spells). You must expend a spell slot of the appropriate level, and you can't apply metamagic feats to the spell.",
 			"",
-			"**Personal Spire (Supreme, Su):** Nex's legendary spirit grants you access to a personal demiplane that you create (as per one created by create greater demiplane). As long as you channel Nex each day, your demiplane remains, but if you ever channel a spirit from a different legend, the demiplane disappears, dumping its inhabitants onto the Astral Plane. You can use project servitor to summon a shadowy projection of any creature currently within your demiplane, as long as its CR matches the summon spell (CR 1/2 or lower for {spell/summon monster I}, CR 1 for {spell/summon monster II}, CR 2 for {spell/summon monster III}, CR 3 or 4 for {spell/summon monster IV}, CR 5 or 6 for {spell/summon monster V}, CR 7 or 8 for {spell/summon monster VI}, or CR 9 or 10 for {spell/summon monster VII}). You can allow Nex to gain 1 point of influence over you and expend a 6th-level spell slot to use project servitor as per {spell/summon monster VIII} (80% real and can mimic trapped creatures of CR 11 or 12) or {spell/summon monster IX} (90% real and can mimic trapped creatures of CR 13 or 14)."
+			"**Personal Spire (Supreme, Su):** Nex's legendary spirit grants you access to a personal demiplane that you create (as per one created by {spell/greater create demiplane}). As long as you channel Nex each day, your demiplane remains, but if you ever channel a spirit from a different legend, the demiplane disappears, dumping its inhabitants onto the Astral Plane. You can use *project servitor* to summon a shadowy projection of any creature currently within your demiplane, as long as its CR matches the summon spell (CR 1/2 or lower for {spell/summon monster I}, CR 1 for {spell/summon monster II}, CR 2 for {spell/summon monster III}, CR 3 or 4 for {spell/summon monster IV}, CR 5 or 6 for {spell/summon monster V}, CR 7 or 8 for {spell/summon monster VI}, or CR 9 or 10 for {spell/summon monster VII}). You can allow Nex to gain 1 point of influence over you and expend a 6th-level spell slot to use *project servitor* as per {spell/summon monster VIII} (80% real and can mimic trapped creatures of CR 11 or 12) or {spell/summon monster IX} (90% real and can mimic trapped creatures of CR 13 or 14)."
 		]
 	},
 	"psomeira": {
@@ -555,9 +573,9 @@
 			"",
 			"**Taboos:** If you accept a taboo while channeling Psomeira, you must attack any hostile Huge or larger creature on sight.",
 			"",
-			"**Divine Vengeance (Lesser, Su):** As a divine warrior, you can cast each of the following spells once per day: align weapon (lawful), magic weapon, and shield of faith. Use your medium level in place of a cleric level. These spells do not count toward your regular allotment of spells per day, but you must have a Charisma score of at least 10 + the spell's level to cast them.",
+			"**Divine Vengeance (Lesser, Su):** As a divine warrior, you can cast each of the following spells once per day: {spell/align weapon} (lawful), {spell/magic weapon}, and {spell/shield of faith}. Use your medium level in place of a cleric level. These spells do not count toward your regular allotment of spells per day, but you must have a Charisma score of at least 10 + the spell's level to cast them.",
 			"",
-			"**Spiritual Force (Greater, Su):** Add divine power, greater magic weapon, and magic vestment to the list of spells you can cast once per day, following the same rules as the divine vengeance spirit power."
+			"**Spiritual Force (Greater, Su):** Add {spell/divine power}, {spell/greater magic weapon}, and {spell/magic vestment} to the list of spells you can cast once per day, following the same rules as the *divine vengeance* spirit power."
 		]
 	},
 	"savith": {
@@ -567,15 +585,15 @@
 			"## Savith ({spirit/Champion})",
 			"",
 			"{SOURCE Occult Realms/11}  ",
-			"Savith was the Azlanti hero who, during the Age of Legend, descended into the serpentfolk city of Ilmurea and beheaded the evil creatures' god, Ydersius.",
+			"Savith was the Azlanti hero who, during the Age of Legend, descended into the serpentfolk city of Ilmurea and beheaded the evil creatures' god, {faith/Ydersius}.",
 			"",
 			"**Gaining Favor:** To gain Savith's favor, you must defeat an evil serpentfolk who is at least 1 level higher than yourself. Using a magic weapon, you must decapitate the creature (which requires a successful Strength check) and toss its head into lava or a massive fire while vowing to never retreat from a battle involving evil serpentfolk or worshipers of Ydersius. Savith then answers your call.",
 			"",
 			"**Taboos:** If you accept a taboo while channeling Savith, you must never coat any of your natural or manufactured weapons in poison, nor can you ever dose an enemy with any type of poison.",
 			"",
-			"**Azlanti Heroics (Lesser, Su):** Savith grants a +1 bonus on all attack rolls when you are wielding a greatsword in melee combat against evil monstrous humanoids instead of granting proficiency in an exotic weapon with champion's prowess. For the legendary champion ability, Savith grants any two of the following feats: {feat/Disruptive}, {feat/Greater Weapon Focus} (greatsword), {feat/Greater Weapon Specialization} (greatsword), {feat/Weapon Focus} (greatsword), {feat/Weapon Specialization} (greatsword), and {feat/Spellbreaker}. This ability alters champion's prowess and legendary champion.",
+			"**Azlanti Heroics (Lesser, Su):** Savith grants a +1 bonus on all attack rolls when you are wielding a {eq-weapon/greatsword} in melee combat against evil monstrous humanoids instead of granting proficiency in an exotic weapon with champion's prowess. For the legendary champion ability, Savith grants any two of the following feats: {feat/Disruptive}, {feat/Greater Weapon Focus} (greatsword), {feat/Greater Weapon Specialization} (greatsword), {feat/Weapon Focus} (greatsword), {feat/Weapon Specialization} (greatsword), and {feat/Spellbreaker}. This ability alters champion's prowess and legendary champion.",
 			"",
-			"**Toe to Toe (Intermediate, Sp):** When you are in melee combat with a creature that is at least one size category larger than you, if none of your allies are flanking it, you can spend a swift action to increase your own size as if through enlarge person, gaining all the effects of that spell. This does not provoke attacks of opportunity, and the effect lasts as long as you are in melee with that creature or until it is dead."
+			"**Toe to Toe (Intermediate, Sp):** When you are in melee combat with a creature that is at least one size category larger than you, if none of your allies are flanking it, you can spend a swift action to increase your own size as if through {spell/enlarge person}, gaining all the effects of that spell. This does not provoke attacks of opportunity, and the effect lasts as long as you are in melee with that creature or until it is dead."
 		]
 	},
 	"stavian_i": {
@@ -603,15 +621,15 @@
 			"## Sulesh the Great ({spirit/Archmage})",
 			"",
 			"{SOURCE Occult Realms/11}  ",
-			"A powerful genie binder from the Padishah Empire of Kelesh, Sulesh the Great created many famed genie seals, including the artifact known as the Bottle of the Bound, which houses 666 fiends.",
+			"A powerful genie binder from the Padishah Empire of Kelesh, Sulesh the Great created many famed genie seals, including the artifact known as the {magic-artifact/Bottle of the Bound}, which houses 666 fiends.",
 			"",
-			"**Gaining Favor:** To gain Sulesh's favor, you must travel to the Padishah Empire of Kelesh, or to any place where genie binders exist, and prove your knowledge about all manner of genies. This requires a successful Intelligence check. You must then vow to never release a genie from its bonds, even if you did not bind it. Sulesh the Great then answers your call.",
+			"**Gaining Favor:** To gain Sulesh's favor, you must travel to the Padishah Empire of Kelesh, or to any place where {pclass/genie binder/s} exist, and prove your knowledge about all manner of {family/genie/s}. This requires a successful Intelligence check. You must then vow to never release a genie from its bonds, even if you did not bind it. Sulesh the Great then answers your call.",
 			"",
 			"**Taboos:** If you accept a taboo while channeling Sulesh, you must not suffer the presence of a rival's summoned creatures and must target them if possible during combat, even if doing so would be disadvantageous to your allies.",
 			"",
 			"**Sulesh's Spells (Lesser, Su):** Sulesh always grants {spell/summon monster [I-]VI}, plus the cantrip {spell/detect magic}. This ability alters archmage arcana.",
 			"",
-			"**Master Summoner (Intermediate, Su):** A number of times per day equal to 1/2 your medium level (minimum 1), you can cast any summon monster spell as a standard action instead of a full-round action. Additionally, you can allow Sulesh to gain 1 point of influence over you and expend one of your highest-level spell slots to summon a monster that can be summoned with a summon monster spell 1 level higher than the highest one you can cast. This ability replaces arcane surge."
+			"**Master Summoner (Intermediate, Su):** A number of times per day equal to 1/2 your medium level (minimum 1), you can cast any *summon monster* spell as a standard action instead of a full-round action. Additionally, you can allow Sulesh to gain 1 point of influence over you and expend one of your highest-level spell slots to summon a monster that can be summoned with a *summon monster* spell 1 level higher than the highest one you can cast. This ability replaces arcane surge."
 		]
 	},
 	"taldaris": {
@@ -629,7 +647,7 @@
 			"",
 			"**Legion Leader (Intermediate, Su):** You gain a {main/feats_<teamwork/ feat} of your choice for which you meet the prerequisites. All of your allies who joined in the shared seance also gain this feat as a bonus feat, even if they do not meet the prerequisites. You can choose a different feat each time you channel this spirit.",
 			"",
-			"**First Emperor's Order (Supreme, Su):** You have no limit on the number of times you can use spirit surge in a round, although you can't use it more than once on any d20 roll. When the spirit of Taldaris gains influence over you for using the marshal's order spirit power on an ally's check, further uses of marshal's order before the start of that creature's next turn do not cause the spirit to gain additional influence over you."
+			"**First Emperor's Order (Supreme, Su):** You have no limit on the number of times you can use spirit surge in a round, although you can't use it more than once on any d20 roll. When the spirit of Taldaris gains influence over you for using the *marshal's order* spirit power on an ally's check, further uses of *marshal's order* before the start of that creature's next turn do not cause the spirit to gain additional influence over you."
 		]
 	},
 	"terminator": {
@@ -645,7 +663,7 @@
 			"",
 			"**Favored Locations:** Arenas, fortifications under siege, places of violence.",
 			"",
-			"**Bloodless (Lesser, Su):** You automatically stabilize when at negative hit points, and you are killed only if your negative hit point total exceeds double your Constitution score. In addition, you can allow the Terminator to gain 1 point of influence over you to automatically end any bleed or blood drain effect or effect with the pain descriptor. Doing so is not an action, so you can do this even if you are unconscious.",
+			"**Bloodless (Lesser, Su):** You automatically {misc/stabilize} when at negative hit points, and you are killed only if your negative hit point total exceeds double your Constitution score. In addition, you can allow the Terminator to gain 1 point of influence over you to automatically end any {umr/bleed} or {umr/blood drain} effect or effect with the pain descriptor. Doing so is not an action, so you can do this even if you are unconscious.",
 			"",
 			"**Emotionless Killer (Intermediate, Su):** You are immune to emotion effects, including fear, but you can't benefit from morale bonuses or bardic performances."
 		]
@@ -683,9 +701,11 @@
 			"",
 			"**No Mercy (Lesser, Su):** You can use spirit surge on your own attack rolls or those of allies within 30 feet who participated in your seance, as long as you have line of sight and line of effect. You can also use your spirit surge when an enemy takes an action that would provoke an attack of opportunity from you or such an ally who threatens that enemy. If you do so, you or an ally of your choice who threatens that enemy can make an attack of opportunity and add your spirit surge, and that attack of opportunity does not count against your normal limit for the round or your ally's. When you use a spirit surge on an attack roll and the attack hits, the spirit surge benefit also applies to the damage roll.",
 			"",
-			"**Warmonger's Way (Intermediate, Su):** Add the following spells of spell levels you can currently cast to your list of spells known of those levels: 1st-{spell/command}, {spell/murderous command}; 2nd-{spell/rage}, {spell/tactical acumen}; 3rd-{spell/confusion}, {spell/fear}; 4th-{spell/battlemind link}, {spell/song of discord}. You can also use your spirit surge on concentration and caster level checks when you cast these spells.",
+			"**Warmonger's Way (Intermediate, Su):** Add the following spells of spell levels you can currently cast to your list of spells known of those levels: 1st-{spell/command}, {spell/murderous command}; 2nd-{spell/rage}, {spell/tactical acumen}; 3rd-{spell/confusion}, {spell/fear}; 4th-{spell/battlemind link}, {spell/song of discord}. You can also use your spirit surge on {rule/concentration} and caster level checks when you cast these spells.",
 			"",
-			"**Inspiring Call (Greater, Su):** You gain the marshal's intermediate spirit power of the same name, but you can activate it as a move action. This improves to a swift action if you have the legendary marshal legendary spirit power."
+			"**Inspiring Call (Greater, Su):** You gain the {spirit/marshal/'s} intermediate spirit power of the same name, but you can activate it as a move action. This improves to a swift action if you have the *legendary marshal* legendary spirit power.",
+			"",
+			">*As a move action, you can grant all allies who can see and hear you a competence bonus equal to your spirit bonus on either saving throws or attack and damage rolls. You choose which bonus to grant each time you use inspiring call. This ability lasts for 1 round. If you have the *legendary marshal* supreme spirit power, you can use inspiring call as a swift action.*"
 		]
 	},
 	"aeon": {
@@ -695,13 +715,17 @@
 			"## Aeon",
 			"",
 			"{SOURCE Psychic Anthology/13}  ",
-			"An aeon is an inscrutable force that dispassionately seeks to bring perfect balance to the multiverse.",
+			"An {family/aeon} is an inscrutable force that dispassionately seeks to bring perfect balance to the multiverse.",
 			"",
 			"**Alignment:** Neutral.  ",
 			"**Spirits:** {monster/Akhana} ({spirit/guardian}), {monster/bythos} ({spirit/archmage}), {monster/lipika} ({spirit/hierophant}), {monster/paracletus} ({spirit/marshal}), and {monster/pleroma} ({spirit/champion}), {monster/theletos} ({spirit/trickster}).  ",
-			"**Taboos:** Choose one of the following: you must not be the willing target of a spell or ability that grants a morale bonus; you must not consciously lie or attempt to deceive; you must not purposefully end the life or stop the bleeding (through skill or magic) of a dying creature.",
+			"**Taboos:** Choose one of the following:",
 			"",
-			"**Void Form (Intermediate, Su):** You gain a +2 deflection bonus to your AC. In addition, there is a 50% chance that a confirmed critical hit against you is negated, and the damage is rolled normally; this chance doesn't stack with any provided by similar abilities, such as from a suit of armor with the light, medium, or heavy fortification special ability.",
+			"- You must not be the willing target of a spell or ability that grants a morale bonus",
+			"- You must not consciously lie or attempt to deceive",
+			"- You must not purposefully end the life or stop the bleeding (through skill or magic) of a dying creature",
+			"",
+			"**Void Form (Intermediate, Su):** You gain a +2 deflection bonus to your AC. In addition, there is a 50% chance that a confirmed critical hit against you is negated, and the damage is rolled normally; this chance doesn't stack with any provided by similar abilities, such as from a suit of armor with the light, medium, or heavy {magic-enh/fortification} special ability.",
 			"",
 			"**Telepathy (Gift, Su):** You can mentally communicate with any other creature within 100 feet that has a language. It is possible to telepathically address multiple creatures at once, although maintaining a telepathic conversation with more than one creature at a time is just as difficult as simultaneously speaking and listening to multiple people at the same time."
 		],
@@ -714,13 +738,17 @@
 			"## Agathion",
 			"",
 			"{SOURCE Psychic Anthology/13}  ",
-			"An agathion is an animal-like spirit from Nirvana, a defender of innocence and a champion of good.",
+			"An {family/agathion} is an animal-like spirit from Nirvana, a defender of innocence and a champion of good.",
 			"",
 			"**Alignment:** Neutral good.  ",
 			"**Spirits:** {monster/Avoral} ({spirit/guardian}), {monster/bishop agathion} ({spirit/hierophant}), {monster/cervinal} ({spirit/marshal}), {monster/leonal} ({spirit/champion}), {monster/reptial} ({spirit/archmage}), and {monster/vulpinal} ({spirit/trickster}).  ",
-			"**Taboos:** Choose one of the following: you must act aggressively to best (though not necessarily slay) evil foes; you must provide whatever service you can to promote good in the world and help the innocent, as long as such actions do not impair or prevent you from doing good in the future; you must offer your full protection and support to nonevil innocents who are in need of your service.",
+			"**Taboos:** Choose one of the following:",
 			"",
-			"**Lay on Hands (Intermediate, Su):** You gain the [lay on hands](class/paladin) class feature, using your medium level as your effective paladin level.",
+			"- You must act aggressively to best (though not necessarily slay) evil foes",
+			"- You must provide whatever service you can to promote good in the world and help the innocent, as long as such actions do not impair or prevent you from doing good in the future",
+			"- You must offer your full protection and support to nonevil innocents who are in need of your service",
+			"",
+			"**Lay on Hands (Intermediate, Su):** You gain the {ability/lay on hands} class feature, using your medium level as your effective paladin level.",
 			"",
 			"**Voice of Nirvana (Gift, Su):** You can speak to beasts and men alike as a standard action, gaining the benefits of {spell/speak with animals} and {spell/tongues} simultaneously. You can use this ability for up to 10 minutes per day per medium level. These minutes don't need to be consecutive, but must be used in 1-minute increments."
 		],
@@ -733,11 +761,15 @@
 			"## Angel",
 			"",
 			"{SOURCE Psychic Anthology/13}  ",
-			"An angel is a servant of the good-aligned planes, a voice of unity and cooperation among celestial beings.",
+			"An {family/angel} is a servant of the good-aligned planes, a voice of unity and cooperation among celestial beings.",
 			"",
 			"**Alignment:** Any good.  ",
 			"**Spirits:** {monster/Astral deva} ({spirit/trickster}), {monster/balisse} ({spirit/hierophant}), {monster/empyrean} ({spirit/archmage}), {monster/movanic deva} ({spirit/champion}), {monster/planetar} ({spirit/marshal}), and {monster/solar} ({spirit/guardian}).  ",
-			"**Taboos:** Choose one of the following: you must not ignore an opportunity to destroy or hinder an evil creature or organization unless doing so would put innocents in harm's way; you must always offer your foes a chance to peacefully surrender to you, and you must accept and honor any such terms that your foes agree to; you must offer whatever support and assistance you can spare to any creature that asks such service from you, provided your actions do not further the cause of evil.",
+			"**Taboos:** Choose one of the following:",
+			"",
+			"- You must not ignore an opportunity to destroy or hinder an evil creature or organization unless doing so would put innocents in harm's way",
+			"- You must always offer your foes a chance to peacefully surrender to you, and you must accept and honor any such terms that your foes agree to",
+			"- You must offer whatever support and assistance you can spare to any creature that asks such service from you, provided your actions do not further the cause of evil",
 			"",
 			"**Protective Aura (Intermediate, Su):** You gain a +4 deflection bonus to your AC and a +4 resistance bonus on saving throws against attacks made by or effects created by evil creatures. In addition, you are protected from effects created by evil creatures that possess you or exert mental control over you, as per {spell/protection from evil}.",
 			"",
@@ -754,11 +786,15 @@
 			"## Archon",
 			"",
 			"{SOURCE Psychic Anthology/13}  ",
-			"An archon is a celestial defender of Heaven, righteousness and justice personified.",
+			"An {family/archon} is a celestial defender of Heaven, righteousness and justice personified.",
 			"",
 			"**Alignment:** Lawful good.  ",
 			"**Spirits:** {monster/Codex archon} ({spirit/archmage}), {monster/hound archon} ({spirit/champion}), {monster/shield archon} ({spirit/guardian}), {monster/spyglass archon} ({spirit/trickster}), {monster/star archon} ({spirit/hierophant}), and {monster/trumpet archon} ({spirit/marshal}).  ",
-			"**Taboos:** Choose one of the following: you must promote and uphold the tenants of law and good, and may never willingly break a law that is fair and just; you must act with honor and integrity at all times; you must eschew all vices and sinful temptations or desires.",
+			"**Taboos:** Choose one of the following:",
+			"",
+			"- You must promote and uphold the tenants of law and good, and may never willingly break a law that is fair and just",
+			"- You must act with honor and integrity at all times",
+			"- You must eschew all vices and sinful temptations or desires",
 			"",
 			"**Aura of Menace (Intermediate, Su):** As a swift action, you activate a righteous aura that embodies your outsider's fury. Hostile creatures within a 20-foot radius of you must succeed at a Will save (DC = 10 + half your medium level + your Charisma modifier) or take a -2 penalty on attack rolls, on saving throws, and to AC. This penalty lasts for 1 minute, or until you become frightened, panicked, paralyzed, stunned, unconscious, or otherwise prevented from participating in the current encounter. Whether or not a creature fails its save, it can't be affected by your aura again for 24 hours.",
 			"",
@@ -773,15 +809,19 @@
 			"## Azata",
 			"",
 			"{SOURCE Psychic Anthology/14}  ",
-			"An azata is a whimsical outsider from Elysium, a living embodiment of freedom and goodness.",
+			"An {family/azata} is a whimsical outsider from Elysium, a living embodiment of freedom and goodness.",
 			"",
 			"**Alignment:** Chaotic good.  ",
 			"**Spirits:** {monster/Bralani} ({spirit/champion}), {monster/ghaele} ({spirit/hierophant}), {monster/lillend} ({spirit/marshal}), {monster/raelis} ({spirit/archmage}), {monster/uinuja} ({spirit/guardian}), and {monster/yamah} ({spirit/trickster}).  ",
-			"**Taboos:** Choose one of the following: whenever you encounter fine art, food, or performances, you must take no actions for 1d4+1 rounds other than to indulge in your find or until you see a potential or obvious threat (as per the fascinated condition); you must attempt any challenge or obstacle that blocks your path unless doing so would be obviously harmful to you or those under your care; you must always offer support and protection to any nonevil creature that is unable to protect itself.",
+			"**Taboos:** Choose one of the following:",
+			"",
+			"- Whenever you encounter fine art, food, or performances, you must take no actions for 1d4+1 rounds other than to indulge in your find or until you see a potential or obvious threat (as per the fascinated condition)",
+			"- You must attempt any challenge or obstacle that blocks your path unless doing so would be obviously harmful to you or those under your care",
+			"- You must always offer support and protection to any nonevil creature that is unable to protect itself",
 			"",
 			"**Slip the Surly Bonds (Intermediate, Sp):** You can ignore impediments to your mobility. For a number of rounds per day equal to your medium level, you can move normally regardless of magical effects that impede movement, as if you were affected by {spell/freedom of movement}. In addition, you can cast {spell/liberating command} as a spell-like ability a number of times per day equal to your Charisma modifier, using your medium level as the spell's caster level.",
 			"",
-			"**Gift of Flight (Gift, Ex):** You grow feathery wings as a swift action, which otherwise function as per fly. You can use this ability for a number of minutes each day equal to your medium level. These minutes don't need to be consecutive, but must be used in 1-minute increments."
+			"**Gift of Flight (Gift, Ex):** You grow feathery wings as a swift action, which otherwise function as per {spell/fly}. You can use this ability for a number of minutes each day equal to your medium level. These minutes don't need to be consecutive, but must be used in 1-minute increments."
 		],
 		"topLink": ["Outer Channeler Archetype", "arc-medium/outer_channeler"]
 	},
@@ -792,15 +832,19 @@
 			"## Daemon",
 			"",
 			"{SOURCE Psychic Anthology/14}  ",
-			"A daemon is a nihilistic fiend from Abaddon, an entity obsessed with the eradication of mortal life.",
+			"A {family/daemon} is a nihilistic fiend from Abaddon, an entity obsessed with the eradication of mortal life.",
 			"",
 			"**Alignment:** Neutral evil.  ",
 			"**Spirits:** {monster/Astradaemon} ({spirit/hierophant}), {monster/ceustodaemon} ({spirit/guardian}), {monster/derghodaemon} ({spirit/champion}), {monster/phasmadaemon} ({spirit/trickster}), {monster/purrodaemon} ({spirit/marshal}), and {monster/venedaemon} ({spirit/archmage}).  ",
-			"**Taboos:** Choose one of the following: you must painfully end the life of a single mortal creature (with no fewer than half your Hit Dice) per day, provided that doing so does not jeopardize your own safety; you must take every opportunity to manipulate and coerce others into performing self-deprecating and self-destructive actions; you must consume a bit of every mortal creature you slay, be it flesh or soul.",
+			"**Taboos:** Choose one of the following:",
 			"",
-			"**Summon Daemon (Intermediate, Sp):** You can summon a servant of Abaddon as a standard action. This functions as per {spell/summon monster II}, but you can summon only animals with the {template/fiendish/ template} or outsiders with the {subtype/daemon} subtype. This ability can summon only one creature, regardless of the list used. For every 2 medium levels beyond 6th, the level of the summon monster spell increases by 1 (to a maximum of summon monster IX at 20th level). You can use this ability a number of times per day equal to 3 + your Charisma modifier.",
+			"- You must painfully end the life of a single mortal creature (with no fewer than half your Hit Dice) per day, provided that doing so does not jeopardize your own safety",
+			"- You must take every opportunity to manipulate and coerce others into performing self-deprecating and self-destructive actions",
+			"- You must consume a bit of every mortal creature you slay, be it flesh or soul",
 			"",
-			"**Consume the Soul (Gift, Sp):** You can consume or imprison the soul of a dying creature. You gain the ability to cast {spell/death knell} as a spell-like ability three times per day using your medium level as the spell's caster level. Instead of gaining the normal benefits of this spell when the target fails its save, you can instead lock the target's soul within a soul gem, functioning like the soul lock ability of a {monster/cacodaemon}. You count as an evil outsider for the purpose of determining whether you receive a benefit when you ingest a soul gem created by the soul lock ability."
+			"**Summon Daemon (Intermediate, Sp):** You can summon a servant of Abaddon as a standard action. This functions as per {spell/summon monster II}, but you can summon only animals with the {template/fiendish/ template} or outsiders with the {subtype/daemon} subtype. This ability can summon only one creature, regardless of the list used. For every 2 medium levels beyond 6th, the level of the summon monster spell increases by 1 (to a maximum of {spell/summon monster IX} at 20th level). You can use this ability a number of times per day equal to 3 + your Charisma modifier.",
+			"",
+			"**Consume the Soul (Gift, Sp):** You can consume or imprison the soul of a dying creature. You gain the ability to cast {spell/death knell} as a spell-like ability three times per day using your medium level as the spell's caster level. Instead of gaining the normal benefits of this spell when the target fails its save, you can instead lock the target's soul within a {spell/create_<soul gem}, functioning like the soul lock ability of a {monster/cacodaemon}. You count as an evil outsider for the purpose of determining whether you receive a benefit when you ingest a soul gem created by the soul lock ability."
 		],
 		"topLink": ["Outer Channeler Archetype", "arc-medium/outer_channeler"]
 	},
@@ -811,13 +855,17 @@
 			"## Demon",
 			"",
 			"{SOURCE Psychic Anthology/14}  ",
-			"A demon is a fiendish spawn of the fecund Abyss, discord and destruction made flesh.",
+			"A {family/demon} is a fiendish spawn of the fecund Abyss, discord and destruction made flesh.",
 			"",
 			"**Alignment:** Chaotic evil.  ",
 			"**Spirits:** {monster/Glabrezu} ({spirit/archmage}), {monster/incubus} ({spirit/guardian}), {monster/marilith} ({spirit/marshal}), {monster/succubus} ({spirit/trickster}), {monster/vilsteth} ({spirit/hierophant}), and {monster/vrock} ({spirit/champion}).  ",
-			"**Taboos:** Choose one of the following: you must not ignore an opportunity to destroy something (or someone) precious to those who actively oppose your plans or goals; you must take every opportunity to tempt or coerce others into embracing their most sinful desires, and you must partake in such delights at every opportunity; you must take every opportunity to inflict physical or emotional pain upon others, provided such indulgences do not detract from your personal goals or safety.",
+			"**Taboos:** Choose one of the following:",
 			"",
-			"**Summon Demon (Intermediate, Sp):** You can summon a horror from the Abyss as a standard action. This functions as per {spell/summon monster II}, but you can summon only animals with the {template/fiendish/ template} or outsiders with the {subtype/demon} subtype. This ability can summon only one creature, regardless of the list used. For every 2 medium levels beyond 6th, the level of the summon monster spell increases by 1 (to a maximum of summon monster IX at 20th level). You can use this ability a number of times per day equal to 3 + your Charisma modifier.",
+			"- You must not ignore an opportunity to destroy something (or someone) precious to those who actively oppose your plans or goals",
+			"- You must take every opportunity to tempt or coerce others into embracing their most sinful desires, and you must partake in such delights at every opportunity",
+			"- You must take every opportunity to inflict physical or emotional pain upon others, provided such indulgences do not detract from your personal goals or safety",
+			"",
+			"**Summon Demon (Intermediate, Sp):** You can summon a horror from the Abyss as a standard action. This functions as per {spell/summon monster II}, but you can summon only animals with the {template/fiendish/ template} or outsiders with the {subtype/demon} subtype. This ability can summon only one creature, regardless of the list used. For every 2 medium levels beyond 6th, the level of the summon monster spell increases by 1 (to a maximum of summon monster IX$2 at 20th level). You can use this ability a number of times per day equal to 3 + your Charisma modifier.",
 			"",
 			"**Demonic Taint (Gift, Su):** Your natural weapons, as well as any weapons you wield, are treated as chaotic and evil for the purpose of overcoming damage reduction."
 		],
@@ -830,13 +878,17 @@
 			"## Devil",
 			"",
 			"{SOURCE Psychic Anthology/15}  ",
-			"A devil is a legalistic fiend from Hell, nothing less than absolute law and order incarnate.",
+			"A {family/devil} is a legalistic fiend from Hell, nothing less than absolute law and order incarnate.",
 			"",
 			"**Alignment:** Lawful evil.  ",
 			"**Spirits:** {monster/Ayngavhaul} ({spirit/archmage}), {monster/cornugon} ({spirit/champion}), {monster/deimavigga} ({spirit/hierophant}), {monster/erinyes} ({spirit/champion}), {monster/hamatula} ({spirit/guardian}), and {monster/osyluth} ({spirit/trickster}).  ",
-			"**Taboos:** Choose one of the following: you must abide by any contracts you sign or verbally agree to, though you are only ever required to obey the letter of these agreements and may twist their intent to your favor; you must tempt others whenever the opportunity arises; you must destroy or despoil all holy sites and relics that you encounter, if doing so would not put you in obvious danger.",
+			"**Taboos:** Choose one of the following:",
 			"",
-			"**Summon Devil (Intermediate, Sp):** You can summon a denizen of Hell as a standard action. This functions as per {spell/summon monster II}, but you can summon only animals with the {template/fiendish/ template} or outsiders with the {subtype/devil} subtype. This ability can summon only one creature, regardless of the list used. For every 2 medium levels beyond 6th, the level of the summon monster spell increases by 1 (to a maximum of summon monster IX at 20th level). You can use this ability a number of times per day equal to 3 + your Charisma modifier.",
+			"- You must abide by any contracts you sign or verbally agree to, though you are only ever required to obey the letter of these agreements and may twist their intent to your favor",
+			"- You must tempt others whenever the opportunity arises",
+			"- You must destroy or despoil all holy sites and relics that you encounter, if doing so would not put you in obvious danger",
+			"",
+			"**Summon Devil (Intermediate, Sp):** You can summon a denizen of Hell as a standard action. This functions as per {spell/summon monster II}, but you can summon only animals with the {template/fiendish/ template} or outsiders with the {subtype/devil} subtype. This ability can summon only one creature, regardless of the list used. For every 2 medium levels beyond 6th, the level of the summon monster spell increases by 1 (to a maximum of `summon monster IX` at 20th level). You can use this ability a number of times per day equal to 3 + your Charisma modifier.",
 			"",
 			"**See in Darkness (Gift, Su):** You gain darkvision 30 feet. If you already have darkvision, your darkvision range increases by 30 feet instead. This darkvision allows you to see perfectly in darkness of any kind, even that created by a {spell/deeper darkness} spell."
 		],
@@ -849,11 +901,15 @@
 			"## Psychopomp",
 			"",
 			"{SOURCE Psychic Anthology/15}  ",
-			"A psychopomp is a steward of souls from the Boneyard, tasked with bringing mortal souls to the afterlife.",
+			"A {family/psychopomp} is a steward of souls from the Boneyard, tasked with bringing mortal souls to the afterlife.",
 			"",
 			"**Alignment:** Neutral.  ",
 			"**Spirits:** {monster/Ahmuuth} ({spirit/hierophant}), {monster/catrina} ({spirit/marshal}), {monster/memitim} ({spirit/champion}), {monster/morrigna} ({spirit/trickster}), {monster/vanth} ({spirit/guardian}), and {monster/viduus} ({spirit/archmage}).  ",
-			"**Taboos:** Choose one of the following: you must destroy all haunts and undead creatures whose paths you cross and oppose the creation of such creatures; you must destroy all creatures that would seek to imprison or destroy mortal souls, and set trapped souls free at every opportunity; you must wear a mask that covers the entirety of your face, and never allow it to be removed for as long as you channel the psychopomp.",
+			"**Taboos:** Choose one of the following:",
+			"",
+			"- You must destroy all haunts and undead creatures whose paths you cross and oppose the creation of such creatures",
+			"- You must destroy all creatures that would seek to imprison or destroy mortal souls, and set trapped souls free at every opportunity",
+			"- You must wear a mask that covers the entirety of your face, and never allow it to be removed for as long as you channel the psychopomp",
 			"",
 			"**Spirit Touch (Intermediate, Su):** You gain powers that assist in battling evil spirits. You are always granted a saving throw to negate death spells, magical death effects, and energy drain, even if one is not normally allowed. In addition, as a swift action, you can grant your natural weapons, as well as any weapon you wield, the {magic-enh/ghost touch} weapon special ability for a number of rounds equal to your medium level. These rounds don't need to be consecutive.",
 			"",

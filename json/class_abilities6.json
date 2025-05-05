@@ -274,7 +274,7 @@
 						"regex": ">*(.+?)",
 						"replacement": "$1"
 					},
-					"template": "[[BQ]]:hl[{ragepower/[[TITLE]]:}] [[^S]] [[DESC]]"
+					"template": "!-BQ-!:hll[ragepower/!-TITLE-!:] !-^S-! !-DESC-!"
 				},
 				[
 					"",
@@ -290,10 +290,10 @@
 					"limit": "Elemental",
 					"join": [ "", "", "" ],
 					"modifyDescription": {
-						"regex": "(.+?)(\\[\\[N\\]\\])+\\*\\*Elemental Power:\\*\\*.+",
+						"regex": "(.+?)(!-N-!)+\\*\\*Elemental Power:\\*\\*.+",
 						"replacement": "$1"
 					},
-					"template": ":hl[{ragepower/[[TITLE]]:}] [[^S]] [[DESC]]"
+					"template": ":hll[ragepower/!-TITLE-!:] !-^S-! !-DESC-!"
 				},
 				[
 					"",
@@ -309,10 +309,10 @@
 					"limit": "Blood",
 					"join": [ "", "", "" ],
 					"modifyDescription": {
-						"regex": "(.+?)(?:\\[\\[N\\]\\])+\\*\\*Blood\\*\\* rage powers grant powers in a theme\\..+$|^>*(.+)",
+						"regex": "(.+?)(?:!-N-!)+\\*\\*Blood\\*\\* rage powers grant powers in a theme\\..+$|^>*(.+)",
 						"replacement": "$1$2"
 					},
-					"template": "[[BQ]]:hl[{ragepower/[[TITLE]]:}] [[^S]] [[DESC]]"
+					"template": "!-BQ-!:hll[ragepower/!-TITLE-!:] !-^S-! !-DESC-!"
 				}
 			]
 		},

@@ -225,10 +225,10 @@ const BasicPage: FC<PropsWithChildren<PageProps>> = (props) => {
 		if (hasJL && contentObject && ((event.detail.scrollTop < 200) !== goToTopFlag)) {
 			setGoToTopFlag(!goToTopFlag);
 		}
-	}, [pageId, dispatch, goToTopFlag, setGoToTopFlag]);
+	}, [pageId, dispatch, goToTopFlag, setGoToTopFlag, contentObject, hasJL]);
 	const goToTop = useCallback(
 		() => (contentObject && contentObject.scrollToTop(500)),
-		[pageId]
+		[pageId, contentObject]
 	);
 	const [isMatch] = error ? [true] : useRoute(pageId);
 	const cN = "basicContent " + (className || "simple") + (topLink ? " hasInset" : "");
@@ -302,7 +302,7 @@ const BasicPage: FC<PropsWithChildren<PageProps>> = (props) => {
 					505
 				)
 			);
-	}, [searchBoxOpen, onInput, findInPageSearchbarObj]);
+	}, [searchBoxOpen, setSearchBoxOpen, onInput, findInPageSearchbarObj]);
 
 	return (
 		<AnimatePresence>

@@ -704,10 +704,10 @@
 					"limit": "Drawback",
 					"join": [ "", "", "" ],
 					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?\\[\\[N\\]\\])+\\[\\[N\\]\\])(.+)",
-						"replacement": "$1[[SOURCE]]  [[N]]$2"
+						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
+						"replacement": "$1!-SOURCE-!  !-N-!$2"
 					},
-					"template": ":::item[[N]][[N]]## {trait/[[TITLE]]}[[N]][[N]][[DESC]][[N]][[N]]:::"
+					"template": ":::item!-N-!!-N-!## {trait/!-TITLE-!}!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
 				}
 			]
 		}
@@ -723,10 +723,10 @@
 					"limit": "Equipment",
 					"join": [ "", "", "" ],
 					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?\\[\\[N\\]\\])+\\[\\[N\\]\\])(.+)",
-						"replacement": "$1[[SOURCE]]  [[N]]$2"
+						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
+						"replacement": "$1!-SOURCE-!  !-N-!$2"
 					},
-					"template": ":::item[[N]][[N]]## {trait/[[TITLE]]}[[N]][[N]][[DESC]][[N]][[N]]:::"
+					"template": ":::item!-N-!!-N-!## {trait/!-TITLE-!}!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
 				}
 			]
 		}
@@ -742,10 +742,10 @@
 					"limit": "Family",
 					"join": [ "", "", "" ],
 					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?\\[\\[N\\]\\])+\\[\\[N\\]\\])(.+)",
-						"replacement": "$1[[SOURCE]]  [[N]]$2"
+						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
+						"replacement": "$1!-SOURCE-!  !-N-!$2"
 					},
-					"template": ":::item[[N]][[N]]## {trait/[[TITLE]]}[[N]][[N]][[DESC]][[N]][[N]]:::"
+					"template": ":::item!-N-!!-N-!## {trait/!-TITLE-!}!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
 				}
 			]
 		}
@@ -761,10 +761,10 @@
 					"limit": "Mount",
 					"join": [ "", "", "" ],
 					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?\\[\\[N\\]\\])+\\[\\[N\\]\\])(.+)",
-						"replacement": "$1[[SOURCE]]  [[N]]$2"
+						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
+						"replacement": "$1!-SOURCE-!  !-N-!$2"
 					},
-					"template": ":::item[[N]][[N]]## {trait/[[TITLE]]}[[N]][[N]][[DESC]][[N]][[N]]:::"
+					"template": ":::item!-N-!!-N-!## {trait/!-TITLE-!}!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
 				}
 			]
 		}
@@ -780,10 +780,10 @@
 					"limit": "Cosmic",
 					"join": [ "", "", "" ],
 					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?\\[\\[N\\]\\])+\\[\\[N\\]\\])(.+)",
-						"replacement": "$1[[SOURCE]]  [[N]]$2"
+						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
+						"replacement": "$1!-SOURCE-!  !-N-!$2"
 					},
-					"template": ":::item[[N]][[N]]## {trait/[[TITLE]]}[[N]][[N]][[DESC]][[N]][[N]]:::"
+					"template": ":::item!-N-!!-N-!## {trait/!-TITLE-!}!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
 				}
 			]
 		}

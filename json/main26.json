@@ -10,10 +10,10 @@
 					"limit": "Combat",
 					"join": [ "", "", "" ],
 					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?\\[\\[N\\]\\])+\\[\\[N\\]\\])(.+)",
-						"replacement": "$1[[SOURCE]]  [[N]]$2"
+						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
+						"replacement": "$1!-SOURCE-!  !-N-!$2"
 					},
-					"template": ":::item[[N]][[N]]## {trait/[[TITLE]]}[[N]][[N]][[DESC]][[N]][[N]]:::"
+					"template": ":::item!-N-!!-N-!## {trait/!-TITLE-!}!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
 				}
 			]
 		}
@@ -29,10 +29,10 @@
 					"limit": "Faith",
 					"join": [ "", "", "" ],
 					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?\\[\\[N\\]\\])+\\[\\[N\\]\\])(.+)",
-						"replacement": "$1[[SOURCE]]  [[N]]$2"
+						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
+						"replacement": "$1!-SOURCE-!  !-N-!$2"
 					},
-					"template": ":::item[[N]][[N]]## {trait/[[TITLE]]}[[N]][[N]][[DESC]][[N]][[N]]:::"
+					"template": ":::item!-N-!!-N-!## {trait/!-TITLE-!}!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
 				}
 			]
 		}
@@ -48,10 +48,10 @@
 					"limit": "Social",
 					"join": [ "", "", "" ],
 					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?\\[\\[N\\]\\])+\\[\\[N\\]\\])(.+)",
-						"replacement": "$1[[SOURCE]]  [[N]]$2"
+						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
+						"replacement": "$1!-SOURCE-!  !-N-!$2"
 					},
-					"template": ":::item[[N]][[N]]## {trait/[[TITLE]]}[[N]][[N]][[DESC]][[N]][[N]]:::"
+					"template": ":::item!-N-!!-N-!## {trait/!-TITLE-!}!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
 				}
 			]
 		}
@@ -67,10 +67,10 @@
 					"limit": "Magic",
 					"join": [ "", "", "" ],
 					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?\\[\\[N\\]\\])+\\[\\[N\\]\\])(.+)",
-						"replacement": "$1[[SOURCE]]  [[N]]$2"
+						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
+						"replacement": "$1!-SOURCE-!  !-N-!$2"
 					},
-					"template": ":::item[[N]][[N]]## {trait/[[TITLE]]}[[N]][[N]][[DESC]][[N]][[N]]:::"
+					"template": ":::item!-N-!!-N-!## {trait/!-TITLE-!}!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
 				}
 			]
 		}

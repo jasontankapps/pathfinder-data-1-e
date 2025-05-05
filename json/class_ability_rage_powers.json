@@ -24,7 +24,7 @@
 		"category": "-",
 		"level": 1,
 		"description": [
-			"This power works as animal fury, but the barbarian's bite attack deals damage as if she were [one size larger](umr/natural_attacks). A barbarian must have the {ragepower/animal fury} rage power to select this rage power."
+			"This power works as animal fury, but the barbarian's bite attack deals damage as if she were {misc/one size category larger}. A barbarian must have the {ragepower/animal fury} rage power to select this rage power."
 		]
 	},
 	"animal_fury_greater": { "copyof": "greater_animal_fury" },

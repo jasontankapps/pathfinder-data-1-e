@@ -609,7 +609,7 @@
 				{
 					"limit": "1",
 					"join": [ "", "", "" ],
-					"template": "**{evolution/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[^S]] [[DESC]]"
+					"template": ":hll[evolution/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-^S-! !-DESC-!"
 				},
 				[
 					"",
@@ -621,7 +621,7 @@
 				{
 					"limit": "2",
 					"join": [ "", "", "" ],
-					"template": "**{evolution/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[^S]] [[DESC]]"
+					"template": ":hll[evolution/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-^S-! !-DESC-!"
 				},
 				[
 					"",
@@ -633,7 +633,7 @@
 				{
 					"limit": "3",
 					"join": [ "", "", "" ],
-					"template": "**{evolution/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[^S]] [[DESC]]"
+					"template": ":hll[evolution/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-^S-! !-DESC-!"
 				},
 				[
 					"",
@@ -645,7 +645,7 @@
 				{
 					"limit": "4",
 					"join": [ "", "", "" ],
-					"template": "**{evolution/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[^S]] [[DESC]]"
+					"template": ":hll[evolution/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-^S-! !-DESC-!"
 				}
 			]
 		},
@@ -677,7 +677,7 @@
 				{
 					"limit": "1",
 					"join": [ "", "", "" ],
-					"template": "**{unchevolution/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[^S]] [[DESC]]"
+					"template": ":hll[unchevolution/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-^S-! !-DESC-!"
 				},
 				[
 					"",
@@ -689,7 +689,7 @@
 				{
 					"limit": "2",
 					"join": [ "", "", "" ],
-					"template": "**{unchevolution/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[^S]] [[DESC]]"
+					"template": ":hll[unchevolution/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-^S-! !-DESC-!"
 				},
 				[
 					"",
@@ -701,7 +701,7 @@
 				{
 					"limit": "3",
 					"join": [ "", "", "" ],
-					"template": "**{unchevolution/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[^S]] [[DESC]]"
+					"template": ":hll[unchevolution/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-^S-! !-DESC-!"
 				},
 				[
 					"",
@@ -713,7 +713,7 @@
 				{
 					"limit": "4",
 					"join": [ "", "", "" ],
-					"template": "**{unchevolution/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[^S]] [[DESC]]"
+					"template": ":hll[unchevolution/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-^S-! !-DESC-!"
 				}
 			]
 		},
@@ -1001,7 +1001,7 @@
 				{
 					"limit": "Grand Discoveries",
 					"join": [ "", "", "" ],
-					"template": "**{discovery/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[DESC]] [[^S]]"
+					"template": ":hll[discovery/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-DESC-! !-^S-!"
 				}
 			]
 		},
@@ -1025,7 +1025,7 @@
 				{
 					"limit": "grandhex",
 					"join": [ "", "", "" ],
-					"template": "**{hex/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[DESC]] [[^S]]"
+					"template": ":hll[hex/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-DESC-! !-^S-!"
 				}
 			]
 		},
@@ -1091,7 +1091,7 @@
 				{
 					"limit": "1",
 					"join": [ "", "", "" ],
-					"template": "**{deed/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[DESC]]"
+					"template": ":hll[deed/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-DESC-!"
 				},
 				[
 					"",
@@ -1101,7 +1101,7 @@
 				{
 					"limit": "3",
 					"join": [ "", "", "" ],
-					"template": "**{deed/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[DESC]]"
+					"template": ":hll[deed/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-DESC-!"
 				},
 				[
 					"",
@@ -1111,7 +1111,7 @@
 				{
 					"limit": "7",
 					"join": [ "", "", "" ],
-					"template": "**{deed/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[DESC]]"
+					"template": ":hll[deed/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-DESC-!"
 				},
 				[
 					"",
@@ -1121,7 +1121,7 @@
 				{
 					"limit": "11",
 					"join": [ "", "", "" ],
-					"template": "**{deed/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[DESC]]"
+					"template": ":hll[deed/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-DESC-!"
 				},
 				[
 					"",
@@ -1131,7 +1131,7 @@
 				{
 					"limit": "15",
 					"join": [ "", "", "" ],
-					"template": "**{deed/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[DESC]]"
+					"template": ":hll[deed/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-DESC-!"
 				},
 				[
 					"",
@@ -1141,7 +1141,7 @@
 				{
 					"limit": "19",
 					"join": [ "", "", "" ],
-					"template": "**{deed/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[DESC]]"
+					"template": ":hll[deed/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-DESC-!"
 				}
 			]
 		},
@@ -1189,7 +1189,7 @@
 				{
 					"limit": { "omit": [] },
 					"join": [ "", "", "" ],
-					"template": "**{hkdiscipline/[[TITLE]]}??SUFFIX: [[SUFFIX]]??:** [[DESC]]"
+					"template": ":hll[hkdiscipline/!-TITLE-!] **!-SUFFIX-!:** !-DESC-!"
 				}
 			]
 		},
@@ -1250,7 +1250,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "[[BQ]]**{hex/[[TITLE]]??SUFFIX:/ [[SUFFIX]]??:}** [[DESC]] [[^S]]"
+					"template": "!-BQ-!:hll[hex/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-DESC-! !-^S-!"
 				}
 			]
 		},

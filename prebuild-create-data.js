@@ -80,7 +80,7 @@ const get = (filename, logError = false) => {
 // Handle implicit jumplists
 const jl = (text, id) => {
 	const jl = $.flags.implicitJumplist || [];
-	$.flags.implicitJumplist = [...jl, [text, id]];
+	$.flags.implicitJumplist = [...jl, [text, id] ];
 };
 
 const alternateBlocks = {
@@ -213,16 +213,20 @@ const inlineTags = {
 		const {text = "", attrs = {}, meta} = token;
 		const { hasAlternateText } = $.flags;
 		let tag = meta.name;
-		if(tag === "ripple") {
+		if(tag === "ripple" || tag === "hll") {
 			// :ripple[link/Text]
 			$.flags.link = true;
 			$.flags.ripple = true;
 			const m = checkForEncodedLink(text, { bare: true });
 			if(m) {
 				const [, link, text] = m;
-				return `<Link to="/${link}">${text}<IonRippleEffect /></Link>`;
+				if(tag === "ripple") {
+					return `<Link to="/${link}">${text}<IonRippleEffect /></Link>`;
+				}
+				// hll
+				return `<strong className="hl"><Link to="/${link}">${text}</Link></strong>`
 			}
-			console.log(`Bad :ripple => [${text}]`);
+			console.log(`Bad :${tag} => [${text}]`);
 			$.errorCount++;
 			tag = "b";
 		} else if(
@@ -524,13 +528,13 @@ const convertDescription = (temporaryFlags, desc, prefix, tables, openTag = "", 
 };
 
 const parseTemplate = (template, title, suffix, sourceText, desc, split = true) => {
-	// [[DESC]] becomes the entry description
-	// [[TITLE]] becomes the entry title
-	// [[SUFFIX]] becomes the entry nameSuffix
-	// [[SOURCE]] becomes a {SOURCE ...} line
-	// [[N]] is a newline
-	// [[^S]] is a footnote leading to Source info (not handled in this function)
-	// [[BQ]] is a MarkDown blockquote notation (not handled in this function)
+	// !-DESC-! becomes the entry description
+	// !-TITLE-! becomes the entry title
+	// !-SUFFIX-! becomes the entry nameSuffix
+	// !-SOURCE-! becomes a {SOURCE ...} line
+	// !-N-! is a newline
+	// !-^S-! is a footnote leading to Source info (not handled in this function)
+	// !-BQ-! is a MarkDown blockquote notation (not handled in this function)
 	// ??SOURCE:...?? only adds "..." if a Source exists
 	// ??SUFFIX:...?? only adds "..." if a nameSuffix exists
 	let constructed = template;
@@ -547,12 +551,12 @@ const parseTemplate = (template, title, suffix, sourceText, desc, split = true) 
 		}
 	}
 	constructed = constructed
-		.replace(/\[\[DESC\]\]/g, desc.join("[[N]]"))
-		.replace(/\[\[TITLE\]\]/g, title)
-		.replace(/\[\[SUFFIX\]\]/g, suffix)
-		.replace(/\[\[SOURCE\]\]/g, sourceText);
+		.replace(/!-DESC-!/g, desc.join("!-N-!"))
+		.replace(/!-TITLE-!/g, title)
+		.replace(/!-SUFFIX-!/g, suffix)
+		.replace(/!-SOURCE-!/g, sourceText);
 
-	return split ? constructed.split(/\[\[N\]\]/) : constructed;
+	return split ? constructed.split(/!-N-!/) : constructed;
 };
 
 // Convert markdown code into HTML, updating `$.flags` to note the outside Tags being used
@@ -647,7 +651,7 @@ const compile = (compileFrom, prefix, temporaryFlags, openTag, closeTag) => {
 				// Handle the end-bits of `join`
 				const d = obj.description.map(
 					(line, j) => bq + (i || j ? "" : beginner) + line
-				).join("[[N]]") + (i === max ? "" : ender);
+				).join("!-N-!") + (i === max ? "" : ender);
 				const sources = temporaryFlags.mainCompilation ? obj.compilationSources.map(arr => {
 					// main pages don't handle footnotes well, so ignore them
 					const [title, pg] = arr;
@@ -663,11 +667,11 @@ const compile = (compileFrom, prefix, temporaryFlags, openTag, closeTag) => {
 					}
 					return footnotes[detail];
 				});
-				const dd = (rx ? d.replace(rx, replacement) : d).split(/\[\[N\]\]/);
+				const dd = (rx ? d.replace(rx, replacement) : d).split(/!-N-!/);
 				const parsing = parseTemplate(template, obj.name, obj.nameSuffix, `{SOURCE ${sources.join(";")}}`, dd, false);
 				const final = parsing
-					.replace(/\[\[\^S\]\]/g, sources.join(" "))
-					.replace(/\[\[BQ\]\]/g, bq);
+					.replace(/!-\^S-!/g, sources.join(" "))
+					.replace(/!-BQ-!/g, bq);
 				if(level && (i !== max)) {
 					const next = pool[i + 1].level;
 					if(next >= level) {
@@ -694,8 +698,8 @@ const compile = (compileFrom, prefix, temporaryFlags, openTag, closeTag) => {
 				const bit = compilation.pop();
 				compilation.push(bit + post);
 			}
-			const final = compilation.join("[[N]]");
-			desc.push(...final.split("[[N]]"));
+			const final = compilation.join("!-N-!");
+			desc.push(...final.split("!-N-!"));
 		}
 	});
 	const keep = [];

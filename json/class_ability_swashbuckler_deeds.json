@@ -39,7 +39,7 @@
 		"compilationSources": [ [ "Advanced Class Guide", 57 ] ],
 		"category": "3",
 		"description": [
-			"At 3rd level, while the swashbuckler has at least 1 panache point, she can kip-up from prone as a move action without provoking an attack of opportunity. She can kip-up as a swift action instead by spending 1 panache point."
+			"At 3rd level, while the swashbuckler has at least 1 panache point, she can kip-up from {rule/prone} as a move action without provoking an attack of opportunity. She can kip-up as a swift action instead by spending 1 panache point."
 		]
 	},
 	"menacing_swordplay": {
@@ -98,9 +98,9 @@
 			"At 7th level, as a full-round action the swashbuckler can spend 1 panache point to make an attack with a single light or one-handed piercing melee weapon that cripples part of a foe's body. The swashbuckler chooses a part of the body to target. If the attack succeeds, in addition to the attack's normal damage, the target suffers one of the following effects based on the part of the body targeted. If a creature doesn't have one of the listed body locations, that body part cannot be targeted. Creatures that are immune to sneak attacks are also immune to targeted strikes. Items or abilities that protect a creature from critical hits also protect a creature from targeted strikes.",
 			"",
 			"- **Arms:** The target takes no damage from the attack, but it drops one carried item of the swashbuckler's choice, even if the item is wielded with two hands. Items held in a locked gauntlet cannot be chosen.",
-			"- **Head:** The target is confused for 1 round. This is a mind-affecting effect.",
-			"- **Legs:** The target is knocked prone. Creatures with four or more legs or that are immune to trip attacks are immune to this effect.",
-			"- **Torso or Wings:** The target is staggered for 1 round."
+			"- **Head:** The target is {misc/confused} for 1 round. This is a mind-affecting effect.",
+			"- **Legs:** The target is knocked {rule/prone}. Creatures with four or more legs or that are immune to trip attacks are immune to this effect.",
+			"- **Torso or Wings:** The target is {misc/staggered} for 1 round."
 		]
 	},
 	"bleeding_wound": {
@@ -109,7 +109,7 @@
 		"compilationSources": [ [ "Advanced Class Guide", 58 ] ],
 		"category": "11",
 		"description": [
-			"At 11th level, when the swashbuckler hits a living creature with a light or one-handed piercing melee weapon attack, as a free action she can spend 1 panache point to have that attack deal additional bleed damage. The amount of bleed damage dealt is equal to the swashbuckler's Dexterity modifier (minimum 1). Alternatively, the swashbuckler can spend 2 panache points to deal 1 point of Strength, Dexterity, or Constitution bleed damage instead (swashbuckler's choice). Creatures that are immune to sneak attacks are also immune to these types of bleed damage."
+			"At 11th level, when the swashbuckler hits a living creature with a light or one-handed piercing melee weapon attack, as a free action she can spend 1 panache point to have that attack deal additional {rule/bleed} damage. The amount of bleed damage dealt is equal to the swashbuckler's Dexterity modifier (minimum 1). Alternatively, the swashbuckler can spend 2 panache points to deal 1 point of Strength, Dexterity, or Constitution bleed damage instead (swashbuckler's choice). Creatures that are immune to sneak attacks are also immune to these types of bleed damage."
 		]
 	},
 	"evasive": {
@@ -127,7 +127,7 @@
 		"compilationSources": [ [ "Advanced Class Guide", 59 ] ],
 		"category": "11",
 		"description": [
-			"At 11th level, while a swashbuckler has at least 1 panache point, she is immune to disarm, steal, and sunder combat maneuvers made against a light or one-handed piercing melee weapon she is wielding."
+			"At 11th level, while a swashbuckler has at least 1 panache point, she is immune to {rule/disarm}, {rule/steal}, and {rule/sunder} combat maneuvers made against a light or one-handed piercing melee weapon she is wielding."
 		]
 	},
 	"dizzying_defense": {
@@ -136,7 +136,7 @@
 		"compilationSources": [ [ "Advanced Class Guide", 59 ] ],
 		"category": "15",
 		"description": [
-			"At 15th level, while wielding a light or one-handed piercing melee weapon in one hand, the swashbuckler can spend 1 panache point to take the fighting defensively action as a swift action instead of a standard action. When fighting defensively in this manner, the dodge bonus to AC gained from that action increases to +4, and the penalty to attack rolls is reduced to -2."
+			"At 15th level, while wielding a light or one-handed piercing melee weapon in one hand, the swashbuckler can spend 1 panache point to take the [fighting defensively](rule/attack) action as a swift action instead of a standard action. When fighting defensively in this manner, the dodge bonus to AC gained from that action increases to +4, and the penalty to attack rolls is reduced to -2."
 		]
 	},
 	"perfect_thrust": {
@@ -154,7 +154,7 @@
 		"compilationSources": [ [ "Advanced Class Guide", 59 ] ],
 		"category": "15",
 		"description": [
-			"At 15th level, while the swashbuckler has at least 1 panache point, she can take 10 on any Acrobatics, Climb, Escape Artist, Fly, Ride, or Swim check, even while distracted or in immediate danger. She can use this ability in conjunction with the derring-do deed."
+			"At 15th level, while the swashbuckler has at least 1 panache point, she can take 10 on any Acrobatics, Climb, Escape Artist, Fly, Ride, or Swim check, even while distracted or in immediate danger. She can use this ability in conjunction with the {swashdeed/derring-do} deed."
 		]
 	},
 	"cheat_death": {
@@ -181,7 +181,7 @@
 		"compilationSources": [ [ "Advanced Class Guide", 59 ] ],
 		"category": "19",
 		"description": [
-			"At 19th level, when a swashbuckler hits a creature with a light or one-handed piercing melee weapon, she can spend 2 panache points to stun the creature for 1 round. The creature must succeed at a Fortitude saving throw (DC = 10 + 1/2 the swashbuckler's level + the swashbuckler's Dexterity modifier) or be stunned for 1 round. Creatures that are immune to critical hits are also immune to this effect."
+			"At 19th level, when a swashbuckler hits a creature with a light or one-handed piercing melee weapon, she can spend 2 panache points to stun the creature for 1 round. The creature must succeed at a Fortitude saving throw (DC = 10 + 1/2 the swashbuckler's level + the swashbuckler's Dexterity modifier) or be {misc/stunned} for 1 round. Creatures that are immune to critical hits are also immune to this effect."
 		]
 	}
 }

@@ -350,7 +350,7 @@
 		"compilationSources": [ [ "Chronicle of Legends", 7 ] ],
 		"category": "Advanced Slayer Talents",
 		"description": [
-			"Some slayers prefer weapons with grim symbolism of lives cut short and can wield such weapons with unparalleled lethality. A slayer with this talent treats any {eq-weapon/sickle} or {eq-weapon/scythe} he wields as though it were [one size larger](rule/weapon_descriptions) for the purpose of determining its damage dice. In addition, the slayer increases the critical threat range of any sickle or scythe he wields by 1; this does not stack with other effects that alter a weapon's threat range."
+			"Some slayers prefer weapons with grim symbolism of lives cut short and can wield such weapons with unparalleled lethality. A slayer with this talent treats any {eq-weapon/sickle} or {eq-weapon/scythe} he wields as though it were {misc/one size category larger} for the purpose of determining its damage dice. In addition, the slayer increases the critical threat range of any sickle or scythe he wields by 1; this does not stack with other effects that alter a weapon's threat range."
 		],
 		"topLink": [ "Advanced Slayer Talents", "ability/advanced_slayer_talents" ]
 	},

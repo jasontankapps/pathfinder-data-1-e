@@ -3100,8 +3100,8 @@ Object.values(basic_data_groups).forEach(object => {
 });
 
 export const templates_by_link = {
-	_basic: "## [[TITLE]]??SUFFIX: [[SUFFIX]]??[[N]][[N]]??SOURCE:[[SOURCE]]  [[N]]??[[DESC]]",
-	trait: "## [[TITLE]]??SUFFIX: [[SUFFIX]]??[[N]][[N]][[DESC]]??SOURCE:[[N]][[N]]>[[SOURCE]]??"
+	_basic: "## !-TITLE-!??SUFFIX: !-SUFFIX-!??!-N-!!-N-!??SOURCE:!-SOURCE-!  !-N-!??!-DESC-!",
+	trait: "## !-TITLE-!??SUFFIX: !-SUFFIX-!??!-N-!!-N-!!-DESC-!??SOURCE:!-N-!!-N-!>!-SOURCE-!??"
 };
 
 export default basic_data_groups;
