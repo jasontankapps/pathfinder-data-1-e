@@ -53,7 +53,7 @@
 	},
 	"bladebound": {
 		"name": "Bladebound",
-		"sources": [],
+		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"## Bladebound",
 			"",
@@ -159,7 +159,7 @@
 	},
 	"eldritch_archer": {
 		"name": "Eldritch Archer",
-		"sources": [],
+		"sources": [ "Heroes of the Streets" ],
 		"description": [
 			"## Eldritch Archer",
 			"",
@@ -856,7 +856,7 @@
 	},
 	"spire_defender": {
 		"name": "Spire Defender",
-		"sources": [],
+		"sources": [ "Inner Sea Magic" ],
 		"description": [
 			"## Spire Defender",
 			"",

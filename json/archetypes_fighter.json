@@ -408,7 +408,7 @@
 	},
 	"dragonheir_scion": {
 		"name": "Dragonheir Scion",
-		"sources": [],
+		"sources": [ "Legacy of Dragons" ],
 		"description": [
 			"## Dragonheir Scion",
 			"",
@@ -1017,7 +1017,7 @@
 	},
 	"scrapper": {
 		"name": "Scrapper",
-		"sources": [],
+		"sources": [ "Construct Handbook" ],
 		"description": [
 			"## Scrapper",
 			"",
@@ -1587,7 +1587,7 @@
 	},
 	"venomblade": {
 		"name": "Venomblade",
-		"sources": [],
+		"sources": [ "Potions and Poisons" ],
 		"description": [
 			"## Venomblade",
 			"",

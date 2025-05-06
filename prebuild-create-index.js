@@ -52,6 +52,19 @@ const recordType = (type) => {
 	}
 };
 
+// Get file contents
+const get = (filename, logError = false) => {
+	try {
+		return fs.readFileSync(filename, 'utf8');
+	} catch (err) {
+		if (err.code === 'ENOENT') {
+			logError && console.error(filename + ' does not exist');
+			return "";
+		}
+		throw err;
+	}
+};
+
 Object.entries(basic_data_groups).forEach(([file, groupobject]) => {
 	const {data, link, num, type, searchgroup: sg} = groupobject;
 	recordType(type);
@@ -117,23 +130,41 @@ Object.entries(basic_data_groups).forEach(([file, groupobject]) => {
 });
 
 Object.entries($groupingData).forEach(([prop, value]) => {
-	fs.writeFileSync(`./src/json/_data_${prop}.json`, JSON.stringify(value));
-	console.log(`Saved ./src/json/_data_${prop}.json`);
+	const url = `./src/json/_data_${prop}.json`;
+	const file = JSON.stringify(value);
+	if(get(url).trim() === file) {
+		console.log(`UNCHANGED ${url}`);
+	} else {
+		fs.writeFileSync(url, file);
+		console.log(`Saved ${url}`);
+	}
 });
-
-fs.writeFileSync('./src/json/_data__fuse-translated_data.json', JSON.stringify({
-	data: $dataIndex,
-	types: $allTypes,
-	prefixes: $allPrefixes,
-	searchindex: SEARCHINDEX
-}));
-console.log("Saved ./src/json/_data__fuse-translated-data.json");
-
-fs.writeFileSync('./src/json/_data__fuse-index.json', JSON.stringify($fuseIndex));
-console.log("Saved ./src/json/_data__fuse-index.json");
 
 const $allLinks = {};
 $allIncludingCopies.forEach(([link, title]) => ($allLinks[link] = title || "BLANK"));
 
-fs.writeFileSync('./src/json/_data__all_links.json', JSON.stringify($allLinks));
-console.log("Saved ./src/json/_data__all_links.json");
+const $filedata = [
+	JSON.stringify({
+		data: $dataIndex,
+		types: $allTypes,
+		prefixes: $allPrefixes,
+		searchindex: SEARCHINDEX
+	}),
+	JSON.stringify($fuseIndex),
+	JSON.stringify($allLinks)
+];
+const $urls = [
+	'./src/json/_data__fuse-translated_data.json',
+	'./src/json/_data__fuse-index.json',
+	'./src/json/_data__all_links.json'
+];
+
+$filedata.forEach((data, i) => {
+	const filename = $urls[i];
+	if(get(filename).trim() === data) {
+		console.log(`UNCHANGED ${filename}`);
+	} else {
+		fs.writeFileSync(filename, data);
+		console.log(`Saved ${filename}`);
+	}
+});

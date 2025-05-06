@@ -185,7 +185,7 @@
 	},
 	"crashing_wave": {
 		"name": "Crashing Wave",
-		"sources": [],
+		"sources": [ "Blood of the Sea" ],
 		"description": [
 			"## Crashing Wave",
 			"",
@@ -387,7 +387,7 @@
 	},
 	"evangelist": {
 		"name": "Evangelist",
-		"sources": [],
+		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## Evangelist",
 			"",

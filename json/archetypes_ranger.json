@@ -674,7 +674,7 @@
 	},
 	"ilsurian_archer": {
 		"name": "Ilsurian Archer",
-		"sources": [],
+		"sources": [ "Weapon Master's Handbook" ],
 		"description": [
 			"## Ilsurian Archer",
 			"",
@@ -1478,7 +1478,7 @@
 	},
 	"trapper": {
 		"name": "Trapper",
-		"sources": [],
+		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"## Trapper",
 			"",

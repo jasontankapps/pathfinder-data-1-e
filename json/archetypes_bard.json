@@ -613,7 +613,7 @@
 	},
 	"dragon_herald": {
 		"name": "Dragon Herald",
-		"sources": [],
+		"sources": [ "Kobolds of Golarion" ],
 		"description": [
 			"## Dragon Herald",
 			"",
@@ -743,7 +743,7 @@
 	},
 	"fey_courtier": {
 		"name": "Fey Courtier",
-		"sources": [],
+		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Fey Courtier",
 			"",
@@ -935,7 +935,7 @@
 	},
 	"fortune_teller": {
 		"name": "Fortune-Teller",
-		"sources": [],
+		"sources": [ "Villain Codex" ],
 		"description": [
 			"## Fortune-Teller",
 			"",

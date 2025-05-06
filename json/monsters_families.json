@@ -59,7 +59,7 @@
 			"",
 			"Individual agathions may be male or female, but they do not reproduce among their own kind-every agathion is a unique individual made from the soul of a good mortal. This does not prevent them from falling in love or having affairs with mortals, and a few aasimar and celestial sorcerer bloodlines derive from past contact with agathions, particularly among communities not averse to anthropomorphic humanoids. Indeed, many mythologies tie numerous races of this kind to the inevitable result of human tribes forming strong emotional attachments to visiting agathions.",
 			"",
-			"Agathions speak Celestial, Draconic, and Infernal, though they can communicate with any intelligent creature because of their truespeech ability. They can also communicate with animals using a similar, silent ability. Even the weakest agathion is able to heal itself or others using a power similar to a paladin's ability to lay on hands. All agathions have a number of similar traits, as detailed in their [subtype](subtype/agathion).",
+			"Agathions speak Celestial, Draconic, and Infernal, though they can communicate with any intelligent creature because of their truespeech ability. They can also communicate with animals using a similar, silent ability. Even the weakest agathion is able to heal itself or others using a power similar to a paladin's ability to lay on hands. All {subtype/agathion/s} have a number of similar traits, as detailed in their subtype.",
 			"",
 			"Agathions serving a particular deity or empyreal lord may have additional abilities depending on the role their deity assigns them. For example, a cetaceal serving a goddess of volcanic islands may be able to change shape into a more human-like form to walk on land, and may be immune to fire to tolerate and tend to the life-rich thermal vents at the ocean floor.",
 			"",
@@ -583,11 +583,11 @@
 			"",
 			"### Members of This Family:",
 			"",
-			"- [Flesh Colossus](monster/flesh_colossus_mythic)",
-			"- [Iron Colossus](monster/iron_colossus_mythic)",
-			"- [Sphinx Colossus](monster/sphinx_colossus_mythic)",
-			"- [Stone Colossus](monster/stone_colossus_mythic)",
-			"- [Wood Colossus](monster/wood_colossus_mythic)"
+			"- {monster/Flesh Colossus}",
+			"- {monster/Iron Colossus}",
+			"- {monster/Sphinx Colossus}",
+			"- {monster/Stone Colossus}",
+			"- {monster/Wood Colossus}"
 		]
 	},
 	"daemon": {
@@ -610,7 +610,7 @@
 			"",
 			"### The Four Horsemen",
 			"",
-			"Four dread lords, infamous across all the planes, rule the disparate hordes of daemonkind. Risen from among the ranks of their terrible brethren to displace those fiendish tyrants before them, they are the archdaemons, the End Bringers, the [Four Horsemen of the Apocalypse](family/horsemen_of_the_apocalypse). In the blasphemous annals of fiendish lore, they are the prophesied architects of multiversal ruin, destined to stand triumphant over cadaverous cosmoses and infinities of silence before also giving way to absolute oblivion. Undisputed in his power among their kind, each Horseman rules a vast realm upon the bleak plains of Abaddon and a distinctive method of mortal ruin: pestilence, famine, war, or death from old age. Yet while each archdaemon commands measureless influence, daemons know nothing of loyalty and serve only those they cannot overcome. Thus, though the Horsemen stand peerless in their power and manipulations among daemonkind, they must ever defend their thrones from the machinations of ambitious underlings and the plots of other archdaemons.",
+			"Four dread lords, infamous across all the planes, rule the disparate hordes of daemonkind. Risen from among the ranks of their terrible brethren to displace those fiendish tyrants before them, they are the archdaemons, the End Bringers, the {family/Four |Horsemen of the Apocalypse}. In the blasphemous annals of fiendish lore, they are the prophesied architects of multiversal ruin, destined to stand triumphant over cadaverous cosmoses and infinities of silence before also giving way to absolute oblivion. Undisputed in his power among their kind, each Horseman rules a vast realm upon the bleak plains of Abaddon and a distinctive method of mortal ruin: pestilence, famine, war, or death from old age. Yet while each archdaemon commands measureless influence, daemons know nothing of loyalty and serve only those they cannot overcome. Thus, though the Horsemen stand peerless in their power and manipulations among daemonkind, they must ever defend their thrones from the machinations of ambitious underlings and the plots of other archdaemons.",
 			"",
 			"Upon the poisonous expanses of Abaddon, lesser daemonic peers carve petty fiefdoms and posture as lords, but despite their world-spanning intrigues, all bow before the Horsemen - though most do so only grudgingly. Ancient myths also tell of a mysterious fifth Horseman, the Oinodaemon, though nearly all mention of such a creature has been scoured from the multiverse.",
 			"",
@@ -669,7 +669,10 @@
 	},
 	"daemonic_harbinger": {
 		"name": "Daemonic Harbinger",
-		"sources": [],
+		"sources": [
+			"Inner Sea Bestiary",
+			"Druma, Profit and Prophecy"
+		],
 		"description": [
 			"## Daemonic Harbinger",
 			"",
@@ -677,7 +680,7 @@
 			"",
 			"### Members of This Family:",
 			"",
-			"- [Daemonic Harbinger, Braismois](monster/braismois)",
+			"- {monster/Daemonic Harbinger, |Braismois}",
 			"- {monster/Zelishkar of the Bitter Flame}"
 		]
 	},
@@ -1094,7 +1097,7 @@
 			"",
 			"**Dragon Senses (Ex):** Dragons have darkvision 120 ft. and blindsense 60 ft. They see four times as well as a human in dim light and twice as well in normal light.",
 			"",
-			"**Frightful Presence (Ex):** A dragon's frightful presence has a range equal to 30 feet &times; the dragon's age category, but otherwise functions as detailed in the [Universal Monster Rules](umr/frightful_presence).",
+			"**Frightful Presence (Ex):** A dragon's {umr/frightful presence} has a range equal to 30 feet &times; the dragon's age category, but otherwise functions as detailed in the Universal Monster Rules.",
 			"",
 			"**Spells:** A dragon knows and casts arcane spells as a sorcerer of the level indicated in its specific description. Its caster level depends on its age, as shown for each type.",
 			"",
@@ -1179,7 +1182,7 @@
 			"",
 			"### Mythic Members of This Family:",
 			"",
-			"- [Mature Adult Black Dragon](monster/mature_adult_black_dragon_mythic)"
+			"- {monster/Mature Adult Black Dragon>_mythic}"
 		]
 	},
 	"black_dragon": { "copyof": "dragon_black" },
@@ -1230,7 +1233,7 @@
 			"",
 			"### Mythic Members of This Family:",
 			"",
-			"- [Mature Adult Blue Dragon](monster/mature_adult_blue_dragon_mythic)"
+			"- {monster/Mature Adult Blue Dragon>_mythic}"
 		]
 	},
 	"blue_dragon": { "copyof": "dragon_blue" },
@@ -1538,7 +1541,7 @@
 			"",
 			"### Mythic Members of This Family:",
 			"",
-			"- [Very Old Green Dragon](monster/very_old_green_dragon_mythic)"
+			"- {monster/Very Old Green Dragon>_mythic}"
 		]
 	},
 	"green_dragon": { "copyof": "dragon_green" },
@@ -2207,7 +2210,7 @@
 			"",
 			"**Dragon Senses (Ex):** Dragons have darkvision 120 ft. and blindsense 60 ft. They see four times as well as a human in dim light and twice as well in normal light.",
 			"",
-			"**Frightful Presence (Ex):** A dragon's frightful presence has a range equal to 30 feet &times; the dragon's age category, but otherwise functions as detailed in the [Universal Monster Rules](umr/frightful_presence).",
+			"**Frightful Presence (Ex):** A dragon's {umr/frightful presence} has a range equal to 30 feet &times; the dragon's age category, but otherwise functions as detailed in the Universal Monster Rules.",
 			"",
 			"**Immunities (Ex):** Every dragon is immune to sleep and paralysis. In addition, a dragon is immune to one or two additional forms of attack no matter what its age, as given in its description.",
 			"",
@@ -2667,7 +2670,7 @@
 			"",
 			"### Mythic Members of This Family:",
 			"",
-			"- [Juvenile White Dragon](monster/juvenile_white_dragon_mythic)"
+			"- {monster/Juvenile White Dragon>_mythic}"
 		]
 	},
 	"white_dragon": { "copyof": "dragon_white" },

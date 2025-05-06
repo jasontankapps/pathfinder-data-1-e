@@ -329,7 +329,7 @@
 	},
 	"gravewalker": {
 		"name": "Gravewalker",
-		"sources": [],
+		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"## Gravewalker",
 			"",
@@ -624,7 +624,7 @@
 	},
 	"mirror_witch": {
 		"name": "Mirror Witch",
-		"sources": [],
+		"sources": [ "Villain Codex" ],
 		"description": [
 			"## Mirror Witch",
 			"",
@@ -735,7 +735,7 @@
 	},
 	"pact_witch": {
 		"name": "Pact Witch",
-		"sources": [],
+		"sources": [ "Planar Adventures" ],
 		"description": [
 			"## Pact Witch",
 			"",

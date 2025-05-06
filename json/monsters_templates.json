@@ -149,7 +149,7 @@
 			"",
 			"**Hit Dice:** Change all the creature's racial Hit Dice to d10s. Hit Dice derived from class levels remain unchanged.",
 			"",
-			"**Defensive Abilities:** An alebrije with 5 Hit Dice or more gains DR 5/magic (or DR 10/magic if it has 11 Hit Dice or more) and SR equal to its new CR + 6 (or SR equal to its new CR + 11 if it has 11 Hit Dice or more). In addition, an alebrije gains cold resistance 5 and fire resistance 5 (or cold resistance 10 and fire resistance 10 if it has 11 Hit Dice or more). Finally, an alebrije gains light fortification, as the [fortification](magic-enh/moderate_fortification) armor special ability.",
+			"**Defensive Abilities:** An alebrije with 5 Hit Dice or more gains DR 5/magic (or DR 10/magic if it has 11 Hit Dice or more) and SR equal to its new CR + 6 (or SR equal to its new CR + 11 if it has 11 Hit Dice or more). In addition, an alebrije gains cold resistance 5 and fire resistance 5 (or cold resistance 10 and fire resistance 10 if it has 11 Hit Dice or more). Finally, an alebrije gains light fortification, as the {magic-enh/fortification} armor special ability.",
 			"",
 			"**Speed:** An alebrije with 5 Hit Dice or more grows wings and gains a fly speed of 20 feet (average). If the alebrije has 11 Hit Dice or more, it gains a fly speed of 40 feet (average) instead. An alebrije that already has a fly speed improves its maneuverability by one step instead.",
 			"",
@@ -485,7 +485,7 @@
 	},
 	"bestial_creature": {
 		"name": "Bestial Creature",
-		"sources": [],
+		"sources": [ "Lost Treasures" ],
 		"description": [
 			"## Bestial Creature (CR +0)",
 			"",
@@ -1584,7 +1584,7 @@
 			"",
 			"### Construction",
 			"",
-			"An energized golem's body must be magically reinforced to withstand the raw energy of the elemental to be sealed within it, costing an additional 25,000 gp above the base golem's cost. All Craft check DCs to create the golem are increased by 5, and the minimum caster level requirements are 2 higher than normal. In addition, the following spells are added to the base golem's requirements: any [magic circle](spell/magic_circle_against_evil) spell and {spell/planar binding}."
+			"An energized golem's body must be magically reinforced to withstand the raw energy of the elemental to be sealed within it, costing an additional 25,000 gp above the base golem's cost. All Craft check DCs to create the golem are increased by 5, and the minimum caster level requirements are 2 higher than normal. In addition, the following spells are added to the base golem's requirements: any {spell/magic circle>_against_evil} spell and {spell/planar binding}."
 		]
 	},
 	"enlightened_construct": {
@@ -2734,7 +2734,7 @@
 			"",
 			"**Spell-Like Abilities:** A guardian spirit's caster level for its spell-like abilities is equal to its Challenge Rating + 1, or to the base creature's caster level, whichever is higher. It can cast guidance at will. For every spell level of the conjuration spell used to call or summon it (such as {spell/planar ally}, {spell/planar binding}, or {spell/summon monster>_1} if the summoner has the {feat/Summon Guardian Spirit} feat), the guardian spirit gains access to one additional spell-like ability of the ward's choice from the following list:",
 			"",
-			"**Spell Level 3:** {spell/Chill touch}, {spell/ill omen}, [protection from chaos/evil/good/law](spell/protection_from_evil) (choose one; its alignment descriptor must oppose the guardian spirit's alignment).  ",
+			"**Spell Level 3:** {spell/Chill touch}, {spell/ill omen}, {spell/protection from[ chaos//evil//good]//law} (choose one; its alignment descriptor must oppose the guardian spirit's alignment).  ",
 			"**Spell Level 4:** {spell/Call lightning}, {spell/detect thoughts}, {spell/invisibility}.  ",
 			"**Spell Level 5:** {spell/Cure serious wounds}, {spell/dispel magic}, {spell/shout}.  ",
 			"**Spell Level 6:** {spell/Call lightning storm}, {spell/death ward}, {spell/freedom of movement}.  ",

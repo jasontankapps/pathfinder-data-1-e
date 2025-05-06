@@ -627,6 +627,7 @@
 	"colossus_flesh_colossus": { "copyof": "colossus_flesh_colossus_mythic" },
 	"colossus_flesh": { "copyof": "colossus_flesh_colossus_mythic" },
 	"flesh_colossus_mythic": { "copyof": "colossus_flesh_colossus_mythic" },
+	"flesh_colossus": { "copyof": "colossus_flesh_colossus_mythic" },
 	"colossus_iron_colossus_mythic": {
 		"name": "Iron Colossus",
 		"sources": [ "Bestiary 4" ],
@@ -706,6 +707,7 @@
 	"colossus_iron_colossus": { "copyof": "colossus_iron_colossus_mythic" },
 	"colossus_iron": { "copyof": "colossus_iron_colossus_mythic" },
 	"iron_colossus_mythic": { "copyof": "colossus_iron_colossus_mythic" },
+	"iron_colossus": { "copyof": "colossus_iron_colossus_mythic" },
 	"colossus_sphinx_colossus_mythic": {
 		"name": "Sphinx Colossus",
 		"sources": [
@@ -782,6 +784,7 @@
 	"colossus_sphinx_colossus": { "copyof": "colossus_sphinx_colossus_mythic" },
 	"colossus_sphinx": { "copyof": "colossus_sphinx_colossus_mythic" },
 	"sphinx_colossus_mythic": { "copyof": "colossus_sphinx_colossus_mythic" },
+	"sphinx_colossus": { "copyof": "colossus_sphinx_colossus_mythic" },
 	"colossus_stone_colossus_mythic": {
 		"name": "Stone Colossus",
 		"sources": [ "Bestiary 4" ],
@@ -861,6 +864,7 @@
 	"colossus_stone_colossus": { "copyof": "colossus_stone_colossus_mythic" },
 	"colossus_stone": { "copyof": "colossus_stone_colossus_mythic" },
 	"stone_colossus_mythic": { "copyof": "colossus_stone_colossus_mythic" },
+	"stone_colossus": { "copyof": "colossus_stone_colossus_mythic" },
 	"colossus_wood_colossus_mythic": {
 		"name": "Wood Colossus",
 		"sources": [ "Bestiary 5" ],
@@ -931,6 +935,7 @@
 	"colossus_wood_colossus": { "copyof": "colossus_wood_colossus_mythic" },
 	"colossus_wood": { "copyof": "colossus_wood_colossus_mythic" },
 	"wood_colossus_mythic": { "copyof": "colossus_wood_colossus_mythic" },
+	"wood_colossus": { "copyof": "colossus_wood_colossus_mythic" },
 	"cyclops_great_cyclops_mythic": {
 		"name": "Great Cyclops",
 		"sources": [ "Mythic Adventures" ],
@@ -2193,7 +2198,7 @@
 			"",
 			"#### Hillblood Ettin (CR 8/MR 3)",
 			"",
-			"A hill-giant-dominant mythic ettin loses its powerful charge and stench abilities but gains a [mythic hill giant's](monster/hill_giant_mythic) earth bond and ground pound abilities.",
+			"A hill-giant-dominant mythic ettin loses its powerful charge and stench abilities but gains a {monster/mythic hill giant/'s} earth bond and ground pound abilities.",
 			"",
 			"#### Orcblood Ettin (CR 8/MR 3)",
 			"",
@@ -2378,6 +2383,7 @@
 		]
 	},
 	"hill_giant_mythic": { "copyof": "giant_hill_giant_mythic" },
+	"mythic_hill_giant": { "copyof": "giant_hill_giant_mythic" },
 	"glaistig_mythic": {
 		"name": "Glaistig",
 		"sources": [ "Bestiary 5" ],
@@ -2644,7 +2650,7 @@
 			"",
 			"### Mythic Barghest",
 			"",
-			"Only exceptional barghests that feed on mythic humanoids can become mythic greater barghests. To create a mythic barghest, add the agile [mythic simple template](rule/mythic_simple_templates) to a non-mythic barghest.",
+			"Only exceptional barghests that feed on mythic humanoids can become mythic greater barghests. To create a mythic barghest, add the agile {rule/mythic simple template>s} to a non-mythic barghest.",
 			"",
 			"If the mythic barghest uses its feed ability on a mythic humanoid's corpse, it gains a mythic growth point instead of a growth point. If a mythic barghest reaches 4 growth points, it transforms into a greater barghest with the agile mythic simple template and loses its mythic growth points. If a mythic barghest gains 4 mythic growth points, it transforms into a mythic greater barghest and loses the agile mythic simple template."
 		]

@@ -243,7 +243,7 @@
 	},
 	"bramble_brewer": {
 		"name": "Bramble Brewer",
-		"sources": [],
+		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Bramble Brewer",
 			"",
@@ -305,7 +305,7 @@
 	},
 	"concocter": {
 		"name": "Concocter",
-		"sources": [],
+		"sources": [ "Potions and Poisons" ],
 		"description": [
 			"## Concocter",
 			"",
@@ -1303,7 +1303,7 @@
 	},
 	"promethean_alchemist": {
 		"name": "Promethean Alchemist",
-		"sources": [],
+		"sources": [ "Occult Adventures" ],
 		"description": [
 			"## Promethean Alchemist",
 			"",

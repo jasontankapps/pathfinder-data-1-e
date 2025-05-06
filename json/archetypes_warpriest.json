@@ -243,7 +243,7 @@
 	},
 	"jistkan_magistrate": {
 		"name": "Jistkan Magistrate",
-		"sources": [],
+		"sources": [ "Blood of the Ancients" ],
 		"description": [
 			"## Jistkan Magistrate",
 			"",
@@ -379,7 +379,7 @@
 	},
 	"proselytizer": {
 		"name": "Proselytizer",
-		"sources": [],
+		"sources": [ "Cohorts and Companions" ],
 		"description": [
 			"## Proselytizer",
 			"",

@@ -362,7 +362,7 @@
 	},
 	"involutionist": {
 		"name": "Involutionist",
-		"sources": [],
+		"sources": [ "Adventurer's Guide" ],
 		"description": [
 			"## Involutionist",
 			"",
@@ -473,7 +473,7 @@
 	},
 	"phantom_blade": {
 		"name": "Phantom Blade",
-		"sources": [],
+		"sources": [ "Psychic Anthology" ],
 		"description": [
 			"## Phantom Blade",
 			"",

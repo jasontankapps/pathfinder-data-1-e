@@ -33,7 +33,7 @@
 			"",
 			"::h3[Armored Juggernaut]{jl extra=(Ex)}",
 			"",
-			"When wearing heavy armor, the fighter gains DR 1/-. At 7th level, the fighter gains DR 1/- when wearing medium armor, and DR 2/- when wearing heavy armor. At 11th level, the fighter gains DR 1/- when wearing light armor, DR 2/- when wearing medium armor, and DR 3/- when wearing heavy armor. If the fighter is 19th level and has the armor mastery class feature, these DR values increase by 5. The DR from this ability stacks with that provided by {eq-material/adamantine} armor, but not with other forms of damage reduction. This damage reduction does not apply if the fighter is [helpless, stunned, or unconscious](rule/awareness_conditions).",
+			"When wearing heavy armor, the fighter gains DR 1/-. At 7th level, the fighter gains DR 1/- when wearing medium armor, and DR 2/- when wearing heavy armor. At 11th level, the fighter gains DR 1/- when wearing light armor, DR 2/- when wearing medium armor, and DR 3/- when wearing heavy armor. If the fighter is 19th level and has the armor mastery class feature, these DR values increase by 5. The DR from this ability stacks with that provided by {eq-material/adamantine} armor, but not with other forms of damage reduction. This damage reduction does not apply if the fighter is {misc/helpless}, {misc/stunned}, or {misc/unconscious}.",
 			"",
 			"::h3[Armored Master]{jl}",
 			"",
@@ -482,7 +482,7 @@
 	},
 	"aspects": {
 		"name": "Aspects",
-		"sources": [],
+		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"{SOURCE Ultimate Wilderness;Wilderness Origins}",
 			"",
@@ -814,7 +814,7 @@
 	},
 	"bloodrager_bloodlines": {
 		"name": "Bloodrager Bloodlines",
-		"sources": [],
+		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Bloodrager Bloodlines",
 			"",

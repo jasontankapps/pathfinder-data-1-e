@@ -501,7 +501,7 @@
 			"## Psychic Magic (Sp)",
 			"",
 			"{SOURCE Bestiary 5/297}  ",
-			"A creature with this ability can use the power of its mind to cast certain spells. Each spell cast using psychic magic consumes an amount of psychic energy. The creature has a maximum amount of psychic energy (PE) per day that refreshes after a night's rest. A creature with this ability can cast any of the spells listed in this entry as long as it has enough psychic energy remaining to pay the spell's PE cost. The DC for any of these spells is equal to 10 + the amount of psychic energy used to cast the spell + the creature's Charisma or Intelligence modifier (whichever is higher). A creature that gains access to [undercast spells](rule/undercasting_spells) via this ability can cast an undercast version of the spell by spending 1 PE fewer for each level lower that the spell is cast. A psychic magic spell with a PE cost of 0 can be cast any number of times, and can be cast even if the creature has 0 PE remaining. The psychic magic granted by this ability has the same thought and emotion components as psychic spells. The monster can apply metamagic feats to these spells by spending an amount of additional PE equal to the level increase of the metamagic feat and by increasing the casting time as normal for spontaneously casting a metamagic spell. Because this ability grants psychic spellcasting, it also allows the creature to use {rule/occult skill unlocks}.",
+			"A creature with this ability can use the power of its mind to cast certain spells. Each spell cast using psychic magic consumes an amount of psychic energy. The creature has a maximum amount of psychic energy (PE) per day that refreshes after a night's rest. A creature with this ability can cast any of the spells listed in this entry as long as it has enough psychic energy remaining to pay the spell's PE cost. The DC for any of these spells is equal to 10 + the amount of psychic energy used to cast the spell + the creature's Charisma or Intelligence modifier (whichever is higher). A creature that gains access to {rule/undercast«ing» spells} via this ability can cast an undercast version of the spell by spending 1 PE fewer for each level lower that the spell is cast. A psychic magic spell with a PE cost of 0 can be cast any number of times, and can be cast even if the creature has 0 PE remaining. The psychic magic granted by this ability has the same thought and emotion components as psychic spells. The monster can apply metamagic feats to these spells by spending an amount of additional PE equal to the level increase of the metamagic feat and by increasing the casting time as normal for spontaneously casting a metamagic spell. Because this ability grants psychic spellcasting, it also allows the creature to use {rule/occult skill unlocks}.",
 			"",
 			"**Format:** Psychic Magic (Sp) (CL 10th; concentration +14) 12 PE-{spell/charm person} (1 PE, DC 14), {spell/disguise self} (2 PE), {spell/mind thrust III} (3 PE, DC 16), {spell/tower of iron will I} (5 PE)  ",
 			"**Location:** before Spell-Like Abilities."
@@ -874,7 +874,7 @@
 			"## Emotion Aura (Su)",
 			"",
 			"{SOURCE Bestiary 5/292}  ",
-			"A creature with this ability surrounds itself with an area of swirling, chaotic emotions. These emotions make it difficult for spellcasters to cast spells with the [emotion component](rule/components_oa). Living creatures within 30 feet must succeed at a {rule/concentration} check (DC = 10 + 1/2 the HD of the creature with an emotion aura + that creature's Charisma modifier) to cast a spell with an emotion component. Failing this check causes the spell to be lost with no effect. In addition, any spellcaster casting spells with the emotion or fear descriptor on targets inside this aura must succeed at this check or the spell fails to affect targets within the aura (although others outside the area are affected as normal). Creatures with this ability are immune to its effects and can cast spells normally.",
+			"A creature with this ability surrounds itself with an area of swirling, chaotic emotions. These emotions make it difficult for spellcasters to cast spells with the {rule/emotion |component>s_oa}. Living creatures within 30 feet must succeed at a {rule/concentration} check (DC = 10 + 1/2 the HD of the creature with an emotion aura + that creature's Charisma modifier) to cast a spell with an emotion component. Failing this check causes the spell to be lost with no effect. In addition, any spellcaster casting spells with the emotion or fear descriptor on targets inside this aura must succeed at this check or the spell fails to affect targets within the aura (although others outside the area are affected as normal). Creatures with this ability are immune to its effects and can cast spells normally.",
 			"",
 			"**Format:** emotion (DC 17)  ",
 			"**Location:** Aura."
@@ -1942,7 +1942,7 @@
 	},
 	"ink_cloud": {
 		"name": "Ink Cloud",
-		"sources": [],
+		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"## Ink Cloud (Ex)",
 			"",
