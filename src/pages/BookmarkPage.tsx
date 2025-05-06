@@ -51,11 +51,12 @@ interface BookmarkDividerProps extends BaseProps {
 	color: Color
 }
 interface BookmarkItemProps extends BaseProps {
+	link: string,
 	doEdit: (title: string, position: number) => void
 }
 
 const BookmarkItem: FC<BookmarkItemProps> = (props) => {
-	const { index, id, title, doEdit } = props;
+	const { index, id, link, title, doEdit } = props;
 	const [, navigate] = useLocation();
 	const dispatch = useAppDispatch();
 	return (
@@ -64,7 +65,7 @@ const BookmarkItem: FC<BookmarkItemProps> = (props) => {
 				<IonReorder slot="start">
 					<IonIcon icon={reorderTwo} />
 				</IonReorder>
-				<IonLabel onClick={() => { navigate(id); dispatch(goTo(id)); }}>{title}</IonLabel>
+				<IonLabel onClick={() => { navigate(link); dispatch(goTo(link)); }}>{title}</IonLabel>
 				<IonIcon slot="end" icon="/icons/swipe-left.svg" />
 			</IonItem>
 			<IonItemOptions side="end">
@@ -232,7 +233,7 @@ const KeyedBookmarkPage: FC<{id: string}> = ({id}) => {
 			if(title === universalBookmarkDividerId) {
 				return <BookmarkDivider color={color} index={position} title={title} id={id} key={`orderable-bookmark-${link}-in-group-${id || ""}`} />;
 			}
-			return <BookmarkItem id={id} index={position} title={title} doEdit={doEdit} key={`orderable-bookmark-${link}-in-group-${id || ""}`} />;
+			return <BookmarkItem id={id} link={link} index={position} title={title} doEdit={doEdit} key={`orderable-bookmark-${link}-in-group-${id || ""}`} />;
 		});
 	} , [contents, id, color, doEdit, dispatch, navigate]);
 

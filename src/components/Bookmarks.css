@@ -509,6 +509,8 @@ div.basicContent.bookmarks.importExport div.block ion-textarea {
 	margin-block: 0.5rem;
 	padding-inline: 1rem;
 	text-align: start;
+	height: 45vh;
+	min-height: 5rem;
 }
 div.basicContent.bookmarks.importExport div.block ion-textarea .native-wrapper {
 	background: transparent;

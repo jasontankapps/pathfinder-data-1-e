@@ -199,7 +199,6 @@ const ImportModal: FC<ModalProps> = (props) => {
 							// Check
 							() => setToImport([...toImport, i])
 						);
-						console.log(color, title, JSON.stringify(contents));
 						return (
 							<IonItem key={`import-option-${id}-${title}-${color}/${contents.length}`} className={checked ? "importOption" : "importOption unselected"}>
 								<IonCheckbox justify="space-between" checked={checked} onClick={onClick} color={coloring} labelPlacement="start">

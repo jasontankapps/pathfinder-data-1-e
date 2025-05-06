@@ -35,7 +35,8 @@ import {
 	filterCircle,
 	close as closePlain,
 	filter as filterIcon,
-	helpCircle
+	helpCircle,
+	close
 } from 'ionicons/icons';
 import { RangeInSliceFormat } from '../types';
 import PageFooter from '../components/PageFooter';
@@ -323,6 +324,15 @@ const SearchPage: FC = () => {
 		[setSearchText, dispatch]
 	);
 
+	const clearInput = useCallback(() => {
+		// Only needed because `showClearButton="always"` doesn't work!
+		searchBar && searchBar.getInputElement().then(input => {
+			input.value = "";
+			startTransition(() => setSearchText(""));
+			dispatch(setSearchQuery(""));
+		});
+	}, [setSearchText, dispatch, searchBar]);
+
 	// Might want to store scroll state, too?
 
 	return (
@@ -335,9 +345,13 @@ const SearchPage: FC = () => {
 						type="text"
 						placeholder="Search for titles and topics"
 						onInput={onInput}
-						showClearButton="always"
-					/>
+						showClearButton="never"
+					>
+					</IonSearchbar>
 					<IonButtons slot="end">
+						<IonButton onClick={clearInput} disabled={searchText === ""}>
+							<IonIcon slot="icon-only" icon={close} />
+						</IonButton>
 						<IonButton onClick={() => setFilterOpen(true)} color={filter.length && filter.length < 12 ? "tertiary" : undefined}>
 							<IonIcon slot="icon-only" icon={filterCircle} />
 						</IonButton>

@@ -10,7 +10,7 @@ const parseImport = (data: unknown) => {
 	let msg = "";
 	const found: Pair[] = [];
 	if (Array.isArray(data)) {
-		const [ok, info] = parseArrayInput(data, 1);
+		const [ok, info] = parseArrayInput(data, 1, "old Array import");
 		if(ok) {
 			found.push(...info.map(bit => ["original-" + bit.color, bit] as Pair));
 		} else {
@@ -44,7 +44,7 @@ const parseImport = (data: unknown) => {
 	};
 }
 
-const parseArrayInput = (data: unknown[], cat: number): [true, BG[]] | [false, string] => {
+const parseArrayInput = (data: unknown[], cat: number, errorWhat: string = "import"): [true, BG[]] | [false, string] => {
 	let msg = "";
 	const error = `ERR-${cat}.`;
 	const copy: BG[] = [];
@@ -65,11 +65,11 @@ const parseArrayInput = (data: unknown[], cat: number): [true, BG[]] | [false, s
 			|| colorNames.indexOf(color) === -1
 			|| !Array.isArray(contents)
 		) {
-			msg = error + ".1.2 Malformed format in old Array import";
+			msg = error + ".1.2 Malformed format in " + errorWhat;
 			return false; // data.every fails
 		} else if (!contents.every((pair: any) => {
 			if (!Array.isArray(pair)) {
-				msg = error + ".2 Malformed formatting in old Array import";
+				msg = error + ".2 Malformed formatting in " + errorWhat;
 				return false; // contents.every fails
 			}
 			const [link, title, ...etc] = pair;
@@ -79,18 +79,18 @@ const parseArrayInput = (data: unknown[], cat: number): [true, BG[]] | [false, s
 				|| typeof title !== "string"
 				|| !(title === universalBookmarkDividerId || doesPageExist(link))
 			) {
-				msg = error + ".3 Malformed contents in old Array import";
+				msg = error + ".3 Malformed contents in " + errorWhat;
 				return false; // contents.every fails
 			}
 			return true; // contents.every SUCCEEDS
 		})) {
 			return false; // data.every fails
 		} else {
-			const subset = contents.filter((pair: any) => pair[1] === universalBookmarkDividerId).map(pair => pair[1]);
+			const subset = contents.filter((pair: any) => pair[1] !== universalBookmarkDividerId).map(pair => pair[1]);
 			while (subset.length > 0) {
 				const test = subset.shift()!;
 				if (subset.some(sub => sub === test)) {
-					msg = error + ".4 Duplicate contents in old Array import";
+					msg = error + ".4 Duplicate contents in " + errorWhat;
 					return false; // data.every fails
 				}
 			}
