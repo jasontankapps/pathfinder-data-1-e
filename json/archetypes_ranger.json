@@ -72,7 +72,7 @@
 			"{SOURCE Advanced Player's Guide/124}  ",
 			"Some rangers, particularly those in primitive lands or who were raised by animals, have unusually strong bonds with animals. Unique among rangers, they can bond with multiple animals of any kind, creating a menagerie of wild yet loyal creatures, like a strange family. A beast master has the following class features.",
 			"",
-			"**Class Skills:** A beast master's class skills are Acrobatics (Dex), Climb (Str), Craft (Int), Escape Artist (Dex), Handle Animal (Cha), Heal (Wis), Intimidate (Cha), Knowledge (nature) (Int), Perception (Wis), Ride (Dex), Stealth (Dex), Survival (Wis), and Swim (Wis). These replace the standard ranger class skills.",
+			"**Class Skills:** A beast master's class skills are {skill/Acrobatics} (Dex), {skill/Climb} (Str), {skill/Craft} (Int), {skill/Escape Artist} (Dex), {skill/Handle Animal} (Cha), {skill/Heal} (Wis), {skill/Intimidate} (Cha), {skill/Knowledge (nature)} (Int), {skill/Perception} (Wis), {skill/Ride} (Dex), {skill/Stealth} (Dex), {skill/Survival} (Wis), and {skill/Swim} (Wis). These replace the standard ranger class skills.",
 			"",
 			"**Animal Companion (Ex):** A beast master forms a close bond with an {sidekick/animal companion}. This ability functions like the {class/druid} animal companion ability except that the ranger's effective druid level is equal to his ranger level - 3. The ranger gains a +2 bonus on wild empathy and Handle Animal checks made regarding his animal companion. Unlike a normal ranger, a beast master's choice of animal companion is not limited to a subset of all possibile animal companion choices - he may choose freely among all animal companion choices, just as a druid can.",
 			"",

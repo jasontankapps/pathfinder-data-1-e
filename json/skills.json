@@ -1250,6 +1250,54 @@
 			"**20 Ranks:** If you exceed the DC to demoralize a target by at least 20, it is cowering for 1d4 rounds and panicked thereafter.\\* A Will save (DC = 10 + your number of ranks in Intimidate) negates the cowering and panicked conditions, but the target is still shaken, even if it has the stalwart ability."
 		]
 	},
+	"knowledge_all": {
+		"name": "Knowledge",
+		"sources": [
+			"PRPG Core Rulebook",
+			"Spymaster's Handbook"
+		],
+		"description": [
+			"## Knowledge (arcana)",
+			"",
+			"**Associated Skill:** Intelligence  ",
+			"**Trained Only:** No  ",
+			"**Armor Check Penalty:** No  ",
+			"",
+			"You are educated in a field of study and can answer both simple and complex questions. Like the {skill/Craft}, {skill/Perform}, and {skill/Profession} skills, Knowledge actually encompasses a number of different specialties.",
+			"",
+			"Here are the ten Knowledge subskills and what they typically cover:",
+			"",
+			"- :hll[skill/knowledge_<Arcana:] ancient mysteries, magic traditions, arcane symbols, constructs, dragons, magical beasts, arcane and psychic spellcasting, metamagic feats",
+			"- :hll[skill/knowledge_<Dungeoneering:] aberrations, caverns, oozes, spelunking",
+			"- :hll[skill/knowledge_<Engineering:] buildings, aqueducts, bridges, fortifications",
+			"- :hll[skill/knowledge_<Geography:] lands, terrain, climate, people",
+			"- :hll[skill/knowledge_<History:] wars, colonies, migrations, founding of cities",
+			"- :hll[skill/knowledge_<Local:] legends, personalities, inhabitants, laws, customs, traditions, humanoids, classes that do not grant spells, feats that are not teamwork or metamagic feats",
+			"- :hll[skill/knowledge_<Nature:] animals, fey, monstrous humanoids, plants, seasons and cycles, weather, vermin, classes with access to the druid or ranger spell list",
+			"- :hll[skill/knowledge_<Nobility:] lineages, heraldry, personalities, royalty, teamwork feats",
+			"- :hll[skill/knowledge_<Planes:] the Inner Planes, the Outer Planes, the Astral Plane, the Ethereal Plane, outsiders, planar magic",
+			"- :hll[skill/knowledge_<Religion:] gods and goddesses, mythic history, ecclesiastic tradition, holy symbols, undead, classes that grant divine spells",
+			"",
+			"**Check:** Answering a question within your field of study has a DC of 10 (for really easy questions), 15 (for basic questions), or 20 to 30 (for really tough questions).",
+			"",
+			"You can use this skill to identify monsters and their special powers or vulnerabilities. In general, the DC of such a check equals 10 + the monster's CR. For common monsters, such as goblins, the DC of this check equals 5 + the monster's CR. For particularly rare monsters, such as the tarrasque, the DC of this check equals 15 + the monster's CR, or more. A successful check allows you to remember a bit of useful information about that monster. For every 5 points by which your check result exceeds the DC, you recall another piece of useful information.",
+			"",
+			"**Action:** Usually none. In most cases, a Knowledge check doesn't take an action (but see \"Untrained,\" below).",
+			"",
+			"**Try Again:** No. The check represents what you know, and thinking about a topic a second time doesn't let you know something that you never learned in the first place.",
+			"",
+			"**Untrained:** You cannot make an untrained Knowledge check with a DC higher than 10. If you have access to an extensive library that covers a specific skill, this limit is removed. The time to make checks using a library, however, increases to 1d4 hours. Particularly complete libraries might even grant a bonus on Knowledge checks in the fields that they cover.",
+			"",
+			"::h3[Identify Class Features]{jl}",
+			"",
+			"{SOURCE Spymaster's Handbook/9}  ",
+			"You can identify feats and the class features of various classes with successful Knowledge checks when you observe the feats or class features being used.",
+			"",
+			"**Check:** You can attempt a skill check to identify a feat or class feature when you observe it in use, similar to how {skill/Spellcraft} can be used to identify a spell. The feat or class feature must have some observable effect in order for you to attempt the Knowledge check. For example, you can't see the internal determination of {feat/Iron Will}, so this ability can't identify that feat. In general, if a feat or class feature creates a noticeable effect (such as the extra attack from using {feat/Cleave}) or has a variable modifier a character must choose to use (such as {feat/Arcane Strike}, {feat/Combat Expertise}, or {feat/Enlarge Spell}), it can be identified. If it creates a static bonus (such as {feat/Dodge} or {feat/Lightning Reflexes}), there's no telltale sign to give it away.",
+			"",
+			"The Knowledge skill required to identify a feat or class feature varies depending on the type of feat or class feature to be identified."
+		]
+	},
 	"knowledge_arcana": {
 		"name": "Knowledge (arcana)",
 		"sources": [

@@ -1080,7 +1080,7 @@
 			"{SOURCE Occult Adventures/118}  ",
 			"A sensate perceives battle through senses beyond mortal ken, anticipating his opponents' movements before they even begin to act. As long as he keeps his focus about him, he fights with a skill rivaling that of the finest masters-at-arms.",
 			"",
-			"**Skills:** The sensate's class skills are Acrobatics (Dex), Climb (Str), Craft (Int), Perception (Wis), Profession (Wis), Ride (Dex), Sense Motive (Wis), Survival (Wis), and Swim (Str). This replaces the fighter's class skills.",
+			"**Skills:** The sensate's class skills are {skill/Acrobatics} (Dex), {skill/Climb} (Str), {skill/Craft} (Int), {skill/Perception} (Wis), {skill/Profession} (Wis), {skill/Ride} (Dex), {skill/Sense Motive} (Wis), {skill/Survival} (Wis), and {skill/Swim} (Str). This replaces the fighter's class skills.",
 			"",
 			"**Weapon and Armor Proficiency:** Sensates are proficient with all simple and martial weapons, light armor, medium armor, and shields (except tower shields). This replaces the fighter's weapon and armor proficiency.",
 			"",

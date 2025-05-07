@@ -599,7 +599,7 @@
 			"",
 			"**Feats:** A hivemind swarm loses all feats that the base creature had but gains [a number of feats as normal for a creature of its Hit Dice](rule/).",
 			"",
-			"**Skills:** A hivemind swarm loses all skill ranks that the base creature had but has skill ranks per racial Hit Die as defined by its creature type. A hivemind swarm's class skills are the same as those that its creature type had and also include all Knowledge skills and Spellcraft.",
+			"**Skills:** A hivemind swarm loses all skill ranks that the base creature had but has skill ranks per racial Hit Die as defined by its creature type. A hivemind swarm's class skills are the same as those that its creature type had and also include all {skill/Knowledge>_all} skills and {skill/Spellcraft}.",
 			"",
 			"**Languages:** A hivemind creature gains telepathy (100 ft.) and can speak a number of languages of its choice equal to 1 + its Intelligence modifier.",
 			"",

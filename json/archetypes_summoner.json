@@ -148,7 +148,7 @@
 			"**BAB:** Equal to 1/2 the eidolon's Hit Dice.  ",
 			"**Good/Bad Saves:** The eidolon's good saves area always Reflex and Will.",
 			"",
-			"**Skills:** The eidolon's class skills are Acrobatics, Bluff, Climb, Craft, Diplomacy, Disguise, Escape Artist, Fly, Knowledge (geography), Knowledge (nature), Perception, Perform, Sense Motive, Sleight of Hand, Stealth, Swim, and Use Magic Device.",
+			"**Skills:** The eidolon's class skills are {skill/Acrobatics}, {skill/Bluff}, {skill/Climb}, {skill/Craft}, {skill/Diplomacy}, {skill/Disguise}, {skill/Escape Artist}, {skill/Fly}, {skill/Knowledge (geography)}, {skill/Knowledge (nature)}, {skill/Perception}, {skill/Perform}, {skill/Sense Motive}, {skill/Sleight of Hand}, {skill/Stealth}, {skill/Swim}, and {skill/Use Magic Device}.",
 			"",
 			"**Senses:** The eidolon gains low-light vision instead of darkvision. The summoner can grant the eidolon darkvision 60 ft. as a 1-point evolution.",
 			"",
