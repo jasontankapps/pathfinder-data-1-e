@@ -2408,6 +2408,7 @@
 		]
 	},
 	"elder_ice_elemental": { "copyof": "elemental_ice_elder_ice_elemental" },
+	"ice_elemental_elder": { "copyof": "elemental_ice_elder_ice_elemental" },
 	"elemental_ice_greater_ice_elemental": {
 		"name": "Greater Ice Elemental",
 		"sources": [ "Bestiary 2" ],
@@ -2456,6 +2457,7 @@
 		]
 	},
 	"greater_ice_elemental": { "copyof": "elemental_ice_greater_ice_elemental" },
+	"ice_elemental_greater": { "copyof": "elemental_ice_greater_ice_elemental" },
 	"elemental_ice_huge_ice_elemental": {
 		"name": "Huge Ice Elemental",
 		"sources": [ "Bestiary 2" ],
@@ -2504,6 +2506,7 @@
 		]
 	},
 	"huge_ice_elemental": { "copyof": "elemental_ice_huge_ice_elemental" },
+	"ice_elemental_huge": { "copyof": "elemental_ice_huge_ice_elemental" },
 	"elemental_ice_large_ice_elemental": {
 		"name": "Large Ice Elemental",
 		"sources": [ "Bestiary 2" ],
@@ -2552,6 +2555,7 @@
 		]
 	},
 	"large_ice_elemental": { "copyof": "elemental_ice_large_ice_elemental" },
+	"ice_elemental_large": { "copyof": "elemental_ice_large_ice_elemental" },
 	"elemental_ice_medium_ice_elemental": {
 		"name": "Medium Ice Elemental",
 		"sources": [ "Bestiary 2" ],
@@ -2599,6 +2603,7 @@
 		]
 	},
 	"medium_ice_elemental": { "copyof": "elemental_ice_medium_ice_elemental" },
+	"ice_elemental_medium": { "copyof": "elemental_ice_medium_ice_elemental" },
 	"elemental_ice_small_ice_elemental": {
 		"name": "Small Ice Elemental",
 		"sources": [ "Bestiary 2" ],
@@ -2648,6 +2653,7 @@
 		]
 	},
 	"small_ice_elemental": { "copyof": "elemental_ice_small_ice_elemental" },
+	"ice_elemental_small": { "copyof": "elemental_ice_small_ice_elemental" },
 	"elemental_lightning_elder_lightning_elemental": {
 		"name": "Elder Lightning Elemental",
 		"sources": [ "Bestiary 2" ],

@@ -479,8 +479,8 @@
 			">",
 			">{SOURCE Pathfinder #119: Prisoners of the Blight/71}",
 			">",
-			">- **{spell/Summon Monster IV}:** {monster/Mandragora}",
-			">- **{spell/Summon Monster V}:** {monster/Tendriculos}"
+			">- :hll[spell/Summon Monster IV:] {monster/Mandragora}",
+			">- :hll[spell/Summon Monster V:] {monster/Tendriculos}"
 		]
 	},
 	"dachzerul": {
@@ -746,7 +746,7 @@
 			"**Areas of Concern** Agriculture, craftsmanship, kitsune, rice  ",
 			"**Domains** {domain/Animal}, {domain/Artifice}, {domain/Community}, {domain/Plant}, {domain/Weather}  ",
 			"**Subdomains** {domain/Construct}, {domain/Family}, {domain/Fur}, {domain/Growth}, {domain/Home}, {domain/Industry}, {domain/Monsoon}[^A], {domain/Seasons}  ",
-			"**Favored Weapon** [Flail](eq-weapon/light_flail)  ",
+			"**Favored Weapon** {eq-weapon/light_<Flail}  ",
 			"**Symbol** Nine-tailed fox  ",
 			"**Sacred Animal(s)** Fox",
 			"",
@@ -977,9 +977,9 @@
 			">",
 			">{SOURCE Pathfinder #78: City of Locusts/70}",
 			">",
-			">- **{spell/Summon Monster IV}:** {monster/Vermlek}",
-			">- **{spell/Summon Monster V}:** {template/Fiendish} {monster/Giant Locust}",
-			">- **{spell/Summon Monster VI}:** {template/Fiendish} {monster/Giant Mosquito}",
+			">- :hll[spell/Summon Monster IV:] {monster/Vermlek}",
+			">- :hll[spell/Summon Monster V:] {template/Fiendish} {monster/Giant Locust}",
+			">- :hll[spell/Summon Monster VI:] {template/Fiendish} {monster/Giant Mosquito}",
 			"",
 			"[^A]: Requires the {trait/Acolyte of Apocrypha} trait."
 		]
@@ -1008,9 +1008,9 @@
 			"**Domains** {domain/Chaos}, {domain/Good}, {domain/Liberation}, {domain/Luck}, {domain/Travel}  ",
 			"**Subdomains** {domain/Azata (|Chaos)}, {domain/Azata (|Good)}, {domain/Curse}, {domain/Exploration}, {domain/Fate}, {domain/Freedom}, {domain/Revolution}  ",
 			"**Realm** Cynosure and Sevenfold Cynosure, Elysium  ",
-			"**Allies** Calistria, Cayden Cailean, Gozreh, Sarenrae, Shelyn  ",
+			"**Allies** {faith/Calistria}, {faith/Cayden Cailean}, {faith/Gozreh}, {faith/Sarenrae}, {faith/Shelyn}  ",
 			"**Relations** Sarenrae (lover), Shelyn (lover)  ",
-			"**Enemies** Lamashtu, Rovagug, Zon-Kuthon  ",
+			"**Enemies** {faith/Lamashtu}, {faith/Rovagug}, {faith/Zon-Kuthon}  ",
 			"**Temples** hilltops, observatories, standing stones, towers  ",
 			"**Holy Days** Ritual of Stardust (night of song, bonfires, and sharing of love and friendship; summer and winter solstices), Swallowtail Festival (day of feasting, storytelling, and public release of a wagonload of butterflies; autumnal equinox)  ",
 			"**Minions** aliens, {subtype/azata/s}  ",
@@ -1153,7 +1153,7 @@
 			">- {trait/Good Dreams}",
 			">- {trait/Starchild}",
 			">- {trait/Stoic Optimism}",
-			">- [Thrill-Seeker](trait/thrill_seeker_isg)",
+			">- {trait/Thrill-Seeker (ISG)}",
 			">",
 			">### Unique Spell Rules",
 			">",
@@ -1167,13 +1167,13 @@
 			">",
 			">{SOURCE Pathfinder #2: The Skinsaw Murders/72}",
 			">",
-			">- **{spell/Summon Monster II}:** {monster/Lyrakien} - CG",
-			">- **{spell/Summon Monster III}:** {monster/Star Monarch} - CG [stats as a giant eagle]",
-			">- **{spell/Summon Monster VII}:** {monster/Young Brass Dragon} - CG (extraplanar)",
+			">- :hll[spell/Summon Monster II:] {monster/Lyrakien} - CG",
+			">- :hll[spell/Summon Monster III:] {monster/Star Monarch} - CG [stats as a giant eagle]",
+			">- :hll[spell/Summon Monster VII:] {monster/Young Brass Dragon} - CG (extraplanar)",
 			">",
 			">{SOURCE Monster Summoner's Handbook/30}",
 			">",
-			">- **{spell/Summon Monster II}:** {monster/Pseudodragon} - CG"
+			">- :hll[spell/Summon Monster II:] {monster/Pseudodragon} - CG"
 		]
 	},
 	"deumus": {
@@ -1888,8 +1888,8 @@
 			"**Domains** {domain/Animal}, {domain/Community}, {domain/Good}, {domain/Law}, {domain/Plant}  ",
 			"**Subdomains** {domain/Archon (|Good)}, {domain/Archon (|Law)}, {domain/Education (|Community)}, {domain/Family}, {domain/Feather}, {domain/Fur}, {domain/Growth}, {domain/Home}  ",
 			"**Realm** Summerlands, Heaven  ",
-			"**Allies** Abadar, Gozreh, Shelyn, Torag  ",
-			"**Enemies** Urgathoa  ",
+			"**Allies** {faith/Abadar}, {faith/Gozreh}, {faith/Shelyn}, {faith/Torag}  ",
+			"**Enemies** {faith/Urgathoa}  ",
 			"**Temples** barns, fallow fields, hunting lodges, longhouses, town halls, village squares  ",
 			"**Holy Days** Archerfeast (a day of feasting and good-natured competitions, July 3rd)  ",
 			"**Minions** {subtype/archon/s}, plant creatures, wild animals  ",
@@ -2053,8 +2053,8 @@
 			">",
 			">{SOURCE Pathfinder #32: Rivers Run Red/71}",
 			">",
-			">- **{spell/Summon Monster II}:** {template/Celestial} {monster/Elk} - LG",
-			">- **{spell/Summon Monster III}:** {template/Celestial} {monster/Dire Boar} - LG",
+			">- :hll[spell/Summon Monster II:] {template/Celestial} {monster/Elk} - LG",
+			">- :hll[spell/Summon Monster III:] {template/Celestial} {monster/Dire Boar} - LG",
 			">",
 			">### Other Rules",
 			">",
@@ -2824,17 +2824,19 @@
 			">",
 			">#### Cleric, Warpriest",
 			">",
-			">- {spell/Speak with Animals} can be prepared as a 1st-level spell [affects only reptiles]",
-			">- {spell/Animal Messenger} can be prepared as a 2nd-level spell [affects only reptiles]",
+			">- {spell/Speak with Animals} can be prepared as a 1st-level spell [^R]",
+			">- {spell/Animal Messenger} can be prepared as a 2nd-level spell [^R]",
 			">- {spell/Sepia Snake Sigil} can be prepared as a 3rd-level spell",
 			">",
 			">### Unique Summon Rules",
 			">",
 			">{SOURCE Pathfinder #107: Scourge of the Godclaw/73}",
 			">",
-			">- **{spell/Summon Monster IV}:** {monster/Venomous Snake Swarm}",
-			">- **{spell/Summon Monster VI}:** {monster/Drowning Devil (|Sarglagon)}",
-			">- **{spell/Summon Monster VIII}:** {monster/Aghasura/ (Asura)}"
+			">- :hll[spell/Summon Monster IV:] {monster/Venomous Snake Swarm}",
+			">- :hll[spell/Summon Monster VI:] {monster/Drowning Devil (|Sarglagon)}",
+			">- :hll[spell/Summon Monster VIII:] {monster/Aghasura/ (Asura)}",
+			"",
+			"[^R]: This spell affects only reptiles."
 		]
 	},
 	"ghatanothoa": {
@@ -3232,7 +3234,7 @@
 			"**Areas of Concern** Death, fate, underworld  ",
 			"**Domains** {domain/Earth}, {domain/Law}, {domain/Repose}, {domain/Rune}  ",
 			"**Subdomains** {domain/Ancestors}, {domain/Inevitable}, {domain/Souls}, {domain/Wards}  ",
-			"**Favored Weapon** [Hammer](eq-weapon/light_hammer)  ",
+			"**Favored Weapon** {eq-weapon/light_<Hammer}  ",
 			"**Symbol** Rune-carved cave entrance  ",
 			"**Sacred Animal(s)** Mole  ",
 			"**Sacred Color(s)** Black, white",
@@ -3405,9 +3407,9 @@
 			">",
 			">{SOURCE Pathfinder #99: Dance of the Damned/75}",
 			">",
-			">- **{spell/Summon Monster III}:** {monster/Forlarren}",
-			">- **{spell/Summon Monster V}:** {monster/Achaierai}",
-			">- **{spell/Summon Monster VIII}:** {monster/Cabal Devil}"
+			">- :hll[spell/Summon Monster III:] {monster/Forlarren}",
+			">- :hll[spell/Summon Monster V:] {monster/Achaierai}",
+			">- :hll[spell/Summon Monster VIII:] {monster/Cabal Devil}"
 		]
 	},
 	"malacoda": {
@@ -3635,7 +3637,7 @@
 			"**Areas of Concern** Balance, community, negotiation, and twilight  ",
 			"**Domains** {domain/Artifice}, {domain/Community}, {domain/Good}, {domain/Knowledge}  ",
 			"**Subdomains** {domain/Agathion}, {domain/Archon (|Good)}, {domain/Azata (|Good)}, {domain/Cooperation}, {domain/Family}, {domain/Memory}  ",
-			"**Favored Weapon** [Heavy shield](eq-armor/heavy_wooden_shield)  ",
+			"**Favored Weapon** {eq-armor/Heavy«_wooden» shield}  ",
 			"**Symbol** Seven eggs encircled by a snake eating its own tail  ",
 			"**Sacred Animal(s)** Anaconda"
 		]
@@ -3857,9 +3859,9 @@
 			">",
 			">{SOURCE Pathfinder #102: Breaking the Bones of Hell/72}",
 			">",
-			">- **{spell/Summon Monster IV}:** {monster/Guardian Scroll}",
-			">- **{spell/Summon Monster VIII}:** {monster/Contract Devil (|Phistophilus)}",
-			">- **{spell/Summon Monster IX}:** {monster/Heresy Devil (|Ayngavhaul)}"
+			">- :hll[spell/Summon Monster IV:] {monster/Guardian Scroll}",
+			">- :hll[spell/Summon Monster VIII:] {monster/Contract Devil (|Phistophilus)}",
+			">- :hll[spell/Summon Monster IX:] {monster/Heresy Devil (|Ayngavhaul)}"
 		]
 	},
 	"mestama": {
@@ -4105,8 +4107,8 @@
 			">",
 			">{SOURCE Pathfinder #68: The Shackled Hut/69}",
 			">",
-			">- **{spell/Summon Monster I}:** {monster/Great Horned Owl} (extraplanar)",
-			">- **{spell/Summon Monster IV}:** {monster/Hound Archon} - CG",
+			">- :hll[spell/Summon Monster I:] {monster/Great Horned Owl} (extraplanar)",
+			">- :hll[spell/Summon Monster IV:] {monster/Hound Archon} - CG",
 			">",
 			">### Other Rules",
 			">",

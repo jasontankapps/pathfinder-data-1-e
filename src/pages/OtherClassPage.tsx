@@ -27,7 +27,7 @@ const OtherClassPage: React.FC = () => {
 
 	const m = path.match(/^[/](sidekick|npcclass)[/]/)
 
-	const solidId = (id || "not_found") as keyof Data;
+	const solidId = (id && classes[id] ? id : "not_found") as keyof Data;
 
 	const {
 		hasJL,

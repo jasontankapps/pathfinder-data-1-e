@@ -1,21 +1,21 @@
 import getItem from '../components/getItem';
-import druid from './subpages/__arc-druid';
-import medium from './subpages/__arc-medium';
-import ninja from './subpages/__arc-ninja';
+import vigilante from './subpages/__arc-vigilante';
+import familiar from './subpages/__arc-familiar';
+import wizard from './subpages/__arc-wizard';
 import { ArchetypeProps } from './ArchetypePage';
 import BasicPage from './BasicPage';
 import './Page.css';
 
 const archetypes = {
 	"not_found": { jsx: <><h2>Error</h2><p>Unable to find the requested archetype.</p></>, title: "Unknown", sources: []},
-	...druid,
-	...medium,
-	...ninja
+	...vigilante, // conflicts with barbarian
+	...familiar, // conflicts with cavalier, bard, inquisitor, investigator, ranger
+	...wizard // conflicts with cleric, bloodrager
 };
 
 type Data = typeof archetypes;
 
-const ArchetypeGroup9Page: React.FC<ArchetypeProps> = ({id, parent, classTitle}) => {
+const ArchetypeGroup14Page: React.FC<ArchetypeProps> = ({id, parent, classTitle}) => {
 
 	const arches: Data = {...archetypes, not_found: {...archetypes.not_found}};
 	arches.not_found.jsx = <><h2>Error</h2><p>Unable to find the requested {parent} archetype.</p></>;
@@ -29,8 +29,8 @@ const ArchetypeGroup9Page: React.FC<ArchetypeProps> = ({id, parent, classTitle})
 		title={title}
 		sources={sources}
 		pageId={pageId}
-		topLink={[classTitle, "class/" + parent]}
+		topLink={parent === "familiar" ? [ classTitle, "sidekick/familiar" ] : [classTitle, "class/" + parent]}
 	>{jsx}</BasicPage>;
 };
 
-export default ArchetypeGroup9Page;
+export default ArchetypeGroup14Page;

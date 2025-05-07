@@ -35,7 +35,7 @@ import {
 	lightColors, darkColors, colorNames,
 	changeGroupColor, getColor
 } from '../store/bookmarksSlice';
-import { useAppDispatch, useAppSelector } from '../store/hooks';
+import { useAppDispatch, useAppSelector, useElement } from '../store/hooks';
 import useDarkMode from '../components/useDarkMode';
 import BasicPage from './BasicPage';
 import '../components/Bookmarks.css';
@@ -125,17 +125,6 @@ type Params = { id: string };
 
 const blank: [string, string][] = [];
 
-type ElementRef<T> = (node: T | null) => void;
-
-const useElement = <T extends Element>(): [T | null, ElementRef<T>] => {
-	const [el, setEl] = useState<T | null>(null);
-	const ref: ElementRef<T> = useCallback((node: T | null) => {
-		if(node && node !== el) {
-			setEl(node);
-		}
-	}, []);
-	return [el, ref];
-};
 
 const KeyedBookmarkPage: FC<{id: string}> = ({id}) => {
 	const [doAlert] = useIonAlert();

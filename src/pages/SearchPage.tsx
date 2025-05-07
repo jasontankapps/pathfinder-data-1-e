@@ -43,7 +43,7 @@ import PageFooter from '../components/PageFooter';
 import PageHeader from '../components/PageHeader';
 import SearchHelpModal from '../components/SearchHelpModal';
 import Link from '../components/Link';
-import { useAppDispatch, useAppSelector } from '../store/hooks';
+import { useAppDispatch, useAppSelector, useElement } from '../store/hooks';
 import { setSearchQuery, setSearchFilter } from '../store/searchSlice';
 import fuseIndex from '../json/_data__fuse-index.json';
 import fuseTranslatedIndex from '../json/_data__fuse-translated_data.json';
@@ -272,24 +272,13 @@ const debounce = (fn: Function, delay: number = 300) => {
 	}, delay);
 };
 
-type ElementRef = (node: HTMLIonSearchbarElement | null) => void;
-
-const useElement = (text: string): [HTMLIonSearchbarElement | null, ElementRef] => {
-	const [el, setEl] = useState<HTMLIonSearchbarElement | null>(null);
-	const ref: ElementRef = useCallback((node: HTMLIonSearchbarElement | null) => {
-		if(node) {
-			setEl(node);
-			debounce(() => {
-				node.getInputElement().then(input => {
-					if(!input.value) {
-						node.setFocus();
-					}
-				});
-			}, 100);
+const setFocusIfEmpty = (node: HTMLIonSearchbarElement | null) => debounce(() => {
+	node && node.getInputElement().then(input => {
+		if(!input.value) {
+			node.setFocus();
 		}
-	}, []);
-	return [el, ref];
-};
+	});
+}, 100);
 
 const SearchPage: FC = () => {
 	const { searchtext = "", filter: incomingFilter = [] } = useAppSelector(state => state.search);
@@ -300,7 +289,7 @@ const SearchPage: FC = () => {
 	const [filterOpen, setFilterOpen] = useState<boolean>(false);
 	const [helpOpen, setHelpOpen] = useState<boolean>(false);
 
-	const [searchBar, refSearchBar] = useElement(searchtext);
+	const [searchBar, refSearchBar] = useElement<HTMLIonSearchbarElement>(setFocusIfEmpty);
 
 	searchBar && searchtext && !searchBar.value && searchBar.getInputElement().then(input => {
 		if(!input.value) {
@@ -328,8 +317,8 @@ const SearchPage: FC = () => {
 		// Only needed because `showClearButton="always"` doesn't work!
 		searchBar && searchBar.getInputElement().then(input => {
 			input.value = "";
-			startTransition(() => setSearchText(""));
-			dispatch(setSearchQuery(""));
+			() => setSearchText("");
+			//dispatch(setSearchQuery(""));
 		});
 	}, [setSearchText, dispatch, searchBar]);
 

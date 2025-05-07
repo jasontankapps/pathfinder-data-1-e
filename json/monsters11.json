@@ -2221,6 +2221,7 @@
 			"**Whirlwind (Su)** As a standard action a great ghul can transform itself into a whirlwind of air, bone shards, and pieces of gristle, with its head floating about. A great ghul's movement while in whirlwind form does not provoke attacks of opportunity, even if the great ghul enters the space another creature occupies. Any creature sharing a space with the whirlwind or attacking it with natural weapons takes 1d6 hit points of damage. Any living creature that begins its turn in the whirlwind's space must succeed on a DC 18 Fortitude save or be nauseated for 1 round. The save DC is Charisma-based. Returning to its normal form is a standard action. Only a great ghul that was once a djinni can have this ability."
 		]
 	},
+	"great_ghul": { "copyof": "ghul" },
 	"giant_fire_fire_giant": {
 		"name": "Fire Giant",
 		"sources": [ "Pathfinder RPG Bestiary" ],

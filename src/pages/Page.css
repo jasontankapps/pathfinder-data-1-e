@@ -11,9 +11,23 @@ ion-toast::part(message) {
 ion-checkbox div.label {
 	white-space: normal;
 }
-ion-alert button.alert-button.delete {
+ion-alert.horizontalButtons div.alert-button-group {
+	flex-flow: row wrap;
+	align-items: center;
+	justify-content: flex-end;
+	align-content: space-between;
+}
+ion-alert.horizontalButtons div.alert-button-group button.alert-button {
+	margin: 0.25rem;
+}
+ion-alert button.alert-button.delete,
+ion-alert button.alert-button.overwrite {
 	background: var(--ion-color-danger);
 	color: var(--ion-color-danger-contrast);
+}
+ion-alert button.alert-button.save {
+	background: var(--ion-color-success);
+	color: var(--ion-color-success-contrast);
 }
 ion-alert button.alert-button.cancel {
 	background: var(--ion-color-medium);

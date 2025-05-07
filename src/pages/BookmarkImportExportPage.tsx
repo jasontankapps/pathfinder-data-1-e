@@ -1,5 +1,6 @@
 import { Clipboard } from "@capacitor/clipboard";
 import { useRef, useState, FC, RefObject, Dispatch } from 'react';
+import { v7 as uuidv7 } from 'uuid';
 import { bookmark, closeCircle, close as closeIcon, copy } from 'ionicons/icons';
 import {
 	IonButton,
@@ -24,8 +25,8 @@ import {
 	useIonToast,
 	UseIonToastResult
 } from '@ionic/react';
-import { BookmarkGroup, importBookmarkGroups } from '../store/bookmarksSlice';
-import { useAppDispatch, useAppSelector } from '../store/hooks';
+import { BookmarkDB, BookmarkGroup, importBookmarkGroups } from '../store/bookmarksSlice';
+import { DispatchType, useAppDispatch, useAppSelector } from '../store/hooks';
 import BasicPage from './BasicPage';
 import './Page.css';
 import parseImport from "./parseImport";
@@ -97,6 +98,92 @@ const maybeLaunchImportModal = (
 	}));
 };
 
+const maybeImport = (
+	db: BookmarkDB,
+	importing: Pair[],
+	okToImport: number[],
+	danger: number[],
+	dispatch: DispatchType,
+	toaster: UseIonToastResult,
+	alert: UseIonAlertResult,
+	close: () => void
+) => {
+	const [toast, closeToast] = toaster;
+	const [doAlert, closeAlert] = alert;
+	const importable: Pair[] = [];
+	const overwriters: [string, BG][] = [];
+	okToImport.forEach(i => {
+		if(danger.indexOf(i) > -1) {
+			overwriters.push(importing[i]);
+		} else {
+			importable.push(importing[i]);
+		}
+	});
+	const doImport = () => {
+		dispatch(importBookmarkGroups(importable));
+		closeToast().then(() => toast({
+			message: `Imported ${importable.length} bookmark group${importable.length === 1 ? "" : "s"}.`,
+			color: "success",
+			duration: 3000,
+			position: "middle"
+		})).then(close);
+	};
+	let counter = 0;
+	const max = overwriters.length;
+	const handleNextOverwriter = () => {
+		if(overwriters.length === 0) {
+			return importable.length > 0 ? doImport() : closeToast().then(() => toast({
+				message: "Nothing to import.",
+				color: "danger",
+				duration: 3000,
+				position: "middle"
+			})).then(close);
+		}
+		const [id, group] = overwriters.shift()!;
+		const incoming = group.title;
+		const { contents, title: inDanger } = db[id];
+		const header = `Duplicate Group`;
+		const subHeader = max > 1 ? `[${++counter} of ${max}]` : undefined;
+		const message = `"${incoming}" is a duplicate of existing group "${inDanger}", and will overwrite your current bookmarks (${contents.length}) in that group.`;
+		closeAlert().then(() => doAlert({
+			header,
+			subHeader,
+			message,
+			cssClass: "horizontalButtons",
+			buttons: [
+				{
+					text: "Do Not Import",
+					role: "cancel",
+					cssClass: "cancel",
+					handler: handleNextOverwriter
+				},
+				{
+					text: "Overwrite and Import",
+					cssClass: "overwrite",
+					role: "confirm",
+					handler: () => {
+						importable.push([id, group]);
+						handleNextOverwriter();
+					}
+				},
+				{
+					text: "Import as New Group",
+					cssClass: "save",
+					role: "confirm",
+					handler: () => {
+						importable.push([uuidv7(), group]);
+						handleNextOverwriter();
+					}
+				}
+			]
+		}));
+	};
+	if(!overwriters.length) {
+		return doImport();
+	}
+	handleNextOverwriter();
+};
+
 interface ModalProps {
 	importing: Pair[]
 	close: () => void
@@ -109,69 +196,13 @@ const ImportModal: FC<ModalProps> = (props) => {
 	const { importing, close, toaster, alert } = props;
 	const dispatch = useAppDispatch();
 
-	const [toImport, setToImport] = useState<number[]>(
+	const [okToImport, setToImport] = useState<number[]>(
 		importing.map((input, i) => { const [id] = input; return db[id] ? null : i; }).filter(x => x !== null)
 	);
 	const danger = (
 		importing.map((input, i) => { const [id] = input; return db[id] ? i : null; }).filter(x => x !== null)
 	);
 
-	const maybeImport = () => {
-		const [toast, closeToast] = toaster;
-		const doImport = () => {
-			dispatch(importBookmarkGroups(toImport.map(i => importing[i])));
-			closeToast().then(() => toast({
-				message: `Imported ${toImport.length} bookmark group${toImport.length === 1 ? "" : "s"}.`,
-				color: "success",
-				duration: 3000,
-				position: "middle"
-			})).then(() => close());
-		};
-		const dangerous = toImport.filter(i => danger.indexOf(i) > -1).sort();
-		if(dangerous.length) {
-			const s = dangerous.length === 1 ? "" : "s";
-			const is = dangerous.length === 1 ? "is a" : "are";
-			const other = dangerous.length === 1 ? "an existing" : "existing";
-			const that = dangerous.length === 1 ? "that" : "those";
-			let incoming = "", inDanger = "";
-			switch(String(dangerous.length)) {
-				case "1":
-					incoming = `"${importing[dangerous[0]][1].title}"`;
-					inDanger = `"${db[importing[dangerous[0]][0]].title}"`;
-					break;
-				case "2":
-					incoming = `"${importing[dangerous[0]][1].title}" and "${importing[dangerous[1]][1].title}"`;
-					inDanger = `"${db[importing[dangerous[0]][0]].title}" and "${db[importing[dangerous[1]][0]].title}" respectively`;
-					break;
-				default:
-					const pop = dangerous.pop()!;
-					incoming = `"${dangerous.map(i => importing[i][1].title).join(`", "`)}", and "${importing[pop][1].title}"`;
-					inDanger = `"${dangerous.map(i => db[importing[i][0]].title).join(`", "`)}", and "${db[importing[pop][0]].title}" respectively`;
-			}
-			const message = `${incoming} ${is} duplicate${s} of ${other} group${s} ${inDanger}, and will overwrite your current bookmarks in ${that} group${s}.`;
-			alert[0]({
-				header: `Duplicate Group${s}`,
-				subHeader: `This will overwrite current bookmarks`,
-				message,
-				buttons: [
-					{
-						text: "Cancel",
-						role: "cancel",
-						cssClass: "cancel"
-					},
-					{
-						text: "Yes, Overwrite and Import",
-						cssClass: "delete",
-						role: "confirm",
-						handler: doImport
-					}
-				]
-			});
-		} else {
-			// No issues.
-			doImport();
-		}
-	};
 	return (
 		<IonModal isOpen={importing.length > 0} onIonModalDidDismiss={close} className="importExportBookmarkModal">
 			<IonHeader>
@@ -190,14 +221,14 @@ const ImportModal: FC<ModalProps> = (props) => {
 					{importing.map((input, i) => {
 						const [id, bit] = input;
 						const { color, title, contents } = bit;
-						const checked = toImport.indexOf(i) > -1;
+						const checked = okToImport.indexOf(i) > -1;
 						const coloring = danger.indexOf(i) > -1 ? "danger" : "primary";
 						const onClick = checked ? (
 							// Uncheck
-							() => setToImport(toImport.filter(x => x !== i))
+							() => setToImport(okToImport.filter(x => x !== i))
 						) : (
 							// Check
-							() => setToImport([...toImport, i])
+							() => setToImport([...okToImport, i])
 						);
 						return (
 							<IonItem key={`import-option-${id}-${title}-${color}/${contents.length}`} className={checked ? "importOption" : "importOption unselected"}>
@@ -226,7 +257,7 @@ const ImportModal: FC<ModalProps> = (props) => {
 						</IonButton>
 					</IonButtons>
 					<IonButtons slot="end">
-						<IonButton slot="end" fill="solid" color="primary" onClick={maybeImport}>
+						<IonButton slot="end" fill="solid" color="primary" onClick={() => maybeImport(db, importing, okToImport, danger, dispatch, toaster, alert, close)}>
 							<IonLabel>Import Selected</IonLabel>
 							<IonIcon icon="/icons/input.svg" slot="end" />
 						</IonButton>

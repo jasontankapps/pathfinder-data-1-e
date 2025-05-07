@@ -32,8 +32,8 @@
 			"**Domains** {domain/Earth}, {domain/Law}, {domain/Nobility}, {domain/Protection}, {domain/Travel}  ",
 			"**Subdomains** {domain/Aristocracy}, {domain/Defense}, {domain/Fortifications}, {domain/Inevitable}, {domain/Leadership}, {domain/Legislation (|Law)}, {domain/Martyr}, {domain/Metal}, {domain/Portal}[^A] {domain/Trade}  ",
 			"**Realm** Aktun, Axis  ",
-			"**Allies** Asmodeus, Erastil, Iomedae, Irori, Shelyn, Torag  ",
-			"**Enemies** Lamashtu, Norgorber, Rovagug  ",
+			"**Allies** {faith/Asmodeus}, {faith/Erastil}, {faith/Iomedae}, {faith/Irori}, {faith/Shelyn}, {faith/Torag}  ",
+			"**Enemies** {faith/Lamashtu}, {faith/Norgorber}, {faith/Rovagug}  ",
 			"**Temples** banks, cathedrals, courthouses  ",
 			"**Holy Days** Market's Door (blessing of the fall marketplace and the year's harvest trade, first day markets receive goods from the fall harvest), Taxfest (annual collection of city taxes followed by public feast with civic leaders, date varies by city)  ",
 			"**Minions** {subtype/archon/s}, {monster/axiomite/s}, {subtype/inevitable/s}  ",
@@ -188,23 +188,24 @@
 			">",
 			">#### Cleric, Warpriest",
 			">",
-			">- {spell/Word of Recall} can be prepared as a 5th-level spell [if their designated sanctuaries are the temples of their home cities]",
+			">- {spell/Word of Recall} can be prepared as a 5th-level spell [^S]",
 			">",
 			">#### Paladin",
 			">",
-			">- {spell/Word of Recall} can be prepared as a 4th-level spell [if their designated sanctuaries are the temples of their home cities]",
+			">- {spell/Word of Recall} can be prepared as a 4th-level spell [^S]",
 			">",
 			">### Unique Summon Rules",
 			">",
 			">{SOURCE Pathfinder #8: Seven Days to the Grave/67}",
 			">",
-			">- **{spell/Summon Monster II}:** [Celestial Two-Headed Eagle](monster/eagle) - LN [this creature has two heads. It gains a +2 racial bonus on Perception checks, but does not gain an extra bite attack]",
-			">- **{spell/Summon Monster III}:** {template/Celestial} {monster/Hippogriff} - LN",
-			">- **{spell/Summon Monster IV}:** [Two-Headed Giant Eagle](monster/giant_eagle) - LN [this creature has two heads. It gains a +2 racial bonus on Perception checks, but does not gain an extra bite attack]",
-			">- **{spell/Summon Monster V}:** {template/Celestial} {monster/Griffon} - LN",
-			">- **{spell/Summon Monster IX}:** {monster/Kolyarut} - LN",
+			">- :hll[spell/Summon Monster II:] {template/Celestial} {monster/Two-Headed |Eagle} - LN [this creature has two heads. It gains a +2 racial bonus on Perception checks, but does not gain an extra bite attack]",
+			">- :hll[spell/Summon Monster III:] {template/Celestial} {monster/Hippogriff} - LN",
+			">- :hll[spell/Summon Monster IV:] {monster/Two-Headed |Giant Eagle} - LN [this creature has two heads. It gains a +2 racial bonus on Perception checks, but does not gain an extra bite attack]",
+			">- :hll[spell/Summon Monster V:] {template/Celestial} {monster/Griffon} - LN",
+			">- :hll[spell/Summon Monster IX:] {monster/Kolyarut} - LN",
 			"",
-			"[^A]: Requires the {trait/Acolyte of Apocrypha} trait."
+			"[^A]: Requires the {trait/Acolyte of Apocrypha} trait.",
+			"[^S]: Only usable if their designated sanctuaries are the temples of their home cities."
 		]
 	},
 	"abhoth": {
@@ -1425,7 +1426,7 @@
 			"**Areas of Concern** Burial, the dead, funeral rites, mummification, tombs  ",
 			"**Domains** {domain/Death}, {domain/Earth}, {domain/Law}, {domain/Protection}, {domain/Repose}  ",
 			"**Subdomains** {domain/Ancestors}, {domain/Defense}, {domain/Inevitable}, {domain/Metal}, {domain/Purity}, {domain/Souls}  ",
-			"**Favored Weapon** [Flail](eq-weapon/light_flail)  ",
+			"**Favored Weapon** {eq-weapon/light_<Flail}  ",
 			"**Symbol** Black jackal head  ",
 			"**Sacred Animal(s)** Jackal"
 		]
@@ -1720,9 +1721,9 @@
 			">",
 			">{SOURCE Pathfinder #140: Eulogy for Roslar's Coffer/73}",
 			">",
-			">- **{spell/Summon Monster III}:** Augur Kyton",
-			">- **{spell/Summon Monster VI}:** {template/Fiendish} {monster/Giant Scarab}",
-			">- **{spell/Summon Monster VIII}:** Interlocutor Kyton"
+			">- :hll[spell/Summon Monster III:] Augur Kyton",
+			">- :hll[spell/Summon Monster VI:] {template/Fiendish} {monster/Giant Scarab}",
+			">- :hll[spell/Summon Monster VIII:] Interlocutor Kyton"
 		]
 	},
 	"ardad_lili": {
@@ -2046,7 +2047,7 @@
 			"**Areas of Concern** Freedom, physical beauty, sexuality  ",
 			"**Domains** {domain/Charm}, {domain/Good}, {domain/Liberation}, {domain/Strength}  ",
 			"**Subdomains** {domain/Agathion}, {domain/Freedom}, {domain/Love}, {domain/Lust}, {domain/Self-Realization (|Liberation)}[^A], {domain/Self-Realization (|Strength)}[^A]  ",
-			"**Favored Weapon** [Flail](eq-weapon/light_flail)  ",
+			"**Favored Weapon** {eq-weapon/light_<Flail}  ",
 			"**Symbol** Figure with colorful sashes  ",
 			"**Sacred Animal(s)** Swan  ",
 			"**Sacred Color(s)** Purple, white",
@@ -2180,8 +2181,8 @@
 			">",
 			">{SOURCE Pathfinder #134: It Came from Hollow Mountain/73}",
 			">",
-			">- **{spell/Summon Monster IV}:** {template/Celestial} {monster/Pegasus}",
-			">- **{spell/Summon Monster V}:** {monster/Lunar Naga}"
+			">- :hll[spell/Summon Monster IV:] {template/Celestial} {monster/Pegasus}",
+			">- :hll[spell/Summon Monster V:] {monster/Lunar Naga}"
 		]
 	},
 	"ashukharma": {
@@ -2234,13 +2235,13 @@
 			"**Domains** {domain/Evil}, {domain/Fire}, {domain/Law}, {domain/Magic}, {domain/Trickery}  ",
 			"**Subdomains** {domain/Arcane}, {domain/Ash}, {domain/Corruption}, {domain/Deception}, {domain/Devil (|Evil)}, {domain/Devil (|Law)}, {domain/Divine}, {domain/Greed}, {domain/Legislation (|Law)}, {domain/Rites}[^A], {domain/Smoke}, {domain/Sovereignty}  ",
 			"**Realm** Nessus, Hell  ",
-			"**Allies** Abadar  ",
-			"**Enemies** Cayden Cailean, Iomedae, Irori, Lamashtu, Rovagug, Sarenrae, Shelyn  ",
+			"**Allies** {faith/Abadar}  ",
+			"**Enemies** {faith/Cayden Cailean}, {faith/Iomedae}, {faith/Irori}, {faith/Lamashtu}, {faith/Rovagug}, {faith/Sarenrae}, {faith/Shelyn}  ",
 			"**Temples** cathedrals, libraries  ",
 			"**Holy Days** none (but many worshipers celebrate on holidays sacred to good deities in ways intended to blaspheme)  ",
 			"**Minions** {monster/cerberi}, {subtype/devil/s} (including {family/archdevil/s}), {monster/hell hound/s}  ",
 			"**Herald** {monster/Basileus} (a corrupted, angel-like creature)  ",
-			"**Favored Weapon** [Mace](eq-weapon/light_mace)  ",
+			"**Favored Weapon** {eq-weapon/light_<Mace}  ",
 			"**Symbol** Red pentagram  ",
 			"**Sacred Animal(s)** Serpent  ",
 			"**Sacred Color(s)** Black, red",
@@ -2406,9 +2407,9 @@
 			">",
 			">{SOURCE Pathfinder #29: Mother of Flies/67}",
 			">",
-			">- **{spell/Summon Monster II}:** {monster/Hell Hound} - LE",
-			">- **{spell/Summon Monster IV}:** {monster/Cerberi} - LE",
-			">- **{spell/Summon Monster V}:** {monster/Bearded Devil} - LE",
+			">- :hll[spell/Summon Monster II:] {monster/Hell Hound} - LE",
+			">- :hll[spell/Summon Monster IV:] {monster/Cerberi} - LE",
+			">- :hll[spell/Summon Monster V:] {monster/Bearded Devil} - LE",
 			"",
 			"[^A]: Requires the {trait/Acolyte of Apocrypha} trait."
 		]
@@ -2729,8 +2730,8 @@
 			">",
 			">{SOURCE Pathfinder #77: Herald of the Ivory Labyrinth/70}",
 			">",
-			">- **{spell/Summon Monster V}:** {template/Half-Fiend} {monster/Minotaur}",
-			">- **{spell/Summon Monster VI}:** {template/Fiendish} {monster/Chimera}",
+			">- :hll[spell/Summon Monster V:] {template/Half-Fiend} {monster/Minotaur}",
+			">- :hll[spell/Summon Monster VI:] {template/Fiendish} {monster/Chimera}",
 			">",
 			">### Other Rules",
 			">",
@@ -2959,10 +2960,9 @@
 			">",
 			">{SOURCE Pathfinder #143: Borne by the Sun's Grace/79}",
 			">",
-			">- **{spell/Summon Monster III}:** {template/Entropic} {monster/Giant Raven}",
-			">- **{spell/Summon Monster III}:** {monster/Nosoi}",
-			">- **{spell/Summon Monster V}:** {monster/Catrina}",
-			">- **{spell/Summon Monster VII}:** {monster/Shoki}"
+			">- :hll[spell/Summon Monster III:] {template/Entropic} {monster/Giant Raven}, {monster/Nosoi}",
+			">- :hll[spell/Summon Monster V:] {monster/Catrina}",
+			">- :hll[spell/Summon Monster VII:] {monster/Shoki}"
 		]
 	},
 	"bastet": {
@@ -2981,7 +2981,7 @@
 			"**Areas of Concern** Cats, pleasure, secrets  ",
 			"**Domains** {domain/Animal}, {domain/Chaos}, {domain/Charm}, {domain/Protection}, {domain/Trickery}  ",
 			"**Subdomains** {domain/Deception}, {domain/Defense}, {domain/Fur}, {domain/Lust}, {domain/Protean}, {domain/Thievery}  ",
-			"**Favored Weapon** [Cat's claws (tekko-kagi)](eq-weapon/tekko_kagi)  ",
+			"**Favored Weapon** {eq-weapon/Cat's claws |(tekko-kagi)}  ",
 			"**Symbol** Golden cat  ",
 			"**Sacred Animal(s)** Cat"
 		]
@@ -3233,16 +3233,16 @@
 			">",
 			">#### Cleric, Warpriest",
 			">",
-			">- {spell/Geas, Lesser} can be prepared as a 4th-level spell [can only be used to cause an aversion to boats, ships, or open bodies of water]",
-			">- {spell/Curse of Disgust} can be prepared as a 5th-level spell [can only be used to cause an aversion to boats, ships, or open bodies of water]",
+			">- {spell/Geas, Lesser} can be prepared as a 4th-level spell [^B]",
+			">- {spell/Curse of Disgust} can be prepared as a 5th-level spell [^B]",
 			">",
 			">### Unique Summon Rules",
 			">",
 			">{SOURCE Pathfinder #55: The Wormwood Mutiny/72}",
 			">",
-			">- **{spell/Summon Monster II}:** {template/Entropic} {monster/Reefclaw} - CN",
-			">- **{spell/Summon Monster V}:** {monster/Saltwater Merrow} - NE",
-			">- **{spell/Summon Monster VI}:** {monster/Tylosaurus} - N",
+			">- :hll[spell/Summon Monster II:] {template/Entropic} {monster/Reefclaw} - CN",
+			">- :hll[spell/Summon Monster V:] {monster/Saltwater Merrow} - NE",
+			">- :hll[spell/Summon Monster VI:] {monster/Tylosaurus} - N",
 			">",
 			">### Other Rules",
 			">",
@@ -3254,8 +3254,10 @@
 			">",
 			">#### Cleric, Warpriest",
 			">",
-			">- {spell/Geas, Lesser} can be prepared as a 4th-level spell [can only use to cause aversion to boats, ships, or open bodies of water]",
-			">- {spell/Curse of Disgust} can be prepared as a 5th-level spell [can only use to cause aversion to boats, ships, or open bodies of water]"
+			">- {spell/Geas, Lesser} can be prepared as a 4th-level spell [^B]",
+			">- {spell/Curse of Disgust} can be prepared as a 5th-level spell [^B]",
+			"",
+			"[^B]: This can only be used to cause an aversion to boats, ships, or open bodies of water."
 		]
 	},
 	"bharnarol": {
@@ -3489,7 +3491,7 @@
 			"**Areas of Concern** Beauty, desire, love  ",
 			"**Domains** {domain/Charm}, {domain/Community}, {domain/Good}, {domain/Healing}  ",
 			"**Subdomains** {domain/Family}, {domain/Love}, {domain/Lust}, {domain/Restoration}  ",
-			"**Favored Weapon** [Mace](eq-weapon/light_mace)  ",
+			"**Favored Weapon** {eq-weapon/light_<Mace}  ",
 			"**Symbol** Golden bejeweled ring  ",
 			"**Sacred Animal(s)** Falcon  ",
 			"**Sacred Color(s)** Gold, green",
@@ -3655,9 +3657,9 @@
 			">",
 			">{SOURCE Pathfinder #86: Lords of Rust/74}",
 			">",
-			">- **{spell/Summon Monster I}:** {monster/Clockwork Spy}",
-			">- **{spell/Summon Monster IV}:** {monster/Clockwork Servant}",
-			">- **{spell/Summon Monster VI}:** {monster/Clockwork Soldier}",
+			">- :hll[spell/Summon Monster I:] {monster/Clockwork Spy}",
+			">- :hll[spell/Summon Monster IV:] {monster/Clockwork Servant}",
+			">- :hll[spell/Summon Monster VI:] {monster/Clockwork Soldier}",
 			"",
 			"[^A]: Requires the {trait/Acolyte of Apocrypha} trait."
 		]
@@ -3834,9 +3836,9 @@
 			"**Domains** {domain/Chaos}, {domain/Charm}, {domain/Knowledge}, {domain/Luck}, {domain/Trickery}  ",
 			"**Subdomains** {domain/Azata (|Chaos)}, {domain/Captivation}[^A], {domain/Curse}, {domain/Deception}, {domain/Innuendo}, {domain/Lust}, {domain/Memory}, {domain/Thievery}  ",
 			"**Realm** Gardens of Deceit and Delight, Elysium  ",
-			"**Allies** Cayden Cailean, Desna, Norgorber, Shelyn  ",
+			"**Allies** {faith/Cayden Cailean}, {faith/Desna}, {faith/Norgorber}, {faith/Shelyn}  ",
 			"**Relations** Cayden Cailean (intermittent lover)  ",
-			"**Enemies** Rovagug  ",
+			"**Enemies** {faith/Rovagug}  ",
 			"**Temples** brothels, churches, hideouts, mansions, taverns  ",
 			"**Holy Days** none (individual temples have their own holidays to commemorate significant acts of revenge or trickery)  ",
 			"**Minions** {family/azata/s}, {monster/chaos beast/s}, {monster/empusa/s}, fey, {monster/giant wasp/s}, {monster/valkyrie/s}  ",
@@ -4001,7 +4003,7 @@
 			">#### Cleric, Warpriest",
 			">",
 			">- {spell/Rage} can be prepared as a 3rd-level spell",
-			">- {spell/Suggestion} can be prepared as a 4th-level spell [those with the Charm domain have access to it earlier]",
+			">- {spell/Suggestion} can be prepared as a 4th-level spell [^C]",
 			">- {spell/Harvest Knowledge} can be prepared as a 4th-level spell",
 			">- {spell/Incessant Buzzing} can be prepared as a 1st-level spell",
 			">- {spell/Painful Revelation} can be prepared as a 2nd-level spell",
@@ -4011,7 +4013,7 @@
 			">#### Inquisitor",
 			">",
 			">- {spell/Rage} can be prepared as a 3rd-level spell",
-			">- {spell/Suggestion} can be prepared as a 4th-level spell [those with the Charm domain have access to it earlier]",
+			">- {spell/Suggestion} can be prepared as a 4th-level spell [^C]",
 			">",
 			">#### Ranger",
 			">",
@@ -4025,12 +4027,14 @@
 			">",
 			">{SOURCE Pathfinder #17: A Memory of Darkness/60}",
 			">",
-			">- **{spell/Summon Monster I}:** {monster/Giant Bee} - N",
-			">- **{spell/Summon Monster II}:** {monster/Tiefling/ Rogue 1} - CN",
-			">- **{spell/Summon Monster V}:** {monster/Spider Eater} - N",
-			">- **{spell/Summon Monster VIII}:** {monster/Hellwasp Swarm} - CE",
+			">- :hll[spell/Summon Monster I:] {monster/Giant Bee} - N",
+			">- :hll[spell/Summon Monster II:] {monster/Tiefling/ Rogue 1} - CN",
+			">- :hll[spell/Summon Monster V:] {monster/Spider Eater} - N",
+			">- :hll[spell/Summon Monster VIII:] {monster/Hellwasp Swarm} - CE",
 			"",
-			"[^A]: Requires the {trait/Acolyte of Apocrypha} trait."
+			"[^A]: Requires the {trait/Acolyte of Apocrypha} trait.",
+			"",
+			"[^C]: Note that those with the Charm domain have access to this spell earlier."
 		]
 	}
 }

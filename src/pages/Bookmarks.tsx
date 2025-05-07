@@ -1,4 +1,4 @@
-import { useMemo, FC, useCallback, useState, useRef } from 'react';
+import { useMemo, FC, useCallback, useState } from 'react';
 import { add, bookmark, closeCircle, eye, eyeOff, reorderTwo, save, trash } from 'ionicons/icons';
 import {
 	IonButton,
@@ -35,7 +35,7 @@ import {
 	getColor
 } from '../store/bookmarksSlice';
 import { goTo } from '../store/historySlice';
-import { useAppDispatch, useAppSelector } from '../store/hooks';
+import { useAppDispatch, useAppSelector, useElement } from '../store/hooks';
 import BasicPage from './BasicPage';
 import './Page.css';
 
@@ -49,7 +49,7 @@ const BookmarksPage: FC = () => {
 	const [newTitle, setNewTitle] = useState("New Group");
 	const [newColor, setNewColor] = useState<Color>("red");
 	const isDark = useDarkMode();
-	const listRef = useRef<HTMLIonListElement>(null);
+	const [listObj, listRef] = useElement<HTMLIonListElement>();
 
 	const colors = useMemo(() => isDark ? darkColors : lightColors, [isDark]);
 
@@ -60,9 +60,8 @@ const BookmarksPage: FC = () => {
 	), [navigate, dispatch]);
 
 	const closeEm = useCallback(() => {
-		listRef && listRef.current && listRef.current.closeSlidingItems();
-		return true;
-	}, [listRef, listRef.current]);
+		listObj && listObj.closeSlidingItems();
+	}, [listObj]);
 
 	const maybeDelete = useCallback((title: string, id: string, number: number) => {
 		doAlert({
@@ -120,7 +119,7 @@ const BookmarksPage: FC = () => {
 						<IonIcon slot="end" icon="/icons/swipe-left.svg" />
 					</IonItem>
 					<IonItemOptions side="end">
-						<IonItemOption disabled={order.length < 2} color="danger" onClick={() => closeEm() && maybeDelete(title, id, contents.length)}>
+						<IonItemOption disabled={order.length < 2} color="danger" onClick={() => { closeEm(); maybeDelete(title, id, contents.length); }}>
 							<IonIcon slot="top" icon={trash} />
 							Delete
 						</IonItemOption>

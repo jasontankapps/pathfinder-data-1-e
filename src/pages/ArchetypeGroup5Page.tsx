@@ -2,6 +2,7 @@ import getItem from '../components/getItem';
 import companion from './subpages/__arc-companion';
 import ranger from './subpages/__arc-ranger';
 import bloodrager from './subpages/__arc-bloodrager';
+import { Hierarchy } from '../types';
 import { ArchetypeProps } from './ArchetypePage';
 import BasicPage from './BasicPage';
 import './Page.css';
@@ -14,6 +15,8 @@ const archetypes = {
 };
 
 type Data = typeof archetypes;
+
+const companionTopLink: Hierarchy = [ "Animal Companion", "sidekick/animal_companion" ];
 
 const ArchetypeGroup5Page: React.FC<ArchetypeProps> = ({id, parent, classTitle}) => {
 
@@ -29,7 +32,7 @@ const ArchetypeGroup5Page: React.FC<ArchetypeProps> = ({id, parent, classTitle})
 		title={title}
 		sources={sources}
 		pageId={pageId}
-		topLink={parent === "companion" ? [ "Animal Companion", "sidekick/companion" ] : [classTitle, "class/" + parent]}
+		topLink={parent === "companion" ? companionTopLink : [classTitle, "class/" + parent]}
 	>{jsx}</BasicPage>;
 };
 

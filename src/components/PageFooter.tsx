@@ -1,4 +1,4 @@
-import { SetStateAction, useState, FC, useRef } from 'react';
+import { SetStateAction, useState, FC } from 'react';
 import {
 	IonButton, IonButtons, IonFooter, IonIcon,
 	IonLabel, IonToolbar, IonTabButton,
@@ -33,8 +33,6 @@ const PageFooter: FC<{setIsSourcesModalOpen?: Action}> = ({ setIsSourcesModalOpe
 	const dispatch = useAppDispatch();
 	const [prevOpen, setPrevOpen] = useState<boolean>(false);
 	const [nextOpen, setNextOpen] = useState<boolean>(false);
-	const prevSheet = useRef<HTMLIonActionSheetElement>(null);
-	const nextSheet = useRef<HTMLIonActionSheetElement>(null);
 	const longPressPrev = useLongPress(() => {
 		Haptics.impact({ style: ImpactStyle.Medium });
 		setPrevOpen(true);
@@ -46,7 +44,6 @@ const PageFooter: FC<{setIsSourcesModalOpen?: Action}> = ({ setIsSourcesModalOpe
 	return (
 		<IonFooter>
 			<IonActionSheet
-				ref={prevSheet}
 				className="historySheet pagesPrev"
 				isOpen={prevOpen}
 				onDidDismiss={() => setPrevOpen(false)}
@@ -62,7 +59,6 @@ const PageFooter: FC<{setIsSourcesModalOpen?: Action}> = ({ setIsSourcesModalOpe
 				}
 			/>
 			<IonActionSheet
-				ref={nextSheet}
 				className="historySheet pagesNext"
 				isOpen={nextOpen}
 				onDidDismiss={() => setNextOpen(false)}

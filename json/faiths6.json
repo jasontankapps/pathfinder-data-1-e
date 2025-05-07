@@ -44,9 +44,9 @@
 			"**Domains** {domain/Chaos}, {domain/Charm}, {domain/Good}, {domain/Strength}, {domain/Travel}  ",
 			"**Subdomains** {domain/Azata (|Chaos)}, {domain/Azata (|Good)}, {domain/Competition}, {domain/Exploration}, {domain/Ferocity}, {domain/Love}, {domain/Lust}, {domain/Resolve}  ",
 			"**Realm** Hero's Heart, Elysium  ",
-			"**Allies** Calistria, Desna, Sarenrae, Shelyn, Torag  ",
+			"**Allies** {faith/Calistria}, {faith/Desna}, {faith/Sarenrae}, {faith/Shelyn}, {faith/Torag}  ",
 			"**Relations** Calistria (intermittent lover), Iomedae (ascended sister), Norgorber (ascended brother)  ",
-			"**Enemies** Asmodeus, Norgorber  ",
+			"**Enemies** {faith/Asmodeus}, {faith/Norgorber}  ",
 			"**Temples** alehouses, breweries, taverns  ",
 			"**Holy Days** Ascension Day (drinking celebration of Cayden Cailean's ascension to godhood, December 11), First Brewing (community tasting of the year's brewing, typically 1 month after harvest time), Merrymead (sharing of stories and drinks around a fire or during pub crawls, February 2)  ",
 			"**Minions** {family/azata/s}, fey  ",
@@ -196,11 +196,11 @@
 			">",
 			">#### Bard",
 			">",
-			">- {spell/Knock} can be prepared as a 1st-level spell [only to open welds, shackles, or chains used to imprison or hobble someone]",
+			">- {spell/Knock} can be prepared as a 1st-level spell [^K]",
 			">",
 			">#### Cleric, Inquisitor, Warpriest",
 			">",
-			">- {spell/Knock} can be prepared as a 1st-level spell [only to open welds, shackles, or chains used to imprison or hobble someone]",
+			">- {spell/Knock} can be prepared as a 1st-level spell [^K]",
 			">- {spell/Create Water} can be prepared as a 0-level spell [can create simple ale or wine, 1 cup/level]",
 			">- {spell/Create Food and Water} can be prepared as a 3rd-level spell [can be used to make ale or wine rather than water (which spoils at the same rate the food does)]",
 			">",
@@ -208,10 +208,11 @@
 			">",
 			">{SOURCE Pathfinder #14: Children of the Void/61}",
 			">",
-			">- **{spell/Summon Monster II}:** {template/Celestial} {monster/Cayhound} - CG (uses riding dog statistics)",
-			">- **{spell/Summon Monster III}:** {monster/Satyr} - CG (without pipes)",
-			">- **{spell/Summon Monster V}:** {monster/Rust Monster} - N",
-			">- **{spell/Summon Monster V}:** {monster/Satyr} - CG (with pipes)"
+			">- :hll[spell/Summon Monster II:] {template/Celestial} {monster/Cayhound} - CG (uses riding dog statistics)",
+			">- :hll[spell/Summon Monster III:] {monster/Satyr} - CG (without pipes)",
+			">- :hll[spell/Summon Monster V:] {monster/Rust Monster} - N, {monster/Satyr} - CG (with pipes)",
+			"",
+			"[^K]: Can only be used to open welds, shackles, or chains used to imprison or hobble someone."
 		]
 	},
 	"cernunnos": {
@@ -821,7 +822,7 @@
 			"**Subdomains** {domain/Cannibalism}, {domain/Corruption}, {domain/Deception}, {domain/Demon (|Chaos)}, {domain/Demon (|Evil)}, {domain/Ferocity}, {domain/Insanity}, {domain/Nightmare}, {domain/Riot}, {domain/Thievery}, {domain/Truth}[^A]  ",
 			"**Realm** Kurnugia, the Abyss  ",
 			"**Allies** none  ",
-			"**Enemies** Abadar, Asmodeus, Desna, Iomedae, Rovagug, Sarenrae  ",
+			"**Enemies** {faith/Abadar}, {faith/Asmodeus}, {faith/Desna}, {faith/Iomedae}, {faith/Rovagug}, {faith/Sarenrae}  ",
 			"**Temples** abandoned orphanages, caverns, ruined buildings  ",
 			"**Holy Days** Night of the Pale (night of grim revelry, December 31)  ",
 			"**Minions** {monster/barghest/s}, {subtype/demon/s}, {monster/yeth hound/s}  ",
@@ -1003,10 +1004,9 @@
 			">",
 			">{SOURCE Pathfinder #5: Sins of the Saviors/71}",
 			">",
-			">- **{spell/Summon Monster III}:** {template/Fiendish} {monster/Worg} - CE",
-			">- **{spell/Summon Monster V}:** {monster/Barghest} - CE (chaotic subtype instead of lawful)",
-			">- **{spell/Summon Monster VIII}:** {monster/Warped One} - CE",
-			">- **{spell/Summon Monster VIII}:** {monster/Nightmare} - NE",
+			">- :hll[spell/Summon Monster III:] {template/Fiendish} {monster/Worg} - CE",
+			">- :hll[spell/Summon Monster V:] {monster/Barghest} - CE (chaotic subtype instead of lawful)",
+			">- :hll[spell/Summon Monster VIII:] {monster/Warped One} - CE, {monster/Nightmare} - NE",
 			">",
 			">{SOURCE Inner Sea Gods/99}",
 			">",
@@ -1184,8 +1184,7 @@
 			">",
 			">{SOURCE Pathfinder #65: Into the Nightmare Rift/75}",
 			">",
-			">- **{spell/Summon Monster VI}:** {template/Advanced} {monster/Kyton/ Evangelist} - LE (extraplanar)",
-			">- **{spell/Summon Monster VI}:** {monster/Dark Naga} - LE",
+			">- :hll[spell/Summon Monster VI:] {template/Advanced} {monster/Kyton/ Evangelist} - LE (extraplanar), {monster/Dark Naga} - LE",
 			"",
 			"[^A]: Requires the {trait/Acolyte of Apocrypha} trait."
 		]
@@ -1593,7 +1592,7 @@
 			">",
 			">1. **The Unbroken (Sp)** {spell/chill touch} 3/day, {spell/cat's grace} 2/day, or {spell/locate weakness} 1/day",
 			">2. **Dagger of Night (Su)** As a move action, you can conjure a blade of darkness into your hand. This blade of darkness functions as a dagger, but deals an amount of damage equal to 1d8 + 1 point per 3 character levels + your Strength modifier; half of this damage is piercing and the other half is cold damage. The blade is considered a magic weapon for the purpose of bypassing damage reduction. The blade lasts for a number of rounds equal to your character level, though the blade immediately vanishes if it leaves your hand. You can use this ability a number of times per day equal to 3 + your Charisma modifier (minimum 1); you can expend two uses of this ability with the same move action to conjure two daggers (wielding one in each hand) if you wish.",
-			">3. **Umbral Form (Su)** As a standard action, you can weave strands of shadow-stuff into your physical form. You gain DR 10/- and cold resistance 15. When you take damage from a critical hit or sneak attack, there is a 50% chance that the critical hit or sneak attack is negated and damage is instead rolled normally. This does not stack with similar abilities that negate critical hits and sneak attacks (such as [fortification](magic-enh/moderate_fortification) armor). You gain the see in darkness supernatural ability allowing you to see in areas of even magical darkness. In areas of dim light or darker, you can move as if affected by {spell/air walk}. You can return to your normal form as a free action. You can use this ability a number of rounds per day equal to your character level, and these rounds need not be consecutive.",
+			">3. **Umbral Form (Su)** As a standard action, you can weave strands of shadow-stuff into your physical form. You gain DR 10/- and cold resistance 15. When you take damage from a critical hit or sneak attack, there is a 50% chance that the critical hit or sneak attack is negated and damage is instead rolled normally. This does not stack with similar abilities that negate critical hits and sneak attacks (such as {magic-enh/fortification} armor). You gain the see in darkness supernatural ability allowing you to see in areas of even magical darkness. In areas of dim light or darker, you can move as if affected by {spell/air walk}. You can return to your normal form as a free action. You can use this ability a number of rounds per day equal to your character level, and these rounds need not be consecutive.",
 			"",
 			"## Follower Options",
 			"",
@@ -1629,8 +1628,8 @@
 			">",
 			">{SOURCE Pathfinder #131: The Reaper's Right Hand/72}",
 			">",
-			">- **{spell/Summon Monster IV}:** {monster/Shadow}",
-			">- **{spell/Summon Monster VII}:** {monster/Greater Shadow}"
+			">- :hll[spell/Summon Monster IV:] {monster/Shadow}",
+			">- :hll[spell/Summon Monster VII:] {monster/Greater Shadow}"
 		]
 	},
 	"the_green_mother": {
@@ -2073,8 +2072,8 @@
 			"**Domains** {domain/Artifice}, {domain/Earth}, {domain/Good}, {domain/Law}, {domain/Protection}  ",
 			"**Subdomains** {domain/Archon (|Good)}, {domain/Archon (|Law)}, {domain/Caves}, {domain/Construct}, {domain/Defense}, {domain/Fortifications}, {domain/Industry}, {domain/Metal}, {domain/Toil}  ",
 			"**Realm** Forgeheart, Heaven  ",
-			"**Allies** Abadar, Cayden Cailean, Erastil, Iomedae  ",
-			"**Enemies** Rovagug  ",
+			"**Allies** {faith/Abadar}, {faith/Cayden Cailean}, {faith/Erastil}, {faith/Iomedae}  ",
+			"**Enemies** {faith/Rovagug}  ",
 			"**Temples** cathedrals, caverns, castles, battlefields, forges, fortresses, warehouses  ",
 			"**Holy Days** Skylost (day of mourning for lost dwarven Sky Citadels, date varies)  ",
 			"**Minions** {subtype/archon/s}, {monster/azer/s}, constructs  ",
@@ -2238,9 +2237,8 @@
 			">",
 			">{SOURCE Pathfinder #62: Curse of the Lady's Light/75}",
 			">",
-			">- **{spell/Summon Monster I}:** {monster/Badger}",
-			">- **{spell/Summon Monster III}:** {monster/Azer}",
-			">- **{spell/Summon Monster III}:** {monster/Dire Badger}"
+			">- :hll[spell/Summon Monster I:] {monster/Badger}",
+			">- :hll[spell/Summon Monster III:] {monster/Azer}, {monster/Dire Badger}"
 		]
 	},
 	"treerazer": {
@@ -2648,7 +2646,7 @@
 			">",
 			">### Unique Summon Rules",
 			">",
-			">- **{spell/Summon Monster VII}:** {monster/Stone Giant} ({template/fiendish} or {template/resolute})",
+			">- :hll[spell/Summon Monster VII:] {monster/Stone Giant} ({template/fiendish} or {template/resolute})",
 			"",
 			"[^A]: Requires the {trait/Acolyte of Apocrypha} trait."
 		]
@@ -2799,9 +2797,9 @@
 			">",
 			">{SOURCE Pathfinder #105: The Inferno Gate/73}",
 			">",
-			">- **{spell/Summon Monster III}:** [Phantom Armor (Guardian)](monster/guardian_phantom_armor) - LE",
-			">- **{spell/Summon Monster VI}:** {monster/Warmonger Devil (|Levaloch)}",
-			">- **{spell/Summon Monster VIII}:** {monster/Tophet}"
+			">- :hll[spell/Summon Monster III:] {monster/Phantom Armor (Guardian)} - LE",
+			">- :hll[spell/Summon Monster VI:] {monster/Warmonger Devil (|Levaloch)}",
+			">- :hll[spell/Summon Monster VIII:] {monster/Tophet}"
 		]
 	},
 	"monad": {
@@ -3532,9 +3530,9 @@
 			">",
 			">{SOURCE Pathfinder #95: Anvil of Fire/67}",
 			">",
-			">- **{spell/Summon Monster I}:** [Burning Human Skeleton](template/skeleton) (extraplanar)",
-			">- **{spell/Summon Monster III}:** {monster/Thoqqua}",
-			">- **{spell/Summon Monster VI}:** [Burning Fire Giant Skeleton](template/skeleton) (extraplanar)"
+			">- :hll[spell/Summon Monster I:] {template/Burning Human |Skeleton} (extraplanar)",
+			">- :hll[spell/Summon Monster III:] {monster/Thoqqua}",
+			">- :hll[spell/Summon Monster VI:] {template/Burning Fire Giant |Skeleton} (extraplanar)"
 		]
 	},
 	"zyphus": {
@@ -3638,9 +3636,9 @@
 			">",
 			">{SOURCE Pathfinder #89: Palace of Fallen Stars/75}",
 			">",
-			">- **{spell/Summon Monster III}:** {monster/Cacodaemon}",
-			">- **{spell/Summon Monster IV}:** {monster/Lacridaemon}",
-			">- **{spell/Summon Monster V}:** {monster/Ceustodaemon}",
+			">- :hll[spell/Summon Monster III:] {monster/Cacodaemon}",
+			">- :hll[spell/Summon Monster IV:] {monster/Lacridaemon}",
+			">- :hll[spell/Summon Monster V:] {monster/Ceustodaemon}",
 			"",
 			"[^A]: Requires the {trait/Acolyte of Apocrypha} trait."
 		]

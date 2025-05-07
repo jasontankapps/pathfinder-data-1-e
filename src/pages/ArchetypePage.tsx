@@ -21,6 +21,7 @@ const ArchetypeGroup10Page = lazy(() => import("./ArchetypeGroup10Page"));
 const ArchetypeGroup11Page = lazy(() => import("./ArchetypeGroup11Page"));
 const ArchetypeGroup12Page = lazy(() => import("./ArchetypeGroup12Page"));
 const ArchetypeGroup13Page = lazy(() => import("./ArchetypeGroup13Page"));
+const ArchetypeGroup14Page = lazy(() => import("./ArchetypeGroup14Page"));
 
 interface ArchGroupPageProps {id: string, parent: string, classTitle: string};
 
@@ -37,7 +38,8 @@ const pages: ((x: ArchGroupPageProps) => ReactNode)[] = [
 	({id, parent, classTitle}) => <ArchetypeGroup10Page id={id} parent={parent} classTitle={classTitle} />,
 	({id, parent, classTitle}) => <ArchetypeGroup11Page id={id} parent={parent} classTitle={classTitle} />,
 	({id, parent, classTitle}) => <ArchetypeGroup12Page id={id} parent={parent} classTitle={classTitle} />,
-	({id, parent, classTitle}) => <ArchetypeGroup13Page id={id} parent={parent} classTitle={classTitle} />
+	({id, parent, classTitle}) => <ArchetypeGroup13Page id={id} parent={parent} classTitle={classTitle} />,
+	({id, parent, classTitle}) => <ArchetypeGroup14Page id={id} parent={parent} classTitle={classTitle} />
 ];
 
 const classes: { [key: string]: [number, string] } = {
@@ -71,14 +73,11 @@ const classes: { [key: string]: [number, string] } = {
 
 	brawler: [8, "Brawler"],
 	barbarian: [8, "Barbarian"], // conflicts with vigilante
-	familiar: [8, "Familiar"], // conflicts with cavalier, bard, inquisitor, investigator, ranger
 	mesmerist: [8, "Mesmerist"],
-	wizard: [8, "Wizard"], // conflicts with cleric, bloodrager
 
 	druid: [9, "Druid"],
 	medium: [9, "Medium"],
 	ninja: [9, "Ninja"],
-	vigilante: [9, "Vigilante"], // conflicts with barbarian
 
 	fighter: [10, "Fighter"], // conflicts with ranger, skald
 	psychic: [10, "Psychic"],
@@ -95,7 +94,11 @@ const classes: { [key: string]: [number, string] } = {
 	gunslinger: [13, "Gunslinger"], // conflicts with bard
 	shaman: [13, "Shaman"],
 	hunter: [13, "Hunter"], // conflicts with paladin, rogue
-	shifter: [13, "Shifter"] // conflicts with bloodrager
+	shifter: [13, "Shifter"], // conflicts with bloodrager
+
+	vigilante: [14, "Vigilante"], // conflicts with barbarian
+	familiar: [14, "Familiar"], // conflicts with cavalier, bard, inquisitor, investigator, ranger
+	wizard: [14, "Wizard"], // conflicts with cleric, bloodrager
 
 };
 

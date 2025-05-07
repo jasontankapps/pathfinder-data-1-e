@@ -1,9 +1,7 @@
 import getItem from '../components/getItem';
 import brawler from './subpages/__arc-brawler';
 import barbarian from './subpages/__arc-barbarian';
-import familiar from './subpages/__arc-familiar';
 import mesmerist from './subpages/__arc-mesmerist';
-import wizard from './subpages/__arc-wizard';
 import { ArchetypeProps } from './ArchetypePage';
 import BasicPage from './BasicPage';
 import './Page.css';
@@ -12,9 +10,7 @@ const archetypes = {
 	"not_found": { jsx: <><h2>Error</h2><p>Unable to find the requested archetype.</p></>, title: "Unknown", sources: []},
 	...brawler,
 	...barbarian, // conflicts with vigilante
-	...familiar, // conflicts with cavalier, bard, inquisitor, investigator, ranger
-	...mesmerist,
-	...wizard // conflicts with cleric, bloodrager
+	...mesmerist
 };
 
 type Data = typeof archetypes;

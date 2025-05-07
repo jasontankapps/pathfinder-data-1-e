@@ -12,7 +12,7 @@ import { useLocation, useRoute } from 'wouter';
 import { motion, AnimatePresence } from 'motion/react';
 import { useMarker } from "react-mark.js";
 import { setCaseSensitive, setSeparateWordSearch, setWholeWords } from '../store/searchSlice';
-import { useAppDispatch, useAppSelector } from '../store/hooks';
+import { useAppDispatch, useAppSelector, useElement } from '../store/hooks';
 import { setPosition } from '../store/scrollSlice';
 import PageFooter from '../components/PageFooter';
 import PageHeader from '../components/PageHeader';
@@ -162,16 +162,6 @@ const doFocus = (
 };
 
 type ElementRef<T extends Element> = (node: T | null) => void;
-
-const useElement = <T extends Element>(): [T | null, ElementRef<T>] => {
-	const [el, setEl] = useState<T | null>(null);
-	const ref: ElementRef<T> = useCallback((node: T | null) => {
-		if(node && node !== el) {
-			setEl(node);
-		}
-	}, []);
-	return [el, ref];
-};
 
 const BasicPage: FC<PropsWithChildren<PageProps>> = (props) => {
 	const {

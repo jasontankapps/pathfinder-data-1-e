@@ -216,7 +216,7 @@ const Menu: React.FC = () => {
 				iconClassName: `color-${p.color}`,
 				url: basicBookmarkPage.url + id
 			},
-			p.color
+			id
 		]));
 
 	return (

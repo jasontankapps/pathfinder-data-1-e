@@ -11,7 +11,7 @@ interface MonsterFamilyProps {
 
 const MonsterFamilyGroup2Page: React.FC<MonsterFamilyProps> = ({id}) => {
 
-	const { hasJL, title, jsx, sources, } = getGuaranteedItem<Data>((id as keyof Data), families);
+	const { hasJL, title, jsx, sources } = getGuaranteedItem<Data>((id as keyof Data), families);
 
 	return <BasicPage
 		hasJL={hasJL}
