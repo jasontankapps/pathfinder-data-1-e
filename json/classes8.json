@@ -19,7 +19,7 @@
 			"**Role:** Brawlers are maneuverable and well suited for creating flanking situations or dealing with lightly armored enemies, as well as quickly adapting to a rapidly changing battlefield.  ",
 			"**Alignment:** Any.  ",
 			"**Hit Die:** d10.  ",
-			"**Parent Class(es):** Fighter and monk.  ",
+			"**Parent Class(es):** {class/Fighter} and {class/monk}.  ",
 			"**Starting Wealth:** 3d6 &times; 10 gp (average 105 gp).",
 			"",
 			"### Class Skills",
