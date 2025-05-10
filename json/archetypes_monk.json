@@ -1331,7 +1331,7 @@
 			"",
 			"**Skills:** A sensei gains Diplomacy, Linguistics, and all Knowledge skills as class skills.",
 			"",
-			"**Advice (Ex):** A sensei's advice is identical to {class/bard/ic performance} (using oratory), allowing him to inspire courage at 1st level, inspire competence at 3rd level, and inspire greatness at 9th level, as a bard of the sensei's level, usable a total number of rounds per day equal to his level + his Wisdom modifier (minimum 1). This ability replaces flurry of blows, fast movement, and improved evasion.",
+			"**Advice (Ex):** A sensei's advice is identical to {ability/bardic performance} (using oratory), allowing him to {performance/inspire courage} at 1st level, {performance/inspire competence} at 3rd level, and {performance/inspire greatness} at 9th level, as a bard of the sensei's level, usable a total number of rounds per day equal to his level + his Wisdom modifier (minimum 1). This ability replaces flurry of blows, fast movement, and improved evasion.",
 			"",
 			"**Insightful Strike (Ex):** At 2nd level, a sensei may use his Wisdom bonus in lieu of his Strength or Dexterity on attack rolls and combat maneuver checks with unarmed strikes or monk weapons. This ability replaces evasion and the bonus feat gained at 2nd level.",
 			"",

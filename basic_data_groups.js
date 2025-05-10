@@ -54,6 +54,7 @@ import archetypewizard from './json/archetypes_wizard.json' with {type: 'json'};
 import arcaneschool from './json/class_ability_arcane_schools.json' with {type: 'json'};
 import aspect from './json/class_ability_aspects.json' with {type: 'json'};
 import masterpiece from './json/class_ability_bardic_masterpieces.json' with {type: 'json'};
+import performance from './json/class_ability_bardic_performances.json' with {type: 'json'};
 import blessing from './json/class_ability_blessings.json' with {type: 'json'};
 import blrgbloodline from './json/class_ability_bloodrager_bloodlines.json' with {type: 'json'};
 import oraclecurse from './json/class_ability_curses.json' with {type: 'json'};
@@ -837,6 +838,13 @@ const basic_data_groups = {
 		link: "masterpiece",
 		num: 0,
 		type: "Bardic Masterpiece"
+	},
+	"class_ability_bardic_performances": {
+		data: performance,
+		searchgroup: 1, // classes
+		link: "performance",
+		num: 0,
+		type: "Bardic Performance"
 	},
 	"class_ability_bloodrager_bloodlines": {
 		data: blrgbloodline,

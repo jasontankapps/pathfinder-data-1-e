@@ -10,6 +10,8 @@ import arcanedisc from './subpages/__arcanedisc';
 
 import mercy from './subpages/__mercy';
 
+import performance from './subpages/__performance';
+
 import BasicPage from './BasicPage';
 import './Page.css';
 
@@ -18,7 +20,8 @@ const allTalents = {
 	stare,
 	discovery,
 	arcanedisc,
-	mercy
+	mercy,
+	performance
 };
 
 type Talent = keyof typeof allTalents;
@@ -27,8 +30,9 @@ const info: { [key in Talent]: [string, string] } = {
 	"trick": [ "Mesmerist Tricks", "ability/tricks" ],
 	"stare": [ "Mesmerist Stares", "ability/stares" ],
 	"discovery": [ "Alchemist Discoveries", "ability/discoveries" ],
-	"arcanedisc": [ "Arcane Discovery", "ability/arcane_discoveries" ],
-	"mercy": [ "Paladin Mercy", "ability/mercies" ]
+	"arcanedisc": [ "Arcane Discoveries", "ability/arcane_discoveries" ],
+	"mercy": [ "Paladin Mercies", "ability/mercies" ],
+	"performance": [ "Bardic Performances", "ability/bardic_performances" ]
 };
 
 const addendaObj: { [key: string]: string } = {

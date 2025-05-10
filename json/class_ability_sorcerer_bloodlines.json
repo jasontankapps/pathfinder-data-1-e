@@ -1076,7 +1076,7 @@
 			"",
 			">*Beguiling Voice (Ex):* At 1st level, you can use the sound of your voice to lull a target creature into taking no action. This ability acts as the {spell/daze} spell, except it is language-dependent, has a duration of 1 round, and affects a living creature whose Hit Dice do not exceed your sorcerer level. You can use this ability a number of times per day equal to 3 + your Charisma modifier.",
 			">",
-			">*Fascinate (Ex):* At 3rd level, you gain the ability to use a Perform skill to cause one or more creatures to become fascinated with you. This acts as the fascinate {class/bard/ic perform ability}, except the save DC is 10 + 1/2 your sorcerer level + your Charisma bonus, and it lasts 1 round/level. You may use this ability once per day at 3rd level, twice per day at 8th level, three times per day at 13th level, and four times per day at 18th level.",
+			">*Fascinate (Ex):* At 3rd level, you gain the ability to use a Perform skill to cause one or more creatures to become fascinated with you. This acts as the {performance/fascinate} bardic perform ability, except the save DC is 10 + 1/2 your sorcerer level + your Charisma bonus, and it lasts 1 round/level. You may use this ability once per day at 3rd level, twice per day at 8th level, three times per day at 13th level, and four times per day at 18th level.",
 			">",
 			">*Perfect Voice (Su):* At 9th level, you understand all efforts to communicate through sound, and can make yourself understood to any creature able to understand language. You can speak to, and understand the speech of, any creature that understands at least one spoken language. The save DCs of language-dependent spells you cast increase by +1.",
 			">",

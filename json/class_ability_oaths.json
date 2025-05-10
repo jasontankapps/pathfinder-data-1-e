@@ -261,7 +261,7 @@
 			"",
 			"**Skills:** The oathbound paladin's class skills include Linguistics, Perception, and Perform, but not Handle Animal, Ride, or Spellcraft.",
 			"",
-			"**Stirring Monologue (Su):** At 1st level, the paladin can deliver a stirring monologue on the ideals of justice and fairness, motivating allies and persuading others. This functions as bardic performance as per a {class/bard} of her paladin level using Perform (oratory). All the effects are language-dependent even if they would not normally be. The paladin gains the following performances at the indicated levels: inspire courage (1st), fascinate (4th), inspire competence (5th), suggestion (7th), dirge of dread (10th), inspire greatness (13th), frightening tune (16th), and mass suggestion (19th).",
+			"**Stirring Monologue (Su):** At 1st level, the paladin can deliver a stirring monologue on the ideals of justice and fairness, motivating allies and persuading others. This functions as {ability/bardic performance} as per a bard of her paladin level using Perform (oratory). All the effects are language-dependent even if they would not normally be. The paladin gains the following performances at the indicated levels: {performance/inspire courage} (1st), {performance/fascinate} (4th), {performance/inspire competence} (5th), {performance/suggestion} (7th), {performance/dirge of doom} (10th), {performance/inspire greatness} (13th), {performance/frightening tune} (16th), and {performance/mass suggestion} (19th).",
 			"",
 			"This ability replaces smite evil.",
 			"",

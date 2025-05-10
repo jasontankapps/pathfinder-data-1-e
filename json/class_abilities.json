@@ -593,7 +593,7 @@
 		"description": [
 			"## Bardic Masterpieces",
 			"",
-			"Talented bards can learn or create masterpieces, unusual applications of the bardic performance ability requiring special training. Masterpiece descriptions adhere to the following guidelines.",
+			"Talented bards can learn or create masterpieces, unusual applications of the {ability/bardic performance} ability requiring special training. Masterpiece descriptions adhere to the following guidelines.",
 			"",
 			"**Masterpiece Name:** In addition to the name of the masterpiece, this line indicates which Perform skill or skills the masterpiece relies upon.",
 			"",

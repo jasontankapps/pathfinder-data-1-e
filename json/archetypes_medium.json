@@ -350,7 +350,7 @@
 			"",
 			"This ability alters spirit surge.",
 			"",
-			"**Storyteller's Performance (Su):** At 2nd level, a storyteller gains the ability to recall snippets of tales that are relevant to the current situation. This ability is similar in all respects to bardic performance as used by a {class/bard} of the storyteller's medium level (including interactions with feats, spells, and other abilities), and uses Perform (act), Perform (comedy), or Perform (oratory) as the storyteller's performance skill. However, a storyteller gains only the following types of bardic performance: inspire courage (2nd level), inspire competence (3rd level), inspire greatness (9th level), and inspire heroics (15th level).",
+			"**Storyteller's Performance (Su):** At 2nd level, a storyteller gains the ability to recall snippets of tales that are relevant to the current situation. This ability is similar in all respects to {ability/bardic performance} as used by a bard of the storyteller's medium level (including interactions with feats, spells, and other abilities), and uses Perform (act), Perform (comedy), or Perform (oratory) as the storyteller's performance skill. However, a storyteller gains only the following types of bardic performance: {performance/inspire courage} (2nd level), {performance/inspire competence} (3rd level), {performance/inspire greatness} (9th level), and {performance/inspire heroics} (15th level).",
 			"",
 			"This ability replaces shared seance, taboo, haunt channeler, propitiation, and trance of three.",
 			"",

@@ -678,6 +678,11 @@ const App: FC = () => {
 								<TalentPageFour prefix="mercy" />
 							</Suspense>
 						</Route>
+						<Route path="/performance/:id">
+							<Suspense fallback={<Loading text="Recording performances..." />}>
+								<TalentPageFour prefix="performance" />
+							</Suspense>
+						</Route>
 						<Route path="/misc/:id">
 							<Suspense fallback={<Loading text="Sweeping out the cobwebs..." />}>
 								<MiscPage />

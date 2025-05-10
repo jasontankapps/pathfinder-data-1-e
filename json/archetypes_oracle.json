@@ -304,7 +304,7 @@
 			"",
 			"**Bonus Spells:** {spell/Sound burst} (4th), {spell/shout} (8th), {spell/song of discord} (10th), {spell/greater shout} (12th), and {spell/pied piping} (14th). These bonus spells replace the oracle's mystery bonus spells at these levels.",
 			"",
-			"**Inspiring Song (Ex):** The voice of an ocean's echo provides inspiration to allies. This ability is identical to bardic performance (using Perform [sing] only), allowing her to inspire courage at 1st level, inspire competence at 3rd level, and inspire heroics at 15th level, as a {class/bard} of the ocean's echo's level. It is usable a total number of rounds per day equal to her level + her Charisma modifier (minimum 1).",
+			"**Inspiring Song (Ex):** The voice of an ocean's echo provides inspiration to allies. This ability is identical to {ability/bardic performance} (using Perform [sing] only), allowing her to {performance/inspire courage} at 1st level, {performance/inspire competence} at 3rd level, and {performance/inspire heroics} at 15th level, as a bard of the ocean's echo's level. It is usable a total number of rounds per day equal to her level + her Charisma modifier (minimum 1).",
 			"",
 			"This ability replaces the revelations gained at 1st, 3rd, and 15th level.",
 			"",

@@ -1297,7 +1297,7 @@
 		"compilationSources": [ [ "Pathfinder #130: City in the Lion's Eye", 76 ] ],
 		"category": "Other Talents",
 		"description": [
-			"The rogue knows enough about music and performance to survive in a bardic college and can fake what she doesn't know. The rogue qualifies as having the inspire competence {class/bard/ic performance} class feature for the purpose of meeting prestige class requirements, although this talent doesn't grant her the bardic performance ability."
+			"The rogue knows enough about music and performance to survive in a bardic college and can fake what she doesn't know. The rogue qualifies as having the {performance/inspire competence} bardic performance class feature for the purpose of meeting prestige class requirements, although this talent doesn't grant her the bardic performance ability."
 		]
 	},
 	"certainty": {
