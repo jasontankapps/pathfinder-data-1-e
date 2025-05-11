@@ -907,6 +907,10 @@ div,h2,h3,h4,h5,h6,p,b,i,strong,em,blockquote,aside,li,span {
 a {
 	transition: color 0.5s ease-in 1.5s;
 }
+a.backToPreviousLink,
+span.innerlink.backToPreviousLink {
+	color: var(--ion-color-danger) !important;
+}
 
 *.highlight {
 	background-color: var(--ion-color-success) !important;

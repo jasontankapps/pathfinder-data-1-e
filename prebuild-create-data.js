@@ -368,8 +368,8 @@ const postprocess = (tables) => {
 			if(!footnotedata[id]) {
 				footnotedata[id] = 0;
 			}
-			const notenumber = ++footnotedata[id];
-			output = output + `${pre}<sup><InnerLink id="${$.prefix}${id}-${notenumber}" to="${$.prefix}${to}">${linktext}</InnerLink></sup>`;
+			const noteNumber = ++footnotedata[id];
+			output = output + `${pre}<sup><InnerLink showBacklink="backlink-${$.prefix}${id}-${noteNumber}" id="${$.prefix}${id}-${noteNumber}" to="${$.prefix}${to}">${linktext}</InnerLink></sup>`;
 			text = post;
 			$.flags.innerlink = true;
 		}
@@ -380,8 +380,8 @@ const postprocess = (tables) => {
 		const backmatcher = new RegExp(`^(.*?)<a href="#${$.prefix}([^"]+)"[^>]*?( aria-label="[^"]*)"[^>]*?>(.*?(?:<sup>([0-9]+)</sup>)?)</a>(.*)$`);
 		while(m = text.match(backmatcher)) {
 			const [, pre, to, aria, linktext, linknumber, post] = m;
-			const notenumber = linknumber || "1";
-			output = output + `${pre}<InnerLink to="${$.prefix}${to}-${notenumber}"${aria}-${notenumber}">${linktext}</InnerLink>`;
+			const noteNumber = linknumber || "1";
+			output = output + `${pre}<InnerLink id="backlink-${$.prefix}${to}-${noteNumber}" to="${$.prefix}${to}-${noteNumber}"${aria}-${noteNumber}">${linktext}</InnerLink>`;
 			text = post;
 			$.flags.innerlink = true;
 		}
