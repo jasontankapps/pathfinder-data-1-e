@@ -180,6 +180,7 @@ const $Whats = [
 	"arcane schools",
 	"shifter aspects",
 	"bardic masterpieces",
+	"bardic performances",
 	"warpriest blessings",
 	"bloodrager bloodlines",
 	"oracle curses",

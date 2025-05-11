@@ -4975,6 +4975,9 @@
 		"name": "Thieves' tools (masterwork)",
 		"copyof": "thieves_tools_common"
 	},
+	"masterwork_thieves_tools": {
+		"copyof": "thieves_tools_masterwork"
+	},
 	"thieves_tools_mwk": {
 		"copyof": "thieves_tools_masterwork"
 	},

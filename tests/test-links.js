@@ -360,19 +360,19 @@ const testLinks = () => {
 					temp = m[3];
 				}
 				temp = line;
-				while(m = temp.match(/:ripple\[(.+?)(?<!\\)\](.*$)/)) {
-					// Testing :ripple[link/text]
-					const q = checkForEncodedLink(m[1].replace(/\\/g, ""), { bare: true });
+				while(m = temp.match(/:(ripple|hll)\[(.+?)(?<!\\)\](.*$)/)) {
+					// Testing :ripple[link/text] and :hll[link/text]
+					const q = checkForEncodedLink(m[2].replace(/\\/g, ""), { bare: true });
 					if(!q) {
-						invalid.push(`:ripple[${m[1]}]`)
+						invalid.push(`:${m[1]}[${m[2]}]`)
 					} else {
 						let [, link, , , protocol, property] = q;
 						if(protocol === "source") {
 							if(!allsources[property]) {
-								invalid.push(`:ripple[${link}]`);
+								invalid.push(`:${m[1]}[${link}]`);
 							}
 						} else if(!$KnownProps[protocol] || !$KnownProps[protocol][property]) {
-							invalid.push(`:ripple[${link}]`);
+							invalid.push(`:${m[1]}[${link}]`);
 						}
 					}
 					temp = m[2];

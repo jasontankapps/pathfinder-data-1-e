@@ -4846,7 +4846,7 @@
 			"",
 			"This tool is perfect for its intended job. It grants a +2 circumstance bonus on a related skill check (if any). The bonuses provided by multiple masterwork items do not stack.",
 			"",
-			"Several common items already count as masterwork tools for particular skills. These are the alchemist's lab, climber's kit, disguise kit, healer's kit, masterwork musical instrument, and masterwork thieves' tools. Therefore, there is no masterwork climber's kit, masterwork healer's kit, and so on - those items are already the best available for general checks with the relevant skill.",
+			"Several common items already count as masterwork tools for particular skills. These are the {eq-misc/alchemist's lab}, {eq-misc/climber's kit}, {eq-misc/disguise kit}, {eq-misc/healer's kit}, {eq-misc/masterwork musical instrument}, and {eq-misc/masterwork thieves' tools}. Therefore, there is no masterwork climber's kit, masterwork healer's kit, and so on - those items are already the best available for general checks with the relevant skill.",
 			"",
 			"Some skills have no appropriate tool or masterwork tool; no nonmagical item exists that grants a bonus for all uses of that skill. For example, just because a certain perfume is favored by local nobles (granting a +2 circumstance bonus on Diplomacy checks to influence them) doesn't mean that perfume has the same effect on a member of the thieves' guild, a foreign berserker, or a medusa. Likewise, just because a fake beard woven by dwarves out of the beards of famous dwarves may grant a +2 circumstance bonus on Use Magic Device checks to emulate the dwarven race doesn't mean the beard has any effect on using that skill to activate elven items or paladin items, or to decipher a written spell.",
 			"",

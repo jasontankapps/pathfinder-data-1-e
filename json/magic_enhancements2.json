@@ -389,7 +389,7 @@
 			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/bull's strength}; **Price** -"
 		]
 	},
-	"spell_storing_weapon": {
+	"spell_storing": {
 		"name": "Spell Storing (weapon)",
 		"sources": [
 			"Ultimate Equipment",
@@ -411,7 +411,8 @@
 			"**Requirements** {feat/Craft Magic Arms and Armor}, creator must be a caster of at least 12th level; **Price** -"
 		]
 	},
-	"spell_storing_w": { "copyof": "spell_storing_weapon" },
+	"spell_storing_w": { "copyof": "spell_storing" },
+	"spell_storing_weapon": { "copyof": "spell_storing" },
 	"spirit_hunting": {
 		"name": "Spirit-Hunting",
 		"sources": [ "Advanced Class Guide" ],
@@ -695,7 +696,7 @@
 		]
 	},
 	"lesser_concealed": { "copyof": "concealed_lesser" },
-	"impervious_weapon": {
+	"impervious": {
 		"name": "Impervious (weapon)",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
@@ -712,7 +713,8 @@
 			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/fabricate}, {spell/make whole}; **Price** +1,500 gp"
 		]
 	},
-	"impervious_w": { "copyof": "impervious_weapon" },
+	"impervious_w": { "copyof": "impervious" },
+	"impervious_weapon": { "copyof": "impervious" },
 	"exclusionary": {
 		"name": "Exclusionary",
 		"sources": [ "Advanced Class Guide" ],
@@ -839,7 +841,7 @@
 			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/major creation}; **Price** 3,750 gp"
 		]
 	},
-	"advancing_weapon": {
+	"advancing": {
 		"name": "Advancing (weapon)",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
@@ -856,7 +858,8 @@
 			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/feather step}; **Price** -"
 		]
 	},
-	"advancing_w": { "copyof": "advancing_weapon" },
+	"advancing_w": { "copyof": "advancing" },
+	"advancing_weapon": { "copyof": "advancing" },
 	"anarchic": {
 		"name": "Anarchic",
 		"sources": [

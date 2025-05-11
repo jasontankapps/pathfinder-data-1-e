@@ -8,7 +8,7 @@
 			"Unable to find the requested magic enhancement."
 		]
 	},
-	"advancing": {
+	"advancing_armor": {
 		"name": "Advancing (armor)",
 		"sources": [ "Armor Master's Handbook" ],
 		"description": [
@@ -25,6 +25,7 @@
 			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/deadly juggernaut}; **Price** +1 bonus"
 		]
 	},
+	"advancing_a": { "copyof": "advancing_armor" },
 	"balanced": {
 		"name": "Balanced",
 		"sources": [
@@ -45,7 +46,7 @@
 			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/resistance}; **Price** +1 bonus"
 		]
 	},
-	"benevolent": {
+	"benevolent_armor": {
 		"name": "Benevolent (armor)",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
@@ -62,6 +63,7 @@
 			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/aid}; **Price** +1 bonus"
 		]
 	},
+	"benevolent_a": { "copyof": "benevolent_armor" },
 	"billowing": {
 		"name": "Billowing",
 		"sources": [ "Planar Adventures" ],
@@ -243,6 +245,8 @@
 			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/summon monster I}; **Price** +1 bonus"
 		]
 	},
+	"defiant_armor": { "copyof": "defiant" },
+	"defiant_a": { "copyof": "defiant" },
 	"evolving": {
 		"name": "Evolving",
 		"sources": [ "Melee Tactics Toolbox" ],
@@ -299,7 +303,7 @@
 			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/keen edge}; **Price** +1 bonus"
 		]
 	},
-	"impervious": {
+	"impervious_armor": {
 		"name": "Impervious (armor, shield)",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
@@ -316,6 +320,7 @@
 			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/fabricate}, {spell/make whole}; **Price** +1 bonus"
 		]
 	},
+	"impervious_a": { "copyof": "impervious_armor" },
 	"mirrored": {
 		"name": "Mirrored",
 		"sources": [ "Ultimate Equipment" ],
@@ -367,7 +372,7 @@
 			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Mythic Crafter}, [lend power](rule/marshal_2) ability; **Price** +1 bonus"
 		]
 	},
-	"spell_storing": {
+	"spell_storing_armor": {
 		"name": "Spell Storing (armor)",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
@@ -384,6 +389,7 @@
 			"**Requirements** {feat/Craft Magic Arms and Armor}, creator must be a caster of at least 12th level; **Price** +1 bonus"
 		]
 	},
+	"spell_storing_a": { "copyof": "spell_storing_armor" },
 	"spellsink": {
 		"name": "Spellsink",
 		"sources": [ "Dirty Tactics Toolbox" ],
@@ -598,6 +604,8 @@
 			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/disguise self}; **Price** +1,350 gp"
 		]
 	},
+	"glamered_armor": { "copyof": "glamered" },
+	"glamered_a": { "copyof": "glamered" },
 	"mental_focus": {
 		"name": "Mental Focus",
 		"sources": [ "Armor Master's Handbook" ],
@@ -1270,6 +1278,8 @@
 			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/bull's strength}; **Price** +3 bonus"
 		]
 	},
+	"brawling_armor": { "copyof": "brawling" },
+	"brawling_a": { "copyof": "brawling" },
 	"cotraveling": {
 		"name": "Cotraveling",
 		"sources": [ "Planar Adventures" ],
@@ -2424,7 +2434,7 @@
 			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/summon monster I}; **Price** -"
 		]
 	},
-	"benevolent_weapon": {
+	"benevolent": {
 		"name": "Benevolent (weapon)",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
@@ -2441,7 +2451,8 @@
 			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/aid}; **Price** -"
 		]
 	},
-	"benevolent_w": { "copyof": "benevolent_weapon" },
+	"benevolent_w": { "copyof": "benevolent" },
+	"benevolent_weapon": { "copyof": "benevolent" },
 	"bewildering": {
 		"name": "Bewildering",
 		"sources": [ "Dirty Tactics Toolbox" ],
@@ -2844,7 +2855,7 @@
 			"**Aura** strong abjuration; **CL** 10th  ",
 			"**Slot** weapon quality; **Price** +1 bonus; **Weight** -",
 			"",
-			"A dispelling weapon functions like a {magic-enh/spell storing weapon}, but it may only store {spell/dispel magic}; however, the caster level check to dispel gains an additional bonus equal to the weapon's enhancement bonus. This bonus also applies to a magus's dispelling strike arcana or a barbarian's spell sunder or sunder enchantment combat maneuver check.",
+			"A dispelling weapon functions like a {magic-enh/spell-storing} weapon, but it may only store {spell/dispel magic}; however, the caster level check to dispel gains an additional bonus equal to the weapon's enhancement bonus. This bonus also applies to a magus's dispelling strike arcana or a barbarian's spell sunder or sunder enchantment combat maneuver check.",
 			"",
 			"### Construction",
 			"",
