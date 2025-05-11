@@ -364,7 +364,7 @@ const postprocess = (tables) => {
 		const matcher = new RegExp(`^(.*?)<sup><a id="${$.prefix}([^"]+)" href="#${$.prefix}([^"]+)"[^>]*>(.*?)</a></sup>(.*)$`);
 		const footnotedata = {};
 		while(m = text.match(matcher)) {
-			const [x, pre, id, to, linktext, post] = m;
+			const [, pre, id, to, linktext, post] = m;
 			if(!footnotedata[id]) {
 				footnotedata[id] = 0;
 			}
@@ -379,7 +379,7 @@ const postprocess = (tables) => {
 		//Redo footnotes into <InnerLink>s
 		const backmatcher = new RegExp(`^(.*?)<a href="#${$.prefix}([^"]+)"[^>]*?( aria-label="[^"]*)"[^>]*?>(.*?(?:<sup>([0-9]+)</sup>)?)</a>(.*)$`);
 		while(m = text.match(backmatcher)) {
-			const [x, pre, to, aria, linktext, linknumber, post] = m;
+			const [, pre, to, aria, linktext, linknumber, post] = m;
 			const notenumber = linknumber || "1";
 			output = output + `${pre}<InnerLink to="${$.prefix}${to}-${notenumber}"${aria}-${notenumber}">${linktext}</InnerLink>`;
 			text = post;
@@ -390,7 +390,7 @@ const postprocess = (tables) => {
 		//{jumplist header / etc}
 		//Create JumpLists out of the plain-text code
 		while(m = text.match(/^(.*?)<p>(?:\{|&#123;)jumplist ([^}]+)(?:\}|&#125;)<[/]p>(.*)$/)) {
-			const [x, pre, jumplist, post] = m;
+			const [, pre, jumplist, post] = m;
 			output = output + `${pre}<div className="jumpList" id="${$.prefix}jumplist"><h2>Jump to:</h2><ul>`;
 			jumplist.split(/ +[/] +/).forEach(input => {
 				const hash = input.replace(/ +/g, "-").toLowerCase().replace(/[^-a-z0-9]/g, "");
@@ -406,7 +406,7 @@ const postprocess = (tables) => {
 		//Add <DisplayTable> for plain-text table refs.
 		// Check for curly brackets or their HTML entities, as they may get accidentally converted along the way.
 		while(m = text.match(/^(.*?)<p>(?:\{|&#123;)table([0-9]+)(?:\}|&#125;)<[/]p>(.*)$/)) {
-			const [x, pre, table, post] = m;
+			const [, pre, table, post] = m;
 			output = output + pre;
 			const index = parseInt(table);
 			if(index >= 0 && tables && index < tables.length) {
@@ -424,7 +424,7 @@ const postprocess = (tables) => {
 		//<table>
 		//Add "tableWrap" <div> around <table> so it can be contained to one pageview and scroll horizontally
 		while(m = text.match(/^(.*?)(<table>.+?<[/]table>)(.*)$/)) {
-			const [x, pre, table, post] = m;
+			const [, pre, table, post] = m;
 			output = output + `${pre}<ScrollContainer id="${`${$.prefix}-table-${counter++}`}">${table}</ScrollContainer>`;
 			text = post;
 			$.flags.scrollContainer = true;
@@ -434,7 +434,7 @@ const postprocess = (tables) => {
 		//<td>
 		//Add "ion-activatable" class to <td>
 		while(m = text.match(/^(.*?)<td( align="[^"]+")?>(.*?<[/]td>)(.*)$/)) {
-			const [x, pre, align, td, post] = m;
+			const [, pre, align, td, post] = m;
 			output = output + `${pre}<td${align || ""} className="ion-activatable">${td}`;
 			text = post;
 		}
@@ -443,7 +443,7 @@ const postprocess = (tables) => {
 		//<br> and <hr>
 		//Reformat <br> and <hr> into JSX <br/> and <hr/>
 		while(m = text.match(/^(.*?)(<[bh]r[^>]*)(?<![/])>(.*)$/)) {
-			const [x, pre, br, post] = m;
+			const [, pre, br, post] = m;
 			output = output + `${pre}${br}/>`;
 			text = post;
 		}
@@ -471,7 +471,7 @@ const removeCurlyBrackets = (input) => {
 		let m;
 		let final = "";
 		while(test && (m = test.match(/(^<.*?(?<!=)>(?![a-z_0-9]+\}))([^<]*)(.*$)/))) {
-			const [x, tag, content, etc] = m;
+			const [, tag, content, etc] = m;
 			final = final + tag + content.replace(/\{/g, "&#123;").replace(/\}/g, "&#125;");
 			test = etc;
 		}
@@ -1012,7 +1012,7 @@ Object.values(all_usable_groups).forEach((group, groupindex) => {
 	groupFlags.innerlink && imports.push(`import InnerLink from '../../components/InnerLink';`);
 	groupFlags.scrollContainer && imports.push(`import ScrollContainer from '../../components/ScrollContainer';`);
 	groupFlags.jumplist && imports.push(
-		"const jumpScroller=(id:string)=>{let el=document.getElementById(id);let w=el&&el.parentElement;while(w&&w.tagName.toUpperCase()!==\"ION-CONTENT\"){w=w.parentElement}const yCoordinate=el?el.getBoundingClientRect().top+window.scrollY:80;w&&(w as HTMLIonContentElement).scrollByPoint(0,yCoordinate-80,500)};"
+		"const jumpScroller=(id:string)=>{let el=document.getElementById(id);if(el){el.classList.add(\"highlight\");setTimeout(()=>el.classList.remove(\"highlight\"),500)}let w=el&&el.parentElement;while(w&&w.tagName.toUpperCase()!==\"ION-CONTENT\"){w=w.parentElement}const yCoordinate=el?el.getBoundingClientRect().top+window.scrollY:80;w&&(w as HTMLIonContentElement).scrollByPoint(0,yCoordinate-80,500)};"
 	);
 	// Add saved info;
 	const allprops = [];

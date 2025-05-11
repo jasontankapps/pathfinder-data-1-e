@@ -899,7 +899,33 @@ div.featsTreePage section > div.leaf:first-child > div.coparents > strong {
 	padding-inline-start: 0.5rem;
 }
 
+/* Scrolling via InnerLink */
+
+div,h2,h3,h4,h5,h6,p,b,i,strong,em,blockquote,aside,li,span {
+	transition: background-color 0.5s ease-in 1.5s;
+}
+a {
+	transition: color 0.5s ease-in 1.5s;
+}
+
+*.highlight {
+	background-color: var(--ion-color-success) !important;
+	transition: background-color 0.25s ease-out 0s;
+}
+*.highlight a {
+	color: var(--ion-color-success-contrast) !important;
+	transition: color 0.25s ease-out 0s;
+}
+
 /* Scrolling to a feat on the Feats Tree page */
+
+div.featsTreePage *.highlight {
+	background-color: transparent !important;
+}
+
+div.featsTreePage *.highlight a {
+	color: var(--ion-color-primary) !important;
+}
 
 *.highlight[id] > div.leafName {
 	background-color: var(--ion-color-success) !important;
