@@ -438,7 +438,7 @@
 			"",
 			"::h3[Throw Rider]{jl extra=\"(DC 15)\"}",
 			"",
-			"The animal can attempt to fling a creature riding it to the ground. Treat this as a {rule/trip} combat maneuver that applies to all creatures riding the animal, and that does not provoke attacks of opportunity. An animal that knows the **throw rider** and **exclusive** tricks can be instructed to attempt to automatically throw anyone other than its trainer who attempts to ride it.",
+			"The animal can attempt to fling a creature riding it to the ground. Treat this as a {rule/trip} combat maneuver that applies to all creatures riding the animal, and that does not provoke attacks of opportunity. An animal that knows the **throw rider** and [exclusive](#exclusive) tricks can be instructed to attempt to automatically throw anyone other than its trainer who attempts to ride it.",
 			"",
 			"::h3[Track]{jl extra=\"(DC 20)\"}",
 			"",
