@@ -265,7 +265,7 @@
 		"category": "-",
 		"compilationSources": [ [ "Ultimate Magic" ] ],
 		"description": [
-			"**Effect:** The detonating trap creates a 20-foot-radius burst of sleet with the effects of a {spell/sleet storm}. The driving sleet lasts for 1 round, but the icy ground persists for 1 round per ranger level."
+			"**Effect:** The detonating trap creates a 20-foot-radius {misc/burst} of sleet with the effects of a {spell/sleet storm}. The driving sleet lasts for 1 round, but the icy ground persists for 1 round per ranger level."
 		]
 	},
 	"smoke_trap": {

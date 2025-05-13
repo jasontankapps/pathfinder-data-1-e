@@ -1014,7 +1014,7 @@
 			"",
 			"**Bardic Performance:** A Hatharat agent gains the bardic performance listed below.",
 			"",
-			">**Master of Manipulation (Su):** At 8th level, a Hatharat agent gains a reputation of being able to sense lies. When using bardic performance, his very presence can often draw the truth out of others. This ability affects all creatures selected by the bard within a 20-foot-radius emanation from the bard. Any affected creature can't speak any deliberate or intentional lies, but is aware of the effect and can choose to avoid answering a question to which it would normally respond with a lie, or may be evasive as long as it remains within the boundaries of the truth. This is a mind-affecting compulsion effect.",
+			">**Master of Manipulation (Su):** At 8th level, a Hatharat agent gains a reputation of being able to sense lies. When using bardic performance, his very presence can often draw the truth out of others. This ability affects all creatures selected by the bard within a 20-foot-radius {misc/emanation} from the bard. Any affected creature can't speak any deliberate or intentional lies, but is aware of the effect and can choose to avoid answering a question to which it would normally respond with a lie, or may be evasive as long as it remains within the boundaries of the truth. This is a mind-affecting compulsion effect.",
 			">",
 			">This performance replaces dirge of doom."
 		]

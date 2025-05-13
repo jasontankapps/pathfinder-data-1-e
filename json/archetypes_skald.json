@@ -526,7 +526,7 @@
 			"",
 			">**Inspired Devotion (Su):** The twilight speaker inspires fervor rather than fury. Affected allies gain a +1 competence bonus on attack rolls and a +1 morale bonus on saving throws. At 6th, 12th, and 18th levels, these bonuses increase by 1.",
 			">",
-			">**Song of Understanding (Su):** At 6th level, a twilight speaker can use his raging song to create an aura that allows creatures to speak and understand each others' languages. By expending 4 rounds of raging song, the twilight speaker creates an aura that grants him and creatures in a 60-foot spread centered on him the effects of {spell/tongues}. This aura uses the skald's level as the caster level for all purposes, including duration. A twilight speaker can dismiss this aura as a standard action.",
+			">**Song of Understanding (Su):** At 6th level, a twilight speaker can use his raging song to create an aura that allows creatures to speak and understand each others' languages. By expending 4 rounds of raging song, the twilight speaker creates an aura that grants him and creatures in a 60-foot {misc/spread} centered on him the effects of {spell/tongues}. This aura uses the skald's level as the caster level for all purposes, including duration. A twilight speaker can dismiss this aura as a standard action.",
 			">",
 			">**Song of Secrecy (Su):** At 10th level, a twilight speaker can use his song to shroud allies from detection. Affected allies gain a bonus equal to half the twilight speaker's skald level on Stealth checks, and they can attempt such checks without cover or concealment. Song of secrecy is audible only to those affected.",
 			"",

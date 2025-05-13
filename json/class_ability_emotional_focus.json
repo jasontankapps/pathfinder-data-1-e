@@ -345,7 +345,7 @@
 			"",
 			"**Telekinetic Prankster (Sp):** When the spiritualist reaches 12th level, the phantom gains the ability to use limited telekinesis to trip up its foes. It can perform combat maneuvers against creatures up to 15 feet away. When doing so, it can use its Charisma modifier in place of its Strength modifier on its combat maneuver checks.",
 			"",
-			"**Invoke Laughter (Sp):** When the spiritualist reaches 17th level, once per day as a standard action, the phantom can cause nearby creatures to fall into fits of uncontrollable laughter. Each creature in a 30-foot-radius burst centered on the phantom must succeed at a Will save (DC = 10 + half the phantom's Hit Dice + the phantom's Charisma modifier) or begin laughing uncontrollably, as the spell {spell/hideous laughter}. The phantom can use this ability in either ectoplasmic or incorporeal form."
+			"**Invoke Laughter (Sp):** When the spiritualist reaches 17th level, once per day as a standard action, the phantom can cause nearby creatures to fall into fits of uncontrollable laughter. Each creature in a 30-foot-radius {misc/burst} centered on the phantom must succeed at a Will save (DC = 10 + half the phantom's Hit Dice + the phantom's Charisma modifier) or begin laughing uncontrollably, as the spell {spell/hideous laughter}. The phantom can use this ability in either ectoplasmic or incorporeal form."
 		]
 	},
 	"zeal": {

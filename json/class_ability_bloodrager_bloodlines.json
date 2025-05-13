@@ -65,7 +65,7 @@
 			"",
 			"**Abyssal Bloodrage (Su):** At 12th level, the morale bonus to Strength granted by your bloodrage increases by 2, but the penalty to AC becomes -4 instead of -2. At 16th level, this bonus increases by 4 instead. At 20th level, it increases by 6 instead.",
 			"",
-			"**Demonic Aura (Su):** At 16th level, when entering a bloodrage you can choose to exude an aura of fire. The aura is a 5-foot burst centered on you, and deals 2d6 + your Constitution modifier points of fire damage to creatures that end their turns within it.",
+			"**Demonic Aura (Su):** At 16th level, when entering a bloodrage you can choose to exude an aura of fire. The aura is a 5-foot {misc/burst} centered on you, and deals 2d6 + your Constitution modifier points of fire damage to creatures that end their turns within it.",
 			"",
 			"**Demonic Immunities (Su):** At 20th level, you're immune to electricity and poison. You have this benefit constantly, even while not bloodraging."
 		]

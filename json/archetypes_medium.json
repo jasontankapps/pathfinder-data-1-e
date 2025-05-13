@@ -460,7 +460,7 @@
 			"",
 			"This ability alters taboo.",
 			"",
-			"**Void Channeler (Su):** At 3rd level, the voice of the void can funnel energy from the emissaries' realm through himself. A number of times per day equal to his Charisma modifier, the medium can unleash a burst of energy that damages all other creatures except aberrations within 30 feet of him. The burst deals 1d6 points of damage + 1d6 additional points of damage for every 2 medium levels the medium has beyond 3rd. Creatures receive a Will save to halve the damage (DC = 10 + 1/2 the medium's level + the medium's Charisma modifier). Creatures with fewer HD than half the medium's level who fail the Will save are also confused for 1d4 rounds.",
+			"**Void Channeler (Su):** At 3rd level, the voice of the void can funnel energy from the emissaries' realm through himself. A number of times per day equal to his Charisma modifier, the medium can unleash a {misc/burst} of energy that damages all other creatures except aberrations within 30 feet of him. The burst deals 1d6 points of damage + 1d6 additional points of damage for every 2 medium levels the medium has beyond 3rd. Creatures receive a Will save to halve the damage (DC = 10 + 1/2 the medium's level + the medium's Charisma modifier). Creatures with fewer HD than half the medium's level who fail the Will save are also confused for 1d4 rounds.",
 			"",
 			"This ability replaces haunt channeler."
 		]

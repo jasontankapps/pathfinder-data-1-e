@@ -748,7 +748,7 @@
 			"**Associated Blasts** {kinetic/Blizzard Blast}, {kinetic/Sandstorm Blast}, {kinetic/Steam Blast}, {kinetic/Thunderstorm Blast}  ",
 			"**Saving Throw** none",
 			"",
-			"You release your power in a diffuse cloud. You can center this 20-foot-radius spread anywhere within 120 feet of you. All creatures and objects within the cloud when you create it automatically take 1/4 the normal amount of damage from your blast with no saving throw. Any time a creature enters the cloud, it takes half the normal amount of damage from your blast, as do creatures that end their turns in the cloud. Your cloud obscures vision as {spell/obscuring mist}. It lasts for a number of rounds equal to your Constitution modifier or until you use the cloud infusion again."
+			"You release your power in a diffuse cloud. You can center this 20-foot-radius {misc/spread} anywhere within 120 feet of you. All creatures and objects within the cloud when you create it automatically take 1/4 the normal amount of damage from your blast with no saving throw. Any time a creature enters the cloud, it takes half the normal amount of damage from your blast, as do creatures that end their turns in the cloud. Your cloud obscures vision as {spell/obscuring mist}. It lasts for a number of rounds equal to your Constitution modifier or until you use the cloud infusion again."
 		]
 	},
 	"cyclone": {
@@ -763,7 +763,7 @@
 			"**Associated Blasts** {kinetic/Air Blast}, {kinetic/Blizzard Blast}, {kinetic/Sandstorm Blast}, {kinetic/Thunderstorm Blast}  ",
 			"**Saving Throw** Reflex half",
 			"",
-			"You create a circular rush of wind. All creatures and objects within a 20-foot-radius burst centered on you take half your blast's normal amount of damage. The saving throw DC is Dexterity-based."
+			"You create a circular rush of wind. All creatures and objects within a 20-foot-radius {misc/burst} centered on you take half your blast's normal amount of damage. The saving throw DC is Dexterity-based."
 		]
 	},
 	"dampening_infusion": {
@@ -978,7 +978,7 @@
 			"**Associated Blasts** {kinetic/Blue Flame Blast}, {kinetic/Fire Blast}  ",
 			"**Saving Throw** Reflex half",
 			"",
-			"You focus your energy on a point in space and create a controlled explosion. You can center the explosion anywhere within 120 feet of you, and you can choose the radius of the spread to be 5, 10, 15, or 20 feet. All creatures and objects within the explosion take your blast's damage. The saving throw DC is Dexterity-based."
+			"You focus your energy on a point in space and create a controlled explosion. You can center the explosion anywhere within 120 feet of you, and you can choose the radius of the {misc/spread} to be 5, 10, 15, or 20 feet. All creatures and objects within the explosion take your blast's damage. The saving throw DC is Dexterity-based."
 		]
 	},
 	"extended_range": {
@@ -1137,7 +1137,7 @@
 			"**Associated Blasts** {kinetic/Earth Blast}, {kinetic/Ice Blast}, {kinetic/Metal Blast}  ",
 			"**Saving Throw** none or Reflex half; see text",
 			"",
-			"You throw a volatile sphere of solid matter that shatters into countless shards. Attempt a ranged attack roll against a target within 120 feet. If you hit, the target takes your kinetic blast damage with no saving throw. All other creatures and objects within a 20-foot burst take half the normal amount of damage and can attempt a Reflex save to reduce that damage by half again. If the attack misses its target, the blast has no effect. The saving throw DC is Dexterity-based."
+			"You throw a volatile sphere of solid matter that shatters into countless shards. Attempt a ranged attack roll against a target within 120 feet. If you hit, the target takes your kinetic blast damage with no saving throw. All other creatures and objects within a 20-foot {misc/burst} take half the normal amount of damage and can attempt a Reflex save to reduce that damage by half again. If the attack misses its target, the blast has no effect. The saving throw DC is Dexterity-based."
 		]
 	},
 	"grappling_infusion": {
@@ -1444,7 +1444,7 @@
 			"**Associated Blasts** {kinetic/Gravity Blast}, {kinetic/Negative Blast}, {kinetic/Void Blast}  ",
 			"**Saving Throw** Reflex half",
 			"",
-			"You create a growing singularity. Choose a grid intersection within 30 feet. All creatures and objects in a 5-foot-radius burst centered on the intersection take 1/4 your blast's normal amount of damage (or half damage for a negative blast). On your next turn, the singularity deals damage in a 10-foot-radius burst, and on your turn after that, it deals damage in a 15-foot-radius burst. The DC is Dexterity-based."
+			"You create a growing singularity. Choose a grid intersection within 30 feet. All creatures and objects in a 5-foot-radius {misc/burst} centered on the intersection take 1/4 your blast's normal amount of damage (or half damage for a negative blast). On your next turn, the singularity deals damage in a 10-foot-radius burst, and on your turn after that, it deals damage in a 15-foot-radius burst. The DC is Dexterity-based."
 		]
 	},
 	"slick_infusion": {
@@ -3269,7 +3269,7 @@
 			"{SOURCE Occult Adventures/26}  ",
 			"**Element** universal; **Type** utility (Sp); **Level** 6; **Burn** 0",
 			"",
-			"You can use this wild talent as part of activating a kinetic blast other than {kinetic/telekinetic blast}. You transform yourself into your element or energy and send yourself along with your kinetic blast. You appear at the end of the blast's path, adjacent to the blast's target (or final target, for form infusions like chain) or at the center of the burst or spread for form infusions like explosion. This ability doesn't work with form infusions that involve melee attacks (such as {kinetic/kinetic blade}) or that use a cone shape (such as {kinetic/spray})."
+			"You can use this wild talent as part of activating a kinetic blast other than {kinetic/telekinetic blast}. You transform yourself into your element or energy and send yourself along with your kinetic blast. You appear at the end of the blast's path, adjacent to the blast's target (or final target, for form infusions like chain) or at the center of the {misc/burst/ or spread} for form infusions like explosion. This ability doesn't work with form infusions that involve melee attacks (such as {kinetic/kinetic blade}) or that use a cone shape (such as {kinetic/spray})."
 		]
 	},
 	"roots": {
@@ -3470,7 +3470,7 @@
 			"**Element** fire; **Type** utility (Sp); **Level** 3; **Burn** 0  ",
 			"**Saving Throw** Fortitude negates; see text; **SR** no",
 			"",
-			"You transform a source of open flame within 120 feet into a cloud of choking smoke, filling a 20-foot-radius spread and affecting vision like a {eq-misc/smokestick}. All creatures that begin their turns inside the area become {misc/sickened} as long as they remain in the smoke and for 1d4+1 rounds thereafter (Fortitude negates)."
+			"You transform a source of open flame within 120 feet into a cloud of choking smoke, filling a 20-foot-radius {misc/spread} and affecting vision like a {eq-misc/smokestick}. All creatures that begin their turns inside the area become {misc/sickened} as long as they remain in the smoke and for 1d4+1 rounds thereafter (Fortitude negates)."
 		]
 	},
 	"spark_of_innovation": {

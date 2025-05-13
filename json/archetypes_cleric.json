@@ -200,7 +200,7 @@
 			"",
 			"This ability alters bonus languages.",
 			"",
-			"**Balanced Channel (Su):** At 1st level, a crashing wave can channel the pure balance of the ocean - its wildness, its calm, its cruelty, and its gentleness. This energy can be used to harm or heal creatures, as the crashing wave chooses. Channeling this energy causes a 30-foot-radius burst centered on the cleric. Using balanced channel is a standard action that does not provoke attacks of opportunity. A crashing wave can choose whether to include herself in the effect. The cleric must be able to present her holy symbol to use this ability, and she can channel energy a number of times equal to 3 + her Charisma modifier.",
+			"**Balanced Channel (Su):** At 1st level, a crashing wave can channel the pure balance of the ocean - its wildness, its calm, its cruelty, and its gentleness. This energy can be used to harm or heal creatures, as the crashing wave chooses. Channeling this energy causes a 30-foot-radius {misc/burst} centered on the cleric. Using balanced channel is a standard action that does not provoke attacks of opportunity. A crashing wave can choose whether to include herself in the effect. The cleric must be able to present her holy symbol to use this ability, and she can channel energy a number of times equal to 3 + her Charisma modifier.",
 			"",
 			"If the crashing wave chooses to harm, creatures within the burst that are chaotic good, chaotic evil, lawful good, or lawful evil take 1d6 points of damage plus 1d6 points of damage for every 2 levels the cleric has beyond 1st (2d6 at 3rd, 3d6 at 5th, and so on). Creatures with a neutral alignment component are unaffected by this energy. Creatures that take damage from the channeled energy can attempt a Fortitude save (DC = 10 + half the crashing wave's level + her Charisma modifier) for half damage. This damage is neither negative nor positive energy, so a creature's resistance to positive or negative energy does not reduce this damage. (However, resistance to channeled energy in particular, such as that provided by channel resistance, applies normally.)",
 			"",
@@ -256,7 +256,7 @@
 			"",
 			"**Demonic Channel (Su):** At 1st level, a demonic apostle can channel demonic energy to damage creatures of lawful and good alignment, or, at higher levels, bolster the abilities of chaotic evil allies.",
 			"",
-			"Channeling this energy causes a 30-foot-radius burst centered on the cleric. Creatures within the burst that are lawful or good take 1d6 points of damage, plus 1d6 points of damage for every two levels the cleric possesses beyond 1st (2d6 at 3rd, 3d6 at 5th, and so on). Creatures that take damage from the channeled demonic energy receive a Fortitude save to halve the damage. The DC of this save is equal to 10 + 1/2 the demonic apostle's level + the demonic apostle's Charisma modifier. Lawful good creatures take a -2 penalty on this saving throw. At 5th level, chaotic evil allies within the burst are affected as if targeted by a rage spell with a duration of 1 round. At 9th level, lawful or good enemies are also sickened for 1d6 rounds if they fail their saving throw against the demonic channel. Channeling demonic energy is a standard action that does not provoke attacks of opportunity. This ability replaces channel energy."
+			"Channeling this energy causes a 30-foot-radius {misc/burst} centered on the cleric. Creatures within the burst that are lawful or good take 1d6 points of damage, plus 1d6 points of damage for every two levels the cleric possesses beyond 1st (2d6 at 3rd, 3d6 at 5th, and so on). Creatures that take damage from the channeled demonic energy receive a Fortitude save to halve the damage. The DC of this save is equal to 10 + 1/2 the demonic apostle's level + the demonic apostle's Charisma modifier. Lawful good creatures take a -2 penalty on this saving throw. At 5th level, chaotic evil allies within the burst are affected as if targeted by a rage spell with a duration of 1 round. At 9th level, lawful or good enemies are also sickened for 1d6 rounds if they fail their saving throw against the demonic channel. Channeling demonic energy is a standard action that does not provoke attacks of opportunity. This ability replaces channel energy."
 		]
 	},
 	"divine_paragon": {
@@ -430,7 +430,7 @@
 			"",
 			"**Channel Evil (Su):** At 1st level, a fiendish vessel, rather than channeling positive or negative energy, instead channels the pure evil power of her fiendish patron. This ability is similar to channeling negative energy, but instead of healing undead and dealing damage to living creatures, this blast of evil energy automatically heals evil creatures and debilitates good creatures within its burst.",
 			"",
-			"Channeling this evil causes a burst that affects all creatures in a 30-foot radius centered on the fiendish vessel. In the case of evil creatures, the amount of damage healed is equal to 1d4 points of damage and increases by 1d4 at every two levels beyond 1st (to a maximum of 10d4 at 19th level). Good creatures in the burst receive a Will saving throw to negate this damage. Good creatures that fail their saving throws are sickened for 1d4 rounds. Good creatures with a number of Hit Dice less than or equal to the fiendish vessel's class level - 5 that fail their saving throws are nauseated for 1 round and then sickened for 1d4 rounds instead. The DC of this save is equal to 10 + 1/2 the fiendish vessel's level + the fiendish vessel's Charisma bonus. Neutral creatures are unaffected by this burst of evil energy.",
+			"Channeling this evil causes a {misc/burst} that affects all creatures in a 30-foot radius centered on the fiendish vessel. In the case of evil creatures, the amount of damage healed is equal to 1d4 points of damage and increases by 1d4 at every two levels beyond 1st (to a maximum of 10d4 at 19th level). Good creatures in the burst receive a Will saving throw to negate this damage. Good creatures that fail their saving throws are sickened for 1d4 rounds. Good creatures with a number of Hit Dice less than or equal to the fiendish vessel's class level - 5 that fail their saving throws are nauseated for 1 round and then sickened for 1d4 rounds instead. The DC of this save is equal to 10 + 1/2 the fiendish vessel's level + the fiendish vessel's Charisma bonus. Neutral creatures are unaffected by this burst of evil energy.",
 			"",
 			"A fiendish vessel may channel this energy a number of times per day equal to 3 + her Charisma modifier. Doing so is a standard action that does not provoke attacks of opportunity. A fiendish vessel can choose whether or not to include herself in this effect. A fiendish vessel must present her unholy symbol or use her familiar as the divine focus for this ability.",
 			"",
@@ -482,7 +482,7 @@
 			">",
 			">*Ghostglyph\\*:* The inscribed weapon, shield, or armor gains the ghost touch ({magic-enh/ghost_touch_<armor} or {magic-enh/ghost_touch_<weapon}) special ability. The forgemaster must be at least 4th level before learning this rune.",
 			">",
-			">*Glowglyph:* The inscribed item sheds light as a torch. As a standard action, the bearer can command the rune to erupt in a burst of light as a shield with the {magic-enh/blinding} special ability with a burst radius of 5 feet per glowglyph rune inscribed on the item. This expends all glowglyph runes on the item.",
+			">*Glowglyph:* The inscribed item sheds light as a torch. As a standard action, the bearer can command the rune to erupt in a burst of light as a shield with the {magic-enh/blinding} special ability with a {misc/burst} radius of 5 feet per glowglyph rune inscribed on the item. This expends all glowglyph runes on the item.",
 			">",
 			">*Invulnerability\\*:* The inscribed armor grants its wearer DR/magic equal to 1/2 her cleric level. The forgemaster must be at least 8th level before learning this rune.",
 			">",
@@ -674,7 +674,7 @@
 			">",
 			">*Level 9:* {spell/True seeing} (self only).",
 			">",
-			">*Level 11:* {spell/Greater dispel magic} (30-foot burst; targets only illusion spells, polymorph effects, and spells granting a bonus on Bluff and Disguise checks).",
+			">*Level 11:* {spell/Greater dispel magic} (30-foot {misc/burst}; targets only illusion spells, polymorph effects, and spells granting a bonus on Bluff and Disguise checks).",
 			">",
 			">*Level 13:* {spell/Communal tongues}.",
 			">",

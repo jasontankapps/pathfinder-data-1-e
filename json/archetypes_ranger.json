@@ -48,7 +48,7 @@
 			"",
 			"**Hunter's Bond (Ex):** At 4th level, when a battle scout gains the hunter's bond ability, he must choose to bond with his companions. Battle scouts do not have animal companions.",
 			"",
-			"**Advantageous Terrain (Ex):** At 5th level, when a battle scout is within one of his favorite terrains, he can spend up to 3 consecutive rounds studying an area of terrain to gain the benefits below. Each round of studying terrain is a standard action. During the first round of studying terrain, the battle scout designates a 60-foot-radius-burst area from a single square within line of sight. Depending on how many rounds the battle scout spends studying the area, he or his allies gain the following benefits for 10 minutes per ranger level he possesses. (For example, if he spends 2 rounds, he or his allies gain the first two benefits.)",
+			"**Advantageous Terrain (Ex):** At 5th level, when a battle scout is within one of his favorite terrains, he can spend up to 3 consecutive rounds studying an area of terrain to gain the benefits below. Each round of studying terrain is a standard action. During the first round of studying terrain, the battle scout designates a 60-foot-radius-{misc/burst} area from a single square within line of sight. Depending on how many rounds the battle scout spends studying the area, he or his allies gain the following benefits for 10 minutes per ranger level he possesses. (For example, if he spends 2 rounds, he or his allies gain the first two benefits.)",
 			"",
 			">**1st Round:** Allies within line of sight and that can hear the battle scout gain a +2 bonus on initiative checks while within the advantageous terrain area.",
 			">",
@@ -60,7 +60,7 @@
 			"",
 			"**Superior Tactics (Ex):** At 15th level, once per day, after a battle scout and his allies roll initiative, the battle scout can arrange his and his allies' initiative rolls any way he wishes. If he has already taken 3 rounds to scout out the terrain with his advantageous terrain ability and both he and his allies are within the effect area, they gain a +2 bonus to initiative checks. Using this ability is not an action. This ability replaces the ranger's fourth favored enemy.",
 			"",
-			"**Perfect Advantage (Ex):** At 20th level, when using his advantageous terrain ability, a battle scout needs only to study the terrain as a standard action to gain all of the benefits. Furthermore, the area of his advantageous terrain increases to a 1-mile-radius spread from the single square within line of sight. This ability replaces master hunter."
+			"**Perfect Advantage (Ex):** At 20th level, when using his advantageous terrain ability, a battle scout needs only to study the terrain as a standard action to gain all of the benefits. Furthermore, the area of his advantageous terrain increases to a 1-mile-radius {misc/spread} from the single square within line of sight. This ability replaces master hunter."
 		]
 	},
 	"beast_master": {
@@ -468,7 +468,7 @@
 			"",
 			"This replaces camouflage.",
 			"",
-			"**Phoenix Rising (Su):** At 16th level, if a flamewarden dies, his body explodes in a conflagration in a 20-foot spread. Each hostile creature in the area takes 10d6 points of fire damage unless it succeeds at a Reflex save (DC = 10 + half the ranger's level + his Constitution modifier) for half damage. The flames don't harm the flamewarden's allies, who instead are healed 5d6 points of damage, and any poisons they are currently suffering are neutralized as per {spell/neutralize poison}. The flamewarden's body is reduced to ashes by the explosion.",
+			"**Phoenix Rising (Su):** At 16th level, if a flamewarden dies, his body explodes in a conflagration in a 20-foot {misc/spread}. Each hostile creature in the area takes 10d6 points of fire damage unless it succeeds at a Reflex save (DC = 10 + half the ranger's level + his Constitution modifier) for half damage. The flames don't harm the flamewarden's allies, who instead are healed 5d6 points of damage, and any poisons they are currently suffering are neutralized as per {spell/neutralize poison}. The flamewarden's body is reduced to ashes by the explosion.",
 			"",
 			"At 20th level, the flamewarden gains immunity to fire, and once per week, the flamewarden rises from the ashes of his own destruction 1 round after dying. The flamewarden's body re-forms with all his equipment, and he returns to life with half his maximum hit points. Any ability scores that were 0 become 1, and nonmagical diseases and poisons are cured. A {spell/limited wish}, {spell/miracle}, or {spell/wish} spell cast before he rises from the ashes prevents him from doing so, as does the area of an {spell/unhallow} effect.",
 			"",
@@ -930,7 +930,7 @@
 			"",
 			"This replaces hunter's bond.",
 			"",
-			"**Planar Adaptation (Su):** At 9th level a planar scout gains {spell/planar adaptation} when on his bonded plane. At 16th level he confers this protection to all allies within a 30-foot spread.",
+			"**Planar Adaptation (Su):** At 9th level a planar scout gains {spell/planar adaptation} when on his bonded plane. At 16th level he confers this protection to all allies within a 30-foot {misc/spread}.",
 			"",
 			"This replaces evasion and improved evasion.",
 			"",

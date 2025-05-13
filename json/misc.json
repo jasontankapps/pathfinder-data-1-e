@@ -79,7 +79,7 @@
 	},
 	"helpless": {
 		"name": "Helpless",
-		"tags": "coup de gras",
+		"tags": "coup de grace",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"A helpless character is {rule/paralyzed}, held, bound, sleeping, {misc/unconscious}, or otherwise completely at an opponent's mercy. A helpless target is treated as having a Dexterity of 0 (-5 modifier). Melee attacks against a helpless target get a +4 bonus (equivalent to attacking a {rule/prone} target). Ranged attacks get no special bonus against helpless targets. Rogues can sneak attack helpless targets.",
@@ -92,6 +92,7 @@
 		"type": "Rule",
 		"topLink": [ "Awareness Conditions", "rule/awareness_conditions" ]
 	},
+	"coup_de_grace": { "copyof": "helpless" },
 	"staggered": {
 		"name": "Staggered",
 		"sources": [ "PRPG Core Rulebook" ],
@@ -320,5 +321,31 @@
 	},
 	"increase_the_damage_die": { "copyof": "damage_die_adjustments" },
 	"deal_less_damage": { "copyof": "damage_die_adjustments" },
-	"one_size_category_larger": { "copyof": "damage_die_adjustments" }
+	"one_size_category_larger": { "copyof": "damage_die_adjustments" },
+	"burst": {
+		"name": "Burst",
+		"sources": [ "PRPG Core Rulebook" ],
+		"description": [
+			"### Burst, Emanation, Spread",
+			"",
+			"{SOURCE PRPG Core Rulebook/214}  ",
+			"Most spells that affect an area function as a burst, an emanation, or a spread. In each case, you select the spell's point of origin (this is always a grid intersection[^F]) and measure its effect from that point.",
+			"",
+			"A :HL[burst] spell affects whatever it catches in its area, including creatures that you can't see. It can't affect creatures with total cover from its point of origin (in other words, its effects don't extend around corners). The default shape for a burst effect is a sphere, but some burst spells are specifically described as cone-shaped. A burst's area defines how far from the point of origin the spell's effect extends.",
+			"",
+			"An :HL[emanation] spell functions like a burst spell, except that the effect continues to radiate from the point of origin for the duration of the spell. Most emanations are cones or spheres.",
+			"",
+			"A :HL[spread] spell, often a cloud or fog spell, extends out like a emanation but can turn corners. You select a grid intersection, and the spell spreads out a given distance in all directions. The effect can extend around corners and into areas that you can't see. Figure distance by actual distance traveled, taking into account turns the spell effect takes. When determining distance for spread effects, count around walls, not through them. As with movement, do not trace diagonals across corners. You must designate the point of origin for such an effect, but you need not have [line of effect](rule/aiming_a_spell) to all portions of the effect.",
+			"",
+			"[^F]: ({SOURCE Pathfinder #91: Battle of Bloodmarch Hills/72}) The rules for many character options in the Pathfinder RPG Core Rulebook and other Pathfinder RPG products often assume that creatures are Medium or Small. In the case of a handful of spells with areas that feature a \"radius emanation centered on you\" such as {spell/antimagic field}, {spell/aura of doom}, and {spell/zone of silence}, this can result in an area that is effectively useless when coming from a Large or larger caster. As an optional rule, when a creature casts an emanation or burst spell with the text \"centered on you,\" treat the creature's entire space as the spell's point of origin, and measure the spell's area or effect from the edge of the creature's space. For instance, an antimagic field cast by a fire giant would extend 10 feet beyond his space (effectively increasing the emanation's radius by 5 feet)."
+		]
+	},
+	"spread": {
+		"copyof": "burst",
+		"name": "Spread"
+	},
+	"emanation": {
+		"copyof": "burst",
+		"name": "Emanation"
+	}
 }
