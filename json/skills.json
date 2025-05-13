@@ -411,6 +411,7 @@
 			"| Acid | Alchemy | 15 |",
 			"| Alchemist's fire, smokestick, or tindertwig | Alchemy | 20 |",
 			"| Antitoxin, sunrod, tanglefoot bag, or thunderstone | Alchemy | 25 |",
+			"| {rule/Spontaneous alchemy} use | Alchemy | Varies |",
 			"| Armor or shield | Armor | 10 + AC bonus |",
 			"| Longbow, shortbow, or arrows | Bows | 12 |",
 			"| Composite longbow or composite shortbow | Bows | 15 |",

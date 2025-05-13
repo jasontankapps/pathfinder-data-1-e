@@ -222,6 +222,8 @@
 			"",
 			"::main[Siege Engines]{to=rule/siege_engines_uc}",
 			"",
+			"::main[Spontaneous Alchemy]{to=rule/spontaneous_alchemy}",
+			"",
 			"::main[Vehicles]{to=rule/vehicles}",
 			"",
 			"::mainheader[Optional Subsystems]",

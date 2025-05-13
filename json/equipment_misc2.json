@@ -794,7 +794,7 @@
 			"",
 			"This bone-white paste makes your face appear skeletal and emotionless, like a visage of death itself. When you apply frightful war paint to yourself (or to a willing adjacent creature) as a full-round action, attempt a Disguise or Charisma check. Living creatures within 30 feet of the wearer must succeed at a Will save (DC equal to the result of your Disguise or Charisma check, maximum DC 20) or become shaken for 1d4 rounds. Blind creatures and creatures out of line of sight are unaffected. A creature that succeeds at its check becomes immune to this frightful war paint for 24 hours. Frightful war paint can be worn indefinitely, but it contains quicksilver and realgar, which have deleterious mental effects. If you wear frightful war paint for more than 1 minute per day (whether as a single use of it or as multiple uses over several periods of time), you take 1 point of Constitution damage, plus 1 point of Wisdom damage for every minute you wear the paint that day after the first.",
 			"",
-			"**Recipe** (40 dew of lunary + 40 quicksilver + 50 realgar)/earth; Craft 30  ",
+			"**{rule/Spontaneous Alchemy} Recipe** (40 {eq-reagent/dew of lunary} + 40 {eq-reagent/quicksilver} + 50 {eq-reagent/realgar})/earth; Craft 30  ",
 			"**Time** 10 minutes; **Tools** -; **Type** alchemical tool"
 		]
 	},
@@ -2539,7 +2539,7 @@
 			"",
 			"This thick clay mixture comes in a jar stamped with a silhouette of whatever creature can be created using its contents. By adding a drop of blood to a scoop of homunculus clay, you can create a temporary homunculus that hardens and becomes fully animate in just 1 round. The character whose blood is used is treated as the homunculus's master. After 1 hour, a clay homunculus withers and dies, rapidly decaying into a viscous slime. The listed price is for a jar containing 3 doses of homunculus clay.",
 			"",
-			"**Recipe** (450 darkwood + 350 dew of lunary + 400 myrrh)/fermentation; Craft 30  ",
+			"**{rule/Spontaneous Alchemy} Recipe** (450 {eq-reagent/darkwood} + 350 {eq-reagent/dew of lunary} + 400 {eq-reagent/myrrh})/fermentation; Craft 30  ",
 			"**Time** 1 day; **Tools** heat source; **Type** alchemical tool"
 		]
 	},
@@ -2920,7 +2920,7 @@
 			"",
 			"This rare and unusual brew is fortified by a process of repeated partial freezing, during which the ice is continually skimmed off, resulting in a draught with more than 10 times the alcohol content of ordinary ale. Icecap ale grants a +2 alchemical bonus to the drinker's Strength and Constitution for 1 minute, as well as a +4 alchemical bonus on saving throws against compulsions and fear. However, after this initial surge of energy, the drinker becomes fatigued and takes a -4 penalty on Dexterity- and Strength-based skill checks for 1 hour. In addition, the drinker loses all memory of events that transpired during the 1d4 minutes directly following consumption of a draught of icecap ale; a successful DC 20 Fortitude save negates this memory loss. Additional doses of icecap ale imbibed during the hour following an initial dose cause the drinker to become sickened for 1 minute (instead of gaining a bonus to Strength and Constitution) and to suffer all the negative effects of icecap ale.",
 			"",
-			"**Recipe** (50 spirit of wine + 40 urea)/distillation; Craft 20  ",
+			"**{rule/Spontaneous Alchemy} Recipe** (50 {eq-reagent/spirit of wine} + 40 {eq-reagent/urea})/distillation; Craft 20  ",
 			"**Time** 1 week; **Tools** brewer's kit; **Type** alcohol"
 		]
 	},
@@ -2991,7 +2991,7 @@
 			"",
 			"This gritty red paste makes you appear as if you were covered in dried blood. When you apply imposing war paint as a full-round action, you gain a +4 alchemical bonus on Intimidate checks and the duration of any fear effects you create increases by 50% as long as you wear the war paint. Unfortunately, imposing war paint is made with realgar, which is toxic to living creatures. If you wear imposing war paint for more than 1 minute per day, you take 1 point of Constitution damage, plus 1 point of Constitution damage for every minute you wear the paint that day after the first.",
 			"",
-			"**Recipe** (12 dew of lunary + 10 realgar)/earth; Craft 25  ",
+			"**{rule/Spontaneous Alchemy} Recipe** (12 {eq-reagent/dew of lunary} + 10 {eq-reagent/realgar})/earth; Craft 25  ",
 			"**Time** 10 minutes; **Tools** -; **Type** alchemical tool"
 		]
 	},
@@ -3006,7 +3006,7 @@
 			"",
 			"Mythic: If you are a mythic divine spellcaster and burn this incense while preparing spells, you can expend two uses of mythic power to prepare any one spell as a mythic spell (but not as an augmented mythic spell), even if you're normally unable to cast the mythic version of that spell. Incense of divinity burns for 1 hour; you can prepare as many mythic spells as you are able to during this time, but you must expend two uses of mythic power for each mythic spell so prepared.",
 			"",
-			"**Recipe** (50 dew of lunary + 150 phosphorus)/exposure; Craft 30  ",
+			"**{rule/Spontaneous Alchemy} Recipe** (50 {eq-reagent/dew of lunary} + 150 {eq-reagent/phosphorus})/exposure; Craft 30  ",
 			"**Time** 1 hour; **Tools** filter; **Type** alchemical tool"
 		]
 	},
@@ -3192,7 +3192,7 @@
 			"",
 			"You steep these herbs in hot water, then drink the resulting tisane while it's still warm before going to bed. While you sleep, you experience vivid hallucinations that offer insight into matters with which you previously had only limited familiarity. After 8 hours of uninterrupted rest, you can attempt a previously failed Knowledge check with a +2 alchemical bonus.",
 			"",
-			"**Recipe** (10 dew of lunary + 5 mugwort extract + 20 spirit of wine)/fermentation; Craft 25  ",
+			"**{rule/Spontaneous Alchemy} Recipe** (10 {eq-reagent/dew of lunary} + 5 {eq-reagent/mugwort extract} + 20 {eq-reagent/spirit of wine})/fermentation; Craft 25  ",
 			"**Time** 1 day; **Tools** heat source; **Type** alchemical remedy"
 		]
 	},
@@ -3207,7 +3207,7 @@
 			"",
 			"This ruby-red earth can be sprinkled over a 5-foot patch of ground as a standard action that provokes attacks of opportunity. Non-creature plants and fungi in the area grow with alarming speed, and the ground becomes weedy, difficult terrain for non-plant creatures. Any non-plant creature in the square must succeed at a DC 15 Reflex save or it becomes entangled by the surging plants. Any plant creature in the affected square is healed of 1d6 points of damage.",
 			"",
-			"**Recipe** (15 magnesium + 20 phosphorus + 10 salt)/calcination; Craft 20  ",
+			"**{rule/Spontaneous Alchemy} Recipe** (15 {eq-reagent/magnesium} + 20 {eq-reagent/phosphorus} + 10 {eq-reagent/salt})/calcination; Craft 20  ",
 			"**Time** 1 hour; **Tools** crucible; **Type** alchemical tool"
 		]
 	},
@@ -4255,7 +4255,7 @@
 			"",
 			"One of the oldest known dwarven ales, longbeard lambic is fermented with wild airborne yeasts and cultures, especially those that proliferate in the dank caves where it has been brewed since long before the Quest for Sky began. Longbeard lambic has a bracing effect that shocks the system. If the drinker is fatigued, shaken, or staggered, she can ignore these conditions for 1d4 rounds after imbibing longbeard lambic. In addition, a dose of longbeard lambic can reduce the exhausted condition to fatigued or the frightened condition to shaken (drinker's choice) for the same duration. If you consume a second longbeard lambic within 1 minute of the previous dose, you must succeed at a DC 15 Fortitude save or be nauseated for 1d4 rounds. The DC increases by 5 for each dose imbibed within the same time span. Dwarves gain a +5 racial bonus on this saving throw.",
 			"",
-			"**Recipe** (3 gold + 5 quicksilver + 4 spirit of wine)/fermentation; Craft 18  ",
+			"**{rule/Spontaneous Alchemy} Recipe** (3 {eq-reagent/gold} + 5 {eq-reagent/quicksilver} + 4 {eq-reagent/spirit of wine})/fermentation; Craft 18  ",
 			"**Time** 1 week; **Tools** brewer's kit; **Type** alcohol"
 		]
 	},
@@ -4368,7 +4368,7 @@
 			"",
 			"This serum transfers a homunculus's loyalty from one master to another. In order for this to work, the homunculus's current master and its master-to-be must each place a drop of their blood into the serum. When an appropriate homunculus drinks this concoction, it thereafter treats the master-to-be as its master. The change in ownership also causes the homunculus's alignment to change to match that of its new owner.",
 			"",
-			"**Recipe** (200 quicksilver + 150 realgar + 200 spirit of wine)/distillation; Craft 30  ",
+			"**{rule/Spontaneous Alchemy} Recipe** (200 {eq-reagent/quicksilver} + 150 {eq-reagent/realgar} + 200 {eq-reagent/spirit of wine})/distillation; Craft 30  ",
 			"**Time** 1 day; **Tools** retort; **Type** alchemical remedy"
 		]
 	},
@@ -5258,7 +5258,7 @@
 			"",
 			"These alchemically prepared fungal spores are suspended in a thick green ichor. They grow in patterns that match any plant or fungal material they touch, even dead wood, causing any cuts or breaks in the matter to mend as if it had never been damaged. When applied as a full-round action, mimic fibers heal 1d10+10 points of damage to one object made of wood, paper, earth, or other living or onceliving material. Even a destroyed item can be repaired (treat as if at 0 hit points) as long as the item is in no more than two pieces and is held together at the break as the spores are applied.",
 			"",
-			"**Recipe** (6 magnesium + 6 cytillesh spores)/filtration; Craft 20  ",
+			"**{rule/Spontaneous Alchemy} Recipe** (6 {eq-reagent/magnesium} + 6 {eq-reagent/cytillesh spores})/filtration; Craft 20  ",
 			"**Time** 10 minutes; **Tools** filter; **Type** alchemical tool"
 		]
 	},

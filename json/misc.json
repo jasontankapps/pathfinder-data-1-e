@@ -188,6 +188,7 @@
 		"type": "Rule",
 		"topLink": [ "Exhaustion Conditions", "rule/exhaustion_conditions" ]
 	},
+	"fatigue": { "copyof": "fatigued" },
 	"cowering": {
 		"name": "Cowering",
 		"sources": [ "PRPG Core Rulebook" ],

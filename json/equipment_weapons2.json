@@ -4200,7 +4200,6 @@
 	},
 	"toxin_alchemical_cartridge": { "copyof": "alchemical_cartridge_toxin" },
 	"toxin_cartridge": { "copyof": "alchemical_cartridge_toxin" },
-
 	"black_powder_dose": {
 		"name": "Black Powder (dose)",
 		"sources": [

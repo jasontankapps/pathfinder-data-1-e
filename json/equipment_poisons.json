@@ -389,9 +389,7 @@
 			"**Initial Effect** 1d2 Con damage; **Secondary Effect** bleed damage from non-poison sources increases by 1 for 1 minute  ",
 			"**Cure** 1 save",
 			"",
-			"### Alchemical Recipe",
-			"",
-			"**Recipe** (6 gold + 50 myrrh + 30 quicksilver)/distillation; **Craft** DC 15  ",
+			"**{rule/Spontaneous Alchemy} Recipe** (6 {eq-reagent/gold} + 50 {eq-reagent/myrrh} + 30 {eq-reagent/quicksilver})/distillation; **Craft** DC 15  ",
 			"**Time** 1 day; **Tools** retort; **Type** poison"
 		]
 	},
@@ -409,9 +407,7 @@
 			"**Initial Effect** staggered for 1 minute; **Secondary Effect** If already staggered, stunned, or unconscious, the victim becomes highly suggestible. If an event (whether true or false) is described to him, he unconsciously fabricates a detailed memory of the event, filling in any gaps in the description with his own best guesses. The confabulated memory can be disbelieved with a successful DC 18 Will save the first time it is recalled, but if the save fails, the victim treats it as completely genuine thereafter. All confabulated memories can be removed with a restoration or heal spell  ",
 			"**Cure** 1 save",
 			"",
-			"### Alchemical Recipe",
-			"",
-			"**Recipe** (20 quicksilver + 15 cytillesh spores)/digestion; **Craft** DC 18  ",
+			"**{rule/Spontaneous Alchemy} Recipe** (20 {eq-reagent/quicksilver} + 15 {eq-reagent/cytillesh spores})/digestion; **Craft** DC 18  ",
 			"**Time** 1 day; **Tools** heat source; **Type** poison"
 		]
 	},
@@ -680,9 +676,7 @@
 			"**Effect** 1 Wis damage, and for the duration of the poison, the next time the victim's attitude toward another creature would shift one or more steps toward helpful as a result of a successful Diplomacy or Intimidate check or other effect, the victim's attitude also shifts one additional step. For example, if the victim's attitude would shift from indifferent to friendly (one step better), it shifts to helpful instead (two steps better)  ",
 			"**Cure** 1 save",
 			"",
-			"### Alchemical Recipe",
-			"",
-			"**Recipe** (20 dew of lunary + 20 quicksilver + 80 spirit of wine)/distillation; **Craft** DC 11  ",
+			"**{rule/Spontaneous Alchemy} Recipe** (20 {eq-reagent/dew of lunary} + 20 {eq-reagent/quicksilver} + 80 {eq-reagent/spirit of wine})/distillation; **Craft** DC 11  ",
 			"**Time** 1 day; **Tools** retort; **Type** poison"
 		]
 	},
@@ -804,9 +798,7 @@
 			"**Initial Effect** deafened for 10 minutes; **Secondary Effect** blinded for 10 minutes  ",
 			"**Cure** 1 save",
 			"",
-			"### Alchemical Recipe",
-			"",
-			"**Recipe** (150 brimstone + 20 dew of lunary + 80 spirit of wine)/fermentation; **Craft** DC 13  ",
+			"**{rule/Spontaneous Alchemy} Recipe** (150 {eq-reagent/brimstone} + 20 {eq-reagent/dew of lunary} + 80 {eq-reagent/spirit of wine})/fermentation; **Craft** DC 13  ",
 			"**Time** 1 day; **Tools** heat source; **Type** poison"
 		]
 	},
@@ -1111,9 +1103,7 @@
 			"**Initial Effect** 1 Dex drain and nauseated for 1 minute; **Secondary Effect** 1d2 Dex drain and sickened for 1 minute  ",
 			"**Cure** 1 save",
 			"",
-			"### Alchemical Recipe",
-			"",
-			"**Recipe** (70 dew of lunary + 35 realgar + 70 urea)/digestion; **Craft** DC 16  ",
+			"**{rule/Spontaneous Alchemy} Recipe** (70 {eq-reagent/dew of lunary} + 35 {eq-reagent/realgar} + 70 {eq-reagent/urea})/digestion; **Craft** DC 16  ",
 			"**Time** 1 day; **Tools** heat source; **Type** poison"
 		]
 	},
@@ -1472,9 +1462,7 @@
 			"**Effect** 1d2 Wis damage, and if the victim would become shaken during the next 1 minute, she becomes frightened instead  ",
 			"**Cure** 2 saves",
 			"",
-			"### Alchemical Recipe",
-			"",
-			"**Recipe** (170 quicksilver + 170 realgar)/fermentation; **Craft** DC 17  ",
+			"**{rule/Spontaneous Alchemy} Recipe** (170 {eq-reagent/quicksilver} + 170 {eq-reagent/realgar})/fermentation; **Craft** DC 17  ",
 			"**Time** 1 day; **Tools** heat source; **Type** poison"
 		]
 	},
@@ -1703,9 +1691,7 @@
 			"**Effect** The victim loses all memory of events that took place in the previous hour and can't form new memories for 8 hours. These lost and prevented memories might return later in the form of dreams, and can be returned with a restoration or heal spell  ",
 			"**Cure** 2 saves",
 			"",
-			"### Alchemical Recipe",
-			"",
-			"**Recipe** (115 realgar + 115 cytillesh spores)/calcination; **Craft** DC 18  ",
+			"**{rule/Spontaneous Alchemy} Recipe** (115 {eq-reagent/realgar} + 115 {eq-reagent/cytillesh spores})/calcination; **Craft** DC 18  ",
 			"**Time** 1 hour; **Tools** crucible; **Type** poison"
 		]
 	},
@@ -1761,9 +1747,7 @@
 			"**Effect** 1d6 fire damage and victim possibly catches on fire  ",
 			"**Cure** 2 saves",
 			"",
-			"### Alchemical Recipe",
-			"",
-			"**Recipe** (200 magnesium + 200 phosphorus + 250 saltpeter)/distillation; **Craft** DC 18  ",
+			"**{rule/Spontaneous Alchemy} Recipe** (200 {eq-reagent/magnesium} + 200 {eq-reagent/phosphorus} + 250 {eq-reagent/saltpeter})/distillation; **Craft** DC 18  ",
 			"**Time** 1 day; **Tools** retort; **Type** poison"
 		]
 	},
@@ -1781,9 +1765,7 @@
 			"**Effect** Non-orcs are blinded for 1 minute. Orcs rage for 1 minute, gaining a +2 alchemical bonus to Strength and Dexterity, a +1 alchemical bonus on Will saves, and a -2 penalty to AC. This poison's effects are otherwise similar to a barbarian's rage, except that affected orcs are unable to discern friend from foe - attacking the nearest creature each round - and they are not fatigued afterward  ",
 			"**Cure** 2 saves",
 			"",
-			"### Alchemical Recipe",
-			"",
-			"**Recipe** (180 brimstone + 80 quicksilver + 60 saltpeter)/fermentation; **Craft** DC 16  ",
+			"**{rule/Spontaneous Alchemy} Recipe** (180 {eq-reagent/brimstone} + 80 {eq-reagent/quicksilver} + 60 {eq-reagent/saltpeter})/fermentation; **Craft** DC 16  ",
 			"**Time** 1 day; **Tools** heat source; **Type** poison"
 		]
 	},

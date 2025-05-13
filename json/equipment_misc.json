@@ -600,7 +600,7 @@
 			"",
 			"This liquid intensifier can be added to a drug as a move action no more than 1 round before the drug is taken. Amp increases all numeric effects of a drug by 50%, including any bonuses, penalties, and ability damage inflicted by the drug. Using amp with a drug increases the save DC to avoid becoming addicted to that drug by 2 for 1d4 days; this increase stacks. If a drug combined with amp is not consumed within 1 round, the amp spoils and the drug becomes tainted, as if cut with bunk.",
 			"",
-			"**Recipe** (6 quicksilver + 10 realgar)/distillation; Craft 20  ",
+			"**{rule/Spontaneous Alchemy} Recipe** (6 {eq-reagent/quicksilver} + 10 {eq-reagent/realgar})/distillation; Craft 20  ",
 			"**Time** 10 minutes; **Tools** retort; **Type** alchemical tool"
 		]
 	},
@@ -878,7 +878,7 @@
 			"",
 			"This substance counteracts a specific toxin. If you drink a vial of antitoxin, you gain a +5 alchemical bonus on Fortitude saving throws against poison for 1 hour.",
 			"",
-			"**Recipe** (7 gold + 17 myrrh + 23 urea)/ceration; Craft 25  ",
+			"**{rule/Spontaneous Alchemy} Recipe** (7 {eq-reagent/gold} + 17 {eq-reagent/myrrh} + 23 {eq-reagent/urea})/ceration; Craft 25  ",
 			"**Time** 10 minutes; **Tools** crucible; **Type** alchemical remedy"
 		]
 	},
@@ -2215,24 +2215,6 @@
 			"Craft (Alchemy) DC 25"
 		]
 	},
-	"black_powder_dose": {
-		"name": "Black Powder (dose)",
-		"sources": [
-			"Ultimate Combat",
-			"Inner Sea World Guide"
-		],
-		"description": [
-			"## Black Powder",
-			"{SOURCE Ultimate Combat/141;Inner Sea World Guide/292}  ",
-			"**Price** 10 gp Black powder (dose), 1,000 gp Black powder (keg); **Weight** - Black powder (dose), 5 lbs. Black powder (keg)",
-			"",
-			"Black powder is the key explosive component within a firearm that enables it to function, but in larger amounts this alchemical material can be quite destructive on its own as well. A single dose of black powder is enough to power a single shot from most one-handed and two-handed firearms, while 10 doses are required to fire a cannon. Black powder is often stored and transported in kegs (which hold 100 doses), but in this quantity the powder itself becomes dangerous. Exposure to fire, electricity, or a misfire explosion causes black powder to explode - a single keg that explodes in this manner deals 5d6 points of fire damage to anyone within a 20-foot burst (DC 15 Reflex half). Storing black powder in a powder horn protects the powder from explosion."
-		]
-	},
-	"black_powder_keg": {
-		"name": "Black powder (keg)",
-		"copyof": "black_powder_dose"
-	},
 	"blackfingers_paste": {
 		"name": "Blackfingers paste",
 		"sources": [ "Rival Guide" ],
@@ -2432,7 +2414,7 @@
 			"",
 			"Swallowing this dark black-red tea pill causes your blood to heat up, granting you a +2 alchemical bonus on initiative checks and on saving throws against cold effects for 8 hours. However, any damage you take from bleed effects during this time is multiplied by 1-1/2 (rounded up). Swallowing a blood-chilling pill while under the effects of a blood-boiling pill negates the effects of both pills.",
 			"",
-			"**Recipe** (30 ginger extract + 8 gold + 15 mugwort extract)/ceration; Craft 25  ",
+			"**{rule/Spontaneous Alchemy} Recipe** (30 {eq-reagent/ginger extract} + 8 {eq-reagent/gold} + 15 {eq-reagent/mugwort extract})/ceration; Craft 25  ",
 			"**Time** 10 minutes; **Tools** crucible; **Type** alchemical remedy"
 		]
 	},
@@ -2447,7 +2429,7 @@
 			"",
 			"Swallowing this pale green tea pill causes your blood to slow and chill, allowing you to ignore the first 20 points of bleed damage you take during the following 8 hours. In addition, you gain a +2 alchemical bonus on saving throws against fire effects during this time. However, you take a -2 penalty on initiative checks. Swallowing a blood-boiling pill while under the effects of a blood-chilling pill negates the effects of both pills.",
 			"",
-			"**Recipe** (15 ginger extract + 40 myrrh + 30 mugwort extract)/filtration; Craft 25  ",
+			"**{rule/Spontaneous Alchemy} Recipe** (15 {eq-reagent/ginger extract} + 40 {eq-reagent/myrrh} + 30 {eq-reagent/mugwort extract})/filtration; Craft 25  ",
 			"**Time** 10 minutes; **Tools** filter; **Type** alchemical remedy"
 		]
 	},
@@ -2496,7 +2478,7 @@
 			"",
 			"When you imbibe this syrupy black serum, your blood thins dramatically and gushes forth from even minor wounds. Anytime you take bleed damage, any creatures adjacent to you must succeed at a Fortitude save (DC 10 + the amount of bleed damage taken) or be nauseated for 1 round. A dose of bloodgorge lasts for 1 hour.",
 			"",
-			"**Recipe** (5 cold iron + 10 dew of lunary)/filtration; Craft 25  ",
+			"**{rule/Spontaneous Alchemy} Recipe** (5 {eq-reagent/cold iron} + 10 {eq-reagent/dew of lunary})/filtration; Craft 25  ",
 			"**Time** 10 minutes; **Tools** filter; **Type** alchemical remedy"
 		]
 	},
@@ -2858,7 +2840,7 @@
 			"",
 			"This malty ale has a legendarily thick, creamy head. It creates a pleasant buzz and sense of euphoria that dull the effects of pain and concussions, granting the drinker a +1 alchemical bonus on saving throws to avoid becoming dazed, staggered, or stunned, or against any effect with the pain descriptor for 1 hour. In addition, a dose of boulderhead bock grants the drinker 1d6 temporary hit points that apply exclusively against nonlethal damage. Multiple doses of boulderhead bock stack, to a maximum alchemical bonus of +5 and a maximum of 20 temporary hit points.",
 			"",
-			"**Recipe** (4 gold + 15 spirit of wine)/fermentation; Craft 19  ",
+			"**{rule/Spontaneous Alchemy} Recipe** (4 {eq-reagent/gold} + 15 {eq-reagent/spirit of wine})/fermentation; Craft 19  ",
 			"**Time** 1 week; **Tools** brewer's kit; **Type** alcohol"
 		]
 	},
@@ -3136,7 +3118,7 @@
 			"",
 			"The duration and intensity of the drug's harmful after-effects and ability damage are not reduced, as the additives in bunk are often toxic or dangerous in their own right. When a creature takes a dose of a drug containing bunk, the creature must attempt a Fortitude save (DC 10 + 1d10). Failure causes the creature to become sickened for 1d4 hours and take 1d2 points of ability damage to a random ability score.",
 			"",
-			"**Recipe** (1 salt + 1 urea)/filtration; Craft 15  ",
+			"**{rule/Spontaneous Alchemy} Recipe** (1 {eq-reagent/salt} + 1 {eq-reagent/urea})/filtration; Craft 15  ",
 			"**Time** 10 minutes; **Tools** filter; **Type** alchemical tool"
 		]
 	},
@@ -4038,7 +4020,7 @@
 			"",
 			"When applied to a homunculus's skin (which takes 1 minute), this ointment causes the creature's flesh to shift color and pattern reflexively to match its surroundings. The homunculus gains a +4 circumstance bonus on Stealth checks for 24 hours. The ointment can also be applied to other creatures as long as they are Medium or smaller and wear no clothing or armor to obstruct their skin, but the bonus is reduced to +2.",
 			"",
-			"**Recipe** (1 gold + 12 silver + 12 urea)/ceration; Craft 20  ",
+			"**{rule/Spontaneous Alchemy} Recipe** (1 {eq-reagent/gold} + 12 {eq-reagent/silver} + 12 {eq-reagent/urea})/ceration; Craft 20  ",
 			"**Time** 10 minutes; **Tools** crucible; **Type** alchemical remedy"
 		]
 	},

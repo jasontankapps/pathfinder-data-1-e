@@ -1319,7 +1319,7 @@
 			"",
 			"When ingested, this thin serum awakens your potential for independent action. If you are under the influence of a mind-affecting effect, you receive a new saving throw with a +4 alchemical bonus to break the effect (you can gain this benefit only once per day). If the serum is ingested by a bonded creature such as a familiar, animal companion, bonded mount, or homunculus, the creature ceases to be bound to its master's will for 10 minutes. It gains a +2 morale bonus on attack rolls, saving throws, skill checks, and ability checks, and becomes interested in finding its own way of doing things. Its attitude toward its master might change drastically during this time, depending on how the master has treated it in the past. As soon as the duration of this effect ends, the creature becomes bound to its master's will again.",
 			"",
-			"**Recipe** (8 dew of lunary + 10 gold + 22 spirit of wine)/sublimation; Craft 25  ",
+			"**{rule/Spontaneous Alchemy} Recipe** (8 {eq-reagent/dew of lunary} + 10 {eq-reagent/gold} + 22 {eq-reagent/spirit of wine})/sublimation; Craft 25  ",
 			"**Time** 1 day; **Tools** retort; **Type** alchemical remedy"
 		]
 	},
@@ -1442,7 +1442,7 @@
 			"",
 			"This bright pink liquid can be added to the eyes of a willing homunculus as a standard action. If you are the homunculus's master, you gain the ability to see through the homunculus's eyes by closing yours and concentrating, and the homunculus can see through yours in the same fashion. The eye drops also extend the range of the homunculus's telepathic link to 1 mile. The effects of the eye drops fade after 1 day.",
 			"",
-			"**Recipe** (20 dew of lunary + 20 saltpeter + 80 spirit of wine)/distillation; Craft 25  ",
+			"**{rule/Spontaneous Alchemy} Recipe** (20 {eq-reagent/dew of lunary} + 20 {eq-reagent/saltpeter} + 80 {eq-reagent/spirit of wine})/distillation; Craft 25  ",
 			"**Time** 1 day; **Tools** retort; **Type** alchemical remedy"
 		]
 	},
@@ -3590,7 +3590,7 @@
 			"",
 			"This fist-sized cluster of aggressive fungus grows rapidly when placed against a solid surface and exposed to water, and can quietly bore a 5-foot-tall, 10-foot-deep tunnel in a straight line. The tunnel is supported by sturdy fungal tubes. A tunnel creeper cannot eat through metal or any material denser than common stone. A tunnel creeper takes 10 minutes to carve a tunnel through stone, or 5 minutes to carve through wood, after which the fungus withers and falls to the ground.",
 			"",
-			"**Recipe** (100 brimstone + 90 magnesium + 35 cytillesh spores)/fermentation; Craft 25  ",
+			"**{rule/Spontaneous Alchemy} Recipe** (100 {eq-reagent/brimstone} + 90 {eq-reagent/magnesium} + 35 {eq-reagent/cytillesh spores})/fermentation; Craft 25  ",
 			"**Time** 1 day; **Tools** heat source; **Type** alchemical tool"
 		]
 	},
@@ -3779,7 +3779,7 @@
 			"",
 			"This waxy ball of resin and herbs is stored in a large glass jar or other airtight container. When the jar is opened, it instantly evaporates into a soothing vapor that renders the lungs of any adjacent creatures resistant to inhaled poisons, diseases, and irritants such as choking smoke. Each creature within 5 feet of the jar when it is opened gains a +5 alchemical bonus on saving throws against such effects for the next 10 minutes. If already affected by an airborne affliction, an affected creature can immediately attempt another saving throw against the effect (with the +5 bonus); a creature can attempt only one such additional saving throw in a 24-hour period.",
 			"",
-			"**Recipe** (60 myrrh + 50 salt + 60 ginger extract)/congelation; Craft 25  ",
+			"**{rule/Spontaneous Alchemy} Recipe** (60 {eq-reagent/myrrh} + 50 {eq-reagent/salt} + 60 {eq-reagent/ginger extract})/congelation; Craft 25  ",
 			"**Time** 10 minutes; **Tools** alchemist's lab; **Type** alchemical remedy"
 		]
 	},
@@ -3838,7 +3838,7 @@
 			"",
 			"This specialized ink can be mixed with a contact poison to make the poison last longer on paper. Once applied to a sheet of paper, the ink remains slightly tacky and keeps the poison effective for up to 1 week. Any creature that touches the writing (such as while opening a closed book or unraveling a scroll) must save against the contact poison. Once a creature has come in contact with the vector ink, the ink is expended. A single vial of vector ink is enough to write a single page of text on standard-sized parchment.",
 			"",
-			"**Recipe** (7 dew of lunary + 7 gold + 6 urea)/digestion; Craft 20  ",
+			"**{rule/Spontaneous Alchemy} Recipe** (7 {eq-reagent/dew of lunary} + 7 {eq-reagent/gold} + 6 {eq-reagent/urea})/digestion; Craft 20  ",
 			"**Time** 1 day; **Tools** heat source; **Type** alchemical tool"
 		]
 	},
@@ -4012,7 +4012,7 @@
 			"",
 			"These needles of dried and augmented mugwort ignite at one end when removed from the alcohol in which they are stored. A set of vivifying moxibustion needles can be used to perform a healing procedure on a willing or helpless creature with a successful DC 15 Heal check and 1 hour of effort. Failing the check by 4 or less indicates that nothing happens, while failure by 5 or more deals 1d4 points of damage to the subject. If the procedure is performed successfully, the subject gains a +2 alchemical bonus on Fortitude saves against diseases, cold effects, and effects that deal Dexterity or Strength damage for the next 24 hours. If the patient is affected by an ongoing effect that can be resisted with a successful Fortitude save, he can attempt an immediate saving throw to end the effect (using the +2 alchemical bonus if applicable); this final benefit can be gained only once per day.",
 			"",
-			"**Recipe** (20 phosphorus + 60 ginger extract + 30 mugwort extract)/filtration; Craft 25  ",
+			"**{rule/Spontaneous Alchemy} Recipe** (20 {eq-reagent/phosphorus} + 60 {eq-reagent/ginger extract} + 30 {eq-reagent/mugwort extract})/filtration; Craft 25  ",
 			"**Time** 10 minutes; **Tools** filter; **Type** alchemical remedy"
 		]
 	},
@@ -5020,7 +5020,7 @@
 			"",
 			"This green-tinged brew has a pungent, bitter bite. It's flavored with a variety of foulsmelling herbs and is intensely carbonated through a unique fermentation process. Sometimes given to visitors as a prank, wyrm's breath bitter causes the drinker to become sickened for 1d6 minutes (Fortitude DC 12 negates); dwarves gain a +5 racial bonus on this saving throw. After drinking a dose of wyrm's breath bitter, the drinker can, as a move action, unleash a thunderous and noxious belch in either a 5-foot-radius spread or a 10-foot cone. Creatures in the area are deafened and sickened for 1 round (Fortitude DC 12 negates). The drinker must wait 1d4 rounds before belching again, but can belch as often as desired for up to 10 minutes after drinking a wyrm's breath bitter.",
 			"",
-			"**Recipe** (2 black powder + 10 brimstone + 20 spirit of wine)/digestion; Craft 21  ",
+			"**{rule/Spontaneous Alchemy} Recipe** (2 {eq-reagent/black powder} + 10 {eq-reagent/brimstone} + 20 {eq-reagent/spirit of wine})/digestion; Craft 21  ",
 			"**Time** 1 week; **Tools** brewer's kit; **Type** alcohol"
 		]
 	},
