@@ -79,10 +79,9 @@
 			"**Price** 330 gp; **Weight** -  ",
 			"**Category** Alchemical Tools",
 			"",
-			"The effects of this gray-green pill last for 5 minutes after consumption. During this time, when making a full attack, you can accept alchemical burn to make your second attack at your full base attack bonus instead of the attack bonus for your second attack. An accuracy lozenge gives no benefit on attacks beyond the second, nor does it provide a second attack if you don't already have one.",
+			"The effects of this gray-green pill last for 5 minutes after consumption. During this time, when making a full attack, you can accept {misc/alchemical burn} to make your second attack at your full base attack bonus instead of the attack bonus for your second attack. An accuracy lozenge gives no benefit on attacks beyond the second, nor does it provide a second attack if you don't already have one.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 25"
+			"**Construction:** Craft (Alchemy) DC 25"
 		]
 	},
 	"acrobats_pillar": {
@@ -122,7 +121,7 @@
 			"**Price** 5 gp; **Weight** 1/2 lb.  ",
 			"**Category** Alchemical Tools",
 			"",
-			"This 3-foot-long strip of extremely thin hide can be cut into different lengths. When moistened and applied across surfaces or between objects, it creates a bond requiring a DC 15 Strength check to pull apart. Once applied, an adhesive strip takes 1 minute to set. If applied to an item with the broken condition, it suppresses the effects of that broken condition for as long as the item remains repaired by the strip - though the item does not regain hit points and is still broken. The uses for an adhesive strip are many; it can be used to bind prisoners, mend clothing, patch holes, and so on."
+			"This 3-foot-long strip of extremely thin hide can be cut into different lengths. When moistened and applied across surfaces or between objects, it creates a bond requiring a DC 15 Strength check to pull apart. Once applied, an adhesive strip takes 1 minute to set. If applied to an item with the {misc/broken} condition, it suppresses the effects of that broken condition for as long as the item remains repaired by the strip - though the item does not regain hit points and is still broken. The uses for an adhesive strip are many; it can be used to bind prisoners, mend clothing, patch holes, and so on."
 		]
 	},
 	"adventurers_sash": {
@@ -149,10 +148,9 @@
 			"**Price** 80 gp; **Weight** -  ",
 			"**Category** Alchemical Tools",
 			"",
-			"This white, waxy ointment allows you to appear older or younger, and is useful for both people who need disguises and the vain. When mixed with an equal amount of sealing wax, it forms a gray paste that discolors and relaxes your skin, reducing the penalty on Disguise checks to appear older than you are by 2. When mixed with an equal amount of soap, it forms a rosy paste that clarifies and tightens your skin, reducing the penalty on Disguise checks to appear younger than you are by 2. An application of age ointment lasts for 1d4+1 days. Age ointment can be used once, and the price includes the required amounts of sealing wax and soap.",
+			"This white, waxy ointment allows you to appear older or younger, and is useful for both people who need disguises and the vain. When mixed with an equal amount of sealing wax, it forms a gray paste that discolors and relaxes your skin, reducing the penalty on Disguise checks to appear older than you are by 2. When mixed with an equal amount of {eq-misc/soap}, it forms a rosy paste that clarifies and tightens your skin, reducing the penalty on Disguise checks to appear younger than you are by 2. An application of age ointment lasts for 1d4+1 days. Age ointment can be used once, and the price includes the required amounts of sealing wax and soap.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 15"
+			"**Construction:** Craft (Alchemy) DC 15"
 		]
 	},
 	"air_bladder": {
@@ -164,7 +162,7 @@
 			"**Price** 1 sp; **Weight** 1/2 lb.  ",
 			"**Category** Adventuring Gear",
 			"",
-			"Used by swimmers for longer dives, this bladder is similar to a waterskin, but is relatively airtight. If inflated, it holds enough air to sustain a Medium creature for 1 round or a Small creature for 2 rounds."
+			"Used by swimmers for longer dives, this bladder is similar to a {eq-misc/waterskin}, but is relatively airtight. If inflated, it holds enough air to sustain a Medium creature for 1 round or a Small creature for 2 rounds."
 		]
 	},
 	"air_crystals": {
@@ -188,7 +186,7 @@
 			"**Price** 5 sp/ gallon; **Weight** 1/2 lb./gallon  ",
 			"**Category** Adventuring Gear",
 			"",
-			"Tanks full of normal air don't last long as breathing devices, but a large air tank is excellent for ensuring a character has a swiftly rising buoyancy, and a savvy diver can adjust her air tank just enough to give her a neutral buoyancy, making it much easier to explore underwater. Every 6 gallons of air is enough to breathe for roughly 1 minute underwater; it takes far less air for a Medium creature to achieve neutral buoyancy unless it's carrying a significant amount of metal and other dense material."
+			"Tanks full of normal air don't last long as breathing devices, but a large air tank is excellent for ensuring a character has a swiftly rising {rule/buoyancy}, and a savvy diver can adjust her air tank just enough to give her a neutral buoyancy, making it much easier to explore underwater. Every 6 gallons of air is enough to breathe for roughly 1 minute underwater; it takes far less air for a Medium creature to achieve neutral buoyancy unless it's carrying a significant amount of metal and other dense material."
 		]
 	},
 	"air_tank_pressurized": {
@@ -200,7 +198,7 @@
 			"**Price** 25 gp; **Weight** 30 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
-			"An air-breathing adventurer would need to bring over a dozen tanks full of air with her to have enough to breathe for even a single hour. Since this is impractical, alchemists developed a technique to store greater amounts of air in a smaller volume using pressure. Each pressurized air tank is a little smaller than half the size of a tank, but it contains enough air for a swimming character to breathe for 1 hour (the pressurized air itself weighs 7 pounds, so an empty tank weighs only 23 pounds). When a small crank is manipulated as a standard action, the tank releases just enough air for a breath, which the diving character breathes in through a straw-like tube with a semi-permeable end piece that allows air out but not water in. The process of refilling the air tank requires 5 gp of materials and a successful DC 20 Craft (alchemy) check (failure destroys the tank) or the services of a kineticist with basic aerokinesis."
+			"An air-breathing adventurer would need to bring over a dozen tanks full of air with her to have enough to breathe for even a single hour. Since this is impractical, alchemists developed a technique to store greater amounts of air in a smaller volume using pressure. Each pressurized air tank is a little smaller than half the size of a tank, but it contains enough air for a swimming character to breathe for 1 hour (the pressurized air itself weighs 7 pounds, so an empty tank weighs only 23 pounds). When a small crank is manipulated as a standard action, the tank releases just enough air for a breath, which the diving character breathes in through a straw-like tube with a semi-permeable end piece that allows air out but not water in. The process of refilling the air tank requires 5 gp of materials and a successful DC 20 Craft (alchemy) check (failure destroys the tank) or the services of a {class/kineticist} with basic aerokinesis."
 		]
 	},
 	"pressurized_air_tank": { "copyof": "air_tank_pressurized" },
@@ -214,10 +212,9 @@
 			"**Price** 40 gp; **Weight** 1 lb.  ",
 			"**Category** Alchemical Remedies",
 			"",
-			"This flask of red liquid is enough to for 1 day stave off a vampire's hunger for blood. Few vampires enjoy it; most describe it as tasting stale and artificial. Some, particularly weaker or newer ones, feel that it interferes with the unholy magic keeping their bodies animated. However, it's an option utilized by vampires that are running for their unlives and attempting to stay hidden from vampire hunters. Crafting this item requires a successful DC 40 Craft (alchemy) check.",
+			"This flask of red liquid is enough to for 1 day stave off a vampire's hunger for blood. Few {template/vampire/s} enjoy it; most describe it as tasting stale and artificial. Some, particularly weaker or newer ones, feel that it interferes with the unholy magic keeping their bodies animated. However, it's an option utilized by vampires that are running for their unlives and attempting to stay hidden from vampire hunters. Crafting this item requires a successful DC 40 Craft (alchemy) check.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 40"
+			"**Construction:** Craft (Alchemy) DC 40"
 		]
 	},
 	"alchemical_candle_wax": {
@@ -229,12 +226,11 @@
 			"**Price** 150 gp; **Weight** 1 lb.  ",
 			"**Category** Alchemical Tools",
 			"",
-			"As malleable as ordinary wax, alchemical candle wax produces an aromatic scent when burned. A candle made from alchemical candle wax normally possesses a sweet, honeylike smell, but a character who is trained in Craft (alchemy) can infuse the wax with nearly any scent available to her. A character trained in both Craft (alchemy) and Craft (poison) can infuse one candle's worth of wax with any alchemical substance that requires inhalation, such as a vial of [alchemical pheromones](eq-misc/alchemical_pheromones_aggression) or a dose of inhaled poison. When infusing the wax with poison, the normal rules for exposing oneself to poison apply. Only one kind of alchemical substance can be infused into a single candle at a time, though a single candle can hold up to 3 doses of a substance. A single lump of alchemical candle wax is enough to create one candle.",
+			"As malleable as ordinary wax, alchemical candle wax produces an aromatic scent when burned. A candle made from alchemical candle wax normally possesses a sweet, honeylike smell, but a character who is trained in Craft (alchemy) can infuse the wax with nearly any scent available to her. A character trained in both Craft (alchemy) and Craft (poison) can infuse one candle's worth of wax with any alchemical substance that requires inhalation, such as a vial of {eq-misc/alchemical pheromones>_aggression} or a dose of inhaled poison. When infusing the wax with poison, the normal rules for exposing oneself to poison apply. Only one kind of alchemical substance can be infused into a single candle at a time, though a single candle can hold up to 3 doses of a substance. A single lump of alchemical candle wax is enough to create one candle.",
 			"",
 			"After burning for 1 minute, the alchemical candle releases the chosen alchemical substance as a colorless haze that lingers in a 5-foot radius centered on the candle for up to 1 hour, plus 30 minutes for each dose or vial of a substance infused into the candle wax beyond the first. A moderate wind (11+ mph) disperses the haze in 2 rounds; a strong or stronger wind (21+ mph) disperses the haze immediately. Alchemical candle wax can be created with a successful DC 20 Craft (alchemy) check.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 20"
+			"**Construction:** Craft (Alchemy) DC 20"
 		]
 	},
 	"alchemical_cement": {
@@ -248,8 +244,7 @@
 			"",
 			"You mix this fine gray powder with water and a cubic foot of sand or gravel to form a durable stone-like material. Until it cures, it has the consistency of thick mud, and you must hold it in place (typically with a frame of earth or wood) if you want it to harden in a specific shape. It takes 1d10+10 minutes for the cement to partially cure, gaining hardness 2 and 5 hit points per inch of thickness. After 1d6 hours the cement is fully cured and as hard as true stone.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 15"
+			"**Construction:** Craft (Alchemy) DC 15"
 		]
 	},
 	"alchemical_cleaner": {
@@ -263,8 +258,7 @@
 			"",
 			"This caustic alchemical solution dissolves blood, hair, and small pieces of flesh. Distributing it over a 5-foot square takes one full-round action and increases the DC of Perception checks to find such materials by 20. (A creature that fails the Perception check to find such materials by 5 or less realizes the area has been unnaturally cleared of them.) This applies only to the original Perception DC, not a substituted skill check like those from the cleaner or traceless archetypes. One pot of alchemical cleaner contains enough liquid to cover nine 5-foot squares. A pot of alchemical cleaner can be thrown as a splash weapon and functions as an {eq-weapon/alkali flask} when thrown. Crafting alchemical cleaner requires a successful DC 25 Craft (alchemy) check.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 25"
+			"**Construction:** Craft (Alchemy) DC 25"
 		]
 	},
 	"alchemical_dye_kit": {
@@ -278,8 +272,7 @@
 			"",
 			"This kit provides a variety of creamy liquids in glass jars, and allows you to temporarily change the color of your hair or skin to match that of a creature of any humanoid race. This includes exotic and unusual hues, such as gnome hair colors. If used as part of a Disguise check, this kit reduces the time required to create the disguise by 1d6 minutes (to a minimum of a full-round action), and halves the penalty to disguise yourself as a different race whenever such recoloration is necessary. Each use of the kit changes either hair or skin color. If you need to change both your hair color and your skin color, you must spend two uses of the kit to gain the benefit. Each dye takes 1 minute to apply (thus requiring 2 minutes to change both hair and skin color). Once applied, the colors are waterproof, and can't be rubbed or burned away. An application of dye fades after 1d4+1 days unless removed earlier by magical means. Applying a new application of alchemical dye immediately covers and replaces a previous application. An alchemical dye kit is exhausted after 10 uses.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 20"
+			"**Construction:** Craft (Alchemy) DC 20"
 		]
 	},
 	"alchemical_glue_accelerant": {
@@ -291,10 +284,9 @@
 			"**Price** 25 gp; **Weight** -  ",
 			"**Category** Alchemical Tools",
 			"",
-			"This tiny dropper contains a liquid that speeds up the cure time of alchemical glue. Applying the accelerant is a standard action. Accelerated glue is tacky after 1 round and fully cured in 1 minute. The dropper contains 20 doses; each dose is sufficient to cure one small application of alchemical glue. The entire dropper must be used to cure a full square foot of glue.",
+			"This tiny dropper contains a liquid that speeds up the cure time of {eq-misc/alchemical glue}. Applying the accelerant is a standard action. Accelerated glue is tacky after 1 round and fully cured in 1 minute. The dropper contains 20 doses; each dose is sufficient to cure one small application of alchemical glue. The entire dropper must be used to cure a full square foot of glue.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 25"
+			"**Construction:** Craft (Alchemy) DC 25"
 		]
 	},
 	"alchemical_glue": {
@@ -308,8 +300,7 @@
 			"",
 			"This glue is stored as two flasks of syrupy liquid. When mixed together and allowed to cure, they form a strong bond. The glue is sufficient to coat 1 square foot of surface, or (because of waste, spills, and inaccurate mixing) up to 20 smaller applications of approximately 2 square inches each. The glue is tacky after 1 minute and fully cured after 1 hour. Pulling apart a large glued surface (at least 1 square foot) requires a DC 20 Strength check for tacky glue or DC 25 for cured glue. Pulling apart a small glued surface (anything less than 1 square foot) is a DC 15 Strength check for tacky glue or DC 20 for cured glue.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 20"
+			"**Construction:** Craft (Alchemy) DC 20"
 		]
 	},
 	"alchemical_grease": {
@@ -327,8 +318,7 @@
 			"",
 			"Each pot of this slick black goo has sufficient contents to cover one Medium creature or two Small ones. If you coat yourself in alchemical grease, you gain a +5 alchemical bonus on Escape Artist checks, on combat maneuver checks made to escape a grapple, and to your CMD to avoid being grappled; this lasts 4 hours or until you wash it off.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 15"
+			"**Construction:** Craft (Alchemy) DC 15"
 		]
 	},
 	"alchemical_pheromones_aggression": {
@@ -344,15 +334,15 @@
 			"",
 			"Alchemical pheromones are variously colored liquids typically stored in glass vials. These pheromones combine the natural scent of an animal (such as a wolf), humanoid (such as a human), magical beast (such as a unicorn), or vermin (such as a centipede) with alchemical reagents that enhance and refine that scent, making the concoction potent enough to modify the behavior of a creature. A dose of alchemical pheromones must be created for the animal, magical beast, or vermin type or for a single subtype of humanoid; it typically affects only creatures of that type or subtype. The effects of the alchemical pheromone depend on the type.",
 			"",
-			"When it is smeared onto a surface or it is thrown as a splash weapon, the alchemical pheromone fills a 5-foot-radius area with its scent. The scent then remains active for 1 minute. A creature of the targeted type or subtype that enters that area must succeed at a DC 14 Will save or be subject to the effects of the pheromone for 1 round. If the creature remains in the affected area, it must attempt a new saving throw each round as long as the pheromone remains active. All alchemical pheromones are mind-affecting effects, but swarms (as well as any other collection of creatures that acts as a single creature) are not immune to them. Creatures that don't need to breathe are immune to alchemical pheromones, while creatures with the scent ability take a -4 penalty on saving throws against them.",
+			"When it is smeared onto a surface or it is thrown as a splash weapon, the alchemical pheromone fills a 5-foot-radius area with its scent. The scent then remains active for 1 minute. A creature of the targeted type or subtype that enters that area must succeed at a DC 14 Will save or be subject to the effects of the pheromone for 1 round. If the creature remains in the affected area, it must attempt a new saving throw each round as long as the pheromone remains active. All alchemical pheromones are mind-affecting effects, but swarms (as well as any other collection of creatures that acts as a single creature) are not immune to them. Creatures that don't need to breathe are immune to alchemical pheromones, while creatures with the {umr/scent} ability take a -4 penalty on saving throws against them.",
 			"",
-			"**Aggression:** Affected creatures are driven into a mindless frenzy, as if affected by simultaneous confusion and rage spells.",
+			"**Aggression:** Affected creatures are driven into a mindless frenzy, as if affected by simultaneous {spell/confusion} and {spell/rage} spells.",
 			"",
-			"Arousal: Affected creatures are aroused and distracted, causing them to lose their Dexterity bonus to AC.",
+			"**Arousal:** Affected creatures are aroused and distracted, causing them to lose their Dexterity bonus to AC.",
 			"",
-			"Simple: An affected creature is staggered for 1 round. Whether the target succeeds at or fails the saving throw, it becomes immune to simple alchemical pheromones for 24 hours.",
+			"**Simple:** An affected creature is {misc/staggered} for 1 round. Whether the target succeeds at or fails the saving throw, it becomes immune to simple alchemical pheromones for 24 hours.",
 			"",
-			"**Susceptibility:** Affected creatures are forced to obey one specific, simple command, as if affected by a command spell. The command is chosen when the pheromone is created, and must be a something simple, such as approach, drop, fall, flee, or halt (as defined by the command spell)."
+			"**Susceptibility:** Affected creatures are forced to obey one specific, simple command, as if affected by a {spell/command} spell. The command is chosen when the pheromone is created, and must be a something simple, such as approach, drop, fall, flee, or halt (as defined by the command spell)."
 		]
 	},
 	"alchemical_pheromones_arousal": {
@@ -376,10 +366,9 @@
 			"**Price** 50 gp; **Weight** -  ",
 			"**Category** Alchemical Remedies",
 			"",
-			"Each small tin of this specially treated jam contains just enough of the gooey stuff to provide a halfling with a single serving of revitalizing nourishment. While any creature can eat these preserves as a standard action, it only affects halflings in a beneficial way. Halflings who eat the preserves recover from fatigue. Non-halflings who eat alchemical preserves become sickened for 1 round.",
+			"Each small tin of this specially treated jam contains just enough of the gooey stuff to provide a {race/halfling} with a single serving of revitalizing nourishment. While any creature can eat these preserves as a standard action, it only affects halflings in a beneficial way. Halflings who eat the preserves recover from {misc/fatigue>d}. Non-halflings who eat alchemical preserves become {misc/sickened} for 1 round.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 20"
+			"**Construction:** Craft (Alchemy) DC 20"
 		]
 	},
 	"alchemical_resin": {
@@ -403,7 +392,7 @@
 			"**Price** 5 gp; **Weight** 1 lb.  ",
 			"**Category** Tools",
 			"",
-			"Used by hobgoblin alchemists to equip their comrades, these spherical glass vials can each be filled with 1 dose of an alchemical splash weapon, allowing them to be used as ammunition for a sling. On a hit, an alchemical sling bullet shatters, affecting the target with the alchemical solution within. This deals only the splash weapon's damage (if any), not the damage a sling bullet would normally deal. This attack resolves against the target's normal AC (rather than touch AC) as with a standard sling bullet, and uses the sling's range. An alchemical sling bullet does not deal splash damage to squares adjacent to the target. If an attack roll with an alchemical sling bullet misses, the bullet and its alchemical contents are destroyed, and do not risk detonating in another square.",
+			"Used by {race/hobgoblin} {class/alchemist/s} to equip their comrades, these spherical glass vials can each be filled with 1 dose of an alchemical splash weapon, allowing them to be used as ammunition for a sling. On a hit, an alchemical sling bullet shatters, affecting the target with the alchemical solution within. This deals only the splash weapon's damage (if any), not the damage a sling bullet would normally deal. This attack resolves against the target's normal AC (rather than touch AC) as with a standard sling bullet, and uses the sling's range. An alchemical sling bullet does not deal splash damage to squares adjacent to the target. If an attack roll with an alchemical sling bullet misses, the bullet and its alchemical contents are destroyed, and do not risk detonating in another square.",
 			"",
 			"Filling an alchemical sling bullet is a standard action that provokes attacks of opportunity, and you must succeed at a DC 15 Craft (alchemy) or Sleight of Hand check to avoid spilling the alchemical item on yourself. On a failed check, the splash weapon explodes in your square as though you were targeted by the item (including any splash effects on adjacent squares)."
 		]
@@ -421,10 +410,9 @@
 			"**Price** 20 gp; **Weight** 1/2 lb.  ",
 			"**Category** Alchemical Tools",
 			"",
-			"This bubbling purple gel eats through adhesives. Each vial can cover a single 5-foot square. It destroys most normal adhesives (such as tar, tree sap, or glue) in a single round but takes 1d4+1 rounds to deal with more powerful adhesives (alchemical glue, tanglefoot bags, spider webbing, and so on). It has no affect on fully magical adhesives, such as sovereign glue.",
+			"This bubbling purple gel eats through adhesives. Each vial can cover a single 5-foot square. It destroys most normal adhesives (such as tar, tree sap, or glue) in a single round but takes 1d4+1 rounds to deal with more powerful adhesives ({eq-misc/alchemical glue}, {eq-weapon/tanglefoot bag/s}, spider webbing, and so on). It has no affect on fully magical adhesives, such as {magic-wondrous/sovereign glue}.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 20"
+			"**Construction:** Craft (Alchemy) DC 20"
 		]
 	},
 	"alchemical_tar_paper": {
@@ -455,8 +443,7 @@
 			"",
 			"Favored by young rakes and other well-to-do inebriates, this crystalline powder resembles salt. Mixed with water, it makes a fizzing cocktail that eliminates the effects of a hangover within 10 minutes of drinking it.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 20"
+			"**Construction:** Craft (Alchemy) DC 20"
 		]
 	},
 	"alchemists_kit": {
@@ -471,7 +458,7 @@
 			"**Price** 40 gp; **Weight** 24 lbs.  ",
 			"**Category** Kits",
 			"",
-			"This kit includes an alchemy crafting kit, a backpack, a bedroll, a belt pouch, a flint and steel, ink, an inkpen, an iron pot, a mess kit, soap, torches (10), trail rations (5 days), and a waterskin. The kit does not contain a formula book because an alchemist begins play with a formula book and does not need to purchase one."
+			"This kit includes an {eq-misc/alchemy crafting kit}, a {eq-misc/backpack}, a {eq-misc/bedroll}, a {eq-misc/belt pouch}, a {eq-misc/flint and steel}, {eq-misc/ink}, an {eq-misc/inkpen}, an {eq-misc/iron pot}, a {eq-misc/mess kit}, {eq-misc/soap}, {eq-misc/torch/es} (10), {eq-misc/trail rations} (5 days), and a {eq-misc/waterskin}. The kit does not contain a formula book because an alchemist begins play with a formula book and does not need to purchase one."
 		]
 	},
 	"alchemists_lab": {
@@ -499,7 +486,7 @@
 			"**Price** 25 gp; **Weight** 5 lbs.  ",
 			"**Category** Tools",
 			"",
-			"An alchemist with an alchemy crafting kit is assumed to have all the material components needed for his extracts, mutagens, and bombs, except for those components that have a specific cost. An alchemy crafting kit provides no bonuses on Craft (alchemy) checks. (This item was called an \"alchemist's kit\" in the *Advanced Player's Guide*, and was renamed to avoid confusion with the pre-selected set of adventuring gear in *Ultimate Equipment* called an \"alchemist's kit.\")"
+			"An alchemist with an alchemy crafting kit is assumed to have all the material components needed for his extracts, mutagens, and bombs, except for those components that have a specific cost. An alchemy crafting kit provides no bonuses on Craft (alchemy) checks. (This item was called an \"alchemist's kit\" in the *Advanced Player's Guide*, and was renamed to avoid confusion with the pre-selected set of adventuring gear in *Ultimate Equipment* called an {eq-misc/\"alchemist's kit.\"})"
 		]
 	},
 	"ale_gallon": {
@@ -529,10 +516,9 @@
 			"**Price** 30 gp; **Weight** -  ",
 			"**Category** Alchemical Tools",
 			"",
-			"These tiny granules can be dissolved in water, creating a slimy material used to coat metallic items such as weapons or armor. Such a coating neutralizes the metal-eating acid of black puddings and gray oozes, protecting the item from 1d3 contacts with an ooze's acidic touch.",
+			"These tiny granules can be dissolved in water, creating a slimy material used to coat metallic items such as weapons or armor. Such a coating neutralizes the metal-eating acid of {monster/black pudding/s} and {monster/gray ooze/s}, protecting the item from 1d3 contacts with an ooze's acidic touch.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 20"
+			"**Construction:** Craft (Alchemy) DC 20"
 		]
 	},
 	"allnight": {
@@ -544,21 +530,72 @@
 			"**Price** 75 gp; **Weight** -  ",
 			"**Category** Black Market",
 			"",
-			"This treated wafer dissolves into a chalky paste when placed under the tongue and then gives the imbiber a jolt of restless energy. It eliminates the effects of fatigue for the next 8 hours; when the drug's effect ends, the user is exhausted. Allnight makes its users jittery and unable to focus; they suffer a -2 penalty on all skill checks until its effects wear off."
+			"This treated wafer dissolves into a chalky paste when placed under the tongue and then gives the imbiber a jolt of restless energy. It eliminates the effects of {misc/fatigue} for the next 8 hours; when the drug's effect ends, the user is {misc/exhausted}. Allnight makes its users jittery and unable to focus; they suffer a -2 penalty on all skill checks until its effects wear off."
 		]
 	},
-	"allosaurus": {
-		"name": "Allosaurus",
+	"dinosaurs_and_megafauna": {
+		"name": "Dinosaurs and Megafauna",
 		"sources": [ "Animal Archive" ],
 		"description": [
-			"## Allosaurus",
+			"## Dinosaurs and Megafauna",
 			"{SOURCE Animal Archive/14}  ",
-			"**Price** 3,850 gp; **Weight** -  ",
+			"**Price** Varies; **Weight** -  ",
 			"**Category** Mounts/Pets",
 			"",
-			"The prices listed are for dinosaurs and megafauna that have been reared from birth in order to serve as pets or mounts. Combat-trained dinosaurs and megafauna are incredibly rare and have similarly extravagant costs (if one can even find a seller). Though not normally readily available, combat-trained dinosaurs and megafauna typically cost an amount equal to 1-1/2 &times; the price of the standard animal."
+			"The prices listed are for dinosaurs and megafauna that have been reared from birth in order to serve as pets or mounts. Combat-trained dinosaurs and megafauna are incredibly rare and have similarly extravagant costs (if one can even find a seller). Though not normally readily available, combat-trained dinosaurs and megafauna typically cost an amount equal to 1-1/2 &times; the price of the standard animal.",
+			"",
+			"| Animal | Price |",
+			"| --- | --- |",
+			"| Allosaurus | 3,850 gp |",
+			"| Ankylosaurus | 3,000 gp |",
+			"| Archelon | 1,750 gp |",
+			"| Arsinoitherium | 3,150 gp |",
+			"| Baluchitherium | 4,800 gp |",
+			"| Basilosaurus | 10,200 gp |",
+			"| Brachiosaurus | 9,000 gp |",
+			"| Compsognathus | 25 gp |",
+			"| Deinonychus | 600 gp |",
+			"| Dimetrodon | 600 gp |",
+			"| Elasmosaurus | 3,500 gp |",
+			"| Glyptodon | 2,700 gp |",
+			"| Iguanodon | 2,700 gp |",
+			"| Megalania | 3,500 gp |",
+			"| Megaloceros | 800 gp |",
+			"| Megatherium | 1,750 gp |",
+			"| Pachycephalosaurus | 1,000 gp |",
+			"| Parasaurolophus | 1,200 gp |",
+			"| Pteranodon | 750 gp |",
+			"| Spinosaurus | 11,000 gp |",
+			"| Stegosaurus | 4,200 gp |",
+			"| Triceratops | 5,600 gp |",
+			"| Tylosaurus | 4,000 gp |",
+			"| Tyrannosaurus | 8,100 gp |"
 		]
 	},
+	"allosaurus":  { "copyof": "dinosaurs_and_megafauna" },
+	"ankylosaurus":  { "copyof": "dinosaurs_and_megafauna" },
+	"archelon":  { "copyof": "dinosaurs_and_megafauna" },
+	"arsinoitherium":  { "copyof": "dinosaurs_and_megafauna" },
+	"baluchitherium":  { "copyof": "dinosaurs_and_megafauna" },
+	"basilosaurus":  { "copyof": "dinosaurs_and_megafauna" },
+	"brachiosaurus":  { "copyof": "dinosaurs_and_megafauna" },
+	"compsognathus":  { "copyof": "dinosaurs_and_megafauna" },
+	"deinonychus":  { "copyof": "dinosaurs_and_megafauna" },
+	"dimetrodon":  { "copyof": "dinosaurs_and_megafauna" },
+	"elasmosaurus":  { "copyof": "dinosaurs_and_megafauna" },
+	"glyptodon":  { "copyof": "dinosaurs_and_megafauna" },
+	"iguanodon":  { "copyof": "dinosaurs_and_megafauna" },
+	"megalania":  { "copyof": "dinosaurs_and_megafauna" },
+	"megaloceros":  { "copyof": "dinosaurs_and_megafauna" },
+	"megatherium":  { "copyof": "dinosaurs_and_megafauna" },
+	"pachycephalosaurus":  { "copyof": "dinosaurs_and_megafauna" },
+	"parasaurolophus":  { "copyof": "dinosaurs_and_megafauna" },
+	"pteranodon":  { "copyof": "dinosaurs_and_megafauna" },
+	"spinosaurus":  { "copyof": "dinosaurs_and_megafauna" },
+	"stegosaurus":  { "copyof": "dinosaurs_and_megafauna" },
+	"triceratops":  { "copyof": "dinosaurs_and_megafauna" },
+	"tylosaurus":  { "copyof": "dinosaurs_and_megafauna" },
+	"tyrannosaurus":  { "copyof": "dinosaurs_and_megafauna" },
 	"alluring_philter": {
 		"name": "Alluring philter",
 		"sources": [ "Potions and Poisons" ],
@@ -568,10 +605,9 @@
 			"**Price** 150 gp; **Weight** -  ",
 			"**Category** Tincture",
 			"",
-			"This simple, rosy liquid smells of fresh flowers and perfume. For 1 hour after drinking this tincture, you gain a +2 alchemical bonus on Diplomacy checks, and if you fail a Diplomacy check to shift a creature's attitude by 5 or more, the creature's attitude toward you doesn't worsen. The increased pheromone production makes it difficult to think, causing you take a -2 penalty on Intelligence-based skill checks for the same duration. Additionally, creatures with the scent ability can detect you from twice as far away for the same duration.",
+			"This simple, rosy liquid smells of fresh flowers and perfume. For 1 hour after drinking this tincture, you gain a +2 alchemical bonus on Diplomacy checks, and if you fail a Diplomacy check to shift a creature's attitude by 5 or more, the creature's attitude toward you doesn't worsen. The increased pheromone production makes it difficult to think, causing you take a -2 penalty on Intelligence-based skill checks for the same duration. Additionally, creatures with the {umr/scent} ability can detect you from twice as far away for the same duration.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 20"
+			"**Construction:** Craft (Alchemy) DC 20"
 		]
 	},
 	"ambrosia_vial": {
@@ -583,10 +619,9 @@
 			"**Price** 100 gp; **Weight** 1 lb.  ",
 			"**Category** Alchemical Remedies",
 			"",
-			"Upon consumption, this heavenly elixir, brewed from holy water and blessed herbs, grants a +2 sacred bonus on saving throws against negative energy, energy drain, and death effects for 1 hour, including saves to remove negative levels. Ambrosia affects undead and evil outsiders as holy water.",
+			"Upon consumption, this heavenly elixir, brewed from holy water and blessed herbs, grants a +2 sacred bonus on saving throws against negative energy, energy drain, and death effects for 1 hour, including saves to remove negative levels. Ambrosia affects undead and evil outsiders as {eq-weapon/holy water}.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 25"
+			"**Construction:** Craft (Alchemy) DC 25"
 		]
 	},
 	"amp": {
@@ -630,6 +665,8 @@
 			"While these alchemical solutions do not cause as swift or extensive a change as magical alternatives, they are far more affordable, especially among the [Rivethun](rule/aff_animists), who often teach the process of their creation to their disciples."
 		]
 	},
+	"anderos_salve": { "copyof": "anderos_salve_and_mulibrous_tincture" },
+	"mulibrous_tincture": { "copyof": "anderos_salve_and_mulibrous_tincture" },
 	"anesthetic_wine": {
 		"name": "Anesthetic wine",
 		"sources": [ "Adventurer's Armory 2" ],
@@ -641,8 +678,7 @@
 			"",
 			"This alchemical anesthetic, developed from ancient recipes for Sarenite sacred wine, grants a powerful resistance to pain. For 1 hour after drinking anesthetic wine, you gain a +5 bonus on saving throws against pain effects, and when you would take nonlethal damage, reduce the amount of damage taken by 1.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 20"
+			"**Construction:** Craft (Alchemy) DC 20"
 		]
 	},
 	"angel_quill_arrowhead": {
@@ -654,12 +690,11 @@
 			"**Price** 10 gp; **Weight** -  ",
 			"**Category** Alchemical Tools",
 			"",
-			"This barbed, cold iron arrowhead is alchemically treated to inflict additional harm while embedded in creatures that are vulnerable to cold iron. For every angel quill arrowhead that damages a target with DR/cold iron, the target's damage reduction decreases by 1. Up to five angel quill arrowheads can affect a single target at any one time, reducing the target's DR/cold iron by up to 5 (additional arrowheads have no effect aside from dealing damage as normal). An affected target can pull out a number of arrowheads equal to her Dexterity modifier (minimum 1) as a full-round action with a successful DC 15 Heal check. Alternatively, the application of any magical healing causes all angel quill arrowheads embedded in the creature to instantly fall out.",
+			"This barbed, {eq-material/cold iron} arrowhead is alchemically treated to inflict additional harm while embedded in creatures that are vulnerable to cold iron. For every angel quill arrowhead that damages a target with DR/cold iron, the target's damage reduction decreases by 1. Up to five angel quill arrowheads can affect a single target at any one time, reducing the target's DR/cold iron by up to 5 (additional arrowheads have no effect aside from dealing damage as normal). An affected target can pull out a number of arrowheads equal to her Dexterity modifier (minimum 1) as a full-round action with a successful DC 15 Heal check. Alternatively, the application of any magical healing causes all angel quill arrowheads embedded in the creature to instantly fall out.",
 			"",
 			"Angel quill arrowheads of silver and adamantine are also available for the same price, and affect creatures with DR/silver or DR/adamantine, respectively. Crafting any type of angel quill arrowhead requires a successful DC 25 Craft (alchemy) check.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 25"
+			"**Construction:** Craft (Alchemy) DC 25"
 		]
 	},
 	"angelstep": {
@@ -742,6 +777,7 @@
 			"This leather or hemp harness allows a holder to restrain and control a domesticated animal. A harness is standard equipment for anyone trying to teach an animal tricks with the Handle Animal skill. Ready-made harnesses are available in most markets for common domesticated animals such as cats, dogs, horses, and oxen, but harnesses can be made for nearly any creature."
 		]
 	},
+	"harness": { "copyof": "animal_harness" },
 	"animal_repellent": {
 		"name": "Animal repellent",
 		"sources": [ "Ultimate Wilderness" ],
@@ -751,7 +787,7 @@
 			"**Price** 15 gp; **Weight** -  ",
 			"**Category** Animal Gear",
 			"",
-			"Leshys and other plant creatures have to be wary of hungry herbivorous animals. A dose of animal repellent makes a plant creature smell unappetizing for 24 hours. Animals do not attempt to consume a plant creature coated in animal repellent if there are other food sources available, and in combat prefer to use natural attacks that are not bite attacks against such a creature if they can. Animal repellent counts as a strong scent, allowing creatures with the scent ability to detect it at a greater range. Animal repellent does not work on ghorans with the delicious racial trait. Crafting this item requires a successful DC 20 Craft (alchemy) check."
+			"Leshys and other plant creatures have to be wary of hungry herbivorous animals. A dose of animal repellent makes a plant creature smell unappetizing for 24 hours. Animals do not attempt to consume a plant creature coated in animal repellent if there are other food sources available, and in combat prefer to use natural attacks that are not bite attacks against such a creature if they can. Animal repellent counts as a strong scent, allowing creatures with the {umr/scent} ability to detect it at a greater range. Animal repellent does not work on {race/ghoran/s} with the delicious racial trait. Crafting this item requires a successful DC 20 Craft (alchemy) check."
 		]
 	},
 	"animal_repellant_sack": {
@@ -766,18 +802,6 @@
 			"This heavy canvas sack can carry adventuring gear and other supplies. It holds 4 cubic feet of goods and has a leather thong that allows it to be tied shut. The sack is laced with scents that animals find odious, and it is dyed in similarly repellant colors. Creatures with the animal creature type and an Intelligence ability score of 2 or lower avoid contact with an animal-repellant sack and won't tamper with its contents unless they're magically compelled, ordered by a handler, or starving."
 		]
 	},
-	"ankylosaurus": {
-		"name": "Ankylosaurus",
-		"sources": [ "Animal Archive" ],
-		"description": [
-			"## Ankylosaurus",
-			"{SOURCE Animal Archive/14}  ",
-			"**Price** 3,000 gp; **Weight** -  ",
-			"**Category** Mounts/Pets",
-			"",
-			"The prices listed are for dinosaurs and megafauna that have been reared from birth in order to serve as pets or mounts. Combat-trained dinosaurs and megafauna are incredibly rare and have similarly extravagant costs (if one can even find a seller). Though not normally readily available, combat-trained dinosaurs and megafauna typically cost an amount equal to 1-1/2 &times; the price of the standard animal."
-		]
-	},
 	"anointing_oil": {
 		"name": "Anointing oil",
 		"sources": [ "Advanced Race Guide" ],
@@ -787,24 +811,88 @@
 			"**Price** 25 gp; **Weight** 1 lb.  ",
 			"**Category** Alchemical Tools",
 			"",
-			"This sacred oil, infused with aromatic spices and distilled holy water, may be applied to a creature while casting a harmless divine spell with a range of touch, increasing the casting time to a full-round action but also increasing the caster's effective caster level by +1 for that spell.",
+			"This sacred oil, infused with aromatic spices and distilled {eq-weapon/holy water}, may be applied to a creature while casting a harmless divine spell with a range of touch, increasing the casting time to a full-round action but also increasing the caster's effective caster level by +1 for that spell.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 20"
+			"**Construction:** Craft (Alchemy) DC 20"
 		]
 	},
-	"antelope": {
-		"name": "Antelope",
+	"animals": {
+		"name": "Animals",
 		"sources": [ "Animal Archive" ],
 		"description": [
-			"## Antelope",
+			"## Animals",
 			"{SOURCE Animal Archive/15}  ",
-			"**Price** 45 gp; **Weight** -  ",
+			"**Price** Varies; **Weight** -  ",
 			"**Category** Mounts/Pets",
 			"",
-			"This animal may be purchased already combat-trained at the GM's discretion, and typically cost an amount equal to 1-1/2 &times; the price of the standard animal."
+			"These animals may be purchased already combat-trained at the GM's discretion, and typically cost an amount equal to 1-1/2 &times; the price of the standard animal.",
+			"",
+			"| Animal | Price |",
+			"| --- | --- |",
+			"| Antelope | 45 gp |",
+			"| Baboon | 15 gp |",
+			"| Behemoth hippopotamus | 7,900 gp |",
+			"| Cheetah | 160 gp |",
+			"| Constrictor snake | 90 gp |",
+			"| Giant porcupine | 135 gp |",
+			"| Giant anaconda | 6,300 gp |",
+			"| Giant skunk | 190 gp |",
+			"| Giant snapping turtle | 5,200 gp |",
+			"| Gorilla | 175 gp |",
+			"| Great horned owl | 22 gp |",
+			"| Grizzly bear | 740 gp |",
+			"| Hippopotamus | 1,050 gp |",
+			"| Hyena | 80 gp |",
+			"| Kangaroo | 30 gp |",
+			"| Leopard | 100 gp |",
+			"| Mongoose | 4 gp |",
+			"| Monitor lizard | 150 gp |",
+			"| Poison frog | 60 gp |",
+			"| Porcupine | 5 gp |",
+			"| Snail kite | 18 gp |",
+			"| Snapping turtle | 5 gp |",
+			"| Thylacine | 18 gp |",
+			"| Toucan | 40 gp |",
+			"| Dodo | 5 gp |",
+			"| Eagle | 40 gp |",
+			"| Emperor cobra | 1,600 gp |",
+			"| Osprey | 45 gp |",
+			"| Vulture | 30 gp |",
+			"| Wolf | 100 gp |",
+			"| Wolverine | 125 gp |"
 		]
 	},
+	"antelope": { "copyof": "animals" },
+	"baboon": { "copyof": "animals" },
+	"behemoth_hippopotamus": { "copyof": "animals" },
+	"cheetah": { "copyof": "animals" },
+	"constrictor_snake": { "copyof": "animals" },
+	"dodo": { "copyof": "animals" },
+	"eagle": { "copyof": "animals" },
+	"emperor_cobra": { "copyof": "animals" },
+	"giant_porcupine": { "copyof": "animals" },
+	"giant_anaconda": { "copyof": "animals" },
+	"giant_skunk": { "copyof": "animals" },
+	"giant_snapping_turtle": { "copyof": "animals" },
+	"gorilla": { "copyof": "animals" },
+	"great_horned_owl": { "copyof": "animals" },
+	"grizzly_bear": { "copyof": "animals" },
+	"hippopotamus": { "copyof": "animals" },
+	"hyena": { "copyof": "animals" },
+	"kangaroo": { "copyof": "animals" },
+	"leopard": { "copyof": "animals" },
+	"mongoose": { "copyof": "animals" },
+	"monitor_lizard": { "copyof": "animals" },
+	"osprey": { "copyof": "animals" },
+	"poison_frog": { "copyof": "animals" },
+	"porcupine": { "copyof": "animals" },
+	"snail_kite": { "copyof": "animals" },
+	"snapping_turtle": { "copyof": "animals" },
+	"thylacine": { "copyof": "animals" },
+	"toucan": { "copyof": "animals" },
+	"vulture": { "copyof": "animals" },
+	"wolf": { "copyof": "animals" },
+	"wolverine": { "copyof": "animals" },
 	"antidote_kit": {
 		"name": "Antidote kit",
 		"sources": [ "Ultimate Equipment" ],
@@ -838,10 +926,9 @@
 			"**Price** 50 gp; **Weight** -  ",
 			"**Category** Alchemical Remedies",
 			"",
-			"This snuff can be used to shake off the effects of nausea. If you take it before being exposed to an effect that would give you the nauseated condition and allows a saving throw, you attempt two saving throws against the effect and take the higher result. A single dose provides this benefit for 1 hour.",
+			"This snuff can be used to shake off the effects of nausea. If you take it before being exposed to an effect that would give you the {misc/nauseated} condition and allows a saving throw, you attempt two saving throws against the effect and take the higher result. A single dose provides this benefit for 1 hour.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 25"
+			"**Construction:** Craft (Alchemy) DC 25"
 		]
 	},
 	"antiplague": {
@@ -859,8 +946,7 @@
 			"",
 			"If you drink a vial of this foul-tasting, milky tonic, you gain a +5 alchemical bonus on Fortitude saving throws against disease for the next hour. If already infected, you may also make two saving throws (without the +5 bonus) that day and use the better result.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 25"
+			"**Construction:** Craft (Alchemy) DC 25"
 		]
 	},
 	"antitoxin": {
@@ -891,7 +977,7 @@
 			"**Price** varies; **Weight** -  ",
 			"**Category** Alchemical Remedies",
 			"",
-			"While antitoxin, as presented in the Pathfinder RPG Core Rulebook, presents a generalized tool for protecting oneself from poison, more specialized antivenoms can provide even greater protection against specific poisons. Creating a dose of antivenom requires a dose of the specific poison that the antivenom is designed to protect against.",
+			"While antitoxin presents a generalized tool for protecting oneself from poison, more specialized antivenoms can provide even greater protection against specific poisons. Creating a dose of antivenom requires a dose of the specific poison that the antivenom is designed to protect against.",
 			"",
 			"**Antivenom Effects:** A single dose of antivenom automatically neutralizes the first exposure of the specific poison it is made to combat and provides a +8 alchemical bonus on saving throws against additional exposure to that specific poison; this bonus decreases by 1 every hour, until the effect ends after 8 hours.",
 			"",
@@ -899,8 +985,7 @@
 			"",
 			"**Purchasing Antivenom:** Antivenom is not particularly expensive, but because it is highly specialized, it can be difficult to find. A dose of antivenom has a market price equal to half the market price of a dose of the poison in question, but it is treated as though its price were five times the market price of the poison for the purposes of determining its availability in any given settlement. Alternatively, if 1 or more doses of the poison in question can be provided, most alchemists will supply as much antivenom as they can produce from the doses for a fee of 10% of the market price of the poison.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC varies"
+			"**Construction:** Craft (Alchemy) DC varies"
 		]
 	},
 	"anulite_paprika": {
@@ -945,10 +1030,9 @@
 			"**Price** 10 gp; **Weight** 1 lb.  ",
 			"**Category** Alchemical Remedies",
 			"",
-			"This sticky-sweet syrup is distilled from ivy and rabbit musk, and causes a mild allergic reaction in halflings. The slight swelling - especially in the face - and mild redness it induces makes the face seem younger, granting a halfling who drinks a dose of applecheek a +2 alchemical bonus on Disguise checks to look like an elven, half-elven, or human child. The effects of a dose of applecheek persist for 24 hours. Crafting a dose of applecheek requires a successful DC 15 Craft (alchemy) check.",
+			"This sticky-sweet syrup is distilled from ivy and rabbit musk, and causes a mild allergic reaction in {race/halfling/s}. The slight swelling - especially in the face - and mild redness it induces makes the face seem younger, granting a halfling who drinks a dose of applecheek a +2 alchemical bonus on Disguise checks to look like an elven, half-elven, or human child. The effects of a dose of applecheek persist for 24 hours. Crafting a dose of applecheek requires a successful DC 15 Craft (alchemy) check.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 15"
+			"**Construction:** Craft (Alchemy) DC 15"
 		]
 	},
 	"applejack_gallon": {
@@ -975,7 +1059,7 @@
 			"**Price** 80 gp; **Weight** 20 lbs.  ",
 			"**Category** Animal Gear",
 			"",
-			"This clear, 1-inch-thick glass orb is the size of a large melon and hangs from a thick chain. It can hold up to 2 gallons of freshwater or saltwater, allowing it to house aquatic creatures such as fish or frogs. The cap near the top of the ball can be unscrewed for access. One Tiny creature or two Diminutive creatures can fit comfortably into an aquarium ball. The water within the orb must be changed daily in order to keep the creatures within alive. Otherwise, the inhabitants begin to slowly suffocate."
+			"This clear, 1-inch-thick glass orb is the size of a large melon and hangs from a thick chain. It can hold up to 2 gallons of freshwater or saltwater, allowing it to house aquatic creatures such as fish or frogs. The cap near the top of the ball can be unscrewed for access. One Tiny creature or two Diminutive creatures can fit comfortably into an aquarium ball. The water within the orb must be changed daily in order to keep the creatures within alive. Otherwise, the inhabitants begin to slowly {rule/suffocat/e>ion}."
 		]
 	},
 	"aquatic_harness_large": {
@@ -1014,10 +1098,9 @@
 			"**Price** 150 gp; **Weight** -  ",
 			"**Category** Alchemical Remedies",
 			"",
-			"A popular export from the Forest of Oils - a field of massive oil bubbles on the Elemental Plane of Water - aquemir is a transparent substance extracted from the skins of autonomous oil orbs and refined into a useful alchemical reagent. As a standard action, aquemir can be mixed with an alchemical remedy, extract, or potion to delay the start of its effects by 2 minutes when it is imbibed. Administering a potion or extract that's properly infused with aquemir requires 1 dose of aquemir per spell level to function in this way, whereas an alchemical remedy only requires 1 dose. If not enough aquemir is mixed with a potion or extract, the potion or extract's effects are not delayed at all. A creature can internally store only one substance that uses aquemir; further attempts waste all imbibed substances (and immediately render inert all potions, extracts, alchemical remedies, and so on) and cause the creature to become nauseated for 1d4 rounds. Crafting this item requires a successful DC 30 Craft (alchemy) check.",
+			"A popular export from the Forest of Oils - a field of massive oil bubbles on the Elemental Plane of Water - aquemir is a transparent substance extracted from the skins of autonomous oil orbs and refined into a useful alchemical reagent. As a standard action, aquemir can be mixed with an alchemical remedy, extract, or potion to delay the start of its effects by 2 minutes when it is imbibed. Administering a potion or extract that's properly infused with aquemir requires 1 dose of aquemir per spell level to function in this way, whereas an alchemical remedy only requires 1 dose. If not enough aquemir is mixed with a potion or extract, the potion or extract's effects are not delayed at all. A creature can internally store only one substance that uses aquemir; further attempts waste all imbibed substances (and immediately render inert all potions, extracts, alchemical remedies, and so on) and cause the creature to become {misc/nauseated} for 1d4 rounds. Crafting this item requires a successful DC 30 Craft (alchemy) check.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 30"
+			"**Construction:** Craft (Alchemy) DC 30"
 		]
 	},
 	"arcane_adept_package": {
@@ -1031,11 +1114,11 @@
 			"",
 			"The arcane adept has collected useful magical gear to ensure her success on her adventures, and she prides herself on having just the right tool for the job. This equipment package is appropriate for an arcanist, sorcerer, witch, or wizard. Some bards and summoners might also find it attractive. This equipment package can also work for a magus if the 1st-level scrolls and wand are replaced with a masterwork melee weapon.",
 			"",
-			"**Weapons:** Light crossbow with 10 bolts, quarterstaff.",
+			"**Weapons:** {eq-weapon/Light crossbow} with 10 {eq-weapon/bolt/s}, {eq-weapon/quarterstaff}.",
 			"",
-			"**Combat Gear:** Acid (2), scrolls of comprehend languages (2), scroll of detect secret doors, scroll of glitterdust, scrolls of identify (2), scroll of mount, scroll of rope trick, thunderstone, wand of mage armor (16 charges).",
+			"**Combat Gear:** {eq-weapon/Acid} (2), scrolls of {spell/comprehend languages} (2), scroll of {spell/detect secret doors}, scroll of {spell/glitterdust}, scrolls of {spell/identify} (2), scroll of {spell/mount}, scroll of {spell/rope trick}, {eq-weapon/thunderstone}, wand of {spell/mage armor} (16 charges).",
 			"",
-			"**Other Gear:** Backpack, bedroll, belt pouch, candles (5), chalk (5 pieces), flint and steel, ink, inkpen, ioun torch, journal, magnifying glass, mess kit, scroll box, silk rope (50 ft.), spell component pouch, trail rations (5 days), waterskin, 3 gp.",
+			"**Other Gear:** {eq-misc/Backpack}, {eq-misc/bedroll}, {eq-misc/belt pouch}, {eq-misc/candle/s} (5), {eq-misc/chalk} (5 pieces), {eq-misc/flint and steel}, {eq-misc/ink}, {eq-misc/inkpen}, {magic-wondrous/ioun torch}, {eq-misc/journal}, {eq-misc/magnifying glass}, {eq-misc/mess kit}, {eq-misc/scroll box}, {eq-misc/silk rope (50 ft.)}, {eq-misc/spell component pouch}, {eq-misc/trail rations} (5 days), {eq-misc/waterskin}, 3 gp.",
 			"",
 			"**Total Weight:** 45 lbs. (28-3/4 lbs. for a Small character)."
 		]
@@ -1061,19 +1144,7 @@
 			"**Price** 21 gp; **Weight** 34 lbs.  ",
 			"**Category** Kits",
 			"",
-			"This kit includes a backpack, a bedroll, a belt pouch, a flint and steel, ink, an inkpen, an iron pot, a mess kit, soap, a spell component pouch, torches (10), trail rations (5 days), and a waterskin. The kit does not contain a spellbook because an arcanist begins play with a spellbook and does not need to purchase one."
-		]
-	},
-	"archelon": {
-		"name": "Archelon",
-		"sources": [ "Animal Archive" ],
-		"description": [
-			"## Archelon",
-			"{SOURCE Animal Archive/14}  ",
-			"**Price** 1,750 gp; **Weight** -  ",
-			"**Category** Mounts/Pets",
-			"",
-			"The prices listed are for dinosaurs and megafauna that have been reared from birth in order to serve as pets or mounts. Combat-trained dinosaurs and megafauna are incredibly rare and have similarly extravagant costs (if one can even find a seller). Though not normally readily available, combat-trained dinosaurs and megafauna typically cost an amount equal to 1-1/2 &times; the price of the standard animal."
+			"This kit includes a {eq-misc/backpack}, a {eq-misc/bedroll}, a {eq-misc/belt pouch}, a {eq-misc/flint and steel}, {eq-misc/ink}, an {eq-misc/inkpen}, an {eq-misc/iron pot}, a {eq-misc/mess kit}, {eq-misc/soap}, a {eq-misc/spell component pouch}, {eq-misc/torch/es} (10), {eq-misc/trail rations} (5 days), and a {eq-misc/waterskin}. The kit does not contain a spellbook because an arcanist begins play with a spellbook and does not need to purchase one."
 		]
 	},
 	"arctic_kit": {
@@ -1085,7 +1156,7 @@
 			"**Price** 27 gp; **Weight** 30 lbs.  ",
 			"**Category** Kits",
 			"",
-			"This kit is designed for use in cold climates, where the weather can be deadly and the terrain treacherous. It includes 10 candles, a candle lamp, cleats, a cold-weather outfit, a handaxe, a shovel, a signal whistle, a small iron pot, snowshoes, and five tindertwigs, all wrapped in a winter blanket."
+			"This kit is designed for use in cold climates, where the weather can be deadly and the terrain treacherous. It includes 10 {eq-misc/candle/s}, a {eq-misc/candle lamp}, {eq-misc/cleats}, a {eq-misc/cold-weather outfit}, a {eq-weapon/handaxe}, a {eq-misc/shovel}, a {eq-misc/signal whistle}, a small {eq-misc/iron pot}, {eq-misc/snowshoes}, and five {eq-misc/tindertwig/s}, all wrapped in a winter {eq-misc/blanket}."
 		]
 	},
 	"area_map": {
@@ -1114,8 +1185,7 @@
 			"",
 			"This thick lubricant makes the joints of armor move more freely. Applying the ointment takes 1 minute and reduces your armor's armor check penalty by 1 (to a minimum of -1) for 8 hours.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 15"
+			"**Construction:** Craft (Alchemy) DC 15"
 		]
 	},
 	"armor_truss": {
@@ -1142,19 +1212,7 @@
 			"**Price** 1 gp; **Weight** 1/2 lb.  ",
 			"**Category** Adventuring Gear",
 			"",
-			"This small grappling hook is designed to be tied to a silk rope and fired from a bow. When fired, it has a range increment of 30 feet. An equivalent item exists for crossbows."
-		]
-	},
-	"arsinoitherium": {
-		"name": "Arsinoitherium",
-		"sources": [ "Animal Archive" ],
-		"description": [
-			"## Arsinoitherium",
-			"{SOURCE Animal Archive/14}  ",
-			"**Price** 3,150 gp; **Weight** -  ",
-			"**Category** Mounts/Pets",
-			"",
-			"The prices listed are for dinosaurs and megafauna that have been reared from birth in order to serve as pets or mounts. Combat-trained dinosaurs and megafauna are incredibly rare and have similarly extravagant costs (if one can even find a seller). Though not normally readily available, combat-trained dinosaurs and megafauna typically cost an amount equal to 1-1/2 &times; the price of the standard animal."
+			"This small grappling hook is designed to be tied to a {eq-misc/silk rope>_50_ft} and fired from a bow. When fired, it has a range increment of 30 feet. An equivalent item exists for crossbows."
 		]
 	},
 	"artifical_gills": {
@@ -1168,9 +1226,9 @@
 			"",
 			"Flexible tubes connect a hand pump and a breathing mask to this reinforced leather backpack. When the hand pump is pressed, the artificial gills draw in oxygen from the surrounding water and feed it through the mask, allowing the wearer to breathe underwater for extended periods of time.",
 			"",
-			"The hand pump must be regularly depressed, requiring you to have a free hand and use a move action each round. If you do not squeeze the hand pump in a round, you must hold your breath or begin to suffocate. Artificial gills eventually become clogged with particulates and must be disassembled and cleaned after 1 hour of being submerged, although this time can be dramatically shortened by murky or polluted water.",
+			"The hand pump must be regularly depressed, requiring you to have a free hand and use a move action each round. If you do not squeeze the hand pump in a round, you must hold your breath or begin to {rule/suffocat/e>ion}. Artificial gills eventually become clogged with particulates and must be disassembled and cleaned after 1 hour of being submerged, although this time can be dramatically shortened by murky or polluted water.",
 			"",
-			"Artificial gills provide no protection against temperature dangers or [pressure damage](rule/water_dangers) in the open seas. If artificial gills are submerged more than 100 feet below the surface, they take 1d6 points of damage per round until they are either brought into shallower water or they rupture from the pressure. Artificial gills have a hardness of 0, 10 hit points, and a break DC of 30."
+			"Artificial gills provide no protection against {rule/water<temperature| dangers/ or pressure damage} in the open seas. If artificial gills are submerged more than 100 feet below the surface, they take 1d6 points of damage per round until they are either brought into shallower water or they rupture from the pressure. Artificial gills have a hardness of 0, 10 hit points, and a break DC of 30."
 		]
 	},
 	"artificers_lab_portable": {
@@ -1256,8 +1314,7 @@
 			"",
 			"Favored by performers of all kinds, this tincture is a blend of alchemically enhanced herbs and spices mixed into a pint of ale. For 6 hours after drinking this tincture, you gain a +2 alchemical bonus on Bluff and Perform checks, and you treat your level as 1 higher for the purpose of determining the effects of a bardic performance or a raging song. The potent drink causes you take a -2 penalty on Acrobatics, Intimidate, Knowledge, Sense Motive, and Spellcraft checks for the same duration.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 25"
+			"**Construction:** Craft (Alchemy) DC 25"
 		]
 	},
 	"astrolabe": {
@@ -1287,23 +1344,162 @@
 			"**Price** 15 gp; **Weight** 1 lb.  ",
 			"**Category** Adventuring Gear",
 			"",
-			"These leather goggles have dark, purple-hued lenses coated with a special alchemical substance that reveals particular psychic spectrums. To provide any benefit, the goggles must be continuously worn for 1 hour, during which time the wearer takes a -2 penalty on all sight-based Perception checks. After this 1-hour period, the user can remove the goggles to gain a +2 circumstance bonus on Perception checks for the read aura occult skill unlock. This benefit fades after 1 hour."
+			"These leather goggles have dark, purple-hued lenses coated with a special alchemical substance that reveals particular psychic spectrums. To provide any benefit, the goggles must be continuously worn for 1 hour, during which time the wearer takes a -2 penalty on all sight-based Perception checks. After this 1-hour period, the user can remove the goggles to gain a +2 circumstance bonus on Perception checks for the {skill/read aura} occult skill unlock. This benefit fades after 1 hour."
+		]
+	},
+	"riding_animals": {
+		"name": "Riding Animals",
+		"sources": [ "Animal Archive" ],
+		"description": [
+			"## Riding Animals",
+			"{SOURCE Animal Archive/14}  ",
+			"**Price** Varies; **Weight** -",
+			"",
+			"When reared from birth, these animals can easily be ridden by Small or Medium humanoids, depending on the animal's size. In addition, most of these animals can be purchased already trained for combat.",
+			"",
+			"| Animal | Price (common) | Price (combat-trained) |",
+			"| --- | --- | --- |",
+			"| Aurochs | 300 gp | 450 gp |",
+			"| Bison | 50 gp | 75 gp |",
+			"| Boar | 100 gp | 150 gp |",
+			"| Elk | 100 gp | 150 gp |",
+			"| Giant Chameleon | 300 gp | 450 gp |",
+			"| Giant Frilled Lizard | 375 gp | 550 gp |",
+			"| Giant Gecko | 100 gp | 150 gp |",
+			"| Giant Owl | 6,000 gp | 9,000 gp |",
+			"| Giant Vulture | 750 gp | 1,125 gp |",
+			"| Goblin Dog | 35 gp | 50 gp |",
+			"| Lion | 200 gp | 300 gp |",
+			"| Ram | 25 gp | 50 gp |",
+			"| Rhinoceros | 1,000 gp | 1,500 gp |",
+			"| Roc | 7,200 gp | 10,800 gp |",
+			"| Tiger | 325 gp | 500 gp |",
+			"| Woolly Rhinoceros | 2,000 gp | 3,000 gp |"
 		]
 	},
 	"aurochs_combat_trained": {
 		"name": "Aurochs (combat-trained)",
-		"sources": [ "Animal Archive" ],
-		"description": [
-			"## Aurochs",
-			"{SOURCE Animal Archive/14}  ",
-			"**Price** 450 gp (combat-trained), 300 gp (common); **Weight** - (combat-trained), - (common)",
-			"",
-			"When reared from birth, these animals can easily be ridden by Small or Medium humanoids, depending on the animal's size."
-		]
+		"copyof": "riding_animals"
 	},
 	"aurochs_common": {
 		"name": "Aurochs (common)",
-		"copyof": "aurochs_combat_trained"
+		"copyof": "riding_animals"
+	},
+	"bison_common": {
+		"name": "Bison (common)",
+		"copyof": "riding_animals"
+	},
+	"bison_combat_trained": {
+		"name": "Bison (combat-trained)",
+		"copyof": "riding_animals"
+	},
+	"boar_common": {
+		"name": "Boar (common)",
+		"copyof": "riding_animals"
+	},
+	"boar_combat_trained": {
+		"name": "Boar (combat-trained)",
+		"copyof": "riding_animals"
+	},
+	"elk_combat_trained": {
+		"name": "Elk (combat-trained)",
+		"copyof": "riding_animals"
+	},
+	"elk_common": {
+		"name": "Elk (common)",
+		"copyof": "riding_animals"
+	},
+	"giant_chameleon_combat_trained": {
+		"name": "Giant chameleon (combat-trained)",
+		"copyof": "riding_animals"
+	},
+	"giant_chameleon_common": {
+		"name": "Giant chameleon (common)",
+		"copyof": "riding_animals"
+	},
+	"giant_frilled_lizard_combat_trained": {
+		"name": "Giant frilled lizard (combat-trained)",
+		"copyof": "riding_animals"
+	},
+	"giant_frilled_lizard_common": {
+		"name": "Giant frilled lizard (common)",
+		"copyof": "riding_animals"
+	},
+	"giant_gecko_combat_trained": {
+		"name": "Giant gecko (combat-trained)",
+		"copyof": "riding_animals"
+	},
+	"giant_gecko_common": {
+		"name": "Giant gecko (common)",
+		"copyof": "riding_animals"
+	},
+	"giant_owl_combat_trained": {
+		"name": "Giant owl (combat-trained)",
+		"copyof": "riding_animals"
+	},
+	"giant_owl_common": {
+		"name": "Giant owl (common)",
+		"copyof": "riding_animals"
+	},
+	"giant_vulture_combat_trained": {
+		"name": "Giant vulture (combat-trained)",
+		"copyof": "riding_animals"
+	},
+	"goblin_dog_combat_trained": {
+		"name": "Goblin dog (combat-trained)",
+		"copyof": "riding_animals"
+	},
+	"goblin_dog_common": {
+		"name": "Goblin dog (common)",
+		"copyof": "riding_animals"
+	},
+	"lion_combat_trained": {
+		"name": "Lion (combat-trained)",
+		"copyof": "riding_animals"
+	},
+	"lion_common": {
+		"name": "Lion (common)",
+		"copyof": "riding_animals"
+	},
+	"ram_combat_trained": {
+		"name": "Ram (combat-trained)",
+		"copyof": "riding_animals"
+	},
+	"ram_common": {
+		"name": "Ram (common)",
+		"copyof": "riding_animals"
+	},
+	"rhinoceros_combat_trained": {
+		"name": "Rhinoceros (combat-trained)",
+		"copyof": "riding_animals"
+	},
+	"rhinoceros_common": {
+		"name": "Rhinoceros (common)",
+		"copyof": "riding_animals"
+	},
+	"roc_combat_trained": {
+		"name": "Roc (combat-trained)",
+		"copyof": "riding_animals"
+	},
+	"roc_common": {
+		"name": "Roc (common)",
+		"copyof": "riding_animals"
+	},
+	"tiger_combat_trained": {
+		"name": "Tiger (combat-trained)",
+		"copyof": "riding_animals"
+	},
+	"tiger_common": {
+		"name": "Tiger (common)",
+		"copyof": "riding_animals"
+	},
+	"woolly_rhinoceros_common": {
+		"name": "Woolly rhinoceros (common)",
+		"copyof": "riding_animals"
+	},
+	"woolly_rhinoceros_combat_trained": {
+		"name": "Woolly rhinoceros (combat-trained)",
+		"copyof": "riding_animals"
 	},
 	"authoritative_vestments": {
 		"name": "Authoritative vestments",
@@ -1327,7 +1523,7 @@
 			"**Price** 25 gp; **Weight** -  ",
 			"**Category** Adventuring Gear",
 			"",
-			"This finely crafted, heart-shaped wooden board has two delicate wheels and a small aperture to hold a pencil, which acts as the board's third leg. Typically used on a tabletop covered in butcher's paper, the device scribbles out mysterious messages when employed by a creature using the automatic writing occult skill unlock, and provides a +2 circumstance bonus on the Linguistics check. When used to channel certain haunts capable of communication, the planchette doubles the rate of communication with the haunt, and grants the user a +4 circumstance bonus on Linguistics checks to decipher the cryptic messages. These benefits do not stack with those of other items that confer similar benefits (such as a talking board)."
+			"This finely crafted, heart-shaped wooden board has two delicate wheels and a small aperture to hold a pencil, which acts as the board's third leg. Typically used on a tabletop covered in butcher's paper, the device scribbles out mysterious messages when employed by a creature using the {skill/automatic writing} occult skill unlock, and provides a +2 circumstance bonus on the Linguistics check. When used to channel certain haunts capable of communication, the planchette doubles the rate of communication with the haunt, and grants the user a +4 circumstance bonus on Linguistics checks to decipher the cryptic messages. These benefits do not stack with those of other items that confer similar benefits (such as a {eq-misc/talking board})."
 		]
 	},
 	"autosniper_trap": {
@@ -1376,18 +1572,6 @@
 			"Axe beaks raised from eggs are easily trained as mounts or used as livestock."
 		]
 	},
-	"baboon": {
-		"name": "Baboon",
-		"sources": [ "Animal Archive" ],
-		"description": [
-			"## Baboon",
-			"{SOURCE Animal Archive/15}  ",
-			"**Price** 15 gp; **Weight** -  ",
-			"**Category** Mounts/Pets",
-			"",
-			"This animal may be purchased already combat-trained at the GM's discretion, and typically cost an amount equal to 1-1/2 &times; the price of the standard animal."
-		]
-	},
 	"bachelor_snuff": {
 		"name": "Bachelor snuff",
 		"sources": [ "Adventurer's Armory" ],
@@ -1397,7 +1581,7 @@
 			"**Price** 1 gp; **Weight** -  ",
 			"**Category** Black Market",
 			"",
-			"If inhaled through the nose, this sootysmelling golden powder renders humanoid males temporarily sterile without otherwise affecting their performance. A dose typically lasts 1-3 days. Long-term users of bachelor snuff tend to develop a slight, but still noticeable, gilded tinge to their teeth and nails."
+			"If inhaled through the nose, this sooty-smelling golden powder renders humanoid males temporarily sterile without otherwise affecting their performance. A dose typically lasts 1-3 days. Long-term users of bachelor snuff tend to develop a slight, but still noticeable, gilded tinge to their teeth and nails."
 		]
 	},
 	"backpack_common": {
@@ -1548,19 +1732,7 @@
 			"**Type** magic; **Perception** DC 31; **Disable Device** DC 31  ",
 			"**Effects**  ",
 			"**Trigger** touch; **Reset** none  ",
-			"**Effect** spell effect (sirocco, 4d6+11 fire damage [DC 19 Fort for half] plus fatigued, knocked prone [DC 19 Fort avoids], flying creatures grounded [DC 15 Fly avoids]); multiple targets (all creatures in a 20-ft.-radius, 60-ft.-high cylinder centered on the balloon trap tripwire)"
-		]
-	},
-	"baluchitherium": {
-		"name": "Baluchitherium",
-		"sources": [ "Animal Archive" ],
-		"description": [
-			"## Baluchitherium",
-			"{SOURCE Animal Archive/14}  ",
-			"**Price** 4,800 gp; **Weight** -  ",
-			"**Category** Mounts/Pets",
-			"",
-			"The prices listed are for dinosaurs and megafauna that have been reared from birth in order to serve as pets or mounts. Combat-trained dinosaurs and megafauna are incredibly rare and have similarly extravagant costs (if one can even find a seller). Though not normally readily available, combat-trained dinosaurs and megafauna typically cost an amount equal to 1-1/2 &times; the price of the standard animal."
+			"**Effect** spell effect ({spell/sirocco}, 4d6+11 fire damage [DC 19 Fort for half] plus {misc/fatigued}, knocked {rule/prone} [DC 19 Fort avoids], flying creatures grounded [DC 15 Fly avoids]); multiple targets (all creatures in a 20-ft.-radius, 60-ft.-high cylinder centered on the balloon trap tripwire)"
 		]
 	},
 	"bamboo_palace": {
@@ -1634,8 +1806,7 @@
 			"",
 			"The Shoanti of the Cinderlands combine lime, crimson galtroot leaves, and some say horse blood to create this invigorating chew. Aside from staining the teeth a bloody shade, barbarian chew causes the user to feel stronger, but also angrier. One use of barbarian chew grants a barbarian +1 additional round of rage. This additional round is used first when a barbarian begins raging. If a barbarian does not rage within 1 hour of using the chew, this additional round of rage is lost. This benefit can be gained only once per day; consuming multiple doses in a 24-hour period has no additional effects. Barbarian chew can be created with a successful DC 20 Craft (alchemy) check.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 20"
+			"**Construction:** Craft (Alchemy) DC 20"
 		]
 	},
 	"barbarians_kit": {
@@ -1647,7 +1818,7 @@
 			"**Price** 9 gp; **Weight** 26 lbs.  ",
 			"**Category** Kits",
 			"",
-			"This kit includes a backpack, a belt pouch, a blanket, a flint and steel, an iron pot, rope, soap, torches (10), trail rations (5 days), and a waterskin."
+			"This kit includes a {eq-misc/backpack}, a {eq-misc/belt pouch}, a {eq-misc/blanket}, a {eq-misc/flint and steel}, an {eq-misc/iron pot}, {eq-misc/rope}, {eq-misc/soap}, {eq-misc/torch/es} (10), {eq-misc/trail rations} (5 days), and a {eq-misc/waterskin}."
 		]
 	},
 	"barbed_troll_claws": {
@@ -1659,7 +1830,7 @@
 			"**Price** 20 gp; **Weight** 4 lbs.  ",
 			"**Category** Tools",
 			"",
-			"These metal sheaths slide onto the claws of a troll. When a troll hits with a claw attack while wearing the sheaths, it can either keep the sheaths on its hand (in which case the claw attack deals 1 extra point of damage) or allow the four sheaths on that hand to slide off and become embedded in the wound (in which case the claw attack deals 1 point of bleed damage). The listed price is for a set of 8 sheaths (one for each claw on both of a troll's four-fingered hands)."
+			"These metal sheaths slide onto the claws of a {family/troll}. When a troll hits with a claw attack while wearing the sheaths, it can either keep the sheaths on its hand (in which case the claw attack deals 1 extra point of damage) or allow the four sheaths on that hand to slide off and become embedded in the wound (in which case the claw attack deals 1 point of {rule/bleed} damage). The listed price is for a set of 8 sheaths (one for each claw on both of a troll's four-fingered hands)."
 		]
 	},
 	"barbed_vest": {
@@ -1686,7 +1857,7 @@
 			"**Price** 41 gp; **Weight** 33-1/2 lbs.  ",
 			"**Category** Kits",
 			"",
-			"This includes a backpack, a bedroll, a belt pouch, a common musical instrument, a flint and steel, ink, an inkpen, an iron pot, a journal, a mess kit, a mirror, rope, soap, torches (10), trail rations (5 days), and a waterskin."
+			"This includes a {eq-misc/backpack}, a {eq-misc/bedroll}, a {eq-misc/belt pouch}, a common {eq-misc/musical instrument}, a {eq-misc/flint and steel}, {eq-misc/ink}, an {eq-misc/inkpen}, an {eq-misc/iron pot}, a {eq-misc/journal}, a {eq-misc/mess kit}, a {eq-misc/mirror}, {eq-misc/rope}, {eq-misc/soap}, {eq-misc/torch/es} (10), {eq-misc/trail rations} (5 days), and a {eq-misc/waterskin}."
 		]
 	},
 	"barding_stitches": {
@@ -1714,18 +1885,6 @@
 			"**Category** Adventuring Gear",
 			"",
 			"This is a sturdy wooden barrel with a tight-fitting lid, banded with metal."
-		]
-	},
-	"basilosaurus": {
-		"name": "Basilosaurus",
-		"sources": [ "Animal Archive" ],
-		"description": [
-			"## Basilosaurus",
-			"{SOURCE Animal Archive/14}  ",
-			"**Price** 10,200 gp; **Weight** -  ",
-			"**Category** Mounts/Pets",
-			"",
-			"The prices listed are for dinosaurs and megafauna that have been reared from birth in order to serve as pets or mounts. Combat-trained dinosaurs and megafauna are incredibly rare and have similarly extravagant costs (if one can even find a seller). Though not normally readily available, combat-trained dinosaurs and megafauna typically cost an amount equal to 1-1/2 &times; the price of the standard animal."
 		]
 	},
 	"basket": {
@@ -1767,7 +1926,8 @@
 		"description": [
 			"## Bath",
 			"{SOURCE Ultimate Equipment/99}  ",
-			"**Price** 2 cp (cold), 6 cp (hot); **Weight** - (cold), - (hot)",
+			"**Price** 2 cp (cold), 6 cp (hot), 2 sp-1 gp (public); **Weight** - (cold, hot, public)  ",
+			"**Category** Lodging/Services",
 			"",
 			"A cold bath usually involves someone else's used soapy bath water. A hot bath is a one-person washtub filled with hot water one pot at a time. A public bath is a bath facility (such as a bath house or resort) that provides hot water, soap, and cologne or perfume, and may also offer wading pools, massages, or other services for an additional cost. Some public baths require membership or a minimum social status."
 		]
@@ -1778,13 +1938,7 @@
 	},
 	"bath_public": {
 		"name": "Bath (public)",
-		"sources": [ "Ultimate Equipment" ],
-		"description": [
-			"## Bath (public)",
-			"{SOURCE Ultimate Equipment/99}  ",
-			"**Price** 2 sp-1 gp; **Weight** -  ",
-			"**Category** Lodging/Services"
-		]
+		"copyof": "bath_hot"
 	},
 	"battle_mask": {
 		"name": "Battle mask",
@@ -1860,8 +2014,7 @@
 			"",
 			"This light brown oil works similar to {eq-misc/Kaava musk} but attracts one specific kind of creature (dogs, giant bees, and so on).",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 20"
+			"**Construction:** Craft (Alchemy) DC 20"
 		]
 	},
 	"beast_whistle": {
@@ -1873,7 +2026,7 @@
 			"**Price** 5 gp; **Weight** -  ",
 			"**Category** Animal Gear",
 			"",
-			"This small wooden whistle emits a high-pitched sound like that of a signal whistle, except the signal is audible only to a specific type of creature - other types of creatures hear only a quiet hissing sound.",
+			"This small wooden whistle emits a high-pitched sound like that of a {eq-misc/signal whistle}, except the signal is audible only to a specific type of creature - other types of creatures hear only a quiet hissing sound.",
 			"",
 			"Beast whistles come in six different varieties: avian, canine, feline, rodent, reptile, and ungulate (other varieties may be available at the GM's discretion). Animals and magical beasts that match a beast whistle's type can hear the whistle as a human hears a signal whistle. Creatures that fit into multiple categories (such as griffons) can usually hear the call of multiple types of whistles, though magical beasts who don't fit into any of the above categories cannot hear a beast whistle. Beast whistles don't function underwater, except if surrounded by an air bubble or similar effect, though creatures underwater may hear a beast whistle sounded from above the surface if they are close enough."
 		]
@@ -1887,7 +2040,7 @@
 			"**Price** 5 gp; **Weight** -  ",
 			"**Category** Adventuring Gear",
 			"",
-			"This whistle produces sound at a pitch that can only be heard by aberrations, animals, dragons, fey, and magical beasts. The sound can be detected easily (Perception DC 0) from a quarter-mile away. If the user makes a successful DC 15 Perform (wind instruments) check, all creatures within 30 feet that can hear the whistle must succeed at a DC 10 Fortitude save or be dazzled for 1 round (the -1 penalty applies to hearing-based, rather than sight-based, Perception checks)."
+			"This whistle produces sound at a pitch that can only be heard by aberrations, animals, dragons, fey, and magical beasts. The sound can be detected easily (Perception DC 0) from a quarter-mile away. If the user makes a successful DC 15 Perform (wind instruments) check, all creatures within 30 feet that can hear the whistle must succeed at a DC 10 Fortitude save or be {misc/dazzled} for 1 round (the -1 penalty applies to hearing-based, rather than sight-based, Perception checks)."
 		]
 	},
 	"beast_scent": {
@@ -1906,8 +2059,7 @@
 			"",
 			"A single vial of beast-scent masks the scent of one Medium creature or two smaller creatures; larger creatures require proportionally more to gain the benefits. Beast-scent becomes inert after 1 hour of exposure to air. Applying a vial is a full-round action that provokes attacks of opportunity.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 25"
+			"**Construction:** Craft (Alchemy) DC 25"
 		]
 	},
 	"beast_training_kit": {
@@ -1919,7 +2071,7 @@
 			"**Price** 15 gp; **Weight** 26 lbs.  ",
 			"**Category** Animal Gear",
 			"",
-			"This kit includes a dandy brush, training harness, training whip, whet bone, and 2 days' worth of carnivore feed. The weight of this kit can be reduced by 10 pounds by forgoing the carnivore feed."
+			"This kit includes a {eq-misc/dandy brush}, {eq-misc/training harness}, {eq-misc/training whip}, {eq-misc/whet bone}, and 2 days' worth of {eq-misc/carnivore feed}. The weight of this kit can be reduced by 10 pounds by forgoing the carnivore feed."
 		]
 	},
 	"bedroll": {
@@ -1934,19 +2086,7 @@
 			"**Price** 1 sp; **Weight** 5 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
-			"This consists of two woolen sheets sewn together along the bottom and one side to create a bag for sleeping in. Some have cloth straps along the open side so the bedroll can be tied closed while you are sleeping. It can be rolled and tied into a tight coil for storage or transport. Most people use a blanket with the bedroll to stay warm or provide a ground cushion."
-		]
-	},
-	"behemoth_hippopotamus": {
-		"name": "Behemoth hippopotamus",
-		"sources": [ "Animal Archive" ],
-		"description": [
-			"## Behemoth hippopotamus",
-			"{SOURCE Animal Archive/15}  ",
-			"**Price** 7,900 gp; **Weight** -  ",
-			"**Category** Mounts/Pets",
-			"",
-			"This animal may be purchased already combat-trained at the GM's discretion, and typically cost an amount equal to 1-1/2 &times; the price of the standard animal."
+			"This consists of two woolen sheets sewn together along the bottom and one side to create a bag for sleeping in. Some have cloth straps along the open side so the bedroll can be tied closed while you are sleeping. It can be rolled and tied into a tight coil for storage or transport. Most people use a {eq-misc/blanket} with the bedroll to stay warm or provide a ground cushion."
 		]
 	},
 	"bell_net": {
@@ -2094,6 +2234,7 @@
 			"This mixture of seed and dead insects is suitable food for small birds such as ravens, crows, and chickens. Birds of prey such as falcons, hawks, and owls can also sustain themselves on bird feed, though they typically require at least two servings per day. Larger avian creatures such as axe beaks and griffons require larger portions of meat, and cannot survive on bird feed alone."
 		]
 	},
+	"bird_feed": { "copyof": "bird_feed_per_day" },
 	"bird_training_kit": {
 		"name": "Bird-training kit",
 		"sources": [ "Animal Archive" ],
@@ -2103,22 +2244,8 @@
 			"**Price** 17 gp; **Weight** 8 lbs.  ",
 			"**Category** Animal Gear",
 			"",
-			"This kit includes a falconry gauntlet, Tiny cage, training whip, and 2 days' worth of bird feed."
+			"This kit includes a {eq-misc/falconry gauntlet}, {eq-misc/Tiny cage}, {eq-misc/training whip}, and 2 days' worth of {eq-misc/bird feed}."
 		]
-	},
-	"bison_common": {
-		"name": "Bison (common)",
-		"sources": [ "Animal Archive" ],
-		"description": [
-			"## Bison",
-			"{SOURCE Animal Archive}",
-			"",
-			"When reared from birth, these animals can easily be ridden by Small or Medium humanoids, depending on the animal's size."
-		]
-	},
-	"bison_combat_trained": {
-		"name": "Bison (combat-trained)",
-		"copyof": "bison_common"
 	},
 	"bit_and_bridle": {
 		"name": "Bit and bridle",
@@ -2146,7 +2273,7 @@
 			"**Gather** DC 18; **Yield** 1 dose  ",
 			"**Terrain** temperate or warm forests or plains  ",
 			"**Preparation** The amaranth's flowers and stalks must be carefully ground into paste. This requires a successful DC 12 Craft (alchemy) check and 1 hour of work.  ",
-			"**Use** A dose of black amaranth paste can be applied to a dead body to slow decay. One dose used on a Tiny or smaller creature delays the onset of decay for 3 days (as per gentle repose). Two doses are needed for Small creatures, 3 for Medium creatures, 6 for Large creatures, 12 for Huge creatures, 24 for Gargantuan creatures, and 48 for Colossal creatures. Each dose applied requires a full-round action that provokes attacks of opportunity.",
+			"**Use** A dose of black amaranth paste can be applied to a dead body to slow decay. One dose used on a Tiny or smaller creature delays the onset of decay for 3 days (as per {spell/gentle repose}). Two doses are needed for Small creatures, 3 for Medium creatures, 6 for Large creatures, 12 for Huge creatures, 24 for Gargantuan creatures, and 48 for Colossal creatures. Each dose applied requires a full-round action that provokes attacks of opportunity.",
 			"",
 			"Black amaranth grows in small clusters from the remains of the dead."
 		]
@@ -2157,7 +2284,7 @@
 		"description": [
 			"## Spices",
 			"{SOURCE Adventurer's Guide/14}  ",
-			"**Price** 15 gp Black cumin, 20 gp Flaming sumac, 30 gp Golden cardamom, 100 gp Striped nutmeg, 15 gp Sunrise cinnamon, 25 gp Tiger cloves, 5 gp Violet salt; **Weight** - Black cumin, - Flaming sumac, - Golden cardamom, - Striped nutmeg, - Sunrise cinnamon, - Tiger cloves, - Violet salt",
+			"**Price** 15 gp (Black cumin), 20 gp (Flaming sumac), 30 gp (Golden cardamom), 100 gp (Striped nutmeg), 15 gp (Sunrise cinnamon), 25 gp (Tiger cloves), 5 gp (Violet salt); **Weight** -",
 			"",
 			"Food spoils more quickly in hot climates, and Qadirans have become experts at using the spices that they trade to help preserve their meals. After importing plants from across the planes, Qadiran druids and alchemists bred and magically adapted unique species with enhanced medicinal properties. [Al-Zabriti](rule/aff_deserts) tribes generally have supplies of the following spices on hand. To gain the benefits of these spices, a character must consume multiple doses over 1 or more days, as indicated for each spice. Once the benefit is gained, continued consumption at that rate maintains the benefit.",
 			"",
@@ -2169,11 +2296,11 @@
 			"",
 			"**Striped Nutmeg:** Used for both desserts and meats, nutmeg halves any ability damage (but not ability drain) resulting from non-supernatural disease, to a minimum damage of 1. It must be eaten three times per day for at least 4 days to provide this effect. An ounce of ground striped nutmeg sells for 100 gp and seasons 12 meals.",
 			"",
-			"**Sunrise Cinnamon:** A warming spice, sunrise cinnamon is used for seasoning both sweet and savory foods. It promotes sweating, and a character who ingests it twice per day for 5 days gains a +4 alchemical bonus on Fortitude saves made to resist the effects of hot environments. An ounce of ground sunrise cinnamon sells for 15 gp and seasons 10 meals.",
+			"**Sunrise Cinnamon:** A warming spice, sunrise cinnamon is used for seasoning both sweet and savory foods. It promotes sweating, and a character who ingests it twice per day for 5 days gains a +4 alchemical bonus on Fortitude saves made to resist the effects of [hot environments](rule/heat_dangers). An ounce of ground sunrise cinnamon sells for 15 gp and seasons 10 meals.",
 			"",
 			"**Tiger Cloves:** Cloves are used in both sweet and savory foods, brewed into teas, and chewed as a breath freshener. When chewed for 1 minute, a dose of tiger cloves removes nauseated or sickened conditions caused by disease or poison effects. When used to season a meal, a dose of tiger cloves grants a +2 alchemical bonus on saving throws to resist the nauseated or sickened conditions for 24 hours after the meal is eaten. A single dose of tiger cloves sells for 25 gp and seasons one meal.",
 			"",
-			"**Violet Salt:** Salt is of vital importance for retaining a body's water. If a dose of Qadiran violet salt is consumed as part of a meal, it grants a +4 alchemical bonus on Constitution checks to resist the effects of ongoing thirst for the next 24 hours. A dose of violet salt sells for 5 gp and seasons one meal."
+			"**Violet Salt:** Salt is of vital importance for retaining a body's water. If a dose of Qadiran violet salt is consumed as part of a meal, it grants a +4 alchemical bonus on Constitution checks to resist the effects of ongoing {rule/starvation_and_<thirst} for the next 24 hours. A dose of violet salt sells for 5 gp and seasons one meal."
 		]
 	},
 	"flaming_sumac": {
@@ -2211,10 +2338,10 @@
 			"",
 			"This black paste is often applied on orc weapons before going on raids to stymie an enemy's healing magic. Like a poison, black fester stays on a weapon until the first time it strikes an opponent. It remains in the target's body for 1 hour. A creature exposed to black fester resists magical healing; a creature trying to magically heal the target must make a DC 10 caster level check to restore any hit points to the target.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 25"
+			"**Construction:** Craft (Alchemy) DC 25"
 		]
 	},
+	"black_fester": { "copyof": "black_fester_vial" },
 	"blackfingers_paste": {
 		"name": "Blackfingers paste",
 		"sources": [ "Rival Guide" ],
@@ -2224,7 +2351,7 @@
 			"**Price** 50 gp; **Weight** -  ",
 			"**Category** Alchemical Tools",
 			"",
-			"Developed by followers of Norgorber, this inky paste aids unskilled poison-users. When smeared on the fingers, a dose of blackfingers paste prevents accidental poisoning while applying poison to a weapon, as if the user possessed the poison use ability. A single dose of blackfingers paste lasts for 1d6 hours, but the black stains the stuff creates on the user's fingers lasts for days. A single dose of this alchemical item costs 50 gp."
+			"Developed by followers of Norgorber, this inky paste aids unskilled poison-users. When smeared on the fingers, a dose of blackfingers paste prevents accidental poisoning while applying poison to a weapon, as if the user possessed the {ability/poison use} ability. A single dose of blackfingers paste lasts for 1d6 hours, but the black stains the stuff creates on the user's fingers lasts for days. A single dose of this alchemical item costs 50 gp."
 		]
 	},
 	"blackfire_clay": {
@@ -2236,12 +2363,11 @@
 			"**Price** 20 gp; **Weight** 10 lbs.  ",
 			"**Category** Alchemical Tools",
 			"",
-			"This pliant black clay is always pleasantly warm to the touch. Working blackfire clay in your hands for a full round causes the clay to grow much warmer, granting you a +4 alchemical bonus on saving throws made to resist cold weather. You can combine five blocks of clay over the course of a minute to produce a source of warmth equivalent to a small campfire, allowing you to heat a campsite and cook food.",
+			"This pliant black clay is always pleasantly warm to the touch. Working blackfire clay in your hands for a full round causes the clay to grow much warmer, granting you a +4 alchemical bonus on saving throws made to resist {rule/cold /weather>dangers}. You can combine five blocks of clay over the course of a minute to produce a source of warmth equivalent to a small campfire, allowing you to heat a campsite and cook food.",
 			"",
 			"Blackfire clay only produces heat, never light, smoke, or odor. The clay emits warmth for 1 hour before hardening into an unusable lump. A newly created brick of blackfire clay is composed of 10 blocks.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 20"
+			"**Construction:** Craft (Alchemy) DC 20"
 		]
 	},
 	"blackwood_figurehead": {
@@ -2269,10 +2395,9 @@
 			"**Price** 40 gp; **Weight** -  ",
 			"**Category** Alchemical Remedies",
 			"",
-			"This clear resin protects a weapon from harmful attacks made by oozes and rust monsters, as well as from similar effects that corrode or melt weapons, rendering the weapon immune for 24 hours. One pot can coat one two-handed weapon, two one-handed or light weapons, or 50 ammunition items. Applying it takes 1 full round per pot. Immersing the weapon in water or similar liquid washes it off.",
+			"This clear resin protects a weapon from harmful attacks made by oozes and {monster/rust monster/s}, as well as from similar effects that corrode or melt weapons, rendering the weapon immune for 24 hours. One pot can coat one two-handed weapon, two one-handed or light weapons, or 50 ammunition items. Applying it takes 1 full round per pot. Immersing the weapon in water or similar liquid washes it off.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 15"
+			"**Construction:** Craft (Alchemy) DC 15"
 		]
 	},
 	"blain_bane": {
@@ -2284,10 +2409,9 @@
 			"**Price** 10 gp; **Weight** -  ",
 			"**Category** Alchemical Remedies",
 			"",
-			"This alchemically infused wax is spread over exposed skin to protect it from chapping, cold, dry winds, heat, and the loss of moisture. Applying it takes 5 minutes; once applied, it reduces any nonlethal damage taken from cold or hot environments by 1 point for 6 hours. Crafting blain bane requires a successful DC 19 Craft (alchemy) check.",
+			"This alchemically infused wax is spread over exposed skin to protect it from chapping, cold, dry winds, heat, and the loss of moisture. Applying it takes 5 minutes; once applied, it reduces any nonlethal damage taken from {rule/cold>_dangers} or [hot](rule/heat_dangers) environments by 1 point for 6 hours. Crafting blain bane requires a successful DC 19 Craft (alchemy) check.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 19"
+			"**Construction:** Craft (Alchemy) DC 19"
 		]
 	},
 	"blanket": {
@@ -2304,7 +2428,7 @@
 			"**Price** 5 sp; **Weight** 3 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
-			"This warm, woven blanket has straps so it can be rolled up and tied. Blankets are often used in conjunction with bedrolls to provide additional warmth or a ground cushion."
+			"This warm, woven blanket has straps so it can be rolled up and tied. Blankets are often used in conjunction with {eq-misc/bedroll/s} to provide additional warmth or a ground cushion."
 		]
 	},
 	"blasting_jelly": {
@@ -2328,10 +2452,9 @@
 			"**Price** 150 gp; **Weight** 1 lb.  ",
 			"**Category** Alchemical Tools",
 			"",
-			"Blight tonic increases the potency of a creature's disease attack transmitted by physical contact, such as a dire rat's filth fever. The next time a creature must save against the drinker's disease save DC, the DC for the initial infection increases by +2. The tonic lasts for 10 minutes or until the next time a creature must save against the drinker's disease DC, whichever comes first.",
+			"Blight tonic increases the potency of a creature's disease attack transmitted by physical contact, such as a {monster/dire rat/'s} {disease/filth fever}. The next time a creature must save against the drinker's disease save DC, the DC for the initial infection increases by +2. The tonic lasts for 10 minutes or until the next time a creature must save against the drinker's disease DC, whichever comes first.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 20"
+			"**Construction:** Craft (Alchemy) DC 20"
 		]
 	},
 	"blightburn_paste": {
@@ -2343,20 +2466,11 @@
 			"**Price** 5,000 gp; **Weight** 45 lbs.  ",
 			"**Category** Alchemical Tools",
 			"",
-			"This heavy stone box measures 2 feet to a side, and the tiny compartment inside is lined with lead. Inside the compartment is a half-ounce of deep green paste. This paste is made of animal fat mixed with groundup blightburn. Once the box is opened, blightburn paste limits teleportation within 60 feet and irradiates anyone within 60 feet, afflicting them with {disease/blightburn sickness}. Any creature that touches the paste is afflicted with blightburn sickness (no save), and takes 2d6 points of fire damage per round until the paste is cleaned away with a successful DC 15 Heal check. Crafting this item requires a successful DC 30 Craft (alchemy) check.",
+			"This heavy stone box measures 2 feet to a side, and the tiny compartment inside is lined with lead. Inside the compartment is a half-ounce of deep green paste. This paste is made of animal fat mixed with groundup {eq-material/blightburn}. Once the box is opened, blightburn paste limits teleportation within 60 feet and irradiates anyone within 60 feet, afflicting them with {disease/blightburn sickness}. Any creature that touches the paste is afflicted with blightburn sickness (no save), and takes 2d6 points of fire damage per round until the paste is cleaned away with a successful DC 15 Heal check. Crafting this item requires a successful DC 30 Craft (alchemy) check.",
 			"",
 			"### Blightburn",
 			"",
-			"The mineral blightburn is the deadliest radioactive substance in the Darklands. The green-glowing crystal burns anyone who touches it, dealing 2d6 points of fire damage per round of contact, and its radiation causes blightburn sickness. The substance also limits teleportation. Anyone casting a teleportation spell in or teleporting to a cavern with blightburn in its walls must succeed at a DC 30 caster level check.",
-			"",
-			"#### Blightburn Sickness",
-			"",
-			"**Type** disease, contact (see text); **Save** Fortitude DC 22  ",
-			"**Frequency** 1/day  ",
-			"**Effect** 1d6 Con damage and 1d6 Cha damage; contact is automatic when a creature comes within a 60-foot radius, and can be blocked only by lead sheeting, 1 foot of stone, or a force effect; **Cure** 2 consecutive save",
-			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 30"
+			"The mineral blightburn is the deadliest radioactive substance in the Darklands. The green-glowing crystal burns anyone who touches it, dealing 2d6 points of fire damage per round of contact, and its radiation causes blightburn sickness. The substance also limits teleportation. Anyone casting a teleportation spell in or teleporting to a cavern with blightburn in its walls must succeed at a DC 30 caster level check."
 		]
 	},
 	"blightburn_reader": {
@@ -2388,19 +2502,18 @@
 			"Whether it is used to hoist treasure from a pit or move supplies, a simple block-and-tackle pulley, when it is properly secured, adds a +5 circumstance bonus on Strength checks to lift heavy objects. Securing the pulley requires 1 minute."
 		]
 	},
-	"blood_neutrailizer": {
-		"name": "Blood neutrailizer",
+	"blood_neutralizer": {
+		"name": "Blood neutralizer",
 		"sources": [ "Blood of the Sea" ],
 		"description": [
-			"## Blood neutrailizer",
+			"## Blood neutralizer",
 			"{SOURCE Blood of the Sea/18}  ",
 			"**Price** 25 gp; **Weight** 1 lb.  ",
 			"**Category** Alchemical Tools",
 			"",
-			"When you release this vial of alchemical particles into the water as a standard action, the particles immediately neutralize the scent of exposed blood within 20 feet, rendering the blood undetectable by scent (to a hunting shark, for example). Blood neutralizer has no effect on any blood that enters the area after the particles have been used. Blood neutralizer can be crafted with a successful DC 25 Craft (alchemy) skill check.",
+			"When you release this vial of alchemical particles into the water as a standard action, the particles immediately neutralize the scent of exposed blood within 20 feet, rendering the blood undetectable by {umr/scent} (to a hunting shark, for example). Blood neutralizer has no effect on any blood that enters the area after the particles have been used. Blood neutralizer can be crafted with a successful DC 25 Craft (alchemy) skill check.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 25"
+			"**Construction:** Craft (Alchemy) DC 25"
 		]
 	},
 	"blood_boiling_pill": {
@@ -2412,7 +2525,7 @@
 			"**Price** 75 gp; **Weight** -  ",
 			"**Category** Alchemical Remedies",
 			"",
-			"Swallowing this dark black-red tea pill causes your blood to heat up, granting you a +2 alchemical bonus on initiative checks and on saving throws against cold effects for 8 hours. However, any damage you take from bleed effects during this time is multiplied by 1-1/2 (rounded up). Swallowing a blood-chilling pill while under the effects of a blood-boiling pill negates the effects of both pills.",
+			"Swallowing this dark black-red tea pill causes your blood to heat up, granting you a +2 alchemical bonus on initiative checks and on saving throws against cold effects for 8 hours. However, any damage you take from {rule/bleed} effects during this time is multiplied by 1-1/2 (rounded up). Swallowing a {eq-misc/blood-chilling pill} while under the effects of a blood-boiling pill negates the effects of both pills.",
 			"",
 			"**{rule/Spontaneous Alchemy} Recipe** (30 {eq-reagent/ginger extract} + 8 {eq-reagent/gold} + 15 {eq-reagent/mugwort extract})/ceration; Craft 25  ",
 			"**Time** 10 minutes; **Tools** crucible; **Type** alchemical remedy"
@@ -2427,7 +2540,7 @@
 			"**Price** 75 gp; **Weight** -  ",
 			"**Category** Alchemical Remedies",
 			"",
-			"Swallowing this pale green tea pill causes your blood to slow and chill, allowing you to ignore the first 20 points of bleed damage you take during the following 8 hours. In addition, you gain a +2 alchemical bonus on saving throws against fire effects during this time. However, you take a -2 penalty on initiative checks. Swallowing a blood-boiling pill while under the effects of a blood-chilling pill negates the effects of both pills.",
+			"Swallowing this pale green tea pill causes your blood to slow and chill, allowing you to ignore the first 20 points of {rule/bleed} damage you take during the following 8 hours. In addition, you gain a +2 alchemical bonus on saving throws against fire effects during this time. However, you take a -2 penalty on initiative checks. Swallowing a {eq-misc/blood-boiling pill} while under the effects of a blood-chilling pill negates the effects of both pills.",
 			"",
 			"**{rule/Spontaneous Alchemy} Recipe** (15 {eq-reagent/ginger extract} + 40 {eq-reagent/myrrh} + 30 {eq-reagent/mugwort extract})/filtration; Craft 25  ",
 			"**Time** 10 minutes; **Tools** filter; **Type** alchemical remedy"
@@ -2442,10 +2555,9 @@
 			"**Price** 30 gp; **Weight** -  ",
 			"**Category** Alchemical Remedies",
 			"",
-			"Applying this herbal salve to a bleeding wound cures 1 point of damage and prevents additional damage from bleeding for 1 hour per application. After an hour, if the bleed effect hasn't been properly treated, the injury resumes bleeding and more salve must be applied. Though blood-clotter salve can be applied successively to the same injury, applying multiple doses doesn't cure additional damage.",
+			"Applying this herbal salve to a {rule/bleed/ing} wound cures 1 point of damage and prevents additional damage from bleeding for 1 hour per application. After an hour, if the bleed effect hasn't been properly treated, the injury resumes bleeding and more salve must be applied. Though blood-clotter salve can be applied successively to the same injury, applying multiple doses doesn't cure additional damage.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 20"
+			"**Construction:** Craft (Alchemy) DC 20"
 		]
 	},
 	"bloodblock": {
@@ -2461,10 +2573,9 @@
 			"**Price** 25 gp; **Weight** -  ",
 			"**Category** Alchemical Tools",
 			"",
-			"This gooey, pinkish substance helps treat wounds. Using a dose gives you a +5 alchemical bonus on Heal checks for providing first aid, treating wounds made by caltrops or similar objects, or treating deadly wounds. A dose of bloodblock ends a bleed effect as if you had made a DC 15 Heal check. When treating deadly wounds, using a dose of bloodblock counts as one use of a healer's kit (and grants the +5 bonus stated above).",
+			"This gooey, pinkish substance helps treat wounds. Using a dose gives you a +5 alchemical bonus on Heal checks for providing first aid, treating wounds made by {eq-misc/caltrops} or similar objects, or treating deadly wounds. A dose of bloodblock ends a {rule/bleed} effect as if you had made a DC 15 Heal check. When treating deadly wounds, using a dose of bloodblock counts as one use of a {eq-misc/healer's kit} (and grants the +5 bonus stated above).",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 25"
+			"**Construction:** Craft (Alchemy) DC 25"
 		]
 	},
 	"bloodgorge": {
@@ -2476,7 +2587,7 @@
 			"**Price** 40 gp; **Weight** 1/2 lb.  ",
 			"**Category** Alchemical Remedies",
 			"",
-			"When you imbibe this syrupy black serum, your blood thins dramatically and gushes forth from even minor wounds. Anytime you take bleed damage, any creatures adjacent to you must succeed at a Fortitude save (DC 10 + the amount of bleed damage taken) or be nauseated for 1 round. A dose of bloodgorge lasts for 1 hour.",
+			"When you imbibe this syrupy black serum, your blood thins dramatically and gushes forth from even minor wounds. Anytime you take {rule/bleed} damage, any creatures adjacent to you must succeed at a Fortitude save (DC 10 + the amount of bleed damage taken) or be {misc/nauseated} for 1 round. A dose of bloodgorge lasts for 1 hour.",
 			"",
 			"**{rule/Spontaneous Alchemy} Recipe** (5 {eq-reagent/cold iron} + 10 {eq-reagent/dew of lunary})/filtration; Craft 25  ",
 			"**Time** 10 minutes; **Tools** filter; **Type** alchemical remedy"
@@ -2491,7 +2602,7 @@
 			"**Price** 9 gp; **Weight** 27 lbs.  ",
 			"**Category** Kits",
 			"",
-			"This kit includes a backpack, a blanket, a belt pouch, a flint and steel, an iron pot, soap, torches (10), trail rations (5 days), and a waterskin."
+			"This kit includes a {eq-misc/backpack}, a {eq-misc/blanket}, a {eq-misc/belt pouch}, a {eq-misc/flint and steel}, an {eq-misc/iron pot}, {eq-misc/soap}, {eq-misc/torch/es} (10), {eq-misc/trail rations} (5 days), and a {eq-misc/waterskin}."
 		]
 	},
 	"bloodvine_rope": {
@@ -2505,8 +2616,7 @@
 			"",
 			"This 50-foot length of tough, lightweight rope is made from alchemically treated bloodvine, a rare scarlet-colored vine that grows only in warm jungle environments. Though prized by climbers for its durability, bloodvine can also be used to bind creatures. Bloodvine rope has a hardness of 5 and 10 hit points, and can be broken with a DC 30 Strength check. A creature bound by bloodvine rope can escape with a DC 35 Escape Artist check or a DC 30 Strength check.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 30"
+			"**Construction:** Craft (Alchemy) DC 30"
 		]
 	},
 	"bloody_mandrake": {
@@ -2549,20 +2659,6 @@
 			"Pirates often make use of sharks, eels, and other nasty sea denizens when interrogating captured prisoners, searching for underwater traps, or retrieving sunken treasure. Some of the larger or rarer creatures, such as whales, are obviously much more difficult to find on the open market, and may only be available in seedy underground bazaars. Most aquatic animals can be trained as normal, though they are rarely sold already trained."
 		]
 	},
-	"boar_common": {
-		"name": "Boar (common)",
-		"sources": [ "Animal Archive" ],
-		"description": [
-			"## Boar",
-			"{SOURCE Animal Archive}",
-			"",
-			"When reared from birth, these animals can easily be ridden by Small or Medium humanoids, depending on the animal's size."
-		]
-	},
-	"boar_combat_trained": {
-		"name": "Boar (combat-trained)",
-		"copyof": "boar_common"
-	},
 	"boars_bellow": {
 		"name": "Boar's bellow",
 		"sources": [ "Ultimate Intrigue" ],
@@ -2572,10 +2668,9 @@
 			"**Price** 190 gp; **Weight** -  ",
 			"**Category** Alchemical Tools",
 			"",
-			"When imbibed, this bitter, rust-colored concoction grants you 1d4 uses of alchemical inspiration that can be used only on Intimidate checks. The benefits of boar's bellow last for 1 hour; during this time, you must roll all Diplomacy checks twice and take the worse result.",
+			"When imbibed, this bitter, rust-colored concoction grants you 1d4 uses of {misc/alchemical inspiration} that can be used only on Intimidate checks. The benefits of boar's bellow last for 1 hour; during this time, you must roll all Diplomacy checks twice and take the worse result.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 15"
+			"**Construction:** Craft (Alchemy) DC 15"
 		]
 	},
 	"board_game": {
@@ -2604,8 +2699,7 @@
 			"",
 			"When this pungent yellow powder is boiled in water and given to a creature to drink, it provides the attending healer a +5 alchemical bonus on Heal checks for providing long-term care, treating poison, and treating disease.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 25"
+			"**Construction:** Craft (Alchemy) DC 25"
 		]
 	},
 	"bogwalking_sandals": {
@@ -2643,8 +2737,7 @@
 			"",
 			"These odd looking, egg-shaped contraptions have cleverly placed fins that improve bombs' accuracy. Goblin alchemists use these special containers to make their bombs more accurate when thrown long distances. Using a bomb launcher when throwing a bomb increases the bomb's range increment to 30 feet (or increases the range increment of a bomb with the rocket bomb discovery to 70 feet). Bomb launchers are destroyed when used.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 25"
+			"**Construction:** Craft (Alchemy) DC 25"
 		]
 	},
 	"bombchucker": {
@@ -2686,8 +2779,7 @@
 			"",
 			"Typically stored in an airtight leather wineskin cured with rare preservative unguents, bone paste is a powerful alchemical sealant with special deteriorative properties. When squeezed out of its container and exposed to air, bone paste quickly hardens, so in order to apply it to a surface or object one must typically squeeze the paste directly onto the material to be affected. Once applied, bone paste cements itself to the object in just seconds, and hardens into a flaky cast. If applied to any unattended organic material or surface (such as wood, paper, hide, or rope), after 1 hour, bone paste undergoes another alchemical reaction and begins to eat away at the material, dealing 1d4 points of damage each round for 1d6+1 rounds, eating away first at the part of the object to which it was applied and spreading briefly to other parts of the object before dissipating and leaving a small amount of residual dust. Bone paste ignores an organic object's hardness, and does not deal damage to inorganic objects or surfaces (such as metal, stone, or ceramic). One pouch of bone paste is enough to cover 1 square foot of surface, or (because of waste and spills) up to 20 smaller applications of approximately 2 square inches each.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 20"
+			"**Construction:** Craft (Alchemy) DC 20"
 		]
 	},
 	"boniface_paint": {
@@ -2704,8 +2796,7 @@
 			"",
 			"This thick whitewash is laced with exotic oils, and it dries to a lovely finish run through with subtle swirls. Difficult to notice, these patterns help obscure seams and details in whatever the paint coats; the Perception DC to find a secret door or hidden compartment on a surface covered in boniface paint increases by 5. One bucket of boniface paint covers up to a 10-foot-by-10-foot area, and its concealing effects last for 1 year. Crafting a bucket of boniface paint requires a successful DC 20 Craft (alchemy) check.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 20"
+			"**Construction:** Craft (Alchemy) DC 20"
 		]
 	},
 	"book_lariat": {
@@ -2767,8 +2858,7 @@
 			"",
 			"This spiraled metal rod has alchemically treated bristles that can be used in the barrel of an early or advanced firearm to liquefy grime and bullet fouling while leaving a thin protective film in the bore. Using this brush is a standard action, and the protective film grants a 5-foot alchemical bonus to the firearm's first range increment and a +1 alchemical bonus on attack rolls. These effects last for 1 hour or until the firearm is fired. A newly crafted bore brush contains 5 applications. Crafting a bore brush requires a successful DC 15 Craft (alchemy) check.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 15"
+			"**Construction:** Craft (Alchemy) DC 15"
 		]
 	},
 	"bottle": {
@@ -2813,8 +2903,7 @@
 			"",
 			"As a standard action, this ornate rectangular jar can be vigorously shaken to cause its contents to mix and activate. Once shaken, the contents of the jar shed light as a sunrod for 6 hours. A jar of activated bottled sunlight can be thrown as a splash weapon with a range increment of 10 feet. Upon striking a solid object, the bottled sunlight creates a 30-foot-radius burst of natural sunlight that persists for 1 round, after which all light from the jar fades. Throwing an inactive jar of bottled sunlight destroys the item, leaving only a smoldering pile of ashes where it struck. Crafting this item requires a successful DC 30 Craft (alchemy) check.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 30"
+			"**Construction:** Craft (Alchemy) DC 30"
 		]
 	},
 	"bottom_walkers_anchor": {
@@ -2874,18 +2963,6 @@
 			"This simple 10-pins game is often complicated by irregularities in the ball, the pins, and the playing field."
 		]
 	},
-	"brachiosaurus": {
-		"name": "Brachiosaurus",
-		"sources": [ "Animal Archive" ],
-		"description": [
-			"## Brachiosaurus",
-			"{SOURCE Animal Archive/14}  ",
-			"**Price** 9,000 gp; **Weight** -  ",
-			"**Category** Mounts/Pets",
-			"",
-			"The prices listed are for dinosaurs and megafauna that have been reared from birth in order to serve as pets or mounts. Combat-trained dinosaurs and megafauna are incredibly rare and have similarly extravagant costs (if one can even find a seller). Though not normally readily available, combat-trained dinosaurs and megafauna typically cost an amount equal to 1-1/2 &times; the price of the standard animal."
-		]
-	},
 	"braille_bracelet": {
 		"name": "Braille bracelet",
 		"sources": [ "Advanced Class Guide" ],
@@ -2930,8 +3007,7 @@
 			"",
 			"This tincture is made of thick syrup dissolved in potent alcohol. For 1 hour after drinking this tincture, you gain DR 1/slashing or piercing and can ignore pain effects. This numbing of your body causes you to take a -2 penalty on Fortitude saving throws for the same duration.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 20"
+			"**Construction:** Craft (Alchemy) DC 20"
 		]
 	},
 	"brawlers_kit": {
@@ -3151,8 +3227,7 @@
 			"",
 			"This fist-sized alchemically treated animal bladder is tightly sealed around a small wooden grip. By giving the handle a sharp twist you break a tiny glass ampoule just inside the bladder, filling the bag with buoyant gas and causing it to swell into a 3-foot-diameter sphere. Inflating the balloon is a move action. Once filled, the balloon floats upward at a speed of 60 feet per round. The balloon can lift up to 20 pounds of weight as it rises, though carrying more than 10 pounds reduces its speed to 30 feet per round. Multiple balloons attached to a single object add their carrying capacities together when determining how much weight they can lift. If a balloon is not held or bound in place in some manner, it continues to rise until it reaches a height of 600 feet, or until 10 minutes have passed, after which it pops or deflates and is destroyed.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 15"
+			"**Construction:** Craft (Alchemy) DC 15"
 		]
 	},
 	"burglars_outfit": {
@@ -3221,8 +3296,8 @@
 			"One end of this 6-foot-long pole supports a wide metal hoop covered by a thin mesh net. You can use this to sift objects from material capable of passing through the net, such as sand or water. You can also use a butterfly net to capture Fine or Diminutive creatures as if it were a net (weapon), though you don't need to re-fold the butterfly net if you miss, and you use the handle of the butterfly net like you would the rope of a net weapon."
 		]
 	},
-	"cage_diminutive_or_fine": {
-		"name": "Cage (diminutive or fine)",
+	"cage": {
+		"name": "Cage",
 		"sources": [
 			"Ultimate Equipment",
 			"Adventurer's Armory",
@@ -3231,46 +3306,57 @@
 		"description": [
 			"## Cage",
 			"{SOURCE Ultimate Equipment/81;Adventurer's Armory/19;Advanced Player's Guide/185}  ",
-			"**Price** 10 gp (Diminutive or Fine), 60 gp (Huge), 30 gp (Large), 15 gp (Small or Medium), 2 gp (Tiny); **Weight** 2 lbs. (Diminutive or Fine), 960 lbs. (Huge), 240 lbs. (Large), 60 lbs. (Small or Medium), 5 lbs. (Tiny)",
+			"**Price** 10 gp (Diminutive or Fine), 2 gp (Tiny), 15 gp (Small or Medium), 30 gp (Large), 60 gp (Huge); **Weight** 2 lbs. (Diminutive or Fine), 5 lbs. (Tiny), 60 lbs. (Small or Medium), 240 lbs. (Large), 960 lbs. (Huge)",
 			"",
-			"This secure, portable enclosure is used to hold creatures - generally animals, but a large enough cage can hold anything. Cages are made from iron, wood, or bamboo, depending on local customs and available materials. One cage holds one animal of that size, or five animals of a smaller size. The weight of the creature adds to the weight of the cage. Cages come in the following sizes: Diminutive or Fine, Tiny, Small, Medium, Large, and Huge. Cages for aquatic creatures cost twice as much, and weigh four times the normal weight when filled with water."
+			"This secure, portable enclosure is used to hold creatures - generally animals, but a large enough cage can hold anything. Cages are made from iron, wood, or bamboo, depending on local customs and available materials. One cage holds one animal of that size, or five animals of a smaller size. The weight of the creature adds to the weight of the cage. Cages come in the following sizes: Diminutive or Fine, Tiny, Small, Medium, Large, and Huge.",
+			"",
+			"Cages for aquatic creatures cost twice as much, and weigh four times the normal weight when filled with water."
 		]
+	},
+	"cage_diminutive_or_fine": {
+		"name": "Cage (diminutive or fine)",
+		"copyof": "cage"
 	},
 	"cage_tiny": {
 		"name": "Cage (tiny)",
-		"copyof": "cage_diminutive_or_fine"
+		"copyof": "cage"
 	},
+	"tiny_cage": { "copyof": "cage_tiny" },
 	"cage_small_or_medium": {
 		"name": "Cage (small or medium)",
-		"copyof": "cage_diminutive_or_fine"
+		"copyof": "cage"
 	},
 	"cage_large": {
 		"name": "Cage (large)",
-		"copyof": "cage_diminutive_or_fine"
+		"copyof": "cage"
 	},
 	"cage_huge": {
 		"name": "Cage (huge)",
-		"copyof": "cage_diminutive_or_fine"
+		"copyof": "cage"
+	},
+	"cage_aquatic": {
+		"name": "Cage (aquatic)",
+		"copyof": "cage"
 	},
 	"cage_diminutive_or_fine_aquatic": {
 		"name": "Cage (diminutive or fine, aquatic)",
-		"copyof": "cage_diminutive_or_fine"
+		"copyof": "cage"
 	},
 	"cage_tiny_aquatic": {
 		"name": "Cage (tiny, aquatic)",
-		"copyof": "cage_diminutive_or_fine"
+		"copyof": "cage"
 	},
 	"cage_small_or_medium_aquatic": {
 		"name": "Cage (small or medium, aquatic)",
-		"copyof": "cage_diminutive_or_fine"
+		"copyof": "cage"
 	},
 	"cage_large_aquatic": {
 		"name": "Cage (large, aquatic)",
-		"copyof": "cage_diminutive_or_fine"
+		"copyof": "cage"
 	},
 	"cage_huge_aquatic": {
 		"name": "Cage (huge, aquatic)",
-		"copyof": "cage_diminutive_or_fine"
+		"copyof": "cage"
 	},
 	"calistrias_kindness": {
 		"name": "Calistria's kindness",
@@ -3283,8 +3369,7 @@
 			"",
 			"This tonic reduces menstrual pains and dramatically reduces the chances of conception during sexual intercourse if taken daily for 1 month. The effects last as long as it is taken daily thereafter. Each bottle contains 30 doses. Crafting it requires a successful DC 20 Craft (alchemy) check.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 20"
+			"**Construction:** Craft (Alchemy) DC 20"
 		]
 	},
 	"caltrops": {
@@ -3484,8 +3569,7 @@
 			"",
 			"Similar to but weaker than a sunrod, this stick glows like a candle when struck and lasts for 12 hours.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 20"
+			"**Construction:** Craft (Alchemy) DC 20"
 		]
 	},
 	"candlestick": {
@@ -3604,8 +3688,7 @@
 			"",
 			"This small leather pouch is filled with a faintly radioactive ore called caphorite, with a small percentage of reactants that activate the dust. When used, caphorite dust must be sprinkled in a 5-foot square, which then becomes the center of the dust's effect. All bright or normal light within 30 feet of the activated dust is reduced to dim light, and any creature attempting to cast a spell with the light descriptor in this area must succeed at a DC 15 caster level check or have spell's effect be negated. If caphorite is exposed to sunlight, it immediately becomes permanently inert. Each pouch contains enough dust for two applications. Crafting this item requires a successful DC 25 Craft (alchemy) check.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 25"
+			"**Construction:** Craft (Alchemy) DC 25"
 		]
 	},
 	"caravan_masters_wagon": {
@@ -3631,8 +3714,7 @@
 			"",
 			"This bottle of viscous blue oil sublimates slightly when exposed to air. When poured over water, the oil pools on the surface and takes 1 round to spread out from the point of origin in a 20-foot radius. At the end of this round, the cardice oil flash-freezes the surface of the water, creating an ice sheet over the affected area. Any 5-foot square of this ice can support up to 200 pounds of weight. Weight in excess of this amount causes the entire sheet to crack and quickly break up. This ice sheet becomes unstable and breaks up on its own after 1 hour, or 20 minutes in a hot climate. Any creature whose bare skin comes in contact with cardice oil takes 1d6 points of nonlethal damage each round because of the chemical's volatile nature, but the oil is ineffective as a splash weapon.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 25"
+			"**Construction:** Craft (Alchemy) DC 25"
 		]
 	},
 	"cards": {
@@ -3661,6 +3743,7 @@
 			"Consisting of various kinds of raw meat that have been jerked, smoked, or salted for preservation, a day's worth of carnivore feed is adequate food for any Small or Medium meat-eating animal such as a tiger, bear, or dog. Larger carnivores might require up to 2 to 4 days' worth of carnivore feed per day."
 		]
 	},
+	"carnivore_feed": { "copyof": "carnivore_feed_per_day" },
 	"carriage": {
 		"name": "Carriage",
 		"sources": [
@@ -3693,8 +3776,7 @@
 			"",
 			"Vermin and undead have a hard time distinguishing carrion bait from rotten human flesh, but intelligent undead that succeed at a DC 15 Perception check realize the difference. Regardless, any creature that spends more than 1 round eating the carrion bait quickly realizes its error, since the bait continues to swell and grow even as it's digested. One round after eating carrion bait, an affected undead or vermin becomes staggered for 1d4 rounds as its belly bulges to incredible proportions (other creature types cannot stomach carrion bait and instead are nauseated for 2d4 rounds). If the affected creature is already staggered, its movement speed instead decreases by 10 feet for the duration of the carrion bait's effect. Crafting carrion bait requires a successful DC 19 Craft (alchemy) check.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 19"
+			"**Construction:** Craft (Alchemy) DC 19"
 		]
 	},
 	"cart": {
@@ -3730,8 +3812,7 @@
 			"",
 			"This white, dry powder mixes with water to form a paste, which hardens over the course of an hour to create a solid material. It can be used to make casts of footprints or carvings, fill in gaps or cracks in walls, or (if applied over a cloth wrapping) create a cast for a broken bone. Hardened plaster has hardness 1 and 5 hit points per inch of thickness. A 5-pound clay pot of plaster can cover about 5 square feet of flat space to a depth of 1 inch, five Medium forearm or lower-leg casts, two Medium full-arm or full-leg casts, or twice as many casts for a Small creature.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 25"
+			"**Construction:** Craft (Alchemy) DC 25"
 		]
 	},
 	"cat_common": {
@@ -4035,8 +4116,7 @@
 			"",
 			"This pill causes the imbiber's skin to shift colors and patterns to match whatever is behind her. As long as a significant portion of her skin is exposed (her head and forearms, for example), the imbiber gains a +4 circumstance bonus on Stealth checks for 4 hours. This bonus doesn't stack with that granted by invisibility, vanish, or similar magical effects. Crafting a chameleon pill requires a successful DC 15 Craft (alchemy) check.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 15"
+			"**Construction:** Craft (Alchemy) DC 15"
 		]
 	},
 	"charcoal": {
@@ -4143,18 +4223,6 @@
 			"The listed price is for a hunk of cheese from a wheel. A 5- or 10-pound wheel of aged cheese is encased in a tough rind, which keeps the interior fresh."
 		]
 	},
-	"cheetah": {
-		"name": "Cheetah",
-		"sources": [ "Animal Archive" ],
-		"description": [
-			"## Cheetah",
-			"{SOURCE Animal Archive/15}  ",
-			"**Price** 160 gp; **Weight** -  ",
-			"**Category** Mounts/Pets",
-			"",
-			"This animal may be purchased already combat-trained at the GM's discretion, and typically cost an amount equal to 1-1/2 &times; the price of the standard animal."
-		]
-	},
 	"chemical_ward": {
 		"name": "Chemical ward",
 		"sources": [ "Monster Hunter's Handbook" ],
@@ -4218,8 +4286,7 @@
 			"",
 			"This sticky light blue paste grows pleasantly cool to the touch whenever it is exposed to light. Spreading a dose on your face and hands takes a full-round action and grants you a +2 alchemical bonus on saves to resist hot weather. In areas of bright light this bonus increases to +4, while in areas of dim light or darkness it is negated. A dose of chill cream lasts for 1 hour after being applied. A newly crafted bottle of chill cream holds 5 doses.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 15"
+			"**Construction:** Craft (Alchemy) DC 15"
 		]
 	},
 	"chirurgeons_kit": {
@@ -4744,18 +4811,6 @@
 			"Longer lasting than an air bladder, a jar of compressed air comes with a breathing apparatus that can be strapped over the mouth with a leather cord and provides enough air for a Medium character to breathe normally for 10 minutes (20 minutes for a Small character)."
 		]
 	},
-	"compsognathus": {
-		"name": "Compsognathus",
-		"sources": [ "Animal Archive" ],
-		"description": [
-			"## Compsognathus",
-			"{SOURCE Animal Archive/14}  ",
-			"**Price** 25 gp; **Weight** -  ",
-			"**Category** Mounts/Pets",
-			"",
-			"The prices listed are for dinosaurs and megafauna that have been reared from birth in order to serve as pets or mounts. Combat-trained dinosaurs and megafauna are incredibly rare and have similarly extravagant costs (if one can even find a seller). Though not normally readily available, combat-trained dinosaurs and megafauna typically cost an amount equal to 1-1/2 &times; the price of the standard animal."
-		]
-	},
 	"concealable_thieves_tools": {
 		"name": "Concealable thieves' tools",
 		"sources": [ "Ultimate Intrigue" ],
@@ -4778,18 +4833,6 @@
 			"**Category** Adventuring Gear",
 			"",
 			"A concealment coin appears in all respects like a typical coin of the realm and is often crafted from an ordinary coin - though for soft metals like gold, the coin is typically made with an iron or steel interior and then plated with the more valuable metal. Twisting the coin along its edge unscrews the two halves, revealing a thin, hollow space inside. Such coins are often used to hide small messages written on very fine paper for covert delivery. Noticing a concealment coin's true nature requires a successful DC 25 Perception check."
-		]
-	},
-	"constrictor_snake": {
-		"name": "Constrictor snake",
-		"sources": [ "Animal Archive" ],
-		"description": [
-			"## Constrictor snake",
-			"{SOURCE Animal Archive/15}  ",
-			"**Price** 90 gp; **Weight** -  ",
-			"**Category** Mounts/Pets",
-			"",
-			"This animal may be purchased already combat-trained at the GM's discretion, and typically cost an amount equal to 1-1/2 &times; the price of the standard animal."
 		]
 	},
 	"contracting_rope": {
@@ -4857,8 +4900,7 @@
 			"",
 			"By boiling certain seeds with handfuls of rust, halfling alchemists create these red flakes, which smolder slowly when touched by a spark or flame. If sprinkled over food and lit, a handful of cooking powder can cook meat or vegetables in 20 minutes without light or significant heat, though it lends a metallic flavor to any foods. If held to a living creature's flesh, smoldering cooking powder deals 1 point of fire damage per minute for 20 minutes. One jar of cooking powder is enough to cook up to 5 pounds of food in 1-pound increments. Crafting a jar of cooking powder requires a successful DC 15 Craft (alchemy) check.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 15"
+			"**Construction:** Craft (Alchemy) DC 15"
 		]
 	},
 	"cooler_chest": {
@@ -4899,8 +4941,7 @@
 			"",
 			"This sponge-sized brick is actually a desiccated chunk of living coral. When exposed to at least 1 gallon of water, it expands into a full-sized boulder within 1 minute. A fully expanded coral boulder is an irregular sphere 3 feet in diameter. An expanded boulder has a hardness of 7, has 55 hit points, and weighs 8 pounds. The water in a coral boulder slowly evaporates if it's left in a dry environment, and the boulder shrinks back to its original size in about a week. If dropped in water, a coral boulder sinks straight down, and is not moved by tides or flowing water.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 20"
+			"**Construction:** Craft (Alchemy) DC 20"
 		]
 	},
 	"corentyn_wine_bottle": {
@@ -5194,8 +5235,7 @@
 			"",
 			"When you burn this powerful resin, it fills eight contiguous 10-foot cubes with faint smoke that persists for 8 hours. Creatures resting or receiving long-term care in the smoke from curative myrrh regain 1 additional hit point per level. Multiple uses of curative myrrh in a 24-hour period do not stack.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 20"
+			"**Construction:** Craft (Alchemy) DC 20"
 		]
 	},
 	"cushion_inserts": {
@@ -5247,8 +5287,7 @@
 			"",
 			"This pale salve is always cool to the touch, regardless of the surrounding temperature. When spread on your skin, it subtly alters your aura, making you more difficult for some creatures to detect. For 1 hour after applying the ointment to your skin, you can attempt a Stealth check to hide from any creature attempting to perceive you using {umr/lifesense} or spiritsense (see the {subtype/psychopomp} subtype), even if you are clearly in that creature's perceptual field. Crafting this item requires a successful DC 25 Craft (alchemy) check.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 25"
+			"**Construction:** Craft (Alchemy) DC 25"
 		]
 	},
 	"dancers_garb": {
@@ -5381,8 +5420,7 @@
 			"",
 			"Within this corked vial is a tiny sample of what is known as \"dead air.\" Heavy, still, and of unknown origin, pockets of dead air becalm airships and smother crews in remote parts of the Plane of Air. When you open a dead air vial, invisible dead air fills a 20-foot-radius area centered on you. The affected area becomes devoid of breathable air. Creatures that breathe air must hold their breath or suffocate in an area of dead air, though sound, fire, and other effects that rely on a stable atmosphere are unaffected. Undisturbed, the dead air dissipates in 1 minute. A moderate wind (11+ mph) disperses the dead air in 4 rounds; a strong wind (21+ mph) disperses the dead air in 1 round. This item can be crafted with a successful DC 25 Craft (alchemy) check.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 25"
+			"**Construction:** Craft (Alchemy) DC 25"
 		]
 	}
 }

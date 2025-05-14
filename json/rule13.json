@@ -2677,6 +2677,7 @@
 	"starvation_and_thirst": {
 		"name": "Starvation and Thirst",
 		"subtitle": "Environmental Rules",
+		"tags": "hunger",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/444}",

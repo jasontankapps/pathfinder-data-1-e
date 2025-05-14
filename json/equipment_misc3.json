@@ -76,18 +76,6 @@
 			"**Time** 1 day; **Tools** heat source; **Type** alchemical tool"
 		]
 	},
-	"poison_frog": {
-		"name": "Poison frog",
-		"sources": [ "Animal Archive" ],
-		"description": [
-			"## Poison frog",
-			"{SOURCE Animal Archive/15}  ",
-			"**Price** 60 gp; **Weight** -  ",
-			"**Category** Mounts/Pets",
-			"",
-			"This animal may be purchased already combat-trained at the GM's discretion, and typically cost an amount equal to 1-1/2 &times; the price of the standard animal."
-		]
-	},
 	"poison_latch_needle": {
 		"name": "Poison latch needle",
 		"sources": [ "Black Markets" ],
@@ -155,8 +143,7 @@
 			"",
 			"This henna-like paste creates a dark brown tattoo on the hands or feet that fades over the next 2d6 days. The tattoo temporarily boosts the strength of a vishkanya's natural poison, increasing the DC of the next weapon envenomed with the vishkanya's blood or saliva by +2 (once used, the tattoo is merely decorative and does not affect the creature's poison). A typical tattoo consists of intricate whorls and spiritual symbols on the hands or feet.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 20"
+			"**Construction:** Craft (Alchemy) DC 20"
 		]
 	},
 	"poison_ward_salve": {
@@ -170,8 +157,7 @@
 			"",
 			"This herbal salve can be applied directly to the skin to prevent the effects of contact poisons. If a creature touches a contact poison, but you apply the salve within 1 round of contact, the victim rolls the save twice and uses the higher result.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 15"
+			"**Construction:** Craft (Alchemy) DC 15"
 		]
 	},
 	"poisoned_locket": {
@@ -276,18 +262,6 @@
 			"**Category** Clothing",
 			"",
 			"This circle of water-resistant fabric (typically wool or leather) has a hooded opening in the center, making it easy to slip it on or off and protecting your entire body from rain or snow."
-		]
-	},
-	"porcupine": {
-		"name": "Porcupine",
-		"sources": [ "Animal Archive" ],
-		"description": [
-			"## Porcupine",
-			"{SOURCE Animal Archive/15}  ",
-			"**Price** 5 gp; **Weight** -  ",
-			"**Category** Mounts/Pets",
-			"",
-			"This animal may be purchased already combat-trained at the GM's discretion, and typically cost an amount equal to 1-1/2 &times; the price of the standard animal."
 		]
 	},
 	"portable_alchemists_lab": {
@@ -466,10 +440,12 @@
 		"name": "Pot (iron)",
 		"copyof": "pot_common"
 	},
+	"iron_pot": { "copyof": "pot_iron" },
 	"pot_mithral": {
 		"name": "Pot (mithral)",
 		"copyof": "pot_common"
 	},
+	"mithral_pot": { "copyof": "pot_mithral" },
 	"potion_sponge": {
 		"name": "Potion sponge",
 		"sources": [ "Advanced Race Guide" ],
@@ -481,8 +457,7 @@
 			"",
 			"This egg-sized sponge is covered in a layer of waterproof edible wax, designed to absorb 1 dose of a potion. Chewing a potion sponge and swallowing its liquid contents is a full-round action. A creature of at least Large size can swallow the sponge in its entirely; other creatures must spit out the sponge once it's depleted (a free action). Unlike a potion that is drunk from a vial, a potion sponge can be used underwater. A potion can be poured from a vial into a sponge potion (or squeezed from a sponge into a vial) as a full-round action. The potion sponge is immune to attacks that specifically target crystal, glass, ceramic, or porcelain, such as shatter. It otherwise works like a potion vial.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 15"
+			"**Construction:** Craft (Alchemy) DC 15"
 		]
 	},
 	"pouch_belt_empty": {
@@ -681,8 +656,7 @@
 			"",
 			"This pitch-black liquid slows your heart rate, putting you in an almost trance-like state. For 1 hour after drinking this tincture, you gain a +2 alchemical bonus on Stealth checks, you can use Stealth while moving at full speed without penalty, and the DCs for Intimidate checks to demoralize you is 2 higher. The tincture's sedative nature causes you to take a -4 penalty on Strength-based skill checks and a -2 penalty on damage rolls for the same duration.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 25"
+			"**Construction:** Craft (Alchemy) DC 25"
 		]
 	},
 	"pseudodragon": {
@@ -722,18 +696,6 @@
 			"**Category** Tools",
 			"",
 			"These layered lambskin gloves are specially designed and psychically attuned to increase the tactile sensitivity of the wearer's hands. To provide any benefit, the gloves must be worn for 8 uninterrupted hours. All Dexterity skill checks requiring the use of the hands take a -2 penalty as long as the gloves remain on. After this 8-hour period, the user can remove the gloves to gain a +2 circumstance bonus on Appraise checks for the psychometry occult skill unlock. This benefit fades after 1 hour."
-		]
-	},
-	"pteranodon": {
-		"name": "Pteranodon",
-		"sources": [ "Animal Archive" ],
-		"description": [
-			"## Pteranodon",
-			"{SOURCE Animal Archive/14}  ",
-			"**Price** 750 gp; **Weight** -  ",
-			"**Category** Mounts/Pets",
-			"",
-			"The prices listed are for dinosaurs and megafauna that have been reared from birth in order to serve as pets or mounts. Combat-trained dinosaurs and megafauna are incredibly rare and have similarly extravagant costs (if one can even find a seller). Though not normally readily available, combat-trained dinosaurs and megafauna typically cost an amount equal to 1-1/2 &times; the price of the standard animal."
 		]
 	},
 	"pull_cord_grenade": {
@@ -804,8 +766,7 @@
 			"",
 			"This tablet of compressed herbs and potent alchemical reagents can purify tainted, brackish, muddy, or alkaline water in order to make it drinkable. If used to purify water that is diseased or poisonous, each tablet reduces the save DC by 1 (to a maximum reduction of 5) for any disease or poison present in the water. A single purification pellet can affect up to 1 gallon of tainted water.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 20"
+			"**Construction:** Craft (Alchemy) DC 20"
 		]
 	},
 	"purity_test": {
@@ -1058,8 +1019,7 @@
 			"",
 			"This packet filled with spikey-edged leaves has a pungent scent almost strong enough to make your eyes water. While you chew the leaves, you ignore the effects of fatigue. The leaves last for 6 rounds, at which point only a wad of pulp remains. When the effect of rager's aid wears off, you are exhausted instead.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 25"
+			"**Construction:** Craft (Alchemy) DC 25"
 		]
 	},
 	"rakes_friend": {
@@ -1071,25 +1031,10 @@
 			"**Price** 120 gp; **Weight** -  ",
 			"**Category** Alchemical Tools",
 			"",
-			"You can accept alchemical burn when you imbibe this draught to gain 1 grit point or 1 panache point. The effects of rake's friend last for 1 hour; if not spent within 1 hour, this point is lost. Rake's friend has no effect if you don't have the ability to use grit or panache.",
+			"You can accept {misc/alchemical burn} when you imbibe this draught to gain 1 grit point or 1 panache point. The effects of rake's friend last for 1 hour; if not spent within 1 hour, this point is lost. Rake's friend has no effect if you don't have the ability to use grit or panache.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 15"
+			"**Construction:** Craft (Alchemy) DC 15"
 		]
-	},
-	"ram_combat_trained": {
-		"name": "Ram (combat-trained)",
-		"sources": [ "Animal Archive" ],
-		"description": [
-			"## Ram",
-			"{SOURCE Animal Archive}",
-			"",
-			"When reared from birth, these animals can easily be ridden by Small or Medium humanoids, depending on the animal's size."
-		]
-	},
-	"ram_common": {
-		"name": "Ram (common)",
-		"copyof": "ram_combat_trained"
 	},
 	"rangers_kit": {
 		"name": "Ranger's kit",
@@ -1195,8 +1140,7 @@
 			"",
 			"This slip of paper can aid in the identifying of liquids. Its color changes in accordance to basic traits such as acidity, salinity, or magic. This confers a +2 alchemical bonus on any Craft (alchemy) or Spellcraft check made to identify potions or other liquids.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 15"
+			"**Construction:** Craft (Alchemy) DC 15"
 		]
 	},
 	"reanimating_fluid": {
@@ -1210,8 +1154,7 @@
 			"",
 			"This viscous, translucent green fluid is typically stored in a large syringe. When injected into a mostly intact corpse of a Medium or smaller creature that has been dead for no more than 1 day (time spent under effects like gentle repose don't count against this time), the fluid gives the corpse a rudimentary semblance of life, reactivating its nerves and muscle tissue. This causes the corpse to reanimate and shamble around erratically for 1 minute. The result is not an undead creature, nor is it a construct. The reanimated corpse remains utterly lifeless and is driven only by muscular spasms that cause it shuffle 20 feet in a random direction each round, gasping and blinking eerily as it goes. When the corpse hits a solid barrier or is attacked, it stops moving. On its next turn, roll 1d8 to determine where it goes next. On a 1, it continues forward in the same direction it had been previously moving (or runs up against the same barrier). On a 2, it turns 45 degrees clockwise and heads in that direction; on a 3, it turns 90 degrees clockwise and heads in that direction; and so on. The corpse can't attack, doesn't defend itself, and - as an object - has AC 10 and 12 hit points. Crafting a syringe of reanimating fluid requires a successful DC 25 Craft (alchemy) check.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 25"
+			"**Construction:** Craft (Alchemy) DC 25"
 		]
 	},
 	"red_flame_torch": {
@@ -1301,23 +1244,8 @@
 			"",
 			"When applied to the nose as a standard action, this alchemical paste traps airborne particles and sharpens your olfactory receptors, heightening your sense of smell. You gain the scent ability, except you can detect creatures and odors at only half the distance. If you already have the scent ability, rhinarium paste increases the range at which you can detect creatures by 50%. Rhinarium paste's effects lasts for 1 hour. Crafting this item requires a successful DC 20 Craft (alchemy) check.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 20"
+			"**Construction:** Craft (Alchemy) DC 20"
 		]
-	},
-	"rhinoceros_combat_trained": {
-		"name": "Rhinoceros (combat-trained)",
-		"sources": [ "Animal Archive" ],
-		"description": [
-			"## Rhinoceros",
-			"{SOURCE Animal Archive}",
-			"",
-			"When reared from birth, these animals can easily be ridden by Small or Medium humanoids, depending on the animal's size."
-		]
-	},
-	"rhinoceros_common": {
-		"name": "Rhinoceros (common)",
-		"copyof": "rhinoceros_combat_trained"
 	},
 	"rice_paper_sheet": {
 		"name": "Rice paper (sheet)",
@@ -1442,21 +1370,6 @@
 			"This thin length of rope has many oddly shaped bits of hollow metal fixed along its length. As a standard action, a creature can swing a roar cord over its head to generate a variety of eerie noises. For the next round, any creature within 60 feet of the roar cord takes a -2 penalty on Perception checks that rely on sound and a -1 penalty on saving throws against fear effects. The roar cord can be used as a bardic instrument (string instrument) that grants the bard a +2 bonus on Perform checks when using the countersong bardic performance."
 		]
 	},
-	"roc_combat_trained": {
-		"name": "Roc (combat-trained)",
-		"sources": [ "Animal Archive" ],
-		"description": [
-			"## Roc",
-			"{SOURCE Animal Archive/14}  ",
-			"**Price** 10,800 gp (combat-trained), 7,200 gp (common); **Weight** - (combat-trained), - (common)",
-			"",
-			"When reared from birth, these animals can easily be ridden by Small or Medium humanoids, depending on the animal's size."
-		]
-	},
-	"roc_common": {
-		"name": "Roc (common)",
-		"copyof": "roc_combat_trained"
-	},
 	"rockshard_canister": {
 		"name": "Rockshard canister",
 		"sources": [ "Melee Tactics Toolbox" ],
@@ -1498,6 +1411,7 @@
 			"This 50-foot length of hemp rope has 2 hit points and can be burst with a DC 23 Strength check."
 		]
 	},
+	"rope": { "copyof": "rope_50_ft" },
 	"rope_fifty_ft": { "copyof": "rope_50_ft" },
 	"rope_recaller": {
 		"name": "Rope recaller",
@@ -1621,8 +1535,7 @@
 			"",
 			"Rusting powder is sold in a paper tube; you apply it by tearing the ends off the tube and blowing the flakes into the target device. Rusting powder does not affect gold, silver, copper, bronze, brass, or mithral, but easily affects iron, steel, and adamantine.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 30"
+			"**Construction:** Craft (Alchemy) DC 30"
 		]
 	},
 	"sack": {
@@ -1734,8 +1647,7 @@
 			"",
 			"These tablets of pressed salt help stave off dehydration. Taking a salt tablet once every 24 hours grants you a +2 circumstance bonus on saving throws to avoid heatstroke and on Constitution checks to avoid thirst.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 10"
+			"**Construction:** Craft (Alchemy) DC 10"
 		]
 	},
 	"salt_tablets_ten": { "copyof": "salt_tablets_10" },
@@ -1867,8 +1779,7 @@
 			"",
 			"This alchemical oil takes 1 minute to apply and completely masks your odor for 6 hours. Creatures can't use the scent ability to track you, detect your presence, or pinpoint your location. A single dose of scent blocker covers a Medium or smaller creature. For each size category larger than Medium a creature is, double the number of doses (and application time) required. Crafting scent blocker requires a successful DC 23 Craft (alchemy) check.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 23"
+			"**Construction:** Craft (Alchemy) DC 23"
 		]
 	},
 	"scent_cloak": {
@@ -1885,8 +1796,7 @@
 			"",
 			"This collection of coarsely ground spices, seeds, musk, and alchemical reagents are meant to be rubbed into your skin and clothes in order to override your scent, increasing the DC of tracking you by scent by +10 for 24 hours. Because you still have a smell, creatures with scent can still detect and pinpoint you if you are cloaked; they just can't identify your smell as something unique. Washing for 1 full round removes the scent cloak.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 20"
+			"**Construction:** Craft (Alchemy) DC 20"
 		]
 	},
 	"scent_salts": {
@@ -1912,8 +1822,7 @@
 			"",
 			"Scentbane incense is a form of smokestick that also blocks most scents. As long as the smoke lasts, creatures with the scent special ability must make Perception checks, opposed by the Stealth checks of any creatures within the smoke, to use scent to locate creatures within the smoke. If a creature remains in scentbane incense for 5 rounds or more, the smoke clings to it for 1 round after it leaves, making it similarly difficult to find by scent during that time.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 20"
+			"**Construction:** Craft (Alchemy) DC 20"
 		]
 	},
 	"scholars_outfit": {
@@ -2188,8 +2097,7 @@
 			"",
 			"This 30-foot length of rope is braided with musk-cured strips of snakeskin from a variety of desert serpents, and is typically laid out in a 5-foot-radius circle around the edge of a tent or around a sleeping creature. When it's laid out in this way, common snakes crawling across the desert floor often mistake the serpent line for another snake and shy away from crossing it. Ordinary venomous snakes approaching a serpent line must succeed at a DC 10 Will save or turn away from it, though if they notice potential prey within the serpent line, they may continue to lurk nearby. At the GM's discretion, an exceptionally aggressive or hungry snake may gain a +2 circumstance bonus on its saving throw. Snakes that are magically controlled ignore a serpent line.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 20"
+			"**Construction:** Craft (Alchemy) DC 20"
 		]
 	},
 	"serrated_caltrops": {
@@ -2444,39 +2352,29 @@
 	"shovel_common": {
 		"name": "Shovel (common)",
 		"sources": [
+			"PRPG Core Rulebook",
 			"Ultimate Equipment",
 			"Pathfinder #51: The Hungry Storm"
 		],
 		"description": [
-			"## Shovel",
-			"{SOURCE Ultimate Equipment/57;Pathfinder #51: The Hungry Storm/67}  ",
+			"## Shovel or Spade",
+			"{SOURCE PRPG Core Rulebook/158;Ultimate Equipment/57;Pathfinder #51: The Hungry Storm/67}  ",
 			"**Price** 2 gp (common), 10 gp (folding); **Weight** 8 lbs. (common), 12 lbs. (folding)",
 			"",
-			"This tool lets you dig a pit at a rate of 2 cubic feet per minute. If a shovel is used in combat, treat it as a one-handed improvised weapon that deals bludgeoning damage equal to that of a club of its size.",
+			"This tool lets you dig a pit at a rate of 2 cubic feet per minute. If a shovel is used in combat, treat it as a one-handed {misc/improvised weapon} that deals bludgeoning damage equal to that of a {eq-weapon/club} of its size.",
 			"",
-			"**Folding Shovel:** A folding shovel is a full-sized shovel with a sturdy sectional handle that folds into pieces no longer than the shovel blade, allowing it to fit in a smaller space such as a backpack. Converting the shovel from its folded state to usable (or vice versa) is 2 full-round actions."
+			"**Folding Shovel:** A folding shovel is a full-sized shovel with a sturdy sectional handle that folds into pieces no longer than the shovel blade, allowing it to fit in a smaller space such as a backpack. Converting the shovel from its folded state to usable (or vice versa) is 2 full-round actions.",
+			"",
+			">*{source/Adventurer's Armory/ pg. 20} lists this as costing 2cp and weighing 3lbs. This is probably an error.*"
 		]
 	},
+	"spade": { "copyof": "shovel_common" },
 	"shovel_folding": {
 		"name": "Shovel (folding)",
 		"copyof": "shovel_common"
 	},
-	"shovel_common_2": {
-		"name": "Shovel, common",
-		"sources": [
-			"Adventurer's Armory",
-			"PRPG Core Rulebook"
-		],
-		"description": [
-			"## Shovel, common",
-			"{SOURCE Adventurer's Armory/19;PRPG Core Rulebook/158}  ",
-			"**Price** 2 cp; **Weight** 3 lbs.  ",
-			"**Category** Adventuring Gear",
-			"",
-			"This tool lets you dig a pit at a rate of 2 cubic feet per minute."
-		]
-	},
-	"common_shovel": { "copyof": "shovel_common_2" },
+	"common_shovel": { "copyof": "shovel_common" },
+	"shovel": { "copyof": "shovel_common" },
 	"shrapnel_caltrops": {
 		"name": "Shrapnel caltrops",
 		"sources": [ "Dirty Tactics Toolbox" ],
@@ -2500,8 +2398,7 @@
 			"",
 			"Created by suspending the spores of a shrieker mushroom in a thick mixture of wheat paste and vermiculite, this thick sludge comes in a soundproof, stone container. Shrieking paste creates an obnoxious piercing noise when exposed to even minute amounts of movement or light. This makes applying the paste a very noisy endeavor at best. However, once the paste is applied and left alone for several rounds, it once again becomes silent. Thereafter, any light source or movement within 10 feet of the paste causes it to shriek for 1d3 rounds. A single container contains enough shrieking paste to coat 1 square foot of a surface. If left undisturbed for several weeks in a dank, lightless setting, shrieking paste might eventually grow into a colony of shrieker mushrooms.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 25"
+			"**Construction:** Craft (Alchemy) DC 25"
 		]
 	},
 	"signal_horn": {
@@ -2658,8 +2555,7 @@
 			"",
 			"A creature with DR/silver can swallow these bitter-tasting capsules of a concentrated alchemical silver to convert their damage reduction to DR/- for 2d4 rounds. When this effect ends, the creature is nauseated for 1 round. A creature can only benefit from silver drops once per 24 hours. Crafting this item requires a successful DC 30 Craft (alchemy) check.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 30"
+			"**Construction:** Craft (Alchemy) DC 30"
 		]
 	},
 	"singers_solution": {
@@ -2671,10 +2567,9 @@
 			"**Price** 120 gp; **Weight** -  ",
 			"**Category** Alchemical Tools",
 			"",
-			"When you imbibe this draught, you can accept alchemical burn to gain an additional 4 rounds of bardic performance or raging song for the day. The effects of singer's solution last for 1 hour; if not spent within 1 hour, these additional rounds are lost. Singer's solution has no effect if you don't have the bardic performance or raging song class features.",
+			"When you imbibe this draught, you can accept {misc/alchemical burn} to gain an additional 4 rounds of bardic performance or raging song for the day. The effects of singer's solution last for 1 hour; if not spent within 1 hour, these additional rounds are lost. Singer's solution has no effect if you don't have the bardic performance or raging song class features.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 15"
+			"**Construction:** Craft (Alchemy) DC 15"
 		]
 	},
 	"siphon_ray": {
@@ -2930,8 +2825,7 @@
 			"",
 			"These sharply scented gray crystals cause people inhaling them to regain consciousness. Smelling salts grant you a new saving throw to resist any spell or effect that has already rendered you unconscious or staggered. If exposed to smelling salts while dying, you immediately become conscious and staggered, but must still make stabilization checks each round; if you perform any standard action (or any other strenuous action), you take 1 point of damage after completing the act and fall unconscious again. A container of smelling salts has dozens of uses if stoppered after each use, but depletes in a matter of hours if left open.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 25"
+			"**Construction:** Craft (Alchemy) DC 25"
 		]
 	},
 	"smoke_bomb": {
@@ -2945,8 +2839,7 @@
 			"",
 			"A smoke bomb appears as a polished ceramic sphere that can be held comfortably in one hand. Many crafters of these alchemical weapons take pride in painting or etching these bombs with complex scenes, or even making them look like small humanoid skulls, despite the fact that the bombs shatter when thrown. When thrown as a splash weapon, a smoke bomb bursts and fills the 5-foot square it detonates in with a cloud of thick, foul-smelling gray smoke (treat this area as if affected by a {spell/fog cloud} spell, except that the cloud lasts only 1 round before dissipating). A creature that is struck by a smoke bomb or that passes through the cloud a bomb creates must succeed at a DC 12 Fortitude save or be nauseated for 1 round and sickened for 3 rounds after that. Creatures within 5 feet of where the flask hits are sickened for 1 round if they fail this saving throw. This is a poison effect. Crafting a smoke bomb requires a successful DC 22 Craft (alchemy) check.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 22"
+			"**Construction:** Craft (Alchemy) DC 22"
 		]
 	},
 	"smoke_cover": {
@@ -2980,8 +2873,7 @@
 			"",
 			"This small clay sphere contains two alchemical substances separated by a thin barrier. When you break the sphere, the substances mingle and fill a 5-foot square with a cloud of foul but harmless yellow smoke. The smoke pellet acts as a {eq-misc/smokestick}, except the smoke only lasts for 1 round before dispersing. You may throw a smoke pellet as a ranged touch attack with a range increment of 10 feet.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 20"
+			"**Construction:** Craft (Alchemy) DC 20"
 		]
 	},
 	"smoke_signal": {
@@ -2995,8 +2887,7 @@
 			"",
 			"This alchemically fused powder ball creates a plume of brightly colored smoke when lit. While the smoke is not thick enough to significantly impair vision, it is clearly visible up to 1d6 miles away under average conditions, and may be visible at greater distances in ideal conditions. Many desert clans use particular signature colors of smoke to indicate their allegiance, or use smoke signals with specific colors or in a pattern of sequential colors to convey coded messages.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 15"
+			"**Construction:** Craft (Alchemy) DC 15"
 		]
 	},
 	"smoked_goggles": {
@@ -3053,18 +2944,6 @@
 			"Compartments can be located throughout the wagon, in such places as a hollowed-out axle, beneath the seats, between panels on the floor decking, and so forth. The total amount of weight the wagon and its draft animals can accommodate remains the same as the original variety of wagon."
 		]
 	},
-	"snail_kite": {
-		"name": "Snail kite",
-		"sources": [ "Animal Archive" ],
-		"description": [
-			"## Snail kite",
-			"{SOURCE Animal Archive/15}  ",
-			"**Price** 18 gp; **Weight** -  ",
-			"**Category** Mounts/Pets",
-			"",
-			"This animal may be purchased already combat-trained at the GM's discretion, and typically cost an amount equal to 1-1/2 &times; the price of the standard animal."
-		]
-	},
 	"snake_constrictor": {
 		"name": "Snake (constrictor)",
 		"sources": [
@@ -3112,8 +2991,7 @@
 			"**Onset** 1 round; **Frequency** 1/minute for 5 minutes  ",
 			"**Effect** On a failed save, snake oil deals 1 point of nonlethal damage. However, on a successful save, the toxin heals 1d6 points of nonlethal damage; **Cure** 1 save",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 20"
+			"**Construction:** Craft (Alchemy) DC 20"
 		]
 	},
 	"snake_tongue_concoction": {
@@ -3126,18 +3004,6 @@
 			"**Category** Concoctions",
 			"",
 			"This lime-green goo turns your saliva venomous. Once during the concoction's duration, as a swift action, you can lick or spit on a held weapon to apply a dose of black adder venom to the weapon. If you are a vishkanya, you instead apply the poison granted by your toxic racial trait; this does not count against that trait's uses per day. The concoction weakens your physical defenses, imparting a -1 penalty on your Fortitude saving throws."
-		]
-	},
-	"snapping_turtle": {
-		"name": "Snapping turtle",
-		"sources": [ "Animal Archive" ],
-		"description": [
-			"## Snapping turtle",
-			"{SOURCE Animal Archive/15}  ",
-			"**Price** 5 gp; **Weight** -  ",
-			"**Category** Mounts/Pets",
-			"",
-			"This animal may be purchased already combat-trained at the GM's discretion, and typically cost an amount equal to 1-1/2 &times; the price of the standard animal."
 		]
 	},
 	"snorkel_common": {
@@ -3273,8 +3139,7 @@
 			"",
 			"This sweet and wholesome-tasting blue liquid creates a sense of warmth and comfort. Soothe syrup coats your stomach and makes it much more difficult for you to succumb to queasiness. For 1 hour after drinking soothe syrup, you gain a +5 alchemical bonus on saving throws made to resist effects that would make you nauseated or sickened.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 15"
+			"**Construction:** Craft (Alchemy) DC 15"
 		]
 	},
 	"sorcerers_kit": {
@@ -3300,8 +3165,7 @@
 			"",
 			"This silvery liquid amplifies magical energies. For 1 hour after drinking this tincture, treat your caster level as 2 higher for the purpose of determining spells' durations and ranges. The liquid unsettles the stomach, imposing a -1 penalty on Fortitude and Reflex saves for the same duration. Whenever you fail a Fortitude or Reflex save while under these effects, you must succeed at a DC 20 Fortitude saving throw or become nauseated for 1 round.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 30"
+			"**Construction:** Craft (Alchemy) DC 30"
 		]
 	},
 	"soul_candle": {
@@ -3327,8 +3191,7 @@
 			"",
 			"This soothing elixir was created to counter the energy-draining effects of vampires, wights, and similar horrible creatures. If you have a negative level (whether temporary or permanent), you can drink a dose of soul stimulant, negating the negative level's penalty for 12 hours. You can only benefit from 1 dose of soul stimulant at a time, though you can continue to take a dose every 12 hours to stave off the negative level's effects.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 30"
+			"**Construction:** Craft (Alchemy) DC 30"
 		]
 	},
 	"sparkle_smoke": {
@@ -3345,8 +3208,7 @@
 			"",
 			"When inhaled, this incense causes creatures to see dazzling auras around light sources, drawing their attention to such illumination as the moon or stars and away from other nearby creatures. Any creature inhaling sparkle smoke that fails a DC 15 Fortitude saving throw takes a -4 penalty on Perception checks to notice creatures smaller than itself in areas of at least dim light for 1 hour. Crafting a dose of sparkle smoke requires a successful DC 15 Craft (alchemy) check.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 15"
+			"**Construction:** Craft (Alchemy) DC 15"
 		]
 	},
 	"sparring_gear": {
@@ -3394,10 +3256,9 @@
 			"**Price** 410 gp; **Weight** -  ",
 			"**Category** Alchemical Tools",
 			"",
-			"Chewing this gummy substance grants you 1d4 uses of alchemical inspiration that can be used only on Charisma-based skill checks. This benefit lasts for 1 hour, during which you must roll all Wisdom-based skill checks twice and take the worse result.",
+			"Chewing this gummy substance grants you 1d4 uses of {misc/alchemical inspiration} that can be used only on Charisma-based skill checks. This benefit lasts for 1 hour, during which you must roll all Wisdom-based skill checks twice and take the worse result.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 25"
+			"**Construction:** Craft (Alchemy) DC 25"
 		]
 	},
 	"speed_sheath": {
@@ -3530,8 +3391,7 @@
 			"",
 			"Despite their name, spider sacs have nothing to do with spiders but rather are alchemical devices with a unique delivery system. Used for climbing as well as combat, these grayish, gourdlike pouches are made of a specially grown fungus with a tough but rubbery exterior. The fungoid is carefully harvested, pierced at one end, hollowed out, and then injected with a strong alchemical adhesive that hardens to a fibrous material almost instantly when exposed to air. When squeezed, a spider sac's adhesive shoots out to a maximum range of 10 feet and sticks to whatever it strikes, whereupon the strand dries instantly into a durable fibrous rope. For the purposes of climbing, treat a spider sac as a grappling hook except that all surfaces are AC 5. A spider sac can also be used as a lasso except with AC 10, 4 hit points, and a DC 24 Strength check to burst. A spider sac is a single-use item.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 20"
+			"**Construction:** Craft (Alchemy) DC 20"
 		]
 	},
 	"spider": {
@@ -3578,8 +3438,7 @@
 			"",
 			"Crafting spiderdraw requires a successful DC 20 Craft (alchemy) check.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 20"
+			"**Construction:** Craft (Alchemy) DC 20"
 		]
 	},
 	"spike_hilt": {
@@ -3605,18 +3464,6 @@
 			"**Deity** Any",
 			"",
 			"This holy symbol has a small nail or spike somewhere along its length, allowing it to be hammered it into a wall, tree, floor, or any hard surface. Once fixed in place and activated, it stores channeled energy until it is touched by a creature of at least Small size or 24 hours pass. If touched, the focus releases the stored power as if you used channel energy, though it only heals or deals half the normal damage (including all feats and abilities that affect the DC and damage). Good clerics use these items to provide healing in large battles where a cleric may not be nearby; evil clerics often use them as traps."
-		]
-	},
-	"spinosaurus": {
-		"name": "Spinosaurus",
-		"sources": [ "Animal Archive" ],
-		"description": [
-			"## Spinosaurus",
-			"{SOURCE Animal Archive/14}  ",
-			"**Price** 11,000 gp; **Weight** -  ",
-			"**Category** Mounts/Pets",
-			"",
-			"The prices listed are for dinosaurs and megafauna that have been reared from birth in order to serve as pets or mounts. Combat-trained dinosaurs and megafauna are incredibly rare and have similarly extravagant costs (if one can even find a seller). Though not normally readily available, combat-trained dinosaurs and megafauna typically cost an amount equal to 1-1/2 &times; the price of the standard animal."
 		]
 	},
 	"spirit_compass": {
@@ -3693,8 +3540,7 @@
 			"",
 			"Originally developed by kami-revering priests to write prayer scrolls, this pale ink is now often used by ninjas to mark locations or leave messages. Once spirit-vision ink dries, it becomes completely invisible. To invisible creatures, however, writing in spirit-vision ink shimmers with a rich azure hue.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 30"
+			"**Construction:** Craft (Alchemy) DC 30"
 		]
 	},
 	"spiritbane_spike": {
@@ -3708,8 +3554,7 @@
 			"",
 			"When you slash this alchemically treated iron spike against your flesh - a move action that deals 1d6 points of damage - the spike extends and becomes a short sword with the {magic-enh/ghost touch} weapon special ability. The spike reverts to its old form after 10 minutes, corroded and useless. Should a spiritbane spike rematerialize within a corporeal body, it is shunted to the nearest empty space without effect. Crafting this item requires a successful DC 25 Craft (alchemy) check.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 25"
+			"**Construction:** Craft (Alchemy) DC 25"
 		]
 	},
 	"spiritual_leaders_vestments": {
@@ -3897,8 +3742,7 @@
 			"",
 			"Gathered within this tightly woven, alchemically treated canvas sack is a sample of the pervasive fetid fog that looms near the border of the Plane of Air and the Plane of Water. When opened, the fog billows out in a 30-foot-radius area. Sight is extremely limited in an area of stagnant fog. A creature within 15 feet has concealment (20% miss chance), while creatures farther away have total concealment (50% miss chance, and the attacker can't use sight to locate the target). In addition, creatures that end their turn within the cloud must succeed at a DC 14 Fortitude save or become sickened for 1 round. Stagnant fog dissipates naturally after 1 minute. A moderate wind (11+ mph) disperses the stagnant fog in 1 round. This item can be crafted with a successful DC 20 Craft (alchemy) check.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 20"
+			"**Construction:** Craft (Alchemy) DC 20"
 		]
 	},
 	"stalkers_oil": {
@@ -3936,8 +3780,7 @@
 			"",
 			"This clear liquid glows with pale light. For 4 hours after drinking this tincture, you emit light as a torch. You are constantly dazzled during this time. If any effect would cause you to become dazzled during this time, you are instead blinded. While under the effect of this tincture, you can intensify your glow as a swift action to that of bright light, as per daylight, for 1 round. After activating the bright light effect, you emit only dim light with a range of 10 feet for the remainder of the tincture's duration.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 30"
+			"**Construction:** Craft (Alchemy) DC 30"
 		]
 	},
 	"static_wool": {
@@ -3979,18 +3822,6 @@
 			"This disguise kit includes metallic or stone-colored makeup and cloth that you can apply to appear to be a statue; it grants a +2 bonus only on Disguise checks to resemble metal, stone, or similar materials. You take a -5 penalty on Disguise checks when impersonating an inanimate object. A viewer can attempt a single Perception check opposed by your Disguise check upon viewing you, and an additional check each time a creature interacts with you. This kit is exhausted after 10 uses."
 		]
 	},
-	"stegosaurus": {
-		"name": "Stegosaurus",
-		"sources": [ "Animal Archive" ],
-		"description": [
-			"## Stegosaurus",
-			"{SOURCE Animal Archive/14}  ",
-			"**Price** 4,200 gp; **Weight** -  ",
-			"**Category** Mounts/Pets",
-			"",
-			"The prices listed are for dinosaurs and megafauna that have been reared from birth in order to serve as pets or mounts. Combat-trained dinosaurs and megafauna are incredibly rare and have similarly extravagant costs (if one can even find a seller). Though not normally readily available, combat-trained dinosaurs and megafauna typically cost an amount equal to 1-1/2 &times; the price of the standard animal."
-		]
-	},
 	"stiletto_boots": {
 		"name": "Stiletto boots",
 		"sources": [ "Adventurer's Armory 2" ],
@@ -4014,8 +3845,7 @@
 			"",
 			"Drinking a vial of this bland, bluish liquid grants you a +5 alchemical bonus on Fortitude saves to avoid nausea or sickness for 1 hour. If you are already nauseated, you can drink stillgut as a move action. Drinking it in this fashion grants you a second saving throw (without the +5 bonus). Goblins often use stillgut so they can choke down meat or other foods in advanced stages of rot or decay.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 25"
+			"**Construction:** Craft (Alchemy) DC 25"
 		]
 	},
 	"stilts_common": {
@@ -4087,8 +3917,7 @@
 			"",
 			"Stink ink is a special, pungent, musk-based ink that allows its user to encode information with smell rather than visually. Stink ink dries clear but its sharp, extremely localized smell can be picked out by those with sensitive enough noses to make it possible to read by sense of smell. Only creatures with the keen senses trait or scent ability can read stink ink without aid of some form of magic. Reading or writing something with stink ink takes twice as long as going through the same amount of information written in normal ink.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 15"
+			"**Construction:** Craft (Alchemy) DC 15"
 		]
 	},
 	"stirge": {
@@ -4117,8 +3946,7 @@
 			"",
 			"This gritty, gray ointment weakens rocky materials. When applied to an object made of stone, it reduces the object's hardness by 3 for 10 minutes. As a standard action, a creature can apply the paste to affect one 5-foot-square or a Medium or smaller creature. The paste only affects hardness, not damage reduction or similar defenses.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 20"
+			"**Construction:** Craft (Alchemy) DC 20"
 		]
 	},
 	"storm_glass": {
@@ -4144,8 +3972,7 @@
 			"",
 			"This highly viscous liquid resembles tree sap and is difficult to swallow. For 2 hours after drinking this tincture, you gain a +2 alchemical bonus to your CMD and you can perform combat maneuvers as if you were one size category larger. Your skeleton's increased density causes you to be treated as if you were carrying a medium load, or a heavy load if you were already encumbered by a medium load, for the same duration.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 15"
+			"**Construction:** Craft (Alchemy) DC 15"
 		]
 	},
 	"stove_can": {
@@ -4299,8 +4126,7 @@
 			"",
 			"Sun cinder is a fine powder that glows faintly when exposed to light. One bag of this alchemically created talc contains 5 uses. When opened, it shines like a candle. If sprinkled on a torch or similar flame, 1 dose of sun cinder increases the light level of the area that flame illuminates by one additional step, up to bright light. This increased illumination lasts for 1 minute. Multiple doses of sun cinder can be used to further increase the light shed by the same source. A single dose of sun cinder does not affect flames larger than a torch. Sun cinder doesn't affect a light source's ability to penetrate magical darkness. Crafting 5 doses of sun cinder requires a successful DC 20 Craft (alchemy) check.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 20"
+			"**Construction:** Craft (Alchemy) DC 20"
 		]
 	},
 	"sun_cream": {
@@ -4314,8 +4140,7 @@
 			"",
 			"Each application of this alchemical solution, typically compounded from substances found in desert flowers, fruits, and roots, heals 1d4 points of nonlethal damage that the target has taken from heat exposure. If you succeed at a DC 20 Heal check while applying sun cream, you may add your Wisdom modifier to the nonlethal damage healed. A creature cannot benefit from more than one application of sun cream in a 24-hour period.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 20"
+			"**Construction:** Craft (Alchemy) DC 20"
 		]
 	},
 	"sunblock_kohl": {
@@ -4457,8 +4282,7 @@
 			"",
 			"When ingested, this thick red gelatinous substance seeks out and surgically eliminates invasive threats to the body. Consuming surgical jelly immediately ends any {rule/infestations} (such as rot grubs), implanted eggs (such as those implanted by xills), or other non-disease effects that can be cured by {spell/remove disease}, so long as such a cure does not require a caster level check. Consuming a pot of surgical jelly is a full-round action.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 25"
+			"**Construction:** Craft (Alchemy) DC 25"
 		]
 	},
 	"survival_kit_common": {
@@ -4516,8 +4340,7 @@
 			"",
 			"When imbibed, this effervescent solution causes a heavy warmth to spread from your stomach outward to your limbs, resulting in feelings of security and well-being. If you sleep for at least 1 hour after consuming the solution, the next time within the next 24 hours that you attempt a saving throw to remove a temporary negative level, you can roll the save twice and use the better result. Crafting this item requires a successful DC 20 Craft (alchemy) check.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 20"
+			"**Construction:** Craft (Alchemy) DC 20"
 		]
 	},
 	"swift_hands_tonic": {
@@ -4529,10 +4352,9 @@
 			"**Price** 250 gp; **Weight** -  ",
 			"**Category** Alchemical Tools",
 			"",
-			"When imbibed, this bitter, rust-colored concoction grants you 1d4 uses of alchemical inspiration that can be used only on Disable Device checks and Sleight of Hand checks. These benefits last for 1 hour; during this time, you must roll all Acrobatics checks and Escape Artist checks twice and take the worse result.",
+			"When imbibed, this bitter, rust-colored concoction grants you 1d4 uses of {misc/alchemical inspiration} that can be used only on Disable Device checks and Sleight of Hand checks. These benefits last for 1 hour; during this time, you must roll all Acrobatics checks and Escape Artist checks twice and take the worse result.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 20"
+			"**Construction:** Craft (Alchemy) DC 20"
 		]
 	},
 	"swim_fins": {
@@ -4592,8 +4414,7 @@
 			"**Effects** 1 hour; +2 alchemical bonus on saving throws against spells and effects with the curse or disease descriptor, fatigue  ",
 			"**Damage** 1d2 Wis damage",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 14"
+			"**Construction:** Craft (Alchemy) DC 14"
 		]
 	},
 	"tabard": {
@@ -4992,8 +4813,7 @@
 			"",
 			"This orange liquid invigorates the mind. For 1 hour after drinking this tincture, you gain a +2 alchemical bonus on Knowledge checks and can attempt untrained Knowledge checks if the DC is 15 or lower. This saps your energy, imposing a -4 penalty on Fortitude saving throws for the same duration.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 25"
+			"**Construction:** Craft (Alchemy) DC 25"
 		]
 	},
 	"thrush": {
@@ -5036,8 +4856,7 @@
 			"",
 			"This intricate glass and metal jug vibrates gently, and contains a light cloud of white vapor and crackling blue electricity. Djinn of the Plane of Air use thunder kettles to capture the essence of air and lightning elementals within planar super storms. When uncorked as a standard action, a thunder kettle releases a rumbling cacophony of thunder in a 10-foot-radius burst. Creatures in the area must succeed at a DC 16 Fortitude save or take 1d6 points of sonic damage and become staggered for 1 round. A successful save halves the damage and negates the staggered condition. This item can be crafted with a successful DC 25 Craft (alchemy) check.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 25"
+			"**Construction:** Craft (Alchemy) DC 25"
 		]
 	},
 	"thurible": {
@@ -5056,32 +4875,6 @@
 			"When filled with coal and common herbs worth 2 sp, this miniature brazier fills an area 30 feet in diameter with light smoke for 1 hour. Any creature in the area of this smoke gains a +2 circumstance bonus on Fortitude saves to resist inhaled diseases."
 		]
 	},
-	"thylacine": {
-		"name": "Thylacine",
-		"sources": [ "Animal Archive" ],
-		"description": [
-			"## Thylacine",
-			"{SOURCE Animal Archive/15}  ",
-			"**Price** 18 gp; **Weight** -  ",
-			"**Category** Mounts/Pets",
-			"",
-			"This animal may be purchased already combat-trained at the GM's discretion, and typically cost an amount equal to 1-1/2 &times; the price of the standard animal."
-		]
-	},
-	"tiger_combat_trained": {
-		"name": "Tiger (combat-trained)",
-		"sources": [ "Animal Archive" ],
-		"description": [
-			"## Tiger",
-			"{SOURCE Animal Archive}",
-			"",
-			"When reared from birth, these animals can easily be ridden by Small or Medium humanoids, depending on the animal's size."
-		]
-	},
-	"tiger_common": {
-		"name": "Tiger (common)",
-		"copyof": "tiger_combat_trained"
-	},
 	"tillers_gum": {
 		"name": "Tiller's gum",
 		"sources": [
@@ -5096,8 +4889,7 @@
 			"",
 			"This gum has alchemical properties that allow it to soak up magical energy and release it when the gum is chewed. As a standard action, a stick of tiller's gum can be imbued with a spell of up to 3rd level with a casting time of less than 1 minute and that targets one or more creatures, as if the gum were the target of the spell. The gum holds the spell's charge for 1 hour, during which time a creature capable of casting the stored spell can chew the gum as a standard action to gain the spell's effects, expending the stored spell and destroying the gum. The stored spell uses the original caster's level to determine its effects. If the spell-imbued gum isn't used before an hour passes, it is ruined. Crafting a stick of tiller's gum requires a successful DC 20 Craft (alchemy) check.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 20"
+			"**Construction:** Craft (Alchemy) DC 20"
 		]
 	},
 	"tindertwig": {
@@ -5142,8 +4934,7 @@
 			"",
 			"Gravel floats in this umber liquid. For 1 hour after drinking this tincture, you gain a +1 alchemical bonus to natural armor and a +2 alchemical bonus on Strength checks and Strength-based skill checks. The tonic swells your musculature, decreasing your movement speed by 5 feet, to a minimum of 5 feet, and causing you to take a -4 penalty on Reflex saving throws for the same duration.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 25"
+			"**Construction:** Craft (Alchemy) DC 25"
 		]
 	},
 	"toad_vision": {
@@ -5224,18 +5015,6 @@
 			"A tossglove is a hefty leather and metal glove made for holding and throwing an insect, snake, or other tiny creature that would otherwise bite the goblin. Those who don't use a tossglove when attempting to sling such creatures provoke an attack of opportunity from the animal they attempt to throw or stash. The glove has overlapping plates that cover the goblin's arm up to the elbow. It's a full-round action to put on or take off a tossglove, and while it's worn, that hand can't be used to perform acts of fine manipulation (such as making a Disable Device check or firing an arrow). The gloved hand can still wield a melee weapon."
 		]
 	},
-	"toucan": {
-		"name": "Toucan",
-		"sources": [ "Animal Archive" ],
-		"description": [
-			"## Toucan",
-			"{SOURCE Animal Archive/15}  ",
-			"**Price** 40 gp; **Weight** -  ",
-			"**Category** Mounts/Pets",
-			"",
-			"This animal may be purchased already combat-trained at the GM's discretion, and typically cost an amount equal to 1-1/2 &times; the price of the standard animal."
-		]
-	},
 	"toxic_censer": {
 		"name": "Toxic censer",
 		"sources": [ "Potions and Poisons" ],
@@ -5283,8 +5062,7 @@
 			"",
 			"When inhaled, this finely ground, alchemically treated tobacco greatly enhances your senses, especially your sense of smell. It grants the scent ability and a +2 alchemical bonus on Perception checks for 1 hour. However, once the effect wears off your body is wracked with terrible pain as your joints begin to stiffen and seize, dealing 1d2 points of Dexterity damage to you.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 30"
+			"**Construction:** Craft (Alchemy) DC 30"
 		]
 	},
 	"tracking_powder": {
@@ -5298,8 +5076,7 @@
 			"",
 			"When you scatter this very fine pale blue powder on the ground, it reveals the tracks of any creatures or individuals that have passed through the area within the last 48 hours. The powder also grants you a +10 alchemical bonus on Survival checks to follow tracks or, if you aren't trained in Survival, instead allows you to track creatures whose prints are revealed by the powder for up to 1 mile using Perception instead of Survival. A single application can cover an area of up to 60 square feet. Tracking powder is sold in small leather pouches that hold 10 applications each.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 25"
+			"**Construction:** Craft (Alchemy) DC 25"
 		]
 	},
 	"trail_rations": {
@@ -5328,8 +5105,7 @@
 			"",
 			"This small box of specially prepared catfolk pheromones and alchemical reagents can be used to leave a small group of subtle but long-lasting scents that only catfolk can smell and decipher. Given a minute, a catfolk can create a scent mixture and apply it to a solid object, such as a tree, a wall, or even a smaller item such as a weapon or potion vial. When the catfolk does this, it leaves one of the following scent impressions: danger, food, shelter, or possession. The possession impression is always keyed to the specific catfolk using the kit, and signifies that she owns the territory or item. Other races can attempt to use this kit to create the danger, food, or shelter impression, but doing so requires a successful DC 20 Craft (alchemy) check. A catfolk can detect a particular scent applied with a trailscent kit from 30 feet away. If the scent is upwind, the range at which a catfolk can detect the scent increases to 60 feet; if it is downwind, the range drops to 15 feet. A catfolk with the scent racial quality doubles those distances. A scent impression lasts for 1 year or until it is washed away. Each kit has 10 uses.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 25"
+			"**Construction:** Craft (Alchemy) DC 25"
 		]
 	},
 	"training_harness": {

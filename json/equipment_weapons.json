@@ -2436,7 +2436,7 @@
 			"A brass knife has the [fragile quality](rule/broken_and_fragile). A fragile weapon gains the broken condition if the wielder rolls a natural 1 on an attack roll with the weapon. If a fragile weapon is already broken, rolling a natural 1 destroys it instead.",
 			"",
 			"**Cost** 2 gp **Weight** 1 lb.  ",
-			"**Damage** 1d3 (small), 1d4 (medium); **Critical** 19-20/&times;2; **Range** 10 ft.; **Type** P or S; **Special** fragile  ",
+			"**Damage** 1d3 (small), 1d4 (medium); **Critical** 19-20/&times;2; **Range** 10 ft.; **Type** P or S; **Special** {misc/fragile}  ",
 			"**Category** Light; **Proficiency** Simple"
 		],
 		"topLink": [ "Light Weapons", "main/equipment_weapons_light" ]
@@ -2455,7 +2455,7 @@
 			"These weapons fit snugly around the knuckles and allow you to deal lethal damage with an unarmed strike. You may hold, but not wield, a weapon or other object in a hand wearing brass knuckles. You may cast a spell with a somatic component while wearing brass knuckles if you make a successful {rule/concentration} check (DC 10 + the level of the spell you're casting). Monks are proficient with brass knuckles. Brass knuckles can't be disarmed.",
 			"",
 			"**Cost** 1 gp **Weight** 1 lb.  ",
-			"**Damage** 1d2 (small), 1d3 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** monk, see text  ",
+			"**Damage** 1d2 (small), 1d3 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** {misc/monk}, see text  ",
 			"**Category** Light; **Proficiency** Simple  ",
 			"**{ability/Weapon Group>s}** Close; Monk"
 		],
@@ -2475,7 +2475,7 @@
 			"The cestus is a glove of leather or thick cloth that covers the wielder from mid-finger to mid-forearm. The close combat weapon is reinforced with metal plates over the fingers and often lined with wicked spikes along the backs of the hands and wrists. While wearing a cestus, you are considered armed and your unarmed attacks deal lethal damage. If you are proficient with a cestus, you can have your unarmed strikes deal bludgeoning or piercing damage. Monks are proficient with the cestus. When using a cestus, your fingers are mostly exposed, allowing you to wield or carry items in that hand, but the constriction of the weapon at your knuckles gives you a -2 penalty on all precision-based tasks involving that hand (such as opening locks). A cestus can't be disarmed.",
 			"",
 			"**Cost** 5 gp **Weight** 1 lb.  ",
-			"**Damage** 1d3 (small), 1d4 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** B or P; **Special** monk, see text  ",
+			"**Damage** 1d3 (small), 1d4 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** B or P; **Special** {misc/monk}, see text  ",
 			"**Category** Light; **Proficiency** Simple  ",
 			"**{ability/Weapon Group>s}** Close; Monk"
 		],
@@ -2529,7 +2529,7 @@
 			"The hanbo is a staff less than a yard long, often carved to look like a walking stick.",
 			"",
 			"**Cost** 1 gp **Weight** 2 lbs.  ",
-			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** monk, trip  ",
+			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** {misc/monk}, {misc/trip}  ",
 			"**Category** Light; **Proficiency** Simple  ",
 			"**{ability/Weapon Group>s}** Monk"
 		],
@@ -2564,7 +2564,7 @@
 			"Pirates who lose a hand in the course of their adventures sometimes attach hooks to their wrists. Hook hands can't be disarmed. They generally don't interfere with day-to-day activities, but can't be used for tasks that would require an actual hand (such as completing somatic components, drawing arrows, or holding a weapon with both hands).",
 			"",
 			"**Cost** 10 gp **Weight** 1 lb.  ",
-			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** -; **Type** S; **Special** disarm  ",
+			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** -; **Type** S; **Special** {misc/disarm}  ",
 			"**Category** Light; **Proficiency** Simple"
 		],
 		"topLink": [ "Light Weapons", "main/equipment_weapons_light" ]
@@ -2653,7 +2653,7 @@
 			"Originating as a farming tool used for reaping grain, this one-handed weapon has a blade with a strong curve that can easily catch an opponent's limb or armor. Its blade can be either smooth or serrated, and some fighting sickles are sharpened on both sides near the point, making it easier to hook into an opponent's flesh.",
 			"",
 			"**Cost** 6 gp **Weight** 2 lbs.  ",
-			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** S; **Special** trip  ",
+			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** S; **Special** {misc/trip}  ",
 			"**Category** Light; **Proficiency** Simple  ",
 			"**{ability/Weapon Group>s}** Blades, Light"
 		],
@@ -2669,7 +2669,7 @@
 			"This wickedly curved sickle is cast in the form of a segmented spider's leg. It has the same statistics as a normal sickle and can trip opponents, but deals piercing damage rather than slashing damage. The leatherwrapped handle contains a hollow recess that can hold a single dose of poison. Filling the reservoir is a full-round action that carries the usual risks of poisoning yourself. Once filled, the reservoir keeps the blade saturated and viable for up to 2 hours. The first successful attack made with the spider-leg sickle during this time administers and expends the dose of poison. Mog-Lathar's deacons carry masterwork versions of these weapons. The cult uses blue whinnis poison, and within the radius of the dreamstone's effects the unconsciousness effect may trigger lucid dreaming.",
 			"",
 			"**Cost** 15 gp **Weight** 2 lbs.  ",
-			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** P; **Special** trip  ",
+			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** P; **Special** {misc/trip}  ",
 			"**Category** Light; **Proficiency** Simple"
 		],
 		"topLink": [ "Light Weapons", "main/equipment_weapons_light" ]
@@ -2718,7 +2718,7 @@
 			"These small tea kettles are made with clamping lids and heavily reinforced handles, allowing them to be swung like a club. A traveling kettle with boiling water inside deals an additional 1 point of fire damage on a hit. Boiling water cools to a non-damaging temperature after 5 minutes.",
 			"",
 			"**Cost** 5 gp **Weight** 2 lbs.  ",
-			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** monk, see text  ",
+			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** {misc/monk}, see text  ",
 			"**Category** Light; **Proficiency** Simple  ",
 			"**{ability/Weapon Group>s}** Monk"
 		],
@@ -2755,7 +2755,7 @@
 			"These weapons are treated sticks of wood, either left bare or covered in elaborate decorative designs. Baston fighting sticks vary in length from 2 to 4 feet, with thicknesses varying between 1 to 3 inches. In most applications, these weapons are similar to clubs or quarterstaffs, but in the hands of a trained expert, they truly shine. A creature with the {feat/Combat Reflexes} feat treats the weapon as having the blocking and performance weapon special features.",
 			"",
 			"**Cost** 10 gp **Weight** 2 lbs.  ",
-			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** monk, see text  ",
+			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** {misc/monk}, see text  ",
 			"**Category** One-Handed; **Proficiency** Simple"
 		],
 		"topLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
@@ -2811,7 +2811,7 @@
 			"A Stone Age weapon traditionally made of carved stone, a mere (MEH-reh) is a short, flat-sided, sharp-pointed club.",
 			"",
 			"**Cost** 2 gp **Weight** 2 lbs.  ",
-			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** -; **Type** B or P; **Special** fragile  ",
+			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** -; **Type** B or P; **Special** {misc/fragile}  ",
 			"**Category** One-Handed; **Proficiency** Simple  ",
 			"**{ability/Weapon Group>s}** Close; Hammers"
 		],
@@ -2893,7 +2893,7 @@
 			"This spear has a metal crossbar to protect you against onrushing attackers. If you ready a boar spear against a charge and your attack hits, you gain a +2 shield bonus to your AC against that creature until your next turn.",
 			"",
 			"**Cost** 5 gp **Weight** 8 lbs.  ",
-			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;2; **Range** -; **Type** P; **Special** brace, see text  ",
+			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;2; **Range** -; **Type** P; **Special** {misc/brace}, see text  ",
 			"**Category** Two-Handed; **Proficiency** Simple  ",
 			"**{ability/Weapon Group>s}** Spears"
 		],
@@ -2912,7 +2912,7 @@
 			"A boarding pike is an 8-foot-long pole topped with a foot-long tapered metal tip. Boarding pikes look much like longspears, but the metal pike is designed to flow into the wooden haft, leaving no grooves, collars, or spikes that could trap salt water and cause rust. Boarding pikes are mainly used defensively, to repel boarding actions. The pikes are kept in brackets around the mast, so sailors can quickly grab pikes and brace them against the gunwale to repel boarders.",
 			"",
 			"**Cost** 8 gp **Weight** 9 lbs.  ",
-			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;3; **Range** -; **Type** P; **Special** brace, reach  ",
+			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;3; **Range** -; **Type** P; **Special** {misc/brace}, {misc/reach}  ",
 			"**Category** Two-Handed; **Proficiency** Simple"
 		],
 		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
@@ -2927,7 +2927,7 @@
 			"Adapted from a garden rake, the kumade consists of a wood or bamboo pole topped with a metal claw. The rake head doubles as a {eq-weapon/grappling hook}. When a kumade is secured to a surface, such as a rafter or window sill, its handle can be climbed as a 5-foot length of rope.",
 			"",
 			"**Cost** 5 gp **Weight** 4 lbs.  ",
-			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;3; **Range** -; **Type** P; **Special** grapple  ",
+			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;3; **Range** -; **Type** P; **Special** {misc/grapple}  ",
 			"**Category** Two-Handed; **Proficiency** Simple  ",
 			"**{ability/Weapon Group>s}** Axes"
 		],
@@ -2943,7 +2943,7 @@
 			"This weapon acts as a {eq-weapon/kumade}, but the handle consists of bamboo sections held together by a taut rope running through the center. Releasing the rope is a standard action that provokes attacks of opportunity and causes the weapon to collapse into a bundle that fits into a backpack. Reassembling the collapsible kumade requires a full-round action that provokes attacks of opportunity.",
 			"",
 			"**Cost** 10 gp **Weight** 4 lbs.  ",
-			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;3; **Range** -; **Type** P; **Special** grapple  ",
+			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;3; **Range** -; **Type** P; **Special** {misc/grapple}  ",
 			"**Category** Two-Handed; **Proficiency** Simple  ",
 			"**{ability/Weapon Group>s}** Axes"
 		],
@@ -2978,7 +2978,7 @@
 			"A longspear is about 8 feet in length.",
 			"",
 			"**Cost** 5 gp **Weight** 9 lbs.  ",
-			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;3; **Range** -; **Type** P; **Special** brace, reach  ",
+			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;3; **Range** -; **Type** P; **Special** {misc/brace}, {misc/reach}  ",
 			"**Category** Two-Handed; **Proficiency** Simple  ",
 			"**{ability/Weapon Group>s}** Spears"
 		],
@@ -2997,7 +2997,7 @@
 			"A quarterstaff is a simple piece of wood, about 5 feet in length. In battle, it's held with one hand at the butt and the other a quarter of the way up the staff, allowing it to block blows and make quick strikes.",
 			"",
 			"**Cost** - **Weight** 4 lbs.  ",
-			"**Damage** 1d4/1d4 (small), 1d6/1d6 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** double, monk  ",
+			"**Damage** 1d4/1d4 (small), 1d6/1d6 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** {misc/double}, {misc/monk}  ",
 			"**Category** Two-Handed; **Proficiency** Simple  ",
 			"**{ability/Weapon Group>s}** Double; Monk"
 		],
@@ -3016,7 +3016,7 @@
 			"A spear is 5 feet in length and can be thrown.",
 			"",
 			"**Cost** 2 gp **Weight** 6 lbs.  ",
-			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;3; **Range** 20 ft.; **Type** P; **Special** brace  ",
+			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;3; **Range** 20 ft.; **Type** P; **Special** {misc/brace}  ",
 			"**Category** Two-Handed; **Proficiency** Simple  ",
 			"**{ability/Weapon Group>s}** Spears; Thrown; Tribal"
 		],
@@ -3032,7 +3032,7 @@
 			"This pole has a spear head at one end and a mace head at the other. It can be wielded like a standard spear (though it isn't balanced for throwing), or it can be used as a double weapon, alternately thrusting and bashing.",
 			"",
 			"**Cost** 10 gp **Weight** 8 lbs.  ",
-			"**Damage** 1d6/1d4 (small), 1d8/1d6 (medium); **Critical** &times;3/&times;2; **Range** -; **Type** B or P; **Special** brace, double  ",
+			"**Damage** 1d6/1d4 (small), 1d8/1d6 (medium); **Critical** &times;3/&times;2; **Range** -; **Type** B or P; **Special** {misc/brace}, {misc/double}  ",
 			"**Category** Two-Handed; **Proficiency** Simple  ",
 			"**{ability/Weapon Group>s}** Double; Spears"
 		],
@@ -3288,7 +3288,7 @@
 			"These short matching swords come in pairs, cleverly nested together to appear as a single blade. Both weapons can be drawn at the same time, and they can be separated as a free action and wielded in both hands to make wickedly effective chops and slashes. Their thin, broad blades extend just 1 foot in length. A butterfly sword has a hardwood grip covered with braided cord, and a metal D-shaped guard to protect the wielder's hand. The listed price is for a pair of butterfly swords. Masterwork butterfly swords cost 320 gp for the pair. If you add magical enhancement bonuses or properties to a butterfly sword, treat each sword in the pair as a separate weapon (for example, adding a +1 magical enhancement bonus to a pair of masterwork butterfly swords costs 4,000 gp).",
 			"",
 			"**Cost** 20 gp **Weight** 1 lb.  ",
-			"**Damage** 1d3 (small), 1d4 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** S; **Special** monk  ",
+			"**Damage** 1d3 (small), 1d4 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** S; **Special** {misc/monk}  ",
 			"**Category** Light; **Proficiency** Martial  ",
 			"**{ability/Weapon Group>s}** Blades, Light; Monk"
 		],
@@ -3308,7 +3308,7 @@
 			"This short whip is made of nine knotted thongs about 3 feet in length. A cat-o'-nine-tails deals no damage to any creature with an armor bonus of +1 or higher or a natural armor bonus of +3 or higher.",
 			"",
 			"**Cost** 1 gp **Weight** 1 lb.  ",
-			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** -; **Type** S; **Special** disarm, nonlethal  ",
+			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** -; **Type** S; **Special** {misc/disarm}, {misc/nonlethal}  ",
 			"**Category** Light; **Proficiency** Martial  ",
 			"**{ability/Weapon Group>s}** Flails"
 		],
@@ -3331,7 +3331,7 @@
 			"This short, curved blade was created by goblins, who often drill numerous holes into it in an attempt to reduce its weight. Most dogslicers are sized for Small creatures.",
 			"",
 			"**Cost** 8 gp **Weight** 1 lb.  ",
-			"**Damage** 1d4 (small), 1d6 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** S; **Special** fragile  ",
+			"**Damage** 1d4 (small), 1d6 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** S; **Special** {misc/fragile}  ",
 			"**Category** Light; **Proficiency** Martial  ",
 			"**{ability/Weapon Group>s}** Blades, Light"
 		],
@@ -3366,7 +3366,7 @@
 			"The gladius is the favorite sword of gladiators, with a heavier blade than the standard shortsword. Feats and abilities that affect shortswords apply to the gladius.",
 			"",
 			"**Cost** 15 gp **Weight** 3 lbs.  ",
-			"**Damage** 1d4 (small), 1d6 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** P or S; **Special** performance  ",
+			"**Damage** 1d4 (small), 1d6 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** P or S; **Special** {misc/performance}  ",
 			"**Category** Light; **Proficiency** Martial  ",
 			"**{ability/Weapon Group>s}** Blades, Light"
 		],
@@ -3423,7 +3423,7 @@
 			"This batonlike weapon is fitted with a metal hook that can be used to block and pin an opponent's weapon. Some variations are tipped with a sharpened metal spike or blade.",
 			"",
 			"**Cost** 8 gp **Weight** 1 lb.  ",
-			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** disarm, monk  ",
+			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** {misc/disarm}, {misc/monk}  ",
 			"**Category** Light; **Proficiency** Martial  ",
 			"**{ability/Weapon Group>s}** Monk"
 		],
@@ -3538,7 +3538,7 @@
 			"What seems to be an ordinary baton sheaths a pair of matching slender-bladed daggers - perfectly balanced throwing blades.",
 			"",
 			"**Cost** 5 gp **Weight** 1 lb.  ",
-			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** 10 ft.; **Type** P or S; **Special** monk  ",
+			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** 10 ft.; **Type** P or S; **Special** {misc/monk}  ",
 			"**Category** Light; **Proficiency** Martial"
 		],
 		"topLink": [ "Light Weapons", "main/equipment_weapons_light" ]
@@ -3572,7 +3572,7 @@
 			"This weapon consists of a soft wrapping around a hard, dense core, typically a leather sheath around a lead rod. The head is wider than the handle and designed to spread out the force of the blow, making it less likely to draw blood or break bones.",
 			"",
 			"**Cost** 1 gp **Weight** 2 lbs.  ",
-			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** nonlethal  ",
+			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** {misc/nonlethal}  ",
 			"**Category** Light; **Proficiency** Martial  ",
 			"**{ability/Weapon Group>s}** Close"
 		],
@@ -3606,7 +3606,7 @@
 			"Forged in pairs, these solid metal blades end in curved hooks, while the hand guards are hammered into outward-facing spiked crescents. Both the crescent and the tip of the hilt are sharpened for combat. They can be wielded as single weapons or with two-weapon fighting styles. These weapons gain the disarm special feature when they are used individually. A pair of shang gou can also be formed into a single one-handed weapon to gain the trip special feature.",
 			"",
 			"**Cost** 6 gp **Weight** 1 lb.  ",
-			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** -; **Type** S; **Special** disarm or trip, monk  ",
+			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** -; **Type** S; **Special** {misc/disarm} or {misc/trip}, {misc/monk}  ",
 			"**Category** Light; **Proficiency** Martial  ",
 			"**{ability/Weapon Group>s}** Monk"
 		],
@@ -3716,7 +3716,7 @@
 			"These L-shaped fighting batons are good for striking and blocking. The wielder holds the handle and either spins the stick or strikes with the stick covering the forearm.",
 			"",
 			"**Cost** 1 gp **Weight** 1 lb.  ",
-			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** blocking, monk  ",
+			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** {misc/blocking}, {misc/monk}  ",
 			"**Category** Light; **Proficiency** Martial  ",
 			"**{ability/Weapon Group>s}** Close; Monk"
 		],
@@ -3757,7 +3757,7 @@
 			"This sharpened wooden spike can be used as a punching weapon, but it is also perfectly balanced for throwing.",
 			"",
 			"**Cost** 0.2 gp **Weight** -  ",
-			"**Damage** 1d2 (small), 1d3 (medium); **Critical** &times;2; **Range** 10 ft.; **Type** P; **Special** monk  ",
+			"**Damage** 1d2 (small), 1d3 (medium); **Critical** &times;2; **Range** 10 ft.; **Type** P; **Special** {misc/monk}  ",
 			"**Category** Light; **Proficiency** Martial  ",
 			"**{ability/Weapon Group>s}** Close; Monk; Thrown"
 		],
@@ -3773,7 +3773,7 @@
 			"Also known as an elephant goad, this tool consists of a 2- to 3-foot rod ending in a spearhead and a backward-facing hook. Traditionally used to train and direct large animals, the ankus can be used as a weapon in a pinch.",
 			"",
 			"**Cost** 8 gp **Weight** 5 lbs.  ",
-			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;2; **Range** -; **Type** P; **Special** disarm, trip  ",
+			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;2; **Range** -; **Type** P; **Special** {misc/disarm}, {misc/trip}  ",
 			"**Category** One-Handed; **Proficiency** Martial  ",
 			"**{ability/Weapon Group>s}** Blades, Heavy"
 		],
@@ -3863,7 +3863,7 @@
 			"The tip of this 3-foot-long, straight-bladed sword is bent into two staggered, opposing sharpened spurs that can be used to pull weapons from an opponent's hands.",
 			"",
 			"**Cost** 12 gp **Weight** 3 lbs.  ",
-			"**Damage** 1d4 (small), 1d6 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** S; **Special** disarm, monk  ",
+			"**Damage** 1d4 (small), 1d6 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** S; **Special** {misc/disarm}, {misc/monk}  ",
 			"**Category** One-Handed; **Proficiency** Martial  ",
 			"**{ability/Weapon Group>s}** Blades, Heavy; Monk"
 		],
@@ -3917,7 +3917,7 @@
 			"A light flail consists of a weighted striking end connected to a handle by a sturdy chain. Though often imagined as a ball, sometimes spiked like the head of a morningstar, the head of a light flail can actually take many different shapes, such as short bars. Military flails are sturdier evolutions of agricultural flails, which are used for threshing: beating stacks of grains to separate the useful grains from their husks.",
 			"",
 			"**Cost** 8 gp **Weight** 5 lbs.  ",
-			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** disarm, trip  ",
+			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** {misc/disarm}, {misc/trip}  ",
 			"**Category** One-Handed; **Proficiency** Martial  ",
 			"**{ability/Weapon Group>s}** Flails"
 		],
@@ -3953,7 +3953,7 @@
 			"This rigid, fingerless gauntlet has three blades projecting from the gauntlet's hand. The central blade is straight and double edged, while the side blades are curved like the prongs of a sai. You can't use the hand on which a manople is worn for anything else. A manople takes a full-round action to don, and gives you a +10 bonus to your CMD against disarm attempts.",
 			"",
 			"**Cost** 17 gp **Weight** 4 lbs.  ",
-			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;2; **Range** -; **Type** P or S; **Special** blocking, disarm  ",
+			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;2; **Range** -; **Type** P or S; **Special** {misc/blocking}, {misc/disarm}  ",
 			"**Category** One-Handed; **Proficiency** Martial  ",
 			"**{ability/Weapon Group>s}** Blades, Light"
 		],
@@ -3972,7 +3972,7 @@
 			"This broad-bladed weapon has nine heavy rings threaded through its spine, providing additional weight to add to the force of its impressive chopping power.",
 			"",
 			"**Cost** 15 gp **Weight** 4 lbs.  ",
-			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;3; **Range** -; **Type** S; **Special** monk  ",
+			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;3; **Range** -; **Type** S; **Special** {misc/monk}  ",
 			"**Category** One-Handed; **Proficiency** Martial  ",
 			"**{ability/Weapon Group>s}** Blades, Heavy; Monk"
 		],
@@ -4030,7 +4030,7 @@
 			"The scizore is a hardened tube that fits over the forearm, ending in a semicircular blade used for devastating bladed punch attacks. The scizore grants a +1 shield bonus to AC, but if you attack with the blade, you lose the AC bonus that round and take a -1 penalty on attack rolls with it. While wearing a scizore, you cannot use that hand for anything else. A scizore provides a +10 bonus to your CMD against being disarmed of your scizore. Donning a scizore is a full-round action.",
 			"",
 			"**Cost** 20 gp **Weight** 3 lbs.  ",
-			"**Damage** 1d8 (small), 1d10 (medium); **Critical** &times;2; **Range** -; **Type** P; **Special** performance  ",
+			"**Damage** 1d8 (small), 1d10 (medium); **Critical** &times;2; **Range** -; **Type** P; **Special** {misc/performance}  ",
 			"**Category** One-Handed; **Proficiency** Martial  ",
 			"**{ability/Weapon Group>s}** Blades, Light; Close"
 		],
@@ -4050,7 +4050,7 @@
 			"This weapon is similar to a shortspear with a flexible rattan or bamboo shaft and an elaborately barbed head. The barbs can snag flesh, clothing, or armor to ensnare an enemy.",
 			"",
 			"**Cost** 2 gp **Weight** 2 lbs.  ",
-			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;3; **Range** 10 ft.; **Type** P or S; **Special** grapple  ",
+			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;3; **Range** 10 ft.; **Type** P or S; **Special** {misc/grapple}  ",
 			"**Category** One-Handed; **Proficiency** Martial  ",
 			"**{ability/Weapon Group>s}** Spears; Thrown"
 		],
@@ -4088,7 +4088,7 @@
 			"This Stone Age weapon, also called a macuahuitl, is made from a length of tempered wood. It has bits of shark teeth, obsidian, glass, or similar materials studded all along its length.",
 			"",
 			"**Cost** 5 gp **Weight** 2 lbs.  ",
-			"**Damage** 1d6 (small), 1d8 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** S; **Special** fragile  ",
+			"**Damage** 1d6 (small), 1d8 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** S; **Special** {misc/fragile}  ",
 			"**Category** One-Handed; **Proficiency** Martial  ",
 			"**{ability/Weapon Group>s}** Blades, Heavy"
 		],
@@ -4123,7 +4123,7 @@
 			"A trident has three metal prongs at end of a 4-foot-long shaft. This weapon can be thrown.",
 			"",
 			"**Cost** 15 gp **Weight** 4 lbs.  ",
-			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;2; **Range** 10 ft.; **Type** P; **Special** brace  ",
+			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;2; **Range** 10 ft.; **Type** P; **Special** {misc/brace}  ",
 			"**Category** One-Handed; **Proficiency** Martial  ",
 			"**{ability/Weapon Group>s}** Spears; Thrown"
 		],
@@ -4162,7 +4162,7 @@
 			"The crescent axe-blade of this polearm is attached to the haft at two points: the center of the blade attaches to a socket at the top of the haft, and the lower point of the blade attaches to a secondary mount point. The blade is often very long, sometimes almost as long as the haft. You gain a +2 bonus to your CMD to resist sunder attempts made against a bardiche.",
 			"",
 			"**Cost** 13 gp **Weight** 14 lbs.  ",
-			"**Damage** 1d8 (small), 1d10 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** S; **Special** brace, reach, see text  ",
+			"**Damage** 1d8 (small), 1d10 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** S; **Special** {misc/brace}, {misc/reach}, see text  ",
 			"**Category** Two-Handed; **Proficiency** Martial  ",
 			"**{ability/Weapon Group>s}** Axes; Polearms"
 		],
@@ -4182,7 +4182,7 @@
 			"The bec de corbin is a polearm very similar to the lucerne hammer, but the hammer head is slightly blunter and the spike is stouter and more hooked. You primarily attack with the spike. You gain a +2 bonus on combat maneuver checks to sunder medium or heavy armor with a bec de corbin.",
 			"",
 			"**Cost** 15 gp **Weight** 12 lbs.  ",
-			"**Damage** 1d8 (small), 1d10 (medium); **Critical** &times;3; **Range** -; **Type** B or P; **Special** brace, reach, see text  ",
+			"**Damage** 1d8 (small), 1d10 (medium); **Critical** &times;3; **Range** -; **Type** B or P; **Special** {misc/brace}, {misc/reach}, see text  ",
 			"**Category** Two-Handed; **Proficiency** Martial  ",
 			"**{ability/Weapon Group>s}** Polearms"
 		],
@@ -4202,7 +4202,7 @@
 			"The blade of this polearm is a curved or hooked chopping blade with a spiked projection on the back of the blade. The spike is commonly used to block and parry. When fighting defensively or with full defense, this weapon gives you a +1 shield bonus to AC. A mounted opponent hit by a bill takes a -1 penalty on his Ride check to stay mounted.",
 			"",
 			"**Cost** 11 gp **Weight** 11 lbs.  ",
-			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;3; **Range** -; **Type** S; **Special** brace, disarm, reach, see text  ",
+			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;3; **Range** -; **Type** S; **Special** {misc/brace}, {misc/disarm}, {misc/reach}, see text  ",
 			"**Category** Two-Handed; **Proficiency** Martial  ",
 			"**{ability/Weapon Group>s}** Polearms"
 		],
@@ -4264,7 +4264,7 @@
 			"A glaive is composed of a simple blade mounted on the end of a pole about 7 feet in length.",
 			"",
 			"**Cost** 8 gp **Weight** 10 lbs.  ",
-			"**Damage** 1d8 (small), 1d10 (medium); **Critical** &times;3; **Range** -; **Type** S; **Special** reach  ",
+			"**Damage** 1d8 (small), 1d10 (medium); **Critical** &times;3; **Range** -; **Type** S; **Special** {misc/reach}  ",
 			"**Category** Two-Handed; **Proficiency** Martial  ",
 			"**{ability/Weapon Group>s}** Polearms"
 		],
@@ -4284,7 +4284,7 @@
 			"This polearm combines the blade of a glaive with a wicked hook. A mounted opponent hit by a glaive-guisarme takes a -2 penalty on her Ride check to stay mounted.",
 			"",
 			"**Cost** 12 gp **Weight** 10 lbs.  ",
-			"**Damage** 1d8 (small), 1d10 (medium); **Critical** &times;3; **Range** -; **Type** S; **Special** brace, reach, see text  ",
+			"**Damage** 1d8 (small), 1d10 (medium); **Critical** &times;3; **Range** -; **Type** S; **Special** {misc/brace}, {misc/reach}, see text  ",
 			"**Category** Two-Handed; **Proficiency** Martial  ",
 			"**{ability/Weapon Group>s}** Polearms"
 		],

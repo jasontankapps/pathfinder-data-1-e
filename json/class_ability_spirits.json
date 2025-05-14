@@ -888,7 +888,7 @@
 			"- You must tempt others whenever the opportunity arises",
 			"- You must destroy or despoil all holy sites and relics that you encounter, if doing so would not put you in obvious danger",
 			"",
-			"**Summon Devil (Intermediate, Sp):** You can summon a denizen of Hell as a standard action. This functions as per {spell/summon monster II}, but you can summon only animals with the {template/fiendish/ template} or outsiders with the {subtype/devil} subtype. This ability can summon only one creature, regardless of the list used. For every 2 medium levels beyond 6th, the level of the summon monster spell increases by 1 (to a maximum of `summon monster IX` at 20th level). You can use this ability a number of times per day equal to 3 + your Charisma modifier.",
+			"**Summon Devil (Intermediate, Sp):** You can summon a denizen of Hell as a standard action. This functions as per {spell/summon monster II}, but you can summon only animals with the {template/fiendish/ template} or outsiders with the {subtype/devil} subtype. This ability can summon only one creature, regardless of the list used. For every 2 medium levels beyond 6th, the level of the summon monster spell increases by 1 (to a maximum of {spell/summon monster IX} at 20th level). You can use this ability a number of times per day equal to 3 + your Charisma modifier.",
 			"",
 			"**See in Darkness (Gift, Su):** You gain darkvision 30 feet. If you already have darkvision, your darkvision range increases by 30 feet instead. This darkvision allows you to see perfectly in darkness of any kind, even that created by a {spell/deeper darkness} spell."
 		],

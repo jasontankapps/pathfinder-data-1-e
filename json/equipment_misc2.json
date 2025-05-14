@@ -50,8 +50,7 @@
 			"",
 			"When this unguent - prepared with vile alchemical reagents and the gore of fiends - is applied to a wounded tiefling or evil outsider (not currently at maximum hit points), it momentarily transforms the essence of the target into something even more fearsome and demonic. While under the effects of a fiendgore unguent, a tiefling or an evil outsider gains a +2 circumstance bonus on Intimidate checks and a +1 circumstance bonus to the DC of all spells with the fear descriptor that they cast. Applying the unguent is a delicate process, requiring a full-round action, and can only be properly applied to a willing or helpless creature. If applied to a creature other than a tiefling or an evil outsider, it sickens the creature instead. The unguent's effects (either beneficial or harmful) last for 1 minute.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 20"
+			"**Construction:** Craft (Alchemy) DC 20"
 		]
 	},
 	"fiendslayers_kit": {
@@ -161,8 +160,7 @@
 			"",
 			"This rich yellow ink reacts with a creature's body heat to create a flickering, flame-like glow. It takes 10 minutes to apply fire ink, and 1 dose covers an approximately hand-sized area. Once applied, the ink glows as a candle for 24 hours. Four or more doses applied to the same part of the body glow as a torch for 24 hours. The alchemical reaction of the ink to the target's skin and body heat is painful and irritating, giving the target the sickened condition while the glow lasts. A DC 15 Heal check can temporarily soothe these sensations, negating the sickened condition for 1 hour. Creatures immune or resistant to fire are immune to this sickening effect. Ifrits are especially known for their fondness for fire ink, and ifrit fire-dancers often decorate their skin with flaming designs before performing. A concentrated version of the ink costs 10 times as much and can be used to make permanently glowing tattoos.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 15"
+			"**Construction:** Craft (Alchemy) DC 15"
 		]
 	},
 	"fire_pump": {
@@ -188,8 +186,7 @@
 			"",
 			"When you apply this thin gel to your skin, armor, or clothing, it creates a resistant barrier that protects you from fire or heat damage. You gain fire resistance 5. The gel burns away as it absorbs fire damage; when it absorbs a total of 20 points of fire damage, it is discharged. Fire ward gel counts as protection from energy for the purpose of stacking multiple fire protection effects. Applying fire ward gel takes 1 minute, and it lasts for 1 hour before losing its potency. Multiple applications of fire ward gel do not stack; applying more while a dose is active merely resets the potential amount of fire damage absorbed to 20 points.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 25"
+			"**Construction:** Craft (Alchemy) DC 25"
 		]
 	},
 	"fire_resistant_boots": {
@@ -227,8 +224,7 @@
 			"",
 			"This clear, viscous oil comes in a squat bottle with a dropper that dispenses one drop of oil at a time. When applied to an early or advanced firearm, it seeps into the weapon's inner workings and protects the gun from powder residue and everyday wear and tear. Applying firearm oil takes 1 minute; once applied, it reduces the misfire value of the firearm by 1 for 1 hour or until the firearm is discharged. Firearm oil can't reduce a firearm's misfire value to lower than 1. A single bottle contains enough oil for 20 applications on one-handed firearms (or 10 applications on two-handed firearms). Crafting firearm oil requires a successful DC 15 Craft (alchemy) check.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 15"
+			"**Construction:** Craft (Alchemy) DC 15"
 		]
 	},
 	"fireskin_elixir": {
@@ -248,8 +244,7 @@
 			"**Effect** 1 day; +10 alchemical bonus on Disguise checks to appear as an efreeti, -1 penalty on all saves  ",
 			"**Damage** 1d2 Wis damage",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 20"
+			"**Construction:** Craft (Alchemy) DC 20"
 		]
 	},
 	"firewood_per_day": {
@@ -375,8 +370,7 @@
 			"",
 			"These alchemical beads function as sentry seeds, but are also filled with an alchemical gas that explodes on contact with the air. This explosion is louder and flashier than the pop of normal sentry seeds (Perception DC 0). Creatures within 5 feet of the beads when they break must succeed at a DC 11 Fortitude save or be blinded for 1 round.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 15"
+			"**Construction:** Craft (Alchemy) DC 15"
 		]
 	},
 	"flask_launcher": {
@@ -509,8 +503,7 @@
 			"",
 			"When you add this 1-pound bag of green powder to a gallon of water, the two combine to form 50 cubic feet of thick green foam. Unless contained, in 1 round the foam fills a 5-foot-square to a depth of 2 feet. When multiple pounds of powder are used, the foam expands at a rate of one 5-foot square per round. Ground covered with the foam is treated as difficult terrain, but is otherwise harmless. After 1 hour, the foam hardens to form a buoyant material roughly the density of honeycomb. The cured foam is easy to cut, with hardness 0 and 5 hit points per foot of thickness. The cured foam breaks down over a few days, and even faster if exposed to water. Casting transmute mud to rock on uncured foam converts it into a soft, pumice-like stone (hardness 2, 5 hit points per inch of thickness).",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 20"
+			"**Construction:** Craft (Alchemy) DC 20"
 		]
 	},
 	"focus_chew": {
@@ -590,8 +583,7 @@
 			"",
 			"A greasy paste of beeswax, pyrite, and various monster fluids, fool's glow reacts with light to confuse magical senses. For 12 hours after being smeared over an object or creature (a process requiring 1 minute), the fool's glow detects as faintly magical if examined with a detect magic or arcane sight spell, though no school or specific spell can be identified. With a successful DC 21 Craft (alchemy) or Spellcraft check, a character identifies the coating for what it is. A single jar of fool's glow can coat one Medium, two Small, or four Tiny or smaller objects. Crafting a jar of fool's glow requires a successful DC 20 Craft (alchemy) check.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 20"
+			"**Construction:** Craft (Alchemy) DC 20"
 		]
 	},
 	"footman": {
@@ -692,8 +684,7 @@
 			"",
 			"This liquid causes a pleasant warming sensation when consumed. For the next hour, you gain a +2 morale bonus on saving throws against fear. Using more than 1 dose within 24 hours causes you to become nauseated for 1 hour.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 20"
+			"**Construction:** Craft (Alchemy) DC 20"
 		]
 	},
 	"fortifying_fertilizer": {
@@ -707,8 +698,7 @@
 			"",
 			"This alchemical fertilizer boosts the growth of plants. As a standard action, a plant creature can absorb the fertilizer by rubbing it on its body in order to gain 1 temporary hit point per Hit Die; these temporary hit points last for 1 hour. A plant creature can only benefit from 1 dose of fortifying fertilizer every 24 hours. Crafting this item requires a successful DC 25 Craft (alchemy) check.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 25"
+			"**Construction:** Craft (Alchemy) DC 25"
 		]
 	},
 	"fortune_cookie": {
@@ -821,8 +811,7 @@
 			"",
 			"When you apply this thin gel to your skin, armor, or clothing, it creates a resistant barrier that protects you from cold damage. You gain cold resistance 5. The gel flakes away as it absorbs cold damage; when it absorbs a total of 20 points of cold damage, it is discharged. Frost ward gel counts as protection from energy for the purpose of stacking multiple cold protection effects. Applying frost ward gel takes 1 minute, and it lasts for 1 hour before losing its potency. Multiple applications of frost ward gel do not stack; applying more while a dose is active merely resets the potential amount of cold damage absorbed to 20 points.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 25"
+			"**Construction:** Craft (Alchemy) DC 25"
 		]
 	},
 	"frostbite_ointment": {
@@ -848,8 +837,7 @@
 			"",
 			"Small nuggets of compressed fibers, resins, and dung, fuel pellets give off very little smoke when burned. Each pellet burns for 10 minutes, providing enough heat to boil water, and can be lit as a move action.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 15"
+			"**Construction:** Craft (Alchemy) DC 15"
 		]
 	},
 	"fuel_pellet_ten": { "copyof": "fuel_pellet_10" },
@@ -881,20 +869,7 @@
 			"",
 			"Anointing a creature's eyes with a dose of fury drops causes it to immediately fly into a rage for 1d6 rounds, granting it a +2 alchemical bonus to Strength and Constitution, a +1 alchemical bonus on Will saves, and a -2 penalty to AC. The effect is otherwise identical to a barbarian's rage, and creatures are fatigued at the end of the rage. Only creatures with an Intelligence score of 1 or 2 can be affected by fury drops.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 25"
-		]
-	},
-	"giant_porcupine": {
-		"name": "Giant porcupine",
-		"sources": [ "Animal Archive" ],
-		"description": [
-			"## Giant porcupine",
-			"{SOURCE Animal Archive/15}  ",
-			"**Price** 135 gp; **Weight** -  ",
-			"**Category** Mounts/Pets",
-			"",
-			"This animal may be purchased already combat-trained at the GM's discretion, and typically cost an amount equal to 1-1/2 &times; the price of the standard animal."
+			"**Construction:** Craft (Alchemy) DC 25"
 		]
 	},
 	"gabion": {
@@ -984,8 +959,7 @@
 			"",
 			"Garlic tablets are valuable aids to vampire hunters, but while benefiting from the tablets' strong odor, you take a -2 penalty on all Charisma checks and Charisma-based skill checks for the duration of the effect. The listed price is for three tablets. Crafting garlic tablets requires a successful DC 20 Craft (alchemy) check.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 20"
+			"**Construction:** Craft (Alchemy) DC 20"
 		]
 	},
 	"garlic": {
@@ -1094,49 +1068,8 @@
 			"",
 			"Pale blue when wet, ghost ink dries to near-transparency 1 minute after application. Ghost ink is used to subtly mark trails and locations. The pigment glows red under the light shed by fire beetle glands and sunrods; otherwise, a successful DC 25 Perception check is required to notice a mark in ghost ink. One vial of ghost ink is sufficient for writing a page's worth of characters.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 25"
+			"**Construction:** Craft (Alchemy) DC 25"
 		]
-	},
-	"giant_anaconda": {
-		"name": "Giant anaconda",
-		"sources": [ "Animal Archive" ],
-		"description": [
-			"## Giant anaconda",
-			"{SOURCE Animal Archive/15}  ",
-			"**Price** 6,300 gp; **Weight** -  ",
-			"**Category** Mounts/Pets",
-			"",
-			"This animal may be purchased already combat-trained at the GM's discretion, and typically cost an amount equal to 1-1/2 &times; the price of the standard animal."
-		]
-	},
-	"giant_chameleon_combat_trained": {
-		"name": "Giant chameleon (combat-trained)",
-		"sources": [ "Animal Archive" ],
-		"description": [
-			"## Giant chameleon",
-			"{SOURCE Animal Archive}",
-			"",
-			"When reared from birth, these animals can easily be ridden by Small or Medium humanoids, depending on the animal's size."
-		]
-	},
-	"giant_chameleon_common": {
-		"name": "Giant chameleon (common)",
-		"copyof": "giant_chameleon_combat_trained"
-	},
-	"giant_frilled_lizard_combat_trained": {
-		"name": "Giant frilled lizard (combat-trained)",
-		"sources": [ "Animal Archive" ],
-		"description": [
-			"## Giant frilled lizard",
-			"{SOURCE Animal Archive}",
-			"",
-			"When reared from birth, these animals can easily be ridden by Small or Medium humanoids, depending on the animal's size."
-		]
-	},
-	"giant_frilled_lizard_common": {
-		"name": "Giant frilled lizard (common)",
-		"copyof": "giant_frilled_lizard_combat_trained"
 	},
 	"giant_frog": {
 		"name": "Giant frog",
@@ -1161,20 +1094,6 @@
 			"",
 			"Pirates often make use of sharks, eels, and other nasty sea denizens when interrogating captured prisoners, searching for underwater traps, or retrieving sunken treasure. Some of the larger or rarer creatures, such as whales, are obviously much more difficult to find on the open market, and may only be available in seedy underground bazaars. Most aquatic animals can be trained as normal, though they are rarely sold already trained."
 		]
-	},
-	"giant_gecko_combat_trained": {
-		"name": "Giant gecko (combat-trained)",
-		"sources": [ "Animal Archive" ],
-		"description": [
-			"## Giant gecko",
-			"{SOURCE Animal Archive}",
-			"",
-			"When reared from birth, these animals can easily be ridden by Small or Medium humanoids, depending on the animal's size."
-		]
-	},
-	"giant_gecko_common": {
-		"name": "Giant gecko (common)",
-		"copyof": "giant_gecko_combat_trained"
 	},
 	"giant_lair_infiltrators_kit": {
 		"name": "Giant lair infiltrator's kit",
@@ -1212,21 +1131,6 @@
 			"Pirates often make use of sharks, eels, and other nasty sea denizens when interrogating captured prisoners, searching for underwater traps, or retrieving sunken treasure. Some of the larger or rarer creatures, such as whales, are obviously much more difficult to find on the open market, and may only be available in seedy underground bazaars. Most aquatic animals can be trained as normal, though they are rarely sold already trained."
 		]
 	},
-	"giant_owl_combat_trained": {
-		"name": "Giant owl (combat-trained)",
-		"sources": [ "Animal Archive" ],
-		"description": [
-			"## Giant owl",
-			"{SOURCE Animal Archive/14}  ",
-			"**Price** 9,000 gp (combat-trained), 6,000 gp (common); **Weight** - (combat-trained), - (common)",
-			"",
-			"When reared from birth, these animals can easily be ridden by Small or Medium humanoids, depending on the animal's size."
-		]
-	},
-	"giant_owl_common": {
-		"name": "Giant owl (common)",
-		"copyof": "giant_owl_combat_trained"
-	},
 	"giant_seahorse_combat_trained": {
 		"name": "Giant seahorse (combat trained)",
 		"sources": [ "Blood of the Sea" ],
@@ -1241,30 +1145,6 @@
 	"giant_seahorse_normal": {
 		"name": "Giant seahorse (normal)",
 		"copyof": "giant_seahorse_combat_trained"
-	},
-	"giant_skunk": {
-		"name": "Giant skunk",
-		"sources": [ "Animal Archive" ],
-		"description": [
-			"## Giant skunk",
-			"{SOURCE Animal Archive/15}  ",
-			"**Price** 190 gp; **Weight** -  ",
-			"**Category** Mounts/Pets",
-			"",
-			"This animal may be purchased already combat-trained at the GM's discretion, and typically cost an amount equal to 1-1/2 &times; the price of the standard animal."
-		]
-	},
-	"giant_snapping_turtle": {
-		"name": "Giant snapping turtle",
-		"sources": [ "Animal Archive" ],
-		"description": [
-			"## Giant snapping turtle",
-			"{SOURCE Animal Archive/15}  ",
-			"**Price** 5,200 gp; **Weight** -  ",
-			"**Category** Mounts/Pets",
-			"",
-			"This animal may be purchased already combat-trained at the GM's discretion, and typically cost an amount equal to 1-1/2 &times; the price of the standard animal."
-		]
 	},
 	"giant_squid": {
 		"name": "Giant squid",
@@ -1288,16 +1168,6 @@
 			"**Category** Mounts/Pets",
 			"",
 			"Pirates often make use of sharks, eels, and other nasty sea denizens when interrogating captured prisoners, searching for underwater traps, or retrieving sunken treasure. Some of the larger or rarer creatures, such as whales, are obviously much more difficult to find on the open market, and may only be available in seedy underground bazaars. Most aquatic animals can be trained as normal, though they are rarely sold already trained."
-		]
-	},
-	"giant_vulture_combat_trained": {
-		"name": "Giant vulture (combat-trained)",
-		"sources": [ "Animal Archive" ],
-		"description": [
-			"## Giant vulture",
-			"{SOURCE Animal Archive}",
-			"",
-			"When reared from birth, these animals can easily be ridden by Small or Medium humanoids, depending on the animal's size."
 		]
 	},
 	"giant_vulture_common": {
@@ -1341,8 +1211,7 @@
 			"",
 			"These nonmagical goggles are set with a piece of alchemically treated, black, obsidianlike stone found in the mountainous regions of the Shadow Plane. Gloom sight goggles interact with the unique eyes of fetchlings in such a way that when the goggles are worn over both eyes, they expand the range of a fetchling's darkvision to 90 feet, but the fetchling also gains the light sensitivity weakness. Other races cannot see through the lenses of these goggles, and they have no affect on fetchlings whose eyes have been modified by the Gloom Sight feat. Though they are alchemical rather than magical in nature, these goggles take up the magic item eye slot.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 25"
+			"**Construction:** Craft (Alchemy) DC 25"
 		]
 	},
 	"gloomstick": {
@@ -1356,8 +1225,7 @@
 			"",
 			"This variant sunrod was developed by fetchling alchemists. When twisted as a standard action, a gloomstick begins drawing in light from the surrounding area, reducing the light level by one step (to a minimum of dim light) in a 20-foot radius. A gloomstick remains active for 1 minute before crumbling to dust.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 25"
+			"**Construction:** Craft (Alchemy) DC 25"
 		]
 	},
 	"glowing_ink": {
@@ -1374,8 +1242,7 @@
 			"",
 			"Often extracted from phosphorescent insects, tiny marine plants, or subterranean fungi, glowing ink emits a faint but steady light (typically red or green) that allows you to read it in normal darkness - this includes darkness created by spells like darkness, but not the supernatural darkness created by deeper darkness. If there is glowing ink on an object, you have a +2 bonus on Perception checks to locate it. Mixing glowing ink with marker dye makes the dye glow in the dark until it fades.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 15"
+			"**Construction:** Craft (Alchemy) DC 15"
 		]
 	},
 	"glue_paper": {
@@ -1388,18 +1255,6 @@
 			"**Category** Adventuring Gear",
 			"",
 			"This 1-foot-square piece of paper is coated on one side with a weak glue or sticky material such as tree sap or even honey. It is stored folded in half. If you apply glue paper to a window before you break it, the broken pieces stick to the glue rather than noisily falling to the ground. Glue paper is good for a single use."
-		]
-	},
-	"glyptodon": {
-		"name": "Glyptodon",
-		"sources": [ "Animal Archive" ],
-		"description": [
-			"## Glyptodon",
-			"{SOURCE Animal Archive/14}  ",
-			"**Price** 2,700 gp; **Weight** -  ",
-			"**Category** Mounts/Pets",
-			"",
-			"The prices listed are for dinosaurs and megafauna that have been reared from birth in order to serve as pets or mounts. Combat-trained dinosaurs and megafauna are incredibly rare and have similarly extravagant costs (if one can even find a seller). Though not normally readily available, combat-trained dinosaurs and megafauna typically cost an amount equal to 1-1/2 &times; the price of the standard animal."
 		]
 	},
 	"gnome_trail_rations": {
@@ -1425,20 +1280,6 @@
 			"",
 			"As an agricultural animal, goats provide milk, meat, hair, and hide, and they are sometimes used to clear fields of weeds and shrubbery. Some spellcasters bond with them as familiars."
 		]
-	},
-	"goblin_dog_combat_trained": {
-		"name": "Goblin dog (combat-trained)",
-		"sources": [ "Animal Archive" ],
-		"description": [
-			"## Goblin dog",
-			"{SOURCE Animal Archive}",
-			"",
-			"When reared from birth, these animals can easily be ridden by Small or Medium humanoids, depending on the animal's size."
-		]
-	},
-	"goblin_dog_common": {
-		"name": "Goblin dog (common)",
-		"copyof": "goblin_dog_combat_trained"
 	},
 	"goblin_fishing_lure": {
 		"name": "Goblin fishing lure",
@@ -1481,18 +1322,6 @@
 			"**Category** Alchemical Tools",
 			"",
 			"These potent additives can only be culled from a rare maple tree known to grow exclusively in urban areas. These small, elaborately twisting trees are extremely slow to grow and mature - the leaves reach maturity only once every 3 years - and they are almost always grown and cultivated by half-elves. Additionally, half-elves are keenly aware of the effort put into the leaves' growth and normally only sell the products of their labors to others of their kind. When the golden maple's delicate, five-pointed leaves finally take on their namesake's color, they can be cut, dried, and then ground into a fine powder, a process that requires a DC 15 Knowledge (nature) or Profession (herbalist) check. When used in conjunction with the Craft (alchemy) skill to create special substances and items like alchemical grease or tanglefoot bags, golden maple leaves reduce the Craft DC by 5 and add +1 to the DC of any save required by the alchemical item. A single dose of golden maple leaf powder is sufficient to augment the crafting of three alchemical items."
-		]
-	},
-	"gorilla": {
-		"name": "Gorilla",
-		"sources": [ "Animal Archive" ],
-		"description": [
-			"## Gorilla",
-			"{SOURCE Animal Archive/15}  ",
-			"**Price** 175 gp; **Weight** -  ",
-			"**Category** Mounts/Pets",
-			"",
-			"This animal may be purchased already combat-trained at the GM's discretion, and typically cost an amount equal to 1-1/2 &times; the price of the standard animal."
 		]
 	},
 	"gorthek_saddle": {
@@ -1560,20 +1389,7 @@
 			"",
 			"This tonic is sludgy, and its scent resembles the tang of iron shavings. Drinking gravelly tonic causes your voice to deepen and become more grating for 1 hour, granting you a +5 alchemical bonus on Intimidate checks.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 25"
-		]
-	},
-	"great_horned_owl": {
-		"name": "Great horned owl",
-		"sources": [ "Animal Archive" ],
-		"description": [
-			"## Great horned owl",
-			"{SOURCE Animal Archive/15}  ",
-			"**Price** 22 gp; **Weight** -  ",
-			"**Category** Mounts/Pets",
-			"",
-			"This animal may be purchased already combat-trained at the GM's discretion, and typically cost an amount equal to 1-1/2 &times; the price of the standard animal."
+			"**Construction:** Craft (Alchemy) DC 25"
 		]
 	},
 	"great_white_whale": {
@@ -1610,18 +1426,6 @@
 			"**Category** Mounts/Pets",
 			"",
 			"Unscrupulous adventurers and the desperate sometimes steal eggs from griffon nests, as trainers find it easier to raise a griffon from a hatchling than trying to train a spirited adult."
-		]
-	},
-	"grizzly_bear": {
-		"name": "Grizzly bear",
-		"sources": [ "Animal Archive" ],
-		"description": [
-			"## Grizzly bear",
-			"{SOURCE Animal Archive/15}  ",
-			"**Price** 740 gp; **Weight** -  ",
-			"**Category** Mounts/Pets",
-			"",
-			"This animal may be purchased already combat-trained at the GM's discretion, and typically cost an amount equal to 1-1/2 &times; the price of the standard animal."
 		]
 	},
 	"grog_cup": {
@@ -1682,8 +1486,7 @@
 			"",
 			"This small tacky blue pellet is deceptively dense. When the pellet is broken, an alchemical reaction causes it to grow suddenly into a 30-foot-long spongy rope as strong as a normal hemp rope. It dissolves 8 hours thereafter.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 20"
+			"**Construction:** Craft (Alchemy) DC 20"
 		]
 	},
 	"gunslingers_kit": {
@@ -1867,8 +1670,7 @@
 			"",
 			"For all their cowardice and cruelty, goblins have a keen sense of what can kill them, and harpies number among goblins' most feared predators. Using this knowledge to their advantage, Varisian alchemists have devised ways to recreate or distill the musk of harpies into a potent concoction. If smeared on a surface or used as a thrown weapon, harpy musk fills a 30-foot area for 10 minutes before dispersing. Any goblin who enters the area must succeed at a DC 14 Will save or be shaken for 1 minute. Harpy musk affect only goblins - bugbears and hobgoblins are unaffected. Harpy musk can be created with a successful DC 20 Craft (alchemy) check.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 20"
+			"**Construction:** Craft (Alchemy) DC 20"
 		]
 	},
 	"harrow_carrying_case": {
@@ -2212,18 +2014,6 @@
 			"While it is easier to train a full-grown hippogriff than a griffon, the eggs of these creatures are still prized by breeders."
 		]
 	},
-	"hippopotamus": {
-		"name": "Hippopotamus",
-		"sources": [ "Animal Archive" ],
-		"description": [
-			"## Hippopotamus",
-			"{SOURCE Animal Archive/15}  ",
-			"**Price** 1,050 gp; **Weight** -  ",
-			"**Category** Mounts/Pets",
-			"",
-			"This animal may be purchased already combat-trained at the GM's discretion, and typically cost an amount equal to 1-1/2 &times; the price of the standard animal."
-		]
-	},
 	"hireling_trained_per_day": {
 		"name": "Hireling (trained, per day)",
 		"sources": [
@@ -2280,8 +2070,7 @@
 			"",
 			"This drink is a foul-smelling alchemical blend of raw alcohol, mashed grubs, and medicinal mushrooms. A hobgoblin under the effects of hobgoblin war draught ignores all penalties resulting from the fatigued and shaken conditions for 10 minutes, after which he must succeed at a DC 15 Fortitude save or be sickened for 1 hour. Anyone lacking the goblinoid subtype who drinks hobgoblin war draught must immediately make a DC 15 Fortitude save or be sickened for 1 hour; success means the drinker ignores all penalties resulting from the fatigued and shaken conditions for 1 minute, after which he is sickened for 10 minutes. Hobgoblin war draught has no effect on creatures that are immune to poison.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 20"
+			"**Construction:** Craft (Alchemy) DC 20"
 		]
 	},
 	"hollow_book": {
@@ -2736,8 +2525,7 @@
 			"",
 			"If you apply the thick, red paste known as hound's blood to your nostrils or upper lip, it greatly enhances your sense of smell. For most creatures, this grants a +2 alchemical bonus on Perception checks for 1 hour. For gnomes, it briefly grants a super-heightened sense of smell, granting the scent ability for 5 minutes, before the potency is reduced to a +2 alchemical bonus on Perception checks for an additional 1 hour.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 20"
+			"**Construction:** Craft (Alchemy) DC 20"
 		]
 	},
 	"houndbane_dust": {
@@ -2751,8 +2539,7 @@
 			"",
 			"A blend of finely ground plaster, burning spices, and insect secretions, houndbane dust deters tracking animals. A single pouch can be spread over a 5-foot area as a standard action. For 24 hours thereafter, any creature with the scent ability that enters that square takes 1d2 points of damage and loses its sense of smell for 24 hours. Creatures that succeed at a DC 15 Fortitude saving throw take no damage and lose their sense of smell for only 3d6 minutes. Crafting a pouch of houndbane dust requires a successful DC 25 Craft (alchemy) check.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 25"
+			"**Construction:** Craft (Alchemy) DC 25"
 		]
 	},
 	"hourglass_1_hour": {
@@ -2855,18 +2642,6 @@
 			"This platform can be secured to a tree in order to elevate you and give you a better vantage point. It takes 1 minute to secure a hunter's stand. Once in the stand, you gain the benefit of higher ground bonus and partial cover from anyone below the stand's height. A hunter's stand can be upgraded with a camouflage blind (5 gp), which allows full concealment, or an all-weather cover (10 gp), which provides a +1 circumstance bonus on saves against dust storms, rain, snow, or other adverse weather conditions."
 		]
 	},
-	"hyena": {
-		"name": "Hyena",
-		"sources": [ "Animal Archive" ],
-		"description": [
-			"## Hyena",
-			"{SOURCE Animal Archive/15}  ",
-			"**Price** 80 gp; **Weight** -  ",
-			"**Category** Mounts/Pets",
-			"",
-			"This animal may be purchased already combat-trained at the GM's discretion, and typically cost an amount equal to 1-1/2 &times; the price of the standard animal."
-		]
-	},
 	"hypnotists_locket_locket": {
 		"name": "Hypnotist's locket (locket)",
 		"sources": [ "Occult Adventures" ],
@@ -2935,20 +2710,7 @@
 			"",
 			"Ifrit alchemists claim to make this thick red oil from their own blood - hence the morbid name - but this claim is almost certainly false. Ifrit's blood ignites upon contact with air, but burns slowly and is unsuitable for use as a splash weapon. A creature can apply a flask of ifrit's blood to a weapon as a standard action, wreathing the weapon in vibrant red flames for 1 minute. The oil deals 1 point of fire damage on each successful attack with the weapon and deals 1 point of fire damage to the weapon itself, bypassing the weapon's hardness if any part of it is made of wood. If the oil is applied to a creature's natural weapons or unarmed strikes, the creature takes 1 point of fire damage each round (though its fire immunity or resistance still applies).",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 20"
-		]
-	},
-	"iguanodon": {
-		"name": "Iguanodon",
-		"sources": [ "Animal Archive" ],
-		"description": [
-			"## Iguanodon",
-			"{SOURCE Animal Archive/14}  ",
-			"**Price** 2,700 gp; **Weight** -  ",
-			"**Category** Mounts/Pets",
-			"",
-			"The prices listed are for dinosaurs and megafauna that have been reared from birth in order to serve as pets or mounts. Combat-trained dinosaurs and megafauna are incredibly rare and have similarly extravagant costs (if one can even find a seller). Though not normally readily available, combat-trained dinosaurs and megafauna typically cost an amount equal to 1-1/2 &times; the price of the standard animal."
+			"**Construction:** Craft (Alchemy) DC 20"
 		]
 	},
 	"impact_foam": {
@@ -2962,8 +2724,7 @@
 			"",
 			"This milky white liquid bubbles into a 1-foot-thick semi-solid sheet of foam when splashed across the ground. You can spend a minute to apply a flask of impact foam to a 10-foot-radius area, or you can throw the flask as a splash weapon. The foam does not interfere with movement, but reacts strongly to sudden force. A creature that falls onto a sheet of impact foam ignores the first 1d6 points of falling damage and converts the second 1d6 points of falling damage into nonlethal damage. A sheet of impact foam dissolves after 10 minutes or when exposed to at least a gallon of water.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 20"
+			"**Construction:** Craft (Alchemy) DC 20"
 		]
 	},
 	"imperial_conquest": {
@@ -3257,10 +3018,9 @@
 			"**Price** 190 gp; **Weight** -  ",
 			"**Category** Alchemical Tools",
 			"",
-			"By drinking this clear, fizzy liquid, you gain 1d4 uses of alchemical inspiration that can be used only on Sense Motive checks. The benefits of intuition serum last for 1 hour; during this time, you must roll all Bluff checks twice and take the worse result.",
+			"By drinking this clear, fizzy liquid, you gain 1d4 uses of {misc/alchemical inspiration} that can be used only on Sense Motive checks. The benefits of intuition serum last for 1 hour; during this time, you must roll all Bluff checks twice and take the worse result.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 15"
+			"**Construction:** Craft (Alchemy) DC 15"
 		]
 	},
 	"investigators_kit": {
@@ -3308,8 +3068,7 @@
 			"",
 			"Superior: This ink is keyed to either two rare triggers or one unique trigger, such as the blood of a specific person (DC 35 to reveal without the trigger).",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 25 (superior), DC 20 (average, good), DC 15 (simple)"
+			"**Construction:** Craft (Alchemy) DC 25 (superior), DC 20 (average, good), DC 15 (simple)"
 		]
 	},
 	"invisible_ink_good": {
@@ -3542,8 +3301,7 @@
 			"",
 			"This emerald-colored adhesive is made from animal glands, urine, and other powerful scents that are difficult to wash off. A target splashed with it smells like weak prey to predators. Creatures with the scent ability can detect a marked creature at five times the normal range, note its direction as a free action, pinpoint it when it is within 25 feet, and track it by scent with a +5 bonus on their Survival checks. Immersion in water within 1 round of exposure washes the musk off; otherwise the effect decreases by 1 range increment per day (four times normal range after 1 day, three times normal range after 2 days, and so on) until the creature is again at normal scent levels. One dose of Kaava musk costs 40 gp and weighs 1/2 lb.; the Craft (alchemy) DC to create Kaava musk is 20.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 20"
+			"**Construction:** Craft (Alchemy) DC 20"
 		]
 	},
 	"kahve_cup": {
@@ -3559,18 +3317,6 @@
 			"**Category** Food/Drink",
 			"",
 			"This style of coffee is served with generous helpings of milk, sugar, and spices to counteract its natural bitterness. Kahve is drunk throughout the day, both at home and at coffeehouses around town. The grounds left in the bottom of a cup are sometimes used for fortune-telling."
-		]
-	},
-	"kangaroo": {
-		"name": "Kangaroo",
-		"sources": [ "Animal Archive" ],
-		"description": [
-			"## Kangaroo",
-			"{SOURCE Animal Archive/15}  ",
-			"**Price** 30 gp; **Weight** -  ",
-			"**Category** Mounts/Pets",
-			"",
-			"This animal may be purchased already combat-trained at the GM's discretion, and typically cost an amount equal to 1-1/2 &times; the price of the standard animal."
 		]
 	},
 	"karazhica": {
@@ -3782,8 +3528,7 @@
 			"",
 			"This bubbly drink has a zesty scent and invigorates the muscles. For 1 hour after drinking this tincture, you gain a +4 alchemical bonus on Acrobatics checks to jump horizontally, you are always treated as having a running start for the purpose of these checks, and your jump distance can exceed your base speed. Due to your exaggerated movement, you take a -2 penalty on attack rolls and cannot take 5-foot steps for the same duration.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 20"
+			"**Construction:** Craft (Alchemy) DC 20"
 		]
 	},
 	"leeching_kit": {
@@ -3846,18 +3591,6 @@
 			"A small number of Leng rubies (10%) can be used as the focus of a {spell/plane shift} spell, though it is impossible to determine what location a particular ruby is attuned to before the spell is cast. Some Leng rubies are substantially larger than the common size, and can fetch prices of 50,000 gp or more. The denizens of Leng trade these larger rubies for armies of slaves or as part of nation-ending plots."
 		]
 	},
-	"leopard": {
-		"name": "Leopard",
-		"sources": [ "Animal Archive" ],
-		"description": [
-			"## Leopard",
-			"{SOURCE Animal Archive/15}  ",
-			"**Price** 100 gp; **Weight** -  ",
-			"**Category** Mounts/Pets",
-			"",
-			"This animal may be purchased already combat-trained at the GM's discretion, and typically cost an amount equal to 1-1/2 &times; the price of the standard animal."
-		]
-	},
 	"lifting_bag": {
 		"name": "Lifting bag",
 		"sources": [ "Blood of the Sea" ],
@@ -3884,8 +3617,7 @@
 			"",
 			"This hand-sized metal plate is covered with a thin layer of light-sensitive transparent paste. If exposed to light, the paste darkens and becomes opaque, depending on the amount of light. Bright light causes it to fully darken in 1 round, normal light in 3 rounds, and dim light in 10 rounds. It is mainly used by creatures with darkvision to determine whether creatures carrying light have recently passed through an area. The plate is sold wrapped in a thick black cloth to prevent accidental light exposure from ruining the plate.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 10"
+			"**Construction:** Craft (Alchemy) DC 10"
 		]
 	},
 	"light_fire_ink": {
@@ -3899,8 +3631,7 @@
 			"",
 			"This alchemically infused ink ensures secret messages destroy themselves after being read. If light strikes the ink after it has dried, chemicals cause it to spontaneously combust within about a minute. The combustion is small - not significant enough to ignite anything but paper. Ink used on other materials such as stone or wood simply vanishes, leaving no trace of the writing. A vial of this ink holds enough to write 10 brief messages of no more than 50 words each.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 25"
+			"**Construction:** Craft (Alchemy) DC 25"
 		]
 	},
 	"light_kit": {
@@ -3926,8 +3657,7 @@
 			"",
 			"Originally brewed from waters adjacent to one of the Plane of Water's subaquatic suns, a vial of light of Axtarr glows like a candle until expended. A vial of light of Axtarr that is emptied underwater as a move action forms a small orb that sheds light like a sunrod for 1d6 hours, after which the item is expended. Such an underwater orb remains suspended in place, not sinking, floating, or drifting away unless moved by a creature. Above water, shaking a vial of light of Axtarr as a move action also makes it shed light like a sunrod for 1d6 hours, after which it is expended. Any area of normal light created by light of Axtarr protects creatures within it from cold temperatures as per {spell/endure elements}. Alternatively, a spellcaster holding an unused vial of light of Axtarr can expend it as a free action to automatically succeed at a caster level check to cast a fire spell underwater. (Fire spells successfully cast underwater produce steam that still deals fire damage.) This alternative use does not cause the light of Axtarr to produce light. Crafting this item requires a successful DC 30 Craft (alchemy) check.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 30"
+			"**Construction:** Craft (Alchemy) DC 30"
 		]
 	},
 	"light_killers_grease": {
@@ -3947,8 +3677,7 @@
 			"",
 			"Crafting light-killer's grease requires a successful DC 15 Craft (alchemy) check.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 15"
+			"**Construction:** Craft (Alchemy) DC 15"
 		]
 	},
 	"linguists_codex_expanded": {
@@ -3992,20 +3721,6 @@
 			"The favorite drink of the Ulfen, this honey mead has traveled with them into the southern lands. It is sweet and strong and, according to Ulfen bards, is an indisputable aid to singing."
 		]
 	},
-	"lion_combat_trained": {
-		"name": "Lion (combat-trained)",
-		"sources": [ "Animal Archive" ],
-		"description": [
-			"## Lion",
-			"{SOURCE Animal Archive}",
-			"",
-			"When reared from birth, these animals can easily be ridden by Small or Medium humanoids, depending on the animal's size."
-		]
-	},
-	"lion_common": {
-		"name": "Lion (common)",
-		"copyof": "lion_combat_trained"
-	},
 	"liquid_breeze": {
 		"name": "Liquid breeze",
 		"sources": [ "Adventurer's Armory 2" ],
@@ -4017,8 +3732,7 @@
 			"",
 			"Developed in ancient times to ease travels across the harsh deserts of Kelesh, liquid breeze is a common ware in markets catering to travelers, adventurers, and explorers. This soothing liquid grants the benefits of {spell/endure elements} for 8 hours, but only against hot environments. This effect is nonmagical and can't be dispelled.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 20"
+			"**Construction:** Craft (Alchemy) DC 20"
 		]
 	},
 	"liquid_courage": {
@@ -4032,8 +3746,7 @@
 			"",
 			"This crimson liquid roils when held. For 1 hour after drinking this tincture, you gain immunity to effects that would cause you to become shaken; you are still susceptible to becoming frightened or panicked. The drink clouds your judgment, imposing a -2 penalty on Wisdom-based skill checks for the same duration.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 20"
+			"**Construction:** Craft (Alchemy) DC 20"
 		]
 	},
 	"liquid_traction": {
@@ -4047,8 +3760,7 @@
 			"",
 			"This glass bottle is filled with sticky goo prized by sailors for the additional traction it grants on ship decks. When applied to the soles of footwear and allowed to dry for 1 hour, liquid traction grants a +2 alchemical bonus on Acrobatics checks to keep your balance and a +2 bonus to CMD against bull rush. Liquid traction has no effect when it comes into contact with very slick or unnaturally slick surfaces such as ice or grease.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 20"
+			"**Construction:** Craft (Alchemy) DC 20"
 		]
 	},
 	"liron_treyes_journal": {
@@ -4106,8 +3818,7 @@
 			"",
 			"This white paper strip treated with dyes extracted from common lichen is used to quickly test the composition of any water-based solution. The user dips the end of the strip in the liquid and waits 1 round for the chemical reaction to change the color of the strip. If the strip turns purple, then the water contains poisonous toxins and must be purified before consumption. The darker purple the strip turns, the more toxic the substance. If the strip remains white, the solution is poison-free. Though it's not useful for testing oils, slimes, or gases, a strip can be invaluable in determining whether a water source or beverage is tainted.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 20"
+			"**Construction:** Craft (Alchemy) DC 20"
 		]
 	},
 	"lizard_nex_gecko": {
@@ -4303,8 +4014,7 @@
 			"",
 			"This gray, greasy topical lotion strengthens and straightens the leg muscles of bandy-legged hobgoblins. Applying loping ointment requires 1 full-round action. A hobgoblin under the effects of loping ointment gains a 10-foot alchemical bonus to his speed when using the charge, run, or withdraw action. This bonus lasts for 10 minutes. Loping ointment is specifically created to enhance hobgoblin physiology; other creatures gain no benefit from this ointment and find it unpleasantly itchy. Crafting this item requires a successful DC 25 Craft (alchemy) check.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 25"
+			"**Construction:** Craft (Alchemy) DC 25"
 		]
 	},
 	"lore_seeker_package": {
@@ -4383,8 +4093,7 @@
 			"",
 			"This honey-coated candy is made of soothing reagents. If eaten, it takes 1 round to begin working, then grants a +2 alchemical bonus on all Perform (sing) checks for 1 hour.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 25"
+			"**Construction:** Craft (Alchemy) DC 25"
 		]
 	},
 	"luglurch_ale_gallon": {
@@ -4433,8 +4142,7 @@
 			"",
 			"This navy blue liquid is riddled with colorful flecks of minerals. For 1 hour after drinking this tincture, you gain a +5 alchemical bonus on {rule/concentration} checks. The increased focus imposes a -2 penalty on Perception and Sense Motive checks for the same duration.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 20"
+			"**Construction:** Craft (Alchemy) DC 20"
 		]
 	},
 	"magnet": {
@@ -4464,8 +4172,7 @@
 			"",
 			"These specially charged pieces of parchment come in small packages containing seven sheets. Psychically attuned to the specific magnetic fluids a living creature needs to part the ethereal veil, these sheets add a 5% bonus to the chance of creating meaningful writing for the automatic writing occult skill unlock. This use consumes one sheet of the paper, and only one sheet can be used per attempt.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 15"
+			"**Construction:** Craft (Alchemy) DC 15"
 		]
 	},
 	"magnifying_glass": {
@@ -4747,8 +4454,7 @@
 			"",
 			"This dye (available in several colors) creates an obvious stain wherever it is splashed. Washing has no effect for the first 72 hours (though magic can erase it), but it fades completely after 2 weeks. You can throw it as a splash weapon.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 15"
+			"**Construction:** Craft (Alchemy) DC 15"
 		]
 	},
 	"marlinspike": {
@@ -4788,8 +4494,7 @@
 			"",
 			"This item comes in a variety of scents (matching any one animal, humanoid, or magical beast). One vial applied to a single Medium-sized creature changes its scent to that of the masking scent's creature for 8 hours.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 20"
+			"**Construction:** Craft (Alchemy) DC 20"
 		]
 	},
 	"masking_scent_humanoid": {
@@ -4802,8 +4507,7 @@
 			"",
 			"This item comes in a variety of scents (matching any one animal, humanoid, or magical beast). One vial applied to a single Medium-sized creature changes its scent to that of the masking scent's creature for 8 hours.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 25"
+			"**Construction:** Craft (Alchemy) DC 25"
 		]
 	},
 	"masking_scent_magical_beast": {
@@ -4816,8 +4520,7 @@
 			"",
 			"This item comes in a variety of scents (matching any one animal, humanoid, or magical beast). One vial applied to a single Medium-sized creature changes its scent to that of the masking scent's creature for 8 hours.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 30"
+			"**Construction:** Craft (Alchemy) DC 30"
 		]
 	},
 	"masterwork_flippers": {
@@ -4968,8 +4671,7 @@
 			"",
 			"Drinking this cloudy tea has a soothing effect that clarifies your thoughts. For 10 minutes after drinking the tea, you gain a +2 alchemical bonus against mind-affecting effects. If you drink meditation tea while suffering from a mind-affecting affect, you may immediately roll another saving throw (with the +2 bonus) against the effect; you may gain this particular benefit only once per day.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 20"
+			"**Construction:** Craft (Alchemy) DC 20"
 		]
 	},
 	"mediums_kit": {
@@ -4994,42 +4696,6 @@
 			"**Category** Tools",
 			"",
 			"Also called Vudrani clubs, meels are heavily weighted clubs used to train one's strength. They range in size from only a few pounds to specially crafted lead or stone meels which weigh as much as a human. This set contains three wooden meels of more common dimensions. Athletes practice with meels by taking a club in each hand and swinging them in a rhythmic fashion around the body. Training with a set of meels requires 1 hour of practice and a DC 10 Strength check. If you succeed at the check, you gain a +2 circumstance bonus on Strength checks and treat your Strength score as 1 higher for the purpose of determining your carrying capacity. This bonus lasts for 24 hours."
-		]
-	},
-	"megalania": {
-		"name": "Megalania",
-		"sources": [ "Animal Archive" ],
-		"description": [
-			"## Megalania",
-			"{SOURCE Animal Archive/14}  ",
-			"**Price** 3,500 gp; **Weight** -  ",
-			"**Category** Mounts/Pets",
-			"",
-			"The prices listed are for dinosaurs and megafauna that have been reared from birth in order to serve as pets or mounts. Combat-trained dinosaurs and megafauna are incredibly rare and have similarly extravagant costs (if one can even find a seller). Though not normally readily available, combat-trained dinosaurs and megafauna typically cost an amount equal to 1-1/2 &times; the price of the standard animal."
-		]
-	},
-	"megaloceros": {
-		"name": "Megaloceros",
-		"sources": [ "Animal Archive" ],
-		"description": [
-			"## Megaloceros",
-			"{SOURCE Animal Archive/14}  ",
-			"**Price** 800 gp; **Weight** -  ",
-			"**Category** Mounts/Pets",
-			"",
-			"The prices listed are for dinosaurs and megafauna that have been reared from birth in order to serve as pets or mounts. Combat-trained dinosaurs and megafauna are incredibly rare and have similarly extravagant costs (if one can even find a seller). Though not normally readily available, combat-trained dinosaurs and megafauna typically cost an amount equal to 1-1/2 &times; the price of the standard animal."
-		]
-	},
-	"megatherium": {
-		"name": "Megatherium",
-		"sources": [ "Animal Archive" ],
-		"description": [
-			"## Megatherium",
-			"{SOURCE Animal Archive/14}  ",
-			"**Price** 1,750 gp; **Weight** -  ",
-			"**Category** Mounts/Pets",
-			"",
-			"The prices listed are for dinosaurs and megafauna that have been reared from birth in order to serve as pets or mounts. Combat-trained dinosaurs and megafauna are incredibly rare and have similarly extravagant costs (if one can even find a seller). Though not normally readily available, combat-trained dinosaurs and megafauna typically cost an amount equal to 1-1/2 &times; the price of the standard animal."
 		]
 	},
 	"mekainae": {
@@ -5067,8 +4733,7 @@
 			"",
 			"Sneaky goblin chieftains give this orange paste to the tribe's warriors before proposing a particularly bold raid. Consuming mellowroot causes a euphoric feeling that makes you feel invulnerable. For 1 hour after consuming mellowroot, you gain a +5 alchemical bonus versus fear effects. However, while under the effects of mellowroot, you must make a DC 15 Will saving throw when you try to leave the threatened area of an opponent. If you fail the saving throw, you cannot leave the threatened area with that action but do not lose the action.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 20"
+			"**Construction:** Craft (Alchemy) DC 20"
 		]
 	},
 	"memory_incense": {
@@ -5082,8 +4747,7 @@
 			"",
 			"This purple incense is a powerful aid to amnesiacs and those prone to nocturnal fits. A creature that sleeps for at least 1 hour within 10 feet of burning memory incense retains any memories accrued within the next 24 hours, even those that would normally be lost to effects such as lycanthropic transformation. In addition, the creature gains a +4 alchemical bonus on saving throws against effects that modify or erase memories for this duration. A single stick of memory incense can burn for 4 hours. Crafting this item requires a successful DC 20 Craft (alchemy) check.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 20"
+			"**Construction:** Craft (Alchemy) DC 20"
 		]
 	},
 	"mending_kit": {
@@ -5109,8 +4773,7 @@
 			"",
 			"You can use this smelly, silvery paste to temporarily repair metal objects. It is sold in a sealed flask and reacts with air, turning solid in 1d6+4 minutes. You must make an appropriate DC 20 Craft check to repair a metal item with the broken condition; success means the object loses the broken condition but gains the [fragile](rule/weapon_descriptions) condition. Increase the DC by +5 if the broken object is a magic item or by +5 if it is a firearm (add both modifiers if the item is a magical firearm). If the check fails, the mending paste is consumed but you may try again with another flask or conventional repair methods.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 25"
+			"**Construction:** Craft (Alchemy) DC 25"
 		]
 	},
 	"mengkares_shards": {
@@ -5325,8 +4988,7 @@
 			"",
 			"This tea is extremely rare and expensive, requiring several years to grow and prepare. A geisha bard who uses this tea as part of her tea ceremony to inspire courage increases the bonuses granted by 1. A lotus geisha bard who drinks this tea increases the bonus granted by her enrapturing performance ability by 1; this effect lasts for 24 hours.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 35"
+			"**Construction:** Craft (Alchemy) DC 35"
 		]
 	},
 	"mirage_mixture": {
@@ -5340,8 +5002,7 @@
 			"",
 			"This fizzy drink causes a tingling in the optic nerves. For 1 hour after drinking this tincture, you gain a +2 alchemical bonus on Perception checks and Will saving throws to disbelieve illusions. You take a -2 penalty on Will saves against other mind-affecting effects for the same duration.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 25"
+			"**Construction:** Craft (Alchemy) DC 25"
 		]
 	},
 	"mirror_ball": {
@@ -5452,8 +5113,7 @@
 			"",
 			"This black alchemical concoction reacts when it comes into contact with metal, rapidly expanding into a sticky, inflexible substance that temporarily renders armor more difficult to use. When the sap is smeared onto metal armor or thrown at a creature wearing metal armor (as a ranged touch attack with a range increment of 10 feet), that armor is considered one category heavier for the purposes of movement (heavy armor is still treated as heavy). This increase does not apply to proficiency in wearing the armor. Additionally, the arcane spell failure chance of armor affected by mithralbane sap increases by 10%, its maximum Dexterity bonus decreases by 2 (to a minimum of 0), and its armor check penalty increases by 3. These effects last for 1 minute, after which the grease hardens and crumbles away. Armor that's not primarily made of metal and metal items such as weapons and shields are not meaningfully affected by mithralbane sap. Crafting this item requires a successful DC 25 Craft (alchemy) check.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 25"
+			"**Construction:** Craft (Alchemy) DC 25"
 		]
 	},
 	"mobile_hospital": {
@@ -5494,30 +5154,6 @@
 			"**Use** Anyone wearing or carrying fresh moly gains a +4 resistance bonus on saving throws against spells and spell-like abilities. Moly remains fresh in this way for only 12 hours, regardless of magical attempts to preserve it. When processed into a powder with a successful DC 25 Craft (alchemy) check, moly can be sprinkled on a creature, object, or area (a standard action) to end a spell as if with {spell/dispel magic} (caster level 6th).",
 			"",
 			"Moly is a plant with flowers white as pure milk and roots black as night."
-		]
-	},
-	"mongoose": {
-		"name": "Mongoose",
-		"sources": [ "Animal Archive" ],
-		"description": [
-			"## Mongoose",
-			"{SOURCE Animal Archive/15}  ",
-			"**Price** 4 gp; **Weight** -  ",
-			"**Category** Mounts/Pets",
-			"",
-			"This animal may be purchased already combat-trained at the GM's discretion, and typically cost an amount equal to 1-1/2 &times; the price of the standard animal."
-		]
-	},
-	"monitor_lizard": {
-		"name": "Monitor lizard",
-		"sources": [ "Animal Archive" ],
-		"description": [
-			"## Monitor lizard",
-			"{SOURCE Animal Archive/15}  ",
-			"**Price** 150 gp; **Weight** -  ",
-			"**Category** Mounts/Pets",
-			"",
-			"This animal may be purchased already combat-trained at the GM's discretion, and typically cost an amount equal to 1-1/2 &times; the price of the standard animal."
 		]
 	},
 	"monks_kit": {

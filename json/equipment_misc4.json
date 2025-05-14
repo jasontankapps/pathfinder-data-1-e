@@ -70,20 +70,7 @@
 			"",
 			"This milky fluid can be mixed with water to quickly kill light and medium vegetation. One flask of defoliant kills light brush and small trees in 50 5-foot squares. Light vegetation (anything but trees) dies within 1 hour and can be cleared at a rate of 10 minutes per 5-foot square (representing uprooting dead plants and breaking stumps into gravel-sized pieces), leaving barren ground. Medium vegetation (anything but massive trees) dies in 2 hours and can be cleared at a rate of 1 hour per 5-foot square. Massive trees can usually survive a single dose of defoliant, and using defoliant doesn't make clearing them any easier. Defoliant can be used as a splash weapon against plant creatures. A direct hit with the undiluted fluid deals 1d6 hit points of damage, 1 point of Strength damage, and 1 point of Constitution damage (Fortitude DC 20 negates the Strength and Constitution damage); plant creatures within 5 feet of the target take 1 hit point of damage.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 25"
-		]
-	},
-	"deinonychus": {
-		"name": "Deinonychus",
-		"sources": [ "Animal Archive" ],
-		"description": [
-			"## Deinonychus",
-			"{SOURCE Animal Archive/14}  ",
-			"**Price** 600 gp; **Weight** -  ",
-			"**Category** Mounts/Pets",
-			"",
-			"The prices listed are for dinosaurs and megafauna that have been reared from birth in order to serve as pets or mounts. Combat-trained dinosaurs and megafauna are incredibly rare and have similarly extravagant costs (if one can even find a seller). Though not normally readily available, combat-trained dinosaurs and megafauna typically cost an amount equal to 1-1/2 &times; the price of the standard animal."
+			"**Construction:** Craft (Alchemy) DC 25"
 		]
 	},
 	"deodorizing_agent_vial": {
@@ -97,8 +84,7 @@
 			"",
 			"Coating a creature in a vial of this milky, odorless substance takes 1 minute and renders it scentless for 1d3 hours. Creatures that rely on scent for locating creatures do not gain the benefit of this ability against a creature affected by a dose of deodorizing agent.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 25"
+			"**Construction:** Craft (Alchemy) DC 25"
 		]
 	},
 	"desert_kit": {
@@ -165,18 +151,6 @@
 	"tear_away_dilettantes_outfit": {
 		"name": "Tear-away dilettante's outfit",
 		"copyof": "dilettantes_outfit"
-	},
-	"dimetrodon": {
-		"name": "Dimetrodon",
-		"sources": [ "Animal Archive" ],
-		"description": [
-			"## Dimetrodon",
-			"{SOURCE Animal Archive/14}  ",
-			"**Price** 600 gp; **Weight** -  ",
-			"**Category** Mounts/Pets",
-			"",
-			"The prices listed are for dinosaurs and megafauna that have been reared from birth in order to serve as pets or mounts. Combat-trained dinosaurs and megafauna are incredibly rare and have similarly extravagant costs (if one can even find a seller). Though not normally readily available, combat-trained dinosaurs and megafauna typically cost an amount equal to 1-1/2 &times; the price of the standard animal."
-		]
 	},
 	"dire_ape": {
 		"name": "Dire ape",
@@ -397,8 +371,7 @@
 			"",
 			"When first opened, this sealed jar releases such an overwhelmingly antiseptic odor that it covers other smells until it disperses (1d6 rounds after opening). Creatures within 20 feet of the jar get a +5 alchemical bonus on all saves against scent-based attacks while the sap's odor remains, but they automatically fail any scent-based Perception checks during that time.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 15"
+			"**Construction:** Craft (Alchemy) DC 15"
 		]
 	},
 	"divers_kit": {
@@ -491,20 +464,7 @@
 			"",
 			"This dark green liquid has a pungent odor. For 1 hour after you drink this tincture, your muscles instinctively react to danger and you gain a +2 dodge bonus to AC. Your involuntary muscle movement causes you to take a -2 penalty on attack rolls for the same duration.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 25"
-		]
-	},
-	"dodo": {
-		"name": "Dodo",
-		"sources": [ "Animal Archive" ],
-		"description": [
-			"## Dodo",
-			"{SOURCE Animal Archive/15}  ",
-			"**Price** 5 gp; **Weight** -  ",
-			"**Category** Mounts/Pets",
-			"",
-			"This animal may be purchased already combat-trained at the GM's discretion, and typically cost an amount equal to 1-1/2 &times; the price of the standard animal."
+			"**Construction:** Craft (Alchemy) DC 25"
 		]
 	},
 	"dog_guard": {
@@ -921,8 +881,7 @@
 			"",
 			"This liquid makes the eyes more receptive to light for 4 hours. The user gains low-light vision, but also suffers from light sensitivity for the duration. Crafting duskeye requires a successful DC 16 Craft (alchemy) check.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 16"
+			"**Construction:** Craft (Alchemy) DC 16"
 		]
 	},
 	"dwarf_caiman": {
@@ -962,18 +921,6 @@
 			"**Category** Food/Drink",
 			"",
 			"Dwarven trail rations consist of smoked sausages and salted meat, rounded out with hard biscuits and dried vegetables. If you are a dwarf who subsists on nothing but these rations for at least 1 week, you can hustle or make a forced march for an additional hour without ill effects, but cannot do both in the same day. This benefit lasts until you eat a meal other than the rations or go for a full day without eating a day's worth."
-		]
-	},
-	"eagle": {
-		"name": "Eagle",
-		"sources": [ "Animal Archive" ],
-		"description": [
-			"## Eagle",
-			"{SOURCE Animal Archive/15}  ",
-			"**Price** 40 gp; **Weight** -  ",
-			"**Category** Mounts/Pets",
-			"",
-			"This animal may be purchased already combat-trained at the GM's discretion, and typically cost an amount equal to 1-1/2 &times; the price of the standard animal."
 		]
 	},
 	"ear_trumpet_common": {
@@ -1030,8 +977,7 @@
 			"",
 			"This small canister has a hand pump, allowing it to forcefully eject the semi-ethereal green concoction held within. Spraying a creature with ectoplasmic tracer is a ranged touch attack with a range increment of 10 feet. A single canister holds enough ectoplasmic tracer to coat one Medium or smaller incorporeal creature. When coated with ectoplasmic tracer, an incorporeal creature leaves behind a trail of vibrant mucus that allows it to be tracked by mundane means. Calculate the Survival DC to track an incorporeal creature covered in ectoplasmic tracer as though you were following tracks left on soft ground. Once discharged, ectoplasmic tracer dissolves after 1d4 days. Ectoplasmic tracer has no effect when sprayed on a corporeal creature. Crafting this item requires a successful DC 20 Craft (alchemy) check.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 20"
+			"**Construction:** Craft (Alchemy) DC 20"
 		]
 	},
 	"efficient_tent": {
@@ -1057,8 +1003,7 @@
 			"",
 			"Originally discovered by dwarven alchemists working with adamantine dust, efreeti cord is a viscid length of string approximately 18 inches long and blue-gray in color. It can be purchased in greater lengths by multiplying the price for every 18 inches or fraction thereof. Flexible and sticky, a length of efreeti cord can be carefully shaped into almost any pattern, draped upon an object, or wrapped around a fixture, and will stay in place until activated. Once activated (using an efreeti switch; see below), efreeti cord rapidly heats up, and after 1 round becomes a white-hot cord of fire. In the first round, the cord deals 3d6 points of fire damage to an object. This damage ignores any hardness less than 10, and is not halved for an object. The cord continues to burn for 2 additional rounds, dealing 2d6 points of fire damage the first additional round and 1d6 points the second.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 10"
+			"**Construction:** Craft (Alchemy) DC 10"
 		]
 	},
 	"efreeti_switch": {
@@ -1072,20 +1017,7 @@
 			"",
 			"An efreeti switch is the activation device for efreeti cord; it measures approximately 6 inches in length and is made of a supple, red-brown alchemical compound. It is not consumed when activating a length of cord, and it can be used with any length of efreeti cord. It's possible to key lengths of efreeti cord to a specific switch; however, this doubles the price of both the efreeti cord and the switch.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 10"
-		]
-	},
-	"elasmosaurus": {
-		"name": "Elasmosaurus",
-		"sources": [ "Animal Archive" ],
-		"description": [
-			"## Elasmosaurus",
-			"{SOURCE Animal Archive/14}  ",
-			"**Price** 3,500 gp; **Weight** -  ",
-			"**Category** Mounts/Pets",
-			"",
-			"The prices listed are for dinosaurs and megafauna that have been reared from birth in order to serve as pets or mounts. Combat-trained dinosaurs and megafauna are incredibly rare and have similarly extravagant costs (if one can even find a seller). Though not normally readily available, combat-trained dinosaurs and megafauna typically cost an amount equal to 1-1/2 &times; the price of the standard animal."
+			"**Construction:** Craft (Alchemy) DC 10"
 		]
 	},
 	"electric_eel": {
@@ -1111,8 +1043,7 @@
 			"",
 			"This vial at first seems to be empty, but when it's opened, a rush of wind issues forth from within. When elemental breath is inhaled (as drinking a potion) by an air-breathing creature, that creature does not need to breath air for 10 rounds. A vial of elemental breath must be inhaled on the round it was opened to gain this effect. If it is not, the item is wasted.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 20"
+			"**Construction:** Craft (Alchemy) DC 20"
 		]
 	},
 	"elemental_explorers_kit": {
@@ -1156,20 +1087,6 @@
 			"These Huge animals are exceptionally strong and are quick learners. Some cultures train them for battle or labor. Most known elephants come from savannas or vast rainforest regions. They eat so much that housing them outside of their native environment is expensive."
 		]
 	},
-	"elk_combat_trained": {
-		"name": "Elk (combat-trained)",
-		"sources": [ "Animal Archive" ],
-		"description": [
-			"## Elk",
-			"{SOURCE Animal Archive}",
-			"",
-			"When reared from birth, these animals can easily be ridden by Small or Medium humanoids, depending on the animal's size."
-		]
-	},
-	"elk_common": {
-		"name": "Elk (common)",
-		"copyof": "elk_combat_trained"
-	},
 	"elven_prosthetics": {
 		"name": "Elven Prosthetics",
 		"sources": [ "Heroes from the Fringe" ],
@@ -1205,8 +1122,7 @@
 			"",
 			"This fluid is used to preserve corpses, whether for later dissection, taxidermy, necromancy, or magic such as {spell/raise dead}. Embalming fluid is technically a poison, and using it makes a corpse unpalatable to most animals and vermin, though corpse-eating undead don't mind the taste. Treating a corpse with embalming fluid takes 1 hour and a successful DC 25 Heal check. The embalmed corpse decays at half the normal rate (each day dead counts as half a day for the purpose of raise dead).",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 25"
+			"**Construction:** Craft (Alchemy) DC 25"
 		]
 	},
 	"ember_pot": {
@@ -1243,18 +1159,6 @@
 			"**Category** Clothing",
 			"",
 			"Embroidered with sapphires, this blue sash stands out in stark contrast to the fiery tones of the City of Brass. Emissary's sashes mark contacts whose business necessitates visiting the Noble and Slave Quarters, but who cannot be trusted to roam the city unsupervised. Noble families assign slaves to follow sash-bearers through restricted areas and report on their activities."
-		]
-	},
-	"emperor_cobra": {
-		"name": "Emperor cobra",
-		"sources": [ "Animal Archive" ],
-		"description": [
-			"## Emperor cobra",
-			"{SOURCE Animal Archive/15}  ",
-			"**Price** 1,600 gp; **Weight** -  ",
-			"**Category** Mounts/Pets",
-			"",
-			"This animal may be purchased already combat-trained at the GM's discretion, and typically cost an amount equal to 1-1/2 &times; the price of the standard animal."
 		]
 	},
 	"entertainers_kit": {
@@ -1400,8 +1304,7 @@
 			"",
 			"This tincture contains powdered plant roots and comes in cold-weather and hot-weather varieties. For 6 hours after drinking the tincture, you gain a +5 alchemical bonus on Fortitude saving throws to resist the effects of the chosen temperature. The tincture interferes with blood flow, causing you to take a -2 penalty on all other Fortitude saving throws for the same duration.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 20"
+			"**Construction:** Craft (Alchemy) DC 20"
 		]
 	},
 	"explorers_outfit": {
@@ -1645,12 +1548,11 @@
 			"**Price** 190 gp; **Weight** -  ",
 			"**Category** Alchemical Tools",
 			"",
-			"When imbibed, this cloudy, pink liquid grants you 1d4 uses of alchemical inspiration that can be used only on Bluff checks to lie or to deliver secret messages. Additionally, you can spend two uses of alchemical inspiration to gain inspiration on a saving throw against truth-detecting or truth-forcing magic (such as discern lies or zone of truth).",
+			"When imbibed, this cloudy, pink liquid grants you 1d4 uses of {misc/alchemical inspiration} that can be used only on Bluff checks to lie or to deliver secret messages. Additionally, you can spend two uses of {misc/alchemical inspiration} to gain inspiration on a saving throw against truth-detecting or truth-forcing magic (such as discern lies or zone of truth).",
 			"",
 			"The benefits of falsehood fizz last for 1 hour. During this time, you must roll Sense Motive checks twice and take the worse result.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 15"
+			"**Construction:** Craft (Alchemy) DC 15"
 		]
 	},
 	"familiar_satchel": {
@@ -1725,10 +1627,9 @@
 			"**Price** 190 gp; **Weight** -  ",
 			"**Category** Alchemical Tools",
 			"",
-			"By eating this thin sheet of glossy gelatin, you gain 1d4 uses of alchemical inspiration that can be used only on Diplomacy checks. The benefits of fellowship film last for 1 hour, during which you must roll all Intimidate checks twice and take the worse result.",
+			"By eating this thin sheet of glossy gelatin, you gain 1d4 uses of {misc/alchemical inspiration} that can be used only on Diplomacy checks. The benefits of fellowship film last for 1 hour, during which you must roll all Intimidate checks twice and take the worse result.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 15"
+			"**Construction:** Craft (Alchemy) DC 15"
 		]
 	},
 	"fervor_juice": {
@@ -1742,8 +1643,7 @@
 			"",
 			"This foul-tasting alchemical concoction grants those that imbibe it ferocity for a short period of time. This functions as the [universal monster rule of the same name](umr/ferocity), and lasts for 1 hour from the time you ingest the solution. Crafting this item requires a successful DC 20 Craft (alchemy) check.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 20"
+			"**Construction:** Craft (Alchemy) DC 20"
 		]
 	},
 	"monster_mask": {
@@ -1769,8 +1669,7 @@
 			"",
 			"This 1-foot-long, silver-tipped tin rod glows dimly when struck as a standard action. It sheds dim light in a 30-foot radius. However, the light given off by a moonrod is particularly easily to perceive for creatures with low-light vision. For such creatures, a moonrod increases the light level by one step (to a maximum of normal) for a 60-foot radius. It glows for 6 hours, after which the silver tip is burned out and worthless.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 25"
+			"**Construction:** Craft (Alchemy) DC 25"
 		]
 	},
 	"mug_tankard": {
@@ -1942,8 +1841,7 @@
 			"",
 			"Crafting necrobane formaldehyde requires a successful DC 23 Craft (alchemy) check.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 23"
+			"**Construction:** Craft (Alchemy) DC 23"
 		]
 	},
 	"necrosalt": {
@@ -1957,8 +1855,7 @@
 			"",
 			"The powder in this minute glass vial is made of caustic soda treated with consecrated ashes, and is harmless to living flesh but dangerous to the deceased. Necrosalt can be thrown as a splash weapon with a range increment of 5 feet. On a successful ranged touch attack, 1 dose of necrosalt deals 1d4 points of damage to a struck corporeal undead creature. For 3 rounds afterward, it deals an additional 1d4 points of damage to its victim at the beginning of the victim's turn. Intelligent undead creatures can brush necrosalt off their bodies and end its effect as a move action. Crafting this item requires a successful DC 30 Craft (alchemy) check.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 30"
+			"**Construction:** Craft (Alchemy) DC 30"
 		]
 	},
 	"nepenthe": {
@@ -2025,10 +1922,9 @@
 			"**Price** 200 gp; **Weight** -  ",
 			"**Category** Alchemical Tools",
 			"",
-			"Once you imbibe this metallic-tasting liquid, its effects last for 1 hour. During this time, you can accept alchemical burn to increase your sneak attack damage by 1d6 points or your hidden strike damage by 1d4 or 1d8 points (as appropriate) for 1 round. If you don't possess the sneak attack or hidden strike abilities, imbibing this tonic has no effect.",
+			"Once you imbibe this metallic-tasting liquid, its effects last for 1 hour. During this time, you can accept {misc/alchemical burn} to increase your sneak attack damage by 1d6 points or your hidden strike damage by 1d4 or 1d8 points (as appropriate) for 1 round. If you don't possess the sneak attack or hidden strike abilities, imbibing this tonic has no effect.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 20"
+			"**Construction:** Craft (Alchemy) DC 20"
 		]
 	},
 	"night_tea": {
@@ -2075,8 +1971,7 @@
 			"",
 			"This runny green liquid increases your heart rate. For 1 hour after drinking this tincture, you gain a +2 alchemical bonus on initiative checks and Reflex saves. This causes trembling, and you take a -2 penalty on Dexterity-based skill checks for the same duration.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 25"
+			"**Construction:** Craft (Alchemy) DC 25"
 		]
 	},
 	"nobles_outfit": {
@@ -2146,8 +2041,7 @@
 			"",
 			"This reagent is often stored in the form of small, salty pellets in a dry container, though it can also be mixed with a flask of water and carried that way. Nushadir neutralizes acid; a vial of pellets or a flask of nushadir-water is enough to render a cubic foot of acid safe to touch in 1 minute, though this is usually too slow to prevent damage from a thrown vial of acid or the contents of a large monster's gullet. Nushadir vapors are slightly irritating to the eyes, nose, and mouth, causing nausea for 1d4 rounds after close exposure (Fortitude DC 10 negates).",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 20"
+			"**Construction:** Craft (Alchemy) DC 20"
 		]
 	},
 	"oar": {
@@ -2281,8 +2175,7 @@
 			"",
 			"This gold-tinted oil smells of wood shavings. When you apply it to the strings of a stringed instrument or the body of a woodwind, it improves the quality of the instrument's sound. For 1 hour, anyone playing the instrument gains a +2 alchemical bonus on the appropriate Perform check.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 25"
+			"**Construction:** Craft (Alchemy) DC 25"
 		]
 	},
 	"oil": {
@@ -2340,8 +2233,7 @@
 			"",
 			"This alchemical concoction can be spread over a Medium or Small creature's body as a full-round action. It provides a +5 alchemical bonus on Escape Artist checks, grapple checks to avoid a grapple, and Reflex saves to avoid an ooze's improved grab or engulf abilities, but gives a -5 penalty to disarm checks, grapple checks to start or maintain a grapple or pin, and other checks that may be hindered by a loose grip (such as Climb). One application lasts for up to 1 hour and can be removed with soap and water.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 25"
+			"**Construction:** Craft (Alchemy) DC 25"
 		]
 	},
 	"oozing_vat_gargantuan": {
@@ -2445,18 +2337,6 @@
 		"name": "Orrery (tellurium)",
 		"copyof": "orrery_calculating_grand"
 	},
-	"osprey": {
-		"name": "Osprey",
-		"sources": [ "Animal Archive" ],
-		"description": [
-			"## Osprey",
-			"{SOURCE Animal Archive/15}  ",
-			"**Price** 45 gp; **Weight** -  ",
-			"**Category** Mounts/Pets",
-			"",
-			"This animal may be purchased already combat-trained at the GM's discretion, and typically cost an amount equal to 1-1/2 &times; the price of the standard animal."
-		]
-	},
 	"ostentatious_garment": {
 		"name": "Ostentatious garment",
 		"sources": [ "Heroes of the High Court" ],
@@ -2508,18 +2388,6 @@
 		"name": "Owl (common)",
 		"copyof": "owl_verduran"
 	},
-	"pachycephalosaurus": {
-		"name": "Pachycephalosaurus",
-		"sources": [ "Animal Archive" ],
-		"description": [
-			"## Pachycephalosaurus",
-			"{SOURCE Animal Archive/14}  ",
-			"**Price** 1,000 gp; **Weight** -  ",
-			"**Category** Mounts/Pets",
-			"",
-			"The prices listed are for dinosaurs and megafauna that have been reared from birth in order to serve as pets or mounts. Combat-trained dinosaurs and megafauna are incredibly rare and have similarly extravagant costs (if one can even find a seller). Though not normally readily available, combat-trained dinosaurs and megafauna typically cost an amount equal to 1-1/2 &times; the price of the standard animal."
-		]
-	},
 	"pack_animal_musk_ox": {
 		"name": "Pack animal (musk ox)",
 		"sources": [ "Pathfinder #51: The Hungry Storm" ],
@@ -2564,8 +2432,7 @@
 			"",
 			"Drinking this crystal-clear liquid accelerates the natural process of healing Constitution damage. Resting for 1 hour after drinking a vial heals you of 1 point of Constitution damage as if you had benefited from a full night's rest. Taking multiple doses in an hour does not increase the rate of healing; you must take each individually, followed by an hour of rest, for it to have any effect. Using more than 4 doses of padzahr in 1 day has no effect.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 25"
+			"**Construction:** Craft (Alchemy) DC 25"
 		]
 	},
 	"pain_wheel": {
@@ -2660,8 +2527,7 @@
 			"",
 			"This jar of thick, gritty paste is made from coarsely ground plant matter, weak epoxy, and bat guano. When exposed to air, the moldable substance quickly creates a thin, paperlike surface, which is ideal for creating false earthen walls. Creating a 5-foot-by-5-foot section of paper wall requires a full-round action. Though this false wall is easy to punch through, it requires a successful DC 13 Perception check to identify the wall as a fake. If the creator of the paper wall spends an additional full-round action disguising the wall with dirt and pebbles, the DC increases by 2. Crafting this item requires a successful DC 15 Craft (alchemy) check.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 15"
+			"**Construction:** Craft (Alchemy) DC 15"
 		]
 	},
 	"paper_underwater_sheet": {
@@ -2677,18 +2543,6 @@
 		]
 	},
 	"underwater_sheet_paper": { "copyof": "paper_underwater_sheet" },
-	"parasaurolophus": {
-		"name": "Parasaurolophus",
-		"sources": [ "Animal Archive" ],
-		"description": [
-			"## Parasaurolophus",
-			"{SOURCE Animal Archive/14}  ",
-			"**Price** 1,200 gp; **Weight** -  ",
-			"**Category** Mounts/Pets",
-			"",
-			"The prices listed are for dinosaurs and megafauna that have been reared from birth in order to serve as pets or mounts. Combat-trained dinosaurs and megafauna are incredibly rare and have similarly extravagant costs (if one can even find a seller). Though not normally readily available, combat-trained dinosaurs and megafauna typically cost an amount equal to 1-1/2 &times; the price of the standard animal."
-		]
-	},
 	"parasol_common": {
 		"name": "Parasol (common)",
 		"sources": [ "Ultimate Equipment" ],
@@ -2903,8 +2757,7 @@
 			"",
 			"Similar to sunrods, these small white pebbles are alchemically treated so that they shed a soft light once activated by striking them together. The glow is faint - just barely enough to illuminate the stone. Though not bright enough to serve as an effective light source, they can be placed in patterns to create messages or laid out in a path, marking it for others to follow.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 25"
+			"**Construction:** Craft (Alchemy) DC 25"
 		]
 	},
 	"peasants_outfit": {
@@ -3071,8 +2924,7 @@
 			"",
 			"This tiny blob of ooze looks like a small disc of green stone when inactive, and is stored in a circular dish with an airtight cover. When the cover is removed and the ooze is exposed to air, the user has 1 minute to handle the rapidly softening ooze before it regains its former viscosity (as well as toxicity) and springs back to life. Although much smaller than an actual ooze creature, this coin-sized blob still deals 1d6 points of acid damage to anything it comes in contact with. Due to its unpredictable nature, petrified ooze is typically only good for breaking or melting whatever object or device on which the user originally sets the ooze, after which the blob quickly scurries into the nearest corner or crevice so it can feed on particles of dust and diminutive prey. Once restored to its viscous form, a petrified ooze moves at a rate of 60 feet per round, and any creature that comes in contact with the ooze must succeed at a DC 12 Reflex save to avoid taking acid damage from it.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 25"
+			"**Construction:** Craft (Alchemy) DC 25"
 		]
 	},
 	"phantom_ash": {
@@ -3098,8 +2950,7 @@
 			"",
 			"This sealed vial contains 1 ounce of milky white gel. Once the vial's seal is broken, the liquid reacts with the surrounding air and begins to rapidly heat up, glowing like a candle for 1 hour. After that hour, the oxidization of the chemical agent is complete, and the gel dissolves in a white-hot flash, dealing 3d6 points of fire damage to anything directly in contact with it. A single dose of phosphorescent gel can coat 6 square inches of a surface. Multiple doses of phosphorescent gel can be used to coat larger surfaces, but the amount of damage dealt does not stack. The conflagration occurs in an instant, and the fire generated doesn't spread, though it can be used to ignite a larger explosive such as a fuse grenade or pot of oil.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 20"
+			"**Construction:** Craft (Alchemy) DC 20"
 		]
 	},
 	"phrenologists_kit": {
@@ -3498,18 +3349,6 @@
 			"Mounted on a sturdy 15-foot pole, this flag inspires all orcs belonging to the tribe it represents. As long as they are within 60 feet and can see the standard, they gain a +1 morale bonus on saving throws against fear effects. The standard must be carried in one hand by a member of the tribe to have any effect (it provides no bonus if hung on a wall, draped over a throne, and so on). If the standard is brought low (such as by its bearer dropping it in the mud), defiled, destroyed, or captured, the tribe's members take a -1 penalty on attack rolls and saving throws versus fear effects for the next hour. If the orcs reclaim a captured standard, the penalties end and the bonus is restored."
 		]
 	},
-	"triceratops": {
-		"name": "Triceratops",
-		"sources": [ "Animal Archive" ],
-		"description": [
-			"## Triceratops",
-			"{SOURCE Animal Archive/14}  ",
-			"**Price** 5,600 gp; **Weight** -  ",
-			"**Category** Mounts/Pets",
-			"",
-			"The prices listed are for dinosaurs and megafauna that have been reared from birth in order to serve as pets or mounts. Combat-trained dinosaurs and megafauna are incredibly rare and have similarly extravagant costs (if one can even find a seller). Though not normally readily available, combat-trained dinosaurs and megafauna typically cost an amount equal to 1-1/2 &times; the price of the standard animal."
-		]
-	},
 	"tricksters_kit": {
 		"name": "Trickster's kit",
 		"sources": [ "Dragonslayer's Handbook" ],
@@ -3533,8 +3372,7 @@
 			"",
 			"This crimson liquid is viscous and tastes foul. If you drink it, for the next hour you automatically stabilize when reduced to negative hit points (unless the damage is sufficient to instantly kill you) and have a 50% chance each round to end any bleed effect on you. If you take fire or acid damage, the benefits of troll oil are suspended for 1 round.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 30"
+			"**Construction:** Craft (Alchemy) DC 30"
 		]
 	},
 	"troll_slayers_kit": {
@@ -3563,8 +3401,7 @@
 			"",
 			"Troll styptic is used as a field treatment for wounds and bleeding, particularly where magical healing is not available. When applied directly to wounds, this jar of paste grants a living creature fast healing 2 for 2d4 rounds. While active, the styptic also closes any open wounds the subject receives, negating any bleed effects that would affect the target. This is a painful cure, and the target must succeed at a DC 15 Fortitude save or be sickened for the styptic's duration.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 25"
+			"**Construction:** Craft (Alchemy) DC 25"
 		]
 	},
 	"tropical_kit": {
@@ -3629,32 +3466,7 @@
 			"",
 			"This thick syrup is extracted from bitter herbs and enhanced by alchemy to ward against sleep, paralysis, and the staggered condition. If you drink twitch tonic, you gain a +2 alchemical bonus on saving throws made against these effects for the next hour. If you drink twitch tonic while suffering from any of these effects, you may immediately roll another saving throw against the effect (with the +2 bonus); you may gain this particular benefit only once per day. You can administer twitch tonic to an unconscious or paralyzed creature as a full-round action, similar to administering a potion.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 25"
-		]
-	},
-	"tylosaurus": {
-		"name": "Tylosaurus",
-		"sources": [ "Animal Archive" ],
-		"description": [
-			"## Tylosaurus",
-			"{SOURCE Animal Archive/14}  ",
-			"**Price** 4,000 gp; **Weight** -  ",
-			"**Category** Mounts/Pets",
-			"",
-			"The prices listed are for dinosaurs and megafauna that have been reared from birth in order to serve as pets or mounts. Combat-trained dinosaurs and megafauna are incredibly rare and have similarly extravagant costs (if one can even find a seller). Though not normally readily available, combat-trained dinosaurs and megafauna typically cost an amount equal to 1-1/2 &times; the price of the standard animal."
-		]
-	},
-	"tyrannosaurus": {
-		"name": "Tyrannosaurus",
-		"sources": [ "Animal Archive" ],
-		"description": [
-			"## Tyrannosaurus",
-			"{SOURCE Animal Archive/14}  ",
-			"**Price** 8,100 gp; **Weight** -  ",
-			"**Category** Mounts/Pets",
-			"",
-			"The prices listed are for dinosaurs and megafauna that have been reared from birth in order to serve as pets or mounts. Combat-trained dinosaurs and megafauna are incredibly rare and have similarly extravagant costs (if one can even find a seller). Though not normally readily available, combat-trained dinosaurs and megafauna typically cost an amount equal to 1-1/2 &times; the price of the standard animal."
+			"**Construction:** Craft (Alchemy) DC 25"
 		]
 	},
 	"undead_slayers_kit": {
@@ -3740,8 +3552,7 @@
 			"",
 			"A volatile mix of incendiary reagents, unstable accelerant can be thrown just like alchemist's fire. In the hands of an alchemist, a flask of unstable accelerant can be used as part of creating a bomb, increasing its fire damage by +1d6 points. It has no effect on bombs that do not deal fire damage. If the bomb lasts for more than an instant, the extra damage only applies to the first round's damage.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 25"
+			"**Construction:** Craft (Alchemy) DC 25"
 		]
 	},
 	"valet": {
@@ -3915,8 +3726,7 @@
 			"",
 			"Vermin repellent counts as a strong scent, allowing creatures with the {umr/scent} ability to detect it at a greater range.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 20"
+			"**Construction:** Craft (Alchemy) DC 20"
 		]
 	},
 	"vest": {
@@ -3997,8 +3807,7 @@
 			"",
 			"This sealed copper tube contains a packet of alchemical fertilizer and several sprouted seedlings from the First World. Once shaken and opened as a standard action, the tube exudes a multitude of vines that spill into an adjacent square for 3 rounds. Left alone, these vines create an area of difficult terrain in the square, but a creature holding the tube can shape the vines as they emerge into a crude tool, piece of furniture, or other object of wood or rope weighing 20 pounds or less with a successful DC 10 Craft (baskets or carpentry) check. The vine construct lasts for 10 minutes before crumbling to pieces. Crafting this item requires a successful DC 25 Craft (alchemy) check.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 25"
+			"**Construction:** Craft (Alchemy) DC 25"
 		]
 	},
 	"vivifying_moxibustion_needles": {
@@ -4027,20 +3836,7 @@
 			"",
 			"These small capsules consist of a concentrated mix of nausea-inducing herbs. To use a capsule, you bite down and ingest its contents, which almost immediately cause you to projectile vomit. The vomiting lasts 1 full round, during which you can take no other actions. The following round you recover fully, and suffer no other ill effects. These capsules are most often used by rogues working in teams to create distractions and spectacles in order to draw people's attention away from their activities, as well as by those interested in faking illness, such as pugilists trying to throw fights or criminals seeking to create chaos during an arrest.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 15"
-		]
-	},
-	"vulture": {
-		"name": "Vulture",
-		"sources": [ "Animal Archive" ],
-		"description": [
-			"## Vulture",
-			"{SOURCE Animal Archive/15}  ",
-			"**Price** 30 gp; **Weight** -  ",
-			"**Category** Mounts/Pets",
-			"",
-			"This animal may be purchased already combat-trained at the GM's discretion, and typically cost an amount equal to 1-1/2 &times; the price of the standard animal."
+			"**Construction:** Craft (Alchemy) DC 15"
 		]
 	},
 	"wading_boots": {
@@ -4142,8 +3938,7 @@
 			"",
 			"This tiny bundle of sacred herbs and bones supposedly attracts the attention of helpful battle-spirits. By crushing the pouch as a standard action, an orc (or a creature from a suitably warlike culture) gains 1d4+1 temporary hit points. These temporary hit points go away after 10 minutes. A creature can only benefit from 1 spirit pouch at a time. Once used, the spirit pouch is destroyed.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 20"
+			"**Construction:** Craft (Alchemy) DC 20"
 		]
 	},
 	"warding_ash": {
@@ -4157,8 +3952,7 @@
 			"",
 			"This flaky compound of blessed ashes is steeped in juniper berries, giving it a warm, chestnut color. Unintelligent undead instinctively recoil upon touching warding ash. If an unintelligent undead creature moves into a space covered in warding ash, it must immediately end its movement in that space (Reflex DC 14 negates). A singe dose of warding ash is enough to cover a 5-foot-square space. Applying warding ash is a move action that provokes attacks of opportunity. The warding ash becomes inert 1 minute after being laid, or after the ash is disturbed in any way (such as being stepped on by a creature). Crafting this item requires a successful DC 25 Craft (alchemy) check.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 25"
+			"**Construction:** Craft (Alchemy) DC 25"
 		]
 	},
 	"warka_jar": {
@@ -4227,8 +4021,7 @@
 			"",
 			"This golden, oily alchemical reagent can be applied to any surface or delivered as a touch attack (the wielder exposes herself unless she uses a glove and disposes of it afterward). A creature or object marked with waspguts attracts angry insects. Vermin within 30 feet attack the target over other available creatures. Wasps are affected at a range of up to 1 mile; in most environments where wasps live, the target is stung by at least one wild wasp per hour. The effect lasts 8 hours or until washed or scraped off (a full-round action). Waspguts can also be thrown as a splash weapon. A direct hit deals no damage, but exposes the target to the waspguts' effects. Crafting waspguts requires a successful DC 20 Craft (alchemy) check.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 20"
+			"**Construction:** Craft (Alchemy) DC 20"
 		]
 	},
 	"waster": {
@@ -4286,8 +4079,7 @@
 			"",
 			"This fist-sized blue sponge absorbs up to 1 pint of water; squeezing the water out of the sponge filters and purifies it, making it safe for drinking, washing, and similar activities. Filling and emptying the sponge is a full-round action. The filtration is enough to remove mundane impurities and common diseases, but does nothing to protect against poisons, magic, and other exotic threats. Each sponge can cleanse 25 pints of water before deteriorating and becoming useless.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 15"
+			"**Construction:** Craft (Alchemy) DC 15"
 		]
 	},
 	"waterproof_bag": {
@@ -4389,8 +4181,7 @@
 			"",
 			"These silver, alchemical powders have a gritty consistency, appearing at first glance to be simple metal shavings. When poured on a weapon and placed over a hot flame for a full round, however, they melt and form a temporary coating on the weapon. The blanching gives the weapon the ability to bypass one kind of material-based damage reduction, such as adamantine, cold iron, or silver. The blanching remains effective until you make a successful attack with the weapon. Each dose of blanching can coat one weapon or up to 10 pieces of ammunition. Only one kind of weapon blanch can be on a weapon at one time, though a weapon made of one special material (such as adamantine) can have a different material blanch (such as silver), and counts as both materials for the first successful hit.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 25 (adamantine), DC 20 (cold iron or silver)"
+			"**Construction:** Craft (Alchemy) DC 25 (adamantine), DC 20 (cold iron or silver)"
 		]
 	},
 	"weapon_blanch_cold_iron": {
@@ -4529,9 +4320,10 @@
 			"**Price** 5 gp; **Weight** 2 lbs.  ",
 			"**Category** Animal Gear",
 			"",
-			"This short lash has a reach of only 10 feet, but is otherwise identical to a normal whip. The wielder gains a +2 circumstance bonus on Handle Animal checks to push a trained animal and on Intimidate checks made to demoralize any animal as long as the animal is within the whip's reach. When using the whip to demoralize a trained animal, the wielder may choose to fascinate the animal rather than causing it to become shaken for the same duration as the shaken condition, but the fascinate effect ends if line of sight between the wielder and the animal is broken."
+			"This short lash has a reach of only 10 feet, but is otherwise identical to a normal {eq-weapon/whip}. The wielder gains a +2 circumstance bonus on Handle Animal checks to push a trained animal and on Intimidate checks made to demoralize any animal as long as the animal is within the whip's reach. When using the whip to demoralize a trained animal, the wielder may choose to {misc/fascinate>d} the animal rather than causing it to become shaken for the same duration as the shaken condition, but the fascinate effect ends if line of sight between the wielder and the animal is broken."
 		]
 	},
+	"training_whip": { "copyof": "whip_training" },
 	"whiskey_cup": {
 		"name": "Whiskey (cup)",
 		"sources": [ "Ultimate Equipment" ],
@@ -4722,8 +4514,7 @@
 			"",
 			"Tengus mix special salves to protect their feathers from the elements. This one-ounce vial of wing oil gives a feathered creature a +1 bonus on all saving throws to resist the effects of cold weather. Its effects last 24 hours.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 20"
+			"**Construction:** Craft (Alchemy) DC 20"
 		]
 	},
 	"wing_sheaths": {
@@ -4828,8 +4619,7 @@
 			"",
 			"This pink liquid has a horrible chalky taste, but is quite effective at counteracting nausea, indigestion, and diarrhea. A vial of wismuth salix, taken in small doses during the day, alleviates these symptoms. If you drink an entire vial of wismuth salix, for 1 hour you get a +2 alchemical bonus on Fortitude saving throws against effects that inflict the nauseated or sickened condition. If you drink a vial of it while suffering from the nauseated or sickened condition, you may immediately roll another saving throw (with the +2 bonus) against the effect; you may gain this particular benefit only once per day. Drinking a vial of wismuth salix (whether over the course of a day or all at once) usually turns your tongue black for about a day, though this is a harmless side effect.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 20"
+			"**Construction:** Craft (Alchemy) DC 20"
 		]
 	},
 	"witchs_kit": {
@@ -4868,8 +4658,7 @@
 			"",
 			"Woad paint is sold in small, concentrated blocks (costing 60 gp each) that must be ground into paste on a wooden or stone pallet with a small amount of water and material spell components. A typical kit contains a pallet and 5 small blocks of paint. One block produces enough paint for 10 component designs or one stilled spell design. Woad paint has no benefit for a non-spellcaster.",
 			"",
-			"*Construction*  ",
-			"Craft (Alchemy) DC 30"
+			"**Construction:** Craft (Alchemy) DC 30"
 		]
 	},
 	"woad_painting_paint_1_block": {
@@ -4877,18 +4666,6 @@
 		"copyof": "woad_painting_kit"
 	},
 	"woad_painting_paint_one_block": { "copyof": "woad_painting_paint_1_block" },
-	"wolf": {
-		"name": "Wolf",
-		"sources": [ "Animal Archive" ],
-		"description": [
-			"## Wolf",
-			"{SOURCE Animal Archive/15}  ",
-			"**Price** 100 gp; **Weight** -  ",
-			"**Category** Mounts/Pets",
-			"",
-			"This animal may be purchased already combat-trained at the GM's discretion, and typically cost an amount equal to 1-1/2 &times; the price of the standard animal."
-		]
-	},
 	"wolfsbane": {
 		"name": "Wolfsbane",
 		"sources": [ "Adventurer's Armory" ],
@@ -4899,18 +4676,6 @@
 			"**Category** Black Market",
 			"",
 			"The root of this tall plant with blue flowers is toxic, but herbalists use it in low doses to reduce pain and regulate the heart. Folklore says it can help a victim of lycanthropy throw off the curse."
-		]
-	},
-	"wolverine": {
-		"name": "Wolverine",
-		"sources": [ "Animal Archive" ],
-		"description": [
-			"## Wolverine",
-			"{SOURCE Animal Archive/15}  ",
-			"**Price** 125 gp; **Weight** -  ",
-			"**Category** Mounts/Pets",
-			"",
-			"This animal may be purchased already combat-trained at the GM's discretion, and typically cost an amount equal to 1-1/2 &times; the price of the standard animal."
 		]
 	},
 	"woolly_mammoth_combat_trained": {
@@ -4927,28 +4692,6 @@
 	"woolly_mammoth_normal": {
 		"name": "Woolly mammoth (normal)",
 		"copyof": "woolly_mammoth_combat_trained"
-	},
-	"woolly_rhinoceros_common": {
-		"name": "Woolly rhinoceros (common)",
-		"sources": [
-			"Animal Archive",
-			"Belkzen, Hold of the Orc Hordes"
-		],
-		"description": [
-			"## Woolly rhinoceros",
-			"{SOURCE Belkzen, Hold of the Orc Hordes/39}  ",
-			"**Price** 3,000 gp (combat-trained), 2,000 gp (common), 2,000 gp (normal); **Weight** 3 tons (combat-trained), - (common), 3 tons (normal)",
-			"",
-			"When reared from birth, these animals can easily be ridden by Small or Medium humanoids, depending on the animal's size. Poached from the Realm of the Mammoth Lords, these hairy pachyderms are used by the orcs of Belkzen as mounts and living siege engines. As if these mounts weren't intimidating enough, the orcs outfit them with spiked metal barding and tusk blades."
-		]
-	},
-	"woolly_rhinoceros_combat_trained": {
-		"name": "Woolly rhinoceros (combat-trained)",
-		"copyof": "woolly_rhinoceros_common"
-	},
-	"woolly_rhinoceros_normal": {
-		"name": "Woolly rhinoceros (normal)",
-		"copyof": "woolly_rhinoceros_common"
 	},
 	"wranglers_gloves": {
 		"name": "Wrangler's gloves",
@@ -5018,7 +4761,7 @@
 			"**Price** 30 gp; **Weight** 1 lb.  ",
 			"**Category** Alchemical Remedies",
 			"",
-			"This green-tinged brew has a pungent, bitter bite. It's flavored with a variety of foulsmelling herbs and is intensely carbonated through a unique fermentation process. Sometimes given to visitors as a prank, wyrm's breath bitter causes the drinker to become sickened for 1d6 minutes (Fortitude DC 12 negates); dwarves gain a +5 racial bonus on this saving throw. After drinking a dose of wyrm's breath bitter, the drinker can, as a move action, unleash a thunderous and noxious belch in either a 5-foot-radius spread or a 10-foot cone. Creatures in the area are deafened and sickened for 1 round (Fortitude DC 12 negates). The drinker must wait 1d4 rounds before belching again, but can belch as often as desired for up to 10 minutes after drinking a wyrm's breath bitter.",
+			"This green-tinged brew has a pungent, bitter bite. It's flavored with a variety of foul-smelling herbs and is intensely carbonated through a unique fermentation process. Sometimes given to visitors as a prank, wyrm's breath bitter causes the drinker to become sickened for 1d6 minutes (Fortitude DC 12 negates); dwarves gain a +5 racial bonus on this saving throw. After drinking a dose of wyrm's breath bitter, the drinker can, as a move action, unleash a thunderous and noxious belch in either a 5-foot-radius spread or a 10-foot cone. Creatures in the area are deafened and sickened for 1 round (Fortitude DC 12 negates). The drinker must wait 1d4 rounds before belching again, but can belch as often as desired for up to 10 minutes after drinking a wyrm's breath bitter.",
 			"",
 			"**{rule/Spontaneous Alchemy} Recipe** (2 {eq-reagent/black powder} + 10 {eq-reagent/brimstone} + 20 {eq-reagent/spirit of wine})/digestion; Craft 21  ",
 			"**Time** 1 week; **Tools** brewer's kit; **Type** alcohol"

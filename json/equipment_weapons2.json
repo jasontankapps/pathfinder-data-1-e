@@ -12,7 +12,7 @@
 			"A guisarme is an 8-foot-long shaft with a blade and a hook mounted at the tip.",
 			"",
 			"**Cost** 9 gp **Weight** 12 lbs.  ",
-			"**Damage** 1d6 (small), 2d4 (medium); **Critical** &times;3; **Range** -; **Type** S; **Special** reach, trip  ",
+			"**Damage** 1d6 (small), 2d4 (medium); **Critical** &times;3; **Range** -; **Type** S; **Special** {misc/reach}, {misc/trip}  ",
 			"**Category** Two-Handed; **Proficiency** Martial  ",
 			"**{ability/Weapon Group>s}** Polearms"
 		],
@@ -31,7 +31,7 @@
 			"A halberd is similar to a 5-foot-long spear, but it also has a small, axe-like head mounted near the tip.",
 			"",
 			"**Cost** 10 gp **Weight** 12 lbs.  ",
-			"**Damage** 1d8 (small), 1d10 (medium); **Critical** &times;3; **Range** -; **Type** P or S; **Special** brace, trip  ",
+			"**Damage** 1d8 (small), 1d10 (medium); **Critical** &times;3; **Range** -; **Type** P or S; **Special** {misc/brace}, {misc/trip}  ",
 			"**Category** Two-Handed; **Proficiency** Martial  ",
 			"**{ability/Weapon Group>s}** Polearms"
 		],
@@ -50,7 +50,7 @@
 			"Similar to a {eq-weapon/light flail}, a heavy flail has a larger metal ball and a longer handle.",
 			"",
 			"**Cost** 15 gp **Weight** 10 lbs.  ",
-			"**Damage** 1d8 (small), 1d10 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** B; **Special** disarm, trip  ",
+			"**Damage** 1d8 (small), 1d10 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** B; **Special** {misc/disarm}, {misc/trip}  ",
 			"**Category** Two-Handed; **Proficiency** Martial  ",
 			"**{ability/Weapon Group>s}** Flails"
 		],
@@ -69,7 +69,7 @@
 			"This slender, 10-foot-long polearm has an added hook protruding from the head that is used to snag the clothing and armor of opponents. A hooked lance, unlike a lance, can't be wielded in one hand while mounted and doesn't deal extra damage if used while mounted.",
 			"",
 			"**Cost** 3 gp **Weight** 10 lbs.  ",
-			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;4; **Range** -; **Type** P; **Special** reach, trip  ",
+			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;4; **Range** -; **Type** P; **Special** {misc/reach}, {misc/trip}  ",
 			"**Category** Two-Handed; **Proficiency** Martial  ",
 			"**{ability/Weapon Group>s}** Polearms"
 		],
@@ -91,7 +91,7 @@
 			"Crafted by goblins for battling horses, this weapon is essentially a long-handled halberd with an enlarged hook on the blade. Most horsechoppers are sized for Small creatures.",
 			"",
 			"**Cost** 10 gp **Weight** 12 lbs.  ",
-			"**Damage** 1d8 (small), 1d10 (medium); **Critical** &times;3; **Range** -; **Type** P or S; **Special** reach, trip  ",
+			"**Damage** 1d8 (small), 1d10 (medium); **Critical** &times;3; **Range** -; **Type** P or S; **Special** {misc/reach}, {misc/trip}  ",
 			"**Category** Two-Handed; **Proficiency** Martial  ",
 			"**{ability/Weapon Group>s}** Polearms"
 		],
@@ -110,7 +110,7 @@
 			"A lance deals double damage when used from the back of a charging mount. While mounted, you can wield a lance with one hand.",
 			"",
 			"**Cost** 10 gp **Weight** 10 lbs.  ",
-			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;3; **Range** -; **Type** P; **Special** reach  ",
+			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;3; **Range** -; **Type** P; **Special** {misc/reach}  ",
 			"**Category** Two-Handed; **Proficiency** Martial  ",
 			"**{ability/Weapon Group>s}** Spears"
 		],
@@ -130,7 +130,7 @@
 			"This polearm has both a pronged hammer head for crushing blows and a spiked head for piercing and peeling armor. The long haft allows the wielder to put amazing force behind the head of this weapon. You gain a +2 bonus on combat maneuver checks to sunder medium or heavy armor with a lucerne hammer.",
 			"",
 			"**Cost** 15 gp **Weight** 12 lbs.  ",
-			"**Damage** 1d10 (small), 1d12 (medium); **Critical** &times;2; **Range** -; **Type** B or P; **Special** brace, reach, see text  ",
+			"**Damage** 1d10 (small), 1d12 (medium); **Critical** &times;2; **Range** -; **Type** B or P; **Special** {misc/brace}, {misc/reach}, see text  ",
 			"**Category** Two-Handed; **Proficiency** Martial  ",
 			"**{ability/Weapon Group>s}** Polearms"
 		],
@@ -146,7 +146,7 @@
 			"A mattock resembles a two-handed pick, but with a chisel-like blade instead of a point.",
 			"",
 			"**Cost** 12 gp **Weight** 12 lbs.  ",
-			"**Damage** 1d6 (small), 2d4 (medium); **Critical** &times;4; **Range** -; **Type** P; **Special** fragile  ",
+			"**Damage** 1d6 (small), 2d4 (medium); **Critical** &times;4; **Range** -; **Type** P; **Special** {misc/fragile}  ",
 			"**Category** Two-Handed; **Proficiency** Martial  ",
 			"**{ability/Weapon Group>s}** Axes"
 		],
@@ -165,7 +165,7 @@
 			"This polearm is a double weapon. One side is fitted with a broad, shovel-like sharpened blade, while the opposite side is fitted with a crescent blade that juts out like a pair of bull's horns. The monk's spade does many types of damage. The type of damage it deals depends on how it is wielded, with the spade side able to bludgeon and slash and the crescent side able to slash and pierce.",
 			"",
 			"**Cost** 20 gp **Weight** 12 lbs.  ",
-			"**Damage** 1d4/1d4 (small), 1d6/1d6 (medium); **Critical** &times;2; **Range** -; **Type** B or P or S; **Special** double, monk  ",
+			"**Damage** 1d4/1d4 (small), 1d6/1d6 (medium); **Critical** &times;2; **Range** -; **Type** B or P or S; **Special** {misc/double}, {misc/monk}  ",
 			"**Category** Two-Handed; **Proficiency** Martial  ",
 			"**{ability/Weapon Group>s}** Double; Monk; Polearms"
 		],
@@ -184,7 +184,7 @@
 			"The naginata consists of a 6-foot staff affixed to a 2-foot-long, slightly curved, swordlike blade. The shaft is designed to keep the wielder out of reach from swords and shorter weapons.",
 			"",
 			"**Cost** 35 gp **Weight** 9 lbs.  ",
-			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;4; **Range** -; **Type** S; **Special** reach  ",
+			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;4; **Range** -; **Type** S; **Special** {misc/reach}  ",
 			"**Category** Two-Handed; **Proficiency** Martial  ",
 			"**{ability/Weapon Group>s}** Polearms"
 		],
@@ -203,7 +203,7 @@
 			"This very long, two-handed weapon has a slender but wickedly sharp 4-foot-long blade at one end. It is predominantly used by ground troops to attack mounted warriors, and can be used to hack riders from their mounts or set to receive a charge.",
 			"",
 			"**Cost** 60 gp **Weight** 8 lbs.  ",
-			"**Damage** 1d8 (small), 1d10 (medium); **Critical** 18-20/&times;2; **Range** -; **Type** S or P; **Special** brace  ",
+			"**Damage** 1d8 (small), 1d10 (medium); **Critical** 18-20/&times;2; **Range** -; **Type** S or P; **Special** {misc/brace}  ",
 			"**Category** Two-Handed; **Proficiency** Martial  ",
 			"**{ability/Weapon Group>s}** Blades, Heavy; Polearms"
 		],
@@ -225,7 +225,7 @@
 			"This large crook of sharpened metal makes it easy to trip and catch fleeing opponents. Invented by ogres, most ogre hooks are Large and crudely fashioned - often from metal torn from previous victims' weapons and armor. Despite their poor workmanship, the rarity and peril involved in getting ogre hooks make such items quite valuable.",
 			"",
 			"**Cost** 24 gp **Weight** 10 lbs.  ",
-			"**Damage** 1d8 (small), 1d10 (medium); **Critical** &times;3; **Range** -; **Type** P; **Special** trip  ",
+			"**Damage** 1d8 (small), 1d10 (medium); **Critical** &times;3; **Range** -; **Type** P; **Special** {misc/trip}  ",
 			"**Category** Two-Handed; **Proficiency** Martial  ",
 			"**{ability/Weapon Group>s}** Polearms"
 		],
@@ -241,7 +241,7 @@
 			"This 5-foot tapered pole is bound in metal with a narrow metal spike projecting from the top. The planson can be used as a club or as a sturdy, if top-heavy, spear to stop a charge.",
 			"",
 			"**Cost** 10 gp **Weight** 10 lbs.  ",
-			"**Damage** 1d8 (small), 1d10 (medium); **Critical** &times;2; **Range** -; **Type** B or P; **Special** brace  ",
+			"**Damage** 1d8 (small), 1d10 (medium); **Critical** &times;2; **Range** -; **Type** B or P; **Special** {misc/brace}  ",
 			"**Category** Two-Handed; **Proficiency** Martial  ",
 			"**{ability/Weapon Group>s}** Hammers; Spears"
 		],
@@ -260,7 +260,7 @@
 			"Similar in appearance to a trident, a ranseur has a single spear at its tip, flanked by a pair of short, curving blades.",
 			"",
 			"**Cost** 10 gp **Weight** 12 lbs.  ",
-			"**Damage** 1d6 (small), 2d4 (medium); **Critical** &times;3; **Range** -; **Type** P; **Special** disarm, reach  ",
+			"**Damage** 1d6 (small), 2d4 (medium); **Critical** &times;3; **Range** -; **Type** P; **Special** {misc/disarm}, {misc/reach}  ",
 			"**Category** Two-Handed; **Proficiency** Martial  ",
 			"**{ability/Weapon Group>s}** Polearms"
 		],
@@ -276,7 +276,7 @@
 			"This Bronze Age weapon is an early polearm consisting of a long, single-edged blade attached to a sturdy staff, sometimes slightly curved. It serves as both a cutting and a thrusting weapon.",
 			"",
 			"**Cost** 15 gp **Weight** 10 lbs.  ",
-			"**Damage** 1d6 (small), 2d4 (medium); **Critical** &times;3; **Range** -; **Type** P or S; **Special** brace, fragile, reach  ",
+			"**Damage** 1d6 (small), 2d4 (medium); **Critical** &times;3; **Range** -; **Type** P or S; **Special** {misc/brace}, {misc/fragile}, {misc/reach}  ",
 			"**Category** Two-Handed; **Proficiency** Martial"
 		],
 		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
@@ -294,7 +294,7 @@
 			"Also called a three-section staff, this weapon is divided into three 2-footlong segments chained together, allowing the wielder greater flexibility than a normal staff and allowing the weapon to be swung rapidly to create a defensive block, wrap and catch weapons, or harness momentum via a whipping motion for powerful strikes.",
 			"",
 			"**Cost** 8 gp **Weight** 3 lbs.  ",
-			"**Damage** 1d8 (small), 1d10 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** B; **Special** blocking, disarm, monk  ",
+			"**Damage** 1d8 (small), 1d10 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** B; **Special** {misc/blocking}, {misc/disarm}, {misc/monk}  ",
 			"**Category** Two-Handed; **Proficiency** Martial  ",
 			"**{ability/Weapon Group>s}** Flails; Monk"
 		],
@@ -310,7 +310,7 @@
 			"This spearlike weapon is about 15 feet long. Its unwieldy length is counterbalanced by a heavy brass base. A sarissa provides extended reach - tripling your reach rather than doubling it. A Medium wielder would threaten spaces 10 to 15 feet away, but not adjacent squares or squares 5 to 10 feet away (as with a typical reach weapon). Because of its great length and weight, a sarissa can be used to attack foes in only one direction each round. You must select a cone each round before you make any attacks with the sarissa. The weapon threatens only foes within this cone and within its extended reach. You can't change the area you threaten with the sarissa until your next turn. While you carry the sarissa pointed upward (typical for overland movement), you threaten only squares in the sarissa's reach in a cone pointed upward.",
 			"",
 			"**Cost** 12 gp **Weight** 12 lbs.  ",
-			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;3; **Range** -; **Type** P; **Special** brace, reach, see text  ",
+			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;3; **Range** -; **Type** P; **Special** {misc/brace}, {misc/reach}, see text  ",
 			"**Category** Two-Handed; **Proficiency** Martial"
 		],
 		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
@@ -328,7 +328,7 @@
 			"This weapon consists of a long wooden shaft with protruding handles and a sharp curved blade set at a right angle. Derived from a farm tool used to mow down crops, a scythe requires two hands to use, and is unwieldy but capable of inflicting grievous wounds. Its connotations as a symbol of death due to its association with reaping also make the scythe a particularly intimidating weapon.",
 			"",
 			"**Cost** 18 gp **Weight** 10 lbs.  ",
-			"**Damage** 1d6 (small), 2d4 (medium); **Critical** &times;4; **Range** -; **Type** P or S; **Special** trip  ",
+			"**Damage** 1d6 (small), 2d4 (medium); **Critical** &times;4; **Range** -; **Type** P or S; **Special** {misc/trip}  ",
 			"**Category** Two-Handed; **Proficiency** Martial  ",
 			"**{ability/Weapon Group>s}** Blades, Heavy"
 		],
@@ -344,7 +344,7 @@
 			"The blade of this weapon, which is also called an injection spear, contains a thin tube or bore that connects to a hollow container just beneath the crosspiece. A successful hit with the spear injects the liquid contents of the container (typically poison or a potion) into the target. Refilling a syringe spear takes 1 minute.",
 			"",
 			"**Cost** 100 gp **Weight** 6 lbs.  ",
-			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;3; **Range** 20 ft.; **Type** P; **Special** brace, see text  ",
+			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;3; **Range** 20 ft.; **Type** P; **Special** {misc/brace}, see text  ",
 			"**Category** Two-Handed; **Proficiency** Martial"
 		],
 		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
@@ -359,7 +359,7 @@
 			"The head of this wooden Stone Age polearm is edged with jagged bits of obsidian, glass, teeth, or similar materials. The wide head serves well for both piercing and slashing attacks.",
 			"",
 			"**Cost** 8 gp **Weight** 8 lbs.  ",
-			"**Damage** 1d8 (small), 1d10 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** P or S; **Special** fragile, reach  ",
+			"**Damage** 1d8 (small), 1d10 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** P or S; **Special** {misc/fragile}, {misc/reach}  ",
 			"**Category** Two-Handed; **Proficiency** Martial"
 		],
 		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
@@ -377,7 +377,7 @@
 			"This long, tridentlike weapon consists of a three-pronged metal fork set upon an 8-foot-long shaft. It is wielded much like a staff, with the wielder grasping the shaft from the center and jabbing with its forked end. A tiger fork can be set to receive a charge.",
 			"",
 			"**Cost** 5 gp **Weight** 8 lbs.  ",
-			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;2; **Range** -; **Type** P; **Special** brace, monk  ",
+			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;2; **Range** -; **Type** P; **Special** {misc/brace}, {misc/monk}  ",
 			"**Category** Two-Handed; **Proficiency** Martial  ",
 			"**{ability/Weapon Group>s}** Monk; Polearms; Spears"
 		],
@@ -396,7 +396,7 @@
 			"Topping the head of this 5-foot-long shaft are three long, backward-curved blades fashioned in the appearance of a blossoming lotus. The unusually large head is designed to land heavy blows and cause multiple wounds that open away from each other.",
 			"",
 			"**Cost** 12 gp **Weight** 14 lbs.  ",
-			"**Damage** 1d8 (small), 1d10 (medium); **Critical** &times;3; **Range** -; **Type** P; **Special** reach  ",
+			"**Damage** 1d8 (small), 1d10 (medium); **Critical** &times;3; **Range** -; **Type** P; **Special** {misc/reach}  ",
 			"**Category** Two-Handed; **Proficiency** Martial  ",
 			"**{ability/Weapon Group>s}** Monk"
 		],
@@ -416,7 +416,7 @@
 			"An amentum is a long leather thong that attaches to a standard javelin. Before throwing, the amentum is wound about the javelin's shaft. You then throw the javelin while gripping the amentum, imparting spin on the weapon and greatly improving its range. Attaching an amentum to a javelin is a move action, and winding it is a full-round action. Javelins can be stored with amenta already wound about them. A javelin wound with an amentum is considered a martial weapon.",
 			"",
 			"**Cost** - **Weight** 1 lb.  ",
-			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** 50 ft.; **Type** P; **Special** performance  ",
+			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** 50 ft.; **Type** P; **Special** {misc/performance}  ",
 			"**Category** Ranged; **Proficiency** Martial  ",
 			"**{ability/Weapon Group>s}** Spears; Thrown"
 		],
@@ -801,7 +801,7 @@
 			"The aklys is a hooked throwing club with a 20-foot-long cord, usually of woven leather; you can retrieve the aklys after throwing it as a move action. The hook allows you to make trip attacks at range. Some aklyses have holes drilled through them and whistle when flung.",
 			"",
 			"**Cost** 5 gp **Weight** 2 lbs.  ",
-			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** 20 ft.; **Type** B; **Special** performance, trip  ",
+			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** 20 ft.; **Type** B; **Special** {misc/performance}, {misc/trip}  ",
 			"**Category** Light; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Hammers; Thrown"
 		],
@@ -817,7 +817,7 @@
 			"An axe-gauntlet is a locked gauntlet covering the hand and forearm up to and over the elbow, with an axe blade built around the gauntlet's permanently closed fist. Axe-gauntlets were developed during the long Quest for Sky, when dwarven warriors often had to engage in running fights against larger, stronger opponents in areas the dwarves did not intend to ever return to. Losing a weapon in such circumstances often made it irretrievable, and the axe-gauntlet became popular with rearguard warriors. Though these weapons have seen significantly less use since the dwarves reached the surface, some dwarven warriors still appreciate the reliability of such designs. An axe-gauntlet takes a full-round action to don, and it gives you a +10 bonus to your CMD against disarm attempts. You can't use the hand on which an axe-gauntlet is worn for anything else.",
 			"",
 			"**Cost** 16 gp **Weight** 5 lbs.  ",
-			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;3; **Range** -; **Type** S; **Special** blocking, disarm  ",
+			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;3; **Range** -; **Type** S; **Special** {misc/blocking}, {misc/disarm}  ",
 			"**Category** Light; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Axes; Close"
 		],
@@ -833,7 +833,7 @@
 			"An axe-gauntlet is a locked gauntlet covering the hand and forearm up to and over the elbow, with an axe blade built around the gauntlet's permanently closed fist. Axe-gauntlets were developed during the long Quest for Sky, when dwarven warriors often had to engage in running fights against larger, stronger opponents in areas the dwarves did not intend to ever return to. Losing a weapon in such circumstances often made it irretrievable, and the axe-gauntlet became popular with rearguard warriors. Though these weapons have seen significantly less use since the dwarves reached the surface, some dwarven warriors still appreciate the reliability of such designs. An axe-gauntlet takes a full-round action to don, and it gives you a +10 bonus to your CMD against disarm attempts. You can't use the hand on which an axe-gauntlet is worn for anything else.",
 			"",
 			"**Cost** 21 gp **Weight** 5 lbs.  ",
-			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;3; **Range** -; **Type** S; **Special** blocking, disarm  ",
+			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;3; **Range** -; **Type** S; **Special** {misc/blocking}, {misc/disarm}  ",
 			"**Category** One-Handed; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Axes; Close"
 		],
@@ -904,7 +904,7 @@
 			"These short, blunt sticks are held in the hands to enhance unarmed martial techniques and secured by a cord looped over the thumb. They provide the wielder with the ability to lock an opponent and target pressure points, granting you a +2 bonus on combat maneuver checks to grapple.",
 			"",
 			"**Cost** 0.1 gp **Weight** -  ",
-			"**Damage** 1d2 (small), 1d3 (medium); **Critical** 19-20/&times;2; **Range** 10 ft.; **Type** B; **Special** blocking, monk, see text  ",
+			"**Damage** 1d2 (small), 1d3 (medium); **Critical** 19-20/&times;2; **Range** 10 ft.; **Type** B; **Special** {misc/blocking}, {misc/monk}, see text  ",
 			"**Category** Light; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Close; Monk"
 		],
@@ -920,7 +920,7 @@
 			"This flat, metal weapon consists of two joined crescent-shaped blades overlapping to form a hollow center with four projecting points. The blades can differ in length. One side of the center is wrapped to serve as a grip while the other acts as a guard. Deer horn knives are traditionally used in pairs.",
 			"",
 			"**Cost** 10 gp **Weight** 3 lbs.  ",
-			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;3; **Range** 20 ft.; **Type** P; **Special** blocking, monk  ",
+			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;3; **Range** 20 ft.; **Type** P; **Special** {misc/blocking}, {misc/monk}  ",
 			"**Category** Light; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Blades, Light; Monk; Thrown"
 		],
@@ -991,7 +991,7 @@
 			"Made to resemble a courtier's fan, this device consists of silk paper stretched and folded over a folding frame of hardened steel. Folding fans are typically wielded in pairs using a technique that distracts the opponent. The fans sport sharp tips, which can be {main/equipment_<poison/ed>s}.",
 			"",
 			"**Cost** 5 gp **Weight** -  ",
-			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;3; **Range** -; **Type** P; **Special** distracting, monk  ",
+			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;3; **Range** -; **Type** P; **Special** {misc/distracting}, {misc/monk}  ",
 			"**Category** Light; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Close; Monk"
 		],
@@ -1007,7 +1007,7 @@
 			"This weapon consists of a three-pronged, barbed hook attached to a length of chain. Due to the weapon's unwieldiness, you cannot make attacks of opportunity with a flying talon and do not threaten any squares with it.",
 			"",
 			"**Cost** 15 gp **Weight** 5 lbs.  ",
-			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** -; **Type** P or S; **Special** disarm, reach, trip, see text  ",
+			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** -; **Type** P or S; **Special** {misc/disarm}, {misc/reach}, {misc/trip}, see text  ",
 			"**Category** Light; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Flails"
 		],
@@ -1023,7 +1023,7 @@
 			"This odd weapon is a 2-foot rod topped with four blunt claws. Squeezing the handle causes the claws to close. You can use the gnome pincher to attempt a disarm or steal combat maneuver with a +2 bonus. You can transfer an object from the pincher to your free hand as a free action. Gnomes treat pinchers as martial weapons.",
 			"",
 			"**Cost** 10 gp **Weight** 2 lbs.  ",
-			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** disarm, see text  ",
+			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** {misc/disarm}, see text  ",
 			"**Category** Light; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Flails"
 		],
@@ -1039,7 +1039,7 @@
 			"One end of this short rope has a sling bullet wrapped in a monkey's fist knot, and the other end is tied in a small loop. You wrap the loop around your wrist as a full-round action and swing the weighted end like a flail. If the loop is properly attached to your wrist and you drop the rope-shot or are disarmed, you can recover it as a swift action. Removing the weapon's loop is a full-round action. You get a +2 bonus on Sleight of Hand checks made to conceal a rope-shot on your body. Halflings treat rope-shots as martial weapons.",
 			"",
 			"**Cost** 1 gp **Weight** 1 lb.  ",
-			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** disarm  ",
+			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** {misc/disarm}  ",
 			"**Category** Light; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Flails"
 		],
@@ -1074,7 +1074,7 @@
 			"Similar to a sickle - and in some regions still used to reap grain - a kama is a short, curved blade attached to a simple handle, usually made of wood. It is sometimes also referred to as a kai, and is frequently used in pairs by martial artists.",
 			"",
 			"**Cost** 2 gp **Weight** 2 lbs.  ",
-			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** S; **Special** monk, trip  ",
+			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** S; **Special** {misc/monk}, {misc/trip}  ",
 			"**Category** Light; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Blades, Light; Monk"
 		],
@@ -1090,7 +1090,7 @@
 			"This light one-handed sword is covered in bony spines that make it easier to poison opponents. The save DC of a nonmagical injury poison applied to a kasatha spinal sword increases by 2. Kasathas treat kasatha spinal swords as martial weapons.",
 			"",
 			"**Cost** 50 gp **Weight** 3 lbs.  ",
-			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;3; **Range** -; **Type** P or S; **Special** fragile  ",
+			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;3; **Range** -; **Type** P or S; **Special** {misc/fragile}  ",
 			"**Category** Light; **Proficiency** Exotic"
 		],
 		"topLink": [ "Light Weapons", "main/equipment_weapons_light" ]
@@ -1108,7 +1108,7 @@
 			"Knuckle axes, usually used in pairs, resemble axe blades mounted on brass knuckles. You may hold, but not wield, a weapon or other object in a hand wearing a knuckle axe. Unlike when wearing brass knuckles, you cannot use a hand wearing a knuckle axe for spellcasting.",
 			"",
 			"**Cost** 9 gp **Weight** 2 lbs.  ",
-			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;3; **Range** -; **Type** S; **Special** monk, performance  ",
+			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;3; **Range** -; **Type** S; **Special** {misc/monk}, {misc/performance}  ",
 			"**Category** Light; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Axes"
 		],
@@ -1127,7 +1127,7 @@
 			"A nunchaku is made up of two wooden or metal bars connected by a short length of rope or chain.",
 			"",
 			"**Cost** 2 gp **Weight** 2 lbs.  ",
-			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** disarm, monk  ",
+			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** {misc/disarm}, {misc/monk}  ",
 			"**Category** Light; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Flails; Monk"
 		],
@@ -1149,7 +1149,7 @@
 			"An evolution of the punching dagger, the pata is a short sword that ends in a full, fingerless gauntlet hilt. You punch rather than stab with the weapon, allowing you to put more force behind each strike. While wearing a pata, you cannot use that hand for anything else. A pata provides a +10 bonus to your CMD against disarm attempts.",
 			"",
 			"**Cost** 14 gp **Weight** 3 lbs.  ",
-			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;3; **Range** -; **Type** P; **Special** performance  ",
+			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;3; **Range** -; **Type** P; **Special** {misc/performance}  ",
 			"**Category** Light; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Axes; Blades, Light"
 		],
@@ -1168,7 +1168,7 @@
 			"A quadrens looks similar to a sturdy dagger, but with four spikes mounted in a square pattern in place of a blade. When you score a critical hit with a quadrens, the resulting gaping wound causes 1 point of bleed damage. In addition to punching through hide and armor, the spikes can also be used to snag opponents' blades and twist them out of their grips.",
 			"",
 			"**Cost** 8 gp **Weight** 2 lbs.  ",
-			"**Damage** 1d4 (small), 1d6 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** P; **Special** performance  ",
+			"**Damage** 1d4 (small), 1d6 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** P; **Special** {misc/performance}  ",
 			"**Category** Light; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Blades, Light"
 		],
@@ -1223,7 +1223,7 @@
 			"A sai is a metal spike flanked by a pair of prongs used to trap an enemy's weapon. When wielding a sai, you get a +2 bonus on combat maneuver checks to sunder an enemy's weapon. Though pointed, a sai is not usually used for stabbing. Instead, it is used primarily to bludgeon foes, punching with the hilt, or else to catch and disarm weapons between its tines. Sais are often wielded in pairs.",
 			"",
 			"**Cost** 1 gp **Weight** 1 lb.  ",
-			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** disarm, monk  ",
+			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** {misc/disarm}, {misc/monk}  ",
 			"**Category** Light; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Monk"
 		],
@@ -1239,7 +1239,7 @@
 			"This elaborate knife is carved with special barbs and grooves, meant to channel toxins into the bloodstream. Any injury poison delivered with a sanpkhang has its DC increased by 1, or by 2 if delivered as part of a critical hit or sneak attack. The vishkanya's weapon familiarity racial trait grants proficiency with the sanpkhang.",
 			"",
 			"**Cost** 60 gp **Weight** 1 lb.  ",
-			"**Damage** 1d3 (small), 1d4 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** P or S; **Special** monk, see text  ",
+			"**Damage** 1d3 (small), 1d4 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** P or S; **Special** {misc/monk}, see text  ",
 			"**Category** Light; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Blades, Light; Monk"
 		],
@@ -1260,7 +1260,7 @@
 			"This whip has a series of razor-sharp blades and fangs inset along its tip. It deals lethal damage, even to creatures with armor bonuses. If you are proficient with both the scorpion whip and whip, you can use a scorpion whip in either the normal way (as a light performance weapon) or as a whip. When you use a scorpion whip as a whip, it is equivalent to a whip, but deals lethal damage and can harm creatures regardless of their armor bonus.",
 			"",
 			"**Cost** 5 gp **Weight** 3 lbs.  ",
-			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** -; **Type** S; **Special** performance  ",
+			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** -; **Type** S; **Special** {misc/performance}  ",
 			"**Category** Light; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Flails"
 		],
@@ -1279,7 +1279,7 @@
 			"This weapon is a handheld shaft fitted with a pointed tip for stabbing foes. It resembles a (much sturdier) arrow with a grip designed for melee combat.",
 			"",
 			"**Cost** 3 gp **Weight** 1 lb.  ",
-			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** P; **Special** monk  ",
+			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** P; **Special** {misc/monk}  ",
 			"**Category** Light; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Monk"
 		],
@@ -1299,7 +1299,7 @@
 			"This blade is a smaller, lighter version of the shotel. You gain a +1 bonus on attack rolls with a sica against opponents using bucklers, light shields, or heavy shields.",
 			"",
 			"**Cost** 10 gp **Weight** 2 lbs.  ",
-			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** S; **Special** performance  ",
+			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** S; **Special** {misc/performance}  ",
 			"**Category** Light; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Blades, Light"
 		],
@@ -1319,7 +1319,7 @@
 			"You can use this dagger to disarm or sunder enemy blades by catching them in the grooves on the back of the blade and using your weapon as a lever. If you are proficient with this weapon, add a +4 bonus on combat maneuver checks to disarm or sunder bladed weapons while using it.",
 			"",
 			"**Cost** 10 gp **Weight** 3 lbs.  ",
-			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** -; **Type** S; **Special** disarm, see text  ",
+			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** -; **Type** S; **Special** {misc/disarm}, {misc/sunder}, see text  ",
 			"**Category** Light; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Blades, Light"
 		],
@@ -1338,7 +1338,7 @@
 			"Also known as an iron claw, this device consists of a fanlike structure of three or more 10-inch blades secured to a sturdy handle strapped to the forearm of the off hand. It can be used as an offensive weapon or defensively like a buckler, or used to disarm an opponent without provoking an attack of opportunity. It provides its owner with a +2 circumstance bonus on attempts to disarm or sunder swords or other slender-bladed weapons.",
 			"",
 			"**Cost** 2 gp **Weight** -  ",
-			"**Damage** 1d2 (small), 1d3 (medium); **Critical** &times;2; **Range** -; **Type** P; **Special** disarm, see text  ",
+			"**Damage** 1d2 (small), 1d3 (medium); **Critical** &times;2; **Range** -; **Type** P; **Special** {misc/disarm}, see text  ",
 			"**Category** Light; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Close"
 		],
@@ -1357,7 +1357,7 @@
 			"These short, slender blades are between 1 to 2 feet long. They are primarily used as back-up weapons, to decapitate defeated enemies, or to commit seppuku (ritual suicide) as a matter of honor. These blades are specifically worn by samurai and are intended to be paired with a katana. Together, this set of blades is referred to as a daisho.",
 			"",
 			"**Cost** 35 gp **Weight** 2 lbs.  ",
-			"**Damage** 1d4 (small), 1d6 (medium); **Critical** 18-20/&times;2; **Range** -; **Type** P or S; **Special** deadly  ",
+			"**Damage** 1d4 (small), 1d6 (medium); **Critical** 18-20/&times;2; **Range** -; **Type** P or S; **Special** {misc/deadly}  ",
 			"**Category** Light; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Blades, Light"
 		],
@@ -1373,7 +1373,7 @@
 			"Also known as a \"scorpion's tail\" due to its unique, stinger-like shape, this short, double-curved blade has no hilt but features a knuckle guard. You gain a +2 bonus to your CMD against disarm attempts made to disarm you of a waveblade.",
 			"",
 			"**Cost** 5 gp **Weight** 2 lbs.  ",
-			"**Damage** 1d4 (small), 1d6 (medium); **Critical** 18-20/&times;2; **Range** -; **Type** P or S; **Special** monk, see text  ",
+			"**Damage** 1d4 (small), 1d6 (medium); **Critical** 18-20/&times;2; **Range** -; **Type** P or S; **Special** {misc/monk}, see text  ",
 			"**Category** Light; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Close"
 		],
@@ -1445,7 +1445,7 @@
 			"Balanced by a metal butt, this large spear is weighted so that it can be used in one hand by a proficient wielder. You can use a doru two-handed as a simple weapon. You can also use a doru as a one-handed martial weapon, but its critical hit multiplier decreases to &times;2.",
 			"",
 			"**Cost** 4 gp **Weight** 6 lbs.  ",
-			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;3; **Range** 20 ft.; **Type** P; **Special** brace  ",
+			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;3; **Range** 20 ft.; **Type** P; **Special** {misc/brace}  ",
 			"**Category** One-Handed; **Proficiency** Exotic"
 		],
 		"topLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
@@ -1549,7 +1549,7 @@
 			"This one-handed weapon is similar to a nunchaku in that it consists of a pair of bars linked with heavy chain. However, a flindbar's bars are made of iron and are capped with a ring of spikes or studs. Since it's much heaver than a nunchaku, it is not a light weapon.",
 			"",
 			"**Cost** 9 gp **Weight** 6 lbs.  ",
-			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;2; **Range** -; **Type** B and P; **Special** disarm, trip  ",
+			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;2; **Range** -; **Type** B and P; **Special** {misc/disarm}, {misc/trip}  ",
 			"**Category** One-Handed; **Proficiency** Exotic"
 		],
 		"topLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
@@ -1562,7 +1562,7 @@
 			"{SOURCE Gnomes of Golarion/22}",
 			"",
 			"**Cost** 20 gp **Weight** 10 lbs.  ",
-			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** reach, trip  ",
+			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** {misc/reach}, {misc/trip}  ",
 			"**Category** One-Handed; **Proficiency** Exotic"
 		],
 		"topLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
@@ -1577,7 +1577,7 @@
 			"This Stone Age weapon is a 4-foot-long version of the terbutje. It is too large to use in one hand without special training; thus, it is an exotic weapon. You can use a great terbutje two-handed as a martial weapon.",
 			"",
 			"**Cost** 12 gp **Weight** 4 lbs.  ",
-			"**Damage** 1d8 (small), 1d10 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** S; **Special** fragile  ",
+			"**Damage** 1d8 (small), 1d10 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** S; **Special** {misc/fragile}  ",
 			"**Category** One-Handed; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Blades, Heavy"
 		],
@@ -1596,7 +1596,7 @@
 			"The hooked end of this axe's blade can be used to disarm foes or pull them off balance. A hooked axe can be used as a martial weapon (in which case it functions like a battleaxe).",
 			"",
 			"**Cost** 20 gp **Weight** 7 lbs.  ",
-			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;3; **Range** -; **Type** S; **Special** disarm, performance, trip  ",
+			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;3; **Range** -; **Type** S; **Special** {misc/disarm}, {misc/performance}, {misc/trip}  ",
 			"**Category** One-Handed; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Axes"
 		],
@@ -1615,7 +1615,7 @@
 			"Specifically constructed for samurai, katanas employ multiple types of steel combined in a distinctive forging process. The result are swords noted for their wickedly sharp yet slender, gently curved blades, designed to make graceful hacking strokes capable of severing opponents' heads and limbs. Though finely balanced, these blades are difficult to master. Characters can use a katana two-handed as a martial weapon, but must take the {feat/Exotic Weapon Proficiency} (katana) feat to use it one-handed.",
 			"",
 			"**Cost** 50 gp **Weight** 6 lbs.  ",
-			"**Damage** 1d6 (small), 1d8 (medium); **Critical** 18-20/&times;2; **Range** -; **Type** S; **Special** deadly  ",
+			"**Damage** 1d6 (small), 1d8 (medium); **Critical** 18-20/&times;2; **Range** -; **Type** S; **Special** {misc/deadly}  ",
 			"**Category** One-Handed; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Blades, Heavy"
 		],
@@ -1636,7 +1636,7 @@
 			"This heavy blade has a convex curve near the end, making its overall shape similar to that of a battleaxe. A typical khopesh is 20 to 24 inches in length. Its curved shape allows the wielder to hook around defenses and trip foes. The elegant shape of a khopesh leads some artisans to cover them in ornate decorations.",
 			"",
 			"**Cost** 20 gp **Weight** 8 lbs.  ",
-			"**Damage** 1d6 (small), 1d8 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** S; **Special** trip  ",
+			"**Damage** 1d6 (small), 1d8 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** S; **Special** {misc/trip}  ",
 			"**Category** One-Handed; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Blades, Heavy"
 		],
@@ -1670,7 +1670,7 @@
 			"The nine-section whip consists of steel bars linked together. The final bar is a 6-inch weighted spike. This weapon can be wielded as a single-handed weapon, a two-handed weapon, or in pairs. Nine-section whips often have colored cloth flags attached to the ends to make them easier to control.",
 			"",
 			"**Cost** 8 gp **Weight** 3 lbs.  ",
-			"**Damage** 1d6 (small), 1d8 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** B; **Special** blocking, distracting, monk, trip  ",
+			"**Damage** 1d6 (small), 1d8 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** B; **Special** {misc/blocking}, {misc/distracting}, {misc/monk}, {misc/trip}  ",
 			"**Category** One-Handed; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Flails; Monk"
 		],
@@ -1750,7 +1750,7 @@
 			"The shotel is a downward-curving sword designed to reach over or around an opponent's shield. You gain a +1 bonus on attack rolls with a shotel against opponents using bucklers, light shields, or heavy shields. The curve of a shotel's blade varies from sword to sword, and some models are double-edged, while others are single-edged, with the back edge able to be braced against a shield for additional power. Shotels are particularly useful for hooking mounted combatants and ripping them from their steeds.",
 			"",
 			"**Cost** 30 gp **Weight** 3 lbs.  ",
-			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;3; **Range** -; **Type** P; **Special** performance  ",
+			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;3; **Range** -; **Type** P; **Special** {misc/performance}  ",
 			"**Category** One-Handed; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Blades, Heavy"
 		],
@@ -1766,7 +1766,7 @@
 			"Favored by those residents of Irrisen with no talent for witchcraft, this exotic blade curves multiple times along its 3-1/2 feet. The sickle-sword's hilt is long and curved, and its blade bears a small secondary grip partway up its length. These allow a wielder with a free hand to rapidly twist the sword in unpredictable ways. When wielding a sickle-sword in one hand and nothing in the other, you can spend a swift action to gain a +2 bonus on your next attack roll before the end of your turn.",
 			"",
 			"**Cost** 20 gp **Weight** 4 lbs.  ",
-			"**Damage** 1d6 (small), 1d8 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** S; **Special** distracting, see text  ",
+			"**Damage** 1d6 (small), 1d8 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** S; **Special** {misc/distracting}, see text  ",
 			"**Category** One-Handed; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Blades, Heavy"
 		],
@@ -1782,7 +1782,7 @@
 			"This rapier like weapon has a thicker blade than normal, which is shaped into a corkscrewing spiral of sharpened edges. These edges can catch enemy weapons, making it ideal for disarming or parrying. You can use the {feat/Weapon Finesse} feat to apply your Dexterity modifier instead of your Strength modifier to attack rolls with a spiral rapier sized for you, even though it isn't a light weapon. You can't wield a spiral rapier in two hands in order to apply 1-1/2 times your Strength modifier to its damage. Any effects that apply to rapiers also apply to a spiral rapier.",
 			"",
 			"**Cost** 80 gp **Weight** 3 lbs.  ",
-			"**Damage** 1d4 (small), 1d6 (medium); **Critical** 18-20/&times;2; **Range** -; **Type** P; **Special** blocking, disarm, see text  ",
+			"**Damage** 1d4 (small), 1d6 (medium); **Critical** 18-20/&times;2; **Range** -; **Type** P; **Special** {misc/blocking}, {misc/disarm}, see text  ",
 			"**Category** One-Handed; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Blades, Light"
 		],
@@ -1798,7 +1798,7 @@
 			"Patterned after the fiery blades masterfully wielded by Sarenite angels, the split-blade sword is both a holy symbol and a difficult-yet-effective weapon. A split-blade sword resembles a large scimitar whose blade splits into two about two-thirds of the way toward the tip. If your Dexterity score is less than 15, you take a -2 penalty on attacks rolls with a split-blade sword, as you're unable to maneuver its unusual blade.",
 			"",
 			"**Cost** 200 gp **Weight** 8 lbs  ",
-			"**Damage** 1d10 (small), 2d6 (medium); **Critical** &times;2; **Range** -; **Type** S; **Special** disarm, trip, see text  ",
+			"**Damage** 1d10 (small), 2d6 (medium); **Critical** &times;2; **Range** -; **Type** S; **Special** {misc/disarm}, {misc/trip}, see text  ",
 			"**Category** One-Handed; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Blades, Heavy"
 		],
@@ -1814,7 +1814,7 @@
 			"The Stone Age taiaha is a long, heavy stick, club-shaped at one end and tipped with a wooden or metal spear point at the other. You wield it with a combination of solid strikes with the club and fending motions with the spear. A taiaha can be wielded as a martial weapon that deals 1d8 points of bludgeoning damage (1d6 if Small) and has a &times;2 critical.",
 			"",
 			"**Cost** 10 gp **Weight** 8 lbs.  ",
-			"**Damage** 1d8/1d4 (small), 1d10/1d6 (medium); **Critical** &times;2/&times;3; **Range** -; **Type** B or P; **Special** double  ",
+			"**Damage** 1d8/1d4 (small), 1d10/1d6 (medium); **Critical** &times;2/&times;3; **Range** -; **Type** B or P; **Special** {misc/double}  ",
 			"**Category** One-Handed; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Double; Hammers"
 		],
@@ -1836,7 +1836,7 @@
 			"Heavy blades typically used by guardians of religious sites, temple swords have distinctive crescent-shaped blades, which appear to be an amalgam of sickle and sword. Many have holes drilled into the blade or the pommel so that charms, bells, or other holy trinkets can be attached to reflect the owner's devotion or to serve as foci for prayer or meditation. Monks are proficient with the temple sword.",
 			"",
 			"**Cost** 30 gp **Weight** 3 lbs.  ",
-			"**Damage** 1d6 (small), 1d8 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** S; **Special** monk, trip  ",
+			"**Damage** 1d6 (small), 1d8 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** S; **Special** {misc/monk}, {misc/trip}  ",
 			"**Category** One-Handed; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Blades, Heavy; Monk"
 		],
@@ -1875,7 +1875,7 @@
 			"Commonly known as a whip sword, this deadly weapon is fashioned from one to four 5-foot-long, razor-sharp blades of flexible steel, almost like a metal {eq-weapon/cat-o'-nine-tails}. The weapon is wielded by whipping the blades at one's opponent. The coiled blade is fine and flexible enough to be worn as a belt, and its wielders often carry the blades wrapped around themselves in this fashion.",
 			"",
 			"**Cost** 30 gp **Weight** 6 lbs.  ",
-			"**Damage** 1d6 (small), 1d8 (medium); **Critical** 18-20/&times;2; **Range** -; **Type** S; **Special** distracting  ",
+			"**Damage** 1d6 (small), 1d8 (medium); **Critical** 18-20/&times;2; **Range** -; **Type** S; **Special** {misc/distracting}  ",
 			"**Category** One-Handed; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Flails; Monk"
 		],
@@ -1891,7 +1891,7 @@
 			"This short and broad Stone Age club is made of hardened wood or bone. It has a notch on one side that is used for catching weapons. If you are proficient with the weapon, you can use the notch in the wahaika to disarm your foes. Otherwise, treat this weapon as a club. Feats and abilities that affect clubs apply to the wahaika.",
 			"",
 			"**Cost** 3 gp **Weight** 3 lbs.  ",
-			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** 10 ft.; **Type** B; **Special** disarm  ",
+			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** 10 ft.; **Type** B; **Special** {misc/disarm}  ",
 			"**Category** One-Handed; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Hammers"
 		],
@@ -1914,7 +1914,7 @@
 			"You can use the {feat/Weapon Finesse} feat to apply your Dexterity modifier instead of your Strength modifier to attack rolls with a whip sized for you, even though it isn't a light weapon. You can't wield a whip in two hands in order to apply 1-1/2 times your Strength modifier to damage rolls.",
 			"",
 			"**Cost** 1 gp **Weight** 2 lbs.  ",
-			"**Damage** 1d2 (small), 1d3 (medium); **Critical** &times;2; **Range** -; **Type** S; **Special** disarm, nonlethal, reach, trip  ",
+			"**Damage** 1d2 (small), 1d3 (medium); **Critical** &times;2; **Range** -; **Type** S; **Special** {misc/disarm}, {misc/nonlethal}, {misc/reach}, {misc/trip}  ",
 			"**Category** One-Handed; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Flails"
 		],
@@ -1930,7 +1930,7 @@
 			"A barbed spear is a 10-foot-long polearm with a four-pronged head similar to a caltrop. The head is connected to the pole by a single weak bolt, giving the weapon the fragile condition. When you use a barbed spear to attack a creature that is prone, flying above you, or at least one size category larger than you, you can make a melee attack with a -4 penalty to jam the barbed head into the target's foot. If you're successful, the target takes 1 point of damage and the barbed head breaks off in the target's foot. The barb then acts as a {eq-misc/caltrop>s}, wounding the creature's foot and halving its speed. This movement penalty lasts for 24 hours, or until the creature is treated with a successful DC 15 Heal check or receives at least 1 point of magical healing. Like caltrops, barbed spears may not work against unusual opponents. A barbed spear that embeds its caltrop-like head into a target's foot gains the broken condition, and can't be used as a weapon until it's repaired.",
 			"",
 			"**Cost** 15 gp **Weight** 10 lbs.  ",
-			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** P; **Special** fragile, reach, see text  ",
+			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** P; **Special** {misc/fragile}, {misc/reach}, see text  ",
 			"**Category** Two-Handed; **Proficiency** Exotic"
 		],
 		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
@@ -1948,7 +1948,7 @@
 			"Gnomes use these narrow, reinforced, 4-foot ladders as weapons. Fighting with a battle ladder is like fighting with a quarterstaff, except that the spaces in the ladder can be used to entangle limbs, granting the ladder the trip weapon feature.",
 			"",
 			"**Cost** 20 gp **Weight** 8 lbs.  ",
-			"**Damage** 1d4/1d4 (small), 1d6/1d6 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** double, trip, see text  ",
+			"**Damage** 1d4/1d4 (small), 1d6/1d6 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** {misc/double}, {misc/trip}, see text  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Double"
 		],
@@ -1972,7 +1972,7 @@
 			"Knowing that seductive performances can bring out the worst in watchers, some Varisians craft rows of razor-sharp blades into their scarves. The skill required in using such scarves effectively and not revealing their deadly nature makes them exotic weapons. If you are proficient with a bladed scarf, you deal 1d4 points of slashing damage to any creature that makes a successful grapple check against you while you wield the scarf. You can use the {feat/Weapon Finesse} feat to apply your Dexterity modifier instead of your Strength modifier on attack rolls with a bladed scarf sized for you, even though it isn't a light weapon.",
 			"",
 			"**Cost** 12 gp **Weight** 2 lbs.  ",
-			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** S; **Special** disarm, trip  ",
+			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** S; **Special** {misc/disarm}, {misc/trip}  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Flails"
 		],
@@ -1991,7 +1991,7 @@
 			"Similar to a quarterstaff, only more slender and tapered at one end, the bo staff is both a defensive device and a weapon.",
 			"",
 			"**Cost** 1 gp **Weight** 3 lbs.  ",
-			"**Damage** 1d4/1d4 (small), 1d6/1d6 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** blocking, double, monk  ",
+			"**Damage** 1d4/1d4 (small), 1d6/1d6 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** {misc/blocking}, {misc/double}, {misc/monk}  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Double; Monk"
 		],
@@ -2010,7 +2010,7 @@
 			"A boarding gaff, or gaff hook, is a long pole with a hook for spearing fish. Pirates often add extra, heavier hooks to both ends of boarding gaffs to assist with boarding actions, giving the weapon its common name. A boarding gaff can also be used for fishing.",
 			"",
 			"**Cost** 8 gp **Weight** 8 lbs.  ",
-			"**Damage** 1d4/1d4 (small), 1d6/1d6 (medium); **Critical** &times;2; **Range** -; **Type** P or S; **Special** double, reach, trip  ",
+			"**Damage** 1d4/1d4 (small), 1d6/1d6 (medium); **Critical** &times;2; **Range** -; **Type** P or S; **Special** {misc/double}, {misc/reach}, {misc/trip}  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Double; Polearms"
 		],
@@ -2049,7 +2049,7 @@
 			"This vicious weapon is often used in gladiatorial events due to its versatility. The body of the weapon is a standard short spear, primarily used for thrusting. The butt of the spear is fitted with a length of chain, often spiked, with a hook at the end. The hook and chain may be used to make trip attacks. If your trip attack fails by 10 or more, you may drop the chain spear to avoid being knocked prone.",
 			"",
 			"**Cost** 15 gp **Weight** 13 lbs.  ",
-			"**Damage** 1d4/1d4 (small), 1d6/1d6 (medium); **Critical** &times;2; **Range** -; **Type** P and S; **Special** double, trip  ",
+			"**Damage** 1d4/1d4 (small), 1d6/1d6 (medium); **Critical** &times;2; **Range** -; **Type** P and S; **Special** {misc/double}, {misc/trip}  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Double; Flails; Spears"
 		],
@@ -2065,7 +2065,7 @@
 			"This pair of hammers is linked by a loose chain. While the two hammers are balanced to wield in melee together, the chain is long enough that you can throw one hammer a short distance and then pull it back; pulling the chain to retrieve the thrown hammer is a move action. The chain-hammer's maximum throwing range is 10 feet. Dwarf rangers are fond of using chain-hammers, often using a locked gauntlet to make sure one of the hammers remains secure.",
 			"",
 			"**Cost** 34 gp **Weight** 8 lbs.  ",
-			"**Damage** 1d4/1d4 (small), 1d6/1d6 (medium); **Critical** &times;2; **Range** 20 ft.; **Type** B; **Special** double, see text  ",
+			"**Damage** 1d4/1d4 (small), 1d6/1d6 (medium); **Critical** &times;2; **Range** 20 ft.; **Type** B; **Special** {misc/double}, see text  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Double; Hammers; Thrown"
 		],
@@ -2081,7 +2081,7 @@
 			"This common herder's tool is a wooden pole with a hooked end. When using a crook, you can ignore the penalty for not having two hands free when making a combat maneuver check to initiate a grapple against a creature you threaten.",
 			"",
 			"**Cost** 1 gp **Weight** 5 lbs.  ",
-			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** reach, trip  ",
+			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** {misc/reach}, {misc/trip}  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Polearms"
 		],
@@ -2100,7 +2100,7 @@
 			"A dire flail consists of two spheres of spiked iron dangling from chains at opposite ends of a long haft. This weapon excels at short but powerful strikes, and is typically swung in a constant churning motion. The wielder of a dire flail must have great strength, both to use the weapon effectively and to keep from tiring out.",
 			"",
 			"**Cost** 90 gp **Weight** 10 lbs.  ",
-			"**Damage** 1d6/1d6 (small), 1d8/1d8 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** disarm, double, trip  ",
+			"**Damage** 1d6/1d6 (small), 1d8/1d8 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** {misc/disarm}, {misc/double}, {misc/trip}  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Double; Flails"
 		],
@@ -2119,7 +2119,7 @@
 			"This 10-foot-long chain is weighted at the end by a ball of solid iron the size of a large fist. By adjusting the slack of the chain, the weapon can be used either with or without reach. Changing between using it as a normal weapon and a reach weapon is a move action.",
 			"",
 			"**Cost** 50 gp **Weight** 15 lbs.  ",
-			"**Damage** 1d8 (small), 1d10 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** reach, see text  ",
+			"**Damage** 1d8 (small), 1d10 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** {misc/reach}, see text  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Flails"
 		],
@@ -2135,7 +2135,7 @@
 			"This long, heavy spear has a point at each end, allowing it to be used as a double weapon.",
 			"",
 			"**Cost** 25 gp **Weight** 12 lbs.  ",
-			"**Damage** 1d6/1d6 (small), 1d8/1d8 (medium); **Critical** &times;3; **Range** -; **Type** P; **Special** double  ",
+			"**Damage** 1d6/1d6 (small), 1d8/1d8 (medium); **Critical** &times;3; **Range** -; **Type** P; **Special** {misc/double}  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Spears"
 		],
@@ -2154,7 +2154,7 @@
 			"This weapon comprises a pair of kama connected with an 8-foot length of chain. The wielder can attack as if armed with a single kama in each hand or extend the chain to make a single reach attack. By swinging the chain, the wielder can whip the kama about to disarm or trip opponents. Furthermore, if one of the weapons is dropped, the wielder can retrieve it as a free action by pulling on the chain.",
 			"",
 			"**Cost** 8 gp **Weight** 4 lbs.  ",
-			"**Damage** 1d4/1d4 (small), 1d6/1d6 (medium); **Critical** &times;2; **Range** -; **Type** S; **Special** double, monk, reach, trip  ",
+			"**Damage** 1d4/1d4 (small), 1d6/1d6 (medium); **Critical** &times;2; **Range** -; **Type** S; **Special** {misc/double}, {misc/monk}, {misc/reach}, {misc/trip}  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Double"
 		],
@@ -2173,7 +2173,7 @@
 			"A dwarven urgrosh is a double weapon: an axe head and a spear point on opposite ends of a long haft. The urgrosh's axe head is a slashing weapon that deals 1d8 points of damage. Its spear head is a piercing weapon that deals 1d6 points of damage. You can use either head as the primary weapon; the other becomes the off-hand weapon. If you use an urgrosh against a charging character, the spear head is the part of the weapon that deals damage. Dwarves treat dwarven urgroshes as martial weapons.",
 			"",
 			"**Cost** 50 gp **Weight** 12 lbs.  ",
-			"**Damage** 1d6/1d4 (small), 1d8/1d6 (medium); **Critical** &times;3; **Range** -; **Type** P or S; **Special** brace, double  ",
+			"**Damage** 1d6/1d4 (small), 1d8/1d6 (medium); **Critical** &times;3; **Range** -; **Type** P or S; **Special** {misc/brace}, {misc/double}  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Double"
 		],
@@ -2189,7 +2189,7 @@
 			"Behind this long pole weapon's spearhead, several short branches project from the shaft at irregular intervals, each angled forward and tipped with a smaller leaf like blade. When you make attacks of opportunity provoked by movement, you gain a +2 bonus on attack rolls. You can use the {feat/Weapon Finesse} feat to apply your Dexterity modifier instead of your Strength modifier on attack rolls with an elven branched spear sized for you, even though it isn't a light weapon. Elves treat elven branched spears as martial weapons.",
 			"",
 			"**Cost** 20 gp **Weight** 10 lbs.  ",
-			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;3; **Range** -; **Type** P; **Special** brace, reach  ",
+			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;3; **Range** -; **Type** P; **Special** {misc/brace}, {misc/reach}  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Spears"
 		],
@@ -2230,7 +2230,7 @@
 			"Like a glaive, the fauchard is a curved blade at the end of a pole. However, the cutting edge of a fauchard is along the concave side, like that of a sickle or scythe.",
 			"",
 			"**Cost** 14 gp **Weight** 10 lbs.  ",
-			"**Damage** 1d8 (small), 1d10 (medium); **Critical** 18-20/&times;2; **Range** -; **Type** S; **Special** reach, trip  ",
+			"**Damage** 1d8 (small), 1d10 (medium); **Critical** 18-20/&times;2; **Range** -; **Type** S; **Special** {misc/reach}, {misc/trip}  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Polearms"
 		],
@@ -2246,7 +2246,7 @@
 			"This is simply a heavy flail mounted on the end of a long polearm. It has the reach and trip weapon qualities.",
 			"",
 			"**Cost** 15 gp **Weight** 10 lbs.  ",
-			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** disarm, reach, trip  ",
+			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** {misc/disarm}, {misc/reach}, {misc/trip}  ",
 			"**Category** Two-Handed; **Proficiency** Exotic"
 		],
 		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
@@ -2261,7 +2261,7 @@
 			"This two-handed sword has a wavy blade that is especially useful for cutting through wooden weapons. If you are proficient with this weapon, you gain a +4 bonus on any sunder attempts made against weapons with a wooden haft; otherwise you may use this sword as a bastard sword.",
 			"",
 			"**Cost** 50 gp **Weight** 6 lbs.  ",
-			"**Damage** 1d8 (small), 1d10 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** S; **Special** sunder  ",
+			"**Damage** 1d8 (small), 1d10 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** S; **Special** {misc/sunder}  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Blades, Heavy"
 		],
@@ -2277,7 +2277,7 @@
 			"This pike has a hollow spot near its tip into which a flask can be strapped. If the flask is filled with an alchemical splash weapon and you hit a creature with the pike, the target is also hit with the splash weapon. This uses up the contents of the flask. Because of the added weight of a flask, attacks with the flask pike take a -2 penalty when it's loaded with one. Reloading the flask pike is a full-round action that provokes attacks of opportunity.",
 			"",
 			"**Cost** 30 gp **Weight** 9 lbs.  ",
-			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;3; **Range** -; **Type** P; **Special** reach, see text  ",
+			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;3; **Range** -; **Type** P; **Special** {misc/reach}, see text  ",
 			"**Category** Two-Handed; **Proficiency** Exotic"
 		],
 		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
@@ -2296,7 +2296,7 @@
 			"A flying blade is a large, crescent-shaped blade anchored to a 10-foot chain. You fight with a flying blade by spinning it about your head or by snapping it toward an opponent. Because the flying blade is a clumsy weapon, you receive a -2 penalty on attack rolls with it, but when you make attacks of opportunity provoked by movement, you receive a +2 bonus on attack rolls instead of the penalty.",
 			"",
 			"**Cost** 40 gp **Weight** 12 lbs.  ",
-			"**Damage** 1d10 (small), 1d12 (medium); **Critical** &times;3; **Range** -; **Type** S; **Special** performance, reach  ",
+			"**Damage** 1d10 (small), 1d12 (medium); **Critical** &times;3; **Range** -; **Type** S; **Special** {misc/performance}, {misc/reach}  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Flails"
 		],
@@ -2314,7 +2314,7 @@
 			"**Choke:** You cut off your target's air supply so he has to hold his breath (see {rule/Suffocation} and the {skill/Swim} skill). Any round you do not maintain the choke, your opponent can take a breath and restart when he has to begin making Constitution checks.",
 			"",
 			"**Cost** 3 gp **Weight** 1 lb.  ",
-			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** S; **Special** grapple, see text  ",
+			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** S; **Special** {misc/grapple}, see text  ",
 			"**Category** Two-Handed; **Proficiency** Exotic"
 		],
 		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
@@ -2329,7 +2329,7 @@
 			"This heavy bladed spear is specifically designed for use against giants, who have long reach and the ability to soak up large amounts of damage.",
 			"",
 			"**Cost** 25 gp **Weight** 12 lbs.  ",
-			"**Damage** 1d8 (small), 2d6 (medium); **Critical** &times;3; **Range** -; **Type** P or S; **Special** brace, reach  ",
+			"**Damage** 1d8 (small), 2d6 (medium); **Critical** &times;3; **Range** -; **Type** P or S; **Special** {misc/brace}, {misc/reach}  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Polearms"
 		],
@@ -2348,7 +2348,7 @@
 			"A gnome hooked hammer is a double weapon - an ingenious tool with a hammer head at one end of its haft and a long, curved pick at the other. The hammer's blunt head is a bludgeoning weapon that deals 1d6 points of damage (critical multiplier &times;3). Its hook is a piercing weapon that deals 1d4 points of damage (critical multiplier &times;4). You can use either head as the primary weapon. Gnomes treat hooked hammers as martial weapons.",
 			"",
 			"**Cost** 20 gp **Weight** 6 lbs.  ",
-			"**Damage** 1d6/1d4 (small), 1d8/1d6 (medium); **Critical** &times;3/&times;4; **Range** -; **Type** B or P; **Special** double, trip  ",
+			"**Damage** 1d6/1d4 (small), 1d8/1d6 (medium); **Critical** &times;3/&times;4; **Range** -; **Type** B or P; **Special** {misc/double}, {misc/trip}  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Double"
 		],
@@ -2368,7 +2368,7 @@
 			"A harpoon is a barbed spear with an attached rope 50 feet or less in length. Most harpoons have metal points, but some use ivory or are made entirely of wood. If you are proficient with the harpoon, it is a grappling weapon. A harpoon's weight includes 10 pounds for the weight of 50 feet of hemp rope. The weight can be reduced by using shorter or lighter rope. If you are not proficient with a harpoon, treat it like a spear.",
 			"",
 			"**Cost** 5 gp **Weight** 16 lbs.  ",
-			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;3; **Range** 10 ft.; **Type** P; **Special** grapple, see text  ",
+			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;3; **Range** 10 ft.; **Type** P; **Special** {misc/grapple}, see text  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Spears; Thrown"
 		],
@@ -2424,7 +2424,7 @@
 			"This weapon has a single kama or sickle held in the off hand, attached by 10 feet of fine chain to a weighted metal ball. The sickle can be used to make trip attacks, jabs, and blocks, while the ball is whipped around at high speeds and then smashed into the opponent, or used to tangle an opponent's sword or spear, allowing the wielder to then attack with the sickle.",
 			"",
 			"**Cost** 12 gp **Weight** 3 lbs.  ",
-			"**Damage** 1d2/1d4 (small), 1d3/1d6 (medium); **Critical** &times;2; **Range** -; **Type** S or B; **Special** double, grapple, monk, reach, trip  ",
+			"**Damage** 1d2/1d4 (small), 1d3/1d6 (medium); **Critical** &times;2; **Range** -; **Type** S or B; **Special** {misc/double}, {misc/grapple}, {misc/monk}, {misc/reach}, {misc/trip}  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Double; Flails; Monk"
 		],
@@ -2443,7 +2443,7 @@
 			"This weapon consists of a foot-long double-edged blade, with another smaller, curved hook-blade sticking out the side like a rooster's spur. The blade is strung to a large iron hoop with a 10-foot length of rope. The blade can be used as an off-handed melee weapon or thrown like a dagger, while the rope and circlet can be whipped around and swung at opponents as a bludgeoning reach weapon.",
 			"",
 			"**Cost** 6 gp **Weight** 1 lb.  ",
-			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** 20 ft.; **Type** S or P; **Special** disarm, grapple, monk, reach  ",
+			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** 20 ft.; **Type** S or P; **Special** {misc/disarm}, {misc/grapple}, {misc/monk}, {misc/reach}  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Flails; Monk"
 		],
@@ -2459,7 +2459,7 @@
 			"These ornate and heavy blades are mounted atop a long, steel-shod haft for greater reach. They are rare among cave-dwelling dwarves but common in mountain dwarf clans that commonly feud with giants.",
 			"",
 			"**Cost** 50 gp **Weight** 14 lbs.  ",
-			"**Damage** 1d10 (small), 1d12 (medium); **Critical** &times;3; **Range** -; **Type** S; **Special** reach  ",
+			"**Damage** 1d10 (small), 1d12 (medium); **Critical** &times;3; **Range** -; **Type** S; **Special** {misc/reach}  ",
 			"**Category** Two-Handed; **Proficiency** Exotic"
 		],
 		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
@@ -2475,7 +2475,7 @@
 			"These heavy-headed bludgeons are often carved or cast with monstrous faces or drilled with tiny holes to create a menacing whistling as they are swung through the air.",
 			"",
 			"**Cost** 70 gp **Weight** 20 lbs.  ",
-			"**Damage** 1d10 (small), 2d6 (medium); **Critical** &times;3; **Range** -; **Type** B; **Special** reach  ",
+			"**Damage** 1d10 (small), 2d6 (medium); **Critical** &times;3; **Range** -; **Type** B; **Special** {misc/reach}  ",
 			"**Category** Two-Handed; **Proficiency** Exotic"
 		],
 		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
@@ -2495,7 +2495,7 @@
 			"This polearm consists of two curved metal bands that close around a target when you attack, allowing you to bind an opponent. A mancatcher is built to capture a creature of a particular size category (such as Small or Medium) and doesn't work on creatures of the wrong size. Make a touch attack to hit an opponent and a combat maneuver check to grapple him (without the -4 penalty for not having two hands free); success means you and the target are grappled. Once the target is grappled, you can perform a move or damage grapple action against him. The mancatcher has hardness 10 and 5 hit points; breaking it requires a DC 26 Strength check. If you drop the mancatcher, the target can free himself as a standard action.",
 			"",
 			"**Cost** 15 gp **Weight** 10 lbs.  ",
-			"**Damage** 1 (small), 1d2 (medium); **Critical** -; **Range** -; **Type** P; **Special** reach, see text  ",
+			"**Damage** 1 (small), 1d2 (medium); **Critical** -; **Range** -; **Type** P; **Special** {misc/reach}, see text  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Polearms"
 		],
@@ -2516,7 +2516,7 @@
 			"This weapon consists of one or two spherical weights attached by a 10-foot chain. You whirl the weights and wrap them around an opponent's body. If you succeed at a trip attempt with a meteor hammer, you can drag your opponent 5 feet closer to you rather than knocking her prone. You may use this weapon in two different ways: In meteor mode you use it as a double weapon, while in fortress mode you cannot use it as a double weapon but gain reach and a +1 shield bonus to AC. Switching between these two modes is a free action decided at the start of your turn.",
 			"",
 			"**Cost** 10 gp **Weight** 10 lbs.  ",
-			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** reach, trip  ",
+			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** {misc/reach}, {misc/trip}  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Flails"
 		],
@@ -2535,7 +2535,7 @@
 			"A cruel weapon with blades placed at opposite ends of a long haft, an orc double axe is a double weapon. Though invented by and traditionally associated with orcs, the double axe can be crafted and wielded by other races as well, though many disdain it for its extreme weight and clumsiness. Because of the blades at either end of the axe, the wielder must hold an orc double axe in the middle of its haft, and utilize a weaving, slashing fighting style more akin to that of a quarterstaff than to that of a greataxe or battleaxe.",
 			"",
 			"**Cost** 60 gp **Weight** 15 lbs.  ",
-			"**Damage** 1d6/1d6 (small), 1d8/1d8 (medium); **Critical** &times;3; **Range** -; **Type** S; **Special** double  ",
+			"**Damage** 1d6/1d6 (small), 1d8/1d8 (medium); **Critical** &times;3; **Range** -; **Type** S; **Special** {misc/double}  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Axes; Double"
 		],
@@ -2551,7 +2551,7 @@
 			"This weapon consists of a wooden log with a shoulder strap to carry some of the weight. The name comes from the orc tradition of making the ram's head out of a large skull. On a successful critical hit with a skull ram, you can attempt a combat maneuver check to bull rush your opponent as a free action.",
 			"",
 			"**Cost** 15 gp **Weight** 20 lbs.  ",
-			"**Damage** 1d8 (small), 1d10 (medium); **Critical** &times;3; **Range** -; **Type** B; **Special** reach  ",
+			"**Damage** 1d8 (small), 1d10 (medium); **Critical** &times;3; **Range** -; **Type** B; **Special** {misc/reach}  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Spears"
 		],
@@ -2590,7 +2590,7 @@
 			"The blade of this glaive is serrated and mounted on an axle, around which a heavy cord is wrapped. When the cord is pulled as a move action, the blade spins rapidly for a number of rounds equal to your Strength bonus. While the blade is spinning, you gain a +2 bonus on damage rolls with the weapon. When the blade is not spinning, treat this weapon as a glaive.",
 			"",
 			"**Cost** 30 gp **Weight** 12 lbs.  ",
-			"**Damage** 1d8 (small), 1d10 (medium); **Critical** &times;3; **Range** -; **Type** S; **Special** reach, see text  ",
+			"**Damage** 1d8 (small), 1d10 (medium); **Critical** &times;3; **Range** -; **Type** S; **Special** {misc/reach}, see text  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Polearms"
 		],
@@ -2610,7 +2610,7 @@
 			"This unusual sword has a straight 2-foot-long blade with six shorter L-shaped blades protruding from it, three on each side in a staggered pattern. The shorter blades can be used to snag opponents' clothing or armor, or can target weapons in order to disarm them. To snag armor or clothing, the attacker makes a trip attempt. If successful, the victim doesn't fall prone, but instead is snagged and stumbles forward, leaving the victim flat-footed for the remainder of the round.",
 			"",
 			"**Cost** 50 gp **Weight** 7 lbs.  ",
-			"**Damage** 1d8 (small), 1d10 (medium); **Critical** &times;3; **Range** -; **Type** S; **Special** disarm, monk  ",
+			"**Damage** 1d8 (small), 1d10 (medium); **Critical** &times;3; **Range** -; **Type** S; **Special** {misc/disarm}, {misc/monk}  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Blades, Heavy; Monk"
 		],
@@ -2646,7 +2646,7 @@
 			"A spiked chain is about 4 feet in length and covered in wicked barbs. Some have metal hoops to use as handgrips. You can use the {feat/Weapon Finesse} feat to apply your Dexterity modifier instead of your Strength modifier to attack rolls with a spiked chain sized for you, even though it isn't a light weapon.",
 			"",
 			"**Cost** 25 gp **Weight** 10 lbs.  ",
-			"**Damage** 1d6 (small), 2d4 (medium); **Critical** &times;2; **Range** -; **Type** P; **Special** disarm, trip  ",
+			"**Damage** 1d6 (small), 2d4 (medium); **Critical** &times;2; **Range** -; **Type** P; **Special** {misc/disarm}, {misc/trip}  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Flails"
 		],
@@ -2662,7 +2662,7 @@
 			"This scythe has a spring-loaded blade that folds down into the weapon's handle. Opening the scythe blade is a swift action, and closing it again is a standard action. You can use Bluff or Sleight of Hand to treat a closed switchscythe as a hidden weapon; the apparatus can be disguised with 1 minute of work, which grants a +5 bonus on such checks. This disguise is ruined when the weapon is opened and must be reapplied to hide the weapon again. Any effects that apply to a scythe also apply to a switchscythe.",
 			"",
 			"**Cost** 18 gp **Weight** 10 lbs.  ",
-			"**Damage** 1d6 (small), 2d4 (medium); **Critical** &times;4; **Range** -; **Type** P or S; **Special** trip  ",
+			"**Damage** 1d6 (small), 2d4 (medium); **Critical** &times;4; **Range** -; **Type** P or S; **Special** {misc/trip}  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Blades, Heavy"
 		],
@@ -2718,7 +2718,7 @@
 			"A two-bladed sword is a double weapon-twin blades extend from either side of a central, short haft, allowing the wielder to attack with graceful but deadly flourishes.",
 			"",
 			"**Cost** 100 gp **Weight** 10 lbs.  ",
-			"**Damage** 1d6/1d6 (small), 1d8/1d8 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** S; **Special** double  ",
+			"**Damage** 1d6/1d6 (small), 1d8/1d8 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** S; **Special** {misc/double}  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Blades, Heavy; Double"
 		],
@@ -2738,7 +2738,7 @@
 			"A bolas is a pair of wooden, stone, or metal weights connected by a thin rope or cord. You can whirl and throw this weapon to make a ranged trip attack against an opponent. You can't be tripped during your own trip attempt when using a bolas.",
 			"",
 			"**Cost** 5 gp **Weight** 2 lbs.  ",
-			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** 10 ft.; **Type** B; **Special** nonlethal, trip  ",
+			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** 10 ft.; **Type** B; **Special** {misc/nonlethal}, {misc/trip}  ",
 			"**Category** Ranged; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Thrown"
 		],
@@ -2790,7 +2790,7 @@
 			"This specialized bolas can be used to perform ranged trip combat maneuvers against creatures far larger than the wielder. It consists of a pair of metal weights connected by a silk rope 20 feet long. Because of the great size and weight of the bolas, you need both hands to swing it around your head, and considerable time to get the weights up to speed. Making a ranged attack with it is a full-round action. You can use a dire bolas to trip a creature whose size is up to three size categories larger than yours.",
 			"",
 			"**Cost** 20 gp **Weight** 4 lbs.  ",
-			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** 10 ft.; **Type** B; **Special** nonlethal, trip  ",
+			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** 10 ft.; **Type** B; **Special** {misc/nonlethal}, {misc/trip}  ",
 			"**Category** Ranged; **Proficiency** Exotic"
 		],
 		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
@@ -2856,7 +2856,7 @@
 			"A grappling hook's weight includes the weight of 50 feet of hemp rope. It can be reduced by using shorter or lighter rope.",
 			"",
 			"**Cost** 6 gp **Weight** 14 lbs.  ",
-			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** 10 ft.; **Type** P; **Special** grapple  ",
+			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** 10 ft.; **Type** P; **Special** {misc/grapple}  ",
 			"**Category** Ranged; **Proficiency** Exotic"
 		],
 		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
@@ -2873,7 +2873,7 @@
 			"You can hurl ordinary stones with a double sling, but stones are not as dense or as round as bullets. Thus, such an attack deals damage as if the weapon were designed for a creature one size category smaller than you, and you take a -1 penalty on attack rolls.",
 			"",
 			"**Cost** 10 gp **Weight** 1 lb.  ",
-			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** 50 ft.; **Type** B; **Special** double (see text)  ",
+			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** 50 ft.; **Type** B; **Special** {misc/double} (see text)  ",
 			"**Category** Ranged; **Proficiency** Exotic"
 		],
 		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
@@ -2912,7 +2912,7 @@
 			"Technically not a unique kind of weapon, a stitched sling is a sling, staff sling, or double sling whose cup is sewn closed around the ammunition, creating a weak sort of light flail. The ammunition sewn into the sling is irrelevant to the type and amount of damage it causes. A stitched sling cannot be used to fire ammunition unless the thread or cord holding the cup closed is cut open (a full-round action that provokes attacks of opportunity).",
 			"",
 			"**Cost** - **Weight** 1 lb.  ",
-			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** disarm, trip  ",
+			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** {misc/disarm}, {misc/trip}  ",
 			"**Category** Ranged; **Proficiency** Exotic"
 		],
 		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
@@ -2964,7 +2964,7 @@
 			"This crossbow shoots ammunition called bolas bolts instead of crossbow bolts. It comes in both light and heavy varieties (but not double, hand, or repeating crossbow varieties) with the same reload action as a conventional crossbow of its type.",
 			"",
 			"**Cost** 400 gp **Weight** 12 lbs.  ",
-			"**Damage** 1d6 (small), 1d8 (medium); **Critical** 19-20/see \"bolas bolts\" text; **Range** 80 ft.; **Type** B; **Special** nonlethal, trip, see text  ",
+			"**Damage** 1d6 (small), 1d8 (medium); **Critical** 19-20/see \"bolas bolts\" text; **Range** 80 ft.; **Type** B; **Special** {misc/nonlethal}, {misc/trip}, see text  ",
 			"**Category** Ranged; **Proficiency** Exotic"
 		],
 		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
@@ -3097,7 +3097,7 @@
 			"This crossbow shoots ammunition called bolas bolts instead of crossbow bolts. It comes in both light and heavy varieties (but not double, hand, or repeating crossbow varieties) with the same reload action as a conventional crossbow of its type.",
 			"",
 			"**Cost** 250 gp **Weight** 6 lbs.  ",
-			"**Damage** 1d3 (small), 1d4 (medium); **Critical** 19-20/see \"bolas bolts\" text; **Range** 40 ft.; **Type** B; **Special** nonlethal, trip, see text  ",
+			"**Damage** 1d3 (small), 1d4 (medium); **Critical** 19-20/see \"bolas bolts\" text; **Range** 40 ft.; **Type** B; **Special** {misc/nonlethal}, {misc/trip}, see text  ",
 			"**Category** Ranged; **Proficiency** Exotic"
 		],
 		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
@@ -3240,7 +3240,7 @@
 			"This deceptively complex weapon appears to be nothing more than a 12-foot rope attached to a 6-inchlong, conical metal spike. Similar to a meteor hammer, it can be whirled at great speeds, then aimed to strike and pierce opponents with great reach. Once it strikes, the wielder can quickly retrieve the weapon with a tug of the rope as a free action.",
 			"",
 			"**Cost** 1 gp **Weight** -  ",
-			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** 20 ft.; **Type** P; **Special** blocking, distracting, monk  ",
+			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** 20 ft.; **Type** P; **Special** {misc/blocking}, {misc/distracting}, {misc/monk}  ",
 			"**Category** Ranged; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Monk; Thrown"
 		],
@@ -3262,7 +3262,7 @@
 			"This spiked bolas functions as a standard {eq-weapon/bolas}, but deals lethal damage rather than nonlethal damage.",
 			"",
 			"**Cost** 15 gp **Weight** 2 lbs.  ",
-			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** 10 ft.; **Type** B and P; **Special** trip  ",
+			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** 10 ft.; **Type** B and P; **Special** {misc/trip}  ",
 			"**Category** Ranged; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Thrown"
 		],
@@ -3297,7 +3297,7 @@
 			"A shuriken is a small piece of metal with sharpened edges, designed for throwing. A shuriken can't be used as a melee weapon. Although they are thrown weapons, shuriken are treated as ammunition for the purposes of drawing them and crafting masterwork or otherwise special versions of them, and of what happens to them after they are thrown.",
 			"",
 			"**Cost** 1 gp **Weight** 0.5 lb.  ",
-			"**Damage** 1 (small), 1d2 (medium); **Critical** &times;2; **Range** 10 ft.; **Type** P; **Special** monk  ",
+			"**Damage** 1 (small), 1d2 (medium); **Critical** &times;2; **Range** 10 ft.; **Type** P; **Special** {misc/monk}  ",
 			"**Category** Ranged; **Proficiency** Exotic"
 		],
 		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
@@ -3335,7 +3335,7 @@
 			"This short, wide net is covered in barbed loops and slipknots. It works like a typical net, except it has the trip weapon special feature. If you entangle an opponent and hold the trailing rope, on your turn in place of a melee attack you may make a combat maneuver check to trip against that opponent; if you succeed, you may trip your opponent or deal 1 point of piercing damage to it. The concentration DC to cast while entangled in a snag net is 17 + the spell's level. The Escape Artist DC to escape a snag net is 22.",
 			"",
 			"**Cost** 30 gp **Weight** 10 lbs.  ",
-			"**Damage** - (small), - (medium); **Critical** -; **Range** 10 ft.; **Type** P; **Special** trip, see text  ",
+			"**Damage** - (small), - (medium); **Critical** -; **Range** 10 ft.; **Type** P; **Special** {misc/trip}, see text  ",
 			"**Category** Ranged; **Proficiency** Exotic  ",
 			"**{ability/Weapon Group>s}** Thrown"
 		],
@@ -3419,7 +3419,7 @@
 			"",
 			"**Long Lash:** This slender cord has tiny bits of glass and stone embedded in its length.  ",
 			"**Cost** 15 gp **Weight** 1 lb.  ",
-			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** S; **Special** reach  ",
+			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** S; **Special** {misc/reach}  ",
 			"**Category** Light; **Proficiency** Special",
 			"",
 			"**Pounder:** This squat ball is made from some sort of dull metal.  ",
@@ -3439,7 +3439,7 @@
 			"",
 			"**Sweeper:** When properly used, this sharply curved piece of metal can knock opponents off their feet. Unlike most trip weapons, you cannot drop it if you are tripped during your own trip attempt.  ",
 			"**Cost** 7 gp **Weight** 3 lbs.  ",
-			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** trip  ",
+			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** {misc/trip}  ",
 			"**Category** Light; **Proficiency** Special"
 		],
 		"topLink": [ "Light Weapons", "main/equipment_weapons_light" ]
