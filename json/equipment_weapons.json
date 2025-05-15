@@ -24,7 +24,7 @@
 			"You can throw a flask of acid as a splash weapon. Treat this attack as a ranged touch attack with a range increment of 10 feet. A direct hit deals 1d6 points of acid damage. Every creature within 5 feet of the point where the acid hits takes 1 point of acid damage from the splash.",
 			"",
 			"**{rule/Spontaneous Alchemy} Recipe** (10 {eq-reagent/brimstone} + 8 {eq-reagent/salt} + 1 {eq-reagent/saltpeter})/distilation; Craft 15  ",
-			"**Time** 1 day; **Tools** retort; **Type** alchemical weapon"
+			"**Time** 1 day; **Tools** {eq-misc/retort}; **Type** alchemical weapon"
 		],
 		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
@@ -42,7 +42,7 @@
 			"You can apply a dose of acid neutralizer to an adjacent ooze creature by emptying the container on it. Treat this as a ranged touch attack that does not provoke attacks of opportunity. When used in this way, acid neutralizer prevents the ooze creature from dealing acid damage (assuming it is normally able to do so) for 1 round.",
 			"",
 			"**{rule/Spontaneous Alchemy} Recipe** (20 {eq-reagent/brimstone} + 10 {eq-reagent/salt} + 5 {eq-reagent/urea})/calcination; Craft 15  ",
-			"**Time** 10 minutes; **Tools** crucible; **Type** alchemical weapon"
+			"**Time** 10 minutes; **Tools** {eq-misc/crucible}; **Type** alchemical weapon"
 		],
 		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
@@ -89,7 +89,7 @@
 			"A direct hit deals 1d6 points of fire damage. Every creature within 5 feet of the point where the flask hits takes 1 point of fire damage from the splash. On the round following a direct hit, the target takes an additional 1d6 points of damage. If desired, the target can use a full-round action to attempt to extinguish the flames before taking this additional damage. Extinguishing the flames requires a DC 15 Reflex save. Rolling on the ground provides the target a +2 bonus on the save. Leaping into a large body of water or magically extinguishing the flames automatically smothers the fire. Crafting this item is a DC 20 Craft (alchemy) check.",
 			"",
 			"**{rule/Spontaneous Alchemy} Recipe** (12 {eq-reagent/magnesium} + 22 {eq-reagent/spirit of wine})/congelation; Craft 20  ",
-			"**Time** 10 minutes; **Tools** alchemist's lab; **Type** alchemical weapon"
+			"**Time** 10 minutes; **Tools** {eq-misc/alchemist's lab}; **Type** alchemical weapon"
 		],
 		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
@@ -213,7 +213,7 @@
 			"The arrowhead of this arrow is coated with potent substances that react to blood and sweat, releasing a strong aroma that most predators recognize as the scent of tasty injured prey and other creatures perceive as merely unpleasant. Any creature with the scent ability gains a +2 circumstance bonus on attack and damage rolls against a target marked with a pheromone arrow. This effect lasts for 1 hour or until the target spends 1 minute washing it off.",
 			"",
 			"**{rule/Spontaneous Alchemy} Recipe** (10 {eq-reagent/myrrh} + 10 {eq-reagent/salt} + 14 {eq-reagent/urea})/congelation; Craft 25  ",
-			"**Time** 10 minutes; **Tools** alchemist's lab; **Type** alchemical weapon",
+			"**Time** 10 minutes; **Tools** {eq-misc/alchemist's lab}; **Type** alchemical weapon",
 			"",
 			"**Note:** Weight is based on 20 normal arrows weighing three pounds."
 		],
@@ -257,7 +257,7 @@
 			"Behind the head of this arrow is a small receptacle of alchemical material that heats up when exposed to air and eventually combusts; barbs on the arrowhead pierce the pouch when it hits a target. If you hit a target with a slow burn arrow, it deals damage as normal, but at the beginning of your next turn, the arrow bursts into flames and deals 1d6 points of fire damage to the target.",
 			"",
 			"**{rule/Spontaneous Alchemy} Recipe** (70 {eq-reagent/magnesium} + 80 {eq-reagent/myrrh} + 25 {eq-reagent/phosphorus})/congelation; Craft 25  ",
-			"**Time** 10 minutes; **Tools** alchemist's lab; **Type** alchemical weapon",
+			"**Time** 10 minutes; **Tools** {eq-misc/alchemist's lab}; **Type** alchemical weapon",
 			"",
 			"**Note:** Weight is based on 20 normal arrows weighing three pounds."
 		],
@@ -299,7 +299,7 @@
 			"This arrow is tipped with a tiny vial of tanglefoot goo. Firing a tangleshot arrow is a ranged touch attack; the arrow deals no damage when it hits, but the target is splashed with the alchemical adhesive. This effect is similar to that of a tanglefoot bag, but with the following adjustments: Reflex DC 10, Strength DC 12 to break, 10 points of slashing damage to cut through, concentration DC 10 to cast spells. A tangleshot arrow imposes a -1 penalty on attack rolls because of its weight.",
 			"",
 			"**{rule/Spontaneous Alchemy} Recipe** (18 {eq-reagent/myrrh} + 26 {eq-reagent/urea})/congelation; Craft 25  ",
-			"**Time** 10 minutes; **Tools** alchemist's lab; **Type** alchemical weapon",
+			"**Time** 10 minutes; **Tools** {eq-misc/alchemist's lab}; **Type** alchemical weapon",
 			"",
 			"**Note:** Weight is based on 20 normal arrows weighing three pounds."
 		],
@@ -340,7 +340,7 @@
 			"**Mythic:** You can expend one use of mythic power while throwing a flask of Artokus's fire to cause the substance to burn hotter and longer than normal. A creature struck by a direct hit of Artokus's fire must succeed at a DC 15 Reflex save or continue to take 1d4 points of fire damage each round at the beginning of its turn. A burning creature can attempt a new save as a full-round action. This effect lasts for a number of rounds equal to the user's mythic tier, and otherwise acts as the {umr/burn} universal monster rule. Artokus's fire used in this way burns even underwater, offering no relief to creatures that try to extinguish the fire by dousing or immersing themselves in water.",
 			"",
 			"**{rule/Spontaneous Alchemy} Recipe** (20 {eq-reagent/magnesium} + 25 {eq-reagent/saltpeter} + 30 {eq-reagent/spirit of wine})/congelation; Craft 30  ",
-			"**Time** 1 hour; **Tools** alchemist's lab; **Type** alchemical weapon"
+			"**Time** 1 hour; **Tools** {eq-misc/alchemist's lab}; **Type** alchemical weapon"
 		],
 		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
@@ -358,7 +358,7 @@
 			"**Mythic:** You can expend one use of mythic power while throwing a blanch bomb to infuse the item with mythic power. When the blanch bomb activates, creatures in the area with the matching DR vulnerability must succeed at DC 16 Reflex saves or their DR is immediately reduced by an amount equal to 1/2 your mythic tier. The gas created by the blanch bomb lasts an additional number of rounds equal to your mythic tier, and it cannot be dispersed by wind. Non-mythic subjects who leave the affected area regain their DR at a rate of 1 point per minute.",
 			"",
 			"**{rule/Spontaneous Alchemy} Recipe** (50 {eq-reagent/cold iron} + 75 {eq-reagent/magnesium} + 50 {eq-reagent/saltpeter})/congelation; Craft 30  ",
-			"**Time** 1 hour; **Tools** crucible; **Type** alchemical weapon"
+			"**Time** 1 hour; **Tools** {eq-misc/crucible}; **Type** alchemical weapon"
 		],
 		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
@@ -376,7 +376,7 @@
 			"**Mythic:** You can expend one use of mythic power while throwing a blanch bomb to infuse the item with mythic power. When the blanch bomb activates, creatures in the area with the matching DR vulnerability must succeed at DC 16 Reflex saves or their DR is immediately reduced by an amount equal to 1/2 your mythic tier. The gas created by the blanch bomb lasts an additional number of rounds equal to your mythic tier, and it cannot be dispersed by wind. Non-mythic subjects who leave the affected area regain their DR at a rate of 1 point per minute.",
 			"",
 			"**{rule/Spontaneous Alchemy} Recipe** (100 {eq-reagent/cold iron} + 50 {eq-reagent/phosphorus} + 20 {eq-reagent/saltpeter})/congelation; Craft 25  ",
-			"**Time** 1 hour; **Tools** crucible; **Type** alchemical weapon"
+			"**Time** 1 hour; **Tools** {eq-misc/crucible}; **Type** alchemical weapon"
 		],
 		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
@@ -394,7 +394,7 @@
 			"**Mythic:** You can expend one use of mythic power while throwing a blanch bomb to infuse the item with mythic power. When the blanch bomb activates, creatures in the area with the matching DR vulnerability must succeed at DC 16 Reflex saves or their DR is immediately reduced by an amount equal to 1/2 your mythic tier. The gas created by the blanch bomb lasts an additional number of rounds equal to your mythic tier, and it cannot be dispersed by wind. Non-mythic subjects who leave the affected area regain their DR at a rate of 1 point per minute.",
 			"",
 			"**{rule/Spontaneous Alchemy} Recipe** (40 {eq-reagent/quicksilver} + 15 {eq-reagent/saltpeter} + 25 {eq-reagent/silver})/congelation; Craft 25  ",
-			"**Time** 1 hour; **Tools** crucible; **Type** alchemical weapon"
+			"**Time** 1 hour; **Tools** {eq-misc/crucible}; **Type** alchemical weapon"
 		],
 		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
@@ -410,7 +410,7 @@
 			"This thin vial of viscous purple fluid can be thrown at an ooze creature as a splash weapon with a range increment of 10 feet. On a direct hit, the solution causes an ooze creature to become bloated and turgid, suppressing its compression ability and reducing the save DC of any constrict, engulf, and entrap attacks made by the ooze by 2. Bloating solution also reduces an ooze creature's reach by 5 feet for the purpose of determining when the ooze can make attacks of opportunity (to a minimum reach of 0 feet). The effects of bloating solution last 1 minute. An affected intelligent ooze creature can attempt a DC 15 Fortitude save as a full-round action to end the effect early.",
 			"",
 			"**{rule/Spontaneous Alchemy} Recipe** (15 {eq-reagent/phosphorus} + 30 {eq-reagent/salt} + 20 {eq-reagent/urea})/distillation; Craft 20  ",
-			"**Time** 10 minutes; **Tools** retort; **Type** alchemical weapon"
+			"**Time** 10 minutes; **Tools** {eq-misc/retort}; **Type** alchemical weapon"
 		],
 		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
@@ -594,7 +594,7 @@
 			"This volatile liquid is usually dispensed from a spray atomizer, which disperses the liquid in a 15-foot cone. Congealer spray causes the surface of an ooze creature to stiffen into a leathery material. Ooze and plant creatures in the affected area become staggered for 1d4 rounds (Fortitude DC 15 negates). If an affected creature has the split defensive ability, it cannot benefit from that ability until the effects of the congealer spray wear off, regardless of whether the creature succeeded at its saving throw.",
 			"",
 			"**{rule/Spontaneous Alchemy} Recipe** (4 {eq-reagent/realgar} + 5 {eq-reagent/salt} + 5 {eq-reagent/urea})/distillation; Craft 20  ",
-			"**Time** 10 minutes; **Tools** retort; **Type** alchemical weapon"
+			"**Time** 10 minutes; **Tools** {eq-misc/retort}; **Type** alchemical weapon"
 		],
 		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
@@ -698,7 +698,7 @@
 			"This oily solution draws water out of living creatures (especially amorphous creatures), simultaneously dehydrating them and drenching their surfaces with a slick, sickly cold sweat. Desiccating lubricant can be thrown as a splash weapon with a range increment of 10 feet. A living creature struck by a direct hit from desiccating lubricant takes 1d4 points of nonlethal damage; a -2 penalty on combat maneuver checks to grapple, bull rush, or disarm; and a -2 penalty to CMD against grapple, bull rush, and disarm checks. These penalties last 1 minute. Against ooze creatures and creatures with the water subtype, desiccating lubricant deals 2d4 points of lethal damage and the penalties increase to -4.",
 			"",
 			"**{rule/Spontaneous Alchemy} Recipe** (25 {eq-reagent/cold iron} + 10 {eq-reagent/salt} + 10 {eq-reagent/urea})/congelation; Craft 20  ",
-			"**Time** 10 minutes; **Tools** alchemist's lab; **Type** alchemical weapon"
+			"**Time** 10 minutes; **Tools** {eq-misc/alchemist's lab}; **Type** alchemical weapon"
 		],
 		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
@@ -875,7 +875,7 @@
 			"This dinner-plate-sized packet contains three jumping jennies, each of which moves independently of the others for 1d6 rounds after the packet detonates.",
 			"",
 			"**{rule/Spontaneous Alchemy} Recipe** (3 {eq-reagent/black powder} + 20 {eq-reagent/magnesium} + 3 {eq-reagent/saltpeter})/calcination; Craft 18  ",
-			"**Time** 1 hour; **Tools** crucible; **Type** alchemical weapon"
+			"**Time** 1 hour; **Tools** {eq-misc/crucible}; **Type** alchemical weapon"
 		],
 		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
@@ -908,7 +908,7 @@
 			"These small paper or cloth cylinders or spheres are filled with a tiny charge of black powder. One round after lighting a firecracker in an adjacent square, the firework detonates with a loud bang, dealing 1d2+1 points of nonlethal damage to any creatures in the square and deafening them for 1d4 rounds (Fortitude DC 11 halves damage and duration of deafness). The bang also causes unintelligent animals within 20 feet of it to become frightened for 1d3 rounds; an animal can overcome this effect with a successful DC 11 Will save or if an adjacent ally calms the animal with a successful DC 11 Handle Animal check (an immediate action).",
 			"",
 			"**{rule/Spontaneous Alchemy} Recipe** (1 {eq-reagent/black powder} + 1 {eq-reagent/saltpeter})/calcination; Craft 20  ",
-			"**Time** 10 minutes; **Tools** crucible; **Type** alchemical weapon"
+			"**Time** 10 minutes; **Tools** {eq-misc/crucible}; **Type** alchemical weapon"
 		],
 		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
@@ -924,7 +924,7 @@
 			"These firecrackers are covered in magical runes and are mixed with ghost salt. One round after you light a spirit firecracker in an adjacent square, the firework detonates and deals 1d4+1 points of damage to incorporeal creatures in the same space. In addition, an affected incorporeal creature with light sensitivity, light blindness, or sunlight powerlessness becomes blinded for 1 round. A spirit firecracker has no effect on corporeal creatures.",
 			"",
 			"**{rule/Spontaneous Alchemy} Recipe** (1 {eq-reagent/black powder} + 6 {eq-reagent/brimstone} + 4 {eq-reagent/saltpeter} + 10 {eq-reagent/silver})/calcination; Craft 25  ",
-			"**Time** 1 hour; **Tools** crucible; **Type** alchemical weapon"
+			"**Time** 1 hour; **Tools** {eq-misc/crucible}; **Type** alchemical weapon"
 		],
 		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
@@ -996,7 +996,7 @@
 			"This small, round paper packet is filled with a sparkling propellant and pierced with several irregular holes, which causes it to dance and spin as the firework burns. One round after you light a jumping jenny, it fills its square with sparks, dealing 1 point of fire damage to creatures in that square and dazzling them for 1d2 rounds (Reflex DC 12 negates). Each round for 1d4 rounds after detonation, the jumping jenny moves into a random adjacent square.",
 			"",
 			"**{rule/Spontaneous Alchemy} Recipe** (1 {eq-reagent/black powder} + 5 {eq-reagent/magnesium} + 1 {eq-reagent/saltpeter})/calcination; Craft 16  ",
-			"**Time** 10 minutes; **Tools** crucible; **Type** alchemical weapon"
+			"**Time** 10 minutes; **Tools** {eq-misc/crucible}; **Type** alchemical weapon"
 		],
 		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
@@ -1049,7 +1049,7 @@
 			"The skydragon firework is the apex of the firework artisan's craft. Unlit, a skydragon firework looks like an unassuming tube of thin wood and colored parchment. One round after you light a skydragon firework, the tube takes flight at a speed of 60 feet for 1d4 rounds, traveling in the direction it is pointed for the first round and changing direction randomly each round thereafter. The firework deals 2d6 points of fire damage to any creature within 10 feet of its flight path. If a skydragon's flight path causes it to hit a solid object, the firework continues in a random direction but subtracts 30 feet from its movement for that round.",
 			"",
 			"**{rule/Spontaneous Alchemy} Recipe** (30 {eq-reagent/black powder} + 30 {eq-reagent/magnesium} + 40 {eq-reagent/phosphorus})/calcination; Craft 30  ",
-			"**Time** 1 day; **Tools** crucible; **Type** alchemical weapon"
+			"**Time** 1 day; **Tools** {eq-misc/crucible}; **Type** alchemical weapon"
 		],
 		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
@@ -1085,7 +1085,7 @@
 			"This disk of paper or light cloth is stretched over a frame of thin wooden supports, with tubes of paper or cured hide spaced evenly around the rim. The whole firework is mounted on a spike or peg and placed on the ground. At the end of the round when it's lit, it spins rapidly and sheds a curtain of dazzling sparks 15 feet wide. The curtain of sparks obscures vision, granting {rule/concealment} against creatures on the opposite side. A sparking pinwheel burns for 1d4+1 rounds, and any creature that begins its turn adjacent to the curtain of sparks takes 1 point of fire damage and is dazzled for 1d4 rounds (Reflex DC 14 negates). Creatures that pass through the curtain of sparks take 1d4 points of fire damage and are blinded for 1 round (a successful save halves the damage and negates the blindness). If not mounted on a solid, immobile object, a sparking pinwheel cannot spin smoothly and instead fills a single 5-foot square with a shower of sparks; its effects are otherwise unchanged for creatures adjacent to or passing through that square.",
 			"",
 			"**{rule/Spontaneous Alchemy} Recipe** (5 {eq-reagent/black powder} + 15 {eq-reagent/magnesium} + 30 {eq-reagent/phosphorus})/calcination; Craft 25  ",
-			"**Time** 1 hour; **Tools** crucible; **Type** alchemical weapon"
+			"**Time** 1 hour; **Tools** {eq-misc/crucible}; **Type** alchemical weapon"
 		],
 		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
@@ -1394,7 +1394,7 @@
 			"This enzyme is derived from a parasitic fungus that breaks down most organic tissue, and is especially destructive to plants and other fungi. A flask of lyddric essence can be used like a flask of acid, dealing normal acid damage to creatures not of the plant type. However, plant creatures, plants, and fungi targeted with lyddric essence take 2d6 points of acid damage on a direct hit, or 2 points of acid splash damage if within 5 feet of where it hits.",
 			"",
 			"**{rule/Spontaneous Alchemy} Recipe** (15 {eq-reagent/brimstone} + 3 {eq-reagent/cytillesh spores})/distillation; Craft 20  ",
-			"**Time** 1 day; **Tools** retort; **Type** alchemical weapon"
+			"**Time** 1 day; **Tools** {eq-misc/retort}; **Type** alchemical weapon"
 		],
 		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
@@ -1616,7 +1616,7 @@
 			"This yellow ball of volatile resin has a hemp wick. Lighting the fuse is a move action; 1d3-1 rounds later (a result of 0 rounds takes place at the end of your turn), the shriek bomb explodes, dealing 2d6 points of sonic damage to creatures in a 10-foot radius burst (Fortitude DC 15 half). A shriek bomb can be thrown as a splash weapon with a range of 10 feet.",
 			"",
 			"**{rule/Spontaneous Alchemy} Recipe** (20 {eq-reagent/magnesium} + 30 {eq-reagent/myrrh} + 5 {eq-reagent/saltpeter})/congelation; Craft 20  ",
-			"**Time** 10 minutes; **Tools** alchemist's lab; **Type** alchemical weapon"
+			"**Time** 10 minutes; **Tools** {eq-misc/alchemist's lab}; **Type** alchemical weapon"
 		],
 		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
@@ -1649,7 +1649,7 @@
 			"The alchemists of Nex have found several uses for the toxic residue left over from their massive ooze cultivating experiments, including a variety of items known collectively as slime grenades. These ceramic ovoids are filled with caustic sludge and capped with a stone plug. You can throw a slime grenade as a splash weapon with a range increment of 5 feet. A successful ranged touch attack coats the target with green slime, dealing 2d6 points of acid damage to the creature. If the target is wearing wooden or metal armor or wielding a wooden or metal shield, a slime grenade eats through the material on a hit, dealing 3d6 points of acid damage to the equipment and ignoring the items' hardness. Creatures in the splash radius of a slime grenade take no damage, but any wooden or metal armor or shields they are wearing take 1d6 points of acid damage (ignoring hardness). Affected creatures can attempt DC 15 Reflex saves to halve the damage dealt to their equipment.",
 			"",
 			"**{rule/Spontaneous Alchemy} Recipe** (50 {eq-reagent/phosphorus} + 75 {eq-reagent/quicksilver} + 50 {eq-reagent/urea})/congelation; Craft 25  ",
-			"**Time** 10 minutes; **Tools** alchemist's lab; **Type** alchemical weapon"
+			"**Time** 10 minutes; **Tools** {eq-misc/alchemist's lab}; **Type** alchemical weapon"
 		],
 		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
@@ -1789,7 +1789,7 @@
 			"**Mythic:** If you expend one use of mythic power while throwing a stormstone, the item deals an amount of electricity damage equal to your mythic tier to all affected creatures, regardless of whether they succeed at their save. Creatures that fail their saving throws against a mythic stormstone become staggered for 1 round in addition to the other effects. The stormstone ignores non-mythic resistances, non-mythic immunity to electricity or sonic damage, and non-mythic silencing effects.",
 			"",
 			"**{rule/Spontaneous Alchemy} Recipe** (15 {eq-reagent/black powder} + 85 {eq-reagent/phosphorus})/digestion; Craft 30  ",
-			"**Time** 1 hour; **Tools** crucible; **Type** alchemical weapon"
+			"**Time** 1 hour; **Tools** {eq-misc/crucible}; **Type** alchemical weapon"
 		],
 		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
@@ -1807,7 +1807,7 @@
 			"**Mythic:** You can expend one use of mythic power while throwing a bag of suffocating powder to charge the item with mythic power. Non-mythic creatures do not receive saving throws to avoid the suffocation effect. Affected creatures suffocate for an additional number of rounds equal to your mythic tier.",
 			"",
 			"**{rule/Spontaneous Alchemy} Recipe** (50 {eq-reagent/brimstone} + 50 {eq-reagent/phosphorus} + 5 {eq-reagent/realgar})/sublimation; Craft 20  ",
-			"**Time** 1 hour; **Tools** retort; **Type** alchemical weapon"
+			"**Time** 1 hour; **Tools** {eq-misc/retort}; **Type** alchemical weapon"
 		],
 		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
@@ -1846,7 +1846,7 @@
 			"A creature that is glued to the floor (or unable to fly) can break free by making a DC 17 Strength check or by dealing 15 points of damage to the goo with a slashing weapon. A creature trying to scrape goo off itself, or another creature assisting, does not need to make an attack roll; hitting the goo is automatic, after which the creature that hit makes a damage roll to see how much of the goo was scraped off. Once free, the creature can move (including flying) at half speed. If the entangled creature attempts to cast a spell, it must make a {rule/concentration} check with a DC of 15 + the spell's level or be unable to cast the spell. The goo becomes brittle and fragile after 2d4 rounds, cracking apart and losing its effectiveness. An application of universal solvent to a stuck creature dissolves the alchemical goo immediately. Crafting this item is a DC 25 Craft (alchemy) check.",
 			"",
 			"**{rule/Spontaneous Alchemy} Recipe** (55 {eq-reagent/myrrh} + 55 {eq-reagent/urea})/congelation; Craft 25  ",
-			"**Time** 10 minutes; **Tools** alchemist's lab; **Type** alchemical weapon"
+			"**Time** 10 minutes; **Tools** {eq-misc/alchemist's lab}; **Type** alchemical weapon"
 		],
 		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
@@ -3631,6 +3631,7 @@
 		],
 		"topLink": [ "Light Weapons", "main/equipment_weapons_light" ]
 	},
+	"shortsword": { "copyof": "short_sword" },
 	"starknife": {
 		"name": "Starknife",
 		"sources": [

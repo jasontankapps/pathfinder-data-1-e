@@ -390,7 +390,7 @@
 			"**Cure** 1 save",
 			"",
 			"**{rule/Spontaneous Alchemy} Recipe** (6 {eq-reagent/gold} + 50 {eq-reagent/myrrh} + 30 {eq-reagent/quicksilver})/distillation; **Craft** DC 15  ",
-			"**Time** 1 day; **Tools** retort; **Type** poison"
+			"**Time** 1 day; **Tools** {eq-misc/retort}; **Type** poison"
 		]
 	},
 	"confabulation_powder": {
@@ -677,7 +677,7 @@
 			"**Cure** 1 save",
 			"",
 			"**{rule/Spontaneous Alchemy} Recipe** (20 {eq-reagent/dew of lunary} + 20 {eq-reagent/quicksilver} + 80 {eq-reagent/spirit of wine})/distillation; **Craft** DC 11  ",
-			"**Time** 1 day; **Tools** retort; **Type** poison"
+			"**Time** 1 day; **Tools** {eq-misc/retort}; **Type** poison"
 		]
 	},
 	"goblinvine_oil": {
@@ -1692,7 +1692,7 @@
 			"**Cure** 2 saves",
 			"",
 			"**{rule/Spontaneous Alchemy} Recipe** (115 {eq-reagent/realgar} + 115 {eq-reagent/cytillesh spores})/calcination; **Craft** DC 18  ",
-			"**Time** 1 hour; **Tools** crucible; **Type** poison"
+			"**Time** 1 hour; **Tools** {eq-misc/crucible}; **Type** poison"
 		]
 	},
 	"dark_reaver_powder": {
@@ -1748,7 +1748,7 @@
 			"**Cure** 2 saves",
 			"",
 			"**{rule/Spontaneous Alchemy} Recipe** (200 {eq-reagent/magnesium} + 200 {eq-reagent/phosphorus} + 250 {eq-reagent/saltpeter})/distillation; **Craft** DC 18  ",
-			"**Time** 1 day; **Tools** retort; **Type** poison"
+			"**Time** 1 day; **Tools** {eq-misc/retort}; **Type** poison"
 		]
 	},
 	"fury_gas": {

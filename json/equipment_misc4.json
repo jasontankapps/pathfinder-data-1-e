@@ -1,4 +1,139 @@
 {
+	"aquatic_animals": {
+		"name": "Aquatic Animals",
+		"sources": [ "Animal Archive" ],
+		"description": [
+			"## Aquatic Animals",
+			"{SOURCE Animal Archive/14}  ",
+			"**Price** Varies; **Weight** -  ",
+			"**Category** Mounts/Pets",
+			"",
+			"Many of the following aquatic animals can be bought at seaside markets or from fisherfolk merchants out at sea. Pirates often make use of sharks, eels, and other nasty sea denizens when interrogating captured prisoners, searching for underwater traps, or retrieving sunken treasure. Some of the larger or rarer creatures, such as whales, are obviously much more difficult to find on the open market, and may only be available in seedy underground bazaars. Most aquatic animals can be trained as normal, though they are rarely sold already trained.",
+			"",
+			"| Animal | Price |",
+			"| --- | --- |",
+			"| Blue Whale | 12,500 gp |",
+			"| Crimson Whale | 8,000 gp |",
+			"| Crocodile | 55 gp |",
+			"| Dolphin | 105 gp |",
+			"| Dwarf Caiman | 7 gp |",
+			"| Electric Eel | 125 gp |",
+			"| Gar | 90 gp |",
+			"| Giant Frog | 75 gp |",
+			"| Giant Gar | 1,200 gp |",
+			"| Giant Moray Eel | 1,000 gp |",
+			"| Giant Octopus | 1,800 gp |",
+			"| Giant Squid | 2,500 gp |",
+			"| Giant Toad | 150 gp |",
+			"| Great White Whale | 12,600 gp |",
+			"| Manta Ray | 25 gp |",
+			"| Marine Iguana | 6 gp |",
+			"| Narwhal | 350 gp |",
+			"| Orca | 1,350 gp |",
+			"| Sea Krait | 5 gp |",
+			"| Seal | 45 gp |",
+			"| Shark | 325 gp |",
+			"| Squid | 25 gp |",
+			"| Stingray | 18 gp |",
+			"| Whale | 10,000 gp |"
+		]
+	},
+	"blue_whale": {
+		"name": "Blue whale",
+		"copyof": "aquatic_animals"
+	},
+	"crimson_whale": {
+		"name": "Crimson whale",
+		"copyof": "aquatic_animals"
+	},
+	"crocodile": {
+		"name": "Crocodile",
+		"copyof": "aquatic_animals"
+	},
+	"dolphin": {
+		"name": "Dolphin",
+		"copyof": "aquatic_animals"
+	},
+	"dwarf_caiman": {
+		"name": "Dwarf caiman",
+		"copyof": "aquatic_animals"
+	},
+	"electric_eel": {
+		"name": "Electric eel",
+		"copyof": "aquatic_animals"
+	},
+	"gar": {
+		"name": "Gar",
+		"copyof": "aquatic_animals"
+	},
+	"giant_frog": {
+		"name": "Giant frog",
+		"copyof": "aquatic_animals"
+	},
+	"giant_gar": {
+		"name": "Giant gar",
+		"copyof": "aquatic_animals"
+	},
+	"giant_moray_eel": {
+		"name": "Giant moray eel",
+		"copyof": "aquatic_animals"
+	},
+	"giant_octopus": {
+		"name": "Giant octopus",
+		"copyof": "aquatic_animals"
+	},
+	"giant_squid": {
+		"name": "Giant squid",
+		"copyof": "aquatic_animals"
+	},
+	"giant_toad": {
+		"name": "Giant toad",
+		"copyof": "aquatic_animals"
+	},
+	"great_white_whale": {
+		"name": "Great white whale",
+		"copyof": "aquatic_animals"
+	},
+	"manta_ray": {
+		"name": "Manta ray",
+		"copyof": "aquatic_animals"
+	},
+	"marine_iguana": {
+		"name": "Marine iguana",
+		"copyof": "aquatic_animals"
+	},
+	"narwhal": {
+		"name": "Narwhal",
+		"copyof": "aquatic_animals"
+	},
+	"orca": {
+		"name": "Orca",
+		"copyof": "aquatic_animals"
+	},
+	"sea_krait": {
+		"name": "Sea krait",
+		"copyof": "aquatic_animals"
+	},
+	"seal": {
+		"name": "Seal",
+		"copyof": "aquatic_animals"
+	},
+	"shark": {
+		"name": "Shark",
+		"copyof": "aquatic_animals"
+	},
+	"squid": {
+		"name": "Squid",
+		"copyof": "aquatic_animals"
+	},
+	"stingray": {
+		"name": "Stingray",
+		"copyof": "aquatic_animals"
+	},
+	"whale": {
+		"name": "Whale",
+		"copyof": "aquatic_animals"
+	},
 	"decorative_trim": {
 		"name": "Decorative trim",
 		"sources": [ "Ultimate Equipment" ],
@@ -106,7 +241,7 @@
 			"## Desna's star",
 			"{SOURCE Heroes of the Wild/10}  ",
 			"**Price** 5 gp; **Weight** -  ",
-			"**Category** Herbs  ",
+			"**Category** {rule/Herb/s>alism}  ",
 			"**Gather** DC 13  ",
 			"**Terrain** forests or plains",
 			"",
@@ -520,18 +655,6 @@
 		"name": "Dog sled (travel, per mile)",
 		"copyof": "dog_sled"
 	},
-	"dolphin": {
-		"name": "Dolphin",
-		"sources": [ "Animal Archive" ],
-		"description": [
-			"## Dolphin",
-			"{SOURCE Animal Archive/14}  ",
-			"**Price** 105 gp; **Weight** -  ",
-			"**Category** Mounts/Pets",
-			"",
-			"Pirates often make use of sharks, eels, and other nasty sea denizens when interrogating captured prisoners, searching for underwater traps, or retrieving sunken treasure. Some of the larger or rarer creatures, such as whales, are obviously much more difficult to find on the open market, and may only be available in seedy underground bazaars. Most aquatic animals can be trained as normal, though they are rarely sold already trained."
-		]
-	},
 	"dominos": {
 		"name": "Dominos",
 		"sources": [ "Ultimate Equipment" ],
@@ -624,7 +747,7 @@
 			"## Dragon Rose",
 			"{SOURCE Ultimate Wilderness/153}  ",
 			"**Price** 25 gp; **Weight** -  ",
-			"**Category** Herbs  ",
+			"**Category** {rule/Herb/s>alism}  ",
 			"**Gather** DC 18; **Yield** 1 dose  ",
 			"**Terrain** any forests or mountains  ",
 			"**Preparation** The petals of a dragon rose must be delicately removed from the stem and then soaked in a mixture brewed from the flower stalk's sap for 2 hours; this requires a successful DC 15 Craft (alchemy) check.  ",
@@ -741,7 +864,7 @@
 			"## Dream Lichen",
 			"{SOURCE Ultimate Wilderness/153}  ",
 			"**Price** 2,000 gp; **Weight** -  ",
-			"**Category** Herbs  ",
+			"**Category** {rule/Herb/s>alism}  ",
 			"**Gather** DC 30; **Yield** 1 dose  ",
 			"**Terrain** anywhere the boundaries between the Material Plane and the Dimension of Dreams grow thin  ",
 			"**Preparation** The fibrous outer layer of the lichen must be gently scrubbed away, exposing the soft interior, which must then be allowed to dry after being sprinkled with various alchemical powders. This requires a successful DC 25 Craft (alchemy) check and 8 hours of work.  ",
@@ -751,18 +874,19 @@
 		]
 	},
 	"driftwood_icon_gozreh": {
-		"name": "Driftwood icon (gozreh)",
+		"name": "Driftwood icon",
 		"sources": [ "Faiths of Balance" ],
 		"description": [
 			"## Driftwood icon",
 			"{SOURCE Faiths of Balance/25}  ",
 			"**Price** 25 gp; **Weight** -  ",
 			"**Category** Channel Foci  ",
-			"**Deity** Gozreh",
+			"**Deity** {faith/Gozreh}",
 			"",
 			"This is a hand-carved icon of a human figure. When the icon is activated and a flower is placed in the niche, the icon grants the bearer a +1 luck bonus to Armor Class for 1 hour, but only against ranged attacks."
 		]
 	},
+	"driftwood_icon": { "copyof": "driftwood_icon_gozreh" },
 	"drill": {
 		"name": "Drill",
 		"sources": [
@@ -882,18 +1006,6 @@
 			"This liquid makes the eyes more receptive to light for 4 hours. The user gains low-light vision, but also suffers from light sensitivity for the duration. Crafting duskeye requires a successful DC 16 Craft (alchemy) check.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 16"
-		]
-	},
-	"dwarf_caiman": {
-		"name": "Dwarf caiman",
-		"sources": [ "Animal Archive" ],
-		"description": [
-			"## Dwarf caiman",
-			"{SOURCE Animal Archive/14}  ",
-			"**Price** 7 gp; **Weight** -  ",
-			"**Category** Mounts/Pets",
-			"",
-			"Pirates often make use of sharks, eels, and other nasty sea denizens when interrogating captured prisoners, searching for underwater traps, or retrieving sunken treasure. Some of the larger or rarer creatures, such as whales, are obviously much more difficult to find on the open market, and may only be available in seedy underground bazaars. Most aquatic animals can be trained as normal, though they are rarely sold already trained."
 		]
 	},
 	"dwarven_stout_mug": {
@@ -1018,18 +1130,6 @@
 			"An efreeti switch is the activation device for efreeti cord; it measures approximately 6 inches in length and is made of a supple, red-brown alchemical compound. It is not consumed when activating a length of cord, and it can be used with any length of efreeti cord. It's possible to key lengths of efreeti cord to a specific switch; however, this doubles the price of both the efreeti cord and the switch.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 10"
-		]
-	},
-	"electric_eel": {
-		"name": "Electric eel",
-		"sources": [ "Animal Archive" ],
-		"description": [
-			"## Electric eel",
-			"{SOURCE Animal Archive/14}  ",
-			"**Price** 125 gp; **Weight** -  ",
-			"**Category** Mounts/Pets",
-			"",
-			"Pirates often make use of sharks, eels, and other nasty sea denizens when interrogating captured prisoners, searching for underwater traps, or retrieving sunken treasure. Some of the larger or rarer creatures, such as whales, are obviously much more difficult to find on the open market, and may only be available in seedy underground bazaars. Most aquatic animals can be trained as normal, though they are rarely sold already trained."
 		]
 	},
 	"elemental_breath": {
@@ -1224,7 +1324,7 @@
 			"When ingested, this thin serum awakens your potential for independent action. If you are under the influence of a mind-affecting effect, you receive a new saving throw with a +4 alchemical bonus to break the effect (you can gain this benefit only once per day). If the serum is ingested by a bonded creature such as a familiar, animal companion, bonded mount, or homunculus, the creature ceases to be bound to its master's will for 10 minutes. It gains a +2 morale bonus on attack rolls, saving throws, skill checks, and ability checks, and becomes interested in finding its own way of doing things. Its attitude toward its master might change drastically during this time, depending on how the master has treated it in the past. As soon as the duration of this effect ends, the creature becomes bound to its master's will again.",
 			"",
 			"**{rule/Spontaneous Alchemy} Recipe** (8 {eq-reagent/dew of lunary} + 10 {eq-reagent/gold} + 22 {eq-reagent/spirit of wine})/sublimation; Craft 25  ",
-			"**Time** 1 day; **Tools** retort; **Type** alchemical remedy"
+			"**Time** 1 day; **Tools** {eq-misc/retort}; **Type** alchemical remedy"
 		]
 	},
 	"everburning_torch": {
@@ -1346,7 +1446,7 @@
 			"This bright pink liquid can be added to the eyes of a willing homunculus as a standard action. If you are the homunculus's master, you gain the ability to see through the homunculus's eyes by closing yours and concentrating, and the homunculus can see through yours in the same fashion. The eye drops also extend the range of the homunculus's telepathic link to 1 mile. The effects of the eye drops fade after 1 day.",
 			"",
 			"**{rule/Spontaneous Alchemy} Recipe** (20 {eq-reagent/dew of lunary} + 20 {eq-reagent/saltpeter} + 80 {eq-reagent/spirit of wine})/distillation; Craft 25  ",
-			"**Time** 1 day; **Tools** retort; **Type** alchemical remedy"
+			"**Time** 1 day; **Tools** {eq-misc/retort}; **Type** alchemical remedy"
 		]
 	},
 	"eye_patch": {
@@ -1380,7 +1480,7 @@
 			"## Fairy Cap",
 			"{SOURCE Ultimate Wilderness/153}  ",
 			"**Price** 250 gp; **Weight** -  ",
-			"**Category** Herbs  ",
+			"**Category** {rule/Herb/s>alism}  ",
 			"**Gather** DC 20; **Yield** 1 dose  ",
 			"**Terrain** anywhere near ley lines  ",
 			"**Preparation** A fairy cap must be gently simmered (not boiled) in a mixture of water and other natural ingredients for 1 hour; this requires a successful DC 20 Craft (alchemy) check. At the end of this preparation time, the yellow spots' color changes to bright orange or dark brown - there's a 50% chance of either development.  ",
@@ -1618,6 +1718,7 @@
 			"Horses, donkeys, mules, and ponies can graze in some regions to sustain themselves, but feed provides more reliable nourishment. Riding dogs and other carnivores can be fed meat for the same cost. Except for horses, other Large creatures need to eat twice the feed of other animals each day. Huge creatures need four times the feed."
 		]
 	},
+	"animal_feed": { "copyof": "feed_per_day" },
 	"fellowship_film": {
 		"name": "Fellowship film",
 		"sources": [ "Ultimate Intrigue" ],
@@ -1773,18 +1874,6 @@
 			"**Total Weight:** 67 lbs. (39-1/4 lbs. for a Small character)."
 		]
 	},
-	"narwhal": {
-		"name": "Narwhal",
-		"sources": [ "Animal Archive" ],
-		"description": [
-			"## Narwhal",
-			"{SOURCE Animal Archive/15}  ",
-			"**Price** 350 gp; **Weight** -  ",
-			"**Category** Mounts/Pets",
-			"",
-			"Pirates often make use of sharks, eels, and other nasty sea denizens when interrogating captured prisoners, searching for underwater traps, or retrieving sunken treasure. Some of the larger or rarer creatures, such as whales, are obviously much more difficult to find on the open market, and may only be available in seedy underground bazaars. Most aquatic animals can be trained as normal, though they are rarely sold already trained."
-		]
-	},
 	"nature_climbing_harness": {
 		"name": "Nature climbing harness",
 		"sources": [ "Ultimate Wilderness" ],
@@ -1865,7 +1954,7 @@
 			"## Nepenthe",
 			"{SOURCE Ultimate Wilderness/155}  ",
 			"**Price** 400 gp; **Weight** -  ",
-			"**Category** Herbs  ",
+			"**Category** {rule/Herb/s>alism}  ",
 			"**Gather** DC 20; **Yield** 1 dose  ",
 			"**Terrain** warm forests or swamps  ",
 			"**Preparation** A dose of pollen must be mixed with alchemical reagents with a successful DC 16 Craft (alchemy) check and then left to sit for 1 hour before it can be used.  ",
@@ -1906,7 +1995,7 @@
 			"## Nethys's dagger",
 			"{SOURCE Heroes of the Wild/10}  ",
 			"**Price** 50 gp; **Weight** -  ",
-			"**Category** Herbs  ",
+			"**Category** {rule/Herb/s>alism}  ",
 			"**Gather** DC 18  ",
 			"**Terrain** deserts",
 			"",
@@ -1949,7 +2038,7 @@
 			"## Nightsage",
 			"{SOURCE Ultimate Wilderness/155;Heroes of the Wild/10}  ",
 			"**Price** 100 gp; **Weight** -  ",
-			"**Category** Herbs  ",
+			"**Category** {rule/Herb/s>alism}  ",
 			"**Gather** DC 14; **Yield** 1 dose  ",
 			"**Terrain** any jungles  ",
 			"**Preparation** A dose of nightsage must be sprinkled with holy water periodically over an 8-hour drying process in natural sunlight; this process requires a successful DC 12 Craft (alchemy) check and one flask of holy water.  ",
@@ -2074,8 +2163,8 @@
 		"description": [
 			"## Observations of Oagon",
 			"{SOURCE Dungeoneer's Handbook/15}  ",
-			"**Price** 3,500 gp; Accuracy +5  ",
-			"**Category** Dungeon Guides  ",
+			"**Price** 3,500 gp; **Accuracy** +5  ",
+			"**Category** {rule/Dungeon Guides}  ",
 			"**Associated Skill** Knowledge (geography) (DC 25)",
 			"",
 			"Compiled from the recovered diaries of a clerk in Oagon, this waterproof volume is a useful guide to those exploring the drowned city. Most of the information is dated, but the sketched maps and descriptions of major buildings remain useful.",
@@ -2285,18 +2374,6 @@
 			"**Category** Food/Drink",
 			"",
 			"A typical orc trail ration consists of coarse black bread, thin sausages as hard as leather that must be chewed slowly to soften them, dried meat of uncertain origin, and pungent peppers. If you are an orc or half-orc who subsists on nothing but these rations for at least 1 week, you add +2 to the DC to resist any Intimidate checks you make. This bonus lasts until you eat a meal other than the rations or go for a full day without eating a day's worth."
-		]
-	},
-	"orca": {
-		"name": "Orca",
-		"sources": [ "Animal Archive" ],
-		"description": [
-			"## Orca",
-			"{SOURCE Animal Archive/15}  ",
-			"**Price** 1,350 gp; **Weight** -  ",
-			"**Category** Mounts/Pets",
-			"",
-			"Pirates often make use of sharks, eels, and other nasty sea denizens when interrogating captured prisoners, searching for underwater traps, or retrieving sunken treasure. Some of the larger or rarer creatures, such as whales, are obviously much more difficult to find on the open market, and may only be available in seedy underground bazaars. Most aquatic animals can be trained as normal, though they are rarely sold already trained."
 		]
 	},
 	"orrery_calculating_grand": {
@@ -2576,6 +2653,7 @@
 			"This sheet of thin, treated animal skin is a durable writing surface and is suitable for making magic scrolls. It has hardness 0, 2 hit points, and a break DC of 5."
 		]
 	},
+	"parchment": { "copyof": "parchment_sheet" },
 	"parrot": {
 		"name": "Parrot",
 		"sources": [ "Ultimate Equipment" ],
@@ -2601,13 +2679,13 @@
 		]
 	},
 	"pathfinder_chronicle": {
-		"name": "Pathfinder Chronicle",
+		"name": "Pathfinder Chronicle (Generic)",
 		"sources": [
 			"Adventurer's Guide",
 			"Inner Sea World Guide"
 		],
 		"description": [
-			"## Pathfinder Chronicle",
+			"## Generic Pathfinder Chronicle",
 			"{SOURCE Adventurer's Guide/147;Inner Sea World Guide/293}  ",
 			"**Price** 50 gp; **Weight** 1 lb.  ",
 			"**Category** Adventuring Gear",
@@ -2616,12 +2694,12 @@
 			"",
 			"### Specific Volumes",
 			"",
-			"- [Volume 1](eq-misc/pathfinder_chronicles___volume_1)",
-			"- [Volume 2](eq-misc/pathfinder_chronicles___volume_2)",
-			"- [Volume 11](eq-misc/pathfinder_chronicles___volume_11)",
-			"- [Volume 14](eq-misc/pathfinder_chronicles___volume_14)",
-			"- [Volume 27](eq-misc/pathfinder_chronicles___volume_27)",
-			"- [Volume 44](eq-misc/pathfinder_chronicles___volume_44)"
+			"- {eq-misc/pathfinder_chronicles___<Volume 1}",
+			"- {eq-misc/pathfinder_chronicles___<Volume 2}",
+			"- {eq-misc/pathfinder_chronicles___<Volume 11}",
+			"- {eq-misc/pathfinder_chronicles___<Volume 14}",
+			"- {eq-misc/pathfinder_chronicles___<Volume 27}",
+			"- {eq-misc/pathfinder_chronicles___<Volume 44}"
 		]
 	},
 	"pathfinder_chronicles___volume_1": {
@@ -2630,10 +2708,10 @@
 		"description": [
 			"## Pathfinder Chronicles - Volume 1",
 			"{SOURCE Pathfinder Society Primer/26}  ",
-			"**Price** 200 gp; **Weight** -  ",
-			"**Category** Pathfinder Chronicles",
+			"**Price** 200 gp; **Weight** 1 lb.  ",
+			"**Category** {rule/Pathfinder Chronicles}",
 			"",
-			"The premier Pathfinder Chronicles volume (first published in 4317 ar) features an account of Durvin Gest's exploration of the ruins of Azlant, details of Selmius Foster's race against a marid and an efreeti, and Gregaro Voth's adventures in the Mwangi Expanse.",
+			"The premier Pathfinder Chronicles volume (first published in 4317 AR) features an account of Durvin Gest's exploration of the ruins of Azlant, details of Selmius Foster's race against a marid and an efreeti, and Gregaro Voth's adventures in the Mwangi Expanse.",
 			"",
 			"### Skill Bonuses",
 			"",
@@ -2649,8 +2727,8 @@
 		"description": [
 			"## Pathfinder Chronicles - Volume 11",
 			"{SOURCE Pathfinder Society Primer/27}  ",
-			"**Price** 100 gp; **Weight** -  ",
-			"**Category** Pathfinder Chronicles",
+			"**Price** 100 gp; **Weight** 1 lb.  ",
+			"**Category** {rule/Pathfinder Chronicles}",
 			"",
 			"This volume, when originally published, contained a trove of misinformation on dragons, penned by Pathfinder Dalania Pontius. After these errors precipitated numerous deaths and countless injuries among Pathfinders confronting dragons of all types, the Decemvirate investigated Pontius's sources (namely the brass dragon who had provided her with much of the false info) and found them suspect. The volume was eventually corrected, though some unaltered copies could still remain in obscure collections.",
 			"",
@@ -2666,8 +2744,8 @@
 		"description": [
 			"## Pathfinder Chronicles - Volume 14",
 			"{SOURCE Pathfinder Society Primer/27}  ",
-			"**Price** 150 gp; **Weight** -  ",
-			"**Category** Pathfinder Chronicles",
+			"**Price** 150 gp; **Weight** 1 lb.  ",
+			"**Category** {rule/Pathfinder Chronicles}",
 			"",
 			"The first volume of the Pathfinder Chronicles to contain only accounts of Pathfinders' exploits on other planes, the fourteenth volume features a record of Gilray Jandivan's journey to 23 Abyssal realms and the cataloguing of the demonic hordes there, a detailed map of the City of Brass and surrounding areas on the Plane of Fire by famed cartographer Insitha Avari, and a full 70 baudy songs and limericks gathered over the course of the decade Rarick Dell spent in the court of a powerful satyr on the First World.",
 			"",
@@ -2684,8 +2762,8 @@
 		"description": [
 			"## Pathfinder Chronicles - Volume 2",
 			"{SOURCE Pathfinder Society Primer/26}  ",
-			"**Price** 100 gp; **Weight** -  ",
-			"**Category** Pathfinder Chronicles",
+			"**Price** 100 gp; **Weight** 1 lb.  ",
+			"**Category** {rule/Pathfinder Chronicles}",
 			"",
 			"The second entry into the Pathfinder Chronicles includes Durvin Gest's thorough cataloging of 31 siege castles in the Cairnlands surrounding Absalom and notes from Borden Thalian on his journey up the Vanji River in the Mwangi Expanse to a fantastic city of jade he reportedly discovered at its headwaters.",
 			"",
@@ -2701,8 +2779,8 @@
 		"description": [
 			"## Pathfinder Chronicles - Volume 27",
 			"{SOURCE Pathfinder Society Primer/27}  ",
-			"**Price** 150 gp; **Weight** -  ",
-			"**Category** Pathfinder Chronicles",
+			"**Price** 150 gp; **Weight** 1 lb.  ",
+			"**Category** {rule/Pathfinder Chronicles}",
 			"",
 			"This volume made quite a stir upon its release because it includes a good hundred pages of collected notes by famed Pathfinder Durvin Gest - who had disappeared over a century earlier. Many of these scraps recount only partial tales of danger and battle with little context, though one surprisingly complete chapter describes Gest's journey to the Crown of the World and his discoveries there. The portion of the book not consisting of Gest's notes features a treatise on negating the effects of magical traps by contemporary Mistress of Scrolls Andirissa Belathax.",
 			"",
@@ -2718,10 +2796,10 @@
 		"description": [
 			"## Pathfinder Chronicles - Volume 44",
 			"{SOURCE Pathfinder Society Primer/27}  ",
-			"**Price** 200 gp; **Weight** -  ",
-			"**Category** Pathfinder Chronicles",
+			"**Price** 200 gp; **Weight** 1 lb.  ",
+			"**Category** {rule/Pathfinder Chronicles}",
 			"",
-			"Published in 4707 ar, this volume is notable for the detailed account by Koriah Azmeren of her exploration of the Darklands. Her confirmation that the legendary drow were in fact real drove the elves of Kyonin - who had maintained the secret of the drow's existence for millennia - to attempt to bribe the Decemvirate into recalling and altering the book. The Society didn't relent, however, making the existence of dark elves a widely accepted fact within only a few years' time. Other reports in this volume include a brief essay by current venturecaptain Sheila Heidmarch regarding ancient relics of the old empire of Thassilon.",
+			"Published in 4707 AR, this volume is notable for the detailed account by Koriah Azmeren of her exploration of the Darklands. Her confirmation that the legendary drow were in fact real drove the elves of Kyonin - who had maintained the secret of the drow's existence for millennia - to attempt to bribe the Decemvirate into recalling and altering the book. The Society didn't relent, however, making the existence of dark elves a widely accepted fact within only a few years' time. Other reports in this volume include a brief essay by current venturecaptain Sheila Heidmarch regarding ancient relics of the old empire of Thassilon.",
 			"",
 			"### Skill Bonuses",
 			"",
@@ -3591,7 +3669,7 @@
 			"This waxy ball of resin and herbs is stored in a large glass jar or other airtight container. When the jar is opened, it instantly evaporates into a soothing vapor that renders the lungs of any adjacent creatures resistant to inhaled poisons, diseases, and irritants such as choking smoke. Each creature within 5 feet of the jar when it is opened gains a +5 alchemical bonus on saving throws against such effects for the next 10 minutes. If already affected by an airborne affliction, an affected creature can immediately attempt another saving throw against the effect (with the +5 bonus); a creature can attempt only one such additional saving throw in a 24-hour period.",
 			"",
 			"**{rule/Spontaneous Alchemy} Recipe** (60 {eq-reagent/myrrh} + 50 {eq-reagent/salt} + 60 {eq-reagent/ginger extract})/congelation; Craft 25  ",
-			"**Time** 10 minutes; **Tools** alchemist's lab; **Type** alchemical remedy"
+			"**Time** 10 minutes; **Tools** {eq-misc/alchemist's lab}; **Type** alchemical remedy"
 		]
 	},
 	"varisian_idol": {
@@ -3822,7 +3900,7 @@
 			"These needles of dried and augmented mugwort ignite at one end when removed from the alcohol in which they are stored. A set of vivifying moxibustion needles can be used to perform a healing procedure on a willing or helpless creature with a successful DC 15 Heal check and 1 hour of effort. Failing the check by 4 or less indicates that nothing happens, while failure by 5 or more deals 1d4 points of damage to the subject. If the procedure is performed successfully, the subject gains a +2 alchemical bonus on Fortitude saves against diseases, cold effects, and effects that deal Dexterity or Strength damage for the next 24 hours. If the patient is affected by an ongoing effect that can be resisted with a successful Fortitude save, he can attempt an immediate saving throw to end the effect (using the +2 alchemical bonus if applicable); this final benefit can be gained only once per day.",
 			"",
 			"**{rule/Spontaneous Alchemy} Recipe** (20 {eq-reagent/phosphorus} + 60 {eq-reagent/ginger extract} + 30 {eq-reagent/mugwort extract})/filtration; Craft 25  ",
-			"**Time** 10 minutes; **Tools** filter; **Type** alchemical remedy"
+			"**Time** 10 minutes; **Tools** {eq-misc/filter}; **Type** alchemical remedy"
 		]
 	},
 	"vomit_capsule": {
@@ -3900,6 +3978,9 @@
 		"copyof": "wagon_heavy"
 	},
 	"wagon": { "copyof": "wagon_heavy" },
+	"heavy_wagon": { "copyof": "wagon_heavy" },
+	"light_wagon": { "copyof": "wagon_light" },
+	"medium_wagon": { "copyof": "wagon_medium" },
 	"wall_hook": {
 		"name": "Wall hook",
 		"sources": [ "Blood of the Sea" ],
@@ -4188,6 +4269,9 @@
 		"name": "Weapon blanch (cold iron)",
 		"copyof": "weapon_blanch_adamantine"
 	},
+	"cold_iron_weapon_blanch": {
+		"copyof": "weapon_blanch_cold_iron"
+	},
 	"weapon_blanch_ghost_salt": {
 		"name": "Weapon blanch (ghost salt)",
 		"sources": [ "Pathfinder Society Field Guide" ],
@@ -4259,18 +4343,6 @@
 			"A common source of illumination in the Lands of the Linnorm Kings, 1 pint of whale oil burns for 10 hours in a lantern or lamp. It otherwise functions as normal oil."
 		]
 	},
-	"whale": {
-		"name": "Whale",
-		"sources": [ "Animal Archive" ],
-		"description": [
-			"## Whale",
-			"{SOURCE Animal Archive/15}  ",
-			"**Price** 10,000 gp; **Weight** -  ",
-			"**Category** Mounts/Pets",
-			"",
-			"Pirates often make use of sharks, eels, and other nasty sea denizens when interrogating captured prisoners, searching for underwater traps, or retrieving sunken treasure. Some of the larger or rarer creatures, such as whales, are obviously much more difficult to find on the open market, and may only be available in seedy underground bazaars. Most aquatic animals can be trained as normal, though they are rarely sold already trained."
-		]
-	},
 	"wheelchair": {
 		"name": "Wheelchair",
 		"sources": [ "Adventurer's Armory 2" ],
@@ -4336,6 +4408,7 @@
 			"Whiskey is a distilled beverage made from fermented grain mash (typically barley, corn, malt, rye, or wheat) aged in a wooden cask. The longer the drink ages in the cask, the smoother the final product."
 		]
 	},
+	"whiskey": { "copyof": "whiskey_cup" },
 	"whistle_signal": {
 		"name": "Whistle (signal)",
 		"sources": [
@@ -4467,6 +4540,9 @@
 		"name": "Wine (fine, bottle)",
 		"copyof": "wine_common_pitcher"
 	},
+	"bottle_of_fine_wine": {
+		"copyof": "wine_fine_bottle"
+	},
 	"wing_cloak": {
 		"name": "Wing cloak",
 		"sources": [ "Advanced Race Guide" ],
@@ -4542,18 +4618,19 @@
 		]
 	},
 	"winged_fetish_pharasma": {
-		"name": "Winged fetish (pharasma)",
+		"name": "Winged fetish",
 		"sources": [ "Faiths of Balance" ],
 		"description": [
 			"## Winged fetish",
 			"{SOURCE Faiths of Balance/25}  ",
 			"**Price** 50 gp; **Weight** -  ",
 			"**Category** Channel Foci  ",
-			"**Deity** Pharasma",
+			"**Deity** {faith/Pharasma}",
 			"",
 			"This amulet is made of a dulled dagger wrapped with feathers. When activated, it protects the wearer against undead creatures. The first time the wearer is subject to an attack from an undead creature that requires a saving throw (such as disease, paralysis, or energy drain), the amulet gives the wearer a sacred (if activated with positive energy) or profane (if activated with negative energy) bonus on her saving throw against that attack. This bonus is equal to the number of dice of the activating cleric's channel energy ability. The amulet remains charged until its magic is used or 1 hour has passed."
 		]
 	},
+	"winged_fetish": { "copyof": "winged_fetish_pharasma" },
 	"winterbite": {
 		"name": "Winterbite",
 		"sources": [
@@ -4564,7 +4641,7 @@
 			"## Winterbite",
 			"{SOURCE Ultimate Wilderness/155;Heroes of the Wild/10}  ",
 			"**Price** 20 gp; **Weight** -  ",
-			"**Category** Herbs  ",
+			"**Category** {rule/Herb/s>alism}  ",
 			"**Gather** DC 11; **Yield** 1d4 doses  ",
 			"**Terrain** any cold  ",
 			"**Preparation** A dose of winterbite must be dried near an open flame in which certain alchemically treated sawdust and wood chips are burned. This requires a successful DC 12 Craft (alchemy) check and 1 hour.  ",
@@ -4764,7 +4841,7 @@
 			"This green-tinged brew has a pungent, bitter bite. It's flavored with a variety of foul-smelling herbs and is intensely carbonated through a unique fermentation process. Sometimes given to visitors as a prank, wyrm's breath bitter causes the drinker to become sickened for 1d6 minutes (Fortitude DC 12 negates); dwarves gain a +5 racial bonus on this saving throw. After drinking a dose of wyrm's breath bitter, the drinker can, as a move action, unleash a thunderous and noxious belch in either a 5-foot-radius spread or a 10-foot cone. Creatures in the area are deafened and sickened for 1 round (Fortitude DC 12 negates). The drinker must wait 1d4 rounds before belching again, but can belch as often as desired for up to 10 minutes after drinking a wyrm's breath bitter.",
 			"",
 			"**{rule/Spontaneous Alchemy} Recipe** (2 {eq-reagent/black powder} + 10 {eq-reagent/brimstone} + 20 {eq-reagent/spirit of wine})/digestion; Craft 21  ",
-			"**Time** 1 week; **Tools** brewer's kit; **Type** alcohol"
+			"**Time** 1 week; **Tools** {eq-misc/brewer's kit}; **Type** alcohol"
 		]
 	},
 	"yak": {

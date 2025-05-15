@@ -49,6 +49,20 @@
 			"The price and weight listed is for poh armor for a Large mount. Poh armor for a Medium mount costs 250 gp and weighs 35 pounds. Poh armor slows a mount with a base speed of 40 feet to 30 feet, 50 feet to 35 feet, or 60 feet to 40 feet."
 		]
 	},
+	"hellknight_barding": {
+		"name": "Hellknight barding",
+		"sources": [
+			"Adventurer's Guide",
+			"Path of the Hellknight"
+		],
+		"description": [
+			"## Hellknight barding",
+			"{SOURCE Adventurer's Guide/96;Path of the Hellknight/63}  ",
+			"**Price** varies; **Weight** varies  ",
+			"",
+			"[Hellknights](rule/aff_lawknights) often equip their steeds with armor similar to their own. Typical barding for Hellknight steeds is spiked (the spikes are ornamental, however, and cannot deal damage). Such barding is usually designed to look similar to the armor of the horse's rider, or to look skeletal, fiendish, or similar to a nightmare. Hellknight barding can be made from {eq-armor/Hellknight leather}, {eq-armor/Hellknight plate}, or {eq-armor/Hellknight half-plate}; it costs four times as much and weighs twice as much. Hellknight leather barding slows a mount from 40 feet to 30 feet, from 50 feet to 35 feet, or from 60 feet to 40 feet. Hellknight half-plate barding or Hellknight plate barding also slows a mount, and a mount wearing such armor moves at only triple its normal speed when running instead of quadruple."
+		]
+	},
 	"armored_kilt": {
 		"name": "Armored kilt",
 		"sources": [

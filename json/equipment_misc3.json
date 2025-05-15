@@ -1461,7 +1461,7 @@
 			"**Price** 50 gp; **Price of Passage** (per mile) 2 cp  ",
 			"**Category** Transport, Sea",
 			"",
-			"This 8- to 12-foot-long boat with two oars holds two or three Medium passengers, and is either carried on the deck of a larger ship or moored to a dock onshore. A rowboat moves about 1-1/2 miles per hour."
+			"This 8- to 12-foot-long boat with two oars holds two or three Medium passengers, and is either carried on the deck of a larger ship or moored to a dock onshore. A {rule/wv_<rowboat} moves about 1-1/2 miles per hour."
 		]
 	},
 	"rowboat_travel_per_mile": {
@@ -1584,6 +1584,7 @@
 		"name": "Saddle (exotic, riding)",
 		"copyof": "saddle_exotic_military"
 	},
+	"exotic_saddle": { "copyof": "saddle_exotic_riding" },
 	"military_saddle": {
 		"name": "Saddle (military)",
 		"copyof": "saddle_exotic_military"
@@ -1944,30 +1945,6 @@
 			"This specialized scroll case can hold a single scroll and features a leather strap to hang the case from a belt or backpack. Retrieving the scroll held within is a swift action. Preparing the case for this use requires cranking the case's tiny gears and springs into place (a full-round action that provokes an attack of opportunity)."
 		]
 	},
-	"sea_krait": {
-		"name": "Sea krait",
-		"sources": [ "Animal Archive" ],
-		"description": [
-			"## Sea krait",
-			"{SOURCE Animal Archive/15}  ",
-			"**Price** 5 gp; **Weight** -  ",
-			"**Category** Mounts/Pets",
-			"",
-			"Pirates often make use of sharks, eels, and other nasty sea denizens when interrogating captured prisoners, searching for underwater traps, or retrieving sunken treasure. Some of the larger or rarer creatures, such as whales, are obviously much more difficult to find on the open market, and may only be available in seedy underground bazaars. Most aquatic animals can be trained as normal, though they are rarely sold already trained."
-		]
-	},
-	"seal": {
-		"name": "Seal",
-		"sources": [ "Animal Archive" ],
-		"description": [
-			"## Seal",
-			"{SOURCE Animal Archive/15}  ",
-			"**Price** 45 gp; **Weight** -  ",
-			"**Category** Mounts/Pets",
-			"",
-			"Pirates often make use of sharks, eels, and other nasty sea denizens when interrogating captured prisoners, searching for underwater traps, or retrieving sunken treasure. Some of the larger or rarer creatures, such as whales, are obviously much more difficult to find on the open market, and may only be available in seedy underground bazaars. Most aquatic animals can be trained as normal, though they are rarely sold already trained."
-		]
-	},
 	"sealing_wax": {
 		"name": "Sealing wax",
 		"sources": [
@@ -2026,7 +2003,7 @@
 			"## Seeing Slime",
 			"{SOURCE Ultimate Wilderness/155}  ",
 			"**Price** 160 gp; **Weight** -  ",
-			"**Category** Herbs  ",
+			"**Category** {rule/Herb/s>alism}  ",
 			"**Gather** DC 19; **Yield** 1 dose  ",
 			"**Terrain** any underground  ",
 			"**Preparation** After collecting this rare slime mold from where it naturally occurs in the lightless depths, the herbalist must combine the slime with mineral salts and store it in an airtight container such as a bottle or jar.  ",
@@ -2047,7 +2024,7 @@
 			"When combined with a drop of a humanoid's blood, this solution allows the homunculus that drinks it to grow to size Small and assume the likeness of the subject whose blood was used. If the homunculus can speak, its voice changes to resemble that of the subject. The homunculus's space and reach become 5 feet and it loses its bite attack, but otherwise its statistics remain unchanged. This transformation lasts 24 hours. The homunculus gains a +10 circumstance bonus on Disguise checks to appear as the subject, but unless the subject is a halfling, a gnome, a child, or another Small humanoid, the homunculus is likely shorter than the subject.",
 			"",
 			"**{rule/Spontaneous Alchemy} Recipe** (110 {eq-reagent/magnesium} + 200 {eq-reagent/silver} + 100 {eq-reagent/spirit of wine})/distillation; Craft 25  ",
-			"**Time** 1 day; **Tools** retort; **Type** alchemical remedy"
+			"**Time** 1 day; **Tools** {eq-misc/retort}; **Type** alchemical remedy"
 		]
 	},
 	"sentry_mannequin_masterwork": {
@@ -2203,18 +2180,6 @@
 			"",
 			"**{rule/Spontaneous Alchemy} Recipe** (30 {eq-reagent/quicksilver} + 25 {eq-reagent/saltpeter})/earth; Craft 20  ",
 			"**Time** 10 minutes; **Tools** -; **Type** alchemical tool"
-		]
-	},
-	"shark": {
-		"name": "Shark",
-		"sources": [ "Animal Archive" ],
-		"description": [
-			"## Shark",
-			"{SOURCE Animal Archive/15}  ",
-			"**Price** 325 gp; **Weight** -  ",
-			"**Category** Mounts/Pets",
-			"",
-			"Pirates often make use of sharks, eels, and other nasty sea denizens when interrogating captured prisoners, searching for underwater traps, or retrieving sunken treasure. Some of the larger or rarer creatures, such as whales, are obviously much more difficult to find on the open market, and may only be available in seedy underground bazaars. Most aquatic animals can be trained as normal, though they are rarely sold already trained."
 		]
 	},
 	"shaving_kit": {
@@ -2373,6 +2338,7 @@
 		"name": "Shovel (folding)",
 		"copyof": "shovel_common"
 	},
+	"folding_shovel": { "copyof": "shovel_folding" },
 	"common_shovel": { "copyof": "shovel_common" },
 	"shovel": { "copyof": "shovel_common" },
 	"shrapnel_caltrops": {
@@ -2498,7 +2464,7 @@
 			"This ashen powder can be thrown as a splash weapon, muffling all sound within a 15-foot-radius sphere centered on the point of impact. Perception checks to notice sound emanating from or passing through the cloud take a -10 penalty. Alternatively, applying a dose of silence dust to your feet as a standard action grants you a +5 circumstance bonus on Stealth checks to avoid being heard while walking. The dust is effective for 1 minute before it disperses.",
 			"",
 			"**{rule/Spontaneous Alchemy} Recipe** (12 {eq-reagent/dew of lunary} + 40 {eq-reagent/myrrh})/calcination; Craft 20  ",
-			"**Time** 1 hour; **Tools** crucible; **Type** alchemical tool"
+			"**Time** 1 hour; **Tools** {eq-misc/crucible}; **Type** alchemical tool"
 		]
 	},
 	"silent_piton": {
@@ -2542,6 +2508,7 @@
 	},
 	"rope_silk_50_ft": { "copyof": "silk_rope_50_ft" },
 	"silk_rope_fifty_ft": { "copyof": "silk_rope_50_ft" },
+	"silk_rope": { "copyof": "silk_rope_50_ft" },
 	"rope_silk_50_feet": { "copyof": "silk_rope_50_ft" },
 	"silk_rope_50_feet": { "copyof": "silk_rope_50_ft" },
 	"silver_drops": {
@@ -2647,6 +2614,10 @@
 			"",
 			"This 8-inch-diameter skillet has a long handle and feet so you can rest it on a fire or hot coals. Adventurers prefer models with a hinged handle that folds over the top of the skillet for easier storage and transport. A mithral skillet is lighter and food rarely sticks to it."
 		]
+	},
+	"skillet": {
+		"name": "Skillet",
+		"copyof": "skillet_common"
 	},
 	"skillet_mithral": {
 		"name": "Skillet (mithral)",
@@ -2921,7 +2892,7 @@
 			"This alchemically treated wooden stick instantly creates thick, opaque smoke when burned. The smoke fills a 10-foot cube (treat the effect as a fog cloud spell, except that a moderate or stronger wind dissipates the smoke in 1 round). The stick is consumed after 1 round, and the smoke dissipates naturally after 1 minute.",
 			"",
 			"**{rule/Spontaneous Alchemy} Recipe** (4 {eq-reagent/darkwood} + 5 {eq-reagent/saltpeter})/calcination; Craft 20  ",
-			"**Time** 1 hour; **Tools** crucible; **Type** alchemical tool"
+			"**Time** 1 hour; **Tools** {eq-misc/crucible}; **Type** alchemical tool"
 		]
 	},
 	"smugglers_wagon": {
@@ -3490,7 +3461,7 @@
 			"This fiber is composed of tiny strands of razor-sharp glass laced with alchemical elements. Anyone who touches it finds her skin irritated by countless tiny abrasions. Though it causes only minor discomfort, it opens the skin enough for poison to seep through, allowing injury poisons to be delivered to the affected creature as if they were contact poisons. The abrasions last for 1 hour or until cleaned and treated with a successful DC 10 Heal check (a full-round action). Poisoners sometimes place spirit of glass in a target's wardrobe or amid her personal effects along with a rag soaked in poison. Spirit of glass is often mistaken for lint or loose cloth, though it and the abrasions it causes can be identified with a successful DC 15 Craft (alchemy) check or DC 17 Heal check. Spirit of glass can be used only once before it is expended.",
 			"",
 			"**{rule/Spontaneous Alchemy} Recipe** (2 {eq-reagent/cold iron} + 7 {eq-reagent/darkwood} + 5 {eq-reagent/gold})/calcination; Craft 25  ",
-			"**Time** 1 hour; **Tools** crucible; **Type** alchemical tool"
+			"**Time** 1 hour; **Tools** {eq-misc/crucible}; **Type** alchemical tool"
 		]
 	},
 	"spirit_offerings": {
@@ -3658,18 +3629,6 @@
 			"**Category** Adventuring Gear",
 			"",
 			"Objects viewed through a spyglass are magnified to twice their size. Characters using a spyglass take a -1 penalty on Perception skill checks per 20 feet of distance to the target, if the target is visible."
-		]
-	},
-	"squid": {
-		"name": "Squid",
-		"sources": [ "Animal Archive" ],
-		"description": [
-			"## Squid",
-			"{SOURCE Animal Archive/15}  ",
-			"**Price** 25 gp; **Weight** -  ",
-			"**Category** Mounts/Pets",
-			"",
-			"Pirates often make use of sharks, eels, and other nasty sea denizens when interrogating captured prisoners, searching for underwater traps, or retrieving sunken treasure. Some of the larger or rarer creatures, such as whales, are obviously much more difficult to find on the open market, and may only be available in seedy underground bazaars. Most aquatic animals can be trained as normal, though they are rarely sold already trained."
 		]
 	},
 	"squires_outfit": {
@@ -3870,30 +3829,19 @@
 		"copyof": "stilts_common"
 	},
 	"stinging_whip_calistria": {
-		"name": "Stinging whip (calistria)",
+		"name": "Stinging whip",
 		"sources": [ "Faiths of Balance" ],
 		"description": [
 			"## Stinging whip",
 			"{SOURCE Faiths of Balance/25}  ",
 			"**Price** 50 gp; **Weight** 5 lbs.  ",
 			"**Category** Channel Foci  ",
-			"**Deity** Calistria",
+			"**Deity** {faith/Calistria}",
 			"",
 			"This whip is made from braids of metallic wire. When it is activated, the wielder can expend the power within it to gain a sacred (if activated with positive energy) or profane (if activated with negative energy) bonus on her next disarm or trip combat maneuver with the whip. This bonus is equal to the number of dice of the activating cleric's channel energy ability. The whip remains charged until its magic is used or 1 hour has passed."
 		]
 	},
-	"stingray": {
-		"name": "Stingray",
-		"sources": [ "Animal Archive" ],
-		"description": [
-			"## Stingray",
-			"{SOURCE Animal Archive/15}  ",
-			"**Price** 18 gp; **Weight** -  ",
-			"**Category** Mounts/Pets",
-			"",
-			"Pirates often make use of sharks, eels, and other nasty sea denizens when interrogating captured prisoners, searching for underwater traps, or retrieving sunken treasure. Some of the larger or rarer creatures, such as whales, are obviously much more difficult to find on the open market, and may only be available in seedy underground bazaars. Most aquatic animals can be trained as normal, though they are rarely sold already trained."
-		]
-	},
+	"stinging_whip": { "copyof": "stinging_whip_calistria" },
 	"stink_ink_arcane": {
 		"name": "Stink ink (arcane)",
 		"sources": [ "Advanced Race Guide" ],
@@ -4062,6 +4010,8 @@
 		]
 	},
 	"string_or_twine_fifty_ft": { "copyof": "string_or_twine_50_ft" },
+	"string": { "copyof": "string_or_twine_50_ft" },
+	"twine": { "copyof": "string_or_twine_50_ft" },
 	"subversive_vest_vest": {
 		"name": "Subversive vest (vest)",
 		"sources": [ "Ultimate Intrigue" ],
@@ -4168,18 +4118,19 @@
 		]
 	},
 	"sundered_mask_nethys": {
-		"name": "Sundered mask (nethys)",
+		"name": "Sundered mask",
 		"sources": [ "Faiths of Balance" ],
 		"description": [
 			"## Sundered mask",
 			"{SOURCE Faiths of Balance/25}  ",
 			"**Price** 250 gp; **Weight** 1 lb.  ",
 			"**Category** Channel Foci  ",
-			"**Deity** Nethys",
+			"**Deity** {faith/Nethys}",
 			"",
 			"This mask is a representation of Nethys's own. Activating the mask charges it with healing power. If a member of Nethys' faith wears the mask when it is activated, the first time the wearer takes damage, the mask releases the stored energy into the wearer, healing a number of hit points equal to the number of dice of the activating cleric's channel energy ability. The mask heals its wearer regardless of the type of channeled energy used and whether the target is living or undead. This healing does not prevent the wearer from dying because of hit point damage, and is mainly used to provide instant healing when a cleric is occupied or can only channel a harmful kind of energy. The mask remains charged until it heals someone or 24 hours pass."
 		]
 	},
+	"sundered_mask": { "copyof": "sundered_mask_nethys" },
 	"sunrod": {
 		"name": "Sunrod",
 		"sources": [
@@ -4196,7 +4147,7 @@
 			"This 1-foot-long, gold-tipped iron rod glows brightly when struck (a standard action). It sheds normal light in a 30-foot radius and increases the light level by one step for an additional 30 feet beyond that area (darkness becomes dim light and dim light becomes normal light). A sunrod does not increase the light level in normal light or bright light. It glows for 6 hours, after which the gold tip is burned out and worthless.",
 			"",
 			"**{rule/Spontaneous Alchemy} Recipe** (2 {eq-reagent/magnesium} + 2 {eq-reagent/phosphorus})/ceration; Craft 25  ",
-			"**Time** 10 minutes; **Tools** crucible; **Type** alchemical tool"
+			"**Time** 10 minutes; **Tools** {eq-misc/crucible}; **Type** alchemical tool"
 		]
 	},
 	"sunsoil": {
@@ -4252,7 +4203,7 @@
 			"Mythic: Consuming a vial of surge syrup grants you a +1d4 alchemical bonus on your next mythic surge roll. Every round after you consume surge syrup that you don't use your surge ability, the bonus provided by this item decreases by 1 (minimum 0).",
 			"",
 			"**{rule/Spontaneous Alchemy} Recipe** (12 {eq-reagent/dew of lunary} + 40 {eq-reagent/spirit of wine} + 40 {eq-reagent/urea})/congelation; Craft 25  ",
-			"**Time** 10 minutes; **Tools** alchemist's lab; **Type** alchemical remedy"
+			"**Time** 10 minutes; **Tools** {eq-misc/alchemist's lab}; **Type** alchemical remedy"
 		]
 	},
 	"surgeons_tools": {
@@ -4521,7 +4472,7 @@
 			"This foul-tasting green tea allows monks to focus their ki on improving abilities they've gained through other training. By drinking a cup of tea of transference, you can expend 1 point from your ki pool to regain 1 point from your arcane pool, 2 rounds of barbarian rage, 2 rounds of bardic performance, one use of channel energy, 1 grit point, one use of smite evil, one expended extract slot at least 1 level lower than the highest-level extract you can create, or one expended spell slot at least 2 levels lower than the highest-level spell you can cast. You must have the ki pool class feature and the class feature you want to regain uses of in order to benefit from tea of transference.",
 			"",
 			"**{rule/Spontaneous Alchemy} Recipe** (5 {eq-reagent/gold} + 5 {eq-reagent/realgar} + 15 {eq-reagent/spirit of wine})/sublimation; Craft 20  ",
-			"**Time** 1 day; **Tools** retort; **Type** alchemical remedy"
+			"**Time** 1 day; **Tools** {eq-misc/retort}; **Type** alchemical remedy"
 		]
 	},
 	"tea_kelp": {
@@ -4908,7 +4859,7 @@
 			"The alchemical substance on the end of this small, wooden stick ignites when struck against a rough surface (a move action). Creating a flame with a tindertwig is much faster than creating a flame with tinder and a flint and steel or magnifying glass. Lighting a torch with a tindertwig is a standard action rather than a full-round action, and lighting any other fire with one is at least a standard action. A tindertwig burns for 1d2 rounds and sheds light as a candle. Tindertwigs are waterproof, but must be dried before you can strike them.",
 			"",
 			"**{rule/Spontaneous Alchemy} Recipe** (2 {eq-reagent/brimstone} + 1 {eq-reagent/phosphorus})/ceration; Craft 25  ",
-			"**Time** 10 minutes; **Tools** crucible; **Type** alchemical tool"
+			"**Time** 10 minutes; **Tools** {eq-misc/crucible}; **Type** alchemical tool"
 		]
 	},
 	"tinkers_cap": {
@@ -5003,6 +4954,7 @@
 			"A torch burns for 1 hour, shedding normal light in a 20-foot radius and increasing the light level by one step for an additional 20 feet beyond that area (darkness becomes dim light and dim light becomes normal light). A torch does not increase the light level in normal light or bright light. If a torch is used in combat, treat it as a one-handed improvised weapon that deals bludgeoning damage equal to that of a gauntlet of its size, plus 1 point of fire damage."
 		]
 	},
+	"torches": { "copyof": "torch" },
 	"tossglove": {
 		"name": "Tossglove",
 		"sources": [ "Goblins of Golarion" ],
