@@ -226,13 +226,7 @@
 			"**Price** 100 gp; **Weight** -  ",
 			"**Category** Alchemical Tools",
 			"",
-			"This elixir turns its imbiber fiery red, making it easier to pass as an {monster/efreeti}. Unscrupulous efreet can sell fireskin elixir to guests who have been barred from citizen-only districts and must rely on disguises. Fireskin is highly addictive. Many once-savvy merchants have fallen into destitution as they scrambled to maintain efreet favor and secure a steady supply of the drug. This item can be crafted with a successful DC 20 Craft (alchemy) check.",
-			"",
-			"### Fireskin",
-			"**Type** ingested; **Addiction** major, Fortitude DC 20  ",
-			"**Price** 100 gp  ",
-			"**Effect** 1 day; +10 alchemical bonus on Disguise checks to appear as an efreeti, -1 penalty on all saves  ",
-			"**Damage** 1d2 Wis damage",
+			"This elixir turns its imbiber fiery red, making it easier to pass as an {monster/efreeti}. Unscrupulous efreet can sell fireskin elixir to guests who have been barred from citizen-only districts and must rely on disguises. Fireskin is [highly addictive](drug/fireskin_elixir). Many once-savvy merchants have fallen into destitution as they scrambled to maintain efreet favor and secure a steady supply of the drug.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 20"
 		]
@@ -717,7 +711,7 @@
 			"{SOURCE Ultimate Equipment/77;Advanced Player's Guide/184}  ",
 			"**Price** 1 gp (common), 50 gp (masterwork), 25 gp (quality); **Weight** 1/2 lb. (common), 1 lb. (masterwork), 1 lb. (quality)",
 			"",
-			"This deck of illustrated cards is used by those in tune with the spirit world to predict the future - and by charlatans to take money from the gullible. A common deck only has simple drawings on simple wooden plaques. A quality fortune-teller's deck usually consists of wooden plaques with painted color images; it is suitable as a focus for the {spell/augury} spell, and provides a +1 circumstance bonus on Profession (fortune-teller), Profession (medium), and similar Profession checks. A masterwork fortuneteller's deck may be wood, ivory, or even metal, with painted or carved images, and is often highlighted with gold inlays or tiny gems; it has all the benefits of a quality deck, except it provides a +2 circumstance bonus on the listed skill checks."
+			"This deck of illustrated cards is used by those in tune with the spirit world to predict the future - and by charlatans to take money from the gullible. A common deck only has simple drawings on simple wooden plaques. A quality fortune-teller's deck usually consists of wooden plaques with painted color images; it is suitable as a focus for the {spell/augury} spell, and provides a +1 circumstance bonus on Profession (fortune-teller), Profession (medium), and similar Profession checks. A masterwork fortune-teller's deck may be wood, ivory, or even metal, with painted or carved images, and is often highlighted with gold inlays or tiny gems; it has all the benefits of a quality deck, except it provides a +2 circumstance bonus on the listed skill checks."
 		]
 	},
 	"fortune_tellers_deck_masterwork": {
@@ -898,7 +892,7 @@
 			"**Price** 30,000 gp; **Price of Passage** (per mile) 1 sp  ",
 			"**Category** Transport, Sea",
 			"",
-			"This three-masted ship has 70 oars on either side and requires a total crew of 200. A {rule/wv_<galley} is 130 feet long and 20 feet wide, and can carry 150 tons of cargo or 250 soldiers. For 8,000 gp more, it can be fitted with a ram and firing platforms fore, aft, and amidships. This ship cannot make sea voyages and sticks close to the coast. It moves about 4 miles per hour when being rowed or under sail."
+			"This three-masted ship has 70 {eq-misc/oar/s} on either side and requires a total crew of 200. A {rule/wv_<galley} is 130 feet long and 20 feet wide, and can carry 150 tons of cargo or 250 soldiers. For 8,000 gp more, it can be fitted with a ram and firing platforms fore, aft, and amidships. This ship cannot make sea voyages and sticks close to the coast. It moves about 4 miles per hour when being rowed or under sail."
 		]
 	},
 	"galley_travel_per_mile": {
@@ -1099,7 +1093,7 @@
 			"",
 			"Known colloquially as \"healing myrrh,\" gildea myrrh is the most famous invention of the scholars of Katheer's Venicaan College of Medicaments and Chirurgery.",
 			"",
-			"When you burn a dose of gildea myrrh, it fills a 15-foot-radius spread with faint smoke that persists for 24 hours (or until dispersed by a moderate or stronger wind). Any creatures resting or receiving long-term care in the area while the myrrh is active regain 1 additional hit point per level. Multiple uses of gildea myrrh in a 24-hour period do not stack."
+			"When you burn a dose of gildea myrrh, it fills a 15-foot-radius {misc/spread} with faint smoke that persists for 24 hours (or until dispersed by a moderate or stronger wind). Any creatures resting or receiving long-term care in the area while the myrrh is active regain 1 additional hit point per level. Multiple uses of gildea myrrh in a 24-hour period do not stack."
 		]
 	},
 	"glass_cutter": {
@@ -2239,19 +2233,29 @@
 	"hooded_lantern": {
 		"name": "Hooded lantern",
 		"sources": [
+			"Adventurer's Armory",
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
 		"description": [
 			"## Hooded lantern",
-			"{SOURCE Ultimate Equipment/57;PRPG Core Rulebook/158}  ",
-			"**Price** 7 gp; **Weight** 2 lbs.  ",
+			"{SOURCE Ultimate Equipment/57;PRPG Core Rulebook/158;Adventurer's Armory/19}  ",
+			"**Price** 7 gp (normal), 12 gp (waterproof); **Weight** 2 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
-			"A hooded lantern sheds normal light in a 30-foot radius and increases the light level by one step for an additional 30 feet beyond that area (darkness becomes dim light and dim light becomes normal light). A hooded lantern does not increase the light level in normal light or bright light. A lantern burns for 6 hours on 1 pint of oil. You can carry a lantern in one hand."
+			"A hooded lantern sheds normal light in a 30-foot radius and increases the light level by one step for an additional 30 feet beyond that area (darkness becomes dim light and dim light becomes normal light). A hooded lantern does not increase the light level in normal light or bright light. A lantern burns for 6 hours on 1 pint of oil. You can carry a lantern in one hand.",
+			"",
+			"**Waterproof Lantern:** Meant to shelter its flame from both water and wind, this lantern treats severe winds as strong winds, windstorms as severe winds, and hurricanes as windstorms for the purpose of determining whether they extinguish its flame. It holds enough air to burn underwater for 5 rounds before going dark."
 		]
 	},
 	"lantern_hooded": { "copyof": "hooded_lantern" },
+	"lantern": { "copyof": "hooded_lantern" },
+	"waterproof_lantern_hooded": {
+		"name": "Waterproof lantern (hooded)",
+		"copyof": "hooded_lantern"
+	},
+	"waterproof_hooded_lantern": { "copyof": "hooded_lantern" },
+	"lantern_waterproof_hooded": { "copyof": "hooded_lantern" },
 	"hoodwink_cowl": {
 		"name": "Hoodwink cowl",
 		"sources": [ "Occult Adventures" ],
@@ -2562,7 +2566,9 @@
 			"**Price** 1 gp; **Weight** 2 lbs.  ",
 			"**Category** Clothing",
 			"",
-			"Each of these calf-high boots bears a vertical blade on the bottom, allowing you to travel swiftly on ice. Wearing ice skates allows you to move on ice at normal speed with a successful DC 5 Acrobatics check (including running and charging), but your movement is reduced to half speed on all other terrain. Donning or removing an ice skate is a full-round action. Skating with only one is possible, but the DC of the Acrobatics check rises to 15."
+			"Each of these calf-high boots bears a vertical blade on the bottom, allowing you to travel swiftly on ice. Wearing ice skates allows you to move on ice at normal speed with a successful DC 5 Acrobatics check (including running and charging), but your movement is reduced to half speed on all other terrain. Donning or removing an ice skate is a full-round action. Skating with only one is possible, but the DC of the Acrobatics check rises to 15.",
+			"",
+			"Also see: {eq-misc/skates}."
 		]
 	},
 	"icecap_ale": {
@@ -2952,18 +2958,22 @@
 			"**Construction:** Craft (Alchemy) DC 25 (superior), DC 20 (average, good), DC 15 (simple)"
 		]
 	},
+	"average_invisible_ink": { "copyof": "invisible_ink_average" },
 	"invisible_ink_good": {
 		"name": "Invisible ink (good)",
 		"copyof": "invisible_ink_average"
 	},
+	"good_invisible_ink": { "copyof": "invisible_ink_good" },
 	"invisible_ink_simple": {
 		"name": "Invisible ink (simple)",
 		"copyof": "invisible_ink_average"
 	},
+	"simple_invisible_ink": { "copyof": "invisible_ink_simple" },
 	"invisible_ink_superior": {
 		"name": "Invisible ink (superior)",
 		"copyof": "invisible_ink_average"
 	},
+	"superior_invisible_ink": { "copyof": "invisible_ink_superior" },
 	"iron_eye_gorum": {
 		"name": "Iron eye",
 		"sources": [ "Faiths of Balance" ],
@@ -3226,7 +3236,7 @@
 			"**Price** 3,000 gp; **Price of Passage** (per mile) 1 sp  ",
 			"**Category** Transport, Sea",
 			"",
-			"This 50- to 75-foot-long ship is 15 to 20 feet wide and has a dozen oars to supplement its single mast with a square sail. A {rule/wv_<keelboat} requires a crew of 8 to 15 to sail and can carry 40 to 50 tons of cargo or 100 soldiers. It can make sea voyages, as well as sail down rivers (thanks to its flat bottom). It moves about 1 mile per hour."
+			"This 50- to 75-foot-long ship is 15 to 20 feet wide and has a dozen {eq-misc/oar/s} to supplement its single mast with a square sail. A {rule/wv_<keelboat} requires a crew of 8 to 15 to sail and can carry 40 to 50 tons of cargo or 100 soldiers. It can make sea voyages, as well as sail down rivers (thanks to its flat bottom). It moves about 1 mile per hour."
 		]
 	},
 	"keelboat_travel_per_mile": {
@@ -3870,7 +3880,7 @@
 			"**Price** 10,000 gp; **Price of Passage** (per mile) 5 cp  ",
 			"**Category** Transport, Sea",
 			"",
-			"This 75-foot-long ship with 40 oars requires a total crew of 50. It has a single mast and a square sail, and it can carry 50 tons of cargo or 120 soldiers. A {rule/wv_<longship} can make sea voyages. It moves about 3 miles per hour when being rowed or under sail."
+			"This 75-foot-long ship with 40 {eq-misc/oar/s} requires a total crew of 50. It has a single mast and a square sail, and it can carry 50 tons of cargo or 120 soldiers. A {rule/wv_<longship} can make sea voyages. It moves about 3 miles per hour when being rowed or under sail."
 		]
 	},
 	"longship_travel_per_mile": {
@@ -4818,17 +4828,28 @@
 	},
 	"miners_lantern": {
 		"name": "Miner's lantern",
-		"sources": [ "Pathfinder Society Field Guide" ],
+		"sources": [
+			"Pathfinder Society Field Guide",
+			"Adventurer's Armory"
+		],
 		"description": [
 			"## Miner's lantern",
-			"{SOURCE Pathfinder Society Field Guide/47}  ",
-			"**Price** 15 gp; **Weight** 2 lbs.  ",
+			"{SOURCE Pathfinder Society Field Guide/47;Adventurer's Armory/19}  ",
+			"**Price** 15 gp (normal), 20 gp (waterproof); **Weight** 2 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
-			"A smaller version of the {eq-misc/bullseye lantern}, a miner's lantern provides normal light in a 30-foot cone and increases the light level by one step in the area beyond that, out to a 60-foot cone (darkness becomes dim light and dim light becomes normal light). A miner's lantern does not increase the light level in normal light or bright light. It burns for 6 hours on 1 pint of {eq-misc/oil}. A miner's lantern comes with straps for attachment to a helmet or other piece of sturdy headgear, but it can also be carried in one hand."
+			"A smaller version of the {eq-misc/bullseye lantern}, a miner's lantern provides normal light in a 30-foot cone and increases the light level by one step in the area beyond that, out to a 60-foot cone (darkness becomes dim light and dim light becomes normal light). A miner's lantern does not increase the light level in normal light or bright light. It burns for 6 hours on 1 pint of {eq-misc/oil}. A miner's lantern comes with straps for attachment to a helmet or other piece of sturdy headgear, but it can also be carried in one hand.",
+			"",
+			"**Waterproof Lantern:** Meant to shelter its flame from both water and wind, this lantern treats severe winds as strong winds, windstorms as severe winds, and hurricanes as windstorms for the purpose of determining whether they extinguish its flame. It holds enough air to burn underwater for 5 rounds before going dark."
 		]
 	},
 	"lantern_miners": { "copyof": "miners_lantern" },
+	"waterproof_lantern_miners": {
+		"name": "Waterproof lantern (miner's)",
+		"copyof": "miners_lantern"
+	},
+	"waterproof_miners_lantern": { "copyof": "miners_lantern" },
+	"lantern_waterproof_miners": { "copyof": "miners_lantern" },
 	"miners_pick": {
 		"name": "Miner's pick",
 		"sources": [

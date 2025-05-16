@@ -171,6 +171,21 @@
 			"**Damage** 1d4 Con and 1d4 Wis damage"
 		]
 	},
+	"tears_of_razmir": {
+		"name": "Tears of Razmir",
+		"sources": [ "Inner Sea World Guide" ],
+		"description": [
+			"## Tears of Razmir",
+			"",
+			"{SOURCE Inner Sea World Guide/293}  ",
+			"**Type** ingested; **Addiction** major, Fortitude DC 18  ",
+			"**Price** 25 gp  ",
+			"**Effects** 1 hour; +1 alchemical bonus to Constitution, -2 penalty on Wisdom-based skill checks  ",
+			"**Damage** 1d2 Con damage",
+			"",
+			"Razmir's faithful utilize a number of tools to help them control the populace, but few are more insidious than the tears of Razmir. This alchemical concoction contains mild narcotics and hallucinogens that bolster the user's energy and resistance to pain. It is also highly addictive. Although the clergy gives away tears of Razmir to non-users, it eventually demands payment - as much as 10 gp per dose from wealthy addicts."
+		]
+	},
 	"scour": {
 		"name": "Scour",
 		"sources": [ "GameMastery Guide" ],
@@ -290,6 +305,21 @@
 			"The mind-opening properties of this translucent dust enable the user to process information and draw connections rapidly, though the accompanying paranoia can make it difficult to act effectively on the knowledge thus gleaned."
 		]
 	},
+	"fireskin_elixir": {
+		"name": "Fireskin elixir",
+		"sources": [ "Blood of the Elements" ],
+		"description": [
+			"## Fireskin elixir",
+			"",
+			"{SOURCE Blood of the Elements/27}  ",
+			"**Type** ingested; **Addiction** major, Fortitude DC 20  ",
+			"**Price** 100 gp  ",
+			"**Effect** 1 day; +10 alchemical bonus on Disguise checks to appear as an efreeti, -1 penalty on all saves  ",
+			"**Damage** 1d2 Wis damage",
+			"",
+			"This elixir turns its imbiber fiery red, making it easier to pass as an {monster/efreeti}. Unscrupulous efreet can sell {eq-misc/fireskin elixir} to guests who have been barred from citizen-only districts and must rely on disguises. Fireskin is highly addictive. Many once-savvy merchants have fallen into destitution as they scrambled to maintain efreet favor and secure a steady supply of the drug."
+		]
+	},
 	"oblivion": {
 		"name": "Oblivion",
 		"sources": [ "Potions and Poisons" ],
@@ -333,6 +363,21 @@
 			"**Damage** 1d4 Con",
 			"",
 			"Blood sap is distilled from the crimson sap exuded by a pale green vine native to swamplands in the Mwangi Expanse. Users of this deep red syrup justify the negative effects of the drug with their increased agility and strength. Blood sap addicts often display vividly red lips and teeth."
+		]
+	},
+	"synthetic_mumia": {
+		"name": "Synthetic mumia",
+		"sources": [ "Undead Slayer's Handbook" ],
+		"description": [
+			"## Synthetic mumia",
+			"",
+			"{SOURCE Undead Slayer's Handbook/9}  ",
+			"**Type** ingested or injury; **Addiction** moderate, Fortitude DC 14  ",
+			"**Price** 150 gp  ",
+			"**Effects** 1 hour; +2 alchemical bonus on saving throws against spells and effects with the curse or disease descriptor, fatigue  ",
+			"**Damage** 1d2 Wis damage",
+			"",
+			"A laboratory-created version of the expensive and infamous Osirian drug {drug/mumia}, {eq-misc/synthetic mumia} is a mixture of honey, embalming fluids, and various animal organs. The murky liquid comes enclosed in small packets made of intestine. Mumia and synthetic mumia may be taken interchangeably to stave off the effects of addiction to either substance, and is thus used by some mumia junkies hoping to quit their addiction."
 		]
 	},
 	"hush": {
@@ -482,6 +527,22 @@
 			"**Price** 500 gp  ",
 			"**Effect** variable; 50% chance to sleep for 1d4 hours or gain immunity to fear for 1d4 minutes  ",
 			"**Damage** 1d2 Con damage"
+		]
+	},
+	"wyrm_pesh": {
+		"name": "Wyrm pesh",
+		"sources": [ "Dragonslayer's Handbook" ],
+		"description": [
+			"## Wyrm pesh",
+			"",
+			"{SOURCE Dragonslayer's Handbook/19}  ",
+			"**Type** ingested or inhaled; **Addiction** severe, Fortitude DC 24  ",
+			"**Price** 500 gp  ",
+			"**Effect** 1 hour; 25 temporary hit points  ",
+			"**Effect** 1 day; +2 alchemical bonus on saves against sleep and paralysis effects  ",
+			"**Damage** 1d2 Wis",
+			"",
+			"This rare and expensive [variant](eq-misc/wyrm_pesh) of standard Garundi {drug/pesh} is produced by introducing a vial of dragon's blood into a dose of pesh during the refining process, and has a noticeable reddish tint. While the drug provides a more potent high and fewer immediate penalties, it is highly addictive, and unless a user has a steady supply of dragon's blood, the cost to her well-being can be severe."
 		]
 	},
 	"esoterum": {

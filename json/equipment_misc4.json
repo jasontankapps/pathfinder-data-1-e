@@ -191,7 +191,7 @@
 			"**Price** 100 gp; **Weight** 1 lb.  ",
 			"**Category** Alchemical Tools",
 			"",
-			"Darklands explorers who frequently run afoul of troglodytes, pockets of natural gas, and toxic fumes from magma flows use this dense flask to ease their breathing. You can open the flask as a standard action or throw it as a splash weapon. When opened or broken, the flask releases a burst of cleansing, breathable air in a 10-foot-radius burst, providing a +4 alchemical bonus on saving throws against gases, inhaled poisons, or other breathable hazards. The cloud of fresh air lasts for 1d4 rounds. If you hit a creature that has the stench ability with a thrown flask of deep breath, the DC of its stench is reduced by 4 for the duration of the cloud."
+			"Darklands explorers who frequently run afoul of troglodytes, pockets of natural gas, and toxic fumes from magma flows use this dense flask to ease their breathing. You can open the flask as a standard action or throw it as a splash weapon. When opened or broken, the flask releases a burst of cleansing, breathable air in a 10-foot-radius {misc/burst}, providing a +4 alchemical bonus on saving throws against gases, inhaled poisons, or other breathable hazards. The cloud of fresh air lasts for 1d4 rounds. If you hit a creature that has the stench ability with a thrown flask of deep breath, the DC of its stench is reduced by 4 for the duration of the cloud."
 		]
 	},
 	"defoliant": {
@@ -983,17 +983,28 @@
 	},
 	"dusk_lantern": {
 		"name": "Dusk lantern",
-		"sources": [ "Adventurer's Armory 2" ],
+		"sources": [
+			"Adventurer's Armory 2",
+			"Adventurer's Armory"
+		],
 		"description": [
 			"## Dusk lantern",
-			"{SOURCE Adventurer's Armory 2/12}  ",
-			"**Price** 35 gp; **Weight** 4 lbs.  ",
+			"{SOURCE Adventurer's Armory 2/12;Adventurer's Armory/19}  ",
+			"**Price** 35 gp (normal), 40 gp (waterproof); **Weight** 4 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
-			"This specialized bullseye lantern has a ruby lens that covers the original lens, providing a deep crimson hue to the lantern's light, allowing for more stealth when used in areas of darkness. This special lens can be set in place or removed as a swift action. While the ruby lens is in place, the lantern only provides dim light in a 60-foot cone. A dusk lantern's red light is imperceptible to creatures relying on darkvision as their sole form of sight."
+			"This specialized bullseye lantern has a ruby lens that covers the original lens, providing a deep crimson hue to the lantern's light, allowing for more stealth when used in areas of darkness. This special lens can be set in place or removed as a swift action. While the ruby lens is in place, the lantern only provides dim light in a 60-foot cone. A dusk lantern's red light is imperceptible to creatures relying on darkvision as their sole form of sight.",
+			"",
+			"**Waterproof Lantern:** Meant to shelter its flame from both water and wind, this lantern treats severe winds as strong winds, windstorms as severe winds, and hurricanes as windstorms for the purpose of determining whether they extinguish its flame. It holds enough air to burn underwater for 5 rounds before going dark."
 		]
 	},
 	"lantern_dusk": { "copyof": "dusk_lantern" },
+	"waterproof_lantern_dusk": {
+		"name": "Waterproof lantern (dusk)",
+		"copyof": "dusk_lantern"
+	},
+	"waterproof_dusk_lantern": { "copyof": "dusk_lantern" },
+	"lantern_waterproof_dusk": { "copyof": "dusk_lantern" },
 	"duskeye": {
 		"name": "Duskeye",
 		"sources": [ "Heroes of the Wild" ],
@@ -4178,43 +4189,6 @@
 			"This leather sack sealed with tar or pitch keeps delicate items from being ruined by water. Items kept inside remain relatively dry, making the bag ideal for carrying maps, scrolls, spellbooks, and the like, although the bag is not impervious and can only be completely immersed for 10 rounds before enough water seeps in to ruin such items."
 		]
 	},
-	"waterproof_lantern_bullseye": {
-		"name": "Waterproof lantern (bullseye)",
-		"sources": [
-			"Ultimate Equipment",
-			"Adventurer's Armory",
-			"Pathfinder Society Field Guide",
-			"PRPG Core Rulebook"
-		],
-		"description": [
-			"## Waterproof lantern",
-			"{SOURCE Ultimate Equipment/58;Adventurer's Armory/19}  ",
-			"**Price** +5 gp; **Weight** -  ",
-			"**Category** Adventuring Gear",
-			"",
-			"Meant to shelter its flame from both water and wind, this lantern treats severe winds as strong winds, windstorms as severe winds, and hurricanes as windstorms for the purpose of determining whether they extinguish its flame. It holds enough air to burn underwater for 5 rounds before going dark."
-		]
-	},
-	"waterproof_bullseye_lantern": { "copyof": "waterproof_lantern_bullseye" },
-	"lantern_waterproof_bullseye": { "copyof": "waterproof_bullseye_lantern" },
-	"waterproof_lantern_dusk": {
-		"name": "Waterproof lantern (dusk)",
-		"copyof": "waterproof_lantern_bullseye"
-	},
-	"waterproof_dusk_lantern": { "copyof": "waterproof_lantern_dusk" },
-	"lantern_waterproof_dusk": { "copyof": "waterproof_dusk_lantern" },
-	"waterproof_lantern_hooded": {
-		"name": "Waterproof lantern (hooded)",
-		"copyof": "waterproof_lantern_bullseye"
-	},
-	"waterproof_hooded_lantern": { "copyof": "waterproof_lantern_hooded" },
-	"lantern_waterproof_hooded": { "copyof": "waterproof_hooded_lantern" },
-	"waterproof_lantern_miners": {
-		"name": "Waterproof lantern (miner's)",
-		"copyof": "waterproof_lantern_bullseye"
-	},
-	"waterproof_miners_lantern": { "copyof": "waterproof_lantern_miners" },
-	"lantern_waterproof_miners": { "copyof": "waterproof_miners_lantern" },
 	"waterskin": {
 		"name": "Waterskin",
 		"sources": [
@@ -4818,15 +4792,7 @@
 			"**Price** 500 gp; **Weight** -  ",
 			"**Category** Dragoncraft",
 			"",
-			"This rare and expensive variant of standard Garundi pesh is produced by introducing a vial of dragon's blood into a dose of pesh during the refining process, and has a noticeable reddish tint. While the drug provides a more potent high and fewer immediate penalties, it is highly addictive, and unless a user has a steady supply of dragon's blood, the cost to her well-being can be severe.",
-			"",
-			"### Wyrm Pesh",
-			"",
-			"**Type** ingested or inhaled; **Addiction** severe, Fortitude DC 24  ",
-			"**Price** 500 gp  ",
-			"**Effect** 1 hour; 25 temporary hit points  ",
-			"**Effect** 1 day; +2 alchemical bonus on saves against sleep and paralysis effects  ",
-			"**Damage** 1d2 Wis"
+			"This rare and expensive variant of standard Garundi {drug/pesh} is produced by introducing a vial of dragon's blood into a dose of pesh during the refining process, and has a noticeable reddish tint. While the drug provides a more potent high and fewer immediate penalties, it is [highly addictive](drug/wyrm_pesh), and unless a user has a steady supply of dragon's blood, the cost to her well-being can be severe."
 		]
 	},
 	"wyrms_breath_bitter": {
@@ -4838,7 +4804,7 @@
 			"**Price** 30 gp; **Weight** 1 lb.  ",
 			"**Category** Alchemical Remedies",
 			"",
-			"This green-tinged brew has a pungent, bitter bite. It's flavored with a variety of foul-smelling herbs and is intensely carbonated through a unique fermentation process. Sometimes given to visitors as a prank, wyrm's breath bitter causes the drinker to become sickened for 1d6 minutes (Fortitude DC 12 negates); dwarves gain a +5 racial bonus on this saving throw. After drinking a dose of wyrm's breath bitter, the drinker can, as a move action, unleash a thunderous and noxious belch in either a 5-foot-radius spread or a 10-foot cone. Creatures in the area are deafened and sickened for 1 round (Fortitude DC 12 negates). The drinker must wait 1d4 rounds before belching again, but can belch as often as desired for up to 10 minutes after drinking a wyrm's breath bitter.",
+			"This green-tinged brew has a pungent, bitter bite. It's flavored with a variety of foul-smelling herbs and is intensely carbonated through a unique fermentation process. Sometimes given to visitors as a prank, wyrm's breath bitter causes the drinker to become sickened for 1d6 minutes (Fortitude DC 12 negates); dwarves gain a +5 racial bonus on this saving throw. After drinking a dose of wyrm's breath bitter, the drinker can, as a move action, unleash a thunderous and noxious belch in either a 5-foot-radius {misc/spread} or a 10-foot cone. Creatures in the area are deafened and sickened for 1 round (Fortitude DC 12 negates). The drinker must wait 1d4 rounds before belching again, but can belch as often as desired for up to 10 minutes after drinking a wyrm's breath bitter.",
 			"",
 			"**{rule/Spontaneous Alchemy} Recipe** (2 {eq-reagent/black powder} + 10 {eq-reagent/brimstone} + 20 {eq-reagent/spirit of wine})/digestion; Craft 21  ",
 			"**Time** 1 week; **Tools** {eq-misc/brewer's kit}; **Type** alcohol"

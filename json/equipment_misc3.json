@@ -20,7 +20,7 @@
 			"**Price** 2,000 gp; **Weight** 10 lbs.  ",
 			"**Category** Tools",
 			"",
-			"These strange books are fashioned from a metallic alloy, the crafting of which is known only to yithians and a very few others. Supposedly taken from the same collection as the fabled Pnakotic Manuscripts and traded throughout the multiverse, these books are collections of notes recorded by visitors to the yithians' cities. Each book is written in multiple languages and provides a vast array of information on a specifc topic, but the information it contains is often oddly specifc and lacks context. A single Pnakotic record focuses on a single subject within the confnes of a single Knowledge skill, such as a presentation on the nature of deep one religious practices in worshiping Cthulhu (Knowledge [religion]), the mechanics of a shoggoth's biology (Knowledge [dungeoneering]), or the methods of creating portals between worlds (Knowledge [arcana]). By studying a Pnakotic record for 8 hours, a reader can attempt a single Knowledge check of the appropriate type when researching the book's corresponding subject to gain a +10 circumstance bonus on the check."
+			"These strange books are fashioned from a metallic alloy, the crafting of which is known only to {monster/yithian/s} and a very few others. Supposedly taken from the same collection as the fabled Pnakotic Manuscripts and traded throughout the multiverse, these books are collections of notes recorded by visitors to the yithians' cities. Each book is written in multiple languages and provides a vast array of information on a specifc topic, but the information it contains is often oddly specifc and lacks context. A single Pnakotic record focuses on a single subject within the confnes of a single Knowledge skill, such as a presentation on the nature of deep one religious practices in worshiping Cthulhu (Knowledge [religion]), the mechanics of a shoggoth's biology (Knowledge [dungeoneering]), or the methods of creating portals between worlds (Knowledge [arcana]). By studying a Pnakotic record for 8 hours, a reader can attempt a single Knowledge check of the appropriate type when researching the book's corresponding subject to gain a +10 circumstance bonus on the check."
 		]
 	},
 	"pocket_watch": {
@@ -56,7 +56,7 @@
 			"**Price** 25 gp; **Weight** 1/2 lb.  ",
 			"**Category** Animal Gear",
 			"",
-			"These small rubber cones attach to a creature's fangs and allow it to potentially poison those it bites. Poison caps must be filled with an injury poison, and must be attached to a creature's teeth prior to use. A creature equipped with poison caps deals bite damage as a creature one size smaller than usual, but the next time the creature makes a successful bite attack, it also injects the poison from the caps into its target. The price and weight listed above are for a pair of poison caps; both must be used simultaneously in order to be effective. A pair of poison caps can only be used once; they are effectively destroyed after a successful bite attack. The cost of the poison is not included in the cost of the poison caps."
+			"These small rubber cones attach to a creature's fangs and allow it to potentially poison those it bites. Poison caps must be filled with an injury poison, and must be attached to a creature's teeth prior to use. A creature equipped with poison caps deals bite damage as a creature {misc/one size smaller} than usual, but the next time the creature makes a successful bite attack, it also injects the poison from the caps into its target. The price and weight listed above are for a pair of poison caps; both must be used simultaneously in order to be effective. A pair of poison caps can only be used once; they are effectively destroyed after a successful bite attack. The cost of the poison is not included in the cost of the poison caps."
 		]
 	},
 	"poison_diffuser": {
@@ -141,7 +141,7 @@
 			"**Price** 50 gp; **Weight** -  ",
 			"**Category** Alchemical Tools",
 			"",
-			"This henna-like paste creates a dark brown tattoo on the hands or feet that fades over the next 2d6 days. The tattoo temporarily boosts the strength of a vishkanya's natural poison, increasing the DC of the next weapon envenomed with the vishkanya's blood or saliva by +2 (once used, the tattoo is merely decorative and does not affect the creature's poison). A typical tattoo consists of intricate whorls and spiritual symbols on the hands or feet.",
+			"This henna-like paste creates a dark brown tattoo on the hands or feet that fades over the next 2d6 days. The tattoo temporarily boosts the strength of a {race/vishkanya/'s} natural poison, increasing the DC of the next weapon envenomed with the vishkanya's blood or saliva by +2 (once used, the tattoo is merely decorative and does not affect the creature's poison). A typical tattoo consists of intricate whorls and spiritual symbols on the hands or feet.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 20"
 		]
@@ -181,7 +181,7 @@
 			"**Price** 30 gp; **Weight** -  ",
 			"**Category** Tools",
 			"",
-			"This long pen is made from a delicate feather and has a thin and unusually long nib. The quill is typically white in color, though variations that are crimson, onyx, or some combination of these colors also exist. A hidden compartment inside the nib allows the quill to hold a single dose of poison that is dispensable with a small squeeze. Additionally, this provides a +2 circumstance bonus on Sleight of Hand checks to conceal poisons inside the quill. If this quill is used with vector ink, it increases the DC of a poison mixed with the ink by 1. This quill can be used as a small shiv to deal 1d3 points of damage and deliver its contained poison. However, because of the fragility of the nib, using the quill in this way destroys it."
+			"This long {eq-misc/ink<pen} is made from a delicate feather and has a thin and unusually long nib. The quill is typically white in color, though variations that are crimson, onyx, or some combination of these colors also exist. A hidden compartment inside the nib allows the quill to hold a single dose of poison that is dispensable with a small squeeze. Additionally, this provides a +2 circumstance bonus on Sleight of Hand checks to conceal poisons inside the quill. If this quill is used with {eq-misc/vector ink}, it increases the DC of a poison mixed with the ink by 1. This quill can be used as a small shiv to deal 1d3 points of damage and deliver its contained poison. However, because of the fragility of the nib, using the quill in this way destroys it."
 		]
 	},
 	"poisoners_goblet": {
@@ -243,7 +243,7 @@
 			"{SOURCE Dungeoneer's Handbook/24}  ",
 			"**Price** 12 gp (merchant's), 225 gp (noble's); **Weight** 1/2 lb. (merchant's), 1/2 lb. (noble's)",
 			"",
-			"A pomander is a waxy concoction of resin, flower essence, powdered spices, musk, and ambergris in a walnut-sized cage and hung by a chain from the neck, a belt, or a bracelet. Merchants and adventurers often use pomanders caged in wood or lead, while nobles use ones cased in precious metals and enamel set with gems. When the pomander is carried openly, its powerful scent (Perception DC 0 to notice) fortifies the senses against unpleasant sensations. Anyone within 10 feet of a pomander gains a +2 resistance bonus on Fortitude saves against effects that nauseate or sicken, but suffers a -4 penalty on Perception checks made to detect scents other than the pomander's.",
+			"A pomander is a waxy concoction of resin, flower essence, powdered spices, musk, and ambergris in a walnut-sized cage and hung by a chain from the neck, a belt, or a bracelet. Merchants and adventurers often use pomanders caged in wood or lead, while nobles use ones cased in precious metals and enamel set with gems. When the pomander is carried openly, its powerful scent (Perception DC 0 to notice) fortifies the senses against unpleasant sensations. Anyone within 10 feet of a pomander gains a +2 resistance bonus on Fortitude saves against effects that {misc/nauseate>d} or {misc/sicken>ed}, but suffers a -4 penalty on Perception checks made to detect scents other than the pomander's.",
 			"",
 			"A noble's pomander also overpowers the wearer's own scent; the DC to track him by his own odor increases by 5, but attempts to track him by the pomander's odor have the DC reduced by 5. Regardless of the type, a pomander becomes ineffective after 1d4 weeks of exposure to air, although storing it in an airtight container can extend its lifespan."
 		]
@@ -277,7 +277,7 @@
 			"**Price** 75 gp; **Weight** 20 lbs.  ",
 			"**Category** Tools",
 			"",
-			"This compact version of a full-sized alchemist's lab provides a +1 circumstance bonus on Craft (alchemy) checks."
+			"This compact version of a full-sized {eq-misc/alchemist's lab} provides a +1 circumstance bonus on Craft (alchemy) checks."
 		]
 	},
 	"portable_altar_masterwork": {
@@ -323,7 +323,7 @@
 			"**Price** 125 gp; **Weight** 9 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
-			"This specialized heavy crossbow is hooked to a trip line that can be strung across any opening up to 10 feet wide, much like that of a {eq-misc/bell tripwire trap}. When the line is tripped, the crossbow fires its bolt toward the space where the line was tripped. The crossbow must have line of effect to the target space for the trap to work. Placing a portable bolt trap requires 10 minutes of effort to properly calibrate the shot and conceal the line and crossbow. The trap can be placed in as little as 1 minute, but doing so imposes a -4 penalty on the crossbow's attack roll, and the DC of the Perception check to notice the trap is reduced by 4. The trap has the following statistics.",
+			"This specialized {eq-weapon/heavy crossbow} is hooked to a trip line that can be strung across any opening up to 10 feet wide, much like that of a {eq-misc/bell tripwire trap}. When the line is tripped, the crossbow fires its bolt toward the space where the line was tripped. The crossbow must have line of effect to the target space for the trap to work. Placing a portable bolt trap requires 10 minutes of effort to properly calibrate the shot and conceal the line and crossbow. The trap can be placed in as little as 1 minute, but doing so imposes a -4 penalty on the crossbow's attack roll, and the DC of the Perception check to notice the trap is reduced by 4. The trap has the following statistics.",
 			"",
 			"**Portable Bolt Trap - CR 1/2**  ",
 			"**Type** mechanical; **Perception** DC 20; **Disable Device** DC 20  ",
@@ -341,7 +341,7 @@
 			"**Price** 200 gp; **Weight** 60 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
-			"When staked down with eight pitons (four on each side of the gap), this rope and slat bridge can support up to 1,500 pounds and span a 30-foot gap. It rolls up into a parcel that can be carried slung over the back or by a pack animal. Convincing an animal to cross a portable bridge requires the come or heel trick."
+			"When staked down with eight {eq-misc/piton/s} (four on each side of the gap), this rope and slat bridge can support up to 1,500 pounds and span a 30-foot gap. It rolls up into a parcel that can be carried slung over the back or by a pack animal. Convincing an animal to cross a portable bridge requires the come or heel trick."
 		]
 	},
 	"portable_prison": {
@@ -353,7 +353,7 @@
 			"**Price** 200 gp; **Weight** 300 lbs.  ",
 			"**Category** Kits",
 			"",
-			"This kit for a wagon provides a set of metal bars with a door for transporting imprisoned people or creatures. Though portable prisons were originally developed by traveling acts to hold ferocious animals, city guards commonly use them to round up criminals, and some bounty hunters hire them to transport large groups of prisoners. Most prisons come with locks; add the cost of the desired lock to the cost of the portable prison. A cage meant for people includes benches and rails for manacles. One meant for animals contains a trough for water and a smaller door for providing food."
+			"This kit for a {eq-misc/wagon} provides a set of metal bars with a door for transporting imprisoned people or creatures. Though portable prisons were originally developed by traveling acts to hold ferocious animals, city guards commonly use them to round up criminals, and some bounty hunters hire them to transport large groups of prisoners. Most prisons come with {eq-misc/lock/s}; add the cost of the desired lock to the cost of the portable prison. A cage meant for people includes benches and rails for manacles. One meant for animals contains a trough for water and a smaller door for providing food."
 		]
 	},
 	"portable_ram": {
@@ -404,7 +404,7 @@
 			"**Price** 100 gp; **Weight** 4 lbs.  ",
 			"**Category** Tools",
 			"",
-			"This small glass enclosure is 1 foot wide, 1 foot tall, and reinforced with a wooden or metal frame. Tiny air holes in the lid allow living creatures inside the portable terrarium to breathe, and the interior can be outfitted with a variety of substrates and other materials the creatures might require. A portable terrarium is usually fitted with straps so it can be tied to a pack. Diminutive and smaller creatures, such as some familiars, can be safely carried within a portable terrarium and have total cover while inside it. Healers and botanists often store living plants in these containers; a successful DC 12 Knowledge (nature) check is required to transplant a plant into a portable terrarium, and most plants can live in a portable terrarium indefinitely so long as they are properly tended."
+			"This small glass enclosure is 1 foot wide, 1 foot tall, and reinforced with a wooden or metal frame. Tiny air holes in the lid allow living creatures inside the portable terrarium to breathe, and the interior can be outfitted with a variety of substrates and other materials the creatures might require. A portable terrarium is usually fitted with straps so it can be tied to a pack. Diminutive and smaller creatures, such as some familiars, can be safely carried within a portable terrarium and have total {rule/cover} while inside it. Healers and botanists often store living plants in these containers; a successful DC 12 Knowledge (nature) check is required to transplant a plant into a portable terrarium, and most plants can live in a portable terrarium indefinitely so long as they are properly tended."
 		]
 	},
 	"portrait_book": {
@@ -455,21 +455,9 @@
 			"**Price** 2 gp; **Weight** -  ",
 			"**Category** Alchemical Tools",
 			"",
-			"This egg-sized sponge is covered in a layer of waterproof edible wax, designed to absorb 1 dose of a potion. Chewing a potion sponge and swallowing its liquid contents is a full-round action. A creature of at least Large size can swallow the sponge in its entirely; other creatures must spit out the sponge once it's depleted (a free action). Unlike a potion that is drunk from a vial, a potion sponge can be used underwater. A potion can be poured from a vial into a sponge potion (or squeezed from a sponge into a vial) as a full-round action. The potion sponge is immune to attacks that specifically target crystal, glass, ceramic, or porcelain, such as shatter. It otherwise works like a potion vial.",
+			"This egg-sized sponge is covered in a layer of waterproof edible wax, designed to absorb 1 dose of a potion. Chewing a potion sponge and swallowing its liquid contents is a full-round action. A creature of at least Large size can swallow the sponge in its entirely; other creatures must spit out the sponge once it's depleted (a free action). Unlike a potion that is drunk from a vial, a potion sponge can be used underwater. A potion can be poured from a vial into a sponge potion (or squeezed from a sponge into a vial) as a full-round action. The potion sponge is immune to attacks that specifically target crystal, glass, ceramic, or porcelain, such as {spell/shatter}. It otherwise works like a potion vial.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 15"
-		]
-	},
-	"pouch_belt_empty": {
-		"name": "Pouch, belt (empty)",
-		"sources": [ "PRPG Core Rulebook" ],
-		"description": [
-			"## Pouch, belt (empty)",
-			"{SOURCE PRPG Core Rulebook/158}  ",
-			"**Price** 1 gp; **Weight** 1/2 lb.  ",
-			"**Category** Adventuring Gear",
-			"",
-			"No description was provided for this entry."
 		]
 	},
 	"powder_ball_empty": {
@@ -480,7 +468,7 @@
 			"{SOURCE Castles of the Inner Sea/39}  ",
 			"**Price** 400 gp (empty), 300 gp (fuel); **Weight** 4 lbs. (empty), 1 lb. (fuel)",
 			"",
-			"This steel sphere is about the size of a standard cannon ball, though it's significantly lighter. Small holes pock the surface of the sphere, which can be unscrewed into two hemispherical pieces. By filling the intricate hollows in an opened powder ball with a specific mixture of volatile chemical reagents (which can typically be purchased in Highhelm for around 200 gp) and inserting a proprietary fuse, an individual can use the weapon as a time-delayed explosive device, throwing it as a splash weapon or simply placing it where she wants it to explode. The fuse can be ignited as a move action; 1d4 rounds afterward, the powder ball explodes, dealing 2d6 points of fire damage to anything in a 10-foot-radius burst (DC 15 for half). A powder ball explodes in this way three times - the second explosion occurs 1d3 rounds after the initial explosion, and the third explosion occurs 1d2 rounds after the second. After the third explosion, the empty powder ball can be refilled and used again."
+			"This steel sphere is about the size of a standard cannon ball, though it's significantly lighter. Small holes pock the surface of the sphere, which can be unscrewed into two hemispherical pieces. By filling the intricate hollows in an opened powder ball with a specific mixture of volatile chemical reagents (which can typically be purchased in Highhelm for around 200 gp) and inserting a proprietary fuse, an individual can use the weapon as a time-delayed explosive device, throwing it as a splash weapon or simply placing it where she wants it to explode. The fuse can be ignited as a move action; 1d4 rounds afterward, the powder ball explodes, dealing 2d6 points of fire damage to anything in a 10-foot-radius {misc/burst} (DC 15 for half). A powder ball explodes in this way three times - the second explosion occurs 1d3 rounds after the initial explosion, and the third explosion occurs 1d2 rounds after the second. After the third explosion, the empty powder ball can be refilled and used again."
 		]
 	},
 	"powder_ball_fuel": {
@@ -500,7 +488,7 @@
 			"**Price** 3 gp; **Weight** 1 lb.  ",
 			"**Category** Adventuring Gear",
 			"",
-			"Typically crafted from hollowed-out animal horn, but increasingly crafted from metal in a wide variety of shapes, a powder horn can hold up to 10 doses of black powder. A powder horn protects black powder stored within in it from exposure to fire, electricity, firearm misfires, and water, and the narrow end of the horn is useful in funneling the expensive powder carefully into the barrel of a firearm."
+			"Typically crafted from hollowed-out animal horn, but increasingly crafted from metal in a wide variety of shapes, a powder horn can hold up to 10 doses of {eq-weapon/black powder}. A powder horn protects black powder stored within in it from exposure to fire, electricity, firearm misfires, and water, and the narrow end of the horn is useful in funneling the expensive powder carefully into the barrel of a firearm."
 		]
 	},
 	"powder": {
@@ -553,7 +541,7 @@
 			"**Price** 1,000 gp; **Weight** 15 lbs.  ",
 			"**Category** Black Market",
 			"",
-			"A premium hookah is similar to a standard hookah, except it sports enough hoses for up to eight adjacent creatures to use, and the bowl has three separate compartments, each of which can store a different type of inhalable drug, alchemical powder, or alchemical liquid. Each compartment can hold up to 3 doses of an inhalable substance (so a premium hookah can hold up to 9 doses total). Consuming these contents is still a move action. You can reload a single compartment as a move action, or you can reload all three compartments as a full-round action."
+			"A premium hookah is similar to a standard {eq-misc/hookah}, except it sports enough hoses for up to eight adjacent creatures to use, and the bowl has three separate compartments, each of which can store a different type of inhalable drug, alchemical powder, or alchemical liquid. Each compartment can hold up to 3 doses of an inhalable substance (so a premium hookah can hold up to 9 doses total). Consuming these contents is still a move action. You can reload a single compartment as a move action, or you can reload all three compartments as a full-round action."
 		]
 	},
 	"pressure_pill": {
@@ -565,7 +553,7 @@
 			"**Price** 75 gp; **Weight** -  ",
 			"**Category** Alchemical Tools",
 			"",
-			"When you swallow this marble-shaped alchemical pill as a full-round action, it instantly adjusts your body to the surrounding water pressure, though you take 3 points of nonlethal damage for every 100 feet of adjustment necessary."
+			"When you swallow this marble-shaped alchemical pill as a full-round action, it instantly adjusts your body to the surrounding [water pressure](rule/oceanic_zones), though you take 3 points of nonlethal damage for every 100 feet of adjustment necessary."
 		]
 	},
 	"printing_press_1_page": {
@@ -577,7 +565,7 @@
 			"**Price** 250 gp; **Weight** 150 lbs.  ",
 			"**Category** Tools",
 			"",
-			"A hand-cranked press uses a plate on which all of the text on a page is carved in reverse. Changing the plate is a simple process, but creating a new one is expensive and laborintensive. The press prints one page at a time, at a rate of about five pages per minute. A stationer then needs to cut and trim the pages and bind the book."
+			"A hand-cranked press uses a plate on which all of the text on a page is carved in reverse. Changing the plate is a simple process, but creating a new one is expensive and labor-intensive. The press prints one page at a time, at a rate of about five pages per minute. A stationer then needs to cut and trim the pages and bind the book."
 		]
 	},
 	"prismatic_crystal": {
@@ -589,7 +577,7 @@
 			"**Price** 30 gp; **Weight** 1/2 lb.  ",
 			"**Category** Adventuring Gear",
 			"",
-			"This chunk of crystal shines with the colors of the rainbow. A prismatic crystal can be used as a focus for the read aura occult skill unlock to reduce the time needed to read an aura from 10 minutes to 5 minutes. When held by psychic creatures, these crystals also emit light in a small area, increasing the light level in a 10-foot radius by one step (darkness becomes dim light, and dim light becomes normal light). A prismatic crystal can't increase the light level above normal light."
+			"This chunk of crystal shines with the colors of the rainbow. A prismatic crystal can be used as a focus for the {skill/read aura} occult skill unlock to reduce the time needed to read an aura from 10 minutes to 5 minutes. When held by psychic creatures, these crystals also emit light in a small area, increasing the light level in a 10-foot radius by one step (darkness becomes dim light, and dim light becomes normal light). A prismatic crystal can't increase the light level above normal light."
 		]
 	},
 	"privacy_shelter": {
@@ -601,7 +589,7 @@
 			"**Price** 5 gp; **Weight** 10 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
-			"Through a 15-minute assembly period, the components of this kit fit together into a tentlike structure. Able to fit a single Medium-sized creature, this tent doesn't allow space for sleeping. Instead, a privacy shelter offers standing or sitting room only. The shelter is mostly used as either a meditation space or a latrine shelter."
+			"Through a 15-minute assembly period, the components of this kit fit together into a tent-like structure. Able to fit a single Medium-sized creature, this tent doesn't allow space for sleeping. Instead, a privacy shelter offers standing or sitting room only. The shelter is mostly used as either a meditation space or a latrine shelter."
 		]
 	},
 	"prognostication_manual": {
@@ -613,7 +601,7 @@
 			"**Price** 30 gp; **Weight** 3 lbs.  ",
 			"**Category** Tools",
 			"",
-			"This small but thick booklet contains information on a specific form of folk divination, such as cartomancy, cheiromancy, crystallomancy, or horoscopy. Using such a book while reading a creature's fortune reduces the time needed to read that fortune by 2 minutes. When used as part of a Sense Motive check for the prognostication occult skill unlock, this book grants a +2 circumstance bonus. If the fortunetelling method requires a particular item, such as a deck of cards for cartomancy or animal bones for osteomancy, that item provides a +2 circumstance bonus that doesn't stack with the bonus provided by the prognostication manual.",
+			"This small but thick booklet contains information on a specific form of folk divination, such as cartomancy, cheiromancy, crystallomancy, or horoscopy. Using such a book while reading a creature's fortune reduces the time needed to read that fortune by 2 minutes. When used as part of a {skill/Sense Motive} check for the {skill/prognostication} occult skill unlock, this book grants a +2 circumstance bonus. If the fortune-telling method requires a particular item, such as a deck of cards for cartomancy or animal bones for osteomancy, that item provides a +2 circumstance bonus that doesn't stack with the bonus provided by the prognostication manual.",
 			"",
 			"A prognostication manual is useful primarily for cheiromancy (palm reading), horoscopy, and other methods that don't require special equipment."
 		]
@@ -671,7 +659,7 @@
 			"**Price** 200 gp; **Weight** 7 lbs.  ",
 			"**Category** Mounts/Pets",
 			"",
-			"Found primarily in temperate forests, pseudodragons are intelligent enough that some consider their sale slavery. A handful of pseudodragons offer themselves for hire to adventurers, typically for half their listed price per week of work. For more information, see the Bestiary."
+			"Found primarily in temperate forests, pseudodragons are intelligent enough that some consider their sale slavery. A handful of pseudodragons offer themselves for hire to adventurers, typically for half their listed price per week of work."
 		]
 	},
 	"psychics_kit": {
@@ -683,7 +671,7 @@
 			"**Price** 35 gp; **Weight** 27 lbs.  ",
 			"**Category** Kits",
 			"",
-			"This kit includes a backpack, a bedroll, a belt pouch, flint and steel, a prismatic crystal, torches (10), trail rations (5 days), and a waterskin."
+			"This kit includes a {eq-misc/backpack}, a {eq-misc/bedroll}, a {eq-misc/belt pouch}, {eq-misc/flint and steel}, a {eq-misc/prismatic crystal}, {eq-misc/torches} (10), {eq-misc/trail rations} (5 days), and a {eq-misc/waterskin}."
 		]
 	},
 	"psychometrists_gloves": {
@@ -695,7 +683,7 @@
 			"**Price** 10 gp; **Weight** 5 lbs.  ",
 			"**Category** Tools",
 			"",
-			"These layered lambskin gloves are specially designed and psychically attuned to increase the tactile sensitivity of the wearer's hands. To provide any benefit, the gloves must be worn for 8 uninterrupted hours. All Dexterity skill checks requiring the use of the hands take a -2 penalty as long as the gloves remain on. After this 8-hour period, the user can remove the gloves to gain a +2 circumstance bonus on Appraise checks for the psychometry occult skill unlock. This benefit fades after 1 hour."
+			"These layered lambskin gloves are specially designed and psychically attuned to increase the tactile sensitivity of the wearer's hands. To provide any benefit, the gloves must be worn for 8 uninterrupted hours. All Dexterity skill checks requiring the use of the hands take a -2 penalty as long as the gloves remain on. After this 8-hour period, the user can remove the gloves to gain a +2 circumstance bonus on Appraise checks for the {skill/psychometry} occult skill unlock. This benefit fades after 1 hour."
 		]
 	},
 	"pull_cord_grenade": {
@@ -707,7 +695,7 @@
 			"**Price** 150 gp; **Weight** 2 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
-			"This clay container resembles a fuse grenade, but trails a pulley and wire rather than a fuse. Pulling the cord (a move action) sparks a flint and steel within the device, causing the grenade to explode. The pull cord can be attached to a door or drawer within 5 feet, or strung across a 5-foot square, causing the grenade to detonate when its tripwire is disturbed. A pull-cord grenade cannot be reused.",
+			"This clay container resembles a {eq-weapon/fuse grenade}, but trails a pulley and wire rather than a fuse. Pulling the cord (a move action) sparks a {eq-misc/flint and steel} within the device, causing the grenade to explode. The pull cord can be attached to a door or drawer within 5 feet, or strung across a 5-foot square, causing the grenade to detonate when its tripwire is disturbed. A pull-cord grenade cannot be reused.",
 			"",
 			"This can be crafted with a DC 25 Craft (traps) check.",
 			"",
@@ -740,7 +728,7 @@
 			"**Price** 2,000 gp; **Weight** 100 lbs.  ",
 			"**Category** Black Market",
 			"",
-			"This large mobile keyboard instrument resembles a strange chair with several brass tubes jutting from its back and small wheels on the feet for ease of transportation. A pump organ can seat a single Medium creature, which can operate the keyboard and pedals to create haunting melodies out of the brass pipework along the organ's back frame. All pump organs function as masterwork instruments for Perform (keyboard instruments) checks. With 10 minutes of work and a successful DC 15 Perform (keyboard instruments) check, a user can manipulate the pump organ's controls to create a 1-minute long performance that does not require an operator - the pump organ can be set to activate after a preset duration via a timer (up to 24 hours) or to begin when a remote trigger is activated. The trigger can be connected to the pump organ via a set of pulleys and twine normally stored in a compartment under the organ's seat cushion with a successful DC 15 Disable Device check. The remote trigger can be placed up to 60 feet from the pump organ."
+			"This large mobile keyboard instrument resembles a strange chair with several brass tubes jutting from its back and small wheels on the feet for ease of transportation. A pump organ can seat a single Medium creature, which can operate the keyboard and pedals to create haunting melodies out of the brass pipework along the organ's back frame. All pump organs function as {eq-misc/masterwork musical instrument/s} for Perform (keyboard instruments) checks. With 10 minutes of work and a successful DC 15 Perform (keyboard instruments) check, a user can manipulate the pump organ's controls to create a 1-minute long performance that does not require an operator - the pump organ can be set to activate after a preset duration via a timer (up to 24 hours) or to begin when a remote trigger is activated. The trigger can be connected to the pump organ via a set of pulleys and twine normally stored in a compartment under the organ's seat cushion with a successful DC 15 Disable Device check. The remote trigger can be placed up to 60 feet from the pump organ."
 		]
 	},
 	"pump_water_canister": {
@@ -778,7 +766,7 @@
 			"**Price** 10 gp; **Weight** 2 lbs.  ",
 			"**Category** Black Market",
 			"",
-			"This set of special disposable reagents can be used in conjunction with an alchemist's lab to detect whether a drug has been cut with inferior-grade material or filler, granting a +5 competence bonus on Craft (alchemy) checks to detect such chicanery."
+			"This set of special disposable reagents can be used in conjunction with an {eq-misc/alchemist's lab} to detect whether a drug has been cut with inferior-grade material or [filler](eq-misc/bunk), granting a +5 competence bonus on Craft (alchemy) checks to detect such chicanery."
 		]
 	},
 	"puzzle_box": {
@@ -823,7 +811,7 @@
 			"**Price** 310 gp; **Weight** 8 lbs.  ",
 			"**Category** Kits",
 			"",
-			"This kit contains items helpful in navigating the winding corridors of pyramids, but is also useful in other crypts and tombs. It contains three sticks of chalk, five sheets of parchment, 1 dose of synthetic mumia, a flask of alchemist's fire, a tangleburn bag, and a pair of sunrods."
+			"This kit contains items helpful in navigating the winding corridors of pyramids, but is also useful in other crypts and tombs. It contains three sticks of {eq-misc/chalk}, five sheets of {eq-misc/parchment}, 1 dose of {eq-misc/synthetic mumia}, a flask of {eq-weapon/alchemist's fire}, a {eq-weapon/tangleburn bag}, and a pair of {eq-misc/sunrod/s}."
 		]
 	},
 	"pyrography_kit": {
@@ -859,15 +847,17 @@
 			"**Price** 1000 gp; **Weight** 127 1/2 lbs.  ",
 			"**Category** Kits",
 			"",
-			"If not descended from nobility, the questing knight certainly looks like he fits the part. This equipment package is useful for cavaliers, fighters, and paladins. If the PC can cast spells, add a spell component pouch and a holy symbol (if required). If the PC gains a mount from a class feature, remove the horse from the list below and replace the lance with a masterwork lance.",
+			"If not descended from nobility, the questing knight certainly looks like he fits the part. This equipment package is useful for cavaliers, fighters, and paladins. If the PC can cast spells, add a {eq-misc/spell component pouch} and a {eq-misc/holy symbol} (if required). If the PC gains a mount from a class feature, remove the horse from the list below and replace the lance with a masterwork lance.",
 			"",
-			"**Armor:** Half-plate, heavy wooden shield.",
+			"**Armor:** {eq-armor/Half-plate}, {eq-armor/heavy wooden shield}.",
 			"",
-			"**Weapons:** Javelins (4), lance, longsword.",
+			"**Weapons:** {eq-weapon/Javelin/s} (4), {eq-weapon/lance}, {eq-weapon/longsword}.",
 			"",
-			"**Combat Gear:** Sunrods (2).",
+			"**Combat Gear:** {eq-misc/Sunrod/s} (2).",
 			"",
-			"**Other Gear:** Backpack, banner, bedroll, belt pouch, flask, flint and steel, mess kit, pole (10 ft.), sack, shovel, signet ring, silk rope (50 ft.), trail rations (5 days), waterskin, whetstone, 8 gp. *Mount:* Heavy horse (combat trained) with bit and bridle, military saddle, and saddlebags.",
+			"**Other Gear:** {eq-misc/Backpack}, {eq-misc/banner}, {eq-misc/bedroll}, {eq-misc/belt pouch}, {eq-misc/flask}, {eq-misc/flint and steel}, {eq-misc/mess kit}, {eq-misc/pole} (10 ft.), {eq-misc/sack}, {eq-misc/shovel}, {eq-misc/signet ring}, {eq-misc/silk rope (50 ft.)}, {eq-misc/trail rations} (5 days), {eq-misc/waterskin}, {eq-misc/whetstone}, 8 gp.",
+			"",
+			"**Mount:** {eq-misc/Heavy horse (combat trained)} with {eq-misc/bit and bridle}, {eq-misc/military saddle}, and {eq-misc/saddlebags}.",
 			"",
 			"**Total Weight:** 127-1/2 lbs. (73-3/4 lbs. for a Small character)."
 		]
@@ -881,7 +871,7 @@
 			"**Price** varies; **Weight** 5 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
-			"A quick-change outfit is actually two different sets of attire sewn together, one inside the other. The quick-change outfit allows the wearer to rapidly change from one outfit into another by reversing (pulling inside out) the entire outfit. It takes a full-round action to slip out of the quick-change outfit, reverse it, and put it back on. The two different outfits can appear to be of any variety, such as a noble's outfit on one side and a monk's outfit on the other. The appearance is only superficial, so the outfits do not grant any special bonuses (such as a cold-weather outfit's benefits against exposure to cold). Anyone paying particular attention to the outfit can notice discrepancies (such as odd seams and unusually thick padding) with a successful DC 20 Perception check. The outfit's price is equal to double the price of the more expensive of the two outfits it mimics."
+			"A quick-change outfit is actually two different sets of attire sewn together, one inside the other. The quick-change outfit allows the wearer to rapidly change from one outfit into another by reversing (pulling inside out) the entire outfit. It takes a full-round action to slip out of the quick-change outfit, reverse it, and put it back on. The two different outfits can appear to be of any variety, such as a {eq-misc/noble's outfit} on one side and a {eq-misc/monk's outfit} on the other. The appearance is only superficial, so the outfits do not grant any special bonuses (such as a {eq-misc/cold-weather outfit/'s} benefits against exposure to cold). Anyone paying particular attention to the outfit can notice discrepancies (such as odd seams and unusually thick padding) with a successful DC 20 Perception check. The outfit's price is equal to double the price of the more expensive of the two outfits it mimics."
 		]
 	},
 	"quick_pack_table": {
@@ -933,9 +923,9 @@
 			"",
 			"A set of quieting needles costs 25 gp. Inserted into a corpse's heart, lungs, and other organs, the needles can be well hidden inside a slain body with a minute of work and a Sleight of Hand check - the result of this Sleight of Hand check determines the Heal check DC to notice the use of quieting needles on a corpse. This Heal check gains a cumulative +1 bonus for each day the body has been allowed to decay, as the presence of the needles grows increasingly obvious as the flesh rots away.",
 			"",
-			"A body pierced with quieting needles can be brought back to life as normal via {spell/raise dead}, but upon being restored to life, the victim immediately begins suffering from the fact that his major organs are perforated by hidden needles. This grisly fate can even strike someone brought back to life via {spell/resurrection} or {spell/true resurrection} if the body itself was intact and the needles were thus hidden. (Casting resurrection or true resurrection with only a fragment of the body or no body, forcing the spell to rebuild the body as appropriate, is a surefire way to avoid having the victim come back to life with the needles still inside him.)",
+			"A body pierced with quieting needles can be brought back to life as normal via {spell/raise dead}, but upon being restored to life, the victim immediately begins suffering from the fact that his major organs are perforated by hidden needles. This grisly fate can even strike someone brought back to life via {spell/resurrection} or {spell/true resurrection} if the body itself was intact and the needles were thus hidden. (Casting *resurrection* or *true resurrection* with only a fragment of the body or no body, forcing the spell to rebuild the body as appropriate, is a surefire way to avoid having the victim come back to life with the needles still inside him.)",
 			"",
-			"A creature brought back to life with quieting needles inside him is immediately struck with pain and must make a DC 25 Fortitude save each round to avoid being nauseated from the pain and suffering 1d6 points of Constitution damage. A successful Fortitude save negates the nauseated condition and reduces the Constitution damage to 1.",
+			"A creature brought back to life with quieting needles inside him is immediately struck with pain and must make a DC 25 Fortitude save each round to avoid being {misc/nauseated} from the pain and suffering 1d6 points of Constitution damage. A successful Fortitude save negates the nauseated condition and reduces the Constitution damage to 1.",
 			"",
 			"Removing quieting needles from a dead body takes 1d6+6 rounds (and a DC 20 Heal check if the process is to leave the body in a condition where raise dead is still viable). Removing quieting needles from a freshly restored living body causes 2d6 points of damage per round the procedure continues, with a successful DC 25 Heal check reducing damage caused that round to 2.",
 			"",
@@ -1001,7 +991,7 @@
 			"**Price** -; **Price of Passage** (per mile) 1 cp  ",
 			"**Category** Transport, Sea",
 			"",
-			"The most basic and primitive type of watercraft, a raft is a simple, flat boat with no hull, often made of logs lashed together. It typically uses two to four oars for propulsion."
+			"The most basic and primitive type of watercraft, a raft is a simple, flat boat with no hull, often made of logs lashed together. It typically uses two to four {eq-misc/oar/s} for propulsion."
 		]
 	},
 	"raft_travel_per_mile": {
@@ -1017,7 +1007,7 @@
 			"**Price** 25 gp; **Weight** -  ",
 			"**Category** Alchemical Remedies",
 			"",
-			"This packet filled with spikey-edged leaves has a pungent scent almost strong enough to make your eyes water. While you chew the leaves, you ignore the effects of fatigue. The leaves last for 6 rounds, at which point only a wad of pulp remains. When the effect of rager's aid wears off, you are exhausted instead.",
+			"This packet filled with spikey-edged leaves has a pungent scent almost strong enough to make your eyes water. While you chew the leaves, you ignore the effects of {misc/fatigue>d}. The leaves last for 6 rounds, at which point only a wad of pulp remains. When the effect of rager's aid wears off, you are {misc/exhausted} instead.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 25"
 		]
@@ -1045,7 +1035,7 @@
 			"**Price** 9 gp; **Weight** 28 lbs.  ",
 			"**Category** Kits",
 			"",
-			"This includes a backpack, a bedroll, a belt pouch, a flint and steel, iron pot, mess kit, rope, torches (10), trail rations (5 days), and a waterskin."
+			"This includes a {eq-misc/backpack}, a {eq-misc/bedroll}, a {eq-misc/belt pouch}, a {eq-misc/flint and steel}, {eq-misc/iron pot}, {eq-misc/mess kit}, {eq-misc/rope}, {eq-misc/torches} (10), {eq-misc/trail rations} (5 days), and a {eq-misc/waterskin}."
 		]
 	},
 	"rat_blue": {
@@ -1099,9 +1089,10 @@
 			"**Price** 1 gp; **Weight** 1/2 lb.  ",
 			"**Category** Food/Drink",
 			"",
-			"Generally composed of meat, hard cheese, fruits and vegetables, nut and bean pastes, and vital herbs, space rations are dehydrated and then kept extremely dry in order to maximize preservation and storage efficiency. A single serving feeds a Medium character for 1 day, but unless an equal weight of water is added to the rations, the character eating them becomes fatigued until she drinks enough water."
+			"Generally composed of meat, hard cheese, fruits and vegetables, nut and bean pastes, and vital herbs, space rations are dehydrated and then kept extremely dry in order to maximize preservation and storage efficiency. A single serving feeds a Medium character for 1 day, but unless an equal weight of water is added to the rations, the character eating them becomes {misc/fatigued} until she drinks enough water."
 		]
 	},
+	"space_rations": { "copyof": "rations_space_per_day" },
 	"raven": {
 		"name": "Raven",
 		"sources": [
@@ -1126,7 +1117,7 @@
 			"**Price** 1,000 gp; **Weight** 10 lbs.  ",
 			"**Category** Tools",
 			"",
-			"These connected glass-and-copper apparatuses have heatstones and other components installed at the base of each container to break down magic liquids placed within. Any potion placed within the extractor is distilled down to its component parts over the course of 4 hours; this destroys the potion. The extracted essences can then be used to brew a new potion as long as the new potion is of the same spell level or lower than the distilled potion. Using the extractor in this way does not change the requirements for brewing a potion, but it does remove the need to use fresh and unused ingredients and materials to brew the new potion, and this waives the new potion's base cost (but not the requirement to provide any costly material component or focus that the new potion's spell requires). Essences extracted from a potion using a reagent extractor must be used to create a new potion within 24 hours; after this time, they become inert."
+			"These connected glass-and-copper apparatuses have {eq-misc/heatstone/s} and other components installed at the base of each container to break down magic liquids placed within. Any potion placed within the extractor is distilled down to its component parts over the course of 4 hours; this destroys the potion. The extracted essences can then be used to brew a new potion as long as the new potion is of the same spell level or lower than the distilled potion. Using the extractor in this way does not change the requirements for brewing a potion, but it does remove the need to use fresh and unused ingredients and materials to brew the new potion, and this waives the new potion's base cost (but not the requirement to provide any costly material component or focus that the new potion's spell requires). Essences extracted from a potion using a reagent extractor must be used to create a new potion within 24 hours; after this time, they become inert."
 		]
 	},
 	"reagent_paper": {
@@ -1166,7 +1157,7 @@
 			"**Price** 20 gp; **Weight** 1 lb.  ",
 			"**Category** Alchemical Tools",
 			"",
-			"This otherwise normal-looking torch is encrusted with lithium salts and burns with a dark red flame. It sheds only dim light in a 10-foot radius, and the light it casts is undetectable outside this radius by normal vision, darkvision, or low-light vision. This torch burns for 1 hour."
+			"This otherwise normal-looking {eq-misc/torch} is encrusted with lithium salts and burns with a dark red flame. It sheds only dim light in a 10-foot radius, and the light it casts is undetectable outside this radius by normal vision, darkvision, or low-light vision. This torch burns for 1 hour."
 		]
 	},
 	"reindeer": {
@@ -1190,7 +1181,7 @@
 			"**Price** 5 gp; **Weight** 1/2 lb.  ",
 			"**Category** Adventuring Gear",
 			"",
-			"This foot-long strip of double-sided alchemical adhesive is sealed with waxed paper. When unsealed (this requires a move action) and pressed between two surfaces (this also requires a move action), a remora pad creates a firm and waterproof bond between two creatures or objects for up to 24 hours. If two creatures connect themselves in this way, both gain the grappled condition. However, if they are different size categories, only the smaller creature gains this condition.",
+			"This foot-long strip of double-sided alchemical adhesive is sealed with waxed paper. When unsealed (this requires a move action) and pressed between two surfaces (this also requires a move action), a remora pad creates a firm and waterproof bond between two creatures or objects for up to 24 hours. If two creatures connect themselves in this way, both gain the {rule/grapple[d] condition>s}. However, if they are different size categories, only the smaller creature gains this condition.",
 			"",
 			"This bond survives light buffeting and movement, such as that created by incoming tides or by one attached surface dragging the other along underwater. Sharp tugs can break the seal fairly easily, and a willingly attached creature can pull free of the pad with a successful DC 5 Strength check as a standard action (DC 10 as a swift action). This weakness makes remora pads fairly ineffective when attempting to grapple a target, though a grappling creature that sticks itself to a target with a remora pad receives a +6 circumstance bonus on grapple combat maneuver checks to sustain the grapple in subsequent rounds (instead of the normal +5 bonus).",
 			"",
@@ -1242,7 +1233,7 @@
 			"**Price** 75 gp; **Weight** 1/2 lb.  ",
 			"**Category** Alchemical Tools",
 			"",
-			"When applied to the nose as a standard action, this alchemical paste traps airborne particles and sharpens your olfactory receptors, heightening your sense of smell. You gain the scent ability, except you can detect creatures and odors at only half the distance. If you already have the scent ability, rhinarium paste increases the range at which you can detect creatures by 50%. Rhinarium paste's effects lasts for 1 hour. Crafting this item requires a successful DC 20 Craft (alchemy) check.",
+			"When applied to the nose as a standard action, this alchemical paste traps airborne particles and sharpens your olfactory receptors, heightening your sense of smell. You gain the {umr/scent} ability, except you can detect creatures and odors at only half the distance. If you already have the scent ability, rhinarium paste increases the range at which you can detect creatures by 50%. Rhinarium paste's effects lasts for 1 hour. Crafting this item requires a successful DC 20 Craft (alchemy) check.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 20"
 		]
@@ -1271,7 +1262,7 @@
 			"{SOURCE Ultimate Wilderness/12}  ",
 			"**Price** 12,000 gp (combat-trained queen), 450 gp (combat-trained worker), 8,000 gp (queen), 300 gp (worker); **Weight** 140 lbs. (combat-trained queen), 60 lbs. (combat-trained worker), 140 lbs. (queen), 60 lbs. (worker)",
 			"",
-			"Gathlains have learned to domesticate giant bees, which they use to travel long distances. Extra queens from a hive's brood are saved and trained for hauling heavier equipment or a retinue of gathlains. Bees require an exotic saddle, which is a sort of basket that places the rider underneath the bee's abdomen, where it protects the rider as if he were a bee larva."
+			"{race/Gathlain/s} have learned to domesticate giant bees, which they use to travel long distances. Extra queens from a hive's brood are saved and trained for hauling heavier equipment or a retinue of gathlains. Bees require an exotic saddle, which is a sort of basket that places the rider underneath the bee's abdomen, where it protects the rider as if he were a bee larva."
 		]
 	},
 	"riding_bee_combat_trained_worker": {
@@ -1280,6 +1271,10 @@
 	},
 	"riding_bee_queen": {
 		"name": "Riding bee (queen)",
+		"copyof": "riding_bee_combat_trained_queen"
+	},
+	"riding_bee": {
+		"name": "Riding bee",
 		"copyof": "riding_bee_combat_trained_queen"
 	},
 	"riding_bee_worker": {
@@ -1297,7 +1292,7 @@
 			"{SOURCE Ultimate Equipment/57;Pathfinder Society Field Guide/47}  ",
 			"**Price** 16 gp (common), 36 gp (exotic mount); **Weight** 54 lbs. (common), 59 lbs. (exotic mount)",
 			"",
-			"This kit includes a bit and bridle, a saddle, a saddle blanket, saddlebags, and 2 days' worth of feed for a mount. The weight can be lightened 10 pounds by discarding the feed."
+			"This kit includes a {eq-misc/bit and bridle}, a {eq-misc/saddle}, a {eq-misc/saddle |blanket}, {eq-misc/saddlebags}, and 2 days' worth of {eq-misc/animal_<feed} for a mount. The weight can be lightened 10 pounds by discarding the feed."
 		]
 	},
 	"riding_kit_exotic_mount": {
@@ -1312,7 +1307,7 @@
 			"{SOURCE Monster Codex/177}  ",
 			"**Price** 75 gp (combat trained), 50 gp (common); **Weight** 50 lbs. (combat trained), 50 lbs. (common)",
 			"",
-			"Horses, ponies, and other draft animals are ill-suited to living underground for long stretches, so the ratfolk bred a particularly strong type of dire rat to assist in pulling their wagons and serving as mounts for caravan scouts. As rodents, riding rats respond favorably to ratfolk's commands, and the animals' hardiness and omnivorous diet make them very easy to care for even on long journeys through inhospitable terrain. Use the statistics for a dire rat with the giant simple template. A ratfolk with the animal companion, mount, or similar class feature can select a riding rat as her mount."
+			"Horses, ponies, and other draft animals are ill-suited to living underground for long stretches, so the {race/ratfolk} bred a particularly strong type of dire rat to assist in pulling their wagons and serving as mounts for caravan scouts. As rodents, riding rats respond favorably to ratfolk's commands, and the animals' hardiness and omnivorous diet make them very easy to care for even on long journeys through inhospitable terrain. Use the statistics for a {monster/dire rat} with the {template/giant} simple template. A ratfolk with the animal companion, mount, or similar class feature can select a riding rat as her mount."
 		]
 	},
 	"riding_rat_common": {
@@ -1358,6 +1353,7 @@
 			"Cities and towns often use gate tolls to generate additional income, to favor local sellers over visiting merchants, to discourage heavy traffic in congested areas, or to recoup the cost of constructing and maintaining the road or gate. Bridge tolls are also popular, as most travelers have no easy way to circumvent them."
 		]
 	},
+	"toll": { "copyof": "road_or_gate_toll" },
 	"roar_cord": {
 		"name": "Roar cord",
 		"sources": [ "Advanced Race Guide" ],
@@ -1367,7 +1363,7 @@
 			"**Price** 15 gp; **Weight** 1 lb.  ",
 			"**Category** Tools",
 			"",
-			"This thin length of rope has many oddly shaped bits of hollow metal fixed along its length. As a standard action, a creature can swing a roar cord over its head to generate a variety of eerie noises. For the next round, any creature within 60 feet of the roar cord takes a -2 penalty on Perception checks that rely on sound and a -1 penalty on saving throws against fear effects. The roar cord can be used as a bardic instrument (string instrument) that grants the bard a +2 bonus on Perform checks when using the countersong bardic performance."
+			"This thin length of rope has many oddly shaped bits of hollow metal fixed along its length. As a standard action, a creature can swing a roar cord over its head to generate a variety of eerie noises. For the next round, any creature within 60 feet of the roar cord takes a -2 penalty on Perception checks that rely on sound and a -1 penalty on saving throws against fear effects. The roar cord can be used as a bardic instrument (string instrument) that grants the bard a +2 bonus on Perform checks when using the {performance/countersong} bardic performance."
 		]
 	},
 	"rockshard_canister": {
@@ -1393,7 +1389,7 @@
 			"**Price** 50 gp; **Weight** 37 lbs.  ",
 			"**Category** Kits",
 			"",
-			"This kit includes a backpack, a bedroll, a belt pouch, caltrops, chalk (10), a flint and steel, a grappling hook, an iron pot, a mess kit, a mirror, pitons (10), rope, soap, thieves' tools, torches (10), trail rations (5 days), and a waterskin."
+			"This kit includes a {eq-misc/backpack}, a {eq-misc/bedroll}, a {eq-misc/belt pouch}, {eq-misc/caltrops}, {eq-misc/chalk} (10), a {eq-misc/flint and steel}, a {eq-misc/grappling hook}, an {eq-misc/iron pot}, a {eq-misc/mess kit}, a {eq-misc/mirror}, {eq-misc/piton/s} (10), {eq-misc/rope}, {eq-misc/soap}, {eq-misc/thieves' tools}, {eq-misc/torches} (10), {eq-misc/trail rations} (5 days), and a {eq-misc/waterskin}."
 		]
 	},
 	"rope_50_ft": {
@@ -1434,7 +1430,7 @@
 			"**Price** 50 gp; **Weight** 3 lbs.  ",
 			"**Category** Tools",
 			"",
-			"You can place this metal contraption onto a taut section of a rope connecting a high point to a lower one, allowing you to slide down the length of the rope with ease. Using a roperunner requires only one hand, leaving the other hand free during the descent. Attaching the roperunner to a rope is a move action. Beginning the descent is a swift action. You slide down the rope at a rate of 60 feet per round. This requires no action on your part, but you must move along the length of the rope in the downward direction. Retrieving the roperunner once you have come to a stop at the end of the rope is a move action. You can let go of the roperunner as a free action."
+			"You can place this metal contraption onto a taut section of a {eq-misc/rope} connecting a high point to a lower one, allowing you to slide down the length of the rope with ease. Using a roperunner requires only one hand, leaving the other hand free during the descent. Attaching the roperunner to a rope is a move action. Beginning the descent is a swift action. You slide down the rope at a rate of 60 feet per round. This requires no action on your part, but you must move along the length of the rope in the downward direction. Retrieving the roperunner once you have come to a stop at the end of the rope is a move action. You can let go of the roperunner as a free action."
 		]
 	},
 	"rounders_gear": {
@@ -1461,7 +1457,7 @@
 			"**Price** 50 gp; **Price of Passage** (per mile) 2 cp  ",
 			"**Category** Transport, Sea",
 			"",
-			"This 8- to 12-foot-long boat with two oars holds two or three Medium passengers, and is either carried on the deck of a larger ship or moored to a dock onshore. A {rule/wv_<rowboat} moves about 1-1/2 miles per hour."
+			"This 8- to 12-foot-long boat with two {eq-misc/oar/s} holds two or three Medium passengers, and is either carried on the deck of a larger ship or moored to a dock onshore. A {rule/wv_<rowboat} moves about 1-1/2 miles per hour."
 		]
 	},
 	"rowboat_travel_per_mile": {
@@ -1531,9 +1527,9 @@
 			"**Price** 60 gp; **Weight** -  ",
 			"**Category** Alchemical Tools",
 			"",
-			"This flaky brown powder derived from rust monster fluids causes iron and similar metals to corrode and fall apart. If you apply a dose of rusting powder to a metal lock or trap as part of using the Disable Device skill, you gain a +5 alchemical bonus to open the lock or disable the trap, but there is a 75% chance that the mechanism is destroyed and cannot be used afterward. If the check fails, the mechanism is destroyed. A destroyed lock cannot be unlocked (but still counts as locked for the purpose opening the locked object). A destroyed trap mechanism immediately triggers the trap. If you fail the DC by 5 or more, the powder also lands on an object in your square (including possibly your armor or weapon), dealing 5 hit points of damage to the object.",
+			"This flaky brown powder derived from {monster/rust monster} fluids causes iron and similar metals to corrode and fall apart. If you apply a dose of rusting powder to a metal lock or trap as part of using the Disable Device skill, you gain a +5 alchemical bonus to open the lock or disable the trap, but there is a 75% chance that the mechanism is destroyed and cannot be used afterward. If the check fails, the mechanism is destroyed. A destroyed lock cannot be unlocked (but still counts as locked for the purpose opening the locked object). A destroyed trap mechanism immediately triggers the trap. If you fail the DC by 5 or more, the powder also lands on an object in your square (including possibly your armor or weapon), dealing 5 hit points of damage to the object.",
 			"",
-			"Rusting powder is sold in a paper tube; you apply it by tearing the ends off the tube and blowing the flakes into the target device. Rusting powder does not affect gold, silver, copper, bronze, brass, or mithral, but easily affects iron, steel, and adamantine.",
+			"Rusting powder is sold in a paper tube; you apply it by tearing the ends off the tube and blowing the flakes into the target device. Rusting powder does not affect {eq-material/gold}, silver, copper, {eq-material/bronze}, brass, or {eq-material/mithral}, but easily affects iron, steel, and {eq-material/adamantine}.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 30"
 		]
@@ -1603,6 +1599,7 @@
 		"copyof": "saddle_exotic_military"
 	},
 	"riding_saddle": { "copyof": "saddle_riding" },
+	"saddle": { "copyof": "saddle_riding" },
 	"saddlebags": {
 		"name": "Saddlebags",
 		"sources": [
@@ -1630,7 +1627,7 @@
 			"**Price** 10,000 gp; **Price of Passage** (per mile) 2 sp  ",
 			"**Category** Transport, Sea",
 			"",
-			"This large, seaworthy ship is 75 to 90 feet long, 20 feet wide, and has a crew of 20. It can carry 150 tons of cargo. It has square sails on its two masts and can make sea voyages. It moves about 2 miles per hour."
+			"This large, seaworthy ship is 75 to 90 feet long, 20 feet wide, and has a crew of 20. It can carry 150 tons of cargo. It has square sails on its two masts and can make sea voyages. A {rule/wv_<sailing ship} moves about 2 miles per hour."
 		]
 	},
 	"sailing_ship_travel_per_mile": {
@@ -1646,7 +1643,7 @@
 			"**Price** 1 gp; **Weight** -  ",
 			"**Category** Alchemical Remedies",
 			"",
-			"These tablets of pressed salt help stave off dehydration. Taking a salt tablet once every 24 hours grants you a +2 circumstance bonus on saving throws to avoid heatstroke and on Constitution checks to avoid thirst.",
+			"These tablets of pressed salt help stave off [dehydration](rule/heat_dangers). Taking a salt tablet once every 24 hours grants you a +2 circumstance bonus on saving throws to avoid heatstroke and on Constitution checks to avoid thirst.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 10"
 		]
@@ -1661,7 +1658,7 @@
 			"**Price** 25 gp; **Weight** 1/2 lb.  ",
 			"**Category** Tools",
 			"",
-			"This handheld wooden spool spins freely within a boxlike housing. Inscribed upon the exterior of the spool are dozens of samsaran prayers along with names or symbols associated with a samsaran's past lives. Samsarans believe that spinning the wheel during meditation strengthens the spiritual connections between their former lives. If a samsaran meditates with her wheel for at least 10 minutes about a Knowledge (history) question relating to her own history or the histories of her past lives, she gains a +1 insight bonus on the check."
+			"This handheld wooden spool spins freely within a boxlike housing. Inscribed upon the exterior of the spool are dozens of samsaran prayers along with names or symbols associated with a samsaran's past lives. {race/Samsaran/s} believe that spinning the wheel during meditation strengthens the spiritual connections between their former lives. If a samsaran meditates with her wheel for at least 10 minutes about a Knowledge (history) question relating to her own history or the histories of her past lives, she gains a +1 insight bonus on the check."
 		]
 	},
 	"sanctified_rings_pair": {
@@ -1674,7 +1671,7 @@
 			"**Category** Channel Foci  ",
 			"**Deity** Any",
 			"",
-			"A single tiny religious symbol adorns each ring in this matched pair. If two people each wear one of the rings and clasp hands, a cleric may activate both rings with one use of channel energy. If the person wearing one of these rings dies or removes it, the other ring instantly cracks; the wearer of the broken ring knows if it cracked because the other wearer died or the ring was removed."
+			"A single tiny religious symbol adorns each ring in this matched pair. If two people each wear one of the rings and clasp hands, a cleric may activate both rings with one use of {ability/channel energy}. If the person wearing one of these rings dies or removes it, the other ring instantly cracks; the wearer of the broken ring knows if it cracked because the other wearer died or the ring was removed."
 		]
 	},
 	"sangwine": {
@@ -1686,7 +1683,7 @@
 			"**Price** 200 gp; **Weight** 2 lbs.  ",
 			"**Category** Food/Drink",
 			"",
-			"This deep red wine is highly tannic and has notes of currants and cocoa and an aroma of cedar. Sangwine is a favorite of Caliphas's elite, who associate drinking it with long life. Drinking a glass of sangwine takes at least 1 round, though many imbibers take longer to savor the wine's complex flavors. After drinking a glass, the wine gives the drinker's blood a bitter flavor for 1 hour, causing any creature that deals damage using the blood drain extraordinary ability to become sickened for a number of rounds equal to the points of Constitution damage dealt (this effect is not subject to the poison immunity of vampires and other undead). Repeated uses of the blood drain ability on a creature that has imbibed at least one glass of sangwine extends the duration of the sickened condition. The price listed is for a bottle, which contains six glasses' worth of sangwine."
+			"This deep red wine is highly tannic and has notes of currants and cocoa and an aroma of cedar. Sangwine is a favorite of Caliphas's elite, who associate drinking it with long life. Drinking a glass of sangwine takes at least 1 round, though many imbibers take longer to savor the wine's complex flavors. After drinking a glass, the wine gives the drinker's blood a bitter flavor for 1 hour, causing any creature that deals damage using the {umr/blood drain} extraordinary ability to become {misc/sickened} for a number of rounds equal to the points of Constitution damage dealt (this effect is not subject to the poison immunity of vampires and other undead). Repeated uses of the blood drain ability on a creature that has imbibed at least one glass of sangwine extends the duration of the sickened condition. The price listed is for a bottle, which contains six glasses' worth of sangwine."
 		]
 	},
 	"saw": {
@@ -1720,15 +1717,20 @@
 			"{SOURCE Ultimate Equipment/89;Varisia, Birthplace of Legends/15;Adventurer's Armory/19;Pathfinder Campaign Setting/213;Curse of the Crimson Throne Player's Guide/12;Rise of the Runelords Player's Guide/11}  ",
 			"**Price** 8 gp (pocketed), 10 gp (reinforced); **Weight** 1/2 lb. (pocketed), 1 lb. (reinforced)",
 			"",
-			"An elaborate design disguises several small pockets on one side of this scarf. This scarf grants you a +4 bonus on Sleight of Hand checks made to hide objects on your body. This bonus does not stack with the bonus wearing heavy clothing provides but does stack with bonuses for attempting to hide small objects.",
+			"**Pocketed:** An elaborate design disguises several small pockets on one side of this scarf. This scarf grants you a +4 bonus on Sleight of Hand checks made to hide objects on your body. This bonus does not stack with the bonus wearing heavy clothing provides but does stack with bonuses for attempting to hide small objects.",
 			"",
-			"One side of this 8-foot-long scarf is reinforced with chain links and metal plates. While not enough to provide a benefit to Armor Class, these versatile scarves can be used like a length of chain to climb short distances or bind an enemy. A reinforced scarf has hardness 10 and 4 hit points. It can be burst with a successful DC 24 Strength check."
+			"**Reinforced:** One side of this 8-foot-long scarf is reinforced with chain links and metal plates. While not enough to provide a benefit to Armor Class, these versatile scarves can be used like a length of chain to climb short distances or bind an enemy. A reinforced scarf has hardness 10 and 4 hit points. It can be burst with a successful DC 24 Strength check."
 		]
 	},
 	"scarf_reinforced": {
 		"name": "Scarf (reinforced)",
 		"copyof": "scarf_pocketed"
 	},
+	"reinforced_scarf": {
+		"name": "Scarf (reinforced)",
+		"copyof": "scarf_pocketed"
+	},
+	"pocketed_scarf": { "copyof": "scarf_pocketed" },
 	"scarf": {
 		"name": "Scarf",
 		"sources": [
@@ -1754,7 +1756,7 @@
 			"**Price** 10 gp; **Weight** 1 lb.  ",
 			"**Category** Alchemical Remedies",
 			"",
-			"This alchemical substance, originally developed by secretive worshipers of Zon-Kuthon to hide the marks of their devotion, has become popular among former [Gray Maidens](rule/aff_scarred_ladies). When applied to scarred areas of the body, scarsalve causes those scars to fade from view for 1 day. A character who gains benefits from having visible scars loses those benefits while under the effects of scarsalve, but she also gains a +2 alchemical bonus on Disguise checks."
+			"This alchemical substance, originally developed by secretive worshipers of {faith/Zon-Kuthon} to hide the marks of their devotion, has become popular among former [Gray Maidens](rule/aff_scarred_ladies). When applied to scarred areas of the body, scarsalve causes those scars to fade from view for 1 day. A character who gains benefits from having visible scars loses those benefits while under the effects of scarsalve, but she also gains a +2 alchemical bonus on Disguise checks."
 		]
 	},
 	"scavenger_beetle_colony": {
@@ -1778,7 +1780,7 @@
 			"**Price** 80 gp; **Weight** 1/2 lb.  ",
 			"**Category** Alchemical Tools",
 			"",
-			"This alchemical oil takes 1 minute to apply and completely masks your odor for 6 hours. Creatures can't use the scent ability to track you, detect your presence, or pinpoint your location. A single dose of scent blocker covers a Medium or smaller creature. For each size category larger than Medium a creature is, double the number of doses (and application time) required. Crafting scent blocker requires a successful DC 23 Craft (alchemy) check.",
+			"This alchemical oil takes 1 minute to apply and completely masks your odor for 6 hours. Creatures can't use the {umr/scent} ability to track you, detect your presence, or pinpoint your location. A single dose of scent blocker covers a Medium or smaller creature. For each size category larger than Medium a creature is, double the number of doses (and application time) required. Crafting scent blocker requires a successful DC 23 Craft (alchemy) check.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 23"
 		]
@@ -1795,7 +1797,7 @@
 			"**Price** 20 gp; **Weight** 2 lbs.  ",
 			"**Category** Alchemical Tools",
 			"",
-			"This collection of coarsely ground spices, seeds, musk, and alchemical reagents are meant to be rubbed into your skin and clothes in order to override your scent, increasing the DC of tracking you by scent by +10 for 24 hours. Because you still have a smell, creatures with scent can still detect and pinpoint you if you are cloaked; they just can't identify your smell as something unique. Washing for 1 full round removes the scent cloak.",
+			"This collection of coarsely ground spices, seeds, musk, and alchemical reagents are meant to be rubbed into your skin and clothes in order to override your scent, increasing the DC of tracking you by scent by +10 for 24 hours. Because you still have a smell, creatures with {umr/scent} can still detect and pinpoint you if you are cloaked; they just can't identify your smell as something unique. Washing for 1 full round removes the scent cloak.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 20"
 		]
@@ -1821,7 +1823,7 @@
 			"**Price** 80 gp; **Weight** -  ",
 			"**Category** Alchemical Tools",
 			"",
-			"Scentbane incense is a form of smokestick that also blocks most scents. As long as the smoke lasts, creatures with the scent special ability must make Perception checks, opposed by the Stealth checks of any creatures within the smoke, to use scent to locate creatures within the smoke. If a creature remains in scentbane incense for 5 rounds or more, the smoke clings to it for 1 round after it leaves, making it similarly difficult to find by scent during that time.",
+			"Scentbane incense is a form of {eq-misc/smokestick} that also blocks most scents. As long as the smoke lasts, creatures with the {umr/scent} special ability must make Perception checks, opposed by the Stealth checks of any creatures within the smoke, to use scent to locate creatures within the smoke. If a creature remains in scentbane incense for 5 rounds or more, the smoke clings to it for 1 round after it leaves, making it similarly difficult to find by scent during that time.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 20"
 		]
@@ -1880,6 +1882,10 @@
 		"name": "Scribe (text)",
 		"copyof": "scribe_map"
 	},
+	"scribe": {
+		"name": "Scribe (text)",
+		"copyof": "scribe_map"
+	},
 	"scriveners_kit": {
 		"name": "Scrivener's kit",
 		"sources": [ "Ultimate Equipment" ],
@@ -1889,7 +1895,7 @@
 			"**Price** 2 gp; **Weight** 1 lb.  ",
 			"**Category** Kits",
 			"",
-			"This soft leather case contains a vial for holding ink, an ink pen, spare pen nibs, a small container of pigment for making ink, a tiny knife for cutting quills into pens, a blotter, and a small ruler."
+			"This soft leather case contains a vial for holding {eq-misc/ink}, an {eq-misc/ink[ ]pen}, spare pen nibs, a small container of pigment for making ink, a tiny knife for cutting quills into pens, a blotter, and a small ruler."
 		]
 	},
 	"scroll_belt": {
@@ -1957,7 +1963,7 @@
 			"**Price** 1 gp; **Weight** 1 lb.  ",
 			"**Category** Adventuring Gear",
 			"",
-			"This stick of red wax is used to seal envelopes, often using an impression from a signet ring as proof they were sent by you."
+			"This stick of red wax is used to seal envelopes, often using an impression from a {eq-misc/signet ring} as proof they were sent by you."
 		]
 	},
 	"sealord_wine_bottle": {
@@ -1981,7 +1987,7 @@
 			"**Price** 290 gp; **Weight** 12 lbs.  ",
 			"**Category** Kits",
 			"",
-			"This stained mahogany box contains tools that aid in contacting supernatural beings either as part of an act or a genuine ritual. This kit includes a nonmagical spirit planchette set, 10 candles, 10 candlesticks, one entertainer's outfit, one harrow deck, one magnet, 10 sticks of incense, one scroll of augury, and two scrolls of prestidigitation."
+			"This stained mahogany box contains tools that aid in contacting supernatural beings either as part of an act or a genuine ritual. This kit includes a nonmagical {eq-misc/spirit planchette set}, 10 {eq-misc/candles}, 10 {eq-misc/candlestick/s}, one {eq-misc/entertainer's outfit}, one {eq-misc/harrow deck}, one {eq-misc/magnet}, 10 sticks of {eq-misc/incense}, one scroll of {spell/augury}, and two scrolls of {spell/prestidigitation}."
 		]
 	},
 	"second_story_harness": {
@@ -2021,7 +2027,7 @@
 			"**Price** 300 gp; **Weight** -  ",
 			"**Category** Alchemical Remedies",
 			"",
-			"When combined with a drop of a humanoid's blood, this solution allows the homunculus that drinks it to grow to size Small and assume the likeness of the subject whose blood was used. If the homunculus can speak, its voice changes to resemble that of the subject. The homunculus's space and reach become 5 feet and it loses its bite attack, but otherwise its statistics remain unchanged. This transformation lasts 24 hours. The homunculus gains a +10 circumstance bonus on Disguise checks to appear as the subject, but unless the subject is a halfling, a gnome, a child, or another Small humanoid, the homunculus is likely shorter than the subject.",
+			"When combined with a drop of a humanoid's blood, this solution allows the {monster/homunculus} that drinks it to grow to size Small and assume the likeness of the subject whose blood was used. If the homunculus can speak, its voice changes to resemble that of the subject. The homunculus's space and reach become 5 feet and it loses its bite attack, but otherwise its statistics remain unchanged. This transformation lasts 24 hours. The homunculus gains a +10 circumstance bonus on Disguise checks to appear as the subject, but unless the subject is a halfling, a gnome, a child, or another Small humanoid, the homunculus is likely shorter than the subject.",
 			"",
 			"**{rule/Spontaneous Alchemy} Recipe** (110 {eq-reagent/magnesium} + 200 {eq-reagent/silver} + 100 {eq-reagent/spirit of wine})/distillation; Craft 25  ",
 			"**Time** 1 day; **Tools** {eq-misc/retort}; **Type** alchemical remedy"
@@ -2086,7 +2092,7 @@
 			"**Price** 451 gp; **Weight** 2 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
-			"Often used by ogres, bugbears, and other creatures that delight in causing excruciating pain to others, these caltrops have serrated edges that leave rough wounds that are difficult to heal. Serrated caltrops work just like normal caltrops, except they are considered masterwork weapons (+1 bonus on attack rolls), deal 1 point of bleed damage on a successful hit in addition to the caltrop's usual damage, and possess a critical threat range of 19-20. On a confirmed critical hit, the bleed damage increases to 1d2 points. A successful DC 15 Heal check or any amount of magical healing ends the bleeding as well as the normal movement penalty a caltrop causes. Serrated caltrops can be further enchanted as per melee weapons, treating one 2-pound bag as a single melee weapon. If any of the magic caltrops are lost, all the caltrops lose any magic abilities until the missing caltrops are returned or replaced. Serrated caltrops can't have the hollow special feature or the shrapnel special feature."
+			"Often used by ogres, bugbears, and other creatures that delight in causing excruciating pain to others, these caltrops have serrated edges that leave rough wounds that are difficult to heal. Serrated caltrops work just like normal {eq-misc/caltrops}, except they are considered {rule/masterwork weapons} (+1 bonus on attack rolls), deal 1 point of {rule/bleed} damage on a successful hit in addition to the caltrop's usual damage, and possess a critical threat range of 19-20. On a confirmed critical hit, the bleed damage increases to 1d2 points. A successful DC 15 Heal check or any amount of magical healing ends the bleeding as well as the normal movement penalty a caltrop causes. Serrated caltrops can be further enchanted as per melee weapons, treating one 2-pound bag as a single melee weapon. If any of the magic caltrops are lost, all the caltrops lose any magic abilities until the missing caltrops are returned or replaced. Serrated caltrops can't have the {eq-misc/hollow>_caltrops} special feature or the {eq-misc/shrapnel>_caltrops} special feature."
 		]
 	},
 	"sewing_needle": {
@@ -2118,7 +2124,7 @@
 			"**Price** 500 gp; **Weight** 2 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
-			"A sextant is used to determine your latitude. Using a sextant with an astrolabe gives you a +4 circumstance bonus on Survival checks made to prevent getting lost."
+			"A sextant is used to determine your latitude. Using a sextant with an {eq-misc/astrolabe} gives you a +4 circumstance bonus on Survival checks made to prevent getting lost."
 		]
 	},
 	"shadow_stencil_set": {
@@ -2130,7 +2136,7 @@
 			"**Price** 30 gp; **Weight** 2 lbs.  ",
 			"**Category** Tools",
 			"",
-			"This set of 10 elaborate metal stencils are used in shadow puppetry to cast shadows of highly stylized figures and objects. If used to aid in the creation of any type of shadow spell or effect (including shadow puppet bardic performances), a wayang adds a +1 competence bonus to her saving throw DC. Using a shadow stencil requires one hand."
+			"This set of 10 elaborate metal stencils are used in shadow puppetry to cast shadows of highly stylized figures and objects. If used to aid in the creation of any type of shadow spell or effect (including {arc-bard/shadow puppet>eer} bardic performances), a {race/wayang} adds a +1 competence bonus to her saving throw DC. Using a shadow stencil requires one hand."
 		]
 	},
 	"shadowy_stalker_package": {
@@ -2144,13 +2150,13 @@
 			"",
 			"Skulking through a city or a dungeon, the shadowy stalker is equipped to strike quickly and fade away. This equipment package is appropriate for stealthy characters such as rangers, rogues, and slayers, and for some bards and investigators. If the PC can cast spells, add a spell component pouch.",
 			"",
-			"**Armor:** Masterwork leather armor.",
+			"**Armor:** {rule/Masterwork>_armor} {eq-armor/leather armor}.",
 			"",
-			"**Weapons:** Daggers (3), masterwork sickle, sap.",
+			"**Weapons:** {eq-weapon/Dagger/s} (3), {rule/masterwork/>_weapons} {eq-weapon/sickle}, {eq-weapon/sap}.",
 			"",
-			"**Combat Gear:** Alchemist's fire (3), smokesticks (2), sunrods (2).",
+			"**Combat Gear:** {eq-weapon/Alchemist's fire} (3), {eq-misc/smokestick/s} (2), {eq-misc/sunrod/s} (2).",
 			"",
-			"**Other Gear:** Bedroll, belt pouch, caltrops, candles (5), chalk (5 pieces), disguise kit, flint and steel, glass cutter, masterwork backpack, masterwork thieves' tools, mess kit, sack, silk rope (50 ft.), sleeves of many garments, trail rations (5 days), waterskin, 1 gp.",
+			"**Other Gear:** {eq-misc/Bedroll}, {eq-misc/belt pouch}, {eq-misc/caltrops}, {eq-misc/candles} (5), {eq-misc/chalk} (5 pieces), {eq-misc/disguise kit}, {eq-misc/flint and steel}, {eq-misc/glass cutter}, {eq-misc/masterwork backpack}, {eq-misc/masterwork thieves' tools}, {eq-misc/mess kit}, {eq-misc/sack}, {eq-misc/silk rope (50 ft.)}, {magic-wondrous/sleeves of many garments}, {eq-misc/trail rations} (5 days), {eq-misc/waterskin}, 1 gp.",
 			"",
 			"**Total Weight:** 63 lbs. (33-1/4 lbs. for a Small character)."
 		]
@@ -2164,7 +2170,7 @@
 			"**Price** 15 gp; **Weight** 44 lbs.  ",
 			"**Category** Kits",
 			"",
-			"This kit includes a backpack, a bedroll, a belt pouch, candles (10), a flint and steel, an iron pot, a mess kit, rope, soap, a spell component pouch, torches (10), trail rations (5 days), a waterskin, and a wooden holy symbol."
+			"This kit includes a {eq-misc/backpack}, a {eq-misc/bedroll}, a {eq-misc/belt pouch}, {eq-misc/candles} (10), a {eq-misc/flint and steel}, an {eq-misc/iron pot}, a {eq-misc/mess kit}, {eq-misc/rope}, {eq-misc/soap}, a {eq-misc/spell component pouch}, {eq-misc/torches} (10), {eq-misc/trail rations} (5 days), a {eq-misc/waterskin}, and a {eq-misc/wooden holy symbol}."
 		]
 	},
 	"shamans_paint": {
@@ -2194,7 +2200,7 @@
 			"**Price** 15 sp; **Weight** 1/2 lb.  ",
 			"**Category** Kits",
 			"",
-			"A shaving kit contains a straight razor, a whetstone, a small mirror, a brush, a cup, and enough shaving powder to last a Medium humanoid 50 shaves."
+			"A shaving kit contains a straight razor, a {eq-misc/whetstone}, a small {eq-misc/mirror}, a brush, a cup, and enough shaving powder to last a Medium humanoid 50 shaves."
 		]
 	},
 	"shears_adamantine": {
@@ -2207,7 +2213,7 @@
 			"",
 			"Shears are used to quickly cut through items by snipping them between two sharp blades fitted with a spring to allow the jaws to open again after closing. Small shears can be used in one hand and are often used to trim hair, cut cloth, or perform other delicate cutting work. Lopping shears are 3 feet long and must be used in two hands; they are commonly used by farmers or gardeners to cut hedges and branches.",
 			"",
-			"Adamantine shears are lopping shears with sharpened adamantine blades that can snip through nearly any material. You can use adamantine shears to cut through bars, chains, grates, or similar items, dealing damage to such objects as though using a scimitar and bypassing hardness less than 20. On any item the adamantine shears can fit around (such as a chain or iron bar, but not an iron door), using adamantine shears provides a +10 bonus on your Strength check to break or burst it."
+			"Adamantine shears are lopping shears with sharpened {eq-material/adamantine} blades that can snip through nearly any material. You can use adamantine shears to cut through bars, chains, grates, or similar items, dealing damage to such objects as though using a {eq-weapon/scimitar} and bypassing hardness less than 20. On any item the adamantine shears can fit around (such as a chain or iron bar, but not an iron door), using adamantine shears provides a +10 bonus on your Strength check to break or burst it."
 		]
 	},
 	"shears_lopping": {
@@ -2240,7 +2246,7 @@
 			"**Price** 1 gp; **Weight** -  ",
 			"**Category** Adventuring Gear",
 			"",
-			"Used most often by gnome sheriffs and rangers, a sheriff's whistle gives off a piercing shriek that can easily be heard up to 1,000 feet away under ordinary circumstances. However, the frequency of the shriek is such that it can only be heard by badgers, dogs, and gnomes."
+			"Used most often by {race/gnome} sheriffs and rangers, a sheriff's whistle gives off a piercing shriek that can easily be heard up to 1,000 feet away under ordinary circumstances. However, the frequency of the shriek is such that it can only be heard by badgers, dogs, and gnomes."
 		]
 	},
 	"shield_sconce": {
@@ -2255,7 +2261,7 @@
 			"**Price** 1 gp; **Weight** 1/2 lb.  ",
 			"**Category** Adventuring Gear",
 			"",
-			"This metal frame holds a torch and is designed to be strapped to the front of a light, heavy, or tower shield, allowing you to carry a torch without giving up your shield or occupying your weapon hand."
+			"This metal frame holds a {eq-misc/torch} and is designed to be strapped to the front of a light, heavy, or tower shield, allowing you to carry a torch without giving up your shield or occupying your weapon hand."
 		]
 	},
 	"shinobi_shozoku": {
@@ -2350,7 +2356,7 @@
 			"**Price** 401 gp; **Weight** 2 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
-			"Shrapnel caltrops shatter into fragments that embed themselves into a creature's body when stepped on. Shrapnel caltrops work just like normal caltrops, except they are considered masterwork weapons (+1 bonus on attack rolls). Creatures damaged by a shrapnel caltrop must succeed at a DC 15 Reflex save or take 1d2 points of Dexterity damage in addition to the caltrop's usual damage. The movement penalty inflicted by a shrapnel caltrop cannot be removed until all Dexterity damage dealt by the caltrop is healed, even if the creature receives magical healing or is treated with a successful Heal check. Shrapnel caltrops are destroyed after making one attack rolls. Shrapnel caltrops can't have the hollow special feature or the serrated special feature."
+			"Shrapnel caltrops shatter into fragments that embed themselves into a creature's body when stepped on. Shrapnel caltrops work just like normal {eq-misc/caltrops}, except they are considered {rule/masterwork weapons} (+1 bonus on attack rolls). Creatures damaged by a shrapnel caltrop must succeed at a DC 15 Reflex save or take 1d2 points of Dexterity damage in addition to the caltrop's usual damage. The movement penalty inflicted by a shrapnel caltrop cannot be removed until all Dexterity damage dealt by the caltrop is healed, even if the creature receives magical healing or is treated with a successful Heal check. Shrapnel caltrops are destroyed after making one attack rolls. Shrapnel caltrops can't have the {eq-misc/hollow>_caltrops} special feature or the {eq-misc/serrated>_caltrops} special feature."
 		]
 	},
 	"shrieking_paste": {
@@ -2362,7 +2368,7 @@
 			"**Price** 35 gp; **Weight** 2 lbs.  ",
 			"**Category** Alchemical Tools",
 			"",
-			"Created by suspending the spores of a shrieker mushroom in a thick mixture of wheat paste and vermiculite, this thick sludge comes in a soundproof, stone container. Shrieking paste creates an obnoxious piercing noise when exposed to even minute amounts of movement or light. This makes applying the paste a very noisy endeavor at best. However, once the paste is applied and left alone for several rounds, it once again becomes silent. Thereafter, any light source or movement within 10 feet of the paste causes it to shriek for 1d3 rounds. A single container contains enough shrieking paste to coat 1 square foot of a surface. If left undisturbed for several weeks in a dank, lightless setting, shrieking paste might eventually grow into a colony of shrieker mushrooms.",
+			"Created by suspending the spores of a [shrieker](rule/slimes_molds_and_fungi) mushroom in a thick mixture of wheat paste and vermiculite, this thick sludge comes in a soundproof, stone container. Shrieking paste creates an obnoxious piercing noise when exposed to even minute amounts of movement or light. This makes applying the paste a very noisy endeavor at best. However, once the paste is applied and left alone for several rounds, it once again becomes silent. Thereafter, any light source or movement within 10 feet of the paste causes it to shriek for 1d3 rounds. A single container contains enough shrieking paste to coat 1 square foot of a surface. If left undisturbed for several weeks in a dank, lightless setting, shrieking paste might eventually grow into a colony of shrieker mushrooms.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 25"
 		]
@@ -2392,7 +2398,7 @@
 			"**Price** 5 gp; **Weight** -  ",
 			"**Category** Entertainment",
 			"",
-			"Though wingless, tengus have long cast their thoughts toward the sky and flight. Built from paper glued to bamboo frames, their kites are painted with various colors and pictures. In addition to flying kites as a leisure activity, tengus also fly kites of various shades and patterns to send signal messages. Tengus have developed an extensive code of signals and can use their kites to display complex messages visible at great distances. A signal kite kit includes six small colored kites that can be hooked together in different patterns to facilitate complex messages. The kit also includes a spool and 300 feet of twine. Sending or interpreting a signal kite's message functions as described in the Bluff skill, but the sender and anyone trying to understand the message must also know Tengu."
+			"Though wingless, {race/tengu/s} have long cast their thoughts toward the sky and flight. Built from paper glued to bamboo frames, their kites are painted with various colors and pictures. In addition to flying kites as a leisure activity, tengus also fly kites of various shades and patterns to send signal messages. Tengus have developed an extensive code of signals and can use their kites to display complex messages visible at great distances. A signal kite kit includes six small colored kites that can be hooked together in different patterns to facilitate complex messages. The kit also includes a spool and 300 feet of {eq-misc/twine}. Sending or interpreting a signal kite's message functions as described in the Bluff skill, but the sender and anyone trying to understand the message must also know Tengu."
 		]
 	},
 	"signet_ring": {
@@ -2407,7 +2413,7 @@
 			"**Price** 5 gp; **Weight** -  ",
 			"**Category** Adventuring Gear",
 			"",
-			"This ring has an embossed design, typically a family crest or official icon. You press a signet ring into softened wax to leave an impression of this symbol."
+			"This ring has an embossed design, typically a family crest or official icon. You press a signet ring into softened {eq-misc/sealing_<wax} to leave an impression of this symbol."
 		]
 	},
 	"poison_pill_signet_ring": {
@@ -2426,30 +2432,20 @@
 			"This ring has a tiny compartment under the setting, typically used to hold poison. Opening and closing a ring is a move action; doing so unseen requires a DC 20 Sleight of Hand check."
 		]
 	},
+	"poison_pill_ring": { "copyof": "poison_pill_signet_ring" },
 	"signifer_mask": {
 		"name": "Signifer mask",
-		"sources": [ "Path of the Hellknight" ],
+		"sources": [
+			"Path of the Hellknight",
+			"Adventurer's Guide"
+		],
 		"description": [
 			"## Signifer mask",
-			"{SOURCE Path of the Hellknight/63}  ",
+			"{SOURCE Path of the Hellknight/63;Adventurer's Guide/97}  ",
 			"**Price** 75 gp; **Weight** 2 lbs.  ",
 			"**Category** Clothing",
 			"",
-			"The menacing, eyeless masks of {pclass/Hellknight signifer/s} were first created by members of the Order of the Gate and are semi-transparent on the inside. Those who wear them are treated as if they were wearing smoked goggles. A character with the Hellknight signifer prestige class can see through the mask as normal, but can also adjust her mask as a standard action to function as a pair of smoked goggles once more. Signifer masks are often enhanced, becoming variants of items that take up the head item slot. Additionally, when a character takes levels in the Hellknight signifer prestige class, this mask grants the benefits and capabilities of the signifer mask supernatural ability."
-		]
-	},
-	"signifier_mask": {
-		"name": "Signifier mask",
-		"sources": [ "Adventurer's Guide" ],
-		"description": [
-			"## Signifier mask",
-			"{SOURCE Adventurer's Guide/97}  ",
-			"**Price** 75 gp; **Weight** 2 lbs.  ",
-			"**Category** Clothing",
-			"",
-			"The menacing, eyeless masks of the {pclass/Hellknight signifer/s} were first created by members of the Order of the Gate, and are semi-transparent when viewed from the inside. This alchemical treating of the material obscures the face of the wearer as a full helm does but allows the wearer to see as if through a smoky pane of glass. When wearing a signifer mask, the wearer is always treated as averting her gaze when dealing with gaze attacks, and she gains a +8 circumstance bonus on saving throws against vision-based effects. However, the obscuring nature of the mask means that the wearer also takes a -4 penalty on vision-based Perception checks while wearing the mask, and all opponents are treated as having concealment (20% miss chance).",
-			"",
-			"A character with the Hellknight signifer prestige class can see through the mask as normal, but she can also adjust her mask as a standard action to function as detailed above. Signifer masks are often magically enhanced, becoming variants of items that take up the head item slot. Additionally, when a character takes levels in the Hellknight signifer prestige class, this mask grants the benefits and capabilities of the signifer mask class feature."
+			"The menacing, eyeless masks of {pclass/Hellknight signifer/s} were first created by members of the {hkorder/Order of the Gate} and are semi-transparent on the inside. Those who wear them are treated as if they were wearing {eq-misc/smoked goggles}. A character with the Hellknight signifer prestige class can see through the mask as normal, but can also adjust her mask as a standard action to function as a pair of smoked goggles once more. Signifer masks are often enhanced, becoming variants of items that take up the head item slot. Additionally, when a character takes levels in the Hellknight signifer prestige class, this mask grants the benefits and capabilities of the signifer mask supernatural ability."
 		]
 	},
 	"silence_dust": {
@@ -2476,7 +2472,7 @@
 			"**Price** 5 sp; **Weight** 1/2 lb.  ",
 			"**Category** Adventuring Gear",
 			"",
-			"A silent piton is identical to a regular piton, except it has been alchemically treated to reduce the noise it generates when driven into a surface. A silent piton staked into a piece of terrain generates sound out to a radius of only 10 feet from the point of impact."
+			"A silent piton is identical to a regular {eq-misc/piton}, except it has been alchemically treated to reduce the noise it generates when driven into a surface. A silent piton staked into a piece of terrain generates sound out to a radius of only 10 feet from the point of impact."
 		]
 	},
 	"silk_kimono": {
@@ -2520,7 +2516,7 @@
 			"**Price** 180 gp; **Weight** -  ",
 			"**Category** Alchemical Tools",
 			"",
-			"A creature with DR/silver can swallow these bitter-tasting capsules of a concentrated alchemical silver to convert their damage reduction to DR/- for 2d4 rounds. When this effect ends, the creature is nauseated for 1 round. A creature can only benefit from silver drops once per 24 hours. Crafting this item requires a successful DC 30 Craft (alchemy) check.",
+			"A creature with DR/silver can swallow these bitter-tasting capsules of a concentrated alchemical silver to convert their damage reduction to DR/- for 2d4 rounds. When this effect ends, the creature is {misc/nauseated} for 1 round. A creature can only benefit from silver drops once per 24 hours. Crafting this item requires a successful DC 30 Craft (alchemy) check.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 30"
 		]
@@ -2534,7 +2530,7 @@
 			"**Price** 120 gp; **Weight** -  ",
 			"**Category** Alchemical Tools",
 			"",
-			"When you imbibe this draught, you can accept {misc/alchemical burn} to gain an additional 4 rounds of bardic performance or raging song for the day. The effects of singer's solution last for 1 hour; if not spent within 1 hour, these additional rounds are lost. Singer's solution has no effect if you don't have the bardic performance or raging song class features.",
+			"When you imbibe this draught, you can accept {misc/alchemical burn} to gain an additional 4 rounds of bardic performance or raging song for the day. The effects of singer's solution last for 1 hour; if not spent within 1 hour, these additional rounds are lost. Singer's solution has no effect if you don't have the {ability/bardic performance} or [raging song](class/skald) class features.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 15"
 		]
@@ -2548,7 +2544,7 @@
 			"**Price** 5 gp; **Weight** 2 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
-			"This parasitic, hand-sized, cartilaginous fish attaches to a creature and filters nutrients directly from its host's bloodstream. However, a siphon ray reoxygenates the blood in the process, allowing the host to hold her breath for twice as long while underwater. A siphon ray must be attached for at least 1 minute before providing this benefit, and every hour a ray remains attached per day, the host must succeed at a DC 15 Fortitude saving throw or become fatigued. While attached, a siphon ray avoids most attacks as though it were a piece of equipment unless specifically targeted.",
+			"This parasitic, hand-sized, cartilaginous fish attaches to a creature and filters nutrients directly from its host's bloodstream. However, a siphon ray reoxygenates the blood in the process, allowing the host to hold her breath for twice as long while underwater. A siphon ray must be attached for at least 1 minute before providing this benefit, and every hour a ray remains attached per day, the host must succeed at a DC 15 Fortitude saving throw or become {misc/fatigued}. While attached, a siphon ray avoids most attacks as though it were a piece of equipment unless specifically targeted.",
 			"",
 			"A siphon ray must be kept in at least 1 gallon of salt water when not in use. If it is out of salt water for 1 hour, the siphon ray expires."
 		]
@@ -2562,7 +2558,7 @@
 			"**Price** 37 gp; **Weight** 47-1/2 lbs.  ",
 			"**Category** Kits",
 			"",
-			"This kit includes a backpack, a bedroll, a belt pouch, a common musical instrument, a flint and steel, an iron pot, a mess kit, a mirror, rope, soap, a spell component pouch, torches (10), trail rations (5 days), and a waterskin."
+			"This kit includes a {eq-misc/backpack}, a {eq-misc/bedroll}, a {eq-misc/belt pouch}, a common {eq-misc/musical instrument}, a {eq-misc/flint and steel}, an {eq-misc/iron pot}, a {eq-misc/mess kit}, a {eq-misc/mirror}, {eq-misc/rope}, {eq-misc/soap}, a {eq-misc/spell component pouch}, {eq-misc/torches} (10), {eq-misc/trail rations} (5 days), and a {eq-misc/waterskin}."
 		]
 	},
 	"skates": {
@@ -2574,7 +2570,9 @@
 			"**Price** 10 gp; **Weight** 3 lbs.  ",
 			"**Category** Clothing",
 			"",
-			"These honed metal blades are worn on boots to enable swift passage over ice. The wearer may move (but not climb) at her full speed on level icy surfaces. Her speed is halved when moving up an icy slope, but she may run or charge downhill on gentle or steep snowy slopes at quadruple speed. However, any skill check penalties for traversing rough ice while wearing skates are doubled, and the wearer takes a -4 penalty on combat maneuver checks to bull rush, drag, or trip, and to CMD against these maneuvers. Donning or removing skates takes 1 minute."
+			"These honed metal blades are worn on boots to enable swift passage over ice. The wearer may move (but not climb) at her full speed on level icy surfaces. Her speed is halved when moving up an icy slope, but she may run or charge downhill on gentle or steep snowy slopes at quadruple speed. However, any skill check penalties for traversing rough ice while wearing skates are doubled, and the wearer takes a -4 penalty on combat maneuver checks to {rule/bull rush}, {rule/drag}, or {rule/trip}, and to CMD against these maneuvers. Donning or removing skates takes 1 minute.",
+			"",
+			"Also see: {eq-misc/ice skates}."
 		]
 	},
 	"skeleton_key": {
@@ -2601,7 +2599,7 @@
 			"**Price** 120 gp; **Weight** 32 lbs.  ",
 			"**Category** Kits",
 			"",
-			"This kit contains all the tools necessary for clearing out small packs of skeletons from tombs and crypts. It includes three flasks of acid, a club, a sling, 10 sling bullets, two flasks of holy water, a tanglefoot bag, 50 feet of hemp rope, a crowbar, and a wooden holy symbol."
+			"This kit contains all the tools necessary for clearing out small packs of skeletons from tombs and crypts. It includes three flasks of {eq-weapon/acid}, a {eq-weapon/club}, a {eq-weapon/sling}, 10 {eq-weapon/sling bullet/s}, two flasks of {eq-weapon/holy water}, a {eq-weapon/tanglefoot bag}, 50 feet of {eq-misc/hemp |rope}, a {eq-misc/crowbar}, and a {eq-misc/wooden holy symbol}."
 		]
 	},
 	"skillet_common": {
@@ -2632,7 +2630,9 @@
 			"**Price** 15 gp; **Weight** 6 lbs.  ",
 			"**Category** Tools",
 			"",
-			"These polished wooden slats enable the wearer to glide across level snowy surfaces at his full speed. His speed is halved when moving up a snowy slope, but he may run or charge downhill on gentle or steep snowy slopes at quadruple speed. Any skill check penalties for traversing rough snowy terrain while wearing skis are doubled, and the wearer takes a -4 penalty on combat maneuver checks to bull rush, drag, or trip, and to CMD against these maneuvers. Characters cannot climb while wearing skis. Donning or removing skis takes 1 minute."
+			"These polished wooden slats enable the wearer to glide across level snowy surfaces at his full speed. His speed is halved when moving up a snowy slope, but he may run or charge downhill on gentle or steep snowy slopes at quadruple speed. Any skill check penalties for traversing rough snowy terrain while wearing skis are doubled, and the wearer takes a -4 penalty on combat maneuver checks to {rule/bull rush}, {rule/drag}, or {rule/trip}, and to CMD against these maneuvers. Characters cannot climb while wearing skis. Donning or removing skis takes 1 minute.",
+			"",
+			"Also see: {eq-misc/skis}."
 		]
 	},
 	"skis": {
@@ -2644,7 +2644,9 @@
 			"**Price** 5 gp; **Weight** 20 lbs.  ",
 			"**Category** Clothing",
 			"",
-			"Each ski is a flat piece of wood about 5-6 feet long for a Medium wearer, curled up slightly at the front end, with lengthwise grooves along the underside and a wooden or metal bracket with laces on top for holding the wearer's boot in place. Wearing skis allows you to move on snow and ice at normal speed, but your movement is reduced to 5 feet on all other terrain. You normally use a pair of spiked poles to help you move and maintain balance while skiing, but javelins, shortspears, or even trimmed-down saplings will do if nothing else more suitable is available. Donning or removing a ski is a full-round action, though the laces can be cut as a move action (which requires repairing or replacing the laces if you want to use the skis again)."
+			"Each ski is a flat piece of wood about 5-6 feet long for a Medium wearer, curled up slightly at the front end, with lengthwise grooves along the underside and a wooden or metal bracket with laces on top for holding the wearer's boot in place. Wearing skis allows you to move on snow and ice at normal speed, but your movement is reduced to 5 feet on all other terrain. You normally use a pair of spiked poles to help you move and maintain balance while skiing, but {eq-weapon/javelin/s}, {eq-weapon/shortspear/s}, or even trimmed-down saplings will do if nothing else more suitable is available. Donning or removing a ski is a full-round action, though the laces can be cut as a move action (which requires repairing or replacing the laces if you want to use the skis again).",
+			"",
+			"Also see: {eq-misc/skis and poles}."
 		]
 	},
 	"skunk": {
@@ -2668,7 +2670,7 @@
 			"**Price** 1,000 gp; **Weight** 500 lbs.  ",
 			"**Category** Tools",
 			"",
-			"The dwarves of Highhelm fill these 20-foot-diameter cloth balloons with a secret and highly flammable gas (included in the price) and then release them into the sky over their enemies. To transform the balloons into decoys, dwarven siege warriors place dummies in cargo baskets beneath the balloons to look like balloonist scouts or snipers. Whoever releases the balloon can attempt a DC 15 Profession (driver), Knowledge (nature), or Wisdom check; if the check is successful, the balloon can be guided out to a maximum range of 300 feet, a far enough distance for archers to safely shoot the balloon with flaming arrows, causing it to explode in a devastating ball of fire. A detonated sky mine creates a 50-foot-radius burst of flame that deals 10d6 points of fire damage to anything in the area."
+			"The dwarves of Highhelm fill these 20-foot-diameter cloth balloons with a secret and highly flammable gas (included in the price) and then release them into the sky over their enemies. To transform the balloons into decoys, dwarven siege warriors place dummies in cargo baskets beneath the balloons to look like balloonist scouts or snipers. Whoever releases the balloon can attempt a DC 15 Profession (driver), Knowledge (nature), or Wisdom check; if the check is successful, the balloon can be guided out to a maximum range of 300 feet, a far enough distance for archers to safely shoot the balloon with flaming arrows, causing it to explode in a devastating ball of fire. A detonated sky mine creates a 50-foot-radius {misc/burst} of flame that deals 10d6 points of fire damage to anything in the area."
 		]
 	},
 	"slave_hard_labor": {
@@ -2708,7 +2710,7 @@
 			"**Price** 22 gp; **Weight** 43-1/2 lbs.  ",
 			"**Category** Kits",
 			"",
-			"This kit includes a backpack, a bedroll, a belt pouch, a flint and steel, an iron pot, manacles, a mess kit, rope, torches (10), trail rations (5 days), and a waterskin."
+			"This kit includes a {eq-misc/backpack}, a {eq-misc/bedroll}, a {eq-misc/belt pouch}, a {eq-misc/flint and steel}, an {eq-misc/iron pot}, {eq-misc/manacles}, a {eq-misc/mess kit}, {eq-misc/rope}, {eq-misc/torches} (10), {eq-misc/trail rations} (5 days), and a {eq-misc/waterskin}."
 		]
 	},
 	"sled": {
@@ -2720,7 +2722,7 @@
 			"**Price** 20 gp; **Price of Passage** (per mile) -  ",
 			"**Category** Transport, Land",
 			"",
-			"This is a wagon on runners for snow and ice travel. In general, two horses (or other beasts of burden) draw it. A sled comes with the harness needed to pull it."
+			"This is a wagon on runners for snow and ice travel. In general, two horses (or other beasts of burden) draw it. A sled comes with the {eq-misc/harness} needed to pull it."
 		]
 	},
 	"sled_travel_per_mile": {
@@ -2739,7 +2741,7 @@
 			"**Price** 1 gp; **Weight** 10 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
-			"This heavy, two-handed hammer is normally used in carpentry and other construction tasks, and is also useful for driving in tent stakes to help secure campsites in areas with strong winds. If used in combat, treat it as an improvised {eq-weapon/earth breaker}."
+			"This heavy, two-handed hammer is normally used in carpentry and other construction tasks, and is also useful for driving in tent stakes to help secure campsites in areas with strong winds. If used in combat, treat it as an {misc/improvised>_weapons} {eq-weapon/earth breaker}."
 		]
 	},
 	"sleeve_holster": {
@@ -2751,7 +2753,7 @@
 			"**Price** 100 gp; **Weight** 1 lb.  ",
 			"**Category** Tools",
 			"",
-			"When worn inside voluminous sleeves, this leather holster allows you to draw a concealed hand crossbow or coat pistol as a move action. The weapon sits on sliders and is drawn directly into the hand. Unlike a wrist sheath, a sleeve holster is bulky enough that it is obvious on close inspection, though under a loose enough garment it might not provoke a reactive Perception check. An individual sleeve holster fits for either a hand crossbow or a coat pistol, but not both."
+			"When worn inside voluminous sleeves, this leather holster allows you to draw a concealed {eq-weapon/hand crossbow} or {eq-weapon/coat pistol} as a move action. The weapon sits on sliders and is drawn directly into the hand. Unlike a {eq-misc/wrist sheath}, a sleeve holster is bulky enough that it is obvious on close inspection, though under a loose enough garment it might not provoke a reactive Perception check. An individual sleeve holster fits for either a hand crossbow or a coat pistol, but not both."
 		]
 	},
 	"sleigh": {
@@ -2763,7 +2765,7 @@
 			"**Price** 100 gp; **Price of Passage** (per mile) 2 cp  ",
 			"**Category** Transport, Land",
 			"",
-			"This wagon has runners, making it an ideal conveyance for snow and ice travel. In general, two horses (or other beasts of burden) are needed to draw it. A sled comes with the harness required to pull it."
+			"This wagon has runners, making it an ideal conveyance for snow and ice travel. In general, two horses (or other beasts of burden) are needed to draw it. A sled comes with the {eq-misc/harness} required to pull it."
 		]
 	},
 	"sleigh_travel_per_mile": {
@@ -2779,7 +2781,7 @@
 			"**Price** 50 gp; **Weight** -  ",
 			"**Category** Concoctions",
 			"",
-			"This inky concoction slows the flow of blood, reducing any bleed damage you would suffer by 2 and causing you to automatically stabilize when dying. The concoction dulls your response speed, however, imparting a -1 penalty on your Reflex saving throws."
+			"This inky concoction slows the flow of blood, reducing any {rule/bleed} damage you would suffer by 2 and causing you to automatically stabilize when dying. The concoction dulls your response speed, however, imparting a -1 penalty on your Reflex saving throws."
 		]
 	},
 	"smelling_salts": {
@@ -2794,7 +2796,7 @@
 			"**Price** 25 gp; **Weight** -  ",
 			"**Category** Alchemical Remedies",
 			"",
-			"These sharply scented gray crystals cause people inhaling them to regain consciousness. Smelling salts grant you a new saving throw to resist any spell or effect that has already rendered you unconscious or staggered. If exposed to smelling salts while dying, you immediately become conscious and staggered, but must still make stabilization checks each round; if you perform any standard action (or any other strenuous action), you take 1 point of damage after completing the act and fall unconscious again. A container of smelling salts has dozens of uses if stoppered after each use, but depletes in a matter of hours if left open.",
+			"These sharply scented gray crystals cause people inhaling them to regain consciousness. Smelling salts grant you a new saving throw to resist any spell or effect that has already rendered you {misc/unconscious} or {misc/staggered}. If exposed to smelling salts while {misc/dying}, you immediately become conscious and staggered, but must still make stabilization checks each round; if you perform any standard action (or any other strenuous action), you take 1 point of damage after completing the act and fall unconscious again. A container of smelling salts has dozens of uses if stoppered after each use, but depletes in a matter of hours if left open.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 25"
 		]
@@ -2808,7 +2810,7 @@
 			"**Price** 100 gp; **Weight** 1 lb.  ",
 			"**Category** Alchemical Tools",
 			"",
-			"A smoke bomb appears as a polished ceramic sphere that can be held comfortably in one hand. Many crafters of these alchemical weapons take pride in painting or etching these bombs with complex scenes, or even making them look like small humanoid skulls, despite the fact that the bombs shatter when thrown. When thrown as a splash weapon, a smoke bomb bursts and fills the 5-foot square it detonates in with a cloud of thick, foul-smelling gray smoke (treat this area as if affected by a {spell/fog cloud} spell, except that the cloud lasts only 1 round before dissipating). A creature that is struck by a smoke bomb or that passes through the cloud a bomb creates must succeed at a DC 12 Fortitude save or be nauseated for 1 round and sickened for 3 rounds after that. Creatures within 5 feet of where the flask hits are sickened for 1 round if they fail this saving throw. This is a poison effect. Crafting a smoke bomb requires a successful DC 22 Craft (alchemy) check.",
+			"A smoke bomb appears as a polished ceramic sphere that can be held comfortably in one hand. Many crafters of these alchemical weapons take pride in painting or etching these bombs with complex scenes, or even making them look like small humanoid skulls, despite the fact that the bombs shatter when thrown. When thrown as a splash weapon, a smoke bomb bursts and fills the 5-foot square it detonates in with a cloud of thick, foul-smelling gray smoke (treat this area as if affected by a {spell/fog cloud} spell, except that the cloud lasts only 1 round before dissipating). A creature that is struck by a smoke bomb or that passes through the cloud a bomb creates must succeed at a DC 12 Fortitude save or be {misc/nauseated} for 1 round and {misc/sickened} for 3 rounds after that. Creatures within 5 feet of where the flask hits are sickened for 1 round if they fail this saving throw. This is a poison effect. Crafting a smoke bomb requires a successful DC 22 Craft (alchemy) check.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 22"
 		]
@@ -2824,9 +2826,9 @@
 			"",
 			"This small cauldron of alchemically treated tar gives off thick, acrid smoke when ignited. The smoke rises to an altitude of 25 feet, then spreads horizontally, creating an artificial smoke ceiling 5 feet thick. The smoke spreads to a 100-foot radius at a rate of 20 feet per round. The cauldron smokes for 5 rounds before burning out. After the cauldron finishes burning, the smoke lasts for 3 more rounds before dissipating. A moderate wind (11+ mph) does not affect the heavy smoke, while a strong wind (21+ mph) disperses the smoke in 2 rounds.",
 			"",
-			"The smoke is entirely opaque, which means creatures above the smoke can't see the ground, and those on the ground have a visual ceiling of 25 feet. Creatures on the other side of the smoke have total concealment (50% miss chance, and the attacker can't use sight to locate the target).",
+			"The smoke is entirely opaque, which means creatures above the smoke can't see the ground, and those on the ground have a visual ceiling of 25 feet. Creatures on the other side of the smoke have total {rule/concealment} (50% miss chance, and the attacker can't use sight to locate the target).",
 			"",
-			"Smoke cover is noxious, and any creature that begins its turn inside the smoke must succeed at a DC 18 Fortitude save or become sickened for 1d4 rounds. Previously sickened creatures that fail their saves are instead nauseated for 1d6 rounds. Creatures immune to poison are not affected by smoke cover's sickening effects."
+			"Smoke cover is noxious, and any creature that begins its turn inside the smoke must succeed at a DC 18 Fortitude save or become {misc/sickened} for 1d4 rounds. Previously sickened creatures that fail their saves are instead {misc/nauseated} for 1d6 rounds. Creatures immune to poison are not affected by smoke cover's sickening effects."
 		]
 	},
 	"smoke_pellet": {
@@ -2873,7 +2875,7 @@
 			"**Price** 10 gp; **Weight** -  ",
 			"**Category** Adventuring Gear",
 			"",
-			"These spectacles have lenses made of smoked glass that help protect against creatures with gaze attacks. You are always treated as averting your gaze when dealing with gaze attacks, and you gain a +8 circumstance bonus on saving throws against visual-based attacks (any attack that a blind creature would be immune to). You take a -4 penalty on Perception checks while wearing the goggles, and all opponents are treated as having concealment (20% miss chance)."
+			"These spectacles have lenses made of smoked glass that help protect against creatures with {umr/gaze} attacks. You are always treated as averting your gaze when dealing with gaze attacks, and you gain a +8 circumstance bonus on saving throws against visual-based attacks (any attack that a {misc/blind>ed} creature would be immune to). You take a -4 penalty on Perception checks while wearing the goggles, and all opponents are treated as having {rule/concealment} (20% miss chance)."
 		]
 	},
 	"smokestick": {
@@ -2889,7 +2891,7 @@
 			"**Price** 20 gp; **Weight** 1/2 lb.  ",
 			"**Category** Alchemical Tools",
 			"",
-			"This alchemically treated wooden stick instantly creates thick, opaque smoke when burned. The smoke fills a 10-foot cube (treat the effect as a fog cloud spell, except that a moderate or stronger wind dissipates the smoke in 1 round). The stick is consumed after 1 round, and the smoke dissipates naturally after 1 minute.",
+			"This alchemically treated wooden stick instantly creates thick, opaque smoke when burned. The smoke fills a 10-foot cube (treat the effect as a {spell/fog cloud} spell, except that a moderate or stronger wind dissipates the smoke in 1 round). The stick is consumed after 1 round, and the smoke dissipates naturally after 1 minute.",
 			"",
 			"**{rule/Spontaneous Alchemy} Recipe** (4 {eq-reagent/darkwood} + 5 {eq-reagent/saltpeter})/calcination; Craft 20  ",
 			"**Time** 1 hour; **Tools** {eq-misc/crucible}; **Type** alchemical tool"
@@ -2904,7 +2906,7 @@
 			"**Price** varies; **Price of Passage** (per mile) varies  ",
 			"**Category** Transport, Land",
 			"",
-			"A smuggler's wagon functions in most respects exactly like an ordinary wagon, except it contains hidden compartments that allow for cargo to be transported in secret. The price of a smuggler's wagon depends on two factors - the size or type of the original wagon, and the skill with which the hidden compartments have been constructed. The table below details the prices of such a vehicle (the DC is for a Perception check to successfully locate the hidden compartments during a search of the wagon).",
+			"A smuggler's wagon functions in most respects exactly like an ordinary wagon, except it contains hidden compartments that allow for cargo to be transported in secret. The price of a smuggler's wagon depends on two factors - the size or type of the original {eq-misc/wagon}, and the skill with which the hidden compartments have been constructed. The table below details the prices of such a vehicle (the DC is for a Perception check to successfully locate the hidden compartments during a search of the wagon).",
 			"",
 			"| Size | DC 15 | DC 20 | DC 25 |",
 			"| --- | --- | --- | --- |",
@@ -2974,7 +2976,7 @@
 			"**Price** 50 gp; **Weight** -  ",
 			"**Category** Concoctions",
 			"",
-			"This lime-green goo turns your saliva venomous. Once during the concoction's duration, as a swift action, you can lick or spit on a held weapon to apply a dose of black adder venom to the weapon. If you are a vishkanya, you instead apply the poison granted by your toxic racial trait; this does not count against that trait's uses per day. The concoction weakens your physical defenses, imparting a -1 penalty on your Fortitude saving throws."
+			"This lime-green goo turns your saliva venomous. Once during the concoction's duration, as a swift action, you can lick or spit on a held weapon to apply a dose of black adder venom to the weapon. If you are a {race/vishkanya}, you instead apply the poison granted by your toxic racial trait; this does not count against that trait's uses per day. The concoction weakens your physical defenses, imparting a -1 penalty on your Fortitude saving throws."
 		]
 	},
 	"snorkel_common": {
@@ -3003,7 +3005,7 @@
 			"**Price** 12 gp; **Weight** -  ",
 			"**Category** Clothing",
 			"",
-			"These goggles, carved from bone with a narrow slit opening and held in place with leather straps, work as smoked goggles. In addition, they provide immunity to polar mirages."
+			"These goggles, carved from bone with a narrow slit opening and held in place with leather straps, work as {eq-misc/smoked goggles}. In addition, they provide immunity to polar mirages."
 		]
 	},
 	"snowshoes": {
@@ -3067,7 +3069,7 @@
 			"**Price** 25 gp; **Weight** 1 lb.  ",
 			"**Category** Clothing",
 			"",
-			"These soft and subtle boots are constructed of silk and specially cured leather. They are specially designed for catfolk feet. They work with the feline structure of the race's feet to soften footfalls and to reduce the imprints of their tracks. While wearing softpaw boots, a catfolk gains a +1 circumstance bonus on Stealth checks. Furthermore, the DC to notice or follow the tracks of a catfolk wearing softpaw boots increases by +2."
+			"These soft and subtle boots are constructed of silk and specially cured leather. They are specially designed for {race/catfolk} feet. They work with the feline structure of the race's feet to soften footfalls and to reduce the imprints of their tracks. While wearing softpaw boots, a catfolk gains a +1 circumstance bonus on Stealth checks. Furthermore, the DC to notice or follow the tracks of a catfolk wearing softpaw boots increases by +2."
 		]
 	},
 	"soldiers_uniform": {
@@ -3091,9 +3093,9 @@
 			"**Price** 11,000 gp; **Weight** 4 lbs.  ",
 			"**Category** Black Market",
 			"",
-			"Nearly 50 ancient tales and songs have been collected on this long scroll. Contrasting with the obvious antiquity of the papyrus, the illuminated images are vivid and the writing is clear (though occasionally difficult to decipher due to elaborate embellishments), as the inks used were infused with unguent of timelessness.",
+			"Nearly 50 ancient tales and songs have been collected on this long scroll. Contrasting with the obvious antiquity of the papyrus, the illuminated images are vivid and the writing is clear (though occasionally difficult to decipher due to elaborate embellishments), as the inks used were infused with {magic-wondrous/unguent of timelessness}.",
 			"",
-			"This folio is the most complete extant collection of poems by the legendary marid bard Shazathared. Most of the poems recount the binding of Rovagug by the gods and the fates of his terrible spawn, but several pieces, told from the point of view of a genie princess, speak of defending the princess's home and allies against bandit-kings, tempests, and evil magic. A bard with access to a complete copy of these poems can learn the defensive songs in the folio as the masterpiece presented below by paying the normal masterpiece cost."
+			"This folio is the most complete extant collection of poems by the legendary marid bard Shazathared. Most of the poems recount the binding of {faith/Rovagug} by the gods and the fates of his terrible spawn, but several pieces, told from the point of view of a genie princess, speak of defending the princess's home and allies against bandit-kings, tempests, and evil magic. A bard with access to a complete copy of these poems can learn the defensive songs in the folio as the {masterpiece/\"Ballad of the Warding Princess\"} masterpiece by paying the normal masterpiece cost."
 		]
 	},
 	"soothe_syrup": {
@@ -3122,7 +3124,7 @@
 			"**Price** 8 gp; **Weight** 19 lbs.  ",
 			"**Category** Kits",
 			"",
-			"This kit includes a backpack, a bedroll, a belt pouch, a flint and steel, an iron pot, a mess kit, soap, torches (10), trail rations (5 days), and a waterskin."
+			"This kit includes a {eq-misc/backpack}, a {eq-misc/bedroll}, a {eq-misc/belt pouch}, a {eq-misc/flint and steel}, an {eq-misc/iron pot}, a {eq-misc/mess kit}, {eq-misc/soap}, {eq-misc/torches} (10), {eq-misc/trail rations} (5 days), and a {eq-misc/waterskin}."
 		]
 	},
 	"sorcerers_spirits": {
@@ -3134,7 +3136,7 @@
 			"**Price** 300 gp; **Weight** -  ",
 			"**Category** Tincture",
 			"",
-			"This silvery liquid amplifies magical energies. For 1 hour after drinking this tincture, treat your caster level as 2 higher for the purpose of determining spells' durations and ranges. The liquid unsettles the stomach, imposing a -1 penalty on Fortitude and Reflex saves for the same duration. Whenever you fail a Fortitude or Reflex save while under these effects, you must succeed at a DC 20 Fortitude saving throw or become nauseated for 1 round.",
+			"This silvery liquid amplifies magical energies. For 1 hour after drinking this tincture, treat your caster level as 2 higher for the purpose of determining spells' durations and ranges. The liquid unsettles the stomach, imposing a -1 penalty on Fortitude and Reflex saves for the same duration. Whenever you fail a Fortitude or Reflex save while under these effects, you must succeed at a DC 20 Fortitude saving throw or become {misc/nauseated} for 1 round.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 30"
 		]
@@ -3148,7 +3150,7 @@
 			"**Price** 1 gp; **Weight** -  ",
 			"**Category** Adventuring Gear",
 			"",
-			"When lit, this spiral-shaped candle burns for 24 hours, but if a haunt manifests or an undead creature comes within 5 feet of a lit soul candle, the candle goes out in a bright, sizzling flash."
+			"When lit, this spiral-shaped {eq-misc/candle} burns for 24 hours, but if a haunt manifests or an undead creature comes within 5 feet of a lit soul candle, the candle goes out in a bright, sizzling flash."
 		]
 	},
 	"soul_stimulant": {
@@ -3215,7 +3217,7 @@
 			"**Price** 1 gp; **Weight** 1 lb.  ",
 			"**Category** Adventuring Gear",
 			"",
-			"This is little more than a handle with a cup, loop, or spur to hold the butt of a dart, javelin, or shortspear. Using a spear-thrower to throw such a weapon doubles the projectile's range increment. Setting a weapon into a spear-thrower is a move action; by taking the {feat/Rapid Reload} (spear-thrower) feat, you reduce this to a free action."
+			"This is little more than a handle with a cup, loop, or spur to hold the butt of a {eq-weapon/dart}, {eq-weapon/javelin}, or {eq-weapon/shortspear}. Using a spear-thrower to throw such a weapon doubles the projectile's range increment. Setting a weapon into a spear-thrower is a move action; by taking the {feat/Rapid Reload} (spear-thrower) feat, you reduce this to a free action."
 		]
 	},
 	"speech_resin": {
@@ -3241,7 +3243,7 @@
 			"**Price** 10 gp; **Weight** 1 lb.  ",
 			"**Category** Clothing",
 			"",
-			"This sheath is designed to be strapped around your forearm, but it is too bulky to be hidden under a long sleeve. It can hold one forearm-length item, such as a dagger, dart, potion, scroll containing a single spell, or wand. As a swift action, you can bend your wrist to cause the sheathed item to drop into your hand (provoking attacks of opportunity as normal for retrieving an item). Placing an item in the sheath is a full-round action that provokes attacks of opportunity. You can wear only one wrist sheath per arm that you have."
+			"This sheath is designed to be strapped around your forearm, but it is too bulky to be hidden under a long sleeve. It can hold one forearm-length item, such as a {eq-weapon/dagger}, {eq-weapon/dart}, potion, scroll containing a single spell, or wand. As a swift action, you can bend your wrist to cause the sheathed item to drop into your hand (provoking attacks of opportunity as normal for retrieving an item). Placing an item in the sheath is a full-round action that provokes attacks of opportunity. You can wear only one {eq-misc/wrist sheath} per arm that you have."
 		]
 	},
 	"spell_component_pouch": {
@@ -3292,7 +3294,7 @@
 			"",
 			"The price given is for any spell that does not require a costly material component. If the spell includes a material component, add the cost of that component to the cost of the spell. If the spell has a focus component (other than a divine focus), add 1/10 the cost of that focus to the cost of the spell.",
 			"",
-			"If a spell has dangerous consequences (such as contact other plane, which has a risk of decreasing the caster's Intelligence and Charisma), the spellcaster will certainly require proof that you can and will pay for dealing with any such consequences (that is, assuming that the spellcaster even agrees to cast such a spell, which isn't certain). If these additional costs put the total spellcasting price above 3,000 gp, the spell is not generally available.",
+			"If a spell has dangerous consequences (such as {spell/contact other plane}, which has a risk of decreasing the caster's Intelligence and Charisma), the spellcaster will certainly require proof that you can and will pay for dealing with any such consequences (that is, assuming that the spellcaster even agrees to cast such a spell, which isn't certain). If these additional costs put the total spellcasting price above 3,000 gp, the spell is not generally available.",
 			"",
 			"In the case of spells that transport the caster and characters over a distance, you will likely have to pay for two castings of the spell (one for the caster to take you there and one for the caster to return), even if you aren't returning with the caster.",
 			"",
@@ -3336,7 +3338,7 @@
 			"**Price** 174 gp; **Weight** 32 lbs.  ",
 			"**Category** Kits",
 			"",
-			"This kit holds equipment for exploring underground, consisting of a lantern with 4 flasks of oil, a hammer and 8 pitons, 100 feet of silk rope, a grappling hook, and a climber's kit."
+			"This kit holds equipment for exploring underground, consisting of a {eq-misc/lantern} with 4 flasks of {eq-misc/oil}, a {eq-misc/hammer} and 8 {eq-misc/piton/s}, 100 feet of {eq-misc/silk rope}, a {eq-misc/grappling hook}, and a {eq-misc/climber's kit}."
 		]
 	},
 	"sphere_song_concoction": {
@@ -3421,7 +3423,7 @@
 			"**Price** 300 gp; **Weight** 1 lb.  ",
 			"**Category** Adventuring Gear",
 			"",
-			"A spike hilt can be added to any one-handed or two-handed sword or hafted weapon, which conceals a dagger within the larger weapon. An observer who succeeds at a DC 20 Perception check while carefully examining the larger weapon notices the spike hilt. Drawing a dagger from the spike hilt is a swift action. This dagger can be made masterwork or turned into a magic weapon at the normal cost."
+			"A spike hilt can be added to any one-handed or two-handed sword or hafted weapon, which conceals a {eq-weapon/dagger} within the larger weapon. An observer who succeeds at a DC 20 Perception check while carefully examining the larger weapon notices the spike hilt. Drawing a dagger from the spike hilt is a swift action. This dagger can be made masterwork or turned into a magic weapon at the normal cost."
 		]
 	},
 	"spiked_focus_ward": {
@@ -3434,7 +3436,7 @@
 			"**Category** Channel Foci  ",
 			"**Deity** Any",
 			"",
-			"This holy symbol has a small nail or spike somewhere along its length, allowing it to be hammered it into a wall, tree, floor, or any hard surface. Once fixed in place and activated, it stores channeled energy until it is touched by a creature of at least Small size or 24 hours pass. If touched, the focus releases the stored power as if you used channel energy, though it only heals or deals half the normal damage (including all feats and abilities that affect the DC and damage). Good clerics use these items to provide healing in large battles where a cleric may not be nearby; evil clerics often use them as traps."
+			"This holy symbol has a small nail or spike somewhere along its length, allowing it to be hammered it into a wall, tree, floor, or any hard surface. Once fixed in place and activated, it stores channeled energy until it is touched by a creature of at least Small size or 24 hours pass. If touched, the focus releases the stored power as if you used {ability/channel energy}, though it only heals or deals half the normal damage (including all feats and abilities that affect the DC and damage). Good clerics use these items to provide healing in large battles where a cleric may not be nearby; evil clerics often use them as traps."
 		]
 	},
 	"spirit_compass": {
@@ -3473,7 +3475,7 @@
 			"**Price** 20 gp; **Weight** 1/2 lb.  ",
 			"**Category** Adventuring Gear",
 			"",
-			"These offerings take many forms, such as food, incense, pinwheels, rare teas, perfectly smooth white pebbles, or stone tablets, but they are always kept in pouches tied with ribbon. Travelers in the Dragon Empires leave these offerings at the small shrines or holy sites that can be found scattered along roads. For 1 hour after a traveler leaves a spirit offering, any kami the traveler encounters has its initial attitude improved by one step. This attitude adjustment reverts to normal after 10 minutes unless the creature's attitude is adjusted further during that time, such as via the Diplomacy skill, in which case the kami's attitude does not revert after the offering's effect expires. Once a spirit offering has been used to improved a kami's attitude, it cannot be reused."
+			"These offerings take many forms, such as food, incense, pinwheels, rare teas, perfectly smooth white pebbles, or stone tablets, but they are always kept in pouches tied with ribbon. Travelers in the Dragon Empires leave these offerings at the small shrines or holy sites that can be found scattered along roads. For 1 hour after a traveler leaves a spirit offering, any {family/kami} the traveler encounters has its initial attitude improved by one step. This attitude adjustment reverts to normal after 10 minutes unless the creature's attitude is adjusted further during that time, such as via the Diplomacy skill, in which case the kami's attitude does not revert after the offering's effect expires. Once a spirit offering has been used to improved a kami's attitude, it cannot be reused."
 		]
 	},
 	"spirit_planchette_set": {
@@ -3485,7 +3487,7 @@
 			"**Price** 25 gp; **Weight** 5 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
-			"A spirit planchette is typically found in a wooden case along with a thin wooden board printed with numerous letters and numbers. Nonmagical versions of these divination tools can be purchased in curiosity shops; while these items can be used as alternative components for {spell/augury} spells, only [magical spirit planchettes](magic-wondrous/spirit_planchette_brass) allow users to communicate with the other side."
+			"A spirit planchette is typically found in a wooden case along with a thin wooden board printed with numerous letters and numbers. Nonmagical versions of these divination tools can be purchased in curiosity shops; while these items can be used as alternative components for {spell/augury} spells, only {magic-wondrous/magical |spirit planchette/s>_brass} allow users to communicate with the other side."
 		]
 	},
 	"spirit_trumpet": {
@@ -3497,7 +3499,7 @@
 			"**Price** 25 gp; **Weight** 1 lb.  ",
 			"**Category** Adventuring Gear",
 			"",
-			"This telescopic horn is constructed of thin sheets of tin rolled into concentric cones, and measures about 3 feet long when fully extended. Primarily used by fraudulent mediums to disguise the true source of mysterious voices in darkened seance chambers, these trumpets add 1 to the DCs of saving throws to disbelieve the effects of the ghost sound and ventriloquism spells. When used to channel a haunt capable of communication, a spirit trumpet doubles the rate of communication with the haunt, and grants the user a +4 circumstance bonus on Linguistics checks to decipher the cryptic messages."
+			"This telescopic horn is constructed of thin sheets of tin rolled into concentric cones, and measures about 3 feet long when fully extended. Primarily used by fraudulent mediums to disguise the true source of mysterious voices in darkened seance chambers, these trumpets add 1 to the DCs of saving throws to disbelieve the effects of the {spell/ghost sound} and {spell/ventriloquism} spells. When used to channel a haunt capable of communication, a spirit trumpet doubles the rate of communication with the haunt, and grants the user a +4 circumstance bonus on Linguistics checks to decipher the cryptic messages."
 		]
 	},
 	"spirit_vision_ink": {
@@ -3523,7 +3525,7 @@
 			"**Price** 300 gp; **Weight** 1 lb.  ",
 			"**Category** Alchemical Tools",
 			"",
-			"When you slash this alchemically treated iron spike against your flesh - a move action that deals 1d6 points of damage - the spike extends and becomes a short sword with the {magic-enh/ghost touch} weapon special ability. The spike reverts to its old form after 10 minutes, corroded and useless. Should a spiritbane spike rematerialize within a corporeal body, it is shunted to the nearest empty space without effect. Crafting this item requires a successful DC 25 Craft (alchemy) check.",
+			"When you slash this alchemically treated iron spike against your flesh - a move action that deals 1d6 points of damage - the spike extends and becomes a {eq-weapon/short sword} with the {magic-enh/ghost touch} weapon special ability. The spike reverts to its old form after 10 minutes, corroded and useless. Should a spiritbane spike rematerialize within a corporeal body, it is shunted to the nearest empty space without effect. Crafting this item requires a successful DC 25 Craft (alchemy) check.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 25"
 		]
@@ -3549,7 +3551,7 @@
 			"**Price** 50 gp; **Weight** 34 lbs.  ",
 			"**Category** Kits",
 			"",
-			"This kit includes a backpack, a bedroll, a belt pouch, a censer, a flask of ectoplasmic residue, flint and steel, incense (10 sticks), an iron pot, magnetized paper, torches (10), trail rations (5 days), and a waterskin."
+			"This kit includes a {eq-misc/backpack}, a {eq-misc/bedroll}, a {eq-misc/belt pouch}, a {eq-misc/censer}, a flask of {eq-weapon/ectoplasmic residue}, {eq-misc/flint and steel}, {eq-misc/incense} (10 sticks), an {eq-misc/iron pot}, {eq-misc/magnetized paper}, {eq-misc/torches} (10), {eq-misc/trail rations} (5 days), and a {eq-misc/waterskin}."
 		]
 	},
 	"sponge_suit": {
@@ -3561,7 +3563,7 @@
 			"**Price** 30 gp; **Weight** 2 lbs. (or 10 lbs.)  ",
 			"**Category** Clothing",
 			"",
-			"Outwardly, this suit of clothing appears to be an ordinary traveler's outfit, albeit cut from thicker-than-normal cloth. The suit's inner lining is made of dozens of thin, flexible sponges. When soaked with water, these sponges can be worn against the skin to maintain the wearer's moisture while traveling out of the water.",
+			"Outwardly, this suit of clothing appears to be an ordinary {eq-misc/traveler's outfit}, albeit cut from thicker-than-normal cloth. The suit's inner lining is made of dozens of thin, flexible sponges. When soaked with water, these sponges can be worn against the skin to maintain the wearer's moisture while traveling out of the water.",
 			"",
 			"It takes 10 minutes to fully saturate the suit, which increases its weight from 2 pounds to 10 pounds.",
 			"",
@@ -3577,7 +3579,7 @@
 			"**Price** 75 gp; **Weight** 18 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
-			"This large contraption functions like a hooded lantern, shedding large amounts of light in a single direction. A spotlight also contains several mirrors which amplify and aim the light. A spotlight creates a 5-foot-wide beam of normal light, which extends to a distance of 90 feet and continues for another 90 feet as dim light. It does not radiate any light outside the area of the beam. A spotlight does not increase the light level in normal light or bright light. A lantern burns for 1 hour on 1 pint of oil, and requires two hands to move and one hand to aim."
+			"This large contraption functions like a {eq-misc/hooded lantern}, shedding large amounts of light in a single direction. A spotlight also contains several mirrors which amplify and aim the light. A spotlight creates a 5-foot-wide beam of normal light, which extends to a distance of 90 feet and continues for another 90 feet as dim light. It does not radiate any light outside the area of the beam. A spotlight does not increase the light level in normal light or bright light. A lantern burns for 1 hour on 1 pint of oil, and requires two hands to move and one hand to aim."
 		]
 	},
 	"spys_kit": {
@@ -3589,7 +3591,7 @@
 			"**Price** 140 gp; **Weight** 12-1/2 lbs.  ",
 			"**Category** Kits",
 			"",
-			"This kit includes a book of letters, a disguise kit, a {eq-misc/hollow-heeled boot}, ink (1 vial), an inkpen, paper (10 sheets), a poison pill ring (signet ring), sealing wax, simple invisible ink (3 vials), and a wrist sheath."
+			"This kit includes a {eq-misc/book of letters}, a {eq-misc/disguise kit}, a {eq-misc/hollow-heeled boot}, {eq-misc/ink} (1 vial), an {eq-misc/inkpen}, {eq-misc/paper} (10 sheets), a {eq-misc/poison pill ring} (signet ring), {eq-misc/sealing wax}, {eq-misc/simple invisible ink} (3 vials), and a {eq-misc/wrist sheath}."
 		]
 	},
 	"spycatchers_kit": {
@@ -3601,7 +3603,7 @@
 			"**Price** 260 gp; **Weight** 7-1/2 lbs.  ",
 			"**Category** Kits",
 			"",
-			"This kit includes an antidote kit, a cryptography book, litmus strips (5), and a portrait book."
+			"This kit includes an {eq-misc/antidote kit}, a {eq-misc/cryptography book}, {eq-misc/litmus strip/s} (5), and a {eq-misc/portrait book}."
 		]
 	},
 	"spyglass_masterwork": {
@@ -3613,7 +3615,7 @@
 			"**Price** 4,000 gp; **Weight** 2 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
-			"Objects viewed through a masterwork spyglass are magnified to four times their size. Characters using a masterwork spyglass take a -1 penalty on Perception checks per 40 feet of distance to the target (instead of per 20 feet as with a normal spyglass)."
+			"Objects viewed through a masterwork spyglass are magnified to four times their size. Characters using a masterwork spyglass take a -1 penalty on Perception checks per 40 feet of distance to the target (instead of per 20 feet as with a normal {eq-misc/spyglass})."
 		]
 	},
 	"spyglass": {
@@ -3699,7 +3701,7 @@
 			"**Price** 80 gp; **Weight** 1 lb.  ",
 			"**Category** Alchemical Tools",
 			"",
-			"Gathered within this tightly woven, alchemically treated canvas sack is a sample of the pervasive fetid fog that looms near the border of the Plane of Air and the Plane of Water. When opened, the fog billows out in a 30-foot-radius area. Sight is extremely limited in an area of stagnant fog. A creature within 15 feet has concealment (20% miss chance), while creatures farther away have total concealment (50% miss chance, and the attacker can't use sight to locate the target). In addition, creatures that end their turn within the cloud must succeed at a DC 14 Fortitude save or become sickened for 1 round. Stagnant fog dissipates naturally after 1 minute. A moderate wind (11+ mph) disperses the stagnant fog in 1 round. This item can be crafted with a successful DC 20 Craft (alchemy) check.",
+			"Gathered within this tightly woven, alchemically treated canvas sack is a sample of the pervasive fetid fog that looms near the border of the Plane of Air and the Plane of Water. When opened, the fog billows out in a 30-foot-radius area. Sight is extremely limited in an area of stagnant fog. A creature within 15 feet has {rule/concealment} (20% miss chance), while creatures farther away have total concealment (50% miss chance, and the attacker can't use sight to locate the target). In addition, creatures that end their turn within the cloud must succeed at a DC 14 Fortitude save or become {misc/sickened} for 1 round. Stagnant fog dissipates naturally after 1 minute. A moderate wind (11+ mph) disperses the stagnant fog in 1 round. This item can be crafted with a successful DC 20 Craft (alchemy) check.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 20"
 		]
@@ -3737,7 +3739,7 @@
 			"**Price** 300 gp; **Weight** -  ",
 			"**Category** Tincture",
 			"",
-			"This clear liquid glows with pale light. For 4 hours after drinking this tincture, you emit light as a torch. You are constantly dazzled during this time. If any effect would cause you to become dazzled during this time, you are instead blinded. While under the effect of this tincture, you can intensify your glow as a swift action to that of bright light, as per daylight, for 1 round. After activating the bright light effect, you emit only dim light with a range of 10 feet for the remainder of the tincture's duration.",
+			"This clear liquid glows with pale light. For 4 hours after drinking this tincture, you emit light as a {eq-misc/torch}. You are constantly {misc/dazzled} during this time. If any effect would cause you to become dazzled during this time, you are instead {misc/blinded}. While under the effect of this tincture, you can intensify your glow as a swift action to that of bright light, as per {spell/daylight}, for 1 round. After activating the bright light effect, you emit only dim light with a range of 10 feet for the remainder of the tincture's duration.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 30"
 		]
@@ -3751,7 +3753,7 @@
 			"**Price** 100 gp; **Weight** 1/2 lb.  ",
 			"**Category** Alchemical Tools",
 			"",
-			"Alchemical compounds in this square of jagged, metallic fibers store and transfer electricity into clothing when rubbed against the fabric for 1 minute. When you are grappled within the next 10 minutes while wearing this electrically charged clothing, as well as light armor or no armor, the electricity discharges. This deals 1 point of nonlethal electricity damage to the grappling creature, and if it takes damage from the effect, it must succeed at a DC 20 combat maneuver check to grapple or immediately release you. The DC increases to 22 against a creature with the grab ability. A single square of static wool can be used five times before expending its alchemical compounds."
+			"Alchemical compounds in this square of jagged, metallic fibers store and transfer electricity into clothing when rubbed against the fabric for 1 minute. When you are grappled within the next 10 minutes while wearing this electrically charged clothing, as well as light armor or no armor, the electricity discharges. This deals 1 point of nonlethal electricity damage to the grappling creature, and if it takes damage from the effect, it must succeed at a DC 20 combat maneuver check to grapple or immediately release you. The DC increases to 22 against a creature with the {umr/grab} ability. A single square of static wool can be used five times before expending its alchemical compounds."
 		]
 	},
 	"stationery": {
@@ -3766,7 +3768,7 @@
 			"**Price** 1 gp; **Weight** -  ",
 			"**Category** Adventuring Gear",
 			"",
-			"Generally used only by the wealthy, fancy stationery is a finerquality 9-inch-by-6-inch paper, often embossed or engraved with the owner's personal seal."
+			"Generally used only by the wealthy, fancy stationery is a finer-quality 9-inch-by-6-inch paper, often embossed or engraved with the owner's personal seal."
 		]
 	},
 	"statue_disguise_kit": {
@@ -3790,7 +3792,7 @@
 			"**Price** 10 gp; **Weight** 1 lb.  ",
 			"**Category** Clothing",
 			"",
-			"The most ostentatious and impractical of footwear, the tall heel attached to these boots adds several inches to your height. This type of boot is popular among Chelish nobles, though the trend has recently caught on among some members of Taldan courts. You can use the heel of a stiletto boot as an improvised weapon, dealing damage as a punching dagger"
+			"The most ostentatious and impractical of footwear, the tall heel attached to these boots adds several inches to your height. This type of boot is popular among Chelish nobles, though the trend has recently caught on among some members of Taldan courts. You can use the heel of a stiletto boot as an {misc/improvised weapon}, dealing damage as a {eq-weapon/punching dagger}"
 		]
 	},
 	"stillgut_vial": {
@@ -3802,7 +3804,7 @@
 			"**Price** 50 gp; **Weight** -  ",
 			"**Category** Alchemical Remedies",
 			"",
-			"Drinking a vial of this bland, bluish liquid grants you a +5 alchemical bonus on Fortitude saves to avoid nausea or sickness for 1 hour. If you are already nauseated, you can drink stillgut as a move action. Drinking it in this fashion grants you a second saving throw (without the +5 bonus). Goblins often use stillgut so they can choke down meat or other foods in advanced stages of rot or decay.",
+			"Drinking a vial of this bland, bluish liquid grants you a +5 alchemical bonus on Fortitude saves to avoid {misc/nausea>ted} or {misc/sick/ness>ened} for 1 hour. If you are already nauseated, you can drink stillgut as a move action. Drinking it in this fashion grants you a second saving throw (without the +5 bonus). Goblins often use stillgut so they can choke down meat or other foods in advanced stages of rot or decay.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 25"
 		]
@@ -3838,7 +3840,7 @@
 			"**Category** Channel Foci  ",
 			"**Deity** {faith/Calistria}",
 			"",
-			"This whip is made from braids of metallic wire. When it is activated, the wielder can expend the power within it to gain a sacred (if activated with positive energy) or profane (if activated with negative energy) bonus on her next disarm or trip combat maneuver with the whip. This bonus is equal to the number of dice of the activating cleric's channel energy ability. The whip remains charged until its magic is used or 1 hour has passed."
+			"This whip is made from braids of metallic wire. When it is activated, the wielder can expend the power within it to gain a sacred (if activated with positive energy) or profane (if activated with negative energy) bonus on her next disarm or trip combat maneuver with the whip. This bonus is equal to the number of dice of the activating cleric's {ability/channel energy} ability. The whip remains charged until its magic is used or 1 hour has passed."
 		]
 	},
 	"stinging_whip": { "copyof": "stinging_whip_calistria" },
@@ -3851,7 +3853,7 @@
 			"**Price** special; **Weight** 1 lb.  ",
 			"**Category** Alchemical Remedies",
 			"",
-			"Most common among ratfolk alchemists, arcane stink ink is used to inscribe formulae or spells into formula books and spellbooks. Like normal stink ink, the arcane version can only be read by creatures with the scent ability (although {spell/read magic} works normally on spells and arcane formulae inscribed with stink ink). Using arcane stink ink to inscribe a spell or formula into a book costs +10% of the normal amount."
+			"Most common among {race/ratfolk} alchemists, arcane stink ink is used to inscribe formulae or spells into formula books and spellbooks. Like normal {eq-misc/stink ink}, the arcane version can only be read by creatures with the {umr/scent} ability (although {spell/read magic} works normally on spells and arcane formulae inscribed with stink ink). Using arcane stink ink to inscribe a spell or formula into a book costs +10% of the normal amount."
 		]
 	},
 	"stink_ink_common": {
@@ -3863,11 +3865,12 @@
 			"**Price** 5 gp; **Weight** 1 lb.  ",
 			"**Category** Alchemical Remedies",
 			"",
-			"Stink ink is a special, pungent, musk-based ink that allows its user to encode information with smell rather than visually. Stink ink dries clear but its sharp, extremely localized smell can be picked out by those with sensitive enough noses to make it possible to read by sense of smell. Only creatures with the keen senses trait or scent ability can read stink ink without aid of some form of magic. Reading or writing something with stink ink takes twice as long as going through the same amount of information written in normal ink.",
+			"Stink ink is a special, pungent, musk-based ink that allows its user to encode information with smell rather than visually. Stink ink dries clear but its sharp, extremely localized smell can be picked out by those with sensitive enough noses to make it possible to read by sense of smell. Only creatures with the keen senses trait or {umr/scent} ability can read stink ink without aid of some form of magic. Reading or writing something with stink ink takes twice as long as going through the same amount of information written in normal ink.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 15"
 		]
 	},
+	"stink_ink": { "copyof": "stink_ink_common" },
 	"stirge": {
 		"name": "Stirge",
 		"sources": [
@@ -3880,7 +3883,7 @@
 			"**Price** 20 gp; **Weight** 1 lb.  ",
 			"**Category** Mounts/Pets",
 			"",
-			"These Tiny beasts are allegedly sold for indoor defense to rich clients, but often wind up in exotic blood sports. Despite the popular misconception that stirges are untameable vermin, such creatures are trainable, but they must be fed fresh blood daily to dissuade them from turning on their handlers. More information about stirges can be found in the Bestiary."
+			"These Tiny beasts are allegedly sold for indoor defense to rich clients, but often wind up in exotic blood sports. Despite the popular misconception that stirges are untameable vermin, such creatures are trainable, but they must be fed fresh blood daily to dissuade them from turning on their handlers."
 		]
 	},
 	"stonechipper_salve": {
@@ -3918,7 +3921,7 @@
 			"**Price** 100 gp; **Weight** -  ",
 			"**Category** Tincture",
 			"",
-			"This highly viscous liquid resembles tree sap and is difficult to swallow. For 2 hours after drinking this tincture, you gain a +2 alchemical bonus to your CMD and you can perform combat maneuvers as if you were one size category larger. Your skeleton's increased density causes you to be treated as if you were carrying a medium load, or a heavy load if you were already encumbered by a medium load, for the same duration.",
+			"This highly viscous liquid resembles tree sap and is difficult to swallow. For 2 hours after drinking this tincture, you gain a +2 alchemical bonus to your CMD and you can perform {rule/combat maneuvers} as if you were one size category larger. Your skeleton's increased density causes you to be treated as if you were {rule/carrying>_capacity} a medium load, or a heavy load if you were already encumbered by a medium load, for the same duration.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 15"
 		]
@@ -3935,7 +3938,7 @@
 			"**Price** 10 gp; **Weight** 1 lb.  ",
 			"**Category** Adventuring Gear",
 			"",
-			"This little metal container holds a waxy fuel that creates enough heat to cook with but only as much light as a candle. To snuff the flame, close the metal lid on the container; it cools enough that it can be carried in a few minutes. Each lasts 5 hours (enough to cook about 10 meals)."
+			"This little metal container holds a waxy fuel that creates enough heat to cook with but only as much light as a {eq-misc/candle}. To snuff the flame, close the metal lid on the container; it cools enough that it can be carried in a few minutes. Each lasts 5 hours (enough to cook about 10 meals)."
 		]
 	},
 	"straitjacket_common": {
@@ -3946,7 +3949,7 @@
 			"{SOURCE Occult Adventures/250}  ",
 			"**Price** 5 gp (common), 50 gp (masterwork); **Weight** 1 lb. (common), 1 lb. (masterwork)",
 			"",
-			"Fashioned of durable canvas and leather straps, this instrument of restraint prevents its wearer from using his arms entirely. Properly binding a creature in a straitjacket requires 1 minute, and the creature must be willing or helpless. This time can be reduced to 5 rounds, but doing so lowers the DC to escape the restraints by 5. A creature wearing a straitjacket gains the grappled condition, except it is able to move. Escaping from the straitjacket requires a successful DC 28 Escape Artist check (DC 30 for a masterwork straitjacket.)"
+			"Fashioned of durable canvas and leather straps, this instrument of restraint prevents its wearer from using his arms entirely. Properly binding a creature in a straitjacket requires 1 minute, and the creature must be willing or helpless. This time can be reduced to 5 rounds, but doing so lowers the DC to escape the restraints by 5. A creature wearing a straitjacket gains the {rule/grapple[d] condition>s}, except it is able to move. Escaping from the straitjacket requires a successful DC 28 Escape Artist check (DC 30 for a masterwork straitjacket.)"
 		]
 	},
 	"straitjacket_masterwork": {
@@ -4020,9 +4023,9 @@
 			"{SOURCE Ultimate Intrigue/234}  ",
 			"**Price** 45 gp (vest), 90 gp (vestment); **Weight** 1 lb. (vest), 2 lbs. (vestment)",
 			"",
-			"Subversive vests are tailored to the pinnacle of courtly fashion, yet have strategically placed compartments for hiding thieves' tools. You gain a +2 circumstance bonus on Sleight of Hand checks to conceal thieves' tools within a subversive vest.",
+			"Subversive vests are tailored to the pinnacle of courtly fashion, yet have strategically placed compartments for hiding {eq-misc/thieves' tools}. You gain a +2 circumstance bonus on Sleight of Hand checks to conceal thieves' tools within a subversive vest.",
 			"",
-			"A subversive vestment is like a subversive vest, but resembles a clerical vestment and has a greater carrying capacity. In addition to thieves' tools, you can stow two 1-pint flasks in specially designed pockets that conceal the items' bulk from common view, with the same circumstance bonus as a subversive vest."
+			"A subversive vestment is like a subversive vest, but resembles a clerical vestment and has a greater carrying capacity. In addition to thieves' tools, you can stow two 1-pint {eq-misc/flask/s} in specially designed pockets that conceal the items' bulk from common view, with the same circumstance bonus as a subversive vest."
 		]
 	},
 	"subversive_vest_vestment": {
@@ -4062,7 +4065,7 @@
 			"**Price** 8 gp; **Weight** 19 lbs.  ",
 			"**Category** Kits",
 			"",
-			"This kit includes a backpack, a bedroll, a belt pouch, a flint and steel, an iron pot, a mess kit, soap, torches (10), trail rations (5 days), and a waterskin."
+			"This kit includes a {eq-misc/backpack}, a {eq-misc/bedroll}, a {eq-misc/belt pouch}, a {eq-misc/flint and steel}, an {eq-misc/iron pot}, a {eq-misc/mess kit}, {eq-misc/soap}, {eq-misc/torches} (10), {eq-misc/trail rations} (5 days), and a {eq-misc/waterskin}."
 		]
 	},
 	"sun_cinder": {
@@ -4074,7 +4077,7 @@
 			"**Price** 25 gp; **Weight** 1 lb.  ",
 			"**Category** Alchemical Tools",
 			"",
-			"Sun cinder is a fine powder that glows faintly when exposed to light. One bag of this alchemically created talc contains 5 uses. When opened, it shines like a candle. If sprinkled on a torch or similar flame, 1 dose of sun cinder increases the light level of the area that flame illuminates by one additional step, up to bright light. This increased illumination lasts for 1 minute. Multiple doses of sun cinder can be used to further increase the light shed by the same source. A single dose of sun cinder does not affect flames larger than a torch. Sun cinder doesn't affect a light source's ability to penetrate magical darkness. Crafting 5 doses of sun cinder requires a successful DC 20 Craft (alchemy) check.",
+			"Sun cinder is a fine powder that glows faintly when exposed to light. One bag of this alchemically created talc contains 5 uses. When opened, it shines like a {eq-misc/candle}. If sprinkled on a {eq-misc/torch} or similar flame, 1 dose of sun cinder increases the light level of the area that flame illuminates by one additional step, up to bright light. This increased illumination lasts for 1 minute. Multiple doses of sun cinder can be used to further increase the light shed by the same source. A single dose of sun cinder does not affect flames larger than a torch. Sun cinder doesn't affect a light source's ability to penetrate magical darkness. Crafting 5 doses of sun cinder requires a successful DC 20 Craft (alchemy) check.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 20"
 		]
@@ -4088,7 +4091,7 @@
 			"**Price** 10 gp; **Weight** 1/2 lb.  ",
 			"**Category** Alchemical Remedies",
 			"",
-			"Each application of this alchemical solution, typically compounded from substances found in desert flowers, fruits, and roots, heals 1d4 points of nonlethal damage that the target has taken from heat exposure. If you succeed at a DC 20 Heal check while applying sun cream, you may add your Wisdom modifier to the nonlethal damage healed. A creature cannot benefit from more than one application of sun cream in a 24-hour period.",
+			"Each application of this alchemical solution, typically compounded from substances found in desert flowers, fruits, and roots, heals 1d4 points of nonlethal damage that the target has taken from {rule/heat /exposure>dangers}. If you succeed at a DC 20 Heal check while applying sun cream, you may add your Wisdom modifier to the nonlethal damage healed. A creature cannot benefit from more than one application of sun cream in a 24-hour period.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 20"
 		]
@@ -4102,7 +4105,7 @@
 			"**Price** 10 gp; **Weight** -  ",
 			"**Category** Clothing",
 			"",
-			"Made from ground antimony, this sooty cosmetic is used to line the eyes. It grants the wearer a +2 circumstance bonus on saves against light-based effects that would dazzle or blind him for 8 hours. A container of kohl holds 10 applications."
+			"Made from ground antimony, this sooty cosmetic is used to line the eyes. It grants the wearer a +2 circumstance bonus on saves against light-based effects that would {misc/dazzle>d} or {misc/blind>ed} him for 8 hours. A container of kohl holds 10 applications."
 		]
 	},
 	"sunderblock": {
@@ -4127,7 +4130,7 @@
 			"**Category** Channel Foci  ",
 			"**Deity** {faith/Nethys}",
 			"",
-			"This mask is a representation of Nethys's own. Activating the mask charges it with healing power. If a member of Nethys' faith wears the mask when it is activated, the first time the wearer takes damage, the mask releases the stored energy into the wearer, healing a number of hit points equal to the number of dice of the activating cleric's channel energy ability. The mask heals its wearer regardless of the type of channeled energy used and whether the target is living or undead. This healing does not prevent the wearer from dying because of hit point damage, and is mainly used to provide instant healing when a cleric is occupied or can only channel a harmful kind of energy. The mask remains charged until it heals someone or 24 hours pass."
+			"This mask is a representation of Nethys's own. Activating the mask charges it with healing power. If a member of Nethys' faith wears the mask when it is activated, the first time the wearer takes damage, the mask releases the stored energy into the wearer, healing a number of hit points equal to the number of dice of the activating cleric's {ability/channel energy} ability. The mask heals its wearer regardless of the type of channeled energy used and whether the target is living or undead. This healing does not prevent the wearer from dying because of hit point damage, and is mainly used to provide instant healing when a cleric is occupied or can only channel a harmful kind of energy. The mask remains charged until it heals someone or 24 hours pass."
 		]
 	},
 	"sundered_mask": { "copyof": "sundered_mask_nethys" },
@@ -4184,7 +4187,7 @@
 			"{SOURCE Aquatic Adventures/56}  ",
 			"**Price** 1 sp (mundane), 8 gp (potion); **Weight** 1 lb. (mundane), - (potion)",
 			"",
-			"While potion sponges are a reasonable enough method for air-breathers like undines to prepare to bring a potion underwater, aquatic creatures prefer a solution that allows them to prepare potions, beverages, and other liquids underwater to begin with. A sureseal bladder is made of a thin membrane that won't allow liquid through. By passing a solid spout or tube through the membrane, you can fill the bladder without allowing in any ambient seawater, and the membrane seals behind the spout. Once the bladder is full, the drinker can nip on the end of the membrane in order to sip the drink at her leisure, slowly crumpling the bladder for eventual disposal. The cheaper mundane sureseal bladders hold about 2 cups of liquid and work best for enjoying a favorite drink; the listed weight assumes the mundane sureseal bladder is full. Potions rely on drinking the entire dose, so potion sureseal bladders, while much smaller (just large enough for a potion), are pressurized in order to expel the entire potion at once without losing any of it, allowing the drinker to drink them as a standard action just like drinking a potion above the waves. Either type of sureseal bladder can be used only once."
+			"While {eq-misc/potion sponge/s} are a reasonable enough method for air-breathers like undines to prepare to bring a potion underwater, aquatic creatures prefer a solution that allows them to prepare potions, beverages, and other liquids underwater to begin with. A sureseal bladder is made of a thin membrane that won't allow liquid through. By passing a solid spout or tube through the membrane, you can fill the bladder without allowing in any ambient seawater, and the membrane seals behind the spout. Once the bladder is full, the drinker can nip on the end of the membrane in order to sip the drink at her leisure, slowly crumpling the bladder for eventual disposal. The cheaper mundane sureseal bladders hold about 2 cups of liquid and work best for enjoying a favorite drink; the listed weight assumes the mundane sureseal bladder is full. Potions rely on drinking the entire dose, so potion sureseal bladders, while much smaller (just large enough for a potion), are pressurized in order to expel the entire potion at once without losing any of it, allowing the drinker to drink them as a standard action just like drinking a potion above the waves. Either type of sureseal bladder can be used only once."
 		]
 	},
 	"sureseal_bladder_potion": {
@@ -4200,7 +4203,7 @@
 			"**Price** 80 gp; **Weight** 1 lb.  ",
 			"**Category** Alchemical Remedies",
 			"",
-			"Mythic: Consuming a vial of surge syrup grants you a +1d4 alchemical bonus on your next mythic surge roll. Every round after you consume surge syrup that you don't use your surge ability, the bonus provided by this item decreases by 1 (minimum 0).",
+			"**Mythic:** Consuming a vial of surge syrup grants you a +1d4 alchemical bonus on your next mythic surge roll. Every round after you consume surge syrup that you don't use your surge ability, the bonus provided by this item decreases by 1 (minimum 0).",
 			"",
 			"**{rule/Spontaneous Alchemy} Recipe** (12 {eq-reagent/dew of lunary} + 40 {eq-reagent/spirit of wine} + 40 {eq-reagent/urea})/congelation; Craft 25  ",
 			"**Time** 10 minutes; **Tools** {eq-misc/alchemist's lab}; **Type** alchemical remedy"
@@ -4219,7 +4222,7 @@
 			"**Price** 20 gp; **Weight** 5 lbs.  ",
 			"**Category** Tools",
 			"",
-			"When used in conjunction with a healer's kit, surgeon's tools raise the kit's bonus to a +3 circumstance bonus on Heal checks to treat wounds or deadly wounds."
+			"When used in conjunction with a {eq-misc/healer's kit}, surgeon's tools raise the kit's bonus to a +3 circumstance bonus on Heal checks to treat wounds or deadly wounds."
 		]
 	},
 	"surgical_jelly": {
@@ -4231,7 +4234,7 @@
 			"**Price** 300 gp; **Weight** 1 lb.  ",
 			"**Category** Alchemical Remedies",
 			"",
-			"When ingested, this thick red gelatinous substance seeks out and surgically eliminates invasive threats to the body. Consuming surgical jelly immediately ends any {rule/infestations} (such as rot grubs), implanted eggs (such as those implanted by xills), or other non-disease effects that can be cured by {spell/remove disease}, so long as such a cure does not require a caster level check. Consuming a pot of surgical jelly is a full-round action.",
+			"When ingested, this thick red gelatinous substance seeks out and surgically eliminates invasive threats to the body. Consuming surgical jelly immediately ends any {rule/infestations} (such as {infestation/rot grubs}), implanted eggs (such as those implanted by {monster/xill/s}), or other non-disease effects that can be cured by {spell/remove disease}, so long as such a cure does not require a caster level check. Consuming a pot of surgical jelly is a full-round action.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 25"
 		]
@@ -4244,7 +4247,7 @@
 			"{SOURCE Ultimate Equipment/58}  ",
 			"**Price** 5 gp (common), 50 gp (masterwork); **Weight** 4 lbs. (common), 5 lbs. (masterwork)",
 			"",
-			"A survival kit provides the necessary tools for day-to-day existence in a temperate wilderness. It typically contains a flint and steel, a mess kit, two waterskins (enough to hold water for 1 person for 1 day), very basic maps showing major landmarks, and a small utility knife.",
+			"A survival kit provides the necessary tools for day-to-day existence in a temperate wilderness. It typically contains a {eq-misc/flint and steel}, a {eq-misc/mess kit}, two {eq-misc/waterskin/s} (enough to hold water for 1 person for 1 day), very basic maps showing major landmarks, and a small utility knife.",
 			"",
 			"A masterwork survival kit contains higher quality gear and a guide to identifying flora and fauna. It grants you a +2 circumstance bonus on Survival checks to get along in the wild, deal with severe weather, keep from getting lost, avoid natural hazards such as quicksand, and predict the weather."
 		]
@@ -4277,7 +4280,7 @@
 			"**Price** 9 gp; **Weight** 42 lbs.  ",
 			"**Category** Kits",
 			"",
-			"This kit includes a backpack, a bedroll, a belt pouch, a flint and steel, an iron pot, a mess kit, rope, soap, torches (10), trail rations (5 days), and a waterskin."
+			"This kit includes a {eq-misc/backpack}, a {eq-misc/bedroll}, a {eq-misc/belt pouch}, a {eq-misc/flint and steel}, an {eq-misc/iron pot}, a {eq-misc/mess kit}, {eq-misc/rope}, {eq-misc/soap}, {eq-misc/torches} (10), {eq-misc/trail rations} (5 days), and a {eq-misc/waterskin}."
 		]
 	},
 	"sweet_rest": {
@@ -4329,7 +4332,7 @@
 			"**Price** 1 gp; **Weight** 1 lb.  ",
 			"**Category** Food/Drink",
 			"",
-			"Sylirican lemons make prized preserves when ground, salted, and sealed in jars, adding an intense citrus flavor when sprinkled atop other foods. If, within 8 hours of consuming a meal seasoned with Sylirican lemons, you gain the confused condition, you can roll 1d6 and subtract the result from the result of your d% roll to determine what action you take for the first round in which you are confused. This benefit does not stack with itself. The price and weight listed represent a jar containing enough preserved lemons to season 10 meals."
+			"Sylirican lemons make prized preserves when ground, salted, and sealed in jars, adding an intense citrus flavor when sprinkled atop other foods. If, within 8 hours of consuming a meal seasoned with Sylirican lemons, you gain the {misc/confused} condition, you can roll 1d6 and subtract the result from the result of your d% roll to determine what action you take for the first round in which you are confused. This benefit does not stack with itself. The price and weight listed represent a jar containing enough preserved lemons to season 10 meals."
 		]
 	},
 	"symptom_kit": {
@@ -4356,14 +4359,7 @@
 			"**Price** 150 gp; **Weight** -  ",
 			"**Category** Alchemical Remedies",
 			"",
-			"A laboratory-created version of the expensive and infamous Osirian drug mumia, synthetic mumia is a mixture of honey, embalming fluids, and various animal organs. The murky liquid comes enclosed in small packets made of intestine. Mumia and synthetic mumia may be taken interchangeably to stave off the effects of addiction to either substance, and is thus used by some mumia junkies hoping to quit their addiction. Crafting synthetic mumia requires a successful DC 14 Craft (Alchemy) check.",
-			"",
-			"### Synthetic Mumia",
-			"",
-			"**Type** ingested or injury; **Addiction** moderate, Fortitude DC 14  ",
-			"**Price** 150 gp  ",
-			"**Effects** 1 hour; +2 alchemical bonus on saving throws against spells and effects with the curse or disease descriptor, fatigue  ",
-			"**Damage** 1d2 Wis damage",
+			"A laboratory-created version of the expensive and infamous Osirian drug {drug/mumia}, synthetic mumia is a mixture of honey, embalming fluids, and various animal organs. The murky liquid comes enclosed in small packets made of intestine. Mumia and synthetic mumia may be taken interchangeably to stave off the effects of addiction to either substance, and is thus used by some mumia junkies hoping to quit their addiction.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 14"
 		]
@@ -4389,9 +4385,9 @@
 			"**Price** 15 gp; **Weight** 2 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
-			"This thin, rectangular wooden board is printed with an arching array of alphabetical letters, numbers, and short affirmative and negative messages. Paired with a small, heart-shaped pointer on short wooden legs, this device enables communication with spiritual entities or the user's deep subconscious mind. A talking board can be used in place of a pencil and paper or a writing planchette when attempting a Linguistics check with the automatic writing occult skill unlock, and provides a +2 circumstance bonus on such checks. In addition, given the size of the board, the user can work in conjunction with another psychically sensitive creature who can bolster the attempt with a successful aid another check.",
+			"This thin, rectangular wooden board is printed with an arching array of alphabetical letters, numbers, and short affirmative and negative messages. Paired with a small, heart-shaped pointer on short wooden legs, this device enables communication with spiritual entities or the user's deep subconscious mind. A talking board can be used in place of a pencil and paper or a writing planchette when attempting a Linguistics check with the {skill/automatic writing} occult skill unlock, and provides a +2 circumstance bonus on such checks. In addition, given the size of the board, the user can work in conjunction with another psychically sensitive creature who can bolster the attempt with a successful aid another check.",
 			"",
-			"A user can also use the board alone to initiate the recall memory use of the hypnotism occult skill unlock. The user attempts the skill check as normal, with herself as the subject, and receives a +2 circumstance bonus on the check.",
+			"A user can also use the board alone to initiate the recall memory use of the {skill/hypnotism} occult skill unlock. The user attempts the skill check as normal, with herself as the subject, and receives a +2 circumstance bonus on the check.",
 			"",
 			"When used to channel a haunt capable of communication, a talking board doubles the rate of communication with the haunt, and grants the user a +4 circumstance bonus on Linguistics checks to decipher the cryptic messages.",
 			"",
@@ -4484,7 +4480,7 @@
 			"**Price** 3 sp; **Weight** -  ",
 			"**Category** Food/Drink",
 			"",
-			"elp tea is a favorite relaxing drink under the sea, brewed from various rare species of kelp to create over a dozen distinctive flavors. The listed price pays for enough tea to fill a small waterproof bladder such as a sureseal bladder and doesn't include the price of the bladder."
+			"Kelp tea is a favorite relaxing drink under the sea, brewed from various rare species of kelp to create over a dozen distinctive flavors. The listed price pays for enough tea to fill a small waterproof bladder such as a sureseal bladder and doesn't include the price of the bladder."
 		]
 	},
 	"teaching_staff": {
@@ -4497,7 +4493,7 @@
 			"**Category** Channel Foci  ",
 			"**Deity** Any",
 			"",
-			"Carved from heartwood and bearing ornate symbols along its length, this staff is used to reveal critical or uplifting information to other members of the faith, usually during a sermon. When activated, all creatures of the cleric's religion gain a sacred (if positive energy) or profane (if negative energy) bonus on Knowledge (religion) checks for 1 minute; this bonus is equal to the number of dice of the cleric's channel energy ability."
+			"Carved from heartwood and bearing ornate symbols along its length, this staff is used to reveal critical or uplifting information to other members of the faith, usually during a sermon. When activated, all creatures of the cleric's religion gain a sacred (if positive energy) or profane (if negative energy) bonus on Knowledge (religion) checks for 1 minute; this bonus is equal to the number of dice of the cleric's {ability/channel energy} ability."
 		]
 	},
 	"teapot": {
@@ -4510,22 +4506,6 @@
 			"**Category** Adventuring Gear",
 			"",
 			"This is a small spouted pot for cooking tea. It includes a lid and a strainer, and can make four cups of tea at a time."
-		]
-	},
-	"tears_of_razmir": {
-		"name": "Tears of Razmir",
-		"sources": [ "Inner Sea World Guide" ],
-		"description": [
-			"## Tears of Razmir",
-			"{SOURCE Inner Sea World Guide/293}  ",
-			"**Price** 25 gp; **Weight** -  ",
-			"**Category** Adventuring Gear",
-			"",
-			"Razmir's faithful utilize a number of tools to help them control the populace, but few are more insidious than the tears of Razmir. This alchemical concoction contains mild narcotics and hallucinogens that bolster the user's energy and resistance to pain. It is also highly addictive. Although the clergy gives away tears of Razmir to non-users, it eventually demands payment - as much as 10 gp per dose from wealthy addicts.",
-			"",
-			"**Type** ingested; **Addiction** major, Fortitude DC 18  ",
-			"**Effects** 1 hour; +1 alchemical bonus to Constitution, -2 penalty on Wisdom-based skill checks  ",
-			"**Damage** 1d2 Con damage"
 		]
 	},
 	"telescope_x10": {
@@ -4578,11 +4558,12 @@
 		"sources": [
 			"Ultimate Equipment",
 			"Adventurer's Armory",
-			"Advanced Player's Guide"
+			"Advanced Player's Guide",
+			"PRPG Core Rulebook"
 		],
 		"description": [
 			"## Tent",
-			"{SOURCE Ultimate Equipment/58;Adventurer's Armory/19;Advanced Player's Guide/183}  ",
+			"{SOURCE Ultimate Equipment/58;Adventurer's Armory/19;Advanced Player's Guide/183;PRPG Core Rulebook/158}  ",
 			"**Price** 30 gp (large), 15 gp (medium), 100 gp (pavilion), 10 gp (small); **Weight** 40 lbs. (large), 30 lbs. (medium), 50 lbs. (pavilion), 20 lbs. (small)",
 			"",
 			"Tents come in a variety of sizes and accommodate between one and 10 people. A small tent holds one Medium creature and takes 20 minutes to assemble, a medium tent holds two creatures and takes 30 minutes, a large tent holds four creatures and takes 45 minutes, and a pavilion holds 10 creatures and takes 90 minutes (two Small creatures count as a Medium creature, and one Large creature counts as two Medium creatures). Pavilion tents are large enough to accommodate a small fire in the center. Packing up a tent takes half as long as assembling it."
@@ -4612,18 +4593,11 @@
 			"When fastened over a normal tent, this sheet of resilient waterproof animal gut provides an additional layer of protection against harsh weather and pestering insects. Attaching the cover requires 1 minute of work. The occupants of a tent that is fitted with the cover gain a +5 circumstance bonus on saves to resist the adverse effects of dust storms, rain, snow, and other harmful weather conditions. The occupants also gain DR 5/- against swarm damage caused by swarms composed of Diminutive or smaller creatures outside the tent. If an occupant takes no damage from a swarm as a result of this DR, she is not affected by the swarm's distraction ability. The swarm can attempt a DC 20 Reflex save as a full-round action to enter the tent and deal full damage in subsequent rounds."
 		]
 	},
-	"tent": {
-		"name": "Tent",
-		"sources": [ "PRPG Core Rulebook" ],
-		"description": [
-			"## Tent",
-			"{SOURCE PRPG Core Rulebook/158}  ",
-			"**Price** 10 gp; **Weight** 20 lbs.  ",
-			"**Category** Adventuring Gear",
-			"",
-			"No description was provided for this entry."
-		]
-	},
+	"tent": { "copyof": "tent_small" },
+	"small_tent": { "copyof": "tent_small" },
+	"medium_tent": { "copyof": "tent_medium" },
+	"large_tent": { "copyof": "tent_large" },
+	"pavilion_tent": { "copyof": "tent_pavilion" },
 	"tent_hanging": {
 		"name": "Tent, hanging",
 		"sources": [ "Advanced Race Guide" ],
@@ -4633,7 +4607,7 @@
 			"**Price** 20 gp; **Weight** 15 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
-			"A hanging tent is a small tent (able to comfortably house a single Medium creature) with a teardrop shape, which hangs from a sturdy anchor rope. The rope can be tied to a tree limb, grappling hook, or even a piton hammered into a cliff side. Hanging tents are used primarily in mountainous terrain (where no flat surface may be available for camping) and swamps (where no dry ground may be available). Climbing in or out of a hanging tent is a full-round action that requires a DC 10 Climb check. Failure indicates another attempt must be made, while failure by 5 or more indicates the camper has fallen from the tent."
+			"A hanging tent is a {eq-misc/small tent} (able to comfortably house a single Medium creature) with a teardrop shape, which hangs from a sturdy anchor rope. The rope can be tied to a tree limb, grappling hook, or even a piton hammered into a cliff side. Hanging tents are used primarily in mountainous terrain (where no flat surface may be available for camping) and swamps (where no dry ground may be available). Climbing in or out of a hanging tent is a full-round action that requires a DC 10 Climb check. Failure indicates another attempt must be made, while failure by 5 or more indicates the camper has fallen from the tent."
 		]
 	},
 	"tepache_cup": {
@@ -4716,7 +4690,7 @@
 			"{SOURCE Dungeoneer's Handbook/25}  ",
 			"**Price** 70 gp (common), 820 gp (mithral); **Weight** 3 lbs. (common), 1 1/2 lbs. (mithral)",
 			"",
-			"These long-reaching extenders can be attached to or detached from thieves' tools as a standard action, allowing the user to make Disable Device checks on devices in any space he could reach with a reach weapon. High-quality mirrors on the shafts let him see what he's doing, but he takes a -4 penalty on Disable Device checks when working on a device more than 5 feet away."
+			"These long-reaching extenders can be attached to or detached from {eq-misc/thieves' tools} as a standard action, allowing the user to make Disable Device checks on devices in any space he could reach with a reach weapon. High-quality mirrors on the shafts let him see what he's doing, but he takes a -4 penalty on Disable Device checks when working on a device more than 5 feet away."
 		]
 	},
 	"thieves_tool_extenders_mithral": {
@@ -4805,7 +4779,7 @@
 			"**Price** 275 gp; **Weight** 3 lbs.  ",
 			"**Category** Alchemical Tools",
 			"",
-			"This intricate glass and metal jug vibrates gently, and contains a light cloud of white vapor and crackling blue electricity. Djinn of the Plane of Air use thunder kettles to capture the essence of air and lightning elementals within planar super storms. When uncorked as a standard action, a thunder kettle releases a rumbling cacophony of thunder in a 10-foot-radius burst. Creatures in the area must succeed at a DC 16 Fortitude save or take 1d6 points of sonic damage and become staggered for 1 round. A successful save halves the damage and negates the staggered condition. This item can be crafted with a successful DC 25 Craft (alchemy) check.",
+			"This intricate glass and metal jug vibrates gently, and contains a light cloud of white vapor and crackling blue electricity. Djinn of the Plane of Air use thunder kettles to capture the essence of air and lightning elementals within planar super storms. When uncorked as a standard action, a thunder kettle releases a rumbling cacophony of thunder in a 10-foot-radius {misc/burst}. Creatures in the area must succeed at a DC 16 Fortitude save or take 1d6 points of sonic damage and become {misc/staggered} for 1 round. A successful save halves the damage and negates the staggered condition. This item can be crafted with a successful DC 25 Craft (alchemy) check.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 25"
 		]
@@ -4856,7 +4830,7 @@
 			"**Price** 1 gp; **Weight** -  ",
 			"**Category** Alchemical Tools",
 			"",
-			"The alchemical substance on the end of this small, wooden stick ignites when struck against a rough surface (a move action). Creating a flame with a tindertwig is much faster than creating a flame with tinder and a flint and steel or magnifying glass. Lighting a torch with a tindertwig is a standard action rather than a full-round action, and lighting any other fire with one is at least a standard action. A tindertwig burns for 1d2 rounds and sheds light as a candle. Tindertwigs are waterproof, but must be dried before you can strike them.",
+			"The alchemical substance on the end of this small, wooden stick ignites when struck against a rough surface (a move action). Creating a flame with a tindertwig is much faster than creating a flame with tinder and a {eq-misc/flint and steel} or magnifying glass. Lighting a torch with a tindertwig is a standard action rather than a full-round action, and lighting any other fire with one is at least a standard action. A tindertwig burns for 1d2 rounds and sheds light as a {eq-misc/candle}. Tindertwigs are waterproof, but must be dried before you can strike them.",
 			"",
 			"**{rule/Spontaneous Alchemy} Recipe** (2 {eq-reagent/brimstone} + 1 {eq-reagent/phosphorus})/ceration; Craft 25  ",
 			"**Time** 10 minutes; **Tools** {eq-misc/crucible}; **Type** alchemical tool"
@@ -4976,7 +4950,7 @@
 			"**Price** 115 gp; **Weight** 1 lb.  ",
 			"**Category** Tools",
 			"",
-			"This ornately etched censer has a small hidden compartment under the heat source that can hold 1 dose of poison. When in use, the censer's heat source indirectly heats the poison, causing it to mix with the burning incense and allow the poison to permeate the air, filling a 20-foot radius centered on the censer. The poison's type changes to inhaled, and it is effective for 5 minutes before it is entirely burned off."
+			"This ornately etched {eq-misc/censer} has a small hidden compartment under the heat source that can hold 1 dose of poison. When in use, the censer's heat source indirectly heats the poison, causing it to mix with the burning {eq-misc/incense} and allow the poison to permeate the air, filling a 20-foot radius centered on the censer. The poison's type changes to inhaled, and it is effective for 5 minutes before it is entirely burned off."
 		]
 	},
 	"track_obscuring_soles": {
@@ -5000,7 +4974,7 @@
 			"**Price** 563 gp; **Weight** 33 lbs.  ",
 			"**Category** Kits",
 			"",
-			"The exact location of a dragon's lair must sometimes be learned through exploration. This kit provides tools helpful in tracking a dragon back to its lair and includes an area map, a climber's kit, an elixir of swimming, an everburning torch, a footprint book, a grappling hook, a hammer, eight pitons, four sacks, and 100 feet of silk rope."
+			"The exact location of a dragon's lair must sometimes be learned through exploration. This kit provides tools helpful in tracking a dragon back to its lair and includes an area map, a {eq-misc/climber's kit}, an {magic-wondrous/elixir of swimming}, an {eq-misc/everburning torch}, a {eq-misc/footprint book}, a {eq-misc/grappling hook}, a {eq-misc/hammer}, eight {eq-misc/piton/s}, four {eq-misc/sack/s}, and 100 feet of {eq-misc/silk rope}."
 		]
 	},
 	"trackers_snuff": {
@@ -5012,7 +4986,7 @@
 			"**Price** 200 gp; **Weight** -  ",
 			"**Category** Alchemical Tools",
 			"",
-			"When inhaled, this finely ground, alchemically treated tobacco greatly enhances your senses, especially your sense of smell. It grants the scent ability and a +2 alchemical bonus on Perception checks for 1 hour. However, once the effect wears off your body is wracked with terrible pain as your joints begin to stiffen and seize, dealing 1d2 points of Dexterity damage to you.",
+			"When inhaled, this finely ground, alchemically treated {eq-misc/tobacco} greatly enhances your senses, especially your sense of smell. It grants the scent ability and a +2 alchemical bonus on Perception checks for 1 hour. However, once the effect wears off your body is wracked with terrible pain as your joints begin to stiffen and seize, dealing 1d2 points of Dexterity damage to you.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 30"
 		]
@@ -5055,7 +5029,7 @@
 			"**Price** 10 gp; **Weight** 5 lbs.  ",
 			"**Category** Alchemical Tools",
 			"",
-			"This small box of specially prepared catfolk pheromones and alchemical reagents can be used to leave a small group of subtle but long-lasting scents that only catfolk can smell and decipher. Given a minute, a catfolk can create a scent mixture and apply it to a solid object, such as a tree, a wall, or even a smaller item such as a weapon or potion vial. When the catfolk does this, it leaves one of the following scent impressions: danger, food, shelter, or possession. The possession impression is always keyed to the specific catfolk using the kit, and signifies that she owns the territory or item. Other races can attempt to use this kit to create the danger, food, or shelter impression, but doing so requires a successful DC 20 Craft (alchemy) check. A catfolk can detect a particular scent applied with a trailscent kit from 30 feet away. If the scent is upwind, the range at which a catfolk can detect the scent increases to 60 feet; if it is downwind, the range drops to 15 feet. A catfolk with the scent racial quality doubles those distances. A scent impression lasts for 1 year or until it is washed away. Each kit has 10 uses.",
+			"This small box of specially prepared {race/catfolk} pheromones and alchemical reagents can be used to leave a small group of subtle but long-lasting scents that only catfolk can smell and decipher. Given a minute, a catfolk can create a scent mixture and apply it to a solid object, such as a tree, a wall, or even a smaller item such as a weapon or potion vial. When the catfolk does this, it leaves one of the following scent impressions: danger, food, shelter, or possession. The possession impression is always keyed to the specific catfolk using the kit, and signifies that she owns the territory or item. Other races can attempt to use this kit to create the danger, food, or shelter impression, but doing so requires a successful DC 20 Craft (alchemy) check. A catfolk can detect a particular scent applied with a trailscent kit from 30 feet away. If the scent is upwind, the range at which a catfolk can detect the scent increases to 60 feet; if it is downwind, the range drops to 15 feet. A catfolk with the scent racial quality doubles those distances. A scent impression lasts for 1 year or until it is washed away. Each kit has 10 uses.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 25"
 		]

@@ -820,7 +820,7 @@
 			"| 72 | Pottery fragments | Podium |",
 			"| 73 | Papers | Pool |",
 			"| 74 | Parasol | {eq-misc/Rack} |",
-			"| 75 | {eq-misc/Pouch>_belt_empty} | Rubble |",
+			"| 75 | {eq-misc/belt_<Pouch} | Rubble |",
 			"| 76 | Prosthetic limb | {eq-misc/Saddle>_riding} |",
 			"| 77 | {eq-misc/Rope>_50_ft} | Safe |",
 			"| 78 | Rusty {eq-misc/chain>_10_ft} | Sconce |",

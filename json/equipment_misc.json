@@ -2346,10 +2346,13 @@
 	},
 	"belt_pouch": {
 		"name": "Belt pouch",
-		"sources": [ "Ultimate Equipment" ],
+		"sources": [
+			"Ultimate Equipment",
+			"PRPG Core Rulebook"
+		],
 		"description": [
 			"## Belt pouch",
-			"{SOURCE Ultimate Equipment/56}  ",
+			"{SOURCE Ultimate Equipment/56;PRPG Core Rulebook/158}  ",
 			"**Price** 1 gp; **Weight** 1/2 lb.  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -3059,7 +3062,7 @@
 			"**Price** 200 gp; **Weight** 2 lbs.  ",
 			"**Category** Alchemical Tools",
 			"",
-			"As a standard action, this ornate rectangular jar can be vigorously shaken to cause its contents to mix and activate. Once shaken, the contents of the jar shed light as a {eq-misc/sunrod} for 6 hours. A jar of activated bottled sunlight can be thrown as a splash weapon with a range increment of 10 feet. Upon striking a solid object, the bottled sunlight creates a 30-foot-radius burst of natural sunlight that persists for 1 round, after which all light from the jar fades. Throwing an inactive jar of bottled sunlight destroys the item, leaving only a smoldering pile of ashes where it struck. Crafting this item requires a successful DC 30 Craft (alchemy) check.",
+			"As a standard action, this ornate rectangular jar can be vigorously shaken to cause its contents to mix and activate. Once shaken, the contents of the jar shed light as a {eq-misc/sunrod} for 6 hours. A jar of activated bottled sunlight can be thrown as a splash weapon with a range increment of 10 feet. Upon striking a solid object, the bottled sunlight creates a 30-foot-radius {misc/burst} of natural sunlight that persists for 1 round, after which all light from the jar fades. Throwing an inactive jar of bottled sunlight destroys the item, leaving only a smoldering pile of ashes where it struck. Crafting this item requires a successful DC 30 Craft (alchemy) check.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 30"
 		]
@@ -3331,19 +3334,25 @@
 	"bullseye_lantern": {
 		"name": "Bullseye lantern",
 		"sources": [
+			"Adventurer's Armory",
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
 		"description": [
 			"## Bullseye lantern",
-			"{SOURCE Ultimate Equipment/56;PRPG Core Rulebook/158}  ",
-			"**Price** 12 gp; **Weight** 3 lbs.  ",
+			"{SOURCE Ultimate Equipment/56;PRPG Core Rulebook/158;Adventurer's Armory/19}  ",
+			"**Price** 12 gp (normal), 17 gp (waterproof); **Weight** 3 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
-			"A bullseye lantern provides normal light in a 60-foot cone and increases the light level by one step in the area beyond that, out to a 120-foot cone (darkness becomes dim light and dim light becomes normal light). A bullseye lantern does not increase the light level in normal light or bright light. A lantern burns for 6 hours on 1 pint of {eq-misc/oil}. You can carry a lantern in one hand."
+			"A bullseye lantern provides normal light in a 60-foot cone and increases the light level by one step in the area beyond that, out to a 120-foot cone (darkness becomes dim light and dim light becomes normal light). A bullseye lantern does not increase the light level in normal light or bright light. A lantern burns for 6 hours on 1 pint of {eq-misc/oil}. You can carry a lantern in one hand.",
+			"",
+			"**Waterproof Lantern:** Meant to shelter its flame from both water and wind, this lantern treats severe winds as strong winds, windstorms as severe winds, and hurricanes as windstorms for the purpose of determining whether they extinguish its flame. It holds enough air to burn underwater for 5 rounds before going dark."
 		]
 	},
 	"lantern_bullseye": { "copyof": "bullseye_lantern" },
+	"waterproof_lantern_bullseye": { "copyof": "bullseye_lantern" },
+	"waterproof_bullseye_lantern": { "copyof": "bullseye_lantern" },
+	"lantern_waterproof_bullseye": { "copyof": "bullseye_lantern" },
 	"bunk": {
 		"name": "Bunk",
 		"sources": [ "Alchemy Manual" ],
@@ -4690,7 +4699,7 @@
 			"**Price** 500 gp; **Weight** 50 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
-			"This clockwork device is powered by heatstones and seawater and can turn a ship's oar with tireless mechanical strokes. When installed on a water vehicle that uses muscle as a means of propulsion, a clockwork oar performs the function of one Medium rower. A broken clockwork oar functions only half as well as an unbroken one, so two broken clockwork oars are required to perform the function of one Medium rower.",
+			"This clockwork device is powered by heatstones and seawater and can turn a ship's {eq-misc/oar} with tireless mechanical strokes. When installed on a water vehicle that uses muscle as a means of propulsion, a clockwork oar performs the function of one Medium rower. A broken clockwork oar functions only half as well as an unbroken one, so two broken clockwork oars are required to perform the function of one Medium rower.",
 			"",
 			"For {rule/propulsion_and_<driving checks} with a water vehicle powered with only clockwork oars, the driver must attempt Disable Device or Knowledge (engineering) checks instead of the skill checks listed in the vehicle's driving check entry in its stat block. (These checks represent the sailor ensuring that all of the oars are moving in unison and without impediment.) If a water vehicle is powered with one or more clockwork oars but not solely with clockwork oars, the skills used for driving checks remain unchanged."
 		]

@@ -323,6 +323,7 @@
 	"increase_the_damage_die": { "copyof": "damage_die_adjustments" },
 	"deal_less_damage": { "copyof": "damage_die_adjustments" },
 	"one_size_category_larger": { "copyof": "damage_die_adjustments" },
+	"one_size_smaller": { "copyof": "damage_die_adjustments" },
 	"burst": {
 		"name": "Burst",
 		"sources": [ "PRPG Core Rulebook" ],
