@@ -4070,7 +4070,7 @@
 			"**Cost** 40 gp **Weight** -  ",
 			"**Category** Ammunition; **Proficiency** Exotic",
 			"",
-			"**Flare Cartridge:** When a flare cartridge hits its target, it deals only half the normal damage, but the creature struck is blinded for 1 round (Fortitude DC 15 reduces this to dazzled), and creatures within a 20-foot burst are dazzled for 1 round (Fortitude DC 15 negates the effect). Flare cartridges are also useful for sending up signal flares. Firing a flare cartridge increases the firearm's misfire value by 2 unless it is fired from a blunderbuss or a dragon pistol, in which case doing so only increases the firearm's misfire value by 1. Flares can be used only to attack single creatures; they do not work as a shot for a scatter weapon's cone attack.[^A]  ",
+			"**Flare Cartridge:** When a flare cartridge hits its target, it deals only half the normal damage, but the creature struck is blinded for 1 round (Fortitude DC 15 reduces this to dazzled), and creatures within a 20-foot {misc/burst} are dazzled for 1 round (Fortitude DC 15 negates the effect). Flare cartridges are also useful for sending up signal flares. Firing a flare cartridge increases the firearm's misfire value by 2 unless it is fired from a blunderbuss or a dragon pistol, in which case doing so only increases the firearm's misfire value by 1. Flares can be used only to attack single creatures; they do not work as a shot for a scatter weapon's cone attack.[^A]  ",
 			"**Cost** 10 gp **Weight** -  ",
 			"**Category** Ammunition; **Proficiency** Exotic",
 			"",
@@ -4211,7 +4211,7 @@
 			"## Black Powder",
 			"{SOURCE Ultimate Combat/141;Ultimate Equipment/41;Inner Sea World Guide/292}",
 			"",
-			"Black powder is the key explosive component within a firearm that enables it to function, but in larger amounts this alchemical material can be quite destructive on its own as well. A single dose of black powder is enough to power a single shot from most one-handed and two-handed firearms, while 10 doses are required to fire a cannon. Black powder is often stored and transported in kegs (which hold 100 doses), but in this quantity the powder itself becomes dangerous. Exposure to fire, electricity, or a misfire explosion causes black powder to explode - a single keg that explodes in this manner deals 5d6 points of fire damage to anyone within a 20-foot burst (DC 15 Reflex half). Storing black powder in a {eq-weapon/powder horn} protects the powder from explosion.",
+			"Black powder is the key explosive component within a firearm that enables it to function, but in larger amounts this alchemical material can be quite destructive on its own as well. A single dose of black powder is enough to power a single shot from most one-handed and two-handed firearms, while 10 doses are required to fire a cannon. Black powder is often stored and transported in kegs (which hold 100 doses), but in this quantity the powder itself becomes dangerous. Exposure to fire, electricity, or a misfire explosion causes black powder to explode - a single keg that explodes in this manner deals 5d6 points of fire damage to anyone within a 20-foot {misc/burst} (DC 15 Reflex half). Storing black powder in a {eq-weapon/powder horn} protects the powder from explosion.",
 			"",
 			"**Cost** 10 gp (dose)/1,000gp (keg) **Weight** - (dose)/5 lbs. (keg)  ",
 			"**Category** Ammunition; **Proficiency** Exotic"

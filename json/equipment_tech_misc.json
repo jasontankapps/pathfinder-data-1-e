@@ -279,7 +279,7 @@
 			"**Craft DC** 26; **Cost** 1,800 gp  ",
 			"{feat/Craft Technological Arms and Armor}, {rule/crafting<military| lab>oratories}",
 			"",
-			"Cylex is an exceptionally stable form of explosive that can be shaped at room temperature, like soft clay. Neon green in color, a single charge of cylex can be triggered to explode by using a {tech-misc/detonator} or applying 10 or more points of electricity damage to it in a single action. When detonated, a single use of cylex explodes in a 40-foot-radius spread and deals 6d6 points of bludgeoning damage and 6d6 points of fire damage to all creatures and objects in the area of effect. A successful DC 17 Reflex saving throw halves the damage."
+			"Cylex is an exceptionally stable form of explosive that can be shaped at room temperature, like soft clay. Neon green in color, a single charge of cylex can be triggered to explode by using a {tech-misc/detonator} or applying 10 or more points of electricity damage to it in a single action. When detonated, a single use of cylex explodes in a 40-foot-radius {misc/spread} and deals 6d6 points of bludgeoning damage and 6d6 points of fire damage to all creatures and objects in the area of effect. A successful DC 17 Reflex saving throw halves the damage."
 		]
 	},
 	"detonator": {
@@ -322,7 +322,7 @@
 			"**Cost** 375 gp (arc grenade), 3,000 gp (atom grenade), 125 gp (bang grenade), 1,650 gp (bio grenade), 375 gp (concussion grenade), 375 gp (EMP grenade), 375 gp (flash grenade), 375 gp (flechette grenade), 375 gp (fragmentation grenade), 1,125 gp (gravity grenade), 375 gp (inferno grenade), 800 gp (plasma grenade), 375 gp (soft grenade), 500 gp (sonic grenade), 375 gp (zero grenade)  ",
 			"{feat/Craft Technological Arms and Armor}, {rule/crafting<military| lab>oratories}",
 			"",
-			"A grenade is a small, cylindrical device that is designed to be thrown as a splash weapon or fired from a {tech-weapon/grenade launcher}. Before being thrown by hand, the grenade must be primed with a quick twist of a dial at one end and then armed with a click of a button at the center of that dial. Priming and arming a grenade is a free action; a grenade launcher primes and arms all grenades it fires. The grenade detonates at the beginning of the wielder's next turn, hopefully in the area targeted. When a grenade detonates, it damages all targets within a 20-foot-radius spread. A successful DC 15 Reflex save halves any damage dealt by a grenade.",
+			"A grenade is a small, cylindrical device that is designed to be thrown as a splash weapon or fired from a {tech-weapon/grenade launcher}. Before being thrown by hand, the grenade must be primed with a quick twist of a dial at one end and then armed with a click of a button at the center of that dial. Priming and arming a grenade is a free action; a grenade launcher primes and arms all grenades it fires. The grenade detonates at the beginning of the wielder's next turn, hopefully in the area targeted. When a grenade detonates, it damages all targets within a 20-foot-radius {misc/spread}. A successful DC 15 Reflex save halves any damage dealt by a grenade.",
 			"",
 			"The type of damage dealt by grenades varies widely and depends upon the nature of the specific grenade. The different types of grenades and the damage types they deal (along with any additional effects their damage deals) are listed below.",
 			"",
@@ -392,7 +392,7 @@
 			"**Craft DC** 20; **Cost** 375 gp  ",
 			"{feat/Craft Technological Arms and Armor}, {rule/crafting<military| lab>oratories}",
 			"",
-			"A gas grenade is a small, cylindrical device that is designed to be thrown as a splash weapon or fired from a grenade launcher. Before being thrown by hand, the grenade must be primed with a quick twist of a dial at one end and then armed with a click of a button at the center of that dial. The grenade detonates at the beginning of the wielder's next turn, hopefully in the area targeted. When a gas grenade detonates, it creates a 20-foot spread of foul-smelling toxic gas. All creatures in this area of effect must succeed at a DC 14 Fortitude save or become nauseated. This condition lasts as long as the creature is in the cloud and for 1d4+1 rounds after it leaves. The gas created lingers in the area for 5 rounds, and any creature that succeeds at its initial save but remains in the cloud must continue to save each round on its turn. The gas is not thick enough to obscure vision, and is a poison effect. The vapors can be dispersed in 1 round by moderate or stronger wind."
+			"A gas grenade is a small, cylindrical device that is designed to be thrown as a splash weapon or fired from a grenade launcher. Before being thrown by hand, the grenade must be primed with a quick twist of a dial at one end and then armed with a click of a button at the center of that dial. The grenade detonates at the beginning of the wielder's next turn, hopefully in the area targeted. When a gas grenade detonates, it creates a 20-foot {misc/spread} of foul-smelling toxic gas. All creatures in this area of effect must succeed at a DC 14 Fortitude save or become nauseated. This condition lasts as long as the creature is in the cloud and for 1d4+1 rounds after it leaves. The gas created lingers in the area for 5 rounds, and any creature that succeeds at its initial save but remains in the cloud must continue to save each round on its turn. The gas is not thick enough to obscure vision, and is a poison effect. The vapors can be dispersed in 1 round by moderate or stronger wind."
 		]
 	},
 	"grenade_gravity_grenade": {
@@ -1602,7 +1602,7 @@
 			"**Craft DC** 26; **Cost** 5,000 gp  ",
 			"{feat/Craft Technological Item}, {rule/crafting<production| lab>oratories}",
 			"",
-			"This small device emits a low, hissing sound when activated. While active, a white noise generator creates a 60-foot-radius spread in which all signals are completely blocked.",
+			"This small device emits a low, hissing sound when activated. While active, a white noise generator creates a 60-foot-radius {misc/spread} in which all signals are completely blocked.",
 			"",
 			"### On Signals",
 			"",
