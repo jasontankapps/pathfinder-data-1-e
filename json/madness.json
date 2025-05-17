@@ -358,7 +358,7 @@
 			"**Onset** 1d6 days  ",
 			"**Effect** -4 penalty on Wisdom- and Charisma-based skill checks; chance of becoming confused (see below)",
 			"",
-			"A schizophrenic character has lost his grip on reality, and can no longer tell the difference between what is real and what is not. These constant hallucinations cause the schizophrenic to appear erratic, chaotic, and unpredictable to others. Each time a schizophrenic character finds himself in a stressful situation (such as combat) he must make a Will save against his insanity's DC. Failure indicates that the character becomes [confused](rule/awareness_conditions) for 1d6 rounds.",
+			"A schizophrenic character has lost his grip on reality, and can no longer tell the difference between what is real and what is not. These constant hallucinations cause the schizophrenic to appear erratic, chaotic, and unpredictable to others. Each time a schizophrenic character finds himself in a stressful situation (such as combat) he must make a Will save against his insanity's DC. Failure indicates that the character becomes {misc/confused} for 1d6 rounds.",
 			"",
 			"*Horror Adventures* introduced {rule/different rules for |madness}, and provided a separate entry for {madness/schizophrenia}."
 		]

@@ -72,7 +72,7 @@
 			"**Effect** 1d4 Wisdom damage plus -4 penalty on Sense Motive checks and saving throws versus sleep effects for 1 hour;  ",
 			"**Cure** 2 saves",
 			"",
-			"The people of Farnvale make use of thisg rare toxin to help mask their condition and prepare visitors for transport to the bodythief."
+			"The people of Farnvale make use of this rare toxin to help mask their condition and prepare visitors for transport to the bodythief."
 		]
 	},
 	"green_prismatic_poison": {
@@ -153,7 +153,7 @@
 			"**Price** N/A; **Weight** &mdash;  ",
 			"**Type** contact or inhaled; **Save** Fortitude DC 18  ",
 			"**Frequency** 1/round for 6 rounds  ",
-			"**Effect** 1d2 Con damage, blindness and nausea for 1d10 minutes  ",
+			"**Effect** 1d2 Con damage, {misc/blind/ness} and {misc/nausea} for 1d10 minutes  ",
 			"**Cure** 2 consecutive saves",
 			"",
 			"This caustic substance is a poisonous irritant, and reacts with water (including moisture in the eyes, nose, mouth, and lungs) to create heat."
@@ -255,7 +255,7 @@
 			"**Price** 30 gp; **Weight** &mdash;  ",
 			"**Type** ingested; **Save** Fortitude DC 10  ",
 			"**Onset** 10 minutes; **Frequency** 1/minute for 15 minutes  ",
-			"**Effect** sickened for 1 minute; if the target is affected by a second dose while already under the effects of this poison, the victim is instead nauseated for 1 minute  ",
+			"**Effect** {misc/sickened} for 1 minute; if the target is affected by a second dose while already under the effects of this poison, the victim is instead {misc/nauseated} for 1 minute  ",
 			"**Cure** 1 save",
 			"",
 			"This mostly benign, malodorous mold induces temporary illness with no lasting effect, and it can be detected in food or drink with a DC 15 Perception check, unless the food is particularly pungent, in which case the Perception DC increases by up to 5. Named for students wishing to convincingly feign illness, anyone can easily cultivate this mold in dark, moist spaces."
@@ -272,7 +272,7 @@
 			"**Price** 50 gp; **Weight** &mdash;  ",
 			"**Type** injury; **Save** Fortitude DC 15  ",
 			"**Frequency** 1/round for 10 rounds  ",
-			"**Effect** 1d6 points of damage. Creatures immune to bleed effects are immune to this damage  ",
+			"**Effect** 1d6 points of damage. Creatures immune to {rule/bleed} effects are immune to this damage  ",
 			"**Cure** 1 save"
 		]
 	},
@@ -290,7 +290,7 @@
 			"**Effect** 1 Str damage  ",
 			"**Cure** 2 consecutive saves",
 			"",
-			"The ratfolk of Diguo-Dashu, the \"Empire of the Rats,\" developed this poison to help their soldiers in overtaking foes. The poison produces lactic acids that slowly degrade the target's muscles, though for full efficacy, an exceptionally high dosage, repeated application, or a particularly feeble opponent is required."
+			"The {race/ratfolk} of Diguo-Dashu, the \"Empire of the Rats,\" developed this poison to help their soldiers in overtaking foes. The poison produces lactic acids that slowly degrade the target's muscles, though for full efficacy, an exceptionally high dosage, repeated application, or a particularly feeble opponent is required."
 		]
 	},
 	"addlemind": {
@@ -319,7 +319,7 @@
 			"**Price** 75 gp; **Weight** &mdash;  ",
 			"**Type** ingested; **Save** Fortitude DC 12  ",
 			"**Onset** 10 minutes; **Frequency** 1/minute for 2 minutes  ",
-			"**Effect** This mixture gained popularity - and notoriety - when Calistrians used it for elaborate pranks, but now tricksters of all stripes use the colonic concoction for any number of reasons, such as to incommode a nosy interlocutor. After the first failed saving throw, the target is sickened for 1 minute, and after a second failure, the target is nauseated for 1 minute  ",
+			"**Effect** This mixture gained popularity - and notoriety - when Calistrians used it for elaborate pranks, but now tricksters of all stripes use the colonic concoction for any number of reasons, such as to incommode a nosy interlocutor. After the first failed saving throw, the target is {misc/sickened} for 1 minute, and after a second failure, the target is {misc/nauseated} for 1 minute  ",
 			"**Cure** 1 save"
 		]
 	},
@@ -352,7 +352,7 @@
 			"**Price** 75 gp; **Weight** &mdash;  ",
 			"**Type** injury; **Save** Fortitude DC 12  ",
 			"**Frequency** 1 round for 4 rounds  ",
-			"**Effect** 1d3 fire, 1d3 cold, and staggered 1 round  ",
+			"**Effect** 1d3 fire, 1d3 cold, and {misc/staggered} 1 round  ",
 			"**Cure** 1 save",
 			"",
 			"This greasy pale-blue liquid delivers a shocking sensation that is both freezing cold and searing hot. Gelidburn oil is popular among pickpockets looking to stab, snatch, and run."
@@ -369,7 +369,7 @@
 			"**Price** 75 gp; **Weight** &mdash;  ",
 			"**Type** ingested; **Save** Fortitude DC 13  ",
 			"**Onset** 1 minute; **Frequency** 1/minute for 6 minutes  ",
-			"**Effect** 1 Con damage and the creature is nauseated for 1 minute  ",
+			"**Effect** 1 Con damage and the creature is {misc/nauseated} for 1 minute  ",
 			"**Cure** 1 save",
 			"",
 			"These bright red seeds feature a single black dot each, giving them a superficial resemblance to an eye. The bright colors of the seeds make them attractive to certain animals, as well as those unfamiliar with wilderness lore. A character who succeeds at a DC 15 Knowledge (nature) or Survival check identifies the seed as poisonous. In some places, the seeds are used as jewelry."
@@ -386,7 +386,7 @@
 			"**Price** 75 gp; **Weight** &mdash;  ",
 			"**Type** injury; **Save** Fortitude DC 15  ",
 			"**Frequency** 1/round for 2 rounds  ",
-			"**Initial Effect** 1d2 Con damage; **Secondary Effect** bleed damage from non-poison sources increases by 1 for 1 minute  ",
+			"**Initial Effect** 1d2 Con damage; **Secondary Effect** {rule/bleed} damage from non-poison sources increases by 1 for 1 minute  ",
 			"**Cure** 1 save",
 			"",
 			"**{rule/Spontaneous Alchemy} Recipe** (6 {eq-reagent/gold} + 50 {eq-reagent/myrrh} + 30 {eq-reagent/quicksilver})/distillation; **Craft** DC 15  ",
@@ -404,7 +404,7 @@
 			"**Price** 80 gp; **Weight** &mdash;  ",
 			"**Type** inhaled; **Save** Fortitude DC 18  ",
 			"**Frequency** 1/minute for 2 minutes  ",
-			"**Initial Effect** staggered for 1 minute; **Secondary Effect** If already staggered, stunned, or unconscious, the victim becomes highly suggestible. If an event (whether true or false) is described to him, he unconsciously fabricates a detailed memory of the event, filling in any gaps in the description with his own best guesses. The confabulated memory can be disbelieved with a successful DC 18 Will save the first time it is recalled, but if the save fails, the victim treats it as completely genuine thereafter. All confabulated memories can be removed with a restoration or heal spell  ",
+			"**Initial Effect** {misc/staggered} for 1 minute; **Secondary Effect** If already staggered, {misc/stunned}, or {misc/unconscious}, the victim becomes highly suggestible. If an event (whether true or false) is described to him, he unconsciously fabricates a detailed memory of the event, filling in any gaps in the description with his own best guesses. The confabulated memory can be disbelieved with a successful DC 18 Will save the first time it is recalled, but if the save fails, the victim treats it as completely genuine thereafter. All confabulated memories can be removed with a restoration or heal spell  ",
 			"**Cure** 1 save",
 			"",
 			"**{rule/Spontaneous Alchemy} Recipe** (20 {eq-reagent/quicksilver} + 15 {eq-reagent/cytillesh spores})/digestion; **Craft** DC 18  ",
@@ -473,7 +473,7 @@
 			"**Price** 90 gp; **Weight** &mdash;  ",
 			"**Type** contact; **Save** Fortitude DC 11  ",
 			"**Onset** 10 minutes; **Frequency** 1/minute for 6 minutes  ",
-			"**Effect** 1 Int damage, 1 Wis damage, 1 Con damage, and blind for 1 minute  ",
+			"**Effect** 1 Int damage, 1 Wis damage, 1 Con damage, and {misc/blind} for 1 minute  ",
 			"**Cure** 2 saves"
 		]
 	},
@@ -491,7 +491,7 @@
 			"**Price** 100 gp; **Weight** &mdash;  ",
 			"**Type** ingested; **Save** Fortitude DC 14  ",
 			"**Onset** 10 minutes; **Frequency** 1/minute for 6 minutes  ",
-			"**Effect** 1d2 Str, target can attempt one save to cure a lycanthropy affliction contracted in the past hour  ",
+			"**Effect** 1d2 Str, target can attempt one save to cure a {corruption/lycanthropy} affliction contracted in the past hour  ",
 			"**Cure** 1 save"
 		]
 	},
@@ -509,7 +509,7 @@
 			"**Price** 100 gp; **Weight** &mdash;  ",
 			"**Type** injury; **Save** Fortitude DC 12  ",
 			"**Onset** 1 round; **Frequency** 1/round for 4 rounds  ",
-			"**Effect** 1 Con and 1 Wis and confusion 1 round  ",
+			"**Effect** 1 Con and 1 Wis and {misc/confusion} 1 round  ",
 			"**Cure** 1 save"
 		]
 	},
@@ -524,7 +524,7 @@
 			"**Price** 100 gp; **Weight** &mdash;  ",
 			"**Type** ingested; **Save** Fortitude DC 25  ",
 			"**Frequency** 1/minute for 6 minutes  ",
-			"**Initial Effect** sickened for 1d4 hours; **Secondary Effect** 1d3 Wis damage  ",
+			"**Initial Effect** {misc/sickened} for 1d4 hours; **Secondary Effect** 1d3 Wis damage  ",
 			"**Cure** 2 consecutive saves"
 		]
 	},
@@ -539,7 +539,7 @@
 			"**Price** 100 gp; **Weight** &mdash;  ",
 			"**Type** inhaled; **Save** Fortitude DC 14  ",
 			"**Frequency** 1/round for 4 rounds  ",
-			"**Effect** This plant's pollen contains a powerful hallucinogen that causes affected creatures to experience terribly realistic visions of death and destruction. The target is shaken until the beginning of her next turn. When the target succeeds at her saving throw against the poison, or when the initial duration ends, she is shaken for an additional 1d4 rounds. (This is not a fear effect.)  ",
+			"**Effect** This plant's pollen contains a powerful hallucinogen that causes affected creatures to experience terribly realistic visions of death and destruction. The target is {misc/shaken} until the beginning of her next turn. When the target succeeds at her saving throw against the poison, or when the initial duration ends, she is shaken for an additional 1d4 rounds. (This is not a fear effect.)  ",
 			"**Cure** 1 save"
 		]
 	},
@@ -554,7 +554,7 @@
 			"**Price** 100 gp; **Weight** &mdash;  ",
 			"**Type** ingested or injury; **Save** Fortitude DC 13  ",
 			"**Frequency** 1/round for 6 rounds  ",
-			"**Effect** 1d6 cold damage plus staggered for 1 round  ",
+			"**Effect** 1d6 cold damage plus {misc/staggered} for 1 round  ",
 			"**Cure** 2 saves"
 		]
 	},
@@ -691,7 +691,7 @@
 			"**Price** 125 gp; **Weight** &mdash;  ",
 			"**Type** contact; **Save** Fortitude DC 10  ",
 			"**Onset** 1 round  ",
-			"**Effect** sickened  ",
+			"**Effect** {misc/sickened}  ",
 			"**Cure** 2 consecutive saves or 1 minute spent washing the affected area",
 			"",
 			"Extracted from the mashed leaves of the pernicious {eq-misc/goblinvine}, this irritant is favored by goblins and tricksters alike."
@@ -813,7 +813,7 @@
 			"**Price** 175 gp; **Weight** &mdash;  ",
 			"**Type** inhaled; **Save** Fortitude DC 10 (see text)  ",
 			"**Frequency** 1/round for 3 rounds  ",
-			"**Effect** 1 Str damage (creatures with the vermin type are stunned for 1 round)  ",
+			"**Effect** 1 Str damage (creatures with the vermin type are {misc/stunned} for 1 round)  ",
 			"**Cure** 1 save",
 			"",
 			"Farmers protecting their crops and landlords maintaining their properties use insecticide to clear out pest infestations, but they must avoid the fumes of this dangerous gas. While it is formulated to exterminate vermin, the poison poses a danger to anyone. A single dose of insecticide immediately fills a 10-foot-by-10-foot area. It can be thrown at a range of 20 feet, and it dissipates after 1d6 rounds in a well-ventilated area. A moderate wind disperses the gas in 1 round. Creatures with the vermin type take a -5 penalty on the save"
@@ -848,7 +848,7 @@
 			"**Price** 200 gp; **Weight** &mdash;  ",
 			"**Type** injury; **Save** Fortitude DC 14  ",
 			"**Frequency** 1/round for 2 rounds  ",
-			"**Initial Effect** 1 Con damage; **Secondary Effect** nausea for 1d4 rounds  ",
+			"**Initial Effect** 1 Con damage; **Secondary Effect** {misc/nausea} for 1d4 rounds  ",
 			"**Cure** 1 save",
 			"",
 			"Black whinnis is a poison made from the same red creeper vine that produces the better-known {eq-poison/blue whinnis} poison, but the distilled sap from the blue whinnis thorns is further refined using a slightly more volatile process."
@@ -1100,7 +1100,7 @@
 			"**Price** 350 gp; **Weight** &mdash;  ",
 			"**Type** contact; **Save** Fortitude DC 16  ",
 			"**Onset** 1 minute; **Frequency** 1/minute for 6 minutes  ",
-			"**Initial Effect** 1 Dex drain and nauseated for 1 minute; **Secondary Effect** 1d2 Dex drain and sickened for 1 minute  ",
+			"**Initial Effect** 1 Dex drain and {misc/nauseated} for 1 minute; **Secondary Effect** 1d2 Dex drain and {misc/sickened} for 1 minute  ",
 			"**Cure** 1 save",
 			"",
 			"**{rule/Spontaneous Alchemy} Recipe** (70 {eq-reagent/dew of lunary} + 35 {eq-reagent/realgar} + 70 {eq-reagent/urea})/digestion; **Craft** DC 16  ",
@@ -1188,7 +1188,7 @@
 			"**Price** 400 gp; **Weight** &mdash;  ",
 			"**Type** ingested; **Save** Fortitude DC 15  ",
 			"**Onset** 1 round  ",
-			"**Effect** nauseated for 5 rounds  ",
+			"**Effect** {misc/nauseated} for 5 rounds  ",
 			"**Cure** 1 save",
 			"",
 			"Invented as part of a series of dares between feuding {monster/goblin} camps, this noxious brew fermented from a slurry of swamp flora is a favored concoction of the Licktoad tribe. The potent intoxicant is popular among goblinoids (who are immune to its nauseating effect), but all other races that partake of this frothy drink are wracked with nausea."
@@ -1225,7 +1225,7 @@
 			"**Effect** 1d2 Wis, see text  ",
 			"**Cure** 2 saves",
 			"",
-			"Crafted by alchemists in Galt, gray justice has found use among the {pclass/Gray Gardener/s} as an apparent truth serum. Gray justice makes victims more susceptible to interrogation and causes side effects such as lethargy, confusion, and nausea; some Gardeners administer it to prisoners before their execution to make them publicly admit their crimes. The grim truth of the poison is damning, however. Gray justice is no truth serum, but instead compels its victims to say whatever they think will please those around them. Each round a victim takes Wisdom damage from the poison, he answers any questions in the affirmative, agreeing to the best of his ability and even lying to confirm whatever he assumes the questioner wants to hear. If questioned by multiple people, the victim might contradict himself. If asked questions without an affirmative response or leading answer, the victim does not need to respond."
+			"Crafted by alchemists in Galt, gray justice has found use among the {pclass/Gray Gardener/s} as an apparent truth serum. Gray justice makes victims more susceptible to interrogation and causes side effects such as lethargy, {misc/confusion}, and {misc/nausea}; some Gardeners administer it to prisoners before their execution to make them publicly admit their crimes. The grim truth of the poison is damning, however. Gray justice is no truth serum, but instead compels its victims to say whatever they think will please those around them. Each round a victim takes Wisdom damage from the poison, he answers any questions in the affirmative, agreeing to the best of his ability and even lying to confirm whatever he assumes the questioner wants to hear. If questioned by multiple people, the victim might contradict himself. If asked questions without an affirmative response or leading answer, the victim does not need to respond."
 		]
 	},
 	"lich_dust": {
@@ -1272,7 +1272,7 @@
 			"**Price** 400 gp; **Weight** &mdash;  ",
 			"**Type** contact, injury; **Save** Fortitude DC 14  ",
 			"**Frequency** 1/round for 2 rounds  ",
-			"**Initial Effect** staggered for 1d6 rounds; **Secondary Effect** paralyzed for 1d6 minutes  ",
+			"**Initial Effect** {misc/staggered} for 1d6 rounds; **Secondary Effect** paralyzed for 1d6 minutes  ",
 			"**Cure** 1 save"
 		]
 	},
@@ -1290,7 +1290,7 @@
 			"**Price** 400 gp; **Weight** &mdash;  ",
 			"**Type** ingested; **Save** Fortitude DC 18  ",
 			"**Onset** 10 minutes; **Frequency** 1/minute for 3 minutes  ",
-			"**Initial Effect** 1d4 Wis; **Secondary Effect** 1d2 Wis and confusion 1 minute  ",
+			"**Initial Effect** 1d4 Wis; **Secondary Effect** 1d2 Wis and {misc/confusion} 1 minute  ",
 			"**Cure** 2 saves"
 		]
 	},
@@ -1357,7 +1357,7 @@
 			"**Price** 500 gp; **Weight** &mdash;  ",
 			"**Type** injury, ingested; **Save** Fortitude DC 13  ",
 			"**Onset** 1 minute; **Frequency** 1/minute for 6 minutes  ",
-			"**Initial Effect** nauseated 1d4 rounds; **Secondary Effect** 1d3 Str damage and 1d4 Con damage  ",
+			"**Initial Effect** {misc/nauseated} 1d4 rounds; **Secondary Effect** 1d3 Str damage and 1d4 Con damage  ",
 			"**Cure** 2 saves"
 		]
 	},
@@ -1619,7 +1619,7 @@
 			"**Price** 750 gp; **Weight** &mdash;  ",
 			"**Type** contact; **Save** Fortitude DC 19  ",
 			"**Onset** eating food; **Frequency** 1/hour for 8 hours  ",
-			"**Effect** nauseated for 1 hour and then sickened for 1 day  ",
+			"**Effect** {misc/nauseated} for 1 hour and then {misc/sickened} for 1 day  ",
 			"**Cure** 1 save",
 			"",
 			"This poison is used by Twilight Talons to render targets too ill to work for a day - long enough to impersonate them."
@@ -1635,7 +1635,7 @@
 			"",
 			"**Price** 750 gp; **Weight** &mdash;  ",
 			"**Type** ingested; **Save** Fortitude DC 20  ",
-			"**Onset** sickened; **Frequency** 1/minute for 4 minutes  ",
+			"**Onset** {misc/sickened}; **Frequency** 1/minute for 4 minutes  ",
 			"**Effect** 1d2 Constitution and Wisdom damage  ",
 			"**Cure** 2 saves",
 			"",
@@ -1653,7 +1653,7 @@
 			"**Price** 800 gp; **Weight** &mdash;  ",
 			"**Type** injury; **Save** Fortitude DC 14  ",
 			"**Frequency** 1/round for 6 rounds  ",
-			"**Effect** 1d4 Dex and confused for 1 round  ",
+			"**Effect** 1d4 Dex and {misc/confused} for 1 round  ",
 			"**Cure** 2 consecutive saves"
 		]
 	},
@@ -1816,7 +1816,7 @@
 			"**Price** 900 gp; **Weight** &mdash;  ",
 			"**Type** contact; **Save** Fortitude DC 17  ",
 			"**Onset** 1 minute; **Frequency** 1/round for 6 rounds  ",
-			"**Effect** 1d3 Wis damage. Each time the victim takes Wisdom damage, it must succeed at a DC 17 Will save or become confused for that round.  ",
+			"**Effect** 1d3 Wis damage. Each time the victim takes Wisdom damage, it must succeed at a DC 17 Will save or become {misc/confused} for that round.  ",
 			"**Cure** 2 consecutive saves",
 			"",
 			"This poison is produced in the liver of a particular species of water-dwelling lizard and produces potent hallucinations. In some places, the lizards are raised as livestock specifically for the harvesting of the poison, which is then used for ritual ceremonies and recreational purposes. People in some cultures voluntarily dose themselves with this poison as a way to gain oracular insights into the world, but more often than not the revelations are nothing but subtle nightmares and lack true insight."
@@ -1882,7 +1882,7 @@
 			"**Price** 1,125 gp; **Weight** &mdash;  ",
 			"**Type** contact; **Save** Fortitude DC 20  ",
 			"**Frequency** 1/round for 6 rounds  ",
-			"**Initial Effect** 1d2 Dex drain and 1 Con drain; **Secondary Effect** sickened for 1 minute  ",
+			"**Initial Effect** 1d2 Dex drain and 1 Con drain; **Secondary Effect** {misc/sickened} for 1 minute  ",
 			"**Cure** 2 consecutive saves",
 			"",
 			"Found primarily in the Darklands, this fungus takes its name from the bruise-colored puffballs capping its stem, which weep a toxic yellow fluid. The spores it produces often contribute to the dangers of underground exploration."
@@ -1899,7 +1899,7 @@
 			"**Price** 1,200 gp; **Weight** &mdash;  ",
 			"**Type** inhaled; **Save** Fortitude DC 16  ",
 			"**Frequency** 1/round for 4 rounds  ",
-			"**Effect** This fine powder absorbs the oxygen from the lungs of any creature that breathes it in, causing the creature to gradually asphyxiate. The target has difficulty breathing and is staggered. If the target suffers the effect for 4 rounds, he falls unconscious for 1 minute at the end of the fourth round  ",
+			"**Effect** This fine powder absorbs the oxygen from the lungs of any creature that breathes it in, causing the creature to gradually asphyxiate. The target has difficulty breathing and is {misc/staggered}. If the target suffers the effect for 4 rounds, he falls unconscious for 1 minute at the end of the fourth round  ",
 			"**Cure** 1 save"
 		]
 	},
@@ -1932,7 +1932,7 @@
 			"**Price** 1,200 gp; **Weight** &mdash;  ",
 			"**Type** ingested; **Save** Fortitude DC 15  ",
 			"**Onset** 10 minutes; **Frequency** 1/minute for 10 minutes  ",
-			"**Effect** confusion  ",
+			"**Effect** {misc/confusion}  ",
 			"**Cure** 2 consecutive saves",
 			"",
 			"Named for the scab-red mushrooms from which it is made, this potent hallucinogen is brewed by evil druids and witches in remote regions in order to enhance the savagery of their seasonal revels. Some use this poison to debilitate their victims for ritual sacrifice."
@@ -1949,7 +1949,7 @@
 			"**Price** 1,400 gp; **Weight** &mdash;  ",
 			"**Type** injury; **Save** Fortitude DC 16  ",
 			"**Frequency** 1/round for 6 rounds  ",
-			"**Initial Effect** staggered and confused (see text); **Secondary Effect** 1d2 Dexterity damage  ",
+			"**Initial Effect** {misc/staggered} and {misc/confused} (see text); **Secondary Effect** 1d2 Dexterity damage  ",
 			"**Cure** 1 save",
 			"",
 			"Harvested by some Mwangi tribes from the skin of colorful tree frogs, this potent poison is often used to coat arrows, darts, and other weapons. A creature that fails its save is distracted by persistent auditory hallucinations of dripping water and susurrous voices, gaining the staggered condition until it is cured or the poison has run its course. A creature that fails two consecutive saving throws against this effect is also confused until cured or the poison has run its course; this confusion is a mind-affecting effect."
@@ -1966,7 +1966,7 @@
 			"**Price** 1,500 gp; **Weight** &mdash;  ",
 			"**Type** inhaled; **Save** Fortitude DC 15  ",
 			"**Frequency** 1/minute for 2 minutes  ",
-			"**Initial Effect** nauseated 1 minute; **Secondary Effect** paralyzed 2d4 hours  ",
+			"**Initial Effect** {misc/nauseated} 1 minute; **Secondary Effect** paralyzed 2d4 hours  ",
 			"**Cure** 1 save"
 		]
 	},
@@ -2137,7 +2137,7 @@
 			"**Price** 1,800 gp; **Weight** &mdash;  ",
 			"**Type** ingested; **Save** Fortitude DC 25  ",
 			"**Onset** 1 minute; **Frequency** 1/round for 5 rounds  ",
-			"**Effect** 1d3 Dex damage, 1 Con damage, and nauseated for 1 round  ",
+			"**Effect** 1d3 Dex damage, 1 Con damage, and {misc/nauseated} for 1 round  ",
 			"**Cure** 2 saves"
 		]
 	},
@@ -2173,7 +2173,7 @@
 			"**Price** 1,800 gp; **Weight** &mdash;  ",
 			"**Type** inhaled; **Save** Fortitude DC 20  ",
 			"**Frequency** 1/round for 6 rounds  ",
-			"**Effect** 1 Wis damage and confused for 1 round  ",
+			"**Effect** 1 Wis damage and {misc/confused} for 1 round  ",
 			"**Cure** 2 consecutive saves"
 		]
 	},

@@ -50,7 +50,7 @@
 			"**Price** 75 gp; **Weight** 1 lb.  ",
 			"**Category** Alchemical Tools",
 			"",
-			"When this unguent - prepared with vile alchemical reagents and the gore of fiends - is applied to a wounded tiefling or evil outsider (not currently at maximum hit points), it momentarily transforms the essence of the target into something even more fearsome and demonic. While under the effects of a fiendgore unguent, a tiefling or an evil outsider gains a +2 circumstance bonus on Intimidate checks and a +1 circumstance bonus to the DC of all spells with the fear descriptor that they cast. Applying the unguent is a delicate process, requiring a full-round action, and can only be properly applied to a willing or helpless creature. If applied to a creature other than a tiefling or an evil outsider, it {misc/sicken/s>ed} the creature instead. The unguent's effects (either beneficial or harmful) last for 1 minute.",
+			"When this unguent - prepared with vile alchemical reagents and the gore of fiends - is applied to a wounded tiefling or evil outsider (not currently at maximum hit points), it momentarily transforms the essence of the target into something even more fearsome and demonic. While under the effects of a fiendgore unguent, a tiefling or an evil outsider gains a +2 circumstance bonus on Intimidate checks and a +1 circumstance bonus to the DC of all spells with the fear descriptor that they cast. Applying the unguent is a delicate process, requiring a full-round action, and can only be properly applied to a willing or helpless creature. If applied to a creature other than a tiefling or an evil outsider, it {misc/sicken/s} the creature instead. The unguent's effects (either beneficial or harmful) last for 1 minute.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 20"
 		]
@@ -735,7 +735,7 @@
 			"**Price** 250 gp; **Weight** 1 lb.  ",
 			"**Category** Adventuring Gear",
 			"",
-			"One end of this short length of petrified wood burns with a flame of ever-changing hue, a tiny portion of the fires of the Founder's Flame. It provides light as per a normal {eq-misc/torch} but is not consumed, and its fire cannot be extinguished by mundane means (though total immersion temporarily quenches the flame). The torch can be wielded as an {misc/improvised>_weapon} {eq-weapon/light mace} that deals an additional 1d2 points of fire damage; in addition, a creature damaged by the torch's fire takes a -1 penalty on saving throws for 1 round against effects that deal fire damage."
+			"One end of this short length of petrified wood burns with a flame of ever-changing hue, a tiny portion of the fires of the Founder's Flame. It provides light as per a normal {eq-misc/torch} but is not consumed, and its fire cannot be extinguished by mundane means (though total immersion temporarily quenches the flame). The torch can be wielded as an {misc/improvised} {eq-weapon/light mace} that deals an additional 1d2 points of fire damage; in addition, a creature damaged by the torch's fire takes a -1 penalty on saving throws for 1 round against effects that deal fire damage."
 		]
 	},
 	"fox": {
@@ -1799,7 +1799,7 @@
 			"**Price** 10 gp; **Weight** 1 lb.  ",
 			"**Category** Torture Implements",
 			"",
-			"This device is a sharp, double-ended prong that is approximately 9 inches in length and fitted with a stout leather neckband. This nefarious device is secured on a {misc/helpless} target's neck so the prongs pierce both the underside of the victim's chin and the victim's chest, dealing 1d6 points of nonlethal damage when the device is attached and an additional 1d6 points of nonlethal damage if the victim begins to fall asleep, effectively keeping the victim awake indefinitely and subjecting the victim to {misc/fatigue} and {misc/exhaust/ion>ed} through sleep deprivation. A successful DC 22 Escape Artist check allows the victim to get free of the prongs without using his arms, though the heretic's fork remains strapped to his neck."
+			"This device is a sharp, double-ended prong that is approximately 9 inches in length and fitted with a stout leather neckband. This nefarious device is secured on a {misc/helpless} target's neck so the prongs pierce both the underside of the victim's chin and the victim's chest, dealing 1d6 points of nonlethal damage when the device is attached and an additional 1d6 points of nonlethal damage if the victim begins to fall asleep, effectively keeping the victim awake indefinitely and subjecting the victim to {misc/fatigue} and {misc/exhaustion} through sleep deprivation. A successful DC 22 Escape Artist check allows the victim to get free of the prongs without using his arms, though the heretic's fork remains strapped to his neck."
 		]
 	},
 	"heritage_book": {

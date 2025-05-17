@@ -1108,7 +1108,7 @@
 			">",
 			">*Elemental Resistance (Ex):* At 3rd level, you gain cold resistance 10. At 9th level, your cold resistance increases to 20.",
 			">",
-			">*Water's Fury (Su):* At 9th level, you gain the ability to summon a rushing jet of water from the elemental plane of water and direct it against your foes. As a standard action, you can create a jet of water in a 60-foot line that deals 1d6 points of damage per two sorcerer levels you possess, and {misc/blind/s>ed} the target that was struck for 1d6 rounds. A Reflex save (DC 10 + 1/2 your sorcerer level + your Charisma bonus) reduces the damage by half and negates the blinding effect.",
+			">*Water's Fury (Su):* At 9th level, you gain the ability to summon a rushing jet of water from the elemental plane of water and direct it against your foes. As a standard action, you can create a jet of water in a 60-foot line that deals 1d6 points of damage per two sorcerer levels you possess, and {misc/blind/s} the target that was struck for 1d6 rounds. A Reflex save (DC 10 + 1/2 your sorcerer level + your Charisma bonus) reduces the damage by half and negates the blinding effect.",
 			">",
 			">*Elemental Movement (Su):* At 15th level, you gain a swim speed of 60 feet.",
 			">",
@@ -1692,7 +1692,7 @@
 			">",
 			">*Superior Transformation (Su):* At 15th level, you become master of your own shape and you fully understand the intricacies of all shapechanging magic. You are immune to polymorph effects unless you are a willing target. Once per day when you cast a polymorph spell on yourself, in addition to the normal effects of the spell, you can choose to gain a fly speed of 60 feet (average maneuverability), a swim speed of 60 feet, or an increase to your base land speed of 30 feet.",
 			">",
-			">*Amorphous Anatomy (Su):* At 20th level, your vital organs shift position, and as a rule they are constantly changing their shape and size to best protect you. You gain immunity to critical hits and sneak attacks. In addition, you gain {umr/blindsight} with a range of 60 feet and damage reduction 5/-. You automatically recover from physical {misc/blind/ness>ed} or {misc/deaf/ness>ened} after 1 round by growing new sensory organs to replace the compromised ones; you cannot otherwise regenerate lost body parts."
+			">*Amorphous Anatomy (Su):* At 20th level, your vital organs shift position, and as a rule they are constantly changing their shape and size to best protect you. You gain immunity to critical hits and sneak attacks. In addition, you gain {umr/blindsight} with a range of 60 feet and damage reduction 5/-. You automatically recover from physical {misc/blind/ness} or {misc/deaf/ness} after 1 round by growing new sensory organs to replace the compromised ones; you cannot otherwise regenerate lost body parts."
 		]
 	},
 	"solar": {
@@ -1752,7 +1752,7 @@
 			">",
 			">*Breaching the Gulf (Sp):* At 15th level, your caster level is increased by 3 when casting spells of the teleportation subschool. In addition, once per day you can teleport a single creature within 30 feet into the void of space if it fails a Will save. The save DC is equal to 10 + 1/2 your sorcerer level + your Charisma modifier. The target can attempt a new saving throw as a full-round action each round to return. While trapped in the airless void, the target takes 6d6 points of cold damage per round and must hold its breath or begin to suffocate.",
 			">",
-			">*Starborn (Ex):* At 20th level, you gain immunity to cold and {misc/blind/ness>ed}, and you can see perfectly in natural or magical darkness. In addition, you gain {umr/fast healing} 1 when you are outdoors at night.",
+			">*Starborn (Ex):* At 20th level, you gain immunity to cold and {misc/blind/ness}, and you can see perfectly in natural or magical darkness. In addition, you gain {umr/fast healing} 1 when you are outdoors at night.",
 			"",
 			"::h3[Void-Touched (Wildblooded Mutation)]{jl}",
 			"",

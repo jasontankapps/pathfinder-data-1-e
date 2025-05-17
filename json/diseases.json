@@ -45,7 +45,7 @@
 			"{SOURCE Pathfinder #13: Shadow in the Sky/81}  ",
 			"**Type** inhaled; **Fortitude Save* DC 12  ",
 			"**Onset** 3d6 days; **Frequency** 1/day  ",
-			"**Effect** 1d4 Con. Rolling a 1 on any Fortitude save to resist taking damage from fungal flu results in {misc/blind/ness>ed}. The blindness persists - even resisting spells like {spell/remove blindness//deafness} - until the disease is cured.  ",
+			"**Effect** 1d4 Con. Rolling a 1 on any Fortitude save to resist taking damage from fungal flu results in {misc/blind/ness}. The blindness persists - even resisting spells like {spell/remove blindness//deafness} - until the disease is cured.  ",
 			"**Cure** 2 consecutive saves"
 		]
 	},
@@ -141,7 +141,7 @@
 			"{SOURCE Numeria, Land of Fallen Stars/23}  ",
 			"**Type** inhaled; **Fortitude Save* DC 14  ",
 			"**Onset** 1 hour; **Frequency** 1/day  ",
-			"**Effect** 1d6 nonlethal damage and {misc/fatigue>d}. The fatigue and nonlethal damage cannot be cured while the disease remains. This fatigue does not stack with itself to produce exhaustion, but does stack with other sources of fatigue. A victim that accumulates sufficient damage to fall {misc/unconscious} while infected with bluespit begins to {rule/suffocat/e>ion}. Despite being unconscious, the victim is considered to be holding its breath rather than immediately progressing to negative hit points and death.  ",
+			"**Effect** 1d6 nonlethal damage and {misc/fatigue}. The fatigue and nonlethal damage cannot be cured while the disease remains. This fatigue does not stack with itself to produce exhaustion, but does stack with other sources of fatigue. A victim that accumulates sufficient damage to fall {misc/unconscious} while infected with bluespit begins to {rule/suffocat/e>ion}. Despite being unconscious, the victim is considered to be holding its breath rather than immediately progressing to negative hit points and death.  ",
 			"**Cure** 2 consecutive saves"
 		]
 	},

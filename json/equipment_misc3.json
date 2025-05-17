@@ -243,7 +243,7 @@
 			"{SOURCE Dungeoneer's Handbook/24}  ",
 			"**Price** 12 gp (merchant's), 225 gp (noble's); **Weight** 1/2 lb. (merchant's), 1/2 lb. (noble's)",
 			"",
-			"A pomander is a waxy concoction of resin, flower essence, powdered spices, musk, and ambergris in a walnut-sized cage and hung by a chain from the neck, a belt, or a bracelet. Merchants and adventurers often use pomanders caged in wood or lead, while nobles use ones cased in precious metals and enamel set with gems. When the pomander is carried openly, its powerful scent (Perception DC 0 to notice) fortifies the senses against unpleasant sensations. Anyone within 10 feet of a pomander gains a +2 resistance bonus on Fortitude saves against effects that {misc/nauseate>d} or {misc/sicken>ed}, but suffers a -4 penalty on Perception checks made to detect scents other than the pomander's.",
+			"A pomander is a waxy concoction of resin, flower essence, powdered spices, musk, and ambergris in a walnut-sized cage and hung by a chain from the neck, a belt, or a bracelet. Merchants and adventurers often use pomanders caged in wood or lead, while nobles use ones cased in precious metals and enamel set with gems. When the pomander is carried openly, its powerful scent (Perception DC 0 to notice) fortifies the senses against unpleasant sensations. Anyone within 10 feet of a pomander gains a +2 resistance bonus on Fortitude saves against effects that {misc/nauseate} or {misc/sicken}, but suffers a -4 penalty on Perception checks made to detect scents other than the pomander's.",
 			"",
 			"A noble's pomander also overpowers the wearer's own scent; the DC to track him by his own odor increases by 5, but attempts to track him by the pomander's odor have the DC reduced by 5. Regardless of the type, a pomander becomes ineffective after 1d4 weeks of exposure to air, although storing it in an airtight container can extend its lifespan."
 		]
@@ -1007,7 +1007,7 @@
 			"**Price** 25 gp; **Weight** -  ",
 			"**Category** Alchemical Remedies",
 			"",
-			"This packet filled with spikey-edged leaves has a pungent scent almost strong enough to make your eyes water. While you chew the leaves, you ignore the effects of {misc/fatigue>d}. The leaves last for 6 rounds, at which point only a wad of pulp remains. When the effect of rager's aid wears off, you are {misc/exhausted} instead.",
+			"This packet filled with spikey-edged leaves has a pungent scent almost strong enough to make your eyes water. While you chew the leaves, you ignore the effects of {misc/fatigue}. The leaves last for 6 rounds, at which point only a wad of pulp remains. When the effect of rager's aid wears off, you are {misc/exhausted} instead.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 25"
 		]
@@ -1643,7 +1643,7 @@
 			"**Price** 1 gp; **Weight** -  ",
 			"**Category** Alchemical Remedies",
 			"",
-			"These tablets of pressed salt help stave off [dehydration](rule/heat_dangers). Taking a salt tablet once every 24 hours grants you a +2 circumstance bonus on saving throws to avoid heatstroke and on Constitution checks to avoid thirst.",
+			"These tablets of pressed salt help stave off [dehydration](rule/starvation_and_thirst. Taking a salt tablet once every 24 hours grants you a +2 circumstance bonus on saving throws to avoid heatstroke and on Constitution checks to avoid thirst.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 10"
 		]
@@ -2741,7 +2741,7 @@
 			"**Price** 1 gp; **Weight** 10 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
-			"This heavy, two-handed hammer is normally used in carpentry and other construction tasks, and is also useful for driving in tent stakes to help secure campsites in areas with strong winds. If used in combat, treat it as an {misc/improvised>_weapons} {eq-weapon/earth breaker}."
+			"This heavy, two-handed hammer is normally used in carpentry and other construction tasks, and is also useful for driving in tent stakes to help secure campsites in areas with strong winds. If used in combat, treat it as an {misc/improvised} {eq-weapon/earth breaker}."
 		]
 	},
 	"sleeve_holster": {
@@ -2875,7 +2875,7 @@
 			"**Price** 10 gp; **Weight** -  ",
 			"**Category** Adventuring Gear",
 			"",
-			"These spectacles have lenses made of smoked glass that help protect against creatures with {umr/gaze} attacks. You are always treated as averting your gaze when dealing with gaze attacks, and you gain a +8 circumstance bonus on saving throws against visual-based attacks (any attack that a {misc/blind>ed} creature would be immune to). You take a -4 penalty on Perception checks while wearing the goggles, and all opponents are treated as having {rule/concealment} (20% miss chance)."
+			"These spectacles have lenses made of smoked glass that help protect against creatures with {umr/gaze} attacks. You are always treated as averting your gaze when dealing with gaze attacks, and you gain a +8 circumstance bonus on saving throws against visual-based attacks (any attack that a {misc/blind} creature would be immune to). You take a -4 penalty on Perception checks while wearing the goggles, and all opponents are treated as having {rule/concealment} (20% miss chance)."
 		]
 	},
 	"smokestick": {
@@ -3805,7 +3805,7 @@
 			"**Price** 50 gp; **Weight** -  ",
 			"**Category** Alchemical Remedies",
 			"",
-			"Drinking a vial of this bland, bluish liquid grants you a +5 alchemical bonus on Fortitude saves to avoid {misc/nausea>ted} or {misc/sick/ness>ened} for 1 hour. If you are already nauseated, you can drink stillgut as a move action. Drinking it in this fashion grants you a second saving throw (without the +5 bonus). Goblins often use stillgut so they can choke down meat or other foods in advanced stages of rot or decay.",
+			"Drinking a vial of this bland, bluish liquid grants you a +5 alchemical bonus on Fortitude saves to avoid {misc/nausea} or {misc/sickness} for 1 hour. If you are already nauseated, you can drink stillgut as a move action. Drinking it in this fashion grants you a second saving throw (without the +5 bonus). Goblins often use stillgut so they can choke down meat or other foods in advanced stages of rot or decay.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 25"
 		]
@@ -4106,7 +4106,7 @@
 			"**Price** 10 gp; **Weight** -  ",
 			"**Category** Clothing",
 			"",
-			"Made from ground antimony, this sooty cosmetic is used to line the eyes. It grants the wearer a +2 circumstance bonus on saves against light-based effects that would {misc/dazzle>d} or {misc/blind>ed} him for 8 hours. A container of kohl holds 10 applications."
+			"Made from ground antimony, this sooty cosmetic is used to line the eyes. It grants the wearer a +2 circumstance bonus on saves against light-based effects that would {misc/dazzle>d} or {misc/blind} him for 8 hours. A container of kohl holds 10 applications."
 		]
 	},
 	"sunderblock": {

@@ -3012,7 +3012,7 @@
 			"{SOURCE Healer's Handbook/15}  ",
 			"**Element** universal; **Type** utility (Su); **Level** 3; **Burn** 1",
 			"",
-			"You recover from 1d4 points of ability score damage to one of your physical ability scores (Strength, Dexterity, or Constitution). This also eliminates any {misc/fatigue>d} that you suffer, and improves an {misc/exhausted} condition to fatigued.",
+			"You recover from 1d4 points of ability score damage to one of your physical ability scores (Strength, Dexterity, or Constitution). This also eliminates any {misc/fatigue} that you suffer, and improves an {misc/exhausted} condition to fatigued.",
 			"",
 			"If you have the {kinetic/kinetic healer} utility wild talent, you can use both kineticist restoration and kinetic healer on the same target with one standard action."
 		]

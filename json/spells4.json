@@ -2460,7 +2460,7 @@
 			"**Duration** 1 round/level or 1 round; see text  ",
 			"**Saving Throw** Will partial; **Spell Resistance** yes",
 			"",
-			"An invisible cone of terror causes each living creature in the area to become [panicked](rule/fear_conditions) unless it succeeds on a Will save. If cornered, a panicked creature begins cowering. If the Will save succeeds, the creature is shaken for 1 round."
+			"An invisible cone of terror causes each living creature in the area to become {misc/panicked} unless it succeeds on a Will save. If cornered, a panicked creature begins {misc/cowering}. If the Will save succeeds, the creature is {misc/shaken} for 1 round."
 		]
 	},
 	"fear_the_sun": {

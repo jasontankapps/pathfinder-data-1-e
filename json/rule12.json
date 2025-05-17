@@ -2659,7 +2659,7 @@
 			":HL[Swarming (1 or 2 RP):] **Prerequisite:** Medium or smaller size; **Benefit:** Members of this race are used to living and fighting communally with other members of their race. Up to two members of this race can share the same square at the same time. If two members of this race that are occupying the same square attack the same foe, they are considered to be flanking that foe as if they were in two opposite squares.  ",
 			"**Special:** If the race is Small or smaller, this trait costs 1 RP. If the race is Medium, it costs 2 RP.",
 			"",
-			":HL[Terrifying Croak (2 RP):] **Prerequisites:** None; **Benefit:** Members of this race gain the following supernatural ability: Once per hour as a standard action, a member of this race can emit a thunderous croak. Any creature not of its subtype (if humanoid) or type (if another race type) must make a successful Will saving throw (DC 10 + 1/2 the user's character level + the user's Charisma modifier) or become [shaken](rule/fear_conditions) for 1d4 rounds. A target that successfully saves cannot be affected by the user's terrifying croak for 24 hours. Creatures that are already shaken become frightened for 1d4 rounds instead. This is a sonic, mind-affecting effect.",
+			":HL[Terrifying Croak (2 RP):] **Prerequisites:** None; **Benefit:** Members of this race gain the following supernatural ability: Once per hour as a standard action, a member of this race can emit a thunderous croak. Any creature not of its subtype (if humanoid) or type (if another race type) must make a successful Will saving throw (DC 10 + 1/2 the user's character level + the user's Charisma modifier) or become {misc/shaken}} for 1d4 rounds. A target that successfully saves cannot be affected by the user's terrifying croak for 24 hours. Creatures that are already shaken become frightened for 1d4 rounds instead. This is a sonic, mind-affecting effect.",
 			"",
 			":HL[Toxic (1 RP):] **Prerequisite:** Aberration, dragon, plant, or undead type, or grippli, half-undead, reptilian, or vishkanya subtype; **Benefit:** Members of this race gain the following extraordinary ability: A number of times per day equal to its Constitution modifier (minimum 1/day), a member of this race can envenom a weapon that it wields with its toxic saliva or blood (using blood requires the creature to be injured when it uses this ability). Applying venom in this way is a swift action. When you take this trait, choose one of the following venoms.",
 			"",
@@ -2884,9 +2884,9 @@
 		"description": [
 			"{SOURCE Advanced Race Guide/237}",
 			"",
-			":HL[Light Blindness (-2 RP):] **Prerequisite:** Darkvision or see in darkness trait; **Weakness:** Abrupt exposure to bright light blinds members of this race for 1 round; on subsequent rounds, they are [dazzled](rule/awareness_conditions) as long as they remain in the affected area.",
+			":HL[Light Blindness (-2 RP):] **Prerequisite:** Darkvision or see in darkness trait; **Weakness:** Abrupt exposure to bright light blinds members of this race for 1 round; on subsequent rounds, they are {misc/dazzled} as long as they remain in the affected area.",
 			"",
-			":HL[Light Sensitivity (-1 RP):] **Prerequisite:** Darkvision; **Weakness:** Members of this race are [dazzled](rule/awareness_conditions) as long as they remain in an area of bright light.",
+			":HL[Light Sensitivity (-1 RP):] **Prerequisite:** Darkvision; **Weakness:** Members of this race are {misc/dazzled} as long as they remain in an area of bright light.",
 			"",
 			":HL[Negative Energy Affinity (-1 RP):] **Prerequisites:** None; **Weakness:** A member of this race is alive, but reacts to positive and negative energy as if it were undead; positive energy harms it, while negative energy heals it.",
 			"",
@@ -2914,7 +2914,7 @@
 			":HL[Elemental Vulnerability (-2 RP):] **Prerequisite:** Outsider (native) with ties to an elemental plane; **Weakness:** Pick one of the following energy types: acid, cold, electricity, or fire. Members of this race have [vulnerability](rule/energy_immunity_and_vulnerability) to the chosen energy type. They cannot posses any racial trait that grants them resistance or immunity to this energy type.  ",
 			"**Special:** This trait can be taken multiple times. Each time it is taken, choose a different energy type. If a race has vulnerability to fire and immunity to cold, it gains the cold subtype. If a race has vulnerability to cold and immunity to fire, it gains the fire subtype.",
 			"",
-			":HL[Sunlight Powerlessness (-2 RP):] **Prerequisite:** Half-undead subtype or undead type; **Weakness:** Members of this race are powerless in natural sunlight (this does not include light created by effects such as a {spell/daylight} spell). A member of this race caught in natural sunlight cannot attack and is [staggered](rule/awareness_conditions)."
+			":HL[Sunlight Powerlessness (-2 RP):] **Prerequisite:** Half-undead subtype or undead type; **Weakness:** Members of this race are powerless in natural sunlight (this does not include light created by effects such as a {spell/daylight} spell). A member of this race caught in natural sunlight cannot attack and is {misc/staggered}."
 		],
 		"parent_topics": [
 			"gamemastery",

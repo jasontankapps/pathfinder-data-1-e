@@ -16,6 +16,7 @@
 		"type": "Rule",
 		"topLink": [ "Awareness Conditions", "rule/awareness_conditions" ]
 	},
+	"blind": { "copyof": "blinded" },
 	"confused": {
 		"name": "Confused",
 		"sources": [ "PRPG Core Rulebook" ],
@@ -37,6 +38,7 @@
 		"type": "Rule",
 		"topLink": [ "Awareness Conditions", "rule/awareness_conditions" ]
 	},
+	"confusion": { "copyof": "confused" },
 	"dazed": {
 		"name": "Dazed",
 		"sources": [ "PRPG Core Rulebook" ],
@@ -67,6 +69,8 @@
 		"type": "Rule",
 		"topLink": [ "Awareness Conditions", "rule/awareness_conditions" ]
 	},
+	"deafen": { "copyof": "deafened" },
+	"deaf": { "copyof": "deafened" },
 	"fascinated": {
 		"name": "Fascinated",
 		"sources": [ "PRPG Core Rulebook" ],
@@ -103,6 +107,7 @@
 		"type": "Rule",
 		"topLink": [ "Awareness Conditions", "rule/awareness_conditions" ]
 	},
+	"stagger": { "copyof": "staggered" },
 	"stunned": {
 		"name": "Stunned",
 		"sources": [ "PRPG Core Rulebook" ],
@@ -178,6 +183,7 @@
 		"type": "Rule",
 		"topLink": [ "Exhaustion Conditions", "rule/exhaustion_conditions" ]
 	},
+	"exhaustion": { "copyof": "exhausted" },
 	"fatigued": {
 		"name": "Fatigued",
 		"sources": [ "PRPG Core Rulebook" ],
@@ -243,6 +249,8 @@
 		"type": "Rule",
 		"topLink": [ "Sickened Conditions", "rule/sickened_conditions" ]
 	},
+	"sicken": { "copyof": "sickened" },
+	"sickness": { "copyof": "sickened" },
 	"nauseated": {
 		"name": "Nauseated",
 		"sources": [ "PRPG Core Rulebook" ],
@@ -253,6 +261,8 @@
 		"type": "Rule",
 		"topLink": [ "Sickened Conditions", "rule/sickened_conditions" ]
 	},
+	"nauseate": { "copyof": "nauseated" },
+	"nausea": { "copyof": "nauseated" },
 	"improvised_weapons": {
 		"name": "Improvised Weapons",
 		"sources": [ "PRPG Core Rulebook" ],
@@ -264,6 +274,7 @@
 		"topLink": [ "Weapon Encumbrance and Size", "rule/weapon_encumbrance" ]
 	},
 	"improvised_weapon": { "copyof": "improvised_weapons" },
+	"improvised": { "copyof": "improvised_weapons" },
 	"damage_die_adjustments": {
 		"name": "Damage Die Adjustments",
 		"sources": [
