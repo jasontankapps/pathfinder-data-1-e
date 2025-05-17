@@ -191,7 +191,7 @@
 			"**Price** 100 gp; **Weight** 1 lb.  ",
 			"**Category** Alchemical Tools",
 			"",
-			"Darklands explorers who frequently run afoul of troglodytes, pockets of natural gas, and toxic fumes from magma flows use this dense flask to ease their breathing. You can open the flask as a standard action or throw it as a splash weapon. When opened or broken, the flask releases a burst of cleansing, breathable air in a 10-foot-radius {misc/burst}, providing a +4 alchemical bonus on saving throws against gases, inhaled poisons, or other breathable hazards. The cloud of fresh air lasts for 1d4 rounds. If you hit a creature that has the stench ability with a thrown flask of deep breath, the DC of its stench is reduced by 4 for the duration of the cloud."
+			"Darklands explorers who frequently run afoul of {monster/troglodyte/s}, pockets of natural gas, and toxic fumes from magma flows use this dense flask to ease their breathing. You can open the flask as a standard action or throw it as a splash weapon. When opened or broken, the flask releases a burst of cleansing, breathable air in a 10-foot-radius {misc/burst}, providing a +4 alchemical bonus on saving throws against gases, inhaled poisons, or other breathable hazards. The cloud of fresh air lasts for 1d4 rounds. If you hit a creature that has the {umr/stench} ability with a thrown flask of deep breath, the DC of its stench is reduced by 4 for the duration of the cloud."
 		]
 	},
 	"defoliant": {
@@ -203,7 +203,7 @@
 			"**Price** 30 gp; **Weight** -  ",
 			"**Category** Alchemical Tools",
 			"",
-			"This milky fluid can be mixed with water to quickly kill light and medium vegetation. One flask of defoliant kills light brush and small trees in 50 5-foot squares. Light vegetation (anything but trees) dies within 1 hour and can be cleared at a rate of 10 minutes per 5-foot square (representing uprooting dead plants and breaking stumps into gravel-sized pieces), leaving barren ground. Medium vegetation (anything but massive trees) dies in 2 hours and can be cleared at a rate of 1 hour per 5-foot square. Massive trees can usually survive a single dose of defoliant, and using defoliant doesn't make clearing them any easier. Defoliant can be used as a splash weapon against plant creatures. A direct hit with the undiluted fluid deals 1d6 hit points of damage, 1 point of Strength damage, and 1 point of Constitution damage (Fortitude DC 20 negates the Strength and Constitution damage); plant creatures within 5 feet of the target take 1 hit point of damage.",
+			"This milky fluid can be mixed with water to quickly kill light and medium vegetation. One flask of defoliant kills light brush and small trees in 50 5-foot squares. Light vegetation (anything but trees) dies within 1 hour and can be cleared at a rate of 10 minutes per 5-foot square (representing uprooting dead plants and breaking stumps into gravel-sized pieces), leaving barren ground. Medium vegetation (anything but massive trees) dies in 2 hours and can be cleared at a rate of 1 hour per 5-foot square. Massive trees can usually survive a single dose of defoliant, and using defoliant doesn't make clearing them any easier. Defoliant can be used as a {rule/throw_<splash weapon} against plant creatures. A direct hit with the undiluted fluid deals 1d6 hit points of damage, 1 point of Strength damage, and 1 point of Constitution damage (Fortitude DC 20 negates the Strength and Constitution damage); plant creatures within 5 feet of the target take 1 hit point of damage.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 25"
 		]
@@ -231,7 +231,7 @@
 			"**Price** 30 gp; **Weight** 20 lbs.  ",
 			"**Category** Kits",
 			"",
-			"This kit contains tools necessary for staying cool and hydrated in hot, dry terrain. It includes a 10-foot-by-10-foot piece of canvas, 3 doses of {eq-misc/blain bane}, a hot weather outfit, a signal whistle, a scarf, and four waterskins."
+			"This kit contains tools necessary for staying cool and hydrated in hot, dry terrain. It includes a 10-foot-by-10-foot piece of {eq-misc/canvas}, 3 doses of {eq-misc/blain bane}, a {eq-misc/hot weather outfit}, a {eq-misc/signal whistle}, a {eq-misc/scarf}, and four {eq-misc/waterskin/s}."
 		]
 	},
 	"desnas_star": {
@@ -245,7 +245,7 @@
 			"**Gather** DC 13  ",
 			"**Terrain** forests or plains",
 			"",
-			"Clerics of Desna claim that the Great Dreamer planted the first seed of this flower with her own hand. When the orange petals are cured and left to steep in hot water, the leaves of Desna's star make a mild, aromatic tea that facilitates restful sleep. When taken before sleeping, this tea grants the drinker the benefits of a full 8 hours of uninterrupted sleep in only 6 hours. One dose of Desna's star makes enough tea to serve six."
+			"Clerics of {faith/Desna} claim that the Great Dreamer planted the first seed of this flower with her own hand. When the orange petals are cured and left to steep in hot water, the leaves of Desna's star make a mild, aromatic tea that facilitates restful sleep. When taken before sleeping, this tea grants the drinker the benefits of a full 8 hours of uninterrupted sleep in only 6 hours. One dose of Desna's star makes enough tea to serve six."
 		]
 	},
 	"dice": {
@@ -287,32 +287,45 @@
 		"name": "Tear-away dilettante's outfit",
 		"copyof": "dilettantes_outfit"
 	},
-	"dire_ape": {
-		"name": "Dire ape",
+	"dire_animal": {
+		"name": "Dire animal",
 		"sources": [ "Animal Archive" ],
 		"description": [
 			"## Dire ape",
 			"{SOURCE Animal Archive/15}  ",
-			"**Price** 450 gp; **Weight** -  ",
+			"**Price** Varies; **Weight** -  ",
 			"**Category** Mounts/Pets",
 			"",
-			"Dire animals are all but untamable, and are typically only sought out by violent brawlers or cruel lords, either for brutish protection or to pit against equally vicious creatures in violent animal fights. At the GM's discretion, PCs who acquire dire animals may be required to attempt wild empathy or Handle Animal checks every day to keep their pets from running away or attacking them and their allies. Dire animals are not generally suitable as mounts, though the GM may make exceptions at her discretion."
-		]
-	},
-	"dire_badger": {
-		"name": "Dire badger",
-		"sources": [ "Animal Archive" ],
-		"description": [
-			"## Dire badger",
-			"{SOURCE Animal Archive/15}  ",
-			"**Price** 125 gp; **Weight** -  ",
-			"**Category** Mounts/Pets",
+			"Dire animals are all but untamable, and are typically only sought out by violent brawlers or cruel lords, either for brutish protection or to pit against equally vicious creatures in violent animal fights. At the GM's discretion, PCs who acquire dire animals may be required to attempt wild empathy or Handle Animal checks every day to keep their pets from running away or attacking them and their allies. Dire animals are not generally suitable as mounts (with the notable exception of the {eq-misc/dire bat}), though the GM may make exceptions at her discretion.",
 			"",
-			"Dire animals are all but untamable, and are typically only sought out by violent brawlers or cruel lords, either for brutish protection or to pit against equally vicious creatures in violent animal fights. At the GM's discretion, PCs who acquire dire animals may be required to attempt wild empathy or Handle Animal checks every day to keep their pets from running away or attacking them and their allies. Dire animals are not generally suitable as mounts, though the GM may make exceptions at her discretion."
+			"| Dire Animal | Price |",
+			"| --- | --- |",
+			"| Dire ape | 450 gp |",
+			"| Dire badger | 125 gp |",
+			"| Dire bear | 1,750 gp |",
+			"| Dire boar | 370 gp |",
+			"| Dire crocodile | 2,700 gp |",
+			"| Dire hyena | 250 gp |",
+			"| Dire lion | 1,000 gp |",
+			"| Dire shark | 3,375 gp |",
+			"| Dire tiger | 1,055 gp |",
+			"| Dire wolf | 380 gp |",
+			"| Dire wolverine | 500 gp |"
 		]
 	},
-	"dire_bat_common": {
-		"name": "Dire bat (common)",
+	"dire_ape": { "copyof": "dire_animal" },
+	"dire_badger": { "copyof": "dire_animal" },
+	"dire_bear": { "copyof": "dire_animal" },
+	"dire_boar": { "copyof": "dire_animal" },
+	"dire_crocodile": { "copyof": "dire_animal" },
+	"dire_hyena": { "copyof": "dire_animal" },
+	"dire_lion": { "copyof": "dire_animal" },
+	"dire_shark": { "copyof": "dire_animal" },
+	"dire_tiger": { "copyof": "dire_animal" },
+	"dire_wolf": { "copyof": "dire_animal" },
+	"dire_wolverine": { "copyof": "dire_animal" },
+	"dire_bat": {
+		"name": "Dire bat",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Race Guide",
@@ -328,121 +341,17 @@
 			"Considered to be the fastest nonmagical transport in cavernous underground realms, dire bats are domesticated in captivity to serve as riding animals. Stables that accommodate these massive creatures are only commonly found in cities built in larger underground caverns, owing to the greater space required for training and exercise, though the outriders of some subterranean races fly them almost to the surface. These creatures require exotic saddles to ride."
 		]
 	},
+	"dire_bat_common": {
+		"name": "Dire bat (common)",
+		"copyof": "dire_bat"
+	},
 	"dire_bat_riding": {
 		"name": "Dire bat (riding)",
-		"copyof": "dire_bat_common"
+		"copyof": "dire_bat"
 	},
 	"dire_bat_riding_combat_trained": {
 		"name": "Dire bat (riding, combat trained)",
-		"copyof": "dire_bat_common"
-	},
-	"dire_bear": {
-		"name": "Dire bear",
-		"sources": [ "Animal Archive" ],
-		"description": [
-			"## Dire bear",
-			"{SOURCE Animal Archive/15}  ",
-			"**Price** 1,750 gp; **Weight** -  ",
-			"**Category** Mounts/Pets",
-			"",
-			"Dire animals are all but untamable, and are typically only sought out by violent brawlers or cruel lords, either for brutish protection or to pit against equally vicious creatures in violent animal fights. At the GM's discretion, PCs who acquire dire animals may be required to attempt wild empathy or Handle Animal checks every day to keep their pets from running away or attacking them and their allies. Dire animals are not generally suitable as mounts, though the GM may make exceptions at her discretion."
-		]
-	},
-	"dire_boar": {
-		"name": "Dire boar",
-		"sources": [ "Animal Archive" ],
-		"description": [
-			"## Dire boar",
-			"{SOURCE Animal Archive/15}  ",
-			"**Price** 370 gp; **Weight** -  ",
-			"**Category** Mounts/Pets",
-			"",
-			"Dire animals are all but untamable, and are typically only sought out by violent brawlers or cruel lords, either for brutish protection or to pit against equally vicious creatures in violent animal fights. At the GM's discretion, PCs who acquire dire animals may be required to attempt wild empathy or Handle Animal checks every day to keep their pets from running away or attacking them and their allies. Dire animals are not generally suitable as mounts, though the GM may make exceptions at her discretion."
-		]
-	},
-	"dire_crocodile": {
-		"name": "Dire crocodile",
-		"sources": [ "Animal Archive" ],
-		"description": [
-			"## Dire crocodile",
-			"{SOURCE Animal Archive/15}  ",
-			"**Price** 2,700 gp; **Weight** -  ",
-			"**Category** Mounts/Pets",
-			"",
-			"Dire animals are all but untamable, and are typically only sought out by violent brawlers or cruel lords, either for brutish protection or to pit against equally vicious creatures in violent animal fights. At the GM's discretion, PCs who acquire dire animals may be required to attempt wild empathy or Handle Animal checks every day to keep their pets from running away or attacking them and their allies. Dire animals are not generally suitable as mounts, though the GM may make exceptions at her discretion."
-		]
-	},
-	"dire_hyena": {
-		"name": "Dire hyena",
-		"sources": [ "Animal Archive" ],
-		"description": [
-			"## Dire hyena",
-			"{SOURCE Animal Archive/15}  ",
-			"**Price** 250 gp; **Weight** -  ",
-			"**Category** Mounts/Pets",
-			"",
-			"Dire animals are all but untamable, and are typically only sought out by violent brawlers or cruel lords, either for brutish protection or to pit against equally vicious creatures in violent animal fights. At the GM's discretion, PCs who acquire dire animals may be required to attempt wild empathy or Handle Animal checks every day to keep their pets from running away or attacking them and their allies. Dire animals are not generally suitable as mounts, though the GM may make exceptions at her discretion."
-		]
-	},
-	"dire_lion": {
-		"name": "Dire lion",
-		"sources": [ "Animal Archive" ],
-		"description": [
-			"## Dire lion",
-			"{SOURCE Animal Archive/15}  ",
-			"**Price** 1,000 gp; **Weight** -  ",
-			"**Category** Mounts/Pets",
-			"",
-			"Dire animals are all but untamable, and are typically only sought out by violent brawlers or cruel lords, either for brutish protection or to pit against equally vicious creatures in violent animal fights. At the GM's discretion, PCs who acquire dire animals may be required to attempt wild empathy or Handle Animal checks every day to keep their pets from running away or attacking them and their allies. Dire animals are not generally suitable as mounts, though the GM may make exceptions at her discretion."
-		]
-	},
-	"dire_shark": {
-		"name": "Dire shark",
-		"sources": [ "Animal Archive" ],
-		"description": [
-			"## Dire shark",
-			"{SOURCE Animal Archive/15}  ",
-			"**Price** 3,375 gp; **Weight** -  ",
-			"**Category** Mounts/Pets",
-			"",
-			"Dire animals are all but untamable, and are typically only sought out by violent brawlers or cruel lords, either for brutish protection or to pit against equally vicious creatures in violent animal fights. At the GM's discretion, PCs who acquire dire animals may be required to attempt wild empathy or Handle Animal checks every day to keep their pets from running away or attacking them and their allies. Dire animals are not generally suitable as mounts, though the GM may make exceptions at her discretion."
-		]
-	},
-	"dire_tiger": {
-		"name": "Dire tiger",
-		"sources": [ "Animal Archive" ],
-		"description": [
-			"## Dire tiger",
-			"{SOURCE Animal Archive/15}  ",
-			"**Price** 1,055 gp; **Weight** -  ",
-			"**Category** Mounts/Pets",
-			"",
-			"Dire animals are all but untamable, and are typically only sought out by violent brawlers or cruel lords, either for brutish protection or to pit against equally vicious creatures in violent animal fights. At the GM's discretion, PCs who acquire dire animals may be required to attempt wild empathy or Handle Animal checks every day to keep their pets from running away or attacking them and their allies. Dire animals are not generally suitable as mounts, though the GM may make exceptions at her discretion."
-		]
-	},
-	"dire_wolf": {
-		"name": "Dire wolf",
-		"sources": [ "Animal Archive" ],
-		"description": [
-			"## Dire wolf",
-			"{SOURCE Animal Archive/15}  ",
-			"**Price** 380 gp; **Weight** -  ",
-			"**Category** Mounts/Pets",
-			"",
-			"Dire animals are all but untamable, and are typically only sought out by violent brawlers or cruel lords, either for brutish protection or to pit against equally vicious creatures in violent animal fights. At the GM's discretion, PCs who acquire dire animals may be required to attempt wild empathy or Handle Animal checks every day to keep their pets from running away or attacking them and their allies. Dire animals are not generally suitable as mounts, though the GM may make exceptions at her discretion."
-		]
-	},
-	"dire_wolverine": {
-		"name": "Dire wolverine",
-		"sources": [ "Animal Archive" ],
-		"description": [
-			"## Dire wolverine",
-			"{SOURCE Animal Archive/15}  ",
-			"**Price** 500 gp; **Weight** -  ",
-			"**Category** Mounts/Pets",
-			"",
-			"Dire animals are all but untamable, and are typically only sought out by violent brawlers or cruel lords, either for brutish protection or to pit against equally vicious creatures in violent animal fights. At the GM's discretion, PCs who acquire dire animals may be required to attempt wild empathy or Handle Animal checks every day to keep their pets from running away or attacking them and their allies. Dire animals are not generally suitable as mounts, though the GM may make exceptions at her discretion."
-		]
+		"copyof": "dire_bat"
 	},
 	"disguise_kit": {
 		"name": "Disguise kit",
@@ -468,7 +377,7 @@
 			"**Price** 1-100 gp; **Weight** 1-20 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
-			"This book appears to be the holy text of a particular religion, but it is actually a subtly encoded version of the text of an entirely different faith. Such tomes allow the faithful to keep copies of their holy texts hidden in plain sight - especially when those tomes are outlawed or stigmatized. A creature reading a disguised holy text can notice the irregularities of the text with a successful DC 18 Linguistics check; if the result of this check is 25 or higher, the creature cracks the text's cipher and understands its true meaning. A follower of a disguised holy text's true faith gains a +5 bonus on her Linguistics check to decipher the tome. The typical disguised holy text is of average quality, costs 25 gp, and weighs 2 pounds; cheaper or more extravagant versions are available with varying costs and weights."
+			"This book appears to be the {eq-misc/holy text} of a particular religion, but it is actually a subtly encoded version of the text of an entirely different faith. Such tomes allow the faithful to keep copies of their holy texts hidden in plain sight - especially when those tomes are outlawed or stigmatized. A creature reading a disguised holy text can notice the irregularities of the text with a successful DC 18 Linguistics check; if the result of this check is 25 or higher, the creature cracks the text's cipher and understands its true meaning. A follower of a disguised holy text's true faith gains a +5 bonus on her Linguistics check to decipher the tome. The typical disguised holy text is of average quality, costs 25 gp, and weighs 2 pounds; cheaper or more extravagant versions are available with varying costs and weights."
 		]
 	},
 	"display_stand": {
@@ -518,7 +427,7 @@
 			"**Price** 121 gp; **Weight** 38 lbs.  ",
 			"**Category** Kits",
 			"",
-			"This kit is ideal for adventurers who venture into sunken ruins or half-flooded temples, and includes an air bladder, a common buoy, 30 feet of chain, a fishing net, a glass bottle, a pound of soap, three sunrods, a waterproof bag, and a waterproof hooded lantern with 3 flasks of oil."
+			"This kit is ideal for adventurers who venture into sunken ruins or half-flooded temples, and includes an {eq-misc/air bladder}, a common {eq-misc/buoy}, 30 feet of {eq-misc/chain}, a {eq-misc/fishing net}, a {eq-misc/glass bottle}, a pound of {eq-misc/soap}, three {eq-misc/sunrod/s}, a {eq-misc/waterproof bag}, and a {eq-misc/waterproof hooded lantern} with 3 flasks of {eq-misc/oil}."
 		]
 	},
 	"diving_suit": {
@@ -542,7 +451,7 @@
 			"**Price** 1 gp; **Weight** -  ",
 			"**Category** Lodging/Services",
 			"",
-			"A doctor is a person skilled in nonmagical healing and medicine. A typical doctor is a 3rd-level expert with 3 ranks in Heal, the {feat/Skill Focus} (Heal) feat, and ranks in other valuable skills such as Knowledge (nature) and Knowledge (religion). An experienced doctor is up to 5th level, has additional ranks in appropriate skills, and is paid five to 10 times as much; however, these doctors are in high demand and are usually employed full-time by royalty. A doctor generally knows a little bit about what local magical healing can do and where to find it. The listed price is per day."
+			"A doctor is a person skilled in nonmagical healing and medicine. A typical doctor is a 3rd-level expert with 3 ranks in {skill/Heal}, the {feat/Skill Focus} (Heal) feat, and ranks in other valuable skills such as {skill/Knowledge (nature)} and {skill/Knowledge (religion)}. An experienced doctor is up to 5th level, has additional ranks in appropriate skills, and is paid five to 10 times as much; however, these doctors are in high demand and are usually employed full-time by royalty. A doctor generally knows a little bit about what local magical healing can do and where to find it. The listed price is per day."
 		]
 	},
 	"doctors_mask": {
@@ -648,7 +557,7 @@
 			"**Price** 20 gp; **Price of Passage** (per mile) 3 cp  ",
 			"**Category** Transport, Land",
 			"",
-			"This sled is designed to be pulled over snow and ice by a team of trained riding dogs. Most sleds have runners at the back for a musher to stand on. A dog sled can carry up to the capacity of all the dogs that pull it."
+			"This sled is designed to be pulled over snow and ice by a team of trained {eq-misc/riding dog/s}. Most sleds have runners at the back for a musher to stand on. A dog sled can carry up to the capacity of all the dogs that pull it."
 		]
 	},
 	"dog_sled_travel_per_mile": {
@@ -676,7 +585,7 @@
 			"**Price** 8 gp; **Weight** 600-800 lbs.  ",
 			"**Category** Mounts/Pets",
 			"",
-			"Donkeys and mules are stolid in the face of danger, hardy, surefooted, and capable of carrying heavy loads over vast distances. Unlike a horse, a donkey or mule is willing (though not eager) to enter dungeons and other strange or threatening places. Donkeys and mules have the same statistics as ponies."
+			"Donkeys and mules are stolid in the face of danger, hardy, surefooted, and capable of carrying heavy loads over vast distances. Unlike a {eq-misc/horse}, a donkey or mule is willing (though not eager) to enter dungeons and other strange or threatening places. Donkeys and mules have the same statistics as ponies."
 		]
 	},
 	"mule": { "copyof": "donkey_or_mule" },
@@ -705,7 +614,7 @@
 			"**Price** 10 gp; **Weight** 1 lb.  ",
 			"**Category** Adventuring Gear",
 			"",
-			"Made from specially crafted materials, a dowsing rod is used by the psychically attuned to locate water, find graves, or uncover minerals. Most commonly manufactured from forked branches cut from hazel, peach, or willow trees, dowsing rods can also come in other forms, such as bent, L-shaped rods of charged cold iron. Though a dowser can use any forked twig found in nature for dowsing, these specially prepared rods provide a +2 circumstance bonus on Survival checks for the dowsing occult skill unlock."
+			"Made from specially crafted materials, a dowsing rod is used by the psychically attuned to locate water, find graves, or uncover minerals. Most commonly manufactured from forked branches cut from hazel, peach, or willow trees, dowsing rods can also come in other forms, such as bent, L-shaped rods of charged cold iron. Though a dowser can use any forked twig found in nature for dowsing, these specially prepared rods provide a +2 circumstance bonus on Survival checks for the {skill/dowsing} occult skill unlock."
 		]
 	},
 	"draconic_perfume": {
@@ -725,7 +634,7 @@
 			"",
 			"**Sulfur and honeycomb:** This aroma is sometimes called \"Hell's Smell.\" Any creature wearing this scent gains a +2 circumstance bonus on Bluff checks and increases the DC of any compulsion subschool spells cast during this time by 2.",
 			"",
-			"Each vial of draconic perfume contains 1 application of the scent. Producing draconic perfume requires 1 vial of musk, the Dragoncrafting feat, and a successful DC 20 Craft (alchemy) check."
+			"Each vial of draconic perfume contains 1 application of the scent. Producing draconic perfume requires 1 vial of musk, the {feat/Dragoncrafting} feat, and a successful DC 20 Craft (alchemy) check."
 		]
 	},
 	"dragon_punch_whiskey_cup": {
@@ -737,7 +646,7 @@
 			"**Price** 10 gp/cup; **Weight** -  ",
 			"**Category** Food/Drink",
 			"",
-			"Non-halflings do not receive any bonus from this drink. According to legend, the inventor of this dark and harsh liquor actually did attack a dragon bare handed (and presumably lived to pass on the recipe). Halflings who drink four cups of Dragon Punch Whiskey in the space of an hour take a -4 penalty to Dexterity but gain a +4 alchemical bonus on saves against fear for the next 10 minutes."
+			"Non-halflings do not receive any bonus from this drink. According to legend, the inventor of this dark and harsh liquor actually did attack a dragon bare handed (and presumably lived to pass on the recipe). {race/Halfling/s} who drink four cups of Dragon Punch Whiskey in the space of an hour take a -4 penalty to Dexterity but gain a +4 alchemical bonus on saves against fear for the next 10 minutes."
 		]
 	},
 	"dragon_rose": {
@@ -791,9 +700,9 @@
 			"",
 			"Renowned for its energizing and defensive properties, dragon's blood has a variety of effects, depending on how it's used. In addition to use in its raw form, it's also valuable as an alchemical ingredient. Below are two common uses for dragon's blood, but clever dragoncrafters may invent new uses as well.",
 			"",
-			"Drinking: When imbibed, a vial of dragon's blood heals 1d4 points of damage. It also grants a +1 alchemical bonus on Will and Fortitude saving throws for 1 minute.",
+			"**Drinking:** When imbibed, a vial of dragon's blood heals 1d4 points of damage. It also grants a +1 alchemical bonus on Will and Fortitude saving throws for 1 minute.",
 			"",
-			"Bathing: Covering oneself in dragon's blood removes 1 permanent negative level. No more than 1 permanent negative level can be removed from a single creature per week using this method. Bathing in dragon's blood requires 3 vials of dragon's blood. Blood used in such a manner is expended, and may not be reused."
+			"**Bathing:** Covering oneself in dragon's blood removes 1 permanent negative level. No more than 1 permanent negative level can be removed from a single creature per week using this method. Bathing in dragon's blood requires 3 vials of dragon's blood. Blood used in such a manner is expended, and may not be reused."
 		]
 	},
 	"dragons_gut": {
@@ -805,15 +714,9 @@
 			"**Price** 50 gp; **Weight** 1 lb.  ",
 			"**Category** Dragoncraft",
 			"",
-			"A dragon's stomach contains highly corrosive acid that can be crafted into an alchemical item called dragon's gut. When used as a thrown splash weapon, dragon's gut deals 2d4 points of acid damage plus, on a direct hit, an additional 1d4 points of acid damage the following round, and it deals 1 point of acid damage to all creatures within 5 feet of the impact point as normal splash damage. Additionally, dragon's gut has alternate effects when used in place of acid as an alchemical power component.",
+			"A dragon's stomach contains highly corrosive acid that can be crafted into an alchemical item called dragon's gut. When used as a thrown splash weapon, dragon's gut deals 2d4 points of acid damage plus, on a direct hit, an additional 1d4 points of acid damage the following round, and it deals 1 point of acid damage to all creatures within 5 feet of the impact point as normal splash damage.",
 			"",
-			"**Acid arrow:** The spell lasts 1d3 rounds longer than usual.",
-			"",
-			"Acid fog: The fog takes on a sticky quality and clings to creatures within it. Any creature damaged by the acid fog takes an additional 2d6 points of acid damage on the round after leaving the fog's area of effect. The creature can negate this additional damage by spending a standard action to wipe the clinging acid from its body.",
-			"",
-			"**Acidic spray:** The spell deals 1d8 points of acid damage per caster level (maximum 15d8) instead of the normal 1d6 per caster level on the round of its casting (Reflex half). It still deals 1d6 points of damage per two caster levels on the following round as normal.",
-			"",
-			"The Dragoncrafting feat and a successful DC 20 Craft (alchemy) check are required to convert 1 vial of stomach acid into 1 vial of dragon's gut."
+			"The {feat/Dragoncrafting} feat and a successful DC 20 Craft (alchemy) check are required to convert 1 vial of stomach acid into 1 vial of dragon's gut."
 		]
 	},
 	"dragoncrafting_kit": {
@@ -839,7 +742,7 @@
 			"",
 			"Made using the choicest, most malleable skin from a dragon's underbelly, this specialized weapon grip can be added to any weapon with a hilt or handle. Dragonskin grips may be added to an existing weapon, or incorporated into a new weapon during crafting. The skin provides extra grip, granting the wielder a +2 bonus to CMD against disarm attempts.",
 			"",
-			"Producing a dragonskin grip requires the Dragoncrafting feat and a successful DC 15 Craft (bows or weapons) check."
+			"Producing a dragonskin grip requires the {feat/Dragoncrafting} feat and a successful DC 15 Craft (bows or weapons) check."
 		]
 	},
 	"dragonslayers_kit": {
@@ -854,7 +757,7 @@
 			"**Price** 485 gp; **Weight** 64 lbs.  ",
 			"**Category** Kits",
 			"",
-			"Aimed more at hired blades than seasoned adventurers, this kit provides supplemental equipment for outfitting hirelings to hunt dragons. It includes a potion of cure moderate wounds, oil of bless weapon (1 application), a longspear, a backpack, three large sacks, a sunrod, a tower shield, and 5 vials of alchemist's fire. For hunting dragons that are immune to fire, the alchemist's fire can be replaced with acid at the time of purchase, for a savings of 50 gp."
+			"Aimed more at hired blades than seasoned adventurers, this kit provides supplemental equipment for outfitting hirelings to hunt dragons. It includes a potion of {spell/cure moderate wounds}, oil of {spell/bless weapon} (1 application), a {eq-weapon/longspear}, a {eq-misc/backpack}, three large {eq-misc/sack/s}, a {eq-misc/sunrod}, a {eq-armor/tower shield}, and 5 vials of {eq-weapon/alchemist's fire}. For hunting dragons that are immune to fire, the alchemist's fire can be replaced with {eq-weapon/acid} at the time of purchase, for a savings of 50 gp."
 		]
 	},
 	"dream_lichen": {
@@ -912,7 +815,7 @@
 			"**Price** 5 gp; **Weight** -  ",
 			"**Category** Alchemical Tools",
 			"",
-			"This unique, salty alchemical powder is crafted in Darklands communities where fresh water is either scarce or guarded by dangerous predators. Consuming 1 dose allows you to go without water for 3 days instead of 1, in growing discomfort but without any negative effects. After this time, you must attempt a Constitution check once every 6 hours instead of once per hour to avoid taking nonlethal damage. One dose of drought powder functions for 1 week, after which penalties for thirst accrue at their normal pace."
+			"This unique, salty alchemical powder is crafted in Darklands communities where fresh water is either scarce or guarded by dangerous predators. Consuming 1 dose allows you to go without water for 3 days instead of 1, in growing discomfort but without any negative effects. After this time, you must attempt a Constitution check once every 6 hours instead of once per hour to avoid taking nonlethal damage. One dose of drought powder functions for 1 week, after which penalties for {rule/starvation_and_<thirst} accrue at their normal pace."
 		]
 	},
 	"drowners_helm": {
@@ -936,7 +839,7 @@
 			"**Price** 14 gp; **Weight** 44 lbs.  ",
 			"**Category** Kits",
 			"",
-			"This includes animal feed (5 days), a backpack, a belt pouch, a blanket, a flint and steel, holly, mistletoe, an iron pot, a mess kit, soap, a spell component pouch, torches (10), trail rations (5 days), and a waterskin."
+			"This includes {eq-misc/animal feed} (5 days), a {eq-misc/backpack}, a {eq-misc/belt pouch}, a {eq-misc/blanket}, a {eq-misc/flint and steel}, {eq-misc/holly and mistletoe}, an {eq-misc/iron pot}, a {eq-misc/mess kit}, {eq-misc/soap}, a {eq-misc/spell component pouch}, {eq-misc/torches} (10), {eq-misc/trail rations} (5 days), and a {eq-misc/waterskin}."
 		]
 	},
 	"duck": {
@@ -962,7 +865,7 @@
 			"{SOURCE Ultimate Equipment/56;Pathfinder Society Field Guide/47}  ",
 			"**Price** 15 gp (common), 130 gp (deluxe); **Weight** 25 lbs. (common), 15 lbs. (deluxe)",
 			"",
-			"This bundle of essential supplies for exploring ruins and abandoned cities includes two candles, chalk, a hammer and four pitons, 50 feet of hemp rope, a hooded lantern with 5 flasks of oil, two sacks, two torches, and four tindertwigs. A deluxe dungeoneering kit contains two candles, chalk, a hammer and four pitons, 50 feet of silk rope, two sacks, three sunrods, four tindertwigs, and an everburning torch."
+			"This bundle of essential supplies for exploring ruins and abandoned cities includes two {eq-misc/candles}, {eq-misc/chalk}, a {eq-misc/hammer} and four {eq-misc/piton/s}, 50 feet of hemp {eq-misc/rope}, a {eq-misc/hooded lantern} with 5 flasks of {eq-misc/oil}, two {eq-misc/sack/s}, two {eq-misc/torches}, and four {eq-misc/tindertwig/s}. A deluxe dungeoneering kit contains two candles, chalk, a hammer and four pitons, 50 feet of silk rope, two sacks, three {eq-misc/sunrod/s}, four tindertwigs, and an {eq-misc/everburning torch}."
 		]
 	},
 	"dungeoneering_kit_deluxe": {
@@ -993,7 +896,7 @@
 			"**Price** 35 gp (normal), 40 gp (waterproof); **Weight** 4 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
-			"This specialized bullseye lantern has a ruby lens that covers the original lens, providing a deep crimson hue to the lantern's light, allowing for more stealth when used in areas of darkness. This special lens can be set in place or removed as a swift action. While the ruby lens is in place, the lantern only provides dim light in a 60-foot cone. A dusk lantern's red light is imperceptible to creatures relying on darkvision as their sole form of sight.",
+			"This specialized {eq-misc/bullseye lantern} has a ruby lens that covers the original lens, providing a deep crimson hue to the lantern's light, allowing for more stealth when used in areas of darkness. This special lens can be set in place or removed as a swift action. While the ruby lens is in place, the lantern only provides dim light in a 60-foot cone. A dusk lantern's red light is imperceptible to creatures relying on darkvision as their sole form of sight.",
 			"",
 			"**Waterproof Lantern:** Meant to shelter its flame from both water and wind, this lantern treats severe winds as strong winds, windstorms as severe winds, and hurricanes as windstorms for the purpose of determining whether they extinguish its flame. It holds enough air to burn underwater for 5 rounds before going dark."
 		]
@@ -1014,7 +917,7 @@
 			"**Price** 50 gp; **Weight** -  ",
 			"**Category** Alchemical Tools",
 			"",
-			"This liquid makes the eyes more receptive to light for 4 hours. The user gains low-light vision, but also suffers from light sensitivity for the duration. Crafting duskeye requires a successful DC 16 Craft (alchemy) check.",
+			"This liquid makes the eyes more receptive to light for 4 hours. The user gains low-light vision, but also suffers from {umr/light sensitivity} for the duration. Crafting duskeye requires a successful DC 16 Craft (alchemy) check.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 16"
 		]
@@ -1043,7 +946,7 @@
 			"**Price** 2 gp; **Weight** 1-1/2 lbs.  ",
 			"**Category** Food/Drink",
 			"",
-			"Dwarven trail rations consist of smoked sausages and salted meat, rounded out with hard biscuits and dried vegetables. If you are a dwarf who subsists on nothing but these rations for at least 1 week, you can hustle or make a forced march for an additional hour without ill effects, but cannot do both in the same day. This benefit lasts until you eat a meal other than the rations or go for a full day without eating a day's worth."
+			"Dwarven trail rations consist of smoked sausages and salted meat, rounded out with hard biscuits and dried vegetables. If you are a {race/dwarf} who subsists on nothing but these rations for at least 1 week, you can hustle or make a forced march for an additional hour without ill effects, but cannot do both in the same day. This benefit lasts until you eat a meal other than the rations or go for a full day without eating a day's worth."
 		]
 	},
 	"ear_trumpet_common": {
@@ -1054,7 +957,14 @@
 			"{SOURCE Ranged Tactics Toolbox/20}  ",
 			"**Price** 25 gp (common), 100 gp (masterwork); **Weight** 2 lbs. (common), 2 lbs. (masterwork)",
 			"",
-			"This foot-long brass funnel amplifies sounds entering through the broad end for anyone listening at the narrow end. The listener gains a +2 circumstance bonus on sound-based Perception checks but must use one hand to hold the trumpet to the ear in order to gain the benefit. A masterwork ear trumpet's exquisite acoustic properties grant the listener a +4 circumstance bonus instead."
+			"This foot-long brass funnel amplifies sounds entering through the broad end for anyone listening at the narrow end. The listener gains a +2 circumstance bonus on sound-based Perception checks but must use one hand to hold the trumpet to the ear in order to gain the benefit. A masterwork ear trumpet's exquisite acoustic properties grant the listener a +4 circumstance bonus instead.",
+			"",
+			"## Ear trumpet",
+			"{SOURCE Ultimate Equipment/56}  ",
+			"**Price** 5 gp; **Weight** 2 lbs.  ",
+			"**Category** Adventuring Gear",
+			"",
+			"By holding this specially crafted ear trumpet to your ear and placing the other end against a door or wall, you reduce the DC penalty for listening through a door or wall by 5."
 		]
 	},
 	"ear_trumpet_masterwork": {
@@ -1063,15 +973,7 @@
 	},
 	"ear_trumpet": {
 		"name": "Ear trumpet",
-		"sources": [ "Ultimate Equipment" ],
-		"description": [
-			"## Ear trumpet",
-			"{SOURCE Ultimate Equipment/56}  ",
-			"**Price** 5 gp; **Weight** 2 lbs.  ",
-			"**Category** Adventuring Gear",
-			"",
-			"By holding this specially crafted ear trumpet to your ear and placing the other end against a door or wall, you reduce the DC penalty for listening through a door or wall by 5."
-		]
+		"copyof": "ear_trumpet_common"
 	},
 	"earplugs": {
 		"name": "Earplugs",
@@ -1112,7 +1014,7 @@
 			"**Price** 150 gp; **Weight** 15 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
-			"Made of specially treated animal hides and lightweight metal supports, this costly tent is far lighter than its common cousins. An efficient tent holds two Medium creatures and takes 20 minutes to assemble."
+			"Made of specially treated animal hides and lightweight metal supports, this costly {eq-misc/tent} is far lighter than its common cousins. An efficient tent holds two Medium creatures and takes 20 minutes to assemble."
 		]
 	},
 	"efreeti_cord": {
@@ -1124,25 +1026,21 @@
 			"**Price** 50 gp; **Weight** -  ",
 			"**Category** Alchemical Tools",
 			"",
-			"Originally discovered by dwarven alchemists working with adamantine dust, efreeti cord is a viscid length of string approximately 18 inches long and blue-gray in color. It can be purchased in greater lengths by multiplying the price for every 18 inches or fraction thereof. Flexible and sticky, a length of efreeti cord can be carefully shaped into almost any pattern, draped upon an object, or wrapped around a fixture, and will stay in place until activated. Once activated (using an efreeti switch; see below), efreeti cord rapidly heats up, and after 1 round becomes a white-hot cord of fire. In the first round, the cord deals 3d6 points of fire damage to an object. This damage ignores any hardness less than 10, and is not halved for an object. The cord continues to burn for 2 additional rounds, dealing 2d6 points of fire damage the first additional round and 1d6 points the second.",
+			"Originally discovered by dwarven alchemists working with adamantine dust, efreeti cord is a viscid length of string approximately 18 inches long and blue-gray in color. It can be purchased in greater lengths by multiplying the price for every 18 inches or fraction thereof. Flexible and sticky, a length of efreeti cord can be carefully shaped into almost any pattern, draped upon an object, or wrapped around a fixture, and will stay in place until activated. Once activated (using an *efreeti switch*), efreeti cord rapidly heats up, and after 1 round becomes a white-hot cord of fire. In the first round, the cord deals 3d6 points of fire damage to an object. This damage ignores any hardness less than 10, and is not halved for an object. The cord continues to burn for 2 additional rounds, dealing 2d6 points of fire damage the first additional round and 1d6 points the second.",
 			"",
-			"**Construction:** Craft (Alchemy) DC 10"
-		]
-	},
-	"efreeti_switch": {
-		"name": "Efreeti switch",
-		"sources": [ "Ultimate Intrigue" ],
-		"description": [
+			"**Construction:** Craft (Alchemy) DC 10",
+			"",
 			"## Efreeti switch",
 			"{SOURCE Ultimate Intrigue/236}  ",
 			"**Price** 25 gp; **Weight** -  ",
 			"**Category** Alchemical Tools",
 			"",
-			"An efreeti switch is the activation device for efreeti cord; it measures approximately 6 inches in length and is made of a supple, red-brown alchemical compound. It is not consumed when activating a length of cord, and it can be used with any length of efreeti cord. It's possible to key lengths of efreeti cord to a specific switch; however, this doubles the price of both the efreeti cord and the switch.",
+			"An efreeti switch is the activation device for *efreeti cord*; it measures approximately 6 inches in length and is made of a supple, red-brown alchemical compound. It is not consumed when activating a length of cord, and it can be used with any length of efreeti cord. It's possible to key lengths of efreeti cord to a specific switch; however, this doubles the price of both the efreeti cord and the switch.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 10"
 		]
 	},
+	"efreeti_switch": { "copyof": "efreeti_cord" },
 	"elemental_breath": {
 		"name": "Elemental breath",
 		"sources": [ "Advanced Race Guide" ],
@@ -1152,7 +1050,7 @@
 			"**Price** 80 gp; **Weight** 1/2 lb.  ",
 			"**Category** Alchemical Tools",
 			"",
-			"This vial at first seems to be empty, but when it's opened, a rush of wind issues forth from within. When elemental breath is inhaled (as drinking a potion) by an air-breathing creature, that creature does not need to breath air for 10 rounds. A vial of elemental breath must be inhaled on the round it was opened to gain this effect. If it is not, the item is wasted.",
+			"This vial at first seems to be empty, but when it's opened, a rush of wind issues forth from within. When elemental breath is inhaled (as drinking a potion) by an air-breathing creature, that creature does not need to breathe air for 10 rounds. A vial of elemental breath must be inhaled on the round it was opened to gain this effect. If it is not, the item is wasted.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 20"
 		]
@@ -1166,7 +1064,7 @@
 			"**Price** 2,700 gp; **Weight** 8 lbs.  ",
 			"**Category** Kits",
 			"",
-			"This waterproof and flame-resistant case contains items useful to a spellcaster traveling the Elemental Planes, either intentionally or due to some mishap. The kit includes durable guides to each of the four Elemental Planes, describing a few common creatures and hazards found on each plane and pointing out major landmarks. Each guide grants a +2 circumstance bonus on Knowledge (planes) checks and Survival checks for its plane. This kit also contains 3 scrolls of comprehend languages, 2 scrolls of planar adaptation, and a scroll of plane shift attuned to the Material Plane so the kit's owner can return home. The price reflects a kit with divine scrolls; a kit containing arcane scrolls instead costs an additional 2,000 gp"
+			"This waterproof and flame-resistant case contains items useful to a spellcaster traveling the Elemental Planes, either intentionally or due to some mishap. The kit includes durable guides to each of the four Elemental Planes, describing a few common creatures and hazards found on each plane and pointing out major landmarks. Each guide grants a +2 circumstance bonus on Knowledge (planes) checks and Survival checks for its plane. This kit also contains 3 scrolls of {spell/comprehend languages}, 2 scrolls of {spell/planar adaptation}, and a scroll of {spell/plane shift} attuned to the Material Plane so the kit's owner can return home. The price reflects a kit with divine scrolls; a kit containing arcane scrolls instead costs an additional 2,000 gp"
 		]
 	},
 	"elemental_proofing": {
@@ -1178,7 +1076,7 @@
 			"**Price** 100 gp; **Weight** 1 lb.  ",
 			"**Category** Alchemical Tools",
 			"",
-			"This alchemical gel comes in a large vial with a brush built into the stopper. It's used to coat the surface of objects, protecting them from a specific type of energy damage. Though elemental proofing is not harmful to the objects it coats, it acts as a contact poison to living creatures. Touching elemental proofing directly causes 1d4 points of damage and 1d4 rounds of sickness (a DC 14 Fortitude save negates the latter effect). Creatures immune to poison are likewise immune to the effects of contacting elemental proofing but gain no benefits from its application. When applied to weapons or armor, elemental proofing confers resistances to the coated object, but none to the wearer.",
+			"This alchemical gel comes in a large vial with a brush built into the stopper. It's used to coat the surface of objects, protecting them from a specific type of energy damage. Though elemental proofing is not harmful to the objects it coats, it acts as a contact poison to living creatures. Touching elemental proofing directly causes 1d4 points of damage and 1d4 rounds of {misc/sick/ness>ened} (a DC 14 Fortitude save negates the latter effect). Creatures immune to poison are likewise immune to the effects of contacting elemental proofing but gain no benefits from its application. When applied to weapons or armor, elemental proofing confers resistances to the coated object, but none to the wearer.",
 			"",
 			"Each vial of elemental proofing contains enough gel to coat one Large object, or two Medium or smaller objects. Once the applied gel dries, it absorbs 10 points of the specified type of elemental damage each round. Elemental proofing wears off after 24 hours, and multiple applications of the gel do not stack. There are four different types of elemental proofing: acid proofing provides acid resistance 10, flame proofing provides fire resistance 10, frost proofing provides cold resistance 10, and lightning proofing provides electricity resistance 10."
 		]
@@ -1207,7 +1105,7 @@
 			"**Price** 250 gp; **Weight** 1 lb.  ",
 			"**Category** Clothing",
 			"",
-			"The canny half-elf sometimes needs a little something extra to look like a full elf. Ear extensions make somewhat elongated half-elf ears look like sharp elf ears, and colored lenses make a half-elf's human-like eyes look like elven eyes. These accessories give a half-elf a +6 circumstance bonus on Disguise checks to resemble an elf and can be used only by a half-elf."
+			"The canny {race/half-elf} sometimes needs a little something extra to look like a full elf. Ear extensions make somewhat elongated half-elf ears look like sharp elf ears, and colored lenses make a half-elf's human-like eyes look like elven eyes. These accessories give a half-elf a +6 circumstance bonus on Disguise checks to resemble an elf and can be used only by a half-elf."
 		]
 	},
 	"elven_trail_rations": {
@@ -1219,7 +1117,7 @@
 			"**Price** 2 gp; **Weight** 1 lb.  ",
 			"**Category** Food/Drink",
 			"",
-			"Elves favor soft trail bread made of oats mixed with other grains, berries, and nuts and sweetened with honey. They supplement this trail bread with dried fruits and nuts. If you are an elf who subsists on nothing but these rations for at least 1 week, you receive a +2 bonus on checks and saves that benefit from the {feat/Endurance} feat. This benefit lasts until you eat a meal other than the rations or go for a full day without eating a day's worth."
+			"Elves favor soft trail bread made of oats mixed with other grains, berries, and nuts and sweetened with honey. They supplement this trail bread with dried fruits and nuts. If you are an {race/elf} who subsists on nothing but these rations for at least 1 week, you receive a +2 bonus on checks and saves that benefit from the {feat/Endurance} feat. This benefit lasts until you eat a meal other than the rations or go for a full day without eating a day's worth."
 		]
 	},
 	"embalming_fluid": {
@@ -1257,7 +1155,7 @@
 			"**Price** 1,665 gp; **Weight** 3 lbs.  ",
 			"**Category** Kits",
 			"",
-			"This wooden box contains the tools to interrogate a captive with ease. The kit includes masterwork manacles with an average lock, a vial of gravelly tonic, 2 elixirs of truth, and a scroll of detect thoughts. In case other methods fail, the kit also includes a scroll of {spell/speak with dead}."
+			"This wooden box contains the tools to interrogate a captive with ease. The kit includes {eq-misc/masterwork manacles} with an {eq-misc/average lock}, a vial of {eq-misc/gravelly tonic}, 2 {magic-wondrous/elixir[s] of truth}, and a scroll of {spell/detect thoughts}. In case other methods fail, the kit also includes a scroll of {spell/speak with dead}."
 		]
 	},
 	"emissarys_sash": {
@@ -1281,7 +1179,7 @@
 			"**Price** 5 sp; **Weight** 3 lbs.  ",
 			"**Category** Kits",
 			"",
-			"This kit includes juggling balls, colored handkerchiefs, playing cards, clownish makeup, and other simple props for stage magicians and other street entertainers."
+			"This kit includes juggling balls, colored handkerchiefs, {eq-misc/playing cards}, clownish makeup, and other simple props for stage magicians and other street entertainers."
 		]
 	},
 	"entertainers_outfit": {
@@ -1389,7 +1287,7 @@
 			"**Price** 350 gp; **Weight** 1 lb.  ",
 			"**Category** Alchemical Tools",
 			"",
-			"This alchemical salve strengthens the material of a weapon, improves its balance, gives it greater flexibility without sacrificing resilience, and enhances its ability to hold an edge or point and survive an impact. An application turns a typical nonmagical melee weapon into a masterwork weapon. A double weapon requires 2 doses of exemplar weapon salve, and 50 arrows, bolts, or similar ammunition can be enhanced by a single application."
+			"This alchemical salve strengthens the material of a weapon, improves its balance, gives it greater flexibility without sacrificing resilience, and enhances its ability to hold an edge or point and survive an impact. An application turns a typical nonmagical melee weapon into a {rule/masterwork weapon>s}. A double weapon requires 2 doses of exemplar weapon salve, and 50 arrows, bolts, or similar ammunition can be enhanced by a single application."
 		]
 	},
 	"exorcism_kit": {
@@ -1401,7 +1299,7 @@
 			"**Price** 950 gp; **Weight** 44 lbs.  ",
 			"**Category** Kits",
 			"",
-			"This reinforced wooden box bears the symbol of a specific good-aligned deity, which the buyer may stipulate at the time of purchase. The kit contains 1 dose of abjurant salt, which is used to create good-aligned barriers; 3 vials of holy water, which can be used against undead creatures or evil outsiders; and a pouch of silver dust worth 25 gp, which is a material component of the spell consecrate. An exorcism kit also counts as an altar for the purposes of determining bonuses and penalties for the spell consecrate."
+			"This reinforced wooden box bears the {eq-misc/holy_<symbol} of a specific good-aligned deity, which the buyer may stipulate at the time of purchase. The kit contains 1 dose of {magic-wondrous/abjurant salt}, which is used to create good-aligned barriers; 3 vials of {eq-weapon/holy water}, which can be used against undead creatures or evil outsiders; and a pouch of silver dust worth 25 gp, which is a material component of the spell {spell/consecrate}. An exorcism kit also counts as an altar for the purposes of determining bonuses and penalties for the spell consecrate."
 		]
 	},
 	"explorers_emulsion": {
@@ -1413,7 +1311,7 @@
 			"**Price** 150 gp; **Weight** -  ",
 			"**Category** Tincture",
 			"",
-			"This tincture contains powdered plant roots and comes in cold-weather and hot-weather varieties. For 6 hours after drinking the tincture, you gain a +5 alchemical bonus on Fortitude saving throws to resist the effects of the chosen temperature. The tincture interferes with blood flow, causing you to take a -2 penalty on all other Fortitude saving throws for the same duration.",
+			"This tincture contains powdered plant roots and comes in {rule/cold-/weather>dangers} and [hot-weather](rule/heat_dangers) varieties. For 6 hours after drinking the tincture, you gain a +5 alchemical bonus on Fortitude saving throws to resist the effects of the chosen temperature. The tincture interferes with blood flow, causing you to take a -2 penalty on all other Fortitude saving throws for the same duration.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 20"
 		]
@@ -1454,7 +1352,7 @@
 			"**Price** 150 gp; **Weight** -  ",
 			"**Category** Alchemical Remedies",
 			"",
-			"This bright pink liquid can be added to the eyes of a willing homunculus as a standard action. If you are the homunculus's master, you gain the ability to see through the homunculus's eyes by closing yours and concentrating, and the homunculus can see through yours in the same fashion. The eye drops also extend the range of the homunculus's telepathic link to 1 mile. The effects of the eye drops fade after 1 day.",
+			"This bright pink liquid can be added to the eyes of a willing {monster/homunculus} as a standard action. If you are the homunculus's master, you gain the ability to see through the homunculus's eyes by closing yours and concentrating, and the homunculus can see through yours in the same fashion. The eye drops also extend the range of the homunculus's telepathic link to 1 mile. The effects of the eye drops fade after 1 day.",
 			"",
 			"**{rule/Spontaneous Alchemy} Recipe** (20 {eq-reagent/dew of lunary} + 20 {eq-reagent/saltpeter} + 80 {eq-reagent/spirit of wine})/distillation; **Craft DC** 25  ",
 			"**Time** 1 day; **Tools** {eq-misc/retort}; **Type** alchemical remedy"
@@ -1566,7 +1464,7 @@
 			"**Price** 65 gp; **Weight** 2 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
-			"These manacles are nearly indistinguishable from standard manacles upon inspection (Perception DC 25). A wearer who knows the location of the secret catch can open them as a standard action; otherwise they act like masterwork manacles. Some appear to be of common quality, though false manacles are always masterwork."
+			"These manacles are nearly indistinguishable from standard {eq-misc/manacles} upon inspection (Perception DC 25). A wearer who knows the location of the secret catch can open them as a standard action; otherwise they act like masterwork manacles. Some appear to be of common quality, though false manacles are always masterwork."
 		]
 	},
 	"manacles_false": { "copyof": "false_manacles" },
@@ -1646,7 +1544,7 @@
 			"**Price** 375 gp; **Weight** 400 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
-			"This wagon has a hollow below its apparent bottom. The hollow is 6 inches deep and has a capacity of 75 cubic feet. The hollow can be noticed during a search of the wagon with a successful DC 20 Perception check. The wagon otherwise resembles a normal medium wagon."
+			"This {eq-misc/wagon} has a hollow below its apparent bottom. The hollow is 6 inches deep and has a capacity of 75 cubic feet. The hollow can be noticed during a search of the wagon with a successful DC 20 Perception check. The wagon otherwise resembles a normal medium wagon."
 		]
 	},
 	"wagon_false_bottomed": { "copyof": "false_bottomed_wagon" },
@@ -1675,7 +1573,7 @@
 			"**Price** 25 gp; **Weight** 6 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
-			"This armored case provides total cover to any Tiny or smaller creature contained within it. It includes air holes (which can be plugged with cork stoppers if you need to go underwater) and two receptacles for food and water."
+			"This armored case provides total {rule/cover} to any Tiny or smaller creature contained within it. It includes air holes (which can be plugged with cork stoppers if you need to go underwater) and two receptacles for food and water."
 		]
 	},
 	"fangfile": {
@@ -1687,7 +1585,7 @@
 			"**Price** 3 gp; **Weight** 2 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
-			"This narrow metal file is used by goblins to sharpen their teeth. The file ends in a pointed spike in case tooth-sharpening is interrupted by combat - a fangfile can function as a punching dagger when used in combat."
+			"This narrow metal file is used by goblins to sharpen their teeth. The file ends in a pointed spike in case tooth-sharpening is interrupted by combat - a fangfile can function as a {eq-weapon/punching dagger} when used in combat."
 		]
 	},
 	"fashionable_accessories": {
@@ -1811,7 +1709,7 @@
 			"**Price** 100 gp; **Weight** 1 lb.  ",
 			"**Category** Alchemical Remedies",
 			"",
-			"A gritty salve with an earthy odor, muscle grout is frequently sold in areas where giant spiders or ropers haunt local trade routes. When massaged into the muscles as a full-round action, this ointment provides a +2 alchemical bonus on saving throws to resist nonmagical effects that cause Strength damage. Any Strength damage you take manifests gradually as the salve slows muscle decay; anytime you take Strength damage, you take only 1 point per round until the full amount of damage is dealt. Additional Strength damage adds to the total, but is dealt only at a maximum rate of 1 point per round, as long as the grout is active. A dose of muscle grout lasts for 10 minutes. One dose of muscle grout is sufficient for a Medium or smaller creature; Large creatures require 2 doses, Huge creatures require 4 doses, and so on."
+			"A gritty salve with an earthy odor, muscle grout is frequently sold in areas where {monster/giant spider/s} or {monster/roper/s} haunt local trade routes. When massaged into the muscles as a full-round action, this ointment provides a +2 alchemical bonus on saving throws to resist nonmagical effects that cause Strength damage. Any Strength damage you take manifests gradually as the salve slows muscle decay; anytime you take Strength damage, you take only 1 point per round until the full amount of damage is dealt. Additional Strength damage adds to the total, but is dealt only at a maximum rate of 1 point per round, as long as the grout is active. A dose of muscle grout lasts for 10 minutes. One dose of muscle grout is sufficient for a Medium or smaller creature; Large creatures require 2 doses, Huge creatures require 4 doses, and so on."
 		]
 	},
 	"musical_instrument_common": {
@@ -1846,7 +1744,7 @@
 			"**Price** 25 gp; **Weight** 1 lb.  ",
 			"**Category** Kits",
 			"",
-			"A musk kit consists of a dozen vials of concentrated fluids, prepared animal glands, and plant compounds. You can use the distinctly scented musks to mark possessions, locations, and trails which can then be identified or followed by scent. Some hunters dip their arrows or other weapons in the musk in order to use them to mark and track injured prey.",
+			"A musk kit consists of a dozen vials of concentrated fluids, prepared animal glands, and plant compounds. You can use the distinctly scented musks to mark possessions, locations, and trails which can then be identified or followed by {umr/scent}. Some hunters dip their arrows or other weapons in the musk in order to use them to mark and track injured prey.",
 			"",
 			"Alternatively, you can use up four vials from the musk kit at once to attract 2d6 Tiny animals to the location you marked with musk. The animals arrive in approximately 1 hour, and the group consists of those animals most common to the immediate area."
 		]
@@ -1874,13 +1772,13 @@
 			"",
 			"This equipment package is designed to provide the most aid to divine casters, such as clerics, druids, oracles, and inquisitors, who prefer to help their companions from behind the front lines of a fight.",
 			"",
-			"**Armor:** Leather armor, light wooden shield.",
+			"**Armor:** {eq-armor/Leather armor}, {eq-armor/light wooden shield}.",
 			"",
-			"**Weapons:** Shortspear, sling with 10 bullets.",
+			"**Weapons:** {eq-weapon/Shortspear}, {eq-weapon/sling} with 10 {eq-weapon/sling_<bullets}.",
 			"",
-			"**Combat Gear:** Antitoxin, bead of blessing (as a lesser strand of prayer beads without the bead of healing), holy water (2), scrolls of cure light wounds (2), scroll of endure elements.",
+			"**Combat Gear:** {eq-misc/Antitoxin}, bead of blessing (as a {magic-wondrous/lesser strand of prayer beads} without the bead of healing), {eq-weapon/holy water} (2), scrolls of {spell/cure light wounds} (2), scroll of {spell/endure elements}.",
 			"",
-			"**Other Gear:** Backpack, bedroll, belt pouch, candles (5), chalk (5 pieces), flint and steel, healer's kit, holy symbol (silver), ioun torch, mess kit, mirror, sack, shovel, silk rope (50 ft.), smelling salts, soap, spell component pouch, trail rations (5 days), waterskin, 4 sp.",
+			"**Other Gear:** {eq-misc/Backpack}, {eq-misc/bedroll}, {eq-misc/belt pouch}, {eq-misc/candles} (5), {eq-misc/chalk} (5 pieces), {eq-misc/flint and steel}, {eq-misc/healer's kit}, {eq-misc/holy symbol (silver)}, {magic-wondrous/ioun torch}, {eq-misc/mess kit}, {eq-misc/mirror}, {eq-misc/sack}, {eq-misc/shovel}, {eq-misc/silk rope} (50 ft.), {eq-misc/smelling salts}, {eq-misc/soap}, {eq-misc/spell component pouch}, {eq-misc/trail rations} (5 days), {eq-misc/waterskin}, 4 sp.",
 			"",
 			"**Total Weight:** 67 lbs. (39-1/4 lbs. for a Small character)."
 		]
@@ -1921,7 +1819,7 @@
 			"**Price** 10 gp; **Weight** 1/4 lb.  ",
 			"**Category** Clothing",
 			"",
-			"Made from hardened leather reinforced with a band of metal, this collar protects the wearer against vampire bites when worn around the throat. It provides a +1 armor bonus to AC against vampire bites or similar attacks that specifically target the wearer's throat. Unlike most armor bonuses, the neck guard's +1 bonus stacks with the armor bonus of light or medium armor, but it provides no additional bonus when worn with heavy armor."
+			"Made from hardened leather reinforced with a band of metal, this collar protects the wearer against {template/vampire} bites when worn around the throat. It provides a +1 armor bonus to AC against vampire bites or similar attacks that specifically target the wearer's throat. Unlike most armor bonuses, the neck guard's +1 bonus stacks with the armor bonus of light or medium armor, but it provides no additional bonus when worn with heavy armor."
 		]
 	},
 	"necrobane_formaldehyde": {
@@ -1935,9 +1833,9 @@
 			"",
 			"This form of the common embalming agent comes in a glass beaker with a thick rubber stopper, and is employed in regions such as Ustalav, where alchemy is prized as a viable defense against the depredations of necromancers. When introduced into a dead body, necrobane formaldehyde slows the process of decay, keeping the corpse from stinking and rotting for 1d6 days after death. Treating a body with necrobane formaldehyde takes 1 hour and requires a successful DC 25 Heal check. A corpse injected with necrobane formaldehyde is more difficult to resurrect as an undead creature for 1d6 days after injection. Anyone attempting to seed unlife in a corpse treated in this substance must succeed at a DC 14 caster level check to complete the process or the spell fails and its components are wasted. This is also the case for creatures that ingest necrobane formaldehyde and subsequently die before the effect's duration has expired.",
 			"",
-			"If an undead creature ingests necrobane formaldehyde (perhaps by eating part of an embalmed corpse), the undead creature becomes fatigued for 2d6 rounds.",
+			"If an undead creature ingests necrobane formaldehyde (perhaps by eating part of an embalmed corpse), the undead creature becomes {misc/fatigued} for 2d6 rounds.",
 			"",
-			"When ingested by a living creature, necrobane formaldehyde nauseates the imbiber for 1d6 rounds and deals 1d4 points of Constitution damage. A successful DC 14 Fortitude save reduces the nauseated effect to sickened and halves the Constitution damage (minimum 1). This is a poison effect, though the pungent aroma and unmistakably toxic taste of necrobane formaldehyde makes it difficult to use as a surreptitious weapon.",
+			"When ingested by a living creature, necrobane formaldehyde {misc/nauseate/s>d} the imbiber for 1d6 rounds and deals 1d4 points of Constitution damage. A successful DC 14 Fortitude save reduces the nauseated effect to {misc/sickened} and halves the Constitution damage (minimum 1). This is a poison effect, though the pungent aroma and unmistakably toxic taste of necrobane formaldehyde makes it difficult to use as a surreptitious weapon.",
 			"",
 			"Crafting necrobane formaldehyde requires a successful DC 23 Craft (alchemy) check.",
 			"",
@@ -1953,7 +1851,7 @@
 			"**Price** 150 gp; **Weight** 1/2 lb.  ",
 			"**Category** Alchemical Tools",
 			"",
-			"The powder in this minute glass vial is made of caustic soda treated with consecrated ashes, and is harmless to living flesh but dangerous to the deceased. Necrosalt can be thrown as a splash weapon with a range increment of 5 feet. On a successful ranged touch attack, 1 dose of necrosalt deals 1d4 points of damage to a struck corporeal undead creature. For 3 rounds afterward, it deals an additional 1d4 points of damage to its victim at the beginning of the victim's turn. Intelligent undead creatures can brush necrosalt off their bodies and end its effect as a move action. Crafting this item requires a successful DC 30 Craft (alchemy) check.",
+			"The powder in this minute glass vial is made of caustic soda treated with consecrated ashes, and is harmless to living flesh but dangerous to the deceased. Necrosalt can be {rule/throw[n as a] splash weapon} with a range increment of 5 feet. On a successful ranged touch attack, 1 dose of necrosalt deals 1d4 points of damage to a struck corporeal undead creature. For 3 rounds afterward, it deals an additional 1d4 points of damage to its victim at the beginning of the victim's turn. Intelligent undead creatures can brush necrosalt off their bodies and end its effect as a move action. Crafting this item requires a successful DC 30 Craft (alchemy) check.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 30"
 		]
@@ -2055,7 +1953,7 @@
 			"**Preparation** A dose of nightsage must be sprinkled with holy water periodically over an 8-hour drying process in natural sunlight; this process requires a successful DC 12 Craft (alchemy) check and one flask of holy water.  ",
 			"**Use** When dried nightsage is lit on fire (a standard action), it produces a thin but pleasant-smelling smoke almost like that produced by a stick of incense. A dose of nightsage burns for 10 minutes and can be extinguished and reignited for multiple uses (but it is always used in 1 minute increments, regardless of the actual time spent burning).",
 			"",
-			"While nightsage burns, each corporeal undead creature within a 5-foot radius gains a +2 profane bonus on saving throws against positive energy effects (including channel energy effects). Necromancers are fond of supplying their undead minions with small thuribles containing a burning stick of nightsage that can be worn while carrying out their commands. A moderate or stronger wind extinguishes a burning stick of nightsage.",
+			"While nightsage burns, each corporeal undead creature within a 5-foot radius gains a +2 profane bonus on saving throws against positive energy effects (including {ability/channel energy} effects). Necromancers are fond of supplying their undead minions with small thuribles containing a burning stick of nightsage that can be worn while carrying out their commands. A moderate or stronger wind extinguishes a burning stick of nightsage.",
 			"",
 			"The fragrant purple blossoms of this night-blooming wildflower are so deep in hue that they appear almost black."
 		]
@@ -2087,7 +1985,7 @@
 			"**Price** 75 gp; **Weight** 10 lbs.  ",
 			"**Category** Clothing",
 			"",
-			"These clothes are designed specifically to be expensive and gaudy, letting everyone know exactly how expensive they are. Precious metals and gems are worked into the clothing, along with elaborate embroidery, and some outfits may contain impractical concessions to high fashion. A would-be noble also needs a signet ring and jewelry (worth at least 100 gp) to accessorize this outfit.",
+			"These clothes are designed specifically to be expensive and gaudy, letting everyone know exactly how expensive they are. Precious metals and gems are worked into the clothing, along with elaborate embroidery, and some outfits may contain impractical concessions to high fashion. A would-be noble also needs a {eq-misc/signet ring} and {eq-misc/jewelry} (worth at least 100 gp) to accessorize this outfit.",
 			"",
 			"**Tear-away clothing**  ",
 			"{SOURCE Ultimate Equipment/89;Adventurer's Armory/19}  ",
@@ -2110,7 +2008,7 @@
 			"**Price** 80 gp; **Weight** -  ",
 			"**Category** Alchemical Remedies",
 			"",
-			"Pathfinders pride themselves on their camaraderie, and among the worst threats are those that can magically compel agents to fight among themselves. Nostalgia oil is a vial of concentrated aromatics that evoke positive memories of the Grand Lodge and common trials overcome during a Pathfinder's training. By dabbing this oil on her face, neck, or arms as a standard action, a Pathfinder gains a +2 alchemical bonus on saving throws against effects with the emotion descriptor and on secondary saving throws made to resist dominate person and similar compulsion effects that would force her to harm her allies or betray her mission. Applied in this way, a vial of nostalgia oil remains potent for 8 hours or until washed off with soap and water. Nostalgia oil can also be thrown as a splash weapon, extending its benefits for 1 hour to any Pathfinder struck with a direct hit. Alternatively, a creature can mix it with a pint of lantern oil or piece of incense, which grants half the nostalgia oil's benefits to all Pathfinders within 20 feet of the lantern or censor for 1 hour; any strong wind (21+ mph) dissipates the aroma for 1 minute.",
+			"[Pathfinders](rule/aff_scholars) pride themselves on their camaraderie, and among the worst threats are those that can magically compel agents to fight among themselves. Nostalgia oil is a vial of concentrated aromatics that evoke positive memories of the Grand Lodge and common trials overcome during a Pathfinder's training. By dabbing this oil on her face, neck, or arms as a standard action, a Pathfinder gains a +2 alchemical bonus on saving throws against effects with the emotion descriptor and on secondary saving throws made to resist {spell/dominate person} and similar compulsion effects that would force her to harm her allies or betray her mission. Applied in this way, a vial of nostalgia oil remains potent for 8 hours or until washed off with soap and water. Nostalgia oil can also be {rule/throw[n as a] splash weapon}, extending its benefits for 1 hour to any Pathfinder struck with a direct hit. Alternatively, a creature can mix it with a pint of lantern {eq-misc/oil} or piece of {eq-misc/incense}, which grants half the nostalgia oil's benefits to all Pathfinders within 20 feet of the lantern or censor for 1 hour; any strong wind (21+ mph) dissipates the aroma for 1 minute.",
 			"",
 			"Crafting a vial of nostalgia oil requires a successful DC 25 Craft (alchemy) check. Although most nostalgia oil is mixed to benefit only Pathfinder agents, other mixtures might be created to benefit only members of another clan, neighborhood, or organization."
 		]
@@ -2124,7 +2022,7 @@
 			"**Price** 7 sp; **Weight** -  ",
 			"**Category** Lodging/Services",
 			"",
-			"A nurse is a person familiar with healing and medicine. A typical nurse is a 1st-level expert with 1 rank in Heal and the {feat/Skill Focus} (Heal) feat. An experienced nurse is 3rd or 4th level, has additional ranks in Heal, and is paid two to three times as much; however, these nurses are in high demand and are normally employed full-time by wealthy merchants or nobles to look after children and elderly family members. A nurse generally knows a little bit about what local magical healing can do and where to find it. The listed price is per day."
+			"A nurse is a person familiar with healing and medicine. A typical nurse is a 1st-level expert with 1 rank in {skill/Heal} and the {feat/Skill Focus} (Heal) feat. An experienced nurse is 3rd or 4th level, has additional ranks in Heal, and is paid two to three times as much; however, these nurses are in high demand and are normally employed full-time by wealthy merchants or nobles to look after children and elderly family members. A nurse generally knows a little bit about what local magical healing can do and where to find it. The listed price is per day."
 		]
 	},
 	"nushadir": {
@@ -2139,7 +2037,7 @@
 			"**Price** 10 gp; **Weight** 1 lb.  ",
 			"**Category** Alchemical Tools",
 			"",
-			"This reagent is often stored in the form of small, salty pellets in a dry container, though it can also be mixed with a flask of water and carried that way. Nushadir neutralizes acid; a vial of pellets or a flask of nushadir-water is enough to render a cubic foot of acid safe to touch in 1 minute, though this is usually too slow to prevent damage from a thrown vial of acid or the contents of a large monster's gullet. Nushadir vapors are slightly irritating to the eyes, nose, and mouth, causing nausea for 1d4 rounds after close exposure (Fortitude DC 10 negates).",
+			"This reagent is often stored in the form of small, salty pellets in a dry container, though it can also be mixed with a flask of water and carried that way. Nushadir neutralizes {eq-weapon/acid}; a vial of pellets or a flask of nushadir-water is enough to render a cubic foot of acid safe to touch in 1 minute, though this is usually too slow to prevent damage from a thrown vial of acid or the contents of a large monster's gullet. Nushadir vapors are slightly irritating to the eyes, nose, and mouth, causing nausea for 1d4 rounds after close exposure (Fortitude DC 10 negates).",
 			"",
 			"**Construction:** Craft (Alchemy) DC 20"
 		]
@@ -2165,7 +2063,7 @@
 			"**Price** 12 gp; **Weight** 1/2 lb.  ",
 			"**Category** Adventuring Gear",
 			"",
-			"Obals are small silver or gold coins that are embossed with a holy symbol and blessed by a priest of a god of war or death. Inquisitors and warpriests traditionally place the coins on the corpses of those slain in battle, usually one over each eye or one in the mouth. The cost is for a batch of 12 obals."
+			"Obals are small silver or gold coins that are embossed with a {eq-misc/holy symbol} and blessed by a priest of a god of war or death. Inquisitors and warpriests traditionally place the coins on the corpses of those slain in battle, usually one over each eye or one in the mouth. The cost is for a batch of 12 obals."
 		]
 	},
 	"observations_of_oagon": {
@@ -2195,7 +2093,7 @@
 			"**Price** 25 gp; **Weight** 1 lb.  ",
 			"**Category** Tools",
 			"",
-			"Gnomes use these small books to record information about their obsessions. When a gnome consults her obsession log (taking 1 minute), she gains a +2 circumstance bonus on the next Craft or Profession check she makes, as long as that skill was the one chosen for her obsessive racial trait."
+			"Gnomes use these small books to record information about their obsessions. When a {race/gnome} consults her obsession log (taking 1 minute), she gains a +2 circumstance bonus on the next Craft or Profession check she makes, as long as that skill was the one chosen for her obsessive racial trait."
 		]
 	},
 	"occult_reference_material": {
@@ -2219,7 +2117,7 @@
 			"**Price** 10 gp; **Weight** 1/2 lb.  ",
 			"**Category** Tools",
 			"",
-			"This bauble, bit of clothing, or relic has some minor historical significance. Though not especially valuable, it's useful to an occultist, who can use it as an implement. Any such item is nonmagical, even if it appears to be a rod or wand. Implements that already have a mundane version with a price higher than 10 gp (such as armor, shields, weapons, and harrow decks) use their normal item entries instead of this catch-all."
+			"This bauble, bit of clothing, or relic has some minor historical significance. Though not especially valuable, it's useful to an {class/occultist}, who can use it as an implement. Any such item is nonmagical, even if it appears to be a rod or wand. Implements that already have a mundane version with a price higher than 10 gp (such as armor, shields, weapons, and harrow decks) use their normal item entries instead of this catch-all."
 		]
 	},
 	"occultists_kit": {
@@ -2231,7 +2129,7 @@
 			"**Price** 45 gp; **Weight** 32-1/2 lbs.  ",
 			"**Category** Kits",
 			"",
-			"This kit includes a backpack, a bedroll, a belt pouch, chalk (10 pieces), flint and steel, ink (1 ounce), an inkpen, an iron pot, a journal, occultist's implements (2), torches (10), trail rations (5 days), and a waterskin."
+			"This kit includes a {eq-misc/backpack}, a {eq-misc/bedroll}, a {eq-misc/belt pouch}, {eq-misc/chalk} (10 pieces), {eq-misc/flint and steel}, {eq-misc/ink} (1 ounce), an {eq-misc/inkpen}, an {eq-misc/iron pot}, a {eq-misc/journal}, {eq-misc/occultist's implement/s} (2), {eq-misc/torches} (10), {eq-misc/trail rations} (5 days), and a {eq-misc/waterskin}."
 		]
 	},
 	"octopus": {
@@ -2243,7 +2141,7 @@
 			"**Price** 25 gp; **Weight** 2 lbs.  ",
 			"**Category** Mounts/Pets",
 			"",
-			"These cunning animals (especially the blue-ringed variety) can be employed as familiars by aquatic spellcasters. If they are kept is pets, they must be kept in water, as they cannot survive out of it."
+			"These cunning animals (especially the {monster/blue-ringed>_octopus} variety) can be employed as familiars by aquatic spellcasters. If they are kept is pets, they must be kept in water, as they cannot survive out of it."
 		]
 	},
 	"odor_stalk": {
@@ -2255,13 +2153,7 @@
 			"**Price** 70 gp; **Weight** 1/10 lbs  ",
 			"**Category** Alchemical Tools",
 			"",
-			"These alchemically treated incense sticks contain pheromones that certain creatures find repellent. Each odor stalk is created to irritate a specific creature type. After burning for 1 round, an odor stalk fills a 10-foot square with a clear gas that causes any living creature of the prescribed type to become nauseated for 1 round, then sickened for as long as it remains in the area. On a successful DC 12 Fortitude save, the creature negates the nauseated condition but not the sickened condition. This is a poison effect. The cloud lasts for 10 minutes, but can be dispersed like obscuring mist. Additionally, odor stalks can be used as an additional spell component for the following spells to modify the spell's effects.",
-			"",
-			"**Ghoul touch:** The stench only affects creatures of the odor stalk's associated creature type.",
-			"",
-			"**Repel vermin:** The spell functions as written, but applies to the odor stalk's associated creature type instead of to vermin. The Will save DC is always 12 when using this component.",
-			"",
-			"**Stinking cloud:** The Fortitude save DC increases by 1 for creatures of the odor stalk's prescribed type, but decreases by 1 for all other creature types."
+			"These alchemically treated {eq-misc/incense} sticks contain pheromones that certain creatures find repellent. Each odor stalk is created to irritate a specific creature type. After burning for 1 round, an odor stalk fills a 10-foot square with a clear gas that causes any living creature of the prescribed type to become {misc/nauseated} for 1 round, then {misc/sickened} for as long as it remains in the area. On a successful DC 12 Fortitude save, the creature negates the nauseated condition but not the sickened condition. This is a poison effect. The cloud lasts for 10 minutes, but can be dispersed like {spell/obscuring mist}."
 		]
 	},
 	"oil_of_the_masters": {
@@ -2290,7 +2182,7 @@
 			"**Price** 1 sp; **Weight** 1 lb.  ",
 			"**Category** Adventuring Gear",
 			"",
-			"A 1-pint flask of oil burns for 6 hours in a lantern or lamp. You can also use a flask of oil as a splash weapon. Use the rules for alchemist's fire, except that it takes a full-round action to prepare a flask with a fuse. Once it is thrown, there is a 50% chance of the flask igniting successfully.",
+			"A 1-pint flask of oil burns for 6 hours in a lantern or lamp. You can also use a flask of oil as a splash weapon. Use the rules for {eq-weapon/alchemist's fire}, except that it takes a full-round action to prepare a flask with a fuse. Once it is thrown, there is a 50% chance of the flask igniting successfully.",
 			"",
 			"You can pour a pint of oil on the ground to cover an area 5 feet square, provided that the surface is smooth. If lit, the oil burns for 2 rounds and deals 1d3 points of fire damage to each creature in the area."
 		]
@@ -2319,7 +2211,7 @@
 			"**Price** 100 gp; **Weight** 1 lb.  ",
 			"**Category** Alchemical Tools",
 			"",
-			"Drow alchemists of House Tracinoa developed this mixture to function as a lure for mindless oozes. You can throw a flask of ooze attractant as a splash weapon. On a direct hit, each mindless ooze within 60 feet must succeed at a DC 12 Will save or be compelled to approach the target for the next 1d4+1 rounds. On a miss, an ooze still attempts a Will save, but on a failure it instead approaches the square in which the flask landed. Once an ooze moves adjacent to the targeted creature or into the targeted square, it resumes its normal behavior. An ooze can be affected by ooze attractant only once in a 24-hour period."
+			"Drow alchemists of House Tracinoa developed this mixture to function as a lure for mindless oozes. You can throw a flask of ooze attractant as a {rule/throw_<splash weapon}. On a direct hit, each mindless ooze within 60 feet must succeed at a DC 12 Will save or be compelled to approach the target for the next 1d4+1 rounds. On a miss, an ooze still attempts a Will save, but on a failure it instead approaches the square in which the flask landed. Once an ooze moves adjacent to the targeted creature or into the targeted square, it resumes its normal behavior. An ooze can be affected by ooze attractant only once in a 24-hour period."
 		]
 	},
 	"ooze_grease": {
@@ -2331,7 +2223,7 @@
 			"**Price** 50 gp; **Weight** 1 lb.  ",
 			"**Category** Alchemical Tools",
 			"",
-			"This alchemical concoction can be spread over a Medium or Small creature's body as a full-round action. It provides a +5 alchemical bonus on Escape Artist checks, grapple checks to avoid a grapple, and Reflex saves to avoid an ooze's improved grab or engulf abilities, but gives a -5 penalty to disarm checks, grapple checks to start or maintain a grapple or pin, and other checks that may be hindered by a loose grip (such as Climb). One application lasts for up to 1 hour and can be removed with soap and water.",
+			"This alchemical concoction can be spread over a Medium or Small creature's body as a full-round action. It provides a +5 alchemical bonus on Escape Artist checks, grapple checks to avoid a grapple, and Reflex saves to avoid an ooze's improved {umr/grab} or {umr/engulf} abilities, but gives a -5 penalty to disarm checks, grapple checks to start or maintain a grapple or pin, and other checks that may be hindered by a loose grip (such as Climb). One application lasts for up to 1 hour and can be removed with soap and water.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 25"
 		]
@@ -2372,7 +2264,7 @@
 			"**Price** 9 gp; **Weight** 29 lbs.  ",
 			"**Category** Kits",
 			"",
-			"This kit includes a backpack, a bedroll, a belt pouch, candles (10), a flint and steel, an iron pot, mess kit, rope, soap, torches (10), trail rations (5 days), and a waterskin."
+			"This kit includes a {eq-misc/backpack}, a {eq-misc/bedroll}, a {eq-misc/belt pouch}, {eq-misc/candles} (10), a {eq-misc/flint and steel}, an {eq-misc/iron pot}, {eq-misc/mess kit}, {eq-misc/rope}, {eq-misc/soap}, {eq-misc/torches} (10), {eq-misc/trail rations} (5 days), and a {eq-misc/waterskin}."
 		]
 	},
 	"orc_trail_rations": {
@@ -2384,7 +2276,7 @@
 			"**Price** 1 gp; **Weight** 1 lb.  ",
 			"**Category** Food/Drink",
 			"",
-			"A typical orc trail ration consists of coarse black bread, thin sausages as hard as leather that must be chewed slowly to soften them, dried meat of uncertain origin, and pungent peppers. If you are an orc or half-orc who subsists on nothing but these rations for at least 1 week, you add +2 to the DC to resist any Intimidate checks you make. This bonus lasts until you eat a meal other than the rations or go for a full day without eating a day's worth."
+			"A typical orc trail ration consists of coarse black bread, thin sausages as hard as leather that must be chewed slowly to soften them, dried meat of uncertain origin, and pungent peppers. If you are an {race/orc} or {race/half-orc} who subsists on nothing but these rations for at least 1 week, you add +2 to the DC to resist any Intimidate checks you make. This bonus lasts until you eat a meal other than the rations or go for a full day without eating a day's worth."
 		]
 	},
 	"orrery_calculating_grand": {
@@ -2395,14 +2287,14 @@
 			"{SOURCE People of the Stars/26}  ",
 			"**Price** 2,000 gp (calculating grand), 1,500 gp (calculating standard), 200 gp (calculating tellurium), 1,000 gp (grand), 750 gp (standard), 100 gp (tellurium); **Weight** 12 lbs. (calculating grand), 5 lbs. (calculating standard), 2 lbs. (calculating tellurium), 12 lbs. (grand), 5 lbs. (standard), 2 lbs. (tellurium)",
 			"",
-			"This complex mechanism simulates the angles and relative distances between one or more bodies in a solar system in relation to the system's star with marks or spheres on moving gears or arms. Anyone consulting an orrery gains a +2 circumstance bonus on Knowledge (geography) checks involving bodies it models and on Survival checks to navigate the void of space. An orrery can be used in combination with a sextant on a clear night to determine the time on any of the stellar bodies it models. Any orrery can be used as a focus component for the augury spell in place of that spell's normal focus.",
+			"This complex mechanism simulates the angles and relative distances between one or more bodies in a solar system in relation to the system's star with marks or spheres on moving gears or arms. Anyone consulting an orrery gains a +2 circumstance bonus on Knowledge (geography) checks involving bodies it models and on Survival checks to navigate the void of space. An orrery can be used in combination with a {eq-misc/sextant} on a clear night to determine the time on any of the stellar bodies it models. Any orrery can be used as a focus component for the {spell/augury} spell in place of that spell's normal focus.",
 			"",
 			"Orreries come in many shapes and sizes and with a variety of functions in mind.",
 			"",
-			"- A tellurion models a single planet and any moons it may have.",
-			"- A standard orrery tracks the inner planets of a system (Aballon, Castrovel, Golarion, Verces, Eox, and Triaxus) and their moons.",
-			"- A grand orrery tracks all the known planets of a system (including the outer planets: Liavara, Bretheda, Apostae, and Aucturn) and their moons.",
-			"- A calculating orrery is an orrery that indicates with rotating numerals on each arm the current distance between each body and its star (or its planet, in the case of moons), increasing the circumstance bonus on relevant skill checks to +4."
+			"- A *tellurion* models a single planet and any moons it may have.",
+			"- A *standard orrery* tracks the inner planets of a system (Aballon, Castrovel, Golarion, Verces, Eox, and Triaxus) and their moons.",
+			"- A *grand orrery* tracks all the known planets of a system (including the outer planets: Liavara, Bretheda, Apostae, and Aucturn) and their moons.",
+			"- A *calculating orrery* is an orrery that indicates with rotating numerals on each arm the current distance between each body and its star (or its planet, in the case of moons), increasing the circumstance bonus on relevant skill checks to +4."
 		]
 	},
 	"orrery_calculating_standard": {
@@ -2458,7 +2350,7 @@
 			"**Price** 55 gp; **Weight** 1 lb.  ",
 			"**Category** Kits",
 			"",
-			"This bundle is often given to operatives sent to new cities to help them operate as easily as locals. This kit includes a blue book, a {eq-misc/city map}, and {eq-misc/fashionable accessories}."
+			"This bundle is often given to operatives sent to new cities to help them operate as easily as locals. This kit includes a {eq-misc/blue book}, a {eq-misc/city map}, and {eq-misc/fashionable accessories}."
 		]
 	},
 	"owl_verduran": {
@@ -2532,7 +2424,7 @@
 			"**Price** 50 gp; **Weight** 1/2 lb.  ",
 			"**Category** Tools",
 			"",
-			"Pain wheels are used by orc marauders to blight the lands of their foes and despoil the earth for generations to come. When you whirl this cruel weapon above your head as a standard action, it scatters salt in a 5-foot radius centered on your space. Creatures in the affected area (including you) that have fewer than their maximum number of hit points must succeed at a DC 11 Fortitude save or be sickened by pain for 1d6 rounds. Creatures affected by bleed effects take a -5 penalty on their saves. A successful DC 11 Heal check ends the sickened condition, as does the application of any effect that heals hit point damage. A pain wheel must be loaded with a pound of salt (a move action) before it can be used. You can also load a dose of itching powder or another alchemical powder normally used as a splash weapons into a pain wheel; when a pain wheel is used this way, the affected area (including your square) is treated as the splash radius for the purpose of determining the powder's effects, and there is no way to deal a direct hit with the powder."
+			"Pain wheels are used by orc marauders to blight the lands of their foes and despoil the earth for generations to come. When you whirl this cruel weapon above your head as a standard action, it scatters salt in a 5-foot radius centered on your space. Creatures in the affected area (including you) that have fewer than their maximum number of hit points must succeed at a DC 11 Fortitude save or be {misc/sickened} by pain for 1d6 rounds. Creatures affected by {rule/bleed} effects take a -5 penalty on their saves. A successful DC 11 Heal check ends the sickened condition, as does the application of any effect that heals hit point damage. A pain wheel must be loaded with a pound of salt (a move action) before it can be used. You can also load a dose of {eq-weapon/itching powder} or another alchemical powder normally used as a {rule/throw_<splash weapon/s} into a pain wheel; when a pain wheel is used this way, the affected area (including your square) is treated as the splash radius for the purpose of determining the powder's effects, and there is no way to deal a direct hit with the powder."
 		]
 	},
 	"paladins_kit": {
@@ -2544,7 +2436,7 @@
 			"**Price** 11 gp; **Weight** 30 lbs.  ",
 			"**Category** Kits",
 			"",
-			"This kit includes a backpack, a bedroll, a belt pouch, a cheap holy text, a flint and steel, an iron pot, a mess kit, rope, soap, torches (10), trail rations (5 days), a waterskin, and a wooden holy symbol."
+			"This kit includes a backpack, a {eq-misc/bedroll}, a {eq-misc/belt pouch}, a cheap {eq-misc/holy text}, a {eq-misc/flint and steel}, an {eq-misc/iron pot}, a {eq-misc/mess kit}, {eq-misc/rope}, {eq-misc/soap}, {eq-misc/torches} (10), {eq-misc/trail rations} (5 days), a {eq-misc/waterskin}, and a {eq-misc/wooden holy symbol}."
 		]
 	},
 	"pallid_suspension": {
@@ -2627,10 +2519,11 @@
 			"**Price** 6 sp; **Weight** -  ",
 			"**Category** Adventuring Gear",
 			"",
-			"Not all underwater creatures use sight as their primary means of reading text, so underwater paper is significantly thicker than surface paper, allowing the writer to carve the letters into the sheet. This lets creatures with blindsight see the textured writing from afar as well as allowing others to read it by touch, or sometimes from a short distance if they have unusually precise tremorsense. For underwater societies where vision is more prominent, the writer can fill the carved grooves with colorful ink (and potentially bioluminescent ink) and then adhere a transparent waterproof sheet on top to prevent the ink from washing away. This transparent sheet costs an additional 4 sp."
+			"Not all underwater creatures use sight as their primary means of reading text, so underwater paper is significantly thicker than surface paper, allowing the writer to carve the letters into the sheet. This lets creatures with {umr/blindsight} see the textured writing from afar as well as allowing others to read it by touch, or sometimes from a short distance if they have unusually precise {umr/tremorsense}. For underwater societies where vision is more prominent, the writer can fill the carved grooves with colorful ink (and potentially {eq-misc/bioluminescent ink}) and then adhere a transparent waterproof sheet on top to prevent the ink from washing away. This transparent sheet costs an additional 4 sp."
 		]
 	},
 	"underwater_sheet_paper": { "copyof": "paper_underwater_sheet" },
+	"underwater_paper": { "copyof": "paper_underwater_sheet" },
 	"parasol_common": {
 		"name": "Parasol (common)",
 		"sources": [ "Ultimate Equipment" ],
@@ -2639,7 +2532,7 @@
 			"{SOURCE Ultimate Equipment/77}  ",
 			"**Price** 1 gp (common), 2 gp (umbrella); **Weight** 2 lbs. (common), 3 lbs. (umbrella)",
 			"",
-			"This folding umbrella is translucent and not waterproof. It cuts down on the heat from direct sunlight. In very hot conditions where the sun is a factor (such as a desert), it gives you a +1 circumstance bonus on your hourly Fortitude saves against heat, and reduces the damage from a failed save by 1 hit point (minimum 1). It provides insufficient protection in conditions of severe or extreme heat. You must hold a parasol in one hand and use it to shade yourself from the sun. Alternatively, you can hold the parasol and use it to shade another creature of your size or smaller. The listed price is for a simple, functional parasol made of fabric or lacquered paper. A parasol used as a fashion accessory can be far more expensive, depending on the materials used, and can cost from 1 gp to 10 gp.",
+			"This folding umbrella is translucent and not waterproof. It cuts down on the heat from direct sunlight. In very hot conditions where the sun is a factor (such as a desert), it gives you a +1 circumstance bonus on your hourly Fortitude saves against {rule/heat>_dangers}, and reduces the damage from a failed save by 1 hit point (minimum 1). It provides insufficient protection in conditions of severe or extreme heat. You must hold a parasol in one hand and use it to shade yourself from the sun. Alternatively, you can hold the parasol and use it to shade another creature of your size or smaller. The listed price is for a simple, functional parasol made of fabric or lacquered paper. A parasol used as a fashion accessory can be far more expensive, depending on the materials used, and can cost from 1 gp to 10 gp.",
 			"",
 			"**Umbrella:** An umbrella is a heavier, waterproof parasol made of oiled or waxed cloth. It is intended to keep you dry in the rain or snow, but can still protect against sunlight just like a standard parasol."
 		]
@@ -2832,7 +2725,7 @@
 			"**Price** 12 gp; **Weight** 22 lbs.  ",
 			"**Category** Kits",
 			"",
-			"This kit consists of a backpack, a bedroll, a belt pouch, a clay mug, a dagger, two fishhooks, a flint and steel, a sewing needle, a signal whistle, 50 feet of string, 50 feet of thread, a week's worth of trail rations, a waterskin, and a whetstone. For Small creatures, the weight of a Pathfinder's kit is 7-1/2 pounds. Leaving the bedroll and rations at camp or on a mount reduces the weight by 12 pounds for Medium creatures and by 3 pounds for Small creatures."
+			"This kit consists of a {eq-misc/backpack}, a {eq-misc/bedroll}, a {eq-misc/belt pouch}, a clay {eq-misc/mug}, a {eq-weapon/dagger}, two {eq-misc/fishhook/s}, a {eq-misc/flint and steel}, a {eq-misc/sewing needle}, a {eq-misc/signal whistle}, 50 feet of {eq-misc/string}, 50 feet of thread, a week's worth of {eq-misc/trail rations}, a {eq-misc/waterskin}, and a {eq-misc/whetstone}. For Small creatures, the weight of a Pathfinder's kit is 7-1/2 pounds. Leaving the bedroll and rations at camp or on a mount reduces the weight by 12 pounds for Medium creatures and by 3 pounds for Small creatures."
 		]
 	},
 	"pathstones": {
@@ -2844,7 +2737,7 @@
 			"**Price** 50 gp; **Weight** 1 lb.  ",
 			"**Category** Alchemical Tools",
 			"",
-			"Similar to sunrods, these small white pebbles are alchemically treated so that they shed a soft light once activated by striking them together. The glow is faint - just barely enough to illuminate the stone. Though not bright enough to serve as an effective light source, they can be placed in patterns to create messages or laid out in a path, marking it for others to follow.",
+			"Similar to {eq-misc/sunrod/s}, these small white pebbles are alchemically treated so that they shed a soft light once activated by striking them together. The glow is faint - just barely enough to illuminate the stone. Though not bright enough to serve as an effective light source, they can be placed in patterns to create messages or laid out in a path, marking it for others to follow.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 25"
 		]
@@ -2885,9 +2778,9 @@
 			"**Price** 10 gp; **Weight** 5 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
-			"A peg leg is a wooden stump with a socket built on one end to fit over an individual's knee. Pirates who lose legs at sea often wear peg legs. A peg leg reduces your base speed by 5 feet and imposes a -4 penalty on Acrobatics, Climb, and Swim checks. You take half damage from caltrops. Pirates often carve hidden compartments into their peg legs - these compartments can hold small items weighing up to 1 or 2 pounds (or a few swigs of grog). If you have two peg legs, your base speed is reduced to half and you take a -10 penalty on Acrobatics, Climb, and Swim checks. You are immune to damage from caltrops.",
+			"A peg leg is a wooden stump with a socket built on one end to fit over an individual's knee. Pirates who lose legs at sea often wear peg legs. A peg leg reduces your base speed by 5 feet and imposes a -4 penalty on Acrobatics, Climb, and Swim checks. You take half damage from {eq-misc/caltrops}. Pirates often carve hidden compartments into their peg legs - these compartments can hold small items weighing up to 1 or 2 pounds (or a few swigs of grog). If you have two peg legs, your base speed is reduced to half and you take a -10 penalty on Acrobatics, Climb, and Swim checks. You are immune to damage from caltrops.",
 			"",
-			"Peg legs presume that the knee joint is intact. If the knee joint is not intact, use the prosthesis statistics instead."
+			"Peg legs presume that the knee joint is intact. If the knee joint is not intact, use the {eq-misc/prosthe/sis>tic_leg} statistics instead."
 		]
 	},
 	"pen_underwater": {
@@ -2899,7 +2792,7 @@
 			"**Price** 6 sp; **Weight** -  ",
 			"**Category** Adventuring Gear",
 			"",
-			"Underwater pens fill the grooves carved into underwater paper with ink; as such, they work somewhat like a syringe, drawing ink from a waterproof bladder and then gently releasing it into the grooves as the writer traces them with the pen. These pens function equally well at depositing ink into tablets, underwater paper, walls, or anything with carved writing."
+			"Underwater pens fill the grooves carved into {eq-misc/underwater paper} with {eq-misc/ink}; as such, they work somewhat like a syringe, drawing ink from a waterproof bladder and then gently releasing it into the grooves as the writer traces them with the pen. These pens function equally well at depositing ink into tablets, underwater paper, walls, or anything with carved writing."
 		]
 	},
 	"underwater_pen": { "copyof": "pen_underwater" },
@@ -2920,14 +2813,23 @@
 		"sources": [
 			"Inner Sea World Guide",
 			"Pathfinder Campaign Setting",
-			"Curse of the Crimson Throne Player's Guide"
+			"Curse of the Crimson Throne Player's Guide",
+			"Ultimate Equipment",
+			"Adventurer's Armory"
 		],
 		"description": [
 			"## Perfume/Cologne",
 			"{SOURCE Inner Sea World Guide/293;Pathfinder Campaign Setting/213;Curse of the Crimson Throne Player's Guide/12}  ",
 			"**Price** 1 gp/dose Perfume (common), 100 gp/dose Perfume (exotic), 10 gp/dose Perfume (rare); **Weight** - Perfume (common), - Perfume (exotic), - Perfume (rare)",
 			"",
-			"Perfume and cologne are common accessories for those who hope to avoid offending through scent. Exotic scents are sold in vials containing 10 applications, with a single dose lasting for 24 hours during which its wearer gains a +2 circumstance bonus on all Diplomacy checks (save for those against creatures who, at the GM's discretion, would not be swayed by scent)."
+			"Perfume and cologne are common accessories for those who hope to avoid offending through scent. Exotic scents are sold in vials containing 10 applications, with a single dose lasting for 24 hours during which its wearer gains a +2 circumstance bonus on all Diplomacy checks (save for those against creatures who, at the GM's discretion, would not be swayed by scent).",
+			"",
+			"## Perfume/cologne",
+			"{SOURCE Ultimate Equipment/57;Adventurer's Armory/19}  ",
+			"**Price** 5 gp; **Weight** -  ",
+			"**Category** Adventuring Gear",
+			"",
+			"Most perfumes and colognes are derived from the essential oils of flowers. Perfume or cologne may (at the GM's discretion) provide a +1 circumstance bonus on several Charisma-based skill checks."
 		]
 	},
 	"perfume_exotic_per_dose": {
@@ -2947,21 +2849,10 @@
 		]
 	},
 	"perfume_cologne": {
-		"name": "Perfume/cologne",
-		"sources": [
-			"Ultimate Equipment",
-			"Adventurer's Armory"
-		],
-		"description": [
-			"## Perfume/cologne",
-			"{SOURCE Ultimate Equipment/57;Adventurer's Armory/19}  ",
-			"**Price** 5 gp; **Weight** -  ",
-			"**Category** Adventuring Gear",
-			"",
-			"Most perfumes and colognes are derived from the essential oils of flowers. Perfume or cologne may (at the GM's discretion) provide a +1 circumstance bonus on several Charisma-based skill checks."
-		]
+		"name": "Perfume/Cologne",
+		"copyof": "perfume_common_per_dose"
 	},
-	"perfume": { "copyof": "perfume_cologne" },
+	"perfume": { "copyof": "perfume_common_per_dose" },
 	"cologne": { "copyof": "perfume_cologne" },
 	"periscope": {
 		"name": "Periscope",
@@ -2990,7 +2881,7 @@
 			"**Price** 20 gp; **Weight** -  ",
 			"**Category** Black Market",
 			"",
-			"The milk of this vibrantly green cactus, when mixed with resins and other ingredients, congeals into sticky, black chunks with an exceedingly sour taste. Though pesh comes in several different varieties, refined pesh is both the most potent and expensive type. Taking refined pesh gives a person 15 temporary hit points for 1 hour, a +2 morale bonus on saves versus fear effects for 1 day, and a -4 penalty to Dexterity and Wisdom for 1 day. Pesh is addictive (Fortitude DC 10 to resist), and long-term users suffer Dexterity and Wisdom damage.",
+			"The milk of this vibrantly green cactus, when mixed with resins and other ingredients, congeals into sticky, black chunks with an exceedingly sour taste. Though {drug/pesh} comes in several different varieties, refined pesh is both the most potent and expensive type. Taking refined pesh gives a person 15 temporary hit points for 1 hour, a +2 morale bonus on saves versus fear effects for 1 day, and a -4 penalty to Dexterity and Wisdom for 1 day. Pesh is addictive (Fortitude DC 10 to resist), and long-term users suffer Dexterity and Wisdom damage.",
 			"",
 			"**False Pesh**  ",
 			"{SOURCE Dark Markets - A Guide to Katapesh/14}",
@@ -2999,7 +2890,7 @@
 			"",
 			"Imitation raw pesh formed from the false pesh plant is much harder to differentiate from the real drug. Both appear as milky white, cheese-like blocks; the false pesh has a milder odor and a stickier gloss to its surface, but the differences are minor. A DC 25 Alchemy check discerns true raw pesh from false.",
 			"",
-			"Anyone ingesting false raw pesh must make a DC 25 Fortitude save or become nauseated for 10 minutes. After 1 minute they must make another DC 25 Fortitude save or suffer the secondary effect of 1d4 points of Constitution damage. For refined false pesh, the save DC is 30 and the secondary effect is 1d6 points of Constitution damage. The Alchemy check to distinguish it from true refined pesh is DC 30."
+			"Anyone ingesting false raw pesh must make a DC 25 Fortitude save or become {misc/nauseated} for 10 minutes. After 1 minute they must make another DC 25 Fortitude save or suffer the secondary effect of 1d4 points of Constitution damage. For refined false pesh, the save DC is 30 and the secondary effect is 1d6 points of Constitution damage. The Alchemy check to distinguish it from true refined pesh is DC 30."
 		]
 	},
 	"petrified_ooze": {
@@ -3037,7 +2928,7 @@
 			"**Price** 45 gp; **Weight** 1/2 lb.  ",
 			"**Category** Alchemical Tools",
 			"",
-			"This sealed vial contains 1 ounce of milky white gel. Once the vial's seal is broken, the liquid reacts with the surrounding air and begins to rapidly heat up, glowing like a candle for 1 hour. After that hour, the oxidization of the chemical agent is complete, and the gel dissolves in a white-hot flash, dealing 3d6 points of fire damage to anything directly in contact with it. A single dose of phosphorescent gel can coat 6 square inches of a surface. Multiple doses of phosphorescent gel can be used to coat larger surfaces, but the amount of damage dealt does not stack. The conflagration occurs in an instant, and the fire generated doesn't spread, though it can be used to ignite a larger explosive such as a fuse grenade or pot of oil.",
+			"This sealed vial contains 1 ounce of milky white gel. Once the vial's seal is broken, the liquid reacts with the surrounding air and begins to rapidly heat up, glowing like a {eq-misc/candle} for 1 hour. After that hour, the oxidization of the chemical agent is complete, and the gel dissolves in a white-hot flash, dealing 3d6 points of fire damage to anything directly in contact with it. A single dose of phosphorescent gel can coat 6 square inches of a surface. Multiple doses of phosphorescent gel can be used to coat larger surfaces, but the amount of damage dealt does not stack. The conflagration occurs in an instant, and the fire generated doesn't spread, though it can be used to ignite a larger explosive such as a {eq-weapon/fuse grenade} or pot of {eq-misc/oil}.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 20"
 		]
@@ -3051,7 +2942,7 @@
 			"**Price** 50 gp; **Weight** 5 lbs.  ",
 			"**Category** Kits",
 			"",
-			"This leather doctor's bag contains all the accoutrements a phrenologist needs to measure skulls. This kit contains several metal skull calipers of various sizes, a labeled chalkware bust of a humanoid head, and numbered charts of skulls of various species. The kit provides a +2 circumstance bonus on Knowledge (arcana) checks for the phrenology occult skill unlock."
+			"This leather doctor's bag contains all the accoutrements a phrenologist needs to measure skulls. This kit contains several metal skull calipers of various sizes, a labeled chalkware bust of a humanoid head, and numbered charts of skulls of various species. The kit provides a +2 circumstance bonus on Knowledge (arcana) checks for the {skill/phrenology} occult skill unlock."
 		]
 	},
 	"pickle_extractor": {
@@ -3075,7 +2966,7 @@
 			"**Price** 4 sp; **Weight** 1 lb.  ",
 			"**Category** Food/Drink",
 			"",
-			"Goblins pickle everything, and thus goblin pickles can be composed of almost anything. Their only shared characteristic is that they're mostly edible. At the GM's discretion, a non-goblin who eats a goblin pickle must make a DC 10 Fortitude save to avoid being sickened for 1 hour. A single jar of goblin pickles provides a goblin enough nourishment for a day."
+			"Goblins pickle everything, and thus goblin pickles can be composed of almost anything. Their only shared characteristic is that they're mostly edible. At the GM's discretion, a non-goblin who eats a goblin pickle must make a DC 10 Fortitude save to avoid being {misc/sickened} for 1 hour. A single jar of goblin pickles provides a goblin enough nourishment for a day."
 		]
 	},
 	"pickles_goblin_one_jar": { "copyof": "pickles_goblin_1_jar" },
@@ -3114,7 +3005,7 @@
 			"**Price** 50 gp; **Weight** 10 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
-			"This set of belts, buttons, straps, and metal pieces can be disassembled and reassembled with 1 minute of effort to create any light or one-handed melee or martial weapon with which the assembler is proficient (no further Craft check is required). It can be used this way repeatedly. All weapons created with a piecemeal weapon have and cannot lose the broken condition. A piecemeal weapon can be used to create only a single weapon at a time, and it can't be enhanced to create magical weapons. A light weapon created with a piecemeal weapon grants a +4 bonus on Sleight of Hand checks to hide it on one's person."
+			"This set of belts, buttons, straps, and metal pieces can be disassembled and reassembled with 1 minute of effort to create any light or one-handed melee or martial weapon with which the assembler is proficient (no further Craft check is required). It can be used this way repeatedly. All weapons created with a piecemeal weapon have and cannot lose the {misc/broken} condition. A piecemeal weapon can be used to create only a single weapon at a time, and it can't be enhanced to create magical weapons. A light weapon created with a piecemeal weapon grants a +4 bonus on Sleight of Hand checks to hide it on one's person."
 		]
 	},
 	"pig_grease": {
@@ -3199,23 +3090,23 @@
 			"",
 			"As a move action, you can apply the catalyst to one of the following items to enhance or alter the alchemical item's effects. If the item is not used within 3 rounds, the benefit of the enhanced alchemical item is lost and the item reverts to normal. Once applied to an item, a planar alchemical catalyst is expended.",
 			"",
-			"**Alchemist's Fire:** The type of energy damage changes to acid, cold, or electricity (user's choice).",
+			"**{eq-weapon/Alchemist's Fire}:** The type of energy damage changes to acid, cold, or electricity (user's choice).",
 			"",
-			"**Flash Powder:** The DC of the Fortitude save increases to 15, and targets are dazzled for 1d4+1 rounds whether or not they succeed at their saving throw.",
+			"**{eq-weapon/Flash Powder}:** The DC of the Fortitude save increases to 15, and targets are {misc/dazzled} for 1d4+1 rounds whether or not they succeed at their saving throw.",
 			"",
-			"**Holy Water:** The splash area becomes difficult terrain for undead and evil outsiders, and undead or evil outsiders that end their turn in the affected area take 2 points of damage. Both of these effects last 3 rounds.",
+			"**{eq-weapon/Holy Water}:** The splash area becomes difficult terrain for undead and evil outsiders, and undead or evil outsiders that end their turn in the affected area take 2 points of damage. Both of these effects last 3 rounds.",
 			"",
-			"**Impact Foam:** The foam does not dissolve when exposed to acid or water, and instead becomes a pliable-yet-rigid platform that can be dragged onto water and used as a makeshift raft for up to 5 Medium creatures. The 10-minute duration still applies.",
+			"**{eq-misc/Impact Foam}:** The foam does not dissolve when exposed to acid or water, and instead becomes a pliable-yet-rigid platform that can be dragged onto water and used as a makeshift raft for up to 5 Medium creatures. The 10-minute duration still applies.",
 			"",
-			"**Liquid Blade:** The blade deals 2 points of bleed damage on a hit (this does not stack with bleed damage from other sources).",
+			"**{eq-weapon/Liquid Blade}:** The blade deals 2 points of {rule/bleed} damage on a hit (this does not stack with bleed damage from other sources).",
 			"",
-			"**Liquid Ice:** In addition to its normal effects, the liquid ice acts as a {eq-misc/smokestick}, except it emits dense white fog rather than smoke.",
+			"**{eq-weapon/Liquid Ice:}** In addition to its normal effects, the liquid ice acts as a {eq-misc/smokestick}, except it emits dense white fog rather than smoke.",
 			"",
-			"**Shard Gel:** The shard gel remains embedded in the target on a direct hit, continuing to deal 1d3 points of damage each round after until the gel dissolves (5 rounds) or the target takes a full round action to remove it.",
+			"**{eq-weapon/Shard Gel}:** The shard gel remains embedded in the target on a direct hit, continuing to deal 1d3 points of damage each round after until the gel dissolves (5 rounds) or the target takes a full round action to remove it.",
 			"",
-			"**Tanglefoot Bag:** The DC of the Reflex saving throw increases to 17, the penalty on attack rolls is -3, and the tanglefoot bag can affect targets up to size category Huge.",
+			"**{eq-weapon/Tanglefoot Bag}:** The DC of the Reflex saving throw increases to 17, the penalty on attack rolls is -3, and the tanglefoot bag can affect targets up to size category Huge.",
 			"",
-			"**Thunderstone:** In addition to being deafened, targets that fail their Fortitude saves are staggered for 1 round. Affected targets are deafened for 1d4 rounds whether or not they succeed at their saving throw."
+			"**{eq-weapon/Thunderstone}:** In addition to being {misc/deafened}, targets that fail their Fortitude saves are {misc/staggered} for 1 round. Affected targets are deafened for 1d4 rounds whether or not they succeed at their saving throw."
 		]
 	},
 	"trappers_kit": {
@@ -3227,7 +3118,7 @@
 			"**Price** 263 gp; **Weight** 90 lbs.  ",
 			"**Category** Kits",
 			"",
-			"This kit is particularly useful for dungeon explorers who specialize in trapping or taming whatever vile quarry they find. A trapper's kit contains an average lock, a bear trap, a container of {eq-misc/bone paste}, a Small cage, a set of manacles, a bag of marbles, 50 feet of silk rope, two tanglefoot bags, 50 feet of twine, and a wire."
+			"This kit is particularly useful for dungeon explorers who specialize in trapping or taming whatever vile quarry they find. A trapper's kit contains an {eq-misc/average lock}, a {eq-misc/bear trap}, a container of {eq-misc/bone paste}, a {eq-misc/Small |cage}, a set of {eq-misc/manacles}, a {eq-misc/bag of |marbles}, 50 feet of {eq-misc/silk rope}, two {eq-weapon/tanglefoot bag/s}, 50 feet of {eq-misc/twine}, and a {eq-misc/wire}."
 		]
 	},
 	"travel_cake_mix": {
@@ -3263,7 +3154,7 @@
 			"**Price** 1,500 gp; **Weight** 4 lbs.  ",
 			"**Category** Black Market",
 			"",
-			"This portable hookah can be worn as a backpack, obviating the need to set the hookah down before filling it with water. Up to four creatures (including the wearer and any adjacent creatures) can use a traveler's hookah during the same round. While wearing a traveler's hookah, you can stopper the hookah's bowl valve as an immediate action to prevent unwanted individuals from using it until the valve is reopened as a free action. If you are knocked unconscious or otherwise fall prone while wearing a traveler's hookah, you must succeed at a DC 13 Reflex save or the hookah is smashed during the fall. A traveler's hookah can hold up to 5 doses of a single substance, and has four hoses."
+			"This portable {eq-misc/hookah} can be worn as a backpack, obviating the need to set the hookah down before filling it with water. Up to four creatures (including the wearer and any adjacent creatures) can use a traveler's hookah during the same round. While wearing a traveler's hookah, you can stopper the hookah's bowl valve as an immediate action to prevent unwanted individuals from using it until the valve is reopened as a free action. If you are knocked unconscious or otherwise fall prone while wearing a traveler's hookah, you must succeed at a DC 13 Reflex save or the hookah is smashed during the fall. A traveler's hookah can hold up to 5 doses of a single substance, and has four hoses."
 		]
 	},
 	"travelers_outfit": {
@@ -3316,7 +3207,7 @@
 			"",
 			"These straw baskets provide a portable home for bees. They are dome shaped, with a hole in the top that a smaller woven basket covers as a cap. This hole allows for the harvesting of small amounts of honey without destroying the entire hive. Believing that certain bees provide for a superior crop yield, some farmers pay beekeepers to travel to their farms with the bees.",
 			"",
-			"Destroying a traveling bee hive causes the bees to swarm, creating a 5-foot-radius cloud. A creature is blinded and for as long as it remains in the cloud, and must succeed at a DC 12 Fortitude saving throw or become sickened for 1 minute. The sickened condition is a poison effect."
+			"Destroying a traveling bee hive causes the bees to swarm, creating a 5-foot-radius cloud. A creature is {misc/blinded} and for as long as it remains in the cloud, and must succeed at a DC 12 Fortitude saving throw or become {misc/sickened} for 1 minute. The sickened condition is a poison effect."
 		]
 	},
 	"traveling_formula_book": {
@@ -3328,7 +3219,7 @@
 			"**Price** 10 gp; **Weight** 1 lb.  ",
 			"**Category** Tools",
 			"",
-			"This is the alchemist equivalent of a traveling spellbook for wizards (a traveling formula book and a traveling spellbook are essentially the same item)."
+			"This is the alchemist equivalent of a {eq-misc/traveling spellbook} for wizards (a traveling {eq-misc/formula book} and a traveling spellbook are essentially the same item)."
 		]
 	},
 	"traveling_garden": {
@@ -3340,7 +3231,7 @@
 			"**Price** 200 gp; **Weight** 500 lbs.  ",
 			"**Category** Kits",
 			"",
-			"This kit for a heavy wagon includes specialized boxes and pots for growing a wide range of plants, in addition to space for a couple of animals, such as goats, and their feed. A traveling garden provides food and healing herbs. It functions similar to a healer's kit, providing up to five uses per day, and is never exhausted. In addition, those who ingest a daily variety of fresh herbs and vegetables from the garden gain a +1 bonus on saving throws against disease."
+			"This kit for a {eq-misc/heavy wagon} includes specialized boxes and pots for growing a wide range of plants, in addition to space for a couple of animals, such as goats, and their feed. A traveling garden provides food and healing herbs. It functions similar to a {eq-misc/healer's kit}, providing up to five uses per day, and is never exhausted. In addition, those who ingest a daily variety of fresh herbs and vegetables from the garden gain a +1 bonus on saving throws against disease."
 		]
 	},
 	"traveling_spellbook": {
@@ -3356,7 +3247,7 @@
 			"**Price** 10 gp; **Weight** 1 lb.  ",
 			"**Category** Tools",
 			"",
-			"A traveling spellbook is less cumbersome than a normal one, but holds fewer spells. It has 50 pages. Some wizards prefer to travel with a smaller spellbook, omitting specialized spells that are rarely used on adventures. Others hide a traveling spellbook containing their most important spells, just in case."
+			"A traveling {eq-misc/spellbook} is less cumbersome than a normal one, but holds fewer spells. It has 50 pages. Some wizards prefer to travel with a smaller spellbook, omitting specialized spells that are rarely used on adventures. Others hide a traveling spellbook containing their most important spells, just in case."
 		]
 	},
 	"treasure_chest_small": {
@@ -3370,7 +3261,7 @@
 			"{SOURCE Adventurer's Armory 2/12}  ",
 			"**Price** 7 gp (medium), 37 gp (huge), 15 gp (large), 3 gp (small); **Weight** 50 lbs. (medium), 250 lbs. (huge), 100 lbs. (large), 25 lbs. (small)",
 			"",
-			"A treasure chest is a common wooden chest treated with resin to make the wood water-resistant. Metal bands, usually bronze to prevent rusting, are strapped around the treasure chest for extra reinforcement, and the lock is also typically made of bronze. A treasure chest uses the statistics of an ordinary wooden chest, but its hit points increase by 25% and its break DC increases by 2. Treasure chests are waterproof and withstand being buried better than ordinary chests"
+			"A treasure chest is a common wooden {eq-misc/chest} treated with resin to make the wood water-resistant. Metal bands, usually bronze to prevent rusting, are strapped around the treasure chest for extra reinforcement, and the lock is also typically made of bronze. A treasure chest uses the statistics of an ordinary wooden chest, but its hit points increase by 25% and its break DC increases by 2. Treasure chests are waterproof and withstand being buried better than ordinary chests"
 		]
 	},
 	"treasure_chest_medium": {
@@ -3406,7 +3297,7 @@
 			"**Price** 20 gp; **Weight** 1 lb.  ",
 			"**Category** Torture Implements",
 			"",
-			"This surgical instrument has a serrated, circular blade that is used to bore holes into the skulls of patients to relieve cranial swelling from head trauma or, as some chirurgeons believe, release evil spirits. Use of a trephine takes 10 minutes, and deals 5 points of piercing damage to the subject creature. With a successful DC 25 Heal check, the user can heal up to 1d4 points of ability damage to any one mental ability score caused by physical trauma to the head, such as the critical called shot or debilitating blow called shot, or it can cure the severe brain trauma inflicted by the debilitating blow called shot. If the user fails the check, the subject still takes 5 points of piercing damage. If the user fails the check by 5 or more, the subject instead takes 10 points of piercing damage and 1 point of damage each to its Intelligence, Wisdom, and Charisma scores."
+			"This surgical instrument has a serrated, circular blade that is used to bore holes into the skulls of patients to relieve cranial swelling from head trauma or, as some chirurgeons believe, release evil spirits. Use of a trephine takes 10 minutes, and deals 5 points of piercing damage to the subject creature. With a successful DC 25 Heal check, the user can heal up to 1d4 points of ability damage to any one mental ability score caused by physical trauma to the head, such as the critical {rule/called shot>s} or debilitating blow called shot, or it can cure the severe brain trauma inflicted by the debilitating blow called shot. If the user fails the check, the subject still takes 5 points of piercing damage. If the user fails the check by 5 or more, the subject instead takes 10 points of piercing damage and 1 point of damage each to its Intelligence, Wisdom, and Charisma scores."
 		]
 	},
 	"trespassers_boot": {
@@ -3447,7 +3338,7 @@
 			"**Price** 474 gp; **Weight** 23 lbs.  ",
 			"**Category** Kits",
 			"",
-			"For those brave enough to match wits with draconic intellects, this kit can help a dragonslayer sneak into or out of a dragon's lair or trick a dragon should the interloper be discovered. It includes a pot of alchemical grease, a board game, five candles, a candle lamp, a common snorkel, fake footprint shoes, a grappling hook, a mirror, a periscope, a potion of eagle's splendor, two sacks, a scent cloak, 50 feet of silk rope, a smokestick, a dose of sneezing powder, five tindertwigs, and 50 feet of twine."
+			"For those brave enough to match wits with draconic intellects, this kit can help a dragonslayer sneak into or out of a dragon's lair or trick a dragon should the interloper be discovered. It includes a pot of {eq-misc/alchemical grease}, a {eq-misc/board game}, five {eq-misc/candles}, a {eq-misc/candle lamp}, a common {eq-misc/snorkel}, {eq-misc/fake footprint shoes}, a {eq-misc/grappling hook}, a {eq-misc/mirror}, a {eq-misc/periscope}, a potion of {spell/eagle's splendor}, two {eq-misc/sack/s}, a {eq-misc/scent cloak}, 50 feet of {eq-misc/silk rope}, a {eq-misc/smokestick}, a dose of {eq-weapon/sneezing powder}, five {eq-misc/tindertwig/s}, and 50 feet of {eq-misc/twine}."
 		]
 	},
 	"troll_oil": {
@@ -3459,7 +3350,7 @@
 			"**Price** 50 gp; **Weight** 1 lb.  ",
 			"**Category** Alchemical Remedies",
 			"",
-			"This crimson liquid is viscous and tastes foul. If you drink it, for the next hour you automatically stabilize when reduced to negative hit points (unless the damage is sufficient to instantly kill you) and have a 50% chance each round to end any bleed effect on you. If you take fire or acid damage, the benefits of troll oil are suspended for 1 round.",
+			"This crimson liquid is viscous and tastes foul. If you drink it, for the next hour you automatically {misc/stabilize} when reduced to negative hit points (unless the damage is sufficient to instantly kill you) and have a 50% chance each round to end any bleed effect on you. If you take fire or acid damage, the benefits of troll oil are suspended for 1 round.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 30"
 		]
@@ -3473,7 +3364,7 @@
 			"**Price** 30 gp; **Weight** 17 lbs.  ",
 			"**Category** Kits",
 			"",
-			"This kit includes 1 vial of alchemist's fire, 1 flask of acid, 10 torches, one tindertwig, and 5 flasks of oil."
+			"This kit includes 1 vial of {eq-weapon/alchemist's fire}, 1 flask of {eq-weapon/acid}, 10 {eq-misc/torches}, one {eq-misc/tindertwig}, and 5 flasks of {eq-misc/oil}."
 		]
 	},
 	"troll_styptic": {
@@ -3488,7 +3379,7 @@
 			"**Price** 100 gp; **Weight** -  ",
 			"**Category** Alchemical Remedies",
 			"",
-			"Troll styptic is used as a field treatment for wounds and bleeding, particularly where magical healing is not available. When applied directly to wounds, this jar of paste grants a living creature fast healing 2 for 2d4 rounds. While active, the styptic also closes any open wounds the subject receives, negating any bleed effects that would affect the target. This is a painful cure, and the target must succeed at a DC 15 Fortitude save or be sickened for the styptic's duration.",
+			"Troll styptic is used as a field treatment for wounds and bleeding, particularly where magical healing is not available. When applied directly to wounds, this jar of paste grants a living creature {umr/fast healing} 2 for 2d4 rounds. While active, the styptic also closes any open wounds the subject receives, negating any {rule/bleed} effects that would affect the target. This is a painful cure, and the target must succeed at a DC 15 Fortitude save or be {misc/sickened} for the styptic's duration.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 25"
 		]
@@ -3502,7 +3393,7 @@
 			"**Price** 120 gp; **Weight** 6 lbs.  ",
 			"**Category** Kits",
 			"",
-			"This kit is intended for hot and moist environments such as jungles and warm marshes. It includes 1 dose each of antiplague and antitoxin, five fishhooks, a hammock, a kukri, 1 dose of vermin repellent, and a water purification sponge."
+			"This kit is intended for hot and moist environments such as jungles and warm marshes. It includes 1 dose each of {eq-misc/antiplague} and {eq-misc/antitoxin}, five {eq-misc/fishhook/s}, a {eq-misc/hammock}, a {eq-weapon/kukri}, 1 dose of {eq-misc/vermin repellent}, and a {eq-misc/water purification sponge}."
 		]
 	},
 	"tunnel_creeper": {
@@ -3553,7 +3444,7 @@
 			"**Price** 45 gp; **Weight** -  ",
 			"**Category** Alchemical Remedies",
 			"",
-			"This thick syrup is extracted from bitter herbs and enhanced by alchemy to ward against sleep, paralysis, and the staggered condition. If you drink twitch tonic, you gain a +2 alchemical bonus on saving throws made against these effects for the next hour. If you drink twitch tonic while suffering from any of these effects, you may immediately roll another saving throw against the effect (with the +2 bonus); you may gain this particular benefit only once per day. You can administer twitch tonic to an unconscious or paralyzed creature as a full-round action, similar to administering a potion.",
+			"This thick syrup is extracted from bitter herbs and enhanced by alchemy to ward against sleep, paralysis, and the {misc/staggered} condition. If you drink twitch tonic, you gain a +2 alchemical bonus on saving throws made against these effects for the next hour. If you drink twitch tonic while suffering from any of these effects, you may immediately roll another saving throw against the effect (with the +2 bonus); you may gain this particular benefit only once per day. You can administer twitch tonic to an unconscious or paralyzed creature as a full-round action, similar to administering a potion.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 25"
 		]
@@ -3567,7 +3458,7 @@
 			"**Price** 402 gp; **Weight** 7 lbs.  ",
 			"**Category** Kits",
 			"",
-			"This kit includes a wooden holy symbol, a necklace of garlic bulbs, a hammer, a wooden stake, 2 flasks of holy water, one sunrod, a potion of {spell/lesser restoration}, and a potion of {spell/protection from evil}."
+			"This kit includes a {eq-misc/wooden holy symbol}, a necklace of garlic bulbs, a {eq-misc/hammer}, a {eq-weapon/wooden stake}, 2 flasks of {eq-weapon/holy water}, one {eq-misc/sunrod}, a potion of {spell/lesser restoration}, and a potion of {spell/protection from evil}."
 		]
 	},
 	"undead_survivors_kit": {
@@ -3579,7 +3470,7 @@
 			"**Price** 900 gp; **Weight** 3 lbs.  ",
 			"**Category** Kits",
 			"",
-			"Although this sturdy leather bandolier contains a few items to help combat undead foes, its primary purpose is to supply the right tools to recover from an undead attack and escape. This kit includes 4 potions of {spell/hide from undead}, a potion of {spell/lesser restoration}, 2 flasks of holy water, 2 doses of holy weapon balm, a vial of soul stimulant, and 2 vials of twitch tonic."
+			"Although this sturdy leather bandolier contains a few items to help combat undead foes, its primary purpose is to supply the right tools to recover from an undead attack and escape. This kit includes 4 potions of {spell/hide from undead}, a potion of {spell/lesser restoration}, 2 flasks of {eq-weapon/holy water}, 2 doses of {eq-weapon/holy weapon balm}, a vial of {eq-misc/soul stimulant}, and 2 vials of {eq-misc/twitch tonic}."
 		]
 	},
 	"undeath_aid_kit": {
@@ -3591,7 +3482,7 @@
 			"**Price** 500 gp; **Weight** 1/2 lb.  ",
 			"**Category** Kits",
 			"",
-			"This small leather satchel contains various alchemical remedies that treat common maladies caused by exposure to undead. An undeath aid kit contains 1 dose of each of the following alchemical remedies: antiplague, antitoxin, padzahr, soul stimulant, and twitch tonic."
+			"This small leather satchel contains various alchemical remedies that treat common maladies caused by exposure to undead. An undeath aid kit contains 1 dose of each of the following alchemical remedies: {eq-misc/antiplague}, {eq-misc/antitoxin}, {eq-misc/padzahr}, {eq-misc/soul stimulant}, and {eq-misc/twitch tonic}."
 		]
 	},
 	"underground_survival_kit": {
@@ -3603,7 +3494,7 @@
 			"**Price** 644 gp; **Weight** 30 lbs.  ",
 			"**Category** Kits",
 			"",
-			"Pits, fissures, and errant magic might unexpectedly drop a traveler into underground tunnels. This backpack contains a variety of tools to survive an accidental subterranean expedition, including chalk, a climber's kit, a compass, a grappling hook, a hammer, 5 pitons, 100 feet of silk rope, and an everburning torch. The kit also contains a potion of darkvision in the event light would draw unwanted attention. Since oozes are a common underground hazard, the kit also includes 2 alkali flasks and a dose of bladeguard. Finally, a guidebook provides helpful information about underground flora and fauna, granting a +2 circumstance bonus on Knowledge (dungeoneering) checks to identify the abilities and weaknesses of creatures encountered in that terrain."
+			"Pits, fissures, and errant magic might unexpectedly drop a traveler into underground tunnels. This backpack contains a variety of tools to survive an accidental subterranean expedition, including {eq-misc/chalk}, a {eq-misc/climber's kit}, a {eq-misc/compass}, a {eq-misc/grappling hook}, a {eq-misc/hammer}, 5 {eq-misc/piton/s}, 100 feet of {eq-misc/silk rope}, and an {eq-misc/everburning torch}. The kit also contains a potion of {spell/darkvision} in the event light would draw unwanted attention. Since oozes are a common underground hazard, the kit also includes 2 {eq-weapon/alkali flask/s} and a dose of {eq-misc/bladeguard}. Finally, a guidebook provides helpful information about underground flora and fauna, granting a +2 circumstance bonus on Knowledge (dungeoneering) checks to identify the abilities and weaknesses of creatures encountered in that terrain."
 		]
 	},
 	"underwater_compass": {
@@ -3615,7 +3506,7 @@
 			"**Price** 20 gp; **Weight** 1/2 lb.  ",
 			"**Category** Adventuring Gear",
 			"",
-			"This otherwise ordinary compass is sealed inside a glass case amid a quantity of clear oil. The oil keeps the glass from cracking at high pressures, allowing the compass to function at any depth up to 1,000 feet. An underwater compass grants you a +2 circumstance bonus on Survival checks to avoid becoming lost and also indicates your depth below the surface to the nearest increment of 20 feet. Underwater compasses are not particularly durable and cannot be roughly handled. An underwater compass has a hardness of 1, 2 hit points, and a break DC of 15."
+			"This otherwise ordinary {eq-misc/compass} is sealed inside a glass case amid a quantity of clear oil. The oil keeps the glass from cracking at high pressures, allowing the compass to function at any depth up to 1,000 feet. An underwater compass grants you a +2 circumstance bonus on Survival checks to avoid becoming lost and also indicates your depth below the surface to the nearest increment of 20 feet. Underwater compasses are not particularly durable and cannot be roughly handled. An underwater compass has a hardness of 1, 2 hit points, and a break DC of 15."
 		]
 	},
 	"underwater_goggles": {
@@ -3639,7 +3530,7 @@
 			"**Price** 50 gp; **Weight** 1/2 lb.  ",
 			"**Category** Alchemical Tools",
 			"",
-			"A volatile mix of incendiary reagents, unstable accelerant can be thrown just like alchemist's fire. In the hands of an alchemist, a flask of unstable accelerant can be used as part of creating a bomb, increasing its fire damage by +1d6 points. It has no effect on bombs that do not deal fire damage. If the bomb lasts for more than an instant, the extra damage only applies to the first round's damage.",
+			"A volatile mix of incendiary reagents, unstable accelerant can be thrown just like {eq-weapon/alchemist's fire}. In the hands of an {class/alchemist}, a flask of unstable accelerant can be used as part of creating a bomb, increasing its fire damage by +1d6 points. It has no effect on bombs that do not deal fire damage. If the bomb lasts for more than an instant, the extra damage only applies to the first round's damage.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 25"
 		]
@@ -3665,7 +3556,7 @@
 			"**Price** 500 gp; **Weight** 8 lbs.  ",
 			"**Category** Kits",
 			"",
-			"This small, latched wooden case contains numerous tools and devices used in hunting and slaying vampires. It contains 10 cloves of garlic, four masterwork wooden stakes, a hammer, a silvered mirror, 4 vials of holy water, 1 application of silversheen, and a masterwork holy symbol. It also contains numerous regents and powders used for treating wounds and making wards, salves, and other concoctions. In addition to its general usefulness, when displayed, a vampire slayer's kit grants its owner a +2 bonus on all Charisma-based skill checks made to investigate or seek out vampires."
+			"This small, latched wooden case contains numerous tools and devices used in hunting and slaying vampires. It contains 10 cloves of garlic, four {rule/masterwork>_weapons} {eq-weapon/wooden stake/s}, a {eq-misc/hammer}, a silvered {eq-misc/mirror}, 4 vials of {eq-weapon/holy water}, 1 application of {magic-wondrous/silversheen}, and a {eq-misc/masterwork |holy symbol}. It also contains numerous regents and powders used for treating wounds and making wards, salves, and other concoctions. In addition to its general usefulness, when displayed, a vampire slayer's kit grants its owner a +2 bonus on all Charisma-based skill checks made to investigate or seek out vampires."
 		]
 	},
 	"vapors_of_easy_breath": {
@@ -3736,7 +3627,7 @@
 			"**Price** 60 gp; **Weight** -  ",
 			"**Category** Alchemical Tools",
 			"",
-			"This specialized ink can be mixed with a contact poison to make the poison last longer on paper. Once applied to a sheet of paper, the ink remains slightly tacky and keeps the poison effective for up to 1 week. Any creature that touches the writing (such as while opening a closed book or unraveling a scroll) must save against the contact poison. Once a creature has come in contact with the vector ink, the ink is expended. A single vial of vector ink is enough to write a single page of text on standard-sized parchment.",
+			"This specialized {eq-misc/ink} can be mixed with a contact poison to make the poison last longer on paper. Once applied to a sheet of paper, the ink remains slightly tacky and keeps the poison effective for up to 1 week. Any creature that touches the writing (such as while opening a closed book or unraveling a scroll) must save against the contact poison. Once a creature has come in contact with the vector ink, the ink is expended. A single vial of vector ink is enough to write a single page of text on standard-sized parchment.",
 			"",
 			"**{rule/Spontaneous Alchemy} Recipe** (7 {eq-reagent/dew of lunary} + 7 {eq-reagent/gold} + 6 {eq-reagent/urea})/digestion; **Craft DC** 20  ",
 			"**Time** 1 day; **Tools** heat source; **Type** alchemical tool"
@@ -3754,7 +3645,7 @@
 			"**Price** 40 gp; **Weight** -  ",
 			"**Category** Clothing",
 			"",
-			"Whether made of sheer gauze or thicker material, a veil is useful for hiding one's facial expressions. While worn, a veil grants a +2 circumstance bonus on Bluff checks; however, the wearer treats all other creatures as having {rule/concealment}. The wearer has a 50% chance to avoid gaze attacks, as if averting his eyes."
+			"Whether made of sheer gauze or thicker material, a veil is useful for hiding one's facial expressions. While worn, a veil grants a +2 circumstance bonus on Bluff checks; however, the wearer treats all other creatures as having {rule/concealment}. The wearer has a 50% chance to avoid {umr/gaze} attacks, as if averting his eyes."
 		]
 	},
 	"venom_trap": {
@@ -3766,7 +3657,7 @@
 			"**Price** 300 gp; **Weight** 10 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
-			"A venom trap is a special bear trap that includes a reservoir that can hold up to 3 doses of injury poison, and a pump system designed to recoat the trap as a trapped target struggles to escape it. The spring-loaded, hinged jaws of the trap are attached to a chain, which in turn is secured to a spike driven into the ground to ensure that the victim cannot simply crawl away. Prying open the jaws or pulling the spike from the ground requires a successful DC 21 Strength check. On a failed check, the jaws are coated in a dose of poison from the reservoir and clamp back shut, making another attack against the trapped target. The venom trap can make only one attack each round. The base CR of a venom trap is 2, but the CR varies depending on the poison used.",
+			"A venom trap is a special {eq-misc/bear trap} that includes a reservoir that can hold up to 3 doses of injury poison, and a pump system designed to recoat the trap as a trapped target struggles to escape it. The spring-loaded, hinged jaws of the trap are attached to a chain, which in turn is secured to a spike driven into the ground to ensure that the victim cannot simply crawl away. Prying open the jaws or pulling the spike from the ground requires a successful DC 21 Strength check. On a failed check, the jaws are coated in a dose of poison from the reservoir and clamp back shut, making another attack against the trapped target. The venom trap can make only one attack each round. The base CR of a venom trap is 2, but the CR varies depending on the poison used.",
 			"",
 			"**Venom Trap - CR varies**  ",
 			"**Type** mechanical; **Perception** DC 15; **Disable Device** DC 21  ",
@@ -3866,11 +3757,11 @@
 			"**Price** 400 gp; **Weight** 4 lbs.  ",
 			"**Category** Tools",
 			"",
-			"A vigil cap is built like a tinker's cap, but with shades and wideview mirrors instead of magnifying lenses. The helmet's arms can be adjusted (as a full-round action that provokes attacks of opportunity) into one of the following modes at a given time:",
+			"A vigil cap is built like a {eq-misc/tinker's cap}, but with shades and wideview mirrors instead of magnifying lenses. The helmet's arms can be adjusted (as a full-round action that provokes attacks of opportunity) into one of the following modes at a given time:",
 			"",
-			"- *All-Around Perspective:* When properly angled, the mirrors grant the wearer a better view of his surroundings and attacking foes. In this mode, the helmet grants a +2 circumstance bonus on reactive sight-based Perception checks.",
-			"- *Indirect Observation:* Intended to protect against gaze attacks, this mode combines shades positioned to block forward vision with mirrors angled to let the wearer see around him. Any time he would normally have to attempt a saving throw against a gaze attack, there is a 75% chance he doesn't need to attempt the save. Because of the wearer's obscured vision, however, all foes gain partial concealment (10% miss chance) against him.",
-			"- *Shades:* With the mirrors tucked aside, the shades provide a +2 circumstance bonus on saving throws against effects that blind or dazzle."
+			"- **All-Around Perspective:** When properly angled, the mirrors grant the wearer a better view of his surroundings and attacking foes. In this mode, the helmet grants a +2 circumstance bonus on reactive sight-based Perception checks.",
+			"- **Indirect Observation:** Intended to protect against {umr/gaze} attacks, this mode combines shades positioned to block forward vision with mirrors angled to let the wearer see around him. Any time he would normally have to attempt a saving throw against a gaze attack, there is a 75% chance he doesn't need to attempt the save. Because of the wearer's obscured vision, however, all foes gain partial {rule/concealment} (10% miss chance) against him.",
+			"- **Shades:** With the mirrors tucked aside, the shades provide a +2 circumstance bonus on saving throws against effects that blind or dazzle."
 		]
 	},
 	"vigilantes_kit": {
@@ -3882,7 +3773,7 @@
 			"**Price** 8 gp; **Weight** 22 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
-			"This kit includes a backpack, a belt pouch, a blanket, torches (10), trail rations (5 days), and a waterskin."
+			"This kit includes a {eq-misc/backpack}, a {eq-misc/belt pouch}, a {eq-misc/blanket}, {eq-misc/torches} (10), {eq-misc/trail rations} (5 days), and a {eq-misc/waterskin}."
 		]
 	},
 	"vine_tube": {
@@ -3967,7 +3858,7 @@
 			"**Price** 100 gp (heavy), 50 gp (light), 75 gp (medium); **Price of Passage** 3 cp (heavy), 2 cp (light), 2 cp (medium)",
 			"**Category** Transport, Land",
 			"",
-			"This four-wheeled open vehicle is used for transporting heavy loads. It includes the harness needed to pull it. There are three common varieties of wagon.",
+			"This four-wheeled open vehicle is used for transporting heavy loads. It includes the {eq-misc/harness} needed to pull it. There are three common varieties of wagon.",
 			"",
 			"**Light Wagon:** Wagons of this type are most commonly employed by farmers and craftsmen transporting their goods short distances or by venders in and around cities. A light wagon carries up to 1,000 pounds of cargo and requires two Medium creatures or one Large creature to pull it.",
 			"",
@@ -4016,7 +3907,7 @@
 			"**Price** 1 cp; **Weight** 1/2 lb.  ",
 			"**Category** Food/Drink",
 			"",
-			"This tough, dried cake is a halfling invention made from flour, water, and spices. Wandermeal keeps for months without spoiling, travels well, and fills the belly. However, eating it for over a week without other nutrients requires the eater to make a daily Fortitude saving throw (DC 15 + 1 for each additional day) or be sickened. The effect ends 1 day after more nutritious food is eaten. The listed price is for a day's worth of food."
+			"This tough, dried cake is a halfling invention made from flour, water, and spices. Wandermeal keeps for months without spoiling, travels well, and fills the belly. However, eating it for over a week without other nutrients requires the eater to make a daily Fortitude saving throw (DC 15 + 1 for each additional day) or be {misc/sickened}. The effect ends 1 day after more nutritious food is eaten. The listed price is for a day's worth of food."
 		]
 	},
 	"war_spirit_pouch": {
@@ -4068,7 +3959,7 @@
 			"**Price** 16 gp; **Weight** 31 lbs.  ",
 			"**Category** Kits",
 			"",
-			"This kit includes a backpack, a bedroll, a belt pouch, a cheap holy text, a flint and steel, an iron pot, a mess kit, rope, soap, a spell component pouch, torches (10), trail rations (5 days), a waterskin, and a wooden holy symbol."
+			"This kit includes a {eq-misc/backpack}, a {eq-misc/bedroll}, a {eq-misc/belt pouch}, a cheap {eq-misc/holy text}, a {eq-misc/flint and steel}, an {eq-misc/iron pot}, a {eq-misc/mess kit}, {eq-misc/rope}, {eq-misc/soap}, a {eq-misc/spell component pouch}, {eq-misc/torches} (10), {eq-misc/trail rations} (5 days), a {eq-misc/waterskin}, and a {eq-misc/wooden holy symbol}."
 		]
 	},
 	"warship": {
@@ -4083,7 +3974,7 @@
 			"**Price** 25,000 gp; **Price of Passage** (per mile) 2 sp  ",
 			"**Category** Transport, Sea",
 			"",
-			"This 100-foot-long ship has a single mast, although oars can also propel it. It has a crew of 60 to 80 rowers. This ship can carry 160 soldiers, but not for long distances, since there isn't room for supplies to support that many people. A warship cannot make sea voyages and sticks to the coast. It is not used for cargo. It moves about 2-1/2 miles per hour when being rowed or under sail."
+			"This 100-foot-long ship has a single mast, although oars can also propel it. It has a crew of 60 to 80 rowers. This {rule/wv_war<ship} can carry 160 soldiers, but not for long distances, since there isn't room for supplies to support that many people. A warship cannot make sea voyages and sticks to the coast. It is not used for cargo. It moves about 2-1/2 miles per hour when being rowed or under sail."
 		]
 	},
 	"warship_travel_per_mile": {
@@ -4139,7 +4030,7 @@
 			"**Price** 3 gp; **Weight** 10 lbs.  ",
 			"**Category** Kits",
 			"",
-			"This kit includes a badge (tin brooch worth 5 sp), flint and steel, a shield sconce, a signal whistle, and torches (10)."
+			"This kit includes a badge (tin brooch worth 5 sp), {eq-misc/flint and steel}, a {eq-misc/shield sconce}, a {eq-misc/signal whistle}, and {eq-misc/torches} (10)."
 		]
 	},
 	"water_clock": {
@@ -4186,7 +4077,7 @@
 			"**Price** 5 sp; **Weight** 1/2 lb.  ",
 			"**Category** Adventuring Gear",
 			"",
-			"This leather sack sealed with tar or pitch keeps delicate items from being ruined by water. Items kept inside remain relatively dry, making the bag ideal for carrying maps, scrolls, spellbooks, and the like, although the bag is not impervious and can only be completely immersed for 10 rounds before enough water seeps in to ruin such items."
+			"This leather {eq-misc/sack} sealed with tar or pitch keeps delicate items from being ruined by water. Items kept inside remain relatively dry, making the bag ideal for carrying maps, scrolls, spellbooks, and the like, although the bag is not impervious and can only be completely immersed for 10 rounds before enough water seeps in to ruin such items."
 		]
 	},
 	"waterskin": {
@@ -4255,7 +4146,7 @@
 			"**Price** 200 gp; **Weight** 1/2 lb.  ",
 			"**Category** Alchemical Tools",
 			"",
-			"This gritty alchemical powder is made from exotic minerals mixed with an infusion crafted from the ectoplasmic remains of destroyed incorporeal undead. When rubbed onto a weapon that is then placed over a hot flame for a full round, ghost salt melts and forms a temporary coating on the weapon. The blanching gives the weapon the ability to do full damage to incorporeal creatures, even if the weapon itself is nonmagical. An application of ghost salt remains effective until the weapon makes a successful attack. Each dose of weapon blanch can coat one weapon or up to 10 pieces of ammunition. Only one kind of [weapon blanch](eq-misc/weapon_blanch_adamantine) can be on a weapon at one time."
+			"This gritty alchemical powder is made from exotic minerals mixed with an infusion crafted from the ectoplasmic remains of destroyed incorporeal undead. When rubbed onto a weapon that is then placed over a hot flame for a full round, ghost salt melts and forms a temporary coating on the weapon. The blanching gives the weapon the ability to do full damage to incorporeal creatures, even if the weapon itself is nonmagical. An application of ghost salt remains effective until the weapon makes a successful attack. Each dose of weapon blanch can coat one weapon or up to 10 pieces of ammunition. Only one kind of {eq-misc/weapon blanch>_adamantine} can be on a weapon at one time."
 		]
 	},
 	"weapon_blanch_silver": {
@@ -4275,7 +4166,7 @@
 			"**Price** 1 sp; **Weight** -  ",
 			"**Category** Adventuring Gear",
 			"",
-			"Weapon cords are 2-foot-long leather straps that attach your weapon to your wrist. If you drop your weapon or are disarmed, you can recover it as a move action, and it never moves any farther away from you than an adjacent square. However, you cannot switch to a different weapon without first untying the cord (a full-round action) or cutting it (a move action or an attack, hardness 0, 1 hit point). Unlike with a locked gauntlet, you can still use a hand with a weapon cord, though a dangling weapon may interfere with finer actions."
+			"Weapon cords are 2-foot-long leather straps that attach your weapon to your wrist. If you drop your weapon or are disarmed, you can recover it as a move action, and it never moves any farther away from you than an adjacent square. However, you cannot switch to a different weapon without first untying the cord (a full-round action) or cutting it (a move action or an attack, hardness 0, 1 hit point). Unlike with a {eq-armorenh/locked gauntlet}, you can still use a hand with a weapon cord, though a dangling weapon may interfere with finer actions."
 		]
 	},
 	"weasel": {
@@ -4314,7 +4205,7 @@
 			"**Price** 2 sp; **Weight** 1 lb.  ",
 			"**Category** Adventuring Gear",
 			"",
-			"A common source of illumination in the Lands of the Linnorm Kings, 1 pint of whale oil burns for 10 hours in a lantern or lamp. It otherwise functions as normal oil."
+			"A common source of illumination in the Lands of the Linnorm Kings, 1 pint of whale oil burns for 10 hours in a lantern or lamp. It otherwise functions as normal {eq-misc/oil}."
 		]
 	},
 	"wheelchair": {
@@ -4366,7 +4257,7 @@
 			"**Price** 5 gp; **Weight** 2 lbs.  ",
 			"**Category** Animal Gear",
 			"",
-			"This short lash has a reach of only 10 feet, but is otherwise identical to a normal {eq-weapon/whip}. The wielder gains a +2 circumstance bonus on Handle Animal checks to push a trained animal and on Intimidate checks made to demoralize any animal as long as the animal is within the whip's reach. When using the whip to demoralize a trained animal, the wielder may choose to {misc/fascinate>d} the animal rather than causing it to become shaken for the same duration as the shaken condition, but the fascinate effect ends if line of sight between the wielder and the animal is broken."
+			"This short lash has a reach of only 10 feet, but is otherwise identical to a normal {eq-weapon/whip}. The wielder gains a +2 circumstance bonus on {skill/Handle Animal} checks to push a trained animal and on Intimidate checks made to demoralize any animal as long as the animal is within the whip's reach. When using the whip to demoralize a trained animal, the wielder may choose to {misc/fascinate>d} the animal rather than causing it to become shaken for the same duration as the shaken condition, but the fascinate effect ends if line of sight between the wielder and the animal is broken."
 		]
 	},
 	"training_whip": { "copyof": "whip_training" },
@@ -4443,13 +4334,13 @@
 			"",
 			"This equipment package is appropriate for any lightly-armored combatant in the wild, such as a barbarian, hunter, or ranger. If the PC can cast spells, add a spell component pouch and holly and mistletoe. The GM might consider altering which weapon is masterwork, based on the PC's specialization. For example, an archery-focused ranger might prefer a masterwork composite longbow over a masterwork greataxe.",
 			"",
-			"**Armor:** Light wooden quickdraw shield, masterwork studded leather armor.",
+			"**Armor:** {eq-armor/Light wooden quickdraw shield}, {rule/masterwork>_armor} {eq-armor/studded leather armor}.",
 			"",
-			"**Weapons:** Cold iron flail, composite longbow with 20 arrows, masterwork greataxe, short sword.",
+			"**Weapons:** {eq-material/Cold iron} {eq-weapon/flail}, {eq-weapon/composite longbow} with 20 arrows, {rule/masterwork>_weapons} {eq-weapon/greataxe}, {eq-weapon/short sword}.",
 			"",
-			"**Combat Gear:** Alchemist's fire (2), antitoxin, potion of keen senses, sunrods (3).",
+			"**Combat Gear:** {eq-weapon/Alchemist's fire} (2), {eq-misc/antitoxin}, potion of {spell/keen senses}, {eq-misc/sunrod/s} (3).",
 			"",
-			"**Other Gear:** Backpack, bedroll, belt pouch, chalk (5 pieces), climber's kit, cold-weather outfit, fishhook, flint and steel, mess kit, pole (10 ft.), shovel, signal whistle, silk rope (50 ft.), trail rations (5 days), waterskin, 2 sp.",
+			"**Other Gear:** {eq-misc/Backpack}, {eq-misc/bedroll}, {eq-misc/belt pouch}, {eq-misc/chalk} (5 pieces), {eq-misc/climber's kit}, {eq-misc/cold-weather outfit}, {eq-misc/fishhook}, {eq-misc/flint and steel}, {eq-misc/mess kit}, {eq-misc/pole} (10 ft.), {eq-misc/shovel}, {eq-misc/signal whistle}, {eq-misc/silk rope} (50 ft.), {eq-misc/trail rations} (5 days), {eq-misc/waterskin}, 2 sp.",
 			"",
 			"**Total Weight:** 108-1/2 lbs. (63-1/4 lbs. for a Small character)."
 		]
@@ -4477,7 +4368,7 @@
 			"",
 			"A rare and dangerous marvel from the strange nation of Alkenstar, this light, airborne device is held aloft by a huge buoyant balloon which is attached by chains to an open-air wicker basket.",
 			"",
-			"A wind platform is so-called because it remains at the mercy of the winds, as it has no propulsion system of its own and can therefor not be used as much more than an airborne watchtower or platform for the deployment of siege engines.",
+			"A wind platform is so-called because it remains at the mercy of the winds, as it has no propulsion system of its own and can therefore not be used as much more than an airborne watchtower or platform for the deployment of siege engines.",
 			"",
 			"The basket of a wind platform can hold as many as six Medium creatures and two Large direct-fire siege engines, or any combination of smaller creatures and siege engines occupying the same space. The platform cannot withstand a carried weight of more than 3,000 lbs.",
 			"",
@@ -4517,6 +4408,7 @@
 	"bottle_of_fine_wine": {
 		"copyof": "wine_fine_bottle"
 	},
+	"wine": { "copyof": "wine_common_pitcher" },
 	"wing_cloak": {
 		"name": "Wing cloak",
 		"sources": [ "Advanced Race Guide" ],
@@ -4526,7 +4418,7 @@
 			"**Price** 1,200 gp; **Weight** 1 lb.  ",
 			"**Category** Clothing",
 			"",
-			"This strange piece of equipment only works for sylphs and similar creatures, whose light, airy bodies can be borne upon the winds. Looking like a fine silk traveler's cloak, a wing cloak is secretly reinforced with a series of wooden struts that, when locked into place, stretch the cloak's fabric into a rudimentary wing. Arranging the struts into a wing or reversing the change is a move action. When the cloak is shaped into a wing, the wearer can make a DC 15 Fly check to fall safely from any height without taking falling damage, as if using feather fall. When falling, the wearer may make an additional DC 15 Fly check to glide, moving 5 feet laterally for every 20 feet she falls. Readying and using a wing cloak requires two hands and provokes an attack of opportunity. A wing cloak has hardness 0 and 5 hit points. If the wing cloak is broken, the Fly DCs to use it increase by +10."
+			"This strange piece of equipment only works for {race/sylph/s} and similar creatures, whose light, airy bodies can be borne upon the winds. Looking like a fine silk traveler's cloak, a wing cloak is secretly reinforced with a series of wooden struts that, when locked into place, stretch the cloak's fabric into a rudimentary wing. Arranging the struts into a wing or reversing the change is a move action. When the cloak is shaped into a wing, the wearer can make a DC 15 Fly check to fall safely from any height without taking falling damage, as if using {spell/feather fall}. When falling, the wearer may make an additional DC 15 Fly check to glide, moving 5 feet laterally for every 20 feet she falls. Readying and using a wing cloak requires two hands and provokes an attack of opportunity. A wing cloak has hardness 0 and 5 hit points. If the wing cloak is broken, the Fly DCs to use it increase by +10."
 		]
 	},
 	"wing_hobble": {
@@ -4550,7 +4442,7 @@
 			"**Price** 150 gp; **Weight** 2 lbs.  ",
 			"**Category** Tools",
 			"",
-			"These wooden braces hook on to a gathlain's wings to help in clinging to ivy, tree limbs, or other surfaces with significant handholds. Many wing hooks are decorated with intricate carvings. A gathlain wearing wing hooks can cling to a surface with a Climb DC of 10 or lower without effort, and can safely sleep there. The wing hooks leave the gathlain's arms free while attempting Climb checks on such surfaces."
+			"These wooden braces hook on to a {race/gathlain/'s} wings to help in clinging to ivy, tree limbs, or other surfaces with significant handholds. Many wing hooks are decorated with intricate carvings. A gathlain wearing wing hooks can cling to a surface with a Climb DC of 10 or lower without effort, and can safely sleep there. The wing hooks leave the gathlain's arms free while attempting Climb checks on such surfaces."
 		]
 	},
 	"wing_oil": {
@@ -4562,7 +4454,7 @@
 			"**Price** 1 gp; **Weight** -  ",
 			"**Category** Alchemical Remedies",
 			"",
-			"Tengus mix special salves to protect their feathers from the elements. This one-ounce vial of wing oil gives a feathered creature a +1 bonus on all saving throws to resist the effects of cold weather. Its effects last 24 hours.",
+			"{race/Tengu/s} mix special salves to protect their feathers from the elements. This one-ounce vial of wing oil gives a feathered creature a +1 bonus on all saving throws to resist the effects of {rule/cold /weather>dangers}. Its effects last 24 hours.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 20"
 		]
@@ -4588,7 +4480,7 @@
 			"**Price** 1,000 gp; **Weight** 6 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
-			"This {eq-weapon/quarterstaff} can unfold two sails on each side to become a simple glider that takes up no more space than its wielder. With a successful DC 10 Fly check as a full-round action, any Small or Medium creature holding the unfurled glider can glide downward at a 45-degree angle in a straight or diagonal line at a speed of 60 feet per round. Unfolding the wings is a full-round action. The wing staff imposes a -4 penalty on Fly checks because of its poor maneuverability and cannot be used to fly at other angles. A character may gain an advantage in an appropriate terrain tile during a pursuit, such as taking a shortcut by gliding over a forest. A wing staff's sails have AC 9 and hardness 0, and take double damage from acid and fire attacks. The sails have 20 hit points; if they take 9 points of damage, the sails and the staff gain the broken condition, and the sails don't function until repaired. When the sails are furled, a wing staff functions as a normal quarterstaff and can be enhanced as normal (this doesn't affect the sails), though if the staff gains the broken condition, the sails are also broken."
+			"This {eq-weapon/quarterstaff} can unfold two sails on each side to become a simple glider that takes up no more space than its wielder. With a successful DC 10 Fly check as a full-round action, any Small or Medium creature holding the unfurled glider can glide downward at a 45-degree angle in a straight or diagonal line at a speed of 60 feet per round. Unfolding the wings is a full-round action. The wing staff imposes a -4 penalty on Fly checks because of its poor maneuverability and cannot be used to fly at other angles. A character may gain an advantage in an appropriate terrain tile during a pursuit, such as taking a shortcut by gliding over a forest. A wing staff's sails have AC 9 and hardness 0, and take double damage from acid and fire attacks. The sails have 20 hit points; if they take 9 points of damage, the sails and the staff gain the {misc/broken} condition, and the sails don't function until repaired. When the sails are furled, a wing staff functions as a normal quarterstaff and can be enhanced as normal (this doesn't affect the sails), though if the staff gains the broken condition, the sails are also broken."
 		]
 	},
 	"winged_fetish_pharasma": {
@@ -4601,7 +4493,7 @@
 			"**Category** Channel Foci  ",
 			"**Deity** {faith/Pharasma}",
 			"",
-			"This amulet is made of a dulled dagger wrapped with feathers. When activated, it protects the wearer against undead creatures. The first time the wearer is subject to an attack from an undead creature that requires a saving throw (such as disease, paralysis, or energy drain), the amulet gives the wearer a sacred (if activated with positive energy) or profane (if activated with negative energy) bonus on her saving throw against that attack. This bonus is equal to the number of dice of the activating cleric's channel energy ability. The amulet remains charged until its magic is used or 1 hour has passed."
+			"This amulet is made of a dulled dagger wrapped with feathers. When activated, it protects the wearer against undead creatures. The first time the wearer is subject to an attack from an undead creature that requires a saving throw (such as disease, paralysis, or energy drain), the amulet gives the wearer a sacred (if activated with positive energy) or profane (if activated with negative energy) bonus on her saving throw against that attack. This bonus is equal to the number of dice of the activating cleric's {ability/channel energy} ability. The amulet remains charged until its magic is used or 1 hour has passed."
 		]
 	},
 	"winged_fetish": { "copyof": "winged_fetish_pharasma" },
@@ -4650,7 +4542,7 @@
 			"**Price** 5 gp; **Weight** 1/2 lb.  ",
 			"**Category** Adventuring Gear",
 			"",
-			"This 6-foot length of copper wire is strong and flexible. By attaching it to two pitons or iron spikes across an area, you can create a simple tripwire trap.",
+			"This 6-foot length of copper wire is strong and flexible. By attaching it to two {eq-misc/piton/s} or {eq-misc/iron spike/s} across an area, you can create a simple tripwire trap.",
 			"",
 			"**Tripwire Trap - CR 1/3**  ",
 			"**Type** mechanical; **Perception** DC 15; **Disable Device** DC 10  ",
@@ -4668,7 +4560,7 @@
 			"**Price** 30 gp; **Weight** -  ",
 			"**Category** Alchemical Remedies",
 			"",
-			"This pink liquid has a horrible chalky taste, but is quite effective at counteracting nausea, indigestion, and diarrhea. A vial of wismuth salix, taken in small doses during the day, alleviates these symptoms. If you drink an entire vial of wismuth salix, for 1 hour you get a +2 alchemical bonus on Fortitude saving throws against effects that inflict the nauseated or sickened condition. If you drink a vial of it while suffering from the nauseated or sickened condition, you may immediately roll another saving throw (with the +2 bonus) against the effect; you may gain this particular benefit only once per day. Drinking a vial of wismuth salix (whether over the course of a day or all at once) usually turns your tongue black for about a day, though this is a harmless side effect.",
+			"This pink liquid has a horrible chalky taste, but is quite effective at counteracting nausea, indigestion, and diarrhea. A vial of wismuth salix, taken in small doses during the day, alleviates these symptoms. If you drink an entire vial of wismuth salix, for 1 hour you get a +2 alchemical bonus on Fortitude saving throws against effects that inflict the {misc/nauseated} or {misc/sickened} condition. If you drink a vial of it while suffering from the nauseated or sickened condition, you may immediately roll another saving throw (with the +2 bonus) against the effect; you may gain this particular benefit only once per day. Drinking a vial of wismuth salix (whether over the course of a day or all at once) usually turns your tongue black for about a day, though this is a harmless side effect.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 20"
 		]
@@ -4682,7 +4574,7 @@
 			"**Price** 21 gp; **Weight** 21 lbs.  ",
 			"**Category** Kits",
 			"",
-			"This kit includes a backpack, a bedroll, a belt pouch, candles (10), chalk (10), a flint and steel, ink, an inkpen, an iron pot, a mess kit, soap, a spell component pouch, torches (10), trail rations (5 days), and a waterskin."
+			"This kit includes a {eq-misc/backpack}, a {eq-misc/bedroll}, a {eq-misc/belt pouch}, {eq-misc/candles} (10), {eq-misc/chalk} (10), a {eq-misc/flint and steel}, {eq-misc/ink}, an {eq-misc/inkpen}, an {eq-misc/iron pot}, a {eq-misc/mess kit}, {eq-misc/soap}, a {eq-misc/spell component pouch}, {eq-misc/torches} (10), {eq-misc/trail rations} (5 days), and a {eq-misc/waterskin}."
 		]
 	},
 	"wizards_kit": {
@@ -4694,7 +4586,7 @@
 			"**Price** 21 gp; **Weight** 21 lbs.  ",
 			"**Category** Kits",
 			"",
-			"This kit includes a backpack, a bedroll, a belt pouch, a flint and steel, ink, an inkpen, an iron pot, a mess kit, soap, a spell component pouch, torches (10), trail rations (5 days), and a waterskin. The kit does not contain a spellbook because a wizard begins play with a spellbook and does not need to purchase one."
+			"This kit includes a {eq-misc/backpack}, a {eq-misc/bedroll}, a {eq-misc/belt pouch}, a {eq-misc/flint and steel}, {eq-misc/ink}, an {eq-misc/inkpen}, an {eq-misc/iron pot}, a {eq-misc/mess kit}, {eq-misc/soap}, a {eq-misc/spell component pouch}, {eq-misc/torches} (10), {eq-misc/trail rations} (5 days), and a {eq-misc/waterskin}. The kit does not contain a {eq-misc/spellbook} because a wizard begins play with a spellbook and does not need to purchase one."
 		]
 	},
 	"woad_painting_kit": {
@@ -4705,7 +4597,7 @@
 			"{SOURCE Advanced Class Guide/208}  ",
 			"**Price** 300 gp (kit), 60 gp (paint, 1 block); **Weight** 1 lb. (kit), - (paint, 1 block)",
 			"",
-			"Though associated with the woad plant, the alchemical ingredients of this blue paste can vary considerably. When preparing a spell, you can grind the spell's material components and mix them into this paste to paint the components directly onto your flesh, allowing you to cast that spell as if you had applied Eschew Materials. Additionally, by painting complex woad designs that symbolize gestures for 10 minutes and succeeding at a Spellcraft check with a DC equal to 15 + the spell level, you can also cast the spell as if you had applied Still Spell. You can have only one spell painted on you in this way at a time, and if you cast the prepared spell or the paint is removed for any reason, the effects of the woad paint are spent.",
+			"Though associated with the woad plant, the alchemical ingredients of this blue paste can vary considerably. When preparing a spell, you can grind the spell's material components and mix them into this paste to paint the components directly onto your flesh, allowing you to cast that spell as if you had applied {feat/Eschew Materials}. Additionally, by painting complex woad designs that symbolize gestures for 10 minutes and succeeding at a Spellcraft check with a DC equal to 15 + the spell level, you can also cast the spell as if you had applied {feat/Still Spell}. You can have only one spell painted on you in this way at a time, and if you cast the prepared spell or the paint is removed for any reason, the effects of the woad paint are spent.",
 			"",
 			"Woad paint is sold in small, concentrated blocks (costing 60 gp each) that must be ground into paste on a wooden or stone pallet with a small amount of water and material spell components. A typical kit contains a pallet and 5 small blocks of paint. One block produces enough paint for 10 component designs or one stilled spell design. Woad paint has no benefit for a non-spellcaster.",
 			"",
@@ -4726,7 +4618,7 @@
 			"**Price** 5 sp; **Weight** -  ",
 			"**Category** Black Market",
 			"",
-			"The root of this tall plant with blue flowers is toxic, but herbalists use it in low doses to reduce pain and regulate the heart. Folklore says it can help a victim of lycanthropy throw off the curse."
+			"The root of this tall plant with blue flowers is toxic, but herbalists use it in low doses to reduce pain and regulate the heart. Folklore says it can help a victim of {corruption/lycanthropy} throw off the curse."
 		]
 	},
 	"woolly_mammoth_combat_trained": {
@@ -4753,7 +4645,7 @@
 			"**Price** 20 gp; **Weight** 6 lbs.  ",
 			"**Category** Clothing",
 			"",
-			"Fine plates of articulated steel reinforce these elbow-length leather gloves, which are designed to allow animal handlers and animal hunters alike to confront beasts with natural defenses like spines and quills. While wearing the gloves, you gain DR 2/magic against attacks of opportunity provoked when you attempt a combat maneuver check to grapple a creature. You also gain this damage reduction and a +1 circumstance bonus on Reflex saves against defensive abilities that deal damage when you strike a creature with a non-reach weapon, unarmed strike, or natural attack. The thick gloves restrict your movement, imposing a -2 penalty on precision-based skill checks that involve your hands (such as using Disable Device to pick a lock)"
+			"Fine plates of articulated steel reinforce these elbow-length leather gloves, which are designed to allow animal handlers and animal hunters alike to confront beasts with natural defenses like spines and quills. While wearing the gloves, you gain DR 2/magic against attacks of opportunity provoked when you attempt a combat maneuver check to {rule/grapple} a creature. You also gain this damage reduction and a +1 circumstance bonus on Reflex saves against defensive abilities that deal damage when you strike a creature with a non-reach weapon, unarmed strike, or natural attack. The thick gloves restrict your movement, imposing a -2 penalty on precision-based skill checks that involve your hands (such as using Disable Device to pick a lock)"
 		]
 	},
 	"wrist_sheath_spring_loaded": {
@@ -4765,7 +4657,7 @@
 			"**Price** 5 gp; **Weight** 1 lb.  ",
 			"**Category** Adventuring Gear",
 			"",
-			"This item works like a standard wrist sheath, but releasing an item from it is a swift action. Preparing the sheath for this use requires cranking the sheath's tiny gears and springs into place (a full-round action that provokes an attack of opportunity)."
+			"This item works like a standard {eq-misc/wrist sheath}, but releasing an item from it is a swift action. Preparing the sheath for this use requires cranking the sheath's tiny gears and springs into place (a full-round action that provokes an attack of opportunity)."
 		]
 	},
 	"wrist_sheath": {
@@ -4780,7 +4672,7 @@
 			"**Price** 1 gp; **Weight** 1 lb.  ",
 			"**Category** Adventuring Gear",
 			"",
-			"This is a sheath designed to be strapped to your forearm and hidden under a long sleeve. The sheath can hold one forearmlength item, such as a dagger, dart, or wand, or up to five arrows or crossbow bolts. As a move action, you can bend your wrist to cause some or all of these items to drop into your hand (provoking attacks of opportunity as normal). You have a +2 bonus on Sleight of Hand checks made to oppose the Perception check of someone observing or frisking you to determine items in the sheath. You can only wear one wrist sheath per arm."
+			"This is a sheath designed to be strapped to your forearm and hidden under a long sleeve. The sheath can hold one forearmlength item, such as a {eq-weapon/dagger}, {eq-weapon/dart}, or wand, or up to five arrows or crossbow bolts. As a move action, you can bend your wrist to cause some or all of these items to drop into your hand (provoking attacks of opportunity as normal). You have a +2 bonus on Sleight of Hand checks made to oppose the Perception check of someone observing or frisking you to determine items in the sheath. You can only wear one wrist sheath per arm."
 		]
 	},
 	"wyrm_pesh": {
@@ -4804,7 +4696,7 @@
 			"**Price** 30 gp; **Weight** 1 lb.  ",
 			"**Category** Alchemical Remedies",
 			"",
-			"This green-tinged brew has a pungent, bitter bite. It's flavored with a variety of foul-smelling herbs and is intensely carbonated through a unique fermentation process. Sometimes given to visitors as a prank, wyrm's breath bitter causes the drinker to become sickened for 1d6 minutes (Fortitude DC 12 negates); dwarves gain a +5 racial bonus on this saving throw. After drinking a dose of wyrm's breath bitter, the drinker can, as a move action, unleash a thunderous and noxious belch in either a 5-foot-radius {misc/spread} or a 10-foot cone. Creatures in the area are deafened and sickened for 1 round (Fortitude DC 12 negates). The drinker must wait 1d4 rounds before belching again, but can belch as often as desired for up to 10 minutes after drinking a wyrm's breath bitter.",
+			"This green-tinged brew has a pungent, bitter bite. It's flavored with a variety of foul-smelling herbs and is intensely carbonated through a unique fermentation process. Sometimes given to visitors as a prank, wyrm's breath bitter causes the drinker to become {misc/sickened} for 1d6 minutes (Fortitude DC 12 negates); dwarves gain a +5 racial bonus on this saving throw. After drinking a dose of wyrm's breath bitter, the drinker can, as a move action, unleash a thunderous and noxious belch in either a 5-foot-radius {misc/spread} or a 10-foot cone. Creatures in the area are {misc/deafened} and sickened for 1 round (Fortitude DC 12 negates). The drinker must wait 1d4 rounds before belching again, but can belch as often as desired for up to 10 minutes after drinking a wyrm's breath bitter.",
 			"",
 			"**{rule/Spontaneous Alchemy} Recipe** (2 {eq-reagent/black powder} + 10 {eq-reagent/brimstone} + 20 {eq-reagent/spirit of wine})/digestion; **Craft DC** 21  ",
 			"**Time** 1 week; **Tools** {eq-misc/brewer's kit}; **Type** alcohol"
@@ -4874,7 +4766,7 @@
 			"**Price** 170 gp; **Weight** 31 lbs.  ",
 			"**Category** Kits",
 			"",
-			"This large satchel contains the tools needed to put down potential zombie uprisings. The kit includes a shovel, two flasks of oil, a bullseye lantern, a flask of alchemist's fire, two flasks of holy water, 50 feet of hemp rope, a crowbar, a hammer and 10 nails, two vials of antiplague, and a wooden holy symbol."
+			"This large satchel contains the tools needed to put down potential zombie uprisings. The kit includes a {eq-misc/shovel}, two flasks of {eq-misc/oil}, a {eq-misc/bullseye lantern}, a flask of {eq-weapon/alchemist's fire}, two flasks of {eq-weapon/holy water}, 50 feet of hemp {eq-misc/rope}, a {eq-misc/crowbar}, a {eq-misc/hammer} and 10 nails, two vials of {eq-misc/antiplague}, and a {eq-misc/wooden holy symbol}."
 		]
 	},
 	"gas_mask": {

@@ -23,22 +23,22 @@
 			"",
 			"### Power Component",
 			"",
-			"**Doses** 1 (10 gp); **Spells** acid arrow, acid fog, acid splash, dispel magic, grease, wall of ice  ",
+			"**Doses** 1 (10 gp); **Spells** {spell/acid arrow}, {spell/acid fog}, {spell/acid splash}, {spell/dispel magic}, {spell/grease}, {spell/wall of ice}  ",
 			"**Effect** Acid can be used as a power component in the following ways:",
 			"",
-			"*Acid Arrow (M)*: The spell's acid lasts 1 round longer than normal.",
+			":HL[Acid Arrow (M):] The spell's acid lasts 1 round longer than normal.",
 			"",
-			"*Acid Fog (M)*: The fog's radius and height increase by 5 feet.",
+			":HL[Acid Fog (M):] The fog's radius and height increase by 5 feet.",
 			"",
-			"*Acid Splash (F)*: The spell deals +1 point of damage.",
+			":HL[Acid Splash (F):] The spell deals +1 point of damage.",
 			"",
-			"*Acid Splash (M)*: The spell lasts 1 round longer than normal.",
+			":HL[Acid Splash (M):] The spell lasts 1 round longer than normal.",
 			"",
-			"*Dispel Magic (M)*: Using acid as a material component while attempting to dispel or counterspell a spell or effect with the earth subtype gives you a +2 bonus on your dispel check. This bonus applies whether you are using {spell/dispel magic}, {spell/greater dispel magic}, or some other spell that you can use for counterspelling (for example, if you have the {feat/Improved Counterspell} feat).",
+			":HL[Dispel Magic (M):] Using acid as a material component while attempting to dispel or counterspell a spell or effect with the earth subtype gives you a +2 bonus on your dispel check. This bonus applies whether you are using {spell/dispel magic}, {spell/greater dispel magic}, or some other spell that you can use for counterspelling (for example, if you have the {feat/Improved Counterspell} feat).",
 			"",
-			"*Grease (M)*: The grease is acidic and deals 1 point of acid damage per round to any creature in the area or holding the greased object.",
+			":HL[Grease (M):] The grease is acidic and deals 1 point of acid damage per round to any creature in the area or holding the greased object.",
 			"",
-			"*Wall of Ice (M)*: For each flask of acid used as a power component, you may designate one 10-foot square of ice wall that, if broken through, deals 1d6 acid damage in addition to the normal cold damage."
+			":HL[Wall of Ice (M):] For each flask of acid used as a power component, you may designate one 10-foot square of ice wall that, if broken through, deals 1d6 acid damage in addition to the normal cold damage."
 		]
 	},
 	"alchemical_grease": {
@@ -56,16 +56,16 @@
 			"",
 			"### Power Component",
 			"",
-			"**Doses** 1 (5 gp); **Spells** grease, sleet storm, wall of iron, wall of stone  ",
+			"**Doses** 1 (5 gp); **Spells** {spell/grease}, {spell/sleet storm}, {spell/wall of iron}, {spell/wall of stone}  ",
 			"**Effect** Alchemical grease can be used as a power component in the following ways:",
 			"",
-			"*Grease (M)*: Increase the Reflex save DC for affected creatures and the Escape Artist bonus for greased armor by 1.",
+			":HL[Grease (M):] Increase the Reflex save DC for affected creatures and the Escape Artist bonus for greased armor by 1.",
 			"",
-			"*Sleet Storm (M)*: Increase the Acrobatics DC by 1.",
+			":HL[Sleet Storm (M):] Increase the Acrobatics DC by 1.",
 			"",
-			"*Wall of Iron (M)*: For each pot of grease used as a power component, you may designate one 10-foot square of iron wall as being slippery (+5 to Climb DCs).",
+			":HL[Wall of Iron (M):] For each pot of grease used as a power component, you may designate one 10-foot square of iron wall as being slippery (+5 to Climb DCs).",
 			"",
-			"*Wall of Stone (M)*: For each pot of grease used as a power component, you may designate one 10-foot square of the spell's stone wall as being slippery (+5 to Climb DCs)."
+			":HL[Wall of Stone (M):] For each pot of grease used as a power component, you may designate one 10-foot square of the spell's stone wall as being slippery (+5 to Climb DCs)."
 		]
 	},
 	"alchemists_fire": {
@@ -83,22 +83,22 @@
 			"",
 			"### Power Component",
 			"",
-			"**Doses** 1 (20 gp); **Spells** burning hands, fireball, flaming sphere, protection from energy, resist energy, scorching ray  ",
+			"**Doses** 1 (20 gp); **Spells** {spell/burning hands}, {spell/fireball}, {spell/flaming sphere}, {spell/protection from energy}, {spell/resist energy}, {spell/scorching ray}  ",
 			"**Effect** Alchemist's fire can be used as a power component in the following ways:",
 			"",
-			"*Burning Hands (M)*: One target that fails its Reflex saving throw (your choice) catches on fire as if it has been struck by alchemist's fire.",
+			":HL[Burning Hands (M):] One target that fails its Reflex saving throw (your choice) catches on fire as if it has been struck by alchemist's fire.",
 			"",
-			"*Fireball (M)*: One target per caster level that fails its Reflex saving throw (your choice) catches on fire as if it has been struck by alchemist's fire.",
+			":HL[Fireball (M):] One target per caster level that fails its Reflex saving throw (your choice) catches on fire as if it has been struck by alchemist's fire.",
 			"",
-			"*Flaming Sphere (M)*: Any creature damaged by a flaming sphere catches on fire as if it has been struck by alchemist's fire.",
+			":HL[Flaming Sphere (M):] Any creature damaged by a flaming sphere catches on fire as if it has been struck by alchemist's fire.",
 			"",
-			"*Protection from Energy (M)*: If cast to ward against cold, increase the amount of cold damage absorbed by 5.",
+			":HL[Protection from Energy (M):] If cast to ward against cold, increase the amount of cold damage absorbed by 5.",
 			"",
-			"*Resist Energy (M)*: If cast to ward against cold, increase the cold resistance to 12. At caster level 7th, you may use two flasks of alchemist's fire as a power component to increase the cold resistance to 24. At caster level 11th, you may use three flasks as a power component to increase the cold resistance to 36.",
+			":HL[Resist Energy (M):] If cast to ward against cold, increase the cold resistance to 12. At caster level 7th, you may use two flasks of alchemist's fire as a power component to increase the cold resistance to 24. At caster level 11th, you may use three flasks as a power component to increase the cold resistance to 36.",
 			"",
-			"*Scorching Ray (F)*: Add a +1 circumstance bonus on your attack roll with all rays from the spell.",
+			":HL[Scorching Ray (F):] Add a +1 circumstance bonus on your attack roll with all rays from the spell.",
 			"",
-			"*Scorching Ray (M)*: Any target damaged by a scorching ray catches on fire as if it has been struck by alchemist's fire."
+			":HL[Scorching Ray (M):] Any target damaged by a scorching ray catches on fire as if it has been struck by alchemist's fire."
 		]
 	},
 	"antiplague": {
@@ -116,12 +116,12 @@
 			"",
 			"### Power Component",
 			"",
-			"**Doses** 1 (50 gp); **Spells** heroes' feast, remove disease  ",
+			"**Doses** 1 (50 gp); **Spells** {spell/heroes' feast}, {spell/remove disease}  ",
 			"**Effect** Antiplague can be used as a power component in the following ways:",
 			"",
-			"*Heroes' Feast (M)*: For each vial of antiplague used as a power component, one creature eating the feast gains the benefits of antiplague for 12 hours. Antiplague's normally foul taste does not change the taste of the feast.",
+			":HL[Heroes' Feast (M):] For each vial of antiplague used as a power component, one creature eating the feast gains the benefits of antiplague for 12 hours. Antiplague's normally foul taste does not change the taste of the feast.",
 			"",
-			"*Remove Disease (M)*: Add +2 on your caster level check to cure diseases on the target."
+			":HL[Remove Disease (M):] Add +2 on your caster level check to cure diseases on the target."
 		]
 	},
 	"antitoxin": {
@@ -139,10 +139,10 @@
 			"",
 			"### Power Component",
 			"",
-			"**Doses** 1 (50 gp); **Spells** neutralize poison  ",
+			"**Doses** 1 (50 gp); **Spells** {spell/neutralize poison}  ",
 			"**Effect** Antitoxin can be used as a power component in the following ways:",
 			"",
-			"*Neutralize Poison (M)*: Add +2 on your caster level check to neutralize poison on a target creature. Antitoxin has no effect when you cast the spell on an object."
+			":HL[Neutralize Poison (M):] Add +2 on your caster level check to neutralize poison on a target creature. Antitoxin has no effect when you cast the spell on an object."
 		]
 	},
 	"black_powder": {
@@ -179,10 +179,10 @@
 			"",
 			"### Power Component",
 			"",
-			"**Doses** 1 (40 gp); **Spells** wall of iron  ",
+			"**Doses** 1 (40 gp); **Spells** {spell/wall of iron}  ",
 			"**Effect** Bladeguard can be used as a power component in the following ways:",
 			"",
-			"*Wall of Iron (M)*: For each pot of bladeguard used as a power component, you may designate one 10-foot square of iron wall that has acid resistance 10 and immunity to rusting attacks."
+			":HL[Wall of Iron (M):] For each pot of bladeguard used as a power component, you may designate one 10-foot square of iron wall that has acid resistance 10 and immunity to rusting attacks."
 		]
 	},
 	"brimstone": {
@@ -296,6 +296,32 @@
 			"**Effect** +1 caster level for the purpose of effect"
 		]
 	},
+	"dragons_gut": {
+		"name": "Dragon's Gut",
+		"sources": [ "Dragonslayer's Handbook" ],
+		"description": [
+			"## Dragon's Gut",
+			"",
+			"{SOURCE Dragonslayer's Handbook/19}",
+			"",
+			"**Price** 50 gp; **Weight** 1 lb.",
+			"",
+			"A dragon's stomach contains highly corrosive acid that can be crafted into an alchemical item called {eq-misc/dragon's gut}.",
+			"",
+			"### Power Component",
+			"",
+			"**Doses** 1 (50 gp); **Spells** {spell/acid arrow}, {spell/acid fog}, {spell/acidic spray}  ",
+			"**Effect** Dragon's gut has alternate effects when used in place of {eq-reagent/acid} as an alchemical power component:",
+			"",
+			":HL[Acid arrow (M):] The spell lasts 1d3 rounds longer than usual.",
+			"",
+			":HL[Acid fog (M):] The fog takes on a sticky quality and clings to creatures within it. Any creature damaged by the acid fog takes an additional 2d6 points of acid damage on the round after leaving the fog's area of effect. The creature can negate this additional damage by spending a standard action to wipe the clinging acid from its body.",
+			"",
+			":HL[Acidic spray (M):] The spell deals 1d8 points of acid damage per caster level (maximum 15d8) instead of the normal 1d6 per caster level on the round of its casting (Reflex half). It still deals 1d6 points of damage per two caster levels on the following round as normal.",
+			"",
+			">*Note: The original source doesn't state whether the spells use it as a material or focus cost. The first two have clear parallels with the* acid *entry, but the third is a guess. Consult your GM.*"
+		]
+	},
 	"fire_fragment": {
 		"name": "Fire Fragment",
 		"sources": [ "Plane-Hopper's Handbook" ],
@@ -329,12 +355,12 @@
 			"",
 			"### Power Component",
 			"",
-			"**Doses** 1 (50 gp); **Spells** flare, pyrotechnics  ",
+			"**Doses** 1 (50 gp); **Spells** {spell/flare}, {spell/pyrotechnics}  ",
 			"**Effect** Flash powder can be used as a power component in the following ways:",
 			"",
-			"*Flare (M)*: Increase the saving throw DC of the spell by 2.",
+			":HL[Flare (M):] Increase the saving throw DC of the spell by 2.",
 			"",
-			"*Pyrotechnics (M)*: When used to create fireworks, increase the DC by 1 and the blindness duration by 1 round."
+			":HL[Pyrotechnics (M):] When used to create fireworks, increase the DC by 1 and the blindness duration by 1 round."
 		]
 	},
 	"ginger_extract": {
@@ -407,14 +433,14 @@
 			"",
 			"### Power Component",
 			"",
-			"**Doses** 1 (60 gp); **Spells** glitterdust, repel vermin, summon swarm  ",
+			"**Doses** 1 (60 gp); **Spells** {spell/glitterdust}, {spell/repel vermin}, {spell/summon swarm}  ",
 			"**Effect** Itching powder can be used as a power component in the following ways:",
 			"",
-			"*Glitterdust (M)*: For each packet of itching powder used as a power component, you may designate one creature in the area to be affected by itching powder (DC 12).",
+			":HL[Glitterdust (M):] For each packet of itching powder used as a power component, you may designate one creature in the area to be affected by itching powder (DC 12).",
 			"",
-			"*Repel Vermin (M)*: The first vermin that enters the emanation is subject to the effects of itching powder (DC 15). Each packet of itching powder beyond the first means the spell affects another vermin that enters the emanation. A swarm of vermin counts as one vermin for the purpose of this effect.",
+			":HL[Repel Vermin (M):] The first vermin that enters the emanation is subject to the effects of itching powder (DC 15). Each packet of itching powder beyond the first means the spell affects another vermin that enters the emanation. A swarm of vermin counts as one vermin for the purpose of this effect.",
 			"",
-			"*Summon Swarm (M)*: Increase the swarm's distraction DC by 2."
+			":HL[Summon Swarm (M):] Increase the swarm's distraction DC by 2."
 		]
 	},
 	"liquid_ice": {
@@ -432,20 +458,20 @@
 			"",
 			"### Power Component",
 			"",
-			"**Doses** 1 (40 gp); **Spells** cone of cold, gentle repose, ray of frost, protection from energy, resist energy  ",
+			"**Doses** 1 (40 gp); **Spells** {spell/cone of cold}, {spell/gentle repose}, {spell/ray of frost}, {spell/protection from energy}, {spell/resist energy}  ",
 			"**Effect** Liquid ice can be used as a power component in the following ways:",
 			"",
-			"*Cone of Cold (M)*: The spell deals +1 point of damage per caster level.",
+			":HL[Cone of Cold (M):] The spell deals +1 point of damage per caster level.",
 			"",
-			"*Gentle Repose (M)*: The spell's duration increases to 2 days per level.",
+			":HL[Gentle Repose (M):] The spell's duration increases to 2 days per level.",
 			"",
-			"*Ray of Frost (F)*: The spell deals +1 point of damage.",
+			":HL[Ray of Frost (F):] The spell deals +1 point of damage.",
 			"",
-			"*Ray of Frost (M)*: The spell creates an icicle of frozen water vapor that strikes the target and deals 1d3 points of piercing damage and 1 point of cold damage.",
+			":HL[Ray of Frost (M):] The spell creates an icicle of frozen water vapor that strikes the target and deals 1d3 points of piercing damage and 1 point of cold damage.",
 			"",
-			"*Protection from Energy (M)*: If cast to ward against fire, increase the amount of fire damage absorbed by 5.",
+			":HL[Protection from Energy (M):] If cast to ward against fire, increase the amount of fire damage absorbed by 5.",
 			"",
-			"*Resist Energy (M)*: If cast to ward against fire, increase the fire resistance to 12. At caster level 7th, you may use two jars of liquid ice as a power component to increase the fire resistance to 24. At caster level 11th, you may use three jars as a power component to increase the fire resistance to 36."
+			":HL[Resist Energy (M):] If cast to ward against fire, increase the fire resistance to 12. At caster level 7th, you may use two jars of liquid ice as a power component to increase the fire resistance to 24. At caster level 11th, you may use three jars as a power component to increase the fire resistance to 36."
 		]
 	},
 	"magnesium": {
@@ -500,6 +526,32 @@
 			"",
 			"**Doses** 4 (2 gp); **Spells** abjuration school  ",
 			"**Effect** +1 caster level for the purpose of caster level checks and dispel checks"
+		]
+	},
+	"odor_stalk": {
+		"name": "Odor Stalk",
+		"sources": [ "Monster Hunter's Handbook" ],
+		"description": [
+			"## Odor stalk",
+			"",
+			"{SOURCE Monster Hunter's Handbook/27}",
+			"",
+			"**Price** 70 gp; **Weight** 1/10 lb.",
+			"",
+			"These alchemically treated {eq-misc/incense} sticks contain pheromones that certain creatures find repellent. Each {eq-misc/odor stalk} is created to irritate a specific creature type.",
+			"",
+			"### Power Component",
+			"",
+			"**Doses** 1 (70 gp); **Spells** {spell/ghoul touch}, {spell/repel vermin}, {spell/stinking cloud}  ",
+			"**Effect** Odor stalks can be used as a power component in the following ways:",
+			"",
+			":HL[Ghoul touch:] The stench only affects creatures of the odor stalk's associated creature type.",
+			"",
+			":HL[Repel vermin:] The spell functions as written, but applies to the odor stalk's associated creature type instead of to vermin. The Will save DC is always 12 when using this component.",
+			"",
+			":HL[Stinking cloud:] The Fortitude save DC increases by 1 for creatures of the odor stalk's prescribed type, but decreases by 1 for all other creature types.",
+			"",
+			">*Note: The original source doesn't state whether the spells use it as a material or focus cost. Consult your GM.*"
 		]
 	},
 	"pesh": {
@@ -645,14 +697,14 @@
 			"",
 			"### Power Component",
 			"",
-			"**Doses** 1 (20 gp); **Spells** fog cloud, obscuring mist, pyrotechnics  ",
+			"**Doses** 1 (20 gp); **Spells** {spell/fog cloud}, {spell/obscuring mist}, {spell/pyrotechnics}  ",
 			"**Effect** Smokesticks can be used as a power component in the following ways:",
 			"",
-			"*Fog Cloud (M)*: Increase the radius of the cloud by 5 feet.",
+			":HL[Fog Cloud (M):] Increase the radius of the cloud by 5 feet.",
 			"",
-			"*Obscuring Mist (M)*: The spell creates a smoky haze instead of mist. This haze cannot be dispersed by fire spells and dissipates naturally after 1 minute.",
+			":HL[Obscuring Mist (M):] The spell creates a smoky haze instead of mist. This haze cannot be dispersed by fire spells and dissipates naturally after 1 minute.",
 			"",
-			"*Pyrotechnics (M)*: Increase the radius of the cloud by 5 feet and the duration by 2 rounds."
+			":HL[Pyrotechnics (M):] Increase the radius of the cloud by 5 feet and the duration by 2 rounds."
 		]
 	},
 	"spirit_of_wine": {
@@ -688,14 +740,14 @@
 			"",
 			"### Power Component",
 			"",
-			"**Doses** 1 (50 gp); **Spells** black tentacles, slow, web  ",
+			"**Doses** 1 (50 gp); **Spells** {spell/black tentacles}, {spell/slow}, {spell/web}  ",
 			"**Effect** Tanglefoot bags can be used as a power component in the following ways:",
 			"",
-			"*Black Tentacles (M)*: For each tanglefoot bag used as a power component, you may reroll the tentacles' grapple check against one creature of your choice.",
+			":HL[Black Tentacles (M):] For each tanglefoot bag used as a power component, you may reroll the tentacles' grapple check against one creature of your choice.",
 			"",
-			"*Slow (M)*: For each tanglefoot bag used as a power component, you may designate one slowed creature as being affected by a tanglefoot bag.",
+			":HL[Slow (M):] For each tanglefoot bag used as a power component, you may designate one slowed creature as being affected by a tanglefoot bag.",
 			"",
-			"*Web (M)*: Increase the DC of breaking free by making a combat maneuver or Escape Artist check by 1."
+			":HL[Web (M):] Increase the DC of breaking free by making a combat maneuver or Escape Artist check by 1."
 		]
 	},
 	"thunderstone": {
@@ -713,12 +765,12 @@
 			"",
 			"### Power Component",
 			"",
-			"**Doses** 1 (30 gp); **Spells** alarm, glyph of warding  ",
+			"**Doses** 1 (30 gp); **Spells** {spell/alarm}, {spell/glyph of warding}  ",
 			"**Effect** Thunderstones can be used as a power component in the following ways:",
 			"",
-			"*Alarm (M)*: If cast as a mental alarm, you may have the spell activate a mental and audible alarm. If cast as an audible alarm, the alarm is as loud as a thunderstone and affects creatures in a 10-foot-radius spread as if a thunderstone had detonated there.",
+			":HL[Alarm (M):] If cast as a mental alarm, you may have the spell activate a mental and audible alarm. If cast as an audible alarm, the alarm is as loud as a thunderstone and affects creatures in a 10-foot-radius spread as if a thunderstone had detonated there.",
 			"",
-			"*Glyph of Warding (M)*: Creatures that fail their saves against a blast glyph are also deafened as if by a thunderstone."
+			":HL[Glyph of Warding (M):] Creatures that fail their saves against a blast glyph are also deafened as if by a thunderstone."
 		]
 	},
 	"urea": {

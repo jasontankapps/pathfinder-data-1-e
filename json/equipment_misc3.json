@@ -2996,6 +2996,7 @@
 		"name": "Snorkel (masterwork)",
 		"copyof": "snorkel_common"
 	},
+	"snorkel": { "copyof": "snorkel_common" },
 	"snow_goggles": {
 		"name": "Snow goggles",
 		"sources": [ "Pathfinder #51: The Hungry Storm" ],

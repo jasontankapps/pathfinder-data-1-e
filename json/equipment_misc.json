@@ -3037,6 +3037,7 @@
 			"This glass bottle holds about a pint and includes a cork."
 		]
 	},
+	"glass_bottle": { "copyof": "bottle" },
 	"bottled_musk": {
 		"name": "Bottled musk",
 		"sources": [ "Monster Hunter's Handbook" ],
@@ -4220,6 +4221,7 @@
 			"This chain is made of interlocking metal links roughly an inch long, and thick enough to bear large amounts of weight. It has hardness 10 and 5 hit points. It can be burst with a DC 26 Strength check."
 		]
 	},
+	"chain": { "copyof": "chain_10_ft" },
 	"chain_ten_ft": { "copyof": "chain_10_ft" },
 	"10_foot_chain": { "copyof": "chain_10_ft" },
 	"chain_belt": {

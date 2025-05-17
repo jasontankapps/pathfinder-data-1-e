@@ -1064,7 +1064,7 @@
 			"**Price** 215 gp; **Weight** 33 lbs.  ",
 			"**Category** Kits",
 			"",
-			"This kit, most widely available in Varisia, includes a {eq-misc/block and tackle}, 50 feet of {eq-misc/chain>_10_ft}, a {eq-misc/climber's kit}, a {eq-misc/crowbar}, and a {eq-misc/pole}."
+			"This kit, most widely available in Varisia, includes a {eq-misc/block and tackle}, 50 feet of {eq-misc/chain}, a {eq-misc/climber's kit}, a {eq-misc/crowbar}, and a {eq-misc/pole}."
 		]
 	},
 	"giant_seahorse_combat_trained": {
@@ -1288,7 +1288,7 @@
 			"**Price** 265 gp; **Weight** 22 lbs.  ",
 			"**Category** Kits",
 			"",
-			"This kit provides all the tools necessary to seal a coffin or other burial container and ensure that it stays closed. It includes 20 feet of {eq-misc/chain>_10_ft}, a {eq-misc/good lock}, 1 dose of {eq-misc/alchemical cement}, a {eq-misc/folding shovel}, a {magic-wondrous/stubborn nail}, and a leather-bound copy of the {faith/Pharasm/in>a} holy text, The Bones Land in a Spiral."
+			"This kit provides all the tools necessary to seal a coffin or other burial container and ensure that it stays closed. It includes 20 feet of {eq-misc/chain}, a {eq-misc/good lock}, 1 dose of {eq-misc/alchemical cement}, a {eq-misc/folding shovel}, a {magic-wondrous/stubborn nail}, and a leather-bound copy of the {faith/Pharasm/in>a} holy text, The Bones Land in a Spiral."
 		]
 	},
 	"gravelly_tonic": {
@@ -2351,6 +2351,10 @@
 		"name": "Horse (pony)",
 		"copyof": "horse_heavy"
 	},
+	"horse": {
+		"name": "Horse",
+		"copyof": "horse_heavy"
+	},
 	"pony_combat_trained": {
 		"name": "Horse (pony, combat trained)",
 		"copyof": "horse_heavy"
@@ -3305,7 +3309,7 @@
 			"**Price** 751 gp; **Weight** 17 lbs.  ",
 			"**Category** Kits",
 			"",
-			"This kit is designed for melee-focused warriors who hope to kill or capture a dragon. It includes 50 feet of {eq-misc/chain>_10_ft}, a {eq-misc/crowbar}, an {eq-misc/everburning torch}, an application of {eq-misc/fire>_ward_gel} (or {eq-misc/frost>_ward_gel}) ward gel, {eq-misc/fire-resistant boots}, a potion of {spell/resist energy}, three {eq-misc/sack/s}, a {eq-misc/shield sconce}, a {eq-misc/simple lock}, and a {eq-misc/weapon cord}."
+			"This kit is designed for melee-focused warriors who hope to kill or capture a dragon. It includes 50 feet of {eq-misc/chain}, a {eq-misc/crowbar}, an {eq-misc/everburning torch}, an application of {eq-misc/fire>_ward_gel} (or {eq-misc/frost>_ward_gel}) ward gel, {eq-misc/fire-resistant boots}, a potion of {spell/resist energy}, three {eq-misc/sack/s}, a {eq-misc/shield sconce}, a {eq-misc/simple lock}, and a {eq-misc/weapon cord}."
 		]
 	},
 	"kumis_wineskin": {
@@ -4955,7 +4959,7 @@
 			"**Price** 530 gp; **Weight** 1 lb.  ",
 			"**Category** Adventuring Gear",
 			"",
-			"This 10-foot-long {eq-misc/chain>_10_ft} has hardness 15 and 5 hit points. A successful DC 28 Strength check is required to burst it, making it strong enough to hold most lesser types of giants."
+			"This 10-foot-long {eq-misc/chain} has hardness 15 and 5 hit points. A successful DC 28 Strength check is required to burst it, making it strong enough to hold most lesser types of giants."
 		]
 	},
 	"mithral_chain_ten_ft": { "copyof": "mithral_chain_10_ft" },
@@ -4983,7 +4987,7 @@
 			"",
 			"This item is based on {eq-misc/mithral horseshoes}. There are no official rules for horsehoes. Consult your GM.",
 			"",
-			"Per the rules for {eq-material/mithral}, the weight listed should be accurate, but the price of the mithral item doesn't line up (a 4-pound mithral item should be 2000gp, not 550gp). A 1-pound {eq-misc/mithral chain>_10_ft} seems to treat the mithal as a +500gp bonus to the regular {eq-misc/chain/'s>_10_ft} price, but that lines up with a 1-pound item. Nevertheless, this entry treats the mithral as a simple +500gp cost.",
+			"Per the rules for {eq-material/mithral}, the weight listed should be accurate, but the price of the mithral item doesn't line up (a 4-pound mithral item should be 2000gp, not 550gp). A 1-pound {eq-misc/mithral chain>_10_ft} seems to treat the mithal as a +500gp bonus to the regular {eq-misc/chain/'s} price, but that lines up with a 1-pound item. Nevertheless, this entry treats the mithral as a simple +500gp cost.",
 			"",
 			"Making horseshoes would likely fall under Profession (blacksmithing or farrier), so using a {eq-misc/hireling_<trained /hireling>per_day} may be a better way to obtain normal horsehoes.",
 			"",
