@@ -30,7 +30,7 @@
 			"",
 			"Known also as an \"H-belt,\" a heavy weapon harness is an elaborate network of plastic and metal struts and straps. The harness can be worn in conjunction with any other suit of armor - the armor bonus granted by the heavy weapon harness does not stack with that granted by other suits of armor, but the armor check penalties and spell failure percentages do.",
 			"",
-			"A heavy weapon harness provides its wearer with additional stability and support, allowing the user to wield heavy weapons as if they were regular firearms, using the Exotic Weapon (firearms) feat for proficiency rather than Exotic Weapon (heavy weaponry). A character with Exotic Weapon (heavy weaponry) who wears an H-belt finds the use of heavy weapons even easier, and gains a +1 circumstance bonus on all attack rolls made with harnessed heavy weapons.",
+			"A heavy weapon harness provides its wearer with additional stability and support, allowing the user to wield heavy weapons as if they were regular firearms, using the {feat/Exotic Weapon>_proficiency} (firearms) feat for proficiency rather than Exotic Weapon (heavy weaponry). A character with Exotic Weapon (heavy weaponry) who wears an H-belt finds the use of heavy weapons even easier, and gains a +1 circumstance bonus on all attack rolls made with harnessed heavy weapons.",
 			"",
 			"Unlike most technological armors, a heavy weapon harness does not use power - its components are purely mechanical."
 		]
@@ -70,6 +70,38 @@
 			"| prismatic | +9 | 12,00gp | 32 | 6,000gp |"
 		]
 	},
+	"scatterlight_suit_black": {
+		"name": "Scatterlight Suit (black)",
+		"copyof": "scatterlight_suit_brown"
+	},
+	"scatterlight_suit_gray": {
+		"name": "Scatterlight Suit (gray)",
+		"copyof": "scatterlight_suit_brown"
+	},
+	"scatterlight_suit_green": {
+		"name": "Scatterlight Suit (green)",
+		"copyof": "scatterlight_suit_brown"
+	},
+	"scatterlight_suit_red": {
+		"name": "Scatterlight Suit (red)",
+		"copyof": "scatterlight_suit_brown"
+	},
+	"scatterlight_suit_blue": {
+		"name": "Scatterlight Suit (blue)",
+		"copyof": "scatterlight_suit_brown"
+	},
+	"scatterlight_suit_orange": {
+		"name": "Scatterlight Suit (orange)",
+		"copyof": "scatterlight_suit_brown"
+	},
+	"scatterlight_suit_prismatic": {
+		"name": "Scatterlight Suit (prismatic)",
+		"copyof": "scatterlight_suit_brown"
+	},
+	"scatterlight_suit_white": {
+		"name": "Scatterlight Suit (white)",
+		"copyof": "scatterlight_suit_brown"
+	},
 	"chameleon_suit": {
 		"name": "Chameleon suit",
 		"sources": [ "Technology Guide" ],
@@ -90,7 +122,7 @@
 			"**Craft DC** 29; **Cost** 7,500 gp  ",
 			"{feat/Craft Technological Arms and Armor}, {rule/crafting<military| lab>oratories}",
 			"",
-			"This suit of light woven-fiber armor covers the wearer from ankle to wrist and includes a hooded cowl. Its surface consists of millions of tiny, scale-like lenses and LED screens. When powered on, a chameleon suit analyzes its environment and generates digital camouflage. The wearer gains a +10 competence bonus on Stealth checks and can hide in plain sight (as a {class/ranger} in his favored terrain)."
+			"This suit of light woven-fiber armor covers the wearer from ankle to wrist and includes a hooded cowl. Its surface consists of millions of tiny, scale-like lenses and LED screens. When powered on, a chameleon suit analyzes its environment and generates digital camouflage. The wearer gains a +10 competence bonus on Stealth checks and can hide in plain sight (as a ranger in his {ability/favored terrain})."
 		]
 	},
 	"neraplast_armor": {
@@ -115,10 +147,6 @@
 			"",
 			"This lightweight, formfitting bodysuit features a variety of pockets, straps, and a built-in interface for automatically adjusting the various colors and patterns on its fabric. Selecting a color or pattern is a full-round action that consumes 1 charge and provokes an attack of opportunity. Capable of cycling through dozens of hues, the armor can even be used to adopt sophisticated camouflage patterns that grant a +3 competence bonus on Stealth checks. Whenever the wearer enters a terrain of significantly different coloration and background patterns, the armor must be recalibrated to its current area to maintain this bonus."
 		]
-	},
-	"scatterlight_suit_black": {
-		"name": "Scatterlight Suit (black)",
-		"copyof": "scatterlight_suit_brown"
 	},
 	"deep_diving_suit": {
 		"name": "Deep diving suit",
@@ -168,10 +196,6 @@
 			"This padded jumpsuit is made of resilient polymers interwoven with superconducting thread. It provides modest protection from conventional and energy weapons. The wearer applies the armor's AC bonus (including enhancement bonus, if any) against touch and ranged touch attacks that deal energy damage. In addition, the inssuit provides resist energy 5 against cold, acid, and electricity."
 		]
 	},
-	"scatterlight_suit_white": {
-		"name": "Scatterlight Suit (white)",
-		"copyof": "scatterlight_suit_brown"
-	},
 	"smart_armor_compact_form": {
 		"name": "Smart Armor (compact form)",
 		"sources": [ "Technology Guide" ],
@@ -199,30 +223,6 @@
 		"name": "Smart Armor (expanded form)",
 		"copyof": "smart_armor_compact_form"
 	},
-	"scatterlight_suit_gray": {
-		"name": "Scatterlight Suit (gray)",
-		"copyof": "scatterlight_suit_brown"
-	},
-	"scatterlight_suit_green": {
-		"name": "Scatterlight Suit (green)",
-		"copyof": "scatterlight_suit_brown"
-	},
-	"scatterlight_suit_red": {
-		"name": "Scatterlight Suit (red)",
-		"copyof": "scatterlight_suit_brown"
-	},
-	"scatterlight_suit_blue": {
-		"name": "Scatterlight Suit (blue)",
-		"copyof": "scatterlight_suit_brown"
-	},
-	"scatterlight_suit_orange": {
-		"name": "Scatterlight Suit (orange)",
-		"copyof": "scatterlight_suit_brown"
-	},
-	"scatterlight_suit_prismatic": {
-		"name": "Scatterlight Suit (prismatic)",
-		"copyof": "scatterlight_suit_brown"
-	},
 	"gravity_suit": {
 		"name": "Gravity suit",
 		"sources": [ "Technology Guide" ],
@@ -243,7 +243,7 @@
 			"**Craft DC** 33; **Cost** 20,000 gp  ",
 			"{feat/Craft Technological Arms and Armor}, {rule/crafting<graviton| lab>oratories}",
 			"",
-			"A gravity suit consists of several black, flexible straps attached to a framework of delicate servos, thin plates, and small strips of black polymer plastic - this give it an appearance of being ineffective armor. The armor bonus provided by an unpowered gravity suit is +0, but when activated, the suit generates a field of gravitons around the wearer that grants a +5 armor bonus (this bonus is a force effect). This bonus is doubled when it applies to the wearer's CMD score against bull rush, overrun, and trip attempts, and slows any fall as if the wearer were under the effect of a feather fall spell.",
+			"A gravity suit consists of several black, flexible straps attached to a framework of delicate servos, thin plates, and small strips of black polymer plastic - this give it an appearance of being ineffective armor. The armor bonus provided by an unpowered gravity suit is +0, but when activated, the suit generates a field of gravitons around the wearer that grants a +5 armor bonus (this bonus is a force effect). This bonus is doubled when it applies to the wearer's CMD score against {rule/bull rush}, {rule/overrun}, and {rule/trip} attempts, and slows any fall as if the wearer were under the effect of a {spell/feather fall} spell.",
 			"",
 			"At the cost of 1 additional charge per minute, the wearer of a gravity suit can fly at a speed of 60 ft. (average). Activating this ability is a standard action."
 		]
@@ -366,7 +366,7 @@
 			"**Craft DC** 27; **Cost** 3,200 gp  ",
 			"{feat/Craft Technological Arms and Armor}, {rule/crafting<graviton| lab>oratories}",
 			"",
-			"This bulky bracelet is covered in blinking blue lights and pulsing holographic emitters. A hard light shield produces a translucent but substantial holographic barrier when activated. The shield bonus counts as a force effect and applies to the wielder's touch AC against beam and ray attacks (but not other touch attacks). As a transparent force effect, a hard light shield provides no bonus against lasers. A hard light shield can be used to deliver shield bash attacks like a heavy shield.",
+			"This bulky bracelet is covered in blinking blue lights and pulsing holographic emitters. A hard light shield produces a translucent but substantial holographic barrier when activated. The shield bonus counts as a force effect and applies to the wielder's touch AC against beam and ray attacks (but not other touch attacks). As a transparent force effect, a hard light shield provides no bonus against lasers. A hard light shield can be used to deliver shield bash attacks like a {eq-armor/heavy«_steel» shield}.",
 			"",
 			"When turned off, a hard light shield provides no AC bonus and imposes no spell failure chance. Activating or deactivating a hard light shield is a move action. This item occupies the wearer's wrist slot."
 		]

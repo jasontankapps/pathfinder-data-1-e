@@ -24,7 +24,7 @@
 			"**Craft DC** 25; **Cost** 4,250 gp  ",
 			"{feat/Craft Cybernetics}, {rule/crafting<cybernetics| lab>oratories}",
 			"",
-			"A cybernetic leg completely replaces a normal leg, from the hip to the foot. It can take the place of a leg lost to a severing wound. The leg is fully functional and no different in appearance from a regular leg, although cyberart can be added to the leg at no additional cost. A cybernetic leg does not increase a user's Strength score. If both legs are replaced, they increase the user's base land speed by 10 feet and grant a +5 bonus to CMD against trip attempts and a +5 circumstance bonus on Acrobatics checks.",
+			"A cybernetic leg completely replaces a normal leg, from the hip to the foot. It can take the place of a leg lost to a severing wound. The leg is fully functional and no different in appearance from a regular leg, although {tech-cyber/cyberart} can be added to the leg at no additional cost. A cybernetic leg does not increase a user's Strength score. If both legs are replaced, they increase the user's base land speed by 10 feet and grant a +5 bonus to CMD against trip attempts and a +5 circumstance bonus on Acrobatics checks.",
 			"",
 			"The listed price, implantation, and install DC are for having two legs installed. A single cybernetic leg costs half the price and half the listed implantation value, but no significant bonus is granted to a creature with only one cybernetic leg. Both legs (or all legs, in the case of multilegged creatures) must be replaced for the above benefits to take effect."
 		]
@@ -64,7 +64,7 @@
 			"**Craft DC** 28; **Cost** 2,000 gp  ",
 			"{feat/Craft Cybernetics}, {rule/crafting<cybernetics| lab>oratories}",
 			"",
-			"A cybernetic eye can be enhanced by cyber art for no additional cost, giving it an unusual color or pattern. When a pair of eyes is installed, the user gains a +2 circumstance bonus on Perception checks and a +4 resistance bonus on saving throws against blindness or visual effects. The bonus on Perception checks stacks with circumstance bonuses on Perception checks from other cybernetic sources. A pair of cybernetic eyes can be further enhanced by one veemod at a price equal to twice the veemod's normal price.",
+			"A cybernetic eye can be enhanced by {tech-cyber/cyberart} for no additional cost, giving it an unusual color or pattern. When a pair of eyes is installed, the user gains a +2 circumstance bonus on Perception checks and a +4 resistance bonus on saving throws against blindness or visual effects. The bonus on Perception checks stacks with circumstance bonuses on Perception checks from other cybernetic sources. A pair of cybernetic eyes can be further enhanced by one {tech-artifact/veemod>_brown} at a price equal to twice the veemod's normal price.",
 			"",
 			"The listed price, implantation value, and install DC are for having two eyes installed. A single cybernetic eye costs half the price and half the listed implantation value, but a creature must replace all of its eyes to receive the benefits above."
 		]
@@ -85,7 +85,7 @@
 			"**Craft DC** 30; **Cost** 3,000 gp  ",
 			"{feat/Craft Cybernetics}, {rule/crafting<cybernetics| lab>oratories}",
 			"",
-			"These cybernetic implants replace the recipient's eyes with turrets containing multiple lenses, such as one finds on an optical microscope. In addition to providing normal vision, the implants can rapidly adjust to varying light levels, making the wearer immune to both the blind and dazzled conditions.",
+			"These cybernetic implants replace the recipient's eyes with turrets containing multiple lenses, such as one finds on an optical microscope. In addition to providing normal vision, the implants can rapidly adjust to varying light levels, making the wearer immune to both the {misc/blinded} and {misc/dazzled} conditions.",
 			"",
 			"If the wearer is willing or helpless, additional lenses can be added (or removed) from the optical turrets with 1 minute's work. Each of the three turrets can hold one eyes slot magic item. These lenses do not count against the wearer's limit of one eyes slot item, but only one function can be active at a time. The wearer can change which of the installed lenses is active (or deactivate them all) as a swift action."
 		]
@@ -106,7 +106,7 @@
 			"**Craft DC** 28; **Cost** 2,000 gp  ",
 			"{feat/Craft Cybernetics}, {rule/crafting<cybernetics| lab>oratories}",
 			"",
-			"A cybernetic ear can be enhanced by cyberart at no additional cost, giving it an unusual color or shape. When a pair of ears is installed, the user gains a +2 circumstance bonus on Perception checks. This bonus stacks with circumstance bonuses on Perception checks from other cybernetic senses. Cybernetic ears grant a +4 resistance bonus on all saving throws against sonic effects.",
+			"A cybernetic ear can be enhanced by {tech-cyber/cyberart} at no additional cost, giving it an unusual color or shape. When a pair of ears is installed, the user gains a +2 circumstance bonus on Perception checks. This bonus stacks with circumstance bonuses on Perception checks from other cybernetic senses. Cybernetic ears grant a +4 resistance bonus on all saving throws against sonic effects.",
 			"",
 			"The listed price, implantation value, and install DC are for having both ears installed. A single cybernetic ear costs half the price and half the listed implantation value, but a creature must replace all of its ears to receive the benefits above."
 		]
@@ -127,7 +127,7 @@
 			"**Craft DC** 28; **Cost** 1,000 gp  ",
 			"{feat/Craft Cybernetics}, {rule/crafting<cybernetics| lab>oratories}",
 			"",
-			"A skillslot is implanted into the target's brain, leaving a small port at the base of the skull. This port is covered with a flap of skin when not in use. Once installed, a skillslot has no effect until a skillchip is inserted into the port. An inserted skillchip enhances the user's ability in the skill encoded on the chip; the magnitude to which the skill is enhanced depends on the power of the skillchip. This does not grant ranks in the associated skill. It takes 10 minutes for a skillchip to adjust itself to a new skillslot; during this time, the user takes a -2 penalty on all skill checks as distracting sensations flood his mind. When a skillchip is removed, its benefits end immediately, but the wearer suffers no ill effects."
+			"A skillslot is implanted into the target's brain, leaving a small port at the base of the skull. This port is covered with a flap of skin when not in use. Once installed, a skillslot has no effect until a {tech-misc/skillchip>_mark_i} is inserted into the port. An inserted skillchip enhances the user's ability in the skill encoded on the chip; the magnitude to which the skill is enhanced depends on the power of the skillchip. This does not grant ranks in the associated skill. It takes 10 minutes for a skillchip to adjust itself to a new skillslot; during this time, the user takes a -2 penalty on all skill checks as distracting sensations flood his mind. When a skillchip is removed, its benefits end immediately, but the wearer suffers no ill effects."
 		]
 	},
 	"frenzychip": {
@@ -146,7 +146,7 @@
 			"**Craft DC** 30; **Cost** 18,200 gp  ",
 			"{feat/Craft Cybernetics}, {rule/crafting<cybernetics| lab>oratories}",
 			"",
-			"A frenzychip is installed into a creature's brain. Successful implantation leaves no trace of the operation. Once in place, a frenzychip patches directly in to the patient's motor skills and emotions. As long as she's not fatigued or exhausted, the user of a frenzychip can activate it as a swift action. While active, it grants a +2 morale bonus to Strength and Dexterity, a +1 morale bonus on Reflex saving throws, and a -2 penalty on Will saving throws. The user may use a frenzychip for up to 10 rounds per day, though the rounds need not be consecutive. Once the effects end, she becomes fatigued for twice as many rounds as she was under the frenzychip's effects."
+			"A frenzychip is installed into a creature's brain. Successful implantation leaves no trace of the operation. Once in place, a frenzychip patches directly in to the patient's motor skills and emotions. As long as she's not {misc/fatigued} or {misc/exhausted}, the user of a frenzychip can activate it as a swift action. While active, it grants a +2 morale bonus to Strength and Dexterity, a +1 morale bonus on Reflex saving throws, and a -2 penalty on Will saving throws. The user may use a frenzychip for up to 10 rounds per day, though the rounds need not be consecutive. Once the effects end, she becomes fatigued for twice as many rounds as she was under the frenzychip's effects."
 		]
 	},
 	"dermal_plating_mark_i": {
@@ -177,6 +177,22 @@
 			"| Mark V | +5 | 10 | DC 32 |"
 		]
 	},
+	"dermal_plating_mark_ii": {
+		"name": "Dermal Plating (mark II)",
+		"copyof": "dermal_plating_mark_i"
+	},
+	"dermal_plating_mark_iii": {
+		"name": "Dermal Plating (mark III)",
+		"copyof": "dermal_plating_mark_i"
+	},
+	"dermal_plating_mark_iv": {
+		"name": "Dermal Plating (mark IV)",
+		"copyof": "dermal_plating_mark_i"
+	},
+	"dermal_plating_mark_v": {
+		"name": "Dermal Plating (mark V)",
+		"copyof": "dermal_plating_mark_i"
+	},
 	"cyberfiber_muscles_mark_i": {
 		"name": "Cyberfiber Muscles (mark I)",
 		"sources": [ "Technology Guide" ],
@@ -202,6 +218,14 @@
 			"| Mark II | +4 Str | 4 | DC 28 |",
 			"| Mark III | +6 Str | 8 | DC 36 |"
 		]
+	},
+	"cyberfiber_muscles_mark_ii": {
+		"name": "Cyberfiber Muscles (mark II)",
+		"copyof": "cyberfiber_muscles_mark_i"
+	},
+	"cyberfiber_muscles_mark_iii": {
+		"name": "Cyberfiber Muscles (mark III)",
+		"copyof": "cyberfiber_muscles_mark_i"
 	},
 	"thoracic_nanite_chamber_mark_i": {
 		"name": "Thoracic Nanite Chamber (mark I)",
@@ -229,6 +253,14 @@
 			"| Mark III | +6 Con | 8 | DC 36 |"
 		]
 	},
+	"thoracic_nanite_chamber_mark_ii": {
+		"name": "Thoracic Nanite Chamber (mark II)",
+		"copyof": "thoracic_nanite_chamber_mark_i"
+	},
+	"thoracic_nanite_chamber_mark_iii": {
+		"name": "Thoracic Nanite Chamber (mark III)",
+		"copyof": "thoracic_nanite_chamber_mark_i"
+	},
 	"wirejack_tendons_mark_i": {
 		"name": "Wirejack Tendons (mark I)",
 		"sources": [ "Technology Guide" ],
@@ -255,6 +287,14 @@
 			"| Mark III | +6 Dex | 8 | DC 36 |"
 		]
 	},
+	"wirejack_tendons_mark_ii": {
+		"name": "Wirejack Tendons (mark II)",
+		"copyof": "wirejack_tendons_mark_i"
+	},
+	"wirejack_tendons_mark_iii": {
+		"name": "Wirejack Tendons (mark III)",
+		"copyof": "wirejack_tendons_mark_i"
+	},
 	"biofilter": {
 		"name": "Biofilter",
 		"sources": [ "Technology Guide" ],
@@ -274,46 +314,6 @@
 			"A nanite matrix is installed in the kidneys and liver to help purge the body of toxins. A biofilter provides a +4 competence bonus on saving throws against disease and poison. In addition, when the user attempts such a saving throw, she rolls twice and takes the higher result."
 		]
 	},
-	"dermal_plating_mark_ii": {
-		"name": "Dermal Plating (mark II)",
-		"copyof": "dermal_plating_mark_i"
-	},
-	"cyberfiber_muscles_mark_ii": {
-		"name": "Cyberfiber Muscles (mark II)",
-		"copyof": "cyberfiber_muscles_mark_i"
-	},
-	"thoracic_nanite_chamber_mark_ii": {
-		"name": "Thoracic Nanite Chamber (mark II)",
-		"copyof": "thoracic_nanite_chamber_mark_i"
-	},
-	"wirejack_tendons_mark_ii": {
-		"name": "Wirejack Tendons (mark II)",
-		"copyof": "wirejack_tendons_mark_i"
-	},
-	"dermal_plating_mark_iii": {
-		"name": "Dermal Plating (mark III)",
-		"copyof": "dermal_plating_mark_i"
-	},
-	"dermal_plating_mark_iv": {
-		"name": "Dermal Plating (mark IV)",
-		"copyof": "dermal_plating_mark_i"
-	},
-	"cyberfiber_muscles_mark_iii": {
-		"name": "Cyberfiber Muscles (mark III)",
-		"copyof": "cyberfiber_muscles_mark_i"
-	},
-	"thoracic_nanite_chamber_mark_iii": {
-		"name": "Thoracic Nanite Chamber (mark III)",
-		"copyof": "thoracic_nanite_chamber_mark_i"
-	},
-	"wirejack_tendons_mark_iii": {
-		"name": "Wirejack Tendons (mark III)",
-		"copyof": "wirejack_tendons_mark_i"
-	},
-	"dermal_plating_mark_v": {
-		"name": "Dermal Plating (mark V)",
-		"copyof": "dermal_plating_mark_i"
-	},
 	"cybernetic_arm": {
 		"name": "Cybernetic Arm",
 		"sources": [ "Technology Guide" ],
@@ -330,7 +330,7 @@
 			"**Craft DC** 25; **Cost** 2,375 gp  ",
 			"{feat/Craft Cybernetics}, {rule/crafting<cybernetics| lab>oratories}",
 			"",
-			"A cybernetic arm completely replaces a normal arm, from the shoulder to the hand. It can take the place of an arm lost to a severing wound. The arm is fully functional and no different in appearance from a regular arm, although cyberart can be added to the arm at no additional cost. A cybernetic arm does not increase a user's Strength score. If a creature has two cybernetic arms, it can lift and carry double the normal maximum weight for that creature's Strength and size, and it gains a +5 circumstance bonus on Climb checks. A character who wields a one-handed or light weapon with a cybernetic arm gains a +5 bonus to CMD against disarm attempts; two cybernetic arms do not increase this bonus, but do allow the bonus to apply to two-handed weapons."
+			"A cybernetic arm completely replaces a normal arm, from the shoulder to the hand. It can take the place of an arm lost to a severing wound. The arm is fully functional and no different in appearance from a regular arm, although {tech-cyber/cyberart} can be added to the arm at no additional cost. A cybernetic arm does not increase a user's Strength score. If a creature has two cybernetic arms, it can lift and carry double the normal maximum weight for that creature's Strength and size, and it gains a +5 circumstance bonus on Climb checks. A character who wields a one-handed or light weapon with a cybernetic arm gains a +5 bonus to CMD against {rule/disarm} attempts; two cybernetic arms do not increase this bonus, but do allow the bonus to apply to two-handed weapons."
 		]
 	},
 	"implanted_weaponry": {
@@ -370,7 +370,7 @@
 			"**Craft DC** 20; **Cost** 50 gp  ",
 			"{feat/Craft Cybernetics}, {rule/crafting<cybernetics| lab>oratories}",
 			"",
-			"Cyberart is the least invasive of all cybertech. This implant is similar in appearance to a tattoo, except that it can glow softly if desired, providing illumination equal to that provided by a candle. Some cyberart is animated, providing a short looping scene that replays over and over. Cyberart is installed in a body with a small metallic stylus that injects low-grade nanites into a body part; the quality of the art relies on the installer's Craft (painting or tattoo) check."
+			"Cyberart is the least invasive of all cybertech. This implant is similar in appearance to a tattoo, except that it can glow softly if desired, providing illumination equal to that provided by a {eq-misc/candle}. Some cyberart is animated, providing a short looping scene that replays over and over. Cyberart is installed in a body with a small metallic stylus that injects low-grade nanites into a body part; the quality of the art relies on the installer's Craft (painting or tattoo) check."
 		]
 	},
 	"implant_mesh": {
@@ -389,7 +389,7 @@
 			"**Craft DC** 34; **Cost** 2,500 gp  ",
 			"{feat/Craft Cybernetics}, {rule/crafting<cybernetics| lab>oratories}",
 			"",
-			"An implant mesh is a cybernetic augmentation that enhanced other cybernetic implants, notably those that heighten their wearers' physical abilities. If used to enhance cyberfiber muscles, a thoracic nanite chamber, or wirejack tendons, an implant mesh must be installed on that piece of cyberware before the item is implanted in a body. If the check to implant the mesh into the other cybernetic item fails, the implant mesh is destroyed.",
+			"An implant mesh is a cybernetic augmentation that enhanced other cybernetic implants, notably those that heighten their wearers' physical abilities. If used to enhance {tech-cyber/cyberfiber muscles>_mark_i}, a {tech-cyber/thoracic nanite chamber>_mark_i}, or {tech-cyber/wirejack tendons>_mark_i}, an implant mesh must be installed on that piece of cyberware before the item is implanted in a body. If the check to implant the mesh into the other cybernetic item fails, the implant mesh is destroyed.",
 			"",
 			"Once a piece of cybertech has been augmented by an implant mesh, that cybertech implant no longer counts as taking up a body slot for the purposes of installing other cybernetic devices into that slot. Enhancing a cybernetic device with an implant mesh doesn't alter the device's install DC, but does increase its implantation value by 2. For example, a mark II thoracic nanite chamber enhanced with an implant mesh could be implanted in a creature that already has cyberfiber muscles or dermal plating, but the augmented thoracic nanite chamber's implantation value increases to 6."
 		]

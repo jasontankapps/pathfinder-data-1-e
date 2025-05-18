@@ -8,8 +8,8 @@
 			"Unable to find the requested technological equipment."
 		]
 	},
-	"access_card_black": {
-		"name": "Access Card (black)",
+	"access_card_brown": {
+		"name": "Access Card (brown)",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Access card",
@@ -32,38 +32,38 @@
 	},
 	"access_card_blue": {
 		"name": "Access Card (blue)",
-		"copyof": "access_card_black"
+		"copyof": "access_card_brown"
 	},
-	"access_card_brown": {
-		"name": "Access Card (brown)",
-		"copyof": "access_card_black"
+	"access_card_black": {
+		"name": "Access Card (black)",
+		"copyof": "access_card_brown"
 	},
 	"access_card_gray": {
 		"name": "Access Card (gray)",
-		"copyof": "access_card_black"
+		"copyof": "access_card_brown"
 	},
 	"access_card_green": {
 		"name": "Access Card (green)",
-		"copyof": "access_card_black"
+		"copyof": "access_card_brown"
 	},
 	"access_card_orange": {
 		"name": "Access Card (orange)",
-		"copyof": "access_card_black"
+		"copyof": "access_card_brown"
 	},
 	"access_card_prismatic": {
 		"name": "Access Card (prismatic)",
-		"copyof": "access_card_black"
+		"copyof": "access_card_brown"
 	},
 	"access_card_red": {
 		"name": "Access Card (red)",
-		"copyof": "access_card_black"
+		"copyof": "access_card_brown"
 	},
 	"access_card_white": {
 		"name": "Access Card (white)",
-		"copyof": "access_card_black"
+		"copyof": "access_card_brown"
 	},
-	"e_pick_black": {
-		"name": "E-pick (black)",
+	"e_pick_brown": {
+		"name": "E-pick (brown)",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## E-pick",
@@ -94,50 +94,50 @@
 			"| Prismatic | +10 |"
 		]
 	},
-	"epick_black": { "copyof": "e_pick_black" },
-	"black_e_pick": { "copyof": "e_pick_black" },
+	"epick_brown": { "copyof": "e_pick_brown" },
+	"black_e_pick": { "copyof": "e_pick_brown" },
 	"e_pick_blue": {
 		"name": "E-pick (blue)",
-		"copyof": "epick_black"
+		"copyof": "epick_brown"
 	},
 	"epick_blue": { "copyof": "e_pick_blue" },
-	"e_pick_brown": {
-		"name": "E-pick (brown)",
-		"copyof": "epick_black"
+	"e_pick_black": {
+		"name": "E-pick (black)",
+		"copyof": "epick_brown"
 	},
-	"epick_brown": { "copyof": "e_pick_brown" },
+	"epick_black": { "copyof": "e_pick_black" },
 	"e_pick_gray": {
 		"name": "E-pick (gray)",
-		"copyof": "epick_black"
+		"copyof": "epick_brown"
 	},
 	"epick_gray": { "copyof": "e_pick_gray" },
 	"e_pick_green": {
 		"name": "E-pick (green)",
-		"copyof": "epick_black"
+		"copyof": "epick_brown"
 	},
 	"epick_green": { "copyof": "e_pick_green" },
 	"e_pick_orange": {
 		"name": "E-pick (orange)",
-		"copyof": "epick_black"
+		"copyof": "epick_brown"
 	},
 	"epick_orange": { "copyof": "e_pick_orange" },
 	"e_pick_prismatic": {
 		"name": "E-pick (prismatic)",
-		"copyof": "epick_black"
+		"copyof": "epick_brown"
 	},
 	"epick_prismatic": { "copyof": "e_pick_prismatic" },
 	"e_pick_red": {
 		"name": "E-pick (red)",
-		"copyof": "epick_black"
+		"copyof": "epick_brown"
 	},
 	"epick_red": { "copyof": "e_pick_red" },
 	"e_pick_white": {
 		"name": "E-pick (white)",
-		"copyof": "epick_black"
+		"copyof": "epick_brown"
 	},
 	"epick_white": { "copyof": "e_pick_white" },
-	"lock_coder_black": {
-		"name": "Lock Coder (black)",
+	"lock_coder_brown": {
+		"name": "Lock Coder (brown)",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Lock coder",
@@ -170,35 +170,35 @@
 	},
 	"lock_coder_blue": {
 		"name": "Lock Coder (blue)",
-		"copyof": "lock_coder_black"
+		"copyof": "lock_coder_brown"
 	},
-	"lock_coder_brown": {
-		"name": "Lock Coder (brown)",
-		"copyof": "lock_coder_black"
+	"lock_coder_black": {
+		"name": "Lock Coder (black)",
+		"copyof": "lock_coder_brown"
 	},
 	"lock_coder_gray": {
 		"name": "Lock Coder (gray)",
-		"copyof": "lock_coder_black"
+		"copyof": "lock_coder_brown"
 	},
 	"lock_coder_green": {
 		"name": "Lock Coder (green)",
-		"copyof": "lock_coder_black"
+		"copyof": "lock_coder_brown"
 	},
 	"lock_coder_orange": {
 		"name": "Lock Coder (orange)",
-		"copyof": "lock_coder_black"
+		"copyof": "lock_coder_brown"
 	},
 	"lock_coder_prismatic": {
 		"name": "Lock Coder (prismatic)",
-		"copyof": "lock_coder_black"
+		"copyof": "lock_coder_brown"
 	},
 	"lock_coder_red": {
 		"name": "Lock Coder (red)",
-		"copyof": "lock_coder_black"
+		"copyof": "lock_coder_brown"
 	},
 	"lock_coder_white": {
 		"name": "Lock Coder (white)",
-		"copyof": "lock_coder_black"
+		"copyof": "lock_coder_brown"
 	},
 	"battery": {
 		"name": "Battery",
@@ -237,7 +237,7 @@
 			"**Craft DC** 20; **Cost** 250 gp  ",
 			"{feat/Craft Technological Item}, {rule/crafting<production| lab>oratories}",
 			"",
-			"A power cable is a short length of flexible cord (typically no more than 5 feet long) that can be used to attach a technological device to a [power generator](main/tech_artifacts). It takes a move action to attach a cable to a generator or a device - thus, it takes a full round to fully connect the two together. Once connected, the item draws power from the generator rather than from its internal battery stores. If an item can be recharged, it automatically replenishes its missing charges from the generator (up to the generator's available yield for that hour). This process is instantaneous."
+			"A power cable is a short length of flexible cord (typically no more than 5 feet long) that can be used to attach a technological device to a {tech-artifact/power generator}. It takes a move action to attach a cable to a generator or a device - thus, it takes a full round to fully connect the two together. Once connected, the item draws power from the generator rather than from its internal battery stores. If an item can be recharged, it automatically replenishes its missing charges from the generator (up to the generator's available yield for that hour). This process is instantaneous."
 		]
 	},
 	"power_receiver": {
@@ -632,8 +632,8 @@
 			"A nanite canister is used to power technological devices that use nanites - such items generally don't require other sources of power, as the nanites themselves do the bulk of the work when the object is activated. The canister contains a small, independent power source and a supply of nanites. A single canister contains enough nanites to provide 10 charges for a nanotech item or weapon."
 		]
 	},
-	"nanite_hypogun_black": {
-		"name": "Nanite Hypogun (black)",
+	"nanite_hypogun_brown": {
+		"name": "Nanite Hypogun (brown)",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Nanite hypogun",
@@ -668,35 +668,35 @@
 	},
 	"nanite_hypogun_blue": {
 		"name": "Nanite Hypogun (blue)",
-		"copyof": "nanite_hypogun_black"
+		"copyof": "nanite_hypogun_brown"
 	},
-	"nanite_hypogun_brown": {
-		"name": "Nanite Hypogun (brown)",
-		"copyof": "nanite_hypogun_black"
+	"nanite_hypogun_black": {
+		"name": "Nanite Hypogun (black)",
+		"copyof": "nanite_hypogun_brown"
 	},
 	"nanite_hypogun_gray": {
 		"name": "Nanite Hypogun (gray)",
-		"copyof": "nanite_hypogun_black"
+		"copyof": "nanite_hypogun_brown"
 	},
 	"nanite_hypogun_green": {
 		"name": "Nanite Hypogun (green)",
-		"copyof": "nanite_hypogun_black"
+		"copyof": "nanite_hypogun_brown"
 	},
 	"nanite_hypogun_orange": {
 		"name": "Nanite Hypogun (orange)",
-		"copyof": "nanite_hypogun_black"
+		"copyof": "nanite_hypogun_brown"
 	},
 	"nanite_hypogun_prismatic": {
 		"name": "Nanite Hypogun (prismatic)",
-		"copyof": "nanite_hypogun_black"
+		"copyof": "nanite_hypogun_brown"
 	},
 	"nanite_hypogun_red": {
 		"name": "Nanite Hypogun (red)",
-		"copyof": "nanite_hypogun_black"
+		"copyof": "nanite_hypogun_brown"
 	},
 	"nanite_hypogun_white": {
 		"name": "Nanite Hypogun (white)",
-		"copyof": "nanite_hypogun_black"
+		"copyof": "nanite_hypogun_brown"
 	},
 	"neurocam": {
 		"name": "Neurocam",
@@ -847,8 +847,8 @@
 			"A trauma pack plus functions as a {tech-misc/trauma pack}, except that it's advanced chemicals and tools allow someone to restore a recently slain creature to life if the healing provided by the trauma pack plus is administered within 1 round of the target's death, as breath of life. A trauma pack heals 2d8+2 points of damage on a successful DC 15 Heal check. For every 5 points by which the result exceeds the DC, the pack provides an additional 2d8+2 points of healing."
 		]
 	},
-	"veemod_black": {
-		"name": "Veemod (black)",
+	"veemod_brown": {
+		"name": "Veemod (brown)",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Veemod",
@@ -891,35 +891,35 @@
 	},
 	"veemod_blue": {
 		"name": "Veemod (blue)",
-		"copyof": "veemod_black"
+		"copyof": "veemod_brown"
 	},
-	"veemod_brown": {
-		"name": "Veemod (brown)",
-		"copyof": "veemod_black"
+	"veemod_black": {
+		"name": "Veemod (black)",
+		"copyof": "veemod_brown"
 	},
 	"veemod_gray": {
 		"name": "Veemod (gray)",
-		"copyof": "veemod_black"
+		"copyof": "veemod_brown"
 	},
 	"veemod_green": {
 		"name": "Veemod (green)",
-		"copyof": "veemod_black"
+		"copyof": "veemod_brown"
 	},
 	"veemod_orange": {
 		"name": "Veemod (orange)",
-		"copyof": "veemod_black"
+		"copyof": "veemod_brown"
 	},
 	"veemod_prismatic": {
 		"name": "Veemod (prismatic)",
-		"copyof": "veemod_black"
+		"copyof": "veemod_brown"
 	},
 	"veemod_red": {
 		"name": "Veemod (red)",
-		"copyof": "veemod_black"
+		"copyof": "veemod_brown"
 	},
 	"veemod_white": {
 		"name": "Veemod (white)",
-		"copyof": "veemod_black"
+		"copyof": "veemod_brown"
 	},
 	"veemod_goggles": {
 		"name": "Veemod goggles",
@@ -961,8 +961,8 @@
 			"This handheld device can capture still photographs or record video. The device uses a charge when activated and consumes an additional charge each hour; during that hour, individual photographs or video recordings do not consume additional charges. Images and videos captured by a camera can be displayed on the camera's palm-sized screen. A camera can hold up to 20 hours of video footage and 200 photographs."
 		]
 	},
-	"chipfinder_black": {
-		"name": "Chipfinder (black)",
+	"chipfinder_brown": {
+		"name": "Chipfinder (brown)",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Chipfinder",
@@ -999,35 +999,35 @@
 	},
 	"chipfinder_blue": {
 		"name": "Chipfinder (blue)",
-		"copyof": "chipfinder_black"
+		"copyof": "chipfinder_brown"
 	},
-	"chipfinder_brown": {
-		"name": "Chipfinder (brown)",
-		"copyof": "chipfinder_black"
+	"chipfinder_black": {
+		"name": "Chipfinder (black)",
+		"copyof": "chipfinder_brown"
 	},
 	"chipfinder_gray": {
 		"name": "Chipfinder (gray)",
-		"copyof": "chipfinder_black"
+		"copyof": "chipfinder_brown"
 	},
 	"chipfinder_green": {
 		"name": "Chipfinder (green)",
-		"copyof": "chipfinder_black"
+		"copyof": "chipfinder_brown"
 	},
 	"chipfinder_orange": {
 		"name": "Chipfinder (orange)",
-		"copyof": "chipfinder_black"
+		"copyof": "chipfinder_brown"
 	},
 	"chipfinder_prismatic": {
 		"name": "Chipfinder (prismatic)",
-		"copyof": "chipfinder_black"
+		"copyof": "chipfinder_brown"
 	},
 	"chipfinder_red": {
 		"name": "Chipfinder (red)",
-		"copyof": "chipfinder_black"
+		"copyof": "chipfinder_brown"
 	},
 	"chipfinder_white": {
 		"name": "Chipfinder (white)",
-		"copyof": "chipfinder_black"
+		"copyof": "chipfinder_brown"
 	},
 	"commset": {
 		"name": "Commset",
@@ -1153,8 +1153,8 @@
 			"When activated, a flashlight creates a beam of normal light in a 60-foot cone. It also increases the light level in the area beyond this initial cone by one step, out to a 120-foot cone. It does not increase the light level in normal light or bright light. A flashlight has no effect in areas of magical darkness."
 		]
 	},
-	"force_field_black": {
-		"name": "Force Field (black)",
+	"force_field_brown": {
+		"name": "Force Field (brown)",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Force field",
@@ -1189,37 +1189,45 @@
 			"| Prismatic | 50 | 60 | 10 |"
 		]
 	},
+	"brown_force_field": { "copyof": "force_field_brown" },
 	"force_field_blue": {
 		"name": "Force Field (blue)",
-		"copyof": "force_field_black"
+		"copyof": "force_field_brown"
 	},
-	"force_field_brown": {
-		"name": "Force Field (brown)",
-		"copyof": "force_field_black"
+	"blue_force_field": { "copyof": "force_field_blue" },
+	"force_field_black": {
+		"name": "Force Field (black)",
+		"copyof": "force_field_brown"
 	},
+	"black_force_field": { "copyof": "force_field_black" },
 	"force_field_gray": {
 		"name": "Force Field (gray)",
-		"copyof": "force_field_black"
+		"copyof": "force_field_brown"
 	},
+	"gray_force_field": { "copyof": "force_field_gray" },
 	"force_field_green": {
 		"name": "Force Field (green)",
-		"copyof": "force_field_black"
+		"copyof": "force_field_brown"
 	},
+	"green_force_field": { "copyof": "force_field_green" },
 	"force_field_orange": {
 		"name": "Force Field (orange)",
-		"copyof": "force_field_black"
+		"copyof": "force_field_brown"
 	},
+	"orange_force_field": { "copyof": "force_field_orange" },
 	"force_field_prismatic": {
 		"name": "Force Field (prismatic)",
-		"copyof": "force_field_black"
+		"copyof": "force_field_brown"
 	},
+	"prismatic_force_field": { "copyof": "force_field_prismatic" },
 	"force_field_red": {
 		"name": "Force Field (red)",
-		"copyof": "force_field_black"
+		"copyof": "force_field_brown"
 	},
+	"red_force_field": { "copyof": "force_field_red" },
 	"force_field_white": {
 		"name": "Force Field (white)",
-		"copyof": "force_field_black"
+		"copyof": "force_field_brown"
 	},
 	"gravity_clip": {
 		"name": "Gravity clip",
@@ -1279,8 +1287,8 @@
 			"Grippers are powerful, long-handled tools that resemble a blacksmith's tongs. Once they're set, they can be locked into place to grip an object. Used when attempting to pry open a stuck object (in a manner similar to the use of a crowbar), grippers grant a +2 circumstance bonus on Strength checks. When used to attach two devices, a set of grippers holds on with an effective Strength score of 24. Applying grippers to a creature and then locking the grippers to crush flesh and bone is a standard action that provokes an attack of opportunity and also requires a successful melee attack with an improvised weapon. Once locked, the grippers deal 1d4+7 points of damage."
 		]
 	},
-	"hologram_generator_black": {
-		"name": "Hologram Generator (black)",
+	"hologram_generator_brown": {
+		"name": "Hologram Generator (brown)",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Hologram generator",
@@ -1339,35 +1347,35 @@
 	},
 	"hologram_generator_blue": {
 		"name": "Hologram Generator (blue)",
-		"copyof": "hologram_generator_black"
+		"copyof": "hologram_generator_brown"
 	},
-	"hologram_generator_brown": {
-		"name": "Hologram Generator (brown)",
-		"copyof": "hologram_generator_black"
+	"hologram_generator_black": {
+		"name": "Hologram Generator (black)",
+		"copyof": "hologram_generator_brown"
 	},
 	"hologram_generator_gray": {
 		"name": "Hologram Generator (gray)",
-		"copyof": "hologram_generator_black"
+		"copyof": "hologram_generator_brown"
 	},
 	"hologram_generator_green": {
 		"name": "Hologram Generator (green)",
-		"copyof": "hologram_generator_black"
+		"copyof": "hologram_generator_brown"
 	},
 	"hologram_generator_orange": {
 		"name": "Hologram Generator (orange)",
-		"copyof": "hologram_generator_black"
+		"copyof": "hologram_generator_brown"
 	},
 	"hologram_generator_prismatic": {
 		"name": "Hologram Generator (prismatic)",
-		"copyof": "hologram_generator_black"
+		"copyof": "hologram_generator_brown"
 	},
 	"hologram_generator_red": {
 		"name": "Hologram Generator (red)",
-		"copyof": "hologram_generator_black"
+		"copyof": "hologram_generator_brown"
 	},
 	"hologram_generator_white": {
 		"name": "Hologram Generator (white)",
-		"copyof": "hologram_generator_black"
+		"copyof": "hologram_generator_brown"
 	},
 	"inertial_dampening_belt": {
 		"name": "Inertial dampening belt",

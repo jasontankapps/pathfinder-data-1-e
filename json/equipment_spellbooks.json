@@ -133,7 +133,7 @@
 			"",
 			"#### Ritual",
 			"",
-			"**Breath of the Grave (Su)** As a swift action, spend this boon's effect to breathe a 15-foot cone of rotting stench. Creatures within the cone must succeed at a Fortitude saving throw (DC 10 + your highest caster level in a class that prepares spells) or be sickened for 1 round. This spends the boon. After this boon has been spent, you take a -4 penalty on Diplomacy and Stealth checks until you prepare spells again.",
+			"**Breath of the Grave (Su)** As a swift action, spend this boon's effect to breathe a 15-foot cone of rotting stench. Creatures within the cone must succeed at a Fortitude saving throw (DC 10 + your highest caster level in a class that prepares spells) or be {misc/sickened} for 1 round. This spends the boon. After this boon has been spent, you take a -4 penalty on Diplomacy and Stealth checks until you prepare spells again.",
 			"",
 			"[^S]: A spell from the caster's specialty school."
 		]
@@ -310,7 +310,7 @@
 			"{SOURCE Ultimate Magic/124}",
 			"",
 			"**Opposition** Enchantment, illusion  ",
-			"**Protection** A series of three {eq-misc/superior lock/s} each augmented with {spell/arcane lock} (DC 50) and a {spell/symbol of weakness} (Fortitude DC 20) on the second page of each book.  ",
+			"**Protection** A series of three {eq-misc/superior lock/s} each augmented with arcane lock (DC 50) and a symbol of weakness (Fortitude DC 20) on the second page of each book.  ",
 			"**Value** 7,635 gp",
 			"",
 			"#### Spells",
@@ -337,7 +337,7 @@
 			"{SOURCE Ultimate Magic/122}",
 			"",
 			"**Opposition** Evocation, necromancy  ",
-			"**Protection** The entire book is warded with {spell/illusory script} (Will DC 16; on failure, the suggestion is for the reader to \"Close the book and leave\").  ",
+			"**Protection** The entire book is warded with illusory script (Will DC 16; on failure, the suggestion is for the reader to \"Close the book and leave\").  ",
 			"**Value** 1,055 gp (1,755 gp with the preparation ritual)",
 			"",
 			"#### Spells",
@@ -363,12 +363,12 @@
 		"description": [
 			"## Guardian Grimoire",
 			"### Level 15 Abjurer",
-			"*These three well-made books are covered with runes of warding against outsiders and undead. The pages inside show water damage along the edges.*",
+			"*These three well-made books are covered with {spell/rune[s] of warding} against outsiders and undead. The pages inside show water damage along the edges.*",
 			"",
 			"{SOURCE Ultimate Magic/125}",
 			"",
 			"**Opposition** Illusion, necromancy  ",
-			"**Protection** {spell/Explosive runes} (Reflex DC 16) and fire trap (Reflex DC 17)  ",
+			"**Protection** Explosive runes (Reflex DC 16) and fire trap (Reflex DC 17)  ",
 			"**Value** 10,055 gp (13,055 gp with the preparation ritual)",
 			"",
 			"#### Spells",
@@ -400,7 +400,7 @@
 			"{SOURCE Ultimate Magic/124}",
 			"",
 			"**Opposition** Divination, necromancy  ",
-			"**Protection** {spell/Sepia snake sigil} (Reflex DC 16)  ",
+			"**Protection** Sepia snake sigil (Reflex DC 16)  ",
 			"**Value** 4,555 gp (6,355 gp with the preparation ritual)",
 			"",
 			"#### Spells",
@@ -457,7 +457,7 @@
 			"{SOURCE Ultimate Magic/123}",
 			"",
 			"**Opposition** Illusion, transmutation  ",
-			"**Protection** {eq-misc/Average lock} (DC 25), and the 5th-level spells are hidden with {spell/secret page}. The special word is \"reveal.\"  ",
+			"**Protection** {eq-misc/Average lock} (DC 25), and the 5th-level spells are hidden with secret page. The special word is \"reveal.\"  ",
 			"**Value** 2,195 gp (3,320 gp with the preparation ritual)",
 			"",
 			"#### Spells",
@@ -598,7 +598,7 @@
 			"{SOURCE Ultimate Magic/126}",
 			"",
 			"**Opposition** Illusion, transmutation  ",
-			"**Protection** Each book features a {eq-misc/superior lock} (DC 40); {spell/secret page} hides the 9th- and 7th-level spells, and the first book is warded with {spell/explosive runes} (Reflex DC 17).  ",
+			"**Protection** Each book features a {eq-misc/superior lock} (DC 40); secret page hides the 9th- and 7th-level spells, and the first book is warded with explosive runes (Reflex DC 17).  ",
 			"**Value** 12,725 gp (16,550 gp with the preparation ritual)",
 			"",
 			"#### Spells",
@@ -617,7 +617,7 @@
 			"",
 			"#### Ritual",
 			"",
-			"**Improved Eyes of Rul Thaven (Su)** This improved boon allows you to see invisible creatures. You can activate the boon's effect as a swift action to gain the effects of {spell/see invisibility} for up to 10 rounds. The rounds need not be consecutive, but you must spend a swift action each time you activate the boon's effect. The boon's effect is only spent when all 10 rounds of *see invisibility* are used up, or the next time you prepare wizard spells.",
+			"**Improved Eyes of Rul Thaven (Su)** This improved boon allows you to see invisible creatures. You can activate the boon's effect as a swift action to gain the effects of *see invisibility* for up to 10 rounds. The rounds need not be consecutive, but you must spend a swift action each time you activate the boon's effect. The boon's effect is only spent when all 10 rounds of *see invisibility* are used up, or the next time you prepare wizard spells.",
 			"",
 			"[^S]: A spell from the caster's specialty school.  ",
 			"[^OP]: A spell from the spellbook creator's opposition school."
@@ -653,7 +653,7 @@
 			"",
 			"#### Ritual",
 			"",
-			"**Curse of Names (Su)** When you are finished preparing your spells with this book, write the proper name of a single creature among the list of names in this book. As a swift action, when you are within 30 feet of the named creature, you can call out its name to bestow the curse of names on it. This spends the boon's effect. The target creature takes a -2 penalty on all attack rolls, and a -4 penalty on all attack rolls against you, for 1 minute. When you activate this curse, the name is crossed out in the back of the book. That creature cannot be the target of a curse of names originating from you ever again. The penalties of two instances of curse of names on the same creature do not stack.",
+			"**Curse of Names (Su)** When you are finished preparing your spells with this book, write the proper name of a single creature among the list of names in this book. As a swift action, when you are within 30 feet of the named creature, you can call out its name to bestow the *curse of names* on it. This spends the boon's effect. The target creature takes a -2 penalty on all attack rolls, and a -4 penalty on all attack rolls against you, for 1 minute. When you activate this curse, the name is crossed out in the back of the book. That creature cannot be the target of a *curse of names* originating from you ever again. The penalties of two instances of *curse of names* on the same creature do not stack.",
 			"",
 			"[^S]: A spell from the caster's specialty school.  ",
 			"[^OP]: A spell from the spellbook creator's opposition school."
@@ -670,7 +670,7 @@
 			"{SOURCE Ultimate Magic/125}",
 			"",
 			"**Opposition** Divination, evocation  ",
-			"**Protection** {spell/illusory script} (Will DC 16; on failure the suggestion is \"Forget the existence of the descriptions and notes\"), {spell/phantom trap} (opening any of the books seems to set off a trap)  ",
+			"**Protection** illusory script (Will DC 16; on failure the suggestion is \"Forget the existence of the descriptions and notes\"), phantom trap (opening any of the books seems to set off a trap)  ",
 			"**Value** 11,865 gp (15,065 gp with the preparation ritual)",
 			"",
 			"#### Spells",
@@ -710,7 +710,7 @@
 			"",
 			"#### Ritual",
 			"",
-			"**Rejuvenating Infusion (Su)** Whenever you imbibe an alchemist extract of a conjuration spell, you can spend this boon as a swift action. If you do, you are healed of 1 point of damage and can ignore the effects of fatigue for 1 round."
+			"**Rejuvenating Infusion (Su)** Whenever you imbibe an alchemist extract of a conjuration spell, you can spend this boon as a swift action. If you do, you are healed of 1 point of damage and can ignore the effects of {misc/fatigue} for 1 round."
 		]
 	},
 	"quest_eternal": {
@@ -738,7 +738,7 @@
 			"",
 			"#### Ritual",
 			"",
-			"**Travel Sage (Su)** There is nothing like a magic book to enhance the memory. Unlike other boons, you do not spend this one. Until you prepare spells again, you are considered trained in Knowledge (geography). If you are already trained in Knowledge (geography), you gain a +2 circumstance bonus on those checks instead.",
+			"**Travel Sage (Su)** There is nothing like a magic book to enhance the memory. Unlike other boons, you do not spend this one. Until you prepare spells again, you are considered trained in {skill/Knowledge (geography)}. If you are already trained in Knowledge (geography), you gain a +2 circumstance bonus on those checks instead.",
 			"",
 			"[^S]: A spell from the caster's specialty school.  ",
 			"[^OP]: A spell from the spellbook creator's opposition school."
@@ -847,7 +847,7 @@
 			"",
 			"#### Ritual",
 			"",
-			"**Spontaneous Bomb (Su)** When it comes to bombs, you have a special trick up your sleeve. Once per day as a swift action, you can apply a discovery that you qualify for (but do not already know) to a bomb. This does not allow you to stack non-stacking discoveries on a bomb."
+			"**Spontaneous Bomb (Su)** When it comes to bombs, you have a special trick up your sleeve. Once per day as a swift action, you can apply a {ability/discover/y>ies} that you qualify for (but do not already know) to a bomb. This does not allow you to stack non-stacking discoveries on a bomb."
 		]
 	},
 	"the_guides_analects": {

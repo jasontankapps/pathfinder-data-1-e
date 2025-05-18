@@ -23,7 +23,7 @@
 			"",
 			"Each arm ends in an electrified claw that grants the wielder a claw attack that deals 1d8 points of damage. These claw attacks are always primary attacks, even while a one-handed weapon is wielded and the other claw is used to make an additional attack. The claws function as +3 {magic-enh/shocking burst} weapons. As a free action, one of the claws can be transformed into a +3 shocking burst battleaxe - returning it to its claw form is a move action. When the claw transforms, any item held in or worn on that hand drops. Attacks made with this battleaxe gain a +2 bonus on damage rolls, but it cannot be wielded with two hands.",
 			"",
-			"The Arms also function as a divine focus for spellcasting if the user worships Unity - even for unusually expensive divine focuses, such as the focus needed for destruction.",
+			"The Arms also function as a divine focus for spellcasting if the user worships Unity - even for unusually expensive divine focuses, such as the focus needed for {spell/destruction}.",
 			"",
 			"### Destruction",
 			"",
@@ -42,9 +42,9 @@
 			"",
 			"An autodoc is a large, cumbersome device that consists of a comfortable, plastic-framed reclining chair inside a transparent pod, within which is affixed a dizzying array of multi-jointed arms and extendable devices. An equally dizzying assortment of buttons, lights, and touch-sensitive screens adorn the device, both on the inside and outside of the pod.",
 			"",
-			"An autodoc can heal wounds, set broken bones, cure disease, treat burns, implant cybertech, remove poison, and more. An autodoc can be programmed to perform any number of surgical procedures upon the person lying within the pod - the dozens of arms and devices work with precision and great speed. The operator need only enter in the proper diagnosis or desired operation on the screens at the foot of the bed with a successful Heal check; this requires the Technologist feat to attempt. The DC is based on the operation, detailed below. An autodoc will not activate until it has been properly programmed. Programming an operation takes 2d6 rounds of work. An autodoc has some capacity to error-check and auto-complete the correct programming for an operation before undertaking it by running instantaneous simulations on one of its many screens, granting the user a +5 circumstance bonus on these Heal checks.",
+			"An autodoc can heal wounds, set broken bones, cure disease, treat burns, implant cybertech, remove poison, and more. An autodoc can be programmed to perform any number of surgical procedures upon the person lying within the pod - the dozens of arms and devices work with precision and great speed. The operator need only enter in the proper diagnosis or desired operation on the screens at the foot of the bed with a successful {skill/Heal} check; this requires the {feat/Technologist} feat to attempt. The DC is based on the operation, detailed below. An autodoc will not activate until it has been properly programmed. Programming an operation takes 2d6 rounds of work. An autodoc has some capacity to error-check and auto-complete the correct programming for an operation before undertaking it by running instantaneous simulations on one of its many screens, granting the user a +5 circumstance bonus on these Heal checks.",
 			"",
-			"An autodoc consumes 1 charge per hour while idle (including time needed to program an operation), and 1 charge per round while operating. As an autodoc can only hold a maximum of 120 charges at a time, for lengthy operations it must be recharged during use or be attached to a standing power supply such as a generator or reactor. While functioning, an autodoc is closed tight - a successful DC 25 Strength check is required to wrench the door open. A patient who leaves or is forcibly removed from an autodoc before an operation finishes (or who is being operated on when the autodoc runs out of charges) must succeed a DC 15 Reflex save or take 3d6+10 points of damage from the cutting lasers, surgical tools, and needles moving at high speed. Needless to say, exiting the autodoc before an operation completes negates any of the benefits that would have been otherwise granted by the device.",
+			"An autodoc consumes 1 charge per hour while idle (including time needed to program an operation), and 1 charge per round while operating. As an autodoc can only hold a maximum of 120 charges at a time, for lengthy operations it must be recharged during use or be attached to a standing power supply such as a [generator or reactor](rule/tech_artifacts). While functioning, an autodoc is closed tight - a successful DC 25 Strength check is required to wrench the door open. A patient who leaves or is forcibly removed from an autodoc before an operation finishes (or who is being operated on when the autodoc runs out of charges) must succeed a DC 15 Reflex save or take 3d6+10 points of damage from the cutting lasers, surgical tools, and needles moving at high speed. Needless to say, exiting the autodoc before an operation completes negates any of the benefits that would have been otherwise granted by the device.",
 			"",
 			"The various operations an autodoc can perform are as follows; additional operations can be devised as needed.",
 			"",
@@ -53,7 +53,7 @@
 			"- **Major Surgery (DC 25):** The patient heals 3d8+5 points of damage and is cured of blindness and deafness. *Operation Time:* 3 minutes.",
 			"- **Critical Surgery (DC 30):** The patient heals 4d8+7 points of damage and either all ability damage to all ability scores or all ability drain to one ability score. *Operation Time:* 4 minutes.",
 			"- **Back from the Brink (DC 35):** A dead patient whose body is relatively intact is restored to life at 1 hit point per Hit Die, as if by {spell/raise dead} (including time restrictions and negative levels). *Operation Time:* 1 hour.",
-			"- **Total Molecular Reconstruction (DC 45):** As long as at least a small amount of a patient's DNA is available, an autodoc can reconstruct a patient's body completely. At the end of the reconstruction process, the new body is considered to be a blank clone of the patient, and until the patient's memories and personality are implanted into the clone via a neurocam, the body remains alive but inert. *Operation Time:* 24 hours.",
+			"- **Total Molecular Reconstruction (DC 45):** As long as at least a small amount of a patient's DNA is available, an autodoc can reconstruct a patient's body completely. At the end of the reconstruction process, the new body is considered to be a blank clone of the patient, and until the patient's memories and personality are implanted into the clone via a {tech-misc/neurocam}, the body remains alive but inert. *Operation Time:* 24 hours.",
 			"- **Install Cybertech (DC = the cybertech install DC):** Cybernetic equipment is installed safely. *Operation Time:* 10 minutes per point of implantation of the cybertech being installed.",
 			"- **Treat Toxin (DC = 10 + the save DC of disease or poison):** The patient has one disease or poison currently afflicting him removed. *Operation Time:* 10 minutes."
 		]
@@ -73,11 +73,12 @@
 			"",
 			"A beam cannon is an immense version of one of the six more common beam rifle types. Beam cannons are generally referred to by type as summarized below. In addition to the standard automatic firing mode options, a beam cannon can be used to launch a devastating blast of energy. This is a full-round action, and these blasts can't be used to make iterative attacks. When a beam cannon is used to launch a blast, no attack roll is made - you simply target a 20-foot-radius {misc/spread} within a maximum range of 300 feet. You must have line of effect to your target when you launch a blast; if the blast impacts a solid object before reaching the target area, it explodes at that point. All creatures caught in the blast radius take 6d6 points of damage of the energy type appropriate to the cannon (Reflex DC 14 half). Each blast also has an additional effect as determined by the type of cannon. Firing a blast from a beam cannon consumes 10 charges.",
 			"",
-			"**Gravity Cannon:** A gravity cannon fires a beam of gravitons that deals force damage. Any creature that takes damage from its blast and fails the resulting Reflex save is encased in a shell of force energy for 1d4 rounds, as if by a telekinetic sphere. You can use a gravity cannon to move a sphere so created (at a speed of 30 feet, up to a range of 300 feet away) as a move action - every round during which you move a sphere in this way consumes 1 charge from the gravity cannon, but also maintains the moved sphere's duration for an additional round.",
+			"**Gravity Cannon:** A gravity cannon fires a beam of gravitons that deals force damage. Any creature that takes damage from its blast and fails the resulting Reflex save is encased in a shell of force energy for 1d4 rounds, as if by a {spell/telekinetic sphere}. You can use a gravity cannon to move a sphere so created (at a speed of 30 feet, up to a range of 300 feet away) as a move action - every round during which you move a sphere in this way consumes 1 charge from the gravity cannon, but also maintains the moved sphere's duration for an additional round.",
 			"",
-			"In addition to the typical firing modes for a beam cannon, a gravity cannon can be fired on a sustained setting. When used in this mode, the gravity cannon can be used to move and manipulate objects from a distance, similar to the sustained force or combat maneuver versions of a telekinesis spell. (A gravity cannon can't duplicate the violent thrust option of a telekinesis spell.) The gravity cannon uses 1 charge per round in this mode, and can move objects weighing no more than 500 pounds up to 20 feet per round. A creature can negate this effect on an object in its possession with a successful DC 19 Reflex save. If used to perform a combat maneuver, the cannon uses the wielder's CMB + 8, but uses her Intelligence modifier in place of her Strength or Dexterity modifier. A gravity cannon is a technological artifact."
+			"In addition to the typical firing modes for a beam cannon, a gravity cannon can be fired on a sustained setting. When used in this mode, the gravity cannon can be used to move and manipulate objects from a distance, similar to the sustained force or combat maneuver versions of a {spell/telekinesis} spell. (A gravity cannon can't duplicate the violent thrust option of a telekinesis spell.) The gravity cannon uses 1 charge per round in this mode, and can move objects weighing no more than 500 pounds up to 20 feet per round. A creature can negate this effect on an object in its possession with a successful DC 19 Reflex save. If used to perform a combat maneuver, the cannon uses the wielder's CMB + 8, but uses her Intelligence modifier in place of her Strength or Dexterity modifier. A gravity cannon is a technological artifact."
 		]
 	},
+	"gravity_cannon": { "copyof": "beam_cannon_gravity_cannon" },
 	"compact_ai_core": {
 		"name": "Compact AI Core",
 		"sources": [ "Pathfinder #88: Valley of the Brain Collectors" ],
@@ -96,7 +97,7 @@
 			"",
 			"An AI can use a compact AI core to seize control of a robot to transform it into an aggregate, but no more often than one robot can be controlled at a time, and the compact AI core must remain within 60 feet of the aggregate or control is lost. An AI who attempts to seize control of a robot in this manner can do so as a standard action, and the target can resist the attempt with a successful Will save (DC = 10 + 1/2 the AI's CR + its Charisma modifier).",
 			"",
-			"A compact AI core has 3 sockets capable of accepting one memory facet each. A compact AI core consumes power at the rate of 1 charge per hour, but does not suffer any memory loss or damage if all 240 charges stored within it are consumed - once the compact AI core receives more energy, the AI within immediately regains the ability to interact with the world. While without power, an AI becomes dormant - it may experience something akin to strange dreams, but it cannot be communicated with and is not aware of the passage of time.",
+			"A compact AI core has 3 sockets capable of accepting one {tech-artifact/memory facet} each. A compact AI core consumes power at the rate of 1 charge per hour, but does not suffer any memory loss or damage if all 240 charges stored within it are consumed - once the compact AI core receives more energy, the AI within immediately regains the ability to interact with the world. While without power, an AI becomes dormant - it may experience something akin to strange dreams, but it cannot be communicated with and is not aware of the passage of time.",
 			"",
 			"A compact AI core has hardness 20 and 80 hit points. If a compact AI core becomes broken, the AI it contains takes a -2 penalty on all saving throws and skill checks. If a compact AI core is destroyed, any AI housed within is destroyed as well. A compact AI core that is destroyed can be repaired via a {spell/wish} or {spell/miracle}, or perhaps via complex technological machinery hidden deep in the most secure of Divinity's wreckage - but restoring an AI previously housed in the core to functionality requires a second miracle or wish - such an act is beyond even the machinery of Divinity."
 		]
@@ -111,24 +112,24 @@
 			"**Slot** none; **Weight** 2,500 lbs.  ",
 			"**Capacity** infinite; **Usage** see text",
 			"",
-			"The apex of Androffan technology, the Divinity Drive was the single most important piece of machinery on Divinity - important enough to inspire the ship's name. The drive was named for its unbelievable power - the closest to godlike energy that the people of Androffa had ever experienced. The Divinity Drive appears as nothing more than a 5-foot-diameter sphere of blue light, yet the mass generated by this sphere is significant. Enhancements made to the drive over the past several thousand years by Unity have reduced its mass significantly. It is contained within a series of circular arms of tempered adamantine - difficult to damage to begin with, but while the drive is infused with Unity's divine power, the entire structure is essentially indestructible.",
+			"The apex of Androffan technology, the Divinity Drive was the single most important piece of machinery on Divinity - important enough to inspire the ship's name. The drive was named for its unbelievable power - the closest to godlike energy that the people of Androffa had ever experienced. The Divinity Drive appears as nothing more than a 5-foot-diameter sphere of blue light, yet the mass generated by this sphere is significant. Enhancements made to the drive over the past several thousand years by Unity have reduced its mass significantly. It is contained within a series of circular arms of tempered {eq-material/adamantine} - difficult to damage to begin with, but while the drive is infused with Unity's divine power, the entire structure is essentially indestructible.",
 			"",
 			"The Divinity Drive's primary purpose was to create wormholes in space that would allow for swift travel over vast distances. Programming the Divinity Drive to open a wormhole can be accomplished only outside of significant gravitational fields - in high orbit around a planet or further out in space. A successful DC 25 Knowledge (engineering) check is required to program the wormhole's destination, a process which takes 2d6 days to complete. Every 5 points by which the check exceeds this DC reduces the number of days required by 1 (minimum 1). A wormhole can be torn open as an act of desperation in only 2d6 minutes with the same Knowledge (engineering) DC, but doing so causes the wormhole to open to a random point elsewhere in the Material Plane, and it damages the drive's wormhole function - which requires a large team of engineers or a dedicated AI to repair, and takes several years to complete.",
 			"",
-			"When created, the wormhole connects two points on the Material Plane, as if by gate. The wormhole measures 1 mile in diameter, and remains open for 24 hours (or until the Divinity Drive moves more than 100 miles away from the wormhole). It can be closed manually before this time expires with a successful DC 40 Knowledge (engineering) check. Any object not yet clear of the wormhole when it closes is cut into two parts separated by a vast distance (which generally results in death or destruction), though a creature can avoid this by succeeding at a DC 20 Reflex save to throw itself into one side or the other before the wormhole closes.",
+			"When created, the wormhole connects two points on the Material Plane, as if by {spell/gate}. The wormhole measures 1 mile in diameter, and remains open for 24 hours (or until the Divinity Drive moves more than 100 miles away from the wormhole). It can be closed manually before this time expires with a successful DC 40 Knowledge (engineering) check. Any object not yet clear of the wormhole when it closes is cut into two parts separated by a vast distance (which generally results in death or destruction), though a creature can avoid this by succeeding at a DC 20 Reflex save to throw itself into one side or the other before the wormhole closes.",
 			"",
 			"In time, Unity found another use for the Divinity Drive - the transformation of a virtual reality into a stable divine realm housed entirely within the code of Divinity's computer system. Today, the Divinity Drive functions as the linchpin for Unity's realm; as long as Unity exists, its realm and the Divinity Drive shall persist in this invulnerable state.",
 			"",
 			"The Divinity Drive has other astonishing effects as well as long as it functions, as summarized below.",
 			"",
-			"- All teleportation and extradimensional travel within Silver Mount (or within a 1-mile radius if the Divinity Drive is removed from Silver Mount) is suppressed, as if by a dimensional lock effect. A few teleportation effects (such as the teleporter between areas A15 and G6, and travel to and from the Godmind in area G5) are exempt from this. A successful DC 30 Knowledge (engineering) check allows someone who examines the Divinity Drive for 1d6 minutes to deactivate this effect, allowing teleportation to function normally, but the drive cannot be used to open wormholes while this effect is inactive.",
-			"- The Divinity Drive is a staggering source of power, and functions as a generator with infinite yield.",
+			"- All teleportation and extradimensional travel within Silver Mount (or within a 1-mile radius if the Divinity Drive is removed from Silver Mount) is suppressed, as if by a {spell/dimensional lock} effect. A few teleportation effects (such as the teleporter between areas A15 and G6, and travel to and from the Godmind in area G5) are exempt from this. A successful DC 30 Knowledge (engineering) check allows someone who examines the Divinity Drive for 1d6 minutes to deactivate this effect, allowing teleportation to function normally, but the drive cannot be used to open wormholes while this effect is inactive.",
+			"- The Divinity Drive is a staggering source of power, and functions as a [generator](rule/tech_artifacts) with infinite yield.",
 			"- The area in a 50-foot-radius {misc/spread} around the Divinity Drive is maintained at a constant temperature of extreme cold, and it actively leeches sources of heat from unshielded or unprotected sources. Living creatures in this area take 1d6 points of cold damage per round, and casting a spell with the fire descriptor requires a successful DC 25 caster level check to avoid having the spell automatically countered as its cast. Technological items that generate fire effects function normally in this area, but all existing fires are extinguished at the end of the round. Creatures with the fire subtype take 6d6 points of cold damage per round in this region (Fortitude DC 25 negates for that round).",
 			"- The Divinity Drive emits a constant, thunderous hum that imposes a -10 penalty on all Perception checks made within a 50-foot-radius spread.",
 			"",
 			"### Destruction",
 			"",
-			"If Unity is destroyed, the aura that protects the Divinity Drive fails. It can then be destroyed as a normal item (hardness 20, hp 1,200), which causes it to explode as if a graviton reactor, but with twice as much damage and double the radius."
+			"If Unity is destroyed, the aura that protects the Divinity Drive fails. It can then be destroyed as a normal item (hardness 20, hp 1,200), which causes it to explode as if a {tech-artifact/graviton reactor}, but with twice as much damage and double the radius."
 		]
 	},
 	"extinction_wave_device": {
@@ -141,16 +142,16 @@
 			"**Slot** none; **Weight** 1,000 lbs.  ",
 			"**Capacity** -; **Usage** -",
 			"",
-			"An extinction wave device is a devastating and ruinous weapon indeed. When activated by a remote {tech-misc/detonator}, this bomb explodes in a spherical wash of reality-warping radiation, killing virtually all living creatures with an Intelligence score in a 1-mile radius, while leaving structures and simple life forms intact. Affected creatures must attempt a DC 35 Will saving throw to avoid instant death; success results in 10d8 points of damage instead. Unlike signals, an extinction wave is not hampered by most solid barriers and other materials, but force barriers with 25 or more hit points and metals alloyed with djezet block it. An extinction wave is a mind-affecting death effect.",
+			"An extinction wave device is a devastating and ruinous weapon indeed. When activated by a remote {tech-misc/detonator}, this bomb explodes in a spherical wash of reality-warping radiation, killing virtually all living creatures with an Intelligence score in a 1-mile radius, while leaving structures and simple life forms intact. Affected creatures must attempt a DC 35 Will saving throw to avoid instant death; success results in 10d8 points of damage instead. Unlike signals, an extinction wave is not hampered by most solid barriers and other materials, but force barriers with 25 or more hit points and metals alloyed with {eq-material/djezet} block it. An extinction wave is a mind-affecting death effect.",
 			"",
 			"These statistics are for an extinction wave device designed to target command and control centers. Smaller and larger extinction wave devices exist. For example, a portable wave extinction device delivers a 1,000-foot-radius effect and weighs 50 pounds."
 		]
 	},
-	"memory_facet_aggression_ego_inhibitor": {
-		"name": "Memory facet (aggression, ego, inhibitor)",
+	"memory_facet": {
+		"name": "Memory facet",
 		"sources": [ "Pathfinder #86: Lords of Rust" ],
 		"description": [
-			"## Memory Facet (Aggression, Ego, Inhibitor)",
+			"## Memory Facet",
 			"",
 			"{SOURCE Pathfinder #86: Lords of Rust/62}  ",
 			"**Slot** none; **Weight** &mdash;  ",
@@ -160,87 +161,61 @@
 			"",
 			"Each memory facet contains a unique combination of emotions, knowledge, traits, and personality quirks designed to enhance and bolster an artificial intelligence's capabilities. In rare cases, destructive memory facets were created - items intended to disable or damage an artificial intelligence in case of emergencies. An AI immediately gains all of the advantages (and any disadvantages) associated with a particular memory facet as soon as it is installed (this is a full-round action). Memory facets can change an AI's personality or even its alignment. An AI can try to resist having a memory facet added to its code by attempting a DC 20 Will save. If the AI is successful, the memory facet ceases functioning for 1d4 rounds, and must be extracted and reinstalled to make a second attempt to changing the AI's code. Once installed, a memory facet is difficult to remove; removing one requires either a successful DC 25 Strength check to wrench free or a successful DC 30 Disable Device check. Both attempts are full-round actions.",
 			"",
-			"**Aggression Facet:** This memory facet enhances an AI's offensive protocols, imparting a +2 bonus on all attack rolls and weapon damage rolls, and granting {feat/Deadly Aim} and {feat/Power Attack} as bonus feats when the AI is controlling a robot.",
+			"::h3[Aggression Facet]{jl}",
 			"",
-			"**Ego Facet:** An ego facet bolsters an AI's sense of self-esteem and sense of worth, imparting a +2 bonus on all Fortitude saving throws and a +4 bonus on Intimidate checks, as well as granting {feat/Toughness} as a bonus feat when the AI is controlling a robot.",
+			"This memory facet enhances an AI's offensive protocols, imparting a +2 bonus on all attack rolls and weapon damage rolls, and granting {feat/Deadly Aim} and {feat/Power Attack} as bonus feats when the AI is controlling a robot.",
 			"",
-			"**Inhibitor Facet:** An inhibitor facet is unusual among memory facets in that it isn't intended to augment an AI at all, but rather to hinder and impair its functionality. When installed, an inhibitor facet reduces an AI's Charisma by 4 and imposes a -4 penalty on all skill checks, saving throws, initiative checks, and attack rolls. The effects of multiple inhibitor facets do not stack."
-		]
-	},
-	"memory_facet_compassion_ingenuity": {
-		"name": "Memory facet (compassion, ingenuity)",
-		"sources": [
-			"Pathfinder #86: Lords of Rust",
-			"Pathfinder #88: Valley of the Brain Collectors"
-		],
-		"description": [
-			"## Memory Facet (Compassion, Ingenuity)",
+			"::h3[Compassion Facet]{jl}",
 			"",
-			"{SOURCE Pathfinder #88: Valley of the Brain Collectors/62}  ",
-			"**Slot** none; **Weight** &mdash;  ",
-			"**Capacity** -; **Usage** -",
+			"A compassion facet allows an AI to understand and even experience love and associated emotions, imparting a +2 bonus on all Will saving throws and granting a +4 bonus on Diplomacy and Sense Motive checks. An AI with a compassion facet can form a strong emotional bond with a number of creatures equal to its CR as a standard action - once this bond is formed, the AI gains a +4 bonus on attack rolls and weapon damage rolls while controlling a robot and making attacks against a creature the AI has witnessed harming one of its bonded creatures within the last hour.",
 			"",
-			"A memory facet is a length of crystal about the size of a human thumb that's adorned at one end by a metal cap fitted with prongs and plugs. The crystal's interior contains sparkling veins of glittering light. A memory facet is a high-capacity storage device capable of containing a staggering amount of programming - these devices were rare and difficult to craft, and at the time Divinity began its mission, they were primarily used for one purpose: storing and transporting the staggeringly complex code required to program and enhance {rule/artificial intelligence/s}. To use a memory facet, one needs simply to insert the crystal's connectors into an appropriate slot in an AI's core processor or a robot under the AI's control. A core processor or robot can hold as many memory facets as it has available slots, but at any one time, an AI can benefit from a maximum number of memory facets equal to its CR divided by 4 (minimum 1). The AI can gain the benefits of memory facets installed in any of the robots and processors it controls - where a memory facet is installed makes little difference, but most AIs prefer to keep their memory facets installed in their most secure locations.",
+			"::h3[Creativity Facet]{jl}",
 			"",
-			"Each memory facet contains a unique combination of emotions, knowledge, traits, and personality quirks designed to enhance and bolster an artificial intelligence's capabilities. In rare cases, destructive memory facets were created - items intended to disable or damage an artificial intelligence in case of emergencies. An AI immediately gains all of the advantages (and any disadvantages) associated with a particular memory facet as soon as it is installed (this is a full-round action). Memory facets can change an AI's personality or even its alignment. An AI can try to resist having a memory facet added to its code by attempting a DC 20 Will save. If the AI is successful, the memory facet ceases functioning for 1d4 rounds, and must be extracted and reinstalled to make a second attempt to changing the AI's code. Once installed, a memory facet is difficult to remove; removing one requires either a successful DC 25 Strength check to wrench free or a successful DC 30 Disable Device check. Both attempts are full-round actions.",
+			"This memory facet enhances the AI's creativity and ability to react quickly to problems. It grants a +6 bonus to the AI's Charisma score and grants {feat/Improved Initiative} as a bonus feat.",
 			"",
-			"**Compassion Facet:** A compassion facet allows an AI to understand and even experience love and associated emotions, imparting a +2 bonus on all Will saving throws and granting a +4 bonus on Diplomacy and Sense Motive checks. An AI with a compassion facet can form a strong emotional bond with a number of creatures equal to its CR as a standard action - once this bond is formed, the AI gains a +4 bonus on attack rolls and weapon damage rolls while controlling a robot and making attacks against a creature the AI has witnessed harming one of its bonded creatures within the last hour.",
+			"::h3[Cruelty Facet]{jl}",
 			"",
-			"**Ingenuity Facet:** An ingenuity facet grants an AI insight into the construction and maintenance of technological items and robot maintenance. This facet grants a +4 bonus on Disable Device checks, as well as the {feat/Craft Technological Arms and Armor} and {feat/Craft Technological Item} feats. While the AI controls a robot, this facet given the AI the ability to repair 3d8+15 points of damage to any robot it can touch (including itself) as a full-round action at will, but only once per day for any given robot."
-		]
-	},
-	"memory_facet_creativity_cruelty_instinct_intuition_logic_psyche": {
-		"name": "Memory facet (creativity, cruelty, instinct, intuition, logic, psyche)",
-		"sources": [
-			"Pathfinder #86: Lords of Rust",
-			"Pathfinder #90: The Divinity Drive"
-		],
-		"description": [
-			"## Memory Facet (Creativity, Cruelty, Instinct, Intuition, Logic, Psyche)",
+			"This memory facet bolsters an AI's ability to do harm, granting a +4 bonus on all damage rolls. In addition, while the AI controls an {template/aggregate}, the facet grants the aggregate a rogue's {ability/sneak attack} ability (+2d6) and bleeding strike talent.",
 			"",
-			"{SOURCE Pathfinder #90: The Divinity Drive/61}  ",
-			"**Slot** none; **Weight** &mdash;  ",
-			"**Capacity** -; **Usage** -",
+			"::h3[Discipline Facet]{jl}",
 			"",
-			"A memory facet is a length of crystal about the size of a human thumb that's adorned at one end by a metal cap fitted with prongs and plugs. The crystal's interior contains sparkling veins of glittering light. A memory facet is a high-capacity storage device capable of containing a staggering amount of programming - these devices were rare and difficult to craft, and at the time Divinity began its mission, they were primarily used for one purpose: storing and transporting the staggeringly complex code required to program and enhance {rule/artificial intelligence/s}. To use a memory facet, one needs simply to insert the crystal's connectors into an appropriate slot in an AI's core processor or a robot under the AI's control. A core processor or robot can hold as many memory facets as it has available slots, but at any one time, an AI can benefit from a maximum number of memory facets equal to its CR divided by 4 (minimum 1). The AI can gain the benefits of memory facets installed in any of the robots and processors it controls - where a memory facet is installed makes little difference, but most AIs prefer to keep their memory facets installed in their most secure locations.",
+			"This memory facet bolsters an AI's thought and personality with rigid order and behavior, granting it a +2 enhancement bonus to its Intelligence score. In addition, the facet grants the AI the ability to bolster the programming of any robot within 30 feet as a swift action for a number of rounds per day equal to its CR. A bolstered robot gains a +2 circumstance bonus on attack rolls, weapon damage rolls, and Will saving throws. The AI can target an aggregate under its control with this effect.",
 			"",
-			"Each memory facet contains a unique combination of emotions, knowledge, traits, and personality quirks designed to enhance and bolster an artificial intelligence's capabilities. In rare cases, destructive memory facets were created - items intended to disable or damage an artificial intelligence in case of emergencies. An AI immediately gains all of the advantages (and any disadvantages) associated with a particular memory facet as soon as it is installed (this is a full-round action). Memory facets can change an AI's personality or even its alignment. An AI can try to resist having a memory facet added to its code by attempting a DC 20 Will save. If the AI is successful, the memory facet ceases functioning for 1d4 rounds, and must be extracted and reinstalled to make a second attempt to changing the AI's code. Once installed, a memory facet is difficult to remove; removing one requires either a successful DC 25 Strength check to wrench free or a successful DC 30 Disable Device check. Both attempts are full-round actions.",
+			"::h3[Ego Facet]{jl}",
 			"",
-			"**Creativity Facet:** This memory facet enhances the AI's creativity and ability to react quickly to problems. It grants a +6 bonus to the AI's Charisma score and grants {feat/Improved Initiative} as a bonus feat.",
+			"An ego facet bolsters an AI's sense of self-esteem and sense of worth, imparting a +2 bonus on all Fortitude saving throws and a +4 bonus on Intimidate checks, as well as granting {feat/Toughness} as a bonus feat when the AI is controlling a robot.",
 			"",
-			"**Cruelty Facet:** This memory facet bolsters an AI's ability to do harm, granting a +4 bonus on all damage rolls. In addition, while the AI controls an aggregate, the facet grants the aggregate a rogue's sneak attack ability (+2d6) and bleeding strike talent.",
+			"::h3[Entropy Facet]{jl}",
 			"",
-			"**Instinct Facet:** This memory facet enhances the AI's ability to act on instinct. It grants a +6 bonus to the AI's Wisdom score and grants {feat/Combat Reflexes} as a bonus feat. The AI can use either its Wisdom modifier or its aggregate's Dexterity modifier (its choice) to determine the number of attacks of opportunity this bonus feat grants.",
+			"This memory facet enhances an AI's capacity to understand and interpret chaos theory and probabilities, allowing it to more swiftly react to and mimic emotions. The facet grants a +2 enhancement bonus to the AI's Charisma score. In addition, up to three times per day when the AI rolls a d20, it can roll twice and take either result as an immediate action. This ability must be used after the first roll but before the results are revealed.",
 			"",
-			"**Intuition Facet:** An intuition facet bolsters the AI's processing speed by allowing it to use probability and intuition to make incredibly swift decisions. The facet grants a +2 bonus on all Reflex saving throws and Initiative checks, as well as granting {feat/Dodge} and {feat/Mobility} as bonus feats when the AI is in an aggregate.",
+			"::h3[Guile Facet]{jl}",
 			"",
-			"**Logic Facet:** This memory facet enhances the AI's ability to utilize logic. It grants a +6 bonus to the AI's Intelligence score and grants {feat/Combat Expertise} as a bonus feat.",
+			"This facet augments the AI's skills at deception and trickery. The facet grants a +4 bonus on Bluff checks. When the AI attempts a Sense Motive check to see through a Bluff, it rolls twice and takes the higher result. Finally, while the AI is controlling a robot, it gains {feat/Improved Feint} and {feat/Greater Feint} as bonus feats; it does not need to meet the prerequisites for those feats.",
 			"",
-			"**Psyche Facet:** A psyche facet bolsters a robot's sense of self and enhances its ability to resist peril and danger. It grants a +3 resistance bonus on all saving throws. In addition, once per day the AI can restore a destroyed robot to activity, as memory of function, using the AI's CR as the effective caster level."
-		]
-	},
-	"memory_facet_discipline_entropy_guile": {
-		"name": "Memory facet (discipline, entropy, guile)",
-		"sources": [
-			"Pathfinder #86: Lords of Rust",
-			"Pathfinder #89: Palace of Fallen Stars"
-		],
-		"description": [
-			"## Memory Facet (Discipline, Entropy, Guile)",
+			"::h3[Inhibitor Facet]{jl}",
 			"",
-			"{SOURCE Pathfinder #89: Palace of Fallen Stars/63}  ",
-			"**Slot** none; **Weight** &mdash;  ",
-			"**Capacity** -; **Usage** -",
+			"An inhibitor facet is unusual among memory facets in that it isn't intended to augment an AI at all, but rather to hinder and impair its functionality. When installed, an inhibitor facet reduces an AI's Charisma by 4 and imposes a -4 penalty on all skill checks, saving throws, initiative checks, and attack rolls. The effects of multiple inhibitor facets do not stack.",
 			"",
-			"A memory facet is a length of crystal about the size of a human thumb that's adorned at one end by a metal cap fitted with prongs and plugs. The crystal's interior contains sparkling veins of glittering light. A memory facet is a high-capacity storage device capable of containing a staggering amount of programming - these devices were rare and difficult to craft, and at the time Divinity began its mission, they were primarily used for one purpose: storing and transporting the staggeringly complex code required to program and enhance {rule/artificial intelligence/s}. To use a memory facet, one needs simply to insert the crystal's connectors into an appropriate slot in an AI's core processor or a robot under the AI's control. A core processor or robot can hold as many memory facets as it has available slots, but at any one time, an AI can benefit from a maximum number of memory facets equal to its CR divided by 4 (minimum 1). The AI can gain the benefits of memory facets installed in any of the robots and processors it controls - where a memory facet is installed makes little difference, but most AIs prefer to keep their memory facets installed in their most secure locations.",
+			"::h3[Ingenuity Facet]{jl}",
 			"",
-			"Each memory facet contains a unique combination of emotions, knowledge, traits, and personality quirks designed to enhance and bolster an artificial intelligence's capabilities. In rare cases, destructive memory facets were created - items intended to disable or damage an artificial intelligence in case of emergencies. An AI immediately gains all of the advantages (and any disadvantages) associated with a particular memory facet as soon as it is installed (this is a full-round action). Memory facets can change an AI's personality or even its alignment. An AI can try to resist having a memory facet added to its code by attempting a DC 20 Will save. If the AI is successful, the memory facet ceases functioning for 1d4 rounds, and must be extracted and reinstalled to make a second attempt to changing the AI's code. Once installed, a memory facet is difficult to remove; removing one requires either a successful DC 25 Strength check to wrench free or a successful DC 30 Disable Device check. Both attempts are full-round actions.",
+			"An ingenuity facet grants an AI insight into the construction and maintenance of technological items and robot maintenance. This facet grants a +4 bonus on Disable Device checks, as well as the {feat/Craft Technological Arms and Armor} and {feat/Craft Technological Item} feats. While the AI controls a robot, this facet given the AI the ability to repair 3d8+15 points of damage to any robot it can touch (including itself) as a full-round action at will, but only once per day for any given robot.",
 			"",
-			"**Discipline Facet:** This memory facet bolsters an AI's thought and personality with rigid order and behavior, granting it a +2 enhancement bonus to its Intelligence score. In addition, the facet grants the AI the ability to bolster the programming of any robot within 30 feet as a swift action for a number of rounds per day equal to its CR. A bolstered robot gains a +2 circumstance bonus on attack rolls, weapon damage rolls, and Will saving throws. The AI can target an aggregate under its control with this effect.",
+			"::h3[Instinct Facet]{jl}",
 			"",
-			"**Entropy Facet:** This memory facet enhances an AI's capacity to understand and interpret chaos theory and probabilities, allowing it to more swiftly react to and mimic emotions. The facet grants a +2 enhancement bonus to the AI's Charisma score. In addition, up to three times per day when the AI rolls a d20, it can roll twice and take either result as an immediate action. This ability must be used after the first roll but before the results are revealed.",
+			"This memory facet enhances the AI's ability to act on instinct. It grants a +6 bonus to the AI's Wisdom score and grants {feat/Combat Reflexes} as a bonus feat. The AI can use either its Wisdom modifier or its aggregate's Dexterity modifier (its choice) to determine the number of attacks of opportunity this bonus feat grants.",
 			"",
-			"**Guile Facet:** This facet augments the AI's skills at deception and trickery. The facet grants a +4 bonus on Bluff checks. When the AI attempts a Sense Motive check to see through a Bluff, it rolls twice and takes the higher result. Finally, while the AI is controlling a robot, it gains {feat/Improved Feint} and {feat/Greater Feint} as bonus feats; it does not need to meet the prerequisites for those feats."
+			"::h3[Intuition Facet]{jl}",
+			"",
+			"An intuition facet bolsters the AI's processing speed by allowing it to use probability and intuition to make incredibly swift decisions. The facet grants a +2 bonus on all Reflex saving throws and Initiative checks, as well as granting {feat/Dodge} and {feat/Mobility} as bonus feats when the AI is in an aggregate.",
+			"",
+			"::h3[Logic Facet]{jl}",
+			"",
+			"This memory facet enhances the AI's ability to utilize logic. It grants a +6 bonus to the AI's Intelligence score and grants {feat/Combat Expertise} as a bonus feat.",
+			"",
+			"::h3[Psyche Facet]{jl}",
+			"",
+			"A psyche facet bolsters a robot's sense of self and enhances its ability to resist peril and danger. It grants a +3 resistance bonus on all saving throws. In addition, once per day the AI can restore a destroyed robot to activity, as {spell/memory of function}, using the AI's CR as the effective caster level."
 		]
 	},
 	"power_relay": {
@@ -253,17 +228,17 @@
 			"**Slot** none; **Weight** 50 lbs.  ",
 			"**Capacity** 10; **Usage** special",
 			"",
-			"A power relay is a valuable device that allows the long-distance transmission of energy from a nearby generator to a device that can make use of it. Every power generator has a built-in power transmitter that allows for the transmission of power to a nearby power receiver, but an external power relay is required to send this energy beyond the generator's limitations. A power relay consumes 10 charges when it is activated (this is a full-round action), after which it automatically links to the closest generator within 1,000 feet that has an available yield. This distance is halved for every 5 feet of metal or 20 feet of solid stone between the generator and the power relay. (The power relay in \"Fires of Creation\" is just barely in range of the engineering deck reactor as a result.)",
+			"A power relay is a valuable device that allows the long-distance transmission of energy from a nearby generator to a device that can make use of it. Every {tech-artifact/power generator} has a built-in power transmitter that allows for the transmission of power to a nearby power receiver, but an external power relay is required to send this energy beyond the generator's limitations. A power relay consumes 10 charges when it is activated (this is a full-round action), after which it automatically links to the closest generator within 1,000 feet that has an available yield. This distance is halved for every 5 feet of metal or 20 feet of solid stone between the generator and the power relay. (The power relay in \"Fires of Creation\" is just barely in range of the engineering deck reactor as a result.)",
 			"",
 			"The power relay consumes 1 charge of the generator's available yield per hour to maintain its own power supplies, and can be programmed to transmit any remaining charges of available yield to any object capable of receiving broadcast power, to a maximum distance of 150 miles. This distance is halved for every 5 feet of metal or 20 feet of solid stone between the generator and the power relay. (As a result, Hellion has had to use a receiver array in Scrapwall, since the object he intends to charge is underground and farther than 75 miles away).",
 			"",
 			"Power transmitted by this device is lost unless the device is programmed to transmit to a specific target capable of accepting a charge in range. Before a power relay can transmit, it must be linked to the target of its transmission to establish the transmission protocols. This consumes 10 charges and takes 1 minute to complete. Once completed, the distance between the power relay and the target of its transmissions can vary up to its maximum range. A small screen on the side of the power relay provides constant updates on the link, including bearings, distances, and the nature of the object to which it is linked. In the case of the power relay in this volume's adventure, that bearing and distance leads directly to Scrapwall - further information about this can be found in the next adventure, \"Lords of Rust.\"",
 			"",
-			"This device essentially functions as a power generator that provides an hourly yield of charges to its target. For example, if a power relay that provided a yield of 40 charges was linked to a laser pistol, that laser pistol could be fired 40 times per hour without needing an additional charge.",
+			"This device essentially functions as a power generator that provides an hourly yield of charges to its target. For example, if a power relay that provided a yield of 40 charges was linked to a {tech-weapon/laser pistol}, that laser pistol could be fired 40 times per hour without needing an additional charge.",
 			"",
 			"Power relays can only function a limited number of times before their delicate internal mechanisms burn out. Each time a power relay is used to initiate a new energy transfer, there's a cumulative 2% chance it burns out and becomes useless. Once a new transfer begins, a power relay can maintain that link between the generator and its target indefinitely (as long as there's always an available yield of at least 1 charge from the generator to keep itself powered). The power relay in this adventure has been used several times - the chance of burning out on its next activation is already at 50%.",
 			"",
-			"Note that a power relay has built-in signal boosters, and thus the range of its transmissions cannot be further increased through the use of additional signal boosters."
+			"Note that a power relay has built-in {tech-misc/signal booster/s}, and thus the range of its transmissions cannot be further increased through the use of additional signal boosters."
 		]
 	},
 	"powered_armor": {
@@ -295,13 +270,13 @@
 			"- {tech-misc/Fire extinguisher} mounted on the left wrist.",
 			"- {tech-misc/Flashlight} mounted on the helmet.",
 			"- Gloves that can function as {tech-misc/grippers}.",
-			"- {tech-weapon/Laser pistol} mounted on the right forearm that leaves the hand free. Firing this laser pistol is always considered an off-hand attack, and the number of times it can be fired cannot be increased by feats like Improved Two Weapon Fighting.",
+			"- {tech-weapon/Laser pistol} mounted on the right forearm that leaves the hand free. Firing this laser pistol is always considered an off-hand attack, and the number of times it can be fired cannot be increased by feats like {feat/Improved Two Weapon Fighting}.",
 			"- {tech-misc/Magboots}.",
-			"- {tech-misc/Three |medlance/s}. Each medlance can be loaded with a single potion or pharmaceutical; activating an integrated medlance is an immediate action.",
+			"- Three {tech-misc/medlance/s}. Each medlance can be loaded with a single potion or pharmaceutical; activating an integrated medlance is an immediate action.",
 			"- {tech-misc/Power receiver}.",
-			"- [Prismatic force field](tech-misc/force_field_prismatic) located on hips; activating this force field is a swift action.",
+			"- {tech-misc/Prismatic force field} located on hips; activating this force field is a swift action.",
 			"- {tech-misc/Radiation detector} on the right wrist.",
-			"- [Custom veemods](tech-misc/veemod_black) in the visor grant a +10 bonus on Perception checks, low light vision, darkvision up to 120 feet, and all-around vision.",
+			"- Custom {tech-misc/veemod/s>_brown} in the visor grant a +10 bonus on Perception checks, low light vision, darkvision up to 120 feet, and all-around vision.",
 			"",
 			"Rumors persist of variant forms of powered armor, including suits sized for giants or that can function as vehicles for multiple creatures."
 		]
@@ -339,7 +314,7 @@
 			"",
 			"Each time a rebirthing chamber is used, there is a 10% chance its nanite reconstruction fails, leaving the host dead and without remains. Only a {spell/miracle}, {spell/true resurrection}, or {spell/wish} can restore such a hapless victim. The nanite reservoir contains sufficient nanites for five rebirths, assuming it hasn't been previously used.",
 			"",
-			"A rebirthing chamber only works on humanoids and humanoid corporeal undead. It can even restore life to a long-dead corpse, so long as usable genetic information remains, but with a 25% chance of failure instead of 10%. For each day that passed without preservation such as gentle repose, the revived creature loses roughly 10% of its memories and gains 1 permanent negative level. If the negative levels gained exceed the creature's level, the revival fails. Intelligent corporeal undead retain their memories after revival, but lose all undead abilities and regain their original statistics and abilities from their time among the living. Effects that restore these negative levels also restore these lost memories.",
+			"A rebirthing chamber only works on humanoids and humanoid corporeal undead. It can even restore life to a long-dead corpse, so long as usable genetic information remains, but with a 25% chance of failure instead of 10%. For each day that passed without preservation such as {spell/gentle repose}, the revived creature loses roughly 10% of its memories and gains 1 permanent negative level. If the negative levels gained exceed the creature's level, the revival fails. Intelligent corporeal undead retain their memories after revival, but lose all undead abilities and regain their original statistics and abilities from their time among the living. Effects that restore these negative levels also restore these lost memories.",
 			"",
 			"Attempts to rebirth a creature without a soul invariably fail, as do attempts to rebirth a creature from partial remains while the creature is still alive. A body is created and draws breath, but lacks any intellect and dies 2d6 hours after the process completed."
 		]
@@ -358,7 +333,25 @@
 			"",
 			"If a temporal accelerator is activated more than once in a 24-hour period, the wearer takes an additional 2d4 points of Constitution and Intelligence damage in addition to the Constitution drain at the end of the device's effect, and loses an additional 10 years of life expectancy instead of 5 for activating the device. A successful DC 25 Fortitude save reduces the ability damage by half. The ability damage increases by 1d4 and the save DC increases by 5 for each activation beyond the second in a 24-hour period.",
 			"",
-			"A temporal accelerator can be disarmed or sundered with a disarm or sunder combat maneuver. It has hardness 10 and 5 hit points. Destroying or ripping away an attached temporal accelerator causes 1d8 points of Intelligence damage to the wearer, in additional to ending the effects of the device if active at the time."
+			"A temporal accelerator can be disarmed or sundered with a {rule/disarm} or {rule/sunder} combat maneuver. It has hardness 10 and 5 hit points. Destroying or ripping away an attached temporal accelerator causes 1d8 points of Intelligence damage to the wearer, in additional to ending the effects of the device if active at the time."
+		]
+	},
+	"power_generator": {
+		"name": "Power Generator",
+		"sources": [],
+		"description": [
+			"### Power Generator",
+			"",
+			"Power generators are a specific type of technological artifact capable of providing large amounts of sustained energy, and that can supply charges to entire compounds. Every robot has a dedicated power generator within it that provides enough energy to run that robot and nothing more. Generators that are free-standing devices or built into complexes can be used to charge technological items capable of being recharged. A device hooked directly to a functioning power generator uses the generator's energy rather than its own stored energy.",
+			"",
+			"Full rules on generators [can be found here](rule/tech_artifacts).",
+			"",
+			"- {tech-artifact/Divinity Drive}",
+			"- {tech-artifact/Fission Reactor}",
+			"- {tech-artifact/Fusion Reactor}",
+			"- {tech-artifact/Geothermal Generator}",
+			"- {tech-artifact/Graviton Reactor}",
+			"- {tech-artifact/Solar Generator}"
 		]
 	},
 	"fission_reactor": {
@@ -368,7 +361,7 @@
 			"## Fission Reactor",
 			"",
 			"{SOURCE Technology Guide/63}  ",
-			"**Yield** 1,000; **Fort** +2; **Hardness** 10; **HP** 1,500; **Explosion** 20d10 bludgeoning and 20d10 fire plus severe radiation (250-ft. radius; Reflex DC 20 half); **Perception Penalty** -10",
+			"**Yield** 1,000; **Fort** +2; **Hardness** 10; **HP** 1,500; **Explosion** 20d10 bludgeoning and 20d10 fire plus severe {rule/radiation} (250-ft. radius; Reflex DC 20 half); **Perception Penalty** -10",
 			"",
 			"A fission reactor harnesses power from nuclear energy gathered by processing and consuming radioactive fuel. Once activated, a fission reactor can function for many years before its radioactive fuel must be replaced. The core of a fission reactor is constantly irradiated at a high level of radioactivity; the bulk of the reactor actually consists of shielding meant to protect those nearby from radiation poisoning. If a fission generator explodes, it inundates its blast radius with severe radiation. These generators are relatively rare: while they produce the highest yield of all generators, the incredible damage they can do if they do explode often means that safety-minded operators find them suitable only for remote, unmanned operations."
 		]
@@ -382,7 +375,7 @@
 			"{SOURCE Technology Guide/63}  ",
 			"**Yield** 500; **Fort** +10; **Hardness** 10; **HP** 1,800; **Explosion** 10d6 bludgeoning and 10d6 fire and 10d6 electricity (100-ft. radius; Reflex DC 20 half); **Perception Penalty** -10",
 			"",
-			"Although fusion reactors are superficially similar to fission reactors, the fact that their source of fuel is little more than seawater makes them much safer to operate."
+			"Although fusion reactors are superficially similar to {tech-artifact/fission reactor/s}, the fact that their source of fuel is little more than seawater makes them much safer to operate."
 		]
 	},
 	"geothermal_generator": {
@@ -404,7 +397,7 @@
 			"## Graviton Reactor",
 			"",
 			"{SOURCE Technology Guide/63}  ",
-			"**Yield** 800; **Fort** +14; **Hardness** 20; **HP** 2,500; **Explosion** 10d6 bludgeoning,10d6 electricity, and 20d6 force (50-ft. radius; Reflex DC 20 half; see text); **Perception Penalty** -2",
+			"**Yield** 800; **Fort** +14; **Hardness** 20; **HP** 2,500; **Explosion** 10d6 bludgeoning, 10d6 electricity, and 20d6 force (50-ft. radius; Reflex DC 20 half; see text); **Perception Penalty** -2",
 			"",
 			"A graviton reactor produce tremendous amounts of energy. It's fairly quiet while running, generating little more than a low-frequency hum. Damage caused by a graviton reactor explosion consists of an implosion rather than a classic explosion. On the round following this implosion, all objects and creatures in the blast radius suffer the explosion damage again as they are then hurled back outward. No radiation is generated by a graviton reactor, and creatures and objects outside the blast radius can escape relatively unharmed (apart from possible damage resulting from objects that are hurled beyond the blast radius)."
 		]
