@@ -322,7 +322,7 @@
 			"",
 			":HL[Brace:] If you use a readied action to set a brace weapon against a charge, you deal double damage on a successful hit against a charging character.",
 			"",
-			":HL[Broken:] Items that have taken damage in excess of half their total hit points gain the {rule/broken /condition>and_fragile}, meaning they are less effective at their designated task. Attacks made with a broken weapon suffer a -2 penalty on attack and damage rolls. Such weapons only score a critical hit on a natural 20 and only deal &times;2 damage on a confirmed critical hit. Both firearms and *fragile* weapons (see below) include effects that grant a weapon the broken condition without the weapon explicitly taking damage.",
+			":HL[Broken:] Items that have taken damage in excess of half their total hit points gain the {misc/broken} condition, meaning they are less effective at their designated task. Attacks made with a broken weapon suffer a -2 penalty on attack and damage rolls. Such weapons only score a critical hit on a natural 20 and only deal &times;2 damage on a confirmed critical hit. Both firearms and *fragile* weapons (see below) include effects that grant a weapon the broken condition without the weapon explicitly taking damage.",
 			"",
 			"If a weapon gains the broken condition from an effect, that weapon is considered to have taken damage equal to half its hit points +1. This damage is repaired either by something that addresses the effect that granted the weapon the broken condition (like quick clear in the case of firearm misfires or the {feat/Field Repair} feat in the case of weapons with the fragile quality) or by the normal method for recovering item hit points (detailed in the broken condition description). When an effect that grants the broken condition is removed, the weapon regains the hit points it lost when the broken condition was applied.",
 			"",
@@ -965,7 +965,7 @@
 			"",
 			"A magic item doesn't need to make a saving throw unless it is unattended, it is specifically targeted by the effect, or its wielder rolls a natural 1 on his save. Magic items should always get a saving throw against spells that might deal damage to them - even against attacks from which a nonmagical item would normally get no chance to save. Magic items use the same saving throw bonus for all saves, no matter what the type (Fortitude, Reflex, or Will). A magic item's saving throw bonus equals 2 + 1/2 its caster level (rounded down). The only exceptions to this are intelligent magic items, which make Will saves based on their own Wisdom scores.",
 			"",
-			"Magic items, unless otherwise noted, take damage as nonmagical items of the same sort. A damaged magic item continues to function, but if it is destroyed, all its magical power is lost. Magic items that take damage in excess of half their total hit points, but not more than their total hit points, gain the [broken condition](rule/broken_and_fragile), and might not function properly."
+			"Magic items, unless otherwise noted, take damage as nonmagical items of the same sort. A damaged magic item continues to function, but if it is destroyed, all its magical power is lost. Magic items that take damage in excess of half their total hit points, but not more than their total hit points, gain the {misc/broken/ condition}, and might not function properly."
 		],
 		"parent_topics": [
 			"basics",

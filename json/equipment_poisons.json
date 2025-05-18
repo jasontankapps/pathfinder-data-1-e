@@ -153,7 +153,7 @@
 			"**Price** N/A; **Weight** &mdash;  ",
 			"**Type** contact or inhaled; **Save** Fortitude DC 18  ",
 			"**Frequency** 1/round for 6 rounds  ",
-			"**Effect** 1d2 Con damage, {misc/blind/ness} and {misc/nausea} for 1d10 minutes  ",
+			"**Effect** 1d2 Con damage, {misc/blindness} and {misc/nausea} for 1d10 minutes  ",
 			"**Cure** 2 consecutive saves",
 			"",
 			"This caustic substance is a poisonous irritant, and reacts with water (including moisture in the eyes, nose, mouth, and lungs) to create heat."
@@ -726,7 +726,7 @@
 			"**Price** 150 gp; **Weight** &mdash;  ",
 			"**Type** ingested; **Save** Fortitude DC 16  ",
 			"**Onset** 4d6 hours; **Frequency** 1/hour for 8 hours  ",
-			"**Effect** 1d2 Str damage. Additionally, as long as a creature is suffering from draughtcap fungus, its body is unable to process liquids, causing the creature to undergo the effects of dehydration no matter how much it drinks and preventing the creature from benefitting from potions, extracts, and other such items. After the failed initial save, the creature counts as if it had gone without water for 1 day. Further, each failed ongoing save causes the creature to be treated as though it had gone an additional hour without consuming water.  ",
+			"**Effect** 1d2 Str damage. Additionally, as long as a creature is suffering from draughtcap fungus, its body is unable to process liquids, causing the creature to undergo the effects of [dehydration](rule/starvation_and_thirst) no matter how much it drinks and preventing the creature from benefitting from potions, extracts, and other such items. After the failed initial save, the creature counts as if it had gone without water for 1 day. Further, each failed ongoing save causes the creature to be treated as though it had gone an additional hour without consuming water.  ",
 			"**Cure** 2 consecutive saves",
 			"",
 			"This yellow-brown mushroom is commonly found in deserts and other dry environments. Its spores absorb moisture at an incredible rate, wreaking havoc on the body of any creature foolish enough to consume it. Draughtcap fungus bears a close resemblance to a common edible mushroom, and a successful DC 20 Knowledge (nature) or Survival check is required to differentiate the two."
@@ -743,7 +743,7 @@
 			"**Price** 150 gp; **Weight** 1/2 lb.  ",
 			"**Type** inhaled; **Save** Fortitude DC 17  ",
 			"**Onset** injury or affected by any fear condition or effect; **Frequency** 1/minute for 4 minutes  ",
-			"**Initial Effect** shaken for 10 minutes (this can't produce a more severe fear effect); **Secondary Effect** 1d2 Wisdom damage  ",
+			"**Initial Effect** {misc/shaken} for 10 minutes (this can't produce a more severe fear effect); **Secondary Effect** 1d2 Wisdom damage  ",
 			"**Cure** 1 save",
 			"",
 			"This poison is the creation of the Guild of Wonders in Absalom, whose members hunt down and intimidate their enemies."
@@ -763,7 +763,7 @@
 			"**Price** 150 gp; **Weight** &mdash;  ",
 			"**Type** injury; **Save** Fortitude DC 14  ",
 			"**Frequency** 1/round for 4 rounds  ",
-			"**Effect** 1d2 Str damage, target can attempt one save to cure a lycanthropy affliction contracted in the past hour  ",
+			"**Effect** 1d2 Str damage, target can attempt one save to cure a {corruption/lycanthropy} affliction contracted in the past hour  ",
 			"**Cure** 1 save"
 		]
 	},
@@ -781,7 +781,7 @@
 			"**Effect** 1d4 Strength damage and suffocation (see text)  ",
 			"**Cure** 1 save",
 			"",
-			"This iridescent toxin is made from the crushed shells of a rare type of Osirian beetle. A creature reduced to 0 Strength by the poison asphyxiates and immediately begins suffocating. Creatures that do not breathe are immune to this suffocation, but not the Strength damage."
+			"This iridescent toxin is made from the crushed shells of a rare type of Osirian beetle. A creature reduced to 0 Strength by the poison asphyxiates and immediately begins {rule/suffocati/ng>on}. Creatures that do not breathe are immune to this suffocation, but not the Strength damage."
 		]
 	},
 	"alchemical_isolation": {
@@ -795,7 +795,7 @@
 			"**Price** 175 gp; **Weight** 1 lb.  ",
 			"**Type** inhaled; **Save** Fortitude DC 13  ",
 			"**Frequency** 1/minute for 2 minutes  ",
-			"**Initial Effect** deafened for 10 minutes; **Secondary Effect** blinded for 10 minutes  ",
+			"**Initial Effect** {misc/deafened} for 10 minutes; **Secondary Effect** {misc/blinded} for 10 minutes  ",
 			"**Cure** 1 save",
 			"",
 			"**{rule/Spontaneous Alchemy} Recipe** (150 {eq-reagent/brimstone} + 20 {eq-reagent/dew of lunary} + 80 {eq-reagent/spirit of wine})/fermentation; **Craft** DC 13  ",
@@ -868,7 +868,7 @@
 			"**Initial Effect** enter a deathlike trance for 1 minute; see below; **Secondary Effect** remain in this deathlike trance for 8 hours  ",
 			"**Cure** 1 save",
 			"",
-			"This poison is culled from specially bred thornapples, and is often administered on the skin of an apple itself. It is typically employed to fake the deaths of dissidents so their disappearances don't attract attention. Creatures in the deathlike trance this poison causes are unconscious and can't be woken by mundane means; a successful DC 25 Heal check is required to realize the victim is alive. The victim can be shaken from this trance with any magical healing (including lesser restoration, as appropriate)."
+			"This poison is culled from specially bred {eq-poison/thornapple/s}, and is often administered on the skin of an apple itself. It is typically employed to fake the deaths of dissidents so their disappearances don't attract attention. Creatures in the deathlike trance this poison causes are {misc/unconscious} and can't be woken by mundane means; a successful DC 25 Heal check is required to realize the victim is alive. The victim can be shaken from this trance with any magical healing (including {spell/lesser restoration}, as appropriate)."
 		]
 	},
 	"hazemind_concentrate": {
@@ -900,7 +900,7 @@
 			"**Price** 200 gp; **Weight** &mdash;  ",
 			"**Type** injury; **Save** Fortitude DC 17  ",
 			"**Frequency** 1/round for 6 rounds  ",
-			"**Effect** 1d2 Str damage, target can attempt one save to cure a lycanthropy affliction contracted in the past hour  ",
+			"**Effect** 1d2 Str damage, target can attempt one save to cure a {corruption/lycanthropy} affliction contracted in the past hour  ",
 			"**Cure** 1 save"
 		]
 	},
@@ -966,7 +966,7 @@
 			"**Effect** 1d2 Wis damage. Additionally, the creature has double vision, imposing a 50% miss chance on its attacks against all opponents. Blind creatures are unaffected by this additional effect  ",
 			"**Cure** 1 save",
 			"",
-			"{arc-oracle/Pei Zin>_practitioner} herbalists accidentally created diplopic serum while attempting to devise a treatment for cataracts. Derived from dew of lunary, this aromatic pink serum temporarily affects a creature's vision systems, in addition to temporarily impairing its mental faculties."
+			"{arc-oracle/Pei Zin>_practitioner} herbalists accidentally created diplopic serum while attempting to devise a treatment for cataracts. Derived from {eq-reagent/dew of lunary}, this aromatic pink serum temporarily affects a creature's vision systems, in addition to temporarily impairing its mental faculties."
 		]
 	},
 	"malyass_root_paste": {
@@ -1036,7 +1036,7 @@
 			"**Effect** 1d2 Con and 1d3 bleed  ",
 			"**Cure** 2 saves",
 			"",
-			"Blackfingers's salt can easily be hidden in all foods and beverages, as it lacks color, odor, and, despite the name, flavor. Soon after consuming this dastardly poison, a creature develops painful, bleeding ulcers throughout its stomach and esophagus. Followers of Norgorber originally developed the salt to mimic targets suffering a medical emergency and thus avoid suspicion of poisoning."
+			"Blackfingers's salt can easily be hidden in all foods and beverages, as it lacks color, odor, and, despite the name, flavor. Soon after consuming this dastardly poison, a creature develops painful, bleeding ulcers throughout its stomach and esophagus. Followers of {faith/Norgorber} originally developed the salt to mimic targets suffering a medical emergency and thus avoid suspicion of poisoning."
 		]
 	},
 	"sassone_leaf_residue": {
@@ -1068,7 +1068,7 @@
 			"**Price** 300 gp; **Weight** &mdash;  ",
 			"**Type** injury; **Save** Fortitude DC 18  ",
 			"**Frequency** 1/round for 6 rounds  ",
-			"**Effect** This poison causes the affected creature to be sluggish and slow to react. The target takes 1d2 points of Dexterity damage and is flat-footed until the beginning of her next turn  ",
+			"**Effect** This poison causes the affected creature to be sluggish and slow to react. The target takes 1d2 points of Dexterity damage and is {rule/flat-footed} until the beginning of her next turn  ",
 			"**Cure** 1 save"
 		]
 	},
@@ -1155,7 +1155,7 @@
 			"**Effect** unable to speak (even to cast spells) for 1 round  ",
 			"**Cure** 1 save",
 			"",
-			"This poison is typically used by cultists of Norgorber to silence those who might tell secrets they want kept."
+			"This poison is typically used by cultists of {faith/Norgorber} to silence those who might tell secrets they want kept."
 		]
 	},
 	"bloodbrain_venom": {
@@ -1343,7 +1343,7 @@
 			"**Effect** 1d2 Dexterity damage  ",
 			"**Cure** 2 saves",
 			"",
-			"This poison is traditionally brewed as part of Calistrian revenge plots against traitorous lovers."
+			"This poison is traditionally brewed as part of {faith/Calistria/n} revenge plots against traitorous lovers."
 		]
 	},
 	"fiddleback_venom": {
@@ -1375,7 +1375,7 @@
 			"**Initial Effect** distraction (see text); **Secondary Effect** 1d4 Wisdom damage  ",
 			"**Cure** 2 consectutive saves",
 			"",
-			"Extracted from mushrooms that grow commonly in caves and forests, this toxin is occasionally used as a recreational drug despite its dangerous side effects. A creature that fails its initial saving throws sees displaced auras of color and light around other creatures and objects. The creature treats all targets as if they had concealment, suffering a 20% miss chance on all attack rolls until the creature is cured or the poison has run its course."
+			"Extracted from mushrooms that grow commonly in caves and forests, this toxin is occasionally used as a recreational drug despite its dangerous side effects. A creature that fails its initial saving throws sees displaced auras of color and light around other creatures and objects. The creature treats all targets as if they had {rule/concealment}, suffering a 20% miss chance on all attack rolls until the creature is cured or the poison has run its course."
 		]
 	},
 	"laughing_gas": {
@@ -1389,7 +1389,7 @@
 			"**Price** 500 gp; **Weight** 1/2 lb.  ",
 			"**Type** inhaled; **Save** Fortitude DC 12  ",
 			"**Onset** immediate; **Frequency** 1/round for 5 rounds  ",
-			"**Effect** The subject experiences a bout of uncontrollable laughter and is dazed for 1 round  ",
+			"**Effect** The subject experiences a bout of uncontrollable laughter and is {misc/dazed} for 1 round  ",
 			"**Cure** 1 save"
 		]
 	},
@@ -1445,7 +1445,7 @@
 			"**Effect** uncontrollble laughter (as per {spell/hideous laughter})  ",
 			"**Cure** 2 consecutive saves",
 			"",
-			"The short and thorny jackalroot grows in desert climates, typically under the partial shade of ridges or boulders. It is identifiable by its pale green berries, which it bears twice per year. To followers of Lamashtu, the gnarled, prickle-covered jackalroot is a blessing. The roots of this hearty desert shrub contain a potent, incapacitating ichor often used by gnolls in religious ceremonies and when capturing slaves."
+			"The short and thorny jackalroot grows in desert climates, typically under the partial shade of ridges or boulders. It is identifiable by its pale green berries, which it bears twice per year. To followers of {faith/Lamashtu}, the gnarled, prickle-covered jackalroot is a blessing. The roots of this hearty desert shrub contain a potent, incapacitating ichor often used by gnolls in religious ceremonies and when capturing slaves."
 		]
 	},
 	"smell_of_fear": {
@@ -1459,7 +1459,7 @@
 			"**Price** 600 gp; **Weight** 1/2 lb.  ",
 			"**Type** inhaled; **Save** Fortitude DC 17  ",
 			"**Frequency** 1/minute for 6 minutes  ",
-			"**Effect** 1d2 Wis damage, and if the victim would become shaken during the next 1 minute, she becomes frightened instead  ",
+			"**Effect** 1d2 Wis damage, and if the victim would become {misc/shaken} during the next 1 minute, she becomes {misc/frightened} instead  ",
 			"**Cure** 2 saves",
 			"",
 			"**{rule/Spontaneous Alchemy} Recipe** (170 {eq-reagent/quicksilver} + 170 {eq-reagent/realgar})/fermentation; **Craft** DC 17  ",
@@ -1477,7 +1477,7 @@
 			"**Price** 600 gp; **Weight** &mdash;  ",
 			"**Type** injury; **Save** Fortitude DC 18  ",
 			"**Onset** 1 round; **Frequency** 1/round for 4 rounds  ",
-			"**Initial Effect** 1d2 Wis damage and blindness for 1 round; **Secondary Effect** blindness for 24 hours  ",
+			"**Initial Effect** 1d2 Wis damage and {misc/blindness} for 1 round; **Secondary Effect** blindness for 24 hours  ",
 			"**Cure** 1 save"
 		]
 	},
@@ -1605,7 +1605,7 @@
 			"**Effect** 1d4+1 Wis damage  ",
 			"**Cure** 2 saves",
 			"",
-			"The poison muddling heresy is often used by worshipers of Geryon to make others more susceptible to being convinced of blasphemies and revelations of heretical truths. While the poison can be used on its own, when used as part of a deific boon, the save DC, duration, or other effects may differ from normal."
+			"The poison muddling heresy is often used by worshipers of {faith/Geryon} to make others more susceptible to being convinced of blasphemies and revelations of heretical truths. While the poison can be used on its own, when used as part of a deific boon, the save DC, duration, or other effects may differ from normal."
 		]
 	},
 	"twilight_illness": {
@@ -1622,7 +1622,7 @@
 			"**Effect** {misc/nauseated} for 1 hour and then {misc/sickened} for 1 day  ",
 			"**Cure** 1 save",
 			"",
-			"This poison is used by Twilight Talons to render targets too ill to work for a day - long enough to impersonate them."
+			"This poison is used by {pclass/Twilight Talon/s} to render targets too ill to work for a day - long enough to impersonate them."
 		]
 	},
 	"vessel_between": {
@@ -1688,7 +1688,7 @@
 			"**Price** 800 gp; **Weight** &mdash;  ",
 			"**Type** ingested; **Save** Fortitude DC 18  ",
 			"**Frequency** 1/hour for 8 hours  ",
-			"**Effect** The victim loses all memory of events that took place in the previous hour and can't form new memories for 8 hours. These lost and prevented memories might return later in the form of dreams, and can be returned with a restoration or heal spell  ",
+			"**Effect** The victim loses all memory of events that took place in the previous hour and can't form new memories for 8 hours. These lost and prevented memories might return later in the form of dreams, and can be returned with a {spell/restoration} or {spell/heal} spell  ",
 			"**Cure** 2 saves",
 			"",
 			"**{rule/Spontaneous Alchemy} Recipe** (115 {eq-reagent/realgar} + 115 {eq-reagent/cytillesh spores})/calcination; **Craft** DC 18  ",
@@ -1762,7 +1762,7 @@
 			"**Price** 900 gp; **Weight** 1/2 lb.  ",
 			"**Type** inhaled; **Save** Fortitude DC 16  ",
 			"**Frequency** 1/minute for 4 minutes  ",
-			"**Effect** Non-orcs are blinded for 1 minute. Orcs rage for 1 minute, gaining a +2 alchemical bonus to Strength and Dexterity, a +1 alchemical bonus on Will saves, and a -2 penalty to AC. This poison's effects are otherwise similar to a barbarian's rage, except that affected orcs are unable to discern friend from foe - attacking the nearest creature each round - and they are not fatigued afterward  ",
+			"**Effect** Non-orcs are {misc/blinded} for 1 minute. Orcs rage for 1 minute, gaining a +2 alchemical bonus to Strength and Dexterity, a +1 alchemical bonus on Will saves, and a -2 penalty to AC. This poison's effects are otherwise similar to a {class/barbarian/'s} rage, except that affected orcs are unable to discern friend from foe - attacking the nearest creature each round - and they are not fatigued afterward  ",
 			"**Cure** 2 saves",
 			"",
 			"**{rule/Spontaneous Alchemy} Recipe** (180 {eq-reagent/brimstone} + 80 {eq-reagent/quicksilver} + 60 {eq-reagent/saltpeter})/fermentation; **Craft** DC 16  ",
@@ -1780,7 +1780,7 @@
 			"**Price** 900 gp; **Weight** &mdash;  ",
 			"**Type** inhaled; **Save** Fortitude DC 13  ",
 			"**Frequency** 1/round for 6 rounds  ",
-			"**Initial Effect** shaken; **Secondary Effect** blinded for 6 rounds  ",
+			"**Initial Effect** {misc/shaken}; **Secondary Effect** {misc/blinded} for 6 rounds  ",
 			"**Cure** 2 consecutive saves",
 			"",
 			"This fine powder is extracted from the wings of night's-eye moths. Creatures inhaling this poison become shaken and experience slowly building pressure behind the eyes, leading to blindness that persists until the creature is cured or the poison has run its course. A creature immune to fear cannot be shaken by the poison's initial effect and receives a +4 bonus on its saving throw against the poison's secondary effect."
@@ -1850,7 +1850,7 @@
 			"**Price** 1,000 gp; **Weight** &mdash;  ",
 			"**Type** contact, injury, ingested; **Save** Fortitude DC 12  ",
 			"**Frequency** 1/round for 4 rounds  ",
-			"**Effect** 1d2 Dex damage (a creature who takes Dexterity damage equal to its Dexterity score from this poison becomes petrified; each day, a petrified victim can attempt a new DC 12 Fortitude save to recover from the venom and become unpetrified with an amount of Dexterity damage equal to 1 point less than its Dexterity score)  ",
+			"**Effect** 1d2 Dex damage (a creature who takes Dexterity damage equal to its Dexterity score from this poison becomes {rule/petrified}; each day, a petrified victim can attempt a new DC 12 Fortitude save to recover from the venom and become unpetrified with an amount of Dexterity damage equal to 1 point less than its Dexterity score)  ",
 			"**Cure** 1 save"
 		]
 	},
@@ -1868,7 +1868,7 @@
 			"**Effect** 1d2 Dex, see text  ",
 			"**Cure** 2 saves",
 			"",
-			"Imported from Casmaron, the substance also known as Rovagug's spittle is employed by cults of the Rough Beast. The toxin is used to foment unrest by causing muscle tremors and aggression. Any creature that fails a Fortitude save against ragespittle is subjected to an uncontrollable rage. A rage-afflicted victim must succeed at a DC 17 Will save each round or attack the nearest creature, whether friend or foe. Effects that suppress confusion or emotional conditions suppress ragespittle's rage effect for their duration, but not the poison's ability damage. Effects that end confusion or emotional conditions suppress the urge for only 1d10 rounds while the poison remains in the victim's system."
+			"Imported from Casmaron, the substance also known as {faith/Rovagug/'s} spittle is employed by cults of the Rough Beast. The toxin is used to foment unrest by causing muscle tremors and aggression. Any creature that fails a Fortitude save against ragespittle is subjected to an uncontrollable rage. A rage-afflicted victim must succeed at a DC 17 Will save each round or attack the nearest creature, whether friend or foe. Effects that suppress confusion or emotional conditions suppress ragespittle's rage effect for their duration, but not the poison's ability damage. Effects that end confusion or emotional conditions suppress the urge for only 1d10 rounds while the poison remains in the victim's system."
 		]
 	},
 	"blistercap_spore_poison": {
@@ -1899,7 +1899,7 @@
 			"**Price** 1,200 gp; **Weight** &mdash;  ",
 			"**Type** inhaled; **Save** Fortitude DC 16  ",
 			"**Frequency** 1/round for 4 rounds  ",
-			"**Effect** This fine powder absorbs the oxygen from the lungs of any creature that breathes it in, causing the creature to gradually asphyxiate. The target has difficulty breathing and is {misc/staggered}. If the target suffers the effect for 4 rounds, he falls unconscious for 1 minute at the end of the fourth round  ",
+			"**Effect** This fine powder absorbs the oxygen from the lungs of any creature that breathes it in, causing the creature to gradually asphyxiate. The target has difficulty breathing and is {misc/staggered}. If the target suffers the effect for 4 rounds, he falls {misc/unconscious} for 1 minute at the end of the fourth round  ",
 			"**Cure** 1 save"
 		]
 	},
@@ -1914,7 +1914,7 @@
 			"**Price** 1,200 gp; **Weight** &mdash;  ",
 			"**Type** inhaled; **Save** Fortitude DC 17  ",
 			"**Frequency** 1/round for 6 rounds  ",
-			"**Effect** 1d6 Str; If this poison's accumulated Strength damage ever exceeds the victim's Strength score, the victim immediately begins to [suffocate](rule/suffocation). A DC 17 Heal check (or any amount of magical healing) is enough to stop this suffocation before the victim dies.  ",
+			"**Effect** 1d6 Str; If this poison's accumulated Strength damage ever exceeds the victim's Strength score, the victim immediately begins to {rule/suffocat/e>ion}. A DC 17 Heal check (or any amount of magical healing) is enough to stop this suffocation before the victim dies.  ",
 			"**Cure** 2 saves"
 		]
 	},
@@ -1966,7 +1966,7 @@
 			"**Price** 1,500 gp; **Weight** &mdash;  ",
 			"**Type** inhaled; **Save** Fortitude DC 15  ",
 			"**Frequency** 1/minute for 2 minutes  ",
-			"**Initial Effect** {misc/nauseated} 1 minute; **Secondary Effect** paralyzed 2d4 hours  ",
+			"**Initial Effect** {misc/nauseated} 1 minute; **Secondary Effect** {rule/paralyzed} 2d4 hours  ",
 			"**Cure** 1 save"
 		]
 	},
@@ -1984,7 +1984,7 @@
 			"**Price** 1,500 gp; **Weight** &mdash;  ",
 			"**Type** inhaled; **Save** Fortitude DC 21  ",
 			"**Frequency** 1/minute for 6 minutes  ",
-			"**Initial Effect** 1d4 bleed; see text; **Secondary Effect** 1d3 Con damage  ",
+			"**Initial Effect** 1d4 {rule/bleed}; see text; **Secondary Effect** 1d3 Con damage  ",
 			"**Cure** 2 saves",
 			"",
 			"The [Red Mantis](rule/aff_assassins) exist in a world rife with healing magic and all manner of supernatural ways to dodge death. With the society's reputation based on its ability to bring death to any contracted target, what good would it be if a kindly cleric or wealthy relative paid for a victim to be brought back to life? As a matter of professional pride (as well as religious fervor), the Red Mantis go to great lengths to ensure that their victims remain in the grave once they are placed there. Breath of the mantis god is just one tool they've crafted to assure such ends.",
@@ -2034,7 +2034,7 @@
 			"**Price** 1,500 gp; **Weight** &mdash;  ",
 			"**Type** injury, ingested; **Save** Fortitude DC 16  ",
 			"**Frequency** 1/round for 6 rounds  ",
-			"**Initial Effect** blindness for 1d10 rounds; **Secondary Effect** 1d4 Wis damage  ",
+			"**Initial Effect** {misc/blindness} for 1d10 rounds; **Secondary Effect** 1d4 Wis damage  ",
 			"**Cure** 2 saves"
 		]
 	},
@@ -2067,10 +2067,10 @@
 			"**Price** 1,500 gp; **Weight** &mdash;  ",
 			"**Type** contact; **Save** Fortitude DC 18  ",
 			"**Onset** 1 round; **Frequency** 1/10 minutes for 1 hour  ",
-			"**Effect** 1d2 Wisdom damage and paralyzed for 10 minutes  ",
+			"**Effect** 1d2 Wisdom damage and {rule/paralyzed} for 10 minutes  ",
 			"**Cure** 1 save",
 			"",
-			"Made from the distilled tears and sweat of [denizens of Leng](monster/denizen_of_leng), this substance causes hallucinations and temporary paralysis. A creature that fails its initial saving throw is paralyzed and experiences terrifying hallucinations of wandering through an icy, windswept waste. The creature's paralysis ends if it is cured or once the poison runs its course, though memories of the vivid hallucinations may haunt it for some time."
+			"Made from the distilled tears and sweat of {monster/denizen[s] of Leng}, this substance causes hallucinations and temporary paralysis. A creature that fails its initial saving throw is paralyzed and experiences terrifying hallucinations of wandering through an icy, windswept waste. The creature's paralysis ends if it is cured or once the poison runs its course, though memories of the vivid hallucinations may haunt it for some time."
 		]
 	},
 	"nerveblast": {
@@ -2084,7 +2084,7 @@
 			"**Price** 1,500 gp; **Weight** &mdash;  ",
 			"**Type** injury; **Save** Fortitude DC 19  ",
 			"**Frequency** 1/round for 6 rounds  ",
-			"**Effect** 1 Dex drain and shaken for 1 hour. The shaken condition progresses to more severe fear effects if the affected creature fails additional Fortitude saving throws against the poison. These more severe effects have the same duration as the initial shaken effect  ",
+			"**Effect** 1 Dex drain and {misc/shaken} for 1 hour. The shaken condition progresses to more severe fear effects if the affected creature fails additional Fortitude saving throws against the poison. These more severe effects have the same duration as the initial shaken effect  ",
 			"**Cure** 2 consecutive saves",
 			"",
 			"This iridescent dust clings to weapons. On a hit, nerveblast immediately begins destroying nerves, blocking the signals between the brain and the rest of the body. The disconcerting effect causes many victims to flee in panic."
@@ -2104,7 +2104,7 @@
 			"**Effect** 1d3 Int, see text  ",
 			"**Cure** 1 save",
 			"",
-			"Created by the [Whispering Way](rule/f_gravepath) to simultaneously protect and bind newcomers and servants who have handled dangerous writings, scholarblight has long since become a preferred poison for those who target arcane spellcasters for assassination. Scholarblight causes headaches and impairs a victim's ability to form or recall memories through mild confusion and dysphoria. More drastically, victims who fail a saving throw against scholarblight lose their ability to read or write for 24 hours, as letters and symbols seem to twist, move, and reorient themselves. This prevents victims from using scrolls and spellbooks, but also protects an afflicted creature from any effect dependent on reading text, such as explosive runes."
+			"Created by the [Whispering Way](rule/f_gravepath) to simultaneously protect and bind newcomers and servants who have handled dangerous writings, scholarblight has long since become a preferred poison for those who target arcane spellcasters for assassination. Scholarblight causes headaches and impairs a victim's ability to form or recall memories through mild confusion and dysphoria. More drastically, victims who fail a saving throw against scholarblight lose their ability to read or write for 24 hours, as letters and symbols seem to twist, move, and reorient themselves. This prevents victims from using scrolls and spellbooks, but also protects an afflicted creature from any effect dependent on reading text, such as {spell/explosive runes}."
 		]
 	},
 	"mindrust": {
@@ -2223,7 +2223,7 @@
 			"**Price** 2,500 gp; **Weight** &mdash;  ",
 			"**Type** ingested or injury; **Save** Willpower DC 20  ",
 			"**Frequency** 1/hour for 6 hours  ",
-			"**Effect** 1d2 Int drain (a creature currently suffering the curse of bestial dreams transforms into an id mutant once its Intelligence is reduced by 6 points or reaches a score of 1, whichever comes first)  ",
+			"**Effect** 1d2 Int drain (a creature currently suffering the curse of bestial dreams transforms into an {template/id mutant} once its Intelligence is reduced by 6 points or reaches a score of 1, whichever comes first)  ",
 			"**Cure** 3 consecutive saves",
 			"",
 			"This supernatural toxin exists either in powdered form or, if mixed with an alchemically prepared solution of blood and magical reagents, as a sticky paste. The primary ingredient is a dream crystal whose stored dreams have been corrupted by otherworldly powers into nightmarish energies - a single crystal yields 1 dose of toxin. On Golarion, only the few dream crystals that remain in the crashed Lirgen's Glory can be used to create more of this toxin, but if the Emissary from Beyond establishes a domain in Dustpawn, it can create more dream crystals, given time. Dream crystal toxin introduced in significant quantities to a water supply dilutes the venom so that any who drink the water suffer a lesser version of its effects - see the {curse/curse of bestial dreams} for details. In any event, dream crystal toxin counts as both a poison and a curse for determining what can negate its effects. A creature must be immune to both poison and curses to be immune to dream crystal toxin."
@@ -2243,9 +2243,9 @@
 			"**Effect** sleep 10 minutes, see text  ",
 			"**Cure** 1 save",
 			"",
-			"Imported in stoppered quartz vials by the enigmatic [denizens of Leng](monster/denizen_of_leng), this green and violet gas lulls mortal creatures into a sleep filled with abominable nightmares and maddening half-truths. Creatures that fail their saving throws against dreaming death immediately fall into a fitful slumber for 10 minutes. This toxic sleep affects creatures normally immune to magical sleep effects (such as elves), and victims can be woken from the sleep only by overcoming or being cured of the poison. Each failed save extends the duration of this magical sleep by 10 minutes.",
+			"Imported in stoppered quartz vials by the enigmatic {monster/denizen[s] of Leng}, this green and violet gas lulls mortal creatures into a sleep filled with abominable nightmares and maddening half-truths. Creatures that fail their saving throws against dreaming death immediately fall into a fitful slumber for 10 minutes. This toxic sleep affects creatures normally immune to magical sleep effects (such as elves), and victims can be woken from the sleep only by overcoming or being cured of the poison. Each failed save extends the duration of this magical sleep by 10 minutes.",
 			"",
-			"Creatures awaken from these visions scarred and prone to self-harm. Victims must succeed at a Will save (DC = 14 + 2 for every 10 minutes spent sleeping) or begin cutting their own flesh with any available weapons. Affected creatures attempt to deliver a coup de grace attack upon themselves every round. A victim can attempt a new Will save at the beginning of each round, with a cumulative +2 bonus for each round she successfully damaged herself."
+			"Creatures awaken from these visions scarred and prone to self-harm. Victims must succeed at a Will save (DC = 14 + 2 for every 10 minutes spent sleeping) or begin cutting their own flesh with any available weapons. Affected creatures attempt to deliver a {misc/coup de grace} attack upon themselves every round. A victim can attempt a new Will save at the beginning of each round, with a cumulative +2 bonus for each round she successfully damaged herself."
 		]
 	},
 	"everwake_serum": {
@@ -2259,7 +2259,7 @@
 			"**Price** 2,500 gp; **Weight** &mdash;  ",
 			"**Type** ingested; **Save** Fortitude DC 16  ",
 			"**Frequency** 1/day for 5 days  ",
-			"**Effect** cannot voluntarily rest or sleep (spells such as sleep still function as normal), preventing spellcasters who need to rest to regain or prepare spells from doing so  ",
+			"**Effect** cannot voluntarily rest or sleep (spells such as {spell/sleep} still function as normal), preventing spellcasters who need to rest to regain or prepare spells from doing so  ",
 			"**Cure** 2 saves"
 		]
 	},
@@ -2324,7 +2324,7 @@
 			"**Price** 2,600 gp; **Weight** &mdash;  ",
 			"**Type** contact; **Save** Fortitude DC 18  ",
 			"**Onset** 1d4 minutes; **Frequency** 1/10 minutes for 60 minutes  ",
-			"**Effect** 1d4 Wis damage, and the creature loses its memories from the past 10 minutes, as though they had been erased by the spell modify memory  ",
+			"**Effect** 1d4 Wis damage, and the creature loses its memories from the past 10 minutes, as though they had been erased by the spell {spell/modify memory}  ",
 			"**Cure** 1 save",
 			"",
 			"This milky-white sap can be harvested from a rare jungle tree known as a \"weeping maiden\" in the local tongue. The tree's branches end in long, vine-like tendrils that hang low to the ground and bear large, bitter-tasting red fruit. While the fruit is safe to eat, the sap of the tree carries powerful neurotoxins that cause short-term memory loss in those that consume it. In some cultures, styx sap is occasionally taken deliberately in order to allow one to forget unpleasant or tragic events."
@@ -2341,7 +2341,7 @@
 			"**Price** 4,000 gp; **Weight** &mdash;  ",
 			"**Type** contact; **Save** Fortitude DC 20  ",
 			"**Onset** 1 minute; **Frequency** 1/round for 6 rounds  ",
-			"**Effect** 1d4 Con damage, target must succeed at a second Fortitude save or 1 point of the Con damage is instead drain. Cyanide's unique metal-extracting properties make it effective against elementals with the earth subtype, despite their natural immunity to other poisons.  ",
+			"**Effect** 1d4 Con damage, target must succeed at a second Fortitude save or 1 point of the Con damage is instead drain. Cyanide's unique metal-extracting properties make it effective against {family/elemental/s} with the earth subtype, despite their natural immunity to other poisons.  ",
 			"**Cure** 2 saves",
 			"",
 			"This potent toxin is used by both drow and duergar to extract gold from ore and to eliminate political enemies. Cyanide poisoning usually manifests as bright red flushing of the skin, even more noticeable in pallid creatures like derros and duergar."
@@ -2358,7 +2358,7 @@
 			"**Price** 4,500 gp; **Weight** &mdash;  ",
 			"**Type** ingested; **Save** Fortitude DC 20  ",
 			"**Onset** 1 minute; **Frequency** 1/round for 6 rounds  ",
-			"**Effect** Consuming the flowers of this plant weakens the walls of the imbiber's veins, causing them to rupture. The target takes 1d2 points of Constitution drain and 1d4 points of bleed damage. Blood (or an equivalent bodily fluid, if the imbiber does not have blood) flows from the target's eyes, causing the subject to be blinded for the duration of the bleed effect. This bleeding can be stopped as normal (with a successful DC 15 Heal check or the application of any magical healing)  ",
+			"**Effect** Consuming the flowers of this plant weakens the walls of the imbiber's veins, causing them to rupture. The target takes 1d2 points of Constitution drain and 1d4 points of {rule/bleed} damage. Blood (or an equivalent bodily fluid, if the imbiber does not have blood) flows from the target's eyes, causing the subject to be {misc/blinded} for the duration of the bleed effect. This bleeding can be stopped as normal (with a successful DC 15 Heal check or the application of any magical healing)  ",
 			"**Cure** 2 saves"
 		]
 	},
@@ -2408,7 +2408,7 @@
 			"",
 			"Developed by the spiderlike {monster/jorogumo/s}, widow's kiss is distilled from the monsters' natural venom and infused with minuscule spider eggs. Creatures injected with the toxin experience headaches and cold sweats, after which the eggs begin to hatch and infest the host's bloodstream, slowly eating the body from within. If controlled or enticed, the swarm of spiders can take direct control of its host's body, rendering hosts susceptible to effects that control or influence vermin, including a jorogumo's spider empathy ability.",
 			"",
-			"The effects of widow's kiss can be removed a combination of cure disease and neutralize poison. If a creature is slain by the poison's Constitution damage, a {monster/spider swarm} erupts from the body 1d6 rounds later."
+			"The effects of widow's kiss can be removed a combination of {spell/remove disease} and {spell/neutralize poison}. If a creature is slain by the poison's Constitution damage, a {monster/spider swarm} erupts from the body 1d6 rounds later."
 		]
 	},
 	"kiss_of_barbatos": {
@@ -2422,7 +2422,7 @@
 			"**Price** 7,500 gp; **Weight** &mdash;  ",
 			"**Type** contact, ingested; **Save** Fortitude DC 23  ",
 			"**Onset** 1d6 days; **Frequency** 1/day  ",
-			"**Effect** fatigued, 1d2 Str drain, and 1 Con drain  ",
+			"**Effect** {misc/fatigued}, 1d2 Str drain, and 1 Con drain  ",
 			"**Cure** 3 consecutive saves"
 		]
 	},

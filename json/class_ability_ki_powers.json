@@ -216,7 +216,7 @@
 		"compilationSources": [ [ "Blood of the Beast", 31 ] ],
 		"category": "-",
 		"description": [
-			"A monk with this ability does not take a penalty on attack rolls for using an {misc/improvised weapon}. By spending 1 ki point, the monk can fight with a {rule/broken>_and_fragile} weapon without taking any penalties on attack rolls or damage rolls for 1 round."
+			"A monk with this ability does not take a penalty on attack rolls for using an {misc/improvised weapon}. By spending 1 ki point, the monk can fight with a {misc/broken} weapon without taking any penalties on attack rolls or damage rolls for 1 round."
 		]
 	},
 	"insightful_wisdom": {

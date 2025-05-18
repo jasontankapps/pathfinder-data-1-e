@@ -17,6 +17,7 @@
 		"topLink": [ "Awareness Conditions", "rule/awareness_conditions" ]
 	},
 	"blind": { "copyof": "blinded" },
+	"blindness": { "copyof": "blinded" },
 	"confused": {
 		"name": "Confused",
 		"sources": [ "PRPG Core Rulebook" ],
@@ -335,6 +336,7 @@
 	"deal_less_damage": { "copyof": "damage_die_adjustments" },
 	"one_size_category_larger": { "copyof": "damage_die_adjustments" },
 	"one_size_smaller": { "copyof": "damage_die_adjustments" },
+	"one_size_category_smaller": { "copyof": "damage_die_adjustments" },
 	"burst": {
 		"name": "Burst",
 		"sources": [ "PRPG Core Rulebook" ],

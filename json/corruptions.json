@@ -714,7 +714,7 @@
 			"Your blood burns like acid.  ",
 			"**Prerequisite:** Manifestation level 3rd, transformed flesh.  ",
 			"**Gift:** If a creature damages you with a slashing or piercing manufactured weapon, it must succeed at a Reflex saving throw or its weapon takes 2 points of acid damage per manifestation level; this damage is not halved before it is applied to the weapon's hardness. If a creature damages you with a slashing or piercing natural weapon, it must succeed at the save or take that amount of acid damage itself.  ",
-			"**Stain:** Your acidic sweat damages your equipment. After using or wearing an item for 8 hours total, it gains the {rule/broken>_and_fragile} condition. If you use or wear a broken item for 8 hours, it is destroyed. This ability doesn't break cursed items, artifacts, or similar items that are difficult or impossible to destroy.",
+			"**Stain:** Your acidic sweat damages your equipment. After using or wearing an item for 8 hours total, it gains the {misc/broken} condition. If you use or wear a broken item for 8 hours, it is destroyed. This ability doesn't break cursed items, artifacts, or similar items that are difficult or impossible to destroy.",
 			"",
 			"::h4[Blindsense]{jl}",
 			"",

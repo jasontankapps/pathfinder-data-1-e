@@ -45,7 +45,7 @@
 			"{SOURCE Pathfinder #13: Shadow in the Sky/81}  ",
 			"**Type** inhaled; **Fortitude Save* DC 12  ",
 			"**Onset** 3d6 days; **Frequency** 1/day  ",
-			"**Effect** 1d4 Con. Rolling a 1 on any Fortitude save to resist taking damage from fungal flu results in {misc/blind/ness}. The blindness persists - even resisting spells like {spell/remove blindness//deafness} - until the disease is cured.  ",
+			"**Effect** 1d4 Con. Rolling a 1 on any Fortitude save to resist taking damage from fungal flu results in {misc/blindness}. The blindness persists - even resisting spells like {spell/remove blindness//deafness} - until the disease is cured.  ",
 			"**Cure** 2 consecutive saves"
 		]
 	},

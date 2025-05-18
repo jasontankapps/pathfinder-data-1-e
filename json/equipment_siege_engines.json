@@ -54,7 +54,7 @@
 			"## Chain shot",
 			"{SOURCE Ultimate Combat/164}",
 			"",
-			"This siege engine firearm ammunition can be loaded in a cannon or a fiend's mouth cannon. It is especially good at tearing through sails and dirigibles (see the [Vehicle rules](rule/full_vehicle_rules)), dealing double its normal damage to those forms of propulsion. When fired at a creature, on a hit, the creature must succeed at a DC 20 Fortitude saving throw or be knocked prone.",
+			"This siege engine firearm ammunition can be loaded in a cannon or a fiend's mouth cannon. It is especially good at tearing through sails and dirigibles (see the {rule/full_<Vehicle rules}), dealing double its normal damage to those forms of propulsion. When fired at a creature, on a hit, the creature must succeed at a DC 20 Fortitude saving throw or be knocked prone.",
 			"",
 			"**Cost** 50 gp **Weight** 30 lbs  ",
 			"**Category** Ammunition; **Proficiency** Siege Engine"
@@ -82,7 +82,7 @@
 			"## Entangling Bolt",
 			"{SOURCE Belkzen, Hold of the Orc Hordes/39}",
 			"",
-			"When launched from a ballista, this specialized bolt unfurls into a large net. An attack with entangling ammunition is a ranged touch attack, but it's only effective within one range increment. If it hits, the target is entangled, but the attack deals no damage.",
+			"When launched from a ballista, this specialized bolt unfurls into a large net. An attack with entangling ammunition is a ranged touch attack, but it's only effective within one range increment. If it hits, the target is {rule/entangled}, but the attack deals no damage.",
 			"",
 			"An entangled creature can escape with a successful DC 20 Escape Artist check (a full-round action). The net has 5 hit points and can be burst with a successful DC 25 Strength check (also a full-round action). Entangling ammunition is useful only against creatures within one size category of the firing ballista.",
 			"",
@@ -97,7 +97,7 @@
 			"## Liquid ice",
 			"{SOURCE Ultimate Combat/164}",
 			"",
-			"This hard, ceramic canister filled with alchemical liquid ice can be used as ammunition in catapults and trebuchets. When it hits its target square, it deals 4d6 points of cold damage to each creature within 5 feet of the targeting space, and each creature must make a DC 20 Fortitude save or become entangled for 1 round. Every creature within the area between 5 and 30 feet of the target space must make a DC 20 Fortitude saving throw or take half damage. On a siege engine mishap, this ammunition explodes before it is launched, dealing its damage to all nearby creatures as if one of the spaces of the siege engine (crew leader's choice) were the target square.",
+			"This hard, ceramic canister filled with alchemical liquid ice can be used as ammunition in catapults and trebuchets. When it hits its target square, it deals 4d6 points of cold damage to each creature within 5 feet of the targeting space, and each creature must make a DC 20 Fortitude save or become {rule/entangled} for 1 round. Every creature within the area between 5 and 30 feet of the target space must make a DC 20 Fortitude saving throw or take half damage. On a siege engine mishap, this ammunition explodes before it is launched, dealing its damage to all nearby creatures as if one of the spaces of the siege engine (crew leader's choice) were the target square.",
 			"",
 			"**Cost** 400 gp **Weight** 20 lbs.  ",
 			"**Category** Ammunition; **Proficiency** Siege Engine"
@@ -110,7 +110,7 @@
 			"## Plague bundle",
 			"{SOURCE Ultimate Combat/164}",
 			"",
-			"This hard, ceramic canister is filled with a noxious mass of diseased carrion and offal that can be used as ammunition for a catapult or a trebuchet. It deals only half damage, but every creature hit by it is exposed to filth fever. A GM might allow a plague bundle to inflict other diseases.",
+			"This hard, ceramic canister is filled with a noxious mass of diseased carrion and offal that can be used as ammunition for a catapult or a trebuchet. It deals only half damage, but every creature hit by it is exposed to {disease/filth fever}. A GM might allow a plague bundle to inflict other diseases.",
 			"",
 			"**Cost** 80 gp **Weight** 20 lbs.  ",
 			"**Category** Ammunition; **Proficiency** Siege Engine"
@@ -149,7 +149,7 @@
 			"## Ballista net",
 			"{SOURCE Dragonslayer's Handbook/27}",
 			"",
-			"This ballista bolt is specially equipped with a net which unfurls as the bolt flies toward its target. Unlike a standard ballista bolt, a ballista net requires only a touch attack to hit. If a ballista net hits, it deals no damage, but causes the target to become entangled. An entangled creature takes a -2 penalty on attack rolls and a -4 penalty to Dexterity, can move at only half speed, and cannot charge or run.",
+			"This ballista bolt is specially equipped with a net which unfurls as the bolt flies toward its target. Unlike a standard ballista bolt, a ballista net requires only a touch attack to hit. If a ballista net hits, it deals no damage, but causes the target to become {rule/entangled}. An entangled creature takes a -2 penalty on attack rolls and a -4 penalty to Dexterity, can move at only half speed, and cannot charge or run.",
 			"",
 			"**Cost** 75 gp **Weight** 15 lbs.  ",
 			"**Category** Ammunition; **Proficiency** Ammunition"
@@ -270,7 +270,7 @@
 			"## Firedrake",
 			"{SOURCE Ultimate Combat/163}",
 			"",
-			"These large siege engines are typically wheeled or attached to vehicles that can transport them to the battlefield. This apparatus fires gouts of alchemist's fire in either a 60-foot line or a 30-foot cone (siege crew leader's choice). Targets in the area take 6d6 points of fire damage (DC 15 Reflex save halves); those who fail their saves also catch on fire. A firedrake with the broken condition that suffers a further mishap explodes, dealing its damage to all creatures within a 20-foot blast (DC 15 Reflex save halves). Firedrakes have a hardness of 10 and 70 hit points. One use of firedrake ammunition costs 200 gp and weighs 20 pounds.",
+			"These large siege engines are typically wheeled or attached to vehicles that can transport them to the battlefield. This apparatus fires gouts of {eq-siegeengine/alchemist's fire} in either a 60-foot line or a 30-foot cone (siege crew leader's choice). Targets in the area take 6d6 points of fire damage (DC 15 Reflex save halves); those who fail their saves also catch on fire. A firedrake with the broken condition that suffers a further mishap explodes, dealing its damage to all creatures within a 20-foot blast (DC 15 Reflex save halves). Firedrakes have a hardness of 10 and 70 hit points. One use of firedrake ammunition costs 200 gp and weighs 20 pounds.",
 			"",
 			"**Cost** 4,000 gp **Weight** -  ",
 			"**Damage** 6d6; **Critical** -; **Range** -; **Type** fire  ",
@@ -532,7 +532,7 @@
 			"**Crew** 1; **Aim** 0; **Load** 0; **Speed** 0 ft.  ",
 			"**Category** Close Assault; **Proficiency** Siege Engine",
 			"",
-			"**Note:** Marked as 'Large' based on the description given."
+			"**Note:** Marked as 'Large' siege engine based on the description given."
 		]
 	},
 	"crushing_wheel": {
@@ -542,7 +542,7 @@
 			"## Crushing Wheel",
 			"{SOURCE Belkzen, Hold of the Orc Hordes/39}",
 			"",
-			"The bulk of this weapon is a steel roller nearly 10 feet wide. Handles or a harness project from the axle, allowing four orcs or one Large beast to push the crushing wheel from behind. As a full-round action, its crew can roll the crushing wheel over creatures in front of it. This functions as the {umr/trample} monster ability except as noted here. Creatures that are overrun fall prone and take 4d6 points of damage. Targets that succeed at a DC 15 Reflex saving throw take only half damage and avoid falling prone. A crushing wheel has a hardness of 10 and 100 hit points.",
+			"The bulk of this weapon is a steel roller nearly 10 feet wide. Handles or a harness project from the axle, allowing four orcs or one Large beast to push the crushing wheel from behind. As a full-round action, its crew can roll the crushing wheel over creatures in front of it. This functions as the {umr/trample} monster ability except as noted here. Creatures that are overrun fall {rule/prone} and take 4d6 points of damage. Targets that succeed at a DC 15 Reflex saving throw take only half damage and avoid falling prone. A crushing wheel has a hardness of 10 and 100 hit points.",
 			"",
 			"A crushing wheel is a Large siege engine.",
 			"",
@@ -559,7 +559,7 @@
 			"## Earthmaul",
 			"{SOURCE Belkzen, Hold of the Orc Hordes/39}",
 			"",
-			"This war machine is fitted with an enormous hammer. When dropped into the horizontal position, it functions like a sideways-mounted catapult, and is capable of clearing wide swaths of enemies. Although it doesn't use ammunition, the earthmaul must effectively be reloaded by winding the torsion. When the earthmaul is activated, creatures on the ground in a 15-foot cone take 6d6 points of damage, are knocked 10 feet in the direction of the swing, and fall prone. A successful DC 20 Reflex saving throw halves the damage and negates the additional effects. An earthmaul has a hardness of 5 and 100 hit points.",
+			"This war machine is fitted with an enormous hammer. When dropped into the horizontal position, it functions like a sideways-mounted catapult, and is capable of clearing wide swaths of enemies. Although it doesn't use ammunition, the earthmaul must effectively be reloaded by winding the torsion. When the earthmaul is activated, creatures on the ground in a 15-foot cone take 6d6 points of damage, are knocked 10 feet in the direction of the swing, and fall {rule/prone}. A successful DC 20 Reflex saving throw halves the damage and negates the additional effects. An earthmaul has a hardness of 5 and 100 hit points.",
 			"",
 			"An earthmaul is a Huge siege engine.",
 			"",
@@ -778,7 +778,7 @@
 			"## Siege Tower",
 			"{SOURCE Ultimate Combat/166}",
 			"",
-			"A wooden gallery of stout construction, a siege tower consists of a tall protective shell with a roof section. The lower story of the tower contains the crew members who propel the tower, and provides total cover to those within. A siege tower with the broken condition moves at half speed. If a siege tower is destroyed, the entire tower collapses. Treat this as a {rule/cave-in>s_and_collapses}.",
+			"A wooden gallery of stout construction, a siege tower consists of a tall protective shell with a roof section. The lower story of the tower contains the crew members who propel the tower, and provides total {rule/cover} to those within. A siege tower with the broken condition moves at half speed. If a siege tower is destroyed, the entire tower collapses. Treat this as a {rule/cave-in>s_and_collapses}.",
 			"",
 			"The upper section of a siege tower provides improved cover for a number of soldiers (see below) and may have pierced walls allowing creatures to fire ranged weapons out the sides. The roof section may have a battlement and may mount a siege engine of the siege tower's size or smaller and a corvus. Siege towers have a base speed of 15 (or 10 feet if protected with medium or heavy armor).",
 			"",

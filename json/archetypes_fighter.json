@@ -185,7 +185,7 @@
 			"",
 			"**Fortification (Ex):** At 9th level, an armor master can use his armor to shield critical areas from injury. He treats any armor he wears as if it had the {magic-enh/light fortification} special ability. At 13th level, his armor gains the {magic-enh/moderate fortification} special ability. This fortification does not stack in any way with armor that has these special abilities. In these cases the armor master takes the better of the two fortifications. This ability replaces weapon training 2 and 4.",
 			"",
-			"**Indestructible (Ex):** At 20th level, an armor master gains complete immunity to critical hits and sneak attacks while he is wearing armor. In addition, unless his armor has the {rule/broken_and_<fragile} armor quality, it cannot be sundered while he is wearing it. This ability replaces weapon mastery."
+			"**Indestructible (Ex):** At 20th level, an armor master gains complete immunity to critical hits and sneak attacks while he is wearing armor. In addition, unless his armor has the {misc/fragile} armor quality, it cannot be sundered while he is wearing it. This ability replaces weapon mastery."
 		]
 	},
 	"brawler": {

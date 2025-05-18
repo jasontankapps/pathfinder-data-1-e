@@ -468,7 +468,7 @@
 			"",
 			"**Bloodline Powers:** The corrupt blood within you grants you powers to devastate the works and bonds of mortals.",
 			"",
-			">*Spoiling Touch (Su):* At 1st level, you can impose the {rule/broken>_and_fragile} condition upon one Medium or smaller object by making a successful melee touch attack. Magical items or objects carried or worn by a creature are allowed a Fortitude save to resist this effect. Multiple uses of this effect do not stack. You can use this ability a number of times per day equal to 3 + your Charisma modifier.",
+			">*Spoiling Touch (Su):* At 1st level, you can impose the {misc/broken} condition upon one Medium or smaller object by making a successful melee touch attack. Magical items or objects carried or worn by a creature are allowed a Fortitude save to resist this effect. Multiple uses of this effect do not stack. You can use this ability a number of times per day equal to 3 + your Charisma modifier.",
 			">",
 			">*Div Resistances (Ex):* At 3rd level, you gain fire resistance 5 and a +2 bonus on saving throws against poison. At 9th level, your resistance to fire increases to 10 and your bonus on saving throws against poison increases to +4.",
 			">",
@@ -1692,7 +1692,7 @@
 			">",
 			">*Superior Transformation (Su):* At 15th level, you become master of your own shape and you fully understand the intricacies of all shapechanging magic. You are immune to polymorph effects unless you are a willing target. Once per day when you cast a polymorph spell on yourself, in addition to the normal effects of the spell, you can choose to gain a fly speed of 60 feet (average maneuverability), a swim speed of 60 feet, or an increase to your base land speed of 30 feet.",
 			">",
-			">*Amorphous Anatomy (Su):* At 20th level, your vital organs shift position, and as a rule they are constantly changing their shape and size to best protect you. You gain immunity to critical hits and sneak attacks. In addition, you gain {umr/blindsight} with a range of 60 feet and damage reduction 5/-. You automatically recover from physical {misc/blind/ness} or {misc/deaf/ness} after 1 round by growing new sensory organs to replace the compromised ones; you cannot otherwise regenerate lost body parts."
+			">*Amorphous Anatomy (Su):* At 20th level, your vital organs shift position, and as a rule they are constantly changing their shape and size to best protect you. You gain immunity to critical hits and sneak attacks. In addition, you gain {umr/blindsight} with a range of 60 feet and damage reduction 5/-. You automatically recover from physical {misc/blindness} or {misc/deaf/ness} after 1 round by growing new sensory organs to replace the compromised ones; you cannot otherwise regenerate lost body parts."
 		]
 	},
 	"solar": {
@@ -1752,7 +1752,7 @@
 			">",
 			">*Breaching the Gulf (Sp):* At 15th level, your caster level is increased by 3 when casting spells of the teleportation subschool. In addition, once per day you can teleport a single creature within 30 feet into the void of space if it fails a Will save. The save DC is equal to 10 + 1/2 your sorcerer level + your Charisma modifier. The target can attempt a new saving throw as a full-round action each round to return. While trapped in the airless void, the target takes 6d6 points of cold damage per round and must hold its breath or begin to suffocate.",
 			">",
-			">*Starborn (Ex):* At 20th level, you gain immunity to cold and {misc/blind/ness}, and you can see perfectly in natural or magical darkness. In addition, you gain {umr/fast healing} 1 when you are outdoors at night.",
+			">*Starborn (Ex):* At 20th level, you gain immunity to cold and {misc/blindness}, and you can see perfectly in natural or magical darkness. In addition, you gain {umr/fast healing} 1 when you are outdoors at night.",
 			"",
 			"::h3[Void-Touched (Wildblooded Mutation)]{jl}",
 			"",
@@ -1946,7 +1946,7 @@
 			"",
 			">*Bonded Object (Sp):* At 1st level, you gain [an arcane bond](class/wizard), per a wizard equal to your sorcerer level, with an object constructed by a long-lost civilization. Your sorcerer levels stack with any wizard levels you have when determining the powers of your bonded object. This ability does not allow you to have both a familiar and a bonded object. Once per day, your bonded object allows you to cast any one of your spells known and increase the save DC of that spell by 1.",
 			">",
-			">*Restored Glory (Su):* At 3rd level, objects in your possession with the {rule/broken>_and_fragile} condition function as if they did not have the broken condition, though if they reach 0 hit points they are destroyed as normal. At 9th level, destroyed objects (objects with 0 hit points) in your possession function and appear as if they had only the broken condition, though if they reach a number of negative hit points equal to your level, they become fully destroyed and don't function at all, even in your possession. At 15th level, destroyed objects in your possession function and appear as if fully repaired, though they can become fully destroyed as described above. Destroyed objects must have physical pieces left to be affected by this ability. Objects that leave your possession are affected normally by these conditions. This ability does not affect artifacts.",
+			">*Restored Glory (Su):* At 3rd level, objects in your possession with the {misc/broken} condition function as if they did not have the broken condition, though if they reach 0 hit points they are destroyed as normal. At 9th level, destroyed objects (objects with 0 hit points) in your possession function and appear as if they had only the broken condition, though if they reach a number of negative hit points equal to your level, they become fully destroyed and don't function at all, even in your possession. At 15th level, destroyed objects in your possession function and appear as if fully repaired, though they can become fully destroyed as described above. Destroyed objects must have physical pieces left to be affected by this ability. Objects that leave your possession are affected normally by these conditions. This ability does not affect artifacts.",
 			">",
 			">*Call Ancestor (Sp):* At 9th level, once per day, you can spend a standard action to grant a long-dead relative a brief facsimile of life. This functions as the {spell/lesser simulacrum} spell, except the simulacrum lasts only 1 round per sorcerer level you have, has the same statistics as you, and always has the likeness of an ancestor. In addition, the simulacrum has lost knowledge from the past. When summoning the simulacrum, select one Knowledge skill. The simulacrum is considered trained in that skill and has a bonus on Knowledge checks of this type equal to twice your level plus your Intelligence modifier. The simulacrum is under your control, but it cannot attack or take hostile actions. At 17th level, you can use this ability twice per day. At 20th level, you can use this ability three times per day. You cannot have more than one ancestor simulacrum active at any one time.",
 			">",

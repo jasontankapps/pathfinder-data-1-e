@@ -3080,7 +3080,7 @@
 			"",
 			":HL[Finesse (3 DP):] The weapon can be used with {feat/Weapon Finesse} as if it were a light weapon. Only one-handed and exotic melee weapons can have this quality.",
 			"",
-			":HL[Fragile (-1 DP):] The weapon gains the [fragile](rule/broken_and_fragile) special weapon feature.",
+			":HL[Fragile (-1 DP):] The weapon gains the {misc/fragile} special weapon feature.",
 			"",
 			":HL[Improved Critical Multiplier (Varies):] Increase the weapon's critical multiplier by 1. This quality can be selected twice. It costs 3 DP the first time it is selected, and 6 DP the second time. It can be selected only once if the weapon has the improved critical threat range quality, in which case the Design Point cost is doubled.",
 			"",

@@ -2316,7 +2316,7 @@
 			"{SOURCE Technology Guide/10}  ",
 			"**School** {spelldef/transmutation}; **Level** arcanist 7, cleric 7, oracle 7, sorcerer 7, wizard 7  ",
 			"**Casting Time** 1 standard action  ",
-			"**Components** V, S, powdered skymetal worth 10,000 gp  ",
+			"**Components** V, S, powdered {eq-material/skymetal} worth 10,000 gp  ",
 			"**Range** touch  ",
 			"**Target** object or construct touched  ",
 			"**Duration** instantaneous  ",
