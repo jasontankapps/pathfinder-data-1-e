@@ -318,7 +318,7 @@
 		},
 		"topLink": [ "Barbarian", "class/barbarian" ]
 	},
-	"tricks": {
+	"animal_tricks": {
 		"name": "Animal Tricks",
 		"sources": [
 			"Animal Archive",
@@ -510,7 +510,7 @@
 			"## Animal Companion Tricks",
 			"",
 			"{SOURCE Ultimate Wilderness/214}  ",
-			"Certain {ability/tricks} can only be taught to {sidekick/animal companion/s}, and often require the animal to have specific characteristics. They otherwise follow the rules for [teaching tricks](skill/handle_animal).",
+			"Certain {ability/animal tricks} can only be taught to {sidekick/animal companion/s}, and often require the animal to have specific characteristics. They otherwise follow the rules for [teaching tricks](skill/handle_animal).",
 			"",
 			"---",
 			"",

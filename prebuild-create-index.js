@@ -58,7 +58,7 @@ const get = (filename, logError = false) => {
 		return fs.readFileSync(filename, 'utf8');
 	} catch (err) {
 		if (err.code === 'ENOENT') {
-			logError && console.error(filename + ' does not exist');
+			logError && console.error(`>>>ERROR>>> ${filename} does not exist.`);
 			return "";
 		}
 		throw err;
@@ -79,17 +79,17 @@ Object.entries(basic_data_groups).forEach(([file, groupobject]) => {
 		const { name: n, title, copyof, subtitle, tags, searchgroup: sg2, alternateOf, type: typeOverride } = value;
 		typeOverride && recordType(typeOverride);
 		if(copyof && !data[copyof]) {
-			console.log(`${file}.${prop}.copyof = [${copyof}], not found in same file`);
+			console.log(`>>>ERROR>>> ${file}.${prop}.copyof = [${copyof}], not found in same file`);
 			return;
 		} else if (alternateOf && !data[alternateOf]) {
-			console.log(`${file}.${prop}.alternateOf = [${alternateOf}], not found in same file`);
+			console.log(`>>>ERROR>>> ${file}.${prop}.alternateOf = [${alternateOf}], not found in same file`);
 			return;
 		}
 		if(prop === "not_found") {
 			// Skip, no need to put this in group data or search index
 			return;
 		} else if (num && $groupingData[link][prop]) {
-			console.log(`Duplicate [${prop}] in ${link} <${file}>`);
+			console.log(`>>>ERROR>>> Duplicate [${prop}] in ${link} <${file}>`);
 		}
 		if (num) {
 			// This is a part of a multi-file group.
@@ -105,7 +105,7 @@ Object.entries(basic_data_groups).forEach(([file, groupobject]) => {
 				cc = data[cc.copyof];
 			}
 			if(!cc) {
-				console.log(`${file}.${prop}.copyof = [${copyof}], which does not lead to a stable entry`);
+				console.log(`>>>ERROR>>> ${file}.${prop}.copyof = [${copyof}], which does not lead to a stable entry`);
 			} else {
 				$allIncludingCopies.push([`${link}/${prop}`, cc.name || "BLANK"]);
 			}

@@ -16,7 +16,7 @@
 			"",
 			"{SOURCE Technology Guide/39}  ",
 			"**Price** 10 gp (black), 360 gp (blue), 3 gp (brown), 90 gp (gray), 160 gp (green), 490 gp (orange), 1,000 gp (prismatic), 250 gp (red), 40 gp (white)  ",
-			"**Slot** none; **Weight** &mdash; (black), &mdash; (blue), &mdash; (brown), &mdash; (gray), &mdash; (green), &mdash; (orange), &mdash; (prismatic), &mdash; (red), &mdash; (white)  ",
+			"**Slot** none; **Weight** &mdash; (all)  ",
 			"**Capacity** -; **Usage** -",
 			"",
 			"### Construction",
@@ -70,7 +70,7 @@
 			"",
 			"{SOURCE Technology Guide/43}  ",
 			"**Price** 100 gp (black), 3,600 gp (blue), 30 gp (brown), 900 gp (gray), 1,600 gp (green), 4,900 gp (orange), 10,000 gp (prismatic), 2,500 gp (red), 400 gp (white)  ",
-			"**Slot** none; **Weight** 1 lb. (black), 1 lb. (blue), 1 lb. (brown), 1 lb. (gray), 1 lb. (green), 1 lb. (orange), 1 lb. (prismatic), 1 lb. (red), 1 lb. (white)  ",
+			"**Slot** none; **Weight** 1 lb. (all)  ",
 			"**Capacity** 10; **Usage** 1 charge",
 			"",
 			"### Construction",
@@ -144,7 +144,7 @@
 			"",
 			"{SOURCE Technology Guide/49}  ",
 			"**Price** 2,000 gp (black), 72,000 gp (blue), 600 gp (brown), 18,000 gp (gray), 32,000 gp (green), 98,000 gp (orange), 200,000 gp (prismatic), 50,000 gp (red), 8,000 gp (white)  ",
-			"**Slot** none; **Weight** 5 lbs. (black), 5 lbs. (blue), 5 lbs. (brown), 5 lbs. (gray), 5 lbs. (green), 5 lbs. (orange), 5 lbs. (prismatic), 5 lbs. (red), 5 lbs. (white)  ",
+			"**Slot** none; **Weight** 5 lbs. (all)  ",
 			"**Capacity** 10; **Usage** 10 charges",
 			"",
 			"### Construction",
@@ -218,8 +218,12 @@
 			"",
 			"Most Numerian technological items are powered by electricity. While one can use the electricity provided by a generator, these are rare, expensive, and rarely portable. It's more common and practical to charge such items with batteries. A battery looks like a small silver disk that's etched with strange lines - the people of Numeria have taken to calling batteries \"silverdisks\" and sometimes use them as coins. A battery contains 10 charges when full; to charge an item with a battery, one simply slips the disk-shaped device into the proper slot on the item. The battery's charge instantly fully depletes, and the item's internal capacitors fill with 10 charges as it does so. If the item had fewer than 10 open slots in its capacity, the excess charges the battery once held are lost. A battery can be kept within an object indefinitely, or it can be ejected from the object for the purposes of recharging it or storing it elsewhere without affecting the item's charge. Inserting or ejecting a battery is a move action.",
 			"",
-			"Placing a battery in a generator's charging slot can recharge it. However, each time a battery is recharged, there's a 20% chance that the battery is destroyed in the process. A destroyed battery is worth only 10 gp. The bulk of Numerian \"silverdisks\" in circulation today are destroyed batteries; one can tell a functional battery from a destroyed one by the way the circuitry seems to shimmer slightly when reflecting light. The circuitry in a charged battery glows with a soft blue radiance equal to that of a candle."
+			"Placing a battery in a generator's charging slot can recharge it. However, each time a battery is recharged, there's a 20% chance that the battery is destroyed in the process. A destroyed battery is worth only 10 gp. The bulk of Numerian \"silverdisks\" in circulation today are destroyed batteries; one can tell a functional battery from a destroyed one by the way the circuitry seems to shimmer slightly when reflecting light. The circuitry in a charged battery glows with a soft blue radiance equal to that of a {eq-misc/candle}."
 		]
+	},
+	"silverdisk": {
+		"name": "Silverdisk",
+		"copyof": "battery"
 	},
 	"power_cable": {
 		"name": "Power cable",
@@ -256,11 +260,7 @@
 			"**Craft DC** 30; **Cost** 2,500 gp  ",
 			"{feat/Craft Technological Item}, {rule/crafting<production| lab>oratories}",
 			"",
-			"A power receiver is a device that attaches to any technological item's battery slot. The power receiver is then set to the same frequency as a nearby power generator capable of broadcasting power, after which the device draws power from the generator as if it were attached via a power cable. The generator determines the range at which the device can draw power; this signal can be enhanced by a {tech-misc/signal booster} or blocked by a {tech-misc/signal jammer}.",
-			"",
-			"### On Signals",
-			"",
-			"Some items, like {tech-misc/chipfinder/s>_brown}, {tech-misc/commset/s}, and {tech-misc/detonator/s}, can remotely interact with other objects via signals. Signals have a maximum range set by the device. Furthermore, a signal cannot penetrate solid barriers well. A signal is blocked by 1 foot of metal, 5 feet of stone, or 20 feet of organic matter. {tech-misc/Force field/s>_brown} do not block signals at all. {tech-misc/Signal booster/s} and {tech-misc/signal jammer/s} can also affect signal range."
+			"A power receiver is a device that attaches to any technological item's battery slot. The power receiver is then set to the same frequency as a nearby {tech-artifact/power generator} capable of broadcasting power, after which the device draws power from the generator as if it were attached via a {tech-misc/power cable}. The generator determines the range at which the device can draw power; this {misc/signal} can be enhanced by a {tech-misc/signal booster} or blocked by a {tech-misc/signal jammer}."
 		]
 	},
 	"cylex": {
@@ -298,127 +298,8 @@
 			"**Craft DC** 23; **Cost** 250 gp  ",
 			"{feat/Craft Technological Arms and Armor}, {rule/crafting<military| lab>oratories}",
 			"",
-			"A detonator is a small device that can be used to trigger {tech-cyber/cranial bomb/s}, {tech-misc/cylex}, and other explosives remotely. While an explosive is being set, the user can key the explosive to a detonator with a standard action that costs the detonator one charge. Once the explosive is keyed, as a standard action the user can push a button to trigger the explosive. A typical detonator has a range of 1,000 feet, though some may have a reduced range (intentionally or otherwise) and others might be enhanced by a {tech-misc/signal booster}.",
-			"",
-			"### On Signals",
-			"",
-			"Some items, like {tech-misc/chipfinder/s>_brown}, {tech-misc/commset/s}, and detonators, can remotely interact with other objects via signals. Signals have a maximum range set by the device. Furthermore, a signal cannot penetrate solid barriers well. A signal is blocked by 1 foot of metal, 5 feet of stone, or 20 feet of organic matter. {tech-misc/Force field/s>_brown} do not block signals at all. {tech-misc/Signal booster/s} and {tech-misc/signal jammer/s} can also affect signal range."
+			"A detonator is a small device that can be used to trigger {tech-cyber/cranial bomb/s}, {tech-misc/cylex}, and other explosives remotely. While an explosive is being set, the user can key the explosive to a detonator with a standard action that costs the detonator one charge. Once the explosive is keyed, as a standard action the user can push a button to trigger the explosive. A typical detonator has a {misc/signal} range of 1,000 feet, though some may have a reduced range (intentionally or otherwise) and others might be enhanced by a {tech-misc/signal booster}."
 		]
-	},
-	"grenade_arc_grenade": {
-		"name": "Grenade (arc grenade)",
-		"sources": [ "Technology Guide" ],
-		"description": [
-			"## Grenade (arc grenade)",
-			"",
-			"{SOURCE Technology Guide/46}  ",
-			"**Price** 750 gp (arc grenade), 6,000 gp (atom grenade), 250 gp (bang grenade), 3,300 gp (bio grenade), 750 gp (concussion grenade), 750 gp (EMP grenade), 750 gp (flash grenade), 750 gp (flechette grenade), 750 gp (fragmentation grenade), 2,250 gp (gravity grenade), 750 gp (inferno grenade), 1,600 gp (plasma grenade), 750 gp (soft grenade), 1,000 gp (sonic grenade), 750 gp (zero grenade)  ",
-			"**Slot** none; **Weight** 1 lb. (arc grenade), 1 lb. (atom grenade), 1 lb. (bang grenade), 1 lb. (bio grenade), 1 lb. (concussion grenade), 1 lb. (EMP grenade), 1 lb. (flash grenade), 1 lb. (flechette grenade), 1 lb. (fragmentation grenade), 1 lb. (gravity grenade), 1 lb. (inferno grenade), 1 lb. (plasma grenade), 1 lb. (soft grenade), 1 lb. (sonic grenade), 1 lb. (zero grenade)  ",
-			"**Capacity** -; **Usage** disposable",
-			"",
-			"### Construction",
-			"",
-			"**Craft DC** 20 (arc grenade), DC 20 (atom grenade), DC 20 (bang grenade), DC 20 (bio grenade), DC 20 (concussion grenade), DC 20 (EMP grenade), DC 20 (flash grenade), DC 20 (flechette grenade), DC 20 (fragmentation grenade), DC 20 (gravity grenade), DC 20 (inferno grenade), DC 20 (plasma grenade), DC 20 (soft grenade), DC 20 (sonic grenade), DC 20 (zero grenade)  ",
-			"**Cost** 375 gp (arc grenade), 3,000 gp (atom grenade), 125 gp (bang grenade), 1,650 gp (bio grenade), 375 gp (concussion grenade), 375 gp (EMP grenade), 375 gp (flash grenade), 375 gp (flechette grenade), 375 gp (fragmentation grenade), 1,125 gp (gravity grenade), 375 gp (inferno grenade), 800 gp (plasma grenade), 375 gp (soft grenade), 500 gp (sonic grenade), 375 gp (zero grenade)  ",
-			"{feat/Craft Technological Arms and Armor}, {rule/crafting<military| lab>oratories}",
-			"",
-			"A grenade is a small, cylindrical device that is designed to be thrown as a splash weapon or fired from a {tech-weapon/grenade launcher}. Before being thrown by hand, the grenade must be primed with a quick twist of a dial at one end and then armed with a click of a button at the center of that dial. Priming and arming a grenade is a free action; a grenade launcher primes and arms all grenades it fires. The grenade detonates at the beginning of the wielder's next turn, hopefully in the area targeted. When a grenade detonates, it damages all targets within a 20-foot-radius {misc/spread}. A successful DC 15 Reflex save halves any damage dealt by a grenade.",
-			"",
-			"The type of damage dealt by grenades varies widely and depends upon the nature of the specific grenade. The different types of grenades and the damage types they deal (along with any additional effects their damage deals) are listed below.",
-			"",
-			"- *Arc Grenade:* Deals 5d6 points of electricity damage.",
-			"- *Atom Grenade:* Creates a 20-foot-radius area of medium radiation that persists for 24 hours.",
-			"- *Bang Grenade:* Deals no damage but staggers creatures for 1 round and deafens them for 1d4 rounds (DC 15 Fortitude save negates).",
-			"- *Bio Grenade:* Infects creatures who fail a DC 15 Fortitude save with bubonic plague (no onset).",
-			"- *Concussion Grenade:* Deals 5d6 points of bludgeoning damage.",
-			"- *EMP Grenade:* Deals 5d6 points of electricity damage to robots and electronic-based gear, half damage to cyborgs and androids, and no damage to other creatures.",
-			"- *Flash Grenade:* Blinds creatures for 1d4 rounds (DC 15 Fortitude save negates).",
-			"- *Flechette Grenade:* Deals 5d6 points of piercing damage.",
-			"- *Fragmentation Grenade:* Deals 5d6 points of slashing damage.",
-			"- *Gravity Grenade:* Deals 5d6 points of force damage. Creatures damaged by a gravity grenade are automatically subjected to a trip attack (grenade's CMB = +15).",
-			"- *Inferno Grenade:* Deals 5d6 points of fire damage.",
-			"- *Plasma Grenade:* Deals 4d6 points of fire damage and 4d6 points of electricity damage.",
-			"- *Soft Grenade:* Deals 5d6 points of nonlethal damage.",
-			"- *Sonic Grenade:* Deals 5d6 points of sonic damage; creatures who fail a DC 15 Fortitude save are also deafened for 1d4 rounds.",
-			"- *Zero Grenade:* Deals 5d6 points of cold damage."
-		]
-	},
-	"arc_grenade": { "copyof": "grenade_arc_grenade" },
-	"grenade_atom_grenade": {
-		"name": "Grenade (atom grenade)",
-		"copyof": "grenade_arc_grenade"
-	},
-	"grenade_bang_grenade": {
-		"name": "Grenade (bang grenade)",
-		"copyof": "grenade_arc_grenade"
-	},
-	"grenade_bio_grenade": {
-		"name": "Grenade (bio grenade)",
-		"copyof": "grenade_arc_grenade"
-	},
-	"grenade_concussion_grenade": {
-		"name": "Grenade (concussion grenade)",
-		"copyof": "grenade_arc_grenade"
-	},
-	"grenade_emp_grenade": {
-		"name": "Grenade (emp grenade)",
-		"copyof": "grenade_arc_grenade"
-	},
-	"grenade_flash_grenade": {
-		"name": "Grenade (flash grenade)",
-		"copyof": "grenade_arc_grenade"
-	},
-	"grenade_flechette_grenade": {
-		"name": "Grenade (flechette grenade)",
-		"copyof": "grenade_arc_grenade"
-	},
-	"grenade_fragmentation_grenade": {
-		"name": "Grenade (fragmentation grenade)",
-		"copyof": "grenade_arc_grenade"
-	},
-	"grenade_gas_grenade": {
-		"name": "Grenade (gas grenade)",
-		"sources": [ "Pathfinder #86: Lords of Rust" ],
-		"description": [
-			"## Grenade (gas grenade)",
-			"",
-			"{SOURCE Pathfinder #86: Lords of Rust/62}  ",
-			"**Price** 750 gp  ",
-			"**Slot** none; **Weight** 1 lb.  ",
-			"**Capacity** 1; **Usage** disposable",
-			"",
-			"### Construction",
-			"",
-			"**Craft DC** 20; **Cost** 375 gp  ",
-			"{feat/Craft Technological Arms and Armor}, {rule/crafting<military| lab>oratories}",
-			"",
-			"A gas grenade is a small, cylindrical device that is designed to be thrown as a splash weapon or fired from a grenade launcher. Before being thrown by hand, the grenade must be primed with a quick twist of a dial at one end and then armed with a click of a button at the center of that dial. The grenade detonates at the beginning of the wielder's next turn, hopefully in the area targeted. When a gas grenade detonates, it creates a 20-foot {misc/spread} of foul-smelling toxic gas. All creatures in this area of effect must succeed at a DC 14 Fortitude save or become nauseated. This condition lasts as long as the creature is in the cloud and for 1d4+1 rounds after it leaves. The gas created lingers in the area for 5 rounds, and any creature that succeeds at its initial save but remains in the cloud must continue to save each round on its turn. The gas is not thick enough to obscure vision, and is a poison effect. The vapors can be dispersed in 1 round by moderate or stronger wind."
-		]
-	},
-	"grenade_gravity_grenade": {
-		"name": "Grenade (gravity grenade)",
-		"copyof": "grenade_arc_grenade"
-	},
-	"grenade_inferno_grenade": {
-		"name": "Grenade (inferno grenade)",
-		"copyof": "grenade_arc_grenade"
-	},
-	"grenade_plasma_grenade": {
-		"name": "Grenade (plasma grenade)",
-		"copyof": "grenade_arc_grenade"
-	},
-	"grenade_soft_grenade": {
-		"name": "Grenade (soft grenade)",
-		"copyof": "grenade_arc_grenade"
-	},
-	"soft_grenade": { "copyof": "grenade_soft_grenade" },
-	"grenade_sonic_grenade": {
-		"name": "Grenade (sonic grenade)",
-		"copyof": "grenade_arc_grenade"
-	},
-	"grenade_zero_grenade": {
-		"name": "Grenade (zero grenade)",
-		"copyof": "grenade_arc_grenade"
 	},
 	"chemalyzer": {
 		"name": "Chemalyzer",
@@ -459,7 +340,7 @@
 			"",
 			"The completed clone can remain in stasis inside the pod indefinitely as long as the seals are not broken. The clone created is alive, yet has no mind until a {tech-misc/neurocam} is used to upload a mind into the clone's brain. A clone has the same Strength, Dexterity, and Constitution scores of the original body. A clone that is awoken before any mind is uploaded into it has no Intelligence score, and its Wisdom and Charisma scores are both 1.",
 			"",
-			"Uploading a mind from a neurocam into a clone takes 10 minutes. If the mind belonged to the same creature that was used to grow the clone, it immediately comes back to life as if under the effects of a clone spell (including 2 negative levels or 2 points of Constitution drain) - provided the user's soul has not yet passed to the Boneyard and been judged. It possesses the same Intelligence, Wisdom, and Charisma of the original mind, all of that creature's skills, and most of the memories and personality of the creature (though there may be gaps or differences). A mind uploaded into a clone after its soul has been judged results in a soulless approximation of the original. Such a creature has its Charisma permanently reduced by 2 points (which cannot be restored), and has no ability to grow more powerful or gain levels (similar to a simulacrum).",
+			"Uploading a mind from a neurocam into a clone takes 10 minutes. If the mind belonged to the same creature that was used to grow the clone, it immediately comes back to life as if under the effects of a {spell/clone} spell (including 2 negative levels or 2 points of Constitution drain) - provided the user's soul has not yet passed to the Boneyard and been judged. It possesses the same Intelligence, Wisdom, and Charisma of the original mind, all of that creature's skills, and most of the memories and personality of the creature (though there may be gaps or differences). A mind uploaded into a clone after its soul has been judged results in a soulless approximation of the original. Such a creature has its Charisma permanently reduced by 2 points (which cannot be restored), and has no ability to grow more powerful or gain levels (similar to a {spell/simulacrum}).",
 			"",
 			"If the clone's body and mind are not from the same source, all six ability scores are permanently reduced by 2 points."
 		]
@@ -472,7 +353,7 @@
 			"",
 			"{SOURCE Technology Guide/42}  ",
 			"**Price** 30,250 gp (mark I), 60,500 gp (mark II), 90,750 gp (mark III), 121,000 gp (mark IV), 151,250 gp (mark V)  ",
-			"**Slot** none; **Weight** 1 lb. (mark I), 1 lb. (mark II), 1 lb. (mark III), 1 lb. (mark IV), 1 lb. (mark V)  ",
+			"**Slot** none; **Weight** 1 lb. (all)  ",
 			"**Capacity** 1 nanite canister; **Usage** disposable",
 			"",
 			"### Construction",
@@ -483,7 +364,7 @@
 			"",
 			"A cortex gun is an incredibly powerful device filled with nanites programmed for physical and mental enhancement. The gun is shaped like a hefty syringe with a handle and a small touch screen on which parameters can be programmed and adjusted to focus the nanites on a specific ability to augment. It can be programmed to enhance a Strength, Dexterity, Constitution, Intelligence, Wisdom, or Charisma score. Setting a cortex gun to affect one of these six abilities requires a character with the {feat/Technologist} feat succeeding at a DC 20 Linguistics check. On a failure, the programming is scrambled and non-functional until properly set. When a cortex gun is found as treasure, roll 1d8 to determine which ability score it's programmed to, with a result of 7-8 indicating that it's currently scrambled.",
 			"",
-			"A cortex gun is used by placing the tip against the target's forehead and pulling the trigger as a full-round action that provokes attacks of opportunity. This causes an adamantine needle to bore into the skull; the target must then succeed at a DC 25 Will saving throw to resist being stunned for 2d6 rounds. On a success, he's merely staggered for 1d4 rounds. If the cortex gun's programming was scrambled, the nanites die without doing any harm or aid to the target.",
+			"A cortex gun is used by placing the tip against the target's forehead and pulling the trigger as a full-round action that provokes attacks of opportunity. This causes an adamantine needle to bore into the skull; the target must then succeed at a DC 25 Will saving throw to resist being {misc/stunned} for 2d6 rounds. On a success, he's merely {misc/staggered} for 1d4 rounds. If the cortex gun's programming was scrambled, the nanites die without doing any harm or aid to the target.",
 			"",
 			"If the cortex gun was properly programmed to one of the six ability scores, the nanites swiftly disperse through the user's body, enhancing and augmenting that ability score over the course of several days. These augmentations are inherent bonuses, and increase the ability score by 1 every 24 hours that pass until the cortex gun's maximum bonus is reached.",
 			"",
@@ -610,7 +491,7 @@
 			"**Craft DC** 32; **Cost** 15,000 gp  ",
 			"{feat/Craft Technological Item}, {rule/crafting<production| lab>oratories}",
 			"",
-			"A mindmelder resembles a bulky helm designed to cover the skull, ears, and eyes of the wearer. When worn, it projects the user's thoughts into a virtual reality created from the user's mind, memories, and personality. As long as the user wears the mindmelder, his actual physical body is helpless and can take no actions. While in this virtual world, the user can rest and relax, gaining the benefits of such relaxation at a rapidly increased rate, as if under the effects of a nap stack spell. A creature may enjoy the benefits granted by this effect without that spell's normal once-per-week limitation. A mindmelder can also be used to enter established virtual realities stored in a computer within 60 feet, as detailed in Part 3 of this adventure."
+			"A mindmelder resembles a bulky helm designed to cover the skull, ears, and eyes of the wearer. When worn, it projects the user's thoughts into a virtual reality created from the user's mind, memories, and personality. As long as the user wears the mindmelder, his actual physical body is {misc/helpless} and can take no actions. While in this virtual world, the user can rest and relax, gaining the benefits of such relaxation at a rapidly increased rate, as if under the effects of a {spell/nap stack} spell. A creature may enjoy the benefits granted by this effect without that spell's normal once-per-week limitation. A mindmelder can also be used to enter established virtual realities stored in a computer within 60 feet."
 		]
 	},
 	"nanite_canister": {
@@ -640,7 +521,7 @@
 			"",
 			"{SOURCE Technology Guide/50}  ",
 			"**Price** 6,000 gp (black), 91,000 gp (blue), 1,000 gp (brown), 28,000 gp (gray), 45,000 gp (green), 125,000 gp (orange), 178,000 gp (prismatic), 66,000 gp (red), 15,000 gp (white)  ",
-			"**Slot** none; **Weight** 1 lb. (black), 1 lb. (blue), 1 lb. (brown), 1 lb. (gray), 1 lb. (green), 1 lb. (orange), 1 lb. (prismatic), 1 lb. (red), 1 lb. (white)  ",
+			"**Slot** none; **Weight** 1 lb. (all)  ",
 			"**Capacity** 1 nanite canister; **Usage** 1 charge or 5 charges",
 			"",
 			"### Construction",
@@ -771,7 +652,7 @@
 			"",
 			"{SOURCE Technology Guide/52}  ",
 			"**Price** 400 gp (mark I), 1,600 gp (mark II), 3,600 gp (mark III), 6,400 gp (mark IV), 10,000 gp (mark V)  ",
-			"**Slot** skillslot; **Weight** &mdash; (mark I), &mdash; (mark II), &mdash; (mark III), &mdash; (mark IV), &mdash; (mark V)  ",
+			"**Slot** skillslot; **Weight** &mdash; (all)  ",
 			"**Capacity** -; **Usage** -",
 			"",
 			"### Construction",
@@ -855,7 +736,7 @@
 			"",
 			"{SOURCE Technology Guide/53}  ",
 			"**Price** 400 gp (black), 20,000 gp (blue), 200 gp (brown), 6,000 gp (gray), 10,000 gp (green), 30,000 gp (orange), 50,000 gp (prismatic), 12,000 gp (red), 2,500 gp (white)  ",
-			"**Slot** veemod goggles; **Weight** &mdash; (black), &mdash; (blue), &mdash; (brown), &mdash; (gray), &mdash; (green), &mdash; (orange), &mdash; (prismatic), &mdash; (red), &mdash; (white)  ",
+			"**Slot** veemod goggles; **Weight** &mdash; (all)  ",
 			"**Capacity** -; **Usage** varies",
 			"",
 			"### Construction",
@@ -864,17 +745,17 @@
 			"**Cost** 200 gp (black), 10,000 gp (blue), 100 gp (brown), 3,000 gp (gray), 5,000 gp (green), 15,000 gp (orange), 25,000 gp (prismatic), 6,000 gp (red), 1,250 gp (white)  ",
 			"{feat/Craft Technological Item}, {rule/crafting<production| lab>oratories}",
 			"",
-			"A veemod (\"vision enhancement module\") is a narrow crystalline strip that slots into a set of veemod goggles to enhance the goggles' use. Inserting a veemod into a pair of goggles is a standard action that provokes attacks of opportunity. Veemods are color-coded items, and provide the following benefits.",
+			"A veemod (\"vision enhancement module\") is a narrow crystalline strip that slots into a set of {tech-misc/veemod goggles} to enhance the goggles' use. Inserting a veemod into a pair of goggles is a standard action that provokes attacks of opportunity. Veemods are color-coded items, and provide the following benefits.",
 			"",
-			"**Brown Veemod:** This veemod darkens the goggles' lenses, providing a +1 circumstance bonus on all saving throws against bright light effects that cause dazzling or blindness. When worn, they also allow creatures impacted by light blindness or light sensitivity to see normally in areas of bright light.  ",
+			"**Brown Veemod:** This veemod darkens the goggles' lenses, providing a +1 circumstance bonus on all saving throws against bright light effects that cause {misc/dazzl/ing>ed} or {misc/blindness}. When worn, they also allow creatures impacted by {umr/light blindness} or {umr/light sensitivity} to see normally in areas of bright light.  ",
 			"**Black Veemod:** A black veemod enhances vision, and by blinking twice rapidly, the wearer can magnify what she's seeing. Blinking twice again restores normal vision. This grants a +2 competence bonus on all Perception checks.  ",
 			"**White Veemod:** This veemod is similar to a black veemod, except that magnification is much stronger, granting a +5 competence bonus on Perception checks.  ",
 			"**Gray Veemod:** This veemod grants low-light vision.  ",
 			"**Green Veemod:** This veemod magnifies vision even more than a white veemod, granting a +10 competence bonus on Perception checks.  ",
 			"**Red Veemod:** This veemod grants darkvision to a range of 60 feet.  ",
-			"**Blue Veemod:** This veemod dramatically extends the scope of peripheral vision, granting the effects of all-around vision - the wearer cannot be flanked.  ",
-			"**Orange Veemod:** The wearer can see in darkness of any kind, including magical darkness.  ",
-			"**Prismatic Veemod:** This veemod allows the user to see through solid objects. Vision range is 20 feet, with the wearer seeing as if he were looking at something in normal light even if there is no illumination. X-ray vision can penetrate 20 feet of cloth, wood, or similar animal or vegetable material. It can see through up to 10 feet of stone and some metals. It can see through up to 10 inches of iron, steel, copper, brass, or similar metals. It cannot see through lead, gold, platinum, plutonium, or {eq-material/skymetal/s} at all. It's possible to scan an area of up to 100 square feet in 1 round. Secret compartments are 90% likely to be located by x-ray scanning.",
+			"**Blue Veemod:** This veemod dramatically extends the scope of peripheral vision, granting the effects of {umr/all-around vision} - the wearer cannot be {rule/flank/ed>ing}.  ",
+			"**Orange Veemod:** The wearer can {umr/see in darkness} of any kind, including magical darkness.  ",
+			"**Prismatic Veemod:** This veemod allows the user to see through solid objects. Vision range is 20 feet, with the wearer seeing as if he were looking at something in normal light even if there is no illumination. {umr/X-ray vision} can penetrate 20 feet of cloth, wood, or similar animal or vegetable material. It can see through up to 10 feet of stone and some metals. It can see through up to 10 inches of iron, steel, copper, brass, or similar metals. It cannot see through lead, gold, platinum, plutonium, or {eq-material/skymetal/s} at all. It's possible to scan an area of up to 100 square feet in 1 round. Secret compartments are 90% likely to be located by x-ray scanning.",
 			"",
 			"| Color | Effect | Usage |",
 			"| --- | --- | --- |",
@@ -937,7 +818,7 @@
 			"**Craft DC** 25; **Cost** 500 gp  ",
 			"{feat/Craft Technological Item}, {rule/crafting<production| lab>oratories}",
 			"",
-			"These goggles come in a variety of colors and shapes, but most are sleek and streamlined in appearance. The primary use for these goggles is to enhance vision via the application of a \"vision enhancement module,\" or \"veemod.\" A pair of veemod goggles can be fitted with only one veemod at a time; attaching a veemod is a standard action that provokes an attack of opportunity.",
+			"These goggles come in a variety of colors and shapes, but most are sleek and streamlined in appearance. The primary use for these goggles is to enhance vision via the application of a \"vision enhancement module,\" or \"veemod.\" A pair of veemod goggles can be fitted with only one veemod at a time; attaching a {tech-misc/veemod>_brown} is a standard action that provokes an attack of opportunity.",
 			"",
 			"Veemod goggles consume charges only when a veemod is installed. The rate at which a veemod uses charges depends on the veemod installed."
 		]
@@ -969,7 +850,7 @@
 			"",
 			"{SOURCE Technology Guide/40}  ",
 			"**Price** 3,000 gp (black), 45,500 gp (blue), 500 gp (brown), 14,000 gp (gray), 22,500 gp (green), 60,000 gp (orange), 76,500 gp (prismatic), 33,000 gp (red), 7,500 gp (white)  ",
-			"**Slot** none; **Weight** 4 lbs. (black), 4 lbs. (blue), 4 lbs. (brown), 4 lbs. (gray), 4 lbs. (green), 4 lbs. (orange), 4 lbs. (prismatic), 4 lbs. (red), 4 lbs. (white)  ",
+			"**Slot** none; **Weight** 4 lbs. (all)  ",
 			"**Capacity** 10; **Usage** 1 charge/hour",
 			"",
 			"### Construction",
@@ -978,7 +859,7 @@
 			"**Cost** 1,500 gp (black), 22,750 gp (blue), 500 gp (brown), 7,000 gp (gray), 11,250 gp (green), 30,000 gp (orange), 38,250 gp (prismatic), 16,500 gp (red), 3,750 gp (white)  ",
 			"{feat/Craft Technological Item}, {rule/crafting<production| lab>oratories}",
 			"",
-			"A chipfinder is a handheld device fitted with a circular screen. When a chipfinder is activated, all active {tech-misc/tracker chip/s} within a certain radius appear as glowing dots on the screen, indicating the direction and approximate distance to each installed tracker chip, as well identification number for each chip. The screen can filter out unwanted data to make it easier to track a specific chip. Chipfinders are color-coded items; the higher the chipfinder's color rating, the longer its range. This range is a signal, and can be enhanced by a {tech-misc/signal booster} or blocked by a solid enough barrier.",
+			"A chipfinder is a handheld device fitted with a circular screen. When a chipfinder is activated, all active {tech-misc/tracker chip/s} within a certain radius appear as glowing dots on the screen, indicating the direction and approximate distance to each installed tracker chip, as well identification number for each chip. The screen can filter out unwanted data to make it easier to track a specific chip. Chipfinders are color-coded items; the higher the chipfinder's color rating, the longer its range. This range is a {misc/signal}, and can be enhanced by a {tech-misc/signal booster} or blocked by a solid enough barrier.",
 			"",
 			"| Color | Range |",
 			"| --- | --- |",
@@ -990,11 +871,7 @@
 			"| Red | 10 miles |",
 			"| Blue | 50 miles |",
 			"| Orange | 100 miles |",
-			"| Prismatic | 500 miles |",
-			"",
-			"### On Signals",
-			"",
-			"Some items, like chipfinders, {tech-misc/commset/s}, and {tech-misc/detonator/s}, can remotely interact with other objects via signals. Signals have a maximum range set by the device. Furthermore, a signal cannot penetrate solid barriers well. A signal is blocked by 1 foot of metal, 5 feet of stone, or 20 feet of organic matter. {tech-misc/Force field/s>_brown} do not block signals at all. {tech-misc/Signal booster/s} and {tech-misc/signal jammer/s} can also affect signal range."
+			"| Prismatic | 500 miles |"
 		]
 	},
 	"chipfinder_blue": {
@@ -1045,11 +922,7 @@
 			"**Craft DC** 27; **Cost** 3,000 gp  ",
 			"{feat/Craft Technological Item}, {rule/crafting<production| lab>oratories}",
 			"",
-			"This handheld device allows for communication between two commset users. A commset carries audio and visual signals, and includes a builtin camera that can record all communications being broadcast. Communication between two commsets requires both users to tune their individual devices to the same frequency. A commset has a range of 1 mile - beyond this range, communication is impossible without enhancing the signal strength with a {tech-misc/signal booster}. The price and cost listed for this item are for a single commset.",
-			"",
-			"### On Signals",
-			"",
-			"Some items, like {tech-misc/chipfinder/s>_brown}, commsets, and {tech-misc/detonator/s}, can remotely interact with other objects via signals. Signals have a maximum range set by the device. Furthermore, a signal cannot penetrate solid barriers well. A signal is blocked by 1 foot of metal, 5 feet of stone, or 20 feet of organic matter. {tech-misc/Force field/s>_brown} do not block signals at all. {tech-misc/Signal booster/s} and {tech-misc/signal jammer/s} can also affect signal range."
+			"This handheld device allows for communication between two commset users. A commset carries audio and visual {misc/signal/s}, and includes a built-in camera that can record all communications being broadcast. Communication between two commsets requires both users to tune their individual devices to the same frequency. A commset has a range of 1 mile - beyond this range, communication is impossible without enhancing the signal strength with a {tech-misc/signal booster}. The price and cost listed for this item are for a single commset."
 		]
 	},
 	"emergency_beacon": {
@@ -1068,11 +941,7 @@
 			"**Craft DC** 25; **Cost** 450 gp  ",
 			"{feat/Craft Technological Item}, {rule/crafting<production| lab>oratories}",
 			"",
-			"An emergency beacon is a small, pod-shaped device that emits a bright red flash from a dome on its top once every 6 seconds when activated. The beacon also transmits its location. Any device capable of receiving signals of any sort can pick up a beacon's signal, which can then be tracked back to the source with a successful DC 15 Knowledge (engineering) or Survival check. A beacon's transmissions have a range of 100 miles over flat terrain, but this range is halved in forests or hills, and quartered in mountainous terrain or through water.",
-			"",
-			"### On Signals",
-			"",
-			"Some items, like {tech-misc/chipfinder/s>_brown}, {tech-misc/commset/s}, and {tech-misc/detonator/s}, can remotely interact with other objects via signals. Signals have a maximum range set by the device. Furthermore, a signal cannot penetrate solid barriers well. A signal is blocked by 1 foot of metal, 5 feet of stone, or 20 feet of organic matter. {tech-misc/Force field/s>_brown} do not block signals at all. {tech-misc/Signal booster/s} and {tech-misc/signal jammer/s} can also affect signal range."
+			"An emergency beacon is a small, pod-shaped device that emits a bright red flash from a dome on its top once every 6 seconds when activated. The beacon also transmits its location. Any device capable of receiving {misc/signal/s} of any sort can pick up a beacon's signal, which can then be tracked back to the source with a successful DC 15 Knowledge (engineering) or Survival check. A beacon's transmissions have a range of 100 miles over flat terrain, but this range is halved in forests or hills, and quartered in mountainous terrain or through water."
 		]
 	},
 	"emergency_raft": {
@@ -1129,9 +998,9 @@
 			"**Craft DC** 26; **Cost** 3,000 gp  ",
 			"{feat/Craft Technological Item}, {rule/crafting<production| lab>oratories}",
 			"",
-			"This cylindrical device has a nozzle at one end and a handle on one side. When activated as a standard action, a fire extinguisher creates a 15-foot cone of misty vapor that swiftly extinguishes fires within its area of effect. Against magical fire effects, such as those created by a wall of fire or similar spell, the fire extinguisher only extinguishes the part of the larger effect its vapors directly contact. Continual magic flames, such as those of a flaming weapon or fire creature, are suppressed for 6 rounds before they automatically reignite. To extinguish an instantaneous fire effect or spell, the wielder must use a readied action with the fire extinguisher to counter the effect; this can cancel the entire effect, provided the source of the effect is in the extinguisher's area of effect.",
+			"This cylindrical device has a nozzle at one end and a handle on one side. When activated as a standard action, a fire extinguisher creates a 15-foot cone of misty vapor that swiftly extinguishes fires within its area of effect. Against magical fire effects, such as those created by a {spell/wall of fire} or similar spell, the fire extinguisher only extinguishes the part of the larger effect its vapors directly contact. Continual magic flames, such as those of a {magic-enh/flaming} weapon or fire creature, are suppressed for 6 rounds before they automatically reignite. To extinguish an instantaneous fire effect or spell, the wielder must use a readied action with the fire extinguisher to counter the effect; this can cancel the entire effect, provided the source of the effect is in the extinguisher's area of effect.",
 			"",
-			"When used against a creature of the fire subtype, a blast from a fire extinguisher deals 4d6 points of damage (Reflex DC 15 halves). A breathing creature exposed to a direct blast from a fire extinguisher is not harmed as long as the area is relatively well-ventilated - using a fire extinguisher in a confined area with poor or no ventilation can result in slow suffocation (at the GM's discretion)."
+			"When used against a creature of the fire subtype, a blast from a fire extinguisher deals 4d6 points of damage (Reflex DC 15 halves). A breathing creature exposed to a direct blast from a fire extinguisher is not harmed as long as the area is relatively well-ventilated - using a fire extinguisher in a confined area with poor or no ventilation can result in slow {rule/suffocation} (at the GM's discretion)."
 		]
 	},
 	"flashlight": {
@@ -1161,7 +1030,7 @@
 			"",
 			"{SOURCE Technology Guide/45}  ",
 			"**Price** 20,000 gp (black), 120,000 gp (blue), 4,000 gp (brown), 60,000 gp (gray), 80,000 gp (green), 140,000 gp (orange), 220,000 gp (prismatic), 100,000 gp (red), 40,000 gp (white)  ",
-			"**Slot** wrist; **Weight** 1 lb. (black), 1 lb. (blue), 1 lb. (brown), 1 lb. (gray), 1 lb. (green), 1 lb. (orange), 1 lb. (prismatic), 1 lb. (red), 1 lb. (white)  ",
+			"**Slot** wrist; **Weight** 1 lb. (all)  ",
 			"**Capacity** varies; **Usage** 1 charge/minute",
 			"",
 			"### Construction",
@@ -1170,11 +1039,11 @@
 			"**Cost** 10,000 gp (black), 60,000 gp (blue), 2,000 gp (brown), 30,000 gp (gray), 40,000 gp (green), 70,000 gp (orange), 110,000 gp (prismatic), 50,000 gp (red), 20,000 gp (white)  ",
 			"{feat/Craft Technological Item}, {rule/crafting<graviton| lab>oratories}",
 			"",
-			"Force fields are powered by a surprisingly light pair of slender, silvery bracelets. When activated as a standard action, dozens of tiny biofeedback needles pierce the wearer's arms to interface with the nervous system; this process is somewhat painful and the wearer must succeed at a DC 15 Fortitude save to avoid being dazed for 1 round as the force field is activated. Once active, the device generates an invisible and intangible field of force around the target. The force field blocks solids and liquids, but not gases or light (including laser beams). The user of a force field can still breathe, but she cannot eat or drink.",
+			"Force fields are powered by a surprisingly light pair of slender, silvery bracelets. When activated as a standard action, dozens of tiny biofeedback needles pierce the wearer's arms to interface with the nervous system; this process is somewhat painful and the wearer must succeed at a DC 15 Fortitude save to avoid being {misc/dazed} for 1 round as the force field is activated. Once active, the device generates an invisible and intangible field of force around the target. The force field blocks solids and liquids, but not gases or light (including laser beams). The user of a force field can still breathe, but she cannot eat or drink.",
 			"",
-			"Activating a force field is a standard action that consumes 1 charge, after which point the field consumes 1 additional charge every minute it remains active. While a force field is active, the user gains a number of temporary hit points that varies depending on the force field's power. All damage dealt to the wearer of a force field is subtracted from the temporary hit points it grants first. As long as the force field is active, the wearer is immune to critical hits (but not precision-based damage, such as sneak attacks). A force field has fast healing that replenishes its temporary hit points at a fixed rate each round, but if the force field's temporary hit points are ever reduced to 0, the force field shuts down and cannot be reactivated for 24 hours. Force fields are automatically reduced to 0 hp by disintegration effects. A force field can be deactivated as a free action.",
+			"Activating a force field is a standard action that consumes 1 charge, after which point the field consumes 1 additional charge every minute it remains active. While a force field is active, the user gains a number of temporary hit points that varies depending on the force field's power. All damage dealt to the wearer of a force field is subtracted from the temporary hit points it grants first. As long as the force field is active, the wearer is immune to critical hits (but not precision-based damage, such as {ability/sneak attack/s}). A force field has {umr/fast healing} that replenishes its temporary hit points at a fixed rate each round, but if the force field's temporary hit points are ever reduced to 0, the force field shuts down and cannot be reactivated for 24 hours. Force fields are automatically reduced to 0 hp by {spell/disintegrat/ion>e} effects. A force field can be deactivated as a free action.",
 			"",
-			"The charge capacity, amount of temporary hit points granted, and rate of {umr/fast healing} these temporary hit points have varies according to the force field's color code, as detailed below.",
+			"The charge capacity, amount of temporary hit points granted, and rate of fast healing these temporary hit points have varies according to the force field's color code, as detailed below.",
 			"",
 			"| Color | Capacity | Temp HP | Fast Healing |",
 			"| --- | --- | --- | --- |",
@@ -1245,7 +1114,7 @@
 			"**Craft DC** 26; **Cost** 1,000 gp  ",
 			"{feat/Craft Technological Item}, {rule/crafting<graviton| lab>oratories}",
 			"",
-			"A gravity clip is a small, disc-shaped device that can be attached to any melee weapon. Once mounted, the clip modulates the weapon's mass on the moment of impact, via the manipulation of the gravity fields around the weapon. Each successful hit against a target consumes a charge from a gravity clip and causes the damage from the hit to resolve as if the weapon were one size category larger than its actual size. This effect does not stack with similar effects, such as those granted by the spell lead blades."
+			"A gravity clip is a small, disc-shaped device that can be attached to any melee weapon. Once mounted, the clip modulates the weapon's mass on the moment of impact, via the manipulation of the gravity fields around the weapon. Each successful hit against a target consumes a charge from a gravity clip and causes the damage from the hit to resolve as if the weapon were {misc/one size category larger} than its actual size. This effect does not stack with similar effects, such as those granted by the spell {spell/lead blades}."
 		]
 	},
 	"grip_of_death": {
@@ -1265,7 +1134,7 @@
 			"{feat/Craft Technological Item}, {feat/Craft Wondrous Item}, {rule/crafting<graviton| lab>oratories}, {spell/enervation}, {spell/telekinesis}",
 			"",
 			"**Aura** moderate necromancy and transmutation  ",
-			"This black, wandlike object creates a narrow gravitational field that affects both body and soul. It duplicates the effects of telekinesis, but only to create a sustained force (maximum 250 lbs.) toward or away from the wielder, or to perform a bull rush, drag, or steal combat maneuver (CMB +15). The grip of death can perform combat maneuvers on incorporeal undead. If the user performs a successful combat maneuver against a living creature using the grip of death, the target gains 1 negative level as a portion of its soul is wrenched from its body. A living creature killed in this way becomes a spectre. Otherwise, the negative levels fade after 10 hours."
+			"This black, wandlike object creates a narrow gravitational field that affects both body and soul. It duplicates the effects of *telekinesis,* but only to create a sustained force (maximum 250 lbs.) toward or away from the wielder, or to perform a bull rush, drag, or steal {rule/combat maneuver>s} (CMB +15). The grip of death can perform combat maneuvers on incorporeal undead. If the user performs a successful combat maneuver against a living creature using the grip of death, the target gains 1 negative level as a portion of its soul is wrenched from its body. A living creature killed in this way becomes a {monster/spectre}. Otherwise, the negative levels fade after 10 hours."
 		]
 	},
 	"grippers": {
@@ -1284,7 +1153,7 @@
 			"**Craft DC** 14; **Cost** 50 gp  ",
 			"{feat/Craft Technological Item}, {rule/crafting<production| lab>oratories}",
 			"",
-			"Grippers are powerful, long-handled tools that resemble a blacksmith's tongs. Once they're set, they can be locked into place to grip an object. Used when attempting to pry open a stuck object (in a manner similar to the use of a crowbar), grippers grant a +2 circumstance bonus on Strength checks. When used to attach two devices, a set of grippers holds on with an effective Strength score of 24. Applying grippers to a creature and then locking the grippers to crush flesh and bone is a standard action that provokes an attack of opportunity and also requires a successful melee attack with an improvised weapon. Once locked, the grippers deal 1d4+7 points of damage."
+			"Grippers are powerful, long-handled tools that resemble a blacksmith's tongs. Once they're set, they can be locked into place to grip an object. Used when attempting to pry open a stuck object (in a manner similar to the use of a {eq-misc/crowbar}), grippers grant a +2 circumstance bonus on Strength checks. When used to attach two devices, a set of grippers holds on with an effective Strength score of 24. Applying grippers to a creature and then locking the grippers to crush flesh and bone is a standard action that provokes an attack of opportunity and also requires a successful melee attack with an {misc/improvised weapon}. Once locked, the grippers deal 1d4+7 points of damage."
 		]
 	},
 	"hologram_generator_brown": {
@@ -1295,7 +1164,7 @@
 			"",
 			"{SOURCE Technology Guide/47}  ",
 			"**Price** 1,000 gp (black), 50,000 gp (blue), 500 gp (brown), 4,000 gp (gray), 30,000 gp (green), 60,000 gp (orange), 90,000 gp (prismatic), 40,000 gp (red), 2,000 gp (white)  ",
-			"**Slot** none; **Weight** 1 lb. (black), 1 lb. (blue), 1 lb. (brown), 1 lb. (gray), 1 lb. (green), 1 lb. (orange), 1 lb. (prismatic), 1 lb. (red), 1 lb. (white)  ",
+			"**Slot** none; **Weight** 1 lb. (all)  ",
 			"**Capacity** varies; **Usage** 1 charge/round",
 			"",
 			"### Construction",
@@ -1435,7 +1304,7 @@
 			"",
 			"A jetpack can be operated in overdrive, giving the wearer a fly speed of 90 feet with clumsy maneuverability and consuming twice as many charges per round.",
 			"",
-			"While it is normally possible to wear an item in the shoulders slot as well as an item on the back, a jetpack's bulk precludes the wearer also using a backpack, handy haversack, or other items worn on the back."
+			"While it is normally possible to wear an item in the shoulders slot as well as an item on the back, a jetpack's bulk precludes the wearer also using a {eq-misc/backpack}, {magic-wondrous/handy haversack}, or other items worn on the back."
 		]
 	},
 	"laser_sight": {
@@ -1473,7 +1342,7 @@
 			"**Craft DC** 11; **Cost** 5 gp  ",
 			"{feat/Craft Technological Item}, {rule/crafting<production| lab>oratories}",
 			"",
-			"This small handheld tool creates a tiny open flame when activated. Once triggered, a lighter's flame (which gives illumination as a candle) continues to burn as long as the lighter's trigger is depressed, consuming energy at the rate of 1 charge per hour. The flame can be used to light larger items on fire, but is not large enough to cause significant damage on its own."
+			"This small handheld tool creates a tiny open flame when activated. Once triggered, a lighter's flame (which gives illumination as a `candle`) continues to burn as long as the lighter's trigger is depressed, consuming energy at the rate of 1 charge per hour. The flame can be used to light larger items on fire, but is not large enough to cause significant damage on its own."
 		]
 	},
 	"magboots": {
@@ -1549,7 +1418,7 @@
 			"**Craft DC** 27; **Cost** 1,000 gp  ",
 			"{feat/Craft Technological Item}, {rule/crafting<production| lab>oratories}",
 			"",
-			"This device measures radiation levels in a 120-foot-radius circle, as the {spell/detect radiation} spell. When activated, the device makes a soft clicking sound that changes in volume and frequency according to the radiation level encountered. A small screen on the top of the handheld device indicates the approximate source and strength of radiation in these areas, with red areas indicating severe radiation, yellow high radiation, green medium radiation, and blue low radiation. Areas with less radiation don't register on the device's screen."
+			"This device measures {rule/radiation} levels in a 120-foot-radius circle, as the {spell/detect radiation} spell. When activated, the device makes a soft clicking sound that changes in volume and frequency according to the radiation level encountered. A small screen on the top of the handheld device indicates the approximate source and strength of radiation in these areas, with red areas indicating severe radiation, yellow high radiation, green medium radiation, and blue low radiation. Areas with less radiation don't register on the device's screen."
 		]
 	},
 	"robojack": {
@@ -1587,11 +1456,7 @@
 			"**Craft DC** 24; **Cost** 4,500 gp  ",
 			"{feat/Craft Technological Item}, {rule/crafting<production| lab>oratories}",
 			"",
-			"This spherical object is the size of a human head. When it's activated, several panels on its surface fold back and extend dozens of arms tipped with cup-shaped flashing lights. Once activated, a signal booster amplifies the strength of any signal-based technology effect within 600 feet, doubling the effective range of the signal. For example, a {tech-misc/commset} normally has a range of 1 mile, but in the area of effect of a signal booster, this range increases to 2 miles.",
-			"",
-			"### On Signals",
-			"",
-			"Some items, like {tech-misc/chipfinder/s>_brown}, {tech-misc/commset/s}, and {tech-misc/detonator/s}, can remotely interact with other objects via signals. Signals have a maximum range set by the device. Furthermore, a signal cannot penetrate solid barriers well. A signal is blocked by 1 foot of metal, 5 feet of stone, or 20 feet of organic matter. {tech-misc/Force field/s>_brown} do not block signals at all. Signal boosters and {tech-misc/signal jammer/s} can also affect signal range."
+			"This spherical object is the size of a human head. When it's activated, several panels on its surface fold back and extend dozens of arms tipped with cup-shaped flashing lights. Once activated, a signal booster amplifies the strength of any {misc/signal}-based technology effect within 600 feet, doubling the effective range of the signal. For example, a {tech-misc/commset} normally has a range of 1 mile, but in the area of effect of a signal booster, this range increases to 2 miles."
 		]
 	},
 	"signal_jammer": {
@@ -1610,11 +1475,7 @@
 			"**Craft DC** 26; **Cost** 5,000 gp  ",
 			"{feat/Craft Technological Item}, {rule/crafting<production| lab>oratories}",
 			"",
-			"This small device emits a low, hissing sound when activated. While active, a white noise generator creates a 60-foot-radius {misc/spread} in which all signals are completely blocked.",
-			"",
-			"### On Signals",
-			"",
-			"Some items, like {tech-misc/chipfinder/s>_brown}, {tech-misc/commset/s}, and {tech-misc/detonator/s}, can remotely interact with other objects via signals. Signals have a maximum range set by the device. Furthermore, a signal cannot penetrate solid barriers well. A signal is blocked by 1 foot of metal, 5 feet of stone, or 20 feet of organic matter. {tech-misc/Force field/s>_brown} do not block signals at all. {tech-misc/Signal booster/s} and signal jammers can also affect signal range."
+			"This small device emits a low, hissing sound when activated. While active, a white noise generator creates a 60-foot-radius {misc/spread} in which all {misc/signal/s} are completely blocked."
 		]
 	},
 	"tracker_chip": {
@@ -1635,7 +1496,7 @@
 			"",
 			"A tracker chip appears to be a bit of metal the size of a small fingernail. Before a tracker chip activates, it must be implanted in a living creature just under the skin. This procedure takes 1 minute to perform. As part of the installation process, the installer attempts a Heal check, the result of which is the DC of noticing the implant. Once a chip is implanted, its ingenious bioelectric circuits are powered by nerve impulses in the implanted creature's body.",
 			"",
-			"Noticing an implanted tracker chip requires a full-round action to search the target creature and a successful Perception check equal to 10 + the result of the Heal check used to implant the chip. Extracting an installed tracker chip is a standard action that requires a slashing weapon or tool and deals 1 point of damage. Once installed, the tracker chip emits a signal that can be detected by any chipfinder in range. If removed from a body or its host dies, an activated tracked chip retains enough of a charge to continue to be detected by a chipfinder for 1 week."
+			"Noticing an implanted tracker chip requires a full-round action to search the target creature and a successful Perception check equal to 10 + the result of the Heal check used to implant the chip. Extracting an installed tracker chip is a standard action that requires a slashing weapon or tool and deals 1 point of damage. Once installed, the tracker chip emits a signal that can be detected by any {tech-misc/chipfinder>_brown} in range. If removed from a body or its host dies, an activated tracked chip retains enough of a charge to continue to be detected by a chipfinder for 1 week."
 		]
 	},
 	"zipstick": {

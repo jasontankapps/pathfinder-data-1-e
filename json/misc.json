@@ -615,5 +615,19 @@
 		"searchgroup": "rule",
 		"type": "Rule",
 		"topLink": [ "Alchemical Items", "main/equipment_alchemical" ]
+	},
+	"signal": {
+		"name": "Signals",
+		"subtitle": "Technology, Specific Campaigns",
+		"sources": [ "Technology Guide" ],
+		"description": [
+			"## Signals",
+			"",
+			"{SOURCE Technology Guide/43}  ",
+			"Some items, like {tech-misc/chipfinder/s>_brown}, {tech-misc/commset/s}, and {tech-misc/detonator/s}, can remotely interact with other objects via :HL[signals]. Signals have a maximum range set by the device. Furthermore, a signal cannot penetrate solid barriers well. A signal is blocked by 1 foot of metal, 5 feet of stone, or 20 feet of organic matter. {tech-misc/Force field/s>_brown} do not block signals at all. {tech-misc/Signal booster/s} and signal jammers can also affect signal range."
+		],
+		"searchgroup": "rule",
+		"type": "Rule",
+		"topLink": [ "Miscellaneous Tech", "main/tech_misc" ]
 	}
 }

@@ -1830,7 +1830,7 @@
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"{SOURCE Technology Guide/20}  ",
-			"Each [technological weapon](main/tech_weapons) has a full description, including a set of abbreviated statistics. This information is organized as follows.",
+			"Each {main/tech[nological] weapon>s} has a full description, including a set of abbreviated statistics. This information is organized as follows.",
 			"",
 			":HL[Price:] This is the cost (in gold pieces) to purchase the weapon if it's available for sale. As with magic weapons, a technological weapon can be sold by PCs for half this value.",
 			"",
@@ -2316,7 +2316,7 @@
 			"**Type** genetic, proximity **Perception DC** 28; **Disable Device** DC 20",
 			"",
 			"**Trigger** camera (Perception +15); **Reset** none  ",
-			"**Effect** one {tech-misc/grenade>_bang_grenade} worth 1,000 gp or less, multiple targets and saves (see grenade for rules)",
+			"**Effect** one {tech-weapon/bang_>grenade} worth 1,000 gp or less, multiple targets and saves (see grenade for rules)",
 			"",
 			"### Electrified Door",
 			"#### CR 11",
