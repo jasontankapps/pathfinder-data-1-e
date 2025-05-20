@@ -1812,11 +1812,13 @@
 		"tables": [
 			{
 				"id": "ioun stones table",
-				"headers": [ "Ioun Stone", "Strength", "Shape", "Effect", "Cost" ],
-				"types": [ null, null, null, null, "gp" ],
-				"alignments": [ true, null, null, true, null ],
-				"ripples": [0],
-				"sizes": [ 7, 5, 5, 8.5, 4 ],
+				"columns": [
+					{ "header": "Ioun Stone", "size": 7, "ripple": true, "align": "start" },
+					{ "header": "Strength", "size": 5 },
+					{ "header": "Shape", "size": 5 },
+					{ "header": "Effect", "size": 8.5 },
+					{ "header": "Cost", "type": "gp", "size": 4, "align": "start" }
+				],
 				"data": [
 					[ "{magic-ioun/Dull Gray>_stone}", "Flawed", "Stone", null, 25 ],
 					[ "{magic-ioun/Dull Gray>_stone}", "Cracked", "Stone", null, 25 ],

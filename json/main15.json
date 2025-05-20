@@ -14,7 +14,6 @@
 		"tables": [
 			{
 				"id": "cr 0 to 1/2 monsters table",
-				"headers": [ "Monster", "CR", "Type", "Size", "Alignment", "Description", "Str", "Dex", "Con", "Int", "Wis", "Cha", "BAB", "CMB", "CMD" ],
 				"filter": [
 					{
 						"col": 1,
@@ -36,10 +35,23 @@
 						"labels": ["LG", "LN", "LE", "NG", "N", "NE", "CN", "CE"]
 					}
 				],
-				"types": [ null, "num", null, "num", "num", 0, "num", "num", "num", "num", "num", "num", "num", "num", "num" ],
-				"alignments": [ true, null, null, null, null, true, null, null, null, null, null, null, null, null, null ],
-				"sizes": [ 8.5, 3.5, 5.5, 6, 5.5, 14.75, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5 ],
-				"ripples": [0],
+				"columns": [
+					{ "header": "Monster", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "CR", "type": "num", "size": 3.5 },
+					{ "header": "Type", "size": 5.5 },
+					{ "header": "Size", "type": "num", "size": 6 },
+					{ "header": "Alignment", "type": "num", "size": 5.5 },
+					{ "header": "Description", "unsortable": true, "size": 14.75, "align": "start" },
+					{ "header": "Str", "type": "num", "size": 3.5 },
+					{ "header": "Dex", "type": "num", "size": 3.5 },
+					{ "header": "Con", "type": "num", "size": 3.5 },
+					{ "header": "Int", "type": "num", "size": 3.5 },
+					{ "header": "Wis", "type": "num", "size": 3.5 },
+					{ "header": "Cha", "type": "num", "size": 3.5 },
+					{ "header": "BAB", "type": "num", "size": 3.5 },
+					{ "header": "CMB", "type": "num", "size": 3.5 },
+					{ "header": "CMD", "type": "num", "size": 3.5 }
+				],
 				"data": [
 					[ "{monster/Butterfly//Moth/ (Familiar)}", [ -10, "0" ], "vermin", [ 1, "diminutive" ], [ 4, "N" ], "This graceful winged insect is a riot of color that glides through the air like a flittering dream.", 1, 13, 4, [ -1, "&mdash;" ], 12, 7, 0, -3, 2 ],
 					[ "{monster/Slug, Leopard/ (Familiar)}", [ -10, "0" ], "vermin", [ 1, "diminutive" ], [ 4, "N" ], "This dark-yellow, hand-length slug is covered in a pattern of black spots and stripes.", 1, 4, 12, [ -1, "&mdash;" ], 7, 9, 0, -7, -2 ],
@@ -286,7 +298,6 @@
 		"tables": [
 			{
 				"id": "cr 1 to 2 monsters table",
-				"headers": [ "Monster", "CR", "Type", "Size", "Alignment", "Description", "Str", "Dex", "Con", "Int", "Wis", "Cha", "BAB", "CMB", "CMD" ],
 				"filter": [
 					{ "col": 1, "equals": [1, 2] },
 					{
@@ -304,10 +315,23 @@
 						"labels": ["LG", "LN", "LE", "NG", "N", "NE", "CG", "CN", "CE"]
 					}
 				],
-				"types": [ null, "num", null, "num", "num", 0, "num", "num", "num", "num", "num", "num", "num", "num", "num" ],
-				"alignments": [ true, null, null, null, null, true, null, null, null, null, null, null, null, null, null ],
-				"sizes": [ 8.5, 3.5, 5.5, 6, 5.5, 14.75, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5 ],
-				"ripples": [0],
+				"columns": [
+					{ "header": "Monster", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "CR", "type": "num", "size": 3.5 },
+					{ "header": "Type", "size": 5.5 },
+					{ "header": "Size", "type": "num", "size": 6 },
+					{ "header": "Alignment", "type": "num", "size": 5.5 },
+					{ "header": "Description", "unsortable": true, "size": 14.75, "align": "start" },
+					{ "header": "Str", "type": "num", "size": 3.5 },
+					{ "header": "Dex", "type": "num", "size": 3.5 },
+					{ "header": "Con", "type": "num", "size": 3.5 },
+					{ "header": "Int", "type": "num", "size": 3.5 },
+					{ "header": "Wis", "type": "num", "size": 3.5 },
+					{ "header": "Cha", "type": "num", "size": 3.5 },
+					{ "header": "BAB", "type": "num", "size": 3.5 },
+					{ "header": "CMB", "type": "num", "size": 3.5 },
+					{ "header": "CMD", "type": "num", "size": 3.5 }
+				],
 				"data": [
 					[ "{monster/Akaname}", 1, "aberration", [ 3, "small" ], [ 4, "N" ], "This short, spindly creature has warty, brown-red skin and large black eyes. Its long, muscular tongue drags on the ground beneath it.", 15, 15, 15, 10, 12, 6, 1, 2, 14 ],
 					[ "{monster/Bacallia}", 1, "animal", [ 4, "medium" ], [ 4, "N" ], "This animal resembles an alpaca with voluminous, shiny wool.", 15, 13, 14, 2, 12, 13, 1, 3, 14 ],
@@ -699,7 +723,6 @@
 		"tables": [
 			{
 				"id": "cr 3 to 4 monsters table",
-				"headers": [ "Monster", "CR", "Type", "Size", "Alignment", "Description", "Str", "Dex", "Con", "Int", "Wis", "Cha", "BAB", "CMB", "CMD" ],
 				"filter": [
 					{ "col": 1, "equals": [3, 4] },
 					{
@@ -717,10 +740,23 @@
 						"labels": ["LG", "LN", "LE", "NG", "N", "NE", "CG", "CN", "CE"]
 					}
 				],
-				"types": [ null, "num", null, "num", "num", 0, "num", "num", "num", "num", "num", "num", "num", "num", "num" ],
-				"alignments": [ true, null, null, null, null, true, null, null, null, null, null, null, null, null, null ],
-				"sizes": [ 8.5, 3.5, 5.5, 6, 5.5, 14.75, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5 ],
-				"ripples": [0],
+				"columns": [
+					{ "header": "Monster", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "CR", "type": "num", "size": 3.5 },
+					{ "header": "Type", "size": 5.5 },
+					{ "header": "Size", "type": "num", "size": 6 },
+					{ "header": "Alignment", "type": "num", "size": 5.5 },
+					{ "header": "Description", "unsortable": true, "size": 14.75, "align": "start" },
+					{ "header": "Str", "type": "num", "size": 3.5 },
+					{ "header": "Dex", "type": "num", "size": 3.5 },
+					{ "header": "Con", "type": "num", "size": 3.5 },
+					{ "header": "Int", "type": "num", "size": 3.5 },
+					{ "header": "Wis", "type": "num", "size": 3.5 },
+					{ "header": "Cha", "type": "num", "size": 3.5 },
+					{ "header": "BAB", "type": "num", "size": 3.5 },
+					{ "header": "CMB", "type": "num", "size": 3.5 },
+					{ "header": "CMD", "type": "num", "size": 3.5 }
+				],
 				"data": [
 					[ "{monster/Bat, Mobat}", 3, "magical beast", [ 5, "large" ], [ 4, "N" ], "This bat has a wingspan the length of two humans, over-sized ears, and a squat, upturned snout with rows of needle-like teeth.", 17, 15, 16, 6, 13, 6, 4, 8, 20 ],
 					[ "{monster/Caryatid Column}", 3, "construct", [ 4, "medium" ], [ 4, "N" ], "With its feet planted firmly together, this marble statue of a female warrior holding a stone sword rises up to support the ceiling.", 18, 9, [ -1, "&mdash;" ], [ -1, "&mdash;" ], 11, 1, 3, 7, 16 ],

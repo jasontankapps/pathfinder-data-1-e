@@ -16,11 +16,13 @@
 		"tables": [
 			{
 				"id": "wondrous items belt headband table",
-				"headers": [ "Item", "Cost", "Weight", "Slot", "Cursed?" ],
-				"types": [ null, "gp", "lbs", null, "num" ],
-				"alignments": [ true, null, null, null, null ],
-				"ripples": [0],
-				"sizes": [ 8.5, 5, 5, 5, 5 ],
+				"columns": [
+					{ "header": "Item", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "Cost", "type": "gp", "size": 5 },
+					{ "header": "Weight", "type": "lbs", "size": 5 },
+					{ "header": "Slot", "size": 5 },
+					{ "header": "Cursed?", "type": "num", "size": 5 }
+				],
 				"data": [
 					[ "{magic-wondrous/Belt of Tumbling}", 800, 1, "belt", [ 1, "No" ] ],
 					[ "{magic-wondrous/Beneficial Bandolier}", 1000, 2, "belt", [ 1, "No" ] ],
@@ -200,11 +202,13 @@
 		"tables": [
 			{
 				"id": "wondrous items body chest table",
-				"headers": [ "Item", "Cost", "Weight", "Slot", "Cursed?" ],
-				"types": [ null, "gp", "lbs", null, "num" ],
-				"alignments": [ true, null, null, null, null ],
-				"ripples": [0],
-				"sizes": [ 8.5, 5, 5, 5, 5 ],
+				"columns": [
+					{ "header": "Item", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "Cost", "type": "gp", "size": 5 },
+					{ "header": "Weight", "type": "lbs", "size": 5 },
+					{ "header": "Slot", "size": 5 },
+					{ "header": "Cursed?", "type": "num", "size": 5 }
+				],
 				"data": [
 					[ "{magic-wondrous/Bandages of Rapid Recovery}", 200, 1, "chest", [ 1, "No" ] ],
 					[ "{magic-wondrous/Glorious Tabard (Lesser)}", 400, 2, "body", [ 1, "No" ] ],
@@ -366,11 +370,12 @@
 		"tables": [
 			{
 				"id": "wondrous items head table",
-				"headers": [ "Item", "Cost", "Weight", "Cursed?" ],
-				"types": [ null, "gp", "lbs", "num" ],
-				"alignments": [ true, null, null, null ],
-				"ripples": [0],
-				"sizes": [ 8.5, 5, 5, 5 ],
+				"columns": [
+					{ "header": "Item", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "Cost", "type": "gp", "size": 5 },
+					{ "header": "Weight", "type": "lbs", "size": 5 },
+					{ "header": "Cursed?", "type": "num", "size": 5 }
+				],
 				"data": [
 					[ "{magic-wondrous/Gag of Silence}", 500, 1, [ 1, "No" ] ],
 					[ "{magic-wondrous/Quick-Change Mask}", 650, 0, [ 1, "No" ] ],
@@ -571,11 +576,12 @@
 		"tables": [
 			{
 				"id": "wondrous items neck table",
-				"headers": [ "Item", "Cost", "Weight", "Cursed?" ],
-				"types": [ null, "gp", "lbs", "num" ],
-				"alignments": [ true, null, null, null ],
-				"ripples": [0],
-				"sizes": [ 8.5, 5, 5, 5 ],
+				"columns": [
+					{ "header": "Item", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "Cost", "type": "gp", "size": 5 },
+					{ "header": "Weight", "type": "lbs", "size": 5 },
+					{ "header": "Cursed?", "type": "num", "size": 5 }
+				],
 				"data": [
 					[ "{magic-wondrous/Talisman (Lesser) (Beneficial Winds)}", 50, 1, [ 1, "No" ] ],
 					[ "{magic-wondrous/Hexbiter Charm}", 180, 0, [ 1, "No" ] ],
@@ -878,11 +884,13 @@
 		"tables": [
 			{
 				"id": "wondrous items hands wrists table",
-				"headers": [ "Item", "Cost", "Weight", "Slot", "Cursed?" ],
-				"types": [ null, "gp", "lbs", null, "num" ],
-				"alignments": [ true, null, null, null, null ],
-				"ripples": [0],
-				"sizes": [ 8.5, 5, 5, 5, 5 ],
+				"columns": [
+					{ "header": "Item", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "Cost", "type": "gp", "size": 5 },
+					{ "header": "Weight", "type": "lbs", "size": 5 },
+					{ "header": "Slot", "size": 5 },
+					{ "header": "Cursed?", "type": "num", "size": 5 }
+				],
 				"data": [
 					[ "{magic-wondrous/Assisting Gloves}", 180, 1, "hands", [ 1, "No" ] ],
 					[ "{magic-wondrous/Sleeves of Many Garments}", 200, 1, "wrists", [ 1, "No" ] ],
@@ -1086,11 +1094,12 @@
 		"tables": [
 			{
 				"id": "wondrous items shoulders table",
-				"headers": [ "Item", "Cost", "Weight", "Cursed?" ],
-				"types": [ null, "gp", "lbs", "num" ],
-				"alignments": [ true, null, null, null ],
-				"ripples": [0],
-				"sizes": [ 8.5, 5, 5, 5 ],
+				"columns": [
+					{ "header": "Item", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "Cost", "type": "gp", "size": 5 },
+					{ "header": "Weight", "type": "lbs", "size": 5 },
+					{ "header": "Cursed?", "type": "num", "size": 5 }
+				],
 				"data": [
 					[ "{magic-wondrous/Catching Cape}", 200, 3, [ 1, "No" ] ],
 					[ "{magic-wondrous/Protean Cloak (+1 bonus)}", 500, 1, [ 1, "No" ] ],
@@ -1271,11 +1280,13 @@
 		"tables": [
 			{
 				"id": "wondrous items eyes feet table",
-				"headers": [ "Item", "Cost", "Weight", "Slot", "Cursed?" ],
-				"types": [ null, "gp", "lbs", null, "num" ],
-				"alignments": [ true, null, null, null, null ],
-				"ripples": [0],
-				"sizes": [ 8.5, 5, 5, 5, 5 ],
+				"columns": [
+					{ "header": "Item", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "Cost", "type": "gp", "size": 5 },
+					{ "header": "Weight", "type": "lbs", "size": 5 },
+					{ "header": "Slot", "size": 5 },
+					{ "header": "Cursed?", "type": "num", "size": 5 }
+				],
 				"data": [
 					[ "{magic-wondrous/Patternward Spectacles}", 750, 1, "eyes", [ 1, "No" ] ],
 					[ "{magic-wondrous/Boots of the Cat}", 1000, 1, "feet", [ 1, "No" ] ],
@@ -1461,11 +1472,12 @@
 		"tables": [
 			{
 				"id": "wondrous items a-f table",
-				"headers": [ "Item", "Cost", "Weight", "Cursed?" ],
-				"types": [ null, "gp", "lbs", "num" ],
-				"alignments": [ true, null, null, null ],
-				"ripples": [0],
-				"sizes": [ 8.5, 5.5, 5, 5 ],
+				"columns": [
+					{ "header": "Item", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "Cost", "type": "gp", "size": 5.5 },
+					{ "header": "Weight", "type": "lbs", "size": 5 },
+					{ "header": "Cursed?", "type": "num", "size": 5 }
+				],
 				"data": [
 					[ "{magic-wondrous/Abjurant Salt}", 600, 1, [ 1, "No" ] ],
 					[ "{magic-wondrous/Accent Pill}", 300, 0, [ 1, "No" ] ],
@@ -1953,11 +1965,12 @@
 		"tables": [
 			{
 				"id": "wondrous items g-p table",
-				"headers": [ "Item", "Cost", "Weight", "Cursed?" ],
-				"types": [ null, "gp", "lbs", "num" ],
-				"alignments": [ true, null, null, null ],
-				"ripples": [0],
-				"sizes": [ 8.5, 5.5, 5, 5 ],
+				"columns": [
+					{ "header": "Item", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "Cost", "type": "gp", "size": 5.5 },
+					{ "header": "Weight", "type": "lbs", "size": 5 },
+					{ "header": "Cursed?", "type": "num", "size": 5 }
+				],
 				"data": [
 					[ "{magic-wondrous/Game of Fortunate Passing}", 1040, 2, [ 1, "No" ] ],
 					[ "{magic-wondrous/Garden of Sulesh}", 56000, 0, [ 1, "No" ] ],
@@ -2446,11 +2459,12 @@
 		"tables": [
 			{
 				"id": "wondrous items q-z table",
-				"headers": [ "Item", "Cost", "Weight", "Cursed?" ],
-				"types": [ null, "gp", "lbs", "num" ],
-				"alignments": [ true, null, null, null ],
-				"ripples": [0],
-				"sizes": [ 8.5, 5.5, 5, 5 ],
+				"columns": [
+					{ "header": "Item", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "Cost", "type": "gp", "size": 5.5 },
+					{ "header": "Weight", "type": "lbs", "size": 5 },
+					{ "header": "Cursed?", "type": "num", "size": 5 }
+				],
 				"data": [
 					[ "{magic-wondrous/Quasit Key}", 70000, 12, [ 1, "No" ] ],
 					[ "{magic-wondrous/Quill of Passage}", 5000, 0, [ 1, "No" ] ],

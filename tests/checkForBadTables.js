@@ -14,12 +14,11 @@ const checkForBadTables = (tables, objectDescription) => {
 				found = `Non-object table at ${tableDesc}`;
 				return true;
 			} else {
-				const { id, headers, types, alignments, sizes, data, initialColumn, nullValue, filter } = table;
+				const { id, columns, data, initialColumn, nullValue, filter } = table;
 				if(
 					typeof id !== "string"
 					|| typeof initialColumn !== "number"
-					|| !Array.isArray(headers)
-					|| !Array.isArray(types)
+					|| !Array.isArray(columns)
 					|| !Array.isArray(data)
 					|| (nullValue && typeof nullValue !== "string")
 				) {
@@ -32,32 +31,30 @@ const checkForBadTables = (tables, objectDescription) => {
 					// Save id and continue to check
 					(tableIds[id] = tableDesc) && (
 						// Check headers and types
-						headers.length !== types.length
-						|| headers.some(header => typeof header !== "string")
-						|| types.some(type => ["gp", "gp+", "lbs", "lbs+", "bonus", "num", "pct", null, 0].indexOf(type) === -1)
+						columns.some(col => {
+							const {header, type, unsortable, align, size, ripple} = col;
+							let bad = '';
+							if(!header) {
+								bad = "missing 'header' property"
+							} else if (type && ["gp", "gp+", "lbs", "lbs+", "bonus", "num", "pct"].indexOf(type) === -1) {
+								bad = `bad 'type' property "${type}"`
+							} else if (unsortable !== undefined && unsortable !== false && unsortable !== true) {
+								bad = "bad 'unsortable' property";
+							} else if (ripple !== undefined && ripple !== false && ripple !== true) {
+								bad = "bad 'ripple' property";
+							} else if (align !== undefined && align !== "start" && align !== "end") {
+								bad = `bad 'align' property "${align}"`
+							} else if (size !== undefined && (typeof size !== "number" || size <= 0)) {
+								bad = `bad 'size' property [${size}]`;
+							}
+							if(bad) {
+								found = `Column error at ${tableDesc} (${id}): ${bad}`;
+								return true;
+							}
+						})
 					)
 				) {
-					found = `Header/type table error at ${tableDesc} (${id})`;
-					return true;
-				} else if (
-					// Check alignments
-					alignments !== undefined && (
-						!Array.isArray(alignments)
-						|| alignments.length !== types.length
-						|| alignments.some(align => [null, true, false].indexOf(align) === -1)
-					)
-				) {
-					found = `Alignment array table error at ${tableDesc} (${id})`;
-					return true;
-				} else if (
-					// Check sizes
-					sizes !== undefined && (
-						!Array.isArray(sizes)
-						|| sizes.length !== types.length
-						|| sizes.some(size => typeof size !== "number")
-					)
-				) {
-					found = `Error with sizes property at ${tableDesc} (${id})`;
+					// found already set
 					return true;
 				} else if (
 					// Check filters
@@ -68,7 +65,7 @@ const checkForBadTables = (tables, objectDescription) => {
 								return true;
 							}
 							const { col, range, equals, has, word, labels } = f;
-							if (col === undefined || typeof col !== "number" || parseInt(col) !== col || col < 0 || col >= headers.length) {
+							if (col === undefined || typeof col !== "number" || parseInt(col) !== col || col < 0 || col >= columns.length) {
 								found = `Missing or invalid "col" prop in ${tableDesc}.filter[${fi}]`;
 								return true;
 							} else if (word !== undefined && (!has || range || equals || (word !== false && word !== true))) {
@@ -123,11 +120,11 @@ const checkForBadTables = (tables, objectDescription) => {
 					found = found || `Bad filter property at ${tableDesc} (${id})`;
 					return true;
 				} else if (data.some((line, j) => {
-					const correspondingType = types.map(t => ["gp", "gp+", "lbs", "lbs+", "bonus", "num", "pct"].indexOf(t) === -1 ? "string" : "number");
+					const correspondingType = columns.map(col => ["gp", "gp+", "lbs", "lbs+", "bonus", "num", "pct"].indexOf(col.type) === -1 ? "string" : "number");
 					// Check data
 					if(
 						!Array.isArray(line)
-						|| line.length !== headers.length
+						|| line.length !== columns.length
 						|| line.some((bit, k) => {
 							if(
 								bit !== null

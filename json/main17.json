@@ -14,7 +14,6 @@
 		"tables": [
 			{
 				"id": "monsters aberrations",
-				"headers": [ "Monster", "CR", "Subtypes", "Size", "Alignment", "Description" ],
 				"filter": [
 					{
 						"col": 1,
@@ -32,10 +31,14 @@
 						"labels": ["LG", "LN", "LE", "N", "NE", "CG", "CN", "CE"]
 					}
 				],
-				"types": [ null, "num", null, "num", "num", 0 ],
-				"alignments": [ true, null, null, null, null, true ],
-				"sizes": [ 8.5, 3.5, 7, 6, 5.5, 14.75 ],
-				"ripples": [0],
+				"columns": [
+					{ "header": "Monster", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "CR", "type": "num", "size": 3.5 },
+					{ "header": "Subtypes", "size": 7 },
+					{ "header": "Size", "type": "num", "size": 6 },
+					{ "header": "Alignment", "type": "num", "size": 5.5 },
+					{ "header": "Description", "unsortable": true, "size": 14.75, "align": "start" }
+				],
 				"data": [
 					[ "{monster/Aatheriexa}", 7, null, [ 4, "medium" ], [ 5, "NE" ], "A tangle of thin, tentacle-like eyestalks floats in the air, its innumerable unblinking eyes each projecting an air of cruelty." ],
 					[ "{monster/Akaname}", 1, null, [ 3, "small" ], [ 4, "N" ], "This short, spindly creature has warty, brown-red skin and large black eyes. Its long, muscular tongue drags on the ground beneath it." ],
@@ -220,7 +223,6 @@
 		"tables": [
 			{
 				"id": "monsters animals",
-				"headers": [ "Monster", "CR", "Subtypes", "Size", "Alignment", "Description" ],
 				"filter": [
 					{
 						"col": 1,
@@ -233,10 +235,14 @@
 						"labels": [ "diminutive", "tiny", "small", "medium", "large", "huge", "gargantuan", "colossal" ]
 					}
 				],
-				"types": [ null, "num", null, "num", "num", 0 ],
-				"alignments": [ true, null, null, null, null, true ],
-				"sizes": [ 8.5, 3.5, 7, 6, 5.5, 14.75 ],
-				"ripples": [0],
+				"columns": [
+					{ "header": "Monster", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "CR", "type": "num", "size": 3.5 },
+					{ "header": "Subtypes", "size": 7 },
+					{ "header": "Size", "type": "num", "size": 6 },
+					{ "header": "Alignment", "type": "num", "size": 5.5 },
+					{ "header": "Description", "unsortable": true, "size": 14.75, "align": "start" }
+				],
 				"data": [
 					[ "{monster/Ape, Dire Ape (Gigantopithecus)}", 3, null, [ 5, "large" ], [ 4, "N" ], "Sharp teeth fill this large, feral ape's mouth, and its long, muscular arms stretch to the ground, ending in wickedly curved claws." ],
 					[ "{monster/Ape, Gorilla}", 2, null, [ 5, "large" ], [ 4, "N" ], "Large, deep-set eyes peer from beneath this great ape's thick brow as it lumbers forward on its legs and knuckles." ],
@@ -553,7 +559,6 @@
 		"tables": [
 			{
 				"id": "monsters constructs",
-				"headers": [ "Monster", "CR", "Subtypes", "Size", "Alignment", "Description" ],
 				"filter": [
 					{
 						"col": 1,
@@ -571,10 +576,14 @@
 						"labels": ["LG", "LN", "LE", "N", "NE", "CN", "CE"]
 					}
 				],
-				"types": [ null, "num", null, "num", "num", 0 ],
-				"alignments": [ true, null, null, null, null, true ],
-				"sizes": [ 8.5, 3.5, 7, 6, 5.5, 14.75 ],
-				"ripples": [0],
+				"columns": [
+					{ "header": "Monster", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "CR", "type": "num", "size": 3.5 },
+					{ "header": "Subtypes", "size": 7 },
+					{ "header": "Size", "type": "num", "size": 6 },
+					{ "header": "Alignment", "type": "num", "size": 5.5 },
+					{ "header": "Description", "unsortable": true, "size": 14.75, "align": "start" }
+				],
 				"data": [
 					[ "{monster/Aballonian}", 7, null, [ 4, "medium" ], [ 4, "N" ], "This insectile construct skitters around on metallic legs, its manipulators clacking and glowing eyes searching." ],
 					[ "{monster/Abandoned Armory}", 13, null, [ 6, "huge" ], [ 5, "NE" ], "This aggregation of weapons, armor, and other tools of war looms like a slow avalanche of twisted iron and eldritch sparks." ],
@@ -771,7 +780,6 @@
 		"tables": [
 			{
 				"id": "monsters dragons",
-				"headers": [ "Monster", "CR", "Subtypes", "Size", "Alignment", "Description" ],
 				"filter": [
 					{
 						"col": 1,
@@ -789,10 +797,14 @@
 						"labels": ["LG", "LN", "LE", "NG", "N", "NE", "CG", "CN", "CE"]
 					}
 				],
-				"types": [ null, "num", null, "num", "num", 0 ],
-				"alignments": [ true, null, null, null, null, true ],
-				"sizes": [ 8.5, 3.5, 7, 6, 5.5, 14.75 ],
-				"ripples": [0],
+				"columns": [
+					{ "header": "Monster", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "CR", "type": "num", "size": 3.5 },
+					{ "header": "Subtypes", "size": 7 },
+					{ "header": "Size", "type": "num", "size": 6 },
+					{ "header": "Alignment", "type": "num", "size": 5.5 },
+					{ "header": "Description", "unsortable": true, "size": 14.75, "align": "start" }
+				],
 				"data": [
 					[ "{monster/Aashaq's Wyvern}", 8, null, [ 5, "large" ], [ 7, "CN" ], "This light purple dragon has immense wings and a bifurcated tail, each end tipped with a hooked stinger. Heavy smoke drips from the beast's nostrils and jaws." ],
 					[ "{monster/Amphiptere}", 4, null, [ 5, "large" ], [ 4, "N" ], "This snake-bodied dragon has a sinuous tail with a spiked tip. Flared wings attach to its forelimbs, and it lacks rear legs." ],
@@ -989,7 +1001,6 @@
 		"tables": [
 			{
 				"id": "monsters fey",
-				"headers": [ "Monster", "CR", "Subtypes", "Size", "Alignment", "Description" ],
 				"filter": [
 					{
 						"col": 1,
@@ -1007,10 +1018,14 @@
 						"labels": ["LN", "LE", "NG", "N", "NE", "CG", "CN", "CE"]
 					}
 				],
-				"types": [ null, "num", null, "num", "num", 0 ],
-				"alignments": [ true, null, null, null, null, true ],
-				"sizes": [ 8.5, 3.5, 7, 6, 5.5, 14.75 ],
-				"ripples": [0],
+				"columns": [
+					{ "header": "Monster", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "CR", "type": "num", "size": 3.5 },
+					{ "header": "Subtypes", "size": 7 },
+					{ "header": "Size", "type": "num", "size": 6 },
+					{ "header": "Alignment", "type": "num", "size": 5.5 },
+					{ "header": "Description", "unsortable": true, "size": 14.75, "align": "start" }
+				],
 				"data": [
 					[ "{monster/Alp}", 10, null, [ 4, "medium" ], [ 7, "CN" ], "This hoofed creature's large yellow eyes are set in a noseless face above a grinning, fang-filled mouth." ],
 					[ "{monster/Alpluachra}", [ -2, "1/2" ], "aquatic", [ 1, "diminutive" ], [ 7, "CN" ], "This minuscule creature resembles a newt with three tails. It's covered in a transparent slime, and looks hungry." ],

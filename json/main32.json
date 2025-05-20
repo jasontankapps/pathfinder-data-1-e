@@ -47,7 +47,6 @@
 		"tables": [
 			{
 				"id": "psychic spells table 0 1",
-				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description", "V", "S", "M", "M/DF", "DF", "F", "F/DF" ],
 				"filter": [
 					{ "col": 1, "range": [0, 1] },
 					{ "col": 2, "equals": [
@@ -69,11 +68,22 @@
 					{ "col": 11, "range": [0, 1], "labels": ["F component", "No F component"]},
 					{ "col": 12, "range": [0, 1], "labels": ["F/DF component", "No F/DF component"]}
 				],
-				"types": [ null, "num", null, null, null, 0, "num", "num", "num", "num", "num", "num", "num" ],
+				"columns": [
+					{ "header": "Spell", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "Level", "type": "num", "size": 3.5 },
+					{ "header": "School", "size": 7 },
+					{ "header": "Subschool", "size": 7 },
+					{ "header": "Descriptor", "size": 6 },
+					{ "header": "Description", "unsortable": true, "size": 14.75, "align": "start" },
+					{ "header": "V", "type": "num", "size": 2 },
+					{ "header": "S", "type": "num", "size": 2 },
+					{ "header": "M", "type": "num", "size": 2 },
+					{ "header": "M/DF", "type": "num", "size": 3 },
+					{ "header": "DF", "type": "num", "size": 2 },
+					{ "header": "F", "type": "num", "size": 2 },
+					{ "header": "F/DF", "type": "num", "size": 3 }
+				],
 				"initialColumn": 1,
-				"alignments": [ true, null, null, null, null, true, null, null, null, null, null, null, null ],
-				"sizes": [ 8.5, 3.5, 7, 7, 6, 14.75, 2, 2, 2, 3, 2, 2, 3 ],
-				"ripples": [0],
 				"data": [
 					[ "{spell/Arcane Mark}", 0, "universal", null, null, "Inscribes a personal rune on an object or creature (visible or invisible).", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
 					[ "{spell/Bleed}", 0, "necromancy", null, null, "Cause a stabilized creature to resume dying.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
@@ -278,7 +288,6 @@
 		"tables": [
 			{
 				"id": "psychic spells table 2",
-				"headers": [ "Spell", "School", "Subschool", "Descriptor", "Description", "V", "S", "M", "M/DF", "DF", "F", "F/DF" ],
 				"filter": [
 					{ "col": 1, "equals": [
 						"abjuration",
@@ -298,11 +307,21 @@
 					{ "col": 10, "range": [0, 1], "labels": ["F component", "No F component"]},
 					{ "col": 11, "range": [0, 1], "labels": ["F/DF component", "No F/DF component"]}
 				],
-				"types": [ null, null, null, null, 0, "num", "num", "num", "num", "num", "num", "num" ],
+				"columns": [
+					{ "header": "Spell", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "School", "size": 7 },
+					{ "header": "Subschool", "size": 7 },
+					{ "header": "Descriptor", "size": 6 },
+					{ "header": "Description", "unsortable": true, "size": 14.75, "align": "start" },
+					{ "header": "V", "type": "num", "size": 2 },
+					{ "header": "S", "type": "num", "size": 2 },
+					{ "header": "M", "type": "num", "size": 2 },
+					{ "header": "M/DF", "type": "num", "size": 3 },
+					{ "header": "DF", "type": "num", "size": 2 },
+					{ "header": "F", "type": "num", "size": 2 },
+					{ "header": "F/DF", "type": "num", "size": 3 }
+				],
 				"initialColumn": 1,
-				"alignments": [ true, null, null, null, true, null, null, null, null, null, null, null ],
-				"sizes": [ 8.5, 7, 7, 6, 14.75, 2, 2, 2, 3, 2, 2, 3 ],
-				"ripples": [0],
 				"data": [
 					[ "{spell/Absurdity}", "illusion", "phantasm", "emotion, mind-affecting", "Threats seem like a ridiculous farce.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
 					[ "{spell/Acute Senses}", "transmutation", null, null, "Subject gains a bonus on Perception checks.", [ 0, "V" ], [ 0, "S" ], [ 0, "M" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
@@ -549,7 +568,6 @@
 		"tables": [
 			{
 				"id": "psychic spells table 3",
-				"headers": [ "Spell", "School", "Subschool", "Descriptor", "Description", "V", "S", "M", "M/DF", "DF", "F", "F/DF" ],
 				"filter": [
 					{ "col": 1, "equals": [
 						"abjuration",
@@ -569,11 +587,21 @@
 					{ "col": 10, "range": [0, 1], "labels": ["F component", "No F component"]},
 					{ "col": 11, "range": [0, 1], "labels": ["F/DF component", "No F/DF component"]}
 				],
-				"types": [ null, null, null, null, 0, "num", "num", "num", "num", "num", "num", "num" ],
+				"columns": [
+					{ "header": "Spell", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "School", "size": 7 },
+					{ "header": "Subschool", "size": 7 },
+					{ "header": "Descriptor", "size": 6 },
+					{ "header": "Description", "unsortable": true, "size": 14.75, "align": "start" },
+					{ "header": "V", "type": "num", "size": 2 },
+					{ "header": "S", "type": "num", "size": 2 },
+					{ "header": "M", "type": "num", "size": 2 },
+					{ "header": "M/DF", "type": "num", "size": 3 },
+					{ "header": "DF", "type": "num", "size": 2 },
+					{ "header": "F", "type": "num", "size": 2 },
+					{ "header": "F/DF", "type": "num", "size": 3 }
+				],
 				"initialColumn": 1,
-				"alignments": [ true, null, null, null, true, null, null, null, null, null, null, null ],
-				"sizes": [ 8.5, 7, 7, 6, 14.75, 2, 2, 2, 3, 2, 2, 3 ],
-				"ripples": [0],
 				"data": [
 					[ "{spell/Ablative Barrier}", "conjuration", "creation", "force", "Surrounds the target with layers of force.", [ 0, "V" ], [ 0, "S" ], [ 0, "M" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
 					[ "{spell/Adjustable Disguise}", "illusion", "glamer", null, "As disguise self, but you can change the disguise as a swift action.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
@@ -769,7 +797,6 @@
 		"tables": [
 			{
 				"id": "psychic spells table 4",
-				"headers": [ "Spell", "School", "Subschool", "Descriptor", "Description", "V", "S", "M", "M/DF", "DF", "F", "F/DF" ],
 				"filter": [
 					{ "col": 1, "equals": [
 						"abjuration",
@@ -789,11 +816,21 @@
 					{ "col": 10, "range": [0, 1], "labels": ["F component", "No F component"]},
 					{ "col": 11, "range": [0, 1], "labels": ["F/DF component", "No F/DF component"]}
 				],
-				"types": [ null, null, null, null, 0, "num", "num", "num", "num", "num", "num", "num" ],
+				"columns": [
+					{ "header": "Spell", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "School", "size": 7 },
+					{ "header": "Subschool", "size": 7 },
+					{ "header": "Descriptor", "size": 6 },
+					{ "header": "Description", "unsortable": true, "size": 14.75, "align": "start" },
+					{ "header": "V", "type": "num", "size": 2 },
+					{ "header": "S", "type": "num", "size": 2 },
+					{ "header": "M", "type": "num", "size": 2 },
+					{ "header": "M/DF", "type": "num", "size": 3 },
+					{ "header": "DF", "type": "num", "size": 2 },
+					{ "header": "F", "type": "num", "size": 2 },
+					{ "header": "F/DF", "type": "num", "size": 3 }
+				],
 				"initialColumn": 1,
-				"alignments": [ true, null, null, null, true, null, null, null, null, null, null, null ],
-				"sizes": [ 8.5, 7, 7, 6, 14.75, 2, 2, 2, 3, 2, 2, 3 ],
-				"ripples": [0],
 				"data": [
 					[ "{spell/Adjustable Polymorph}", "transmutation", "polymorph", null, "As alter self, but you can change the shape as a swift action.", [ 0, "V" ], [ 0, "S" ], [ 0, "M" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
 					[ "{spell/Age Resistance, Lesser}", "transmutation", null, null, "Ignore penalties from middle age.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
@@ -984,7 +1021,6 @@
 		"tables": [
 			{
 				"id": "psychic spells table 5",
-				"headers": [ "Spell", "School", "Subschool", "Descriptor", "Description", "V", "S", "M", "M/DF", "DF", "F", "F/DF" ],
 				"filter": [
 					{ "col": 1, "equals": [
 						"universal",
@@ -1005,11 +1041,21 @@
 					{ "col": 10, "range": [0, 1], "labels": ["F component", "No F component"]},
 					{ "col": 11, "range": [0, 1], "labels": ["F/DF component", "No F/DF component"]}
 				],
-				"types": [ null, null, null, null, 0, "num", "num", "num", "num", "num", "num", "num" ],
+				"columns": [
+					{ "header": "Spell", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "School", "size": 7 },
+					{ "header": "Subschool", "size": 7 },
+					{ "header": "Descriptor", "size": 6 },
+					{ "header": "Description", "unsortable": true, "size": 14.75, "align": "start" },
+					{ "header": "V", "type": "num", "size": 2 },
+					{ "header": "S", "type": "num", "size": 2 },
+					{ "header": "M", "type": "num", "size": 2 },
+					{ "header": "M/DF", "type": "num", "size": 3 },
+					{ "header": "DF", "type": "num", "size": 2 },
+					{ "header": "F", "type": "num", "size": 2 },
+					{ "header": "F/DF", "type": "num", "size": 3 }
+				],
 				"initialColumn": 1,
-				"alignments": [ true, null, null, null, true, null, null, null, null, null, null, null ],
-				"sizes": [ 8.5, 7, 7, 6, 14.75, 2, 2, 2, 3, 2, 2, 3 ],
-				"ripples": [0],
 				"data": [
 					[ "{spell/Absorb Toxicity}", "necromancy", null, null, "You become immune to diseases and toxins, absorb one, and then spread it to others.", [ 0, "V" ], [ 0, "S" ], [ 0, "M" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
 					[ "{spell/Animus Mine, Greater}", "abjuration", null, "mind-affecting", "As animus mind, but stuns the offending creatures", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
@@ -1171,7 +1217,6 @@
 		"tables": [
 			{
 				"id": "psychic spells table 6 7",
-				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description", "V", "S", "M", "M/DF", "DF", "F", "F/DF" ],
 				"filter": [
 					{ "col": 1, "range": [6, 7] },
 					{ "col": 2, "equals": [
@@ -1193,11 +1238,22 @@
 					{ "col": 11, "range": [0, 1], "labels": ["F component", "No F component"]},
 					{ "col": 12, "range": [0, 1], "labels": ["F/DF component", "No F/DF component"]}
 				],
-				"types": [ null, "num", null, null, null, 0, "num", "num", "num", "num", "num", "num", "num" ],
+				"columns": [
+					{ "header": "Spell", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "Level", "type": "num", "size": 3.5 },
+					{ "header": "School", "size": 7 },
+					{ "header": "Subschool", "size": 7 },
+					{ "header": "Descriptor", "size": 6 },
+					{ "header": "Description", "unsortable": true, "size": 14.75, "align": "start" },
+					{ "header": "V", "type": "num", "size": 2 },
+					{ "header": "S", "type": "num", "size": 2 },
+					{ "header": "M", "type": "num", "size": 2 },
+					{ "header": "M/DF", "type": "num", "size": 3 },
+					{ "header": "DF", "type": "num", "size": 2 },
+					{ "header": "F", "type": "num", "size": 2 },
+					{ "header": "F/DF", "type": "num", "size": 3 }
+				],
 				"initialColumn": 1,
-				"alignments": [ true, null, null, null, null, true, null, null, null, null, null, null, null ],
-				"sizes": [ 8.5, 3.5, 7, 7, 6, 14.75, 2, 2, 2, 3, 2, 2, 3 ],
-				"ripples": [0],
 				"data": [
 					[ "{spell/Age Resistance}", 6, "transmutation", null, null, "Ignore penalties from old age.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
 					[ "{spell/Alaznist's Jinx}", 6, "evocation", null, "curse", "Inlfict the spell burn spellblight", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
@@ -1398,7 +1454,6 @@
 		"tables": [
 			{
 				"id": "psychic spells table 8 9",
-				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description", "V", "S", "M", "M/DF", "DF", "F", "F/DF" ],
 				"filter": [
 					{ "col": 1, "range": [8, 9] },
 					{ "col": 2, "equals": [
@@ -1420,11 +1475,22 @@
 					{ "col": 11, "range": [0, 1], "labels": ["F component", "No F component"]},
 					{ "col": 12, "range": [0, 1], "labels": ["F/DF component", "No F/DF component"]}
 				],
-				"types": [ null, "num", null, null, null, 0, "num", "num", "num", "num", "num", "num", "num" ],
+				"columns": [
+					{ "header": "Spell", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "Level", "type": "num", "size": 3.5 },
+					{ "header": "School", "size": 7 },
+					{ "header": "Subschool", "size": 7 },
+					{ "header": "Descriptor", "size": 6 },
+					{ "header": "Description", "unsortable": true, "size": 14.75, "align": "start" },
+					{ "header": "V", "type": "num", "size": 2 },
+					{ "header": "S", "type": "num", "size": 2 },
+					{ "header": "M", "type": "num", "size": 2 },
+					{ "header": "M/DF", "type": "num", "size": 3 },
+					{ "header": "DF", "type": "num", "size": 2 },
+					{ "header": "F", "type": "num", "size": 2 },
+					{ "header": "F/DF", "type": "num", "size": 3 }
+				],
 				"initialColumn": 1,
-				"alignments": [ true, null, null, null, null, true, null, null, null, null, null, null, null ],
-				"sizes": [ 8.5, 3.5, 7, 7, 6, 14.75, 2, 2, 2, 3, 2, 2, 3 ],
-				"ripples": [0],
 				"data": [
 					[ "{spell/Antipathy}", 8, "enchantment", "compulsion", "emotion, mind-affecting", "Object or location affected by spell repels certain creatures.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 0, "M/DF" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
 					[ "{spell/Bilocation}", 8, "conjuration", "creation", null, "Exist in two places at once.", [ 0, "V" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
@@ -1566,7 +1632,6 @@
 		"tables": [
 			{
 				"id": "skald spells table 0 1",
-				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description", "V", "S", "M", "M/DF", "DF", "F", "F/DF" ],
 				"filter": [
 					{ "col": 1, "range": [0, 6] },
 					{ "col": 2, "equals": [
@@ -1588,11 +1653,22 @@
 					{ "col": 11, "range": [0, 1], "labels": ["F component", "No F component"]},
 					{ "col": 12, "range": [0, 1], "labels": ["F/DF component", "No F/DF component"]}
 				],
-				"types": [ null, "num", null, null, null, 0, "num", "num", "num", "num", "num", "num", "num" ],
+				"columns": [
+					{ "header": "Spell", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "Level", "type": "num", "size": 3.5 },
+					{ "header": "School", "size": 7 },
+					{ "header": "Subschool", "size": 7 },
+					{ "header": "Descriptor", "size": 6 },
+					{ "header": "Description", "unsortable": true, "size": 14.75, "align": "start" },
+					{ "header": "V", "type": "num", "size": 2 },
+					{ "header": "S", "type": "num", "size": 2 },
+					{ "header": "M", "type": "num", "size": 2 },
+					{ "header": "M/DF", "type": "num", "size": 3 },
+					{ "header": "DF", "type": "num", "size": 2 },
+					{ "header": "F", "type": "num", "size": 2 },
+					{ "header": "F/DF", "type": "num", "size": 3 }
+				],
 				"initialColumn": 1,
-				"alignments": [ true, null, null, null, null, true, null, null, null, null, null, null, null ],
-				"sizes": [ 8.5, 3.5, 7, 7, 6, 14.75, 2, 2, 2, 3, 2, 2, 3 ],
-				"ripples": [0],
 				"data": [
 					[ "{spell/Dancing Lights}", 0, "evocation", null, "light", "Creates torches or other lights.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
 					[ "{spell/Daze}", 0, "enchantment", "compulsion", "mind-affecting", "Humanoid creature of 4 HD or less loses next action.", [ 0, "V" ], [ 0, "S" ], [ 0, "M" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
@@ -2471,7 +2547,6 @@
 		"tables": [
 			{
 				"id": "skald spells table 2",
-				"headers": [ "Spell", "School", "Subschool", "Descriptor", "Description", "V", "S", "M", "M/DF", "DF", "F", "F/DF" ],
 				"filter": [
 					{ "col": 1, "equals": [
 						"abjuration",
@@ -2491,11 +2566,21 @@
 					{ "col": 10, "range": [0, 1], "labels": ["F component", "No F component"]},
 					{ "col": 11, "range": [0, 1], "labels": ["F/DF component", "No F/DF component"]}
 				],
-				"types": [ null, null, null, null, 0, "num", "num", "num", "num", "num", "num", "num" ],
+				"columns": [
+					{ "header": "Spell", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "School", "size": 7 },
+					{ "header": "Subschool", "size": 7 },
+					{ "header": "Descriptor", "size": 6 },
+					{ "header": "Description", "unsortable": true, "size": 14.75, "align": "start" },
+					{ "header": "V", "type": "num", "size": 2 },
+					{ "header": "S", "type": "num", "size": 2 },
+					{ "header": "M", "type": "num", "size": 2 },
+					{ "header": "M/DF", "type": "num", "size": 3 },
+					{ "header": "DF", "type": "num", "size": 2 },
+					{ "header": "F", "type": "num", "size": 2 },
+					{ "header": "F/DF", "type": "num", "size": 3 }
+				],
 				"initialColumn": 1,
-				"alignments": [ true, null, null, null, true, null, null, null, null, null, null, null ],
-				"sizes": [ 8.5, 7, 7, 6, 14.75, 2, 2, 2, 3, 2, 2, 3 ],
-				"ripples": [0],
 				"data": [
 					[ "{spell/Absurdity}", "illusion", "phantasm", "emotion, mind-affecting", "Threats seem like a ridiculous farce.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
 					[ "{spell/Acute Senses}", "transmutation", null, null, "Subject gains a bonus on Perception checks.", [ 0, "V" ], [ 0, "S" ], [ 0, "M" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
@@ -2757,7 +2842,6 @@
 		"tables": [
 			{
 				"id": "skald spells table 3",
-				"headers": [ "Spell", "School", "Subschool", "Descriptor", "Description", "V", "S", "M", "M/DF", "DF", "F", "F/DF" ],
 				"filter": [
 					{ "col": 1, "equals": [
 						"universal",
@@ -2778,11 +2862,21 @@
 					{ "col": 10, "range": [0, 1], "labels": ["F component", "No F component"]},
 					{ "col": 11, "range": [0, 1], "labels": ["F/DF component", "No F/DF component"]}
 				],
-				"types": [ null, null, null, null, 0, "num", "num", "num", "num", "num", "num", "num" ],
+				"columns": [
+					{ "header": "Spell", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "School", "size": 7 },
+					{ "header": "Subschool", "size": 7 },
+					{ "header": "Descriptor", "size": 6 },
+					{ "header": "Description", "unsortable": true, "size": 14.75, "align": "start" },
+					{ "header": "V", "type": "num", "size": 2 },
+					{ "header": "S", "type": "num", "size": 2 },
+					{ "header": "M", "type": "num", "size": 2 },
+					{ "header": "M/DF", "type": "num", "size": 3 },
+					{ "header": "DF", "type": "num", "size": 2 },
+					{ "header": "F", "type": "num", "size": 2 },
+					{ "header": "F/DF", "type": "num", "size": 3 }
+				],
 				"initialColumn": 1,
-				"alignments": [ true, null, null, null, true, null, null, null, null, null, null, null ],
-				"sizes": [ 8.5, 7, 7, 6, 14.75, 2, 2, 2, 3, 2, 2, 3 ],
-				"ripples": [0],
 				"data": [
 					[ "{spell/Accept Affliction}", "conjuration", "healing", "good", "Transfer the effects of afflictions from someone else to yourself.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 0, "M/DF" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
 					[ "{spell/Adjustable Disguise}", "illusion", "glamer", null, "As disguise self, but you can change the disguise as a swift action.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
@@ -2977,7 +3071,6 @@
 		"tables": [
 			{
 				"id": "skald spells table 4",
-				"headers": [ "Spell", "School", "Subschool", "Descriptor", "Description", "V", "S", "M", "M/DF", "DF", "F", "F/DF" ],
 				"filter": [
 					{ "col": 1, "equals": [
 						"abjuration",
@@ -2997,11 +3090,21 @@
 					{ "col": 10, "range": [0, 1], "labels": ["F component", "No F component"]},
 					{ "col": 11, "range": [0, 1], "labels": ["F/DF component", "No F/DF component"]}
 				],
-				"types": [ null, null, null, null, 0, "num", "num", "num", "num", "num", "num", "num" ],
+				"columns": [
+					{ "header": "Spell", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "School", "size": 7 },
+					{ "header": "Subschool", "size": 7 },
+					{ "header": "Descriptor", "size": 6 },
+					{ "header": "Description", "unsortable": true, "size": 14.75, "align": "start" },
+					{ "header": "V", "type": "num", "size": 2 },
+					{ "header": "S", "type": "num", "size": 2 },
+					{ "header": "M", "type": "num", "size": 2 },
+					{ "header": "M/DF", "type": "num", "size": 3 },
+					{ "header": "DF", "type": "num", "size": 2 },
+					{ "header": "F", "type": "num", "size": 2 },
+					{ "header": "F/DF", "type": "num", "size": 3 }
+				],
 				"initialColumn": 1,
-				"alignments": [ true, null, null, null, true, null, null, null, null, null, null, null ],
-				"sizes": [ 8.5, 7, 7, 6, 14.75, 2, 2, 2, 3, 2, 2, 3 ],
-				"ripples": [0],
 				"data": [
 					[ "{spell/Absorb Rune I}", "abjuration", null, null, "Absorb a magic rune up to 3rd level, which can be moved or dispelled", [ 0, "V" ], [ 0, "S" ], [ 0, "M" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
 					[ "{spell/Adjustable Polymorph}", "transmutation", "polymorph", null, "As alter self, but you can change the shape as a swift action.", [ 0, "V" ], [ 0, "S" ], [ 0, "M" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
@@ -3139,7 +3242,6 @@
 		"tables": [
 			{
 				"id": "skald spells table",
-				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description", "V", "S", "M", "M/DF", "DF", "F", "F/DF" ],
 				"filter": [
 					{ "col": 1, "range": [5, 6] },
 					{ "col": 2, "equals": [
@@ -3160,11 +3262,22 @@
 					{ "col": 11, "range": [0, 1], "labels": ["F component", "No F component"]},
 					{ "col": 12, "range": [0, 1], "labels": ["F/DF component", "No F/DF component"]}
 				],
-				"types": [ null, "num", null, null, null, 0, "num", "num", "num", "num", "num", "num", "num" ],
+				"columns": [
+					{ "header": "Spell", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "Level", "type": "num", "size": 3.5 },
+					{ "header": "School", "size": 7 },
+					{ "header": "Subschool", "size": 7 },
+					{ "header": "Descriptor", "size": 6 },
+					{ "header": "Description", "unsortable": true, "size": 14.75, "align": "start" },
+					{ "header": "V", "type": "num", "size": 2 },
+					{ "header": "S", "type": "num", "size": 2 },
+					{ "header": "M", "type": "num", "size": 2 },
+					{ "header": "M/DF", "type": "num", "size": 3 },
+					{ "header": "DF", "type": "num", "size": 2 },
+					{ "header": "F", "type": "num", "size": 2 },
+					{ "header": "F/DF", "type": "num", "size": 3 }
+				],
 				"initialColumn": 1,
-				"alignments": [ true, null, null, null, null, true, null, null, null, null, null, null, null ],
-				"sizes": [ 8.5, 3.5, 7, 7, 6, 14.75, 2, 2, 2, 3, 2, 2, 3 ],
-				"ripples": [0],
 				"data": [
 					[ "{spell/Archon's Trumpet}", 5, "evocation", null, "good, sonic", "Paralyze all creatures in the area with the sound of a booming trumpet.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
 					[ "{spell/Arid Refuge}", 5, "conjuration", "creation", null, "Creates a safe house for air-breathing creatures underwater", [ 0, "V" ], [ 0, "S" ], [ 0, "M" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],

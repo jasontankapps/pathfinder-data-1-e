@@ -1017,10 +1017,11 @@
 		"tables": [
 			{
 				"id": "construct mods table",
-				"headers": [ "Construct Mod", "Type", "Cost" ],
-				"types": [ null, null, "gp" ],
-				"alignments": [ true, null, null ],
-				"ripples": [0],
+				"columns": [
+					{ "header": "Construct Mod", "ripple": true, "align": "start" },
+					{ "header": "Type" },
+					{ "header": "Cost", "type": "gp" }
+				],
 				"data": [
 					[ "{constructmod/Ability Score Increase}", "Basic", 5000 ],
 					[ "{constructmod/Armor Modification}", "Basic", [0, "&mdash;"] ],

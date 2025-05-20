@@ -1102,10 +1102,14 @@
 		"tables": [
 			{
 				"id": "skills table",
-				"headers": [ "Skill", "Stat", "TO", "ACP", "BS", "UN" ],
-				"types": [ null, null, null, null, null, null ],
-				"alignments": [ true, null, null, null, null, null ],
-				"ripples": [0],
+				"columns": [
+					{ "header": "Skill", "ripple": true, "align": "start" },
+					{ "header": "Stat" },
+					{ "header": "TO" },
+					{ "header": "ACP" },
+					{ "header": "BS" },
+					{ "header": "UN" }
+				],
 				"data": [
 					[ "{skill/Acrobatics}", "DEX", null, "X", null, null ],
 					[ "{skill/Appraise}", "INT", null, null, "X", null ],
@@ -2463,12 +2467,15 @@
 		"tables": [
 			{
 				"id": "monster templates table",
-				"headers": ["Template", "CR", "Acquired", "Inherited", "Simple", "Summonable"],
-				"types": [null, "num", "num", "num", "num", "num"],
+				"columns": [
+					{ "header": "Template", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "CR", "type": "num", "size": 4 },
+					{ "header": "Acquired", "type": "num", "size": 5 },
+					{ "header": "Inherited", "type": "num", "size": 5 },
+					{ "header": "Simple", "type": "num", "size": 4 },
+					{ "header": "Summonable", "type": "num", "size": 6 }
+				],
 				"initialColumn": 0,
-				"alignments": [ true, null, null, null, null, null ],
-				"ripples": [0],
-				"sizes": [ 8.5, 4, 5, 5, 4, 6 ],
 				"data": [
 					[ "{template/Accursed}", [1, "+1"], [1, "X"], [2, ""], [1, "X"], [2, ""] ],
 					[ "{template/Advanced}", [1, "+1"], [1, "X"], [2, ""], [1, "X"], [2, ""] ],
@@ -2748,10 +2755,13 @@
 		"tables": [
 			{
 				"id": "drugs table",
-				"headers": [ "Drug", "Addiction", "Type", "Fortitude Save DC", "Price" ],
-				"types": [ null, "num", null, "num", "gp" ],
-				"alignments": [ true, null, null, null, null ],
-				"ripples": [0],
+				"columns": [
+					{ "header": "Drug", "ripple": true, "align": "start" },
+					{ "header": "Addiction", "type": "num" },
+					{ "header": "Type" },
+					{ "header": "Fortitude Save DC", "type": "num" },
+					{ "header": "Price", "type": "gp" }
+				],
 				"data": [
 					[ "{drug/Keleshite Coffee}", [ 0, "minor" ], "ingested", 12, 5 ],
 					[ "{drug/Flayleaf}", [ 0, "minor" ], "inhaled or ingested", 12, 10 ],

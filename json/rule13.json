@@ -799,10 +799,13 @@
 		"tables": [
 			{
 				"id": "traps table",
-				"headers": [ "Trap", "CR", "Type", "Perception DC", "Disable Device DC" ],
-				"types": [ null, "num", null, "num", "num" ],
-				"alignments": [ true, null, null, null, null ],
-				"ripples": [0],
+				"columns": [
+					{ "header": "Trap", "ripple": true, "align": "start" },
+					{ "header": "CR", "type": "num" },
+					{ "header": "Type" },
+					{ "header": "Perception DC", "type": "num" },
+					{ "header": "Disable Device DC", "type": "num" }
+				],
 				"data": [
 					[ "{trap/Arrow Trap}", 1, "mechanical", 20, 20 ],
 					[ "{trap/Bear Trap}", 1, "mechanical", 15, 20 ],

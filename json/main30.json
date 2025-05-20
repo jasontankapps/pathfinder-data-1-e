@@ -14,7 +14,6 @@
 		"tables": [
 			{
 				"id": "paladin spells table",
-				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description", "V", "S", "M", "M/DF", "DF", "F", "F/DF" ],
 				"filter": [
 					{ "col": 1, "range": [1, 4] },
 					{ "col": 2, "equals": [
@@ -35,11 +34,22 @@
 					{ "col": 11, "range": [0, 1], "labels": ["F component", "No F component"]},
 					{ "col": 12, "range": [0, 1], "labels": ["F/DF component", "No F/DF component"]}
 				],
-				"types": [ null, "num", null, null, null, 0, "num", "num", "num", "num", "num", "num", "num" ],
+				"columns": [
+					{ "header": "Spell", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "Level", "type": "num", "size": 3.5 },
+					{ "header": "School", "size": 7 },
+					{ "header": "Subschool", "size": 7 },
+					{ "header": "Descriptor", "size": 6 },
+					{ "header": "Description", "unsortable": true, "size": 14.75, "align": "start" },
+					{ "header": "V", "type": "num", "size": 2 },
+					{ "header": "S", "type": "num", "size": 2 },
+					{ "header": "M", "type": "num", "size": 2 },
+					{ "header": "M/DF", "type": "num", "size": 3 },
+					{ "header": "DF", "type": "num", "size": 2 },
+					{ "header": "F", "type": "num", "size": 2 },
+					{ "header": "F/DF", "type": "num", "size": 3 }
+				],
 				"initialColumn": 1,
-				"alignments": [ true, null, null, null, null, true, null, null, null, null, null, null, null ],
-				"sizes": [ 8.5, 3.5, 7, 7, 6, 14.75, 2, 2, 2, 3, 2, 2, 3 ],
-				"ripples": [0],
 				"data": [
 					[ "{spell/Abadar's Truthtelling}", 1, "enchantment", "compulsion", "mind-affecting", "Force the target to speak the truth.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 0, "DF" ], [ 1, "" ], [ 1, "" ] ],
 					[ "{spell/Alleviate Addiction}", 1, "conjuration", "healing", null, "Ignore the effects of addictions.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 0, "DF" ], [ 1, "" ], [ 1, "" ] ],
@@ -372,7 +382,6 @@
 		"tables": [
 			{
 				"id": "alchemist spells table 1 2",
-				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description", "V", "S", "M", "M/DF", "DF", "F", "F/DF" ],
 				"filter": [
 					{ "col": 1, "range": [1, 2] },
 					{ "col": 2, "equals": [
@@ -393,11 +402,22 @@
 					{ "col": 11, "range": [0, 1], "labels": ["F component", "No F component"]},
 					{ "col": 12, "range": [0, 1], "labels": ["F/DF component", "No F/DF component"]}
 				],
-				"types": [ null, "num", null, null, null, 0, "num", "num", "num", "num", "num", "num", "num" ],
+				"columns": [
+					{ "header": "Spell", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "Level", "type": "num", "size": 3.5 },
+					{ "header": "School", "size": 7 },
+					{ "header": "Subschool", "size": 7 },
+					{ "header": "Descriptor", "size": 6 },
+					{ "header": "Description", "unsortable": true, "size": 14.75, "align": "start" },
+					{ "header": "V", "type": "num", "size": 2 },
+					{ "header": "S", "type": "num", "size": 2 },
+					{ "header": "M", "type": "num", "size": 2 },
+					{ "header": "M/DF", "type": "num", "size": 3 },
+					{ "header": "DF", "type": "num", "size": 2 },
+					{ "header": "F", "type": "num", "size": 2 },
+					{ "header": "F/DF", "type": "num", "size": 3 }
+				],
 				"initialColumn": 1,
-				"alignments": [ true, null, null, null, null, true, null, null, null, null, null, null, null ],
-				"sizes": [ 8.5, 3.5, 7, 7, 6, 14.75, 2, 2, 2, 3, 2, 2, 3 ],
-				"ripples": [0],
 				"data": [
 					[ "{spell/Abjuring Step}", 1, "abjuration", null, "force", "You can move slowly and safely and still cast spells, until you move quickly, make an attack, or cast a harmful spell.", [ 0, "V" ], [ 0, "S" ], [ 0, "M" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
 					[ "{spell/Adhesive Spittle}", 1, "conjuration", "creation", null, "Spit a tanglefoot bag at a creature.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
@@ -604,7 +624,6 @@
 		"tables": [
 			{
 				"id": "alchemist spells table 3 6",
-				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description", "V", "S", "M", "M/DF", "DF", "F" ],
 				"filter": [
 					{ "col": 1, "range": [3, 6] },
 					{ "col": 2, "equals": [
@@ -624,11 +643,21 @@
 					{ "col": 10, "range": [0, 1], "labels": ["DF component", "No DF component"]},
 					{ "col": 11, "range": [0, 1], "labels": ["F component", "No F component"]}
 				],
-				"types": [ null, "num", null, null, null, 0, "num", "num", "num", "num", "num", "num" ],
+				"columns": [
+					{ "header": "Spell", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "Level", "type": "num", "size": 3.5 },
+					{ "header": "School", "size": 7 },
+					{ "header": "Subschool", "size": 7 },
+					{ "header": "Descriptor", "size": 6 },
+					{ "header": "Description", "unsortable": true, "size": 14.75, "align": "start" },
+					{ "header": "V", "type": "num", "size": 2 },
+					{ "header": "S", "type": "num", "size": 2 },
+					{ "header": "M", "type": "num", "size": 2 },
+					{ "header": "M/DF", "type": "num", "size": 3 },
+					{ "header": "DF", "type": "num", "size": 2 },
+					{ "header": "F", "type": "num", "size": 2 }
+				],
 				"initialColumn": 1,
-				"alignments": [ true, null, null, null, null, true, null, null, null, null, null, null ],
-				"sizes": [ 8.5, 3.5, 7, 7, 6, 14.75, 2, 2, 2, 3, 2, 2 ],
-				"ripples": [0],
 				"data": [
 					[ "{spell/Absorb Toxicity}", 3, "necromancy", null, null, "You become immune to diseases and toxins, absorb one, and then spread it to others.", [ 0, "V" ], [ 0, "S" ], [ 0, "M" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
 					[ "{spell/Absorbing Touch}", 3, "transmutation", null, null, "Caster absorbs an item for 1 day/level.", [ 1, "" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
@@ -890,7 +919,6 @@
 		"tables": [
 			{
 				"id": "spiritualist spells table 0 1 2",
-				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description", "V", "S", "M", "M/DF", "DF", "F", "F/DF" ],
 				"filter": [
 					{ "col": 1, "range": [0, 2] },
 					{ "col": 2, "equals": [
@@ -904,11 +932,22 @@
 						"transmutation"
 					]}
 				],
-				"types": [ null, "num", null, null, null, 0, "num", "num", "num", "num", "num", "num", "num" ],
+				"columns": [
+					{ "header": "Spell", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "Level", "type": "num", "size": 3.5 },
+					{ "header": "School", "size": 7 },
+					{ "header": "Subschool", "size": 7 },
+					{ "header": "Descriptor", "size": 6 },
+					{ "header": "Description", "unsortable": true, "size": 14.75, "align": "start" },
+					{ "header": "V", "type": "num", "size": 2 },
+					{ "header": "S", "type": "num", "size": 2 },
+					{ "header": "M", "type": "num", "size": 2 },
+					{ "header": "M/DF", "type": "num", "size": 3 },
+					{ "header": "DF", "type": "num", "size": 2 },
+					{ "header": "F", "type": "num", "size": 2 },
+					{ "header": "F/DF", "type": "num", "size": 3 }
+				],
 				"initialColumn": 1,
-				"alignments": [ true, null, null, null, null, true, null, null, null, null, null, null, null ],
-				"sizes": [ 8.5, 3.5, 7, 7, 6, 14.75, 2, 2, 2, 3, 2, 2, 3 ],
-				"ripples": [0],
 				"data": [
 					[ "{spell/Bleed}", 0, "necromancy", null, null, "Cause a stabilized creature to resume dying.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
 					[ "{spell/Daze}", 0, "enchantment", "compulsion", "mind-affecting", "Humanoid creature of 4 HD or less loses next action.", [ 0, "V" ], [ 0, "S" ], [ 0, "M" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
@@ -1070,7 +1109,6 @@
 		"tables": [
 			{
 				"id": "spiritualist spells table 3 4",
-				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description", "V", "S", "M", "M/DF", "DF", "F", "F/DF" ],
 				"filter": [
 					{ "col": 1, "range": [3, 4] },
 					{ "col": 2, "equals": [
@@ -1084,11 +1122,22 @@
 						"transmutation"
 					]}
 				],
-				"types": [ null, "num", null, null, null, 0, "num", "num", "num", "num", "num", "num", "num" ],
+				"columns": [
+					{ "header": "Spell", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "Level", "type": "num", "size": 3.5 },
+					{ "header": "School", "size": 7 },
+					{ "header": "Subschool", "size": 7 },
+					{ "header": "Descriptor", "size": 6 },
+					{ "header": "Description", "unsortable": true, "size": 14.75, "align": "start" },
+					{ "header": "V", "type": "num", "size": 2 },
+					{ "header": "S", "type": "num", "size": 2 },
+					{ "header": "M", "type": "num", "size": 2 },
+					{ "header": "M/DF", "type": "num", "size": 3 },
+					{ "header": "DF", "type": "num", "size": 2 },
+					{ "header": "F", "type": "num", "size": 2 },
+					{ "header": "F/DF", "type": "num", "size": 3 }
+				],
 				"initialColumn": 1,
-				"alignments": [ true, null, null, null, null, true, null, null, null, null, null, null, null ],
-				"sizes": [ 8.5, 3.5, 7, 7, 6, 14.75, 2, 2, 2, 3, 2, 2, 3 ],
-				"ripples": [0],
 				"data": [
 					[ "{spell/Analyze Aura}", 3, "divination", null, null, "Read a creature's or an object's alignment, emotion, health, and magic auras.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
 					[ "{spell/Animate Dead}", 3, "necromancy", null, "evil", "Creates undead skeletons and zombies.", [ 0, "V" ], [ 0, "S" ], [ 0, "M" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
@@ -1276,7 +1325,6 @@
 		"tables": [
 			{
 				"id": "spiritualist spells table 5 6",
-				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description", "V", "S", "M", "M/DF", "DF", "F", "F/DF" ],
 				"filter": [
 					{ "col": 1, "range": [5, 6] },
 					{ "col": 2, "equals": [
@@ -1297,11 +1345,22 @@
 					{ "col": 11, "range": [0, 1], "labels": ["F component", "No F component"]},
 					{ "col": 12, "range": [0, 1], "labels": ["F/DF component", "No F/DF component"]}
 				],
-				"types": [ null, "num", null, null, null, 0, "num", "num", "num", "num", "num", "num", "num" ],
+				"columns": [
+					{ "header": "Spell", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "Level", "type": "num", "size": 3.5 },
+					{ "header": "School", "size": 7 },
+					{ "header": "Subschool", "size": 7 },
+					{ "header": "Descriptor", "size": 6 },
+					{ "header": "Description", "unsortable": true, "size": 14.75, "align": "start" },
+					{ "header": "V", "type": "num", "size": 2 },
+					{ "header": "S", "type": "num", "size": 2 },
+					{ "header": "M", "type": "num", "size": 2 },
+					{ "header": "M/DF", "type": "num", "size": 3 },
+					{ "header": "DF", "type": "num", "size": 2 },
+					{ "header": "F", "type": "num", "size": 2 },
+					{ "header": "F/DF", "type": "num", "size": 3 }
+				],
 				"initialColumn": 1,
-				"alignments": [ true, null, null, null, null, true, null, null, null, null, null, null, null ],
-				"sizes": [ 8.5, 3.5, 7, 7, 6, 14.75, 2, 2, 2, 3, 2, 2, 3 ],
-				"ripples": [0],
 				"data": [
 					[ "{spell/Awaken the Devoured}", 5, "divination", null, "pain", "Deal 1d8/level nonlethal damage to a daemon and make it confused.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
 					[ "{spell/Banishing Blade}", 5, "abjuration", null, null, "Enhanced weapon gets free bull rush attempts on attacks.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
@@ -1430,7 +1489,6 @@
 		"tables": [
 			{
 				"id": "bloodrager spells table",
-				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description", "V", "S", "M", "M/DF", "DF", "F", "F/DF" ],
 				"filter": [
 					{ "col": 1, "range": [1, 4] },
 					{ "col": 2, "equals": [
@@ -1451,11 +1509,22 @@
 					{ "col": 11, "range": [0, 1], "labels": ["F component", "No F component"]},
 					{ "col": 12, "range": [0, 1], "labels": ["F/DF component", "No F/DF component"]}
 				],
-				"types": [ null, "num", null, null, null, 0, "num", "num", "num", "num", "num", "num", "num" ],
+				"columns": [
+					{ "header": "Spell", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "Level", "type": "num", "size": 3.5 },
+					{ "header": "School", "size": 7 },
+					{ "header": "Subschool", "size": 7 },
+					{ "header": "Descriptor", "size": 6 },
+					{ "header": "Description", "unsortable": true, "size": 14.75, "align": "start" },
+					{ "header": "V", "type": "num", "size": 2 },
+					{ "header": "S", "type": "num", "size": 2 },
+					{ "header": "M", "type": "num", "size": 2 },
+					{ "header": "M/DF", "type": "num", "size": 3 },
+					{ "header": "DF", "type": "num", "size": 2 },
+					{ "header": "F", "type": "num", "size": 2 },
+					{ "header": "F/DF", "type": "num", "size": 3 }
+				],
 				"initialColumn": 1,
-				"alignments": [ true, null, null, null, null, true, null, null, null, null, null, null, null ],
-				"sizes": [ 8.5, 3.5, 7, 7, 6, 14.75, 2, 2, 2, 3, 2, 2, 3 ],
-				"ripples": [0],
 				"data": [
 					[ "{spell/Barbed Chains}", 1, "conjuration", "summoning", "emotion, fear, mind-affecting", "Hellish chains attack and cause a target to become shaken", [ 0, "V" ], [ 0, "S" ], [ 0, "M" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
 					[ "{spell/Batrachian Surge}", 1, "transmutation", null, null, "Amplify your latent amphibian nature", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
@@ -1814,7 +1883,6 @@
 		"tables": [
 			{
 				"id": "summoner spells table",
-				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description", "V", "S", "M", "M/DF", "DF", "F", "F/DF" ],
 				"filter": [
 					{ "col": 1, "range": [0, 6] },
 					{ "col": 2, "equals": [
@@ -1836,11 +1904,22 @@
 					{ "col": 11, "range": [0, 1], "labels": ["F component", "No F component"]},
 					{ "col": 12, "range": [0, 1], "labels": ["F/DF component", "No F/DF component"]}
 				],
-				"types": [ null, "num", null, null, null, 0, "num", "num", "num", "num", "num", "num", "num" ],
+				"columns": [
+					{ "header": "Spell", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "Level", "type": "num", "size": 3.5 },
+					{ "header": "School", "size": 7 },
+					{ "header": "Subschool", "size": 7 },
+					{ "header": "Descriptor", "size": 6 },
+					{ "header": "Description", "unsortable": true, "size": 14.75, "align": "start" },
+					{ "header": "V", "type": "num", "size": 2 },
+					{ "header": "S", "type": "num", "size": 2 },
+					{ "header": "M", "type": "num", "size": 2 },
+					{ "header": "M/DF", "type": "num", "size": 3 },
+					{ "header": "DF", "type": "num", "size": 2 },
+					{ "header": "F", "type": "num", "size": 2 },
+					{ "header": "F/DF", "type": "num", "size": 3 }
+				],
 				"initialColumn": 1,
-				"ripples": [0],
-				"sizes": [ 8.5, 3.5, 7, 7, 6, 14.75, 2, 2, 2, 3, 2, 2, 3 ],
-				"alignments": [ true, null, null, null, null, true, null, null, null, null, null, null, null ],
 				"data": [
 					[ "{spell/Acid Splash}", 0, "conjuration", "creation", "acid", "Orb deals 1d3 acid damage.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
 					[ "{spell/Arcane Mark}", 0, "universal", null, null, "Inscribes a personal rune on an object or creature (visible or invisible).", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],

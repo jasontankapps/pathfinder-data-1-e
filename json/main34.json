@@ -14,7 +14,6 @@
 		"tables": [
 			{
 				"id": "cr 12 to 14 monsters table",
-				"headers": [ "Monster", "CR", "Type", "Size", "Alignment", "Description", "Str", "Dex", "Con", "Int", "Wis", "Cha", "BAB", "CMB", "CMD" ],
 				"filter": [
 					{ "col": 1, "equals": [12, 13, 14] },
 					{
@@ -32,10 +31,23 @@
 						"labels": ["LG", "LN", "LE", "NG", "N", "NE", "CG", "CN", "CE"]
 					}
 				],
-				"types": [ null, "num", null, "num", "num", 0, "num", "num", "num", "num", "num", "num", "num", "num", "num" ],
-				"alignments": [ true, null, null, null, null, true, null, null, null, null, null, null, null, null, null ],
-				"sizes": [ 8.5, 3.5, 5.5, 6, 5.5, 14.75, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5 ],
-				"ripples": [0],
+				"columns": [
+					{ "header": "Monster", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "CR", "type": "num", "size": 3.5 },
+					{ "header": "Type", "size": 5.5 },
+					{ "header": "Size", "type": "num", "size": 6 },
+					{ "header": "Alignment", "type": "num", "size": 5.5 },
+					{ "header": "Description", "unsortable": true, "size": 14.75, "align": "start" },
+					{ "header": "Str", "type": "num", "size": 3.5 },
+					{ "header": "Dex", "type": "num", "size": 3.5 },
+					{ "header": "Con", "type": "num", "size": 3.5 },
+					{ "header": "Int", "type": "num", "size": 3.5 },
+					{ "header": "Wis", "type": "num", "size": 3.5 },
+					{ "header": "Cha", "type": "num", "size": 3.5 },
+					{ "header": "BAB", "type": "num", "size": 3.5 },
+					{ "header": "CMB", "type": "num", "size": 3.5 },
+					{ "header": "CMD", "type": "num", "size": 3.5 }
+				],
 				"data": [
 					[ "{monster/Alghollthu, Plizeazoth}", 12, "aberration", [ 6, "huge" ], [ 5, "NE" ], "This massive raylike aquatic creature has five bulbous red eyes. Long tentacles protrude from the sides of its wide mouth, and its slimy skin undulates with sickening shudders.", 30, 18, 23, 5, 18, 23, 11, 23, 38 ],
 					[ "{monster/Banelight}", 12, "fey", [ 4, "medium" ], [ 5, "NE" ], "This creature has a dragonfly's body and a woman's head and arms. A glowing red vortex gathers between her hands.", 12, 32, 25, 21, 22, 23, 8, 9, 38 ],
@@ -341,7 +353,6 @@
 		"tables": [
 			{
 				"id": "cr 15 and up monsters table",
-				"headers": [ "Monster", "CR", "Type", "Size", "Alignment", "Description", "Str", "Dex", "Con", "Int", "Wis", "Cha", "BAB", "CMB", "CMD" ],
 				"filter": [
 					{ "col": 1, "equals": [15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 30] },
 					{
@@ -359,10 +370,23 @@
 						"labels": ["LG", "LN", "LE", "NG", "N", "NE", "CG", "CN", "CE"]
 					}
 				],
-				"types": [ null, "num", null, "num", "num", 0, "num", "num", "num", "num", "num", "num", "num", "num", "num" ],
-				"alignments": [ true, null, null, null, null, true, null, null, null, null, null, null, null, null, null ],
-				"sizes": [ 8.5, 3.5, 5.5, 6, 5.5, 14.75, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5 ],
-				"ripples": [0],
+				"columns": [
+					{ "header": "Monster", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "CR", "type": "num", "size": 3.5 },
+					{ "header": "Type", "size": 5.5 },
+					{ "header": "Size", "type": "num", "size": 6 },
+					{ "header": "Alignment", "type": "num", "size": 5.5 },
+					{ "header": "Description", "unsortable": true, "size": 14.75, "align": "start" },
+					{ "header": "Str", "type": "num", "size": 3.5 },
+					{ "header": "Dex", "type": "num", "size": 3.5 },
+					{ "header": "Con", "type": "num", "size": 3.5 },
+					{ "header": "Int", "type": "num", "size": 3.5 },
+					{ "header": "Wis", "type": "num", "size": 3.5 },
+					{ "header": "Cha", "type": "num", "size": 3.5 },
+					{ "header": "BAB", "type": "num", "size": 3.5 },
+					{ "header": "CMB", "type": "num", "size": 3.5 },
+					{ "header": "CMD", "type": "num", "size": 3.5 }
+				],
 				"data": [
 					[ "{monster/Akaruzug}", 15, "construct", [ 5, "large" ], [ 2, "LE" ], "This stony guardian has been sculpted in the shape of a grim, horned angel, and a crucified corpse has been affixed to its chest.", 26, 17, [ -1, "&mdash;" ], 15, 18, 19, 20, 29, 46 ],
 					[ "{monster/Abysogh}", 15, "humanoid", [ 7, "gargantuan" ], [ 8, "CE" ], "The footsteps of this pale titan cause the very earth to shudder. Each muscle in its body is pulled taut as if in perpetual convulsion.", 45, 18, 22, 6, 15, 7, 14, 35, 52 ],

@@ -14,7 +14,6 @@
 		"tables": [
 			{
 				"id": "monsters oozes",
-				"headers": [ "Monster", "CR", "Subtypes", "Size", "Alignment", "Description" ],
 				"filter": [
 					{
 						"col": 1,
@@ -32,10 +31,14 @@
 						"labels": ["LE", "NG", "N", "NE", "CG", "CN", "CE"]
 					}
 				],
-				"types": [ null, "num", null, "num", "num", 0 ],
-				"alignments": [ true, null, null, null, null, true ],
-				"sizes": [ 8.5, 3.5, 7, 6, 5.5, 14.75 ],
-				"ripples": [0],
+				"columns": [
+					{ "header": "Monster", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "CR", "type": "num", "size": 3.5 },
+					{ "header": "Subtypes", "size": 7 },
+					{ "header": "Size", "type": "num", "size": 6 },
+					{ "header": "Alignment", "type": "num", "size": 5.5 },
+					{ "header": "Description", "unsortable": true, "size": 14.75, "align": "start" }
+				],
 				"data": [
 					[ "{monster/Adaptive Ooze}", 7, null, [ 5, "large" ], [ 4, "N" ], "The color and texture of this massive, metallic ooze shift whenever it touches something." ],
 					[ "{monster/Alchemical Ooze Swarm, Choleric Ooze Swarm}", 2, "swarm", [ 2, "tiny" ], [ 4, "N" ], null ],
@@ -131,7 +134,6 @@
 		"tables": [
 			{
 				"id": "monsters good",
-				"headers": [ "Monster", "CR", "Type", "Subtypes", "Size", "Alignment", "Description" ],
 				"filter": [
 					{
 						"col": 1,
@@ -152,10 +154,15 @@
 						"labels": ["LG", "NG", "CG"]
 					}
 				],
-				"types": [ null, "num", null, null, "num", "num", 0 ],
-				"alignments": [ true, null, null, null, null, null, true ],
-				"sizes": [ 8.5, 3.5, 5.5, 7, 6, 5.5, 14.75 ],
-				"ripples": [0],
+				"columns": [
+					{ "header": "Monster", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "CR", "type": "num", "size": 3.5 },
+					{ "header": "Type", "size": 5.5 },
+					{ "header": "Subtypes", "size": 7 },
+					{ "header": "Size", "type": "num", "size": 6 },
+					{ "header": "Alignment", "type": "num", "size": 5.5 },
+					{ "header": "Description", "unsortable": true, "size": 14.75, "align": "start" }
+				],
 				"data": [
 					[ "{monster/Agathion, Avoral}", 9, "outsider", "agathion, extraplanar, good", [ 4, "medium" ], [ 3, "NG" ], "Great feathers sweep back from this fierce bird-man's brow, and long, clawed hands grow from the end of his wings." ],
 					[ "{monster/Agathion, Bishop}", 4, "outsider", "aquatic, extraplanar, good", [ 4, "medium" ], [ 3, "NG" ], "Layers of translucent, shimmering fins flow along this fishman's spindly body. Tentacles curl below its stately mouth, and its humanlike hands and feet end in stubby but sharp claws." ],
@@ -265,7 +272,6 @@
 		"tables": [
 			{
 				"id": "monsters evil",
-				"headers": [ "Monster", "CR", "Type", "Subtypes", "Size", "Alignment", "Description" ],
 				"filter": [
 					{
 						"col": 1,
@@ -286,10 +292,15 @@
 						"labels": ["LE", "NE", "CE"]
 					}
 				],
-				"types": [ null, "num", null, null, "num", "num", 0 ],
-				"alignments": [ true, null, null, null, null, null, true ],
-				"sizes": [ 8.5, 3.5, 5.5, 7, 6, 5.5, 14.75 ],
-				"ripples": [0],
+				"columns": [
+					{ "header": "Monster", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "CR", "type": "num", "size": 3.5 },
+					{ "header": "Type", "size": 5.5 },
+					{ "header": "Subtypes", "size": 7 },
+					{ "header": "Size", "type": "num", "size": 6 },
+					{ "header": "Alignment", "type": "num", "size": 5.5 },
+					{ "header": "Description", "unsortable": true, "size": 14.75, "align": "start" }
+				],
 				"data": [
 					[ "{monster/Abrakarn Viper}", 13, "construct", "chaotic, evil", [ 6, "huge" ], [ 8, "CE" ], "This massive, three-headed clockwork snake is crafted of brass and strange, dark alloys." ],
 					[ "{monster/Achaierai}", 5, "outsider", "evil, extraplanar, lawful", [ 5, "large" ], [ 2, "LE" ], "This bird-like beast is mostly head, lunging forward on four scaly legs. Wisps of noxious black vapor trail from its hooked beak." ],
@@ -556,7 +567,6 @@
 		"tables": [
 			{
 				"id": "monsters lawful",
-				"headers": [ "Monster", "CR", "Type", "Subtypes", "Size", "Alignment", "Description" ],
 				"filter": [
 					{
 						"col": 1,
@@ -578,10 +588,15 @@
 						"labels": ["LG", "LN", "LE"]
 					}
 				],
-				"types": [ null, "num", null, null, "num", "num", 0 ],
-				"alignments": [ true, null, null, null, null, null, true ],
-				"sizes": [ 8.5, 3.5, 5.5, 7, 6, 5.5, 14.75 ],
-				"ripples": [0],
+				"columns": [
+					{ "header": "Monster", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "CR", "type": "num", "size": 3.5 },
+					{ "header": "Type", "size": 5.5 },
+					{ "header": "Subtypes", "size": 7 },
+					{ "header": "Size", "type": "num", "size": 6 },
+					{ "header": "Alignment", "type": "num", "size": 5.5 },
+					{ "header": "Description", "unsortable": true, "size": 14.75, "align": "start" }
+				],
 				"data": [
 					[ "{monster/Achaierai}", 5, "outsider", "evil, extraplanar, lawful", [ 5, "large" ], [ 2, "LE" ], "This bird-like beast is mostly head, lunging forward on four scaly legs. Wisps of noxious black vapor trail from its hooked beak." ],
 					[ "{monster/Angel, Iophanite}", 4, "outsider", "angel, extraplanar, fire, good, lawful", [ 4, "medium" ], [ 0, "LG" ], "This disc of flying metal is about the size of a wagon wheel and burns with yellow-white flame." ],
@@ -735,7 +750,6 @@
 		"tables": [
 			{
 				"id": "monsters chaotic",
-				"headers": [ "Monster", "CR", "Type", "Subtypes", "Size", "Alignment", "Description" ],
 				"filter": [
 					{
 						"col": 1,
@@ -756,10 +770,15 @@
 						"labels": ["CG", "CN", "CE"]
 					}
 				],
-				"types": [ null, "num", null, null, "num", "num", 0 ],
-				"alignments": [ true, null, null, null, null, null, true ],
-				"sizes": [ 8.5, 3.5, 5.5, 7, 6, 5.5, 14.75 ],
-				"ripples": [0],
+				"columns": [
+					{ "header": "Monster", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "CR", "type": "num", "size": 3.5 },
+					{ "header": "Type", "size": 5.5 },
+					{ "header": "Subtypes", "size": 7 },
+					{ "header": "Size", "type": "num", "size": 6 },
+					{ "header": "Alignment", "type": "num", "size": 5.5 },
+					{ "header": "Description", "unsortable": true, "size": 14.75, "align": "start" }
+				],
 				"data": [
 					[ "{monster/Abrakarn Viper}", 13, "construct", "chaotic, evil", [ 6, "huge" ], [ 8, "CE" ], "This massive, three-headed clockwork snake is crafted of brass and strange, dark alloys." ],
 					[ "{monster/Ataxian}", 4, "outsider", "chaotic, extraplanar, good", [ 2, "tiny" ], [ 6, "CG" ], "This sprite-like creature resembles a humanoid the size of a cat, with amber skin, surrounded by an aura of tiny bubbles." ],
@@ -923,7 +942,6 @@
 		"tables": [
 			{
 				"id": "all unique monsters",
-				"headers": [ "Monster", "CR", "MR", "Type", "Subtypes", "Size", "Alignment", "Description" ],
 				"filter": [
 					{ "col": 1, "range": [ 5, 30 ] },
 					{
@@ -941,10 +959,16 @@
 						"labels": ["LG", "LN", "LE", "NG", "N", "NE", "CG", "CN", "CE"]
 					}
 				],
-				"types": [ null, "num", "num", null, 0, "num", "num", 0 ],
-				"alignments": [ true, null, null, null, null, null, null, true ],
-				"sizes": [ 8.5, 3.5, 3.5, 5.5, 7, 6, 5.5, 14.75 ],
-				"ripples": [0],
+				"columns": [
+					{ "header": "Monster", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "CR", "type": "num", "size": 3.5 },
+					{ "header": "MR", "type": "num", "size": 3.5 },
+					{ "header": "Type", "size": 5.5 },
+					{ "header": "Subtypes", "unsortable": true, "size": 7 },
+					{ "header": "Size", "type": "num", "size": 6 },
+					{ "header": "Alignment", "type": "num", "size": 5.5 },
+					{ "header": "Description", "unsortable": true, "size": 14.75, "align": "start" }
+				],
 				"data": [
 					[ "{monster/Agmazar the Star Titan}", 26, [-1, "&mdash;"], "undead", "cold, kaiju", [ 8, "colossal" ], [ 5, "NE" ], "Stony segments cover this towering colossus like armor plates. Though it looks lifeless, its four arms move with supple grace." ],
 					[ "{monster/Ahriman/, Lord of All Divs}", 26, [-1, "&mdash;"], "outsider", "div, evil, extraplanar", [ 6, "huge" ], [ 5, "NE" ], "This humanoid creature has the head of a ravening, horned lion. A chorus of anguished screams echoes from his gaping maw." ],
@@ -1108,11 +1132,22 @@
 			},
 			{
 				"id": "monsters by cr unique",
-				"headers": [ "Monster", "Type", "Size", "CR", "MR", "Str", "Dex", "Con", "Int", "Wis", "Cha", "BAB", "CMB", "CMD" ],
-				"types": [ null, null, "num", "num", "num", "num", "num", "num", "num", "num", "num", "num", "num", "num" ],
-				"alignments": [ true, null, null, null, null, null, null, null, null, null, null, null, null, null ],
-				"sizes": [ 8.5, 5.5, 6, 3.5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4 ],
-				"ripples": [0],
+				"columns": [
+					{ "header": "Monster", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "Type", "size": 5.5 },
+					{ "header": "Size", "type": "num", "size": 6 },
+					{ "header": "CR", "type": "num", "size": 3.5 },
+					{ "header": "MR", "type": "num", "size": 4 },
+					{ "header": "Str", "type": "num", "size": 4 },
+					{ "header": "Dex", "type": "num", "size": 4 },
+					{ "header": "Con", "type": "num", "size": 4 },
+					{ "header": "Int", "type": "num", "size": 4 },
+					{ "header": "Wis", "type": "num", "size": 4 },
+					{ "header": "Cha", "type": "num", "size": 4 },
+					{ "header": "BAB", "type": "num", "size": 4 },
+					{ "header": "CMB", "type": "num", "size": 4 },
+					{ "header": "CMD", "type": "num", "size": 4 }
+				],
 				"filter": [ { "col": 3, "range": [ 5, 30 ] } ],
 				"data": [
 					[ "{monster/Eudranis}", "monstrous humanoid", [ 4, "medium" ], 5, [-1, "&mdash;"], 14, 16, 16, 7, 18, 10, 6, 8, 21 ],
@@ -1302,7 +1337,6 @@
 		"tables": [
 			{
 				"id": "all mythic monsters",
-				"headers": [ "Monster", "CR", "MR", "Type", "Subtype", "Size", "Alignment", "Description" ],
 				"filter": [
 					{ "col": 2, "range": [ 1, 10 ] },
 					{
@@ -1320,10 +1354,16 @@
 						"labels": ["LG", "LN", "LE", "NG", "N", "NE", "CN", "CE"]
 					}
 				],
-				"types": [ null, "num", "num", null, 0, "num", "num", 0 ],
-				"alignments": [ true, null, null, null, null, null, null, true ],
-				"sizes": [ 8.5, 3.5, 3.5, 5.5, 7, 6, 5.5, 14.75 ],
-				"ripples": [0],
+				"columns": [
+					{ "header": "Monster", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "CR", "type": "num", "size": 3.5 },
+					{ "header": "MR", "type": "num", "size": 3.5 },
+					{ "header": "Type", "size": 5.5 },
+					{ "header": "Subtype", "unsortable": true, "size": 7 },
+					{ "header": "Size", "type": "num", "size": 6 },
+					{ "header": "Alignment", "type": "num", "size": 5.5 },
+					{ "header": "Description", "unsortable": true, "size": 14.75, "align": "start" }
+				],
 				"data": [
 					[ "{monster/Aboleth}", 9, 3, "aberration", "aquatic, mythic", [ 6, "huge" ], [ 2, "LE" ], "A foul mist surrounds this huge, three-eyed, tentacled fish creature, and plates of hardened slime guard its body." ],
 					[ "{monster/Anunnaki}", 18, 7, "monstrous humanoid", "mythic, shapechanger", [ 5, "large" ], [ 4, "N" ], "This towering humanoid has a strange, stony head. Small, mechanical wings spread out from its back." ],
@@ -1411,11 +1451,22 @@
 			},
 			{
 				"id": "monsters by cr mythic",
-				"headers": [ "Monster", "Type", "Size", "CR", "MR", "Str", "Dex", "Con", "Int", "Wis", "Cha", "BAB", "CMB", "CMD" ],
-				"types": [ null, null, "num", "num", "num", "num", "num", "num", "num", "num", "num", "num", "num", "num" ],
-				"alignments": [ true, null, null, null, null, null, null, null, null, null, null, null, null, null ],
-				"sizes": [ 8.5, 5.5, 6, 3.5, 3.5, 4, 4, 4, 4, 4, 4, 4, 4, 4 ],
-				"ripples": [0],
+				"columns": [
+					{ "header": "Monster", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "Type", "size": 5.5 },
+					{ "header": "Size", "type": "num", "size": 6 },
+					{ "header": "CR", "type": "num", "size": 3.5 },
+					{ "header": "MR", "type": "num", "size": 3.5 },
+					{ "header": "Str", "type": "num", "size": 4 },
+					{ "header": "Dex", "type": "num", "size": 4 },
+					{ "header": "Con", "type": "num", "size": 4 },
+					{ "header": "Int", "type": "num", "size": 4 },
+					{ "header": "Wis", "type": "num", "size": 4 },
+					{ "header": "Cha", "type": "num", "size": 4 },
+					{ "header": "BAB", "type": "num", "size": 4 },
+					{ "header": "CMB", "type": "num", "size": 4 },
+					{ "header": "CMD", "type": "num", "size": 4 }
+				],
 				"filter": [ { "col": 4, "range": [ 1, 10 ] } ],
 				"data": [
 					[ "{monster/Chaneque}", "fey", [ 3, "small" ], 1, 1, 6, 17, 10, 13, 14, 9, 1, -2, 11 ],

@@ -3449,11 +3449,11 @@
 		"tables": [
 			{
 				"id": "hazards table",
-				"headers": [ "Hazard", "CR", "(Su)" ],
-				"types": [ null, "num", "num" ],
-				"alignments": [ true, null, null ],
-				"sizes": [ 11.5, 4, 4 ],
-				"ripples": [0],
+				"columns": [
+					{ "header": "Hazard", "size": 11.5, "ripple": true, "align": "start" },
+					{ "header": "CR", "type": "num", "size": 4 },
+					{ "header": "(Su)", "type": "num", "size": 4 }
+				],
 				"data": [
 					[ "{rule/Brambles}", 1, [ 1, "" ] ],
 					[ "{rule/Exploding Window}", 1, [ 1, "" ] ],

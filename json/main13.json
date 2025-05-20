@@ -13,13 +13,13 @@
 		"searchgroup": "feat",
 		"tables": [
 			{
-				"headers": [ "Feat", "Description" ],
-				"types": [ null, 0 ],
-				"initialColumn": 0,
-				"nullValue": "&ndash;",
-				"ripples": [0],
 				"id": "all mythic feats table",
-				"sizes": [ 8.5, 11.5 ],
+				"columns": [
+					{ "header": "Feat", "size": 8.5, "ripple": true },
+					{ "header": "Description", "unsortable": true, "size": 11.5 }
+				],
+				"nullValue": "&ndash;",
+				"initialColumn": 0,
 				"data": [
 					[ "{feat/Accursed Hex}", "Your hexes flare with persistent potency." ],
 					[ "{feat/Acrobatic}", "Your grace and fluidity are beyond compare." ],
@@ -335,13 +335,14 @@
 		],
 		"tables": [
 			{
-				"headers": [ "Feat", "Prerequisites", "Description" ],
-				"types": [ null, null, 0 ],
-				"initialColumn": 0,
-				"nullValue": "",
 				"id": "Monster feats table",
-				"sizes": [ 8.5, 8.5, 13.25 ],
-				"ripples": [0],
+				"columns": [
+					{ "header": "Feat", "size": 8.5, "ripple": true },
+					{ "header": "Prerequisites", "size": 8.5 },
+					{ "header": "Description", "unsortable": true, "size": 13.25 }
+				],
+				"nullValue": "",
+				"initialColumn": 0,
 				"data": [
 					[ "{feat/Ability Focus}", "Special attack.", "Increase the DC of a special attack by 2." ],
 					[ "{feat/Awesome Blow}", "Str 25, {feat/Power Attack}, {feat/Improved Bull Rush}, size Large or larger.", "Learn a maneuver to send opponent's flying backwards." ],
@@ -393,13 +394,14 @@
 		],
 		"tables": [
 			{
-				"headers": [ "Feat", "Prerequisites", "Description" ],
-				"types": [ null, null, 0 ],
-				"initialColumn": 0,
-				"nullValue": "",
 				"id": "Teamwork feats table",
-				"sizes": [ 8.5, 8.5, 13.25 ],
-				"ripples": [0],
+				"columns": [
+					{ "header": "Feat", "size": 8.5, "ripple": true },
+					{ "header": "Prerequisites", "size": 8.5 },
+					{ "header": "Description", "unsortable": true, "size": 13.25 }
+				],
+				"nullValue": "",
+				"initialColumn": 0,
 				"data": [
 					[ "{feat/Alien Mindpaths}", "Android, kasatha, lashunta, or Triaxian.", "Gain +4 on saves vs. mind-affecting effects and scrying" ],
 					[ "{feat/Allied Spellcaster}", "Caster level 1st.", "+2 bonus on level checks to overcome spell resistance" ],
@@ -700,13 +702,14 @@
 		],
 		"tables": [
 			{
-				"headers": [ "Feat", "Prerequisites", "Description" ],
-				"types": [ null, null, 0 ],
-				"initialColumn": 0,
-				"nullValue": "",
 				"id": "Story feats table",
-				"sizes": [ 8.5, 11.5, 14.75 ],
-				"ripples": [0],
+				"columns": [
+					{ "header": "Feat", "size": 8.5, "ripple": true },
+					{ "header": "Prerequisites", "size": 11.5 },
+					{ "header": "Description", "unsortable": true, "size": 14.75 }
+				],
+				"nullValue": "",
+				"initialColumn": 0,
 				"data": [
 					[ "{feat/Accursed}", "You must carry a curse that can be lifted only by a quest or similar great undertaking, or have the Cursed Birth background.", "Gain SR 5 + level, cannot be lowered" ],
 					[ "{feat/Agent of Purity}", "A friend or ally must have been significantly corrupted by a specific natural or supernatural blight, or you must have a regional background trait tied to a specific blight.", "Gain combat bonuses against blighted creatures" ],
@@ -804,13 +807,14 @@
 		],
 		"tables": [
 			{
-				"headers": [ "Feat", "Prerequisites", "Description" ],
-				"types": [ null, null, 0 ],
-				"initialColumn": 0,
-				"nullValue": "",
 				"id": "Style feats table",
-				"sizes": [ 8.5, 8.5, 13.25 ],
-				"ripples": [0],
+				"columns": [
+					{ "header": "Feat", "size": 8.5, "ripple": true },
+					{ "header": "Prerequisites", "size": 8.5 },
+					{ "header": "Description", "unsortable": true, "size": 13.25 }
+				],
+				"nullValue": "",
+				"initialColumn": 0,
 				"data": [
 					[ "{feat/Aldori Style}", "{feat/Alertness}, {feat/Exotic Weapon Proficiency/ (Aldori dueling sword)}, {feat/Weapon Finesse}, {feat/Weapon Focus/ (Aldori dueling sword)}.", "Gain a +2 bonus to damage when fighting defensively or using {feat/Combat Expertise}" ],
 					[ "{feat/Archon Style}", "{feat/Combat Expertise}; {feat/Combat Reflexes}; base attack bonus +2 or monk level 1st.", "Grant bonus to AC to allies against single opponent's attacks" ],
@@ -961,13 +965,14 @@
 		],
 		"tables": [
 			{
-				"headers": [ "Feat", "Prerequisites", "Description" ],
-				"types": [ null, null, 0 ],
-				"initialColumn": 0,
-				"nullValue": "",
 				"id": "Metamagic feats table",
-				"sizes": [ 8.5, 8.5, 13.25 ],
-				"ripples": [0],
+				"columns": [
+					{ "header": "Feat", "size": 8.5, "ripple": true },
+					{ "header": "Prerequisites", "size": 8.5 },
+					{ "header": "Description", "unsortable": true, "size": 13.25 }
+				],
+				"nullValue": "",
+				"initialColumn": 0,
 				"data": [
 					[ "{feat/Apocalyptic Spell}", "", "Area affected by spell becomes difficult to move in" ],
 					[ "{feat/Aquatic Spell}", "", "Spell functions normally underwater" ],

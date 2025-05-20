@@ -507,10 +507,13 @@
 		"tables": [
 			{
 				"id": "simple kinetic blasts",
-				"headers": [ "Simple Blast", "Elements", "Burn", "Blast Type", "Damage Type" ],
-				"ripples": [0],
-				"types": [ null, null, "num", null, null ],
-				"alignments": [ true, null, null, null, true ],
+				"columns": [
+					{ "header": "Simple Blast", "ripple": true, "align": "start" },
+					{ "header": "Elements" },
+					{ "header": "Burn", "type": "num" },
+					{ "header": "Blast Type" },
+					{ "header": "Damage Type", "align": "start" }
+				],
 				"data": [
 					[ "{kinetic/Air Blast/ (Sp)}", "air", 0, "physical", "bludgeoning" ],
 					[ "{kinetic/Cold Blast/ (Sp)}", "water", 0, "energy", "cold" ],

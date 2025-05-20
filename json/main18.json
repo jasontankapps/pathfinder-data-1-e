@@ -28,11 +28,11 @@
 		"tables": [
 			{
 				"id": "all npcs",
-				"headers": [ "NPC", "CR", "Race/Class" ],
-				"types": [ null, "num", null ],
-				"alignments": [ true, null, true ],
-				"ripples": [0],
-				"sizes": [ 8.5, 3.5, 8.5 ],
+				"columns": [
+					{ "header": "NPC", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "CR", "type": "num", "size": 3.5 },
+					{ "header": "Race/Class", "size": 8.5, "align": "start" }
+				],
 				"data": [
 					[ "{npc/Acolyte}", [ -3, "1/3" ], "Human adept 1" ],
 					[ "{npc/Apprentice Jeweler}", [ -3, "1/3" ], "Human expert 1" ],
@@ -575,11 +575,11 @@
 		"tables": [
 			{
 				"id": "npcs adept",
-				"headers": [ "NPC", "CR", "Race/Class" ],
-				"types": [ null, "num", null ],
-				"alignments": [ true, null, true ],
-				"sizes": [ 8.5, 3.5, 8.5 ],
-				"ripples": [0],
+				"columns": [
+					{ "header": "NPC", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "CR", "type": "num", "size": 3.5 },
+					{ "header": "Race/Class", "size": 8.5, "align": "start" }
+				],
 				"data": [
 					[ "{npc/Acolyte}", [ -3, "1/3" ], "Human adept 1" ],
 					[ "{npc/Shaman}", [ -2, "1/2" ], "Half-orc adept 2" ],
@@ -598,11 +598,11 @@
 			},
 			{
 				"id": "npcs expert",
-				"headers": [ "NPC", "CR", "Race/Class" ],
-				"types": [ null, "num", null ],
-				"alignments": [ true, null, true ],
-				"ripples": [0],
-				"sizes": [ 8.5, 3.5, 8.5 ],
+				"columns": [
+					{ "header": "NPC", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "CR", "type": "num", "size": 3.5 },
+					{ "header": "Race/Class", "size": 8.5, "align": "start" }
+				],
 				"data": [
 					[ "{npc/Apprentice Jeweler}", [ -3, "1/3" ], "Human expert 1" ],
 					[ "{npc/Old Sailor}", [ -2, "1/2" ], "Elf expert 2" ],
@@ -634,11 +634,11 @@
 			},
 			{
 				"id": "npcs commoner",
-				"headers": [ "NPC", "CR", "Race/Class" ],
-				"types": [ null, "num", null ],
-				"alignments": [ true, null, true ],
-				"ripples": [0],
-				"sizes": [ 8.5, 3.5, 8.5 ],
+				"columns": [
+					{ "header": "NPC", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "CR", "type": "num", "size": 3.5 },
+					{ "header": "Race/Class", "size": 8.5, "align": "start" }
+				],
 				"data": [
 					[ "{npc/Beggar}", [ -3, "1/3" ], "Half-elf commoner 1" ],
 					[ "{npc/Villager (Village Idiot)}", [ -3, "1/3" ], "Human commoner 1" ],
@@ -663,11 +663,11 @@
 			},
 			{
 				"id": "npcs aristocrat",
-				"headers": [ "NPC", "CR", "Race/Class" ],
-				"types": [ null, "num", null ],
-				"alignments": [ true, null, true ],
-				"sizes": [ 8.5, 3.5, 8.5 ],
-				"ripples": [0],
+				"columns": [
+					{ "header": "NPC", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "CR", "type": "num", "size": 3.5 },
+					{ "header": "Race/Class", "size": 8.5, "align": "start" }
+				],
 				"data": [
 					[ "{npc/Crusader (Squire)}", [ -3, "1/3" ], "Human aristocrat 1" ],
 					[ "{npc/Page}", [ -3, "1/3" ], "Halfling aristocrat 1" ],
@@ -696,11 +696,11 @@
 			},
 			{
 				"id": "npcs warrior",
-				"headers": [ "NPC", "CR", "Race/Class" ],
-				"types": [ null, "num", null ],
-				"alignments": [ true, null, true ],
-				"ripples": [0],
-				"sizes": [ 8.5, 3.5, 8.5 ],
+				"columns": [
+					{ "header": "NPC", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "CR", "type": "num", "size": 3.5 },
+					{ "header": "Race/Class", "size": 8.5, "align": "start" }
+				],
 				"data": [
 					[ "{npc/Military (Foot Soldier)}", [ -3, "1/3" ], "Human warrior 1" ],
 					[ "{npc/Recruit}", [ -3, "1/3" ], "Dwarf warrior 1" ],
@@ -760,11 +760,11 @@
 		"tables": [
 			{
 				"id": "npcs bard",
-				"headers": [ "NPC", "CR", "Race/Class" ],
-				"types": [ null, "num", null ],
-				"alignments": [ true, null, true ],
-				"ripples": [0],
-				"sizes": [ 8.5, 3.5, 8.5 ],
+				"columns": [
+					{ "header": "NPC", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "CR", "type": "num", "size": 3.5 },
+					{ "header": "Race/Class", "size": 8.5, "align": "start" }
+				],
 				"data": [
 					[ "{npc/Tavern Singer}", [ -2, "1/2" ], "Half-elf bard 1" ],
 					[ "{npc/Entertainer (Storyteller)}", 1, "Human bard 2" ],
@@ -813,11 +813,11 @@
 			},
 			{
 				"id": "npcs sorcerer",
-				"headers": [ "NPC", "CR", "Race/Class" ],
-				"types": [ null, "num", null ],
-				"alignments": [ true, null, true ],
-				"ripples": [0],
-				"sizes": [ 8.5, 3.5, 8.5 ],
+				"columns": [
+					{ "header": "NPC", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "CR", "type": "num", "size": 3.5 },
+					{ "header": "Race/Class", "size": 8.5, "align": "start" }
+				],
 				"data": [
 					[ "{npc/Mercenary Magician}", [ -2, "1/2" ], "Human sorcerer 1" ],
 					[ "{npc/Gem Sorcerer}", 1, "Dwarf sorcerer 2" ],
@@ -862,11 +862,11 @@
 			},
 			{
 				"id": "npcs wizard",
-				"headers": [ "NPC", "CR", "Race/Class" ],
-				"types": [ null, "num", null ],
-				"alignments": [ true, null, true ],
-				"ripples": [0],
-				"sizes": [ 8.5, 3.5, 8.5 ],
+				"columns": [
+					{ "header": "NPC", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "CR", "type": "num", "size": 3.5 },
+					{ "header": "Race/Class", "size": 8.5, "align": "start" }
+				],
 				"data": [
 					[ "{npc/Cautious Mage}", [ -2, "1/2" ], "Human wizard 1" ],
 					[ "{npc/Battle Mage}", 2, "Elf wizard 3" ],
@@ -931,11 +931,11 @@
 		"tables": [
 			{
 				"id": "npcs cleric",
-				"headers": [ "NPC", "CR", "Race/Class" ],
-				"types": [ null, "num", null ],
-				"alignments": [ true, null, true ],
-				"ripples": [0],
-				"sizes": [ 8.5, 3.5, 8.5 ],
+				"columns": [
+					{ "header": "NPC", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "CR", "type": "num", "size": 3.5 },
+					{ "header": "Race/Class", "size": 8.5, "align": "start" }
+				],
 				"data": [
 					[ "{npc/Mercenary Healer}", [ -2, "1/2" ], "Human cleric of Abadar 1" ],
 					[ "{npc/Temple (Acolyte)}", [ -2, "1/2" ], "Human cleric 1" ],
@@ -980,11 +980,11 @@
 			},
 			{
 				"id": "npcs druid",
-				"headers": [ "NPC", "CR", "Race/Class" ],
-				"types": [ null, "num", null ],
-				"alignments": [ true, null, true ],
-				"ripples": [0],
-				"sizes": [ 8.5, 3.5, 8.5 ],
+				"columns": [
+					{ "header": "NPC", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "CR", "type": "num", "size": 3.5 },
+					{ "header": "Race/Class", "size": 8.5, "align": "start" }
+				],
 				"data": [
 					[ "{npc/Initiate of Flame}", [ -2, "1/2" ], "Dwarf druid 1" ],
 					[ "{npc/Sail Master}", 1, "Human druid 2" ],
@@ -1019,11 +1019,11 @@
 			},
 			{
 				"id": "npcs ranger",
-				"headers": [ "NPC", "CR", "Race/Class" ],
-				"types": [ null, "num", null ],
-				"alignments": [ true, null, true ],
-				"ripples": [0],
-				"sizes": [ 8.5, 3.5, 8.5 ],
+				"columns": [
+					{ "header": "NPC", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "CR", "type": "num", "size": 3.5 },
+					{ "header": "Race/Class", "size": 8.5, "align": "start" }
+				],
 				"data": [
 					[ "{npc/Novice Scout}", [ -2, "1/2" ], "Half-elf ranger 1" ],
 					[ "{npc/Town Watcher}", 1, "Halfling ranger 2" ],
@@ -1067,11 +1067,11 @@
 			},
 			{
 				"id": "npcs paladin",
-				"headers": [ "NPC", "CR", "Race/Class" ],
-				"types": [ null, "num", null ],
-				"alignments": [ true, null, true ],
-				"ripples": [0],
-				"sizes": [ 8.5, 3.5, 8.5 ],
+				"columns": [
+					{ "header": "NPC", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "CR", "type": "num", "size": 3.5 },
+					{ "header": "Race/Class", "size": 8.5, "align": "start" }
+				],
 				"data": [
 					[ "{npc/Callous Rake}", [ -2, "1/2" ], "Human paladin of Iomedae 1" ],
 					[ "{npc/Honorable Outcast}", 1, "Half-orc paladin of Torag 2" ],
@@ -1145,11 +1145,11 @@
 		"tables": [
 			{
 				"id": "npcs barbarian",
-				"headers": [ "NPC", "CR", "Race/Class" ],
-				"types": [ null, "num", null ],
-				"alignments": [ true, null, true ],
-				"ripples": [0],
-				"sizes": [ 8.5, 3.5, 8.5 ],
+				"columns": [
+					{ "header": "NPC", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "CR", "type": "num", "size": 3.5 },
+					{ "header": "Race/Class", "size": 8.5, "align": "start" }
+				],
 				"data": [
 					[ "{npc/Savage Mercenary}", [ -2, "1/2" ], "Human barbarian 1" ],
 					[ "{npc/Ulfen Raider}", [ -2, "1/2" ], "Human barbarian 1" ],
@@ -1190,11 +1190,11 @@
 			},
 			{
 				"id": "npcs fighter",
-				"headers": [ "NPC", "CR", "Race/Class" ],
-				"types": [ null, "num", null ],
-				"alignments": [ true, null, true ],
-				"ripples": [0],
-				"sizes": [ 8.5, 3.5, 8.5 ],
+				"columns": [
+					{ "header": "NPC", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "CR", "type": "num", "size": 3.5 },
+					{ "header": "Race/Class", "size": 8.5, "align": "start" }
+				],
 				"data": [
 					[ "{npc/Superstitious Mercenary}", [ -2, "1/2" ], "Human fighter 1" ],
 					[ "{npc/Criminal (Street Thug)}", 1, "Human fighter 1/rogue 1" ],
@@ -1259,11 +1259,11 @@
 			},
 			{
 				"id": "npcs monk",
-				"headers": [ "NPC", "CR", "Race/Class" ],
-				"types": [ null, "num", null ],
-				"alignments": [ true, null, true ],
-				"ripples": [0],
-				"sizes": [ 8.5, 3.5, 8.5 ],
+				"columns": [
+					{ "header": "NPC", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "CR", "type": "num", "size": 3.5 },
+					{ "header": "Race/Class", "size": 8.5, "align": "start" }
+				],
 				"data": [
 					[ "{npc/Careful Initiate}", [ -2, "1/2" ], "Human monk 1" ],
 					[ "{npc/Bullying Brawler}", 1, "Human monk 2" ],
@@ -1297,11 +1297,11 @@
 			},
 			{
 				"id": "npcs rogue",
-				"headers": [ "NPC", "CR", "Race/Class" ],
-				"types": [ null, "num", null ],
-				"alignments": [ true, null, true ],
-				"sizes": [ 8.5, 3.5, 8.5 ],
-				"ripples": [0],
+				"columns": [
+					{ "header": "NPC", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "CR", "type": "num", "size": 3.5 },
+					{ "header": "Race/Class", "size": 8.5, "align": "start" }
+				],
 				"data": [
 					[ "{npc/Criminal (Pickpocket)}", [ -2, "1/2" ], "Human rogue 1" ],
 					[ "{npc/Cutpurse}", [ -2, "1/2" ], "Human rogue 1" ],
@@ -1499,11 +1499,20 @@
 		"tables": [
 			{
 				"id": "tech armor",
-				"headers": [ "Name", "Armor Type", "Cost", "Armor/Shield Bonus", "Max Dex Bonus", "Armor Check Penalty", "Arcane Spell Failure Chance", "Speed (30 ft.)", "Speed (20 ft.)", "Weight", "Capacity", "Usage" ],
-				"ripples": [0],
-				"types": [ null, "num", "gp", "bonus", "bonus", "num", "pct", null, null, "lbs", "num", 0 ],
-				"alignments": [ true, null, null, null, null, null, null, null, null, null, null, null ],
-				"sizes": [ 8.5, 5, 5, 7, 4, 4, 4, 4, 4, 4, 5, 7 ],
+				"columns": [
+					{ "header": "Name", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "Armor Type", "type": "num", "size": 5 },
+					{ "header": "Cost", "type": "gp", "size": 5 },
+					{ "header": "Armor/Shield Bonus", "type": "bonus", "size": 7 },
+					{ "header": "Max Dex Bonus", "type": "bonus", "size": 4 },
+					{ "header": "Armor Check Penalty", "type": "num", "size": 4 },
+					{ "header": "Arcane Spell Failure Chance", "type": "pct", "size": 4 },
+					{ "header": "Speed (30 ft.)", "size": 4 },
+					{ "header": "Speed (20 ft.)", "size": 4 },
+					{ "header": "Weight", "type": "lbs", "size": 4 },
+					{ "header": "Capacity", "type": "num", "size": 5 },
+					{ "header": "Usage", "unsortable": true, "size": 7 }
+				],
 				"data": [
 					[ "{tech-armor/chameleon suit}", [ 0, "light" ], 15000, 2, 6, 0, 10, "30 ft.", "20 ft.", 5, 50, "1 charge/minute" ],
 					[ "{tech-armor/deep diving suit}", [ 0, "light" ], 26000, 3, 5, -2, 30, "30 ft.", "20 ft.", 20, 25, "1 charge/hour" ],
@@ -1547,11 +1556,21 @@
 		"tables": [
 			{
 				"id": "tech weapons",
-				"headers": [ "Name", "Weapon Type", "Proficiency", "Cost", "Dmg (S)", "Dmg (M)", "Critical", "Range", "Capacity", "Usage", "Weight", "Dmg Type", "Special" ],
-				"types": [ null, "num", "num", "gp", "num", "num", "num", null, null, 0, "lbs", null, null ],
-				"alignments": [ true, null, null, null, null, null, null, null, null, null, null, null, true ],
-				"sizes": [ 8.5, 5.5, 6, 6, 5, 5, 5, 5.5, 5, 7, 4, 5.5, 7 ],
-				"ripples": [0],
+				"columns": [
+					{ "header": "Name", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "Weapon Type", "type": "num", "size": 5.5 },
+					{ "header": "Proficiency", "type": "num", "size": 6 },
+					{ "header": "Cost", "type": "gp", "size": 6 },
+					{ "header": "Dmg (S)", "type": "num", "size": 5 },
+					{ "header": "Dmg (M)", "type": "num", "size": 5 },
+					{ "header": "Critical", "type": "num", "size": 5 },
+					{ "header": "Range", "size": 5.5 },
+					{ "header": "Capacity", "size": 5 },
+					{ "header": "Usage", "unsortable": true, "size": 7 },
+					{ "header": "Weight", "type": "lbs", "size": 4 },
+					{ "header": "Dmg Type", "size": 5.5 },
+					{ "header": "Special", "size": 7, "align": "start" }
+				],
 				"data": [
 					[ "{tech-weapon/neural inhibitor}", [ 0, "light" ], [ 0, "simple" ], 2400, [ 3.5, "1d6" ], [ 3.5, "1d6" ], [ 2, "&times;2" ], null, "10", "see text", 2, "B", null ],
 					[ "{tech-weapon/laser torch}", [ 1, "one-handed" ], [ 1, "martial" ], 6000, [ 4.5, "1d8" ], [ 5.5, "1d10" ], [ 3, "&times;3" ], null, "10", "1 charge", 4, "fire", "Touch" ],
@@ -1632,11 +1651,14 @@
 		"tables": [
 			{
 				"id": "tech cybertech",
-				"headers": [ "Name", "Cost", "Slot", "Weight", "Implantation", "Install DC" ],
-				"types": [ null, "gp", null, "lbs", "num", "num" ],
-				"alignments": [ true, null, null, null, null, null ],
-				"sizes": [ 8.5, 5.5, 5.5, 5.5, 7, 5 ],
-				"ripples": [0],
+				"columns": [
+					{ "header": "Name", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "Cost", "type": "gp", "size": 5.5 },
+					{ "header": "Slot", "size": 5.5 },
+					{ "header": "Weight", "type": "lbs", "size": 5.5 },
+					{ "header": "Implantation", "type": "num", "size": 7 },
+					{ "header": "Install DC", "type": "num", "size": 5 }
+				],
 				"data": [
 					[ "{tech-cyber/biofilter}", 16000, "body", 2, 3, 25 ],
 					[ "{tech-cyber/cranial bomb}", 4500, "head", 0.5, 1, 25 ],
@@ -1684,10 +1706,10 @@
 		"tables": [
 			{
 				"id": "tech pharmaceuticals",
-				"headers": [ "Name", "Cost" ],
-				"types": [ null, "gp" ],
-				"alignments": [ true, null ],
-				"ripples": [0],
+				"columns": [
+					{ "header": "Name", "ripple": true, "align": "start" },
+					{ "header": "Cost", "type": "gp" }
+				],
 				"data": [
 					[ "{tech-pharma/azonite pellets}", 100 ],
 					[ "{tech-pharma/baseline}", 2250 ],
@@ -1725,11 +1747,11 @@
 		"tables": [
 			{
 				"id": "tech artifacts",
-				"headers": [ "Name", "Type", "Weight" ],
-				"types": [ null, null, "lbs" ],
-				"alignments": [ true, null, null ],
-				"ripples": [0],
-				"sizes": [ 8.5, 5.5, 5.5 ],
+				"columns": [
+					{ "header": "Name", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "Type", "size": 5.5 },
+					{ "header": "Weight", "type": "lbs", "size": 5.5 }
+				],
 				"data": [
 					[ "{tech-artifact/Arms of the Iron God}", "cybertech", 28 ],
 					[ "{tech-artifact/Autodoc}", "misc", 1200 ],
@@ -1803,11 +1825,12 @@
 		"tables": [
 			{
 				"id": "misc tech",
-				"headers": [ "Name", "Cost", "Weight", "Slot" ],
-				"types": [ null, "gp", "lbs", null ],
-				"alignments": [ true, null, null, null ],
-				"sizes": [ 8.5, 5.5, 5.5, 5.5 ],
-				"ripples": [0],
+				"columns": [
+					{ "header": "Name", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "Cost", "type": "gp", "size": 5.5 },
+					{ "header": "Weight", "type": "lbs", "size": 5.5 },
+					{ "header": "Slot", "size": 5.5 }
+				],
 				"data": [
 					[ "{tech-misc/access card (black)}", 10, 0, null ],
 					[ "{tech-misc/access card (blue)}", 360, 0, null ],
@@ -2011,11 +2034,13 @@
 		"tables": [
 			{
 				"id": "spellbooks",
-				"headers": [ "Spellbook", "Cost (base)", "Cost (w/ritual)", "Type", "Class Requirements" ],
-				"types": [ null, "gp", "gp", null, null ],
-				"alignments": [ true, null, null, null, true ],
-				"ripples": [0],
-				"sizes": [ 8.5, 5.5, 6, 6, 8.5 ],
+				"columns": [
+					{ "header": "Spellbook", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "Cost (base)", "type": "gp", "size": 5.5 },
+					{ "header": "Cost (w/ritual)", "type": "gp", "size": 6 },
+					{ "header": "Type", "size": 6 },
+					{ "header": "Class Requirements", "size": 8.5, "align": "start" }
+				],
 				"data": [
 					[ "{eq-spellbook/Apprentice Chapbook of Rul Thaven}", 195, [999999, "&mdash;"], "Spellbook", "Diviner - Level 2" ],
 					[ "{eq-spellbook/Arctic Call}", 4335, 5985, "Spellbook", "Evoker - Level 11" ],
@@ -2079,11 +2104,20 @@
 		"tables": [
 			{
 				"id": "siege engines",
-				"headers": [ "Name", "Type", "Cost", "Weight", "Damage", "Critical", "Range", "Damage Type", "Crew", "Aim", "Load", "Speed" ],
-				"ripples": [0],
-				"types": [ null, "num", "gp", "lbs", "num", "num", "num", null, "num", "num", null, "num" ],
-				"alignments": [ true, null, null, null, null, null, null, null, null, null, null, null ],
-				"sizes": [ 7, 6, 5.5, 4, 4, 4, 5, 4, 3.5, 3.5, 3.5, 3.5 ],
+				"columns": [
+					{ "header": "Name", "size": 7, "ripple": true, "align": "start" },
+					{ "header": "Type", "type": "num", "size": 6 },
+					{ "header": "Cost", "type": "gp", "size": 5.5 },
+					{ "header": "Weight", "type": "lbs", "size": 4 },
+					{ "header": "Damage", "type": "num", "size": 4 },
+					{ "header": "Critical", "type": "num", "size": 4 },
+					{ "header": "Range", "type": "num", "size": 5 },
+					{ "header": "Damage Type", "size": 4 },
+					{ "header": "Crew", "type": "num", "size": 3.5 },
+					{ "header": "Aim", "type": "num", "size": 3.5 },
+					{ "header": "Load", "size": 3.5 },
+					{ "header": "Speed", "type": "num", "size": 3.5 }
+				],
 				"data": [
 					[ "{eq-siegeengine/alchemist's fire}", [ 0, "siege engine ammunition" ], 200, 10, [ 0, "&mdash;" ], [ 0, "&mdash;" ], [ 0, "&mdash;" ], null, [ 100, "&mdash;" ], [ 10, "&mdash;" ], null, [ 50, "&mdash;" ] ],
 					[ "{eq-siegeengine/ballista net}", [ 0, "siege engine ammunition" ], 75, 15, [ 0, "&mdash;" ], [ 0, "&mdash;" ], [ 0, "&mdash;" ], null, [ 100, "&mdash;" ], [ 10, "&mdash;" ], null, [ 50, "&mdash;" ] ],
@@ -2161,11 +2195,11 @@
 		"tables": [
 			{
 				"id": "clothing equipment",
-				"headers": [ "Name", "Cost", "Weight" ],
-				"types": [ null, "gp", "lbs" ],
-				"alignments": [ true, null, null ],
-				"ripples": [0],
-				"sizes": [ 8.5, 6, 5 ],
+				"columns": [
+					{ "header": "Name", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "Cost", "type": "gp", "size": 6 },
+					{ "header": "Weight", "type": "lbs", "size": 5 }
+				],
 				"initialColumn": 0,
 				"data": [
 					[ "{eq-misc/artisan's outfit}", 1, 4 ],
@@ -2302,11 +2336,12 @@
 		"tables": [
 			{
 				"id": "food drink equipment",
-				"headers": [ "Name", "Type", "Cost", "Weight" ],
-				"types": [ null, null, "gp", "lbs" ],
-				"alignments": [ true, null, null, null ],
-				"ripples": [0],
-				"sizes": [ 8.5, 6, 5, 5 ],
+				"columns": [
+					{ "header": "Name", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "Type", "size": 6 },
+					{ "header": "Cost", "type": "gp", "size": 5 },
+					{ "header": "Weight", "type": "lbs", "size": 5 }
+				],
 				"initialColumn": 0,
 				"data": [
 					[ "{eq-misc/absinthe (bottle)}", "food or drink", 30, 1.5 ],
@@ -2419,11 +2454,12 @@
 		"tables": [
 			{
 				"id": "lodging services equipment",
-				"headers": [ "Name", "Type", "Cost", "Weight" ],
-				"types": [ null, null, "gp", "lbs" ],
-				"alignments": [ true, null, null, null ],
-				"ripples": [0],
-				"sizes": [ 8.5, 7, 6, 5 ],
+				"columns": [
+					{ "header": "Name", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "Type", "size": 7 },
+					{ "header": "Cost", "type": "gp", "size": 6 },
+					{ "header": "Weight", "type": "lbs", "size": 5 }
+				],
 				"initialColumn": 0,
 				"data": [
 					[ "{eq-misc/ball (10 in.)}", "entertainment", 6, 1 ],
@@ -2500,11 +2536,11 @@
 		"tables": [
 			{
 				"id": "transport equipment",
-				"headers": [ "Name", "Type", "Cost" ],
-				"types": [ null, null, "gp" ],
-				"alignments": [ true, null, null ],
-				"ripples": [0],
-				"sizes": [ 8.5, 8.5, 5.5 ],
+				"columns": [
+					{ "header": "Name", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "Type", "size": 8.5 },
+					{ "header": "Cost", "type": "gp", "size": 5.5 }
+				],
 				"initialColumn": 0,
 				"data": [
 					[ "{eq-misc/wind platform}", "transport, air", 5000 ],
@@ -2569,11 +2605,11 @@
 		"tables": [
 			{
 				"id": "mounts pets equipment",
-				"headers": [ "Name", "Cost", "Weight" ],
-				"types": [ null, "gp", "lbs" ],
-				"alignments": [ true, null, null ],
-				"ripples": [0],
-				"sizes": [ 11.5, 5, 6 ],
+				"columns": [
+					{ "header": "Name", "size": 11.5, "ripple": true, "align": "start" },
+					{ "header": "Cost", "type": "gp", "size": 5 },
+					{ "header": "Weight", "type": "lbs", "size": 6 }
+				],
 				"initialColumn": 0,
 				"data": [
 					[ "{eq-misc/allosaurus}", 3850, 0 ],
@@ -2812,11 +2848,12 @@
 		"tables": [
 			{
 				"id": "illicit equipment",
-				"headers": [ "Name", "Type", "Cost", "Weight" ],
-				"types": [ null, null, "gp", "lbs" ],
-				"alignments": [ true, null, null, null ],
-				"ripples": [0],
-				"sizes": [ 8.5, 7, 5, 5 ],
+				"columns": [
+					{ "header": "Name", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "Type", "size": 7 },
+					{ "header": "Cost", "type": "gp", "size": 5 },
+					{ "header": "Weight", "type": "lbs", "size": 5 }
+				],
 				"initialColumn": 0,
 				"data": [
 					[ "{eq-misc/allnight}", "black market", 75, 0 ],
@@ -2904,11 +2941,15 @@
 		"tables": [
 			{
 				"id": "poisons",
-				"headers": [ "Name", "Type", "Saving Throw", "Onset", "Frequency", "Effect", "Cost" ],
-				"types": [ null, null, null, null, null, null, "gp" ],
-				"sizes": [ 8.5, 5, 5, 7, 6, 8.5, 6 ],
-				"alignments": [ true, null, null, null, null, true, null ],
-				"ripples": [0],
+				"columns": [
+					{ "header": "Name", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "Type", "size": 5 },
+					{ "header": "Saving Throw", "size": 5 },
+					{ "header": "Onset", "size": 7 },
+					{ "header": "Frequency", "size": 6 },
+					{ "header": "Effect", "size": 8.5, "align": "start" },
+					{ "header": "Cost", "type": "gp", "size": 6 }
+				],
 				"filter": [
 					{ "col": 1, "has": [ "ingested", "injury", "inhaled", "contact" ] },
 					{ "col": 5, "has": [ "Str", "Dex", "Con", "Int", "Wis", "Cha" ] }

@@ -68,8 +68,6 @@
 		"tables": [
 			{
 				"id": "mythic spells table",
-				"headers": [ "Spell", "Level(s)", "School", "Description" ],
-				"types": [ null, "num", null, 0 ],
 				"filter": [
 					{ "col": 2, "equals": [
 						"universal",
@@ -83,9 +81,12 @@
 						"transmutation"
 					]}
 				],
-				"alignments": [ true, null, null, true ],
-				"sizes": [ 8.5, 4, 7, 14.75 ],
-				"ripples": [0],
+				"columns": [
+					{ "header": "Spell", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "Level(s)", "type": "num", "size": 4 },
+					{ "header": "School", "size": 7 },
+					{ "header": "Description", "unsortable": true, "size": 14.75, "align": "start" }
+				],
 				"data": [
 					[ "{spell/Animate Plants}", 7, "transmutation", "One or more plants animate and fight for you." ],
 					[ "{spell/Antimagic Field}", [ 6.711, "6-8" ], "abjuration", "Negates magic within 10 ft." ],
@@ -227,12 +228,15 @@
 		"tables": [
 			{
 				"id": "arcanist sorcerer wizards mythic spells table",
-				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
-				"types": [ null, "num", null, null, null, 0 ],
+				"columns": [
+					{ "header": "Spell", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "Level", "type": "num", "size": 3.5 },
+					{ "header": "School", "size": 7 },
+					{ "header": "Subschool", "size": 7 },
+					{ "header": "Descriptor", "size": 6 },
+					{ "header": "Description", "unsortable": true, "size": 14.75, "align": "start" }
+				],
 				"initialColumn": 1,
-				"alignments": [ true, null, null, null, null, true ],
-				"sizes": [ 8.5, 3.5, 7, 7, 6, 14.75 ],
-				"ripples": [0],
 				"data": [
 					[ "{spell/Break}", 1, "transmutation", null, null, "Gives an object the broken condition." ],
 					[ "{spell/Burning Hands}", 1, "evocation", null, "fire", "1d4/level fire damage (max 5d4)." ],
@@ -334,12 +338,15 @@
 		"tables": [
 			{
 				"id": "alchemist mythic spells table",
-				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
-				"types": [ null, "num", null, null, null, 0 ],
+				"columns": [
+					{ "header": "Spell", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "Level", "type": "num", "size": 3.5 },
+					{ "header": "School", "size": 7 },
+					{ "header": "Subschool", "size": 7 },
+					{ "header": "Descriptor", "size": 6 },
+					{ "header": "Description", "unsortable": true, "size": 14.75, "align": "start" }
+				],
 				"initialColumn": 1,
-				"alignments": [ true, null, null, null, null, true ],
-				"sizes": [ 8.5, 3.5, 7, 7, 6, 14.75 ],
-				"ripples": [0],
 				"data": [
 					[ "{spell/Cure Light Wounds}", 1, "conjuration", "healing", null, "Cures 1d8 damage + 1/level (max +5)." ],
 					[ "{spell/Endure Elements}", 1, "abjuration", null, null, "Exist comfortably in hot or cold regions." ],
@@ -381,12 +388,15 @@
 		"tables": [
 			{
 				"id": "investigator mythic spells table",
-				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
-				"types": [ null, "num", null, null, null, 0 ],
+				"columns": [
+					{ "header": "Spell", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "Level", "type": "num", "size": 3.5 },
+					{ "header": "School", "size": 7 },
+					{ "header": "Subschool", "size": 7 },
+					{ "header": "Descriptor", "size": 6 },
+					{ "header": "Description", "unsortable": true, "size": 14.75, "align": "start" }
+				],
 				"initialColumn": 1,
-				"alignments": [ true, null, null, null, null, true ],
-				"sizes": [ 8.5, 3.5, 7, 7, 6, 14.75 ],
-				"ripples": [0],
 				"data": [
 					[ "{spell/Cure Light Wounds}", 1, "conjuration", "healing", null, "Cures 1d8 damage + 1/level (max +5)." ],
 					[ "{spell/Endure Elements}", 1, "abjuration", null, null, "Exist comfortably in hot or cold regions." ],
@@ -430,12 +440,15 @@
 		"tables": [
 			{
 				"id": "summoner mythic spells table",
-				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
-				"types": [ null, "num", null, null, null, 0 ],
+				"columns": [
+					{ "header": "Spell", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "Level", "type": "num", "size": 3.5 },
+					{ "header": "School", "size": 7 },
+					{ "header": "Subschool", "size": 7 },
+					{ "header": "Descriptor", "size": 6 },
+					{ "header": "Description", "unsortable": true, "size": 14.75, "align": "start" }
+				],
 				"initialColumn": 1,
-				"alignments": [ true, null, null, null, null, true ],
-				"sizes": [ 8.5, 3.5, 7, 7, 6, 14.75 ],
-				"ripples": [0],
 				"data": [
 					[ "{spell/Endure Elements}", 1, "abjuration", null, null, "Exist comfortably in hot or cold regions." ],
 					[ "{spell/Reduce Person}", 1, "transmutation", null, null, "Humanoid creature halves in size." ],
@@ -467,12 +480,15 @@
 		"tables": [
 			{
 				"id": "unchained_summoner mythic spells table",
-				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
-				"types": [ null, "num", null, null, null, 0 ],
+				"columns": [
+					{ "header": "Spell", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "Level", "type": "num", "size": 3.5 },
+					{ "header": "School", "size": 7 },
+					{ "header": "Subschool", "size": 7 },
+					{ "header": "Descriptor", "size": 6 },
+					{ "header": "Description", "unsortable": true, "size": 14.75, "align": "start" }
+				],
 				"initialColumn": 1,
-				"alignments": [ true, null, null, null, null, true ],
-				"sizes": [ 8.5, 3.5, 7, 7, 6, 14.75 ],
-				"ripples": [0],
 				"data": [
 					[ "{spell/Endure Elements}", 1, "abjuration", null, null, "Exist comfortably in hot or cold regions." ],
 					[ "{spell/Obscuring Mist}", 1, "conjuration", "creation", null, "Fog surrounds you." ],
@@ -505,12 +521,15 @@
 		"tables": [
 			{
 				"id": "bard and skald mythic spells table",
-				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
-				"types": [ null, "num", null, null, null, 0 ],
+				"columns": [
+					{ "header": "Spell", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "Level", "type": "num", "size": 3.5 },
+					{ "header": "School", "size": 7 },
+					{ "header": "Subschool", "size": 7 },
+					{ "header": "Descriptor", "size": 6 },
+					{ "header": "Description", "unsortable": true, "size": 14.75, "align": "start" }
+				],
 				"initialColumn": 1,
-				"alignments": [ true, null, null, null, null, true ],
-				"ripples": [0],
-				"sizes": [ 8.5, 3.5, 7, 7, 6, 14.75 ],
 				"data": [
 					[ "{spell/Chord of Shards}", 1, "evocation", null, null, "Performance deals 2d6 piercing damage." ],
 					[ "{spell/Cure Light Wounds}", 1, "conjuration", "healing", null, "Cures 1d8 damage + 1/level (max +5)." ],
@@ -551,12 +570,15 @@
 		"tables": [
 			{
 				"id": "magus mythic spells table",
-				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
-				"types": [ null, "num", null, null, null, 0 ],
+				"columns": [
+					{ "header": "Spell", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "Level", "type": "num", "size": 3.5 },
+					{ "header": "School", "size": 7 },
+					{ "header": "Subschool", "size": 7 },
+					{ "header": "Descriptor", "size": 6 },
+					{ "header": "Description", "unsortable": true, "size": 14.75, "align": "start" }
+				],
 				"initialColumn": 1,
-				"alignments": [ true, null, null, null, null, true ],
-				"sizes": [ 8.5, 3.5, 7, 7, 6, 14.75 ],
-				"ripples": [0],
 				"data": [
 					[ "{spell/Burning Hands}", 1, "evocation", null, "fire", "1d4/level fire damage (max 5d4)." ],
 					[ "{spell/Color Spray}", 1, "illusion", "pattern", "mind-affecting", "Knocks unconscious, blinds, and/or stuns weak creatures." ],
@@ -611,12 +633,15 @@
 		"tables": [
 			{
 				"id": "witch mythic spells table",
-				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
-				"types": [ null, "num", null, null, null, 0 ],
+				"columns": [
+					{ "header": "Spell", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "Level", "type": "num", "size": 3.5 },
+					{ "header": "School", "size": 7 },
+					{ "header": "Subschool", "size": 7 },
+					{ "header": "Descriptor", "size": 6 },
+					{ "header": "Description", "unsortable": true, "size": 14.75, "align": "start" }
+				],
 				"initialColumn": 1,
-				"alignments": [ true, null, null, null, null, true ],
-				"ripples": [0],
-				"sizes": [ 8.5, 3.5, 7, 7, 6, 14.75 ],
 				"data": [
 					[ "{spell/Burning Hands}", 1, "evocation", null, "fire", "1d4/level fire damage (max 5d4)." ],
 					[ "{spell/Command}", 1, "enchantment", "compulsion", "language-dependent, mind-affecting", "One subject obeys selected command for 1 round." ],
@@ -680,12 +705,15 @@
 		"tables": [
 			{
 				"id": "bloodrager mythic spells table",
-				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
-				"types": [ null, "num", null, null, null, 0 ],
+				"columns": [
+					{ "header": "Spell", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "Level", "type": "num", "size": 3.5 },
+					{ "header": "School", "size": 7 },
+					{ "header": "Subschool", "size": 7 },
+					{ "header": "Descriptor", "size": 6 },
+					{ "header": "Description", "unsortable": true, "size": 14.75, "align": "start" }
+				],
 				"initialColumn": 1,
-				"alignments": [ true, null, null, null, null, true ],
-				"ripples": [0],
-				"sizes": [ 8.5, 3.5, 7, 7, 6, 14.75 ],
 				"data": [
 					[ "{spell/Break}", 1, "transmutation", null, null, "Gives an object the broken condition." ],
 					[ "{spell/Burning Hands}", 1, "evocation", null, "fire", "1d4/level fire damage (max 5d4)." ],
@@ -736,12 +764,15 @@
 		"tables": [
 			{
 				"id": "cleric oracle mythic spells table",
-				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
-				"types": [ null, "num", null, null, null, 0 ],
+				"columns": [
+					{ "header": "Spell", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "Level", "type": "num", "size": 3.5 },
+					{ "header": "School", "size": 7 },
+					{ "header": "Subschool", "size": 7 },
+					{ "header": "Descriptor", "size": 6 },
+					{ "header": "Description", "unsortable": true, "size": 14.75, "align": "start" }
+				],
 				"initialColumn": 1,
-				"alignments": [ true, null, null, null, null, true ],
-				"sizes": [ 8.5, 3.5, 7, 7, 6, 14.75 ],
-				"ripples": [0],
 				"data": [
 					[ "{spell/Bane}", 1, "enchantment", "compulsion", "emotion, fear, mind-affecting", "Enemies take -1 on attack rolls and saves against fear." ],
 					[ "{spell/Command}", 1, "enchantment", "compulsion", "language-dependent, mind-affecting", "One subject obeys selected command for 1 round." ],
@@ -800,12 +831,15 @@
 		"tables": [
 			{
 				"id": "druid mythic spells table",
-				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
-				"types": [ null, "num", null, null, null, 0 ],
+				"columns": [
+					{ "header": "Spell", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "Level", "type": "num", "size": 3.5 },
+					{ "header": "School", "size": 7 },
+					{ "header": "Subschool", "size": 7 },
+					{ "header": "Descriptor", "size": 6 },
+					{ "header": "Description", "unsortable": true, "size": 14.75, "align": "start" }
+				],
 				"initialColumn": 1,
-				"alignments": [ true, null, null, null, null, true ],
-				"sizes": [ 8.5, 3.5, 7, 7, 6, 14.75 ],
-				"ripples": [0],
 				"data": [
 					[ "{spell/Call Animal}", 1, "enchantment", "compulsion", "mind-affecting", "Makes an animal come to you." ],
 					[ "{spell/Cure Light Wounds}", 1, "conjuration", "healing", null, "Cures 1d8 damage + 1/level (max +5)." ],
@@ -854,12 +888,15 @@
 		"tables": [
 			{
 				"id": "ranger mythic spells table",
-				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
-				"types": [ null, "num", null, null, null, 0 ],
+				"columns": [
+					{ "header": "Spell", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "Level", "type": "num", "size": 3.5 },
+					{ "header": "School", "size": 7 },
+					{ "header": "Subschool", "size": 7 },
+					{ "header": "Descriptor", "size": 6 },
+					{ "header": "Description", "unsortable": true, "size": 14.75, "align": "start" }
+				],
 				"initialColumn": 1,
-				"alignments": [ true, null, null, null, null, true ],
-				"sizes": [ 8.5, 3.5, 7, 7, 6, 14.75 ],
-				"ripples": [0],
 				"data": [
 					[ "{spell/Call Animal}", 1, "enchantment", "compulsion", "mind-affecting", "Makes an animal come to you." ],
 					[ "{spell/Endure Elements}", 1, "abjuration", null, null, "Exist comfortably in hot or cold regions." ],
@@ -888,12 +925,15 @@
 		"tables": [
 			{
 				"id": "hunter mythic spells table",
-				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
-				"types": [ null, "num", null, null, null, 0 ],
+				"columns": [
+					{ "header": "Spell", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "Level", "type": "num", "size": 3.5 },
+					{ "header": "School", "size": 7 },
+					{ "header": "Subschool", "size": 7 },
+					{ "header": "Descriptor", "size": 6 },
+					{ "header": "Description", "unsortable": true, "size": 14.75, "align": "start" }
+				],
 				"initialColumn": 1,
-				"alignments": [ true, null, null, null, null, true ],
-				"sizes": [ 8.5, 3.5, 7, 7, 6, 14.75 ],
-				"ripples": [0],
 				"data": [
 					[ "{spell/Call Animal}", 1, "enchantment", "compulsion", "mind-affecting", "Makes an animal come to you." ],
 					[ "{spell/Cure Light Wounds}", 1, "conjuration", "healing", null, "Cures 1d8 damage + 1/level (max +5)." ],
@@ -936,12 +976,15 @@
 		"tables": [
 			{
 				"id": "inquisitor mythic spells table",
-				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
-				"types": [ null, "num", null, null, null, 0 ],
+				"columns": [
+					{ "header": "Spell", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "Level", "type": "num", "size": 3.5 },
+					{ "header": "School", "size": 7 },
+					{ "header": "Subschool", "size": 7 },
+					{ "header": "Descriptor", "size": 6 },
+					{ "header": "Description", "unsortable": true, "size": 14.75, "align": "start" }
+				],
 				"initialColumn": 1,
-				"alignments": [ true, null, null, null, null, true ],
-				"ripples": [0],
-				"sizes": [ 8.5, 3.5, 7, 7, 6, 14.75 ],
 				"data": [
 					[ "{spell/Bane}", 1, "enchantment", "compulsion", "emotion, fear, mind-affecting", "Enemies take -1 on attack rolls and saves against fear." ],
 					[ "{spell/Command}", 1, "enchantment", "compulsion", "language-dependent, mind-affecting", "One subject obeys selected command for 1 round." ],
@@ -984,12 +1027,15 @@
 		"tables": [
 			{
 				"id": "warpriest mythic spells table",
-				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
-				"types": [ null, "num", null, null, null, 0 ],
+				"columns": [
+					{ "header": "Spell", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "Level", "type": "num", "size": 3.5 },
+					{ "header": "School", "size": 7 },
+					{ "header": "Subschool", "size": 7 },
+					{ "header": "Descriptor", "size": 6 },
+					{ "header": "Description", "unsortable": true, "size": 14.75, "align": "start" }
+				],
 				"initialColumn": 1,
-				"alignments": [ true, null, null, null, null, true ],
-				"ripples": [0],
-				"sizes": [ 8.5, 3.5, 7, 7, 6, 14.75 ],
 				"data": [
 					[ "{spell/Bane}", 1, "enchantment", "compulsion", "emotion, fear, mind-affecting", "Enemies take -1 on attack rolls and saves against fear." ],
 					[ "{spell/Command}", 1, "enchantment", "compulsion", "language-dependent, mind-affecting", "One subject obeys selected command for 1 round." ],
@@ -1040,12 +1086,15 @@
 		"tables": [
 			{
 				"id": "paladin mythic spells table",
-				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
-				"types": [ null, "num", null, null, null, 0 ],
+				"columns": [
+					{ "header": "Spell", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "Level", "type": "num", "size": 3.5 },
+					{ "header": "School", "size": 7 },
+					{ "header": "Subschool", "size": 7 },
+					{ "header": "Descriptor", "size": 6 },
+					{ "header": "Description", "unsortable": true, "size": 14.75, "align": "start" }
+				],
 				"initialColumn": 1,
-				"alignments": [ true, null, null, null, null, true ],
-				"sizes": [ 8.5, 3.5, 7, 7, 6, 14.75 ],
-				"ripples": [0],
 				"data": [
 					[ "{spell/Cure Light Wounds}", 1, "conjuration", "healing", null, "Cures 1d8 damage + 1/level (max +5)." ],
 					[ "{spell/Endure Elements}", 1, "abjuration", null, null, "Exist comfortably in hot or cold regions." ],
@@ -1074,12 +1123,15 @@
 		"tables": [
 			{
 				"id": "antipaladin mythic spells table",
-				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
-				"types": [ null, "num", null, null, null, 0 ],
+				"columns": [
+					{ "header": "Spell", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "Level", "type": "num", "size": 3.5 },
+					{ "header": "School", "size": 7 },
+					{ "header": "Subschool", "size": 7 },
+					{ "header": "Descriptor", "size": 6 },
+					{ "header": "Description", "unsortable": true, "size": 14.75, "align": "start" }
+				],
 				"initialColumn": 1,
-				"alignments": [ true, null, null, null, null, true ],
-				"sizes": [ 8.5, 3.5, 7, 7, 6, 14.75 ],
-				"ripples": [0],
 				"data": [
 					[ "{spell/Bane}", 1, "enchantment", "compulsion", "emotion, fear, mind-affecting", "Enemies take -1 on attack rolls and saves against fear." ],
 					[ "{spell/Command}", 1, "enchantment", "compulsion", "language-dependent, mind-affecting", "One subject obeys selected command for 1 round." ],
@@ -1110,12 +1162,15 @@
 		"tables": [
 			{
 				"id": "shaman mythic spells table",
-				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
-				"types": [ null, "num", null, null, null, 0 ],
+				"columns": [
+					{ "header": "Spell", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "Level", "type": "num", "size": 3.5 },
+					{ "header": "School", "size": 7 },
+					{ "header": "Subschool", "size": 7 },
+					{ "header": "Descriptor", "size": 6 },
+					{ "header": "Description", "unsortable": true, "size": 14.75, "align": "start" }
+				],
 				"initialColumn": 1,
-				"alignments": [ true, null, null, null, null, true ],
-				"sizes": [ 8.5, 3.5, 7, 7, 6, 14.75 ],
-				"ripples": [0],
 				"data": [
 					[ "{spell/Bane}", 1, "enchantment", "compulsion", "emotion, fear, mind-affecting", "Enemies take -1 on attack rolls and saves against fear." ],
 					[ "{spell/Burning Hands}", 1, "evocation", null, "fire", "1d4/level fire damage (max 5d4)." ],
@@ -1164,12 +1219,15 @@
 		"tables": [
 			{
 				"id": "medium mythic spells table",
-				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
-				"types": [ null, "num", null, null, null, 0 ],
+				"columns": [
+					{ "header": "Spell", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "Level", "type": "num", "size": 3.5 },
+					{ "header": "School", "size": 7 },
+					{ "header": "Subschool", "size": 7 },
+					{ "header": "Descriptor", "size": 6 },
+					{ "header": "Description", "unsortable": true, "size": 14.75, "align": "start" }
+				],
 				"initialColumn": 1,
-				"alignments": [ true, null, null, null, null, true ],
-				"ripples": [0],
-				"sizes": [ 8.5, 3.5, 7, 7, 6, 14.75 ],
 				"data": [
 					[ "{spell/Command}", 1, "enchantment", "compulsion", "language-dependent, mind-affecting", "One subject obeys selected command for 1 round." ],
 					[ "{spell/Ear-Piercing Scream}", 1, "evocation", null, "sonic", "Deal sonic damage and daze target." ],
@@ -1210,12 +1268,15 @@
 		"tables": [
 			{
 				"id": "mesmerist mythic spells table",
-				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
-				"types": [ null, "num", null, null, null, 0 ],
+				"columns": [
+					{ "header": "Spell", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "Level", "type": "num", "size": 3.5 },
+					{ "header": "School", "size": 7 },
+					{ "header": "Subschool", "size": 7 },
+					{ "header": "Descriptor", "size": 6 },
+					{ "header": "Description", "unsortable": true, "size": 14.75, "align": "start" }
+				],
 				"initialColumn": 1,
-				"alignments": [ true, null, null, null, null, true ],
-				"ripples": [0],
-				"sizes": [ 8.5, 3.5, 7, 7, 6, 14.75 ],
 				"data": [
 					[ "{spell/Bane}", 1, "enchantment", "compulsion", "emotion, fear, mind-affecting", "Enemies take -1 on attack rolls and saves against fear." ],
 					[ "{spell/Call Animal}", 1, "enchantment", "compulsion", "mind-affecting", "Makes an animal come to you." ],
@@ -1262,12 +1323,15 @@
 		"tables": [
 			{
 				"id": "occultist mythic spells table",
-				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
-				"types": [ null, "num", null, null, null, 0 ],
+				"columns": [
+					{ "header": "Spell", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "Level", "type": "num", "size": 3.5 },
+					{ "header": "School", "size": 7 },
+					{ "header": "Subschool", "size": 7 },
+					{ "header": "Descriptor", "size": 6 },
+					{ "header": "Description", "unsortable": true, "size": 14.75, "align": "start" }
+				],
 				"initialColumn": 1,
-				"alignments": [ true, null, null, null, null, true ],
-				"sizes": [ 8.5, 3.5, 7, 7, 6, 14.75 ],
-				"ripples": [0],
 				"data": [
 					[ "{spell/Break}", 1, "transmutation", null, null, "Gives an object the broken condition." ],
 					[ "{spell/Burning Hands}", 1, "evocation", null, "fire", "1d4/level fire damage (max 5d4)." ],
@@ -1328,12 +1392,15 @@
 		"tables": [
 			{
 				"id": "psychic mythic spells table",
-				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
-				"types": [ null, "num", null, null, null, 0 ],
+				"columns": [
+					{ "header": "Spell", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "Level", "type": "num", "size": 3.5 },
+					{ "header": "School", "size": 7 },
+					{ "header": "Subschool", "size": 7 },
+					{ "header": "Descriptor", "size": 6 },
+					{ "header": "Description", "unsortable": true, "size": 14.75, "align": "start" }
+				],
 				"initialColumn": 1,
-				"alignments": [ true, null, null, null, null, true ],
-				"sizes": [ 8.5, 3.5, 7, 7, 6, 14.75 ],
-				"ripples": [0],
 				"data": [
 					[ "{spell/Break}", 1, "transmutation", null, null, "Gives an object the broken condition." ],
 					[ "{spell/Color Spray}", 1, "illusion", "pattern", "mind-affecting", "Knocks unconscious, blinds, and/or stuns weak creatures." ],
@@ -1405,12 +1472,15 @@
 		"tables": [
 			{
 				"id": "spiritualist mythic spells table",
-				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
-				"types": [ null, "num", null, null, null, 0 ],
+				"columns": [
+					{ "header": "Spell", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "Level", "type": "num", "size": 3.5 },
+					{ "header": "School", "size": 7 },
+					{ "header": "Subschool", "size": 7 },
+					{ "header": "Descriptor", "size": 6 },
+					{ "header": "Description", "unsortable": true, "size": 14.75, "align": "start" }
+				],
 				"initialColumn": 1,
-				"alignments": [ true, null, null, null, null, true ],
-				"sizes": [ 8.5, 3.5, 7, 7, 6, 14.75 ],
-				"ripples": [0],
 				"data": [
 					[ "{spell/Cure Light Wounds}", 1, "conjuration", "healing", null, "Cures 1d8 damage + 1/level (max +5)." ],
 					[ "{spell/Endure Elements}", 1, "abjuration", null, null, "Exist comfortably in hot or cold regions." ],
@@ -1454,7 +1524,6 @@
 		"tables": [
 			{
 				"id": "redmantisassassin spells table",
-				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description", "V", "S", "M", "M/DF", "DF", "F" ],
 				"filter": [
 					{ "col": 1, "range": [1, 4] },
 					{ "col": 2, "equals": [
@@ -1468,11 +1537,21 @@
 					{ "col": 10, "range": [0, 1], "labels": ["DF component", "No DF component"]},
 					{ "col": 11, "range": [0, 1], "labels": ["F component", "No F component"]}
 				],
-				"types": [ null, "num", null, null, null, 0, "num", "num", "num", "num", "num", "num" ],
+				"columns": [
+					{ "header": "Spell", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "Level", "type": "num", "size": 3.5 },
+					{ "header": "School", "size": 7 },
+					{ "header": "Subschool", "size": 7 },
+					{ "header": "Descriptor", "size": 6 },
+					{ "header": "Description", "unsortable": true, "size": 14.75, "align": "start" },
+					{ "header": "V", "type": "num", "size": 2 },
+					{ "header": "S", "type": "num", "size": 2 },
+					{ "header": "M", "type": "num", "size": 2 },
+					{ "header": "M/DF", "type": "num", "size": 3 },
+					{ "header": "DF", "type": "num", "size": 2 },
+					{ "header": "F", "type": "num", "size": 2 }
+				],
 				"initialColumn": 1,
-				"alignments": [ true, null, null, null, null, true, null, null, null, null, null, null ],
-				"sizes": [ 8.5, 3.5, 7, 7, 6, 14.75, 2, 2, 2, 3, 2, 2 ],
-				"ripples": [0],
 				"data": [
 					[ "{spell/Alchemical Tinkering}", 1, "transmutation", null, null, "Transform an alchemical item or firearm into another similar item.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
 					[ "{spell/Alter Musical Instrument}", 1, "illusion", "figment", null, "Make one instrument sound like a different kind of instrument.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 0, "F" ] ],

@@ -1449,11 +1449,13 @@
 		"tables": [
 			{
 				"id": "wild utility talents",
-				"headers": [ "Infusion", "Elements", "Level", "Burn", "Prerequisites" ],
-				"ripples": [0],
-				"types": [ null, null, "num", "num", null ],
-				"alignments": [ true, null, null, null, true ],
-				"sizes": [ 8.5, 5, 3.5, 4, 11.5 ],
+				"columns": [
+					{ "header": "Infusion", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "Elements", "size": 5 },
+					{ "header": "Level", "type": "num", "size": 3.5 },
+					{ "header": "Burn", "type": "num", "size": 4 },
+					{ "header": "Prerequisites", "size": 11.5, "align": "start" }
+				],
 				"data": [
 					[ "{kinetic/Absentia/ (Sp)}", "void", 4, 0, "{kinetic/emptiness}" ],
 					[ "{kinetic/Aerial Adaptation/ (Sp)}", "air", 1, 0, null ],

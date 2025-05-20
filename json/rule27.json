@@ -1224,11 +1224,10 @@
 		"tables": [
 			{
 				"id": "monster cohorts",
-				"headers": [ "Monster", "Cohort Level" ],
-				"types": [ null, "num" ],
-				"alignments": [ true, null ],
-				"ripples": [0],
-				"sizes": [ 8.5, 4 ],
+				"columns": [
+					{ "header": "Monster", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "Cohort Level", "type": "num", "size": 4 }
+				],
 				"data": [
 					[ "{monster/Adlet}", 14 ],
 					[ "{monster/Ahuizotl}", 11 ],

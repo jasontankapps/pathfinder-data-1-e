@@ -44,7 +44,7 @@ import Markdown, { ExtraProps } from 'react-markdown';
 import AutoSizer from 'react-virtualized-auto-sizer';
 import { FixedSizeList } from 'react-window';
 import { useLocation } from 'wouter';
-import { Datum, Filter, RawDatum, Table, TableColumnInfoTypes } from '../types';
+import { Datum, Filter, RawDatum, Table, ColumnDataType, Column } from '../types';
 import Link from './Link';
 import convertLinks, { checkForEncodedLink } from './convertLinks';
 import InnerLink from './InnerLink';
@@ -68,11 +68,11 @@ interface ThProps {
 
 interface TdRouterLinkProps {
 	datum: Datum
-	align?: (boolean | null)
+	align?: "start" | "end"
 }
 
 interface TdProps extends TdRouterLinkProps {
-	type: TableColumnInfoTypes
+	type?: ColumnDataType
 }
 
 type MDaProps = ClassAttributes<HTMLAnchorElement> & AnchorHTMLAttributes<HTMLAnchorElement> & ExtraProps;
@@ -138,14 +138,15 @@ const reverseSort = (a: RawDatum, b: RawDatum) => {
 	// z, y, x...
 	return 0 - normalSort(a, b);
 };
-type SortableRow = [RawDatum[], number];
+type SortableCell = [RawDatum, number];
+type SortableRow = [SortableCell[], number];
 const sortOnColumn = (column: number, direction: boolean) => {
 	// Returns a sort() function.
 	return (a: SortableRow, b: SortableRow) => {
 		if(direction) {
-			return normalSort(a[0][column], b[0][column]);
+			return normalSort(a[0][column][0], b[0][column][0]);
 		}
-		return reverseSort(a[0][column], b[0][column]);
+		return reverseSort(a[0][column][0], b[0][column][0]);
 	};
 };
 
@@ -260,7 +261,7 @@ const Td: FC<PropsWithChildren<TdProps>> = ({ datum, type, align }) => {
 			text = convertLinks([typeof output === "string" ? output : String(output)]);
 	}
 	return (
-		<td className={align === false ? "ion-text-end" : (align === null ? "ion-text-center" : (align && "ion-text-start"))}>
+		<td className={align === "end" ? "ion-text-end" : (align === "start" ? "ion-text-start" : undefined)}>
 			<Markdown components={components}>{text}</Markdown>
 		</td>
 	);
@@ -274,13 +275,13 @@ const TdRouterLink: FC<PropsWithChildren<TdRouterLinkProps>> = ({ datum, align }
 	const m = (typeof linkString === "string") ? checkForEncodedLink(linkString, { basic: true }) : false;
 	if(!m) {
 		return (
-			<td className={align === false ? "ion-text-end" : (align === null ? "ion-text-center" : (align && "ion-text-start"))}>LINK EXPECTED: {linkString}</td>
+			<td className={align === "end" ? "ion-text-end" : (align === "start" ? "ion-text-start" : undefined)}>LINK EXPECTED: {linkString}</td>
 		);
 	}
 	const [, link, output] = m;
 	const click = useCallback(() => { navigate(`/${link}`); dispatch(goTo(`/${link}`)); }, [link, dispatch, navigate]);
 	return (
-		<td className={"ion-activatable cell-link" + (align === false ? " ion-text-end" : ((align || "") && " ion-text-start"))} onClick={click}>
+		<td className={"ion-activatable cell-link" + (align === "end" ? " ion-text-end" : (align === "start" ? " ion-text-start" : ""))} onClick={click}>
 			{output}
 			<IonRippleEffect />
 		</td>
@@ -299,7 +300,7 @@ type SaveFunc = (
 	hiddenRows: number[]
 ) => void;
 interface FilterProps {
-	headers: string[]
+	columns: Column[]
 	rows: SortableRow[]
 	currentHiddenRows: number[]
 	currentHiddenColumns: number[]
@@ -387,7 +388,7 @@ const FilterOption: FC<{
 
 const DisplayTableFilterModal: FC<FilterProps> = (props) => {
 	const {
-		headers: h,
+		columns,
 		rows,
 		currentHiddenRows,
 		currentHiddenColumns,
@@ -401,7 +402,7 @@ const DisplayTableFilterModal: FC<FilterProps> = (props) => {
 	const [modified, setModified] = useState<boolean>(false);
 	const [filterObjects, setFilterObjects] = useState<null | FilterObject[]>(null);
 	const rowTitles = rows.map(sortableRow => {
-		const title = sortableRow[0][0];
+		const title = sortableRow[0][0][0];
 		if(Array.isArray(title)) {
 			return getLinkText(title[1]);
 		} else if (typeof title !== "string") {
@@ -410,7 +411,7 @@ const DisplayTableFilterModal: FC<FilterProps> = (props) => {
 		return getLinkText(title);
 	});
 
-	const headers = h.slice(1);
+	const headers = columns.slice(1).map(col => col.header);
 
 	const onLoad = useCallback(() => {
 		setModified(false);
@@ -441,7 +442,7 @@ const DisplayTableFilterModal: FC<FilterProps> = (props) => {
 					while(x <= max) {
 						const found: number[] = [];
 						rows.forEach((row, i) => {
-							const test = getValue(row[0][col]) as number;
+							const test = getValue(row[0][col][0]) as number;
 							if(test === x) {
 								found.push(i);
 							}
@@ -461,7 +462,7 @@ const DisplayTableFilterModal: FC<FilterProps> = (props) => {
 					if(f.word) {
 						const hasRx = has.map(h => new RegExp(`\\b${h}\\b`));
 						rows.forEach((row, i) => {
-							const test = String(getValue(row[0][col]));
+							const test = String(getValue(row[0][col][0]));
 							hasRx.forEach((looking, j) => {
 								if(test.match(looking)) {
 									toggles[j].push(i);
@@ -470,7 +471,7 @@ const DisplayTableFilterModal: FC<FilterProps> = (props) => {
 						});
 					} else {
 						rows.forEach((row, i) => {
-							const test = String(getValue(row[0][col]));
+							const test = String(getValue(row[0][col][0]));
 							has.forEach((looking, j) => {
 								if(test.indexOf(looking) > -1) {
 									toggles[j].push(i);
@@ -485,7 +486,7 @@ const DisplayTableFilterModal: FC<FilterProps> = (props) => {
 						options.push(labels ? labels[i] : `${e}`)
 					});
 					rows.forEach((row, i) => {
-						const test = getValue(row[0][col]);
+						const test = getValue(row[0][col][0]);
 						equals.forEach((looking, j) => {
 							if(test === looking) {
 								toggles[j].push(i);
@@ -761,16 +762,11 @@ const blankSortInfo: TableObject = {
 const DisplayTable: FC<{ table: Table }> = ({ table }) => {
 	const {
 		id,
-		headers,
-		types,
+		columns,
 		data,
 		initialColumn,
 		nullValue = "&mdash;",
-		ripples = noRipples,
-		sortable = true,
 		filter,
-		alignments,
-		sizes
 	} = table;
 	const {sortcol, alpha, hiddencols, hiddenrows} = useAppSelector(state => state.displayTable[id] || blankSortInfo);
 	const [sortingColumn, setSortingColumn] = useState<number>(sortcol !== undefined ? sortcol : initialColumn);
@@ -786,31 +782,29 @@ const DisplayTable: FC<{ table: Table }> = ({ table }) => {
 		dispatch(setTableFilter({id, data: {hiddencols, hiddenrows}}));
 	}, [setHiddenColumns, setHiddenRows, id]);
 
-	const sortedAndFilteredHeaders = headers
-		.map((header, i) => [header, i] as [string, number])
+	const sortedAndFilteredColumns = columns
+		.map((col, i) => [col, i] as [Column, number])
 		.filter(([, i]) => hiddenColumns.every(hCol => hCol !== i));
-	const {sortedRowsWithOriginalIndices, sortedAndFilteredRows} = useMemo(() => {
-		const sortedRowsWithOriginalIndices = data
-			.map((row, j) => [row, j] as SortableRow)
+	const {sortedRowsWithBothOriginalIndices, sortedAndFilteredRowsWithIndices} = useMemo(() => {
+		const sortedRowsWithBothOriginalIndices = data
+			.map((row, j) => [row.map((cell, k) => [cell, k]), j] as SortableRow)
 			.sort(sortOnColumn(sortingColumn, sortDirection))
 			.map(([row, i]) => [row.filter((cell, i) => hiddenColumns.every(hCol => hCol !== i)), i] as SortableRow);
-		//const sortedRows = sortedRowsWithOriginalIndices
-		//	.map(([row]) => row)
-		const sortedAndFilteredRows = sortedRowsWithOriginalIndices
+		const sortedAndFilteredRowsWithIndices = sortedRowsWithBothOriginalIndices
 			.filter(([, i]) => hiddenRows.every(hRow => hRow !== i))
 			.map(([row]) => row);
-		return {sortedRowsWithOriginalIndices, sortedAndFilteredRows};
+		return {sortedRowsWithBothOriginalIndices, sortedAndFilteredRowsWithIndices};
 	}, [data, hiddenColumns, hiddenRows, sortingColumn, sortDirection]);
 
 	const tableWidth = useMemo(() => {
-		if(!sizes) {
+		if(columns.some(col => col.size === undefined)) {
 			return undefined;
 		}
-		const total = sizes
+		const total = columns
 			.filter((cell, i) => hiddenColumns.every(hCol => hCol !== i))
-			.reduce((total, size) => total + size, sizes.length - hiddenColumns.length);
+			.reduce((total, col) => total + col.size!, columns.length - hiddenColumns.length);
 		return { width: `${total}rem` };
-	}, [sizes, hiddenColumns]);
+	}, [columns, hiddenColumns]);
 
 	const sorter = (col: number) => {
 		return () => {
@@ -826,10 +820,10 @@ const DisplayTable: FC<{ table: Table }> = ({ table }) => {
 	};
 
 	// Only bother with a filter if we have a lot of rows or at least four headers
-	const theFilterStuff = (data.length < 10 && headers.length <= 3) ? <></> : <>
+	const theFilterStuff = (data.length < 10 && columns.length <= 3) ? <></> : <>
 		<DisplayTableFilterModal
-			headers={headers}
-			rows={sortedRowsWithOriginalIndices}
+			columns={columns}
+			rows={sortedRowsWithBothOriginalIndices}
 			filter={filter}
 			open={open}
 			setOpen={setOpen}
@@ -849,9 +843,9 @@ const DisplayTable: FC<{ table: Table }> = ({ table }) => {
 				<table key={`table/${id}`} style={tableWidth}>
 					<thead>
 						<tr>{
-							sortedAndFilteredHeaders.map((pair) => {
-								const [th, i] = pair;
-								if(!th) {
+							sortedAndFilteredColumns.map((pair) => {
+								const [col, i] = pair;
+								if(!col) {
 									return <StoreError id={id} dispatch={dispatch} />;
 								}
 								return <Th
@@ -860,31 +854,32 @@ const DisplayTable: FC<{ table: Table }> = ({ table }) => {
 									sortState={i === sortingColumn ? sortDirection : undefined}
 									active={i === sortingColumn}
 									sorter={sorter(i)}
-									sortable={sortable && (types[i] !== 0)}
-									size={sizes && sizes[i]}
-								>{th}</Th>;
+									sortable={!col.unsortable}
+									size={col.size}
+								>{col.header}</Th>;
 							})
 						}</tr>
 					</thead>
 					<tbody>
 						{
-							sortedAndFilteredRows.map((row, i) => {
+							sortedAndFilteredRowsWithIndices.map((row, i) => {
 								if(!row) {
 									return <StoreError id={id} dispatch={dispatch} />;
 								}
-								const cells = row.map((cell, j) => {
-									const align = alignments && (alignments[j] || undefined)
-									return (ripples.indexOf(j) > -1) ?
+								const cells = row.map(cellInfo => {
+									const [cell, j] = cellInfo;
+									const col = columns[j];
+									return (col.ripple) ?
 										<TdRouterLink
 											datum={cell === null ? nullValue : cell}
-											align={align}
+											align={col.align}
 											key={`table/${id}/row/${i}/cell/link/${j}`}
 										/>
 									:
 										<Td
-											type={types[j]}
+											type={col.type}
 											datum={cell === null ? nullValue : cell}
-											align={align}
+											align={col.align}
 											key={`table/${id}/row/${i}/cell/${j}`}
 										/>;
 								});

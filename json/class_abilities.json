@@ -617,11 +617,13 @@
 		"tables": [
 			{
 				"id": "bardic masterpieces table",
-				"headers": [ "Masterpiece", "Perform Skill(s)", "Ranks", "Cost", "Description" ],
-				"ripples": [0],
-				"types": [null, null, "num", "num", 0 ],
-				"alignments": [ true, true, null, true, true ],
-				"sizes": [ 8.5, 5.5, 4, 7, 15 ],
+				"columns": [
+					{ "header": "Masterpiece", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "Perform Skill(s)", "size": 5.5, "align": "start" },
+					{ "header": "Ranks", "type": "num", "size": 4 },
+					{ "header": "Cost", "type": "num", "size": 7, "align": "start" },
+					{ "header": "Description", "unsortable": true, "size": 15, "align": "start" }
+				],
 				"initialColumn": 0,
 				"filter": [
 					{ "col": 1, "has": [ "Act", "Comedy", "Dance", "Keyboard", "Oratory", "Percussion", "Sing", "String", "Wind" ] }
@@ -963,10 +965,14 @@
 		"tables": [
 			{
 				"id": "composite kinetic blasts",
-				"headers": [ "Composite Blast", "Prerequisites", "Elements", "Burn", "Blast Type", "Damage" ],
-				"ripples": [0],
-				"types": [ null, null, null, "num", null, null ],
-				"alignments": [ true, true, null, null, null, true ],
+				"columns": [
+					{ "header": "Composite Blast", "ripple": true, "align": "start" },
+					{ "header": "Prerequisites", "align": "start" },
+					{ "header": "Elements" },
+					{ "header": "Burn", "type": "num" },
+					{ "header": "Blast Type" },
+					{ "header": "Damage", "align": "start" }
+				],
 				"data": [
 					[ "{kinetic/Aetheric Boost/ (Sp)}", "{kinetic/telekinetic blast}, expanded element (any)", "aether", 2, "special", "see text" ],
 					[ "{kinetic/Autumn Blast/ (Sp)}", "{kinetic/earth blast}, {kinetic/wood blast}", "earth, wood", 2, "physical", "any two of bludgeoning, piercing, and slashing (half each)" ],
@@ -1144,10 +1150,11 @@
 		"tables": [
 			{
 				"id": "psychic disciplines",
-				"headers": [ "Discipline", "Pool Stat", "Description" ],
-				"types": [ null, null, null ],
-				"alignments": [ true, null, true ],
-				"ripples": [0],
+				"columns": [
+					{ "header": "Discipline", "ripple": true, "align": "start" },
+					{ "header": "Pool Stat" },
+					{ "header": "Description", "align": "start" }
+				],
 				"data": [
 					[ "{discipline/Abomination}", "Charisma", "Your mind is impure, tainted by outside forces." ],
 					[ "{discipline/Bleaching}", "Wisdom", "You draw power from a void in your emotions, a yawning and empty chasm where your hopes and dreams and fears should be." ],

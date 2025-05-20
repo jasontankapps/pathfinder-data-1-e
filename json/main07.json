@@ -14,9 +14,19 @@
 		"tables": [
 			{
 				"id": "all spells table",
-				"headers": [ "Spell", "Level(s)", "School", "Description", "V", "S", "M", "M/DF", "DF", "F", "F/DF" ],
-				"types": [ null, "num", null, 0, "num", "num", "num", "num", "num", "num", "num" ],
-				"alignments": [ true, null, null, true, null, null, null, null, null, null, null ],
+				"columns": [
+					{ "header": "Spell", "size": 7, "ripple": true, "align": "start" },
+					{ "header": "Level(s)", "type": "num", "size": 4 },
+					{ "header": "School", "size": 7 },
+					{ "header": "Description", "unsortable": true, "size": 11.5, "align": "start" },
+					{ "header": "V", "type": "num", "size": 2 },
+					{ "header": "S", "type": "num", "size": 2 },
+					{ "header": "M", "type": "num", "size": 2 },
+					{ "header": "M/DF", "type": "num", "size": 3 },
+					{ "header": "DF", "type": "num", "size": 2 },
+					{ "header": "F", "type": "num", "size": 2 },
+					{ "header": "F/DF", "type": "num", "size": 3 }
+				],
 				"filter": [
 					{ "col": 1, "has": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"] },
 					{ "col": 2, "equals": [
@@ -38,8 +48,6 @@
 					{ "col": 9, "range": [0, 1], "labels": ["F component", "No F component"]},
 					{ "col": 10, "range": [0, 1], "labels": ["F/DF component", "No F/DF component"]}
 				],
-				"sizes": [ 7, 4, 7, 11.5, 2, 2, 2, 3, 2, 2, 3 ],
-				"ripples": [0],
 				"data": [
 					[ "{spell/Abadar's Truthtelling}", 1, "enchantment", "Force the target to speak the truth.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 0, "DF" ], [ 1, "" ], [ 1, "" ] ],
 					[ "{spell/Abeyance}", 2, "abjuration", "Suppress the effects of a single curse.", [ 0, "V" ], [ 0, "S" ], [ 0, "M" ], [ 1, "" ], [ 0, "DF" ], [ 1, "" ], [ 1, "" ] ],

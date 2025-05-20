@@ -14,7 +14,6 @@
 		"tables": [
 			{
 				"id": "monsters humanoids",
-				"headers": [ "Monster", "CR", "Subtypes", "Size", "Alignment", "Description" ],
 				"filter": [
 					{
 						"col": 1,
@@ -32,10 +31,14 @@
 						"labels": ["LG", "LN", "LE", "NG", "N", "NE", "CG", "CN", "CE"]
 					}
 				],
-				"types": [ null, "num", null, "num", "num", 0 ],
-				"alignments": [ true, null, null, null, null, true ],
-				"sizes": [ 8.5, 3.5, 7, 6, 5.5, 14.75 ],
-				"ripples": [0],
+				"columns": [
+					{ "header": "Monster", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "CR", "type": "num", "size": 3.5 },
+					{ "header": "Subtypes", "size": 7 },
+					{ "header": "Size", "type": "num", "size": 6 },
+					{ "header": "Alignment", "type": "num", "size": 5.5 },
+					{ "header": "Description", "unsortable": true, "size": 14.75, "align": "start" }
+				],
 				"data": [
 					[ "{monster/Abysogh}", 15, "giant", [ 7, "gargantuan" ], [ 8, "CE" ], "The footsteps of this pale titan cause the very earth to shudder. Each muscle in its body is pulled taut as if in perpetual convulsion." ],
 					[ "{monster/Adlet}", 10, "adlet, cold", [ 4, "medium" ], [ 7, "CN" ], "This humanoid wolf's fur is snowy white and its eyes piercing blue; it grips an ornate spear in its fist." ],
@@ -365,7 +368,6 @@
 		"tables": [
 			{
 				"id": "monsters giants",
-				"headers": [ "Monster", "CR", "Subtypes", "Size", "Alignment", "Description" ],
 				"filter": [
 					{ "col": 1, "range": [ 2, 20 ] },
 					{
@@ -379,10 +381,14 @@
 						"labels": ["LN", "LE", "NG", "N", "NE", "CG", "CN", "CE"]
 					}
 				],
-				"types": [ null, "num", null, "num", "num", 0 ],
-				"alignments": [ true, null, null, null, null, true ],
-				"sizes": [ 8.5, 3.5, 7, 6, 5.5, 14.75 ],
-				"ripples": [0],
+				"columns": [
+					{ "header": "Monster", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "CR", "type": "num", "size": 3.5 },
+					{ "header": "Subtypes", "size": 7 },
+					{ "header": "Size", "type": "num", "size": 6 },
+					{ "header": "Alignment", "type": "num", "size": 5.5 },
+					{ "header": "Description", "unsortable": true, "size": 14.75, "align": "start" }
+				],
 				"data": [
 					[ "{monster/Abysogh}", 15, "giant", [ 7, "gargantuan" ], [ 8, "CE" ], "The footsteps of this pale titan cause the very earth to shudder. Each muscle in its body is pulled taut as if in perpetual convulsion." ],
 					[ "{monster/Athach}", 12, "giant", [ 6, "huge" ], [ 8, "CE" ], "This giant's maw contains a pair of dripping tusks, but it is its gangly third arm that makes its appearance truly bizarre." ],
@@ -497,7 +503,6 @@
 		"tables": [
 			{
 				"id": "monsters goblinoids",
-				"headers": [ "Monster", "CR", "Subtypes", "Size", "Alignment", "Description" ],
 				"filter": [
 					{
 						"col": 1,
@@ -515,10 +520,14 @@
 						"labels": ["LE", "NE", "CN", "CE"]
 					}
 				],
-				"types": [ null, "num", null, "num", "num", 0 ],
-				"alignments": [ true, null, null, null, null, true ],
-				"sizes": [ 8.5, 3.5, 7, 6, 5.5, 14.75 ],
-				"ripples": [0],
+				"columns": [
+					{ "header": "Monster", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "CR", "type": "num", "size": 3.5 },
+					{ "header": "Subtypes", "size": 7 },
+					{ "header": "Size", "type": "num", "size": 6 },
+					{ "header": "Alignment", "type": "num", "size": 5.5 },
+					{ "header": "Description", "unsortable": true, "size": 14.75, "align": "start" }
+				],
 				"data": [
 					[ "{monster/Bugbear}", 2, "goblinoid", [ 4, "medium" ], [ 8, "CE" ], "This dark-furred creature raises a spiked morningstar, its tiny, milk-white eyes glittering with the thrill of the coming kill." ],
 					[ "{monster/Bugbear, Bugbear Ambusher}", 10, "goblinoid", [ 4, "medium" ], [ 8, "CE" ], "This dark-furred creature raises a spiked morningstar, its tiny, milk-white eyes glittering with the thrill of the coming kill." ],
@@ -577,7 +586,6 @@
 		"tables": [
 			{
 				"id": "monsters shapechangers",
-				"headers": [ "Monster", "CR", "Type", "Subtypes", "Size", "Alignment", "Description" ],
 				"filter": [
 					{
 						"col": 1,
@@ -599,10 +607,15 @@
 						"labels": ["LG", "LN", "LE", "NG", "N", "NE", "CG", "CN", "CE"]
 					}
 				],
-				"types": [ null, "num", null, null, "num", "num", 0 ],
-				"alignments": [ true, null, null, null, null, null, true ],
-				"sizes": [ 8.5, 3.5, 5.5, 7, 6, 5.5, 14.75 ],
-				"ripples": [0],
+				"columns": [
+					{ "header": "Monster", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "CR", "type": "num", "size": 3.5 },
+					{ "header": "Type", "size": 5.5 },
+					{ "header": "Subtypes", "size": 7 },
+					{ "header": "Size", "type": "num", "size": 6 },
+					{ "header": "Alignment", "type": "num", "size": 5.5 },
+					{ "header": "Description", "unsortable": true, "size": 14.75, "align": "start" }
+				],
 				"data": [
 					[ "{monster/Akhlut}", 13, "magical beast", "cold, shapechanger", [ 6, "huge" ], [ 4, "N" ], "A dorsal fin rises up from the back of this immense black-and-white-furred, wolflike beast." ],
 					[ "{monster/Alghollthu, Enisysian}", 4, "aberration", "aquatic, shapechanger", [ 3, "small" ], [ 2, "LE" ], "Three lidless eyes with vertical pupils stare out from a small umbrella-shaped creature. It moves about using squirming tentacles, each moving independently in a mesmerizing motion." ],
@@ -734,7 +747,6 @@
 		"tables": [
 			{
 				"id": "monsters swarms",
-				"headers": [ "Monster", "CR", "Type", "Subtypes", "Size", "Alignment", "Description" ],
 				"filter": [
 					{
 						"col": 1,
@@ -756,10 +768,15 @@
 						"labels": ["LG", "LN", "LE", "N", "NE", "CN", "CE"]
 					}
 				],
-				"types": [ null, "num", null, null, "num", "num", 0 ],
-				"alignments": [ true, null, null, null, null, null, true ],
-				"sizes": [ 8.5, 3.5, 5.5, 7, 6, 5.5, 14.75 ],
-				"ripples": [0],
+				"columns": [
+					{ "header": "Monster", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "CR", "type": "num", "size": 3.5 },
+					{ "header": "Type", "size": 5.5 },
+					{ "header": "Subtypes", "size": 7 },
+					{ "header": "Size", "type": "num", "size": 6 },
+					{ "header": "Alignment", "type": "num", "size": 5.5 },
+					{ "header": "Description", "unsortable": true, "size": 14.75, "align": "start" }
+				],
 				"data": [
 					[ "{monster/Alchemical Ooze Swarm, Choleric Ooze Swarm}", 2, "ooze", "swarm", [ 2, "tiny" ], [ 4, "N" ], null ],
 					[ "{monster/Alchemical Ooze Swarm, Melancholic Ooze Swarm}", 1, "ooze", "swarm", [ 2, "tiny" ], [ 4, "N" ], null ],

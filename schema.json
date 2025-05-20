@@ -399,29 +399,29 @@
 				"type": "object",
 				"properties": {
 					"id": { "type": "string" },
-					"headers": { "$ref": "#stringArray" },
-					"types": {
+					"columns": {
 						"type": "array",
-						"items": { "enum": [ "gp", "lbs", "gp+", "lbs+", "bonus", "num", "pct", null, 0 ] }
-					},
-					"alignments": {
-						"$comment": "true = start-aligned, false = end-aligned, null = center-aligned",
-						"type": "array",
-						"items": { "enum": [ true, false, null ] }
+						"items": {
+							"type": "object",
+							"properties": {
+								"header": { "type": "string" },
+								"type": { "enum": [ "gp", "lbs", "gp+", "lbs+", "bonus", "num", "pct" ] },
+								"unsortable": { "type": "boolean" },
+								"align": { "enum": [ "start", "end" ] },
+								"size": {
+									"type": "number",
+									"exclusiveMinimum": 0
+								},
+								"ripple": { "type": "boolean" }
+							},
+							"requires": [ "header" ]
+						}
 					},
 					"initialColumn": {
 						"type": "integer",
 						"minimum": 0
 					},
 					"nullValue": { "type": "string" },
-					"ripples": {
-						"type": "array",
-						"items": {
-							"type": "integer",
-							"minimum": 0
-						}
-					},
-					"sortable": { "type": "boolean" },
 					"filter": {
 						"type":"array",
 						"items": {
@@ -469,13 +469,6 @@
 							]
 						}
 					},
-					"sizes": {
-						"type": "array",
-						"items": {
-							"type": "number",
-							"exclusiveMinimum": 0
-						}
-					},
 					"data": {
 						"$comment": "null | string | number | [ number, string ] | [ string, string ]",
 						"type": "array",
@@ -500,7 +493,7 @@
 							}
 						}
 					},
-					"requires": [ "id", "headers", "types", "data", "initialColumn" ]
+					"requires": [ "id", "columns", "data", "initialColumn" ]
 				},
 				"unevaluatedProperties": false
 			}

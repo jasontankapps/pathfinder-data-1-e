@@ -14,9 +14,10 @@
 		"tables": [
 			{
 				"id": "campaign traits",
-				"headers": [ "Trait", "Campaign" ],
-				"types": [ null, null ],
-				"ripples": [0],
+				"columns": [
+					{ "header": "Trait", "ripple": true },
+					{ "header": "Campaign" }
+				],
 				"data": [
 					[ "{trait/Chance Savior}", "Carrion Crown " ],
 					[ "{trait/Inspired by Greatness}", "Carrion Crown " ],
@@ -256,9 +257,10 @@
 		"tables": [
 			{
 				"id": "race traits",
-				"headers": [ "Trait", "Race" ],
-				"types": [ null, null ],
-				"ripples": [0],
+				"columns": [
+					{ "header": "Trait", "ripple": true },
+					{ "header": "Race" }
+				],
 				"data": [
 					[ "{trait/Adrift}", "Aasimar " ],
 					[ "{trait/Celestial Community}", "Aasimar " ],
@@ -804,9 +806,10 @@
 		"tables": [
 			{
 				"id": "religion traits",
-				"headers": [ "Trait", "Religion" ],
-				"types": [ null, null ],
-				"ripples": [0],
+				"columns": [
+					{ "header": "Trait", "ripple": true },
+					{ "header": "Religion" }
+				],
 				"data": [
 					[ "{trait/A Shining Beacon}", "Iomedae" ],
 					[ "{trait/Accident Resistant}", "Zyphus" ],
@@ -1049,9 +1052,10 @@
 		"tables": [
 			{
 				"id": "regional traits",
-				"headers": [ "Trait", "Region" ],
-				"ripples": [0],
-				"types": [ null, null ],
+				"columns": [
+					{ "header": "Trait", "ripple": true },
+					{ "header": "Region" }
+				],
 				"data": [
 					[ "{trait/Aballonian Resilience}", "Aballon" ],
 					[ "{trait/Abendego Pilot}", "Eye of Abendego" ],

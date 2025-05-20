@@ -14,11 +14,12 @@
 		"tables": [
 			{
 				"id": "abjuration school spells table",
-				"headers": [ "Spell", "Level(s)", "Descriptor", "Description" ],
-				"types": [ null, "num", null, 0 ],
-				"alignments": [ true, null, null, true ],
-				"sizes": [ 8.5, 4, 6, 14.75 ],
-				"ripples": [0],
+				"columns": [
+					{ "header": "Spell", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "Level(s)", "type": "num", "size": 4 },
+					{ "header": "Descriptor", "size": 6 },
+					{ "header": "Description", "unsortable": true, "size": 14.75, "align": "start" }
+				],
 				"data": [
 					[ "{spell/Abeyance}", 2, null, "Suppress the effects of a single curse." ],
 					[ "{spell/Abjuring Step}", 1, "force", "You can move slowly and safely and still cast spells, until you move quickly, make an attack, or cast a harmful spell." ],
@@ -378,11 +379,13 @@
 		"tables": [
 			{
 				"id": "conjuration school spells table",
-				"headers": [ "Spell", "Level(s)", "Subschool", "Descriptor", "Description" ],
-				"types": [ null, "num", null, null, 0 ],
-				"alignments": [ true, null, null, null, true ],
-				"sizes": [ 8.5, 4, 7, 6, 14.75 ],
-				"ripples": [0],
+				"columns": [
+					{ "header": "Spell", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "Level(s)", "type": "num", "size": 4 },
+					{ "header": "Subschool", "size": 7 },
+					{ "header": "Descriptor", "size": 6 },
+					{ "header": "Description", "unsortable": true, "size": 14.75, "align": "start" }
+				],
 				"data": [
 					[ "{spell/Ablative Barrier}", [ 2.451, "2, 3" ], "creation", "force", "Surrounds the target with layers of force." ],
 					[ "{spell/Abundant Ammunition}", 1, "summoning", null, "Replaces nonmagical ammunition every round." ],
@@ -888,11 +891,13 @@
 		"tables": [
 			{
 				"id": "divination school spells table",
-				"headers": [ "Spell", "Level(s)", "Subschool", "Descriptor", "Description" ],
-				"types": [ null, "num", null, null, 0 ],
-				"alignments": [ true, null, null, null, true ],
-				"sizes": [ 8.5, 4, 7, 6, 14.75 ],
-				"ripples": [0],
+				"columns": [
+					{ "header": "Spell", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "Level(s)", "type": "num", "size": 4 },
+					{ "header": "Subschool", "size": 7 },
+					{ "header": "Descriptor", "size": 6 },
+					{ "header": "Description", "unsortable": true, "size": 14.75, "align": "start" }
+				],
 				"data": [
 					[ "{spell/Aerial Tracks}", [ 3.601, "3, 4" ], null, "air", "Track flying creatures through the air." ],
 					[ "{spell/Akashic Communion}", [ 3.421, "3, 4" ], null, null, "Make 1 knowledge check /3 levels with a +10 bonus" ],
@@ -1198,11 +1203,13 @@
 		"tables": [
 			{
 				"id": "enchantment school spells table",
-				"headers": [ "Spell", "Level(s)", "Subschool", "Descriptor", "Description" ],
-				"types": [ null, "num", null, null, 0 ],
-				"alignments": [ true, null, null, null, true ],
-				"sizes": [ 8.5, 4, 7, 6, 14.75 ],
-				"ripples": [0],
+				"columns": [
+					{ "header": "Spell", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "Level(s)", "type": "num", "size": 4 },
+					{ "header": "Subschool", "size": 7 },
+					{ "header": "Descriptor", "size": 6 },
+					{ "header": "Description", "unsortable": true, "size": 14.75, "align": "start" }
+				],
 				"data": [
 					[ "{spell/Abadar's Truthtelling}", 1, "compulsion", "mind-affecting", "Force the target to speak the truth." ],
 					[ "{spell/Adoration}", [ 1.631, "1, 2" ], null, "emotion, mind-affecting", "You gain a bonus on Diplomacy checks and performance combat checks." ],

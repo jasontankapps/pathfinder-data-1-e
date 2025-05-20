@@ -14,7 +14,6 @@
 		"tables": [
 			{
 				"id": "monsters outsiders",
-				"headers": [ "Monster", "CR", "Subtypes", "Size", "Alignment", "Description" ],
 				"filter": [
 					{
 						"col": 1,
@@ -32,10 +31,14 @@
 						"labels": ["LG", "LN", "LE", "NG", "N", "NE", "CG", "CN", "CE"]
 					}
 				],
-				"types": [ null, "num", null, "num", "num", 0 ],
-				"alignments": [ true, null, null, null, null, true ],
-				"sizes": [ 8.5, 3.5, 7, 6, 5.5, 14.75 ],
-				"ripples": [0],
+				"columns": [
+					{ "header": "Monster", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "CR", "type": "num", "size": 3.5 },
+					{ "header": "Subtypes", "size": 7 },
+					{ "header": "Size", "type": "num", "size": 6 },
+					{ "header": "Alignment", "type": "num", "size": 5.5 },
+					{ "header": "Description", "unsortable": true, "size": 14.75, "align": "start" }
+				],
 				"data": [
 					[ "{monster/Aasimar}", [ -2, "1/2" ], "native", [ 4, "medium" ], [ 3, "NG" ], "This supernaturally beautiful woman looks human, yet emanates a strange sense of calm and benevolence." ],
 					[ "{monster/Achaierai}", 5, "evil, extraplanar, lawful", [ 5, "large" ], [ 2, "LE" ], "This bird-like beast is mostly head, lunging forward on four scaly legs. Wisps of noxious black vapor trail from its hooked beak." ],
@@ -640,7 +643,6 @@
 		"tables": [
 			{
 				"id": "monsters elementals",
-				"headers": [ "Monster", "CR", "Subtypes", "Size", "Alignment", "Description" ],
 				"filter": [
 					{
 						"col": 1,
@@ -658,10 +660,14 @@
 						"labels": ["LN", "N", "NE", "CN", "CE"]
 					}
 				],
-				"types": [ null, "num", null, "num", "num", 0 ],
-				"alignments": [ true, null, null, null, null, true ],
-				"sizes": [ 8.5, 3.5, 7, 6, 5.5, 14.75 ],
-				"ripples": [0],
+				"columns": [
+					{ "header": "Monster", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "CR", "type": "num", "size": 3.5 },
+					{ "header": "Subtypes", "size": 7 },
+					{ "header": "Size", "type": "num", "size": 6 },
+					{ "header": "Alignment", "type": "num", "size": 5.5 },
+					{ "header": "Description", "unsortable": true, "size": 14.75, "align": "start" }
+				],
 				"data": [
 					[ "{monster/Aerial Servant}", 11, "air, elemental, extraplanar", [ 4, "medium" ], [ 4, "N" ], "A faint ripple in the air suggests a hazy and vaguely humanoid vapor moving with terrible swiftness." ],
 					[ "{monster/Ahkhat}", 4, "earth, elemental, native", [ 3, "small" ], [ 4, "N" ], "The materials of the building stretch and pull as if elastic, taking on the form of an earthen humanoid with thick stony arms." ],
@@ -765,7 +771,6 @@
 		"tables": [
 			{
 				"id": "monsters extraplanar outsiders",
-				"headers": [ "Monster", "CR", "Subtypes", "Size", "Alignment", "Description" ],
 				"filter": [
 					{
 						"col": 1,
@@ -783,10 +788,14 @@
 						"labels": ["LG", "LN", "LE", "NG", "N", "NE", "CG", "CN", "CE"]
 					}
 				],
-				"types": [ null, "num", null, "num", "num", 0 ],
-				"alignments": [ true, null, null, null, null, true ],
-				"sizes": [ 8.5, 3.5, 7, 6, 5.5, 14.75 ],
-				"ripples": [0],
+				"columns": [
+					{ "header": "Monster", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "CR", "type": "num", "size": 3.5 },
+					{ "header": "Subtypes", "size": 7 },
+					{ "header": "Size", "type": "num", "size": 6 },
+					{ "header": "Alignment", "type": "num", "size": 5.5 },
+					{ "header": "Description", "unsortable": true, "size": 14.75, "align": "start" }
+				],
 				"data": [
 					[ "{monster/Achaierai}", 5, "evil, extraplanar, lawful", [ 5, "large" ], [ 2, "LE" ], "This bird-like beast is mostly head, lunging forward on four scaly legs. Wisps of noxious black vapor trail from its hooked beak." ],
 					[ "{monster/Aeon, Agnoia}", 14, "aeon, extraplanar", [ 5, "large" ], [ 4, "N" ], "This cylindrical creature of pale fog and dark shadow stands on three clawed feet. Three pale arms jut from around the column, each ending in a hand with long, black claws." ],
@@ -1286,7 +1295,6 @@
 		"tables": [
 			{
 				"id": "monsters native outsiders",
-				"headers": [ "Monster", "CR", "Subtypes", "Size", "Alignment", "Description" ],
 				"filter": [
 					{
 						"col": 1,
@@ -1304,10 +1312,14 @@
 						"labels": ["LG", "LN", "LE", "NG", "N", "NE", "CG", "CN", "CE"]
 					}
 				],
-				"types": [ null, "num", null, "num", "num", 0 ],
-				"alignments": [ true, null, null, null, null, true ],
-				"sizes": [ 8.5, 3.5, 7, 6, 5.5, 14.75 ],
-				"ripples": [0],
+				"columns": [
+					{ "header": "Monster", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "CR", "type": "num", "size": 3.5 },
+					{ "header": "Subtypes", "size": 7 },
+					{ "header": "Size", "type": "num", "size": 6 },
+					{ "header": "Alignment", "type": "num", "size": 5.5 },
+					{ "header": "Description", "unsortable": true, "size": 14.75, "align": "start" }
+				],
 				"data": [
 					[ "{monster/Aasimar}", [ -2, "1/2" ], "native", [ 4, "medium" ], [ 3, "NG" ], "This supernaturally beautiful woman looks human, yet emanates a strange sense of calm and benevolence." ],
 					[ "{monster/Ahkhat}", 4, "earth, elemental, native", [ 3, "small" ], [ 4, "N" ], "The materials of the building stretch and pull as if elastic, taking on the form of an earthen humanoid with thick stony arms." ],

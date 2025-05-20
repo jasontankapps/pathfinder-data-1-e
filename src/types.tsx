@@ -11,7 +11,7 @@ export type RangeInSliceFormat<START extends number, END extends number, N exten
 //    type Y = -4 | -3 | -2 | -1 | 0 | 1 | 2 | 3 | 4;
 // NOTE: The high end will cap out at (END - 1)
 //
-// Based on JS Slice method (except in how it handles negative numbers)
+// Based on JS Slice method (using positive numbers only)
 //   [0, 1, 2, 3, 4].slice(0, 2) => [0, 1]
 //   [0, 1, 2, 3, 4].slice(1, 2) => [1]
 //   [0, 1, 2, 3, 4].slice(2, 4) => [2, 3]
@@ -20,15 +20,14 @@ export type Datum = string | number | [ number, string ] | [ string, string ];
 
 export type RawDatum = null | Datum;
 
-export type TableColumnInfoTypes = "gp" | "lbs" | "gp+" | "lbs+" | "bonus" | "num" | "pct" | null | 0;
+export type ColumnDataType = "gp" | "lbs" | "gp+" | "lbs+" | "bonus" | "num" | "pct";
 // gp = gold pieces
 // gp+ = gold piece adjustment
 // lbs = weight
 // lbs = weight adjustment
 // bonus = +1/-1/etc
 // num = any number
-// null = text
-// 0 = DO NOT SORT ON THIS COLUMN (text)
+//   Otherwise, assume it is plain text.
 
 export type Hierarchy = [string, string];
 
@@ -61,32 +60,28 @@ interface HasFilter extends BaseFilter {
 
 export type Filter = RangeFilter | EqualsFilter | HasFilter;
 
+export interface Column {
+	header: string
+	type?: ColumnDataType
+	align?: "start" | "end"
+	ripple?: boolean
+	size?: number
+	unsortable?: boolean
+}
+
 export interface Table {
 	// unique identifier
 	id: string
-	// headers
-	headers: string[]
-	// declares what type of data each column has
-	types: TableColumnInfoTypes[]
-	// marking if certain columns are aligned differently
-	//   null = centered (default)
-	//   true = start
-	//   false = end
-	alignments?: (boolean | null)[]
+	// declares a header, data type, alignment, size (column width), ripple, and unsortability
+	columns: Column[]
 	// the rows that will form a table
 	data: RawDatum[][]
 	// the index of the column that is initially sorted
 	initialColumn: number
 	// what to print if a cell is `null` (defaults to &mdash;)
 	nullValue?: string
-	// cells that are only going to contain links
-	ripples?: number[]
-	// some tables do not need sorting information (defaults to true)
-	sortable?: boolean
 	// some tables have additional filters (usually spell levels or CR)
 	filter?: Filter[]
-	// specifying column widths
-	sizes?: number[]
 }
 
 export interface DisplayItemProps {
@@ -111,14 +106,6 @@ export interface JsonRulesProps<Name> {
 	siblings?: Name[]
 	sources: SourceProp[]
 	className?: string
-}
-
-export interface BasicItem {
-	name: string
-	description: string[]
-	tables?: Table[]
-	sources: SourceProp[]
-	topLink?: Hierarchy
 }
 
 // NUMERIC RANGE

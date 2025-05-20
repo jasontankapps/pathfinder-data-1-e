@@ -42,13 +42,14 @@
 		"tables": [
 			{
 				"id": "druid animal companions",
-				"headers": [ "Companion", "Type", "Description" ],
-				"ripples": [0],
-				"types": [ null, null, 0 ],
+				"columns": [
+					{ "header": "Companion", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "Type", "size": 5.5 },
+					{ "header": "Description", "unsortable": true, "size": 11.5, "align": "start" }
+				],
 				"filter": [
 					{ "col": 1, "equals": [ "animal", "monstrous", "plant", "vermin" ] }
 				],
-				"alignments": [ true, null, true ],
 				"data": [
 					[ "{druidcompanion/Allosaurus}", "animal", "This bipedal dinosaur has a mouth filled with sharp teeth and short, powerful arms that end in sharp claws." ],
 					[ "{druidcompanion/Amargasaurus}", "animal", "This sauropod has an elongated neck and a long, tapering tail." ],
@@ -268,7 +269,6 @@
 					[ "{druidcompanion/Yzobu}", "animal", "This four-legged animal with a long-horned, bovine head looks like a cross between a horse and a long-haired yak." ],
 					[ "{druidcompanion/Zebra}", "animal", "The iconic black and white stripes of the zebra make it instantly recognizable." ]
 				],
-				"sizes": [ 8.5, 5.5, 11.5 ],
 				"initialColumn": 0
 			}
 		],
@@ -1563,11 +1563,15 @@
 		"tables": [
 			{
 				"id": "infusion wild talents",
-				"headers": [ "Infusion", "Type", "Elements", "Level", "Burn", "Prerequisites", "Associated Blasts" ],
-				"ripples": [0],
-				"types": [ null, null, null, "num", "num", null, null ],
-				"alignments": [ true, null, null, null, null, true, true ],
-				"sizes": [ 5.5, 4, 5.5, 3.5, 3.5, 5.5, 5.5 ],
+				"columns": [
+					{ "header": "Infusion", "size": 5.5, "ripple": true, "align": "start" },
+					{ "header": "Type", "size": 4 },
+					{ "header": "Elements", "size": 5.5 },
+					{ "header": "Level", "type": "num", "size": 3.5 },
+					{ "header": "Burn", "type": "num", "size": 3.5 },
+					{ "header": "Prerequisites", "size": 5.5, "align": "start" },
+					{ "header": "Associated Blasts", "size": 5.5, "align": "start" }
+				],
 				"data": [
 					[ "{kinetic/Blade Rush}", "form infusion", "universal", 2, 2, "{kinetic/kinetic blade}", "any" ],
 					[ "{kinetic/Blade Whirlwind}", "form infusion", "universal", 5, 3, "{kinetic/kinetic blade}", "any" ],

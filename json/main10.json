@@ -38,7 +38,6 @@
 		"tables": [
 			{
 				"id": "warpriest spells table 0 1",
-				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description", "V", "S", "M", "M/DF", "DF", "F", "F/DF" ],
 				"filter": [
 					{ "col": 1, "range": [0, 1] },
 					{ "col": 2, "equals": [
@@ -59,11 +58,22 @@
 					{ "col": 11, "range": [0, 1], "labels": ["F component", "No F component"]},
 					{ "col": 12, "range": [0, 1], "labels": ["F/DF component", "No F/DF component"]}
 				],
-				"types": [ null, "num", null, null, null, 0, "num", "num", "num", "num", "num", "num", "num" ],
-				"alignments": [ true, null, null, null, null, true, null, null, null, null, null, null, null ],
-				"sizes": [ 8.5, 3.5, 7, 7, 6, 14.75, 2, 2, 2, 3, 2, 2, 3 ],
+				"columns": [
+					{ "header": "Spell", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "Level", "type": "num", "size": 3.5 },
+					{ "header": "School", "size": 7 },
+					{ "header": "Subschool", "size": 7 },
+					{ "header": "Descriptor", "size": 6 },
+					{ "header": "Description", "unsortable": true, "size": 14.75, "align": "start" },
+					{ "header": "V", "type": "num", "size": 2 },
+					{ "header": "S", "type": "num", "size": 2 },
+					{ "header": "M", "type": "num", "size": 2 },
+					{ "header": "M/DF", "type": "num", "size": 3 },
+					{ "header": "DF", "type": "num", "size": 2 },
+					{ "header": "F", "type": "num", "size": 2 },
+					{ "header": "F/DF", "type": "num", "size": 3 }
+				],
 				"initialColumn": 1,
-				"ripples": [0],
 				"data": [
 					[ "{spell/Bleed}", 0, "necromancy", null, null, "Cause a stabilized creature to resume dying.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
 					[ "{spell/Create Water}", 0, "conjuration", "creation", "water", "Creates 2 gallons/level of pure water.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
@@ -270,7 +280,6 @@
 		"tables": [
 			{
 				"id": "warpriest spells table 2",
-				"headers": [ "Spell", "School", "Subschool", "Descriptor", "Description", "V", "S", "M", "M/DF", "DF", "F", "F/DF" ],
 				"filter": [
 					{ "col": 1, "equals": [
 						"abjuration",
@@ -290,11 +299,21 @@
 					{ "col": 10, "range": [0, 1], "labels": ["F component", "No F component"]},
 					{ "col": 11, "range": [0, 1], "labels": ["F/DF component", "No F/DF component"]}
 				],
-				"types": [ null, null, null, null, 0, "num", "num", "num", "num", "num", "num", "num" ],
-				"alignments": [ true, null, null, null, true, null, null, null, null, null, null, null ],
-				"sizes": [ 8.5, 7, 7, 6, 14.75, 2, 2, 2, 3, 2, 2, 3 ],
+				"columns": [
+					{ "header": "Spell", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "School", "size": 7 },
+					{ "header": "Subschool", "size": 7 },
+					{ "header": "Descriptor", "size": 6 },
+					{ "header": "Description", "unsortable": true, "size": 14.75, "align": "start" },
+					{ "header": "V", "type": "num", "size": 2 },
+					{ "header": "S", "type": "num", "size": 2 },
+					{ "header": "M", "type": "num", "size": 2 },
+					{ "header": "M/DF", "type": "num", "size": 3 },
+					{ "header": "DF", "type": "num", "size": 2 },
+					{ "header": "F", "type": "num", "size": 2 },
+					{ "header": "F/DF", "type": "num", "size": 3 }
+				],
 				"initialColumn": 1,
-				"ripples": [0],
 				"data": [
 					[ "{spell/Abeyance}", "abjuration", null, null, "Suppress the effects of a single curse.", [ 0, "V" ], [ 0, "S" ], [ 0, "M" ], [ 1, "" ], [ 0, "DF" ], [ 1, "" ], [ 1, "" ] ],
 					[ "{spell/Aboleth's Lung}", "transmutation", null, null, "Allow the target to breathe water at the cost of no longer being able to breathe air.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 0, "M/DF" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
@@ -540,7 +559,6 @@
 		"tables": [
 			{
 				"id": "warpriest spells table 3",
-				"headers": [ "Spell", "School", "Subschool", "Descriptor", "Description", "V", "S", "M", "M/DF", "DF", "F", "F/DF" ],
 				"filter": [
 					{ "col": 1, "equals": [
 						"universal",
@@ -561,11 +579,21 @@
 					{ "col": 10, "range": [0, 1], "labels": ["F component", "No F component"]},
 					{ "col": 11, "range": [0, 1], "labels": ["F/DF component", "No F/DF component"]}
 				],
-				"types": [ null, null, null, null, 0, "num", "num", "num", "num", "num", "num", "num" ],
-				"alignments": [ true, null, null, null, true, null, null, null, null, null, null, null ],
-				"sizes": [ 8.5, 7, 7, 6, 14.75, 2, 2, 2, 3, 2, 2, 3 ],
+				"columns": [
+					{ "header": "Spell", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "School", "size": 7 },
+					{ "header": "Subschool", "size": 7 },
+					{ "header": "Descriptor", "size": 6 },
+					{ "header": "Description", "unsortable": true, "size": 14.75, "align": "start" },
+					{ "header": "V", "type": "num", "size": 2 },
+					{ "header": "S", "type": "num", "size": 2 },
+					{ "header": "M", "type": "num", "size": 2 },
+					{ "header": "M/DF", "type": "num", "size": 3 },
+					{ "header": "DF", "type": "num", "size": 2 },
+					{ "header": "F", "type": "num", "size": 2 },
+					{ "header": "F/DF", "type": "num", "size": 3 }
+				],
 				"initialColumn": 1,
-				"ripples": [0],
 				"data": [
 					[ "{spell/Accept Affliction}", "conjuration", "healing", "good", "Transfer the effects of afflictions from someone else to yourself.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 0, "M/DF" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
 					[ "{spell/Aggravate Affliction}", "necromancy", null, null, "Force ongoing afflictions to trigger.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
@@ -792,7 +820,6 @@
 		"tables": [
 			{
 				"id": "warpriest spells table 4",
-				"headers": [ "Spell", "School", "Subschool", "Descriptor", "Description", "V", "S", "M", "M/DF", "DF", "F", "F/DF" ],
 				"filter": [
 					{ "col": 1, "equals": [
 						"abjuration",
@@ -812,11 +839,21 @@
 					{ "col": 10, "range": [0, 1], "labels": ["F component", "No F component"]},
 					{ "col": 11, "range": [0, 1], "labels": ["F/DF component", "No F/DF component"]}
 				],
-				"types": [ null, null, null, null, 0, "num", "num", "num", "num", "num", "num", "num" ],
-				"alignments": [ true, null, null, null, true, null, null, null, null, null, null, null ],
-				"sizes": [ 8.5, 7, 7, 6, 14.75, 2, 2, 2, 3, 2, 2, 3 ],
+				"columns": [
+					{ "header": "Spell", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "School", "size": 7 },
+					{ "header": "Subschool", "size": 7 },
+					{ "header": "Descriptor", "size": 6 },
+					{ "header": "Description", "unsortable": true, "size": 14.75, "align": "start" },
+					{ "header": "V", "type": "num", "size": 2 },
+					{ "header": "S", "type": "num", "size": 2 },
+					{ "header": "M", "type": "num", "size": 2 },
+					{ "header": "M/DF", "type": "num", "size": 3 },
+					{ "header": "DF", "type": "num", "size": 2 },
+					{ "header": "F", "type": "num", "size": 2 },
+					{ "header": "F/DF", "type": "num", "size": 3 }
+				],
 				"initialColumn": 1,
-				"ripples": [0],
 				"data": [
 					[ "{spell/Absolution}", "abjuration", null, null, "Removes enchantments and forgives actions taken under their effects.", [ 0, "V" ], [ 0, "S" ], [ 0, "M" ], [ 1, "" ], [ 0, "DF" ], [ 1, "" ], [ 1, "" ] ],
 					[ "{spell/Absorb Rune I}", "abjuration", null, null, "Absorb a magic rune up to 3rd level, which can be moved or dispelled", [ 0, "V" ], [ 0, "S" ], [ 0, "M" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
@@ -1003,7 +1040,6 @@
 		"tables": [
 			{
 				"id": "warpriest spells table 5 6",
-				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description", "V", "S", "M", "M/DF", "DF", "F", "F/DF" ],
 				"filter": [
 					{ "col": 1, "range": [5, 6] },
 					{ "col": 2, "equals": [
@@ -1024,11 +1060,22 @@
 					{ "col": 11, "range": [0, 1], "labels": ["F component", "No F component"]},
 					{ "col": 12, "range": [0, 1], "labels": ["F/DF component", "No F/DF component"]}
 				],
-				"types": [ null, "num", null, null, null, 0, "num", "num", "num", "num", "num", "num", "num" ],
-				"alignments": [ true, null, null, null, null, true, null, null, null, null, null, null, null ],
-				"sizes": [ 8.5, 3.5, 7, 7, 6, 14.75, 2, 2, 2, 3, 2, 2, 3 ],
+				"columns": [
+					{ "header": "Spell", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "Level", "type": "num", "size": 3.5 },
+					{ "header": "School", "size": 7 },
+					{ "header": "Subschool", "size": 7 },
+					{ "header": "Descriptor", "size": 6 },
+					{ "header": "Description", "unsortable": true, "size": 14.75, "align": "start" },
+					{ "header": "V", "type": "num", "size": 2 },
+					{ "header": "S", "type": "num", "size": 2 },
+					{ "header": "M", "type": "num", "size": 2 },
+					{ "header": "M/DF", "type": "num", "size": 3 },
+					{ "header": "DF", "type": "num", "size": 2 },
+					{ "header": "F", "type": "num", "size": 2 },
+					{ "header": "F/DF", "type": "num", "size": 3 }
+				],
 				"initialColumn": 1,
-				"ripples": [0],
 				"data": [
 					[ "{spell/Air Walk, Communal}", 5, "transmutation", null, "air", "As air walk, but you may divide the duration among creatures touched.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 0, "DF" ], [ 1, "" ], [ 1, "" ] ],
 					[ "{spell/Ancestral Memory}", 5, "divination", null, null, "Petition your ancestors for aid, gaining a +5 bonus to Intelligence-based skill checks.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
@@ -1298,7 +1345,6 @@
 		"tables": [
 			{
 				"id": "bard spells table 0 1",
-				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description", "V", "S", "M", "M/DF", "DF", "F", "F/DF" ],
 				"filter": [
 					{ "col": 1, "range": [0, 1] },
 					{ "col": 2, "equals": [
@@ -1320,11 +1366,22 @@
 					{ "col": 11, "range": [0, 1], "labels": ["F component", "No F component"]},
 					{ "col": 12, "range": [0, 1], "labels": ["F/DF component", "No F/DF component"]}
 				],
-				"types": [ null, "num", null, null, null, 0, "num", "num", "num", "num", "num", "num", "num" ],
-				"alignments": [ true, null, null, null, null, true, null, null, null, null, null, null, null ],
-				"sizes": [ 8.5, 3.5, 7, 7, 6, 14.75, 2, 2, 2, 3, 2, 2, 3 ],
+				"columns": [
+					{ "header": "Spell", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "Level", "type": "num", "size": 3.5 },
+					{ "header": "School", "size": 7 },
+					{ "header": "Subschool", "size": 7 },
+					{ "header": "Descriptor", "size": 6 },
+					{ "header": "Description", "unsortable": true, "size": 14.75, "align": "start" },
+					{ "header": "V", "type": "num", "size": 2 },
+					{ "header": "S", "type": "num", "size": 2 },
+					{ "header": "M", "type": "num", "size": 2 },
+					{ "header": "M/DF", "type": "num", "size": 3 },
+					{ "header": "DF", "type": "num", "size": 2 },
+					{ "header": "F", "type": "num", "size": 2 },
+					{ "header": "F/DF", "type": "num", "size": 3 }
+				],
 				"initialColumn": 1,
-				"ripples": [0],
 				"data": [
 					[ "{spell/Dancing Lights}", 0, "evocation", null, "light", "Creates torches or other lights.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
 					[ "{spell/Daze}", 0, "enchantment", "compulsion", "mind-affecting", "Humanoid creature of 4 HD or less loses next action.", [ 0, "V" ], [ 0, "S" ], [ 0, "M" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
@@ -1559,7 +1616,6 @@
 		"tables": [
 			{
 				"id": "bard spells table 2",
-				"headers": [ "Spell", "School", "Subschool", "Descriptor", "Description", "V", "S", "M", "M/DF", "DF", "F", "F/DF" ],
 				"filter": [
 					{ "col": 1, "equals": [
 						"abjuration",
@@ -1579,11 +1635,21 @@
 					{ "col": 10, "range": [0, 1], "labels": ["F component", "No F component"]},
 					{ "col": 11, "range": [0, 1], "labels": ["F/DF component", "No F/DF component"]}
 				],
-				"types": [ null, null, null, null, 0, "num", "num", "num", "num", "num", "num", "num" ],
-				"alignments": [ true, null, null, null, true, null, null, null, null, null, null, null ],
-				"sizes": [ 8.5, 7, 7, 6, 14.75, 2, 2, 2, 3, 2, 2, 3 ],
+				"columns": [
+					{ "header": "Spell", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "School", "size": 7 },
+					{ "header": "Subschool", "size": 7 },
+					{ "header": "Descriptor", "size": 6 },
+					{ "header": "Description", "unsortable": true, "size": 14.75, "align": "start" },
+					{ "header": "V", "type": "num", "size": 2 },
+					{ "header": "S", "type": "num", "size": 2 },
+					{ "header": "M", "type": "num", "size": 2 },
+					{ "header": "M/DF", "type": "num", "size": 3 },
+					{ "header": "DF", "type": "num", "size": 2 },
+					{ "header": "F", "type": "num", "size": 2 },
+					{ "header": "F/DF", "type": "num", "size": 3 }
+				],
 				"initialColumn": 1,
-				"ripples": [0],
 				"data": [
 					[ "{spell/Absurdity}", "illusion", "phantasm", "emotion, mind-affecting", "Threats seem like a ridiculous farce.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
 					[ "{spell/Acute Senses}", "transmutation", null, null, "Subject gains a bonus on Perception checks.", [ 0, "V" ], [ 0, "S" ], [ 0, "M" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
@@ -1848,7 +1914,6 @@
 		"tables": [
 			{
 				"id": "bard spells table 3 4",
-				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description", "V", "S", "M", "M/DF", "DF", "F", "F/DF" ],
 				"filter": [
 					{ "col": 1, "range": [3, 4] },
 					{ "col": 2, "equals": [
@@ -1870,11 +1935,22 @@
 					{ "col": 11, "range": [0, 1], "labels": ["F component", "No F component"]},
 					{ "col": 12, "range": [0, 1], "labels": ["F/DF component", "No F/DF component"]}
 				],
-				"types": [ null, "num", null, null, null, 0, "num", "num", "num", "num", "num", "num", "num" ],
-				"alignments": [ true, null, null, null, null, true, null, null, null, null, null, null, null ],
-				"sizes": [ 8.5, 3.5, 7, 7, 6, 14.75, 2, 2, 2, 3, 2, 2, 3 ],
+				"columns": [
+					{ "header": "Spell", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "Level", "type": "num", "size": 3.5 },
+					{ "header": "School", "size": 7 },
+					{ "header": "Subschool", "size": 7 },
+					{ "header": "Descriptor", "size": 6 },
+					{ "header": "Description", "unsortable": true, "size": 14.75, "align": "start" },
+					{ "header": "V", "type": "num", "size": 2 },
+					{ "header": "S", "type": "num", "size": 2 },
+					{ "header": "M", "type": "num", "size": 2 },
+					{ "header": "M/DF", "type": "num", "size": 3 },
+					{ "header": "DF", "type": "num", "size": 2 },
+					{ "header": "F", "type": "num", "size": 2 },
+					{ "header": "F/DF", "type": "num", "size": 3 }
+				],
 				"initialColumn": 1,
-				"ripples": [0],
 				"data": [
 					[ "{spell/Accept Affliction}", 3, "conjuration", "healing", "good", "Transfer the effects of afflictions from someone else to yourself.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 0, "M/DF" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
 					[ "{spell/Adjustable Disguise}", 3, "illusion", "glamer", null, "As disguise self, but you can change the disguise as a swift action.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
@@ -2184,7 +2260,6 @@
 		"tables": [
 			{
 				"id": "bard spells table 5 6",
-				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description", "V", "S", "M", "M/DF", "DF", "F", "F/DF" ],
 				"filter": [
 					{ "col": 1, "range": [5, 6] },
 					{ "col": 2, "equals": [
@@ -2205,11 +2280,22 @@
 					{ "col": 11, "range": [0, 1], "labels": ["F component", "No F component"]},
 					{ "col": 12, "range": [0, 1], "labels": ["F/DF component", "No F/DF component"]}
 				],
-				"types": [ null, "num", null, null, null, 0, "num", "num", "num", "num", "num", "num", "num" ],
-				"alignments": [ true, null, null, null, null, true, null, null, null, null, null, null, null ],
-				"sizes": [ 8.5, 3.5, 7, 7, 6, 14.75, 2, 2, 2, 3, 2, 2, 3 ],
+				"columns": [
+					{ "header": "Spell", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "Level", "type": "num", "size": 3.5 },
+					{ "header": "School", "size": 7 },
+					{ "header": "Subschool", "size": 7 },
+					{ "header": "Descriptor", "size": 6 },
+					{ "header": "Description", "unsortable": true, "size": 14.75, "align": "start" },
+					{ "header": "V", "type": "num", "size": 2 },
+					{ "header": "S", "type": "num", "size": 2 },
+					{ "header": "M", "type": "num", "size": 2 },
+					{ "header": "M/DF", "type": "num", "size": 3 },
+					{ "header": "DF", "type": "num", "size": 2 },
+					{ "header": "F", "type": "num", "size": 2 },
+					{ "header": "F/DF", "type": "num", "size": 3 }
+				],
 				"initialColumn": 1,
-				"ripples": [0],
 				"data": [
 					[ "{spell/Archon's Trumpet}", 5, "evocation", null, "good, sonic", "Paralyze all creatures in the area with the sound of a booming trumpet.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
 					[ "{spell/Arid Refuge}", 5, "conjuration", "creation", null, "Creates a safe house for air-breathing creatures underwater", [ 0, "V" ], [ 0, "S" ], [ 0, "M" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
@@ -2368,11 +2454,12 @@
 		"tables": [
 			{
 				"id": "occult rituals table",
-				"headers": [ "Ritual", "Level", "School", "Description" ],
-				"types": [ null, "num", null, 0 ],
-				"alignments": [ true, null, null, true ],
-				"sizes": [ 8.5, 3.5, 7, 14.75 ],
-				"ripples": [0],
+				"columns": [
+					{ "header": "Ritual", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "Level", "type": "num", "size": 3.5 },
+					{ "header": "School", "size": 7 },
+					{ "header": "Description", "unsortable": true, "size": 14.75, "align": "start" }
+				],
 				"data": [
 					[ "{spell/Analytical Congress}", 4, "transmutation", "Grant a group an increased capacity to research and learn" ],
 					[ "{spell/Avoidance Ward}", 4, "enchantment", "Prevents creatures of a specific type or subtype from interacting with a specific door." ],

@@ -186,10 +186,11 @@
 		"tables": [
 			{
 				"id": "magus arcana",
-				"headers": [ "Arcana", "Level", "Description" ],
-				"ripples": [0],
-				"types": [ null, "num", null ],
-				"alignments": [ true, null, true ],
+				"columns": [
+					{ "header": "Arcana", "ripple": true, "align": "start" },
+					{ "header": "Level", "type": "num" },
+					{ "header": "Description", "align": "start" }
+				],
 				"data": [
 					[ "{arcana/Accurate Strike}", [ 9, "9th" ], "Your melee attacks become melee touch attacks." ],
 					[ "{arcana/Aquatic Agility}", [ 6, "6th" ], "Gain water breathing and ignore the effects of rough water." ],

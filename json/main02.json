@@ -119,13 +119,14 @@
 		"searchgroup": "feat",
 		"tables": [
 			{
-				"headers": [ "Feat", "Prerequisites", "Description" ],
-				"types": [ null, null, 0 ],
+				"id": "General feats table",
+				"columns": [
+					{ "header": "Feat", "size": 8.5, "ripple": true },
+					{ "header": "Prerequisites", "size": 8.5 },
+					{ "header": "Description", "unsortable": true, "size": 13.25 }
+				],
 				"initialColumn": 0,
 				"nullValue": "",
-				"ripples": [0],
-				"id": "General feats table",
-				"sizes": [ 8.5, 8.5, 13.25 ],
 				"data": [
 					[ "{feat/Aberrant Tumor}", "Aberrant bloodline.", "Gain a tumor familiar" ],
 					[ "{feat/Aberration-Bane Caster}", "Caster level 4th, gillman, favored enemy (aberrations) class feature.", "Increase the save DC of your spells that target aberrations" ],
@@ -1744,13 +1745,14 @@
 		],
 		"tables": [
 			{
-				"headers": [ "Feat", "Prerequisites", "Description" ],
-				"types": [ null, null, 0 ],
+				"id": "Critical feats table",
+				"columns": [
+					{ "header": "Feat", "size": 8.5, "ripple": true },
+					{ "header": "Prerequisites", "size": 8.5 },
+					{ "header": "Description", "unsortable": true, "size": 13.25 }
+				],
 				"initialColumn": 0,
 				"nullValue": "",
-				"ripples": [0],
-				"sizes": [ 8.5, 8.5, 13.25 ],
-				"id": "Critical feats table",
 				"data": [
 					[ "{feat/Accursed Critical}", "{feat/Critical Focus}, ability to cast bestow curse or major curse, caster level 9th.", "Confirm a critical hit and cast a curse as part of the attack" ],
 					[ "{feat/Banishing Critical}", "{feat/Arcane Strike} or {feat/Disruptive}; Spellcraft 8 ranks; arcane pool class feature.", "Dismiss a summoned creature with a critical hit" ],

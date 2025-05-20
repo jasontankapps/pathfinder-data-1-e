@@ -46,11 +46,15 @@
 		"tables": [
 			{
 				"id": "all deities and faiths table",
-				"headers": [ "Deity/Faith", "Pantheon(s)", "Alignment", "Areas of Concern", "Domains", "Subdomains", "Favored Weapon" ],
-				"types": [ null, null, "num", null, null, null, null ],
-				"alignments": [ null, true, null, true, true, true, true ],
-				"sizes": [ 7, 7, 5.5, 7, 11.5, 8.5, 7 ],
-				"ripples": [0],
+				"columns": [
+					{ "header": "Deity/Faith", "size": 7, "ripple": true },
+					{ "header": "Pantheon(s)", "size": 7, "align": "start" },
+					{ "header": "Alignment", "type": "num", "size": 5.5 },
+					{ "header": "Areas of Concern", "size": 7, "align": "start" },
+					{ "header": "Domains", "size": 11.5, "align": "start" },
+					{ "header": "Subdomains", "size": 8.5, "align": "start" },
+					{ "header": "Favored Weapon", "size": 7, "align": "start" }
+				],
 				"filter": [
 					{ "col": 2, "range": [ 0, 8 ], "labels": [ "LG", "LN", "LE", "NG", "N", "NE", "CG", "CN", "CE" ] },
 					{ "col": 1, "has": [

@@ -14,7 +14,6 @@
 		"tables": [
 			{
 				"id": "cr 5 to 1/2 monsters table",
-				"headers": [ "Monster", "CR", "Type", "Size", "Alignment", "Description", "Str", "Dex", "Con", "Int", "Wis", "Cha", "BAB", "CMB", "CMD" ],
 				"filter": [
 					{ "col": 1, "equals": [5, 6] },
 					{
@@ -32,10 +31,23 @@
 						"labels": ["LG", "LN", "LE", "NG", "N", "NE", "CG", "CN", "CE"]
 					}
 				],
-				"types": [ null, "num", null, "num", "num", 0, "num", "num", "num", "num", "num", "num", "num", "num", "num" ],
-				"alignments": [ true, null, null, null, null, true, null, null, null, null, null, null, null, null, null ],
-				"sizes": [ 8.5, 3.5, 5.5, 6, 5.5, 14.75, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5 ],
-				"ripples": [0],
+				"columns": [
+					{ "header": "Monster", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "CR", "type": "num", "size": 3.5 },
+					{ "header": "Type", "size": 5.5 },
+					{ "header": "Size", "type": "num", "size": 6 },
+					{ "header": "Alignment", "type": "num", "size": 5.5 },
+					{ "header": "Description", "unsortable": true, "size": 14.75, "align": "start" },
+					{ "header": "Str", "type": "num", "size": 3.5 },
+					{ "header": "Dex", "type": "num", "size": 3.5 },
+					{ "header": "Con", "type": "num", "size": 3.5 },
+					{ "header": "Int", "type": "num", "size": 3.5 },
+					{ "header": "Wis", "type": "num", "size": 3.5 },
+					{ "header": "Cha", "type": "num", "size": 3.5 },
+					{ "header": "BAB", "type": "num", "size": 3.5 },
+					{ "header": "CMB", "type": "num", "size": 3.5 },
+					{ "header": "CMD", "type": "num", "size": 3.5 }
+				],
 				"data": [
 					[ "{monster/Azata, Nualidu}", 5, "outsider", [ 4, "medium" ], [ 6, "CG" ], "Clear, flowing water forms the arms and the lower half of this angelic, elflike being.", 19, 16, 16, 13, 14, 15, 6, 9, 24 ],
 					[ "{monster/Azata, Yamah}", 5, "outsider", [ 4, "medium" ], [ 6, "CG" ], "This blue-skinned woman has blue-and-white butterfly wings. Her black hair sparkles like a starlit sky.", 17, 20, 14, 13, 15, 20, 7, 10, 25 ],
@@ -426,7 +438,6 @@
 		"tables": [
 			{
 				"id": "cr 7 to 8 monsters table",
-				"headers": [ "Monster", "CR", "Type", "Size", "Alignment", "Description", "Str", "Dex", "Con", "Int", "Wis", "Cha", "BAB", "CMB", "CMD" ],
 				"filter": [
 					{ "col": 1, "equals": [7, 8] },
 					{
@@ -444,10 +455,23 @@
 						"labels": ["LG", "LN", "LE", "NG", "N", "NE", "CG", "CN", "CE"]
 					}
 				],
-				"types": [ null, "num", null, "num", "num", 0, "num", "num", "num", "num", "num", "num", "num", "num", "num" ],
-				"alignments": [ true, null, null, null, null, true, null, null, null, null, null, null, null, null, null ],
-				"sizes": [ 8.5, 3.5, 5.5, 6, 5.5, 14.75, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5 ],
-				"ripples": [0],
+				"columns": [
+					{ "header": "Monster", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "CR", "type": "num", "size": 3.5 },
+					{ "header": "Type", "size": 5.5 },
+					{ "header": "Size", "type": "num", "size": 6 },
+					{ "header": "Alignment", "type": "num", "size": 5.5 },
+					{ "header": "Description", "unsortable": true, "size": 14.75, "align": "start" },
+					{ "header": "Str", "type": "num", "size": 3.5 },
+					{ "header": "Dex", "type": "num", "size": 3.5 },
+					{ "header": "Con", "type": "num", "size": 3.5 },
+					{ "header": "Int", "type": "num", "size": 3.5 },
+					{ "header": "Wis", "type": "num", "size": 3.5 },
+					{ "header": "Cha", "type": "num", "size": 3.5 },
+					{ "header": "BAB", "type": "num", "size": 3.5 },
+					{ "header": "CMB", "type": "num", "size": 3.5 },
+					{ "header": "CMD", "type": "num", "size": 3.5 }
+				],
 				"data": [
 					[ "{monster/Azata, Lillend}", 7, "outsider", [ 5, "large" ], [ 6, "CG" ], "This creature has the body of a seductive, winged elven woman from the waist up and that of a snake from the waist down.", 20, 17, 21, 14, 16, 19, 7, 13, 26 ],
 					[ "{monster/Barghest, Greater}", 7, "outsider", [ 5, "large" ], [ 2, "LE" ], "This snarling, canine beast pads forward on all fours, its slender front limbs looking more like hands than a wolf's paws.", 23, 15, 19, 18, 18, 18, 9, 16, 28 ],
@@ -809,7 +833,6 @@
 		"tables": [
 			{
 				"id": "cr 9 to 11 monsters table",
-				"headers": [ "Monster", "CR", "Type", "Size", "Alignment", "Description", "Str", "Dex", "Con", "Int", "Wis", "Cha", "BAB", "CMB", "CMD" ],
 				"filter": [
 					{ "col": 1, "equals": [9, 10, 11] },
 					{
@@ -827,10 +850,23 @@
 						"labels": ["LG", "LN", "LE", "NG", "N", "NE", "CG", "CN", "CE"]
 					}
 				],
-				"types": [ null, "num", null, "num", "num", 0, "num", "num", "num", "num", "num", "num", "num", "num", "num" ],
-				"alignments": [ true, null, null, null, null, true, null, null, null, null, null, null, null, null, null ],
-				"sizes": [ 8.5, 3.5, 5.5, 6, 5.5, 14.75, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5 ],
-				"ripples": [0],
+				"columns": [
+					{ "header": "Monster", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "CR", "type": "num", "size": 3.5 },
+					{ "header": "Type", "size": 5.5 },
+					{ "header": "Size", "type": "num", "size": 6 },
+					{ "header": "Alignment", "type": "num", "size": 5.5 },
+					{ "header": "Description", "unsortable": true, "size": 14.75, "align": "start" },
+					{ "header": "Str", "type": "num", "size": 3.5 },
+					{ "header": "Dex", "type": "num", "size": 3.5 },
+					{ "header": "Con", "type": "num", "size": 3.5 },
+					{ "header": "Int", "type": "num", "size": 3.5 },
+					{ "header": "Wis", "type": "num", "size": 3.5 },
+					{ "header": "Cha", "type": "num", "size": 3.5 },
+					{ "header": "BAB", "type": "num", "size": 3.5 },
+					{ "header": "CMB", "type": "num", "size": 3.5 },
+					{ "header": "CMD", "type": "num", "size": 3.5 }
+				],
 				"data": [
 					[ "{monster/Angazhani (High Girallon)}", 9, "magical beast", [ 5, "large" ], [ 8, "CE" ], "This horned, albino ape has four arms and thick white fur braided with bone fetishes and trophies. It carries a strangely shaped throwing axe.", 21, 17, 18, 12, 14, 14, 12, 18, 31 ],
 					[ "{monster/Baykok}", 9, "undead", [ 4, "medium" ], [ 5, "NE" ], "This howling corpse swoops through the air with hideously elongated legs and a bow made of bone.", 17, 22, [ -1, "&mdash;" ], 11, 10, 15, 11, 14, 31 ],

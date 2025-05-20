@@ -62,17 +62,23 @@
 		],
 		"tables": [
 			{
-				"headers": [ "Trait", "Type", "Campaign", "Creature", "Region", "Faith", "Faction/Group", "Alignment", "Other" ],
-				"types": [ null, null, null, null, null, null, null, null, null ],
+				"id": "all traits table",
+				"columns": [
+					{ "header": "Trait", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "Type", "size": 6 },
+					{ "header": "Campaign", "size": 7, "align": "start" },
+					{ "header": "Creature", "size": 7, "align": "start" },
+					{ "header": "Region", "size": 7, "align": "start" },
+					{ "header": "Faith", "size": 7, "align": "start" },
+					{ "header": "Faction/Group", "size": 7, "align": "start" },
+					{ "header": "Alignment", "size": 5.5, "align": "start" },
+					{ "header": "Other", "size": 8.5, "align": "start" }
+				],
 				"initialColumn": 0,
 				"nullValue": "",
-				"alignments": [ true, null, true, true, true, true, true, true, true ],
-				"ripples": [0],
-				"sizes": [ 8.5, 6, 7, 7, 7, 7, 7, 5.5, 8.5 ],
 				"filter": [
 					{ "col": 1, "equals": [ "Campaign", "Combat", "Cosmic", "Drawback", "Equipment", "Faith", "Family", "Magic", "Mount", "Race", "Regional", "Religion", "Social" ] }
 				],
-				"id": "all traits table",
 				"data": [
 					[ "{trait/A Shining Beacon}", "Religion", null, null, null, "Iomedae", null, null, null ],
 					[ "{trait/Aballonian Resilience}", "Regional", null, null, "Aballon", null, null, null, null ],

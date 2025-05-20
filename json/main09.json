@@ -46,7 +46,6 @@
 		"tables": [
 			{
 				"id": "arcanist spells table 0 1",
-				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description", "V", "S", "M", "M/DF", "DF", "F", "F/DF" ],
 				"filter": [
 					{ "col": 1, "range": [0, 1] },
 					{ "col": 2, "equals": [
@@ -68,11 +67,22 @@
 					{ "col": 11, "range": [0, 1], "labels": ["F component", "No F component"]},
 					{ "col": 12, "range": [0, 1], "labels": ["F/DF component", "No F/DF component"]}
 				],
-				"types": [ null, "num", null, null, null, 0, "num", "num", "num", "num", "num", "num", "num" ],
-				"alignments": [ true, null, null, null, null, true, null, null, null, null, null, null, null ],
+				"columns": [
+					{ "header": "Spell", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "Level", "type": "num", "size": 3.5 },
+					{ "header": "School", "size": 7 },
+					{ "header": "Subschool", "size": 7 },
+					{ "header": "Descriptor", "size": 6 },
+					{ "header": "Description", "unsortable": true, "size": 14.75, "align": "start" },
+					{ "header": "V", "type": "num", "size": 2 },
+					{ "header": "S", "type": "num", "size": 2 },
+					{ "header": "M", "type": "num", "size": 2 },
+					{ "header": "M/DF", "type": "num", "size": 3 },
+					{ "header": "DF", "type": "num", "size": 2 },
+					{ "header": "F", "type": "num", "size": 2 },
+					{ "header": "F/DF", "type": "num", "size": 3 }
+				],
 				"initialColumn": 1,
-				"sizes": [ 8.5, 3.5, 7, 7, 6, 14.75, 2, 2, 2, 3, 2, 2, 3 ],
-				"ripples": [0],
 				"data": [
 					[ "{spell/Acid Splash}", 0, "conjuration", "creation", "acid", "Orb deals 1d3 acid damage.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
 					[ "{spell/Arcane Mark}", 0, "universal", null, null, "Inscribes a personal rune on an object or creature (visible or invisible).", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
@@ -385,7 +395,6 @@
 		"tables": [
 			{
 				"id": "arcanist spells table 2",
-				"headers": [ "Spell", "School", "Subschool", "Descriptor", "Description", "V", "S", "M", "M/DF", "DF", "F", "F/DF" ],
 				"filter": [
 					{ "col": 1, "equals": [
 						"abjuration",
@@ -405,11 +414,21 @@
 					{ "col": 10, "range": [0, 1], "labels": ["F component", "No F component"]},
 					{ "col": 11, "range": [0, 1], "labels": ["F/DF component", "No F/DF component"]}
 				],
-				"types": [ null, null, null, null, 0, "num", "num", "num", "num", "num", "num", "num" ],
-				"alignments": [ true, null, null, null, true, null, null, null, null, null, null, null ],
+				"columns": [
+					{ "header": "Spell", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "School", "size": 7 },
+					{ "header": "Subschool", "size": 7 },
+					{ "header": "Descriptor", "size": 6 },
+					{ "header": "Description", "unsortable": true, "size": 14.75, "align": "start" },
+					{ "header": "V", "type": "num", "size": 2 },
+					{ "header": "S", "type": "num", "size": 2 },
+					{ "header": "M", "type": "num", "size": 2 },
+					{ "header": "M/DF", "type": "num", "size": 3 },
+					{ "header": "DF", "type": "num", "size": 2 },
+					{ "header": "F", "type": "num", "size": 2 },
+					{ "header": "F/DF", "type": "num", "size": 3 }
+				],
 				"initialColumn": 1,
-				"sizes": [ 8.5, 7, 7, 6, 14.75, 2, 2, 2, 3, 2, 2, 3 ],
-				"ripples": [0],
 				"data": [
 					[ "{spell/Aboleth's Lung}", "transmutation", null, null, "Allow the target to breathe water at the cost of no longer being able to breathe air.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 0, "M/DF" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
 					[ "{spell/Accelerate Poison}", "transmutation", null, "poison", "Hastens targeted poison's onset.", [ 0, "V" ], [ 0, "S" ], [ 0, "M" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
@@ -770,7 +789,6 @@
 		"tables": [
 			{
 				"id": "arcanist spells table 3",
-				"headers": [ "Spell", "School", "Subschool", "Descriptor", "Description", "V", "S", "M", "M/DF", "DF", "F", "F/DF" ],
 				"filter": [
 					{ "col": 1, "equals": [
 						"universal",
@@ -791,11 +809,21 @@
 					{ "col": 10, "range": [0, 1], "labels": ["F component", "No F component"]},
 					{ "col": 11, "range": [0, 1], "labels": ["F/DF component", "No F/DF component"]}
 				],
-				"types": [ null, null, null, null, 0, "num", "num", "num", "num", "num", "num", "num" ],
-				"alignments": [ true, null, null, null, true, null, null, null, null, null, null, null ],
+				"columns": [
+					{ "header": "Spell", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "School", "size": 7 },
+					{ "header": "Subschool", "size": 7 },
+					{ "header": "Descriptor", "size": 6 },
+					{ "header": "Description", "unsortable": true, "size": 14.75, "align": "start" },
+					{ "header": "V", "type": "num", "size": 2 },
+					{ "header": "S", "type": "num", "size": 2 },
+					{ "header": "M", "type": "num", "size": 2 },
+					{ "header": "M/DF", "type": "num", "size": 3 },
+					{ "header": "DF", "type": "num", "size": 2 },
+					{ "header": "F", "type": "num", "size": 2 },
+					{ "header": "F/DF", "type": "num", "size": 3 }
+				],
 				"initialColumn": 1,
-				"sizes": [ 8.5, 7, 7, 6, 14.75, 2, 2, 2, 3, 2, 2, 3 ],
-				"ripples": [0],
 				"data": [
 					[ "{spell/Ablative Barrier}", "conjuration", "creation", "force", "Surrounds the target with layers of force.", [ 0, "V" ], [ 0, "S" ], [ 0, "M" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
 					[ "{spell/Ablative Sphere}", "abjuration", null, null, "Create a protective sphere around yourself, providing you with improved cover.", [ 0, "V" ], [ 0, "S" ], [ 0, "M" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
@@ -1161,7 +1189,6 @@
 		"tables": [
 			{
 				"id": "arcanist spells table 4",
-				"headers": [ "Spell", "School", "Subschool", "Descriptor", "Description", "V", "S", "M", "M/DF", "DF", "F", "F/DF" ],
 				"filter": [
 					{ "col": 1, "equals": [
 						"abjuration",
@@ -1181,11 +1208,21 @@
 					{ "col": 10, "range": [0, 1], "labels": ["F component", "No F component"]},
 					{ "col": 11, "range": [0, 1], "labels": ["F/DF component", "No F/DF component"]}
 				],
-				"types": [ null, null, null, null, 0, "num", "num", "num", "num", "num", "num", "num" ],
-				"alignments": [ true, null, null, null, true, null, null, null, null, null, null, null ],
+				"columns": [
+					{ "header": "Spell", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "School", "size": 7 },
+					{ "header": "Subschool", "size": 7 },
+					{ "header": "Descriptor", "size": 6 },
+					{ "header": "Description", "unsortable": true, "size": 14.75, "align": "start" },
+					{ "header": "V", "type": "num", "size": 2 },
+					{ "header": "S", "type": "num", "size": 2 },
+					{ "header": "M", "type": "num", "size": 2 },
+					{ "header": "M/DF", "type": "num", "size": 3 },
+					{ "header": "DF", "type": "num", "size": 2 },
+					{ "header": "F", "type": "num", "size": 2 },
+					{ "header": "F/DF", "type": "num", "size": 3 }
+				],
 				"initialColumn": 1,
-				"sizes": [ 8.5, 7, 7, 6, 14.75, 2, 2, 2, 3, 2, 2, 3 ],
-				"ripples": [0],
 				"data": [
 					[ "{spell/Absorb Rune I}", "abjuration", null, null, "Absorb a magic rune up to 3rd level, which can be moved or dispelled", [ 0, "V" ], [ 0, "S" ], [ 0, "M" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
 					[ "{spell/Absorbing Barrier}", "abjuration", null, null, "Protect an area from ranged attacks", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 0, "F" ], [ 1, "" ] ],
@@ -1500,7 +1537,6 @@
 		"tables": [
 			{
 				"id": "arcanist spells table 5",
-				"headers": [ "Spell", "School", "Subschool", "Descriptor", "Description", "V", "S", "M", "M/DF", "DF", "F", "F/DF" ],
 				"filter": [
 					{ "col": 1, "equals": [
 						"universal",
@@ -1521,11 +1557,21 @@
 					{ "col": 10, "range": [0, 1], "labels": ["F component", "No F component"]},
 					{ "col": 11, "range": [0, 1], "labels": ["F/DF component", "No F/DF component"]}
 				],
-				"types": [ null, null, null, null, 0, "num", "num", "num", "num", "num", "num", "num" ],
-				"alignments": [ true, null, null, null, true, null, null, null, null, null, null, null ],
+				"columns": [
+					{ "header": "Spell", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "School", "size": 7 },
+					{ "header": "Subschool", "size": 7 },
+					{ "header": "Descriptor", "size": 6 },
+					{ "header": "Description", "unsortable": true, "size": 14.75, "align": "start" },
+					{ "header": "V", "type": "num", "size": 2 },
+					{ "header": "S", "type": "num", "size": 2 },
+					{ "header": "M", "type": "num", "size": 2 },
+					{ "header": "M/DF", "type": "num", "size": 3 },
+					{ "header": "DF", "type": "num", "size": 2 },
+					{ "header": "F", "type": "num", "size": 2 },
+					{ "header": "F/DF", "type": "num", "size": 3 }
+				],
 				"initialColumn": 1,
-				"sizes": [ 8.5, 7, 7, 6, 14.75, 2, 2, 2, 3, 2, 2, 3 ],
-				"ripples": [0],
 				"data": [
 					[ "{spell/Absorb Toxicity}", "necromancy", null, null, "You become immune to diseases and toxins, absorb one, and then spread it to others.", [ 0, "V" ], [ 0, "S" ], [ 0, "M" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
 					[ "{spell/Acidic Spray}", "conjuration", "creation", "acid", "1d6/level acid damage plus 1 round of acid.", [ 0, "V" ], [ 0, "S" ], [ 0, "M" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
@@ -1787,7 +1833,6 @@
 		"tables": [
 			{
 				"id": "arcanist spells table 6 7",
-				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description", "V", "S", "M", "M/DF", "DF", "F", "F/DF" ],
 				"filter": [
 					{ "col": 1, "range": [6, 7] },
 					{ "col": 2, "equals": [
@@ -1809,11 +1854,22 @@
 					{ "col": 11, "range": [0, 1], "labels": ["F component", "No F component"]},
 					{ "col": 12, "range": [0, 1], "labels": ["F/DF component", "No F/DF component"]}
 				],
-				"types": [ null, "num", null, null, null, 0, "num", "num", "num", "num", "num", "num", "num" ],
-				"alignments": [ true, null, null, null, null, true, null, null, null, null, null, null, null ],
+				"columns": [
+					{ "header": "Spell", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "Level", "type": "num", "size": 3.5 },
+					{ "header": "School", "size": 7 },
+					{ "header": "Subschool", "size": 7 },
+					{ "header": "Descriptor", "size": 6 },
+					{ "header": "Description", "unsortable": true, "size": 14.75, "align": "start" },
+					{ "header": "V", "type": "num", "size": 2 },
+					{ "header": "S", "type": "num", "size": 2 },
+					{ "header": "M", "type": "num", "size": 2 },
+					{ "header": "M/DF", "type": "num", "size": 3 },
+					{ "header": "DF", "type": "num", "size": 2 },
+					{ "header": "F", "type": "num", "size": 2 },
+					{ "header": "F/DF", "type": "num", "size": 3 }
+				],
 				"initialColumn": 1,
-				"sizes": [ 8.5, 3.5, 7, 7, 6, 14.75, 2, 2, 2, 3, 2, 2, 3 ],
-				"ripples": [0],
 				"data": [
 					[ "{spell/Absorb Rune II}", 6, "abjuration", null, null, "As absorb rune I, but affecting a rune up to 5th level", [ 0, "V" ], [ 0, "S" ], [ 0, "M" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
 					[ "{spell/Acid Fog}", 6, "conjuration", "creation", "acid", "Fog deals acid damage.", [ 0, "V" ], [ 0, "S" ], [ 0, "M" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
@@ -2134,7 +2190,6 @@
 		"tables": [
 			{
 				"id": "arcanist spells table 8 9",
-				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description", "V", "S", "M", "M/DF", "DF", "F", "F/DF" ],
 				"filter": [
 					{ "col": 1, "range": [8, 9] },
 					{ "col": 2, "equals": [
@@ -2155,11 +2210,22 @@
 					{ "col": 11, "range": [0, 1], "labels": ["F component", "No F component"]},
 					{ "col": 12, "range": [0, 1], "labels": ["F/DF component", "No F/DF component"]}
 				],
-				"types": [ null, "num", null, null, null, 0, 0, "num", "num", "num", "num", "num", "num" ],
-				"alignments": [ true, null, null, null, null, true, null, null, null, null, null, null, null ],
+				"columns": [
+					{ "header": "Spell", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "Level", "type": "num", "size": 3.5 },
+					{ "header": "School", "size": 7 },
+					{ "header": "Subschool", "size": 7 },
+					{ "header": "Descriptor", "size": 6 },
+					{ "header": "Description", "unsortable": true, "size": 14.75, "align": "start" },
+					{ "header": "V", "unsortable": true, "size": 2 },
+					{ "header": "S", "type": "num", "size": 2 },
+					{ "header": "M", "type": "num", "size": 2 },
+					{ "header": "M/DF", "type": "num", "size": 3 },
+					{ "header": "DF", "type": "num", "size": 2 },
+					{ "header": "F", "type": "num", "size": 2 },
+					{ "header": "F/DF", "type": "num", "size": 3 }
+				],
 				"initialColumn": 1,
-				"sizes": [ 8.5, 3.5, 7, 7, 6, 14.75, 2, 2, 2, 3, 2, 2, 3 ],
-				"ripples": [0],
 				"data": [
 					[ "{spell/Angelic Aspect, Greater}", 8, "transmutation", null, "good", "As angelic aspect, lesser except granting the greatest qualities of angelic creatures.", "V", [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
 					[ "{spell/Antipathy}", 8, "enchantment", "compulsion", "emotion, mind-affecting", "Object or location affected by spell repels certain creatures.", "V", [ 0, "S" ], [ 1, "" ], [ 0, "M/DF" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],

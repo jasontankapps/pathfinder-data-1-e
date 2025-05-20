@@ -14,13 +14,14 @@
 		],
 		"tables": [
 			{
-				"headers": [ "Feat", "Prerequisites", "Description" ],
-				"types": [ null, null, 0 ],
-				"initialColumn": 0,
-				"nullValue": "",
 				"id": "Combat feats table",
-				"sizes": [ 8.5, 8.5, 13.25 ],
-				"ripples": [0],
+				"columns": [
+					{ "header": "Feat", "size": 8.5, "ripple": true },
+					{ "header": "Prerequisites", "size": 8.5 },
+					{ "header": "Description", "unsortable": true, "size": 13.25 }
+				],
+				"nullValue": "",
+				"initialColumn": 0,
 				"data": [
 					[ "{feat/Acrobatic Spellcaster}", "{feat/Combat Casting}, {feat/Skill Focus/ (Acrobatics)}.", "Avoid attacks of opportunity from casting with Acrobatics" ],
 					[ "{feat/Adder Strike}", "Poison use class feature, Craft (alchemy) 1 rank, {feat/Improved Unarmed Strike}.", "May apply contact poison to unarmed strikes" ],

@@ -16,11 +16,14 @@
 		"tables": [
 			{
 				"id": "magic weapon table",
-				"headers": [ "Weapon", "Cost", "Weight", "Slot", "Cursed?", "Intelligent?" ],
-				"types": [ null, "gp", "lbs", null, "num", "num" ],
-				"alignments": [ true, null, null, null, null, null ],
-				"sizes": [ 8.5, 5.5, 5.5, 5, 4, 6 ],
-				"ripples": [0],
+				"columns": [
+					{ "header": "Weapon", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "Cost", "type": "gp", "size": 5.5 },
+					{ "header": "Weight", "type": "lbs", "size": 5.5 },
+					{ "header": "Slot", "size": 5 },
+					{ "header": "Cursed?", "type": "num", "size": 4 },
+					{ "header": "Intelligent?", "type": "num", "size": 6 }
+				],
 				"data": [
 					[ "{magic-weapon/Darkness Arrow}", 80, 0, null, [ 1, "&mdash;" ], [ 1, "&mdash;" ] ],
 					[ "{magic-weapon/Vine Arrow}", 80, 0, null, [ 1, "&mdash;" ], [ 1, "&mdash;" ] ],
@@ -539,11 +542,12 @@
 		"tables": [
 			{
 				"id": "magic rings table",
-				"headers": [ "Ring", "Cost", "Weight", "Cursed?" ],
-				"types": [ null, "gp", "lbs", "num" ],
-				"alignments": [ true, null, null, null ],
-				"sizes": [ 8.5, 5.5, 4, 4 ],
-				"ripples": [0],
+				"columns": [
+					{ "header": "Ring", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "Cost", "type": "gp", "size": 5.5 },
+					{ "header": "Weight", "type": "lbs", "size": 4 },
+					{ "header": "Cursed?", "type": "num", "size": 4 }
+				],
 				"data": [
 					[ "{magic-ring/Dungeon Ring (prisoner's)}", 250, 0, [ 1, "No" ] ],
 					[ "{magic-ring/Ironbound Ring (Minion)}", 500, 0, [ 1, "No" ] ],
@@ -790,11 +794,12 @@
 		"tables": [
 			{
 				"id": "magic rods table",
-				"headers": [ "Rod", "Cost", "Weight", "Cursed?" ],
-				"types": [ null, "gp", "lbs", "num" ],
-				"alignments": [ true, null, null, null ],
-				"sizes": [ 8.5, 5.5, 5.5, 4 ],
-				"ripples": [0],
+				"columns": [
+					{ "header": "Rod", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "Cost", "type": "gp", "size": 5.5 },
+					{ "header": "Weight", "type": "lbs", "size": 5.5 },
+					{ "header": "Cursed?", "type": "num", "size": 4 }
+				],
 				"data": [
 					[ "{magic-rod/Rod of Metamagic, Eclipsed (lesser)}", 1500, 5, [ 1, "No" ] ],
 					[ "{magic-rod/Rod of Metamagic, Merciful (lesser)}", 1500, 5, [ 1, "No" ] ],
@@ -1475,11 +1480,11 @@
 		"tables": [
 			{
 				"id": "magic altars table",
-				"headers": [ "Altar", "Price", "Weight" ],
-				"types": [ null, "gp", "lbs" ],
-				"alignments": [ true, null, null ],
-				"sizes": [ 8.5, 5.5, 5.5 ],
-				"ripples": [0],
+				"columns": [
+					{ "header": "Altar", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "Price", "type": "gp", "size": 5.5 },
+					{ "header": "Weight", "type": "lbs", "size": 5.5 }
+				],
 				"data": [
 					[ "{magic-altar/Altar of Abadar}", 10000, 1000 ],
 					[ "{magic-altar/Altar of Asmodeus}", 16000, 750 ],
@@ -1508,11 +1513,11 @@
 			},
 			{
 				"id": "demonic implants table",
-				"headers": [ "Implant", "Price", "Weight" ],
-				"types": [ null, "gp", "lbs" ],
-				"alignments": [ true, null, null ],
-				"sizes": [ 8.5, 5.5, 5.5 ],
-				"ripples": [0],
+				"columns": [
+					{ "header": "Implant", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "Price", "type": "gp", "size": 5.5 },
+					{ "header": "Weight", "type": "lbs", "size": 5.5 }
+				],
 				"data": [
 					[ "{magic-implant/Baleful Eye}", 7000, 1 ],
 					[ "{magic-implant/Brazen Hooves}", 15000, 4 ],
@@ -1530,11 +1535,12 @@
 			},
 			{
 				"id": "fleshcraftings table",
-				"headers": [ "Favor", "Slot", "Price", "Elixir Price" ],
-				"types": [ null, null, "gp", "gp" ],
-				"alignments": [ true, null, null, null ],
-				"sizes": [ 8.5, 6, 5.5, 6 ],
-				"ripples": [0],
+				"columns": [
+					{ "header": "Favor", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "Slot", "size": 6 },
+					{ "header": "Price", "type": "gp", "size": 5.5 },
+					{ "header": "Elixir Price", "type": "gp", "size": 6 }
+				],
 				"data": [
 					[ "{magic-fleshcraft/Adhesive Slime}", "none", [1, "&mdash;"], 500 ],
 					[ "{magic-fleshcraft/Antennae}", "eyes", 70000, 1250 ],
@@ -1558,11 +1564,11 @@
 			},
 			{
 				"id": "magical plants table",
-				"headers": [ "Plant", "Price", "Weight" ],
-				"types": [ null, "gp", "lbs" ],
-				"alignments": [ true, null, null ],
-				"sizes": [ 8.5, 5.5, 5.5 ],
-				"ripples": [0],
+				"columns": [
+					{ "header": "Plant", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "Price", "type": "gp", "size": 5.5 },
+					{ "header": "Weight", "type": "lbs", "size": 5.5 }
+				],
 				"data": [
 					[ "{magic-plant/Acidic Lemon Tree}", 12000, 500 ],
 					[ "{magic-plant/Altitude Fern}", 12000, 50 ],
@@ -1590,10 +1596,10 @@
 			},
 			{
 				"id": "magic tattoos table",
-				"headers": [ "Tattoo", "Cost" ],
-				"types": [ null, "gp" ],
-				"alignments": [ true, null ],
-				"ripples": [0],
+				"columns": [
+					{ "header": "Tattoo", "ripple": true, "align": "start" },
+					{ "header": "Cost", "type": "gp" }
+				],
 				"data": [
 					[ "{magic-tattoo/Animal Totem Tattoo}", 12000 ],
 					[ "{magic-tattoo/Caster's Tattoo (Greater)}", 48000 ],
@@ -1634,11 +1640,13 @@
 		"tables": [
 			{
 				"id": "magic armor table",
-				"headers": [ "Armor", "Slot", "Cost", "Weight", "Cursed?" ],
-				"types": [ null, null, "gp", "lbs", "num" ],
-				"alignments": [ true, null, null, null, null ],
-				"sizes": [ 8.5, 6, 5.5, 5.5, 4 ],
-				"ripples": [0],
+				"columns": [
+					{ "header": "Armor", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "Slot", "size": 6 },
+					{ "header": "Cost", "type": "gp", "size": 5.5 },
+					{ "header": "Weight", "type": "lbs", "size": 5.5 },
+					{ "header": "Cursed?", "type": "num", "size": 4 }
+				],
 				"filter": [
 					{ "col": 1, "equals": [ "armor", "shield", "body", "head", "chest and neck" ] }
 				],
@@ -1908,11 +1916,13 @@
 		"tables": [
 			{
 				"id": "magic artifact table",
-				"headers": [ "Artifact", "Weight", "Slot", "Intelligent?", "Cursed?" ],
-				"ripples": [0],
-				"types": [ null, "lbs", null, "num", "num" ],
-				"alignments": [ true, null, null, null, null ],
-				"sizes": [ 8.5, 5.5, 6, 6, 4 ],
+				"columns": [
+					{ "header": "Artifact", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "Weight", "type": "lbs", "size": 5.5 },
+					{ "header": "Slot", "size": 6 },
+					{ "header": "Intelligent?", "type": "num", "size": 6 },
+					{ "header": "Cursed?", "type": "num", "size": 4 }
+				],
 				"data": [
 					[ "{magic-artifact/Abyssal Runestone}", 1, null, [ 1, "No" ], [ 1, "No" ] ],
 					[ "{magic-artifact/Aegis}", 15, "shield", [ 1, "No" ], [ 1, "No" ] ],
@@ -2463,11 +2473,15 @@
 		"tables": [
 			{
 				"id": "all magic enhancements table",
-				"headers": [ "Enhancement", "Base Price Modifier (bonus equivalent)", "Base Price Modifier (raw)", "Armor", "Shield", "Melee Weapon", "Ranged Weapon" ],
-				"types": [ null, "bonus", "gp+", "num", "num", "num", "num" ],
-				"alignments": [ true, null, null, null, null, null, null ],
-				"sizes": [ 8.5, 7, 7, 4, 4, 5, 5 ],
-				"ripples": [0],
+				"columns": [
+					{ "header": "Enhancement", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "Base Price Modifier (bonus equivalent)", "type": "bonus", "size": 7 },
+					{ "header": "Base Price Modifier (raw)", "type": "gp+", "size": 7 },
+					{ "header": "Armor", "type": "num", "size": 4 },
+					{ "header": "Shield", "type": "num", "size": 4 },
+					{ "header": "Melee Weapon", "type": "num", "size": 5 },
+					{ "header": "Ranged Weapon", "type": "num", "size": 5 }
+				],
 				"filter": [
 					{ "col": 3, "range": [0, 1], "labels": ["Yes", "No"] },
 					{ "col": 4, "range": [0, 1], "labels": ["Yes", "No"] },
@@ -2828,11 +2842,12 @@
 		"tables": [
 			{
 				"id": "magic staves table",
-				"headers": [ "Staff", "Cost", "Weight", "Cursed?" ],
-				"ripples": [0],
-				"types": [ null, "gp", "lbs", "num" ],
-				"alignments": [ true, null, null, null ],
-				"sizes": [ 8.5, 5.5, 4, 4 ],
+				"columns": [
+					{ "header": "Staff", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "Cost", "type": "gp", "size": 5.5 },
+					{ "header": "Weight", "type": "lbs", "size": 4 },
+					{ "header": "Cursed?", "type": "num", "size": 4 }
+				],
 				"data": [
 					[ "{magic-staff/Staff of Blessed Relief}", 7200, 5, [ 1, "No" ] ],
 					[ "{magic-staff/Staff of Minor Arcana}", 8000, 5, [ 1, "No" ] ],

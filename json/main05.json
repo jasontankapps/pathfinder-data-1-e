@@ -107,14 +107,21 @@
 		"tables": [
 			{
 				"id": "all armors",
-				"headers": [ "Name", "Type", "Cost", "Armor/Shield Bonus", "Max Dex Bonus", "Armor Check Penalty", "Arcane Spell Failure Chance", "Speed (30 ft.)", "Speed (20 ft.)", "Weight" ],
-				"types": [ null, "num", "gp", "bonus", "bonus", "num", "pct", null, null, "lbs" ],
-				"alignments": [ true, null, null, null, null, null, null, null, null, null ],
-				"sizes": [ 8.5, 5, 5.5, 7, 4, 4, 4, 4, 4, 5.5 ],
+				"columns": [
+					{ "header": "Name", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "Type", "type": "num", "size": 5 },
+					{ "header": "Cost", "type": "gp", "size": 5.5 },
+					{ "header": "Armor/Shield Bonus", "type": "bonus", "size": 7 },
+					{ "header": "Max Dex Bonus", "type": "bonus", "size": 4 },
+					{ "header": "Armor Check Penalty", "type": "num", "size": 4 },
+					{ "header": "Arcane Spell Failure Chance", "type": "pct", "size": 4 },
+					{ "header": "Speed (30 ft.)", "size": 4 },
+					{ "header": "Speed (20 ft.)", "size": 4 },
+					{ "header": "Weight", "type": "lbs", "size": 5.5 }
+				],
 				"filter": [
 					{ "col": 1, "range": [ 0, 3 ], "labels": [ "light", "medium", "heavy", "shield" ] }
 				],
-				"ripples": [0],
 				"data": [
 					[ "{eq-armor/armored kilt}", [ 0, "light" ], 20, 1, 6, 0, 0, "30 ft.", "20 ft.", 10 ],
 					[ "{eq-armor/haramaki}", [ 0, "light" ], 3, 1, 0, 0, 0, "30 ft.", "20 ft.", 1 ],
@@ -204,10 +211,11 @@
 		"tables": [
 			{
 				"id": "armor and shield enhancements",
-				"headers": [ "Name", "Cost Adjustment", "Weight Adjustment" ],
-				"types": [ null, "gp+", "lbs+" ],
-				"alignments": [ true, null, null ],
-				"ripples": [0],
+				"columns": [
+					{ "header": "Name", "ripple": true, "align": "start" },
+					{ "header": "Cost Adjustment", "type": "gp+" },
+					{ "header": "Weight Adjustment", "type": "lbs+" }
+				],
 				"data": [
 					[ "{eq-armorenh/armor spikes}", 50, 10 ],
 					[ "{eq-armorenh/armor vents}", 100, -5 ],
@@ -271,17 +279,26 @@
 		"tables": [
 			{
 				"id": "all weapons",
-				"headers": [ "Name", "Weapon Type", "Proficiency", "Cost", "Damage (S)", "Damage (M)", "Damage (Special)", "Critical", "Special", "Range", "Weight", "Dmg Type" ],
-				"types": [ null, "num", "num", "gp", "num", "num", null, "num", null, "num", "lbs", null ],
-				"alignments": [ true, null, null, null, null, null, null, null, null, null, null, null ],
-				"sizes": [ 8.5, 6, 6, 4, 5, 5, 5.5, 4, 5.5, 5.5, 4, 4 ],
+				"columns": [
+					{ "header": "Name", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "Weapon Type", "type": "num", "size": 6 },
+					{ "header": "Proficiency", "type": "num", "size": 6 },
+					{ "header": "Cost", "type": "gp", "size": 4 },
+					{ "header": "Damage (S)", "type": "num", "size": 5 },
+					{ "header": "Damage (M)", "type": "num", "size": 5 },
+					{ "header": "Damage (Special)", "size": 5.5 },
+					{ "header": "Critical", "type": "num", "size": 4 },
+					{ "header": "Special", "size": 5.5 },
+					{ "header": "Range", "type": "num", "size": 5.5 },
+					{ "header": "Weight", "type": "lbs", "size": 4 },
+					{ "header": "Dmg Type", "size": 4 }
+				],
 				"filter": [
 					{ "col": 1, "range": [ 0, 5 ], "labels": [ "light", "one-handed", "two-handed", "ranged", "ammunition", "alchemical" ] },
 					{ "col": 2, "range": [ 0, 4 ], "labels": [ "simple", "martial", "exotic", "special", "none" ] },
 					{ "col": 8, "has": [ "blocking", "brace", "deadly", "disarm", "distracting", "double", "fragile", "grapple", "improvised", "monk", "nonlethal", "performance", "reach", "sunder", "trip" ] },
 					{ "col": 11, "has": [ "B", "P", "S" ], "labels": [ "bludgeoning", "piercing", "slashing" ] }
 				],
-				"ripples": [0],
 				"data": [
 					[ "{eq-weapon/battle aspergillum}", [ 0, "light" ], [ 0, "simple" ], 5, [ 2.5, "1d4" ], [ 3.5, "1d6" ], null, [ 99, "&mdash;" ], "see text", [ 999, "&mdash;" ], 4, "B" ],
 					[ "{eq-weapon/brass knife}", [ 0, "light" ], [ 0, "simple" ], 2, [ 2, "1d3" ], [ 2.5, "1d4" ], null, [ 2.1, "19-20" ], "fragile", [ 10, "10 ft." ], 1, "P or S" ],
@@ -732,16 +749,23 @@
 		"tables": [
 			{
 				"id": "light weapons table",
-				"headers": [ "Name", "Proficiency", "Cost", "Damage (S)", "Damage (M)", "Critical", "Special", "Range", "Weight", "Dmg Type" ],
-				"types": [ null, "num", "gp", "num", "num", "num", null, "num", "lbs", null ],
-				"alignments": [ true, null, null, null, null, null, null, null, null, null ],
-				"sizes": [ 8.5, 6, 4, 5, 5, 4, 5.5, 5.5, 4, 4 ],
+				"columns": [
+					{ "header": "Name", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "Proficiency", "type": "num", "size": 6 },
+					{ "header": "Cost", "type": "gp", "size": 4 },
+					{ "header": "Damage (S)", "type": "num", "size": 5 },
+					{ "header": "Damage (M)", "type": "num", "size": 5 },
+					{ "header": "Critical", "type": "num", "size": 4 },
+					{ "header": "Special", "size": 5.5 },
+					{ "header": "Range", "type": "num", "size": 5.5 },
+					{ "header": "Weight", "type": "lbs", "size": 4 },
+					{ "header": "Dmg Type", "size": 4 }
+				],
 				"filter": [
 					{ "col": 1, "range": [ 0, 3 ], "labels": [ "simple", "martial", "exotic", "special" ] },
 					{ "col": 6, "has": [ "blocking", "deadly", "disarm", "distracting", "fragile", "monk", "nonlethal", "performance", "reach", "trip", "sunder" ] },
 					{ "col": 9, "has": [ "B", "P", "S" ], "labels": [ "bludgeoning", "piercing", "slashing" ] }
 				],
-				"ripples": [0],
 				"initialColumn": 1,
 				"data": [
 					[ "{eq-weapon/battle aspergillum}", [ 0, "simple" ], 5, [ 2.5, "1d4" ], [ 3.5, "1d6" ], [ 99, "&mdash;" ], "see text", [ 999, "&mdash;" ], 4, "B" ],
@@ -847,16 +871,23 @@
 		"tables": [
 			{
 				"id": "one-handed weapons table",
-				"headers": [ "Name", "Proficiency", "Cost", "Damage (S)", "Damage (M)", "Critical", "Special", "Range", "Weight", "Dmg Type" ],
-				"types": [ null, "num", "gp", "num", "num", "num", null, "num", "lbs", null ],
-				"alignments": [ true, null, null, null, null, null, null, null, null, null ],
-				"sizes": [ 8.5, 6, 4, 5, 5, 4, 5.5, 5.5, 4, 4 ],
+				"columns": [
+					{ "header": "Name", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "Proficiency", "type": "num", "size": 6 },
+					{ "header": "Cost", "type": "gp", "size": 4 },
+					{ "header": "Damage (S)", "type": "num", "size": 5 },
+					{ "header": "Damage (M)", "type": "num", "size": 5 },
+					{ "header": "Critical", "type": "num", "size": 4 },
+					{ "header": "Special", "size": 5.5 },
+					{ "header": "Range", "type": "num", "size": 5.5 },
+					{ "header": "Weight", "type": "lbs", "size": 4 },
+					{ "header": "Dmg Type", "size": 4 }
+				],
 				"filter": [
 					{ "col": 1, "range": [ 0, 2 ], "labels": [ "simple", "martial", "exotic" ] },
 					{ "col": 6, "has": [ "blocking", "brace", "deadly", "disarm", "distracting", "double", "fragile", "grapple", "improvised", "monk", "nonlethal", "performance", "reach", "trip" ] },
 					{ "col": 9, "has": [ "B", "P", "S" ], "labels": [ "bludgeoning", "piercing", "slashing" ] }
 				],
-				"ripples": [0],
 				"initialColumn": 1,
 				"data": [
 					[ "{eq-weapon/baston fighting stick}", [ 0, "simple" ], 10, [ 2.5, "1d4" ], [ 3.5, "1d6" ], [ 99, "&mdash;" ], "monk, see text", [ 999, "&mdash;" ], 2, "B" ],
@@ -935,16 +966,23 @@
 		"tables": [
 			{
 				"id": "two-handed weapons table",
-				"headers": [ "Name", "Proficiency", "Cost", "Damage (S)", "Damage (M)", "Critical", "Special", "Range", "Weight", "Dmg Type" ],
-				"types": [ null, "num", "gp", "num", "num", "num", null, "num", "lbs", null ],
-				"alignments": [ true, null, null, null, null, null, null, null, null, null ],
-				"sizes": [ 8.5, 6, 4, 5, 5, 4, 5.5, 5.5, 4, 4 ],
+				"columns": [
+					{ "header": "Name", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "Proficiency", "type": "num", "size": 6 },
+					{ "header": "Cost", "type": "gp", "size": 4 },
+					{ "header": "Damage (S)", "type": "num", "size": 5 },
+					{ "header": "Damage (M)", "type": "num", "size": 5 },
+					{ "header": "Critical", "type": "num", "size": 4 },
+					{ "header": "Special", "size": 5.5 },
+					{ "header": "Range", "type": "num", "size": 5.5 },
+					{ "header": "Weight", "type": "lbs", "size": 4 },
+					{ "header": "Dmg Type", "size": 4 }
+				],
 				"filter": [
 					{ "col": 1, "range": [ 0, 2 ], "labels": [ "simple", "martial", "exotic" ] },
 					{ "col": 6, "has": [ "blocking", "brace", "disarm", "double", "fragile", "grapple", "monk", "performance", "reach", "sunder", "trip" ] },
 					{ "col": 9, "has": [ "B", "P", "S" ], "labels": [ "bludgeoning", "piercing", "slashing" ] }
 				],
-				"ripples": [0],
 				"initialColumn": 1,
 				"data": [
 					[ "{eq-weapon/bayonet}", [ 0, "simple" ], 5, [ 2.5, "1d4" ], [ 3.5, "1d6" ], [ 99, "&mdash;" ], null, [ 999, "&mdash;" ], 1, "P" ],
@@ -1051,16 +1089,23 @@
 		"tables": [
 			{
 				"id": "ranged weapons table",
-				"headers": [ "Name", "Proficiency", "Cost", "Damage (S)", "Damage (M)", "Critical", "Special", "Range", "Weight", "Dmg Type" ],
-				"types": [ null, "num", "gp", "num", "num", "num", null, "num", "lbs", null ],
-				"alignments": [ true, null, null, null, null, null, null, null, null, null ],
-				"sizes": [ 8.5, 6, 4, 5, 5, 4, 5.5, 5.5, 4, 4 ],
+				"columns": [
+					{ "header": "Name", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "Proficiency", "type": "num", "size": 6 },
+					{ "header": "Cost", "type": "gp", "size": 4 },
+					{ "header": "Damage (S)", "type": "num", "size": 5 },
+					{ "header": "Damage (M)", "type": "num", "size": 5 },
+					{ "header": "Critical", "type": "num", "size": 4 },
+					{ "header": "Special", "size": 5.5 },
+					{ "header": "Range", "type": "num", "size": 5.5 },
+					{ "header": "Weight", "type": "lbs", "size": 4 },
+					{ "header": "Dmg Type", "size": 4 }
+				],
 				"filter": [
 					{ "col": 1, "range": [ 0, 2 ], "labels": [ "simple", "martial", "exotic" ] },
 					{ "col": 6, "has": [ "blocking", "disarm", "distracting", "double", "grapple", "monk", "nonlethal", "performance", "trip" ] },
 					{ "col": 9, "has": [ "B", "P", "S" ], "labels": [ "bludgeoning", "piercing", "slashing" ] }
 				],
-				"ripples": [0],
 				"initialColumn": 1,
 				"data": [
 					[ "{eq-weapon/blowgun}", [ 0, "simple" ], 2, 1, [ 1.5, "1d2" ], [ 99, "&mdash;" ], null, [ 20, "20 ft." ], 1, "P" ],
@@ -1145,11 +1190,13 @@
 		"tables": [
 			{
 				"id": "ammunition table",
-				"headers": [ "Name", "Cost", "Damage", "Weight", "Dmg Type" ],
-				"types": [ null, "gp", null, "lbs", null ],
-				"alignments": [ true, null, null, null, null ],
-				"sizes": [ 8.5, 4, 5.5, 4, 4 ],
-				"ripples": [0],
+				"columns": [
+					{ "header": "Name", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "Cost", "type": "gp", "size": 4 },
+					{ "header": "Damage", "size": 5.5 },
+					{ "header": "Weight", "type": "lbs", "size": 4 },
+					{ "header": "Dmg Type", "size": 4 }
+				],
 				"initialColumn": 1,
 				"data": [
 					[ "{eq-weapon/arrow (bleeding)}", 160, "normal + 1 bleed", 0.15, "P" ],
@@ -1210,11 +1257,13 @@
 		"tables": [
 			{
 				"id": "alchemical weapons table",
-				"headers": [ "Name", "Cost", "Damage", "Range", "Weight" ],
-				"types": [ null, "gp", null, "num", "lbs" ],
-				"alignments": [ true, null, null, null, null ],
-				"sizes": [ 8.5, 4, 5.5, 5.5, 4 ],
-				"ripples": [0],
+				"columns": [
+					{ "header": "Name", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "Cost", "type": "gp", "size": 4 },
+					{ "header": "Damage", "size": 5.5 },
+					{ "header": "Range", "type": "num", "size": 5.5 },
+					{ "header": "Weight", "type": "lbs", "size": 4 }
+				],
 				"initialColumn": 1,
 				"data": [
 					[ "{eq-weapon/acid}", 10, "1d6 acid + 1 splash", [ 10, "10 ft." ], 1 ],
@@ -1349,10 +1398,11 @@
 		"tables": [
 			{
 				"id": "weapon modifications",
-				"headers": [ "Name", "Cost Adjustment", "Weight Adjustment" ],
-				"types": [ null, "gp+", "lbs+" ],
-				"alignments": [ true, null, null ],
-				"ripples": [0],
+				"columns": [
+					{ "header": "Name", "ripple": true, "align": "start" },
+					{ "header": "Cost Adjustment", "type": "gp+" },
+					{ "header": "Weight Adjustment", "type": "lbs+" }
+				],
 				"data": [
 					[ "{eq-weaponenh/sawback sword}", 5, [ 0, "&mdash;" ] ],
 					[ "{eq-weaponenh/consecrated weapon}", 150, [ 0, "&mdash;" ] ],
@@ -1392,15 +1442,25 @@
 		"tables": [
 			{
 				"id": "all firearms",
-				"headers": [ "Name", "Firearm Type", "Era", "Cost", "Damage (S)", "Damage (M)", "Critical", "Range", "Misfire", "Capacity", "Weight", "Dmg Type", "Special" ],
-				"types": [ null, "num", "num", "gp", "num", "num", "num", "num", null, null, "lbs", null, null ],
-				"alignments": [ true, null, null, null, null, null, null, null, null, null, null, null, null ],
-				"sizes": [ 7, 6, 5.5, 5.5, 5, 5, 4, 5, 5.5, 4, 4, 4, 5.5 ],
+				"columns": [
+					{ "header": "Name", "size": 7, "ripple": true, "align": "start" },
+					{ "header": "Firearm Type", "type": "num", "size": 6 },
+					{ "header": "Era", "type": "num", "size": 5.5 },
+					{ "header": "Cost", "type": "gp", "size": 5.5 },
+					{ "header": "Damage (S)", "type": "num", "size": 5 },
+					{ "header": "Damage (M)", "type": "num", "size": 5 },
+					{ "header": "Critical", "type": "num", "size": 4 },
+					{ "header": "Range", "type": "num", "size": 5 },
+					{ "header": "Misfire", "size": 5.5 },
+					{ "header": "Capacity", "size": 4 },
+					{ "header": "Weight", "type": "lbs", "size": 4 },
+					{ "header": "Dmg Type", "size": 4 },
+					{ "header": "Special", "size": 5.5 }
+				],
 				"filter": [
 					{ "col": 1, "range": [ 0, 3 ], "labels": [ "one-handed", "two-handed", "ammunition", "gear" ] },
 					{ "col": 2, "range": [ 0, 2 ], "labels": [ "early", "advanced", "neither" ] }
 				],
-				"ripples": [0],
 				"data": [
 					[ "{eq-weapon/breech-loader}", [ 0, "one-handed" ], [ 0, "early" ], 3000, [ 2.5, "1d4" ], [ 3.5, "1d6" ], [ 4, "&times;4" ], [ 20, "20 ft." ], "1 (5 ft.)", "2", 4, "B and P", null ],
 					[ "{eq-weapon/buckler gun}", [ 0, "one-handed" ], [ 0, "early" ], 750, [ 2.5, "1d4" ], [ 3.5, "1d6" ], [ 4, "&times;4" ], [ 10, "10 ft." ], "1 (5 ft.)", "2", 6, "B and P", null ],
@@ -1475,11 +1535,11 @@
 		"tables": [
 			{
 				"id": "adventuring gear equipment",
-				"headers": [ "Name", "Cost", "Weight" ],
-				"types": [ null, "gp", "lbs" ],
-				"alignments": [ true, null, null ],
-				"ripples": [0],
-				"sizes": [ 11.5, 5, 5 ],
+				"columns": [
+					{ "header": "Name", "size": 11.5, "ripple": true, "align": "start" },
+					{ "header": "Cost", "type": "gp", "size": 5 },
+					{ "header": "Weight", "type": "lbs", "size": 5 }
+				],
 				"initialColumn": 0,
 				"data": [
 					[ "{eq-misc/adventurer's sash}", 20, 3 ],
@@ -1933,11 +1993,11 @@
 		"tables": [
 			{
 				"id": "animal gear equipment",
-				"headers": [ "Name", "Cost", "Weight" ],
-				"types": [ null, "gp", "lbs" ],
-				"alignments": [ true, null, null ],
-				"ripples": [0],
-				"sizes": [ 10, 5, 5 ],
+				"columns": [
+					{ "header": "Name", "size": 10, "ripple": true, "align": "start" },
+					{ "header": "Cost", "type": "gp", "size": 5 },
+					{ "header": "Weight", "type": "lbs", "size": 5 }
+				],
 				"initialColumn": 0,
 				"data": [
 					[ "{eq-misc/animal call}", 0.1, 0 ],
@@ -2011,11 +2071,11 @@
 		"tables": [
 			{
 				"id": "kits equipment",
-				"headers": [ "Name", "Cost", "Weight" ],
-				"types": [ null, "gp", "lbs" ],
-				"alignments": [ true, null, null ],
-				"ripples": [0],
-				"sizes": [ 10, 5, 5 ],
+				"columns": [
+					{ "header": "Name", "size": 10, "ripple": true, "align": "start" },
+					{ "header": "Cost", "type": "gp", "size": 5 },
+					{ "header": "Weight", "type": "lbs", "size": 5 }
+				],
 				"initialColumn": 0,
 				"data": [
 					[ "{eq-misc/alchemist's kit}", 40, 24 ],
@@ -2158,11 +2218,11 @@
 		"tables": [
 			{
 				"id": "tools equipment",
-				"headers": [ "Name", "Cost", "Weight" ],
-				"types": [ null, "gp", "lbs" ],
-				"alignments": [ true, null, null ],
-				"ripples": [0],
-				"sizes": [ 11.5, 5, 5 ],
+				"columns": [
+					{ "header": "Name", "size": 11.5, "ripple": true, "align": "start" },
+					{ "header": "Cost", "type": "gp", "size": 5 },
+					{ "header": "Weight", "type": "lbs", "size": 5 }
+				],
 				"initialColumn": 0,
 				"data": [
 					[ "{eq-misc/abacus}", 2, 2 ],
@@ -2423,14 +2483,15 @@
 		"tables": [
 			{
 				"id": "alchemical reagents",
-				"headers": [ "Item", "Type", "Cost", "Weight" ],
-				"ripples": [0],
-				"types": [ null, null, "gp", "lbs" ],
-				"sizes": [ 8.5, 5.5, 5, 5 ],
+				"columns": [
+					{ "header": "Item", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "Type", "size": 5.5 },
+					{ "header": "Cost", "type": "gp", "size": 5 },
+					{ "header": "Weight", "type": "lbs", "size": 5 }
+				],
 				"filter": [
 					{ "col": 1, "equals": ["concoction", "power component", "reagent", "remedy", "tincture", "tool"] }
 				],
-				"alignments": [ true, null, null, null ],
 				"data": [
 					[ "{eq-misc/aboleth mucus extract}", "tool", 100, 0.5 ],
 					[ "{eq-misc/accuracy lozenge}", "tool", 330, 0 ],
@@ -2867,11 +2928,12 @@
 		"tables": [
 			{
 				"id": "misc equipment",
-				"headers": [ "Name", "Type", "Cost", "Weight" ],
-				"types": [ null, null, "gp", "lbs" ],
-				"alignments": [ true, null, null, null ],
-				"sizes": [ 8.5, 6, 5, 4 ],
-				"ripples": [0],
+				"columns": [
+					{ "header": "Name", "size": 8.5, "ripple": true, "align": "start" },
+					{ "header": "Type", "size": 6 },
+					{ "header": "Cost", "type": "gp", "size": 5 },
+					{ "header": "Weight", "type": "lbs", "size": 4 }
+				],
 				"filter": [
 					{ "col": 1, "equals": ["channel foci", "dragoncraft", "dungeon guide", "herbs", "pathfinder chronicles"] }
 				],
