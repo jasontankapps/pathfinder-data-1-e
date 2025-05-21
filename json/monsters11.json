@@ -514,7 +514,7 @@
 			"",
 			"Quick and cunning hunters when compared to most oozes, garden oozes are particularly dangerous because they readily attack creatures that wander nearby regardless of the creatures' size. Oozes that sense prey moving closer are likely to wait to attack until the potential meal is within reach. The oozes also give chase when prey flees. Garden oozes innately change hue to match the ground underneath them, so they can be hard to spot.",
 			"",
-			"When a garden ooze attacks, it lashes out with a whiplike appendage coated with a potent flesh-eating acid. If injured, the ooze releases a disgusting stench that makes it harder to fight off. Further, when one garden ooze attacks, any other garden oozes nearby join in, piling on and making escape all but impossible.",
+			"When a garden ooze attacks, it lashes out with a whip-like appendage coated with a potent flesh-eating acid. If injured, the ooze releases a disgusting stench that makes it harder to fight off. Further, when one garden ooze attacks, any other garden oozes nearby join in, piling on and making escape all but impossible.",
 			"",
 			"Fortunately for larger potential prey, most garden oozes are quite small, the largest among them reaching 3 feet in diameter before they split into smaller oozes. These oozes are also known as rat-catcher oozes or compost oozes, and some brave gardeners actually encourage the growth of such oozes in their gardens as a way to combat pests. Once the pests are under control, however, the oozes themselves must be hunted and slain before the garden is safe to tend."
 		]
@@ -596,7 +596,7 @@
 		"name": "Garipan",
 		"sources": [ "Academy of Secrets" ],
 		"description": [
-			"*Batlike wings stretch behind this stone-faced creature with a wide, wild grin and fierce red eyes. The molten core in the creature's torso glows through rugged cracks in its dark stone skin.*",
+			"*Bat-like wings stretch behind this stone-faced creature with a wide, wild grin and fierce red eyes. The molten core in the creature's torso glows through rugged cracks in its dark stone skin.*",
 			"",
 			"::mh[Garipan]{cr=\"10\"}",
 			"",
@@ -709,7 +709,7 @@
 			"",
 			"::sh[Description]",
 			"",
-			"Garudas are noble, birdlike creatures that inhabit rugged hills. While they remain detached from humanoid societies, they are impetuous and gallant, often serving as protectors of nearby communities.",
+			"Garudas are noble, bird-like creatures that inhabit rugged hills. While they remain detached from humanoid societies, they are impetuous and gallant, often serving as protectors of nearby communities.",
 			"",
 			"Most garudas stand around 6 feet tall with a wingspan of 15 feet and weigh approximately 150 pounds."
 		]
@@ -1009,7 +1009,7 @@
 		"name": "Genghryl",
 		"sources": [ "Pathfinder #117: Assault on Longshadow" ],
 		"description": [
-			"*A mix of burly and slender tentacles extend from the body of this large, wormlike creature. Rows of frightful fangs line the maw beneath its sharp beak.*",
+			"*A mix of burly and slender tentacles extend from the body of this large, worm-like creature. Rows of frightful fangs line the maw beneath its sharp beak.*",
 			"",
 			"::mh[Genghryl]{cr=\"11\"}",
 			"",
@@ -1057,7 +1057,7 @@
 			"",
 			"::sh[Description]",
 			"",
-			"Genghryls are subterranean, wormlike creatures that use specialized tentacles to lure and weaken their prey. Genghryls are to verdant lands what seaweed sirens are to shipping lanes or wolves-in-sheep's-clothing are to plentiful woodlands - a menace.",
+			"Genghryls are subterranean, worm-like creatures that use specialized tentacles to lure and weaken their prey. Genghryls are to verdant lands what seaweed sirens are to shipping lanes or wolves-in-sheep's-clothing are to plentiful woodlands - a menace.",
 			"",
 			"A genghryl's mottled, pinkish-brown body is about 3 feet wide at the front and tapers down to its tail, resembling a hideous segmented worm. Its head consists of a tooth-lined opening behind a sharp beak, which is surrounded by four powerful tentacles and three black eyes spaced evenly around it. A number of longer, thinner tentacles sprout from the segment just behind the genghryl's head. The older and larger the genghryl, the more tentacles it has.",
 			"",
@@ -1086,7 +1086,7 @@
 		"name": "Geomaw",
 		"sources": [ "Down the Blighted Path" ],
 		"description": [
-			"*This wormlike creature's outer body consists of stone plates, and a cavernous maw contains a sparkling mass of red crystals.*",
+			"*This worm-like creature's outer body consists of stone plates, and a cavernous maw contains a sparkling mass of red crystals.*",
 			"",
 			"::mh[Geomaw]{cr=\"7\"}",
 			"",
@@ -1138,7 +1138,7 @@
 			"",
 			"Birthed from the unfathomable terrors of the cavernous deep, geomaws roam the Darklands, finding easy prey among the covetous races of Nar-Voth and Golarion's surface. Their hulking bodies can extend up to 15 feet long and weigh between 2,000 and 4,000 pounds. Despite their great size, geomaws require little sustenance, and can go weeks or even months between meals. They pause for days or weeks on end, remaining perfectly motionless as they wait for prey. This creature's open maw resembles a cache of valuable crystals, ripe for the plucking. Curious beasts and greedy prospectors alike flock to these shining gemstones-attracted by the subtle shimmering light they radiate and the faint, sweet scent the geomaw exudes-only to be quickly gobbled up.",
 			"",
-			"These strange aberrations reproduce rarely, gathering in great numbers in the wet, hot underground chambers that surround volcanoes. Geomaws lay caches of eggs that take three years to hatch. The mineral-laden waters of these caverns are vital to the formation of a young geomaw's stony hide and gemlike teeth.",
+			"These strange aberrations reproduce rarely, gathering in great numbers in the wet, hot underground chambers that surround volcanoes. Geomaws lay caches of eggs that take three years to hatch. The mineral-laden waters of these caverns are vital to the formation of a young geomaw's stony hide and gem-like teeth.",
 			"",
 			"Geomaws have little society of their own and seem content to traverse the outskirts of wilder civilizations, feeding on the blood and flesh of unwary creatures that seek shelter or riches in the caves near the surface. On the rare occasion one cares to communicate, it does so through a series of tail thumps and clinks produced by tapping its crystalline teeth together. Mating groups of geomaws sometimes produce hauntingly beautiful sounds in such a manner."
 		]
@@ -1251,7 +1251,7 @@
 			"",
 			"::sh[Special Abilities]",
 			"",
-			"**Carapace (Ex)** A ghelarn typically shelters within a hardened, rocklike shell that houses all of its vital organs. By withdrawing its tentacles and sensory stalks into its shell, the ghelarn gains total cover until the beginning of its next turn. The shell doesn't provide cover against targeted spells, and the ghelarn's movement is limited to downward burrowing during this time. The benefits of the shell can be lost if sundered (hardness 5, 8 hit points, regenerates in 2d6 days), and a ghelarn caught without its carapace loses its natural armor bonus.",
+			"**Carapace (Ex)** A ghelarn typically shelters within a hardened, rock-like shell that houses all of its vital organs. By withdrawing its tentacles and sensory stalks into its shell, the ghelarn gains total cover until the beginning of its next turn. The shell doesn't provide cover against targeted spells, and the ghelarn's movement is limited to downward burrowing during this time. The benefits of the shell can be lost if sundered (hardness 5, 8 hit points, regenerates in 2d6 days), and a ghelarn caught without its carapace loses its natural armor bonus.",
 			"",
 			"**Entrap (Ex)** A ghelarn secretes a quagmire of sticky fluid a few feet below the sand where it lives. This fluid extends in a 10-foot radius around the creature and acts to trap victims, making it easier for the ghelarn to attack prey with its tentacles or feed upon it with its leeching tendrils. This otherwise acts as the {umr/entrap} universal monster rule.",
 			"",
@@ -1277,7 +1277,7 @@
 			"",
 			"### Noble Ghelarns",
 			"",
-			"Occasionally, evolution gives rise to a more advanced breed of ghelarn. These specimens have both the advanced and giant simple templates, and prove more intelligent than their lesser kin. The shell of a noble ghelarn encompasses a much greater area, appearing more like an outcropping of rock or a small hillside. This grants them the freeze special quality to appear as such, allowing them to take 20 on their Stealth checks to hide in plain sight. Noble ghelarns sometimes remain hidden within these massive shells and purposefully suppress their entrapping ooze in order to dupe other creatures into seeking shelter next to them. While the tall shell certainly provides shade from the sun and a windbreak against desert storms, those camping near a noble ghelarn inevitably find themselves assaulted during the night by the creature's invasive tendrils. These appendages are more leechlike than the painful barbs of lesser ghelarns and require a DC 20 Perception check for sleeping creatures to notice."
+			"Occasionally, evolution gives rise to a more advanced breed of ghelarn. These specimens have both the advanced and giant simple templates, and prove more intelligent than their lesser kin. The shell of a noble ghelarn encompasses a much greater area, appearing more like an outcropping of rock or a small hillside. This grants them the freeze special quality to appear as such, allowing them to take 20 on their Stealth checks to hide in plain sight. Noble ghelarns sometimes remain hidden within these massive shells and purposefully suppress their entrapping ooze in order to dupe other creatures into seeking shelter next to them. While the tall shell certainly provides shade from the sun and a windbreak against desert storms, those camping near a noble ghelarn inevitably find themselves assaulted during the night by the creature's invasive tendrils. These appendages are more leech-like than the painful barbs of lesser ghelarns and require a DC 20 Perception check for sleeping creatures to notice."
 		]
 	},
 	"gholdako": {
@@ -1526,7 +1526,7 @@
 			"",
 			"Ghorazaghs - or gore weavers - float like tumorous specters through the deepest, most alien cavities of the lightless underground, preying upon the wretched vermin of those horrid places. Cunning, with minds and drives unknowable and obscene to those of lands above, the gore weavers only recently became aware of the fertility and bounty of the surface world and are now slowly turning their ebon eyes upward.",
 			"",
-			"While ghorazaghs can digest nearly anything, they are incapable of digesting blood. Their digestive systems process flesh, bone, and all other organic material, filtering out blood and storing it in large reservoirs within their bodies, whereupon the blood is mixed internally with mucus and other strange fluids to form a thick, glue-like substance. While a ghorazagh can spray this fluid as an attack to impede prey, the primary use of the foul substance is as a building material. Ghorazagh hives are constructed entirely of this material, which when it dries has the strength of metal while retaining a dark red resinlike appearance. A ghorazagh hive is a nightmare place as a result-twisting tunnels with an eerily organic appearance that can wind for miles on end."
+			"While ghorazaghs can digest nearly anything, they are incapable of digesting blood. Their digestive systems process flesh, bone, and all other organic material, filtering out blood and storing it in large reservoirs within their bodies, whereupon the blood is mixed internally with mucus and other strange fluids to form a thick, glue-like substance. While a ghorazagh can spray this fluid as an attack to impede prey, the primary use of the foul substance is as a building material. Ghorazagh hives are constructed entirely of this material, which when it dries has the strength of metal while retaining a dark red resin-like appearance. A ghorazagh hive is a nightmare place as a result-twisting tunnels with an eerily organic appearance that can wind for miles on end."
 		]
 	},
 	"ghoul": {
@@ -2022,7 +2022,7 @@
 		"name": "Leng Ghoul",
 		"sources": [ "Bestiary 5" ],
 		"description": [
-			"*This semi-canine humanoid has rancid green flesh and hooflike feet, yet its eyes sparkle with the gleam of intelligence.*",
+			"*This semi-canine humanoid has rancid green flesh and hoof-like feet, yet its eyes sparkle with the gleam of intelligence.*",
 			"",
 			"::mh[Leng Ghoul]{cr=\"10\"}",
 			"",
@@ -3961,7 +3961,7 @@
 			"",
 			"::sh[Description]",
 			"",
-			"Giant sea anemones are beautiful but deadly ocean-dwelling vermin that rely on camouflage and paralytic toxins to draw in their prey. A sea anemone has a long, cylindrical body that ends in a flat circular disc with a slitlike orifice for both ingesting food and dispelling waste. This disc is surrounded by a thicket of tendrils that vary in thickness from fine, hairlike cilia to thick, swollen appendages. The creature uses all of these tentacles at once when it attacks prey. Like their smaller kin, giant sea anemones come in a broad spectrum of colors - many are known for their brilliant hues.",
+			"Giant sea anemones are beautiful but deadly ocean-dwelling vermin that rely on camouflage and paralytic toxins to draw in their prey. A sea anemone has a long, cylindrical body that ends in a flat circular disc with a slit-like orifice for both ingesting food and dispelling waste. This disc is surrounded by a thicket of tendrils that vary in thickness from fine, hair-like cilia to thick, swollen appendages. The creature uses all of these tentacles at once when it attacks prey. Like their smaller kin, giant sea anemones come in a broad spectrum of colors - many are known for their brilliant hues.",
 			"",
 			"Giant sea anemones can move at a slow pace by walking along the projections at their bases. More often, however, these predators affix themselves to rock, coral, or sunken objects like ships, then wait for prey to come to them.",
 			"",
@@ -4151,7 +4151,7 @@
 		"name": "Giant Sundew",
 		"sources": [ "Bestiary 6" ],
 		"description": [
-			"*This plant is covered with dozens of clear tendrils, each tipped with a glistening red bulb. Whiplike fronds unfurl from the center.*",
+			"*This plant is covered with dozens of clear tendrils, each tipped with a glistening red bulb. Whip-like fronds unfurl from the center.*",
 			"",
 			"::mh[Giant Sundew]{cr=\"12\"}",
 			"",
@@ -4197,7 +4197,7 @@
 			"",
 			"::sh[Description]",
 			"",
-			"Unlike its smaller, insect-eating cousin, a giant sundew actively seeks out prey using its shallow but sturdy roots to slowly pull itself through its boggy environs. When a giant sundew attacks, it does so by slamming targets with its thick, leaflike fronds, each of which is covered with globules of sticky, acidic goo. The giant sundew exudes an unmistakable scent of honey - an attractive odor that often proves irresistible to nearby creatures.",
+			"Unlike its smaller, insect-eating cousin, a giant sundew actively seeks out prey using its shallow but sturdy roots to slowly pull itself through its boggy environs. When a giant sundew attacks, it does so by slamming targets with its thick, leaf-like fronds, each of which is covered with globules of sticky, acidic goo. The giant sundew exudes an unmistakable scent of honey - an attractive odor that often proves irresistible to nearby creatures.",
 			"",
 			"Although the giant sundew is not quite a mindless monstrosity, its intellect is barely more than instinctive, and it has little ability to discern between allies and enemies. If it attacks a creature that is immune to acid or adhesive qualities, the sundew is smart enough to avoid attacking that foe in future rounds (although it continues to slam such targets with its fronds in self defense, if needed). Despite sundews' inability to form alliances, many more intelligent forest-dwelling creatures take advantage of the sticky plants and use them as organic traps to help gather prey. Will-o'-wisps in particular are quite fond of the methods a sundew uses to capture and consume prey, for the anguish and fear of creatures stuck to a plant that is slowly dissolving and digesting them form quite a delicious tonic of horror for the wisps to feed upon.",
 			"",

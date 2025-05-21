@@ -239,7 +239,7 @@
 			"",
 			"::sh[Description]",
 			"",
-			"More so than its smaller kin, the human-sized giant porcupine is a foul-tempered creature that is just as content chewing on carrion as on living creatures. Worse, giant porcupines are notorious in their almost foolhardy bravery, and have been known to attack creatures much larger than their own size. This unexpected aggression, when combined with their tangle of spearlike quills, makes the giant porcupine a dangerous foe."
+			"More so than its smaller kin, the human-sized giant porcupine is a foul-tempered creature that is just as content chewing on carrion as on living creatures. Worse, giant porcupines are notorious in their almost foolhardy bravery, and have been known to attack creatures much larger than their own size. This unexpected aggression, when combined with their tangle of spear-like quills, makes the giant porcupine a dangerous foe."
 		]
 	},
 	"giant_porcupine": { "copyof": "porcupine_giant_porcupine" },
@@ -632,7 +632,7 @@
 			"",
 			"::sh[Description]",
 			"",
-			"Pseudosphinxes are cat-sized, fairylike creatures thought to be distant cousins to the larger and better-known true sphinxes. They most resemble gynosphinxes, though the pseudosphinxes' monkeylike heads and tiny bodies ensure that the two species are never confused for each other. A typical pseudosphinx is 2 feet long and weighs 10 pounds.",
+			"Pseudosphinxes are cat-sized, fairy-like creatures thought to be distant cousins to the larger and better-known true sphinxes. They most resemble gynosphinxes, though the pseudosphinxes' monkey-like heads and tiny bodies ensure that the two species are never confused for each other. A typical pseudosphinx is 2 feet long and weighs 10 pounds.",
 			"",
 			"Pseudosphinxes are rarely found in groups, and scholars are unsure whether to attribute their cryptic origins to elusive demeanors or amnesic memories. Whether they're the misbegotten progeny of generations of lesser sphinxes or the result of some magical experiment in the same deserts where sphinxes are found, none can say.",
 			"",
@@ -643,7 +643,7 @@
 		"name": "Pseudowyvern",
 		"sources": [ "Legacy of Dragons" ],
 		"description": [
-			"*The sinuous tail of this cat-sized winged, armless dragon is tipped with a scorpianlike stinger.*",
+			"*The sinuous tail of this cat-sized winged, armless dragon is tipped with a scorpion-like stinger.*",
 			"",
 			"::mh[Pseudowyvern]{cr=\"2\"}",
 			"",
@@ -698,7 +698,7 @@
 		"name": "Psoglav",
 		"sources": [ "Bestiary 6" ],
 		"description": [
-			"*This one-eyed, wolf-headed creature walks upright on two hoofed feet. It bares metal fangs while a thin, ratlike tail twitches behind it.*",
+			"*This one-eyed, wolf-headed creature walks upright on two hoofed feet. It bares metal fangs while a thin, rat-like tail twitches behind it.*",
 			"",
 			"::mh[Psoglav]{cr=\"13\"}",
 			"",
@@ -1462,7 +1462,7 @@
 			"",
 			"Some elder gongorinans have different arms; listed below are four examples of potential additional limbs.",
 			"",
-			"**Club:** This whiplike arm ends in a bony growth that delivers a slam attack. A creature struck by this attack must succeed at a Fortitude saving throw or be staggered for 1 round (DC = 10 + 1/2 the gongorinan's Hit Dice + its Strength modifier).",
+			"**Club:** This whip-like arm ends in a bony growth that delivers a slam attack. A creature struck by this attack must succeed at a Fortitude saving throw or be staggered for 1 round (DC = 10 + 1/2 the gongorinan's Hit Dice + its Strength modifier).",
 			"",
 			"**Serpent:** This arm is a serpent capable of delivering a bite attack injecting poison that deals Constitution damage rather than Strength damage.",
 			"",
@@ -2535,7 +2535,7 @@
 			"Pathfinder #40: Vaults of Madness"
 		],
 		"description": [
-			"*This batlike humanoid has a lean, muscular body covered with fur and two large, leathery wings.*",
+			"*This bat-like humanoid has a lean, muscular body covered with fur and two large, leathery wings.*",
 			"",
 			"::mh[Sabosan]{cr=\"5\"}",
 			"",
@@ -2578,7 +2578,7 @@
 			"",
 			"::sh[Description]",
 			"",
-			"Sabosan are an intelligent and evil race of batlike humanoids that dwell in warm and isolated forests or deep underground in vast caverns.",
+			"Sabosan are an intelligent and evil race of bat-like humanoids that dwell in warm and isolated forests or deep underground in vast caverns.",
 			"",
 			"Sabosan are vicious predators, combining human intelligence with a bat's natural adaptations for hunting. They favor warm climates, preferring to make their lairs in places that are inaccessible to most intruders, such as mountaintop crags, abandoned ruins, subterranean caverns near hidden hot springs, and dense canopies of jungle trees. With wingspans almost three times their height, sabosan are agile and graceful fliers, capable of traveling miles on a single current of air in their dauntless search for prey.",
 			"",
@@ -2764,7 +2764,7 @@
 			"",
 			"Instead of gnashing jaws, an esipil's bite involves a lashing mass of fleshy veins and viscera that can grasp at its opponent. Esipils use this attack to distract their opponents, savaging entangled victims with their vicious claw attacks until their masters pull them away.",
 			"",
-			"Although an esipil's ability to frighten its victims is potent, it relies on its cause fear spell-like ability only when grossly outnumbered, outmatched, or greatly injured. Esipils like to fight and scrap with nearly anything, and prefer that their victims not simply flee in terror, as they wish to savor the fear. Esipils use their telepathic abilities to harass would-be opponents into attacking them first, flinging mental taunts that are vulgar and disconcerting. Once they engage, they are resilient and dogged fighters. An esipil stands 1 foot tall at the shoulder, and its thin, wormlike body stretches nearly 3 feet long. An esipil weighs around 13 pounds.",
+			"Although an esipil's ability to frighten its victims is potent, it relies on its cause fear spell-like ability only when grossly outnumbered, outmatched, or greatly injured. Esipils like to fight and scrap with nearly anything, and prefer that their victims not simply flee in terror, as they wish to savor the fear. Esipils use their telepathic abilities to harass would-be opponents into attacking them first, flinging mental taunts that are vulgar and disconcerting. Once they engage, they are resilient and dogged fighters. An esipil stands 1 foot tall at the shoulder, and its thin, worm-like body stretches nearly 3 feet long. An esipil weighs around 13 pounds.",
 			"",
 			"Though they make unruly companions, esipils actually enjoy serving those mightier than themselves, taking pride in their masters' power, even if they continue to snap and snarl when given commands. A neutral evil spellcaster of at least 7th level who takes the {feat/Improved Familiar} feat can select an esipil as a familiar.",
 			"",
@@ -2841,7 +2841,7 @@
 		"name": "Kimenhul (Sahkil)",
 		"sources": [ "Bestiary 5" ],
 		"description": [
-			"*Three monstrous, misshapen skulls top a twisted trunk balanced on three leglike splinters of flesh and bone.*",
+			"*Three monstrous, misshapen skulls top a twisted trunk balanced on three leg-like splinters of flesh and bone.*",
 			"",
 			"::mh[Kimenhul]{cr=\"20\"}",
 			"",
@@ -3460,7 +3460,7 @@
 			"",
 			"::sh[Description]",
 			"",
-			"The unpredictability and viciousness of the sahuagin race isn't just an aspect of their sharklike temperament; it seems to be inherent in their very beings. The unusual and typically deadly mutants common to the race attest to this, their forms altering and becoming more deadly based either on the needs of the community or ambiguous environmental factors. Whatever the case, sahuagin mutants often rise to positions of respect and influence in sahuagin communities, their innate advantages instantly placing them among their people's rulers. Of these mutants, four-armed sahuagin brutes and malenti - sahuagin with the appearances of sea elves - arise most commonly, though these are in no way the only sahuagin mutants known to the savage seas.",
+			"The unpredictability and viciousness of the sahuagin race isn't just an aspect of their shark-like temperament; it seems to be inherent in their very beings. The unusual and typically deadly mutants common to the race attest to this, their forms altering and becoming more deadly based either on the needs of the community or ambiguous environmental factors. Whatever the case, sahuagin mutants often rise to positions of respect and influence in sahuagin communities, their innate advantages instantly placing them among their people's rulers. Of these mutants, four-armed sahuagin brutes and malenti - sahuagin with the appearances of sea elves - arise most commonly, though these are in no way the only sahuagin mutants known to the savage seas.",
 			"",
 			"### Sahuagin Alterations",
 			"",
@@ -3476,7 +3476,7 @@
 			"",
 			"**Prehistoric Sahuagin:** Also known as adacthys, these sahuagin mutants are throwbacks to some even more savage epoch; they are Large, have a +7 natural armor bonus, and can speak with aquatic dinosaurs and megafauna in addition to sharks. They are usually found in the same waters as prehistoric creatures or waters that are somehow strangely affected by the flow of time.",
 			"",
-			"**Shark-Blooded Sahuagin:** These sahuagin mutants have overly large maws filled with rows of sharklike teeth, and the fins and tail of an oversized thresher shark (or other local variety). These abnormalities give them the appearance of monstrous merfolk, a swim speed of 80 feet, and a bite attack that deals 1d6 points of damage. Sharkblooded sahuagin are most typically found in sahuagin communities with unusually high numbers of shark guardians and near shark breeding grounds.",
+			"**Shark-Blooded Sahuagin:** These sahuagin mutants have overly large maws filled with rows of shark-like teeth, and the fins and tail of an oversized thresher shark (or other local variety). These abnormalities give them the appearance of monstrous merfolk, a swim speed of 80 feet, and a bite attack that deals 1d6 points of damage. Sharkblooded sahuagin are most typically found in sahuagin communities with unusually high numbers of shark guardians and near shark breeding grounds.",
 			"",
 			"**Spined Sahuagin:** Covered in hundreds of needle-like spines, these sahuagin can raise these piercing protrusions to impale creatures that attempt to grab or consume them. Any creature that grapples a spined sahuagin takes 1d4 points of piercing damage. Additionally, these mutants gain {feat/Defensive Combat Training} as a bonus feat. Spined sahuagin most commonly appear in depths that also serve as the hunting grounds of sea serpents, thalassic behemoths, or other massive aquatic predators."
 		]
@@ -3532,7 +3532,7 @@
 			"",
 			"::sh[Description]",
 			"",
-			"The unpredictability and viciousness of the sahuagin race isn't just an aspect of their sharklike temperament: it seems to be inherent in their very beings. The unusual and typically deadly mutants common to the race attest to this, their forms altering and becoming more deadly based either on the needs of the community or ambiguous environmental factors. Whatever the case, sahuagin mutants often rise to positions of respect and influence in sahuagin communities, their innate advantages instantly placing them among their people's rulers. Of these mutants, four-armed sahuagin brutes and malenti - sahuagin with the appearances of sea elves - arise most commonly, though these are in no way the only sahuagin mutants known to the savage seas.",
+			"The unpredictability and viciousness of the sahuagin race isn't just an aspect of their shark-like temperament: it seems to be inherent in their very beings. The unusual and typically deadly mutants common to the race attest to this, their forms altering and becoming more deadly based either on the needs of the community or ambiguous environmental factors. Whatever the case, sahuagin mutants often rise to positions of respect and influence in sahuagin communities, their innate advantages instantly placing them among their people's rulers. Of these mutants, four-armed sahuagin brutes and malenti - sahuagin with the appearances of sea elves - arise most commonly, though these are in no way the only sahuagin mutants known to the savage seas.",
 			"",
 			"### Sahuagin Alterations",
 			"",
@@ -3548,7 +3548,7 @@
 			"",
 			"**Prehistoric Sahuagin:** Also known as adacthys, these sahuagin mutants are throwbacks to some even more savage epoch; they are Large, have a +7 natural armor bonus, and can speak with aquatic dinosaurs and megafauna in addition to sharks. They are usually found in the same waters as prehistoric creatures or waters that are somehow strangely affected by the flow of time.",
 			"",
-			"**Shark-Blooded Sahuagin:** These sahuagin mutants have overly large maws filled with rows of sharklike teeth, and the fins and tail of an oversized thresher shark (or other local variety). These abnormalities give them the appearance of monstrous merfolk, a swim speed of 80 feet, and a bite attack that deals 1d6 points of damage. Sharkblooded sahuagin are most typically found in sahuagin communities with unusually high numbers of shark guardians and near shark breeding grounds.",
+			"**Shark-Blooded Sahuagin:** These sahuagin mutants have overly large maws filled with rows of shark-like teeth, and the fins and tail of an oversized thresher shark (or other local variety). These abnormalities give them the appearance of monstrous merfolk, a swim speed of 80 feet, and a bite attack that deals 1d6 points of damage. Sharkblooded sahuagin are most typically found in sahuagin communities with unusually high numbers of shark guardians and near shark breeding grounds.",
 			"",
 			"**Spined Sahuagin:** Covered in hundreds of needle-like spines, these sahuagin can raise these piercing protrusions to impale creatures that attempt to grab or consume them. Any creature that grapples a spined sahuagin takes 1d4 points of piercing damage. Additionally, these mutants gain {feat/Defensive Combat Training} as a bonus feat. Spined sahuagin most commonly appear in depths that also serve as the hunting grounds of sea serpents, thalassic behemoths, or other massive aquatic predators."
 		]

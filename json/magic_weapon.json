@@ -112,73 +112,46 @@
 			"This {eq-weapon/khopesh} has a silver blade polished to an almost blinding sheen and etched with motifs of vines and leaves. Blades of life's defense can be bought in Anuli's Sword Alley, and are becoming more popular as rumblings of an open war with Geb continue to grow ever louder. Each blade is imbued with a shimmer of nonmagical might against undead that grants the blade's bearer a +1 sacred bonus on saving throws against the abilities of undead. It is otherwise treated as a standard khopesh."
 		]
 	},
-	"mage_shot_acid": {
-		"name": "Mage Shot (Acid)",
+	"mage_shot": {
+		"name": "Mage Shot",
 		"sources": [ "Villain Codex" ],
 		"description": [
-			"## Mage Shot (Acid)",
+			"## Mage Shot",
 			"",
 			"{SOURCE Villain Codex/57}  ",
 			"**Aura** moderate evocation; **CL** 6th  ",
 			"**Slot** none; **Price** 178 gp; **Weight** -",
 			"",
-			"When propelled from a firearm, this +1 alchemical paper cartridge changes the damage to acid damage. If the target takes acid damage from the cartridge, it takes an additional 2d4 points of acid damage for the next 2 rounds or until the acid is neutralized. This damage doesn't stack with multiple shots or with acid arrow.",
+			"When propelled from a firearm, this +1 alchemical paper cartridge changes the damage, depending on the type of mage shot.",
+			"",
+			":HL[Acid:] The damage changes to acid damage. If the target takes acid damage from the cartridge, it takes an additional 2d4 points of acid damage for the next 2 rounds or until the acid is neutralized. This damage doesn't stack with multiple shots or with acid arrow.",
+			"",
+			":HL[Cold:] The damage changes to cold damage. If the target takes cold damage from the cartridge, it must succeed at a DC 14 Fortitude saving throw or be {misc/staggered} for 1d4 rounds.",
+			"",
+			":HL[Electricity:] The damage changes to electricity damage. If the target takes electricity damage from the cartridge, it must succeed at a DC 14 Fortitude saving throw or be {misc/dazed} for 1 round.",
+			"",
+			":HL[Fire:] The damage changes to fire damage. If the target takes fire damage from the cartridge, it must succeed at a DC 14 Reflex saving throw or catch on fire, taking an additional 1d6 points of fire damage on that round and on subsequent rounds, until the flames are extinguished.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/acid arrow}; **Price** 98 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor} and {spell/acid arrow} (acid), {spell/cone of cold} (cold), {spell/lightning bolt} (electricity), or {spell/scorching ray} (fire); **Price** 98 gp"
 		]
+	},
+	"mage_shot_acid": {
+		"name": "Mage Shot (Acid)",
+		"copyof": "mage_shot"
 	},
 	"mage_shot_cold": {
 		"name": "Mage Shot (Cold)",
-		"sources": [ "Villain Codex" ],
-		"description": [
-			"## Mage Shot (Cold)",
-			"",
-			"{SOURCE Villain Codex/57}  ",
-			"**Aura** moderate evocation; **CL** 6th  ",
-			"**Slot** none; **Price** 178 gp; **Weight** -",
-			"",
-			"When propelled from a firearm, this +1 alchemical paper cartridge changes the damage to cold damage. If the target takes cold damage from the cartridge, it must succeed at a DC 14 Fortitude saving throw or be staggered for 1d4 rounds.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/cone of cold}; **Price** 98 gp"
-		]
+		"copyof": "mage_shot"
 	},
 	"mage_shot_electricity": {
 		"name": "Mage Shot (Electricity)",
-		"sources": [ "Villain Codex" ],
-		"description": [
-			"## Mage Shot (Electricity)",
-			"",
-			"{SOURCE Villain Codex/57}  ",
-			"**Aura** moderate evocation; **CL** 6th  ",
-			"**Slot** none; **Price** 178 gp; **Weight** -",
-			"",
-			"When propelled from a firearm, this +1 alchemical paper cartridge changes the damage to electricity damage. If the target takes electricity damage from the cartridge, it must succeed at a DC 14 Fortitude saving throw or be dazed for 1 round.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/lightning bolt}; **Price** 98 gp"
-		]
+		"copyof": "mage_shot"
 	},
 	"mage_shot_fire": {
 		"name": "Mage Shot (Fire)",
-		"sources": [ "Villain Codex" ],
-		"description": [
-			"## Mage Shot (Fire)",
-			"",
-			"{SOURCE Villain Codex/57}  ",
-			"**Aura** moderate evocation; **CL** 6th  ",
-			"**Slot** none; **Price** 178 gp; **Weight** -",
-			"",
-			"When propelled from a firearm, this +1 alchemical paper cartridge changes the damage to fire damage. If the target takes fire damage from the cartridge, it must succeed at a DC 14 Reflex saving throw or catch on fire, taking an additional 1d6 points of fire damage on that round and on subsequent rounds, until the flames are extinguished.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/scorching ray}; **Price** 98 gp"
-		]
+		"copyof": "mage_shot"
 	},
 	"dustburst_bullet": {
 		"name": "Dustburst Bullet",
@@ -2309,7 +2282,7 @@
 			"**Aura** moderate enchantment; **CL** 7th  ",
 			"**Slot** none; **Price** 9,000 gp; **Weight** 9 lbs.",
 			"",
-			"The impaler of thorns is an ancient weapon dating back to Thassilonian times, when it was often used by city guards to aid in breaking up civil unrest. An impaler's shaft is made of darkwood, and its head is a thornlike, wide-bladed barb. When an impaler of thorns is used in combat, its successful critical hits are accompanied by an unsettling screech, as of some wild beast in anger.",
+			"The impaler of thorns is an ancient weapon dating back to Thassilonian times, when it was often used by city guards to aid in breaking up civil unrest. An impaler's shaft is made of darkwood, and its head is a thorn-like, wide-bladed barb. When an impaler of thorns is used in combat, its successful critical hits are accompanied by an unsettling screech, as of some wild beast in anger.",
 			"",
 			"An impaler of thorns is a +1 {eq-weapon/longspear}. Once per day as it strikes a foe, the wielder can cause it (as a free action) to unleash a 30-foot-radius burst of despair that affects all creatures not wielding an impaler of thorns. Creatures affected must succeed at DC 16 Will saves or become overwhelmed with sadness and despair, taking -2 penalties on attack rolls, saving throws, ability checks, skill checks, and weapon damage rolls for 6 minutes. The target struck when this effect is triggered must also succeed at a second DC 16 Will save to resist becoming nauseated with despair for 1 round.",
 			"",

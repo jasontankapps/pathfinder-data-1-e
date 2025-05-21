@@ -226,7 +226,7 @@
 			"**Price** 150 gp; **Weight** 1 lb.  ",
 			"**Category** Alchemical Tools",
 			"",
-			"As malleable as ordinary wax, alchemical candle wax produces an aromatic scent when burned. A candle made from alchemical candle wax normally possesses a sweet, honeylike smell, but a character who is trained in Craft (alchemy) can infuse the wax with nearly any scent available to her. A character trained in both Craft (alchemy) and Craft (poison) can infuse one candle's worth of wax with any alchemical substance that requires inhalation, such as a vial of {eq-misc/alchemical pheromones>_aggression} or a dose of inhaled poison. When infusing the wax with poison, the normal rules for exposing oneself to poison apply. Only one kind of alchemical substance can be infused into a single candle at a time, though a single candle can hold up to 3 doses of a substance. A single lump of alchemical candle wax is enough to create one candle.",
+			"As malleable as ordinary wax, alchemical candle wax produces an aromatic scent when burned. A candle made from alchemical candle wax normally possesses a sweet, honey-like smell, but a character who is trained in Craft (alchemy) can infuse the wax with nearly any scent available to her. A character trained in both Craft (alchemy) and Craft (poison) can infuse one candle's worth of wax with any alchemical substance that requires inhalation, such as a vial of {eq-misc/alchemical pheromones>_aggression} or a dose of inhaled poison. When infusing the wax with poison, the normal rules for exposing oneself to poison apply. Only one kind of alchemical substance can be infused into a single candle at a time, though a single candle can hold up to 3 doses of a substance. A single lump of alchemical candle wax is enough to create one candle.",
 			"",
 			"After burning for 1 minute, the alchemical candle releases the chosen alchemical substance as a colorless haze that lingers in a 5-foot radius centered on the candle for up to 1 hour, plus 30 minutes for each dose or vial of a substance infused into the candle wax beyond the first. A moderate wind (11+ mph) disperses the haze in 2 rounds; a strong or stronger wind (21+ mph) disperses the haze immediately. Alchemical candle wax can be created with a successful DC 20 Craft (alchemy) check.",
 			"",
@@ -3639,7 +3639,7 @@
 			"**Price** 100 gp; **Weight** -  ",
 			"**Category** Alchemical Tools",
 			"",
-			"Though {race/oread/s} with obviously stony features are rare, almost all oreads have an essentially earthen quality to their skin that makes it perfect for cultivating plant life. Where other races would be appalled at the thought of plants taking root in their flesh, oreads see it as a natural and healthy extension of their elemental nature. For this reason, oread herbalists developed several strains of moss and lichen specifically adapted to grow on their bodies. Camouflage lichen is the most common variety of these oread plants. It takes 1 minute to apply a paste of camouflage lichen spores to the skin, and an additional 24 hours for the fungus to sprout. After this time, the oread is covered in a thin green layer of living plant matter, granting her a +4 bonus on Stealth checks made in green forest and jungle environments. Red-orange and white varieties exist, providing bonuses in appropriately colored environments (red-orange among autumn leaves or in red deserts, white in snow, and so on). Camouflage lichen has a short lifespan; it withers and dies 3 days after being applied, crumbling away into harmless powder. This item only works on oreads and other creatures with rocklike bodies."
+			"Though {race/oread/s} with obviously stony features are rare, almost all oreads have an essentially earthen quality to their skin that makes it perfect for cultivating plant life. Where other races would be appalled at the thought of plants taking root in their flesh, oreads see it as a natural and healthy extension of their elemental nature. For this reason, oread herbalists developed several strains of moss and lichen specifically adapted to grow on their bodies. Camouflage lichen is the most common variety of these oread plants. It takes 1 minute to apply a paste of camouflage lichen spores to the skin, and an additional 24 hours for the fungus to sprout. After this time, the oread is covered in a thin green layer of living plant matter, granting her a +4 bonus on Stealth checks made in green forest and jungle environments. Red-orange and white varieties exist, providing bonuses in appropriately colored environments (red-orange among autumn leaves or in red deserts, white in snow, and so on). Camouflage lichen has a short lifespan; it withers and dies 3 days after being applied, crumbling away into harmless powder. This item only works on oreads and other creatures with rock-like bodies."
 		]
 	},
 	"camouflage_netting": {
@@ -3759,7 +3759,7 @@
 			"**Price** 1 cp; **Weight** 1/2 lb.  ",
 			"**Category** Adventuring Gear",
 			"",
-			"This saucerlike object has a flat bottom, a handle, and a spike on top. You can affix a {eq-misc/candle} onto the spike (up to 3 inches in diameter) and hold the candlestick by the handle. The flat bottom means you're able to set it down and not worry about the candle falling over and extinguishing itself. A typical candlestick is crafted from baked clay or a cheap metal such as copper, but elaborate and expensive ones exist."
+			"This saucer-like object has a flat bottom, a handle, and a spike on top. You can affix a {eq-misc/candle} onto the spike (up to 3 inches in diameter) and hold the candlestick by the handle. The flat bottom means you're able to set it down and not worry about the candle falling over and extinguishing itself. A typical candlestick is crafted from baked clay or a cheap metal such as copper, but elaborate and expensive ones exist."
 		]
 	},
 	"cane_common": {
@@ -4063,7 +4063,7 @@
 			"**Price** 1 gp; **Weight** 2 lbs.  ",
 			"**Category** Food/Drink",
 			"",
-			"This beerlike drink, made from manioc root or corn, requires extensive chewing as part of its production."
+			"This beer-like drink, made from manioc root or corn, requires extensive chewing as part of its production."
 		]
 	},
 	"caul": {
@@ -4812,7 +4812,7 @@
 			"**Price** 3 gp; **Weight** 4 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
-			"This tall, teapotlike device contains a small chamber for coffee grounds and a large chamber for water, connected by a small tube. Heating the pot forces boiling water through the tube and into the grounds. A glass knob at the top of the tube allows you to see the color of the brew and stop when it is sufficiently strong. It can brew up to 4 {eq-misc/cups of |coffee>_cup} at a time. It can also be used to make tea, steep medicinal herbs, or just boil water."
+			"This tall, teapot-like device contains a small chamber for coffee grounds and a large chamber for water, connected by a small tube. Heating the pot forces boiling water through the tube and into the grounds. A glass knob at the top of the tube allows you to see the color of the brew and stop when it is sufficiently strong. It can brew up to 4 {eq-misc/cups of |coffee>_cup} at a time. It can also be used to make tea, steep medicinal herbs, or just boil water."
 		]
 	},
 	"coffin_common": {

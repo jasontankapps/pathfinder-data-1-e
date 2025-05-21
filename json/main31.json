@@ -2348,7 +2348,7 @@
 					[ "{spell/Age Resistance, Greater}", 5, "transmutation", null, null, "Ignore penalties from venerable age.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
 					[ "{spell/Air Walk, Communal}", 5, "transmutation", null, "air", "As air walk, but you may divide the duration among creatures touched.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 0, "DF" ], [ 1, "" ], [ 1, "" ] ],
 					[ "{spell/Alaznist's Jinx}", 5, "evocation", null, "curse", "Inlfict the spell burn spellblight", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
-					[ "{spell/Awaken Construct}", 5, "transmutation", null, null, "Grant a construct humanlike sentience.", [ 0, "V" ], [ 0, "S" ], [ 0, "M" ], [ 1, "" ], [ 0, "DF" ], [ 1, "" ], [ 1, "" ] ],
+					[ "{spell/Awaken Construct}", 5, "transmutation", null, null, "Grant a construct human-like sentience.", [ 0, "V" ], [ 0, "S" ], [ 0, "M" ], [ 1, "" ], [ 0, "DF" ], [ 1, "" ], [ 1, "" ] ],
 					[ "{spell/Battlemind Link}", 5, "divination", null, "mind-affecting", "You and an ally gain attack and AC bonuses.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
 					[ "{spell/Bind Sage}", 5, "conjuration", "calling", null, "Summon a caulborn to answer questions", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
 					[ "{spell/Bloodstone Mirror}", 5, "abjuration", null, null, "Protect yourself against a mind-affecting effect and redirect it to a nearby creature", [ 0, "V" ], [ 0, "S" ], [ 0, "M" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],

@@ -1256,7 +1256,7 @@
 		"category": "Other Discoveries",
 		"level": 1,
 		"description": [
-			"The alchemist has mastered preserving flesh and applied this knowledge to his own body, turning himself into an undeadlike creature. After learning this discovery, the alchemist must perform a 30-day regimen of a special diet, rigorous exercise, and drinking a mildly poisonous alchemical tea. At the end of this regimen, he falls unconscious for 24 hours, then awakens as a \"living mummy.\" The alchemist's type does not change, but he becomes immune to cold, nonlethal damage, paralysis, and sleep. An alchemist must be at least 10th level and must have the {discovery/preserve organs} discovery before selecting this discovery."
+			"The alchemist has mastered preserving flesh and applied this knowledge to his own body, turning himself into an undead-like creature. After learning this discovery, the alchemist must perform a 30-day regimen of a special diet, rigorous exercise, and drinking a mildly poisonous alchemical tea. At the end of this regimen, he falls unconscious for 24 hours, then awakens as a \"living mummy.\" The alchemist's type does not change, but he becomes immune to cold, nonlethal damage, paralysis, and sleep. An alchemist must be at least 10th level and must have the {discovery/preserve organs} discovery before selecting this discovery."
 		]
 	},
 	"promethean_disciple": {
@@ -1337,7 +1337,7 @@
 		"compilationSources": [ [ "Ultimate Magic" ] ],
 		"category": "Other Discoveries",
 		"description": [
-			"The alchemist creates a Diminutive or Tiny tumor on his body, usually on his back or stomach. As a standard action, the alchemist can have the tumor detach itself from his body as a separate creature vaguely resembling a kind of animal suitable for a {ability/familiar} (bat, cat, and so on) and move about as if it were an independent creature. The tumor can reattach itself to the alchemist as a standard action. The tumor has all the abilities of the animal it resembles (for example, a batlike tumor can fly) and {sidekick/familiar/ abilities} based on the alchemist's caster level (though some familiar abilities may be useless to an alchemist). The tumor acts as the alchemist's familiar whether attached or separated (providing a skill bonus, the {feat/Alertness} feat, and so on). When attached to the alchemist, the tumor has {umr/fast healing} 5. An alchemist's extracts and mutagens are considered spells for the purposes of familiar abilities like share spells and deliver touch spells. If a tumor familiar is lost or dies, it can be replaced 1 week later through a specialized procedure that costs 200 gp per alchemist level. The ritual takes 8 hours to complete."
+			"The alchemist creates a Diminutive or Tiny tumor on his body, usually on his back or stomach. As a standard action, the alchemist can have the tumor detach itself from his body as a separate creature vaguely resembling a kind of animal suitable for a {ability/familiar} (bat, cat, and so on) and move about as if it were an independent creature. The tumor can reattach itself to the alchemist as a standard action. The tumor has all the abilities of the animal it resembles (for example, a bat-like tumor can fly) and {sidekick/familiar/ abilities} based on the alchemist's caster level (though some familiar abilities may be useless to an alchemist). The tumor acts as the alchemist's familiar whether attached or separated (providing a skill bonus, the {feat/Alertness} feat, and so on). When attached to the alchemist, the tumor has {umr/fast healing} 5. An alchemist's extracts and mutagens are considered spells for the purposes of familiar abilities like share spells and deliver touch spells. If a tumor familiar is lost or dies, it can be replaced 1 week later through a specialized procedure that costs 200 gp per alchemist level. The ritual takes 8 hours to complete."
 		]
 	},
 	"vestigial_arm": {
@@ -1393,7 +1393,7 @@
 		"compilationSources": [ [ "Ultimate Magic" ] ],
 		"category": "Other Discoveries",
 		"description": [
-			"The alchemist gains batlike, birdlike, or insectlike functional wings, allowing him to fly as the {spell/fly} spell for a number of minutes per day equal to his caster level. These minutes do not need to be consecutive, but they must be spent in 1-minute increments. An alchemist can select this discovery multiple times; each time he does so, he adds his caster level to the number of minutes per day that he can fly with the wings. This flight is an extraordinary ability. An alchemist must be at least 6th level before selecting this discovery."
+			"The alchemist gains bat-like, bird-like, or insect-like functional wings, allowing him to fly as the {spell/fly} spell for a number of minutes per day equal to his caster level. These minutes do not need to be consecutive, but they must be spent in 1-minute increments. An alchemist can select this discovery multiple times; each time he does so, he adds his caster level to the number of minutes per day that he can fly with the wings. This flight is an extraordinary ability. An alchemist must be at least 6th level before selecting this discovery."
 		]
 	},
 	"awakened_intellect": {

@@ -2863,7 +2863,7 @@
 					[ "{spell/Alleviate Corruption}", 6, "abjuration", null, null, "Attempt to weakne a corruption's effect at risk to yourself", [ 0, "V" ], [ 0, "S" ], [ 0, "M" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
 					[ "{spell/Antilife Shell}", 6, "abjuration", null, null, "10-ft.-radius field hedges out living creatures.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 0, "DF" ], [ 1, "" ], [ 1, "" ] ],
 					[ "{spell/Awaken}", 6, "transmutation", null, null, "Animal or tree gains human intellect.", [ 0, "V" ], [ 0, "S" ], [ 0, "M" ], [ 1, "" ], [ 0, "DF" ], [ 1, "" ], [ 1, "" ] ],
-					[ "{spell/Awaken Construct}", 6, "transmutation", null, null, "Grant a construct humanlike sentience.", [ 0, "V" ], [ 0, "S" ], [ 0, "M" ], [ 1, "" ], [ 0, "DF" ], [ 1, "" ], [ 1, "" ] ],
+					[ "{spell/Awaken Construct}", 6, "transmutation", null, null, "Grant a construct human-like sentience.", [ 0, "V" ], [ 0, "S" ], [ 0, "M" ], [ 1, "" ], [ 0, "DF" ], [ 1, "" ], [ 1, "" ] ],
 					[ "{spell/Balance of Suffering}", 6, "conjuration", "healing", null, "Steal lifeforce from one creature and imbue it into another", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 0, "DF" ], [ 1, "" ], [ 1, "" ] ],
 					[ "{spell/Baleful Shadow Transmutation}", 6, "illusion", "shadow", "shadow", "Mutate someone's shadow and trick the creature into believing they've transformed.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
 					[ "{spell/Banishment}", 6, "abjuration", null, null, "Banishes 2 HD/level of extraplanar creatures.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 0, "F" ], [ 1, "" ] ],

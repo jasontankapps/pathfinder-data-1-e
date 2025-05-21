@@ -613,7 +613,7 @@
 			"",
 			"A bramble throne's wide trunk typically rises only 2 feet above ground before branching into a throne 8 feet wide and 10 feet high. Leaves surround the throne like an ornate canopy, and several thick, barbed vines wind around the entire tree. A bramble throne can slowly pull itself along the ground with these vines, although it more frequently uses them to lash out at creatures that stray within the range of its psychic senses. If it kills an intelligent creature, it seats the corpse upon the throne, using invasive tendrils to give the corpse the semblance of animation and regal authority. With a corpse seated upon it, a bramble throne can compel other creatures to make the obeisance it craves.",
 			"",
-			"Bramble thrones retain an echo of the ruler's imperious nature, allowing it to speak basic commands such as \"approach,\" \"bow,\" and \"kneel\" through a jagged, mouthlike slit in its trunk. Bramble thrones speak whatever languages the ruler knew in life.",
+			"Bramble thrones retain an echo of the ruler's imperious nature, allowing it to speak basic commands such as \"approach,\" \"bow,\" and \"kneel\" through a jagged, mouth-like slit in its trunk. Bramble thrones speak whatever languages the ruler knew in life.",
 			"",
 			"Bramble thrones grow up to 12 feet wide and 20 feet high and weigh about 4,000 pounds.",
 			"",
@@ -2607,7 +2607,7 @@
 		"name": "Canopy Creeper",
 		"sources": [ "Pathfinder #56: Raiders of the Fever Sea" ],
 		"description": [
-			"*What at first appeared to be nothing more than a tangle of thick, twisted vines growing among the canopy of the trees suddenly coils itself into a large mass dangling high above. A large beaklike maw emerges from the center of the fecund mass, numerous thick, grasping vines whipping through the air.*",
+			"*What at first appeared to be nothing more than a tangle of thick, twisted vines growing among the canopy of the trees suddenly coils itself into a large mass dangling high above. A large beak-like maw emerges from the center of the fecund mass, numerous thick, grasping vines whipping through the air.*",
 			"",
 			"::mh[Canopy Creeper]{cr=\"8\"}",
 			"",
@@ -2658,13 +2658,13 @@
 			"",
 			"::sh[Description]",
 			"",
-			"A little-known menace of the jungles and forests of uncharted southern Garund, the canopy creeper is a semi-sentient plant that blends in with the foliage of the forest canopy and makes use of the flora's own outgrowth to trap and feed upon its prey. The canopy creeper resembles a mass of thickly knotted and twisted jungle vines that correspond to the colors and varieties of its native habitat. It has a larger knot of this tangle at its center mass, which also conceals a large, beaklike maw. The canopy creeper can spread itself over a broad area to resemble little more than this network of vines, or it can draw itself up into a large, coiled mass with its beak exposed.",
+			"A little-known menace of the jungles and forests of uncharted southern Garund, the canopy creeper is a semi-sentient plant that blends in with the foliage of the forest canopy and makes use of the flora's own outgrowth to trap and feed upon its prey. The canopy creeper resembles a mass of thickly knotted and twisted jungle vines that correspond to the colors and varieties of its native habitat. It has a larger knot of this tangle at its center mass, which also conceals a large, beak-like maw. The canopy creeper can spread itself over a broad area to resemble little more than this network of vines, or it can draw itself up into a large, coiled mass with its beak exposed.",
 			"",
 			"The actual vines that coil together to form the canopy creeper are hundreds of feet long altogether in an adult specimen. When spread out, these tangles of vine cover an area 20 feet in diameter. They congregate into a mass approximately 10 feet in diameter when drawn in together. The mass of a canopy creeper weighs about 3,000 pounds in total. A canopy creeper can live for hundreds of years in a hospitable climate if sufficient sunlight and food sources are available.",
 			"",
 			"Canopy creepers are plants naturally evolved to take advantage of their surroundings. They grow amid the lush foliage of jungles or rain forests where a diverse array of vine plants proliferates. The canopy creeper climbs up among the tree tops and intertwines its own vine-grown body with those that grow naturally, enabling it to gain control over the naturally occurring network of vines to use as a source of both defense and sustenance. While a canopy creeper does gain food and energy from photosynthesis, it cannot maintain its active metabolism when relying only on the nutrients gleaned from sun and rain. For maximum efficiency, it uses the vine tendrils that it gains control of to detect by scent, to entrap, and to draw prey toward itself. It is also able to use these vine tendrils to procure food as they draw the nutrient-rich fluids from creatures entangled within their embrace, which are then conveyed back to the controlling canopy creeper.",
 			"",
-			"While the canopy creeper's primary method of attack is through its vine tendrils, it does have a large beak mouth composed of a hard, hornlike material. This beak is normally concealed within the center of its vine mass, but when creatures approach that prove able to resist its vine tendril attacks, the canopy creeper tries to draw them in close enough so that it can attack with its beak as well. It can consume prey with this mouth, but this is not its preferred method of feeding as most of the prey's fluids are lost as the beak tears the creature apart, resulting in fewer nutrients than if it were to feed solely through the vine tendrils.",
+			"While the canopy creeper's primary method of attack is through its vine tendrils, it does have a large beak mouth composed of a hard, horn-like material. This beak is normally concealed within the center of its vine mass, but when creatures approach that prove able to resist its vine tendril attacks, the canopy creeper tries to draw them in close enough so that it can attack with its beak as well. It can consume prey with this mouth, but this is not its preferred method of feeding as most of the prey's fluids are lost as the beak tears the creature apart, resulting in fewer nutrients than if it were to feed solely through the vine tendrils.",
 			"",
 			"A canopy creeper naturally mimics the appearance and growth of the types of vines that grow in its environment, so when one is concealed among the vine-tangled foliage above, it is difficult for even an experienced outdoorsman to detect. This is further exacerbated by the fact that it is usually hanging about 100 feet above the ground, making its appearance even more difficult to discern. Canopy creepers' preferred prey is Medium or larger creatures since these tend to hold more of the nutrient-rich fluids that the creepers feed upon; meanwhile, Small and smaller creatures - such as small monkeys - can often be seen cavorting around and even suspended from a canopy creeper, oblivious to its presence. However, during starvation conditions when the creeper is forced to rely upon photosynthesis for its survival, it readily preys upon such smaller creatures as well. The result of this preference, however, is that the canopy creature typically focuses its attacks on opponents of at least Medium size.",
 			"",
@@ -3486,7 +3486,7 @@
 		"name": "Catfolk",
 		"sources": [ "Bestiary 3" ],
 		"description": [
-			"*This lithe, catlike humanoid has a long tail and pointed ears. Her feline eyes sparkle with curiosity and mischief.*",
+			"*This lithe, cat-like humanoid has a long tail and pointed ears. Her feline eyes sparkle with curiosity and mischief.*",
 			"",
 			"::mh[Catfolk]{cr=\"1/2\"}",
 			"",
@@ -3612,7 +3612,7 @@
 			"City of Strangers"
 		],
 		"description": [
-			"*This creature has a split-jawed mouth, a hoodlike growth on its head, and two hideously elongated fingers on each hand.*",
+			"*This creature has a split-jawed mouth, a hood-like growth on its head, and two hideously elongated fingers on each hand.*",
 			"",
 			"::mh[Caulborn]{cr=\"7\"}",
 			"",
@@ -3737,7 +3737,7 @@
 		"name": "Chrestomath (Caulborn)",
 		"sources": [ "Pathfinder #63: The Asylum Stone" ],
 		"description": [
-			"*This bloated, larval sack of green and pink flesh is wet and curdled, its brainlike wrinkles interrupted by transparent membranes showing dark fluid within.*",
+			"*This bloated, larval sack of green and pink flesh is wet and curdled, its brain-like wrinkles interrupted by transparent membranes showing dark fluid within.*",
 			"",
 			"::mh[Chrestomath]{cr=\"6\"}",
 			"",
@@ -3809,7 +3809,7 @@
 			"",
 			"While most chrestomaths have very little personality, any traces of identity being consumed by oceans of information, some eventually grow to control the data stored inside them and reestablish some semblance of self. One of the best such examples is Anamnesis, the One That Watches. As the heart of Xavorax, the city of caulborn and vampires deep below Kaer Maga, Anamnesis may well be one of the most learned entities on the face of Golarion, its thoughts and motives far beyond human comprehension. To outsiders, the thousands of pounds of flesh might seem barely sentient, capable only of shifting its colors to reflect emotions. Yet whether it's slave or master - or perhaps both - the lord of the Quivering Palace influences all the residents of Xavorax, watching over them as the central relay of their hive mind and the repository of all their race holds dear.",
 			"",
-			"While parasitic by nature, caulborn are not necessarily predatory, and aren't above trading for the sustenance they need. When they do so, it's often as prophets, a role in which chrestomaths are singularly important. Left with nothing but godlike memories and an ability to analyze information, chrestomaths are often able to extrapolate from trends and make logical connections that result in uncannily accurate predictions about future events."
+			"While parasitic by nature, caulborn are not necessarily predatory, and aren't above trading for the sustenance they need. When they do so, it's often as prophets, a role in which chrestomaths are singularly important. Left with nothing but god-like memories and an ability to analyze information, chrestomaths are often able to extrapolate from trends and make logical connections that result in uncannily accurate predictions about future events."
 		]
 	},
 	"chrestomath": { "copyof": "caulborn_chrestomath" },

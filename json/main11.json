@@ -2198,7 +2198,7 @@
 					[ "{spell/Archon's Trumpet}", "evocation", null, "good, sonic", "Paralyze all creatures in the area with the sound of a booming trumpet.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
 					[ "{spell/Aroden's Magic Army}", "transmutation", null, null, "Imbue all manufactured weapons in range with magic.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 0, "DF" ], [ 1, "" ], [ 1, "" ] ],
 					[ "{spell/Artificer's Curse}", "transmutation", null, null, "Temporarily suppress the most powerful qualities of a magical item.", [ 0, "V" ], [ 0, "S" ], [ 0, "M" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
-					[ "{spell/Awaken Construct}", "transmutation", null, null, "Grant a construct humanlike sentience.", [ 0, "V" ], [ 0, "S" ], [ 0, "M" ], [ 1, "" ], [ 0, "DF" ], [ 1, "" ], [ 1, "" ] ],
+					[ "{spell/Awaken Construct}", "transmutation", null, null, "Grant a construct human-like sentience.", [ 0, "V" ], [ 0, "S" ], [ 0, "M" ], [ 1, "" ], [ 0, "DF" ], [ 1, "" ], [ 1, "" ] ],
 					[ "{spell/Banishment}", "abjuration", null, null, "Banishes 2 HD/level of extraplanar creatures.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 0, "F" ], [ 1, "" ] ],
 					[ "{spell/Bestow Planar Infusion III}", "evocation", null, null, "Grants the target the benefits of a greater planar infusion", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
 					[ "{spell/Bite the Hand, Mass}", "enchantment", "compulsion", null, "As Bite the Hand but with multiple creatures.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 0, "DF" ], [ 1, "" ], [ 1, "" ] ],

@@ -239,7 +239,7 @@
 					[ "{spell/Authenticating Gaze}", 1, "divination", "Gain a bonus on Appraise/Linguistics checks related to books and scrolls, along with some magical detection abilities.", [ 0, "V" ], [ 0, "S" ], [ 0, "M" ], [ 1, "" ], [ 0, "DF" ], [ 1, "" ], [ 1, "" ] ],
 					[ "{spell/Aversion}", [ 2.551, "2, 3" ], "enchantment", "Cause the target to avoid an object or location.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
 					[ "{spell/Awaken}", [ 5.331, "5, 6" ], "transmutation", "Animal or tree gains human intellect.", [ 0, "V" ], [ 0, "S" ], [ 0, "M" ], [ 1, "" ], [ 0, "DF" ], [ 1, "" ], [ 1, "" ] ],
-					[ "{spell/Awaken Construct}", [ 6.501, "5, 6, 7" ], "transmutation", "Grant a construct humanlike sentience.", [ 0, "V" ], [ 0, "S" ], [ 0, "M" ], [ 1, "" ], [ 0, "DF" ], [ 1, "" ], [ 1, "" ] ],
+					[ "{spell/Awaken Construct}", [ 6.501, "5, 6, 7" ], "transmutation", "Grant a construct human-like sentience.", [ 0, "V" ], [ 0, "S" ], [ 0, "M" ], [ 1, "" ], [ 0, "DF" ], [ 1, "" ], [ 1, "" ] ],
 					[ "{spell/Awaken the Devoured}", [ 4.911, "4, 5" ], "divination", "Deal 1d8/level nonlethal damage to a daemon and make it confused.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
 					[ "{spell/Babble}", [ 2.631, "2, 3" ], "enchantment", "Target becomes nauseated and causes nearby creatures to become fascinated.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
 					[ "{spell/Badger's Ferocity}", [ 2.361, "2, 3" ], "transmutation", "Weapons are keen while you concentrate.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],

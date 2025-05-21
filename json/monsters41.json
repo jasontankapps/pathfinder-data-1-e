@@ -269,7 +269,7 @@
 		"name": "Wyvaran",
 		"sources": [ "Bestiary 4" ],
 		"description": [
-			"*This dragonlike humanoid brandishes its spear, spreads its wings, and shows its fangs in a angry snarl.*",
+			"*This dragon-like humanoid brandishes its spear, spreads its wings, and shows its fangs in a angry snarl.*",
 			"",
 			"::mh[Wyvaran]{cr=\"1/2\"}",
 			"",
@@ -324,7 +324,7 @@
 			"",
 			"**+2 Dexterity, -2 Intelligence, +2 Wisdom:** Wyvarans have a reptilian grace and a strong will, but they tend to be a little dimwitted.  ",
 			"**Normal Speed:** Wyvarans have a base speed of 30 feet.  ",
-			"**Flight:** Wyvarans have dragonlike wings that grant them a fly speed of 30 feet with clumsy maneuverability.  ",
+			"**Flight:** Wyvarans have dragon-like wings that grant them a fly speed of 30 feet with clumsy maneuverability.  ",
 			"**Slapping Tail (Ex):** Wyvarans have a tail attack they can only use when making attacks of opportunity. This slapping tail attack deals 1d8 points of damage plus the wyvaran's Strength modifier. Darkvision 60 ft.: Wyvarans can see in the dark up to 60 feet.  ",
 			"**Low-Light Vision:** Wyvarans have low-light vision.  ",
 			"**Languages:** Wyvarans speak Common and Draconic. A wyvaran with a high Intelligence score can choose from the following: Dwarven, Elven, Gnome, Goblin, and Orc."
@@ -567,7 +567,7 @@
 		"name": "Xiao",
 		"sources": [ "Bestiary 5" ],
 		"description": [
-			"*This snarling blue-white monkey flies through the air on a pair of birdlike wings.*",
+			"*This snarling blue-white monkey flies through the air on a pair of bird-like wings.*",
 			"",
 			"::mh[Xiao]{cr=\"2\"}",
 			"",
@@ -679,7 +679,7 @@
 		"name": "Xill Matriarch",
 		"sources": [ "Occult Bestiary" ],
 		"description": [
-			"*This flame-red, four-armed creature has large mandibles and numerous hornlike projections spike from its head.*",
+			"*This flame-red, four-armed creature has large mandibles and numerous horn-like projections spike from its head.*",
 			"",
 			"::mh[Xill Matriarch]{cr=\"9\"}",
 			"",
@@ -1610,7 +1610,7 @@
 		"name": "Yithian Elder",
 		"sources": [ "Occult Bestiary" ],
 		"description": [
-			"*This creature's conical body bears four rubbery appendages: two end in strong pincers, another ends in a cluster of four trumpetlike organs, and yet another is attached to a round head with three eyes that glow with ancient, forbidden power.*",
+			"*This creature's conical body bears four rubbery appendages: two end in strong pincers, another ends in a cluster of four trumpet-like organs, and yet another is attached to a round head with three eyes that glow with ancient, forbidden power.*",
 			"",
 			"::mh[Yithian Elder]{cr=\"13\"}",
 			"",
@@ -1790,7 +1790,7 @@
 			"",
 			"::sh[Description]",
 			"",
-			"For those unfortunate enough to get in an ypotryll's way, the thundering rhythm of its hooves is the sound of doom. These creatures are pure savagery and destruction incarnate. A bulk of muscle and hate, a charging ypotryll can be slowed by few things. Bodies and viscera are strewed about when this powerful boarlike juggernaut hits a shield wall, and pikes splinter on its armored plates as if they were twigs. Given enough momentum, a charging ypotryll can rip apart a drawbridge or even the crash through a keep's walls. Powerful savage tribes corral these beasts and unleash their carnage on the battlefield. Giants and powerful troll chiefs prize ypotrylls, and spend much time and resources to break them, though ypotrylls' volatile nature ensures such domestication is rare. When it does happen, they make truly frightening steeds.",
+			"For those unfortunate enough to get in an ypotryll's way, the thundering rhythm of its hooves is the sound of doom. These creatures are pure savagery and destruction incarnate. A bulk of muscle and hate, a charging ypotryll can be slowed by few things. Bodies and viscera are strewed about when this powerful boar-like juggernaut hits a shield wall, and pikes splinter on its armored plates as if they were twigs. Given enough momentum, a charging ypotryll can rip apart a drawbridge or even the crash through a keep's walls. Powerful savage tribes corral these beasts and unleash their carnage on the battlefield. Giants and powerful troll chiefs prize ypotrylls, and spend much time and resources to break them, though ypotrylls' volatile nature ensures such domestication is rare. When it does happen, they make truly frightening steeds.",
 			"",
 			"In the wild, ypotrylls spend their time roaming their territory looking for enough food to support their massive bodies. While they prefer meat, these creatures are omnivores and will eat almost anything. Ypotrylls are especially fond of the scraps they can find in the trash heaps of civilized races, which can mean disaster for a settlement."
 		]
@@ -2314,7 +2314,7 @@
 			"",
 			"::sh[Description]",
 			"",
-			"Zentragts are armored, bearlike servitors of Gorum. Terse, burly, and independent, they are disciplined warriors, and use canny tactics whether alone, grouped with their own kind, or part of a legion of mixed creatures. They relish opportunities to charge into battle and eagerly serve in the vanguard of armies sworn to Our Lord in Iron.",
+			"Zentragts are armored, bear-like servitors of Gorum. Terse, burly, and independent, they are disciplined warriors, and use canny tactics whether alone, grouped with their own kind, or part of a legion of mixed creatures. They relish opportunities to charge into battle and eagerly serve in the vanguard of armies sworn to Our Lord in Iron.",
 			"",
 			"Zentragts quickly grow bored if there is nothing for them to fight, and challenge each other - or any creature present that looks like it can handle a rough fight - to maintain their high spirits. They work as needed to prepare for future battles, hauling materials to build defensive walls or siege engines for future conflicts or hunting creatures that consider themselves apex predators. They prefer using their magical abilities to enhance themselves and share their blessings with those they consider worthy allies. Some particularly brazen zentragts have even been known to use magic to enhance foes, bolstering their strength or healing their wounds to ensure a more worthy battle. Regardless of their foe, zentragts enjoy singing during combat (though they aren't particularly good at it), and keep rhythm by using their metallic natural weapons as percussive instruments against enemy armor.",
 			"",
@@ -2329,7 +2329,7 @@
 		"name": "Zephyr",
 		"sources": [ "Pathfinder #101: The Kintargo Contract" ],
 		"description": [
-			"*This blue-furred horse with a cloudlike mane and tail has gray, humanlike eyes that show obvious intelligence.*",
+			"*This blue-furred horse with a cloud-like mane and tail has gray, human-like eyes that show obvious intelligence.*",
 			"",
 			"::mh[Zephyr]{cr=\"12\"}",
 			"",
@@ -2592,7 +2592,7 @@
 			"",
 			"::sh[Description]",
 			"",
-			"Zomoks are dragonlike creatures made out of animate plant matter. Native to the realm of the fey, they are guardians of mystic forests. Some travel to the Material Plane and adapt to its woodlands, defending them against massive destruction - forest fires, logging, undead armies, and so on - and use their abilities to heal and regrow damaged areas.",
+			"Zomoks are dragon-like creatures made out of animate plant matter. Native to the realm of the fey, they are guardians of mystic forests. Some travel to the Material Plane and adapt to its woodlands, defending them against massive destruction - forest fires, logging, undead armies, and so on - and use their abilities to heal and regrow damaged areas.",
 			"",
 			"Rather than having a distinct physical body, a zomok is more like a spirit animating a collective mass of vegetation, and over time it sheds and acquires new material from its environment, changing its appearance to match its current location. Zomoks do not need to eat, and any creature they swallow is usually left behind as a mashed corpse to decay and provide nutrition for plants.",
 			"",
@@ -3156,7 +3156,7 @@
 			"",
 			"::sh[Description]",
 			"",
-			"A dossenus is a subterranean pack hunter that can digest almost anything. Its body is mostly head and face, dominated by a huge mouth with multiple rows of black, rocklike teeth. Two thin arms and four thin legs extend from its underdeveloped body; its front limbs end in crablike claws it can use to clumsily manipulate objects. A dossenus is just under 4 feet long and weighs 60 pounds.",
+			"A dossenus is a subterranean pack hunter that can digest almost anything. Its body is mostly head and face, dominated by a huge mouth with multiple rows of black, rock-like teeth. Two thin arms and four thin legs extend from its underdeveloped body; its front limbs end in crab-like claws it can use to clumsily manipulate objects. A dossenus is just under 4 feet long and weighs 60 pounds.",
 			"",
 			"Dossenuses are notorious for their voracious appetites and ability to gnaw through practically any substance with their savage teeth. Though their tiny eyes appear absent of thought or purpose, dossenuses are actually slightly more intelligent than mere beasts. These creatures have a primitive communal social structure, speak and understand Aklo, and practice a violent form of religion based on the indiscriminate consumption of all other forms of life. Dossenuses practice ritual cannibalism of their dead.",
 			"",

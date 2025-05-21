@@ -1134,7 +1134,7 @@
 			"{feat/Craft Technological Item}, {feat/Craft Wondrous Item}, {rule/crafting<graviton| lab>oratories}, {spell/enervation}, {spell/telekinesis}",
 			"",
 			"**Aura** moderate necromancy and transmutation  ",
-			"This black, wandlike object creates a narrow gravitational field that affects both body and soul. It duplicates the effects of *telekinesis,* but only to create a sustained force (maximum 250 lbs.) toward or away from the wielder, or to perform a bull rush, drag, or steal {rule/combat maneuver>s} (CMB +15). The grip of death can perform combat maneuvers on incorporeal undead. If the user performs a successful combat maneuver against a living creature using the grip of death, the target gains 1 negative level as a portion of its soul is wrenched from its body. A living creature killed in this way becomes a {monster/spectre}. Otherwise, the negative levels fade after 10 hours."
+			"This black, wand-like object creates a narrow gravitational field that affects both body and soul. It duplicates the effects of *telekinesis,* but only to create a sustained force (maximum 250 lbs.) toward or away from the wielder, or to perform a bull rush, drag, or steal {rule/combat maneuver>s} (CMB +15). The grip of death can perform combat maneuvers on incorporeal undead. If the user performs a successful combat maneuver against a living creature using the grip of death, the target gains 1 negative level as a portion of its soul is wrenched from its body. A living creature killed in this way becomes a {monster/spectre}. Otherwise, the negative levels fade after 10 hours."
 		]
 	},
 	"grippers": {

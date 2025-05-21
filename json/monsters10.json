@@ -281,7 +281,7 @@
 			"Pathfinder #75: Demon's Heresy"
 		],
 		"description": [
-			"*This ghostly crusader floats just above the ground, yet despite its phantomlike appearance, its armor and weapons seem quite solid.*",
+			"*This ghostly crusader floats just above the ground, yet despite its phantom-like appearance, its armor and weapons seem quite solid.*",
 			"",
 			"::mh[Fallen]{cr=\"8\"}",
 			"",
@@ -384,7 +384,7 @@
 			"",
 			"::sh[Description]",
 			"",
-			"Archaeopteryxes are primitive birds. Instead of beaks, they have lizardlike heads with serrated teeth.",
+			"Archaeopteryxes are primitive birds. Instead of beaks, they have lizard-like heads with serrated teeth.",
 			"",
 			"**Family:** {family/Familiar}"
 		]
@@ -2035,7 +2035,7 @@
 			"Pathfinder RPG Bestiary"
 		],
 		"description": [
-			"*This serpentine fish has a horrific circular mouth filled with hooklike teeth.*",
+			"*This serpentine fish has a horrific circular mouth filled with hook-like teeth.*",
 			"",
 			"::mh[Lamprey]{cr=\"1/3\"}",
 			"",
@@ -4318,7 +4318,7 @@
 		"name": "Fantionette",
 		"sources": [ "Pathfinder #127: Crownfall" ],
 		"description": [
-			"*What appears at first glance to be a child or halfling has skin more akin to cracked porcelain barely covering a black, insectile carapace, and it has spiderlike legs where one would expect arms.*",
+			"*What appears at first glance to be a child or halfling has skin more akin to cracked porcelain barely covering a black, insectile carapace, and it has spider-like legs where one would expect arms.*",
 			"",
 			"::mh[Fantionette]{cr=\"4\"}",
 			"",
@@ -4466,7 +4466,7 @@
 		"name": "Faun",
 		"sources": [ "Bestiary 3" ],
 		"description": [
-			"*This capricious figure has the upper torso, arms, and head of a man, but goatlike legs, a tail, and curling horns on his head.*",
+			"*This capricious figure has the upper torso, arms, and head of a man, but goat-like legs, a tail, and curling horns on his head.*",
 			"",
 			"::mh[Faun]{cr=\"1\"}",
 			"",
@@ -4527,7 +4527,7 @@
 		"name": "Fear Eater",
 		"sources": [ "Occult Bestiary" ],
 		"description": [
-			"*A distressingly humanoid face and stubby arms grow from this maggotlike creature's body.*",
+			"*A distressingly humanoid face and stubby arms grow from this maggot-like creature's body.*",
 			"",
 			"::mh[Fear Eater]{cr=\"5\"}",
 			"",
@@ -4903,7 +4903,7 @@
 		"name": "Festering Spirit",
 		"sources": [ "Bestiary 4" ],
 		"description": [
-			"*This ghostlike creature reeks of the grave and drips with putrescent goo.*",
+			"*This ghost-like creature reeks of the grave and drips with putrescent goo.*",
 			"",
 			"::mh[Festering Spirit]{cr=\"8\"}",
 			"",
@@ -5004,7 +5004,7 @@
 			"",
 			"**Charging Trip (Ex)** A festrog that hits with its bite after making a charge attack on all fours can attempt to trip its opponent (+4 bonus). This trip does not provoke attacks of opportunity.",
 			"",
-			"**Diseased Pustules (Ex)** When a festrog takes damage from a piercing or slashing weapon, some of its boils rupture, squirting the attacker with puslike fluids. The noxious secretions carry a potent contact disease that causes those infected to break out into painful necrotic boils.",
+			"**Diseased Pustules (Ex)** When a festrog takes damage from a piercing or slashing weapon, some of its boils rupture, squirting the attacker with pus-like fluids. The noxious secretions carry a potent contact disease that causes those infected to break out into painful necrotic boils.",
 			"",
 			"Necrotic Boils: Disease-contact; *save* Fort DC 11; *onset* 1 day; *frequency* 1/day; *effect* 1d4 Con; *cure* 1 save.",
 			"",
@@ -5494,7 +5494,7 @@
 			"Pathfinder #56: Raiders of the Fever Sea"
 		],
 		"description": [
-			"*This gigantic, prehistoric fish has a head like a snapping turtle, complete with sharp, toothlike plates.*",
+			"*This gigantic, prehistoric fish has a head like a snapping turtle, complete with sharp, tooth-like plates.*",
 			"",
 			"::mh[Dunkleosteus]{cr=\"6\"}",
 			"",
@@ -5588,7 +5588,7 @@
 			"",
 			"::sh[Description]",
 			"",
-			"These gigantic cousins of common blowfish, covered in poisonous spearlike quills, can reach up to 10 feet in size, and nearly double that when fully inflated."
+			"These gigantic cousins of common blowfish, covered in poisonous spear-like quills, can reach up to 10 feet in size, and nearly double that when fully inflated."
 		]
 	},
 	"giant_blowfish": { "copyof": "fish_giant_blowfish" },
@@ -5596,7 +5596,7 @@
 		"name": "Swordfish",
 		"sources": [ "Pathfinder #56: Raiders of the Fever Sea" ],
 		"description": [
-			"*A proud fin flares along the spine of this large, sleek fish, its head coming to a spearlike point.*",
+			"*A proud fin flares along the spine of this large, sleek fish, its head coming to a spear-like point.*",
 			"",
 			"::mh[Swordfish]{cr=\"2\"}",
 			"",

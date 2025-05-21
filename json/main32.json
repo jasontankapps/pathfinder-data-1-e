@@ -1261,7 +1261,7 @@
 					[ "{spell/Analyze Dweomer}", 6, "divination", null, null, "Reveals magical aspects of subject.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 0, "F" ], [ 1, "" ] ],
 					[ "{spell/Animate Objects}", 6, "transmutation", null, null, "Objects attack your foes.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
 					[ "{spell/Antilife Shell}", 6, "abjuration", null, null, "10-ft.-radius field hedges out living creatures.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 0, "DF" ], [ 1, "" ], [ 1, "" ] ],
-					[ "{spell/Awaken Construct}", 6, "transmutation", null, null, "Grant a construct humanlike sentience.", [ 0, "V" ], [ 0, "S" ], [ 0, "M" ], [ 1, "" ], [ 0, "DF" ], [ 1, "" ], [ 1, "" ] ],
+					[ "{spell/Awaken Construct}", 6, "transmutation", null, null, "Grant a construct human-like sentience.", [ 0, "V" ], [ 0, "S" ], [ 0, "M" ], [ 1, "" ], [ 0, "DF" ], [ 1, "" ], [ 1, "" ] ],
 					[ "{spell/Battlemind Link}", 6, "divination", null, "mind-affecting", "You and an ally gain attack and AC bonuses.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
 					[ "{spell/Bear's Endurance, Mass}", 6, "transmutation", null, null, "As bear's endurance, affects 1 subject/level.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 0, "M/DF" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
 					[ "{spell/Betraying Sting}", 6, "evocation", null, null, "Strike down creatures who thought you were their friend", [ 0, "V" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],

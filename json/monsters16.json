@@ -111,7 +111,7 @@
 			"",
 			"::sh[Special Abilities]",
 			"",
-			"**Charnel Deception (Ex)** A Leng hound can retract its bestial features into its body as a full-round action-its fur and wings retract, the skin covering them slithers into hidden cavities, and its jaws pull back into a humanlike face. This grants it a +10 bonus on Disguise checks to appear as the decayed corpse of a slightly deformed human or similarly sized humanoid.",
+			"**Charnel Deception (Ex)** A Leng hound can retract its bestial features into its body as a full-round action-its fur and wings retract, the skin covering them slithers into hidden cavities, and its jaws pull back into a human-like face. This grants it a +10 bonus on Disguise checks to appear as the decayed corpse of a slightly deformed human or similarly sized humanoid.",
 			"",
 			"**Grave Link (Su)** As a full-round action, a Leng hound can designate a grave containing the corpse of a creature that was evil in life as its grave link. When the Leng hound uses word of recall, it returns to this grave (a Leng hound with no active grave link cannot use word of recall). If a creature disturbs this grave or loots it, the Leng hound's locate creature and locate object spell-like abilities have no range limit when searching for the creature that disturbed the grave or any objects looted from the grave.",
 			"",
@@ -499,7 +499,7 @@
 			"",
 			"::sh[Description]",
 			"",
-			"Named for their distinctive black-and-white coloration and their opportunistic scavenging, these large amphibians live all along the polluted Inkwater River. A lich newt's defenses include bony ridges growing along either side of their footlong bodies and a poisonous mucus that causes numbness and muscle spasms. Some humanoid tribes, especially the orcs of the Northern Fangwood Forest, trap these amphibians and refine their poison into weapon blanches and drugs. The desperate even eat lich newts; their poison breaks down if their meat is cooked in vinegar as part of a tough, gamy, but relatively sustaining stew.",
+			"Named for their distinctive black-and-white coloration and their opportunistic scavenging, these large amphibians live all along the polluted Inkwater River. A lich newt's defenses include bony ridges growing along either side of their foot-long bodies and a poisonous mucus that causes numbness and muscle spasms. Some humanoid tribes, especially the orcs of the Northern Fangwood Forest, trap these amphibians and refine their poison into weapon blanches and drugs. The desperate even eat lich newts; their poison breaks down if their meat is cooked in vinegar as part of a tough, gamy, but relatively sustaining stew.",
 			"",
 			"After battles waged by warring armies or mercenary bands, lich newts often swarm the rotting corpses, feasting on the softening flesh and hunting the various insects attracted by the carrion. As a result, many Nirmathi believe the newts to be bad omens, a legacy of Tar-Baphon, or otherwise associated with necromancy. Lich newt familiars are popular with wizards and witches who care more about the creatures' reputation than their true nature as bottom-feeders and scavengers. An arcane caster who selects a lich newt as his familiar gains a +2 bonus on Fortitude saves against disease and poison."
 		]
@@ -655,7 +655,7 @@
 		"name": "Liminal Sprite",
 		"sources": [ "Bestiary 5" ],
 		"description": [
-			"*This creature resembles an elven courtier in miniature, dressed in the latest fashion and mothlike wings on its back.*",
+			"*This creature resembles an elven courtier in miniature, dressed in the latest fashion and moth-like wings on its back.*",
 			"",
 			"::mh[Liminal Sprite]{cr=\"2\"}",
 			"",
@@ -710,7 +710,7 @@
 			"",
 			"The sprites must be subtle, however, lest their unwitting hosts turn against them. They especially fear domestic animals turned loose near their hideaways. On the other hand, a homeowner who appeases the sprite with flattery and gifts finds his own eloquence improved. A 7th-level chaotic spellcaster can gain a liminal sprite as a familiar with the {feat/Improved Familiar} feat, though she must take pains to find her familiar a suitable place to rest each night.",
 			"",
-			"Liminal sprites stand 1 to 1-1/2 feet tall, and their mothlike wings stretch to a similar distance. Liminal sprites follow the local fashions of their city, modeling their clothes after those worn by nobles and celebrities."
+			"Liminal sprites stand 1 to 1-1/2 feet tall, and their moth-like wings stretch to a similar distance. Liminal sprites follow the local fashions of their city, modeling their clothes after those worn by nobles and celebrities."
 		]
 	},
 	"lion": {
@@ -861,7 +861,7 @@
 			"",
 			"Litanus are undead abominations created by vile necromantic rituals and psychological torment. All litanus were once {monster/merfolk}, but were tortured to death and animated as undead creatures. Litanus are sneaky, spiteful creatures who seek prey suffering from loneliness and fear.",
 			"",
-			"Resembling merfolk that have hyperdeveloped musculature, litanus have wide mouths with narrow, sharklike teeth. Four tentacles sprout from a litanu's back, each a few inches wide and 4 feet long. These tentacles end in toothy maws and excrete a paralyzing toxin so powerful that victims are rendered insensible and unable to perform most autonomic functions, including breathing, until the toxin wears off.",
+			"Resembling merfolk that have hyperdeveloped musculature, litanus have wide mouths with narrow, shark-like teeth. Four tentacles sprout from a litanu's back, each a few inches wide and 4 feet long. These tentacles end in toothy maws and excrete a paralyzing toxin so powerful that victims are rendered insensible and unable to perform most autonomic functions, including breathing, until the toxin wears off.",
 			"",
 			"A litanu is about 7 feet long from head to tail and weighs around 300 pounds.",
 			"",
@@ -2669,9 +2669,9 @@
 			"",
 			"::sh[Description]",
 			"",
-			"A lorelei resembles an enormous, stony sea anemone with a humanlike face covering much of its body. Noted for their magical murmurs that entrance sailors, the creatures lurk near rocky shoals barely concealed by crashing waves or rushing rivers, eager to lure humanoids to their deaths.",
+			"A lorelei resembles an enormous, stony sea anemone with a human-like face covering much of its body. Noted for their magical murmurs that entrance sailors, the creatures lurk near rocky shoals barely concealed by crashing waves or rushing rivers, eager to lure humanoids to their deaths.",
 			"",
-			"Also known as a \"murmur stone\" for its rocklike natural camouflage, a lorelei is a solitary creature that shuns peaceful contact with other living things. It broods in the shadows of seaside cliffs and ocean trenches, emerging only to torment the living. When not pursuing complicated schemes, a lorelei is fond of wrecking ships on rocks and luring sailors beneath the surface to drown.",
+			"Also known as a \"murmur stone\" for its rock-like natural camouflage, a lorelei is a solitary creature that shuns peaceful contact with other living things. It broods in the shadows of seaside cliffs and ocean trenches, emerging only to torment the living. When not pursuing complicated schemes, a lorelei is fond of wrecking ships on rocks and luring sailors beneath the surface to drown.",
 			"",
 			"Some scholars claim that these creatures were once a species of beautiful fey cursed by foul forces. This claim is backed by the fact that they behave much like nereids, nixies, and sirens. A lorelei stands 9 feet tall, not counting the mess of tentacles atop its body, and weighs around 2,000 pounds."
 		]
@@ -2805,7 +2805,7 @@
 			"Pathfinder #41: The Thousand Fangs Below"
 		],
 		"description": [
-			"*A long, spiny fin runs down the length of the dolphinlike body of this eel-headed predator.*",
+			"*A long, spiny fin runs down the length of the dolphin-like body of this eel-headed predator.*",
 			"",
 			"::mh[Lukwata]{cr=\"11\"}",
 			"",
@@ -2865,7 +2865,7 @@
 		"name": "Lunarma",
 		"sources": [ "Bestiary 4" ],
 		"description": [
-			"*This monstrous crablike creature hovers in midair, its three clawed tentacles snapping aggressively.*",
+			"*This monstrous crab-like creature hovers in midair, its three clawed tentacles snapping aggressively.*",
 			"",
 			"::mh[Lunarma]{cr=\"6\"}",
 			"",
@@ -2913,7 +2913,7 @@
 			"",
 			"::sh[Description]",
 			"",
-			"Lunarmas are mysterious crablike creatures that come from space. They move by floating through the air and can eat flesh, wood, bone, and certain kinds of sand and dust. Highly aggressive, they attack by dropping on prey from above and grabbing it with their limbs, using their breath weapon to injure multiple creatures for easier capture, feeding, and implantation.",
+			"Lunarmas are mysterious crab-like creatures that come from space. They move by floating through the air and can eat flesh, wood, bone, and certain kinds of sand and dust. Highly aggressive, they attack by dropping on prey from above and grabbing it with their limbs, using their breath weapon to injure multiple creatures for easier capture, feeding, and implantation.",
 			"",
 			"Efficient in its digestion and reproduction, a single lunarma can depopulate a village in a few days, spawning dozens of offspring that scatter in search of more prey. Fortunately, an adult lunarma lives no longer than a year. During this time, it seeks to eat and find living prey in which to lay its eggs.",
 			"",
@@ -3174,7 +3174,7 @@
 			"Isles of the Shackles"
 		],
 		"description": [
-			"*This beast has three sharklike heads on short, scaly necks, while its lower body appears to be that of an octopus.*",
+			"*This beast has three shark-like heads on short, scaly necks, while its lower body appears to be that of an octopus.*",
 			"",
 			"::mh[Lusca]{cr=\"17\"}",
 			"",
@@ -3234,7 +3234,7 @@
 		"name": "Lythirium",
 		"sources": [ "Pathfinder #105: The Inferno Gate" ],
 		"description": [
-			"*This wolflike creature's body is composed of thick vines, fine vegetation that almost resembles fur, and enormous thorns. Its eyes shine with a green glow, and prickly vines cover the immense, antlerlike growths on its head.*",
+			"*This wolf-like creature's body is composed of thick vines, fine vegetation that almost resembles fur, and enormous thorns. Its eyes shine with a green glow, and prickly vines cover the immense, antler-like growths on its head.*",
 			"",
 			"::mh[Lythirium]{cr=\"11\"}",
 			"",
@@ -3294,7 +3294,7 @@
 			"",
 			"Scholars believe the first lythiriums wandered onto Golarion through a breach to the First World in the nation now known as Kyonin or through a long-healed breach in the Barrowood or Whisperwood in what is now Cheliax (though the latter is considered less likely). Lythiriums' First World progenitors are believed to have been even more massive than the beasts that exist today. Most posit that they had even stranger physical qualities than do Golarion's lythiriums, such as the ability to infuse victims of their gore attacks with various poisons or diseases. The folktales that tell of such creatures in the First World are ancient and contradictory indeed, but one detail never wavers: these creatures were always said to take the forms of antler-bearing wolves, and to have senses appropriate to such pack hunters, despite having features of both elks and plants. These tales have died out among modern peoples, though, leading scholars to believe that-for whatever reason-lythiriums native to the First World no longer exist. However, the creatures' descendants live on in the densest forests of Golarion, patrolling their territories and acting as friends and allies to those who share their goals of keeping forests safe.",
 			"",
-			"Perhaps owing to their odd origins on the First World, lythiriums have a strange physiology. Foliage and reedy roots intertwine to form the creatures' shape and size, and their central roots pump greenish, saplike fluid throughout their bodies. The small seedpods that constitute a lythirium's eyes are opaque, fluid-filled sacs that emit a greenish glow. These give the creatures sharp vision, even in the dimmest light. In extreme darkness, the pod-eyes extend outward from the sockets like antennae, and sense subtle vibrations in the air. This allows lythiriums to see even in total darkness.",
+			"Perhaps owing to their odd origins on the First World, lythiriums have a strange physiology. Foliage and reedy roots intertwine to form the creatures' shape and size, and their central roots pump greenish, sap-like fluid throughout their bodies. The small seedpods that constitute a lythirium's eyes are opaque, fluid-filled sacs that emit a greenish glow. These give the creatures sharp vision, even in the dimmest light. In extreme darkness, the pod-eyes extend outward from the sockets like antennae, and sense subtle vibrations in the air. This allows lythiriums to see even in total darkness.",
 			"",
 			"Lythiriums survive by absorbing sunlight through their leaves and by scavenging the meat of animals that died naturally. However, despite their canine appearances, lythiriums don't hunt creatures for food, and kill only if they are attacked first.",
 			"",
@@ -3727,7 +3727,7 @@
 		"name": "Manananggal",
 		"sources": [ "Bestiary 3" ],
 		"description": [
-			"*This disembodied female torso flaps through the air on batlike wings, her fanged face a hateful mask.*",
+			"*This disembodied female torso flaps through the air on bat-like wings, her fanged face a hateful mask.*",
 			"",
 			"::mh[Manananggal]{cr=\"7\"}",
 			"",

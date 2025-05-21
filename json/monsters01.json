@@ -310,7 +310,7 @@
 			"",
 			"::sh[Description]",
 			"",
-			"Aballonians are intelligent, self-modifying constructs. The stat block presented here represents only the most basic type found on Aballon, with much larger or smaller variants taking the form of gargantuan excavators, gliding solar-powered flyers, ribbonlike serpent creatures, disembodied processor intelligences, or stranger designs."
+			"Aballonians are intelligent, self-modifying constructs. The stat block presented here represents only the most basic type found on Aballon, with much larger or smaller variants taking the form of gargantuan excavators, gliding solar-powered flyers, ribbon-like serpent creatures, disembodied processor intelligences, or stranger designs."
 		]
 	},
 	"abandoned_armory": {
@@ -656,7 +656,7 @@
 			"",
 			"The eyes of an abysogh resemble misshapen pools of liquid. Completely blind to light and colors, their eyes instead perceive motion and shapes through lowfrequency vibrations, which cause ripples across the surfaces of their eyes. Only in this sense can they \"see\" the world around them.",
 			"",
-			"The blood of these giants is black from the taint of Rovagug. Their bulging veins stretch out in weblike patterns across their pale skin. The cursed blood of the abysoghs also fuels their perpetual, mindless rage, rendering them incapable of being destroyed. Only electricity can momentarily snap them out of their rage and remind them of what they lost so long ago, allowing them to recover enough of their mortality to die.",
+			"The blood of these giants is black from the taint of Rovagug. Their bulging veins stretch out in web-like patterns across their pale skin. The cursed blood of the abysoghs also fuels their perpetual, mindless rage, rendering them incapable of being destroyed. Only electricity can momentarily snap them out of their rage and remind them of what they lost so long ago, allowing them to recover enough of their mortality to die.",
 			"",
 			"Although abysoghs are far more intelligent than animals, their intellect is purely instinctual. The natural state of mind for these giants is a tempest of constant turmoil, and as such, it is impossible to affect their minds with magic.",
 			"",
@@ -852,7 +852,7 @@
 		"name": "Addu",
 		"sources": [ "Pathfinder #60: From Hell's Heart" ],
 		"description": [
-			"*Striped with the brilliant colors of a maritime sunset, this beast winds its enormous body through the waves, a pair of wiry, talon-tipped arms and a snout full of horrendous teeth preceding a fan of razorlike fins.*",
+			"*Striped with the brilliant colors of a maritime sunset, this beast winds its enormous body through the waves, a pair of wiry, talon-tipped arms and a snout full of horrendous teeth preceding a fan of razor-like fins.*",
 			"",
 			"::mh[Addu]{cr=\"15\"}",
 			"",
@@ -898,7 +898,7 @@
 			"",
 			"As enigmatic as they are dangerous, addus hail from the most hellish corners of Golarion's deepest seas. Addu encounters are thankfully rare, but those who have faced one and survived tell tales of the beasts' unimaginable powers. As a result, merchant and pirate lookouts alike carefully watch the watery horizons for jagged, fiery-hued spines, which have come to signal seafarers' imminent doom.",
 			"",
-			"The colors of the tropical deep - simmering reds, yellows, and oranges - decorate addus' long, serpentine bodies. In addition to the ominous fins on their backs, smaller spines jut from addus' snouts, heads, and necks. Their short but powerful forearms can strip flesh from bone, especially when the beasts employ them alongside their barge-sized jaws, which bear teeth the length of daggers. With long tails that can sweep from the water with whiplike velocity, addus can reach up to 50 feet long and weigh up to 14,000 pounds.",
+			"The colors of the tropical deep - simmering reds, yellows, and oranges - decorate addus' long, serpentine bodies. In addition to the ominous fins on their backs, smaller spines jut from addus' snouts, heads, and necks. Their short but powerful forearms can strip flesh from bone, especially when the beasts employ them alongside their barge-sized jaws, which bear teeth the length of daggers. With long tails that can sweep from the water with whip-like velocity, addus can reach up to 50 feet long and weigh up to 14,000 pounds.",
 			"",
 			"Legends claim that when Golarion was young, fissures in its deepest seafloors began spewing noxious gases left over from the planet's formation. These geysers helped provide life-giving heat to the equatorial oceans, but also rendered small pockets of deep-sea waters uninhabitable. Golarion's thriving aquatic ecosystem pushed back, however, and from these poisonous environs emerged the hardy addus. The geysers nurtured and strengthened these enormous, tropically colored creatures, instilling in them a mindless cruelty and a voracious hunger for raw meat.",
 			"",
@@ -1791,7 +1791,7 @@
 			"Bestiary 2"
 		],
 		"description": [
-			"*Layers of translucent, shimmering fins flow along this fishman's spindly body. Tentacles curl below its stately mouth, and its humanlike hands and feet end in stubby but sharp claws.*",
+			"*Layers of translucent, shimmering fins flow along this fishman's spindly body. Tentacles curl below its stately mouth, and its human-like hands and feet end in stubby but sharp claws.*",
 			"",
 			"::mh[Bishop Agathion]{cr=\"4\"}",
 			"",
@@ -1836,7 +1836,7 @@
 			"",
 			"::sh[Special Abilities]",
 			"",
-			"**Fear Aura (Su)** A bishop's eerie, fishlike appearance evokes feelings of unsettling fear in foes within a 30-foot radius. The bishop can use this aura as a free action, and any creature within this area must succeed at a DC 16 Will save or become shaken for 5d6 rounds. A creature that succeeds at its save is immune to the bishop's aura for 24 hours. The save DC is Wisdom-based.",
+			"**Fear Aura (Su)** A bishop's eerie, fish-like appearance evokes feelings of unsettling fear in foes within a 30-foot radius. The bishop can use this aura as a free action, and any creature within this area must succeed at a DC 16 Will save or become shaken for 5d6 rounds. A creature that succeeds at its save is immune to the bishop's aura for 24 hours. The save DC is Wisdom-based.",
 			"",
 			"**Stunning Strike (Ex)** Five times per day, a bishop can stun a creature it hits with a claw attack. The targeted creature must succeed at a DC 13 Fortitude save or be stunned for 1 round. The save DC is Constitution-based.",
 			"",
@@ -1944,7 +1944,7 @@
 			"Bestiary 2"
 		],
 		"description": [
-			"*Beneath a crown of antlers, this centaurlike creature blends the upper body of a humanoid with the lower body of a majestic elk.*",
+			"*Beneath a crown of antlers, this centaur-like creature blends the upper body of a humanoid with the lower body of a majestic elk.*",
 			"",
 			"::mh[Cervinal]{cr=\"17\"}",
 			"",
@@ -2408,7 +2408,7 @@
 			"",
 			"### Elder Muldnals",
 			"",
-			"Like other outsiders, muldnals are ageless and live immortal lives on the Outer Planes, ceaselessly carrying out their designated task without complaint. Rarely do they evolve without fully transforming into more powerful variants of agathions, but those who live eons in the dark caverns of Nirvana may grow in both size and prowess, and present an even larger threat to forces that would threaten the subterranean regions of the plane. These elder muldnals often lead small enclaves of other muldnals and take on saintlike qualities in many of their followers' eyes.",
+			"Like other outsiders, muldnals are ageless and live immortal lives on the Outer Planes, ceaselessly carrying out their designated task without complaint. Rarely do they evolve without fully transforming into more powerful variants of agathions, but those who live eons in the dark caverns of Nirvana may grow in both size and prowess, and present an even larger threat to forces that would threaten the subterranean regions of the plane. These elder muldnals often lead small enclaves of other muldnals and take on saint-like qualities in many of their followers' eyes.",
 			"",
 			"**Elder (+2 CR):** A muldnal elder commands tremendous respect among its kind. It gains the {template/advanced} and {template/giant} creature simple templates, gains {umr/blindsight} instead of tremorsense, and can cast {spell/spiked pit} as a spell-like ability once per day."
 		]
@@ -3231,7 +3231,7 @@
 		"name": "Akhlut",
 		"sources": [ "Bestiary 3" ],
 		"description": [
-			"*A dorsal fin rises up from the back of this immense black-and-white-furred, wolflike beast.*",
+			"*A dorsal fin rises up from the back of this immense black-and-white-furred, wolf-like beast.*",
 			"",
 			"::mh[Akhlut]{cr=\"13\"}",
 			"",
@@ -3731,7 +3731,7 @@
 			"",
 			"::sh[Special Abilities]",
 			"",
-			"**Implant (Ex)** As a full-round action, an alpluachra can crawl into the mouth of a helpless creature (no more than three size categories larger than itself) and implant itself into the creature's throat. Once implanted, anything that the creature ingests is instead consumed by the alpluachra, including such substances as elixirs and potions or ingested alchemical items, diseases, drugs, or poisons. Once the alpluachra is implanted, the host creature begins suffering the effects of starvation and thirst. Due in part to its numbing slime, an implanted alpluachra is difficult to detect. Each time the host creature ingests anything, it gains an automatic Perception check against the alpluachra's Stealth. After the newtlike fey is detected, it can be removed either by consuming at least half a pound of salt or a gallon of salt water, by a remove disease spell cast on the host creature, or by treating the host with a successful DC 15 Heal check. When a Heal check made for this purpose fails by 5 or more, the host creature takes 1d6 points of damage. If the host attempts to remove the alpluachra by eating salt or drinking salt water, it must succeed at a DC 12 Fortitude save or become sickened for 1d8 hours from the reaction with the alpluachra. If the alpluachra dies or becomes unconscious, it is immediately detected by the host creature, and can be removed safely as a full-round action. While implanted, an alpluachra is considered helpless.",
+			"**Implant (Ex)** As a full-round action, an alpluachra can crawl into the mouth of a helpless creature (no more than three size categories larger than itself) and implant itself into the creature's throat. Once implanted, anything that the creature ingests is instead consumed by the alpluachra, including such substances as elixirs and potions or ingested alchemical items, diseases, drugs, or poisons. Once the alpluachra is implanted, the host creature begins suffering the effects of starvation and thirst. Due in part to its numbing slime, an implanted alpluachra is difficult to detect. Each time the host creature ingests anything, it gains an automatic Perception check against the alpluachra's Stealth. After the newt-like fey is detected, it can be removed either by consuming at least half a pound of salt or a gallon of salt water, by a remove disease spell cast on the host creature, or by treating the host with a successful DC 15 Heal check. When a Heal check made for this purpose fails by 5 or more, the host creature takes 1d6 points of damage. If the host attempts to remove the alpluachra by eating salt or drinking salt water, it must succeed at a DC 12 Fortitude save or become sickened for 1d8 hours from the reaction with the alpluachra. If the alpluachra dies or becomes unconscious, it is immediately detected by the host creature, and can be removed safely as a full-round action. While implanted, an alpluachra is considered helpless.",
 			"",
 			"**Numbing Slime (Ex)** Any creature that deals damage to an alpluachra with a natural attack or an unarmed strike, comes into contact with an alpluachra, or is host to an alpluachra must succeed at a DC 12 Fortitude save or take a -4 penalty on all tactile Perception checks, as well as other skill checks requiring tactile senses (such as Disable Device and Sleight of Hand) for 24 hours. A host creature that fails this saving throw takes the penalty to detect the alpluachra implanted inside it. If the host creature succeeds at the saving throw, it can't be affected by the same alpluachra's numbing slime for another 24 hours.",
 			"",

@@ -1116,7 +1116,7 @@
 					[ "{spell/Atavism}", 4, null, null, "Animal gains advanced creature simple template." ],
 					[ "{spell/Atavism, Mass}", 8, null, null, "One animal/level gains advanced template." ],
 					[ "{spell/Awaken}", [ 5.331, "5, 6" ], null, null, "Animal or tree gains human intellect." ],
-					[ "{spell/Awaken Construct}", [ 6.501, "5, 6, 7" ], null, null, "Grant a construct humanlike sentience." ],
+					[ "{spell/Awaken Construct}", [ 6.501, "5, 6, 7" ], null, null, "Grant a construct human-like sentience." ],
 					[ "{spell/Badger's Ferocity}", [ 2.361, "2, 3" ], null, null, "Weapons are keen while you concentrate." ],
 					[ "{spell/Baleful Polymorph}", [ 4.911, "4, 5" ], "polymorph", null, "Transforms subject into harmless animal." ],
 					[ "{spell/Barghest Feast}", 3, null, "evil", "Absorb power by devouring a humanoid corpse." ],

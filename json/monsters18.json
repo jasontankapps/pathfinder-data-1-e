@@ -2880,7 +2880,7 @@
 			"Bestiary 3"
 		],
 		"description": [
-			"*This humanoid creature has a fearsome mien, with a cruel red face, glaring yellow eyes, a prodigious nose, and large ravenlike wings.*",
+			"*This humanoid creature has a fearsome mien, with a cruel red face, glaring yellow eyes, a prodigious nose, and large raven-like wings.*",
 			"",
 			"::mh[Yamabushi Tengu]{cr=\"5\"}",
 			"",
@@ -2926,7 +2926,7 @@
 			"",
 			"::sh[Special Abilities]",
 			"",
-			"**Yamabushi Weapons (Ex)** A yamabushi tengu is proficient with all monk weapons and all swordlike weapons (including katanas and wakizashi), and gains a +1 bonus on attack rolls and damage rolls with such weapons. Yamabushi tengus who do not use swords favor the kusarigama.",
+			"**Yamabushi Weapons (Ex)** A yamabushi tengu is proficient with all monk weapons and all sword-like weapons (including katanas and wakizashi), and gains a +1 bonus on attack rolls and damage rolls with such weapons. Yamabushi tengus who do not use swords favor the kusarigama.",
 			"",
 			"**Steal Voice (Su)** Up to three times per day, but no more than once per target, a yamabushi tengu can attempt to steal a victim's voice as part of its bite attack. When it does so, the creature bitten must make a DC 16 Will save or lose the ability to speak aloud. This prevents the use of any spell with verbal components and the use of command-word-activated magic items, among other difficulties. The yamabushi tengu's voice changes to match the one stolen. The victim's voice remains stolen until the oni steals another voice, until the oni agrees to give the stolen voice back (a standard action requiring the oni to touch the victim), or until the next sunrise. Any effect that removes curses (such as remove curse or break enchantment) can restore a stolen voice (DC for success equals the save DC of the steal voice ability-DC 16 for most yamabushi tengu), as does the death of the oni who stole the voice in the first place. The save DC is Charisma-based.",
 			"",
@@ -2948,7 +2948,7 @@
 			"",
 			"Yamabushi tengus are driven by greed, particularly for shiny treasures like coins, jewels, gems, and polished weapons. Many extend this obsession to clothing (favoring brightly colored silks) and armor (preferring light armor over medium or heavy armor). Most of what a yamabushi tengu plots or plans can be traced to a desire to gather as much shiny treasure as possible, but they are also especially entranced and intrigued by avian humanoids - particularly tengus, dire corbies and garudas. Yamabushi tengus share the most in common with tengus, of course, for it is from these creatures that the oni take their forms. Dire corbies and garudas, being non-humanoid monsters (monstrous humanoids and outsiders respectively) are in strange ways both similar and quite different from tengus, and as such yamabushi tengus find them endlessly fascinating. In the case of dire corbies, the creatures' feral natures, xenophobic personalities, and overall lack of civilization make them ideal groups for a yamabushi tengu to infiltrate and take control of - although in most cases, a yamabushi tengu who infiltrates a dire corby flock eventually grows tired of the crude creatures and moves on. Garudas are more difficult for yamabushi tengus to interact with, for these outsiders are generally good. Encounters between garudas and yamabushi tengus almost always end in combat, typically with the more powerful garuda the victor. As a result, when confronted by a garuda, most yamabushi tengus choose subtlety over direct confrontation. In a best-case scenario, a yamabushi tengu's minions or allies capture and restrain the garuda, giving the yamabushi tengu ample opportunity to interrogate or even vivisect the garuda prisoner.",
 			"",
-			"Most yamabushi tengus, though, find greatest comfort dwelling among thieves' guilds - particularly among those populated by tengus, in which case a yamabushi tengu appears in its natural form, using its wings as an obvious badge of superiority over its flightless tengu kin. Among thieves of other races (such as humans), a yamabushi tengu prefers to stay in its humanoid form. However, when a yamabushi tengu assumes the form of anything other than a tengu, its true nature is difficult for it to hide, for invariably the shapechanged oni's nose remains quite prodigious, usually to an almost comical degree. Strangely enough, however, yamabushi tengus generally don't think of their unusual noses as flaws in their magical disguises. A yamabushi tengu can also retain its wings when using its change shape ability, and these pinions, as well as its beaklike nose, are a sure way to tell a disguised yamabushi tengu apart from others."
+			"Most yamabushi tengus, though, find greatest comfort dwelling among thieves' guilds - particularly among those populated by tengus, in which case a yamabushi tengu appears in its natural form, using its wings as an obvious badge of superiority over its flightless tengu kin. Among thieves of other races (such as humans), a yamabushi tengu prefers to stay in its humanoid form. However, when a yamabushi tengu assumes the form of anything other than a tengu, its true nature is difficult for it to hide, for invariably the shapechanged oni's nose remains quite prodigious, usually to an almost comical degree. Strangely enough, however, yamabushi tengus generally don't think of their unusual noses as flaws in their magical disguises. A yamabushi tengu can also retain its wings when using its change shape ability, and these pinions, as well as its beak-like nose, are a sure way to tell a disguised yamabushi tengu apart from others."
 		]
 	},
 	"yamabushi_tengu": { "copyof": "oni_yamabushi_tengu" },
@@ -3075,7 +3075,7 @@
 		"name": "Onyvolan",
 		"sources": [ "Pathfinder #127: Crownfall" ],
 		"description": [
-			"*This humanlike creature is clad in gaudy clothing, and each of its spindly limbs terminates in a strange wheel-appendage.*",
+			"*This human-like creature is clad in gaudy clothing, and each of its spindly limbs terminates in a strange wheel-appendage.*",
 			"",
 			"::mh[Onyvolan]{cr=\"3\"}",
 			"",
@@ -3123,7 +3123,7 @@
 			"",
 			"::sh[Description]",
 			"",
-			"Mischievous menaces of the streets, onyvolans are gangly, humanlike creatures with grotesquely long limbs that end in peculiar keratinous wheels, which the creatures use to roll along at high speeds. Onyvolans enjoy creating mayhem by roaming around in gangs and terrorizing a city's residents, especially in older, rundown districts. Pure troublemakers at heart, onyvolans prefer mischief to actual violence, and they show their cowardly side whenever their quarry stands up to them. They trawl dump sites and trash piles in search of food and clothing, which is their primary means of obtaining both; however, they occasionally attack victims who seem to be carrying - or wearing - items of particular interest. Onyvolans love garish clothing that most people wouldn't wear, and they especially adore ostentatious hats.",
+			"Mischievous menaces of the streets, onyvolans are gangly, human-like creatures with grotesquely long limbs that end in peculiar keratinous wheels, which the creatures use to roll along at high speeds. Onyvolans enjoy creating mayhem by roaming around in gangs and terrorizing a city's residents, especially in older, rundown districts. Pure troublemakers at heart, onyvolans prefer mischief to actual violence, and they show their cowardly side whenever their quarry stands up to them. They trawl dump sites and trash piles in search of food and clothing, which is their primary means of obtaining both; however, they occasionally attack victims who seem to be carrying - or wearing - items of particular interest. Onyvolans love garish clothing that most people wouldn't wear, and they especially adore ostentatious hats.",
 			"",
 			"Onyvolans' arms are roughly the same length as their legs, allowing the creatures to reach the ground easily with their front wheels and roll on all fours, which is their natural stance. Onyvolans are eerily pale-skinned, and their mouths are nearly always twisted into a disturbing grin that reveals their pointed teeth; they find that their frightful countenances aid in putting their targets on edge.",
 			"",
@@ -3381,7 +3381,7 @@
 			"",
 			"::sh[Description]",
 			"",
-			"The gorthek is, without a doubt, one of the crankiest beasts found roaming in the wilderness. Appearing as a strange combination of primeval bison and ornery rhinoceros, but with a leonine head crowned with ramlike horns, a gorthek is both immensely powerful and preternaturally hard to injure. Its thick, battering-ram head and powerful body make it a fearsome opponent, particularly when it's riled up and in full charge.",
+			"The gorthek is, without a doubt, one of the crankiest beasts found roaming in the wilderness. Appearing as a strange combination of primeval bison and ornery rhinoceros, but with a leonine head crowned with ram-like horns, a gorthek is both immensely powerful and preternaturally hard to injure. Its thick, battering-ram head and powerful body make it a fearsome opponent, particularly when it's riled up and in full charge.",
 			"",
 			"Gortheks tend to travel in small herds, grazing across remote temperate grasslands or sparsely wooded hills. When a gorthek perceives a threat - which to the gorthek includes just about everything, often even other gortheks - it launches itself into a full charge, intent on sending the enemy flying.",
 			"",

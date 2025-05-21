@@ -600,7 +600,7 @@
 			"",
 			"Telgrodradts aren't particularly dangerous on their own, but their need to create undead has the potential to threaten the surrounding countryside. They may inadvertently wreak more havoc over long periods of time as they loose track of some of their undead creations or their corrals fail and zombies come streaming forth to the surface, terrorizing nearby settlements.",
 			"",
-			"Despite their grublike and apparently mindless appearance, telgrodradts are relatively intelligent. They respond well to diplomacy and engage in conversation with those that come across them, but telgrodradts are steadfast in their determination to kill, animate, and feed. They taunt their enemies in combat, explaining in precise detail what they plan to do with their corpses once they are killed.",
+			"Despite their grub-like and apparently mindless appearance, telgrodradts are relatively intelligent. They respond well to diplomacy and engage in conversation with those that come across them, but telgrodradts are steadfast in their determination to kill, animate, and feed. They taunt their enemies in combat, explaining in precise detail what they plan to do with their corpses once they are killed.",
 			"",
 			"### Habitat",
 			"",
@@ -1718,7 +1718,7 @@
 		"name": "Thought Eater",
 		"sources": [ "Bestiary 5" ],
 		"description": [
-			"*A nimbus of glowing, intangible matter envelops this strange skeletal creature with a birdlike beak.*",
+			"*A nimbus of glowing, intangible matter envelops this strange skeletal creature with a bird-like beak.*",
 			"",
 			"::mh[Thought Eater]{cr=\"2\"}",
 			"",
@@ -1828,14 +1828,14 @@
 			"",
 			"::sh[Description]",
 			"",
-			"The legendary thrasfyr is one of the Tane - a group of powerful monsters created by godlike beings from the primal world of the fey. A thrasfyr without a master prefers to dwell in rugged hilly regions, where it spends most of its time slumbering and dreaming - it is said that all thrasfyrs dream of themselves as graceful and beautiful fey, for legends say that the first thrasfyrs were created from such creatures as a form of punishment."
+			"The legendary thrasfyr is one of the Tane - a group of powerful monsters created by god-like beings from the primal world of the fey. A thrasfyr without a master prefers to dwell in rugged hilly regions, where it spends most of its time slumbering and dreaming - it is said that all thrasfyrs dream of themselves as graceful and beautiful fey, for legends say that the first thrasfyrs were created from such creatures as a form of punishment."
 		]
 	},
 	"thremindyr": {
 		"name": "Thremindyr",
 		"sources": [ "Pathfinder #94: Ice Tomb of the Giant Queen" ],
 		"description": [
-			"*Blustering winds and snow swirl around this white, almost transparent feylike phantom.*",
+			"*Blustering winds and snow swirl around this white, almost transparent fey-like phantom.*",
 			"",
 			"::mh[Thremindyr]{cr=\"9\"}",
 			"",
@@ -2053,7 +2053,7 @@
 			"Pathfinder #31: Stolen Land"
 		],
 		"description": [
-			"*This catlike creature has a striped pelt and whiskers that jut from a long muzzle filled with sharp teeth.*",
+			"*This cat-like creature has a striped pelt and whiskers that jut from a long muzzle filled with sharp teeth.*",
 			"",
 			"::mh[Thylacine]{cr=\"1/2\"}",
 			"",
@@ -2146,7 +2146,7 @@
 			"",
 			"Casmar Thylacine: In Casmaron, most thylacines are smaller than the typical beast. For this reason, they tend to form larger packs, often twice the size of an average thylacine pack. These smaller beasts stand 6 inches to a foot shorter at the shoulders. Casmar thylacines are normal thylacines with the young creature template added, and gather in packs of 2-10.",
 			"",
-			"Sarusan Wolf: The Sarusan wolf is a slightly bigger and more doglike form of the normal thylacine. Whereas indigenous people refer to the thylacine as a lion or other great cat, the Sarusan wolf has an unmistakable canine jaw. While they are physically larger, Sarusan wolves are actually less hardy than their traditional cousins, due to poor weight allocation. Prone to tiring quickly and falling down, Sarusan wolves focus more on rapid takedowns of their prey. Sarusan wolves have a Constitution score of 12 and gain {feat/Power Attack} as a bonus feat."
+			"Sarusan Wolf: The Sarusan wolf is a slightly bigger and more dog-like form of the normal thylacine. Whereas indigenous people refer to the thylacine as a lion or other great cat, the Sarusan wolf has an unmistakable canine jaw. While they are physically larger, Sarusan wolves are actually less hardy than their traditional cousins, due to poor weight allocation. Prone to tiring quickly and falling down, Sarusan wolves focus more on rapid takedowns of their prey. Sarusan wolves have a Constitution score of 12 and gain {feat/Power Attack} as a bonus feat."
 		]
 	},
 	"thylacine_brush": { "copyof": "thylacine_brush_thylacine" },
@@ -2474,7 +2474,7 @@
 		"name": "Titanic Whip Spider",
 		"sources": [ "Bestiary 6" ],
 		"description": [
-			"*Two of this spiderlike creature's spindly legs are whiplike feelers, and it has two hooked appendages lined with spines.*",
+			"*Two of this spider-like creature's spindly legs are whip-like feelers, and it has two hooked appendages lined with spines.*",
 			"",
 			"::mh[Titanic Whip Spider]{cr=\"16\"}",
 			"",
@@ -2648,9 +2648,9 @@
 			"",
 			"The tizheruk is a vicious freshwater predator that wreaks havoc in the lakes and rivers it inhabits. To make matters worse, tizheruks also frequently travel inland via smaller streams where animals and humanoids might think themselves safe. When a tizheruk swims upstream in such waters, it naturally compresses its muscles and organs, enabling it to remain in water less than a foot deep. It explodes to its full size as soon as it attacks, swallowing smaller prey or dragging larger creatures into the water before swimming away with its meal, crushing and potentially drowning its victim.",
 			"",
-			"Though tizheruks subsist mostly on aquatic prey, they often supplement their diets with creatures caught on the shore, particularly sizable mammals such as deer or wild boars. To capture such creatures, a tizheruk extends its tightly coiled, whiplike tongue to snare one of its prey's legs, then retracts the appendage to pull the creature to its mouth, where it can seize the creature and drag its prey into the water.",
+			"Though tizheruks subsist mostly on aquatic prey, they often supplement their diets with creatures caught on the shore, particularly sizable mammals such as deer or wild boars. To capture such creatures, a tizheruk extends its tightly coiled, whip-like tongue to snare one of its prey's legs, then retracts the appendage to pull the creature to its mouth, where it can seize the creature and drag its prey into the water.",
 			"",
-			"A tizheruk's skin is nearly transparent, granting it natural camouflage beneath the water, where its rustcolored organs and tissue can easily be mistaken for the bed of a creek or stream. After gorging itself on fish or on land animals that wander near the shore, the tizheruk compresses itself on the bottom of a lake or river while it slowly digests its prey. Until then, its stealth is compromised, as the ragged chunks of flesh within its gullet are clearly visible, even if the tizheruk itself remains unseen.",
+			"A tizheruk's skin is nearly transparent, granting it natural camouflage beneath the water, where its rust-colored organs and tissue can easily be mistaken for the bed of a creek or stream. After gorging itself on fish or on land animals that wander near the shore, the tizheruk compresses itself on the bottom of a lake or river while it slowly digests its prey. Until then, its stealth is compromised, as the ragged chunks of flesh within its gullet are clearly visible, even if the tizheruk itself remains unseen.",
 			"",
 			"An adult tizheruk is 15 feet long and weighs 200 pounds, though a tizheruk that has just fed may weigh up to two or three times as much. Larger tizheruks with the giant template are threats to even bigger prey."
 		]
@@ -3623,7 +3623,7 @@
 		"name": "Triaxian",
 		"sources": [ "Pathfinder #70: The Frozen Stars" ],
 		"description": [
-			"*This warrior looks like an attractive humanoid with pointed, featherlike ears and eyes shaped into long, horizontal slits. Though he has no true hair, his entire body is covered in short, sleek white fur.*",
+			"*This warrior looks like an attractive humanoid with pointed, feather-like ears and eyes shaped into long, horizontal slits. Though he has no true hair, his entire body is covered in short, sleek white fur.*",
 			"",
 			"::mh[Triaxian]{cr=\"1/2\"}",
 			"",
@@ -3664,7 +3664,7 @@
 			"",
 			"Triaxians are the dominant race on the planet Triaxus, a world whose erratic orbit causes exceptionally long and disparate seasons. Though eerily similar to humans, elves, and the other mammalian humanoids common on Golarion, Triaxians have developed certain adaptations to their environment that mark them as indisputably alien.",
 			"",
-			"Just like human ethnicities, Triaxian populations vary in size, weight, and other distinguishing physical characteristics, based primarily on the geographical regions in which they reside. Most Triaxians, both males and females, are around 6 feet tall but somewhat lean compared to humans, rarely weighing more than 200 pounds. Their ears are elongated, but rather than being pointed like elves or halflings, these appendages are instead notched in a feathered or comblike pattern. The flaps created by these notches constantly move to adjust the ear's shape, operating both consciously and unconsciously to help Triaxians focus on specific sounds, not unlike the maneuverable ears of dogs, cats, and other such animals.",
+			"Just like human ethnicities, Triaxian populations vary in size, weight, and other distinguishing physical characteristics, based primarily on the geographical regions in which they reside. Most Triaxians, both males and females, are around 6 feet tall but somewhat lean compared to humans, rarely weighing more than 200 pounds. Their ears are elongated, but rather than being pointed like elves or halflings, these appendages are instead notched in a feathered or comb-like pattern. The flaps created by these notches constantly move to adjust the ear's shape, operating both consciously and unconsciously to help Triaxians focus on specific sounds, not unlike the maneuverable ears of dogs, cats, and other such animals.",
 			"",
 			"Like many creatures on their world, Triaxians have evolved to shift along with their environment, resulting in differences between generations of the same family that would seem bizarre to humanoids from Golarion. In the warm summer years, Triaxians are completely hairless, with skin that ranges from deep red to coffee-colored to charcoal black. This configuration allows them to better survive in the sweltering heat of the planet's tropical summers, with the increased melanin in their dark skin protecting them from the sun's intense rays. These Summerborn Triaxians, as they are known, breed true for many generations - yet as the planet begins its rapid seasonal shift, so do the Triaxians. Newborn Triaxians begin to evince new adaptations to the cooling environment, and by the time winter has come on in full, Triaxians change markedly: their pale bodies are covered in fine, insulating white fur like that of an ermine, while their eyes narrow to elongated slits to protect against snowblindness. These new traits similarly breed true until the seasons begin to change once more, at which point the eyes widen and fur recedes, starting the cycle anew.",
 			"",

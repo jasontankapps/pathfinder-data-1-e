@@ -962,7 +962,7 @@
 		"description": [
 			"{SOURCE Planar Adventures/83}",
 			"",
-			"There's a significant reason that most campaigns take place on an earthlike world: it's predictable. Gravity works as expected, there are 24 hours in a day, seasons exist, and weather patterns make sense. That changes rapidly the moment the PCs start jumping to other planes of existence, and conflict between the players' expectations and each planar reality is often more jarring for you than for them, due to potential challenges managing and presenting those differences in compelling ways. The ways in which you can overcome these difficulties vary as much as the planes themselves, but the basics fall into three broad concepts."
+			"There's a significant reason that most campaigns take place on an earth-like world: it's predictable. Gravity works as expected, there are 24 hours in a day, seasons exist, and weather patterns make sense. That changes rapidly the moment the PCs start jumping to other planes of existence, and conflict between the players' expectations and each planar reality is often more jarring for you than for them, due to potential challenges managing and presenting those differences in compelling ways. The ways in which you can overcome these difficulties vary as much as the planes themselves, but the basics fall into three broad concepts."
 		],
 		"parent_topics": [
 			"gm_specific_campaigns",
@@ -2255,9 +2255,10 @@
 	"radiation": {
 		"name": "Radiation",
 		"subtitle": "Technology, Specific Campaigns",
+		"tags": "radiation poisoning",
 		"sources": [ "Technology Guide" ],
 		"description": [
-			"Radiation is a very real threat to those who explore the technological ruins of Numeria. Radiation is a poison effect whose initial effect causes Constitution drain and secondary effect causes Strength damage. Radiation dangers are organized into four categories: low, medium, high, and severe.",
+			"Radiation is a very real threat to those who explore the technological ruins of Numeria. Radiation is a poison effect whose initial effect causes Constitution drain and secondary effect causes Strength damage. Radiation poisoning dangers are organized into four categories: low, medium, high, and severe.",
 			"",
 			":HL[Area of Effect:] Radiation suffuses a spherical area of effect that can extend into solid objects. The closer one gets to the center of an area of radiation, the stronger the radiation effect becomes. Radiation entries list the maximum level of radiation in an area, as well as the radius out to which this radiation level applies. Each increment up to an equal length beyond that radius degrades the radiation strength by one level. For example, a spherical area of high radiation with a radius of 20 feet creates a zone of medium radiation 21 feet to 40 feet from the center in all directions, and a similar zone of low radiation from 41 to 60 feet.",
 			"",

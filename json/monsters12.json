@@ -1024,17 +1024,17 @@
 			"",
 			"**Ribbon (Ex)** A gishvit's tongue is a primary attack with reach of 10 feet. A gishvit applies its Dexterity modifier as a bonus on attack rolls with its bookmark ribbon. A gishvit's ribbon deals no damage on a hit, but it can be used to grab the target. A gishvit has a +8 racial bonus to maintain its grapple on a foe grabbed by its ribbon. A gishvit does not gain the grappled condition while using its ribbon in this manner.",
 			"",
-			"**Transcription (Su)** A gishvit finds pleasure in being a repository of information. It can immediately transcribe information dictated to it and material it overhears. Alternately, a gishvit can spend an hour with a willing subject, wherein it collects memories and experiences from the subject. This transcription process is not dangerous to either the gishvit or the target. Information recorded and stored in this manner appears as filled pages within the gishvit's booklike body, and it remains there for up to 24 hours after the gishvit is slain (unless the gishvit was killed by an *erase* spell, see below). Another creature can research the pages of a willing or deceased gishvit. The text inside a gishvit is comprehensible to any creature that can read and knows at least one written language. Researching the information within a gishvit for 1 hour grants the reader a +4 insight bonus on any single Knowledge check in the next 24 hours, and the reader can attempt such checks even if not trained in that Knowledge skill.",
+			"**Transcription (Su)** A gishvit finds pleasure in being a repository of information. It can immediately transcribe information dictated to it and material it overhears. Alternately, a gishvit can spend an hour with a willing subject, wherein it collects memories and experiences from the subject. This transcription process is not dangerous to either the gishvit or the target. Information recorded and stored in this manner appears as filled pages within the gishvit's book-like body, and it remains there for up to 24 hours after the gishvit is slain (unless the gishvit was killed by an *erase* spell, see below). Another creature can research the pages of a willing or deceased gishvit. The text inside a gishvit is comprehensible to any creature that can read and knows at least one written language. Researching the information within a gishvit for 1 hour grants the reader a +4 insight bonus on any single Knowledge check in the next 24 hours, and the reader can attempt such checks even if not trained in that Knowledge skill.",
 			"",
 			"**Vulnerability to Erase (Su)** An *erase* spell deals 2d4 points of damage to a gishvit and has a 50% chance of removing all written text within its pages (no save). A gishvit reduced to 0 hit points or below in this manner is slain, becoming a blank book.",
 			"",
 			"::sh[Description]",
 			"",
-			"Sometimes referred to as \"lore roaches\" by scholars familiar with the Outer Planes, gishvits are natural inhabitants of the lawful plane of Axis. Often associated with the native axiomites and scrivenites, gishvits occupy a mundane role on Axis, maintaining vast stores of knowledge within their booklike bodies. Transcribing knowledge from living creatures, a gishvit stores information in its body in the form of written text, preserving the acquired knowledge within itself. Because of this unique method of information gathering, gishvits are treasured by information brokers and spellcasters on the Material Plane.",
+			"Sometimes referred to as \"lore roaches\" by scholars familiar with the Outer Planes, gishvits are natural inhabitants of the lawful plane of Axis. Often associated with the native axiomites and scrivenites, gishvits occupy a mundane role on Axis, maintaining vast stores of knowledge within their book-like bodies. Transcribing knowledge from living creatures, a gishvit stores information in its body in the form of written text, preserving the acquired knowledge within itself. Because of this unique method of information gathering, gishvits are treasured by information brokers and spellcasters on the Material Plane.",
 			"",
 			"A gishvit varies between 1 to 2 feet in length, often weighing no more than 8 pounds.",
 			"",
-			"The booklike body of a gishvit is indicative of its ultimate purpose: the consumption and storage of knowledge. For as long as the ordered realm of Axis has existed, gishvits have clambered throughout its seemingly endless streets and meandered within its many archives of knowledge. Some scholars believe that these creatures first emerged from the quintessence of Axis as companions to axiomites and {monster/scrivenite/s}. While axiomites tend to ignore the pesky little creatures, scrivenites associate with the booklike outsiders, sometimes even treating them like pets more than pests.",
+			"The book-like body of a gishvit is indicative of its ultimate purpose: the consumption and storage of knowledge. For as long as the ordered realm of Axis has existed, gishvits have clambered throughout its seemingly endless streets and meandered within its many archives of knowledge. Some scholars believe that these creatures first emerged from the quintessence of Axis as companions to axiomites and {monster/scrivenite/s}. While axiomites tend to ignore the pesky little creatures, scrivenites associate with the book-like outsiders, sometimes even treating them like pets more than pests.",
 			"",
 			"A gishvit has a set of razor-sharp teeth that emerge from the edges of its cover page and back page, though it lacks the strength to use them with great effectiveness. These teeth are visible only when the outsider opens its mouth. A set of similarly sharp insectile limbs emerge from within the gishvit's body, acting as legs that can be retracted at a whim to act as embellishments for the gishvit's spine. A whipping, silken bookmark tongue that issues from between the pages of its body completes the gishvit's odd anatomy.",
 			"",
@@ -2063,7 +2063,7 @@
 		"name": "Gnoph-Keh",
 		"sources": [ "Pathfinder #46: Wake of the Watcher" ],
 		"description": [
-			"*A vortex of freezing wind swirls around this six-legged, bearlike monstrosity. A single horn protrudes from its snarling face.*",
+			"*A vortex of freezing wind swirls around this six-legged, bear-like monstrosity. A single horn protrudes from its snarling face.*",
 			"",
 			"::mh[Gnoph-Keh]{cr=\"11\"}",
 			"",
@@ -2797,7 +2797,7 @@
 			"Inner Sea Bestiary"
 		],
 		"description": [
-			"*This creature has the wide head and toothy mouth of a goblin, dappled green skin, simian hands and feet, and a ratlike tail.*",
+			"*This creature has the wide head and toothy mouth of a goblin, dappled green skin, simian hands and feet, and a rat-like tail.*",
 			"",
 			"::mh[Monkey Goblin]{cr=\"1/2\"}",
 			"",
@@ -2841,7 +2841,7 @@
 			"",
 			"::sh[Description]",
 			"",
-			"Monkey goblins are an offshoot of the goblin race that has eagerly adapted to life in the high, leafy canopies of tropical forests. Equipped with ratlike prehensile tails, monkey goblins are as at home in the trees as they are on the ground.",
+			"Monkey goblins are an offshoot of the goblin race that has eagerly adapted to life in the high, leafy canopies of tropical forests. Equipped with rat-like prehensile tails, monkey goblins are as at home in the trees as they are on the ground.",
 			"",
 			"Monkey goblins lead savage lives, and many take levels in the barbarian class, though fighters and rogues are also common among the race. While spellcasting classes are almost unheard of among them, monkey goblin clerics in the service of dark gods are given a level of respect by other monkey goblins that borders on fear."
 		]

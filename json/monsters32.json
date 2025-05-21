@@ -294,7 +294,7 @@
 			"Bestiary 2"
 		],
 		"description": [
-			"*This small, bizarre humanoid creature has finlike wings, strange yellow skin, and tiny black eyes burning with malevolence.*",
+			"*This small, bizarre humanoid creature has fin-like wings, strange yellow skin, and tiny black eyes burning with malevolence.*",
 			"",
 			"::mh[Haniver]{cr=\"1/2\"}",
 			"",
@@ -1038,7 +1038,7 @@
 		"name": "Wamp",
 		"sources": [ "Pathfinder #111: Dreams of the Yellow King" ],
 		"description": [
-			"*This crimson-footed, nine-legged monstrosity has an egg-shaped body covered in dirty white fur. Its eyeless face, piglike snout, and toothy maw make for a disturbing visage.*",
+			"*This crimson-footed, nine-legged monstrosity has an egg-shaped body covered in dirty white fur. Its eyeless face, pig-like snout, and toothy maw make for a disturbing visage.*",
 			"",
 			"::mh[Wamp]{cr=\"6\"}",
 			"",
@@ -1595,7 +1595,7 @@
 			"",
 			"Reclusive by nature, jungle giants lair deep within the rainforest. These giants distrust the ways of civilization and resent trespassers. More than one vine-covered lost city in the deep jungle owes its fall to jungle giant ire. The warrior-women of these tribes usually fight with bows, sacred weapons often passed down over generations from mother to daughter. To touch a jungle giant's bow without permission is a mortal insult.",
 			"",
-			"Jungle giants stand 17 feet tall and weigh 4,000 pounds. Their barklike skin bears runic brands etched into each giant as a rite of passage into adulthood. Jungle giant tribes are matriarchal, ruled by an elder female warrior. Males traditionally defend the village, gather food, tend livestock, and raise children."
+			"Jungle giants stand 17 feet tall and weigh 4,000 pounds. Their bark-like skin bears runic brands etched into each giant as a rite of passage into adulthood. Jungle giant tribes are matriarchal, ruled by an elder female warrior. Males traditionally defend the village, gather food, tend livestock, and raise children."
 		]
 	},
 	"giant_jungle": { "copyof": "giant_jungle_giant" },
@@ -1665,7 +1665,7 @@
 		"name": "Moon Giant",
 		"sources": [ "Bestiary 5" ],
 		"description": [
-			"*This giant's gray skin sparkles as if with reflected light and is pocked with what look like impact craters on its rocklike surface.*",
+			"*This giant's gray skin sparkles as if with reflected light and is pocked with what look like impact craters on its rock-like surface.*",
 			"",
 			"::mh[Moon Giant]{cr=\"15\"}",
 			"",
@@ -3879,7 +3879,7 @@
 		"name": "Hookfang Worm",
 		"sources": [ "Bestiary 6" ],
 		"description": [
-			"*This long, orange, segmented worm's colorful head unfolds like a horrific flower to reveal five large, black, hooklike teeth.*",
+			"*This long, orange, segmented worm's colorful head unfolds like a horrific flower to reveal five large, black, hook-like teeth.*",
 			"",
 			"::mh[Hookfang Worm]{cr=\"7\"}",
 			"",
