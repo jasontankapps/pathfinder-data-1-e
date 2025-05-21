@@ -18,7 +18,7 @@
 			"**Category** Channel Foci  ",
 			"**Deity** Any",
 			"",
-			"Consecrated weapons may be of any type - swords, axes, masterwork, mithral, and even magical - and function appropriately. When activated, the cleric charges the weapon with positive or negative energy (as appropriate) so it deals extra damage when it hits a target. This functions like the {feat/Channel Smite} feat, except the additional damage is equal to half the cleric's channel energy damage (the target makes a Will save as normal, based on the cleric's channel energy DC). The weapon remains charged with this energy until it successfully strikes a creature or 24 hours pass, whichever comes first. Creatures other than the cleric are able to use the charged weapon and this ability."
+			"Consecrated weapons may be of any type - swords, axes, masterwork, {eq-material/mithral}, and even magical - and function appropriately. When activated, the cleric charges the weapon with positive or negative energy (as appropriate) so it deals extra damage when it hits a target. This functions like the {feat/Channel Smite} feat, except the additional damage is equal to half the cleric's {ability/channel energy} damage (the target makes a Will save as normal, based on the cleric's channel energy DC). The weapon remains charged with this energy until it successfully strikes a creature or 24 hours pass, whichever comes first. Creatures other than the cleric are able to use the charged weapon and this ability."
 		]
 	},
 	"sawback_sword": {
@@ -45,7 +45,7 @@
 			"**Price** +300 gp; **Weight** -  ",
 			"**Category** Adventuring Gear",
 			"",
-			"Undines incorporate a unique design when crafting shafted weapons such as quarterstaves, spears, and tridents. Instead of a solid shaft, the weapon is built around a pipe of wood or metal, with the butt end sealed and the front end left open. As a full-round action, an undine can make a single melee attack with the weapon and use her hydraulic push spell-like ability against the target of that melee attack. The weapon otherwise functions like a standard weapon of its type, and can be made of special materials (such as {eq-material/mithral} or {eq-material/adamantine}) and masterwork quality."
+			"{race/Undine/s} incorporate a unique design when crafting shafted weapons such as quarterstaves, spears, and tridents. Instead of a solid shaft, the weapon is built around a pipe of wood or metal, with the butt end sealed and the front end left open. As a full-round action, an undine can make a single melee attack with the weapon and use her hydraulic push spell-like ability against the target of that melee attack. The weapon otherwise functions like a standard weapon of its type, and can be made of special materials (such as {eq-material/mithral} or {eq-material/adamantine}) and {rule/masterwork>_weapons} quality."
 		]
 	},
 	"brutally_weighted": {
@@ -57,7 +57,7 @@
 			"**Price** +1,500 gp **Weight** +1 lb.  ",
 			"**Category** Modification; **Proficiency** Modification",
 			"",
-			"A brutally weighted weapon is balanced to put more weight on the striking surface, knocking targets off balance with every blow. Only bludgeoning melee weapons can be brutally weighted. This modification can be added to a greatclub or tetsubo without increasing its weapon's category, but doing so increases the cost of modification by an additional 1,500 gp. A creature hit with a brutally weighted weapon takes a -2 penalty to its CMD against bull rush, reposition, and trip combat maneuvers until the end of its next turn or until after it is subject to such a maneuver (whichever comes first)."
+			"A brutally weighted weapon is balanced to put more weight on the striking surface, knocking targets off balance with every blow. Only bludgeoning melee weapons can be brutally weighted. This modification can be added to a {eq-weapon/greatclub} or {eq-weapon/tetsubo} without {misc/increasing its |weapon/'s category>_size}, but doing so increases the cost of modification by an additional 1,500 gp. A creature hit with a brutally weighted weapon takes a -2 penalty to its CMD against bull rush, reposition, and trip combat maneuvers until the end of its next turn or until after it is subject to such a maneuver (whichever comes first)."
 		]
 	},
 	"dual_balanced": {
@@ -69,7 +69,7 @@
 			"**Cost** +2,000 gp **Weight** -  ",
 			"**Category** Modification; **Proficiency** Modification",
 			"",
-			"Dual-balanced weapons are balanced to be wielded in tandem. Only melee weapons can be dual-balanced. When wielding two weapons with the dual-balanced modification, reduce any two-weapon fighting penalties by 1 for both weapons. The weapons do not need to be the same type, but both must have the dual-balanced modification."
+			"Dual-balanced weapons are balanced to be wielded in tandem. Only melee weapons can be dual-balanced. When wielding two weapons with the dual-balanced modification, reduce any {rule/two-weapon fighting} penalties by 1 for both weapons. The weapons do not need to be the same type, but both must have the dual-balanced modification."
 		]
 	},
 	"jagged_hooks": {
@@ -93,7 +93,7 @@
 			"**Cost** +1,000 gp **Weight** -  ",
 			"**Category** Modification; **Proficiency** Modification",
 			"",
-			"The weapon's edge is honed to incredible sharpness. The weapon's edge dulls after a number of daily uses, but the bonus can be reset by spending 15 minutes whetting the blade after a night's rest. Only piercing or slashing weapons can have the razor-sharp modification. Projectile weapons can't be razorsharp, but their ammunition can. A razor-sharp weapon gains a +1 bonus on weapon damage rolls for a number of attacks each day equal to 3 + your base attack bonus."
+			"The weapon's edge is honed to incredible sharpness. The weapon's edge dulls after a number of daily uses, but the bonus can be reset by spending 15 minutes {eq-misc/whet/ting>stone} the blade after a night's rest. Only piercing or slashing weapons can have the razor-sharp modification. Projectile weapons can't be razor-sharp, but their ammunition can. A razor-sharp weapon gains a +1 bonus on weapon damage rolls for a number of attacks each day equal to 3 + your base attack bonus."
 		]
 	},
 	"serrated_edge": {
@@ -105,7 +105,7 @@
 			"**Cost** +2,000 gp **Weight** -  ",
 			"**Category** Modification; **Proficiency** Modification",
 			"",
-			"The weapon's blade inflicts wounds that bleed profusely. Only piercing or slashing melee weapons can have a serrated edge. This modification can be added to a sawtooth sabre or rhoka sword without increasing its weapon category, but doing so increases the cost of modification by 2,000 gp. When you make an attack with a weapon with a serrated edge, you can take a -2 penalty on the attack roll. If you do and the attack deals damage, the weapon also inflicts 1 point of bleed damage. This bleed stacks with itself (to a maximum equal to the weapon's critical multiplier), but does not stack with bleed from other sources."
+			"The weapon's blade inflicts wounds that bleed profusely. Only piercing or slashing melee weapons can have a serrated edge. This modification can be added to a {eq-weapon/sawtooth sabre} or {eq-weapon/rhoka sword} without increasing its {misc/weapon category}, but doing so increases the cost of modification by 2,000 gp. When you make an attack with a weapon with a serrated edge, you can take a -2 penalty on the attack roll. If you do and the attack deals damage, the weapon also inflicts 1 point of {rule/bleed} damage. This bleed stacks with itself (to a maximum equal to the weapon's critical multiplier), but does not stack with bleed from other sources."
 		]
 	},
 	"tactically_adapted": {
@@ -117,7 +117,7 @@
 			"**Cost** +2,000 gp **Weight** -  ",
 			"**Category** Modification; **Proficiency** Modification",
 			"",
-			"A tactically adapted weapon is designed for specialized tactics rather than just swinging and stabbing. Only melee weapons can be tactically adapted. When this quality is added to a weapon, choose a weapon quality from the following list: blocking, brace, disarm, distracting, nonlethal, performance, or trip. The modified weapon gains that weapon quality."
+			"A tactically adapted weapon is designed for specialized tactics rather than just swinging and stabbing. Only melee weapons can be tactically adapted. When this quality is added to a weapon, choose a weapon quality from the following list: {misc/blocking}, {misc/brace}, {misc/disarm}, {misc/distracting}, {misc/nonlethal}, {misc/performance}, or {misc/trip}. The modified weapon gains that weapon quality."
 		]
 	},
 	"versatile_design": {
@@ -129,7 +129,7 @@
 			"**Cost** +500 gp **Weight** -  ",
 			"**Category** Modification; **Proficiency** Modification",
 			"",
-			"A weapon with the versatile design modification is easier to wield for those skilled with other weapon groups. When versatile design is added to a weapon, choose a fighter weapon group. The modified weapon is considered to be a weapon of that weapon group (such as for the fighter's weapon training class feature). A melee weapon cannot be considered part of a weapon group for ranged weapons, and vice versa."
+			"A weapon with the versatile design modification is easier to wield for those skilled with other weapon groups. When versatile design is added to a weapon, choose a {ability/fighter |weapon group>s}. The modified weapon is considered to be a weapon of that weapon group (such as for the {class/fighter/'s} weapon training class feature). A melee weapon cannot be considered part of a weapon group for ranged weapons, and vice versa."
 		]
 	}
 }

@@ -77,7 +77,7 @@
 			"**Arcane Spell Failure Chance** 0%; **Speed** 30 ft./20 ft.  ",
 			"**Category** Light armor",
 			"",
-			"When you add an armored kilt to a suit of light armor, the set counts as medium armor. Likewise, a kilt and medium armor counts as heavy armor. Adding an armored kilt to heavy armor has no effect."
+			"Popular among the Keleshite soldiers of Qadira, the armored kilt is made of a thick cloth skirt with bars of steel hanging down from the waist and a ring of horizontal steel plates just above the hem. An armored kilt can be worn separately as light armor, or it can be added to other suits of light or medium armor. Adding an armored kilt increases a suit of armor's armor bonus by +1, but it lowers the maximum Dex bonus by 1, and increases the armor's weight category (from light to medium and from medium to heavy). Adding an armored kilt to heavy armor does not provide an armor bonus increase."
 		]
 	},
 	"haramaki": {
@@ -903,7 +903,7 @@
 			"**Arcane Spell Failure Chance** 35%; **Speed** 15 ft./10 ft.  ",
 			"**Category** Heavy armor",
 			"",
-			"This armor is crafted by dwarven stonesmiths from alchemically strengthened plates of basalt. Stoneplate is heavy and unwieldy, but offers incredible protection to its wearer. It is primarily used by dwarven druids who cannot wear metal armor."
+			"This armor is crafted by dwarven stonesmiths from alchemically strengthened plates of shale or basalt. Stoneplate is heavy and unwieldy, but offers incredible protection to its wearer. It is primarily used by dwarven druids who cannot wear metal armor."
 		]
 	},
 	"buckler": {

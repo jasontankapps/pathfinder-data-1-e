@@ -107,7 +107,8 @@
 																"type": "array",
 																"$comment": "The first element attaches to the end of an item. The last element attaches to the beginning of the next item. Other items are placed in between as separate lines.",
 																"items": { "type": "string" },
-																"minItems": 2
+																"minItems": 2,
+																"unevaluatedItems": false
 															},
 															"post": {
 																"type": "string",
@@ -133,7 +134,8 @@
 														"required": [ "join", "template", "limit" ]
 													}
 												]
-											}
+											},
+											"unevaluatedItems": false
 										}
 									},
 									"required": [ "source", "targets" ]
@@ -176,7 +178,8 @@
 											{ "type": "number" }
 										],
 										"items": false
-									}
+									},
+									"unevaluatedItems": false
 								},
 								"description": { "$ref": "#stringArray" },
 								"addenda": { "$ref": "#stringArray" },
@@ -246,7 +249,8 @@
 																"type": "array",
 																"$comment": "The first element attaches to the end of an item. The last element attaches to the beginning of the next item. Other items are placed in between as separate lines.",
 																"items": { "type": "string" },
-																"minItems": 2
+																"minItems": 2,
+																"unevaluatedItems": false
 															},
 															"post": {
 																"type": "string",
@@ -272,7 +276,8 @@
 														"required": [ "join", "template", "limit" ]
 													}
 												]
-											}
+											},
+											"unevaluatedItems": false
 										}
 									},
 									"required": [ "source", "targets" ]
@@ -299,7 +304,8 @@
 					"required": [ "prop" ],
 					"unevaluatedProperties": false
 				}
-			]
+			],
+			"unevaluatedItems": false
 		},
 		{
 			"$comment": "This is for colors.json",
@@ -332,7 +338,8 @@
 		"stringArray": {
 			"$anchor": "stringArray",
 			"type": "array",
-			"items": { "type": "string" }
+			"items": { "type": "string" },
+			"unevaluatedItems": false
 		},
 		"searchgroup": {
 			"$anchor": "searchgroup",
@@ -377,7 +384,8 @@
 			"$anchor": "uniqueArray",
 			"type": "array",
 			"items": { "type": "string" },
-			"uniqueItems": true
+			"uniqueItems": true,
+			"unevaluatedItems": false
 		},
 		"link": {
 			"$anchor": "link",
@@ -416,7 +424,9 @@
 								"ripple": { "type": "boolean" }
 							},
 							"requires": [ "header" ]
-						}
+						},
+						"minItems": 1,
+						"unevaluatedItems": false
 					},
 					"initialColumn": {
 						"type": "integer",
@@ -450,7 +460,8 @@
 										"equals": {
 											"type": "array",
 											"items": { "type": ["string","number"] },
-											"uniqueItems": true
+											"uniqueItems": true,
+											"unevaluatedItems": false
 										},
 										"labels": { "$ref": "#uniqueArray" }
 									},
@@ -468,7 +479,8 @@
 									"unevaluatedProperties": false
 								}
 							]
-						}
+						},
+						"unevaluatedItems": false
 					},
 					"data": {
 						"$comment": "null | string | number | [ number, string ] | [ string, string ]",
@@ -491,13 +503,17 @@
 										"items": false
 									}
 								]
-							}
-						}
+							},
+							"unevaluatedItems": false
+						},
+						"unevaluatedItems": false
 					},
 					"requires": [ "id", "columns", "data", "initialColumn" ]
 				},
 				"unevaluatedProperties": false
-			}
+			},
+			"minItems": 1,
+			"unevaluatedItems": false
 		},
 		"subfeat": {
 			"$anchor": "subfeat",

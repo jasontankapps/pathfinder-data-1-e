@@ -337,6 +337,23 @@
 	"one_size_category_larger": { "copyof": "damage_die_adjustments" },
 	"one_size_smaller": { "copyof": "damage_die_adjustments" },
 	"one_size_category_smaller": { "copyof": "damage_die_adjustments" },
+	"weapon_size": {
+		"name": "Weapon Size",
+		"sources": [ "PRPG Core Rulebook" ],
+		"description": [
+			"{SOURCE PRPG Core Rulebook/141}",
+			"",
+			":HL[Weapon Size:] Every weapon has a size category. This designation indicates the size of the creature for which the weapon was designed.",
+			"",
+			"A weapon's size category isn't the same as its size as an object. Instead, a weapon's size category is keyed to the size of the intended wielder. In general, a light weapon is an object two size categories smaller than the wielder, a one-handed weapon is an object one size category smaller than the wielder, and a two-handed weapon is an object of the same size category as the wielder.",
+			"",
+			":HL[Inappropriately Sized Weapons:] A creature can't make optimum use of a weapon that isn't properly sized for it. A cumulative -2 penalty applies on attack rolls for each size category of difference between the size of its intended wielder and the size of its actual wielder. If the creature isn't proficient with the weapon, a -4 nonproficiency penalty also applies.",
+			"",
+			"The measure of how much effort it takes to use a weapon (whether the weapon is designated as a light, one-handed, or two-handed weapon for a particular wielder) is altered by one step for each size category of difference between the wielder's size and the size of the creature for which the weapon was designed. For example, a Small creature would wield a Medium one-handed weapon as a two-handed weapon. If a weapon's designation would be changed to something other than light, one-handed, or two-handed by this alteration, the creature can't wield the weapon at all."
+		],
+		"topLink": [ "Weapon Encumbrance and Size", "rule/weapon_encumbrance" ]
+	},
+	"weapon_category": { "copyof": "weapon_size" },
 	"burst": {
 		"name": "Burst",
 		"sources": [ "PRPG Core Rulebook" ],
@@ -587,6 +604,81 @@
 			"Some weapons have special features in addition to those noted in their descriptions.",
 			"",
 			":HL[Trip:] You can use any weapon to make {rule/trip} attacks, but if you are tripped during your own trip attempt, you can drop a trip weapon to avoid being tripped. If the weapon has any other bonuses that apply during a trip attempt, those bonuses also apply during {rule/drag} and {rule/reposition} combat maneuvers."
+		],
+		"searchgroup": "rule",
+		"type": "Rule",
+		"topLink": [ "Weapon Special Features", "rule/weapon_special_features" ]
+	},
+	"automatic": {
+		"name": "Automatic",
+		"subtitle": "Weapon Special Feature",
+		"sources": [ "Technology Guide" ],
+		"description": [
+			"{SOURCE Technology Guide/20}",
+			"",
+			"Some weapons have special features in addition to those noted in their descriptions.",
+			"",
+			":HL[Automatic:] This weapon can act as a {misc/semi-automatic} weapon, or it can fire a burst of shots with a single pull of the trigger to attack all creatures in a line. This line starts from any corner of the wielder's space and extends to the limit of the weapon's range or until it strikes a barrier it cannot penetrate. When using an automatic weapon to attack all creatures in a line, the wielder makes a separate attack roll against each creature in the line. Each creature in the line can be attacked with only one shot from each burst. Each attack roll takes a -2 penalty, and its damage cannot be modified by precision damage or damage-increasing feats such as {feat/Vital Strike}. Effects that grant {rule/concealment}, such as fog or smoke, or the {spell/blur}, {spell/invisibility}, or {spell/mirror image} spells, do not affect an automatic weapon's line attack. Roll to confirm each attack roll that threatens a critical hit separately. A single burst with an automatic weapon consumes 10 charges. When taking a full-attack action with an automatic weapon, the wielder can fire as many bursts in a round as he has attacks, provided he has enough charges to make all of the attacks."
+		],
+		"searchgroup": "rule",
+		"type": "Rule",
+		"topLink": [ "Tech Weapons", "rule/tech_weapons" ]
+	},
+	"semi_automatic": {
+		"name": "Semi-Automatic",
+		"subtitle": "Weapon Special Feature",
+		"sources": [ "Technology Guide" ],
+		"description": [
+			"{SOURCE Technology Guide/20}",
+			"",
+			"Some weapons have special features in addition to those noted in their descriptions.",
+			"",
+			":HL[Semi-Automatic:] A semi-automatic weapon normally fires one shot as an attack. However, the user can take a full-attack action to fire twice, as if using the {feat/Rapid Shot} feat (including taking a -2 penalty on all attacks). If the wielder has the Rapid Shot feat, she can use the additional shot from that as well, but the penalty for all shots fired in that round increases to -6."
+		],
+		"searchgroup": "rule",
+		"type": "Rule",
+		"topLink": [ "Tech Weapons", "rule/tech_weapons" ]
+	},
+	"slow_firing": {
+		"name": "Slow-Firing",
+		"subtitle": "Weapon Special Feature",
+		"sources": [ "Technology Guide" ],
+		"description": [
+			"{SOURCE Technology Guide/20}",
+			"",
+			"Some weapons have special features in addition to those noted in their descriptions.",
+			"",
+			":HL[Slow-Firing:] A slow-firing weapon requires a full-round action to use, and thus cannot be used to make iterative attacks."
+		],
+		"searchgroup": "rule",
+		"type": "Rule",
+		"topLink": [ "Tech Weapons", "rule/tech_weapons" ]
+	},
+	"touch": {
+		"name": "Touch",
+		"subtitle": "Weapon Special Feature",
+		"sources": [ "Technology Guide" ],
+		"description": [
+			"{SOURCE Technology Guide/20}",
+			"",
+			"Some weapons have special features in addition to those noted in their descriptions.",
+			"",
+			":HL[Touch:] Attacks with the weapon resolve as touch attacks."
+		],
+		"searchgroup": "rule",
+		"type": "Rule",
+		"topLink": [ "Tech Weapons", "rule/tech_weapons" ]
+	},
+	"scatter": {
+		"name": "Scatter",
+		"subtitle": "Weapon Special Feature",
+		"sources": [ "Ultimate Combat" ],
+		"description": [
+			"{SOURCE Ultimate Combat/137}",
+			"",
+			"Some weapons have special features in addition to those noted in their descriptions.",
+			"",
+			":HL[Scatter:] A weapon with the scatter weapon quality can shoot two different types of ammunition. It can fire normal bullets that target one creature, or it can make a scattering shot, attacking all creatures within a cone. Cannons with the scatter weapon quality only fire grapeshot, unless their descriptions state otherwise. When a scatter weapon attacks all creatures within a cone, it makes a separate attack roll against each creature within the cone. Each attack roll takes a -2 penalty, and its attack damage cannot be modified by precision damage or damage-increasing feats such as {feat/Vital Strike}. Effects that grant {rule/concealment}, such as fog or smoke, or the {spell/blur}, {spell/invisibility}, or {spell/mirror image} spells, do not foil a scatter attack. If any of the attack rolls threaten a critical, confirm the critical for that attack roll alone. A firearm that makes a scatter shot misfires only if all of the attack rolls made misfire. If a scatter weapon explodes on a misfire, it deals triple its damage to all creatures within the misfire radius."
 		],
 		"searchgroup": "rule",
 		"type": "Rule",

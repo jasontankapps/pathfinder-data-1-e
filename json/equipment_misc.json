@@ -1380,6 +1380,8 @@
 			"This small grappling hook is designed to be tied to a {eq-misc/silk rope>_50_ft} and fired from a bow. When fired, it has a range increment of 30 feet. An equivalent item exists for crossbows."
 		]
 	},
+	"grappling_arrow": { "copyof": "arrow_grappling" },
+	"grappling_bolt": { "copyof": "arrow_grappling" },
 	"artifical_gills": {
 		"name": "Artifical gills",
 		"sources": [ "Blood of the Sea" ],
@@ -3103,7 +3105,7 @@
 			"{SOURCE Melee Tactics Toolbox/20}  ",
 			"**Price** 105 gp (common), 380 gp (superior); **Weight** 15 lbs. (common), 24 lbs. (superior)",
 			"",
-			"This kit provides useful tools for bounty hunters. It includes basic maps showing major landmarks, {eq-misc/caltrops}, {eq-misc/common manacles} with an {eq-misc/average lock}, a {eq-weapon/net}, a {eq-weapon/sap}, and a {eq-misc/10-foot chain}. Bounty hunters are notoriously individualistic, so variant kits are common. One such variant is the superior bounty hunter's kit, which replaces the common manacles with {eq-misc/masterwork manacles} and the average lock with a {eq-misc/good lock}, and includes a {eq-misc/footprint book}, a {eq-weapon/tanglefoot bag}, and {eq-misc/masterwork thieves' tools}."
+			"This kit provides useful tools for bounty hunters. It includes basic maps showing major landmarks, {eq-misc/caltrops}, {eq-misc/common manacles} with an {eq-misc/average lock}, a {eq-weapon/net}, a {eq-weapon/sap}, and a 10-foot {eq-misc/chain}. Bounty hunters are notoriously individualistic, so variant kits are common. One such variant is the superior bounty hunter's kit, which replaces the common manacles with {eq-misc/masterwork manacles} and the average lock with a {eq-misc/good lock}, and includes a {eq-misc/footprint book}, a {eq-weapon/tanglefoot bag}, and {eq-misc/masterwork thieves' tools}."
 		]
 	},
 	"bounty_hunters_kit_superior": {
@@ -4223,7 +4225,6 @@
 	},
 	"chain": { "copyof": "chain_10_ft" },
 	"chain_ten_ft": { "copyof": "chain_10_ft" },
-	"10_foot_chain": { "copyof": "chain_10_ft" },
 	"chain_belt": {
 		"name": "Chain belt",
 		"sources": [ "Advanced Race Guide" ],

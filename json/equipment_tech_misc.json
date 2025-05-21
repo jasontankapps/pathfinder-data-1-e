@@ -1022,7 +1022,7 @@
 			"When activated, a flashlight creates a beam of normal light in a 60-foot cone. It also increases the light level in the area beyond this initial cone by one step, out to a 120-foot cone. It does not increase the light level in normal light or bright light. A flashlight has no effect in areas of magical darkness."
 		]
 	},
-	"force_field_brown": {
+	"force_field": {
 		"name": "Force Field (brown)",
 		"sources": [ "Technology Guide" ],
 		"description": [
@@ -1058,46 +1058,51 @@
 			"| Prismatic | 50 | 60 | 10 |"
 		]
 	},
+	"force_field_brown": {
+		"name": "Force Field (brown)",
+		"copyof": "force_field"
+	},
 	"brown_force_field": { "copyof": "force_field_brown" },
 	"force_field_blue": {
 		"name": "Force Field (blue)",
-		"copyof": "force_field_brown"
+		"copyof": "force_field"
 	},
 	"blue_force_field": { "copyof": "force_field_blue" },
 	"force_field_black": {
 		"name": "Force Field (black)",
-		"copyof": "force_field_brown"
+		"copyof": "force_field"
 	},
 	"black_force_field": { "copyof": "force_field_black" },
 	"force_field_gray": {
 		"name": "Force Field (gray)",
-		"copyof": "force_field_brown"
+		"copyof": "force_field"
 	},
 	"gray_force_field": { "copyof": "force_field_gray" },
 	"force_field_green": {
 		"name": "Force Field (green)",
-		"copyof": "force_field_brown"
+		"copyof": "force_field"
 	},
 	"green_force_field": { "copyof": "force_field_green" },
 	"force_field_orange": {
 		"name": "Force Field (orange)",
-		"copyof": "force_field_brown"
+		"copyof": "force_field"
 	},
 	"orange_force_field": { "copyof": "force_field_orange" },
 	"force_field_prismatic": {
 		"name": "Force Field (prismatic)",
-		"copyof": "force_field_brown"
+		"copyof": "force_field"
 	},
 	"prismatic_force_field": { "copyof": "force_field_prismatic" },
 	"force_field_red": {
 		"name": "Force Field (red)",
-		"copyof": "force_field_brown"
+		"copyof": "force_field"
 	},
 	"red_force_field": { "copyof": "force_field_red" },
 	"force_field_white": {
 		"name": "Force Field (white)",
-		"copyof": "force_field_brown"
+		"copyof": "force_field"
 	},
+	"white_force_field": { "copyof": "force_field_white" },
 	"gravity_clip": {
 		"name": "Gravity clip",
 		"sources": [ "Technology Guide" ],
@@ -1342,7 +1347,7 @@
 			"**Craft DC** 11; **Cost** 5 gp  ",
 			"{feat/Craft Technological Item}, {rule/crafting<production| lab>oratories}",
 			"",
-			"This small handheld tool creates a tiny open flame when activated. Once triggered, a lighter's flame (which gives illumination as a `candle`) continues to burn as long as the lighter's trigger is depressed, consuming energy at the rate of 1 charge per hour. The flame can be used to light larger items on fire, but is not large enough to cause significant damage on its own."
+			"This small handheld tool creates a tiny open flame when activated. Once triggered, a lighter's flame (which gives illumination as a {eq-misc/candle}) continues to burn as long as the lighter's trigger is depressed, consuming energy at the rate of 1 charge per hour. The flame can be used to light larger items on fire, but is not large enough to cause significant damage on its own."
 		]
 	},
 	"magboots": {

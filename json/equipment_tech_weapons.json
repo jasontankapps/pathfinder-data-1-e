@@ -19,14 +19,14 @@
 			"**Cost** 70,000 gp  ",
 			"**Type** light melee; **Proficiency** exotic; **Weight** 1 lb.  ",
 			"**Damage** 1d10 (small), 2d6 (medium); **Damage Type** S; **Critical** 18-20/&times;3  ",
-			"**Range** -; **Capacity** 10; **Usage** 1 charge/round; **Special** Performance, reach, touch",
+			"**Range** -; **Capacity** 10; **Usage** 1 charge/round; **Special** {misc/Performance}, {misc/reach}, {misc/touch}",
 			"",
 			"### Construction",
 			"",
 			"**Craft DC** 32; **Cost** 35,000 gp  ",
 			"{feat/Craft Technological Arms and Armor}, {rule/crafting<graviton| lab>oratories}",
 			"",
-			"A monowhip is a deadly melee weapon capable of inflicting horrible wounds, even in the hands of the weak. An inactive monowhip looks like a short metal baton, but when it's activated, a small weight detaches, revealing a 15-foot-long monofilament length. Wielded like a whip, a monowhip slices deeply into targets and can inflict grievous critical hits with shocking ease. Attacks made with a monowhip resolve as touch attacks, and they ignore hardness as if the monofilament were made of adamantine. A monowhip's damage cannot be enhanced by strength, as the monofilament slices with equal ease regardless of the force applied. Activating a monowhip is a move action; once activated, the whip consumes power incredibly quickly, at the rate of 1 charge per round."
+			"A monowhip is a deadly melee weapon capable of inflicting horrible wounds, even in the hands of the weak. An inactive monowhip looks like a short metal baton, but when it's activated, a small weight detaches, revealing a 15-foot-long monofilament length. Wielded like a whip, a monowhip slices deeply into targets and can inflict grievous critical hits with shocking ease. Attacks made with a monowhip resolve as touch attacks, and they ignore hardness as if the monofilament were made of {eq-material/adamantine}. A monowhip's damage cannot be enhanced by strength, as the monofilament slices with equal ease regardless of the force applied. Activating a monowhip is a move action; once activated, the whip consumes power incredibly quickly, at the rate of 1 charge per round."
 		]
 	},
 	"null_blade": {
@@ -47,9 +47,9 @@
 			"**Craft DC** 30; **Cost** 33,835 gp  ",
 			"{feat/Craft Magic Arms and Armor}, {feat/Craft Technological Arms and Armor}, {rule/crafting<military| lab>oratories}, {spell/discharge}, {spell/dispel magic}, {spell/summon monster I}",
 			"",
-			"A potent fusion of magic, advanced science, and masterful weaponsmithing, null blades were devised by the Technic League as weapons against both magic and machine. Null blades incorporate an adamantine-noqual alloy in their blades, a closely guarded metallurgical secret of the Technic League. The League guards these weapons closely, and when one falls into another's hands, they spare no expense in their efforts to recover it.",
+			"A potent fusion of magic, advanced science, and masterful weaponsmithing, null blades were devised by the Technic League as weapons against both magic and machine. Null blades incorporate an {eq-material/adamantine}-{eq-material/noqual} alloy in their blades, a closely guarded metallurgical secret of the Technic League. The League guards these weapons closely, and when one falls into another's hands, they spare no expense in their efforts to recover it.",
 			"",
-			"A null blade is a +1 construct-bane bastard sword; using it in this capacity does not consume any charges. The blade's strange alloy penetrates hardness as if it were made of adamantine. The blade can be activated as a swift action. While it's active, a shimmering field of green energy wraps around the blade, disrupting magic and technology alike, and the weapon's enhancement bonus increases to +2. In addition, the first time in a round that an activated null blade strikes a creature or object, it consumes an additional charge and targets the creature or object struck with {spell/dispel magic} and {spell/discharge}. If a technological item damaged by a null blade is used in the same round it took damage, it glitches as if it were {rule/timeworn>_technology}."
+			"A null blade is a +1 construct-{magic-enh/bane} {eq-weapon/bastard sword}; using it in this capacity does not consume any charges. The blade's strange alloy penetrates hardness as if it were made of adamantine. The blade can be activated as a swift action. While it's active, a shimmering field of green energy wraps around the blade, disrupting magic and technology alike, and the weapon's enhancement bonus increases to +2. In addition, the first time in a round that an activated null blade strikes a creature or object, it consumes an additional charge and targets the creature or object struck with {spell/dispel magic} and {spell/discharge}. If a technological item damaged by a null blade is used in the same round it took damage, it glitches as if it were {rule/timeworn>_technology}."
 		]
 	},
 	"plasma_blade": {
@@ -63,7 +63,7 @@
 			"**Cost** 12,000 gp  ",
 			"**Type** one-handed melee; **Proficiency** exotic; **Weight** 3 lbs.  ",
 			"**Damage** 1d8 (small), 1d10 (medium); **Damage Type** electricity and fire; **Critical** 19-20/&times;3  ",
-			"**Range** -; **Capacity** 10; **Usage** 1 charge/minute; **Special** Touch",
+			"**Range** -; **Capacity** 10; **Usage** 1 charge/minute; **Special** {misc/Touch}",
 			"",
 			"### Construction",
 			"",
@@ -83,14 +83,14 @@
 			"**Cost** 2,700 gp  ",
 			"**Type** two-handed melee; **Proficiency** exotic; **Weight** 10 lbs.  ",
 			"**Damage** 1d12 (small), 3d6 (medium); **Damage Type** S; **Critical** 18-20/&times;2  ",
-			"**Range** -; **Capacity** 10; **Usage** 1 charge/hour; **Special** Deadly, distracting",
+			"**Range** -; **Capacity** 10; **Usage** 1 charge/hour; **Special** {misc/Deadly}, {misc/distracting}",
 			"",
 			"### Construction",
 			"",
 			"**Craft DC** 20; **Cost** 1,350 gp  ",
 			"{feat/Craft Technological Arms and Armor}, {rule/crafting<military| lab>oratories}",
 			"",
-			"Originally developed for use as tools, chainsaws work remarkably well as weapons and are often used by lunatics or those who want to intimidate their enemies. A Numerian chainsaw consists of a weighty housing for the engine and power source that is fitted with two handles, and a 2- to 3-foot-long blade extending from the front, around which a whirling, buzzing chain of razorsharp cutting links spins at blinding speed when the weapon is activated. It's a standard action to activate a chainsaw, and doing so consumes a charge of power. The chainsaw continues to run constantly after activation, draining an additional charge each hour. A dropped chainsaw automatically turns off unless it is set down carefully as a move action. The buzzing of a chainsaw's blade is loud and distracting (but not deafening), causing anyone carrying an activated chainsaw to take a -10 penalty on Stealth checks. An activated chainsaw grants a proficient user a +2 morale bonus on Intimidate checks."
+			"Originally developed for use as tools, chainsaws work remarkably well as weapons and are often used by lunatics or those who want to intimidate their enemies. A Numerian chainsaw consists of a weighty housing for the engine and power source that is fitted with two handles, and a 2- to 3-foot-long blade extending from the front, around which a whirling, buzzing chain of razor-sharp cutting links spins at blinding speed when the weapon is activated. It's a standard action to activate a chainsaw, and doing so consumes a charge of power. The chainsaw continues to run constantly after activation, draining an additional charge each hour. A dropped chainsaw automatically turns off unless it is set down carefully as a move action. The buzzing of a chainsaw's blade is loud and distracting (but not deafening), causing anyone carrying an activated chainsaw to take a -10 penalty on Stealth checks. An activated chainsaw grants a proficient user a +2 morale bonus on Intimidate checks."
 		]
 	},
 	"neural_inhibitor": {
@@ -125,7 +125,7 @@
 			"**Cost** 6,000 gp  ",
 			"**Type** one-handed melee; **Proficiency** martial; **Weight** 4 lbs.  ",
 			"**Damage** 1d8 (small), 1d10 (medium); **Damage Type** fire; **Critical** &times;3  ",
-			"**Range** -; **Capacity** 10; **Usage** 1 charge; **Special** Touch",
+			"**Range** -; **Capacity** 10; **Usage** 1 charge; **Special** {misc/Touch}",
 			"",
 			"### Construction",
 			"",
@@ -146,14 +146,14 @@
 			"**Cost** 5,000 gp  ",
 			"**Type** one-handed melee; **Proficiency** martial; **Weight** 2 lbs.  ",
 			"**Damage** Special (small), Special (medium); **Damage Type** B and electricity (special); **Critical** &times;2  ",
-			"**Range** -; **Capacity** 10; **Usage** 1 charge/round; **Special** Touch",
+			"**Range** -; **Capacity** 10; **Usage** 1 charge/round; **Special** {misc/Touch}",
 			"",
 			"### Construction",
 			"",
 			"**Craft DC** 24; **Cost** 2,500 gp  ",
 			"{feat/Craft Technological Arms and Armor}, {rule/crafting<military| lab>oratories}",
 			"",
-			"This slender rod has an insulated grip and a conductive tip. All bludgeoning damage dealt by an active stun baton is nonlethal, while the electrical charge can be either nonlethal or lethal. By activating a control in the handle as a swift action, the wielder can switch the attack between a nonlethal jolt and a lethal shock. On a confirmed critical hit, a target must succeed at a Fortitude saving throw (DC = 10 + the damage dealt by the critical hit) or be staggered for 1 round. When it's not activated, a stun baton functions as a {eq-weapon/sap}. A character who is proficient with saps is proficient with a stun baton."
+			"This slender rod has an insulated grip and a conductive tip. All bludgeoning damage dealt by an active stun baton is nonlethal, while the electrical charge can be either nonlethal or lethal. By activating a control in the handle as a swift action, the wielder can switch the attack between a nonlethal jolt and a lethal shock. On a confirmed critical hit, a target must succeed at a Fortitude saving throw (DC = 10 + the damage dealt by the critical hit) or be {misc/staggered} for 1 round. When it's not activated, a stun baton functions as a {eq-weapon/sap}. A character who is proficient with saps is proficient with a stun baton."
 		]
 	},
 	"starfall_spade": {
@@ -175,7 +175,7 @@
 			"{feat/Craft Magic Arms and Armor}, {feat/Craft Technological Arms and Armor}, {rule/crafting<military| lab>oratories}, {spell/scorching ray}, {spell/shocking grasp}",
 			"",
 			"**Aura** moderate evocation; **CL** 7th  ",
-			"The Technic League produces these unusual weapons as signature tools for the guards of Starfall and the Palace of Fallen Stars. A Starfall spade is a +1/+1 monk's spade and has a capacity of 10 charges. When the weapon strikes a foe, it automatically consumes a charge and deals an additional 2 points of plasma damage (1 electricity, 1 fire) on that hit. Attack that miss don't consume charges. A crystal button on the shaft allows for a secondary attack: a beam of plasma that fires from the forked tip of the spade. This beam is a ranged touch attack that deals 4d6 points of plasma damage (half electricity, half fire) on a hit - it has a maximum range of 40 feet with no range increment. Firing this plasma beam consumes 10 charges."
+			"The Technic League produces these unusual weapons as signature tools for the guards of Starfall and the Palace of Fallen Stars. A Starfall spade is a +1/+1 {eq-weapon/monk's spade} and has a capacity of 10 charges. When the weapon strikes a foe, it automatically consumes a charge and deals an additional 2 points of plasma damage (1 electricity, 1 fire) on that hit. Attack that miss don't consume charges. A crystal button on the shaft allows for a secondary attack: a beam of plasma that fires from the forked tip of the spade. This beam is a ranged touch attack that deals 4d6 points of plasma damage (half electricity, half fire) on a hit - it has a maximum range of 40 feet with no range increment. Firing this plasma beam consumes 10 charges."
 		]
 	},
 	"arc_pistol": {
@@ -189,7 +189,7 @@
 			"**Cost** 10,000 gp  ",
 			"**Type** one-handed ranged; **Proficiency** exotic (firearms); **Weight** 2 lbs.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Damage Type** electricity; **Critical** &times;2  ",
-			"**Range** 50 ft.; **Capacity** 10; **Usage** 1 charge; **Special** Semi-automatic, touch",
+			"**Range** 50 ft.; **Capacity** 10; **Usage** 1 charge; **Special** {misc/Semi-automatic}, {misc/touch}",
 			"",
 			"### Construction",
 			"",
@@ -231,16 +231,16 @@
 			"**Cost** 140,000 gp  ",
 			"**Type** one-handed ranged; **Proficiency** exotic (firearms); **Weight** 1 lb.  ",
 			"**Damage** Special (small), Special (medium); **Damage Type** Special; **Critical** &mdash;  ",
-			"**Range** 200 ft. (see text); **Capacity** 1 nanite canister; **Usage** Varies; **Special** Slow-firing, touch",
+			"**Range** 200 ft. (see text); **Capacity** 1 nanite canister; **Usage** Varies; **Special** {misc/Slow-firing}, {misc/touch}",
 			"",
 			"### Construction",
 			"",
 			"**Craft DC** 32; **Cost** 70,000 gp  ",
 			"{feat/Craft Technological Arms and Armor}, {rule/crafting<nanotech| lab>oratories}",
 			"",
-			"A death ray is a handheld, wandlike weapon that fires a harmless carrier beam of energy at a target. When the beam hits a target, the death ray then projects a stream of specialized nanites through the beam into the body of the target. When firing a death ray, the wielder must decide how many charges of nanites she is consuming, to a maximum of 10. Even if the wielder engineers a method of using a larger reserve of nanites than normally come in a canister, this maximum does not increase. Immediately upon being struck, the nanites inflict incredible pain on the target, which must succeed at a Fortitude saving throw to avoid a grisly fate (DC = 10 + twice the number of charges consumed by the attack). For example, if 1 charge is consumed, the target must succeed at a DC 12 Fortitude save to resist the death ray, but if all 10 charges are consumed in the attack, the DC to resist the effects is 30.",
+			"A death ray is a handheld, wand-like weapon that fires a harmless carrier beam of energy at a target. When the beam hits a target, the death ray then projects a stream of specialized nanites through the beam into the body of the target. When firing a death ray, the wielder must decide how many charges of nanites she is consuming, to a maximum of 10. Even if the wielder engineers a method of using a larger reserve of nanites than normally come in a canister, this maximum does not increase. Immediately upon being struck, the nanites inflict incredible pain on the target, which must succeed at a Fortitude saving throw to avoid a grisly fate (DC = 10 + twice the number of charges consumed by the attack). For example, if 1 charge is consumed, the target must succeed at a DC 12 Fortitude save to resist the death ray, but if all 10 charges are consumed in the attack, the DC to resist the effects is 30.",
 			"",
-			"If the target fails this save, it takes 100 points of damage as the nanites tear apart the victim's cardiovascular system. On a successful saving throw, the victim takes only 6d6 points of damage. Creatures slain by a death ray die spectacularly, seeming to melt into a pool of blood that swiftly fades away. The victim's gear is unaffected by this attack. A death ray has no effect on creatures that aren't living (such as constructs or undead) and can't penetrate a force field. The wielder can't score critical hits with a death ray. A death ray has a maximum range of 200 feet with no range increment."
+			"If the target fails this save, it takes 100 points of damage as the nanites tear apart the victim's cardiovascular system. On a successful saving throw, the victim takes only 6d6 points of damage. Creatures slain by a death ray die spectacularly, seeming to melt into a pool of blood that swiftly fades away. The victim's gear is unaffected by this attack. A death ray has no effect on creatures that aren't living (such as constructs or undead) and can't penetrate a {tech-misc/force field}. The wielder can't score critical hits with a death ray. A death ray has a maximum range of 200 feet with no range increment."
 		]
 	},
 	"emp_pistol": {
@@ -254,14 +254,14 @@
 			"**Cost** 12,000 gp  ",
 			"**Type** one-handed ranged; **Proficiency** exotic (firearms); **Weight** 2 lbs.  ",
 			"**Damage** 1d10 (small), 2d6 (medium); **Damage Type** electricity; **Critical** &times;2  ",
-			"**Range** 50 ft.; **Capacity** 10; **Usage** 1 charge; **Special** Semi-automatic, touch",
+			"**Range** 50 ft.; **Capacity** 10; **Usage** 1 charge; **Special** {misc/Semi-automatic}, {misc/touch}",
 			"",
 			"### Construction",
 			"",
 			"**Craft DC** 25; **Cost** 6,000 gp  ",
 			"{feat/Craft Technological Arms and Armor}, {rule/crafting<military| lab>oratories}",
 			"",
-			"An EMP pistol emits a beam of electromagnetic energy that cannot harm living creatures, but deals terrible damage to robots. An EMP pistol can harm androids and creatures with cybernetic implants, but they take half damage from a hit. A creature that is critically hit by an EMP pistol and takes damage from that hit must succeed at a DC 15 Fortitude save or be staggered for 1d4 rounds."
+			"An EMP pistol emits a beam of electromagnetic energy that cannot harm living creatures, but deals terrible damage to robots. An EMP pistol can harm androids and creatures with cybernetic implants, but they take half damage from a hit. A creature that is critically hit by an EMP pistol and takes damage from that hit must succeed at a DC 15 Fortitude save or be {misc/staggered} for 1d4 rounds."
 		]
 	},
 	"flare_gun": {
@@ -275,14 +275,14 @@
 			"**Cost** 300 gp  ",
 			"**Type** one-handed ranged; **Proficiency** exotic (firearms); **Weight** 1 lb.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Damage Type** fire; **Critical** &times;3  ",
-			"**Range** 240 ft.; **Capacity** 1; **Usage** Disposable; **Special** Slow-firing, touch",
+			"**Range** 240 ft.; **Capacity** 1; **Usage** Disposable; **Special** {misc/Slow-firing}, {misc/touch}",
 			"",
 			"### Construction",
 			"",
 			"**Craft DC** 18; **Cost** 150 gp  ",
 			"{feat/Craft Technological Arms and Armor}, {rule/crafting<production| lab>oratories}",
 			"",
-			"A flare gun looks like a wide-barreled pistol, and although it can be used in combat, the item's primary use is to send signals. A flare gun and its ammunition (a small, rocket-propelled magnesium charge) are completely self-contained and disposable - once fired, a flare gun is useless. While a flare gun has excellent range, the flare tends to wobble and spiral in flight, incurring a 20% miss chance if it's being used to target a specific point. The flare detonates once it hits a target or reaches its maximum range of 2,400 feet, bursting into a sphere of fire that illuminates a 120-foot-radius area for 1 minute as it drifts slowly back to the ground. Any creatures within 20 feet of the flare must succeed at a DC 12 Fortitude saving throw each round or be dazzled by the intense light for as long as they remain in the area. Creatures adjacent to a lit flare are also blinded for 1d4 rounds on a failed save. A creature struck by a flare takes 1d8 points of fire damage (1d6 points of fire damage from Small flare guns), and continues to take the same amount of fire damage each round until the flare is removed. Removing a flare is a full-round action."
+			"A flare gun looks like a wide-barreled pistol, and although it can be used in combat, the item's primary use is to send signals. A flare gun and its ammunition (a small, rocket-propelled magnesium charge) are completely self-contained and disposable - once fired, a flare gun is useless. While a flare gun has excellent range, the flare tends to wobble and spiral in flight, incurring a 20% miss chance if it's being used to target a specific point. The flare detonates once it hits a target or reaches its maximum range of 2,400 feet, bursting into a sphere of fire that illuminates a 120-foot-radius area for 1 minute as it drifts slowly back to the ground. Any creatures within 20 feet of the flare must succeed at a DC 12 Fortitude saving throw each round or be {misc/dazzled} by the intense light for as long as they remain in the area. Creatures adjacent to a lit flare are also {misc/blinded} for 1d4 rounds on a failed save. A creature struck by a flare takes 1d8 points of fire damage (1d6 points of fire damage from Small flare guns), and continues to take the same amount of fire damage each round until the flare is removed. Removing a flare is a full-round action."
 		]
 	},
 	"gravity_pistol": {
@@ -296,14 +296,14 @@
 			"**Cost** 95,000 gp  ",
 			"**Type** one-handed ranged; **Proficiency** exotic (firearms); **Weight** 2 lbs.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Damage Type** Force; **Critical** &times;2  ",
-			"**Range** 50 ft.; **Capacity** 10; **Usage** 1 charge; **Special** Semi-automatic, touch",
+			"**Range** 50 ft.; **Capacity** 10; **Usage** 1 charge; **Special** {misc/Semi-automatic}, {misc/touch}",
 			"",
 			"### Construction",
 			"",
 			"**Craft DC** 32; **Cost** 52,500 gp  ",
 			"{feat/Craft Technological Arms and Armor}, {rule/crafting<graviton| lab>oratories}",
 			"",
-			"A gravity pistol is one of the most advanced pieces of technology found in Numeria. It uses a focused beam of gravitons to create a bolt of force. A gravity pistol has two settings - switching between settings is a swift action. On its pulse setting, it can be used as a typical beam weapon, but on it sustained setting, holding the pistol's trigger down creates a stable beam of gravitons rather than a short, destructive burst. In this mode, the gravity pistol can be used to move and manipulate objects at a distance, similar to a telekinesis spell in its sustained force or combat maneuver versions (a gravity pistol cannot duplicate the violent thrust option of a telekinesis spell). In this mode, a gravity pistol consumes 1 charge per round. The graviton beam can move objects weighing no more than 225 pounds up to 20 feet per round. A creature can negate this effect on an object in its possession with a successful DC 19 Reflex save. If used to perform a combat maneuver, the beam uses the wielder's CMB, but uses her Intelligence modifier in place of her Strength or Dexterity modifier."
+			"A gravity pistol is one of the most advanced pieces of technology found in Numeria. It uses a focused beam of gravitons to create a bolt of force. A gravity pistol has two settings - switching between settings is a swift action. On its pulse setting, it can be used as a typical beam weapon, but on it sustained setting, holding the pistol's trigger down creates a stable beam of gravitons rather than a short, destructive burst. In this mode, the gravity pistol can be used to move and manipulate objects at a distance, similar to a {spell/telekinesis} spell in its sustained force or combat maneuver versions (a gravity pistol cannot duplicate the violent thrust option of a telekinesis spell). In this mode, a gravity pistol consumes 1 charge per round. The graviton beam can move objects weighing no more than 225 pounds up to 20 feet per round. A creature can negate this effect on an object in its possession with a successful DC 19 Reflex save. If used to perform a combat maneuver, the beam uses the wielder's CMB, but uses her Intelligence modifier in place of her Strength or Dexterity modifier."
 		]
 	},
 	"inferno_pistol": {
@@ -317,14 +317,14 @@
 			"**Cost** 5,000 gp  ",
 			"**Type** one-handed ranged; **Proficiency** exotic (firearms); **Weight** 2 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Damage Type** fire; **Critical** &times;2  ",
-			"**Range** 30 ft.; **Capacity** 1 nanite canister; **Usage** 1 charge; **Special** Touch",
+			"**Range** 30 ft.; **Capacity** 1 nanite canister; **Usage** 1 charge; **Special** {misc/Touch}",
 			"",
 			"### Construction",
 			"",
 			"**Craft DC** 21; **Cost** 2,500 gp  ",
 			"{feat/Craft Technological Arms and Armor}, {rule/crafting<nanotech| lab>oratories}",
 			"",
-			"An inferno pistol is a less refined variant of the longer-range laser pistol. Unlike a laser pistol, which uses an intensely focused beam of light to burn a target, an inferno pistol is much less elegant - it generates a blob of molten, red-hot material and fires what appears to be a burning pellet of fire with a soft hissing sound. This material is consumed swiftly in firing, leaving behind nothing but ash and painful burns on anything it strikes. On a critical hit, a shot from an inferno pistol also inflicts 1 point of burn damage (Reflex DC 12 negates). An inferno pistol has a maximum range of 5 increments."
+			"An inferno pistol is a less refined variant of the longer-range laser pistol. Unlike a {tech-weapon/laser pistol}, which uses an intensely focused beam of light to burn a target, an inferno pistol is much less elegant - it generates a blob of molten, red-hot material and fires what appears to be a burning pellet of fire with a soft hissing sound. This material is consumed swiftly in firing, leaving behind nothing but ash and painful burns on anything it strikes. On a critical hit, a shot from an inferno pistol also inflicts 1 point of {umr/burn} damage (Reflex DC 12 negates). An inferno pistol has a maximum range of 5 increments."
 		]
 	},
 	"laser_pistol": {
@@ -338,14 +338,14 @@
 			"**Cost** 10,000 gp  ",
 			"**Type** one-handed ranged; **Proficiency** exotic (firearms); **Weight** 2 lbs.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Damage Type** fire; **Critical** &times;2  ",
-			"**Range** 50 ft.; **Capacity** 10; **Usage** 1 charge; **Special** Semi-automatic, touch",
+			"**Range** 50 ft.; **Capacity** 10; **Usage** 1 charge; **Special** {misc/Semi-automatic}, {misc/touch}",
 			"",
 			"### Construction",
 			"",
 			"**Craft DC** 23; **Cost** 5,000 gp  ",
 			"{feat/Craft Technological Arms and Armor}, {rule/crafting<military| lab>oratories}",
 			"",
-			"A laser pistol emits a beam of intensely focused light capable of burning anything it strikes. A laser attack can pass through {tech-misc/force field/s>_brown} and force effects, such as a {spell/wall of force}, to strike a foe beyond without damaging that field. Objects like glass or other transparent barriers do not provide cover from lasers - but unlike force barriers, a transparent physical barrier still takes damage from a laser passing through it. Invisible creatures are immune to damage caused by a laser weapon. Fog, smoke, and other clouds provide cover in addition to {rule/concealment} from laser attacks. Darkness (magical or otherwise) has no effect on lasers other than providing concealment, and though a laser consists of highly focused light, it does not provide any illumination."
+			"A laser pistol emits a beam of intensely focused light capable of burning anything it strikes. A laser attack can pass through {tech-misc/force field/s>_brown} and force effects, such as a {spell/wall of force}, to strike a foe beyond without damaging that field. Objects like glass or other transparent barriers do not provide {rule/cover} from lasers - but unlike force barriers, a transparent physical barrier still takes damage from a laser passing through it. Invisible creatures are immune to damage caused by a laser weapon. Fog, smoke, and other clouds provide cover in addition to {rule/concealment} from laser attacks. Darkness (magical or otherwise) has no effect on lasers other than providing concealment, and though a laser consists of highly focused light, it does not provide any illumination."
 		]
 	},
 	"mind_burner": {
@@ -359,14 +359,14 @@
 			"**Cost** 8,000 gp  ",
 			"**Type** one-handed ranged; **Proficiency** exotic (firearms); **Weight** 2 lbs.  ",
 			"**Damage** Special (small), Special (medium); **Damage Type** Special; **Critical** &times;2  ",
-			"**Range** 20 ft.; **Capacity** 10; **Usage** 1 charge; **Special** Touch",
+			"**Range** 20 ft.; **Capacity** 10; **Usage** 1 charge; **Special** {misc/Touch}",
 			"",
 			"### Construction",
 			"",
 			"**Craft DC** 28; **Cost** 4,000 gp  ",
 			"{feat/Craft Technological Arms and Armor}, {rule/crafting<military| lab>oratories}",
 			"",
-			"A mind burner is a pistol with a dishlike adornment at the tip of its barrel. When this weapon is fired, a pulse of white smoke pools in the dish an instant before a thin beam of white light lances out to strike its target. A mind burner is silent when fired, but stray particles from the mind-altering beam can cause those nearby to catch unexpected scents associated with powerful memories - the odor of a bouquet of flowers given to one's first lover, the scent of a parent's perfume or sweat, or maybe even the odor of a favorite food that hasn't been eaten in years. These fragmentary memories generally have no additional effect on those who experience them, but at the GM's discretion, they could cause the resurfacing of repressed memories or forgotten fears.",
+			"A mind burner is a pistol with a dish-like adornment at the tip of its barrel. When this weapon is fired, a pulse of white smoke pools in the dish an instant before a thin beam of white light lances out to strike its target. A mind burner is silent when fired, but stray particles from the mind-altering beam can cause those nearby to catch unexpected scents associated with powerful memories - the odor of a bouquet of flowers given to one's first lover, the scent of a parent's perfume or sweat, or maybe even the odor of a favorite food that hasn't been eaten in years. These fragmentary memories generally have no additional effect on those who experience them, but at the GM's discretion, they could cause the resurfacing of repressed memories or forgotten fears.",
 			"",
 			"On a successful hit, a mind burner causes intense headaches that dull the senses and weaken willpower. Each hit deals 1d4 points of nonlethal damage, but also imposes a -2 penalty on Perception checks and a -1 penalty on saving throws against mind-affecting effects. These penalties stack with themselves, up to a maximum penalty of -10 on Perception checks and -5 on mind-affecting saving throws. A creature can resist the penalties caused by a shot from a mind burner with a successful DC 14 Will save; otherwise, the penalties persist for 1 hour after the previous successful shot. On a critical hit, a mind burner's penalties are doubled along with its nonlethal damage."
 		]
@@ -382,14 +382,14 @@
 			"**Cost** 56,000 gp  ",
 			"**Type** one-handed ranged; **Proficiency** exotic (firearms); **Weight** 2 lbs.  ",
 			"**Damage** Special (small), Special (medium); **Damage Type** Special; **Critical** &times;2  ",
-			"**Range** 40 ft.; **Capacity** 1 nanite canister; **Usage** 2 charges; **Special** Slow-firing, touch",
+			"**Range** 40 ft.; **Capacity** 1 nanite canister; **Usage** 2 charges; **Special** {misc/Slow-firing}, {misc/touch}",
 			"",
 			"### Construction",
 			"",
 			"**Craft DC** 33; **Cost** 28,000 gp  ",
 			"{feat/Craft Technological Arms and Armor}, {rule/crafting<nanotech| lab>oratories}",
 			"",
-			"A mindrender is a cruel weapon that emits a carrier wave of light which transmits a mass of nanites into the body of the creature struck. The victim must succeed at a DC 17 Fortitude save or it takes 1 negative level and is staggered for 1 round as the nanites flood the victim's brain and suppress long term memories. If the victim succeeds, he's instead sickened for 1d4 rounds and is immune to further attacks from a mindrender for 1 hour. A creature can attempt a new saving throw every 24 hours to remove the negative level. These are mind-affecting effects."
+			"A mindrender is a cruel weapon that emits a carrier wave of light which transmits a mass of nanites into the body of the creature struck. The victim must succeed at a DC 17 Fortitude save or it takes 1 negative level and is {misc/staggered} for 1 round as the nanites flood the victim's brain and suppress long term memories. If the victim succeeds, he's instead {misc/sickened} for 1d4 rounds and is immune to further attacks from a mindrender for 1 hour. A creature can attempt a new saving throw every 24 hours to remove the negative level. These are mind-affecting effects."
 		]
 	},
 	"sonic_pistol": {
@@ -403,14 +403,14 @@
 			"**Cost** 13,000 gp  ",
 			"**Type** one-handed ranged; **Proficiency** exotic (firearms); **Weight** 2 lbs.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Damage Type** Sonic; **Critical** &times;2  ",
-			"**Range** 50 ft.; **Capacity** 10; **Usage** 1 charge; **Special** Semi-automic, touch",
+			"**Range** 50 ft.; **Capacity** 10; **Usage** 1 charge; **Special** {misc/Semi-automatic}, {misc/touch}",
 			"",
 			"### Construction",
 			"",
 			"**Craft DC** 23; **Cost** 6,500 gp  ",
 			"{feat/Craft Technological Arms and Armor}, {rule/crafting<military| lab>oratories}",
 			"",
-			"A sonic pistol emits a blast of devastating sound waves that shatter and blast flesh, bone, and anything else they happen to strike. A creature critically hit by a sonic pistol must succeed at a DC 15 Fortitude save to resist being permanently deafened."
+			"A sonic pistol emits a blast of devastating sound waves that shatter and blast flesh, bone, and anything else they happen to strike. A creature critically hit by a sonic pistol must succeed at a DC 15 Fortitude save to resist being permanently {misc/deafened}."
 		]
 	},
 	"stun_gun": {
@@ -424,14 +424,14 @@
 			"**Cost** 3,000 gp  ",
 			"**Type** one-handed ranged; **Proficiency** exotic (firearms); **Weight** 3 lbs.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Damage Type** &mdash;; **Critical** &times;2  ",
-			"**Range** 20 ft.; **Capacity** 10; **Usage** 1 charge; **Special** Nonlethal, semi-automatic, touch",
+			"**Range** 20 ft.; **Capacity** 10; **Usage** 1 charge; **Special** {misc/Nonlethal}, {misc/semi-automatic}, {misc/touch}",
 			"",
 			"### Construction",
 			"",
 			"**Craft DC** 22; **Cost** 1,500 gp  ",
 			"{feat/Craft Technological Arms and Armor}, {rule/crafting<military| lab>oratories}",
 			"",
-			"This weapon uses a sonic amplifier to produce powerful low-frequency blasts of energy that pummel targets. The weapon has a relatively short range, but the fact that it deals nonlethal damage at range and can knock targets prone makes it a favorite for those seeking to capture their foes alive. A hit by a stun gun deals nonlethal damage - on a critical hit, the gun can attempt a free trip combat maneuver check against the target (CMB = user's base attack bonus + 10); this attempt doesn't provoke attacks of opportunity."
+			"This weapon uses a sonic amplifier to produce powerful low-frequency blasts of energy that pummel targets. The weapon has a relatively short range, but the fact that it deals nonlethal damage at range and can knock targets {rule/prone} makes it a favorite for those seeking to capture their foes alive. A hit by a stun gun deals nonlethal damage - on a critical hit, the gun can attempt a free {rule/trip} combat maneuver check against the target (CMB = user's base attack bonus + 10); this attempt doesn't provoke attacks of opportunity."
 		]
 	},
 	"zero_pistol": {
@@ -445,14 +445,14 @@
 			"**Cost** 10,000 gp  ",
 			"**Type** one-handed ranged; **Proficiency** exotic (firearms); **Weight** 2 lbs.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Damage Type** cold; **Critical** &times;2  ",
-			"**Range** 50 ft.; **Capacity** 10; **Usage** 1 charge; **Special** Semi-automatic, touch",
+			"**Range** 50 ft.; **Capacity** 10; **Usage** 1 charge; **Special** {misc/Semi-automatic}, {misc/touch}",
 			"",
 			"### Construction",
 			"",
 			"**Craft DC** 23; **Cost** 5,000 gp  ",
 			"{feat/Craft Technological Arms and Armor}, {rule/crafting<military| lab>oratories}",
 			"",
-			"A zero pistol fires a beam of freezing particles at high velocity, dealing cold damage to anything it strikes. Any creature critically hit by a zero pistol ray must succeed at a DC 15 Fortitude saving throw or become staggered by the cold for 1 round."
+			"A zero pistol fires a beam of freezing particles at high velocity, dealing cold damage to anything it strikes. Any creature critically hit by a zero pistol ray must succeed at a DC 15 Fortitude saving throw or become {misc/staggered} by the cold for 1 round."
 		]
 	},
 	"arc_rifle": {
@@ -466,7 +466,7 @@
 			"**Cost** 20,000 gp  ",
 			"**Type** two-handed ranged; **Proficiency** exotic (firearms); **Weight** 6 lbs.  ",
 			"**Damage** 1d10 (small), 2d6 (medium); **Damage Type** electricity; **Critical** &times;2  ",
-			"**Range** 150 ft.; **Capacity** 20; **Usage** 1 charge; **Special** Automatic, touch",
+			"**Range** 150 ft.; **Capacity** 20; **Usage** 1 charge; **Special** {misc/Automatic}, {misc/touch}",
 			"",
 			"### Construction",
 			"",
@@ -487,14 +487,14 @@
 			"**Cost** 4,000 gp  ",
 			"**Type** two-handed ranged; **Proficiency** exotic (firearms); **Weight** 10 lbs.  ",
 			"**Damage** 1d6+6 (small), 1d8+6 (medium); **Damage Type** P; **Critical** &times;3  ",
-			"**Range** 30 ft.; **Capacity** 20; **Usage** 1 charge; **Special** Grapple, slow-firing",
+			"**Range** 30 ft.; **Capacity** 20; **Usage** 1 charge; **Special** {misc/Grapple}, {misc/slow-firing}",
 			"",
 			"### Construction",
 			"",
 			"**Craft DC** 20; **Cost** 2,000 gp  ",
 			"{feat/Craft Technological Arms and Armor}, {rule/crafting<military| lab>oratories}",
 			"",
-			"An autograpnel looks like a rifle with a small adamantine spike protruding from its barrel. When fired, an autograpnel launches the spike with a muffled bang. The spike trails an incredibly strong and thin metal cable behind it. An instant after the spike punches into a solid target, tiny spurs lance out of it, anchoring the spike in place. An autograpnel's cord is long enough to allow the grapnel to reach its maximum range of 300 feet, and the internal retraction motors are strong enough to hold up to 500 pounds of weight. If the grapnel misses its target, it can be rewound into the gun as a standard action; reattaching the grapnel to the gun barrel is a move action.",
+			"An autograpnel looks like a rifle with a small {eq-material/adamantine} spike protruding from its barrel. When fired, an autograpnel launches the spike with a muffled bang. The spike trails an incredibly strong and thin metal cable behind it. An instant after the spike punches into a solid target, tiny spurs lance out of it, anchoring the spike in place. An autograpnel's cord is long enough to allow the grapnel to reach its maximum range of 300 feet, and the internal retraction motors are strong enough to hold up to 500 pounds of weight. If the grapnel misses its target, it can be rewound into the gun as a standard action; reattaching the grapnel to the gun barrel is a move action.",
 			"",
 			"An autograpnel strikes with an effective Strength score of 22 for the purposes of determining damage. If it strikes a creature, it remains lodged in the target and connected to the rifle and its wielder by the metal cord. This cord has AC 12, hardness 10, and 20 hp. A successful DC 32 Strength check is required to snap the cord. If the wielder retracts the cord while it's attached to a creature, the autograpnel attempts a pull combat maneuver check with a CMB of +16. If used against objects, an autograpnel can pull an item that weighs 25 pounds or less back to the user as a full-round action, or it can pull a heavier object that weighs no more than 100 pounds back to the user at a speed of 20 feet.",
 			"",
@@ -512,7 +512,7 @@
 			"**Cost** 24,000 gp  ",
 			"**Type** two-handed ranged; **Proficiency** exotic (firearms); **Weight** 6 lbs.  ",
 			"**Damage** 2d6 (small), 3d6 (medium); **Damage Type** electricity; **Critical** &times;2  ",
-			"**Range** 150 ft.; **Capacity** 20; **Usage** 1 charge; **Special** Automatic, touch",
+			"**Range** 150 ft.; **Capacity** 20; **Usage** 1 charge; **Special** {misc/Automatic}, {misc/touch}",
 			"",
 			"### Construction",
 			"",
@@ -533,7 +533,7 @@
 			"**Cost** 165,000 gp  ",
 			"**Type** two-handed ranged; **Proficiency** exotic (firearms); **Weight** 6 lbs.  ",
 			"**Damage** 1d10 (small), 2d6 (medium); **Damage Type** Force; **Critical** &times;2  ",
-			"**Range** 150 ft.; **Capacity** 20; **Usage** 1 charge; **Special** Automatic, touch",
+			"**Range** 150 ft.; **Capacity** 20; **Usage** 1 charge; **Special** {misc/Automatic}, {misc/touch}",
 			"",
 			"### Construction",
 			"",
@@ -554,7 +554,7 @@
 			"**Cost** 50,000 gp  ",
 			"**Type** two-handed ranged; **Proficiency** exotic (firearms); **Weight** 5 lbs.  ",
 			"**Damage** Special (small), Special (medium); **Damage Type** Special; **Critical** &times;2  ",
-			"**Range** 50 ft.; **Capacity** 1 nanite canister; **Usage** 1 charge; **Special** Slow-firing, touch",
+			"**Range** 50 ft.; **Capacity** 1 nanite canister; **Usage** 1 charge; **Special** {misc/Slow-firing}, {misc/touch}",
 			"",
 			"### Construction",
 			"",
@@ -563,7 +563,7 @@
 			"",
 			"An id rifle looks like a sleek, low-caliber rifle made of burnished {eq-material/skymetal}. It fires a tiny barb of solid nanites with a range increment of 50 feet. Although this barb does minimal damage on a hit, any creature damaged by an id rifle barb must succeed at a DC 16 Fortitude saving throw or have its central nervous system flooded with nanites that swiftly overwhelm the creature's brain, reducing its mind to the instinctive level of an animal. The victim takes 1d4 points of Intelligence damage each round, but the total amount of damage taken can never equal the victim's actual Intelligence score. Each round after the first, the victim can resist the Intelligence damage by succeeding at a DC 16 Fortitude saving throw, at which point the damage ceases. The recurring Intelligence damage automatically ends after 6 rounds. A victim already suffering from the effects of an id rifle who is affected by an additional shot has the save DC increased by 2 per additional shot.",
 			"",
-			"An id rifle has a microphone built into its stock. During any round in which a creature takes Intelligence damage from an id rifle, as a move action the wielder of that rifle can speak a short command into the microphone. Any applicable target within 50 feet of the wielder must then succeed at a DC 16 Will save to resist following the command, as if under the effect of a suggestion spell. A victim follows only the latest suggestion spoken into the microphone, and abandons any previous suggestion if it fails a saving throw against a new suggestion. A victim continues to follow the suggestion for up to 5 hours after succumbing to its effects.",
+			"An id rifle has a microphone built into its stock. During any round in which a creature takes Intelligence damage from an id rifle, as a move action the wielder of that rifle can speak a short command into the microphone. Any applicable target within 50 feet of the wielder must then succeed at a DC 16 Will save to resist following the command, as if under the effect of a {spell/suggestion} spell. A victim follows only the latest suggestion spoken into the microphone, and abandons any previous suggestion if it fails a saving throw against a new suggestion. A victim continues to follow the suggestion for up to 5 hours after succumbing to its effects.",
 			"",
 			"The effects created by an id rifle are mind-affecting effects."
 		]
@@ -579,7 +579,7 @@
 			"**Cost** 20,000 gp  ",
 			"**Type** two-handed ranged; **Proficiency** exotic (firearms); **Weight** 6 lbs.  ",
 			"**Damage** 1d10 (small), 2d6 (medium); **Damage Type** fire; **Critical** &times;2  ",
-			"**Range** 150 ft.; **Capacity** 20; **Usage** 1 charge; **Special** Automatic, touch",
+			"**Range** 150 ft.; **Capacity** 20; **Usage** 1 charge; **Special** {misc/Automatic}, {misc/touch}",
 			"",
 			"### Construction",
 			"",
@@ -600,7 +600,7 @@
 			"**Cost** 26,000 gp  ",
 			"**Type** two-handed ranged; **Proficiency** exotic (firearms); **Weight** 6 lbs.  ",
 			"**Damage** 1d10 (small), 2d6 (medium); **Damage Type** Sonic; **Critical** &times;2  ",
-			"**Range** 150 ft.; **Capacity** 20; **Usage** 1 charge; **Special** Automatic, touch",
+			"**Range** 150 ft.; **Capacity** 20; **Usage** 1 charge; **Special** {misc/Automatic}, {misc/touch}",
 			"",
 			"### Construction",
 			"",
@@ -621,7 +621,7 @@
 			"**Cost** 20,000 gp  ",
 			"**Type** two-handed ranged; **Proficiency** exotic (firearms); **Weight** 6 lbs.  ",
 			"**Damage** 1d10 (small), 2d6 (medium); **Damage Type** cold; **Critical** &times;2  ",
-			"**Range** 150 ft.; **Capacity** 20; **Usage** 1 charge; **Special** Automatic, touch",
+			"**Range** 150 ft.; **Capacity** 20; **Usage** 1 charge; **Special** {misc/Automatic}, {misc/touch}",
 			"",
 			"### Construction",
 			"",
@@ -642,11 +642,11 @@
 			"**Cost** 144,000 gp  ",
 			"**Type** two-handed ranged; **Proficiency** exotic (heavy weaponry); **Weight** 24 lbs.  ",
 			"**Damage** Special (small), Special (medium); **Damage Type** Special; **Critical** &mdash;  ",
-			"**Range** 40-ft. cone; **Capacity** &mdash;; **Usage** &mdash;; **Special** Scatter, slow-firing, touch",
+			"**Range** 40-ft. cone; **Capacity** &mdash;; **Usage** &mdash;; **Special** {misc/Scatter}, {misc/slow-firing}, {misc/touch}",
 			"",
-			"An atom gun is a cruel weapon that harnesses the devastating energies of a miniaturized nuclear reactor to create a focused cone of radiation that blasts and sickens those caught in the beam. An atom gun's range is relatively short, and the weapon can fire only [scattering shots](rule/firearm_description). The beams of radiation created when the wielder fires an atom gun do not fill the cone in a homogeneous area, and she must still make a ranged touch attack to irradiate a target. A creature struck by an atom gun attack suffers the effects of medium radiation. The small core of radioactive material in an atom gun is powerful enough to keep the weapon charged for tens of thousands of years, but the weapon becomes incredibly hot when fired, dealing 1d6 points of damage to the user and subsequently beginning a cool-down protocol, during which the weapon cannot be fired for 1 minute.",
+			"An atom gun is a cruel weapon that harnesses the devastating energies of a miniaturized nuclear reactor to create a focused cone of {rule/radiation} that blasts and sickens those caught in the beam. An atom gun's range is relatively short, and the weapon can fire only scattering shots. The beams of radiation created when the wielder fires an atom gun do not fill the cone in a homogeneous area, and she must still make a ranged touch attack to irradiate a target. A creature struck by an atom gun attack suffers the effects of medium radiation. The small core of radioactive material in an atom gun is powerful enough to keep the weapon charged for tens of thousands of years, but the weapon becomes incredibly hot when fired, dealing 1d6 points of damage to the user and subsequently beginning a cool-down protocol, during which the weapon cannot be fired for 1 minute.",
 			"",
-			"An atom gun cannot be fired more than 3 times per day. A functional atom gun's power source is shielded well, and the gun itself is not a source of dangerous radioactivity. If an atom gun gains the broken condition, it begins to leak radiation and becomes a source of low radiation to all creatures that touch it. An atom gun that gains the destroyed condition becomes a source of high radiation to those in contact with it, a source of medium radiation to those within 10 feet of it, and a source of low radiation to those within 30 feet of it.",
+			"An atom gun cannot be fired more than 3 times per day. A functional atom gun's power source is shielded well, and the gun itself is not a source of dangerous radioactivity. If an atom gun gains the {misc/broken} condition, it begins to leak radiation and becomes a source of low radiation to all creatures that touch it. An atom gun that gains the destroyed condition becomes a source of high radiation to those in contact with it, a source of medium radiation to those within 10 feet of it, and a source of low radiation to those within 30 feet of it.",
 			"",
 			"### Construction",
 			"",
@@ -665,17 +665,17 @@
 			"**Cost** 40,000 gp (arc cannon, laser cannon, zero cannon), 58,000 gp (EMP cannon, sonic cannon)  ",
 			"**Type** two-handed ranged; **Proficiency** exotic (heavy weaponry); **Weight** 18 lbs.  ",
 			"**Damage** 2d6 (small), 3d6 (medium); **Damage Type** See below; **Critical** &times;2  ",
-			"**Range** 300 ft.; **Capacity** 50; **Usage** 1 charge; **Special** Automatic, touch",
+			"**Range** 300 ft.; **Capacity** 50; **Usage** 1 charge; **Special** {misc/Automatic}, {misc/touch}",
 			"",
 			"A beam cannon is an immense version of one of the six more common beam rifle types. Beam cannons are generally referred to by type as summarized below. In addition to the standard automatic [firing mode options](main/tech_weapons), a beam cannon can be used to launch a devastating blast of energy. This is a full-round action, and these blasts can't be used to make iterative attacks. When a beam cannon is used to launch a blast, no attack roll is made - you simply target a 20-foot-radius {misc/spread} within a maximum range of 300 feet. You must have line of effect to your target when you launch a blast; if the blast impacts a solid object before reaching the target area, it explodes at that point. All creatures caught in the blast radius take 6d6 points of damage of the energy type appropriate to the cannon (Reflex DC 14 half). Each blast also has an additional effect as determined by the type of cannon. Firing a blast from a beam cannon consumes 10 charges.",
 			"",
 			"An :HL[arc cannon] deals electricity damage. Against metallic targets or creatures wearing medium or heavy metal armor, an arc cannon grants a +2 circumstance bonus on attack rolls, and the save DC against its blast mode increases by 2. An arc cannon costs 40,000 gp and has a Craft DC of 31.",
 			"",
-			"An :HL[EMP cannon] fires electromagnetic energy that cannot harm most living creatures. It deals 4d6 points of electricity damage against robots, and half as much damage against androids and creatures with cybernetic implants. A creature that takes damage from a critical hit by an EMP cannon must succeed at a DC 15 Fortitude save or be staggered for 1d4 rounds. An EMP cannon's blast deals 8d6 points of electricity damage of the same electromagnetic nature. An EMP cannon costs 58,000 gp and has a Craft DC of 33.",
+			"An :HL[EMP cannon] fires electromagnetic energy that cannot harm most living creatures. It deals 4d6 points of electricity damage against robots, and half as much damage against androids and creatures with cybernetic implants. A creature that takes damage from a critical hit by an EMP cannon must succeed at a DC 15 Fortitude save or be {misc/staggered} for 1d4 rounds. An EMP cannon's blast deals 8d6 points of electricity damage of the same electromagnetic nature. An EMP cannon costs 58,000 gp and has a Craft DC of 33.",
 			"",
-			"A :HL[laser cannon] deals fire damage. All attacks fired from it pass through transparent barriers, but treat fog, smoke, and other clouds as cover; see the {tech-weapon/laser pistol} for more information. A laser cannon costs 40,000 gp and has a Craft DC of 31.",
+			"A :HL[laser cannon] deals fire damage. All attacks fired from it pass through transparent barriers, but treat fog, smoke, and other clouds as {rule/cover}; see the {tech-weapon/laser pistol} for more information. A laser cannon costs 40,000 gp and has a Craft DC of 31.",
 			"",
-			"A :HL[sonic cannon] deals sonic damage. A creature that is critically hit by a sonic cannon or fails its saving throw against the cannon's blast must succeed at a DC 15 Fortitude saving throw or be permanently deafened. A sonic cannon costs 58,000 gp and has a Craft DC of 33.",
+			"A :HL[sonic cannon] deals sonic damage. A creature that is critically hit by a sonic cannon or fails its saving throw against the cannon's blast must succeed at a DC 15 Fortitude saving throw or be permanently {misc/deafened}. A sonic cannon costs 58,000 gp and has a Craft DC of 33.",
 			"",
 			"A :HL[zero cannon] deals cold damage. A creature that is critically hit by a zero cannon or fails its saving throw against the cannon's blast must succeed at a DC 15 Fortitude saving throw or become staggered for 1 round. A zero cannon costs 40,000 gp and has a Craft DC of 31.",
 			"",
@@ -713,13 +713,13 @@
 			"**Cost** 3,000 gp  ",
 			"**Type** two-handed ranged; **Proficiency** exotic (heavy weaponry); **Weight** 11 lbs.  ",
 			"**Damage** Special (small), Special (medium); **Damage Type** Special; **Critical** &mdash;  ",
-			"**Range** 20 ft.; **Capacity** 10; **Usage** 1 (disposable); **Special** Single shot, touch",
+			"**Range** 20 ft.; **Capacity** 10; **Usage** 1 (disposable); **Special** Single shot, {misc/touch}",
 			"",
-			"This Dominion weapon is a 3-foot-long device constructed from a hard, fleshlike material of mottled dark hues. Its barrel tapers down and flares into something disturbingly like a mouth. The triggering mechanism is built for a neh-thalggu's pincers and tendrils, but it can be fired by a humanoid with a bit of work - creatures other than neh-thalggu takes a -2 penalty on attack rolls with a fleshnet cannon. Fleshnet cannons are built for Large creatures, and smaller creatures take additional penalties as appropriate when using these weapons.",
+			"This Dominion weapon is a 3-foot-long device constructed from a hard, fleshlike material of mottled dark hues. Its barrel tapers down and flares into something disturbingly like a mouth. The triggering mechanism is built for a {monster/neh-thalggu/'s} pincers and tendrils, but it can be fired by a humanoid with a bit of work - creatures other than neh-thalggu takes a -2 penalty on attack rolls with a fleshnet cannon. Fleshnet cannons are built for Large creatures, and smaller creatures take [additional penalties as appropriate](misc/weapon_size) when using these weapons.",
 			"",
 			"When a fleshnet cannon is fired, it makes a low, wet, sucking noise as the barrel seems to convulse an instant before expelling a glob of pink fleshy material. This glob expands rapidly so that by the time it strikes its target, the flesh unfurls into a net. Unlike a typical net, this net doesn't trail ropes, nor does it have a maximum range of 10 feet.",
 			"",
-			"The net automatically entangles a creature of Huge or larger size it hits. As soon as it entangles a creature, and then again at the start of every round that follows for the next 5 rounds, the fleshnet squeezes and crushes the target, dealing 2d6+6 points of bludgeoning damage as it excretes a powerful soporific - the victim must make a DC 15 Fortitude save to avoid being rendered unconscious for 2d6 minutes. A fleshnet does not continue to crush a sleeping or unconscious foe.",
+			"The net automatically {rule/entangle/s>d} a creature of Huge or larger size it hits. As soon as it entangles a creature, and then again at the start of every round that follows for the next 5 rounds, the fleshnet squeezes and crushes the target, dealing 2d6+6 points of bludgeoning damage as it excretes a powerful soporific - the victim must make a DC 15 Fortitude save to avoid being rendered {misc/unconscious} for 2d6 minutes. A fleshnet does not continue to crush a sleeping or unconscious foe.",
 			"",
 			"An entangled creature can escape a fleshnet with a successful DC 25 Escape Artist check (a full-round action). The net has 10 hit points and DR 10/slashing; it can be burst with a successful DC 28 Strength check (also a full-round action).",
 			"",
@@ -740,9 +740,9 @@
 			"**Cost** 8,000 gp  ",
 			"**Type** two-handed ranged; **Proficiency** exotic (heavy weaponry); **Weight** 8 lbs.  ",
 			"**Damage** Varies (small), Varies (medium); **Damage Type** Varies; **Critical** &mdash;  ",
-			"**Range** 100 ft.; **Capacity** 20 (5 grenades); **Usage** 1 grenade and 1 charge; **Special** Slow-firing",
+			"**Range** 100 ft.; **Capacity** 20 (5 grenades); **Usage** 1 grenade and 1 charge; **Special** {misc/Slow-firing}",
 			"",
-			"A grenade launcher is a bulky weapon that can fire any grenade a great distance. Grenades propelled by a launcher can be set to detonate upon impact or at the start of the wielder's next turn. A grenade launcher requires charges to fire, but unless the weapon is also loaded with a grenade, any charges that are consumed are wasted. A grenade launcher can hold up to 5 grenades at a time. Loading a single grenade into a grenade launcher is a move action.",
+			"A grenade launcher is a bulky weapon that can fire any {tech-weapon/grenade} a great distance. Grenades propelled by a launcher can be set to detonate upon impact or at the start of the wielder's next turn. A grenade launcher requires charges to fire, but unless the weapon is also loaded with a grenade, any charges that are consumed are wasted. A grenade launcher can hold up to 5 grenades at a time. Loading a single grenade into a grenade launcher is a move action.",
 			"",
 			"### Construction",
 			"",
@@ -761,13 +761,13 @@
 			"**Cost** 90,000 gp  ",
 			"**Type** two-handed ranged; **Proficiency** exotic (heavy weaponry); **Weight** 11 lbs.  ",
 			"**Damage** Special (small), Special (medium); **Damage Type** Sonic; **Critical** 18-20/&times;2  ",
-			"**Range** 80 ft. (see text); **Capacity** 20; **Usage** 5 charges; **Special** Slow-firing, touch",
+			"**Range** 80 ft. (see text); **Capacity** 20; **Usage** 5 charges; **Special** {misc/Slow-firing}, {misc/touch}",
 			"",
 			"A nuclear resonator is a bulky weapon that creates a droning shriek when fired - and even when it's not being fired, it buzzes, whirs, and flashes. The wielder takes a -4 penalty on any Stealth checks made while it is active. It can be powered off completely to negate this penalty; either activating or deactivating is a standard action.",
 			"",
-			"When this weapon is fired, it creates a highly focused beam of sound that swiftly modulates to resonate at the atomic frequencies of the first target it strikes. The wielder make one attack roll when firing a nuclear resonator, then resolves that roll against the Armor Class of every creature in an 80 foot line from his position. The resonator's beam tunes itself to the precise molecular structure of the first creature in the line he hits, dealing 9d6 points of sonic damage to that target. Any other targets of the same creature type in the line which are subsequently struck take 5d6 points of sonic damage, while creatures of different types than the initial target take 3d6 points of sonic damage. If the attack roll is a critical threat, choose one target hit by the attack to resolve the critical confirmation against. A creature that's critically hit by a nuclear resonator must succeed at a DC 18 Fortitude saving throw to resist being stunned for 1 round and deafened for 1d6 rounds. A creature slain by a nuclear resonator is completely disintegrated (any gear carried remains unaffected).",
+			"When this weapon is fired, it creates a highly focused beam of sound that swiftly modulates to resonate at the atomic frequencies of the first target it strikes. The wielder make one attack roll when firing a nuclear resonator, then resolves that roll against the Armor Class of every creature in an 80 foot line from his position. The resonator's beam tunes itself to the precise molecular structure of the first creature in the line he hits, dealing 9d6 points of sonic damage to that target. Any other targets of the same creature type in the line which are subsequently struck take 5d6 points of sonic damage, while creatures of different types than the initial target take 3d6 points of sonic damage. If the attack roll is a critical threat, choose one target hit by the attack to resolve the critical confirmation against. A creature that's critically hit by a nuclear resonator must succeed at a DC 18 Fortitude saving throw to resist being {misc/stunned} for 1 round and {misc/deafened} for 1d6 rounds. A creature slain by a nuclear resonator is completely disintegrated (any gear carried remains unaffected).",
 			"",
-			"{tech-misc/Force field/s>_brown} and force effects are not damaged by a nuclear resonator's beam, and completely block its effects. The beam emitted by a nuclear resonator is a sonic effect, and cannot pass through an area of magical silence or an area under the effects of a signal jammer.",
+			"{tech-misc/Force field/s>_brown} and force effects are not damaged by a nuclear resonator's beam, and completely block its effects. The beam emitted by a nuclear resonator is a sonic effect, and cannot pass through an area of magical silence or an area under the effects of a {tech-misc/signal jammer}.",
 			"",
 			"### Construction",
 			"",
@@ -786,9 +786,9 @@
 			"**Cost** 30,000 gp  ",
 			"**Type** two-handed ranged; **Proficiency** exotic (heavy weaponry); **Weight** 15 lbs.  ",
 			"**Damage** 2d10 (small), 4d6 (medium); **Damage Type** electricity and fire; **Critical** 19-20/&times;2  ",
-			"**Range** 60 ft.; **Capacity** 20; **Usage** 2 charges; **Special** Automatic or slow-firing, scatter, touch",
+			"**Range** 60 ft.; **Capacity** 20; **Usage** 2 charges; **Special** {misc/Automatic} or {misc/slow-firing}, {misc/scatter}, {misc/touch}",
 			"",
-			"A plasmathrower is a devastating weapon that fires blasts of superheated, electrically charged gas. This weapon has two firing modes: slow-firing and automatic. When used on the slowfiring setting, the weapon fires a scattering shot with no range increment; on the automatic setting, it fires individual bursts of plasma that can reach up to 3 range increments. Half the damage dealt by a plasmathrower is fire damage and the other half is electricity damage.",
+			"A plasmathrower is a devastating weapon that fires blasts of superheated, electrically charged gas. This weapon has two firing modes: slow-firing and automatic. When used on the slow-firing setting, the weapon fires a scattering shot with no range increment; on the automatic setting, it fires individual bursts of plasma that can reach up to 3 range increments. Half the damage dealt by a plasmathrower is fire damage and the other half is electricity damage.",
 			"",
 			"### Construction",
 			"",
@@ -807,7 +807,7 @@
 			"**Cost** 30,000 gp  ",
 			"**Type** two-handed ranged; **Proficiency** exotic (heavy weaponry); **Weight** 14 lbs.  ",
 			"**Damage** 3d8 (small), 3d10 (medium); **Damage Type** B and P; **Critical** &times;4  ",
-			"**Range** 200 ft.; **Capacity** 10; **Usage** 1 charge; **Special** Slow-firing, touch",
+			"**Range** 200 ft.; **Capacity** 10; **Usage** 1 charge; **Special** {misc/Slow-firing}, {misc/touch}",
 			"",
 			"A rail gun uses gravitons to compress raw metal scrap placed in its sequencing chamber into hyperdense shells that it then accelerates to astounding speed and fires from its electromagnetically charged barrel. The weapon's rate of fire is slow compared to most other technological weapons, yet its relatively high damage combined with its potential for particularly grisly critical hits makes it a much sought-after weapon for long-range combat. Shots fired from a rail gun bypass an object's first 10 points of hardness, and can completely penetrate targets without hardness.",
 			"",
@@ -830,7 +830,7 @@
 			"**Cost** 10,800 gp  ",
 			"**Type** two-handed ranged; **Proficiency** exotic (heavy weaponry); **Weight** 10 lbs.  ",
 			"**Damage** 8d6 (small), 12d6 (medium); **Damage Type** B and fire; **Critical** &mdash;  ",
-			"**Range** 120 ft.; **Capacity** 10; **Usage** 1 (disposable); **Special** Slow-firing, touch",
+			"**Range** 120 ft.; **Capacity** 10; **Usage** 1 (disposable); **Special** {misc/Slow-firing}, {misc/touch}",
 			"",
 			"A newly created rocket launcher contains its entire load of rockets and energy charges. It cannot be reloaded, and once its final rocket is fired, the weapon is useless. Rockets fired from a rocket launcher can target a single target or a grid intersection. A creature that takes a direct hit from a rocket cannot attempt a saving throw to reduce the damage taken. When a rocket strikes its target, it explodes in a 30-foot-radius {misc/burst} that deals fire and bludgeoning damage to all creatures within that area of effect - a successful DC 15 Reflex save halves the damage for all but the target. Some rocket launchers carry alternate loads, replacing the fire damage with electricity or cold damage, and there are rumors of rocket launchers capable of doing even more damage, firing gravity-based weapons or using radioactive payloads.",
 			"",
@@ -851,9 +851,9 @@
 			"**Cost** 182,000 gp  ",
 			"**Type** two-handed ranged; **Proficiency** exotic (heavy weaponry); **Weight** 15 lbs.  ",
 			"**Damage** 8d6 (small), 10d6 (medium); **Damage Type** Force; **Critical** 19-20/&times;2  ",
-			"**Range** 100-ft. cone; **Capacity** 30; **Usage** 10 charges; **Special** Slow-firing, scatter, touch",
+			"**Range** 100-ft. cone; **Capacity** 30; **Usage** 10 charges; **Special** {misc/Slow-firing}, {misc/scatter}, {misc/touch}",
 			"",
-			"A vortex gun looks like a sleek shotgun with three barrels arranged in a triangular formation. When this weapon is fired, the three barrels release a beam of gravitons that spiral around each other to create a 100-foot-long cone-shaped vortex of devastating energy. This energy tears, crushes, and twists everything in its path. Being struck by a vortex gun induces overwhelming vertigo in living victims. A living creature damaged by a vortex gun must succeed at a DC 18 Fortitude saving throw to avoid being nauseated for 1 round. A critical hit also allows the user of the gun to attempt a trip combat maneuver check against the target (CMB = user's base attack bonus + 15); this attempt doesn't provoke attacks of opportunity. Flying creatures struck by a vortex gun are affected as if they were struck by hurricane force winds. A creature protected by a force field takes no damage from a vortex gun but must succeed at a DC 18 Reflex save or the shot automatically depletes all of the force field's remaining hit points.",
+			"A vortex gun looks like a sleek shotgun with three barrels arranged in a triangular formation. When this weapon is fired, the three barrels release a beam of gravitons that spiral around each other to create a 100-foot-long cone-shaped vortex of devastating energy. This energy tears, crushes, and twists everything in its path. Being struck by a vortex gun induces overwhelming vertigo in living victims. A living creature damaged by a vortex gun must succeed at a DC 18 Fortitude saving throw to avoid being {misc/nauseated} for 1 round. A critical hit also allows the user of the gun to attempt a {rule/trip} combat maneuver check against the target (CMB = user's base attack bonus + 15); this attempt doesn't provoke attacks of opportunity. Flying creatures struck by a vortex gun are affected as if they were struck by hurricane force {rule/winds}. A creature protected by a {tech-misc/force field} takes no damage from a vortex gun but must succeed at a DC 18 Reflex save or the shot automatically depletes all of the force field's remaining hit points.",
 			"",
 			"### Construction",
 			"",
@@ -872,7 +872,7 @@
 			"**Cost** 40,000 gp  ",
 			"**Type** two-handed ranged; **Proficiency** exotic (heavy weaponry); **Weight** 10 lbs.  ",
 			"**Damage** 6d4 (small), 5d6 (medium); **Damage Type** fire; **Critical** &times;4  ",
-			"**Range** 200 ft.; **Capacity** 20; **Usage** 5 charges; **Special** Touch",
+			"**Range** 200 ft.; **Capacity** 20; **Usage** 5 charges; **Special** {misc/Touch}",
 			"",
 			"An x-laser is a super-charged laser with devastating effects. It fires a highly focused, incredibly powerful beam of high-frequency light. An x-laser's beam functions as a {tech-weapon/laser rifle/'s} beam, but it bores holes through any creature or object it damages. The beam is stopped if it cannot penetrate the hardness, fire resistance, or fire immunity of a barrier or creature. When making an attack with an x-laser, make a single attack roll and compare that result to the ACs of all creatures in a line extending out to the weapon's maximum range. This weapon damages all targets with an AC equal to or lower than the attack roll. The hole created by an x-laser is less than an inch in diameter and serves primarily as evidence of the weapon's discharge rather than significantly altering an object's structural integrity beyond the damage the laser blast deals as part of the attack.",
 			"",
@@ -882,8 +882,8 @@
 			"{feat/Craft Technological Arms and Armor}, {rule/crafting<military| lab>oratories}"
 		]
 	},
-	"grenade_arc_grenade": {
-		"name": "Grenade (arc grenade)",
+	"grenade": {
+		"name": "Grenade",
 		"sources": [
 			"Technology Guide",
 			"Pathfinder #86: Lords of Rust"
@@ -924,67 +924,68 @@
 			"- **Zero Grenade:** Deals 5d6 points of cold damage."
 		]
 	},
-	"arc_grenade": { "copyof": "grenade_arc_grenade" },
-	"grenade_atom_grenade": {
+	"arc_grenade": {
+		"name": "Grenade (arc grenade)",
+		"copyof": "grenade"
+	},
+	"atom_grenade": {
 		"name": "Grenade (atom grenade)",
-		"copyof": "grenade_arc_grenade"
+		"copyof": "grenade"
 	},
-	"grenade_bang_grenade": {
+	"bang_grenade": {
 		"name": "Grenade (bang grenade)",
-		"copyof": "grenade_arc_grenade"
+		"copyof": "grenade"
 	},
-	"bang_grenade": { "copyof": "grenade_bang_grenade" },
-	"grenade_bio_grenade": {
+	"bio_grenade": {
 		"name": "Grenade (bio grenade)",
-		"copyof": "grenade_arc_grenade"
+		"copyof": "grenade"
 	},
-	"grenade_concussion_grenade": {
+	"concussion_grenade": {
 		"name": "Grenade (concussion grenade)",
-		"copyof": "grenade_arc_grenade"
+		"copyof": "grenade"
 	},
-	"grenade_emp_grenade": {
+	"emp_grenade": {
 		"name": "Grenade (emp grenade)",
-		"copyof": "grenade_arc_grenade"
+		"copyof": "grenade"
 	},
-	"grenade_flash_grenade": {
+	"flash_grenade": {
 		"name": "Grenade (flash grenade)",
-		"copyof": "grenade_arc_grenade"
+		"copyof": "grenade"
 	},
-	"grenade_flechette_grenade": {
+	"flechette_grenade": {
 		"name": "Grenade (flechette grenade)",
-		"copyof": "grenade_arc_grenade"
+		"copyof": "grenade"
 	},
-	"grenade_fragmentation_grenade": {
+	"fragmentation_grenade": {
 		"name": "Grenade (fragmentation grenade)",
-		"copyof": "grenade_arc_grenade"
+		"copyof": "grenade"
 	},
-	"grenade_gas_grenade": {
+	"gas_grenade": {
 		"name": "Grenade (gas grenade)",
-		"copyof": "grenade_arc_grenade"
+		"copyof": "grenade"
 	},
-	"grenade_gravity_grenade": {
+	"gravity_grenade": {
 		"name": "Grenade (gravity grenade)",
-		"copyof": "grenade_arc_grenade"
+		"copyof": "grenade"
 	},
-	"grenade_inferno_grenade": {
+	"inferno_grenade": {
 		"name": "Grenade (inferno grenade)",
-		"copyof": "grenade_arc_grenade"
+		"copyof": "grenade"
 	},
-	"grenade_plasma_grenade": {
+	"plasma_grenade": {
 		"name": "Grenade (plasma grenade)",
-		"copyof": "grenade_arc_grenade"
+		"copyof": "grenade"
 	},
-	"grenade_soft_grenade": {
+	"soft_grenade": {
 		"name": "Grenade (soft grenade)",
-		"copyof": "grenade_arc_grenade"
+		"copyof": "grenade"
 	},
-	"soft_grenade": { "copyof": "grenade_soft_grenade" },
-	"grenade_sonic_grenade": {
+	"sonic_grenade": {
 		"name": "Grenade (sonic grenade)",
-		"copyof": "grenade_arc_grenade"
+		"copyof": "grenade"
 	},
-	"grenade_zero_grenade": {
+	"zero_grenade": {
 		"name": "Grenade (zero grenade)",
-		"copyof": "grenade_arc_grenade"
+		"copyof": "grenade"
 	}
 }

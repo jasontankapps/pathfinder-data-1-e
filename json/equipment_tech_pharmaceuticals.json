@@ -22,7 +22,7 @@
 			"**Craft DC** 22; **Cost** 50 gp  ",
 			"{feat/Craft Pharmaceutical}, {rule/crafting<medical| lab>oratories}",
 			"",
-			"The crew of the Divinity did their best to avoid exposure to radiation, but during a multi-year exploration of uncharted space, accidents will happen. Azonite pellets were the typical answer to radiation exposure - a less expensive alternative to {tech-pharma/cureall}. An azonite pellet grants a +5 bonus on all saving throws against radiation for 1 hour. Taking multiple pellets resets the duration, but doesn't increase the bonus. Taking 5 pellets at once instantly cures all Strength damage caused by radiation poisoning, but doesn't cure Strength damage caused by any other effect. Azonite pellets can't cure Constitution drain caused by radiation."
+			"The crew of the Divinity did their best to avoid exposure to {rule/radiation}, but during a multi-year exploration of uncharted space, accidents will happen. Azonite pellets were the typical answer to radiation exposure - a less expensive alternative to {tech-pharma/cureall}. An azonite pellet grants a +5 bonus on all saving throws against radiation for 1 hour. Taking multiple pellets resets the duration, but doesn't increase the bonus. Taking 5 pellets at once instantly cures all Strength damage caused by radiation poisoning, but doesn't cure Strength damage caused by any other effect. Azonite pellets can't cure Constitution drain caused by radiation."
 		]
 	},
 	"baseline": {
@@ -58,7 +58,7 @@
 			"",
 			"This potent drug can revive a recently deceased victim. If administered to a corpse within 1 minute of death, the victim can immediately attempt a Fortitude saving throw (DC = 15 + 1 per round since death occurred) to be restored to life, automatically stabilizing at -1 hit point. Multiple doses injected within this 1-minute period can grant the deceased additional attempts at revival; each additional dose grants a cumulative +2 bonus to the Fortitude saving throw. As with most other effects that revive the dead, a creature restored to life in this manner gains 1 negative level. Cardioamp only works on bodies that are relatively intact. Bodies that have been dismembered, horribly burned, or otherwise mutilated (at the GM's discretion) cannot be revived by cardioamp, but bodies slain by death effects can be.",
 			"",
-			"Cardioamp can be deadly if injected into a living creature. A living creature injected with cardioamp must succeed at a DC 16 Fortitude saving throw to resist taking 3d6 points of Constitution damage from a sudden heart attack. If the save is successful, the Constitution damage is negated but the victim becomes sickened for 1d6 rounds. The effect when injected in a living creature is a poison effect."
+			"Cardioamp can be deadly if injected into a living creature. A living creature injected with cardioamp must succeed at a DC 16 Fortitude saving throw to resist taking 3d6 points of Constitution damage from a sudden heart attack. If the save is successful, the Constitution damage is negated but the victim becomes {misc/sickened} for 1d6 rounds. The effect when injected in a living creature is a poison effect."
 		]
 	},
 	"cureall": {
@@ -94,7 +94,7 @@
 			"**Craft DC** 23 (Grade I), DC 24 (Grade II), DC 25 (Grade III), DC 26 (Grade IV), DC 27 (Grade V); **Cost** 125 gp (Grade I), 250 gp (Grade II), 375 gp (Grade III), 500 gp (Grade IV), 625 gp (Grade V)  ",
 			"{feat/Craft Pharmaceutical}, {rule/crafting<medical| lab>oratories}",
 			"",
-			"Hemochem stops bleeding and promotes healing. A single dose of hemochem grants fast healing for 1 minute. Multiple doses injected do not stack, but they do reset the duration of the fast healing back to 1 minute. Five grades of hemochem exist; the fast healing granted by a dose depends on the pharmaceutical's grade, as detailed below.",
+			"Hemochem stops bleeding and promotes healing. A single dose of hemochem grants {umr/fast healing} for 1 minute. Multiple doses injected do not stack, but they do reset the duration of the fast healing back to 1 minute. Five grades of hemochem exist; the fast healing granted by a dose depends on the pharmaceutical's grade, as detailed below.",
 			"",
 			"| Grade | Fast Healing |",
 			"| --- | --- |",
@@ -152,7 +152,7 @@
 			"**Craft DC** 20; **Cost** 100 gp  ",
 			"{feat/Craft Pharmaceutical}, {rule/crafting<medical| lab>oratories}",
 			"",
-			"This strange, pink, gel-like substance is generally contained in a small glass jar that holds 1 dose. A single dose of soothe dulls pain and creates a euphoric sensation, particularly when applied to an open wound. Rubbing a dose of soothe onto one's skin or imbibing the faintly citrusflavored stuff cures 1 point of damage, but rubbing a dose onto a wound received in the last minute heals the user of 1d8 points of damage. In addition, for the next minute, the user becomes immune to bleed damage and gains a +2 morale bonus on saving throws against fear effects. As a somewhat unusual and disturbing side effect, wounds healed by soothe tend to form raw, unsightly scars, giving the appearance of the wound still being fresh but disturbingly bloodless. Soothe has a further side effect - the stuff is slightly addictive, and those who use it run the danger of developing a habit. Soothe's side effect of transforming wounds into raw, ugly scar tissue tends to make those who abuse the drug-like pharmaceutical increasingly into hideous monstrosities over time. In fact, some subcultures, like the Smilers of Scrapwall, use this side effect to make themselves appear more ferocious, and openly encourage self-mutilation followed by healing via of this strange substance."
+			"This strange, pink, gel-like substance is generally contained in a small glass jar that holds 1 dose. A single dose of soothe dulls pain and creates a euphoric sensation, particularly when applied to an open wound. Rubbing a dose of soothe onto one's skin or imbibing the faintly citrus-flavored stuff cures 1 point of damage, but rubbing a dose onto a wound received in the last minute heals the user of 1d8 points of damage. In addition, for the next minute, the user becomes immune to {rule/bleed} damage and gains a +2 morale bonus on saving throws against fear effects. As a somewhat unusual and disturbing side effect, wounds healed by soothe tend to form raw, unsightly scars, giving the appearance of the wound still being fresh but disturbingly bloodless. Soothe has a further side effect - the stuff is slightly addictive, and those who use it run the danger of developing a habit. Soothe's side effect of transforming wounds into raw, ugly scar tissue tends to make those who abuse the drug-like pharmaceutical increasingly into hideous monstrosities over time. In fact, some subcultures, like the Smilers of Scrapwall, use this side effect to make themselves appear more ferocious, and openly encourage self-mutilation followed by healing via of this strange substance."
 		]
 	},
 	"torpinal": {
@@ -188,7 +188,7 @@
 			"**Craft DC** 25; **Cost** 200 gp  ",
 			"{feat/Craft Pharmaceutical}, {rule/crafting<medical| lab>oratories}",
 			"",
-			"A viscous, blue serum fills the receptacle attached behind the nozzle of this metallic injector. Three small panels on the side of the injector light up one at a time when touched: selecting a color (red, blue, or green) is a swift action. The injector contains only 1 dose of universal serum. Injecting the serum is a standard action that heals the recipient of 1d8 points of damage and has an additional effect depending upon the current color selection. Red grants the recipient a +4 enhancement bonus to Constitution. Blue grants the recipient a +4 enhancement bonus to Strength. Green grants the recipient a +4 enhancement bonus to Dexterity. The enhancement bonus lasts for 3 minutes, after which the recipient of the serum becomes fatigued for 1 hour. If the recipient receives more than 1 dose of universal serum in a 24-hour period, the healing effect still occurs but no enhancement bonus is granted; instead, the recipient immediately becomes fatigued for 1 hour."
+			"A viscous, blue serum fills the receptacle attached behind the nozzle of this metallic injector. Three small panels on the side of the injector light up one at a time when touched: selecting a color (red, blue, or green) is a swift action. The injector contains only 1 dose of universal serum. Injecting the serum is a standard action that heals the recipient of 1d8 points of damage and has an additional effect depending upon the current color selection. Red grants the recipient a +4 enhancement bonus to Constitution. Blue grants the recipient a +4 enhancement bonus to Strength. Green grants the recipient a +4 enhancement bonus to Dexterity. The enhancement bonus lasts for 3 minutes, after which the recipient of the serum becomes {misc/fatigued} for 1 hour. If the recipient receives more than 1 dose of universal serum in a 24-hour period, the healing effect still occurs but no enhancement bonus is granted; instead, the recipient immediately becomes fatigued for 1 hour."
 		]
 	},
 	"vitality_serum": {
@@ -205,7 +205,7 @@
 			"**Craft DC** 25; **Cost** 250 gp  ",
 			"{feat/Craft Pharmaceutical}, {rule/crafting<medical| lab>oratories}",
 			"",
-			"The glass receptacle of this injector contains 1 dose of a bright-yellow serum. When injected into a creature (this is a standard action), the substance grants immunity to low radiation for 1 hour, and a +5 alchemical bonus on all saving throws against other radiation effects for that duration. In addition, it heals 1d4 points of Strength damage caused by radiation poisoning. Vitality serum cannot cure Constitution drain caused by radiation poisoning."
+			"The glass receptacle of this injector contains 1 dose of a bright-yellow serum. When injected into a creature (this is a standard action), the substance grants immunity to low {rule/radiation} for 1 hour, and a +5 alchemical bonus on all saving throws against other radiation effects for that duration. In addition, it heals 1d4 points of Strength damage caused by radiation poisoning. Vitality serum cannot cure Constitution drain caused by radiation poisoning."
 		]
 	},
 	"vive": {
@@ -222,7 +222,7 @@
 			"**Craft DC** 22; **Cost** 100 gp  ",
 			"{feat/Craft Pharmaceutical}, {rule/crafting<medical| lab>oratories}",
 			"",
-			"Vive revitalizes the body at the cost of mental acuity. This pharmaceutical has an onset time of 1 minute. It eliminates fatigue and exhaustion and heals 1d4 points of ability damage to a physical ability score (Strength, Dexterity, or Constitution) of the target's choice. The first dose taken in a 24-hour period deals 1d2 points of ability damage to Intelligence and Wisdom; additional doses in that period deal 1d4 points of ability damage instead. Vive can be resisted with a successful DC 12 Fortitude saving throw."
+			"Vive revitalizes the body at the cost of mental acuity. This pharmaceutical has an onset time of 1 minute. It eliminates {misc/fatigue} and {misc/exhaustion} and heals 1d4 points of ability damage to a physical ability score (Strength, Dexterity, or Constitution) of the target's choice. The first dose taken in a 24-hour period deals 1d2 points of ability damage to Intelligence and Wisdom; additional doses in that period deal 1d4 points of ability damage instead. Vive can be resisted with a successful DC 12 Fortitude saving throw."
 		]
 	},
 	"zortaphen": {
@@ -239,7 +239,7 @@
 			"**Craft DC** 22; **Cost** 1,125 gp  ",
 			"{feat/Craft Pharmaceutical}, {rule/crafting<medical| lab>oratories}",
 			"",
-			"Zortaphen is a powerful anesthetic. A creature that takes a dose of zortaphen must succeed at a DC 15 Fortitude saving throw or become unconscious for 1 hour; the unconsciousness takes effect 1d6 rounds after the failed save. A creature under the effects of zortaphen is numbed as well, making it immune to pain effects while sleeping. Damage inflicted on someone put to sleep with zortaphen does not cause the sleeper to awaken. Awakening someone early requires a successful DC 20 Heal check and a full-round action. Zortaphen is a poison and sleep effect.",
+			"Zortaphen is a powerful anesthetic. A creature that takes a dose of zortaphen must succeed at a DC 15 Fortitude saving throw or become {misc/unconscious} for 1 hour; the unconsciousness takes effect 1d6 rounds after the failed save. A creature under the effects of zortaphen is numbed as well, making it immune to pain effects while sleeping. Damage inflicted on someone put to sleep with zortaphen does not cause the sleeper to awaken. Awakening someone early requires a successful DC 20 Heal check and a full-round action. Zortaphen is a poison and sleep effect.",
 			"",
 			"Zortaphen can be dangerous if too much is taken at once. A skilled character can use a successful DC 15 Heal check to keep someone under the effects of zortaphen unconscious indefinitely by injecting a new dose every hour. On a failed Heal check or if a second dose is administered without attempting a Heal check, a victim already under the effects of zortaphen must succeed at a DC 15 Fortitude save or take 1d6 points of Constitution damage."
 		]
