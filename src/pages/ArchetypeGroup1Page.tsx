@@ -21,7 +21,14 @@ const ArchetypeGroup1Page: React.FC<ArchetypeProps> = ({id, parent, classTitle})
 	const pageId = `/arc-${parent}/${id}`;
 
 	// Monk archetypes may be Unchained Monk archetypes...
-	const { hasJL, title, jsx, sources, topLink = [classTitle, "class/" + parent] } = getItem<Data>(id as keyof Data, arches);
+	const {
+		hasJL,
+		title,
+		jsx,
+		sources,
+		topLink = [classTitle, "class/" + parent],
+		notBookmarkable
+	} = getItem<Data>(id as keyof Data, arches);
 
 	return <BasicPage
 		hasJL={hasJL}
@@ -29,6 +36,7 @@ const ArchetypeGroup1Page: React.FC<ArchetypeProps> = ({id, parent, classTitle})
 		sources={sources}
 		pageId={pageId}
 		topLink={topLink}
+		notBookmarkable={notBookmarkable}
 	>{jsx}</BasicPage>;
 };
 

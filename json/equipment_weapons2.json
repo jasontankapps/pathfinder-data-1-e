@@ -3226,6 +3226,21 @@
 		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
 	},
 	"light_repeating_crossbow": { "copyof": "repeating_light_crossbow" },
+	"repeating_crossbow": {
+		"name": "Repeating crossbow",
+		"sources": [],
+		"description": [
+			"## Repeating crossbow",
+			"",
+			"There are three repeating crossbows.",
+			"",
+			"1. {eq-weapon/repeating hand crossbow}",
+			"2. {eq-weapon/repeating light crossbow}",
+			"3. {eq-weapon/repeating heavy crossbow}"
+		],
+		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ],
+		"disambiguation": true
+	},
 	"rope_dart": {
 		"name": "Rope dart",
 		"sources": [

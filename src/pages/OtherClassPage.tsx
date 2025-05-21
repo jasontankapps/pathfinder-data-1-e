@@ -16,7 +16,8 @@ interface JsonDataPropsClass {
 	hasJL?: boolean
 	title: string,
 	jsx: ReactElement,
-	sources: SourceProp[]
+	sources: SourceProp[],
+	notBookmarkable?: boolean
 }
 
 const OtherClassPage: React.FC = () => {
@@ -33,7 +34,8 @@ const OtherClassPage: React.FC = () => {
 		hasJL,
 		title,
 		jsx,
-		sources
+		sources,
+		notBookmarkable
 	} = (classes[solidId] as JsonDataPropsClass);
 
 	const pageId = ((m && m[0]) || "/otherclasses/") + id;
@@ -44,6 +46,7 @@ const OtherClassPage: React.FC = () => {
 			title={title}
 			sources={sources}
 			pageId={pageId}
+			notBookmarkable={notBookmarkable}
 		>{jsx}</BasicPage>
 	);
 };

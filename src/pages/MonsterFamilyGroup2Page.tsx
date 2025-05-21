@@ -11,13 +11,14 @@ interface MonsterFamilyProps {
 
 const MonsterFamilyGroup2Page: React.FC<MonsterFamilyProps> = ({id}) => {
 
-	const { hasJL, title, jsx, sources } = getGuaranteedItem<Data>((id as keyof Data), families);
+	const { hasJL, title, jsx, sources, notBookmarkable } = getGuaranteedItem<Data>((id as keyof Data), families);
 
 	return <BasicPage
 		hasJL={hasJL}
 		pageId={"/family/" + id}
 		title={title}
 		sources={sources}
+		notBookmarkable={notBookmarkable}
 	>{jsx}</BasicPage>;
 };
 

@@ -721,7 +721,7 @@ const compile = (compileFrom, prefix, temporaryFlags, openTag, closeTag) => {
 };
 
 const createItem = (info, prop) => {
-	const { title, description, sources, parent_topics, siblings, subtopics, topLink, noFinder, addenda } = info;
+	const { title, description, sources, parent_topics, siblings, subtopics, topLink, noFinder, addenda, disambiguation } = info;
 	let output = `const _${prop} = {title: "${title}", sources: ${sources ? JSON.stringify(sources) : "[]"}`;
 	parent_topics && (output = output + `, parent_topics: ${JSON.stringify(parent_topics)}`);
 	siblings && (output = output + `, siblings: ${JSON.stringify(siblings)}`);
@@ -729,6 +729,7 @@ const createItem = (info, prop) => {
 	topLink && (output = output + `, topLink: ${JSON.stringify(topLink)}`);
 	noFinder && (output = output + ", noFinder: true");
 	addenda && (output = output + `, addenda: ${JSON.stringify(addenda)}`);
+	disambiguation && (output = output + `, notBookmarkable: true`);
 	output = output + `, jsx: ${description}};`;
 	return output;
 };
@@ -877,7 +878,7 @@ Object.values(all_usable_groups).forEach((group, groupindex) => {
 			sources, tables, topLink, parent_topics,
 			subtopics, siblings, noFinder,
 			nameSuffix, compilationSources,
-			compileFrom, addenda
+			compileFrom, addenda, disambiguation
 		} = base;
 		// Convert entities in tables
 		tables && entities_in_tables.forEach(([matcher, replacer, codepoint]) => {
@@ -968,6 +969,7 @@ Object.values(all_usable_groups).forEach((group, groupindex) => {
 		const [convertedDescription, newflags] = converted;
 		convertedDescription !== undefined && (info.description = convertedDescription);
 		info.noFinder = noFinder;
+		info.disambiguation = disambiguation;
 		Object.keys(newflags).forEach((flag) => {groupFlags[flag] = true});
 		if(copyof) {
 			copies.push([prop, copyof, {...info}]);

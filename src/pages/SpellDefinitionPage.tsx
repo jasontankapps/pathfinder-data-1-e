@@ -15,7 +15,7 @@ const SpellDefPage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
-	const { hasJL, title, jsx, sources, } = getItem<Data>(id, defs);
+	const { hasJL, title, jsx, sources, notBookmarkable } = getItem<Data>(id, defs);
 
 	return <BasicPage
 		hasJL={hasJL}
@@ -23,6 +23,7 @@ const SpellDefPage: React.FC = () => {
 		sources={sources}
 		pageId={"/spelldef/" + id}
 		topLink={topLink}
+		notBookmarkable={notBookmarkable}
 	>{jsx}</BasicPage>;
 };
 

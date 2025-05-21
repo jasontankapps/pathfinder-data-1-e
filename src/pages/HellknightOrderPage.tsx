@@ -15,7 +15,7 @@ const HellknightOrderPage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
-	const { hasJL, title, jsx, sources, } = getItem<Data>(id, orders);
+	const { hasJL, title, jsx, sources, notBookmarkable } = getItem<Data>(id, orders);
 
 	return <BasicPage
 		hasJL={hasJL}
@@ -23,6 +23,7 @@ const HellknightOrderPage: React.FC = () => {
 		sources={sources}
 		pageId={"/hkorder/" + id}
 		topLink={topLink}
+		notBookmarkable={notBookmarkable}
 	>{jsx}</BasicPage>;
 };
 

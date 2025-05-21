@@ -23,7 +23,7 @@ const MonsterTypingPage: React.FC = () => {
 
 	const m = path.match(/^[/](sub)?type[/]/);
 
-	const { hasJL, title, jsx, sources } = getItem<Data>(id, typings);
+	const { hasJL, title, jsx, sources, notBookmarkable } = getItem<Data>(id, typings);
 
 	return <BasicPage
 		hasJL={hasJL}
@@ -31,6 +31,7 @@ const MonsterTypingPage: React.FC = () => {
 		sources={sources}
 		pageId={((m && m[0]) || "/type/") + id}
 		topLink={(m && m[1]) ? topLinkS : topLinkT}
+		notBookmarkable={notBookmarkable}
 	>{jsx}</BasicPage>;
 };
 

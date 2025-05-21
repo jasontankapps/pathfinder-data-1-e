@@ -15,7 +15,7 @@ const CompanionPage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
-	const { hasJL, title, jsx, sources } = getItem<Data>(id as keyof Data, companions);
+	const { hasJL, title, jsx, sources, notBookmarkable } = getItem<Data>(id as keyof Data, companions);
 
 	return <BasicPage
 		hasJL={hasJL}
@@ -23,6 +23,7 @@ const CompanionPage: React.FC = () => {
 		sources={sources}
 		pageId={"/druidcompanion/" + id}
 		topLink={topLink}
+		notBookmarkable={notBookmarkable}
 	>{jsx}</BasicPage>;
 };
 

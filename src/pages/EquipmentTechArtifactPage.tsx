@@ -15,7 +15,7 @@ const EquipmentTechArtifactPage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
-	const { hasJL, title, jsx, sources } = getItem<Data>(id, equipment);
+	const { hasJL, title, jsx, sources, notBookmarkable } = getItem<Data>(id, equipment);
 
 	return <BasicPage
 		hasJL={hasJL}
@@ -23,6 +23,7 @@ const EquipmentTechArtifactPage: React.FC = () => {
 		sources={sources}
 		pageId={"/tech-artifact/" + id}
 		topLink={topLink}
+		notBookmarkable={notBookmarkable}
 	>{jsx}</BasicPage>;
 };
 

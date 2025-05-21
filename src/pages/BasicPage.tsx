@@ -161,8 +161,6 @@ const doFocus = (
 	});
 };
 
-type ElementRef<T extends Element> = (node: T | null) => void;
-
 const BasicPage: FC<PropsWithChildren<PageProps>> = (props) => {
 	const {
 		hasJL,

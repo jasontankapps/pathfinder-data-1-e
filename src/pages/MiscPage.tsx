@@ -12,7 +12,7 @@ const MiscPage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
-	const { hasJL, title, jsx, sources, topLink } = getItem<Data>(id, misc);
+	const { hasJL, title, jsx, sources, topLink, notBookmarkable } = getItem<Data>(id, misc);
 
 	return <BasicPage
 		hasJL={hasJL}
@@ -20,6 +20,7 @@ const MiscPage: React.FC = () => {
 		sources={sources}
 		pageId={"/misc/" + id}
 		topLink={topLink}
+		notBookmarkable={notBookmarkable}
 	>{jsx}</BasicPage>;
 };
 

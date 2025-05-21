@@ -20,7 +20,7 @@ const ArchetypeGroup12Page: React.FC<ArchetypeProps> = ({id, parent, classTitle}
 
 	const pageId = `/arc-${parent}/${id}`;
 
-	const { hasJL, title, jsx, sources } = getItem<Data>(id as keyof Data, arches);
+	const { hasJL, title, jsx, sources, notBookmarkable } = getItem<Data>(id as keyof Data, arches);
 
 	return <BasicPage
 		hasJL={hasJL}
@@ -28,6 +28,7 @@ const ArchetypeGroup12Page: React.FC<ArchetypeProps> = ({id, parent, classTitle}
 		sources={sources}
 		pageId={pageId}
 		topLink={[classTitle, "class/" + parent]}
+		notBookmarkable={notBookmarkable}
 	>{jsx}</BasicPage>;
 };
 

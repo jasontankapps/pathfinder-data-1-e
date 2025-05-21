@@ -15,7 +15,7 @@ const MasterpiecePage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
-	const { hasJL, title, jsx, sources, } = getItem<Data>(id, masterpieces);
+	const { hasJL, title, jsx, sources, notBookmarkable } = getItem<Data>(id, masterpieces);
 
 	return <BasicPage
 		hasJL={hasJL}
@@ -23,6 +23,7 @@ const MasterpiecePage: React.FC = () => {
 		sources={sources}
 		pageId={"/masterpiece/" + id}
 		topLink={topLink}
+		notBookmarkable={notBookmarkable}
 	>{jsx}</BasicPage>;
 };
 

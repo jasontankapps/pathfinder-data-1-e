@@ -10,6 +10,7 @@ export interface JsonDataProps {
 	topLink?: Hierarchy
 	noFinder?: boolean
 	addenda?: string[]
+	notBookmarkable?: boolean
 }
 
 interface MaybeCopyOf<T> extends Partial<JsonDataProps> {

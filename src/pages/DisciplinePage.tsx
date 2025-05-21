@@ -15,7 +15,7 @@ const DiscliplinePage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
-	const { hasJL, title, jsx, sources, } = getItem<Data>(id, disciplines);
+	const { hasJL, title, jsx, sources, notBookmarkable } = getItem<Data>(id, disciplines);
 
 	return <BasicPage
 		hasJL={hasJL}
@@ -23,6 +23,7 @@ const DiscliplinePage: React.FC = () => {
 		sources={sources}
 		pageId={"/discipline/" + id}
 		topLink={topLink}
+		notBookmarkable={notBookmarkable}
 	>{jsx}</BasicPage>;
 };
 

@@ -14,7 +14,7 @@ const TrapPage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
-	const { hasJL, title, jsx, sources, } = getItem<Data>(id, traps);
+	const { hasJL, title, jsx, sources, notBookmarkable } = getItem<Data>(id, traps);
 
 	return <BasicPage
 		hasJL={hasJL}
@@ -22,6 +22,7 @@ const TrapPage: React.FC = () => {
 		sources={sources}
 		pageId={"/trap/" + id}
 		topLink={trapLink}
+		notBookmarkable={notBookmarkable}
 	>{jsx}</BasicPage>;
 };
 

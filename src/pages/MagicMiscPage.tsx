@@ -56,7 +56,7 @@ const MagicMiscPage: React.FC = () => {
 
 	const m = path.match(/^([/]magic-[a-z]+[/])/);
 
-	const { hasJL, title, jsx, sources } = getItem<Data>(id, magic);
+	const { hasJL, title, jsx, sources, notBookmarkable } = getItem<Data>(id, magic);
 
 	return <BasicPage
 		hasJL={hasJL}
@@ -64,6 +64,7 @@ const MagicMiscPage: React.FC = () => {
 		sources={sources}
 		pageId={(m ? m[1] : "/magic-misc/") + id}
 		topLink={misc}
+		notBookmarkable={notBookmarkable}
 	>{jsx}</BasicPage>;
 };
 

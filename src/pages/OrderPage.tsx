@@ -15,7 +15,7 @@ const OrderPage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
-	const { hasJL, title, jsx, sources, } = getItem<Data>(id, orders);
+	const { hasJL, title, jsx, sources, notBookmarkable } = getItem<Data>(id, orders);
 
 	return <BasicPage
 		hasJL={hasJL}
@@ -23,6 +23,7 @@ const OrderPage: React.FC = () => {
 		sources={sources}
 		pageId={"/order/" + id}
 		topLink={topLink}
+		notBookmarkable={notBookmarkable}
 	>{jsx}</BasicPage>;
 };
 

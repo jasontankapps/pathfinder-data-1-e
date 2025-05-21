@@ -10,18 +10,19 @@ interface EquipProps {
 	id: string,
 };
 
-const topLink: Hierarchy = ["Weapons", "main/equipment_weapons"];
+const tL: Hierarchy = ["Weapons", "main/equipment_weapons"];
 
 const EquipmentWeaponGroup1Page: React.FC<EquipProps> = ({id}) => {
 
-	const { hasJL, title, jsx, sources, topLink } = getItem<Data>((id as keyof Data), equipment_weapons);
+	const { hasJL, title, jsx, sources, topLink, notBookmarkable } = getItem<Data>((id as keyof Data), equipment_weapons);
 
 	return <BasicPage
 		hasJL={hasJL}
 		pageId={"/eq-weapon/" + id}
 		title={title}
 		sources={sources}
-		topLink={topLink}
+		topLink={topLink || tL}
+		notBookmarkable={notBookmarkable}
 	>{jsx}</BasicPage>;
 };
 

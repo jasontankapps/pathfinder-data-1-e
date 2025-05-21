@@ -76,7 +76,17 @@ Object.entries(basic_data_groups).forEach(([file, groupobject]) => {
 		$groupingData[link] = {};
 	}
 	Object.entries(data).forEach(([prop, value]) => {
-		const { name: n, title, copyof, subtitle, tags, searchgroup: sg2, alternateOf, type: typeOverride } = value;
+		const {
+			name: n,
+			title,
+			copyof,
+			subtitle,
+			tags,
+			searchgroup: sg2,
+			alternateOf,
+			type: typeOverride,
+			disambiguation
+		} = value;
 		typeOverride && recordType(typeOverride);
 		if(copyof && !data[copyof]) {
 			console.log(`>>>ERROR>>> ${file}.${prop}.copyof = [${copyof}], not found in same file`);
@@ -115,15 +125,17 @@ Object.entries(basic_data_groups).forEach(([file, groupobject]) => {
 		const indexable = { name: named || "BLANK" };
 		subtitle && (indexable.subtitle = subtitle);
 		tags && (indexable.tags = tags);
-		$fuseIndex.push(indexable);
-		// Save for extra data to be used by the search page
-		const searchgroup = (sg2 && (SEARCHGROUPS.indexOf(sg2) + 1)) || sg;
-		$dataIndex.push({
-			t: $typesFound[typeOverride || type],
-			p: $prefixesFound[link],
-			l: prop,
-			s: searchgroup
-		});
+		if(!disambiguation) {
+			$fuseIndex.push(indexable);
+			// Save for extra data to be used by the search page
+			const searchgroup = (sg2 && (SEARCHGROUPS.indexOf(sg2) + 1)) || sg;
+			$dataIndex.push({
+				t: $typesFound[typeOverride || type],
+				p: $prefixesFound[link],
+				l: prop,
+				s: searchgroup
+			});
+		}
 		// Save for other functions to find a page name quickly
 		$allIncludingCopies.push([`${link}/${prop}`, indexable.name]);
 	});

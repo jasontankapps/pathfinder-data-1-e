@@ -14,7 +14,7 @@ const topLink: Hierarchy = ["Domains", "ability/domains"];
 
 const DomainGroup2Page: React.FC<DomainProps> = ({id}) => {
 
-	const { hasJL, title, jsx, sources } = getGuaranteedItem<Data>((id as keyof Data), domains);
+	const { hasJL, title, jsx, sources, notBookmarkable } = getGuaranteedItem<Data>((id as keyof Data), domains);
 
 	return <BasicPage
 		hasJL={hasJL}
@@ -22,6 +22,7 @@ const DomainGroup2Page: React.FC<DomainProps> = ({id}) => {
 		title={title}
 		sources={sources}
 		topLink={topLink}
+		notBookmarkable={notBookmarkable}
 	>{jsx}</BasicPage>;
 };
 

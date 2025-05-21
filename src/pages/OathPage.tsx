@@ -15,7 +15,7 @@ const OathPage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
-	const { hasJL, title, jsx, sources, } = getItem<Data>(id, oaths);
+	const { hasJL, title, jsx, sources, notBookmarkable } = getItem<Data>(id, oaths);
 
 	return <BasicPage
 		hasJL={hasJL}
@@ -23,6 +23,7 @@ const OathPage: React.FC = () => {
 		sources={sources}
 		pageId={"/oath/" + id}
 		topLink={topLink}
+		notBookmarkable={notBookmarkable}
 	>{jsx}</BasicPage>;
 };
 

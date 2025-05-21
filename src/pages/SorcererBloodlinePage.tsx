@@ -15,7 +15,7 @@ const SorcererBloodlinePage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
-	const { hasJL, title, jsx, sources, } = getItem<Data>(id, bloodlines);
+	const { hasJL, title, jsx, sources, notBookmarkable } = getItem<Data>(id, bloodlines);
 
 	return <BasicPage
 		hasJL={hasJL}
@@ -23,6 +23,7 @@ const SorcererBloodlinePage: React.FC = () => {
 		sources={sources}
 		pageId={"/sorcbloodline/" + id}
 		topLink={topLink}
+		notBookmarkable={notBookmarkable}
 	>{jsx}</BasicPage>;
 };
 

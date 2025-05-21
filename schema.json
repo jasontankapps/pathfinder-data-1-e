@@ -29,7 +29,8 @@
 								"subtopics": { "$ref": "#uniqueArray" },
 								"topLink": { "$ref": "#link" },
 								"type": { "type": "string" },
-								"className": { "type": "string" }
+								"className": { "type": "string" },
+								"disambiguation": { "type": "boolean" }
 							},
 							"required": [ "description", "name" ],
 							"unevaluatedProperties": false

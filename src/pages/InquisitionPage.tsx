@@ -15,7 +15,7 @@ const InquisitionPage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
-	const { hasJL, title, jsx, sources, } = getItem<Data>(id, inquisitions);
+	const { hasJL, title, jsx, sources, notBookmarkable } = getItem<Data>(id, inquisitions);
 
 	return <BasicPage
 		hasJL={hasJL}
@@ -23,6 +23,7 @@ const InquisitionPage: React.FC = () => {
 		sources={sources}
 		pageId={"/inquisition/" + id}
 		topLink={topLink}
+		notBookmarkable={notBookmarkable}
 	>{jsx}</BasicPage>;
 };
 

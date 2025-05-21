@@ -15,7 +15,7 @@ const SkillPage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
-	const { hasJL, title, jsx, sources } = getItem<Data>(id, skills);
+	const { hasJL, title, jsx, sources, notBookmarkable } = getItem<Data>(id, skills);
 
 	return <BasicPage
 		hasJL={hasJL}
@@ -23,6 +23,7 @@ const SkillPage: React.FC = () => {
 		sources={sources}
 		pageId={"/skill/" + id}
 		topLink={topLink}
+		notBookmarkable={notBookmarkable}
 	>{jsx}</BasicPage>;
 };
 

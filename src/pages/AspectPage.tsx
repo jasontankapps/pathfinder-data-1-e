@@ -15,7 +15,7 @@ const AspectPage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
-	const { hasJL, title, jsx, sources } = getItem<Data>(id as keyof Data, aspects);
+	const { hasJL, title, jsx, sources, notBookmarkable } = getItem<Data>(id as keyof Data, aspects);
 
 	return <BasicPage
 		hasJL={hasJL}
@@ -23,6 +23,7 @@ const AspectPage: React.FC = () => {
 		sources={sources}
 		pageId={"/aspect/" + id}
 		topLink={topLink}
+		notBookmarkable={notBookmarkable}
 	>{jsx}</BasicPage>;
 };
 

@@ -84,8 +84,7 @@ const PageHeader: React.FC<PropsWithChildren<{
 	className?: string,
 	extraButton?: ReactElement
 }>> = ({ title, children, notBookmarkable, findInPage, findingInPage, className, extraButton }) => {
-	const [location, navigate] = useLocation();
-	const dispatch = useAppDispatch();
+	const [location] = useLocation();
 	return (
 		<IonHeader className={className}>
 			<IonToolbar>

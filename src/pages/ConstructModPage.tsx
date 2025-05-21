@@ -15,7 +15,7 @@ const ConstructModPage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
-	const { hasJL, title, jsx, sources } = getItem<Data>(id as keyof Data, constructmods);
+	const { hasJL, title, jsx, sources, notBookmarkable } = getItem<Data>(id as keyof Data, constructmods);
 
 	return <BasicPage
 		hasJL={hasJL}
@@ -23,6 +23,7 @@ const ConstructModPage: React.FC = () => {
 		sources={sources}
 		pageId={"/constructmod/" + id}
 		topLink={topLink}
+		notBookmarkable={notBookmarkable}
 	>{jsx}</BasicPage>;
 };
 

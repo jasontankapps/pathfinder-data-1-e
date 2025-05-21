@@ -14,7 +14,7 @@ interface MagicProps {
 
 const MagicWeaponGroup1Page: React.FC<MagicProps> = ({id}) => {
 
-	const { hasJL, title, jsx, sources } = getItem<Data>((id as keyof Data), magic_weapons);
+	const { hasJL, title, jsx, sources, notBookmarkable } = getItem<Data>((id as keyof Data), magic_weapons);
 
 	return <BasicPage
 		hasJL={hasJL}
@@ -22,6 +22,7 @@ const MagicWeaponGroup1Page: React.FC<MagicProps> = ({id}) => {
 		title={title}
 		sources={sources}
 		topLink={topLink}
+		notBookmarkable={notBookmarkable}
 	>{jsx}</BasicPage>;
 };
 

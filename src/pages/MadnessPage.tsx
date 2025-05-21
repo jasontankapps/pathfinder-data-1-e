@@ -15,7 +15,7 @@ const MadnessPage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
-	const { hasJL, title, jsx, sources, } = getItem<Data>(id, madnesses);
+	const { hasJL, title, jsx, sources, notBookmarkable } = getItem<Data>(id, madnesses);
 
 	return <BasicPage
 		hasJL={hasJL}
@@ -23,6 +23,7 @@ const MadnessPage: React.FC = () => {
 		sources={sources}
 		pageId={"/madness/" + id}
 		topLink={topLink}
+		notBookmarkable={notBookmarkable}
 	>{jsx}</BasicPage>;
 };
 

@@ -14,7 +14,7 @@ const tL: Hierarchy = ["Medium Spirits", "ability/spirits"];
 const MediumSpiritPage: React.FC = () => {
 	const { id } = useParams<Params>();
 
-	const { hasJL, title, jsx, sources, topLink } = getItem<Data>(id, spirits);
+	const { hasJL, title, jsx, sources, topLink, notBookmarkable } = getItem<Data>(id, spirits);
 
 	return <BasicPage
 		hasJL={hasJL}
@@ -22,6 +22,7 @@ const MediumSpiritPage: React.FC = () => {
 		sources={sources}
 		pageId={"/spirit/" + id}
 		topLink={topLink || tL}
+		notBookmarkable={notBookmarkable}
 	>{jsx}</BasicPage>;
 };
 

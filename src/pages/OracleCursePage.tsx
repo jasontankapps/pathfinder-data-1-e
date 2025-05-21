@@ -15,7 +15,7 @@ const CursePage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
-	const { hasJL, title, jsx, sources, } = getItem<Data>(id, curses);
+	const { hasJL, title, jsx, sources, notBookmarkable } = getItem<Data>(id, curses);
 
 	return <BasicPage
 		hasJL={hasJL}
@@ -23,6 +23,7 @@ const CursePage: React.FC = () => {
 		sources={sources}
 		pageId={"/oraclecurse/" + id}
 		topLink={topLink}
+		notBookmarkable={notBookmarkable}
 	>{jsx}</BasicPage>;
 };
 
