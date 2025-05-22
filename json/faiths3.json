@@ -24,6 +24,16 @@
 			">",
 			">- {trait/Planar Wayfarer}",
 			"",
+			"### Description",
+			"",
+			"Onos promotes travel through the planes, especially the Inner Planes, as a way of discovery and a means of witnessing the raw elements that form reality. Onos is difficult for many mortals to understand, as it is more of an animated force than a being with a distinct personality. When it speaks to its followers, it is always direct and to the point, not bothering with cryptic parables or mysterious symbolism.",
+			"",
+			"Onos is the god of embassies, thus many shrines and temples to this deity were found in Azlanti outposts throughout Golarion, but most places dedicated to the worship of Onos exist elsewhere on the Inner Sphere, such as the Elemental Planes. The largest and most extravagant temples of Onos are in the City of Brass and similar planar outposts, serving as safe havens and meeting places for planar travelers in inhospitable locations.",
+			"",
+			"Priests of Onos are for the most part polite and welcoming, especially to strangers. They bear a calm temperament, and they and are rarely roused to anger. Though Onos doesn't count law among its areas of concern, many of its priests serve as mediators, a role that suits them well, for studying the balance between primal forces is paramount to their faith and understanding of reality.",
+			"",
+			"While Onos was an obscure deity even at the height of the Azlanti Empire, the God of Many Doors still has many worshipers, though few of them reside on Golarion now. Planar travelers whisper prayers to Onos each time they call forth a gate or shift between planes of existence.",
+			"",
 			"[^A]: Requires the {trait/Acolyte of Apocrypha} trait."
 		]
 	},
@@ -102,7 +112,11 @@
 			">",
 			">### Traits",
 			">",
-			">- {trait/Demonic Persuasion}"
+			">- {trait/Demonic Persuasion}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"orgesh": {
@@ -140,15 +154,15 @@
 			">",
 			">- {trait/Unspeakable Bond}",
 			"",
-			"[^A]: Requires the {trait/Acolyte of Apocrypha} trait.",
-			"",
 			"### Description",
 			"",
 			"In the Land of Black Blood deep below central Avistan, strange lakes of frozen fluid bubble and roil. Similar in appearance and consistency to crude oil, this black blood is freezing cold to the touch, yet bolsters and invigorates undead flesh. It was within these un-waters that the race known as the charda were spawned, and first among their kind was the Faceless God, Orgesh.",
 			"",
 			"Orgesh no longer dwells in the Land of Black Blood, having abandoned its children to that realm. Although they still worship it, generations of neglect have had a positive effect on the charda &mdash; they retain their unpredictable ways, yet are no longer driven by cruelty and vengeful hunger. Those who remember but do not venerate Orgesh believe the Faceless God abandoned its children for others found far to the west in the deepest, darkest trenches of the Sightless Sea. Orgesh has no organized cult, and its followers see each other as the greatest threat. Some believe that by consuming the flesh and bones of a fellow devotee of the Faceless God, one can take in that devotee's faith, and that when but one worshiper remains, Orgesh will return to use this final fanatic to unleash a new race upon the vaults of Orv &mdash; a race that may not stop its expansion until all has been consumed.",
 			"",
-			"None alive has looked upon Orgesh, yet statues of it remain strangely impervious to erosion, and thus provide evidence of its visage, or lack thereof. These statues depict Orgesh as a vaguely humanoid figure with a hugely distended belly, clawed and dog-like legs, and an open mouth filled with shark's teeth, but with no other facial features whatsoever."
+			"None alive has looked upon Orgesh, yet statues of it remain strangely impervious to erosion, and thus provide evidence of its visage, or lack thereof. These statues depict Orgesh as a vaguely humanoid figure with a hugely distended belly, clawed and dog-like legs, and an open mouth filled with shark's teeth, but with no other facial features whatsoever.",
+			"",
+			"[^A]: Requires the {trait/Acolyte of Apocrypha} trait."
 		]
 	},
 	"ose": {
@@ -192,7 +206,11 @@
 			"",
 			">### Feats",
 			">",
-			">- {feat/Hellish Shackles}"
+			">- {feat/Hellish Shackles}",
+			"",
+			"### Description",
+			"",
+			"The Duke of Claws is said to be using an ancient protean relic to develop a device with the power to drive mortals insane the moment they gaze at it."
 		]
 	},
 	"osiris": {
@@ -223,7 +241,11 @@
 			">- The dead are sacred beings. I will seek and punish any who attempt to defile or desecrate the dead, their possessions, or their burial sites.",
 			">- Souls cursed to not reach the afterlife must be freed. I must use my will to break the shackles of undeath.",
 			">- Life is equally sacred to death and I will defend it whenever possible. Only the gods and the will of a rightful pharaoh can stay my flail.",
-			">- Children are precious, and I will help new and expecting parents when they are in need."
+			">- Children are precious, and I will help new and expecting parents when they are in need.",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"osolmyr": {
@@ -261,7 +283,11 @@
 			">",
 			">1. {spell/inflict moderate wounds}",
 			">2. {spell/modify memory}",
-			">3. {spell/harm}"
+			">3. {spell/harm}",
+			"",
+			"### Description",
+			"",
+			"Osolmyr, the One True Dream, appears as a bloody, scourged woman, her mouth stitched shut and hands amputated. She walks on a set of tentacles ending in grasping, clawed hands"
 		]
 	},
 	"otikaya": {
@@ -293,7 +319,11 @@
 			">",
 			">1. {spell/eagle eye}",
 			">2. {feat/extended} {spell/arcane sight}",
-			">3. {spell/psychic asylum}"
+			">3. {spell/psychic asylum}",
+			"",
+			"### Description",
+			"",
+			"A mighty hawk-headed rakshasa, Otikaya the Spirit Archer can supposedly split his spirit into a thousand pieces and use them to fire on his enemies simultaneously. Some say his true body is trapped somewhere in the Worldwound and the form he presents is merely a projected image."
 		]
 	},
 	"otolmens": {
@@ -331,7 +361,11 @@
 			"",
 			">### Prestige Classes",
 			">",
-			">- {pclass/Proctor}"
+			">- {pclass/Proctor}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"ovonovo": {
@@ -377,7 +411,11 @@
 			">",
 			">With very few exceptions, a demon lord is never born fully formed. Instead, each must build power and resources during an extended period of transformation. Demons in this transitional stage are known as nascent demon lords.",
 			">",
-			">At any one time, there exist hundreds - if not thousands - of nascent demon lords in the Abyss. All nascent demon lords are chaotic evil and range in power from CR 21 to CR 25. The boons they grant are less complex than those granted by demon lords, manifesting as spell-like abilities usable twice per day each."
+			">At any one time, there exist hundreds - if not thousands - of nascent demon lords in the Abyss. All nascent demon lords are chaotic evil and range in power from CR 21 to CR 25. The boons they grant are less complex than those granted by demon lords, manifesting as spell-like abilities usable twice per day each.",
+			"",
+			"### Description",
+			"",
+			"A vast, pale shark the size of the largest ships, Ovonovo can appear as a human when she wills. She often does so to take command of a ship, only to deliberately drive it aground. She then enjoys the panic of sailors aboard the sinking ship before she slips into the sea to assume her true form and feed on the unfortunate crew."
 		]
 	},
 	"ozranvial": {
@@ -403,11 +441,15 @@
 			">Torment or berate another sentient creature to instill a sense worthlessness. Gain a +4 profane bonus on Intimidate checks.",
 			">",
 			">{SOURCE Book of the Damned/133}  ",
-			">Sahkil tormentors hold dominion over mortal fears and suffering. All are chaotic evil and range in power from CR 21 to CR 25. Their boons are less complex than those of other demigods, manifesting as spell-like abilities usable twice per day each.",
+			">{family/Sahkil} tormentors hold dominion over mortal fears and suffering. All are chaotic evil and range in power from CR 21 to CR 25. Their boons are less complex than those of other demigods, manifesting as spell-like abilities usable twice per day each.",
 			">",
 			">1. {spell/death knell}",
 			">2. {spell/fear}",
-			">3. {spell/harm}"
+			">3. {spell/harm}",
+			"",
+			"### Description",
+			"",
+			"Never content with a simple dose of fright or dread, Ozranvial enjoys the long game. Despair's Smile especially likes befriending her victims and sabotaging the relationship repeatedly, slowly breaking down her opponents' sense of self-worth."
 		]
 	},
 	"pavnuri": {
@@ -445,7 +487,11 @@
 			">",
 			">1. {spell/augury}",
 			">2. {spell/hunger for flesh}",
-			">3. {spell/legend lore}"
+			">3. {spell/legend lore}",
+			"",
+			"### Description",
+			"",
+			"Pavnuri, the Lord of Nothing, takes the form of a massive cacodaemon. Abaddon's foremost information dealer, Pavnuri claims to be able to obtain reports from any world or plane within a single hour."
 		]
 	},
 	"pazuzu": {
@@ -524,7 +570,11 @@
 			">",
 			">### Traits",
 			">",
-			">- {trait/Demonic Persuasion}"
+			">- {trait/Demonic Persuasion}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"pharasma": {
@@ -714,7 +764,11 @@
 			">",
 			">{SOURCE Inner Sea Gods/123}",
 			">",
-			">- Since Pharasma despises undead, Pharasmin clerics with the Death domain replace the animate dead domain spell with {spell/speak with dead}, replace create undead with antilife shell, and replace create greater undead with symbol of death. Clerics with the Souls subdomain replace the animate dead domain spell with speak with dead."
+			">- Since Pharasma despises undead, Pharasmin clerics with the Death domain replace the animate dead domain spell with {spell/speak with dead}, replace create undead with antilife shell, and replace create greater undead with symbol of death. Clerics with the Souls subdomain replace the animate dead domain spell with speak with dead.",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"pharimia": {
@@ -742,7 +796,11 @@
 			"## Other Rules",
 			"",
 			"- Because Pharimia is unaligned, clerics of any alignment can worship her.",
-			"- Pharimia can grant 9th-level spells."
+			"- Pharimia can grant 9th-level spells.",
+			"",
+			"### Description",
+			"",
+			"As the myth-speaking tradition withers and the hero-gods continue to decline, this lady of ports and lighthouses has worked tirelessly to unite her colleagues and shield them from harm. Because Pharimia (female half-elf) is unaligned, clerics of any alignment can worship her."
 		]
 	},
 	"phlegyas": {
@@ -781,7 +839,11 @@
 			">### Prestige Classes",
 			">",
 			">- {pclass/Mortal Usher}",
-			">- {pclass/Proctor}"
+			">- {pclass/Proctor}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"picoperi": {
@@ -828,7 +890,11 @@
 			">",
 			">### Traits",
 			">",
-			">- {trait/Empyreal Focus}"
+			">- {trait/Empyreal Focus}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"pirias": {
@@ -872,7 +938,11 @@
 			"",
 			">### Feats",
 			">",
-			">- {feat/Hellish Shackles}"
+			">- {feat/Hellish Shackles}",
+			"",
+			"### Description",
+			"",
+			"The infernal duke known as the Whispering Vial is obsessed with weaponizing drugs to bring about destruction."
 		]
 	},
 	"prihasta": {
@@ -904,7 +974,11 @@
 			">",
 			">1. {spell/misdirection}",
 			">2. {spell/greater invisibility}",
-			">3. {spell/mislead}"
+			">3. {spell/mislead}",
+			"",
+			"### Description",
+			"",
+			"The General Between Heaven and Hell can change her face's appearance from that of a hell hound to that of a blink dog depending on her locale."
 		]
 	},
 	"psomeira": {
@@ -938,7 +1012,11 @@
 			">",
 			">#### Cleric, Oracle, Warpriest",
 			">",
-			">- {spell/Coordinated Effort} can be prepared as a 3rd-level spell"
+			">- {spell/Coordinated Effort} can be prepared as a 3rd-level spell",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"ptah": {
@@ -959,7 +1037,11 @@
 			"**Subdomains** {domain/Ash}, {domain/Construct}, {domain/Metal}, {domain/Smoke}, {domain/Thought}, {domain/Trade}  ",
 			"**Favored Weapon** {eq-weapon/Quarterstaff}  ",
 			"**Symbol** Staff composed of the ankh, djed, and was  ",
-			"**Sacred Animal(s)** Bull"
+			"**Sacred Animal(s)** Bull",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"pulura": {
@@ -1010,7 +1092,11 @@
 			">",
 			">### Traits",
 			">",
-			">- {trait/Empyreal Focus}"
+			">- {trait/Empyreal Focus}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"qi_zhong": {
@@ -1043,6 +1129,10 @@
 			">### Archetypes",
 			">",
 			">- {arc-wizard/Arcane Physician/ (Wizard)}",
+			"",
+			"### Description",
+			"",
+			"",
 			"",
 			"[^A]: Requires the {trait/Acolyte of Apocrypha} trait."
 		]
@@ -1088,7 +1178,11 @@
 			"",
 			">### Feats",
 			">",
-			">- {feat/Hellish Shackles}"
+			">- {feat/Hellish Shackles}",
+			"",
+			"### Description",
+			"",
+			"In a circle of Hell where many fiends spend millennia in the same darkly glittering vaults, the Vicious Guest roams in his mobile sepulcher, claiming the lands he passes and the riches upon them as his own."
 		]
 	},
 	"ra": {
@@ -1109,7 +1203,11 @@
 			"**Subdomains** {domain/Day}, {domain/Heroism}, {domain/Honor}, {domain/Inevitable}, {domain/Leadership}, {domain/Light}  ",
 			"**Favored Weapon** {eq-weapon/Spear}  ",
 			"**Symbol** Solar disk  ",
-			"**Sacred Animal(s)** Falcon"
+			"**Sacred Animal(s)** Falcon",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"raetorgash": {
@@ -1141,7 +1239,11 @@
 			">",
 			">1. {spell/vampiric touch}",
 			">2. {spell/destruction}",
-			">3. {spell/energy drain}"
+			">3. {spell/energy drain}",
+			"",
+			"### Description",
+			"",
+			"As the history of a world is written in stone, the history of life is written in bone. Raetorgash reads the trajectory of perfection in the slow evolution of countless beings. In mutations, in ages-long changes, in the story of bones, the Skull-Hoarder sees the past and predicts futures. She searches for bloodlines, species, and worlds that may be perfected. What she finds, she keeps, anticipating greatness - but those she finds lacking she ends."
 		]
 	},
 	"ragadahn": {
@@ -1201,7 +1303,11 @@
 			">",
 			">#### Cleric, Inquisitor, Oracle, Warpriest",
 			">",
-			">- {spell/Tail Strike} can be prepared as a 4th-level spell"
+			">- {spell/Tail Strike} can be prepared as a 4th-level spell",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"ragathiel": {
@@ -1274,7 +1380,11 @@
 			">",
 			">- {trait/Avowed Inspiration}",
 			">- {trait/Empyreal Focus}",
-			">- {trait/Redeemed by Ragathiel}"
+			">- {trait/Redeemed by Ragathiel}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"rahu": {
@@ -1306,7 +1416,11 @@
 			">",
 			">1. {spell/create food and water}",
 			">2. {spell/plundered power}",
-			">3. {spell/power word kill}"
+			">3. {spell/power word kill}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"rasvocel": {
@@ -1350,7 +1464,11 @@
 			"",
 			">### Feats",
 			">",
-			">- {feat/Hellish Shackles}"
+			">- {feat/Hellish Shackles}",
+			"",
+			"### Description",
+			"",
+			"The Vulture King descends upon the long-suffering, not waiting for their deaths before picking their bones clean."
 		]
 	},
 	"ravana": {
@@ -1382,7 +1500,11 @@
 			">",
 			">1. {spell/detect thoughts}",
 			">2. {spell/charm monster}",
-			">3. {spell/mass suggestion}"
+			">3. {spell/mass suggestion}",
+			"",
+			"### Description",
+			"",
+			"By far the oldest rakshasa immortal, Ravana has four arms and a tiger's head with three extra faces. Most rakshasas know of the rumor that the First and Last knows the thoughts and intentions of all their kind at any given moment and can influence them as he wishes."
 		]
 	},
 	"reymenda": {
@@ -1414,7 +1536,11 @@
 			">",
 			">### Traits",
 			">",
-			">- {trait/Empyreal Focus}"
+			">- {trait/Empyreal Focus}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"rhan_tegoth": {
@@ -1494,7 +1620,11 @@
 			">",
 			">1. {spell/slipstream}",
 			">2. {spell/ride the waves}",
-			">3. {spell/fluid form}"
+			">3. {spell/fluid form}",
+			"",
+			"### Description",
+			"",
+			"Roqorolos, Prince of the Wracked, appears as a giant partially-rotted elven man drained of all color, wreathed in corroded iron chains, with tentacles rather than arms."
 		]
 	},
 	"rovagug": {
@@ -1675,6 +1805,10 @@
 			">- :hll[spell/Summon Monster III:] {monster/Choker} - CE (extraplanar)",
 			">- :hll[spell/Summon Monster V:] {template/Fiendish} {monster/Grick} - NE, {monster/Gibbering Mouther} - CE (extraplanar)",
 			"",
+			"### Description",
+			"",
+			"",
+			"",
 			"[^A]: Requires the {trait/Acolyte of Apocrypha} trait."
 		]
 	},
@@ -1722,7 +1856,11 @@
 			">",
 			">### Traits",
 			">",
-			">- {trait/Empyreal Focus}"
+			">- {trait/Empyreal Focus}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"ruapceras": {
@@ -1760,7 +1898,11 @@
 			">",
 			">1. {spell/death knell}",
 			">2. {spell/divine power}",
-			">3. {spell/transformation}"
+			">3. {spell/transformation}",
+			"",
+			"### Description",
+			"",
+			"Ruapceras, the Scarlet Promise, wears tarnished plate armor. An executioner's hood covers his horned head, but holes cut in the fabric expose his bestial, bloody maw and black, empty eye sockets."
 		]
 	},
 	"rubicante": {
@@ -1802,7 +1944,11 @@
 			"",
 			">### Feats",
 			">",
-			">- {feat/Hellish Shackles}"
+			">- {feat/Hellish Shackles}",
+			"",
+			"### Description",
+			"",
+			"An infernal fiend made of flame-shrouded rust, Rubicante is said to speak words of seeming sense and peace to his worshipers. He Who Grows Red was widely venerated in the fallen realm of Thassilon on Golarion."
 		]
 	},
 	"rull": {
@@ -1825,6 +1971,10 @@
 			"**Symbol** Thunder cloud and lightning  ",
 			"**Sacred Animal(s)** Terror bird  ",
 			"**Sacred Color(s)** Green, yellow",
+			"",
+			"### Description",
+			"",
+			"",
 			"",
 			"[^A]: Requires the {trait/Acolyte of Apocrypha} trait."
 		]
@@ -1870,7 +2020,11 @@
 			"",
 			">### Feats",
 			">",
-			">- {feat/Hellish Shackles}"
+			">- {feat/Hellish Shackles}",
+			"",
+			"### Description",
+			"",
+			"One of the wittiest and most proficient blasphemers in Hell, Sabletongue delights in bringing souls to his side of their own accord, after he's convinced them to excise all beliefs they held in life. Fiendish lore holds that Ruzel's tongue is so sharp he can turn living creatures into undead with a single well-aimed jest."
 		]
 	},
 	"rytara": {
@@ -1902,7 +2056,11 @@
 			">",
 			">1. {spell/arcane sight}",
 			">2. {spell/phantasmal revenge}",
-			">3. {spell/weird}"
+			">3. {spell/weird}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"sabnach": {
@@ -1946,7 +2104,11 @@
 			"",
 			">### Feats",
 			">",
-			">- {feat/Hellish Shackles}"
+			">- {feat/Hellish Shackles}",
+			"",
+			"### Description",
+			"",
+			"The Forgemaster of the Living creates obscene devices from the very souls of the damned. These undulating constructs range from vehicles to weapons to entire fortresses."
 		]
 	},
 	"saloc": {
@@ -1985,7 +2147,11 @@
 			">### Prestige Classes",
 			">",
 			">- {pclass/Mortal Usher}",
-			">- {pclass/Proctor}"
+			">- {pclass/Proctor}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"sarenrae": {
@@ -2209,6 +2375,10 @@
 			">- :hll[spell/Summon Nature's Ally VII:] {monster/Djinni} - NG",
 			">- :hll[spell/Summon Nature's Ally VIII:] {monster/Efreeti} - LG (redeemed) (does not have the *wish* spell-like ability)",
 			"",
+			"### Description",
+			"",
+			"",
+			"",
 			"[^A]: Requires the {trait/Acolyte of Apocrypha} trait."
 		]
 	},
@@ -2230,6 +2400,14 @@
 			"**Subdomains** {domain/Catastrophe}, {domain/Daemon}, {domain/Entropy}, {domain/Freedom}, {domain/Rage}, {domain/Self-Realization (|Liberation)}[^A]  ",
 			"**Favored Weapon** {eq-weapon/Meteor hammer}  ",
 			"**Symbol** Burning meteor impacting the ground",
+			"",
+			"### Description",
+			"",
+			"Scal teaches his followers that the only way to rid one's body of impurities is to frequently release the darkness that festers inside all people. He doesn't encourage his followers to eliminate or subdue this inner violence, but rather to harness it and unleash it on the forces that offend and threaten the purity of a righteous existence. His most apocalyptic proclamation was that one day, when humanity had finally disappointed him, he would cleanse the surface of the world with fire from the sky to return Golarion to a quiet, peaceful state for a new order of faithful to grow in the tilled earth of a new beginning.",
+			"",
+			"People who came to follow Scal's teachings were typically loners, and the god's churches were little more than scattered cults that congregated around fight clubs. Clergy increased their flocks by preying upon the insecure and unstable. They scoured the empire's cities for those cast out by their families or for prisoners recently released from their sentences. It was easy to recruit these people, who felt drawn to a group that could understand their tendencies to rage against an imperfect world and that promised to make them better.",
+			"",
+			"After Earthfall, Azlanti survivors cursed Scal's name, believing it was his wrath that was brought down from the sky and blaming him for the destruction. It was taboo among survivors in those early days to allow the name Scal to pass their lips. During the dark and broken days after Earthfall, Scal's worship largely faded into obscurity.",
 			"",
 			"[^A]: Requires the {trait/Acolyte of Apocrypha} trait."
 		]
@@ -2273,7 +2451,11 @@
 			"",
 			">### Feats",
 			">",
-			">- {feat/Hellish Shackles}"
+			">- {feat/Hellish Shackles}",
+			"",
+			"### Description",
+			"",
+			"The sibling of the monstrous malebranche {faith/Draghignazzo}, the Pale Promise also inhabits his brother's realm and lures travelers and mortals into the devil-dragon's clutches."
 		]
 	},
 	"sekhmet": {
@@ -2294,7 +2476,11 @@
 			"**Subdomains** {domain/Ash}, {domain/Blood}, {domain/Protean}, {domain/Rage}, {domain/Restoration}, {domain/Revelry}  ",
 			"**Favored Weapon** {eq-weapon/Battleaxe}  ",
 			"**Symbol** Seven arrows  ",
-			"**Sacred Animal(s)** Lion"
+			"**Sacred Animal(s)** Lion",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"selket": {
@@ -2315,7 +2501,11 @@
 			"**Subdomains** {domain/Ancestors}, {domain/Azata (|Chaos)}, {domain/Azata (|Good)}, {domain/Defense}, {domain/Purity}, {domain/Restoration}, {domain/Souls}  ",
 			"**Favored Weapon** {eq-weapon/Scorpion whip}  ",
 			"**Symbol** Red scorpion  ",
-			"**Sacred Animal(s)** Scorpion"
+			"**Sacred Animal(s)** Scorpion",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"seramaydiel": {
@@ -2362,7 +2552,11 @@
 			">",
 			">### Traits",
 			">",
-			">- {trait/Empyreal Focus}"
+			">- {trait/Empyreal Focus}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"set": {
@@ -2383,7 +2577,11 @@
 			"**Subdomains** {domain/Daemon}, {domain/Loss}, {domain/Murder}, {domain/Nightmare}, {domain/Storms}, {domain/Undead}  ",
 			"**Favored Weapon** {eq-weapon/Spear}  ",
 			"**Symbol** Sha head  ",
-			"**Sacred Animal(s)** Sha"
+			"**Sacred Animal(s)** Sha",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"sezelrian": {
@@ -2405,7 +2603,11 @@
 			"**Favored Weapon** {eq-weapon/Heavy mace}  ",
 			"**Symbol** Burning boar skull  ",
 			"**Sacred Animal(s)** Daeodon  ",
-			"**Sacred Color(s)** Green, orange"
+			"**Sacred Color(s)** Green, orange",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"shamira": {
@@ -2452,7 +2654,11 @@
 			">",
 			">With very few exceptions, a demon lord is never born fully formed. Instead, each must build power and resources during an extended period of transformation. Demons in this transitional stage are known as nascent demon lords.",
 			">",
-			">At any one time, there exist hundreds - if not thousands - of nascent demon lords in the Abyss. All nascent demon lords are chaotic evil and range in power from CR 21 to CR 25. The boons they grant are less complex than those granted by demon lords, manifesting as spell-like abilities usable twice per day each."
+			">At any one time, there exist hundreds - if not thousands - of nascent demon lords in the Abyss. All nascent demon lords are chaotic evil and range in power from CR 21 to CR 25. The boons they grant are less complex than those granted by demon lords, manifesting as spell-like abilities usable twice per day each.",
+			"",
+			"### Description",
+			"",
+			"Shamira specializes in the seduction of pure souls, and she often travels to the Material Plane in the guise of a priestess of a good faith to invade the dreams and secret lusts of mortals. She has a strange obsession with {faith/Sarenrae} and her faith in particular; whispers that Shamira may be that goddess's wayward daughter are not tolerated among Sarenrae's devout."
 		]
 	},
 	"shawnari": {
@@ -2478,11 +2684,15 @@
 			">Pray alone for an hour in a hidden place. Gain a +4 profane bonus on Stealth checks.",
 			">",
 			">{SOURCE Book of the Damned/133}  ",
-			">Sahkil tormentors hold dominion over mortal fears and suffering. All are chaotic evil and range in power from CR 21 to CR 25. Their boons are less complex than those of other demigods, manifesting as spell-like abilities usable twice per day each.",
+			">{family/Sahkil} tormentors hold dominion over mortal fears and suffering. All are chaotic evil and range in power from CR 21 to CR 25. Their boons are less complex than those of other demigods, manifesting as spell-like abilities usable twice per day each.",
 			">",
 			">1. {spell/invisibility}",
 			">2. {spell/modify memory}",
-			">3. {spell/repulsion}"
+			">3. {spell/repulsion}",
+			"",
+			"### Description",
+			"",
+			"Most of the other tormentors barely notice invisible Shawnari, the One Out of Place, even as she works against them in subtle ways. She holds dominion over the anxiety of isolation and feelings of being alone."
 		]
 	},
 	"shax": {
@@ -2561,7 +2771,11 @@
 			">",
 			">### Traits",
 			">",
-			">- {trait/Demonic Persuasion}"
+			">- {trait/Demonic Persuasion}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"shei": {
@@ -2610,6 +2824,10 @@
 			">",
 			">- {trait/Empyreal Focus}",
 			"",
+			"### Description",
+			"",
+			"",
+			"",
 			"[^A]: Requires the {trait/Acolyte of Apocrypha} trait."
 		]
 	},
@@ -2632,7 +2850,13 @@
 			"**Domains** {domain/Air}, {domain/Charm}, {domain/Good}, {domain/Luck}, {domain/Protection}  ",
 			"**Subdomains** {domain/Agathion}, {domain/Cloud}, {domain/Defense}, {domain/Fate}, {domain/Love}, {domain/Purity}  ",
 			"**Favored Weapon** {eq-weapon/Dagger}  ",
-			"**Symbol** Songbird with a multicolored tail"
+			"**Symbol** Songbird with a multicolored tail",
+			"",
+			"### Description",
+			"",
+			"As all great art changes throughout time, so has Shelyn. In the early days of Azlant, Shelyn was a minor goddess of art, beauty, and music. After the death of her mother, a goddess of love, Shelyn took on her area of concern. She also shared the space in Azlanti religion with her brother Dou-Bral, and the two were worshiped as one in many cases. They were inseparable for ages, and ancient depictions show the siblings creating brilliant masterpieces and singing duets that could bring even the most surly curmudgeon to tears. However, one day the two had a terrible fight and Dou-Bral departed for spaces unknown. Shelyn was utterly devastated about losing her brother and feared the worst for his fate. From that point forward, up until the end of the empire, depictions of Shelyn showed her wearing a veil and dark clothing to mourn the loss of her sibling. Art in the empire took on a more somber tone in those years. Painters produced works using dull shades, and musicians played slow introspective songs in somber keys.",
+			"",
+			"Though in the Age of Darkness the Song of the Prism would wrest her brother Dou-Bral's glaive from him to serve as her favored weapon, in the age of ancient Azlant she favored using a dagger."
 		]
 	},
 	"shelyn": {
@@ -2818,6 +3042,10 @@
 			">- :hll[spell/Summon Monster III:] {monster/Silvanshee}",
 			">- :hll[spell/Summon Monster V:] {monster/Vulpinal}",
 			"",
+			"### Description",
+			"",
+			"",
+			"",
 			"[^A]: Requires the {trait/Acolyte of Apocrypha} trait.",
 			"[^P]: This spell may be prepared by any priest of Shelyn, not just clerics/paladins."
 		]
@@ -2855,7 +3083,11 @@
 			">",
 			">1. {spell/aid}",
 			">2. {spell/curse terrain}",
-			">3. {spell/greater heroism}"
+			">3. {spell/greater heroism}",
+			"",
+			"### Description",
+			"",
+			"A huge drider-like monster with multiple arms and a deformed face that seems to split down the middle, Shiggarreb has mastered arcane magic and plays the role of messenger for the qlippoth lords. She is often associated with new qlippoth invasions of Material Plane worlds and has long crusaded with the qlippoth to reclaim lost Abyssal realms now held by demon lords. Wherever she leads these invasions, she pulls the influence of the deep Abyss with her, causing the area she inhabits and walks upon to twist and warp."
 		]
 	},
 	"shivaska": {
@@ -2923,7 +3155,11 @@
 			">",
 			">### Traits",
 			">",
-			">- {trait/Demonic Persuasion}"
+			">- {trait/Demonic Persuasion}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"shizuru": {
@@ -3027,6 +3263,10 @@
 			">- {spell/Heroism} can be prepared as a 3rd-level spell",
 			">- {spell/Sunbeam} can be prepared as a 4th-level spell",
 			"",
+			"### Description",
+			"",
+			"",
+			"",
 			"[^A]: Requires the {trait/Acolyte of Apocrypha} trait."
 		]
 	},
@@ -3061,13 +3301,13 @@
 			">",
 			">- {trait/Unspeakable Bond}",
 			"",
-			"[^A]: Requires the {trait/Acolyte of Apocrypha} trait.",
-			"",
 			"### Description",
 			"",
 			"Whereas Nyarlathotep is said to have a thousand forms, the monstrous fertility deity Shub-Niggurath is said to have spawned a thousand young. Her cult is particularly strong in rural areas where vegetation is thick, such as forests, jungles, and swamps, and many of the creatures associated with her dwell in these verdant realms. Of all the cults of the Dark Tapestry, Shub-Niggurath's seems to be the most widespread throughout the Inner Sea region, particularly in areas surrounding Lake Encarthan. Many of the Great Old Ones and even other Outer Gods are believed to have mated with ShubNiggurath, with the resulting spawn being among the most powerful of her children.",
 			"",
-			"Shub-Niggurath appears as a roiling cloud of flesh and mist that constantly forms and absorbs hooves, mouths, eyes, tentacles, and other portions of anatomy. She often gives birth to monstrous young, spawning beasts or depositing eggs with hideous fecundity upon the lands she blights."
+			"Shub-Niggurath appears as a roiling cloud of flesh and mist that constantly forms and absorbs hooves, mouths, eyes, tentacles, and other portions of anatomy. She often gives birth to monstrous young, spawning beasts or depositing eggs with hideous fecundity upon the lands she blights.",
+			"",
+			"[^A]: Requires the {trait/Acolyte of Apocrypha} trait."
 		]
 	},
 	"shyka": {
@@ -3137,7 +3377,11 @@
 			">",
 			">#### Cleric",
 			">",
-			">- {spell/Temporal Regression} can be prepared as a 8th-level spell"
+			">- {spell/Temporal Regression} can be prepared as a 8th-level spell",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"sicva": {
@@ -3157,7 +3401,17 @@
 			"**Domains** {domain/Animal}, {domain/Evil}, {domain/Law}, {domain/Nobility}, {domain/Strength}  ",
 			"**Subdomains** {domain/Devil (|Evil)}, {domain/Devil (|Law)}, {domain/Ferocity}, {domain/Leadership}, {domain/Loyalty}, {domain/Tyranny}  ",
 			"**Favored Weapon** {eq-weapon/Lasso}  ",
-			"**Symbol** Virus"
+			"**Symbol** Virus",
+			"",
+			"### Description",
+			"",
+			"Despite her parents' best efforts to raise her, Sicva ended up a terrible child. Resented her father, {faith/Elion}, for his capricious nature and her mother, {faith/Myr}, for her dedication to charity, she took on the worst aspects of both parents, twisting normally righteous ideals into instruments of hate and oppression. The Mistress of All represents the parts of good ideals that can be corrupted, fester, and grow into oppressive dogma.",
+			"",
+			"Sicva represents the boot of oppression and the domination that eventually breaks even the strongest of wills. She also champions invasive species and charges her followers to spread plants and animals to areas where they can wreak havoc on local flora and fauna.",
+			"",
+			"Sicva finds worshipers in heavy-handed people who delight in controlling others through brute force or mental or social subjugation. Priests of Sicva wear authoritative clothing in various shades of black, gray, and white; these outfits resemble military uniforms more than the cassocks and silk robes worn by clergy of other faiths.",
+			"",
+			"Worship of Sicva was popular among Azlant's political tyrants and rural despots alike, but the vast majority of her worshipers were ordinary people from all walks of life who were swept up in the pageantry of her services and the constant promise that fortune comes to those who go out and take it. These days, very few people are aware of Sicva and her faith, but tyrants and despots would certainly find her worship to be to their liking. In the modern age, only a few small cults of Sicva remain, scattered across Golarion."
 		]
 	},
 	"sifkesh": {
@@ -3228,6 +3482,10 @@
 			">",
 			">- {trait/Demonic Persuasion}",
 			"",
+			"### Description",
+			"",
+			"",
+			"",
 			"[^A]: Requires the {trait/Acolyte of Apocrypha} trait."
 		]
 	},
@@ -3275,7 +3533,11 @@
 			">",
 			">### Traits",
 			">",
-			">- {trait/Empyreal Focus}"
+			">- {trait/Empyreal Focus}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"sithhud": {
@@ -3321,7 +3583,11 @@
 			">",
 			">With very few exceptions, a demon lord is never born fully formed. Instead, each must build power and resources during an extended period of transformation. Demons in this transitional stage are known as nascent demon lords.",
 			">",
-			">At any one time, there exist hundreds - if not thousands - of nascent demon lords in the Abyss. All nascent demon lords are chaotic evil and range in power from CR 21 to CR 25. The boons they grant are less complex than those granted by demon lords, manifesting as spell-like abilities usable twice per day each."
+			">At any one time, there exist hundreds - if not thousands - of nascent demon lords in the Abyss. All nascent demon lords are chaotic evil and range in power from CR 21 to CR 25. The boons they grant are less complex than those granted by demon lords, manifesting as spell-like abilities usable twice per day each.",
+			"",
+			"### Description",
+			"",
+			"Once the master of the frozen realm of Jhuvumirak, Sithhud lost his realm to {faith/Kostchtchie} eons ago. Sithhud survived by retreating into the frozen, labyrinthine valleys of the highest peaks of Jhuvumirak. Sithhud's defeat resulted in that rarest of events - an Abyssal \"demotion\" back to the status of a nascent demon lord. Sithhud appears as an icy skeleton of a horrifically deformed, horned humanoid whose lower body consists of three spidery legs."
 		]
 	},
 	"sivanah": {
@@ -3409,12 +3675,19 @@
 			">- {spell/Hypnotic Pattern} can be prepared as a 2nd-level spell",
 			">- {spell/Veil} can be prepared as a 6th-level spell",
 			"",
+			"### Description",
+			"",
+			"",
+			"",
 			"[^A]: Requires the {trait/Acolyte of Apocrypha} trait."
 		]
 	},
 	"skode": {
 		"name": "Skode",
-		"sources": [ "Inner Sea Gods" ],
+		"sources": [
+			"Inner Sea Gods",
+			"Giants Revisited"
+		],
 		"description": [
 			"::fh[Skode]{sub=\"The Horizon Huntress\"}",
 			"",
@@ -3431,7 +3704,12 @@
 			"**Favored Weapon** {eq-weapon/Longbow}  ",
 			"**Symbol** Sun rising over ocean  ",
 			"**Sacred Animal(s)** Osprey  ",
-			"**Sacred Color(s)** Blue, yellow"
+			"**Sacred Color(s)** Blue, yellow",
+			"",
+			"### Description",
+			"",
+			"{SOURCE Giants Revisited/54}  ",
+			"The storm giant demigods {faith/Aegirran} and Skode are said to be forever wed but forever apart, separated by land and sea. Skode the huntress stalks the land with their three sons, seeking trophies but also the destruction of sinister forces that stalk the night. Aegirran is sailmaster and seadreamer, leading their nine daughters on endless voyages across and below the sea with their shell-encrusted fleet. Only at the turnings of the season may Aegirran and Skode reunite upon the shore as their children mark the changing weather. The three sons are the deadly fangs of the north wind that bite most keenly the forces of evil, and their daughters the alternately gentle and wild east, west, and south winds, bringing sun and rain to nourish the coasts and inland fields alike."
 		]
 	},
 	"skrymir": {
@@ -3453,7 +3731,11 @@
 			"**Favored Weapon** {eq-weapon/Rapier}  ",
 			"**Symbol** Coastline pierced by blades  ",
 			"**Sacred Animal(s)** Octopus  ",
-			"**Sacred Color(s)** Brown, silver"
+			"**Sacred Color(s)** Brown, silver",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"slandrais": {
@@ -3491,7 +3773,11 @@
 			">",
 			">1. {spell/unnatural lust}",
 			">2. {spell/scrying}",
-			">3. {feat/quickened} {spell/invisibility}"
+			">3. {feat/quickened} {spell/invisibility}",
+			"",
+			"### Description",
+			"",
+			"Slandrais, the Watcher in the Walls, resembles a great scarlet wasp of ashes and bloodstained ice with a pair of long, trailing scorpion tails. He enjoys warping souls into the forms of their own obsessions and unrequited loves."
 		]
 	},
 	"smiad": {
@@ -3523,7 +3809,11 @@
 			">",
 			">### Traits",
 			">",
-			">- {trait/Empyreal Focus}"
+			">- {trait/Empyreal Focus}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"sobek": {
@@ -3544,7 +3834,11 @@
 			"**Subdomains** {domain/Blood}, {domain/Ferocity}, {domain/Protean}, {domain/Resolve}, {domain/Rivers}, {domain/Saurian}  ",
 			"**Favored Weapon** {eq-weapon/Falchion}  ",
 			"**Symbol** Green crocodile  ",
-			"**Sacred Animal(s)** Crocodile"
+			"**Sacred Animal(s)** Crocodile",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"socothbenoth": {
@@ -3612,7 +3906,11 @@
 			">",
 			">### Traits",
 			">",
-			">- {trait/Demonic Persuasion}"
+			">- {trait/Demonic Persuasion}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"soralyon": {
@@ -3666,6 +3964,10 @@
 			">",
 			">- {trait/Empyreal Focus}",
 			"",
+			"### Description",
+			"",
+			"",
+			"",
 			"[^A]: Requires the {trait/Acolyte of Apocrypha} trait."
 		]
 	},
@@ -3686,7 +3988,11 @@
 			"**Domains** {domain/Artifice}, {domain/Chaos}, {domain/Destruction}, {domain/Madness}, {domain/Water}  ",
 			"**Subdomains** {domain/Catastrophe}, {domain/Construct}, {domain/Insanity}, {domain/Oceans}, {domain/Protean}, {domain/Toil}  ",
 			"**Favored Weapon** {eq-weapon/Sickle}  ",
-			"**Symbol** An eyeless serpent twisted into an infinity symbol to feed upon its own tail"
+			"**Symbol** An eyeless serpent twisted into an infinity symbol to feed upon its own tail",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"ssilameshnik": {
@@ -3724,7 +4030,11 @@
 			"",
 			">### Prestige Classes",
 			">",
-			">- {pclass/Proctor}"
+			">- {pclass/Proctor}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"stygidvod": {
@@ -3762,7 +4072,11 @@
 			">",
 			">1. {spell/false life}",
 			">2. {spell/lesser age resistance}",
-			">3. {spell/heal}"
+			">3. {spell/heal}",
+			"",
+			"### Description",
+			"",
+			"Stygidvod, the Charnel Child, takes the form of a young human boy with luminous, jaundiced eyes. When viewed peripherally or in reflection, he instead appears as a twisted amalgamation of withered and rotting body parts."
 		]
 	},
 	"sugroz": {
@@ -3794,7 +4108,11 @@
 			">",
 			">1. {spell/sculpt sound}",
 			">2. {spell/ethereal jaunt}",
-			">3. {spell/power word kill}"
+			">3. {spell/power word kill}",
+			"",
+			"### Description",
+			"",
+			"There is no beauty in meat. The Voice in Screams seeks to defy physicality and become a being of breath, song, and thought. She has stripped away nearly all of her physical being, retaining only what she needs to whisper her gospel. Her most devout adherents seek the mysteries of music and transform their bodies into vessels of the sublime."
 		]
 	},
 	"sun_wukong": {
@@ -3820,7 +4138,11 @@
 			"### On Golarion",
 			"",
 			"**Centers of Worship** Forest of Spirits, Goka, Hwanggot, Kwanlai, Minata, Quain  ",
-			"**Nationality** Monkey"
+			"**Nationality** Monkey",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"surpa": {
@@ -3852,7 +4174,11 @@
 			">",
 			">1. {spell/death knell}",
 			">2. {spell/inflict critical wounds}",
-			">3. {spell/harm}"
+			">3. {spell/harm}",
+			"",
+			"### Description",
+			"",
+			"Surpa the Avenger shed mortality when she retraced the footsteps of her dictatorial progenitor; she then slaughtered the descendants of all those responsible for hanging her for heinous war crimes."
 		]
 	},
 	"svarozic": {
@@ -3884,7 +4210,11 @@
 			">",
 			">### Traits",
 			">",
-			">- {trait/Empyreal Focus}"
+			">- {trait/Empyreal Focus}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"szuriel": {
@@ -3970,7 +4300,11 @@
 			">",
 			">- :hll[spell/Summon Monster III:] {monster/Cacodaemon}",
 			">- :hll[spell/Summon Monster IV:] {template/Fiendish} {monster/urdefhan}",
-			">- :hll[spell/Summon Monster V:] {monster/Genthodaemon}, {monster/Nightmare}"
+			">- :hll[spell/Summon Monster V:] {monster/Genthodaemon}, {monster/Nightmare}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"tamede": {
@@ -4008,7 +4342,11 @@
 			">",
 			">1. {spell/pox pustules}",
 			">2. {spell/contagion}",
-			">3. {spell/harm}"
+			">3. {spell/harm}",
+			"",
+			"### Description",
+			"",
+			"Tamede the Fungal-Hearted is served by fungus-wreathed daemons and infested petitioners. Her primary body is a cadaverous woman in rusted armor seated upon a pile of skulls, her exposed flesh bristling with fungal protrusions."
 		]
 	},
 	"tanagaar": {
@@ -4055,7 +4393,11 @@
 			">",
 			">### Traits",
 			">",
-			">- {trait/Empyreal Focus}"
+			">- {trait/Empyreal Focus}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	}
 }

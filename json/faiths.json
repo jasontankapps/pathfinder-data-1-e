@@ -198,11 +198,17 @@
 			">",
 			">{SOURCE Pathfinder #8: Seven Days to the Grave/67}",
 			">",
-			">- :hll[spell/Summon Monster II:] {template/Celestial} {monster/Two-Headed |Eagle} - LN [this creature has two heads. It gains a +2 racial bonus on Perception checks, but does not gain an extra bite attack]",
+			">- :hll[spell/Summon Monster II:] {template/Celestial} {monster/Two-Headed |Eagle} - LN [this creature has two heads; it gains a +2 racial bonus on Perception checks, but does not gain an extra bite attack]",
 			">- :hll[spell/Summon Monster III:] {template/Celestial} {monster/Hippogriff} - LN",
-			">- :hll[spell/Summon Monster IV:] {monster/Two-Headed |Giant Eagle} - LN [this creature has two heads. It gains a +2 racial bonus on Perception checks, but does not gain an extra bite attack]",
+			">- :hll[spell/Summon Monster IV:] {monster/Two-Headed |Giant Eagle} - LN [this creature has two heads; it gains a +2 racial bonus on Perception checks, but does not gain an extra bite attack]",
 			">- :hll[spell/Summon Monster V:] {template/Celestial} {monster/Griffon} - LN",
 			">- :hll[spell/Summon Monster IX:] {monster/Kolyarut} - LN",
+			"",
+			"### Description",
+			"",
+			"Abadar is a patient, calculating, and far-seeing deity who wishes to bring civilization to the frontiers, order to the wilds, and wealth to all who support the rule oflaw. His primary desire is to see the purifying spread of civilization, enlightening the dark corners of the world and revealing the clockwork perfection of the cosmos. His nature is not hasty, for the pace of society's reach is slow but relentless. He strikes a careful balance between good and evil, seeing benefits on both sides and refusing to endorse one or the other. His followers believe he is responsible for elevating the various humanoid races from simple tribes to beings capable of creating huge cities. He puts words of diplomacy in the mouths ofleaders, guides the pens of those who write laws, and steers coins into the hands of those who practice fair commerce.",
+			"",
+			"Abadar is the master and guardian of the First Vault, a magical trove in his realm where a perfect version of every type of creature and object exists - a perfect sword, a perfect deer, a perfect wheel, and even a perfect law.",
 			"",
 			"[^A]: Requires the {trait/Acolyte of Apocrypha} trait.",
 			"[^S]: Only usable if their designated sanctuaries are the temples of their home cities."
@@ -235,7 +241,15 @@
 			">",
 			">### Traits",
 			">",
-			">- {trait/Unspeakable Bond}"
+			">- {trait/Unspeakable Bond}",
+			"",
+			"### Description",
+			"",
+			"In the deepest reaches of every world lie vast caverns that, in most cases, have been long forgotten or simply never discovered by that world's inhabitants in the first place. On Golarion, these deep pathways and hidden realms are known as the Darklands, but similar extensive networks exist on countless other worlds. It is in these forgotten midnight grottoes that Abhoth, the Source of Uncleanness, the Primal Clay of Life's First Lurch, seeps and clots and spews forth its aberrant spawn.",
+			"",
+			"Abhoth has an otherworldly wisdom and a staggering intellect, yet it does not devote its mind to matters that mortals could comprehend. It's not so much trapped as it is cradled in a cavern lair connected to many worlds. The creatures it constantly spawns that manage to escape its ravenous gluttony and eternal hunger stagger upward through the nighted ways, growing stronger and larger the longer they survive. The greatest find paths through ancient portals in those caves to other worlds, where they may spawn entire societies and races of their own. Abhoth's cultists maintain that all life in the universe was spawned by the Unclean God, and that in our flesh and bones lie traces of its divine excretions.",
+			"",
+			"Abhoth appears as a vast lake of seething, surging, protoplasmic ooze in which eyes and mouths and limbs and organs constantly form and are consumed. Those creations that drip from its bulk gain sentience of their own, and through them Abhoth can see and explore and infect any world they touch."
 		]
 	},
 	"abraxas": {
@@ -305,6 +319,14 @@
 			">",
 			">- {trait/Demonic Persuasion}",
 			"",
+			"### Description",
+			"",
+			"Abraxas is a hideous creature with the head of a deformed and fanged bird and two writhing vipers in the place of legs. His torso is humanoid, and he wields a flail and shield, both of which have eerie and deadly powers: the f lail can steal portions of a thinking creature's mind or its prepared spells and give them to Abraxas for his use, while the shield can animate and attack foes as it continues to defend Abraxas. Abraxas knows countless destructive secrets and eldritch magical formulas, particularly those that cause great devastation and pain. His greatest weapon is the dreaded \"Final Incantation,\" a single potent word that can unmake magic.",
+			"",
+			"Although Abraxas's following is quite strong among the {monster/drow} of Golarion, one can expect to find small cults of Abraxas in most large cities on the surface. His cult is particularly strong in Nex's capital city of Quantium, where it maintains a notorious library called Scrivenbough, a fortified stone structure with countless rare books in its holdings, and cultists who tattoo their greatest secrets on hidden parts of their bodies.",
+			"",
+			"Abraxas dwells in the realm of Pleroma, a deceptive world of false paradise maintained by complex illusions and clever construction. A visitor to Pleroma may not even realize she wanders an Abyssal realm, as the nefarious region reshapes itself between blinks and around every corner into places the traveler might view as serene and beautiful. Abraxas himself rules Pleroma from the spiral city of Diovengia. Hypnotic in its beauty, Diovengia consists of thousands of library towers and fortified repositories of hidden knowledge. Populated by serpents, enslaved souls, and plenty of demons, Diovengia's libraries are sometimes visited by brave and curious seekers of knowledge - although one must be wary when bargaining with the custodians therein. The city itself is protected by a cabal of powerful {monster/marilith} demons, who are themselves ruled by one of Abraxas's favorite consorts and minions, the marilith Alistraxia (female marilith rogue 12).",
+			"",
 			"[^A]: Requires the {trait/Acolyte of Apocrypha} trait."
 		]
 	},
@@ -325,7 +347,15 @@
 			"**Domains** {domain/Chaos}, {domain/Darkness}, {domain/Protection}, {domain/Repose}, {domain/War}  ",
 			"**Subdomains** {domain/Ancestors}, {domain/Defense}, {domain/Moon}, {domain/Night}, {domain/Tactics}, {domain/Wards}  ",
 			"**Favored Weapon** {eq-weapon/Spear}  ",
-			"**Symbol** Crossed spears over a full moon"
+			"**Symbol** Crossed spears over a full moon",
+			"",
+			"### Description",
+			"",
+			"Kind and compassionate, Acavna regarded humanity, especially the Azlanti, as something to be protected and cherished. From rural militias to elite city guards, many in Azlant praised Acavna and prayed to her for protection in times of peace as well as in times of war. Acavna looked most favorably upon those who were besieged or outnumbered. An important story in her holy text tells of the siege of the city-state of Bilith-Vel. The invading army was approaching the city under cover of night, and while the besieged awaited attack, a lone guard prayed to Acavna for a revelation that she could use to save her city. As the army neared, the sliver of the crescent moon suddenly shone as bright as a full moon, revealing the attackers and giving the defending forces enough time to reposition and repel the invaders.",
+			"",
+			"As Acavna was the goddess of the moon, some of her most powerful priests were among the first people from Golarion to explore its moon's surface. Later, toward the end of Azlant, a faction within the empire gained access to the moon and constructed a prison on its surface to house the empire's worst criminals. This outraged Acavna's worshipers, but although they fought against the plan as best they could, they ended up losing in the end.",
+			"",
+			"Acavna fell for the studious {faith/Amaznen}, with whom she partnered until the two sacrificed themselves to save Golarion - she moved the moon to take the brunt of the alghollthus' cosmic assault while Amaznen siphoned their dangerous magic from the debris. Acavna's actions led to her death but greatly lessened the blow to the planet, allowing many creatures to survive the assault."
 		]
 	},
 	"achaekek": {
@@ -433,12 +463,23 @@
 			">",
 			">- {spell/Murderous Command} can be prepared as a 1st-level spell",
 			"",
+			"### Description",
+			"",
+			"Many theologians, including those who worship the Mantis God, agree that another god, or perhaps a group of them, created Achaekek - yet who exactly is responsible for his genesis is unclear. Certainly, the churches of Asmodeus, Calistria, Lamashtu, Pharasma, Rovagug, and Zon-Kuthon have compelling arguments that point to their patrons as the source of the Mantis God. Even the faiths of Norgorber and Gorum have legends that He Who Walks in Blood was born of their deities, despite legends of Achaekek originating far before either of them came to be. The most cogent belief may well be the one that the church of Achaekek espouses: that the creator of their god is long dead, murdered by the Mantis God for daring to create something so monstrous as himself.",
+			"",
+			"Although known to his worshipers as He Who Walks in Blood, and commonly attributed by the faithful to be a masculine entity, Achaekek exists beyond conceits of gender, race, or politics. This means his followers come from enormously diverse backgrounds - united only in their common exaltation of the act of murder.",
+			"",
+			"In art, Achaekek is universally depicted as a towering crimson mantis with four killing arms and a savage spike at the end of his long, slender abdomen. His eyes are endless pools of night, and he leaves a trail of blood wherever he walks, said to be from those countless victims the god and his cult have slaughtered over the eons. Achaekek is said to possess the power to rend reality itself in order to instantly travel to any time or plane to carry out missions of murder.",
+			"",
 			"[^A]: Requires the {trait/Acolyte of Apocrypha} trait."
 		]
 	},
 	"aegirran": {
 		"name": "Aegirran",
-		"sources": [ "Inner Sea Gods" ],
+		"sources": [
+			"Inner Sea Gods",
+			"Giants Revisited"
+		],
 		"description": [
 			"::fh[Aegirran]{sub=\"The Sea Dreamer\"}",
 			"",
@@ -455,7 +496,12 @@
 			"**Favored Weapon** {eq-weapon/Trident}  ",
 			"**Symbol** Spouting whale  ",
 			"**Sacred Animal(s)** Whale  ",
-			"**Sacred Color(s)** Blue, gray"
+			"**Sacred Color(s)** Blue, gray",
+			"",
+			"### Description",
+			"",
+			"{SOURCE Giants Revisited/54}  ",
+			"The storm giant demigods Aegirran and {faith/Skode} are said to be forever wed but forever apart, separated by land and sea. Skode the huntress stalks the land with their three sons, seeking trophies but also the destruction of sinister forces that stalk the night. Aegirran is sailmaster and seadreamer, leading their nine daughters on endless voyages across and below the sea with their shell-encrusted fleet. Only at the turnings of the season may Aegirran and Skode reunite upon the shore as their children mark the changing weather. The three sons are the deadly fangs of the north wind that bite most keenly the forces of evil, and their daughters the alternately gentle and wild east, west, and south winds, bringing sun and rain to nourish the coasts and inland fields alike."
 		]
 	},
 	"aerekostes": {
@@ -482,7 +528,11 @@
 			"",
 			"## Other Rules",
 			"",
-			"- Aerekostes can grant 9th-level spells"
+			"- Aerekostes can grant 9th-level spells",
+			"",
+			"### Description",
+			"",
+			"Believed to be either the hero-god Ximakter trapped in his own weapon or a blade that spontaneously manifested sapience and mythic power, this agender {eq-weapon/falcata} and hero-god of contingencies and intelligent items resides in its own temple and occasionally lends itself to aspiring heroes."
 		]
 	},
 	"aesdurath": {
@@ -513,14 +563,18 @@
 			"",
 			">Eat a portion of a being killed by magic. Gain a +4 profane bonus on saving throws against death effects.",
 			">",
-			">{SOURCE Book of the Damned/115}  ",
+			">{SOURCE Book of the Damned/112}  ",
 			">Abaddon's unique daemons take on a host of titles, customized to their methods and vanity. These harbingers enjoy sweeping influence among daemons as favored advisors, and they work to cultivate their own cults on Abaddon and beyond.",
 			">",
 			">Daemon harbingers are neutral evil demigods that range in power from CR 21 to CR 25. The boons they grant are less complex than those granted by the Horsemen themselves, manifesting as spell-like abilities usable twice per day each.",
 			">",
 			">1. {spell/death knell}",
 			">2. {spell/animate dead}",
-			">3. {spell/circle of death}"
+			">3. {spell/circle of death}",
+			"",
+			"### Description",
+			"",
+			"Aesdurath, the Pale Dowager, is a gaunt, almost skeletal figure covered in spontaneously manifesting bite marks."
 		]
 	},
 	"aesocar": {
@@ -546,7 +600,15 @@
 			"",
 			">### Traits",
 			">",
-			">- {trait/Clockwork Surgeon}"
+			">- {trait/Clockwork Surgeon}",
+			"",
+			"### Description",
+			"",
+			"Aesocar is the god of healing and human health. Even though Aesocar has a focused interest in humanity, his clergy provides healing to all in need, and during Azlanti times his clerics made great strides in curing and eradicating some of humankind's most troublesome maladies. They worked most of their wonders with divine magic, but the church was also a scholarly institution that trained lay priests how to diagnose illnesses, create medicines, and perform surgeries. The church of Aesocar was the first to perfect the use of prosthetics, and after working in sync with engineers from {faith/Amaznen/'s} faithful, the two groups created clockwork prosthetics that changed the quality of life for thousands of Azlanti.",
+			"",
+			"One sect of Aesocar's religion focused on the creation of life. Its members' work was considered controversial by some in the empire, but the sect gained more respect toward Azlant's final days. Not only did they create life-forms through magic alone, but they also learned how to create specific limbs and organs to help heal those broken in battle or ravaged by disease.",
+			"",
+			"Temples to Aesocar existed throughout Azlant. The most grandiose temples were in the empire's great cities, but villages often had small chapels with attending priests. Some of these priests were part of an outreach program wherein, completing seminary, they would be assigned to some settlement in the empire to serve the local population. Aesocar got along with Amaznen, but while he appreciated his colleague's scientific acumen, Aesocar greatly wished for him to act with a greater sense of morality. With an interest in health, Aesocar is friendly with Jaidi for providing a bounty to all within the empire. Though not typically prone to anger or hatred, Aesocar despises Sicva and her vile penchant for spreading disease."
 		]
 	},
 	"ah_pook": {
@@ -567,7 +629,11 @@
 			"**Subdomains** {domain/Catastrophe}, {domain/Fear}, {domain/Isolation}, {domain/Loss}, {domain/Moon}, {domain/Sahkil}  ",
 			"**Favored Weapon** {eq-weapon/Terbutje}  ",
 			"**Symbol** a skull with a crescent eclipse  ",
-			"**Sacred Animal(s)** maggot"
+			"**Sacred Animal(s)** maggot",
+			"",
+			"### Description",
+			"",
+			"Ah Pook is a vile god who preys on the fears of mortals, twisting their doubt and insecurity until they ultimately self-destruct. This self-destruction can be physical, psychological, or social, with many victims ruining the lives of others around them alongside their own. This process usually results in victims losing their loved ones, leaving them even more isolated and miserable, a result Ah Pook revels in. Ah Pook has many followers throughout Arcadia, each committed to corrupting the thoughts of others on their god's behalf. Many {family/sahkil/s} also serve the Destroyer, as it allows them greater opportunities to further the fears of mortals. Arcadians are well aware of Ah Pook's machinations, and even less destructive fears are seen as the god's work. Common anxieties and worries are usually countered by small prayers to ward off Ah Pook, in hopes of relieving these thoughts. The commonality of such fears has earned Ah Pook several names throughout Arcadia, with those living near Xopatl and Innazpa referring to him as Ohachtsik."
 		]
 	},
 	"ahriman": {
@@ -621,7 +687,20 @@
 			">",
 			">1. **Break the Weak (Sp)** {spell/inflict light wounds} 3/day, {spell/death knell} 2/day, or {spell/dispel magic} 1/day",
 			">2. **Serpentine Lash (Su)** Any whip you wield becomes an extension of your embodiment of evil, lashing out against all those who fail to prostrate themselves before you and oblivion. You gain {feat/Weapon Specialization} (whip) and {feat/Whip Mastery} as bonus feats, even if you do not meet the prerequisites. In addition, your whip takes on the illusory appearance of a serpent, and you gain a +2 profane bonus to combat maneuver checks to trip opponents. If you wield a whip with at least a +1 enhancement bonus, you can grant it the dancing weapon special ability for 6 rounds per day as a swift action. These rounds need not be consecutive.",
-			">3. **Crush Opposition (Su)** Three times per day, you can target one corporeal enemy within 60 feet and call out a castigating challenge that causes the creature to painfully collapse in on itself in a crackle of black energy. The target takes 10 points of damage per Hit Dice you have. Creatures targeted by this ability can attempt a Fortitude save (DC = 10 + half your Hit Dice + your Charisma modifier) to reduce the damage by half. A creature slain by this effect is completely destroyed, and all items it was carrying or wearing at the time fall to the ground and become cursed for a number of hours equal to your Hit Dice. The curse on these items causes nonevil creatures who carry one of the items to take a -1 penalty on saving throws against fear and insanity effects; the penalties for carrying multiple items stack."
+			">3. **Crush Opposition (Su)** Three times per day, you can target one corporeal enemy within 60 feet and call out a castigating challenge that causes the creature to painfully collapse in on itself in a crackle of black energy. The target takes 10 points of damage per Hit Dice you have. Creatures targeted by this ability can attempt a Fortitude save (DC = 10 + half your Hit Dice + your Charisma modifier) to reduce the damage by half. A creature slain by this effect is completely destroyed, and all items it was carrying or wearing at the time fall to the ground and become cursed for a number of hours equal to your Hit Dice. The curse on these items causes nonevil creatures who carry one of the items to take a -1 penalty on saving throws against fear and insanity effects; the penalties for carrying multiple items stack.",
+			"",
+			"### Description",
+			"",
+			">{SOURCE Book of the Damned/12}  ",
+			"Scholars say that when genies were brought to life, a shadow of destruction followed. This shadow cast itself across the world, countering light and creation where it fell. Over countless millennia, this spirit came to be known as Ahriman.",
+			"",
+			"Ahriman is a ruinous fiend who seeks to corrupt mortals' minds and works by spreading \"wrong thought.\" He is a being of destruction, but that destruction does not need to be catastrophe or physical devastation alone. He delights in wrecking mortal governments, sowing schisms in religions, and breaking the bonds of family or clan by encouraging poor choices and self-destructive behavior.",
+			"",
+			"Ahriman rules the {family/div/s} from his throne in the realm of Ahermanabad, atop Mount Kaf on the edge of Abaddon. At least one permanent extraplanar portal connects this realm to the House of Oblivion in central Thuvia on Golarion; other portals may well link to additional monuments to Ahriman on other worlds. While Ahermanabad is a small realm, the {family/daemon/s} of Abaddon leave the divs and their lord to their own devices. However, clashes still sometimes occur between daemons and divs, often resulting in the divs' retreat so as not to anger any of the Four Horsemen.",
+			"",
+			"Ahriman appears as a bestial fiend, his hands clawed like those of a tiger and feet taloned like those of a vulture. Oily snakes worm through his scarred black flesh, riddling their host and all near him with deadly venoms. Horns etched with ancient curses crown Ahriman's tigerlike face, and beyond a great maw filled with soul-rending fangs lies a gate to a realm of darkness rivaled only by oblivion.",
+			"",
+			"Ahriman's ultimate goal is to spread such oblivion. To further his immortal plots, he has spawned innumerable blasphemies, but the corrupted genie spirits known as divs are his most numerous slaves. Ahriman and his minions delight in influencing mortals to abandon wisdom in favor of destructive decisions. As ageless and patient as he is vicious, this force of ancient evil seeks to ease the world toward dissolution, one failure at a time."
 		]
 	},
 	"ajids": {
@@ -659,7 +738,11 @@
 			">",
 			">1. {spell/blood armor}",
 			">2. {spell/hunger for flesh}",
-			">3. {spell/decapitate}"
+			">3. {spell/decapitate}",
+			"",
+			"### Description",
+			"",
+			"Ajids, or Father Flense, resembles a fleshless giant impaled by dozens of razor-edged blades."
 		]
 	},
 	"aksha": {
@@ -691,7 +774,11 @@
 			">",
 			">1. {spell/scorching ray}",
 			">2. {spell/fire shield}",
-			">3. {spell/sirocco}"
+			">3. {spell/sirocco}",
+			"",
+			"### Description",
+			"",
+			"Tales tell that the tiger-headed rakshasa immortal Aksha of the Second Breath was originally a reincarnation of a sorceress who traded her soul to {faith/Mephistopheles} for the ability to breathe hellfire upon her enemies at will. Aksha has two mouths - one through which she can speak in sibilant, silken tones, and another through which she can breathe terrible cones of caustic fire."
 		]
 	},
 	"akuma": {
@@ -723,7 +810,11 @@
 			">",
 			">1. {spell/bear's endurance}",
 			">2. {spell/divine power}",
-			">3. {spell/transformation}"
+			">3. {spell/transformation}",
+			"",
+			"### Description",
+			"",
+			"The so-called Horned King dwells within the deep forests of northwestern Lingshen in a hidden pagoda. He appears as a wiry, three-eyed {monster/ogre mage} with seven horns."
 		]
 	},
 	"alazhra": {
@@ -745,7 +836,11 @@
 			"**Favored Weapon** {eq-weapon/Dagger}  ",
 			"**Symbol** Jar containing a ghost  ",
 			"**Sacred Animal(s)** Black stallion  ",
-			"**Sacred Color(s)** Black, blue"
+			"**Sacred Color(s)** Black, blue",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"aldinach": {
@@ -819,6 +914,14 @@
 			">",
 			">- {trait/Demonic Persuasion}",
 			"",
+			"### Description",
+			"",
+			"Aldinach appears as a Colossal golden scorpion. Her claws are made of living crimson crystal and have razor-sharp edges, and her face is hideously human, if unwholesomely colored. On her back swarm countless smaller scorpions, members of her endless brood that she can send out to do her bidding with but a thought. Her sting is particularly dangerous, for it injects six different horrific supernatural toxins with each attack and has been said to be able to envenom even those who normally count themselves as being immune to the effects of poison.",
+			"",
+			"Aldinach's cults are strongest in deserts, particularly in Osirion's wastelands and the remote reaches of Rahadoum, where her cultists work to seduce and corrupt that realm's godless citizens. Certain tribes of particularly violent {monster/girtablilu/s} venerate her in hive-cities in eastern Osirion, where their strange traditions mix worship of Aldinach and {faith/Rovagug} into an unusual pantheon of arachnoid horror. In these cults, the leaders of her faithful are often {template/half-fiend} girtablilu clerics. Those who fall prey to one of these desert-dwelling cults can look forward to an agonizing and lingering death, for a favored method of living sacrifice involves a painful combination of death by long exposure to the elements and periodic torments where the lingering demise is lengthened by tantalizing sips of life-giving water. By extending a victim's periods of thirst to agonizing length, the suffering soul is made to taste all the sweeter in death. Her worship is relatively unknown outside of Garund's desert regions; when she is worshiped elsewhere, it is typically by a lone cultist or fanatic.",
+			"",
+			"Just as the demon lord herself carries countless offspring atop her back, Aldinach is in turn one of {faith/Lamashtu/'s} countless daughters, although since Lamashtu's ascension to divinity, the two have not associated overmuch. The same cannot be said of her and her sister {faith/Areshkagal}, with whom Aldinach is locked in an eternal war. Ever since Aldinach stole the Abyssal realm known as the Sea of Whispering Sands from her sister, forcing Areshkagal into exile in the desolate Blood Clefts, Aldinach has been forced to defend her desert realm from her sister's constant, increasingly desperate attempts to reclaim her lost territory.",
+			"",
 			"[^A]: Requires the {trait/Acolyte of Apocrypha} trait."
 		]
 	},
@@ -861,7 +964,11 @@
 			"",
 			">### Feats",
 			">",
-			">- {feat/Hellish Shackles}"
+			">- {feat/Hellish Shackles}",
+			"",
+			"### Description",
+			"",
+			"The infamous Jester Prince of the Cage tempts mortals using masterful trickery and disguises. It's said that Alichino has a dozen different voices and a hundred different faces."
 		]
 	},
 	"alocer": {
@@ -905,7 +1012,11 @@
 			"",
 			">### Feats",
 			">",
-			">- {feat/Hellish Shackles}"
+			">- {feat/Hellish Shackles}",
+			"",
+			"### Description",
+			"",
+			"Alocer spent centuries in the forges of Malebolge, where he eventually became Hell's most obedient hunter."
 		]
 	},
 	"alseta": {
@@ -1003,6 +1114,10 @@
 			">- {spell/Arcane Lock} can be prepared as a 2nd-level spell",
 			">- {spell/Knock} can be prepared as a 2nd-level spell",
 			"",
+			"### Description",
+			"",
+			"",
+			"",
 			"[^A]: Requires the {trait/Acolyte of Apocrypha} trait."
 		]
 	},
@@ -1023,7 +1138,13 @@
 			"**Domains** {domain/Artifice}, {domain/Knowledge}, {domain/Law}, {domain/Magic}, {domain/Protection}  ",
 			"**Subdomains** {domain/Arcane}, {domain/Construct}, {domain/Defense}, {domain/Divine}, {domain/Inevitable}, {domain/Thought}  ",
 			"**Favored Weapon** {eq-weapon/light hammer}  ",
-			"**Symbol** Gears that resemble an eye"
+			"**Symbol** Gears that resemble an eye",
+			"",
+			"### Description",
+			"",
+			"Amaznen was the god of invention, magic, and secret knowledge. The latter aspect wasn't emphasized in public, so most knew of Amaznen's faith through the work that his priests did in developing wondrous devices that blended magic and technology. He counted several of his peers as friends and allies, the greatest of which was his lover, {faith/Acavna}. Many were puzzled at their relationship, feeling that the two were mismatched in their outlook and approach to life, but seemingly the secret of compatibility was just one piece of the hidden knowledge Amaznen had at his command. Amaznen also greatly appreciated {faith/Aesocar} for his inventiveness and the wonders of medicine and technology he promoted. Amaznen saw {faith/Jaidi} as a friend, and the two worked together to determine the best methods to guide humanity to improve their lot. Amaznen disliked {faith/Lissala}, however, for Amaznen taught that some knowledge should be kept secret, while Lissala championed that all knowledge should be freely shared.",
+			"",
+			"Knowing that his lover was utterly determined to make a stand to defend her worshipers and Golarion as a whole from annihilation during Earthfall, Amaznen grudgingly contributed to the effort after it was clear nothing he could say would convince Acavna to stand down from her sacrifice. He siphoned the powerful alghollthu glyph magic from the interstellar debris, stepping over the edge of reality in the process and taking it all into himself before vanishing from existence."
 		]
 	},
 	"ananshea": {
@@ -1049,11 +1170,15 @@
 			">Rend your flesh, dealing 1d4 points of damage with one of your natural weapons or a knife. Gain a +3 profane bonus to AC against attacks from animals or vermin.",
 			">",
 			">{SOURCE Book of the Damned/133}  ",
-			">Sahkil tormentors hold dominion over mortal fears and suffering. All are chaotic evil and range in power from CR 21 to CR 25. Their boons are less complex than those of other demigods, manifesting as spell-like abilities usable twice per day each.",
+			">{family/Sahkil} tormentors hold dominion over mortal fears and suffering. All are chaotic evil and range in power from CR 21 to CR 25. Their boons are less complex than those of other demigods, manifesting as spell-like abilities usable twice per day each.",
 			">",
 			">1. {spell/bloodbath}",
 			">2. {spell/fear}",
-			">3. {spell/blade barrier}"
+			">3. {spell/blade barrier}",
+			"",
+			"### Description",
+			"",
+			"Ananshea is rash when initially provoked, but calculated when it comes to planning the demise of a foe. Ananshea rules a walled portion of Xibalba filled with obscene traps and violent creatures utterly dedicated to The Skin That Walks on Teeth."
 		]
 	},
 	"andak": {
@@ -1085,7 +1210,11 @@
 			">",
 			">1. {spell/keen edge}",
 			">2. {feat/quickened} {spell/inflict serious wounds}",
-			">3. {spell/massacre}"
+			">3. {spell/massacre}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"andirifkhu": {
@@ -1154,7 +1283,13 @@
 			">",
 			">### Traits",
 			">",
-			">- {trait/Demonic Persuasion}"
+			">- {trait/Demonic Persuasion}",
+			"",
+			"### Description",
+			"",
+			"Andirifkhu is the favored patron of debased illusionists, cruel torturers, and sadistic inventors. Her cultists are fond of building trap-ridden dungeons and sending sacrifices inside to die on spikes, swinging blades, and spear tips within. In most cases, solving one of these trap-filled gauntlets only results in the victim being hobbled or otherwise crippled before being returned to the start of the maze and forced through again, so that death is often the only way to escape the ordeal. Typically, these dungeons include well-hidden networks of secret passages that allow the cultist or visiting allies to navigate the death trap-filled dungeon in relative safety so they may observe the effects of the traps and watch the progress of those placed within the murderous labyrinth.",
+			"",
+			"Andirifkhu herself appears as a towering, beautiful woman with green, scaled skin and long, crimson hair. She has ophidian eyes and six arms that all wield different blades, although her favorite weapons are kukris. She strikes in battle with astonishing speed, and is capable of making multiple attacks with all her weapons in a whirlwind of slashing fury that leaves all around her bleeding and staggered from the onslaught. Even her hair can flense flesh when she makes such whirling assaults. It is said that she can pluck strands of her hair to swiftly craft complex traps, often utilizing bladed weapons in the surrounding area (including those wielded by friend and foe alike). Some believe that in her temples, she can whisper and influence through the traps that fill those places of worship, and that those who fall prey to such fates have their souls cursed to wander her realm for an eternity."
 		]
 	},
 	"andoletta": {
@@ -1212,7 +1347,11 @@
 			">",
 			">- {trait/Andoletta's Consolation}",
 			">- {trait/Empyreal Focus}",
-			">- {trait/Enemy of Delusion}"
+			">- {trait/Enemy of Delusion}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"angazhan": {
@@ -1294,7 +1433,13 @@
 			">",
 			">### Traits",
 			">",
-			">- {trait/Demonic Persuasion}"
+			">- {trait/Demonic Persuasion}",
+			"",
+			"### Description",
+			"",
+			"Angazhan appears as a towering, blood-red ape with six long fingers on each hand, sharp fangs, twisted horns, and relatively small, bloodshot eyes. His worship is strongest in the jungles of the Mwangi Expanse, where his chattering brood, the simian {monster/charau-ka}, hold court in jungle-choked ruins and feast on the flesh of human chattel. Angazhan is also served by {monster/nalfeshnee} demons, and although most nalfeshnees are too proud and self-absorbed to admit that Angazhan is their lord, he is nonetheless served in his jungle realm of Ahvoth-Kor by hundreds, if not thousands, of their kind.",
+			"",
+			"The Ravenous King's domain of Ahvoth-Kor is an expansive Abyssal realm, a seemingly endless jungle that stretches along opposing faces of a vast Abyssal rift. Gravity in Ahvoth-Kor pulls toward the walls of this rift, so that someone standing in the jungle realm in an area where the canopy doesn't block the view above can \"look up\" to the opposite rift's jungle, although thick mists and clouds usually obscure the view. In places, immense trees and thick vines bridge the gulf between the twin jungles, allowing clambering denizens of one jungle to climb across to the opposing one. Both jungles are rife with dreadful simian life, {template/fiendish} dinosaurs, and megalithic nalfeshnee-ruled cities populated by demons and other fiends. The point where the jungles meet lies tens of thousands of miles below at the bottom of the rift, and it is here that Angazhan's palace squats: an immense ziggurat of black stone straddling deeper rifts that lead into uncharted horrors of the Abyss, which often belch forth qlippoth monstrosities or other alien horrors."
 		]
 	},
 	"angradd": {
@@ -1369,7 +1514,11 @@
 			">- {trait/Angradd's Flame}",
 			">- {trait/Angradd's Valor}",
 			">- {trait/Battlefield Caster}",
-			">- {trait/Well-Prepared}"
+			">- {trait/Well-Prepared}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"anogetz": {
@@ -1407,7 +1556,11 @@
 			">",
 			">1. {spell/animal messenger}",
 			">2. {spell/scrying}",
-			">3. {spell/beast shape IV}"
+			">3. {spell/beast shape IV}",
+			"",
+			"### Description",
+			"",
+			"Anogetz, the Fated Fangs, rules over a scarlet jungle atop an isolated plateau in {faith/Szuriel/'s} domain."
 		]
 	},
 	"anubis": {
@@ -1428,7 +1581,11 @@
 			"**Subdomains** {domain/Ancestors}, {domain/Defense}, {domain/Inevitable}, {domain/Metal}, {domain/Purity}, {domain/Souls}  ",
 			"**Favored Weapon** {eq-weapon/light_<Flail}  ",
 			"**Symbol** Black jackal head  ",
-			"**Sacred Animal(s)** Jackal"
+			"**Sacred Animal(s)** Jackal",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"apep": {
@@ -1455,7 +1612,11 @@
 			"",
 			">### Traits",
 			">",
-			">- {trait/Snake Handler}"
+			">- {trait/Snake Handler}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"apollyon": {
@@ -1527,7 +1688,13 @@
 			">",
 			">### Traits",
 			">",
-			">- {trait/Covenant of Abaddon}"
+			">- {trait/Covenant of Abaddon}",
+			"",
+			"### Description",
+			"",
+			"Apollyon, the Prince of Plagues, takes the form of a pockmarked man with the head of a diseased, snarling ram. The Horseman of Pestilence wears a cloak tailored from the tanned, stitched-together skins of a dozen angels, each flayed alive after failed attempts to slay the Horseman and recover the souls imprisoned within his domain. Each angelic soul was half devoured by Apollyon, and he used the other portions to empower a series of bows - the Ushers of the Black Rain - granted to his greatest servitors as badges of their position, with the original Usher of the Black Rain kept by the Horseman himself.",
+			"",
+			"The {monster/apocalypse horse} Septisaeus serves as Apollyon's mount, bearing a golden crown marked with its master's symbol and a neck punctured by a dozen barbed arrows. With a gleaming white coat, Septisaeus seems healthy at first glance but upon closer inspection bears the signs of horrific infection: sclera black with ocular bleeding, cracked gums and teeth, a frothing mouth, and purpuric blemishes marring its extremities."
 		]
 	},
 	"apsu": {
@@ -1631,7 +1798,11 @@
 			">",
 			">{SOURCE Inner Sea Faiths/19}",
 			">",
-			">- Apsu has no oracles, for he believes inflicting a curse on a living creature is a terrible crime against that being, even in exchange for divine power."
+			">- Apsu has no oracles, for he believes inflicting a curse on a living creature is a terrible crime against that being, even in exchange for divine power.",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"arazni": {
@@ -1723,7 +1894,11 @@
 			">",
 			">- :hll[spell/Summon Monster III:] Augur Kyton",
 			">- :hll[spell/Summon Monster VI:] {template/Fiendish} {monster/Giant Scarab}",
-			">- :hll[spell/Summon Monster VIII:] Interlocutor Kyton"
+			">- :hll[spell/Summon Monster VIII:] Interlocutor Kyton",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"ardad_lili": {
@@ -1787,7 +1962,17 @@
 			">",
 			">#### Cleric, Inquisitor, Oracle, Warpriest",
 			">",
-			">- {spell/Tail Strike} can be prepared as a 4th-level spell"
+			">- {spell/Tail Strike} can be prepared as a 4th-level spell",
+			"",
+			"### Description",
+			"",
+			"A being who engenders deliberately coaxed fear and misunderstanding among mortals and mixed admiration and loathing among celestials, Ardad Lili is a plotter, an unparalleled manipulator, and a dark queen of unique ambition. Most mortals think of her as a seducer: a figure of feminine predation who can corrupt victims by her very touch. However, the specter of a lustful serpent-queen is a carefully cultivated, millennia-old campaign of Ardad Lili's aimed at bringing down her former celestial brethren. They never believed that she could become as powerful as she has, and now she shoves their noses in her glorious infamy.",
+			"",
+			"In the time when mortals were young, Ardad Lili was an angel from Nirvana tasked with visiting the Material Plane and inspiring nascent poets, sculptors, and songwriters on behalf of {faith/Shelyn}, a then-minor deity. As time wore on, Ardad Lili became distinctly aware that many of her earthly assignments harbored feelings of lust toward her angelic form - particularly foolish youths, who clearly thought themselves worthy of her despite the fact that she was immortal and they were not. Ardad Lili grew to hate these smug mortals and soon burned with disgust for all mortals with their pathetic and shallow egos.",
+			"",
+			"Over time, the jaded angel formulated a plan. She continued her work as a muse, but she began coaxing mortals into swearing fealty and their undying souls to her in exchange for what she called a \"stainless caress.\" Usually, the pledge of allegiance came with Ardad Lili giving absolutely nothing in return, as she made long-term promises she never intended to keep, while prayers to her rose into Nirvana in droves. Those mortals who proved too virtuous to make the pledge or who bored her, she simply killed. As Ardad Lili grew in power, she shared her manipulative ways with other disgruntled angels of inspiration, and she plotted to overthrow Nirvana's lords and carve out her own place of absolute rulership in the realm.",
+			"",
+			"Of the four Queens of the Night, Ardad Lili is the least monstrous and most human in appearance. She appears as a beautiful, dark-skinned woman, and she favors the colors green and white. Her only diabolic feature is her wings, which feature long, slithering snake tails instead of feathers. Despite this unsettling cosmetic feature, her wings allow her swift and graceful flight. She prefers to leave the grisly details of battle to her minions (of which she has countless), but if she's forced to fight, her slender ivory-bladed dagger is capable of inflicting unusually painful and deadly wounds. Of course, Ardad Lili prefers to turn would-be enemies into loyal allies via magic or her silver tongue."
 		]
 	},
 	"areshkagal": {
@@ -1861,7 +2046,13 @@
 			">",
 			">### Traits",
 			">",
-			">- {trait/Demonic Persuasion}"
+			">- {trait/Demonic Persuasion}",
+			"",
+			"### Description",
+			"",
+			"Areshkagal appears as a faceless female sphinx with six legs, blue fur, and pale flesh the color of old ashes. Her wings are draconic and her tail is a hissing viper, from whose mouth she whispers her unfair riddles to those she captures. Rumors hold that her actual face is too hideous for even the Abyss to bear, but that for brief moments she can reveal its true appearance to drive viewers insane, strike them dead, or worse.",
+			"",
+			"Similarities between Areshkagal's form of a faceless sphinx and the appearance of one of the avatars of the Outer God {faith/Nyarlathotep>_faceless_sphinx} have long intrigued scholars, and many have tried to discover whether an actual link exists between the demon lord and the Outer God. To date, no such connection has been discovered, yet scholars have not been dissuaded. The fact that both entities revel in trickery and deception cannot be ignored, and it may well be that Areshkagal, in her former mortal life, knew of or even worshiped Nyarlathotep and chose her form as a demon lord in a deliberate attempt to sow confusion or as an unusual display (for a demon lord) of admiration and reverence to the Outer God. Certainly, the cults of Areshkagal and Nyarlathotep seem to get along well when they meet, and trades of secret magical rites or strange rituals between the two are not unheard of. Their cults have always taken care to avoid claiming territory known to belong to the other - though whether this is out of mutual respect or unwillingness to tolerate each other's presence and influence is unclear."
 		]
 	},
 	"arlachramas": {
@@ -1899,7 +2090,11 @@
 			">",
 			">1. {spell/death knell}",
 			">2. {spell/crushing despair}",
-			">3. {spell/harm}"
+			">3. {spell/harm}",
+			"",
+			"### Description",
+			"",
+			"Arlachramas, the Silent Breath, rules a domain surrounded by the River Styx. She takes the form of a humanoid composed of slowly condensing and evaporating blood and acid."
 		]
 	},
 	"aroden": {
@@ -1935,7 +2130,11 @@
 			">### Traits",
 			">",
 			">- {trait/Devotee of a Dead God}",
-			">- {trait/Faithful Arodenite}"
+			">- {trait/Faithful Arodenite}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"aroggus": {
@@ -1967,7 +2166,11 @@
 			">",
 			">1. {spell/nondetection}",
 			">2. {spell/forcecage}",
-			">3. {spell/imprisonment}"
+			">3. {spell/imprisonment}",
+			"",
+			"### Description",
+			"",
+			"Following {faith/Geryon/'s} betrayal, Aroggus was one of the elder kytons who led his people from Hell into the darkness of the Plane of Shadow. There he raised the Abbey of Nevers, a half-physical kaleidoscope of impossibilities where the kytons could hide forever if necessary. In the ages since, the Abbey Maker has become one with his refuge, indulging his victims, his followers, and himself in inescapable delusions of retribution, ever perfecting the one true revenge."
 		]
 	},
 	"arqueros": {
@@ -2024,7 +2227,11 @@
 			">",
 			">- {trait/Empyreal Focus}",
 			">- {trait/Eye of Arqueros}",
-			">- {trait/Living Bulwark}"
+			">- {trait/Living Bulwark}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"arshea": {
@@ -2073,6 +2280,10 @@
 			">### Traits",
 			">",
 			">- {trait/Empyreal Focus}",
+			"",
+			"### Description",
+			"",
+			"",
 			"",
 			"[^A]: Requires the {trait/Acolyte of Apocrypha} trait."
 		]
@@ -2182,7 +2393,11 @@
 			">{SOURCE Pathfinder #134: It Came from Hollow Mountain/73}",
 			">",
 			">- :hll[spell/Summon Monster IV:] {template/Celestial} {monster/Pegasus}",
-			">- :hll[spell/Summon Monster V:] {monster/Lunar Naga}"
+			">- :hll[spell/Summon Monster V:] {monster/Lunar Naga}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"ashukharma": {
@@ -2208,7 +2423,11 @@
 			"### On Golarion",
 			"",
 			"**Centers of Worship** Radripal  ",
-			"**Nationality** Vudra"
+			"**Nationality** Vudra",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"asmodeus": {
@@ -2411,6 +2630,14 @@
 			">- :hll[spell/Summon Monster IV:] {monster/Cerberi} - LE",
 			">- :hll[spell/Summon Monster V:] {monster/Bearded Devil} - LE",
 			"",
+			"### Description",
+			"",
+			"Asmodeus reigns as the unquestioned lord of Hell, the emperor and god of the damned. He is the most powerful entity to reside within the infernal realm, and even the other deities who make their home within the Pit do so at the Prince of Darkness's leave. All of Hell is his fortress, each layer serving as a nefarious rampart between Nessus, his sinister keep, and a multiverse that screams in want of order. He is the most dreaded enemy to the freedom and spirit of the multiverse's mortal inhabitants, yet the surest route to a grim but eternal peace.",
+			"",
+			"Asmodeus can take any form he chooses, yet in the depictions of his faith and visions of his worshipers, he appears as a tall, muscular man with red skin, dark hair, short black horns, arrogant features, and hoofed feet. Whether this is the Archfiend's true form or merely a guise he adopts so his mortal servants can conceive of him, none can say. Some legends tell that he has another form - one that bears a great, endlessly bleeding wound he received during his final battle with his brother Ihys - but if any souls have ever witnessed this shape, they have never been allowed to leave Nessus. He is rarely seen without his symbol of rule, the Archstar, an artifact forged before the diabolic Exodus from Heaven that bears his symbol and often takes the form of a burning ruby mace, rod, or staff.",
+			"",
+			"Asmodeus is beyond arrogant, beyond confident, and beyond patient. He knows that, eventually, the tide of the multiverse will turn, the young deities that hold such appeal to the souls of the mortal world will perish or move on, and moralities will shift, elevating him to a place of righteousness. So it was, and so it will be once more. He is known for his devastating bouts of wrath, yet his ire is but a tool to inspire fear, for few events in the last millennia have truly enraged him. None know the face of the Prince of Darkness's true fury - his disciplined facade being impenetrable - but those who cross him come to know suffering in their lives and beyond like nothing imaginable. ",
+			"",
 			"[^A]: Requires the {trait/Acolyte of Apocrypha} trait."
 		]
 	},
@@ -2445,7 +2672,15 @@
 			">",
 			">### Traits",
 			">",
-			">- {trait/Unspeakable Bond}"
+			">- {trait/Unspeakable Bond}",
+			"",
+			"### Description",
+			"",
+			"The Spider God Atlach-Nacha is of an indeterminate gender—in some tales, he is portrayed as male, but in others she is female. In truth, constructs as prosaic as gender are but afterthoughts to Atlach-Nacha. Dwelling in a vast underground cavern large enough to swallow entire nations, Atlach-Nacha weaves an impossibly complex web to span the gulf. Texts claim that on the day its vast bridge finally connects all sides of this complex canyon, a new age of madness will be unleashed, while others purport that Atlach-Nacha's web-bridges are to be used by the Outer God Abhoth to surge out of its deep cavern rather than sending forth only its spawn.",
+			"",
+			"Those who venerate Atlach-Nacha see the divine in the spider's form. Many of its worshipers are arachnid creatures, such as {monster/drider/s}, {monster/ettercap/s}, and {monster/jorogumo/s}. These latter beings have been known to take the name of Atlach-Nacha themselves when they invade human societies, although their goal in appropriating the god's name is unclear.",
+			"",
+			"Atlach-Nacha appears as a huge black-and-red spider with a body the size of an elephant and long, spindly legs. Its face is vaguely humanoid, with hair-rimmed eyes, but in certain obscure sources it has also been depicted as having multiple arms and a woman's head and torso. Many of the spiders of Leng venerate it as their mother, and doubtless the tunnels below Leng eventually connect to Atlach-Nacha's web-strewn canyon lair."
 		]
 	},
 	"atropos": {
@@ -2484,7 +2719,11 @@
 			">### Prestige Classes",
 			">",
 			">- {pclass/Mortal Usher}",
-			">- {pclass/Proctor}"
+			">- {pclass/Proctor}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"ayrzul": {
@@ -2517,6 +2756,10 @@
 			">### Traits",
 			">",
 			">- {trait/Affinity for the Elements}",
+			"",
+			"### Description",
+			"",
+			"",
 			"",
 			"[^A]: Requires the {trait/Acolyte of Apocrypha} trait."
 		]
@@ -2622,7 +2865,11 @@
 			">",
 			">### Traits",
 			">",
-			">- {trait/Flames of Hell}"
+			">- {trait/Flames of Hell}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"baphomet": {
@@ -2737,7 +2984,11 @@
 			">",
 			">{SOURCE Pathfinder #77: Herald of the Ivory Labyrinth/70}",
 			">",
-			">- Witches of Baphomet may prepare monstrous physique spells at the same spell levels as the sorcerer/wizard versions."
+			">- Witches of Baphomet may prepare monstrous physique spells at the same spell levels as the sorcerer/wizard versions.",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"barbariccia": {
@@ -2779,7 +3030,11 @@
 			"",
 			">### Feats",
 			">",
-			">- {feat/Hellish Shackles}"
+			">- {feat/Hellish Shackles}",
+			"",
+			"### Description",
+			"",
+			"An ancient and unpredictable fiend, the Fearsome Father is said to be the sire of an entire army of evil creatures with their sights set on conquering various natural places."
 		]
 	},
 	"barbatos": {
@@ -2845,6 +3100,10 @@
 			">",
 			">- {trait/Flames of Hell}",
 			"",
+			"### Description",
+			"",
+			"",
+			"",
 			"[^A]: Requires the {trait/Acolyte of Apocrypha} trait."
 		]
 	},
@@ -2877,7 +3136,11 @@
 			">",
 			">1. {spell/speak with dead}",
 			">2. {spell/resurrection}",
-			">3. {spell/soul bind}"
+			">3. {spell/soul bind}",
+			"",
+			"### Description",
+			"",
+			"The Lady of the Final Gasp has stretched her last breath into an eternity. Stealing years of life from countless mortals, Barravoclair seeks triumph in the moment of expiration, merging exaltation with the parting of spirit and flesh."
 		]
 	},
 	"barzahk": {
@@ -2962,7 +3225,11 @@
 			">",
 			">- :hll[spell/Summon Monster III:] {template/Entropic} {monster/Giant Raven}, {monster/Nosoi}",
 			">- :hll[spell/Summon Monster V:] {monster/Catrina}",
-			">- :hll[spell/Summon Monster VII:] {monster/Shoki}"
+			">- :hll[spell/Summon Monster VII:] {monster/Shoki}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"bastet": {
@@ -2983,7 +3250,11 @@
 			"**Subdomains** {domain/Deception}, {domain/Defense}, {domain/Fur}, {domain/Lust}, {domain/Protean}, {domain/Thievery}  ",
 			"**Favored Weapon** {eq-weapon/Cat's claws |(tekko-kagi)}  ",
 			"**Symbol** Golden cat  ",
-			"**Sacred Animal(s)** Cat"
+			"**Sacred Animal(s)** Cat",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"belial": {
@@ -3047,7 +3318,11 @@
 			">",
 			">### Traits",
 			">",
-			">- {trait/Flames of Hell}"
+			">- {trait/Flames of Hell}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"benorus": {
@@ -3079,7 +3354,11 @@
 			">",
 			">### Traits",
 			">",
-			">- {trait/Empyreal Focus}"
+			">- {trait/Empyreal Focus}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"bergelmir": {
@@ -3101,7 +3380,11 @@
 			"**Favored Weapon** {eq-weapon/Quarterstaff}  ",
 			"**Symbol** Three bolts of lightning  ",
 			"**Sacred Animal(s)** Sea turtle  ",
-			"**Sacred Color(s)** Gray, white"
+			"**Sacred Color(s)** Gray, white",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"bes": {
@@ -3122,7 +3405,11 @@
 			"**Subdomains** {domain/Agathion}, {domain/Caves}, {domain/Defense}, {domain/Family}, {domain/Home}, {domain/Imagination}  ",
 			"**Favored Weapon** {eq-weapon/Hunga munga}  ",
 			"**Symbol** Bearded dwarf face  ",
-			"**Sacred Animal(s)** Lion"
+			"**Sacred Animal(s)** Lion",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"besmara": {
@@ -3257,6 +3544,10 @@
 			">- {spell/Geas, Lesser} can be prepared as a 4th-level spell [^B]",
 			">- {spell/Curse of Disgust} can be prepared as a 5th-level spell [^B]",
 			"",
+			"### Description",
+			"",
+			"",
+			"",
 			"[^B]: This can only be used to cause an aversion to boats, ships, or open bodies of water."
 		]
 	},
@@ -3304,7 +3595,11 @@
 			">",
 			">### Traits",
 			">",
-			">- {trait/Empyreal Focus}"
+			">- {trait/Empyreal Focus}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"bifrons": {
@@ -3348,7 +3643,11 @@
 			"",
 			">### Feats",
 			">",
-			">- {feat/Hellish Shackles}"
+			">- {feat/Hellish Shackles}",
+			"",
+			"### Description",
+			"",
+			"The so-called Second Fate is said to have been one of the archdevils who originally entombed {faith/Mammon}. Through the millennia, Bifrons has fed off his liege's power."
 		]
 	},
 	"black_butterfly": {
@@ -3395,7 +3694,11 @@
 			">",
 			">### Traits",
 			">",
-			">- {trait/Empyreal Focus}"
+			">- {trait/Empyreal Focus}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"bohga": {
@@ -3427,7 +3730,11 @@
 			">",
 			">1. {spell/clairaudience//clairvoyance}",
 			">2. {spell/greater scrying}",
-			">3. {spell/foresight}"
+			">3. {spell/foresight}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"bokrug": {
@@ -3509,7 +3816,11 @@
 			">### Traits",
 			">",
 			">- {trait/Alluring}",
-			">- {trait/Wedded Bliss}"
+			">- {trait/Wedded Bliss}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"braismois": {
@@ -3548,7 +3859,11 @@
 			">",
 			">1. {spell/detect thoughts}",
 			">2. {spell/charm monster}",
-			">3. {spell/geas//quest}"
+			">3. {spell/geas//quest}",
+			"",
+			"### Description",
+			"",
+			"Braismois, the Silent Quill, rules a domain known as the Silent Nation at the bottom of a glacier in Abaddon."
 		]
 	},
 	"brigh": {
@@ -3661,6 +3976,10 @@
 			">- :hll[spell/Summon Monster IV:] {monster/Clockwork Servant}",
 			">- :hll[spell/Summon Monster VI:] {monster/Clockwork Soldier}",
 			"",
+			"### Description",
+			"",
+			"",
+			"",
 			"[^A]: Requires the {trait/Acolyte of Apocrypha} trait."
 		]
 	},
@@ -3693,7 +4012,11 @@
 			">",
 			">1. {spell/bull's strength}",
 			">2. {spell/inflict critical wounds}",
-			">3. {spell/blade barrier}"
+			">3. {spell/blade barrier}",
+			"",
+			"### Description",
+			"",
+			"The Singing Butcher is an obscenely rotund, boar-headed rakshasa immortal with six tusks and four ears. Every day he eats nearly his weight in the raw meat of his enemies, preferring to butcher his victims alive while singing in his rich, unnerving baritone."
 		]
 	},
 	"caera": {
@@ -3725,7 +4048,11 @@
 			">",
 			">1. {spell/bloodbath}",
 			">2. {spell/phantasmal killer}",
-			">3. {spell/harm}"
+			">3. {spell/harm}",
+			"",
+			"### Description",
+			"",
+			"Caera the Blood Bather has the head of a skinless, black-eyed wolf. According to legend, she lost her fur and skin in the same great battle in which she ultimately earned her immortality, but she must bathe in the blood of the innocent to keep her body from withering."
 		]
 	},
 	"cagnazzo": {
@@ -3767,7 +4094,11 @@
 			"",
 			">### Feats",
 			">",
-			">- {feat/Hellish Shackles}"
+			">- {feat/Hellish Shackles}",
+			"",
+			"### Description",
+			"",
+			"The Hunter of Souls races across mortal worlds, slaughtering those who oppose his and Hell's plans of bloody conquest."
 		]
 	},
 	"calcabrina": {
@@ -3809,7 +4140,11 @@
 			"",
 			">### Feats",
 			">",
-			">- {feat/Hellish Shackles}"
+			">- {feat/Hellish Shackles}",
+			"",
+			"### Description",
+			"",
+			"The Mistress of Twilight leads her armies in acts of manipulation rather than physical aggression. She has great power over dreams."
 		]
 	},
 	"calistria": {
@@ -4032,8 +4367,11 @@
 			">- :hll[spell/Summon Monster V:] {monster/Spider Eater} - N",
 			">- :hll[spell/Summon Monster VIII:] {monster/Hellwasp Swarm} - CE",
 			"",
-			"[^A]: Requires the {trait/Acolyte of Apocrypha} trait.",
+			"### Description",
 			"",
+			"",
+			"",
+			"[^A]: Requires the {trait/Acolyte of Apocrypha} trait.",
 			"[^C]: Note that those with the Charm domain have access to this spell earlier."
 		]
 	}

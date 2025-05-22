@@ -17,7 +17,11 @@
 			"**Subdomains** {domain/Agathion}, {domain/Construct}, {domain/Feather}, {domain/Fur}, {domain/Oceans}, {domain/Tactics}  ",
 			"**Favored Weapon** {eq-weapon/Shortbow}  ",
 			"**Symbol** A shield and two crossed arrows  ",
-			"**Sacred Animal(s)** Bee"
+			"**Sacred Animal(s)** Bee",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"nephthys": {
@@ -38,7 +42,11 @@
 			"**Subdomains** {domain/Cooperation}, {domain/Defense}, {domain/Lust}, {domain/Night}, {domain/Protean}, {domain/Purity}  ",
 			"**Favored Weapon** {eq-weapon/Light mace}  ",
 			"**Symbol** A basket atop a palace  ",
-			"**Sacred Animal(s)** Kite"
+			"**Sacred Animal(s)** Kite",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"nergal": {
@@ -82,7 +90,11 @@
 			"",
 			">### Feats",
 			">",
-			">- {feat/Hellish Shackles}"
+			">- {feat/Hellish Shackles}",
+			"",
+			"### Description",
+			"",
+			"Nergal - also known as the Slow Death - is the lesser half of a bisected god of war. Nergal maintains a seething jealousy for his more powerful counterpart, the demon lord {faith/Nurgal}."
 		]
 	},
 	"neshen": {
@@ -114,7 +126,11 @@
 			">",
 			">### Traits",
 			">",
-			">- {trait/Empyreal Focus}"
+			">- {trait/Empyreal Focus}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"nethys": {
@@ -285,6 +301,10 @@
 			">",
 			">- Forbidden from using {spell/imbue with spell ability} (or similar spells that grant spellcasting abilities) on living targets that cannot normally use spells or use spell-like abilities; it is considered an unworthy sharring of blessed magic.",
 			"",
+			"### Description",
+			"",
+			"",
+			"",
 			"[^A]: Requires the {trait/Acolyte of Apocrypha} trait.",
 			"[^T]: This creature is summoned with the {template/celestial} template if you are good, or with the {template/fiendish} template if you are evil; you may choose either if you are neutral."
 		]
@@ -330,7 +350,11 @@
 			">",
 			">### Traits",
 			">",
-			">- {trait/Shaper of Reality}"
+			">- {trait/Shaper of Reality}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"nhimbaloth": {
@@ -415,7 +439,11 @@
 			">",
 			">With very few exceptions, a demon lord is never born fully formed. Instead, each must build power and resources during an extended period of transformation. Demons in this transitional stage are known as nascent demon lords.",
 			">",
-			">At any one time, there exist hundreds - if not thousands - of nascent demon lords in the Abyss. All nascent demon lords are chaotic evil and range in power from CR 21 to CR 25. The boons they grant are less complex than those granted by demon lords, manifesting as spell-like abilities usable twice per day each."
+			">At any one time, there exist hundreds - if not thousands - of nascent demon lords in the Abyss. All nascent demon lords are chaotic evil and range in power from CR 21 to CR 25. The boons they grant are less complex than those granted by demon lords, manifesting as spell-like abilities usable twice per day each.",
+			"",
+			"### Description",
+			"",
+			"The prolific killer known as Nightripper claimed to have murdered 953 innocents, and it took 13 attempts to finally execute him. He retains his living memories still in his role as {faith/Lamashtu/'s} favored torturer and assassin. He appears as a hideously burned and mutilated sword-wielding human wrapped in blood-soaked strips of black cloth."
 		]
 	},
 	"nivi_rhombodazzle": {
@@ -493,7 +521,11 @@
 			">#### Cleric, Warpriest",
 			">",
 			">- {spell/Expeditious Excavation} can be prepared as a 1st-level spell",
-			">- {spell/Invisibility, Greater} can be prepared as a 4th-level spell"
+			">- {spell/Invisibility, Greater} can be prepared as a 4th-level spell",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"nocticula_redeemed": {
@@ -548,7 +580,19 @@
 			">",
 			">1. **Midnight's Grace (Sp)** {spell/true strike} 3/day, {spell/cat's grace} 2/day, or {spell/keen edge} 1/day",
 			">2. **Sinuous Daggerplay (Ex)** You grow a sinuous tail (if you already have a tail, you grow a second one). This tail is prehensile and capable of manipulating and holding small objects, but cannot perform fine manual work as if it were a hand, with the exception of wielding a dagger. When you make a full attack, you can make an additional attack with this tail-wielded dagger. When you do so, you resolve this attack as a primary attack, add your Dexterity modifier to any damage dealt (in addition to any modifiers you might have from Strength), and have a reach that is 5 feet greater than your base reach. Wielding a dagger with your tail in this way does not count as two-weapon fighting for the purposes of determining penalties to attacks made with weapons wielded in your hands. In any round during which you don't make a full attack but you wield a dagger with this tail, it makes a single attack against an adjacent enemy of your choice - if it hits, it deals no damage but distracts the foe enough so that you gain a +2 circumstance bonus to your Armor Class against that target. You cannot attack with this tail-wielded dagger in any other way, including as a thrown weapon.",
-			">3. **Midnight Rejuvenation (Su)** Every night at midnight, you gain the benefits of a {spell/heal} spell and a {spell/greater restoration} spell (both resolve at a caster level equal to your character level)."
+			">3. **Midnight Rejuvenation (Su)** Every night at midnight, you gain the benefits of a {spell/heal} spell and a {spell/greater restoration} spell (both resolve at a caster level equal to your character level).",
+			"",
+			"### Description",
+			"",
+			"Outsiders lack something inherent to the mortal condition: free will. When an outsider is created, it is an extension of its home plane, whether it's a personification of fire or water, good or evil, law or chaos. Only outsiders born on the Material Plane can make their own choices and forge their own destinies. Yet as in any set of rules, there are exceptions, and one of the most striking is the recent rise of Nocticula from the rank of demon lord to full deity.",
+			"",
+			"No one event triggered Nocticula's rise from evil. For thousands of years, she served as a patron of assassins and a paragon of destructive lust, yet for many of those centuries she also served as a potent guard against the proliferation of demonic lords - her realm in the Abyss was quite literally built upon the corpses of demon lords she'd slain. Likewise, her rise into the role of Redeemer Queen was built upon these corpses, for with each demon lord she destroyed, she gained not only power, but the conviction to turn against her own nature.",
+			"",
+			"Whether her full-fledged divinity was caused by her final flight from the evil of the Abyss, the cumulative karma built up from the defeat of so many demon lords, or the metaphysical support of mortal believers is irrelevant to the fact that today, Nocticula exists as a power of her own, separate from the Abyss and no longer a mere demon. Among her first acts upon becoming a deity was the creation of her planar realm - an archipelago of islands extending from the shores of the Boundless Azure Ocean in Elysium into the churning waters of the Maelstrom. This realm, known as Midnight's Palette, is inspired in some part by her prior realm in the Abyss, yet whereas the components of the Midnight Isles were formed from the bodies of slaughtered demon lords, the lands of Midnight's Palette took their shapes from the artistic works of 24 of Nocticula's most devoted worshippers. In time, as her faith grows, more isles will doubtless form from the talents of her faithful.",
+			"",
+			"Those who venerated Nocticula as a demon lord find themselves faced with a difficult choice. Some certainly followed their goddess and sought to change their ways, but many have stubbornly refused to give up their love of murder and hedonism. These worshippers have gravitated to other demon lords, particularly to {faith/Shax}, {faith/Socothbenoth}, and {faith/Zura}. Nocticula's old realm of the Midnight Isles remains under the control of {faith/Shamira}, who is the most likely candidate to ascend from nascent demon lord to full demon lord and fill the vacancy Nocticula left behind. Shamira bears no ill will toward her prior mistress, but other demon lords and their cults are eager for vengeance, if only out of fear that they themselves might someday \"lose their way\" from the pleasures of violence and sin.",
+			"",
+			"The faith of the Redeemer Queen is spreading quickly, particularly through New Thassilon, where one-time Runelord Sorshen functions as Nocticula's most powerful supporter. What role the faith has to play in the world at large remains to be seen, but as long as despots suppress artistic integrity, as long as society rejects eccentrics, and as long as those who find nothing to fear from the darkest reaches of the night endure, her religion will only grow."
 		]
 	},
 	"nocticula": {
@@ -617,7 +661,11 @@
 			">",
 			">### Traits",
 			">",
-			">- {trait/Demonic Persuasion}"
+			">- {trait/Demonic Persuasion}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"norgorber": {
@@ -732,6 +780,10 @@
 			">- :hll[spell/Summon Monster IV:] {monster/Choker} (extraplanar)",
 			">- :hll[spell/Summon Monster V:] {monster/Shadow Mastiff}",
 			"",
+			"### Description",
+			"",
+			"",
+			"",
 			"[^A]: Requires the {trait/Acolyte of Apocrypha} trait."
 		]
 	},
@@ -754,7 +806,11 @@
 			"**Favored Weapon** {eq-weapon/Orc double axe}  ",
 			"**Symbol** Bloody double-axe  ",
 			"**Sacred Animal(s)** Wolverine  ",
-			"**Sacred Color(s)** Green, red"
+			"**Sacred Color(s)** Green, red",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"nurgal": {
@@ -823,6 +879,10 @@
 			">### Traits",
 			">",
 			">- {trait/Demonic Persuasion}",
+			"",
+			"### Description",
+			"",
+			"",
 			"",
 			"[^A]: Requires the {trait/Acolyte of Apocrypha} trait."
 		]
@@ -1003,7 +1063,11 @@
 			">",
 			">1. {spell/disfiguring touch}",
 			">2. {spell/poison}",
-			">3. {spell/greater contagion}"
+			">3. {spell/greater contagion}",
+			"",
+			"### Description",
+			"",
+			"Pallid and poisonous, Oaur-Ooung is an aquatic fungoid horror of eyes and gasping throats whose floating roots dangle miles below her like the twitching tendrils of the largest jellyfish imaginable. {faith/Cyth-V'sug} is believed to have been spawned from one of her blisterwombs. A new blisterwomb is said to be growing upon Oaur-Ooung's flank - her biggest and most disgusting yet."
 		]
 	},
 	"olheon": {
@@ -1052,6 +1116,10 @@
 			">",
 			">- {trait/Empyreal Focus}",
 			"",
+			"### Description",
+			"",
+			"",
+			"",
 			"[^A]: Requires the {trait/Acolyte of Apocrypha} trait."
 		]
 	},
@@ -1078,7 +1146,11 @@
 			"### On Golarion",
 			"",
 			"**Centers of Worship** Radripal  ",
-			"**Nationality** Vudra"
+			"**Nationality** Vudra",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"onamahli": {
@@ -1110,7 +1182,11 @@
 			">",
 			">1. {feat/extended} {spell/mirror image}",
 			">2. {spell/insanity}",
-			">3. {spell/divide mind}"
+			">3. {spell/divide mind}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"ondisso": {
@@ -1142,7 +1218,11 @@
 			">",
 			">### Traits",
 			">",
-			">- {trait/Empyreal Focus}"
+			">- {trait/Empyreal Focus}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"ongalte": {
@@ -1180,7 +1260,15 @@
 			">### Other Rules",
 			">",
 			">- When casting {spell/bleed glory}, {spell/mythic severance}, {spell/steal power}, or any other spell that specifically harms mythic creatures, the clerics, inquisitors, and oracles of Ongalte are treated as mythic sources for the purpose of resisting the spells' effects.",
-			">- Ongalte can grant up to 8th-level spells."
+			">- Ongalte can grant up to 8th-level spells.",
+			"",
+			"### Description",
+			"",
+			"Following Earthfall, the cyclopes shared their wealth of food, knowledge, and prophecy with the humans of Iblydos, together forging great societies. However, the cyclopes' numbers, intellect, and prophetic power dwindled over the millennia, all as smaller humanoids rose to become hero-gods. While most cyclopes blame their own past decadence for their dwindling power, some have concluded that the humans' exploitation of cyclopean gifts has reduced the giants to their sorry state. To the latter group, there is but one answer: destroy the hero-gods and those who aid them.",
+			"",
+			"Defying ancient conventions, Ongalte (CE female {template/advanced} {monster/cyclops} bloodrager 10) invoked her own myth-speaking. She attained mythic power by setting fire to the cyclopean temple at Hoimpeia and letting it collapse on herself and her giant colleagues. She emerged from the smoldering rubble unscathed a day later. Axe in hand, she has since hunted and killed three hero-gods, forcing the remaining godlings to exercise extreme caution. Unable to kill the hero-gods in their citadels, Ongalte instead encourages her followers to discredit them, undermining their followings and engineering their exile from the cities they rule. As a result, Ongalte's followers are often those who feel wronged by the hero-gods, passed over by cyclopes, or simply denied what they feel due by the mythic oligarchies. Where opportunity allows, they murder aspiring hero-gods and cyclopes outright. Otherwise, they frame their victims or provoke them into public outbursts to demonstrate the hero-gods' moral depravity.",
+			"",
+			"Ongalte largely works alone, though she has attempted to court the favor of the hero-eating behemoth Ousmariku on several occasions, only to be chased off by the beast. She also used her own power of myth-speaking to uplift her lieutenant Ytildos. Whether he grew wise to Ongalte's intention to kill him last, or simply embraced the cyclops's pessimistic outlook, Ytildos defected in 4698 AR, abandoning his patron to become the hero-god of reefs and shipwrecks."
 		]
 	},
 	"onmyuza": {
@@ -1212,7 +1300,11 @@
 			">",
 			">1. {spell/unnatural lust}",
 			">2. {spell/spite}",
-			">3. {spell/mass suggestion}"
+			">3. {spell/mass suggestion}",
+			"",
+			"### Description",
+			"",
+			"Enthralling Onmyuza, the so-called Dancer in Flesh, revels in all things physical; even the most jaded, debauched reveler would blush at the extremes she takes for granted. She dwells in a hidden underground complex below the metropolis of Goka and appears as a beautiful and heavily tattooed three-eyed {monster/ogre mage} (although her third eye is held shut by three golden rings that pierce both eyelids)."
 		]
 	},
 	"uaransaph": {
@@ -1250,7 +1342,11 @@
 			">",
 			">1. {spell/create pit}",
 			">2. {feat/extended} {spell/fly}",
-			">3. {spell/hungry pit}"
+			">3. {spell/hungry pit}",
+			"",
+			"### Description",
+			"",
+			"Uaransaph, the Creeping Pit, appears as an eyeless dragon oozing boiling black tar from his mouth. Shorn of his own wings, he has grafted onto his back dozens of others ripped from a wide range of flying victims."
 		]
 	},
 	"ulon": {
@@ -1270,7 +1366,15 @@
 			"**Domains** {domain/Charm}, {domain/Community}, {domain/Evil}, {domain/Knowledge}, {domain/Trickery}  ",
 			"**Subdomains** {domain/Cooperation}, {domain/Daemon}, {domain/Deception}, {domain/Lust}, {domain/Memory}, {domain/Thought}  ",
 			"**Favored Weapon** {eq-weapon/Hand crossbow}  ",
-			"**Symbol** Black pentagon within a purple circle"
+			"**Symbol** Black pentagon within a purple circle",
+			"",
+			"### Description",
+			"",
+			"Ulon is a mysterious figure, so much so that some who follow the ways of the Web don't actually believe a deity is the source of the faith's power. Ulon finds this perfectly acceptable, as the deity isn't interested in sycophants, instead thriving where conspiracy threads its way into society. Ulon is a distraction from the evil that goes on. They are a motivation for people to fight. They are a reason to question. Ulon is the ever-seeking truth.",
+			"",
+			"Lies abound, and only by exposing those lies can truth be told. However, Ulon teaches that truth and lies are both manufactured in similar ways, so one must be careful how they pick apart the web. Ulon was almost unknown in Azlanti society except as an urban myth, sometimes whispered about as a way to the All-Truth. Despite this obscurity, many who operated in the shadows of society heard the name Ulon with great frequency, and sought to learn more.",
+			"",
+			"Ulon's adherents gathered in small cells that rarely interacted with one another but independently worked toward the common goal of unraveling the secrets of the empire. They constantly spied upon government leaders, prominent socialites, and wealthy merchants, hoping to uncover the truth. Eventually the moment came when one of Ulon's highest priests discovered the overwhelming influence the mysterious alghollthus held over Azlant. Only the upper strata of Ulon's clergy knew of this revelation, and alghollthu-controlled agents of the Diamond Throne ruthlessly hunted down these members of Ulon's faith to keep the secret from spreading."
 		]
 	},
 	"upion_and_warrik": {
@@ -1297,7 +1401,11 @@
 			"",
 			"## Other Rules",
 			"",
-			"- Upion and Warrik can grant up to 4th-level spells."
+			"- Upion and Warrik can grant up to 4th-level spells.",
+			"",
+			"### Description",
+			"",
+			"Comrades turned lovers, these two warriors (male half-orc and human) have grown so close that their mythic power manifests only when they are together. The two are joint hero-gods of promises and shield-bearers."
 		]
 	},
 	"urazra": {
@@ -1329,7 +1437,11 @@
 			">",
 			">### Magic Items - Wondrous Items",
 			">",
-			">- {magic-wondrous/Bear Pelt of the Bonebreaker}"
+			">- {magic-wondrous/Bear Pelt of the Bonebreaker}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"urgathoa": {
@@ -1534,6 +1646,10 @@
 			">",
 			">- Priests who cast {spell/remove disease} may draw diseases into themselves as they heal their targets; they become carriers without suffering ill effects. {spell/Contagion} spells cast by Urgathoa's priests always use the caster's spell DC for the disease's secondary saves.",
 			"",
+			"### Description",
+			"",
+			"",
+			"",
 			"[^A]: Requires the {trait/Acolyte of Apocrypha} trait.",
 			"[^W]: Arcane version.",
 			"[^N]: Only necromancers gain this benefit."
@@ -1580,7 +1696,11 @@
 			"",
 			">### Feats",
 			">",
-			">- {feat/Hellish Shackles}"
+			">- {feat/Hellish Shackles}",
+			"",
+			"### Description",
+			"",
+			"The Metal Wing is said to have the ability to smell weakness and fear - and to appear to mortals harboring such feelings and cut them down on the spot."
 		]
 	},
 	"urxehl": {
@@ -1658,7 +1778,11 @@
 			">",
 			">### Traits",
 			">",
-			">- {trait/Demonic Persuasion}"
+			">- {trait/Demonic Persuasion}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"ushitora": {
@@ -1690,7 +1814,11 @@
 			">",
 			">1. {spell/knock}",
 			">2. {spell/malfunction}",
-			">3. {spell/move earth}"
+			">3. {spell/move earth}",
+			"",
+			"### Description",
+			"",
+			"The Keeper of the Oni Gate dwells in the depths of a remote rift in northern Kaoling, where she guards the mysterious Oni Gate. Only Ushitora knows where the keys to the Oni Gate lie hidden, or what dread doom will unfold upon the world when the gate is opened. She appears as a four-armed {monster/void yai} who wields two immense jade-and-gold tetsubos."
 		]
 	},
 	"uskyeria": {
@@ -1722,7 +1850,11 @@
 			">",
 			">### Traits",
 			">",
-			">- {trait/Empyreal Focus}"
+			">- {trait/Empyreal Focus}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"uzumae": {
@@ -1754,7 +1886,11 @@
 			">",
 			">1. {spell/chill metal}",
 			">2. {spell/ice storm}",
-			">3. {spell/freezing sphere}"
+			">3. {spell/freezing sphere}",
+			"",
+			"### Description",
+			"",
+			"Frozen Uzumae dwells in a fortress carved from the icy heart of a glacier in the northernmost mountains of Tian Xia's Wall of Heaven. It is said that the sound of the wind blowing across the spires of his realm lures lost travelers to their doom. The Daimyo of the North appears as a {monster/kuwa/ oni} with frostbitten skin and icicles for teeth and fingernails."
 		]
 	},
 	"valani": {
@@ -1801,7 +1937,11 @@
 			">",
 			">### Traits",
 			">",
-			">- {trait/Empyreal Focus}"
+			">- {trait/Empyreal Focus}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"vale": {
@@ -1840,7 +1980,11 @@
 			">### Prestige Classes",
 			">",
 			">- {pclass/Mortal Usher}",
-			">- {pclass/Proctor}"
+			">- {pclass/Proctor}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"valmallos": {
@@ -1878,7 +2022,11 @@
 			"",
 			">### Prestige Classes",
 			">",
-			">- {pclass/Proctor}"
+			">- {pclass/Proctor}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"vapula": {
@@ -1922,7 +2070,11 @@
 			"",
 			">### Feats",
 			">",
-			">- {feat/Hellish Shackles}"
+			">- {feat/Hellish Shackles}",
+			"",
+			"### Description",
+			"",
+			"Known as the Keeper of the Pyrite Vault, Vapula oversees that mighty treasure house. He employs a legion of white-gauntleted heresy devils to help him protect and manage the priceless loot within."
 		]
 	},
 	"varg": {
@@ -1950,7 +2102,11 @@
 			"",
 			">### Archetypes",
 			">",
-			">- {arc-antipaladin/Iron Tyrant/ (Antipaladin)}"
+			">- {arc-antipaladin/Iron Tyrant/ (Antipaladin)}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"vavaalrav": {
@@ -1989,7 +2145,11 @@
 			">### Prestige Classes",
 			">",
 			">- {pclass/Mortal Usher}",
-			">- {pclass/Proctor}"
+			">- {pclass/Proctor}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"velgaas": {
@@ -2015,11 +2175,15 @@
 			">Convince someone to perform a humiliating act. Gain a +4 profane bonus on Bluff checks.",
 			">",
 			">{SOURCE Book of the Damned/133}  ",
-			">Sahkil tormentors hold dominion over mortal fears and suffering. All are chaotic evil and range in power from CR 21 to CR 25. Their boons are less complex than those of other demigods, manifesting as spell-like abilities usable twice per day each.",
+			">{family/Sahkil} tormentors hold dominion over mortal fears and suffering. All are chaotic evil and range in power from CR 21 to CR 25. Their boons are less complex than those of other demigods, manifesting as spell-like abilities usable twice per day each.",
 			">",
 			">1. {spell/detect thoughts}",
 			">2. {spell/mindwipe}",
-			">3. {spell/mass suggestion}"
+			">3. {spell/mass suggestion}",
+			"",
+			"### Description",
+			"",
+			"Considered by many to be the most methodical of the tormentors, Velgaas uses his abilities to sow doubt and uncertainty among those he encounters. Minds in the Dark twists good intentions into lies and bad behavior. He appears as a scaly human man with a forked tongue."
 		]
 	},
 	"venkelvore": {
@@ -2051,7 +2215,11 @@
 			">",
 			">### Traits",
 			">",
-			">- {trait/Restless Hunger}"
+			">- {trait/Restless Hunger}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"verex": {
@@ -2073,7 +2241,11 @@
 			"**Favored Weapon** {eq-weapon/Battleaxe}  ",
 			"**Symbol** Rat with gold coin  ",
 			"**Sacred Animal(s)** Dire rat  ",
-			"**Sacred Color(s)** Gold, green"
+			"**Sacred Color(s)** Gold, green",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"vermilion_mother": {
@@ -2099,11 +2271,15 @@
 			">Ingest a toxic plant or sow the seeds of a dangerous plant somewhere meant to be safe. Gain a +4 profane bonus on Fortitude and Will saving throws against effects from plants or plant creatures.",
 			">",
 			">{SOURCE Book of the Damned/133}  ",
-			">Sahkil tormentors hold dominion over mortal fears and suffering. All are chaotic evil and range in power from CR 21 to CR 25. Their boons are less complex than those of other demigods, manifesting as spell-like abilities usable twice per day each.",
+			">{family/Sahkil} tormentors hold dominion over mortal fears and suffering. All are chaotic evil and range in power from CR 21 to CR 25. Their boons are less complex than those of other demigods, manifesting as spell-like abilities usable twice per day each.",
 			">",
 			">1. {spell/sickening entanglement}",
 			">2. {spell/curse terrain}",
-			">3. {spell/green caress}"
+			">3. {spell/green caress}",
+			"",
+			"### Description",
+			"",
+			"Weeds, molds, and creeping vines invite the attention of the Vermilion Mother, who also watches the verdant curtain that shields the wild from the civilized. A strange patron, the Vermilion mother manifests to her followers in terrible dreams and frightening hallucinations. When she does, she appears as a horrific amalgamation of crone and carnivorous plant, her blossoms studded with bloody fangs."
 		]
 	},
 	"vevelor": {
@@ -2135,7 +2311,11 @@
 			">",
 			">1. {spell/hold person}",
 			">2. {spell/plundered power}",
-			">3. {spell/freedom}"
+			">3. {spell/freedom}",
+			"",
+			"### Description",
+			"",
+			"The Broken Dream was shown the path. He did not begin as a kyton, but he became one of his own volition and rose to the summit of perfection. A beauteous calamity, Vevelor is a winged nightmare of semi-shadows, a dark spectrum of possibilities and daring. He rails against predestination and seeks to guide others to his unique vision of potential. Should such lead to ruin or triumph is for the individual to decide, but the most worthy - a singular few - might join him in exaltation."
 		]
 	},
 	"vibhishah": {
@@ -2167,7 +2347,11 @@
 			">",
 			">1. {spell/cat's grace}",
 			">2. {spell/locate creature}",
-			">3. {spell/find the path}"
+			">3. {spell/find the path}",
+			"",
+			"### Description",
+			"",
+			"Vibhishah the Seeker spent a thousand lifetimes searching for a single whisker that had fallen from his face, and when he finally found it, he ascended to immortality. That whisker supposedly holds captive the soul of one of the wisest shamans to have ever lived, though none recall her name."
 		]
 	},
 	"vildeis": {
@@ -2231,7 +2415,11 @@
 			">- {trait/Blind Zeal}",
 			">- {trait/Bloody Vengeance}",
 			">- {trait/Empyreal Focus}",
-			">- {trait/Resilient Martyr}"
+			">- {trait/Resilient Martyr}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"vois": {
@@ -2275,7 +2463,11 @@
 			"",
 			">### Feats",
 			">",
-			">- {feat/Hellish Shackles}"
+			">- {feat/Hellish Shackles}",
+			"",
+			"### Description",
+			"",
+			"The Croaking Count is an enormous, six-legged, crimson-skinned toad who delights in drowning his enemies."
 		]
 	},
 	"vonymos": {
@@ -2314,7 +2506,11 @@
 			">### Prestige Classes",
 			">",
 			">- {pclass/Mortal Usher}",
-			">- {pclass/Proctor}"
+			">- {pclass/Proctor}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"vorasha": {
@@ -2352,7 +2548,11 @@
 			">",
 			">1. {spell/delay poison}",
 			">2. {spell/poison}",
-			">3. {feat/extended} {spell/cloudkill}"
+			">3. {feat/extended} {spell/cloudkill}",
+			"",
+			"### Description",
+			"",
+			"Vorasha the Ophidian, Lady of Toxicity and Trelmarixian's consort, is perhaps the most powerful harbinger. She appears as a meladaemon with draconic scales and a medusan mane of emerald and scarlet serpents."
 		]
 	},
 	"wadjet": {
@@ -2390,7 +2590,11 @@
 			"",
 			">### Traits",
 			">",
-			">- {trait/Snake Handler}"
+			">- {trait/Snake Handler}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"wendo": {
@@ -2413,13 +2617,13 @@
 			"",
 			"The tribal people of the Mwangi Expanse walk a path between the mortal world and the spirit world, or *hanajuju*. Those who follow their ancient traditions believe that countless entities known as *wendo* move among mortals, shaping fate and guiding destiny. Though not gods, the wendo are capricious and demand worship in exchange for cooperation. Only the *wendifa*, juju oracles whose craft is passed down through oral tradition from lost civilizations, can divine what the wendo want. Wendifa lead rites and sacrifices to gain insight from the wendo and offer their followers some protection from the unforgiving forces of nature. Wendifa of great power can bend the spirits of both nature and the living to their will, earning them respect from both foes and followers.",
 			"",
-			"To the uninitiated, juju is a complicated system of objects and symbols for protection and power. Some even believe it to be an organized religion with a standard set of beliefs and rituals. Those with greater experience know that juju is a living, breathing faith - an ever-evolving collection of traditions transmitted by word of mouth from one generation to the next. Fetishes, power objects, and ancient sigils are the tools of worship, but they are not the heart of juju, nor are the practices of one tribe common to all. ",
+			"To the uninitiated, juju is a complicated system of objects and symbols for protection and power. Some even believe it to be an organized religion with a standard set of beliefs and rituals. Those with greater experience know that juju is a living, breathing faith - an ever-evolving collection of traditions transmitted by word of mouth from one generation to the next. Fetishes, power objects, and ancient sigils are the tools of worship, but they are not the heart of juju, nor are the practices of one tribe common to all.",
 			"",
 			"The heart of juju is communion with the wendo through elaborate rituals designed to summon the spirits, who carry messages and entreaties to hidden spiritual entities of immense power. These rituals involve idols and sacrifice, music and dance, and the crafting of *metumbe*, detailed pictograms identified with specific wendo. The nature of these rites can range from celebrations and offerings of food to the bloody sacrifice of intelligent beings, depending on a tribe's moral tendencies. Failing to follow the precise directions of a ritual, improperly fashioning a wendo's *metumbe*, or - worst of all - allowing nonbelievers or *hen kudu* (\"lost ones\") to witness a ritual can bring the wendos' wrath, requiring even greater sacrifice to appease the spirits",
 			"",
 			"Juju is a highly personal faith, with each practitioner keeping to the rituals and taboos handed down from his family or tribe. Though they prefer to stay close to their wendifa for guidance, juju practitioners who travel the world follow their rituals closely, seeking guidance from the spirits while making sure to guard them from the eyes of *ben kudu*",
 			"",
-			"Rather than choosing a specific patron, most wendifa deal with a wide range of wendo according to their needs. While undead-creation exists within the faith, and is often fixated on by outsiders, it isn't indicative of the religion as a whole, and reflects merely the specific practices of individual tribes. ",
+			"Rather than choosing a specific patron, most wendifa deal with a wide range of wendo according to their needs. While undead-creation exists within the faith, and is often fixated on by outsiders, it isn't indicative of the religion as a whole, and reflects merely the specific practices of individual tribes.",
 			"",
 			"### Common Wendo",
 			"",
@@ -2428,7 +2632,7 @@
 			"| Kindo Kane | The One Who Stands at the Gate | Longspear | Panther |",
 			"| Sister Liiza | Sweet Sister | Dagger | Chicken |",
 			"| Lo Lulu | Night Lord | Blowgun | Spider |",
-			"| Adamde Baaka | The Jungle Spirit Short bow | Monkey | ",
+			"| Adamde Baaka | The Jungle Spirit Short bow | Monkey |",
 			"| The Serpent King | Wise Brother | Quarterstaff | Snake |",
 			"| Omoro | The One Mighty and Strong | Club | Warthog |",
 			"| Mfuello | The Journeyer | Shortspear | Frog |",
@@ -2465,7 +2669,11 @@
 			">",
 			">### Traits",
 			">",
-			">- {trait/Wendifa Apprentice}"
+			">- {trait/Wendifa Apprentice}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"juju": { "copyof": "wendo" },
@@ -2513,7 +2721,11 @@
 			">",
 			">### Traits",
 			">",
-			">- {trait/Empyreal Focus}"
+			">- {trait/Empyreal Focus}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"wylgart": {
@@ -2557,7 +2769,11 @@
 			"",
 			">### Feats",
 			">",
-			">- {feat/Hellish Shackles}"
+			">- {feat/Hellish Shackles}",
+			"",
+			"### Description",
+			"",
+			"The highest-ranking judge in Caina, the Unbroken Word condemns souls passing through the spires of the Eighth."
 		]
 	},
 	"xhamen_dor": {
@@ -2698,7 +2914,11 @@
 			"",
 			">### Feats",
 			">",
-			">- {feat/Hellish Shackles}"
+			">- {feat/Hellish Shackles}",
+			"",
+			"### Description",
+			"",
+			"The Faceless Truth lives in an annex of Idolisque, tormenting mortals who were once beautiful."
 		]
 	},
 	"xiquiripat": {
@@ -2724,11 +2944,15 @@
 			">Savagely eviscerate a creature smaller than yourself or throw such a creature from a deadly height. Gain a +1 profane bonus on damage rolls.",
 			">",
 			">{SOURCE Book of the Damned/133}  ",
-			">Sahkil tormentors hold dominion over mortal fears and suffering. All are chaotic evil and range in power from CR 21 to CR 25. Their boons are less complex than those of other demigods, manifesting as spell-like abilities usable twice per day each.",
+			">{family/Sahkil} tormentors hold dominion over mortal fears and suffering. All are chaotic evil and range in power from CR 21 to CR 25. Their boons are less complex than those of other demigods, manifesting as spell-like abilities usable twice per day each.",
 			">",
 			">1. {spell/create pit}",
 			">2. {spell/greater oneiric horror}",
-			">3. {spell/blade barrier}"
+			">3. {spell/blade barrier}",
+			"",
+			"### Description",
+			"",
+			"Though all tormentors are devious predators, Xiquiripat, the Flying Scab, strives to frighten and kill everything in existence. Trapped in a cavern deep below the Black Pyramid, Xiquiripat's bizarre clergy - made up of sahkils and mortals far from their home - wander the depths of Xibalba, fighting any who dare engage them. Shapeless and formless, Xiquiripat's body seems at times like a mobile but ravenous blood clot and at others a crimson tangle of lampreys and matted hair."
 		]
 	},
 	"xoveron": {
@@ -2809,6 +3033,10 @@
 			">",
 			">- {trait/Demonic Persuasion}",
 			"",
+			"### Description",
+			"",
+			"",
+			"",
 			"[^A]: Requires the {trait/Acolyte of Apocrypha} trait."
 		]
 	},
@@ -2847,7 +3075,11 @@
 			">",
 			">1. {spell/skinsend}",
 			">2. {spell/fleshworm infestation}",
-			">3. {spell/swarm skin}"
+			">3. {spell/swarm skin}",
+			"",
+			"### Description",
+			"",
+			"Xsistaid, the Wriggling Wound, parasitizes the bodies of unwilling outsiders, its current host being a planetar. Xsistaid's realm is a nightmare of parasitic fungi, insects, and screaming petitioners fused together."
 		]
 	},
 	"yabu": {
@@ -2879,7 +3111,11 @@
 			">",
 			">1. {spell/augury}",
 			">2. {spell/volcanic storm}",
-			">3. {spell/major curse}"
+			">3. {spell/major curse}",
+			"",
+			"### Description",
+			"",
+			"Yabu, the Lord of the Kazan Caldera, dwells in the throat of a dormant volcano. He appears as a muscular fire yai with large tusks and stony skin."
 		]
 	},
 	"yaezhing": {
@@ -2905,7 +3141,11 @@
 			"### On Golarion",
 			"",
 			"**Centers of Worship** Goka, Kaoling, Lingshen, Nagajor  ",
-			"**Nationality** Tian-Shu"
+			"**Nationality** Tian-Shu",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"yamasoth": {
@@ -3006,7 +3246,11 @@
 			">{SOURCE Pathfinder #135: Runeplague/75}",
 			">",
 			">- :hll[spell/Summon Monster VII:] {monster/Qlippoth, Gorgoros}",
-			">- :hll[spell/Summon Monster VIII:] {monster/Qlippoth, Gongorinan}"
+			">- :hll[spell/Summon Monster VIII:] {monster/Qlippoth, Gongorinan}",
+			"",
+			"### Description",
+			"",
+			"Yamasoth, the Polymorph Plague, is a strange beast indeed. His stony body evokes the image of a nightmarish octopus with too many tentacles, each partially connected by a leathery web. Each tentacle ends in a different method of inflicting pain, be it blade, claw, pincer, or serpent's head. Yamasoth's \"face\" (if it can be called such) consists of a single huge maw filled with teeth and stinging tongues. Several eyes surround this mouth, but one hidden deep in his throat remains closed except in combat, when the lord can open it to use a terrible {umr/gaze} weapon that transforms enemies into feral monsters. Yamasoth rules a vast kingdom in the cavern realm of Sekatar-Seraktis - a kingdom populated entirely by the hideous results of his strange and vile experiments into the secrets of flesh and the heresies of life."
 		]
 	},
 	"yamatsumi": {
@@ -3032,7 +3276,11 @@
 			"### On Golarion",
 			"",
 			"**Centers of Worship** Dtang Ma, Hongal, Minkai, Nagajor, Wall of Heaven, Zi Ha  ",
-			"**Nationality** Tian-Min"
+			"**Nationality** Tian-Min",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"yan_gant_y_tan": {
@@ -3076,7 +3324,11 @@
 			"",
 			">### Feats",
 			">",
-			">- {feat/Hellish Shackles}"
+			">- {feat/Hellish Shackles}",
+			"",
+			"### Description",
+			"",
+			"Said to inhabit a realm that constantly teleports to new corners of Stygia, the infernal duke known as the Wandering carries all manner of hellish terrors under a black cloak formed from undulating night. A single glance at one of these terrors can supposedly tear the life from a mortal's flesh."
 		]
 	},
 	"ydajisk": {
@@ -3114,7 +3366,11 @@
 			"",
 			">### Prestige Classes",
 			">",
-			">- {pclass/Proctor}"
+			">- {pclass/Proctor}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"ydersius": {
@@ -3180,6 +3436,10 @@
 			">- :hll[spell/Summon Monster IV:] {monster/Amphisbaena}",
 			">- :hll[spell/Summon Monster V:] {monster/Emperor Cobra} [^T]",
 			">- :hll[spell/Summon Monster VII:] {monster/Giant Anaconda} [^T]",
+			"",
+			"### Description",
+			"",
+			"",
 			"",
 			"[^A]: Requires the {trait/Acolyte of Apocrypha} trait.",
 			"[^S]: Can only be used to take the form of a snake or serpent.",
@@ -3252,7 +3512,11 @@
 			">",
 			">### Traits",
 			">",
-			">- {trait/Demonic Persuasion}"
+			">- {trait/Demonic Persuasion}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"yig": {
@@ -3346,7 +3610,11 @@
 			">",
 			">### Traits",
 			">",
-			">- {trait/Empyreal Focus}"
+			">- {trait/Empyreal Focus}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"ymeri": {
@@ -3379,7 +3647,11 @@
 			">",
 			">### Traits",
 			">",
-			">- {trait/Affinity for the Elements}"
+			">- {trait/Affinity for the Elements}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"yog_sothoth": {
@@ -3413,13 +3685,13 @@
 			">",
 			">- {trait/Unspeakable Bond}",
 			"",
-			"[^A]: Requires the {trait/Acolyte of Apocrypha} trait.",
-			"",
 			"### Description",
 			"",
 			"According to some, the Dark Tapestry is not so much a location as a thing that connects all places and possibilities. These texts go on to suggest that it is conscious &mdash; that it is aware. Yog-Sothoth is normally said to dwell within the Dark Tapestry, but some ancient legends say he *is* the Dark Tapestry. Certainly he has great power over time and space, and can exist at multiple times in multiple realities. Distance has no meaning to him, yet he seems unable to properly exist in the reality shared by most mortal life. He can only partially intrude upon this dimension, taking on the shape of a slithering mass of iridescent spheres or glowing motes of light when he does. Or perhaps Yog-Sothoth can exist in this world but has no reason to do so, and what mortals see and tremble before is but his shadow.",
 			"",
-			"Yog-Sothoth's cultists believe he is slowly preparing the many worlds of the universe for a new age presaged by the wakening of the Great Old Ones, during which time the inhabitants of these worlds will be wiped out to make way for the true masters. Cults often call upon Yog-Sothoth to bless unborn children, turning them into monstrous hybrids that help to prepare the unsuspecting world for the time when the stars themselves shall be right for the Great Old Ones to rule once again."
+			"Yog-Sothoth's cultists believe he is slowly preparing the many worlds of the universe for a new age presaged by the wakening of the Great Old Ones, during which time the inhabitants of these worlds will be wiped out to make way for the true masters. Cults often call upon Yog-Sothoth to bless unborn children, turning them into monstrous hybrids that help to prepare the unsuspecting world for the time when the stars themselves shall be right for the Great Old Ones to rule once again.",
+			"",
+			"[^A]: Requires the {trait/Acolyte of Apocrypha} trait."
 		]
 	},
 	"yuelral": {
@@ -3456,7 +3728,11 @@
 			"",
 			">### Traits",
 			">",
-			">- {trait/Magic's Might}"
+			">- {trait/Magic's Might}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"zabha": {
@@ -3488,7 +3764,11 @@
 			">",
 			">1. {spell/hideous laughter}",
 			">2. {spell/unholy blight}",
-			">3. {spell/foster hatred}"
+			">3. {spell/foster hatred}",
+			"",
+			"### Description",
+			"",
+			"The foul-smelling Desecrator claims to have committed blasphemy against every good and neutral god in existence, and to have danced on the graves of the 10,000 saints."
 		]
 	},
 	"zaebos": {
@@ -3532,7 +3812,11 @@
 			"",
 			">### Feats",
 			">",
-			">- {feat/Hellish Shackles}"
+			">- {feat/Hellish Shackles}",
+			"",
+			"### Description",
+			"",
+			"Eternally restless, Zaebos sees himself as an idle nobleman and delights in taking what he wants."
 		]
 	},
 	"zagresh": {
@@ -3554,7 +3838,11 @@
 			"**Favored Weapon** {eq-weapon/Greatclub}  ",
 			"**Symbol** Stack of severed heads  ",
 			"**Sacred Animal(s)** Cave bear  ",
-			"**Sacred Color(s)** Black, green"
+			"**Sacred Color(s)** Black, green",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"zaigasnar": {
@@ -3592,7 +3880,11 @@
 			">",
 			">1. {spell/alter self}",
 			">2. {feat/extended} {spell/keen edge}",
-			">3. {spell/blade barrier}"
+			">3. {spell/blade barrier}",
+			"",
+			"### Description",
+			"",
+			"Zaigasnar, the Bladebride, appears as a woman dressed in bridal finery, pierced with dozens of bladed weapons."
 		]
 	},
 	"zarongel": {
@@ -3624,7 +3916,11 @@
 			">",
 			">### Traits",
 			">",
-			">- {trait/Wolf Cub}"
+			">- {trait/Wolf Cub}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"zelishkar": {
@@ -3662,7 +3958,11 @@
 			">",
 			">1. {spell/flaming sphere}",
 			">2. {spell/wall of fire}",
-			">3. {spell/contagious flame}"
+			">3. {spell/contagious flame}",
+			"",
+			"### Description",
+			"",
+			"Zelishkar of the Bitter Flame appears as a tiger-shaped figure of living crimson flame dressed in black, glassy armor."
 		]
 	},
 	"zepar": {
@@ -3706,7 +4006,11 @@
 			"",
 			">### Feats",
 			">",
-			">- {feat/Hellish Shackles}"
+			">- {feat/Hellish Shackles}",
+			"",
+			"### Description",
+			"",
+			"Infernally talented in the arts of abduction and bodily transformation, the Forever Sire is so named because of the fiends he has made anew with his strange, tortuous experimentations."
 		]
 	},
 	"zevgavizeb": {
@@ -3784,7 +4088,11 @@
 			">",
 			">### Traits",
 			">",
-			">- {trait/Demonic Persuasion}"
+			">- {trait/Demonic Persuasion}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"zipacna": {
@@ -3810,11 +4118,15 @@
 			">In a completely dark space, meditate on how you can shirk your duties to focus on your wants, or how you can intimidate another person to do something for you. Gain a +4 profane bonus on Intimidate checks.",
 			">",
 			">{SOURCE Book of the Damned/133}  ",
-			">Sahkil tormentors hold dominion over mortal fears and suffering. All are chaotic evil and range in power from CR 21 to CR 25. Their boons are less complex than those of other demigods, manifesting as spell-like abilities usable twice per day each.",
+			">{family/Sahkil} tormentors hold dominion over mortal fears and suffering. All are chaotic evil and range in power from CR 21 to CR 25. Their boons are less complex than those of other demigods, manifesting as spell-like abilities usable twice per day each.",
 			">",
 			">1. {spell/bull's strength}",
 			">2. {spell/confusion}",
-			">3. {spell/move earth}"
+			">3. {spell/move earth}",
+			"",
+			"### Description",
+			"",
+			"The Mountain Below is a lazy but violent fiend who spends his time abusing those around him and demanding they attend to his every whim. Zipacna spends nearly all his time indulging in any delight he can lay claim to, forcing his servants to cater to his desires. Among the largest of the sahkil tormentors, Zipacna manifests in the rough shape of a lumbering caiman - albeit one with four eyes and hands that look a little too human in shape."
 		]
 	},
 	"zogmugot": {
@@ -3846,7 +4158,11 @@
 			">",
 			">### Traits",
 			">",
-			">- {trait/Flounderer}"
+			">- {trait/Flounderer}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"zohls": {
@@ -3893,7 +4209,11 @@
 			">",
 			">### Traits",
 			">",
-			">- {trait/Empyreal Focus}"
+			">- {trait/Empyreal Focus}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"zon_kuthon": {
@@ -4081,7 +4401,11 @@
 			">",
 			">{SOURCE Inner Sea Gods/171}",
 			">",
-			">- A Kuthite priest's {main/inflict |spell/s>_groupings} always cause visible open wounds that look as though they were caused by slashing damage, though the actual cause of the damage is still negative energy."
+			">- A Kuthite priest's {main/inflict |spell/s>_groupings} always cause visible open wounds that look as though they were caused by slashing damage, though the actual cause of the damage is still negative energy.",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"zura": {
@@ -4150,7 +4474,11 @@
 			">### Traits",
 			">",
 			">- {trait/Blessing of the Feast}",
-			">- {trait/Demonic Persuasion}"
+			">- {trait/Demonic Persuasion}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	}
 }

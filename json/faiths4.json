@@ -43,7 +43,11 @@
 			">",
 			">### Traits",
 			">",
-			">- {trait/Empyreal Focus}"
+			">- {trait/Empyreal Focus}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"chugarra": {
@@ -75,7 +79,11 @@
 			">",
 			">1. {spell/blood biography}",
 			">2. {spell/finger of death}",
-			">3. {feat/quickened} {spell/slough}"
+			">3. {feat/quickened} {spell/slough}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"chupurvagasti": {
@@ -107,7 +115,11 @@
 			">",
 			">1. {spell/displacement}",
 			">2. {feat/quickened} {spell/stinking cloud}",
-			">3. {feat/quickened} {spell/cloudkill}"
+			">3. {feat/quickened} {spell/cloudkill}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"cihua_couatl": {
@@ -128,7 +140,11 @@
 			"**Subdomains** {domain/Agathion}, {domain/Defense}, {domain/Ferocity}, {domain/Resolve}, {domain/Restoration}, {domain/Tactics}  ",
 			"**Favored Weapon** {eq-weapon/Shortspear}  ",
 			"**Symbol** two couatls consuming each other's tails with their wings overlapping in the center  ",
-			"**Sacred Animal(s)** hawk"
+			"**Sacred Animal(s)** hawk",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"circiatto": {
@@ -170,7 +186,11 @@
 			"",
 			">### Feats",
 			">",
-			">- {feat/Hellish Shackles}"
+			">- {feat/Hellish Shackles}",
+			"",
+			"### Description",
+			"",
+			"Circiatto is an exceptionally gluttonous and ruthless fiend who consumes all enemies who stand in his way. Worse, the Glutton Slaver then vomits them back up as undead servants."
 		]
 	},
 	"cixyron": {
@@ -214,7 +234,11 @@
 			"",
 			">### Archetypes",
 			">",
-			">- {arc-gunslinger/Planar Rifter/ (Gunslinger)}"
+			">- {arc-gunslinger/Planar Rifter/ (Gunslinger)}",
+			"",
+			"### Description",
+			"",
+			"Cixyron, the Furious Thunder, appears as a metallic, raven-headed skeleton crackling with electrical discharge."
 		]
 	},
 	"corosbel": {
@@ -252,7 +276,11 @@
 			">",
 			">1. {spell/death knell}",
 			">2. {spell/phantasmal killer}",
-			">3. {spell/mass suggestion}"
+			">3. {spell/mass suggestion}",
+			"",
+			"### Description",
+			"",
+			"Corosbel, the Silent Saint, rules over a realm of debased temples. He takes the form of an athletic, six-armed man."
 		]
 	},
 	"count_ranalc": {
@@ -301,7 +329,11 @@
 			">",
 			">### Traits",
 			">",
-			">- {trait/Shaper of Reality}"
+			">- {trait/Shaper of Reality}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"crocell": {
@@ -345,7 +377,11 @@
 			"",
 			">### Feats",
 			">",
-			">- {feat/Hellish Shackles}"
+			">- {feat/Hellish Shackles}",
+			"",
+			"### Description",
+			"",
+			"The scale-winged fiend called the Soothing Sun collects and studies unique texts written in nonexistent languages and artwork depicting mortals' nightmares."
 		]
 	},
 	"cthulhu": {
@@ -480,7 +516,11 @@
 			">{SOURCE Pathfinder #119: Prisoners of the Blight/71}",
 			">",
 			">- :hll[spell/Summon Monster IV:] {monster/Mandragora}",
-			">- :hll[spell/Summon Monster V:] {monster/Tendriculos}"
+			">- :hll[spell/Summon Monster V:] {monster/Tendriculos}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"dachzerul": {
@@ -506,11 +546,15 @@
 			">Obsess on revenge against one who wronged you. Gain a +2 profane bonus on Bluff and Stealth checks.",
 			">",
 			">{SOURCE Book of the Damned/133}  ",
-			">Sahkil tormentors hold dominion over mortal fears and suffering. All are chaotic evil and range in power from CR 21 to CR 25. Their boons are less complex than those of other demigods, manifesting as spell-like abilities usable twice per day each.",
+			">{family/Sahkil} tormentors hold dominion over mortal fears and suffering. All are chaotic evil and range in power from CR 21 to CR 25. Their boons are less complex than those of other demigods, manifesting as spell-like abilities usable twice per day each.",
 			">",
 			">1. {spell/summon monster VI}",
 			">2. {spell/phantasmal killer}",
-			">3. {spell/mislead}"
+			">3. {spell/mislead}",
+			"",
+			"### Description",
+			"",
+			"Dachzerul, the Darkness Behind You, is among the most rambunctious and outwardly pleasant of the tormentors, but he can turn murderous and obsessive in a flash."
 		]
 	},
 	"daclau_sar": {
@@ -556,7 +600,11 @@
 			">",
 			">With very few exceptions, a demon lord is never born fully formed. Instead, each must build power and resources during an extended period of transformation. Demons in this transitional stage are known as nascent demon lords.",
 			">",
-			">At any one time, there exist hundreds - if not thousands - of nascent demon lords in the Abyss. All nascent demon lords are chaotic evil and range in power from CR 21 to CR 25. The boons they grant are less complex than those granted by demon lords, manifesting as spell-like abilities usable twice per day each."
+			">At any one time, there exist hundreds - if not thousands - of nascent demon lords in the Abyss. All nascent demon lords are chaotic evil and range in power from CR 21 to CR 25. The boons they grant are less complex than those granted by demon lords, manifesting as spell-like abilities usable twice per day each.",
+			"",
+			"### Description",
+			"",
+			"The powerful nascent demon lord Daclau-Sar, the Lord of Carrion, is content - for now - to rule over the beasts that lurk in the Xorian Mountains in Lamashtu's realm of Kurnugia. Feral and bestial, Daclau-Sar has little time or interest in politics or trickery. He appears as a six-legged, two-headed hyena with vulture's wings."
 		]
 	},
 	"dagon": {
@@ -625,7 +673,11 @@
 			">",
 			">### Traits",
 			">",
-			">- {trait/Demonic Persuasion}"
+			">- {trait/Demonic Persuasion}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"dahak": {
@@ -727,7 +779,11 @@
 			">#### Oracle",
 			">",
 			">- {spell/Draconic Ally} can be prepared as a 3rd-level spell",
-			">- {spell/Tail Strike} can be prepared as a 4th-level spell"
+			">- {spell/Tail Strike} can be prepared as a 4th-level spell",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"daikitsu": {
@@ -754,6 +810,10 @@
 			"",
 			"**Centers of Worship** Forest of Spirits, Minkai, Shokuro  ",
 			"**Nationality** Kitsune",
+			"",
+			"### Description",
+			"",
+			"",
 			"",
 			"[^A]: Requires the {trait/Acolyte of Apocrypha} trait."
 		]
@@ -789,6 +849,10 @@
 			">",
 			">- {trait/Empyreal Focus}",
 			">- {trait/Scarred by War}",
+			"",
+			"### Description",
+			"",
+			"",
 			"",
 			"[^A]: Requires the {trait/Acolyte of Apocrypha} trait."
 		]
@@ -837,7 +901,11 @@
 			">",
 			">### Traits",
 			">",
-			">- {trait/Empyreal Focus}"
+			">- {trait/Empyreal Focus}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"dammar": {
@@ -876,7 +944,11 @@
 			">### Prestige Classes",
 			">",
 			">- {pclass/Mortal Usher}",
-			">- {pclass/Proctor}"
+			">- {pclass/Proctor}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"deskari": {
@@ -980,6 +1052,10 @@
 			">- :hll[spell/Summon Monster IV:] {monster/Vermlek}",
 			">- :hll[spell/Summon Monster V:] {template/Fiendish} {monster/Giant Locust}",
 			">- :hll[spell/Summon Monster VI:] {template/Fiendish} {monster/Giant Mosquito}",
+			"",
+			"### Description",
+			"",
+			"",
 			"",
 			"[^A]: Requires the {trait/Acolyte of Apocrypha} trait."
 		]
@@ -1173,7 +1249,11 @@
 			">",
 			">{SOURCE Monster Summoner's Handbook/30}",
 			">",
-			">- :hll[spell/Summon Monster II:] {monster/Pseudodragon} - CG"
+			">- :hll[spell/Summon Monster II:] {monster/Pseudodragon} - CG",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"deumus": {
@@ -1217,7 +1297,11 @@
 			"",
 			">### Feats",
 			">",
-			">- {feat/Hellish Shackles}"
+			">- {feat/Hellish Shackles}",
+			"",
+			"### Description",
+			"",
+			"The empyreal lord {faith/Ragathiel} once led a celestial army against the noble Deumus, burning most of his keep to the ground and nearly killing him."
 		]
 	},
 	"dhalavei": {
@@ -1241,7 +1325,11 @@
 			"",
 			"### On Golarion",
 			"",
-			"**Nationality** Vudrani"
+			"**Nationality** Vudrani",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"diceid": {
@@ -1279,7 +1367,11 @@
 			">",
 			">1. {spell/summon swarm}",
 			">2. {spell/volcanic storm}",
-			">3. {spell/summon monster VI}"
+			">3. {spell/summon monster VI}",
+			"",
+			"### Description",
+			"",
+			"Diceid, the Empty Dawn, takes the form of a rotting primordial lizard."
 		]
 	},
 	"dispater": {
@@ -1345,6 +1437,10 @@
 			">",
 			">- {trait/Flames of Hell}",
 			"",
+			"### Description",
+			"",
+			"",
+			"",
 			"[^A]: Requires the {trait/Acolyte of Apocrypha} trait."
 		]
 	},
@@ -1398,7 +1494,11 @@
 			">",
 			">1. **Suffer for Our Lady (Sp)** {spell/interrogation} 3/day, {spell/instrument of agony} 2/day, or {spell/inflict serious wounds} 1/day",
 			">2. **Bringer of Pain (Sp)** Like Our Lady in Pain, who is deaf to the screams of agony from the souls that she and her minions perpetually torture in her unholy realm, you have perfected the art of visiting pain upon your enemies, and you delight in drawing forth their tormented cries. Three times per day, you can cast {spell/harm} as a spell-like ability.",
-			">3. **Hell's Sadistic Angel (Sp)** Doloras is well versed in ways to cause unholy pain to even the strongest and most resourceful souls, and you have painstakingly studied her torturer's techniques. Once per day as a standard action, you can call down your evil goddess's dispassionate, unholy might upon all enemies in a 30-foot radius centered anywhere within 100 feet of you. When you do, otherworldly chains forged in the infernal morass of Hell itself latch on to your enemies' feet, rooting them in place for a number of rounds equal to your Hit Dice. Affected creatures cannot damage the hellish chains nor magically escape them; if they attempt to use teleportation magic or a similar ability to circumvent the chains, the spell or ability fails and is wasted. While they are rooted, affected creatures take 2d6 points of piercing damage and 4d6 points of fire damage per round as blazing, hellish needles stab into the exposed portions of their bodies (affected creatures begin taking damage as soon as they are under this ability's effects). A creature that succeeds at a Reflex saving throw is only held in place for half the number of rounds and takes the listed damage only once."
+			">3. **Hell's Sadistic Angel (Sp)** Doloras is well versed in ways to cause unholy pain to even the strongest and most resourceful souls, and you have painstakingly studied her torturer's techniques. Once per day as a standard action, you can call down your evil goddess's dispassionate, unholy might upon all enemies in a 30-foot radius centered anywhere within 100 feet of you. When you do, otherworldly chains forged in the infernal morass of Hell itself latch on to your enemies' feet, rooting them in place for a number of rounds equal to your Hit Dice. Affected creatures cannot damage the hellish chains nor magically escape them; if they attempt to use teleportation magic or a similar ability to circumvent the chains, the spell or ability fails and is wasted. While they are rooted, affected creatures take 2d6 points of piercing damage and 4d6 points of fire damage per round as blazing, hellish needles stab into the exposed portions of their bodies (affected creatures begin taking damage as soon as they are under this ability's effects). A creature that succeeds at a Reflex saving throw is only held in place for half the number of rounds and takes the listed damage only once.",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"dradjit": {
@@ -1430,7 +1530,11 @@
 			">",
 			">1. {spell/spiritual weapon}",
 			">2. {feat/extended} {spell/greater magic fang}",
-			">3. {spell/form of the dragon I}"
+			">3. {spell/form of the dragon I}",
+			"",
+			"### Description",
+			"",
+			"Dradjit the Godslayer was once a sycophantic servant of a now-dead rakshasa immortal who boasted three crimson draconic heads. She betrayed her master, then ripped out his teeth to craft a necklace, which is said to fuel her immortality."
 		]
 	},
 	"draghignazzo": {
@@ -1481,7 +1585,11 @@
 			">",
 			">#### Cleric, Inquisitor, Oracle, Warpriest",
 			">",
-			">- {spell/Tail Strike} can be prepared as a 4th-level spell"
+			">- {spell/Tail Strike} can be prepared as a 4th-level spell",
+			"",
+			"### Description",
+			"",
+			"The Devil-Dragon of Devastation inhabits a mighty infernal castle with {faith/Scarmiglione}, his sibling and fellow malebranche."
 		]
 	},
 	"dranngvit": {
@@ -1513,7 +1621,11 @@
 			">",
 			">### Traits",
 			">",
-			">- {trait/Furious Vengeance}"
+			">- {trait/Furious Vengeance}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"dretha": {
@@ -1535,7 +1647,11 @@
 			"**Favored Weapon** {eq-weapon/Scimitar}  ",
 			"**Symbol** Two gauntleted fists  ",
 			"**Sacred Animal(s)** Dire wolf  ",
-			"**Sacred Color(s)** Brown, green"
+			"**Sacred Color(s)** Brown, green",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"drokalion": {
@@ -1561,7 +1677,11 @@
 			"",
 			"## Other Rules",
 			"",
-			"- Drokalion can grant up to 2nd-level spells"
+			"- Drokalion can grant up to 2nd-level spells",
+			"",
+			"### Description",
+			"",
+			"Barely aware of his mythic nature, Drokalion (a mythic dire lion) has nonetheless attracted several dozen zealous followers who leave him food and consider it good luck to be chased by him."
 		]
 	},
 	"droskar": {
@@ -1603,7 +1723,11 @@
 			">",
 			">- {trait/Extended Toil}",
 			">- {trait/Resigned}",
-			">- {trait/Toilcrafter}"
+			">- {trait/Toilcrafter}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"ealdeez": {
@@ -1641,7 +1765,11 @@
 			">",
 			">1. {spell/bull's strength}",
 			">2. {spell/confusion}",
-			">3. {spell/beast shape IV}"
+			">3. {spell/beast shape IV}",
+			"",
+			"### Description",
+			"",
+			"Ealdeez, the Beast Behind the Dream, appears as an amalgamation of bestial limbs and rules a subterranean realm lit by phosphorescent fungus."
 		]
 	},
 	"eaqueo": {
@@ -1685,7 +1813,11 @@
 			"",
 			">### Feats",
 			">",
-			">- {feat/Hellish Shackles}"
+			">- {feat/Hellish Shackles}",
+			"",
+			"### Description",
+			"",
+			"It is said among infernal scholars that Eaqueo, known as the Finishing Knot, coaxed 6,666 rival fiends to commit suicide before wily {faith/Barbatos} elevated him to the rank of infernal duke."
 		]
 	},
 	"easivra": {
@@ -1707,7 +1839,11 @@
 			"**Favored Weapon** {eq-weapon/Morningstar}  ",
 			"**Symbol** Eagle head in profile  ",
 			"**Sacred Animal(s)** Golden eagle  ",
-			"**Sacred Color(s)** Blue, gold"
+			"**Sacred Color(s)** Blue, gold",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"eiseth": {
@@ -1760,7 +1896,11 @@
 			">",
 			">1. **Dark Battle Rising (Sp)** {spell/true strike} 3/day, {spell/flame blade} 2/day, or {spell/force hook charge} 1/day",
 			">2. **Swords of the Ash Wings (Su)** Three times per day when you successfully strike an enemy, you can infuse your blow with the weight of Eiseth's dark fury as a swift action. When you do, your attack deals an additional 4d6 points of fire damage and 4d6 points of slashing damage as flaming swords from the depths of Hell bite into your opponent's body. This damage is considered evil-aligned for the purpose of overcoming damage reduction. This additional damage is never doubled upon a critical hit.",
-			">3. **The Dark Queen Marches (Sp)** When she focuses her terrible wrath on a single goal, the Erinyes Queen is a force of unbelievable power. You have studied Eiseth's tactics carefully and can imitate them to advance your goddess's dark glory. Once per day, you can cast {spell/ride the lightning} as a spell-like ability. Instead of a lightning bolt, though, you transform into a streak of lava, so this ability deals fire damage instead of electricity damage."
+			">3. **The Dark Queen Marches (Sp)** When she focuses her terrible wrath on a single goal, the Erinyes Queen is a force of unbelievable power. You have studied Eiseth's tactics carefully and can imitate them to advance your goddess's dark glory. Once per day, you can cast {spell/ride the lightning} as a spell-like ability. Instead of a lightning bolt, though, you transform into a streak of lava, so this ability deals fire damage instead of electricity damage.",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"eldas": {
@@ -1792,7 +1932,11 @@
 			">",
 			">### Traits",
 			">",
-			">- {trait/Empyreal Focus}"
+			">- {trait/Empyreal Focus}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"eligos": {
@@ -1836,7 +1980,11 @@
 			"",
 			">### Feats",
 			">",
-			">- {feat/Hellish Shackles}"
+			">- {feat/Hellish Shackles}",
+			"",
+			"### Description",
+			"",
+			"A terrifying fiend whose body is formed from the fused skeletons of three rival pit fiends, Eligos spends his days patrolling Malebolge for signs of surprise incursions."
 		]
 	},
 	"elion": {
@@ -1862,7 +2010,17 @@
 			"",
 			">### Traits",
 			">",
-			">- {trait/Sacred Orienteer}"
+			">- {trait/Sacred Orienteer}",
+			"",
+			"### Description",
+			"",
+			"When the Azlanti first formed larger groups and sought new lands and greater resources, they followed a god they called Elion, who taught them the ways of the earth and skies. They learned that if they could read the ever-changing signals of the natural world, they could travel through wild and dangerous places to find the best of what creation provides. Elion also taught the Azlanti that there were great lands beyond the seas that surrounded their island continent. His followers were among the first Azlanti to sail across the water to visit what is now western Avistan and Garund and eastern Arcadia. Eager to learn more about other people and places in Golarion, the faithful of Elion sought locations the Azlanti had never visited before, and they looked past the horizon to new, exciting adventures. It is believed that after Earthfall, Elion's priests were instrumental in leading survivors to other continents.",
+			"",
+			"The church counted thousands of forward priests among its ranks who sought out new places to explore and returned to the empire with new information. It is believed that a prominent priest of Elion first encouraged the empire to colonize the moon and other planets in the solar system. Some [Pathfinders](rule/aff_scholars) theorize that Elion or his faithful created the first ancient {magic-wondrous/wayfinder/s}.",
+			"",
+			"While there are still a few scattered pockets of those who worship Elion, he is mostly unknown on Golarion today. Some believe that Elion became distracted from Golarion after Earthfall and ventured off for the edges of the multiverse.",
+			"",
+			"Elion and {faith/Myr} have a passionate yet difficult relationship. They are wildly in love, but Elion's need to constantly explore often keeps him away from home, and their shared guilt at their daughter {faith/Sicva/'s} corruption of their areas of concern has strained their relationship."
 		]
 	},
 	"erastil": {
@@ -2060,7 +2218,11 @@
 			">",
 			">{SOURCE Inner Sea Gods/55}",
 			">",
-			">- Clerics and druids of Erastil are proficient with the shortbow"
+			">- Clerics and druids of Erastil are proficient with the shortbow",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"erecura": {
@@ -2082,7 +2244,11 @@
 			"**Favored Weapon** {eq-weapon/Light mace}  ",
 			"**Symbol** Halo of runes  ",
 			"**Sacred Animal(s)** Deer  ",
-			"**Sacred Color(s)** Green, tan"
+			"**Sacred Color(s)** Green, tan",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"eritrice": {
@@ -2129,7 +2295,11 @@
 			">",
 			">### Traits",
 			">",
-			">- {trait/Empyreal Focus}"
+			">- {trait/Empyreal Focus}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"falayna": {
@@ -2178,6 +2348,10 @@
 			">",
 			">- {trait/Empyreal Focus}",
 			"",
+			"### Description",
+			"",
+			"",
+			"",
 			"[^A]: Requires the {trait/Acolyte of Apocrypha} trait."
 		]
 	},
@@ -2206,7 +2380,11 @@
 			"",
 			">### Magic Items - Wondrous Items",
 			">",
-			">- {magic-wondrous/Sacrificial Dagger of the Blood Mother}"
+			">- {magic-wondrous/Sacrificial Dagger of the Blood Mother}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"farfarello": {
@@ -2248,7 +2426,11 @@
 			"",
 			">### Feats",
 			">",
-			">- {feat/Hellish Shackles}"
+			">- {feat/Hellish Shackles}",
+			"",
+			"### Description",
+			"",
+			"The Lord of the Forgotten has no corporeal form and is instead an intensely malevolent spirit haunting areas where massive slaughters have occurred."
 		]
 	},
 	"feronia": {
@@ -2270,7 +2452,11 @@
 			"**Favored Weapon** {eq-weapon/Bastard sword}  ",
 			"**Symbol** Bonfire under stars  ",
 			"**Sacred Animal(s)** Rabbit  ",
-			"**Sacred Color(s)** Blue, yellow"
+			"**Sacred Color(s)** Blue, yellow",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"fharaas": {
@@ -2302,7 +2488,11 @@
 			">",
 			">1. {spell/keen edge}",
 			">2. {spell/vision}",
-			">3. {spell/foresight}"
+			">3. {spell/foresight}",
+			"",
+			"### Description",
+			"",
+			"As one might read a tree's years in the exposed rings of its stump, followers of the Seer in Skin divine all a mortal's days by scrutinizing the whorls and layers within its flesh. Some even teach that, if a destined bond exists, a killer's life is reflected in a victim's fateful meat."
 		]
 	},
 	"findeladlara": {
@@ -2334,7 +2524,11 @@
 			">",
 			">### Traits",
 			">",
-			">- {trait/Structural Knowledge}"
+			">- {trait/Structural Knowledge}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"flauros": {
@@ -2413,7 +2607,11 @@
 			">",
 			">### Traits",
 			">",
-			">- {trait/Demonic Persuasion}"
+			">- {trait/Demonic Persuasion}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"folca": {
@@ -2451,7 +2649,11 @@
 			">",
 			">1. {spell/unnatural lust}",
 			">2. {spell/modify memory}",
-			">3. {spell/veil}"
+			">3. {spell/veil}",
+			"",
+			"### Description",
+			"",
+			"Folca, the Gaunt Stranger, appears as an unnaturally tall, emaciated man dressed in gray clothing with golden buttons. His featureless face seems to have dozens of childlike hands pressing from within. Folca's realm is a place of bedrooms, hideouts, kitchens, and playrooms where every perception of safety or protection harbors a hidden potential for terror."
 		]
 	},
 	"folgrit": {
@@ -2495,7 +2697,11 @@
 			">",
 			">- {trait/Blessed Orphan}",
 			">- {trait/Folgrit's Bounty}",
-			">- {trait/Folgrit's Mercy}"
+			">- {trait/Folgrit's Mercy}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"fumeiyoshi": {
@@ -2521,7 +2727,11 @@
 			"### On Golarion",
 			"",
 			"**Centers of Worship** Chu Ye, Forest of Spirits, Minkai, Shenmen  ",
-			"**Nationality** Tian-Min"
+			"**Nationality** Tian-Min",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"furcas": {
@@ -2565,7 +2775,11 @@
 			"",
 			">### Feats",
 			">",
-			">- {feat/Hellish Shackles}"
+			">- {feat/Hellish Shackles}",
+			"",
+			"### Description",
+			"",
+			"One of the most darkly charming of Hell's many infernal dukes, the Knight of the Laurels commands a fortress that straddles a cataract of lava in Avernus. An immaculate host, Furcas is also a pyromaniac herbalist obsessed with creation and destruction and a fiend of immense anger when roused."
 		]
 	},
 	"gaap": {
@@ -2609,7 +2823,11 @@
 			"",
 			">### Feats",
 			">",
-			">- {feat/Hellish Shackles}"
+			">- {feat/Hellish Shackles}",
+			"",
+			"### Description",
+			"",
+			"An ancient fiend, the Rai of the Water Devils is an enormous tentacled beast with four eyes, a piscine head, and ram's horns."
 		]
 	},
 	"gavidya": {
@@ -2641,7 +2859,11 @@
 			">",
 			">1. {spell/glibness}",
 			">2. {spell/create mindscape, greater}",
-			">3. {spell/microcosm}"
+			">3. {spell/microcosm}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"general_susumu": {
@@ -2682,6 +2904,10 @@
 			">",
 			">- {spell/Tail Strike} can be prepared as a 4th-level spell",
 			"",
+			"### Description",
+			"",
+			"",
+			"",
 			"[^A]: Requires the {trait/Acolyte of Apocrypha} trait."
 		]
 	},
@@ -2720,7 +2946,11 @@
 			">",
 			">1. {feat/extended} {spell/mount}",
 			">2. {feat/extended} {spell/phantom steed}",
-			">3. {spell/night terrors}"
+			">3. {spell/night terrors}",
+			"",
+			"### Description",
+			"",
+			"Geon, the Dancing Fiend, appears as a monstrous centaur with flaming hooves. He trains and rewards {faith/Szuriel/'s} mounted forces, and he frequently accompanies her armies."
 		]
 	},
 	"geryon": {
@@ -2836,6 +3066,10 @@
 			">- :hll[spell/Summon Monster VI:] {monster/Drowning Devil (|Sarglagon)}",
 			">- :hll[spell/Summon Monster VIII:] {monster/Aghasura/ (Asura)}",
 			"",
+			"### Description",
+			"",
+			"",
+			"",
 			"[^R]: This spell affects only reptiles."
 		]
 	},
@@ -2928,7 +3162,11 @@
 			">",
 			">### Traits",
 			">",
-			">- {trait/Empyreal Focus}"
+			">- {trait/Empyreal Focus}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"ghlaunder": {
@@ -3014,6 +3252,10 @@
 			">",
 			">- Clerics, druids, and rangers of Ghlaunder, upon first gaining the ability to cast divine spells, may choose to affect vermin instead of animals when using animal-oriented spells (such as animal shapes, detect animals or plants, and hide from animals); these spells can no longer be used to affect animals.",
 			"",
+			"### Description",
+			"",
+			"",
+			"",
 			"[^A]: Requires the {trait/Acolyte of Apocrypha} trait."
 		]
 	},
@@ -3082,7 +3324,11 @@
 			">",
 			">### Traits",
 			">",
-			">- {trait/Demonic Persuasion}"
+			">- {trait/Demonic Persuasion}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"maat": {
@@ -3103,7 +3349,11 @@
 			"**Subdomains** {domain/Inevitable}, {domain/Judgment}, {domain/Purity}, {domain/Seasons}, {domain/Stars}, {domain/Thought}  ",
 			"**Favored Weapon** {eq-weapon/Starknife}  ",
 			"**Symbol** Blue ostrich feather  ",
-			"**Sacred Animal(s)** Leopard"
+			"**Sacred Animal(s)** Leopard",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"maeha": {
@@ -3135,7 +3385,11 @@
 			">",
 			">1. {spell/deeper darkness}",
 			">2. {spell/plane shift}",
-			">3. {spell/imprisonment}"
+			">3. {spell/imprisonment}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"magdh": {
@@ -3215,7 +3469,11 @@
 			">",
 			">#### Cleric",
 			">",
-			">- {spell/Moment of Prescience} can be prepared as a 8th-level spell"
+			">- {spell/Moment of Prescience} can be prepared as a 8th-level spell",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"magrim": {
@@ -3302,7 +3560,11 @@
 			">- {spell/Disrupt Undead} can be prepared as a 0-level spell",
 			">- {spell/Symbol of Mirroring} can be prepared as a 2nd-level spell",
 			">- {spell/Brand, Greater} can be prepared as a 4th-level spell",
-			">- {spell/Firebrand} can be prepared as a 7th-level spell"
+			">- {spell/Firebrand} can be prepared as a 7th-level spell",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"mahathallah": {
@@ -3409,7 +3671,11 @@
 			">",
 			">- :hll[spell/Summon Monster III:] {monster/Forlarren}",
 			">- :hll[spell/Summon Monster V:] {monster/Achaierai}",
-			">- :hll[spell/Summon Monster VIII:] {monster/Cabal Devil}"
+			">- :hll[spell/Summon Monster VIII:] {monster/Cabal Devil}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"malacoda": {
@@ -3451,7 +3717,11 @@
 			"",
 			">### Feats",
 			">",
-			">- {feat/Hellish Shackles}"
+			">- {feat/Hellish Shackles}",
+			"",
+			"### Description",
+			"",
+			"The Despoiler of Horizons is known to have conquered eight worlds and has devotees among the most politically powerful individuals on Golarion."
 		]
 	},
 	"malthus": {
@@ -3495,7 +3765,11 @@
 			"",
 			">### Feats",
 			">",
-			">- {feat/Hellish Shackles}"
+			">- {feat/Hellish Shackles}",
+			"",
+			"### Description",
+			"",
+			"From his fortress-tower, Malthus the Five-Beaked oversees arms trade between Erebus and Phlegethon and obsesses over magical artillery and similar siege weaponry."
 		]
 	},
 	"mammon": {
@@ -3560,7 +3834,11 @@
 			">",
 			">### Traits",
 			">",
-			">- {trait/Flames of Hell}"
+			">- {trait/Flames of Hell}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"marishi": {
@@ -3592,7 +3870,11 @@
 			">",
 			">### Traits",
 			">",
-			">- {trait/Empyreal Focus}"
+			">- {trait/Empyreal Focus}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"matravash": {
@@ -3618,7 +3900,11 @@
 			"### On Golarion",
 			"",
 			"**Centers of Worship** Radripal  ",
-			"**Nationality** Vudra"
+			"**Nationality** Vudra",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"mazludeh": {
@@ -3639,7 +3925,11 @@
 			"**Subdomains** {domain/Agathion}, {domain/Archon (|Good)}, {domain/Azata (|Good)}, {domain/Cooperation}, {domain/Family}, {domain/Memory}  ",
 			"**Favored Weapon** {eq-armor/Heavy«_wooden» shield}  ",
 			"**Symbol** Seven eggs encircled by a snake eating its own tail  ",
-			"**Sacred Animal(s)** Anaconda"
+			"**Sacred Animal(s)** Anaconda",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"mazmezz": {
@@ -3709,6 +3999,10 @@
 			">",
 			">- {trait/Demonic Persuasion}",
 			"",
+			"### Description",
+			"",
+			"",
+			"",
 			"[^A]: Requires the {trait/Acolyte of Apocrypha} trait."
 		]
 	},
@@ -3755,7 +4049,11 @@
 			">",
 			">With very few exceptions, a demon lord is never born fully formed. Instead, each must build power and resources during an extended period of transformation. Demons in this transitional stage are known as nascent demon lords.",
 			">",
-			">At any one time, there exist hundreds - if not thousands - of nascent demon lords in the Abyss. All nascent demon lords are chaotic evil and range in power from CR 21 to CR 25. The boons they grant are less complex than those granted by demon lords, manifesting as spell-like abilities usable twice per day each."
+			">At any one time, there exist hundreds - if not thousands - of nascent demon lords in the Abyss. All nascent demon lords are chaotic evil and range in power from CR 21 to CR 25. The boons they grant are less complex than those granted by demon lords, manifesting as spell-like abilities usable twice per day each.",
+			"",
+			"### Description",
+			"",
+			"Cadaverous Menxyr, known to many as the Coffin Groom, stands nearly 12 feet tall but weighs barely 100 pounds. Despite his emaciated and seemingly fragile frame, which he can fold up to appear like little more than a tangled mess of old bones, he has great strength. He can pull forth bones from living creatures, animate the dead to serve his foul lusts, and even climb inside the bodies of the freshly dead to animate them and seduce those who mourn the loss of a loved one."
 		]
 	},
 	"mephistopheles": {
@@ -3861,7 +4159,11 @@
 			">",
 			">- :hll[spell/Summon Monster IV:] {monster/Guardian Scroll}",
 			">- :hll[spell/Summon Monster VIII:] {monster/Contract Devil (|Phistophilus)}",
-			">- :hll[spell/Summon Monster IX:] {monster/Heresy Devil (|Ayngavhaul)}"
+			">- :hll[spell/Summon Monster IX:] {monster/Heresy Devil (|Ayngavhaul)}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"mestama": {
@@ -3939,7 +4241,11 @@
 			">",
 			">### Traits",
 			">",
-			">- {trait/Demonic Persuasion}"
+			">- {trait/Demonic Persuasion}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"mhar": {
@@ -4115,7 +4421,11 @@
 			">{SOURCE Inner Sea Faiths/72}",
 			">",
 			">- Milani's priests understand that a revolutionary's work is often rewarded with death, and they accept that they may one day be called to die for a cause. Fortunately, the goddess teaches that the truly devout who are martyred saving other people from death or tyranny will rise again in some way - perhaps even immediately, though being reborn in the faith is much more likely.",
-			">- Some priests claim to be the incarnations of past followers of the goddess, able to access memories of past lives with the proper magic and meditation. A follower born after Milani ascended to godhood (about a century ago) can attempt to search for his past lives' memories by casting legend lore, which Milani grants only for this purpose to clerics, inquisitors, and warpriests as a 4th-level divine spell. The first time a caster attempts this use of the spell, he rolls 1d4-1 to determine the number of specific followers of Milani whose memories he accesses; each time he uses the spell, it reveals only information known to those individuals. If the result of the roll is 0, the caster can access no memories, either because he is not a reincarnated follower of Milani or because the goddess has not made his past lives' memories available."
+			">- Some priests claim to be the incarnations of past followers of the goddess, able to access memories of past lives with the proper magic and meditation. A follower born after Milani ascended to godhood (about a century ago) can attempt to search for his past lives' memories by casting legend lore, which Milani grants only for this purpose to clerics, inquisitors, and warpriests as a 4th-level divine spell. The first time a caster attempts this use of the spell, he rolls 1d4-1 to determine the number of specific followers of Milani whose memories he accesses; each time he uses the spell, it reveals only information known to those individuals. If the result of the roll is 0, the caster can access no memories, either because he is not a reincarnated follower of Milani or because the goddess has not made his past lives' memories available.",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	}
 }

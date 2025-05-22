@@ -2965,9 +2965,6 @@
 			"| 8th | 18th | 20th |",
 			"| 9th | 20th | &mdash; |",
 			"",
-			"[^1]: Bouncing, disruptive, intensified, lingering, or scarring ability.",
-			"[^2]: Fearsome, sickening, or traumatic ability.",
-			"",
 			"### Origin Feats",
 			"",
 			"{SOURCE Plane-Hopper's Handbook/16;Pathfinder #139: The Dead Road/73}  ",
@@ -2989,7 +2986,10 @@
 			"",
 			"### Mythic Feats",
 			"",
-			"{main/feats_<Mythic/ feats} (144 feats) are used with the {rule/mythic rules}, and are mostly upgrades to other, already-existing feats."
+			"{main/feats_<Mythic/ feats} (144 feats) are used with the {rule/mythic rules}, and are mostly upgrades to other, already-existing feats.",
+			"",
+			"[^1]: Bouncing, disruptive, intensified, lingering, or scarring ability.",
+			"[^2]: Fearsome, sickening, or traumatic ability."
 		],
 		"parent_topics": [
 			"basics",

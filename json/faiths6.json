@@ -18,7 +18,11 @@
 			"**Favored Weapon** {eq-weapon/Javelin}  ",
 			"**Symbol** Bat-shaped rune  ",
 			"**Sacred Animal(s)** Bat  ",
-			"**Sacred Color(s)** Black, red"
+			"**Sacred Color(s)** Black, red",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"cayden_cailean": {
@@ -212,6 +216,10 @@
 			">- :hll[spell/Summon Monster III:] {monster/Satyr} - CG (without pipes)",
 			">- :hll[spell/Summon Monster V:] {monster/Rust Monster} - N, {monster/Satyr} - CG (with pipes)",
 			"",
+			"### Description",
+			"",
+			"",
+			"",
 			"[^K]: Can only be used to open welds, shackles, or chains used to imprison or hobble someone."
 		]
 	},
@@ -245,7 +253,11 @@
 			">",
 			">### Traits",
 			">",
-			">- {trait/Empyreal Focus}"
+			">- {trait/Empyreal Focus}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"ceyannan": {
@@ -284,7 +296,11 @@
 			">### Prestige Classes",
 			">",
 			">- {pclass/Mortal Usher}",
-			">- {pclass/Proctor}"
+			">- {pclass/Proctor}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"chadali": {
@@ -331,7 +347,11 @@
 			">",
 			">### Traits",
 			">",
-			">- {trait/Empyreal Focus}"
+			">- {trait/Empyreal Focus}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"chaldira_zuzaristan": {
@@ -384,7 +404,11 @@
 			">#### Cleric, Warpriest",
 			">",
 			">- {spell/Mage Hand} can be prepared as a 0-level spell",
-			">- {spell/Expeditious Retreat} can be prepared as a 1st-level spell"
+			">- {spell/Expeditious Retreat} can be prepared as a 1st-level spell",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"chaldira": { "copyof": "chaldira_zuzaristan" },
@@ -411,11 +435,15 @@
 			">Pray while performing a false divination for a stranger in which you reveal the person's death. Gain a +1 profane bonus to the DC of your enchantment spells and abilities.",
 			">",
 			">{SOURCE Book of the Damned/133}  ",
-			">Sahkil tormentors hold dominion over mortal fears and suffering. All are chaotic evil and range in power from CR 21 to CR 25. Their boons are less complex than those of other demigods, manifesting as spell-like abilities usable twice per day each.",
+			">{family/Sahkil} tormentors hold dominion over mortal fears and suffering. All are chaotic evil and range in power from CR 21 to CR 25. Their boons are less complex than those of other demigods, manifesting as spell-like abilities usable twice per day each.",
 			">",
 			">1. {spell/grasping corpse}",
 			">2. {spell/animate dead}",
-			">3. {spell/create undead}"
+			">3. {spell/create undead}",
+			"",
+			"### Description",
+			"",
+			"Chamiaholom lords over the fear of death and sends his wicked minions to remind mortals that their day will come. A gaunt, skeletal tormentor, Skull Staff stands twice the height of the tallest human and carries a staff made of the skulls of those he's killed."
 		]
 	},
 	"charg": {
@@ -441,7 +469,7 @@
 			">Meditate on the hunting habits of a dangerous animal. The duration of your conjuration spells and spell-like abilities increases by 2 rounds.",
 			">",
 			">{SOURCE Book of the Damned/133}  ",
-			">Sahkil tormentors hold dominion over mortal fears and suffering. All are chaotic evil and range in power from CR 21 to CR 25. Their boons are less complex than those of other demigods, manifesting as spell-like abilities usable twice per day each.",
+			">{family/Sahkil} tormentors hold dominion over mortal fears and suffering. All are chaotic evil and range in power from CR 21 to CR 25. Their boons are less complex than those of other demigods, manifesting as spell-like abilities usable twice per day each.",
 			">",
 			">1. {spell/touch of idiocy}",
 			">2. {feat/extended} {spell/sands of time}",
@@ -451,7 +479,11 @@
 			"",
 			">### Traits",
 			">",
-			">- {trait/Burst of Speed}"
+			">- {trait/Burst of Speed}",
+			"",
+			"### Description",
+			"",
+			"The Typhon Wheel is a conglomeration of swirling heads, organs, and limbs both humanoid and monstrous."
 		]
 	},
 	"charon": {
@@ -523,7 +555,11 @@
 			">",
 			">### Traits",
 			">",
-			">- {trait/Covenant of Abaddon}"
+			">- {trait/Covenant of Abaddon}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"chaugnar_faugn": {
@@ -602,7 +638,11 @@
 			">",
 			">1. {spell/scorching ray}",
 			">2. {spell/pyrotechnic eruption}",
-			">3. {spell/contagious flame}"
+			">3. {spell/contagious flame}",
+			"",
+			"### Description",
+			"",
+			"Chavazvug appears as a towering tangle of fire-drooling digestive organs that stumbles and crawls on impossibly long, thin legs. He is unusual among the qlippoth in that his hatred is not of mortal life but of demonic life. He often invades demonic realms with armies of minions to wage war, content in the knowledge that if slain, he can grow a new body from one of thousands of boiling lakes of bile in his hidden lair."
 		]
 	},
 	"chimon": {
@@ -634,7 +674,11 @@
 			">",
 			">1. {spell/find traps}",
 			">2. {spell/greater invisibility}",
-			">3. {spell/blade barrier}"
+			">3. {spell/blade barrier}",
+			"",
+			"### Description",
+			"",
+			"The Hunter of Blood is a cunning stalker of prey, master of ambushes, and skilled trapper. He stalks the vast expanse of the Forest of Spirits, appearing as a flensed {monster/ogre mage} whose arrow-perforated body constantly weeps blood."
 		]
 	},
 	"chinostes_evil_aspect": {
@@ -670,7 +714,15 @@
 			">",
 			">### Other Rules",
 			">",
-			">- Chinostes can grant up to 6th-level spells"
+			">- Chinostes can grant up to 6th-level spells",
+			"",
+			"### Description",
+			"",
+			"When a Sylirican raiding party struck his village in Pol-Reanpharos, the bold saddler Chinostes drew the assailants away from his unarmed neighbors and slew their leader with his trim knife. Becoming famous for his daring defense, Chinostes governed and defended Reanpharos as the city's hero-god for 13 years, bringing prosperity to the City Between Two Rivers.",
+			"",
+			"Chinostes perished while hunting a nocturnal beast that he identified too late as a {template/vampire}, and shepherds found and returned his bloodless body to his temple a day later. That night, the hero-god awoke, granted new life and fresh hunger. He killed several of his followers and fled with more in tow. Ever since, Chinostes (male mythic vampire swashbuckler 12) has haunted Reanpharos, occasionally preying on people while also defending his city from more brazen threats. Preferring the rare disappearance or murder to anything worse that might fill the vacuum, the populace has largely accepted this situation.",
+			"",
+			"Despite his transformation, Chinostes continues to grant spells to both the good-aligned followers of his old teachings as well as the evil disciples of his new religion. His evil followers embrace the dark tragedy of his transformation and see this as a just sacrifice to safeguard all they hold dear. His good-aligned priests insist that Chinostes still struggles against vampirism. To them, the greatest service they can perform to their hero-god is to kill him, and each acolyte trains for this eventuality."
 		]
 	},
 	"chinostes_good_aspect": {
@@ -706,7 +758,15 @@
 			">",
 			">### Other Rules",
 			">",
-			">- Chinostes can grant up to 6th-level spells."
+			">- Chinostes can grant up to 6th-level spells.",
+			"",
+			"### Description",
+			"",
+			"When a Sylirican raiding party struck his village in Pol-Reanpharos, the bold saddler Chinostes drew the assailants away from his unarmed neighbors and slew their leader with his trim knife. Becoming famous for his daring defense, Chinostes governed and defended Reanpharos as the city's hero-god for 13 years, bringing prosperity to the City Between Two Rivers.",
+			"",
+			"Chinostes perished while hunting a nocturnal beast that he identified too late as a {template/vampire}, and shepherds found and returned his bloodless body to his temple a day later. That night, the hero-god awoke, granted new life and fresh hunger. He killed several of his followers and fled with more in tow. Ever since, Chinostes (male mythic vampire swashbuckler 12) has haunted Reanpharos, occasionally preying on people while also defending his city from more brazen threats. Preferring the rare disappearance or murder to anything worse that might fill the vacuum, the populace has largely accepted this situation.",
+			"",
+			"Despite his transformation, Chinostes continues to grant spells to both the good-aligned followers of his old teachings as well as the evil disciples of his new religion. His evil followers embrace the dark tragedy of his transformation and see this as a just sacrifice to safeguard all they hold dear. His good-aligned priests insist that Chinostes still struggles against vampirism. To them, the greatest service they can perform to their hero-god is to kill him, and each acolyte trains for this eventuality."
 		]
 	},
 	"laivatiniel": {
@@ -744,7 +804,11 @@
 			">",
 			">1. {spell/unnatural lust}",
 			">2. {spell/fear}",
-			">3. {spell/unwilling shield}"
+			">3. {spell/unwilling shield}",
+			"",
+			"### Description",
+			"",
+			"Laivatiniel, the Chains in the Cradle, appears as a smiling elderly woman with a dozen scorched and skeletal arms."
 		]
 	},
 	"lalaci": {
@@ -792,6 +856,10 @@
 			">### Traits",
 			">",
 			">- {trait/Empyreal Focus}",
+			"",
+			"### Description",
+			"",
+			"",
 			"",
 			"[^A]: Requires the {trait/Acolyte of Apocrypha} trait."
 		]
@@ -1012,6 +1080,10 @@
 			">",
 			">- Druids and Rangers can use {spell/summon nature's ally>_1} spells to summon fiendish animals from the same level summon monster list.",
 			"",
+			"### Description",
+			"",
+			"",
+			"",
 			"[^A]: Requires the {trait/Acolyte of Apocrypha} trait."
 		]
 	},
@@ -1040,7 +1112,11 @@
 			"",
 			">### Archetypes",
 			">",
-			">- {arc-antipaladin/Iron Tyrant/ (Antipaladin)}"
+			">- {arc-antipaladin/Iron Tyrant/ (Antipaladin)}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"lao_shu_po": {
@@ -1072,7 +1148,11 @@
 			"",
 			">### Magic Items - Weapons",
 			">",
-			">- {magic-weapon/Feast of Rats}"
+			">- {magic-weapon/Feast of Rats}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"libicocco": {
@@ -1114,7 +1194,11 @@
 			"",
 			">### Feats",
 			">",
-			">- {feat/Hellish Shackles}"
+			">- {feat/Hellish Shackles}",
+			"",
+			"### Description",
+			"",
+			"It is said that the Prideful Lady of the Winds was once part of an ancient alliance of four malebranche dedicated to conquering entire planets on the Material Plane. She broke with her now-slain allies to pursue the utter destruction of all that's good."
 		]
 	},
 	"lissala_pre_earthfall": {
@@ -1134,7 +1218,15 @@
 			"**Domains** {domain/Knowledge}, {domain/Law}, {domain/Nobility}, {domain/Rune}  ",
 			"**Subdomains** {domain/Language}, {domain/Leadership}, {domain/Memory}, {domain/Thought}, {domain/Wards}  ",
 			"**Favored Weapon** {eq-weapon/Whip}  ",
-			"**Symbol** Seven-pointed star"
+			"**Symbol** Seven-pointed star",
+			"",
+			"### Description",
+			"",
+			"In ancient Azlant, Lissala taught the philosophical concept of the seven virtues of rule. She found worshipers among those who dedicated their live and work to law and the revelation of knowledge. Her priests integrated themselves into universities and legislatures, working tirelessly at their personal research projects while attempting to draw other scholarly believers to the faith. Lissala taught the great importance of law and obedience, though in Azlant she hadn't yet embraced the cruelty of sin magic. Lissala's faith wasn't understood by many at first. As the empire grew, so did the number of her faithful, but even during this time, she was still only a minor deity. It wasn't until Xin was exiled and founded Thassilon on the shores of Avistan that her faith saw a renaissance. It was then, over time, that Lissala embraced condescension, evil, and violence, and rose to become a true god.",
+			"",
+			"Toward the end of Azlant, the cults of Lissala that didn't follow Xin to Thassilon and chose to continue worshiping Lissala as they always had greatly dwindled in number. Thassilonian cults of Lissala often sent missionaries back to Azlant to exterminate the cults there that they now regarded as heretical.",
+			"",
+			"Some Lissalan cults found {faith/Sicva/'s} dominating dogma enticing and would sometimes work with her devotees, as both groups recognized the importance of duty and structure."
 		]
 	},
 	"lissala": {
@@ -1186,6 +1278,10 @@
 			">",
 			">- :hll[spell/Summon Monster VI:] {template/Advanced} {monster/Kyton/ Evangelist} - LE (extraplanar), {monster/Dark Naga} - LE",
 			"",
+			"### Description",
+			"",
+			"",
+			"",
 			"[^A]: Requires the {trait/Acolyte of Apocrypha} trait."
 		]
 	},
@@ -1224,7 +1320,11 @@
 			">",
 			">1. {spell/alter self}",
 			">2. {spell/fear}",
-			">3. {spell/lash of the astradaemon}"
+			">3. {spell/lash of the astradaemon}",
+			"",
+			"### Description",
+			"",
+			"Llamolaek, the Ascended, appears as a massive golden one-eyed fiend. He wages a lengthy conflict against the divs, and hopes someday to have used resources gained from this war to advance his own power."
 		]
 	},
 	"lorcan": {
@@ -1268,7 +1368,11 @@
 			"",
 			">### Feats",
 			">",
-			">- {feat/Hellish Shackles}"
+			">- {feat/Hellish Shackles}",
+			"",
+			"### Description",
+			"",
+			"The Red Reply wages war in the shared Revenant Court for the souls of the vampiric worshipers of Malebolge."
 		]
 	},
 	"lorris": {
@@ -1300,7 +1404,11 @@
 			">",
 			">### Traits",
 			">",
-			">- {trait/Empyreal Focus}"
+			">- {trait/Empyreal Focus}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"lorthact": {
@@ -1345,7 +1453,11 @@
 			"",
 			">### Feats",
 			">",
-			">- {feat/Hellish Shackles}"
+			">- {feat/Hellish Shackles}",
+			"",
+			"### Description",
+			"",
+			"Exiled from Hell to the Material Plane, Lorthact the Unraveler appears as a handsome devil in his true form, but he prefers to hide within the flesh and mind of a mortal host."
 		]
 	},
 	"losarkur": {
@@ -1389,7 +1501,11 @@
 			"",
 			">### Feats",
 			">",
-			">- {feat/Hellish Shackles}"
+			">- {feat/Hellish Shackles}",
+			"",
+			"### Description",
+			"",
+			"The Beastlord of Avernus breeds packs of hell hounds and other beasts for Hell's armies and hunts."
 		]
 	},
 	"lymnieris": {
@@ -1436,7 +1552,11 @@
 			">",
 			">### Traits",
 			">",
-			">- {trait/Empyreal Focus}"
+			">- {trait/Empyreal Focus}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"lythertida": {
@@ -1468,7 +1588,11 @@
 			">",
 			">### Traits",
 			">",
-			">- {trait/Empyreal Focus}"
+			">- {trait/Empyreal Focus}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"taraksun": {
@@ -1500,7 +1624,11 @@
 			">",
 			">1. {spell/deep slumber}",
 			">2. {spell/night terrors}",
-			">3. {spell/dream voyage}"
+			">3. {spell/dream voyage}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"teshallas": {
@@ -1539,7 +1667,11 @@
 			">### Prestige Classes",
 			">",
 			">- {pclass/Mortal Usher}",
-			">- {pclass/Proctor}"
+			">- {pclass/Proctor}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"thamir_gixx": {
@@ -1629,7 +1761,11 @@
 			">{SOURCE Pathfinder #131: The Reaper's Right Hand/72}",
 			">",
 			">- :hll[spell/Summon Monster IV:] {monster/Shadow}",
-			">- :hll[spell/Summon Monster VII:] {monster/Greater Shadow}"
+			">- :hll[spell/Summon Monster VII:] {monster/Greater Shadow}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"the_green_mother": {
@@ -1686,6 +1822,10 @@
 			">",
 			">- {trait/Shaper of Reality}",
 			"",
+			"### Description",
+			"",
+			"",
+			"",
 			"[^A]: Requires the {trait/Acolyte of Apocrypha} trait."
 		]
 	},
@@ -1734,7 +1874,11 @@
 			">",
 			">### Traits",
 			">",
-			">- {trait/Shaper of Reality}"
+			">- {trait/Shaper of Reality}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"the_lost_prince": {
@@ -1782,7 +1926,11 @@
 			">",
 			">### Traits",
 			">",
-			">- {trait/Shaper of Reality}"
+			">- {trait/Shaper of Reality}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"the_pale_horse": {
@@ -1821,7 +1969,11 @@
 			">### Prestige Classes",
 			">",
 			">- {pclass/Mortal Usher}",
-			">- {pclass/Proctor}"
+			">- {pclass/Proctor}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"thisamet": {
@@ -1853,7 +2005,11 @@
 			">",
 			">### Traits",
 			">",
-			">- {trait/Empyreal Focus}"
+			">- {trait/Empyreal Focus}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"thoth": {
@@ -1874,7 +2030,11 @@
 			"**Subdomains** {domain/Arcane}, {domain/Inevitable}, {domain/Language}, {domain/Memory}, {domain/Moon}, {domain/Wards}  ",
 			"**Favored Weapon** {eq-weapon/Sickle}  ",
 			"**Symbol** Scroll with lunar disk and crescent  ",
-			"**Sacred Animal(s)** Ibis"
+			"**Sacred Animal(s)** Ibis",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"thremyr": {
@@ -1896,7 +2056,11 @@
 			"**Favored Weapon** {eq-weapon/Greataxe}  ",
 			"**Symbol** Frozen blue gemstone  ",
 			"**Sacred Animal(s)** Woolly rhinoceros  ",
-			"**Sacred Color(s)** Ice blue, white"
+			"**Sacred Color(s)** Ice blue, white",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"thuskchoon": {
@@ -1933,7 +2097,11 @@
 			">",
 			">1. {spell/shatter}",
 			">2. {spell/hunger for flesh}",
-			">3. {spell/legend lore}"
+			">3. {spell/legend lore}",
+			"",
+			"### Description",
+			"",
+			"A towering spire of clattering limbs and mouths that slithers upon a glistening, sluglike body, Thuskchoon is a nearly mindless force of relentless devastation and consumption. His worshipers expect little from him and seek to lead him from world to world under the belief that the meandering swath of destruction he leaves behind will contain secrets to power."
 		]
 	},
 	"titivilus": {
@@ -1977,7 +2145,11 @@
 			"",
 			">### Feats",
 			">",
-			">- {feat/Hellish Shackles}"
+			">- {feat/Hellish Shackles}",
+			"",
+			"### Description",
+			"",
+			"One of Hell's best and most notorious record keepers, the Scrivening Count maintains meticulous notes on all the creatures - mortal and immortal alike - who owe or have made promises to {faith/Mephistopheles}, his liege."
 		]
 	},
 	"tjasse": {
@@ -1999,7 +2171,11 @@
 			"**Favored Weapon** {eq-weapon/Spear}  ",
 			"**Symbol** Mountain gripped by talon  ",
 			"**Sacred Animal(s)** Roc  ",
-			"**Sacred Color(s)** Gray, red"
+			"**Sacred Color(s)** Gray, red",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"tolc": {
@@ -2046,7 +2222,11 @@
 			">",
 			">### Traits",
 			">",
-			">- {trait/Empyreal Focus}"
+			">- {trait/Empyreal Focus}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"torag": {
@@ -2238,7 +2418,11 @@
 			">{SOURCE Pathfinder #62: Curse of the Lady's Light/75}",
 			">",
 			">- :hll[spell/Summon Monster I:] {monster/Badger}",
-			">- :hll[spell/Summon Monster III:] {monster/Azer}, {monster/Dire Badger}"
+			">- :hll[spell/Summon Monster III:] {monster/Azer}, {monster/Dire Badger}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"treerazer": {
@@ -2280,7 +2464,11 @@
 			">",
 			">With very few exceptions, a demon lord is never born fully formed. Instead, each must build power and resources during an extended period of transformation. Demons in this transitional stage are known as nascent demon lords.",
 			">",
-			">At any one time, there exist hundreds - if not thousands - of nascent demon lords in the Abyss. All nascent demon lords are chaotic evil and range in power from CR 21 to CR 25. The boons they grant are less complex than those granted by demon lords, manifesting as spell-like abilities usable twice per day each."
+			">At any one time, there exist hundreds - if not thousands - of nascent demon lords in the Abyss. All nascent demon lords are chaotic evil and range in power from CR 21 to CR 25. The boons they grant are less complex than those granted by demon lords, manifesting as spell-like abilities usable twice per day each.",
+			"",
+			"### Description",
+			"",
+			"Treerazer, the self-styled Lord of the Blasted Tarn, was once the favored minion (some even say child) of {faith/Cyth-V'sug}. After a failed attempt to wrest Cyth-V'sug's crown away from him, Treerazer fled to the Material Plane. There he appeared in the realm of Kyonin, abandoned when the elves fled Golarion, and corrupted that land into a swampy realm more to his liking. When the elves retuned to reclaim their ancestral home, Treerazer lost the resulting war, but he retained a portion of southern Kyonin as his realm - the swamp now known as Tanglebriar."
 		]
 	},
 	"trelmarixian": {
@@ -2353,7 +2541,11 @@
 			">",
 			">### Traits",
 			">",
-			">- {trait/Covenant of Abaddon}"
+			">- {trait/Covenant of Abaddon}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"tresmalvos": {
@@ -2391,7 +2583,11 @@
 			">",
 			">1. {spell/summon swarm} (rats only)",
 			">2. {spell/vermin shape II}",
-			">3. {spell/swarm skin}"
+			">3. {spell/swarm skin}",
+			"",
+			"### Description",
+			"",
+			"Tresmalvos, the Cistern Queen, appears as a drowned androgynous elf wearing a rusted iron crown, with piercing yellow eyes, a monstrous rat's tail, and other ever-shifting features. Her realm is a sprawling warren of sewer tunnels filled with the befouled trappings of royalty."
 		]
 	},
 	"trudd": {
@@ -2439,7 +2635,11 @@
 			">- {trait/Battlefield Caster}",
 			">- {trait/Guardian Smite}",
 			">- {trait/Mighty Protector}",
-			">- {trait/Steady Strength}"
+			">- {trait/Steady Strength}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"tsathoggua": {
@@ -2577,7 +2777,11 @@
 			">",
 			">- {spell/Faerie Fire} can be prepared as a 1st-level spell",
 			">- {spell/Calm Spirit} can be prepared as a 2nd-level spell",
-			">- {spell/Darkvision} can be prepared as a 2nd-level spell"
+			">- {spell/Darkvision} can be prepared as a 2nd-level spell",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"minderhal": {
@@ -2648,6 +2852,10 @@
 			">",
 			">- :hll[spell/Summon Monster VII:] {monster/Stone Giant} ({template/fiendish} or {template/resolute})",
 			"",
+			"### Description",
+			"",
+			"",
+			"",
 			"[^A]: Requires the {trait/Acolyte of Apocrypha} trait."
 		]
 	},
@@ -2686,7 +2894,11 @@
 			">",
 			">1. {spell/false life}",
 			">2. {spell/modify memory}",
-			">3. {spell/age resistance}"
+			">3. {spell/age resistance}",
+			"",
+			"### Description",
+			"",
+			"Mneoc, Grandfather Scab, looks like an elderly frost giant whose flensed flesh and exposed bones are carved with runes."
 		]
 	},
 	"moloch": {
@@ -2799,7 +3011,11 @@
 			">",
 			">- :hll[spell/Summon Monster III:] {monster/Phantom Armor (Guardian)} - LE",
 			">- :hll[spell/Summon Monster VI:] {monster/Warmonger Devil (|Levaloch)}",
-			">- :hll[spell/Summon Monster VIII:] {monster/Tophet}"
+			">- :hll[spell/Summon Monster VIII:] {monster/Tophet}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"monad": {
@@ -2837,7 +3053,11 @@
 			"",
 			">### Prestige Classes",
 			">",
-			">- {pclass/Proctor}"
+			">- {pclass/Proctor}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"mordiggian": {
@@ -2912,7 +3132,11 @@
 			">",
 			">1. {spell/summon nature's ally III}",
 			">2. {spell/greater teleport}",
-			">3. {spell/summon monster IX}"
+			">3. {spell/summon monster IX}",
+			"",
+			"### Description",
+			"",
+			"The Parasite Seed knows that redundancy is the only insurance. Across countless expanses, it has cultivated perfect beings - perfect singers, perfect reproducers, perfect killers. Now it seeks to propagate them to new homes, assuring that no one calamity can wipe out said perfection."
 		]
 	},
 	"mother_vulture": {
@@ -2951,7 +3175,11 @@
 			">### Prestige Classes",
 			">",
 			">- {pclass/Mortal Usher}",
-			">- {pclass/Proctor}"
+			">- {pclass/Proctor}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"mrtyu": {
@@ -2990,7 +3218,11 @@
 			">### Prestige Classes",
 			">",
 			">- {pclass/Mortal Usher}",
-			">- {pclass/Proctor}"
+			">- {pclass/Proctor}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"murnath": {
@@ -3036,7 +3268,11 @@
 			">",
 			">With very few exceptions, a demon lord is never born fully formed. Instead, each must build power and resources during an extended period of transformation. Demons in this transitional stage are known as nascent demon lords.",
 			">",
-			">At any one time, there exist hundreds - if not thousands - of nascent demon lords in the Abyss. All nascent demon lords are chaotic evil and range in power from CR 21 to CR 25. The boons they grant are less complex than those granted by demon lords, manifesting as spell-like abilities usable twice per day each."
+			">At any one time, there exist hundreds - if not thousands - of nascent demon lords in the Abyss. All nascent demon lords are chaotic evil and range in power from CR 21 to CR 25. The boons they grant are less complex than those granted by demon lords, manifesting as spell-like abilities usable twice per day each.",
+			"",
+			"### Description",
+			"",
+			"Lumbering Murnath, the Horned Rat, dwells in the foul sewers below the Abyssal city of Yanaron. Served by rats, chaotic evil wererats, and sewer-dwelling beasts, Murnath himself appears as a muscular horned rat the size of a horse, with a series of thin venomous spines at the tip of his tail and paws that bear a hideous resemblance to human hands."
 		]
 	},
 	"muronna": {
@@ -3068,7 +3304,11 @@
 			">",
 			">1. {spell/blindness//deafness}",
 			">2. {spell/greater invisibility}",
-			">3. {spell/mislead}"
+			">3. {spell/mislead}",
+			"",
+			"### Description",
+			"",
+			"The Dark Mother appears as a lithe {monster/ogre mage} with gray skin. Rumor holds that she dwells in an underground complex somewhere below Minkai's capital of Kasai."
 		]
 	},
 	"mursha": {
@@ -3100,7 +3340,11 @@
 			">",
 			">1. {feat/extended} {spell/speak with animals}",
 			">2. {spell/charm monster}",
-			">3. {spell/beast shape IV}"
+			">3. {spell/beast shape IV}",
+			"",
+			"### Description",
+			"",
+			"An enormous rakshasa who dwarfs all but the largest fiends, Mursha the Beastmaster has four heads: one bear, one panther, one shark, and one jackal. It's said that with a command he can bring droves of one or all of those beasts to do his bidding."
 		]
 	},
 	"myr": {
@@ -3126,7 +3370,17 @@
 			"",
 			">### Traits",
 			">",
-			">- {trait/Shared Ancestors}"
+			">- {trait/Shared Ancestors}",
+			"",
+			"### Description",
+			"",
+			"Myr represents the quest for perfection and respect for the ancestors who put individuals on their current paths. She teaches that a person's body and life are gifts to be cherished if one means to serve as a positive force in the world, and that dedicating one's life to amazing accomplishments honors one's lineage.",
+			"",
+			"In Azlanti society, many people prayed to Myr for the health of their children and their bloodlines. As the aristocracy became more prominent and noble heritage became a seeming prerequisite to enjoy the fruits of the empire, people flocked to churches of Myr in hopes of tracing their lineage back to some of the fabled founders of the Azlanti people. The Azlanti also worshiped Myr for her devotion to charity. In the purest sense, Myr represented the ideal that humanity, when most physically able and endowed with the greatest resources, should serve those less fortunate. She taught that those who had the most had the most to give and should provide for others to the best of their ability.",
+			"",
+			"Toward the end of the Azlanti empire, a growing number of citizens, - particularly athletes, warriors, and those who wished to be athletes or warriors - began to worship Myr because of the desire to improve their physical forms, eschewing her more studious or pure elements.",
+			"",
+			"While Myr is passionately in love with {faith/Elion} and misses him while he's on his frequent, long journeys, she is quietly thankful for the more stable household that results when he's not at home."
 		]
 	},
 	"naderi": {
@@ -3201,7 +3455,11 @@
 			">",
 			">- {spell/Confusion, Lesser} can be prepared as a 1st-level spell",
 			">- {spell/Crushing Despair} can be prepared as a 3rd-level spell",
-			">- {spell/Suffocation} can be prepared as a 5th-level spell"
+			">- {spell/Suffocation} can be prepared as a 5th-level spell",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"nalinivati": {
@@ -3242,6 +3500,10 @@
 			">",
 			">- {spell/Tail Strike} can be prepared as a 4th-level spell",
 			"",
+			"### Description",
+			"",
+			"",
+			"",
 			"[^A]: Requires the {trait/Acolyte of Apocrypha} trait."
 		]
 	},
@@ -3280,7 +3542,11 @@
 			">",
 			">1. {spell/darkness}",
 			">2. {spell/acid pit}",
-			">3. {spell/phobia}"
+			">3. {spell/phobia}",
+			"",
+			"### Description",
+			"",
+			"Nalmungder, He Who Waits Below the Stairs, dwells in a lightless realm snaking below other harbingers' domains. He appears as a shapeless mass of darkness and teeth."
 		]
 	},
 	"nameless": {
@@ -3306,11 +3572,15 @@
 			">Erase evidence of your deeds or compel a sentient creature to act against its own interests for your benefit. Gain a +2 profane bonus on Will saving throws.",
 			">",
 			">{SOURCE Book of the Damned/133}  ",
-			">Sahkil tormentors hold dominion over mortal fears and suffering. All are chaotic evil and range in power from CR 21 to CR 25. Their boons are less complex than those of other demigods, manifesting as spell-like abilities usable twice per day each.",
+			">{family/Sahkil} tormentors hold dominion over mortal fears and suffering. All are chaotic evil and range in power from CR 21 to CR 25. Their boons are less complex than those of other demigods, manifesting as spell-like abilities usable twice per day each.",
 			">",
 			">1. {spell/ghost whip}",
 			">2. {spell/charm monster}",
-			">3. {spell/mass suggestion}"
+			">3. {spell/mass suggestion}",
+			"",
+			"### Description",
+			"",
+			"Nameless manifests as a lingering thought in the back of one's mind, a misheard sound, or a vague sense of movement out of the corner of one's eye. Upon an Empty Throne seeks to crush those who aspire to power, and doesn't bother to discriminate between the righteous and the wicked."
 		]
 	},
 	"narakaas": {
@@ -3349,7 +3619,11 @@
 			">### Prestige Classes",
 			">",
 			">- {pclass/Mortal Usher}",
-			">- {pclass/Proctor}"
+			">- {pclass/Proctor}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"narriseminek": {
@@ -3387,7 +3661,11 @@
 			"",
 			">### Prestige Classes",
 			">",
-			">- {pclass/Proctor}"
+			">- {pclass/Proctor}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"nataka": {
@@ -3419,7 +3697,11 @@
 			">",
 			">1. {spell/flame blade}",
 			">2. {feat/extended} {spell/cup of dust}",
-			">3. {feat/maximized} {spell/fireball}"
+			">3. {feat/maximized} {spell/fireball}",
+			"",
+			"### Description",
+			"",
+			"To the Red King, there is no perfume sweeter than smoke. He appears as a towering, handsome {monster/fire yai} with two mouths and four eyes, and he dwells in a scorched valley that lies in the mountainous border region between Dtang Ma and Xa Hoi."
 		]
 	},
 	"zurapadyn": {
@@ -3451,7 +3733,11 @@
 			">",
 			">1. {spell/fireball}",
 			">2. {spell/delayed blast fireball}",
-			">3. {spell/meteor swarm}"
+			">3. {spell/meteor swarm}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"zursvaater": {
@@ -3532,7 +3818,11 @@
 			">",
 			">- :hll[spell/Summon Monster I:] {template/Burning Human |Skeleton} (extraplanar)",
 			">- :hll[spell/Summon Monster III:] {monster/Thoqqua}",
-			">- :hll[spell/Summon Monster VI:] {template/Burning Fire Giant |Skeleton} (extraplanar)"
+			">- :hll[spell/Summon Monster VI:] {template/Burning Fire Giant |Skeleton} (extraplanar)",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"zyphus": {
@@ -3639,6 +3929,10 @@
 			">- :hll[spell/Summon Monster III:] {monster/Cacodaemon}",
 			">- :hll[spell/Summon Monster IV:] {monster/Lacridaemon}",
 			">- :hll[spell/Summon Monster V:] {monster/Ceustodaemon}",
+			"",
+			"### Description",
+			"",
+			"",
 			"",
 			"[^A]: Requires the {trait/Acolyte of Apocrypha} trait."
 		]

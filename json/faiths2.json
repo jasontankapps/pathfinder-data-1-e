@@ -183,6 +183,10 @@
 			">",
 			">- Followers are forbidden from casting the {spell/rusting grasp} spell. Druids are permitted to wear metal armor, though they do not automatically gain proficiency in any other categories of armor. They cannot cast spells while wearing metal armor, nor does it meld with them when they use wild shape; druids interested in metal armor acquire a set for a specific beast form and have allies or slaves put it on them when it is time to fight.",
 			"",
+			"### Description",
+			"",
+			"",
+			"",
 			"[^A]: Requires the {trait/Acolyte of Apocrypha} trait."
 		]
 	},
@@ -354,6 +358,10 @@
 			">- :hll[spell/Summon Monster VIII:] {monster/Frost Giant} [^T], {template/Young} {monster/Cloud Giant} [^T]",
 			">- :hll[spell/Summon Monster IX:] {monster/Cloud Giant} [^T], {template/Young} {monster/Storm Giant} [^T]",
 			"",
+			"### Description",
+			"",
+			"",
+			"",
 			"[^A]: Requires the {trait/Acolyte of Apocrypha} trait.",
 			"[^T]: This creature is summoned with the {template/celestial} template if you are good, or with the {template/fiendish} template if you are evil; you may choose either if you are neutral.",
 			"[^W]: This is an aquatic variant that may also be used to communicate with underwater creatures in addition to land."
@@ -398,7 +406,11 @@
 			"",
 			">### Feats",
 			">",
-			">- {feat/Hellish Shackles}"
+			">- {feat/Hellish Shackles}",
+			"",
+			"### Description",
+			"",
+			"The Swarm Lord is said to be able to possess vermin and vermin swarms on the Material Plane, seeing through their eyes and enacting his will through their claws and teeth."
 		]
 	},
 	"grandmother_spider": {
@@ -464,7 +476,11 @@
 			">- {spell/Silent Image} can be prepared as a 1st-level spell",
 			">- {spell/Ventriloquism} can be prepared as a 1st-level spell",
 			">- {spell/Spider Climb} can be prepared as a 2nd-level spell",
-			">- {spell/Web} can be prepared as a 2nd-level spell"
+			">- {spell/Web} can be prepared as a 2nd-level spell",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"green_faith": {
@@ -535,7 +551,11 @@
 			">",
 			">{SOURCE Pathfinder #75: Demon's Heresy/64}",
 			">",
-			">- There are no clerics of the Green Faith; domains given are for Druids. The Green Faith is not headed by a deity, but is an order that worships and gains power from nature."
+			">- There are no clerics of the Green Faith; domains given are for Druids. The Green Faith is not headed by a deity, but is an order that worships and gains power from nature.",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"groetus": {
@@ -634,6 +654,10 @@
 			">- :hll[spell/Summon Monster II:] {monster/Akata} (extraplanar)",
 			">- :hll[spell/Summon Monster VI:] {monster/Chaos Beast}, {monster/Mothman} (extraplanar)",
 			"",
+			"### Description",
+			"",
+			"",
+			"",
 			"[^A]: Requires the {trait/Acolyte of Apocrypha} trait.",
 			"[^M]: Only clerics with the Madness or Void domain can do this."
 		]
@@ -702,7 +726,11 @@
 			">",
 			">- {spell/Burst of Insight} can be prepared as a 1st-level spell",
 			">- {spell/Object Reading} can be prepared as a 2nd-level spell",
-			">- {spell/Clairaudience//Clairvoyance} can be prepared as a 3rd-level spell"
+			">- {spell/Clairaudience//Clairvoyance} can be prepared as a 3rd-level spell",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"grundinnar": {
@@ -734,7 +762,11 @@
 			">",
 			">### Traits",
 			">",
-			">- {trait/Honeyed Words}"
+			">- {trait/Honeyed Words}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"guyuku": {
@@ -766,7 +798,11 @@
 			">",
 			">1. {spell/slipstream}",
 			">2. {spell/control water}",
-			">3. {spell/heroes' feast}"
+			">3. {spell/heroes' feast}",
+			"",
+			"### Description",
+			"",
+			"The Sea Devil dwells in an underwater grotto amid the deadly isles of southern Minata and appears as a blue-skinned, one-eyed woman with the lower body of an eel."
 		]
 	},
 	"gyronna": {
@@ -844,7 +880,11 @@
 			">",
 			">#### Cleric, Warpriest",
 			">",
-			">- {spell/Eyebite} can be prepared as a 6th-level spell"
+			">- {spell/Eyebite} can be prepared as a 6th-level spell",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"haagenti": {
@@ -914,6 +954,10 @@
 			">",
 			">- {trait/Demonic Persuasion}",
 			"",
+			"### Description",
+			"",
+			"",
+			"",
 			"[^A]: Requires the {trait/Acolyte of Apocrypha} trait."
 		]
 	},
@@ -958,7 +1002,11 @@
 			"",
 			">### Feats",
 			">",
-			">- {feat/Hellish Shackles}"
+			">- {feat/Hellish Shackles}",
+			"",
+			"### Description",
+			"",
+			"Three-headed Haborym resides in his 8-mile-long prison-fortress along with the imprisoned souls of some of the most dangerous beings to have ever lived."
 		]
 	},
 	"hadregash": {
@@ -1040,7 +1088,11 @@
 			">",
 			">- :hll[spell/Summon Monster II:] {monster/Goblin Snake}",
 			">- :hll[spell/Summon Monster V:] {monster/Barghest}",
-			">- :hll[spell/Summon Monster VI:] {monster/Greater Barghest}"
+			">- :hll[spell/Summon Monster VI:] {monster/Greater Barghest}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"haggakal": {
@@ -1062,7 +1114,11 @@
 			"**Favored Weapon** {eq-weapon/Greatclub}  ",
 			"**Symbol** Leering ogre face  ",
 			"**Sacred Animal(s)** Boar  ",
-			"**Sacred Color(s)** Tan, white"
+			"**Sacred Color(s)** Tan, white",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"halcamora": {
@@ -1109,7 +1165,11 @@
 			">",
 			">### Traits",
 			">",
-			">- {trait/Empyreal Focus}"
+			">- {trait/Empyreal Focus}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"hanspur": {
@@ -1192,7 +1252,11 @@
 			">",
 			">#### Ranger",
 			">",
-			">- {spell/Water Breathing} can be prepared as a 2nd-level spell"
+			">- {spell/Water Breathing} can be prepared as a 2nd-level spell",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"hastrikhal": {
@@ -1230,7 +1294,11 @@
 			">",
 			">1. {spell/flaming sphere}",
 			">2. {spell/wall of fire}",
-			">3. {spell/contagious flame}"
+			">3. {spell/contagious flame}",
+			"",
+			"### Description",
+			"",
+			"Hastrikhal, the Fires Within, appears as a young woman with a billowing cloud of greasy smoke as hair."
 		]
 	},
 	"hastur": {
@@ -1326,7 +1394,7 @@
 			"",
 			"His cultists are masters of subtle magics that can trick unsuspecting victims into opening the way for the King in Yellow. Hastur's symbol, the Yellow Sign, is often used in conjunction with such magic, and often those who find the Yellow Sign become doomed to host the King in Yellow in their own minds, slowly transforming into his agents. Some of his followers regard him as a patron of shepherds, believing that the bulk of humanity are but sheep to be gathered for an unknown future use.",
 			"",
-			"None know what Hastur looks like, for he has been imprisoned far longer than mortal life has existed. Those he takes as avatars when manifesting as the King in Yellow appear as entities clad in what seem to be frayed and tattered yellow robes. Only upon closer inspection are the “robes” revealed to be the creatures' flesh, and what lies hidden under the darkened hoods is horror incarnate."
+			"None know what Hastur looks like, for he has been imprisoned far longer than mortal life has existed. Those he takes as avatars when manifesting as the King in Yellow appear as entities clad in what seem to be frayed and tattered yellow robes. Only upon closer inspection are the \"robes\" revealed to be the creatures' flesh, and what lies hidden under the darkened hoods is horror incarnate."
 		]
 	},
 	"hataam": {
@@ -1352,11 +1420,15 @@
 			">Dam a small stream or another source of flowing water. Gain a +4 profane bonus on Swim checks.",
 			">",
 			">{SOURCE Book of the Damned/133}  ",
-			">Sahkil tormentors hold dominion over mortal fears and suffering. All are chaotic evil and range in power from CR 21 to CR 25. Their boons are less complex than those of other demigods, manifesting as spell-like abilities usable twice per day each.",
+			">{family/Sahkil} tormentors hold dominion over mortal fears and suffering. All are chaotic evil and range in power from CR 21 to CR 25. Their boons are less complex than those of other demigods, manifesting as spell-like abilities usable twice per day each.",
 			">",
 			">1. {spell/river whip}",
 			">2. {spell/phantasmal asphixiation}",
-			">3. {spell/control water}"
+			">3. {spell/control water}",
+			"",
+			"### Description",
+			"",
+			"Monstrous creatures who prey on the weak and humanoid cultists who dwell in dreadful mires and fetid swamps venerate Hataam. They ritually drown or dehydrate those they sacrifice to the River Eater. Hataam appears as a tangle of flotsam and decayed limbs."
 		]
 	},
 	"hathor": {
@@ -1377,7 +1449,11 @@
 			"**Subdomains** {domain/Azata (|Chaos)}, {domain/Azata (|Good)}, {domain/Cloud}, {domain/Exploration}, {domain/Love}, {domain/Revelry}, {domain/Trade}  ",
 			"**Favored Weapon** {eq-weapon/Short sword}  ",
 			"**Symbol** Solar disk with horns  ",
-			"**Sacred Animal(s)** Cow"
+			"**Sacred Animal(s)** Cow",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"hei_feng": {
@@ -1461,6 +1537,10 @@
 			">- {spell/Lightning Bolt} can be prepared as a 3rd-level spell",
 			">- {spell/Hydraulic Push} can be prepared as a 3rd-level spell",
 			"",
+			"### Description",
+			"",
+			"",
+			"",
 			"[^A]: Requires the {trait/Acolyte of Apocrypha} trait."
 		]
 	},
@@ -1493,7 +1573,11 @@
 			">",
 			">### Traits",
 			">",
-			">- {trait/Empyreal Focus}"
+			">- {trait/Empyreal Focus}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"horus": {
@@ -1514,7 +1598,11 @@
 			"**Subdomains** {domain/Day}, {domain/Feather}, {domain/Inevitable}, {domain/Leadership}, {domain/Light}, {domain/Wind}  ",
 			"**Favored Weapon** {eq-weapon/Khopesh}  ",
 			"**Symbol** Eye of Horus  ",
-			"**Sacred Animal(s)** Falcon"
+			"**Sacred Animal(s)** Falcon",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"hshurha": {
@@ -1546,7 +1634,11 @@
 			">",
 			">### Traits",
 			">",
-			">- {trait/Affinity for the Elements}"
+			">- {trait/Affinity for the Elements}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"hudima": {
@@ -1578,7 +1670,11 @@
 			">",
 			">1. {spell/mirror image}",
 			">2. {spell/glibness}",
-			">3. {spell/twin form}"
+			">3. {spell/twin form}",
+			"",
+			"### Description",
+			"",
+			"The Kinslayer was once conjoined to her twin. After making a deal with an infernal duke, she lured her sister into a torpid sleep and murdered her, which enabled her to step out of her old body and into a new immortal form."
 		]
 	},
 	"hydim": {
@@ -1610,7 +1706,11 @@
 			">",
 			">1. {feat/extended} {spell/feast of ashes}",
 			">2. {spell/insanity}",
-			">3. {spell/maze of madness and suffering}"
+			">3. {spell/maze of madness and suffering}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"iaozrael": {
@@ -1654,7 +1754,11 @@
 			"",
 			">### Feats",
 			">",
-			">- {feat/Hellish Shackles}"
+			">- {feat/Hellish Shackles}",
+			"",
+			"### Description",
+			"",
+			"Once a beautiful angel, Iaozrael fell completely to the evil the harbored deep in his heart when he reached out to touch {faith/Sarenrae/'s} brilliant wings and found his own soul wanting."
 		]
 	},
 	"iapholi": {
@@ -1697,6 +1801,14 @@
 			">",
 			">- Iapholi can grant 9th-level spells",
 			"",
+			"### Description",
+			"",
+			"Many of the first myth-speaking prophecies demanded daring acts of beast slaying, pitting would-be hero-gods against the likes of hydras, minotaurs, and wyverns. As these godlings increasingly sought out Iblydan monsters, the harpy Ekriathae sought some means of defending her inhuman kin. Using her songs, she wooed a trio of cyclopes from their acropolis and coaxed them into granting her a prophecy of her own. Upon fulfilling its terms and attaining mythic power, she became a force of vengeance, tracking and slaying those who purposefully hunted monsters. She perished of old age in -422 AR, surrounded by followers from dozens of species whom she entreated to consume her body that she might be reborn again in a time of need.",
+			"",
+			"Since then, the mysterious cult of Ekrian Revival has revered Ekriathae's deceased spirit, always watching for signs of her return. Six different monsters over the ages have received the cult's endorsement as her reincarnated successors, each born with mythic potential far exceeding their mortal form. The monsters of Iblydos rejoiced in 4702 when the bestial infant Iapholi received the cult's blessing.",
+			"",
+			"Raised almost entirely in Dhuraxilis, the young Iapholi (female half-fiend human oracle 4/hierophant 9) has embraced a philosophy of exalting and empowering monstrous creatures that matches the city-state's cosmopolitan ideals. As a result, the archipelago boasts a growing number of piously pensive and proud magical beasts less eager to provoke their humanoid neighbors. However, a strong contingent of traditionalist monsters chafes under the outwardly pacifist doctrine and urges Iapholi to drown the Iblydan city-states, which they see as invaders, in a wave of bloodshed once and for all. Numerous factions have sent assassins to snuff out Iapholi, hoping to either prevent a monstrous demigod from unifying the many beasts or use her death to rally a terrifying army.",
+			"",
 			"[^M]: Can only be used to assume the form of a magical beast."
 		]
 	},
@@ -1723,11 +1835,15 @@
 			">Hide an item valuable or sentimental to someone you know. Gain a +4 profane bonus on saving throws against divination effects.",
 			">",
 			">{SOURCE Book of the Damned/133}  ",
-			">Sahkil tormentors hold dominion over mortal fears and suffering. All are chaotic evil and range in power from CR 21 to CR 25. Their boons are less complex than those of other demigods, manifesting as spell-like abilities usable twice per day each.",
+			">{family/Sahkil} tormentors hold dominion over mortal fears and suffering. All are chaotic evil and range in power from CR 21 to CR 25. Their boons are less complex than those of other demigods, manifesting as spell-like abilities usable twice per day each.",
 			">",
 			">1. {spell/darkness}",
 			">2. {spell/acid pit}",
-			">3. {spell/phobia}"
+			">3. {spell/phobia}",
+			"",
+			"### Description",
+			"",
+			"Iggeret claims she was once a mortal who faked her own kidnapping just to see how it would affect her family and village. After her parents killed themselves out of despair, She Who Was Lost entombed herself with their bodies to join them in death. Iggeret appears as a young, drowned girl with a skeletal face."
 		]
 	},
 	"ilsurrish": {
@@ -1765,7 +1881,11 @@
 			"",
 			">### Prestige Classes",
 			">",
-			">- {pclass/Proctor}"
+			">- {pclass/Proctor}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"imbrex": {
@@ -1814,7 +1934,11 @@
 			">",
 			">### Traits",
 			">",
-			">- {trait/Shaper of Reality}"
+			">- {trait/Shaper of Reality}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"immonhiel": {
@@ -1863,6 +1987,10 @@
 			">",
 			">- {trait/Empyreal Focus}",
 			"",
+			"### Description",
+			"",
+			"",
+			"",
 			"[^A]: Requires the {trait/Acolyte of Apocrypha} trait."
 		]
 	},
@@ -1902,7 +2030,11 @@
 			">### Prestige Classes",
 			">",
 			">- {pclass/Mortal Usher}",
-			">- {pclass/Proctor}"
+			">- {pclass/Proctor}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"inkariax": {
@@ -1941,7 +2073,11 @@
 			"",
 			">### Monsters",
 			">",
-			">- {monster/Libitinarii}"
+			">- {monster/Libitinarii}",
+			"",
+			"### Description",
+			"",
+			"Stillness, solitude, and stasis: these are the true perfections. The White Death knows the fleetingness of perfection and seeks to preserve it. Whether in lands gripped by ice, ornate vaults, or deepest space, frozen-fingered Inkariax hoards and protects all manner of beautiful treasures, singular notes, and perfect souls against the ravages of entropy."
 		]
 	},
 	"inma": {
@@ -1973,7 +2109,11 @@
 			">",
 			">1. {spell/create treasure map}",
 			">2. {spell/charm monster}",
-			">3. {feat/extended} {spell/dominate person}"
+			">3. {feat/extended} {spell/dominate person}",
+			"",
+			"### Description",
+			"",
+			"The most powerful of the oni daimyo of Tian Xia is Inma, the Empress of the World. She dwells in a fortress nestled in a hidden valley under the highest peak in the oni-ruled nation of Chu Ye. She appears as dark-skinned, three-eyed, four-armed {monster/void yai}."
 		]
 	},
 	"iomedae": {
@@ -2195,6 +2335,10 @@
 			">- :hll[spell/Summon Monster VI:] {template/Celestial} {monster/Griffon} - NG",
 			">- :hll[spell/Summon Nature's Ally VI:] {template/Celestial} {monster/Griffon} - NG",
 			"",
+			"### Description",
+			"",
+			"",
+			"",
 			"[^A]: Requires the {trait/Acolyte of Apocrypha} trait."
 		]
 	},
@@ -2227,7 +2371,11 @@
 			">",
 			">1. {spell/spiked pit}",
 			">2. {spell/statue}",
-			">3. {spell/clashing rocks}"
+			">3. {spell/clashing rocks}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"irez": {
@@ -2274,7 +2422,11 @@
 			">",
 			">### Traits",
 			">",
-			">- {trait/Empyreal Focus}"
+			">- {trait/Empyreal Focus}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"irori": {
@@ -2486,6 +2638,10 @@
 			">",
 			">- Monks with access to the quivering palm ability may use it to render a target comatose for an extended period (lasting until the target receives a {spell/heal}, {spell/restoration}, or {spell/greater restoration} spell) rather than kill, chosen at the time the quivering palm is activated. Monks may use their wholeness of body ability on a willing creature as a standard action. The monk must touch the target, and the target becomes fatigued from this aid.",
 			"",
+			"### Description",
+			"",
+			"",
+			"",
 			"[^A]: Requires the {trait/Acolyte of Apocrypha} trait."
 		]
 	},
@@ -2507,7 +2663,11 @@
 			"**Subdomains** {domain/Agathion}, {domain/Arcane}, {domain/Divine}, {domain/Family}, {domain/Love}, {domain/Resurrection}  ",
 			"**Favored Weapon** {eq-weapon/Quarterstaff}  ",
 			"**Symbol** Knot of Isis  ",
-			"**Sacred Animal(s)** Kite"
+			"**Sacred Animal(s)** Kite",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"isph_aun_vuln": {
@@ -2543,7 +2703,11 @@
 			">",
 			">1. {spell/summon swarm}",
 			">2. {spell/fleshworm infestation}",
-			">3. {spell/plague storm}"
+			">3. {spell/plague storm}",
+			"",
+			"### Description",
+			"",
+			"One of the most intelligent and subversive of the qlippoth lords, Isph-Aun-Vuln is a monstrous parasite of the soul who, on the rare occasions she manifests outside of a hideously mutated host body, appears as a twisting mass of mist-shrouded, dripping tendrils tangled around a fanged anemone's maw. Isph-Aun-Vuln is particularly fond of using humanoid hosts to lead nations to suicidal ends through either war or decadence."
 		]
 	},
 	"ithaqua": {
@@ -2640,7 +2804,11 @@
 			"",
 			">### Archetypes",
 			">",
-			">- {arc-antipaladin/Iron Tyrant/ (Antipaladin)}"
+			">- {arc-antipaladin/Iron Tyrant/ (Antipaladin)}",
+			"",
+			"### Description",
+			"",
+			"Known as She of the Sevenfold Swarm, Izyagna has not just one body but seven. These bodies all share one mind, and each looks similar: a horrific, ant-like creature. Yet each body is also capable of transforming into one of seven different humanoid forms (human, dwarven, elven, gnome, halfling, half-elven, and half-orc). Izyagna can command swarms with a thought."
 		]
 	},
 	"jacarkas": {
@@ -2678,7 +2846,11 @@
 			">",
 			">1. {spell/enthrall}",
 			">2. {spell/charm monster}",
-			">3. {spell/wither limb}"
+			">3. {spell/wither limb}",
+			"",
+			"### Description",
+			"",
+			"Jacarkas, the Collector, rules the slave city of Awaiting Consumption, the grand marketplace of planar soul trade."
 		]
 	},
 	"jaidi": {
@@ -2704,7 +2876,15 @@
 			"",
 			">### Traits",
 			">",
-			">- {trait/Fruits of Your Labor}"
+			">- {trait/Fruits of Your Labor}",
+			"",
+			"### Description",
+			"",
+			"Jaidi is an ancient god, even for Azlant. At the height of the empire, Azlanti archaeologists uncovered ancient shrines filled with crude carvings of the sun and crook dating back thousands of years. Jaidi taught the Azlanti to develop farming and agriculture sufficient to sustain millions of citizens. Jaidi represents the satisfaction one feels when providing for a community. Those who dedicate themselves to the faith of Jaidi enjoy hard work and find pleasure in contributing their sweat and toil to help others in their communities. People in ancient Azlant prayed to Jaidi for strength and endurance. Traders and residents of agricultural settlements made up a large proportion of Jaidi's faithful. Cooks throughout the Azlanti empire often maintained small shrines to Jaidi in their kitchens.",
+			"",
+			"It is said that some of the survivors of Earthfall who spread into the world brought techniques they learned from their faith to try to help restore the land. Due to the aftereffects of Earthfall, they saw only limited success, but their dedication to hard work on behalf of the community gave the survivors the strength they needed to survive in the early years of the Age of Darkness. Some dedicated to agriculture for the sake of serving a community still worship Jaidi to this day, though most such are found in small, isolated communities scattered on other continents in Golarion.",
+			"",
+			"Jaidi didn't get along with {faith/Lissala} and felt that she placed too much emphasis on the negative aspects of hard work. Jaidi taught that people should be proud of their work rather than treat it as toil born of obligation or greed."
 		]
 	},
 	"jaidz": {
@@ -2753,6 +2933,10 @@
 			">",
 			">- {trait/Empyreal Focus}",
 			"",
+			"### Description",
+			"",
+			"",
+			"",
 			"[^A]: Requires the {trait/Acolyte of Apocrypha} trait."
 		]
 	},
@@ -2800,7 +2984,11 @@
 			">",
 			">### Traits",
 			">",
-			">- {trait/Empyreal Focus}"
+			">- {trait/Empyreal Focus}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"jerishall": {
@@ -2838,7 +3026,11 @@
 			"",
 			">### Prestige Classes",
 			">",
-			">- {pclass/Proctor}"
+			">- {pclass/Proctor}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"jezelda": {
@@ -2906,7 +3098,11 @@
 			">",
 			">### Traits",
 			">",
-			">- {trait/Demonic Persuasion}"
+			">- {trait/Demonic Persuasion}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"jiraviddain": {
@@ -2950,7 +3146,11 @@
 			"",
 			">### Feats",
 			">",
-			">- {feat/Hellish Shackles}"
+			">- {feat/Hellish Shackles}",
+			"",
+			"### Description",
+			"",
+			"A hideous fiend whose body consists of rotting meat, the Duke of Fissures is an unfailing sycophant of {faith/Baalzebul}."
 		]
 	},
 	"jubilex": {
@@ -3028,7 +3228,11 @@
 			">",
 			">### Traits",
 			">",
-			">- {trait/Demonic Persuasion}"
+			">- {trait/Demonic Persuasion}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"jyotah": {
@@ -3060,7 +3264,11 @@
 			">",
 			">1. {spell/calm emotions}",
 			">2. {spell/freedom of movement}",
-			">3. {spell/banishment}"
+			">3. {spell/banishment}",
+			"",
+			"### Description",
+			"",
+			"He Who Walks Among the Gods supposedly traveled to the realms of all deities in Hell, visiting with them and learning their ways, before he achieved immortality."
 		]
 	},
 	"kabriri": {
@@ -3147,7 +3355,11 @@
 			">",
 			">{SOURCE Mythic Realms/55}",
 			">",
-			">- When using {spell/create undead}, a cleric or oracle of Kabriri can create a ghul or great ghul from the corpse of a genie rather than creating a mummy (minimum caster level 15th). When creating a ghoul, ghast, ghul, or great ghul with this spell, a cleric or oracle of Kabriri can also apply the fiendish template to that creature. This requires the caster to double the normal material component cost or sacrifice a living humanoid as an additional material component of casting the spell."
+			">- When using {spell/create undead}, a cleric or oracle of Kabriri can create a ghul or great ghul from the corpse of a genie rather than creating a mummy (minimum caster level 15th). When creating a ghoul, ghast, ghul, or great ghul with this spell, a cleric or oracle of Kabriri can also apply the fiendish template to that creature. This requires the caster to double the normal material component cost or sacrifice a living humanoid as an additional material component of casting the spell.",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"kaikyton": {
@@ -3179,7 +3391,11 @@
 			">",
 			">1. {spell/stone shape}",
 			">2. {spell/greater polymorph}",
-			">3. {spell/shapechange}"
+			">3. {spell/shapechange}",
+			"",
+			"### Description",
+			"",
+			"A joiner of souls and unifier of skins, Kaikyton seeks to merge parts into greater wholes. The Stitchweaver left her mark upon Golarion during the Age of Darkness when she created the canyon city of Kagalko. Ever since, the Choir Vales of Southern Garund have been marred by the miles-long march of razor-sharp ridges known as Kyton Lace."
 		]
 	},
 	"kalma": {
@@ -3223,7 +3439,11 @@
 			"",
 			">### Feats",
 			">",
-			">- {feat/Hellish Shackles}"
+			">- {feat/Hellish Shackles}",
+			"",
+			"### Description",
+			"",
+			"Refined and beetle-like, the Rasping Count attracts flies from countless worlds that transport the souls of the unburied."
 		]
 	},
 	"kazutal": {
@@ -3304,7 +3524,11 @@
 			">#### Paladin",
 			">",
 			">- {spell/Blessing of Fervor} can be prepared as a 4th-level spell",
-			">- {spell/Freedom of Movement} can be prepared as a 4th-level spell"
+			">- {spell/Freedom of Movement} can be prepared as a 4th-level spell",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"kelinahat": {
@@ -3336,7 +3560,11 @@
 			">",
 			">### Traits",
 			">",
-			">- {trait/Empyreal Focus}"
+			">- {trait/Empyreal Focus}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"kelizandri": {
@@ -3369,7 +3597,11 @@
 			">",
 			">### Traits",
 			">",
-			">- {trait/Affinity for the Elements}"
+			">- {trait/Affinity for the Elements}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"kelksiomides": {
@@ -3403,7 +3635,11 @@
 			">#### Cleric, Oracle, Warpriest",
 			">",
 			">- {spell/Plant Growth} can be prepared as a 2nd-level spell [only for the spell's enrichment effect]",
-			">- {spell/Goodberry} can be prepared as a 1st-level spell"
+			">- {spell/Goodberry} can be prepared as a 1st-level spell",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"keltheald": {
@@ -3435,7 +3671,11 @@
 			">",
 			">### Traits",
 			">",
-			">- {trait/Empyreal Focus}"
+			">- {trait/Empyreal Focus}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"kerkamoth": {
@@ -3473,7 +3713,11 @@
 			"",
 			">### Prestige Classes",
 			">",
-			">- {pclass/Proctor}"
+			">- {pclass/Proctor}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"ketephys": {
@@ -3549,7 +3793,11 @@
 			">- {spell/Charm Animal} can be prepared as a 1st-level spell",
 			">- {spell/Animal Aspect} can be prepared as a 2nd-level spell",
 			">- {spell/Hold Animal} can be prepared as a 2nd-level spell",
-			">- {spell/Aspect of the Stag} can be prepared as a 4th-level spell"
+			">- {spell/Aspect of the Stag} can be prepared as a 4th-level spell",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"khepri": {
@@ -3570,7 +3818,11 @@
 			"**Subdomains** {domain/Agathion}, {domain/Day}, {domain/Deception}, {domain/Freedom}, {domain/Revolution}, {domain/Toil}  ",
 			"**Favored Weapon** {eq-weapon/Sling}  ",
 			"**Symbol** Blue scarab  ",
-			"**Sacred Animal(s)** Scarab beetle"
+			"**Sacred Animal(s)** Scarab beetle",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"kitumu": {
@@ -3593,6 +3845,10 @@
 			"**Symbol** Four legged firefly  ",
 			"**Sacred Animal(s)** Firefly  ",
 			"**Sacred Color(s)** Black, yellow",
+			"",
+			"### Description",
+			"",
+			"",
 			"",
 			"[^A]: Requires the {trait/Acolyte of Apocrypha} trait."
 		]
@@ -3621,6 +3877,10 @@
 			"",
 			"**Centers of Worship** Hongal, Hwanggot, Tianjing  ",
 			"**Nationality** Tian-Hwan",
+			"",
+			"### Description",
+			"",
+			"",
 			"",
 			"[^A]: Requires the {trait/Acolyte of Apocrypha} trait."
 		]
@@ -3662,7 +3922,11 @@
 			">",
 			">### Traits",
 			">",
-			">- {trait/Strict Judgment}"
+			">- {trait/Strict Judgment}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"korada": {
@@ -3711,6 +3975,10 @@
 			">### Traits",
 			">",
 			">- {trait/Empyreal Focus}",
+			"",
+			"### Description",
+			"",
+			"",
 			"",
 			"[^A]: Requires the {trait/Acolyte of Apocrypha} trait."
 		]
@@ -3822,7 +4090,11 @@
 			">- :hll[spell/Summon Monster VI:] {template/Fiendish} {monster/Ice Elemental (Large)}",
 			">- :hll[spell/Summon Monster VII:] {template/Fiendish} {monster/Ice Elemental (Huge)}",
 			">- :hll[spell/Summon Monster VIII:] {template/Fiendish} {monster/Ice Elemental (Greater)}",
-			">- :hll[spell/Summon Monster IX:] {template/Fiendish} {monster/Ice Elemental (Elder)}"
+			">- :hll[spell/Summon Monster IX:] {template/Fiendish} {monster/Ice Elemental (Elder)}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"kroakoth": {
@@ -3854,7 +4126,11 @@
 			">",
 			">1. **First Boon (Sp)** {spell/burning hands} 1/day",
 			">2. **Second Boon (Sp)** {spell/invisibility} 1/day",
-			">3. **Third Boon (Sp)** {spell/sepia snake sigil} 1/day"
+			">3. **Third Boon (Sp)** {spell/sepia snake sigil} 1/day",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"kroina": {
@@ -3886,7 +4162,11 @@
 			">",
 			">### Traits",
 			">",
-			">- {trait/Empyreal Focus}"
+			">- {trait/Empyreal Focus}",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	},
 	"kunkarna": {
@@ -3918,7 +4198,11 @@
 			">",
 			">1. {spell/detect thoughts}",
 			">2. {spell/mind probe}",
-			">3. {spell/dream scan}"
+			">3. {spell/dream scan}",
+			"",
+			"### Description",
+			"",
+			"Kunkarna the Dream Warrior is a bizarre immortal with incredible powers of mind reading and psychic magic. Oddly, no one has seen his true body in 99 lifetimes; he appears merely as a translucent, multi-headed spirit."
 		]
 	},
 	"kurgess": {
@@ -4011,6 +4295,10 @@
 			">- {spell/Expeditious Retreat} can be prepared as a 1st-level spell",
 			">- {spell/Jump} can be prepared as a 1st-level spell",
 			"",
+			"### Description",
+			"",
+			"",
+			"",
 			"[^A]: Requires the {trait/Acolyte of Apocrypha} trait."
 		]
 	},
@@ -4037,7 +4325,11 @@
 			"### On Golarion",
 			"",
 			"**Centers of Worship** Goka, Minata, Shaguang, Shenmen, Wanshou  ",
-			"**Nationality** Tian-Sing (Dragon)"
+			"**Nationality** Tian-Sing (Dragon)",
+			"",
+			"### Description",
+			"",
+			""
 		]
 	}
 }

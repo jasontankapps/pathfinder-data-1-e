@@ -55,8 +55,6 @@
 			"| Cleric, Hunter, Inquisitor, Magus, Medium, Ninja, Occultist, Rouge[^U] | 4d6 &times; 10 gp | 140 gp |",
 			"| Antipaladin, Cavalier, Gunslinger, Fighter, Paladin, Ranger, Samurai, Slayer, Swashbuckler, Vigilante, Warpriest | 5d6 &times; 10 gp | 175 gp |",
 			"",
-			"[^U]: The Unchained version of this class has the same starting gold.",
-			"",
 			"### Coins",
 			"",
 			"The most common coin is the gold piece (gp). A gold piece is worth 10 silver pieces (sp). Each silver piece is worth 10 copper pieces (cp). In addition to copper, silver, and gold coins, there are also platinum pieces (pp), which are each worth 10 gp.",
@@ -113,7 +111,9 @@
 			"",
 			"In general, a character can sell something for half its listed price, including weapons, armor, gear, and magic items. This also includes character-created items.",
 			"",
-			"Trade goods are the exception to the half-price rule. A trade good, in this sense, is a valuable good that can be easily exchanged almost as if it were cash itself."
+			"Trade goods are the exception to the half-price rule. A trade good, in this sense, is a valuable good that can be easily exchanged almost as if it were cash itself.",
+			"",
+			"[^U]: The Unchained version of this class has the same starting gold."
 		],
 		"parent_topics": [
 			"basics",
