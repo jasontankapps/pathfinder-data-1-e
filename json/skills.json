@@ -2556,6 +2556,8 @@
 			"**20 Ranks:** If you attack after successfully using Stealth, your target is denied its Dexterity bonus against all attacks that you make before the beginning of your next turn."
 		]
 	},
+	"sniping": { "copyof": "stealth" },
+	"snipe": { "copyof": "stealth" },
 	"survival": {
 		"name": "Survival",
 		"sources": [

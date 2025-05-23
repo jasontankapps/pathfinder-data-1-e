@@ -1244,6 +1244,7 @@
 		]
 	},
 	"gorilla": { "copyof": "ape_gorilla" },
+	"ape": { "copyof": "ape_gorilla" },
 	"ape_megaprimatus": {
 		"name": "Megaprimatus (Ape)",
 		"sources": [ "Bestiary 5" ],
