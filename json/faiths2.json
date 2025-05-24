@@ -922,7 +922,7 @@
 			">",
 			">1. **Novice Philosopher (Sp)** {spell/cure light wounds} 3/day, {spell/lesser restoration} 2/day, or {spell/cure serious wounds} 1/day",
 			">2. **Altered State (Su)** It is said that Haagenti introduced the concept of mutagens to the first alchemists at the dawn of time. Regardless of the veracity of this legend, your worship and faith in the Whispers Within grants you the ability to create a mutagen, as per an {class/alchemist} of a level equal to your Hit Dice - 4 (maximum 20th level). If you could already create mutagens, any mutagen you create from this point onward no longer applies its penalties to ability scores; in addition, any ability score increased by your mutagen increases by an additional 2 points.",
-			">3. **Immortal Chymist (Su)** You have mastered the legendary techniques of Haagenti's Divine Experiment. Your body no longer physically {rule/age/s} (although you continue to accrue mental bonuses), and you don't die from old age. If you were middle-aged or older, your body returns to its prime: you retain your mental bonuses but lose any penalties to Strength, Dexterity, and Constitution gained from advanced age. Each day, when you perform your obedience, you create a small amount of mystic quicksilver; if mixed with a potion of cure serious wounds, it creates a dose of {magic-wondrous/oil of life}. Just like that created by a philosopher's stone, if this oil is sprinkled over a dead body (a standard action), it revives the dead creature as per {spell/true resurrection}. Alternatively, the quicksilver can be used to convert up to 1 pound of lead into gold (worth a maximum of 50 gp). This quicksilver loses its potency after 24 hours or when you next perform your obedience.",
+			">3. **Immortal Chymist (Su)** You have mastered the legendary techniques of Haagenti's Divine Experiment. Your body no longer physically {rule/age/s} (although you continue to accrue mental bonuses), and you don't die from old age. If you were middle-aged or older, your body returns to its prime: you retain your mental bonuses but lose any penalties to Strength, Dexterity, and Constitution gained from advanced age. Each day, when you perform your obedience, you create a small amount of mystic quicksilver; if mixed with a potion of cure serious wounds, it creates a dose of oil of life. Just like that created by a philosopher's stone, if this oil is sprinkled over a dead body (a standard action), it revives the dead creature as per {spell/true resurrection}. Alternatively, the quicksilver can be used to convert up to 1 pound of lead into gold (worth a maximum of 50 gp). This quicksilver loses its potency after 24 hours or when you next perform your obedience.",
 			">",
 			">### Boons: Exalted or Demonic Obedience",
 			">",
@@ -1713,7 +1713,7 @@
 			"",
 			"### Description",
 			"",
-			""
+			"Hydim appears as an emaciated man with a face on the front and the back of his head. Each of his arms ends in a pair of hands with separate wrists that bend in opposite directions. He was born from the ravenous hunger of a nation where a fickle god accidentally created a devastating famine."
 		]
 	},
 	"iaozrael": {
@@ -2378,7 +2378,7 @@
 			"",
 			"### Description",
 			"",
-			""
+			"Ioramvol suffered countless deaths via falls, premature burial, and rockslides before finally being reborn as Ioramvol with the Mouth Full of Boulders. He appears as a lumbering, tattooed colossus pierced with shards of rock, and he is capable of spitting jagged rocks from his toothless maw."
 		]
 	},
 	"irez": {
@@ -3196,7 +3196,7 @@
 			">",
 			">1. **Sign of the Faceless Lord (Sp)** {spell/grease} 3/day, {spell/delay poison} 2/day, or {spell/slow} 1/day",
 			">2. **Poisonous Touch (Sp)** Up to 3 times per day, you may use {spell/poison} as a spell-like ability. If you make an attack with a melee weapon, you may activate this ability as a swift action as part of your attack, targeting the foe struck with the effect. This ability is the equivalent of a 7th-level spell.",
-			">3. **Call Forth the Spawn (Sp)** Thrice per day you may use {spell/destruction} as a spell-like ability. The body of a creature slain by this ability immediately transforms into an ochre jelly under your mental control. Ochre jellies created by this ability melt away into noxious residue after 1 hour. This ability is the equivalent of a 9th-level spell.",
+			">3. **Call Forth the Spawn (Sp)** Thrice per day you may use {spell/destruction} as a spell-like ability. The body of a creature slain by this ability immediately transforms into an {monster/ochre jelly} under your mental control. Ochre jellies created by this ability melt away into noxious residue after 1 hour. This ability is the equivalent of a 9th-level spell.",
 			"",
 			"### Boons: Fiendish Obedience",
 			"",
@@ -3205,23 +3205,21 @@
 			">{SOURCE Book of the Damned/60}",
 			">",
 			">1. **Spreading Slime (Sp)** {spell/corrosive touch} 3/day, {spell/web} 2/day, or {spell/stinking cloud} 1/day",
-			">2. **Deliquescent Blessing (Su, Sp)** The blessing of the Faceless Lord grants you a measure of kinship to jellies, oozes, and slimes. Unintelligent oozes never attack you, and intelligent oozes have an initial starting attitude of friendly toward you. You gain ooze empathy - this works like a druid's {ability/wild empathy} (using your character level as your druid level), except only with oozes. You can use this ability to influence intelligent oozes as though using the Diplomacy skill. In addition, once per day, you can transform a creature's body into an ooze; this acts as per baleful polymorph, except that the target is transformed into an ooze. A creature of 3 Hit Dice or fewer becomes a gray ooze, one with 4-9 Hit Dice becomes a gelatinous cube or ochre jelly (chosen randomly), and a creature of 10 or more Hit Dice becomes a black pudding. The target's gear does not transform with it; any such items fall under or within the ooze's body, which may cause them to take damage or to be destroyed. If the ooze has the split ability, splitting the ooze creates one ooze that retains the creature's original identity (for the purpose of memories or restoring the creature) and one normal, mindless ooze.",
+			">2. **Deliquescent Blessing (Su, Sp)** The blessing of the Faceless Lord grants you a measure of kinship to jellies, oozes, and slimes. Unintelligent oozes never attack you, and intelligent oozes have an initial starting attitude of friendly toward you. You gain ooze empathy - this works like a druid's {ability/wild empathy} (using your character level as your druid level), except only with oozes. You can use this ability to influence intelligent oozes as though using the Diplomacy skill. In addition, once per day, you can transform a creature's body into an ooze; this acts as per {spell/baleful polymorph}, except that the target is transformed into an ooze. A creature of 3 Hit Dice or fewer becomes a {monster/gray ooze}, one with 4-9 Hit Dice becomes a {monster/gelatinous cube} or {monster/ochre jelly} (chosen randomly), and a creature of 10 or more Hit Dice becomes a {monster/black pudding}. The target's gear does not transform with it; any such items fall under or within the ooze's body, which may cause them to take damage or to be destroyed. If the ooze has the split ability, splitting the ooze creates one ooze that retains the creature's original identity (for the purpose of memories or restoring the creature) and one normal, mindless ooze.",
 			">3. **Faceless Form (Ex)** Your form twists into a reflection of Jubilex's own shapeless appearance - your flesh becomes translucent emerald slime, your skin takes on a nauseating glistening sheen, and ogling crimson eyes sprout across your body. You gain the {umr/amorphous}, {umr/all-around vision}, and {umr/compression} universal monster abilities. Your body still retains enough rigidity that you can speak, wield objects and weapons, and wear items like armor. In addition, if you have a hand free and not covered by a glove, you can make a touch attack as a standard action; on a hit, the touched creature takes 4d6 points of acid damage.",
 			">",
 			">#### Boons: Exalted",
 			">",
 			">{SOURCE Book of the Damned/60}",
 			">",
-			">1. **Sign of the Faceless Lord (Sp)** {spell/grease} 3/day, {spell/delay poison} 2/day, or {spell/slow} 1/day",
-			">2. **Poisonous Touch (Sp)** Just as the Faceless Lord's touch carries within it all manner of virulent toxins, so can you cause your flesh to exude deadly poison. Up to three times per day, you can cast {spell/poison} as a spell-like ability. If you make an attack with a melee weapon, you can activate this ability as a swift action as part of your attack, targeting the foe struck.",
-			">3. **Call Forth the Spawn (Sp)** Three times per day, you can cast {spell/destruction} as a spell-like ability. The body of a creature slain by this ability immediately transforms into an ochre jelly under your mental control. Ochre jellies created by this ability melt away into noxious residue after 1 hour.",
+			">These boons are the same as those granted by Demonic Obedience.",
 			">",
 			">#### Boons: Sentinel",
 			">",
 			">{SOURCE Book of the Damned/60}",
 			">",
 			">1. **Toxification (Sp)** {spell/ray of sickening} 3/day, {spell/pernicious poison} 2/day, or {spell/eruptive pustules} 1/day",
-			">2. **Abyssal Humors (Ex, Su)** The sickness of the Undersump has infused your flesh, and you spread its horror with every crushing blow. You gain immunity to poison. Three times per day, as a swift action, you can exude a poison worth up to 50 gp per character level you have. This poison remains potent for 1 hour before turning to gritty dust. You can apply this poison to a weapon you wield as part of exuding it, deliver it as a contact poison with a touch, exhale it as an inhaled poison into an adjacent creature's face, or otherwise use this poison as you choose.",
+			">2. **Abyssal Humors (Ex, Su)** The sickness of the Undersump has infused your flesh, and you spread its horror with every crushing blow. You gain immunity to poison. Three times per day, as a swift action, you can exude a {main/equipment_<poison>s} worth up to 50 gp per character level you have. This poison remains potent for 1 hour before turning to gritty dust. You can apply this poison to a weapon you wield as part of exuding it, deliver it as a contact poison with a touch, exhale it as an inhaled poison into an adjacent creature's face, or otherwise use this poison as you choose.",
 			">3. **Roiling Mind (Su)** Your mind becomes the churning blankness of a mindless ooze, thick with a psychic toxin that poisons those who reach inside. You gain immunity to mind-affecting effects.",
 			"",
 			"## Follower Options",
@@ -3240,7 +3238,10 @@
 			"",
 			"### Description",
 			"",
-			""
+			">{SOURCE Book of the Damned/61}  ",
+			"Of the demon lords whose influence can be felt on Golarion, Jubilex may be the one least concerned with maintaining a cult. His favored {monster/omox} demon minions do more to spread his cults than he does - in fact, it's debatable whether Jubilex even realizes he has worshipers. Only among the drow is his faith particularly pervasive; they regard him as a patron of poison and toxins and often consider him a competitor to {faith/Haagenti}. However, even those who worship him tend to think of him not as an entity to be venerated so much as a source of power to be tapped. Yet despite the Faceless Lord's lack of interest in his faithful, he enjoys absorbing the bodies of unwilling mortals from the Material Plane into his protoplasmic bulk, and never turns away any of the sacrifices his worshipers render unto him.",
+			"",
+			"Jubilex appears as a shapeless, green mass of ooze marbled with dark ribbons of tar and hundreds of glaring red eyes the size of a man's head. In combat, he can lash out with several acidic and poisonous tentacles. The nature of these poisons shifts and changes even between strikes, such that it is difficult - if not impossible - to prepare for their ravages ahead of time. The fact that Jubilex's toxins can affect even creatures that usually can't be poisoned only further secures his role as a lord of poison. The acid secreted by his immense body is particularly potent against flesh and bone, and is likewise capable of damaging creatures normally immune to acid. But assaulting his enemies with irresistible poisons and supernaturally potent acids are only the simplest of the horrors Jubilex is said to be able to unleash. Some who have confronted the Faceless Lord and lived to tell the tale speak of Jubilex drawing fluids like blood and tears from a living creature's body and investing the fluid with the malevolent destructive nature of an ooze before returning the stolen fluids to the donor so that it is consumed, painfully, from within. Others speak of the Faceless Lord's ability to turn the very air into a thick, cloying suspension that is as unpleasant as it is difficult to move through. Even when the air surrounding Jubilex isn't thickened, the overwhelming stink of his presence can kill plants and strip flesh from bone. Surely the demon lord has other foul methods of attack as well - atrocities that none have yet survived to warn the world of."
 		]
 	},
 	"jyotah": {
@@ -3315,7 +3316,7 @@
 			">",
 			">1. **Shadow of Death (Sp)** {spell/chill touch} 3/day, {spell/gentle repose} 2/day, or {spell/assume appearance} 1/day",
 			">2. **Corpse Communion (Sp)** You can rifle through the minds of the dead in search of forbidden knowledge or lost lore. Three times per day, you can touch a corpse of any age to gain knowledge from it as a standard action. This works similarly to {spell/speak with dead}, except that you receive all answers immediately and telepathically (removing the need for the body to have intact vocal structures) and the dead creature gains no saving throw against this effect, regardless of its alignment. If you take the time to consume a significant portion of the corpse, you can ask two additional questions. This option increases the casting time to 10 minutes. Of course, regardless of the method by which you choose to commune with the corpse, the body might not hold the knowledge you seek, and once you use this ability on a dead body, you can't use it again on the same body again in the future.",
-			">3. **Lore of the Countless Dead (Sp)** Your hunger for forbidden knowledge allows you to tap into the collective spellcraft of all the multiverse's innumerable dead, a repository of arcana stretching back to the dawn of time. Once per day as a standard action, you can cast any spell of 7th level or lower, as if using wish to cast another spell. This is the equivalent of a 9th-level spell, and any DCs and other effects are calculated as a 9th-level spell, regardless of the spell's normal level.",
+			">3. **Lore of the Countless Dead (Sp)** Your hunger for forbidden knowledge allows you to tap into the collective spellcraft of all the multiverse's innumerable dead, a repository of arcana stretching back to the dawn of time. Once per day as a standard action, you can cast any spell of 7th level or lower, as if using {spell/wish} to cast another spell. This is the equivalent of a 9th-level spell, and any DCs and other effects are calculated as a 9th-level spell, regardless of the spell's normal level.",
 			">",
 			">### Boons: Exalted or Demonic Obedience",
 			">",
@@ -3323,15 +3324,15 @@
 			">",
 			">1. **Kiss of the Grave (Sp)** {spell/deathwatch} 3/day, {spell/ghoul touch} 2/day, or {spell/speak with dead} 1/day",
 			">2. **Undead Minion (Sp)** Worship of Kabriri has revealed to you secret methods by which you can coax unlife from rotten flesh and old bones. You can cast {spell/create undead} as a spell-like ability twice per day. The undead created obey you without question. You can have only one such minion active at a time; if you use this ability to create a new undead minion, the previous undead is destroyed.",
-			">3. **Ghoulish Apotheosis (Ex)** For you, death is not an ending but a beginning. The next time you die, you rise as a ghoul after 24 hours. Your type changes to undead and you lose all the abilities of your previous race, replacing them with a +2 natural armor bonus, darkvision 60 feet, channel resistance +2, and a ghoul's physical attacks. You do not change your total Hit Dice or alter your ability scores. If you achieve this boon when you're already an undead creature, you instead gain a +4 profane bonus to your Charisma score.",
+			">3. **Ghoulish Apotheosis (Ex)** For you, death is not an ending but a beginning. The next time you die, you rise as a {monster/ghoul} after 24 hours. Your type changes to undead and you lose all the abilities of your previous race, replacing them with a +2 natural armor bonus, darkvision 60 feet, {umr/channel resistance} +2, and a ghoul's physical attacks. You do not change your total Hit Dice or alter your ability scores. If you achieve this boon when you're already an undead creature, you instead gain a +4 profane bonus to your Charisma score.",
 			">",
 			">### Boons: Sentinel",
 			">",
 			">{SOURCE Book of the Damned/62}",
 			">",
 			">1. **Charnel Pits (Sp)** {spell/expeditious excavation} 3/day, {spell/create pit} 2/day, or {spell/stinking cloud} 1/day",
-			">2. **Ghoulish Hungers (Ex)** You hunger for the flesh of the dead... and the living. You gain a bite attack that deals damage appropriate for your size (1d6 if you're Medium). Any creature damaged by your bite attack must succeed at a Fortitude save or become infected with ghoul fever. The save DC of this ghoul fever is equal to 10 + half your Hit Dice + your Constitution modifier (or your Charisma modifier, if you have no Constitution score).",
-			">3. **Undertaker (Sp)** With nothing but your will alone, you can slaughter and entomb your foes in one fell swoop. Once per day, you can cast {spell/finger of death} as a spell-like ability. Any creature killed by this effect is immediately entombed 6 feet underground within a 6-inch-thick stone sarcophagus, along with its gear. One week after interment, a creature entombed by this ability breaks free from its sarcophagus as a chaotic evil ghast with all class levels it had in life; these ghasts are not under your control, but are often friendly toward you.",
+			">2. **Ghoulish Hungers (Ex)** You hunger for the flesh of the dead... and the living. You gain a bite attack that deals damage [appropriate for your size](misc/damage_die_adjustments) (1d6 if you're Medium). Any creature damaged by your bite attack must succeed at a Fortitude save or become infected with {disease/ghoul fever}. The save DC of this ghoul fever is equal to 10 + half your Hit Dice + your Constitution modifier (or your Charisma modifier, if you have no Constitution score).",
+			">3. **Undertaker (Sp)** With nothing but your will alone, you can slaughter and entomb your foes in one fell swoop. Once per day, you can cast {spell/finger of death} as a spell-like ability. Any creature killed by this effect is immediately entombed 6 feet underground within a 6-inch-thick stone sarcophagus, along with its gear. One week after interment, a creature entombed by this ability breaks free from its sarcophagus as a chaotic evil {monster/ghast} with all class levels it had in life; these ghasts are not under your control, but are often friendly toward you.",
 			"",
 			"## Follower Options",
 			"",
@@ -3367,7 +3368,10 @@
 			"",
 			"### Description",
 			"",
-			""
+			">{SOURCE Book of the Damned/62}  ",
+			"It is said that when the first humanoid (an elf, it so happened) to feed upon the flesh of his brother died, he was reborn in the Abyss in the reeking bowels of a vast necropolis that the plane created in his honor. This first ghoul abandoned his previous life and embraced his new undeath, becoming the demon lord Kabriri. For his first few centuries of existence, he traveled among the worlds of the Material Plane, sampling like a gourmand the contents of graveyards and spreading the infectious \"word\" of his condition to any who would listen - in effect, infecting the inhabitants of innumerable worlds with the first and strongest strain of ghoul fever. Yet wherever Kabriri traveled, he took pains to avoid the burial grounds of elves, and did not spread his word among their kind. Whether his restraint was due to a fragment of shame over his first act of cannibalism or fear of confronting even a tiny fragment of the life he'd left behind, Kabriri left the elven people alone. Repercussions of his avoidance continue to this very day, as the touch of ghouls cannot paralyze elves. In contrast, other humanoids who succumb to the disease find their ears growing long and pointed, as if in some cosmic mockery of the elven form.",
+			"",
+			"Kabriri appears as a muscular ghoul with pointed ears, sharp teeth, a long tongue, and pale gray flesh. His eyes are beady and red, his hands are talons, and his feet are hooves. (Strangely, the ghouls who revere him generally sport humanoid feet, while it is the ghouls of Leng who walk upon hooves.) His favored weapon is a two-headed flail of iron and bone, its twin heads made from skulls wrapped in strips of spiked iron. This weapon is capable of transforming those it strikes into ghouls, and causes the flesh of the living to rot away. Kabriri's breath can also transform the living into ghouls, and his gaze can instill an unholy cannibalistic hunger that can drive sane folk to go on murderous, gluttonous rampages."
 		]
 	},
 	"kaikyton": {
@@ -4102,7 +4106,10 @@
 			"",
 			"### Description",
 			"",
-			""
+			">{SOURCE Book of the Damned/65}  ",
+			"Kostchtchie was born of Ulfen parents, and he became a murderer when his father forced him to kill his mother and sisters. Unsatisfied with the fleeting rush of energy and excitement afforded by these slayings, Kostchtchie proceeded to murder his father as well. After this, the man's taste for bloodshed only grew. But with each murder he committed, Kostchtchie grew more and more concerned that some day, he would himself be slain. Later in life, after he had become a ferocious warlord, Kostchtchie confronted the Witch Queen {monster/Baba Yaga} and tried to force her to grant him immortality. The witch agreed, but she twisted his form, turning him into a hideous giant and hiding the last fragment of his mortal soul in a magical torc. Kostchtchie fled to the Abyss to hide his shame and nurture his hatred, eventually finding a new purpose as a patron of those {monster/frost giant/s} who turned away from the god {faith/Thremyr} in search of an even more warlike deity. His worship is common not only in the Realm of the Mammoth Lords, but also in distant Iobaria and the frozen wastes of the Crown of the World far to the north.",
+			"",
+			"Kostchtchie appears as an immense, deformed frost giant with twisted legs, tiny white eyes, and a thick, matted beard into which he has woven dozens of skulls: trophies of slain kings and priests of rival faiths. He is never seen without his warhammer, an {eq-material/adamantine} maul of such prodigious size that even the strongest frost giant would have trouble wielding it, but which appears almost weightless in Kostchtchie's grizzled hands. This nefarious weapon can destroy nearly any object it strikes, and it stuns all but the largest creatures to suffer its crushing blows."
 		]
 	},
 	"kroakoth": {

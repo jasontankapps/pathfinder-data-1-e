@@ -841,7 +841,7 @@
 			"",
 			"### Description",
 			"",
-			""
+			"Not much is known of Alazhra save that she is the patron deity of {monster/night hag/s}. She appears to her followers in terrifying nightmares, and those who displease her run the risk of dying of fright in their sleep. Because of a foul, ancient bargain brokered between Alazhra and the Four Horsemen, night hags are allowed to trade stolen souls to {family/daemon/s} throughout Abaddon."
 		]
 	},
 	"aldinach": {
@@ -1075,8 +1075,8 @@
 			">{SOURCE Inner Sea Faiths/11}",
 			">",
 			">1. **Watchful (Sp)** {spell/line in the sand} 3/day, {spell/mirror image} 2/day, or {spell/countless eyes} 1/day",
-			">2. **Past and Future (Ex)** You catch glimpses of the future that allow you to avoid your enemies' strikes. You gain improved uncanny dodge as a rogue of a level equal to your Hit Dice. If you already possess the improved uncanny dodge ability, or if you would gain it later, you instead gain a +2 sacred or profane bonus (of the same type as that provided by your obedience) on attack and damage rolls against creatures that are currently flanking you.",
-			">3. **Portal to Safety (Sp)** Once per day as a standard action, you can transform an open door or archway into a temporary one-way portal, connecting it to another open door or archway of your choice that you have seen or of which you have a reliable description. This portal functions as a greater teleport spell targeting any creature that passes through the first doorway until the end of your next turn. All creatures that pass through the doorway, up to the limit imposed by the spell and your Hit Dice, arrive at the same location, and the destination must include an open door or archway from which the targets exit.",
+			">2. **Past and Future (Ex)** You catch glimpses of the future that allow you to avoid your enemies' strikes. You gain {ability/improved uncanny dodge} as a rogue of a level equal to your Hit Dice. If you already possess the improved uncanny dodge ability, or if you would gain it later, you instead gain a +2 sacred or profane bonus (of the same type as that provided by your obedience) on attack and damage rolls against creatures that are currently {rule/flanking} you.",
+			">3. **Portal to Safety (Sp)** Once per day as a standard action, you can transform an open door or archway into a temporary one-way portal, connecting it to another open door or archway of your choice that you have seen or of which you have a reliable description. This portal functions as a {spell/greater teleport} spell targeting any creature that passes through the first doorway until the end of your next turn. All creatures that pass through the doorway, up to the limit imposed by the spell and your Hit Dice, arrive at the same location, and the destination must include an open door or archway from which the targets exit.",
 			"",
 			"## Paladin Code",
 			"",
@@ -1118,7 +1118,9 @@
 			"",
 			"### Description",
 			"",
+			"Alseta acts as a guardian of boundaries. She strengthens city gates, shields guards from invaders' arrows, and turns away unwelcome visitors. Alseta is also a guardian of metaphorical boundaries, particularly those related to time and life. Those celebrating birthdays or marriages or embarking on new ventures often invoke Alseta's name. Expectant mothers and mourners of the dead alike often pray to Alseta in the same breath as {faith/Pharasma}, and indeed, some consider the Welcomer and the Lady of Graves' faiths intrinsically linked.",
 			"",
+			"Alseta appears as a kindly human woman dressed in simple gray clothing, and she wears a smiling mask on the back of her head. She is even-tempered and considers her words carefully; when she speaks, she does so with an authority and poise that soaks into the very bones of listeners. Alseta is, above all, courteous and treats all beings, from the humblest peasant to the mightiest of the gods, with respect and civility. In return, she expects the same from any who deal with her, and has little patience for those who do not practice such courtesies. ",
 			"",
 			"[^A]: Requires the {trait/Acolyte of Apocrypha} trait."
 		]
@@ -1216,7 +1218,7 @@
 			"",
 			"### Description",
 			"",
-			""
+			"Andak the Dismembered is a grisly sight - a tortured soul whose limbs have been hewn into multiple pieces and reattached awkwardly and randomly. His priests practice self-mutilation and seek to improve upon the physical form via surgery and magical but hideous regeneration."
 		]
 	},
 	"andirifkhu": {
@@ -1354,7 +1356,12 @@
 			"",
 			"### Description",
 			"",
-			""
+			"{SOURCE Chronicle of the Righteous/6}  ",
+			"In her mortal form, Andoletta stands 5 feet tall and has a stern, wrinkled face and kindly - but sharp - hazel eyes. Her gray hair is tucked into a sleek bun at the back of her head. She leans on a willow walking stick and wears a cape of glossy black crow feathers.",
+			"",
+			"Innocence and guilt are always clear in Grandmother Crow's eyes. She offers not a drop of mercy to the irredeemably wicked, but at the slightest hint of doubt in an evildoer's soul, Andoletta is there to light the hard but worthy path back to virtue. Her image can be found in courts, where her stern gaze pierces the souls of even the most hardened criminals, and in morgues, where her kindly countenance offers solace to the bereaved. Of all those she watches over, Grandmother Crow particularly favors children, seeing in them an unadulterated potential for goodness.",
+			"",
+			"Andoletta's cottage stands in the verdant Field of Opsimathy, near the summit of Heaven; feathers protrude from the plaster covering its walls, and it smells of fresh-baked bread. Visitors who show proper respect may see a garden of happy families and lost loved ones secreted behind the tidy cottage."
 		]
 	},
 	"angazhan": {
@@ -1520,7 +1527,10 @@
 			"",
 			"### Description",
 			"",
-			""
+			"{SOURCE Pathfinder #144: Midwives to Death/66}  ",
+			"Angradd is the Forge-Fire, the righteous crusader of the dwarven deities and the dwarven god most likely to proactively seek out threats in order to neutralize them. The younger brother of {faith/Torag} and {faith/Magrim}, Angradd is seen as rash by his elder brothers but as needlessly prudent by his aunt {faith/Dranngvit} the Debt Minder. All the dwarven gods agree, however, that Angradd is an effective and dedicated general in the fight against the pantheon's foes. In popular art, Angradd is depicted as a powerfully built dwarf with radiant blond hair and beard, armor trimmed in crimson and gold, and a mighty, often flaming greataxe.",
+			"",
+			"Angradd's followers are encouraged to seek out and oppose evil wherever they can, and they often compare themselves to a purifying flame that moves from foe to foe, gaining strength as it consumes evil and serving as an illuminating torch in the night. Whenever a foe would overpower them in standard combat, Angradd's faithful study and plan tirelessly to form a strategy to defeat it, patiently building strength and alliances until victory is possible. Once a worshipper of Angradd can no longer endure the rigors of frontline combat, she turns to training and preparing others to carry on the good fight."
 		]
 	},
 	"anogetz": {
@@ -3724,7 +3734,7 @@
 			"",
 			"### Description",
 			"",
-			""
+			"Bohga looted hundreds of abandoned monasteries and temples in the aftermath of the rampage of the spawn of {faith/Rovagug} known as Kothogaz, but after a millennium meditating upon the stolen goods, she attained perfection and came to be known as the Treasurer. She appears as a beautiful but faceless woman made of gold and gems."
 		]
 	},
 	"bokrug": {
