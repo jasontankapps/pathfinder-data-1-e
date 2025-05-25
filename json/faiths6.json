@@ -351,7 +351,14 @@
 			"",
 			"### Description",
 			"",
-			""
+			">{SOURCE Chronicle of the Righteous/10}  ",
+			"Chadali gently nudges events and individuals to create fortunate detours, harmonious meetings, and unexpected revelations. Her followers claim that a confluence of singular events - a yellow aurora, a lunar eclipse, and a meteor shower - occurred simultaneously on Elysium, and that from that confluence Chadali was born.",
+			"",
+			"Chadali appears as a beautiful, middle-aged Vudrani woman who stands firmly on the ground but whose dark eyes often lift to the sky. Fresh water lilies peep out from the coiled masses of her shining black hair, and she wears silken robes of pale yellow that fall to her bare feet. In her hands she holds a net woven of red threads; tiny rubies glimmer within the folds of the net.",
+			"",
+			"The Serendipitous Path teaches that fate is beautiful in its unpredictability. Seemingly insignificant events can determine the course of an entire life. Her agents visit those who are afraid to take chances and encourage them to step out into the world and trust fate. The greatest evil, in Chadali's eyes, is rigidly structuring one's life to prevent unexpected events from happening.",
+			"",
+			"Chadali lives in the Pavilion of Serendipity, a structure of glimmering light on the coast of the Boundless Azure Ocean in Elysium."
 		]
 	},
 	"chaldira_zuzaristan": {
@@ -847,8 +854,8 @@
 			">{SOURCE Chronicle of the Righteous/18}",
 			">",
 			">1. **Motley Magic (Sp)** {spell/color spray} 3/day, {spell/hypnotic pattern} 2/day, or {spell/deep slumber} 1/day",
-			">2. **Prismatic Body (Su)** You gain a +4 sacred bonus on saves against effects that would blind you. In addition, whenever you make a successful saving throw against a spell or effect with the light descriptor (such as sunbeam), you can choose to ignore the effect entirely and redirect its path toward two different creatures or spaces within 30 feet of you. The designated creatures or spaces are affected as though they were caught in the effect's area or were targeted by the effect.",
-			">3. **Rainbow Orb (Sp)** You can cast prismatic sphere once per day.",
+			">2. **Prismatic Body (Su)** You gain a +4 sacred bonus on saves against effects that would blind you. In addition, whenever you make a successful saving throw against a spell or effect with the light descriptor (such as {spell/sunbeam}), you can choose to ignore the effect entirely and redirect its path toward two different creatures or spaces within 30 feet of you. The designated creatures or spaces are affected as though they were caught in the effect's area or were targeted by the effect.",
+			">3. **Rainbow Orb (Sp)** You can cast {spell/prismatic sphere} once per day.",
 			"",
 			"## Follower Options",
 			"",
@@ -862,7 +869,12 @@
 			"",
 			"### Description",
 			"",
+			"{SOURCE Chronicle of the Righteous/18}  ",
+			"Lalaci sees the beauty in conflict. The sun wars with the rain and creates a rainbow, and He of Motley Repose believes that everyone's inner nature should be a similar mix of action and restraint, placid adoration and righteous scorn. He offers rest and relaxation to those who meet each day with excitement and vigor and who may be tired from the chaotic beauty that is their life.",
 			"",
+			"To mortal eyes, Lalaci appears to be fair-skinned with white-blonde hair and yellow-white eyes. He tucks the two prismatic wings that curve from his shoulders down so that he appears to wear a beautiful multicolored cloak, though among his own kind he walks in his true naked form, with crystalline flesh that refracts light as golden rays.",
+			"",
+			"He of Motley Repose provides rest to the hardworking and shade to those exhausted from the sun. Glassblowers and illusionists often find creative inspiration in Lalaci's rainbows; particularly gifted glass artists and light-weavers who lead worthy lives sometimes find small prisms at their workstations - tokens of Lalaci's favor. His devotees claim that the reflections of rainbows in natural bodies of water create portals to his celestial domain: an enormous, warped glass palace that floats on a cloud across the surface of Elysium.",
 			"",
 			"[^A]: Requires the {trait/Acolyte of Apocrypha} trait."
 		]
@@ -1547,8 +1559,8 @@
 			">{SOURCE Chronicle of the Righteous/18}",
 			">",
 			">1. **Tower's Boons (Sp)** {spell/sanctuary} 3/day, {spell/eagle's splendor} 2/day, or {spell/archon's aura} 1/day",
-			">2. **Rite of Passage (Sp)** You gain the power to usher others into a new state of being. Once per day, you can cast greater polymorph on a willing creature. The duration of this effect is permanent until you or the target dismiss the effect or you use this ability again.",
-			">3. **Undo Maturation (Su)** Once per day with a successful touch attack, you can rewind the sands of time for a single creature, causing the target to revert to the previous age category, taking all the appropriate penalties to mental ability scores without any of the benefits to physical ability scores. If the target is an adult, it gains the simple young creature template. If the target already has the simple young creature template, it rejuvenates even further, reducing all its ability scores by 2 (to a minimum score of 1) and decreasing its size by an additional step.",
+			">2. **Rite of Passage (Sp)** You gain the power to usher others into a new state of being. Once per day, you can cast {spell/greater polymorph} on a willing creature. The duration of this effect is permanent until you or the target dismiss the effect or you use this ability again.",
+			">3. **Undo Maturation (Su)** Once per day with a successful touch attack, you can rewind the sands of time for a single creature, causing the target to revert to the previous {rule/age/ category}, taking all the appropriate penalties to mental ability scores without any of the benefits to physical ability scores. If the target is an adult, it gains the simple {template/young} creature template. If the target already has the simple young creature template, it rejuvenates even further, reducing all its ability scores by 2 (to a minimum score of 1) and decreasing its size by an additional step.",
 			"",
 			"## Follower Options",
 			"",
@@ -1562,7 +1574,12 @@
 			"",
 			"### Description",
 			"",
-			""
+			"{SOURCE Chronicle of the Righteous/18}  ",
+			"Lymnieris teaches that the passage from one state of being to another is a sacred time in every mortal's life. He is thought to have originally been a {monster/planetar}, as evidenced by the empyreal lord's tall stature, emerald green skin, and four white wings. His hard, radiant body is always coated in a thin sheen of perspiration, and he carries no weapons, instead wielding in one of his delicate hands a great white shield made of celestial ivory.",
+			"",
+			"Lymnieris and his agents sometimes come to the aid of good-hearted virgins pressed into marriage or threatened with being deflowered against their will, as well as those devotees who wish to fulfill their sexual desires but who are restrained by culture or tradition. Any individual on the threshold of a major personal change may call on Lymnieris for aid. Prostitutes who work lawfully and willingly out of love for their profession also worship Lymnieris, and those forced into carnal service pray to him for salvation.",
+			"",
+			"Lymnieris lives in a palace made of blue agate in Heaven, where he often entertains the visiting Arshea."
 		]
 	},
 	"lythertida": {
@@ -2024,7 +2041,7 @@
 		"description": [
 			"::fh[Thoth]{sub=\"Lord of Divine Words\"}",
 			"",
-			"{SOURCE Pathfinder #80: Empty Graves/65}  ",
+			"{SOURCE Pathfinder #80: Empty Graves/75}  ",
 			"**Pathfinder Wiki** [Thoth](https://www.pathfinderwiki.com/wiki/Thoth) *(link opens in outside browser)*",
 			"",
 			"### Details",
@@ -2040,7 +2057,11 @@
 			"",
 			"### Description",
 			"",
-			""
+			"All knowledge and wisdom comes from Thoth, the god of science, mathematics, history, philosophy, religion, and wisdom. He is also god of the moon and magic, particularly arcane magic. Thoth is also the patron of language, literature, and writing, and is said to have invented the hieroglyphs first used by Ancient Osirian scribes and that are still used, in modified form, in the modern Osiriani language. He is the reckoner of years, recording the passage of time and details of all the events of life, from the honorable reigns of kings to the simple daily lives of peasants.",
+			"",
+			"Thoth normally takes the form of a man with the head of an ibis, though occasionally his form is that of a seated baboon or even a man with the head of a baboon. He is the husband of {faith/Maat}, the goddess of order and truth, and he serves as secretary and counselor to {faith/Ra}. It was Thoth who gave {faith/Isis} the magic words she used to resurrect her dead husband {faith/Osiris}. He is the scribe of the gods, and mediates between them fairly in their disputes.",
+			"",
+			"Thoth is the patron of archivists, scribes, researchers, and scholars, and alchemists, witches, and wizards all worship him as the god of magic and spells. His temples usually include well-stocked libraries and archives, and often include orders of monks who venerate him for his knowledge and wisdom."
 		]
 	},
 	"thremyr": {
@@ -2218,7 +2239,7 @@
 			">",
 			">1. **Frozen Magic (Sp)** {spell/mount} (caribou only) 3/day, {spell/chill metal} 2/day, or {spell/protection from energy} 1/day",
 			">2. **Icy Shards (Su)** Three times per day, you can breathe a 15-foot cone of ice particles. The cone deals 1d6 points of damage per HD you possess (maximum 15d6). Half this damage is cold damage, while the other half is slashing damage. A Reflex save (DC 10 + 1/2 your HD) halves damage taken from this attack.",
-			">3. **Glacial Dark (Sp)** You can cast polar midnight once per day.",
+			">3. **Glacial Dark (Sp)** You can cast {spell/polar midnight} once per day.",
 			"",
 			"## Follower Options",
 			"",
@@ -2232,7 +2253,11 @@
 			"",
 			"### Description",
 			"",
-			""
+			"Tolc is master of the frozen lands, where people struggle daily to survive the harsh elements. He gazes favorably upon those who learn to live within this wild domain and appreciate its fierce beauty.",
+			"",
+			"Tolc stands 7 feet tall and has a stout but muscular figure. His light brown skin always holds a rosy flush, as though the empyreal lord had just stepped in from the cold. Numerous scars mar his broad face, which constantly sports a stern expression, though a kind light occasionally warms his hardened gaze. From his back stretch two arching tusks carved from celestial ice.",
+			"",
+			"Snow-Strider and his agents help worthy individuals struggling to live in cold, inhospitable climes. Many northern cultures credit Tolc with teaching their people to build shelters from ice. Tolc is a sworn enemy of {faith/Kostchtchie}, and Tolc's champions hone their skills in battle to best combat {monster/frost giant/s} and {family/white dragon/s}. On occasion, a mortal champion catches Tolc's attention long enough for the empyreal lord to grant this mortal divine strength and tactical knowledge with which to defend her kinsfolk."
 		]
 	},
 	"torag": {

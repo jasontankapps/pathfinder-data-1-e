@@ -220,7 +220,7 @@
 		"description": [
 			"::fh[Osiris]{sub=\"Lord of the Living\"}",
 			"",
-			"{SOURCE Pathfinder #80: Empty Graves/65}  ",
+			"{SOURCE Pathfinder #80: Empty Graves/71}  ",
 			"**Pathfinder Wiki** [Osiris](https://www.pathfinderwiki.com/wiki/Osiris) *(link opens in outside browser)*",
 			"",
 			"### Details",
@@ -246,7 +246,9 @@
 			"",
 			"### Description",
 			"",
-			""
+			"Myths say that during the Age of Legend, Osiris ruled Osirion as its king. But his brother Set was jealous of Osiris's power and coveted his throne, so Set killed Osiris, dismembered his brother's body, and scattered the pieces across the world. Isis gathered up the pieces, and using her magic, she brought her husband back to life. Now free from death, Osiris became a god of death and life after death, whose resurrection mirrors the rebirth of souls in the afterlife. Osiris is also a fertility god, a deity of nature and growth who dies each year with the harvest and is reborn again in the spring when vegetation sprouts again. Osiris always appears wrapped up like a mummy, but with green skin symbolizing his role as a god of fertility. He wears a white atef crown with two ostrich feathers and carries a crook and flail, the symbols of pharaonic rule. Osiris is the brother of Nephthys and Set. His sister Isis is also his wife, and he is the father of Horus. As a death god, Osiris is tightly aligned with the likes of Pharasma and Anubis, but his brother Set remains his sworn enemy.",
+			"",
+			"Clerics, druids, and paladins make up the bulk of Osiris's priesthood. Many mystery cults are also dedicated to Osiris; the initiates of these cults are said to learn the secrets of life and death. Clerics of Osiris who choose the Souls subdomain replace the domain spell animate dead with speak with dead instead."
 		]
 	},
 	"osolmyr": {
@@ -900,7 +902,14 @@
 			"",
 			"### Description",
 			"",
-			""
+			"{SOURCE Chronicle of the Righteous/20}  ",
+			"The eternal prankster, Picoperi finds delight in the simplest of jokes and finds existence a never-ending series of surprises. He can take any form that best suits his capers, but when he appears to mortals, he typically does so as a young boy with brown skin and wildly curling black hair. His delicate features, graceful limbs, and pointed ears suggest elven ancestry, and he is never seen without his telltale woven wool vest dyed bright green and yellow and worked with images of llamas, tree frogs, and snakes.",
+			"",
+			"Good folk who look at the world with wonder and delight often pay homage to Picoperi. Inventors, particularly alchemists who use ingredients derived from jungle plants, sometimes let Picoperi's love of surprises guide them to new discoveries.",
+			"",
+			"Picoperi takes great delight in taunting the forces of evil. In battle, he prefers ambushes and traps over forward charges, and he poisons his victims with darts that cause uncontrollable laughter and dreamy euphoria. Legend tells that thousands of years ago, {faith/Urxehl} smiled at one of Picoperi's jokes, and the demon lord has sought to destroy the merry trickster ever since.",
+			"",
+			"Picoperi lives in the heart of a kapok tree on Elysium. Though the tree looks small from the outside, the inside holds a network of comfortable rooms carved into the tree's trunk."
 		]
 	},
 	"pirias": {
@@ -1031,7 +1040,7 @@
 		"description": [
 			"::fh[Ptah]{sub=\"Lord of Eternity\"}",
 			"",
-			"{SOURCE Pathfinder #80: Empty Graves/65}  ",
+			"{SOURCE Pathfinder #80: Empty Graves/72}  ",
 			"**Pathfinder Wiki** [Ptah](https://www.pathfinderwiki.com/wiki/Ptah) *(link opens in outside browser)*",
 			"",
 			"### Details",
@@ -1047,7 +1056,11 @@
 			"",
 			"### Description",
 			"",
-			""
+			"According to ancient Osirian mythology, Ptah is the demiurge who created the universe through his thought and creative word. He is the artisan of the gods, a deity of creation and the arts, of architecture, invention, metalworking, and sculpture. Such is Ptah's creative power that alone among the ancient Osirian gods, he created himself. He is the fire beneath the earth, and earthquakes and tremors are said to be signs of his disfavor.",
+			"",
+			"Ptah is the husband of {faith/Sekhmet}, and an ally of {faith/Ra} and {faith/Maat}. Although he normally remains aloof from divine politics, he has come into conflict with {faith/Apep} and {faith/Set} when those gods attempt to destroy his creations. Ptah normally appears as a man wearing the wrappings of a mummy, with a simple skullcap on his head, and holding a staff in his hands composed of three combined symbols of his creative power - the ankh, representing life; the djed pillar, signifying stability; and the was scepter, symbolizing power. At other times, Ptah is depicted as a naked and deformed dwarf, and it is in this form that the Pahmet dwarves of Osirion venerate him.",
+			"",
+			"Ptah is the patron of alchemists, architects, artisans, artists, bards, builders, carpenters, masons, metalworkers, shipbuilders, and anyone else who is involved in creative endeavors. Additionally, Ptah is said to hear the prayers of all mortal worshipers, and he often intercedes with the other gods on behalf of humanity."
 		]
 	},
 	"pulura": {
@@ -1083,8 +1096,8 @@
 			">{SOURCE Chronicle of the Righteous/20}",
 			">",
 			">1. **Aurora (Sp)** {spell/color spray} 3/day, {spell/continual flame} 2/day, or {spell/guiding star} 1/day",
-			">2. **Starshot (Su)** Three times per day, you can transmute up to 1 sling bullet per HD into a bullet of starlight. These bullets function as +2 brilliant energy bullets. Bullets of starlight last for 1 minute and shed light in a 10-foot radius.",
-			">3. **Otherworldly Traveler (Sp)** You can cast interplanetary teleport once per day.",
+			">2. **Starshot (Su)** Three times per day, you can transmute up to 1 sling bullet per HD into a bullet of starlight. These bullets function as +2 {magic-enh/brilliant energy} bullets. Bullets of starlight last for 1 minute and shed light in a 10-foot radius.",
+			">3. **Otherworldly Traveler (Sp)** You can cast {spell/interplanetary teleport} once per day.",
 			"",
 			"## Follower Options",
 			"",
@@ -1102,7 +1115,13 @@
 			"",
 			"### Description",
 			"",
-			""
+			"Pulura appears in the night sky in far northern regions, dancing amid swirls of multicolored light. Legend tells that her beauty is so extraordinary that she can appear to mortals only distantly; those who come too close are burned in the heat of her glory.",
+			"",
+			"Pulura appears as a lissome Tian woman with the poise of a trained dancer. Multicolored stars gleam among the flowing locks of her black hair, and her robes seem crafted from sheets of green and pink light rather than fabric, the garments flickering and pulsing with each of the Shimmering Maiden's graceful movements. Pulura's face is achingly lovely, her expression alluring but with a certain gravity about it. In battle, she wields a sling made from sighs and fires bullets of starlight at her enemies.",
+			"",
+			"Those who live in far northern climates often revere the Shimmering Maiden and believe that the aurora borealis portends her benevolent deeds. Pulura appears to comfort travelers far from home and those who feel alone or are lost in the vast northlands. Her agents often wander the snowy wastes to assist those who have become injured or lost during their travels. Pulura's followers tell stories of the constellations to help one another learn the night sky and to pass on tales of goodness and light.",
+			"",
+			"Pulura prefers the mortal realm to Elysium. She has a number of homes hidden within the constellations, and frequently visits {faith/Desna} when she requires counsel."
 		]
 	},
 	"qi_zhong": {
@@ -1197,7 +1216,7 @@
 		"description": [
 			"::fh[Ra]{sub=\"King of the Heavens\"}",
 			"",
-			"{SOURCE Pathfinder #80: Empty Graves/65}  ",
+			"{SOURCE Pathfinder #80: Empty Graves/71}  ",
 			"**Pathfinder Wiki** [Ra](https://www.pathfinderwiki.com/wiki/Ra) *(link opens in outside browser)*",
 			"",
 			"### Details",
@@ -1213,7 +1232,11 @@
 			"",
 			"### Description",
 			"",
-			""
+			"Ra is the god of the sun, particularly the midday sun, and travels on a great solar barge through the heavens. He created most of the ancient Osirian gods and ruled as their king during the Age of Creation. The ancient Osirians believed they were created from Ra's tears, and like the sun, Ra watches over all the earth and his creations. Ra is the ruler of the heavens, a deity of kings and royalty. He represents fair and just rule in accordance with the principles of honor and truth.",
+			"",
+			"Ra is depicted as a powerful man with the head of a falcon and a blazing solar disk above his head. He is the father of {faith/Bastet}, {faith/Hathor}, {faith/Maat}, and {faith/Sekhmet}, though he created many of the other Osirian gods as well. His archenemy is {faith/Apep}, and every night Ra must defend the sun against the great serpent who seeks to consume it. That the sun rises in the morning is seen as proof of Ra's victory over the Devourer of the Dawn.",
+			"",
+			"Kings and pharaohs worship Ra as their patron, as do paladins and warriors battling against the forces of darkness. As the god of the sun, Ra is also venerated by commoners and farmers. Ra's temples are open to the sky and decorated with obelisks representing petrified sun's rays, and services are held in daylight under Ra's watchful eye."
 		]
 	},
 	"raetorgash": {
@@ -1351,7 +1374,7 @@
 			">",
 			">1. **Virtuous Combat (Sp)** {spell/bless weapon} 3/day, {spell/litany of righteousness} 2/day, or {spell/magic vestment} 1/day",
 			">2. **Retribution (Su)** You gain a sacred bonus equal to half your HD on damage rolls made with slashing weapons against the last creature to have physically wounded you within the last 24 hours.",
-			">3. **Pure Soul (Sp)** You can cast holy aura on yourself once per day. In addition to the effects of the spell, you gain DR 10/good and cold iron and you treat any weapon in hand as a +5 holy weapon for the duration of the effect.",
+			">3. **Pure Soul (Sp)** You can cast {spell/holy aura} on yourself once per day. In addition to the effects of the spell, you gain DR 10/good and cold iron and you treat any weapon in hand as a +5 {magic-enh/holy} weapon for the duration of the effect.",
 			"",
 			"## Paladin Code",
 			"",
@@ -1390,7 +1413,13 @@
 			"",
 			"### Description",
 			"",
-			""
+			"Ragathiel, child of the archdevil {faith/Dispater} and a goddess of fire, stands on the front line of the war between Heaven and Hell. He carves through legions of fiends and drives back lesser evils with the mere presence of his awful majesty.",
+			"",
+			"Ragathiel is a tower of glorious might. He stands almost 20 feet tall, and five lofty burning wings stretch from his back. The General of Vengeance once had six wings, but one was severed, torn from his body by Dispater himself.",
+			"",
+			"Ragathiel's tainted heritage has left him with a wrathful heart, and the angel struggles constantly to master his baser impulses in service to the light. For thousands of years he strove to prove himself to the angelic choirs of Heaven. In the Maelstrom he wrestled for 16 years with a monstrous evil serpent whose scales wept acidic blood until he was able to choke the life out of it. He led an entire army against one of the iron fortresses of Avernus and burned the castle to the ground with holy fire, single-handedly maiming Infernal Duke {faith/Deumus} in the process. Finally the other empyreal lords agreed to admit Ragathiel into their ranks, and now they appear to trust the angel completely - though that trust took centuries to develop.",
+			"",
+			"Ragathiel takes an active role in the battle against Hell's fiendish legions. He shines at the head of his  army, a figure of golden light cleaving through the ranks of devils that face him. Soldiers of all kinds, but particularly knights, pay homage to Ragathiel and pray for his virtue and wrathful strength in battle. Those who have taken vows, especially those of duty or vengeance, hold Ragathiel as their ideal, and his agents sometimes assist those who have been grievously wronged and now seek righteous vengeance."
 		]
 	},
 	"rahu": {
@@ -1866,7 +1895,13 @@
 			"",
 			"### Description",
 			"",
-			""
+			"Kellid legend says that when caribou, deer, horses, and sheep were first created, they were solitary creatures that wandered alone and were thus easy meals for predators. Supposedly, the empyreal lord Rowdrosh pitied these animals and taught them the wisdom of traveling together.",
+			"",
+			"Rowdrosh can take the form of any herd animal, and often travels the material world in such a guise. In his true form, he has the body of a muscular man with tanned skin and the head of a ram. Curls of bronze hair cover his face, shoulders, and chest. Two massive curled ram's horns made of moonstone sweep back from his temples, and he carries their incredible weight with ease. In his left hand, he wields a straight birch staff that strikes as hard as one of iron.",
+			"",
+			"Those who tend to herds of animals often pay homage to Rowdrosh. His agents counsel benevolent shepherds and herders, teaching them how to prevent disease among their animals and how to properly care for pregnant animals in lands where such knowledge is still scarce. Rowdrosh has a particular hatred for {monster/schir/s} and {monster/worg/s}, and his agents go out of their way to eliminate these brutish monsters.",
+			"",
+			"On the plains of Nirvana, Rowdrosh raises celestial steeds to serve as mounts for divine warriors. He has no permanent home, and is content to rove the upper planes for all eternity with his divine herd."
 		]
 	},
 	"ruapceras": {
@@ -2470,7 +2505,7 @@
 		"description": [
 			"::fh[Sekhmet]{sub=\"Lady of Slaughter\"}",
 			"",
-			"{SOURCE Pathfinder #80: Empty Graves/65}  ",
+			"{SOURCE Pathfinder #80: Empty Graves/72}  ",
 			"**Pathfinder Wiki** [Sekhmet](https://www.pathfinderwiki.com/wiki/Sekhmet) *(link opens in outside browser)*",
 			"",
 			"### Details",
@@ -2486,7 +2521,11 @@
 			"",
 			"### Description",
 			"",
-			""
+			"When the sun god {faith/Ra} grew old, his human subjects rebelled against him, so he sent his daughter Sekhmet to punish them. Going further than was planned, Sekhmet took on the task with such fury that Ra feared she would exterminate the human race. In order to save humanity and end the destruction, Ra filled jugs with a mixture of beer and pomegranate juice and scattered them across the battlefield. Thinking the red liquid was human blood, Sekhmet greedily consumed every drop she could find, quickly becoming so drunk that she was unable to continue the slaughter.",
+			"",
+			"Although primarily a goddess of war and vengeance, Sekhmet has another side as a goddess of healing who wards off plagues and pestilence. She heals warriors of their wounds and is especially revered for curing fractures. As the daughter of Ra, Sekhmet is also a goddess of fire. She is the sister of {faith/Bastet}, {faith/Hathor}, and {faith/Maat}, and the wife of {faith/Ptah}. Sekhmet appears as a woman with the head of a lioness, wearing a long dress soaked red with blood and rosettes over each breast. Occasionally she is depicted with the solar disk of her father Ra atop her head.",
+			"",
+			"Barbarians revere Sekhmet for her destructive rages, and fighters and magi worship her as their patron in battle. Sekhmet's priests are both male and female, and are skilled warriors as well as healers."
 		]
 	},
 	"selket": {
@@ -2495,7 +2534,7 @@
 		"description": [
 			"::fh[Selket]{sub=\"Mistress of the Beautiful House\"}",
 			"",
-			"{SOURCE Pathfinder #80: Empty Graves/65}  ",
+			"{SOURCE Pathfinder #80: Empty Graves/71}  ",
 			"**Pathfinder Wiki** [Selket](https://www.pathfinderwiki.com/wiki/Selket) *(link opens in outside browser)*",
 			"",
 			"### Details",
@@ -2511,7 +2550,11 @@
 			"",
 			"### Description",
 			"",
-			""
+			"The deserts of Osirion contain many species of venomous scorpions, and the scorpion goddess Selket is both a protective and punitive deity, healing venomous bites and stings and afflicting the wicked with her own deadly sting. Like many of the ancient Osirian gods, she is a funerary deity, and she is responsible for protecting the canopic jar that holds the deceased's intestines. Selket is the goddess of embalming, and her epithet, Mistress of the Beautiful House, refers to the embalming pavilion where bodies are prepared for burial.",
+			"",
+			"Along with {faith/Isis}, {faith/Neith}, and {faith/Nephthys}, Selket assists {faith/Anubis} in protecting the dead. She is often paired with {faith/Neith}, as Isis is with Nephthys, and in the form of seven scorpions, she guarded Isis when Isis was pregnant with {faith/Horus}. When a woman later refused the expectant mother shelter, it was Selket who punished the woman for turning Isis away. Selket also guards the other ancient Osirian gods against the poisonous bite of {faith/Apep}, and has assisted {faith/Ra} on numerous occasions in his battles against the Devourer of the Dawn. Selket normally appears as a woman wearing a scorpion with a raised tail on her head, or more rarely, as a lustrous black scorpion with the head of a woman.",
+			"",
+			"Selket's priests are commonly found working as healers and embalmers in towns and villages. The goddess has few temples, but she is sometimes worshiped in the shrines of Anubis, Isis, Neith, or Nephthys. Clerics of Selket who choose the Souls subdomain replace the domain spell {spell/animate dead} with {spell/speak with dead} instead."
 		]
 	},
 	"seramaydiel": {
@@ -2562,7 +2605,13 @@
 			"",
 			"### Description",
 			"",
-			""
+			"Seramaydiel loves instrumental music but favors the harp above all. When {monster/astradaemon/s} first emerged from the Abyss and began snatching wandering spirits from the River of Souls on the Astral Plane, it is said that Seramaydiel was able to call the lost souls belonging to Nirvana back to her with her majestic harping.",
+			"",
+			"Seramaydiel's burnished red-gold hair falls in broad curls around her face and frames the white wings that rise from her slender back. She uses her heavenly double chromatic harp to lull evildoers into a false sense of security, then slays them, if she must, using holy darts projected from a narrow bronze tube she uses as a blowgun.",
+			"",
+			"The Lady of Inspired Notes speaks all languages and enjoys fostering communication between disparate parties, especially when doing so may avert potential violence. A diplomat negotiating peace between countries and a tavern patron trying to head off a bar fight are both regarded by Seramaydiel as emissaries of her cause.",
+			"",
+			"Seramaydiel's home is a vast marble amphitheater on Nirvana where the empyreal lords sometimes congregate for music and dancing as Seramaydiel plays a tune from her enchanted harp, much to the delight of all in attendance."
 		]
 	},
 	"set": {
@@ -2571,7 +2620,7 @@
 		"description": [
 			"::fh[Set]{sub=\"Lord of the Dark Desert\"}",
 			"",
-			"{SOURCE Pathfinder #80: Empty Graves/65}  ",
+			"{SOURCE Pathfinder #80: Empty Graves/74}  ",
 			"**Pathfinder Wiki** [Set](https://www.pathfinderwiki.com/wiki/Set) *(link opens in outside browser)*",
 			"",
 			"### Details",
@@ -2587,7 +2636,11 @@
 			"",
 			"### Description",
 			"",
-			""
+			"Of all the deities of the Ancient Osirian pantheon, none is as hated and reviled as Set. He represents the foreign invader, the desert that encroaches upon the verdant banks of the River Sphinx, the storms that destroy crops and sink ships, and the dead that rise from their graves. He is evil personified, the enemy of all that is good, a god of sickness and disease, confusion and madness, rebellion and strife. He is a usurper, a murderer, and a stealer of souls.",
+			"",
+			"Set is the brother of {faith/Isis}, {faith/Osiris}, and {faith/Nephthys}, who is also his consort. With {faith/Neith}, Set is the father of {faith/Sobek}. Set murdered Osiris, mutilated the body and scattered the pieces, and tried to steal his brother's throne, ushering in the Age of Darkness. Set is the enemy of both his brother Osiris and his nephew {faith/Horus}. Set is opposed to {faith/Anubis} as well, and the two war over the souls of the Osirian dead - Anubis seeks to guide them safely to the Boneyard, and Set to steal their souls or turn them into undead abominations. Set appears as a lean Osirian man with the head of a sha, or \"Set beast\".",
+			"",
+			"Kinslayers, murderers, and usurpers all pay homage to Set, but he is also venerated by kings and pharaohs who value the god's cunning, strength, and power. Set is a patron of assassins, rogues, and necromancers, and he is worshiped by barbarians, warriors, and evil druids as well."
 		]
 	},
 	"sezelrian": {
@@ -2820,8 +2873,8 @@
 			">{SOURCE Chronicle of the Righteous/23}",
 			">",
 			">1. **The Tender's Path (Sp)** {spell/remove fear} 3/day, {spell/calm emotions} 2/day, or {spell/sands of time} 1/day",
-			">2. **Elder's Wisdom (Su)** You immediately age into the next age category, though you take only the mental bonuses for the next age category and none of the physical penalties. If you are venerable when you receive this boon, gain a +2 sacred bonus to your Wisdom instead.",
-			">3. **Liberation (Sp)** You can cast freedom once per day.",
+			">2. **Elder's Wisdom (Su)** You immediately age into the next {rule/age/ category}, though you take only the mental bonuses for the next age category and none of the physical penalties. If you are venerable when you receive this boon, gain a +2 sacred bonus to your Wisdom instead.",
+			">3. **Liberation (Sp)** You can cast {spell/freedom} once per day.",
 			"",
 			"## Follower Options",
 			"",
@@ -2835,7 +2888,16 @@
 			"",
 			"### Description",
 			"",
+			"{SOURCE Chronicle of the Righteous/23}  ",
+			"Shei demonstrates patience and acumen cultivated over thousands of years and strives to lead others to the same wisdom of the self. Through quiet reflection, service to the community, and the grand experience of life, Shei's followers learn to recognize their true natures and feel the freedom that comes with perfect self-acceptance.",
 			"",
+			"Shei stands 8 feet tall and exudes quiet confidence and grace despite her eerie form. The empyreal lord's slender body appears to be that of a middle-aged woman, but her form is concealed beneath glossy black feathers and tightly wrapped bandages. The head of an ibis pours from her elongated neck, and in her hand she carries her silver sickle, *Imminent Harvest,* with her at all times lest evil catch her unawares. Though Shei possesses the wisdom of age, she also possesses the fiery passion of youth, making her an unpredictable force to be reckoned with even at the best of times.",
+			"",
+			"The never-ending cycle of life is Shei's province. Her multitudinous minions range from dragonflies that live and die in a year to {monster/treant/s} that have existed for centuries. The Ibis Matron understands every stage of life, from infancy to old age, and sees the purpose of life as the attainment of self-actualization. Her servants find joy in helping mortals express their true selves through creativity, hard work, and service to their communities. Individuals in search of enlightenment, parents of small children, mothers about to bring life into the world, and teachers helping their students blossom all pay homage to Shei. The elderly feel particularly drawn to Shei, knowing that the Ibis Matron understands the weight of their long lives.",
+			"",
+			"Those who force others to hew to an uncomfortable mold rouse the wrathful judgment of Shei, as do fiends who corrupt mortals and rob them of their potential. The Ibis Matron has an especial hatred for {monster/belier devil/s} and their ilk. Evil creatures that weaken their victims through negative energy - particularly ones that cause premature aging, such as {template/ghost/s} - also bear the brunt of Shei's glorious anger.",
+			"",
+			"Shei lives in a magnificent palace of woven rushes that floats on the Lake of Spring-Thawed Ice on Nirvana.",
 			"",
 			"[^A]: Requires the {trait/Acolyte of Apocrypha} trait."
 		]
@@ -2863,7 +2925,7 @@
 			"",
 			"### Description",
 			"",
-			"As all great art changes throughout time, so has Shelyn. In the early days of Azlant, Shelyn was a minor goddess of art, beauty, and music. After the death of her mother, a goddess of love, Shelyn took on her area of concern. She also shared the space in Azlanti religion with her brother Dou-Bral, and the two were worshiped as one in many cases. They were inseparable for ages, and ancient depictions show the siblings creating brilliant masterpieces and singing duets that could bring even the most surly curmudgeon to tears. However, one day the two had a terrible fight and Dou-Bral departed for spaces unknown. Shelyn was utterly devastated about losing her brother and feared the worst for his fate. From that point forward, up until the end of the empire, depictions of Shelyn showed her wearing a veil and dark clothing to mourn the loss of her sibling. Art in the empire took on a more somber tone in those years. Painters produced works using dull shades, and musicians played slow introspective songs in somber keys.",
+			"As all great art changes throughout time, so has Shelyn. In the early days of Azlant, Shelyn was a minor goddess of art, beauty, and music. After the death of her mother, a goddess of love, Shelyn took on her area of concern. She also shared the space in Azlanti religion with her brother [Dou-Bral](faith/zon_kuthon), and the two were worshiped as one in many cases. They were inseparable for ages, and ancient depictions show the siblings creating brilliant masterpieces and singing duets that could bring even the most surly curmudgeon to tears. However, one day the two had a terrible fight and Dou-Bral departed for spaces unknown. Shelyn was utterly devastated about losing her brother and feared the worst for his fate. From that point forward, up until the end of the empire, depictions of Shelyn showed her wearing a veil and dark clothing to mourn the loss of her sibling. Art in the empire took on a more somber tone in those years. Painters produced works using dull shades, and musicians played slow introspective songs in somber keys.",
 			"",
 			"Though in the Age of Darkness the Song of the Prism would wrest her brother Dou-Bral's glaive from him to serve as her favored weapon, in the age of ancient Azlant she favored using a dagger."
 		]
@@ -3538,7 +3600,7 @@
 			">",
 			">1. **Joyful Step (Sp)** {spell/longstrider} 3/day, {spell/forest friend} 2/day, or {spell/good hope} 1/day",
 			">2. **Infectious Joy (Su)** Your delightful demeanor is so contagious that enemies find it hard to resist your charms. The save DC of your mind-affecting effects increases by 1, or by 2 against intelligent foes of the same race as you.",
-			">3. **Familiar Journey (Sp)** You can cast word of recall once per day, except you may target up to six willing creatures within 30 feet to travel with you; these creatures need not be touching you.",
+			">3. **Familiar Journey (Sp)** You can cast {spell/word of recall} once per day, except you may target up to six willing creatures within 30 feet to travel with you; these creatures need not be touching you.",
 			"",
 			"## Follower Options",
 			"",
@@ -3552,7 +3614,10 @@
 			"",
 			"### Description",
 			"",
-			""
+			"{SOURCE Chronicle of the Righteous/24}  ",
+			"Sinashakti embodies perfect joy. He is an inveterate wanderer and delights in meeting long-lost friends along the road. Sinashakti carries missives of great import between empyreal lords; legend tells that Sinashakti once descended to Abaddon to bring a declaration of war to the {family/div/s}, though he denies such audacious claims.",
+			"",
+			"Sinashakti is typically depicted as a handsome man with deep blue skin and a constant smile. He often wears his long black hair in a braided knot and his dark eyes gleam with felicity. Sinashakti favors silk trousers and colorful tunics, and it is known among his followers that he adores jewelry - bangles bedeck his arms and jeweled ropes hang from his shoulders. In battle, Sinashakti produces a shortbow studded with yellow sapphires from which he fires emerald-headed arrows."
 		]
 	},
 	"sithhud": {
@@ -3837,7 +3902,7 @@
 		"description": [
 			"::fh[Sobek]{sub=\"The Raging Torrent\"}",
 			"",
-			"{SOURCE Pathfinder #80: Empty Graves/65}  ",
+			"{SOURCE Pathfinder #80: Empty Graves/74}  ",
 			"**Pathfinder Wiki** [Sobek](https://www.pathfinderwiki.com/wiki/Sobek) *(link opens in outside browser)*",
 			"",
 			"### Details",
@@ -3853,7 +3918,11 @@
 			"",
 			"### Description",
 			"",
-			""
+			"The crocodile god Sobek is a god of rivers, marshes, and fertility of both creatures and vegetation. Violent, aggressive, and prone to primal urges, Sobek is also a god of battle, venerated for his ferocity, strength, and military prowess.",
+			"",
+			"Sobek appears as a muscular man with the head of a mighty crocodile, wearing a headdress with tall plumes, curling horns, and a solar disk. He is the son of {faith/Neith} and {faith/Set}, and while he occasionally supports his father, Sobek more often stands alone. He has no wife, but he lusts after the war goddess {faith/Sekhmet} and expends great effort trying to impress her with his strength and potency. Sobek sometimes accompanies {faith/Ra} on his solar barge, joining the sun god in his nightly battles against {faith/Apep}.",
+			"",
+			"Kings venerate Sobek as a symbol of pharaonic potency and might. He is a patron of soldiers and armies, and he is worshiped by barbarians, druids, fighters, rangers, and warriors as well. Farmers often give offerings to Sobek so that he will enrich their fields and protect their livelihood. Sobek's temples are almost always situated on riverbanks, and are rarely found more than a few miles from a river. The crocodiles living in the neighboring rivers are exalted by the priesthood and the faithful as the direct offspring of the god, or are even seen as living incarnations of Sobek himself. Most of his temples contain pools holding crocodiles sacred to Sobek, and their regular feeding is incorporated into worship. These honored reptiles are mummified and interred upon their deaths with all the respect and esteem that marks human funerals."
 		]
 	},
 	"socothbenoth": {
@@ -3962,8 +4031,8 @@
 			">{SOURCE Chronicle of the Righteous/24}",
 			">",
 			">1. **Lorefinder (Sp)** {spell/identify} 3/day, {spell/locate object} 2/day, or {spell/glyph of warding} 1/day",
-			">2. **Arcane Knowledge (Su)** Your eyes harden and turn into ruby and gold. You can see as though under the effects of a permanent analyze dweomer spell, though you only use this effect only on objects, not on creatures.",
-			">3. **Petrified Guardians (Su)** Once per day, you can speak a divine utterance to turn one creature within 60 feet to solid marble as flesh to stone (Fort save negates; DC 10 + 1/2 your HD + your Int modifier). You can then order your petrified victim to guard a clearly defined area or object as long as it remains turned to marble. Anyone who enters the area or touches the object triggers the petrified victim, who attacks as a stone golem with HD equal to the creature's original HD for 1d4 minutes before reverting back to flesh.",
+			">2. **Arcane Knowledge (Su)** Your eyes harden and turn into ruby and gold. You can see as though under the effects of a permanent {spell/analyze dweomer} spell, though you only use this effect only on objects, not on creatures.",
+			">3. **Petrified Guardians (Su)** Once per day, you can speak a divine utterance to turn one creature within 60 feet to solid marble as {spell/flesh to stone} (Fort save negates; DC 10 + 1/2 your HD + your Int modifier). You can then order your petrified victim to guard a clearly defined area or object as long as it remains turned to marble. Anyone who enters the area or touches the object triggers the petrified victim, who attacks as a {monster/stone golem} with HD equal to the creature's original HD for 1d4 minutes before reverting back to flesh.",
 			"",
 			"## Follower Options",
 			"",
@@ -3982,7 +4051,10 @@
 			"",
 			"### Description",
 			"",
+			"{SOURCE Chronicle of the Righteous/24}  ",
+			"Soralyon's handsome form is formed from living marble. Mortal art depicts Soralyon in numerous different shades, from white to rose red, blue, or green, but his true form is of the purest black marble, which always glimmers softly as if lit from within.",
 			"",
+			"Those who guard ancient sites, particularly as self-appointed guardians, pray to Soralyon for the strength and perseverance to carry out their grave tasks, and Soralyon and his agents are constantly on guard against those who would defile sacred monuments. While the Mystic Angel sometimes favors researchers who show prudence and strong moral fiber, his agents quickly intercede when a mortal seeks to uncover, however unwittingly, a dangerous monument or evil bit of ancient lore - a trait that sometimes puts Soralyon at odds with preservationists such as {faith/Bharnarol} or the caretakers of the Great Library of Harmonious Scripture.",
 			"",
 			"[^A]: Requires the {trait/Acolyte of Apocrypha} trait."
 		]
@@ -4401,7 +4473,7 @@
 			">",
 			">1. **Forest Dweller (Sp)** {spell/calm animals} 3/day, {spell/eagle eye} 2/day, or {spell/deeper darkness} 1/day",
 			">2. **Owl's Eye (Su)** You gain darkvision out to a range of 60 feet. If you already have darkvision, increase its range by an additional 60 feet.",
-			">3. **Hunter's Edge (Su)** You gain sneak attack +3d6. This increase to sneak attack damage stacks with sneak attack damage you may have from other sources. Whenever you deal sneak attack damage with a piercing weapon, you deal +2 points of damage per sneak attack die.",
+			">3. **Hunter's Edge (Su)** You gain {ability/sneak attack} +3d6. This increase to sneak attack damage stacks with sneak attack damage you may have from other sources. Whenever you deal sneak attack damage with a piercing weapon, you deal +2 points of damage per sneak attack die.",
 			"",
 			"## Follower Options",
 			"",
@@ -4415,7 +4487,14 @@
 			"",
 			"### Description",
 			"",
-			""
+			"{SOURCE Chronicle of the Righteous/25}  ",
+			"Tanagaar watches from the darkness, always alert for evil working under the cloak of night. His great golden eyes never close, and his sharp beak and fierce talons are always ready to tear apart those who challenge him.",
+			"",
+			"In his true form, Tanagaar is a giant owl, 14 feet tall, with luminous golden eyes; it is said that he can swivel his head in any direction and can see perfectly at any distance. Tanagaar's plumage is dusky platinum gray tipped with inky black, perfect for melding into the shadows of the forest. His beak and talons shine like platinum as well, but are actually {eq-material/cold iron}, and never catch the moonlight to betray his position. His devout say that Tanagaar's beak is sharp enough to sever the head off a {monster/babau}, and with his mighty talons he can snatch and crush two {monster/dretch/es} at a time. His presence is always preceded by a flock of owls native to the surrounding region unless he requires discretion.",
+			"",
+			"Tanagaar sometimes takes the form of a humanoid as well, preferring the guise of an 8-foot-tall muscular man with shoulder-length black hair and a close-trimmed gray beard. Backwoods foresters and lumberers tell tales of encountering Tanagaar in this form - the celestial being's luminous golden owl eyes always betray his otherworldly nature.",
+			"",
+			"Tanagaar concerns himself with watching the borders of Heaven from the depths of the Unbent Forest on the lowest slopes of the mountain. There he maintains a force of {monster/hound archon} scouts who assist him in patrolling and defending their divine realm. The Arulent Eye keeps tabs on the rest of the multiverse's borders with the help of his elite order of {monster/spyglass archon/s}, who all sport the heads of owls and can supposedly dive from a mile up to strike at an enemy on the ground in a matter of seconds."
 		]
 	}
 }

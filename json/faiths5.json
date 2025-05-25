@@ -21,7 +21,11 @@
 			"",
 			"### Description",
 			"",
-			""
+			"Neith is a goddess of war and hunting, but also of domestic arts such as weaving. She stands guard over the bodies of fallen soldiers and is responsible for teaching humanity how to make the weapons of war. From her loom, she also weaves bandages and shrouds for wounded or slain warriors, and in this aspect she is venerated as a funerary goddess. Neith is the protector of the stomach, and guards the canopic jar that holds this organ. A divinity of creation, Neith is said to weave the world on her loom every day, though {faith/Ptah} and {faith/Ra} are more usually venerated as creators.",
+			"",
+			"Neith is also a water deity, and as {faith/Wadjet} is the embodiment of the River Sphinx, Neith is goddess of the oceans that surround Osirion. While on a long hunt in the desert, Neith encountered {faith/Set}, and their liaison resulted in the birth of a son, the crocodile god {faith/Sobek}. Neith is respected for her wisdom, and on many occasions has served as a mediator between {faith/Horus} and Set. Neith appears as a woman wearing a red deshret crown. She is occasionally depicted wearing armor, and always carries a bow and arrows.",
+			"",
+			"Hunters, rangers, sailors, smiths, soldiers, and warriors all worship Neith as their patron. Clerics of Neith are usually skilled smiths or weavers, or both, and like their goddess, they do not marry."
 		]
 	},
 	"nephthys": {
@@ -30,7 +34,7 @@
 		"description": [
 			"::fh[Nephthys]{sub=\"Mistress of the Mansion\"}",
 			"",
-			"{SOURCE Pathfinder #80: Empty Graves/65}  ",
+			"{SOURCE Pathfinder #80: Empty Graves/71}  ",
 			"**Pathfinder Wiki** [Nephthys](https://www.pathfinderwiki.com/wiki/Nephthys) *(link opens in outside browser)*",
 			"",
 			"### Details",
@@ -46,7 +50,11 @@
 			"",
 			"### Description",
 			"",
-			""
+			"The ancient Osirians placed great importance on the safety of their deceased loved ones, and Nephthys was a funerary deity who protected the dead and mourned their loss. In particular, Nephthys is the guardian of the lungs and the canopic jar that contains them. As her husband and brother {faith/Set} is the god of darkness and deserts, Nephthys is the goddess of night and the edge of the desert, the border between civilization and wilderness.",
+			"",
+			"Nephthys is the sister of {faith/Isis} and {faith/Osiris} and the sister-wife of Set. Following Osiris's murder at the hands of Set, Nephthys grieved along with Isis, and helped her sister gather the scattered pieces of Osiris's dismembered body. She also nursed and protected the young {faith/Horus}. Although she is Set's wife, Nephthys does not normally support her husband, instead siding with Isis and Osiris in most conflicts. Having conceived no children with Set, Nephthys plied Osiris with wine and seduced him, later giving birth to a son, {faith/Anubis}. Nephthys appears as a woman with winged arms wearing a headdress in the shape of a basket atop a tower - a representation of the hieroglyphic symbol of her name, and also her holy symbol.",
+			"",
+			"Nephthys does not usually have temples of her own, though she is often represented in churches of Anubis, Isis, and Osiris, or more rarely, alongside her husband Set in his temples. These small shrines are available for worshipers to leave their goddess small offerings and offer her prayers. Clerics of Nephthys assist other priests at funerals and work as professional mourners, even working closely with the church of {faith/Pharasma} when needed."
 		]
 	},
 	"nergal": {
@@ -1111,8 +1119,8 @@
 			">{SOURCE Chronicle of the Righteous/19}",
 			">",
 			">1. **Verdict (Sp)** {spell/command} 3/day, {spell/enthrall} 2/day, or {spell/suggestion} 1/day",
-			">2. **Olheon's Judgment (Sp)** Once per day, you can place a symbol on a target who has shirked his obligations or showed poor judgment in his official capacity; that symbol acts similarly to a mark of justice. This spell-like ability has a casting time of 1 round instead of 10 minutes, and when the mark activates it causes the target to take a -6 penalty to Wisdom and Charisma. The conditions you place on the mark must relate to the target's actions as a leader.",
-			">3. **Lordship (Su)** You automatically gain the {feat/Leadership} feat, and you are always considered to have a reputation of fairness and generosity so long as you maintain your allegiance to Olheon. If you already have the {feat/Leadership} feat, you gain an additional +2 bonus to your Leadership score. You may choose to attract a hound or legion archon as a cohort. Your archon cohort gains additional HD to bring its total HD to 2 lower than your own level.",
+			">2. **Olheon's Judgment (Sp)** Once per day, you can place a symbol on a target who has shirked his obligations or showed poor judgment in his official capacity; that symbol acts similarly to a {spell/mark of justice}. This spell-like ability has a casting time of 1 round instead of 10 minutes, and when the mark activates it causes the target to take a -6 penalty to Wisdom and Charisma. The conditions you place on the mark must relate to the target's actions as a leader.",
+			">3. **Lordship (Su)** You automatically gain the {feat/Leadership} feat, and you are always considered to have a reputation of fairness and generosity so long as you maintain your allegiance to Olheon. If you already have the {feat/Leadership} feat, you gain an additional +2 bonus to your Leadership score. You may choose to attract a {monster/hound>_archon} or {monster/legion archon} as a cohort. Your archon cohort gains additional HD to bring its total HD to 2 lower than your own level.",
 			"",
 			"## Follower Options",
 			"",
@@ -1126,7 +1134,14 @@
 			"",
 			"### Description",
 			"",
+			"{SOURCE Chronicle of the Righteous/19}  ",
+			"It is said that Olheon knows the lineage of every noble soul in existence. She tracks the passage of power - and the responsibilities such power brings with it - from parent to child, ruler to heir, and dynasty to dynasty. Whether power transfers legitimately through inheritance or election or forcibly through coup or rebellion, Olheon sees the change and judges accordingly.",
 			"",
+			"The Just Arbiter is among the most magnificent empyreal lords to behold. Olheon stands over 16 feet tall, towering over most mortals, and her blue eyes blaze in a face of burnished gold. She wears a heavy silver breastplate and greaves, but her gauntleted hands and forearms are stained crimson, as if she had plunged her armored fists into pools of fresh blood. In one hand she carries a ruby-bladed halberd even taller than herself; in the other hand, she bears a heavy golden seal of office affirming her charge.",
+			"",
+			"Olheon despises tyrants and boils at the sight of legitimate rulers who, through weakness or ignorance, cause hardship and unjust living conditions for those under their dominion. She works through her subjects and divine minions to teach those who can be taught and to punish those who cannot. Officials, noble rulers, and even parents all look to Olheon for guidance, and they are in turn judged according to their actions.",
+			"",
+			"Olheon occupies the northern wing of the Courts of Accord, where the magical scrying mirrors hung in her vast Hall of Thrones display scenes of accession and rulership throughout the multiverse.",
 			"",
 			"[^A]: Requires the {trait/Acolyte of Apocrypha} trait."
 		]
@@ -1937,8 +1952,8 @@
 			">{SOURCE Chronicle of the Righteous/26}",
 			">",
 			">1. **Elemental Arcana (Sp)** {spell/produce flame} 3/day, {spell/soften earth and stone} 2/day, or {spell/call lightning} 1/day",
-			">2. **Quake (Sp)** You can cast earthquake once per day.",
-			">3. **Wrath of Nature (Su)** Once per day, you can assume the form of a Gargantuan earth or fire elemental for up to 1 hour. If you choose the form of an earth elemental, you gain a +10 size bonus to your Strength, a -4 penalty to your Dexterity, a +6 size bonus to your Constitution, and a +8 natural armor bonus. If you choose the form of a fire elemental, you gain a +8 size bonus to your Dexterity, a +6 size bonus to your Constitution, and a +6 natural armor bonus. This ability is otherwise identical to elemental body IV.",
+			">2. **Quake (Sp)** You can cast {spell/earthquake} once per day.",
+			">3. **Wrath of Nature (Su)** Once per day, you can assume the form of a Gargantuan earth or fire elemental for up to 1 hour. If you choose the form of an {family/earth elemental}, you gain a +10 size bonus to your Strength, a -4 penalty to your Dexterity, a +6 size bonus to your Constitution, and a +8 natural armor bonus. If you choose the form of a {family/fire elemental}, you gain a +8 size bonus to your Dexterity, a +6 size bonus to your Constitution, and a +6 natural armor bonus. This ability is otherwise identical to {spell/elemental body IV}.",
 			"",
 			"## Follower Options",
 			"",
@@ -1952,7 +1967,10 @@
 			"",
 			"### Description",
 			"",
-			""
+			"{SOURCE Chronicle of the Righteous/26}  ",
+			"It is said that trees bend beneath the force of Valani's laugh and his wrathful roar can split the ground around him. Valani's hot temper is well known among the empyreal lords, and his peers respect him for his mastery over the forces of nature. Fireshaker understands that change cannot be forestalled and that growth requires destruction in order for goodness to take root in what was once evil soil.",
+			"",
+			"Valani is a massive figure, standing 10 feet tall with the thick arms and legs of a primate and the head of a boar. His wavy dark hair falls free under a crown of spiked grass and purple flowers. The skin left uncovered by ornate armor crafted from tiles of shell and obsidian is dark brown and ruddy, as if the light of a fire were always burning just beneath his flesh. When angered - which is often - his majestic features contort into an expression of awful rage. Aside from his wrath, Valani is also known for being a proud and wise father countless times over. Dozens of tribes on serene islands through the multiverse claim their blessings stem from being favored children of Fireshaker."
 		]
 	},
 	"vale": {
@@ -2400,7 +2418,7 @@
 			">",
 			">1. **Devotion (Sp)** {spell/command} 3/day, {spell/paladin's sacrifice} 2/day, or {spell/pain strike} 1/day",
 			">2. **Imperative (Sp)** Once per day, you can command a creature to carry out some particular task or service. This ability acts as {spell/geas//quest}, except it has a casting time of 1 minute and the penalty to ability scores for disobeying the geas/quest is -4 for every 24 hours the target so disobeys, up to a total of -16 (though none of the creature's ability scores can be reduced to less than 1 by this effect).",
-			">3. **Martyr's Blood (Su)** You are immune to bleed effects. Whenever you would be affected by a bleed effect, all enemies within 30 feet gain the bleeding condition instead as though they were the effect's original targets (no save; creatures immune to bleeding are immune to this affect). The Heal DC to stop this supernatural bleeding is 20 rather than 15.",
+			">3. **Martyr's Blood (Su)** You are immune to {rule/bleed} effects. Whenever you would be affected by a bleed effect, all enemies within 30 feet gain the bleeding condition instead as though they were the effect's original targets (no save; creatures immune to bleeding are immune to this affect). The Heal DC to stop this supernatural bleeding is 20 rather than 15.",
 			"",
 			"## Paladin Code",
 			"",
@@ -2430,7 +2448,10 @@
 			"",
 			"### Description",
 			"",
-			""
+			"{SOURCE Chronicle of the Righteous/27}  ",
+			"Legend tells that Vildeis despises evil more than any other empyreal lord. Other angels rail furiously against the darkness and spend eternity battling its agents. But when Vildeis emerged from the ether of Heaven, it is said, she could not cope with the mere idea of evil - what reality allows such an abomination to exist? To preserve her sanity, Vildeis blinded herself so she could not see the foulness that so often tainted existence and dedicated herself wholly to destroying that which pained her so. Now, her zealous championing of rightness leaves her no peace. She cannot rest, cannot laugh, cannot pause to appreciate her efforts. Only action and repeated sacrifice keep her damaged spirit whole.",
+			"",
+			"The Cardinal Martyr's body is marked with countless scars, each one a celestial rune representing a sacrifice she has made. Crimson ribbons cover her useless eyes, and her magnificent red wings carry her aloft as she embarks on divine quests. Her curved dagger, *Cicatrix,* is never far from her side. Those who stand in Vildeis's shadow hear a maddening chorus of screams, the voices of all the martyred throughout the Great Beyond."
 		]
 	},
 	"vois": {
@@ -2572,7 +2593,7 @@
 		"description": [
 			"::fh[Wadjet]{sub=\"The Green Empress\"}",
 			"",
-			"{SOURCE Pathfinder #80: Empty Graves/65}  ",
+			"{SOURCE Pathfinder #80: Empty Graves/75}  ",
 			"**Pathfinder Wiki** [Wadjet](https://www.pathfinderwiki.com/wiki/Wadjet) *(link opens in outside browser)*",
 			"",
 			"### Details",
@@ -2588,7 +2609,7 @@
 			"",
 			"## Paladin Code",
 			"",
-			">Paladins of Wadjet are stoic yet gentle defenders of the people, devoted especially to those living near rivers and other bodies of water. They are relentless in their crusade against Apep, the evil god of snakes and darkness. Their tenets include the following affirmations.",
+			">Paladins of Wadjet are stoic yet gentle defenders of the people, devoted especially to those living near rivers and other bodies of water. They are relentless in their crusade against {faith/Apep}, the evil god of snakes and darkness. Their tenets include the following affirmations.",
 			">",
 			">- The just and innocent are my wards. I will keep them safe and protected from evil to my last breath.",
 			">- There are those who cannot travel to find what they need. If I find myself lacking in just actions, I will journey and find those who need my help.",
@@ -2605,7 +2626,11 @@
 			"",
 			"### Description",
 			"",
-			""
+			"The great River Sphinx, the heart of Osirian life in both ancient and modern times, is embodied in the snake goddess Wadjet, who is said to dwell in the papyrus marshes in the river's delta. Wadjet is the patron and protector of Osirion, and she nourishes the kingdom as the River Sphinx sustains the land and its people. A teacher and giver of wisdom, Wadjet is the mother of the {monster/uraeus/es}, the race of two-headed winged serpents who are her emissaries and spirits of caution, guidance, and protection.",
+			"",
+			"Wadjet appears as a woman with the head of a cobra, with winged arms outspread in a protective pose, or as a winged cobra with a woman's face, raised and ready to strike in defense of her land and people. A protector of kings, Wadjet supports {faith/Ra} and {faith/Horus} as deities of rulership, but as the guardian of all Osirion, she works with {faith/Khepri} to protect the common folk as well.",
+			"",
+			"Wadjet is a patron of pharaohs, and the uraeus is part of the royal regalia of Osirion. Although she has temples in many of Osirion's major cities, countless smaller shrines to Wadjet stand along the banks of the River Sphinx. Oracles are particularly common in Wadjet's priesthood, and the pharaohs of Osirion have long looked to them for insight and counsel."
 		]
 	},
 	"wendo": {
@@ -2736,7 +2761,12 @@
 			"",
 			"### Description",
 			"",
-			""
+			"{SOURCE Chronicle of the Righteous/28}  ",
+			"In his palatial quarters in the Great Library of Harmonious Scripture, Winlas maintains a massive tome detailing every sacred ceremony in existence, knowledge that he uses to counteract the evil done by profane observances.",
+			"",
+			"Winlas stands 11 feet tall and has skin the shade of unspoiled parchment. His white silk robe is impeccably clean beneath his heavy tunic of blue brocade trimmed in gold. A sweeping tapestry depicting countless religious rituals - each one minutely detailed in silver thread - hangs from his shoulders, and he wears a four-pointed crown of beaten gold. Depictions of the lord of ceremonies show him as an old man with a heavy tome in his arms.",
+			"",
+			"The Elder of Divinity teaches that religious ritual unites the faithful, and there is great power in numbers. Religious rituals are not distant prescriptions, but elements of worship passed down from the divine and shaped by pious mortals over the years. Winlas does not encourage loose interpretations of rituals or careless development of new rites. Instead, he and his agents communicate the importance of following religious doctrine to the letter and work to preserve these sacred rites in their entirety."
 		]
 	},
 	"wylgart": {
@@ -3613,7 +3643,7 @@
 			">",
 			">1. **Winged Blessing (Sp)** {spell/feather fall} 3/day, {spell/levitate} 2/day, or {spell/water breathing} 1/day",
 			">2. **Aspect of the Wind (Su)** Avian wings sprout from your back, granting you a fly speed of 30 feet with average maneuverability.",
-			">3. **Body of Water (Su)** Your body becomes permanently fluid and malleable, making you immune to critical hits and sneak attacks. In addition, you can move through an area as small as one-quarter your space without squeezing or one-eighth your space when squeezing.",
+			">3. **Body of Water (Su)** Your body becomes permanently fluid and malleable, making you immune to critical hits and sneak attacks. In addition, you can move through an area as small as one-quarter your space without {misc/squeezing} or one-eighth your space when squeezing.",
 			"",
 			"## Follower Options",
 			"",
@@ -3631,7 +3661,10 @@
 			"",
 			"### Description",
 			"",
-			""
+			"{SOURCE Chronicle of the Righteous/28}  ",
+			"Ylimancha watches over the coastlines of the world and battles with {faith/Pazuzu} for dominion over the souls of those beings who call the sky their home. Her conflict with the King of the Wind Demons began at the dawn of time when she and Pazuzu fought for the souls of winged beings as they sprang into existence. Ylimancha bitterly resents each race lost to Pazuzu's corrupting influence.",
+			"",
+			"The empyreal lord of coasts has two forms. One is that of a woman with the head of an osprey. In this form she carries a teak longbow strung with gold. Her other form is that of a 4-foot-tall pure white seagull with the head of a beautiful Varisian woman with short dark hair. Ylimancha can speak in both forms, and her words always carry with them the quiet echo of crashing waves."
 		]
 	},
 	"ymeri": {
@@ -4233,7 +4266,14 @@
 			"",
 			"### Description",
 			"",
-			""
+			"{SOURCE Chronicle of the Righteous/29}  ",
+			"To Zohls, the act of discovery is almost as important as the truth uncovered by it. The empyreal lord of determination and investigation, she revels in unwinding mysteries - the more complicated the better - as well as shedding light upon previously obscured events. Zohls sees existence as a series of interlocking puzzles and delights in discovering patterns. She is guided by logic more than instinct, and has trouble interacting with less perceptive beings, even fellow archons. She is an impatient empyreal lord who genuinely forgets that not everyone shares her talent for brilliant leaps of logic.",
+			"",
+			"Zohls often appears practically dressed in a tunic and breeches and ties back her shining chestnut hair into braids. She favors clothing of black and white, representing the light of truth and the darkness of the unknown, and she reveals her celestial nature to the deserving by unfurling magnificent wings of parchment that never wrinkles.",
+			"",
+			"Investigators and researchers - who both seek the truth in their own ways - pay homage to the empyreal lord sometimes known simply as \"Verity.\" Her agents often appear incognito to give a crucial hint or provide a key piece of evidence to the faithful. Those who hide criminal deeds capture Zohls's ire most strongly, but anyone who seeks to keep acts, lore, or objects hidden may encounter interference from Zohls's agents. Zohls uses her abilities and her agents to uncover fiendish plots and unravel the machinations of evil, particularly devils.",
+			"",
+			"Zohls's palace on Heaven is filled with endless halls full of labeled evidence, research notes, maps covered in check marks, sketches of interesting individuals, and laboratory equipment. She rarely visits her fellow empyreal lords, finding them largely uninteresting and difficult to talk to. Her sense of superiority leaves her somewhat lonely, and she greatly enjoys interacting with individuals - be they mortal or divine - who can match her in intelligent conversation."
 		]
 	},
 	"zon_kuthon": {

@@ -47,7 +47,14 @@
 			"",
 			"### Description",
 			"",
-			""
+			"{SOURCE Chronicle of the Righteous/10}  ",
+			"Where mists rise after a gentle shower and wide-eyed prophets see visions of things to come, the hand of Chucaro can be seen. Legend tells that thousands of years ago, an angel fell asleep in a misty dale in Elysium. The angel dreamed of a beautiful woman with a basket full of ethereal visions. When she awoke, she saw her dream made real as Chucaro stepped out of the mist.",
+			"",
+			"Chucaro's pale skin gleams iridescently, like mother-of-pearl, and her eyes shift from color to color in a never-ending spectrum. Her frame is draped in robes of living mist. Her waist-length mass of rippled hair shimmers, colorless, like a cascade of rain that rushes continually from her brow. She has a sweet, serious face, and always seems to be listening to something just on the edge of hearing. To combat those fiends who would pervert the visions she grants, Chucaro summons a sap formed of churning mists - anyone struck by the blackjack is overwhelmed by disorienting hallucinations.",
+			"",
+			"The Maiden of Haze and Whimsy brings comfort to those afflicted with mad delusions. She soothes their fevers and helps them make sense of the strange images that plague their minds. To her dedicated followers she brings bright, lucid dreams every night. She frowns on those who use harsh drugs to induce visions at the cost of their physical health; Chucaro's agents strive to bring such broken individuals back to health and teach them to draw phantasmagoria from within rather than through the use of external implements.",
+			"",
+			"Chucaro can often be found in a delicate house of iridescent pearl in the silver-gray lowlands of Elysium."
 		]
 	},
 	"chugarra": {
@@ -913,7 +920,14 @@
 			"",
 			"### Description",
 			"",
-			""
+			"{SOURCE Chronicle of the Righteous/11}  ",
+			"Damerrich and his followers believe death to be the defining moment of a mortal's life. How an individual meets her end and why weigh heavily on the spirit in the afterlife. Damerrich understands that evil must sometimes be slain, but never lightly, never easily. Damerrich takes on the weight of all the necessary executions and just deaths in the world. Executioners look to this empyreal lord whenever they have qualms with their line of work, and Damerrich teaches them that while their duty is a sober and joy-free one, it is necessary to ensure peace and goodness.",
+			"",
+			"Damerrich is a silent, monolithic figure clad in black stone armor. His handsome, hairless face is mostly hidden behind his helm; only his weary eyes are clearly visible. Once Damerrich commits to combat, he strikes heavily and without hesitation. Centuries of death wear on Damerrich's soul, but only because of the solemn responsibility, not because of guilt or reluctance - when the time comes for action, Damerrich's blow is sure. The Weighted Swing holds no room for regret.",
+			"",
+			"Judges, whether appointed officials in city courthouses or village leaders acting as part of a tribunal, pray to Damerrich for guidance in their judgments. Good people may understand the need for executions but shrink from the act; Damerrich and his agents help reassure them when executions are appropriate or take the burden of mortal guilt upon themselves. Those wrongly sentenced to death pray for intercession from Damerrich, and can hope to receive help in the form of one of his divine agents. Corrupt judges and careless executioners rouse the Weighted Swing's ire like nothing else. Similarly, if an accused deserving of death is set free, Damerrich's agents might appear both to perform the just execution and to chastise those who set the criminal free. The Weighted Swing does not take pleasure in his grim but necessary task, and those who take the matter of execution too lightly or who sadistically revel in the act may expect retribution from Damerrich's chosen elimination squad of shield archons, Those of the Heaving Hand.",
+			"",
+			"Damerrich occupies the southern wing of the Courts of Accord in Heaven. He sometimes works with {faith/Olheon}, who resides in the northern wing, to take action against corrupt regimes responsible for excessive unlawful executions."
 		]
 	},
 	"dammar": {
@@ -2314,8 +2328,8 @@
 			">{SOURCE Chronicle of the Righteous/12}",
 			">",
 			">1. **Adept Debater (Sp)** {spell/comprehend languages} 3/day, {spell/enthrall} 2/day, or {spell/tongues} 1/day",
-			">2. **Unbeamed Eye (Sp)** You can cast silenced true seeing three times per day. This ability is the equivalent of a 7th-level spell.",
-			">3. **Thunder of Truth (Su)** Once per day, you can emit a powerful roar that affects a 60-foot cone with the effects of a holy word spell and also deals 2d6 points of sonic damage to all creatures in the area (Fortitude negates; DC 10 + 1/2 your HD + your Cha modifier). This is a sonic effect.",
+			">2. **Unbeamed Eye (Sp)** You can cast {feat/silenced} {spell/true seeing} three times per day. This ability is the equivalent of a 7th-level spell.",
+			">3. **Thunder of Truth (Su)** Once per day, you can emit a powerful roar that affects a 60-foot cone with the effects of a {spell/holy word} spell and also deals 2d6 points of sonic damage to all creatures in the area (Fortitude negates; DC 10 + 1/2 your HD + your Cha modifier). This is a sonic effect.",
 			"",
 			"## Follower Options",
 			"",
@@ -2329,7 +2343,14 @@
 			"",
 			"### Description",
 			"",
-			""
+			"{SOURCE Chronicle of the Righteous/12}  ",
+			"At the dawn of creation, so the stories go, the archdevil {faith/Geryon} filled a pit in the Hellish realm of Stygia with an outpouring of lies. From beneath the weight of these lies rang out a single truth, which flew free of the fifth layer of Hell before ascending to the upper planes. That truth was Eritrice.",
+			"",
+			"The muscular Eritrice stands 8 feet tall, and her feminine form is typically covered with a pale brown pelt. Her head is that of a female lion's and her eyes gleam like amethysts. She wears a short leather kilt beneath a rose-colored breastplate. Eritrice's voice is so compelling, it is said, that those who hear her speak forget her remarkable appearance.",
+			"",
+			"Eritrice works to spread truth and wisdom throughout the world, but believes that insight gained through spirited debate is more valuable than knowledge gleaned from books. Her agents encourage discussion and respectful disagreement. In regions where lies are spoken aloud but truth remains hidden, Eritrice and her minions help good individuals pass messages. Geryon and his minions are Heart-Speaker's sworn enemies, and the two are known to have had titanic battles in the past.",
+			"",
+			"Heart-Speaker makes her home on the broad, sun-soaked plains of Nirvana. Her favorite spot is the Windswept Lea, a green and verdant meadow. When entertaining guests, she stays in a grand pavilion of chestnut wood, whose walls open to the sweet grassland and whose rooms are separated by hanging shantung curtains."
 		]
 	},
 	"falayna": {
@@ -2365,8 +2386,8 @@
 			">{SOURCE Chronicle of the Righteous/12}",
 			">",
 			">1. **Martial Excellence (Sp)** {spell/divine favor} 3/day, {spell/spiritual weapon} 2/day, or {spell/greater magic weapon} 1/day",
-			">2. **Strong Arm (Su)** As a swift action, you can increase the damage die of your weapon by one step for a number of rounds per day equal to your HD. These rounds need not be consecutive.",
-			">3. **Falayna's Rings (Su)** Once per day, you can summon a floating array of giant iron rings that provide cover or attack foes, as if you had cast crushing hand.",
+			">2. **Strong Arm (Su)** As a swift action, you can {misc/increase the damage die} of your weapon by one step for a number of rounds per day equal to your HD. These rounds need not be consecutive.",
+			">3. **Falayna's Rings (Su)** Once per day, you can summon a floating array of giant iron rings that provide cover or attack foes, as if you had cast {spell/crushing hand}.",
 			"",
 			"## Follower Options",
 			"",
@@ -2380,7 +2401,14 @@
 			"",
 			"### Description",
 			"",
+			"{SOURCE Chronicle of the Righteous/12}  ",
+			"Falayna exemplifies strength of arms and the intersection of combat with the bloom of womanhood, believing the two to be complementary rather than exclusive. Thousands of years ago, it is thought, Falayna represented only beauty and femininity, and was the consort of an empyreal lord who was master of weapons and martial training. Her mate, whose name has been lost to history, fell in combat against the minions of {faith/Moloch}. Falayna recovered her lover's sword from the teeth of Hell, and from then on she shone as Warrior's Ring.",
 			"",
+			"Falayna epitomizes feminine beauty. Though she can take many forms, she often appears as a fair-skinned woman with glossy brown hair and intense blue eyes. Her silk robes complement the silver breastplate beneath, and the empyreal lord carries her razor-edged longsword, Betrothal, with her always. Glittering rings of every imaginable hue bedeck Falayna's fingers; in combat, punishing strikes from her ringed fist complement the swings of her blessed longsword.",
+			"",
+			"Both male and female warriors pay homage to Falayna's skill, though most of her followers are women. Jewelers often seek to craft rings \"worthy of Falayna's little finger,\" and squires in training look to Falayna for guidance. Brides, as well as girls on the threshold of womanhood, ask Falayna for her blessings.",
+			"",
+			"Falayna lives in the galena-walled Half-Empty Palace on the slopes of Heaven.",
 			"",
 			"[^A]: Requires the {trait/Acolyte of Apocrypha} trait."
 		]
@@ -3188,7 +3216,7 @@
 			">",
 			">1. **Peacefulness (Sp)** {spell/erase} 3/day, {spell/calm emotions} 2/day, or {spell/deep slumber} 1/day",
 			">2. **Ignorance (Su)** Three times per day, you can attempt a melee touch attack to obliterate the cares of the wicked. On a successful hit, the target takes a penalty to Wisdom equal to 1d6 + 1 per 2 HD you possess (maximum 1d6+5, to a minimum Wisdom score of 1). This penalty lasts for 1 round per HD. If the target succeeds at a Fortitude save (DC 10 + 1/2 your HD + your Wis modifier), the penalty is halved.",
-			">3. **Still Mind (Su)** You are continually shielded as if by a mind blank spell. If anyone attempts to divine information about you through scry or similar spells and is foiled by the mind blank, the scrier must succeed at a Will save (DC 10 + 1/2 your HD + your Wis modifier) or take 1d6 points of Intelligence damage.",
+			">3. **Still Mind (Su)** You are continually shielded as if by a {spell/mind blank} spell. If anyone attempts to divine information about you through {spell/scrying} or similar spells and is foiled by the mind blank, the scrier must succeed at a Will save (DC 10 + 1/2 your HD + your Wis modifier) or take 1d6 points of Intelligence damage.",
 			"",
 			"## Follower Options",
 			"",
@@ -3202,7 +3230,14 @@
 			"",
 			"### Description",
 			"",
-			""
+			"{SOURCE Chronicle of the Righteous/13}  ",
+			"Ghenshau once strove to understand every aspect of creation and to create perfect order and goodness. As the empyreal lord added more and more elements to his world equation, however, he realized that his efforts were futile. Ghenshau abandoned his work and instead learned to appreciate the elements of peace and tranquility that come with acceptance.",
+			"",
+			"At first glance, Ghenshau could be mistaken for a Tian peasant boy, often wearing a hat of woven rushes and simple linen clothes. The hat shelters his beautiful face and his level, serene gaze. His clothes bear elegantly embroidered trim depicting fantastic birds, foo creatures, and runes. He carries a pipe in his hand and a workman's axe tucked into his rope belt.",
+			"",
+			"Ghenshau and his followers do not hold civilization in contempt, but they do believe the unnecessary complications of society distract people from doing their best. An artisan who maintains a neat shop and works on one project at a time is much happier and more pleasing to Ghenshau than a harried worker in a disarrayed shop. Of course, Ghenshau realizes that the demands of life can force people into lives they are not happy with, simply so they and their families can keep body and soul together. He understands that such circumstances are not always avoidable, and sends his agents to help such flustered individuals find a way out of their dreary responsibilities.",
+			"",
+			"The pastoral fields and beaten trails of Heaven are home to Ghenshau, but he can be found sleeping on the banks of Heaven's crystalline rivers or daydreaming in a wooded thicket as often as he is met on the road, where he's always ready to stop and share tales with a stranger over a drink and a smoke."
 		]
 	},
 	"ghlaunder": {
@@ -3392,7 +3427,9 @@
 			"",
 			"### Description",
 			"",
-			""
+			"When the universe was created, it was given an innate harmony, and the goddess Maat is the guardian of this cosmic order. She is a deity of balance, justice, law, and truth, and is responsible for the uniform movement of the celestial bodies through the sky and the ordered procession of seasons. Ancient Osirians believed that the legitimacy and efficacy of a pharaoh's reign were dependent on upholding the concepts embodied by Maat, and to prevent the universe from dissolving into chaos, this order must be constantly renewed and preserved by both humans and the gods.",
+			"",
+			"Maat is the daughter of {faith/Ra}, sister of {faith/Bastet}, {faith/Hathor}, and {faith/Sekhmet}, and the wife of {faith/Thoth}. Maat presides over the councils of the gods, being impartial, honest, and fair, and she assists {faith/Pharasma} in the judgment of souls as they pass on into the afterlife. As the upholder of cosmic order, Maat is opposed to both {faith/Set} and {faith/Apep}, who work to bring about chaos and entropy. Maat usually appears as a woman with a blue ostrich feather on her head. She is often depicted with winged arms, holding an ankh and a was scepter, symbols of life and power, respectively. Her sacred animal is the leopard, because the pattern on its coat represents the stars in the night sky. Paladins often worship Maat as the embodiment of justice, and monks and oracles revere the cosmic truth she embodies."
 		]
 	},
 	"maeha": {

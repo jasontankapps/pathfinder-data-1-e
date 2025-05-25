@@ -1158,7 +1158,7 @@
 			">",
 			">1. **Bountiful Spirit (Sp)** {spell/goodberry} 3/day, {spell/tree shape} 2/day, or {spell/plant growth} 1/day",
 			">2. **Touch of Wine (Su)** Once per day, you can make a touch attack to cause a creature to become intoxicated. If your attack is successful, the target takes 1d6 points of Dexterity, Wisdom, and Charisma damage. The damage is halved with a successful Fortitude save (DC 10 + 1/2 your HD + your Wis modifier).",
-			">3. **Divine Gardener (Sp)** You can cast control plants three times per day. This ability is the equivalent of an 8th-level spell.",
+			">3. **Divine Gardener (Sp)** You can cast {spell/control plants} three times per day. This ability is the equivalent of an 8th-level spell.",
 			"",
 			"## Follower Options",
 			"",
@@ -1172,7 +1172,12 @@
 			"",
 			"### Description",
 			"",
-			""
+			"{SOURCE Chronicle of the Righteous/14}  ",
+			"Halcamora appears as a young woman with sun-darkened skin, eyes of green so pale they're almost white, and a friendly, knowing smile. She wears brown robes kilted up to her knees, and her feet are always smudged with dirt and wine stains. From her shoulders sweep shell-like red wings marked with the distinctive black spots of a ladybug. Two slender black antennae curve up from her temples, and sleek black hair falls to her shoulders.",
+			"",
+			"Halcamora can be found where sunlight shines on cultivated garden plots, where workers rest after a day in the fields, and anywhere where wine flows and grapes ripen. The Lady of Ripe Bounty leaves wilder areas to others and contents herself with small gardens, parks, and wineries. Peaceful farming communities that build temples to more powerful nature gods often raise a small shrine to Halcamora as well. Gardeners and vintners pay particular homage to the Lady of Ripe Bounty and her celestial agents, particularly in times of drought or harsh weather. The gentle {family/agathion} has little room for hatred in her heart, but she despises insect-bodied fiends who blight crops and carry plague.",
+			"",
+			"Halcamora is a social empyreal lord and can often been found visiting the palaces of others, relaxing with a jug of wine at her elbow. At other times she resides in a leafy bower in the depths of the Forest of Whispered Longing in Nirvana."
 		]
 	},
 	"hanspur": {
@@ -1440,7 +1445,7 @@
 		"description": [
 			"::fh[Hathor]{sub=\"Mistress of Jubilation\"}",
 			"",
-			"{SOURCE Pathfinder #80: Empty Graves/65}  ",
+			"{SOURCE Pathfinder #80: Empty Graves/68}  ",
 			"**Pathfinder Wiki** [Hathor](https://www.pathfinderwiki.com/wiki/Hathor) *(link opens in outside browser)*",
 			"",
 			"### Details",
@@ -1456,7 +1461,11 @@
 			"",
 			"### Description",
 			"",
-			""
+			"The cow-headed goddess Hathor was worshiped from the earliest days of Ancient Osirion, and remained a popular deity throughout its history. A divinity of air and sky, Hathor is also a goddess of beauty and love, happiness and merriment. She is the queen of the dance, the mistress of music, and the sovereign of song. Hathor is a wife, a mother, and a lover, a goddess of fertility, sexuality, and motherhood. She is also a goddess of trade and goods that bring wealth from foreign lands.",
+			"",
+			"Hathor is the daughter of {faith/Ra}, and sister to {faith/Bastet}, {faith/Maat}, and {faith/Sekhmet}. She is the consort of {faith/Horus}, and as he is a god of kings, so is she a goddess of queens, though she is venerated by royalty and commoners alike. Hathor appears as a voluptuous cow-headed woman with the solar disk of her father Ra between her horns and carrying a sistrum. Sometimes she is depicted as a human woman with a horned headdress. More rarely, she is depicted as a great wild cow whose milk nourishes the living.",
+			"",
+			"Hathor is a patron and protector of women, and is worshiped by mothers, wives, and lovers of all ages. She also serves as a patron of bards, dancers, musicians, and performers, which makes her a popular deity in thriving cities and their playhouses. In her role as a goddess of trade, Hathor is also a patron of miners, particularly those who mine for precious stones. Hathor's priesthood is predominantly female, and her temples hold great festivals full of music and dance where worshipers consume large amounts of beer and wine and revel for days on end."
 		]
 	},
 	"hei_feng": {
@@ -1589,7 +1598,7 @@
 		"description": [
 			"::fh[Horus]{sub=\"The Distant Falcon\"}",
 			"",
-			"{SOURCE Pathfinder #80: Empty Graves/65}  ",
+			"{SOURCE Pathfinder #80: Empty Graves/68}  ",
 			"**Pathfinder Wiki** [Horus](https://www.pathfinderwiki.com/wiki/Horus) *(link opens in outside browser)*",
 			"",
 			"### Details",
@@ -1605,7 +1614,11 @@
 			"",
 			"### Description",
 			"",
-			""
+			"Horus is the god of the sky, the celestial falcon whose eyes are the sun and moon, whose speckled feathers are the stars, and whose wings are the sky. He is also a sun god, and in the form of Horakhty, or \"Horus of the Two Horizons,\" he is a deity of both the rising and setting suns. The posthumous son of {faith/Osiris} and {faith/Isis}, Horus faced off against the usurper {faith/Set}, and with his victory over the Lord of the Dark Desert, Horus became the rightful heir of Osiris. Horus took his father's place as king and ruled Osirion with his consort {faith/Hathor} during the Age of Anguish, becoming also a god of kings and pharaonic rule.",
+			"",
+			"Horus appears as a man with the head of a falcon wearing the traditional double crown of pharaohs called the pschent. He is also sometimes represented as a great celestial falcon. His symbol, the eye of Horus, is used to ward off evil, and the symbol commonly appears on protective amulets and trinkets. As a sun deity and god of kings, Horus lends his support to {faith/Ra}, and aids him in his continuous battles against {faith/Apep}. An ally of Osiris and Isis, Horus is a steadfast enemy of Set, and the two have fought countless battles over the ages.",
+			"",
+			"Horus is worshiped by kings and pharaohs, as well as by hunters, paladins, rangers, and warriors. He is sometimes venerated as part of a triad with Osiris and Isis, or as one-half of a royal couple with his consort Hathor, but there are temples dedicated solely to Horus as well. Though rare in this age, Horus' clergy gets along well with the faithful of {faith/Abadar}, as both churches value leadership and law. Temples to Horus are still found in the larger cities of Osirion."
 		]
 	},
 	"hshurha": {
@@ -1977,8 +1990,8 @@
 			">{SOURCE Chronicle of the Righteous/14}",
 			">",
 			">1. **Grower of Herbs (Sp)** {spell/cure light wounds} 3/day, {spell/barkskin} 2/day, or {spell/lily pad stride} 1/day",
-			">2. **Swamp Healer (Sp)** You can cast empowered heal 1/day.",
-			">3. **Vine Caller (Su)** Once per day you can summon a Large mass of living plant matter. The plant matter has the statistics of a viper vine, but is chaotic good. The viper vine follows your commands perfectly for 1 minute per HD before vanishing back to Elysium.",
+			">2. **Swamp Healer (Sp)** You can cast {feat/empowered} {spell/heal} 1/day.",
+			">3. **Vine Caller (Su)** Once per day you can summon a Large mass of living plant matter. The plant matter has the statistics of a {monster/viper vine}, but is chaotic good. The viper vine follows your commands perfectly for 1 minute per HD before vanishing back to Elysium.",
 			"",
 			"## Follower Options",
 			"",
@@ -1992,7 +2005,12 @@
 			"",
 			"### Description",
 			"",
+			"{SOURCE Chronicle of the Righteous/14}  ",
+			"Immonhiel appears as a regal woman of advanced age. Her moss-green hair hangs in two thick braids on either side of her lined face, and she has brown skin and dark, flashing eyes that hold great wisdom. She wears a soft leather vest fringed with emerald green silk and a leather skirt. The innumerable tiny pouches and glass vials that hang from a sash around her waist are rumored to contain cures to every malady known to mortals. The soothing empyreal lord's right arm is not flesh, but a knotty length of pine carved in the shape of an arm with long, capable-looking fingers at its end.",
 			"",
+			"Balm-Bringer is a healer on the eternal battlefields of the planes, where she nurses injured angels back to health and soothes the wounds of empyreal lords who clashed with the armies of evil and destruction. Her favored servants travel the mortal world, passing on herbal remedies and advice on how best to tend potent marsh plants, all the while teaching combat medics and battlefield healers the best techniques to ensure their warriors live to fight another day. Balm-Bringer also understands that some cannot be healed. For them, she provides ointments that take away the pain and grant peace until life's final moments.",
+			"",
+			"Many have need of Balm-Bringer, and she finds a home wherever she wanders. Nearly all the empyreal lords have hosted Immonhiel at some point, and many mortals have housed her without even knowing the nature of the stranger who slept under their roof.",
 			"",
 			"[^A]: Requires the {trait/Acolyte of Apocrypha} trait."
 		]
@@ -2414,8 +2432,8 @@
 			">{SOURCE Chronicle of the Righteous/15}",
 			">",
 			">1. **Calligrapher's Talent (Sp)** {spell/divine favor} 3/day, {spell/augury} 2/day, or {spell/glyph of warding} 1/day",
-			">2. **Divine Inscription (Su)** Three times per day, when using a scroll to cast a spell that deals hit point damage, you can change half the spell's damage to holy damage. If you lack the ability to cast a particular spell from a scroll, you may attempt a Use Magic Device check with a bonus equal to your HD plus your Charisma modifier (or your regular Use Magic Device bonus, whichever is better).",
-			">3. **Lucky Cards (Su)** Once per day, you can summon 2d6 shimmering cards that trail in your wake. The cards dart around you during combat, intercepting deadly attacks. At your discretion, each card can absorb a single damage die from either a sneak attack or a critical hit that would normally hit you. For example, if you would be hit by a sneak attack dealing an extra 3d6 points of damage and you had two cards remaining, you could reduce the sneak attack damage to 1d6 (these dice are removed before being rolled). Once a card absorbs a damage die, it disappears. Unused cards disappear at the end of each day.",
+			">2. **Divine Inscription (Su)** Three times per day, when using a scroll to cast a spell that deals hit point damage, you can change half the spell's damage to holy damage. If you lack the ability to cast a particular spell from a scroll, you may attempt a {skill/Use Magic Device} check with a bonus equal to your HD plus your Charisma modifier (or your regular Use Magic Device bonus, whichever is better).",
+			">3. **Lucky Cards (Su)** Once per day, you can summon 2d6 shimmering cards that trail in your wake. The cards dart around you during combat, intercepting deadly attacks. At your discretion, each card can absorb a single damage die from either a {ability/sneak attack} or a critical hit that would normally hit you. For example, if you would be hit by a sneak attack dealing an extra 3d6 points of damage and you had two cards remaining, you could reduce the sneak attack damage to 1d6 (these dice are removed before being rolled). Once a card absorbs a damage die, it disappears. Unused cards disappear at the end of each day.",
 			"",
 			"## Follower Options",
 			"",
@@ -2429,7 +2447,10 @@
 			"",
 			"### Description",
 			"",
-			""
+			"{SOURCE Chronicle of the Righteous/15}  ",
+			"Irez emerged from the reeds along the coast of the Sea of No Shadows in Nirvana. She understands the mystical symbolism behind runes, particularly how runes can empower arcane magic. Harrow readers and gamblers pay homage to the Lady of Inscribed Wonder, and her agents teach the exacting art of calligraphy to favored mortals.",
+			"",
+			"Irez still makes her home among the reeds where she first appeared. Her palace is a fantastical amalgamation of woven reed floors, paper walls, and bamboo roofs, and while it looks fragile enough to blow away in a stiff breeze, it has stood undamaged for thousands of years."
 		]
 	},
 	"irori": {
@@ -2654,7 +2675,7 @@
 		"description": [
 			"::fh[Isis]{sub=\"Queen of Miracles\"}",
 			"",
-			"{SOURCE Pathfinder #80: Empty Graves/65}  ",
+			"{SOURCE Pathfinder #80: Empty Graves/69}  ",
 			"**Pathfinder Wiki** [Isis](https://www.pathfinderwiki.com/wiki/Isis) *(link opens in outside browser)*",
 			"",
 			"### Details",
@@ -2670,7 +2691,11 @@
 			"",
 			"### Description",
 			"",
-			""
+			"When {faith/Set} killed his brother {faith/Osiris}, it was their sister Isis who recovered Osiris's body, and using her magic, conceived a son, {faith/Horus}, with her dead husband. Enraged, Set then dismembered Osiris's corpse and scattered the remains, but Isis gathered up all of the pieces of her husband's body and with a magic spell resurrected Osiris.",
+			"",
+			"Isis ruled as queen alongside Osiris during the Age of Legend, and like him, she is a fertility and nature goddess, viewed as the ideal mother and wife. She is a goddess of rebirth and resurrection, and the protector of the canopic jar that holds the deceased's liver. She is also a deity of magic, both arcane and divine. Isis appears as a beautiful human woman with winged arms, wearing a crown shaped like a throne. She is the loyal wife and partner of Osiris, and is fiercely protective of her son Horus. Isis is close to her sister Nephthys, but is a sworn enemy of her brother Set.",
+			"",
+			"Isis is worshiped by sorcerers, wizards, and witches as a patron of magic, but also by mothers, wives, and druids in her role as a goddess of fertility. The vast majority of her clerics are women, but men and women both are initiated into her mystery cults to learn her secret and sacred rites."
 		]
 	},
 	"isph_aun_vuln": {
@@ -2923,7 +2948,7 @@
 			">{SOURCE Chronicle of the Righteous/16}",
 			">",
 			">1. **Dauntless (Sp)** {spell/remove fear} 3/day, {spell/darkvision} 2/day, or {spell/heroism} 1/day",
-			">2. **Courageous Roar (Sp)** You can cast still greater heroism three times per day. This ability is the equivalent of a 7th-level spell.",
+			">2. **Courageous Roar (Sp)** You can cast {feat/still>_spell} {spell/greater heroism} three times per day. This ability is the equivalent of a 7th-level spell.",
 			">3. **Holy Terror (Sp)** Once per day you can inscribe a symbol of Jaidz in the air that acts like a {spell/symbol of fear}. The symbol appears as the glowing outline of Jaidz's holy symbol and hovers stationary wherever you inscribe it. This spell requires no material components and has a casting time of only 1 minute. You can attune up to 10 creatures to the symbol without extending its casting time.",
 			"",
 			"## Follower Options",
@@ -2938,7 +2963,14 @@
 			"",
 			"### Description",
 			"",
+			"{SOURCE Chronicle of the Righteous/16}  ",
+			"Jaidz believes cowards can be turned to a life of bravery with compassion and firm guidance. He steps softly so as not to frighten those who need to hear his wisdom, and helps those he visits to find the strength within themselves.",
 			"",
+			"Jaidz appears as a giant black tiger with ghostly white spots. While in the mortal realm, he often takes the shape of a dark-skinned man with thick black hair streaked with white. His catlike golden eyes gleam in the shadows, and curved golden claws sprout from his hands. Even in his human form he boasts a long black tail tipped with white.",
+			"",
+			"The cowardly, the anxious, and the untested pay homage to Jaidz. Youths are especially drawn to Fearless Claw, hoping that when adulthood comes, it will find them brave enough to face the challenges of maturity. Jaidz teaches that the cowardly are not to be scorned, but to be helped, and his agents often provide tests of courage to those who underestimate their own potential.",
+			"",
+			"Jaidz dwells in a pavilion of black walnut with gold lattice walls and floor-length faille curtains of emerald green, magenta, and indigo. His pavilion stands on the topmost of three stone tiers cut into one of the Dragonmane Mountains on Nirvana.",
 			"",
 			"[^A]: Requires the {trait/Acolyte of Apocrypha} trait."
 		]
@@ -2991,7 +3023,14 @@
 			"",
 			"### Description",
 			"",
-			""
+			"{SOURCE Chronicle of the Righteous/16}  ",
+			"Jalaijatali is a free-spirited empyreal lord who sings with the voice of a rushing creek. Her presence can be felt in the rapids of a flowing river or beneath the misty cascade of a waterfall.",
+			"",
+			"Jalaijatali appears as a beautiful Mwangi woman with skin formed of tiny, iridescent scales. Her pointed ears peek through short black hair, and her body is garbed in a robe of living water that continually splashes and rushes over her form. At a moment's notice, the empyreal lord can pluck a stream of water from her robe to wield as a whip.",
+			"",
+			"Rillsong loves to teach mortals the beauty of natural music, from the patter of a summer rain to the sawing of katydids. While Jalaijatali much prefers making music to making war, she can be roused to anger by fiends and evil creatures that corrupt her waters, particularly {monster/river drake/s} or water {family/oni}.",
+			"",
+			"On Elysium, Jalaijatali lives in a pool fed by a waterfall that falls continually from the sky with no apparent source. Around the pool stands a gazebo of acacia wood and crystal, with raised wooden platforms covered in soft mats of greenery where guests can recline."
 		]
 	},
 	"jerishall": {
@@ -3834,7 +3873,11 @@
 			"",
 			"### Description",
 			"",
-			""
+			"Perhaps the most popular of the old gods among the common folk of Osirion is Khepri, who takes the form of a scarab or dung beetle. Khepri is the god of the rising sun in the eastern horizon, and the scarab rolling a ball of dung across the ground is seen as a symbol of Khepri pushing the sun across the sky. As the sun rises in the morning, so do the peasants who work all day with little reward, and Khepri is their divine embodiment, promising freedom from toil and reward for their labor in the afterlife. He is also a mischievous prankster, breaking up the tedium of the long days with his antics and poking fun at those who consider themselves the commoners' betters.",
+			"",
+			"Khepri is typically represented as a scarab beetle, or as a man with a scarab beetle for a head. As a solar deity, Khepri works closely with {faith/Ra} and {faith/Horus}, is friendly with {faith/Hathor}, and is opposed to {faith/Apep} and {faith/Set} and their evil machinations. As a trickster, Khepri is close friends with {faith/Bes}, and he relishes the distaste that his strange appearance, his pungent aroma, and all that he represents elicit in more refined and civilized gods such as {faith/Bastet}, {faith/Maat}, and {faith/Thoth}.",
+			"",
+			"Khepri seldom has dedicated temples, but as the patron of peasants, his priests can be found anywhere the common folk labor. Temporary shrines to the scarab god often spring up next to fields or at building sites, where workers make small offerings of a bite of their food or a sip of their beer, and ask Khepri to grant them an easy and productive day of work."
 		]
 	},
 	"kitumu": {
@@ -3990,7 +4033,12 @@
 			"",
 			"### Description",
 			"",
+			"{SOURCE Chronicle of the Righteous/17}  ",
+			"Korada is neither young nor old, only present and wise. Sparse light brown fur covers his body, and his three monkey tails constantly writhe behind him like the flickering flames of a fire. He carries no weapons; when spurred to anger, the Open Hand of Harmony uses only his hands and millennia of martial training to defend himself, refusing to cause lethal harm to his attacker. Korada's holy symbol has several incarnations based on the viewer's region and the local ideals of enlightenment and peace, though the most common representation is that of two kneeling figures before a lotus.",
 			"",
+			"Many who are weary from a lifetime of imbalance or violence turn to Korada in search of peace. Retired soldiers, their hands stained with blood, lay down their weapons forever in the name of this empyreal lord. Likewise, diplomats in strange lands, individuals facing difficult moral choices, and champions of evil who long for absolution all find comfort in the teachings of the Open Hand of Harmony. While true repentance is necessary for evil to turn to good, Korada believes that no mortals are beyond redemption.",
+			"",
+			"Korada is said to possess the gift of foresight, but he rarely acts on these strange visions. He believes the struggle to change is always worthwhile, even if such a journey does not always end in success. It is the process, not the result, that matters most to Korada and his followers. When he is not teaching lessons of harmony to his devotees, Korada resides in Nirvana, in the heart of the Dream Lotus - an efflorescent palace whose blossoming violet walls always drip with cool, golden nectar that is said to calm even the wildest of spirits.",
 			"",
 			"[^A]: Requires the {trait/Acolyte of Apocrypha} trait."
 		]

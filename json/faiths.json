@@ -1581,7 +1581,7 @@
 		"description": [
 			"::fh[Anubis]{sub=\"Guardian of the Tomb\"}",
 			"",
-			"{SOURCE Pathfinder #80: Empty Graves/65}  ",
+			"{SOURCE Pathfinder #80: Empty Graves/66}  ",
 			"**Pathfinder Wiki** [Anubis](https://www.pathfinderwiki.com/wiki/Anubis) *(link opens in outside browser)*",
 			"",
 			"### Details",
@@ -1597,7 +1597,9 @@
 			"",
 			"### Description",
 			"",
-			""
+			"Virtually every Osirian tomb contains images of the jackal-headed god Anubis, the god of mummification and protector of tombs. He presides over funerals and embalming, and guides souls to {faith/Pharasma} to await their judgment in the afterlife, punishing tomb robbers and defending the dead on their journeys to the Boneyard.",
+			"",
+			"Anubis is the son of {faith/Osiris} and {faith/Nephthys}, and assisted {faith/Isis} with Osiris's mummification. Like his father, Anubis frequently comes into conflict with {faith/Set}, particularly regarding that god's association with undeath. As a guardian of the dead and their tombs, Anubis frequently works with Isis, {faith/Neith}, Nephthys, and {faith/Selket}, who protect the canopic jars containing the organs of the deceased. Anubis usually appears as a man with jet-black skin and the head of a jackal, though he sometimes takes the entire form of a jackal. Clerics and paladins of Anubis are dedicated to destroying undead creatures wherever they find them. Anubis is the patron of embalmers, and priests and embalmers typically wear jackal masks that cover their entire heads in honor of their god."
 		]
 	},
 	"apep": {
@@ -1606,7 +1608,7 @@
 		"description": [
 			"::fh[Apep]{sub=\"Devourer of the Dawn\"}",
 			"",
-			"{SOURCE Pathfinder #80: Empty Graves/65}  ",
+			"{SOURCE Pathfinder #80: Empty Graves/66}  ",
 			"**Pathfinder Wiki** [Apep](https://www.pathfinderwiki.com/wiki/Apep) *(link opens in outside browser)*",
 			"",
 			"### Details",
@@ -1628,7 +1630,9 @@
 			"",
 			"### Description",
 			"",
-			""
+			"Born in the waters of primeval chaos before creation, the malevolent serpent Apep stands in sharp contrast to the more benevolent serpent goddess Wadjet. Apep is the personification of chaos and darkness, the hidden dangers that lurk just beneath the surface, the deadly whorls and eddies that drown and swallow, and the hungry river snakes that prey on those who venture too near the water's edge. Apep is the raging rapids, the boundless flood that inundates and sweeps away all that mortals seek to build. He is the darkness in the water's depths that swallows light and life, devouring the sun and plunging the world into eternal night.",
+			"",
+			"Said to dwell in the Tenth Region of Night, Apep is the great enemy of the sun god {faith/Ra}, and ancient Osirians believed each sunrise was but a temporary victory, for the Devourer of the Dawn always waits to seize and consume the sun again and again, until one day the sun shall rise no more and all shall be ended. Apep is a great golden serpent miles long, and his crushing coils encircle the world. He also appears as a fearsome dragon with night-black scales, and evil dragons of Osirion venerate him in this form."
 		]
 	},
 	"apollyon": {
@@ -1749,8 +1753,8 @@
 			">{SOURCE Inner Sea Faiths/17}",
 			">",
 			">1. **Maker's Ways (Sp)** {spell/floating disk} 3/day, {spell/align weapon/ (law only)} 2/day, or {spell/tiny hut} 1/day",
-			">2. **Touch of the Artificer (Su)** You have discovered divinely inspired lines of primordial energy - gifts from Apsu, you believe - that can imbue weapons with bursts of magic. Up to three times per day, as a standard action, you can touch a single weapon and grant it the dancing property for the next 3 rounds. A single weapon cannot be targeted by this effect more than once per day.",
-			">3. **Crafter's Pride (Sp)** You have learned the intrinsic nature of what gives life to objects, and can pour your soul into the construction of a given creation to infuse it with a semblance of blessed life. Once per week, you can cast animate objects on a single object that you've created. The effect does not have a duration; the animated object remains indefinitely as a companion, following your commands as best it can. You cannot animate a new companion while one is already serving you, though as a full-round action you can dismiss a companion, reducing it to lifelessness. If your companion is destroyed, you cannot use this ability again for another week. You cannot affect an object animated in this way with a {spell/permanency} spell.",
+			">2. **Touch of the Artificer (Su)** You have discovered divinely inspired lines of primordial energy - gifts from Apsu, you believe - that can imbue weapons with bursts of magic. Up to three times per day, as a standard action, you can touch a single weapon and grant it the {magic-enh/dancing} property for the next 3 rounds. A single weapon cannot be targeted by this effect more than once per day.",
+			">3. **Crafter's Pride (Sp)** You have learned the intrinsic nature of what gives life to objects, and can pour your soul into the construction of a given creation to infuse it with a semblance of blessed life. Once per week, you can cast {spell/animate objects} on a single object that you've created. The effect does not have a duration; the animated object remains indefinitely as a companion, following your commands as best it can. You cannot animate a new companion while one is already serving you, though as a full-round action you can dismiss a companion, reducing it to lifelessness. If your companion is destroyed, you cannot use this ability again for another week. You cannot affect an object animated in this way with a {spell/permanency} spell.",
 			">",
 			">### Boons: Exalted",
 			">",
@@ -1765,8 +1769,8 @@
 			">{SOURCE Inner Sea Faiths/17}",
 			">",
 			">1. **Exiled's Wrath (Sp)** {spell/color spray} 3/day, {spell/scorching ray} 2/day, or {spell/draconic reservoir} 1/day",
-			">2. **Apsu's Shroud (Su)** Apsu smiles upon your martial prowess and protects you with a halo of divine energy from his distant realm. You gain a +1 sacred bonus to your Armor Class, which increases to +2 against attacks from evil-aligned creatures. This bonus increases to +3 if the attacker is an evil-aligned true dragon. If an evil-aligned true dragon confirms a critical hit against you, the creature must succeed at a Fortitude save (DC = 10 + 1/2 your Hit Dice + your Charisma modifier) or be blinded for 1 round.",
-			">3. **Chromatic Scourge (Su)** You channel the righteous and immortal fury of Apsu into your weapon, making it ready for the endless fight against Dahak and his wicked allies. Once per day as a swift action, you can imbue your weapon with the hidden wrath of Apsu. If your target is evil, you gain a +20 profane bonus on your next single attack. If your opponent is an evil-aligned creature of the dragon type, treat your next single attack roll as both an automatic hit and a critical threat. You gain a +4 profane bonus to confirm the critical hit.",
+			">2. **Apsu's Shroud (Su)** Apsu smiles upon your martial prowess and protects you with a halo of divine energy from his distant realm. You gain a +1 sacred bonus to your Armor Class, which increases to +2 against attacks from evil-aligned creatures. This bonus increases to +3 if the attacker is an evil-aligned true dragon. If an evil-aligned true dragon confirms a critical hit against you, the creature must succeed at a Fortitude save (DC = 10 + 1/2 your Hit Dice + your Charisma modifier) or be {misc/blinded} for 1 round.",
+			">3. **Chromatic Scourge (Su)** You channel the righteous and immortal fury of Apsu into your weapon, making it ready for the endless fight against {faith/Dahak} and his wicked allies. Once per day as a swift action, you can imbue your weapon with the hidden wrath of Apsu. If your target is evil, you gain a +20 profane bonus on your next single attack. If your opponent is an evil-aligned creature of the dragon type, treat your next single attack roll as both an automatic hit and a critical threat. You gain a +4 profane bonus to confirm the critical hit.",
 			"",
 			"## Paladin Code",
 			"",
@@ -1815,7 +1819,16 @@
 			"",
 			"### Description",
 			"",
-			""
+			"{SOURCE Inner Sea Faiths/18}  ",
+			"According to draconic lore, in the beginning of time there flowed two waters, fresh and salt, which became Apsu and his mate. The couple spawned the dragon-gods who created all the mortal world, but their first child, the destructive {faith/Dahak}, traveled to Hell to revel and rampage, turning it into a place of darkness and ever-burning fire. Dahak then struck out at his siblings, destroying each in turn; the shattered remains of these draconic gods formed the first metallic dragons, who were cast onto the Material Plane as mortals. This enraged the fresh water, who realized that he must take a name so he could descend upon the Material Plane to confront his son. The fresh water then declared the immortal words: \"I shall then be Apsu, for I am the first.\"",
+			"",
+			"Aiding Apsu in his quest against Dahak were the god's metallic dragon children. The ensuing battle eventually saw Dahak laid low, but at a terrible price, for many of the dragons had sustained dire injuries. Just as Apsu prepared to strike the killing blow against his son, Dahak called out to his mother, the great salt sea. Unwilling to see her first son perish, the still-nameless sea offered to heal the battle's brutalized survivors in exchange for their efforts to save Dahak's life. Weakened and suffering, some accepted, exchanging goodness for evil, and battle raged between the metallic and chromatic dragons.",
+			"",
+			"Dahak escaped his father's claws, and though the metallic dragons were poised to pursue, Apsu bade them to save their rage for another day. He then asked his mate why she aided their treacherous son, but she merely named herself [redacted][^R], mother of all - a name that still brings pain to all dragons - and held Apsu responsible for the deaths of her children. She then expelled him from their primordial realm, and Apsu vowed that, one day, he would make his stand against Dahak.",
+			"",
+			"Apsu and Dahak's bitter enmity has since been the source of discord among the dragons of the cosmos. Apsu has accepted the inevitability of a final conflict with his son, choosing, for unknown reasons, the world of Golarion on which to make his last stand. Apsu's avatar is a dragon dwarfing the largest of the great wyrms, a regal and magnificent sight to behold. His silver scales sparkle with a pearlescent glow. When in this form, Apsu guides dragons and mortals alike, preparing all for the day his final battle with Dahak will commence.",
+			"",
+			"[^R]: All dragons on live in fear of her and refuse to even speak her name."
 		]
 	},
 	"arazni": {
@@ -1852,7 +1865,7 @@
 			">{SOURCE Pathfinder #140: Eulogy for Roslar's Coffer/71}",
 			">",
 			">1. **Hidden Resolve (Sp)** {spell/disguise self} 3/day, {spell/obscure object} 2/day, or {spell/bestow curse} 1/day",
-			">2. **Unheralded Retribution (Su)** You punish those foes who would use the arcane arts to infringe upon your autonomy and well-being. Whenever you succeed at a saving throw against a spell or spell-like ability cast or used by a creature, that creature becomes flat-footed against your attacks until the end of your next turn. In addition, your attacks against that creature while it is flat-footed deal 1 additional point of bleed damage; this bleed damage stacks with itself.",
+			">2. **Unheralded Retribution (Su)** You punish those foes who would use the arcane arts to infringe upon your autonomy and well-being. Whenever you succeed at a saving throw against a spell or spell-like ability cast or used by a creature, that creature becomes {rule/flat-footed} against your attacks until the end of your next turn. In addition, your attacks against that creature while it is flat-footed deal 1 additional point of {rule/bleed} damage; this bleed damage stacks with itself.",
 			">3. **Sovereign Constancy (Su)** Much like Arazni herself, you prize the sanctuary of your own thoughts, and you have built defenses and protections lest others try to take away or taint this refuge. Once per day as an immediate action whenever you are affected by a mind-affecting effect, you can use {spell/break enchantment} on yourself as a spell-like ability, with a caster level equal to your Hit Dice.",
 			">",
 			">### Boons: Exalted",
@@ -1861,7 +1874,7 @@
 			">",
 			">1. **Unyielding (Sp)** {spell/remove fear} 3/day, {spell/false life} 2/day, or {spell/nondetection} 1/day",
 			">2. **Strength in Bloodshed (Su)** The Red Crusader knew well the value of fighting alongside allies - and the price to be paid when those allies fail. Rather than relying upon the assistance of fickle and fallible mortals, you can bring forth a construct gathered from the blood spilled by Arazni and her followers. Once per day as a standard action, you can summon a {monster/blood golem} to aid you. You gain telepathy with the golem to a range of 100 feet. The golem follows your commands perfectly for a number of minutes equal to your number of Hit Dice before vanishing back to its home.",
-			">3. **Shield of Scars (Sp)** When you heal yourself with a cure or inflict spell (as appropriate depending upon your physiology), scars form over your body. You gain a profane bonus to Armor Class equal to the spell's level for 1 minute.",
+			">3. **Shield of Scars (Sp)** When you heal yourself with a {main/cure or inflict |spell>_groupings} (as appropriate depending upon your physiology), scars form over your body. You gain a profane bonus to Armor Class equal to the spell's level for 1 minute.",
 			">",
 			">### Boons: Sentinel",
 			">",
@@ -1911,7 +1924,11 @@
 			"",
 			"### Description",
 			"",
-			""
+			"Unlike many divinities, Arazni has a single, fixed form and a finite realm on the Material Plane. Due to the transformations Geb wrought upon her corpse, she is bound into the form of a {template/lich}. She has become a gaunt and emaciated figure due to the torments she endured from {monster/Tar-Baphon}, the theft of her organs - now the powerful but lost artifacts known as the {magic-artifact/bloodstones of Arazni} - and the decay of her flesh. Unlike most liches, she remains ignorant of the nature and location of her phylactery, an intentional strategy to keep her trapped under Geb's control. Despite it all, she maintains a formidable force of will, and few find themselves able to stand their ground when her wrath is kindled. Common rumor tells that Arazni has embraced her role as Geb's Harlot Queen, taking the {template/graveknight/s} who stole her body as champions and making an undead harem of the reanimated knights sent to liberate her remains. Interestingly enough, those rumors are spoken most boldly not in Geb, but in Lastwall and in the remnants of the Taldan empire where she was first known as a crusader.",
+			"",
+			"Arazni's realm is the nation of Geb, which she rules as the head of state from the Cinerarium, her great obsidian pyramid-palace in Mechitar. She serves as the face of Geb to the outside world and manages the political administration of the realm with a steady, dispassionate hand; most in the region credit the stability of the nation over the past 800 years to her leadership.",
+			"",
+			"Arazni holds little regard for her worshippers, as she maintains a bitter resentment toward anyone who venerates what she has become. At the same time, she finds a spark of vicarious fulfillment in having followers, and so she tolerates them. She values her privacy above all, however, and any cleric who would use his powers to divine her or her secrets will find himself swiftly and utterly cut off from her power. Likewise, she detests the epithet \"Harlot Queen,\" and use of the appellation is an equally swift path to excommunication; her worshippers instead refer to her as the Red Queen or, especially among those outside of Geb, the Unyielding."
 		]
 	},
 	"ardad_lili": {
@@ -2147,7 +2164,14 @@
 			"",
 			"### Description",
 			"",
-			""
+			"{SOURCE Pathfinder #100: A Song of Silver/69}  ",
+			"Twelve centuries after helping to create the nation of Taldor as a symbol of human ambition, Aroden achieved realization as the prophesied Last Azlanti by raising the Starstone from the depths of the Inner Sea. A single touch pulled Aroden into the alien artifact, wherein he experienced a series of phantasmagoric scenes that presented lethal martial trials and exhausting moral quandaries that challenged Aroden's physical, mental, and spiritual limits more than any of the arduous experiences he had survived thus far. Aroden emerged from this experience a living god, and upon the enormous island he had dredged up with the Starstone he founded the city of Absalom: a shining beacon to attract the greatest artists, poets, architects, and mystics from all of humanity's young kingdoms. At long last, Aroden's devoted followers were rewarded with fantastic abilities derived from the god's newfound divinity, and his cause became a full-fledged religion.",
+			"",
+			"Some two thousand years later, Aroden was so far removed from the day-to-day events of the world that he chose not to intervene when Tar-Baphon returned as the undead {monster/the_<Whispering Tyrant}. Instead, he left the matter to his divine herald {faith/Arazni}, patroness of the Knights of Ozem, with disastrous results. By the time the mortal leader of the knights, {faith/Iomedae}, took the Test of the Starstone and replaced Arazni as Aroden's herald, many of Aroden's faithful began to doubt that he would ever again walk upon Golarion in person. If the Whispering Tyrant could not draw Aroden back from his seclusion in the Great Beyond, what could?",
+			"",
+			"Early in the Age of Enthronement's fifth millennium, Cheliax broke free from the increasingly decadent Taldor, taking the center of Aroden's faith with it. Chelish fanatics turned with increasing zeal to the ancient Starfall Doctrine, identifying the capital city of Westcrown as the likeliest place for Aroden's return to usher in the prophesied Age of Glory, which was to begin in 4606 AR. When Aroden returned to personally drive the demon lord Deskari into the Lake of Mists and Veils in 4433 AR, the zealots' conviction took on an air of inevitability, and Aroden's faith spread throughout the new empire, eclipsing every other human religion. When the appointed hour arrived, the Chelish emperor stood beside Aroden's patriarch at the heart of Westcrown, eager to greet their patron and celebrate his return and the birth of a new Age of Glory.",
+			"",
+			"Instead, the skies darkened with violent storms that lasted weeks, plunging the whole world into tumult and throwing Cheliax into open revolution. By the time devil-worshipers finally quelled the fighting and took control of the empire, Aroden was well and truly slain, his clergy left powerless and confused. Even prophecy itself - the force that had defined Aroden's life and spurred his personal accomplishments and ambitions - no longer functioned as once it had. The future of humanity was again completely unknown, and the world found itself thrown into the uncertainty of the Age of Lost Omens."
 		]
 	},
 	"aroggus": {
@@ -2219,8 +2243,8 @@
 			">{SOURCE Chronicle of the Righteous/6}",
 			">",
 			">1. **Divine Defense (Sp)** {spell/shield of faith} 3/day, {spell/shield other} 2/day, or {spell/magic vestment} 1/day",
-			">2. **Greaves of Gold (Su)** You gain a +10 sacred bonus to your CMD when an opponent attempts to bull rush you. You may always attempt attacks of opportunity when a creature attempts to bull rush you, even if your opponent has the {feat/Improved Bull Rush} feat or a similar ability. In addition, you may attempt an attack of opportunity whenever a charging opponent enters a space you threaten.",
-			">3. **Living Aurum (Sp)** You can cast iron body once per day. Instead of iron, though, your body is transformed into living gold. In addition, you gain SR equal to 11 + your HD against spells cast by evil creatures while under the effect of this spell-like ability.",
+			">2. **Greaves of Gold (Su)** You gain a +10 sacred bonus to your CMD when an opponent attempts to {rule/bull rush} you. You may always attempt attacks of opportunity when a creature attempts to bull rush you, even if your opponent has the {feat/Improved Bull Rush} feat or a similar ability. In addition, you may attempt an attack of opportunity whenever a charging opponent enters a space you threaten.",
+			">3. **Living Aurum (Sp)** You can cast {spell/iron body} once per day. Instead of iron, though, your body is transformed into living gold. In addition, you gain SR equal to 11 + your HD against spells cast by evil creatures while under the effect of this spell-like ability.",
 			"",
 			"## Paladin Code",
 			"",
@@ -2244,7 +2268,9 @@
 			"",
 			"### Description",
 			"",
-			""
+			"Arqueros protects his charges against corruption and evil, providing a testament to what the stalwart can accomplish. He stands 12 feet tall, and even while completely stationary (as he often is while at rest) he is a spectacle to behold; clad in gleaming golden armor, one gauntleted hand always gripping a diamond-bladed longspear, the Golden Bulwark is a continual inspiration to the shield archons who serve him. The ground trembles where Arqueros treads and legend tells that not even {faith/Baphomet/'s} charge could move the mighty empyreal lord.",
+			"",
+			"Many seek the protection of the Golden Bulwark, but only a chosen few earn his measured attention. It's not always clear why the Golden Bulwark takes on a particular charge, but when he does, he protects this chosen individual with all the power at his disposal, sending legions of his celestial minions to the aid of those who cannot stand for themselves. Only rarely does Arqueros himself appear to protect these chosen devotees; his sacred duty prevents him from leaving the Prime Vallation among the lowest slopes of Heaven except under the direst of circumstances. Bodyguards, guards, and children's guardians - as well as soldiers and civic leaders during a time of war - frequently pay homage to Arqueros."
 		]
 	},
 	"arshea": {
@@ -2282,7 +2308,7 @@
 			">",
 			">1. **Arshea's Charmer (Sp)** {spell/disguise self} 3/day, {spell/mirror image} 2/day, or {spell/charm monster} 1/day",
 			">2. **Flawless Form (Su)** Gain an armor bonus equal to your Charisma modifier (minimum +1) whenever you wear revealing clothing and no armor.",
-			">3. **Liberation (Sp)** You can cast freedom once per day.",
+			">3. **Liberation (Sp)** You can cast {spell/freedom} once per day.",
 			"",
 			"## Follower Options",
 			"",
@@ -2296,7 +2322,9 @@
 			"",
 			"### Description",
 			"",
+			"Arshea inspires passion and comforts the repressed, and perhaps no empyreal lord is rendered in art as often as the Spirit of Abandon.",
 			"",
+			"Arshea's form suggests the best traits of both the masculine and the feminine. The empyreal lord's lithe body is physically ideal with a flawless combination of lean muscles and soft curves. The Spirit of Abandon's face is a study in perfection, and some claim that those who look directly on the being's countenance can never be satisfied with mortal beauty again. Gossamer clothes constantly swirl around Arshea's form, alternately hiding and revealing the empyreal lord's androgynous form, and Arshea's gray and blue wings flutter gracefully as though part of an eternal dance.",
 			"",
 			"[^A]: Requires the {trait/Acolyte of Apocrypha} trait."
 		]
@@ -2364,7 +2392,7 @@
 			">{SOURCE Pathfinder #134: It Came from Hollow Mountain/73}",
 			">",
 			">1. **Gravekeeper (Sp)** {spell/hide from undead} 3/day, {spell/calm spirit} 2/day, or {spell/searing light} 1/day (the visible effect of the spell is a ray of moonlight)",
-			">2. **Choreography of the Night (Su)** When the night sky is visible to you, you gain +4 sacred bonus on initiative checks, a +2 sacred bonus on Acrobatics and Escape Artist checks, and a +1 dodge bonus to Armor Class and on Reflex saving throws. In addition, you can take 5-foot steps in difficult terrain. Finally, you gain uncanny dodge (as the rogue class feature). If you already have uncanny dodge, you gain improved uncanny dodge instead. If you already have improved uncanny dodge, the minimum rogue level required to flank you increases by 1 instead.",
+			">2. **Choreography of the Night (Su)** When the night sky is visible to you, you gain +4 sacred bonus on initiative checks, a +2 sacred bonus on Acrobatics and Escape Artist checks, and a +1 dodge bonus to Armor Class and on Reflex saving throws. In addition, you can take 5-foot steps in difficult terrain. Finally, you gain {ability/uncanny dodge} (as the rogue class feature). If you already have uncanny dodge, you gain {ability/improved uncanny dodge} instead. If you already have improved uncanny dodge, the minimum rogue level required to flank you increases by 1 instead.",
 			">3. **The Dance in All Things (Sp)** Once per day, you can cast {spell/animate objects} with a caster level equal to your character level. Objects you animate with this ability gain the benefits of a {spell/haste} spell for as long as they are animated, and their natural attacks count as good and silver for the purpose of overcoming damage reduction.",
 			"",
 			"## Follower Options",
@@ -2410,7 +2438,14 @@
 			"",
 			"### Description",
 			"",
-			""
+			"{SOURCE Chronicle of the Righteous/8}  ",
+			"Legend tells that benevolent marsh lights, used for guiding lost travelers to safety, danced in Elysium for countless millennia before one night coalescing into the graceful form of Ashava. Now the empyreal lord known as the True Spark dances in dangerous wilderness and lonely graveyards alike, leading lost spirits home.",
+			"",
+			"Ashava's every motion is light and unfettered; she moves like the wild wind across the plains. She stands 7 feet tall, and her olive skin holds a perpetual flush, as if she has been dancing outdoors for some time. Ashava's form is always obscured by shadows in the light; her features only shine clearly beneath the luminous moon. She wears a gown woven of starlight, and a wreath of colorful moss encircles her dark brow.",
+			"",
+			"When individuals die violently or unexpectedly, their spirits can become lost. Lonely ghosts and confused spectres become hypnotized by Ashava's dance and follow her as she leads them to their peaceful graves. Those who watch over dangerous areas where travelers can lose their way pray to Ashava for the safety of their guests.",
+			"",
+			"Ashava despises {monster/will-o'-wisp/s} and goes out of her way to destroy the foul creatures. When not guiding spirits, Ashava lives in the moonlight of the Sparkling Fens on Elysium, at the base of the Mountain of Lingering Soulsong."
 		]
 	},
 	"ashukharma": {
@@ -3233,7 +3268,7 @@
 		"description": [
 			"::fh[Bastet]{sub=\"The Sly Enchantress\"}",
 			"",
-			"{SOURCE Pathfinder #80: Empty Graves/65}  ",
+			"{SOURCE Pathfinder #80: Empty Graves/67}  ",
 			"**Pathfinder Wiki** [Bastet](https://www.pathfinderwiki.com/wiki/Bastet) *(link opens in outside browser)*",
 			"",
 			"### Details",
@@ -3249,7 +3284,11 @@
 			"",
 			"### Description",
 			"",
-			""
+			"Bastet was a popular deity in Ancient Osirion, worshiped as a goddess of cats and a deity of celebration, pleasure, and secrets. While her sister {faith/Hathor} is a goddess of love, Bastet is one of desire and sensuality. She also guards against contagious diseases, evil spirits, and snakes, and is associated with protective ointments and perfumes. A beautiful woman with the head of a cat, Bastet is often depicted holding a rattle-like sistrum - a musical instrument associated with her worship - and a small shield called an aegis, usually decorated with the head of a lion, as a symbol of her protective role.",
+			"",
+			"Bastet is the daughter of {faith/Ra}, and the sister of Hathor, {faith/Maat}, and {faith/Sekhmet}. Normally indolent and relaxed, Bastet can be fierce when roused to anger, and she has often faced off against the great serpent {faith/Apep} on behalf of Ra. A promiscuous goddess, Bastet has no mate, but numerous stories detail her liaisons with other deities.",
+			"",
+			"Bastet is a popular goddess among bards and women of all classes, and she is the patron of spies, rogues, and thieves. Most of her clerics are women, though men are welcome in the priesthood, and both genders work as sacred prostitutes in Bastet's temples, which host elaborate festivals, replete with dancing, drinking, and revelry. Devotees of Bastet often keep cats as pets, and these sacred animals are reverently mummified and buried alongside their masters upon death."
 		]
 	},
 	"belial": {
@@ -3393,7 +3432,7 @@
 		"description": [
 			"::fh[Bes]{sub=\"The Guardian Fool\"}",
 			"",
-			"{SOURCE Pathfinder #80: Empty Graves/65}  ",
+			"{SOURCE Pathfinder #80: Empty Graves/67}  ",
 			"**Pathfinder Wiki** [Bes](https://www.pathfinderwiki.com/wiki/Bes) *(link opens in outside browser)*",
 			"",
 			"### Details",
@@ -3409,7 +3448,11 @@
 			"",
 			"### Description",
 			"",
-			""
+			"As the guardian of marriage and a protector of households, Bes had a wide appeal through all levels of Osirian society, and most houses, rich or poor, had a statue or carving of Bes to watch over the family and household. An amiable and inclusive deity, Bes encompasses all types of families under his protection, and is both a god of childbirth and a defender of children. He is the guardian of sleep, protecting against evil spirits and all manner of dangerous beasts, from scorpions and snakes to lions and crocodiles.",
+			"",
+			"Bes appears as an ugly, bandy-legged dwarf, with a large head, big eyes, a full beard, and an open mouth with a comically protruding tongue. He wears a headdress of ostrich feathers and a lion skin cloak. In contrast to the other gods of Ancient Osirion, who were usually shown in profile, Bes was always depicted facing forward. Bes is friendly with most of the other Ancient Osirian gods, but always keeps a watchful eye out for {faith/Apep} and {faith/Set} and their servants.",
+			"",
+			"Bes has few temples and ordained priests, but his joviality makes him popular among bards, professional performers, and serving boys and girls, who also view him as a patron of music, dance, and sexual pleasure, and such worshipers frequently wear small tattoos of Bes for protection and luck. Pregnant women and new mothers also pray to him to watch over their children. Though Bes has few proper temples, simple shrines to the Guardian Fool can be found in many Osirian cities, particularly in entertainment districts."
 		]
 	},
 	"besmara": {
@@ -3584,8 +3627,8 @@
 			">{SOURCE Chronicle of the Righteous/8}",
 			">",
 			">1. **Inventor's Tools (Sp)** {spell/grease} 3/day, {spell/fox's cunning} 2/day, or {spell/secret page} 1/day",
-			">2. **Improve Item (Su)** Three times per day, you can enhance the effects of a magic item that either is consumed during use or has charges. As a swift action, you can enhance a held expendable item's effects as if using either the Empower Spell, Enlarge Spell, or Extend Spell metamagic feat. You must use the item during the same round you improve it in order to gain the benefits of the selected metamagic feat.",
-			">3. **Transmogrify (Sp)** You can cast extended polymorph any object once per day.",
+			">2. **Improve Item (Su)** Three times per day, you can enhance the effects of a magic item that either is consumed during use or has charges. As a swift action, you can enhance a held expendable item's effects as if using either the {feat/Empower Spell}, {feat/Enlarge Spell}, or {feat/Extend Spell} metamagic feat. You must use the item during the same round you improve it in order to gain the benefits of the selected metamagic feat.",
+			">3. **Transmogrify (Sp)** You can cast {feat/extended} {spell/polymorph any object} once per day.",
 			"",
 			"## Follower Options",
 			"",
@@ -3599,7 +3642,10 @@
 			"",
 			"### Description",
 			"",
-			""
+			"{SOURCE Chronicle of the Righteous/8}  ",
+			"Bharnarol is a powerful figure with muscular arms for stoking forges and hammering metal. His head is that of an elephant, with silver skin, wise eyes, and ivory tusks. He wears a neat leather apron embossed with images of industry and invention: anvils, books, flasks, forges, honeycombs, kilns, pulleys, and water wheels. With his razor-sharp sickle, the Tempered Inventor precisely tends to his garden of carefully cultivated miniature trees.",
+			"",
+			"The Tempered Inventor prefers spending time in his workshop, but occasionally he visits a gifted crafter in person - usually if the crafter is at risk of releasing a dangerous invention into the world. Bharnarol prefers guiding artists through discourse, but may resort to force if necessary. No matter how foul the object or how evil its creator's intent, though, Bharnarol cannot bring himself to destroy any invention. Instead, he steals such inventions away and locks them up in the Unflawed Vault below his workshop. The Tempered Inventor's workshop itself stands among the foothills of the Dragonmane Mountains in Nirvana. A grand tunnel leads from the workshop to the Caverns of Molten Sunlight beneath the mountains, where Bharnarol can work his metallurgic wonders in the living golden heat of his blessed forge."
 		]
 	},
 	"bifrons": {
@@ -3698,7 +3744,16 @@
 			"",
 			"### Description",
 			"",
-			""
+			">{SOURCE Chronicle of the Righteous/9}  ",
+			"Legend tells that at the dawn of creation, Desna placed the stars in the sky. As the goddess worked, she realized she had created a pattern of spaces between the stars. When Desna placed the final star, a shadowy butterfly formed in the spaces between and sprang into existence. This is the Black Butterfly, Desna's Shadow.",
+			"",
+			"The Black Butterfly appears as the living silhouette of a graceful woman with white hair and eyes. Her expansive black butterfly wings hold reflections of all the stars, planets, and galaxies in creation. One of the stars on the Black Butterfly's wings is actually her magical starknife, Voidsedge, which can disappear from her wing and appear in her hand with a thought.",
+			"",
+			"The Silence Between knows the value of stillness. She has seen the great expanse of space, and its vast and awful silence is reflected in her ancient eyes. Those who live lives of silence, happily or unhappily, turn to the Black Butterfly as one who understands their solemn existence. Explorers venturing into strange territories offer prayers to the Black Butterfly as well. Desna's Shadow teaches that in the silences between breaths and thoughts, one can see one's true nature.",
+			"",
+			"Discordant noises and grotesque colors disorient the Black Butterfly. While she despises all the forces of evil, she holds particular enmity for the entities of the Dark Tapestry, and it is said she possesses great knowledge about the Dark Tapestry to which she refuses to give voice.",
+			"",
+			"Few can say with any certainty where the Black Butterfly resides in the multiverse. Desna's own palace, Cynosure, is said to be found by following the Stair of Stars, and the realm of the Silence Between is thought to hide somewhere in the dark spaces between this constellation."
 		]
 	},
 	"bohga": {

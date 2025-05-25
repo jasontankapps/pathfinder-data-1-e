@@ -659,7 +659,7 @@
 			"**Prerequisite:** Perform (dance) 5 ranks.  ",
 			"**Cost:** Feat or 2nd-level bard spell known.",
 			"",
-			"**Effect:** When you complete this performance, choose one target per bard level to gain the benefits of this masterpiece. An affected creature can move through areas at least half its width with no penalty for [squeezing](rule/terrain_and_obstacles), and can move through a space at least one-quarter its width using the normal penalties for squeezing. This is a polymorph effect.",
+			"**Effect:** When you complete this performance, choose one target per bard level to gain the benefits of this masterpiece. An affected creature can move through areas at least half its width with no penalty for {misc/squeezing}, and can move through a space at least one-quarter its width using the normal penalties for squeezing. This is a polymorph effect.",
 			"",
 			"**Use:** 1 round of bardic performance per minute of the effect's duration.  ",
 			"**Action:** 1 minute."
