@@ -96,4 +96,8 @@ const checkForEncodedLink = (input, options = {}) => {
 	return [pre, `${protocol}/${property}`, text, post, protocol, property, `{${protocol}/${matchedx}}`];
 };
 
+export const convertTextToLink = (input) => {
+	return input.toLowerCase().replace(/[-_ /]/g, "_").replace(/[^0-9_a-z]/g, "");
+};
+
 export default checkForEncodedLink;

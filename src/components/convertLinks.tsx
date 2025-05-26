@@ -118,4 +118,8 @@ const convertLinks = (input: string[]): string => {
 	return output.join("\n");
 };
 
+export const convertTextToLink = (input: string) => {
+	return input.toLowerCase().replace(/[-_ /]/g, "_").replace(/[^0-9_a-z]/g, "");
+};
+
 export default convertLinks;

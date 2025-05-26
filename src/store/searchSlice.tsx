@@ -2,7 +2,7 @@ import { createSlice } from '@reduxjs/toolkit'
 import type { PayloadAction } from '@reduxjs/toolkit'
 import { RangeInSliceFormat } from '../types'
 
-type Filter = RangeInSliceFormat<1, 13>;
+export type SearchIndex = RangeInSliceFormat<1, 14>;
 
 interface BooleanState {
 	separateWordSearch: boolean
@@ -12,7 +12,7 @@ interface BooleanState {
 
 interface SearchState extends BooleanState {
 	searchtext: string
-	filter: Filter[]
+	filter: SearchIndex[]
 }
 
 // Define the initial value for the slice state
@@ -37,7 +37,7 @@ export const searchSlice = createSlice({
 	initialState,
 	// The `reducers` field lets us define reducers and generate associated actions
 	reducers: {
-		setSearchFilter: (state, action: PayloadAction<Filter[]>) => {
+		setSearchFilter: (state, action: PayloadAction<SearchIndex[]>) => {
 			const newState: SearchState = {
 				...state,
 				filter: action.payload

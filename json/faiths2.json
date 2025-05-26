@@ -1890,7 +1890,7 @@
 			">{SOURCE Concordance of Rivals/8}",
 			">",
 			">1. **Wanderer's Grace (Sp)** {spell/true strike} 3/day, {spell/daze monster} 2/day, or {spell/gaseous form} 1/day",
-			">2. **Wanderer's Bane (Su)** Once per day, you can cause a creature within 30 feet of you to become paralyzed for 1d4+2 rounds. A target that succeeds at a Will save (DC = 10 + half your HD + your Charisma modifier) is instead dazed for 1 round.",
+			">2. **Wanderer's Bane (Su)** Once per day, you can cause a creature within 30 feet of you to become {rule/paralyzed} for 1d4+2 rounds. A target that succeeds at a Will save (DC = 10 + half your HD + your Charisma modifier) is instead {misc/dazed} for 1 round.",
 			">3. **Formlessness (Su)** Once per day for a number of rounds equal to your Hit Dice, you and your equipment take on a fluid consistency, glowing with an inner cerulean light. You gain DR 20/slashing, and your reach increases by 10 feet. In addition, you gain the {umr/compression} universal monster ability and a fly speed of 60 feet (perfect). Finally, for the duration of the effect, you also gain the benefits of a {spell/cloak of chaos}.",
 			"",
 			"## Follower Options",
@@ -1901,7 +1901,9 @@
 			"",
 			"### Description",
 			"",
-			""
+			"Il'surrish the Wanderer seldom manifests physically, but when it does, it usually appears as a lesser {family/protean} wrought of furious cerulean light. More commonly the Wanderer possesses a {family/demon}, {family/devil}, or {family/archon} who, overwhelmed, burns like a metaphysical candle from the inside out, consumed by the experience. Those few who survive recall only a beautiful and horrific sensory avalanche - an experience on par with a {monster/keketar/'s} description of its first shallow communion with the Speakers of the Depths. Il'surrish's largely protean clergy are collectively known as the Asomatous Clutch, and many of them are gifted with insubstantiality as well.",
+			"",
+			"Il'surrish's mobile realm, the Labyrinth of Light and Loss, is an ever-shifting amalgamation of hundreds of castles, a serpentine mating ball of architecture orbited by shattered, petrified {family/qlippoth} and the broken remnants of the primal inevitable Argreth the Burning Monolith. The realm only rarely ventures beyond the deep Maelstrom, usually during rare conclaves of gods and protean lords."
 		]
 	},
 	"imbrex": {
@@ -2055,7 +2057,11 @@
 			"",
 			"### Description",
 			"",
-			""
+			"While most commonly associated with mass deaths, Imot was born from mortal guilt and the desire for hindsight in the wake of tragedy. Rather than cause loss of life directly, their machinations precede large disasters, though as the penultimate usher of order, they also arrange for disasters when mortal cultures are too slow in dying. A compulsion buried deep within Imot compels them to hide clues to every disaster in the natural world before the event transpires, wrapped in confounding symbolism and boggling equations. These vague hints and hidden meanings inspire anxiety in most mortal minds. To those unaware of the true nature of these premonitions, this takes the form of subconscious unease; to those aware of the usher's omens, these clues provide a means of averting disaster that is often found far too late. Because of this, Imot is also the usher of dread, paranoia, self-blame for unavoidable disasters, and the omnipresent fear of personal failing.",
+			"",
+			"Imot's nature makes them the natural patron of mathematicians - especially those who press the boundaries of mortal understanding - and the bearer of souls that perished due to seemingly inevitable ends or that died en masse. People plagued with uneasy premonitions, be they true glimpses of impending tragedy or simply figments of the mind, are sometimes drawn toward the worship of Imot. Prophets who seek accurate omens in an age of lost prophecy are drawn to Imot's complex and hidden portents, seeking to painstakingly unravel the usher's hidden clues to look into the future. The Symbol of Doom's own predictions aren't divine in nature, however, and are simply the result of their own infinitely complex calculations.",
+			"",
+			"Imot manifests as a golden, four-sided pyramid with a wing sprouting from each of their facets. They have great difficulty expressing themselves verbally and instead conjure images and symbols to communicate. Those who serve the Symbol of Doom for many years eventually learn this unique language, but mortal parishioners and young psychopomps find this unique communication frustrating. Because even fellow ushers find Imot challenging, Imot rarely leaves their domain in the Tetravia, a mass of crossroads and towers situated between the Eight Courts, from which the Symbol of Doom observes the mortal world and Outer Planes, ever in search of new patterns and secrets."
 		]
 	},
 	"inkariax": {
@@ -3072,7 +3078,11 @@
 			"",
 			"### Description",
 			"",
-			""
+			"The conquest of nature and advent of cities is ultimately a late step in the rise of civilization. For millions of years before that, the planets on which they form must maintain predictable orbits and respect the laws of cosmic physics. Jerishall monitors the multiverse from their powerful observatory floating above Axis to ensure that its stars, solar systems, and even galaxies flow in an orderly fashion, not deviating beyond predictable models.",
+			"",
+			"Jerishall recognizes that asteroids, meteors, and other planets can crash into a species' home world, yet they do not condone the utter destruction of such threats. Instead, Jerishall encourages the development of astronomy, astrophysics, and technology to redirect such missiles or allow large populations to escape their planet entirely. As a result, the Turning Sphere is an indirect patron of space travel, earning them the respect of spacefaring creatures such as witchwyrds and even elder things.",
+			"",
+			"Jerishall is especially wary of the ways in which the Outer Planes and Inner Planes interact, preferring each plane's isolated physics to prevail rather than for an encroaching realm's influence to alter the other's orbits and processes. Jerishall's faithful often frequent planar portals and breaches to ensure they do not unduly expand or impede upon other regions."
 		]
 	},
 	"jezelda": {
@@ -3757,8 +3767,8 @@
 			">{SOURCE Concordance of Rivals/10}",
 			">",
 			">1. **Temporal Warden (Sp)** {spell/sanctuary} 3/day, {spell/silence} 2/day, or {spell/sands of time} 1/day",
-			">2. **Timely Absence (Su)** Once per day as an immediate action when you would fail a saving throw or be reduced to 0 hit points or fewer by an effect, you can disappear from reality altogether and avoid the immediate effects (not being hit or poisoned, for example). You leave behind a transparent afterimage, and at the beginning of your next turn, you reappear in your space (or the nearest available space if that is now occupied) and are staggered until the end of your turn.",
-			">3. **Invert Entropy (Su)** You take no penalties from energy drain, though you can still be killed if you accrue more negative levels than you have Hit Dice. Once per day as a move action, you can remove a number of your temporary negative levels equal to half your Hit Dice. For every 2 negative levels removed, you gain 10 temporary hit points and a cumulative +1 insight bonus on ability checks, attack rolls, saving throws, and skill checks; both effects last until the end of your next turn.",
+			">2. **Timely Absence (Su)** Once per day as an immediate action when you would fail a saving throw or be reduced to 0 hit points or fewer by an effect, you can disappear from reality altogether and avoid the immediate effects (not being hit or poisoned, for example). You leave behind a transparent afterimage, and at the beginning of your next turn, you reappear in your space (or the nearest available space if that is now occupied) and are {misc/staggered} until the end of your turn.",
+			">3. **Invert Entropy (Su)** You take no penalties from {rule/energy drain>ed}, though you can still be killed if you accrue more negative levels than you have Hit Dice. Once per day as a move action, you can remove a number of your temporary negative levels equal to half your Hit Dice. For every 2 negative levels removed, you gain 10 temporary hit points and a cumulative +1 insight bonus on ability checks, attack rolls, saving throws, and skill checks; both effects last until the end of your next turn.",
 			"",
 			"## Follower Options",
 			"",
@@ -3768,7 +3778,7 @@
 			"",
 			"### Description",
 			"",
-			""
+			"Although philosophers often confuse decay for the onslaught of entropy, the faithful of Kerkamoth understand that natural decay on both a visible and atomic level is key to a healthy multiverse. That which is empty has its own order and potential to form great things. Just as a toppling tree leaves space for new growth, so too does the deterioration and controlled demolition of civilization leave fallow realms just waiting to be filled by fresh innovation. For creation to continue, there must be regulated emptiness. Above all, these processes must be silently calculated, predictable, and systematic; the wanton destruction inflicted by the likes of {family/daemon/s}, {family/demon/s}, and {family/protean/s} threatens the entire process."
 		]
 	},
 	"ketephys": {

@@ -16,6 +16,7 @@ import { closeCircle } from 'ionicons/icons';
 import sourceInfo from '../json/sources.json';
 import { SourceProps } from '../types';
 import '../pages/Page.css';
+import { convertTextToLink } from './convertLinks';
 
 type Data = typeof sourceInfo;
 
@@ -65,9 +66,10 @@ const SourcesModal: FC<ModalProps> = (props) => {
 								</IonLabel></IonItem>
 								{sources.map((source, i) => {
 									const key = `modal/source/${i}`;
-									const sourceObject = getItem<Data>(source, sourceInfo);
+									const linkified = convertTextToLink(source) as keyof Data;
+									const sourceObject = getItem<Data>(linkified, sourceInfo);
 									return (
-										sourceInfo[source]
+										sourceObject
 											? <IonItem key={key} href={sourceObject.url} className="sourceLink"><IonLabel>{sourceObject.title}</IonLabel></IonItem>
 											: <IonItem key={key}><IonLabel>{source}</IonLabel></IonItem>
 											//: <IonItem key={key + "/empty"}><IonLabel>{source}</IonLabel></IonItem>

@@ -288,7 +288,7 @@
 			">{SOURCE Concordance of Rivals/7}",
 			">",
 			">1. **Death's Hound (Sp)** {spell/tireless pursuit} 3/day, {spell/whispering wind} 2/day, or {spell/countless eyes} 1/day",
-			">2. **Smell of Death (Ex)** You gain the {umr/scent} ability. Your sense of smell is particularly acute in regard to undead, granting you blindsense (30 feet) for the purposes of detecting all forms of undead.",
+			">2. **Smell of Death (Ex)** You gain the {umr/scent} ability. Your sense of smell is particularly acute in regard to undead, granting you {umr/blindsense} (30 feet) for the purposes of detecting all forms of undead.",
 			">3. **Soul Lock (Su)** Once per day as a full-round action, you can trap the soul of a sentient creature that has died in the last minute, creating a soul gem. This is a death effect. A soul gem is a Fine object with 1 hit point and hardness 2. You can destroy a soul gem you created as a standard action to free the soul within, though this doesn't return the deceased creature to life. Any attempt to resurrect a body whose soul is trapped in a soul gem requires a caster level check (DC = 10 + half your Hit Dice + your Charisma modifier). Failure results in the spell having no effect, while on a success, the soul gem shatters and the creature returns to life as normal. If the soul gem rests in an unholy location, such as that created by the spell {spell/unhallow}, the DC of this caster level check increases by 2. You can maintain a number of soul gems at one time equal to your Charisma modifier (minimum 1).",
 			"",
 			"## Follower Options",
@@ -300,7 +300,9 @@
 			"",
 			"### Description",
 			"",
-			""
+			"Ceyannan first arose from the eddies and foam within the River of Souls created by mortals' resistance to death, and a piece of the Shepherd resides in every mortal heart, allowing this monitor demigod to sense those who flee death's embrace. Always seeking to recover these lost fragments, Ceyannan gathers wayward souls - the lost, the stolen, and the stubborn - and returns them to the Boneyard. Rumor holds that when the last mortal dies and the Shepherd is whole, Ceyannan will finally embrace death themself. Until that peace comes, Ceyannan relentlessly hunts missing souls, reserving a special hatred for those who would destroy souls or pervert them into undeath. As the patron of lost souls, they are also responsible for containing those souls that pose an existential threat to the cosmos.",
+			"",
+			"Ceyannan's flesh is maggot-white and impossibly beautiful, and their otherwise humanoid frame sports a pair of wings covered in the oily, black feathers of a carrion bird. They often appear clutching the *Apostasy,* a simple shepherd's crook capable of dragging out the faith any mortal soul holds for a god. They claim no realm, instead wandering the Material Plane and the River of Souls in search of their lost portions."
 		]
 	},
 	"chadali": {
@@ -1996,9 +1998,14 @@
 			"",
 			"### Description",
 			"",
-			""
+			"Once, the Pale Horse rode the Astral Plane and poached souls without remorse from the River of Souls, gorging on suffering; accounts conflict if this abominable entity were a daemonic harbinger or a Horseman. Yet as the Pale Horse grew fat off mortal suffering, he also grew discontent. The pressures of freedom, the burden of leadership, and the weight of every choice shackled his heart and soured his meals. In a moment of weakness, he faltered in his daemonic nature and sought service. Pharasma offered the Pale Horse respite until he saved half again as many souls as he had damned. The Pale Horse prostrated himself before the Lady of Graves and wept in joy, freed now from his burden of choice.",
+			"",
+			"The Pale Horse has since become Pharasma's avenging angel, hunting those who steal from the River of Souls as he once did. He luxuriates in his duties and obeys the tenants set forth by Pharasma, and his soldiers likewise obey without question. He represents both the pain and the bounty in servitude, guiding both those who die in service and those who die unattended and alone thanks to their own miserable choices. His wrath is legendary, especially in regard to {family/daemon/s}, and Abaddon long ago struck the Lash and the Plough's true name from its monuments and libraries. Despite his apparent loyalty, some among the psychopomps worry the Pale Horse remains a daemon at his core, and that upon completion of his sentence he will visit an equally terrible vengeance upon the Boneyard.",
+			"",
+			"The Pale Horse appears as a powerful white stallion, missing its head save for a disembodied skull and a floating crown of flames, though he sometimes appears as a silent rider on a white horse. His home, Abatory, is a desolate stretch of the Graveyard of Souls that resembles the perpetual gloom of Abaddon, save that silent vanths that lurk above the walls and hills."
 		]
 	},
+	"pale_horse": { "copyof": "the_pale_horse" },
 	"thisamet": {
 		"name": "Thisamet",
 		"sources": [ "Inner Sea Gods" ],
@@ -3080,7 +3087,7 @@
 			">{SOURCE Concordance of Rivals/11}",
 			">",
 			">1. **Aeon Arbiter (Sp)** {spell/unseen servant} 3/day, {spell/spectral hand} 2/day, or {spell/gaseous form} 1/day",
-			">2. **Immaterial Flesh (Su)** You gain the constant benefits of the moderate fortification armor special ability. If you already have a similar defensive ability, you increase that ability's chance to negate the additional damage by 10%.",
+			">2. **Immaterial Flesh (Su)** You gain the constant benefits of the {magic-enh/moderate fortification} armor special ability. If you already have a similar defensive ability, you increase that ability's chance to negate the additional damage by 10%.",
 			">3. **Creative Destruction (Su)** Once per day as a standard action, you can touch two adjacent creatures (including yourself). One takes 150 points of damage (Fortitude half; DC = 10 + half your HD + your Charisma modifier), and the other regains a number of hit points equal to the damage taken by the first target.",
 			"",
 			"## Follower Options",
@@ -3091,7 +3098,11 @@
 			"",
 			"### Description",
 			"",
-			""
+			"The Monad is less a being than an ancient design that touches upon and is reflected in all corners of existence. It is intrinsically without form, operating almost exclusively through the host of aeons for which it is the guiding force, originating spirit, and nexus of thought. In fact, due to the way the Monad creates, reabsorbs, and reshapes the aeons' quintessence, it behaves as much like a plane as a deity, seeming to exist and act outside even the cycle of souls. To aeons, the Monad isn't merely an expression of the void that predated the cosmos, creation itself, the future infinity, and the truth that binds existence: it actually is all of those things.",
+			"",
+			"The Monad's goals appear fixated on the cosmic status quo. On one hand, the entity seems content so long as the planes are in balance with each other. On the other hand, countless aeons seem to police the multiverse and sustain it based on some inscrutable model that most other beings describe as slightly out of sync with the gods' designs. Some have speculated that the Monad isn't simply reality's figurative immune system but rather is from a previous existence that it aims to recreate with subtle nudges that interact with the present reality's needs in alien ways.",
+			"",
+			"The Monad is an unlikely divine patron. Without approaching the level of detachment and selflessness of an aeon, a mortal worshipper cannot hope to connect with the Monad on anything more than a philosophical level. However, a rare few can tap into the Condition of All, experiencing flashes of insight and wordless directives as if these contemplatives were fledgling aeons. It is unclear if the Monad is even cognizant of its worshippers, though as long as a priest remains centered, honors its vague orders, and works to maintain balance, she can draw upon her patron for spellcasting and even greater boons."
 		]
 	},
 	"mordiggian": {
@@ -3201,7 +3212,7 @@
 			">{SOURCE Concordance of Rivals/12}",
 			">",
 			">1. **Carrion Eater (Sp)** {spell/decompose corpse} 3/day, {spell/animal aspect} 2/day, or {spell/cure serious wounds} 1/day",
-			">2. **Devourer (Ex)** You gain a bite attack that deals 1d4 points of damage (1d3 for small creatures) plus your Strength modifier. If you confirm a critical hit with this attack, it also deals 1 point of bleed damage. If you already have a bite attack, your bite deals 2 points of bleed damage on a critical hit. You are considered proficient with this attack.",
+			">2. **Devourer (Ex)** You gain a bite attack that deals 1d4 points of damage (1d3 for small creatures) plus your Strength modifier. If you confirm a critical hit with this attack, it also deals 1 point of {rule/bleed} damage. If you already have a bite attack, your bite deals 2 points of bleed damage on a critical hit. You are considered proficient with this attack.",
 			">3. **New from Old (Sp)** You can cast {feat/extended} {spell/polymorph any object} once per day.",
 			"",
 			"## Follower Options",
@@ -3213,7 +3224,9 @@
 			"",
 			"### Description",
 			"",
-			""
+			"Few things dwell willingly in the Rasputitase, a realm of muck, massive trees, and jagged islands in the Boneyard's Spirelands, save for the most reclusive of Pharasma's ushers and her immediate servants. Mother Vulture reflects the duality of rot: the creation and new life that arises from destruction. She is a merciless and unrepentant killer, but also a thoughtful mother, embracing newborns and blessing midwives with long lives and eager students. With her two heads - masked save for her cavernous mouths - Mother Vulture devours the bodies of Pharasma's enemies to birth neutral-aligned outsiders to serve the Boneyard. Her gruesome feasts leave fertile soil and renewed potential in her wake, and as matron of transformation, she also measures those seeking redemption in life.",
+			"",
+			"The Flesheater usually appears as a young, blind mother, but her natural form is barely humanoid and repulsive to behold. Her masked heads are barely supported by her two distended necks, their weight forcing her to hunch low to the ground. She conceals her body beneath four black-feathered wings, which she unfurls when feeding upon new flesh. "
 		]
 	},
 	"mrtyu": {
@@ -3256,7 +3269,9 @@
 			"",
 			"### Description",
 			"",
-			""
+			"Mrtyu was the first mortal to die with love on his lips, and Pharasma found the concept intriguing. She wooed the soldier's soul, and through him she came to understand the emotions of the living. Death's Consort is a being of strong passions - a commodity often in short supply in the Boneyard - and embraces the souls of those who died in the grips of extreme emotion. He is the usher of soldiers and murder victims, but also those who die of suicide, and Mrtyu feels the rising of each {template/ghost}, {monster/wight}, and other malcontent undead as the pang of personal failure. As much a fighter as a lover, the usher also commands Pharasma's defenses, often working alongside the {faith/Pale Horse} to hunt those few who would make an enemy of the Gray Lady.",
+			"",
+			"Still resembling his mortal origins, Mrtyu appears as a beautiful young man bearing deep and dark sunken eyes, adorned in rock-rose blossoms and perpetually bleeding from a large wound in his stomach. He carries a basket of fresh fruit or flowers in one hand, and his rusted greatsword, *Ardor,* in the other. He maintains his realm, the Garden Anima, among Pharasma's Court as a quiet refuge for souls who need time to reflect and talk after particularly traumatic deaths. While he can occasionally be found at Pharasma's side, the usher's intimate connection with the goddess is more an emotional one than a physical one."
 		]
 	},
 	"murnath": {
@@ -3646,7 +3661,7 @@
 			">",
 			">1. **Clarity in Pain (Sp)** {spell/invigorate} 3/day, {spell/delay pain} 2/day, or {spell/blood biography} 1/day",
 			">2. **Stronger Tomorrow (Sp)** You can increase the damage inflicted by your obedience to 4d6 points. If you do so, you can cast one of the following spells three times per day as a spell-like ability: {spell/bear's endurance}, {spell/eagle's splendor}, {spell/fox's cunning}, or {spell/owl's wisdom}.",
-			">3. **Empathy (Su)** You can grant any weapon you wield the brilliant energy and {magic-enh/merciful} special abilities as a single move action. You can only grant these abilities together, not separately, and the weapon immediately loses both properties if it leaves your possession. The weapon maintains these properties for a number of rounds equal to your Hit Dice. This duration does not need to be consecutive.",
+			">3. **Empathy (Su)** You can grant any weapon you wield the {magic-enh/brilliant energy} and {magic-enh/merciful} special abilities as a single move action. You can only grant these abilities together, not separately, and the weapon immediately loses both properties if it leaves your possession. The weapon maintains these properties for a number of rounds equal to your Hit Dice. This duration does not need to be consecutive.",
 			"",
 			"## Follower Options",
 			"",
@@ -3657,7 +3672,9 @@
 			"",
 			"### Description",
 			"",
-			""
+			"A composite entity, Narakaas is born from the untold pieces of souls cleaved off as mortals grew and discarded parts of themselves. They reflect personal choices, sacrifice of self, and countless little deaths that come before a soul finally arrives in the Boneyard. They understand that a broken thing - especially one repaired - is not less valuable but simply different, and sometimes even more precious for the history it now embodies. In mortals, such personal change is difficult and almost always accompanied by physical and emotional pain, and many souls wind up straddling two extremes or failing to complete their transformation before they die. The Cleansing Sentence offers such souls the option to endure terrible pain or perform onerous tasks to prove their commitment to redemption or damnation. They are also the psychopomp who judges good mortals driven to terrible deeds by their beliefs and convictions and tests their mettle to see where their souls truly belong.",
+			"",
+			"Narakaas represents the acceptance of pain and the growth it fosters; they don't revel in pain, and entities that do - such as {family/kyton/s} - are anathema to the Cleansing Sentence. Shockingly optimistic given their purview, Narakaas believes in the power of redemption, and they have turned a number of kytons to the Boneyard's cause. The Cleansing Sentence manifests as an androgynous, humanoid form with stag-like legs, assembled from thousands of smaller pieces held together by a golden light. Nothing beyond simple, expressionless eyes and tear-stained streaks mar their otherwise featureless face. Their divine realm, Menagerel, is likewise patchwork, assembled from a thousand painful memories of home."
 		]
 	},
 	"narriseminek": {
@@ -3688,7 +3705,7 @@
 			">{SOURCE Concordance of Rivals/14}",
 			">",
 			">1. **Ascended (Sp)** {spell/anticipate peril} 3/day, {spell/detect thoughts} 2/day, or {spell/heroism} 1/day",
-			">2. **Crownless Crown (Ex)** You gain a halo of illusory protean symbols around your head. Once per day, you can call upon it to invoke a {monster/keketar/'s reshape reality ability}, except it functions as a 7th-level spell rather than a 9th-level spell.",
+			">2. **Crownless Crown (Ex)** You gain a halo of illusory protean symbols around your head. Once per day, you can call upon it to invoke a {monster/keketar/'s} reshape reality ability, except it functions as a 7th-level spell rather than a 9th-level spell.",
 			">3. **Mantle of Revelation (Sp)** You can cast {spell/foresight} once per day.",
 			"",
 			"## Follower Options",
@@ -3699,7 +3716,11 @@
 			"",
 			"### Description",
 			"",
-			""
+			"Narriseminek, sometimes called Intercessor of the Speakers, often manifests as a {monster/naunet}, {monster/imentesh}, or {monster/keketar} protean, with a circular scar or burn upon its head as if it had been mutilated by a molten crown. Their rarely observed true form is that of a golden, iridescent protean with empty eye sockets, crowned with a drifting halo of dozens of burning eyes. They rarely deal with non-proteans, as they are largely occupied with exalting lesser proteans into keketars or {monster/izfiitar/s} as well as granting philosophy-altering revelations to entire choruses at a time.",
+			"",
+			"The clergy of the Crownless focus on prophecy and transformation, spending their time divining the future and using transformative magic to alter their bodies and those of any other willing creatures - an act which the Maker of Kings supports. Members of Narriseminek's clergy have even been known to physically embody their own patron.",
+			"",
+			"The domain of Narriseminek, whose name is sung and largely incomprehensible to non-proteans, is more commonly known as the Drifting Mountain of Narriseminek the Crownless. A massive, miles-wide concretion of stone and crystal with myriad constellation islands, it pulses with a subtle heartbeat and contains a great subterranean temple of the proteans' dualistic divinity. At the heart of this domain is a mysterious artifact known as the *Singing-Luminous Eye of the Speakers.*"
 		]
 	},
 	"nataka": {

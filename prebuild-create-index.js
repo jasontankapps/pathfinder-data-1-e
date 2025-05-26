@@ -14,6 +14,7 @@ const SEARCHGROUPS = [
 	"faith", // 10
 	"monster", // 11
 	"rule", // 12
+	"source" // 13
 ];
 const SEARCHINDEX = [
 	"Classes and Class Abilities", // 1
@@ -27,7 +28,8 @@ const SEARCHINDEX = [
 	"Races", // 9
 	"Deities/Faiths", // 10
 	"Monsters", // 11
-	"Rules" // 12
+	"Rules", // 12
+	"Sourcebooks", // 13
 ];
 
 const $groupingData = {};
@@ -155,24 +157,19 @@ Object.entries($groupingData).forEach(([prop, value]) => {
 const $allLinks = {};
 $allIncludingCopies.forEach(([link, title]) => ($allLinks[link] = title || "BLANK"));
 
-const $filedata = [
-	JSON.stringify({
+const $data_pairs = [
+	['./src/json/_data__fuse-translated_data.json', JSON.stringify({
 		data: $dataIndex,
 		types: $allTypes,
 		prefixes: $allPrefixes,
 		searchindex: SEARCHINDEX
-	}),
-	JSON.stringify($fuseIndex),
-	JSON.stringify($allLinks)
-];
-const $urls = [
-	'./src/json/_data__fuse-translated_data.json',
-	'./src/json/_data__fuse-index.json',
-	'./src/json/_data__all_links.json'
+	})],
+	['./src/json/_data__fuse-index.json', JSON.stringify($fuseIndex)],
+	['./src/json/_data__all_links.json', JSON.stringify($allLinks)]
 ];
 
-$filedata.forEach((data, i) => {
-	const filename = $urls[i];
+$data_pairs.forEach(pair => {
+	const [filename, data] = pair;
 	if(get(filename).trim() === data) {
 		console.log(`UNCHANGED ${filename}`);
 	} else {

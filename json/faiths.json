@@ -2475,7 +2475,11 @@
 			"",
 			"### Description",
 			"",
-			""
+			"Ashukharma is the goddess of canyons, gorges, and ravines, and is often seen as a divisive force - her canyons hinder travel, form boundaries between nations, and pose serious threats to those who attempt to navigate their steep sides. At the same time, she's also a protector, for those same ravines can be used as natural defenses against enemies and dangerous beasts. Ashukharma's worshipers venerate both of the goddess's aspects, recognizing that they are not opposed, nor even two sides of the same coin, but simply the same principle used in different ways.",
+			"",
+			"The Azvadeva Pujila tells of Ashukharma's battles with her former lover Dinehdal, god of mountain peaks. Spurned when he chose the trio of goddesses known as the Cloud Sisters over her, Ashukharma vowed to travel as far from Dinehdal as possible. Thus she walked the earth as a mortal, leaving a trail of crevasses in her wake, marring the very mountains atop which Dinehdal found his solace. When Ashukharma reached the bank of the mighty Matra River, she found the waterway's patron, {faith/Matravash}, beset by {faith/Gavidya} the Numberless, an asura rana who took the form of a seemingly endless host of foul creatures. Overwhelmed by Gavidya's power, Matravash pled for aid from Ashukharma. The Divine Divide assented and formed steep walls around Matravash to protect her. Together the goddesses drove the asura rana back into Hell. In so doing, Ashukharma found the wounds on her heart healed, and she took the river as her new lover, thanking Matravash for showing her that Dinehdal's betrayal did not mean the end of love.",
+			"",
+			"Scorned lovers, or those who feel a rift forming between themselves and friends or family, also commonly pray to the Divine Divide, in the hopes that they can safely weather the dangerous emotional terrain through which their life path leads them. Members of Matravash's cult also hold Ashukharma in particular reverence, even along the long stretches of the river that do not flow through a canyon. Prayers to Ashukharma often involve contemplation on the palms of the hand, as followers believe that the creases and lines therein hold signs from the goddess - miniature canyons formed through the toil of daily life yet capable of serving those who know how to read their meaning."
 		]
 	},
 	"asmodeus": {
@@ -2746,12 +2750,17 @@
 			"",
 			"### Description",
 			"",
-			""
+			"Also called the Judge of Judges, Atropos rules over the courts of the Boneyard as the penultimate arbitrator of mortal fates. She determines who will die and when, superseded only by {faith/Pharasma} herself. The youngest daughter of Pharasma, she is also called the Last Sister, though few know the fates or can even confirm the existence of any preceding sisters. Psychopomps whisper that Pharasma is training this child to one day succeed her when the universe dies and is reborn, but for now Atropos holds the domain of sleep rather than true death. She receives the most challenging of all petitioners: the souls of fallen children.",
+			"",
+			"Atropos manifests as a large and glorious {monster/nosoi} the size of a wolf and adorned in a silver mask, with an infinitely long peacock tail decorated with one living eye for every soul she will ever judge, though she sometimes takes on the guise of a young human girl when appearing in her mother's court. She shares the realm of Pharasma's Palace, though her deific control also extends over the Boneyard's courts and planar gates."
 		]
 	},
 	"ayrzul": {
 		"name": "Ayrzul",
-		"sources": [ "Inner Sea Gods" ],
+		"sources": [
+			"Inner Sea Gods",
+			"The Great Beyond - A Guide to the Multiverse"
+		],
 		"description": [
 			"::fh[Ayrzul]{sub=\"The Fossilized King\"}",
 			"",
@@ -2782,7 +2791,8 @@
 			"",
 			"### Description",
 			"",
-			"",
+			"{SOURCE The Great Beyond - A Guide to the Multiverse/18}  ",
+			"Never observed outside of his realm, legends say that his physical form is somehow bound to the rock itself, or restricted to the boundary of his realm. Often assumed to be a powerful elemental paragon and demigod, the Fossilized King is also purported to be an ascended shaitan wizard, an undead crystalline drake of truly awesome age, or a fragment of the dead god Ydersius. Regardless of his origin, Ayrzul largely ignores his own plane's politics, except when seeking to keep the peace between its various races while simultaneously ensuring antipathy toward the efreet of the Plane of Fire and his hated rival and possible counterpart, Ymeri the Queen of the Inferno.",
 			"",
 			"[^A]: Requires the {trait/Acolyte of Apocrypha} trait."
 		]
@@ -3206,7 +3216,7 @@
 			">",
 			">1. **Know Who Passed (Sp)** {spell/alarm} 3/day, {spell/perceive cues} 2/day, or {spell/speak with dead} 1/day",
 			">2. **Wings of the Wanderer (Su)** As a standard action, you can assume the form of a {monster/giant raven} as if using the spell {spell/beast shape II}. While in this form, you gain the raven's scavenger extraordinary ability, a +2 insight bonus to AC, and a +3 insight bonus on Perception checks. You can retain this form for 1 hour per HD you have; this time does not need to be consecutive, but it must be used in 1-hour increments. While in raven form, you can increase or decrease your size as a standard action, as if you had cast {spell/reduce person} or {spell/enlarge person} (self only); these spells have their normal duration, treating your Hit Dice as your caster level, but casting either consumes 1 hour of your daily shapeshifting allotment.",
-			">3. **Terrain Dominance (Sp, Su, Ex)** Your passage is rarely impeded by landscapes or weather. For every 5 HD you have, you gain one terrain dominance as if you were a horizon walker; you do not need to have the terrain mastery class feature to select a terrain dominance. If you do not have a {ability/favored terrain} bonus from another source, treat your favored terrain bonus as +2 when dealing with creatures native to the terrains over which you have dominance; you do not otherwise gain the benefits of favored terrain.",
+			">3. **Terrain Dominance (Sp, Su, Ex)** Your passage is rarely impeded by landscapes or weather. For every 5 HD you have, you gain one terrain dominance as if you were a {pclass/horizon walker}; you do not need to have the terrain mastery class feature to select a terrain dominance. If you do not have a {ability/favored terrain} bonus from another source, treat your favored terrain bonus as +2 when dealing with creatures native to the terrains over which you have dominance; you do not otherwise gain the benefits of favored terrain.",
 			">",
 			">### Boons: Exalted or Monitor Obedience",
 			">",
@@ -3259,7 +3269,9 @@
 			"",
 			"### Description",
 			"",
-			""
+			"While most psychopomps are born from the needs and fears of mortals, Barzahk was born from the needs and fears of psychopomps, emerging fully formed at the same moment the Dead Roads - secret back channels between the planes and the mortal world - appeared. Barzahk manifests as an enormous migratory bird, often a corvid, but sometimes as a robin or other songbird. Swathed in robes and carrying a staff and a keyhole, the Passage struggles to understand the finite world beyond the Dead Roads, and they rarely leave this unusual transitive realm. They see to the comings and goings of psychopomps and, by extension, care for the souls of travelers and those who die far from home, an experience that challenges many petitioners and can cause a soul to linger far too long.",
+			"",
+			"Afflicted with wanderlust, Barzahk roams aimlessly and rarely attends to any of their appointed duties. Those psychopomps who labor under Barzahk's purview enjoy an exceptional amount of autonomy, even by the standards of the Boneyard, and many of their most powerful servants begin to feel akin to ushers themselves - notions true ushers are eager to disabuse them of."
 		]
 	},
 	"bastet": {

@@ -3086,6 +3086,7 @@ const basic_data_groups = {
 	},
 	"sources": {
 		data: sources,
+		searchgroup: 13, // sourcebook
 		link: "source",
 		num: 0,
 		type: "Source"

@@ -38,13 +38,12 @@ import {
 	helpCircle,
 	close
 } from 'ionicons/icons';
-import { RangeInSliceFormat } from '../types';
 import PageFooter from '../components/PageFooter';
 import PageHeader from '../components/PageHeader';
 import SearchHelpModal from '../components/SearchHelpModal';
 import Link from '../components/Link';
 import { useAppDispatch, useAppSelector, useElement } from '../store/hooks';
-import { setSearchQuery, setSearchFilter } from '../store/searchSlice';
+import { setSearchQuery, setSearchFilter, SearchIndex } from '../store/searchSlice';
 import fuseIndex from '../json/_data__fuse-index.json';
 import fuseTranslatedIndex from '../json/_data__fuse-translated_data.json';
 import './Page.css';
@@ -55,8 +54,6 @@ interface Item {
 	subtitle?: string
 	tags?: string
 }
-
-export type SearchIndex = RangeInSliceFormat<1, 13>;
 
 interface ParallelItem {
 	t: number // type
@@ -77,13 +74,14 @@ interface ParallelItem {
 	| "race" // 9
 	| "faith" // 10
 	| "monster" // 11
-	| "rule"; // 12
+	| "rule" // 12
+	| "source"
 */
 
 function isIndex(value: unknown): asserts value is Item[] {}
 isIndex(fuseIndex);
 
-const allSearchFiltersActive: SearchIndex[] = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
+const allSearchFiltersActive: SearchIndex[] = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13];
 const nothingActive: SearchIndex[] = [];
 
 //// Load and deserialize index
