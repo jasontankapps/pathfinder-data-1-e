@@ -836,7 +836,7 @@
 			"",
 			"### Description",
 			"",
-			"",
+			"Daikitsu is widely worshiped in Tian Xia, as she is the goddess of rice, a staple food in those lands, as well as of agriculture and craftsmanship. Farmers pray to Daikitsu for good harvests, smiths and craftsmen seek her blessing for their creations, and families ask for her protection for their homes and families. Known as the Lady of Foxes, Daikitsu usually appears as beautiful {race/kitsune} woman with snow-white fur and nine tails. She is also the patron of kitsune, who venerate her as the mother of their race.",
 			"",
 			"[^A]: Requires the {trait/Acolyte of Apocrypha} trait."
 		]
@@ -1165,7 +1165,7 @@
 			">",
 			">1. **Slumberer (Sp)** {spell/sleep} 3/day, {spell/silence} 2/day, or {spell/deep slumber} 1/day",
 			">2. **Splendorous Ally (Sp)** Once per day as a standard action, you can summon a {monster/lillend} azata. You gain telepathy with the lillend to a range of 100 feet. The lillend follows your commands perfectly for 1 minute for every Hit Die you possess before vanishing back to its home on Elysium. The lillend doesn't follow any commands that would cause it to take evil or overly lawful actions, and the creature could even attack you if the command is particularly egregious.",
-			">3. **Blast of Motes (Su)** Whenever you channel positive energy to heal living creatures, a shower of starry motes cascades over all of the living creatures in the area of effect. These motes do not impede vision or stealth attempts, nor do they reveal invisible creatures, but they infuse the targets with divine luck. Targets of this ability reduce any miss chance they face by 10%. In addition, when targets of this ability roll damage dice, they may treat all 1s as 2s. The motes and their effects last for 1 round + 1 round for every 4 Hit Dice you have (maximum 6 rounds). If you don't have the ability to channel positive energy, you gain the ability to do so once per day as a cleric of a level equal to your Hit Dice (maximum 20), but only to heal living creatures. Whenever you use this ability, the beneficiaries are showered with starry motes, with the effects described above.",
+			">3. **Blast of Motes (Su)** Whenever you {ability/channel positive energy} to heal living creatures, a shower of starry motes cascades over all of the living creatures in the area of effect. These motes do not impede vision or stealth attempts, nor do they reveal invisible creatures, but they infuse the targets with divine luck. Targets of this ability reduce any miss chance they face by 10%. In addition, when targets of this ability roll damage dice, they may treat all 1s as 2s. The motes and their effects last for 1 round + 1 round for every 4 Hit Dice you have (maximum 6 rounds). If you don't have the ability to channel positive energy, you gain the ability to do so once per day as a cleric of a level equal to your Hit Dice (maximum 20), but only to heal living creatures. Whenever you use this ability, the beneficiaries are showered with starry motes, with the effects described above.",
 			">",
 			">### Boons: Sentinel",
 			">",
@@ -1294,7 +1294,11 @@
 			"",
 			"### Description",
 			"",
-			""
+			"Desna is an impulsive and aloof goddess who delights in freedom, discovery, and mystery. Her aloofness stems not from arrogance, but from confidence in her own abilities and her desire to be unburdened by troubles. She is a collection of contrasts: an ancient goddess who dislikes predicting the future, a traveler who cares nothing for her destination, a carefree creature of instinct haunted by a past stretching back eons, and a peaceful deity forced to battle with old enemies, eternally young despite the weight of ages and stars upon her.",
+			"",
+			"Some believe Desna is flighty, frivolous, and easily distracted, but she has a cold side born of loss, tragedy, and battle. As a luck goddess, she always believes there is a chance for success, but knows that dreams can turn to nightmares and bright destinies can become dark fates; these opposites in her own nature define her and give her things to strive against. She challenges those who would corrupt her domain or who have wronged her friends or followers, striking at them with burning starlight, bad luck, and energies alien to Golarion.",
+			"",
+			"Desna usually appears to her followers as a beautiful but remote elven acolyte of her faith. In this guise, she aids people in need or suggests relevant excerpts from her holy writings, The Eight Scrolls, as a way to lead the faithful on the correct path. She is not above singing to lighten dour moods or dancing with those whose confidence is in need of reinvigoration. When Desna wishes to reveal her true nature, she transforms her common clothing into a billowing silken gown and grows brightly colored butterfly wings on her back, although in somber situations her wing colors are pale and moth-like."
 		]
 	},
 	"deumus": {
@@ -2829,7 +2833,7 @@
 			"",
 			"### Description",
 			"",
-			""
+			"Fumeiyoshi is the Lord of Envy, the god of dishonor, envy, and graves. Originally the god of night and brother of the moon god {faith/Tsukiyo}, Fumeiyoshi grew jealous of {faith/Shizuru/'s} love for Tsukiyo and slew his brother in a fit of rage. When Shizuru returned Tsukiyo to life, she stripped Fumeiyoshi of his position and banished him to her brother's grave, decreeing that he would always envy his betters, as the restless dead do the living. Fumeiyoshi is considered the patron of oni and the undead, and of those paladins and samurai who have been dishonored or have fallen from grace. In lands where the dead are buried, people often make sacrifices to Fumeiyoshi as the god of graves to placate him into leaving deceased loved ones where they are laid to rest, lest they rise again as undead horrors. Fumeiyoshi has many forms, but most often manifests as a nearly skeletal humanoid with three eyes, jagged tusks, and twisted claws."
 		]
 	},
 	"furcas": {
@@ -3004,7 +3008,7 @@
 			"",
 			"### Description",
 			"",
-			"",
+			"General Susumu, the Black Daimyo, is the half-brother of {faith/Shizuru}, and the patron of those samurai more focused on war and glory than honor and heroism. Widely worshiped in Hongal, Kaoling, Minkai, and Shokuro, he is the god of archery, horsemanship, and war. General Susumu leads a great army of samurai and warriors who died gloriously in battle, and has been known to appear at great conflicts, sometimes merely watching, and other times joining in for the sheer joy of fighting. In his humanoid form, General Susumu has red skin and great bristling eyebrows and wears ornate black o-yoroi armor. He rides a black winged horse into battle and carries an iron longbow that shoots arrows of fire. When his anger is truly roused, he appears as an immense crimson dragon with eyes of fire and obsidian tusks.",
 			"",
 			"[^A]: Requires the {trait/Acolyte of Apocrypha} trait."
 		]

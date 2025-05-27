@@ -1163,7 +1163,7 @@
 			"",
 			"### Description",
 			"",
-			"",
+			"Qi Zhong is the Master of Medicine, god of healing and magic. It was Qi Zhong, at {faith/Shizuru/'s} bequest, who employed his skill and magic to bring the moon god {faith/Tsukiyo} back to life after he was slain by his brother {faith/Fumeiyoshi}, and it was Qi Zhong who first taught mortals the importance of the five elements - fire, earth, metal, water, and wood - and their connection to magic, medicine, and martial arts, among other pursuits. Healers, sages, scholars, and practitioners of traditional Tian medicine venerate Qi Zhong, as do wizards and mystic theurges, many of whom serve in his priesthood. Qi Zhong's faithful believe it is their duty to teach their knowledge and learning to others. He appears as a kindly older man dressed in a healer's robe that seems to shift between the five elements.",
 			"",
 			"[^A]: Requires the {trait/Acolyte of Apocrypha} trait."
 		]
@@ -3302,7 +3302,7 @@
 			">{SOURCE Faiths of Golarion/53}",
 			">",
 			">1. **Blessed Blade (Sp)** {spell/magic weapon} 3/day, {spell/weapon of awe} 2/day, or {spell/deadly juggernaut} 1/day",
-			">2. **Dazzling Grace (Su)** As a free action, you can surround yourself with a glowing nimbus of sunlight that shines bright light within 60 feet. While so illuminated, you gain a +4 bonus to AC against attacks of opportunity. Enemies who attempt such attacks against you must succeed at a Fortitude save (DC = 10 + 1/2 your Hit Dice + your Constitution modifier) or be dazzled for 1d4 rounds. This does not affect sightless foes. You can maintain this glowing nimbus for a number of rounds per day equal to your Hit Dice (maximum 20 rounds). The rounds in which you manifest the nimbus don't need to be consecutive, and you can dismiss it as a free action.",
+			">2. **Dazzling Grace (Su)** As a free action, you can surround yourself with a glowing nimbus of sunlight that shines bright light within 60 feet. While so illuminated, you gain a +4 bonus to AC against attacks of opportunity. Enemies who attempt such attacks against you must succeed at a Fortitude save (DC = 10 + 1/2 your Hit Dice + your Constitution modifier) or be {misc/dazzled} for 1d4 rounds. This does not affect sightless foes. You can maintain this glowing nimbus for a number of rounds per day equal to your Hit Dice (maximum 20 rounds). The rounds in which you manifest the nimbus don't need to be consecutive, and you can dismiss it as a free action.",
 			">3. **Swordmaster of the Sun (Su)** Once per day as a free action when fighting with any sword, you can cause your blade to glow with increasingly bright golden radiance after every blow you land. After each hit, you gain a +1 sacred bonus on the damage rolls for subsequent blows, cumulative up to a total equal to your Hit Dice. This damage bonus lasts for the duration of the combat or for a number of minutes equal to your Charisma modifier (minimum 1 minute), whichever is lower. This effect applies only to a single sword; if you fight with two or more weapons, your other weapons are unaffected.",
 			"",
 			"## Paladin Code",
@@ -3351,7 +3351,12 @@
 			"",
 			"### Description",
 			"",
+			"{SOURCE Faiths of Golarion/54}  ",
+			"Shizuru is the perfect sovereign and the perfect warrior, encompassing the glory of Tian Xia. In ancient times, when dragons ruled the Tian empires, even the mightiest of them paid homage to Shizuru; when humans rose to make civilizations of their own, it was Shizuru who taught them her code of honor and her flawless swordplay. She rules with immaculate composure born from the confidence of an empress who has fought and won her own battles; Shizuru's reign is wise, measured, and just, for she has no need to prove herself to others or defend her pride.",
 			"",
+			"Yet for all her golden glory, a shadow lies upon Shizuru's joy. She loves the moon god {faith/Tsukiyo} with such devotion that when he was slain by his envious brother {faith/Fumeiyoshi}, Shizuru convinced the god {faith/Qi Zhong} to return him to life. Tsukiyo was deeply affected by his death and revival, however, and returned as a god of madness as well as the moon. Shizuru found herself unable to fully understand her lover's transformation, and struggling to easily accept the changes in his personality and perspective. Today, she harbors fears that Tsukiyo might resent her actions, guilt that she might have acted against his interests, and grief that she cannot fully comprehend the person he has become. Though Shizuru still loves Tsukiyo deeply, she mourns the loss of the uncomplicated love they once shared, and castigates herself for her inability to embrace everything that Tsukiyo now represents, particularly since she is partially responsible for his transformation.",
+			"",
+			"Shizuru is usually depicted as a beautiful samurai in golden lamellar armor, as a regal gold-scaled dragon, or as both simultaneously. Signs of her approval include a golden flash of sunlight on a sword's blade, a single translucent carp's scale falling like a feather from the sky, and the calligraphic character for \"dragon\" appearing in spilled liquid or windblown debris. Her disapproval is signaled by sudden rust or dullness on a blade, armor cracking apart, or plants and wildflowers turning away from the source of disapproval as if the greenery were seeking the sun's warmth elsewhere.",
 			"",
 			"[^A]: Requires the {trait/Acolyte of Apocrypha} trait."
 		]
@@ -4258,7 +4263,7 @@
 			"",
 			"### Description",
 			"",
-			""
+			"Sun Wukong, the Monkey King, is a trickster god, famous in tales throughout the Dragon Empires. Once a stone statue of a monkey given life, Sun Wukong was made the king of all monkeys, but he wanted more. He sought out the god of magic, {faith/Qi Zhong}, hoping to obtain the secret of immortality. The Master of Medicine was unwilling to part with that secret, but he did teach Sun Wukong many magic powers. Eventually, Sun Wukong traveled to {faith/Pharasma/'s} Boneyard and erased his name from her records, thus gaining immortality. The Monkey King is a notorious drunkard, and likes nothing more than strong alcohol, beautiful women, and wild brawls. Of all the Tian gods, Sun Wukong spends the most time wandering the Material Plane, drinking, carousing, and fighting, often in the guise of a drunken human martial artist."
 		]
 	},
 	"surpa": {

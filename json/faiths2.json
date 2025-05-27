@@ -1526,15 +1526,15 @@
 			">",
 			">1. **Disciple of the Clouds (Sp)** {spell/hydraulic push} 3/day, {spell/resist energy} 2/day, or {spell/elemental aura/ (electricity only)} 1/day",
 			">2. **Stormborne (Su)** Once per day as a standard action, you can call on a storm cloud to bear you into the air. This enables you to fly at a speed of 40 feet with good maneuverability. It lasts for 1 minute per HD (maximum 20 minutes). If it's dispelled or the duration expires while you're aloft, you descend at a rate of 60 feet per round for 5 rounds, then fall any remaining distance normally.",
-			">3. **Thunderstrike (Su)** Once per day as a free action, you can declare one of your attacks to be a thunderstrike. You must declare the use of this ability before rolling to attack. If the attack hits and you deal damage, the blow lands with a clap of thunder that paralyzes your target and deafens foes within 10 feet of the strike for 1d4 rounds. A target that succeeds at a Fortitude save (DC = 10 + half your Hit Dice + your Constitution modifier) negates the deafening effect and is stunned for only 1 round.",
+			">3. **Thunderstrike (Su)** Once per day as a free action, you can declare one of your attacks to be a thunderstrike. You must declare the use of this ability before rolling to attack. If the attack hits and you deal damage, the blow lands with a clap of thunder that {rule/paralyze/s>d} your target and {misc/deafen/s} foes within 10 feet of the strike for 1d4 rounds. A target that succeeds at a Fortitude save (DC = 10 + half your Hit Dice + your Constitution modifier) negates the deafening effect and is {misc/stunned} for only 1 round.",
 			">",
 			">### Boons: Exalted",
 			">",
 			">{SOURCE Faiths of Golarion/23}",
 			">",
 			">1. **Disciple of the Fog (Sp)** {spell/feather fall} 3/day, {spell/fog cloud} 2/day, or {spell/gaseous form} 1/day",
-			">2. **Blessing of Sea and Storm (Su)** As a full-round action, you can transmute a flask of either rainwater or seawater into a potion of any spell of 4th level or lower that you currently have memorized and that otherwise qualifies under the standard potion rules. You lose the memorized spell, as if it had been cast, when it is transferred into the potion. If the spell requires a material component that costs more than 100 gp, you must also provide that component. The potion retains its magic for up to 24 hours or until used. You can use this ability a number of times per day equal to your Charisma modifier (minimum 1).",
-			">3. **Hei Feng's Rage (Su)** Once per day as a standard action, you can summon a cyclone of black wind and spiked lightning within 30 feet, which fills a 20-foot-radius area that extends 75 feet high. The cyclone cannot be moved once called. Creatures in the area take 4d6 points of electricity damage plus 1 point for every 2 Hit Dice you have (maximum +10) every round they're caught in the cyclone. You can dismiss the cyclone as a free action. Otherwise, it lasts up to 5 rounds; when it dissipates, it releases a clap of thunder that knocks all creatures in the area prone. A creature can attempt a Reflex save (DC = 10 + half your Hit Dice + your Charisma modifier) to halve the damage taken, and a Fortitude save (DC = 10 + half your Hit Dice + your Charisma modifier) to avoid being knocked prone.",
+			">2. **Blessing of Sea and Storm (Su)** As a full-round action, you can transmute a flask of either rainwater or seawater into a potion of any spell of 4th level or lower that you currently have memorized and that otherwise qualifies under the standard {rule/potion[ rule]s}. You lose the memorized spell, as if it had been cast, when it is transferred into the potion. If the spell requires a material component that costs more than 100 gp, you must also provide that component. The potion retains its magic for up to 24 hours or until used. You can use this ability a number of times per day equal to your Charisma modifier (minimum 1).",
+			">3. **Hei Feng's Rage (Su)** Once per day as a standard action, you can summon a cyclone of black wind and spiked lightning within 30 feet, which fills a 20-foot-radius area that extends 75 feet high. The cyclone cannot be moved once called. Creatures in the area take 4d6 points of electricity damage plus 1 point for every 2 Hit Dice you have (maximum +10) every round they're caught in the cyclone. You can dismiss the cyclone as a free action. Otherwise, it lasts up to 5 rounds; when it dissipates, it releases a clap of thunder that knocks all creatures in the area {rule/prone}. A creature can attempt a Reflex save (DC = 10 + half your Hit Dice + your Charisma modifier) to halve the damage taken, and a Fortitude save (DC = 10 + half your Hit Dice + your Charisma modifier) to avoid being knocked prone.",
 			">",
 			">### Boons: Sentinel",
 			">",
@@ -1571,7 +1571,11 @@
 			"",
 			"### Description",
 			"",
+			"Hei Feng is the patron deity of the {race/tengu} race, commonly depicted as a tengu with smoldering black feathers, glowing eyes, and a nine-ring broadsword that crackles with lightning. His manners are rude and his speech uncouth, and although he is capable of conducting himself with a courtier's polish when required, Hei Feng views such pretensions as ridiculous. When summoned to the Heavenly Court for official functions, he frequently interrupts his own flowery speeches with a belch or eruption of laughter. Yet the Duke of Thunder is no mere buffoon. He is a terrifying adversary, capable of unleashing massive destruction through the wind and waves. Whether his answer comes swiftly or slowly, Hei Feng answers provocations with overwhelming retaliation, and for this he is widely feared.",
 			"",
+			"On occasion, Hei Feng regrets his excesses, particularly when they catch unintended victims. Sometimes the morning tide carries a lustrous pearl to the foundation stones of a home torn down by the past night's storms, or a child who loses her parents to the sea finds her nets filled with fish for the rest of her life. In such instances, people say, the Duke of Thunder is making amends.",
+			"",
+			"Hei Feng is also known to be overcome with emotion when listening to music, gazing upon a painting or fireworks display, or watching the whirl and spectacle of costumed dancers. His taste in arts runs toward popular, less refined forms; he likes lion and dragon dancers, acrobats, and bawdy theater, but he has little patience for contemplating calligraphy scrolls or composing meditative poems. The one exception is that Hei Feng can be moved to tears by flower arrangements, particularly if they incorporate white lotuses or mirrors. These remind him of his much-adored wife, Lady Jingxi, the Poet of Dawn and Dusk, who left him centuries ago. Hei Feng misses his wife greatly and often weeps over her when deep in his cups, but in truth he was a neglectful husband, and his drunken protestations of love are directed more toward an idealized image than the real lady.",
 			"",
 			"[^A]: Requires the {trait/Acolyte of Apocrypha} trait."
 		]
@@ -3977,7 +3981,7 @@
 			"",
 			"### Description",
 			"",
-			"",
+			"Kofusachi, the Laughing God, is the deity of happiness, prosperity, and abundance. His blessing is invoked when a child is born, at weddings, before business deals, and at the beginning of long journeys. He is depicted as a plump, bald man, always smiling, with bare, calloused feet, a walking stick in hand, and a dog at his heels. An incurable wanderer and inveterate libertine, Kofusachi has taken numerous gods and goddesses as lovers. Though his wanderlust always keeps such relationships from becoming too serious, Kofusachi is fast friends with {faith/Daikitsu}, {faith/Desna}, and {faith/Shelyn}.",
 			"",
 			"[^A]: Requires the {trait/Acolyte of Apocrypha} trait."
 		]
@@ -4449,7 +4453,7 @@
 			"",
 			"### Description",
 			"",
-			""
+			"Lady Nanbyo is the goddess of plague, fire, earthquakes, and other calamities. Even tsunamis and volcanic eruptions (usually the work of {faith/Hei Feng} and {faith/Yamatsumi}, respectively) are typically blamed on Lady Nanbyo, for she eagerly adds her own torments to such catastrophes and delights in the pain and suffering that follow in their wake. At the same time, however, people pray to Lady Nanbyo to spare them during such times of upheaval. Called the Widow of Suffering, Lady Nanbyo has been married many times, but all of her husbands have met terrible and tragic ends. While Lady Nanbyo can appear as a seductive woman when she wishes, her true form is said to be that of a ravenous, fire-breathing dragon with a dozen legs."
 		]
 	}
 }

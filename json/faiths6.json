@@ -1195,7 +1195,7 @@
 			"",
 			"### Description",
 			"",
-			""
+			"Lao Shu Po, or Old Rat Woman, was not always a goddess. Once, long ago, she was simply a rat, skulking in the shadows. When {faith/Fumeiyoshi} killed his brother {faith/Tsukiyo}, Lao Shu Po crept into the moon god's grave to feed on Tsukiyo's corpse. She absorbed some of Tsukiyo's divine power, such that when Tsukiyo was returned to life and Fumeiyoshi was banished from heaven, she was able to steal the portfolio of night from Fumeiyoshi, becoming the goddess of night, thieves, and rats. Lao Shu Po is the patron of thieves and of many wayangs, who pray to her to hide their activities in the dark of night. Lao Shu Po appears as an old hag or as an immense, six-legged rat."
 		]
 	},
 	"libicocco": {
@@ -2825,7 +2825,7 @@
 			">{SOURCE Faiths of Golarion/59}",
 			">",
 			">1. **Spirit Shepherd (Sp)** {spell/hide from undead} 3/day, {spell/calm emotions} 2/day, or {spell/helping hand} 1/day",
-			">2. **Soothing Moon Aura (Su)** You can radiate soft silvery moonlight from your body at will as a free action, illuminating a 20-foot radius with dim light as a 2nd-level spell. For a number of rounds per day equal to 1 + 1 for every 4 Hit Dice you have (maximum 6 rounds), you can intensify this light as a standard action. The intensified light suppresses darkness effects as per {spell/daylight} heightened to a 7th-level spell, though it still creates only dim light. Furthermore, it suppresses all harmful compulsion, emotion, and fear effects in the area, as well as any harmful effects from {rule/madness} (also see [here](rule/madness)). These rounds don't need to be consecutive. You can deactivate the intensified aura as a free action.",
+			">2. **Soothing Moon Aura (Su)** You can radiate soft silvery moonlight from your body at will as a free action, illuminating a 20-foot radius with dim light as a 2nd-level spell. For a number of rounds per day equal to 1 + 1 for every 4 Hit Dice you have (maximum 6 rounds), you can intensify this light as a standard action. The intensified light suppresses darkness effects as per {spell/daylight} {feat/heightened} to a 7th-level spell, though it still creates only dim light. Furthermore, it suppresses all harmful compulsion, emotion, and fear effects in the area, as well as any harmful effects from {rule/madness}. These rounds don't need to be consecutive. You can deactivate the intensified aura as a free action.",
 			">3. **Knight of the Green Crescent (Su)** Once per day as a standard action, you can summon an {template/advanced} {monster/kirin} that resembles an elegant jade hare. Its breath weapon deals 8d8 points of cold damage. The kirin follows your commands perfectly for 1 minute before returning to Heaven, but it doesn't obey commands that would violate its alignment; particularly egregious commands could cause it to attack you.",
 			">",
 			">### Boons: Sentinel",
@@ -2833,7 +2833,7 @@
 			">{SOURCE Faiths of Golarion/59}",
 			">",
 			">1. **Cleansing Jade (Sp)** {spell/magic stone} 3/day, {spell/stone discus} 2/day, or {spell/searing light} 1/day",
-			">2. **Banishing Jade (Su)** You gain the ability to smite evil once per day as per a paladin of your character level. If you already have the smite evil class feature, this adds to the number of times per day that you can smite evil. When you use your smite evil class feature, you can transform either your weapon or your armor into enchanted jade for 1 minute or until the smite evil effect ends. Your transformed weapon gains the ghost touch special ability. Furthermore, if the target of smite evil is an undead creature, the bonus on damage rolls for the first hit with that weapon increases to 3 points of damage per paladin level you have (including any sentinel levels), and your first attack with that weapon also gains the {magic-enh/disruption} weapon special ability (DC = 13 + your Charisma modifier). Your transformed armor gains the ghost touch special ability, and if the target of smite evil is an undead creature, the armor grants you a +2 sacred bonus on saving throws against the creature's spells and effects as well as a +2 sacred bonus to AC against its attacks.",
+			">2. **Banishing Jade (Su)** You gain the ability to smite evil once per day as per a {class/paladin} of your character level. If you already have the smite evil class feature, this adds to the number of times per day that you can smite evil. When you use your smite evil class feature, you can transform either your weapon or your armor into enchanted jade for 1 minute or until the smite evil effect ends. Your transformed weapon gains the {magic-enh/ghost touch} special ability. Furthermore, if the target of smite evil is an undead creature, the bonus on damage rolls for the first hit with that weapon increases to 3 points of damage per paladin level you have (including any sentinel levels), and your first attack with that weapon also gains the {magic-enh/disruption} weapon special ability (DC = 13 + your Charisma modifier). Your transformed armor gains the {magic-enh/ghost touch>_a} special ability, and if the target of smite evil is an undead creature, the armor grants you a +2 sacred bonus on saving throws against the creature's spells and effects as well as a +2 sacred bonus to AC against its attacks.",
 			">3. **Reincarnated Champion (Su)** You increase the time that you can remain dead before being revived by {spell/breath of life} by a number of rounds equal to your Charisma modifier (minimum +1). Once per week as a swift action, you can cast {spell/breath of life} (CL 20th) on yourself, even when you would be otherwise unable to take actions, such as when you are dead.",
 			"",
 			"## Paladin Code",
@@ -2876,7 +2876,11 @@
 			"",
 			"### Description",
 			"",
-			""
+			"Untold millennia ago, the Prince of the Moon spent as much time roistering with the other gods as he did flying out to vanquish evil. He and his lover {faith/Shizuru} were the epitome of romantic love, and Tsukiyo's happiness inspired unquenchable envy in his brother, {faith/Fumeiyoshi}. In a fit of rage, Fumeiyoshi murdered Tsukiyo, cutting a wound so deep that it left the moon forever scarred. Unwilling to accept her lover's death, Shizuru convinced {faith/Qi Zhong} to ply his greatest medicines undo death itself, and three nights later, life returned to the fallen god. For Fumeiyoshi's crime of fratricide and deicide, the other gods condemned him to live within his brother's grave, from which he would always envy his betters.",
+			"",
+			"Tsukiyo's death and rebirth changed him into a god of transformations and transitions, from those of the lunar cycle to the shepherding of souls to the afterlife. His personality changes gradually over time, ranging from coolly judgmental to brimming with quiet compassion. Despite occasional outbursts of passion, Tsukiyo is reclusive and even shy. This predilection shapes his divine undertakings; he rarely participates in monumental affairs, but he doesn't hesitate to connect with individual mortals to offer silent support in times of need. Despite his reserved demeanor, he is an unshakable advocate for the frightened, the lost, and the misunderstood - particularly those maligned by society for thinking or perceiving the world differently from their neighbors. Though this often takes him away from the light of mainstream civilization and the sun, his lover Shizuru seems to understand and provide him space, so that both can combat injustice in their own ways.",
+			"",
+			"Tsukiyo appears in art far less frequently than Shizuru, but when he does, it is as a Tian-Min man with long silver hair and a peaceful, understanding smile. His age often changes in symbolic reflection of the moon's phases. His green robes seem woven from flexible jade, and he wields a spear crafted from spun moonlight."
 		]
 	},
 	"minderhal": {
@@ -3610,7 +3614,8 @@
 			"",
 			"### Description",
 			"",
-			"",
+			"{SOURCE Dragon Empires Gazetteer/61}  ",
+			"Nalinivati was the legendary first queen of Nagajor, who gave birth to the varied {family/naga} races in ages past. A powerful sorceress, Nalinivati used her own sorcery to ascend to godhood. Called the Queen of Nagas, Nalinivati is the goddess of sorcery and snakes, and is the patron goddess of the nagaji. Also known as the Serpent's Kiss, Nalinivati is a goddess of fertility as well, and has been romantically linked with {faith/Daikitsu}, though the two goddesses neither confirm nor deny the rumors. Her worship is most widespread in Nagajor, but sorcerers, nagas, smitten lovers, and snake cults throughout Tian Xia venerate her. Nalinivati appears as an immense naga with brilliantly colored hair and scales. She is often depicted in art as emerging from an egg, or as guarding a clutch of eggs.",
 			"",
 			"[^A]: Requires the {trait/Acolyte of Apocrypha} trait."
 		]
