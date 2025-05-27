@@ -604,16 +604,16 @@
 			">{SOURCE Inner Sea Faiths/47}",
 			">",
 			">1. **Maddening Voice (Sp)** {spell/lesser confusion} 3/day, {spell/mad hallucination} 2/day, or {spell/confusion} 1/day",
-			">2. **Silent Witness (Su)** Emulating Groetus, you can observe your surroundings and the people within them without being heeded or harmed. Once per day as a full-round action, you can protect yourself with the effects of {spell/invisibility}, {spell/nondetection}, and {spell/sanctuary} for 10 minutes per Hit Die you possess. Anyone who succeeds at a Will saving throw (DC = 10 + 1/2 your Hit Dice + your Wisdom modifier) or a caster level check (DC = 11 + your Hit Dice) against these effects sees a glimpse of something unfathomable and becomes confused for 1 round unless it succeeds at a second Will save with the same DC.",
-			">3. **Infinite Patience (Su)** You will serve Groetus until the end of the world, no matter how long you must wait. You cannot die of old age, even by magical means, although aging otherwise affects you normally. In addition, once per day as a standard action, you can choose any one action you could ready and define a condition under which you will take that action. Within the next 24 hours, whenever you observe that condition, you can take the chosen action as an immediate action.",
+			">2. **Silent Witness (Su)** Emulating Groetus, you can observe your surroundings and the people within them without being heeded or harmed. Once per day as a full-round action, you can protect yourself with the effects of {spell/invisibility}, {spell/nondetection}, and {spell/sanctuary} for 10 minutes per Hit Die you possess. Anyone who succeeds at a Will saving throw (DC = 10 + 1/2 your Hit Dice + your Wisdom modifier) or a caster level check (DC = 11 + your Hit Dice) against these effects sees a glimpse of something unfathomable and becomes {misc/confused} for 1 round unless it succeeds at a second Will save with the same DC.",
+			">3. **Infinite Patience (Su)** You will serve Groetus until the end of the world, no matter how long you must wait. You cannot die of {rule/old |age}, even by magical means, although aging otherwise affects you normally. In addition, once per day as a standard action, you can choose any one action you could ready and define a condition under which you will take that action. Within the next 24 hours, whenever you observe that condition, you can take the chosen action as an immediate action.",
 			">",
 			">### Boons: Sentinel",
 			">",
 			">{SOURCE Inner Sea Faiths/47}",
 			">",
 			">1. **Endbringer (Sp)** {spell/true strike} 3/day, {spell/death knell} 2/day, or {spell/keen edge} 1/day",
-			">2. **Visions of the End (Su)** Once per day as a full-round action, you can gain a sudden vision of a target's doom. You gain the benefits of {spell/augury}, {spell/know the enemy}, and {spell/locate weakness} simultaneously, all regarding the same creature or object (even if the spell normally doesn't function with objects) and its death or undoing. You can use the locate weakness effect on only the target creature.",
-			">3. **Frightful Presence (Su)** You have looked into oblivion, and its horrors are reflected in your eyes. You can terrify foes as a free action whenever you take an offensive action, such as attacking. Foes within 30 feet of you and with fewer Hit Dice than you must succeed at a Will saving throw or become shaken for a number of rounds equal to your Hit Dice (DC = 10 + 1/2 your Hit Dice + your Charisma modifier). If the victim has 4 or fewer Hit Dice, it becomes panicked instead. Foes with more Hit Dice than you are immune to this ability.",
+			">2. **Visions of the End (Su)** Once per day as a full-round action, you can gain a sudden vision of a target's doom. You gain the benefits of {spell/augury}, {spell/know the enemy}, and {spell/locate weakness} simultaneously, all regarding the same creature or object (even if the spell normally doesn't function with objects) and its death or undoing. You can use the *locate weakness* effect on only the target creature.",
+			">3. **Frightful Presence (Su)** You have looked into oblivion, and its horrors are reflected in your eyes. You can terrify foes as a free action whenever you take an offensive action, such as attacking. Foes within 30 feet of you and with fewer Hit Dice than you must succeed at a Will saving throw or become {misc/shaken} for a number of rounds equal to your Hit Dice (DC = 10 + 1/2 your Hit Dice + your Charisma modifier). If the victim has 4 or fewer Hit Dice, it becomes {misc/panicked} instead. Foes with more Hit Dice than you are immune to this ability.",
 			"",
 			"## Follower Options",
 			"",
@@ -656,7 +656,14 @@
 			"",
 			"### Description",
 			"",
+			"{SOURCE Inner Sea Faiths/48}  ",
+			"Groetus presides over the end times - the demise of the world, or perhaps the destruction of the multiverse itself. Having silently witnessed billions of souls from countless worlds filter through the Boneyard, he is unconcerned with the fates of individual heroes, villages, or even civilizations. Despite his chaotic alignment, he is an agent of inevitable fate, ensuring that all things pass. He chose this role for himself, the dispassionate observer in balance against the dispassionate judge.",
 			"",
+			"Groetus's role is to close the book on this reality when the final page of its story is told. He knows only how the story ends, and uses that knowledge to piece together what is yet to come - a conflict occurs, this entity survives until the end of the story, this other entity does not, and so on - and what to do next once the tale is finished. His attention is on the final goal and the cosmic dynamics that may enable or delay that goal: the subtle movement of planes against each other, the brooding thoughts of rising gods, and the births and deaths of stars in the remote expanse of space.",
+			"",
+			"Groetus rarely appears in human form, but a few records from ancient Azlant describe him as a tall, slender man wearing a gray, cowled robe that hangs heavily to the floor. He is slightly bent at the neck, as if bearing a great weight on his head, with ashen skin, hollow eyes, and long, smooth hands. His voice is the dry whisper of old paper, his laughter low and breathy, and his inflection archaic or foreign. His feet are bare and covered in soot, as if he had walked through an extinguished fire.",
+			"",
+			"Most of Groetus's priests bear some kind of {rule/in|sanity>_and_madness} (e.g. amnesia, mania, and paranoia). They can still function in society, but their broken minds hear whispers of the god's will, and they hold beliefs that no sane being would embrace. Note that Groetus's priests are insane even though none of their mental ability scores have been reduced to 0. Also, followers of the god do not see this insanity as an affliction; rather, they see this connection to Groetus as a gift worth celebrating. A priest's insanity can be cured, but unless she immediately rejects Groetus as a patron deity, she relapses in a matter of hours or days.",
 			"",
 			"[^A]: Requires the {trait/Acolyte of Apocrypha} trait.",
 			"[^M]: Only clerics with the Madness or Void domain can do this."
@@ -735,7 +742,10 @@
 	},
 	"grundinnar": {
 		"name": "Grundinnar",
-		"sources": [ "Inner Sea Gods" ],
+		"sources": [
+			"Inner Sea Gods",
+			"Dwarves of Golarion"
+		],
 		"description": [
 			"::fh[Grundinnar]{sub=\"The Peacemaker\"}",
 			"",
@@ -766,7 +776,11 @@
 			"",
 			"### Description",
 			"",
-			""
+			"{SOURCE Inner Sea Gods/182}  ",
+			"{faith/Bolka/'s} brother encourages hard work and harmony, and brings together friends separated by distance or misunderstanding. Dwarves who form bonds of friendship with members of other races sometimes present them with gifts of small ornamental hammers in Grundinnar's honor.",
+			"",
+			"{SOURCE Dwarves of Golarion/29}  ",
+			"This glib deity is well practiced in breaking up fights over his sister Bolka. He mends fences, encourages dwarves to be neighborly, and makes sure that dwarves do not forget friends they haven't seen in decades."
 		]
 	},
 	"guyuku": {
@@ -840,7 +854,7 @@
 			">{SOURCE Inner Sea Faiths/53}",
 			">",
 			">1. **Dread Gifts (Sp)** {spell/fumbletongue} 3/day, {spell/disfiguring touch} 2/day, or {spell/eruptive pustules} 1/day",
-			">2. **Rot Their Minds (Su)** Your spewed curses and venomous retorts take on a malevolent timbre, and your enemies' minds bend before the potency of your ire. Once per day, you can cast {spell/feeblemind}, as per the spell, except {spell/remove curse} can remove this effect, as can {spell/heal}, {spell/limited wish}, {spell/miracle}, and {spell/wish}. If the target fails its Will saving throw against this effect, it recognizes you as its afflictor. After this effect ends, if you are within 30 feet of the target, it is shaken for a number of rounds equal to your Hit Dice or until you move more than 30 feet away from it (whichever comes first). This is a curse effect.",
+			">2. **Rot Their Minds (Su)** Your spewed curses and venomous retorts take on a malevolent timbre, and your enemies' minds bend before the potency of your ire. Once per day, you can cast {spell/feeblemind}, as per the spell, except {spell/remove curse} can remove this effect, as can {spell/heal}, {spell/limited wish}, {spell/miracle}, and {spell/wish}. If the target fails its Will saving throw against this effect, it recognizes you as its afflictor. After this effect ends, if you are within 30 feet of the target, it is {misc/shaken} for a number of rounds equal to your Hit Dice or until you move more than 30 feet away from it (whichever comes first). This is a curse effect.",
 			">3. **Mother of Curses (Su)** The rage within your heart shields you against harm and turns it back on others. You gain an amount of spell resistance equal to 11 + your Hit Dice, but only against necromancy and transmutation spells, as well as enchantment spells of the charm subschool. Once per day, when a spell fails to penetrate your spell resistance, you can reflect it back on its caster, as if using {spell/spell turning}.",
 			">",
 			">### Boons: Exalted",
@@ -848,7 +862,7 @@
 			">{SOURCE Inner Sea Faiths/53}",
 			">",
 			">1. **Alone Among Many (Sp)** {spell/youthful appearance} 3/day, {spell/undetectable alignment} 2/day, or {spell/nondetection} 1/day",
-			">2. **Come by Night (Ex)** Night is when others are vulnerable and trusting, and few can pierce the darkness to see your handiwork. You gain darkvision 30 feet and are immune to any magical sleep effects (this functions identically to an elf's immunity to magical sleep effects).",
+			">2. **Come by Night (Ex)** Night is when others are vulnerable and trusting, and few can pierce the darkness to see your handiwork. You gain darkvision 30 feet and are immune to any magical sleep effects (this functions identically to an {race/elf/'s} immunity to magical sleep effects).",
 			">3. **Curdled Trust (Su)** You can sow the seeds of distrust in a group and assign the blame for your actions to another. Once per day, upon committing an evil act or casting a spell in front of witnesses, as a free action you can enchant all onlookers to believe another person known to them committed that act. If you know a creature's full name, you can name it specifically as the culprit. Otherwise, each onlooker sees a random friend or family member committing your actions. Onlookers who succeed at a Will saving throw (DC = 10 + 1/2 your Hit Dice + your Wisdom modifier) are not fooled, though they might still be fooled by concealing clothing or mundane disguises you may be wearing. This is a mind-affecting enchantment effect.",
 			">",
 			">### Boons: Sentinel",
@@ -857,7 +871,7 @@
 			">",
 			">1. **Malice (Sp)** {spell/ray of sickening} 3/day, {spell/blindness//deafness} 2/day, or {spell/excruciating deformation} 1/day",
 			">2. **Cloak of Curses (Su)** You surround yourself in a shroud of whispered secrets and spiteful swearing, distorting the world around you and repelling others with the bitterness in your heart. Once per day, you can activate your cloak of curses as a standard action, and maintain it for up to 1 minute per Hit Die you possess. While the cloak is active, creatures of the animal and vermin type will not approach within 5 feet of you and move away if you approach them. Attacks from all other creatures suffer a 20% miss chance. This miss chance increases to 30% if the attacking creature is lawful or good (this miss chance does not stack). Creatures that succeed at a Will saving throw (DC = 10 + 1/2 your Hit Dice + your Charisma modifier) are not affected by your cloak of curses.",
-			">3. **Never Suffer Alone (Ex)** Misery is a gift you have received far too much of, and you have learned to reflect it onto others. Three times per day, when an opponent successfully deals hit point damage to you, you can immediately make an attack of opportunity against the creature that damaged you, even if you could not normally make an attack of opportunity. You can attack normally with this attack of opportunity or target the triggering creature with one of the spells granted by the malice boon above (though doing so provokes an attack of opportunity if an opponent is in melee with you). You can use this ability only once per round.",
+			">3. **Never Suffer Alone (Ex)** Misery is a gift you have received far too much of, and you have learned to reflect it onto others. Three times per day, when an opponent successfully deals hit point damage to you, you can immediately make an attack of opportunity against the creature that damaged you, even if you could not normally make an attack of opportunity. You can attack normally with this attack of opportunity or target the triggering creature with one of the spells granted by the *malice* boon above (though doing so provokes an attack of opportunity if an opponent is in melee with you). You can use this ability only once per round.",
 			"",
 			"## Follower Options",
 			"",
@@ -884,7 +898,9 @@
 			"",
 			"### Description",
 			"",
-			""
+			"Few sources agree on Gyronna's origin, and her cults quietly hunt anyone who investigates it. Many place her origins in the First World, as a malicious fey princess who delighted in manipulation for her own amusement. After crossing a powerful rival - {monster/Baba Yaga} or {faith/Magdh}, by most accounts - the immortal dilettante was punished with deformities and cast into the mortal realm. Other stories describe her as a trio of bickering sisters who befell the same fate, and were so mutilated that they were forced to lean on one another to even stand, eventually growing together into one loathsome, hateful whole. In the wake of such exile, kindness and civility are, to her, dribbles of poisoned honey, and Gyronna would burn all the world to ash to eradicate such mockery and deception.",
+			"",
+			"Gyronna's complete figure is rarely depicted; she is more often represented as the same bloodshot eye her followers use as their unholy symbol. Her rare manifestations are chaotic, shifting form mid-conversation - sometimes decrepit, other times vibrantly young, beautiful, withered and dead, jubilant, weeping, or raging. According to ancient tales, the Angry Hag has no true form beyond the singular bulging eye through which she sees the shadows cast by even the brightest lights. Only her gender remains constant - though she presents vastly differing images of womanhood - as do the ragged vestments in which she wraps herself."
 		]
 	},
 	"haagenti": {
@@ -1215,8 +1231,8 @@
 			">{SOURCE Inner Sea Faiths/59}",
 			">",
 			">1. **River Sage (Sp)** {spell/hydraulic push} 3/day, {spell/river whip} 2/day, or {spell/hydraulic torrent} 1/day",
-			">2. **River Scion (Su)** Just as drowning was not the end of Hanspur's story, inhaling water holds no terror for you. As a free action you can breathe underwater, as if affected by water breathing, for a number of hours per day equal to the number of Hit Dice you possess. These hours need not be used consecutively, but must be used in 1-hour increments.",
-			">3. **River's Embodiment (Sp)** The river is a part of you, and you are a part of it. Once per day as a standard action, you can transform yourself into a Huge water elemental, as per elemental body IV. You can stay in this form for 1 minute per Hit Die you possess, and can dismiss this effect as a free action.",
+			">2. **River Scion (Su)** Just as drowning was not the end of Hanspur's story, inhaling water holds no terror for you. As a free action you can breathe underwater, as if affected by {spell/water breathing}, for a number of hours per day equal to the number of Hit Dice you possess. These hours need not be used consecutively, but must be used in 1-hour increments.",
+			">3. **River's Embodiment (Sp)** The river is a part of you, and you are a part of it. Once per day as a standard action, you can transform yourself into a {monster/Huge water elemental}, as per {spell/elemental body IV}. You can stay in this form for 1 minute per Hit Die you possess, and can dismiss this effect as a free action.",
 			">",
 			">### Boons: Exalted",
 			">",
@@ -1224,15 +1240,15 @@
 			">",
 			">1. **River Guide (Sp)** {spell/obscuring mist} 3/day, {spell/haunting mists} 2/day, or {spell/aqueous orb} 1/day",
 			">2. **River Traveler (Su)** A priest of Hanspur should never fear the water, and should move as freely as the fish (and rats) that make their homes within it. As a free action, you can grant yourself and any allies within 30 feet of you a swim speed of 60 feet. This effect lasts for 1 round per Hit Die you possess or until you dismiss it as a free action, whichever comes first. Your allies must remain within 30 feet of you or lose this benefit. In addition, you gain a +2 profane or sacred bonus (of the same type as that provided by your obedience) on saves against spells with the water descriptor.",
-			">3. **River's Depths (Su)** The river is your companion, and it fights on your behalf, teaching your enemies about the holy act of drowning. Once per day as a standard action, you can cause one creature within 30 feet to begin drowning, filling its lungs with water. The target of this ability can attempt a Fortitude save (DC = 10 + 1/2 your Hit Dice + your Wisdom modifier) to negate the effect. If the target succeeds, it is staggered for 1 round while it gasps for breath. On a failed save, the target immediately begins to suffocate. On the target's next turn, it falls unconscious and is reduced to 0 hit points. One round later, the target drops to -1 hit points and is dying. One round after that, the target dies. Each round, the target can attempt a Fortitude save to end the effect. This ability affects only living creatures that must breathe and cannot breathe underwater. This is a curse effect.",
+			">3. **River's Depths (Su)** The river is your companion, and it fights on your behalf, teaching your enemies about the holy act of drowning. Once per day as a standard action, you can cause one creature within 30 feet to begin drowning, filling its lungs with water. The target of this ability can attempt a Fortitude save (DC = 10 + 1/2 your Hit Dice + your Wisdom modifier) to negate the effect. If the target succeeds, it is {misc/staggered} for 1 round while it gasps for breath. On a failed save, the target immediately begins to {rule/suffocat/e>ion}. On the target's next turn, it falls {misc/unconscious} and is reduced to 0 hit points. One round later, the target drops to -1 hit points and is {misc/dying}. One round after that, the target dies. Each round, the target can attempt a Fortitude save to end the effect. This ability affects only living creatures that must breathe and cannot breathe underwater. This is a curse effect.",
 			">",
 			">### Boons: Sentinel",
 			">",
 			">{SOURCE Inner Sea Faiths/59}",
 			">",
 			">1. **River Warden (Sp)** {spell/wave shield} 3/day, {spell/masterwork transformation} 2/day, or {spell/quench} 1/day",
-			">2. **River Champion (Su)** The river is your weapon. Three times per day as a standard action, you can sculpt water into the form of a melee weapon with which you are proficient (typically a trident, but it could also take the form of a dagger or another light weapon). You must have enough water to form the weapon, an amount equal to the weapon's normal weight. Once formed, the weapon behaves as a weapon of its type with an enhancement bonus of +1. This bonus increases by 1 for every 5 additional Hit Dice you have beyond 5 (up to a maximum of +4 at 20 Hit Dice). This weapon deals double the normal amount of damage to creatures with the fire subtype. The weapon dissolves into ordinary water after a number of rounds equal to your Hit Dice or as soon as it leaves your hand, whichever happens first.",
-			">3. **River's Renewal (Su)** As Hanspur was reborn in the water, so too are you healed by it. When completely submerged in water, you gain fast healing 2. You can recover a total number of hit points equal to twice your Hit Dice in this manner each day. At 20th level, if you fall below 0 hit points and your body is fully submerged in a river, you automatically stabilize.",
+			">2. **River Champion (Su)** The river is your weapon. Three times per day as a standard action, you can sculpt water into the form of a melee weapon with which you are proficient (typically a trident, but it could also take the form of a {eq-weapon/dagger} or another light weapon). You must have enough water to form the weapon, an amount equal to the weapon's normal weight. Once formed, the weapon behaves as a weapon of its type with an enhancement bonus of +1. This bonus increases by 1 for every 5 additional Hit Dice you have beyond 5 (up to a maximum of +4 at 20 Hit Dice). This weapon deals double the normal amount of damage to creatures with the fire subtype. The weapon dissolves into ordinary water after a number of rounds equal to your Hit Dice or as soon as it leaves your hand, whichever happens first.",
+			">3. **River's Renewal (Su)** As Hanspur was reborn in the water, so too are you healed by it. When completely submerged in water, you gain {umr/fast healing} 2. You can recover a total number of hit points equal to twice your Hit Dice in this manner each day. At 20th level, if you fall below 0 hit points and your body is fully submerged in a river, you automatically stabilize.",
 			"",
 			"## Antipaladin Code",
 			"",
@@ -1264,7 +1280,11 @@
 			"",
 			"### Description",
 			"",
-			""
+			"Clerics of Hanspur, who are indoctrinated in the deeper mysteries of his faith, know that their god was not merely murdered by a traveling companion. The companion was a priest of the daemonic harbinger {faith/Corosbel}, and the murder was a sacrificial ritual intended to consign Hanspur's soul to the Horseman of Death, {faith/Charon}, with whom Corosbel wished to gain favor. However, the ritual sacrifice did not proceed as planned. Though the details of what went awry are unclear, Hanspur's clerics believe {faith/Gozreh} subtly interceded, preventing Corosbel from claiming the entirety of Hanspur's soul for Abaddon. The remainder was bound within Hanspur's dire rat companion, Ashkaelae. Hanspur returned from death a week after the attempted sacrifice, rising from the Sellen River as a demigod with his latent mortal soul fractured. This transformation left him callous and cold. It is unclear whether Gozreh intended for Hanspur to emerge from the waters as a divine being or merely as a divine servitor; the inscrutable nature deity's lukewarm support of Hanspur suggests either that she did not intend for the Water Rat to ascend or that she is not entirely pleased with Hanspur's subsequent actions and attitudes.",
+			"",
+			"Hanspur's mortal identity is a matter of contention among his priests, with different sects of his faithful claiming he was born to their people. Most notably, among Hanspur's Kellid followers, he is depicted as a legendary and ancient Kellid king whose death and attempted sacrifice signaled the fall of the Kellid people and the coming encroachment of southerners. Such followers of Hanspur believe that he ruled the region of the world now known as the River Kingdoms, and that by conquering the rivers in his name, they can reclaim their lost lands for themselves.",
+			"",
+			"Whatever his true origin, Hanspur and his faithful haunt the Sellen River as vengeful guardians, hunting down followers of Corosbel and protecting river travelers from hazards of the waterways."
 		]
 	},
 	"hastrikhal": {
@@ -1558,7 +1578,10 @@
 	},
 	"hembad": {
 		"name": "Hembad",
-		"sources": [ "Inner Sea Gods" ],
+		"sources": [
+			"Inner Sea Gods",
+			"Chronicle of the Righteous"
+		],
 		"description": [
 			"::fh[Hembad]{sub=\"Wise Grandfather\"}",
 			"",
@@ -1589,7 +1612,8 @@
 			"",
 			"### Description",
 			"",
-			""
+			"{SOURCE Chronicle of the Righteous/54}  ",
+			"Hembad is the wise grandfather who sees connections between individuals and families. His followers teach that the right match can create a whole greater than the sum of its parts."
 		]
 	},
 	"horus": {
@@ -3594,7 +3618,10 @@
 	},
 	"kelinahat": {
 		"name": "Kelinahat",
-		"sources": [ "Inner Sea Gods" ],
+		"sources": [
+			"Inner Sea Gods",
+			"Chronicle of the Righteous"
+		],
 		"description": [
 			"::fh[Kelinahat]{sub=\"She of Ebon Wings\"}",
 			"",
@@ -3625,7 +3652,8 @@
 			"",
 			"### Description",
 			"",
-			""
+			"{SOURCE Chronicle of the Righteous/54}  ",
+			"She of Ebon Wings is the empyreal lord of spies and stealth. Her agents use guile and shadow magic to infiltrate bastions of evil and bring back valuable intelligence."
 		]
 	},
 	"kelizandri": {
@@ -3705,7 +3733,10 @@
 	},
 	"keltheald": {
 		"name": "Keltheald",
-		"sources": [ "Inner Sea Gods" ],
+		"sources": [
+			"Inner Sea Gods",
+			"Chronicle of the Righteous"
+		],
 		"description": [
 			"::fh[Keltheald]{sub=\"The Sunset Spires\"}",
 			"",
@@ -3736,7 +3767,8 @@
 			"",
 			"### Description",
 			"",
-			""
+			"{SOURCE Chronicle of the Righteous/54}  ",
+			"Followers of Keltheald seek out breathtaking vistas and natural wonders, believing that these sights reflect the glory of the celestial planes. "
 		]
 	},
 	"kerkamoth": {
@@ -3952,7 +3984,10 @@
 	},
 	"kols": {
 		"name": "Kols",
-		"sources": [ "Inner Sea Gods" ],
+		"sources": [
+			"Inner Sea Gods",
+			"Dwarves of Golarion"
+		],
 		"description": [
 			"::fh[Kols]{sub=\"Oath-Keeper\"}",
 			"",
@@ -3991,7 +4026,11 @@
 			"",
 			"### Description",
 			"",
-			""
+			"{SOURCE Inner Sea Gods/182}  ",
+			"{faith/Torag/'s} son Kols helps dwarves fulfill all their duties and obligations. Dwarven contracts traditionally bear a stamped seal of his holy symbol.",
+			"",
+			"{SOURCE Dwarves of Golarion/29}  ",
+			"This tight-lipped god splits his time between following his father Torag and keeping his brother {faith/Grundinnar} out of danger. He punishes those who shirk their obligations or break oaths."
 		]
 	},
 	"korada": {
@@ -4208,7 +4247,10 @@
 	},
 	"kroina": {
 		"name": "Kroina",
-		"sources": [ "Inner Sea Gods" ],
+		"sources": [
+			"Inner Sea Gods",
+			"Chronicle of the Righteous"
+		],
 		"description": [
 			"::fh[Kroina]{sub=\"Lady All-Sight\"}",
 			"",
@@ -4239,7 +4281,8 @@
 			"",
 			"### Description",
 			"",
-			""
+			"{SOURCE Chronicle of the Righteous/54}  ",
+			"Lady All-Sight can read a person's history with but a glance into his eyes, and teaches that instincts are the precursors to truth."
 		]
 	},
 	"kunkarna": {
@@ -4322,14 +4365,14 @@
 			">",
 			">1. **Holy Strength (Sp)** {spell/enlarge person} 3/day, {spell/bull's strength} 2/day, or {spell/rage} 1/day",
 			">2. **Coordinated Escape (Su)** You and your allies know it is better to flee and live to continue the fight another day than to die honorable deaths that accomplish nothing. Three times per day as a standard action, you can shout an inspirational command that affects you and any allies within 60 feet for a number of rounds equal to your Hit Dice. During this time, affected characters can use the withdraw action to move up to triple their base speed (instead of up to double their base speed).",
-			">3. **Break the Anvil (Su)** You don't believe it is enough to shame your enemies by relieving them of their weapons - if possible, you must shatter those weapons so they can never again stand against you. Once per day, you can perform a disarm or sunder combat maneuver with a +4 competence bonus against an adjacent creature and a weapon it holds. If you succeed, the creature's weapon is simultaneously damaged and disarmed, as though you had succeeded at both combat maneuvers simultaneously. If you exceed the target's Combat Maneuver Defense by 10 or more, the target drops the items it is carrying in both hands, but you only sunder the weapon you initially targeted. If you don't have either the {feat/Improved Disarm} or {feat/Improved Sunder} feat or a similar ability, this attempt provokes attacks of opportunity as normal; however, if you have one of the feats or a similar ability, this attempt does not provoke attacks of opportunity.",
+			">3. **Break the Anvil (Su)** You don't believe it is enough to shame your enemies by relieving them of their weapons - if possible, you must shatter those weapons so they can never again stand against you. Once per day, you can perform a {rule/disarm} or {rule/sunder} combat maneuver with a +4 competence bonus against an adjacent creature and a weapon it holds. If you succeed, the creature's weapon is simultaneously damaged and disarmed, as though you had succeeded at both combat maneuvers simultaneously. If you exceed the target's Combat Maneuver Defense by 10 or more, the target drops the items it is carrying in both hands, but you only sunder the weapon you initially targeted. If you don't have either the {feat/Improved Disarm} or {feat/Improved Sunder} feat or a similar ability, this attempt provokes attacks of opportunity as normal; however, if you have one of the feats or a similar ability, this attempt does not provoke attacks of opportunity.",
 			">",
 			">### Boons: Sentinel",
 			">",
 			">{SOURCE Inner Sea Faiths/65}",
 			">",
 			">1. **Master of Games (Sp)** {spell/true strike} 3/day, {spell/bear's endurance} 2/day, or {spell/heroism} 1/day",
-			">2. **Reveal Frauds (Sp)** Like Kurgess, your keen sense of honor will not allow you to brook cheats among your ranks, and the insight bestowed by your devotion to your ideals has taught you to spot a fraud based on a hunch. You can use discern lies, as per the spell, for a number of rounds per day equal to your Hit Dice. These rounds need not be consecutive. Activating this ability is an immediate action.",
+			">2. **Reveal Frauds (Sp)** Like Kurgess, your keen sense of honor will not allow you to brook cheats among your ranks, and the insight bestowed by your devotion to your ideals has taught you to spot a fraud based on a hunch. You can use {spell/discern lies}, as per the spell, for a number of rounds per day equal to your Hit Dice. These rounds need not be consecutive. Activating this ability is an immediate action.",
 			">3. **Unchained Savior (Su)** You are nothing without your teammates, and are willing to sacrifice your own safety to keep them alive. Once per day as an immediate action, if an ally within 60 feet of you would normally take enough damage to fall unconscious or die, you can move to an adjacent space and intercept the killing blow, taking the damage in your ally's place. If the attack would have inflicted any effects other than hit point damage, those effects are negated. If the damage would bring you to negative hit points, you are brought to 0 hit points instead, and the remaining damage is negated. Any attacks of opportunity you provoke by moving in this way are resolved after you take the damage from the intercepted blow; you take any damage from those attacks as normal.",
 			"",
 			"## Paladin Code",
@@ -4370,7 +4413,11 @@
 			"",
 			"### Description",
 			"",
+			"About 300 years ago, Kurgess was merely a strapping farm boy from Taldor, and his mortal life is well-documented. Born to unknown parents, Kurgess was abandoned as an infant upon the doorstep of a Taldan couple who took him in. His extraordinary strength manifested before he even reached puberty - by the age of eight, he could pull a sleigh loaded with his brothers and sisters back and forth across a field all afternoon. One day, Kurgess spotted a traveling merchant on the road who had gotten his carriage stuck in a ditch. The selfless youth shook hands with the stranger before disconnecting the carriage from its train and heaving the entire vehicle out of the ditch unaided. Impressed by the boy's wondrous brawn, the merchant extended an offer: Kurgess could join him in his travels, and together they would roam Taldor, with Kurgess competing in contests of strength and speed. By the time Kurgess turned 20, he was packing stadiums with peasants as well as aristocrats eager to see the so-called Strong Man best time-honored champions at their own games. Unfortunately, Kurgess's vast talent and good-natured sportsmanship earned him the jealousy and bitterness of many of his more unscrupulous rivals.",
 			"",
+			"Kurgess's final act as a mortal took place at the third annual Raptor Run in Taldor's capital of Oppara. Before the competition, Kurgess's enemies laid down a vicious trap for the Strong Man and any competitors unfortunate enough to be riding alongside him. Kurgess caught wind of the scheme and sacrificed himself, crashing his chariot onto the trap and saving the other athletes. When the clerics pronounced the gladiator dead, the entire city mourned for the champion, and Kurgess became a martyr.",
+			"",
+			"As legends of his sporting victories and his noble death spread across the Inner Sea region - and even other planes - athletes began looking to Kurgess as a role model, and competitions were often dedicated to him as the embodiment of honor and athleticism. Shortly thereafter, {faith/Cayden Cailean} and {faith/Desna} raised Kurgess to godhood, crowning him with deific powers. Why they did this remains up for debate, but more than a few scholars whisper that Kurgess might actually be the two deities' half-mortal son. He stands as patron of and inspiration for all who engage in physical challenges.",
 			"",
 			"[^A]: Requires the {trait/Acolyte of Apocrypha} trait."
 		]

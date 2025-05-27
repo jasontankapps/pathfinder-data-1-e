@@ -1550,7 +1550,10 @@
 	},
 	"reymenda": {
 		"name": "Reymenda",
-		"sources": [ "Inner Sea Gods" ],
+		"sources": [
+			"Inner Sea Gods",
+			"Chronicle of the Righteous"
+		],
 		"description": [
 			"::fh[Reymenda]{sub=\"Lady of the Martyred Womb\"}",
 			"",
@@ -1581,7 +1584,8 @@
 			"",
 			"### Description",
 			"",
-			""
+			"{SOURCE Chronicle of the Righteous/54}  ",
+			"The Lady of the Martyred Womb is the empyreal lord of childlessness. Her mortal followers take vows to remain childless, believing that the sacrifice of their childbearing ability adds to their righteousness and proves their devotion. Reymenda rewards her followers with divine powers and often provides agents to embark on particularly dangerous missions, knowing they will leave no dependents behind."
 		]
 	},
 	"rhan_tegoth": {
@@ -3715,14 +3719,14 @@
 			">",
 			">1. **Masks and Veils (Sp)** {spell/blurred movement} 3/day, {spell/invisibility} 2/day, or {spell/major image} 1/day",
 			">2. **Illusion Expert (Su)** Your enemies have a harder time fooling you with illusions. You gain a +4 sacred or profane bonus (of the same type as that provided by your obedience) on Will saves to disbelieve illusions. If you successfully disbelieve an illusion and communicate this fact to others, such viewers gain a +6 bonus (of the same type as above) on their saving throws to disbelieve the illusion.",
-			">3. **Protection of the Veiled Goddess (Sp)** You are skilled at misdirecting your opponents while preparing to do them harm. Once per day as a standard action, you can cast mislead. The spell's greater invisibility effect lasts a number of rounds equal to your Hit Dice.",
+			">3. **Protection of the Veiled Goddess (Sp)** You are skilled at misdirecting your opponents while preparing to do them harm. Once per day as a standard action, you can cast {spell/mislead}. The spell's *greater invisibility* effect lasts a number of rounds equal to your Hit Dice.",
 			">",
 			">### Boons: Exalted",
 			">",
 			">{SOURCE Inner Sea Faiths/83}",
 			">",
 			">1. **Nothing is What It Seems (Sp)** {spell/color spray} 3/day, {spell/misdirection} 2/day, or {spell/hide campsite} 1/day",
-			">2. **Shared Mask (Sp)** As a standard action, you can alter your own appearance and that of up to four willing creatures within a 30-foot radius as per disguise self. All the creatures disguised appear to be of a single race or creature type; creatures in the group that could not be disguised as that creature type (such as an animal companion in a group of humanoids) cannot be affected by this ability. This effect lasts 10 minutes per Hit Die you possess.",
+			">2. **Shared Mask (Sp)** As a standard action, you can alter your own appearance and that of up to four willing creatures within a 30-foot radius as per {spell/disguise self}. All the creatures disguised appear to be of a single race or creature type; creatures in the group that could not be disguised as that creature type (such as an animal companion in a group of humanoids) cannot be affected by this ability. This effect lasts 10 minutes per Hit Die you possess.",
 			">3. **The Protecting Veil (Su)** You can shield an area, and those within it, from both mundane and magical observation. As a full-round action, you can meditate to veil an area with an illusion extending in a 30-foot radius around you. During this round, you can't take any other actions, including free or swift actions. The illusion appears as a general concept you envision and can't be changed once in place. The illusion affects only visual observation and scrying; it doesn't create or disguise smells, sounds, or tactile properties. You may maintain the illusion for up to 1 hour, but if you leave the square you were occupying when you initiated it, the illusion is dispelled. The DC to disbelieve the illusion is equal to 10 + your Hit Dice + your Charisma modifier.",
 			">",
 			">### Boons: Sentinel",
@@ -3730,7 +3734,7 @@
 			">{SOURCE Inner Sea Faiths/83}",
 			">",
 			">1. **Hard to Pin Down (Sp)** {spell/disguise weapon} 3/day, {spell/blur} 2/day, or {spell/displacement} 1/day",
-			">2. **Killer Illusion (Sp)** You can channel illusions through your weapon to terrify and even slay your enemies. Once per day, as a free action when you hit with a melee attack, you can cause images of a creature the target most fears to erupt from your weapon right before its eyes. Resolve this effect before rolling damage for the attack; this functions as {spell/phantasmal killer}, and the target can attempt a Will saving throw (DC = 14 + your Charisma modifier) to recognize the image as unreal. On a failed save, the phantasm touches the target, which must then succeed at a Fortitude saving throw (against the same DC) or die from fear. Even if the target succeeds at its Fortitude saving throw, it takes 3d6 points of damage as well as the damage from the successful melee attack. Unlike phantasmal killer, this effect cannot be turned upon you if the subject possesses telepathy or is wearing a helm of telepathy.",
+			">2. **Killer Illusion (Sp)** You can channel illusions through your weapon to terrify and even slay your enemies. Once per day, as a free action when you hit with a melee attack, you can cause images of a creature the target most fears to erupt from your weapon right before its eyes. Resolve this effect before rolling damage for the attack; this functions as {spell/phantasmal killer}, and the target can attempt a Will saving throw (DC = 14 + your Charisma modifier) to recognize the image as unreal. On a failed save, the phantasm touches the target, which must then succeed at a Fortitude saving throw (against the same DC) or die from fear. Even if the target succeeds at its Fortitude saving throw, it takes 3d6 points of damage as well as the damage from the successful melee attack. Unlike *phantasmal killer,* this effect cannot be turned upon you if the subject possesses telepathy or is wearing a {magic-wondrous/helm of telepathy}.",
 			">3. **Illusive Revenge (Sp)** You have learned how to use illusions to torment your enemies even long after battle is over. Once per day, you can cast {spell/phantasmal revenge} as a spell-like ability upon a recently slain creature, which rises as a ghastly image to seek out its killer. This illusive ghost is always veiled, even if it never was so in life. After the target attempts its Will saving throw (DC = 17 + your Charisma modifier), regardless of whether the attempt was successful, the ghost tears off its veil to reveal an image of the killer's own face.",
 			"",
 			"## Follower Options",
@@ -3765,7 +3769,11 @@
 			"",
 			"### Description",
 			"",
+			"No living being - mortal or immortal - remembers Sivanah's birth, creation, or ascension to godhood, or can even identify when she first appeared, yet all mortal records of her are relatively recent. None predate Earthfall, suggesting that she was unknown to the Azlanti, though a number of outsiders, when questioned, claim they remember her presence at events before the disaster.",
 			"",
+			"Sivanah is most often recognized by mortals as a goddess of magic: specifically illusion magic. She appears as a veiled figure who takes on a different form as each veil is removed. Under the first shimmering veil appears a human face; yet, when the veil is removed, a gauzy drapery appears to cover an elven woman. Under the third veil is a halfling, and under the fourth, a gnome. For many centuries, the fifth was believed to conceal a {monster/cyclops}, but in recent centuries, as the power of the cyclopes waned, it has become popular to claim the fifth veil covers an {monster/aranea}. The sixth veil drapes the form of a {family/naga}. No mortal knows what lies behind the seventh.",
+			"",
+			"Visitors to the Maelstrom who have attempted to locate Sivanah's ever-moving realm speculate the goddess is hiding from a number of protean choruses, either because she possesses something that belongs to them or because her true nature provokes their enmity. Others believe she was once a {monster/keketar}, a risen {family/demon}, or a fallen {family/azata}. In recent years, because of the high number of {race/fetchling} worshipers in Sivanah's church, theologians have begun to claim the Seventh Veil originally hailed from the Shadow Plane. The only truth people can agree on is that she appears to be female, though even that may be an illusion.",
 			"",
 			"[^A]: Requires the {trait/Acolyte of Apocrypha} trait."
 		]
@@ -3802,7 +3810,10 @@
 	},
 	"skrymir": {
 		"name": "Skrymir",
-		"sources": [ "Inner Sea Gods" ],
+		"sources": [
+			"Inner Sea Gods",
+			"Giants Revisited"
+		],
 		"description": [
 			"::fh[Skrymir]{sub=\"The Seeker of Sunsets\"}",
 			"",
@@ -3823,7 +3834,8 @@
 			"",
 			"### Description",
 			"",
-			""
+			"{SOURCE Giants Revisited/54}  ",
+			"Matronly {faith/Bergelmir} is the venerable and staid goddess of wisdom, history, family, and elders, while sly Skrymir is a witty wanderer, god of riddles, trickery, wanderlust, cleverness, and magic; the two are usually portrayed as siblings, cousins, or mother and son. Together, they represent storm giants' urge for discovery and wandering, yet also their innate roots to their families and the hearthstone."
 		]
 	},
 	"slandrais": {
@@ -3870,7 +3882,10 @@
 	},
 	"smiad": {
 		"name": "Smiad",
-		"sources": [ "Inner Sea Gods" ],
+		"sources": [
+			"Inner Sea Gods",
+			"Chronicle of the Righteous"
+		],
 		"description": [
 			"::fh[Smiad]{sub=\"The Pitiless Dragonslayer\"}",
 			"",
@@ -3901,7 +3916,8 @@
 			"",
 			"### Description",
 			"",
-			""
+			"{SOURCE Chronicle of the Righteous/54}  ",
+			"The Pitiless Dragonslayer and his followers declare war on evil dragonkind. They teach others to hunt and kill evil dragons while aiding benevolent ones. "
 		]
 	},
 	"sobek": {
@@ -4283,7 +4299,10 @@
 	},
 	"svarozic": {
 		"name": "Svarozic",
-		"sources": [ "Inner Sea Gods" ],
+		"sources": [
+			"Inner Sea Gods",
+			"Chronicle of the Righteous"
+		],
 		"description": [
 			"::fh[Svarozic]{sub=\"The Face of Flame\"}",
 			"",
@@ -4314,7 +4333,8 @@
 			"",
 			"### Description",
 			"",
-			""
+			"{SOURCE Chronicle of the Righteous/54}  ",
+			"This wise lord endlessly seeks to improve the ways and works of civilization, whether through refining outdated practices or inspiring new generations to ever-greater deeds."
 		]
 	},
 	"szuriel": {

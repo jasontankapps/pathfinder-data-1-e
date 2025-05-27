@@ -1,7 +1,10 @@
 {
 	"camazotz": {
 		"name": "Camazotz",
-		"sources": [ "Inner Sea Gods" ],
+		"sources": [
+			"Inner Sea Gods",
+			"Pathfinder #18: Descent Into Midnight"
+		],
 		"description": [
 			"::fh[Camazotz]{sub=\"Master of Black Wings\"}",
 			"",
@@ -22,7 +25,13 @@
 			"",
 			"### Description",
 			"",
-			""
+			"{SOURCE Pathfinder #18: Descent Into Midnight/67}  ",
+			"Master of Black Wings and Lord of Stolen Blood, the bat god Camazotz flies among the winged predators of the underworld, reminding the living why they fear the night and leading his brood to feast upon the weak. Appearing as a gigantic and terrifying man-like bat, Camazotz garbs himself with the sacrifices of his worshipers and the blood of his victims. He delights in tricking foolish mortals - whether they be foes or dutiful servants - from the safety of their homes and into the maws of predators. He cares little for his followers but enjoys their sacrifices, protecting them only so they might continue to offer him skulls, blood, bodies, sweet drink, and other offerings. Those who turn from his faith or otherwise wrong the bloodthirsty god face his ire and might find themselves haunted by bats for the rest of their lives.",
+			"",
+			"Following their deity's example, the cult of Camazotz seeks to spread fear and undermine the comforts of civilization. They revel in the night and revere nocturnal predators, especially bats in all of their gigantic varieties, though jaguars, vultures, spiders, and wolves are also venerated. Ceremonies to the bat god always involve blood sacrifices - preferably drawn by the fangs of living beasts - that are offered or directly fed to fearful statues or icons of Camazotz.",
+			"",
+			"{SOURCE Planar Adventures/203}  ",
+			"Although the god of bats and blood is not widely worshiped in the Inner Sea region, Camazotz is noteworthy in that he maintains not one but three different divine realms - one known as Argahoz in {rule/the Abyss}, the House of the Bat in the demiplane of Xibalba, and a region in the Darklands beneath Arcadia on Golarion called the Land of the Eleven Deaths."
 		]
 	},
 	"cayden_cailean": {
@@ -79,7 +88,7 @@
 			">{SOURCE Inner Sea Gods/36}",
 			">",
 			">1. **Liberation (Sp)** {spell/liberating command} 3/day, {spell/knock} 2/day, or {spell/dispel magic} 1/day",
-			">2. **Drinking Buddy (Su)** Once per day as a standard action, you can create an illusory double of yourself that appears in a square adjacent to you. Your double acts on your initiative count, and can move up to your speed each round. It always attempts to flank with you against a single target you designate. If it must use Acrobatics to avoid an attack of opportunity during this movement, your double uses your bonus. Though your double can't attack, it is treated as threatening adjacent squares for the purposes of flanking with you. Anyone attacking your double or otherwise physically interacting with it can attempt a Will save (DC 25) to recognize the double as an illusion. The double has your AC, and if any hit would deal damage to it, the double dissipates. An opponent who recognizes your double as an illusion can't be flanked by it. The double lasts 1 round for every Hit Die you possess or until it is hit with an attack, whichever comes first.",
+			">2. **Drinking Buddy (Su)** Once per day as a standard action, you can create an illusory double of yourself that appears in a square adjacent to you. Your double acts on your initiative count, and can move up to your speed each round. It always attempts to {rule/flank>ing} with you against a single target you designate. If it must use Acrobatics to avoid an attack of opportunity during this movement, your double uses your bonus. Though your double can't attack, it is treated as threatening adjacent squares for the purposes of flanking with you. Anyone attacking your double or otherwise physically interacting with it can attempt a Will save (DC 25) to recognize the double as an illusion. The double has your AC, and if any hit would deal damage to it, the double dissipates. An opponent who recognizes your double as an illusion can't be flanked by it. The double lasts 1 round for every Hit Die you possess or until it is hit with an attack, whichever comes first.",
 			">3. **Intoxicating Strike (Su)** Once per day, you can declare one of your attacks an intoxicating strike. You must declare your use of this ability before you attempt the attack roll. If your attack hits and you deal damage, your target immediately becomes intoxicated for 1 round for every Hit Die you possess. An intoxicated creature takes a -4 penalty to AC, on attack rolls, and on skill checks, and its movement is reduced by 10 feet.",
 			">",
 			">### Boons: Exalted",
@@ -87,15 +96,15 @@
 			">{SOURCE Inner Sea Gods/36}",
 			">",
 			">1. **Libations (Sp)** {spell/bless water} 3/day, {spell/delay poison} 2/day, or {spell/create food and water} 1/day",
-			">2. **Freedom's Ally (Sp)** Once per day as a standard action, you can summon a pair of bralani azatas to aid you. You gain telepathy with the bralanis to a range of 100 feet. The bralanis follow your commands perfectly for 1 minute for every Hit Die you possess before vanishing back to their home in Elysium. The bralanis don't follow commands that would cause them to commit evil acts or restrict freedom solely for the sake of law. Such commands not only earn refusal and scorn from the bralanis, but could cause the bralanis to attack you if the command is particularly egregious.",
-			">3. **Wine to Water (Su)** As a full-round action, you transform a single serving of an alcoholic beverage into either potent holy water or a potion of cure serious wounds. A potion created in this way heals 3d8 points of damage plus 1 point of damage for every Hit Die you possess (to a maximum of 3d8+15). The holy water you create is more potent than usual, dealing 4d4 points of damage to an undead creature or evil outsider, and 2d4 points of splash damage to each such creature within 5 feet of the point where the flask hits. Holy water and potions created in this way last for 1 hour. You can use this ability a number of times per day equal to your Charisma bonus (minimum 1).",
+			">2. **Freedom's Ally (Sp)** Once per day as a standard action, you can summon a pair of {monster/bralani} azatas to aid you. You gain telepathy with the bralanis to a range of 100 feet. The bralanis follow your commands perfectly for 1 minute for every Hit Die you possess before vanishing back to their home in Elysium. The bralanis don't follow commands that would cause them to commit evil acts or restrict freedom solely for the sake of law. Such commands not only earn refusal and scorn from the bralanis, but could cause the bralanis to attack you if the command is particularly egregious.",
+			">3. **Wine to Water (Su)** As a full-round action, you transform a single serving of an alcoholic beverage into either potent {eq-weapon/holy water} or a potion of {spell/cure serious wounds}. A potion created in this way heals 3d8 points of damage plus 1 point of damage for every Hit Die you possess (to a maximum of 3d8+15). The holy water you create is more potent than usual, dealing 4d4 points of damage to an undead creature or evil outsider, and 2d4 points of splash damage to each such creature within 5 feet of the point where the flask hits. Holy water and potions created in this way last for 1 hour. You can use this ability a number of times per day equal to your Charisma bonus (minimum 1).",
 			">",
 			">### Boons: Sentinel",
 			">",
 			">{SOURCE Inner Sea Gods/36}",
 			">",
 			">1. **Devastating Duelist (Sp)** {spell/bless weapon} 3/day, {spell/brow gasher} 2/day, or {spell/greater magic weapon} 1/day",
-			">2. **Light Weapon Master (Ex)** Whenever you fight with a dagger, kama, kukri, rapier, sickle, short sword, or starknife, you also gain a +2 deflection bonus to AC, provided you have the weapon training (light blades) class feature. If you don't have that class feature, you instead gain a +1 sacred bonus on attack rolls when using weapons from the light blades weapon group.",
+			">2. **Light Weapon Master (Ex)** Whenever you fight with a {eq-weapon/dagger}, {eq-weapon/kama}, {eq-weapon/kukri}, {eq-weapon/rapier}, {eq-weapon/sickle}, {eq-weapon/short sword}, or {eq-weapon/starknife}, you also gain a +2 deflection bonus to AC, provided you have the weapon training (light blades) class feature. If you don't have that class feature, you instead gain a +1 sacred bonus on attack rolls when using weapons from the light blades {ability/weapon group>s}.",
 			">3. **Critical Luck (Ex)** Keep a record of every time you roll a natural 1 on an attack roll, to a maximum number equal to your Charisma bonus. Anytime you roll a critical threat on an attack roll, you can trade in one of your tallied natural 1s to automatically confirm the critical hit. This tally resets to 0 every day, and any tallied natural 1s from the day before are lost.",
 			"",
 			"## {feat/Divine Fighting Technique}",
@@ -218,14 +227,22 @@
 			"",
 			"### Description",
 			"",
+			"{SOURCE Inner Sea Gods/37}  ",
+			"Cayden Cailean is one of the Ascended, a mortal man who became a god after passing the grueling tests of the magical *Starstone.* Three days after entering the Cathedral of the Starstone on a drunken dare, the good-natured sellsword emerged a living god, baffled and amused. His behavior changed little after his ascension: he continued to fight for just causes, sample various drinks, and avoid things he didn't want to do. Thus, Cayden Cailean became the patron of brave souls, alcoholic spirits, and the freedom to choose your own path in life. He expects his followers to be brave in the face of danger, though there is no shame in necessary retreat - he's the god of bravery, not reckless stupidity. Although many assume his faithful will accept any dare, the god's focus on freedom keeps his heroes from being manipulated so easily, and even the dullest hero of Cayden Cailean has the sense not to accept an impossible or suicidal challenge - though it is not uncommon to accept a risky one after a swig or two of \"liquid courage.\"",
 			"",
+			"When Cayden Cailean appears to his followers, he usually looks much as he did in life: an average-looking bronze-skinned human with a tankard in one hand, often wearing chainmail. In grander art, he is sometimes shown fending off a swarm of devils with his well-worn rapier, all while holding his tankard high. Some artists portray the Drunken Hero with broken shackles hanging loosely from his wrists or fallen at his feet, representing breaking free of mortal concerns -  though in areas where his faith has brought freedom from oppression or slavery, the shackles have a more literal interpretation.",
+			"",
+			"Cayden Cailean is the only major god who uses a surname. In his early years as a god, he insisted that his last name be included in all forms of address, an unusual habit for someone normally so relaxed about formalities. The prevalent opinions on the matter are that he wished to distance himself from another mortal named Cayden (perhaps someone of evil intent) or to honor his parents, said to have died when he was young. This second theory is corroborated by his interest in sponsoring orphanages, perhaps as a thank-you to the long-gone orphanage that raised him. He ignores questions about the matter, insisting that it was decided long ago and there are more important things to talk about.",
 			"",
 			"[^K]: Can only be used to open welds, shackles, or chains used to imprison or hobble someone."
 		]
 	},
 	"cernunnos": {
 		"name": "Cernunnos",
-		"sources": [ "Inner Sea Gods" ],
+		"sources": [
+			"Inner Sea Gods",
+			"Chronicle of the Righteous"
+		],
 		"description": [
 			"::fh[Cernunnos]{sub=\"The Stag Lord\"}",
 			"",
@@ -257,7 +274,8 @@
 			"",
 			"### Description",
 			"",
-			""
+			"{SOURCE Chronicle of the Righteous/54}  ",
+			"An unpredictable and elusive lord of the wild, Cernunnos travels the forested paths of the multiverse, setting natural balances to right and indulging his fiery passions."
 		]
 	},
 	"ceyannan": {
@@ -401,7 +419,7 @@
 			">{SOURCE Faiths of Golarion/5}",
 			">",
 			">1. **Lucky Berries (Sp)** {spell/goodberry} 3/day, {spell/tree shape/ (Small berry bush only)} 2/day, or {spell/speak with plants} 1/day",
-			">2. **Confident Gambler (Su)** While many creatures rely on their luck, your faith allows you to control your luck to a small degree. Except when performing Chaldira's obedience, you can determine as a free action how an ordinary coin you flip or ordinary die you toss will land. If you use this ability for your own personal gain to the detriment of someone who is innocent or less fortunate than you are, you are likely to incur Chaldira's disfavor and lose the use of this boon until you atone, as set forth in the {spell/atonement} spell. When used to recover the use of this boon, an {spell/atonement} spell has an additional monetary cost equal to the amount you gained due to the misuse of this ability. If you instead return the amount you gained to the person you acquired it from (or to the person's family, community, friends, or other appropriate connection) and provide a genuine apology, then the {spell/atonement} spell has no additional cost.",
+			">2. **Confident Gambler (Su)** While many creatures rely on their luck, your faith allows you to control your luck to a small degree. Except when performing Chaldira's obedience, you can determine as a free action how an ordinary coin you flip or ordinary die you toss will land. If you use this ability for your own personal gain to the detriment of someone who is innocent or less fortunate than you are, you are likely to incur Chaldira's disfavor and lose the use of this boon until you atone, as set forth in the {spell/atonement} spell. When used to recover the use of this boon, an *atonement* spell has an additional monetary cost equal to the amount you gained due to the misuse of this ability. If you instead return the amount you gained to the person you acquired it from (or to the person's family, community, friends, or other appropriate connection) and provide a genuine apology, then the *atonement* spell has no additional cost.",
 			">3. **Auspicious Accuracy (Su)** Your ability to control your luck expands to desperate situations of life and death. A number of times per day equal to your Charisma modifier (minimum once per day), when you would normally roll a miss chance percentage, you can instead choose whether or not to hit. This ability manifests as a lucky turn of the blade or an awkward lunge that appears to be an overcorrection but actually places your attack right where it needs to be. Observers are likely to consider you exceptionally fortunate in your attacks, rather than suspect that you are supernaturally guided to bypass effects that would cause you to miss.",
 			"",
 			"## Follower Options",
@@ -417,7 +435,12 @@
 			"",
 			"### Description",
 			"",
-			""
+			"{SOURCE Faiths of Golarion/6}  ",
+			"The demigoddess of luck and lighthearted mischief, Chaldira Zuzaristan is one of two principal {race/halfling} divinities. She is also widely regarded as a companion or servitor of the goddess {faith/Desna}. Many theologians consider Chaldira an impulsive firebrand who leaps before looking and gets into trouble she can't escape; the wise and calm Desna must then extricate her hot-headed friend time and again. Halflings and other followers of Chaldira believe this view misrepresents her - she knows the dangers of her actions, but she willingly accepts them rather than compromise against evil, knowing that her luck and her friends are among her greatest assets and won't fail her when she truly needs them.",
+			"",
+			"Chaldira wanders the planes, looking for opportunities to fight oppression or simply accompany her friends on their travels. She takes a very expansive view of friendship, in that anyone who is not evil is a friend and will be actively treated as such. Divinities such as Desna accept this attitude easily, as they consider Chaldira to be a pleasant and stalwart companion, but more staid divinities such as {faith/Irori} and {faith/Pharasma} don't look forward to the times Chaldira decides to \"help\" them.",
+			"",
+			"Chaldira's depictions vary, with her taking on the same appearance as the local halfling communities that worship her in different regions, but she almost always has dense curly hair, freckles, and a patchwork red-and-green coat that is held together with buttons."
 		]
 	},
 	"chaldira": { "copyof": "chaldira_zuzaristan" },
@@ -1397,7 +1420,10 @@
 	},
 	"lorris": {
 		"name": "Lorris",
-		"sources": [ "Inner Sea Gods" ],
+		"sources": [
+			"Inner Sea Gods",
+			"Chronicle of the Righteous"
+		],
 		"description": [
 			"::fh[Lorris]{sub=\"The Savior Hound\"}",
 			"",
@@ -1428,7 +1454,8 @@
 			"",
 			"### Description",
 			"",
-			""
+			"{SOURCE Chronicle of the Righteous/54}  ",
+			"Lorris appears as a man with a white dog's head. His agents watch over beggars, the orphaned, and the poor, and encourage those with comfort to give to those less fortunate. "
 		]
 	},
 	"lorthact": {
@@ -1586,7 +1613,10 @@
 	},
 	"lythertida": {
 		"name": "Lythertida",
-		"sources": [ "Inner Sea Gods" ],
+		"sources": [
+			"Inner Sea Gods",
+			"Chronicle of the Righteous"
+		],
 		"description": [
 			"::fh[Lythertida]{sub=\"The Voiceless Tragedy\"}",
 			"",
@@ -1617,7 +1647,8 @@
 			"",
 			"### Description",
 			"",
-			""
+			"{SOURCE Chronicle of the Righteous/54}  ",
+			"The Voiceless Tragedy and her celestial agents watch over and console the frightened spirits of the prematurely deceased."
 		]
 	},
 	"taraksun": {
@@ -1685,7 +1716,7 @@
 			">",
 			">1. **Serpent's Kiss (Sp)** {spell/polypurpose panacea} 3/day, {spell/touch injection} 2/day, or {spell/sands of time} 1/day",
 			">2. **Breath of Life (Sp)** You can cast {spell/restoration} once per day.",
-			">3. **Wonders of Age (Su)** You no longer take ability score penalties from aging and cannot be magically aged. Any penalties you may have already incurred remain in place, however. Bonuses still accrue, and you still die of old age when your time is up.",
+			">3. **Wonders of Age (Su)** You no longer take ability score penalties from {rule/ag/ing>e} and cannot be magically aged. Any penalties you may have already incurred remain in place, however. Bonuses still accrue, and you still die of old age when your time is up.",
 			"",
 			"## Follower Options",
 			"",
@@ -1696,7 +1727,9 @@
 			"",
 			"### Description",
 			"",
-			""
+			"When {faith/Pharasma} saw that mortals loved life too dearly to part with it when their time came, she reached down, lifted up an asp, and reshaped it into the usher Teshallas. The Primordial Poison's venom - age - would flow through the veins of all mortals and slowly rob them of memory, passion, and vitality until they eventually welcomed the embrace of death. Many curse the usher's name and regard them as an example of Pharasma's indifference and cruelty, but others recognize that poison is in the dose, and that those fluids that kill can also bring life. Teshallas's embrace allows mortals to grow and mature, to discover experiences and wisdom that eluded them earlier in life. While Dammar serves as the usher of doctors and healers, Teshallas is patron of herbalists and others who refine nature's poisons into potent medicines. They are also the usher most associated with scaly folk, and they manage the souls of kobolds, lizardfolk, serpentfolk, and other cold-blooded sapients.",
+			"",
+			"The Primordial Poison manifests as a serpent devouring their own tail, supported by four feathered wings not physically connected to their looping body. Teshallas often wanders the Ethereal Plane but resides in the Bower Antimony, a greenhouse brimming with poisonous plants and extreme temperatures. Worshippers often maintain their own small gardens of poisonous plants in homage and use their crops to distill a variety of medicines."
 		]
 	},
 	"thamir_gixx": {
@@ -2008,7 +2041,10 @@
 	"pale_horse": { "copyof": "the_pale_horse" },
 	"thisamet": {
 		"name": "Thisamet",
-		"sources": [ "Inner Sea Gods" ],
+		"sources": [
+			"Inner Sea Gods",
+			"Chronicle of the Righteous"
+		],
 		"description": [
 			"::fh[Thisamet]{sub=\"The Blithe Spirit\"}",
 			"",
@@ -2039,7 +2075,8 @@
 			"",
 			"### Description",
 			"",
-			""
+			"{SOURCE Chronicle of the Righteous/55}  ",
+			"The Blithe Spirit is the empyreal lord of holidays, celebrations, and great feasts. Her followers spread merriment and worship wherever they go."
 		]
 	},
 	"thoth": {
@@ -2188,7 +2225,10 @@
 	},
 	"tjasse": {
 		"name": "Tjasse",
-		"sources": [ "Inner Sea Gods" ],
+		"sources": [
+			"Inner Sea Gods",
+			"Giants Revisited"
+		],
 		"description": [
 			"::fh[Tjasse]{sub=\"Lord of Talons\"}",
 			"",
@@ -2209,7 +2249,8 @@
 			"",
 			"### Description",
 			"",
-			""
+			"{SOURCE Giants Revisited/54}  ",
+			"Proud Tjasse is lord of {monster/roc/s}, wind, and high mountain peaks. He is attributed with taming the fearsome rocs to serve {monster/storm giant/s} and is thought to be a talented shapeshifter. His arrogance is legendary as one who looks down upon all others, literally and figuratively. The only love that overcomes his pride is for his beautiful daughter, {faith/Skode} the huntress. This jealous paternal affection manifests as a wild and savage protectiveness for person, possessions, and reputation alike, with Tjasse embodying the angry destructive power of the tempest as the tangible manifestation of brutal vengeance against those who would dare to cross a storm giant."
 		]
 	},
 	"tolc": {
@@ -2329,14 +2370,14 @@
 			">",
 			">1. **Forgecrafter (Sp)** {spell/crafter's fortune} 3/day, {spell/fox's cunning} 2/day, or {spell/greater magic weapon} 1/day",
 			">2. **Ironskin (Ex)** Your skin is as thick and tough as that of a dwarf who's worked the forge for 50 years, every scratch and burn associated with the memory of a masterpiece you've realized in stone or steel. As a free action, you can toughen your skin further, gaining DR 10/chaotic and evil. Dismissing this ability is also a free action. This ability lasts a number rounds per day equal to 1 + 1 for every 4 Hit Dice you possess (maximum 6 rounds). The rounds don't need to be consecutive.",
-			">3. **Hammerfist Ally (Sp)** You can bring forth an ancient stone construct forged specifically to protect the beloved followers of the Father of Creation. Once per day as a standard action, you can summon a stone golem to aid you. You gain telepathy with the golem to a range of 100 feet. The golem follows your commands perfectly for 1 minute for every Hit Die you possess before vanishing back to its home. The golem takes the form of a sculpted dwarf hero wielding two massive warhammers, the holy symbol of Torag hanging prominently around its neck. Its statistics remain unchanged despite these cosmetic alterations.",
+			">3. **Hammerfist Ally (Sp)** You can bring forth an ancient stone construct forged specifically to protect the beloved followers of the Father of Creation. Once per day as a standard action, you can summon a {monster/stone golem} to aid you. You gain telepathy with the golem to a range of 100 feet. The golem follows your commands perfectly for 1 minute for every Hit Die you possess before vanishing back to its home. The golem takes the form of a sculpted dwarf hero wielding two massive warhammers, the holy symbol of Torag hanging prominently around its neck. Its statistics remain unchanged despite these cosmetic alterations.",
 			">",
 			">### Boons: Sentinel",
 			">",
 			">{SOURCE Inner Sea Gods/148}",
 			">",
 			">1. **Battlefield Protector (Sp)** {spell/sanctuary} 3/day, {spell/shield of faith} 2/day, {spell/prayer} 1/day",
-			">2. **Holy Artificer (Su)** The spirit of an ancient warrior or artisan guides your hand when you set your mind toward creation, inspiring you and helping you perfect your craft. You gain the artificer's touch granted power from the Artifice domain if you don't already have access to it. Use your character level instead of cleric level to determine the power of your artificer's touch.",
+			">2. **Holy Artificer (Su)** The spirit of an ancient warrior or artisan guides your hand when you set your mind toward creation, inspiring you and helping you perfect your craft. You gain the artificer's touch granted power from the {domain/Artifice} domain if you don't already have access to it. Use your character level instead of cleric level to determine the power of your artificer's touch.",
 			">3. **Earthen Smite (Su)** You call upon your connection with the earth and its hidden strength to levy it behind your holy attacks. Whenever you use your smite evil ability, you can choose to add 2d6 points of acid damage to your damage roll. If you don't have access to smite evil, you can instead add 2d6 points of acid damage to a single attack against an evil opponent three times per day. You must declare your use of this ability before you roll your attack. If you miss or if the target is not evil, the use is wasted.",
 			"",
 			"## Paladin Code",
@@ -2460,7 +2501,14 @@
 			"",
 			"### Description",
 			"",
-			""
+			"{SOURCE Inner Sea Gods/149}  ",
+			"Torag is an ancient god, and his dwarven followers credit him with the creation of the world at his great forge, striking his new work again and again with his hammer to get the shape he desired. As the rocks tumbled and the sparks flew, the dwarves were born - beings made of stone and with bellies full of fire. Even with setbacks over the millennia, under his stern eye the dwarves found prosperity. Torag is a hard and proud patriarch, a distant but loving father. Though every dwarf who falls in battle pains his heart, he keeps his eye on the future and the countless dwarven lives extending forward into eternity, like golden links in a mighty coat of mail. He is often thought of as a purely dwarven god, yet continues to gain traction among humans.",
+			"",
+			"Torag loves the dwarven race, and has come to love his non-dwarven worshipers, but withholds most direct aid and affection from both, for he sees life as a hard journey, and if he sheltered his children from all hardship, they would not know the value of their own hard work or the satisfaction of their achievements. He created the dwarves to be tough, stubborn, wise, and creative - traits they would need to persevere and overcome all obstacles - and expects all his worshipers of all races and walks of life to seek to embody those traits. He opposes those who act without thinking, rebel, or place their community at risk.",
+			"",
+			"As god of the forge, the Father of Creation concerns himself with the art of creating and shaping metal. He believes that shoddy workmanship insults not only the crafter and the wielder of a tool or weapon, but the item itself, and pushes his followers to continually refine and improve their craft.",
+			"",
+			"When Torag appears to his worshipers, he's an older but hearty dwarf clad in heavy plate armor, with eyes glowing like molten gold. His hair and beard may be any common dwarven hair color, often with streaks of gray, and his hands are worn and scarred from centuries of hard work. He exudes a palpable aura of power, wisdom, and safety. In art, he's always depicted in intricate armor, and typically shown busy at his forge hammering out a weapon or shield. Some images depict him as a mighty guardian, shielding dwarven children with his body as he clears away orcs and trolls with mighty sweeps of his warhammer *Kaglemros.*"
 		]
 	},
 	"treerazer": {
@@ -2632,7 +2680,10 @@
 	},
 	"trudd": {
 		"name": "Trudd",
-		"sources": [ "Inner Sea Gods" ],
+		"sources": [
+			"Inner Sea Gods",
+			"Dwarves of Golarion"
+		],
 		"description": [
 			"::fh[Trudd]{sub=\"The Mighty\"}",
 			"",
@@ -2679,7 +2730,11 @@
 			"",
 			"### Description",
 			"",
-			""
+			"{SOURCE Inner Sea Gods/182}  ",
+			"Torag's youngest son is depicted as having an unusually short beard, which belies his reputation as the strongest of the gods. Some scholars claim he sold his beard to {faith/Dranngvit} for an unknown boon, but most dwarven theologians consider this story heretical.",
+			"",
+			"{SOURCE Dwarves of Golarion/29}  ",
+			"Torag's youngest son, he is the strongest of the dwarven gods despite his short beard. He guards his father's hall while its lord is away."
 		]
 	},
 	"tsathoggua": {
@@ -3467,7 +3522,7 @@
 			">{SOURCE Inner Sea Faiths/77}",
 			">",
 			">1. **Watery Souls (Sp)** {spell/wave shield} 3/day, {spell/life pact} 2/day, or {spell/water breathing} 1/day",
-			">2. **Depths of the Maelstrom (Su)** You do not fear death by water, for you are unafraid of your goddess's embrace, and you can capitalize on others' terror of the depths. Three times per day as an immediate action, when you step into any natural body of water, you can cause water within a 30-foot radius of where you stand to churn. You are unaffected by this churning. Any other creature wading or swimming in this water must attempt Swim checks as if the water were one category rougher; wading creatures must attempt DC 10 Swim checks, creatures swimming in calm water must make DC 15 Swim checks, creatures swimming in rough water must attempt DC 20 Swim checks, and creatures swimming in stormy water must attempt DC 25 Swim checks. If the water has a natural current, that current becomes fast moving. If the current was already fast moving, the DC of the Swim or Strength check to avoid going under increases to 15 + half your Hit Dice. This effect lasts for a number of rounds equal to your Hit Dice or until you leave the water, whichever is first.",
+			">2. **Depths of the Maelstrom (Su)** You do not fear death by water, for you are unafraid of your goddess's embrace, and you can capitalize on others' terror of the depths. Three times per day as an immediate action, when you step into any natural body of water, you can cause water within a 30-foot radius of where you stand to churn. You are unaffected by this churning. Any other creature wading or swimming in this water must attempt {skill/Swim} checks as if the water were one category rougher; wading creatures must attempt DC 10 Swim checks, creatures swimming in calm water must make DC 15 Swim checks, creatures swimming in rough water must attempt DC 20 Swim checks, and creatures swimming in stormy water must attempt DC 25 Swim checks. If the water has a natural current, that current becomes fast moving. If the current was already fast moving, the DC of the Swim or Strength check to avoid going under increases to 15 + half your Hit Dice. This effect lasts for a number of rounds equal to your Hit Dice or until you leave the water, whichever is first.",
 			">3. **Healing Waters (Su)** You have learned that the waters can take life, but also that they can give it. Three times per day, you can hold a creature underwater for a number of rounds equal to half your Hit Dice. Each round, as long as the creature is submerged and holding its breath, it is healed of 1d8 + 5 points of damage. If the creature doesn't hold its breath, it doesn't receive healing that round. If you submerge a creature and heal it for fewer rounds than half your Hit Dice, it still counts as one use of this ability.",
 			">",
 			">### Boons: Exalted",
@@ -3475,7 +3530,7 @@
 			">{SOURCE Inner Sea Faiths/77}",
 			">",
 			">1. **No Rest for the Living (Sp)** {spell/heightened awareness} 3/day, {spell/compassionate ally} 2/day, or {spell/lover's vengeance} 1/day",
-			">2. **Nothing Left to Lose (Su)** The losses you have suffered have made you morose and perhaps even aloof, but also fearless in battle. Once per day as a standard action, you may call out the name of a loved one you have lost. All opponents within hearing distance must succeed at a Will saving throw (DC = 10 + 1/2 your Hit Dice + your Wisdom modifier) or become shaken for a number of rounds equal to your Hit Dice. If you cause at least one creature to become shaken in this way, you gain a +2 profane or sacred bonus (of the same type as that provided by your obedience) on saving throws against spells with the mind-affecting descriptor for a number of rounds equal to your Hit Dice.",
+			">2. **Nothing Left to Lose (Su)** The losses you have suffered have made you morose and perhaps even aloof, but also fearless in battle. Once per day as a standard action, you may call out the name of a loved one you have lost. All opponents within hearing distance must succeed at a Will saving throw (DC = 10 + 1/2 your Hit Dice + your Wisdom modifier) or become {misc/shaken} for a number of rounds equal to your Hit Dice. If you cause at least one creature to become shaken in this way, you gain a +2 profane or sacred bonus (of the same type as that provided by your obedience) on saving throws against spells with the mind-affecting descriptor for a number of rounds equal to your Hit Dice.",
 			">3. **Final Strike (Sp)** You can call down your goddess's cleansing wrath upon your wretched enemies. Three times per day as a standard action, you can cause a great column of white light to pour from the heavens that acts as a {spell/fireball}, except the damage is force damage. A successful Reflex saving throw (DC = 13 + your Wisdom modifier) halves this damage.",
 			">",
 			">### Boons: Sentinel",
@@ -3483,7 +3538,7 @@
 			">{SOURCE Inner Sea Faiths/77}",
 			">",
 			">1. **Frozen Despair (Sp)** {spell/icicle dagger} 3/day, {spell/castigate} 2/day, or {spell/howling agony} 1/day",
-			">2. **All Who Live Suffer Loss (Su)** You channel the despair and grief you have suffered into a cloud of sadness that saps the will of those who oppose you. All foes within a 30-foot, cone-shaped burst are staggered for a number of rounds equal to your Hit Dice, and take a -1 penalty on attack rolls, saving throws, ability checks, skill checks, and weapon damage rolls. A successful Will saving throw (DC = 10 + 1/2 your Hit Dice + your Charisma modifier) negates this effect.",
+			">2. **All Who Live Suffer Loss (Su)** You channel the despair and grief you have suffered into a cloud of sadness that saps the will of those who oppose you. All foes within a 30-foot, cone-shaped {misc/burst} are {misc/staggered} for a number of rounds equal to your Hit Dice, and take a -1 penalty on attack rolls, saving throws, ability checks, skill checks, and weapon damage rolls. A successful Will saving throw (DC = 10 + 1/2 your Hit Dice + your Charisma modifier) negates this effect.",
 			">3. **Mantle of Tragic Grace (Sp)** You drape yourself in tragic glamor, and your longing for rest puts you beyond the reach of mortal harm for a lingering moment. As a standard action, you can activate this mantle, which acts as a {spell/globe of invulnerability}. You may use this ability for a number of rounds each day equal to your Hit Dice. These rounds do not need to be consecutive, and you can dismiss this effect as a standard action that does not provoke attacks of opportunity.",
 			"",
 			"## Follower Options",
@@ -3508,7 +3563,11 @@
 			"",
 			"### Description",
 			"",
-			""
+			"Three centuries ago, as one of {faith/Shelyn/'s} divine servitors, Naderi learned that a pair of lovers in Taldor who had long entreated the Eternal Rose for protection were quickly losing hope. She appeared in person to them in the mist of a great waterfall, affirming love's transcendence over mortal obstacles. Further, to hearten the lovers, she explained that love is one of the few bonds that sometimes endures beyond the end of mortal life, drawing souls together in the afterlife. To her shock, the young lovers took her words quite literally; they embraced and threw themselves into the falls, giving her thanks for showing them a way to truly be together at last.",
+			"",
+			"This sacrifice propelled the dismayed Naderi - who had not intended to drive the lovers to their deaths - into godhood as the patron of suicide, especially for the cause of love. Her ascension burned away those elements of her nature not connected to this area of concern. Most forms of beauty ceased to touch her, though the beauty of love and the allure of tragic romance still called to her. Much of her capacity for true happiness was left behind as well, leaving her able to experience only bittersweet joy. Terrified of the changes she felt within herself, and believing she had betrayed Shelyn by accidentally turning two of her followers to her own worship and simultaneously driving them to suicide, Naderi fled Shelyn's realm.",
+			"",
+			"Shelyn pursued, not out of anger, but out of concern, but Naderi eluded her. Over the centuries, the Eternal Rose has repeatedly attempted to reach Naderi, for she feels the Lost Maiden's nature gradually taking on a darker cast and is determined not to lose another loved one the way she lost her brother {faith/Zon-Kuthon}. Meanwhile, the dark gods {faith/Urgathoa} and {faith/Zyphus} court Naderi, hoping to encourage the flowering of the more nihilistic side of her personality. Naderi herself remains a precariously balanced figure, clinging to the memory of the light and love and beauty she experienced as Shelyn's servitor, while struggling with a growing conviction that love is only ever consummated in death, and a burgeoning fascination with the aesthetics of suicide. She appears as a dark-haired young woman with large, haunted eyes, clad in waterlogged white garments and carrying a dagger."
 		]
 	},
 	"nalinivati": {
@@ -3918,16 +3977,16 @@
 			">{SOURCE Inner Sea Faiths/89}",
 			">",
 			">1. **Champion of Cruel Chance (Sp)** {spell/deathwatch} 3/day, {spell/false life} 2/day, or {spell/healing thief} 1/day",
-			">2. **Resiliency (Ex)** Once per day, you can gain a number of temporary hit points equal to your Hit Dice, lasting for 1 minute. Activating this ability is an immediate action that can be performed only when you would be brought below 0 hit points, and can be used to prevent you from dying. If you have the resiliency ability from another source, you can activate these abilities separately or as part of the same immediate action.",
-			">3. **Tragic Minion (Su)** By spending 1 minute praying over the corpse of a humanoid opponent or a humanoid who has died a tragic death, you can summon an allip to serve you. Unlike a normal allip, this allip is of an alignment that matches yours, and has a number of hit points equal to half your total. It receives a +4 bonus on Will saves to halve the damage from channeled positive energy, and it can't be turned or commanded. This allip serves as a companion to you and can communicate intelligibly with you despite its madness. You can dismiss it as a standard action. If the allip is destroyed or dismissed, you can't summon another for 7 days. This ability allows you to have only one allip companion at a time.",
+			">2. **Resiliency (Ex)** Once per day, you can gain a number of temporary hit points equal to your Hit Dice, lasting for 1 minute. Activating this ability is an immediate action that can be performed only when you would be brought below 0 hit points, and can be used to prevent you from dying. If you have the *resiliency* ability from another source, you can activate these abilities separately or as part of the same immediate action.",
+			">3. **Tragic Minion (Su)** By spending 1 minute praying over the corpse of a humanoid opponent or a humanoid who has died a tragic death, you can summon an {monster/allip} to serve you. Unlike a normal allip, this allip is of an alignment that matches yours, and has a number of hit points equal to half your total. It receives a +4 bonus on Will saves to halve the damage from channeled positive energy, and it can't be turned or commanded. This allip serves as a companion to you and can communicate intelligibly with you despite its madness. You can dismiss it as a standard action. If the allip is destroyed or dismissed, you can't summon another for 7 days. This ability allows you to have only one allip companion at a time.",
 			">",
 			">### Boons: Exalted",
 			">",
 			">{SOURCE Inner Sea Faiths/89}",
 			">",
 			">1. **Catalyst of Destruction (Sp)** {spell/break} 3/day, {spell/find traps} 2/day, or {spell/spiked pit} 1/day",
-			">2. **Ever Vigilant (Su)** Protected by Zyphus from a surprising death while you still have work to do for him, you're resistant to effects that attack your life force or would affect you before you have a chance to react. You are protected by death ward, except the immunity to energy drain ends after it has prevented a number of negative levels equal to your exalted level; this resets when you next perform your obedience. You gain a +2 profane bonus on saving throws against effects that occur before your first turn in combat.",
-			">3. **Visitor from Abaddon (Sp)** Once per day as a standard action, you can summon a pair of greater ceustodaemons as if with summon monster II, and gain telepathy with them to a range of 100 feet. The ceustodaemons follow your commands perfectly for 1 round per Hit Die you possess before vanishing back to their home on Abaddon. The ceustodaemons don't follow commands that would cause them to perform overly good acts or save mortal lives other than your own, and they immediately vanish if your orders contradict these restrictions.",
+			">2. **Ever Vigilant (Su)** Protected by Zyphus from a surprising death while you still have work to do for him, you're resistant to effects that attack your life force or would affect you before you have a chance to react. You are protected by {spell/death ward}, except the immunity to energy drain ends after it has prevented a number of negative levels equal to your exalted level; this resets when you next perform your obedience. You gain a +2 profane bonus on saving throws against effects that occur before your first turn in combat.",
+			">3. **Visitor from Abaddon (Sp)** Once per day as a standard action, you can summon a pair of {monster/greater ceustodaemon/s} as if with {spell/summon monster II}, and gain telepathy with them to a range of 100 feet. The ceustodaemons follow your commands perfectly for 1 round per Hit Die you possess before vanishing back to their home on Abaddon. The ceustodaemons don't follow commands that would cause them to perform overly good acts or save mortal lives other than your own, and they immediately vanish if your orders contradict these restrictions.",
 			">",
 			">### Boons: Sentinel",
 			">",
@@ -3935,7 +3994,7 @@
 			">",
 			">1. **Walking Disaster (Sp)** {spell/bungle} 3/day, {spell/spontaneous immolation} 2/day, or {spell/deadly juggernaut} 1/day",
 			">2. **Tragic Accident (Su)** You have a deep understanding of the Grim Harvestman's lordship over accidental death, and can unleash these accidents on your enemies. Once per day as part of a successful attack, you can target your opponent with either inflict critical wounds or poison as a free action. The DC for this ability is equal to 10 + 1/2 your Hit Dice + your Charisma modifier. You don't have to declare the use of this ability until you know the attack is successful.",
-			">3. **Unfairness of the World (Su)** Once per day, you can channel all of your outrage through your weapon, afflicting your opponent with deadly negative energy. You must declare your use of this ability before you roll an attack. On a hit, the target gains a number of negative levels equal to 3 + 1/2 your Hit Dice unless it succeeds at a Fortitude saving throw (the DC for this ability is the same as your tragic accident DC). If you openly wear an unholy symbol of Zyphus, the saving throw DC to resist this effect increases by 2.",
+			">3. **Unfairness of the World (Su)** Once per day, you can channel all of your outrage through your weapon, afflicting your opponent with deadly negative energy. You must declare your use of this ability before you roll an attack. On a hit, the target gains a number of {rule/energy_drain_and_<negative levels} equal to 3 + 1/2 your Hit Dice unless it succeeds at a Fortitude saving throw (the DC for this ability is the same as your tragic accident DC). If you openly wear an unholy symbol of Zyphus, the saving throw DC to resist this effect increases by 2.",
 			"",
 			"## Antipaladin Code",
 			"",
@@ -3987,7 +4046,12 @@
 			"",
 			"### Description",
 			"",
+			"{SOURCE Inner Sea Faiths/90}  ",
+			"Unlike {faith/Pharasma}, who has careful, fated plans for each mortal soul, Zyphus represents chance and the unexpected aspects of mortality. It's said that every accidental death adds to his strength, and that he may someday grow powerful enough to usurp Pharasma's place. Others preach that every soul he claims allows him a brief respite from his rage as he savors its former mortality, and that these shallow sips of life motivate him to keep reaching for more.",
 			"",
+			"Also known as the Grim Harvestman, Zyphus both loves and hates his worshipers, known as Zyphens. On the one hand, they constantly remind him of his divine nature, feeding his ego and furthering his goals in the mortal world. But the petty deity envies his followers' mortal lives, and resents them for having what he no longer has. Communication with his followers is brief, terse, and often full of bile, encouraging ruthless actions; any apparent kindness in him is merely a lull as he seethes with quiet anger before the next outburst. Some among his faithful believe that once he usurps Pharasma's place, he will allow all souls to wander the planes unsorted and reincarnate himself as a mortal with no memories of his prior existence.",
+			"",
+			"Zyphus appears as a gloomy figure clad in hooded black robes decorated with bones. His face is a gaunt, pale nightmare with a distended, screaming mouth and hollow eye sockets grown over by translucent membranes of skin. He wields a heavy pick reputed to be made from his mortal body's bones. Zyphus's feet are hidden beneath his robes, and he never leaves tracks when he passes.",
 			"",
 			"[^A]: Requires the {trait/Acolyte of Apocrypha} trait."
 		]

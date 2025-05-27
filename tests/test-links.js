@@ -1,5 +1,5 @@
 import { basic_data_by_link } from '../basic_data_groups.js';
-import checkForEncodedLink from './checkForEncodedLink.js';
+import checkForEncodedLink, { convertTextToLink } from './checkForEncodedLink.js';
 import featTreeData from '../json/feat_tree_data.json' with {type: 'json'};
 
 const {
@@ -285,7 +285,7 @@ const testLinks = () => {
 						if(typeof s !== "string") {
 							msg.push(`\tINVALID entry in ${prop}.sources`);
 							return false;
-						} else if (!allsources[s]) {
+						} else if (!allsources[convertTextToLink(s)]) {
 							msg.push(`\tINVALID source "${s}" in ${prop}.sources`);
 						}
 						return true;
@@ -320,13 +320,14 @@ const testLinks = () => {
 				while(m = temp.match(/\]\([/]?([^)]+)[/]([^)/]+)\)(.*$)/)) {
 					// Checking [Links](whatever/link)
 					if(m) {
+						const link = convertTextToLink(m[2]);
 						if(m[1] === "source") {
-							if(!allsources[m[2]]) {
+							if(!allsources[link]) {
 								invalid.push(m[1] + "/" + m[2]);
 							}
 						} else if (m[1].match(/^http/)) {
 							// Skip
-						} else if(!$KnownProps[m[1]] || !$KnownProps[m[1]][m[2]]) {
+						} else if(!$KnownProps[m[1]] || !$KnownProps[m[1]][link]) {
 							invalid.push(m[1] + "/" + m[2]);
 						}
 						temp = m[3];
@@ -340,7 +341,7 @@ const testLinks = () => {
 							const xx = bit.match(/([^/]+)([/][-, 0-9]+)?$/);
 							if(!xx) {
 								msg.push(`\t{SOURCE} error [${bit}]`);
-							} else if (!allsources[xx[1]]) {
+							} else if (!allsources[convertTextToLink(xx[1])]) {
 								invalid.push("{SOURCE " + xx[1] + "}");
 							}
 						});

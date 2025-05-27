@@ -107,7 +107,10 @@
 	},
 	"neshen": {
 		"name": "Neshen",
-		"sources": [ "Inner Sea Gods" ],
+		"sources": [
+			"Inner Sea Gods",
+			"Chronicle of the Righteous"
+		],
 		"description": [
 			"::fh[Neshen]{sub=\"Knight of the Steel Lash\"}",
 			"",
@@ -138,7 +141,8 @@
 			"",
 			"### Description",
 			"",
-			""
+			"{SOURCE Chronicle of the Righteous/54}  ",
+			"Neshen's followers are those who desire to turn their lives around and embrace the path of light. The Knight of the Steel Lash may require them to undergo physical duress and difficult obedience, in a process that can take years, but those who come to him eventually reach their coveted atonement."
 		]
 	},
 	"nethys": {
@@ -1214,7 +1218,10 @@
 	},
 	"ondisso": {
 		"name": "Ondisso",
-		"sources": [ "Inner Sea Gods" ],
+		"sources": [
+			"Inner Sea Gods",
+			"Chronicle of the Righteous"
+		],
 		"description": [
 			"::fh[Ondisso]{sub=\"The Stalwart Stair\"}",
 			"",
@@ -1245,7 +1252,8 @@
 			"",
 			"### Description",
 			"",
-			""
+			"{SOURCE Chronicle of the Righteous/54}  ",
+			"The Stalwart Stair teaches mortals to rise above temptation and to strive for previously unknown heights of personal strength and morality."
 		]
 	},
 	"ongalte": {
@@ -1849,7 +1857,10 @@
 	},
 	"uskyeria": {
 		"name": "Uskyeria",
-		"sources": [ "Inner Sea Gods" ],
+		"sources": [
+			"Inner Sea Gods",
+			"Chronicle of the Righteous"
+		],
 		"description": [
 			"::fh[Uskyeria]{sub=\"The Saintly Slumberer\"}",
 			"",
@@ -1880,7 +1891,8 @@
 			"",
 			"### Description",
 			"",
-			""
+			"{SOURCE Chronicle of the Righteous/55}  ",
+			"Uskyeria's natural form is that of a giant bear with gold-streaked red fur. The Saintly Slumberer and her agents teach mortals how to hunt while respecting the animals they kill and preserving the areas in which they hunt. Insomniacs also pray to Uskyeria to bless them with deep and restful sleep."
 		]
 	},
 	"uzumae": {
@@ -2013,7 +2025,9 @@
 			"",
 			"### Description",
 			"",
-			""
+			"The Court of Ancestors washed ashore in the Boneyard, borne on the first wave in the River of Souls by the collective weight of mortal cultures and the influence they impose on living hearts. Vale serves the Boneyard as chief prosecutor, in that they champion the cause of judging souls based only upon external criteria and impact, without regard for individual intentions. As a gatherer of knowledge and advocate for agnostics, Vale also finds themself the Boneyard's authority on matters of faith unrelated to gods, such as superstitions.",
+			"",
+			"Vale manifests as several naked, androgynous figures merged into a single being, crowned with a floating circle of white crystal. Their domain is the Mall of Jurisprudence, a winding network of libraries and offices."
 		]
 	},
 	"valmallos": {
@@ -2045,7 +2059,7 @@
 			">",
 			">1. **Enduring Magic (Sp)** {spell/protection from chaos} 3/day, {spell/false life} 2/day, or {spell/arcane concordance} 1/day",
 			">2. **Overwhelming Intricacy (Su)** When you cast a spell or spell-like ability whose casting time is at least 10 minutes, you increase the DC of saving throws to resist that spell by 1. If the spell's casting time is at least 1 hour, you instead increase the DC by 2.",
-			">3. **Sophisticated Symbols (Sp)** Once per day you can cast a symbol spell (e.g., {spell/symbol of persuasion}) of 7th level or lower as a spell-like ability with a casting time of 1 hour and requiring no material components. Alternatively, you can use this ability once per day to eliminate any symbol spell's material component by increase its casting time to 1 hour and thereby. You can maintain only a single symbol spell created with this ability, and using this ability again causes the first symbol to dissipate.",
+			">3. **Sophisticated Symbols (Sp)** Once per day you can cast a {main/symbol |spell>_groupings} (e.g., {spell/symbol of persuasion}) of 7th level or lower as a spell-like ability with a casting time of 1 hour and requiring no material components. Alternatively, you can use this ability once per day to eliminate any symbol spell's material component by increase its casting time to 1 hour and thereby.[^V] You can maintain only a single symbol spell created with this ability, and using this ability again causes the first symbol to dissipate.",
 			"",
 			"## Follower Options",
 			"",
@@ -2055,7 +2069,13 @@
 			"",
 			"### Description",
 			"",
-			""
+			"By nature of their supernatural genesis, most outsiders easily command magic to do their bidding. However, the aligned essence of these beings guides their actions, ensuring they use magic in a manner that befits their nature and the multiverse's needs. Mortals, on the other hand, greedily seek out and exploit magic, possessing neither the underlying instincts to use it responsibly nor the eternity of practice to do so perfectly. But whether mortal spellcasters are cognizant of it or not, magic is a fundamental force guided by principles, and whenever simple creatures would trivialize or abuse magic, Valmallos presides.",
+			"",
+			"Valmallos considers mortals unpredictable and reckless, and seeks to keep them from treating magic as a toy. In part, he is responsible for the array of complex material, somatic, and verbal components so prevalent in magic, many of which act as gatekeepers to ensure an amateur cannot wield magic without putting in the requisite training and practice to use the power responsibly. As a result, Valmallos typically approves of wizards' methodologies, and his faithful handle sorcerers and other innate spellcasters with extreme caution - and sometimes even with prejudice. Valmallos regards most other mortal spellcasters on a case-by-case basis, and the way in which one has used magic in the past matters far more to him than the esoteric tradition that granted the power in the first place.",
+			"",
+			"Valmallos sees his faithful less as worshippers than as students and advocates who can learn from him and further complicate magical practices to protect them from fools. His priests often accept and teach apprentices for far longer than is necessary, even hunting down former students if there's any hint of arcane misconduct.",
+			"",
+			"[^V]: This text is verbatim from the source material. Consult your GM if you need guidance."
 		]
 	},
 	"vapula": {
@@ -2178,7 +2198,9 @@
 			"",
 			"### Description",
 			"",
-			""
+			"The brooding master of the spires and steeples, Vavaalrav is the architect of the Boneyard, manifested from the mortal need to leave a legacy for the fallen. He is the patron and protector of sacred sites, and his cold, earthy breath flows through the world's mausoleums with eerie reverence. He has no patience for those who disturb sacred spaces, and many mortals - both {faith/Pharasm/ins>a} and those who are simply superstitious - carve his holy symbol into tombs or fashion headstones in its shape to help protect the site from foul spirits and grave robbers. Those gargoyles who take up residence on cathedrals, temples, and tombs also pay at least lip service to this usher.",
+			"",
+			"Vavaalrav makes his home in the Wailing Tor, a tall, steepled tower in the heart of the Eight Courts. He manifests as a skeletal gray figure garbed in a breastplate, robe, and wings of stone, with three eyes upon his right hand. Whether his countenance bears any eyes as well remains unknown, as the Steeple's Skull covers the top half of his head with a delicate silk veil."
 		]
 	},
 	"velgaas": {
@@ -2531,7 +2553,7 @@
 			">",
 			">1. **Cycle of Mourning (Sp)** {spell/decompose corpse} 3/day, {spell/calm emotions} 2/day, or {spell/rage} 1/day",
 			">2. **Inspired Survivor (Ex)** You gain a +4 insight bonus on checks to resist or survive the effects of harsh weather, earthquakes, and other environmental disasters.",
-			">3. **Inspiration in Loss (Su)** With a touch, you can dredge up powerful feelings of loss in other creatures. Three times per day as a standard action, you can touch an adjacent creature to cause it to become dazed by grief for 1 round. An unwilling target can resist this effect with a successful Will saving throw (DC = 10 + half your Hit Dice + your Charisma modifier). The following round, the target gains one of the following as a bonus feat for a number of rounds equal to half your Hit Dice: {feat/Combat Reflexes}, {feat/Deadly Aim}, {feat/Great Fortitude}, {feat/Iron Will}, or {feat/Power Attack}. A target does not need to meet the normal prerequisites for this bonus feat. A target who succeeds at the saving throw against the initial daze effect does not gain a bonus feat.",
+			">3. **Inspiration in Loss (Su)** With a touch, you can dredge up powerful feelings of loss in other creatures. Three times per day as a standard action, you can touch an adjacent creature to cause it to become {misc/dazed} by grief for 1 round. An unwilling target can resist this effect with a successful Will saving throw (DC = 10 + half your Hit Dice + your Charisma modifier). The following round, the target gains one of the following as a bonus feat for a number of rounds equal to half your Hit Dice: {feat/Combat Reflexes}, {feat/Deadly Aim}, {feat/Great Fortitude}, {feat/Iron Will}, or {feat/Power Attack}. A target does not need to meet the normal prerequisites for this bonus feat. A target who succeeds at the saving throw against the initial daze effect does not gain a bonus feat.",
 			"",
 			"## Follower Options",
 			"",
@@ -2542,7 +2564,9 @@
 			"",
 			"### Description",
 			"",
-			""
+			"Vonymos is born from the overwhelming grief mortals experience in the wake of loss, and they embody both the positive and negative things that can grow from that mourning. They represent depression, isolation, and desperation, but also glorious last stands and renewed vigor, playing a role as a muse among the ushers. Vonymos tends to souls fallen to suicide, martyrdom, and catastrophes such as natural disasters and plague. Many feel the usher's presence as a churning flood of feelings that builds until emotional walls crumble before the tide, but others experience the Mourning Storm's touch as lightning and fire driving them to desperate action.",
+			"",
+			"Vonymos dwells near a glass willow overlooking the Storm of Shards - a cascade of broken, floating stones that drift at the edge of the Spire. The usher sometimes manifests as a wheel of water and wails ringing a single coppery-brown eye, or as a cross between a crow and a knight."
 		]
 	},
 	"vorasha": {
@@ -3414,7 +3438,9 @@
 			"",
 			"### Description",
 			"",
-			""
+			"Ydajisk manifests as a skein of iridescent poetry outlining a massive serpent vaguely resembling an {monster/izfiitar}, surrounded by a cloud of drifting symbols, sounds, and other sensory experiences manifesting and dissolving back into nothing. Despite Ydajisk's title, they eschew discrete sex or gender, their form shifting from moment to moment to suit their whimsy. Ydajisk holds a wealth of lost books, including copies of Tabris's collected works, The Withered Footsteps of the Dire Shepherd, and rubbings of the Codex of the Infinite Planes.",
+			"",
+			"Ydajisk's clergy wanders, chronicling the languages of dying civilizations, worlds on the edge of ecological collapse, and worlds threatened by divine conflict. Ydajisk's Library of Stolen Words occupies an island of stone orbiting the monstrous, star-sized Felikar's Whirlpool, meandering about in defiance of the devouring current. The library remotely feeds upon distant sources, transcribing knowledge into Ydajisk's collection of books, magically bottled words, and preserved sensations."
 		]
 	},
 	"ydersius": {

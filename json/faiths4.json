@@ -151,7 +151,7 @@
 			"",
 			"### Description",
 			"",
-			""
+			"Cihua Couatl, a dual being of two individual couatls joined in their divinity, are the patron god of those who defend others in the name of righteous causes. Cihua Couatl take the form of a {monster/chicome couatl} and a {monster/tletli couatl} that share one body. Each has a distinct head and tail, but the two share a pair of arms, one holding a shortspear and the other holding a shield. These items represent the combative and protective aspects of the god. Cihua Couatl teach that conflict is an inevitability, and that one must be ready to defend those who cannot defend themselves. This can take the form of teaching kindness, to encourage helping those in need, or taking arms against those who would cause harm to innocents. They encourage quick and decisive action in combat, and their warrior priests are masters of strategy and tactics. This prowess allows Cihua Couatl's followers to efficiently bring an end to combat while limiting the number of injuries and fatalities on both sides of a conflict. Outside of combat, Cihua Couatl teach that to care for one's self and others only makes everyone stronger. They also serve as a patron god of midwives, encouraging their followers to learn how to care for children. The two couatls are of fluid gender and constantly shift between roles as attacker and defender, symbolizing Cihua Couatl's message that anyone can care for others and rise to defend them when needed. Their common servitors are healers, warriors, and all types of couatls."
 		]
 	},
 	"circiatto": {
@@ -340,7 +340,11 @@
 			"",
 			"### Description",
 			"",
-			""
+			"Over eons beyond mortal ken, many Eldest have been forced out of power or vanished into obscurity. Yet only one has managed to do both these things and still exert influence over both the First World and the planes beyond.",
+			"",
+			"The creature known as Ranalc - or more often Count Ranalc, for reasons long lost to history - first rose to power in the early days of the multiverse as a physical embodiment of primal darkness and the chaos of creation. Tall and gaunt, constantly wrapped in inky shadow, he was always difficult for the other fey lords to work with, his arrogance born from both power and the knowledge that, in the end, his domain of darkness would consume all things. Still, the other Eldest respected his strength and the necessity of chaos in fueling the fires of existence, which makes it all the more surprising that they eventually banded together to exile him from the plane entirely.",
+			"",
+			"What Ranalc did to rouse the ire - or self-preservation -  of the other Eldest remains one of the First World's greatest mysteries, but it was at that point, millennia ago, that he was first given the appellation \"the Traitor.\" Cast out onto the Shadow Plane, Ranalc shocked the others by refusing to be beaten, instead creating a stronghold within the darkness and embracing his new role as lord of exiles and betrayal. From his darkened realm, he continued to grant power to his followers and influence both the First World and Material Plane."
 		]
 	},
 	"crocell": {
@@ -734,16 +738,16 @@
 			">{SOURCE Inner Sea Faiths/35}",
 			">",
 			">1. **Sorrowmaker's Pact (Sp)** {spell/protection from good} 3/day, {spell/align weapon} (evil only) 2/day, or {spell/rage} 1/day",
-			">2. **Enemy of Dragonkind (Su)** You can protect yourself from the noble forces of the universe and are attuned to blocking out draconic threats. When you are under the effects of protection from good or a similar effect, true dragons with fewer Hit Dice than you count as summoned creatures for the purpose of interacting with you, regardless of their alignment. In addition, three times per day while under such an effect, you can reroll one saving throw against a breath weapon, spell, or spell-like ability used against you by a creature of the dragon type. You can only reroll a single saving throw once.",
-			">3. **Bow Before Your End! (Su)** You represent one of the most powerful deities in the cosmos, and you expect all creatures to recognize the unspeakable power you herald and its capacity for wanton destruction. Once per day as a standard action, you can create an effect similar to overwhelming presence as though you were a cleric with an effective caster level equal to half your Hit Dice. Creatures that fail their saving throws are staggered instead of helpless for the duration of the spell, and suffer no further effects upon a successful subsequent save. Creatures of the dragon type must roll their saving throws twice and take the lower result. A creature that succeeds at its initial saving throw is unaffected by this effect.",
+			">2. **Enemy of Dragonkind (Su)** You can protect yourself from the noble forces of the universe and are attuned to blocking out draconic threats. When you are under the effects of *protection from good* or a similar effect, true dragons with fewer Hit Dice than you count as summoned creatures for the purpose of interacting with you, regardless of their alignment. In addition, three times per day while under such an effect, you can reroll one saving throw against a breath weapon, spell, or spell-like ability used against you by a creature of the dragon type. You can only reroll a single saving throw once.",
+			">3. **Bow Before Your End! (Su)** You represent one of the most powerful deities in the cosmos, and you expect all creatures to recognize the unspeakable power you herald and its capacity for wanton destruction. Once per day as a standard action, you can create an effect similar to {spell/overwhelming presence} as though you were a cleric with an effective caster level equal to half your Hit Dice. Creatures that fail their saving throws are {misc/staggered} instead of helpless for the duration of the spell, and suffer no further effects upon a successful subsequent save. Creatures of the dragon type must roll their saving throws twice and take the lower result. A creature that succeeds at its initial saving throw is unaffected by this effect.",
 			">",
 			">### Boons: Exalted",
 			">",
 			">{SOURCE Inner Sea Faiths/35}",
 			">",
 			">1. **Rites of the False Wyrm (Sp)** {spell/charm person} 3/day, {spell/mirror image} 2/day, or {spell/suggestion} 1/day",
-			">2. **Draconic Decoys (Su)** Duplicity is second nature to you, and you know how to manipulate trickery-based magic to further confound your enemies. Anytime you have created an image via mirror image, as a swift action you can direct one of your images to move to a flanking position against an enemy within 15 feet of you. The image allows you or an ally to flank your target for the purpose of a single attack. A redirected image dissipates when you or an ally uses the image to make a flanking attack, or otherwise remains in place for 1 round before dissipating.",
-			">3. **Flaming Vengeance (Su)** You believe that if your enemies are foolish enough to trust you, then they are foolish enough to die by Dahak's power. Once per day as a standard action, you can gain the benefits of a mislead spell as though cast by a wizard of a level equal to your Hit Dice (maximum 20th level), with the following modifications. At the time of using this ability, you can establish a number of rounds before it will expire, or declare that it will expire when your illusory duplicate is touched. When either criteria is accomplished, the illusory duplicate explodes as a fireball spell cast by a 10th-level wizard.",
+			">2. **Draconic Decoys (Su)** Duplicity is second nature to you, and you know how to manipulate trickery-based magic to further confound your enemies. Anytime you have created an image via *mirror image,* as a swift action you can direct one of your images to move to a {rule/flanking} position against an enemy within 15 feet of you. The image allows you or an ally to flank your target for the purpose of a single attack. A redirected image dissipates when you or an ally uses the image to make a flanking attack, or otherwise remains in place for 1 round before dissipating.",
+			">3. **Flaming Vengeance (Su)** You believe that if your enemies are foolish enough to trust you, then they are foolish enough to die by Dahak's power. Once per day as a standard action, you can gain the benefits of a {spell/mislead} spell as though cast by a wizard of a level equal to your Hit Dice (maximum 20th level), with the following modifications. At the time of using this ability, you can establish a number of rounds before it will expire, or declare that it will expire when your illusory duplicate is touched. When either criteria is accomplished, the illusory duplicate explodes as a {spell/fireball} spell cast by a 10th-level wizard.",
 			">",
 			">### Boons: Sentinel",
 			">",
@@ -798,7 +802,11 @@
 			"",
 			"### Description",
 			"",
-			""
+			"Left to fend for himself after his birth, Dahak roamed the fields of primeval Hell. He eventually emerged and came into contact with his siblings - the numerous draconic divinities living under {faith/Apsu/'s} guiding talons. Irrational rage filled Dahak at the prosperity and friendship those deities shared, and so he shattered each of them in turn. He then ensured that they returned as mortals to be tormented again. Each of the broken deities filled the Material Plane with countless draconic progeny, which became the first metallic dragons.",
+			"",
+			"Apsu eventually confronted his wayward son and found that Dahak hunted the metallic dragons for sport. Father and son warred in a terrifying aerial battle, flying between worlds, with Dahak slowly gaining the upper hand. Only the metallic dragons' intervention turned the tide, and Apsu wrestled Dahak to the surface of the Material Plane and irrevocably scarred the raging dragon. But before Apsu could strike the final blow, his mother intervened, saving her son and betraying the noble Apsu. Dahak escaped, along with the first chromatic dragons.",
+			"",
+			"Few willingly serve in what constitutes Dahak's church, as most who learn of the Endless Destruction are revolted by what he represents. The dictates of Dahak require the application of overwhelming force to defeat one's enemies. These beliefs differ from {faith/Rovagug/'s} uncontrolled raging, as Dahak is capable of periods of civility and discussion. He often broods during such times - right up until he undertakes a violent rampage. The church of Dahak is similar, especially on Golarion where it is currently engaged in a \"civil\" phase. Dahak's Golarion-based clergy will turn on others only when their enemies have sufficiently aggravated them, or Dahak's own divine messages shift fully toward destruction."
 		]
 	},
 	"daikitsu": {
@@ -835,7 +843,10 @@
 	},
 	"dalenydra": {
 		"name": "Dalenydra",
-		"sources": [ "Inner Sea Gods" ],
+		"sources": [
+			"Inner Sea Gods",
+			"Chronicle of the Righteous"
+		],
 		"description": [
 			"::fh[Dalenydra]{sub=\"The Blessed Attendant\"}",
 			"",
@@ -867,7 +878,8 @@
 			"",
 			"### Description",
 			"",
-			"",
+			"{SOURCE Chronicle of the Righteous/54}  ",
+			"The Blessed Attendant is the empyreal lord of battlefield healing. Combat healers, hospital attendants, and nurses make up the bulk of her followers, all of whom swear an oath of nonviolence. They defend themselves on the fields of war but will not attack, and many soldiers refuse to strike those wearing Dalenydra's distinctive tabard.",
 			"",
 			"[^A]: Requires the {trait/Acolyte of Apocrypha} trait."
 		]
@@ -1635,7 +1647,10 @@
 	},
 	"dranngvit": {
 		"name": "Dranngvit",
-		"sources": [ "Inner Sea Gods" ],
+		"sources": [
+			"Inner Sea Gods",
+			"Dwarves of Golarion"
+		],
 		"description": [
 			"::fh[Dranngvit]{sub=\"The Debt Minder\"}",
 			"",
@@ -1666,7 +1681,11 @@
 			"",
 			"### Description",
 			"",
-			""
+			"{SOURCE Inner Sea Gods/182}  ",
+			"Torag's half-sister Dranngvit is seen by many dwarves as an unfortunate necessity in life. The Debt Minder oversees the righting of wrongs, but her doctrine can be read as valuing revenge over justice.",
+			"",
+			"{SOURCE Dwarves of Golarion/29}  ",
+			"This bitter goddess is Torag's half-sister; some legends say she was to have been his bride but he chose Folgrit instead, and to earn her forgiveness he made her a goddess. The dwarves consider Dranngvit a necessary evil, a goddess to propitiate when they have wronged someone; only those consumed by hatred and bitterness choose her as a patron. She may be Kols's mother, though Folgrit treats him like her own son."
 		]
 	},
 	"dretha": {
@@ -1727,7 +1746,10 @@
 	},
 	"droskar": {
 		"name": "Droskar",
-		"sources": [ "Inner Sea Gods" ],
+		"sources": [
+			"Inner Sea Gods",
+			"Dwarves of Golarion"
+		],
 		"description": [
 			"::fh[Droskar]{sub=\"The Dark Smith\"}",
 			"",
@@ -1768,7 +1790,11 @@
 			"",
 			"### Description",
 			"",
-			""
+			"{SOURCE Inner Sea Gods/182}  ",
+			"The evil {monster/duergar} who live in the lightless depths of the earth still worship Droskar, the Dark Smith. His faithful believe incessant toil will lead them to glory. ",
+			"",
+			"{SOURCE Dwarves of Golarion/29}  ",
+			"Though many Golarion scholars would like to believe him dead, Droskar's church is the primary faith of the duergar, and in his name they churn out arms and armor for various conflicts deep under the surface. He teaches that repetitive work leads to improved skill, and that if you push yourself far enough, you will achieve greatness. Those who toil and still fail in this endeavor are either not working hard enough or aren't putting their hearts into their work. He believes in using slave labor to allow craftsmen to focus on the creative aspects of work without worrying about minor details; slaves also provide convenient scapegoats when output doesn't measure up to the expected standards. Among the faithful there is strong competition, as one who manages to create something exceptional or innovative must beware a rival or superior stealing it or taking credit for the achievement."
 		]
 	},
 	"ealdeez": {
@@ -1951,7 +1977,10 @@
 	},
 	"eldas": {
 		"name": "Eldas",
-		"sources": [ "Inner Sea Gods" ],
+		"sources": [
+			"Inner Sea Gods",
+			"Chronicle of the Righteous"
+		],
 		"description": [
 			"::fh[Eldas]{sub=\"The Abiding Spire\"}",
 			"",
@@ -1982,7 +2011,8 @@
 			"",
 			"### Description",
 			"",
-			""
+			"{SOURCE Chronicle of the Righteous/54}  ",
+			"It is said that the Abiding Spire designed most of the structures that now stand on the mountain of Heaven. He has a special interest in building defensive structures, and is responsible for the upkeep of the Prime Vallation."
 		]
 	},
 	"eligos": {
@@ -2719,7 +2749,10 @@
 	},
 	"folgrit": {
 		"name": "Folgrit",
-		"sources": [ "Inner Sea Gods" ],
+		"sources": [
+			"Inner Sea Gods",
+			"Dwarves of Golarion"
+		],
 		"description": [
 			"::fh[Folgrit]{sub=\"The Watchful Mother\"}",
 			"",
@@ -2762,7 +2795,11 @@
 			"",
 			"### Description",
 			"",
-			""
+			"{SOURCE Inner Sea Gods/182}  ",
+			"Torag's wife is revered as the goddess of wives, mothers, and widows alike. She's beseeched by childless couples, though dwarven women unable to conceive sometimes turn to worship of Dranngvit instead.",
+			"",
+			"{SOURCE Dwarves of Golarion/29}  ",
+			"Torag's wife is a patient goddess used to her husband planning and worrying too much. She is the goddess of motherhood, wives, and children, especially those whose husbands and fathers are at war. She is also the goddess of widows and orphans and does her best to keep Torag's mind fresh so he can minimize dwarven casualties."
 		]
 	},
 	"fumeiyoshi": {
@@ -3277,7 +3314,7 @@
 			">{SOURCE Inner Sea Faiths/41}",
 			">",
 			">1. **Cult of Contagion (Sp)** {spell/ray of sickening} 3/day, {spell/pox pustules} 2/day, or {spell/contagion} 1/day",
-			">2. **Nauseating Strike (Ex)** You know how to use others' capacity for revulsion as a weapon against them. Three times per day, you can make a nauseating strike against an opponent through your weapon, causing the target to feel the effects of a sickening disease. You must declare your use of this ability before you roll your attack, and if your attack misses, the strike is wasted. On a hit, your target must succeed at a Fortitude save (DC = 10 + 1/2 your Hit Dice) or be nauseated for 1d4 rounds, in addition to the normal weapon damage.",
+			">2. **Nauseating Strike (Ex)** You know how to use others' capacity for revulsion as a weapon against them. Three times per day, you can make a nauseating strike against an opponent through your weapon, causing the target to feel the effects of a sickening disease. You must declare your use of this ability before you roll your attack, and if your attack misses, the strike is wasted. On a hit, your target must succeed at a Fortitude save (DC = 10 + 1/2 your Hit Dice) or be {misc/nauseated} for 1d4 rounds, in addition to the normal weapon damage.",
 			">3. **Debilitating Blight (Sp)** Once per day, you can cast {spell/greater contagion} as a spell-like ability, infecting the target with a virulent and debilitating disease that takes effect immediately; the DC to resist this disease is 4 higher than normal. In addition to the effects of the disease, the subject is debilitated with wracking coughs and painful, bursting pustules. The incessant sickness imposes a -2 penalty on the target's attack rolls, weapon damage rolls, saving throws, skill checks, and ability modifiers for a number of rounds equal to your Hit Dice.",
 			">",
 			">### Boons: Exalted",
@@ -3285,7 +3322,7 @@
 			">{SOURCE Inner Sea Faiths/41}",
 			">",
 			">1. **Infectious Blighter (Sp)** {spell/inflict light wounds} 3/day, {spell/accelerate poison} 2/day, or {spell/nauseating trail} 1/day",
-			">2. **Blighting Channel (Su)** You bring the desolation of drought and blight to the landscapes through which you pass. Three times per day when you channel negative energy, you can choose to cause damage to plants and plant creatures instead of healing undead. Creatures with the plant type within range take 1d6 points of damage plus 1d6 additional points for every 2 cleric levels beyond 1st you have (maximum 10d6 at 19th level), and can attempt a Fortitude saving throw (using the same DC as for your regular uses of channel negative energy) for half damage. All normal plants in range immediately wither and die (no saving throw).",
+			">2. **Blighting Channel (Su)** You bring the desolation of drought and blight to the landscapes through which you pass. Three times per day when you {ability/channel negative energy}, you can choose to cause damage to plants and plant creatures instead of healing undead. Creatures with the plant type within range take 1d6 points of damage plus 1d6 additional points for every 2 cleric levels beyond 1st you have (maximum 10d6 at 19th level), and can attempt a Fortitude saving throw (using the same DC as for your regular uses of channel negative energy) for half damage. All normal plants in range immediately wither and die (no saving throw).",
 			">3. **Polluted Servant (Sp)** Ghlaunder gifts his most devoted with servants of living filth that fight on the supplicants' behalf to sow death and disease. Once per day as a standard action, you can summon a hezrou demon to serve you. The demon follows your commands for 1 round for every Hit Die you have before vanishing back to its home. It doesn't obey commands that would make it perform overtly good acts, and if such instructions are particularly egregious, they could prompt the demon to attack you.",
 			">",
 			">### Boons: Sentinel",
@@ -3293,8 +3330,8 @@
 			">{SOURCE Inner Sea Faiths/41}",
 			">",
 			">1. **Poisonous Penitent (Sp)** {spell/nauseating dart} 3/day, {spell/pernicious poison} 2/day, or {spell/poison} 1/day",
-			">2. **Bloodletter (Ex)** You have trained extensively with Ghlaunder's favored weapon in order to cause severe trauma to your enemies, opening their veins so their blood might spill forth as an offering to your god. You gain a +1 profane bonus on all attack and damage rolls with a spear. In addition, when you confirm a critical hit, your target takes 1 point of bleed damage for every 2 character levels you have. Bleeding creatures take that amount of damage every round at the start of their turns. The bleeding can be stopped with a successful DC 15 Heal check or the application of any effect that heals hit point damage. Bleed damage from this ability or any other effect does not stack with itself. Bleed damage bypasses any damage reduction the creature might have.",
-			">3. **Horrible Blow (Sp)** Once per day, you can inflict a debilitating disease upon your target through your weapon. You must declare your use of this ability before you roll your attack. On a hit, the target is affected as if the subject of horrid wilting cast by a wizard of a level equal to your Hit Dice (maximum CL 20th), as well as normal weapon damage. If you miss with your attack, the use of this ability is wasted.",
+			">2. **Bloodletter (Ex)** You have trained extensively with Ghlaunder's favored weapon in order to cause severe trauma to your enemies, opening their veins so their blood might spill forth as an offering to your god. You gain a +1 profane bonus on all attack and damage rolls with a spear. In addition, when you confirm a critical hit, your target takes 1 point of {rule/bleed} damage for every 2 character levels you have. Bleeding creatures take that amount of damage every round at the start of their turns. The bleeding can be stopped with a successful DC 15 Heal check or the application of any effect that heals hit point damage. Bleed damage from this ability or any other effect does not stack with itself. Bleed damage bypasses any damage reduction the creature might have.",
+			">3. **Horrible Blow (Sp)** Once per day, you can inflict a debilitating disease upon your target through your weapon. You must declare your use of this ability before you roll your attack. On a hit, the target is affected as if the subject of {spell/horrid wilting} cast by a wizard of a level equal to your Hit Dice (maximum CL 20th), as well as normal weapon damage. If you miss with your attack, the use of this ability is wasted.",
 			"",
 			"## Follower Options",
 			"",
@@ -3323,11 +3360,13 @@
 			">",
 			">{SOURCE Inner Sea Faiths/44}",
 			">",
-			">- Clerics, druids, and rangers of Ghlaunder, upon first gaining the ability to cast divine spells, may choose to affect vermin instead of animals when using animal-oriented spells (such as animal shapes, detect animals or plants, and hide from animals); these spells can no longer be used to affect animals.",
+			">- Clerics, druids, and rangers of Ghlaunder, upon first gaining the ability to cast divine spells, may choose to affect vermin instead of animals when using animal-oriented spells (such as {spell/animal shapes}, {spell/detect animals or plants}, and {spell/hide from animals}); these spells can no longer be used to affect animals.",
 			"",
 			"### Description",
 			"",
+			"The Gossamer King rejoices in spreading filth and decay, and his goal is nothing short of an incurable plague that infects all living things. Ghlaunder does not seek the world's destruction - indeed, without the living, contagion cannot take root, parasites cannot thrive, and diseases cannot proliferate. Instead, Ghlaunder revels in the world's sickness, and his followers infest communities as surely as any parasite, often in the guise of devout priests of other religions, while working to cultivate filth and fever. His cultists are indiscriminate in their targets - young, old, fit, or frail, it matters not - so long as they pass their affliction on to the next, then they to another, and like the candle held too close to the curtain, the world alights in infection and death.",
 			"",
+			"Ghlaunder takes the form of a bloated mosquito with a barbed proboscis, his engorged abdomen swollen with alien parasites. His home is a great swamp in {rule/the Abyss}, a quagmire where the backwaters of the Styx spread into a great sludge of marsh. The mothers of dying infants or the infirm often appeal to Ghlaunder, and the god sometimes grants respite from sickness. But woe are the gifts of the Gossamer King, for those who fight off their infections often wake from their fevered dreams to find their own lives were spared, while they were responsible for the contagion and resulting deaths of their closest loved ones.",
 			"",
 			"[^A]: Requires the {trait/Acolyte of Apocrypha} trait."
 		]
@@ -3556,7 +3595,10 @@
 	},
 	"magrim": {
 		"name": "Magrim",
-		"sources": [ "Faiths of Golarion" ],
+		"sources": [
+			"Faiths of Golarion",
+			"Inner Sea Gods"
+		],
 		"description": [
 			"::fh[Magrim]{sub=\"The Taskmaster\"}",
 			"",
@@ -3597,7 +3639,7 @@
 			">{SOURCE Faiths of Golarion/41}",
 			">",
 			">1. **Grave Watcher (Sp)** {spell/deathwatch} 3/day, {spell/gentle repose} 2/day, or {spell/blessing of the mole} 1/day",
-			">2. **Rune of Measurement (Su)** You can learn about the judgment passed on the soul of a deceased creature. As a standard action, you can cause runes to appear on an adjacent, unattended corpse, which you can read to attempt to gain insight into the deceased or its soul. If the creature has been dead for a year or less, you can attempt a Knowledge (planes) check with a DC equal to the DC for a monster lore check about the creature when it was alive. If successful, you learn information as if you had used the appropriate Knowledge skill to learn about the creature when it was living. If the creature has been dead for more than a year, you have a 75% chance of learning what plane its soul was sent to by Pharasma and a 25% chance of learning nothing. If the soul has not yet been judged, has somehow escaped judgment, or has been reincarnated, you receive nothing (which is indistinguishable from the 25% of the time this ability fails). The results of multiple attempts to learn about the same corpse within a year are always the same.",
+			">2. **Rune of Measurement (Su)** You can learn about the judgment passed on the soul of a deceased creature. As a standard action, you can cause runes to appear on an adjacent, unattended corpse, which you can read to attempt to gain insight into the deceased or its soul. If the creature has been dead for a year or less, you can attempt a Knowledge (planes) check with a DC equal to the DC for a monster lore check about the creature when it was alive. If successful, you learn information as if you had used the appropriate Knowledge skill to learn about the creature when it was living. If the creature has been dead for more than a year, you have a 75% chance of learning what plane its soul was sent to by {faith/Pharasma} and a 25% chance of learning nothing. If the soul has not yet been judged, has somehow escaped judgment, or has been reincarnated, you receive nothing (which is indistinguishable from the 25% of the time this ability fails). The results of multiple attempts to learn about the same corpse within a year are always the same.",
 			">3. **Death Words (Su)** When you deliver the killing blow to a creature, you gain the ability to ask it a single question as if you had cast {spell/speak with dead}. Asking the question is a standard action, which you must use within a number of minutes equal to your Hit Dice.",
 			">",
 			">### Boons: Sentinel",
@@ -3605,8 +3647,8 @@
 			">{SOURCE Faiths of Golarion/41}",
 			">",
 			">1. **Lawgiver (Sp)** {spell/command} 3/day, {spell/ghostbane dirge} 2/day, or {spell/explosive runes} 1/day",
-			">2. **Endbringer (Su)** Three times per day as a standard action, you can drive back undead creatures. This functions as if you had used the {feat/Turn Undead} feat (though you do not need to have the channel energy ability or expend uses of channel energy to do this), and the save DC is 10 + half your character level + your Intelligence, Wisdom, or Charisma modifier (whichever is highest).",
-			">3. **Soulforger (Sp)** Once per day, you can show a creature within 60 feet a flash of what work remains in order for them to be ready for the afterlife. The target must attempt a Will saving throw (DC = 10 + half your character level + your Intelligence, Wisdom, or Charisma modifier [whichever is highest]). If it fails its save, you show it a mental image of its destined plane in the afterlife, depending on the creature's alignment and its adherence to its ethos, if it succeeds at finishing its mortal business. If the target is good-aligned, it is fascinated for 1d4 rounds on a failed save. If the target is neutral-aligned, it is confused for 1d4 rounds on a failed save. If the target is evil-aligned, it is staggered for 1d4 rounds on a failed save.",
+			">2. **Endbringer (Su)** Three times per day as a standard action, you can drive back undead creatures. This functions as if you had used the {feat/Turn Undead} feat (though you do not need to have the {ability/channel energy} ability or expend uses of channel energy to do this), and the save DC is 10 + half your character level + your Intelligence, Wisdom, or Charisma modifier (whichever is highest).",
+			">3. **Soulforger (Sp)** Once per day, you can show a creature within 60 feet a flash of what work remains in order for them to be ready for the afterlife. The target must attempt a Will saving throw (DC = 10 + half your character level + your Intelligence, Wisdom, or Charisma modifier [whichever is highest]). If it fails its save, you show it a mental image of its destined plane in the afterlife, depending on the creature's alignment and its adherence to its ethos, if it succeeds at finishing its mortal business. If the target is good-aligned, it is {misc/fascinated} for 1d4 rounds on a failed save. If the target is neutral-aligned, it is {misc/confused} for 1d4 rounds on a failed save. If the target is evil-aligned, it is {misc/staggered} for 1d4 rounds on a failed save.",
 			"",
 			"## Paladin Code",
 			"",
@@ -3642,7 +3684,14 @@
 			"",
 			"### Description",
 			"",
-			""
+			"{SOURCE Faiths of Golarion/42}  ",
+			"Known as the Taskmaster, Magrim oversees ensuring that dwarven souls have appropriate, fulfilling tasks in life and are prepared for the next step of their existence after death. When dwarves fall short of this state of readiness, Magrim seeks to reshape them through whatever means are necessary to allow them to fulfill their roles. In life, the purpose of these tasks is to build something great and feel satisfaction in having done so, while the labors Magrim provides in the afterlife are meant to give the souls of departed dwarves eternal purpose and contentment.",
+			"",
+			"Magrim is not a divinity who revels in complex plans or obscure destinies, instead preferring to act as straightforwardly as possible. As a lawgiver and overseer of the dead, Magrim believes in ensuring that all creatures have the tools needed to do all the things asked of them. While Torag created the dwarven race at his forge and sends them riddles and omens to help guide them, it was the more staid Magrim who taught the first dwarves how to properly commune with their gods.",
+			"",
+			"Magrim is also the keeper of a series of named runes, which he uses to judge the qualities and temper of a dwarven soul before bringing it before {faith/Pharasma}. Each rune has its own power related to a specific concept and, on rare occasions, Magrim loans such runes out to his most faithful followers to aid them in accomplishing specific tasks. However, most runes in the possession of his church are holy runeplates, infused with the power of runes as taught to his followers, but not the true runes Magrim carries for his own use.",
+			"",
+			"Magrim is depicted as an ancient dwarf with black iron skin and molten orange eyes. His head is bald, and the white hair of his beard is woven into multiple braids of varying thickness. He wears a thick blacksmith's apron made of stone and holds a red-hot blacksmith's hammer in his rune-carved stone blacksmith's gloves."
 		]
 	},
 	"mahathallah": {
@@ -3937,7 +3986,10 @@
 	},
 	"marishi": {
 		"name": "Marishi",
-		"sources": [ "Inner Sea Gods" ],
+		"sources": [
+			"Inner Sea Gods",
+			"Chronicle of the Righteous"
+		],
 		"description": [
 			"::fh[Marishi]{sub=\"The Festival Queen\"}",
 			"",
@@ -3968,7 +4020,8 @@
 			"",
 			"### Description",
 			"",
-			""
+			"{SOURCE Chronicle of the Righteous/54}  ",
+			"Contests, feats of strength, and athletics are the purview of Marishi. Her followers encourage boisterous competition and fair bouts."
 		]
 	},
 	"matravash": {
@@ -4445,7 +4498,7 @@
 			">",
 			">1. **Sacred Partisan (Sp)** {spell/divine favor} 3/day, {spell/spiritual weapon} 2/day, or {spell/magic vestment} 1/day",
 			">2. **Alleyport (Sp)** As the patron deity of urban uprisings, the Everbloom grants you the power to appear wherever in a settlement, dungeon, or other tight space you are most needed, or to escape to fight another day. Once per day as a swift action, you can teleport as per {spell/dimension door}, but only when you are in an area no wider than your space, and you can arrive in only an area of similar width.",
-			">3. **Wall of Roses (Sp)** You can call upon Milani's symbolic roses to defend the innocent and the righteous while stymieing oppressors and their minions. Once per day, you can cast wall of thorns. The wall consists of a dense tangle of roses through which you and other worshipers of Milani can pass with ease. The wall of roses heals from damage dealt to it at a rate of 5 hit points per round; it is immune to fire damage; and all piercing damage it deals bypasses damage reduction as if it were a good, magic, and silver weapon. Evil and lawful creatures damaged by a wall of roses automatically become sickened for the next minute (this is a poison effect).",
+			">3. **Wall of Roses (Sp)** You can call upon Milani's symbolic roses to defend the innocent and the righteous while stymieing oppressors and their minions. Once per day, you can cast {spell/wall of thorns}. The wall consists of a dense tangle of roses through which you and other worshipers of Milani can pass with ease. The wall of roses heals from damage dealt to it at a rate of 5 hit points per round; it is immune to fire damage; and all piercing damage it deals bypasses damage reduction as if it were a good, magic, and silver weapon. Evil and lawful creatures damaged by a wall of roses automatically become {misc/sickened} for the next minute (this is a poison effect).",
 			">",
 			">### Boons: Sentinel",
 			">",
@@ -4453,7 +4506,7 @@
 			">",
 			">1. **Neighborhood Guardian (Sp)** {spell/protection from evil} 3/day, {spell/shield other} 2/day, or {spell/magic circle against evil} 1/day",
 			">2. **Stoic Guardian (Ex)** Inspired by Milani's valor and steadfastness, you refuse to let magic corrupt your thoughts and deny fear any hold on your actions. You are immune to fear and charm effects, and gain a +4 sacred bonus on all saving throws against compulsion effects.",
-			">3. **Martyrdom (Su)** Your deeds and faith have earned you the Everbloom's blessing to give your life for a worthy cause and still fight on, and she shelters you in battle. As an immediate action once per day, whenever a single creature within 300 feet of you is slain by an effect or hit point damage, you can redirect that effect or damage onto yourself. You gain no saving throw to reduce effects redirected in this manner. If the effect kills you, you are restored to life in 1d4 rounds, as per {spell/resurrection}, but once this resurrection effect occurs, you lose the ability to use martyrdom for 1 year.",
+			">3. **Martyrdom (Su)** Your deeds and faith have earned you the Everbloom's blessing to give your life for a worthy cause and still fight on, and she shelters you in battle. As an immediate action once per day, whenever a single creature within 300 feet of you is slain by an effect or hit point damage, you can redirect that effect or damage onto yourself. You gain no saving throw to reduce effects redirected in this manner. If the effect kills you, you are restored to life in 1d4 rounds, as per {spell/resurrection}, but once this resurrection effect occurs, you lose the ability to use *martyrdom* for 1 year.",
 			"",
 			"## Follower Options",
 			"",
@@ -4532,7 +4585,11 @@
 			"",
 			"### Description",
 			"",
-			""
+			"Milani is relatively a new god, having ascended to full divinity only in the last century. Born a half-elf in a community of Forlorn elves over 2 millennia ago, Milani was raised to believe that the elves would one day return to restore true civilization to Golarion. When the demon {faith/Treerazer} attacked Kyonin and the elves did not return to stop him, she embraced her human heritage and used her skills as a ranger to strike at Treerazer's minions. For this, the living god {faith/Aroden} blessed her and tasked her with protecting isolated human settlements. As Aroden's champion, she famously defended the common folk against monsters, barbarians, oppressive lords, and diabolists for nearly a century. In reward for her service, Aroden sainted her and restored her youth. She spent the subsequent centuries crafting visions to inspire mortals to greatness. Upon Aroden's death, bearing a tiny portion of the Last Azlanti's power and maintaining part of his realm allowed her to gain a foothold on divinity.",
+			"",
+			"Also known as the Everbloom, Milani is an outgoing goddess who still clearly remembers mortal life. Her religion is young and small enough for her to take a personal interest in the lives of her followers. Milani's ability to directly intervene in the mortal world is constrained, but she offers advice flavored with familiarity and jokes whenever she is able. She sees every object as a tool for fighting oppression, from a common {eq-weapon/scythe} that can cut through binding ropes to a printing press than can subvert a tyrant's reputation. She also teaches that a common purpose makes the whole greater than the sum of the individual parts - whether that purpose is to start a revolution, drive out an unscrupulous lender, or just get through a rough spot in a marriage. A person must recognize and take advantage of her strengths, acknowledge and compensate for her faults, and push past despair to victory.",
+			"",
+			"Milani manifests as a half-elven woman in the prime of life with stark white hair and white swan's wings. She is usually dressed as a ranger, clad in homemade light armor made of leather and wood, and she carries a morningstar and shield. In art, she is usually shown breaking chains, slaying fiends, and leading peasants to overwhelm evil-looking knights."
 		]
 	}
 }

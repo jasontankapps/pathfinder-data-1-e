@@ -3378,7 +3378,10 @@
 	},
 	"benorus": {
 		"name": "Benorus",
-		"sources": [ "Inner Sea Gods" ],
+		"sources": [
+			"Inner Sea Gods",
+			"Chronicle of the Righteous"
+		],
 		"description": [
 			"::fh[Benorus]{sub=\"Angel of Lightless Chambers\"}",
 			"",
@@ -3409,12 +3412,16 @@
 			"",
 			"### Description",
 			"",
-			""
+			"{SOURCE Chronicle of the Righteous/54}  ",
+			"The Angel of Lightless Chambers watches over good subterranean creatures. His servants explore underground areas in search of lost knowledge and hidden wonders."
 		]
 	},
 	"bergelmir": {
 		"name": "Bergelmir",
-		"sources": [ "Inner Sea Gods" ],
+		"sources": [
+			"Inner Sea Gods",
+			"Giants Revisited"
+		],
 		"description": [
 			"::fh[Bergelmir]{sub=\"Mother of Memories\"}",
 			"",
@@ -3435,7 +3442,8 @@
 			"",
 			"### Description",
 			"",
-			""
+			"{SOURCE Giants Revisited/54}  ",
+			"Matronly Bergelmir is the venerable and staid goddess of wisdom, history, family, and elders, while sly {faith/Skrymir} is a witty wanderer, god of riddles, trickery, wanderlust, cleverness, and magic; the two are usually portrayed as siblings, cousins, or mother and son. Together, they represent storm giants' urge for discovery and wandering, yet also their innate roots to their families and the hearthstone."
 		]
 	},
 	"bes": {
@@ -3472,7 +3480,8 @@
 		"sources": [
 			"Inner Sea Faiths",
 			"Inner Sea Gods",
-			"Pathfinder #55: The Wormwood Mutiny"
+			"Pathfinder #55: The Wormwood Mutiny",
+			"Gods and Magic"
 		],
 		"description": [
 			"::fh[Besmara]{sub=\"The Pirate Queen\"}",
@@ -3507,23 +3516,23 @@
 			">",
 			">1. **Tricky Adversary (Sp)** {spell/illusion of calm} 3/day, {spell/daze monster} 2/day, or {spell/twilight knife} 1/day",
 			">2. **Coerce Service (Su)** You understand and can exhibit the blatantly charismatic pull of your goddess, convincing others to aid you even if they normally might not. Once per day, when you attempt a Diplomacy check to bribe a target (treat as if you are attempting to improve an NPC's attitude toward you by one step) or an Intimidate check to coerce a target, you can use this ability to gain Besmara's blessing to ensure further cooperation. You gain a +4 sacred or profane bonus (of the same type as that provided by your obedience) on the Diplomacy or Intimidate check, and if you succeed, the target is immediately subject to a {spell/geas//quest} effect. For as long as the effect lasts, you can concentrate as a standard action and learn whether the target is actively undertaking your orders or actively defying them.",
-			">3. **Bribed Sea Monster (Sp)** The sea monsters at Besmara's behest follow your call at the goddess's command. Once per day as a standard action, you can summon one of the monsters Besmara has bribed or intimidated into aiding her followers. You must choose the monster from among the following list: adult sea dragon, sea serpent, or vouivre. The monster appears as if summoned via summon monster, and you must summon it into an appropriately watery environment. It follows your commands perfectly for 1 round per Hit Die you possess before vanishing. The monster doesn't follow commands that contravene Besmara's interests, such as blocking waterways or giving a navy better control of a sea region; issuing such untenable instructions, if they're egregious, could cause the monster to attack you.",
+			">3. **Bribed Sea Monster (Sp)** The sea monsters at Besmara's behest follow your call at the goddess's command. Once per day as a standard action, you can summon one of the monsters Besmara has bribed or intimidated into aiding her followers. You must choose the monster from among the following list: {monster/adult sea dragon}, {monster/sea serpent}, or {monster/vouivre}. The monster appears as if summoned via {spell/summon monster>_1}, and you must summon it into an appropriately watery environment. It follows your commands perfectly for 1 round per Hit Die you possess before vanishing. The monster doesn't follow commands that contravene Besmara's interests, such as blocking waterways or giving a navy better control of a sea region; issuing such untenable instructions, if they're egregious, could cause the monster to attack you.",
 			">",
 			">### Boons: Exalted",
 			">",
 			">{SOURCE Inner Sea Faiths/23}",
 			">",
 			">1. **Captain's Bluster (Sp)** {spell/command} 3/day, {spell/aggressive thundercloud} 2/day, or {spell/wind wall} 1/day",
-			">2. **Treacherous Mirage (Sp)** Besmara's blessing allows you to hide the truth once per day. This ability takes the form of either false vision or mirage arcana. You can change the illusion by spending a move action in concentration. The illusion lasts until you create a new one or dismiss this effect as a swift action.",
-			">3. **Rally Crew (Su)** The Pirate Queen lends you her divine panache, which fills all of your allies with courage and pride in their service to you. Once per day as a standard action, you can inspire all allies within 60 feet to greater speed and might. They each gain a 10-foot bonus to their speed and the benefits of heroism. On any attack rolls, saving throws, or skill checks benefiting from this morale bonus, your allies take no penalties due to the effects of water or weather. The bonus lasts for 1 hour per Hit Die you possess. As an immediate action, you can cause any number of creatures who disobey your orders to lose this bonus.",
+			">2. **Treacherous Mirage (Sp)** Besmara's blessing allows you to hide the truth once per day. This ability takes the form of either {spell/false vision} or {spell/mirage arcana}. You can change the illusion by spending a move action in concentration. The illusion lasts until you create a new one or dismiss this effect as a swift action.",
+			">3. **Rally Crew (Su)** The Pirate Queen lends you her divine panache, which fills all of your allies with courage and pride in their service to you. Once per day as a standard action, you can inspire all allies within 60 feet to greater speed and might. They each gain a 10-foot bonus to their speed and the benefits of {spell/heroism}. On any attack rolls, saving throws, or skill checks benefiting from this morale bonus, your allies take no penalties due to the effects of water or weather. The bonus lasts for 1 hour per Hit Die you possess. As an immediate action, you can cause any number of creatures who disobey your orders to lose this bonus.",
 			">",
 			">### Boons: Sentinel",
 			">",
 			">{SOURCE Inner Sea Faiths/23}",
 			">",
 			">1. **Fearsome Boast (Sp)** {spell/monkey fish} 3/day, {spell/slipstream} 2/day, or {spell/water breathing} 1/day",
-			">2. **Doom of Sailors (Sp)** You can immobilize ships or scatter a fleet with a wave of your hand. Once per day, you can cast either control water or control winds.",
-			">3. **Pirate Queen's Curse (Su)** You know that the Pirate Queen's enemies are destined to suffer, and you can deliver her wrath personally. Three times per day, you can channel a curse through your weapon. You must declare your use of this ability before you make the attack roll. On a hit, the target is cursed unless it succeeds at a Will saving throw to negate the effect (DC = 10 + 1/2 your Hit Dice + your Charisma modifier). The curse causes the target to be sickened for a number of days equal to your Hit Dice; furthermore, during this period, any creatures flanking the target or against which it is denied its Dexterity bonus to AC deal an additional 1d6 points of damage with every successful hit. This extra damage applies to the attack that delivers the curse. In addition, all creatures with a swim speed have a starting attitude of hostile toward the target. This is a 7th-level curse effect. The curse cannot be dispelled, but it can be removed through {spell/break enchantment}, {spell/limited wish}, {spell/miracle}, {spell/remove curse}, or {spell/wish}.",
+			">2. **Doom of Sailors (Sp)** You can immobilize ships or scatter a fleet with a wave of your hand. Once per day, you can cast either {spell/control water} or {spell/control winds}.",
+			">3. **Pirate Queen's Curse (Su)** You know that the Pirate Queen's enemies are destined to suffer, and you can deliver her wrath personally. Three times per day, you can channel a curse through your weapon. You must declare your use of this ability before you make the attack roll. On a hit, the target is cursed unless it succeeds at a Will saving throw to negate the effect (DC = 10 + 1/2 your Hit Dice + your Charisma modifier). The curse causes the target to be {misc/sickened} for a number of days equal to your Hit Dice; furthermore, during this period, any creatures {rule/flanking} the target or against which it is denied its Dexterity bonus to AC deal an additional 1d6 points of damage with every successful hit. This extra damage applies to the attack that delivers the curse. In addition, all creatures with a swim speed have a starting attitude of hostile toward the target. This is a 7th-level curse effect. The curse cannot be dispelled, but it can be removed through {spell/break enchantment}, {spell/limited wish}, {spell/miracle}, {spell/remove curse}, or {spell/wish}.",
 			"",
 			"## Antipaladin Code",
 			"",
@@ -3590,7 +3599,7 @@
 			">",
 			">{SOURCE Pathfinder #55: The Wormwood Mutiny/72}",
 			">",
-			">- A cleric of Besmara may give up one domain in exchange for a bird, {monster/blue-ringed octopus}, {monster/king crab}, {monster/monkey}, or any of the familiars presented in the Core Rulebook. The cleric uses her cleric level as her effective wizard level for this purpose. A ranger who worships Besmara may select any of the creatures listed above as a familiar instead of choosing an animal companion. The ranger's effective wizard level for this ability is equal to his ranger level - 3.",
+			">- A cleric of Besmara may give up one domain in exchange for a bird, {monster/blue-ringed octopus}, {monster/king crab}, {monster/monkey}, or any of the {ability/familiar/s} presented in the Core Rulebook. The cleric uses her cleric level as her effective wizard level for this purpose. A ranger who worships Besmara may select any of the creatures listed above as a familiar instead of choosing an animal companion. The ranger's effective wizard level for this ability is equal to his ranger level - 3.",
 			">",
 			">{SOURCE Inner Sea Faiths/26}",
 			">",
@@ -3601,7 +3610,13 @@
 			"",
 			"### Description",
 			"",
+			"{SOURCE Inner Sea Faiths/24}  ",
+			"Originally, Besmara was a powerful water spirit with an affinity for manipulating sea monsters. She gained fame among primitive tribes who bribed her to drive these creatures toward rival coastal villages; later, when tribes began boat raids on other settlements, she could be bribed to send her monsters to fend off these attacks or arrange for predation-free sailing for the aggressors. Sometime before the Age of Enthronement, after long playing both sides, she consumed rival spirits of wood, gold, and battle to become a minor goddess. Her influence has since waxed and waned alongside the naval powers of coastal empires. Besmara is content with her current level of strength and notoriety and knows she cannot unseat a more popular deity (though if she had such an opportunity, she just might take it), so she entertains herself by raiding the outposts of celestials, fiends, and minor divinities.",
 			"",
+			"The Pirate Queen appears as a brash, raven-haired pirate captain of any race she pleases, flamboyantly dressed - typically in colored pantaloons, black boots, a blousy shirt, and a hat (a bicorne, tricorne, or bandana). Despite her inhuman origins, she does not take any monstrous forms, even when angered, though swarms of sea creatures have been known to crawl out of her clothing to do her bidding.",
+			"",
+			"{SOURCE Gods and Magic/45}  ",
+			"Few pirates have the time or interest for zealous devotion to a deity and don't bother praying to her until they are face to face with death. Her role as goddess of sea monsters does not endear her to intelligent aquatic things such as aboleths, sahuagin, and kraken, as to her sea monsters are more like vicious dogs that obey her command to heel than loyal creatures who comply her out of respect. The undersea races venerate their own strange gods and give Besmara a wide berth, lest they find themselves compelled to obey her orders. She enjoys conflict more than peace, as when two nations squabble it gives her more opportunities to plunder both sides and blame her attacks on the victim's rival; her followers have been known to stir up trouble by sailing aggressively (or even attacking) using temperamental nation's colors or falsely claiming to be \"legitimate privateers\" as they attack in peacetime.",
 			"",
 			"[^B]: This can only be used to cause an aversion to boats, ships, or open bodies of water."
 		]
@@ -3851,7 +3866,10 @@
 	},
 	"bolka": {
 		"name": "Bolka",
-		"sources": [ "Inner Sea Gods" ],
+		"sources": [
+			"Inner Sea Gods",
+			"Dwarves of Golarion"
+		],
 		"description": [
 			"::fh[Bolka]{sub=\"The Golden Gift\"}",
 			"",
@@ -3887,7 +3905,11 @@
 			"",
 			"### Description",
 			"",
-			""
+			"{SOURCE Dwarves of Golarion/29}  ",
+			"Daughter of {faith/Torag} and {faith/Folgrit}, this happy goddess has long blonde hair and a figure that would make even the most reserved dwarf catch his breath. She makes arranged marriages blossom into love and inspires confirmed bachelors to decide to seek a wife.",
+			"",
+			"{SOURCE Inner Sea Gods/182}  ",
+			"Bolka bestows love on arranged unions and encourages the unwed to seek companionship. Newlyweds place gold under their pillows to invoke her blessing, and miners who uncover perfectly symmetrical gemstones are said to have her favor."
 		]
 	},
 	"braismois": {
@@ -4045,7 +4067,14 @@
 			"",
 			"### Description",
 			"",
+			"{SOURCE Inner Sea Faiths/29}  ",
+			"Brigh is a patient, calm inventor willing to learn from mistakes and constantly trying to improve her work. Quiet and reserved, she is careful to not offend with casual words or gestures. However, she is not without emotion, and treasures the things her followers craft in her name. There is a special place in her mechanical heart for intelligent constructs, and she punishes anyone who abuses them.",
 			"",
+			"The goddess teaches that people should build upon the work of others and share their own achievements to be improved upon. Creations are to be treated like children, as a legacy of which to be proud. Paying attention to details is critical; one should identify a problem, plot a course of action to correct that problem, and try a different course if the first doesn't work.",
+			"",
+			"Brigh's past is so mysterious that her own priests have several theories regarding her origin. Some preach she was originally a created being that moved beyond the faculties of a normal construct and gained a spark of life and divinity. Others believe she was once a living person, a talented prodigy studying alchemy and clockwork who spent centuries working in isolation. By uniting disparate theories of natural life and construct creation, she was able to seamlessly fuse mechanical parts with her body to attain incredible powers of strength, agility, and mental calculation, eventually perfecting herself into something on the border between mortal and god.",
+			"",
+			"Brigh sometimes manifests as a slender human woman made of bronze clockwork. Other times she appears as a humanoid woman with perfectly symmetrical features wearing clockwork armor (parts of which she can split off and transform into clockwork weapons) and a bronze skullcap. It is unclear which of these is her actual form, or whether both are aspects of her true self. In her clockwork form, Brigh can open a cavity in her chest and draw out perfectly crafted mechanisms she then bestows on other creatures or releases to operate as independent creatures.",
 			"",
 			"[^A]: Requires the {trait/Acolyte of Apocrypha} trait."
 		]
@@ -4269,7 +4298,7 @@
 			">{SOURCE Inner Sea Gods/28}",
 			">",
 			">1. **Warpsong (Sp)** {spell/saving finale} 3/day, {spell/piercing shriek} 2/day, or {spell/sculpt sound} 1/day",
-			">2. **Shimmering Sting (Sp)** Once per day, you can cast rainbow pattern. Rather than appearing as a multitude of colors, this spell manifests as a swarm of shimmering wasps. The wasps shine as brightly as gold and fly in an intricate, mesmerizing pattern. The saving throw DC for this ability is Charisma-based.",
+			">2. **Shimmering Sting (Sp)** Once per day, you can cast {spell/rainbow pattern}. Rather than appearing as a multitude of colors, this spell manifests as a swarm of shimmering wasps. The wasps shine as brightly as gold and fly in an intricate, mesmerizing pattern. The saving throw DC for this ability is Charisma-based.",
 			">3. **Vengeful Song (Su)** You can reflect a spell targeted against you back at its source with a blast of scornful music. Once per day when you have been specifically targeted by a spell, you may attempt a Perform check as an immediate action. If your Perform check equals or exceeds the spell's save DC, the spell returns immediately to its caster, who must suffer its effects. The caster can attempt a saving throw as normal to negate the returned spell's effects. If the spell normally allows no saving throw, calculate the Perform DC as if the spell did allow a save, taking into account any feats or special abilities the caster may have that would affect the DC. If the spell had multiple targets (for example, a {spell/magic missile} with three bolts, one of which was targeted at you), you reflect only the portion of the spell targeting you. This ability has no effect on area spells or any spells whose description has no Target entry.",
 			">",
 			">### Boons: Exalted",
@@ -4277,7 +4306,7 @@
 			">{SOURCE Inner Sea Gods/28}",
 			">",
 			">1. **Calistria's Tongue (Sp)** {spell/charm person} 3/day, {spell/eagle's splendor} 2/day, or {spell/suggestion} 1/day",
-			">2. **Stunning Touch (Su)** When using the dazing touch power granted by the Charm domain, you can cause the creature touched to become stunned for 1 round instead of dazed. If you don't have access to the Charm domain, you instead gain the ability to use the dazing touch power a number of times per day equal to 3 + your Wisdom modifier, as listed in the ability; however, you only daze your opponents instead of stunning them.",
+			">2. **Stunning Touch (Su)** When using the dazing touch power granted by the {domain/Charm} domain, you can cause the creature touched to become {misc/stunned} for 1 round instead of {misc/dazed}. If you don't have access to the Charm domain, you instead gain the ability to use the dazing touch power a number of times per day equal to 3 + your Wisdom modifier, as listed in the ability; however, you only daze your opponents instead of stunning them.",
 			">3. **Protective Grace (Ex)** You may add your Charisma bonus to your AC while wearing light or no armor. This bonus applies against touch attacks. Any condition that would cause you to lose your Dexterity bonus to AC also causes you to lose your Charisma bonus to AC.",
 			">",
 			">### Boons: Sentinel",
@@ -4436,7 +4465,16 @@
 			"",
 			"### Description",
 			"",
+			"{SOURCE Inner Sea Gods/29}  ",
+			"Calistria is the most widely worshiped elven goddess on Golarion - an ancient deity with a long memory for old slights, at once mysterious, alluring, temperamental, and passionate. Although most of her worshipers are {race/elves}, she is popular with other races as well, for at some point almost everyone has felt the fire of lust, engaged in trickery, or been driven to revenge. She is not so much a spiritual guide for the elven people as a cornerstone for their culture, never pushing them to act but always ready to assist when the time comes for action.",
 			"",
+			"The Savored Sting is a sultry manifestation of everything in elves that is fascinating to other races, attracting men and women alike with her raw sexual magnetism. Her beauty is typically characterized as sensual, desirable, and arousing, or described in more vulgar terms. Gazing on Calistria's clothed body, viewers wonder what she looks like naked; her nude form drives their curiosity to even more intimate places. Although she considers herself female, Calistria has been known to take on a male form that is attractive enough to make any mortal flushed and weak in the knees.",
+			"",
+			"She is mischievous, perplexing, devious, and silver-tongued, disarming her most powerful rivals with pretty words that, upon careful reflection, reveal themselves as humiliating insults. She \"surrenders\" by convincing enemies to hand over their weapons, leads suitors on for decades with hints of outrageous rewards, and outwits the most brilliant mortals as an afterthought. Though her sense of humor is rich and sharp, she considers silly jokes and crude pranks beneath one who can convey an hour's speech in one small gesture and a lifetime of emotion with a careful look. Lies are her meat and drink, half-truths are her favorite wine, and double entendres are a luscious dessert.",
+			"",
+			"Some mortals, unable to emulate or understand her shifting interests and allegiances, accuse Calistria of being evil, but in truth, she is simply amoral, eschewing right, wrong, and justice because she knows that the universe is not a fair place. If others choose to follow her path, so be it; if some are hurt by such a decision, she stands as a reminder that every creature has the right - and the responsibility - to avenge their injuries.",
+			"",
+			"Calistria is usually depicted as a beautiful elven woman wearing a figure-hugging black dress accented with gold, often with a black or golden silk drape falling from her arms or drawn seductively across her face. Her eyes are dark and mysterious, but sometimes flash gold with passion or anger. She is commonly shown with giant wasps, her favorite creature - for unlike bees, wasps can sting again and again without dying. In her male form she usually wears a masculine version of her normal shape, with black leggings and a loose golden jerkin and cape, eyes smoldering with barely contained passion. Depending on the views of the surrounding society, Calistria's worshipers are also not afraid of depicting her in more scandalous attire or situations, and sexually explicit art featuring the goddess is common.",
 			"",
 			"[^A]: Requires the {trait/Acolyte of Apocrypha} trait.",
 			"[^C]: Note that those with the Charm domain have access to this spell earlier."

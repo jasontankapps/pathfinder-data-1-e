@@ -3380,6 +3380,7 @@
 		]
 	},
 	"tletli": { "copyof": "couatl_tletli" },
+	"tletli_couatl": { "copyof": "couatl_tletli" },
 	"couatl_xiuh_couatl": {
 		"name": "Xiuh Couatl",
 		"sources": [ "Pathfinder #106: For Queen and Empire" ],
