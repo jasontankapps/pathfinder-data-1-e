@@ -1132,7 +1132,10 @@
 	},
 	"lanishra": {
 		"name": "Lanishra",
-		"sources": [ "Inner Sea Gods" ],
+		"sources": [
+			"Inner Sea Gods",
+			"Belkzen, Hold of the Orc Hordes"
+		],
 		"description": [
 			"::fh[Lanishra]{sub=\"The Slavelord\"}",
 			"",
@@ -1159,7 +1162,10 @@
 			"",
 			"### Description",
 			"",
-			""
+			"{SOURCE Belkzen, Hold of the Orc Hordes/28}  ",
+			"Lanishra is the orc god of rulership. He assures orcs of their inherent superiority over all other humanoids, and over most other creatures as well. The Slavelord does not believe in peers, teaching that in all relationships one party is superior to the other. An orc must know his place in the pecking order, but he must never be satisfied unless he's at the top. For a follower of Lanishra, it's better to be feared than loved, for only those who can dominate others deserve to lead.",
+			"",
+			"Lanishra is depicted as an orc chieftain, richly attired (for an orc), but armed for a fight. His favored weapon is the war flail: a mockery of the farmer's tool, unsuitable for threshing grain but ideal for flaying those who disobey him or deign to think themselves his better. Lanishra teaches that a warrior's job is to excel at warfare and that manual labor is beneath him. The reward for a warrior's work is the free acquisition of the goods produced by those he conquers - both from their past labors and those carried out under his whip. Lanishra's philosophy is most at odds with those of {faith/Nulgreth} and {faith/Zagresh}, who would rather kill than enslave. Yet his fiercest rival is {faith/Verex}, whose desire for slaves equals the Slavelord's; despite their shared goal, the two rarely get along."
 		]
 	},
 	"lao_shu_po": {
@@ -1917,8 +1923,8 @@
 			">{SOURCE The First World, Realm of the Fey/24}",
 			">",
 			">1. **Prankster's Touch (Sp)** {spell/disguise self} 3/day, {spell/hideous laughter} 2/day, or {spell/suggestion} 1/day",
-			">2. **Transform Others (Sp)** You can cast polymorph any object once per day.",
-			">3. **Anyone and Anything (Sp)** You can cast shapechange once per day.",
+			">2. **Transform Others (Sp)** You can cast {spell/polymorph any object} once per day.",
+			">3. **Anyone and Anything (Sp)** You can cast {spell/shapechange} once per day.",
 			"",
 			"## Follower Options",
 			"",
@@ -1936,7 +1942,11 @@
 			"",
 			"### Description",
 			"",
-			""
+			"Even on a plane filled with tricksters and illusions, the Lantern King is a prankster without peer, making the lives of those he touches more interesting - often at their expense.",
+			"",
+			"The Lantern King usually appears as a 1-foot-wide ball of floating golden light that shifts in color when making a point or expressing emotion, sometimes circled by glowing runes in the shape of a coronet. His form has led many to suggest that he was the original archetype for {monster/lantern archon/s} or else the progenitor of all {monster/will-o'-wisp/s} - both claims he laughs off without answering. Other than his name, the only outward sign of the Lantern King's gender is his voice, a booming, merry baritone. While his preferred form as a ball of light is his most common and thus presumably true appearance, the Lantern King is also fond of transforming into the shapes of other creatures for the purposes of mischief, up to and including impersonating other Eldest.",
+			"",
+			"According to the Laughing Lie, his sole purpose is to make the First World less boring, preferably with the injection of a little good-natured chaos and confusion. Unfortunately for the plane's other residents, what amuses the Lantern King isn't always comfortable or pleasant, and even his \"good-natured\" pranks can be deeply inconvenient."
 		]
 	},
 	"the_lost_prince": {
@@ -1969,8 +1979,8 @@
 			">{SOURCE The First World, Realm of the Fey/26}",
 			">",
 			">1. **Knowledge of the Lost (Sp)** {spell/identify} 3/day, {spell/locate object} 2/day, or {spell/crushing despair} 1/day",
-			">2. **Forgetfulness (Sp)** Three times per day as a standard action, you can alter a creature's memories as per modify memory, except that doing so takes only a standard action regardless of how much time is edited. By expending two uses of this ability at once, you can modify up to 1 hour of the creature's memory; by expending all three uses at once, you can modify up to 1 day.",
-			">3. **Absolute Solitude (Sp)** Once per day, you can cast imprisonment.",
+			">2. **Forgetfulness (Sp)** Three times per day as a standard action, you can alter a creature's memories as per {spell/modify memory}, except that doing so takes only a standard action regardless of how much time is edited. By expending two uses of this ability at once, you can modify up to 1 hour of the creature's memory; by expending all three uses at once, you can modify up to 1 day.",
+			">3. **Absolute Solitude (Sp)** Once per day, you can cast {spell/imprisonment}.",
 			"",
 			"## Follower Options",
 			"",
@@ -1988,7 +1998,9 @@
 			"",
 			"### Description",
 			"",
-			""
+			"While no one can claim to know the origins of the Eldest, the Lost Prince is persistently rumored to be the only one not from the First World. The nature of his birthplace - some world far distant on the Material Plane, a demiplane long since lost to the Maelstrom, or another reality entirely - is a subject of much whispered debate, as is the question of why he left, and when and how he might someday return.",
+			"",
+			"Whether or not it's his original form, the Lost Prince always appears to his subjects as a pale human man dressed all in black, with completely black eyes and a mess of unruly black hair. The only bits of color are the glowing red symbols that seem tattooed across his brow in a coronet-like band, or the similarly glowing 4-pointed star on the back of each hand. Despite being painfully gaunt, the Lost Prince has delicate features that might be handsome, if not for his constant frown."
 		]
 	},
 	"the_pale_horse": {

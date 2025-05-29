@@ -1037,7 +1037,11 @@
 			"",
 			"### Description",
 			"",
-			""
+			"Psomeira served as a guard in Liachora, where she became the youngest captain on record, and 2 years later, the giants of Seer Heights summoned her to foretell her ascension. She made no special effort to fulfill her destiny, quietly weathering public critique that she was not fulfilling her potential as she continued to excel in her civic duties. When Ousmariku crashed into Liachora, Psomeira rallied the defenses and led the charge to drive off the beast.",
+			"",
+			"Those few refugees who watched the counterattack witnessed a brilliant flash of light as Psomeira's spear struck the behemoth, after which it scattered her army with its claws and withdrew into the ocean. The city lay in ruins, and Psomeira was assumed dead. Psomeira reappeared 10 years later in Aelyosos, where she called for a closed meeting of the city's leaders and emerged as one of its oligarchs.",
+			"",
+			"She sternly deflects queries about what occurred during her defense of Liachora and subsequent disappearance, insisting that only through duty and regular military drills can the city prepare for the final confrontation with Ousmariku. Psomeira takes her own advice seriously - especially since the death by old age of her rival Spalkis, hero-god of skirmishers and sheep-stealing, and her rise as an eminent demigod of warfare in Iblydos. Her holidays mark the changing seasons, which signal the beginning and end of military campaigns. She and {faith/Kelksiomides} sometime clash over priorities, but even he knows better than to oppose her when the harvests are done and field hands are idle. Despite her dedication to Aelyosos and cooperation, Psomeira quietly departs the city for a week every year, reappearing each day only long enough to answer her priests' prayers before slipping away once more. "
 		]
 	},
 	"ptah": {
@@ -1315,7 +1319,7 @@
 			">",
 			">1. **Water Mastery (Sp)** {spell/marid's mastery} 3/day, {spell/aboleth's lung} 2/day, or {spell/hydraulic torrent} 1/day",
 			">2. **At Home in Water (Sp)** You gain a swim speed of 30 feet. If you already have a swim speed, increase it by 10 feet.",
-			">3. **Wear the Sea (Sp)** You can cast seamantle once per day.",
+			">3. **Wear the Sea (Sp)** You can cast {spell/seamantle} once per day.",
 			"",
 			"## Follower Options",
 			"",
@@ -1342,7 +1346,9 @@
 			"",
 			"### Description",
 			"",
-			""
+			"Many adjectives can describe Ragadahn, but \"humble\" is not one of them. Fond of titles, he is also called the Serpent King, the Water Lord, and even the Father of Dragons. This last is considered heretical by most metallic and chromatic dragons, yet many {family/linnorm/s} pay homage to him as their progenitor, and few of the great dragons - or anyone else - would dare enter the First World's deep seas and oceans without his permission.",
+			"",
+			"Ragadahn himself resembles an enormous, streamlined linnorm with flippers instead of legs, his scales a deep, shimmering blue-green. While his home is the deep trench-city of Karaphas, he claims all of the seas and lakes of the First World - and, to some extent, of the Material Plane - as his personal realm. All creatures who live in or enter deep waters are thus subject to his authority, though in truth he cares little for the dealings of ordinary fey or mortals, and few ever glimpse his majesty. That said, any land-dwellers wishing to speak with him are best advised to call his name from a sea cliff or peninsula rather than approach his home directly, lest they be accused of trespassing."
 		]
 	},
 	"ragathiel": {
@@ -2004,7 +2010,10 @@
 	},
 	"rull": {
 		"name": "Rull",
-		"sources": [ "Inner Sea Gods" ],
+		"sources": [
+			"Inner Sea Gods",
+			"Belkzen, Hold of the Orc Hordes"
+		],
 		"description": [
 			"::fh[Rull]{sub=\"The Thunderer\"}",
 			"",
@@ -2025,7 +2034,10 @@
 			"",
 			"### Description",
 			"",
+			"{SOURCE Belkzen, Hold of the Orc Hordes/29}  ",
+			"Rull is not a god the orcs brought with them from the Darklands, but rather one they discovered soon after they emerged upon Golarion's surface. Having lived all their lives in the consistent climate of caves, the orcs were awed by the turbulence of the open air. The orcs associate the sounds of thunder and rain with the din of war, and the flash of lightning with the sparking of blade on blade. Orcs are not known for their love of nature, but they find a kindred spirit in the violent and unpredictable Thunderer.",
 			"",
+			"Rull is depicted as an orc with skin the color of storm clouds and a voice that resounds like thunder. Lightning bolts are his weapon of choice; he throws them down from the sky to impale enemies or to revel in random destruction. The Thunderer is happiest in the midst of noise and turmoil, whether the raging of a storm or the confusion of battle. Orcs thank Rull for the clouds, which block out the painful sun. Clear skies and still air are signs of Rull's disfavor. At these times, the orcs attempt to appease the Thunderer by beating drums and clashing weapons.",
 			"",
 			"[^A]: Requires the {trait/Acolyte of Apocrypha} trait."
 		]
@@ -2657,7 +2669,10 @@
 	},
 	"sezelrian": {
 		"name": "Sezelrian",
-		"sources": [ "Inner Sea Gods" ],
+		"sources": [
+			"Inner Sea Gods",
+			"Belkzen, Hold of the Orc Hordes"
+		],
 		"description": [
 			"::fh[Sezelrian]{sub=\"The Fire God\"}",
 			"",
@@ -2678,7 +2693,12 @@
 			"",
 			"### Description",
 			"",
-			""
+			"{SOURCE Belkzen, Hold of the Orc Hordes/30}  ",
+			"When they created the orcs, the gods each gave the new race an admirable quality. Sezelrian gave the orcs intelligence, so they could know and worship the gods who made them. Through religion, the orcs learned to channel the power of the gods, and thus the Fire God is also the god of magic. Sezelrian teaches that not everything can be fought with physical strength alone. An orc must be clever to control fire or magic, lest she get burned. Yet Sezelrian is still an orc god, and thus has no patience for knowledge without immediate practical use.",
+			"",
+			"Sezelrian is depicted as an orc witch doctor wielding a mace that continually emits smoke and sparks without burning. Often his true face is hidden behind a mask of a demonic visage wreathed in fire. Sezelrian rarely leads attacks against his fellow orc gods, but often serves as an adviser to one of his brothers against another, usual in conflicts he himself instigated. Sezelrian is least likely to ally with the bestial {faith/Nulgreth}; he instead favors {faith/Zagresh}, who at least appreciates the destructive power of fire.",
+			"",
+			"Regardless of which god they hold highest, all orc spellcasters - whether arcane or divine - owe thanks to Sezelrian. They show their respect with fire, integrating bonfires, burnt offerings, candles, and torches into their rituals. Tribes dedicated to the Fire God are generally more accepting of magic-users in their midst. Burns and brands often mark the flesh of those dedicated to Sezelrian."
 		]
 	},
 	"shamira": {
@@ -3434,8 +3454,8 @@
 			">{SOURCE The First World, Realm of the Fey/34}",
 			">",
 			">1. **Twist Time (Sp)** {spell/entropic shield} 3/day, {spell/augury} 2/day, or {spell/haste} 1/day",
-			">2. **Borrowed Memories (Su)** Once per day as a standard action, you can gain the effects of legend lore, save that the legends are recalled immediately and you gain the most complete level of knowledge (as if the person, place, or thing were at hand, regardless of its actual position). Your recollection of the legend takes the form of a memory borrowed from someone familiar with the subject matter.",
-			">3. **Pause (Sp)** You gain the ability to pause time for yourself or one creature you designate within 30 feet once per day. This functions as per time stop but with a duration of 1 round.",
+			">2. **Borrowed Memories (Su)** Once per day as a standard action, you can gain the effects of {spell/legend lore}, save that the legends are recalled immediately and you gain the most complete level of knowledge (as if the person, place, or thing were at hand, regardless of its actual position). Your recollection of the legend takes the form of a memory borrowed from someone familiar with the subject matter.",
+			">3. **Pause (Sp)** You gain the ability to pause time for yourself or one creature you designate within 30 feet once per day. This functions as per {spell/time stop} but with a duration of 1 round.",
 			"",
 			"## Follower Options",
 			"",
@@ -3472,7 +3492,11 @@
 			"",
 			"### Description",
 			"",
-			""
+			"Shyka the Many is not just a name but a title, one granted to the Eldest with mastery over time in all its forms. Over the millennia, many different entities have held it - and continue to do so.",
+			"",
+			"Long ago, the original Shyka called a convocation stretching across time, contacting all those who would eventually bear the title. There, in a place beyond time's boundaries, they made a deal: rather than restrict themselves to given eras, with one replacing the next in chronological fashion, they would instead share their reign in fits and flickers, that each might experience a representative sampling of eternity. As part of this arrangement - necessary to keep the fabric of time and causality from unraveling - there is never more than one Shyka present at a given time, yet that specific Shyka can change without warning. A single incarnation might remain present for days, only to give way to a dozen others in the space of a single conversation. While the various incarnations retain slight differences in personality, all of them pool their knowledge with the others, and have spent enough millennia living each other's lives that they see little point in maintaining any individuality. They are Shyka, and when they speak, it is with the blessing and insight of all of them, past and future.",
+			"",
+			"Though they seem mostly humanoid and default to wearing similar blue and gray gowns and robes, Shyka's incarnations range from ordinary-seeming humans of various ages, genders, and ethnicities to creatures without known analogues, such as a green-skinned woman with mandibles or a rarely seen entity made entirely of light."
 		]
 	},
 	"sicva": {

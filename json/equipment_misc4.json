@@ -4785,5 +4785,69 @@
 			"**Price** 5 gp; **Weight** 1 lbs.  ",
 			"**Category** Adventuring Gear"
 		]
+	},
+	"curewort": {
+		"name": "Curewort",
+		"sources": [ "Elves of Golarion" ],
+		"description": [
+			"## Curewort",
+			"{SOURCE Elves of Golarion/6}  ",
+			"**Price** 25 gp; **Weight** -  ",
+			"**Category** Elven Herbs",
+			"",
+			"Chewing a dose of dried curewort root heals 1d8 points of damage. Retrieving a dose from a container is a standard action that provokes an attack of opportunity; chewing a dose is a standard action that does not provoke an attack of opportunity. A character may combine these two actions into a full-round action that provokes an attack of opportunity; interrupting the action stops the retrieval part of the action. Typical price per dose is 25 gp; a single plant's root is enough for 2-3 doses.",
+			"",
+			"### Fireani Flora",
+			"",
+			"Poachers and opportunists often risk elven wrath just to partake of the wild flora found within Kyonin. With proper equipment and space, a successful DC 20 Profession (herbalist) check allows cultivation of any of these plants from seeds or sprouts. Herbalists charge varied but expensive prices for their wares."
+		]
+	},
+	"seerbloom": {
+		"name": "Seerbloom",
+		"sources": [ "Elves of Golarion" ],
+		"description": [
+			"## Seerbloom",
+			"{SOURCE Elves of Golarion/6}  ",
+			"**Price** 20 gp; **Weight** -  ",
+			"**Category** Elven Herbs",
+			"",
+			"Though the flowers on seerbloom are beautiful and wondrous, the roots of this plant are even more valuable. When ingested, the psychotropic root doubles the duration of any 1st, 2nd, or 3rd-level divination magic (up to 1 hour extra) used by the taker. Typical price per dose is 20 gp; a single plant's branching root is enough for 1-3 doses.",
+			"",
+			"### Fireani Flora",
+			"",
+			"Poachers and opportunists often risk elven wrath just to partake of the wild flora found within Kyonin. With proper equipment and space, a successful DC 20 Profession (herbalist) check allows cultivation of any of these plants from seeds or sprouts. Herbalists charge varied but expensive prices for their wares."
+		]
+	},
+	"sootheweed": {
+		"name": "Sootheweed",
+		"sources": [ "Elves of Golarion" ],
+		"description": [
+			"## Sootheweed",
+			"{SOURCE Elves of Golarion/6}  ",
+			"**Price** 35 gp; **Weight** -  ",
+			"**Category** Elven Herbs",
+			"",
+			"The scent of freshly crushed sootheweed leaves makes animals and some magical beasts become docile after 1 full round of exposure to the plant's fragrance. When used within 30 feet of an animal or magical beast with Intelligence 1 or 2, the DC of Handle Animal and wild empathy checks to influence that animal decreases by 5. If such a creature is under the influence of an enchantment or confusion effect, exposure to sootheweed's scent gives these creatures one new saving throw to overcome the effect; failure means additional exposure to the plant has no effect. Once crushed, sootheweed's scent lasts 10 minutes. One dose (a handful of leaves) typically sells for 35 gp. An herbalist can gather one dose's worth of leaves per month per square yard of a sootheweed garden; leaves require a month of growth to have the proper medicinal effect, and stripping too many leaves kills the plants (but yields up to double a normal harvest).",
+			"",
+			"### Fireani Flora",
+			"",
+			"Poachers and opportunists often risk elven wrath just to partake of the wild flora found within Kyonin. With proper equipment and space, a successful DC 20 Profession (herbalist) check allows cultivation of any of these plants from seeds or sprouts. Herbalists charge varied but expensive prices for their wares."
+		]
+	},
+	"tintalviel": {
+		"name": "Tintalviel",
+		"sources": [ "Elves of Golarion" ],
+		"description": [
+			"## Tintalviel",
+			"{SOURCE Elves of Golarion/6}  ",
+			"**Price** 50 gp; **Weight** -  ",
+			"**Category** Elven Herbs",
+			"",
+			"This seed casing reacts to its user's physical condition. When crushed in a {misc/nauseated} target's face, the sickly-sweet smell of tintalviel seeds cures the target's nausea. If used on a non-nauseated target, the creature must succeed at a DC 15 Fortitude save or be nauseated for 1d4 rounds. If the target is hostile, the user must succeed at a touch attack, which provokes an attack of opportunity from the target. The seed casing can also be brewed into a tea to combat nausea (and is a favorite of wealthy pregnant women because of this), though if the brewer is not nauseated he must take care to not inhale too strongly when making it. A casing usually sells for 50 gp. The seeds from a broken casing are enough to fill a small spoon and sell for 10 gp per spoonful; a spoonful is enough to brew 1-3 cups of tea depending on the severity of symptoms. A tintalviel plant blooms once or twice a year, with 1d4+1 seed casings produced per blooming cycle.",
+			"",
+			"### Fireani Flora",
+			"",
+			"Poachers and opportunists often risk elven wrath just to partake of the wild flora found within Kyonin. With proper equipment and space, a successful DC 20 Profession (herbalist) check allows cultivation of any of these plants from seeds or sprouts. Herbalists charge varied but expensive prices for their wares."
+		]
 	}
 }

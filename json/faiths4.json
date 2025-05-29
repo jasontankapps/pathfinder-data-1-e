@@ -1374,7 +1374,11 @@
 			"",
 			"### Description",
 			"",
-			""
+			"Stories describe Dhalavei as a shapely, three-headed woman with ebon-black skin and unbound blue-black hair. Each of her two arms branches at the elbow into six forearms, in which she holds a temple sword, a noose, a black glass orb, and a sealed scroll. One hand shows a symmetric symbol on the palm, while her last hand is outstretched in a mystic gesture.",
+			"",
+			"As all colors vanish in shadow and darkness, so do all forms and things vanish in Dhalavei's shadow. Her faithful claim that she holds the hidden comprehension of the unmaking of all things, and that she awaits the time when her cult is perfectly positioned to unleash her final destruction. She relishes well-planned espionage that leads to the devastation of enemies, the sowing of discord that breaks families, and secret political corruption that topples empires.",
+			"",
+			"Frequently outlawed, Dhalavei's cultists work in clandestine groups and sacrifice their enemies and other intelligent beings to their dark goddess. The new moon is a propitious time for sacrifices to Dhalavei, as her cult claims that she then actively strips the light from the night sky. Eclipses are especially sacred events to Dhalavei's faithful."
 		]
 	},
 	"diceid": {
@@ -1694,7 +1698,10 @@
 	},
 	"dretha": {
 		"name": "Dretha",
-		"sources": [ "Inner Sea Gods" ],
+		"sources": [
+			"Inner Sea Gods",
+			"Belkzen, Hold of the Orc Hordes"
+		],
 		"description": [
 			"::fh[Dretha]{sub=\"The Dark Mother\"}",
 			"",
@@ -1715,7 +1722,10 @@
 			"",
 			"### Description",
 			"",
-			""
+			"{SOURCE Belkzen, Hold of the Orc Hordes/28}  ",
+			"Dretha reigns over all aspects of orc domestic life. The Dark Mother is not a goddess of love, but of possessiveness. As the goddess of fertility, she watches over female orcs during pregnancy, birthing, and child rearing. She promotes mating, families, and tribes, not because she is a nurturing deity, but because she believes in strength in numbers and fostering strong warriors. Dretha is the patron of crafts, yet all orc gods are war gods, and Dretha is no different. The Dark Mother blesses those who fight jealously to defend their mates, children, lands, and possessions from enemies who would steal or destroy them.",
+			"",
+			"Dretha is depicted as a heavily pregnant orc. Sculptures of the Dark Mother emphasize her swollen belly and breasts, while leaving her head and limbs small and lacking in detail. Legends describe Dretha as a sullen goddess who rarely speaks. Yet the stories told by true devotees say her melancholy is a cage that holds a burning rage within. Orcs typically claim Dretha is the mate of the male god their tribe holds in highest esteem. Dretha is the most widely revered of the orc gods, and while tribes may come to blows over which orc god is superior, all acknowledge the Dark Mother."
 		]
 	},
 	"drokalion": {
@@ -1914,7 +1924,7 @@
 			"",
 			"### Description",
 			"",
-			""
+			"Easivra once enjoyed a large following millennia ago in the Mwangi Expanse. He represented the glory and power of the sun, the freedom of flight, and the fierceness of birds of prey. Legends tell that Easivra had a longstanding rivalry with the demon lord Vyriavaxus, and numerous artifacts dating from Easivra's heyday feature images of a bright bird of prey facing off against a ferocious dark bat."
 		]
 	},
 	"eiseth": {
@@ -2164,16 +2174,16 @@
 			">{SOURCE Inner Sea Gods/52}",
 			">",
 			">1. **Animal Friend (Sp)** {spell/charm animal} 3/day, {spell/animal messenger} 2/day, or {spell/summon nature's ally III} 1/day",
-			">2. **Hunter's Ally (Sp)** Once per day as a standard action, you can summon a pair of hound archons. The hound archons follow your commands perfectly for 1 minute for every Hit Die you possess before vanishing back to their home in Heaven. The hound archons don't follow commands that would violate their lawful good alignment. Such commands will not only earn refusal and scorn from the hound archons, but could cause them to attack you if the command is particularly egregious.",
-			">3. **Communal Table (Sp)** Your devotion to caring for your community allows you to evoke Erastil's divine bounty to feed your friends with a banquet of cooked game and simple beverages. Once per day, you can use {spell/heroes' feast} as a spell-like ability. Creatures that eat from this communal table, a process that takes 1 hour, gain a +2 sacred bonus on attack rolls and Will saving throws instead of the usual +1 morale bonus. Whenever you cast this spell, choose one teamwork feat; you may select a new feat every time you cast this spell, but once it's cast, your selection can't be changed. Anyone who eats from the communal table gains the benefits of the chosen teamwork feat. The benefits of the heroes' feast, including the bonus teamwork feat, last for 12 hours. A character doesn't need to meet the prerequisites for a teamwork feat granted through this ability.",
+			">2. **Hunter's Ally (Sp)** Once per day as a standard action, you can summon a pair of {monster/hound archon/s}. The hound archons follow your commands perfectly for 1 minute for every Hit Die you possess before vanishing back to their home in Heaven. The hound archons don't follow commands that would violate their lawful good alignment. Such commands will not only earn refusal and scorn from the hound archons, but could cause them to attack you if the command is particularly egregious.",
+			">3. **Communal Table (Sp)** Your devotion to caring for your community allows you to evoke Erastil's divine bounty to feed your friends with a banquet of cooked game and simple beverages. Once per day, you can use {spell/heroes' feast} as a spell-like ability. Creatures that eat from this communal table, a process that takes 1 hour, gain a +2 sacred bonus on attack rolls and Will saving throws instead of the usual +1 morale bonus. Whenever you cast this spell, choose one {main/feats_<teamwork/ feat}; you may select a new feat every time you cast this spell, but once it's cast, your selection can't be changed. Anyone who eats from the communal table gains the benefits of the chosen teamwork feat. The benefits of the heroes' feast, including the bonus teamwork feat, last for 12 hours. A character doesn't need to meet the prerequisites for a teamwork feat granted through this ability.",
 			">",
 			">### Boons: Sentinel",
 			">",
 			">{SOURCE Inner Sea Gods/52}",
 			">",
 			">1. **Sureshot (Sp)** {spell/longshot} 3/day, {spell/deadeye's arrow} 2/day, or {spell/flame arrow} 1/day",
-			">2. **Tough Hide (Su)** When you wear armor made from leather or animal hide, the armor provides an extra +2 armor bonus to your AC. This bonus improves the normal armor bonus granted by the armor; in other words, it stacks with the suit's normal armor bonus. You also mystically subsume some of the qualities of the animal that gave its life for the armor. Gain the scent ability with a range of 30 feet while wearing armor made from leather or animal hide.",
-			">3. **Farmer's Bond (Su)** Your time spent cultivating crops has given you a bond with plants. You can cast speak with plants 3 times per day. If you spend at least 1 hour during the day in direct sunlight, you don't need to eat that day. Finally, you become immune to poisons ingested from whole plants (not distilled poisons, such as assassins use) and any poison from attacks or effects generated by plant creatures.",
+			">2. **Tough Hide (Su)** When you wear armor made from leather or animal hide, the armor provides an extra +2 armor bonus to your AC. This bonus improves the normal armor bonus granted by the armor; in other words, it stacks with the suit's normal armor bonus. You also mystically subsume some of the qualities of the animal that gave its life for the armor. Gain the {umr/scent} ability with a range of 30 feet while wearing armor made from leather or animal hide.",
+			">3. **Farmer's Bond (Su)** Your time spent cultivating crops has given you a bond with plants. You can cast {spell/speak with plants} 3 times per day. If you spend at least 1 hour during the day in direct sunlight, you don't need to eat that day. Finally, you become immune to poisons ingested from whole plants (not distilled poisons, such as assassins use) and any poison from attacks or effects generated by plant creatures.",
 			"",
 			"## Paladin Code",
 			"",
@@ -2302,7 +2312,12 @@
 			"",
 			"### Description",
 			"",
-			""
+			"{SOURCE Inner Sea Gods/53}  ",
+			"Erastil, also known as Old Deadeye, is an ancient deity who first became known on Golarion when early humanoids began to domesticate and dominate their natural surroundings. Pastoral legends claim that Old Deadeye crafted the first bow as a gift to mortals so that they might learn to hunt and survive in the dangerous world. Though civilization has continued to advance beyond simple villages, Erastil remains popular in tradition and in the frontiers of the world, a transitional figure between the worship of the Green Faith and the religions of cities.",
+			"",
+			"Erastil is primarily a nature deity focusing on the plants and animals that farmers, hunters, and ranchers deal with in their challenging lives. He is also a god of close-knit communities and families, and has a protector aspect that only surfaces when such things are threatened. Erastil eschews crusades and brazen heroism, and he has no grand plans to eradicate chaos and evil from the world; he simply wants people to be able to live their lives in peace without the threat of being devoured by monsters, conscripted into an army, or destroyed by world-ending magic. He is a stern patriarch whose spirit is as hard as wood. He isn't afraid to face down a bully, nor is he too proud to calm a frightened child. He teaches how to read the turning of the seasons, how to know when to sow and reap, how to tell when livestock are sick or gravid, how to poultice a wound and set a broken leg, how to spot a straggling sheep or the signs that a dog has gone rabid. He believes that cooperation leads to friendship and safety, and that if mortals respect the gifts of nature, it will sustain them. He loves customs that encourage strong family bonds - no matter how quaint they are by modern standards - and enjoys hunting for sustenance but not for sport. Happy weddings and new babies make him smile. He is not one to spout philosophy, and instead gives practical advice and hands-on teaching.",
+			"",
+			"Erastil's avatar is an upright hunter with the head of an elk, clad in well-used leathers and carrying a simple bow. Old legends say that halflings and humans each see him as a member of their own race, even when members  of both races are looking at him at the same time. Some representations show him as fully human - usually of Ulfen or Kellid heritage - depicting how he sometimes appears to children, lost travelers, or those he simply doesn't wish to reveal his divine nature to. In most stories, Old Deadeye's arrows never miss, and a few communities still own a spent arrow supposedly once fired by Erastil, passed down through the generations and treasured for its connection to the god."
 		]
 	},
 	"erecura": {
@@ -2328,7 +2343,9 @@
 			"",
 			"### Description",
 			"",
-			""
+			"Although the hierarchy of Dis is technically absolute, with {faith/Dispater} at the top of a dizzying list of dukes, generals, lieutenants, and lesser rulers, the city's court and its queen in particular often function independently of that scheme. Specifically, Erecura, Queen of Dis, wields the right to exercise power in the city as she sees fit. Further, Dispater often calls on Erecura to arbitrate disputes between high-ranking devils and others under his purview. A planar traveler who has run afoul of one of Dispater's designated underlings, who needs a favor before visiting the Market of Breaths, or who has been duped or exploited in the city's bowels might appeal to Erecura for resolution. In particularly desperate cases, an adventurer might appeal to Erecura to overturn a decision that one of Dispater's underlings or the First King himself has handed down.",
+			"",
+			"Erecura's motivations and outlook are far removed from those of most of Hell's infernal nobility. She is not a devil, nor is she an evil being. Instead, she is a soothsayer, an opportunist, and a shrewd politician whose future plans are unclear even to Dispater."
 		]
 	},
 	"eritrice": {
@@ -2451,7 +2468,10 @@
 	},
 	"fandarra": {
 		"name": "Fandarra",
-		"sources": [ "Inner Sea Gods" ],
+		"sources": [
+			"Inner Sea Gods",
+			"Gods and Magic"
+		],
 		"description": [
 			"::fh[Fandarra]{sub=\"Blood Mother\"}",
 			"",
@@ -2478,7 +2498,8 @@
 			"",
 			"### Description",
 			"",
-			""
+			"{SOURCE Gods and Magic/49}  ",
+			"This old deity is a favorite of elder stone giants but also has a following among the smaller races, especially primitive northern humanoid tribes. She gives magical bear and mammoth guardians to her champions; these pets are more powerful than {monster/dire bear/s} and some understand the giant language. She is a contemporary of {faith/Erastil}, and while he has moved on and embraced towns and other small aspects of civilization, she is content with tribal settlements and adhering to the old ways, including great sacrifices, mass bloodlettings, butchering large quantities of livestock, and so on. In times of suffering she grows even more demanding, and her people can only appease her by offering up a sacrifice of one of their own kind. She is usually shown as a bald, female stone giant wearing a crown of leaves, a dress of red mammoth fur, and typically holding a haunch of meat in one hand and a stone tablet in the other. When depicted in her vengeful aspect, she wears a necklace of knives or arrowheads, whereas her fertility aspect shows her either pregnant or holding an infant in each hand."
 		]
 	},
 	"farfarello": {
@@ -2529,7 +2550,10 @@
 	},
 	"feronia": {
 		"name": "Feronia",
-		"sources": [ "Inner Sea Gods" ],
+		"sources": [
+			"Inner Sea Gods",
+			"Planes of Power"
+		],
 		"description": [
 			"::fh[Feronia]{sub=\"The Fertile Flame\"}",
 			"",
@@ -2550,7 +2574,12 @@
 			"",
 			"### Description",
 			"",
-			""
+			"{SOURCE Planes of Power/34}  ",
+			"Situated on a huge, intricately carved dais of polished obsidian that floats in the middle of a column of brilliant flames, the Cradle of Flames is the home of Feronia, the mysterious demigoddess known as the Fertile Flame. Despite her realm's perilous location, the dais's surface is entirely free of cleansing fire. Flora in the form of flaming-red bushes and vines wind elegantly throughout the dais's rocky terrain, sustaining all manner of strange wildlife, including intelligent, rabbit-like creatures with fiery tails who, curiously, do not actually burn with any heat. Other creatures that live here include an expansive community of {monster/fire veela/s} who worship their beloved Feronia absolutely.",
+			"",
+			"Feronia spends much of her time in a great commune built atop the dais's tallest spires. Most believe she lives there with her fiery children, whom she's said to have conceived over the millennia with various divine and semi-divine beings. Her most famous and only confirmed son is {faith/Ragathiel}, the product of Feronia's short-lived marriage to the archdevil {faith/Dispater}; while their son was still a babe, Feronia amicably left Hell, taking Ragathiel with her, and nurtured him until he became an empyreal lord. The number of other nascent divinities Feronia currently protects remains unknown, but she is said to have thwarted several divine plots to retrieve or slay her charges. Similarly, suitors - even those of a divine nature - who try to insinuate themselves into the Cradle of Flames are invariably rebuffed, as Feronia insists on meeting and courting potential love interests on her own terms.",
+			"",
+			"Although her natural state is said to be a massive, shapeless flame shot through with intricate rivulets of shining gold, she often takes the form of a beautiful, black-skinned woman with molten eyes, a swan made of pure flame, or a phoenix with a crown of gold and sapphires."
 		]
 	},
 	"fharaas": {
@@ -2591,7 +2620,10 @@
 	},
 	"findeladlara": {
 		"name": "Findeladlara",
-		"sources": [ "Inner Sea Gods" ],
+		"sources": [
+			"Inner Sea Gods",
+			"Elves of Golarion"
+		],
 		"description": [
 			"::fh[Findeladlara]{sub=\"The Guiding Hand\"}",
 			"",
@@ -2622,7 +2654,8 @@
 			"",
 			"### Description",
 			"",
-			""
+			"{SOURCE Elves of Golarion/10}  ",
+			"Though she represents art and architecture, she is more a deity of preserving existing traditions than inspiring innovation. Well-meaning but aloof, she disdains the work of the younger races and never answers the prayers of non-elves. She is always shown dressed in beautiful classically styled or archaic clothing, framed in an elaborate archway of mithral or living branches, and illuminated in the ruddy glow of a sun just below the horizon."
 		]
 	},
 	"flauros": {
@@ -3547,7 +3580,7 @@
 			">",
 			">1. **Secret Knowledge (Sp)** {spell/identify} 3/day, {spell/augury} 2/day, or {spell/clairaudience//clairvoyance} 1/day",
 			">2. **Sight Beyond Time (Su)** You constantly see a few moments down your own line of fate, and thus are never surprised or flat-footed. In addition, you gain a +2 insight bonus to AC and on Reflex saves.",
-			">3. **Baleful Revelation (Sp)** You can cast prediction of failure once per day.",
+			">3. **Baleful Revelation (Sp)** You can cast {spell/prediction of failure} once per day.",
 			"",
 			"## Follower Options",
 			"",
@@ -3594,7 +3627,9 @@
 			"",
 			"### Description",
 			"",
-			""
+			"If Pharasma is the goddess of fate, then Magdh is the patron of foreknowledge - and the complications that arise from it. While other Eldest focus on gathering or controlling secrets, time, or forbidden information, Magdh watches the endless tangled lines and interplay between rippling realities, following chains of events back to their origins and into strange culminations on distant planes. She is a seer among seers, the mother of paradox, and even the other Eldest sometimes beseech her for interpretations of her maddeningly opaque visions, for it's said that in her forest pools Magdh has glimpsed the ends of all things, including the Eldest themselves.",
+			"",
+			"Magdh, often known simply as the Three, takes the form of a robed humanoid woman with three faces set equidistantly around her head, the hair framing those faces by turns black, red, and blonde. These faces swivel to address the object of her attention at seemingly random intervals, sometimes mid-sentence, spinning her head in complete circles without apparent ill effect. Though not actually a collective consciousness like {faith/Shyka}, Madgh's faces appear to represent different aspects of her personality, though not always the same one; a supplicant who notices the red-haired face radiating maternal affection in one interaction might attempt to curry favor with it the next time, only to find it personifying rage or humor. When necessary, Magdh has even been known to split into three separate women in order to accomplish some task, yet the Eldest often seems reserved or less lucid for a time following such separations."
 		]
 	},
 	"magrim": {
@@ -4080,7 +4115,9 @@
 			"",
 			"### Description",
 			"",
-			""
+			"Once the empyreal lord of community stewardship and loving sacrifice, Mazludeh was popular in the ancient city-state of Udo when the Age of Darkness fell. Her people cried out to her for protection, and the Mother of Hearth and Wall spurred her fellow empyreal lords to cooperate despite their philosophical differences, saving untold millions. With the signing of the Celestial Concordance, Mazludeh found herself in the role of the newly formed nation's matron goddess.",
+			"",
+			"Mazludeh acts as a guardian of knowledge, protector of settlements, and guiding hand for those who strengthen their community, either literally by creating strong walls, dwellings, and monuments, or figuratively as parents, guards, and especially educators. Her clergy serve not just as spiritual guides, but often as city planners, architects, archivists, engineers, and farmers, all the while striving to maintain a careful balance between the needs of individuals and the needs of the entire community. Her worshipers depict her most frequently as an enormous serpent whose shaggy mane is heavy with figs or eggs, or as a medusa-like woman with serpents for hair, leading many scholars to speculate her divine agency predates humanity, and that she may have once been worshipped by serpentfolk or lizardfolk in a bygone age."
 		]
 	},
 	"mazmezz": {

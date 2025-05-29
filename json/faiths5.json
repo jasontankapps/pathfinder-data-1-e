@@ -366,7 +366,9 @@
 			"",
 			"### Description",
 			"",
-			""
+			"Taciturn and mysterious, Ng the Hooded is the patron of those wanderers who - unlike happy-go-lucky {faith/Desna/ns} - understand the seriousness of what they do, cognizant of the physical dangers of the open road as well as the larger metaphysical dangers such freedom represents. As with every traveler met on a lonely road far from civilization, the Lord of the Crossroads is an enigma. While many Eldest and gods like {faith/Norgorber} concern themselves with secrets, Ng's are perhaps the greatest, as even his most steadfast worshipers have no idea what he truly is, nor what ends he might be pursuing. Indeed, the Hooded rarely acknowledges his worshipers at all, leading some to question whether he's actually responsible for granting spells to those who pray to him.",
+			"",
+			"Ng always appears as a humanoid figure draped in flowing silver robes that cover his entire body save for his hands, and whose cowl shields his face in perpetual darkness. Though generally thought of as male, the Eldest is similar to {faith/the Lantern King} in that the only marker of gender is his voice, which always sounds detached and dispassionate. The only visible part of his body is his hands, always garbed in delicate silver gloves, and those who have noted signs of his passing find just the swishing trail of robes, with no sign of footprints."
 		]
 	},
 	"nhimbaloth": {
@@ -513,8 +515,8 @@
 			">{SOURCE Faiths of Golarion/47}",
 			">",
 			">1. **Communal Combatant (Sp)** {spell/divine favor} 3/day, {spell/shield other} 2/day, or {spell/prayer} 1/day",
-			">2. **Stone Strikes (Ex)** Once per round when you deal damage to an opponent with a weapon from the hammers weapon group or any weapon with \"gnome\" in its name, you can attempt a sunder combat maneuver check as a free action against any weapon or armor the target of the attack is wielding or wearing. This does not provoke an attack of opportunity. You gain a +2 competence bonus on your combat maneuver check for each size category larger than you the target is.",
-			">3. **Strength of the Earth (Ex)** You gain the ability to enter a defensive stance, as per the stalwart defender class feature, treating your sentinel levels as stalwart defender levels when determining the total number of rounds you can use this ability each day. While in a defensive stance, you gain a +2 dodge bonus to AC, a +4 morale bonus to Strength and Constitution, and a +2 morale bonus on Will saves. While you are fatigued from using this ability, you can also use your stone strikes ability whenever a creature damages you with a melee attack, though you can still use stone strikes only once per round.",
+			">2. **Stone Strikes (Ex)** Once per round when you deal damage to an opponent with a weapon from the hammers weapon group or any weapon with \"gnome\" in its name, you can attempt a {rule/sunder} combat maneuver check as a free action against any weapon or armor the target of the attack is wielding or wearing. This does not provoke an attack of opportunity. You gain a +2 competence bonus on your combat maneuver check for each size category larger than you the target is.",
+			">3. **Strength of the Earth (Ex)** You gain the ability to enter a defensive stance, as per the {pclass/stalwart defender} class feature, treating your sentinel levels as stalwart defender levels when determining the total number of rounds you can use this ability each day. While in a defensive stance, you gain a +2 dodge bonus to AC, a +4 morale bonus to Strength and Constitution, and a +2 morale bonus on Will saves. While you are {misc/fatigued} from using this ability, you can also use your *stone strikes* ability whenever a creature damages you with a melee attack, though you can still use stone strikes only once per round.",
 			"",
 			"## Follower Options",
 			"",
@@ -537,7 +539,11 @@
 			"",
 			"### Description",
 			"",
-			""
+			"According to legend, Nivi Rhombodazzle was a gnome who loved the thrill of high-stakes gambling. While she was successful more often than not, she discovered, as most gamblers do, that luck inevitably runs out. Nivi's love of gambling was born not from the rush of victory, but from the excitement of the bet itself, an attitude that ultimately brought her into a situation where her debts outweighed her charms. Keeping one step ahead of her creditors, Nivi fled beneath the earth and into the Darklands. While the exact details of her early adventures underground are shrouded in mystery (mystery that some say is perpetuated by Nivi herself), what is known is that she ultimately became the first member of the {race/svirfneblin} race. Whether her transformation into a svirfneblin was a result of strange eldritch energies in the Darklands, or was part of the blessing she received when she was granted divinity by {faith/Torag} in exchange for a special gemstone, is unknown.",
+			"",
+			"Some of Nivi's most fervent, if desperate, worshippers include those unfortunate {race/gnome/s} who have begun to succumb to the Bleaching due to a lack of novelty and excitement in their lives. These unfortunate souls often turn to the Gray Polychrome in the hope that a divinity whose faith and existence are founded upon chance can provide them with new and exciting experiences. Some of Nivi's worshippers who have suffered the Bleaching repeat second-hand legends passed down by gnome storytellers that Nivi suffered the Bleaching during her time in the Darklands before becoming a svirfneblin; these stories often allude to the idea that even if a gnome cannot come back from the Bleaching, she might achieve new life as a svirfneblin with Nivi's blessing.",
+			"",
+			"Nivi Rhombodazzle appears as a svirfneblin with gray hair, dressed in gray and red, and covered in precious jewelry made from gems. Her favor and disfavor take the form of wild strings of fortune or misfortune, though most followers accept that sometimes Nivi might cause failure without malice, just to make life more interesting."
 		]
 	},
 	"nocticula_redeemed": {
@@ -806,7 +812,10 @@
 	},
 	"nulgreth": {
 		"name": "Nulgreth",
-		"sources": [ "Inner Sea Gods" ],
+		"sources": [
+			"Inner Sea Gods",
+			"Belkzen, Hold of the Orc Hordes"
+		],
 		"description": [
 			"::fh[Nulgreth]{sub=\"The Blood God\"}",
 			"",
@@ -827,7 +836,10 @@
 			"",
 			"### Description",
 			"",
-			""
+			"{SOURCE Belkzen, Hold of the Orc Hordes/29}  ",
+			"Orcs believe that the essence of a creature is contained in its blood, and for the orc race, that essence is anger. The Blood God is credited with giving orcs their innate ferocity, which when kindled like an ember becomes an uncontrollable inferno of rage. Nulgreth eschews ranged combat, preferring to look his opponents in the eyes and feel their blood splatter on him as he kills them. He makes no complex schemes or long-term plans. He knows only bloodlust, and through his gifts of strength and rage, he impels orcs to wage bloody warfare across Golarion.",
+			"",
+			"Nulgreth is depicted as an orc barbarian with blood-red skin. Indeed, most images of Nulgreth are painted in blood; devotees color themselves so to emulate the Blood God, using red ochre when fresh blood isn't available. Nulgreth is always in the throes of rage. Though none question his prowess in battle, Nulgreth's need for immediate gratification often conflicts with the carefully considered plans of his brothers {faith/Lanishra}, {faith/Sezelrian}, and {faith/Varg}."
 		]
 	},
 	"nurgal": {
@@ -2128,7 +2140,10 @@
 	},
 	"varg": {
 		"name": "Varg",
-		"sources": [ "Inner Sea Gods" ],
+		"sources": [
+			"Inner Sea Gods",
+			"Belkzen, Hold of the Orc Hordes"
+		],
 		"description": [
 			"::fh[Varg]{sub=\"The Iron Warrior\"}",
 			"",
@@ -2155,7 +2170,10 @@
 			"",
 			"### Description",
 			"",
-			""
+			"{SOURCE Belkzen, Hold of the Orc Hordes/30}  ",
+			"Varg is the orc god of innovation, tactics, and technology. He taught the orcs how to forge blades and to build complex siege engines. While all orc gods are war gods, the Iron Warrior is the master of strategy. He disdains battle plans that rely solely on enthusiasm and overwhelming numbers to win the day. Instead, Varg teaches orcs, if not discipline, at least more efficient ways to use their strength. Varg favors weapons that not only deal damage, but also instill fear. The Iron Warrior knows that intimidation can defeat an enemy as quickly as any wound, and he sees no shame in striking from behind at a foe in retreat.",
+			"",
+			"Varg is depicted as an orc general wearing half-plate armor that was assembled from varied sources. He never wears a helm that would hinder his ability to see and hear what is happening on the battlefield. Varg has honed his abilities through countless battles against his brothers and the gods of other pantheons. When not opposing the Iron Warrior, the other orc gods depend on him to equip their armies. Varg is the most inventive and forward thinking of orc gods, but his genius is only for battle. His followers have little interest in using technology to improve other aspects of orc life, and the most devout of his faithful see innovation in other arenas as a blasphemous misuse of Varg's gifts."
 		]
 	},
 	"vavaalrav": {
@@ -2275,7 +2293,10 @@
 	},
 	"verex": {
 		"name": "Verex",
-		"sources": [ "Inner Sea Gods" ],
+		"sources": [
+			"Inner Sea Gods",
+			"Belkzen, Hold of the Orc Hordes"
+		],
 		"description": [
 			"::fh[Verex]{sub=\"The Despoiler\"}",
 			"",
@@ -2296,7 +2317,10 @@
 			"",
 			"### Description",
 			"",
-			""
+			"{SOURCE Belkzen, Hold of the Orc Hordes/31}  ",
+			"In other cultures, the gods of avarice might lurk in shadows, and their worshipers would do the same, practicing their faith in secret, but not among orcs, for whom greed and lust are practically virtues. Verex is a brazen thief who encourages orcs to take whatever or whomever they desire. He is the patron of plunderers and usurpers who take by force. Yet duplicity and stealth are not beneath Verex, so he is also the god of grifters and thieves. Orcs praise the Despoiler when their raids yield valuable treasures, but they may curse his name when they become the victims of theft or simply misplace an item.",
+			"",
+			"Verex is depicted as an orc rogue wearing studded leather armor, in contrast to the heavy hide and metal favored by his brothers. The Despoiler's irises are the color of gold coins, and it's said he can see the deepest desire of any creature that looks him in the eyes. In his time, Verex has allied with and stolen from all the other orc gods, though he has the least contact with {faith/Zagresh}, who rarely possesses anything of value and is thus not worth the Despoiler's time."
 		]
 	},
 	"vermilion_mother": {
@@ -3509,7 +3533,15 @@
 			"",
 			"### Description",
 			"",
+			"Long ago, Ydersius took an active role in the affairs of his people. He was the embodiment of the might and power of the serpentfolk empire, a living god who walked among his worshipers and led them to great victories. He commanded serpentfolk armies, raised great cities, and bred with mortal serpentfolk females to produce semidivine offspring that led and ruled the far-flung outposts of the serpentfolk empire in his stead.",
 			"",
+			"But in the waning days of the Age of Legend, Ydersius was brought low by a mortal champion - the Azlanti heroine Savith led an army into the trackless jungles of Garund, and while her followers battled the serpentfolk armies in the subterranean city of Ilmurea, she faced Ydersius himself in his hallowed sanctum and defeated him. But though she was a paragon of Azlanti warrior spirit whose likes have never been seen since, Savith was still mortal, and no mortal may truly slay a god. Savith cleaved Ydersius's head from his body, but she was unable to kill him. To prevent Ydersius's legendary powers of regeneration from restoring him to full power, Savith banished the god's headless, thrashing body into the depths of the Darklands, and cast his decapitated, still-living head into a lake of fire. But even thus sundered, Ydersius had his final revenge on his vanquisher, for Savith soon succumbed to her wounds, poisoned by the snake-god's virulent threefold venom.",
+			"",
+			"Although he still lived, after a fashion, Ydersius's defeat spelled the end for the serpentfolk empire. Azlant eventually triumphed over its hated foes, forcing the serpentfolk to abandon their cities on the surface and driving them into their deepest holds in the Darklands. Ydersius's semidivine children were driven mad by their father's defeat or slaughtered by the armies of Azlant. The once-mighty masters of Golarion had become little more than tales to scare wayward children by the time Earthfall ended Azlant as well. Yet the serpentfolk survived, and vowed to someday restore the Headless King.",
+			"",
+			"Since that time, Ydersius's headless body has mindlessly wandered the endless caverns and tunnels of the Darklands, while his severed head has lain trapped in an uneasy slumber beneath the solidified lake of lava where it was entombed. Now reduced to just a skull, Ydersius continues to send out visions and thoughts to his mortal worshipers, whispering sibilantly in their dreams to rejoin his separated head and body, and in so doing to restore the shattered serpentfolk empire to its former world-spanning glory.",
+			"",
+			"Ydersius's avatar is a giant, scaled, powerfully muscled humanoid with a snake's head and an impossibly long tail thrashing behind him. His scales are as hard as adamantine and his fangs are like iron, dripping poisonous venom that burns like acid wherever it lands. His regenerative powers can repair almost any damage to his body, and he is known for the threefold venom of his fangs, his toxic blood, and the miasma of noxious poison that he constantly exudes. In statues, Ydersius often stands upon a pedestal formed from the coils of his mighty tail. He is frequently shown wearing a crown or an elaborate headdress of bone and feathers, though his clothing is simple - usually little more than  a loincloth. Occasionally, Ydersius is portrayed as a giant monstrous snake with crushing coils and venomous fangs.",
 			"",
 			"[^A]: Requires the {trait/Acolyte of Apocrypha} trait.",
 			"[^S]: Can only be used to take the form of a snake or serpent.",
@@ -3772,7 +3804,10 @@
 	},
 	"yuelral": {
 		"name": "Yuelral",
-		"sources": [ "Inner Sea Gods" ],
+		"sources": [
+			"Inner Sea Gods",
+			"Divine Anthology"
+		],
 		"description": [
 			"::fh[Yuelral]{sub=\"The Wise\"}",
 			"",
@@ -3793,7 +3828,8 @@
 			"",
 			"## Paladin Code",
 			"",
-			">The paladins of Yuelral are protectors of elven magical knowledge and of natural and magical wonders such as the aiudara. Their tenets include the following affirmations.",
+			">{SOURCE Divine Anthology/20}  ",
+			">The paladins of Yuelral are protectors of elven magical knowledge and of natural and magical wonders such as the {spell/aiudara>_activation}. Their tenets include the following affirmations.",
 			">",
 			">- I will never defile the beauty of nature, nor cut a raw gemstone for aesthetic reasons.",
 			">- I will remain vigilant for talent in craft and magic. When I notice it, I will encourage its good use.",
@@ -3808,7 +3844,10 @@
 			"",
 			"### Description",
 			"",
-			""
+			"{SOURCE Inner Sea Gods/183}  ",
+			"Yuelral guides her followers in respecting and working with materials of the natural world. Crafters who use natural, nonmetallic, non-refined materials pray to her for guidance and skill, and their work in such material as wood, bone, and raw gemstones has a primal yet appealing aesthetic. Those who wield magic, both druids and wizards alike, also count Yuelral as their patron.",
+			"",
+			"Yuelral is well known as being the member of the elven pantheon who openly welcomes half-elven worshipers. Many half-elves appreciate the welcoming nature of her faith and happily worship Yuelral both for her wisdom and for the connection they feel to their heritage. Others spurn what they see as a patronizing offer from a culture that believes itself so vastly superior to its half-breed kin. Even half-elves who vehemently oppose worship of the Wise have occasionally been known to mysteriously undergo a profound change of heart, however - typically upon connecting with their heritage through some important event or personal experience."
 		]
 	},
 	"zabha": {
@@ -3897,7 +3936,10 @@
 	},
 	"zagresh": {
 		"name": "Zagresh",
-		"sources": [ "Inner Sea Gods" ],
+		"sources": [
+			"Inner Sea Gods",
+			"Belkzen, Hold of the Orc Hordes"
+		],
 		"description": [
 			"::fh[Zagresh]{sub=\"The Destroyer\"}",
 			"",
@@ -3918,7 +3960,10 @@
 			"",
 			"### Description",
 			"",
-			""
+			"{SOURCE Belkzen, Hold of the Orc Hordes/30}  ",
+			"The shamans say Zagresh was the first god of the orcs. Indeed, the Destroyer represents the primal nature of orcs, before they learned to use technology or magic. Unlike other orc gods who desire glory and power, Zagresh is a nihilist who fights only for survival, and lives only to destroy. Even orcs who profess a higher purpose revere Zagresh as the god of violent death, a fate to which all orcs aspire (those who die of natural causes are instead relegated to Dretha).",
+			"",
+			"Zagresh is described as a savage orc with monstrous tusks. The hides of large animals serve as his armor and clothing, and his weapon of choice is a spiked greatclub. Though he rarely uses articulate speech, Zagresh is not a quiet god. The Destroyer expresses his every emotion through animalistic growls and howls. In his joyous destruction, Zagresh's roars echo across the battlefield and strike fear into the hearts of his enemies. The orc gods don't ally with Zagresh so much as direct him against those they wish to annihilate. The Destroyer cares not for their machinations, only for mayhem, and as long as they provide him enemies to slaughter, he revels in the destruction."
 		]
 	},
 	"zaigasnar": {

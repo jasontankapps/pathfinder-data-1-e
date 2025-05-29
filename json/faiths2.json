@@ -52,14 +52,14 @@
 			">",
 			">1. **Weaponsmith (Sp)** {spell/crafter's fortune} 3/day, {spell/fox's cunning} 2/day, or {spell/greater magic weapon} 1/day",
 			">2. **War Mount (Ex)** If you make a full attack while mounted, your mount also attacks with great enthusiasm. You must attempt a Ride check as normal to fight with a combat-trained mount. If your Ride check succeeds, your mount can attack with a +4 bonus on its attack and damage rolls.",
-			">3. **Chaotic Charge (Ex)** Three times per day, you can make a chaotic charge attack while mounted. You must declare your use of this ability before you roll your attack. You take an extra -2 penalty to AC in addition to the normal AC penalty for charging, but you deal an extra 2d6 points of damage to creatures of lawful alignment on a successful mounted charge. If you have the cavalier's charge, mighty charge, or supreme charge class ability, you instead deal an extra 3d6 points of damage to creatures of lawful alignment on a successful wild charge and don't take the AC penalty.",
+			">3. **Chaotic Charge (Ex)** Three times per day, you can make a chaotic charge attack while mounted. You must declare your use of this ability before you roll your attack. You take an extra -2 penalty to AC in addition to the normal AC penalty for charging, but you deal an extra 2d6 points of damage to creatures of lawful alignment on a successful mounted charge. If you have the {class/cavalier/'s} charge, mighty charge, or supreme charge class ability, you instead deal an extra 3d6 points of damage to creatures of lawful alignment on a successful wild charge and don't take the AC penalty.",
 			">",
 			">### Boons: Exalted",
 			">",
 			">{SOURCE Inner Sea Gods/60}",
 			">",
 			">1. **Battler (Sp)** {spell/magic stone} 3/day, {spell/spiritual weapon} 2/day, or {spell/deadly juggernaut} 1/day",
-			">2. **Mass Strength Surge (Su)** When using the strength surge granted power from the Strength domain, you can target allies within 30 feet of you instead of having to touch a single target. You can target a maximum number of allies equal to 1 + 1 for every 4 Hit Dice you possess (maximum 6). If you don't have access to the Strength domain, you instead gain the ability to use the strength surge granted power a number of times per day equal to 3 + your Wisdom modifier, as listed in the strength surge description. However, you can touch only a single target when using this granted power.",
+			">2. **Mass Strength Surge (Su)** When using the strength surge granted power from the {domain/Strength} domain, you can target allies within 30 feet of you instead of having to touch a single target. You can target a maximum number of allies equal to 1 + 1 for every 4 Hit Dice you possess (maximum 6). If you don't have access to the Strength domain, you instead gain the ability to use the strength surge granted power a number of times per day equal to 3 + your Wisdom modifier, as listed in the strength surge description. However, you can touch only a single target when using this granted power.",
 			">3. **Gorum's Shout (Sp)** Once per day, you can use {spell/word of chaos} as a spell-like ability. In order to use this ability, you must shout a battle cry at top volume, ending your shout in praise to Gorum.",
 			">",
 			">### Boons: Sentinel",
@@ -185,7 +185,14 @@
 			"",
 			"### Description",
 			"",
+			"{SOURCE Inner Sea Gods/61}  ",
+			"Said to have been born from the first battles between humans and orcs, Gorum appears as a suit of spiked plate armor with blazing red eyes. Though claimed by half-orcs, humans, and orcs as one of their own, the god cares nothing for these divisions except insofar as they relate to battle and strife. He believes in strength and power, the verdict of the sword, and the music of clashing iron. He does not favor good or evil, and the only right he confers upon mortals is the right to fight for their next breath. As long as people struggle against themselves and each other, Gorum's teachings live on. The greatest moments in a Gorumite's life are those spent locked in close combat, with every moment threatening annihilation; all else is dull and dreary.",
 			"",
+			"When the dwarves drove the orcs upward out of the Darklands and onto the surface world in their legendary Quest for Sky, the savage hordes fought with primitive human tribes that were all that remained of the broken human empires. In an era of conflict and bloodshed, new pains and passions unknown in all the centuries before broke forth in mortal souls and carved themselves in broken flesh. Before this conflict, his name was not known, but as human clashed with orc, Gorum rose into prominence as the divine personification of horrible, exhilarating war. Wherever was has risen throughout the world ever since, Gorum has been there to inspire mortals to greatness on the battlefield. Under his iron gaze, the worthy find glory - and those who fall are forgotten.",
+			"",
+			"Gorum's priests believe that if the world ever became free of war, his spirit would abandon Golarion in disgust, but he would eagerly return should mortals ever take up arms again. Despite advances in magic, technology, and the tools of war, Our Lord in Iron is remarkably constant, for his focus is on battle itself, not the reasons for it or the types of weapons used. Whether a battle is between orcs and humans, goblins and dwarves, or elves and creatures from beyond the stars, Gorum is there to glory in the vital energy of conflict.",
+			"",
+			"Artistic depictions of Gorum are uncommon, as his followers prefer mighty deeds and boastful words to quieter, more permanent works of art. Of the depictions that are created, however, his image, shape, or shadow is often drawn in blood or hammered together out of scraps of metal. A few temples with forges have molds for casting weapons, and the spillover channels in the molds lead to hand-sized receptacles shaped like spiked, armored men with Gorum's symbol on their chests. These heavy, inadvertently created icons of the faith are used both as holy symbols and for focusing group prayers before battle.",
 			"",
 			"[^A]: Requires the {trait/Acolyte of Apocrypha} trait."
 		]
@@ -243,7 +250,7 @@
 			">",
 			">1. **Weather Watcher (Sp)** {spell/endure elements} 3/day, {spell/resist energy} 2/day, or {spell/protection from energy} 1/day",
 			">2. **Experienced Traveler (Ex)** As a free action, you can grant yourself and any allies within 30 feet of you the ability to move through undergrowth at normal speed and without taking damage or suffering any other impairment. This effect lasts 1 round for every Hit Die you possess or until you dismiss it as a free action, whichever comes first. Your allies must remain within 30 feet of you to gain the benefits. Thorns, briars, and overgrown areas that are enchanted or magically manipulated to impede motion still affect you and your allies. While using this ability, you also gain a +4 sacred or profane bonus on saving throws against spells and effects that would cause such terrain-based movement impairment, such as the *entangle* spell. (Your allies do not also gain this bonus.)",
-			">3. **Elemental Ally (Sp)** Once per day as a standard action, you can cast summon monster VII to summon a greater elemental of a type you choose. You gain telepathic communication with the elemental to a range of 100 feet, and the elemental obeys your commands perfectly.",
+			">3. **Elemental Ally (Sp)** Once per day as a standard action, you can cast {spell/summon monster VII} to summon a greater elemental of a type you choose. You gain telepathic communication with the elemental to a range of 100 feet, and the elemental obeys your commands perfectly.",
 			">",
 			">### Boons: Exalted",
 			">",
@@ -251,7 +258,7 @@
 			">",
 			">1. **Green Worker (Sp)** {spell/entangle} 3/day, {spell/warp wood} 2/day, or {spell/speak with plants} 1/day",
 			">2. **Lightning Child (Su)** You become resistant to lightning and similar effects. Gain electricity resistance equal to 5 + your Hit Dice.",
-			">3. **Nature's Companion (Ex)** Your animal companion develops greater combat prowess, mental acumen, and protection against natural elements. First, your animal companion gains a +1 bonus to its Intelligence and Wisdom scores. Second, your animal companion gains a +2 sacred or profane bonus on attack and damage rolls. Third, your animal companion gains a +4 sacred or profane bonus on all saving throws against cold, electricity, and fire spells and effects. If you don't have an animal companion, you instead gain the ability to use {spell/summon nature's ally VII} as a spell-like ability once per day.",
+			">3. **Nature's Companion (Ex)** Your {sidekick/animal companion} develops greater combat prowess, mental acumen, and protection against natural elements. First, your animal companion gains a +1 bonus to its Intelligence and Wisdom scores. Second, your animal companion gains a +2 sacred or profane bonus on attack and damage rolls. Third, your animal companion gains a +4 sacred or profane bonus on all saving throws against cold, electricity, and fire spells and effects. If you don't have an animal companion, you instead gain the ability to use {spell/summon nature's ally VII} as a spell-like ability once per day.",
 			">",
 			">### Boons: Sentinel",
 			">",
@@ -259,7 +266,7 @@
 			">",
 			">1. **Sky Warrior (Sp)** {spell/shocking grasp} 3/day, {spell/elemental touch/ (lightning only)} 2/day, or {spell/lightning bolt} 1/day",
 			">2. **Elemental Aura (Su)** You can create an elemental aura as a free action. When you first gain this ability, choose acid, cold, electricity, or fire - once you make this selection, it can't be changed. When you generate the elemental aura, you are surrounded by the element you chose. Anyone striking you with a melee weapon or natural attack takes 2d6 points of damage of the chosen type, plus 1 point for every 2 Hit Dice you possess (maximum 2d6+10). This aura lasts for 1 round for every Hit Die you possess. The rounds in which you manifest your elemental aura don't need to be consecutive. You can dismiss the aura as a free action.",
-			">3. **Lightning Surge (Su)** Once per day as a standard action, you can call upon the sky to strike you with a lightning bolt that deals no damage to you but instead seems to fill you with boundless energy. You gain 2d10 temporary hit points, and any fatigued or exhausted conditions you are suffering from end. You also gain a +2 bonus to Strength, and your natural attacks and melee weapons deal an extra 1d6 points of electricity damage. These effects last for 1 round plus an additional round for every 4 Hit Dice you possess (maximum 6 rounds). You can call upon this lightning when you are indoors, underground, or even underwater.",
+			">3. **Lightning Surge (Su)** Once per day as a standard action, you can call upon the sky to strike you with a lightning bolt that deals no damage to you but instead seems to fill you with boundless energy. You gain 2d10 temporary hit points, and any {misc/fatigued} or {misc/exhausted} conditions you are suffering from end. You also gain a +2 bonus to Strength, and your natural attacks and melee weapons deal an extra 1d6 points of electricity damage. These effects last for 1 round plus an additional round for every 4 Hit Dice you possess (maximum 6 rounds). You can call upon this lightning when you are indoors, underground, or even underwater.",
 			"",
 			"## Follower Options",
 			"",
@@ -360,7 +367,14 @@
 			"",
 			"### Description",
 			"",
+			"{SOURCE Inner Sea Gods/69}  ",
+			"Gozreh is timeless. Born when the first breeze caressed the ocean, she is ever changing, tempestuous, and unpredictable, yet also prone to periods of constancy, stillness, and routine. He is the storm cloud chased by clear skies, the spring warmth that follows winter, and the fair winds that carry seagoing ships. She is the great wave that capsizes those ships, the gentle current that deposits sailors on safe shores, and the rising and falling tides. Those who ply the waters or rely upon the rains know this better than most, and are sure to placate Gozreh and honor him when the wind and waves are favorable.",
 			"",
+			"Gozreh has two aspects, equally depicted in art and sculpture. When at sea or over water, Gozreh is a woman with wild, flowing green hair, whose body transforms into endless waves. In the sky and over land, Gozreh appears as an aged man with a long white beard, emerging from a mighty storm cloud. Gozreh is moody and brooding, able to spend weeks in a glowering quiet only to explode in a fury of water, wind, and lightning. He is an elemental force, not fettered by the work of mortals; he may turn aside his wrath when appeased with gifts and flattering words, or he may ignore mortal cries entirely. Many cargo ships throw a crate or two overboard in the deep ocean to satisfy her, so that she does not take more by force. He is the amoral side of nature, that which brings life and takes it unexpectedly. Gozreh represents both female and male facets of life, unconstrained by civilization's notions of masculinity and femininity. Grandmother, grandfather, brother, sister, eternal and ever changing, the Wind and the Waves echo and shape the countless living things on Golarion.",
+			"",
+			"Gozreh refers to himself or herself as \"I\" or \"We\" interchangeably. He loves to race the wind, tearing clouds in two with his passing, or sculpting them into islands and palaces for his pleasure. She hides under the waves and plummets to the crushing depths of the ocean, chasing whales and building grottoes visible only by the light of the glowing creatures that live there. He hates those who defile the sky with smoke, taint the waters with mortal filth, or abuse the bounties of land and sea. Her official church is small, but her lay worshipers are countless. He particularly likes seabirds, flying fish, and frogs, both as living specimens and as sacrificial offerings. He is known to watch the world through the eyes of beasts, whether on the wing or under the sea, f litting from the body of a solitary bear to the countless beating hearts of a flock of starlings. He senses the day and night through green plants and pale fungi, drinking deeply through the roots of the mighty oak or clinging to a stone as the tiniest moss or lichen.",
+			"",
+			"Gozreh is usually depicted as a colossal humanoid whose lower half trails away into a mass of roiling elemental matter. In male form, he appears as a storm cloud and always remains flying - according to one old legend, he can stretch from one horizon to the other, darkening the entire sky with his fury. In female form, Gozreh's body is usually shown blending with the water of a lake or sea. She has been known to rise from a waterspout, but sometimes gathers all the nearby water into a great wave, emerging from the top as a nymph-like shape, a crone, or a vaguely humanoid construct of pure water.",
 			"",
 			"[^A]: Requires the {trait/Acolyte of Apocrypha} trait.",
 			"[^T]: This creature is summoned with the {template/celestial} template if you are good, or with the {template/fiendish} template if you are evil; you may choose either if you are neutral.",
@@ -446,7 +460,7 @@
 			">{SOURCE Faiths of Golarion/11}",
 			">",
 			">1. **Charming Sort (Sp)** {spell/sleep} 3/day, {spell/eagle's splendor} 2/day, or {spell/glibness} 1/day",
-			">2. **Storyteller (Ex)** Much like Grandmother Spider, you can weave thrilling tales to buy yourself time or distract those around you, even when among those who know better than to listen to you. You gain the *fascinate* bardic performance and a number of rounds of bardic performance each day equal to your Charisma modifier + your Hit Dice, with a caster level equal to your Hit Dice. If you already have the bardic performance class feature, all your class levels count as bard levels for the purpose of determining your total rounds of bardic performance each day and the save DC of your fascinate performance.",
+			">2. **Storyteller (Ex)** Much like Grandmother Spider, you can weave thrilling tales to buy yourself time or distract those around you, even when among those who know better than to listen to you. You gain the {performance.fascinate} bardic performance and a number of rounds of bardic performance each day equal to your Charisma modifier + your Hit Dice, with a caster level equal to your Hit Dice. If you already have the {ability/bardic performance} class feature, all your class levels count as bard levels for the purpose of determining your total rounds of bardic performance each day and the save DC of your fascinate performance.",
 			">3. **One with the Night (Su)** Grandmother Spider welcomes cool darkness as a relief from the heat of the sun. You too have learned to embrace the starlit beauty of the evening, knowing that the darkness will give you shelter whether you are predator or prey. You gain darkvision with a range of 30 feet, or extend your existing darkvision by 30 feet. You need only half the normal amount of sleep or rest each day to avoid becoming fatigued.",
 			">",
 			">### Boons: Exalted",
@@ -480,12 +494,21 @@
 			"",
 			"### Description",
 			"",
-			""
+			"Also known as Nana Anadi, Grandmother Spider began her life as a divine servant. She antagonized many other gods when the world was young, nipping at heels, stealing ambrosia, and making deities look like fools: she stole and copied Asmodeus's keys, leading to chaos, and swiped a portion of Sarenrae's fire to lead travelers astray. Eventually, she wove her own freedom and left behind divine control. Time tempered her antics; by the time she reached the Material Plane, she saw more value in teaching lessons and evening the odds than in spreading confusion.",
+			"",
+			"Grandmother Spider delights in games, schemes, and misfortunes that upset expectations, insisting life is not a dance to be rehearsed, but a spiraling tumble down a hill, trying desperately to right oneself before hitting the bottom: thrilling, messy, and dangerous. The Weaver embraces this philosophy fully, sometimes taking advantage of others and sometimes being tricked herself, considering her failures to be just as important as her successes. She encourages pranks to teach valuable life lessons and loves laying the mighty low, though cruelty and predation draw her outrage.",
+			"",
+			"Because life is so dangerous, Grandmother Spider is also a goddess of family, encouraging faith in friends and community. She is a protector of the downtrodden, and she is credited with guiding her children, the anadi[^A] and all spiders, out of darkness and into freedom.",
+			"",
+			"[^A]: Anadi are spider-people fully introduced in Pathfinder 2nd Edition. There are no 1st-edition statistics or descriptions of them."
 		]
 	},
 	"green_faith": {
 		"name": "Green Faith",
-		"sources": [ "Pathfinder #75: Demon's Heresy" ],
+		"sources": [
+			"Pathfinder #75: Demon's Heresy",
+			"Faiths and Philosophies"
+		],
 		"description": [
 			"::fh[Green Faith]{sub=\"The Old Faith\"}",
 			"",
@@ -555,7 +578,10 @@
 			"",
 			"### Description",
 			"",
-			""
+			"{SOURCE Faiths and Philosophies/10}  ",
+			"The Green Faith is a multifaceted set of beliefs centered on the natural world which grew out of an ancient conflict between {class/druid/s} that worshiped different elemental aspects of the world. As a druidic belief system, it is shamanistic, but also has elements of the ecclesiastical in its strong hierarchy and an underlying current of worship of {faith/Gozreh}. It teaches that all things are connected and that the natural changes of the weather, the world, and individuals over time are to be respected and celebrated rather than feared. Even death is just another change. The Green Faith is most prominent in Andoran, Nirmathas, Taldor, and Sevenarches in the River Kingdoms, but was once strongest in Sarkoris before that nation fell to the Worldwound. Though Sarkoris is believed by many to be the birthplace of the Green Faith, much of the Sarkorian druid's knowledge now lies hidden in the Worldwound or in isolated troves across the Inner Sea region.",
+			"",
+			"Members of the Green Faith typically recognize and accept that all things change in time, show impartiality among people, and try to protect the natural world from exploitation by humanoids as well as from defilement by the presence of undead, aberrations, and other unnatural forces. In addition to druids, barbarians and rangers are common followers of the Green Faith."
 		]
 	},
 	"groetus": {
@@ -705,6 +731,14 @@
 			">2. **Clarity's Blessing (Su)** The clarity of your teaching can shelter others from certain mental assaults. Once per day as a swift action, you can invoke Gruhastha's blessing to grant companions within 60 feet a +4 sacred bonus on saves against confusion and fear effects. You can protect a number of people equal to your Hit Die, and the protection lasts for an hour.",
 			">3. **Keeper's Mercy (Su)** Though you are willing to use violence in the face of implacable evils, it is always a last resort and used as precisely and minimally as possible. Even in the midst of combat, you do your best to reduce true harm. For a number of rounds per day equal to your Hit Dice, you can cause your own attacks with unarmed strikes, weapons, and natural weapons or those of another creature within 10 feet of you to deal nonlethal damage. Damage dealt to creatures or objects that are not subject to nonlethal damage is not converted and remains lethal damage. An unwilling target can negate this effect with a successful Will save (DC = 10 + half your Hit Dice + your Charisma modifier).",
 			">",
+			">### Boons: Exalted",
+			">",
+			">{SOURCE Faiths of Golarion/17}",
+			">",
+			">1. **Push Toward Peace (Sp)** {spell/know the enemy} 3/day, {spell/enthrall} 2/day, or {spell/suggestion} 1/day",
+			">2. **Restore Lost Learning (Su) ** The Keeper is an embodiment of a sacred text, and the written word is of tremendous importance to you. You have a sacred connection to books and other written records that allows you to commune with them, even when they have been irreparably damaged. Given a fragment of a written or etched text, you can divine the missing portion of the text at the rate of 100 words per day. Magical or cursed texts can resist this effect or return incomplete results at the GM's discretion.",
+			">3. **Call the Keeper (Sp)** You both learn from and teach the finest of Gruhastha's scholars. Once per day as a standard action, you can summon a Keeper of Lore ({template/advanced} {monster/manu} manasaputra) to consult on a topic of your choice for 1 hour. A Keeper of Lore has a +25 bonus on Knowledge checks. A Keeper of Lore will not serve in combat except under the most desperate circumstances, and regular use of the manasaputra in combat is considered an abuse of Gruhastha's gift.",
+			">",
 			">### Boons: Sentinel",
 			">",
 			">{SOURCE Faiths of Golarion/17}",
@@ -737,7 +771,11 @@
 			"",
 			"### Description",
 			"",
-			""
+			"The Keeper was born a mortal human, and in fact was {faith/Irori/'s} nephew. He followed his uncle's teachings toward divinity, but broke away from Irori's path in the search for transcendent knowledge. Legend claims that Gruhastha created such a profound sacrament when he wrote the *Azvadeva Pujila* - not only in its divine wisdom, but in the understanding that a book is the truest vessel of knowledge - that he became one with the text, and the perfection of his feat elevated him to godhood.",
+			"",
+			"Gruhastha's faith seeks to spread enlightenment, which is defined as knowledge guided by wisdom and tempered by empathy. Ignorance and small-minded cruelty are anathema to Gruhasthans, who attempt to respond first with education and teaching by example, but will, if necessary, use force to defend against threats that cannot be reasoned with. The Keeper teaches that those who fail to achieve transcendence in this life will have another opportunity in the next, and sometimes the greatest mercy is to hasten the cycle by a turn.",
+			"",
+			"In his human guise, Gruhastha is depicted as a beautiful young man with dark, burnished skin and wavy black hair that falls just past his shoulders. His wings are plumed in red and green, and a mandala of countless deities haloes his head. The mandala represents all the collected wisdom of the gods recorded in the *Azvadeva Pujila.* Gruhasthans do not attempt to artistically depict their god in the form of the text itself, for any such depiction would be incomplete and therefore imperfect, and no greater insult to the Keeper exists than to associate him with imperfect understanding."
 		]
 	},
 	"grundinnar": {
@@ -1066,7 +1104,7 @@
 			">{SOURCE Pathfinder #117: Assault on Longshadow/77}",
 			">",
 			">1. **Goblins Rule! (Sp)** {spell/command} 3/day, {spell/hold person} 2/day, or {spell/dimensional anchor} 1/day",
-			">2. **You No Move! (Sp)** When hunting for slaves, you know how important it is to keep them from running away. Upon succeeding at a touch attack against a Small or Medium creature as a standard action, you can summon a pair of masterwork fetters to hobble that target's movement. These fetters function as {eq-misc/masterwork |manacles>_mwk} for the purposes of breaking and escaping them. The target creature is entangled and can move at only half its normal speed, and must succeed at a DC 15 Acrobatics check to move more than its reduced speed in a round. If the target fails this check by 5 or more, it falls prone. The fetters disappear after 1 minute. You can use this ability a number of times per day equal to your Charisma modifier.",
+			">2. **You No Move! (Sp)** When hunting for slaves, you know how important it is to keep them from running away. Upon succeeding at a touch attack against a Small or Medium creature as a standard action, you can summon a pair of masterwork fetters to hobble that target's movement. These fetters function as {eq-misc/masterwork |manacles>_mwk} for the purposes of breaking and escaping them. The target creature is {rule/entangled} and can move at only half its normal speed, and must succeed at a DC 15 Acrobatics check to move more than its reduced speed in a round. If the target fails this check by 5 or more, it falls prone. The fetters disappear after 1 minute. You can use this ability a number of times per day equal to your Charisma modifier.",
 			">3. **My Will is Best! (Ex)** You are convinced of your own superiority and believe others should do what you say. Targets of your compulsion spells don't receive the +2 bonus on new saving throws attempted after being forced to act against their natures. In addition, you receive a +4 bonus on Charisma checks against targets of your charm spells to convince them to do things they wouldn't normally do.",
 			">",
 			">### Boons: Sentinel",
@@ -1074,7 +1112,7 @@
 			">{SOURCE Pathfinder #117: Assault on Longshadow/77}",
 			">",
 			">1. **Goblins Fight! (Sp)** {spell/thunderstomp} 3/day, {spell/bull's strength} 2/day, or {spell/rage} 1/day",
-			">2. **Form of Wolf! (Sp)** Like the barghest god you venerate, you can turn into a wolf. As a standard action, you take the form of a wolf as per {spell/beast shape I}. You can remain in this shape a number of minutes per day equal to your Charisma modifier. These minutes don't need to be used consecutively but must be used in 1-minute increments. You can return to your normal form as a move action.",
+			">2. **Form of Wolf! (Sp)** Like the barghest god you venerate, you can turn into a wolf. As a standard action, you take the form of a {monster/wolf} as per {spell/beast shape I}. You can remain in this shape a number of minutes per day equal to your Charisma modifier. These minutes don't need to be used consecutively but must be used in 1-minute increments. You can return to your normal form as a move action.",
 			">3. **My Might is Mighty! (Ex)** The Supreme Chieftain teaches that you should be prepared for anything in a fight. Three times per day as a move action, you can gain the benefits of a {main/feats_<combat/ feat} you don't have for the following minute. You must meet all the feat's prerequisites, and if you use this ability again before the duration expires, the new combat feat replaces the old one. If a combat feat has a daily use limitation (such as {feat/Stunning Fist}), any uses of that combat feat while using this ability count toward that feat's daily limit, even through multiple uses of this ability.",
 			"",
 			"## Follower Options",
@@ -1111,12 +1149,16 @@
 			"",
 			"### Description",
 			"",
-			""
+			"{SOURCE Pathfinder #117: Assault on Longshadow/73}  ",
+			"The Greatest Supreme Chieftain Boss is the strongest of the barghest hero-gods, with muscles rippling under his smoke-colored fur. His face is often twisted into a foul sneer and his eyes glint with cruel guile. While Hadregash's worshipers depict him as this powerful barghest, hobgoblin sects often depict him as one of their own kind, though with a similar expression. The hobgoblin version of Hadregash wears dark iron armor, wields a flail stained with blood, and often holds a chain lead attached to a human or elven slave or prisoner of war."
 		]
 	},
 	"haggakal": {
 		"name": "Haggakal",
-		"sources": [ "Inner Sea Gods" ],
+		"sources": [
+			"Inner Sea Gods",
+			"Gods and Magic"
+		],
 		"description": [
 			"::fh[Haggakal]{sub=\"Father Moon\"}",
 			"",
@@ -1137,7 +1179,8 @@
 			"",
 			"### Description",
 			"",
-			""
+			"{SOURCE Gods and Magic/49}  ",
+			"This disgusting ogre god is a horrible round-faced thing, the offspring of some evil deity and a debased giant. Few ogres are intelligent enough to recognize things such as gods, but those who do believe him to be a great ogre's face in the sky. When the moon wanes, they believe he has turned away from the world to mate with his twin sister (who shares his name, looks, and temperament), which the ogres celebrate by raiding, looting, and raping. The waxing moon is his sister's belly growing large with another child or Haggakal turning to look upon the world again (or both, as ogres keep no records and have trouble remembering how they told the story the last time)."
 		]
 	},
 	"halcamora": {
@@ -1682,7 +1725,7 @@
 			"",
 			"### Description",
 			"",
-			""
+			"A cruel and capricious demigoddess, she builds monuments of dust and ice and destroys settlements as befits her whim. Due to her natural invisibility, few can speak to her true form. Hshurha's schemes are often so convoluted that they seem senseless, but she is, after all, an ancient entity whose very nature is as mercurial as the wind."
 		]
 	},
 	"hudima": {
@@ -1984,7 +2027,11 @@
 			"",
 			"### Description",
 			"",
-			""
+			"Standing hundreds of feet high, the twin statues known collectively as Imbrex are simultaneously the most and least accessible of the Eldest. True, the Statue Lords can be found and approached easily enough, yet even those who live in the city sprawling over and around the Eldest's feet have no idea when or how the unmoving demigod might answer their prayers and questions.",
+			"",
+			"The entity called Imbrex takes the form of two immense statues of identical androgynous humanoids, their abbreviated features and smooth skin suggesting a vaguely reptilian nature. Whether these statues are in fact the Eldest's bodies or simply monuments in which their consciousness resides remains an enigma, as does the question of whether the Twins are siblings sharing some sort of hive mind or a single creature split into two bodies. Regardless, for as long as the Twins have stood, they have never been seen to move or change expression. To most observers, the only signs of their sentience are the booming telepathic commands capable of shattering minds or elevating them, as well as the strange, addictive dreams that leak out into the area around the statues, sometimes taking on physical substance. Though Imbrex has remained silent on the subject, many First World residents - including other Eldest - believe that when the Statue Lords finally deign to walk, it will be to bring about the end of both the First World and the Material Plane, unmaking them both in order to usher in the next phase of creation.",
+			"",
+			"Despite the teeming city of Anophaeus at the statues' feet, Imbrex appears to care little for their worshipers, often rewarding or punishing seemingly random actions with equally mysterious magical effects. On those occasions when invaders or revolutionaries have sought to take the city, the statues have alternated between doing nothing and savaging the attackers with reality-altering dreams or bursts of psychic energy. Many seek or claim to interpret the dreams of the Twins, yet even those few adherents consistently granted magical boons are rarely given tasks outright, and Imbrex seems content to let their disciples pursue their own ends. Of the other Eldest, Imbrex confers most frequently with {faith/Ragadahn} and {faith/Magdh}, as their attention to prophecy and lost cultures ties in well with the Statue Lords' only apparent interest: the endings of things both great and small. If there's any truth to the rumor that Imbrex once wore a different shape and was trapped in its current motionless form by another Eldest or an outside god, the Twins either do not seek vengeance, or else already took it long ago."
 		]
 	},
 	"immonhiel": {
@@ -2226,7 +2273,7 @@
 			">",
 			">1. **Courageous (Sp)** {spell/remove fear} 3/day, {spell/blessing of courage and life} 2/day, or {spell/heroism} 1/day",
 			">2. **Demon-Feared Caster (Ex)** You are used to fighting the forces of evil. You gain a sacred bonus equal to 1 + 1 for every 4 Hit Dice you possess (maximum +6) on caster level checks to overcome the spell resistance of outsiders with the chaotic or evil subtypes. These bonuses stack against outsiders who are both chaotic and evil (maximum +12). If you don't have the ability to cast spells, you instead gain the ability to use {spell/protection from [chaos//]evil} as a spell-like ability three times per day.",
-			">3. **Wrath of the Inheritor (Su)** Three times per day, you can call upon Iomedae during the casting of a spell to increase its potency. When you use this ability, you can cast any spell that deals hit point damage and has a casting time of 1 standard action as a full-round action instead. Doing so changes half the damage dealt to divine power, similar to a flame strike spell. For example, a wizard 5/evangelist 9 casts a {spell/lightning bolt} as a full-round action. The spell deals 10d6 points of damage, half of which is electricity damage and the other half of which is divine energy and not subject to electricity resistance. If you can't cast spells that deal hit point damage, you instead gain the ability to imbue your weapon with holy power. Three times per day as a free action, you can grant your weapon the {magic-enh/holy} weapon special ability for 1 minute.",
+			">3. **Wrath of the Inheritor (Su)** Three times per day, you can call upon Iomedae during the casting of a spell to increase its potency. When you use this ability, you can cast any spell that deals hit point damage and has a casting time of 1 standard action as a full-round action instead. Doing so changes half the damage dealt to divine power, similar to a {spell/flame strike} spell. For example, a wizard 5/evangelist 9 casts a {spell/lightning bolt} as a full-round action. The spell deals 10d6 points of damage, half of which is electricity damage and the other half of which is divine energy and not subject to electricity resistance. If you can't cast spells that deal hit point damage, you instead gain the ability to imbue your weapon with holy power. Three times per day as a free action, you can grant your weapon the {magic-enh/holy} weapon special ability for 1 minute.",
 			">",
 			">### Boons: Exalted",
 			">",
@@ -2241,7 +2288,7 @@
 			">{SOURCE Inner Sea Gods/76}",
 			">",
 			">1. **Knight of Valor (Sp)** {spell/bless weapon} 3/day, {spell/bull's strength} 2/day, or {spell/magic vestment} 1/day",
-			">2. **Valorous Smite (Su)** If you have the smite evil class feature, you gain an extra use of that ability per day. You add the levels of sentinel to your paladin levels when calculating the extra damage dealt by your smite. If you successfully deal damage with your smite, your target must succeed at a Will saving throw (with a DC equal to 10 + your Charisma modifier + 1/2 your Hit Dice) or be stunned for 1 round plus 1 round for every 4 Hit Dice you possess (maximum 6 rounds). Once a target saves against this stunning effect, it is immune to the stunning effect from your holy smite for 24 hours.",
+			">2. **Valorous Smite (Su)** If you have the smite evil class feature, you gain an extra use of that ability per day. You add the levels of sentinel to your paladin levels when calculating the extra damage dealt by your smite. If you successfully deal damage with your smite, your target must succeed at a Will saving throw (with a DC equal to 10 + your Charisma modifier + 1/2 your Hit Dice) or be {misc/stunned} for 1 round plus 1 round for every 4 Hit Dice you possess (maximum 6 rounds). Once a target saves against this stunning effect, it is immune to the stunning effect from your holy smite for 24 hours.",
 			">    - If you don't have the smite evil class feature, instead you can, as a free action, single out an outsider with the evil subtype or an evil-aligned dragon you plan to vanquish. Against this target, you gain a +2 sacred bonus on attack rolls and a sacred bonus equal to your sentinel level on damage rolls. The bonuses remain until the target is dead or you use this ability again, whichever comes first. If you choose a target that is not one of the listed creature types, the ability is wasted. You can use this ability a number of times per day equal to your Charisma bonus (minimum once per day).",
 			">3. **Banishing Strike (Sp)** Once per day, you can channel the effects of {spell/banishment} through your weapon, though you don't need to cast (or even know) the spell. You must declare your use of this ability before you roll your attack. On a hit, the target is affected by a banishment effect. If you openly wear a holy symbol of Iomedae, you gain a +1 bonus on your caster level check to overcome the target's spell resistance (if any) and the saving throw DC increases by 2.",
 			"",
@@ -2392,7 +2439,12 @@
 			"",
 			"### Description",
 			"",
+			"{SOURCE Inner Sea Gods/77}  ",
+			"At just over 900 years old, Iomedae is the youngest of the major deities of Golarion, and has only begun to reach her full potential as an independent deity in the last century. She is a righteous knight, fearless in fighting for her beliefs, and a missionary and crusader on behalf of the benign sovereignty of good and merciful justice for evil. She would rather convince evildoers to lay down their arms in honorable surrender than cut them down, but she will wield her mighty sword against those who persist in serving evil. She loathes incorrigible evil, fiend-spawn, traitors, and those who abuse good in the name of \"greater\" good. Now out from under the shadow of her patron, the slain human culture deity {faith/Aroden}, she has proven she needs no mentor to guide her - she is valor, glory, honor, justice, and strength, and is unafraid to point her sword at the greatest evils facing the world.",
 			"",
+			"Despite her youth and comparative late start, she has been instrumental in fighting evil in the world, even during her mortal lifetime as a paladin of {monster/Arazni} (and, after that demigod's death, Aroden himself). Born a mortal in Cheliax, she led the Knights of Ozem in a series of victories over the Whispering Tyrant, and participated in his imprisonment. Success in the Test of the Starstone a short time later granted the valiant swordswoman a spark of divinity and brought her to the attention of Aroden, who elevated her to the position of his herald, vacated by the fallen Arazni. When the Last Azlanti died, Iomedae inherited most of his remaining followers. Though born in Cheliax, she is worshiped by many people outside that land, and most recently has taken up patronage of the Mendevian Crusades. Once the crusaders have succeeded in ending the expanding threat of the Worldwound, she plans to inspire them to wipe her homeland free of its diabolical taint.",
+			"",
+			"Iomedae's avatar appears as a fierce Chelish swordswoman, resplendent in gleaming battle armor with heraldic markings, and brandishing a longsword and shield. When she is roused to battle, her white cloak turns red and her white-and-gold armor turns the silver-gray of {eq-material/adamantine}. The light from her shield blinds all evil, the force of her aura causing the corrupt to weaken and collapse.",
 			"",
 			"[^A]: Requires the {trait/Acolyte of Apocrypha} trait."
 		]
@@ -2540,14 +2592,14 @@
 			">{SOURCE Inner Sea Gods/84}",
 			">",
 			">1. **Expansive Knowledge (Sp)** {spell/identify} 3/day, {spell/fox's cunning} 2/day, or {spell/secret page} 1/day",
-			">2. **Inevitable Fist (Su)** For a number of rounds per day equal to your Hit Dice, you can infuse your limbs with the power of pure law. Your unarmed strikes deal damage as if you were one size category larger, and gain the axiomatic weapon special ability. Activating or dismissing this ability is a free action, and the rounds don't need to be consecutive.",
+			">2. **Inevitable Fist (Su)** For a number of rounds per day equal to your Hit Dice, you can infuse your limbs with the power of pure law. Your unarmed strikes deal damage as if you were {misc/one size category larger}, and gain the {magic-enh/axiomatic} weapon special ability. Activating or dismissing this ability is a free action, and the rounds don't need to be consecutive.",
 			">3. **Runic Form (Sp, Su)** Nine runic tattoos appear on your body, three for each of the three disciplines of Irori: mind, body, and spirit. As a standard action (unless otherwise noted) you can discharge the power stored in a tattoo. Once spent, a tattoo's power returns gradually over the course of 1 week. The tattoo powers are as follows:",
 			">",
-			">>*Body Tattoos:* Two contain cure serious wounds, which you can use as a spell-like ability. One contains restoration, which you can use as a spell-like ability.",
+			">>*Body Tattoos:* Two contain {spell/cure serious wounds}, which you can use as a spell-like ability. One contains {spell/restoration}, which you can use as a spell-like ability.",
 			">>",
 			">>*Mind Tattoos:* Two can each be discharged as a swift action to allow you to reroll a saving throw against an enchantment spell or effect. You must use this ability before you learn the result of your save, and you must take the second result, even if it is lower. The third can be discharged to grant you a +4 sacred bonus to Wisdom for 1 minute.",
 			">>",
-			">>*Spirit Tattoos:* Two allow you to assume an ethereal state for 1 minute as though using the spell etherealness. The third allows you to gain spell resistance equal to 10 + 1 for every Hit Dice you possess for 1 minute.",
+			">>*Spirit Tattoos:* Two allow you to assume an ethereal state for 1 minute as though using the spell {spell/etherealness}. The third allows you to gain spell resistance equal to 10 + 1 for every Hit Dice you possess for 1 minute.",
 			">",
 			">### Boons: Exalted",
 			">",
@@ -2555,7 +2607,7 @@
 			">",
 			">1. **Cloud the Mind of the Unwary (Sp)** {spell/hypnotism} 3/day, {spell/daze monster} 2/day, or {spell/suggestion} 1/day",
 			">2. **Repair the Damaged Body (Su)** Up to three times per day, when you can cast a conjuration (healing) spell with a range of touch, treat it as having a range of close instead.",
-			">3. **Walk Above the Earth (Su)** You hover several inches off the ground as if levitating. This doesn't affect your speed, and makes you immune to most kinds of difficult terrain, traps triggered by pressure, and potentially other effects. You can levitate over solid surfaces only, so you fall if you step off a cliff or over a liquid. You can, however, raise or lower yourself as levitate. If you make an attack while hovering, you are not subject to the attack and damage penalties listed in the levitate spell description. However, if you move yourself higher in the air using a move action, you become subject to the attack and damage penalties until you return to the ground.",
+			">3. **Walk Above the Earth (Su)** You hover several inches off the ground as if levitating. This doesn't affect your speed, and makes you immune to most kinds of difficult terrain, traps triggered by pressure, and potentially other effects. You can levitate over solid surfaces only, so you fall if you step off a cliff or over a liquid. You can, however, raise or lower yourself as {spell/levitate}. If you make an attack while hovering, you are not subject to the attack and damage penalties listed in the levitate spell description. However, if you move yourself higher in the air using a move action, you become subject to the attack and damage penalties until you return to the ground.",
 			">",
 			">### Boons: Sentinel",
 			">",
@@ -2694,11 +2746,16 @@
 			">",
 			">{SOURCE Pathfinder #53: Tide of Honor/73}",
 			">",
-			">- Monks with access to the quivering palm ability may use it to render a target comatose for an extended period (lasting until the target receives a {spell/heal}, {spell/restoration}, or {spell/greater restoration} spell) rather than kill, chosen at the time the quivering palm is activated. Monks may use their wholeness of body ability on a willing creature as a standard action. The monk must touch the target, and the target becomes fatigued from this aid.",
+			">- Monks with access to the *quivering palm* ability may use it to render a target comatose for an extended period (lasting until the target receives a {spell/heal}, {spell/restoration}, or {spell/greater restoration} spell) rather than kill, chosen at the time the *quivering palm* is activated. Monks may use their *wholeness of body* ability on a willing creature as a standard action. The monk must touch the target, and the target becomes {misc/fatigued} from this aid.",
 			"",
 			"### Description",
 			"",
+			"{SOURCE Inner Sea Gods/85}  ",
+			"Irori was once a mortal man whose intense discipline allowed him to attain enlightenment and divinity through physical, mental, and spiritual perfection. He teaches that mastery of the self allows one to master the world, but paradoxically also purges one of desire to master the world. Countless others seek to follow his path, and he encourages them to challenge their minds, bodies, and souls in order to transcend their self-imposed limits. He is also a god of knowledge; his followers are keen students of history, for experience is key to understanding and there is much to be learned from the experiences of others.",
 			"",
+			"Irori knows that there's no single technique that works for everyone, and that every student must experiment and practice to find the best method for her. He is patient, forgiving, and serene, welcoming all who seek perfection as brothers and sisters. He is a teacher who leads by example rather than issuing reprimands and corrections. Meanwhile, he constantly tests his own limits as a deity, expanding his awareness and control without impinging upon the interests of others. Originating from distant Vudra, Irori has gained a diverse following across the Inner Sea region as those who seek discipline and self-perfection look to him for inspiration.",
+			"",
+			"Irori's followers rarely depict him in art because they believe that no icon can hope to live up to his perfect image. They describe him in poetry and prose as a flawless man, clothed in simple robes and wooden sandals, hairless save for a long braid. Beyond the Inner Sea region, his race often changes to reflect that of the artist; artists of the Inner Sea tend to depict him in ways that emphasize his exoticism. Irori sees no need to cloak himself in mystery or augment himself with divine power, so on the rare occasions when he manifests to mortals, he appears as a physically fit man matching his followers' descriptions, often sitting, kneeling patiently, or resting in a meditative pose. He's also been known to project a portion of his awareness into a statue, animating its face and speaking through it.",
 			"",
 			"[^A]: Requires the {trait/Acolyte of Apocrypha} trait."
 		]
@@ -2814,7 +2871,7 @@
 			"",
 			"Ithaqua is known by many names in icy regions. He appears humanoid in form, yet his limbs are long and gaunt, and his feet are often concealed in gusts and blasts of blizzard winds. When he visits, despite these winds that surround him, he leaves monstrous tracks in the snow that show webbing between the toes. Those who gaze upon the Wind-Walker often don't remember his shape at all, only the two points of light &mdash; so like strange sparkling stars in the night sky &mdash; that are in fact his eyes.",
 			"",
-			"Note that while Ithaqua does not grant the domain of Water Water, his clerics can take the subdomain of Ice."
+			"Note that while Ithaqua does not grant the domain of Water, his clerics can take the subdomain of Ice."
 		]
 	},
 	"izyagna": {
@@ -3584,7 +3641,7 @@
 			">{SOURCE Faiths of Golarion/29}",
 			">",
 			">1. **Dedicated Might (Sp)** {spell/true strike} 3/day, {spell/bull's strength} 2/day, or {spell/heroism} 1/day",
-			">2. **Caring Defender (Su)** Protection of self and community is paramount to you. You gain a +2 sacred bonus to your Armor Class. When using the aid another action to increase an ally's Armor Class, this sacred bonus increases to +4 and the ally gains an additional +2 bonus to her Armor Class against attacks.",
+			">2. **Caring Defender (Su)** Protection of self and community is paramount to you. You gain a +2 sacred bonus to your Armor Class. When using the {rule/aid another>_2} action to increase an ally's Armor Class, this sacred bonus increases to +4 and the ally gains an additional +2 bonus to her Armor Class against attacks.",
 			">3. **Allied Actions (Su)** You understand that any actions undertaken for good are multiplied by those within your community. Once per day as a standard action, you can cast {spell/battlemind link} as a spell-like ability. In addition, once per day you can cast {spell/deflection} as a spell-like ability. The caster level of these spells is equal to your character level.",
 			"",
 			"## Paladin Code",
@@ -3617,7 +3674,11 @@
 			"",
 			"### Description",
 			"",
-			""
+			"Kazutal, also known as Lady Jaguar, Mother Jaguar, and She of Grace and Might, was worshipped differently thousands of years ago. In ancient times, the Razatlani spread across Arcadia, subjugating other peoples and establishing their own rigid and tyrannical empire. The Razatlani prayed to Kazutal for strength in battle and protection from injury, much as people do today, but few considered her a goddess who cared at all for society or freedom. In this age of chaos and warfare, most of Kazutal's worship was focused on military might, until the catastrophe of Earthfall disrupted the grasp of the Razatlani Empire.",
+			"",
+			"After Earthfall, Kazutal's surviving clergy used their forces to help other survivors make it through the first few centuries of darkness. Since people depended upon their neighbors to survive, they called on Kazutal's strength to protect every member of the community, as the loss of one person could spell the death of the rest. Through these efforts, a stronger bond of friendship and family blossomed in Kazutal's church. She became a guardian among the ashes, a patron of defense instead of war. Her church grew during that dark time, as her followers sought to unite Arcadia's survivors in the far reaches where the Razatlani Empire had expanded ages ago.",
+			"",
+			"Kazutal recognizes the importance of improving connections and relationships within a community as the pinnacle of proper protection, for a society with strong community bonds can withstand the worst assaults. Her concept of community revolves around a sense of solidarity and responsibility; actual laws are of less importance, and the restraints of any oppressive dogma must be torn down. Kazutal's priests teach that only a free and open society can truly be strong: cultures that harbor internal hatreds will destroy themselves when placed under pressure."
 		]
 	},
 	"kelinahat": {
@@ -3694,7 +3755,8 @@
 			"",
 			"### Description",
 			"",
-			""
+			"{SOURCE Planes of Power/6}  ",
+			"The Brackish Emperor spends much of his time in hibernation before waking to claim territory and destroy all he finds. Few stand a chance against this immense draconic demigod composed of metal and crystal."
 		]
 	},
 	"kelksiomides": {
@@ -3732,7 +3794,11 @@
 			"",
 			"### Description",
 			"",
-			""
+			"Kelksiomides was born in a village of vintners and subsistence farmers in the hills of Pol-Ptirmeios, where he learned the arts of horticulture from his parents and the language of the vines from his grandfather. In turn, he developed labor-saving devices for tilling, irrigating, and fertilizing the soil that quickly earned him a glowing reputation across the city-state. When he came of age, it was his privilege to cart his family's wine to the capital for the annual tasting competition, and when their cask won top honors, the council unilaterally decided that he should receive the cyclopes' blessing.",
+			"",
+			"The giants spoke of future tragedy that would grant him both immortality and humility. Kelksiomides was puzzled, for typical myth-speakings told of fearless monster slayers and arcane prodigies, whereas his path seemed mundane and depressing. Fate struck when he returned home to find his village burned and his family slain by Sylirican raiders. The forces of Pol-Ptirmeios rounded up the 17 perpetrators and dragged them back to the ruined village. There he forgave them, proclaiming that new life shall always succeed misfortune, and they too would have their chance to redeem themselves for their crimes. With that, a tree emerged from the shattered homes and bore a single fruit infused with mythic power.",
+			"",
+			"Kelksiomides believes in restoring hope and life when all seems lost, a drive that inspired him to emigrate to Aelyosos following Liachora's destruction. He encourages others to cultivate beauty, reap the harvest, and share its fruits to inspire others to do the same. He is averse to violent retribution, though ruling a vengeful city with a hawkish co-ruler sometimes forces him to act against his teachings."
 		]
 	},
 	"keltheald": {
@@ -3856,7 +3922,7 @@
 			">",
 			">1. **Woods-walker (Sp)** {spell/feather step} 3/day, {spell/chameleon stride} 2/day, or {spell/burst of speed} 1/day",
 			">2. **Moonlight Vision (Ex)** You hunt at night, during Ketephys's hour, and your experiences have heightened your perception in poor lighting conditions. You gain low-light vision. If you already have low-light vision, you instead gain darkvision with a range of 60 feet. You also gain a +4 sacred bonus on Perception checks at night.",
-			">3. **Verdant Camouflage (Ex)** You know how to disappear as well as the Hunter himself does. You can use the Stealth skill even when being observed, as per the ranger's hide in plain sight ability, and whenever you are moving at half speed or slower, you have {rule/concealment} from enemies. You gain a +4 sacred bonus on Stealth checks while in the forest.",
+			">3. **Verdant Camouflage (Ex)** You know how to disappear as well as the Hunter himself does. You can use the Stealth skill even when being observed, as per the {class/ranger/'s} hide in plain sight ability, and whenever you are moving at half speed or slower, you have {rule/concealment} from enemies. You gain a +4 sacred bonus on Stealth checks while in the forest.",
 			">",
 			">### Boons: Exalted",
 			">",
@@ -3894,7 +3960,11 @@
 			"",
 			"### Description",
 			"",
-			""
+			"Though commonly worshipped among the elves of Golarion, Ketephys's power is strongest in Sovyrian, the secret ancestral home of elves, where they retreated after the Starstone struck in -5293 AR. The elves returned to Golarion in 2497 AR out of necessity when the demon {monster/Treerazer}, Lord of the Blasted Tarn, moved into Kyonin after being exiled from the Abyss, threatening the sacred elf gate known as the Sovyrian Stone. The normally restrained Ketephys was livid to see the corruption of Kyonin's forests, as once-lush, green woods turned to poison and decay, and the earth rotted under the demon's influence. Ketephys personally led a team of expert archers as part of the battle to save Iadara, restore the forests, and drive Treerazer into the Fierani swamps. Though now returned to his normal peaceful state, Ketephys still swears to eliminate Treerazer and his influence from Golarion completely.",
+			"",
+			"Ketephys's influence is generally weaker on Golarion than in Sovyrian, but nevertheless many elves in Kyonin worship him. Elven rangers and hunters worship him almost exclusively, as do many smaller communities. Some non-elven hunters worship Ketephys, and the open-minded god accepts these followers so long as they respect nature appropriately.",
+			"",
+			"Ketephys appears as a russet-skinned elf with the eyes of a hawk, with hawk feathers in place of his hair. He wears a cloak of gray feathers, a simple hunting jerkin, and fur wraps around his ankles; his feet are bare. He is never without his two companions: a hawk named Falling Star and a dog named Meycho. He treats these animals as equals, not pets or servants, and when the three hunt together, each has equal say in their quarry."
 		]
 	},
 	"khepri": {
@@ -3949,7 +4019,7 @@
 			"",
 			"### Description",
 			"",
-			"",
+			"Kitumu is shaped like a firefly, its beetle wings spanning hundreds of feet. She sends plagues of carnivorous fireflies as she awakens, and only a human sacrifice will calm her again.",
 			"",
 			"[^A]: Requires the {trait/Acolyte of Apocrypha} trait."
 		]
@@ -4246,7 +4316,9 @@
 			"",
 			"### Description",
 			"",
-			""
+			"Kro'akoth is a relatively obscure nascent demon lord, but a successful DC 20 Knowledge (religion) check reveals the following. For millennia Kro'akoth the Fire Serpent was a general in the armies of the Abyss. He was a fierce leader and won many victories, but when he watched a legion of gnolls charge to certain death screaming Lamashtu's name, he realized true power lies in the worship of lesser beings.",
+			"",
+			"Kro'akoth started with legions of troglodytes already under his command, but he needed to find more followers not claimed by other demons. Over the centuries, he sought out forgotten mortal cults and those who never had gods at all. He now reigns over a network of cults, though few realize they serve the same master. Each cult has a slightly different agenda, but all worship Kro'akoth, even if their lower-level cultists don't realize it."
 		]
 	},
 	"kroina": {

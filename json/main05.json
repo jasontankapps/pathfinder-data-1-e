@@ -1806,7 +1806,7 @@
 					[ "{eq-misc/mock armor}", 90, 10 ],
 					[ "{eq-misc/monkey statue}", 150, 0.5 ],
 					[ "{eq-misc/monster bait}", 60, 0 ],
-					[ "{eq-misc/mug/tankard}", 0.02, 1 ],
+					[ "{eq-misc/mug//tankard}", 0.02, 1 ],
 					[ "{eq-misc/nautical chart}", 25, 0 ],
 					[ "{eq-misc/net rigging}", 250, 40 ],
 					[ "{eq-misc/oar}", 2, 10 ],
@@ -1820,7 +1820,7 @@
 					[ "{eq-misc/peg leg}", 10, 5 ],
 					[ "{eq-misc/pen, underwater}", 0.6, 0 ],
 					[ "{eq-misc/performer's token}", 0.2, 0 ],
-					[ "{eq-misc/perfume/cologne}", 5, 0 ],
+					[ "{eq-misc/perfume//cologne}", 5, 0 ],
 					[ "{eq-misc/perfume (common, per dose)}", 1, 0 ],
 					[ "{eq-misc/perfume (exotic, per dose)}", 100, 0 ],
 					[ "{eq-misc/perfume kit}", 40, 10 ],
@@ -2933,7 +2933,7 @@
 					{ "header": "Weight", "type": "lbs", "size": 4 }
 				],
 				"filter": [
-					{ "col": 1, "equals": ["channel foci", "dragoncraft", "dungeon guide", "herbs", "pathfinder chronicles"] }
+					{ "col": 1, "equals": ["channel foci", "dragoncraft", "dungeon guide", "elven herbs", "herbs", "pathfinder chronicles"] }
 				],
 				"data": [
 					[ "{eq-misc/A Thread of Silver}", "dungeon guide", 6700, 0 ],
@@ -2945,6 +2945,7 @@
 					[ "{eq-misc/bronze gong (irori)}", "channel foci", 100, 5 ],
 					[ "{eq-misc/chains of contrition}", "channel foci", 200, 2 ],
 					[ "{eq-misc/cloud puff}", "herbs", 100, 0 ],
+					[ "{eq-misc/curewort}", "elven herbs", 25, 0 ],
 					[ "{eq-misc/dahak's fire}", "dragoncraft", 50, 0.5 ],
 					[ "{eq-misc/desna's star}", "herbs", 5, 0 ],
 					[ "{eq-misc/draconic perfume}", "dragoncraft", 75, 0.5 ],
@@ -2981,10 +2982,13 @@
 					[ "{eq-misc/pathfinder chronicles - volume 44}", "pathfinder chronicles", 200, 1 ],
 					[ "{eq-misc/sanctified rings (pair)}", "channel foci", 5, 0 ],
 					[ "{eq-misc/seeing slime}", "herbs", 160, 0 ],
+					[ "{eq-misc/seerbloom}", "elven herbs", 20, 0 ],
+					[ "{eq-misc/sootheweed}", "elven herbs", 35, 0 ],
 					[ "{eq-misc/spiked focus ward}", "channel foci", 100, 2 ],
 					[ "{eq-misc/stinging whip (calistria)}", "channel foci", 50, 5 ],
 					[ "{eq-misc/sundered mask (nethys)}", "channel foci", 250, 1 ],
 					[ "{eq-misc/teaching staff}", "channel foci", 75, 5 ],
+					[ "{eq-misc/tintalviel}", "elven herbs", 50, 0 ],
 					[ "{eq-misc/winged fetish (pharasma)}", "channel foci", 50, 0 ],
 					[ "{eq-misc/winterbite}", "herbs", 20, 0 ],
 					[ "{eq-misc/wyrm pesh}", "dragoncraft", 500, 0 ]
