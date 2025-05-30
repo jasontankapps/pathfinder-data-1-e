@@ -181,6 +181,9 @@ import faith3 from './json/faiths3.json' with {type: 'json'};
 import faith4 from './json/faiths4.json' with {type: 'json'};
 import faith5 from './json/faiths5.json' with {type: 'json'};
 import faith6 from './json/faiths6.json' with {type: 'json'};
+import faith7 from './json/faiths7.json' with {type: 'json'};
+import faith8 from './json/faiths8.json' with {type: 'json'};
+import faith9 from './json/faiths9.json' with {type: 'json'};
 import family1 from './json/monsters_families.json' with {type: 'json'};
 import family2 from './json/monsters_families2.json' with {type: 'json'};
 import feat1 from './json/feats.json' with {type: 'json'};
@@ -1811,6 +1814,27 @@ const basic_data_groups = {
 		searchgroup: 10, // faith
 		link: "faith",
 		num: 6,
+		type: "Deity/Faith"
+	},
+	"faiths7": {
+		data: faith7,
+		searchgroup: 10, // faith
+		link: "faith",
+		num: 7,
+		type: "Deity/Faith"
+	},
+	"faiths8": {
+		data: faith8,
+		searchgroup: 10, // faith
+		link: "faith",
+		num: 8,
+		type: "Deity/Faith"
+	},
+	"faiths9": {
+		data: faith9,
+		searchgroup: 10, // faith
+		link: "faith",
+		num: 9,
 		type: "Deity/Faith"
 	},
 	"feats": {
