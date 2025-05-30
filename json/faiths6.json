@@ -1329,7 +1329,11 @@
 			"",
 			"### Description",
 			"",
+			"{SOURCE Inner Sea World Guide/235}  ",
+			"Lissala was a goddess of runes, fate, and the reward of service, a being of harsh duty and obedience who rewarded her followers well. Her faith was strongest in the ancient empire of Thassilon, and shrines and temples to her can still be found hidden in remote Thassilonian ruins in Varisia and Belkzen. As Thassilon grew more decadent, so did Lissala's faithful - her cult was known for its flagellations, mortifications of the flesh, and extravagant \"Feasts of Sigils\" on high holidays.",
 			"",
+			"{SOURCE Planar Adventures/174}  ",
+			"Lissala is the goddess of harsh duty, fate, obedience, and runes, but her time on Golarion has long since passed. With the fall of the empires of Azlant and Thassilon, her worship all but vanished for thousands of years, and only recently has it been rekindled in the Inner Sea region.",
 			"",
 			"[^A]: Requires the {trait/Acolyte of Apocrypha} trait."
 		]
@@ -1742,6 +1746,7 @@
 		"name": "Thamir Gixx",
 		"sources": [
 			"Inner Sea Gods",
+			"Gods and Magic",
 			"Pathfinder #131: The Reaper's Right Hand"
 		],
 		"description": [
@@ -1771,7 +1776,7 @@
 			">{SOURCE Pathfinder #131: The Reaper's Right Hand/72}",
 			">",
 			">1. **The Unseen (Sp)** {spell/vanish} 3/day, {spell/chameleon stride} 2/day, or {spell/invisibility sphere} 1/day",
-			">2. **Hidden in Darkness (Su)** You can use the Stealth skill even while being observed. As long as you are within an area of dim light or darker, you can hide yourself from view in the open without anything to actually hide behind. You can't, however, hide in your own shadow, and you can't use this ability to hide from creatures that have darkvision or have the see in darkness supernatural ability.",
+			">2. **Hidden in Darkness (Su)** You can use the Stealth skill even while being observed. As long as you are within an area of dim light or darker, you can hide yourself from view in the open without anything to actually hide behind. You can't, however, hide in your own shadow, and you can't use this ability to hide from creatures that have darkvision or have the {umr/see in darkness} supernatural ability.",
 			">3. **Feed on Shadows (Su)** Whenever you are in an area of dim light or darker, you can, as a standard action, regain a number of hit points equal to 4d8 + 1 per character level. You can use this ability a number of times per day equal to 3 + your Charisma modifier (minimum 1).",
 			">",
 			">### Boons: Exalted",
@@ -1788,7 +1793,7 @@
 			">",
 			">1. **The Unbroken (Sp)** {spell/chill touch} 3/day, {spell/cat's grace} 2/day, or {spell/locate weakness} 1/day",
 			">2. **Dagger of Night (Su)** As a move action, you can conjure a blade of darkness into your hand. This blade of darkness functions as a dagger, but deals an amount of damage equal to 1d8 + 1 point per 3 character levels + your Strength modifier; half of this damage is piercing and the other half is cold damage. The blade is considered a magic weapon for the purpose of bypassing damage reduction. The blade lasts for a number of rounds equal to your character level, though the blade immediately vanishes if it leaves your hand. You can use this ability a number of times per day equal to 3 + your Charisma modifier (minimum 1); you can expend two uses of this ability with the same move action to conjure two daggers (wielding one in each hand) if you wish.",
-			">3. **Umbral Form (Su)** As a standard action, you can weave strands of shadow-stuff into your physical form. You gain DR 10/- and cold resistance 15. When you take damage from a critical hit or sneak attack, there is a 50% chance that the critical hit or sneak attack is negated and damage is instead rolled normally. This does not stack with similar abilities that negate critical hits and sneak attacks (such as {magic-enh/fortification} armor). You gain the see in darkness supernatural ability allowing you to see in areas of even magical darkness. In areas of dim light or darker, you can move as if affected by {spell/air walk}. You can return to your normal form as a free action. You can use this ability a number of rounds per day equal to your character level, and these rounds need not be consecutive.",
+			">3. **Umbral Form (Su)** As a standard action, you can weave strands of shadow-stuff into your physical form. You gain DR 10/- and cold resistance 15. When you take damage from a critical hit or sneak attack, there is a 50% chance that the critical hit or sneak attack is negated and damage is instead rolled normally. This does not stack with similar abilities that negate critical hits and sneak attacks (such as {magic-enh/fortification} armor). You gain the {umr/see in darkness} supernatural ability allowing you to see in areas of even magical darkness. In areas of dim light or darker, you can move as if affected by {spell/air walk}. You can return to your normal form as a free action. You can use this ability a number of rounds per day equal to your character level, and these rounds need not be consecutive.",
 			"",
 			"## Follower Options",
 			"",
@@ -1829,9 +1834,11 @@
 			"",
 			"### Description",
 			"",
-			""
+			"{SOURCE Gods and Magic/52}  ",
+			"Halflings consider Thamir the friend, minion, or slave of {faith/Norgorber} depending on how a particular tale of their \"adventures\" is told, though he usually plays the role of the overlooked assistant who is just as dangerous as his employer. He represents the darker side of {race/halfling} life that appeals to certain elements - cutpurses, assassins, and mistreated halflings who have been pushed too far. Most good-hearted halflings don't like to talk about him, although the stories circulate among younger halflings. The fact that he shares his last name with the Primarch of Absalom is no coincidence, and the god has changed his name several times in the past to match that of the city's leader."
 		]
 	},
+	"thamir": { "copyof": "thamir_gixx" },
 	"the_green_mother": {
 		"name": "The Green Mother",
 		"sources": [ "The First World, Realm of the Fey" ],
@@ -1862,8 +1869,8 @@
 			">{SOURCE The First World, Realm of the Fey/20}",
 			">",
 			">1. **Compelling Presence (Sp)** {spell/charm person} 3/day, {spell/enthrall} 2/day, or {spell/suggestion} 1/day",
-			">2. **Suble Influence (Sp)** You can cast dominate person three times per day, though you don't need to share a common language with the target to give it complex commands.",
-			">3. **Beguiling Touch (Sp)** You can cast dominate monster once per day. If you make a successful touch attack against the target as part of the casting, the save DC of the spell increases by 2.",
+			">2. **Suble Influence (Sp)** You can cast {spell/dominate person} three times per day, though you don't need to share a common language with the target to give it complex commands.",
+			">3. **Beguiling Touch (Sp)** You can cast {spell/dominate monster} once per day. If you make a successful touch attack against the target as part of the casting, the save DC of the spell increases by 2.",
 			"",
 			"## Follower Options",
 			"",
@@ -1888,7 +1895,11 @@
 			"",
 			"### Description",
 			"",
+			"From the elegant flower that draws in the bee to the bioluminescent lures that call deep-sea fish to the slaughter, seduction is an integral part of the natural world, bringing both pleasure and pain. No creature embodies this idea better than the Green Mother.",
 			"",
+			"The Green Mother resembles a beautiful humanoid woman with bark-like skin and green hair, her features a constantly shifting mix of elf, dryad, and nymph. As befits the Eldest most associated with simplistic human ideas of nature, her body regularly changes to incorporate natural features: hands becoming gnarled roots, hair becoming a literal waterfall, or skin suddenly becoming a mirror-smooth pond capable of sucking in and drowning an unfortunate lover.",
+			"",
+			"Travelers from beyond the First World are often quick to cast the Green Mother in one of two lights: either as the villainous temptress of morality plays or as the equally deadly seductress of bawdy tales (contributing to such thinly veiled sobriquets as \"the Feasting Flower\" and \"the Hungry Blossom\"). Yet the Green Mother is not merely a creature of lust. Rather, she is the seduction of nature incarnate, the caution to the unwary. She is the rolling landscape that calls to the wanderer, the primal need that leads salmon to spawn and die, the mantis gnawing on the corpse of her mate. She is both the flower's bloom and the inevitable death that follows. To attempt to define her via mortal concepts of morality is to miss the point entirely.",
 			"",
 			"[^A]: Requires the {trait/Acolyte of Apocrypha} trait."
 		]
@@ -2122,7 +2133,10 @@
 	},
 	"thremyr": {
 		"name": "Thremyr",
-		"sources": [ "Inner Sea Gods" ],
+		"sources": [
+			"Inner Sea Gods",
+			"Gods and Magic"
+		],
 		"description": [
 			"::fh[Thremyr]{sub=\"First Jarl\"}",
 			"",
@@ -2143,7 +2157,8 @@
 			"",
 			"### Description",
 			"",
-			""
+			"{SOURCE Gods and Magic/50}  ",
+			"This ancient being is a creature from another age and might still be sleeping to this day if the *Starstone's* impact hadn't awakened him. He looks like a colossal {monster/frost giant} made of ice, with a beard and hair of salt, and eyes and nails of cold blue gems. When he walks, he sheds pieces of himself that turn into {monster/ice troll/s}, strange fey, or just thick snow. He loves treasure, especially gems, mithral, silver, and platinum, and to sleep on piles of his loot hidden from mortal eyes. He does not feel protective toward any of his children but instinctively reciprocates prayers and sacrifices with the old magic at his command."
 		]
 	},
 	"thuskchoon": {
@@ -2923,13 +2938,13 @@
 			">### Boons: Evangelist",
 			">",
 			">1. **Master of Earth (Sp)** {spell/expeditious excavation} 3/day, {spell/instrument of agony} 2/day, or {spell/burrow} 1/day",
-			">2. **Hands of Justice (Su)** For a number of rounds per day equal to your Hit Dice, you can infuse your slams or a melee weapon you wield with the power of pure law. Your attacks with these weapons gain the axiomatic weapon special ability. Any attacks that would damage these weapons first have their damage reduced by 5 before you apply DR, hardness, or any resistances. Activating or dismissing this ability is a free action, and the rounds need not be consecutive. Any weapon affected by this ability returns to normal 1 round after it leaves your hands.",
-			">3. **Maker's Gift (Su)** Once per day as a full-round action, you can grant Minderhal's gift of power to a willing humanoid creature by touching it. The target gains a +2 profane bonus to Strength or a +4 profane bonus on Craft checks relating to stone. A creature can have no more than one Maker's gift from an evangelist at a time. As long as the gift persists, you can speak telepathically with the target across any distance (but this does not grant it the ability to reply). The Maker's gift is removed by dispel evil or dispel law. You can remove the gift as a free action, dealing 1d4 points of Wisdom damage to the target as a result. The target cannot attempt a saving throw against this effect.",
+			">2. **Hands of Justice (Su)** For a number of rounds per day equal to your Hit Dice, you can infuse your slams or a melee weapon you wield with the power of pure law. Your attacks with these weapons gain the {magic-enh/axiomatic} weapon special ability. Any attacks that would damage these weapons first have their damage reduced by 5 before you apply DR, hardness, or any resistances. Activating or dismissing this ability is a free action, and the rounds need not be consecutive. Any weapon affected by this ability returns to normal 1 round after it leaves your hands.",
+			">3. **Maker's Gift (Su)** Once per day as a full-round action, you can grant Minderhal's gift of power to a willing humanoid creature by touching it. The target gains a +2 profane bonus to Strength or a +4 profane bonus on Craft checks relating to stone. A creature can have no more than one Maker's gift from an evangelist at a time. As long as the gift persists, you can speak telepathically with the target across any distance (but this does not grant it the ability to reply). The Maker's gift is removed by {spell/dispel evil} or {spell/dispel law}. You can remove the gift as a free action, dealing 1d4 points of Wisdom damage to the target as a result. The target cannot attempt a saving throw against this effect.",
 			">",
 			">### Boons: Exalted",
 			">",
 			">1. **Will of the Unmaker (Sp)** {spell/enlarge person} 3/day, {spell/weapon of awe} 2/day, {spell/marionette possession} 1/day",
-			">2. **Hands of Justice (Su)** For a number of rounds per day equal to your Hit Dice, you can infuse your slams or a melee weapon you wield with the power of pure law. Your attacks with these weapons gain the axiomatic weapon special ability. Any attacks that would damage these weapons first have their damage reduced by 5 before you apply DR, hardness, or any resistances. Activating or dismissing this ability is a free action, and the rounds need not be consecutive. Any weapon affected by this ability returns to normal 1 round after it leaves your hands.",
+			">2. **Hands of Justice (Su)** This is the same as the *Hands of Justice* Evangelist ability, above.",
 			">3. **Rocky Flesh (Sp)** You gain a profane bonus equal to your Charisma modifier on your Fortitude saving throws and to your natural armor bonus.",
 			">",
 			">### Boons: Sentinel",
@@ -2937,7 +2952,7 @@
 			">{SOURCE Pathfinder #93: Forge of the Giant God/75}",
 			">",
 			">1. **Paragon of Greatness (Sp)** {spell/compel hostility} 3/day, {spell/bull's strength} 2/day, {spell/haste} 1/day",
-			">2. **Rewarding Smash (Su)** Whenever ou confirm a hit with a melee attack, you heal a number of hit points equal to your Hit Dice or the target's Hit Dice, whichever is less.",
+			">2. **Rewarding Smash (Su)** Whenever you confirm a hit with a melee attack, you heal a number of hit points equal to your Hit Dice or the target's Hit Dice, whichever is less.",
 			">3. **Avalanche of Might (Sp)** As a swift action, you can increase your physical might. You gain a +1 profane bonus on melee attack rolls, melee weapon damage rolls, Strength checks, and Strength-based skill checks, as well as DR 1/&mdash; until the end of your next turn. You can use this ability a number of times a day equal to your Hit Dice; these rounds need not be consecutive. If you use this ability on consecutive rounds, the duration resets; the bonus from consecutive uses stack.",
 			"",
 			"## Follower Options",
@@ -2965,7 +2980,12 @@
 			"",
 			"### Description",
 			"",
+			">{SOURCE Pathfinder #93: Forge of the Giant God/71}  ",
+			"Also known as the Lord of Giants, the Maker, or (more formally) He Who Makes and Unmakes, Minderhal treasures his worshipers as if he had crafted them out of raw stone with his own hands. He is filled with contempt toward those who have turned their backs on him, like a master sculptor condemning a journeyman who dared strike out on her own without his explicit blessing. Communications with his faithful are slow and ponderous; each word is assigned great weight and laden with context about the past and the future.",
 			"",
+			"Minderhal instructs his followers with well-worn adages, wise parables, and poignant philosophical questions that can be answered only after long introspection. Faith, history, knowledge, and works of skilled craftsmanship are respected. Superiors and existing practices should not be challenged; if there is a conflict, it is better to exile yourself with dignity than to shame yourself and your tribe by violating a taboo or disputing a tradition.",
+			"",
+			"Minderhal's {monster/stone giant} worshipers prefer to portray him as a bearded, strong, and wise elder giant, carving his image in soft stone to capture his strength and the nuances of his power. At the height of his popularity, he was depicted either as a powerful crafter and builder or as a raging, rocky colossus. Evil tribes tend to show him with narrowed eyes, clenched hands, and a frowning mouth, representing his scrutiny, swift discipline, and admonishments.",
 			"",
 			"[^A]: Requires the {trait/Acolyte of Apocrypha} trait."
 		]
@@ -3901,7 +3921,7 @@
 			">{SOURCE Pathfinder #95: Anvil of Fire/67}",
 			">",
 			">1. **Slave-Taker's Tools (Sp)** {spell/command} 3/day, {spell/stoke the inner fire} 2/day, or {spell/chain of perdition} 1/day",
-			">2. **Sense Slaves (Ex)** You gain the scent ability, but only with respect to humanoids. You gain a +2 favored enemy bonus against humanoids, which stacks with any {ability/favored enemy} bonus you already possess against humanoids.",
+			">2. **Sense Slaves (Ex)** You gain the {umr/scent} ability, but only with respect to humanoids. You gain a +2 favored enemy bonus against humanoids, which stacks with any {ability/favored enemy} bonus you already possess against humanoids.",
 			">3. **Searing Strike (Su)** Once per day, you can channel the Prince of Steel's power through your weapon as a free action. You must declare your use of this ability before you make an attack roll. On a hit, the weapon creates a burst of fire. Your target takes 5d6 points of fire damage and catches on fire unless it succeeds at a Reflex save (DC 10 + 1/2 your HD + your Charisma modifier). If the target catches on fire, it takes an additional 2d6 points of fire damage each round until it succeeds at a Reflex save at the original DC. All fire damage from searing strike ignores fire resistance, but not fire immunity.",
 			">",
 			">### Boons: Exalted",
@@ -3909,7 +3929,7 @@
 			">{SOURCE Pathfinder #95: Anvil of Fire/67}",
 			">",
 			">1. **Tyrant's Weapons (Sp)** {spell/bane} 3/day, {spell/dread bolt} 2/day, or {spell/protection from energy} 1/day",
-			">2. **Fiery Fangs (Su)** Two fangs made of fire emerge from your mouth. Twice per day as part of casting a spell or using a spell-like ability, you may remove one of these fangs and use it to augment that spell or spell-like ability; this counts as adding a somatic component to the casting. This augmentation acts as your choice of one of the following metamagic feats: Bouncing Spell, Elemental Spell (fire only), Enlarge Spell, Extend Spell, or Silent Spell. The fangs are insubstantial, and cannot be used to make a bite attack.",
+			">2. **Fiery Fangs (Su)** Two fangs made of fire emerge from your mouth. Twice per day as part of casting a spell or using a spell-like ability, you may remove one of these fangs and use it to augment that spell or spell-like ability; this counts as adding a somatic component to the casting. This augmentation acts as your choice of one of the following metamagic feats: {feat/Bouncing Spell}, {feat/Elemental Spell} (fire only), {feat/Enlarge Spell}, {feat/Extend Spell}, or {feat/Silent Spell}. The fangs are insubstantial, and cannot be used to make a bite attack.",
 			">3. **Burning Bladestorm (Sp)** You can create a whirling curtain of blades of fire and steel. This ability acts like a {spell/blade barrier} cast by a cleric but also sends out waves of heat like a {spell/wall of fire}. Fire giants may pass through the blades without taking any damage. Humanoid creatures killed by this ability rise as uncontrolled burning {template/skeleton/s}.",
 			">",
 			">### Boons: Sentinel",
@@ -3953,7 +3973,7 @@
 			"",
 			"### Description",
 			"",
-			""
+			"This secretive deity shuns contact with most other divine beings, focusing his attention on events in the mortal world. He constantly urges his followers to war on other races, taking slaves and resources so they can improve their own equipment and conduct more effective raids. He discourages fighting between {monster/fire giant} clans and has been known to relocate entire settlements to prevent such conflicts. Several fire giant \"kings\" are {template/half-fiend/s}, usually born of fire giant queens (and apparently the male giants do not object to this cuckolding). Sculptures of Zursvaater depict a mighty, armored fire giant with a closed-faced helm, sometimes holding a heavy chain in one hand."
 		]
 	},
 	"zyphus": {

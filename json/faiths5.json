@@ -197,7 +197,7 @@
 			">{SOURCE Inner Sea Gods/100}",
 			">",
 			">1. **Arcane Essence (Sp)** {spell/mage armor} 3/day, {spell/mirror image} 2/day, or {spell/fly} 1/day",
-			">2. **Arcane Eye (Sp)** You can use {spell/arcane eye} three times per day as a spell-like ability. The arcane eye you summon functions as if you had cast arcane sight and were able to view its information through the arcane eye. This allows you to see magical auras through the arcane eye, and potentially identify the schools of magic involved. You can also potentially determine the spellcasting or spell-like abilities of viewed creatures, as noted in the spell description.",
+			">2. **Arcane Eye (Sp)** You can use {spell/arcane eye} three times per day as a spell-like ability. The arcane eye you summon functions as if you had cast {spell/arcane sight} and were able to view its information through the arcane eye. This allows you to see magical auras through the arcane eye, and potentially identify the schools of magic involved. You can also potentially determine the spellcasting or spell-like abilities of viewed creatures, as noted in the spell description.",
 			">3. **Robes of Nethys (Su)** You can manifest an illusory robe that absorbs hostile spells for a number of rounds per day equal to 1 + 1 for every 4 Hit Dice you possess (maximum 6 rounds). These rounds don't need to be consecutive, and you can activate or deactivate the robe as a free action. The robe functions as a {spell/lesser globe of invulnerability} except that it only excludes hostile spell effects of 3rd level or lower. Any spell that would force you to attempt a saving throw; cause you to take hit point damage, negative levels, ability drain, or ability damage; or end your life is considered hostile for the purposes of this effect. Unlike a lesser globe of invulnerability, you can move normally while cloaked in the robes.",
 			">",
 			">### Boons: Exalted",
@@ -315,7 +315,14 @@
 			"",
 			"### Description",
 			"",
+			"{SOURCE Inner Sea Gods/101}  ",
+			"Nethys's only concern is magic - its use, creation, and innovation. He is aware of his mortal worshipers and rewards their devotion with divine power, but not for their use of magic alone. When some mortal tyrant outlaws the use of magic, Nethys expects his followers to intervene, though he issues no call to crusade. Likewise, those who perceive new avenues of magic and pursue them gain his favor, regardless of the nature or purpose of the magic. His total awareness means he sees every success and every failure, from the first cantrip learned by a fledgling hedge wizard to the rudiments of star-exploding magic developed on the farthest-flung planet.",
 			"",
+			"Other gods may take parental roles toward their churches, but Nethys acts more like the volatile but dispassionate guardian of an estate, unconcerned about individual heirs as long as the vast legacy of the family continues. Queries made of the All-Seeing Eye via {spell/commune} and similar spells always give accurate information, but his tone might range from amused to cold to disappointed to enraged, seemingly without rhyme or reason. Other deities have tried to stabilize or cure his shattered mind and violent mood swings, but he inevitably perceives any progress as a depletion of his energy and negates their efforts. His allies have learned to tolerate his ever-changing nature, keeping him at a respectful arm's length for the sake of his knowledge.",
+			"",
+			"Nethys is a proponent of magic for all purposes, even frivolous or wasteful ones. Magic is an infinite resource that permeates all dimensions, and thus he insists there is no need to limit its use for fear of its eventual depletion. He sees magic-drained places like the Mana Wastes as aberrations, tumors in the world that can be excised, though dealing with them is not a high priority unless they begin to grow and threaten the healthy flow of magic elsewhere. Nethys isn't averse to technology unless it interferes with or supplants magic; indeed, he relishes the blending of technology and magic.",
+			"",
+			"Nethys normally appears as a male human crackling with power, one side of him burned and broken, the other half calm and serene. This duality is usually emphasized in artwork, which often depicts the god releasing terrible magic from his broken side even as he casts spells from his good side to heal the wounds he just caused. Though he is generally depicted as Garundi, some regional temples deviate from this by showing him as a member of a prominent local race or as an Azlanti.",
 			"",
 			"[^A]: Requires the {trait/Acolyte of Apocrypha} trait.",
 			"[^T]: This creature is summoned with the {template/celestial} template if you are good, or with the {template/fiendish} template if you are evil; you may choose either if you are neutral."
@@ -745,8 +752,8 @@
 			">{SOURCE Inner Sea Gods/108}",
 			">",
 			">1. **Secrets and Lies (Sp)** {spell/comprehend languages} 3/day, {spell/detect thoughts} 2/day, or {spell/clairaudience//clairvoyance} 1/day",
-			">2. **Noxious Bomb (Ex)** As a full-round action, you can combine a vial of poison with a thrown alchemist bomb. The bomb deals normal direct hit and splash damage, plus the target of the direct hit must save successfully or suffer the effects of the poison. Only contact and injury poisons can be used this way. Creatures hit by the bomb's splash damage are unaffected by the poison. If you don't have the bomb class feature, this boon instead functions the same as poison expertise, the second divine boon for sentinels of Norgorber.",
-			">3. **Secret Self (Sp)** Once per day, you can use {spell/greater invisibility} on yourself as a spell-like ability. When you use this spell-like ability, you gain certain gifts from Norgorber in addition to the spell effects. You gain a +4 profane bonus on Perception checks while invisible. You gain a +2 profane bonus on attack rolls made with thrown weapons, ranged weapons, and short swords while invisible as well. These bonuses apply only when you're using this spell-like ability, not when you're affected by any other spell or effect that grants greater invisibility. In addition, the invisibility effect lasts for 1 minute/level instead of the normal 1 round/level.",
+			">2. **Noxious Bomb (Ex)** As a full-round action, you can combine a vial of poison with a thrown {class/alchemist} bomb. The bomb deals normal direct hit and splash damage, plus the target of the direct hit must save successfully or suffer the effects of the poison. Only contact and injury poisons can be used this way. Creatures hit by the bomb's splash damage are unaffected by the poison. If you don't have the bomb class feature, this boon instead functions the same as *poison expertise,* the second divine boon for sentinels of Norgorber (see below).",
+			">3. **Secret Self (Sp)** Once per day, you can use {spell/greater invisibility} on yourself as a spell-like ability. When you use this spell-like ability, you gain certain gifts from Norgorber in addition to the spell effects. You gain a +4 profane bonus on Perception checks while invisible. You gain a +2 profane bonus on attack rolls made with thrown weapons, ranged weapons, and short swords while invisible as well. These bonuses apply only when you're using this spell-like ability, not when you're affected by any other spell or effect that grants *greater invisibility.* In addition, the invisibility effect lasts for 1 minute/level instead of the normal 1 round/level.",
 			">",
 			">### Boons: Exalted",
 			">",
@@ -783,13 +790,13 @@
 			">",
 			">Entombed within a volume known as The Reaper's Hand, the divine fighting techniques of Norgorber are among the most elusive in the Inner Sea region, but are theorized to cover the techniques that acolytes of Father Skinsaw use to move and strike unseen. Copies of this manual are rare, and those who spill its secrets to anyone unworthy often meet a swift and bloody end at the hands of the faith's inquisitors.",
 			">",
-			">**Optional Replacement:** A neutral evil rogue of at least 2nd level who worships Norgorber can replace a rogue talent with the following initial benefit.",
+			">**Optional Replacement:** A neutral evil rogue of at least 2nd level who worships Norgorber can replace a {ability/rogue talent>s} with the following initial benefit.",
 			">",
-			">**Initial Benefit:** Whenever you attack an opponent that is completely unaware of your presence (such as when you are using the Stealth skill or invisible), your attack deals damage as if you were one size category larger. This benefit applies only to the first attack that you make against the target, and only with attacks made with light or one-handed weapons intended for creatures of your size (including thrown attacks).",
+			">**Initial Benefit:** Whenever you attack an opponent that is completely unaware of your presence (such as when you are using the Stealth skill or invisible), your attack deals damage as if you were {misc/one size category larger}. This benefit applies only to the first attack that you make against the target, and only with attacks made with light or one-handed weapons intended for creatures of your size (including thrown attacks).",
 			">",
 			">**Advanced Prerequisite:** {feat/Divine Fighting Technique}, 10 ranks in Stealt/stealth).",
 			">",
-			">**Optional Advanced Replacement:** A neutral evil rogue of at least 10th level who worships Norgorber can replace an advanced rogue talent with the following advanced benefit without meeting its prerequisites.",
+			">**Optional Advanced Replacement:** A neutral evil rogue of at least 10th level who worships Norgorber can replace an {ability/advanced rogue talent>s} with the following advanced benefit without meeting its prerequisites.",
 			">",
 			">**Advanced Benefit:** At the start of each round, choose one opponent that you can see and attempt a Stealth check as a swift action. If the result of your check exceeds the target's CMD, treat the target as if it were completely unaware of your presence for the purpose of the initial benefit of this divine fighting technique. If you beat the target's CMD by 5 or more, you also treat it as being completely unaware of your presence for the purposes of all class features and feats you have.",
 			"",
@@ -805,7 +812,12 @@
 			"",
 			"### Description",
 			"",
+			">{SOURCE Inner Sea Gods/109}  ",
+			"Norgorber is one of the Ascended, a mortal who triumphed in the Test of the *Starstone* and took the mantle of the god of killers and spies. Little is known of his life as a mortal, for he has concealed this information so others can't use it against him - possibly murdering those who knew him. He has wiped knowledge of his past from even the memories of the other gods, becoming an enigma to all. Only his most favored worshipers know enough about his goals to help bring his plans to fruition in the world, and sometimes he wipes the knowledge from their minds when their tasks are done to better preserve his secrets. Some sages believe that if Norgorber's true nature were discovered, he would be undone - perhaps as a side effect of his passing the Test of the *Starstone,* or perhaps as fallout from some sacrifice he made for greater power. He is subtle, devious, and cunning, a cold killer who hides in shadows and trades on his power and information. He is a master of secrets, a true gamesman, and he welcomes all into his church - for eventually, all have secrets for which they would kill.",
 			"",
+			"In artwork, Norgorber is most often represented only by his holy symbol: a featureless black mask, often polished to a mirror sheen. Some artists evoke his presence with a black mask-like badge or an empty black glove, and worshipers have been known to nail a black glove to a door as a warning to someone who has offended the cult. He is sometimes shown as an invisible man dressed in the garb of a thief, or a hooded, spectre-like figure with an obscured face and sinister black gloves. Those who try to paint or sculpt him as a recognizable figure, even if the image is purely from the artist's imagination and not based on any knowledge or insight, find their hands fumbling and their work increasingly erratic. If they persist, their motor control is often permanently afflicted. Wiser priests of his church say this is because if the god blotted out only accurate depictions of him, mortals could deduce his true appearance by determining what they are not allowed to paint, so instead he hinders all attempts to portray his visage. When he manifests to mortals, he appears to be a normal human dressed in brown and black, of average height and build, always with his face concealed or entirely invisible, and vaguely threatening even when speaking pleasantly.",
+			"",
+			"Norgorber has four aspects, all of them sinister. He is the Reaper of Reputation, god of secrets; the Gray Master, god of thieves; Blackfingers, god of poisons; and Father Skinsaw, god of murder. Members of Norgorber's cult usually align themselves with one of his four aspects, though some temples venerate all of them. The faithful are all Sons and Daughters of the Mask, and the different branches of the church might work together toward some secret plan orchestrated by the god and his direct agents, though in many respects they operate like four distinct churches of different deities. The faithful mask themselves and hide their identities from their fellow congregants as scrupulously as they do from their victims.",
 			"",
 			"[^A]: Requires the {trait/Acolyte of Apocrypha} trait."
 		]
@@ -1189,7 +1201,11 @@
 			"",
 			"### Description",
 			"",
-			""
+			"Omrataji is the god of silver and all those who work with it, from the miners who pull it from the earth to the artisans who shape it. Followers of Omrataji believe silver is the most valuable of elements, because of its effectiveness in defeating evil outsiders, vampires, and lycanthropes. Omrataji has become a patron of crusades against such evils, not by fighting them directly - though he isn't against such action in times of need - but rather by ensuring those who oppose them have access to the finest of weapons needed to defeat them. Despite his reputation as a crusader deity, Omrataji's main focus is as a god of crafting and the relationships that arise within the silver industry.",
+			"",
+			"Omrataji's followers believe that the act of trading, sharing, or otherwise passing silver from one person to another is a gesture of friendship, camaraderie, and charity, even if such practical transactions are part of a financial arrangement rather than acts of altruism. One of the most common axioms spoken by Omrataji's faithful is, \"May the silver flow freely from your purse,\" indicating that the speaker wishes wealth, communion, and generosity upon the subject of his blessing. Omrataji's followers aren't naive about the power of wealth to divide and oppress, but they do maintain optimism that commerce can be purified into something that uplifts everyone in society, rather than being used as a tool to reduce the power of the already powerless. They attempt to teach others to manage their resources well and navigate the nation's economic systems with a sense of confidence.",
+			"",
+			"In Radripal, where the silver industry has for so long been a tool of the city's corrupt rulers, Omrataji's faithful ever prepare for an eventual revolt against the rakshasas. The underground movement's leadership believes that the people hold the power to cut off the flow of silver from Lord Akashar and his cronies rather than the other way around. Omrataji, for his part, urges temperance and an attempt to show evildoers the error of their ways rather than allowing their passions to lead them to outright rebellion."
 		]
 	},
 	"onamahli": {
@@ -1453,7 +1469,10 @@
 	},
 	"urazra": {
 		"name": "Urazra",
-		"sources": [ "Inner Sea Gods" ],
+		"sources": [
+			"Inner Sea Gods",
+			"Gods and Magic"
+		],
 		"description": [
 			"::fh[Urazra]{sub=\"Breaker of Bones\"}",
 			"",
@@ -1484,7 +1503,8 @@
 			"",
 			"### Description",
 			"",
-			""
+			"{SOURCE Gods and Magic/50}  ",
+			"This god has gained much popularity among the younger and more brutal {monster/stone giant/s}, particularly young males who tire of herding and long for the excitement of raiding. He promises his followers strength, fortitude, and immunity to pain in exchange for acts of savagery and living sacrifices (typically creatures captured during raids). Elder giants oppose this faith, as it rejects wisdom and civilization in favor of the most bestial aspects of giant nature, things best left behind ages before. Persuasive younger priests attract followers who accept the controversial idea that strength and force of will are more important than knowledge or history. Followers of Urazra identify with bear totems, and most champions of the faith have levels in the {class/barbarian} class."
 		]
 	},
 	"urgathoa": {
@@ -1540,14 +1560,14 @@
 			">",
 			">1. **Pestilent Penitent (Sp)** {spell/curse water} 3/day, {spell/feast of ashes} 2/day, or {spell/contagion} 1/day",
 			">2. **Death Knowledge (Su)** Your knowledge of the arcane workings of death increases. Your familiar can teach you one new spell from either the {domain/Death} or {domain/Magic} domain spell list. The spell must be of a level you can cast, and once you choose the spell, your selection can't be changed. If you cast spells from a spellbook, you learn a new spell in the same manner, though it appears magically in your spellbook. If you cast spells spontaneously, you can choose one spell to add to your list of spells known, but you gain no additional spell slots.",
-			">3. **Blight of Ruin (Su)** Your blight hex gains power from Urgathoa's favor. If you use your blight hex on a plot of land, you can affect an area whose radius is equal to 20 &times; your combined witch and evangelist levels. If you blight a creature of the animal or plant type, increase the saving throw DC by 4 and the curse's effect to 2 points of Constitution damage per day. If the target successfully saves against your blight hex, it instead takes 3d6 points of negative energy damage. If you don't have access to the blight hex, you instead gain the ability to use {spell/mass fester} once per day as a spell-like ability.",
+			">3. **Blight of Ruin (Su)** Your {hex/blight} hex gains power from Urgathoa's favor. If you use your blight hex on a plot of land, you can affect an area whose radius is equal to 20 &times; your combined witch and evangelist levels. If you blight a creature of the animal or plant type, increase the saving throw DC by 4 and the curse's effect to 2 points of Constitution damage per day. If the target successfully saves against your blight hex, it instead takes 3d6 points of negative energy damage. If you don't have access to the blight hex, you instead gain the ability to use {spell/mass fester} once per day as a spell-like ability.",
 			">",
 			">### Boons: Exalted",
 			">",
 			">{SOURCE Inner Sea Gods/156}",
 			">",
 			">1. **Mistress of Undeath (Sp)** {spell/inflict light wounds} 3/day, {spell/desecrate} 2/day, or {spell/animate dead} 1/day",
-			">2. **Bolstering Channel (Su)** When you channel negative energy to heal undead creatures, you infuse the targets with negative energy made more powerful by Urgathoa's influence. Any undead creatures healed by your channeled energy increase their movement speed by 10 feet for 1 round for every Hit Die you possess.",
+			">2. **Bolstering Channel (Su)** When you {ability/channel negative energy} to heal undead creatures, you infuse the targets with negative energy made more powerful by Urgathoa's influence. Any undead creatures healed by your channeled energy increase their movement speed by 10 feet for 1 round for every Hit Die you possess.",
 			">3. **Ally from the Grave (Sp)** The Pallid Princess's servants have taken notice of your deeds and answer your call. Once per day as a standard action, you can summon a {monster/bhuta} to serve you. You gain telepathy with the bhuta to a range of 100 feet. The bhuta follows your commands perfectly for 1 minute for every Hit Die you possess before vanishing back to its home. It doesn't obey commands that would make it perform overly good acts, and such instructions could cause it to attack you if they are particularly egregious.",
 			">",
 			">### Boons: Sentinel",
@@ -1555,7 +1575,7 @@
 			">{SOURCE Inner Sea Gods/156}",
 			">",
 			">1. **Glutton for Slaughter (Sp)** {spell/magic missile} 3/day, {spell/acid arrow} 2/day, or {spell/fireball} 1/day",
-			">2. **Scythe Wielder (Ex)** You have trained extensively with Urgathoa's deadly favored weapon and with many related weapons, and you wield them with the skill of the Pallid Princess's most favored undead champions. If you selected the heavy blades group for your weapon training class feature, increase your attack and damage bonuses with heavy blades by 1. If you don't have the weapon training class feature, you instead gain a +1 bonus on attack and damage rolls with the scythe only.",
+			">2. **Scythe Wielder (Ex)** You have trained extensively with Urgathoa's deadly favored weapon and with many related weapons, and you wield them with the skill of the Pallid Princess's most favored undead champions. If you selected the {ability/weapon<heavy blades| group>s} for your weapon training class feature, increase your attack and damage bonuses with heavy blades by 1. If you don't have the weapon training class feature, you instead gain a +1 bonus on attack and damage rolls with the scythe only.",
 			">3. **Fearless in the Face of Undeath (Ex)** You have spent too much time among the unliving to be taken in by their tricks and abilities, and you are proof against many of their powers. Increase your bravery saving throw bonus by 1. This bonus now applies to saving throws against any spells and effects generated by undead creatures, as well as against fear effects. The bonus also applies to nonmagical effects generated by undead creatures, such as a {monster/deathweb}'s poison. If you don't have the bravery class feature, you instead gain a +2 profane bonus on saving throws against spells and effects generated by undead.",
 			"",
 			"## Antipaladin Code",
@@ -1691,7 +1711,12 @@
 			"",
 			"### Description",
 			"",
+			"{SOURCE Inner Sea Gods/157}  ",
+			"Urgathoa is an utterly amoral, hedonistic goddess, concerned only with satiating her own desires regardless of the consequences others suffer. Like {faith/Desna}, she strives for experience and a full appreciation of the world - but her appreciation is utterly selfish. She was once a mortal woman with a tremendous appetite for life, one who rebelled against the notion of being judged by {faith/Pharasma} and losing the joys of living. Somehow in death she found the strength to tear herself from Pharasma's endless line of souls and return to Golarion, becoming a divine being and the world's first undead creature. Her existence is a corruption of the natural order; some say her first divine footprints upon the soil of the Material Plane birthed plague and infection, and that the first {monster/shadow/s} and {monster/wraith/s} were born of her breath.",
 			"",
+			"The goddess's half-rotted form limits the sensations she can experience, so she makes up for this lack with gluttonous depravity - she's tasted the brains of human infants to savor their innocence, torn the heart from the last living member of a race just to feel the sensation of its hot blood on her hands, and inflicted boils and leprosy upon handsome princes just to see the unique patterns they form on royal flesh. To her, the dull existence of a dead soul is pointless and tedious compared to the vibrant intensity of mortal or undead sensation, and creatures should cram as much sensation into existence as possible. Asceticism is repugnant to her, and she particularly loathes those who follow the strict taboos of {eq-misc/the Prophecies of Kalistrade}.",
+			"",
+			"Urgathoa is usually depicted as a beautiful, raven-haired woman from the waist up - much like her mortal self, though she's as pale as a hungry vampire. Her lower half is rotted and withered, decaying farther down until only blood-covered bones remain at her feet. When she walks, she leaves bloody, skeletal footprints. Although she sometimes manifests nude in the faithful's visions, she usually appears wearing a sheer red or black gown. From neck to toe, the gown is stained with hideous patches of black, brown, and red. On rare occasions, she assumes a monstrous shape similar to those of the hideous undead creatures known as {monster/daughter[s] of Urgathoa}, with one huge arm covered in fanged mouths and a tail made of multiple fused spinal columns.",
 			"",
 			"[^A]: Requires the {trait/Acolyte of Apocrypha} trait.",
 			"[^W]: Arcane version.",
@@ -2257,7 +2282,10 @@
 	},
 	"venkelvore": {
 		"name": "Venkelvore",
-		"sources": [ "Inner Sea Gods" ],
+		"sources": [
+			"Inner Sea Gods",
+			"Gods and Magic"
+		],
 		"description": [
 			"::fh[Venkelvore]{sub=\"Most Glorious Neverfull\"}",
 			"",
@@ -2288,7 +2316,11 @@
 			"",
 			"### Description",
 			"",
-			""
+			"{SOURCE Inner Sea Gods/189}  ",
+			"Venkelvore's ceaseless hunger leads her to constantly steal food from the lairs of the other hero-gods, putting her in conflict with {faith/Zogmugot}. Only sentient humanoid flesh satisfies her hunger for even a short time. She is the fattest and most beautiful of the barghest hero-gods.",
+			"",
+			"{SOURCE Gods and Magic/51}  ",
+			"Consort to {faith/Hadregash}, she is the fattest and most beautiful of the demigods. She is so obsessed with feeding herself that her minions sometimes suffer for it."
 		]
 	},
 	"verex": {
@@ -2699,30 +2731,6 @@
 			"**Symbol** Varies  ",
 			"**Sacred Animal(s)** Varies",
 			"",
-			"The tribal people of the Mwangi Expanse walk a path between the mortal world and the spirit world, or *hanajuju*. Those who follow their ancient traditions believe that countless entities known as *wendo* move among mortals, shaping fate and guiding destiny. Though not gods, the wendo are capricious and demand worship in exchange for cooperation. Only the *wendifa*, juju oracles whose craft is passed down through oral tradition from lost civilizations, can divine what the wendo want. Wendifa lead rites and sacrifices to gain insight from the wendo and offer their followers some protection from the unforgiving forces of nature. Wendifa of great power can bend the spirits of both nature and the living to their will, earning them respect from both foes and followers.",
-			"",
-			"To the uninitiated, juju is a complicated system of objects and symbols for protection and power. Some even believe it to be an organized religion with a standard set of beliefs and rituals. Those with greater experience know that juju is a living, breathing faith - an ever-evolving collection of traditions transmitted by word of mouth from one generation to the next. Fetishes, power objects, and ancient sigils are the tools of worship, but they are not the heart of juju, nor are the practices of one tribe common to all.",
-			"",
-			"The heart of juju is communion with the wendo through elaborate rituals designed to summon the spirits, who carry messages and entreaties to hidden spiritual entities of immense power. These rituals involve idols and sacrifice, music and dance, and the crafting of *metumbe*, detailed pictograms identified with specific wendo. The nature of these rites can range from celebrations and offerings of food to the bloody sacrifice of intelligent beings, depending on a tribe's moral tendencies. Failing to follow the precise directions of a ritual, improperly fashioning a wendo's *metumbe*, or - worst of all - allowing nonbelievers or *hen kudu* (\"lost ones\") to witness a ritual can bring the wendos' wrath, requiring even greater sacrifice to appease the spirits",
-			"",
-			"Juju is a highly personal faith, with each practitioner keeping to the rituals and taboos handed down from his family or tribe. Though they prefer to stay close to their wendifa for guidance, juju practitioners who travel the world follow their rituals closely, seeking guidance from the spirits while making sure to guard them from the eyes of *ben kudu*",
-			"",
-			"Rather than choosing a specific patron, most wendifa deal with a wide range of wendo according to their needs. While undead-creation exists within the faith, and is often fixated on by outsiders, it isn't indicative of the religion as a whole, and reflects merely the specific practices of individual tribes.",
-			"",
-			"### Common Wendo",
-			"",
-			"| Wendo | Title | Weapon | Sacred Animal |",
-			"| --- | --- | --- | --- |",
-			"| Kindo Kane | The One Who Stands at the Gate | Longspear | Panther |",
-			"| Sister Liiza | Sweet Sister | Dagger | Chicken |",
-			"| Lo Lulu | Night Lord | Blowgun | Spider |",
-			"| Adamde Baaka | The Jungle Spirit Short bow | Monkey |",
-			"| The Serpent King | Wise Brother | Quarterstaff | Snake |",
-			"| Omoro | The One Mighty and Strong | Club | Warthog |",
-			"| Mfuello | The Journeyer | Shortspear | Frog |",
-			"| Old Ba | Old Man, The Ancient | Quarterstaff | Goat |",
-			"| Donma Goko | The Cliffdweller | Dagger | Swallow-tailed gull |",
-			"",
 			"### On Golarion",
 			"",
 			"**Centers of Worship** : Mwangi Expanse (Kibwe, Mzali), Sargava (Kalabuto), The Shackles (Mgange Cove)  ",
@@ -2757,7 +2765,29 @@
 			"",
 			"### Description",
 			"",
-			""
+			"The tribal people of the Mwangi Expanse walk a path between the mortal world and the spirit world, or *hanajuju*. Those who follow their ancient traditions believe that countless entities known as *wendo* move among mortals, shaping fate and guiding destiny. Though not gods, the wendo are capricious and demand worship in exchange for cooperation. Only the *wendifa*, juju oracles whose craft is passed down through oral tradition from lost civilizations, can divine what the wendo want. Wendifa lead rites and sacrifices to gain insight from the wendo and offer their followers some protection from the unforgiving forces of nature. Wendifa of great power can bend the spirits of both nature and the living to their will, earning them respect from both foes and followers.",
+			"",
+			"To the uninitiated, juju is a complicated system of objects and symbols for protection and power. Some even believe it to be an organized religion with a standard set of beliefs and rituals. Those with greater experience know that juju is a living, breathing faith - an ever-evolving collection of traditions transmitted by word of mouth from one generation to the next. Fetishes, power objects, and ancient sigils are the tools of worship, but they are not the heart of juju, nor are the practices of one tribe common to all.",
+			"",
+			"The heart of juju is communion with the wendo through elaborate rituals designed to summon the spirits, who carry messages and entreaties to hidden spiritual entities of immense power. These rituals involve idols and sacrifice, music and dance, and the crafting of *metumbe*, detailed pictograms identified with specific wendo. The nature of these rites can range from celebrations and offerings of food to the bloody sacrifice of intelligent beings, depending on a tribe's moral tendencies. Failing to follow the precise directions of a ritual, improperly fashioning a wendo's *metumbe*, or - worst of all - allowing nonbelievers or *hen kudu* (\"lost ones\") to witness a ritual can bring the wendos' wrath, requiring even greater sacrifice to appease the spirits",
+			"",
+			"Juju is a highly personal faith, with each practitioner keeping to the rituals and taboos handed down from his family or tribe. Though they prefer to stay close to their wendifa for guidance, juju practitioners who travel the world follow their rituals closely, seeking guidance from the spirits while making sure to guard them from the eyes of *ben kudu*",
+			"",
+			"Rather than choosing a specific patron, most wendifa deal with a wide range of wendo according to their needs. While undead-creation exists within the faith, and is often fixated on by outsiders, it isn't indicative of the religion as a whole, and reflects merely the specific practices of individual tribes.",
+			"",
+			"#### Common Wendo",
+			"",
+			"| Wendo | Title | Weapon | Sacred Animal |",
+			"| --- | --- | --- | --- |",
+			"| Kindo Kane | The One Who Stands at the Gate | Longspear | Panther |",
+			"| Sister Liiza | Sweet Sister | Dagger | Chicken |",
+			"| Lo Lulu | Night Lord | Blowgun | Spider |",
+			"| Adamde Baaka | The Jungle Spirit Short bow | Monkey |",
+			"| The Serpent King | Wise Brother | Quarterstaff | Snake |",
+			"| Omoro | The One Mighty and Strong | Club | Warthog |",
+			"| Mfuello | The Journeyer | Shortspear | Frog |",
+			"| Old Ba | Old Man, The Ancient | Quarterstaff | Goat |",
+			"| Donma Goko | The Cliffdweller | Dagger | Swallow-tailed gull |"
 		]
 	},
 	"juju": { "copyof": "wendo" },
@@ -3727,7 +3757,10 @@
 	},
 	"ymeri": {
 		"name": "Ymeri",
-		"sources": [ "Inner Sea Gods" ],
+		"sources": [
+			"Inner Sea Gods",
+			"Inner Sea world Guide"
+		],
 		"description": [
 			"::fh[Ymeri]{sub=\"Queen of the Inferno\"}",
 			"",
@@ -3759,7 +3792,8 @@
 			"",
 			"### Description",
 			"",
-			""
+			"{SOURCE Inner Sea World Guide/233}  ",
+			"Ymeri is constantly at war with the other denizens of the plane of fire. Her wrath is as terrible as the greatest of volcanoes."
 		]
 	},
 	"yog_sothoth": {
@@ -4041,7 +4075,7 @@
 			"",
 			"### Description",
 			"",
-			""
+			"Zarongel boasts a magnificent pelt of living fire that was a gift from {faith/Lamashtu} when he became the first of the barghests to pledge his loyalty to her. The other barghests remain jealous of Zarongel's gift; {faith/Hadregash} in particular often schemes to steal the fiery pelt for himself. Zarongel taught goblins how to kill dogs and tame goblin dogs, which is the source of his title, Bark Breaker."
 		]
 	},
 	"zelishkar": {
@@ -4286,7 +4320,7 @@
 			"",
 			"### Description",
 			"",
-			""
+			"Zogmugot's insatiable greed leads her to scavenge wealth from even the most inhospitable places. She frequently scavenges shipwrecks, which increases her wealth but costs the lives of any minions who are not as adept at swimming as the immortal barghest. "
 		]
 	},
 	"zohls": {
@@ -4400,8 +4434,8 @@
 			">{SOURCE Inner Sea Gods/164}",
 			">",
 			">1. **Unbending Faith (Sp)** {spell/protection from chaos} 3/day, {spell/arrow of law} 2/day, or {spell/pain strike} 1/day",
-			">2. **Strike of the Endless (Ex)** Three times per day, you can make a strike of the endless against an opponent. You must declare your use of this ability before you roll your attack, and if your attack misses, the strike is wasted. You make an unarmed strike against your target, and if you hit, your target must succeed at a Fortitude save (with a DC equal to 10 + 1/2 your Hit Dice + your Wisdom modifier) or be blinded for 1d4 rounds. This ability doesn't work against creatures without eyes or who see by means other than vision (such as with blindsight or tremorsense). If you have a ki pool, you may spend 1 point from it to increase the saving throw DC of this ability by 4.",
-			">3. **Agonizing Blow (Ex)** Once per day, you can make an unarmed strike that deals agonizing pain to a single target. You must declare your use of this ability before you roll your attack, and if your attack misses, the strike is wasted. You make an unarmed strike against your target, and if you hit, your target must succeed at a Will save (with a DC equal to 10+ 1/2 your Hit Dice + your Wisdom modifier) or take 2d6 points of nonlethal damage each round for the next 10 rounds as terrible pain rips through its body. Additionally, during those 10 rounds, your target is nauseated, and you gain a +4 circumstance bonus on Intimidate checks against it. If the target succeeds at its saving throw, it instead takes 1d6 points of nonlethal damage per round for the next 10 rounds, and is sickened for those 10 rounds. If you have a ki pool, you may spend 1 point from it to increase the saving throw DC of this ability by 4.",
+			">2. **Strike of the Endless (Ex)** Three times per day, you can make a strike of the endless against an opponent. You must declare your use of this ability before you roll your attack, and if your attack misses, the strike is wasted. You make an unarmed strike against your target, and if you hit, your target must succeed at a Fortitude save (with a DC equal to 10 + 1/2 your Hit Dice + your Wisdom modifier) or be {misc/blinded} for 1d4 rounds. This ability doesn't work against creatures without eyes or who see by means other than vision (such as with {umr/blindsight} or {umr/tremorsense}). If you have a ki pool, you may spend 1 point from it to increase the saving throw DC of this ability by 4.",
+			">3. **Agonizing Blow (Ex)** Once per day, you can make an unarmed strike that deals agonizing pain to a single target. You must declare your use of this ability before you roll your attack, and if your attack misses, the strike is wasted. You make an unarmed strike against your target, and if you hit, your target must succeed at a Will save (with a DC equal to 10+ 1/2 your Hit Dice + your Wisdom modifier) or take 2d6 points of nonlethal damage each round for the next 10 rounds as terrible pain rips through its body. Additionally, during those 10 rounds, your target is {misc/nauseated}, and you gain a +4 circumstance bonus on Intimidate checks against it. If the target succeeds at its saving throw, it instead takes 1d6 points of nonlethal damage per round for the next 10 rounds, and is {misc/sickened} for those 10 rounds. If you have a ki pool, you may spend 1 point from it to increase the saving throw DC of this ability by 4.",
 			">",
 			">### Boons: Exalted",
 			">",
@@ -4417,7 +4451,7 @@
 			">",
 			">1. **Envious Death (Sp)** {spell/compel hostility} 3/day, {spell/touch of bloodletting} 2/day, or {spell/vampiric touch} 1/day",
 			">2. **Rending Trip (Ex)** When you successfully trip an opponent using a spiked chain, your tripped opponent immediately provokes an attack of opportunity from you. In addition, you gain a +2 bonus on any attacks of opportunity you make against opponents you have tripped with a spiked chain within the last round.",
-			">3. **Sight of Perfect Night (Ex)** All the training you have done in perfect darkness has left you with the uncanny ability to sense your surroundings even in the blackest night. You gain blindsense with a range of 20 feet. If you already have blindsense with a range of 20 feet or greater, instead increase the range of your blindsense by 10 feet.",
+			">3. **Sight of Perfect Night (Ex)** All the training you have done in perfect darkness has left you with the uncanny ability to sense your surroundings even in the blackest night. You gain {umr/blindsense} with a range of 20 feet. If you already have blindsense with a range of 20 feet or greater, instead increase the range of your blindsense by 10 feet.",
 			"",
 			"## {feat/Divine Fighting Technique}",
 			"",
@@ -4536,7 +4570,11 @@
 			"",
 			"### Description",
 			"",
-			""
+			"Zon-Kuthon is a twisted, cruel, jealous god who defiles flesh to bring pain and misery. He represents ever-present pain, emotional darkness, consuming envy, and debilitating loss. Unrepentantly evil, he finds only brief joy in the pain he causes others. His very existence is a corruption and parasite upon the world. His alien mind constantly seeks new ways to oppress, humiliate, demoralize, and destroy others. While his true goals are incomprehensible, his stated desire is to flay every living thing until the entire world is an intertwined mass of bleeding flesh writhing in pain-wracked ecstasy. He whips the minds of serial killers, guides the hands of torturers, and plays the nerves of the suffering like a master bard.",
+			"",
+			"Zon-Kuthon offers no great wisdoms, no promises of universal truth, no guarantee of rewards in the afterlife. His strange mind sees little difference between this life and the next, and he tortures living flesh and dead souls alike with hideous pleasure and delicious pain. It's possible that this bleak nihilism may be part of some more elaborate master plan incomprehensible to even his greatest priests, but so far the method and message is that existence itself is pain. His faith is lawful, following the natural hierarchy of the strong preying upon the weak, whether for food, entertainment, sex, or proof of dominance.",
+			"",
+			"Zon-Kuthon's true appearance varies, and there is no consistent depiction of him, but the overall image is easily recognizable. His flesh is pale and bloodless and usually hairless, though he sometimes has wispy blond hair on his scalp. Contrasting with the pale skin are bloody red wounds, many of which are held open with hooks, straps, or splints, some appearing partially healed and reopened. Sometimes his skin is completely gone in places, revealing bare muscle or even bone. He frequently has piercings, sometimes through muscle and bone, with bits of jewelry or remnants of his victims dangling from them. Even his face doesn't escape this attention, with spikes and hooked straps pulling it into strange configurations, his lips removed to show bloody teeth, one eye removed and replaced with a strange crystal, or the entire back of his head gone, revealing skull and brains. He is usually shown wearing a vertical metal crown that pulls his flesh back into an obscene sunburst halo. Parts of his body that lack wounds are usually covered in blood-soaked black leather, often sexualized or used to manipulate the wounds in an obscene manner. Absent this orchestra of mutilation, Zon-Kuthon might appear human, but brief glimpses of his unaltered parts set the maimings into sharp, horrifying contrast. Mortal representations of him are usually simplified to a pale man in black with one significant wound."
 		]
 	},
 	"zura": {

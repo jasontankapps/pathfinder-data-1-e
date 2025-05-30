@@ -148,7 +148,7 @@
 		"compilationSources": [ [ "Inner Sea Intrigue", 33 ] ],
 		"category": "-",
 		"description": [
-			"A vigilante with this talent must follow the dietary and sexual prohibitions of the [Prophecies of Kalistrade](eq-misc/the_prophecies_of_kalistrade) in his social identity or he loses the talent's benefit until he atones. He can treat {rule/the_<settlement«_»s>tat_block} as one size category larger when determining their base values and purchase limits. At 9th level, the vigilante can treat settlements as two size categories larger for the above purposes. At 15th level, the vigilante can treat settlements as four size categories larger for the above purposes."
+			"A vigilante with this talent must follow the dietary and sexual prohibitions of {eq-misc/the Prophecies of Kalistrade} in his social identity or he loses the talent's benefit until he atones. He can treat {rule/the_<settlement«_»s>tat_block} as one size category larger when determining their base values and purchase limits. At 9th level, the vigilante can treat settlements as two size categories larger for the above purposes. At 15th level, the vigilante can treat settlements as four size categories larger for the above purposes."
 		]
 	},
 	"many_guises": {
