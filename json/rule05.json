@@ -278,7 +278,7 @@
 			"",
 			":HL[Exception:] Extra damage dice over and above a weapon's normal damage are never multiplied.",
 			"",
-			":HL[Ability Damage:] Certain creatures and magical effects can cause temporary or permanent ability damage (a reduction to an ability score). [Rules covering ability damage are found here](rule/ability_score_damage_penalty_and_drain)."
+			":HL[Ability Damage:] Certain creatures and magical effects can cause temporary or permanent ability damage (a reduction to an ability score). {rule/Rules covering |ability damage /are found here>drain}."
 		],
 		"parent_topics": [
 			"combat",
@@ -611,7 +611,7 @@
 			"",
 			":HL[Increased Critical Multiplier:] Some weapons deal better than double damage on a critical hit.",
 			"",
-			":HL[Spells and Critical Hits:] A spell that requires an attack roll can score a critical hit. A spell attack that requires no attack roll cannot score a critical hit. If a spell causes [ability damage or drain](rule/ability_score_damage_penalty_and_drain), the damage or drain is doubled on a critical hit."
+			":HL[Spells and Critical Hits:] A spell that requires an attack roll can score a critical hit. A spell attack that requires no attack roll cannot score a critical hit. If a spell causes {rule/ability damage[ or] drain}, the damage or drain is doubled on a critical hit."
 		],
 		"parent_topics": [
 			"combat",
@@ -1379,7 +1379,7 @@
 		"description": [
 			"{SOURCE PRPG Core Rulebook/190}",
 			"",
-			"When your character's current hit points drop to a negative amount equal to his Constitution score or lower, or if he succumbs to [massive damage](rule/loss_of_hit_points), he's dead. A character can also die from taking [ability damage](rule/ability_score_damage_penalty_and_drain) or suffering an ability drain that reduces his Constitution score to 0.",
+			"When your character's current hit points drop to a negative amount equal to his Constitution score or lower, or if he succumbs to [massive damage](rule/loss_of_hit_points), he's dead. A character can also die from taking {rule/ability damage>_drain} or suffering an ability drain that reduces his Constitution score to 0.",
 			"",
 			"Certain types of powerful magic, such as {spell/raise dead} and {spell/resurrection}, can restore life to a dead character."
 		],
@@ -1451,7 +1451,7 @@
 			"",
 			":HL[Healing Limits:] You can never recover more hit points than you lost. Magical healing won't raise your current hit points higher than your full normal hit point total.",
 			"",
-			":HL[Healing Ability Damage:] Temporary [ability damage](rule/ability_score_damage_penalty_and_drain) returns at the rate of 1 point per night of rest (8 hours) for each affected ability score. Complete bed rest restores 2 points per day (24 hours) for each affected ability score."
+			":HL[Healing Ability Damage:] Temporary {rule/ability damage>_drain} returns at the rate of 1 point per night of rest (8 hours) for each affected ability score. Complete bed rest restores 2 points per day (24 hours) for each affected ability score."
 		],
 		"parent_topics": [
 			"combat",
@@ -2832,7 +2832,7 @@
 		"subtitle": "Bleed Damage, Condition",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"A creature that is taking bleed damage takes the listed amount of damage at the beginning of its turn. Bleeding can be stopped by a DC 15 Heal check or through the application of any spell that cures hit point damage (even if the bleed is ability damage). Some bleed effects cause [ability damage or even ability drain](rule/ability_score_damage_penalty_and_drain). Bleed effects do not stack with each other unless they deal different kinds of damage. When two or more bleed effects deal the same kind of damage, take the worse effect. In this case, ability drain is worse than ability damage."
+			"A creature that is taking bleed damage takes the listed amount of damage at the beginning of its turn. Bleeding can be stopped by a DC 15 Heal check or through the application of any spell that cures hit point damage (even if the bleed is ability damage). Some bleed effects cause {rule/ability damage [or even ability ]drain}. Bleed effects do not stack with each other unless they deal different kinds of damage. When two or more bleed effects deal the same kind of damage, take the worse effect. In this case, ability drain is worse than ability damage."
 		],
 		"parent_topics": [
 			"combat",
@@ -3311,7 +3311,7 @@
 		"parent_topics": [ "combat" ],
 		"subtopics": [
 			"ability_score_bonuses",
-			"ability_score_damage_penalty_and_drain",
+			"ability_damage_drain",
 			"afflictions",
 			"blindsight_and_blindsense",
 			"channel_resistance",
@@ -3369,7 +3369,7 @@
 		],
 		"siblings": [
 			"ability_score_bonuses",
-			"ability_score_damage_penalty_and_drain",
+			"ability_damage_drain",
 			"afflictions",
 			"blindsight_and_blindsense",
 			"channel_resistance",
@@ -3387,8 +3387,9 @@
 			"spell_resistance_2"
 		]
 	},
-	"ability_score_damage_penalty_and_drain": {
+	"ability_damage_drain": {
 		"name": "Ability Score Damage, Penalty, and Drain",
+		"tags": "ability drain, ability damage",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/555}",
@@ -3419,7 +3420,7 @@
 		],
 		"siblings": [
 			"ability_score_bonuses",
-			"ability_score_damage_penalty_and_drain",
+			"ability_damage_drain",
 			"afflictions",
 			"blindsight_and_blindsense",
 			"channel_resistance",
@@ -3461,7 +3462,7 @@
 			"",
 			"Afflictions without a frequency occur only once, immediately upon contraction (or after the onset time if one is listed).",
 			"",
-			":HL[Effect:] This is the effect that the character suffers each time if he fails his saving throw against the affliction. Most afflictions cause [ability damage](rule/ability_score_damage_penalty_and_drain) or hit point damage. These effects are cumulative, but they can be cured normally. Other afflictions cause the creature to take penalties or other effects. These effects are sometimes cumulative, with the rest only affecting the creature if it failed its most recent save. Some afflictions have different effects after the first save is failed. These afflictions have an initial effect, which occurs when the first save is failed, and a secondary effect, when additional saves are failed, as noted in the text. Hit point and ability score damage caused by an affliction cannot be healed naturally while the affliction persists.",
+			":HL[Effect:] This is the effect that the character suffers each time if he fails his saving throw against the affliction. Most afflictions cause {rule/ability damage>_drain} or hit point damage. These effects are cumulative, but they can be cured normally. Other afflictions cause the creature to take penalties or other effects. These effects are sometimes cumulative, with the rest only affecting the creature if it failed its most recent save. Some afflictions have different effects after the first save is failed. These afflictions have an initial effect, which occurs when the first save is failed, and a secondary effect, when additional saves are failed, as noted in the text. Hit point and ability score damage caused by an affliction cannot be healed naturally while the affliction persists.",
 			"",
 			":HL[Cure:] This tells you how the affliction is cured. Commonly, this is a number of saving throws that must be made consecutively. Even if the affliction has a limited frequency, it might be cured prematurely if enough saving throws are made. Hit point damage and ability score damage is not removed when an affliction is cured. Such damage must be healed normally. Afflictions without a cure entry can only be cured through powerful spells, such as {spell/neutralize poison} and {spell/remove curse}. No matter how many saving throws are made, these afflictions continue to affect the target.",
 			"",
@@ -3479,7 +3480,7 @@
 		],
 		"siblings": [
 			"ability_score_bonuses",
-			"ability_score_damage_penalty_and_drain",
+			"ability_damage_drain",
 			"afflictions",
 			"blindsight_and_blindsense",
 			"channel_resistance",
@@ -3714,7 +3715,7 @@
 		],
 		"siblings": [
 			"ability_score_bonuses",
-			"ability_score_damage_penalty_and_drain",
+			"ability_damage_drain",
 			"afflictions",
 			"blindsight_and_blindsense",
 			"channel_resistance",
@@ -3746,7 +3747,7 @@
 		],
 		"siblings": [
 			"ability_score_bonuses",
-			"ability_score_damage_penalty_and_drain",
+			"ability_damage_drain",
 			"afflictions",
 			"blindsight_and_blindsense",
 			"channel_resistance",
@@ -3792,7 +3793,7 @@
 		],
 		"siblings": [
 			"ability_score_bonuses",
-			"ability_score_damage_penalty_and_drain",
+			"ability_damage_drain",
 			"afflictions",
 			"blindsight_and_blindsense",
 			"channel_resistance",
@@ -3850,7 +3851,7 @@
 		],
 		"siblings": [
 			"ability_score_bonuses",
-			"ability_score_damage_penalty_and_drain",
+			"ability_damage_drain",
 			"afflictions",
 			"blindsight_and_blindsense",
 			"channel_resistance",
@@ -3882,7 +3883,7 @@
 		],
 		"siblings": [
 			"ability_score_bonuses",
-			"ability_score_damage_penalty_and_drain",
+			"ability_damage_drain",
 			"afflictions",
 			"blindsight_and_blindsense",
 			"channel_resistance",
@@ -3919,7 +3920,7 @@
 		],
 		"siblings": [
 			"ability_score_bonuses",
-			"ability_score_damage_penalty_and_drain",
+			"ability_damage_drain",
 			"afflictions",
 			"blindsight_and_blindsense",
 			"channel_resistance",
@@ -3957,7 +3958,7 @@
 		],
 		"siblings": [
 			"ability_score_bonuses",
-			"ability_score_damage_penalty_and_drain",
+			"ability_damage_drain",
 			"afflictions",
 			"blindsight_and_blindsense",
 			"channel_resistance",
@@ -3996,7 +3997,7 @@
 		],
 		"siblings": [
 			"ability_score_bonuses",
-			"ability_score_damage_penalty_and_drain",
+			"ability_damage_drain",
 			"afflictions",
 			"blindsight_and_blindsense",
 			"channel_resistance",
@@ -4036,7 +4037,7 @@
 		],
 		"siblings": [
 			"ability_score_bonuses",
-			"ability_score_damage_penalty_and_drain",
+			"ability_damage_drain",
 			"afflictions",
 			"blindsight_and_blindsense",
 			"channel_resistance",
@@ -4116,7 +4117,7 @@
 		],
 		"siblings": [
 			"ability_score_bonuses",
-			"ability_score_damage_penalty_and_drain",
+			"ability_damage_drain",
 			"afflictions",
 			"blindsight_and_blindsense",
 			"channel_resistance",
@@ -4148,7 +4149,7 @@
 		],
 		"siblings": [
 			"ability_score_bonuses",
-			"ability_score_damage_penalty_and_drain",
+			"ability_damage_drain",
 			"afflictions",
 			"blindsight_and_blindsense",
 			"channel_resistance",
@@ -4184,7 +4185,7 @@
 		],
 		"siblings": [
 			"ability_score_bonuses",
-			"ability_score_damage_penalty_and_drain",
+			"ability_damage_drain",
 			"afflictions",
 			"blindsight_and_blindsense",
 			"channel_resistance",
@@ -4228,7 +4229,7 @@
 		],
 		"siblings": [
 			"ability_score_bonuses",
-			"ability_score_damage_penalty_and_drain",
+			"ability_damage_drain",
 			"afflictions",
 			"blindsight_and_blindsense",
 			"channel_resistance",
@@ -4276,7 +4277,7 @@
 		],
 		"siblings": [
 			"ability_score_bonuses",
-			"ability_score_damage_penalty_and_drain",
+			"ability_damage_drain",
 			"afflictions",
 			"blindsight_and_blindsense",
 			"channel_resistance",

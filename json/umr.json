@@ -1673,7 +1673,7 @@
 			"## Ability Damage and Drain (Ex or Su)",
 			"",
 			"{SOURCE Bestiary 5/290}  ",
-			"Some attacks or special abilities cause {rule/ability «score_»damage [or]«penalty_and» drain}. While ability damage can be healed naturally, ability drain is permanent and can be restored only through magic.",
+			"Some attacks or special abilities cause {rule/ability damage [or ]drain}. While ability damage can be healed naturally, ability drain is permanent and can be restored only through magic.",
 			"",
 			"**Format:** 1d4 Str drain  ",
 			"**Location:** Special Attacks and individual attacks."

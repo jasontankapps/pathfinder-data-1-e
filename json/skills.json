@@ -1092,7 +1092,7 @@
 			"",
 			"**Check:** You can use faith healing once per day. The DC and effect of the Heal check depend on the task you attempt. You can't use faith healing on yourself.",
 			"",
-			"*Restore Vitality*: You suppress [ability damage](rule/ability_score_damage_penalty_and_drain). You perform a 1-hour ceremony, after which you attempt a Heal check against the DC of the effect that caused the ability damage. If you succeed at the check, you temporarily suppress 1 point of ability damage for 1 hour, plus 1 additional point and hour for every 5 by which the check result exceeds the DC. A creature can benefit from this treatment no more than once per day.",
+			"*Restore Vitality*: You suppress {rule/ability damage>_drain}. You perform a 1-hour ceremony, after which you attempt a Heal check against the DC of the effect that caused the ability damage. If you succeed at the check, you temporarily suppress 1 point of ability damage for 1 hour, plus 1 additional point and hour for every 5 by which the check result exceeds the DC. A creature can benefit from this treatment no more than once per day.",
 			"",
 			"*Suspend Affliction*: You treat one curse, disease, or poison affecting a creature. You enter into a deep trance for 1 hour while you treat the subject, after which you attempt your Heal check. If the check is successful, you suspend the effects of the {rule/affliction>s} by 1 hour, plus 1 hour for every 5 by which you exceed the DC. This time doesn't count against the effect's duration (if any). The affliction can still be cured by other means while it's suspended.",
 			"",

@@ -4274,7 +4274,7 @@
 			"{SOURCE Blood of the Sea/9}",
 			"",
 			"Due to inherent hardiness and painful training, you can operate indefinitely on land.  ",
-			"**Prerequisites:** Con 15, gillman, water dependent racial trait.  ",
+			"**Prerequisites:** Con 15, {race/gillman}, water dependent racial trait.  ",
 			"**Benefit:** You lose the water dependent racial trait, but you are sickened if you have not submerged yourself in water within the past 24 hours."
 		]
 	},

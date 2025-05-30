@@ -137,7 +137,7 @@
 			"With a single curse, you make your rival less fearsome in combat.  ",
 			"**Prerequisites:** Int 13, base attack bonus +6, Use Magic Device 1 rank.  ",
 			"**Benefit:** As a standard action, you can curse the accuracy of an enemy you have dealt damage to in the last minute. The target must succeed at a Fortitude save or it automatically fails to confirm all critical threats. This effect lasts for 1 round.  ",
-			"**Special:** If a shaman or witch uses this blood hex, the target is unable to deal precision damage or sneak attack damage for the hex's duration."
+			"**Special:** If a shaman or witch uses this [blood hex](rule/feats_class), the target is unable to deal precision damage or sneak attack damage for the hex's duration."
 		]
 	},
 	"blustering_bluff": {
@@ -996,7 +996,7 @@
 			"Your ranged attacks unerringly seek those you have cursed.  ",
 			"**Prerequisites:** Dex 13, Int 13, {feat/Dodge}, {feat/Mobility}, {feat/Shot on the Run}, base attack bonus +4, Use Magic Device 1 rank.  ",
 			"**Benefit:** As a standard action, you can curse a creature you've dealt damage to with a ranged weapon attack since the beginning of your last turn. The target must succeed at a Reflex save, or you don't take penalties on ranged weapon attacks against the creature for the first range increment and you ignore any bonus to the creature's Armor Class from cover. The creature still benefits from total cover. This effect lasts for 1 minute.  ",
-			"**Special:** A shaman or witch with this blood hex can use it against a target she has damaged with any ranged attack since her last turn, and applies its benefits to any ranged attack she makes against an affected creature."
+			"**Special:** A shaman or witch with this [blood hex](rule/feats_class) can use it against a target she has damaged with any ranged attack since her last turn, and applies its benefits to any ranged attack she makes against an affected creature."
 		]
 	},
 	"bullseye_shot": {
@@ -1490,7 +1490,7 @@
 			"You can curse the eyes of a wounded enemy.  ",
 			"**Prerequisites:** Int 13, Perception 5 ranks, Use Magic Device 1 rank.  ",
 			"**Benefit:** As a full-round action, you can curse a creature you've dealt damage to since the beginning of your last turn. The creature must succeed at a Fortitude save or its eyes become milky and its vision is obscured. For 1 round, any target the creature makes a ranged touch attack against gains {rule/concealment} for the purposes of that attack.  ",
-			"**Special:** A shaman or witch with this blood hex can use it against any creature she has dealt damage to in the past minute. A shaman or witch can use this blood hex as a standard action."
+			"**Special:** A shaman or witch with this [blood hex](rule/feats_class) can use it against any creature she has dealt damage to in the past minute. A shaman or witch can use this blood hex as a standard action."
 		]
 	},
 	"catch_off_guard": {
