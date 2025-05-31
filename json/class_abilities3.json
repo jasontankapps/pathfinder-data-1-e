@@ -70,7 +70,7 @@
 					""
 				],
 				{
-					"limit": "-",
+					"limit": { "uncategorized": true },
 					"join": [ "", "", "" ],
 					"modifyDescription": {
 						"regex": ">*(.+)",
@@ -160,7 +160,7 @@
 					"Some supernatural traps can be created by a character who isn't a ranger (but who has the {feat/Learn Ranger Trap} feat) through including an additional magical component. This component - usually a scroll, potion, or oil - is expended at the time of the trap's creation. Including it increases the time to lay the trap to 1 full minute."
 				],
 				{
-					"limit": "-",
+					"limit": { "omit": [] },
 					"join": [ "", "", "" ],
 					"modifyDescription": {
 						"regex": "(.+?)(!-N-!.+$)|^(.+)",

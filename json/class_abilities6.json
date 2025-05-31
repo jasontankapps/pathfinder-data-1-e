@@ -268,7 +268,7 @@
 					""
 				],
 				{
-					"limit": "-",
+					"limit": { "uncategorized": true },
 					"join": [ "", "", "" ],
 					"modifyDescription": {
 						"regex": ">*(.+?)",
@@ -614,7 +614,7 @@
 					""
 				],
 				{
-					"limit": "-",
+					"limit": { "omit": [] },
 					"join": [ "", "", "" ],
 					"modifyDescription": {
 						"regex": "##.+!-N-!+(.+?)",

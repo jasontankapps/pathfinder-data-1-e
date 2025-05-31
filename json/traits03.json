@@ -10,7 +10,6 @@
 			"",
 			"You went to a tavern called the Formidably Maid in Port Peril last night to meet a contact who supposedly had an old map of lost cyclops ruins to sell, but the drink was stronger than you had expected and you passed out before making the deal."
 		],
-		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
 	"barroom_talespinner": {
@@ -24,7 +23,6 @@
 			"",
 			"You went to a tavern called the Formidably Maid in Port Peril to earn a few coins with your tales of the sea. The patrons seemed pleased with your performance and bought you a few drinks. You had just remembered a tale of an unfortunate sailor who found himself press-ganged on a pirate ship after his drink was drugged when suddenly everything went black."
 		],
-		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
 	"besmaras_blessing": {
@@ -38,7 +36,6 @@
 			"",
 			"You came to a tavern in Port Peril called the Formidably Maid in search of your fate. You're not sure how many drinks you had, but they quickly went to your head and you passed out on the table before you found your destiny - unless it lay in the bottom of a bottle. Then again, maybe you found your destiny after all..."
 		],
-		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
 	"buccaneers_blood": {
@@ -52,7 +49,6 @@
 			"",
 			"You went to a tavern called the Formidably Maid, a notorious pirate hangout in Port Peril, eager to start your career as a buccaneer. While you were there, however, a dashing and flirtatious corsair caught your eye, and after a whirlwind night of booze and romance, you found yourself beaten senseless and stuffed in a sack, carried off to who knows where."
 		],
-		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
 	"dockside_brawler": {
@@ -66,7 +62,6 @@
 			"",
 			"While drinking at a tavern called the Formidably Maid in Port Peril last night, you got into a brawl with some of the other patrons. You handled yourself well, but a group of rough-looking characters ganged up on you and overwhelmed you, knocking you unconscious. Fortunately, you were able to conceal your brass knuckles when you were press-ganged, and you begin the campaign with them, regardless of your starting circumstances."
 		],
-		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
 	"eye_for_plunder": {
@@ -80,7 +75,6 @@
 			"",
 			"You found yourself relatively well off when you got your share of your last voyage's plunder, and decided to spend a few of your hard-won coins at the Formidably Maid, a popular pirate tavern in Port Peril. Maybe the shine of your new wealth distracted you, however, because you never saw the miscreants who slipped something into your drink, knocking you out cold."
 		],
-		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
 	"ilizmagorti_native": {
@@ -94,7 +88,6 @@
 			"",
 			"Looking to make your fortune, you hopped aboard a pirate ship in Ilizmagorti, and decided to celebrate your safe arrival in Port Peril with a few drinks at a tavern called the Formidably Maid. There were some suspicious-looking characters there, to be sure, and you decided to give them a wide berth, but as you left, feeling a bit woozy from drink, you were set upon by thugs in a dark alley and knocked unconscious."
 		],
-		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
 	"peg_leg": {
@@ -108,7 +101,6 @@
 			"",
 			"Your balance always gets a bit shaky after a few drinks, and last night at the Formidably Maid - a tavern in Port Peril - was no exception. That must be why you fell to the floor as soon as you tried to stand up. What happened next is hazy, but you're pretty sure you were dragged out of the bar and onto a ship at the docks. At least they didn't throw you to the sharks..."
 		],
-		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
 	"ships_surgeon": {
@@ -122,7 +114,6 @@
 			"",
 			"You were between ships in Port Peril, and after stopping for a drink at a tavern called the Formidably Maid, you happened upon a damsel in distress in the alleyway outside. Thinking you could help, you didn't notice the thugs hiding nearby, and they caught you unawares. You've been on enough ships to know a press gang by the blow of the sap on the back of your neck-you just hope whatever ship you end up on needs a surgeon. Although the majority of your equipment was taken away when you were press-ganged, you managed to hang on to a fully stocked healer's kit, and you begin the campaign with it, regardless of your starting circumstances."
 		],
-		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
 	"touched_by_the_sea": {
@@ -136,7 +127,6 @@
 			"",
 			"You came to Port Peril in search of your destiny, and after a few drinks at a tavern called the Formidably Maid, you went down to the docks to take in a view of the sea. The last thing you remember is a blow to the back of your head and the waves rushing up to meet you."
 		],
-		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
 	"driven_by_guilt": {
@@ -150,7 +140,6 @@
 			"",
 			"You gain a +1 trait bonus on saving throws against any spells or spell-like abilities cast by evil creatures. In addition, once per day as a swift action, you can add your Charisma bonus to your attack rolls and deal 1 additional point of damage for each class level you have against evil creatures for 1 round."
 		],
-		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
 	"enduring_stoicism": {
@@ -164,7 +153,6 @@
 			"",
 			"You gain a +2 trait bonus on all saving throws against spells or effects with the fear or emotion descriptors. In addition, you gain a +1 trait bonus on Intimidate checks due to your intimidating presence, as people don't know what to expect from you."
 		],
-		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
 	"foe_of_the_strange": {
@@ -178,7 +166,6 @@
 			"",
 			"You gain a +1 trait bonus on saving throws against extraordinary, spell-like, and supernatural abilities of aberrations (for example, a {monster/gibbering mouther/'s gibbering} or an {monster/intellect devourer/'s confusion}). In addition, whenever you're confused and roll to determine behavior in a given round, subtract 10 from the result."
 		],
-		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
 	"formerly_mind_swapped": {
@@ -192,7 +179,6 @@
 			"",
 			"Once per day, you can reroll one Knowledge check that you have just failed. In addition, you can attempt untrained Knowledge checks with DCs up to 20 instead of 10."
 		],
-		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
 	"methodical_mind": {
@@ -206,7 +192,6 @@
 			"",
 			"Choose three Knowledge skills. You gain a +1 trait bonus on Knowledge checks of these kinds and on {rule/concentration} checks. In addition, choose one Knowledge skill. When {rule/research/ing}, you are considered to have {feat/Skill Focus} for that Knowledge skill when determining what die you roll to reduce a library's knowledge points (kp)."
 		],
-		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
 	"pugnacious": {
@@ -220,7 +205,6 @@
 			"",
 			"You gain a +1 trait bonus on attack rolls when threatened by two or more enemies. In addition, once per day you can gain one of the following effects as an immediate action: You can increase the reach of your melee attacks by 5 feet for 1 round, or you can treat your weapon as one size category larger than it actually is for purposes of determining damage for 1 round."
 		],
-		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
 	"ritualistic": {
@@ -234,7 +218,6 @@
 			"",
 			"Choose one 0-level spell. You can cast this spell once per day as a spell-like ability with a caster level equal to your character level. The spell-like ability's save DC is Charisma-based. In addition, you gain a +2 trait bonus on all skill checks when performing occult rituals."
 		],
-		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
 	"sensitive_mind": {
@@ -248,7 +231,6 @@
 			"",
 			"You gain a +1 trait bonus on Appraise, Perception, and Sense Motive checks, and one of these (your choice) is a class skill for you. In addition, once per week you can use the {skill/psychometry} occult skill unlock even if you are not capable of casting psychic spells or have the {feat/Psychic Sensitivity} feat."
 		],
-		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
 	"true_devotion": {
@@ -262,7 +244,6 @@
 			"",
 			"Once per day when casting a divine spell, you can attempt to cast the spell without losing the spell from its spell slot or using one of your allotted spells per day. There is a 20% chance that this attempt is successful. In addition, select one domain or inquisition you have. You can use the first granted power of that domain or inquisition one additional time per day. You must have a good alignment and be class capable of casting divine spells in order to select this trait."
 		],
-		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
 	"twitchy": {
@@ -276,7 +257,6 @@
 			"",
 			"You gain a +2 trait bonus on initiative checks and a +1 trait bonus on Reflex saves."
 		],
-		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
 	"the_artisan": {
@@ -288,7 +268,6 @@
 			"",
 			"Precision is important in getting exactly what you want, and you give careful consideration in building everything from homes and vases to roads and empires. Your own attention to detail has proven vital in rebuilding Roslar's Coffer from the orc occupation a decade ago, whether you are an accountant, architect, engineer, or herbalist. Your attention to detail provides you a +1 trait bonus on Appraise and Heal checks, and one of these skills becomes a class skill for you. Once per day, you can spend a full round casting a spell you can cast that has a normal casting time of 1 standard action to increase your effective caster level for that spell by 1. This ability has no affect on spells with a casting time other than 1 standard action."
 		],
-		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
 	"the_lawbringer": {
@@ -300,7 +279,6 @@
 			"",
 			"The frontier is a land of risk and disorder, and while people are welcome to brave those elements themselves, they all too often bring pain down upon folk who never wanted such a risk. You might serve on the town guard or as part of a detachment of soldiers supported by Vigil, or you could be simply a concerned farmer who endures when others cannot, but your purpose is to stand as a bulwark against the cruel whims of fate for anyone who needs it. You gain a +2 trait bonus on saving throws against fear effects. If you have the aura of courage class feature, the bonus provided by your aura increases by 1. Your courage is inspiring; the first time each day you are knocked unconscious or killed, all allies within 30 feet of you immediately gain a number of temporary hit points equal to your level plus your Charisma modifier, as they rally to your defense. These temporary hit points last for 1 minute."
 		],
-		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
 	"the_optimist": {
@@ -312,7 +290,6 @@
 			"",
 			"People don't need to take your word that things are getting better; they only need to look around and see the proof before their eyes. The town's recovery from the orc occupation more than a decade ago is all but complete, and the monster in the Sarenite temple outside of town has finally been bested. Your irrepressible sense of optimism seems to fly in the face of the hard life that most residents of Roslar's Coffer face, but you're convinced that your positive attitude lifts up your community. You gain a +1 trait bonus on saving throws against mind-affecting effects. Further, your optimism can be infectious. As a swift action a number of times per day equal to your Charisma modifier (minimum 1), you can grant this bonus to an ally within 10 feet. This bonus lasts for 1 minute."
 		],
-		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
 	"the_outsider": {
@@ -324,7 +301,6 @@
 			"",
 			"You don't have a place, but the frontier seems comfortable enough for now. Maybe you're too informal for city life, too selfish for Lastwall's general culture of camaraderie, or too scarred by things you've seen to entirely trust another person. You are accustomed to moving without drawing much attention to yourself, gaining a +1 trait bonus on Stealth and Survival checks, and one of these skills is always a class skill for you. Accustomed to working alone, you gain only half the benefit (+1) from aid another actions, but you're accustomed to doing the job right the first time and so increase the bonus you provide by 1 when aiding another character."
 		],
-		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
 	"the_pessimist": {
@@ -336,7 +312,6 @@
 			"",
 			"You expect the worst and have rarely been disappointed. Your dour outlook may hail from the original destruction of Roslar's Coffer at the hands of the Twisted Nail tribe, the exile of the faithful from the nearby Sarenite temple, or some more personal misfortune, but it has set you apart among the largely forward-thinking population of Lastwall. Your faith that the worst possible outcome will occur grants you a +1 trait bonus on Will saving throws. Your frustrating pessimism can spur friends to succeed just to spite you; once per day as a free action, you can force an ally within 30 feet to reroll a saving throw she just failed, using the better of the two results."
 		],
-		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
 	"the_reclaimer": {
@@ -348,7 +323,6 @@
 			"",
 			"You lost something precious in the destruction of Roslar's Coffer 12 years ago - a home, a legacy, perhaps even family - but returned because a soul shouldn't run from pain, but heal from it. Rebuilding your life and preventing that same hurt from dragging down others drives you to serve and protect, perhaps as a politician, charity worker, healer, or soldier, but that same loss fills you with an uncharitable anger that is often difficult to reconcile. Your wary eyes grant you a +1 trait bonus on Perception checks. You gain a +1 trait bonus on attack and damage rolls against any opponent that dealt hit point damage to one of your allies in the previous round."
 		],
-		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
 	"the_snoop": {
@@ -360,7 +334,6 @@
 			"",
 			"You know a little bit about most everything and everyone in Roslar's Coffer. It may be your profession, as you could be an archivist, crier, or librarian - or you simply make a hobby of gossip. Either way, you have a gift for recall and reading others. You gain a +1 trait bonus on Knowledge (history) and Knowledge (local) checks, and these both become class skills for you. Once each day you can reroll a single Bluff or Sense Motive check against a creature you have known for at least 24 hours, using the better result."
 		],
-		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
 	"the_word": {
@@ -372,7 +345,6 @@
 			"",
 			"In a nation overcrowded with faith, you often worry that your message is drowned out, but nonetheless important. The souls in Roslar's Coffer needed comfort and charity once upon a time, but have bounced back so fully - in part thanks to your hard work - that you worry you've made yourself unnecessary. You are accustomed to long hours, granting you a +1 trait bonus on Fortitude saving throws. Your faith is invigorating, and once per day you can lay on hands as a paladin of half your character level (minimum 1). If you gain the lay on hands ability from a class, you instead gain one additional use of lay on hands each day."
 		],
-		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
 	"athletic_champion": {
@@ -384,7 +356,6 @@
 			"",
 			"Your physique and skill brought you into the public eye, and a winning smile helps you stay there. Taldor honors its extraordinary athletes, celebrating them as cultural heroes. Whether you were a gladiator, a runner, a wrestler, or any other competitor, your most recent victory caused someone important to sit up and take notice. You may never have a political career in front of you, but for now your name is helping to bring a little extra money in, and maybe that's good enough. Select two of the following skills: Climb, Diplomacy, Perception, and Swim. You gain a +1 trait bonus on checks with those skills, and they are always class skills for you. In addition, you are accustomed to maneuvering through crowds; you gain a +2 trait bonus on checks to navigate through a crowd or resist being moved against your will, including spells and bull rush, drag, and reposition combat maneuvers."
 		],
-		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
 	"child_of_oppara": {
@@ -400,7 +371,6 @@
 			"",
 			"You gain a +1 trait bonus on Appraise and Knowledge (nobility) checks, and one of these skills is always a class skill for you. The Noble Scion feat does not have a Charisma prerequisite for you. In addition, you start play with a {eq-misc/noble's outfit}, a {eq-misc/signet ring}, and a single additional nonmagical item worth no more than 200 gp."
 		],
-		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
 	"disgraced_noble": {
@@ -412,7 +382,6 @@
 			"",
 			"Your noble family used to matter, until your father took a stand against Maxillar Pythareus, the commander of Taldor's military. True or not, the accusations Pythareus leveled against your family in return destroyed your reputation and isolated you from the society you grew up in. Now the only thing that matters to you is clawing your way back up the social ladder, either for your own quality of life or to clear your family's name. You've had to practice deception as you began working your way back into Taldan social circles; you gain a +2 trait bonus on Bluff checks to conceal your identity and a +2 bonus on Linguistics checks to spot or produce forgeries, and one of these skills is always a class skill for you. Once each day, you can choose a single humanoid you believe to have been involved in the conspiracy to destroy your family; you gain a +1 morale bonus on attack and damage rolls against that NPC for a number of rounds equal to your character level. At 10th level, this bonus increases to +2."
 		],
-		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
 	"rising_star": {
@@ -424,7 +393,6 @@
 			"",
 			"All too often, great minds must suffer for their art, but you're one of the lucky ones. Your skills attracted the attention of a noble patron who pays for your food, housing, and tools. As your patron introduces you to other cultural elites, you're slowly learning to navigate the treacherous waters of high society, but you still remember the lean times when each meal was a hard-won treasure. You gain a +1 trait bonus on Sense Motive and Survival checks, as well as checks using a single Craft or Perform skill of your choice; one of these skills is always a class skill for you. Once each day, you can invoke your patron's reputation or name one of your own prominent works to gain a +2 circumstance bonus on a single Bluff, Diplomacy, or Intimidate check. You begin the game with a masterwork musical instrument or tool appropriate to the Craft or Perform skill you selected, a gift from your patron."
 		],
-		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
 	"senatorial_hopeful": {
@@ -436,7 +404,6 @@
 			"",
 			"While you belong to a noble family, hailing from the outlying prefectures means you lack the pull and wealth needed to rub shoulders with the stars of Oppara's social scene. Your life has been quiet, isolated from the thrum of fashion and pop culture, but you see this as a source of insight and aim to help people by someday joining the senate. It'll be a long journey, but you've already begun learning which hands to shake and how to listen carefully when others tell you what they want. You gain a +1 bonus on Diplomacy and Knowledge (local) checks, and both of these skills are always class skills for you. Once each week you can call on family connections to obtain a single piece of equipment or consumable magic item (such as a potion or scroll) worth up to your character level &times; 25 gp. Delivery of the goods you request takes 1d4 days. At 10th level, the potential value of a magical item increases to your character level &times; 50 gp, and your requests can also include spellcasting services and wands."
 		],
-		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
 	"taldan_patriot": {
@@ -448,7 +415,6 @@
 			"",
 			"You love your country, its history, and its people... even though they may not love you back. Whether you're a bureaucrat, a minor noble, or a soldier, you want your community to be the best it can be and you channel that love into a position in service to the people of Taldor. You gain a +1 bonus on all Sense Motive and Knowledge (history) checks, and these skills are always class skills for you. In addition, once per day you can recall a specific fact about a Taldan noble's personality - quirks such as a hobby or pet peeve - including information you would normally learn as a discovery check in social combat."
 		],
-		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
 	"young_reformer": {
@@ -460,7 +426,6 @@
 			"",
 			"Perhaps you were born at the bottom of Taldan society and you're tired of seeing your friends and family toil endlessly with no hope of a better life, or maybe your privileged outlook was shattered by empathy or tragedy. Either way, you know the system is broken, and you've dedicated your life to fixing it. But tradition rules Taldor as much as any Grand Prince, and change requires more influence than you have... so far. You've got a few friends and allies, and plenty of determination, but while you work toward the power you need to change the nation, you'll have to resort to more discrete ways of righting wrongs and curbing the abuses of the upper class. You gain a +1 trait bonus on Disable Device and Knowledge (local) checks, and one of these skills is always a class skill for you. Once per day, you can call upon your coconspirators to have \"made arrangements\" on your behalf, allowing you to attempt a Knowledge (local) check in place of a single Bluff, Disable Device, Intimidate, or Sleight of Hand check. The DC of this Knowledge (local) check is equal to the DC of the skill check it replaces. Whatever arrangements you make-for doors left unlocked, guards strong-armed out of your way, stolen keys left for you to find-must be reasonable to have anticipated and achieved beforehand; you could arrange to have a noble convinced you're a very important diplomat traveling in disguise, for example, but if a fight breaks out you could not rely on your network of contacts to feint for you in combat. You don't have to use this ability in advance; you can announce its use as you encounter a challenge, implying you foresaw this challenge and made arrangements prior to your arrival."
 		],
-		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
 	"chance_encounter": {
@@ -479,7 +444,6 @@
 			"",
 			"**Multiple Characters:** You and other characters were all saved by the same mysterious woman in your childhood. This could have been the same event, or she could have saved you on separate occasions - the discovery that someone else was saved by the mysterious stranger has resulted in a long friendship (or perhaps friendly rivalry) with the others she rescued."
 		],
-		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
 	"child_of_the_crusades_wotr": {
@@ -498,7 +462,6 @@
 			"",
 			"**Multiple Characters:** If other characters take this trait, you should all be related-you can be siblings, cousins, or even more distant relations, but you should all be aware of this shared lineage."
 		],
-		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
 	"exposed_to_awfulness": {
@@ -517,7 +480,6 @@
 			"",
 			"**Multiple Characters:** You and any others with this trait are related, if only distantly. You could be siblings or cousins - a condition that perhaps lends some credence to the theory that all of you share more than just a common bloodline."
 		],
-		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
 	"riftwarden_orphan": {
@@ -536,7 +498,6 @@
 			"",
 			"**Multiple Characters:** You should be siblings with any other character that takes this trait, so that you share the same missing parents. Your parents could even be foster parents."
 		],
-		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
 	"stolen_fury": {
@@ -555,7 +516,6 @@
 			"",
 			"**Multiple Characters:** You and any other PC who takes this trait were all part of the same ritual, and it was only by working together that you managed to escape-further, the support of your fellow ritual survivors has played a key role in your coming to terms with it, and you retain a close bond of friendship (or perhaps a friendly rivalry) to this day."
 		],
-		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
 	"touched_by_divinity": {
@@ -574,7 +534,6 @@
 			"",
 			"**Multiple Characters:** If other characters choose this trait, you should all work together to decide what deity you're associated with - it should be the same deity shared by all of you. You might even share the same dreams."
 		],
-		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
 	"apothecary": {
@@ -585,7 +544,6 @@
 			"",
 			"Everyone suspects the sweaty, shifty-eyed apothecary sells poisons from his cluttered, acrid smelling wreck of a shop. You're one of the few in town who know this for a fact. You start the game with 400 gp worth of poison, and the apothecary will continue to sell you poison as long as you don't spread the word."
 		],
-		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
 	"bitter_nobleman": {
@@ -596,7 +554,6 @@
 			"",
 			"A local unscrupulous family was hit hard recently, revealing criminal ties that damaged its reputation as well. One noble is eager to rebuild his presence in town, and you're one of the ones he's selected as an agent. Choose one of the following skills: Bluff, Sleight of Hand, or Stealth. Your work for the family gives you a +1 trait bonus on that skill, and it is always a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
 	"black_sheep": {
@@ -607,7 +564,6 @@
 			"",
 			"You were born and raised in town. You know many of the region's secrets and the locals already know who you are. You aren't quite hated in town, but folk seem to think you're a troublemaker and a bastard and not to be trusted. The town's tougher folk respect you, but the law-abiding citizens don't. You gain a +1 trait bonus on Knowledge (local) checks, and Knowledge (local) is a class skill for you. In addition, you can choose any one notorious citizen from below as an ally; depending on the person you pick, you'll get different benefits."
 		],
-		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
 	"favored_son_or_daughter": {
@@ -622,7 +578,6 @@
 			"",
 			"**Sherrif:** The no nonsense arm of the law, is like the uncle you never had. The benefits of being close friends with the town sheriff are extensive, and you can call in favors from him once per game session. A favor can either get you out of a legal jam, hook you up with a town guard for help, or give you a one-time +10 bonus on a Bluff, Diplomacy, or Intimidate check made against any local person."
 		],
-		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
 	"outlander": {
@@ -639,7 +594,6 @@
 			"",
 			"**Missionary:** You have come to town to see about expanding the presence of your chosen faith after receiving visions that told you your faith is needed in the region-what that need is, though, you're not quite sure. You gain a +1 trait bonus on Knowledge (religion) checks, and Knowledge (religion) is a class skill for you. If you cast divine spells, pick three spells on your spell list. You are particularly adept at casting these spells, so they function at +1 caster level when you cast them, and their save DCs (if any) gain a +1 bonus."
 		],
-		"category": "-",
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
 	"augmented_disguise": {
@@ -1157,7 +1111,6 @@
 			"",
 			"You carry a burning hatred in your heart for all things demonic, and have studied their weaknesses carefully. You deal an amount of additional damage equal to your weapon's critical hit modifier when you score a successful critical hit with a weapon against a demon. This damage is added only after the damage is totaled, and is not multiplied by the critical hit multiplier."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"accident_resistant": {
@@ -1169,7 +1122,6 @@
 			"",
 			"Your understanding of pointless and unexpected death grants you a special awareness. You gain a +2 trait bonus on Reflex saves when denied your Dexterity bonus or during a surprise round."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"adherent_of_ancient_osirion": {
@@ -1182,7 +1134,6 @@
 			"",
 			"Although Bastet has been all but forgotten by the native Osirians, you either sojourned with or were raised in a cult dedicated to the cat-headed goddess of Ancient Osirion. You treat the tekko-kagi as a martial weapon instead of an exotic weapon. You also treat the tekko-kagi as if it were a set of claw blades when determining how it interacts with other effects."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"adventurous_imbiber": {
@@ -1194,7 +1145,6 @@
 			"",
 			"You've never been afraid of good, strong drink, and that has prepared you for the perils of more dangerous substances. You gain a +1 trait bonus on saving throws against poison."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"affinity_for_the_elements": {
@@ -1209,7 +1159,6 @@
 			"",
 			"Add 1 to the DC of saving throws made to resist the effects of spells cast by you that have either the air, earth, fire, or water descriptor, depending on which elemental lord you worship. You must choose a single elemental lord when you take this trait; once chosen, it cannot be changed."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"agent_of_chance": {
@@ -1224,7 +1173,6 @@
 			"",
 			"You can change the fortunes of others, typically for the better. Once per day, you can allow an adjacent ally to reroll a skill check as an immediate action before the result is revealed. The ally must take the second roll, even if it is worse."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"alluring": {
@@ -1236,7 +1184,6 @@
 			"",
 			"You have the art of turning a passing glance into love. You receive a +2 trait bonus on Diplomacy checks with those who find you attractive. You can use {spell/daze} once per day as a spell-like ability, with a caster level equal to your character level."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"always_threatening": {
@@ -1248,7 +1195,6 @@
 			"",
 			"You are fast on the draw. As a move action, you can draw a light, concealed weapon for which you have {feat/Weapon Focus}. If you have the {feat/Quick Draw} feat, drawing this weapon is a free action."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"ambassador": {
@@ -1260,7 +1206,6 @@
 			"",
 			"Your natural abilities at mediation and compromise manifested at a young age. For as long as you can remember, you were always more able to solve disputes and carefully settle violent disagreements than others. You gain a +2 trait bonus to Diplomacy checks."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"ancestors_blade": {
@@ -1272,7 +1217,6 @@
 			"",
 			"You were trained by your family with a weapon passed down from a venerable ancestor. You begin play with an heirloom masterwork weapon worth up to 400 gp. You gain a +1 trait bonus on attack rolls with weapons of this type (not just your initial heirloom weapon) when you smite evil."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"andolettas_consolation": {
@@ -1284,7 +1228,6 @@
 			"",
 			"You had a close encounter with a servant or worshiper of Andoletta who provided you with a memorable, if unconventional, consolation after a loss. As a result, you gain a +2 trait bonus on saving throws against emotion and fear effects. If you are immune to fear, you instead gain a +4 trait bonus on saves against emotion effects."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"angradds_flame": {
@@ -1296,7 +1239,6 @@
 			"",
 			"Your faith in the Forge-Fire fans the passionate flames of war in your heart. Whenever you confirm a critical hit, you deal 1 additional point of damage to your target. This damage is considered precision damage."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"angradds_valor": {
@@ -1308,7 +1250,6 @@
 			"",
 			"You hope to earn a place at Angradd's side after death and are inspired to charge with all your might into any righteous battle. You gain a +1 trait bonus on all melee attack rolls when you charge."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"arcane_depth": {
@@ -1323,7 +1264,6 @@
 			"",
 			"You have studied the great masters of spellcraft, and your knowledge is exceptional. You gain a bonus of either +1 on Spellcraft checks or +2 on Knowledge (arcana) checks. You must choose which bonus you receive when you take the trait; once chosen, it cannot be changed."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"asmodean_demon_hunter": {
@@ -1338,7 +1278,6 @@
 			"",
 			"Raised in the church of Asmodeus (whether or not you are currently a follower), you've focused your indoctrinated fervor primarily on the elimination of demons. You gain a +3 trait bonus on Knowledge (planes) checks about demons and a +2 trait bonus on Will saves against mind-affecting spells and effects from demons."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"avowed_inspiration": {
@@ -1350,7 +1289,6 @@
 			"",
 			"In emulation of the empyreal lord's intensely channeled rage, you are an inspiration on the battlefield. Once per day, when you attack a foe who injured you during the same combat, you can inspire allies who can see you as a move action. Each other ally within 30 feet who can see you gains a +2 morale bonus on her next attack roll."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"backstabber": {
@@ -1363,7 +1301,6 @@
 			"",
 			"Pledging your faith to Norgorber's lethal shadow gives you the skill to make a brutal attack against an opponent who cannot fully fend you off. When you hit a foe you are flanking, you deal an additional 1 point of damage (this damage is added to your base damage, and is multiplied on a critical hit). This additional damage is a trait bonus."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"battlefield_caster": {
@@ -1375,7 +1312,6 @@
 			"",
 			"Your faith protects you even as you unleash spells in the thick of battle. You receive a +1 trait bonus on {rule/concentration} checks to cast defensively and a +1 trait bonus to AC against attacks provoked by or readied against spellcasting."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"battlefield_surgeon": {
@@ -1390,7 +1326,6 @@
 			"",
 			"You're skilled at both dealing and repairing wounds. Heal is a class skill for you, and you can use the treat deadly wounds aspect of Heal 1 additional time per creature per day."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"besmaras_name": {
@@ -1402,7 +1337,6 @@
 			"",
 			"Besmara sometimes answers your call. Once per day when casting a divine spell, you can speak or whisper her name in place of using a divine focus."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"besmaras_strength": {
@@ -1414,7 +1348,6 @@
 			"",
 			"The Pirate Queen sometimes answers your calls when you tread dangerous waters. Once per day when attempting a Swim check, you can treat the water as if it were one category calmer (as if stormy water were rough water or rough water were calm water)."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"bestial_wrath": {
@@ -1426,7 +1359,6 @@
 			"",
 			"When you strike hard, you strike deep. You gain a +2 trait bonus on critical confirmation rolls."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"blade_of_mercy": {
@@ -1438,7 +1370,6 @@
 			"",
 			"You know that within the heart of even the most hateful and cruel living creature exists a sliver of shame and hope for redemption. You have trained long on martial techniques to use bladed weapons not to kill, but to subdue. When striking to inflict nonlethal damage with any slashing weapon, you do not take the normal -4 penalty on your attack roll, and gain a +1 trait bonus to any nonlethal damage you inflict with a slashing weapon."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"blessed_orphan": {
@@ -1450,7 +1381,6 @@
 			"",
 			"As an orphan, you have always looked to Folgrit for protection. Once per day, you gain a +1 trait bonus on any saving throw. You must use this ability after the roll is made but before the result is revealed."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"blessing_of_the_feast": {
@@ -1462,7 +1392,6 @@
 			"",
 			"You come from a cannibal tribe, and find strength in the flesh of your foes. Whenever you eat the flesh or drink the blood of another orc - a full-round action that provokes attacks of opportunity - you gain the favor of Zura and receive a +1 natural armor bonus for 1 minute/level. You can only receive this benefit once per day."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"blind_zeal": {
@@ -1474,7 +1403,6 @@
 			"",
 			"You are blind but trained by followers of Vildeis to sense your surroundings by sound and touch. You need not attempt a skill check to move at full speed. You take a -4 penalty from blindness on only Acrobatics, Ride, Sleight of Hand, and Stealth checks. You gain {feat/Blind-Fight} as a bonus feat. You lose the benefits of this trait whenever you can see, but regain them if you once again become blind."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"bloody_vengeance": {
@@ -1486,7 +1414,6 @@
 			"",
 			"You were slain by evil forces as a child, but a follower of Vildeis restored you to life. Now you live on in service to the Cardinal Martyr, battling the forces of evil so no other child will know the icy grip of death. You gain a +2 trait bonus on attack rolls to confirm critical hits against any creature that has at least a faint evil aura (see {spell/detect evil})."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"brighs_insight": {
@@ -1498,7 +1425,6 @@
 			"",
 			"You hear Brigh's whisper in the workings of technology, granting you better understanding of and insight into constructs. You gain a +2 trait bonus on caster level checks to overcome the spell resistance of constructs."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"broken_mind": {
@@ -1513,7 +1439,6 @@
 			"",
 			"You're used to living with your own madness, and gain a +2 trait bonus on saving throws against madness and confusion effects."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"calistrian_courtesan": {
@@ -1529,7 +1454,6 @@
 			"",
 			"You worked in one of Calistria's temples as a sacred courtesan, and you know how to flatter, please, and (most of all) listen. You gain a +1 trait bonus on Sense Motive checks and Diplomacy checks to gather information, and one of these skills (your choice) is always a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"call_for_help": {
@@ -1542,7 +1466,6 @@
 			"",
 			"Offering your devotion to and modeling your life on Desna's impetuous companion means you frequently find yourself in a jam but also ensures that you can always rely upon your friends to bail you out. When you take the total defense action, allies gain a +1 trait bonus on rolls made against a creature threatening you."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"centered": {
@@ -1557,7 +1480,6 @@
 			"",
 			"Having anchored yourself in your faith and your knowledge of yourself, you've made it difficult for others to dominate you. You gain a +1 trait bonus on saving throws against charm and compulsion effects, and the DC of any attempts to use the Intimidate skill on you increases by 1."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"chaldiras_luck": {
@@ -1569,7 +1491,6 @@
 			"",
 			"You found yourself in deep trouble in your youth but stumbled upon an unlikely way out after praying to Chaldira Zuzaristan for luck. Once per day, you can roll twice and take the better result on a skill check."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"cheat_death": {
@@ -1581,7 +1502,6 @@
 			"",
 			"Even Besmara's most faithful worshipers usually call upon her only in times of greatest need. Sometimes Besmara intervenes on behalf of her faithful; other times, she turns her face away as they sink beneath the waves. Once per day, when you would be reduced to 0 or fewer hit points as a result of a failed ability check, skill check, or saving throw on your part, you may invoke this ability in order to reroll the failed check. You must take the result of the second roll, even if it is worse than the original."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"child_of_nature": {
@@ -1598,7 +1518,6 @@
 			"",
 			"The wild places are your home, and provide everything you need to be happy. You gain a +2 trait bonus on Survival checks, and Survival is a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"cleansing_light": {
@@ -1613,7 +1532,6 @@
 			"",
 			"Your faith is pure and strong, and your positive energy purges undead. When dealing damage to undead with your channel energy ability, you can reroll any damage die roll that results in a natural 1."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"cleansing_the_twisted": {
@@ -1625,7 +1543,6 @@
 			"",
 			"You have studied well the many religious texts that chronicle Sarenrae's neverending struggle against Rovagug and his monstrous offspring. Your fighting style works particularly well when you utilize slashing weapons against aberrations. You gain a +1 trait bonus to slashing weapon damage against all aberrations."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"clockwork_surgeon": {
@@ -1637,7 +1554,6 @@
 			"",
 			"Thanks to your medical innovations, you can perform especially comprehensive or speedy surgeries. You begin play with a special healer's kit at no cost and can fully restock your kit by expending materials worth 10 gp and spending 8 hours assembling medical devices. When using this healer's kit to treat deadly wounds, you can either halve the time required to perform the action or add your Intelligence modifier to the number of hit points healed."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"contract_master": {
@@ -1652,7 +1568,6 @@
 			"",
 			"Your facility with contracts makes you good at understanding dense text and obfuscating your intent. You gain a +1 trait bonus on Linguistics checks, and Linguistics is a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"corpse_cannibal": {
@@ -1664,7 +1579,6 @@
 			"",
 			"Your faith encourages you to indulge a variety of perverse hungers, leading you to shrug at even some of the darkest taboos. You gain a +2 trait bonus on Fortitude saves against diseases and can gain sustenance from rotting flesh with no negative side effects."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"corpse_hunter": {
@@ -1679,7 +1593,6 @@
 			"",
 			"You have dedicated yourself to the destruction of undead, and gain a +1 trait bonus on attacks made against undead."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"covenant_of_abaddon": {
@@ -1694,7 +1607,6 @@
 			"",
 			"Because your soul is pledged to one of the Horsemen, you gain a +2 trait bonus on Fortitude saving throws against level-draining effects."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"dawn_renewal": {
@@ -1707,7 +1619,6 @@
 			"",
 			"Your morning prayers often send a welcome spark of divine vitality into your most recent patients. When you use the Heal skill to provide long-term care, your patients heal an extra 2 hit points at sunrise."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"deadeye_bowman": {
@@ -1719,7 +1630,6 @@
 			"",
 			"When you are using a longbow, if only a single creature is providing soft cover to your target, your target does not receive the +4 bonus to AC."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"deathspeaker": {
@@ -1734,7 +1644,6 @@
 			"",
 			"Your experience with undead creatures gives you a +2 trait bonus on Diplomacy checks when dealing with undead, as well as a +2 trait bonus on Charisma checks to influence undead (such as with the command undead spell)."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"deck_fighter": {
@@ -1749,7 +1658,6 @@
 			"",
 			"Your long experience in compensating for the pitch and yaw of ocean-going ships grants you a +1 trait bonus on attacks of opportunity when fighting aboard a ship."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"deep_wounding": {
@@ -1761,7 +1669,6 @@
 			"",
 			"You have learned the bloody secret of striking true and deep. When you deal bleed damage with a melee weapon, a successful DC 20 Heal check is required to stop the bleed damage. Magical healing stops the damage as normal."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"defensive_strategist": {
@@ -1776,7 +1683,6 @@
 			"",
 			"Your study of dwarven history has trained you in defensive strategy. You aren't flat-footed during a surprise round that you don't get to act in or before you get to act at the start of a battle."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"deformed": {
@@ -1791,7 +1697,6 @@
 			"",
 			"Your monstrous deformities grant you a +1 trait bonus on Intimidate checks, and Intimidate is a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"demon_hunter": {
@@ -1803,7 +1708,6 @@
 			"",
 			"Raised in the church (whether or not you are currently a follower), you've focused your indoctrinated fervor primarily on the elimination of demons. You gain a +3 trait bonus on Knowledge (planes) checks about demons and a +2 trait bonus on Will saves against mind-affecting spells and effects from demons."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"demonic_persuasion": {
@@ -1818,7 +1722,6 @@
 			"",
 			"Your lord's favor aids you in your interactions with demonic creatures. You gain a +2 trait bonus on Diplomacy and Intimidate checks when dealing with creatures of the demon subtype."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"demoralizing_presence": {
@@ -1830,7 +1733,6 @@
 			"",
 			"Your very existence is unsettling to your foes. You gain a +2 trait bonus on Intimidate checks made to demoralize opponents."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"denial_of_fate": {
@@ -1842,7 +1744,6 @@
 			"",
 			"The Pallid Princess has blessed you with the ability to avoid the final fate. Once per day while you are below 0 hit points, at the start of your turn you can choose to stabilize without needing to succeed at a Constitution check."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"destructive_blows": {
@@ -1857,7 +1758,6 @@
 			"",
 			"Your faith strengthens your powers of destruction. You gain a +2 trait bonus on Strength checks to break objects, as well as on combat maneuver checks to sunder."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"devotee_of_a_dead_god": {
@@ -1869,7 +1769,6 @@
 			"",
 			"You simply cannot and will not accept that Aroden is dead. Your faith in his teachings and religion are stronger than ever. You gain a +1 trait bonus on Diplomacy checks and Knowledge (religion) checks. One of these skills (your choice) is always a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"diseased_heart": {
@@ -1881,7 +1780,6 @@
 			"",
 			"Your work with infections has infused your spirit with disease. Any creature that performs a blood drain or swallow whole attack on you must succeed at a Fortitude saving throw (DC = 10 + your character level + your Constitution modifier) or become infected with filth fever. This is a poison effect."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"divine_warrior": {
@@ -1897,7 +1795,6 @@
 			"",
 			"From an early age, you were trained by a militaristic order of clerics. You are devoted to the teachings of Iomedae and to spreading those teachings by force. Whenever you cast a divine spell that affects any melee weapons, choose one of those weapons; it gains a +1 trait bonus on damage rolls for the duration of the spell."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"dragon_tracker": {
@@ -1909,7 +1806,6 @@
 			"",
 			"You have been taught to identify the subtle and not-so-subtle signs of a dragon's passage. You gain a +2 trait bonus on Survival checks to track dragons, and you can track a dragon with Survival untrained if the check's DC is 15 or lower."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"dragonslayer": {
@@ -1924,7 +1820,6 @@
 			"",
 			"You're greatly skilled in hunting and slaying those who resemble your lord's favored prey. You gain a +1 trait bonus on attack rolls against creatures of the dragon type."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"ear_for_music": {
@@ -1939,7 +1834,6 @@
 			"",
 			"You spent countless hours of your youth in one of Shelyn's temples, listening to wonderful musicians and singers. You gain a +1 trait bonus on one category of Perform checks and a +2 trait bonus on Knowledge (local) checks that deal with the local art or music scene."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"elemental_resilience": {
@@ -1951,7 +1845,6 @@
 			"",
 			"Choose one of the following energy types: acid, cold, electricity, or fire. You gain a +1 trait bonus on saving throws against spells with that descriptor. Once the energy type is chosen, it cannot be changed."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"elven_pantheist": {
@@ -1963,7 +1856,6 @@
 			"",
 			"Your knowledge of the elven gods has given you a broad perspective, thus granting you a +1 trait bonus on all Knowledge (religion) skill checks, and Knowledge (religion) is always a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"elven_polytheist": {
@@ -1975,7 +1867,6 @@
 			"",
 			"Your knowledge of the diverse elven gods has given you a broad perspective. You gain a +1 trait bonus on Knowledge (religion) skill checks, and Knowledge (religion) is a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"empty_heart_full_heart": {
@@ -1990,7 +1881,6 @@
 			"",
 			"Because of the aching strength of your forbidden love, you gain a +1 trait bonus on saving throws against charm effects, and targets of your charm spells take a -1 penalty on their saving throws."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"empyreal_focus": {
@@ -2005,7 +1895,6 @@
 			"",
 			"The empyreal lord you worship rewards your devotion by granting you an occasional boon. Once per day, before you attempt a skill check, you can use this boon to gain a +2 trait bonus on that skill check."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"enchanting_conniver": {
@@ -2017,7 +1906,6 @@
 			"",
 			"You gain a +2 trait bonus on Bluff and Diplomacy checks against creatures affected by one of your charm or compulsion effects."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"enemy_of_delusion": {
@@ -2029,7 +1917,6 @@
 			"",
 			"You were once faced with a grave injustice committed by an ignorant or delusional person, and righteous indignation moved you to correct the mistaken party. Once per day, when you confirm a critical hit against, successfully use a smite attack on, or use lay on hands on a creature that is affected by a charm or compulsion effect, you can invoke Andoletta to open the target's eyes. If the effect originally allowed a saving throw to resist it, the target can attempt a new saving throw against the charm or compulsion; if she's successful, the effect ends immediately."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"envoy_of_healing": {
@@ -2041,7 +1928,6 @@
 			"",
 			"You strive to spread the Dawnflower's message of kindness and compassion throughout the land, no matter how dangerous the road may be. Whenever you use channel energy, fervor, or lay on hands to heal a living creature, you can reroll any healing die roll that results in a natural 1 (you must use the new result)."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"erastils_speaker": {
@@ -2056,7 +1942,6 @@
 			"",
 			"You understand the importance of keeping the peace in your community, and you have learned how to speak to the faithful in ways that they understand. You gain a +1 trait bonus on Diplomacy checks, and Diplomacy is a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"eternal_understanding": {
@@ -2068,7 +1953,6 @@
 			"",
 			"Though you haven't been traditionally educated, you're blessed with potent observation and discernment. You can attempt Knowledge checks with a DC of 15 or lower untrained."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"expert_boarder": {
@@ -2080,7 +1964,6 @@
 			"",
 			"Besmara rewards those who board other vessels and take what they want. While fighting on the deck of a ship, you gain a +1 bonus on all attacks made with one-handed weapons."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"extended_toil": {
@@ -2092,7 +1975,6 @@
 			"",
 			"Your faith teaches you to push magical servants to the limit. When you cast a spell that creates a loyal servant to fulfill a specific or mindless task (such as unseen servant, mount, or spiritual weapon, but not summon monster spells), you may choose to increase its duration by 50%. This does not stack with the {feat/Extend Spell} feat. The effect weakens the spell, however; dispel checks against spells you cast in this manner gain a +4 bonus."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"eye_for_quality": {
@@ -2104,7 +1986,6 @@
 			"",
 			"Your deity has granted you an uncanny ability to find the true worth of items. You gain a +1 trait bonus on Appraise checks, you don't suffer the effects of failing such checks by 5 or more, and Appraise is a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"eye_of_arqueros": {
@@ -2116,7 +1997,6 @@
 			"",
 			"You once fell asleep during a task that required your attention. A vision of Arqueros awakened you just in time to avoid failing at your task. You gain a +3 trait bonus on Perception checks attempted while you are alone on guard duty."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"eye_of_the_father": {
@@ -2131,7 +2011,6 @@
 			"",
 			"You have an innate sense of what is right and wrong in the works you craft, based on your years studying with the church elders at their forges. Choose one Craft skill; you gain a +1 trait bonus on Craft checks of the selected type."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"eyes_and_ears_of_the_city": {
@@ -2147,7 +2026,6 @@
 			"",
 			"Your religious training involved serving in the city watch of a large city, the primary duty of which was standing sentinel on a city wall. You gain a +1 trait bonus on Perception checks, and Perception is always a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"eyes_of_the_wild": {
@@ -2162,7 +2040,6 @@
 			"",
 			"Having spent much time immersed in the wilderness, you're now attuned to its ways. You gain a +2 trait bonus on Perception checks in natural settings."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"faithful_arodenite": {
@@ -2174,7 +2051,6 @@
 			"",
 			"You worship a dead god, and are skilled at making that sound reasonable. You gain a +1 trait bonus on Diplomacy checks; this bonus increases to +3 if you are dealing with a follower of Aroden or Iomedae."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"faithful_artist": {
@@ -2189,7 +2065,6 @@
 			"",
 			"With Desna's blessing, you have pursued an artistic path. Choose one Perform skill; you gain a +1 trait bonus on Perform checks of the selected type, and Perform is a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"fatal_trapper": {
@@ -2204,7 +2079,6 @@
 			"",
 			"Your patron grants you expertise at creating or disabling traps. You gain a +1 trait bonus on Craft (traps) checks, as well as a +1 trait bonus on Disable Device checks to disable traps."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"favored_prey": {
@@ -2216,7 +2090,6 @@
 			"",
 			"Those you track feel the sting of your arrows. You gain a +1 trait bonus on damage rolls when making bow attacks against a creature whose tracks you have successfully followed in the last hour."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"fiendish_confidence": {
@@ -2231,7 +2104,6 @@
 			"",
 			"You expect to be obeyed, and are rarely proven wrong. You gain a +1 trait bonus on Intimidate checks, and Intimidate is a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"flame_of_the_dawnflower": {
@@ -2247,7 +2119,6 @@
 			"",
 			"You have been raised to view yourself as a blade in Sarenrae's service, or you have taken on that duty for yourself. Whenever you score a critical hit with a scimitar, you deal 2 additional points of fire damage to your target."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"flames_of_hell": {
@@ -2262,7 +2133,6 @@
 			"",
 			"Your bond with the archdevil you worship strengthens your ability to channel powers of the divine. Add 1 to the DC of saving throws made to resist the effects of your channel energy ability."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"flounderer": {
@@ -2275,7 +2145,6 @@
 			"",
 			"You are adept at swimming and holding your breath. You gain a +1 trait bonus on Swim checks, and can hold your breath for a number of rounds equal to three times your Constitution score before you risk drowning."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"folgrits_bounty": {
@@ -2287,7 +2156,6 @@
 			"",
 			"You were taught to tend the sacred hearth-fire and cook nourishing meals as a child. You gain a +1 trait bonus on Profession (cook) checks and can prepare a nourishing meal of up to eight portions with 1 hour of effort at a cost of 20 gp. Anyone who eats a portion within 1 day (which takes 10 minutes) gains a +1 morale bonus that can be applied to any one skill check or attack roll in the next 8 hours. The bonus must be applied before the roll is made and cannot be renewed by another meal for 1 day."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"folgrits_mercy": {
@@ -2299,7 +2167,6 @@
 			"",
 			"You were called upon to defend your home or family at a vulnerable time and led with a clarity of mind you did not know you had. Once per day when you use lay on hands, you also cure the target of 1d4 points of Intelligence, Wisdom, or Charisma damage. You choose which ability score gains the healing effect."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"follower_of_the_stars": {
@@ -2311,7 +2178,6 @@
 			"",
 			"You gain a +4 trait bonus when using Survival to navigate under clear skies."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"fortified_drinker": {
@@ -2326,7 +2192,6 @@
 			"",
 			"Cayden Cailean's holy brews invigorate your mind, making you less susceptible to mental attacks. Whenever you imbibe any alcoholic beverage, you gain a +2 trait bonus on saves against mind-affecting effects for 1 hour."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"frightening_speed": {
@@ -2341,7 +2206,6 @@
 			"",
 			"Your careful study of Achaekek's kills has unlocked a divine speed in you. Once per day during a combat encounter, you can move an additional 5 feet as a part of a move action without penalty."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"fruits_of_your_labor": {
@@ -2353,7 +2217,6 @@
 			"",
 			"You take pride in providing for your community. Once per day you can serve a meal comprising food you have produced, purchased, or foraged to yourself and up to six other creatures. Serving and consuming this meal takes 10 minutes, during which the other participants can also partake in light activity such as conversation, reading, and keeping watch. Each creature regains 1d3 hit points at the end of the meal, and gains a +1 trait bonus on its next d20 roll using the aid another action to assist other creatures who consumed the meal. The +1 trait bonus lasts 24 hours, and a creature can gain that bonus on its next d20 roll to assist other creatures from this trait only once per day."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"furious_vengeance": {
@@ -2365,7 +2228,6 @@
 			"",
 			"Once wronged, your vengeance can be swift and brutal. Once per day as an immediate action, you gain a +1 trait bonus on a single attack roll. In addition, if the target has damaged you within the last round, you deal 1 additional point of damage on a successful hit. You must choose to use this ability before making the attack roll."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"fury": {
@@ -2377,7 +2239,6 @@
 			"",
 			"The flood of battle and destruction stirs deep within you. When wielding a greataxe, you receive a +2 trait bonus on attack rolls to confirm critical hits."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"gemstone_collector": {
@@ -2389,7 +2250,6 @@
 			"",
 			"You have long found focus and inspiration in the natural beauty of rare gemstones. As long as you carry bejeweled objects worth a total combined value of 200 gp &times; your character level, you gain a +1 trait bonus on all Will saving throws and a +2 trait bonus on a single Charisma-based skill check of your choice."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"gifted_medium": {
@@ -2401,7 +2261,6 @@
 			"",
 			"Your understanding of Magrim's teachings makes you a perfect conduit for mystical forces. You gain a +1 trait bonus on your caster level when using divinations to reach out to other entities, such as {spell/commune} or speak with dead."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"good_dreams": {
@@ -2414,7 +2273,6 @@
 			"",
 			"Your dreams often give you a hint of possible dangers you might face during your day - such as a fall, a blast of fire, or a poisonous snake - and this hint sometimes makes all the difference. Each time you sleep, the GM tells you of a dangerous dream you had. Once per day, if you have to make a saving throw against a threat related or similar to that dream, you can roll twice and take the more favorable result. If you do not encounter circumstances similar to the threat or situation you dreamed, this trait has no effect that day. If you have the Halfling Jinx alternate racial trait, you cannot select this trait, and vice versa."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"good_natured": {
@@ -2429,7 +2287,6 @@
 			"",
 			"You have an unusually sunny spirit, and it takes something truly intimidating to dampen your mood. You gain a +2 trait bonus on saving throws against fear effects."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"gozrehs_sight": {
@@ -2441,7 +2298,6 @@
 			"",
 			"Your faith in the Wind and the Waves helps you navigate through all manner of mist or haze. You can see normally up to 5 feet away in areas of nonmagical fog, mist, rain, or similar conditions (such as the spray of a waterfall). Your sight is still obscured beyond 5 feet as normal in these conditions."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"guardian_smite": {
@@ -2453,7 +2309,6 @@
 			"",
 			"Paladins of Trudd taught you to be a blessed, living barrier against enemies who threaten those you hold dear. Once per day, when you strike a foe with smite evil, you can halve the total damage dealt to the foe to reduce that foe's speed to 5 feet for 1 round."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"guardian_of_the_forge": {
@@ -2469,7 +2324,6 @@
 			"",
 			"Torag's sacred duties are to protect the faithful, take lessons from the great craftsmen and strategists of the past, and prepare against dark times. You receive a +1 trait bonus on Knowledge (engineering) and Knowledge (history) checks. One of these skills (your choice) is a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"hatred_of_the_gods": {
@@ -2484,7 +2338,6 @@
 			"",
 			"Your god's own hatred of other deities is reflected in your ability to withstand the attacks of their followers. You gain a +1 trait bonus on saving throws made against divine spells."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"holy_schemer": {
@@ -2499,7 +2352,6 @@
 			"",
 			"You are well versed in the arts of misdirection, plotting, and intrigue, and you know how to recognize these tactics when they're used against you. You receive a +1 trait bonus on Sense Motive checks, and Sense Motive is a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"honey_tongued": {
@@ -2514,7 +2366,6 @@
 			"",
 			"Your deep understanding of human nature and social philosophy grants you a +1 trait bonus on Diplomacy or Bluff checks when dealing with agents of the law, such as judges, guards, and paladins."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"honeyed_words": {
@@ -2526,7 +2377,6 @@
 			"",
 			"Your tact soothes bristling tempers and cools heated blood. You receive a +1 trait bonus on Diplomacy checks. In addition, you receive a +1 trait bonus to the DC of any charm or compulsion that does not provide ongoing control and results in peaceful acts, such as calm emotions, sleep, or a suggestion to lay down arms."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"illuminator": {
@@ -2541,7 +2391,6 @@
 			"",
 			"When you are filled with the light of Sarenrae, your speech takes on a fiery eloquence. You gain a +2 trait bonus on Diplomacy checks, and Diplomacy is a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"inheritors_immunity": {
@@ -2553,7 +2402,6 @@
 			"",
 			"Iomedae's valor fills you with divine energy, allowing you to stave off even the worst plague. Once per day, you can reroll a saving throw against a disease or poison. You must take the second result, even if it is worse."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"inner_beauty": {
@@ -2568,7 +2416,6 @@
 			"",
 			"Once per day when you manifest your faith in your goddess, you gain a +4 trait bonus on a single Bluff, Craft, Diplomacy, or Perform skill check. You must choose to use this trait immediately after rolling the skill check but before the result is revealed by the GM."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"inoculated": {
@@ -2583,7 +2430,6 @@
 			"",
 			"Your regular exposure to plagues grants you a +2 trait bonus on saving throws against disease effects."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"inspiring_leader": {
@@ -2595,7 +2441,6 @@
 			"",
 			"Imitating the leadership of your deity, you spur others on to great deeds. When you cast a spell that grants allies a morale bonus, you cast that spell at +1 caster level."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"intense_artist": {
@@ -2610,7 +2455,6 @@
 			"",
 			"Your devotion to Shelyn has caused you to delve more deeply into your art. Choose two Perform skills; you gain a +1 trait bonus on Perform checks of the selected types, and Perform is a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"iron_grip": {
@@ -2625,7 +2469,6 @@
 			"",
 			"You and your weapon are practically one. You receive a +2 trait bonus to your CMD against disarm attempts."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"know_the_land": {
@@ -2640,7 +2483,6 @@
 			"",
 			"Your familiarity with the plants and animals of a variety of environments gives you a +1 trait bonus on Knowledge (nature) and Survival checks, and one of these skills is a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"kuthite_caster": {
@@ -2655,7 +2497,6 @@
 			"",
 			"You gain a +4 trait bonus on {rule/concentration} checks when casting spells with the darkness, pain, or shadow descriptor."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"lessons_of_chaldira": {
@@ -2670,7 +2511,6 @@
 			"",
 			"Your studies of Chaldira Zuzaristan's exploits have given you a knack for avoiding trouble. Once per day before the result of a saving throw is known, you can reroll that saving throw. You must take the second result even if it is worse."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"liars_tongue": {
@@ -2682,7 +2522,6 @@
 			"",
 			"Thanks to your friendly mien and sly tongue, your lies are often believed. You gain a +1 trait bonus on Bluff checks, and Bluff is a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"light_sleeper": {
@@ -2694,7 +2533,6 @@
 			"",
 			"Because of a blessing from your god, or worries inspired by the way he died as a mortal, you are a light sleeper. Your modifier to Perception DCs when sleeping is +5 instead of +10."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"light_bringer": {
@@ -2706,7 +2544,6 @@
 			"",
 			"You were born with a blessing of the Dawnflower. Once per day, you can use {spell/light} as a spell-like ability. Your caster level is equal to your character level."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"living_bulwark": {
@@ -2718,7 +2555,6 @@
 			"",
 			"The Golden Bulwark inspires you to give your all for those you protect. Once per day, when an adjacent ally is targeted by an attack but before the attack roll is attempted, you can interpose yourself as an immediate action. You become the target of the attack instead."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"loreseeker": {
@@ -2730,7 +2566,6 @@
 			"",
 			"You gain a +2 trait bonus on Spellcraft checks made to identify magical items."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"lover_of_the_law": {
@@ -2745,7 +2580,6 @@
 			"",
 			"You have a strong belief in the righteousness of law and justice. You receive a +1 trait bonus on saving throws against charm and compulsion effects, and may attempt a new saving throw with an additional +1 bonus (for a total of +2) if you are directed to break the law."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"loyal_bond": {
@@ -2757,7 +2591,6 @@
 			"",
 			"You are at your best when you serve others. When you cast spells that offer protection to an ally at your expense (such as {spell/shield other}) or spells whose duration is divided when shared among many (such as water breathing or any of the communal spells), you do so at +1 caster level."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"magic_is_life": {
@@ -2773,7 +2606,6 @@
 			"",
 			"Your faith in magic allows you to reflexively use the energy of any spell effect currently on you to save you from death. As long as you are under the effects of a spell, you gain a +2 trait bonus on saving throws against death effects. If you are reduced to negative hit points while you are under the effects of any spell, you automatically confirm stabilization checks to stop bleeding."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"magics_might": {
@@ -2785,7 +2617,6 @@
 			"",
 			"Your natural affinity for magic allows you to affect even those who resist it. You gain a +1 trait bonus on caster level checks to overcome spell resistance."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"mighty_protector": {
@@ -2797,7 +2628,6 @@
 			"",
 			"When you were too young to fight, you witnessed a great tragedy befall an innocent and you swore to Trudd you'd become strong enough to prevent something like that from happening again. Once per day when you hit a foe with a melee attack, you can attempt an aid another action as a free action to increase an adjacent ally's AC against that foe. If you succeed, you grant the ally a +4 bonus to AC instead of a +2 bonus for that round."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"mischievous_smile": {
@@ -2809,7 +2639,6 @@
 			"",
 			"You consider mischief a sacred rite in humbling enemies. You do not provoke attacks of opportunity when performing a dirty trick combat maneuver while your smite evil bonus applies to combat maneuver checks. If you already do not provoke such attacks of opportunity (such as by having {feat/Improved Dirty Trick}), you instead gain a +2 trait bonus on dirty trick combat maneuver checks against creatures that are the targets of your smite."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"mothers_rage": {
@@ -2821,7 +2650,6 @@
 			"",
 			"The blood of the beast runs thick in your veins, and your appearance is bestial. You receive a +1 trait bonus on Survival checks, and you treat your caster level as +1 higher when summoning creatures."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"mothers_teeth": {
@@ -2834,7 +2662,6 @@
 			"",
 			"Your teeth are more jagged and pointed than normal. You can make a bite attack for 1d2 points of damage as a secondary attack."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"natural_magic": {
@@ -2846,7 +2673,6 @@
 			"",
 			"Yuelral's teachings revealed to you that all magic can ultimately be traced back to nature. Choose two 0-level druid spells. You treat each spell as being on your class spell list and as a spell known for all spellcasting classes you have."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"natural_philosopher": {
@@ -2858,7 +2684,6 @@
 			"",
 			"You study the outdoors, and leave books for dusty libraries. You can attempt Knowledge (geography) and Knowledge (nature) checks as if you were trained."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"nimble_fingers_keen_mind": {
@@ -2873,7 +2698,6 @@
 			"",
 			"Your study of clockwork mechanisms and other mechanical wonders grants you a +1 trait bonus on Disable Device checks, and Disable Device is a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"oathkeepers_vow": {
@@ -2885,7 +2709,6 @@
 			"",
 			"The clergy of Kols trained you to make unbreakable vows. You add the following spells to the paladin spell list at the indicated levels: {spell/command} (1st), {spell/forbid action} (1st), {spell/suggestion} (to fulfill a prior promise only; 2nd), {spell/lesser geas} (3rd), {spell/geas//quest} (4th)."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"opener_of_doors": {
@@ -2900,7 +2723,6 @@
 			"",
 			"Because of your devotion to Alseta, you are blessed with the ability to find hidden portals. You gain a +2 trait bonus on Perception checks to find secret doors."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"opportune_slayer": {
@@ -2912,7 +2734,6 @@
 			"",
 			"Those who open themselves to your attacks feel your wrath. You gain a +2 trait bonus on damage rolls against those you hit with attacks of opportunity."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"opportunistic": {
@@ -2927,7 +2748,6 @@
 			"",
 			"You have learned to recognize openings that your foes leave, and you know how to take advantage of them. You gain a +1 trait bonus on attacks of opportunity when using a dagger, sword, or whip."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"pain_is_pleasure": {
@@ -2939,7 +2759,6 @@
 			"",
 			"You have discovered a hint of the dark truths that lay hidden within blood and flesh. You gain a +1 trait bonus on Fortitude and Will saves whenever you have fewer than half your maximum number of hit points."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"patient_optimist": {
@@ -2955,7 +2774,6 @@
 			"",
 			"You know that all things pass in time, and are used to having to repeat arguments multiple times to convince stubborn believers. You gain a +2 trait bonus on Diplomacy checks to influence hostile or unfriendly creatures, and if you fail at such an attempt, you may retry it once."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"planar_wayfarer": {
@@ -2967,7 +2785,6 @@
 			"",
 			"The countless natural hazards of the planes cannot deter you from witnessing their grandeur. Once per day you can meditate on the nature of the planes for 1 hour to gain energy resistance 2 against acid, cold, electricity, fire, or sonic damage. This resistance lasts 24 hours or until you perform this meditation again and choose a new resistance."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"poisonous_slayer": {
@@ -2979,7 +2796,6 @@
 			"",
 			"You know the secret of plunging a poisoned weapon in just the right spot. You gain a +1 trait bonus on attack rolls when you are wielding a weapon treated with poison."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"potent_concoctions": {
@@ -2994,7 +2810,6 @@
 			"",
 			"You have dedicated your life to honoring famine and disease. Choose any two [poisons](main/equipment_poisons); when you attempt to inflict either of these poisons on an enemy, the DC to resist it increases by 1."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"practiced_deception": {
@@ -3009,7 +2824,6 @@
 			"",
 			"You gain a +1 trait bonus on Disguise checks, and you can apply and remove a disguise in half the normal time."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"pristine_reputation": {
@@ -3021,7 +2835,6 @@
 			"",
 			"You come from an especially esteemed family, religious order, school, or other group that worships Shizuru, and draw upon that tradition to maintain your identity. The first time each day that you fail a saving throw against a charm or compulsion effect, you can reroll that saving throw. If you do so, you gain a +2 trait bonus on this roll and use this result as the actual result for that saving throw."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"propitiation": {
@@ -3036,7 +2849,6 @@
 			"",
 			"Your knowledge of the dwarven pantheon tells you precisely which gods have jurisdiction over which aspects of your life, and you can call upon the appropriate deity for help even if that deity is not your patron. At the start of each day, pick one of the following skills: Appraise, Bluff, Craft (pick one craft skill), Diplomacy, Intimidate, or Knowledge (local). You gain a +2 trait bonus on that skill until the start of the next day."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"protective_faith": {
@@ -3048,7 +2860,6 @@
 			"",
 			"Your faith in the Father of Creation strengthens your ability to shield others. When you use the aid another action to grant your ally a bonus to AC, you grant a +3 bonus to AC instead of the normal +2."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"provider": {
@@ -3061,7 +2872,6 @@
 			"",
 			"Few things exalt your faith more than feeding the hungry with your own honest sweat. You gain a +1 trait bonus on any d20 roll to acquire food or water for others. Though this bonus most often applies to Survival checks, it could also apply to attacking monsters that are safe and nutritious to eat (mainly animals and plants). However, Erastil takes a dim view of waste and of those who scorn his favor, and if you abuse this gift (for example, by using the bonus to defeat a bear, then only eating one bite of it), he punishes you with a -2 penalty on attacks, checks, and saves for 24 hours."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"purity_of_faith": {
@@ -3076,7 +2886,6 @@
 			"",
 			"Your soul is free from impurity, and you are deeply committed to fulfilling your duties to the church. You gain a +1 trait bonus on Will saving throws and a +1 trait bonus on saving throws against spells and effects originating from an outsider with the evil subtype."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"reckless_luck": {
@@ -3088,7 +2897,6 @@
 			"",
 			"Like your deity, you charge in when others fall back. When you make a charge attack in the surprise round or first round of combat, you gain a +2 trait bonus to your AC for 1 round."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"redeemed_by_ragathiel": {
@@ -3100,7 +2908,6 @@
 			"",
 			"You were born into a family, nation, or other group that tried to impress evil ideals upon you, but you were inspired by Ragathiel to live a moral life despite their influence. You gain a +2 trait bonus on Sense Motive checks to see through an evil creature's Bluff attempts."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"regal_presence": {
@@ -3112,7 +2919,6 @@
 			"",
 			"You've always had a presence that people respect. You gain a +1 trait bonus on Diplomacy checks, and Diplomacy is a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"rejected_emperor": {
@@ -3123,7 +2929,6 @@
 			"",
 			"When you were young, your parents presented you to the oracles of Po Li, claiming a divine sign showed you were the reincarnation of Lung Wa's Eternal Emperor. The oracles did not support the claim, but you are not untouched by celestial influence. You may use Knowledge (nobility) or Knowledge (religion) in place of Knowledge (planes) to identify outsiders, and nonevil outsiders you encounter begin with an attitude that is one step better than normal."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"relentless_duty": {
@@ -3135,7 +2940,6 @@
 			"",
 			"You were raised with the mantra that fulfilling your duty must always come first. Now living up to a promise comes as easily as breathing. Once per day, you can take 10 on a skill check attempted as part of fulfilling a prior promise even if you are distracted or in combat."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"resigned": {
@@ -3147,7 +2951,6 @@
 			"",
 			"Existence is little more than unending toil. By laboring unto exhaustion, greatness can be achieved. You receive a +1 trait bonus when retrying a previously failed skill check or ability check, as well as when taking 20 on skill checks and ability checks."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"resilient_martyr": {
@@ -3159,7 +2962,6 @@
 			"",
 			"You interposed yourself between an innocent and a dangerous evil monster or force, lost a great deal of blood as a result, and barely survived. Now, your blood seems to replenish with blessed speed, a sure sign of Vildeis's favor. You recover twice as many hit points and points of ability damage as normal when you rest, or three times as many when you take total bed rest."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"restless_hunger": {
@@ -3172,7 +2974,6 @@
 			"",
 			"If you have a piece of food (or something a goblin might consider food), you can quickly eat it as part of a charge attack once per day. Doing so increases your speed by 10 feet for 1 round."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"river_freedom": {
@@ -3187,7 +2988,6 @@
 			"",
 			"The freedom of water inspires you. While touching flowing water, you gain a +2 trait bonus on saving throws against effects that would hamper your movement."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"rousing_courage": {
@@ -3199,7 +2999,6 @@
 			"",
 			"A dwarven warrior's simple act of courage in Angradd's name inspired you during one of your first battles. Now, you strive to be equally inspiring to others. Once per day, when you generate an effect that grants a morale bonus, increase that bonus by 1 for all creatures affected."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"sacred_avenger": {
@@ -3212,7 +3011,6 @@
 			"",
 			"You have a special connection between you and Calistria that enhances your ability to achieve vengeance. When a creature damages you with a weapon, on your next turn you gain a +1 trait bonus on weapon damage against that creature. If this creature is your *ilduliel* (a personal, mutual nemesis), this bonus increases to +2."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"sacred_orienteer": {
@@ -3224,7 +3022,6 @@
 			"",
 			"You have traveled far with only your compass and faith as your guides. You begin play with a compass, and any compass or wayfinder in your possession also functions as a holy symbol of Elion. Either Knowledge (geography) or Survival becomes a class skill for you. Once per day you can consult your compass or wayfinder as a full-round action to gain a +2 trait bonus on one Knowledge (geography) or Survival check."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"sacred_smasher": {
@@ -3236,7 +3033,6 @@
 			"",
 			"Your love of carnage extends even to the defenseless, inanimate objects around you. Whenever you make an attempt to break an object, you receive a +2 trait bonus on your Strength check."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"scaly_ally": {
@@ -3251,7 +3047,6 @@
 			"",
 			"Because of your devotion to Apsu, you gain a +2 trait bonus on Diplomacy checks involving reptiles or those of draconic blood, whether they are good-aligned or not."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"scarred_by_war": {
@@ -3263,7 +3058,6 @@
 			"",
 			"You have experienced firsthand the horrors of war, which have left you physically or mentally scarred. Now you have committed yourself to the teachings of the Blessed Attendant, seeking to heal those wounded in combat and to prevent battles from occurring whenever you can. You gain a +1 trait bonus on Diplomacy checks outside of combat. In addition, when you heal creatures other than yourself using class abilities, feats, spells, and spell-completion or spell-trigger magic items, you restore 1 additional hit point."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"searing_beacon": {
@@ -3276,7 +3070,6 @@
 			"",
 			"You deal additional precision damage equal to your Wisdom modifier when you score a critical hit with a melee weapon against an undead opponent."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"secret_knowledge": {
@@ -3291,7 +3084,6 @@
 			"",
 			"At any point after taking this trait, you may choose one Knowledge skill. You gain a permanent +2 trait bonus on checks with that skill, and it is a class skill for you. Once this skill is chosen, it cannot be changed."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"seer_of_reality": {
@@ -3306,7 +3098,6 @@
 			"",
 			"You have a deep understanding of the world around you, and thus you are more perceptive about what belongs and what does not. You gain a +2 trait bonus on saving throws against illusion magic."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"self_sacrifice": {
@@ -3319,7 +3110,6 @@
 			"",
 			"You honor your goddess through your willingness to take risks for those you care about. As a move action, you can use your own body to grant soft cover to an adjacent ally regardless of the difference in your respective sizes."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"sense_of_order": {
@@ -3332,7 +3122,6 @@
 			"",
 			"Your ability to notice even the slightest change, and the discomfort it causes, made service to Abadar a logical choice. You gain a +3 trait bonus on any Perception check made to identify any changes to a location that have occurred since you last visited it."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"sensing_imperfection": {
@@ -3345,7 +3134,6 @@
 			"",
 			"Your belief in Irori has honed your ability to recognize when someone lies or dissembles. Sense Motive is a class skill for you, and you gain a +1 trait bonus on Sense Motive checks."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"serpentine_squeeze": {
@@ -3360,7 +3148,6 @@
 			"",
 			"You gain a +1 trait bonus on combat maneuver checks to grapple a foe, as well as a +1 trait bonus to your CMD whenever an opponent tries to grapple you."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"shadow_whispers": {
@@ -3372,7 +3159,6 @@
 			"",
 			"You have a penchant for just knowing others' secrets. You gain a +1 trait bonus on Knowledge (local) checks and a +2 trait bonus on Intimidate checks made to demoralize opponents."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"shaper_of_reality": {
@@ -3384,7 +3170,6 @@
 			"",
 			"You can mimic the Eldest's ability to reshape the world. Once per day, you can cast either a conjuration spell or a transmutation spell at +1 caster level."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"shared_ancestors": {
@@ -3396,7 +3181,6 @@
 			"",
 			"Through your detailed study of your own lineage, you can better understand and honor even your most distant relatives. You gain a +1 trait bonus on Diplomacy, Knowledge (history), Knowledge (local), Knowledge (nobility), and Sense Motive checks associated with any creature who shares your type and at least one of your subtypes. One of these skills becomes a class skill."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"shield_trained": {
@@ -3408,7 +3192,6 @@
 			"",
 			"You were trained to use shields as weapons. Heavy and light shields are considered simple weapons rather than martial weapons for you. Heavy shields are considered light weapons for you."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"sovyrian_pantheist": {
@@ -3421,7 +3204,6 @@
 			"",
 			"Strongly influenced by the elves' mysterious other realm, you embrace obscure elven deities that have little influence on Golarion. You gain a +1 trait bonus on Knowledge (history) checks to recognize or evaluate art, Knowledge (architecture and engineering) checks, Survival checks to hunt game, Constitution checks to run, and Spellcraft checks involving crystals or gems."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"spirit_guide": {
@@ -3436,7 +3218,6 @@
 			"",
 			"As someone who has performed or observed funeral rites for a wide variety of people, you have a basic understanding of many different religions. You gain a +2 trait bonus on Knowledge (religion) checks, and Knowledge (religion) is a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"spirit_talker": {
@@ -3448,7 +3229,6 @@
 			"",
 			"You are a devotee of the shamanistic practices of the Mwangi, having little use for the deities of the colonials. You gain a +1 racial bonus on Will saves against divine spells and spell-like effects employed against you by clerics or paladins of Aroden, Abadar, Iomedae, Gozreh, and Shelyn - but you suffer a -1 penalty on Will saves against divine spells cast by devotees of Mwangi faiths."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"split_second_defense": {
@@ -3460,7 +3240,6 @@
 			"",
 			"When you are the target of an attack by an opponent that is flanking you, as an immediate action once per day you can foil that opponent's attack. For that attack, the opponent does not gain any of the bonuses or effects that are associated with flanking."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"stabilizing_touch": {
@@ -3472,7 +3251,6 @@
 			"",
 			"You were born with the ability to stop the passage to death's door. Once per day, you can use {spell/stabilize} as a spell-like ability, but with a range of touch."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"starchild": {
@@ -3488,7 +3266,6 @@
 			"",
 			"Desna sensed your love of travel and promised you would always be able to find your way home. You can automatically determine where true north is. You gain a +4 trait bonus on Survival checks to avoid becoming lost."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"starlit_hexer": {
@@ -3500,7 +3277,6 @@
 			"",
 			"Your spellcasting powers are infused with the powers of the occult Outer Gods. Whenever you cast a spell or spell-like ability with the curse descriptor, increase the DC of the spell's saving throw by 1. If you cast such a spell or spell-like ability at night, as long as the sky is clear and the stars are visible, treat your caster level as 1 higher when determining the spell's duration."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"steady_strength": {
@@ -3512,7 +3288,6 @@
 			"",
 			"Your strength training conditioned you to wearing heavy armor. When you wear medium or heavy armor, your armor check penalty on Strength-based skills is reduced by 2."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"stoic_optimism": {
@@ -3527,7 +3302,6 @@
 			"",
 			"You realize that accepting the pain in life accentuates its joys by contrast, and so your hope sustains you where others despair. You receive a +2 trait bonus on saving throws against fear effects."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"strength_of_the_barghest": {
@@ -3540,7 +3314,6 @@
 			"",
 			"The blood of the barghests is strong in you. Once per day as a free action, you can gain a +2 trait bonus on any Strength check or Strength-based skill check."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"strength_of_the_sun": {
@@ -3552,7 +3325,6 @@
 			"",
 			"You take solace in the purifying light of the sun. During the day, you gain a +1 trait bonus on all Charisma-based checks."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"strengths_fanfare": {
@@ -3564,7 +3336,6 @@
 			"",
 			"Songs of your glory and prowess bolster your strength. When you are the subject of any sonic effect that grants a morale bonus on attack or damage rolls, you also gain a +1 trait bonus on Strength-based skill checks; on combat maneuver checks to bull rush, grapple, and reposition; and to your CMD against those combat maneuvers."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"strict_judgment": {
@@ -3576,7 +3347,6 @@
 			"",
 			"Your respect for the letter of the law bleeds into your spellcasting. Any spells you cast that prescribe certain behaviors with a consequence for breaking these directives (such as mark of justice or geas) have their save DC increased by 1."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"strip_the_veils": {
@@ -3591,7 +3361,6 @@
 			"",
 			"You are unusually perceptive when dealing with others. You gain a +1 trait bonus on Sense Motive checks, and Sense Motive is a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"strong_heart": {
@@ -3606,7 +3375,6 @@
 			"",
 			"You can stand firm against even the most terrifying foes. You gain a +1 trait bonus on saves against fear effects, and the DC of Intimidate checks against you increases by 2."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"strong_swimmer": {
@@ -3621,7 +3389,6 @@
 			"",
 			"Your faith in Gozreh's grace gives you the confidence to swim without fear. You gain a +2 trait bonus on Swim checks, and can hold your breath for an extra 2 rounds when underwater."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"strong_willed": {
@@ -3636,7 +3403,6 @@
 			"",
 			"Your fervent desire to choose your own path gives you strong willpower. You receive a +2 trait bonus on saving throws against charm and compulsion effects."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"structural_knowledge": {
@@ -3648,7 +3414,6 @@
 			"",
 			"You are blessed with an insight into architecture and artifice. You gain a +1 trait bonus on Knowledge (engineering) checks, and Knowledge (engineering) is a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"talented_organizer": {
@@ -3663,7 +3428,6 @@
 			"",
 			"You are both skilled and knowledgeable when at putting together strong resistance organizations, thanks to your keen sense of how to motivate people. You gain a +1 trait bonus on Sense Motive skill checks, and Sense Motive is a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"the_city_protects": {
@@ -3675,7 +3439,6 @@
 			"",
 			"You feel safe and secure in urban environments, even in cities whose laws you find unjust - it is the physical fact of the city that you take solace in. In any settlement, you gain a +2 trait bonus against fear effects. If you fail a save against a fear effect, you may make a new save each round you remain in the city to overcome the fear effect as long as the fear effect persists. If you are a paladin, this ability to make additional saves to overcome fear extends to all allies within your aura of courage."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"the_flexing_arm": {
@@ -3690,7 +3453,6 @@
 			"",
 			"You are practiced at using physical might to escape your bonds. You can use Strength instead of Dexterity as your base ability for Escape Artist skill checks to free yourself from bondage. Additionally, you gain a +1 trait bonus on such Escape Artist checks."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"thirst_for_knowledge": {
@@ -3702,7 +3464,6 @@
 			"",
 			"You have a need to bring old knowledge into the light, no matter what language it's written in. You gain a +1 trait bonus on Linguistics checks, and Linguistics is a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"thrill_seeker_isg": {
@@ -3714,7 +3475,6 @@
 			"",
 			"Desna has blessed you not just with a love of taking chances, but also the fortune to come out of such risky situations unscathed. Once per day, when you attempt an Acrobatics check, you can roll twice and take the better result. You must choose to use this ability before making the check."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"toilcrafter": {
@@ -3726,7 +3486,6 @@
 			"",
 			"You can craft passable if inferior magical weapons, armors, and shields through diligence and toil. Choose one Craft or Profession skill in which you have at least 1 rank. Ranks in your chosen skill count as your caster level for the purpose of qualifying for the {feat/Craft Magic Arms and Armor} feat. You may craft +1 armor, weapons, or shields (with no special qualities), substituting your rank in the chosen skill for your caster level. You must use the chosen skill for the check to create the item. Crafting in this fashion takes twice as long as normal. These items cannot be upgraded with new abilities."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"twisted_transformations": {
@@ -3738,7 +3497,6 @@
 			"",
 			"Whenever you are affected by a transmutation spell of the polymorph subschool, your new form is always in some way horrific, grotesque, or otherwise marked by the corruption of the Great Old Ones. While polymorphed, you gain a +2 trait bonus on Intimidate checks and increase the DC of spells you cast with the fear descriptor by 1. However, you also take a -2 penalty on Diplomacy checks while polymorphed."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"undead_slayer_pharasma": {
@@ -3753,7 +3511,6 @@
 			"",
 			"Instructed at a young age in the tenets of the faith of Pharasma, you view the undead as abominations that must be destroyed so their souls can journey beyond to be judged. You gain a +1 trait bonus on weapon damage rolls against undead."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"under_siege": {
@@ -3765,7 +3522,6 @@
 			"",
 			"In order to maintain your devotion to Sarenrae in Taldor and stay alive, you and your fellow worshipers developed a complex system of hand signs and facial gestures to identify yourselves as faithful in the Cult of the Dawnflower. You gain a +1 trait bonus on Bluff and Sense Motive checks. One of these skills (your choice) is always a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"underlying_principles": {
@@ -3780,7 +3536,6 @@
 			"",
 			"You've spent a large amount of time around magical items, and understand the similarities between many of them. You gain a +1 trait bonus on Use Magic Device checks, and Use Magic Device is a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"unhinged_mentality": {
@@ -3795,7 +3550,6 @@
 			"",
 			"Your goddess-granted madness gives you a +2 trait bonus on saving throws against confusion, insanity, and fear effects."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"unspeakable_bond": {
@@ -3810,7 +3564,6 @@
 			"",
 			"You are an ally of the unclean creatures of the world, and gain a +2 trait bonus on Diplomacy checks when dealing with creatures of the aberration type."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"unswaying_love": {
@@ -3822,7 +3575,6 @@
 			"",
 			"Your resolute devotion to the unadulterated purity of your goddess protects you from those who would manipulate you. You gain a +2 trait bonus on saving throws against charm or compulsion effects."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"veils_upon_veils": {
@@ -3834,7 +3586,6 @@
 			"",
 			"You have learned a holy secret that makes your illusions more powerful. Once per day when casting an illusion spell, you can do so at +1 caster level."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"venom_drenched": {
@@ -3847,7 +3598,6 @@
 			"",
 			"You have nothing to fear from one sort of poison. In fact, you can actually drink the toxic brew in order to make your blood dangerous. You are immune to one specific nonmagical poison. If you ingest a dose of that poison (even if it is a contact, inhaled, or injury poison), it remains in your system for 24 hours; any creature that bites you during that time is subject to the poison's effects."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"veteran_of_battle": {
@@ -3862,7 +3612,6 @@
 			"",
 			"You have fought in several battles, and each time felt the presence of Gorum guiding your sword-arm, making you ready to act at a moment's notice. You gain a +1 trait bonus on initiative checks, and if you are able to act during a surprise round, you may draw a weapon (but not a potion or magic item) as a free action during that round."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"vindictive_strike": {
@@ -3874,7 +3623,6 @@
 			"",
 			"Once per day during a combat encounter, you can choose to gain a +1 trait bonus on a single attack roll against the creature that last hit you."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"voice_of_monsters": {
@@ -3886,7 +3634,6 @@
 			"",
 			"Your faith leads you to see the power and wonder in even the most horrible abominations. Once per day, you can cast speak with animals. When you cast this spell, it can affect animals (as normal) as well as aberrations and magical beasts with an Intelligence of 2 or lower."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"wasp_whisperer": {
@@ -3899,7 +3646,6 @@
 			"",
 			"Your association with Calistria's church has toughened your flesh against venom and blessed you with the ability to influence wasps and similar insectile vermin. You gain a +1 trait bonus on Fortitude saving throws against poison. You may make Diplomacy checks (or {ability/wild empathy} checks if you are a druid or ranger) to improve a Hostile or Unfriendly insectile vermin's attitude toward Indifferent."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"wedded_bliss": {
@@ -3911,7 +3657,6 @@
 			"",
 			"Your commitment to your own marriage or your burning desire to be wed grants you a +2 trait bonus on saving throws against charm and compulsion effects."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"well_prepared": {
@@ -3923,7 +3668,6 @@
 			"",
 			"Angradd teaches that a good offense can be the best defense. You gain a +1 trait bonus on attack rolls made as part of a readied action, and a +1 trait bonus on caster level checks when casting a spell as a readied action."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"wisdom_in_the_flesh": {
@@ -3939,7 +3683,6 @@
 			"",
 			"Your hours of meditation on inner perfection and the nature of strength and speed allow you to focus your thoughts to achieve things your body might not normally be able to do on its own. Select any Strength-, Constitution-, or Dexterity-based skill. You may make checks with that skill using your Wisdom modifier instead of the skill's normal ability score. That skill is always a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"wise_teacher": {
@@ -3954,7 +3697,6 @@
 			"",
 			"You are skilled in passing along knowledge of rural matters. If you have 4 or more ranks in Knowledge (Nature) or Survival, when you aid another with these skills, you grant a +4 bonus on the check you are aiding instead of the normal +2."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"wolf_cub": {
@@ -3967,7 +3709,6 @@
 			"",
 			"Your body has clumps of ugly fur, a sure sign of wolf blood! You win! Once per day as a standard action, you can take a deep breath through your nose to gain the scent ability for 1 minute."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"worthless_pawn": {
@@ -3979,7 +3720,6 @@
 			"",
 			"Your existence is so meaningless to your chosen patron that it cares nothing for how you wield its power. You may prepare and cast spells whose alignment is in opposition to your patron's, but doing so causes you to take 1 point of Wisdom damage per spell level when the spell is cast. This does not permit you to use spell trigger or completion items of opposing alignments."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"wrecking_wrath": {
@@ -3991,7 +3731,6 @@
 			"",
 			"Your ferocity is devastating, sometimes even to your own weapons. Once per day, after successful hitting a foe with a melee weapon, you can add your Strength modifier to the damage roll a second time (your Strength Modifier is not doubled if you are using a two-handed weapon). Doing so has a 25% chance of giving your weapon the broken condition."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"wronged": {
@@ -4003,7 +3742,6 @@
 			"",
 			"Somewhere in your past, you were taken advantage of because of your gender. You gain a +2 trait bonus on Sense Motive checks against male creatures of your race, and the DC for men to intimidate you increases by 2."
 		],
-		"category": "-",
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
 	"anxious": {

@@ -8,7 +8,6 @@
 			"",
 			"You never felt like you belonged in your family. You were different, an outsider, and you grew up unable to bond with the people around you. Now, as an adult, you are still a little odd and others have a hard time understanding what makes you tick. You receive a +1 trait bonus on saving throws made to resist charm and compulsion effects."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"celestial_community": {
@@ -20,7 +19,6 @@
 			"",
 			"Having been raised among other aasimars, you have a stronger connection to your planar heritage than most of your kind, and have more thoroughly explored your magical talent. You may expend your once per day spell-like ability to spontaneously cast cure light wounds (CL equal to your character level), but doing so is draining and you take an amount of nonlethal damage equal to half the number of hit points you heal."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"celestial_contact": {
@@ -32,7 +30,6 @@
 			"",
 			"Witnessing a celestial intervention by your ancestor or a similar being inspired you with the power of good. Treat your caster level as 1 higher when you cast spells with the good descriptor."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"clergy_member": {
@@ -44,7 +41,6 @@
 			"",
 			"You belong to a particular faith, and your religious leaders see you as a mortal aspect of their deity. You are treated with respect and graciousness whenever you visit a temple of your faith. You receive a +1 trait bonus on Diplomacy checks when interacting with ordained members of your religion, and once per week you can request aid from a temple of your faith. The GM has final say in what sort of aid you can reasonably request, but in general you may ask for the casting of a 1st-level spell or for a nonmagical item worth 50 gp or less."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"ethical_leader": {
@@ -56,7 +52,6 @@
 			"",
 			"You attract followers who agree with your philosophical outlook on life. Your followers and cohorts are more willing to serve you because of their confidence in your strong moral position. You gain a +1 trait bonus to your Leadership score if all your cohorts and followers have an alignment within one step of your alignment."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"faith_healer": {
@@ -68,7 +63,6 @@
 			"",
 			"You have an unearthly appearance and soothing aura about you that make people believe you are gifted with divine powers. You learned at a young age to make use of your gift in order to make money, and you've found ways to ethically justify your work. You can make a Heal check weekly to earn money as though making a Profession check. In addition, you gain a +1 trait bonus on Heal checks."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"idealized_campaigner": {
@@ -80,7 +74,6 @@
 			"",
 			"Your celestial bloodline leads others to idealize you from afar. You gain a +1 trait bonus on all Charisma-based skill checks to interact with good-aligned creatures who have never met you before."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"innocent": {
@@ -92,7 +85,6 @@
 			"",
 			"No one can believe someone as pure as you could be deceptive in any way. You have an air of innocence about you, and people have a hard time believing you could ever do anyone harm. When you make a Bluff check to tell a lie, your target always wants to believe you, granting you the standard +5 bonus on your Bluff check. This bonus only applies if the lie you tell is either believable or unlikely."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"martyrs_blood": {
@@ -104,7 +96,6 @@
 			"",
 			"You carry the blood of a self-sacrificing celestial, and strive to live up to your potential for heroism. As long as your current hit point total is less than half of your maximum hit points possible, you gain a +1 trait bonus on attack rolls against evil foes."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"planar_negotiator_boa": {
@@ -116,7 +107,6 @@
 			"",
 			"You are skilled at convincing outsiders that you require their aid. Whenever you cast {spell/lesser planar ally}, {spell/planar ally}, or {spell/greater planar ally}, you receive a 10% discount on the monetary cost required by the summoned outsiders. This bonus has no effect on services the outsiders may demand in order to strike a bargain."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"selective_health": {
@@ -128,7 +118,6 @@
 			"",
 			"You are resistant to most illnesses that strike those around you, but vulnerable to the contagions of evil. You gain a +2 trait bonus on Fortitude saves against diseases. However, whenever you must make a Fortitude saving throw against a disease inflicted by an undead creature or evil outsider (such as mummy rot or a vrock's spores), you do not gain this bonus, and instead take a -2 penalty on your Fortitude save."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"wary_boa": {
@@ -140,7 +129,6 @@
 			"",
 			"You grew up around people who were jealous of and hostile toward you. Perhaps your parents were not pleased to have a child touched by the divine - they may have berated or beaten you, or even sold you into slavery for an exorbitant price. You grew up mistrustful of others and believing your unique appearance to be a curse. You gain a +1 trait bonus on Disguise and Sense Motive checks."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"celestial_tracker": {
@@ -152,7 +140,6 @@
 			"",
 			"You share the same talent for tracking evildoers that your angelic ancestor possessed. You gain a +1 trait bonus on Survival checks made to follow tracks. In addition, you treat trails as being up to 24 hours fresher than they actually are when using the Survival skill to follow tracks."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"planetars_visions": {
@@ -164,7 +151,6 @@
 			"",
 			"Ever since you were a child, you've experienced vivid dreams of cutting down hordes of shrieking, twisted demons. Whenever you succeed at a critical hit with a melee weapon against an evil outsider, you ignore an amount of the outsider's damage reduction (if any) equal to the critical multiplier of your weapon (this cannot reduce a creature's damage reduction to below 0)."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"burnished_skin": {
@@ -176,7 +162,6 @@
 			"",
 			"Sometime during your adolescence, you suffered severe burns in a devastating fire. Along with your scars, you developed the uncanny ability to tell what is and isn't real, gaining a +2 trait bonus on saving throws made to disbelieve illusions."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"pyromancer": {
@@ -188,7 +173,6 @@
 			"",
 			"You're especially adept at casting flame-based spells. You gain a +1 trait bonus on damage rolls for any spell you cast with the fire descriptor. Spells that do not deal damage do not benefit from this trait."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"enlightened_warrior": {
@@ -200,7 +184,6 @@
 			"",
 			"You have always found it easy to maintain inner peace and enlightenment that translate well to the battlefield. You may take levels in monk even while maintaining a neutral or neutral good alignment."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"speech_of_the_wilds": {
@@ -212,7 +195,6 @@
 			"",
 			"Like your agathion ancestor, you have a knack for communicating with other creatures, and you are adept at breaking down language barriers. You can speak one extra language."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"good_influence": {
@@ -224,7 +206,6 @@
 			"",
 			"You possess an innate ability to motivate and inspire others to do the right thing. You gain a +1 trait bonus on Diplomacy checks when attempting to persuade a nongood creature to make a decision that benefits the cause of good, and when persuading a nonlawful creature to make a decision in line with the laws of the region. These bonuses stack if you attempt to persuade a nongood, nonlawful creature to take a lawful good action."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"lantern_spirit": {
@@ -236,7 +217,6 @@
 			"",
 			"Your celestial ancestor was a lantern archon for centuries before ascending to a higher rank. You feel a strange sense of nostalgia whenever you use your continual flame spell-like ability, and can use it as a move action instead of a standard action."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"bralanis_step": {
@@ -248,7 +228,6 @@
 			"",
 			"Your ancestor was a bralani, an azata known for its untamed speed in battle. When in combat, you feel a fierce surge of energy through your limbs. Once per day, you may move an additional 5 feet as part of a move action."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"lillends_harp": {
@@ -260,7 +239,6 @@
 			"",
 			"Your ancestor was a lillend, a being of exceptional grace and singular musical talent. You gain a +1 trait bonus on Perform (string) checks. This bonus increases to +2 when you make a Perform check as part of a bardic performance."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"snake_hater": {
@@ -272,7 +250,6 @@
 			"",
 			"You've always loathed serpents and other slithering monsters, ever since you can remember, and have studied them extensively. You gain a +2 trait bonus on Knowledge (dungeoneering) checks and Knowledge (dungeoneering) is always a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"toxophilite": {
@@ -284,7 +261,6 @@
 			"",
 			"You've inherited some of your celestial ancestor's prowess with the bow, and gain a +2 trait bonus on attack rolls made to confirm critical hits with bows."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"blood_algorithm": {
@@ -296,7 +272,6 @@
 			"",
 			"Your inhumanity extends to your very core. Pain receptors were omitted during your construction, so you gain a +2 trait bonus on saving throws against spells with the pain descriptor. Additionally, once per day when you are healed by a spell that targets constructs (such as a make whole spell), you heal 1 extra hit point per level of the spell."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"cellular_match": {
@@ -308,7 +283,6 @@
 			"",
 			"Whenever you are affected by a polymorph spell or effect, your nanites adjust completely at a molecular level. For the duration of the polymorph effect, you are treated as only a humanoid for the purpose of effects that target creatures by type. For example, a ranger's {ability/favored enemy} bonus against constructs wouldn't apply to you while you are polymorphed, but nor would spells such as make whole. This trait modifies part of the android's constructed racial trait, but otherwise that trait is unchanged (a polymorphed android still can't gain morale bonuses, is still immune to fear, and so on)."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"experimental_escapee": {
@@ -320,7 +294,6 @@
 			"",
 			"You escaped an organization interested in finding out how your body works. You gain a +2 trait bonus on Escape Artist and Strength checks to break free of bonds, grapples, and the like."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"nanite_revival": {
@@ -332,7 +305,6 @@
 			"",
 			"You can instinctively activate your nanites to save your life. Once per day as an immediate action, you can command your nanites to stabilize you while you are dying, even while unconscious or helpless. This does not count as a use of your nanite surge ability."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"deathtouched": {
@@ -344,7 +316,6 @@
 			"",
 			"At some point you were tainted with the corruption of the undead, and you have gained some of their defenses. You gain either a +1 trait bonus on Fortitude saving throws or a +2 trait bonus on saving throws against mind-affecting effects (your choice)."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"fiend_blood": {
@@ -356,7 +327,6 @@
 			"",
 			"The blood of fiends taints your line, manifesting physically, though it may be barely noticeable. Choose one of the following skills: Bluff, Intimidate, or Knowledge (planes). You gain a +1 trait bonus on checks with that skill, and it is always a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"canopy_prowler": {
@@ -368,7 +338,6 @@
 			"",
 			"Growing up in the Mwangi Expanse, you learned to hunt from above, where your prey seldom searches for danger. You gain a +1 trait bonus on Climb checks, and Climb is always a class skill for you. If you possess the climber racial trait, you also gain a +1 trait bonus on Stealth checks while climbing."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"inquisitive_banterer": {
@@ -380,7 +349,6 @@
 			"",
 			"You are able to learn information by bombarding others with questions that come across as conversational. You gain a +1 trait bonus on Diplomacy checks. In addition, you can use Diplomacy to gather information in 1d2 hours instead of 1d4."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"jungle_opportunist": {
@@ -392,7 +360,6 @@
 			"",
 			"You trained with your clan to hunt large prey such as the dinosaurs of the Valashmai Jungle. When you grant an ally a bonus on an attack roll against a foe of Large or larger size due to flanking or the aid another action, that ally gains a +1 trait bonus on weapon damage rolls against that creature as well."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"bitter_heart": {
@@ -404,7 +371,6 @@
 			"",
 			"You share a sliver of your mother's supernatural hatred, gaining a +2 trait bonus to confirm critical hits."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"creative_manipulator": {
@@ -416,7 +382,6 @@
 			"",
 			"Once per day, you may reroll a Charisma check you just made. You must take the result of the second roll, even if it is worse."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"creepy": {
@@ -428,7 +393,6 @@
 			"",
 			"Your strange bearing unsettles others. You gain a +1 trait bonus on Intimidate checks and Intimidate is a class skill for you. You gain a +2 trait bonus on Diplomacy checks when interacting with hags."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"cruel_child": {
@@ -440,7 +404,6 @@
 			"",
 			"Your wicked bloodline shines through, manifesting as a sadistic bloodlust in battle. When you make a full-round attack with your claws, you gain a +1 trait bonus on the attack rolls."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"magic_in_the_blood": {
@@ -452,7 +415,6 @@
 			"",
 			"You possess natural magical ability. Select one of the following spells: {spell/bleed}, {spell/create water}, {spell/dancing lights}, {spell/detect good}, {spell/ghost sound}, {spell/putrefy food and drink}. You can cast this spell three times per day as a spell-like ability."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"switched_at_birth": {
@@ -464,7 +426,6 @@
 			"",
 			"You were traded for another child in infancy and remained unaware of your origin as a changeling until some recent tragedy revealed the truth. Now the guilt of knowing you live because another child met a horrible fate haunts you and drives you to push forward in that child's name. Once per day, you can attempt a Will saving throw in place of a Fortitude saving throw against a spell, effect, or condition."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"acknowledged_scion": {
@@ -476,7 +437,6 @@
 			"",
 			"You grew up in Nidal, Geb, or another place where your undead lineage was considered a mark of power. You gain a +1 trait bonus on Knowledge (nobility) and Knowledge (religion) checks. One of these skills (your choice) is a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"born_in_the_light": {
@@ -488,7 +448,6 @@
 			"",
 			"The circumstance of your birth and upbringing left little room to accommodate your weaknesses, and many hours toiling in broad daylight have decreased the severity of your innate hindrances. You gain a +2 bonus on checks and saves affected by the {feat/Endurance} feat (this bonus does not stack with the bonus granted by the Endurance feat). When your light sensitivity causes you to become dazzled, you do not take the -1 penalty on sight-based Perception checks."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"final_embrace": {
@@ -500,7 +459,6 @@
 			"",
 			"Like your undead ancestor, you possess an intense yearning for the touch of the living, and the hunger that dwells within you grants an unnatural strength to your grip. You gain a +2 trait bonus on grapple combat maneuver checks to pin an opponent."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"undead_slayer_bog": {
@@ -512,7 +470,6 @@
 			"",
 			"Filled with wrath against the monsters whose unclean blood makes you an outcast, you gain a +1 trait bonus on attack and damage rolls against undead creatures."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"half_forgotten_secrets": {
@@ -524,7 +481,6 @@
 			"",
 			"A whisper of knowledge was transferred to you at the time of your creation. You gain a +1 trait bonus on checks with two Knowledge skills of your choice, and one of these skills becomes a class skill."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"unidentifiable_appeal": {
@@ -536,7 +492,6 @@
 			"",
 			"The unnatural symmetry of your face gives you an attractiveness that is at once captivating but hard to quantify. You gain a +1 trait bonus on Disguise checks and a +1 trait bonus on Diplomacy checks made to influence those who would be attracted to you."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"old_before_your_time": {
@@ -548,7 +503,6 @@
 			"",
 			"Your fragile flesh shows signs of years not yet lived. Any creature trying to discern your true age must make a Perception or Sense Motive check opposed by your Bluff check; you gain a +5 trait bonus on this check. You gain a +2 trait bonus on Disguise checks if your disguise makes you look at least one age category older, and ignore the check penalty for disguising yourself as a different age category while doing so."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"thrall_spotter": {
@@ -560,7 +514,6 @@
 			"",
 			"Your heritage gives you an understanding of the powers of domination. You gain a +5 trait bonus on Sense Motive checks made to determine whether a creature is acting under the effects of a charm or compulsion."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"linguistic_genius": {
@@ -572,7 +525,6 @@
 			"",
 			"Words and letters say more to you than their writers ever intended. You gain a +1 trait bonus on Linguistics checks, and learn to speak and read one additional language from your list of racial languages. Linguistics is always a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"numerological_gift": {
@@ -584,7 +536,6 @@
 			"",
 			"Since birth you have had an intimate connection with a certain number. When you select this trait, roll 3d6. The resulting number becomes your numerological totem and can never be changed. Once per day, when you roll your totem number on a d20 (such as an attack roll, save, or skill check), you may treat that roll as if you had rolled a natural 20 on the die."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"mind_trapper": {
@@ -596,7 +547,6 @@
 			"",
 			"Your honeyed words are nearly impossible for your enchanted subjects to ignore. You gain a +2 trait bonus on Charisma checks to convince an ally enchanted by one of your charm spells (such as charm person or charm monster) to do things it wouldn't normally do."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"sensual_graces": {
@@ -608,7 +558,6 @@
 			"",
 			"Your unearthly beauty enchants those who court you. You gain a +2 trait bonus on Bluff checks made against humanoids who would be attracted to you."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"arcane_prodigy": {
@@ -620,7 +569,6 @@
 			"",
 			"Once per day as an immediate action, you can double the duration of one of your racial spell-like abilities, as if using the {feat/Extend Spell} metamagic feat."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"fleshwarp_exposure": {
@@ -632,7 +580,6 @@
 			"",
 			"Your body responds strongly to transmutations because you were exposed to fleshwarping magic. You gain a +1 trait bonus on saving throws against transmutation spells and effects. Transmutations you willingly accept affect you as though they were cast at 1 caster level higher for the purpose of determining duration."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"poisonous_upbringing": {
@@ -644,7 +591,6 @@
 			"",
 			"There were a few touchy moments in your education in the use of poisons. You gain a +2 trait bonus on all saves to resist poison effects."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"scheming_survivor": {
@@ -656,7 +602,6 @@
 			"",
 			"You survived a close relative's betrayal only through quick wits and a strong stomach. You gain a +1 trait bonus on Sense Motive checks and on saving throws against poison."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"vermin_driver": {
@@ -668,7 +613,6 @@
 			"",
 			"You were instructed in the subtle magic of enslaving vermin, and can train mindless vermin with the Handle Animal skill as if they were animals with an Intelligence score of 1."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"ancestral_grounds": {
@@ -680,7 +624,6 @@
 			"",
 			"You recall the dangers the dwarves faced during the Quest for Sky. You gain a +1 trait bonus on Knowledge (dungeoneering) checks and a +2 trait bonus on Knowledge (history) checks pertaining to the Quest for Sky. Select one of these skills to be a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"brewmaster": {
@@ -692,7 +635,6 @@
 			"",
 			"Your family brought the secrets of dwarven brewing to non-dwarven lands. Though this has given you skill in the brewer's craft, it's also earned you distrust among dwarven purists. You gain a +1 trait bonus on Profession (brewer) and Craft (alchemy) checks, but you take a -1 penalty on Diplomacy checks made to change the attitude of dwarves who know that your family has shared brewing secrets with non-dwarves."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"child_of_zolurket": {
@@ -704,7 +646,6 @@
 			"",
 			"You come from a family whose ancestors worked in the platinum mines near Tar Urkatka, now known as Zolurket. Your parents never explained why they've never returned to Zolurket, but they did make sure that you knew your way around a fight against undead foes. You gain a +1 trait bonus to weapon damage against undead."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"clearheaded": {
@@ -716,7 +657,6 @@
 			"",
 			"You see through deception and lies. You gain a +1 trait bonus on opposed checks against the Bluff and Disguise skills and a +1 trait bonus on saving throws against illusion effects."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"deep_marker": {
@@ -728,7 +668,6 @@
 			"",
 			"You've dared uncharted tunnels in pursuit of the gladdringgar (the chiseling of name-runes in subterranean depths). You gain a +1 trait bonus on Survival checks, and a +1 trait bonus on saving throws against fear effects."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"fungal_brewing": {
@@ -740,7 +679,6 @@
 			"",
 			"You gain a +2 trait bonus on Craft checks to create alchemical items, and can create nonmagical alchemical materials in 20% less time than normal."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"goldsniffer": {
@@ -756,7 +694,6 @@
 			"",
 			"Your keen senses lead you to hidden treasures. You gain a +2 trait bonus on Perception checks related to metals, jewels, and gemstones."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"grounded": {
@@ -768,7 +705,6 @@
 			"",
 			"You are well balanced, both physically and mentally. You gain a +2 trait bonus on balance-related Acrobatics checks, and a +1 trait bonus on Reflex saves."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"gunworker": {
@@ -780,7 +716,6 @@
 			"",
 			"You lived among the dwarven alchemists who work with firearm technology in Dongun Hold. You gain a +2 trait bonus on Craft checks involving firearms, explosives, and alchemical weapons that deal fire damage."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"insular_dwarf": {
@@ -792,7 +727,6 @@
 			"",
 			"You hail from one of the remote dwarven holds of the North, and have learned that the people of these harsh lands are as fickle as the weather. Experience has taught you that outsiders are not to be trusted. You gain a +2 trait bonus on Sense Motive checks, and Sense Motive is always a class skill for you, but you take a -1 penalty on Diplomacy checks with non-dwarves."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"militant_merchant": {
@@ -804,7 +738,6 @@
 			"",
 			"You know what it takes to get your goods to market and will stop at nothing to protect your products. Years of fending off thieves, cutthroats, and brigands have given you a sixth sense when it comes to danger. You gain a +1 trait bonus to Perception checks made to determine surprise, and Perception is always a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"ruthless": {
@@ -816,7 +749,6 @@
 			"",
 			"You never hesitate to strike a killing blow. You gain a +1 trait bonus on attack rolls to confirm critical hits."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"sky_quester": {
@@ -828,7 +760,6 @@
 			"",
 			"You grew up hearing stories of the lost Sky Citadels, and have sworn to find and reclaim one. You gain a +1 trait bonus on Knowledge (geography) and Knowledge (history) checks. One of these skills (your choice) is always a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"spellcasters_anathema": {
@@ -840,7 +771,6 @@
 			"",
 			"You see arcane magic as untrustworthy and its use as a calamity waiting to happen. You gain a +1 trait bonus on attack rolls against arcane spellcasters."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"tunnel_fighter": {
@@ -856,7 +786,6 @@
 			"",
 			"Caves and tunnels are a second home to you. While underground, you receive a +2 trait bonus on initiative checks and a +1 trait bonus on weapon damage rolls for critical hits (this damage is multiplied on a critical hit)."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"warsmith": {
@@ -868,7 +797,6 @@
 			"",
 			"You have an intuitive grasp of the weak points of metal and stone. You gain a +1 trait bonus to damage rolls against creatures and objects made primarily of clay, crystal, earth, metal, or stone. Knowledge (engineering) is a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"zest_for_battle": {
@@ -880,7 +808,6 @@
 			"",
 			"Your greatest joy is being in the thick of battle, and smiting your enemies for a righteous or even dastardly cause. Whenever you have a morale bonus to weapon attack rolls, you also receive a +1 trait bonus on weapon damage rolls."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"deathkeeper": {
@@ -892,7 +819,6 @@
 			"",
 			"You have lived for a time deep inside the necropolises of the pharaohs. Your exposure to undead creatures and their necromantic energies has strengthened your ability to resist the powers of the unliving. You gain a +1 trait bonus on saving throws against the supernatural abilities of undead creatures."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"sphinxfriend": {
@@ -904,7 +830,6 @@
 			"",
 			"You were raised near the lair of a proud sphinx. Well known for their wisdom, sphinxes are greatly respected by your people, and in times of uncertainty and crisis, their counsel has been invaluable. When you came of age, you were chosen to be the emissary between your settlement and the sphinx. Luckily for you, the proud creature enjoyed your company, and in addition to bartering for information, you learned to enjoy the riddles of your noble friend. As a result of your experiences, you gain a +1 trait bonus on Diplomacy checks, Linguistics skill checks made to decipher writing in an unfamiliar language, and Sense Motive checks made to discern secret messages."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"arcane_dabbler": {
@@ -916,7 +841,6 @@
 			"",
 			"Though your magical studies were decades ago, you still remember your favorite little trick. Choose a 0-level arcane spell. You may cast that spell once per day as a spell-like ability. Your caster level is equal to your highest class level in a spellcasting class; if you have no caster level, it functions at CL 1st. The spell-like ability's save DC is Intelligence- or Charisma-based (chosen when you select this trait)."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"dilettante_artist": {
@@ -928,7 +852,6 @@
 			"",
 			"Art for you is a social gateway and you use it to influence and penetrate high society. You gain a +1 trait bonus to one category of Perform checks and a +1 trait bonus to Diplomacy checks. One of these skills (your choice) is always a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"forlorn": {
@@ -944,7 +867,6 @@
 			"",
 			"Having lived outside of traditional elf society for much or all of your life, you know the world can be cruel, dangerous, and unforgiving of the weak. You gain a +1 trait bonus on Fortitude saving throws."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"insular_elf": {
@@ -956,7 +878,6 @@
 			"",
 			"After living among non-elves for a time, you developed a dismissive attitude toward rash, shorter-lived races. You gain a +2 trait bonus on Will saving throws against charm, compulsion, and fear effects created by humanoids other than elves."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"keeper_of_the_secret_shame": {
@@ -968,7 +889,6 @@
 			"",
 			"You are a member of the [Lantern Bearers](rule/aff_lights) or an agent of the Winter Council, tasked with ensuring that knowledge of the elves' secret shame - the drow - never reaches the surface. You gain a +2 trait bonus on Knowledge checks pertaining to drow and drow settlements."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"lapsed_faith": {
@@ -980,7 +900,6 @@
 			"",
 			"You still remember a few prayers from your past experience serving in a temple. Once per day you may cast {spell/cure light wounds} as a spell-like ability at caster level 1. The save DC is Wisdom-based."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"planetary_traveler": {
@@ -992,7 +911,6 @@
 			"",
 			"You take every opportunity to learn about or visit far-off planets. You gain a +1 trait bonus on Knowledge (geography), Knowledge (local), and Knowledge (nature) checks regarding other planets."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"seeker_of_brightness": {
@@ -1004,7 +922,6 @@
 			"",
 			"You have been actively searching for signs of the Brightness since childhood. Choose a Knowledge skill; you gain a +1 trait bonus on Knowledge checks of that type and on Search checks."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"sovyrian_intellectual": {
@@ -1016,7 +933,6 @@
 			"",
 			"Having grown up in one of the intellectual centers of Castrovel, you speak precisely and persuasively, especially among elves. You gain a +1 trait bonus on Diplomacy checks. This bonus increases to +3 against creatures with the elf subtype."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"tropical_botanist": {
@@ -1028,7 +944,6 @@
 			"",
 			"You are familiar with beneficial and dangerous plants. You gain a +1 trait bonus on Knowledge (nature) checks to locate or identify plants and on saving throws against the extraordinary abilities of plants."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"warrior_of_old": {
@@ -1044,7 +959,6 @@
 			"",
 			"As a child, you put in long hours on combat drills, and though time has made this training a dim memory, you still have a knack for quickly responding to trouble. You gain a +2 trait bonus on initiative checks."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"wild_stride": {
@@ -1056,7 +970,6 @@
 			"",
 			"Choose a favored terrain from those listed in the ranger {ability/favored terrain} class ability. You can move through naturally occurring difficult terrain without any penalty while within your favored terrain. Terrain created or modified by magic or traps affects you normally."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"youthful_mischief": {
@@ -1068,7 +981,6 @@
 			"",
 			"Though you gave up the life of a padfoot, scout, or minstrel decades before, you still know how to roll with the punches when things turn sour. You gain a +1 trait bonus on Reflex saves."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"obscure_traditions": {
@@ -1080,7 +992,6 @@
 			"",
 			"You confound those who think they know about elves. Any creature attempting to make a Knowledge check about your people, a Sense Motive check to determine whether you are lying, or a Survival check to track you takes a -2 penalty on the check. Additionally, any character or creature that normally gains a bonus on attack or damage rolls against elves (such as a ranger's {ability/favored enemy} ability) has such a bonus reduced by 1 (minimum 0)."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"snowblooded": {
@@ -1092,7 +1003,6 @@
 			"",
 			"Your family has a long tradition of producing excellent sentries and twilight speakers. You gain a +4 trait bonus on Fortitude saving throws made to avoid nonlethal damage from cold environments, and gain a +1 trait bonus on saving throws against spells with the cold descriptor."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"adaptable_flatterer": {
@@ -1104,7 +1014,6 @@
 			"",
 			"A life spent avoiding racial mistrust has taught you to humor others effectively when it is useful to do so. You gain a +1 trait bonus on Bluff checks and on attack rolls against opponents who are denied their Dexterity bonus to AC against you."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"murky_allegiance": {
@@ -1116,7 +1025,6 @@
 			"",
 			"You came of age in a place where fetchlings serve dark forces. You gain a +2 trait bonus on Bluff checks to send secret messages and to imply you serve a powerful sinister conspiracy, evil authority figure, or shadow government. You also gain a +2 trait bonus on Diplomacy checks when interacting with such entities."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"shadow_stalker": {
@@ -1128,7 +1036,6 @@
 			"",
 			"You are dedicated to mastering the art of hiding in the shadows. Increase the miss chance gained from your shadow blending ability by 5%."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"weathered": {
@@ -1140,7 +1047,6 @@
 			"",
 			"Because of your natural resistances, you gain a +2 trait bonus on saves to resist cold or electricity effects and hazards."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"creative_reality": {
@@ -1152,7 +1058,6 @@
 			"",
 			"Straightforward answers bore you, for they only encourage people to depend on others rather than find out for themselves. You have grown adept over the years at convincing people of falsehoods and couching your honest answers in so much doublespeak they may as well be lies. You gain a +1 trait bonus on Bluff checks, which increases to +5 when attempting to convince someone an honest answer is a falsehood."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"frustrating": {
@@ -1164,7 +1069,6 @@
 			"",
 			"You can get anyone's attention, even when they are focused elsewhere. You can make Bluff checks to create a diversion for allies within 30 feet to hide (provided they readied an action to hide), and you can make Bluff checks to feint for one adjacent ally of your choice. Either use of this ability is a standard action."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"genie_heir": {
@@ -1176,7 +1080,6 @@
 			"",
 			"You once met one of your genie ancestors, who taught you the ways of her race and their allies. You gain a +2 trait bonus on Charisma checks and Charisma-based skill checks to influence outsiders from the home plane of your genie ancestor."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"minor_wishcraft": {
@@ -1188,7 +1091,6 @@
 			"",
 			"You gained some power of wishcraft from a genie ancestor. You can spend a use of a racial spell-like ability or your elemental assault racial trait for the day to instead use any 0-level spell as a spell-like ability. The spell must be used to produce an effect requested aloud by a humanoid within 30 feet since the end of your last turn."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"honored_provider": {
@@ -1200,7 +1102,6 @@
 			"",
 			"Nex depends upon the food produced by ghorans, and you inspire gratitude in creatures you feed. You gain a +2 trait bonus on Bluff, Diplomacy, and Sense Motive checks to interact with a person to whom you have given needed food in the past 24 hours."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"azlanti_inheritor": {
@@ -1215,7 +1116,6 @@
 			"",
 			"You have prominent Azlanti features, which you can use to inspire confidence in your allies. Whenever you use the aid another action to aid an adjacent ally, increase the bonus you grant your ally by 1. This is a trait bonus."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"memory_mastery": {
@@ -1227,7 +1127,6 @@
 			"",
 			"You can suppress your own memories to help tell more convincing lies. Once per day as an immediate action, you can cause yourself to forget a single event or fact for a period of 10 minutes. Enemies reading your mind cannot learn the information. Until the memory returns, you gain a +10 trait bonus on Bluff checks to convince others that you do not know the information."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"adrenaline_rush": {
@@ -1239,7 +1138,6 @@
 			"",
 			"You are determined to ward off the Bleaching, and get a certain thrill out of being forced to experience negative emotions. Once per day when you fail a saving throw against a spell with the emotion descriptor, you can gain 1d6 temporary hit points. These temporary hit points last for 1 minute."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"animal_friend": {
@@ -1255,7 +1153,6 @@
 			"",
 			"You've long been a friend to animals, and feel safer when animals are nearby. You gain a +1 trait bonus on Will saving throws as long as an animal (Tiny or larger, must be at least indifferent toward you) is within 30 feet, and Handle Animal is always a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"brastlewark_businessman_ceod": {
@@ -1267,7 +1164,6 @@
 			"",
 			"Your time among the Brastlewark elite has led to an extensive knowledge of alchemy and ready connections in the trade. You gain a +2 trait bonus on all Craft (alchemy) checks."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"efficient_packer": {
@@ -1279,7 +1175,6 @@
 			"",
 			"You were once delighted to discover an object that could be the crown jewel of your collection, only to be thwarted by its weight. Thereafter, you trained yourself to pack items in the most efficient ways possible. Treat your Strength score as 2 points higher when calculating your carrying capacity."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"forest_senses": {
@@ -1291,7 +1186,6 @@
 			"",
 			"When in any unsettled, uncivilized terrain, you gain a +2 trait bonus on Perception checks to act during a surprise round, and take no penalty on Perception checks while sleeping."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"illusion_obsession": {
@@ -1303,7 +1197,6 @@
 			"",
 			"After realizing the great potential of illusions - particularly figments - for use in pranks, you became obsessed with studying their properties and better methods to cast them. You gain a +1 trait bonus to your caster level when casting illusions in the figment subschool."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"industrious": {
@@ -1315,7 +1208,6 @@
 			"",
 			"You are helpful and hardworking. When you successfully use the aid another action to aid an ally's Craft or Profession check, that character gains an additional +1 trait bonus on the check (in addition to the +2 bonus normally granted for successfully aiding another). If you have a racial bonus on that skill, your ally gains a +2 trait bonus instead."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"prankster": {
@@ -1327,7 +1219,6 @@
 			"",
 			"You always have a great idea for a prank. You gain a +1 trait bonus on dirty trick combat maneuver checks. You also gain a +1 trait bonus to your CMD when an opponent attempts a dirty trick combat maneuver check against you. If you succeed at a dirty trick combat maneuver check against a flat-footed opponent, increase the duration of the condition caused by 1 round."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"rapscallion": {
@@ -1344,7 +1235,6 @@
 			"",
 			"You've spent your entire life thumbing your nose at the establishment and take pride in your run-ins with the law. Somehow, despite all your mischievous behavior, you've never been caught-you always manage to stay one step ahead of your pursuers. You gain a +1 trait bonus on Escape Artist checks and a +1 trait bonus on initiative checks."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"snowstepper": {
@@ -1356,7 +1246,6 @@
 			"",
 			"As a native of the North, you have acquired the ability to tread lightly on snow. You ignore difficult terrain caused by snow, and it costs you only 2 squares of movement to enter a square covered in heavy snow, rather than 4 squares of movement. This benefit only applies when you are not carrying a medium or heavier load."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"vermin_wrangler": {
@@ -1368,7 +1257,6 @@
 			"",
 			"In gathering ingredients necessary for mind-altering drugs and other concoctions, you have become intimately familiar with the desert's many-legged pests. You gain a +2 trait bonus on Knowledge (dungeoneering) checks to identify vermin and on saving throws against vermin's extraordinary abilities."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"advantageous_distraction": {
@@ -1380,7 +1268,6 @@
 			"",
 			"Like most goblins, you're easily distracted. Unlike most goblins, though, you have a knack for being distracted at the right time, especially when it comes to avoiding pain. Once per day as a swift action, you can be momentarily distracted in combat: ducking an axe swing to inspect a toadstool, or stooping behind a tree to lick some bark and accidentally avoiding an arrow, and so on. When you activate this ability, you gain a +2 dodge bonus to your AC for 1 round."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"balloon_headed": {
@@ -1395,7 +1282,6 @@
 			"",
 			"Your head is particularly wide and large, even for a goblin. You gain a +1 trait bonus on Perception checks, and Perception is always a class skill for you. Any Escape Artist checks that requires you to squeeze your head through a tight space take a -8 penalty."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"big_ears": {
@@ -1407,7 +1293,6 @@
 			"",
 			"Your massive ears are your pride and joy, and other goblins claim you can hear a flea scream as it falls off a goblin dog. While this might not quite be the case, you gain a +2 bonus on all Perception checks made to hear noises. Additionally, you can hear noises that normally only dogs or other animals can hear, like the sound of a dog whistle."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"bouncy": {
@@ -1422,7 +1307,6 @@
 			"",
 			"Your bones, flesh, and skin are a bit more elastic than those of most goblins - when you fall, you tend to bounce a little better as a result. Whenever you take falling damage, the first 1d6 points of lethal damage suffered in the fall are automatically converted to nonlethal damage. You also gain a +2 trait bonus on all Reflex saves made to avoid unexpected falls."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"bully_burner": {
@@ -1434,7 +1318,6 @@
 			"",
 			"You were forced to serve cruel hobgoblins at some point, much to your abject humiliation and frustration, and memories of this inspire a rage that lends you strength. Against creatures with the goblinoid subtype, you gain a +1 trait bonus on combat maneuver checks and a +1 trait bonus to CMD."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"color_thief": {
@@ -1446,7 +1329,6 @@
 			"",
 			"Your skin is an odd tint that somehow absorbs background colors. Maybe because your mother drank a lot of potions when you were still inside her belly. Maybe because you've been blessed by the barghests. Maybe because you're just better than the other boring goblins. In any case, you gain a +2 trait bonus on Stealth checks, providing you wear only light armor or no armor."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"dog_sniff_hate": {
@@ -1458,7 +1340,6 @@
 			"",
 			"You gain the scent special quality but only against canine creatures, like dogs or wolves, including monstrous hounds such as hell hounds, yeth hounds, and even werewolves. You gain a +2 trait bonus on attack rolls against dogs you can smell."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"foul_belch": {
@@ -1470,7 +1351,6 @@
 			"",
 			"Once per day as a standard action, you can force a particularly odious belch at a single opponent within 5 feet. The character affected must make a DC 12 Fortitude save or be sickened for 1d6 rounds. The save DC is Constitution-based."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"goblin_bravery": {
@@ -1482,7 +1362,6 @@
 			"",
 			"You have a worrying propensity for overconfidence in combat. When facing an enemy that's larger than you, if you have no allies in any adjacent squares, your posturing, bravado, and cussing grant a +1 trait bonus on attack rolls with non-reach melee weapons."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"goblin_foolhardiness": {
@@ -1494,7 +1373,6 @@
 			"",
 			"You have a tendency toward gross overconfidence in combat. When facing an enemy that's larger than you are, if you have no allies in any adjacent squares, your posturing, bravado, and cussing grant you a +1 trait bonus on attack rolls with non-reach melee weapons."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"pustular": {
@@ -1509,7 +1387,6 @@
 			"",
 			"Your face is covered with unpleasant pimples and outright boils that have a tendency to pop at inopportune moments. Although this makes you particularly ugly, you're also used to discomfort. Whenever you're subjected to an effect that causes the sickened condition, you may make two saving throws to avoid the effect (if a saving throw is allowed), taking the better of the two results as your actual saving throw."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"rude_songs": {
@@ -1521,7 +1398,6 @@
 			"",
 			"Providing an opponent can hear and understand you, the lyrics of your songs are so personally insulting that you gain a +2 trait bonus on all Perform (song) checks. Perform is always a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"ugly_swine": {
@@ -1533,7 +1409,6 @@
 			"",
 			"You are a repulsive little freak whose origins are unclear. Your head is small for a goblin and your mouth oddly narrow, allowing you to pass in urban environments as an unidentifiable mongrel, providing you keep a low profile. However, if examined closely, your goblin origins are revealed. You gain a +2 trait bonus on Disguise checks, and Disguise is a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"canopy_shooter": {
@@ -1545,7 +1420,6 @@
 			"",
 			"Growing up in a dangerous jungle, you learned to take advantage of your mobility relative to larger predators and elusive prey. You gain a +1 trait bonus on ranged weapon damage rolls when you are on higher ground than your target and are within 30 feet."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"bifurcated_magic": {
@@ -1557,7 +1431,6 @@
 			"",
 			"You've studied the methods of both elven and human spellcasters. Pick two classes when you gain this trait - your caster level in each of those classes is treated as 1 higher as long as this doesn't raise your caster level above your total Hit Dice. This doesn't stack with any similar increase from traits such as Magical Knack."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"ekujae_reflexes": {
@@ -1569,7 +1442,6 @@
 			"",
 			"One of your parents was a member of the Ekujae tribe of the Mwangi Expanse, and you've inherited a portion of your elven parent's quick reflexes. You gain a +2 trait bonus on Initiative checks."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"elven_reflexes": {
@@ -1584,7 +1456,6 @@
 			"",
 			"One of your parents was a member of a wild elven tribe, and you've inherited a portion of your elven parent's quick reflexes. You gain a +2 trait bonus on initiative checks."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"experimental_rebel": {
@@ -1596,7 +1467,6 @@
 			"",
 			"Your elven relatives were cold to you and you took to rebelling simply to get attention. You gain a +2 trait bonus on saving throws against spells and abilities created by elves."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"failed_apprentice": {
@@ -1612,7 +1482,6 @@
 			"",
 			"As a child, your parents sent you to a distant wizard's tower as an apprentice so that you could learn the arcane arts. Unfortunately, you had no arcane talent whatsoever, though you did learn a great deal about the workings of spells and how to resist them. You gain a +1 trait bonus on saves against arcane spells."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"pearl_diver_pots": {
@@ -1624,7 +1493,6 @@
 			"",
 			"You are skilled at finding treasures in the warm coastal waters near the desert. You gain a +2 trait bonus on Perception checks while underwater and can hold your breath for a number of rounds equal to three times your Constitution score before you risk drowning."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"wild_domesticator": {
@@ -1636,7 +1504,6 @@
 			"",
 			"Handle Animal is always a class skill for you. You gain a +2 trait bonus on Handle Animal checks to train an animal, and can teach a trained animal one additional trick beyond its normal maximum."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"child_of_two_peoples": {
@@ -1648,7 +1515,6 @@
 			"",
 			"Your parents come from two visibly different cultures that maintain distinct identities regardless of their physical proximity (such as Tians and Ulfen). The tug of conflicting expectations has strengthened your sense of individuality and given you a gift for languages. You receive a +2 trait bonus on Will saves against charm and compulsion effects, and you automatically know the racial or ethnic languages of both your parents."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"elven_serenity": {
@@ -1660,7 +1526,6 @@
 			"",
 			"You embody the peace of the elven way of life, and apply this philosophy in your interactions with others. You gain a +2 trait bonus on Diplomacy and Handle Animal checks to calm other creatures. You need not speak the same language to attempt a Diplomacy check in this manner."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"trade_talk": {
@@ -1672,7 +1537,6 @@
 			"",
 			"You picked up not only the basics of your human parent's profession, but also the lingo typical of the craft. Choose a Craft or Profession skill. You gain a +1 trait bonus on checks with the chosen skill, and a +1 trait bonus on Bluff and Sense Motive checks when dealing with people in the context of that craft or profession."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"almost_human": {
@@ -1684,7 +1548,6 @@
 			"",
 			"You have enough human features that it's easy for you to pass for a pureblooded human. You gain a +4 trait bonus on Disguise checks to pass as human, and Disguise is always a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"brute_apg": {
@@ -1700,7 +1563,6 @@
 			"",
 			"You have worked for a crime lord, either as a low-level enforcer or as a guard, and are adept at frightening away people. You gain a +1 trait bonus on Intimidate checks, and Intimidate is always a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"caravan_drover": {
@@ -1712,7 +1574,6 @@
 			"",
 			"With your hand on the lash, your caravans always arrive on time. You treat whips as martial weapons, and up to 10 animals and humanoids traveling with you can hustle or make a forced march for 1 hour longer than normal before taking nonlethal damage and becoming fatigued."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"cruel_rager": {
@@ -1724,7 +1585,6 @@
 			"",
 			"If you successfully confirm a critical hit against an enemy while raging, you regain 1 round of rage. This can occur only once per rage."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"irritable_diplomat": {
@@ -1736,7 +1596,6 @@
 			"",
 			"Most people expect half-orcs to be savage and violent, and you're used to working a little harder to overcome their assumptions. Unfortunately, you're still working on keeping patient when they ignore your efforts. Once per day, you may choose to gain a +5 trait bonus on any Diplomacy check, but if it fails, you take a -2 penalty on all Charisma-based checks for the next 10 minutes."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"lasting_ferociousness": {
@@ -1748,7 +1607,6 @@
 			"",
 			"Increase the number of rounds you can act as disabled from your orc ferocity racial trait to 2 rounds."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"legacy_of_sand": {
@@ -1760,7 +1618,6 @@
 			"",
 			"A large tribe of orcs adapted to life in the desert once dwelt in southeastern Katapesh. Although this tribe is long extinct, some half-orcs of Katapesh carry the traits of this tribe in their particularly large jaws, broad shoulders, and shockingly pale eyes. You often have dreams of hunts and strange ceremonies held under moonlight in the desert sands. Some ascribe these dreams to racial memory, others to visions or prophecies. These dreams have instilled in you a fierce sense of tradition. You gain a +1 trait bonus on all Will saving throws."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"mistrusted": {
@@ -1772,7 +1629,6 @@
 			"",
 			"Choose humans or orcs. You learned during your earliest interactions with that race that some automatically consider you a threat because of your hybrid nature, and they can't be easily placated. Against foes of the chosen race, you gain a +1 trait bonus on attacks of opportunity and a +1 trait bonus to your CMD."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"outcast": {
@@ -1788,7 +1644,6 @@
 			"",
 			"Driven from town after town because of your heritage, you have become adept at living apart from others. You gain a +1 trait bonus on Survival skill checks, and Survival is always a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"promising_peacemaker": {
@@ -1800,7 +1655,6 @@
 			"",
 			"You were raised by a mix of human and orc family members, or by accommodating half-orc parents, and many people expected you to act as a flawless peacemaker. Whether these hopes saw fruition or met with frustration, you learned a great deal about both cultures. You gain a +2 trait bonus on Knowledge (local) checks involving orcs, half-orcs, and humans, and a +2 trait bonus on Diplomacy checks against members of those races."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"scrapper": {
@@ -1812,7 +1666,6 @@
 			"",
 			"A childhood spent scrabbling for every possession and scrap of food has made you fierce and wary. You receive a +1 trait bonus on all Intimidate checks made to demoralize opponents and a +1 trait bonus on all Perception checks to avoid being surprised."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"wild_ferocity": {
@@ -1824,7 +1677,6 @@
 			"",
 			"Select one terrain type from the ranger's {ability/favored terrain} list. While in this terrain type, taking a standard action while disabled does not cause you to take the normal 1 point of damage. You can use this trait when acting as if disabled despite having a negative hit point total as a result of orc ferocity or the {feat/Diehard} feat."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"amazingly_ugly": {
@@ -1836,7 +1688,6 @@
 			"",
 			"Your skull is misshapen in a grotesque way. You receive a +1 trait bonus on Intimidate skill checks, and it becomes a class skill."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"beast_rider": {
@@ -1848,7 +1699,6 @@
 			"",
 			"You have a knack for breaking animals to your will, though you know little of civilized training methods. You gain a +2 trait bonus on Ride checks, but should you ever be forcibly dismounted in combat, your mount attacks you to the best of its ability."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"big_mouth": {
@@ -1860,7 +1710,6 @@
 			"",
 			"You have an innate ability to weave stories about yourself that extol your might and prowess. You gain a +1 trait bonus on all Bluff, Intimidate, and Perform (oratory) checks made against orcs."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"brute_orc": {
@@ -1872,7 +1721,6 @@
 			"",
 			"You are an especially large and hulking individual, and when you strike, you aim to deliver the maximum amount of pain. Whenever you score a critical threat, you add (but not multiply, in the case of a confirmed critical hit) an amount of damage equal to your weapon's critical modifier."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"deadeye": {
@@ -1884,7 +1732,6 @@
 			"",
 			"You have only one working eye, but that eye is especially keen. You receive a +2 trait bonus on all Perception checks involving sight."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"demented_inventor": {
@@ -1896,7 +1743,6 @@
 			"",
 			"You adore crafting new and ever more creative weapons, and some of them even work. You gain a +2 trait bonus on Craft (weapons) checks, and it becomes a class skill."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"dirty_fighter_orc": {
@@ -1908,7 +1754,6 @@
 			"",
 			"You were raised to fight with every dirty trick in the book. You receive a +3 trait bonus on all attempts to feint in combat using your Bluff skill."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"mindlessly_cruel": {
@@ -1920,7 +1765,6 @@
 			"",
 			"You take delight in delivering vicious blows with cruel weapons. Whenever you have a morale bonus on weapon attack rolls, you also receive a +1 trait bonus on weapon damage rolls."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"rage_of_storms": {
@@ -1932,7 +1776,6 @@
 			"",
 			"Summoned creatures can inherit your ferocity. Once per day, a creature you summon creature can have the ferocity ability."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"tribal": {
@@ -1944,7 +1787,6 @@
 			"",
 			"You are especially devoted to your tribe, and within 60 feet of a tribal standard, you gain a +1 trait bonus on attack rolls and Will saves against fear effects, as if you were the recipient of a bless spell."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"tusked": {
@@ -1956,7 +1798,6 @@
 			"",
 			"Huge, sharp tusks bulge from your mouth, and you receive a bite attack (1d4 damage for Medium characters). If used as part of a full attack action, the bite attack is made at your full base attack bonus -5."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"unbreakable_hate": {
@@ -1968,7 +1809,6 @@
 			"",
 			"Your ferocity is focused into your spells, and it is harder to break your concentration. You receive a +2 trait bonus on all {rule/concentration} checks."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"iron_control": {
@@ -1980,7 +1820,6 @@
 			"",
 			"You learned the hard way that expressing the rage you inherited from your orc blood exacerbates humans' fearful and hostile reactions to you; after years of effort, you've mastered self-control and buried your anger deep. Whenever you're confused and roll to determine behavior in a given round, subtract 10 from the result."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"finish_the_fight": {
@@ -1992,7 +1831,6 @@
 			"",
 			"You're at the bottom of the pecking order, so when you challenge that order, your victory must be absolute. You gain a +1 trait bonus on attack rolls against opponents you already injured in the past 24 hours."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"bellflower_contact": {
@@ -2004,7 +1842,6 @@
 			"",
 			"Before you were old enough to be a [Bellflower Network](rule/aff_antislavery) member, you kept an ear out for information useful to slave liberators. You gain a +1 trait bonus on Perception checks, Sense Motive checks to understand secret messages, and Bluff checks to send secret messages."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"freed_slave_fg": {
@@ -2016,7 +1853,6 @@
 			"",
 			"You grew up as a slave in Cheliax and know the ins and outs of Chelish nobility better than most. You gain a +1 trait bonus on Diplomacy and Knowledge (nobility) checks and Knowledge (nobility) is a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"freedom_fighter_halfling": {
@@ -2032,7 +1868,6 @@
 			"",
 			"Your parents allowed escaping slaves to hide in your home, and the stories you've heard from them instilled into you a deep loathing of slavery. You gain a +1 trait bonus on any skill check or attack roll made during the process of escaping capture or in helping a slave escape bondage, and Escape Artist is always a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"helpful_halfling": {
@@ -2044,7 +1879,6 @@
 			"",
 			"You see nothing wrong with letting others achieve greatness so long as the job gets done. Whenever you successfully perform an aid another action, you grant your ally a +4 bonus instead of the normal +2."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"intrepid_volunteer": {
@@ -2056,7 +1890,6 @@
 			"",
 			"Like many free halflings, you volunteered readily for military service or an adventuring career and met other halflings who showed you how to make up for your small size. Choose one Strength-based skill or one combat maneuver. You can use your Dexterity modifier in place of your Strength modifier to calculate your total modifier for that skill check or combat maneuver check."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"lettered": {
@@ -2068,7 +1901,6 @@
 			"",
 			"You can read a smattering of most languages and know enough to make pretty good guesses about the rest. Linguistics is a class skill for you, and you gain a +1 trait bonus on Linguistic checks made for the purpose of deciphering writing in an unfamiliar language. You never draw a false conclusion if you fail your Linguistics check; instead, you simply realize you cannot make sense of the writing."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"perfect_servant": {
@@ -2080,7 +1912,6 @@
 			"",
 			"Your training as a maid or valet has left you with unconscious mannerisms that seem to put members of the upper class at ease. You gain a +3 trait bonus on Diplomacy checks made to influence anyone with at least one level of Aristocrat."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"providential_passenger": {
@@ -2092,7 +1923,6 @@
 			"",
 			"Those who travel for a living understand that your mere presence could make the difference between success and failure once a journey begins, and this gives you an edge when negotiating your fare or other privileges. Improve the starting attitude that ship captains, caravan leaders, and those with similar sorts of responsibilities have toward you by one step."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"scrounger": {
@@ -2104,7 +1934,6 @@
 			"",
 			"Others may call it junk, but you call it a bargain. You can buy objects with the broken condition at half price (instead of the normal three-quarters price). The value of the unbroken version of these objects cannot exceed four times your character level. The price you pay for this object can never exceed more than twice your character level in gp (for example, at 5th level you can spend up to 10 gp on a broken object, meaning you can buy any object that, if not broken, has a value of 20 gp or less)."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"slave_smuggler": {
@@ -2116,7 +1945,6 @@
 			"",
 			"You know how to get contraband across borders. When hiding a Medium or smaller creature from an opponent actively searching you or your cargo, both you and the creature to be smuggled can attempt Stealth checks and select the higher of the two results for your smuggled ally to use while hiding."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"successful_shirker": {
@@ -2128,7 +1956,6 @@
 			"",
 			"Born and raised a slave with no hope of advancement, you are adept at avoiding your overseer's ire and attention, the better to spend time on your own interests. You gain a +1 trait bonus on Stealth checks and a +3 trait bonus on Bluff and Diplomacy checks to avoid punishment by lawful authority."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"well_informed": {
@@ -2144,7 +1971,6 @@
 			"",
 			"You make it a point to know everyone and to be connected to everything around you. You frequent the best taverns, attend all of the right events, and graciously help anyone who needs it. Because of this, you gain a +1 trait bonus on Diplomacy checks to gather information and Knowledge (local) checks. One of these skills (your choice) is always a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"wild_shadow": {
@@ -2156,7 +1982,6 @@
 			"",
 			"Select one terrain type from the ranger's {ability/favored terrain} list. You can attempt Stealth checks in this terrain in normal light without having cover or being invisible. You still can't attempt Stealth checks in areas of bright light without invisibility or cover."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"adventurous_explorer": {
@@ -2168,7 +1993,6 @@
 			"",
 			"You are one of the few Song-o halflings to brave the world outside the Laughing Jungle. When frightened or shaken, you only take a -1 penalty on your rolls instead of -2."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"inciter_hobgoblin": {
@@ -2180,7 +2004,6 @@
 			"",
 			"You witnessed or were part of a feud that turned close friends into hateful enemies. You gain a +2 trait bonus on Bluff checks to convince others that their allies have wronged them and on Diplomacy checks to persuade others to betray their allies' trust."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"friend_to_animals": {
@@ -2192,7 +2015,6 @@
 			"",
 			"You grew up in close proximity to animals and relate with them intuitively. You gain a +1 bonus on Handle Animal and Ride checks, and one of those skills (your choice) is always a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"plague_survivor": {
@@ -2204,7 +2026,6 @@
 			"",
 			"You survived an encounter with disease in a slum or contagion-prone area. You gain a +2 trait bonus on Fortitude saving throws against diseases and on Constitution checks to stabilize while dying."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"scholar_of_ruins": {
@@ -2220,7 +2041,6 @@
 			"",
 			"From the moment you could walk and talk, the ruins of ancient civilizations have fascinated you. Because of this, you have special insight into geography as well as expertise in exploring lost places. You gain a +1 trait bonus on Knowledge (geography) and Knowledge (dungeoneering) checks. One of these skills (your choice) is always a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"survivalist": {
@@ -2232,7 +2052,6 @@
 			"",
 			"You gain a +1 trait bonus on saving throws against natural environmental hazards."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"trifler": {
@@ -2244,7 +2063,6 @@
 			"",
 			"A childhood spent at your mystically gifted grandmother's side has taught you the basics of real magic. You may cast {spell/prestidigitation} three times per day as a spell-like ability. This spell-like ability is cast at your highest caster level; if you have no caster level, it functions at CL 1st."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"world_traveler": {
@@ -2260,7 +2078,6 @@
 			"",
 			"Your family has taken the love of travel to an extreme, roaming the world extensively. You've seen dozens of cultures and have learned to appreciate the diversity of what the world has to offer. Select one of the following skills: Diplomacy, Knowledge (local), or Sense Motive. You gain a +1 trait bonus on checks with that skill, and it is always a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"azlant_fanatic": {
@@ -2272,7 +2089,6 @@
 			"",
 			"Your years spent in libraries reading every musty tome you could find about the ancient lost civilization of Azlant have given you insight into the subjects of history and the arcane. You gain a +1 trait bonus to Knowledge (arcana) and Knowledge (history) checks. One of these skills (your choice) is always a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"azlanti_engineering": {
@@ -2284,7 +2100,6 @@
 			"",
 			"You were trained in the style of Azlanti architecture and craft. You gain a +1 trait bonus on Knowledge (engineering) checks. In addition, any masterwork item you craft has its hardness and break DC increased by 1. This increase is an enhancement bonus."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"enduring_spellcraft": {
@@ -2296,7 +2111,6 @@
 			"",
 			"You have studied the enduring spells of ancient Azlant. Treat your caster level as 1 higher for the purpose of determining duration only."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"nomadic": {
@@ -2308,7 +2122,6 @@
 			"",
 			"You have lived among the Bas-o and know Sargava well. You gain a +1 trait bonus on Knowledge (geography) and Survival checks, and one of these skills (your choice) is always a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"bekyar_slave_maestro": {
@@ -2320,7 +2133,6 @@
 			"",
 			"You spent years using your magic to bend the will of captured slaves to suit your whims. You gain a +2 trait bonus on Diplomacy and Intimidate checks against anyone you have held captive for at least 24 hours."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"shoanti_spirit_singer": {
@@ -2332,7 +2144,6 @@
 			"",
 			"The spirit voices of your ancestors sing to you of the world around you. Once per day, you can act in the surprise round even if you aren't aware of your attackers; you can use this action only to start a bardic song or raging song, and you're still considered flat-footed until you act in the first normal round of combat."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"glib_barrister": {
@@ -2344,7 +2155,6 @@
 			"",
 			"You grew up within a bureaucratic system where law reigns supreme; however, that has never stopped you from creating loopholes in ironclad contracts. You gain a +2 trait bonus on Linguistics checks to create forgeries."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"infernal_influence": {
@@ -2356,7 +2166,6 @@
 			"",
 			"Your family boasts secret diabolical ties that may go back much further than the Thrune regime, and much deeper. You gain fire resistance 1 and a +1 trait bonus on Fortitude saves against poison."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"ingratiating": {
@@ -2368,7 +2177,6 @@
 			"",
 			"Someone close to you was removed from her position and replaced after losing the government's favor, and you had to quickly prove your loyalty to her replacement or face your own disgrace. You gain a +2 trait bonus on Bluff and Diplomacy checks when interacting with people in positions of authority over you."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"masterful_demeanor": {
@@ -2380,7 +2188,6 @@
 			"",
 			"As a proud Chelaxian, you are confident that members of other, inferior races will obey you, and quickly. You gain a +3 trait bonus on Intimidate checks against members of non-human humanoid races."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"obsessed_with_success": {
@@ -2392,7 +2199,6 @@
 			"",
 			"A Chelaxian without a visible degree of success is marked as pathetic, and so you grew up careful not to let failure stick. Once per day, when you re-attempt a skill check you have previously failed within the last minute, you can add a +4 trait bonus to that check."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"operatic": {
@@ -2404,7 +2210,6 @@
 			"",
 			"You grew up in wonder of Chelish theater, and spent countless hours in the opera houses across Cheliax and even more time perfecting your voice. You gain a +1 trait bonus on Perform (sing) checks. Furthermore you have memorized the librettos of many works sung in the ancient Azlanti tongue, granting you a +2 trait bonus on Linguistic checks when trying to decipher the ancient Azlanti language."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"colonial_entitlement": {
@@ -2416,7 +2221,6 @@
 			"",
 			"You are a firm believer in the superiority of your Chelish heritage, and you cling to your racial and cultural pride. You gain a +2 trait bonus on Intimidate checks against Mwangi."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"spirit_lodge_dreamer": {
@@ -2428,7 +2232,6 @@
 			"",
 			"You have experienced visions of the unseen spirit world, and bear the marks of the spirits upon your flesh. You gain a +1 trait bonus on saves against illusions, and reduce any miss chance you would take from concealment by 10%."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"effortless_aid": {
@@ -2440,7 +2243,6 @@
 			"",
 			"You naturally observe others, and move to complement them. Once per day as a move action, you can select an adjacent ally. For the next minute, you can take 10 on attack rolls and skill checks to use the aid another action to aid that ally, even if you are distracted."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"ever_home": {
@@ -2452,7 +2254,6 @@
 			"",
 			"You have lived in many cities dotting the northern coastline of Garundi, and after you have departed from each, you have taken a small token to remember it by. You gain a +1 trait bonus on Knowledge (geography) and Sleight of Hand checks."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"eyes_of_the_sun": {
@@ -2464,7 +2265,6 @@
 			"",
 			"You are inured to the bright glare of the hot desert sun, and its dazzling rays pose little danger to you. You gain a +1 trait bonus on saving throws against effects that would cause you to become dazzled or blinded, and once per day when you would be dazzled or blinded by an effect, you can reduce the duration of that effect by half (minimum 1 round). You cannot use this ability if you are already dazzled or blinded or if you have the light sensitivity or light blindness special quality."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"historian": {
@@ -2476,7 +2276,6 @@
 			"",
 			"Your parents were scholars of history, whether genealogists of your own family tree, sages on the subject of ancient empires, or simply hobbyists with a deep and abiding love for the past. You gain a +1 trait bonus on Knowledge (history) checks and bardic knowledge checks, and Knowledge (history) is always a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"relic_hunter": {
@@ -2488,7 +2287,6 @@
 			"",
 			"You have made a study of the ancient lands and ruins of Garund and are familiar with the relics and artifacts their inhabitants left behind. You gain a +1 trait bonus on Appraise and Knowledge (history) checks made to examine ruined buildings more than 1,000 years old as well as any ruined objects found in them. If such an item is magical, you gain a +1 trait bonus on Spellcraft checks to identify its properties and Use Magical Device checks to activate it."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"tongue_of_many_towns": {
@@ -2500,7 +2298,6 @@
 			"",
 			"You have spent many years traveling across Garund, and have met many different people on your journeys. You gain a +1 trait bonus on two of the following skills: Diplomacy, Knowledge (local), and Linguistics."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"zealous_garundi": {
@@ -2512,7 +2309,6 @@
 			"",
 			"You felt lost and aimless in your youth until a patron's emotional intervention showed you the power of throwing yourself completely into what you do. Once per day, you can add a +2 trait bonus on any attack roll, saving throw, or skill check. You must choose to apply this bonus before rolling the die. When you use this ability, you take a -2 penalty to your AC and on saving throws until the end of your next turn."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"born_to_the_water": {
@@ -2524,7 +2320,6 @@
 			"",
 			"You were born on the shore, and you easily live on and under the water. You gain a +1 bonus on Swim checks and only need to make Swim checks once every 2 hours to avoid fatigue, instead of once each hour."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"jadwiga_scion": {
@@ -2536,7 +2331,6 @@
 			"",
 			"You come from a family that commands respect. You gain a +1 trait bonus on Intimidate checks, and Intimidate is always a class skill for you. In addition, you gain a +1 trait bonus on Knowledge (nobility) checks related to the Irrisen aristocracy."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"carefully_hidden": {
@@ -2548,7 +2342,6 @@
 			"",
 			"Modern Taldor is not kind to Keleshites. Your life as a member of an unpopular ethnic group has given you an uncanny knack for avoiding detection. You gain a +1 trait bonus to Will saves and a +2 trait bonus to saving throws versus divination effects."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"commanding": {
@@ -2560,7 +2353,6 @@
 			"",
 			"Your family taught you that you always deserve respect. You gain a +1 trait bonus on Intimidate checks. Add a +1 trait bonus to the save DC of any language-dependent compulsion spells you cast."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"genie_blood": {
@@ -2572,7 +2364,6 @@
 			"",
 			"One of your ancestors was genie-kind. Select an element (air, earth, fire, or water). You gain a +1 trait bonus on saving throws against attacks that utilize that element (cold for air, acid for earth, fire for fire, and electricity for water), and gain a +1 trait bonus on Bluff, Diplomacy, Intimidate, and Sense Motive checks made against creatures of that subtype."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"horse_lord": {
@@ -2584,7 +2375,6 @@
 			"",
 			"You grew up racing along the plains of Paresh, hoping to one day compete in the Histaqen. You gain a +2 trait bonus on Handle Animal checks, and a +1 trait bonus on Ride checks. This trait applies only to horses."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"market_rat": {
@@ -2596,7 +2386,6 @@
 			"",
 			"You spent your youth amid the varied market stalls and mercantile leagues across Golarion. Perhaps you came from a family of merchants, or you dwelt amid the many booths of a market, begging to survive. You gain a +1 trait bonus on Appraise and Knowledge (local) checks."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"pride_of_the_diamond_empire": {
@@ -2608,7 +2397,6 @@
 			"",
 			"Your pride is so strong and your confidence so sure that you can shake off magical attempts to shatter your resolve. If you succeed at a Will saving throw against a fear effect that would result in a lesser effect on a successful save (such as causing you to become shaken instead of panicked), you are instead unaffected."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"tempestuous_combatant": {
@@ -2620,7 +2408,6 @@
 			"",
 			"You move confidently in the face of danger. Once per day as a swift action, you can choose one opponent. You and your mount (if any) do not provoke attacks of opportunity from that opponent for moving within or exiting his threatened area."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"thoroughbred": {
@@ -2632,7 +2419,6 @@
 			"",
 			"The blood of the early horse tribes is strong in your family. Breeding, riding, selecting, and training the best horses are all part of your legacy, and you know how to pick out the best of the lot when selecting a suitable mount. If you gain a horse as an animal companion or mount as one of your class abilities, its base speed increases by 5 feet and it gains a bonus trick that does not count against the normal limit of tricks known by the animal."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"divine_the_mystery": {
@@ -2644,7 +2430,6 @@
 			"",
 			"Your time spent exploring the ruins of Silver Mount has taught you much about the strange ways of the metal creatures from the stars. You gain a +2 trait bonus on Knowledge (engineering) checks to identify creatures with the robot subtype and relics of Numerian technology. When using Bluff to feint against an intelligent construct, you do not take a penalty for feinting against a non-humanoid."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"ice_walker": {
@@ -2656,7 +2441,6 @@
 			"",
 			"You spent years roaming the frozen tundra of the frigid north, and have adapted to its numbing effects. You gain a +1 trait bonus on saving throws against attacks that deal cold damage. Furthermore, you may ignore the Acrobatics penalty for ice and can move across ice at normal speed."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"pragmatic_polytheist": {
@@ -2668,7 +2452,6 @@
 			"",
 			"You pray to whatever local deity will answer your prayers - and if they won't, to hell with them. You gain a +1 trait bonus on Knowledge (religion) checks and can make Knowledge (religion) checks as if trained. Once per day, you can cast {spell/resistance} on yourself as a spell-like ability cast at your highest caster level (CL 1st if you have no caster level)."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"storied_scars": {
@@ -2680,7 +2463,6 @@
 			"",
 			"You proudly bear the numerous scars of your life on your body, and each one tells a tale of your experiences. You gain a +1 trait bonus on Diplomacy checks made to interact with other Kellids, and a +1 trait bonus on Intimidate checks when dealing with non-Kellid peoples."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"superstitious_kellid": {
@@ -2692,7 +2474,6 @@
 			"",
 			"You have a healthy fear of sorcerers' speech and wizards' words that has helped you to survive their charms. You gain a +1 trait bonus on saving throws against arcane spells."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"wary_of_danger": {
@@ -2704,7 +2485,6 @@
 			"",
 			"Your people are beset on all sides by threats, and you have developed a keen sense for danger. You gain a +2 trait bonus on initiative checks."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"wasteland_hunter": {
@@ -2716,7 +2496,6 @@
 			"",
 			"You are an expert hunter among your tribe. Whenever you throw a club, shortspear, spear, or javelin, reduce the penalty for throwing the weapon beyond its initial range increment by 2 (to a minimum penalty of 0). For example, a club (with a range of 10 feet) thrown at a target 25 feet away would incur only a -2 penalty with this trait."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"weathered_patience": {
@@ -2728,7 +2507,6 @@
 			"",
 			"You had to learn to control your attention to survive in the wilds. Once per day, when you ready an action to make a ranged or melee weapon attack, you can add a +4 trait bonus on the attack."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"witness_to_natures_cruelty": {
@@ -2740,7 +2518,6 @@
 			"",
 			"You saw firsthand the terrible toll of starvation and the elements, and refuse to allow even your worst enemy to suffer that way. You gain a +1 trait bonus on Heal and Survival checks made on behalf of others. One of these skills (your choice) is always a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"assimilated_native": {
@@ -2752,7 +2529,6 @@
 			"",
 			"You have adopted the ways of the colonials. As a result, you feel that other, \"inferior\" races - such as your Mwangi brethren - should obey you as they do the colonials. You gain a +2 trait bonus on Intimidate checks to influence Mwangi natives, but you suffer a -2 on Diplomacy checks to influence them."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"colonial_sympathizer": {
@@ -2764,7 +2540,6 @@
 			"",
 			"Your behavior is heavily influenced by the Sargavan colonials. You gain a +1 trait bonus on Bluff and Diplomacy checks involving Sargavan colonials and others with this trait."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"magaambyan_arcana": {
@@ -2776,7 +2551,6 @@
 			"",
 			"Your study of Magaambyan magic traditions allows you to add one spell with the good descriptor from the druid or cleric spell list to the spell list of an arcane spellcasting class of your choice, at the same spell level as it appears on the cleric or druid list. Pick the spell when you choose this trait."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"proud_tribesman": {
@@ -2788,7 +2562,6 @@
 			"",
 			"You may have to coexist with the colonials, but you don't have to like them. You gain a +2 bonus on checks to Intimidate colonial Sargavans."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"river_trader": {
@@ -2800,7 +2573,6 @@
 			"",
 			"You have learned to ply the rivers and the markets with equal ease. You gain a +1 bonus on Appraise and Swim checks, and one of these skills (your choice) is always a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"spirits_in_the_stone": {
@@ -2812,7 +2584,6 @@
 			"",
 			"You have an almost instinctive ability to sense danger and peril in ruined structures. Whenever you're in ruins, you gain a +2 trait bonus on Initiative checks and a +1 trait bonus on saving throws against traps and natural hazards."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"student_of_nantambu": {
@@ -2824,7 +2595,6 @@
 			"",
 			"You have spent time at [Magaambya](rule/aff_i_school), the magical academy of Nantambu, absorbing the ancient knowledge taught there. You gain a +1 trait bonus on Knowledge (arcana) and Spellcraft checks, and you may make these checks untrained."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"trailblazer": {
@@ -2836,7 +2606,6 @@
 			"",
 			"Your ability to endure in the darkest jungles has earned you a reputation as a novice guide. While traversing any wilderness, you gain a +1 trait bonus on Survival checks, and gain a +1 trait bonus on Fortitude saving throws against diseases."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"slaver": {
@@ -2848,7 +2617,6 @@
 			"",
 			"You may never have participated in a single slave raid, but members of other tribes recognize you as Ombo, and they fear and distrust you accordingly. You gain a +2 trait bonus on Intimidate checks to influence non-Ombo Mwangi, but you suffer a -2 penalty on Bluff or Diplomacy checks to influence them."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"auspicious_tattoo": {
@@ -2860,7 +2628,6 @@
 			"",
 			"You bear a tattoo depicting one of the totems listed for your quah that favors you with good fortune. You gain a +1 trait bonus on Will saving throws."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"bred_for_war": {
@@ -2872,7 +2639,6 @@
 			"",
 			"You tower above most other humans and possess a physique of hard, corded muscle. You gain a +1 trait bonus on Intimidate checks and a +1 trait bonus on your CMB because of your great size. You must be at least 6 feet tall."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"favored_champion": {
@@ -2884,7 +2650,6 @@
 			"",
 			"Omens from the spirits indicated you would be a great champion against your tribe's enemies. Once per day as an immediate action when you fail a combat maneuver check, you can reroll it. You must take the second result even if it is worse."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"oral_historian": {
@@ -2896,7 +2661,6 @@
 			"",
 			"You learned numerous mnemonic devices to more easily recall information imparted by your quah's master storyteller. You gain a +1 trait bonus on Knowledge (history) and Perform (oratory) checks, and one of those skills (your choice) is always a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"shoanti_steed": {
@@ -2908,7 +2672,6 @@
 			"",
 			"Your nomadic culture gives you a profound knowledge of and respect for the horses that roam your homelands. You begin play with a combat trained light horse. While riding this horse bareback, you are treated as though you were riding it with a riding saddle (placing any actual saddle upon the horse negates this benefit). The horse can fend for itself outside of settlements in all but the most hostile environments. If whistled for outside of a community, the horse typically arrives within 1d6 minutes. If your horse is slain, you may receive a new horse by returning to your clan and performing a vigil for its spirit (a rite that costs 100 gp in rare herbs and incense)."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"shoanti_tattoo": {
@@ -2920,7 +2683,6 @@
 			"",
 			"Upon reaching adulthood, you received a tribal tattoo, marking you with the symbols of your quah and totem spirits. You gain a +1 trait bonus on saving throws against fear effects. Additionally, you are proficient with earth breakers, klars, and Shoanti bolas."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"artistic_dilettante": {
@@ -2932,7 +2694,6 @@
 			"",
 			"You come from money, and because of this can quickly discern objects' value. You gain a +1 trait bonus on Appraise checks, and on checks for one Craft skill of your choice."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"aspiring_bard": {
@@ -2944,7 +2705,6 @@
 			"",
 			"You spent countless hours of your youth wandering the open campuses of the [Kitharodian Academy](rule/f_bards) and the Rhapsodic College, listening to wonderful musicians and singers and daydreaming of your life as a bard. You gain a +1 trait bonus to one category of Perform checks and a +2 trait bonus to any Knowledge (local) checks that deal with the Oppara music scene."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"blade_bravado": {
@@ -2956,7 +2716,6 @@
 			"",
 			"You grew up fighting in one of the many Taldan dueling academies and have honed your skills with one-handed weapons. When wielding a one-handed weapon and nothing in your off hand, you gain a +1 trait bonus on Acrobatics and Bluff checks."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"destined_pioneer": {
@@ -2968,7 +2727,6 @@
 			"",
 			"Your forebears served in an Army of Exploration, and you retain that expansionist spirit. Select a terrain from the {class/ranger/'s} list of {ability/favored terrain/s}. Once selected, this choice cannot be changed. Once per day while in the selected terrain, you may move across nonmagical difficult terrain as though it were not difficult terrain until the end of your turn."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"generous": {
@@ -2980,7 +2738,6 @@
 			"",
 			"Your neighbors gained your respect with their generosity, and you emulate their example. Whenever you give to a creature a gift or service worth at least 25 gold pieces &times; the creature's CR, you gain a +2 trait bonus on Bluff and Diplomacy checks against that creature for the next 24 hours."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"my_word_is_my_bond": {
@@ -2992,7 +2749,6 @@
 			"",
 			"Your reliability is a core part of your self-image. Once per day, you can gain a +1 trait bonus on an attack roll, saving throw, or skill check if success on that check is directly relevant to fulfilling a verbal or written agreement you have made. You must choose to use this trait before rolling, and this ability does not work if you initiated the agreement for the purpose of activating this ability."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"bureaucracy_navigator": {
@@ -3004,7 +2760,6 @@
 			"",
 			"Accustomed to wading through governmental bureaucracy, you gain a +2 trait bonus on Diplomacy checks against bureaucrats and on Knowledge (local) checks related to laws and their enforcers."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"keeper_of_the_ancestral_scrolls": {
@@ -3016,7 +2771,6 @@
 			"",
 			"You take pride in recording the genealogy of your family, tracing your heritage on large scrolls dating back hundreds, if not thousands of years. You gain a +1 trait bonus on Knowledge (history), and Knowledge (nobility) checks, and one of these skills (your choice) is always a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"master_of_the_sudden_strike": {
@@ -3028,7 +2782,6 @@
 			"",
 			"You have mastered the deadly fighting arts of your people, and when you wield a masterwork version of any sword, you become one with its blade. If you act before your opponent during the surprise round, you gain a +2 trait bonus on weapon damage rolls for the surprise round only. This additional damage is precision damage."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"nearly_blinded": {
@@ -3040,7 +2793,6 @@
 			"",
 			"After a close call with snow blindness on the Crown of the World or the scouring winds of Hongal, you honed your instincts to protect your eyes. You gain a +2 trait bonus on saving throws to avoid being blinded or dazzled."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"animalistic_affliction": {
@@ -3052,7 +2804,6 @@
 			"",
 			"You grew up with an affinity for predatory animals, and whispers amid your clan suggest somewhere in the past, lycanthropy afflicted an ancestor. Whether or not you share this affliction, you often have animalistic urges. You gain a +1 trait bonus on Handle Animal and {ability/Wild Empathy} checks."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"glint_tongued": {
@@ -3064,7 +2815,6 @@
 			"",
 			"You have a gift for poetic turns of phrase and vicious streams of insults. You gain a +1 trait bonus on Charisma-based skill checks made to impress or persuade other Ulfen (or, at the GM's option, other poetically-minded people), and a +2 trait bonus on Intimidate checks."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"gruff_watcher": {
@@ -3076,7 +2826,6 @@
 			"",
 			"Having grown up among headstrong sailors and bloodthirsty raiders, you learned to keep quiet and pay attention. You gain a +1 trait bonus on initiative checks and Perception checks."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"honor_driven": {
@@ -3088,7 +2837,6 @@
 			"",
 			"Your honor is such a part of you that you can sense it (or its lack) in others. You gain a +1 trait bonus on Sense Motive checks, and Sense Motive is always a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"shield_bearer": {
@@ -3100,7 +2848,6 @@
 			"",
 			"You have survived many battles thanks to your skill with your shield. When performing a shield bash, you deal 1 additional point of damage. Also, once per day on your turn as a free action, you may provide one adjacent ally a +2 trait bonus to his Armor Class. This bonus lasts for 1 round, so long as you and the target remain adjacent to one another. You can only use this ability if you are using a shield. You retain your shield bonus to your armor class when using this ability."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"weapon_training": {
@@ -3112,7 +2859,6 @@
 			"",
 			"As soon as you were old enough to hold it, you were trained to defend yourself with traditional Ulfen weapons. You gain a +1 trait bonus on damage rolls with the following weapons: {eq-weapon/bastard sword}, {eq-weapon/battleaxe}, {eq-weapon/greataxe}, {eq-weapon/greatsword}, {eq-weapon/handaxe}, {eq-weapon/light hammer}, {eq-weapon/longbow}, {eq-weapon/longsword}, {eq-weapon/shortbow}, {eq-weapon/short sword}, {eq-weapon/throwing axe}, and {eq-weapon/warhammer}."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"harrow_born": {
@@ -3124,7 +2870,6 @@
 			"",
 			"You grew up around the mysterious fortune-tellers known throughout Ustalav and Varisia. You start play with a harrow deck passed down from a relative. Because of your skill with fortune-telling, you gain a +1 trait bonus on initiative checks."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"harrow_chosen": {
@@ -3136,7 +2881,6 @@
 			"",
 			"All your life you've been drawn to the mysteries surrounding your family's harrow deck. You begin play with your family's heirloom harrow deck. If you use this specific harrow deck as an additional focus component when you cast a divination spell, your caster level is treated as being 2 levels higher. Additionally, twice per week, you can spend 10 minutes consulting this harrow deck on a particular action to gain the effects of the spell augury as a spellcaster of your character level. No one other than you gains these benefits from this harrow deck. If your harrow deck is destroyed, it cannot be replaced. However, by returning to your family, paying 300 gp on materials, and spending 1 week immersed in the songs and stories of your people, you can create a new harrow deck that grants half the benefits of the lost heirloom."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"practiced_gambler": {
@@ -3148,7 +2892,6 @@
 			"",
 			"Your upbringing around the Sczarni has exposed you to games with cards and dice. You gain a +1 trait bonus on Bluff and Sleight of Hand checks; for the purpose of gambling, these bonuses increase by 1."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"stargazer_human": {
@@ -3160,7 +2903,6 @@
 			"",
 			"You spent many years wandering the roads of Varisia and beyond, and during clear nights, you took to tracking the celestial bodies that adorn Golarion's skies. You gain a +1 trait bonus on Knowledge (geography) and Survival checks."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"tattooed_focus": {
@@ -3172,7 +2914,6 @@
 			"",
 			"You possess an intricate tattoo that proclaims your skill at your chosen vocation. Choose a Craft, Perform, or Profession skill. You gain a +2 trait bonus on checks with that skill, and it is always a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"varisian_tattoo": {
@@ -3184,7 +2925,6 @@
 			"",
 			"You bear the elaborate tattoos of your people, marking you as a free son or daughter of the road. You gain a +1 trait bonus on saving throws against charm and compulsion effects. Additionally, you are proficient with bladed scarves and starknives."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"varki_landspeaker": {
@@ -3196,7 +2936,6 @@
 			"",
 			"You are deeply attuned to the lands your people call home and the spirits that live there. You gain a +1 trait bonus on Survival checks in arctic or cold terrain. In addition, while in such terrain, you may query the spirits of the land once per day to gain a +5 trait bonus on a single skill check to follow tracks, forage, or find shelter."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"disciplined_body": {
@@ -3208,7 +2947,6 @@
 			"",
 			"You respect your mind's mastery over your body's full potential. Once per day, you can use your Wisdom modifier instead of either your Strength or Dexterity modifier on an attack roll, a combat maneuver check, a Strength or Dexterity-based skill check, a Strength check, a Dexterity check, or a Reflex save. You must choose to use this trait before rolling."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"latent_psion": {
@@ -3220,7 +2958,6 @@
 			"",
 			"The power to affect the world with the mind is very much a reality in your distant homeland. Although you may not even have been born in Vudra, this power remains potent in your mind as well and protects you from mental assault. You gain a +2 trait bonus on saves against mind-affecting effects."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"open_palm_of_irori": {
@@ -3232,7 +2969,6 @@
 			"",
 			"Your practice of the tenets of Vudrani martial arts has granted you a perfect balance between body and spirit. You gain a +1 trait bonus on Acrobatics and Knowledge (religion) checks. If you have a ki pool, once per day as a swift action, you may channel your ki during an unarmed strike, gaining a +2 trait bonus on one damage roll. This additional damage is precision damage."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"sharp_wits": {
@@ -3244,7 +2980,6 @@
 			"",
 			"You were raised with a daily regimen to keep your mind sharp and your words fluid. You gain a +1 trait bonus on {rule/concentration} checks and on Bluff checks."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"voice_of_velvet": {
@@ -3256,7 +2991,6 @@
 			"",
 			"You have the ability to sing a song and spin a story that captures the hearts of those around you. You gain a +1 trait bonus on Diplomacy and Perform (oratory) checks."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"expert_distractor": {
@@ -3268,7 +3002,6 @@
 			"",
 			"Whenever you damage an opponent that is casting a spell with a melee attack that deals fire damage (such as a flaming weapon or a torch), the DC of the {rule/concentration} check for your opponent to cast the spell is equal to 10 + the non-fire damage dealt + double the fire damage dealt + the spell's level (instead of just 10 + the damage dealt + the spell's level)."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"fiery_glare": {
@@ -3280,7 +3013,6 @@
 			"",
 			"You can use your unearthly nature to frighten others. You can always take 10 on Intimidate checks, even in combat."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"hot_headed": {
@@ -3292,7 +3024,6 @@
 			"",
 			"The constant threat of slavers in your youth taught you to attack first and ask questions later. Whenever you charge, you gain a +1 trait bonus on your damage roll."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"snap_ignition": {
@@ -3304,7 +3035,6 @@
 			"",
 			"You are a pyromaniac by nature and love nothing more than setting fires. As a full-round action, you can produce a small flame at the end of your finger that ignites combustible materials as a tindertwig. Alternatively, you can maintain a flame equivalent to a candle by spending a standard action each round to concentrate on it."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"unflappable_arrogance": {
@@ -3316,7 +3046,6 @@
 			"",
 			"You laugh in the face of your aggressors. The DC to demoralize you with the Intimidate skill increases by 5. If an opponent's Intimidate check would be high enough to cause you to become demoralized for more than 1 round, you are instead demoralized for only 1 round."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"adroit": {
@@ -3328,7 +3057,6 @@
 			"",
 			"If one of your hands is free and your base attack bonus is +1 or higher, you can draw a weapon as a free action combined with any move action (including move actions to direct spells, manipulate items, stand up, and so on)."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"covered_sniper": {
@@ -3340,7 +3068,6 @@
 			"",
 			"You were attacked by strangers that threatened to expose your existence to dangerous forces and you defended yourself using cover. You gain a +1 trait bonus on ranged weapon damage rolls as long as you have cover from your opponent."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"spidery_climber": {
@@ -3352,7 +3079,6 @@
 			"",
 			"More hands means more handholds. You gain a +1 trait bonus on Climb checks. In addition, as long as you have two hands free, the DC to catch yourself on a wall while falling is equal to the wall's DC + 10, and the DC to catch yourself on a slope is equal to the slope's DC + 5."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"among_humans": {
@@ -3364,7 +3090,6 @@
 			"",
 			"You have spent your entire life living among humans and are an expert at impersonating them. You gain a +2 trait bonus on Disguise checks to appear human while assuming your specific human form with the change shape racial trait, and Disguise is always a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"kami_respect": {
@@ -3376,7 +3101,6 @@
 			"",
 			"Close contact with kami has given you an intuition for how to stay on their good side. Kami automatically have a starting attitude one step friendlier toward you, to a maximum of Friendly."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"nine_tailed_scion": {
@@ -3388,7 +3112,6 @@
 			"",
 			"You are talented with kitsune magic. You gain a +1 trait bonus on caster level checks for your racial spell-like abilities as well as those from the {feat/Magical Tail} feat. Additionally, you can select Magical Tail as a bonus feat whenever your favored class grants you a bonus bloodline feat, combat feat, or metamagic feat instead of the normal type of feat granted by that class. You cannot exchange specific feats granted by a class or race for Magical Tail in this manner; for instance, a monk cannot exchange his {feat/Stunning Fist} feat for Magical Tail."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"carnation_scales": {
@@ -3400,7 +3123,6 @@
 			"",
 			"Though your light pink scales made you the subject of ridicule by your tribe, you can adapt to more environments than they can. You gain a +1 bonus on Survival checks, and Survival is always a class skill for you. Most kobolds with carnation scales also have the day raider alternate racial trait."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"golden_scales": {
@@ -3412,7 +3134,6 @@
 			"",
 			"Your distinctive golden scales strongly reflect the light, making other kobolds mistrust you, but aboveground races favor you. You take a -1 penalty on Bluff checks and Diplomacy checks when dealing with other kobolds, but a +2 bonus on Bluff checks and Diplomacy checks when dealing with non-reptilian humanoids."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"kobold_faith": {
@@ -3424,7 +3145,6 @@
 			"",
 			"You are one of the diehard kobold faithful, respected in your kobold community. You gain a +2 trait bonus on Diplomacy checks when dealing with other kobolds. Additionally, if your deity grants the Artifice, Earth, or Trickery domain, then your kobold faith unlocks a corresponding subdomain: Trap, Radiation, or Ambush."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"purple_scales": {
@@ -3436,7 +3156,6 @@
 			"",
 			"Your outlandish purple scales made you an outcast from your tribe and forced you to survive in isolation at the edges of kobold society. While wandering alone through the Darklands, you contacted several other underground races and expanded your linguistic repertoire. In addition to speaking Draconic, you begin play with the ability to speak one of the following: Aklo, Dwarven, Goblin, or Undercommon."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"tribal_guide": {
@@ -3448,7 +3167,6 @@
 			"",
 			"You were trained to guide the movements of larger creatures, perhaps travelers from Ilizmagorti or transports under Absalom. You provide food and water or a bonus against severe weather for two additional creatures whenever you succeed at the appropriate Survival check, and Survival is a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"vexed": {
@@ -3460,7 +3178,6 @@
 			"",
 			"You had multiple narrow escapes from gremlin saboteurs and learned to avoid their magic. You gain a +1 trait bonus on saving throws against curses and fear effects."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"bog_scamp": {
@@ -3472,7 +3189,6 @@
 			"",
 			"You were raised in the sludgy swamps, and are used to moving through boggy terrain. You can swim through a deep bog at up to half your speed as a move action, instead of the normal quarter speed. Failing a swim check while in a deep bog doesn't cause you to go underwater, even if you fail by 5 or more, though such a failure still results in a lack of progress."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"ooze_defense": {
@@ -3484,7 +3200,6 @@
 			"",
 			"The murky tunnels of your tribal home were infested with voracious oozes, which were a constant threat to your tribe. To protect yourselves, you and your tribespeople never strayed far without anti-ooze acid. You begin play with three alkali flasks. These don't count against your starting character wealth."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"sneaky_swimmer": {
@@ -3496,7 +3211,6 @@
 			"",
 			"Swimming comes naturally to you, as does hunting marsh vipers and other aquatic creatures. Increase the number of rounds you can hold your breath underwater by an amount equal to your Constitution score. You gain a +2 bonus on Stealth checks in swamps and in underwater environments."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"draconic_echo": {
@@ -3508,7 +3222,6 @@
 			"",
 			"Like the blue dragons your tribe reveres, you have a touch of illusory magic. You are able to cast {spell/ghost sound} twice per day as a spell-like ability. The caster level for this effect is equal to your character level. This spell-like ability's save DC is Intelligence-based."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"elaborate_trapper": {
@@ -3520,7 +3233,6 @@
 			"",
 			"You're blessed with a devious mind, and the more elaborate your traps are, the more effective they become. When creating a trap, if your Craft (trap) roll exceeds the DC of the check by 5 or more, that trap's Disable Device DC increases by 2."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"lightning_blessed": {
@@ -3532,7 +3244,6 @@
 			"",
 			"You're favored by the lightning shaman of your tribe, and he gifted you several sacred items as a reminder of your origins. You begin play with three vials of bottled lighting. These don't count against your starting character wealth."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"liquid_tongued": {
@@ -3544,7 +3255,6 @@
 			"",
 			"The magic-users in your tribe pride themselves on their ability to control the forces of water. Integral to this practice is the ability to study and communicate with visitors from the Elemental Plane of Water. In addition to speaking Draconic, you begin play with the ability to speak Aquan."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"alchemical_breath": {
@@ -3556,7 +3266,6 @@
 			"",
 			"Your tribe, in an effort to emulate the green chromatic dragons they admire, goes to great lengths to secure alchemical coal. As a member of a green kobold tribe, you begin play with three pieces of the choking smoke variety of alchemical coal. Eating one of these pellets allows you to exhale noxious vapors, damaging and sickening your enemies. These pellets do not count against your starting character wealth."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"kobold_herbalist": {
@@ -3568,7 +3277,6 @@
 			"",
 			"You are familiar with the flora of your native forest and have rudimentary skill as an herbalist. Once per day, you can attempt a DC 20 Survival check instead of a Craft (alchemy) check to create a single dose of scent cloak without paying any cost for raw materials. Any scent cloak created using this method must be used within 24 hours, or it becomes inert."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"slithering_stride": {
@@ -3580,7 +3288,6 @@
 			"",
 			"You were raised as a forest trapper, and are adept at moving quickly through underbrush. For 3 rounds per day, you can move through light or heavy undergrowth at full speed. This ability doesn't work in terrain that has been magically manipulated to impede motion."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"fire_tongued": {
@@ -3592,7 +3299,6 @@
 			"",
 			"The sorcerers of your tribe are adept at summoning and binding outsiders from the Elemental Plane of Fire. In order to communicate with their thralls, many in your tribe learned the rudiments of the outsiders' language. In addition to speaking Draconic, you begin play with the ability to speak Ignan."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"firebug_kobold": {
@@ -3604,7 +3310,6 @@
 			"",
 			"Like the red dragons that inspire your tribe, you're blessed with a small spark of incendiary magic. You are able to cast {spell/spark} three times per day as a spell-like ability. The caster level is equal to your character level. This spell-like ability's save DC is Intelligence-based."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"heat_fortitude": {
@@ -3616,7 +3321,6 @@
 			"",
 			"You grew up close to sulfurous volcanic vents, which steeled you against heat dangers. You gain a +4 trait bonus on Fortitude saving throws against nonlethal damage from heat."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"smoke_resistant": {
@@ -3628,7 +3332,6 @@
 			"",
 			"You've spent so much of your life around fires that smoke no longer affects you the way it does other creatures. Your vision isn't impaired by nonmagical smoke, and you gain a +5 trait bonus on Fortitude saves to avoid coughing and choking because of [smoke inhalation](rule/forest_fires). This trait confers no benefits against magically created smoke, such as that produced by pyrotechnics."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"cold_fortitude": {
@@ -3640,7 +3343,6 @@
 			"",
 			"The perpetually chilly environment of your youth made you exceptionally resilient in arctic climes. You gain a +4 trait bonus on Fortitude saving throws against nonlethal cold damage."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"frost_spitter": {
@@ -3652,7 +3354,6 @@
 			"",
 			"The icy breath of a white dragon fills your lungs. Once per day, you can quickly exhale to produce a frigid cloud of dense fog that quickly sinks to the ground. This freezing mist covers a 10-foot-square area with slippery ice that's as difficult to traverse as an ice sheet."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"icy_mementos": {
@@ -3664,7 +3365,6 @@
 			"",
 			"As a parting gift, the shaman of your tribe gave you an alchemical concoction as a reminder of your icy home. You begin play with three bottles of liquid ice. These don't count against your starting character wealth."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"skaters_balance": {
@@ -3676,7 +3376,6 @@
 			"",
 			"You grew up stalking across the frozen pools of water that dot your tribe's Darklands home. You don't need to spend extra movement to enter a square of an ice sheet, and the DCs of your Acrobatics checks on ice sheets don't increase by 5."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"castrovel_gatekeeper": {
@@ -3688,7 +3387,6 @@
 			"",
 			"You helped maintain the interplanetary portals used for trade with other worlds. You gain a +2 trait bonus on Spellcraft checks to identify teleportation magic and a +1 trait bonus on caster level checks when casting teleportation spells. You know the proper commands to operate a particular interplanetary portal (it is up to the GM as to where it is and how it operates)."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"skilled_telepath": {
@@ -3700,7 +3398,6 @@
 			"",
 			"The range of your limited telepathy racial ability increases by 5 feet."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"tactile_telekinesis": {
@@ -3712,7 +3409,6 @@
 			"",
 			"Once per day as a swift action, you can add a trait bonus equal to your Intelligence modifier on Strength checks and Strength-based skill checks you attempt before the beginning of your next turn."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"guarded": {
@@ -3724,7 +3420,6 @@
 			"",
 			"You grew up believing air-breathers are not to be trusted. You gain a +2 trait bonus on Bluff and Sense Motive checks against non-aquatic humanoids."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"longlung": {
@@ -3736,7 +3431,6 @@
 			"",
 			"You have spent long hours scouring shipwrecks and shoreline tide pools during low tide for shiny treasure. You gain a +2 trait bonus on Perception checks while underwater and can hold your breath for a number of rounds equal to three times your Constitution score before you risk drowning."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"nagaji_nationalist": {
@@ -3748,7 +3442,6 @@
 			"",
 			"Your loyalty to the nagaji nation of Nagajor is powerful. You gain a +1 trait bonus on attack rolls and saving throws against foes that directly threaten the safety of Nagajor."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"animal_rustler": {
@@ -3760,7 +3453,6 @@
 			"",
 			"You frequently helped capture and wrangle dangerous animals and megafauna for your tribe, and you had to control them well enough to avoid being killed. Once per day, you can add your Strength modifier in addition to your Charisma modifier when attempting a Handle Animal check."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"brimstone_seer": {
@@ -3772,7 +3464,6 @@
 			"",
 			"You were exposed to vision-granting caustic vapors by the oracles of the Brimstone Haruspex, whether because you had a pressing question or because a parent or chieftain considered you an expendable proxy. The vapors left scars that impose a -1 penalty on Charisma-based checks, but once per day you gain a flash of insight that allows you to roll twice on a Knowledge skill check or Intelligence check and take the better result. You must choose to use this trait before rolling."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"earthsense": {
@@ -3784,7 +3475,6 @@
 			"",
 			"You were inexplicably transformed in the womb by elemental forces, making your connection to the earth exceptionally strong. As a swift action, you can gain tremorsense to a range of 60 feet until the beginning of your next turn. You can use this ability once per day at 1st level, plus one additional time per day at 5th level and every 5 levels thereafter, to a maximum of five times per day at 20th level."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"loner_of_the_rocks": {
@@ -3796,7 +3486,6 @@
 			"",
 			"Feeling harried by flighty non-oreads, you chose to embrace the life of a hermit with few contacts beyond your rocky home. You gain a +1 trait bonus on Heal and Survival checks. Your bonus on Survival checks increases by 1 in underground or mountain environments."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"sandy_ambush": {
@@ -3808,7 +3497,6 @@
 			"",
 			"You are skilled at blending in with the desert terrain and attacking creatures as they pass by. When prone in desert terrain, you gain a +2 trait bonus on Stealth checks and take only a -2 penalty on attack rolls (rather than -4) when attacking from prone."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"statuesque": {
@@ -3820,7 +3508,6 @@
 			"",
 			"You inherited the statuesque physical features of your shaitan parent. Disguise becomes a class skill for you, and you gain a +2 trait bonus on Disguise checks to disguise yourself as a statue made of a specific type of stone, such as marble, sandstone, or alabaster. Furthermore, you take none of the penalties normally associated with disguising yourself as a different type of creature. You must choose the type of stone you resemble when you take this trait; once chosen, it cannot be changed."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"stoic_dignity": {
@@ -3832,7 +3519,6 @@
 			"",
 			"You are an unmoving rock for those who see you as an authority figure. As long as you are conscious, you and all allies within 10 feet gain a +1 bonus on saving throws against mind-affecting effects you are not already suffering from. This is a trait bonus for you and a morale bonus for your allies."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"bauble_fascination": {
@@ -3844,7 +3530,6 @@
 			"",
 			"You are fond of eldritch baubles and are skilled at activating their wondrous powers. You gain a +1 trait bonus on Use Magic Device checks, and Use Magic Device is always a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"business_venturer": {
@@ -3856,7 +3541,6 @@
 			"",
 			"Your mercantile pursuits have sent you across Golarion, making you better traveled than most ratfolk. You gain a +1 trait bonus on Appraise, Knowledge (local), and Profession (merchant) checks, and one of these skills (your choice) is a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"ratfolk_avenger": {
@@ -3868,7 +3552,6 @@
 			"",
 			"You protect your own. You gain a +1 trait bonus on weapon damage rolls against opponents you have witnessed dealing damage to one of your allies."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"scamper": {
@@ -3880,7 +3563,6 @@
 			"",
 			"In desperate times, your adrenaline kicks in to help you avoid danger. During the first round of combat in which you can act, you ignore difficult terrain and gain an additional 5 feet of movement. This benefit does not apply when you are carrying a medium or heavier load."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"walls_of_half_truths": {
@@ -3892,7 +3574,6 @@
 			"",
 			"As soon as you made contact with other samsarans, they encouraged your talent for magic that befuddles foes. Treat your caster level as 1 higher for the purpose of determining duration of your figment and glamer spells."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"curse_in_the_blood": {
@@ -3904,7 +3585,6 @@
 			"",
 			"You gain a +1 trait bonus on saving throws against curses. You treat your caster level as 1 higher when casting spells and spell-like abilities with the curse descriptor."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"marked_by_natures_magic": {
@@ -3916,7 +3596,6 @@
 			"",
 			"You hail from a community-perhaps in Arcadia or the Lands of the Linnorm Kings-that encouraged you to interact with fey. You gain a +1 trait bonus on Knowledge (nature) checks involving fey and on Diplomacy checks to influence fey. Knowledge (nature) is always a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"mastery_of_form": {
@@ -3928,7 +3607,6 @@
 			"",
 			"You've never had trouble changing shape between beast and humanoid, and your ability to control your form is unparalleled. You gain a +2 trait bonus on saving throws against polymorph effects."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"traumatic_shift": {
@@ -3940,7 +3618,6 @@
 			"",
 			"Your first transformation was in a public place, observed by loved ones who later shunned you or townsfolk who chased you away. You have become good at hiding your nature. You gain a +1 trait bonus on Bluff checks, and Bluff becomes a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"fight_with_the_flock": {
@@ -3952,7 +3629,6 @@
 			"",
 			"You have always been most comfortable in a group. Since awakening to your werebat powers, this feeling has only grown. As long as you are within 10 feet of at least two allies, you gain a +1 trait bonus on Intimidate checks and attack rolls to make attack of opportunity."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"precision_hearing": {
@@ -3964,7 +3640,6 @@
 			"",
 			"You have long relied on your enhanced hearing to warn you of those who would persecute you for your nature. Whenever you succeed at a Perception check to hear a creature you can't see and your check exceeds the DC by 10 or more, you can pinpoint the exact square where the sound originated."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"durable_change": {
@@ -3976,7 +3651,6 @@
 			"",
 			"When you use your change shape ability, you can choose to gain the benefits of the {feat/Endurance} feat rather than gaining a special ability."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"reviving_rest": {
@@ -3988,7 +3662,6 @@
 			"",
 			"When you first demonstrated your werebear ancestry, you slept for a week and awoke feeling more refreshed than ever before. Whenever you undergo complete bed rest for 24 hours, you recover an amount of hit points equal to three times your character level."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"boar_resilience": {
@@ -4000,7 +3673,6 @@
 			"",
 			"You were victimized by bullies or even abusive adults. Although the harassment got worse when your wereboar features became more obvious, those features also gave you fortitude that helped you resist it. You are unimpaired by being at exactly 0 hit points. In addition, you can ignore the {feat/Endurance} prerequisite for the {feat/Diehard} feat."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"strength_of_body": {
@@ -4012,7 +3684,6 @@
 			"",
 			"You took longer than most to learn control over your transforming abilities, but in that time you learned a trick to make the most of your strength. Once per day, you can use your Strength modifier in place of your Constitution modifier on a single Fortitude saving throw. You must announce that you are using this ability before you roll the saving throw."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"crocodile_swim": {
@@ -4024,7 +3695,6 @@
 			"",
 			"You grew up near crocodiles, learning to move as they do. You gain a +2 trait bonus on Swim and Stealth checks while moving at half speed or less and mostly or completely underwater. One of these skills (your choice) becomes a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"terrifying_lunge": {
@@ -4036,7 +3706,6 @@
 			"",
 			"Once badly bitten by a stronger werecrocodile-kin, you learned the importance of showing your strength. Once per day, when you hit a flat-footed foe with a melee attack, you can make an Intimidate check to demoralize that foe as a swift action. Intimidate becomes a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"inured_to_disease": {
@@ -4048,7 +3717,6 @@
 			"",
 			"The first sign of your wererat heritage was your seeming imperviousness to disease. You gain a +2 trait bonus on Fortitude saving throws against diseases."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"rat_squeeze": {
@@ -4060,7 +3728,6 @@
 			"",
 			"You first discovered your wererat-related abilities while escaping someone, whether the authorities or a rival, and ever since you have honed your ability to squeeze out of tight situations. Whenever you use your skinwalker ability to change shape into your bestial form, you can squeeze through narrow spaces at least half as wide as your normal space without slowing your movement; each move into or through a narrow space counts as 1 square, though you still take all the normal penalties associated with squeezing."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"sharkchild": {
@@ -4072,7 +3739,6 @@
 			"",
 			"In your youth, you swam into the ocean as deep as you could, and had it not been for your wereshark ancestry you would have surely drowned. You gain a +1 trait bonus on Swim checks. As long as you have a swim speed (such as that granted by your bestial form), you can use the run action to move up to five times your swim speed while swimming straight down from or straight up toward the surface of the water."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"shoreline_skirmisher": {
@@ -4084,7 +3750,6 @@
 			"",
 			"You were raised without many toys or possessions, but you made do exploring every detail of the nearby seashore, and know how to spot potential tools or obstacles. You gain a +2 trait bonus on combat maneuver checks as long as you or your opponent is on sand or in water at least 6 inches deep."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"feline_instinct": {
@@ -4096,7 +3761,6 @@
 			"",
 			"When your weretiger heritage first manifested, you spent a period of time living off what you could catch, developing a sharp instinct to act when your foes were most vulnerable. In any combat in which you act during the surprise round, you gain a +3 trait bonus on your initiative check."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"tigers_claw": {
@@ -4108,7 +3772,6 @@
 			"",
 			"Your feline agility helps you inflict a devastating blow at the end of a charge. Whenever you use the charge action, you gain a +1 trait bonus on your weapon damage roll."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"lycanthropic_bloodlust": {
@@ -4120,7 +3783,6 @@
 			"",
 			"When your lycanthropic heritage awakened, you thrilled at any excuse for violence. Although you might have learned to focus or suppress this urge, it still gives you energy in a fight. Once per day, when you deal damage to a foe with a natural attack, you may gain 1d6 temporary hit points as an immediate action. These temporary hit points last for 1 minute."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"shared_curse": {
@@ -4132,7 +3794,6 @@
 			"",
 			"A portion of your ancestor's fell curse still courses through your blood. Once per day as a standard action, you can share a portion of your accursed heritage with a willing ally by dealing 1 point of damage to that ally with a natural weapon. The ally gains a natural bite attack, as if from your skinwalker ability, for 2 rounds."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"aerial_harrier": {
@@ -4144,7 +3805,6 @@
 			"",
 			"You are used to fighting enemies who cannot fly. While flying, you gain a +1 trait bonus to AC against melee attacks from creatures on the ground."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"dowsing": {
@@ -4156,7 +3816,6 @@
 			"",
 			"You are sensitive to the presence of all elements, allowing you to find water, landmarks, and evidence of prior camps or settlements. You gain a +1 trait bonus on Survival checks. Whenever you succeed at a Survival check to follow tracks in desert terrain, you can always tell how long ago the tracks were made (though supernatural abilities and spells still impede this ability as appropriate)."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"dualborn": {
@@ -4168,7 +3827,6 @@
 			"",
 			"You were not born of a janni-your non-human heritage can instead be traced back to some dualistic power between elemental realms. Choose two energy types other than sonic (acid, cold, electricity, or fire). Once made, this choice cannot be changed. You gain racial energy resistance only to the energy types you choose, and not to others. When using your elemental assault ability, you can only sheath your arms in the energy types selected, but you can choose to sheath your primary hand with one of the selected energy types and your off-hand with the other. Attacks made with each hand (or a weapon held in each hand) deal bonus energy damage of the selected type. While wielding a two-handed weapon, half of the bonus energy damage is one energy type and half is the other."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"elemental_caller": {
@@ -4180,7 +3838,6 @@
 			"",
 			"You learned conjuration magic in close contact with friendly elemental beings. Treat your caster level as 1 higher to determine the duration of spells you cast that call or summon genies or outsiders with the elemental subtype."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"instant_friendship": {
@@ -4192,7 +3849,6 @@
 			"",
 			"You inherited your janni parent's knack for reversing a tense situation. Once per day, you can treat an Intimidate roll to improve a creature's attitude toward you as if you had used Diplomacy instead. You must use this ability after making the check but before the GM has revealed the result. If you continue threatening the target after making the check, the check automatically fails."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"practiced_impression": {
@@ -4204,7 +3860,6 @@
 			"",
 			"You traveled constantly in your youth, and were forced to practice making a good first impression until you could do so effortlessly. You gain a +2 trait bonus on Diplomacy checks made against NPCs whom you have known for less than 1 hour."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"secret_keeper_svirfneblin": {
@@ -4216,7 +3871,6 @@
 			"",
 			"You trained from birth to never reveal secrets and never betray anyone's trust. You gain a +2 trait bonus on saving throws against divinations or enchantments that would compel you to reveal a secret or allow anyone to read your mind."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"aerial_observer": {
@@ -4228,7 +3882,6 @@
 			"",
 			"You are practiced at noticing details from high up. You gain a +2 trait bonus on Perception checks while you are at least 30 feet above ground level."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"carrying_voice": {
@@ -4240,7 +3893,6 @@
 			"",
 			"You grew up amid powerful storms and mimicked the rolling thunder with your voice. Treat your caster level as 2 higher to determine the range of sonic spells and effects. Others do not suffer a penalty on Perception checks to hear your voice due to wind."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"following_breeze": {
@@ -4252,7 +3904,6 @@
 			"",
 			"You always seem to be chased by drafts of moving air, and know exactly the right moment and method to lift yourself upon the breezes. As long as you get a running start, you gain a +2 trait bonus on Acrobatics checks made to jump. Your speed increases by 5 feet when you use the run action."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"thunderborn": {
@@ -4264,7 +3915,6 @@
 			"",
 			"The rumble in your voice and the spark in your eyes hint at a lineage of lightning and thunder, possibly tracing back to lightning elementals from the Plane of Air, or else to a magic-touched birth during a powerful thunderstorm. Once per day when you cast a spell that deals electricity damage, you can choose to make half of the damage electricity damage and the other half sonic damage."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"wind_carried_voices": {
@@ -4276,7 +3926,6 @@
 			"",
 			"You are a master of seeing through falsehoods and sharing secrets - the wind itself seems to carry your voice to those you trust. You gain a +1 trait bonus on Sense Motive checks to tell when someone is lying to you. Additionally, at will, as long as you are outdoors or in an area where there is noticeable air movement, you can whisper to any creature from up to 30 feet away. You can only designate one person in sight to hear your voice, and nearby creatures can hear these messages with a successful DC 20 Perception check. This is an extraordinary ability that otherwise functions as message."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"winged_aloofness": {
@@ -4288,7 +3937,6 @@
 			"",
 			"You learned from your syrinx elders that your race is better than non-winged races and you take care to keep above them physically as well. You gain a +2 trait bonus on Fly checks. This bonus increases to +4 on checks to avoid losing altitude when damaged."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"seafaring_slayer": {
@@ -4300,7 +3948,6 @@
 			"",
 			"At a vulnerable age, you survived an encounter with a monstrous sea creature. You reduce any foe's cover bonus to AC from water by 2."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"anticipate_evil": {
@@ -4312,7 +3959,6 @@
 			"",
 			"You can read subtle clues in the body language of fiends, allowing you to react just a bit faster than normal when dealing with such beings. You gain a +1 trait bonus on opposed Dexterity-based skill checks against outsiders with the evil subtype. In addition, when your initiative is tied with such creatures, you always act first regardless of which of you has a higher initiative modifier."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"beast_bully": {
@@ -4324,7 +3970,6 @@
 			"",
 			"You have learned how to exploit the fear felt by creatures of the natural world when they sense the shadow in your soul. You can make an Intimidate check instead of a Handle Animal check when trying to handle or push an animal."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"blessing_of_darkness": {
@@ -4336,7 +3981,6 @@
 			"",
 			"Your innate connection with the powers of darkness serves you well when evil zealots pray on your behalf. Whenever a spellcaster capable of channeling negative energy casts a beneficial spell on you, she acts as if she were one level higher for the purpose of determining that spell's effects."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"born_damned": {
@@ -4348,7 +3992,6 @@
 			"",
 			"The inherent sacrilege that taints your soul sometimes crowds out lesser banes. You gain a +2 trait bonus on saving throws against curses and magical effects that produce curses."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"dark_magic_affinity": {
@@ -4360,7 +4003,6 @@
 			"",
 			"You have an instinctive talent for unleashing the vilest spells, letting the taint in your blood empower your malicious magic. Whenever you cast a spell with the evil descriptor, you act as if you were one level higher for the purpose of determining that spell's effects."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"enduring_heritage": {
@@ -4372,7 +4014,6 @@
 			"",
 			"You can channel your evil ancestry to take advantage of any effects for which such an identity would matter (such as {spell/detect evil}). You detect as an evil outsider with the same number of HD as you possess. You can begin or end this effect as a swift action. You can maintain this effect for a number of rounds per day equal to your HD."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"ever_wary": {
@@ -4384,7 +4025,6 @@
 			"",
 			"Constant fear that your fiendish nature might provoke a sudden attack ensures that you never completely let down your guard. During the surprise round and before your first action in combat, you can apply half your Dexterity bonus (if any) to your AC. You still count as flat-footed for the purposes of attacks and effects."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"family_connections": {
@@ -4396,7 +4036,6 @@
 			"",
 			"Your dark ancestry gives you a special insight into how to motivate or placate fiends and their kin. You gain a +2 trait bonus on Bluff and Diplomacy checks made against outsiders belonging to the evil subtype."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"fiendish_sniper": {
@@ -4408,7 +4047,6 @@
 			"",
 			"You instinctively hide after you shoot your opponents, waiting for an opportune moment to strike again. You gain a +5 trait bonus on Stealth checks following a sniping attack."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"friendless": {
@@ -4420,7 +4058,6 @@
 			"",
 			"You have grown used to looking after yourself without help. You can make Heal checks on yourself for the purposes of treating deadly wounds, diseases, and poisons."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"hard_to_pin_down": {
@@ -4432,7 +4069,6 @@
 			"",
 			"Only more pressing dangers kept bullies from victimizing you. You gain a +2 trait bonus to AC against attacks of opportunity made by opponents whom you flank and opponents denied their Dexterity bonus to AC against you."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"inciter_tiefling": {
@@ -4444,7 +4080,6 @@
 			"",
 			"You always seem to know the perfect words to sow discord. You gain a +2 trait bonus on Bluff checks made to convince creatures to attack each other."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"malign_instrument": {
@@ -4456,7 +4091,6 @@
 			"",
 			"Select a good-aligned deity. Add 1 to the DCs of your spells' saves when targeting a good-aligned outsider or divine spellcaster who serves that deity."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"motherless": {
@@ -4468,7 +4102,6 @@
 			"",
 			"Your birth killed your mother, and you learned, even before words, how to manipulate others into looking after you. You gain a +2 trait bonus on Bluff and Disguise checks made for the purpose of making you seem injured, sickly, or weak in some other way."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"neutralizing_gut": {
@@ -4480,7 +4113,6 @@
 			"",
 			"Your fiendish heritage has made you more resilient to the many poisonous threats in wastelands. You gain a +2 trait bonus on saving throws against contact and inhaled poisons, and a +3 trait bonus on saving throws against ingested poisons."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"persecuted_expatriate": {
@@ -4492,7 +4124,6 @@
 			"",
 			"You were born in a nation that persecuted you for your heritage. Although you were under terrible duress, you escaped either with the aid of family or by your own cunning. You gain a +1 bonus on one skill depending on your fiendish heritage: asura (Knowledge [local]), daemon (Sleight of Hand), demodand (Intimidate), demon (Perception), devil (Sense Motive), div (Diplomacy), kyton (Escape Artist), oni (Disguise), qlippoth (Survival), or rakshasa (Sense Motive). That skill is always a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"prideful_temper": {
@@ -4504,7 +4135,6 @@
 			"",
 			"Memories of the cruel abuse and taunts you suffered as a child cause you to strike back with great fury at anyone who slanders you. You gain a +1 trait bonus on attack rolls made against creatures that have insulted you until you actually succeed in dealing damage."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"prolong_magic": {
@@ -4516,7 +4146,6 @@
 			"",
 			"Constant drills and preparation allow you to get more out of your innate magic. Whenever you use a spell-like ability gained through your tiefling heritage, it automatically acts as if affected by the {feat/Extend Spell} metamagic feat."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"shadow_stabber": {
@@ -4528,7 +4157,6 @@
 			"",
 			"An instinct for dishonorable conduct serves you well when fighting opponents who are blind, oblivious, or blundering around in the dark. You gain a +2 trait bonus on melee weapon damage rolls made against foes that cannot see you."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"suicidal": {
@@ -4540,7 +4168,6 @@
 			"",
 			"Shame and horror fill your subconscious, and you never stop looking for ways to grant yourself the peace of the grave. Once per day, as an immediate action, you can make yourself the target of any attack originally directed against a creature occupying an adjacent square."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"tempters_tongue": {
@@ -4552,7 +4179,6 @@
 			"",
 			"The blood of crafty, bargain-making fiends runs in your veins, and you have a talent for brokering deals of your own. You gain a +1 trait bonus on Diplomacy checks and on opposed Charisma checks to influence creatures you have charmed (such as with charm person)."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"twilight_zeal": {
@@ -4564,7 +4190,6 @@
 			"",
 			"The gloom of night and of the places beyond the reach of the sun gives you comfort and courage. You gain a +1 trait bonus on Will saving throws when in dim light or darkness."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"underling": {
@@ -4576,7 +4201,6 @@
 			"",
 			"People tend to assume you either are, or are willing to become, a minor cog in some evil cabal or conspiracy. You gain a +2 trait bonus on Bluff and Diplomacy checks made to either join or imply that you already belong to an evil organization."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"bent_body": {
@@ -4588,7 +4212,6 @@
 			"",
 			"While nothing is actually reversed, your bones and limbs are slightly out of alignment. You gain a +2 trait bonus to CMD when resisting grapple attempts."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"tough_skin": {
@@ -4600,7 +4223,6 @@
 			"",
 			"You retain a small amount of your ancestors' unyielding skin. You gain a +1 trait bonus to AC when opponents attempt to confirm critical hits with either bludgeoning or slashing weapons."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"arms_master": {
@@ -4612,7 +4234,6 @@
 			"",
 			"The legendary battle prowess of your ancestors ensures that you have a certain amount of innate martial skill. You take a -2 penalty on attack rolls made with weapons with which you are not proficient instead of the normal -4."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"prayer_breaker": {
@@ -4624,7 +4245,6 @@
 			"",
 			"You have an instinctive flair for causing such pain to the faithful that they temporarily lose their connection with their god. If a divine spellcaster makes a {rule/concentration} check to avoid losing a spell because of an injury you caused, increase the DC of that check by +2."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"god_scorn": {
@@ -4636,7 +4256,6 @@
 			"",
 			"Your contempt for the gods and their sad little priests makes it easier to shake off the effects of their prayers. You gain a +1 trait bonus on saving throws against divine spells."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"repulsive": {
@@ -4648,7 +4267,6 @@
 			"",
 			"Your repulsiveness causes people to almost instinctively shy away from making physical contact with you. You gain a +1 trait bonus on combat maneuver checks made to overrun and reposition opponents."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"deaths_deputy": {
@@ -4660,7 +4278,6 @@
 			"",
 			"When you send opponents to death's door, you often hurl their corpses right across its threshold. You gain a +2 trait bonus on the damage dealt for any attack that would already reduce your target to negative hit points without this trait."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"soul_eater": {
@@ -4672,7 +4289,6 @@
 			"",
 			"The act of murder allows you to draw vitality from fleeing souls. Whenever you use a coup de grace action to kill a creature (either by damage or through a failed Fortitude save), you gain a number of temporary hit points equal to half your character level (minimum 1) for 1 minute. These temporary hit points do not stack with multiple coups de grace."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"blood_stalker": {
@@ -4684,7 +4300,6 @@
 			"",
 			"Some infernal instinct makes it much easier for you to locate creatures whose blood you have drawn. You gain a +4 trait bonus on Survival checks made to track or follow a trail so long as you have dealt damage to the creature you are hunting within the last week."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"unearth_secrets": {
@@ -4696,7 +4311,6 @@
 			"",
 			"You have a gift for recognizing secret desires. You gain a +2 trait bonus on Sense Motive checks when trying to get a hunch that might reveal a target's hidden vice, dark impulse, or any other craving it would not want publicly revealed."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"big_boned": {
@@ -4708,7 +4322,6 @@
 			"",
 			"Your ancestors' great size has gifted you with an exceptionally sturdy frame. You gain a +1 trait bonus on combat maneuver checks made to overrun opponents, as well as a +1 trait bonus to your CMD against trip attempts."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"superior_clutch": {
@@ -4720,7 +4333,6 @@
 			"",
 			"Your hands not only are bigger than normal, but also have a strong grip useful for wielding large weapons. You gain a +1 trait bonus on damage rolls when using weapons intended for creatures of a larger size."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"deadly_rush": {
@@ -4732,7 +4344,6 @@
 			"",
 			"When you hurl yourself against a foe with reckless abandon, you often land particularly telling blows. You gain a +2 trait bonus on critical hit confirmation rolls made as part of a charge."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"flair_for_destruction": {
@@ -4744,7 +4355,6 @@
 			"",
 			"You have a talent for striking objects at their weakest points. You gain a +1 trait bonus on weapon damage rolls made against objects and constructs."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"chain_master": {
@@ -4756,7 +4366,6 @@
 			"",
 			"Your fiendish ancestry has granted you unnatural skill with the chain, and your enemies know to stay away when you wield it as a weapon. You gain a +2 trait bonus on combat maneuver checks made to trip opponents with a spiked chain or whip."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"pain_artist": {
@@ -4768,7 +4377,6 @@
 			"",
 			"Some trace of your kyton heritage makes people realize you are capable of anything, especially when they are bound and at your mercy. You gain a +2 trait bonus on Intimidate checks made against helpless creatures."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"buried_anxiety": {
@@ -4780,7 +4388,6 @@
 			"",
 			"You laugh at what makes others tremble, but are secretly disturbed by a particular sort of mundane item. Pick a specific sort of object, color, sound, or similar relatively common phenomena. You gain a +2 trait bonus on saving throws made to resist fear effects except when you can see, hear, smell, or taste that which unnerves you."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"shift_the_blame": {
@@ -4792,7 +4399,6 @@
 			"",
 			"You have learned many tricks to keep yourself from facing the consequences of your misdeeds. You gain a +1 trait bonus on Bluff and Diplomacy checks made to convince someone that another person is actually at fault for your actions."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"repel_sin": {
@@ -4804,7 +4410,6 @@
 			"",
 			"You have an instinctive revulsion for the sins that led to the rise of demons and subsequent downfall of qlippoth. You gain a +2 trait bonus on saving throws made against spells and effects with the evil descriptor."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"vile_kiss": {
@@ -4816,7 +4421,6 @@
 			"",
 			"You have learned how to exploit the natural disgust you provoke when in close proximity to others. You gain a +2 trait bonus on combat maneuver checks to perform a dirty trick combat maneuver for the purpose of making your opponent sickened."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"dragon_friend": {
@@ -4828,7 +4432,6 @@
 			"",
 			"You know how dragons move and how they perceive body language. You gain a +1 trait bonus to your CMD against dragons, and whenever you encounter a particular dragon for the first time, you can make a Diplomacy check to improve its attitude toward you by a maximum of one step as a full-round action as long as you have not acted in a hostile manner toward it."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"transitional": {
@@ -4840,7 +4443,6 @@
 			"",
 			"As a Transitional Triaxian, you are attuned to the weather no matter what world you stand upon. Once per day when you attempt a Survival check to predict the weather, you can add a trait bonus equal to 3 + 1/2 your character level. In addition, you gain a +1 trait bonus on Fortitude saves against the effects of cold and hot weather."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"triaxian_dragonslayer": {
@@ -4852,7 +4454,6 @@
 			"",
 			"You receive a +2 trait bonus on saving throws against the spells and spell-like abilities of dragons and a +1 trait bonus on caster level checks to overcome dragons' spell resistance."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"magic_survivor": {
@@ -4864,7 +4465,6 @@
 			"",
 			"You fought off devious magic in order to escape duergar captors. Choose two of Fortitude, Reflex, or Will saves. You gain a +1 trait bonus on saves of the types you chose against spells and spell-like abilities, and you take a -1 penalty on all saves of the remaining type."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"marids_fury": {
@@ -4876,7 +4476,6 @@
 			"",
 			"Your marid ancestry is particularly strong, and magic runs thick through your veins. When you use your hydraulic push spell-like ability, it can extinguish magical fires as well as nonmagical fires as long as you succeed at an opposed caster level check (the DC is equal to 11 + the magical fire's caster level)."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"slippery_step": {
@@ -4888,7 +4487,6 @@
 			"",
 			"You are used to walking on wet and slippery surfaces. You are always considered to have firm footing when fighting underwater, and you gain a +2 trait bonus on Acrobatics checks and Climb checks on wet surfaces or in wet terrain, including bogs, standing or running water, or a storm-tossed ship."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"undine_loyalty": {
@@ -4900,7 +4498,6 @@
 			"",
 			"You learned early on that teamwork can help keep you safe from troublemakers. Choose one teamwork feat that requires an ally with the same feat to be adjacent to you. You may benefit from that teamwork feat as long as you have an ally within 10 feet of you (though your ally does not benefit from the teamwork feat unless it also has this trait or a similar ability)."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"water_shaping": {
@@ -4912,7 +4509,6 @@
 			"",
 			"Your tight-knit undine community helped you practice your water magic safely. Whenever you cast a spell or use a spell-like ability that has the cold or water descriptor and affects an area, you can choose one square within the area. The spell or spell-like ability does not affect that square or creatures in it."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"whiteout": {
@@ -4924,7 +4520,6 @@
 			"",
 			"When the air is full of water, your elemental blood allows you to blend with your surroundings and become one with the precipitation. In areas of nonmagical fog, rain, snow, or similar conditions (such as the spray of a waterfall), you gain the effects of {rule/concealment}, but with a miss chance of 10%. If the precipitation would already grant you concealment, the miss chances stack."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"calculated_risk": {
@@ -4936,7 +4531,6 @@
 			"",
 			"Once per day, you may voluntarily fail a saving throw against a harmful spell or effect. After using this ability, for the next minute you may add a +4 trait bonus on one saving throw, after which the bonus is expended. You may use this bonus on an additional saving throw against the spell or effect you voluntarily failed (such as a recurring poison save or a follow-up save against hold person). If you do not use this bonus within 1 minute, it is lost."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"in_tune_with_language": {
@@ -4948,7 +4542,6 @@
 			"",
 			"Your keen ear for language grants you a +2 trait bonus on skill checks when decoding secret messages or finding hidden meaning in overheard conversations."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"proud_progenitor": {
@@ -4960,7 +4553,6 @@
 			"",
 			"Your loneliness drove you to build your coven, and you zealously attack any who would harm it. You gain a +1 trait bonus on damage rolls against creatures you have seen attack or harm any of your vampire spawn."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"weatherworn": {
@@ -4972,7 +4564,6 @@
 			"",
 			"Lairing in desolate mountains or on coastal cliff tops has taught you to deal with the effects of strong winds. You gain a +2 trait bonus against the effects of spells that create wind or move air, such as gust of wind. You treat natural weather conditions as one step weaker. These abilities also apply when you are in gaseous form."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"rapid_drain": {
@@ -4984,7 +4575,6 @@
 			"",
 			"The ferocity of your hunger grants you the ability to draw life from your victims faster. When you use your blood drain ability, you gain 7 temporary hit points instead of 5."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"telekinetic_dependence": {
@@ -4996,7 +4586,6 @@
 			"",
 			"Your body is so ancient you fear damaging it with exertion. You gain a +1 trait bonus to your caster level when casting (or using as a spell-like ability) {spell/fly}, {spell/levitate}, {spell/mage hand}, {spell/telekinesis}, and similar spells that move objects through sheer will."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"self_aware": {
@@ -5008,7 +4597,6 @@
 			"",
 			"Wisdom stolen from an enlightened mortal has opened your own mind. Knowing yourself helps you to understand others. You gain a +1 trait bonus on all Sense Motive checks, and Sense Motive becomes a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"stubborn": {
@@ -5020,7 +4608,6 @@
 			"",
 			"The angry child inside bolsters your will, and you often prove utterly defiant. You gain a +2 trait bonus on saving throws against attempts to control you, such as command undead, halt undead, or channeled energy to turn or control undead."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"trickster_vanara": {
@@ -5032,7 +4619,6 @@
 			"",
 			"You learned early that in order to get what you want, sometimes you have to act secretly. You gain a +1 trait bonus on Bluff and Stealth checks, and one of these skills (your choice) is always a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"augmented_spell_poisons": {
@@ -5044,7 +4630,6 @@
 			"",
 			"You can use your natural poison to augment the spells you cast. You can spend a use of your toxic racial trait and use a bit of your toxic saliva or blood as an additional material component for a spell with the poison descriptor to increase the spell's save DC by 1."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"water_lurker": {
@@ -5056,7 +4641,6 @@
 			"",
 			"You grew up in a secretive community by the water, perhaps among the rivers of Shenmen or the islands of Minata. You gain a +1 trait bonus on Swim checks and a +2 bonus on Stealth checks on watercraft and when at least half-submerged in water."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"resilient_construction": {
@@ -5068,7 +4652,6 @@
 			"",
 			"You spent a great deal of time around magical workshops, and the power of magic sustains you. Once per day, if you would be reduced to 0 or fewer hit points while under the effects of an ongoing spell you cast with a range of personal, you are not destroyed by the attack, but instead become inactive and helpless for 1 round, at negative hit points. If you take damage again during that time, or if you are still below 0 hit points at the end of that round, you are destroyed."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"fierce_flanker": {
@@ -5080,7 +4663,6 @@
 			"",
 			"You were bullied in your youth but supported by one or more good friends, impressing upon you the importance of teamwork. You gain a +1 trait bonus on damage rolls against foes you flank."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"blood_of_dragons": {
@@ -5091,7 +4673,6 @@
 			"",
 			"Long ago, your ancestors' blood mixed with that of dragons. Choose one of the following: gain a +1 trait bonus on Perception checks, gain low-light vision, or gain a +2 trait bonus on saving throws against effects that cause sleep or paralysis."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
 	"draconic_lineage": {
@@ -5102,7 +4683,6 @@
 			"",
 			"Somewhere in your family line, draconic power entered your bloodline. As a result of this lineage, you gain a +1 trait bonus on saving throws against fear and against any effect created by a creature of the dragon type. If you gain a bloodrager or sorcerer bloodline, you must choose draconic."
 		],
-		"category": "-",
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	}
 }

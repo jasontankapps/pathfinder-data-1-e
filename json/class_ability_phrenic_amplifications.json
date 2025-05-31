@@ -10,7 +10,6 @@
 		"name": "Biokinetic Healing",
 		"nameSuffix": "(Su)",
 		"compilationSources": [ [ "Occult Origins", 16 ] ],
-		"category": "-",
 		"description": [
 			"When the psychic casts a linked spell from the transmutation school, she can spend 1 point from her phrenic pool to regain 2 hit points per level of the linked spell."
 		]
@@ -19,7 +18,6 @@
 		"name": "Complex Countermeasures",
 		"nameSuffix": "(Ex)",
 		"compilationSources": [ [ "Occult Adventures", 60 ] ],
-		"category": "-",
 		"description": [
 			"The psychic can spend 1 point from her phrenic pool to increase by 2 the DCs of {rule/concentration} checks or caster level checks the linked spell requires enemies to attempt. For example, if the linked spell were {spell/nondetection}, the DC of the caster level check for using a divination on the warded creature or item would increase. This increase also applies to checks to dispel, counterspell, or identify the linked spell. The bonus applies while the spell is cast and lasts for the spell's duration (if appropriate), to a maximum of 24 hours. The psychic can choose to spend 2 points from her phrenic pool to instead increase the linked spell's DCs by 4."
 		]
@@ -28,7 +26,6 @@
 		"name": "Conjured Armor",
 		"nameSuffix": "(Su)",
 		"compilationSources": [ [ "Occult Adventures", 61 ] ],
-		"category": "-",
 		"description": [
 			"By spending 1 point from her phrenic pool, the psychic grants any creature she conjures or summons with the linked spell a +2 deflection bonus to AC. This bonus lasts for 1 round per caster level or until the creature disappears, whichever comes first. This amplification can be linked only to conjuration (calling) or conjuration (summoning) spells. The bonus increases to +3 at 8th level and to +4 at 15th level."
 		]
@@ -37,7 +34,6 @@
 		"name": "Defensive Prognostication",
 		"nameSuffix": "(Su)",
 		"compilationSources": [ [ "Occult Adventures", 61 ] ],
-		"category": "-",
 		"description": [
 			"When casting a divination spell, the psychic sees a glimmer of her future. By spending 1 point from her phrenic pool as she casts a divination spell, she gains a +2 insight bonus to AC for a number of rounds equal to the linked spell's level. She can instead spend 2 points to increase the bonus to +4. This amplification can be linked only to divination spells."
 		]
@@ -46,7 +42,6 @@
 		"name": "Dragon's Breath",
 		"nameSuffix": "(Su)",
 		"compilationSources": [ [ "Occult Origins", 16 ] ],
-		"category": "-",
 		"description": [
 			"The psychic can spend 2 points from her phrenic pool to change a linked spell that has a line or burst area of effect into a 30-foot cone that emanates from the psychic's mouth as a breath weapon."
 		]
@@ -55,7 +50,6 @@
 		"name": "Focused Force",
 		"nameSuffix": "(Su)",
 		"compilationSources": [ [ "Occult Adventures", 61 ] ],
-		"category": "-",
 		"description": [
 			"When casting a force spell, the psychic can increase the spell's damage by spending 1 point from her phrenic pool. Increase the die size for the spell's damage by one step (from 1d4 to 1d6, 1d6 to 1d8, 1d8 to 1d10, or 1d10 to 1d12). This increases the size of each die rolled, so a spell that dealt 4d6+3 points of force damage would deal 4d8+3 points of force damage instead. This amplification can be linked only to spells that deal force damage, and only if that damage includes a die value. A spell that already uses d12s for damage can't be amplified in this way."
 		]
@@ -64,7 +58,6 @@
 		"name": "Intense Focus",
 		"nameSuffix": "(Ex)",
 		"compilationSources": [ [ "Occult Adventures", 61 ] ],
-		"category": "-",
 		"description": [
 			"The psychic can spend 1 point from her phrenic pool to gain a +2 bonus on any concentration check she attempts as part of casting the linked spell. She can choose to spend 2 points from her phrenic pool to instead gain a +4 bonus."
 		]
@@ -73,7 +66,6 @@
 		"name": "Mind's Eye",
 		"nameSuffix": "(Su)",
 		"compilationSources": [ [ "Heroes of Golarion", 13 ] ],
-		"category": "-",
 		"description": [
 			"Some psychics train their visual and psychic senses, binding them together into a unified focus to better guide their ranged spells and place them with uncanny precision. While casting a spell that requires a ranged attack roll, the psychic can spend 2 points from her phrenic pool and gain a +4 insight bonus on the attack roll. The psychic can spend 1 additional point to ignore penalties from cover (but not total cover)."
 		]
@@ -82,7 +74,6 @@
 		"name": "Mindshield",
 		"nameSuffix": "(Su)",
 		"compilationSources": [ [ "Occult Adventures", 61 ] ],
-		"category": "-",
 		"description": [
 			"The psychic can spend 1 point from her phrenic pool to give one target of the linked spell a +2 morale bonus on Will saves for 1 round per psychic level (maximum 10 rounds). The psychic can instead spend 2 points to increase the bonus to +4. If the linked spell affects more than one creature, the psychic can spend the same number of points for each additional creature she wants to affect with this amplification. She must choose to spend either 1 point for each creature or 2 points for each creature; she can't grant different bonuses to different targets."
 		]
@@ -91,7 +82,6 @@
 		"name": "Mindtouch",
 		"nameSuffix": "(Su)",
 		"compilationSources": [ [ "Occult Adventures", 61 ] ],
-		"category": "-",
 		"description": [
 			"The psychic can spend 1 point from her phrenic pool to probe one target's mind if that creature is affected by the linked spell. If the target of the linked spell fails its saving throw or is hit by the spell, the psychic detects its surface thoughts (as the 3rd-round effect of {spell/detect thoughts}). If the linked spell doesn't already require an attack roll or allow a saving throw, the target can attempt a Will saving throw to avoid the thought-detection effect only; the DC is calculated using the linked spell's level (and all other bonuses that would apply if the linked spell allowed a Will save). This amplification can be linked only to spells that affect a target or an area. If the linked spell can affect more than one creature, the psychic can attempt to detect more than one target's thoughts by spending 1 additional point per creature beyond the first. She must select these targets when she casts the spell and spends the points. This is a mind-affecting effect."
 		]
@@ -100,7 +90,6 @@
 		"name": "Ongoing Defense",
 		"nameSuffix": "(Su)",
 		"compilationSources": [ [ "Occult Adventures", 61 ] ],
-		"category": "-",
 		"description": [
 			"The psychic can increase the duration of spells that improve her psychic defenses. She can spend 1 point from her phrenic pool when she casts any {spell/intellect fortress>_1}, {spell/mental barrier>_1}, {spell/thought shield>_1}, or {spell/tower of iron will>_1} spell to extend the spell's duration by 1 round."
 		]
@@ -109,7 +98,6 @@
 		"name": "Overpowering Mind",
 		"nameSuffix": "(Ex)",
 		"compilationSources": [ [ "Occult Adventures", 62 ] ],
-		"category": "-",
 		"description": [
 			"The psychic can spend 2 points from her phrenic pool to increase the Will save DC of the linked spell by 1. At 8th level, she can choose to instead spend 4 points to increase the DC by 2. At 15th level, she can choose to instead spend 6 points to increase the DC by 3. This amplification can be linked only to spells that have the mind-affecting descriptor and require a Will saving throw."
 		]
@@ -118,7 +106,6 @@
 		"name": "Perfect Body",
 		"nameSuffix": "(Ex)",
 		"compilationSources": [ [ "Heroes of Golarion", 13 ] ],
-		"category": "-",
 		"description": [
 			"Some practitioners of psychic techniques extend their training to improve their bodies as well as their minds. When the psychic casts a linked transmutation spell, she can spend 1 point from her phrenic pool to gain a +2 bonus on her next Reflex or Fortitude save."
 		]
@@ -127,7 +114,6 @@
 		"name": "Phrenic Strike",
 		"nameSuffix": "(Su)",
 		"compilationSources": [ [ "Occult Origins", 16 ] ],
-		"category": "-",
 		"description": [
 			"As long as the psychic has at least 1 point in her phrenic pool, she can attempt an unarmed strike in place of a touch attack as part of casting a spell with a range of touch. This unarmed attack still provokes attacks of opportunity as normal unless the psychic can otherwise make unarmed attacks without provoking attacks of opportunity."
 		]
@@ -136,7 +122,6 @@
 		"name": "Psychic Defense",
 		"nameSuffix": "(Su)",
 		"compilationSources": [ [ "Heroes of Golarion", 13 ] ],
-		"category": "-",
 		"description": [
 			"Reading small, invisible cues allows the psychic to take advantage of social circumstances and subtly influence her target. Casting a linked spell during a social encounter and spending 1 point from her phrenic pool allows the psychic to add a +4 bonus on her next Bluff, Diplomacy, Intimidate, or Sense Motive check."
 		]
@@ -145,7 +130,6 @@
 		"name": "Psychofeedback",
 		"nameSuffix": "(Su)",
 		"compilationSources": [ [ "Occult Origins", 16 ] ],
-		"category": "-",
 		"description": [
 			"The psychic can spend 2 points from her phrenic pool to sacrifice a linked spell of 2nd level or higher. Doing so grants the psychic a +1 enhancement bonus to Strength, Dexterity, or Constitution per level of the sacrificed spell. This bonus lasts for 1 minute per psychic level."
 		]
@@ -154,7 +138,6 @@
 		"name": "Relentless Casting",
 		"nameSuffix": "(Su)",
 		"compilationSources": [ [ "Occult Adventures", 62 ] ],
-		"category": "-",
 		"description": [
 			"The psychic can spend 1 point from her phrenic pool to roll twice on any caster level checks to overcome spell resistance required for the linked spell and take the better result. Because she must decide to spend points from her phrenic pool when she starts casting a spell, the psychic must decide to use this ability before the GM calls for the caster level check."
 		]
@@ -163,7 +146,6 @@
 		"name": "Telempathic Restoration",
 		"nameSuffix": "(Su)",
 		"compilationSources": [ [ "Occult Origins", 16 ] ],
-		"category": "-",
 		"description": [
 			"When the psychic casts {spell/telepathic bond}, she can spend 1 point from her phrenic pool to remove the {misc/dazed}, {misc/frightened}, {misc/panicked}, {misc/shaken}, or {misc/stunned} condition from one target of the bond. Doing so removes the status from the target of the linked spell, but applies it immediately (with any remaining duration) to the psychic."
 		]
@@ -172,7 +154,6 @@
 		"name": "Transfer Fear",
 		"nameSuffix": "(Su)",
 		"compilationSources": [ [ "Occult Origins", 16 ] ],
-		"category": "-",
 		"description": [
 			"When the psychic successfully affects a target with a fear effect, she can spend 1 point from her phrenic pool to remove a fear effect from herself or one ally with whom she is in telepathic contact."
 		]
@@ -181,7 +162,6 @@
 		"name": "Undercast Surge",
 		"nameSuffix": "(Su)",
 		"compilationSources": [ [ "Occult Adventures", 62 ] ],
-		"category": "-",
 		"description": [
 			"When the psychic undercasts a spell, she can spend points from her phrenic pool to increase the spell's effective level, essentially using up a lower-level spell slot to cast a higher-level version of the spell. This costs 2 points per spell level increased. She can't use this ability to cast a version higher than the version she knows. For instance, a psychic who knows {spell/mind thrust III} but not {spell/mind thrust IV} could cast {spell/mind thrust II} and spend 2 points to treat it as {spell/mind thrust III}, but couldn't spend 4 points to treat it as {spell/mind thrust IV}. This amplification can be linked only to spells that can be undercast."
 		]
@@ -190,7 +170,6 @@
 		"name": "Whisper of Ancients",
 		"nameSuffix": "(Ex)",
 		"compilationSources": [ [ "Heroes of Golarion", 13 ] ],
-		"category": "-",
 		"description": [
 			"The psychic can send her consciousness into the Astral Plane for a glimpse of synchronous information. While casting a linked divination spell, the psychic can spend 1 point from her phrenic pool to gain a +2 bonus on any associated skill check. She can spend 2 points from her phrenic pool to instead gain a +4 bonus."
 		]
@@ -199,7 +178,6 @@
 		"name": "Will of the Dead",
 		"nameSuffix": "(Su)",
 		"compilationSources": [ [ "Occult Adventures", 62 ] ],
-		"category": "-",
 		"description": [
 			"Even undead creatures can be affected by the psychic's mind-affecting spells. The psychic can spend 2 points from her phrenic pool to overcome an undead creature's immunity to mind-affecting effects for the purposes of the linked spell. This ability functions even on mindless undead, but has no effect on creatures that aren't undead. This amplification can be linked only to spells that have the mind-affecting descriptor."
 		]

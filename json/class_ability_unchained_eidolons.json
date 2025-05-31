@@ -9,7 +9,6 @@
 	"aberrant": {
 		"name": "Aberrant",
 		"compilationSources": [ [ "Horror Realms", 18 ] ],
-		"category": "-",
 		"description": [
 			"Alien entities from the farthest stars, the lightless depths of the Darklands, the sea itself, or even a lunatic's nightmares have long intrigued summoners who become obsessed with the monstrous form. While most summoners call upon outsiders from the Great Beyond, some discover the secret to summoning alien entities from strange corners of the Material Plane. These summoned minions are known as aberrant eidolons. Aberrant eidolons share many abilities and physical features with the nonoutsider aberrations that dwell in forgotten or nameless reaches of reality, but these malformed entities are still outsiders like any other eidolon for the purposes of determining which spells affect them.",
 			"",
@@ -33,7 +32,6 @@
 	"aeon": {
 		"name": "Aeon",
 		"compilationSources": [ [ "Plane-Hopper's Handbook", 24 ] ],
-		"category": "-",
 		"description": [
 			"Created to monitor a specific duality, an aeon eidolon often proves frustratingly headstrong in enforcing its own interpretation of balance.",
 			"",
@@ -57,7 +55,6 @@
 	"agathion": {
 		"name": "Agathion",
 		"compilationSources": [ [ "Pathfinder Unchained", 29 ] ],
-		"category": "-",
 		"description": [
 			"Patient and enlightened liaisons of the good-aligned Outer Planes, {family/agathion} eidolons seek to vanquish evil and protect that which is good. Agathion eidolons always have aspects of a single animal or creature, rather than a hodgepodge of several. Though they have patience for summoners with unorthodox methods and even those who stray from the path of good, they will not brook their powers being used for evil ends. An agathion eidolon seeks to bring its summoner closer to its own enlightenment.",
 			"",
@@ -81,7 +78,6 @@
 	"ancestor": {
 		"name": "Ancestor",
 		"compilationSources": [ [ "Blood of the Beast", 31 ] ],
-		"category": "-",
 		"description": [
 			"Whether created by bonding with the soul of a petitioner that was the summoner's ancestor in life or calling upon the impressions of such a soul left behind on the Ethereal Plane or the Akashic Record, ancestor eidolons are outsiders cast in the mold of mortals, and exhibit extraordinary skill and talent. They usually appear as idealized versions of the bodies they possessed while still alive, but distinctive and proud. Ancestor eidolons lend whatever aid they can to their summoner, who typically has some form of familial connection with the eidolon, be it by blood, honor, or devotion.",
 			"",
@@ -105,7 +101,6 @@
 	"angel": {
 		"name": "Angel",
 		"compilationSources": [ [ "Pathfinder Unchained", 30 ] ],
-		"category": "-",
 		"description": [
 			"Hailing from the higher planes, {family/angel} eidolons are creatures of exquisite beauty. They usually appear in idealized humanoid forms, with smooth skin, shining hair, and bright eyes. Angel eidolons are impeccably honorable, trustworthy, and diplomatic, but they do not shy away from confrontation when facing off against evil and its minions.",
 			"",
@@ -129,7 +124,6 @@
 	"archon": {
 		"name": "Archon",
 		"compilationSources": [ [ "Pathfinder Unchained", 30 ] ],
-		"category": "-",
 		"description": [
 			"Summoned from heaven, {family/archon} eidolons are the embodiments of righteousness. They often take on powerful, graceful forms, rippling with muscles but refined in their movements. Archon eidolons are totally dedicated to the cause of good, and have little patience for those who violate their oaths and ideals - including the summoner who called them. Archons will do whatever it takes to stop the advance of evil and protect the innocent.",
 			"",
@@ -153,7 +147,6 @@
 	"astral": {
 		"name": "Astral",
 		"compilationSources": [ [ "Plane-Hopper's Handbook", 24 ] ],
-		"category": "-",
 		"description": [
 			"While some resemble ouroboroses, most astral eidolons are spun from raw thought or the husks of Astral travelers whose silver cords broke.",
 			"",
@@ -179,7 +172,6 @@
 	"azata": {
 		"name": "Azata",
 		"compilationSources": [ [ "Pathfinder Unchained", 30 ] ],
-		"category": "-",
 		"description": [
 			"Embodiments of the untamable beauty and noble passion of Elysium, {family/azata} eidolons have wild and beautiful features. They often take graceful forms reminiscent of elves or fey, but they occasionally appear like lillends, with serpentine tails. Azata eidolons are flighty and independent, and they often have their own ideas about how to defeat evil or have a good time. Thus, an azata eidolon is likely to balk if its summoner commands it to perform offensive or nefarious actions. On the other hand, an azata eidolon in sync with its summoner is a passionate and devoted companion.",
 			"",
@@ -203,7 +195,6 @@
 	"daemon": {
 		"name": "Daemon",
 		"compilationSources": [ [ "Pathfinder Unchained", 31 ] ],
-		"category": "-",
 		"description": [
 			"The agents of horrible deaths, {family/daemon} eidolons desire the utter annihilation of all things. Their forms vary wildly depending on which type of death they embody, and daemon eidolons sometimes represent a more obscure kind of death than the most famous daemons. Daemon eidolons wish to sow death and misery through a variety of means. Most are capable of seeing the big picture, and will obediently follow even a neutral summoner. Ending lives is a typical part of an adventurer's career, so following along with a summoner gives a daemon eidolon many opportunities to gather mortal soul energy for its own dark and inscrutable purposes.",
 			"",
@@ -227,7 +218,6 @@
 	"deepwater": {
 		"name": "Deepwater",
 		"compilationSources": [ [ "Blood of the Sea", 23 ] ],
-		"category": "-",
 		"description": [
 			"The vast, lightless reaches of the sea are home to creatures of unimaginable power with connections to dangerous planes. A few rare summoners attempt to conjure forth eidolons from these cold, alien depths, drawing forth utterly inhuman allies with squirming tentacles and gnashing beaks. Although these eidolons may superficially resemble primeval beasts such as {monster/aboleth/s}, {monster/kraken/s}, or monstrous squids or eels - if they resemble any previously encountered deep-sea life-form at all - they are outsiders like any other eidolon for the purposes of spells and effects that affect them.",
 			"",
@@ -251,7 +241,6 @@
 	"demon": {
 		"name": "Demon",
 		"compilationSources": [ [ "Pathfinder Unchained", 31 ] ],
-		"category": "-",
 		"description": [
 			"Raw destruction given material substance, {family/demon} eidolons form out of the Abyss's stew of soul energy, leading some scholars to speculate that the summoner's arts are related to the magical tampering that gave rise to the first demons. Demon eidolons revel in causing destruction and inflicting suffering, and they will do so for their summoners without question, taking pleasure in whatever havoc they can create. For a demon eidolon, the means justify the ends.",
 			"",
@@ -275,7 +264,6 @@
 	"devil": {
 		"name": "Devil",
 		"compilationSources": [ [ "Pathfinder Unchained", 32 ] ],
-		"category": "-",
 		"description": [
 			"Corruptors, tempters, and despoilers, {family/devil} eidolons often serve their summoners obediently and efficiently, all in a long-term attempt to damn the summoner's soul to the deepest depths of Hell. While some types of devils have truly unusual forms, devil eidolons have found that the more traditional bipedal form allows them to build up a strong rapport with their summoners - and consequently to corrupt them - more easily than if they possessed a more monstrous appearance.",
 			"",
@@ -299,7 +287,6 @@
 	"div": {
 		"name": "Div",
 		"compilationSources": [ [ "Pathfinder Unchained", 32 ] ],
-		"category": "-",
 		"description": [
 			"Formed of hatred and spite, {family/div} eidolons seek to despoil and ruin all things beautiful and joyous. Div eidolons particularly resent having mortal masters, and seek to doom their summoners to existences full of suffering and loss. Each div eidolon has a unique compulsion it must follow - usually something similar to the {monster/doru/'s} obsession with secrets - that leads it to bargain its loyalty for something the summoner provides. The div's summoner uses his eidolon's compulsion to entrap and control the eidolon. Still, div eidolons never fully give in, and continue to plot ways they might corrupt that which their masters hold dearest.",
 			"",
@@ -323,7 +310,6 @@
 	"elemental": {
 		"name": "Elemental",
 		"compilationSources": [ [ "Pathfinder Unchained", 33 ] ],
-		"category": "-",
 		"description": [
 			"Pulled in from one of the four elemental planes, these eidolons are linked to one of the four elements: air, earth, fire, or water. Generally, an {family/elemental} eidolon appears as a creature made entirely of one element, but there is some variation. Elemental eidolons are decidedly moderate in their views and actions. They tend to avoid the conflicts of others when they can and seek to maintain balance. The only exception is when facing off against emissaries of their opposing elements, which they hate utterly.",
 			"",
@@ -349,7 +335,6 @@
 	"genie": {
 		"name": "Genie",
 		"compilationSources": [ [ "Elemental Master's Handbook", 27 ] ],
-		"category": "-",
 		"description": [
 			"Genies are elemental beings that take humanoid forms, and {family/genie} eidolons often vacillate between humble kowtowing and biting observations about the summoner's foibles that make the eidolon look superior.",
 			"",
@@ -373,7 +358,6 @@
 	"inevitable": {
 		"name": "Inevitable",
 		"compilationSources": [ [ "Pathfinder Unchained", 33 ] ],
-		"category": "-",
 		"description": [
 			"Implacable and ceaseless in their fight against chaos and those who break natural laws, {family/inevitable/s} make loyal, if literal-minded, companions for lawful summoners. Summoners of inevitables generally get along well with axiomites, who share their understanding of the process of forging and modifying an inevitable. Inevitable eidolons appear as a mixture between clockwork constructs and idealized humanoid statues.",
 			"",
@@ -397,7 +381,6 @@
 	"kami": {
 		"name": "Kami",
 		"compilationSources": [ [ "Wilderness Origins", 18 ] ],
-		"category": "-",
 		"description": [
 			"{family/Kami} eidolons are spirits of nature bound to an unchained summoner. They seek to protect their wards, but because of their summoner's bond, they have more flexibility choosing their wards than most of their kind.",
 			"",
@@ -421,7 +404,6 @@
 	"kyton": {
 		"name": "Kyton",
 		"compilationSources": [ [ "Curse of the Crimson Throne", 431 ] ],
-		"category": "-",
 		"description": [
 			"Scholars of the exquisiteness of agony and explorers of the limitations of the flesh, {family/kyton/s} understand the mortal form is a blank canvas aching for transformation. They appear as humanoids, save that they are covered in piercings, draped with chains, and bear grisly body modifications. Kyton eidolons gain access to the {unchevolution/tentacle} and {unchevolution/web} evolutions, but kyton eidolon tentacles and webs always appear as animated chains.",
 			"",
@@ -445,7 +427,6 @@
 	"plant": {
 		"name": "Plant",
 		"compilationSources": [ [ "Ultimate Wilderness", 95 ] ],
-		"category": "-",
 		"description": [
 			"Plant eidolons consist of vegetable matter infused with raw natural spiritual power.",
 			"",
@@ -467,7 +448,6 @@
 	"protean": {
 		"name": "Protean",
 		"compilationSources": [ [ "Pathfinder Unchained", 33 ] ],
-		"category": "-",
 		"description": [
 			"Serpentine beings of pure chaos, {family/protean/s} seek to reshape reality. Protean eidolons appreciate creative summoners who often rebuild their forms and make liberal use of the {spell/transmogrify} spell. Beyond that, protean eidolons are happy to work with their summoners for any purpose, though they are quick to remind their summoners that while they have a mutually beneficial relationship, they are not servants.",
 			"",
@@ -491,7 +471,6 @@
 	"psychopomp": {
 		"name": "Psychopomp",
 		"compilationSources": [ [ "Pathfinder Unchained", 34 ] ],
-		"category": "-",
 		"description": [
 			"Stewards, chroniclers, and guides of all things that die, {family/psychopomp/s} make dispassionate yet loyal eidolons. When they deal with the world of mortals, psychopomp eidolons nearly always wear masks. They do not tolerate summoners who traffic with daemons, undead, and other entities that interfere with the transmigration of souls, but otherwise they are comfortable with most actions on the summoner's part. When the summoner dies, a psychopomp eidolon personally escorts him to the afterlife and serves as an expert witness when it is time for him to be judged.",
 			"",
@@ -515,7 +494,6 @@
 	"radiant": {
 		"name": "Radiant",
 		"compilationSources": [ [ "Plane-Hopper's Handbook", 25 ] ],
-		"category": "-",
 		"description": [
 			"Practically glowing with the Positive Energy Plane's potential, radiant eidolons make for passionate, if judgmental, companions that often have avian features.",
 			"",
@@ -539,7 +517,6 @@
 	"shadow": {
 		"name": "Shadow",
 		"compilationSources": [ [ "Blood of Shadows", 11 ] ],
-		"category": "-",
 		"description": [
 			"Summoned from the dreary shadowscapes of the Shadow Plane, shadow eidolons are grim, colorless mockeries of creatures that inhabit the Material Plane. Shadow eidolons resent being pulled into the unbearable brightness of the Material Plane. Despite this, shadow eidolons serve their summoners with somberness, acknowledging that shadow cannot exist without light.",
 			"",
@@ -563,7 +540,6 @@
 	"storykin": {
 		"name": "Storykin",
 		"compilationSources": [ [ "Plane-Hopper's Handbook", 26 ] ],
-		"category": "-",
 		"description": [
 			"The storykin are avatars of the harrow deck's cards, brought to life through the power of the Harrowed Realm. Most of the storykin are limited in their autonomy, spending their lives acting out the roles in the stories they originated from. The form and alignment of a storykin eidolon is dependent on the harrow card the eidolon is based on. You can reference an actual {eq-misc/harrow deck} for these eidolons, but you can also simulate the suit and alignment of an eidolon from a harrow deck.",
 			"",
@@ -591,7 +567,6 @@
 	"twinned": {
 		"name": "Twinned",
 		"compilationSources": [ [ "Legacy of the First World", 18 ] ],
-		"category": "-",
 		"description": [
 			"Just like a summoner, a twinned eidolon learns to use weapons and magic. While twinned eidolons are ethically more flexible than most eidolons, they are quite adamant about being treated as equals and not as servants. They demonstrate an eerie consistency with the summoner's manner of thinking, providing similar answers to questions and reacting similarly to startling events. This subtype is restricted to {arc-unchained_summoner/twinned summoner/s}.",
 			"",
@@ -613,7 +588,6 @@
 	"void": {
 		"name": "Void",
 		"compilationSources": [ [ "Plane-Hopper's Handbook", 25 ] ],
-		"category": "-",
 		"description": [
 			"Like the sharp-angled {monster/sceaduinar/s} they resemble, void eidolons exult in entropy and resent anything bearing even a hint of life - including their summoners.",
 			"",

@@ -813,7 +813,7 @@
 					""
 				],
 				{
-					"limit": "-",
+					"limit": { "omit": [] },
 					"join": [ "", "", "" ],
 					"template": ":hll[stylestrike/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-DESC-!!-^S-!"
 				},

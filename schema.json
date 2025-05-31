@@ -60,86 +60,7 @@
 								"sources": { "$ref": "#uniqueArray" },
 								"searchgroup": { "$ref": "#searchgroup" },
 								"noFinder": { "type": "boolean" },
-								"compileFrom": {
-									"type": "object",
-									"properties": {
-										"source": { "$ref": "#source" },
-										"targets": {
-											"type": "array",
-											"$comment": "Each target will be assembled by itself, then joined in order, forming a Markdown document. String arrays are kept as-is.",
-											"items": {
-												"anyOf": [
-													{ "$ref": "#stringArray" },
-													{
-														"type": "object",
-														"properties": {
-															"limit": {
-																"anyOf": [
-																	{
-																		"type": "string",
-																		"$comment": "Only items matching this category will be included."
-																	},
-																	{
-																		"type": "object",
-																		"properties": {
-																			"omit": {
-																				"$ref": "#stringArray",
-																				"$comment": "Items to ignore. All other items will be compiled."
-																			}
-																		}
-																	},
-																	{
-																		"type": "object",
-																		"properties": {
-																			"only": {
-																				"$ref": "#stringArray",
-																				"$comment": "Only these items will be compiled."
-																			}
-																		}
-																	}
-																]
-															},
-															"pre": {
-																"type": "string",
-																"$comment": "This attaches to the beginning of the first item."
-															},
-															"join": {
-																"type": "array",
-																"$comment": "The first element attaches to the end of an item. The last element attaches to the beginning of the next item. Other items are placed in between as separate lines.",
-																"items": { "type": "string" },
-																"minItems": 2,
-																"unevaluatedItems": false
-															},
-															"post": {
-																"type": "string",
-																"$comment": "This attaches to the end of the final item."
-															},
-															"modifyDescription": {
-																"$comment": "The description is combined with newlines replaced by the string !-N-!, then matched against the regex, and combined into the form specified by the replacement.",
-																"type": "object",
-																"properties": {
-																	"regex": {
-																		"type": "string",
-																		"$comment": "This will be modified to catch the ENTIRE description (no need to add ^ and $ at start and end)."
-																	},
-																	"replacement": {
-																		"type": "string",
-																		"$comment": "Takes the normal regex replacement expressions."
-																	}
-																},
-																"required": [ "regex", "replacement" ]
-															},
-															"template": { "type": "string" }
-														},
-														"required": [ "join", "template", "limit" ]
-													}
-												]
-											},
-											"unevaluatedItems": false
-										}
-									},
-									"required": [ "source", "targets" ]
-								}
+								"compileFrom": { "$ref": "#compileFrom" }
 							},
 							"required": [ "compileFrom", "title" ],
 							"unevaluatedProperties": false
@@ -202,86 +123,7 @@
 								"sources": { "$ref": "#uniqueArray" },
 								"noFinder": { "type": "boolean" },
 								"topLink": { "$ref": "#link" },
-								"compileFrom": {
-									"type": "object",
-									"properties": {
-										"source": { "$ref": "#source" },
-										"targets": {
-											"type": "array",
-											"$comment": "Each target will be assembled by itself, then joined in order, forming a Markdown document. String arrays are kept as-is.",
-											"items": {
-												"anyOf": [
-													{ "$ref": "#stringArray" },
-													{
-														"type": "object",
-														"properties": {
-															"limit": {
-																"anyOf": [
-																	{
-																		"type": "string",
-																		"$comment": "Only items matching this category will be included."
-																	},
-																	{
-																		"type": "object",
-																		"properties": {
-																			"omit": {
-																				"$ref": "#stringArray",
-																				"$comment": "Items to ignore. All other items will be compiled."
-																			}
-																		}
-																	},
-																	{
-																		"type": "object",
-																		"properties": {
-																			"only": {
-																				"$ref": "#stringArray",
-																				"$comment": "Only these items will be compiled."
-																			}
-																		}
-																	}
-																]
-															},
-															"pre": {
-																"type": "string",
-																"$comment": "This attaches to the beginning of the first item."
-															},
-															"join": {
-																"type": "array",
-																"$comment": "The first element attaches to the end of an item. The last element attaches to the beginning of the next item. Other items are placed in between as separate lines.",
-																"items": { "type": "string" },
-																"minItems": 2,
-																"unevaluatedItems": false
-															},
-															"post": {
-																"type": "string",
-																"$comment": "This attaches to the end of the final item."
-															},
-															"modifyDescription": {
-																"$comment": "The description is combined with newlines replaced by the string !-N-!, then matched against the regex, and combined into the form specified by the replacement.",
-																"type": "object",
-																"properties": {
-																	"regex": {
-																		"type": "string",
-																		"$comment": "This will be modified to catch the ENTIRE description (no need to add ^ and $ at start and end)."
-																	},
-																	"replacement": {
-																		"type": "string",
-																		"$comment": "Takes the normal regex replacement expressions."
-																	}
-																},
-																"required": [ "regex", "replacement" ]
-															},
-															"template": { "type": "string" }
-														},
-														"required": [ "join", "template", "limit" ]
-													}
-												]
-											},
-											"unevaluatedItems": false
-										}
-									},
-									"required": [ "source", "targets" ]
-								}
+								"compileFrom": { "$ref": "#compileFrom" }
 							},
 							"required": [ "compileFrom", "name" ],
 							"unevaluatedProperties": false
@@ -540,6 +382,99 @@
 					"unevaluatedProperties": false
 				}
 			]
+		},
+		"compileFrom": {
+			"$anchor": "compileFrom",
+			"type": "object",
+			"properties": {
+				"source": { "$ref": "#source" },
+				"targets": {
+					"type": "array",
+					"$comment": "Each target will be assembled by itself, then joined in order, forming a Markdown document. String arrays are kept as-is.",
+					"items": {
+						"anyOf": [
+							{ "$ref": "#stringArray" },
+							{
+								"type": "object",
+								"properties": {
+									"limit": {
+										"anyOf": [
+											{
+												"type": "string",
+												"$comment": "Only items matching this category will be included."
+											},
+											{
+												"type": "object",
+												"properties": {
+													"omit": {
+														"$ref": "#stringArray",
+														"$comment": "Items to ignore. All other items will be compiled."
+													}
+												},
+												"unevaluatedProperties": false
+											},
+											{
+												"type": "object",
+												"properties": {
+													"only": {
+														"$ref": "#stringArray",
+														"$comment": "Only these items will be compiled."
+													}
+												},
+												"unevaluatedProperties": false
+											},
+											{
+												"type": "object",
+												"properties": {
+													"uncategorized": {
+														"type": "boolean",
+														"$comment": "Only items without categories will be compiled."
+													}
+												},
+												"unevaluatedProperties": false
+											}
+										]
+									},
+									"pre": {
+										"type": "string",
+										"$comment": "This attaches to the beginning of the first item."
+									},
+									"join": {
+										"type": "array",
+										"$comment": "The first element attaches to the end of an item. The last element attaches to the beginning of the next item. Other items are placed in between as separate lines. No newline characters needed.",
+										"items": { "type": "string" },
+										"minItems": 2,
+										"unevaluatedItems": false
+									},
+									"post": {
+										"type": "string",
+										"$comment": "This attaches to the end of the final item."
+									},
+									"modifyDescription": {
+										"$comment": "The description is combined with newlines replaced by the string !-N-!, then matched against the regex, and combined into the form specified by the replacement.",
+										"type": "object",
+										"properties": {
+											"regex": {
+												"type": "string",
+												"$comment": "This will be modified to catch the ENTIRE description (no need to add ^ and $ at start and end)."
+											},
+											"replacement": {
+												"type": "string",
+												"$comment": "Takes the normal regex replacement expressions."
+											}
+										},
+										"required": [ "regex", "replacement" ]
+									},
+									"template": { "type": "string" }
+								},
+								"required": [ "join", "template", "limit" ]
+							}
+						]
+					},
+					"unevaluatedItems": false
+				}
+			},
+			"required": [ "source", "targets" ]
 		}
 	}
 }

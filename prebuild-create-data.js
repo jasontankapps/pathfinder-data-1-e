@@ -626,6 +626,10 @@ const compile = (compileFrom, prefix, temporaryFlags, openTag, closeTag) => {
 				Object.values(found).forEach(v => {
 					v.category === limit && pool.push(v);
 				});
+			} else if(limit.uncategorized) {
+				Object.values(found).forEach(v => {
+					v.category === undefined && !v.copyof && pool.push(v);
+				});
 			} else if (limit.omit) {
 				Object.entries(found).forEach(([prop, v]) => {
 					(limit.omit.indexOf(prop) === -1) && pool.push(v);

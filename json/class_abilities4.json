@@ -27,7 +27,7 @@
 					"Generally, the summoner controls the actions of his eidolon, even during combat, either through verbal commands or through the link ability, but this does not mean that the eidolon is a puppet that follows every command without question. Eidolons have been known to refuse actions that are against their ethoses or alignments (subject to the GM's discretion) and are quick to chide the summoner about such requests. In addition, should the action of the summoner cause a shift in alignment such that the summoner's alignment is more than one step away from the eidolon's, the eidolon refuses the call of the summoner (although the summoner can still use his summon monster class feature). If the summoner manages to restore his alignment, the eidolon returns to his service."
 				],
 				{
-					"limit": "-",
+					"limit": { "omit": [] },
 					"join": [ "", "", "" ],
 					"modifyDescription": {
 						"regex": "(.+?)((?:!-N-!)+)(.+)",
@@ -146,7 +146,7 @@
 					""
 				],
 				{
-					"limit": "-",
+					"limit": { "omit": [] },
 					"join": [ "", "", "" ],
 					"modifyDescription": {
 						"regex": ">*(.+)",

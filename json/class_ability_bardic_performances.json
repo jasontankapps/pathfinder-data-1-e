@@ -10,7 +10,6 @@
 		"name": "Countersong",
 		"nameSuffix": "(Su)",
 		"compilationSources": [ [ "PRPG Core Rulebook", 36 ] ],
-		"category": "-",
 		"description": [
 			"## Countersong (Su)",
 			"",
@@ -21,7 +20,6 @@
 		"name": "Distraction",
 		"nameSuffix": "(Su)",
 		"compilationSources": [ [ "PRPG Core Rulebook", 36 ] ],
-		"category": "-",
 		"description": [
 			"## Distraction (Su)",
 			"",
@@ -32,7 +30,6 @@
 		"name": "Fascinate",
 		"nameSuffix": "(Su)",
 		"compilationSources": [ [ "PRPG Core Rulebook", 37 ] ],
-		"category": "-",
 		"description": [
 			"## Fascinate (Su)",
 			"",
@@ -47,7 +44,6 @@
 		"name": "Inspire Courage",
 		"nameSuffix": "(Su)",
 		"compilationSources": [ [ "PRPG Core Rulebook", 37 ] ],
-		"category": "-",
 		"description": [
 			"## Inspire Courage (Su)",
 			"",
@@ -58,7 +54,6 @@
 		"name": "Inspire Competence",
 		"nameSuffix": "(Su)",
 		"compilationSources": [ [ "PRPG Core Rulebook", 37 ] ],
-		"category": "-",
 		"description": [
 			"## Inspire Competence (Su)",
 			"",
@@ -69,7 +64,6 @@
 		"name": "Suggestion",
 		"nameSuffix": "(Sp)",
 		"compilationSources": [ [ "PRPG Core Rulebook", 37 ] ],
-		"category": "-",
 		"description": [
 			"## Suggestion (Sp)",
 			"",
@@ -82,7 +76,6 @@
 		"name": "Dirge of Doom",
 		"nameSuffix": "(Su)",
 		"compilationSources": [ [ "PRPG Core Rulebook", 37 ] ],
-		"category": "-",
 		"description": [
 			"## Dirge of Doom (Su)",
 			"",
@@ -93,7 +86,6 @@
 		"name": "Inspire Greatness",
 		"nameSuffix": "(Su)",
 		"compilationSources": [ [ "PRPG Core Rulebook", 37 ] ],
-		"category": "-",
 		"description": [
 			"## Inspire Greatness (Su)",
 			"",
@@ -104,7 +96,6 @@
 		"name": "Soothing Performance",
 		"nameSuffix": "(Su)",
 		"compilationSources": [ [ "PRPG Core Rulebook", 38 ] ],
-		"category": "-",
 		"description": [
 			"## Soothing Performance (Su)",
 			"",
@@ -115,7 +106,6 @@
 		"name": "Frightening Tune",
 		"nameSuffix": "(Sp)",
 		"compilationSources": [ [ "PRPG Core Rulebook", 38 ] ],
-		"category": "-",
 		"description": [
 			"## Frightening Tune (Sp)",
 			"",
@@ -126,7 +116,6 @@
 		"name": "Inspire Heroics",
 		"nameSuffix": "(Su)",
 		"compilationSources": [ [ "PRPG Core Rulebook", 38 ] ],
-		"category": "-",
 		"description": [
 			"## Inspire Heroics (Su)",
 			"",
@@ -137,7 +126,6 @@
 		"name": "Mass Suggestion",
 		"nameSuffix": "(Sp)",
 		"compilationSources": [ [ "PRPG Core Rulebook", 38 ] ],
-		"category": "-",
 		"description": [
 			"## Mass Suggestion (Sp)",
 			"",
@@ -148,7 +136,6 @@
 		"name": "Deadly Performance",
 		"nameSuffix": "(Su)",
 		"compilationSources": [ [ "PRPG Core Rulebook", 38 ] ],
-		"category": "-",
 		"description": [
 			"## Deadly Performance (Su)",
 			"",

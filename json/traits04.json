@@ -8,7 +8,6 @@
 			"",
 			"You spent at least part of your youth in Horsethroat and are acclimated to the frigid cold of Aballon's Ice Wells. You gain a +4 trait bonus on saves to avoid nonlethal damage from cold environments. In addition, you begin play with a cold-weather outfit at no cost."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"abendego_pilot": {
@@ -21,7 +20,6 @@
 			"",
 			"The howling gales of the Eye of Abendego were your lullaby as a child, and you quickly learned to anticipate the winds' danger as well as parse their song. You gain a +2 trait bonus on Profession (sailor) checks, and you treat the wind force of environmental wind effects as one step less powerful for the purposes of determining any penalties on ranged attacks and Fly checks as well as whether you would be checked or blown away."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"abendego_spellpiercer": {
@@ -33,7 +31,6 @@
 			"",
 			"You have spent time in the gales of the perpetual hurricane, and can cast spells even when battered by the elements. You gain a +2 trait bonus on {rule/concentration} checks when spellcasting."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"aberration_hunter": {
@@ -45,7 +42,6 @@
 			"",
 			"You refuse to give in to the monsters that feast on your people, and hunt them instead. You gain a +1 trait bonus on attacks of opportunity against aberrations."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"abolitionist_hunter": {
@@ -57,7 +53,6 @@
 			"",
 			"You hunt those who hunt slavers, whether as one of Captain Bhey's special task forces, or independently. You gain a +1 trait bonus on attack rolls when fighting abolitionists or those you have good reason to believe targeted you because of your slaver activities."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"absalom_hotspur": {
@@ -69,7 +64,6 @@
 			"",
 			"You grew up on the streets of Absalom and have worked as both guide and bodyguard for visitors to the city. You gain a +1 trait bonus on Initiative checks and Knowledge (local) checks."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"abyssal_eavesdropper": {
@@ -81,7 +75,6 @@
 			"",
 			"Having grown up near the Worldwound, you have a rough understanding of the demons' guttural babble. You add Abyssal to your list of languages known, though you take a -2 penalty on Diplomacy, Intimidate, and Bluff checks made while speaking Abyssal, as well as a -2 penalty on Linguistics checks made to read Abyssal text. If you gain Abyssal as a language again at a later time (such as by taking a rank in Linguistics and selecting Abyssal as a learned language), these skill check penalties become +2 trait bonuses instead."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"accustomed_to_trickery": {
@@ -93,7 +86,6 @@
 			"",
 			"You have been exposed to fey magic and know tricks to avoid it. Once per day, when you fail a saving throw against a fey's spell-like or supernatural ability, you may reroll the save. You must take the second result, even if it is worse."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"acolyte_of_razmir": {
@@ -105,7 +97,6 @@
 			"",
 			"You are an adherent of the Razmiri faith, or once were and have since renounced it. You gain a +1 trait bonus on Knowledge (local) and Knowledge (religion) checks, and one of these skills is always a class skill for you. This bonus increases to +2 when dealing with specifics of the Razmiri faith."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"acupuncturist": {
@@ -117,7 +108,6 @@
 			"",
 			"You have studied the ancient art of acupuncture, and use it to pursue enlightenment and healing. You gain a +2 trait bonus on all Fortitude saves made against poison effects."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"agent_of_the_sultana": {
@@ -129,7 +119,6 @@
 			"",
 			"You have learned many adventuring skills - as well as hatred for efreet - during your years of military service to Sultana Ashadieeyah bint Khalid, ruler of the Opaline Vault on the Plane of Earth. You gain a +2 trait bonus on Disable Device checks to disarm any traps that you know deal fire damage, and you gain a +2 trait bonus on attack rolls to confirm critical hits against creatures with the fire subtype."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"airship_captain": {
@@ -141,7 +130,6 @@
 			"",
 			"Your years of piloting airships on the Plane of Air, dodging angry mephits and protecting your passengers from the depredations of capricious elementals, have taught you how to expertly command your vessel, as well as how to arrest yourself even in the midst of the most turbulent planar storms. You gain a +2 trait bonus on Wisdom checks to move in a plane with subjective directional gravity (see the {rule/planar /rules>traits}) and a +2 trait bonus on driving checks (see the {rule/full_<vehicle rules})."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"akitonian_ferocity": {
@@ -153,7 +141,6 @@
 			"",
 			"You were raised on Akiton, where you were hardened against the ravages of battle. Once per day, the first time you are brought below 0 hit points but not killed, you can fight on for 1 more round as if disabled. At the end of your next turn, unless brought to above 0 hit points, you immediately fall unconscious and begin dying."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"alabaster_odalisque": {
@@ -166,7 +153,6 @@
 			"",
 			"The rajahs of Jalmeray favored you for your stately physique and flawless skin, and so endorsed your candidacy for tutelage at the Conservatory on the island of Grand Sarret. Trained to be the perfect bard, courtesan, or undercover operative, you gain a +1 trait bonus on two Charisma-based skills of your choice. In addition, once per day as a swift action, you can brush your fingers against a closed door or stone wall up to 1 foot thick. Doing so allows you to ignore penalties on Perception checks to listen through the designated object for 1 minute."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"alchemical_fence": {
@@ -178,7 +164,6 @@
 			"",
 			"Growing up in the vast markets of Katapesh, you developed connections to a great many alchemists and poisoners all over the world. You know many of the right people in any given locale as well as how to get in touch with useful contacts. When determining whether a given potion is available in a settlement, there is a 90% chance that it is available if it is within the settlement's base value for available magic items rather than a 75% chance. Additionally, when you use Diplomacy to gather information about a topic related to alchemy or poisons (including making poisons), you gain a +3 trait bonus on the check."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"alchemical_prodigy": {
@@ -193,7 +178,6 @@
 			"",
 			"Early on in your life, you showed significant promise in the sciences and alchemical arts, and received extensive tutoring from those seeking to maximize your potential. If you have the alchemy class feature, your alchemist level is considered 1 higher when calculating the duration of your extracts."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"alien_origins": {
@@ -207,7 +191,6 @@
 			"",
 			"**Suggestion:** Consider being a member of the {race/android/ race}.*"
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"alkenstar_defender": {
@@ -219,7 +202,6 @@
 			"",
 			"You have lived in Alkenstar and served in its militia. You know just where to aim to do the most damage. You gain a +1 trait bonus on all rolls to confirm critical hits with ranged weapons."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"alkenstar_engineer": {
@@ -230,7 +212,6 @@
 			"",
 			"Your extensive experience with firearms allows you to get the most out of those unique weapons. When you're wielding a broken early firearm, the amount your misfire value increases by is reduced by 1."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"altruistic_diplomat": {
@@ -242,7 +223,6 @@
 			"",
 			"Your upbringing in Hwanggot has influenced you to be both peaceful and wise, and your arguments are consistently sound. You gain a +2 trait bonus on Diplomacy checks."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"analytical": {
@@ -254,7 +234,6 @@
 			"",
 			"You have been trained in the analytical thought process preferred by the professors of mortal sciences at Lepidstadt University, allowing you to consider a question more carefully when you have time for calm contemplation. When you take 10 on a Knowledge check, add 1 to your result."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"ancestral_weapon": {
@@ -266,7 +245,6 @@
 			"",
 			"You have inherited a sacred tribal weapon wielded by your forebears since the days before the Rain of Stars, and you were trained in its use from a young age. Select either {eq-material/cold iron} or {eq-material/alchemical_<silver}. You begin play with a masterwork melee weapon made of the material of your choice. You must be proficient with this weapon, and its combined cost cannot exceed 500 gp. You gain a +1 trait bonus on attack rolls with weapons made of the selected material."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"andoren_freedom_fighter": {
@@ -278,7 +256,6 @@
 			"",
 			"You've dedicated your life to fighting against oppression, tyranny, and slavery. You gain a +1 trait bonus on attack and damage rolls against slavers or any creature holding someone against their will."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"animal_spirit_vitality": {
@@ -290,7 +267,6 @@
 			"",
 			"The elven druids of Kyonin taught you to commune with the natural healing powers of animals. Once per day when you cast a spell that restores hit points, you restore 1 additional hit point for every die rolled as long as a creature of the animal type is within 50 feet. You must decide to use this ability before rolling to determine the number of hit points that your spell restores."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"antiquities_smuggler": {
@@ -302,7 +278,6 @@
 			"",
 			"You have moved contraband relics from Osirion's elder days for years, and have learned some tricks. Choose one of the following skills: Appraise, Bluff, or Sleight of Hand. You gain a +1 trait bonus on that skill, and it is always a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"anuli_engineer": {
@@ -314,7 +289,6 @@
 			"",
 			"Your family helped to rebuild the ruined city of Anuli, and that tradition runs in your blood. You gain a +2 bonus on Perception checks to notice unusual stonework, traps, and hidden doors in worked stone and artificial constructions. Knowledge (engineering) is always a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"aquatic_survivalist": {
@@ -326,7 +300,6 @@
 			"",
 			"For whatever reason, you spent much of your formative years fighting to keep yourself alive amid the fearsome creatures that inhabit the infinite oceans of the Plane of Water, and you learned how to stay hidden even against predators with unusual senses. You gain a +2 trait bonus on Stealth checks while underwater. Once per day, you can attempt a Stealth check to hide in plain sight (as the ranger class feature of the same name) while underwater. This is only effective against creatures that rely on blindsense, blindsight, or tremorsense. Creatures with other senses perceive you normally."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"armun_kelisk_scholar": {
@@ -338,7 +311,6 @@
 			"",
 			"During your time on the Plane of Air, you visited the libraries of Armun Kelisk frequently and voraciously read the tomes therein. You gain a +1 trait bonus on Knowledge (planes) checks and checks made with one other Knowledge skill of your choice. This bonus increases to +3 when used to identify a creature with the air subtype. Knowledge (planes) becomes a class skill for you, and your bonus language options at 1st level include Auran. This choice is in addition to the bonus languages available to the character because of her race."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"artifact_hunter_isp": {
@@ -350,7 +322,6 @@
 			"",
 			"You know the legends of the Mwangi Expanse and the places where great treasures were rumored to have fallen. You gain a +1 trait bonus on Knowledge (geography) and Knowledge (history) checks, and one of them is always a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"ash_bane": {
@@ -362,7 +333,6 @@
 			"",
 			"You have built up a resistance to the diseases that ash giants and their vermin guardians carry. You gain a +2 trait bonus on Fortitude saving throws to resist the disease abilities of ash giants and creatures with the vermin type. In addition, you gain a +1 trait bonus on melee attack rolls against vermin."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"aspiring_hellknight": {
@@ -374,7 +344,6 @@
 			"",
 			"Your family has a long tradition of service in the [Hellknights](rule/aff_lawknights), and your strict upbringing and training have given you a forceful aura of command. You gain a +1 trait bonus on Intimidate checks, and Intimidate is always a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"awakened_from_stasis": {
@@ -386,7 +355,6 @@
 			"",
 			"Although you were born and lived on Golarion, you recently awakened in a strange vault with no memory of how you got there, surrounded by sleeping creatures of every shape and size in smooth glass eggs, all watched over by uncommunicative crab-like automatons. As a side effect of your stasis, you gain all the benefits of 8 hours of sleep in only 2 hours. This allows a spellcaster who must rest to prepare spells to do so after only 2 hours, but does not allow a spellcaster to prepare spells more than once per day."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"azlanti_scholar_hftf": {
@@ -399,7 +367,6 @@
 			"",
 			"Your interactions with the elves of the Mordant Spire have taught you much about Azlanti artifacts, and you now share the Mordant Spire elves' fascination with these relics. You gain Azlanti as a bonus language, and you gain a +2 trait bonus on Appraise and Use Magic Device checks when attempting to identify or use authentic Azlanti artifacts."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"balanced_education": {
@@ -411,7 +378,6 @@
 			"",
 			"Your upbringing focused on strengthening mind and body in equal measure. Once per day, you can draw on this training to apply a physical ability modifier to a skill check instead of its usual mental ability modifier, or apply a mental ability modifier to a skill check instead of its usual physical ability modifier. You can only exchange ability modifiers between the following pairings: Strength with Intelligence, Dexterity with Wisdom, and Constitution with Charisma."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"bandit": {
@@ -423,7 +389,6 @@
 			"",
 			"Since you were young, you've been a member of one River Kingdoms bandit gang or another. Choose one of the following skills: Escape Artist, Intimidate, or Stealth. You gain a +1 trait bonus on that skill, and it is always a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"beachcomber": {
@@ -435,7 +400,6 @@
 			"",
 			"You have a knack for finding what you need as it washes ashore. Once per week, if you spend 8 hours in a single day searching along a shoreline, you can attempt a Survival check. You find any combination of mundane objects whose value in gold pieces is less than or equal to the result of the check, in a usable (if somewhat waterlogged) condition."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"belem_pirate": {
@@ -447,7 +411,6 @@
 			"",
 			"The hidden coves and bays of the island of Belem have been your home throughout most of your career as a pirate, and the winding waterways of Minata have trained you well in the art of sailing. You gain a +1 trait bonus on Knowledge (geography) checks and Profession (sailor) checks, and one of these skills becomes a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"bellflower_tiller": {
@@ -459,7 +422,6 @@
 			"",
 			"You are a tiller in the secretive [Bellflower Network](rule/aff_antislavery) in Cheliax and carefully move slaves from one hideout to the next. You gain a +5 trait bonus on all Survival skill checks made to get along in the wild, travel in severe weather, keep from getting lost, or predict the weather."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"bellis_axe_master": {
@@ -471,7 +433,6 @@
 			"",
 			"No one knows how to swing an axe better than a Bellisian! You gain a +2 trait bonus on all rolls made to confirm critical hits with axes (battle axe, hand axe, or greataxe)."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"bellis_honey_harvester": {
@@ -483,7 +444,6 @@
 			"",
 			"Your frequent exposure to bees - and their stings - makes all such creatures seem more like nuisances than actual threats. You gain DR 3/- against damage dealt by swarms and a +1 trait bonus on saving throws against distraction and poison from swarms."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"bellis_log_roller": {
@@ -495,7 +455,6 @@
 			"",
 			"The time you spent leaping between slippery logs as they whirled down the Sellen River taught you how to keep your footing. You gain a +1 trait bonus on Acrobatics checks and a +1 trait bonus to your CMB when attempting to resist trip attacks."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"betrayed_ex_noble": {
@@ -507,7 +466,6 @@
 			"",
 			"You were born a noble in the City of Brass, but were unjustly stripped of your title or exiled. Now, your ire prevents you from brooking any further insult unto your already disgraced name. Whenever an enemy attempts to feint against you in combat, the DC to do so is equal to 10 + your base attack bonus + your Wisdom modifier, or 10 + your Intimidate bonus, whichever is higher."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"big_game_hunter": {
@@ -519,7 +477,6 @@
 			"",
 			"You have spent long hours hunting giant creatures and have become skilled at bringing them down quickly. You gain a +1 trait bonus on weapon damage rolls against Large or larger creatures of the animal type."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"black_eagle_recruit": {
@@ -531,7 +488,6 @@
 			"",
 			"You were recruited to serve as one of Lord Arnefax's feared Black Eagles for a time, but you have since left that life. You gain a +1 trait bonus on saves against fear effects; this bonus increases to +3 if an evil outsider caused the effect."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"blackthorn_rancher": {
@@ -543,7 +499,6 @@
 			"",
 			"Domestic animals from Lambreth are known for their resiliency. You gain a +1 trait bonus on Handle Animal checks and Handle Animal is a class skill for you. Your animal companion or bonded mount gains a permanent +3 trait bonus to its maximum hit point total."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"blessed_of_the_norns": {
@@ -555,7 +510,6 @@
 			"",
 			"You or one of your parents belonged to a coven that honored the norns-powerful fey seers - and you still bear their favor in the form of a subtle sense for danger. You gain a +2 trait bonus on Perception checks to notice traps and ambushes, and a +1 trait bonus to your AC against traps and during any surprise round in which you are caught unaware."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"blighted_physiology": {
@@ -567,7 +521,6 @@
 			"",
 			"Exposure to the corruption that seeps through every drop of water and grain of dirt in Numeria has altered your body. Horrific growths beneath your skin provide you a +1 natural armor bonus to AC, but your body does not work as a normal creature's would. You become sickened for 1 round anytime you receive magical healing."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"blood_potion_brewer": {
@@ -579,7 +532,6 @@
 			"",
 			"The orcs of Belkzen routinely mix the blood of their enemies with potions they brew to gain some of their foe's strength. Twice per day when you brew a potion, you can add some of an enemy's blood to the mixture. When you do, the potion's caster level is treated as 1 higher when you drink it for the purpose of determining the duration of the potion's effects. This ability has no effect if another creature drinks the potion. This trait does not grant the ability to brew potions."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"blooded": {
@@ -591,7 +543,6 @@
 			"",
 			"Desperate battles have honed your fighting skills against the ancient enemies of the dwarves. You receive a +1 trait bonus on weapon damage rolls against giants, goblins, and orcs."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"border_guard": {
@@ -603,7 +554,6 @@
 			"",
 			"You are one of the warriors on the front lines between Kwanlai and Wanshou, and excel at combat against water-dwelling foes. You gain a +2 trait bonus on rolls to confirm critical hits against foes with the aquatic subtype."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"born_under_the_green_star": {
@@ -615,7 +565,6 @@
 			"",
 			"You were born on Castrovel and touched by the planet's profound psychic bounty. Treat your caster level as 1 higher when casting spells and spell-like abilities with the mind-affecting descriptor."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"bounty_hunter": {
@@ -627,7 +576,6 @@
 			"",
 			"You have made it your mission to help bring the bandits of Isger to justice. You gain a +1 trait bonus on Survival checks to find or follow tracks, and a +1 trait bonus on Perception checks to avoid being surprised."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"brave_words": {
@@ -639,7 +587,6 @@
 			"",
 			"You inherit your forebears' ability to fight off terror with bragging or insults. As a swift action, when you have the frightened condition, you can function as if you only have the shaken condition for 1 round by shouting at the source of your fear. You must be able to see the source of the fear condition. You can use this trait only once per fear effect. This trait grants no benefits against the shaken or panicked conditions."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"brevoy_bandit": {
@@ -651,7 +598,6 @@
 			"",
 			"You fled the persecution of Brevoy authorities and wound up in Mivon. Whether or not you are guilty of your alleged crimes, you seek to build a new life amid new neighbors. Choose one Profession skill and one ability score other than Wisdom. You add that ability score's modifier in addition to your Wisdom modifier on checks with the chosen Profession skill."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"briar_bandit": {
@@ -663,7 +609,6 @@
 			"",
 			"The time you've spent crawling through thorny brambles and other thick underbrush during raids and ambushes taught you how to move without disturbing the dense flora around you. When in overgrown areas, you gain a +2 trait bonus on Stealth checks and a +1 trait bonus on damage rolls with sneak attacks."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"call_of_the_longships": {
@@ -675,7 +620,6 @@
 			"",
 			"Your blood sings with longing to relive the adventures of one of your ancestors, and you are inexorably drawn to the sea. You gain a +1 trait bonus on Profession (sailor) checks and a +1 trait bonus on attack rolls made onboard ships."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"candidate_for_perfection": {
@@ -687,7 +631,6 @@
 			"",
 			"You have begun training to enter one of the [Houses of Perfection](rule/aff_monasteries), and have honed your body, mind, and spirit into one well-trained weapon. You gain a +1 trait bonus on attack of opportunity attack rolls made with unarmed strikes."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"caravan_nomad": {
@@ -700,7 +643,6 @@
 			"",
 			"Your family has lived on the open roads of Varisia for untold generations, impersonating nomadic Varisians. You gain a +1 trait bonus on Bluff and Perform checks, and one of these skills is a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"carpenden_lobber": {
@@ -712,7 +654,6 @@
 			"",
 			"Your regular participation in the moonmelon festival has made you wickedly effective at hurling harmless objects. You gain a +2 trait bonus on attack rolls when throwing items that do not deal normal hit point damage (such as weapons that deal nonlethal damage or items such as tanglefoot bags and thunderstones)."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"carpenden_roof_runner": {
@@ -724,7 +665,6 @@
 			"",
 			"Your childhood playing atop Carpenden's buildings has given you a remarkable head for heights. You gain a +2 trait bonus on Acrobatics checks made when you are at least 20 feet above the ground."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"cavern_survivor": {
@@ -736,7 +676,6 @@
 			"",
 			"You've regularly traversed Nar-Voth and know how to subsist in that lightless realm better than most surface dwellers. You gain a +2 trait bonus on Survival checks to survive in a subterranean wilderness, and Survival is a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"centaur_vengeance": {
@@ -748,7 +687,6 @@
 			"",
 			"Your nomadic tribe wanders the Ice Steppes of Iobaria. They live in constant fear of the great white wyrm Sjohvornor and feel helpless to stop the dragon's aggression. Your tribe is filled with wise sages and great warriors, and they resent being cowed by any foe. You vowed that one day you would not have to be afraid of Sjohvornor or any other wyrm. You gain a +2 bonus on saving throws against any dragon's frightful presence."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"chainbreaker": {
@@ -760,7 +698,6 @@
 			"",
 			"You're an expert at rescuing slaves. You know that a few slaves freed from their chains can help turn the tide during a boarding action. You gain a +1 trait bonus on Disable Device checks made to open locks, Strength checks made to break chains or bars in order to free slaves, and combat maneuver checks made to sunder chains or bars in order to free slaves."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"channel_the_earth": {
@@ -772,7 +709,6 @@
 			"",
 			"Perhaps you worship the Elemental Lord of Earth, or perhaps you have gleaned your fated powers via some other means of interacting with the Eternal Delve. Your divine powers are infused with the elemental powers of the Plane of Earth. Whenever you channel positive energy to heal living creatures, affected targets gain a +2 profane bonus to CMD to resist bull rush, reposition, and trip combat maneuvers. Alternately, if you channel negative energy to harm living creatures, affected targets take a -2 penalty to CMD against such combat maneuvers. This effect lasts 1 round."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"charau_ka_slayer": {
@@ -784,7 +720,6 @@
 			"",
 			"As a native of the Mwangi Jungle, you've had frequent encounters with the charau-ka and learned how to fight against these coldly calculating demon worshipers. You gain a +1 trait bonus to AC against attacks made with thrown weapons."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"charmed_innocent": {
@@ -796,7 +731,6 @@
 			"",
 			"Your apparent good nature or playful charm makes nonevil creatures want to like you. Once per day, before you roll any Charisma check or Charisma-based skill check against a nonevil creature, you can roll twice and take the better result."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"cheap_to_feed": {
@@ -809,7 +743,6 @@
 			"",
 			"Life in a big city taught the consequences of pride. Now you have no qualms about pointing out how little of a burden your upkeep would prove to potential employers, captors, innkeepers, or anyone else able to provide you with the necessities of life. You gain a +3 trait bonus on Bluff checks made in order to gain food, water, or shelter."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"chelish_guerrilla": {
@@ -821,7 +754,6 @@
 			"",
 			"In overthrowing House Thrune, you've spent many years training to face the diabolist nobles and the devils they bind. You gain a +2 trait bonus on Knowledge checks to identify devils (and their special powers and weaknesses) and a +1 trait bonus on weapon damage rolls against devils."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"child_of_mumia": {
@@ -833,7 +765,6 @@
 			"",
 			"During your childhood, you knew someone who was addicted to {drug/mumia}, a drug made from the flesh of the dead, whether that was a drug-addled parent, an unsavory employer, or a libertine childhood friend. Although you did not indulge in the ghoulish narcotic yourself, your exposure to it grants you a +1 trait bonus on saving throws against curses and diseases, including magical diseases."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"child_of_wati": {
@@ -845,7 +776,6 @@
 			"",
 			"You were raised near the infamous necropolis of Wati, and even managed to sneak into these hallowed grounds on occasion. Entering the clergy of the Voices of the Spire in Wati was a natural choice as you grew older, and your past experiences made you a particularly well-informed disciple of the church. Your effective cleric level is 1 higher for the purposes of channeling positive energy to damage undead. Your effective cleric level cannot exceed your character level."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"child_of_the_crusades_isp": {
@@ -857,7 +787,6 @@
 			"",
 			"Your parents stood strong against the demons of the Worldwound, facing down the worst of this world and the Great Beyond. You have inherited their indomitable spirit, and you gain a +2 trait bonus on all saves against fear."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"chillblight_emissary": {
@@ -869,7 +798,6 @@
 			"",
 			"You have spent considerable time at Chillblight, but have escaped this unearthly fey outpost. You gain DR 1/cold iron but become sickened for 1 round if damaged by a cold iron weapon."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"chilled_by_brutality": {
@@ -885,7 +813,6 @@
 			"",
 			"Likely giants: Cloud, Frost, River, Rune, Taiga"
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"chivalrous": {
@@ -900,7 +827,6 @@
 			"",
 			"You were raised on tales of heroic knights and benevolent wizards from Taldor's Golden Age, and try to emulate their great deeds. You gain a +1 trait bonus on Diplomacy and Knowledge (history) checks."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"chosen_child": {
@@ -912,7 +838,6 @@
 			"",
 			"The oracles of Po Li smiled upon you when your parents claimed you were of divine right, and you were raised with privileges few Po Lians can fathom. Your starting money increases by 900 gp."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"citizen_of_eleder": {
@@ -924,7 +849,6 @@
 			"",
 			"You live and work in Eleder. You gain a +1 trait bonus on all Knowledge (local) and Knowledge (nobility) checks regarding Eleder."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"citizen_of_kalabuto": {
@@ -936,7 +860,6 @@
 			"",
 			"You live and work in Kalabuto. You gain a +1 trait bonus on all Knowledge (local) and Knowledge (history) checks regarding Kalabuto."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"clan_artisan": {
@@ -948,7 +871,6 @@
 			"",
 			"You were raised in one of the numerous clans of Xa Hoi, and learned a valuable trade in your early years. Pick one Craft skill. You gain a +2 trait bonus on checks with that skill, and it becomes a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"cliff_jumper": {
@@ -960,7 +882,6 @@
 			"",
 			"You spent your early years exploring and foraging along the coastal cliffs. You gain a +1 trait bonus on Acrobatics and Climb checks, and on Reflex saves to avoid falling."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"cliff_strider": {
@@ -972,7 +893,6 @@
 			"",
 			"You grew up along the Grinding Coast of Arcadia, scaling perilous cliffs and dealing with the dangerous creatures that live on these rocky surfaces. As a move action while climbing, you can climb 5 feet without provoking an attack of opportunity, even if you don't have a climb speed."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"cliff_master": {
@@ -985,7 +905,6 @@
 			"",
 			"You are adept at scavenging along the cliffs by the sea, and have become a skilled climber. You gain a +1 trait bonus on all Climb and Survival checks."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"cloistered_upbringing": {
@@ -997,7 +916,6 @@
 			"",
 			"Growing up among acolytes or monks, you were exposed to their supernatural power. You gain a +1 trait bonus on saving throws against the supernatural effects of channeled energy or abilities powered by ki, and regain 1 additional hit point when healed by supernatural effects."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"clumsy_slave": {
@@ -1010,7 +928,6 @@
 			"",
 			"As a former slave, you learned how to conceal your malice toward your owner behind a facade of clumsiness. The first time you attack someone with an attack that deals nonlethal damage, your target must make a Sense Motive opposed by your Bluff check minus the damage dealt to realize you actually intended to harm him; failure means he believe the injury was an accident on your part instead (though he may still want to punish you for it)."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"coin_hoarder": {
@@ -1022,7 +939,6 @@
 			"",
 			"Everything has a price - and it's your job to know it. Your starting cash increases to 500 gp."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"coincunning": {
@@ -1034,7 +950,6 @@
 			"",
 			"Whether from working with dwarven merchants or being one yourself, you've developed a distinctly dwarven business sense. You receive a +2 trait bonus on Perception checks to notice coins, gems, jewelry, and valuable trade goods. You gain a chance to notice such goods whenever you pass within 10 feet of them, whether or not you are actively looking."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"cold_heart": {
@@ -1045,7 +960,6 @@
 			"",
 			"You gain a +2 trait bonus on saving throws against spells and effects with the emotion descriptor."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"commercial_savvy": {
@@ -1057,7 +971,6 @@
 			"",
 			"You excel at maximizing mercantile contacts and convincing merchants to dig just a bit deeper into their pockets for you. Whenever you buy from or sell to a merchant, you treat a settlement's Base Value and Purchase Limit as 10% higher."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"community_minded": {
@@ -1069,7 +982,6 @@
 			"",
 			"While some pray to the gods for mercy or prosperity, you follow a different tack-you believe in improving the lives of those around you through earnest labor and the efforts of you and your community. Your hard-earned discipline and the candor of your words affect all who bear witness. Any morale bonuses you confer upon your allies through your own abilities or spells last 2 additional rounds."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"confidante_to_the_oppressed": {
@@ -1080,7 +992,6 @@
 			"",
 			"Others recognize that you are filled with the Andoren spirit of liberty and equality. You gain a +2 trait bonus on Diplomacy checks to improve the attitude of oppressed, enslaved, or imprisoned subjects, and unless they have reason to distrust you, their starting attitude toward you is at least indifferent, if not better."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"conscientious_miner": {
@@ -1092,7 +1003,6 @@
 			"",
 			"You were one of the mithral miners of Jinin, and learned how to extract the delicate ore as well as determine its value. You gain a +1 trait bonus on Appraise checks, and a +1 trait bonus on Profession (miner) checks. In addition, Profession (miner) becomes a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"corpse_dodger": {
@@ -1104,7 +1014,6 @@
 			"",
 			"You spent your formative years in the town of Ravengro, where your proximity to both a prominent graveyard and an infamous prison left you no stranger to the occasional zombie or skeleton. As such, you developed unique methods of dodging these pests. Once per day, you can cast {spell/hide from undead} as a spell-like ability. The casting time is a swift action and the caster level for this effect is always 1st; this ability is otherwise identical to the spell."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"cosmopolitan": {
@@ -1119,7 +1028,6 @@
 			"",
 			"Your exposure to the many peoples intersecting in Goka and the tongues spoken there has given you a particular facility for speech. You gain a +1 trait bonus on Linguistics checks, and Linguistics becomes a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"cruel_master": {
@@ -1131,7 +1039,6 @@
 			"",
 			"You're a master of dominating slaves through body language and inflection, and this ability carries over into other lines of work as well. You gain a +1 trait bonus on Intimidate checks, and it becomes a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"crusader_road_acolyte": {
@@ -1143,7 +1050,6 @@
 			"",
 			"You trained with the [Hellknights](rule/aff_lawknights) at Fort Inevitable or the paladins of Iomedae at Fort Riverwatch. If you trained with the Hellknights, you gain a +1 trait bonus on saving throws against chaotic spells and the spell-like abilities of chaotic outsiders. If you trained with the Iomedaean Paladins, you gain this bonus against evil spells and evil outsiders instead."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"crusader_tactician": {
@@ -1155,7 +1061,6 @@
 			"",
 			"You have studied at Vigil's Crusader War College, and are skilled in both heraldry and siege tactics. You gain a +1 trait bonus on Knowledge (engineering) and Knowledge (nobility) checks, and one of these skills is always a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"cultist_lineage": {
@@ -1167,7 +1072,6 @@
 			"",
 			"Your parents were both Red Mantis assassins and your family has a long tradition of service in the [Red Mantis](rule/aff_assassins) cult. Your strict, fanatical upbringing and familiarity with murder have bestowed upon you an air of confidence and menace. This grants you a +1 trait bonus on Intimidate checks. If you act during the surprise round, as a free action during that round you can draw a light weapon (or two if you have the {feat/Two-Weapon Fighting} feat)."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"cultivated": {
@@ -1179,7 +1083,6 @@
 			"",
 			"You grew up speaking multiple languages. You learn one additional language. Additionally, when attempting a Diplomacy check to gather information using this language, you can do so in 1d6 &times; 10 minutes, rather than the normal 1d4 hours."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"cunning_liar": {
@@ -1191,7 +1094,6 @@
 			"",
 			"You were forced into hiding or willingly went on the run at a young age, and learned to reading others' interests to inform your lies. You can use your Intelligence or Wisdom modifier in place of your Charisma modifier on Bluff checks."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"curse_queller": {
@@ -1203,7 +1105,6 @@
 			"",
 			"Whenever a caster level check is required to treat an affliction with magic (such as when casting {spell/remove curse} on a cursed creature or object), you gain a +2 trait bonus on your caster level check. Additionally, you gain a +1 trait bonus on your saving throws against curses."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"cynic": {
@@ -1215,7 +1116,6 @@
 			"",
 			"As a Mendevian native, you have seen all manner of people claiming holy motives, and you have learned to judge them by their deeds, rather than their words. You gain a +1 trait bonus on Sense Motive checks, and Sense Motive is always a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"cypher_resistance": {
@@ -1227,7 +1127,6 @@
 			"",
 			"You have grown up near the Cyphergate, passing under its arch countless times in your lifetime. You can recount the runes from memory, and repeated exposure has imbued you with a faint resistance to runic magic. You gain a +2 trait bonus on saving throws against spells with the word [\"glyph\" or \"symbol\"](main/spell_groupings) in their name."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"cyphermage_backer": {
@@ -1239,7 +1138,6 @@
 			"",
 			"You've sold relics to a [Cyphermage](rule/aff_i_tradition) in the past, and she's agreed to assist you with future findings. When in Riddleport, you can use your contact to gain information about artifacts and history. Treat this ability as a single Knowledge (arcana) or Knowledge (history) check with a skill bonus of +15. You may make this check once per day that you spend in Riddleport. You can make a new check every day. Each time you do so, you can choose whether to use Knowledge (arcana) or Knowledge (history)."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"darkblight_survivor": {
@@ -1251,7 +1149,6 @@
 			"",
 			"Your woodland home in Nirmathas struggles against the tenacious Darkblight, forcing you to steel yourself against its poisonous influence. You gain a +2 trait bonus on Fortitude saving throws against diseases and poisons inflicted by fey, plants, and forest-related hazards."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"darklands_delver": {
@@ -1263,7 +1160,6 @@
 			"",
 			"You are familiar with the byways and passages of Tian Xia's underworld. You gain a +1 trait bonus on Knowledge (dungeoneering) checks, and a +1 trait bonus on Survival checks made in the Darklands. One of these skills becomes class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"debt_to_a_witch": {
@@ -1275,7 +1171,6 @@
 			"",
 			"Your life was spared in youth by the magic of a White Witch healer who was using your survival to perpetuate her agenda. Her magic was painful, but it made your body stronger. You gain a +2 trait bonus on saving throws against spells with the cold descriptor and against the dangers of cold weather."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"demon_eradicator": {
@@ -1287,7 +1182,6 @@
 			"",
 			"Anytime an outsider with the demon subtype must make a Will save against one of your spells, increase the DC of that save by +1."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"demon_proof_mind": {
@@ -1299,7 +1193,6 @@
 			"",
 			"You are used to the maddening energy fluctuations emanating from the Worldwound, and have steeled your mind against their influence. You gain a +2 trait bonus on saving throws against the mind-affecting effects of evil outsiders."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"demonbane_summoner": {
@@ -1311,7 +1204,6 @@
 			"",
 			"Your line is derived directly from the god callers of Sarkoris. You adamantly oppose the demonic forces of the Worldwound in hopes of reclaiming your lost lands. The attacks of creatures you summon are treated as cold iron for the purpose of overcoming damage reduction."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"desert_child": {
@@ -1327,7 +1219,6 @@
 			"",
 			"You were born and raised in rocky deserts, and are accustomed to high temperatures. You gain a +4 trait bonus on saving throws made to resist the effects of being in hot conditions and a +1 trait bonus on saving throws against fire effects."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"desert_nomad": {
@@ -1339,7 +1230,6 @@
 			"",
 			"You were born and raised in the burning sands of Thuvia's desert interior. You gain a +4 trait bonus on any saving throws made to resist the effects of being in hot conditions, and a +1 trait bonus on all saving throws against fire effects."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"destined_for_greatness": {
@@ -1353,7 +1243,6 @@
 			"",
 			"**Suggestion:** Consider playing a character who worships, reveres, or perhaps even envies one of the Ascended: Cayden Cailean, Iomedae, or Norgorber."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"devilfish_diver": {
@@ -1365,7 +1254,6 @@
 			"",
 			"You've swum with the devilfish along the Mediogaltian coast. You gain a +2 trait bonus on saving throws versus poison."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"devotee_of_kalistrade": {
@@ -1377,7 +1265,6 @@
 			"",
 			"As an adherent of the [Prophecies of Kalistrade](rule/f_profits), you understand the importance of a good deal. You gain a +1 trait bonus on Appraise checks, and a +1 trait bonus on Bluff checks when trying to make a deal with nonbelievers."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"diligence": {
@@ -1389,7 +1276,6 @@
 			"",
 			"You grew up helping with a family business or were mentored by an expert in some craft or profession, who taught you diligence. Select one specific Craft or Profession skill. You can take 20 with that skill in half the amount of time normally required to take 20."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"dinosaur_whisperer": {
@@ -1401,7 +1287,6 @@
 			"",
 			"After spending a month in the Mediogaltian jungle, you developed a knack for dealing with dinosaurs. You gain a +1 trait bonus on Knowledge (nature) and Survival checks concerning dinosaurs. You also gain a +1 trait bonus on {ability/wild empathy} checks made to affect dinosaurs."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"discerning_beliefs": {
@@ -1413,7 +1298,6 @@
 			"",
 			"You helped the samsarans maintain the magical boundaries around valleys in the Enlightened Peaks, and learned the secrets of avoiding such illusions yourself. You gain a +2 trait bonus on saving throws to disbelieve illusions."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"div_hunter": {
@@ -1425,7 +1309,6 @@
 			"",
 			"Divs have tormented you and your loved ones for as long as you can remember. You've improved your skills to better oppose the creatures. You gain a +2 trait bonus on Knowledge checks to identify divs (and their special powers and weaknesses) and a +1 trait bonus on weapon damage rolls against divs."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"divine_deceiver": {
@@ -1437,7 +1320,6 @@
 			"",
 			"You are trained in the methods of Razmir's priesthood, and can use your arcana to fuel minor healing powers. Once per day as a full-round action, you can sacrifice a prepared arcane spell or spell slot to manifest healing magic. This acts as cure light wounds, except you heal 1d6 points of damage per level of the spell or spell slot sacrificed (maximum 5d6) and the hit points healed are temporary (lasting 1 hour)."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"dominator": {
@@ -1452,7 +1334,6 @@
 			"",
 			"The blood of dominance runs thick in the savage home of orcs. You receive a +2 trait bonus on all attempts to demoralize an opponent in combat using the Intimidate skill."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"draconic_vigil": {
@@ -1464,7 +1345,6 @@
 			"",
 			"As a defender of Lastwall, you have seen the damage the dragon Zedoran has wrought upon the land. You gain a +1 bonus on initiative rolls when entering combat against creatures of the dragon type or humanoids of the orc subtype."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"dreadful_forethought": {
@@ -1476,7 +1356,6 @@
 			"",
 			"As a minor Ustalavic noble, you have friends linked to Karcau's fiendish cults. Your observations give you a keen insight into the blasphemies of the idle rich. You gain a +1 trait bonus on Knowledge (nobility) and Knowledge (planes) checks."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"dtang_ma_bloodline": {
@@ -1488,7 +1367,6 @@
 			"",
 			"As you were born in Dtang Ma and possess one of the favored bloodlines, your sorcerous powers are particularly potent. Select one of the following sorcerer bloodlines: fey, maestro, starsoul, or stormborn. Once per day, you may use one of your bloodline powers as if your sorcerer level were 1 higher than normal. This trait does not give you access to bloodline powers whose level requirements you do not yet meet."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"dump_salvager": {
@@ -1500,7 +1378,6 @@
 			"",
 			"You grew up in or around Westcrown's rubbish-strewn shores and spent your spare time digging through trash looking for things worth selling. You gain a +3 trait bonus on Perception checks to search for concealed items."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"dungeon_dweller": {
@@ -1514,7 +1391,6 @@
 			"",
 			"**Suggestion:** Consider playing an uncommon race."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"dusk_dancer": {
@@ -1527,7 +1403,6 @@
 			"",
 			"Growing up in shadowy Nidal has given you the confidence to avoid hazards which you can barely see. You gain a +2 trait bonus on Reflex saves in dim light or darkness."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"duskwalker_agent": {
@@ -1539,7 +1414,6 @@
 			"",
 			"You spent a portion of your childhood working for the Duskwalkers, the guild responsible for policing and watching over all trade that takes place in Katapesh's notorious Nightstalls. You have quite a bit more spending cash than most others of your age as a result, and start with twice the normal amount of starting gold. In addition, your reputation remains strong in the Nightstalls, and any transactions you make there are always beneficial to you; items you sell net you an additional 10% profit, and items you purchase there are 10% cheaper than normal. This discount also applies to your starting gear."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"eager_combatant": {
@@ -1551,7 +1425,6 @@
 			"",
 			"You're so excited to board other ships that you're frequently the first one over the rail, regardless of the danger. You gain a +1 trait bonus on attack rolls made while onboard an enemy ship."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"educated_druggist": {
@@ -1563,7 +1436,6 @@
 			"",
 			"Any alchemical remedies you administer that provide an alchemical bonus have that bonus increased by 1. These remedies also restore 1 hit point to the target in addition to their usual effects."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"egorian_school_apprentice": {
@@ -1575,7 +1447,6 @@
 			"",
 			"You studied under one of the masters of the Egorian School style of architecture. You gain a +3 trait bonus on Knowledge (engineering) checks and a +2 trait bonus on Perception checks to find secret doors or traps in buildings built in the Egorian School style."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"elemental_endowment": {
@@ -1587,7 +1458,6 @@
 			"",
 			"You see the interactions between elementals as the epitome of balance; you've studied the traditional elemental bindings of Ancient Osirion and can draw upon their power. As an immediate action, once per day when you cast a spell with the air, earth, fire, or water descriptor, you can gain a number of temporary hit points equal to the spell's level. This effect lasts for 1 minute."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"elemental_pupil": {
@@ -1599,7 +1469,6 @@
 			"",
 			"You have studied at the feet of the masters of Katheer's colleges of magic, and so increased your own mastery of the elements. Choose one of the following energy types: acid, cold, electricity, or fire. When casting a spell of 1st level or higher that deals damage of your chosen energy type, the spell deals 1 extra point of damage of this type."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"elemental_ties": {
@@ -1611,7 +1480,6 @@
 			"",
 			"Interactions with elementals are commonplace for you. You gain a +1 trait bonus on Diplomacy checks when dealing with creatures of the elemental type, and you begin play knowing one of the following languages as an additional bonus language: Aquan, Auran, Ignan, or Terran."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"elven_bitterness": {
@@ -1623,7 +1491,6 @@
 			"",
 			"Only the most cunning scouts of Kyonin are selected to serve as guards along the border between the elven nation and the dreaded Tanglebriar. Most who are sent to patrol those blighted reaches go with the aid of potent magical items and under the cloak of arcane disguise. You are either close with some who have guarded the elven homeland or know of the magical defenses used by the elves against their demonic foes. When you cast an enchantment spell on a chaotic evil outsider, the DC of that spell is increased by 2."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"emberkin_imposter": {
@@ -1635,7 +1502,6 @@
 			"",
 			"You have found it is easier to be mistaken for someone with celestial blood than to reveal your true nature. You gain a +5 trait bonus on Disguise checks when pretending to be an aasimar, and a +2 trait bonus on Diplomacy checks against those you have convinced of your supposed celestial nature."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"emissary": {
@@ -1647,7 +1513,6 @@
 			"",
 			"Accustomed to the strange residents of Kaer Maga, you have few prejudices. You gain a +2 trait bonus on Diplomacy checks when dealing with aberrations, monstrous humanoids, undead, and creatures with the giant subtype."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"empathic_diplomat": {
@@ -1659,7 +1524,6 @@
 			"",
 			"You have long followed the path of common sense and empathic insight when using diplomacy. You modify your Diplomacy checks using your Wisdom modifier, not your Charisma modifier."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"empyreal_cultist": {
@@ -1671,7 +1535,6 @@
 			"",
 			"Your faith in the empyreal lords - a host of good demigods - and your fascination with the legendary Angel of the Arvensoar have you constantly on the hopeful lookout for celestial messengers. Choose an empyreal lord as your patron deity. You gain Celestial as a bonus language and a +1 trait bonus on Diplomacy checks when dealing with good-aligned humanoids."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"enchanted_by_giants": {
@@ -1685,7 +1548,6 @@
 			"",
 			"Likely Regions: Kyonin, Lands of the Linnorm Kings, Mwangi Expanse, Nirmathas, River Kingdoms, Taldor."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"enemy_of_the_undead": {
@@ -1697,7 +1559,6 @@
 			"",
 			"Your disgust at the way the undead aristocracy of Geb treats the living has inspired hatred in you. You gain a +2 trait bonus on saving throws against any spells or spell-like abilities from an undead creature."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"eoxian_experiment": {
@@ -1709,7 +1570,6 @@
 			"",
 			"You were raised on Eox, where you were overseen by alien forces and subjected to horrifying experimentation. You gain a +1 trait bonus on saving throws against pain effects and the spell-like abilities of undead."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"equality_for_all": {
@@ -1722,7 +1582,6 @@
 			"",
 			"Even when facing foes much larger than yourself, you still embody the Andoran ethos of liberty. You gain a +2 trait bonus to your CMB and your CMD when facing opponents who are at least two sizes larger than you."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"erutaki_sky_reader": {
@@ -1734,7 +1593,6 @@
 			"",
 			"Born in the Crown of the World, you learned to read the aurora and the night sky for portents. Once per day, you gain a +2 luck bonus on a single saving throw. You can apply this bonus after the saving throw is rolled but before the results are revealed."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"evident_supporter": {
@@ -1746,7 +1604,6 @@
 			"",
 			"You know how best to appear supportive of the current regime despite the vagaries of a shifting government. The Sense Motive DC needed for a city guard, a politician, or other governmental functionary in a large town or larger settlement to gain a hunch about your trustworthiness is 25 (instead of 20). On a failed check, you're seen as trustworthy regardless of the situation."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"exhibition_fighter": {
@@ -1758,7 +1615,6 @@
 			"",
 			"You fight at your best in martial arts tournaments, such as those once popular in Lung Wa and still common in Quain. While others may attempt to cheat or chafe against the constraints placed upon them, you thrive under such limitations. You gain a +1 bonus on attack and damage rolls when fighting as part of a tournament or other structured setting with rules and restrictions, so long as you do not break these rules."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"exiled_scholar": {
@@ -1770,7 +1626,6 @@
 			"",
 			"Since you were young, you've always been interested in the process of lichdom and what drives people to desire such a fate. Nexian officials marked you as a traitor and exiled you when they discovered your morbid fascination with the consummate undead, but you still benefit from your forbidden studies. You gain a +1 trait bonus on Knowledge (arcana) and (religion) checks. In addition, choose one Knowledge skill; you can attempt untrained checks with this skill as long as the DC is lower than 15."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"expert_smuggler": {
@@ -1782,7 +1637,6 @@
 			"",
 			"Years of smuggling and other unsavory work have trained you to hide your assets even when being actively searched. Other creatures never gain the +4 bonus on their Perception checks (opposed by your Sleight of Hand check) while frisking you."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"expert_swimmer": {
@@ -1794,7 +1648,6 @@
 			"",
 			"Most pirates on the ocean view falling overboard as a death sentence, but in the River Kingdoms, it's often a key part of the strategy. You gain a +1 trait bonus on Swim checks, and it becomes a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"eye_of_the_falcon": {
@@ -1805,7 +1658,6 @@
 			"",
 			"You have a way of seeing right to the heart of things. You gain a +1 trait bonus on saving throws against illusion (phantasm) spells and a +1 trait bonus on Sense Motive checks to know when you are being lied to, so long as you are face to face with the speaker in question."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"fangwood_diplomat": {
@@ -1817,7 +1669,6 @@
 			"",
 			"You've lived and worked among the disparate guerrilla groups of the Fangwood. You gain a +1 trait bonus on Diplomacy checks, and Diplomacy is always a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"fangwood_insurgent": {
@@ -1829,7 +1680,6 @@
 			"",
 			"You have spent many years living under the canopy of the Southern Fangwood, during which you and your comrades clashed regularly with the soldiers of imperialist Molthune. After years of guerrilla warfare, you've learned to interpret the sounds of the forest to detect signs of enemies. You gain a +1 trait bonus on initiative checks when in a forest. Once per day when in a forest, you can designate yourself or an ally to roll twice for initiative and take either result."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"fey_hex": {
@@ -1841,7 +1691,6 @@
 			"",
 			"You have learned to incorporate fey enchantments into your hexes to snare victims that shake off your curses. Once per day as a free action, when a creature succeeds at its saving throw against your hex that cannot target the same creature more than once per day, you can declare that creature to be subject to your fey hex. You can attempt the failed hex against the creature a second time, so long as you do so within 1 minute."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"fey_mediator": {
@@ -1853,7 +1702,6 @@
 			"",
 			"You gain Sylvan as a bonus language. Additionally, choose Bluff, Diplomacy, or Knowledge (nature). That skill is a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"fey_wise": {
@@ -1865,7 +1713,6 @@
 			"",
 			"You grew up around fey and are accustomed to their tricks. You gain a +1 trait bonus on saving throws against the spell-like and supernatural abilities of fey and a +1 trait bonus on Sense Motive checks against fey."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"fiery_dominance": {
@@ -1877,7 +1724,6 @@
 			"",
 			"Raised among the efreet of the Plane of Fire, you developed a similarly assured sense of superiority over people from other backgrounds. You gain a +1 trait bonus on Intimidate checks against humanoids of a subtype different from your own (or all non-human humanoids, if you are not a humanoid), and the DC for such creatures to demoralize you with Intimidate is 2 higher than usual."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"fight_for_liberty": {
@@ -1889,7 +1735,6 @@
 			"",
 			"You inspire slaves to fight for freedom with a rousing battle cry. As a standard action, you may make a rallying cry with a DC 15 Perform (oratory) check. On a successful check, any unarmed ally within 30 feet who is able to hear you gains a +2 trait bonus on attack rolls with improvised weapons and unarmed strikes. This bonus lasts for 1 round per level."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"flotsam": {
@@ -1901,7 +1746,6 @@
 			"",
 			"You were one of only a few that survived the destruction of the merchant vessel Vantage. Your crew was more than able to hold off the blundering pirate attackers, but their red dragon ally proved too much for your defenses. As you watched the sharks and eels feast on the bodies of your fallen comrades, you vowed to see Aashaq slain. You gain a +2 bonus on Reflex saves against spells and effects with the fire descriptor."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"footsteps_of_aganhei": {
@@ -1913,7 +1757,6 @@
 			"",
 			"You are one of the brave travelers who have traversed the Path of Aganhei, a lucrative trade route from Tian Xia to Avistan that crosses the frigid Crown of the World. These voyages have left you hardier, granting you a +1 trait bonus on Fortitude saving throws to resist the effects of cold weather. Survival is a class skill for you, and you gain Hallit, Hon-La, Minkaian, Skald, or Tien as a bonus language."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"forbidden_knowledge": {
@@ -1925,7 +1768,6 @@
 			"",
 			"As a child, you somehow got your hands on a lurid, forbidden text written by a now-forgotten Blood Lord of ages past. You studied the details within intently, learning much about extraplanar undead from beyond this reality, and you developed a strange, almost macabre way of thinking because of this book's influence. Anytime you would roll a Knowledge (planes) check, you may roll a Knowledge (history) or Knowledge (religion) check instead."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"fortune_found": {
@@ -1938,7 +1780,6 @@
 			"",
 			"You have learned a great many tricks and techniques for bartering with humans. You gain a +1 trait bonus on Appraise and Diplomacy checks, and one of these skills (your choice) is a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"free_agent": {
@@ -1950,7 +1791,6 @@
 			"",
 			"You embody the independent spirit of the River Kingdoms and do best when sailing under your own flag, in every sense. You gain a +2 trait bonus on Will saves to avoid charm and compulsion effects."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"free_people": {
@@ -1963,7 +1803,6 @@
 			"",
 			"The independent tribes from the Realm of the Mammoth Lords hold little regard for the control others wield over free people. Their willful, independent streak makes them suspicious of any attempt to guide their behavior. You gain a +1 trait bonus on Sense Motive checks and on Will saves against mind-affecting effects."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"freed_slave_andoran": {
@@ -1975,7 +1814,6 @@
 			"",
 			"You were either born or sold into slavery, but were freed by Andoren abolitionists. Your strong will helped you persevere in captivity, and gave you strength to start again from nothing in your new life in Andoran. You gain a +1 trait bonus on Will saves."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"freed_slave_katapesh": {
@@ -1987,7 +1825,6 @@
 			"",
 			"You spent a significant portion of your childhood as a slave, but were freed from slavery several years ago by a benevolent master who purchased you from an auction after your previous master's death. Yet while the memories of your difficult childhood still haunt you, the hard life did toughen you. You gain a +1 trait bonus on Fortitude saves."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"freedom_fighter_andoran": {
@@ -1999,7 +1836,6 @@
 			"",
 			"You've developed a reputation as a privateer who fights for freedom. You gain a +2 trait bonus on Diplomacy checks. This bonus becomes a -2 penalty when dealing with slavers or those who support the slave trade. Diplomacy becomes a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"freedom_fighter_shokuro": {
@@ -2011,7 +1847,6 @@
 			"",
 			"You come from a family of farmers, but are determined to fight for your rights. You gain a +1 trait bonus on attacks made with improvised weapons. If you do not possess the {feat/Catch Off-Guard} or {feat/Throw Anything} feats, you still take penalties on these attack rolls as normal."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"friend_of_the_dead": {
@@ -2023,7 +1858,6 @@
 			"",
 			"Your close association with the intelligent undead of Geb has imparted some of their otherworldly essence to you, and this essence helps you in your dealings with the undead. You gain a +2 trait bonus on Diplomacy checks against sentient undead."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"friend_of_the_fey": {
@@ -2035,7 +1869,6 @@
 			"",
 			"You have a special relationship with the fey, having grown up in close proximity to them. You gain a +2 trait bonus on Diplomacy checks against fey creatures."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"frontier_forged": {
@@ -2047,7 +1880,6 @@
 			"",
 			"A hard life on the edge of civilization has made you resourceful but has also given you a streak of self-preservation bordering on paranoia. You receive a +1 trait bonus on Perception checks and a +1 bonus on Survival checks made to get along in the wild."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"frostborn": {
@@ -2059,7 +1891,6 @@
 			"",
 			"Long nights in the frigid winters of the north have inured you to cold. You gain a +4 trait bonus on any savings throws made to resist the effects of cold environments, as well as a +1 trait bonus on all saving throws against cold effects."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"fruit_merchant": {
@@ -2071,7 +1902,6 @@
 			"",
 			"When bartering for mundane items like food, water, and clothing, you can purchase supplies for 10% less and sell them for 10% more."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"gallant_imposter": {
@@ -2083,7 +1913,6 @@
 			"",
 			"You gain a +1 trait bonus on Knowledge (nobility) and Knowledge (religion) checks. In addition, you gain a +2 trait bonus on both Disguise and Bluff checks while attempting to impersonate a knight."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"genie_caller": {
@@ -2098,7 +1927,6 @@
 			"",
 			"Your exploration of the magic for calling genies has increased your overall aptitude for summoning. Once per day, you may cast one conjuration (summoning) spell as if your caster level were 2 higher than normal."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"ghost_survivor": {
@@ -2110,7 +1938,6 @@
 			"",
 			"You spent a single night in Harrowstone and managed to survive the terrifying ordeal, though you bore witness to ghosts and numerous other horrors during your short stay. You gain a +2 trait bonus on Knowledge (religion) checks to identify incorporeal undead and a +2 trait bonus on Fortitude saving throws against effects that inflict negative levels."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"ghoulish_affinity": {
@@ -2122,7 +1949,6 @@
 			"",
 			"Ever since you recovered from ghoul fever, the scars on your arms and hands itch whenever one of these vile creatures is nearby. You gain a +2 trait bonus on Perception checks to notice undead disguised as living creatures, and a +2 trait bonus on Fortitude saves against diseases and poisons inflicted by undead."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"giant_ambivalence": {
@@ -2138,7 +1964,6 @@
 			"",
 			"Likely giants: Cloud, Hill, River, Stone"
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"giant_dodger": {
@@ -2154,7 +1979,6 @@
 			"",
 			"Likely giants: Cliff, Desert, River"
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"giant_investigator": {
@@ -2170,7 +1994,6 @@
 			"",
 			"Likely giants: Marsh, Ocean, River, Storm, Taiga"
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"giant_harried": {
@@ -2186,7 +2009,6 @@
 			"",
 			"Likely giants: Ash, Hill, River, Shadow"
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"glory_of_old": {
@@ -2198,7 +2020,6 @@
 			"",
 			"In your veins flows the blood of dwarven heroes from Tar Taargadth. You receive a +1 trait bonus on saving throws against spells, spell-like abilities, and poison."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"goblin_pirate": {
@@ -2211,7 +2032,6 @@
 			"",
 			"Although you might prefer life on board a ship, you often end up in the water for some odd reason. You gain a +1 trait bonus on Profession (sailor) and Swim checks, and Swim is always a class skill for you. You might also have a peg leg or a hook for a hand, but that's not so helpful."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"godless_resolve": {
@@ -2223,7 +2043,6 @@
 			"",
 			"Some brilliant and earnest speech or other performance inspired you to take charge of your own health rather than begging indifferent or outlawed deities for deliverance. Heal is a class skill for you, and you gain a +2 trait bonus on Heal checks to stabilize dying creatures and stop bleeding."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"gold_goblin_regular": {
@@ -2235,7 +2054,6 @@
 			"",
 			"You're a frequent customer at the Gold Goblin Gambling Hall and enjoy some popularity within its walls. You gain a +1 trait bonus on Profession (gambler) checks and a +2 trait bonus on Diplomacy checks made to gather information when in Riddleport."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"good_folk": {
@@ -2247,7 +2065,6 @@
 			"",
 			"People's faith in you tends to run deeper than their trust of others. You gain a +2 bonus on Charisma checks and Charisma-based skill checks with creatures that have a friendly or helpful attitude towards you."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"gravelwalker": {
@@ -2259,7 +2076,6 @@
 			"",
 			"Having grown up navigating rockslides and picking your way through partially collapsed tunnels, you are able to determine the most stable path across difficult terrain caused by rubble or other debris. You can move normally through such obstructed spaces, and can run or charge though them with a successful Acrobatics check."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"greenskin_stalker": {
@@ -2271,7 +2087,6 @@
 			"",
 			"You're a member of the Greenskin Stalkers. Due to your affiliation with this brotherhood of goblin slayers, you've learned to think and act like a goblin, as disturbing as that sounds. You receive a +1 trait bonus on Bluff, Knowledge, Perception, Sense Motive, and Survival checks against or concerning goblinoids. You can also attempt Knowledge checks concerning goblinoids untrained."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"grit_goggles": {
@@ -2283,7 +2098,6 @@
 			"",
 			"Exposure to the constant hazards of airborne particles (such as during a sandstorm or cave-in) has made your eyes less susceptible to irritants, such as sand, dust, and even liquids and gases. You gain a +2 trait bonus against being blinded by foreign objects (such as from a Dirty Trick combat maneuver) and you halve any reductions in visibility from the environment (such as from certain storms) and their corresponding penalties. For example, if you were in a sandstorm that normally reduces visibility to 25 feet and imparts a -4 penalty on Perception checks, you reduce visibility to 50 feet and take only a -2 penalty on Perception checks."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"guerilla": {
@@ -2295,7 +2109,6 @@
 			"",
 			"You have spent much time in the rainforests of Dtang Ma, and know its secrets. You gain a +1 trait bonus on Knowledge (nature) checks as well as Survival checks made in the rainforest. One of these skills becomes a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"guerrilla_mender": {
@@ -2307,7 +2120,6 @@
 			"",
 			"With the help of a druidic healer, you narrowly escaped death by disease or poisoning while on the run from Molthuni militias, whether contracting the ailment was an accident or you were the victim of more sinister forces. Whenever you successfully use the Heal skill to treat an ally's poison or disease, you grant the ally an additional +1 trait bonus on the saving throw against the disease or poison. Heal is a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"heart_of_clay": {
@@ -2319,7 +2131,6 @@
 			"",
 			"You believe you are destined for an afterlife of service as part of King Huang's terra-cotta army, so you do not fear death as others do. You gain a +1 trait bonus on Fortitude saves."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"heavenly_touch": {
@@ -2331,7 +2142,6 @@
 			"",
 			"Growing up, you were exposed to everyday miracles performed by your half-celestial friends, and some of this magic rubbed off. At will, you can touch a dying creature to stabilize it as a standard action."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"heir_of_chu_ye": {
@@ -2343,7 +2153,6 @@
 			"",
 			"If you would take a penalty for using the Heal skill to treat deadly wounds without one or more uses of a healer's kit, that penalty is reduced by 2 (minimum no penalty). Additionally, a creature can benefit from you treating its deadly wounds if you do so within 48 hours of its injury instead of within 24 hours."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"hermean_paragon": {
@@ -2355,7 +2164,6 @@
 			"",
 			"You are a product of Hermea's breeding programs - either your parents were chosen to be citizens, or you were, but later failed to live up to the island's high standards. Whatever the case, you are quicker than normal members of your race, and gain a +2 trait bonus on Initiative checks."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"highlander": {
@@ -2370,7 +2178,6 @@
 			"",
 			"You were born and raised in rugged badlands or hills, and you've become something of an expert at evading the predators, monsters, and worse that haunt the highlands. You gain a +1 trait bonus on Stealth checks, and Stealth is always a class skill for you. This trait bonus increases to +2 in hilly or rocky areas."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"holy_tattoo": {
@@ -2382,7 +2189,6 @@
 			"",
 			"When you had your deity's holy symbol tattooed on your body by a Sczarni tattooist years ago, you never imagined it would save your life. Your holy symbol tattoo functions in all ways as a holy symbol. When you use your holy symbol tattoo to keep a vampire at bay, the DC for the vampire to overcome its revulsion is 28 (rather than the normal 25)."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"home_port": {
@@ -2394,7 +2200,6 @@
 			"",
 			"You have a fondness for a particular port, and the people who live and do business there return the sentiment. You gain a +2 trait bonus on Diplomacy checks to gather information in your chosen home port."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"honeyed_tongue": {
@@ -2406,7 +2211,6 @@
 			"",
 			"Having matured in the melting pot of New Oppara, you know the customs of the Tian-Shus as well as those of the Taldans, and you utilize this knowledge to create peace between rival groups. You gain a +1 trait bonus on Diplomacy checks, and Diplomacy becomes a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"hongal_bloodrider": {
@@ -2418,7 +2222,6 @@
 			"",
 			"You belong to one of the nomadic groups of horseback riders that range throughout Hongal. You gain a +1 trait bonus on Handle Animal and Ride checks."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"huldras_luck": {
@@ -2430,7 +2233,6 @@
 			"",
 			"At some point in your life, you were touched by a fey creature called a huldra and inherited a bit of its luck. Once per day, you may choose to gain a +1 luck bonus on a single saving throw, attack roll, or skill check."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"humble_beginnings": {
@@ -2442,7 +2244,6 @@
 			"",
 			"You didn't have any intention of becoming an adventurer, but a single, unexpected confrontation changed everything. Choose one of the following: boot, bucket, frying pan, mug, rolling pin, spade, or stool. You are treated as having the Catch Off-Guard feat when wielding the chosen item. (These items should all be considered improvised melee weapons that deal 1d4 points of bludgeoning damage.)"
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"hurricane_savvy": {
@@ -2454,7 +2255,6 @@
 			"",
 			"You are used to sailing in the terrible winds that roll out from the Eye of Abendego, and can apply the skills you've learned to any storm. You treat wind effects as one wind force category less than they actually are, both for any personal checks you must make and for any you make to captain or steer a ship."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"hwan_artist": {
@@ -2466,7 +2266,6 @@
 			"",
 			"You grew up in Hwanggot, and your artistic talents were cherished and honed from an early age. You have been nurtured on the artistic spirit of Hwanggot. Choose one Perform skill. You gain a +1 trait bonus on checks with that skill, and it becomes a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"iadaran_illusionist": {
@@ -2481,7 +2280,6 @@
 			"",
 			"You have lived in Iadara for so long that you are very familiar with illusions. You gain a +1 trait bonus on caster level checks with illusion spells and a +1 trait bonus on Will saves to disbelieve illusions."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"imperial_soldier": {
@@ -2493,7 +2291,6 @@
 			"",
 			"You've served in the Imperial Army of Molthune. Choose one of the following skills: Heal, Intimidate, or Ride. You gain a +1 trait bonus on that skill, and it is always a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"indentured_blacksmith": {
@@ -2505,7 +2302,6 @@
 			"",
 			"As a former slave of the hobgoblins, you were forced to make many of the weapons and shields that your captors used in war. Choose either Craft (armor) or Craft (weapons). You gain a +1 trait bonus on the chosen skill, and it becomes a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"inspiring_speaker": {
@@ -2517,7 +2313,6 @@
 			"",
 			"You have learned the arts of oratory, and know how to speak to crowds to rile them up or to calm them down. You gain a +1 trait bonus on Bluff and Diplomacy checks when addressing crowds of 10 people or more."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"instigator_of_rebellion": {
@@ -2529,7 +2324,6 @@
 			"",
 			"Your rage over the political repositioning within Minkai has led you to incite rage within your compatriots. You have become adept at organizing rallies in opposition to the government. You gain a +1 trait bonus on Diplomacy and Intimidate checks."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"intrepid_delver": {
@@ -2541,7 +2335,6 @@
 			"",
 			"One of the elder elves in Ayajinbo told you many stories of the Darklands beneath the city, and your nerves have hardened to horrors others can hardly fathom. You gain a +2 trait bonus on saving throws against fear effects."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"iobarian_survivor": {
@@ -2553,7 +2346,6 @@
 			"",
 			"Whenever you are exposed to a disease while you are trying to treat an afflicted creature, you gain a +4 trait bonus on your Fortitude saving throw to resist contracting the disease yourself."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"iron_lungs": {
@@ -2565,7 +2357,6 @@
 			"",
 			"Due to the constant intrusion of marsh gases seeping into the tunnels and chambers of your lair, you can hold your breath for twice as long and gain a +2 trait bonus on saving throws against the effects of inhaled poisons."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"iron_mind": {
@@ -2576,7 +2367,6 @@
 			"",
 			"You gain a +2 trait bonus on saving throws against spells and effects that would reduce your Intelligence score or cause you to forget something."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"isger_fixer": {
@@ -2589,7 +2379,6 @@
 			"",
 			"Everyone in Isger knows how to make do with substandard equipment, and you can improvise tools and materials in order to keep a damaged object working for just a little bit longer. Once per day, you can tinker with a broken object to allow anyone who uses it to ignore the penalties for its broken condition for 24 hours (this does not affect the object's hit points). At the end of this time, it regains the broken condition (but you can use this trait on it over and over again)."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"isgeri_orphan": {
@@ -2601,7 +2390,6 @@
 			"",
 			"You grew up in one of the many Asmodean orphanages that dot the Isgeri countryside. Whether or not you took to their teachings, your strict indoctrination at the hands of the \"devil nuns\" has toughened your body to punishment. You gain a +1 trait bonus on Fortitude saves."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"issian_noble": {
@@ -2613,7 +2401,6 @@
 			"",
 			"You are a scion of one of the warring noble houses of Brevoy, and are well versed in maneuvering though the cutthroat world of Brevic politics. You gain a +1 trait bonus on Knowledge (nobility) and Sense Motive checks."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"jadwiga_medicine": {
@@ -2625,7 +2412,6 @@
 			"",
 			"Once per day as an immediate action when you cast a spell of the healing subschool or a hex that produces the effect of such a spell, you can attempt an Intimidate check to demoralize your target or anyone who can see you within 30 feet. You gain a +2 trait bonus on this check."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"jungle_diplomat": {
@@ -2637,7 +2423,6 @@
 			"",
 			"You know the ways and mores of the tribes of the Valashmai Jungle, and how to handle delicate communications with different groups of people. You gain a +1 trait bonus on Diplomacy and Sense Motive checks."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"jungle_guide": {
@@ -2649,7 +2434,6 @@
 			"",
 			"You've made your living outfitting and guiding expeditions deep into the Mwangi interior in search of ancient ruins and lost cities. You gain a +1 trait bonus on Handle Animal checks, and a +1 trait bonus on Survival checks in jungle terrain. One of these skills is a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"jungle_native": {
@@ -2662,7 +2446,6 @@
 			"",
 			"Your people have called the jungles home for generations, and they are extremely proficient in moving about in that terrain. You gain a +1 trait bonus on saving throws against diseases and poisons, a +1 trait bonus on initiative checks attempted in jungle terrain, and Survival is a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"jungle_resilience": {
@@ -2674,7 +2457,6 @@
 			"",
 			"Having grown up in Nagajor, you are used to the myriad poisons of its people, and have developed a strong immune system. You gain a +2 trait bonus on Fortitude saves against poison effects."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"jungle_walker": {
@@ -2686,7 +2468,6 @@
 			"",
 			"You have learned how to navigate the darkest jungles of the Mwangi Expanse, and how to avoid the most dangerous hazards of the land. You gain a +2 trait bonus on Survival checks in jungle terrain."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"justiciar": {
@@ -2698,7 +2479,6 @@
 			"",
 			"You are experienced in interpreting and applying legal doctrine, notably the Laws of Man, independent of any divine mandates. You gain a +1 trait bonus on Diplomacy and Knowledge (local) checks to settle disputes or arbitrate laws. Once per day if you succeed at an Intimidate check to demoralize a foe who has repudiated or ignored a pronounced judgment you've made, you may choose to cause the creature to be sickened instead of shaken. The duration of the effect remains the same."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"kami_talker": {
@@ -2710,7 +2490,6 @@
 			"",
 			"You have traversed the Forest of Spirits numerous times, and have learned how best to communicate with its otherworldly inhabitants. You gain a +2 trait bonus on Diplomacy and Intimidate checks made against outsiders that have the native subtype."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"keeper_of_the_veil": {
@@ -2722,7 +2501,6 @@
 			"",
 			"Even when not cloaked in magic, your training has taught you how to conceal your true nature. You gain a +1 competence bonus on Bluff and Disguise checks, and one of these skills (your choice) is always a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"keleshite_trader": {
@@ -2734,7 +2512,6 @@
 			"",
 			"Your cosmopolitan upbringing has given you familiarity with many cultures. You gain two bonus languages and a +2 trait bonus on Knowledge (local) checks."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"kobolds_neighbor": {
@@ -2746,7 +2523,6 @@
 			"",
 			"You grew up in wilderness where kobolds make their homes. You learned early on how to find traps before they find you, how to disable them, and when you should just walk away. You gain a +2 trait bonus to Perception checks to discover traps and a +1 trait bonus to Disable Device checks."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"kwanlai_believer": {
@@ -2758,7 +2534,6 @@
 			"",
 			"You were raised in Kwanlai in one of the devout tengu churches, and your dedication to your cause makes your divine abilities particularly potent. You gain a +2 trait bonus on {rule/concentration} checks made while casting divine spells."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"kyonin_gatekeeper": {
@@ -2771,7 +2546,6 @@
 			"",
 			"You helped maintain the elf gates and are familiar with the operation of teleportation magic. You gain a +1 trait bonus on Spellcraft checks to identify teleportation magic and a +1 trait bonus to caster level checks when casting teleportation spells. You know the proper commands to operate a particular elf gate (most likely an often-used elf gate, but at the GM's discretion it may be a less popular or out-of-the-way elf gate)."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"lair_snake": {
@@ -2783,7 +2557,6 @@
 			"",
 			"You spent your formative years bowing and scraping in the presence of a dragon, witnessing the glory of the vast hoard... and squirreling away a few bits of coin for yourself. You gain a +1 trait bonus on Appraise checks, and your starting wealth increases by 200 gp."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"lamasaran_performer": {
@@ -2795,7 +2568,6 @@
 			"",
 			"You are one of the famed performers of Lamasara, and your skill is known throughout Thuvia. Once per day when you start a bardic performance, you can increase the DC of the saving throw to resist your performance's effects by 1. This effect lasts until you switch performances or end your performance."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"lastwall_cavalry_rider": {
@@ -2807,7 +2579,6 @@
 			"",
 			"From the moment you were old enough to walk, you learned how to ride the mighty warhorses of Lastwall. You gain a +1 trait bonus on Ride checks, and Ride is always a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"left_behind": {
@@ -2820,7 +2591,6 @@
 			"",
 			"Having been born to those who chose to remain on Golarion during the Age of Darkness in the Mwangi Expanse, you understand the people of this world better than most elves. You gain a +1 trait bonus on Diplomacy checks when interacting with Forlorn elves and non-elf races."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"legalistic_liberation": {
@@ -2833,7 +2603,6 @@
 			"",
 			"You followed - or some might say exploited - the rules and earned your freedom by finding the loopholes within your homeland's labyrinthine codes regulating slavery and indentured servitude. You gain a +1 bonus on all Knowledge checks to find a legitimate way to avoid, negate, or escape an existing obligation."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"lepidstadt_scar": {
@@ -2845,7 +2614,6 @@
 			"",
 			"You engaged in nonlethal duels at Fifthstones Hill so often that you gained a visible (though minor) scar on your face. Because of this experience, you're unflinching in the heat of combat, calmly analyzing how to lessen the impact of a foe's best attacks. You gain a +1 dodge bonus to AC against attack rolls made to confirm a critical threat against you."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"lichblood": {
@@ -2857,7 +2625,6 @@
 			"",
 			"You are among the fabled lichblood orcs, and so you command respect among the orcs of Belkzen. You gain a +2 trait bonus on Diplomacy and Intimidate checks made against orcs of Belkzen. You must have the undead bloodrager bloodline to select this trait."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"linebreaker": {
@@ -2872,7 +2639,6 @@
 			"",
 			"Growing up along the border between Belkzen and Lastwall has taught you how to storm enemy battle lines and quickly overwhelm them. When charging, add 10 feet to your base speed."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"lingshens_finest": {
@@ -2884,7 +2650,6 @@
 			"",
 			"You are an elite soldier in one of Lingshen's numerous armies, and your discipline has made you a truly deadly foe. You gain a +1 trait bonus on all rolls to confirm critical hits."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"lions_audacity": {
@@ -2896,7 +2661,6 @@
 			"",
 			"You attack life with the ferocity of a charging lion and inspire others with your audacious deeds. Once per day when you make a charge attack, you can inspire allies within 30 feet. They gain an additional +2 trait bonus on attack and damage rolls when they make a charge attack before the beginning of your next turn."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"liquid_healing": {
@@ -2908,7 +2672,6 @@
 			"",
 			"Growing up in Rahadoum, you did not have access to clerics and other divine magic for healing, so you relied heavily on potions to cure your wounds. As a result, potions heal you more effectively. Whenever you consume a potion that heals any number of hit points, you heal 2 additional hit points."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"local_know_it_all": {
@@ -2920,7 +2683,6 @@
 			"",
 			"Choose a community that you've lived in for at least 5 years. You gain a +2 trait bonus on Knowledge (local) checks related to that community."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"log_roller": {
@@ -2935,7 +2697,6 @@
 			"",
 			"The time you spent leaping between slippery logs as they whirled down the river to market taught you how to keep your footing. You gain a +1 trait bonus on Acrobatics checks and a +1 trait bonus to your CMB when attempting to resist trip attacks."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"lost_origins": {
@@ -2947,7 +2708,6 @@
 			"",
 			"You are disconnected from your heritage and do what you can to learn more about where your family is or where your people came from. Knowledge (local) is always a class skill for you, and you can always take 10 on Knowledge (local) checks, even when stress or distractions would normally prevent you from doing so."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"lost_role_model": {
@@ -2961,7 +2721,6 @@
 			"",
 			"**Suggestion:** With the help of your GM and using the [example dungeon guides](main/equipment_misc), construct a unique dungeon guide tied to the dungeon near where you grew up."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"mammoth_master": {
@@ -2976,7 +2735,6 @@
 			"",
 			"You have experience trapping and training large creatures such as mammoths, mastodons, woolly rhinoceroses, and other megafauna. You gain a +4 trait bonus on Handle Animal checks related to these creatures."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"mana_wastes_medic": {
@@ -2988,7 +2746,6 @@
 			"",
 			"After witnessing a terrible disaster result from an attempt at magical healing in the Mana Wastes, you are careful and methodical when crafting your own healing tinctures. The amount of hit points restored by your Heal checks to treat deadly wounds and your extracts of the healing subschool is increased by 1."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"mana_wastes_survivalist": {
@@ -3000,7 +2757,6 @@
 			"",
 			"You grew up in the blasted badlands of the Mana Wastes, or have spent a lot of time there, and the harsh land has toughened your body. You gain a +1 trait bonus on Fortitude saves."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"master_of_peaks": {
@@ -3012,7 +2768,6 @@
 			"",
 			"You have made it to the summits of a number of the Wall of Heaven's peaks, and your body is used to the effects of both extreme cold and high altitude. You gain a +2 trait bonus on Fortitude saving throws made against the effects of cold dangers and altitude sickness."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"mechanical_expertise": {
@@ -3024,7 +2779,6 @@
 			"",
 			"Growing up bordering the Mana Wastes and living within the Grand Duchy of Alkenstar has made you familiar with tools and practical objects. You rely on mechanics to solve problems and are familiar with basic engineering concepts. Select one of the following skills: Craft (any), Disable Device, or Knowledge (engineering). You gain a +1 trait bonus on checks with that skill, and it is always a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"merabian_mentorship": {
@@ -3037,7 +2791,6 @@
 			"",
 			"You were apprenticed to a renowned alchemist of Merab, and she taught you how to recognize elemental reagents by taste. Upon imbibing a potion containing a spell on your formula list of a spell level you are capable of casting, you can attempt a Spellcraft check (DC 15 + extract level). On a success, you can immediately add the spell to your formula book."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"merchant_of_katheer": {
@@ -3049,7 +2802,6 @@
 			"",
 			"You grew up among the market stalls of the greatest trading post in all the world, and can almost smell the value of an item before you touch it. You gain a +1 trait bonus to Appraise checks, and Appraise is always a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"merchants_child": {
@@ -3064,7 +2816,6 @@
 			"",
 			"One of your close relatives was a gifted merchant in the bustling bazaars of Katapesh, and taught you early in life how to see the innate value in any object. You gain a +1 trait bonus on Appraise checks, and Appraise is always a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"militia": {
@@ -3076,7 +2827,6 @@
 			"",
 			"As part of Amanandar's militia, you have trained extensively with groups. You gain a +1 trait bonus on attacks made while flanking an opponent."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"militia_veteran": {
@@ -3091,7 +2841,6 @@
 			"",
 			"Your first job was serving in a civilian militia in your hometown. The skills you learned through daily drilling and protecting your fellow townsfolk gave you special insight into military life. Select one of the following skills: Profession (soldier), Ride, or Survival. You gain a +1 trait bonus on checks with that skill, and it is always a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"minkai_advocate": {
@@ -3103,7 +2852,6 @@
 			"",
 			"You possess strong ties to Minkai, and spread flattering words regarding your empire. You gain a +1 trait bonus on Bluff checks, and Bluff becomes a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"mivoni_duelist": {
@@ -3115,7 +2863,6 @@
 			"",
 			"Your training in Aldori sword fighting included several bouts in the Sevier, which has taught you how to inflict further punishment in one-on-one fights. You gain a +1 trait bonus on damage rolls when you are the only one threatening your opponent."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"mizu_ki_hikari_rebel": {
@@ -3127,7 +2874,6 @@
 			"",
 			"You have trained in martial arts under the banner of Mizu Ki Hikari rebels. You gain a +1 trait bonus on damage rolls made with unarmed attacks."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"monkey_goblin": {
@@ -3140,7 +2886,6 @@
 			"",
 			"You are adept at arboreal activity, and are more at home in the branches of a tree than you are on the ground. You gain a +2 trait bonus on Acrobatics and Climb checks while climbing trees."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"mordant_heritage": {
@@ -3155,7 +2900,6 @@
 			"",
 			"You have lived among the Mordant Spire elves and know their strange ways. You gain a +1 trait bonus on Swim checks and a +1 trait bonus on saving throws against enchantment effects."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"mountain_guide": {
@@ -3167,7 +2911,6 @@
 			"",
 			"You are skilled at getting along in the mountains, enabling you to find hidden trails and secret entrances into the caverns beneath mountains. You gain a +1 trait bonus on Knowledge (geography) and Survival checks when in mountainous areas, and Knowledge (geography) is always a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"mutabi_qi_explorer": {
@@ -3179,7 +2922,6 @@
 			"",
 			"You belong to one of the nomadic Mutabi-qi tribes that wander the wastes of Shaguang, and you are adept at navigating the seemingly endless desert wastes. You gain a +1 trait bonus on Knowledge (geography) checks and Survival checks made in the desert."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"mwangi_herbal_tradition": {
@@ -3191,7 +2933,6 @@
 			"",
 			"You are trained in a Mwangi tradition of herbalism dating back to the Age of Darkness and therefore have great insight into how to use the natural ingredients at your disposal to nurse an ailing body. You gain a +4 trait bonus on Heal checks when providing long-term care, and Heal is a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"mwangi_linguist": {
@@ -3203,7 +2944,6 @@
 			"",
 			"The Mwangi Expanse is a land of dozens of languages, and you grew up speaking most of them. You gain Polyglot as a bonus language. In addition, you gain a +1 trait bonus on Linguistics checks when trying to communicate with someone who does not share a common language with you."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"naga_emissary": {
@@ -3216,7 +2956,6 @@
 			"",
 			"You were groomed from childhood to act as an emissary to Nagajor's allies in Jalmeray, and you understand much about the Jalmeri people as a result. You gain a +1 trait bonus on Diplomacy checks, and Diplomacy is a class skill for you. In addition, you gain Vudrani as a bonus language."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"narrow_escape": {
@@ -3228,7 +2967,6 @@
 			"",
 			"You were captured by kuru cannibals and nearly devoured in a sacrificial ritual. At the last second you wriggled free from your bonds and escaped into the jungle. Your narrow escape has left you with a paranoid fear of capture. You secretly conduct regular sessions in which you slip out of different types of knots. You gain a +1 trait bonus on Escape Artist checks, and Escape Artist becomes a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"narrows_survivor": {
@@ -3240,7 +2978,6 @@
 			"",
 			"You spent your childhood in the infamous Narrows district of Oppara. Years of living in violent squalor have sharpened your senses and given you an ardent distrust of humanity. You gain a +1 trait bonus to Initiative and Sense Motive checks. Sense Motive is always a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"naturalist": {
@@ -3252,7 +2989,6 @@
 			"",
 			"Your ancestors taught you the importance of using what nature provides. You gain a +3 trait bonus on Survival checks when attempting to survive in the wilderness."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"near_death_experience": {
@@ -3264,7 +3000,6 @@
 			"",
 			"You had a close brush with death that you survived only thanks to one of the witch doctors of Belkzen, and your body has learned to cling to life in dire situations. You gain a +1 trait bonus on Constitution checks to stabilize, and you don't die until your hit points drop to a negative amount equal to 2 + your Constitution score."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"necrotoxin_resistance": {
@@ -3276,7 +3011,6 @@
 			"",
 			"As a resident of the undead lands of Geb, you know well that the walking dead often carry deadly poisons and diseases within them. You gain a +3 trait bonus on saving throws against disease and poison abilities and effects inflicted by creatures of the undead type (such as ghoul fever or a vargouille's poison)."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"nexian_corpse_hunter": {
@@ -3288,7 +3022,6 @@
 			"",
 			"After years spent fighting the undead legions of Geb, you have developed a knack for killing undead creatures with magic. You gain a +1 bonus on damage rolls from your spells against undead."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"nidalese_shadowcaster": {
@@ -3300,7 +3033,6 @@
 			"",
 			"You have studied with the feared shadowcasters of Nidal. Choose one spell with the shadow descriptor - from this point on, whenever you cast this spell, its effect manifest at +1 caster level."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"nightstall_urchin": {
@@ -3312,7 +3044,6 @@
 			"",
 			"You grew up an orphan on the streets of Katapesh, and spent many years of childhood in the Nightstalls, Katapesh's most infamous market. The strange and often horrific sights you saw there forced you to grow up fast-there's little that can shock or unsettle you. You gain a +2 trait bonus on saves against fear effects, and when you do make a successful save against a fear effect, the resulting rush of bravado grants you a +1 trait bonus on attack rolls and all skill checks for the next minute."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"nightstalls_escapee": {
@@ -3325,7 +3056,6 @@
 			"",
 			"The slavers of Katapesh were determined to sell you as living property, but you had other plans. You know not whether your slavers hunt you still, but you are careful about whom you trust and you always sleep with one eye open. You need to sleep only 4 hours to get a full night's rest (restoring 1 hit point per character level). You do not receive extra benefits for sleeping additional hours, and you must still rest for 24 hours to receive the benefits of complete bed rest."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"nirmathi_militia": {
@@ -3337,7 +3067,6 @@
 			"",
 			"You have served in one of the militia bands of Nirmathas, and have learned valuable skills. Select one of the following skills: Profession (soldier), Ride, or Survival. You gain a +1 trait bonus on that skill, and it is always a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"noble_in_exile": {
@@ -3349,7 +3078,6 @@
 			"",
 			"Though forced to live in the River Kingdoms, you never forget you're a Galtan noble. You gain a +1 trait bonus on Diplomacy checks while interacting with aristocrats and nobles, and a +1 trait bonus on Intimidate checks while interacting with commoners."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"numerologist": {
@@ -3361,7 +3089,6 @@
 			"",
 			"Having studied the sciences and other formal academics in your formative years, you swiftly became interested in the esoteric numerological practices of the ancient Osirian mathematicians, and know how to apply this science to dungeons. Once per day, you can attempt a Perception check while studying a trap (a standard action). The DC of this check is equal to the Disable Device DC of the trap - 5. If you succeed, you identify the DC necessary to disable the trap, as well as the DC of the Reflex save (if any) to avoid its effects."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"oagan_diver": {
@@ -3373,7 +3100,6 @@
 			"",
 			"You know how to operate the diving bells of Oagon at the mouth of the Black Flow. You've dived the streets of sunken Lirgen yourself, and you know what to expect. You gain a +1 trait bonus on Swim checks, and Swim is always a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"obsequious_morsel": {
@@ -3385,7 +3111,6 @@
 			"",
 			"Survival in Geb requires convincing your betters that you would be of more service to them if they let you live another day than if they turn you into an unliving thrall, and you have mastered the art of buying time against undead attacks. Once per day as a swift action, you can use {spell/sanctuary} as a spell-like ability (caster level = your highest caster level, or 1st if you have no caster level), with a DC equal to 10 + 1/2 your caster level (minimum 0) + your Charisma modifier. Only undead must save to attack you (other creature types are not affected). The effect ends as soon as you attack a creature, as normal."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"observant_archer": {
@@ -3397,7 +3122,6 @@
 			"",
 			"Growing up in an aquatic environment, where three-dimensional movement and perception were necessary, has given you keen observational skills and the ability to notice and target unusual positions with ranged attacks. You gain a +1 trait bonus on ranged attack rolls when your target is at least 10 feet above or below you."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"oenopion_alchemist": {
@@ -3409,7 +3133,6 @@
 			"",
 			"You studied with the alchemists of Oenopion, perfecting your craft in the homunculus factories, golemworks, and ooze colony. You gain a +1 trait bonus on Craft (alchemy) checks."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"offspring_of_the_ascension": {
@@ -3421,7 +3144,6 @@
 			"",
 			"You are descended from one of Ancient Osirion's pharaohs, and a sliver of her otherworldly power has been passed onto you. You gain a +1 trait bonus on Will saves against fear effects. Any time you become confused, reduce the duration of the effect by a number of rounds equal to your Wisdom modifier (to a minimum of 1 round of confusion)."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"open_minded_explorer": {
@@ -3433,7 +3155,6 @@
 			"",
 			"You grew up constantly interacting with people who speak unfamiliar languages and have diverse customs; your manners may not be polished, but your acceptance of others is genuine. You gain a +1 trait bonus on Diplomacy checks. This bonus increases to +2 when you're speaking the racial or ethnic language of the target creature."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"orc_impaler": {
@@ -3446,7 +3167,6 @@
 			"",
 			"You gain a +2 trait bonus on rolls to confirm critical hits made as part of a charge. This bonus increases to +3 if the critical hit is made against a creature with the orc subtype."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"oregent_desperation": {
@@ -3458,7 +3178,6 @@
 			"",
 			"Your instinct to survive easily overpowers your intellect, and you consider this a more than fair trade. Once per day you can improve your condition from dying to disabled by taking 4 points of Intelligence damage."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"oregent_timing": {
@@ -3470,7 +3189,6 @@
 			"",
 			"After years of soul-numbing obedience to the schedules of others, you find synchronizing your actions with an ally second nature. Once per day when you take a readied action in combat, you gain a +3 trait bonus on the d20 roll for that action if it was triggered by an ally's action."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"oregent_vandal": {
@@ -3482,7 +3200,6 @@
 			"",
 			"You find it quite easy to apply your carefully honed instincts for building and repairing to destruction instead. You gain a +2 trait bonus on damage rolls made against targets with hardness. This bonus does not apply to attacks that ignore hardness."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"osirionologist": {
@@ -3494,7 +3211,6 @@
 			"",
 			"You have studied the history of ancient Osirion, and may have even ventured inside one of the great pyramids. You gain a +1 trait bonus on Knowledge (engineering) and Knowledge (history) checks, and one of them is always a class skill for you. In addition, you may choose Ancient Osiriani as one of your bonus languages."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"outsea_native": {
@@ -3507,7 +3223,6 @@
 			"",
 			"Raised amid or near the transitive aquatic kingdom known as Outsea, your predilection for watery environs has been strong since birth and you know the types of creatures who call the ocean home. You gain a +2 trait bonus on Knowledge checks to identify aquatic monsters. Anytime you are looking through water and would take a penalty on vision-based Perception checks due to murkiness or other natural circumstances, reduce the penalty by 2."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"palm_potion": {
@@ -3519,7 +3234,6 @@
 			"",
 			"Priests of Razmiran often make subtle use of potions to hide the fact that they do not receive spells from their deity, and they have become quite adept at imbibing potions surreptitiously. You have mastered these techniques; whenever you consume a potion, you can attempt a Sleight of Hand check with a +2 trait bonus opposed by onlookers' Perception checks to hide the fact that you are drinking a potion (as if you were using Sleight of Hand to hide an object). The observer's success doesn't prevent you from drinking the potion, just from doing so unnoticed. This does not hide any visible effects that the potion might have on you, only the physical act of drinking the potion."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"paraheen_weaponsmith": {
@@ -3531,7 +3245,6 @@
 			"",
 			"You are a descendant of a long line of skilled dwarven weapon makers or have apprenticed under such artisans. Either way, you learned their long-held secrets relating to the production of magical arms and armor. You treat your caster level as 1 higher for purposes of creating magical weapons, and gain a +1 trait bonus on Craft checks to create magical armor, shields, or weapons."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"passionate_believer": {
@@ -3543,7 +3256,6 @@
 			"",
 			"Your faith was stifled while you lived in the religiously oppressive slums of Changdo, and the persecutions against you only spurred your own beliefs and made your convictions stronger. You gain a +1 trait bonus on saving throws against divine spells."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"patrons_boon": {
@@ -3555,7 +3267,6 @@
 			"",
 			"In your youth, a Rahadoumi witch granted you a boon promoting your continued health and long life. The DCs of any Heal checks to stop bleed damage you are suffering are reduced by 4."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"pearl_diver_xidao": {
@@ -3567,7 +3278,6 @@
 			"",
 			"You were a pearl harvester for a nation bordering Xidao, and you know just what clues to look for when searching for a worthwhile haul in the briny shallows. You gain a +1 trait bonus on Appraise and Swim checks."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"perseverance": {
@@ -3582,7 +3292,6 @@
 			"",
 			"Your time in the Five Kings Mountains has taught you that any obstacle can be endured and overcome. When you have more than one Will saving throw to overcome an effect (such as from greater command or hold person, or by using the good fortune ability of the Luck domain), you receive a +3 trait bonus on the extra Will saves against that effect."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"pesh_addict": {
@@ -3597,7 +3306,6 @@
 			"",
 			"You spent several years addicted to pesh, a habit that you may or may not have kicked. You start with only half of the normal starting cash, but your knowledge of the pesh lifestyle grants you a +1 trait bonus on Bluff, Knowledge (local), and Sense Motive checks. One of these skills (your choice) is always a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"pesh_dealer": {
@@ -3609,7 +3317,6 @@
 			"",
 			"You worked for a pesh dealer, either by selling the drug on the street or helping to organize shipments to other regions, which involved a certain amount of smuggling. You gain a +1 trait bonus on Sleight of Hand checks, and Sleight of Hand is always a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"pirate_duelist": {
@@ -3621,7 +3328,6 @@
 			"",
 			"You've rubbed elbows with pirates of all stripes in Ilizmagorti's taverns and convinced a few to show off their swordfighting skills. You gain a +1 trait bonus on attacks of opportunity made with daggers, short swords, cutlasses, rapiers, scimitars, or hook hands."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"pitaxian_improvisation": {
@@ -3633,7 +3339,6 @@
 			"",
 			"Your quick hands can salvage even the most botched performance. Once per day after you attempt a Perform check and before the results of the roll are revealed by the GM, you can attempt a Bluff check and use the result of that check in place of your Perform check. You must use the result of that Bluff check, even if it is lower."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"plainsman": {
@@ -3645,7 +3350,6 @@
 			"",
 			"You live and work on the M-neri Plains. You gain a +1 trait bonus on all Knowledge (geography) and Survival checks regarding the M-neri Plains."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"planar_negotiator_dhh": {
@@ -3657,7 +3361,6 @@
 			"",
 			"You are used to dealing with outsiders that would fluster a less experienced negotiator. When dealing with an outsider within one step of your alignment, you gain a +1 trait bonus on Diplomacy and Sense Motive checks. Increase these bonuses to +2 if you and the outsider worship the same deity."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"poison_connoisseur": {
@@ -3669,7 +3372,6 @@
 			"",
 			"When the ceaseless bickering and elaborate posturing of Taldan politics proves ineffective, it is not unheard of for the nobility of Taldor to turn to poison to solve their problems, and therefore many are taught to identify the telltale signs of commonly used toxins. You gain a +2 trait bonus on saving throws against ingested poisons. Additionally, you can cast {spell/detect poison} as a spell-like ability once per day, using your character level as your caster level."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"poisoned_blade_resistance": {
@@ -3681,7 +3383,6 @@
 			"",
 			"In the River Kingdoms' Daggermark, odds are good that any given blade is coated in some kind of poison, and people there are used to both poisoning and being poisoned. You gain a +2 trait bonus on Fortitude saving throws against injury poisons. Additionally, you are immune to one specific nonmagical injury poison. You must choose this poison when you choose this trait and cannot change it."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"pomp_and_pageantry": {
@@ -3694,7 +3395,6 @@
 			"",
 			"Though others think you merely waste time, you know that those extra flourishes and ceremonial touches actually make your work just that much better. You gain a +1 trait bonus on Acrobatics, Diplomacy, Handle Animal, Intimidate, Perform, and Ride checks with class skills if you spend twice as long as it normally takes to make that check."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"precocious_spellcaster": {
@@ -3706,7 +3406,6 @@
 			"",
 			"Before you even began your training as a spellcaster, you spent a great deal of time studying cantrips and simple spells on your own. Because of this, you developed some innate magical abilities without any outside guidance. Select one cantrip and one 1st-level spell; when you cast these spells, they function at one caster level higher than your actual caster level."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"prestigious_healer": {
@@ -3718,7 +3417,6 @@
 			"",
 			"Once per day as an immediate action when you cast a spell of the healing subschool, you can attempt a Diplomacy check to improve the attitude of your target or anyone within 30 feet who can see you before the end of your next turn. You gain a +2 trait bonus on this check."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"pretend_pirate": {
@@ -3730,7 +3428,6 @@
 			"",
 			"You enjoy luring slave ships to you. Sometimes you run a pirate flag to lull criminals into a false sense of security; other times you disguise yourself as a merchant ship. You gain a +2 bonus on Disguise checks made to disguise yourself as a pirate or merchant sailor. In addition, you can take 5 minutes to alter your ship's appearance to add +2 to the DC of any check made to identify your ship's allegiance or purpose."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"prismati_player": {
@@ -3742,7 +3439,6 @@
 			"",
 			"You've grown up playing the confusing game of prismati and throw stones with accuracy and ease. You gain a +1 trait bonus on attack rolls with fist-sized rocks or similarly shaped objects, and a +1 trait bonus on {rule/concentration} checks."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"privileged_slave": {
@@ -3754,7 +3450,6 @@
 			"",
 			"You were enslaved by the hobgoblins of Kaoling, and obeyed your masters dutifully, turning your back on comrades in order to find favor with your slavers-all the while plotting your escape. You gain a +1 trait bonus on Bluff checks, and Bluff becomes a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"prophet_of_burrows": {
@@ -3767,7 +3462,6 @@
 			"",
 			"While you might not be a practicing follower of the [Prophecies of Kalistrade](rule/f_profits), you value human coin more than most ratfolk do and have taken the mercantile practices of the Prophecies to heart. Whenever you roll a skill check to earn money, increase the amount of money that you earn by 5%."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"purchased_loyalty": {
@@ -3779,7 +3473,6 @@
 			"",
 			"As a member of Druma's Mercenary League, you are utterly loyal to the holder of your contract-at least until it expires. Once per day, when protecting someone who has bought your services, you may roll twice when making a Will save against charm effects and take the better result."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"pure_legion_recruit": {
@@ -3791,7 +3484,6 @@
 			"",
 			"You have spent time among the famed Pure Legion and understand some of their techniques for spotting signs of religion and the faithful. You gain a +2 trait bonus on Perception checks to see through disguises and mundane attempts to conceal religious iconography or dress. You also gain a +2 trait bonus on Sense Motive checks to see through lies about a target's religious beliefs and to understand secret messages relating to the gods."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"quain_martial_artist": {
@@ -3803,7 +3495,6 @@
 			"",
 			"Having grown up in Quain, you were taught under various schools of martial arts, and have used all you have learned to hone your fighting prowess. You gain a +1 trait bonus on damage rolls when using unarmed strikes."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"quantium_university_graduate": {
@@ -3815,7 +3506,6 @@
 			"",
 			"You graduated from one of Quantium's justly famous arcane academies, and the rigorous program of study has honed your mind. You gain a +2 trait bonus on {rule/concentration} checks when casting arcane spells."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"rabble_rebel": {
@@ -3828,7 +3518,6 @@
 			"",
 			"Your time spent amid angry mobs has taught you exactly how to use crowds of people to distract your opponents. If you have at least three allies threatening your opponent, you gain a +2 bonus on Bluff checks to feint him and a +2 bonus on Sleight of Hand checks against him."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"rahadoumi_cultist": {
@@ -3840,7 +3529,6 @@
 			"",
 			"You're a secret member of a forbidden faith in Rahadoum. You have learned to hide your beliefs and how to identify others of your faith. You gain a +5 trait bonus on Bluff checks to receive secret messages, and a +5 trait bonus on Sense Motive checks to intercept secret messages from others of your faith."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"rahadoumi_disbeliever": {
@@ -3852,7 +3540,6 @@
 			"",
 			"As a Rahadoumi who rejects covenants with gods, your belief is strong enough to repel divine spells. You gain a +2 trait bonus on saving throws against divine spells, but you must make a saving throw even when that magic is beneficial to you."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"rebel_leader": {
@@ -3864,7 +3551,6 @@
 			"",
 			"A close relative was an important player in the rebellions that led to the independence of Shokuro, and passed on her passion to you. If you take the {feat/Leadership} feat, you receive a +1 trait bonus to your Leadership score."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"regional_influence": {
@@ -3880,7 +3566,6 @@
 			"**Magnimar:** Gain one random {eq-misc/Varisian idol}.  ",
 			"**Riddleport:** Gain a +1 trait bonus on Swim checks."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"regional_recluse": {
@@ -3898,7 +3583,6 @@
 			"**Turtleback Ferry:** Gain a +1 bonus to damage on all attacks against creatures of the giant type.  ",
 			"**Urglin:** Gain Orc as a bonus language. If you already know this language, gain a +1 trait bonus on Intimidate checks."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"resourceful_alchemy": {
@@ -3910,7 +3594,6 @@
 			"",
 			"Alchemy is a point of national pride in Thuvia, home of the famous {magic-artifact/sun orchid elixir}. But resources are often hard to come by in the blasted desert landscape, so you have found creative ways to create many of the tools you need to survive. You gain a +2 trait bonus on Craft (alchemy) skill checks. This bonus increases to +3 when you are using Craft (alchemy) to craft an alchemical item."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"resourceful_scavenger": {
@@ -3922,7 +3605,6 @@
 			"",
 			"Living in Numeria required you to become an expert scavenger, searching through ruins and crash sites for valuables and sustenance. Years spent in this pursuit have given you a keen eye for finding valuables and potentially useful resources in the unlikeliest places. You gain a +2 trait bonus on Perception checks when you search a location for valuables or resources. Appraise is always a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"rice_runner": {
@@ -3934,7 +3616,6 @@
 			"",
 			"You grew up as a slave in Wanshou, harvesting rice for your kraken despot, and you know how to move agilely across sodden and unsteady ground. You gain a +1 trait bonus on Acrobatics checks, and Acrobatics becomes a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"rider_of_paresh": {
@@ -3950,7 +3631,6 @@
 			"",
 			"You call the Plains of Paresh home, whether you were born among the plains' tribes or in the glittering towers of Katheer. The horses are your kin. When mounted and making a charge, your mount's speed is increased by 10 feet."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"river_navigator": {
@@ -3962,7 +3642,6 @@
 			"",
 			"You grew up in the River Kingdoms and are familiar with the many winding streams that cross the land. You gain a +1 trait bonus on Survival checks or Profession (sailor) checks dealing with lakes, rivers, and their immediate surroundings, and one of these skills becomes a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"river_rat": {
@@ -3978,7 +3657,6 @@
 			"",
 			"You learned to swim right after you learned to walk. When you were a youth, a gang of river pirates put you to work swimming in nighttime rivers and canals with a dagger between your teeth so you could sever the anchor ropes of merchant vessels. You gain a +1 trait bonus on damage rolls with a dagger and a +1 trait bonus on Swim checks. Swim is always a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"river_sniper": {
@@ -3990,7 +3668,6 @@
 			"",
 			"Unlike seagoing pirates, you're used to fighting most of your ship-to-ship battles at close range, and understand the value of a well-placed arrow. When on the deck of a waterborne vessel, you gain a +1 trait bonus on attacks with ranged weapons."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"riverfolk": {
@@ -4002,7 +3679,6 @@
 			"",
 			"You've grown up on the tributaries of the Sellen River system, and are as comfortable on boats as on land. You gain a +2 trait bonus on Profession (sailor) checks and any skill checks involving rope use."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"roof_racer": {
@@ -4014,7 +3690,6 @@
 			"",
 			"You've spent more than your fair share of time among the strange sloping slums that cover the rooftops of much of Old Korvosa. When using the Acrobatics skill to make a long jump, you treat the DC of the skill check as if the distance being jumped were 5 feet shorter than it actually is."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"runaway_slave": {
@@ -4026,7 +3701,6 @@
 			"",
 			"Though the ghouls of Nemret Noktoria and the drow of Zirnakaynin seldom darken the surface of Golarion, both have pacts with influential slavers and warlords who periodically provide the demon worshipers with kidnapped slaves. You were once one of these unfortunate victims and were destined to become a sacrifice to a dreadful demon lord, but you managed to slip your bonds and escape back to the surface. The horrors you witnessed were beyond fathoming, and though visions of imprisoned loved ones and friends plague your dreams, you are stronger for the experience. You gain a +1 trait bonus on saves against fear effects and gain low-light vision 10 feet. If you already have low-light vision, its range extends by 10 feet."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"sargavan_guard": {
@@ -4038,7 +3712,6 @@
 			"",
 			"You served in the Sargavan Guard, either as a colonial sub-praetor or as a native Mwangi regular, and have grown accustomed to marching in hot temperatures while wearing armor. When you wear armor of any sort, reduce the armor check penalty by 1, to a minimum penalty of 0."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"savage_breaker": {
@@ -4050,7 +3723,6 @@
 			"",
 			"You openly despise the crude Shoanti and their backward ways. You gain a +2 trait bonus on combat maneuver checks made to sunder clubs, earth breakers, klars, hide armor, primitive armor and weapons, and any other equipment the GM deems \"barbarian-made.\""
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"savanna_child": {
@@ -4065,7 +3737,6 @@
 			"",
 			"You were born and raised on the rolling plains or savannas. You spent much of your youth exploring these vast reaches and know many of the region's secrets. Pick one of the following skills: Handle Animal, Knowledge (nature), or Ride. You gain a +1 trait bonus on checks with that skill, and it is always a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"savannah_child": {
@@ -4077,7 +3748,6 @@
 			"",
 			"You were born and raised in central Katapesh, among the rolling savannahs that dominate the nation's interior. You spent many of your youth exploring these vast reaches, and know much of the savannah's secrets. Pick one of the following skills: Handle Animal, Knowledge (nature), or Ride. You gain a +1 trait bonus on that skill, and it is always a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"scion_of_goblinblood": {
@@ -4090,7 +3760,6 @@
 			"",
 			"The fury of the Goblinblood Wars still courses through your veins. Whenever you're within 60 feet of an enemy hobgoblin, you gain a +1 trait bonus on all weapon damage rolls."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"scion_of_the_shory": {
@@ -4102,7 +3771,6 @@
 			"",
 			"The blood of a Shory aeromancer flows through your veins. You gain a +2 bonus on {rule/concentration} checks when casting flight spells such as {spell/levitate}, {spell/fly}, or {spell/overland flight}. Once per day, you can use {spell/message} as a spell-like ability."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"scourge_of_the_seas": {
@@ -4114,7 +3782,6 @@
 			"",
 			"You have long appreciated the flamboyance and versatility of the whip, both as a weapon and a tool for enforcing discipline. When you wield a whip or scourge, you gain a +1 trait bonus on Intimidate checks. Additionally, once per day when you use a whip or scourge to perform a successful disarm or trip combat maneuver against an opponent, you regain 1 point of grit or panache."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"scrambling_servant": {
@@ -4130,7 +3797,6 @@
 			"",
 			"Likely giants: Cave, Fire, River, Slag, Storm"
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"screaming_leap": {
@@ -4142,7 +3808,6 @@
 			"",
 			"The rocky foothills of your homeland are ideal for staging leaping ambushes that leave your victims battered and routed. You gain a +1 trait bonus on melee damage rolls when you make a charge attack from higher ground. Once per day, when you make a charge attack from higher ground, you can use the Intimidate skill to demoralize your target as a swift action."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"sea_souled": {
@@ -4154,7 +3819,6 @@
 			"",
 			"You are at home at sea. You receive a +1 trait bonus on Swim checks, and you can always take 10 while Swimming."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"seasoned_climber": {
@@ -4166,7 +3830,6 @@
 			"",
 			"Your time on the slopes of the Wall of Heaven has improved your ability to surmount great peaks. You gain a +1 trait bonus on Climb checks, and Climb becomes a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"secret_revolutionary": {
@@ -4178,7 +3841,6 @@
 			"",
 			"You seek to return Cheliax to its heyday before the rise of the House of the Thrune. You have trained yourself to resist any questioning or torture should you ever be caught. You gain a +1 trait bonus on Will saves against mind-affecting effects, and on Fortitude saves against drugs or poisons."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"secret_of_the_impossible_kingdom": {
@@ -4190,7 +3852,6 @@
 			"",
 			"You have studied the ancient lore of Vudra at a monastery in Jalmeray, and have learned a mystical secret that empowers your spellcasting. Pick one spell when you choose this trait - from this point on, whenever you cast that spell, you do so at +1 caster level."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"servitor_of_spirits": {
@@ -4202,7 +3863,6 @@
 			"",
 			"For as long as you can remember, the spirits have always whispered into your ears and guided you-provided that you appease them. At the start of each day, you can choose one [medium spirit](ability/spirits) and accept one of its taboos for 24 hours. As long as you don't break that taboo, once during the next 24 hours, you can add a +1 trait bonus to any one roll, check, or saving throw (but not to AC) listed under your chosen spirit's spirit bonus. Using this ability is a free action that you can use even if it isn't your turn. If you are a medium, the spirit you choose with this trait must be the same as the spirit you are channeling and vice versa"
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"sevenarches_seeker": {
@@ -4214,7 +3874,6 @@
 			"",
 			"You've long heard rumors about the mysterious archways of Sevenarches and have spent much of your life trying to unravel the mysteries behind the portals. You gain a +1 trait bonus on Knowledge (history) checks and Perception checks to notice secret doors, and Knowledge (history) becomes a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"shackles_seafarer": {
@@ -4226,7 +3885,6 @@
 			"",
 			"You're familiar with the treacherous coastlines, currents, and tides of the Shackles, and can use that knowledge anywhere. You gain a +1 trait bonus on Knowledge (nature) and Knowledge (geography) checks while on the ocean. You also gain a +1 trait bonus on Swim checks, and Swim is always a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"shadow_dealer": {
@@ -4238,7 +3896,6 @@
 			"",
 			"You have survived and thrived in the dark forests of Ustalav by knowing how to make deals with terrible things. You gain a +1 trait bonus on saving throws against fear effects and a +1 trait bonus on Bluff and Diplomacy skills checks against evil fey, monstrous humanoids, and undead."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"shadow_dissident": {
@@ -4250,7 +3907,6 @@
 			"",
 			"Lifelong encounters with conjured shadows have made you especially adept at piercing their dark veils. You gain a +2 trait bonus on saving throws against spells and effects with the shadow descriptor."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"shadow_shaman": {
@@ -4262,7 +3918,6 @@
 			"",
 			"Shamans in the shadowy kingdom of Nidal learn to speak with the spirits that live in shadow. Add silent image and blur to your shaman spell list as 1st- and 2nd-level spells, respectively."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"shadowsight": {
@@ -4274,7 +3929,6 @@
 			"",
 			"Your people's ancient compact with Zon-Kuthon manifests strongly in you. While the darkness remains fearsome, you can at least see what lurks there. As a swift action once per day, your eyes can pierce the surrounding darkness-you gain the benefit of low-light vision for a number of rounds equal to your level."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"shaer": {
@@ -4287,7 +3941,6 @@
 			"",
 			"Qadira is a land of poetry, and you have grown up immersed in the words and language of that culture. Your facility with the language is evident to all when you speak. You gain a +2 trait bonus on Bluff and Diplomacy checks when speaking with anyone fluent in Kelish."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"sharp_eyes": {
@@ -4299,7 +3952,6 @@
 			"",
 			"You are immune to the dazzled condition."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"shenmen_prospector": {
@@ -4311,7 +3963,6 @@
 			"",
 			"You were a talented laborer in the silver mines of Shenmen, and have seen many wonders in the haunted caverns beneath the surface of the cursed nation. You gain a +1 trait bonus on Appraise and Knowledge (dungeoneering) checks."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"ship_aptitude": {
@@ -4323,7 +3974,6 @@
 			"",
 			"You are used to crewing on many of the different types of ships that sail the Shackles. As a result, you have a knack for quickly determining the weaknesses and strengths of any ship, even ones you've never set foot on before. You gain a +1 trait bonus on Profession (sailor) checks, and Profession (sailor) becomes a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"shipboard_caster": {
@@ -4335,7 +3985,6 @@
 			"",
 			"You feel an affinity with ships and the sea, and the rolling rhythm of the waves helps focus your mind. When on a ship or other water-going vessel, you gain a +3 bonus on {rule/concentration} checks."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"shoanti_tribesman": {
@@ -4347,7 +3996,6 @@
 			"",
 			"You were born or adopted into a Shoanti tribe. Choose one of the following skills: Climb, Survival, or Swim. You gain a +1 trait bonus on this skill, and it is always a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"signaler": {
@@ -4359,7 +4007,6 @@
 			"",
 			"By watching Imperial troops, you know how to use flags, smoke signals, and other methods to send secret messages, and gain a +5 trait bonus on Bluff checks to receive secret messages and a +5 trait bonus on Sense Motive checks to intercept messages."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"silent_watcher": {
@@ -4371,7 +4018,6 @@
 			"",
 			"You can sense an ugly mood brewing in a crowd, and know how to dodge wrathful mobs when they seek victims for their anger. You gain a +1 trait bonus on Sense Motive checks in crowds, and a +1 trait bonus on Stealth checks in city streets."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"silvertongued_eunuch": {
@@ -4383,7 +4029,6 @@
 			"",
 			"You were brought up as part of Quain's strictly eunuch bureaucracy, trading your sexual potency for education and tact. You gain a +1 trait bonus on Knowledge (nobility) and Diplomacy checks."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"skilled_surgeon": {
@@ -4395,7 +4040,6 @@
 			"",
 			"Whenever you perform surgery or otherwise must deal damage to remove a condition or affliction, you roll the damage but use the minimum result unless you rolled the maximum result. The amount of hit points or points of ability damage restored each day when you provide long-term care is increased by 1."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"sky_spirit_worshipper": {
@@ -4407,7 +4051,6 @@
 			"",
 			"As the child of a Mutabi-qi shaman, you have seen the sky spirits that roam above and know that the world is rife with unexplainable and terrifying mysteries. You gain a +2 trait bonus on saves against fear effects."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"skymetal_affinity": {
@@ -4419,7 +4062,6 @@
 			"",
 			"You gain a +2 trait bonus on Fortitude saves against the negative effects of {eq-material/skymetal/s}, as well as a +2 trait bonus on Craft checks made to create weapons or armor out of skymetals."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"slave_taker": {
@@ -4431,7 +4073,6 @@
 			"",
 			"You specialize in disabling foes without wounding them, preserving their value as slaves. Whenever you deal nonlethal damage in combat, that damage increases by +1."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"slayer_of_the_deep": {
@@ -4443,7 +4084,6 @@
 			"",
 			"You have hunted monsters throughout the Darklands and know how to take advantage of their weaknesses. You gain a +1 trait bonus on damage rolls made against creatures of the aberration type."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"snake_bleeder": {
@@ -4455,7 +4095,6 @@
 			"",
 			"You were a nagaji vassal of knowledgeable nagas, and they taught you much regarding how they concoct their various poisons. You gain a +2 trait bonus on Craft (alchemy) checks when brewing poisons, and Craft (alchemy) becomes a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"snake_handler": {
@@ -4468,7 +4107,6 @@
 			"",
 			"You have spent time as a member of a cult of either Apep or Wadjet, the serpent gods of Osirion. Membership involved the handling of dangerous snakes during rituals, and you have learned how to keep yourself and others safe around them. You gain a +2 bonus on Fortitude saves against poison. Handle Animal is always a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"snowstride": {
@@ -4480,7 +4118,6 @@
 			"",
 			"The wide stance and sure footing you developed while traipsing over ice-covered rock and frozen earth provides you with a +1 trait bonus on Acrobatics checks made on slippery surfaces and enables you to trip or bull rush opponents two size categories larger than you instead of just one."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"social_slaver": {
@@ -4492,7 +4129,6 @@
 			"",
 			"Your upbringing has accustomed you to commanding those you deem inferior. You gain a +2 trait bonus on Intimidate checks against creatures one or more size categories smaller than yourself. The DC of compulsion spells cast by you against smaller creatures increases by 1."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"sodden_chld": {
@@ -4504,7 +4140,6 @@
 			"",
 			"You spent most of your life moving through murky bogs and have grown acclimated to the terrain. You move normally through shallow bogs (as long as the terrain hasn't been magically manipulated) but are still affected by deep bogs as normal."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"soldier_of_the_faith": {
@@ -4516,7 +4151,6 @@
 			"",
 			"You have served Razmir as a faithful enforcer, or upon one of the \"faith barges\" plying the waters of Lake Encarthan, and have learned the enforcement techniques of Razmiran. You gain a +1 trait bonus on Intimidate checks, and Intimidate is always a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"solidarity": {
@@ -4528,7 +4162,6 @@
 			"",
 			"While enslaved in the City of Brass, you watched too many of your friends fall victim to efreet tempers. Now, you help others avoid thorny situations whenever you are able. Any time you successfully use the aid another action to help an ally succeed at a Bluff or Escape Artist check, you add a +3 bonus to this check (rather than a +2 bonus)."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"sophisticated_citizen": {
@@ -4540,7 +4173,6 @@
 			"",
 			"You grew up in Absalom, and as a child you learned trivia about people and places from all across the world. Choose Knowledge (geography), Knowledge (local), or Sense Motive; that skill is a class skill for you. In addition, you know one additional bonus language."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"sound_of_mind": {
@@ -4552,7 +4184,6 @@
 			"",
 			"You have lived in the mountains of Zi Ha and found utter tranquility among the samsarans of the region. You gain a +2 trait bonus on saving throws against mind-affecting effects."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"spell_duel_prodigy": {
@@ -4564,7 +4195,6 @@
 			"",
 			"You've participated in many spell duels during your time at Erages Academy, and You've developed a keen talent for identifying magical arts. You gain a +2 trait bonus on Spellcraft checks to identify a spell as it is being cast and on dispel checks to counterspell a spell."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"spirit_animal": {
@@ -4580,7 +4210,6 @@
 			"**Smilodon:** You gain a +1 trait bonus on Reflex saves.  ",
 			"**Woolly Rhinoceros:** You gain a +1 trait bonus on Will saves."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"spiritual_forester": {
@@ -4592,7 +4221,6 @@
 			"",
 			"You grew up in a small settlement along the outskirts of the Forest of Spirits, and have learned much about the woods as well as about their supernatural inhabitants. You gain a +1 trait bonus on Knowledge (nature) and Knowledge (planes) checks, and one of these skills becomes a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"star_reader": {
@@ -4604,7 +4232,6 @@
 			"",
 			"You are one of the few remaining descendants of the lost civilization of Lirgen. Growing up learning of your people's history has granted you a fine understanding of celestial divination as well as a deep-seated hatred of the demon-worshiping monsters that have come to rule your ancestral lands. While under starlight, the caster level of all your divination spells is increased by 1. If the target of your spell is a demon, the caster level is increased by 2."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"stargazer_region": {
@@ -4616,7 +4243,6 @@
 			"",
 			"Having spent your youth staring at the night sky, you gain a +1 trait bonus on Knowledge (arcana) and Knowledge (nature) checks. One of these skills becomes a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"storm_hunter": {
@@ -4628,7 +4254,6 @@
 			"",
 			"You learned to hunt in the relentless winds of Hongal, and still make your arrows fly true. When fighting in windy weather, you treat the wind category as one level lower for the purposes of determining penalties on ranged attacks made with normal weapons."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"stormrunner": {
@@ -4640,7 +4265,6 @@
 			"",
 			"You have sailed on some of the roughest seas on Golarion, and have skirted the Eye of Abendego. You're accustomed to the pitch and yaw of sailing vessels, even in a storm, and gain a +2 trait bonus on Acrobatics checks to keep your footing on uneven ground or unsteady surfaces."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"stream_nomad": {
@@ -4652,7 +4276,6 @@
 			"",
 			"Digging tunnels near a body of rushing water has taught you how to use water as a means of travel and escape. Others whisper that you must have been born with webbed feet. You gain a +1 trait bonus on Swim checks, and Swim is always a class skill for you. You increase the speed of any raft, barge, keelboat, or rowboat you pilot by 4 miles per day (1/2 mile per hour)."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"street_wary": {
@@ -4664,7 +4287,6 @@
 			"",
 			"You learned to take care of yourself on the streets and know the warning signs of hostile intent. Sense Motive is always a class skill for you, and you gain a +2 trait bonus on Sense Motive checks to get a hunch."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"suck_in_your_gut": {
@@ -4676,7 +4298,6 @@
 			"",
 			"Because of the frequent need to move through the tight tunnels and other narrow spaces surrounding your tribe's lair, you're able to move normally when squeezing and take only a -2 penalty on attack rolls and to AC."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"sun_orchid_harvester": {
@@ -4688,7 +4309,6 @@
 			"",
 			"You were employed briefly by Deyrubrujuan's alchemist cabal to harvest sun orchids deep in the Thuvian desert. Though you never worked your way deeper into the cabal, you retain the knowledge gained during your employment. You gain a +1 bonus on Knowledge (nature) and Survival checks made in desert environments."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"sun_blasted": {
@@ -4700,7 +4320,6 @@
 			"",
 			"Desert orcs have learnt to survive with practically nothing in the desert. You receive a +2 trait bonus on Survival checks made in a desert, and resolve all checks at becoming lost in deserts as though you had proper navigational tools (a +4 bonus). The presence of such tools does not increase your ability, however."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"superstitious_isp": {
@@ -4712,7 +4331,6 @@
 			"",
 			"You are distrustful of any magic that goes beyond your native shamanic ways. As long as you do not possess any levels in a class that grants arcane spellcasting power, you gain a +1 trait bonus on all saving throws against arcane spells."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"superstitious_ward": {
@@ -4724,7 +4342,6 @@
 			"",
 			"You're not frightened of the old wives' tales of vampires and ghosts, and though you try to avoid the undead, you've learned how to deal with them. You may cast {spell/disrupt undead} once per day as a spell-like ability. This is cast at your highest caster level gained; if you have no caster level, it functions at CL 1st."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"surefooted_ascent": {
@@ -4736,7 +4353,6 @@
 			"",
 			"You gain a +1 trait bonus on Acrobatics and Climb checks."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"surface_stranger": {
@@ -4748,7 +4364,6 @@
 			"",
 			"You were born and raised in a subterranean home with little or no bright light. Your miss chance for {rule/concealment} or total concealment due to either mundane or magical darkness decreases by 10%. You are dazzled for 1 round when you are suddenly exposed to bright light."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"sustaining_performance": {
@@ -4760,7 +4375,6 @@
 			"",
 			"Abandoned by a traditional healer at a critical time, you improvised a tale or jokes to keep up the spirits of someone in dire health. Once per day as a standard action, you can attempt a DC 15 Perform check with an audible component (such as comedy, oratory, sing, or with any instrument) to stabilize a dying creature that can hear you within 30 feet. You can also attempt Perform checks instead of Heal checks to provide long-term care."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"swamp_rebel": {
@@ -4772,7 +4386,6 @@
 			"",
 			"You grew up hiding in the swamps from the monstrous overlords who enslaved you and your people. You gain a +2 trait bonus on Stealth checks in swampy terrain, and Stealth becomes a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"swamp_recluse": {
@@ -4784,7 +4397,6 @@
 			"",
 			"You gain a +2 trait bonus on saving throws against poison, and you can safely eat raw fish and game without any effort spent cooking or cleaning them."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"swamp_skulker": {
@@ -4796,7 +4408,6 @@
 			"",
 			"Terrible things prowl the moors of your homeland, and you are all too familiar with hiding or fleeing from them. You gain a +1 trait bonus on Stealth checks when you are in bog, marsh, or swamp terrain, and you treat shallow bogs and swamp undergrowth as normal terrain for the purposes of movement."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"swamp_survivor": {
@@ -4808,7 +4419,6 @@
 			"",
 			"Leaving Graidmere Swamp is forbidden, and to flee the mire is to court Seryzilian's wrath. However, you are one of the few to successfully make it out of the swamp alive. Now, you're resolved to liberate your kinfolk. You gain a +2 bonus on Survival checks to find fresh water, and magical liquids in your possession gain a +2 bonus on Will saves to avoid being corrupted or otherwise spoiled."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"swordlords_page": {
@@ -4820,7 +4430,6 @@
 			"",
 			"You have trained under the Aldori swordlords, and though not yet a swordlord yourself, you have learned how to strike hard with your weapon. You gain a +1 attack bonus to confirm critical hits when using an edged weapon you are proficient with."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"szaezan_crags_miner": {
@@ -4832,7 +4441,6 @@
 			"",
 			"You were a miner of the now-scarce ores of the Szaezan Crags, and have become adept at identifying minerals and gems. You gain a +1 trait bonus on Appraise checks, and Appraise becomes a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"tanglebriar_guerrilla": {
@@ -4844,7 +4452,6 @@
 			"",
 			"Your campaign against Treerazer has endeared you to Kyonin's rangers, who have taught you their ways. When you gain this trait, select one ranger trap that doesn't deal ability or hit point damage. You can use this trap once per day within a forest. The DC for your trap is equal to 10 + half your character level + your Wisdom modifier (minimum +0), and it lasts for 1 day. If you are not a ranger, you can set only extraordinary traps with this feat; like all extraordinary ranger traps, this decreases the trap DC by 2."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"technic_tinkerer": {
@@ -4856,7 +4463,6 @@
 			"",
 			"You managed to uncover some lesser secrets of the Technic League, and have mastered a minor bit of magic. Choose a 0-level spell. You may cast that spell once per day as a spell-like ability. This is cast at your highest caster level gained; if you have no caster level, it functions at CL 1st."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"technological_brewmaster": {
@@ -4868,7 +4474,6 @@
 			"",
 			"You have learned the secret of creating potions using advanced scientific techniques so strange that some might consider them alien. When brewing a potion, you can increase its base creation cost by 10% to brew it in half the normal amount of time. This trait does not grant the ability to brew potions."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"the_vessel_between": {
@@ -4880,7 +4485,6 @@
 			"",
 			"The assassin ushers her victims from the kingdoms of the living to the kingdom of the dead. You gain a +1 trait bonus on attack rolls that would deal sneak attack damage on a hit."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"thoughtful_wish_maker": {
@@ -4892,7 +4496,6 @@
 			"",
 			"You are well acquainted with the many ways words can be twisted. You gain a +2 trait bonus on Sense Motive checks. Furthermore, if you succeed at a DC 25 Sense Motive check prior to making any wish granted by an outsider, you become aware of your wish's potential pitfalls. If you succeed at this check by 5 or more, you figure out how to word your wish in such a way that your words are not twisted."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"thuvian_merchant": {
@@ -4904,7 +4507,6 @@
 			"",
 			"You have traveled the great circular trade route around Thuvia, following the sale of the {magic-artifact/sun orchid elixir} from city to city, and are used to haggling with foreigners. You gain a +1 trait bonus on Appraise, Bluff, and Sense Motive checks made for business deals and transactions."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"tianjing_temple_guard": {
@@ -4916,7 +4518,6 @@
 			"",
 			"You were a stalwart guard of one of Tianjing's magnificent temple cities, and your resolve proved to be of great use during bandit raids. You gain a +1 trait bonus on attacks of opportunity made with polearm weapons."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"tiger_brigadier": {
@@ -4928,7 +4529,6 @@
 			"",
 			"As a member of the Tiger Brigade, you are ready to guide the people of Bachuan and other nations. You gain a +2 trait bonus on Intimidate checks made against anyone whose age is one or more aging steps above yours, and Intimidate becomes a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"touched_by_the_sky": {
@@ -4940,7 +4540,6 @@
 			"",
 			"Somehow, you managed to retrieve a rare vial of fluid from a piece of crashed wreckage on the plains of Numeria. Before you could be caught with the contraband, you drank it. You now have the ability to stabilize a dying creature with a touch as a standard action."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"town_gossip": {
@@ -4952,7 +4551,6 @@
 			"",
 			"Choose a community that you've lived in for at least 5 years. You gain a +2 trait bonus on Diplomacy checks while in that community."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"trap_savvy": {
@@ -4964,7 +4562,6 @@
 			"",
 			"Growing up in a dangerous area, you were constantly surrounded by traps that had been set up to defend your lair from intruders. Sometimes these dangers were so densely packed that you couldn't go more than a couple feet down a tunnel without encountering a new way to die. You gain a +1 trait bonus on Craft (traps) checks, and gain a +1 bonus to AC against attacks by traps or on saving throws against effects created by traps."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"treasure_mapper": {
@@ -4976,7 +4573,6 @@
 			"",
 			"You've spent a great deal of time hunting down and following treasure maps-most false, but a few with legitimate information. You gain a +2 bonus on Survival or Profession (sailor) checks made to navigate using a map or chart, and one of them becomes a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"treerazers_bane": {
@@ -4991,7 +4587,6 @@
 			"",
 			"Having fought in many battles against the demon Treerazer, you have learned the best ways to kill the various creatures under his control. You gain a +2 trait bonus on weapon damage against demons, evil fey, and plants and animals corrupted by evil."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"trench_navigator": {
@@ -5003,7 +4598,6 @@
 			"",
 			"You've sailed the treacherous waters of the Xidao Gulf in your past, and you can navigate their dangers adroitly. You gain a +1 trait bonus on Knowledge (geography) checks, and a +1 trait bonus on Profession (sailor) checks. One of these skills becomes a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"triaxian_tradition": {
@@ -5015,7 +4609,6 @@
 			"",
 			"Your experience with one of the long Triaxian seasons has taught you much about the dangers of a long summer or winter. Choose disease or cold. You gain a +2 trait bonus on saves against spells and spell-like abilities with the chosen descriptor. If you choose disease, you gain the bonus on Fortitude saves against nonmagical diseases as well."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"true_name_caller": {
@@ -5027,7 +4620,6 @@
 			"",
 			"You are skilled at discovering the true names of outsiders. Choose a plane other than the Material Plane. When attempting to discover the true name of an outsider from the chosen plane, you halve the amount of research time required and gain a +4 trait bonus on the Knowledge (planes) check made to learn the outsider's name."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"tundra_child": {
@@ -5039,7 +4631,6 @@
 			"",
 			"You were born and raised in the cold wastes of the far north or far south, and are accustomed to low temperatures. You gain a +4 trait bonus on saving throws made to resist the effects of being in cold conditions and a +1 trait bonus on saving throws against cold effects."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"unafraid": {
@@ -5051,7 +4642,6 @@
 			"",
 			"The horrors of the fog-shrouded land of terror have hardened you. You receive a +2 bonus on all saving throws made against fear affects."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"underbridge_dweller": {
@@ -5063,7 +4653,6 @@
 			"",
 			"You were raised in the Shadow district of Magnimar beneath the Irespan, a veiled place the light of the sun touches for only 3 hours per day. Your well-founded suspicions grant you a +2 trait bonus on Perception checks in dim light, and Perception is always a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"undermarket_smuggler": {
@@ -5075,7 +4664,6 @@
 			"",
 			"You worked in Goka's Undermarket for a time, and have learned how to dodge the city's tax collectors and the port inspectors. You gain a +1 trait bonus on Bluff and Sleight of Hand checks."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"unflinching_faith": {
@@ -5087,7 +4675,6 @@
 			"",
 			"Numerous expeditions to accursed regions like Nidal's Finder's Gulch have reinforced your already steadfast faith. Once per day, you may reroll a Will saving throw made against an attack or effect that originates from an undead creature. You must decide to use this trait after the first saving throw is rolled, but before the results are revealed. You must take the result of the second roll, even if it is lower."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"unstuck": {
@@ -5099,7 +4686,6 @@
 			"",
 			"Spending time in the \"unstuck\" part of Uringen has made you more adept at using warps in time and space. Increase your caster level by 2 when casting spells with the teleportation descriptor."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"uskwood_hunter": {
@@ -5111,7 +4697,6 @@
 			"",
 			"You have served the Umbral Court, discreetly following interlopers through the twilit city streets of Pangolais to pinpoint their locations for the authorities. You gain a +1 trait bonus on Stealth checks, and Stealth is always a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"ustalavic_noble": {
@@ -5123,7 +4708,6 @@
 			"",
 			"You come from an aristocratic family, though your family has long since lost any power or prestige it once had. You gain a +1 trait bonus on Diplomacy and Knowledge (nobility) checks. In addition, your starting money is increased by 100 gp: your \"birthright,\" such as it is."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"uwaga_highlander": {
@@ -5135,7 +4719,6 @@
 			"",
 			"You were born and raised in western Katapesh, in the rugged badlands and hills of the Uwaga Highlands. Even if you were born in a city like Solku, you often had to travel the dangerous trails with your family. Predators, gnolls, and worse haunt the Uwaga Highlands, and you've become something of an expert at evading them. You gain a +1 trait bonus on Hide and Move Silently checks. This trait bonus increases to +2 in hilly or rocky areas."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"vagabond_child": {
@@ -5151,7 +4734,6 @@
 			"",
 			"You grew up among the outcasts and outlaws of your society, learning to forage and survive in an urban environment. Select one of the following skills: Disable Device, Escape Artist, or Sleight of Hand. You gain a +1 trait bonus on checks with that skill, and it is always a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"valashmai_veteran": {
@@ -5163,7 +4745,6 @@
 			"",
 			"You have traveled to the Valashmai Jungle on numerous occasions, and your prowess in traversing the jungle wilderness makes you a formidable guide and explorer. You gain a +1 trait bonus on Perception checks, and a +1 trait bonus on Survival checks in jungle terrain. One of these skills becomes a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"valknar_alumnus": {
@@ -5175,7 +4756,6 @@
 			"",
 			"You trained at the exclusive Valknar Gladiatorial College. Select one combat maneuver when you take this trait. You gain a +1 trait bonus on performance combat checks and a +1 trait bonus on combat maneuver checks to perform the selected maneuver."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"varisian_wanderer": {
@@ -5187,7 +4767,6 @@
 			"",
 			"You were raised among or have spent time with a group of Varisian nomads, whether travelers, Sczarni criminals, or entertainers, and have learned their ways. Choose one of the following skills: Perform (choose one type), Profession (fortune-teller), or Sleight of Hand. You gain a +1 trait bonus on this skill, and it is always a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"venicaan_medic": {
@@ -5199,7 +4778,6 @@
 			"",
 			"You have studied at the College of Medicaments and Chirurgery, and know by sight the signs of ailments and toxins you might encounter. You gain a +2 trait bonus to Heal checks to treat diseases or poisons, and Heal is always a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"vialesk_historian": {
@@ -5211,7 +4789,6 @@
 			"",
 			"Your long years of studious research into the drifting trade city of Vialesk, a neutral ground for planar travelers on the Elemental Plane of Water, has made you an expert on all manner of aquatic creatures. You gain a +2 trait bonus on Knowledge (planes) checks to identify outsiders with the water subtype. In addition, you treat your caster level as 1 higher when casting conjuration (summoning) spells to summon outsiders with the water subtype."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"viking_blood": {
@@ -5223,7 +4800,6 @@
 			"",
 			"You have the imposing build of a Viking, and people of the south fear your unpredictable nature. You gain a +1 trait bonus on Intimidate checks, and Intimidate is always a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"voices_of_solid_things": {
@@ -5235,7 +4811,6 @@
 			"",
 			"You traveled with the Witchmarket for a time, either willingly or as a result of a bargain made by some other buyer. In your time in the Witchmarket, you learned to listen to the whispers of items as though they were living creatures, giving you clues as to their function. Choose Appraise, Craft, Disable Device, or Spellcraft. You apply your Charisma modifier on checks with that skill instead of the skill's normal ability score. That skill is a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"void_child": {
@@ -5247,7 +4822,6 @@
 			"",
 			"You were raised in the Diaspora and are accustomed to being isolated from most other life in the vast void of space. You gain a +1 trait bonus on saves against fear; this bonus increases to +2 whenever you are 30 feet or farther from your nearest ally."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"walking_ward": {
@@ -5259,7 +4833,6 @@
 			"",
 			"Your training included constant exposure to elemental forces. Choose one of the following energy types: acid, cold, electricity, or fire; you gain a +1 bonus on saving throws against spells that deal damage of this type or have this subtype."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"wardbreaker": {
@@ -5271,7 +4844,6 @@
 			"",
 			"You have studied techniques designed to pierce magical protections, with the goal of assisting your Abyssal masters in bringing down the wardstones that guard the borders of Mendev. Once per day, you can attempt a melee touch attack against an opponent that you believe has a deflection bonus to AC. If your attack is successful, your foe's deflection bonus to AC is halved (to a minimum of +0) for a number of rounds equal to your Charisma modifier. You can use this ability twice per day at 10th level and three times per day at 20th level."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"warrior_poet": {
@@ -5283,7 +4855,6 @@
 			"",
 			"You were trained by the skalds, keepers of the oral tradition of Kalsgard. You gain a +1 trait bonus on Knowledge checks related to dwarves (dwarven history, dwarven construction, and so on) and a +1 trait bonus on Fortitude saves in any round in which you use a bardic performance ability."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"wary_potr": {
@@ -5295,7 +4866,6 @@
 			"",
 			"You survived an assassination attempt once. You gain a +1 trait bonus on opposed Perception and Sense Motive checks. One of these skills is always a class skill for you."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"watching_taldor": {
@@ -5310,7 +4880,6 @@
 			"",
 			"You have spent your adult life waiting for Taldor to give you an excuse to fight. You gain a +1 trait bonus on initiative checks, and if you are able to act during the surprise round of an encounter, you can draw a weapon (but not a potion or magic item) as a free action during that round."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"water_brave": {
@@ -5322,7 +4891,6 @@
 			"",
 			"Travel through the dangerous waters of the River Kingdoms has given your tribe special skills in relation to them. You receive a +1 trait bonus on Swim checks, and it becomes a class skill."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"wayang_spellhunter": {
@@ -5334,7 +4902,6 @@
 			"",
 			"You grew up on one of the wayang-populated islands of Minata, and your use of magic while hunting has been a boon to you. Select a spell of 3rd level or below. When you use this spell with a metamagic feat, it uses up a spell slot one level lower than it normally would."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"wealthy_dabbler": {
@@ -5349,7 +4916,6 @@
 			"",
 			"You study magic at one of Taldor's many social clubs, wowing your friends with your expertise in the simplest of magical exploits. Select two non-harmful arcane cantrips. You can cast these two cantrips once per day each (caster level 1st). If you have levels in a class that can cast these cantrips, your caster level for these cantrips is equal to that class level."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"weed_resistance": {
@@ -5361,7 +4927,6 @@
 			"",
 			"You have learned how to keep your flesh out of the way of the toxic thorns and vines that are often prevalent in verdant lands. You gain a +3 trait bonus on saving throws against poison and disease abilities and effects inflicted by creatures of the plant type (such as a basidirond's spores)."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"well_bred": {
@@ -5373,7 +4938,6 @@
 			"",
 			"You are the product of generations of selective breeding, organized by the gold dragon Mengkare. Your education is top-notch, and you have a broad base of knowledge. Unfortunately, the isolation of Hermea has also made you slightly naive. You gain a +1 trait bonus on Knowledge (history) and Knowledge (religion) checks but take a -1 penalty on all Sense Motive checks."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"wharf_rat": {
@@ -5385,7 +4949,6 @@
 			"",
 			"You may never have been on a boat larger than a garbage scow, but you've been helping them dock all your life. You gain a +2 trait bonus on skill checks involving climbing and rope use, and a +4 trait bonus on Appraise checks to determine the value of large quantities of bulk goods without opening their containers."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"whip_specialist": {
@@ -5397,7 +4960,6 @@
 			"",
 			"Your time spent lashing slaves has taught you how to get the most out of a whip. You deal +1 point of damage on all attacks made with a whip."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"whisper_woods_hunter": {
@@ -5409,7 +4971,6 @@
 			"",
 			"Your family prepared you for a life of evading or destroying fiendish creatures. You gain a +2 trait bonus on Survival checks to track evil outsiders and a +2 trait bonus on initiative checks when you know your opponent is an evil outsider."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"whitethrone_gourmand": {
@@ -5421,7 +4982,6 @@
 			"",
 			"You grew up privileged in the city of Whitethrone, and indulged in many exotic and unnerving pleasures. You gain a +1 trait bonus on saves against any effect causing the nauseated or sickened condition and against all ingested poisons."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"whole_hearted": {
@@ -5433,7 +4993,6 @@
 			"",
 			"Though most outsiders expect your mind to be conflicted, full of self-doubt, and mired in resentment and suspicion, you're truly comfortable in your skin. You gain a +2 trait bonus on saving throws against charms and compulsions."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"wild_wanderer": {
@@ -5445,7 +5004,6 @@
 			"",
 			"You're a child of the wild, living on your own without need of others. Each time you attempt a Survival check to get along in the wild or resist severe weather, you can choose to gain a +4 trait bonus on that check. If you do so, you can't use that check to provide assistance to others, even if your result exceeds the DC."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"windspeaker": {
@@ -5457,7 +5015,6 @@
 			"",
 			"You have a keen sense for weather patterns, and you always know 8 hours in advance when naturally occurring winds will reach high speeds."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"winners_luck": {
@@ -5469,7 +5026,6 @@
 			"",
 			"Winning at the tables in Riddleport's gambling houses can be as devastating as losing. Years of dodging the jealous blows of card table patrons have given you a sixth sense for when your luck is about to run out. Whenever you succeed at a Reflex saving throw, you may draw a weapon as an immediate action, or a hidden weapon as a move action."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"winter_warrior": {
@@ -5481,7 +5037,6 @@
 			"",
 			"You grew up in the icy lands of Irrisen, and surviving in the cold snows of winter is second nature to you. You gain a +1 trait bonus on Stealth and Survival checks in ice- or snow-covered terrain."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"winters_soul": {
@@ -5493,7 +5048,6 @@
 			"",
 			"The eternal winter of Irrisen is as much a part of you as it is the land. You may cast {spell/ray of frost} once per day as a spell-like ability. This is cast at your highest caster level gained; if you have no caster level, it functions at CL 1st."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"witch_tongued": {
@@ -5505,7 +5059,6 @@
 			"",
 			"Hailing from frozen Irrisen, where witches rule the land, you deal with others in a cool, calculated way. You gain a +1 trait bonus on Diplomacy checks, and you gain a +1 trait bonus on Intimidate checks against non-witches."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
 	"xa_hoi_soldier": {
@@ -5517,7 +5070,6 @@
 			"",
 			"You were a soldier in one of Xa Hoi's extensive armies, trained under the oversight of one of Pham Duc Quan's draconic brethren. You gain a +1 trait bonus on Reflex saves."
 		],
-		"category": "-",
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	}
 }
