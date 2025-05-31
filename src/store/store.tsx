@@ -181,6 +181,48 @@ const migrations = {
 			...unchangedState,
 			displayTable
 		};
+	},
+	15: (state: any) => {
+		const {bookmarks, ...unchangedState} = state;
+		// Fix all link changes since the last update
+		const {order, db: oldDB, catalog: oldCat} = bookmarks;
+		// FIX:
+		//   druidcompanion => companion,
+
+		const db: BookmarkDB = {};
+		const catalog: Catalog = {};
+
+		const replacerCompanion = /(^[/]?)druidcompanion[/]/;
+		const replacementCompanion = "$1companion/";
+
+		Object.keys(oldDB).forEach(id => {
+			const {color, title, contents:c, hidden} = oldDB[id] as BookmarkGroup;
+			db[id] = {
+				color,
+				title,
+				contents: c.map(pair =>
+					[
+						pair[0]
+							.replace(replacerCompanion, replacementCompanion),
+						pair[1]
+					] as [string, string]
+				),
+				hidden
+			}
+		});
+		Object.keys(oldCat).forEach(link => {
+			const newLink = link
+				.replace(replacerCompanion, replacementCompanion);
+			catalog[newLink] = oldCat[link] as string[];
+		});
+		return {
+			...unchangedState,
+			bookmarks: {
+				order,
+				db,
+				catalog
+			}
+		};
 	}
 };
 
@@ -197,7 +239,7 @@ const stateReconciler = (incomingState: any, originalState: any, reducedState: a
 };
 const persistConfig: PersistConfig<typeof initialAppState> = {
 	key: 'root-pf-data',
-	version: 14,
+	version: 15,
 	storage,
 	stateReconciler,
 	migrate: createMigrate(migrations, { debug: false }),

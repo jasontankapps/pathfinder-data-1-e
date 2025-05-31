@@ -238,7 +238,7 @@ const App: FC = () => {
 								<DrugPage />
 							</Suspense>
 						</Route>
-						<Route path="/druidcompanion/:id">
+						<Route path="/companion/:id">
 							<Suspense fallback={<Loading text="Finding companions..." />}>
 								<CompanionPage />
 							</Suspense>

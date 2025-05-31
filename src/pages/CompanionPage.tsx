@@ -1,7 +1,7 @@
 import { useParams } from 'wouter';
 import getItem from '../components/getItem';
 import { Hierarchy } from '../types';
-import companions from './subpages/__druidcompanion';
+import companions from './subpages/__companion';
 import BasicPage from './BasicPage';
 import './Page.css';
 
@@ -21,7 +21,7 @@ const CompanionPage: React.FC = () => {
 		hasJL={hasJL}
 		title={title}
 		sources={sources}
-		pageId={"/druidcompanion/" + id}
+		pageId={"/companion/" + id}
 		topLink={topLink}
 		notBookmarkable={notBookmarkable}
 	>{jsx}</BasicPage>;

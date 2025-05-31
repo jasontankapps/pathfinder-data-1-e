@@ -61,7 +61,7 @@ import oraclecurse from './json/class_ability_curses.json' with {type: 'json'};
 import discipline from './json/class_ability_disciplines.json' with {type: 'json'};
 import domain1 from './json/class_ability_domains.json' with {type: 'json'};
 import domain2 from './json/class_ability_domains2.json' with {type: 'json'};
-import druidcompanion from './json/class_ability_druid_companions.json' with {type: 'json'};
+import companion from './json/class_ability_druid_companions.json' with {type: 'json'};
 import druiddomain from './json/class_ability_druid_domains.json' with {type: 'json'};
 import emotionalfocus from './json/class_ability_emotional_focus.json' with {type: 'json'};
 import exploit from './json/class_ability_exploits.json' with {type: 'json'};
@@ -892,9 +892,9 @@ const basic_data_groups = {
 		type: "Warpriest Blessing"
 	},
 	"class_ability_druid_companions": {
-		data: druidcompanion,
+		data: companion,
 		searchgroup: 1, // classes
-		link: "druidcompanion",
+		link: "companion",
 		num: 0,
 		type: "Animal Companion"
 	},

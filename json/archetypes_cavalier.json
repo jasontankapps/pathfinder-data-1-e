@@ -16,11 +16,11 @@
 			"",
 			"Each time the beast rider increases in level, he can choose to select a new, more impressive mount better suited to his increased power.",
 			"",
-			"Small-sized beast riders can choose a {druidcompanion/pony} or {druidcompanion/wolf} mount at 1st level. At 4th level, a Small beast rider can also choose an {druidcompanion/allosaurus}, {druidcompanion/ankylosaurus}, {druidcompanion/arsinoitherium}, {druidcompanion/aurochs}, {druidcompanion/bison}, {druidcompanion/boar}, {druidcompanion/brachiosaurus}, {druidcompanion/elephant}, {druidcompanion/glyptodon}, {druidcompanion/hippopotamus}, {druidcompanion/mastodon}, {druidcompanion/megaloceros}, {druidcompanion/riding |dog}, {druidcompanion/giant snapping turtle}, {druidcompanion/triceratops}, or {druidcompanion/tyrannosaurus}. At 7th level, he can also choose a dinosaur ({druidcompanion/deinonychus} or {druidcompanion/velociraptor}).",
+			"Small-sized beast riders can choose a {companion/pony} or {companion/wolf} mount at 1st level. At 4th level, a Small beast rider can also choose an {companion/allosaurus}, {companion/ankylosaurus}, {companion/arsinoitherium}, {companion/aurochs}, {companion/bison}, {companion/boar}, {companion/brachiosaurus}, {companion/elephant}, {companion/glyptodon}, {companion/hippopotamus}, {companion/mastodon}, {companion/megaloceros}, {companion/riding |dog}, {companion/giant snapping turtle}, {companion/triceratops}, or {companion/tyrannosaurus}. At 7th level, he can also choose a dinosaur ({companion/deinonychus} or {companion/velociraptor}).",
 			"",
-			"Medium beast riders can choose a {druidcompanion/camel} or {druidcompanion/horse} mount at 1st level. At 4th level, a Medium beast rider can also choose an allosaurus, ankylosaurus, arsinoitherium, aurochs, bison, brachiosaurus, elephant, glyptodon, hippopotamus, {druidcompanion/lion}, mastodon, megaloceros, giant snapping turtle, {druidcompanion/tiger}, triceratops, or tyrannosaurus as his mount. Additional mounts might be available with GM approval.",
+			"Medium beast riders can choose a {companion/camel} or {companion/horse} mount at 1st level. At 4th level, a Medium beast rider can also choose an allosaurus, ankylosaurus, arsinoitherium, aurochs, bison, brachiosaurus, elephant, glyptodon, hippopotamus, {companion/lion}, mastodon, megaloceros, giant snapping turtle, {companion/tiger}, triceratops, or tyrannosaurus as his mount. Additional mounts might be available with GM approval.",
 			"",
-			"In addition, a 7th-level or higher Medium beast rider can select any creature whose natural size is Large or Huge, provided that creature is normally available as a Medium-sized animal companion at 7th level (like a {druidcompanion/bear}). To generate statistics for such a mount, apply the following modifications: Size Large; Ability Scores Str +2, Dex -2, Con +2. Increase the damage of each of the mount's natural attacks by one die size. A beast rider cannot choose a mount that is not capable of bearing his weight, that has fewer than four legs, or that has a fly speed (although the GM may allow mounts with a swim speed in certain environments).",
+			"In addition, a 7th-level or higher Medium beast rider can select any creature whose natural size is Large or Huge, provided that creature is normally available as a Medium-sized animal companion at 7th level (like a {companion/bear}). To generate statistics for such a mount, apply the following modifications: Size Large; Ability Scores Str +2, Dex -2, Con +2. Increase the damage of each of the mount's natural attacks by one die size. A beast rider cannot choose a mount that is not capable of bearing his weight, that has fewer than four legs, or that has a fly speed (although the GM may allow mounts with a swim speed in certain environments).",
 			"",
 			"Anytime a feat or ability allows a mount to make a hoof attack, it can make a claw, slam, or other analogous attack instead.",
 			"",
@@ -350,7 +350,7 @@
 			"",
 			"This alters the cavalier's weapon proficiencies.",
 			"",
-			"**Serpent Mount (Ex):** Instead of the usual choices for a cavalier's mount, first mother's fangs ride on giant riding constrictors. These use the statistics of the {druidcompanion/constrictor snake} druid animal companion, except that they are suitable mounts and begin as size Large at 1st level with no other adjustments to their abilities or statistics based on this size change. A serpent mount is considered to be a quadruped for the purpose of determining its carrying capacity, and its base land speed is 40 feet (other speeds are unaffected). At 4th level, a giant riding constrictor doesn't increase in size again, but it does receive all the other usual 4th-level benefits.",
+			"**Serpent Mount (Ex):** Instead of the usual choices for a cavalier's mount, first mother's fangs ride on giant riding constrictors. These use the statistics of the {companion/constrictor snake} druid animal companion, except that they are suitable mounts and begin as size Large at 1st level with no other adjustments to their abilities or statistics based on this size change. A serpent mount is considered to be a quadruped for the purpose of determining its carrying capacity, and its base land speed is 40 feet (other speeds are unaffected). At 4th level, a giant riding constrictor doesn't increase in size again, but it does receive all the other usual 4th-level benefits.",
 			"",
 			"This alters mount.",
 			"",
@@ -554,7 +554,7 @@
 			"",
 			"**Bestial Challenge (Ex):** Whenever a huntmaster issues a challenge, both he and his hunting pack gain the bonuses and penalties associated with his challenge. This modifies the challenge ability.",
 			"",
-			"**Hunting Pack (Ex):** At 1st level, a huntmaster forms a close bond with an animal companion. This animal companion functions as a {class/druid/'s} animal companion, using the cavalier's level as his effective druid level. He can choose either a {druidcompanion/bird} or a {druidcompanion/dog} when selecting his animal companion.",
+			"**Hunting Pack (Ex):** At 1st level, a huntmaster forms a close bond with an animal companion. This animal companion functions as a {class/druid/'s} animal companion, using the cavalier's level as his effective druid level. He can choose either a {companion/bird} or a {companion/dog} when selecting his animal companion.",
 			"",
 			"The huntmaster can have more than one {sidekick/animal companion}, but he must divide up his effective druid level between his companions to determine the abilities of each companion. Each time a huntmaster's effective druid level increases, he must decide how to allocate the increase among his animal companions (including the option of adding a new 1st-level companion). Once an effective druid level is allocated to a particular companion, it cannot be redistributed while that companion is in the huntmaster's service (he must release a companion or wait until a companion dies to allocate its levels to another companion). The share spells animal companion ability does not give the huntmaster the ability to cast a single spell so that it affects all of his animal companions.",
 			"",
@@ -706,7 +706,7 @@
 			"",
 			"This alters armor proficiency.",
 			"",
-			"**Aquatic Mount:** A Medium oceanrider can ride either a {druidcompanion/giant seahorse} or an {druidcompanion/orca} (unlike most orcas, this one starts at size Large with none of the other level 7 abilities until level 7) instead of the normal options, while a Small oceanrider can ride a {druidcompanion/dolphin}.",
+			"**Aquatic Mount:** A Medium oceanrider can ride either a {companion/giant seahorse} or an {companion/orca} (unlike most orcas, this one starts at size Large with none of the other level 7 abilities until level 7) instead of the normal options, while a Small oceanrider can ride a {companion/dolphin}.",
 			"",
 			"This alters mount and replaces expert trainer."
 		]
@@ -755,7 +755,7 @@
 			"",
 			"This replaces the cavalier's normal weapon and armor proficiencies.",
 			"",
-			"**Mount (Ex):** A Qadiran horselord must select a {druidcompanion/horse} or {druidcompanion/pony} as his mount. At the GM's discretion, a different mount can be selected.",
+			"**Mount (Ex):** A Qadiran horselord must select a {companion/horse} or {companion/pony} as his mount. At the GM's discretion, a different mount can be selected.",
 			"",
 			"This ability alters the cavalier mount class feature.",
 			"",
@@ -991,7 +991,7 @@
 			"{SOURCE Heroes of the Darklands/17}  ",
 			"Due to the strange terrain, the lack of sunlight, and numerous other hazards, keeping a traditional mount in the Darklands can prove difficult. Cavaliers native to or traveling the region may choose to tame local creatures instead. Those who can overcome their revulsion and distrust of Sekamina's strange fauna often find that such partnerships with native creatures serve both rider and mount well. While these mounts may be harder to handle than typical mounts, their versatility and adaptations prove indispensable.",
 			"",
-			"**Darklands Mount (Ex):** At 1st level, a vermin tamer chooses a creature native to the Darklands as his mount. This functions as a cavalier's mount. He can choose a {druidcompanion/giant beetle}, {druidcompanion/giant centipede}, {druidcompanion/giant gecko}, {druidcompanion/giant slug}, or {druidcompanion/giant spider} as his mount. These mounts (except the giant gecko) and the rules for vermin companions are detailed [here, under Vermin Companions](ability/druid_companions).",
+			"**Darklands Mount (Ex):** At 1st level, a vermin tamer chooses a creature native to the Darklands as his mount. This functions as a cavalier's mount. He can choose a {companion/giant beetle}, {companion/giant centipede}, {companion/giant gecko}, {companion/giant slug}, or {companion/giant spider} as his mount. These mounts (except the giant gecko) and the rules for vermin companions are detailed [here, under Vermin Companions](ability/druid_companions).",
 			"",
 			"The selected mount is combat trained. The vermin trainer does not take an armor check penalty on Ride checks while riding his mount. If the vermin tamer's starting mount is large enough to act as a mount, it gains {feat/Light Armor Proficiency} as a bonus feat. If the selected animal companion is too small to act as a proper mount, then the vermin tamer gains {feat/Undersized Mount} as a bonus feat.",
 			"",
@@ -1017,7 +1017,7 @@
 			"",
 			"**Weapon and Armor Proficiency:** Wave riders are proficient with all simple and martial weapons and with light and medium armor, but not with shields. This replaces the cavalier's weapon and armor proficiencies.",
 			"",
-			"**Seafaring Companion:** At 1st level, a wave rider gains {feat/Monstrous Mount} as a bonus feat. The wave rider can use this feat only to select a {druidcompanion/hippocampus/ mount}. Otherwise, this ability functions identically to and replaces the cavalier's mount ability."
+			"**Seafaring Companion:** At 1st level, a wave rider gains {feat/Monstrous Mount} as a bonus feat. The wave rider can use this feat only to select a {companion/hippocampus/ mount}. Otherwise, this ability functions identically to and replaces the cavalier's mount ability."
 		]
 	}
 }
