@@ -199,7 +199,7 @@
 			"{SOURCE Inner Sea Gods/214}",
 			"",
 			"You have sworn never to be shackled.  ",
-			"**Prerequisites:** Worshiper of Rovagug.  ",
+			"**Prerequisites:** Worshiper of {faith/Rovagug}.  ",
 			"**Benefit:** You gain a +2 bonus on combat maneuver checks to break free of a grapple or pin, on Strength checks to burst bonds or to break through doors or walls, and on saving throws to resist spells and effects that would entangle or slow you."
 		]
 	},
@@ -639,7 +639,7 @@
 			"{SOURCE Inner Sea Gods/215;Faiths of Corruption/24}",
 			"",
 			"You are a careful poisoner, and know how to protect yourself against exposure to the ill effects of most substances.  ",
-			"**Prerequisites:** Con 13, poison use class feature, worshiper of Norgorber.  ",
+			"**Prerequisites:** Con 13, poison use class feature, worshiper of {faith/Norgorber}.  ",
 			"**Benefit:** Whenever you fail the initial saving throw against poison, you have a 20% chance of naturally rejecting the toxin, negating its effects and wasting its use."
 		]
 	},
@@ -652,7 +652,7 @@
 			"{SOURCE Inner Sea Races/208}",
 			"",
 			"Your undying optimism keeps you and your companions going even when things get rough.  ",
-			"**Prerequisites:** Halfling, fearless and halfling luck racial traits.  ",
+			"**Prerequisites:** {race/Halfling}, fearless and halfling luck racial traits.  ",
 			"**Benefit:** Adjacent allies who also have this feat gain a +1 morale bonus on all saving throws. This bonus increases to +3 on saving throws against fear."
 		]
 	},
@@ -856,7 +856,7 @@
 			"{SOURCE Advanced Race Guide/57}",
 			"",
 			"You absorb punishment others find deadly.  ",
-			"**Prerequisites:** Half-orc or orc.  ",
+			"**Prerequisites:** {race/Half-orc} or {race/orc}.  ",
 			"**Benefit:** Once per day, when a creature confirms a critical hit against you, you may treat half the damage as nonlethal damage. You cannot use this ability if you are immune to nonlethal damage. When your base attack bonus reaches +10, you may use this ability an additional time per day."
 		]
 	},
@@ -910,7 +910,7 @@
 			"{SOURCE Advanced Race Guide/142}",
 			"",
 			"Fear passes quickly while you are raging.  ",
-			"**Prerequisites:** Orc, rage class feature.  ",
+			"**Prerequisites:** {race/Orc}, rage class feature.  ",
 			"**Benefit:** While raging, when under the effect of a fear effect that allows a saving throw, you can make a new saving throw against that fear effect at the start of each of your turns before acting. If you make the new save, the fear effect ends."
 		]
 	},
@@ -1023,7 +1023,7 @@
 			"{SOURCE Blood of Angels/25}",
 			"",
 			"You were selected by your celestial ancestor to be a guide for a chosen people, and serve as a beacon of hope in times of despair.  ",
-			"**Prerequisites:** Aasimar, must be taken at 1st level.  ",
+			"**Prerequisites:** {race/Aasimar}, must be taken at 1st level.  ",
 			"**Benefit:** Select one of the following creature subtypes: dwarf, elf, gnome, halfling, human, or orc. You gain a +4 racial bonus on Diplomacy checks made to influence creatures of the selected subtype."
 		]
 	},
@@ -1052,7 +1052,7 @@
 			"{SOURCE Advanced Race Guide/142}",
 			"",
 			"You can goad an opponent into attacking you in order to make your counter attack all the more powerful.  ",
-			"**Prerequisites:** {feat/Toughness}, base attack bonus +1, orc.  ",
+			"**Prerequisites:** {feat/Toughness}, base attack bonus +1, {race/orc}.  ",
 			"**Benefit:** As a move action, you can leave a gap in your defenses for one adjacent opponent to use. If the opponent attacks you on its next turn, it gains a +4 bonus on its attack roll. Whether or not the opponent successfully hits, you may attack it as an immediate action with a single melee attack, gaining a +2 bonus on your attack roll.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -1070,7 +1070,7 @@
 			"{SOURCE Distant Realms/33}",
 			"",
 			"You can target an unconscious ally to gain additional benefit from your channeled energy.  ",
-			"**Prerequisites:** Channel energy 3d6.  ",
+			"**Prerequisites:** {ability/Channel energy} 3d6.  ",
 			"**Benefit:** When you use channel energy, you can focus on one creature within range that would be healed by your channel energy whose hit points are below 0. When you do so, no other creatures are healed, but the target creature is restored to 0 hit points before the normal healing takes effect."
 		]
 	},
@@ -1150,7 +1150,7 @@
 			"{SOURCE Mythic Adventures/72}",
 			"",
 			"You're supremely skilled at using verbal misdirection and  ",
-			"**Prerequisites:** {feat/Rhetorical Flourish}.  ",
+			"**Prerequisites:** Rhetorical Flourish.  ",
 			"**Benefit:** When you successfully use Rhetorical Flourish against a non-mythic creature, the bonus on your Diplomacy check increases by your tier. If the target is a mythic creature, you instead increase the bonus by half your tier.",
 			"",
 			"You can expend one use of mythic power to reroll a single failed Bluff check. You must take the new result even if it is lower."
@@ -1236,7 +1236,7 @@
 			"{SOURCE Mythic Adventures/72}",
 			"",
 			"You can make multiple attacks as you ride past your enemies.  ",
-			"**Prerequisites:** {feat/Ride-By Attack}].  ",
+			"**Prerequisites:** Ride-By Attack].  ",
 			"**Benefit:** When you successfully strike an opponent as part of a Ride-By Attack, you can continue to make attacks against successive targets. You can make one additional attack per 3 tiers you possess, but you can't make more attacks than you could if you were making a full attack. Successive attacks use the lower bonus for multiple attacks, as when making a full attack. You must move at least 10 feet between each attack."
 		]
 	},
@@ -1293,7 +1293,7 @@
 			"{SOURCE Inner Sea Gods/215;Faiths of Balance/24}",
 			"",
 			"You can immediately drag opponents you successfully trip.  ",
-			"**Prerequisites:** {feat/Improved Drag}, {feat/Improved Trip}, worshiper of Gozreh.  ",
+			"**Prerequisites:** {feat/Improved Drag}, {feat/Improved Trip}, worshiper of {faith/Gozreh}.  ",
 			"**Benefit:** Whenever you succeed at a trip combat maneuver, you can automatically attempt a drag combat maneuver against your tripped target as a swift action.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -1314,7 +1314,7 @@
 			"{SOURCE Advanced Race Guide/67}",
 			"",
 			"You can make yourself a little more vulnerable to larger creatures in order to land a devastating blow.  ",
-			"**Prerequisites:** Base attack bonus +1, halfling.  ",
+			"**Prerequisites:** Base attack bonus +1, {race/halfling}.  ",
 			"**Benefit:** You can choose to take a -1 penalty to AC to gain a +2 bonus on melee damage rolls against creatures two or more size categories larger than you. When your base attack bonus reaches +4 and every 4 levels thereafter, the penalty increases by -1 and the damage bonus increases by 2. The bonus damage is multiplied in the case of a critical hit. You can only choose to use this feat when you declare that you are making an attack action or a full-attack action with a melee weapon. The effects last until your next turn.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -1472,7 +1472,7 @@
 			"{SOURCE Goblins of Golarion/25}",
 			"",
 			"You know how to take a hit, even if your reaction sends you bouncing and flying out of battle while shrieking at the top of your lungs.  ",
-			"**Prerequisites:** Goblin, Acrobatics 1 rank.  ",
+			"**Prerequisites:** {race/Goblin}, Acrobatics 1 rank.  ",
 			"**Benefit:** If you are struck by a melee weapon you can try to convert some or all of that damage into movement that sends you off in an uncontrolled bouncing roll. To do so, you must make an Acrobatics check (DC = 5 + the damage dealt from the attack) as an immediate action. If you succeed in this check, you take no damage from the actual attack but instead convert that damage into movement with each point equating to 1 foot of movement. For example, if you would have taken 6 points of damage, you would convert that into 6 feet of movement. You immediately move in a straight line in a direction of your choice this number of feet (rounded up to the nearest 5-foot-square), halting if you reach a distance equal to your actual speed. If this movement would make you strike an object or creature of your size or larger, the movement immediately ends, you take 1d4 points of damage, and fall prone in that square. This involuntary movement provokes attacks of opportunity normally if you move through threatened squares, but does not provoke an attack of opportunity from the creature that struck you in the first place.",
 			"",
 			"You are staggered for 1 round after you attempt to use this feat, whether or not you succeed."
@@ -1541,7 +1541,7 @@
 			"{SOURCE Mythic Adventures/72}",
 			"",
 			"You run with preternatural speed and endurance.  ",
-			"**Prerequisites:** {feat/Run}.  ",
+			"**Prerequisites:** Run.  ",
 			"**Benefit:** When running, you move seven times your normal speed if wearing medium, light, or no armor and carrying no more than a medium load, or six times your speed if wearing heavy armor or carrying a heavy load. When making a jump after a running start, you gain an additional bonus equal to your tier + 4 on your Acrobatics check.",
 			"",
 			"You can run normally for a number of rounds equal to your Constitution score plus your tier, but after that you must succeed at Constitution checks to continue running."
@@ -1582,7 +1582,7 @@
 			"{SOURCE Inner Sea Races/208}",
 			"",
 			"Your timing and fierceness take the enemy by surprise.  ",
-			"**Prerequisites:** Human (Chelaxian).  ",
+			"**Prerequisites:** {race/Human} (Chelaxian).  ",
 			"**Benefit:** When a Chelish ally with this feat hits with an attack of opportunity against an enemy both you and that ally are threatening, you gain a +2 circumstance bonus on your melee attack rolls against that enemy for 1 round."
 		]
 	},
@@ -1671,7 +1671,7 @@
 			"{SOURCE Heroes of Golarion/10}",
 			"",
 			"Your faith in {faith/Sarenrae} and the power of flame allows you to lace fire with holy power and burn things that normally can't be burned.  ",
-			"**Prerequisites:** {race/Goblin}, worshiper of Sarenrae.  ",
+			"**Prerequisites:** {race/Goblin}, worshiper of {faith/Sarenrae}.  ",
 			"**Benefit:** Whenever you make an attack or cast a spell that deals fire damage, the fire damage applies to incorporeal creatures, regardless of whether the fire is magical. An incorporeal creature's 50% reduction in damage from corporeal sources does not apply to any fire damage that you deal."
 		]
 	},
@@ -1757,7 +1757,7 @@
 			"{SOURCE Goblins of Golarion/25}",
 			"",
 			"You sometimes get carried away when encouraging your mount to fight.  ",
-			"**Prerequisites:** Goblin, Ride 1 rank.  ",
+			"**Prerequisites:** {race/Goblin}, Ride 1 rank.  ",
 			"**Benefit:** You can choose to take a -1 penalty on all attack rolls and combat maneuver checks to grant your mount a +1 bonus on all attack rolls and damage rolls made with natural weapons. These effects affect you and your mount for 1 round. When your base attack bonus reaches +4, and every 4 points thereafter, this penalty increases by -1 and the bonus to your mount's attack and damage increases by +1 to a maximum of +5. You must choose to use this feat before making an attack roll."
 		]
 	},
@@ -1879,7 +1879,7 @@
 			"{SOURCE Heroes from the Fringe/9}",
 			"",
 			"You can incorporate sand as part of your unarmed fighting techniques.  ",
-			"**Prerequisites:** {feat/Improved Unarmed Strike}, dwarf, proficiency with the cestus.  ",
+			"**Prerequisites:** {feat/Improved Unarmed Strike}, {race/dwarf}, proficiency with the cestus.  ",
 			"**Benefit:** You can take 1 minute to tightly embed sand into the joints and crevices of a pair of cestuses you wear. While they have sand embedded in them, the cestuses gain +1 hardness and +5 hit points. While wearing cestuses embedded with sand, you can perform a dirty trick combat maneuver to blind a foe in place of one of your melee attacks without provoking an attack of opportunity. Doing so causes the cestuses to no longer have sand embedded in them. You can embed a single cestus with sand as a full-round action, but you take a -4 penalty on the dirty trick combat maneuver check using a single cestus."
 		]
 	},
@@ -2071,7 +2071,7 @@
 			"{SOURCE Mythic Adventures/72}",
 			"",
 			"Shielding a comrade from harm gives you a chance to strike back.  ",
-			"**Prerequisites:** {feat/Saving Shield}.  ",
+			"**Prerequisites:** Saving Shield.  ",
 			"**Benefit:** The shield bonus you grant an ally with Saving Shield increases to +3. If you use Saving Shield to successfully negate an attack against an adjacent ally, you can immediately make an attack of opportunity against the attacker so long as it is within your melee reach."
 		]
 	},
@@ -2084,7 +2084,7 @@
 			"{SOURCE Inner Sea Gods/215}",
 			"",
 			"Calling on the power of Erastil, you can fire an arrow that heals instead of harms.  ",
-			"**Prerequisites:** Ability to cast cure spells, proficient with longbow, worshiper of Erastil.  ",
+			"**Prerequisites:** Ability to cast cure spells, proficient with longbow, worshiper of {faith/Erastil}.  ",
 			"**Benefit:** Once per day when you cast a {main/cure |spell/>_groupings}, you can replace the normal somatic component with drawing a longbow to create a shaft of green glowing light. When you fire the bow as a part of casting the spell and hit your target with a ranged touch attack, the green shaft of light cures the target as if it were touched by the cure spell."
 		]
 	},
@@ -2204,7 +2204,7 @@
 			"{SOURCE Advanced Race Guide/165}",
 			"",
 			"Your gaze is naturally drawn to valuable glittering objects.  ",
-			"**Prerequisites:** Tengu.  ",
+			"**Prerequisites:** {race/Tengu}.  ",
 			"**Benefit:** You gain a +2 bonus on Appraise checks. You may determine the most valuable item in a hoard as a standard action and gain an additional +2 bonus on the Appraise check to do so. In addition, if you fail an Appraise check by 5 or more, you treat the check as if you had failed by less than 5.  ",
 			"**Normal:** Determining the most valuable object in a treasure hoard takes 1 full-round action."
 		]
@@ -2313,7 +2313,7 @@
 			"{SOURCE Inner Sea Races/208}",
 			"",
 			"Though you might not be able to trace your lineage back to Azlant, you can feel the ancient power in your blood whenever you're near others like yourself.  ",
-			"**Prerequisites:** Human (Chelaxian or Taldan).  ",
+			"**Prerequisites:** {race/Human} (Chelaxian or Taldan).  ",
 			"**Benefit:** While you're adjacent to an ethnically Chelish or Taldan ally who also has this feat, you gain a +2 competence bonus on a single attack roll, saving throw, ability check, or skill check as an immediate action. You must choose to use this ability before making the roll."
 		]
 	},
@@ -2329,7 +2329,7 @@
 			"{SOURCE Advanced Race Guide/130}",
 			"",
 			"Elemental fire stirs within your body, boiling your blood and rendering you resistant to flame.  ",
-			"**Prerequisites:** Ifrit.  ",
+			"**Prerequisites:** {race/Ifrit}.  ",
 			"**Benefit:** You gain a +2 bonus on saving throws against fire attacks and spells with the fire descriptor or light descriptor. As a swift action, you can make up to two held manufactured metallic weapons become red-hot for 1 round, dealing 1 additional point of fire damage with a successful hit. This does not stack with other effects that add fire damage to weapons, such as the flaming weapon special ability.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -2364,7 +2364,7 @@
 			"{SOURCE Mythic Adventures/72}",
 			"",
 			"Your unarmed strikes can induce a near-crippling lethargy in your enemies.  ",
-			"**Prerequisites:** {feat/Scorpion Style}.  ",
+			"**Prerequisites:** Scorpion Style.  ",
 			"**Benefit:** Whenever you are using Scorpion Style, you add your tier to the number of rounds the target's base land speed is reduced. You can expend one use of mythic power when making your attack to slow your target, as the spell {spell/slow}, unless it succeeds at a Fortitude save (DC 10 + 1/2 your character level + your Wisdom modifier). The slowing effect supersedes the normal speed penalty of your Scorpion Strike, but lasts for an equal number of rounds."
 		]
 	},
@@ -2444,7 +2444,7 @@
 			"{SOURCE Dirty Tactics Toolbox/23}",
 			"",
 			"You abandon all notion of personal space when in danger, scurrying about your allies in search of the best vantage point from which to strike at your foes.  ",
-			"**Prerequisites:** Ratfolk, swarming racial trait.  ",
+			"**Prerequisites:** {race/Ratfolk}, swarming racial trait.  ",
 			"**Benefit:** You can use your swarming racial trait to enter the square of any willing ally that is the same size as you or up to one size category larger, granting you the benefits of the swarming racial trait as if your ally were also a ratfolk with the swarming racial trait. Your ally gains no benefits from sharing its space with you unless it also has the swarming racial trait. Additionally, you treat any ally who shares its space with you as having the same teamwork feats that you do for the purpose of determining whether you gain a bonus from teamwork feats. Your ally doesn't gain any of the bonuses from these feats unless she actually has the teamwork feats. You and your ally's positioning and actions must still meet the prerequisites listed in a teamwork feat's description in order to gain the teamwork feat's listed bonus, but your ally is considered to be adjacent to you while you share her space for the purpose of determining whether you or your ally gains a benefit."
 		]
 	},
@@ -2470,7 +2470,7 @@
 			"{SOURCE Advanced Player's Guide/170}",
 			"",
 			"You are especially resistant to magic.  ",
-			"**Prerequisites:** Dwarf, hardy racial trait.  ",
+			"**Prerequisites:** {race/Dwarf}, hardy racial trait.  ",
 			"**Benefit:** You receive a +4 racial bonus on saving throws against spells and spell-like abilities. This replaces the normal bonus from the dwarf's hardy racial trait.  ",
 			"**Normal:** Dwarves normally receive a +2 racial bonus on saving throws against spells and spell-like abilities."
 		]
@@ -2484,7 +2484,7 @@
 			"{SOURCE Inner Sea Gods/216}",
 			"",
 			"Torag's blessing heals the body and hardens the skin.  ",
-			"**Prerequisites:** Channel energy 7d6, worshiper of Torag.  ",
+			"**Prerequisites:** {ability/Channel energy} 7d6, worshiper of {faith/Torag}.  ",
 			"**Benefit:** Once per day when you channel positive energy to heal living creatures, you can grant healed creatures damage resistance. Affected creatures gain DR 2/- (or increase their DR/- by 2, if they already have DR/-) for a number of minutes equal to your Charisma bonus (minimum 1 minute)."
 		]
 	},
@@ -2510,7 +2510,7 @@
 			"{SOURCE Legacy of the First World/8}",
 			"",
 			"Your spell-like ability taps the magic and resilience of the First World.  ",
-			"**Prerequisites:** Gathlain, feather step spell-like ability.  ",
+			"**Prerequisites:** {race/Gathlain}, feather step spell-like ability.  ",
 			"**Benefit:** A creature under the effect of your feather step spell-like ability gains DR 1/cold iron for the duration of the effect. If you have at least 8 Hit Dice, the creature instead gains DR 2/cold iron, and if you have at least 16 Hit Dice, the creature instead gains DR 3/cold iron."
 		]
 	},
@@ -2712,7 +2712,7 @@
 			"{SOURCE Heroes from the Fringe/9}",
 			"",
 			"You can use stone around you to help you avoid attacks.  ",
-			"**Prerequisites:** Wis 15, {feat/Stone Shroud}, Stealth 6 ranks, dwarf, stonecunning racial trait.  ",
+			"**Prerequisites:** Wis 15, {feat/Stone Shroud}, Stealth 6 ranks, {race/dwarf}, stonecunning racial trait.  ",
 			"**Benefit:** While in areas of rocky terrain or while underground, you can gain 10% miss chance as a swift action. Alternatively, you can take a moment to better position yourself and gain {rule/concealment} as a move action. The miss chance or concealment you gain from this feat does not stack with similar effects and remains until the start of your next turn."
 		]
 	},
@@ -2782,7 +2782,7 @@
 			"{SOURCE Heroes from the Fringe/9}",
 			"",
 			"Your connection to the earth allows you to find the perfect spot to hide among the stone.  ",
-			"**Prerequisites:** Wis 13, Stealth 1 rank, dwarf, stonecunning racial trait.  ",
+			"**Prerequisites:** Wis 13, Stealth 1 rank, {race/dwarf}, stonecunning racial trait.  ",
 			"**Benefit:** You gain a +4 bonus on Stealth checks while in areas of rocky terrain or while underground."
 		]
 	},
@@ -2795,7 +2795,7 @@
 			"{SOURCE Advanced Player's Guide/171}",
 			"",
 			"Your songs are in accordance with the ways and lands of your people.  ",
-			"**Prerequisites:** Cha 13, bardic performance class feature, dwarf.  ",
+			"**Prerequisites:** Cha 13, bardic performance class feature, {race/dwarf}.  ",
 			"**Benefit:** When you use bardic performance with audible components underground, the range or area of your chosen performance is doubled, and you can affect deaf creatures if they possess tremorsense and are in your new range. In addition, the DC for saving throws against your bardic performance is increased by +2 for creatures of the earth subtype, regardless of where the performance occurs."
 		]
 	},
@@ -2822,7 +2822,7 @@
 			"{SOURCE Inner Sea Gods/216}",
 			"",
 			"You discern the best path through rocky terrain.  ",
-			"**Prerequisites:** Stonecunning racial trait, worshiper of Torag.  ",
+			"**Prerequisites:** Stonecunning racial trait, worshiper of {faith/Torag}.  ",
 			"**Benefit:** You can move through any sort of nonmagical rocky terrain without taking damage, becoming slowed due to difficult terrain, or suffering any other impairments the terrain would otherwise cause."
 		]
 	},
@@ -2848,7 +2848,7 @@
 			"{SOURCE Advanced Player's Guide/170}",
 			"",
 			"Rocks show more expression than you.  ",
-			"**Prerequisites:** Dwarf.  ",
+			"**Prerequisites:** {race/Dwarf}.  ",
 			"**Benefit:** You receive a +4 bonus on Bluff checks to lie or conceal your feelings or true motives, but not to feint in combat or deliver secret messages. In addition, the DC for Sense Motive checks to get a hunch about you is 25 rather than 20."
 		]
 	},
@@ -2889,7 +2889,7 @@
 			"{SOURCE Advanced Race Guide/147}",
 			"",
 			"The earth recognizes its kinship with you and does not impede your movement.  ",
-			"**Prerequisites:** Oread.  ",
+			"**Prerequisites:** {race/Oread}.  ",
 			"**Benefit:** Whenever you move, you may move through 5 feet of earth- or stone-based difficult terrain (rubble, stone stairs, and so on) each round as if it were normal terrain. The effects of this feat stack with similar feats such as {feat/Acrobatic Steps} and {feat/Nimble Moves}. This feat allows you to take a 5-foot step into this kind of difficult terrain."
 		]
 	},
@@ -3008,7 +3008,7 @@
 			"{SOURCE Legacy of the First World/8}",
 			"",
 			"Your vines produce fruit with helpful properties.  ",
-			"**Prerequisites:** Craft (alchemy) 5 ranks, gathlain, racial fly speed.  ",
+			"**Prerequisites:** Craft (alchemy) 5 ranks, {race/gathlain}, racial fly speed.  ",
 			"**Benefit:** Your vines produce fruit with helpful properties. Once per day as a full-round action, you can withdraw a small fruit from your symbiotic vines. Roll d% on the table below; the fruit functions as the result of that roll. After 24 hours, the fruit loses its magic.",
 			"",
 			"| d% | Potion or Oil |",
@@ -3122,7 +3122,7 @@
 			"{SOURCE Heroes from the Fringe/20}",
 			"",
 			"Half-drow tap into inner reserves, fighting even more fiercely when losing.  ",
-			"**Prerequisites:** Base attack bonus +1, darkborn half-elf.  ",
+			"**Prerequisites:** Base attack bonus +1, darkborn {race/half-elf}.  ",
 			"**Benefit:** When reduced to half of your maximum hit points or fewer, you gain a +1 morale bonus on attack and damage rolls. This bonus increases to +2 at 8th level and to +3 at 15th level."
 		]
 	},
@@ -3191,7 +3191,7 @@
 			"{SOURCE Mythic Adventures/75}",
 			"",
 			"Your precise counterattacks degrade your foes' advantages in combat.  ",
-			"**Prerequisites:** {feat/Strike Back}.  ",
+			"**Prerequisites:** Strike Back.  ",
 			"**Benefit:** When you make a melee attack as a readied action against a foe outside your melee reach, you can take a 5-foot step toward that foe. If you expend one use of mythic power, you can move your speed toward the foe instead. Neither of these counts toward the movement made during your turn."
 		]
 	},
@@ -3227,7 +3227,7 @@
 			"{SOURCE Mythic Adventures/75}",
 			"",
 			"You never make the same mistake twice.  ",
-			"**Prerequisites:** {feat/Strong Comeback}.  ",
+			"**Prerequisites:** Strong Comeback.  ",
 			"**Benefit:** Whenever you're allowed to reroll an ability check, a skill check, or a saving throw, roll two dice and take the higher result, before adding the bonus from Strong Comeback."
 		]
 	},
@@ -3313,7 +3313,7 @@
 			"{SOURCE Heroes of the High Court/19}",
 			"",
 			"You have studied the life and works of the aasimar Sulunai, who led the people of Tianjing in a time of nationwide chaos. You know that second chances are opportunities for salvation.  ",
-			"**Prerequisites:** Aasimar.  ",
+			"**Prerequisites:** {race/Aasimar}.  ",
 			"**Benefit:** Whenever a creature within 30 feet of you rerolls an ability check, saving throw, or skill check, you can give the creature a +2 insight bonus on the new roll as an immediate action. You can also cast {spell/divine favor} as a spell-like ability once per day, using your character level as your caster level."
 		]
 	},
@@ -3451,7 +3451,7 @@
 			"{SOURCE Mythic Adventures/75}",
 			"",
 			"With greater potency and frequency, your fists stun those who stand against you.  ",
-			"**Prerequisites:** {feat/Stunning Fist}.  ",
+			"**Prerequisites:** Stunning Fist.  ",
 			"**Benefit:** The DC of your Stunning Fist increases by half your tier, and you can use Stunning Fist multiple times during the same round. As a free action, you can expend one use of your mythic power to use Stunning Fist without spending one of your daily uses of the feat."
 		]
 	},
@@ -3839,7 +3839,7 @@
 			"",
 			"A guardian spirit has selected you as its ward.  ",
 			"**Prerequisites:** Ability to cast {spell/summon monster III} or {spell/summon nature's ally III}.  ",
-			"**Benefit:** Select one creature that qualifies to be an improved familiar, and apply the {template/guardian spirit/ template} to it. That creature is added to either your summon monster III or summon nature's ally III list as a summonable creature. When you summon your guardian spirit, the duration of the spell you use to summon it is 1 minute per level. A guardian spirit is always exactly the same creature, with memory of all the events that occurred while previously summoned; multiple versions of it can't be summoned. If it's killed while summoned, it cannot be summoned again for 24 hours.",
+			"**Benefit:** Select one creature that qualifies to be an improved familiar, and apply the {template/guardian spirit/ template} to it. That creature is added to either your *summon monster III* or *summon nature's ally III* list as a summonable creature. When you summon your guardian spirit, the duration of the spell you use to summon it is 1 minute per level. A guardian spirit is always exactly the same creature, with memory of all the events that occurred while previously summoned; multiple versions of it can't be summoned. If it's killed while summoned, it cannot be summoned again for 24 hours.",
 			"",
 			"If you're capable of casting a higher-level summon monster or summon nature's ally spell, you can perform a ritual to attune the guardian spirit to a higher-level version of the spell. This also allows you to change any selections made regarding the abilities the creature gains based on the level of spell used to conjure it. This ritual takes 24 hours, and once complete it moves the guardian spirit to the higher-level list of creatures that can be summoned."
 		]
@@ -3911,23 +3911,23 @@
 			"**Prerequisites:** Knowledge (nature) 1 rank, ability to cast summon nature's ally spells.  ",
 			"**Benefit:** When casting a summon nature's ally spell, you gain access to the list of plant creatures below.",
 			"",
-			"Summon nature's ally I: Leaf leshy, vegepygmy.",
+			":hll[spell/Summon nature's ally I:] Leaf leshy, vegepygmy.",
 			"",
-			"Summon nature's ally II: Gourd leshy, leaf ray (without seed ability).",
+			":hll[spell/Summon nature's ally II:] Gourd leshy, leaf ray (without seed ability).",
 			"",
-			"Summon nature's ally III: Fungus leshy, weedwhip.",
+			":hll[spell/Summon nature's ally III:] Fungus leshy, weedwhip.",
 			"",
-			"Summon nature's ally IV: Assassin vine, seaweed leshy (without air cyst ability).",
+			":hll[spell/Summon nature's ally IV:] Assassin vine, seaweed leshy (without air cyst ability).",
 			"",
-			"Summon nature's ally V: Mandragora, shambling mound.",
+			":hll[spell/Summon nature's ally V:] Mandragora, shambling mound.",
 			"",
-			"Summon nature's ally VI: Tendriculos, treant.",
+			":hll[spell/Summon nature's ally VI:] Tendriculos, treant.",
 			"",
-			"Summon nature's ally VII: Giant flytrap.",
+			":hll[spell/Summon nature's ally VII:] Giant flytrap.",
 			"",
-			"Summon nature's ally VIII: Jinmenju.",
+			":hll[spell/Summon nature's ally VIII:] Jinmenju.",
 			"",
-			"Summon nature's ally IX: Alraune."
+			":hll[spell/Summon nature's ally IX:] Alraune."
 		]
 	},
 	"summoners_call": {
@@ -3955,7 +3955,7 @@
 			"{SOURCE Inner Sea Gods/217}",
 			"",
 			"Called by the Dawnflower to strike down the undead, your scimitar becomes an agent of her burning will.  ",
-			"**Prerequisites:** {feat/Critical Focus}, character level 7th, worshiper of Sarenrae.  ",
+			"**Prerequisites:** {feat/Critical Focus}, character level 7th, worshiper of {faith/Sarenrae}.  ",
 			"**Benefit:** Whenever you confirm a critical hit against an undead creature, your attack bypasses all DR, deals full damage to incorporeal creatures, and acts as though it has the flaming burst weapon special ability.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -4075,7 +4075,7 @@
 			"{SOURCE Ultimate Wilderness/13}",
 			"",
 			"Your experience has enabled you to dramatically develop your innate magical abilities.  ",
-			"**Prerequisites:** Cha 17, {feat/Advanced Gathlain Magic}, {feat/Greater Gathlain Magic}, character level 15th, gathlain.  ",
+			"**Prerequisites:** Cha 17, {feat/Advanced Gathlain Magic}, {feat/Greater Gathlain Magic}, character level 15th, {race/gathlain}.  ",
 			"**Benefit:** You gain the following spells as spell-like abilities, each usable 1/day: liveoak, tree stride."
 		]
 	},
@@ -4116,7 +4116,7 @@
 			"{SOURCE Blood of Angels/25}",
 			"",
 			"You sup on the blood of your ancestors to fuel your fury.  ",
-			"**Prerequisites:** Con 15, aasimar.  ",
+			"**Prerequisites:** Con 15, {race/aasimar}.  ",
 			"**Benefit:** Whenever you are adjacent to a good outsider that takes bleed or blood drain damage, you gain 1 temporary hit point as you bathe in the celestial being's gore. Furthermore, as a full-round action, you can feast on the fallen body of a good outsider that has been dead no longer than 24 hours. When you do, you regain 1 temporary hit point per Hit Die the outsider possessed at a rate of 1 hit point per minute. Temporary hit points gained from this feat last 1d4 hours."
 		]
 	},
@@ -4195,7 +4195,7 @@
 			"{SOURCE Advanced Race Guide/67}",
 			"",
 			"You are both fast and careful.  ",
-			"**Prerequisites:** Fleet of foot racial trait, halfling.  ",
+			"**Prerequisites:** Fleet of foot racial trait, {race/halfling}.  ",
 			"**Benefit:** You gain a +2 racial bonus on Acrobatics and Climb checks."
 		]
 	},
@@ -4287,7 +4287,7 @@
 			"{SOURCE Advanced Race Guide/78}",
 			"",
 			"Your success drives your further actions.  ",
-			"**Prerequisites:** Human.  ",
+			"**Prerequisites:** {race/Human}.  ",
 			"**Benefit:** When you confirm a critical hit or roll a natural 20 on a saving throw, you gain a +2 circumstance bonus on a single attack roll, saving throw, skill check, or ability check of your choice before the end of your next turn. You must choose to use this bonus before you make the attack roll, saving throw, skill check, or ability check."
 		]
 	},
@@ -4339,7 +4339,7 @@
 			"{SOURCE Advanced Race Guide/67}",
 			"",
 			"You actually seem to do more damage when frantically trying to avoid your enemies.  ",
-			"**Prerequisites:** {feat/Cautious Fighter}, {feat/Desperate Swing}, base attack bonus +6, halfling.  ",
+			"**Prerequisites:** {feat/Cautious Fighter}, {feat/Desperate Swing}, base attack bonus +6, {race/halfling}.  ",
 			"**Benefit:** Once per day, when fighting defensively or making an attack of opportunity while taking the total defense action with the Desperate Swing feat, you take no penalty on the attack roll.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -4571,7 +4571,7 @@
 			"{SOURCE Dragon Empires Primer/5}",
 			"",
 			"You can change shape more quickly than most kitsune.  ",
-			"**Prerequisites:** Dex 13, base attack bonus +6, kitsune.  ",
+			"**Prerequisites:** Dex 13, base attack bonus +6, {race/kitsune}.  ",
 			"**Benefit:** You can assume human or kitsune form as a swift action. If you have the Fox Shape feat, you can assume fox form as a swift action as well.  ",
 			"**Normal:** A kitsune's change shape ability is a standard action."
 		]
@@ -4742,7 +4742,7 @@
 			"{SOURCE Ultimate Wilderness/13}",
 			"",
 			"Your symbiotic vines have spread all throughout your body, granting you a lesser form of the immunities enjoyed by plant creatures.  ",
-			"**Prerequisites:** Con 13, gathlain.  ",
+			"**Prerequisites:** Con 13, {race/gathlain}.  ",
 			"**Benefit:** When you are paralyzed, magically put to sleep, or stunned, you ignore the effects of that condition, but you are instead staggered for the same duration as the ignored condition. Removing the ignored condition also removes this staggered condition, but you can't otherwise remove the staggered condition, nor can immunity to being staggered protect against it."
 		]
 	},
@@ -4774,7 +4774,7 @@
 			"{SOURCE Advanced Race Guide/57;Orcs of Golarion/25}",
 			"",
 			"Seeing an ally rage fills you with your own fury.  ",
-			"**Prerequisites:** Half-orc or orc, nonlawful.  ",
+			"**Prerequisites:** {race/Half-orc} or {race/orc}, nonlawful.  ",
 			"**Benefit:** Whenever you are adjacent to an ally who is raging, you may choose to enter a similar but less powerful rage as a free action on your turn. This weaker rage gives you all the benefits and penalties of a barbarian's rage, except your morale bonus to Strength and Constitution is only +2. There is no limit to how long you can rage, as long as you remain adjacent to a raging ally (for example, you could take a 5-foot step away from one raging ally toward another raging ally and maintain your rage). As with a barbarian's rage, when this weaker rage ends, you are fatigued. You cannot use this feat if you are fatigued.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",

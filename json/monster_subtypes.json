@@ -117,7 +117,7 @@
 		"description": [
 			"## Subtype: Aquatic",
 			"",
-			"These creatures always have swim speeds and can move in water without making Swim checks. An aquatic creature can breathe water. It cannot breathe air unless it has the amphibious special quality. Aquatic creatures always treat Swim as a class skill."
+			"These creatures always have swim speeds and can move in water without making Swim checks. An aquatic creature can breathe water. It cannot breathe air unless it has the {umr/amphibious} special quality. Aquatic creatures always treat Swim as a class skill."
 		]
 	},
 	"archon": {

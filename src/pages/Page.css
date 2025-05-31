@@ -532,6 +532,12 @@ div.tableWrap {
 div.displayTable { /* Dunno if this is needed, but... */
 	display: contents;
 }
+div.displayTable + div.displayTable,
+div.displayTable + div.tableWrap,
+div.tableWrap + div.displayTable,
+div.tableWrap + div.tableWrap {
+	margin-top: 1rem;
+}
 table {
 	--half-width: 0.0625rem;
 	--full-width: 0.125rem;

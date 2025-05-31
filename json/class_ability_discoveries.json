@@ -1162,6 +1162,14 @@
 			"The alchemist gains the ability to create a simulacrum. This works like the {spell/simulacrum} spell, except it costs 100 gp in alchemical materials per Hit Die of the simulacrum, requires 24 hours to grow, and decays into inert flesh rather than ice or snow if killed. An alchemist must be at least 14th level and must have the {discovery/alchemical simulacrum} discovery before selecting this discovery. The created simulacrum is a creature, not a supernatural effect."
 		]
 	},
+	"alchemical_strike": {
+		"name": "Alchemical Strike",
+		"compilationSources": [ [ "Magic Tactics Toolbox", 12 ] ],
+		"category": "Other Discoveries",
+		"description": [
+			"Gain {feat/Alchemical Strike} as a bonus feat. You do not need to meet its prerequisites."
+		]
+	},
 	"alchemical_zombie": {
 		"name": "Alchemical Zombie",
 		"compilationSources": [ [ "Ultimate Magic" ] ],

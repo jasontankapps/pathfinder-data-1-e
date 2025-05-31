@@ -256,7 +256,7 @@
 			"{SOURCE Mythic Adventures/63}",
 			"",
 			"Your kills are truly frightening to behold.  ",
-			"**Prerequisites:** {feat/Dreadful Carnage}.  ",
+			"**Prerequisites:** Dreadful Carnage.  ",
 			"**Benefit:** When you use Dreadful Carnage, you affect non-mythic enemies within 60 feet in addition to all enemies within 30 feet. You can expend one use of mythic power before making the Intimidate check to cause enemies demoralized by Dreadful Carnage to become frightened instead of shaken, for the same duration as the normal shaken effect. While frightened by this ability, an enemy takes a penalty equal to your tier on attack rolls, saving throws, skill checks, and ability checks."
 		]
 	},
@@ -333,7 +333,7 @@
 			"{SOURCE Blood of Shadows/15}",
 			"",
 			"Although you are of mixed heritage, the magic of your drow relatives flows freely through your veins.  ",
-			"**Prerequisites:** Half-elf.  ",
+			"**Prerequisites:** {race/Half-elf}.  ",
 			"**Benefit:** You gain the ability to cast {spell/dancing lights}, {spell/darkness}, and {spell/faerie fire} each once per day as a spell-like ability. You use your character level as your caster level for these abilities. Alternatively, you can instead gain any one racial trait that elves can exchange for the elven magic racial trait.  ",
 			"**Special:** You can take this feat only at 1st level. If you take this feat, you cannot take the Human Spirit or Elven Spirit feat."
 		]
@@ -376,7 +376,7 @@
 			"{SOURCE Inner Sea Gods/211;Faiths of Purity/24}",
 			"",
 			"You have learned how to fight effectively while drunk.  ",
-			"**Prerequisites:** {feat/Endurance}, worshiper of Cayden Cailean.  ",
+			"**Prerequisites:** {feat/Endurance}, worshiper of {faith/Cayden Cailean}.  ",
 			"**Benefit:** When you drink a tankard of ale or strong alcohol, you take a -2 penalty on Reflex saving throws, but gain a number of temporary hit points equal to your character level, and gain a +2 alchemical bonus on Fortitude and Will saving throws. These bonuses last 1 hour or until the temporary hit points gained by this effect are lost, whichever occurs first. Regardless, the penalty lasts for a full hour."
 		]
 	},
@@ -389,7 +389,7 @@
 			"{SOURCE Inner Sea Taverns/58}",
 			"",
 			"Cayden Cailean smiles upon you when you visit his most favored temples: taverns.  ",
-			"**Prerequisites:** Worshiper of Cayden Cailean.  ",
+			"**Prerequisites:** Worshiper of {faith/Cayden Cailean}.  ",
 			"**Benefit:** When you have had at least a number of drinks equal to your Constitution modifier (or get drunk or soused) in a tavern, once within the following 24 hours, you can gain the benefits of remove paralysis as a free action. Alternatively, you can choose one of the following benefits depending on the type of bar you patronized. At the GM's discretion, other types of taverns might grant other benefits.",
 			"",
 			"**Gambling Den:** You can gain the benefits of detect thoughts for 1 minute as a free action.",
@@ -553,7 +553,7 @@
 			"{SOURCE Advanced Race Guide/147}",
 			"",
 			"You have dwarven blood coursing through your veins.  ",
-			"**Prerequisites:** Oread.  ",
+			"**Prerequisites:** {race/Oread}.  ",
 			"**Benefit:** Your dwarven heritage manifests in two ways. First, your speed is never modified by armor or encumbrance, as the dwarf slow and steady racial trait. Second, you gain the stonecunning dwarf racial trait."
 		]
 	},
@@ -618,7 +618,7 @@
 			"Failure indicates that popular opinion in the city successfully opposes you. In addition, from now on, your followers gain a +1 morale bonus on attack rolls and saving throws as long as they can see you.  ",
 			"**Special:** For groups using the {rule/kingdom-building/ rules}, you can optionally use the rules for establishing a settlement to complete the goal of this story feat.",
 			"",
-			"Suggested Traits: {trait/Domineering}, {trait/Inspiring}, {trait/Natural-Born Leader (Social)}.",
+			"*Suggested Traits:* {trait/Domineering}, {trait/Inspiring}, {trait/Natural-Born Leader (Social)}.",
 			"",
 			"### Possible Dynasty Founder Quests",
 			"",
@@ -658,7 +658,7 @@
 			"{SOURCE Mythic Adventures/64}",
 			"",
 			"You eyesight rivals that of the most far-seeing raptors.  ",
-			"**Prerequisites:** {feat/Eagle Eyes}.  ",
+			"**Prerequisites:** Eagle Eyes.  ",
 			"**Benefit:** You ignore up to -10 in penalties due to distance on visual Perception checks, instead of the normal -5. As a swift action, you can expend one use of mythic power to ignore all penalties due to distance on visual Perception checks for 1 round."
 		]
 	},
@@ -722,7 +722,7 @@
 			"{SOURCE Ultimate Combat/98}",
 			"",
 			"Even the greatest giants fear your technique.  ",
-			"**Prerequisites:** Wis 13, dwarf or gnome, defensive training racial trait, {feat/Earth Child Style}, {feat/Earth Child Topple}, {feat/Greater Trip}, {feat/Improved Trip}, {feat/Improved Unarmed Strike}, {feat/Stunning Fist}, Acrobatics 9 ranks.  ",
+			"**Prerequisites:** Wis 13, {race/dwarf} or {race/gnome}, defensive training racial trait, {feat/Earth Child Style}, {feat/Earth Child Topple}, {feat/Greater Trip}, {feat/Improved Trip}, {feat/Improved Unarmed Strike}, {feat/Stunning Fist}, Acrobatics 9 ranks.  ",
 			"**Benefit:** You can trip a creature of the giant subtype no matter its size. While you are using Earth Child Style, when a prone creature of the giant subtype stands up and provokes an attack of opportunity from you, if you make an unarmed strike, you can declare you are making a Stunning Fist attempt after the attack hits. You gain a +4 bonus to the DC of any Stunning Fist effect you deliver in this way.  ",
 			"**Normal:** You can only trip opponents who are one size category larger than you.",
 			"",
@@ -744,7 +744,7 @@
 			"{SOURCE Ultimate Combat/99}",
 			"",
 			"Your martial training makes you a dangerous and elusive target for giants.  ",
-			"**Prerequisites:** Wis 13, dwarf or gnome, defensive training racial trait, {feat/Improved Unarmed Strike}, Acrobatics 3 ranks.  ",
+			"**Prerequisites:** Wis 13, {race/dwarf} or {race/gnome}, defensive training racial trait, {feat/Improved Unarmed Strike}, Acrobatics 3 ranks.  ",
 			"**Benefit:** While using this style, your defensive training dodge bonus to AC increases to +6. Further, against creatures of the giant subtype, you can add your Wisdom bonus on your unarmed strike damage rolls.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -765,7 +765,7 @@
 			"{SOURCE Ultimate Combat/99}",
 			"",
 			"Your mastery of balance and momentum allows you to bring down giants with your bare hands.  ",
-			"**Prerequisites:** Wis 13, dwarf or gnome, defensive training racial trait, {feat/Earth Child Style}, {feat/Improved Trip}, {feat/Improved Unarmed Strike}, Acrobatics 6 ranks.  ",
+			"**Prerequisites:** Wis 13, {race/dwarf} or {race/gnome}, defensive training racial trait, {feat/Earth Child Style}, {feat/Improved Trip}, {feat/Improved Unarmed Strike}, Acrobatics 6 ranks.  ",
 			"**Benefit:** You can trip a creature of the giant subtype of up to Huge size. While using Earth Child Style, you add your Wisdom bonus on combat maneuver checks made to trip a creature of the giant subtype, as well as on attack rolls to confirm a critical hit against such a creature.  ",
 			"**Normal:** You can trip only those opponents that are one size category larger than you.",
 			"",
@@ -813,7 +813,7 @@
 			"{SOURCE Advanced Race Guide/147}",
 			"",
 			"Your senses are keener among the rocks and stones.  ",
-			"**Prerequisites:** Oread.  ",
+			"**Prerequisites:** {race/Oread}.  ",
 			"**Benefit:** You gain a +4 racial bonus on Perception checks underground, and on Survival checks to avoid becoming lost in caverns and rocky areas."
 		]
 	},
@@ -826,7 +826,7 @@
 			"{SOURCE Inner Sea Races/205}",
 			"",
 			"Your fey heritage is strong, and it grows stronger when you're near another of your kind.  ",
-			"**Prerequisites:** Knowledge (nature) 2 ranks, gnome subtype.  ",
+			"**Prerequisites:** Knowledge (nature) 2 ranks, {race/gnome} subtype.  ",
 			"**Benefit:** While you're adjacent to an ally who has the gnome subtype and who also has this feat, you gain DR 2/cold iron, and you count as fey instead of humanoid for the purposes of effects that target creatures by type. You still count as having the gnome subtype, however."
 		]
 	},
@@ -851,7 +851,7 @@
 			"{SOURCE Advanced Player's Guide/158}",
 			"",
 			"You have a talent for picking up different vocations.  ",
-			"**Prerequisites:** Human.  ",
+			"**Prerequisites:** {race/Human}.  ",
 			"**Benefit:** Choose an additional favored class and gain either +1 hit point or +1 skill point whenever you take a level in that class. If you choose a class in which you already have levels, the benefits of this feat are retroactive."
 		]
 	},
@@ -864,7 +864,7 @@
 			"{SOURCE Inner Sea Races/205}",
 			"",
 			"A sudden darkness disorients your foe, leaving it unprotected against your blinding attack.  ",
-			"**Prerequisites:** Tiefling, darkness racial spell-like ability.  ",
+			"**Prerequisites:** {race/Tiefling}, darkness racial spell-like ability.  ",
 			"**Benefit:** You can attack with an eclipse strike as a standard action if you and an ally who also has this feat are both flanking the target. You and your ally must both have at least one use of your darkness racial spell-like ability available to make this attack. If your eclipse strike hits, your target is blinded for 1 round. Creatures that have the see in darkness ability are immune to the blindness that is caused by an eclipse strike."
 		]
 	},
@@ -918,7 +918,7 @@
 			"{SOURCE Inner Sea Gods/211}",
 			"",
 			"You have a knack for sniffing out undead.  ",
-			"**Prerequisites:** Ability to cast detect undead or detect evil as a spell or spell-like ability, worshiper of Pharasma.  ",
+			"**Prerequisites:** Ability to cast detect undead or detect evil as a spell or spell-like ability, worshiper of {faith/Pharasma}.  ",
 			"**Benefit:** At the beginning of your turn each round, if you are within 60 feet of an undead creature or a haunt, you get a chill down your spine and instinctively sense that something eerie is very near. This sense does not alert you to the direction of the undead or haunt. Anything that can block detect undead can likewise block this sense."
 		]
 	},
@@ -931,7 +931,7 @@
 			"{SOURCE Legacy of the First World/6}",
 			"",
 			"Little can shake your peaceful temperament.  ",
-			"**Prerequisites:** Bleachling racial trait, gnome.  ",
+			"**Prerequisites:** Bleachling racial trait, {race/gnome}.  ",
 			"**Benefit:** You gain a +4 racial bonus on saving throws against spells and effects with the emotion descriptor. Effects with the fear descriptor or that grant you a morale bonus affect you for only half the normal duration (minimum 1 round), and such effects that you can activate on yourself (such as a barbarian's rage) require you to expend daily uses or rounds of those abilities at twice the normal rate."
 		]
 	},
@@ -959,7 +959,7 @@
 			"{SOURCE Gnomes of Golarion/26}",
 			"",
 			"Your natural knack for illusion allows you to maintain at least one illusion spell with little effort.  ",
-			"**Prerequisites:** Gnome.  ",
+			"**Prerequisites:** {race/Gnome}.  ",
 			"**Benefit:** You can maintain concentration on one spell of the illusion school as a swift action. This has no effect on spells of other schools or on illusion spells with durations that don't depend on your active concentration. While you may only maintain one spell as a swift action, you may take your move and standard actions to maintain other spells normally, if you wish.  ",
 			"**Normal:** Concentrating to maintain a spell is a standard action that does not provoke attacks of opportunity."
 		]
@@ -1108,7 +1108,7 @@
 			"{SOURCE Mythic Adventures/64}",
 			"",
 			"The blood of your sorcerous ancestor mingles with your mythic power to great effect.  ",
-			"**Prerequisites:** {feat/Eldritch Heritage}.  ",
+			"**Prerequisites:** Eldritch Heritage.  ",
 			"**Benefit:** You gain sorcerer bloodline powers of the bloodline tied to Eldritch Heritage as if your sorcerer level were your character level - 2. For that bloodline's 1st-level bloodline power, use your full character level to determine its effect; for all other bloodline powers, treat your sorcerer level as your character level - 2."
 		]
 	},
@@ -1192,7 +1192,7 @@
 			"{SOURCE PRPG Core Rulebook/122}",
 			"",
 			"Choose one elemental subtype, such as air, earth, fire, or water. You can channel your divine energy to harm or heal outsiders that possess your chosen elemental subtype.  ",
-			"**Prerequisites:** Channel energy class feature.  ",
+			"**Prerequisites:** {ability/Channel energy} class feature.  ",
 			"**Benefit:** Instead of its normal effect, you can choose to have your ability to channel energy heal or harm outsiders of your chosen elemental subtype. You must make this choice each time you channel energy. If you choose to heal or harm creatures of your elemental subtype, your channel energy has no affect on other creatures. The amount of damage healed or dealt and the DC to halve the damage is otherwise unchanged.  ",
 			"**Special:** You can gain this feat multiple times. Its effects do not stack. Each time you take this feat, it applies to a new elemental subtype.",
 			"",
@@ -1201,7 +1201,7 @@
 			"{SOURCE Mythic Adventures/64}",
 			"",
 			"Your power over elemental beings is nearly absolute.  ",
-			"**Prerequisites:** {feat/Elemental Channel}.  ",
+			"**Prerequisites:** Elemental Channel.  ",
 			"**Benefit:** Your Elemental Channel can affect any elemental subtype, not just the one you chose when you took Elemental Channel. Each time you use Elemental Channel, you must pick one elemental subtype before using the feat. You can expend one use of mythic power when you use Elemental Channel to choose a second elemental subtype to affect."
 		]
 	},
@@ -1289,7 +1289,7 @@
 			"{SOURCE Mythic Adventures/64}",
 			"",
 			"Your ability to channel elemental power through your unarmed attacks is ferociously potent.  ",
-			"**Prerequisites:** {feat/Elemental Fist}.  ",
+			"**Prerequisites:** Elemental Fist.  ",
 			"**Benefit:** The extra energy damage dealt by Elemental Fist increases to 1d8 points, and you gain additional uses of Elemental Fist per day equal to your tier. You can expend one use of mythic power as an immediate action to add the extra damage from your Elemental Fist to all of the unarmed strikes you make until the beginning of your next turn. This counts as only one use of Elemental Fist, regardless of the number of attacks that you make in this fashion."
 		]
 	},
@@ -1313,7 +1313,7 @@
 			"{SOURCE Mythic Adventures/64}",
 			"",
 			"Your elemental spells are potent and effective.  ",
-			"**Prerequisites:** {feat/Elemental Focus}.  ",
+			"**Prerequisites:** Elemental Focus.  ",
 			"**Benefit:** Choose an energy type in which you already have Elemental Focus. The increase to save DC provided by Elemental Focus and Greater Elemental Focus for spells of the selected energy type is 1 higher. When casting a spell with this energy type's descriptor, you can expend one use of mythic power as part of the casting to force the spell's targets to roll their saving throws twice, taking the lower result."
 		]
 	},
@@ -1326,7 +1326,7 @@
 			"{SOURCE Advanced Race Guide/130}",
 			"",
 			"The spirits of your ancestral home call to you, beckoning you to return.  ",
-			"**Prerequisites:** Character level 15th, ifrit, oread, sylph, or undine.  ",
+			"**Prerequisites:** Character level 15th, {race/ifrit}, {race/oread}, {race/sylph}, or {race/undine}.  ",
 			"**Benefit:** Once per day, you can cast {spell/plane shift} as a spell-like ability with a caster level equal to your level to transport yourself and willing targets to an elemental plane that is appropriate to your race (ifrits to the Plane of Fire, oreads to the Plane of Earth, sylphs to the Plane of Air, and undines to the Plane of Water). While on that plane, you (but not anyone transported with you) are treated as though under the effect of the spell planar adaptation."
 		]
 	},
@@ -1392,7 +1392,7 @@
 			"{SOURCE Inner Sea Races/205}",
 			"",
 			"You draw upon your extraplanar heritage to imbue your weapons with elemental energies.  ",
-			"**Prerequisites:** Ifrit, oread, sylph, or undine.  ",
+			"**Prerequisites:** {race/Ifrit}, {race/oread}, {race/sylph}, or {race/undine}.  ",
 			"**Benefit:** As a swift action, you can imbue your weapons with elemental energy. For 1 round, your weapons deal an additional 1 point of energy damage. The type of energy damage depends on your race: acid for oread, electricity for sylph, fire for ifrit, or cold for undine. For every 5 levels you possess, this bonus increases by 1, to a maximum of +5 at 20th level.  ",
 			"**Special:** You can use this feat instead of Arcane Strike to qualify for or attack with the {feat/Deadly Dealer} feat."
 		]
@@ -1481,7 +1481,7 @@
 			"{SOURCE Advanced Player's Guide/159}",
 			"",
 			"Your sharp eyesight makes difficult shots easier.  ",
-			"**Prerequisites:** Elf.  ",
+			"**Prerequisites:** {race/Elf}.  ",
 			"**Benefit:** If you miss due to {rule/concealment} when making a ranged attack with a longbow or shortbow (including composite bows), you can reroll your miss chance roll one time to see if you actually hit.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -1494,7 +1494,7 @@
 			"{SOURCE Mythic Adventures/64}",
 			"",
 			"Your elven eyesight cuts though concealment.  ",
-			"**Prerequisites:** {feat/Elven Accuracy}.  ",
+			"**Prerequisites:** Elven Accuracy.  ",
 			"**Benefit:** When you make an attack with a longbow or short bow (including composite bows), you can ignore concealment, but not total concealment. You still suffer a miss chance for total concealment, but if you miss due to total concealment, you may reroll your miss chance as per Elven Accuracy."
 		]
 	},
@@ -1549,7 +1549,7 @@
 			"{SOURCE Advanced Race Guide/28}",
 			"",
 			"You have been specially trained to wield a variety of traditional elven weapons.  ",
-			"**Prerequisites:** Base attack bonus +1, elf.  ",
+			"**Prerequisites:** Base attack bonus +1, {race/elf}.  ",
 			"**Benefit:** You have received special training with traditional elven weapons (longbows, composite longbows, longswords, rapiers, shortbows, composite shortbows, and any weapon with the word \"elven\" in its name). You receive a +2 bonus to your CMD against disarm and sunder maneuvers directed at one of these weapons you are wielding. In addition, if you are wielding one of these melee weapons, you may make an additional attack of opportunity each round (this bonus stacks with Combat Reflexes).",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -1567,7 +1567,7 @@
 			"{SOURCE Advanced Race Guide/46}",
 			"",
 			"Although you are of mixed heritage, you are closer to your elven relatives and the magic in their blood flows freely in your veins.  ",
-			"**Prerequisites:** Half-elf.  ",
+			"**Prerequisites:** {race/Half-elf}.  ",
 			"**Benefit:** You possess the elven magic racial trait of the elves, granting you a +2 racial bonus on caster level checks made to overcome spell resistance. In addition, you receive a +2 racial bonus on Spellcraft checks made to identify the properties of magic items. Alternatively, you can instead gain any one racial trait that elves can exchange for the elven magic racial trait.  ",
 			"**Special:** You can only take this feat at 1st level. If you take this feat, you cannot take the Human Spirit feat."
 		]
@@ -1836,7 +1836,7 @@
 			"{SOURCE Mythic Adventures/65}",
 			"",
 			"Your endurance is truly beyond the pale.  ",
-			"**Prerequisites:** {feat/Endurance}.  ",
+			"**Prerequisites:** Endurance.  ",
 			"**Benefit:** The bonus on checks and saves from Endurance increases by half your tier. You take half the damage when you fail a check to avoid nonlethal damage from a forced march, starvation and thirst, hot or cold environments, or slow suffocation.",
 			"",
 			"You can sleep in heavy armor without becoming fatigued."
@@ -1908,7 +1908,7 @@
 			"{SOURCE Advanced Class Guide/146}",
 			"",
 			"You distill your channeled energy into your weapon to empower it.  ",
-			"**Prerequisites:** Channel energy class feature; Air, Earth, Fire, or Water domain or blessing.  ",
+			"**Prerequisites:** {ability/Channel energy} class feature; Air, Earth, Fire, or Water domain or blessing.  ",
 			"**Benefit:** A swift action, you can expend one use of channel energy to grant your weapon attacks a bonus on damage rolls equal to twice the number of dice rolled for your channel energy. This additional damage is of an energy type determined by your domain or blessing: acid (Earth), cold (Water), electricity (Air), or fire (Fire). If you have more than one of those domains or blessings, you must choose one of those damage types when you use this ability. This effect lasts for your next three weapon attacks or until the end of combat, whichever comes first."
 		]
 	},
@@ -2005,7 +2005,7 @@
 			"{SOURCE Blood of the Coven/13}",
 			"",
 			"By deepening your connection with your coven members, you have made your coven capable of casting more spells each day.  ",
-			"**Prerequisites:** Changeling, coven hex or {feat/Coven-Touched}.  ",
+			"**Prerequisites:** {race/Changeling}, coven hex or {feat/Coven-Touched}.  ",
 			"**Benefit:** Your changeling coven can cast three more spells each day from its list of spell-like abilities. If multiple members of your coven take this feat, the benefits stack."
 		]
 	},
@@ -2018,7 +2018,7 @@
 			"{SOURCE Ultimate Wilderness/110}",
 			"",
 			"Your ties to the First World manifest in the form of magical abilities that tap into a natural element.  ",
-			"**Prerequisites:** Cha 13, Knowledge (nature) 3 ranks, gnome, gnome magic racial trait.  ",
+			"**Prerequisites:** Cha 13, Knowledge (nature) 3 ranks, {race/gnome}, gnome magic racial trait.  ",
 			"**Benefit:** Add one of the following to your gnome magic spell-like abilities: burning hands, corrosive touch, gentle breeze, icicle dagger, or shocking grasp. You can use this spell-like ability once per day."
 		]
 	},
@@ -2414,7 +2414,7 @@
 			"{SOURCE Paths of the Righteous/19}",
 			"",
 			"Old Deadeye's favor grants you prowess with a bow that far exceeds your own physical capabilities.  ",
-			"**Prerequisites:** {feat/Weapon Focus/ (longbow)}, must be a worshiper of Erastil.  ",
+			"**Prerequisites:** {feat/Weapon Focus/ (longbow)}, must be a worshiper of {faith/Erastil}.  ",
 			"**Benefit:** You can use your Wisdom modifier instead of your Dexterity modifier on ranged attack rolls when using a bow."
 		]
 	},
@@ -2462,7 +2462,7 @@
 			"{SOURCE Mythic Adventures/65}",
 			"",
 			"You can cast even the most powerful spells without using material components.  ",
-			"**Prerequisites:** {feat/Eschew Materials}.  ",
+			"**Prerequisites:** Eschew Materials.  ",
 			"**Benefit:** You can cast any spell with a material component costing 10 gp per tier or less without providing that component. If you expend one use of mythic power while casting a spell that requires a material component costing 50 gp per tier or less, you can cast it without providing that component. Expending two uses of mythic power instead allows you to cast a spell that requires a material component costing 100 gp per tier or less without providing that component."
 		]
 	},
@@ -2659,7 +2659,7 @@
 			"{SOURCE Advanced Class Guide/146}",
 			"",
 			"The creatures you summon have evolved to have even greater abilities.  ",
-			"**Prerequisites:** {feat/Augment Summoning}, {feat/Spell Focus/ (conjuration)}, ability to cast summon monster I.  ",
+			"**Prerequisites:** {feat/Augment Summoning}, {feat/Spell Focus/ (conjuration)}, ability to cast {spell/summon monster I}.  ",
 			"**Benefit:** Each time you cast a summon monster spell, you can select a 1-point evolution other than pounce or reach from those available to a summoner's eidolon. Your summoned creature gains this evolution. The summoned creature must conform to any limitations of the evolution. (For instance, only a creature with a reach of 10 feet or more can have the pull evolution.) Evolutions that grant additional attacks or enhance existing attacks can be applied only to Medium or larger summoned creatures.",
 			"",
 			"If you summon more than one creature with a single spell, only one creature gains this evolution.  ",
@@ -2736,7 +2736,7 @@
 			"{SOURCE Advanced Race Guide/47}",
 			"",
 			"A lifetime spent shunned by others and eschewing your heritage makes you resistant to efforts to pry inside of your mind.  ",
-			"**Prerequisites:** Half-elf.  ",
+			"**Prerequisites:** {race/Half-elf}.  ",
 			"**Benefit:** Once per day, when you fail a Will save against an enchantment spell or effect, you may reroll that saving throw, but must take the reroll result even if it's worse."
 		]
 	},
@@ -2831,7 +2831,7 @@
 			"{SOURCE Advanced Race Guide/174}",
 			"",
 			"You gain extra fiendish resistances.  ",
-			"**Prerequisites:** Tiefling.  ",
+			"**Prerequisites:** {race/Tiefling}.  ",
 			"**Benefit:** Pick one of the following energy types that you do not already have resistance to: acid, cold, electricity, or fire. You gain resistance 5 to that energy type.  ",
 			"**Special:** You can take this feat multiple times. Each time you do, pick another energy type you do not have resistance to. You gain resistance 5 to that energy type."
 		]
@@ -2899,7 +2899,7 @@
 			"{SOURCE Advanced Race Guide/37}",
 			"",
 			"You have expanded your natural resistance to magic to encompass different kinds of magic.  ",
-			"**Prerequisites:** Gnome, illusion resistance racial trait.  ",
+			"**Prerequisites:** {race/Gnome}, illusion resistance racial trait.  ",
 			"**Benefit:** Select one school of magic other than illusion. You gain a +2 racial bonus on saving throws against spells or effects from the selected school.  ",
 			"**Special:** You may select this feat more than once. Its effects do not stack. Each time you select it, it applies to a different school of magic."
 		]
@@ -2929,7 +2929,7 @@
 			"**Prerequisites:** Wis 17, hunter or warpriest level 16th.  ",
 			"**Benefit:** You add 7th-level spells to your spell list for purposes of using spell completion and spell trigger magic items. If you're a hunter, you add 7th-level druid spells to your list. If you're a warpriest, you add 7th-level cleric spells to your list. This doesn't give you the ability to cast spells of this level, only to act as though your spell list included them when using appropriate magic items.",
 			"",
-			"For example, a 16th-level hunter has access to druid spells of only 1st to 6th levels. Thus, the hunter can't use spell completion or spell trigger magic items of druid spells of 7th level or higher without succeeding at a Use Magic Device check. If the hunter takes Eldritch Studies, she doesn't gain the ability to cast 7th-level druid spells, but she could use a scroll of heal or a wand of summon nature's ally VII without needing to attempt a Use Magic Device check."
+			"For example, a 16th-level hunter has access to druid spells of only 1st to 6th levels. Thus, the hunter can't use spell completion or spell trigger magic items of druid spells of 7th level or higher without succeeding at a Use Magic Device check. If the hunter takes Eldritch Studies, she doesn't gain the ability to cast 7th-level druid spells, but she could use a scroll of {spell/heal} or a wand of {spell/summon nature's ally VII} without needing to attempt a Use Magic Device check."
 		]
 	},
 	"expanded_summon_monster": {
@@ -3292,7 +3292,7 @@
 			"**Goal:** Cross through a dangerous place without a map or a guide knowledgeable about the area, stopping for no longer than 16 hours at a time, and along the way overcome an appropriate number of natural hazards, obstacles, and/or enemies, at least one of which must qualify as a challenging foe.  ",
 			"**Completion Benefit:** You and one ally per 3 ranks of Survival can move overland without being slowed by difficult terrain (allies must remain within 30 feet of you to be affected). Once per day, you can make a preternaturally accurate estimate regarding your path, as if you had cast find the path on yourself (caster level equals your character level).",
 			"",
-			"Suggested Traits: {trait/Grim Optimism}, {trait/Resilient}, {trait/Wanderlust}.",
+			"*Suggested Traits:* {trait/Grim Optimism}, {trait/Resilient}, {trait/Wanderlust}.",
 			"",
 			"### Possible Explorer Quests",
 			"",
@@ -3626,7 +3626,7 @@
 			"{SOURCE Advanced Class Guide/146;PRPG Core Rulebook/123}",
 			"",
 			"You can channel divine energy more often.  ",
-			"**Prerequisites:** Channel energy class feature.  ",
+			"**Prerequisites:** {ability/Channel energy} class feature.  ",
 			"**Benefit:** You can channel energy two additional times per day.  ",
 			"**Special:** If a paladin with the ability to channel positive energy takes this feat, she can use lay on hands four additional times per day, but only to channel positive energy. If a warpriest with the ability to channel energy takes this feat, he gains four additional uses of fervor per day, but can use them only to channel energy."
 		]
@@ -3764,7 +3764,7 @@
 			"{SOURCE Gnomes of Golarion/26}",
 			"",
 			"The raw magic that flows through your gnome blood is stronger than normal.  ",
-			"**Prerequisites:** Cha 13, Gnome.  ",
+			"**Prerequisites:** Cha 13, {race/Gnome}.  ",
 			"**Benefit:** You gain an additional three uses per day of your gnome spell-like abilities (dancing lights, ghost sound, prestidigitation). You can use these in any combination; for example, you can use dancing lights four times in one day (taking all three additional uses for the same spell), or you can cast ghost sound twice, prestidigitation twice, speak with animals twice, and dancing lights once. If you have a feat, trait, or other ability that changes your racial 0-level spell-like abilities to other 0-level spells, this feat applies to them instead."
 		]
 	},
@@ -3920,7 +3920,7 @@
 			"{SOURCE Blood of Shadows/11}",
 			"",
 			"You can twist the effects of positive and negative energy for longer periods of time.  ",
-			"**Prerequisites:** Light and dark racial trait, wayang.  ",
+			"**Prerequisites:** Light and dark racial trait, {race/wayang}.  ",
 			"**Benefit:** Your light and dark ability lasts 1 additional minute per day.  ",
 			"**Special:** You can take this feat multiple times. Its effects stack."
 		]
@@ -4255,7 +4255,7 @@
 			"{SOURCE Magic Tactics Toolbox/9}",
 			"",
 			"You can augment your channeled energy in new ways.  ",
-			"**Prerequisites:** {feat/Channeling Variance} or variant channeling ability, channel energy class feature.  ",
+			"**Prerequisites:** {feat/Channeling Variance} or variant channeling ability, {ability/channel energy} class feature.  ",
 			"**Benefit:** You gain one additional variant channeling ability that matches one of your deity's domains, subdomains, or areas of concern. Three times per day, you can apply the modifications of this variant channel energy, reducing the damage dealt or healing performed by your channeled energy as normal. You cannot apply more than one variant channeling ability to your channeled energy at once.  ",
 			"**Special:** You can select this feat multiple times. Each time you do, you gain another variant channeling ability. If you have chosen Channeling Variance twice, you can use any variant channeling ability chosen with this feat whenever you channel energy."
 		]
@@ -4724,7 +4724,7 @@
 			"{SOURCE Mythic Adventures/65}",
 			"",
 			"You make long-ranged attacks with remarkable accuracy.  ",
-			"**Prerequisites:** {feat/Far Shot}.  ",
+			"**Prerequisites:** Far Shot.  ",
 			"**Benefit:** As a swift action, you can expend one use of mythic power to ignore all range increment penalties for your ranged attacks until the end of your turn."
 		]
 	},
@@ -4829,7 +4829,7 @@
 			"{SOURCE Mythic Adventures/65}",
 			"",
 			"You can soothe the emotions of wild beasts with nearly supernatural quickness.  ",
-			"**Prerequisites:** {feat/Fast Empathy}.  ",
+			"**Prerequisites:** Fast Empathy.  ",
 			"**Benefit:** You can use wild empathy as a swift action."
 		]
 	},
@@ -4855,7 +4855,7 @@
 			"{SOURCE Advanced Race Guide/77}",
 			"",
 			"You progress gain extra versatility.  ",
-			"**Prerequisites:** Int 13, human.  ",
+			"**Prerequisites:** Int 13, {race/human}.  ",
 			"**Benefit:** When you gain a level in a favored class, you gain both +1 hit point and +1 skill rank instead of choosing either one or the other benefit or you can choose an alternate class reward."
 		]
 	},
@@ -4868,7 +4868,7 @@
 			"{SOURCE Inner Sea Gods/212}",
 			"",
 			"Your faith not only heals the body, it tugs the strands of fate.  ",
-			"**Prerequisites:** Channel positive energy 3d6, worshiper of Pharasma.  ",
+			"**Prerequisites:** {ability/Channel positive energy} 3d6, worshiper of {faith/Pharasma}.  ",
 			"**Benefit:** When you channel positive energy to heal living creatures, you grant each creature you heal the ability to roll twice and take the better result on a single attack roll, skill check, or saving throw of their choice within a number of rounds equal to your Charisma bonus (minimum 1). Multiple uses of this ability do not stack, but they do reset the effect's duration. A creature can only benefit from one instance of this channel effect at a time."
 		]
 	},

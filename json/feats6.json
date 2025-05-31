@@ -25,7 +25,7 @@
 			"{SOURCE Inner Sea Races/207}",
 			"",
 			"Your nearly supernatural mental connection with your allies keeps you in a constant state of readiness.  ",
-			"**Prerequisites:** {feat/Alertness}, Sense Motive 3 ranks, human (Vudrani).  ",
+			"**Prerequisites:** {feat/Alertness}, Sense Motive 3 ranks, {race/human} (Vudrani).  ",
 			"**Benefit:** Whenever you're adjacent to an ally who also has this feat, if your ally is not flat-footed, you're also not considered flat-footed before you act in combat (you might become flat-footed in other ways, however). Additionally, if your ally can see a creature that you can't see, that creature doesn't gain a +2 bonus on attack rolls against you from being invisible, nor do you take a -2 penalty to AC for being blinded if your ally can see."
 		]
 	},
@@ -192,7 +192,7 @@
 			"{SOURCE Advanced Race Guide/18}",
 			"",
 			"You are ferocious at hewing your enemies, especially orcs.  ",
-			"**Prerequisites:** Str 13, {feat/Cleave}, {feat/Goblin Cleaver}, {feat/Power Attack}, dwarf.  ",
+			"**Prerequisites:** Str 13, {feat/Cleave}, {feat/Goblin Cleaver}, {feat/Power Attack}, {race/dwarf}.  ",
 			"**Benefit:** This feat functions as Goblin Cleaver, but your additional attacks can be made against creatures your size or smaller. In addition, any such attacks that you make against humanoids (orc) gain a +2 circumstance bonus on attack rolls.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -239,7 +239,7 @@
 			"{SOURCE Advanced Race Guide/142}",
 			"",
 			"You can do more with the weapons orcs favor the most.  ",
-			"**Prerequisites:** Base attack bonus +1, orc.  ",
+			"**Prerequisites:** Base attack bonus +1, {race/orc}.  ",
 			"**Benefit:** When you take this feat, choose one of the benefits below. Whenever you wield a weapon that has \"orc\" in its name, you gain the benefit you chose so long as you are actually proficient with that weapon.",
 			"",
 			"*Bully:* Gain a +1 bonus on damage rolls against creatures at least one size smaller than you.",
@@ -289,7 +289,7 @@
 			"{SOURCE Advanced Race Guide/147}",
 			"",
 			"The ground parts for you at the slightest touch, allowing you to dig with great speed.  ",
-			"**Prerequisites:** {feat/Stony Step}, character level 9th, oread.  ",
+			"**Prerequisites:** {feat/Stony Step}, character level 9th, {race/oread}.  ",
 			"**Benefit:** You gain a burrow speed equal to 1/2 your base speed. You can burrow through sand, dirt, clay, gravel, or similar materials, but not solid stone. You do not leave a hole behind, nor is your passage marked on the surface."
 		]
 	},
@@ -302,7 +302,7 @@
 			"{SOURCE Advanced Race Guide/147}",
 			"",
 			"The earth welcomes you, showing you the secret paths through sand and soil.  ",
-			"**Prerequisites:** {feat/Oread Burrower}, {feat/Stony Step}, character level 13th, oread.  ",
+			"**Prerequisites:** {feat/Oread Burrower}, {feat/Stony Step}, character level 13th, {race/oread}.  ",
 			"**Benefit:** You gain the {umr/earth glide/ universal monster ability} and can use it to travel at your full base speed through sand, dirt, clay, gravel, or similar materials. If protected against fire damage, you can even burrow through lava. You can burrow through solid stone at 1/2 your base speed."
 		]
 	},
@@ -740,7 +740,7 @@
 			"{SOURCE Inner Sea Races/208}",
 			"",
 			"You draw on the strength of numbers and your shared convictions to intimidate your foes.  ",
-			"**Prerequisites:** Half-orc, intimidating racial trait.  ",
+			"**Prerequisites:** {race/Half-orc}, intimidating racial trait.  ",
 			"**Benefit:** Whenever you use the Intimidate skill to demoralize foes, you gain a +2 circumstance bonus on your check for every ally who also has this feat within 30 feet (maximum +6)."
 		]
 	},
@@ -753,7 +753,7 @@
 			"{SOURCE Monster Codex/176}",
 			"",
 			"You collect all sorts of things, and frequently lose and refind things you acquired.  ",
-			"**Prerequisites:** Ratfolk.  ",
+			"**Prerequisites:** {race/Ratfolk}.  ",
 			"**Benefit:** Once per day, when confronted with a situation that calls for a particular mundane item, you happen to have such an item on your person. The item must cost no more than 25 gp plus 5 gp per level, and you must pay its cost when you \"find\" it (in other words, the money you thought you had on your person was actually the item). The item must be something you can easily carry - for example, if you are on foot and have only a backpack, you could not have a large iron cauldron. You can't find magical items using this feat, nor can you have specific items, such as the key to a particular door. If you are stripped of your equipment or possessions, you lose the benefits of this feat until you have at least a day to resupply and acquire new items."
 		]
 	},
@@ -1138,7 +1138,7 @@
 			"{SOURCE Advanced Player's Guide/166}",
 			"",
 			"You're easily mistaken for a human rather than a member of your own race.  ",
-			"**Prerequisites:** Half-elf, half-orc, or halfling (see Special).  ",
+			"**Prerequisites:** {race/Half-elf}, {race/half-orc}, or {race/halfling} (see Special).  ",
 			"**Benefit:** You receive a +10 bonus on Disguise checks to disguise yourself as a human, and do not receive the penalty for disguising yourself as a member of another race when you do so. In areas largely populated or settled by humans, you can take 10 on your Disguise check, meaning most people tend to assume you are human unless given a reason to think otherwise.  ",
 			"**Special:** A halfling may take this feat, but must have the Childlike feat as a prerequisite. The benefits of the two feats stack."
 		]
@@ -1324,7 +1324,7 @@
 			"{SOURCE Mythic Adventures/70}",
 			"",
 			"You know just how to strike to bypass even the most heavily armored foe's defenses.  ",
-			"**Prerequisites:** {feat/Penetrating Strike}.  ",
+			"**Prerequisites:** Penetrating Strike.  ",
 			"**Benefit:** When using Penetrating Strike or Greater Penetrating Strike, you can ignore an additional point of damage reduction for every 3 tiers you posses. Additionally, the effects apply to damage reduction without a type (such as DR 10/-)."
 		]
 	},
@@ -1350,7 +1350,7 @@
 			"{SOURCE Inner Sea Gods/215}",
 			"",
 			"You unlock greater secrets of divine spellcasting from the First Vault.  ",
-			"**Prerequisites:** {feat/Combat Casting}, {feat/Divine Dignity}, ability to cast divine spells, worshiper of Abadar.  ",
+			"**Prerequisites:** {feat/Combat Casting}, {feat/Divine Dignity}, ability to cast divine spells, worshiper of {faith/Abadar}.  ",
 			"**Benefit:** When you use Divine Dignity, it can affect the casting of any of your divine spells, not just harmless and domain spells."
 		]
 	},
@@ -1517,7 +1517,7 @@
 			"{SOURCE Mythic Adventures/70}",
 			"",
 			"You're a master of persuasion, be it with soothing words or harsh barking commands.  ",
-			"**Prerequisites:** {feat/Persuasive}.  ",
+			"**Prerequisites:** Persuasive.  ",
 			"**Benefit:** The bonus on Diplomacy and Intimidate skill checks granted by Persuasive increases by 2. In addition, you can expend one use of mythic power to treat a Diplomacy or Intimidate check as if you had rolled a natural 20. You must decide to use this ability before making the roll."
 		]
 	},
@@ -1543,7 +1543,7 @@
 			"{SOURCE Inner Sea Gods/215}",
 			"",
 			"For you, performance is the heart of negotiation.  ",
-			"**Prerequisites:** Versatile performance class feature, worshiper of Shelyn.  ",
+			"**Prerequisites:** Versatile performance class feature, worshiper of {faith/Shelyn}.  ",
 			"**Benefit:** You can use any of your Perform skills in place of Diplomacy, not just Perform (keyboard instruments, oratory, string, or wind). If you do use Perform (keyboard instruments, oratory, string, or wind), you gain a +2 bonus on your check."
 		]
 	},
@@ -1798,7 +1798,7 @@
 			"{SOURCE Heroes from the Fringe/21}",
 			"",
 			"Often having one parent with a human lifespan and one with an elven lifespan, many half-elves have a skewed perception of time, and none more so than the Spireborn, who also study the subject of time academically.  ",
-			"**Prerequisites:** Character level 5th, Spireborn half-elf.  ",
+			"**Prerequisites:** Character level 5th, Spireborn {race/half-elf}.  ",
 			"**Benefit:** Once per day, as a standard action, you can gain the benefits of {spell/haste} until the end of your next turn."
 		]
 	},
@@ -1907,7 +1907,7 @@
 			"{SOURCE Mythic Adventures/70}",
 			"",
 			"Your attacks can home in on your opponent's weak spot and ignore many defenses.  ",
-			"**Prerequisites:** {feat/Pinpoint Targeting}.  ",
+			"**Prerequisites:** Pinpoint Targeting.  ",
 			"**Benefit:** You can use this feat even if you move this round, but only if the distance you move is equal to or less than 5 feet per tier."
 		]
 	},
@@ -1992,7 +1992,7 @@
 			"{SOURCE Planar Adventures/31}",
 			"",
 			"You can trace your ancestry to a type of native outsider, even though you yourself are otherwise fully human.  ",
-			"**Prerequisites:** Human.  ",
+			"**Prerequisites:** {race/Human}.  ",
 			"**Benefit:** Choose one type of native outsider (such as ganzi). You count as both human and that race for any effects related to race. For example, if you choose ganzi, you are considered both a human and a ganzi for the purposes of taking traits, meeting feat prerequisites, determining how spells and magic items affect you, and so on. You must have the requisite physical features to gain certain benefits, as determined by the GM (for example, you cannot gain feats that augment your tail's abilities if you do not actually have a tail).  ",
 			"**Special:** You cannot select Planar Heritage if you already have an ability or feat (like Racial Heritage) that adjusts your heritage in this way."
 		]
@@ -2370,7 +2370,7 @@
 			"**Goal:** Spend at least 24 consecutive hours on three different planes of existence other than your home plane or more than a month on a single plane other than your home plane. Demiplanes do not count for the purposes of fulfilling this goal.  ",
 			"**Completion Benefit:** Whenever you cast a spell or use a magic item to travel to another plane, you always arrive exactly where you had intended. In addition, when identifying portals with the first benefit of this feat, you gain a glimpse of what you would see, hear, and smell upon arriving on the other end of the portal.",
 			"",
-			"Suggested Traits: {trait/Fey Protection}, {trait/Scholar of the Great Beyond}, {trait/Wanderlust}.",
+			"*Suggested Traits:* {trait/Fey Protection}, {trait/Scholar of the Great Beyond}, {trait/Wanderlust}.",
 			"",
 			"### Possible Planar Traveler Quests",
 			"",
@@ -2499,7 +2499,7 @@
 			"{SOURCE Mythic Adventures/71}",
 			"",
 			"Your accuracy with ranged attacks is unmatched at pointblank range.  ",
-			"**Prerequisites:** {feat/Point-Blank Shot}.  ",
+			"**Prerequisites:** Point-Blank Shot.  ",
 			"**Benefit:** The bonus on attack and damage rolls granted by Point-Blank Shot increases to +2. As a swift action, you can expend one use of mythic power to gain an additional bonus on these rolls equal to half your tier."
 		]
 	},
@@ -2569,7 +2569,7 @@
 			"{SOURCE Inner Sea Gods/215}",
 			"",
 			"You cause anyone damaged by your negative energy to become susceptible to poison.  ",
-			"**Prerequisites:** Channel energy 3d6, worshiper of Norgorber.  ",
+			"**Prerequisites:** {ability/Channel energy} 3d6, worshiper of {faith/Norgorber}.  ",
 			"**Benefit:** Once per day when you channel negative energy to damage living creatures, you can cause any creatures that failed their save against your channel to take a -4 penalty on saving throws against poison effects. This penalty lasts for 1 minute."
 		]
 	},
@@ -2786,7 +2786,7 @@
 			"{SOURCE Inner Sea Gods/215}",
 			"",
 			"You gulp down potions with unsettling speed.  ",
-			"**Prerequisites:** Worshiper of Urgathoa.  ",
+			"**Prerequisites:** Worshiper of {faith/Urgathoa}.  ",
 			"**Benefit:** You can drink potions, elixirs, or other potables (but not extracts) as a move action without provoking an attack of opportunity.  ",
 			"**Normal:** Drinking potions is a standard action that provokes an attack of opportunity."
 		]
@@ -2817,7 +2817,7 @@
 			"{SOURCE Mythic Adventures/71}",
 			"",
 			"Your attacks are truly devastating.  ",
-			"**Prerequisites:** {feat/Power Attack}.  ",
+			"**Prerequisites:** Power Attack.  ",
 			"**Benefit:** When you use Power Attack, you gain a +3 bonus on melee damage rolls instead of +2. When your base attack bonus reaches +4 and every 4 points thereafter, the amount of bonus damage increases by +3 instead of +2. In addition, the bonus damage from this feat is doubled on a critical hit, before it's multiplied by the weapon's critical multiplier.",
 			"",
 			"You can expend one use of mythic power when you activate Power Attack to ignore the penalties on melee attack rolls and combat maneuver checks for 1 minute."
@@ -2856,7 +2856,7 @@
 			"{SOURCE Mythic Adventures/71}",
 			"",
 			"The forms you take in wild shape tower over their natural counterparts.  ",
-			"**Prerequisites:** {feat/Powerful Shape}.  ",
+			"**Prerequisites:** Powerful Shape.  ",
 			"**Benefit:** You can apply the {template/giant/ simple template} (quick rules version) to any form you take with wild shape. This replaces the benefit from Powerful Shape.",
 			"",
 			"As a free action, you can expend one use of mythic power to combine the benefit from this feat with the benefit from non-mythic Powerful Shape for a number of rounds equal to your tier."
@@ -2966,7 +2966,7 @@
 			"{SOURCE Heroes from the Fringe/26}",
 			"",
 			"Rough mountain roads are as smooth as cobblestone to you. Enemies challenge you in your home territory at their peril.  ",
-			"**Prerequisites:** Dex 15, base attack bonus +6, cragkin half-orc.  ",
+			"**Prerequisites:** Dex 15, base attack bonus +6, cragkin {race/half-orc}.  ",
 			"**Benefit:** When you and the target of your attack are both in difficult terrain, treat the target as if he were flat-footed. In addition, if you attack a flat-footed enemy from a higher elevation (including while falling), you gain a +2 circumstance bonus on your attack roll."
 		]
 	},
@@ -3224,7 +3224,7 @@
 			"**Goal:** Convert an appropriate number of creatures to the worship of your deity.  ",
 			"**Completion Benefit:** Your bonus to AC for casting beneficial or harmful spells on allies increases to +2, and the bonus also applies on saving throws for the same duration.",
 			"",
-			"Suggested Traits: {trait/Called}, {trait/Ease of Faith}, {trait/Mystery Initiate}.",
+			"*Suggested Traits:* {trait/Called}, {trait/Ease of Faith}, {trait/Mystery Initiate}.",
 			"",
 			"### Possible Prophet Quests",
 			"",
@@ -3260,7 +3260,7 @@
 			"{SOURCE Mythic Adventures/71}",
 			"",
 			"Your precognitive powers aid you further.  ",
-			"**Prerequisites:** {feat/Prophetic Visionary}.  ",
+			"**Prerequisites:** Prophetic Visionary.  ",
 			"**Benefit:** You can use Prophetic Visionary's augury ability at will, spending 10 minutes in a deep trance each time. Your chance of a successful augury increases by 1% per tier. A successful augury made by using this feat also grants you the benefits of guidance, but the bonus is equal to your tier and is an insight bonus instead of a competence bonus."
 		]
 	},
@@ -3288,7 +3288,7 @@
 			"{SOURCE Inner Sea Gods/215}",
 			"",
 			"When you channel energy, Iomedae grants protection against dark forces.  ",
-			"**Prerequisites:** Channel energy 7d6, worshiper of Iomedae.  ",
+			"**Prerequisites:** {ability/Channel energy} 7d6, worshiper of {faith/Iomedae}.  ",
 			"**Benefit:** When you channel positive energy to heal living creatures, you can choose to affect healed creatures with a protection from evil spell (caster level equal to your effective cleric level)."
 		]
 	},
@@ -3683,7 +3683,7 @@
 			"{SOURCE Adventurer's Guide/15}",
 			"",
 			"Your healing energy also damages your enemies.  ",
-			"**Prerequisites:** Cha 15, {feat/Selective Channeling}, channel energy class feature.  ",
+			"**Prerequisites:** Cha 15, {feat/Selective Channeling}, {ability/channel energy} class feature.  ",
 			"**Benefit:** When you channel positive energy to heal, one creature that you exclude from your channeling takes an amount of fire damage equal to the die result you roll for healing, and is dazzled for 1 round by the light of these flames. A successful saving throw against your channel energy halves the fire damage and negates the dazzled effect."
 		]
 	},
@@ -3696,7 +3696,7 @@
 			"{SOURCE Inner Sea Races/208}",
 			"",
 			"You know that daring deeds and heroics live forever in song, and sagas will carry your deeds into immortality.  ",
-			"**Prerequisites:** Human (Ulfen).  ",
+			"**Prerequisites:** {race/Human} (Ulfen).  ",
 			"**Benefit:** Whenever you start or end a charge attack in a space adjacent to an ally who also has this feat, you gain a +2 morale bonus on one attack roll you make as part of the charge. Furthermore, you can charge through a space containing an ally who also has this feat."
 		]
 	},
@@ -3743,8 +3743,8 @@
 			"{SOURCE Horror Adventures/91}",
 			"",
 			"You summon creatures whose very presence turns the stomach of your foes.  ",
-			"**Prerequisites:** {feat/Spell Focus/ (conjuration)}; ability to cast summon monster or summon nature's ally.  ",
-			"**Benefit:** When you cast a summon monster or summon nature's ally spell, you can choose to summon a single creature that exudes a putrid odor or befouls the water surrounding it, granting it the {umr/stench} universal monster ability. The duration of the sickened condition created by this stench is a number of rounds equal to the spell's level. When performing a putrid summon, you summon a creature from the next lower list than the spell you are casting. For instance, if you cast summon monster IV, you summon a creature from the summon monster III list."
+			"**Prerequisites:** {feat/Spell Focus/ (conjuration)}; ability to cast *summon monster* or *summon nature's ally*.  ",
+			"**Benefit:** When you cast a *summon monster* or *summon nature's ally* spell, you can choose to summon a single creature that exudes a putrid odor or befouls the water surrounding it, granting it the {umr/stench} universal monster ability. The duration of the sickened condition created by this stench is a number of rounds equal to the spell's level. When performing a putrid summon, you summon a creature from the next lower list than the spell you are casting. For instance, if you cast {spell/summon monster IV}, you summon a creature from the {spell/summon monster III} list."
 		]
 	},
 	"quah_bond": {
@@ -3756,7 +3756,7 @@
 			"{SOURCE Inner Sea Races/208}",
 			"",
 			"Your bond with your totem spirit increases around others of the same quah.  ",
-			"**Prerequisites:** {feat/Totem Spirit}, human (Shoanti).  ",
+			"**Prerequisites:** {feat/Totem Spirit}, {race/human} (Shoanti).  ",
 			"**Benefit:** If at least one Shoanti ally from the same quah who also has this feat is within 30 feet, double your benefits from the Totem Spirit feat."
 		]
 	},
@@ -3812,7 +3812,7 @@
 			"{SOURCE Ultimate Magic/154}",
 			"",
 			"Your divine energies flash with dazzling speed.  ",
-			"**Prerequisites:** Knowledge (religion) 5 ranks, channel energy class feature.  ",
+			"**Prerequisites:** Knowledge (religion) 5 ranks, {ability/channel energy} class feature.  ",
 			"**Benefit:** You may channel energy as a move action by spending 2 daily uses of that ability."
 		]
 	},
@@ -3887,7 +3887,7 @@
 			"{SOURCE Mythic Adventures/71}",
 			"",
 			"You can retrieve any item quickly, not just weapons.  ",
-			"**Prerequisites:** {feat/Quick Draw}.  ",
+			"**Prerequisites:** Quick Draw.  ",
 			"**Benefit:** You can use Quick Draw to draw items of any kind, not just weapons, provided they are stored or concealed on your person. As a move action, you can expend one use of mythic power to retrieve up to two hidden items. You must have two hands free to do so."
 		]
 	},
@@ -4162,7 +4162,7 @@
 			"{SOURCE Advanced Player's Guide/168}",
 			"",
 			"The blood of a non-human ancestor flows in your veins.  ",
-			"**Prerequisites:** Human.  ",
+			"**Prerequisites:** {race/Human}.  ",
 			"**Benefit:** Choose another humanoid race. You count as both human and that race for any effects related to race. For example, if you choose dwarf, you are considered both a human and a dwarf for the purpose of taking traits, feats, how spells and magic items affect you, and so on.",
 			"",
 			"### Mythic Racial Heritage",
@@ -4170,7 +4170,7 @@
 			"{SOURCE Mythic Adventures/71}",
 			"",
 			"Your racial heritage mingles with your mythic power to become more pronounced.  ",
-			"**Prerequisites:** {feat/Racial Heritage}.  ",
+			"**Prerequisites:** Racial Heritage.  ",
 			"**Benefit:** You gain a single racial trait of your choice from the race you picked when you took non-mythic Racial Heritage. That racial trait can't modify your size or ability scores. You also gain the racial language of the race (if any) if you don't already know it. For races with multiple racial languages, you gain all of them."
 		]
 	},
@@ -4539,7 +4539,7 @@
 			"{SOURCE Mythic Adventures/72}",
 			"",
 			"You can reload any type of weapon with astounding speed.  ",
-			"**Prerequisites:** {feat/Rapid Reload}.  ",
+			"**Prerequisites:** Rapid Reload.  ",
 			"**Benefit:** You gain the benefits of Rapid Reload with all crossbows and firearms, not just the one you originally chose when you gained that feat. As a swift action, you can expend one use of mythic power to gain the ability to reload crossbows and firearms without provoking attacks of opportunity for 1 minute."
 		]
 	},
@@ -4585,7 +4585,7 @@
 			"{SOURCE Mythic Adventures/72}",
 			"",
 			"You can fire many times each round with amazing precision.  ",
-			"**Prerequisites:** {feat/Rapid Shot}.  ",
+			"**Prerequisites:** Rapid Shot.  ",
 			"**Benefit:** When using Rapid Shot, you can either ignore the feat's -2 penalty on attack rolls or make two additional attacks instead of one."
 		]
 	},
@@ -4645,7 +4645,7 @@
 			"{SOURCE Advanced Player's Guide/168}",
 			"",
 			"Your powerful jaws and steely teeth are deadly enough to give you a bite attack.  ",
-			"**Prerequisites:** Half-orc.  ",
+			"**Prerequisites:** {race/Half-orc}.  ",
 			"**Benefit:** You can make a bite attack for 1d4 points of damage, plus your Strength modifier. You're considered proficient in this attack and can apply feats or effects appropriate to natural attacks to it. If used as part of a full attack action, the bite is considered a secondary attack and is made at your full base attack bonus -5, and adds half your Strength modifier to damage."
 		]
 	},
@@ -4738,7 +4738,7 @@
 			"{SOURCE Advanced Class Guide/155}",
 			"",
 			"You can channel healing energy in response to an attack that would knock you unconscious.  ",
-			"**Prerequisites:** {feat/Quick Channel} or {feat/Quicken Spell}; channel energy or lay on hands class feature.  ",
+			"**Prerequisites:** {feat/Quick Channel} or {feat/Quicken Spell}; {ability/channel energy} or {ability/lay on hands} class feature.  ",
 			"**Benefit:** When the damage from an attack or an effect would reduce you to 0 or fewer hit points, you can expend one use of channel energy (of a form that would heal you) or lay on hands as an immediate action to heal yourself. The healing affects only you, even if it would normally affect others."
 		]
 	},
@@ -4831,7 +4831,7 @@
 			"{SOURCE Advanced Race Guide/193}",
 			"",
 			"When you are in human form, you can take the shape of a specific individual.  ",
-			"**Prerequisites:** Kitsune.  ",
+			"**Prerequisites:** {race/Kitsune}.  ",
 			"**Benefit:** You can precisely mimic the physical features of any individual you have encountered. When you use your racial change shape ability, you can attempt to take the form of an individual, granting you a +10 circumstance bonus on Disguise checks made to fool others with your impersonation."
 		]
 	},

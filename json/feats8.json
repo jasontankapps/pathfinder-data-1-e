@@ -169,7 +169,7 @@
 			"{SOURCE Advanced Race Guide/118}",
 			"",
 			"Creatures who cross your path find themselves tripping over their own feet.  ",
-			"**Prerequisites:** {feat/Dodge}, {feat/Mobility}, {feat/Underfoot}, goblin, Small size or smaller.  ",
+			"**Prerequisites:** {feat/Dodge}, {feat/Mobility}, {feat/Underfoot}, {race/goblin}, Small size or smaller.  ",
 			"**Benefit:** When you successfully make an Acrobatics check to avoid provoking an attack of opportunity from a larger opponent when you move through its threatened area or its space, you can make that opponent lose its balance until the end of its next turn as a free action. While that creature's balance is lost, if it attempts to move, it must make a successful DC 15 Acrobatics check or fall prone, wasting the move action. You can only affect one creature with this effect each round.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -202,7 +202,7 @@
 			"{SOURCE Gnomes of Golarion/31}",
 			"",
 			"Your crying, sputtering, and even frothing at the mouth makes you so laughably incoherent that opponents are apt to dismiss you as a threat.  ",
-			"**Prerequisites:** Bluff 1 rank, rage class feature, gnome.  ",
+			"**Prerequisites:** Bluff 1 rank, rage class feature, {race/gnome}.  ",
 			"**Benefit:** You may use the Bluff skill to feint while raging. The effect of the feint lasts only until the first time you hit the target."
 		]
 	},
@@ -594,7 +594,7 @@
 			"{SOURCE Advanced Race Guide/58}",
 			"",
 			"Your spirit lingers long after any other's would have passed on.  ",
-			"**Prerequisites:** Con 13, {feat/Diehard}, {feat/Endurance}, half-orc or orc.  ",
+			"**Prerequisites:** Con 13, {feat/Diehard}, {feat/Endurance}, {race/half-orc} or {race/orc}.  ",
 			"**Benefit:** When you are killed by hit point damage, your soul lingers in your body for a number of rounds equal to your Constitution bonus. You are still dead, but a creature can make a DC 10 Heal check as a standard action to realize that you can still be saved. You can be healed by magic as if you were alive. If you are healed enough hit points that you would no longer be dead, you are alive again, but you gain one permanent negative level."
 		]
 	},
@@ -636,7 +636,7 @@
 			"{SOURCE Advanced Race Guide/165}",
 			"",
 			"You can shift into the form of a giant black raven.  ",
-			"**Prerequisites:** {feat/Tengu Wings}, character level 7th, tengu.  ",
+			"**Prerequisites:** {feat/Tengu Wings}, character level 7th, {race/tengu}.  ",
 			"**Benefit:** Once per day, you can take the form of a Large black bird resembling a raven, granting you a fly speed of 60 feet (good maneuverability), a +4 size bonus to your Strength, a -2 penalty to your Dexterity, and a +4 natural armor bonus. This spell-like ability otherwise functions as beast shape II with a caster level equal to your level."
 		]
 	},
@@ -649,7 +649,7 @@
 			"{SOURCE Advanced Race Guide/165}",
 			"",
 			"You can grow wings that allow you to fly.  ",
-			"**Prerequisites:** Character level 5th, tengu.  ",
+			"**Prerequisites:** Character level 5th, {race/tengu}.  ",
 			"**Benefit:** Once per day, you can sprout a pair of giant black crow's wings, granting you a fly speed of 30 feet (average maneuverability). This spell-like ability otherwise functions as beast shape I (though you do not gain any other benefits of that spell) with a caster level equal to your level."
 		]
 	},
@@ -701,7 +701,7 @@
 			"{SOURCE Blood of Fiends/25}",
 			"",
 			"Your fiendish visage has made you a truly terrifying spectacle to behold, and you can force others to betray their feelings with a single look.  ",
-			"**Prerequisites:** Cha 13, {feat/Monstrous Mask}, tiefling.  ",
+			"**Prerequisites:** Cha 13, {feat/Monstrous Mask}, {race/tiefling}.  ",
 			"**Benefit:** Anytime you can make a Sense Motive check to get a hunch or detect whether someone is trustworthy or not, you can choose to instead make an Intimidate check at a -2 penalty. This ability only works on creatures of the humanoid type."
 		]
 	},
@@ -786,7 +786,7 @@
 			"{SOURCE Inner Sea Gods/217}",
 			"",
 			"Your deity infuses your channeled energy with bounty.  ",
-			"**Prerequisites:** Channel energy 7d6, worshiper of Erastil.  ",
+			"**Prerequisites:** {ability/Channel energy} 7d6, worshiper of {faith/Erastil}.  ",
 			"**Benefit:** When you channel positive energy, you can cause plants in the affected area to grow as though targeted by the overgrowth version of plant growth (caster level equal to your effective cleric level)."
 		]
 	},
@@ -857,7 +857,7 @@
 			"{SOURCE Gnomes of Golarion/27}",
 			"",
 			"You've mastered the art of making illusions that force foes to divide their attention in combat.  ",
-			"**Prerequisites:** {feat/Spell Focus/ (illusion)}, Gnome.  ",
+			"**Prerequisites:** {feat/Spell Focus/ (illusion)}, {race/Gnome}.  ",
 			"**Benefit:** You can use this metamagic feat only on illusion (figment) spells.",
 			"",
 			"A threatening illusion spell causes one target to believe your illusion is a threat. Choose one 5-foot square within the area of your illusion; that square threatens the target as long as it is adjacent. Thus, if you or an ally is on the opposite side of the target, it is considered flanking.",
@@ -928,7 +928,7 @@
 			"{SOURCE Advanced Race Guide/58;Orcs of Golarion/25}",
 			"",
 			"Killing fuels your rage.  ",
-			"**Prerequisites:** Half-orc or orc, rage class feature.  ",
+			"**Prerequisites:** {race/Half-orc} or {race/orc}, rage class feature.  ",
 			"**Benefit:** When you are raging and your attack reduces an enemy to negative hit points or kills it, you regain 1 round of rage. You may only use this feat if the fallen enemy had at least as many Hit Dice as you. You can only gain this benefit once per round."
 		]
 	},
@@ -1006,7 +1006,7 @@
 			"{SOURCE Mythic Adventures/75}",
 			"",
 			"You're so skilled at throwing weapons that it hardly matters what you throw.  ",
-			"**Prerequisites:** {feat/Throw Anything}.  ",
+			"**Prerequisites:** Throw Anything.  ",
 			"**Benefit:** You gain a +2 bonus on attack rolls and damage rolls made using an improvised thrown weapon or splash weapon. This bonus stacks with the bonus from the non-mythic Throw Anything feat. If you miss with a thrown splash weapon, it always lands adjacent to its target regardless of how many range increments it was thrown."
 		]
 	},
@@ -1238,7 +1238,7 @@
 			"{SOURCE Inner Sea Gods/217}",
 			"",
 			"Your devotion to battle inspires you to fight competently until death claims you.  ",
-			"**Prerequisites:** {feat/Diehard}, {feat/Endurance}, worshiper of Gorum.  ",
+			"**Prerequisites:** {feat/Diehard}, {feat/Endurance}, worshiper of {faith/Gorum}.  ",
 			"**Benefit:** When you are disabled, you are not staggered, though performing standard actions still deals 1 point of damage to you. Taking a full-round action deals 2 points of damage to you.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -1481,7 +1481,7 @@
 			"{SOURCE Horror Adventures/94}",
 			"",
 			"You instill unbidden thoughts and desires into another with your touch.  ",
-			"**Prerequisites:** Channel negative energy 6d6, evil alignment.  ",
+			"**Prerequisites:** {ability/Channel negative energy} 6d6, evil alignment.  ",
 			"**Benefit:** As a standard action, you can expend three uses of your channel negative energy and make a melee touch attack against a target. You can attempt an opposed Sleight of Hand check against the target's Perception to make this attack without the target noticing. If the attack hits, the target gets a Will save (DC=10 + 1/2 your character level + your Charisma modifier). On a failed save, you implant a suggestion into the creature's mind. This works similar to the suggestion spell, however, you can suggest to the creature to commit a harmful or destructive act against another creature or object. If you choose the latter, the creature attempts to carry out the suggestion in 1d6+1 days as it thinks over the suggestion and plans it out. The creature can attempt another Will save at the original DC to resist the suggestion right before it carries it out. If it fails the save, it gains a +4 circumstance bonus on one die roll used in carrying out the suggestion. This relentless planning causes the creature 1 point of Wisdom damage (or 1d6 sanity damage, if you are using that system), until the suggestion is carried out."
 		]
 	},
@@ -1565,7 +1565,7 @@
 			"{SOURCE Mythic Adventures/75}",
 			"",
 			"You have legendary resilience and durability.  ",
-			"**Prerequisites:** {feat/Toughness}.  ",
+			"**Prerequisites:** Toughness.  ",
 			"**Benefit:** Toughness provides you twice as many hit points. In addition, when you're below 0 hit points, you gain DR 10/epic. This DR stacks with any other DR/epic you might possess."
 		]
 	},
@@ -1634,7 +1634,7 @@
 			"{SOURCE Advanced Race Guide/18}",
 			"",
 			"Your system recuperates from the effects of poisons with astonishing speed.  ",
-			"**Prerequisites:** Dwarf, hardy racial trait.  ",
+			"**Prerequisites:** {race/Dwarf}, hardy racial trait.  ",
 			"**Benefit:** Whenever you succeed at a saving throw against poison, you heal 1 point of ability damage of the type dealt by the poison. Whenever you heal ability damage naturally or magically, you heal 1 additional point of ability damage. This feat has no effect on penalties to ability scores or ability drain."
 		]
 	},
@@ -1674,7 +1674,7 @@
 			"{SOURCE Potions and Poisons/5}",
 			"",
 			"You produce enough venom to cast a web of poison over your hapless victims.  ",
-			"**Prerequisites:** {feat/Spit Venom}, {feat/Viscous Venom}, nagaji.  ",
+			"**Prerequisites:** {feat/Spit Venom}, {feat/Viscous Venom}, {race/nagaji}.  ",
 			"**Benefit:** When you spit poison using the ability granted by the Spit Venom feat, you can envenom a 5-foot-radius area within 30 feet for 1 round. Any creature that enters or begins its turn in this area is both exposed to the poison granted by Spit Venom and entangled as if you had targeted that creature with the ability granted by the Viscous Venom feat. In addition, you gain one additional use per day of the ability to spit poison granted by the Spit Venom feat."
 		]
 	},
@@ -1751,7 +1751,7 @@
 			"{SOURCE Inner Sea Gods/217}",
 			"",
 			"Your positive energy makes trailblazers of those you heal.  ",
-			"**Prerequisites:** Channel energy 3d6, worshiper of Desna.  ",
+			"**Prerequisites:** {ability/Channel energy} 3d6, worshiper of {faith/Desna}.  ",
 			"**Benefit:** Once per day when you channel positive energy, you can cause healed creatures to be unimpeded by difficult terrain for a number of minutes equal to your Charisma modifier (minimum 1 minute)."
 		]
 	},
@@ -1794,7 +1794,7 @@
 			"{SOURCE Mythic Adventures/75}",
 			"",
 			"Your rearing mount can stomp foes into the ground, barely  ",
-			"**Prerequisites:** {feat/Trample}.  ",
+			"**Prerequisites:** Trample.  ",
 			"**Benefit:** Your mount can make two hoof attacks against an opponent you knock down with an overrun, instead of one. You can expend one use of mythic power when you score a critical hit with one or more of those hoof attacks. When you do, the critical is automatically confirmed. If both scored critical hits, expending one use of mythic power automatically confirms both."
 		]
 	},
@@ -1807,7 +1807,7 @@
 			"{SOURCE Advanced Race Guide/142}",
 			"",
 			"You can smash traps instead of disarming them.  ",
-			"**Prerequisites:** {feat/Power Attack}, Disable Device 1 rank, orc.  ",
+			"**Prerequisites:** {feat/Power Attack}, Disable Device 1 rank, {race/orc}.  ",
 			"**Benefit:** You can attempt to disarm a trap by striking it with a melee weapon instead of making a Disable Device check. As a full-round action, make a melee attack against an Armor Class equal to the trap's Disable Device DC. If you miss, the trap activates. If you hit, roll damage. If this damage is at least half the trap's Disable Device DC, you disable the trap. If this damage is less than half the trap's Disable Device DC, the trap activates. You can only attempt this on nonmagical traps. You must be able to reach some part of the trap with your attack in order to use this feat. At the GM's discretion, some traps may not be susceptible to this feat."
 		]
 	},
@@ -1951,7 +1951,7 @@
 			"{SOURCE Inner Sea Races/209}",
 			"",
 			"Your distrust of magic has forced you to develop tactics to fight witches, fey, and other supernatural foes. No matter how clever they think they are, they can't hide.  ",
-			"**Prerequisites:** {feat/Blind-Fight}, {feat/Greater Blind-Fight}, {feat/Improved Blind-Fight}, Perception 15 ranks, human (Kellid).  ",
+			"**Prerequisites:** {feat/Blind-Fight}, {feat/Greater Blind-Fight}, {feat/Improved Blind-Fight}, Perception 15 ranks, {race/human} (Kellid).  ",
 			"**Benefit:** Whenever both you and an ally who also has this feat are within 30 feet of an invisible foe of whose presence you're aware, you automatically pinpoint the foe's location. Whenever both you and an ally who has this feat are within 30 feet of a creature and you miss that creature because of its {rule/concealment}, you can reroll your miss chance percentile roll."
 		]
 	},
@@ -2055,7 +2055,7 @@
 			"{SOURCE Dirty Tactics Toolbox/17}",
 			"",
 			"The vengeful nature of your goddess flows through your magic, turning your enemies against themselves.  ",
-			"**Prerequisites:** Ability to cast 1st-level spells, chaotic neutral alignment, worshiper of Calistria.  ",
+			"**Prerequisites:** Ability to cast 1st-level spells, chaotic neutral alignment, worshiper of {faith/Calistria}.  ",
 			"**Benefit:** Only enchantment spells that affect a single target and can be negated with a successful Will save can be trick spells. If the target fails its Will save against a trick spell, in addition to the spell's normal effects, the target also clumsily hinders itself. Immediately attempt a special combat maneuver check (1d20 + your caster level + your Charisma bonus) to perform a dirty trick combat maneuver against the target. Any feats you have that apply to dirty trick maneuvers (such as {feat/Greater Dirty Trick}) also apply to this check. A trick spell takes up a spell slot 1 level higher than the spell's actual level."
 		]
 	},
@@ -2099,7 +2099,7 @@
 			"{SOURCE Mythic Adventures/75}",
 			"",
 			"Your staff is valuable for attack and defensive balance.  ",
-			"**Prerequisites:** {feat/Tripping Staff}.  ",
+			"**Prerequisites:** Tripping Staff.  ",
 			"**Benefit:** You add half your tier to CMD against trip maneuvers and on combat maneuver checks to trip with a quarterstaff. When you're wielding a quarterstaff and an opponent you threaten attempts to trip you and fails, it provokes an attack of opportunity from you. You must use your staff for this attack of opportunity."
 		]
 	},
@@ -2157,7 +2157,7 @@
 			"{SOURCE Advanced Race Guide/178}",
 			"",
 			"You can channel your inner magic to summon allies.  ",
-			"**Prerequisites:** Character level 5th, hydraulic push spell-like ability, undine.  ",
+			"**Prerequisites:** Character level 5th, hydraulic push spell-like ability, {race/undine}.  ",
 			"**Benefit:** Once per day, you may expend your racial hydraulic push ability to instead cast {spell/summon nature's ally III} as a spell-like ability with a caster level equal to your character level. This use of the ability can only summon 1d3 Small water elementals, 1d4+1 dolphins, a shark, or an electric eel. Using this ability is a full-round action."
 		]
 	},
@@ -2253,7 +2253,7 @@
 			"**Goal:** You must discover, explore, and publicly reveal an important secret that has been unknown to the world for at least 100 years.  ",
 			"**Completion Benefit:** Whenever you pass within 10 feet of a secret door, you receive an immediate Perception check to notice the passage. This check should be made in secret by the GM. In addition, whenever you attempt a Will save to disbelieve an illusion, you may roll twice and take the better result.",
 			"",
-			"Suggested Traits: {trait/Avid Reader}, {trait/Mystery Initiate}, {trait/Skeptic}.",
+			"*Suggested Traits:* {trait/Avid Reader}, {trait/Mystery Initiate}, {trait/Skeptic}.",
 			"",
 			"### Possible Truth-Seeker Quests",
 			"",
@@ -2323,7 +2323,7 @@
 			"{SOURCE Advanced Race Guide/154}",
 			"",
 			"You are a master of fighting in confined spaces.  ",
-			"**Prerequisites:** Ratfolk, swarming racial trait.  ",
+			"**Prerequisites:** {race/Ratfolk}, swarming racial trait.  ",
 			"**Benefit:** You count as one size smaller than normal for the purpose of squeezing."
 		]
 	},
@@ -2352,7 +2352,7 @@
 			"{SOURCE PRPG Core Rulebook/136}",
 			"",
 			"Calling upon higher powers, you cause undead to flee from the might of your unleashed divine energy.  ",
-			"**Prerequisites:** Channel positive energy class feature.  ",
+			"**Prerequisites:** {ability/Channel positive energy} class feature.  ",
 			"**Benefit:** You can, as a standard action, use one of your uses of channel positive energy to cause all undead within 30 feet of you to flee, as if panicked. Undead receive a Will save to negate the effect. The DC for this Will save is equal to 10 + 1/2 your cleric level + your Charisma modifier. Undead that fail their save flee for 1 minute. Intelligent undead receive a new saving throw each round to end the effect. If you use channel energy in this way, it has no other effect (it does not heal or harm nearby creatures).",
 			"",
 			"### Mythic Turn Undead",
@@ -2360,7 +2360,7 @@
 			"{SOURCE Mythic Adventures/75}",
 			"",
 			"The power of your divine energy can not only cause undead to flee but also destroy them where they stand.  ",
-			"**Prerequisites:** {feat/Turn Undead}.  ",
+			"**Prerequisites:** Turn Undead.  ",
 			"**Benefit:** When you use Turn Undead, the range increases by 10 feet per tier, and non-mythic undead take a penalty on their saving throws equal to your tier.",
 			"",
 			"You can expend one use of mythic power when using Turn Undead to destroy undead. Instead of fleeing, undead that fail their saves might be destroyed. You destroy 2d4 Hit Dice worth of undead per tier. Undead with the fewest HD are affected first; among undead with equal HD, those that are closest to the burst's point of origin are affected first. No undead of 9 or more HD can be affected, and HD that aren't sufficient to affect an undead are wasted."
@@ -2391,7 +2391,7 @@
 			"{SOURCE Heroes from the Fringe/22}",
 			"",
 			"Snowborn half-elves often inherit their parents' incurable curiosity about other cultures and are particularly good at relating to new groups.  ",
-			"**Prerequisites:** Diplomacy 3 ranks, snowborn half-elf.  ",
+			"**Prerequisites:** Diplomacy 3 ranks, snowborn {race/half-elf}.  ",
 			"**Benefit:** You can attempt a Diplomacy check to improve someone's attitude even if you do not speak a common language, though the other party must still have an Intelligence of 3 or higher.  ",
 			"**Normal:** You cannot attempt a Diplomacy check to improve someone's attitude if you do not speak a common language."
 		]
@@ -2447,7 +2447,7 @@
 			"{SOURCE Ultimate Combat/123}",
 			"",
 			"When you fight giants, your powerful blows combine with skills learned from generations of your people to quickly even the odds.  ",
-			"**Prerequisites:** Dwarf or gnome, defensive training racial trait, {feat/Two-Weapon Fighting} or flurry of blows class feature, {feat/Weapon Focus} with both wielded weapons.  ",
+			"**Prerequisites:** {race/Dwarf} or {race/gnome}, defensive training racial trait, {feat/Two-Weapon Fighting} or flurry of blows class feature, {feat/Weapon Focus} with both wielded weapons.  ",
 			"**Benefit:** Once per round, when wielding a bludgeoning weapon in each hand against a creature with the giant subtype, if you hit the creature with your off-hand weapon after you hit with your primary weapon, roll the damage dice for your off-hand weapon twice and add the results together before adding any bonuses. Such extra weapon damage dice are not multiplied on a critical hit.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -2468,7 +2468,7 @@
 			"{SOURCE Ultimate Combat/123}",
 			"",
 			"Your dual bludgeoning strikes are especially deadly when you are fighting giants.  ",
-			"**Prerequisites:** Dwarf or gnome; defensive training racial trait; {feat/Improved Two-Weapon Fighting} and {feat/Two-Weapon Fighting}, or flurry of blows class feature; {feat/Twin Thunders}; {feat/Weapon Focus} with both wielded weapons; base attack bonus +6.  ",
+			"**Prerequisites:** {race/Dwarf} or {race/gnome}; defensive training racial trait; {feat/Improved Two-Weapon Fighting} and {feat/Two-Weapon Fighting}, or flurry of blows class feature; {feat/Twin Thunders}; {feat/Weapon Focus} with both wielded weapons; base attack bonus +6.  ",
 			"**Benefit:** You can trip a creature with the giant subtype of up to Huge size, and you gain a +2 bonus on damage rolls against creatures of the giant subtype. Further, each time you hit a creature of the giant subtype with your off-hand weapon after you hit that creature with your primary weapon, you can deal the extra off-hand weapon damage Twin Thunders grants you.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -2489,7 +2489,7 @@
 			"{SOURCE Ultimate Combat/123}",
 			"",
 			"With thunderous simultaneous strikes, you can batter a mighty giant into submission.  ",
-			"**Prerequisites:** Dwarf or gnome; defensive training racial trait; {feat/Improved Two-Weapon Fighting} and {feat/Two-Weapon Fighting}, or flurry of blows class feature; {feat/Twin Thunders}; {feat/Twin Thunders Flurry}; {feat/Weapon Focus} with both wielded weapons; base attack bonus +9.  ",
+			"**Prerequisites:** {race/Dwarf} or {race/gnome}; defensive training racial trait; {feat/Improved Two-Weapon Fighting} and {feat/Two-Weapon Fighting}, or flurry of blows class feature; {feat/Twin Thunders}; {feat/Twin Thunders Flurry}; {feat/Weapon Focus} with both wielded weapons; base attack bonus +9.  ",
 			"**Benefit:** Whenever you deal an opponent extra damage with the Twin Thunders feat, that opponent is shaken for 1 round. You also force that opponent to succeed at a Fortitude saving throw (DC 10 + half your level + your Str modifier) or become staggered for 1 round. If you use this feat to render staggered an opponent that is already staggered, you daze that opponent instead. In a similar way, you can stun an opponent that is already dazed.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -2609,7 +2609,7 @@
 			"{SOURCE Mythic Adventures/76}",
 			"",
 			"Your graceful flow between attack and defense makes you difficult to hit.  ",
-			"**Prerequisites:** {feat/Two-Weapon Defense}.  ",
+			"**Prerequisites:** Two-Weapon Defense.  ",
 			"**Benefit:** When using Two-Weapon Defense, you apply the highest enhancement bonus from your two weapons to the shield bonus granted by that feat."
 		]
 	},
@@ -2723,7 +2723,7 @@
 			"{SOURCE Mythic Adventures/76}",
 			"",
 			"Your synchronized dual attacks are even more dangerous, and can leave lasting wounds.  ",
-			"**Prerequisites:** {feat/Two-Weapon Rend}.  ",
+			"**Prerequisites:** Two-Weapon Rend.  ",
 			"**Benefit:** The damage of your Two-Weapon Rend increases to 2d8 points plus twice your Strength modifier. You can expend one use of mythic power to gain a bonus on this damage equal to twice your tier."
 		]
 	},
@@ -2823,7 +2823,7 @@
 			"{SOURCE Heroes from the Fringe/23}",
 			"",
 			"You take after your long-lived elven parent more than other half-elves. While your life-span is not any longer than usual, age weighs less heavily on your shoulders.  ",
-			"**Prerequisites:** Half-elf.  ",
+			"**Prerequisites:** {race/Half-elf}.  ",
 			"**Benefit:** You gain a +4 racial bonus to resist any effect that would magically age you or otherwise displace you in time. In addition, you reduce all penalties gained from magical aging by 1."
 		]
 	},
@@ -2893,7 +2893,7 @@
 			"{SOURCE Divine Anthology/8}",
 			"",
 			"Your firm dedication to the principles of courage and freedom allows you to escape your bonds more easily.  ",
-			"**Prerequisites:** Bravery class feature, worshiper of Cayden Cailean.  ",
+			"**Prerequisites:** Bravery class feature, worshiper of {faith/Cayden Cailean}.  ",
 			"**Benefit:** You can add the bonus from bravery to Escape Artist checks and combat maneuver checks to escape a grapple. If your bonus from bravery is +2 or higher, then once per day, you can grant that bonus to an ally within 30 feet on a Will save against a fear effect, an Escape Artist check, or a combat maneuver check to escape a grapple. Granting this bonus to an ally is an immediate action and must be declared before the result of your ally's check is revealed."
 		]
 	},
@@ -2976,7 +2976,7 @@
 			"{SOURCE Advanced Race Guide/67}",
 			"",
 			"Your instinct for self-preservation gives you many advantages.  ",
-			"**Prerequisites:** {feat/Cautious Fighter}, base attack bonus +3, halfling.  ",
+			"**Prerequisites:** {feat/Cautious Fighter}, base attack bonus +3, {race/halfling}.  ",
 			"**Benefit:** While fighting defensively or taking the total defense action, you gain a bonus on your Reflex saving throws and to your CMD equal to 1/2 of the dodge bonus to AC you gained from taking that action.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -3035,7 +3035,7 @@
 			"{SOURCE Divine Anthology/8}",
 			"",
 			"It takes more than the average threat to intimidate you, and you've mastered the art of menacing your foes by implying violence through your cheerful smile.  ",
-			"**Prerequisites:** Bravery class feature, worshiper of Cayden Cailean.  ",
+			"**Prerequisites:** Bravery class feature, worshiper of {faith/Cayden Cailean}.  ",
 			"**Benefit:** You can add your bonus from bravery to Intimidate checks and to the DC to intimidate you."
 		]
 	},
@@ -3059,7 +3059,7 @@
 			"{SOURCE Mythic Adventures/76}",
 			"",
 			"Through your fearsome mythic nature, you have matchless power over the undead.  ",
-			"**Prerequisites:** {feat/Undead Master}.  ",
+			"**Prerequisites:** Undead Master.  ",
 			"**Benefit:** When you cast animate dead or use the Command Undead feat, add your tier to your caster level when determining the number of Hit Dice of undead you animate. This stacks with the increased caster level of Undead Master. When you cast command undead, your duration is tripled rather than doubled."
 		]
 	},
@@ -3331,7 +3331,7 @@
 			"{SOURCE Heroes from the Fringe/24}",
 			"",
 			"You have a knack for learning what others would like to remain hidden.  ",
-			"**Prerequisites:** Int 15, Knowledge (history) 1 rank, gloomkin half-orc.  ",
+			"**Prerequisites:** Int 15, Knowledge (history) 1 rank, gloomkin {race/half-orc}.  ",
 			"**Benefit:** You gain a +2 circumstance bonus on Knowledge (history) checks. In addition, you can cast {spell/object reading} once per day as a spell-like ability, attempting a Knowledge (history) check in place of an Appraise check."
 		]
 	},
@@ -3401,7 +3401,7 @@
 			"{SOURCE Mythic Adventures/76}",
 			"",
 			"You knock your opponents down from their mounts with frightening concussive force.  ",
-			"**Prerequisites:** {feat/Unseat}.  ",
+			"**Prerequisites:** Unseat.  ",
 			"**Benefit:** When you successfully bull rush an opponent off his mount with Unseat, your opponent takes 1d6 points of falling damage per 2 tiers you possess. Items or abilities that reduce falling damage, such as a successful Acrobatics check, can reduce the damage dealt by the impact."
 		]
 	},
@@ -3496,7 +3496,7 @@
 			"{SOURCE Bastards of Golarion/17}",
 			"",
 			"Your heritage is strange or difficult to trace, and people fear your otherworldly powers.  ",
-			"**Prerequisites:** Changeling.  ",
+			"**Prerequisites:** {race/Changeling}.  ",
 			"**Benefit:** Your mother was part of a powerful hag coven, and it shows when you are near your kin. As long as you are within 30 feet of at least two other changelings, you gain a +2 bonus on {rule/concentration} checks and dispel checks. If at least two of these changelings also have this feat, these bonuses increase to +4.  ",
 			"**Special:** This version of Unusual Origin is a teamwork feat."
 		]
@@ -3524,7 +3524,7 @@
 			"{SOURCE Bastards of Golarion/17}",
 			"",
 			"Your heritage is strange or difficult to trace, and people fear your otherworldly powers.  ",
-			"**Prerequisites:** Fetchling.  ",
+			"**Prerequisites:** {race/Fetchling}.  ",
 			"**Benefit:** You have the mysterious ability to see into the Shadow Plane, but only in your dreams. Once per day while sleeping, you can create a magical sensor, as arcane eye except this sensor can view only your current location as it exists on the Shadow Plane. This effect lasts for 1 minute per character level, and can be used during any point while you sleep."
 		]
 	},
@@ -3743,7 +3743,7 @@
 			"{SOURCE Goblins of Golarion/25}",
 			"",
 			"Even other goblins admire your talent for mindless destruction.  ",
-			"**Prerequisites:** Goblin, sneak attack class feature.  ",
+			"**Prerequisites:** {race/Goblin}, sneak attack class feature.  ",
 			"**Benefit:** You treat unattended objects as if they were vulnerable to your sneak attack, but you only deal half as much damage as you would against an actual creature. For instance, if you rolled 12 extra damage from the sneak attack you would deal an extra 6 damage to the object. This only applies when attacking unattended objects."
 		]
 	},
@@ -3871,7 +3871,7 @@
 			"{SOURCE Advanced Race Guide/37}",
 			"",
 			"Your rage stretches beyond normal bounds.  ",
-			"**Prerequisites:** Gnome, hatred racial trait.  ",
+			"**Prerequisites:** {race/Gnome}, hatred racial trait.  ",
 			"**Benefit:** Select two creature types (and subtypes where appropriate) from the list of potential {ability/favored enemies} from the ranger class ability. Your +1 attack bonus from the hatred racial trait applies to creatures of the selected types (and subtypes).  ",
 			"**Special:** You may take this feat more than once. Its benefits do not stack. Each time you select this feat, you select two additional creature types to which your hatred racial trait applies.",
 			"",
@@ -4029,7 +4029,7 @@
 			"{SOURCE Dirty Tactics Toolbox/16}",
 			"",
 			"Those whom you catch breaking a deal are more subject to your powers.  ",
-			"**Prerequisites:** Ability to cast 1st-level spells, lawful evil alignment, worshiper of Asmodeus.  ",
+			"**Prerequisites:** Ability to cast 1st-level spells, lawful evil alignment, worshiper of {faith/Asmodeus}.  ",
 			"**Benefit:** You gain a +5 bonus on Sense Motive checks to determine whether a creature is lying when you ask if it has followed the terms of a contract or deal to which it formally agreed. This includes all written and signed contracts, but also such things as witnessed oaths of loyalty and guild charters.",
 			"",
 			"If you succeed at such a Sense Motive check and learn that a creature has violated any part of such a formal bargain, that creature takes a -2 penalty on saving throws against your spells, spell-like abilities, and supernatural abilities."
@@ -4061,7 +4061,7 @@
 			"{SOURCE Ultimate Magic/159}",
 			"",
 			"You can choose to channel positive and negative energy.  ",
-			"**Prerequisites:** Channel energy class feature, necromancer or neutrally aligned cleric (see below).  ",
+			"**Prerequisites:** {ability/Channel energy} class feature, necromancer or neutrally aligned cleric (see below).  ",
 			"**Benefit:** You may make a choice whenever you use your channel energy class feature.",
 			"",
 			"If you normally channel positive energy, you may choose to channel negative energy as if your effective cleric level were 2 levels lower than normal.",
@@ -4355,7 +4355,7 @@
 			"{SOURCE Potions and Poisons/5}",
 			"",
 			"The poison that drips from your fangs is potent enough to burn through flesh and wood.  ",
-			"**Prerequisites:** {feat/Spit Venom}, nagaji.  ",
+			"**Prerequisites:** {feat/Spit Venom}, {race/nagaji}.  ",
 			"**Benefit:** Your ability to spit poison granted by the Spit Venom feat deals 1d6 points of acid damage plus an additional 1d6 points of acid damage for every 3 Hit Dice you have, in addition to all other effects. This additional damage affects creatures even if they are immune to poison or succeed at their Fortitude saving throws. In addition, you gain one additional use per day of the ability to spit poison granted by the Spit Venom feat."
 		]
 	},
@@ -4381,7 +4381,7 @@
 			"{SOURCE Potions and Poisons/5}",
 			"",
 			"Your venom is abnormally thick and adhesive.  ",
-			"**Prerequisites:** {feat/Spit Venom}, nagaji.  ",
+			"**Prerequisites:** {feat/Spit Venom}, {race/nagaji}.  ",
 			"**Benefit:** When you spit poison using the ability granted by the Spit Venom feat, you can spit a glob of venomous goo at an enemy within 30 feet. Once struck, the target is both exposed to your nagaji poison as normal and entangled. An entangled target can break free from the sticky goo with a successful DC 15 Strength or Escape Artist check as a full-round action or by dealing 15 points of damage to the gooey substance with a slashing weapon. In addition, you gain one additional use per day of the ability to spit poison granted by the Spit Venom feat."
 		]
 	},
@@ -4440,7 +4440,7 @@
 			"{SOURCE Mythic Adventures/77}",
 			"",
 			"You can strike your foes with incredible force.  ",
-			"**Prerequisites:** {feat/Vital Strike}.  ",
+			"**Prerequisites:** Vital Strike.  ",
 			"**Benefit:** Whenever you use Vital Strike, {feat/Improved Vital Strike}, or {feat/Greater Vital Strike}, multiply the Strength bonus, magic bonus, and other bonuses that would normally be multiplied on a critical hit by the number of weapon damage dice you roll for that feat.",
 			"",
 			"Extra damage from sources that wouldn't normally be multiplied on a critical hit isn't multiplied by this feat."
@@ -4479,7 +4479,7 @@
 			"{SOURCE Mythic Adventures/77}",
 			"",
 			"You overpower weaker and more vulnerable minds with your voice alone.  ",
-			"**Prerequisites:** {feat/Voice of the Sibyl}.  ",
+			"**Prerequisites:** Voice of the Sibyl.  ",
 			"**Benefit:** You gain a +1 bonus on all Bluff, Diplomacy, and Perform (oratory) skill checks for every 3 tiers you possess. This bonus stacks with the bonus from Voice of the Sibyl. If you have 10 or more ranks in at least two of these skills, gain a +2 bonus to the DC of any language-dependent spell you cast."
 		]
 	},
@@ -4602,7 +4602,7 @@
 			"{SOURCE Ultimate Wilderness/13}",
 			"",
 			"Your mind drifts swiftly from one thing to the next and is all but impossible to pin down.  ",
-			"**Prerequisites:** Character level 9th, gathlain.  ",
+			"**Prerequisites:** Character level 9th, {race/gathlain}.  ",
 			"**Benefit:** When you fail a Will save against a mind-affecting effect that lasts more than 1 round, you can attempt another Will save on the round after your failed save. If you succeed, you gain the normal benefits of succeeding at a Will save against the effect. This feat offers only one additional saving throw against each effect."
 		]
 	},
@@ -4628,7 +4628,7 @@
 			"{SOURCE Advanced Player's Guide/173}",
 			"",
 			"Your songs draw upon the savage chants and brutal ways of your people, inspiring those around you to new heights of violence and savagery.  ",
-			"**Prerequisites:** Cha 13, bardic performance class feature, half-orc or orc.  ",
+			"**Prerequisites:** Cha 13, bardic performance class feature, {race/half-orc} or {race/orc}.  ",
 			"**Benefit:** When you use bardic performance with audible components on a battlefield (any area where a combat involving a dozen or more combatants is taking place), the range or area of your chosen performance is doubled. In addition, the DC for saving throws against your bardic performance is increased by +2 for creatures of the orc subtype, regardless of where the performance occurs."
 		]
 	},
@@ -4654,7 +4654,7 @@
 			"{SOURCE Orcs of Golarion/25}",
 			"",
 			"Your rages are so inspiring to your allies that they don't have to remain adjacent to you to stay raging.  ",
-			"**Prerequisites:** Cha 13, half-orc or orc, non-lawful.  ",
+			"**Prerequisites:** Cha 13, {race/half-orc} or {race/orc}, non-lawful.  ",
 			"**Benefit:** Feats and abilities that allow an ally to rage or enhance a rage if adjacent to you (such as Amplified Rage and Sympathetic Rage) persist as long as your ally is within 30 feet of you and can see you. The conditions to activate the rage effect remain unchanged. For example, an ally with Sympathetic Rage must be adjacent to you to enter his own rage, but once his rage begins, he can continue raging as long as he can see you and you are within 30 feet."
 		]
 	},
@@ -4721,7 +4721,7 @@
 			"{SOURCE Mythic Adventures/77}",
 			"",
 			"Your faith speeds you in battle and further strengthens your mind and confidence.  ",
-			"**Prerequisites:** {feat/Warrior Priest}.  ",
+			"**Prerequisites:** Warrior Priest.  ",
 			"**Benefit:** You gain a bonus equal to half your tier both on initiative checks and on {rule/concentration} checks to cast a spell or use a spell-like ability when casting defensively or while grappled. These bonuses stack with the bonuses from Warrior Priest."
 		]
 	},
@@ -4747,7 +4747,7 @@
 			"{SOURCE Dirty Tactics Toolbox/17}",
 			"",
 			"The goddess of lust, revenge, and trickery has granted you a living sting to show her favor in you.  ",
-			"**Prerequisites:** Chaotic neutral alignment, worshiper of Calistria.  ",
+			"**Prerequisites:** Chaotic neutral alignment, worshiper of {faith/Calistria}.  ",
 			"**Benefit:** You gain a familiar as per the arcane bond class feature, using your character level as your wizard level. The familiar is a cat-sized, chaotic neutral wasp loyal to you. Use the statistics for a greensting scorpion familiar, but give it a base speed of 10 feet, a fly speed of 40 feet (average), no Climb bonus, and Fly +7. If you have the ability to gain a familiar through other means (such as the arcane bond class feature), and you are at least 5th level, instead use the statistics for an imp, but replace the invisibility spell-like ability with an unnatural lust (DC 14) spell-like ability usable three times per day. You can have only one familiar.",
 			"",
 			"If you ever grossly violate the code of conduct required by Calistria (a violation of the scale that would cause a cleric of Calistria to lose all spells and class features), your familiar turns on you and attacks you until it is killed. To regain a familiar, you must atone for your deeds with the atonement spell, and pay to have the slain familiar raised from the dead. If your familiar is slain or lost through other means, you can replace it using the normal rules for replacing familiars.  ",
@@ -4763,7 +4763,7 @@
 			"{SOURCE Advanced Race Guide/178}",
 			"",
 			"Your touch extinguishes small flames.  ",
-			"**Prerequisites:** Undine.  ",
+			"**Prerequisites:** {race/Undine}.  ",
 			"**Benefit:** As a standard action, you can extinguish a small nonmagical fire with a touch, affecting anything up to the size of a large campfire. This ability does not affect fires with a total area greater than 5 square feet. Touching the fire in this way does not harm you."
 		]
 	},
@@ -4791,7 +4791,7 @@
 			"{SOURCE Inner Sea Gods/217}",
 			"",
 			"Gozreh has seen fit to bless you as an uncommonly skilled swimmer.  ",
-			"**Prerequisites:** Worshiper of Gozreh.  ",
+			"**Prerequisites:** Worshiper of {faith/Gozreh}.  ",
 			"**Benefit:** When you succeed at a Swim check, you can move your full speed as a full-round action or half your speed as a move action. This does not grant you the benefit of having a swim speed.  ",
 			"**Normal:** A successful Swim check allows you to move up to half your speed as a full-round action or up to a quarter your speed as a move action."
 		]
@@ -4826,7 +4826,7 @@
 			"{SOURCE Blood of Shadows/11}",
 			"",
 			"You embody the ideals of wayang society and culture.  ",
-			"**Prerequisites:** Wayang.  ",
+			"**Prerequisites:** {race/Wayang}.  ",
 			"**Benefit:** You gain the shadow speaker racial trait. If you already have the shadow speaker racial trait, you can increase the number of times per day that you can use shadow speaker by 1, and increase the insight bonus granted from each type of use by 1.  ",
 			"**Special:** This feat can be taken once at 1st level, and again at 11th level."
 		]

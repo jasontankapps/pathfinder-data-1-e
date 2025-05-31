@@ -64,7 +64,7 @@
 			"{SOURCE Mythic Adventures/60}",
 			"",
 			"You can plow through those who stand between you and the target of your charge.  ",
-			"**Prerequisites:** {feat/Charge Through}.  ",
+			"**Prerequisites:** Charge Through.  ",
 			"**Benefit:** When charging, you can ignore allies in your path when determining whether or not you can charge your target. Furthermore, after you have attempted at least one overrun with Charge Through, you can expend one use of mythic power as a free action to attempt another overrun against a different opponent in the path of the same charge."
 		]
 	},
@@ -152,7 +152,7 @@
 			"{SOURCE Inner Sea Races/204}",
 			"",
 			"You have learned to make the most of your torn existence.  ",
-			"**Prerequisites:** Knowledge (local) 5 ranks, half-elf.  ",
+			"**Prerequisites:** Knowledge (local) 5 ranks, {race/half-elf}.  ",
 			"**Benefit:** Once per day, you can select a teamwork feat that a human or elf ally within 30 feet possesses. You can ignore any race, ethnicity, or racial trait prerequisites, but you must still meet any other prerequisites for that feat to gain this benefit. You're treated as if you possess that feat for up to 1 minute, as long as you stay within 30 feet of the ally whose teamwork feat you have chosen to emulate."
 		]
 	},
@@ -180,7 +180,7 @@
 			"{SOURCE Advanced Player's Guide/156}",
 			"",
 			"Your resemblance to a human child tends to make others trust you, perhaps more than they should.  ",
-			"**Prerequisites:** Cha 13, halfling.  ",
+			"**Prerequisites:** Cha 13, {race/halfling}.  ",
 			"**Benefit:** You can take 10 on Bluff checks to convince others you are telling the truth, so long as your story makes you appear innocent. You gain a +2 bonus on Disguise skill checks to pose as a human child, and ignore the check penalties for disguising yourself as a different race and age category while doing so."
 		]
 	},
@@ -358,7 +358,7 @@
 			"{SOURCE Heroes from the Fringe/23}",
 			"",
 			"You are as at home in the cities of mankind as your elven ancestors are within the forests.  ",
-			"**Prerequisites:** Stealth 1 rank, half-elf.  ",
+			"**Prerequisites:** Stealth 1 rank, {race/half-elf}.  ",
 			"**Benefit:** You do not treat crowds as difficult terrain, and you gain a +5 circumstance bonus on Stealth checks when using a crowd as cover."
 		]
 	},
@@ -397,7 +397,7 @@
 			"{SOURCE Inner Sea Gods/209}",
 			"",
 			"Your channeled energy heals the body and opens the mind to the possibility of true love.  ",
-			"**Prerequisites:** Channel energy class feature, worshiper of Shelyn.  ",
+			"**Prerequisites:** {ability/Channel energy} class feature, worshiper of {faith/Shelyn}.  ",
 			"**Benefit:** Once per day when you channel positive energy to heal living creatures, if any of the creatures you healed are currently affected by one or more charms or compulsions that allowed a saving throw, you grant each of those creatures an immediate save to prematurely end one of those effects. Creatures healed gain a sacred bonus on this save equal to your Charisma bonus (minimum +1)."
 		]
 	},
@@ -426,7 +426,7 @@
 			"{SOURCE Advanced Race Guide/94}",
 			"",
 			"You can charge and make an attack with your paws.  ",
-			"**Prerequisites:** Str 13, Dex 15, {feat/Nimble Striker}, base attack bonus +10, catfolk, cat's claws racial trait or {feat/Aspect of the Beast} (claws of the beast manifestation).  ",
+			"**Prerequisites:** Str 13, Dex 15, {feat/Nimble Striker}, base attack bonus +10, {race/catfolk}, cat's claws racial trait or {feat/Aspect of the Beast} (claws of the beast manifestation).  ",
 			"**Benefit:** When you make a charge, you can make a full attack with your claws.  ",
 			"**Normal:** Charging is a special full-round action that limits you to a single attack.",
 			"",
@@ -460,7 +460,7 @@
 			"{SOURCE Pathfinder #81: Shifting Sands/73}",
 			"",
 			"Your channeled energy wards off disease.  ",
-			"**Prerequisites:** Able to cast {spell/remove disease} or the ability to cure disease with a mercy, channel positive energy class feature.  ",
+			"**Prerequisites:** Able to cast {spell/remove disease} or the ability to cure disease with a mercy, {ability/channel positive energy} class feature.  ",
 			"**Benefit:** When you channel positive energy to harm or turn undead creatures, any undead creatures in the area lose the ability to cause disease with their melee and ranged attacks for 1d4+1 rounds. If an undead creature successfully saves against your channeled energy, this duration is reduced to 1 round for that creature. Immunity to positive energy negates this ability.",
 			"",
 			"When you channel positive energy to heal living creatures, any living creatures in the area gain a +4 sacred bonus on saving throws against disease for 1d4+1 rounds. Creatures not healed by positive energy receive no benefit."
@@ -492,7 +492,7 @@
 			"{SOURCE Mythic Adventures/61}",
 			"",
 			"You can cleave any foe within your reach.  ",
-			"**Prerequisites:** {feat/Cleave}.  ",
+			"**Prerequisites:** Cleave.  ",
 			"**Benefit:** Whenever you use Cleave or Great Cleave, one of your attacks can be made against a foe that is within your reach, but not adjacent to the foe you attacked. You can expend one use of mythic power when you use Cleave or Great Cleave to continue making attacks against foes within your reach, regardless of their position, as long as you continue to hit each foe. You can't use this ability to attack a foe more than once per round."
 		]
 	},
@@ -508,7 +508,7 @@
 			"{SOURCE Advanced Race Guide/18}",
 			"",
 			"You are ferocious at hewing smaller opponents.  ",
-			"**Prerequisites:** Str 13, {feat/Cleave}, {feat/Power Attack}, base attack bonus +11, dwarf.  ",
+			"**Prerequisites:** Str 13, {feat/Cleave}, {feat/Power Attack}, base attack bonus +11, {race/dwarf}.  ",
 			"**Benefit:** When using Cleave or {feat/Great Cleave}, if your initial attack hits, you may take a single 5-foot step as a free action before making your additional attacks. If doing so places a creature within your threatened area, that creature becomes a legal target for your additional Cleave attack(s) as long as it meets all the other prerequisites.  ",
 			"**Normal:** You may only make additional attacks with Cleave against creatures you threaten when you make your initial attack.",
 			"",
@@ -657,7 +657,7 @@
 			"{SOURCE Heroes from the Fringe/9}",
 			"",
 			"You can use the stone around you to hide, even observed by your foes.  ",
-			"**Prerequisites:** Wis 17, {feat/Stone Cover}, {feat/Stone Shroud}, Stealth 11 ranks, dwarf, stonecunning racial trait.  ",
+			"**Prerequisites:** Wis 17, {feat/Stone Cover}, {feat/Stone Shroud}, Stealth 11 ranks, {race/dwarf}, stonecunning racial trait.  ",
 			"**Benefit:** You can use the Stealth skill to hide even while being observed while you are in areas of rocky terrain or while underground. Y0u can hide yourself from view in the open without anything to actually hide behind as long as you are within 10 feet of rocky terrain, or at any time while you are underground."
 		]
 	},
@@ -705,7 +705,7 @@
 			"{SOURCE Advanced Race Guide/159}",
 			"",
 			"Your insight into your elemental heritage gives you a clarity of sight few humans possess.  ",
-			"**Prerequisites:** Sylph.  ",
+			"**Prerequisites:** {race/Sylph}.  ",
 			"**Benefit:** You can see through fog, mist, and clouds, without penalty, ignoring any cover or concealment bonuses from such effects. If the effect is created by magic, this feat instead triples the distance you can see without penalty."
 		]
 	},
@@ -718,7 +718,7 @@
 			"{SOURCE Heroes from the Fringe/9}",
 			"",
 			"You can call upon your connection to cloud dragons to veil your presence.  ",
-			"**Prerequisites:** Mbe'ke dwarf.  ",
+			"**Prerequisites:** Mbe'ke {race/dwarf}.  ",
 			"**Benefit:** Once per day, you can call upon your spiritual connection to cloud dragons to create a thick mist as a spell-like ability. The mist functions as {spell/obscuring mist}, except it has a duration of only 1 round per level and is only a 10-foot-radius spread that is 10 feet high."
 		]
 	},
@@ -747,7 +747,7 @@
 			"{SOURCE Advanced Race Guide/18}",
 			"",
 			"Your helm turns aside lethal blows.  ",
-			"**Prerequisites:** {feat/Dented Helm}, base attack bonus +11, dwarf.  ",
+			"**Prerequisites:** {feat/Dented Helm}, base attack bonus +11, {race/dwarf}.  ",
 			"**Benefit:** When wearing a helmet, you add +1 to your AC against critical hit confirmation rolls; this benefit stacks with Dented Helm. When you use Dented Helm to deflect a critical hit, you may apply all damage from the critical hit to your helmet before applying any damage to yourself. If you take no damage, any additional effects, such as critical feats or poison, are negated.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -901,7 +901,7 @@
 			"{SOURCE Goblins of Golarion/25}",
 			"",
 			"Anyone who attacks you while you act like a lunatic exposes themselves to brutal counterattacks from your allies.  ",
-			"**Prerequisites:** Goblin, Acrobatics 1 rank, Escape Artist 1 rank.  ",
+			"**Prerequisites:** {race/Goblin}, Acrobatics 1 rank, Escape Artist 1 rank.  ",
 			"**Benefit:** As a full-round action, you can choose to do something that seems to serve no useful purpose. Example actions could include laughing at another creature's misfortune, rooting in your pockets for a snack, bending over to pick up what looks like a weird bug, or trying to fly into the air by flapping your arms like a sea gull.",
 			"",
 			"Although you're acting like a lunatic, your unpredictable actions are distracting. Any creature other than a goblin within 5 feet of you takes a -2 penalty on Perception checks and {rule/concentration} checks for as long as you continue to be a distraction and remain in range. This penalty stacks with other goblins performing combat distractions, as long as you're both adjacent to the distracted target."
@@ -933,7 +933,7 @@
 			"{SOURCE Mythic Adventures/61}",
 			"",
 			"You can dart out of the way of attacks with skill and defiance.  ",
-			"**Prerequisites:** {feat/Combat Expertise}.  ",
+			"**Prerequisites:** Combat Expertise.  ",
 			"**Benefit:** Whenever you use Combat Expertise, you gain an additional +2 dodge bonus to your Armor Class. You can expend one use of mythic power to negate the penalties on melee attack rolls and combat maneuver checks caused by using Combat Expertise for 1 minute."
 		]
 	},
@@ -1011,7 +1011,7 @@
 			"{SOURCE Mythic Adventures/61}",
 			"",
 			"You strike viciously whenever your foe gives you an opening.  ",
-			"**Prerequisites:** {feat/Combat Reflexes}.  ",
+			"**Prerequisites:** Combat Reflexes.  ",
 			"**Benefit:** You can make any number of additional attacks of opportunity per round. As a swift action, you can expend one use of mythic power to, until the start of your next turn, make attacks of opportunity against foes you've already made attacks of opportunity against this round if they provoke attacks of opportunity from you by moving."
 		]
 	},
@@ -1086,7 +1086,7 @@
 			"{SOURCE Ultimate Wilderness/108}",
 			"",
 			"You channel energy to get animals to do your bidding.  ",
-			"**Prerequisites:** Animal domain, channel energy class feature.  ",
+			"**Prerequisites:** Animal domain, {ability/channel energy} class feature.  ",
 			"**Benefit:** As a standard action, you can use one of your daily uses of channel energy in an attempt to control animals within 30 feet. Animals can attempt a Will save (DC = 10 + half your class level + your Charisma modifier) to negate the effect. Animals that fail their saves fall under your control, obeying your commands to the best of their ability as if under the effects of a charm monster spell with a caster level equal to your class level. An affected animal can attempt a new saving throw each day to escape this effect. You can control any number of animals, so long as their total Hit Dice do not exceed your class level. If you use channel energy in this way, it has no other effect (it does not heal or harm nearby creatures). If an affected animal is controlled by or a companion of another creature, you must attempt an opposed Charisma check whenever your orders conflict."
 		]
 	},
@@ -1099,7 +1099,7 @@
 			"{SOURCE Ultimate Wilderness/108}",
 			"",
 			"You channel energy to bring plants under your control.  ",
-			"**Prerequisites:** Channel energy class feature, Plant domain.  ",
+			"**Prerequisites:** {ability/Channel energy} class feature, Plant domain.  ",
 			"**Benefit:** As a standard action, you can use one of your daily uses of channel energy to command plants within 30 feet of you. Plants can attempt a Will save (DC = 10 + half your class level + your Charisma modifier) to negate the effect. This functions as the {spell/command plants} spell with a caster level equal to your class level. Each affected plant can attempt a new saving throw each day to escape this effect. You can control any number of plants, so long as their total Hit Dice do not exceed your class level. If you use channel energy in this way, it has no other effect (it does not heal or harm nearby creatures). If an affected plant creature is controlled by or a companion of another creature, you must attempt an opposed Charisma check whenever your orders conflict."
 		]
 	},
@@ -1115,7 +1115,7 @@
 			"{SOURCE PRPG Core Rulebook/120}",
 			"",
 			"Using foul powers of necromancy, you can command undead creatures, making them into your servants.  ",
-			"**Prerequisites:** Channel negative energy class feature.  ",
+			"**Prerequisites:** {ability/Channel negative energy} class feature.  ",
 			"**Benefit:** As a standard action, you can use one of your uses of channel negative energy to enslave undead within 30 feet. Undead receive a Will save to negate the effect. The DC for this Will save is equal to 10 + 1/2 your cleric level + your Charisma modifier. Undead that fail their saves fall under your control, obeying your commands to the best of their ability, as if under the effects of control undead. Intelligent undead receive a new saving throw each day to resist your command. You can control any number of undead, so long as their total Hit Dice do not exceed your cleric level. If you use channel energy in this way, it has no other effect (it does not heal or harm nearby creatures). If an undead creature is under the control of another creature, you must make an opposed Charisma check whenever your orders conflict.",
 			"",
 			"### Mythic Command Undead",
@@ -1123,7 +1123,7 @@
 			"{SOURCE Mythic Adventures/61}",
 			"",
 			"Your control of the undead is nearly absolute.  ",
-			"**Prerequisites:** {feat/Command Undead}.  ",
+			"**Prerequisites:** Command Undead.  ",
 			"**Benefit:** When you command undead, the DC of the Will save increases by half your tier, and intelligent undead get no additional saves beyond their first to resist your commands. Any attempts by non-mythic creatures to control undead you command automatically fail, and you gain a +4 bonus on Charisma checks to prevent mythic creatures from stealing control of your undead."
 		]
 	},
@@ -1272,7 +1272,7 @@
 			"{SOURCE Inner Sea Races/204}",
 			"",
 			"Your simultaneous ranged attacks punch through your foe's defenses with ease.  ",
-			"**Prerequisites:** {feat/Point-Blank Shot}, elf, weapon familiarity racial trait.  ",
+			"**Prerequisites:** {feat/Point-Blank Shot}, {race/elf}, weapon familiarity racial trait.  ",
 			"**Benefit:** If you and a single ally who also has this feat both ready an action to each make a ranged attack against the same opponent and choose the same condition for the readied action, when you and the ally make those attacks, each of you can use the highest of the two attack rolls for your attack roll. Furthermore, if you and your ally both hit the target, you can total the damage for both attacks before applying the target's damage reduction or energy resistance."
 		]
 	},
@@ -1411,7 +1411,7 @@
 			"{SOURCE Blood of Angels/25}",
 			"",
 			"You infuse spells with heavenly power, drastically increasing their effectiveness against would-be heralds of evil.  ",
-			"**Prerequisites:** Aasimar, able to prepare or cast consecrate.  ",
+			"**Prerequisites:** {race/Aasimar}, able to prepare or cast consecrate.  ",
 			"**Benefit:** A consecrated spell is treated as a maximized spell against evil creatures and creatures with the evil subtype. Against all other creatures, this feat does not modify the spell in any way (for example, a consecrated {spell/fireball} acts as a normal fireball against neutral or good creatures). This feat does not stack with {feat/Maximize Spell}. A consecrated spell uses up a spell slot two levels higher than the spell's actual level."
 		]
 	},
@@ -1560,7 +1560,7 @@
 			"{SOURCE Inner Sea Gods/209}",
 			"",
 			"When you channel negative energy, you can heal others in return for their obedience.  ",
-			"**Prerequisites:** Channel energy 7d6, worshiper of Asmodeus.  ",
+			"**Prerequisites:** {ability/Channel energy} 7d6, worshiper of {faith/Asmodeus}.  ",
 			"**Benefit:** Once per day when you channel negative energy to deal damage to living creatures, you can grant the effects of channeling positive energy to the faithful of Asmodeus. Worshipers of Asmodeus within the area of your channel recover a number of hit points equal to the amount of negative energy channeled. Non-Asmodeus worshipers within the channeled energy can convert to the worship of Asmodeus as an immediate action in order to gain this healing effect. As long as their conversion is sincere, willing converts gain the healing instead of the damage from the channeled negative energy. Such a conversion can only be undone by an atonement or similar effect."
 		]
 	},
@@ -1988,7 +1988,7 @@
 			"{SOURCE Inner Sea Gods/209}",
 			"",
 			"You show little fear while inebriated.  ",
-			"**Prerequisites:** Bravery class feature, worshiper of Cayden Cailean.  ",
+			"**Prerequisites:** Bravery class feature, worshiper of {faith/Cayden Cailean}.  ",
 			"**Benefit:** While you are intoxicated, the bonus you gain from your bravery class feature increases by 2. If this increase grants you a total bonus of +6 or higher against fear effects, you become immune to fear instead."
 		]
 	},
@@ -2014,7 +2014,7 @@
 			"{SOURCE Advanced Race Guide/66}",
 			"",
 			"Even when others run, you tend to stand your ground.  ",
-			"**Prerequisites:** Craven racial trait or fearless racial trait, halfling.  ",
+			"**Prerequisites:** Craven racial trait or fearless racial trait, {race/halfling}.  ",
 			"**Benefit:** If you have the fearless racial trait, your racial bonus on saving throws against fear effects increases to +4. If you have the craven racial trait, you still take the -2 penalty on fear saves, but you can gain the benefit of morale bonuses on saving throws against fear effects."
 		]
 	},
@@ -2027,7 +2027,7 @@
 			"{SOURCE Agents of Evil/24}",
 			"",
 			"You share your mother's gift for working in groups.  ",
-			"**Prerequisites:** Changeling.  ",
+			"**Prerequisites:** {race/Changeling}.  ",
 			"**Benefit:** As a standard action, you can attempt a special aid another action (1d20 + your choice of your Intelligence or Charisma modifier; DC 10). If you succeed, you can increase an adjacent spellcaster's caster level by 1 until the beginning of your next turn. If you also have the coven witch hex, you can apply this bonus to all members of your coven within 30 feet."
 		]
 	},
@@ -2040,7 +2040,7 @@
 			"{SOURCE Blood of the Coven/13}",
 			"",
 			"You have a natural affinity for coven magic.  ",
-			"**Prerequisites:** Cha 11, changeling.  ",
+			"**Prerequisites:** Cha 11, {race/changeling}.  ",
 			"**Benefit:** You can join a changeling coven even if you are not a witch with the coven hex. Your effective witch level is equal to half your character level. A changeling coven must still include at least one changeling witch who has the coven hex.",
 			"",
 			"Additionally, select a single a 0-level spell drawn from the {main/spells_<witch/'s spell list}. You gain the ability to cast this spell three times per day as a spell-like ability with a caster level equal to your character level. The save DC for this spell is 10 + your Intelligence modifier."
@@ -2724,7 +2724,7 @@
 			"{SOURCE Mythic Adventures/61}",
 			"",
 			"Your blows unerringly find your target's vital spots.  ",
-			"**Prerequisites:** {feat/Critical Focus}.  ",
+			"**Prerequisites:** Critical Focus.  ",
 			"**Benefit:** You automatically confirm critical threats against non-mythic opponents. In addition, when you threaten a critical hit against a creature wearing armor with the fortification special ability or similar effect, that creature must roll twice and take the worse result when determining critical hit negation."
 		]
 	},
@@ -2771,7 +2771,7 @@
 			"{SOURCE Advanced Race Guide/76}",
 			"",
 			"An open mind and combat training grant versatility to your critical hits.  ",
-			"**Prerequisites:** Fighter level 11th, human.  ",
+			"**Prerequisites:** Fighter level 11th, {race/human}.  ",
 			"**Benefit:** Once per day, you can spend 1 hour practicing maneuvers to gain one single critical feat that you meet the prerequisites for. You gain the benefits of the chosen critical feat until you choose to practice a different critical feat.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -2826,7 +2826,7 @@
 			"{SOURCE Inner Sea Races/204}",
 			"",
 			"Your failed attempt to humiliate a foe reveals its weaknesses to your allies.  ",
-			"**Prerequisites:** Half-orc.  ",
+			"**Prerequisites:** {race/Half-orc}.  ",
 			"**Benefit:** Whenever you fail a combat maneuver check, your allies within 30 feet who also have this feat gain a +2 circumstance bonus on combat maneuver checks of the same type against the same foe for 1 round."
 		]
 	},
@@ -2839,7 +2839,7 @@
 			"{SOURCE Inner Sea Gods/209}",
 			"",
 			"The suffering of others compels you to greater cruelties.  ",
-			"**Prerequisites:** Worshiper of Zon-Kuthon.  ",
+			"**Prerequisites:** Worshiper of {faith/Zon-Kuthon}.  ",
 			"**Benefit:** Whenever you deal bleed damage to an opponent, cause an opponent to suffer a fear or pain effect, or reduce an opponent's hit points to 0 or fewer, you gain a +2 morale bonus on attack rolls and weapon damage rolls for 1 round."
 		]
 	},
@@ -2873,7 +2873,7 @@
 			"{SOURCE Ultimate Combat/94}",
 			"",
 			"You learned to use your deity's favored weapon as part of your martial arts form.  ",
-			"**Prerequisites:** Channel energy class feature, flurry of blows class feature, {feat/Weapon Focus} with your deity's favored melee weapon.  ",
+			"**Prerequisites:** {ability/Channel energy} class feature, flurry of blows class feature, {feat/Weapon Focus} with your deity's favored melee weapon.  ",
 			"**Benefit:** You can use your deity's favored weapon as if it were a monk weapon."
 		]
 	},
@@ -3118,7 +3118,7 @@
 			"{SOURCE Inner Sea Gods/209}",
 			"",
 			"Your deity lays curses upon those who wrong you.  ",
-			"**Prerequisites:** Ability to cast at least one spell or spell-like ability with the curse descriptor, worshiper of Calistria.  ",
+			"**Prerequisites:** Ability to cast at least one spell or spell-like ability with the curse descriptor, worshiper of {faith/Calistria}.  ",
 			"**Benefit:** Whenever you are rendered helpless or a creature kills you, you can cast a single spell or spell-like ability with the curse descriptor as an immediate action before you become helpless or are killed. The curse must have a casting time of 1 standard action or less and must target the creature who rendered you helpless or who killed you. If the curse has a range of touch and the attacker is not within your reach, you can deliver it as a ranged touch attack with a range of 30 feet."
 		]
 	},
@@ -3301,12 +3301,12 @@
 			"{SOURCE Quests and Campaigns/8;Ultimate Campaign/67}",
 			"",
 			"From your earliest days, you were destined to sacrifice everything in your quest for power.  ",
-			"**Prerequisites:** You must have had friendly contact with an evil-aligned outsider that would qualify as a challenging foe, have a fiend-related sorcerous bloodline such as abyssal or infernal, have direct fiendish ancestry (such as being a tiefling or half-fiend), or have the Fiend Raised [adopted background](rule/birth_circumstances_and_more) or The Fiend {rule/influential_<associate/ background>s_table}.  ",
+			"**Prerequisites:** You must have had friendly contact with an evil-aligned outsider that would qualify as a challenging foe, have a fiend-related sorcerous bloodline such as abyssal or infernal, have direct fiendish ancestry (such as being a {race/tiefling} or half-fiend), or have the Fiend Raised [adopted background](rule/birth_circumstances_and_more) or The Fiend {rule/influential_<associate/ background>s_table}.  ",
 			"**Benefit:** You gain a +2 bonus on Charisma-based checks involving evil-aligned outsiders and +1 bonus to the DC of spells and spell-like abilities you use against such creatures. You take a -2 penalty on Charisma-based checks involving good-aligned outsiders.  ",
 			"**Goal:** Successfully trade your soul to an evil outsider.  ",
 			"**Completion Benefit:** You gain a +2 enhancement bonus to an ability score of your choice. This enhancement bonus can't be dispelled or removed save by the direct intervention of a deity, and counts as a supernatural ability. In addition, you gain a +2 bonus on caster level checks (including dispel checks and checks to bypass spell resistance) against good-aligned outsiders. If you die while under the effects of this agreement, you can't be brought back from the dead unless the evil outsider permits it. You lose your story benefits immediately and permanently if you renege on the arrangement by which you traded your soul, though you keep the feat's basic benefits.",
 			"",
-			"Suggested Traits: {trait/Domineering}, {trait/History of Heresy}, {trait/Magical Flair}.",
+			"*Suggested Traits:* {trait/Domineering}, {trait/History of Heresy}, {trait/Magical Flair}.",
 			"",
 			"### Possible Damned Quests",
 			"",
@@ -3422,7 +3422,7 @@
 			"{SOURCE Advanced Race Guide/111}",
 			"",
 			"With further modification, your eyes can pierce the gloom of even magical darkness.  ",
-			"**Prerequisites:** {feat/Gloom Sight}, fetchling.  ",
+			"**Prerequisites:** {feat/Gloom Sight}, {race/fetchling}.  ",
 			"**Benefit:** You gain the ability to see up to 15 feet clearly in magical darkness, such as that created by the deeper darkness spell."
 		]
 	},
@@ -3498,7 +3498,7 @@
 			"{SOURCE Mythic Adventures/61}",
 			"",
 			"You strike downed, dazed, and staggered opponents with deadly efficiency.  ",
-			"**Prerequisites:** {feat/Dastardly Finish}.  ",
+			"**Prerequisites:** Dastardly Finish.  ",
 			"**Benefit:** You can deliver a coup de grace to dazed and staggered non-mythic opponents. In addition, when any creature makes a Fortitude saving throw to survive one of your coup de grace attempts, it takes a penalty to that saving throw equal to your tier."
 		]
 	},
@@ -3524,7 +3524,7 @@
 			"{SOURCE Advanced Race Guide/77}",
 			"",
 			"Your ability to avert disaster is impressive.  ",
-			"**Prerequisites:** Cha 13, {feat/Fearless Curiosity}, Intimidate 10 ranks, human.  ",
+			"**Prerequisites:** Cha 13, {feat/Fearless Curiosity}, Intimidate 10 ranks, {race/human}.  ",
 			"**Benefit:** You gain a +1 bonus on saving throws against effects with the emotion descriptor; this bonus stacks with those granted by Fearless Curiosity and Intimidating Confidence. In addition, once per day you may reroll a natural 1 on a saving throw or an attack roll. If your reroll results in a successful saving throw or attack roll, as a free action you can make an Intimidate check to demoralize the target of your attack or the creature that forced you to make a saving throw, as long as the creature is within 30 feet and can see and hear you. This effect does not apply on saving throws against traps or other objects. This does not stack with other effects that allow you to reroll a saving throw or an attack roll. You may only make one reroll."
 		]
 	},
@@ -3537,7 +3537,7 @@
 			"{SOURCE Heroes from the Fringe/25}",
 			"",
 			"As a chosen of the Dawnflower, you are a beacon of hope to the faithful and a bane against the unrepentant.  ",
-			"**Prerequisites:** Ability to cast divine spells, sandkin half-orc, worshiper of Sarenrae.  ",
+			"**Prerequisites:** Ability to cast divine spells, sandkin {race/half-orc}, worshiper of {faith/Sarenrae}.  ",
 			"**Benefit:** When casting divine spells in bright light, you can treat your caster level as 1 higher. In addition, your damaging spells with the fire or light descriptor deal one additional point of damage even outside areas of bright light."
 		]
 	},
@@ -3621,7 +3621,7 @@
 			"{SOURCE Mythic Adventures/61}",
 			"",
 			"You can quickly deter others with your martial mastery.  ",
-			"**Prerequisites:** {feat/Dazzling Display}.  ",
+			"**Prerequisites:** Dazzling Display.  ",
 			"**Benefit:** While wielding the weapon with which you have Weapon Focus, you can use Dazzling Display as a standard action with a -5 penalty on your Intimidate check, as a move action with a -10 penalty, or as a swift action with a -20 penalty. You can expend one use of mythic power when you make a Dazzling Display to make those affected by the display frightened rather than shaken."
 		]
 	},
@@ -3707,7 +3707,7 @@
 			"{SOURCE Mythic Adventures/61}",
 			"",
 			"Your aim is truly devastating.  ",
-			"**Prerequisites:** {feat/Deadly Aim}.  ",
+			"**Prerequisites:** Deadly Aim.  ",
 			"**Benefit:** When you use Deadly Aim, you gain a +3 bonus on ranged damage rolls instead of +2. When your base attack bonus reaches +4, and every +4 thereafter, the bonus on ranged damage rolls increases by +3 rather than +2."
 		]
 	},
@@ -3774,7 +3774,7 @@
 			"{SOURCE Book of the Damned/178}",
 			"",
 			"Many tieflings bear horns as an overt mark of their fiendish heritage; you have learned to use yours as a weapon.  ",
-			"**Prerequisites:** Base attack bonus +1, tiefling.  ",
+			"**Prerequisites:** Base attack bonus +1, {race/tiefling}.  ",
 			"**Benefit:** You gain a gore natural attack that deals 1d6 points of damage. Due to the awkwardness of attacking this way, you can't make a gore attack and other natural weapon attacks as part of the same full attack. Treat your gore attack as a secondary attack if you also attack with a manufactured weapon as part of a full attack in a round."
 		]
 	},
@@ -3820,7 +3820,7 @@
 			"{SOURCE Mythic Adventures/62}",
 			"",
 			"You can kill with a single stroke.  ",
-			"**Prerequisites:** {feat/Deadly Stroke}.  ",
+			"**Prerequisites:** Deadly Stroke.  ",
 			"**Benefit:** When making a Deadly Stroke attack, you can expend one use of mythic power to instantly kill a non-mythic living creature. A Fortitude save (DC 10 + your base attack bonus + your tier) negates this effect, though the attack still deals double damage and Con bleed as Deadly Stroke. Constructs, oozes, and creatures immune to critical hits or precision-based damage can't be killed with this feat."
 		]
 	},
@@ -3846,7 +3846,7 @@
 			"{SOURCE Inner Sea Races/204}",
 			"",
 			"You combine elements of dance and acting with your combat style to distract your enemies.  ",
-			"**Prerequisites:** Perform (act) or Perform (dance) 3 ranks, human (Varisian).  ",
+			"**Prerequisites:** Perform (act) or Perform (dance) 3 ranks, {race/human} (Varisian).  ",
 			"**Benefit:** When at least one ally who also has this feat is threatening a foe, you gain a +4 circumstance bonus against that foe on Bluff checks to feint, Bluff checks to create a diversion to hide, and Acrobatics checks to move through that foe's threatened squares. You also gain a +2 circumstance bonus on steal and dirty trick combat maneuver checks made against that foe."
 		]
 	},
@@ -3929,7 +3929,7 @@
 			"{SOURCE Mythic Adventures/62}",
 			"",
 			"When attacking from the air or higher ground, you bear down on your enemy to deadly effect.  ",
-			"**Prerequisites:** {feat/Death from Above}.  ",
+			"**Prerequisites:** Death from Above.  ",
 			"**Benefit:** Whenever you charge an opponent from higher ground, or from above while flying, the critical multiplier of your weapon increases by 2 (to a maximum of &times;6). This doesn't stack with other abilities that increase a weapon's critical multiplier. If your charge attack hits, you can perform a trip combat maneuver against the attack's target as a free action without provoking attacks of opportunity."
 		]
 	},
@@ -3993,7 +3993,7 @@
 			"{SOURCE Ultimate Combat/95}",
 			"",
 			"For you, impending death is a call to wrath.  ",
-			"**Prerequisites:** Str 13, Con 13, orc or half-orc, {feat/Diehard}, {feat/Endurance}, base attack bonus +6.  ",
+			"**Prerequisites:** Str 13, Con 13, {race/orc} or {race/half-orc}, {feat/Diehard}, {feat/Endurance}, base attack bonus +6.  ",
 			"**Benefit:** You are not staggered while using the Diehard feat, but if you take a move and a standard action or a full-round action while you are at 0 or fewer hit points you take 1 point of damage. Further, while using the Diehard feat, you gain a +2 bonus on melee attacks and damage rolls.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -4014,7 +4014,7 @@
 			"{SOURCE Ultimate Combat/95}",
 			"",
 			"Even if you suffer a grievous wound, you can shrug off the damage and continue your relentless assault.  ",
-			"**Prerequisites:** Str 13, Con 15, orc or half-orc, {feat/Deathless Initiate}, {feat/Diehard}, {feat/Endurance}, {feat/Ironhide}, base attack bonus +9.  ",
+			"**Prerequisites:** Str 13, Con 15, {race/orc} or {race/half-orc}, {feat/Deathless Initiate}, {feat/Diehard}, {feat/Endurance}, {feat/Ironhide}, base attack bonus +9.  ",
 			"**Benefit:** When you are at 0 or fewer hit points, you do not lose 1 hit point when you take an action.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -4035,7 +4035,7 @@
 			"{SOURCE Ultimate Combat/95}",
 			"",
 			"Only the most serious wounds can stop you.  ",
-			"**Prerequisites:** Str 13, Con 17, orc or half-orc, {feat/Deathless Initiate}, {feat/Deathless Master}, {feat/Diehard}, {feat/Endurance}, {feat/Ironhide}, base attack bonus +12.  ",
+			"**Prerequisites:** Str 13, Con 17, {race/orc} or {race/half-orc}, {feat/Deathless Initiate}, {feat/Deathless Master}, {feat/Diehard}, {feat/Endurance}, {feat/Ironhide}, base attack bonus +12.  ",
 			"**Benefit:** Whenever a creature rolls to confirm a critical hit against you, it must roll twice and take the lowest result.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -4089,7 +4089,7 @@
 			"{SOURCE Mythic Adventures/62}",
 			"",
 			"Your power to mislead is beyond compare.  ",
-			"**Prerequisites:** {feat/Deceitful}.  ",
+			"**Prerequisites:** Deceitful.  ",
 			"**Benefit:** The bonus on Bluff and Disguise skill checks from Deceitful increases by 2. In addition, you can expend one use of mythic power to treat a Bluff or Disguise check as if you had rolled a natural 20. You must decide to use this ability before making the roll."
 		]
 	},
@@ -4235,7 +4235,7 @@
 			"{SOURCE Mythic Adventures/62}",
 			"",
 			"Your sharp eyes can penetrate deeper into the darkness, revealing more to you.  ",
-			"**Prerequisites:** {feat/Deepsight}.  ",
+			"**Prerequisites:** Deepsight.  ",
 			"**Benefit:** The range of your darkvision increases by 10 feet per tier."
 		]
 	},
@@ -4296,7 +4296,7 @@
 			"{SOURCE Mythic Adventures/63}",
 			"",
 			"Your defensive capabilities in combat are unmatched.  ",
-			"**Prerequisites:** {feat/Defensive Combat Training}, 4th mythic tier.  ",
+			"**Prerequisites:** Defensive Combat Training, 4th mythic tier.  ",
 			"**Benefit:** Add half your tier to your CMD."
 		]
 	},
@@ -4331,7 +4331,7 @@
 			"{SOURCE Advanced Race Guide/77}",
 			"",
 			"You can sometimes defiantly shrug off spells and attacks that would kill a lesser creature.  ",
-			"**Prerequisites:** Human.  ",
+			"**Prerequisites:** {race/Human}.  ",
 			"**Benefit:** Once per day, after you roll a natural 1 on a saving throw or a critical hit is confirmed against you, you can either reroll that saving throw, or force the creature that confirmed the critical hit against you to reroll the critical confirmation roll. This does not stack with other effects that allow you to reroll a saving throw or an attack roll. You may only make one reroll.  ",
 			"**Special:** If you are using the optional hero point system, you can also spend 1 hero point when a critical hit is confirmed against you to have the opponent reroll the critical hit confirmation roll."
 		]
@@ -4362,7 +4362,7 @@
 			"{SOURCE Mythic Adventures/63}",
 			"",
 			"You deflect projectiles and ray spells with uncanny skill.  ",
-			"**Prerequisites:** {feat/Deflect Arrows}.  ",
+			"**Prerequisites:** Deflect Arrows.  ",
 			"**Benefit:** When using Deflect Arrows, you can deflect an additional number of ranged attacks per round equal to half your tier. You can expend one use of mythic power as an immediate action to deflect a single ray from a ray spell or effect targeting you."
 		]
 	},
@@ -4398,7 +4398,7 @@
 			"{SOURCE Mythic Adventures/63}",
 			"",
 			"Your hands are astonishingly nimble.  ",
-			"**Prerequisites:** {feat/Deft Hands}.  ",
+			"**Prerequisites:** Deft Hands.  ",
 			"**Benefit:** The bonus on Disable Device and Sleight of Hand skill checks from Deft Hands increases by 2. In addition, you can expend one use of mythic power to treat a Disable Device or Sleight of Hand check as if you had rolled a natural 20. You must decide to use this ability before making the roll."
 		]
 	},
@@ -4689,7 +4689,7 @@
 			"{SOURCE Advanced Race Guide/18}",
 			"",
 			"Your helm protects you from hard hits.  ",
-			"**Prerequisites:** {feat/Hard-Headed}, base attack bonus +6, dwarf.  ",
+			"**Prerequisites:** {feat/Hard-Headed}, base attack bonus +6, {race/dwarf}.  ",
 			"**Benefit:** When wearing a helmet, you add +1 to your AC against critical hit confirmation rolls. When a critical hit is confirmed against you, as an immediate action, you can apply half of the damage from the attack to your helmet rather than yourself, applying hardness as normal. If the damage destroys your helmet, any leftover damage is applied to you. After using this feat, you are staggered until the end of your next turn. You may not use this feat if your helmet has the broken condition or the attack ignores armor bonuses to AC.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -4823,7 +4823,7 @@
 			"{SOURCE Advanced Race Guide/66}",
 			"",
 			"You land your most telling blows in desperate situations.  ",
-			"**Prerequisites:** {feat/Cautious Fighter}, base attack bonus +1, halfling.  ",
+			"**Prerequisites:** {feat/Cautious Fighter}, base attack bonus +1, {race/halfling}.  ",
 			"**Benefit:** Once per day, you can make a single melee attack while taking the total defense action. You take a -4 penalty on attack rolls when making this attack. You also gain a +4 bonus on critical confirmation rolls made while fighting defensively or making an attack of opportunity using this feat.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -4845,7 +4845,7 @@
 			"{SOURCE Inner Sea Gods/210;Faiths of Corruption/24}",
 			"",
 			"You can use your weapons to mar your opponents' most distinctive characteristics.  ",
-			"**Prerequisites:** {feat/Critical Focus}, base attack bonus +11, worshiper of Lamashtu.  ",
+			"**Prerequisites:** {feat/Critical Focus}, base attack bonus +11, worshiper of {faith/Lamashtu}.  ",
 			"**Benefit:** Whenever you confirm a critical hit against an opponent, in addition to dealing critical damage as normal, you maim your target so much that it takes 2 points of Charisma damage and becomes staggered for 1 round.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -4867,7 +4867,7 @@
 			"{SOURCE Advanced Race Guide/56;Orcs of Golarion/24}",
 			"",
 			"Breaking things adds to your power.  ",
-			"**Prerequisites:** Half-orc or orc, rage class feature.  ",
+			"**Prerequisites:** {race/Half-orc} or {race/orc}, rage class feature.  ",
 			"**Benefit:** When you are raging and you succeed at a sunder combat maneuver, you regain 1 round of rage. If the sunder attempt causes the object to gain the broken condition, you heal 1 hit point. You can only gain these benefits once per round.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",

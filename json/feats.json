@@ -624,7 +624,7 @@
 			"By focusing all your attention into a single attack, you vastly increase the effectiveness of thrown alchemical items.  ",
 			"**Prerequisites:** {feat/Throw Anything}, base attack bonus +6.  ",
 			"**Benefit:** You can throw a single alchemical item as a full-attack action, increasing the effectiveness of the alchemical agent thrown. When throwing a single alchemical item as a full-attack action, you increase the DC of any effects associated with that alchemical item by 2. When your base attack bonus reaches +11 and every 5 points of bonus thereafter, increase the saving throw DC of the alchemical item by an additional 2. This feat does not apply to an alchemist's bombs.  ",
-			"**Special:** An alchemist can take this feat in place of an alchemist discovery. He does not need to meet its prerequisites. The alchemist uses his class level, rather than the base attack bonus granted by the alchemist class, to calculate his total base attack bonus for the purposes of determining the bonus granted by this feat."
+			"**Special:** An {class/alchemist} can take this feat in place of an alchemist discovery. He does not need to meet its prerequisites. The alchemist uses his class level, rather than the base attack bonus granted by the alchemist class, to calculate his total base attack bonus for the purposes of determining the bonus granted by this feat."
 		]
 	},
 	"aldori_artistry": {
@@ -636,8 +636,8 @@
 			"{SOURCE Adventurer's Guide/24}",
 			"",
 			"You can do more with your blade than slash and stab.  ",
-			"**Prerequisites:** {feat/Exotic Weapon Proficiency} (Aldori dueling sword), {feat/Weapon Finesse}, base attack bonus +2.  ",
-			"**Benefit:** Choose one of the following combat maneuvers: disarm, reposition, steal, sunder, or trip. You gain a +2 bonus when performing the selected maneuver while wielding an Aldori dueling sword. This bonus does not stack with the bonus provided by a combat maneuver feat with \"improved\" in its name (such as {feat/Improved Trip}).  ",
+			"**Prerequisites:** {feat/Exotic Weapon Proficiency} ({eq-weapon/Aldori dueling sword}), {feat/Weapon Finesse}, base attack bonus +2.  ",
+			"**Benefit:** Choose one of the following {rule/combat maneuvers}: disarm, reposition, steal, sunder, or trip. You gain a +2 bonus when performing the selected maneuver while wielding an Aldori dueling sword. This bonus does not stack with the bonus provided by a combat maneuver feat with \"improved\" in its name (such as {feat/Improved Trip}).  ",
 			"**Special:** You can select this feat multiple times, choosing a different combat maneuver each time."
 		]
 	},
@@ -654,7 +654,7 @@
 			"{SOURCE Adventurer's Guide/24;Inner Sea Combat/10}",
 			"",
 			"Your prowess in Aldori swordplay grants you bravado.  ",
-			"**Prerequisites:** {feat/Exotic Weapon Proficiency} (Aldori dueling sword), {feat/Weapon Finesse}, {feat/Weapon Focus} (Aldori dueling sword).  ",
+			"**Prerequisites:** {feat/Exotic Weapon Proficiency} ({eq-weapon/Aldori dueling sword}), {feat/Weapon Finesse}, {feat/Weapon Focus} (Aldori dueling sword).  ",
 			"**Benefit:** You gain a +2 morale bonus on Intimidate checks to demoralize opponents, and the DC of any attempt to demoralize you increases by 2. When you're participating in a duel, these bonuses increase to +4.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -677,7 +677,7 @@
 			"{SOURCE Adventurer's Guide/24;Pathfinder Campaign Setting/67;Inner Sea World Guide/284}",
 			"",
 			"You have mastered the impenetrable Aldori fighting style.  ",
-			"**Prerequisites:** {feat/Exotic Weapon Proficiency} (Aldori dueling sword), {feat/Quick Draw}, {feat/Weapon Finesse}, {feat/Weapon Focus} (Aldori dueling sword).  ",
+			"**Prerequisites:** {feat/Exotic Weapon Proficiency} ({eq-weapon/Aldori dueling sword}), {feat/Quick Draw}, {feat/Weapon Finesse}, {feat/Weapon Focus} (Aldori dueling sword).  ",
 			"**Benefit:** You gain a +2 bonus on initiative checks as long as you start combat with an Aldori dueling sword in your hand. As long as you wield only a single Aldori dueling sword in one hand (not using a shield, an off-hand weapon, armor spikes, unarmed strikes, or natural weapons), you gain a +2 shield bonus to your AC. If you wield the sword in two hands, this bonus drops to a +1 shield bonus to AC. Although the dueling sword deals slashing damage, you treat it as if it were also a piercing weapon when determining the effects of weapons used by a duelist or swashbuckler.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -695,7 +695,7 @@
 			"{SOURCE Adventurer's Guide/24}",
 			"",
 			"You have learned the classic Aldori dueling stance.  ",
-			"**Prerequisites:** {feat/Alertness}, {feat/Exotic Weapon Proficiency/ (Aldori dueling sword)}, {feat/Weapon Finesse}, {feat/Weapon Focus/ (Aldori dueling sword)}.  ",
+			"**Prerequisites:** {feat/Alertness}, {feat/Exotic Weapon Proficiency} ({eq-weapon/Aldori dueling sword}), {feat/Weapon Finesse}, {feat/Weapon Focus} (Aldori dueling sword).  ",
 			"**Benefit:** While using Aldori Style and wielding only a single Aldori dueling sword in one hand (not using a shield, an off-hand weapon, armor spikes, unarmed strikes, or natural weapons), when you fight defensively or use {feat/Combat Expertise}, you gain a +2 bonus on weapon damage rolls."
 		]
 	},
@@ -708,8 +708,8 @@
 			"{SOURCE Adventurer's Guide/24}",
 			"",
 			"Baron Aldori's dueling style is at its strongest when employed in one-on-one duels. Adjusting to a reverse grip and keeping your blade in motion, you parry your rival's strikes with ease.  ",
-			"**Prerequisites:** {feat/Aldori Style}, {feat/Alertness}, {feat/Combat Reflexes}, {feat/Exotic Weapon Proficiency/ (Aldori dueling sword)}, {feat/Weapon Finesse}, {feat/Weapon Focus/ (Aldori dueling sword)}.  ",
-			"**Benefit:** While using Aldori Style, at the beginning of your turn, you can designate a focused target as a swift action. This designation lasts until the beginning of your next turn, and you take a -2 penalty to your AC against all other creatures' attacks for that duration. As an immediate action while using {feat/Combat Expertise} or fighting defensively, you can attempt to parry the focused target's attack. This functions as the swashbuckler's opportune parry and riposte deed, except that it does not cost panache and you cannot riposte."
+			"**Prerequisites:** {feat/Aldori Style}, {feat/Alertness}, {feat/Combat Reflexes}, {feat/Exotic Weapon Proficiency} ({eq-weapon/Aldori dueling sword}), {feat/Weapon Finesse}, {feat/Weapon Focus} (Aldori dueling sword).  ",
+			"**Benefit:** While using Aldori Style, at the beginning of your turn, you can designate a focused target as a swift action. This designation lasts until the beginning of your next turn, and you take a -2 penalty to your AC against all other creatures' attacks for that duration. As an immediate action while using {feat/Combat Expertise} or fighting defensively, you can attempt to parry the focused target's attack. This functions as the swashbuckler's {swashdeed/opportune parry and riposte} deed, except that it does not cost panache and you cannot riposte."
 		]
 	},
 	"aldori_style_conquest": {
@@ -721,7 +721,7 @@
 			"{SOURCE Adventurer's Guide/25}",
 			"",
 			"Defense is now second nature to you, and your blade punishes those who try to attack and fail.  ",
-			"**Prerequisites:** {feat/Aldori Style}, {feat/Aldori Style Aegis}, {feat/Alertness}, {feat/Combat Reflexes}, {feat/Exotic Weapon Proficiency/ (Aldori dueling sword)}, {feat/Weapon Finesse}, {feat/Weapon Focus/ (Aldori dueling sword)}.  ",
+			"**Prerequisites:** {feat/Aldori Style}, {feat/Aldori Style Aegis}, {feat/Alertness}, {feat/Combat Reflexes}, {feat/Exotic Weapon Proficiency} ({eq-weapon/Aldori dueling sword}), {feat/Weapon Finesse}, {feat/Weapon Focus} (Aldori dueling sword).  ",
 			"**Benefit:** When you attempt to parry an attack using Aldori Style Aegis, you do not take any penalties on the attack roll incurred from using {feat/Combat Expertise} or fighting defensively."
 		]
 	},
@@ -744,7 +744,7 @@
 			"{SOURCE Mythic Adventures/54}",
 			"",
 			"Your powers of perception surpass everyone's, whether used to observe your surroundings or the intentions of others.  ",
-			"**Prerequisites:** {feat/Alertness}.  ",
+			"**Prerequisites:** Alertness.  ",
 			"**Benefit:** The bonus on Perception and Sense Motive skill checks from Alertness increases by 2. In addition, you can expend one use of mythic power to treat a Perception or Sense Motive check as if you had rolled a natural 20. You must decide to use this ability before making the roll."
 		]
 	},
@@ -757,7 +757,7 @@
 			"{SOURCE Inner Sea Races/201}",
 			"",
 			"When you're in the company of other aliens, your thoughts become difficult to follow.  ",
-			"**Prerequisites:** Android, kasatha, lashunta, or Triaxian.  ",
+			"**Prerequisites:** {race/Android}, {race/kasatha}, {race/lashunta}, or {race/Triaxian}.  ",
 			"**Benefit:** Whenever you're adjacent to at least one other android, kasatha, lashunta, or Triaxian ally who also has this feat, you gain a +4 circumstance bonus on saves against mind-affecting effects and divination (scrying) effects, unless the effect comes from an android, kasatha, lashunta, or Triaxian."
 		]
 	},
@@ -770,25 +770,27 @@
 			"{SOURCE Undead Slayer's Handbook/6}",
 			"",
 			"You gain the ability to bless equipment with abilities that make them more effective against outsiders.  ",
-			"**Prerequisites:** {feat/Alignment Channel}, {feat/Bless Equipment}, caster level 3rd, channel energy class feature.  ",
+			"**Prerequisites:** {feat/Alignment Channel}, {feat/Bless Equipment}, caster level 3rd, {ability/channel energy} class feature.  ",
 			"**Benefit:** In addition to the blessings provided by Bless Equipment, you can imbue weapons, shields, and suits of armor with the special abilities listed in the following table. If a special ability is followed by an alignment set in parentheses, you must be able to channel energy capable of healing or harming outsiders of that alignment subtype with {feat/Alignment Channel}. For example, a cleric must have Alignment Channel (good) to bless a weapon with the holy special ability, Alignment Channel (law) to bless a shield with the vigilant special ability, and so on. Aligned equipment blessings otherwise follow all the same rules as the equipment blessings granted by Bless Equipment.",
 			"",
 			"### Aligned Equipment Blessings",
 			"",
 			"| Aligned Weapon Blessings | Uses of Channel Energy | Caster Level Required |",
 			"| --- | --- | --- |",
-			"| Anarchic (chaos) | 3 | 6th |",
-			"| Axiomatic (law) | 3 | 6th |",
-			"| Holy (good) | 3 | 6th |",
-			"| Unholy (evil) | 3 | 6th |",
+			"| {magic-enh/Anarchic} (chaos) | 3 | 6th |",
+			"| {magic-enh/Axiomatic} (law) | 3 | 6th |",
+			"| {magic-enh/Holy} (good) | 3 | 6th |",
+			"| {magic-enh/Unholy} (evil) | 3 | 6th |",
+			"",
 			"| Aligned Armor/Shield Blessings | Uses of Channel Energy | Caster Level Required |",
-			"| Champion (good) | 2 | 3rd |",
-			"| Dastard (evil) | 2 | 3rd |",
-			"| Defiant (chaotic, evil, good, or lawful outsiders only)[^N] | 2 | 3rd |",
-			"| Righteous (good) | 6 | 10th |",
-			"| Unbound (chaotic) | 6 | 10th |",
-			"| Unrighteous (evil) | 6 | 10th |",
-			"| Vigilant (lawful) | 6 | 10th |",
+			"| --- | --- | --- |",
+			"| {magic-enh/Champion} (good) | 2 | 3rd |",
+			"| {magic-enh/Dastard} (evil) | 2 | 3rd |",
+			"| {magic-enh/Defiant} (chaotic, evil, good, or lawful outsiders only)[^N] | 2 | 3rd |",
+			"| {magic-enh/Righteous} (good) | 6 | 10th |",
+			"| {magic-enh/Unbound} (chaotic) | 6 | 10th |",
+			"| {magic-enh/Unrighteous} (evil) | 6 | 10th |",
+			"| {magic-enh/Vigilant} (lawful) | 6 | 10th |",
 			"",
 			"[^N]: You must be capable of channeling energy that heals or harms outsiders of the chosen alignment subtype."
 		]
@@ -803,7 +805,7 @@
 			"",
 			"Your magical creations reject those you oppose.  ",
 			"**Prerequisites:** {feat/Craft Magic Arms and Armor} or {feat/Craft Wondrous Item}.  ",
-			"**Benefit:** When you craft a magic weapon, magic armor, a magic shield, or a wondrous item, you can infuse it with a bit of your convictions. Creatures that are more than one alignment step away from you are sickened while using or wearing this item. An item that has been infused with your alignment can never have an opposing special ability added to it later (for example, a longsword infused with your lawful good alignment cannot later gain the anarchic weapon special ability). Infusing the item with your alignment in this way increases the items total construction cost by 10%."
+			"**Benefit:** When you craft a magic weapon, magic armor, a magic shield, or a wondrous item, you can infuse it with a bit of your convictions. Creatures that are more than one alignment step away from you are {misc/sickened} while using or wearing this item. An item that has been infused with your alignment can never have an opposing special ability added to it later (for example, a longsword infused with your lawful good alignment cannot later gain the {magic-enh/anarchic} weapon special ability). Infusing the item with your alignment in this way increases the items total construction cost by 10%."
 		]
 	},
 	"alignment_channel": {
@@ -818,7 +820,7 @@
 			"{SOURCE PRPG Core Rulebook/117}",
 			"",
 			"Choose chaos, evil, good, or law. You can channel divine energy to affect outsiders that possess this subtype.  ",
-			"**Prerequisites:** Ability to channel energy.  ",
+			"**Prerequisites:** Ability to {ability/channel energy}.  ",
 			"**Benefit:** Instead of its normal effect, you can choose to have your ability to channel energy heal or harm outsiders of the chosen alignment subtype. You must make this choice each time you channel energy. If you choose to heal or harm creatures of the chosen alignment subtype, your channel energy has no effect on other creatures. The amount of damage healed or dealt and the DC to halve the damage is otherwise unchanged.  ",
 			"**Special:** You can gain this feat multiple times. Its effects do not stack. Each time you take this feat, it applies to a new alignment subtype. Whenever you channel energy, you must choose which type to effect.",
 			"",
@@ -827,7 +829,7 @@
 			"{SOURCE Mythic Adventures/54}",
 			"",
 			"The power of your faith harms all creatures that follow the alignment you abhor.  ",
-			"**Prerequisites:** {feat/Alignment Channel}.  ",
+			"**Prerequisites:** Alignment Channel.  ",
 			"**Benefit:** Your channeled energy affects any creatures with the alignment chosen when you took Alignment Channel (not just outsiders, and not just those with the alignment subtype), but grants only half healing or deals only half damage to these targets. Alternatively, you can expend two uses of mythic power when using Alignment Channel to affect all targets of the chosen alignment as if they had that alignment subtype."
 		]
 	},
@@ -866,9 +868,9 @@
 			"{SOURCE Blood of the Sea/15}",
 			"",
 			"You can draw upon aid from the ocean more frequently.  ",
-			"**Prerequisites:** Triton, summon nature's ally II spell-like ability, character level 3rd.  ",
-			"**Benefit:** You gain two additional uses of summon nature's ally II per day.  ",
-			"**Special:** You may take this feat multiple times. Each time you select it, you gain two additional uses of summon nature's ally II."
+			"**Prerequisites:** {race/Triton}, {spell/summon nature's ally II} spell-like ability, character level 3rd.  ",
+			"**Benefit:** You gain two additional uses of *summon nature's ally II* per day.  ",
+			"**Special:** You may take this feat multiple times. Each time you select it, you gain two additional uses of *summon nature's ally II.*"
 		]
 	},
 	"ally_shield": {
@@ -880,7 +882,7 @@
 			"{SOURCE Champions of Corruption/20}",
 			"",
 			"You are willing to use your allies as shields to ward off attacks aimed at you.  ",
-			"**Benefit:** Whenever you are the target of a melee or ranged attack and are adjacent to an ally who also has this feat, you can initiate this feat to skillfully pull the abettor into harm's way or dodge behind the abettor as an immediate action. You gain cover against that attack (and only that attack). If the attack misses you but would have hit you if not for the cover bonus to your Armor Class, the abettor becomes the target of the attack and the attacker must make a new attack roll (with all the same modifiers) against the abettor's Armor Class."
+			"**Benefit:** Whenever you are the target of a melee or ranged attack and are adjacent to an ally who also has this feat, you can initiate this feat to skillfully pull the abettor into harm's way or dodge behind the abettor as an immediate action. You gain {rule/cover} against that attack (and only that attack). If the attack misses you but would have hit you if not for the cover bonus to your Armor Class, the abettor becomes the target of the attack and the attacker must make a new attack roll (with all the same modifiers) against the abettor's Armor Class."
 		]
 	},
 	"alter_binary_mindscape": {
@@ -892,8 +894,8 @@
 			"{SOURCE Occult Adventures/129}",
 			"",
 			"You can shift and change a binary mindscape to your advantage during a psychic duel.  ",
-			"**Prerequisites:** Int 13, ability to cast instigate psychic duel.  ",
-			"**Benefit:** When you cast instigate psychic duel and create a binary mindscape, the arena you create puts your enemy at a disadvantage. Your opponent must spend 1 more manifestation point than normal when creating any defensive manifestations."
+			"**Prerequisites:** Int 13, ability to cast {spell/instigate psychic duel}.  ",
+			"**Benefit:** When you cast *instigate psychic duel* and create a {rule/binary mindscape>s}, the arena you create puts your enemy at a disadvantage. Your opponent must spend 1 more manifestation point than normal when creating any defensive manifestations."
 		]
 	},
 	"altitude_affinity": {
@@ -923,7 +925,7 @@
 			"",
 			"This horse was trained by the [Al-Zabriti](rule/aff_deserts) tribespeople. It knows more tricks and is more loyal to its rider than most mounts.  ",
 			"**Prerequisites:** Horse.  ",
-			"**Benefit:** This horse automatically knows the tricks included in the combat riding trick (attack, come, defend, down, guard, and heel), and these tricks do not count against the normal maximum number of tricks the horse can learn. The Handle Animal DC to get the horse to perform a trick is reduced by 5, and the DC to teach the horse new tricks is reduced by 5."
+			"**Benefit:** This horse automatically knows the {ability/animal_<tricks} included in the combat riding trick (attack, come, defend, down, guard, and heel), and these tricks do not count against the normal maximum number of tricks the horse can learn. The Handle Animal DC to get the horse to perform a trick is reduced by 5, and the DC to teach the horse new tricks is reduced by 5."
 		]
 	},
 	"amateur_gunslinger": {
@@ -939,8 +941,8 @@
 			"",
 			"Although you are not a gunslinger, you have and can use grit.  ",
 			"**Prerequisites:** You have no levels in a class that has the grit class feature.  ",
-			"**Benefit:** You gain a small amount of grit and the ability to perform a single 1st-level deed from the gunslinger deed class feature. At the start of the day, you gain 1 grit point, though throughout the day you can gain grit points up to a maximum of your Wisdom modifier (minimum 1). You can regain grit using the rules for the gunslinger's grit class feature. You can spend this grit to perform the 1st-level deed you chose upon taking this feat, and any other deed you have gained through feats or magic items.  ",
-			"**Special:** If you gain levels in a class that grants the grit class feature, you can immediately trade this feat for the Extra Grit feat.",
+			"**Benefit:** You gain a small amount of grit and the ability to perform a single 1st-level deeds from the {ability/gunslinger deed>s} class feature. At the start of the day, you gain 1 grit point, though throughout the day you can gain grit points up to a maximum of your Wisdom modifier (minimum 1). You can regain grit using the rules for the {class/gunslinger/'s} grit class feature. You can spend this grit to perform the 1st-level deed you chose upon taking this feat, and any other deed you have gained through feats or magic items.  ",
+			"**Special:** If you gain levels in a class that grants the grit class feature, you can immediately trade this feat for the {feat/Extra Grit} feat.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/113}",
@@ -958,8 +960,8 @@
 			"",
 			"Your knowledge is more than plain smarts - it's inspired.  ",
 			"**Prerequisites:** Int 13, 1 rank in at least one Knowledge skill, no levels in a class that has the inspiration class feature.  ",
-			"**Benefit:** Like an investigator, you have the ability to augment your Knowledge, Linguistics, and Spellcraft skill checks. You gain a pool of inspiration equal to your Intelligence modifier. You can expend one use of inspiration as a free action to add 1d6 to the result of a Knowledge, Linguistics, or Spellcraft check, as long as you are trained in that skill (even if you take 10 or 20 on that check). You make this choice after the check is rolled and before the results of the roll are revealed. You can use inspiration only once per skill check. Your pool of inspiration refreshes each day, typically after you get a restful night's sleep.  ",
-			"**Special:** If you gain levels in a class that has the inspiration class feature, you can immediately trade this feat for the Extra Inspiration feat."
+			"**Benefit:** Like an {class/investigator}, you have the ability to augment your Knowledge, Linguistics, and Spellcraft skill checks. You gain a pool of inspiration equal to your Intelligence modifier. You can expend one use of inspiration as a free action to add 1d6 to the result of a Knowledge, Linguistics, or Spellcraft check, as long as you are trained in that skill (even if you take 10 or 20 on that check). You make this choice after the check is rolled and before the results of the roll are revealed. You can use inspiration only once per skill check. Your pool of inspiration refreshes each day, typically after you get a restful night's sleep.  ",
+			"**Special:** If you gain levels in a class that has the inspiration class feature, you can immediately trade this feat for the {feat/Extra Inspiration} feat."
 		]
 	},
 	"amateur_swashbuckler": {
@@ -975,10 +977,10 @@
 			"",
 			"Though not a swashbuckler, you have and can use panache.  ",
 			"**Prerequisites:** No levels in a class that has the panache class feature.  ",
-			"**Benefit:** You gain a small amount of panache and the ability to perform a single 1st-level swashbuckler deed. Choose a 1st-level deed from the swashbuckler's deeds class feature (you can't select opportune parry and riposte). Once chosen, this deed cannot be changed.",
+			"**Benefit:** You gain a small amount of panache and the ability to perform a single 1st-level {ability/swashbuckler deed>s}. Choose a 1st-level deed from the swashbuckler's deeds class feature (you can't select *opportune parry and riposte*). Once chosen, this deed cannot be changed.",
 			"",
-			"At the start of each day, you gain 1 panache point. Throughout the day, you can gain a number of panache points up to a maximum of your Charisma modifier (minimum 1). You can regain panache points as the swashbuckler's panache class feature. You can spend these panache points to perform the 1st-level deed you chose upon taking this feat as well as any other deeds you have gained through feats or magic items.  ",
-			"**Special:** If you gain levels in a class that has the panache class feature, you can immediately trade this feat for the Extra Panache feat.",
+			"At the start of each day, you gain 1 panache point. Throughout the day, you can gain a number of panache points up to a maximum of your Charisma modifier (minimum 1). You can regain panache points as the {class/swashbuckler/'s} panache class feature. You can spend these panache points to perform the 1st-level deed you chose upon taking this feat as well as any other deeds you have gained through feats or magic items.  ",
+			"**Special:** If you gain levels in a class that has the panache class feature, you can immediately trade this feat for the {feat/Extra Panache} feat.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/113}",
@@ -1012,7 +1014,7 @@
 			"",
 			"You are always on your toes and are rarely caught off-guard for long, even when an enemy gets the jump on you.  ",
 			"**Prerequisites:** {feat/Alertness}.  ",
-			"**Benefit:** If you are unable to act in the surprise round because you failed a Perception check, you can still act on your initiative count in the surprise round, but only to take the total defense action.  ",
+			"**Benefit:** If you are unable to act in the surprise round because you failed a Perception check, you can still act on your initiative count in the surprise round, but only to take the [total defense](rule/other_standard_actions) action.  ",
 			"**Normal:** If you are unable to act in the surprise round because you failed a Perception check, you can't take any actions during the surprise round.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -1030,7 +1032,7 @@
 			"{SOURCE Advanced Class Origins/26}",
 			"",
 			"You live in dangerous times, and are alert for betrayal or unexpected attack.  ",
-			"**Prerequisites:** Int 13, trap sense class feature.  ",
+			"**Prerequisites:** Int 13, {ability/trap sense} class feature.  ",
 			"**Benefit:** You gain a bonus on Perception checks made to determine awareness for the surprise round of combat, and a dodge bonus to AC in any surprise round in which you get to act. These bonuses are equal to the bonus you gain from trap sense."
 		]
 	},
@@ -1043,7 +1045,7 @@
 			"{SOURCE Inner Sea Races/201}",
 			"",
 			"You know that the keys to victory are sudden attacks and even more sudden retreats.  ",
-			"**Prerequisites:** Base attack bonus +1, kobold.  ",
+			"**Prerequisites:** Base attack bonus +1, {race/kobold}.  ",
 			"**Benefit:** When you're adjacent to an ally who also has this feat at the beginning of a surprise round, and both you and that ally can act during that surprise round, you can take both a standard action and a move action during that surprise round.  ",
 			"**Normal:** You can take only a standard action or a move action during a surprise round."
 		]
@@ -1057,7 +1059,7 @@
 			"{SOURCE Halflings of Golarion/23}",
 			"",
 			"Your coordination is so perfect that you can simply drop ammunition from your hand at the exact moment required for it to fall into an open sling as your twirl it around.  ",
-			"**Prerequisites:** Sleight of Hand 1 rank, proficient with sling.  ",
+			"**Prerequisites:** Sleight of Hand 1 rank, proficient with {eq-weapon/sling}.  ",
 			"**Benefit:** You can load a sling or one end of a double sling with one hand as a swift action or move action. This does not provoke an attack of opportunity."
 		]
 	},
@@ -1083,8 +1085,8 @@
 			"{SOURCE Inner Sea Races/201}",
 			"",
 			"The vicinity of another of your kind ignites your inner light into a shining aurora.  ",
-			"**Prerequisites:** Aasimar, daylight racial spell-like ability.  ",
-			"**Benefit:** Whenever you are within 15 feet of an aasimar ally who has both the daylight racial spell-like ability and this feat, you gain an aura of radiance. You and your ally must both have at least one use of your daylight racial spell-like ability available to gain this benefit. This aura functions as per the daylight spell, except that it's a 10-foot-radius emanation centered on you without additional areas of weaker illumination. Creatures within this aura who take penalties in bright light double those penalties. The effects of overlapping auras of radiance don't stack. You can activate or suppress this aura as a swift action."
+			"**Prerequisites:** {race/Aasimar}, daylight racial spell-like ability.  ",
+			"**Benefit:** Whenever you are within 15 feet of an aasimar ally who has both the daylight racial spell-like ability and this feat, you gain an aura of radiance. You and your ally must both have at least one use of your daylight racial spell-like ability available to gain this benefit. This aura functions as per the {spell/daylight} spell, except that it's a 10-foot-radius {misc/emanation} centered on you without additional areas of weaker illumination. Creatures within this aura who take penalties in bright light double those penalties. The effects of overlapping auras of radiance don't stack. You can activate or suppress this aura as a swift action."
 		]
 	},
 	"amplified_rage": {
@@ -1096,7 +1098,7 @@
 			"{SOURCE Orcs of Golarion/24}",
 			"",
 			"When adjacent to other raging allies, your rages become even more powerful.  ",
-			"**Prerequisites:** Half-orc or orc, rage class feature.  ",
+			"**Prerequisites:** {race/Half-orc} or {race/orc}, rage class feature.  ",
 			"**Benefit:** Whenever you are raging and adjacent to a raging ally who also has this feat or flanking the same opponent as a raging ally with this feat, your morale bonuses to Strength and Constitution increase by +4. This feat does not stack with itself (you only gain this bonus from one qualifying ally, regardless of how many are adjacent to you)."
 		]
 	},
@@ -1110,7 +1112,7 @@
 			"",
 			"You know how to perform deadly strikes against even the most nebulous of targets.  ",
 			"**Prerequisites:** {feat/Weapon Focus}, base attack bonus +12.  ",
-			"**Benefit:** Choose one weapon with which you have the {feat/Weapon Focus} feat. When you strike an opponent that has a chance of negating critical hits or sneak attacks, such as from the fortification armor special ability, reduce that chance by 25%. Treat creatures that are normally immune to critical hits and sneak attacks as instead having a 75% chance to negate the critical hit or sneak attack, taking only the attack's normal damage.  ",
+			"**Benefit:** Choose one weapon with which you have the {feat/Weapon Focus} feat. When you strike an opponent that has a chance of negating critical hits or sneak attacks, such as from the {magic-enh/fortification} armor special ability, reduce that chance by 25%. Treat creatures that are normally immune to critical hits and sneak attacks as instead having a 75% chance to negate the critical hit or sneak attack, taking only the attack's normal damage.  ",
 			"**Special:** You can take this feat multiple times. Each time you take the feat, it applies to a different weapon."
 		]
 	},
@@ -1137,9 +1139,9 @@
 			"{SOURCE Blood of Fiends/24}",
 			"",
 			"The fury you harbor for your fiendish ancestors gives evil outsiders great reason to fear you.  ",
-			"**Prerequisites:** Intimidate 5 ranks, tiefling.  ",
-			"**Benefit:** Whenever you successfully demoralize an outsider of the evil subtype with an Intimidate check, it becomes sickened for 1 round in addition to being affected by the normal effects of being demoralized. If you beat the DC by 5 or more, the creature is nauseated for 1 round instead.  ",
-			"**Normal:** Demoralizing a foe with a successful Intimidate check causes it to become shaken for 1 round, +1 round for every 5 by which you beat the DC."
+			"**Prerequisites:** Intimidate 5 ranks, {race/tiefling}.  ",
+			"**Benefit:** Whenever you successfully demoralize an outsider of the evil subtype with an Intimidate check, it becomes {misc/sickened} for 1 round in addition to being affected by the normal effects of being demoralized. If you beat the DC by 5 or more, the creature is {misc/nauseated} for 1 round instead.  ",
+			"**Normal:** Demoralizing a foe with a successful Intimidate check causes it to become {misc/shaken} for 1 round, +1 round for every 5 by which you beat the DC."
 		]
 	},
 	"ancestral_weapon_mastery": {
@@ -1190,7 +1192,7 @@
 			"",
 			"::h4[Ancient Osirion]{jl}",
 			"",
-			"Founded by Azghaad, a prophet of Nethys who famously slew a Spawn of Rovagug and founded his capital within its carapace, Osirion is a nation with a long and proud history. The Ancient Osirians are best known today for their elaborate tombs, many of which have remained untouched for millennia.",
+			"Founded by Azghaad, a prophet of {faith/Nethys} who famously slew a Spawn of {faith/Rovagug} and founded his capital within its carapace, Osirion is a nation with a long and proud history. The Ancient Osirians are best known today for their elaborate tombs, many of which have remained untouched for millennia.",
 			"",
 			"**Daily Ritual:** Position yourself where you can watch the sun rise. As it does, briefly give thanks to each god in Ancient Osirion's pantheon. Reflect on your notable Osirian ancestors or other ancient heroes and their accomplishments. Then, leave a small offering of cooked food on a wooden plate (or, if none is available, on a large leaf). You gain a +4 bonus on saving throws to resist death effects.",
 			"",
@@ -1200,7 +1202,7 @@
 			"",
 			"Azlant is considered by many to have been the pinnacle of human society, though the ancient empire's hubris brought about the calamity known as Earthfall.",
 			"",
-			"**Daily Ritual:** Stand tall, with one arm outstretched, clutching a crystal, gem, or ioun stone in your fist. Keeping your arm outstretched, slowly turn three times in a counterclockwise circle, each time naming aloud one of your achievements or strengths. You gain a +2 bonus on Spellcraft and Use Magic Device checks.",
+			"**Daily Ritual:** Stand tall, with one arm outstretched, clutching a crystal, gem, or {magic-wondrous/ioun stone} in your fist. Keeping your arm outstretched, slowly turn three times in a counterclockwise circle, each time naming aloud one of your achievements or strengths. You gain a +2 bonus on Spellcraft and Use Magic Device checks.",
 			"",
 			"**Boons:** 1: {spell/arcane sight}; 2: {spell/reverse gravity}; 3: {spell/overwhelming presence}.",
 			"",
@@ -1286,7 +1288,7 @@
 			"{SOURCE Advanced Race Guide/87}",
 			"",
 			"Feathered wings sprout from your back.  ",
-			"**Prerequisites:** {feat/Angelic Blood}, aasimar, character level 10th.  ",
+			"**Prerequisites:** {feat/Angelic Blood}, {race/aasimar}, character level 10th.  ",
 			"**Benefit:** You gain a pair of gleaming feathered wings that grant a fly speed of 30 feet (average maneuverability) if wearing light armor or unencumbered, or 20 feet (poor maneuverability) with a medium or heavy load or medium or heavy armor. Fly is a class skill for you."
 		]
 	},
@@ -1299,7 +1301,7 @@
 			"{SOURCE Monster Codex/32}",
 			"",
 			"You channel the power of your Abyssal patron through your weapon to punish the righteous.  ",
-			"**Prerequisites:** {feat/Channel Smite}, divine caster level 5th, channel negative energy class feature, demon lord patron deity.  ",
+			"**Prerequisites:** {feat/Channel Smite}, divine caster level 5th, {ability/channel negative energy} class feature, demon lord patron deity.  ",
 			"**Benefit:** When you use Channel Smite against a living creature with a good alignment, you treat all 1s on the channel smite damage dice as 2s.",
 			"",
 			"If your target is either a good outsider or a divine caster who serves a good deity, you are considered 2 levels higher when determining how many channel energy damage dice you roll when using Channel Smite."
@@ -1314,8 +1316,8 @@
 			"{SOURCE Advanced Race Guide/88}",
 			"",
 			"Your blood is infused with holy power.  ",
-			"**Prerequisites:** Con 13, aasimar.  ",
-			"**Benefit:** You gain a +2 bonus on saving throws against effects with the evil descriptor and on Constitution checks to stabilize when you are reduced to negative hit points (but not dead). Furthermore, each time you take bleed or blood drain damage, each undead creature or creature with the evil subtype that is currently adjacent to you also takes 1 point of damage."
+			"**Prerequisites:** Con 13, {race/aasimar}.  ",
+			"**Benefit:** You gain a +2 bonus on saving throws against effects with the evil descriptor and on Constitution checks to stabilize when you are reduced to negative hit points (but not dead). Furthermore, each time you take {umr/bleed} or {umr/blood drain} damage, each undead creature or creature with the evil subtype that is currently adjacent to you also takes 1 point of damage."
 		]
 	},
 	"angelic_flesh": {
@@ -1327,16 +1329,16 @@
 			"{SOURCE Advanced Race Guide/88}",
 			"",
 			"Your skin shines like burnished metal.  ",
-			"**Prerequisites:** {feat/Angelic Blood}, aasimar.  ",
+			"**Prerequisites:** {feat/Angelic Blood}, {race/aasimar}.  ",
 			"**Benefit:** You take a -2 penalty on Disguise and Stealth checks but gain one of the following benefits, depending on the metallic affinity of your flesh (choose one).",
 			"",
-			"Brazen: You gain fire resistance 5 and a +2 bonus on saves against fire effects.",
-			"",
-			"Golden: You gain a +2 bonus on saves against blindness, dazzling, patterns, and effects with the light descriptor. When you cast spells or use spell-like abilities that are from the illusion (pattern) subschool or have the light descriptor, you do so at +1 caster level.",
-			"",
-			"Silver: You gain a +2 bonus on saves against paralysis, petrification, and poison, and your unarmed strikes or natural weapons count as silver for the purpose of overcoming damage reduction.",
-			"",
-			"Steel: You gain a +1 natural armor bonus to AC, and your unarmed strikes or natural weapons count as cold iron for the purpose of overcoming damage reduction."
+			">**Brazen:** You gain fire resistance 5 and a +2 bonus on saves against fire effects.",
+			">",
+			">**Golden:** You gain a +2 bonus on saves against blindness, dazzling, patterns, and effects with the light descriptor. When you cast spells or use spell-like abilities that are from the illusion (pattern) subschool or have the light descriptor, you do so at +1 caster level.",
+			">",
+			">**Silver:** You gain a +2 bonus on saves against paralysis, petrification, and poison, and your unarmed strikes or natural weapons count as silver for the purpose of overcoming damage reduction.",
+			">",
+			">**Steel:** You gain a +1 natural armor bonus to AC, and your unarmed strikes or natural weapons count as cold iron for the purpose of overcoming damage reduction."
 		]
 	},
 	"animal_affinity": {
@@ -1358,7 +1360,7 @@
 			"{SOURCE Mythic Adventures/55}",
 			"",
 			"You have a greater affinity with wild animals, and can speak with them.  ",
-			"**Prerequisites:** {feat/Animal Affinity}.  ",
+			"**Prerequisites:** Animal Affinity.  ",
 			"**Benefit:** The bonus on Handle Animal and Ride skill checks from Animal Affinity increases by 2. In addition, you can expend one use of mythic power to {spell/speak with animals} as the spell. Your caster level for this effect is equal to twice your tier."
 		]
 	},
@@ -1372,7 +1374,7 @@
 			"",
 			"Your respect for nature is so great that you can form a deep and lasting friendship with an animal.  ",
 			"**Prerequisites:** {feat/Nature Soul}, character level 4th, must not have an animal companion or mount that advances as an animal companion.  ",
-			"**Benefit:** You gain an animal companion as if you were a druid of your character level - 3 from the following list: {companion/badger}, {companion/bird}, {companion/camel}, {companion/cat (small)}, {companion/dire rat}, {companion/dog}, {companion/horse}, {companion/pony}, {companion/snake (viper)}, or {companion/wolf}. If you later gain an animal companion through another source (such as the Animal domain, divine bond, hunter's bond, mount, or nature bond class features), the effective druid level granted by this feat stacks with that granted by other sources."
+			"**Benefit:** You gain an {sidekick/animal companion} as if you were a druid of your character level - 3 from the following list: {companion/badger}, {companion/bird}, {companion/camel}, {companion/cat (small)}, {companion/dire rat}, {companion/dog}, {companion/horse}, {companion/pony}, {companion/snake (viper)}, or {companion/wolf}. If you later gain an animal companion through another source (such as the Animal domain, divine bond, hunter's bond, mount, or nature bond class features), the effective druid level granted by this feat stacks with that granted by other sources."
 		]
 	},
 	"animal_call": {
@@ -1437,7 +1439,7 @@
 			"{SOURCE Goblins of Golarion/24}",
 			"",
 			"You know how take a mouthful out of anyone who tries to overpower you.  ",
-			"**Prerequisites:** Goblin, Escape Artist 1 rank.  ",
+			"**Prerequisites:** {race/Goblin}, Escape Artist 1 rank.  ",
 			"**Benefit:** If you are the target of a combat maneuver you can, as an immediate action, attempt to bite your opponent in addition to any attacks of opportunity or other consequences your opponent might incur from attacking you. This bonus natural attack does not provoke an attack of opportunity itself and deals base damage appropriate for a creature of your current size (usually 1d4 for Small creatures). If grappled or pinned, you can continue to make this additional bite attack each round as swift action on your turn. You gain a bonus on any attempt to break the grapple equal to the damage you dealt with your bite that round.  ",
 			"**Special:** You cannot make this bite attack when you are the aggressor, including if you manage to reverse a grapple or make any other attack of opportunity."
 		]
@@ -1453,9 +1455,9 @@
 			"Whether with biting remarks or hurtful words, you are adept at making creatures angry with you.  ",
 			"**Benefit:** You can make Diplomacy and Intimidate checks to make creatures respond to you with hostility. No matter which skill you use, antagonizing a creature takes a standard action that does not provoke attacks of opportunity, and has a DC equal to 10+ the target's Hit Dice + the target's Wisdom modifier. You cannot make this check against a creature that does not understand you or has an Intelligence score of 3 or lower. Before you make these checks, you may make a Sense Motive check (DC 20) as a swift action to gain an insight bonus on these Diplomacy or Intimitade checks equal to your Charisma bonus until the end of your next turn. The benefits you gain for this check depend on the skill you use. This is a mind-affecting effect.",
 			"",
-			"Diplomacy: You fluster your enemy. For the next minute, the target takes a -2 penalty on all attacks rolls made against creatures other than you and has a 10% spell failure chance on all spells that do not target you or that have you within their area of effect.",
+			":HL[Diplomacy:] You fluster your enemy. For the next minute, the target takes a -2 penalty on all attacks rolls made against creatures other than you and has a 10% spell failure chance on all spells that do not target you or that have you within their area of effect.",
 			"",
-			"Intimidate: The creature flies into a rage. On its next turn, the target must attempt to make a melee attack against you, make a ranged attack against you, target you with a spell, or include you in the area of a spell. The effect ends if the creature is prevented from attacking you or attempting to do so would harm it (for example, if you are on the other side of a chasm or a wall of fire). If it cannot attack you on its turn, you may make the check again as an immediate action to extend the effect for 1 round (but cannot extend it thereafter). The effect ends as soon as the creature attacks you. Once you have targeted a creature with this ability, you cannot target it again for 1 day."
+			":HL[Intimidate:] The creature flies into a rage. On its next turn, the target must attempt to make a melee attack against you, make a ranged attack against you, target you with a spell, or include you in the area of a spell. The effect ends if the creature is prevented from attacking you or attempting to do so would harm it (for example, if you are on the other side of a chasm or a {spell/wall of fire}). If it cannot attack you on its turn, you may make the check again as an immediate action to extend the effect for 1 round (but cannot extend it thereafter). The effect ends as soon as the creature attacks you. Once you have targeted a creature with this ability, you cannot target it again for 1 day."
 		]
 	},
 	"anticipate_dodge": {
@@ -1516,24 +1518,24 @@
 			"",
 			"You are marked by fate as a future deity - even before this destiny is realized, fate bends to your will.  ",
 			"**Prerequisites:** You must have had direct contact with a deity or god-like being, or have been risen from the dead at the personal behest of a deity or god-like being.  ",
-			"**Benefit:** You gain a +2 bonus on Constitution checks to stabilize while dying. Anytime you or an ally who worships the god that contacted you casts augury or a similar effect, your chance of receiving a meaningful reply is increased by 5% (to a maximum of 95%).  ",
+			"**Benefit:** You gain a +2 bonus on Constitution checks to stabilize while dying. Anytime you or an ally who worships the god that contacted you casts {spell/augury} or a similar effect, your chance of receiving a meaningful reply is increased by 5% (to a maximum of 95%).  ",
 			"**Goal:** You must be acknowledged by another divine being (directly or through a representative) as a peer, even if only a minor one.  ",
 			"**Completion Benefit:** Once per day as an immediate action, you can cause any die roll made by a creature within 100 feet of you to be rerolled. You choose which result you prefer. You must decide to use this ability after the first roll is made but before the results are revealed by the GM.",
 			"",
-			"*Suggested Traits:* Called, Fortunate, Inspiring.",
+			"*Suggested Traits:* {trait/Called}, {trait/Fortunate}, {trait/Inspiring}.",
 			"",
 			"### Possible Apotheosis Quests",
 			"",
 			"| d8 | Quest |",
 			"| --- | --- |",
-			"| 1 | You seek to prove your worth and acquire followers who will exalt you as a living ideal or preeminent martyr, like Kurgess. |",
-			"| 2 | Omens indicate that if you give all in service to your deity, you will become his demigod servant, much as Hanspur was deified by Gozreh. |",
+			"| 1 | You seek to prove your worth and acquire followers who will exalt you as a living ideal or preeminent martyr, like {faith/Kurgess}. |",
+			"| 2 | Omens indicate that if you give all in service to your deity, you will become his demigod servant, much as {faith/Hanspur} was deified by {faith/Gozreh}. |",
 			"| 3 | You believe the mad whispers of those cultists who claim that if one were to travel far enough into the Dark Tapestry, one might tap into the divine power of the Great Old Ones. |",
-			"| 4 | The Test of the Starstone is among the best-known paths to divinity; you adventure in preparation to take the test yourself and join the ranks of ascended deities. |",
-			"| 5 | While studying the mysteries of Ancient Osirion, you stumble across clues to the mythic divination that elevated Nethys from mortal king to deity. |",
-			"| 6 | You challenge yourself in the ways described in Irori's holy book, Unbinding the Fetters, as you seek the mental and physical perfection that will lead you to divinity. |",
+			"| 4 | The Test of the *Starstone* is among the best-known paths to divinity; you adventure in preparation to take the test yourself and join the ranks of ascended deities. |",
+			"| 5 | While studying the mysteries of Ancient Osirion, you stumble across clues to the mythic divination that elevated {faith/Nethys} from mortal king to deity. |",
+			"| 6 | You challenge yourself in the ways described in {faith/Irori/'s} holy book, *Unbinding the Fetters,* as you seek the mental and physical perfection that will lead you to divinity. |",
 			"| 7 | By tracking down and confronting one of the legendary titans of Elysium, you hope to unlock the secret to achieving divinity in the celestial realms. |",
-			"| 8 | You have learned that one of your ancestors was a deity (such as the prolific Cayden Cailean) and you now quest to get his attention and earn a similar station. |"
+			"| 8 | You have learned that one of your ancestors was a deity (such as the prolific {faith/Cayden Cailean}) and you now quest to get his attention and earn a similar station. |"
 		]
 	},
 	"aquadynamic_focus": {
@@ -1587,7 +1589,7 @@
 			"",
 			"Foes without a swim speed provoke attacks of opportunity from you underwater.  ",
 			"**Prerequisites:** {feat/Combat Reflexes}, must have a natural swim speed.  ",
-			"**Benefit:** A creature that lacks a swim speed provokes an attack of opportunity from you when it attacks you underwater. You don't get an attack of opportunity if the attacker is under the effects of freedom of movement."
+			"**Benefit:** A creature that lacks a swim speed provokes an attack of opportunity from you when it attacks you underwater. You don't get an attack of opportunity if the attacker is under the effects of {spell/freedom of movement}."
 		]
 	},
 	"aquatic_ancestry": {
@@ -1599,8 +1601,8 @@
 			"{SOURCE Advanced Race Guide/177}",
 			"",
 			"You favor your outsider ancestry and are better adapted to life in the water.  ",
-			"**Prerequisites:** Undine.  ",
-			"**Benefit:** You gain the amphibious special quality. Your swim speed increases by +10 feet."
+			"**Prerequisites:** {race/Undine}.  ",
+			"**Benefit:** You gain the {umr/amphibious} special quality. Your swim speed increases by +10 feet."
 		]
 	},
 	"aquatic_combatant": {
@@ -1644,9 +1646,9 @@
 			"{SOURCE Blood of the Sea/15}",
 			"",
 			"When you call for aid from the sea, your summoned creatures remain to serve you longer.  ",
-			"**Prerequisites:** Triton, summon nature's ally II spell-like ability, character level 5th.  ",
-			"**Benefit:** The duration of your summon nature's ally II spell-like ability is 1 minute per level.  ",
-			"**Normal:** Summon nature's ally II has a duration of 1 round per level."
+			"**Prerequisites:** {race/Triton}, {spell/summon nature's ally II} spell-like ability, character level 5th.  ",
+			"**Benefit:** The duration of your *summon nature's ally II* spell-like ability is 1 minute per level.  ",
+			"**Normal:** *Summon nature's ally II* has a duration of 1 round per level."
 		]
 	},
 	"arc_slinger": {
@@ -1661,7 +1663,7 @@
 			"{SOURCE Ultimate Combat/89}",
 			"",
 			"You can twirl your sling in a way that maximizes its effectiveness.  ",
-			"**Prerequisites:** {feat/Point-Blank Shot}, proficient with sling or halfling sling staff.  ",
+			"**Prerequisites:** {feat/Point-Blank Shot}, proficient with {eq-weapon/sling} or {eq-weapon/halfling sling staff}.  ",
 			"**Benefit:** When using a sling or sling staff, you reduce your penalty on ranged attack rolls due to range by 2. Point-Blank Shot's damage bonus applies within the first normal range increment of your sling (50 feet) or sling staff (80 feet).",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -1717,7 +1719,7 @@
 			"{SOURCE Mythic Adventures/55}",
 			"",
 			"You've adapted your spellcasting to overcome limitations of wearing armor.  ",
-			"**Prerequisites:** {feat/Arcane Armor Training}.  ",
+			"**Prerequisites:** Arcane Armor Training.  ",
 			"**Benefit:** You don't have to spend a swift action to gain the reduction to arcane spell failure chance from Arcane Armor Training. Furthermore, if you're wearing light armor, reduce your arcane spell failure chance by 20%."
 		]
 	},
@@ -1741,7 +1743,7 @@
 			"{SOURCE Mythic Adventures/55}",
 			"",
 			"You can manipulate raw eldritch energies to do more than just deal damage.  ",
-			"**Prerequisites:** {feat/Arcane Blast}.  ",
+			"**Prerequisites:** Arcane Blast.  ",
 			"**Benefit:** When you use Arcane Blast, you may halve the damage dice to also perform your choice of either a trip or bull rush combat maneuver against the target of the blast. You can't move with an opponent you bull rush with this feat. You gain a bonus on your combat maneuver check for this attempt equal to half the spell level of the spell you sacrificed when using Arcane Blast, and you can substitute your Intelligence or Charisma modifier in place of your Strength modifier when determining your combat maneuver bonus.",
 			"",
 			"In addition, you can expend one use of mythic power to change the damage dice of your Arcane Blast to d8s instead of d6s."
@@ -1759,7 +1761,7 @@
 			"{SOURCE Inner Sea Gods/207;Faiths of Balance/24}",
 			"",
 			"Magical insight helps you evade attacks.  ",
-			"**Prerequisites:** {feat/Arcane Shield}, arcane spellcaster, caster level 10th, worshiper of Nethys.  ",
+			"**Prerequisites:** {feat/Arcane Shield}, arcane spellcaster, caster level 10th, worshiper of {faith/Nethys}.  ",
 			"**Benefit:** Whenever you use Arcane Shield, you also gain a +1 insight bonus to AC for 1 round."
 		]
 	},
@@ -1785,7 +1787,7 @@
 			"{SOURCE Gnomes of Golarion/30}",
 			"",
 			"You can talk up the power of your own school of magic to such an extent that creatures find it more difficult to resist your spells.  ",
-			"**Prerequisites:** Bluff 1 rank, arcane school class feature, gnome.  ",
+			"**Prerequisites:** Bluff 1 rank, arcane school class feature, {race/gnome}.  ",
 			"**Benefit:** As a full-round action, you extol the virtues of your school of magic to one creature within 30 feet. Make a Bluff check opposed by a target's Sense Motive check; if you win the check, the target takes a -2 penalty on saving throws made to resist the next spell of this school that you cast. If your chosen school is universalist, choose a specific school each time you use this ability. If your Bluff check succeeds, however, your lack of true commitment to the school means the target takes only a -1 penalty on its saving throw."
 		]
 	},
@@ -1809,7 +1811,7 @@
 			"{SOURCE Mythic Adventures/55}",
 			"",
 			"You sculpt spells into a powerful, enduring arcane barriers.  ",
-			"**Prerequisites:** {feat/Arcane Shield}.  ",
+			"**Prerequisites:** Arcane Shield.  ",
 			"**Benefit:** You add half your tier to the deflection bonus granted to your AC when you use your Arcane Shield. You can expend one use of mythic power when using this feat to extend the duration to a number of rounds equal to your tier."
 		]
 	},
@@ -1839,8 +1841,8 @@
 			"{SOURCE Mythic Adventures/55}",
 			"",
 			"Using your amazing arcane talents, you can deliver devastating blows infused with magical energy.  ",
-			"**Prerequisites:** {feat/Arcane Strike}.  ",
-			"**Benefit:** Whenever you use Arcane Strike to enhance your weapons, the effect lasts for 1 minute instead of 1 round. If you expend one use of mythic power when using Arcane Strike, you can also add any one magic weapon special ability with a base price modifier of +1 to your weapons. This base price modifier increases to +2 at 4th tier, +3 at 7th tier, and +4 at 10th tier."
+			"**Prerequisites:** Arcane Strike.  ",
+			"**Benefit:** Whenever you use Arcane Strike to enhance your weapons, the effect lasts for 1 minute instead of 1 round. If you expend one use of mythic power when using Arcane Strike, you can also add any one {main/magic /weapon special ability>enhancements} with a base price modifier of +1 to your weapons. This base price modifier increases to +2 at 4th tier, +3 at 7th tier, and +4 at 10th tier."
 		]
 	},
 	"arcane_talent": {
@@ -1852,7 +1854,7 @@
 			"{SOURCE Advanced Player's Guide/151}",
 			"",
 			"Magic is in your blood, and at your fingertips.  ",
-			"**Prerequisites:** Cha 10; elf, half-elf, or gnome.  ",
+			"**Prerequisites:** Cha 10; {race/elf}, {race/half-elf}, or {race/gnome}.  ",
 			"**Benefit:** Choose a 0-level spell from the {main/spells<sorcerer|//wizard/ spell list}. You can cast this spell three times per day as a spell-like ability. The caster level is equal to your character level. The save DC is 10 + your Charisma modifier."
 		]
 	},
@@ -1866,8 +1868,8 @@
 			"",
 			"Your magic can suppress magic traps longer than usual.  ",
 			"**Prerequisites:** Ability to cast {spell/dispel magic} or {spell/greater dispel magic} as a spell or spell-like ability.  ",
-			"**Benefit:** When you target a magic trap with dispel magic or greater dispel magic, if your caster level check exceeds the Disable Device DC of the trap, the trap is disabled for 1d4 minutes.  ",
-			"**Normal:** Dispel magic suppresses an item's magical properties for 1d4 rounds."
+			"**Benefit:** When you target a magic trap with *dispel magic* or *greater dispel magic,* if your caster level check exceeds the Disable Device DC of the trap, the trap is disabled for 1d4 minutes.  ",
+			"**Normal:** *Dispel magic* suppresses an item's magical properties for 1d4 rounds."
 		]
 	},
 	"arcane_vendetta": {
@@ -1971,7 +1973,7 @@
 			"",
 			"You are comfortable in the driving snow and glaring ice of frigid climes, and you can survive much longer in such harsh environments than those who are unaccustomed to the cold.  ",
 			"**Prerequisites:** {ability/Favored terrain} (cold) class feature.  ",
-			"**Benefit:** You treat cold environments as though they were one step less severe than they normally are. Additionally, you gain a +2 bonus on Perception checks against creatures that gain a racial bonus on Stealth checks in snowy conditions, and you gain a +4 bonus on saving throws and checks to avoid becoming blinded or dazzled by ice or snow glare."
+			"**Benefit:** You treat {rule/cold /environments>dangers} as though they were one step less severe than they normally are. Additionally, you gain a +2 bonus on Perception checks against creatures that gain a racial bonus on Stealth checks in snowy conditions, and you gain a +4 bonus on saving throws and checks to avoid becoming blinded or dazzled by ice or snow glare."
 		]
 	},
 	"area_jinx": {
@@ -1984,7 +1986,7 @@
 			"",
 			"You can jinx multiple creatures so long as they are near each other.  ",
 			"**Prerequisites:** {feat/Widen Spell}, Halfling Jinx trait.  ",
-			"**Benefit:** When you use your jinx, you create an instantaneous invisible burst with a maximum radius of 10 feet anywhere within the normal range of your jinx, affecting multiple targets. Any creature within this burst, regardless of whether or not you can see it, must make a saving throw to resist your jinx. If you use your jinx again, all of your current jinxes immediately end.  ",
+			"**Benefit:** When you use your jinx, you create an instantaneous invisible {misc/burst} with a maximum radius of 10 feet anywhere within the normal range of your jinx, affecting multiple targets. Any creature within this burst, regardless of whether or not you can see it, must make a saving throw to resist your jinx. If you use your jinx again, all of your current jinxes immediately end.  ",
 			"**Special:** You can gain this feat multiple times. Each time you do, the maximum area of your jinx burst increases by an additional 10 feet."
 		]
 	},
@@ -2036,7 +2038,7 @@
 			"",
 			"You can use this ability a number of times per day equal to the number of caster levels you possess.",
 			"",
-			"For example, Ezren wants to use Arithmancy to cast an augmented fireball. First, he translates the spell name into numbers. Fireball translates to 6, 9, 9, 5, 2, 1, 3, 3. Then he calculates the digital root. In this case, 6 + 9 + 9 + 5 + 2 + 1 + 3 + 3 = 38, 3 + 8 = 11, and 1 + 1 = 2. Therefore, the digital root of fireball is 2. He then attempts a Spellcraft check against a DC of 15 (10 + 3 [fireball's spell level] + 2 [fireball's digital root]). If his check succeeds, he can cast the fireball this round at +1 caster level. If he fails, he can cast the spell at -1 caster level this round. He may also choose not to cast fireball and perform another action, though he expends the spell."
+			"For example, Ezren wants to use Arithmancy to cast an augmented {spell/fireball}. First, he translates the spell name into numbers. Fireball translates to 6, 9, 9, 5, 2, 1, 3, 3. Then he calculates the digital root. In this case, 6 + 9 + 9 + 5 + 2 + 1 + 3 + 3 = 38, 3 + 8 = 11, and 1 + 1 = 2. Therefore, the digital root of *fireball* is 2. He then attempts a Spellcraft check against a DC of 15 (10 + 3 [*fireball's* spell level] + 2 [*fireball's* digital root]). If his check succeeds, he can cast the *fireball* this round at +1 caster level. If he fails, he can cast the spell at -1 caster level this round. He may also choose not to cast *fireball* and perform another action, though he expends the spell."
 		]
 	},
 	"arming_grab": {
@@ -2049,7 +2051,7 @@
 			"",
 			"Opponents would be foolish to underestimate you, even if you appear unarmed and helpless. You are practiced at turning the tables on armed foes and using their own weapons against them.  ",
 			"**Prerequisites:** Int 13, {feat/Catch Off-Guard}, {feat/Combat Expertise}, {feat/Improved Disarm}.  ",
-			"**Benefit:** You take no penalty on your attack roll when attempting to disarm an opponent while you are unarmed. If you succeed at a disarm attempt without using a weapon and choose to pick up the disarmed weapon, you can attack with that weapon as though you were proficient with it until the end of your next turn. If you are already proficient with that type of weapon, you gain a +2 morale bonus to your attack rolls with that weapon until the end of your next turn.  ",
+			"**Benefit:** You take no penalty on your attack roll when attempting to {rule/disarm} an opponent while you are unarmed. If you succeed at a disarm attempt without using a weapon and choose to pick up the disarmed weapon, you can attack with that weapon as though you were proficient with it until the end of your next turn. If you are already proficient with that type of weapon, you gain a +2 morale bonus to your attack rolls with that weapon until the end of your next turn.  ",
 			"**Normal:** Attempting to disarm a foe while unarmed imposes a -4 penalty on the attack."
 		]
 	},
@@ -2062,7 +2064,7 @@
 			"{SOURCE Adventurer's Armory 2/11}",
 			"",
 			"You are skilled at using customized armor.  ",
-			"**Benefit:** Choose two armor modifications (such as deflecting or jarring). You no longer suffer the drawbacks of wearing armor with those modifications.  ",
+			"**Benefit:** Choose two {main/equipment_<armor/ modifications>enhancements} (such as {eq-armorenh/deflecting} or {eq-armorenh/jarring}). You no longer suffer the drawbacks of wearing armor with those modifications.  ",
 			"**Normal:** Each type of armor modification imparts a drawback on a wearer.  ",
 			"**Special:** You can gain this feat multiple times, choosing two different armor modifications each time."
 		]
@@ -2077,7 +2079,7 @@
 			"",
 			"Your familiarity with a specific type of armor increases the amount of protection you receive from it.  ",
 			"**Prerequisites:** Base attack bonus +1, proficiency with selected armor.  ",
-			"**Benefit:** Select one type of armor, such as chain shirt or splint mail. The AC bonus granted by the selected armor increases by 1.  ",
+			"**Benefit:** Select one type of armor, such as {eq-armor/chain shirt} or {eq-armor/splint mail}. The AC bonus granted by the selected armor increases by 1.  ",
 			"**Special:** You can gain this feat multiple times. Its effects do not stack. Each time you take the feat, it applies to a new type of armor. The Armor Focus feat counts as the armor training class feature for the purpose of armor mastery feat prerequisites and determines what types of armor you can use with armor mastery feats.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -2098,25 +2100,25 @@
 			"**Prerequisites:** Base attack bonus +6 or fighter level 4th, armor training class feature.  ",
 			"**Benefit:** When wearing armor made of one of the materials listed below, you can use the listed ability twice per day (unless otherwise stated).",
 			"",
-			"**Adamantine:** As an immediate action after being struck by an attack, you convert half the lethal damage of the attack into nonlethal damage.",
+			":HL[Adamantine:] As an immediate action after being struck by an attack, you convert half the lethal damage of the attack into nonlethal damage.",
 			"",
-			"**Angelskin:** As a swift action, you shine with bright light as {spell/daylight} for 1 round.",
+			":HL[Angelskin:] As a swift action, you shine with bright light as {spell/daylight} for 1 round.",
 			"",
-			"**Darkleaf Cloth:** As a swift action, you gain the woodland stride druid class feature for 1 minute.",
+			":HL[Darkleaf Cloth:] As a swift action, you gain the woodland stride druid class feature for 1 minute.",
 			"",
-			"**Dragonhide:** As an immediate action when you take energy damage of the same type to which the dragonhide armor is immune, you reduce the damage taken by 10 hit points.",
+			":HL[Dragonhide:] As an immediate action when you take energy damage of the same type to which the dragonhide armor is immune, you reduce the damage taken by 10 hit points.",
 			"",
-			"**Elysian Bronze:** As an immediate action after being struck by an attack from a magical beast or monstrous humanoid, you convert half the lethal damage of the attack into nonlethal damage.",
+			":HL[Elysian Bronze:] As an immediate action after being struck by an attack from a magical beast or monstrous humanoid, you convert half the lethal damage of the attack into nonlethal damage.",
 			"",
-			"**Fire-Forged Steel** or **Frost-Forged Steel:** As a swift action, any unarmed strikes, shield bashes, or attacks with a spiked gauntlet or armor spikes you make are treated as having the flaming special ability (for fire-forged steel) or the frost special ability (for frost-forged steel) for 1 minute.",
+			":HL[Fire-Forged Steel] or :HL[Frost-Forged Steel:] As a swift action, any unarmed strikes, shield bashes, or attacks with a spiked gauntlet or armor spikes you make are treated as having the flaming special ability (for fire-forged steel) or the frost special ability (for frost-forged steel) for 1 minute.",
 			"",
-			"**Horacalcum:** Once per day as a swift action, you can grant yourself the benefits of haste for 1 round.",
+			":HL[Horacalcum:] Once per day as a swift action, you can grant yourself the benefits of haste for 1 round.",
 			"",
-			"**Living Steel:** As an immediate action after being struck by an attack with a metal weapon, you can use the living steel's ability to damage metal weapons, as if the attacker had rolled a natural 1 on the attack.",
+			":HL[Living Steel:] As an immediate action after being struck by an attack with a metal weapon, you can use the living steel's ability to damage metal weapons, as if the attacker had rolled a natural 1 on the attack.",
 			"",
-			"**Mithral:** As an immediate action, you gain spell resistance against transmutation spells equal to 5 + the armor's enhancement bonus + your character level for 1 round.",
+			":HL[Mithral:] As an immediate action, you gain spell resistance against transmutation spells equal to 5 + the armor's enhancement bonus + your character level for 1 round.",
 			"",
-			"**Noqual:** The armor's resistance bonus on saves increases to +4 for 1 round.",
+			":HL[Noqual:] The armor's resistance bonus on saves increases to +4 for 1 round.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Armor Master's Handbook/20}",
@@ -2151,7 +2153,7 @@
 			"{SOURCE Advanced Race Guide/173}",
 			"",
 			"Your fiendish traits take the form of a protective scaly skin.  ",
-			"**Prerequisites:** Tiefling.  ",
+			"**Prerequisites:** {race/Tiefling}.  ",
 			"**Benefit:** You gain a +2 natural armor bonus.  ",
 			"**Special:** If you have the scaled skin racial trait, you instead gain resistance 5 to two of the following energy types that you don't have resistance to already: cold, electricity, and fire."
 		]
@@ -2166,9 +2168,9 @@
 			"",
 			"You are skilled at wearing heavy armor.  ",
 			"**Prerequisites:** {feat/Light Armor Proficiency}, {feat/Medium Armor Proficiency}.  ",
-			"**Benefit:** See Armor Proficiency, Light.  ",
-			"**Normal:** See Armor Proficiency, Light.  ",
-			"**Special:** Fighters and paladins automatically have Heavy Armor Proficiency as a bonus feat. They need not select it."
+			"**Benefit:** See Light Armor Proficiency.  ",
+			"**Normal:** See Light Armor Proficiency.  ",
+			"**Special:** Antipaladins, cavaliers, fighters, paladins, samurai and warpriests automatically have Heavy Armor Proficiency as a bonus feat. They need not select it."
 		]
 	},
 	"heavy_armor_proficiency": { "copyof": "armor_proficiency_heavy" },
@@ -2183,7 +2185,7 @@
 			"You are skilled at wearing light armor.  ",
 			"**Benefit:** When you wear a type of armor with which you are proficient, the armor check penalty for that armor applies only to Dexterity- and Strength-based skill checks.  ",
 			"**Normal:** A character who is wearing armor with which he is not proficient applies its armor check penalty to attack rolls and to all skill checks that involve moving.  ",
-			"**Special:** All characters except monks, sorcerers, and wizards automatically have Light Armor Proficiency as a bonus feat. They need not select it."
+			"**Special:** All characters except arcanists, monks, psychics, sorcerers, witches and wizards automatically have Light Armor Proficiency as a bonus feat. They need not select it."
 		]
 	},
 	"light_armor_proficiency": { "copyof": "armor_proficiency_light" },
@@ -2196,10 +2198,10 @@
 			"{SOURCE PRPG Core Rulebook/118}",
 			"",
 			"You are skilled at wearing medium armor.  ",
-			"**Prerequisites:** Light Armor Proficiency.  ",
-			"**Benefit:** See Armor Proficiency, Light.  ",
-			"**Normal:** See Armor Proficiency, Light.  ",
-			"**Special:** Barbarians, clerics, druids, fighters, paladins, and rangers automatically have Medium Armor Proficiency as a bonus feat. They need not select it."
+			"**Prerequisites:** {feat/Light Armor Proficiency}.  ",
+			"**Benefit:** See Light Armor Proficiency.  ",
+			"**Normal:** See Light Armor Proficiency.  ",
+			"**Special:** Barbarians, bloodragers, cavaliers, clerics, druids, fighters, hunters, inquisitors, mediums, occultists, oracles, paladins, rangers, shamans, shifters, skalds, slayers and vigilantes automatically have Medium Armor Proficiency as a bonus feat. They need not select it."
 		]
 	},
 	"medium_armor_proficiency": { "copyof": "armor_proficiency_medium" },
@@ -2216,43 +2218,43 @@
 			"**Benefit:** You can use any armor tricks related to the chosen armor option if you meet the trick's prerequisites and are proficient with any armor that you use as part of the trick.  ",
 			"**Special:** You can gain Armor Trick multiple times. Each time you take the feat, it applies to a new armor trick option.",
 			"",
-			"::h3[Heavy Armor Tricks]{jl}",
-			"",
-			"These armor tricks are most common among the various [Hellknight](rule/aff_lawknights) orders, though their secrets have spread to other organizations and fighter schools. Such armor tricks utilize the mass and heft of heavy armor, and don't function when you're wearing heavy armor that uses magic or materials to be treated as medium armor for any purpose, unless the heavy armor trick says otherwise.",
-			"",
-			"*Blade among the Folds* (Sleight of Hand 3 ranks): You are adept at concealing small weapons in your armor. While wearing heavy armor, you gain a +2 bonus on Sleight of Hand checks to conceal a light melee weapon or an easily concealed ranged weapon, such as a dart, sling, or hand crossbow, within your armor. In addition, a searcher doesn't gain the usual +4 bonus on Perception checks to find the hidden weapon as long as you are wearing your armor, even if the searcher frisks you. This trick functions even in heavy armor that uses magic or materials to be treated as medium armor.",
-			"",
-			"*Protected Limbs* (Combat Expertise): Whenever you attempt a disarm, grapple, sunder, or trip combat maneuver check, you gain a +4 bonus to your AC against any attack of opportunity you provoke as a result of attempting the combat maneuver check, and to your CMD against any combat maneuver your foe attempts against you before the beginning of your next turn.",
-			"",
-			"*Shrug It Off* (Great Fortitude): Once per day as an immediate action, when you are hit by a confirmed critical hit or sneak attack, you can direct the blow to the thickest section of your armor to lessen the damage dealt. This reduces the attack to dealing its minimum damage, though it remains a successful critical hit or sneak attack (the minimum damage calculated includes all additional dice for the critical hit or sneak attack, and any abilities that apply due to it being a critical hit or sneak attack function normally). You can use this ability a second time each day when your base attack bonus reaches +4, and an additional time per day for every 4 points of bonus you accrue thereafter.",
-			"",
-			"*Steel-Plated Smasher* (Power Attack): You gain a bonus equal to 1/4 of your armor's armor check penalty (not including any reduction to the armor check penalty from class features or feats) on Strength checks to break doors and objects with less hardness than your armor. When your base attack bonus reaches +8, this bonus increases to 1/2 your armor's armor check penalty. When your base attack bonus reaches +16, this bonus increases to equal your armor's full armor check penalty.",
-			"",
 			"::h3[Light Armor Tricks]{jl}",
 			"",
 			"Light armor tricks are rarely taught in formal schools, though some can be learned from experienced Freemen on the streets of Kaer Maga or the leaders of the Bloody Barbers thieves' guild in Absalom. These armor tricks are often used to supplement the modest defense provided by lighter armors by maximizing flexibility and mobility.",
 			"",
-			"*Combat Acrobatics* (Int 13, Combat Expertise, Acrobatics 3 ranks): You have trained yourself to expose only armored sections of your body when performing flips and rolls, leaving you less distracted by concerns about being struck in combat. You are not considered flat-footed when using Acrobatics to move on narrow surfaces and uneven ground without falling, and do not lose your Dexterity bonus to AC while doing so. Additionally, if you use Combat Expertise to increase your AC, the DC for you to use Acrobatics to move through a threatened square at full speed without provoking an attack of opportunity by 10 does not increase.",
+			"**Combat Acrobatics** (Int 13, {feat/Combat Expertise}, {skill/Acrobatics} 3 ranks): You have trained yourself to expose only armored sections of your body when performing flips and rolls, leaving you less distracted by concerns about being struck in combat. You are not considered flat-footed when using Acrobatics to move on narrow surfaces and uneven ground without falling, and do not lose your Dexterity bonus to AC while doing so. Additionally, if you use Combat Expertise to increase your AC, the DC for you to use Acrobatics to move through a threatened square at full speed without provoking an attack of opportunity by 10 does not increase.",
 			"",
-			"*Reactive Mobility* (Mobility, Nimble Moves): Practice has honed your reactions so that you react quickly and instinctively to threats. You add your dodge bonus granted by Mobility to your AC against all attacks of opportunity that you provoke, not just against those that are caused when you move out of or within a threatened area.",
+			"**Reactive Mobility** ({feat/Mobility}, {feat/Nimble Moves}): Practice has honed your reactions so that you react quickly and instinctively to threats. You add your dodge bonus granted by Mobility to your AC against all attacks of opportunity that you provoke, not just against those that are caused when you move out of or within a threatened area.",
 			"",
-			"*Reflexive Mobility* (Combat Reflexes, Mobility): You have learned to sacrifice an opportunity to wound an opponent in order to avoid being wounded yourself. When you provoke an attack of opportunity from an opponent, you can expend one of your own potential attacks of opportunity for that round to double the bonus to your AC that you gain from the Mobility feat against that attack. This benefit applies to all attacks of opportunity that you provoke with the same action. If you are unable to take any more attacks of opportunity this turn, you cannot use this ability.",
+			"**Reflexive Mobility** ({feat/Combat Reflexes}, {feat/Mobility}): You have learned to sacrifice an opportunity to wound an opponent in order to avoid being wounded yourself. When you provoke an attack of opportunity from an opponent, you can expend one of your own potential attacks of opportunity for that round to double the bonus to your AC that you gain from the Mobility feat against that attack. This benefit applies to all attacks of opportunity that you provoke with the same action. If you are unable to take any more attacks of opportunity this turn, you cannot use this ability.",
 			"",
-			"*Sliding Charge* (Improved Trip, base attack bonus +4): You can use your momentum to confound your opponents. Whenever you charge an opponent and attempt a trip combat maneuver check against that opponent as a melee attack, you can drop to the ground as a swift action in order to slide into your target. When doing so, you add your Dexterity bonus (up to your armor's maximum Dexterity bonus) to the combat maneuver check. Whether or not you succeed at the check, you are prone at the end of your charge.",
+			"**Sliding Charge** ({feat/Improved Trip}, base attack bonus +4): You can use your momentum to confound your opponents. Whenever you charge an opponent and attempt a trip combat maneuver check against that opponent as a melee attack, you can drop to the ground as a swift action in order to slide into your target. When doing so, you add your Dexterity bonus (up to your armor's maximum Dexterity bonus) to the combat maneuver check. Whether or not you succeed at the check, you are prone at the end of your charge.",
 			"",
 			"::h3[Medium Armor Tricks]{jl}",
 			"",
 			"Many of these armor tricks originated in Andoran and are employed by various branches of the [Eagle Knights](rule/aff_vangard), who highly value the greater protection provided by medium armor but want to retain flexibility and agility in combat.",
 			"",
-			"*Acrobatic Sit-Up* (Mobility, Acrobatics 5 ranks): You have developed the ability to recover from a fall and attack an opponent in a single fluid movement. Whenever you are prone, you can make an attack against a single foe and stand from prone without provoking an attack of opportunity from that foe. Make a single melee attack against one target without the normal penalties for attacking while prone. If you hit your target, you can immediately stand from prone (normally a move action) without provoking an attack of opportunity from that target for doing so. Any other target that threatens you can still make an attack of opportunity against you. If your attack fails, you provoke attacks of opportunity from all threatening foes and cannot stand until your next turn.",
+			"**Acrobatic Sit-Up** ({feat/Mobility}, {skill/Acrobatics} 5 ranks): You have developed the ability to recover from a fall and attack an opponent in a single fluid movement. Whenever you are {rule/prone}, you can make an attack against a single foe and stand from prone without provoking an attack of opportunity from that foe. Make a single melee attack against one target without the normal penalties for attacking while prone. If you hit your target, you can immediately stand from prone (normally a move action) without provoking an attack of opportunity from that target for doing so. Any other target that threatens you can still make an attack of opportunity against you. If your attack fails, you provoke attacks of opportunity from all threatening foes and cannot stand until your next turn.",
 			"",
-			"*Heavy Versatility* (Armor Focus, Armor Trick [Heavy Armor]): You take advantage of all the defensive capabilities your armor can offer. You can treat medium armor as heavy armor for the purpose of which armor tricks you can perform in it.",
+			"**Heavy Versatility** ({feat/Armor Focus}, Armor Trick [Heavy Armor]): You take advantage of all the defensive capabilities your armor can offer. You can treat medium armor as heavy armor for the purpose of which armor tricks you can perform in it.",
 			"",
-			"*Light Versatility* (Armor Focus, Armor Trick [Light Armor]): You are so comfortable in your armor that it seems lighter than it is. You can treat medium armor as light armor for the purpose of what armor tricks you can perform in it.",
+			"**Light Versatility** ({feat/Armor Focus}, Armor Trick [Light Armor]): You are so comfortable in your armor that it seems lighter than it is. You can treat medium armor as light armor for the purpose of what armor tricks you can perform in it.",
 			"",
-			"*Roll into the Blow* (Mobility): You keep your wits about you when attacked and can turn the situation to your advantage. Once per day when you are hit by an attack of opportunity, you can lunge toward your attacker, throwing it off-balance. The attacker takes a -4 penalty on all melee attack rolls until the beginning of its next turn. You can use this ability a second time each day when your base attack bonus reaches +4, and an additional time per day for every 4 points of bonus you accrue thereafter.",
+			"**Roll into the Blow** ({feat/Mobility}): You keep your wits about you when attacked and can turn the situation to your advantage. Once per day when you are hit by an attack of opportunity, you can lunge toward your attacker, throwing it off-balance. The attacker takes a -4 penalty on all melee attack rolls until the beginning of its next turn. You can use this ability a second time each day when your base attack bonus reaches +4, and an additional time per day for every 4 points of bonus you accrue thereafter.",
 			"",
-			"*Versatile Armor* (Combat Expertise): You can adjust how you present yourself and maneuver in your armor to maximize your speed and mobility or to maximize your defenses. While using your armor for speed, your movement is not affected by your armor and its armor check penalty and armor bonus to AC both decrease by 2. While using your armor for defense, your armor's check penalty increases by 3 and its armor bonus to AC increases by 1. Adjusting how you use your armor is a move action, and the adjustment remains until you change it, take off your armor, or lose your Dexterity bonus to AC (if any).",
+			"**Versatile Armor** ({feat/Combat Expertise}): You can adjust how you present yourself and maneuver in your armor to maximize your speed and mobility or to maximize your defenses. While using your armor for speed, your movement is not affected by your armor and its armor check penalty and armor bonus to AC both decrease by 2. While using your armor for defense, your armor's check penalty increases by 3 and its armor bonus to AC increases by 1. Adjusting how you use your armor is a move action, and the adjustment remains until you change it, take off your armor, or lose your Dexterity bonus to AC (if any).",
+			"",
+			"::h3[Heavy Armor Tricks]{jl}",
+			"",
+			"These armor tricks are most common among the various [Hellknight](rule/aff_lawknights) orders, though their secrets have spread to other organizations and fighter schools. Such armor tricks utilize the mass and heft of heavy armor, and don't function when you're wearing heavy armor that uses magic or materials to be treated as medium armor for any purpose, unless the heavy armor trick says otherwise.",
+			"",
+			"**Blade among the Folds** ({skill/Sleight of Hand} 3 ranks): You are adept at concealing small weapons in your armor. While wearing heavy armor, you gain a +2 bonus on Sleight of Hand checks to conceal a light melee weapon or an easily concealed ranged weapon, such as a {eq-weapon/dart}, {eq-weapon/sling}, or {eq-weapon/hand crossbow}, within your armor. In addition, a searcher doesn't gain the usual +4 bonus on Perception checks to find the hidden weapon as long as you are wearing your armor, even if the searcher frisks you. This trick functions even in heavy armor that uses magic or materials to be treated as medium armor.",
+			"",
+			"**Protected Limbs** ({feat/Combat Expertise}): Whenever you attempt a disarm, grapple, sunder, or trip combat maneuver check, you gain a +4 bonus to your AC against any attack of opportunity you provoke as a result of attempting the combat maneuver check, and to your CMD against any combat maneuver your foe attempts against you before the beginning of your next turn.",
+			"",
+			"**Shrug It Off** ({feat/Great Fortitude}): Once per day as an immediate action, when you are hit by a confirmed critical hit or {ability/sneak attack}, you can direct the blow to the thickest section of your armor to lessen the damage dealt. This reduces the attack to dealing its minimum damage, though it remains a successful critical hit or sneak attack (the minimum damage calculated includes all additional dice for the critical hit or sneak attack, and any abilities that apply due to it being a critical hit or sneak attack function normally). You can use this ability a second time each day when your base attack bonus reaches +4, and an additional time per day for every 4 points of bonus you accrue thereafter.",
+			"",
+			"**Steel-Plated Smasher** ({feat/Power Attack}): You gain a bonus equal to 1/4 of your armor's armor check penalty (not including any reduction to the armor check penalty from class features or feats) on Strength checks to break doors and objects with less hardness than your armor. When your base attack bonus reaches +8, this bonus increases to 1/2 your armor's armor check penalty. When your base attack bonus reaches +16, this bonus increases to equal your armor's full armor check penalty.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Armor Master's Handbook/20}",
@@ -2332,23 +2334,23 @@
 			"**Goal:** Claim ownership of an artifact.  ",
 			"**Completion Benefit:** You learn how to coax the most out of your magic items. Three times per day when you activate a use-activated or command word magic item, you can increase the item's effective caster level by +2 as a free action. You can use this ability once per round.",
 			"",
-			"Suggested Traits: {trait/Dangerously Curious}, {trait/Fortunate}, {trait/Secret-Keeper (QaC)}.",
+			"*Suggested Traits:* {trait/Dangerously Curious}, {trait/Fortunate}, {trait/Secret-Keeper (QaC)}.",
 			"",
 			"### Possible Artifact Hunter Quests",
 			"",
 			"| d12 | Quest |",
 			"| --- | --- |",
-			"| 1 | You seek to wrest the missing piece of the long-shattered Shield of Aroden from the lich-king Tar-Baphon, restore the artifact to its original power, and use it to slay that greatest of evils once and for all. |",
+			"| 1 | You seek to wrest the missing piece of the long-shattered {magic-artifact/Shield of Aroden} from the lich-king {monster/Tar-Baphon}, restore the artifact to its original power, and use it to slay that greatest of evils once and for all. |",
 			"| 2 | You've read extensive reports in the Pathfinder Chronicles of the lost city of Ninshabur in Casmaron, and you've determined to search for the myriad artifacts that supposedly still lay dormant beneath the rubble of that forsaken metropolis. |",
-			"| 3 | Whether for reasons benevolent or malign, you've decided that the legendary blade Blackaxe has been carried by the nascent demon lord Treerazer for too long. You seek to claim the weapon for yourself, either so you may destroy it, use it for your own cruel ends, or simply to weaken the nascent demon lord himself. |",
+			"| 3 | Whether for reasons benevolent or malign, you've decided that the legendary blade {magic-artifact/Blackaxe} has been carried by the nascent demon lord {monster/Treerazer} for too long. You seek to claim the weapon for yourself, either so you may destroy it, use it for your own cruel ends, or simply to weaken the nascent demon lord himself. |",
 			"| 4 | Someone has been stealing life-prolonging {magic-artifact/sun orchid elixir} from agents of Pashow - and you're hoping to get a vial for yourself. |",
-			"| 5 | The haunted Crypt of Angus Amberleg is said to lie under the jungles of Mediogalti Island and contain the booty from over a hundred raided ships, including Amberleg's knucklebone of fickle fortune. |",
-			"| 6 | The dwarven siege engine Worldbreaker was lost by Taldor to the Gorilla King of the Mwangi Expanse ages ago, and it possibly still sits in the vaults beneath Usaro. |",
-			"| 7 | It is well known that a deck of many things was used to construct Castle Everstand in Lastwall. You're intent on figuring out what happened to the artifact afterward. |",
-			"| 8 | A rift to the Shadow Plane in the Nidalese city of Ridwan may be a clue to the whereabouts of the legendary Shadowstaff. |",
-			"| 9 | You have heard of the fabled wardstones that quarantine the demonic incursion stemming from the Worldwound, and you seek to claim one of these magical menhirs for your own purposes. |",
+			"| 5 | The haunted Crypt of Angus Amberleg is said to lie under the jungles of Mediogalti Island and contain the booty from over a hundred raided ships, including Amberleg's {magic-artifact/knucklebone of fickle fortune}. |",
+			"| 6 | The dwarven siege engine *Worldbreaker* was lost by Taldor to the [Gorilla King](faith/Angazhan) of the Mwangi Expanse ages ago, and it possibly still sits in the vaults beneath Usaro. |",
+			"| 7 | It is well known that a {magic-artifact/deck of many things} was used to construct Castle Everstand in Lastwall. You're intent on figuring out what happened to the artifact afterward. |",
+			"| 8 | A rift to the Shadow Plane in the Nidalese city of Ridwan may be a clue to the whereabouts of the legendary {magic-artifact/Shadowstaff}. |",
+			"| 9 | You have heard of the fabled {magic-artifact/wardstone/s} that quarantine the demonic incursion stemming from the Worldwound, and you seek to claim one of these magical menhirs for your own purposes. |",
 			"| 10 | The artifacts of ancient Azlant have long piqued your interest, and you are determined to find some of these relics for yourself, even if it means traveling to the sunken continent itself. |",
-			"| 11 | You know that the elves used the power of the so-called Sovyrian Stone to accomplish a mass exodus from Golarion to their homeland in Sovyrian, but you seek to find this mysterious artifact to realize its powers for yourself. |",
+			"| 11 | You know that the elves used the power of the so-called *Sovyrian Stone* to accomplish a mass exodus from Golarion to their homeland in Sovyrian, but you seek to find this mysterious artifact to realize its powers for yourself. |",
 			"| 12 | The elves of the Mordant Spire claim to be the true inheritors of the Azlanti legacy, including that people's famous artifacts - an assertion with which you are at odds. |"
 		]
 	},
@@ -2361,7 +2363,7 @@
 			"{SOURCE Inner Sea Races/201}",
 			"",
 			"Together, you and an ally can operate an oversized and unwieldy weapon.  ",
-			"**Prerequisites:** Proficiency with light crossbow, heavy crossbow, or musket; size Small or Medium.  ",
+			"**Prerequisites:** Proficiency with {eq-weapon/light crossbow}, {eq-weapon/heavy crossbow}, or {eq-weapon/musket}; size Small or Medium.  ",
 			"**Benefit:** When you're adjacent to an ally who also has this feat, together you count as being Large for the purpose of using Large light crossbows, Large heavy crossbows, and Large muskets. Firing such a weapon this way requires your ally to support the barrel or bow of the weapon. You must be able to trace a line from your space to the target's space in such a way that the line passes through the ally's space. The ally doesn't provide soft cover to your target. Your ally uses her actions to load the weapon, and you use your actions to make attacks. Similarly, your ally's feats and abilities apply to reloading, while your feats and abilities apply to making attacks. This feat does not allow you and your ally to act simultaneously on the same initiative."
 		]
 	},
@@ -2374,9 +2376,9 @@
 			"{SOURCE Spymaster's Handbook/14}",
 			"",
 			"You seek unquestioning admiration and respect to escape from a shameful past.  ",
-			"**Prerequisites:** You must have the {trait/Secret Shame} drawback or the Bastard-Born background, and you must also have no publicly known faults or made any indisputable mistakes that could humiliate or cast down a figure of high station.  ",
+			"**Prerequisites:** You must have the {trait/Secret Shame} drawback or the [Bastard Born](rule/birth_circumstances_and_more) background, and you must also have no publicly known faults or made any indisputable mistakes that could humiliate or cast down a figure of high station.  ",
 			"**Benefit:** You and your apparent allies gain a +2 bonus on skill checks to gain influence or request a favor. This bonus no longer applies on checks against a person or organization once you fail a skill check to gain influence over or request a favor from that person or organization. Additionally, the DC of Sense Motive checks to get hunches about you and your apparent allies increases by 2.  ",
-			"**Goal:** Achieve a position in a high social class (such as the nobility) or an esteemed military position (such as general) without any substantiated rumors impugning your reputation. If your secret is exposed, you can replace this feat with Redemption after 1 month without meeting that feat's prerequisite.  ",
+			"**Goal:** Achieve a position in a high social class (such as the nobility) or an esteemed military position (such as general) without any substantiated rumors impugning your reputation. If your secret is exposed, you can replace this feat with {feat/Redemption} after 1 month without meeting that feat's prerequisite.  ",
 			"**Completion Benefit:** You no longer lose this feat's bonus for failing a skill check. Your Bluff checks to maintain a good reputation are always at worst unlikely (if not believable), and Bluff checks attempted by others to spoil your reputation are always at best unlikely (if not harder to believe)."
 		]
 	},
@@ -2404,7 +2406,7 @@
 			"",
 			"You have mastered the ability to blend the use of arms with martial arts.  ",
 			"**Prerequisites:** {feat/Ascetic Style}; {feat/Weapon Focus} with the chosen melee weapon; base attack bonus +5 or monk level 5th.  ",
-			"**Benefit:** You can use the chosen melee weapon with any class ability that can be used with an unarmed strike, such as an unchained monk's style strike ability. In addition, you are treated as a monk with a level equal to your character level for the purpose of determining the number of times per day that you can use feats with uses per day that depend upon your monk level, such as the Stunning Fist or Perfect Strike feats."
+			"**Benefit:** You can use the chosen melee weapon with any class ability that can be used with an unarmed strike, such as an {class/unchained monk/'s} style strike ability. In addition, you are treated as a monk with a level equal to your character level for the purpose of determining the number of times per day that you can use feats with uses per day that depend upon your monk level, such as the {feat/Stunning Fist} or {feat/Perfect Strike} feats."
 		]
 	},
 	"ascetic_strike": {
@@ -2417,7 +2419,7 @@
 			"",
 			"Your weapon strikes deal more damage than usual.  ",
 			"**Prerequisites:** {feat/Ascetic Form}; {feat/Ascetic Style}; {feat/Weapon Focus} with the chosen weapon; base attack bonus +7 or monk level 7th.  ",
-			"**Benefit:** You can use the unarmed strike damage of a monk 4 levels lower than your character level (minimum 1st) instead of the base damage for the chosen weapon. Ascetic Strike functions in all other ways as the brawler's close weapon mastery class feature. In addition, you ignore the still mind class feature prerequisite for the Monastic Legacy feat."
+			"**Benefit:** You can use the unarmed strike damage of a monk 4 levels lower than your character level (minimum 1st) instead of the base damage for the chosen weapon. Ascetic Strike functions in all other ways as the {class/brawler/'s} close weapon mastery class feature. In addition, you ignore the still mind class feature prerequisite for the {feat/Monastic Legacy} feat."
 		]
 	},
 	"ascetic_style": {
@@ -2449,31 +2451,31 @@
 			"**Prerequisites:** wild shape class feature, see Special.  ",
 			"**Benefit:** Your bestial nature manifests itself in one of the following ways. You choose the manifestation when you choose the feat, and then you cannot change it.",
 			"",
-			">*Night Senses (Ex):* If your base race has normal vision, you gain low-light vision. If your base race has low-light vision, you gain darkvision out to a range of 30 feet. If your base race has darkvision, the range of your darkvision increases by 30 feet.",
+			">**Night Senses (Ex):** If your base race has normal vision, you gain low-light vision. If your base race has low-light vision, you gain darkvision out to a range of 30 feet. If your base race has darkvision, the range of your darkvision increases by 30 feet.",
 			">",
-			">*Claws of the Beast (Ex):* You grow a pair of claws. These claws are primary attacks that deal 1d4 points of damage (1d3 if you are Small).",
+			">**Claws of the Beast (Ex):** You grow a pair of claws. These claws are primary attacks that deal 1d4 points of damage (1d3 if you are Small).",
 			">",
-			">*Predator's Leap (Ex):* You can make a running jump without needing to run 10 feet before you jump.",
+			">**Predator's Leap (Ex):** You can make a running jump without needing to run 10 feet before you jump.",
 			">",
-			">*Wild Instinct (Ex):* You gain a +2 bonus on initiative checks and a +2 bonus on Survival skill checks.",
+			">**Wild Instinct (Ex):** You gain a +2 bonus on initiative checks and a +2 bonus on Survival skill checks.",
 			"",
-			"**Special:** A character that has contracted lycanthropy can take this feat without having to meet the prerequisites. A ranger who selects the natural weapon combat style can take this feat without having to meet the prerequisites (even if he does not select Aspect of the Beast as a bonus feat).",
+			"**Special:** A character that has contracted {corruption/lycanthropy} can take this feat without having to meet the prerequisites. A {class/ranger} who selects the natural weapon combat style can take this feat without having to meet the prerequisites (even if he does not select Aspect of the Beast as a bonus feat).",
 			"",
 			"### Mythic Aspect of the Beast",
 			"",
 			"{SOURCE Mythic Adventures/55}",
 			"",
 			"Your blood burns with savage fury, giving you bestial powers and abilities.  ",
-			"**Prerequisites:** {feat/Aspect of the Beast}.  ",
+			"**Prerequisites:** Aspect of the Beast.  ",
 			"**Benefit:** Your bestial nature manifests itself in one of the following ways. You choose the manifestation when you choose the feat, and you can't change it.",
 			"",
-			">*Mythic Senses (Ex):* If you have normal vision, you gain darkvision 30 feet. If you have low-light vision, you gain darkvision 60 feet. If you have darkvision, the range of your darkvision increases by 30 feet plus 10 feet per tier.",
+			">**Mythic Senses (Ex):** If you have normal vision, you gain darkvision 30 feet. If you have low-light vision, you gain darkvision 60 feet. If you have darkvision, the range of your darkvision increases by 30 feet plus 10 feet per tier.",
 			">",
-			">*Mythic Claws (Ex):* You grow a pair of powerful claws. These claws are primary attacks that deal 1d4 points of damage (1d3 if you're Small). If you already have claws, the damage they deal increases by one die type (d4s become d6s, d3s become d4s, and so on). You can expend one use of mythic power when you hit with both claws during the same round to rend with those claws, dealing extra damage equal to one claw's damage plus 1-1/2 times your Strength bonus.",
+			">**Mythic Claws (Ex):** You grow a pair of powerful claws. These claws are primary attacks that deal 1d4 points of damage (1d3 if you're Small). If you already have claws, the damage they deal increases by one die type (d4s become d6s, d3s become d4s, and so on). You can expend one use of mythic power when you hit with both claws during the same round to rend with those claws, dealing extra damage equal to one claw's damage plus 1-1/2 times your Strength bonus.",
 			">",
-			">*Mythic Leap (Ex):* You can make a running jump without needing to run 10 feet beforehand. In addition, you gain a +5 bonus on your Acrobatics checks to determine the success of that jump and the distance covered. If you already have the predator's leap manifestation of Aspect of the Beast, the bonus on your Acrobatics checks increases to +10.",
+			">**Mythic Leap (Ex):** You can make a running jump without needing to run 10 feet beforehand. In addition, you gain a +5 bonus on your Acrobatics checks to determine the success of that jump and the distance covered. If you already have the predator's leap manifestation of Aspect of the Beast, the bonus on your Acrobatics checks increases to +10.",
 			">",
-			">*Mythic Instinct (Ex):* You gain a +2 bonus on initiative checks and a +2 bonus on Survival checks. These bonuses stack with those gained from the wild instinct manifestation of Aspect of the Beast."
+			">**Mythic Instinct (Ex):** You gain a +2 bonus on initiative checks and a +2 bonus on Survival checks. These bonuses stack with those gained from the wild instinct manifestation of Aspect of the Beast."
 		]
 	},
 	"aspiring_noble": {
@@ -2503,7 +2505,7 @@
 			"{SOURCE Adventurer's Guide/35;Agents of Evil/13}",
 			"",
 			"You have earned the attention of the [Aspis Consortium](rule/aff_profiteers) and can call in favors when necessary.  ",
-			"**Benefit:** Whenever you are in a settlement that is the size of a small town or larger, you can purchase (but not sell) items through your Aspis contacts. Treat your current settlement as though it were a metropolis to determine its base value and available magic items. You pay a 5% markup for such items, and orders take 3d6 days to be delivered through Consortium channels. You can pay an additional 1,000 gp to have your item magically delivered to you in 1d3 days instead."
+			"**Benefit:** Whenever you are in a settlement that is the size of a small town or larger, you can purchase (but not sell) items through your Aspis contacts. Treat your current settlement [as though it were a metropolis](rule/purchasing_magic_items) to determine its base value and available magic items. You pay a 5% markup for such items, and orders take 3d6 days to be delivered through Consortium channels. You can pay an additional 1,000 gp to have your item magically delivered to you in 1d3 days instead."
 		]
 	},
 	"assisted_ascension": {
@@ -2542,7 +2544,7 @@
 			"{SOURCE Inner Sea Monster Codex/59}",
 			"",
 			"Your zeal for death - including your own - brings even greater harm to those around you.  ",
-			"**Prerequisites:** {feat/Empowered Daemonic Pact}, urdefhan.  ",
+			"**Prerequisites:** {feat/Empowered Daemonic Pact}, {monster/urdefhan}.  ",
 			"**Benefit:** When you use your daemonic pact ability and allow your soul to be consumed, you automatically succeed. The amount of negative energy damage dealt by your daemonic pact ability increases to 3d6 points, and the profane bonus to the save DC increases to +4.  ",
 			"**Normal:** The daemonic pact ability has a 50% chance of success per attempt, and it deals 2d6 points of negative energy damage."
 		]
@@ -2556,8 +2558,8 @@
 			"{SOURCE People of the Stars/27}",
 			"",
 			"You can perform more accurate auguries according to planetary movements in relation to the Cosmic Caravan.  ",
-			"**Prerequisites:** Ability to cast augury as a spell or spell-like ability.  ",
-			"**Benefit:** You can use a cosmogram or star chart as an optional focus component for augury. When you do, the augury can account for consequences up to 1 hour into the future, and your chance of a successful reading increases by 4%. If you also consult a calculating standard orrery or calculating grand orrery, the augury can see up to 1 day into the future and your chance of success increases by 8%."
+			"**Prerequisites:** Ability to cast {spell/augury} as a spell or spell-like ability.  ",
+			"**Benefit:** You can use a cosmogram or star chart as an optional focus component for *augury.* When you do, the *augury* can account for consequences up to 1 hour into the future, and your chance of a successful reading increases by 4%. If you also consult a calculating standard orrery or calculating grand orrery, the *augury* can see up to 1 day into the future and your chance of success increases by 8%."
 		]
 	},
 	"asura_sight": {
@@ -2570,7 +2572,7 @@
 			"",
 			"Taking inspiration from the many faces of asuras, you have learned to split your focus to avoid being caught off guard.  ",
 			"**Prerequisites:** {feat/Asura Style}, base attack bonus +9 or monk level 9th.  ",
-			"**Benefit:** When using {feat/Asura Style}, you gain improved uncanny dodge as a rogue of your character level."
+			"**Benefit:** When using {feat/Asura Style}, you gain {ability/improved uncanny dodge} as a rogue of your character level."
 		]
 	},
 	"asura_spellrend": {
@@ -2584,7 +2586,7 @@
 			"Your blasphemies shatter divine magic.  ",
 			"**Prerequisites:** {feat/Asura Sight}, {feat/Asura Style}, base attack bonus +13 or monk level 13th.",
 			"",
-			"You can replace one of your attacks at your highest base attack bonus each round with a spellrending strike. If your spellrending strike hits, it deals no damage, but you can attempt to dispel a harmless divine spell affecting this target as per {spell/dispel magic}, with a caster level equal to your character level. If you succeed at your dispel check, the target is sickened as if you had interrupted the spell with {feat/Asura Style} and receives no saving throw to reduce the sickened duration."
+			"You can replace one of your attacks at your highest base attack bonus each round with a spellrending strike. If your spellrending strike hits, it deals no damage, but you can attempt to dispel a harmless divine spell affecting this target as per {spell/dispel magic}, with a caster level equal to your character level. If you succeed at your dispel check, the target is {misc/sickened} as if you had interrupted the spell with {feat/Asura Style} and receives no saving throw to reduce the sickened duration."
 		]
 	},
 	"asura_style": {
@@ -2597,7 +2599,7 @@
 			"",
 			"Blasphemy comes quite naturally to you. When you interrupt your foes' divine spells, you use words, symbols, or gestures so abhorrent to their faith that they are repulsed by your deeds.  ",
 			"**Prerequisites:** Wis 13, {feat/Improved Unarmed Strike}, base attack bonus +5 or monk level 5th.  ",
-			"**Benefit:** When you use a monk weapon or unarmed strike to attack a creature that is casting a divine spell, the target is sickened for 1d4 rounds. A target can attempt a Fortitude save (DC = 10 + half your character level + your Wisdom modifier) to reduce the duration of the sickened effect to 1 round."
+			"**Benefit:** When you use a monk weapon or unarmed strike to attack a creature that is casting a divine spell, the target is {misc/sickened} for 1d4 rounds. A target can attempt a Fortitude save (DC = 10 + half your character level + your Wisdom modifier) to reduce the duration of the sickened effect to 1 round."
 		]
 	},
 	"atheist_abjurations": {
@@ -2632,7 +2634,7 @@
 			"{SOURCE Mythic Adventures/60}",
 			"",
 			"You excel far beyond others at acts of physical prowess.  ",
-			"**Prerequisites:** {feat/Athletic}.  ",
+			"**Prerequisites:** Athletic.  ",
 			"**Benefit:** The bonus on Climb and Swim skill checks from Athletic increases by 2. In addition, you can expend one use of mythic power to treat a Climb or Swim check as if you had rolled a natural 20. You must decide to use this ability before making the roll."
 		]
 	},
@@ -2645,7 +2647,7 @@
 			"{SOURCE Advanced Race Guide/28}",
 			"",
 			"You share a strong mystic connection with one type of wilderness terrain.  ",
-			"**Prerequisites:** Elf.  ",
+			"**Prerequisites:** {race/Elf}.  ",
 			"**Benefit:** Select one type of terrain from the ranger class's {ability/favored terrain} class feature (except urban). While you are in your selected terrain type, your natural healing rate (the amount of hit points and ability damage you heal from a full night's rest) doubles.  ",
 			"**Special:** You can take this feat multiple times. Its effects do not stack. Each time you take it, it applies to a different terrain type."
 		]
@@ -2660,11 +2662,11 @@
 			"",
 			"Your attempts to bind or call outsiders are highly potent.  ",
 			"**Prerequisites:** {feat/Spell Focus/ (conjuration)}; ability to cast {spell/lesser planar ally}, {spell/lesser planar binding}, or a higher-level version of these spells.  ",
-			"**Benefit:** Choose a subtype of outsider, such as angel or elemental. When using the planar ally or planar binding spells, you can call 2 additional Hit Dice of outsiders with the chosen subtype. You also gain an additional benefit depending on what spell you are casting.",
+			"**Benefit:** Choose a subtype of outsider, such as angel or elemental. When using the *planar ally* or *planar binding* spells, you can call 2 additional Hit Dice of outsiders with the chosen subtype. You also gain an additional benefit depending on what spell you are casting.",
 			"",
-			"When you call an outsider of the chosen subtype with planar ally spells, you reduce the price it demands for service by 25%, to a minimum of 1,000 gp.",
+			"When you call an outsider of the chosen subtype with *planar ally* spells, you reduce the price it demands for service by 25%, to a minimum of 1,000 gp.",
 			"",
-			"When you bind an outsider of the chosen subtype with planar binding spells and request a service of the outsider, you gain a +2 bonus on Charisma checks to do so.  ",
+			"When you bind an outsider of the chosen subtype with *planar binding* spells and request a service of the outsider, you gain a +2 bonus on Charisma checks to do so.  ",
 			"**Special:** You can gain this feat multiple times. Its effects do not stack. Each time you take the feat, it applies to a different subtype of outsider."
 		]
 	},
@@ -2688,7 +2690,7 @@
 			"{SOURCE Mythic Adventures/60}",
 			"",
 			"Your summoning spells bring not mere ordinary beasts, but instead mythic creatures.  ",
-			"**Prerequisites:** {feat/Augment Summoning}.  ",
+			"**Prerequisites:** Augment Summoning.  ",
 			"**Benefit:** Any creature you summon using a summon spell is considered mythic for the purpose of interacting with other mythic creatures. It doesn't gain any mythic abilities or power, but is affected by mythic spells and abilities as if it were a 1st-tier mythic creature. Additionally, if the creature summoned has damage reduction, its damage reduction becomes DR/epic."
 		]
 	},
@@ -2701,12 +2703,12 @@
 			"{SOURCE Horror Adventures/82}",
 			"",
 			"You are able to flare your alignment aura to debilitate your foes.  ",
-			"**Prerequisites:** Cha 13; aura, aura of good, or aura of evil class feature; channel energy 4d6; strong or overwhelming good or evil aura.  ",
+			"**Prerequisites:** Cha 13; aura, aura of good, or aura of evil class feature; {ability/channel energy} 4d6; strong or overwhelming good or evil aura.  ",
 			"**Benefit:** Once per day, when you channel energy, you are also able to cause your divine aura to flare in a display of overwhelming force, affecting all good creatures within the aura (if you channel negative energy) or all evil creatures in the aura (if you channel positive energy). This effect is in addition to the normal effects of channeling energy. When you flare your aura, select from one of the following options based on the strength of your alignment aura. You can select a lower-strength effect.",
 			"",
-			"Strong: Affected creatures must succeed at a Fortitude save (DC = 10 + 1/2 your class level in the class granting you the channel energy ability + your Charisma bonus) or be fatigued for 1d4 rounds.",
+			":HL[Strong:] Affected creatures must succeed at a Fortitude save (DC = 10 + 1/2 your class level in the class granting you the channel energy ability + your Charisma bonus) or be {misc/fatigued} for 1d4 rounds.",
 			"",
-			"Overwhelming: Affected creatures must succeed at a Fortitude save (DC = 10 + 1/2 your class level in the class granting you the channel energy ability + your Charisma bonus) or be staggered for 1d4 rounds."
+			":HL[Overwhelming:] Affected creatures must succeed at a Fortitude save (DC = 10 + 1/2 your class level in the class granting you the channel energy ability + your Charisma bonus) or be {misc/staggered} for 1d4 rounds."
 		]
 	},
 	"aura_of_succumbing": {
@@ -2718,8 +2720,8 @@
 			"{SOURCE Inner Sea Gods/207}",
 			"",
 			"Your foul patron's influence hastens death's approach.  ",
-			"**Prerequisites:** Channel energy class feature, worshiper of one of the Four Horsemen.  ",
-			"**Benefit:** As a swift action, you can expend one of your uses of channel energy to emanate a 30-foot-radius aura of succumbing for a number of rounds equal to your effective cleric level. Dying creatures in the area take 1 point of damage per die of your normal channel negative energy damage at the start of your turn each round. A successful Will save (DC equal to the DC of your channel energy ability) halves this damage. Whenever a living creature dies while within your aura of succumbing, you gain a number of temporary hit points equal to that creature's Hit Dice. These temporary hit points last for 1 hour."
+			"**Prerequisites:** {ability/Channel energy} class feature, worshiper of one of the Four Horsemen.  ",
+			"**Benefit:** As a swift action, you can expend one of your uses of channel energy to emanate a 30-foot-radius aura of succumbing for a number of rounds equal to your effective cleric level. {misc/Dying} creatures in the area take 1 point of damage per die of your normal channel negative energy damage at the start of your turn each round. A successful Will save (DC equal to the DC of your channel energy ability) halves this damage. Whenever a living creature dies while within your aura of succumbing, you gain a number of temporary hit points equal to that creature's Hit Dice. These temporary hit points last for 1 hour."
 		]
 	},
 	"aural_insight": {
@@ -2732,8 +2734,8 @@
 			"",
 			"You are able to emulate the echolocation techniques of bats.  ",
 			"**Prerequisites:** {feat/Blind-Fight}, {feat/Improved Blind-Fight}, Perception 10 ranks.  ",
-			"**Benefit:** By spending a move action to make a sound and listen for the echoes, you gain blindsense 30 feet until the end of your turn. Using this feat requires making audible sounds that impose a -4 penalty on your Stealth checks.  ",
-			"**Special:** This feat cannot be used if you are deafened or unable to make noise, and you cannot detect anything in areas that are magically silenced."
+			"**Benefit:** By spending a move action to make a sound and listen for the echoes, you gain {umr/blindsense} 30 feet until the end of your turn. Using this feat requires making audible sounds that impose a -4 penalty on your Stealth checks.  ",
+			"**Special:** This feat cannot be used if you are {misc/deafened} or unable to make noise, and you cannot detect anything in areas that are magically silenced."
 		]
 	},
 	"auspicious_birth": {
@@ -2748,17 +2750,17 @@
 			"**Prerequisites:** Must be taken at 1st level.  ",
 			"**Benefit:** Choose one of the following benefits based on the astrological event that occurred during your birth.",
 			"",
-			"Apparent Retrograde: You gain a +1 luck bonus on Reflex saves. A natural 1 on a Reflex save is not considered an automatic failure for you.",
+			":HL[Apparent Retrograde:] You gain a +1 luck bonus on Reflex saves. A natural 1 on a Reflex save is not considered an automatic failure for you.",
 			"",
-			"Conjunction: When benefiting from a teamwork feat, increase the bonus you and your allies receive from that feat by 1, if any.",
+			":HL[Conjunction:] When benefiting from a teamwork feat, increase the bonus you and your allies receive from that feat by 1, if any.",
 			"",
-			"Eclipse: When benefiting from soft cover from an attack or effect, you are treated as if benefiting from hard cover instead. You cannot use this ability to use soft cover for Stealth checks.",
+			":HL[Eclipse:] When benefiting from soft {rule/cover} from an attack or effect, you are treated as if benefiting from hard cover instead. You cannot use this ability to use soft cover for Stealth checks.",
 			"",
-			"Meteor Shower: You receive a cumulative +1 dodge bonus to AC against ranged attacks for each ranged attack beyond the first made against you in a single round, up to a maximum of +4. This bonus lasts until the beginning of your next turn.",
+			":HL[Meteor Shower:] You receive a cumulative +1 dodge bonus to AC against ranged attacks for each ranged attack beyond the first made against you in a single round, up to a maximum of +4. This bonus lasts until the beginning of your next turn.",
 			"",
-			"Passing Comet: You gain a +2 insight bonus on skill checks used with an occult skill unlock.",
+			":HL[Passing Comet:] You gain a +2 insight bonus on skill checks used with an occult skill unlock.",
 			"",
-			"Sun Sign: Your spells and spell-like abilities with the light descriptor are treated as if they were 1 spell level higher for determining spell save DCs. The level of spell with the darkness descriptor that they can counter or dispel also increases by 1."
+			":HL[Sun Sign:] Your spells and spell-like abilities with the light descriptor are treated as if they were 1 spell level higher for determining spell save DCs. The level of spell with the darkness descriptor that they can counter or dispel also increases by 1."
 		]
 	},
 	"authoritative_spell": {
@@ -2787,7 +2789,7 @@
 			"{SOURCE Monster Codex/237;Blood of the Night/28}",
 			"",
 			"You have been hunted for so long that you have developed resistances to slayers' usual scare tactics.  ",
-			"**Prerequisites:** Vampire.  ",
+			"**Prerequisites:** {template/Vampire}.  ",
 			"**Benefit:** You gain a +2 bonus on saves made to resist aversions to objects, sounds, and materials appropriate to your vampire type (such as garlic, holy symbols, and mirrors for a moroi). When confronted with such things, you can attempt a saving throw immediately instead of after 1 round."
 		]
 	},
@@ -2813,8 +2815,8 @@
 			"{SOURCE Blood of the Coven/4}",
 			"",
 			"Through ritual or force of will, you have awakened the latent power inherited from your hag mother.  ",
-			"**Prerequisites:** {feat/Iron Will} or {feat/Mother's Gift}, changeling.  ",
-			"**Benefit:** Your hag heritage racial abilities grow more powerful, granting you a +2 racial bonus on saving throws to resist arcane spells. You also gain a secondary ability that varies by your hag heritage; see the {race/individual |changeling/ heritage entries}.  ",
+			"**Prerequisites:** {feat/Iron Will} or {feat/Mother's Gift}, {race/changeling}.  ",
+			"**Benefit:** Your hag heritage racial abilities grow more powerful, granting you a +2 racial bonus on saving throws to resist arcane spells. You also gain a secondary ability that varies by your hag heritage; see the individual changeling heritage entries.  ",
 			"**Special:** As you grow closer to your hag nature, you occasionally manifest signs of supernatural evil. Each day at midnight, there is a 50% chance you radiate an evil aura for the purposes of divination spells and spell-like abilities for the following 24 hours. On these days, you also cause minor displays of corruption nearby - such as curling pages or spoiling milk - at the GM's discretion"
 		]
 	},
@@ -2831,7 +2833,7 @@
 			"",
 			"Your fury in combat translates into crowd-pleasing displays.  ",
 			"**Prerequisites:** Str 15, {feat/Power Attack}, base attack bonus +3.  ",
-			"**Benefit:** You can apply your Strength modifier instead of your Charisma modifier to performance combat checks.",
+			"**Benefit:** You can apply your Strength modifier instead of your Charisma modifier to {rule/performance combat} checks.",
 			"",
 			"In addition, when you spend a swift action to attempt a performance combat check that was triggered by a successful bull rush or sunder combat maneuver check, you gain a +2 bonus on the performance combat check. For every 5 points by which your attack exceeded your opponent's CMD, this bonus increases by 2.",
 			"",
@@ -2851,7 +2853,7 @@
 			"",
 			"This creature can send opponents flying.  ",
 			"**Prerequisites:** Str 25, {feat/Power Attack}, {feat/Improved Bull Rush}, size Large or larger.  ",
-			"**Benefit:** As a standard action, the creature may perform an awesome blow combat maneuver. If the creature's maneuver succeeds against a corporeal opponent smaller than itself, its opponent takes damage (typically slam damage plus Strength bonus) and is knocked flying 10 feet in a direction of the attacking creature's choice and falls prone. The attacking creature can only push the opponent in a straight line, and the opponent can't move closer to the attacking creature than the square it started in. If an obstacle prevents the completion of the opponent's move, the opponent and the obstacle each take 1d6 points of damage, and the opponent is knocked prone in the space adjacent to the obstacle."
+			"**Benefit:** As a standard action, the creature may perform an awesome blow combat maneuver. If the creature's maneuver succeeds against a corporeal opponent smaller than itself, its opponent takes damage (typically slam damage plus Strength bonus) and is knocked flying 10 feet in a direction of the attacking creature's choice and falls {rule/prone}. The attacking creature can only push the opponent in a straight line, and the opponent can't move closer to the attacking creature than the square it started in. If an obstacle prevents the completion of the opponent's move, the opponent and the obstacle each take 1d6 points of damage, and the opponent is knocked prone in the space adjacent to the obstacle."
 		]
 	},
 	"awesome_charge": {
@@ -2877,7 +2879,7 @@
 			"",
 			"Your ranged attacks can send smaller opponents flying.  ",
 			"**Prerequisites:** Str 25, {feat/Throw Anything} or rock throwing, {feat/Improved Bull Rush}, size Large or larger.  ",
-			"**Benefit:** As a standard action, you can perform the awesome throw combat maneuver. You do this by making a thrown weapon attack; if you don't have the Throw Anything feat, you must use a large, bulky, and relatively regular-shaped object with a hardness of at least 5 (such as a rock or treasure chest). If that attack hits a corporeal opponent smaller than you, the opponent takes damage and is knocked away, flying 10 feet in a straight line away from you and falling prone. If an obstacle prevents the completion of your target's move, the target and the obstacle each take 1d6 points of damage, and the target is knocked prone in a space adjacent to the obstacle."
+			"**Benefit:** As a standard action, you can perform the awesome throw combat maneuver. You do this by making a thrown weapon attack; if you don't have the Throw Anything feat, you must use a large, bulky, and relatively regular-shaped object with a hardness of at least 5 (such as a rock or treasure chest). If that attack hits a corporeal opponent smaller than you, the opponent takes damage and is knocked away, flying 10 feet in a straight line away from you and falling {rule/prone}. If an obstacle prevents the completion of your target's move, the target and the obstacle each take 1d6 points of damage, and the target is knocked prone in a space adjacent to the obstacle."
 		]
 	},
 	"axiomatic_discourse": {
@@ -2943,8 +2945,8 @@
 			"{SOURCE Demons Revisited/8}",
 			"",
 			"Your instinct for combat is much like that of a rogue.  ",
-			"**Prerequisites:** Dex 17, babau.  ",
-			"**Benefit:** Choose one {ability/rogue talent} that adds to sneak attacks (such as bleeding attack or slow reactions).  ",
+			"**Prerequisites:** Dex 17, {monster/babau}.  ",
+			"**Benefit:** Choose one {ability/rogue talent} that adds to sneak attacks (such as {talent/bleeding attack} or {talent/slow reactions}).  ",
 			"**Special:** You may select this feat multiple times. Each time you take the feat, you gain a new rogue talent."
 		]
 	},
@@ -2957,7 +2959,7 @@
 			"{SOURCE Gnomes of Golarion/30}",
 			"",
 			"Your talent for flimflam allows you to trick creatures into exchanging valuable objects for whatever junk you happen to offer.  ",
-			"**Prerequisites:** Appraise 5 ranks, Bluff 5 ranks, gnome.  ",
+			"**Prerequisites:** Appraise 5 ranks, Bluff 5 ranks, {race/gnome}.  ",
 			"**Benefit:** Make a Bluff check to praise the value and worth of an object in your hand while denigrating an object held by a nearby creature; this takes anywhere from 1 round to 1 minute depending on the appearance and nature of the items. If the creature fails its check, it agrees to exchange your object for its own. Obvious differences in the value between the exchanged items give your roll a +4 or -4 modifier, at the GM's discretion (offering a clay cup for a jeweled dagger gives your roll a -4 penalty). The GM may rule that some items are too obviously valuable or worthless for this feat to apply (a king wouldn't trade his crown for any item, and no normal person would trade an item for a piece of garbage). If you fail the check by 5 or more, the target is insulted and his attitude toward you worsens by one category.",
 			"",
 			"Once the exchange happens, make an Appraise roll opposed by the target's Appraise or Sense Motive roll. If the target wins, it immediately realizes the true value of the object you offered it and behaves accordingly. If you succeed, it believes your false assessment for 1 round; for every 5 by which your check exceeds your opponent's check, the deception lasts 1 more round. As with disbelieving illusions, the target's ally can point out the true value of the object, giving the target another check with a +2 bonus.",
@@ -2975,7 +2977,7 @@
 			"",
 			"Your ally's eyes are your own, and yours are his.  ",
 			"**Prerequisites:** Perception 3 ranks.  ",
-			"**Benefit:** While you are flanked and adjacent to an ally with this feat, you receive a +2 circumstance bonus to AC against attacks from opponents flanking you."
+			"**Benefit:** While you are flanked and adjacent to an ally with this feat, you receive a +2 circumstance bonus to AC against attacks from opponents {rule/flanking} you."
 		]
 	},
 	"bag_of_bones": {
@@ -2987,8 +2989,8 @@
 			"{SOURCE Monster Codex/80}",
 			"",
 			"Your undead form ignores the limits of mortal physiology.  ",
-			"**Prerequisites:** Ghoul.  ",
-			"**Benefit:** You are treated as one size smaller for the purpose of calculating penalties for squeezing, and gain a +5 competence bonus on Escape Artist checks. If you possess 10 or more Hit Dice, this bonus increases to +4."
+			"**Prerequisites:** {monster/Ghoul}.  ",
+			"**Benefit:** You are treated as one size smaller for the purpose of calculating penalties for {misc/squeezing}, and gain a +5 competence bonus on Escape Artist checks. If you possess 10 or more Hit Dice, this bonus increases to +4."
 		]
 	},
 	"balor_whip": {
@@ -3001,7 +3003,7 @@
 			"",
 			"You can drag distant foes toward you with your whip.  ",
 			"**Prerequisites:** {feat/Weapon Focus/ (whip)}, {feat/Whip Mastery}, base attack bonus +8.  ",
-			"**Benefit:** When you perform a drag combat maneuver with your whip, you can choose not to move with your target, instead bringing your target closer to you. If you do this, you can't drag the target any farther than the distance it takes to move it adjacent to you, even if your result was high enough to drag the target farther. You gain a +2 bonus on drag combat maneuver checks when using a whip to drag, but this bonus doesn't stack with the bonus from Improved Drag.  ",
+			"**Benefit:** When you perform a {rule/drag} combat maneuver with your {eq-weapon/whip}, you can choose not to move with your target, instead bringing your target closer to you. If you do this, you can't drag the target any farther than the distance it takes to move it adjacent to you, even if your result was high enough to drag the target farther. You gain a +2 bonus on drag combat maneuver checks when using a whip to drag, but this bonus doesn't stack with the bonus from Improved Drag.  ",
 			"**Special:** Balor Whip counts as Improved Drag for the purpose of qualifying for Quick Drag."
 		]
 	},
@@ -3042,8 +3044,8 @@
 			"{SOURCE Monster Summoner's Handbook/8;Blood of Angels/24}",
 			"",
 			"Your familiarity with summoning creatures has taught you how to send them away with a well-timed strike.  ",
-			"**Prerequisites:** {feat/Arcane Strike} or {feat/Disruptive}; Spellcraft 8 ranks; arcane pool class feature.  ",
-			"**Benefit:** When you confirm a critical hit against a target while using Arcane Strike or with a weapon enhanced by your arcane pool, if the target was summoned by a spell you identified using a Spellcraft check, it must succeed at a Will save (DC = 10 + 1/2 your character level + your Intelligence modifier) or be sent back to its home plane as per the dismissal spell."
+			"**Prerequisites:** {feat/Arcane Strike} or {feat/Disruptive}; {skill/Spellcraft} 8 ranks; arcane pool class feature.  ",
+			"**Benefit:** When you confirm a critical hit against a target while using Arcane Strike or with a weapon enhanced by your arcane pool, if the target was summoned by a spell you identified using a Spellcraft check, it must succeed at a Will save (DC = 10 + 1/2 your character level + your Intelligence modifier) or be sent back to its home plane as per the {spell/dismissal} spell."
 		]
 	},
 	"banner_of_doom": {
@@ -3055,7 +3057,7 @@
 			"{SOURCE Blood of Fiends/24}",
 			"",
 			"The mere sight of your fiendish banner is enough to send ripples of fear through your enemies.  ",
-			"**Prerequisites:** Base attack bonus +8, banner class feature, tiefling.  ",
+			"**Prerequisites:** Base attack bonus +8, banner class feature, {race/tiefling}.  ",
 			"**Benefit:** As long your banner is clearly visible, all enemies within 60 feet take a -2 penalty on saving throws against fear. This penalty does not stack with other effects that provide enemies with penalties on saving throws against fear."
 		]
 	},
@@ -3111,7 +3113,7 @@
 			"{SOURCE Inner Sea Races/201}",
 			"",
 			"The diverse martial traditions of you and your allies' backgrounds blend into a unique combination.  ",
-			"**Prerequisites:** Base attack bonus +1, human.  ",
+			"**Prerequisites:** Base attack bonus +1, {race/human}.  ",
 			"**Benefit:** You gain a cumulative +1 morale bonus (maximum +4) on combat maneuver checks for each human ally who also has this feat, is threatening the same foe, and does not share an ethnicity with you or any other ally threatening that foe."
 		]
 	},
@@ -3128,7 +3130,7 @@
 			"",
 			"You have learned how to mimic the combat tricks and forms of others.  ",
 			"**Prerequisites:** Base attack bonus +4.  ",
-			"**Benefit:** Once per day as a move action, you can gain the benefit of a combat feat that you do not possess for 1 minute. You must otherwise meet the feat's requirements.  ",
+			"**Benefit:** Once per day as a move action, you can gain the benefit of a {main/feats_<combat/ feat} that you do not possess for 1 minute. You must otherwise meet the feat's requirements.  ",
 			"**Special:** If you have the martial flexibility class feature, this feat instead grants you one additional use per day of that ability.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -3168,7 +3170,7 @@
 			"",
 			"Your performance interweaves with and enriches your ally's skills.  ",
 			"**Prerequisites:** Bardic performance or raging song.  ",
-			"**Benefit:** You can attempt a DC 10 Perform check to aid the Perform check of an ally who also has this feat. If you succeed, your ally gains a +1 bonus for each 5 points of your check result; a check result of 10 grants a +2 bonus, a result of 15 grants a +3 bonus, and so on. If you fail, the discord applies a -5 penalty on your ally's check.  ",
+			"**Benefit:** You can attempt a DC 10 Perform check to {rule/aid>_another} the Perform check of an ally who also has this feat. If you succeed, your ally gains a +1 bonus for each 5 points of your check result; a check result of 10 grants a +2 bonus, a result of 15 grants a +3 bonus, and so on. If you fail, the discord applies a -5 penalty on your ally's check.  ",
 			"**Normal:** Aid another checks grant a +2 bonus."
 		]
 	},
@@ -3181,8 +3183,8 @@
 			"{SOURCE Blood of the Moon/9}",
 			"",
 			"Your powers of transformation have been honed to the point where you can wholly become a bat.  ",
-			"**Prerequisites:** Cha 13, werebat-kin.  ",
-			"**Benefit:** You can take the form of a bat whose appearance is static and cannot be changed each time you assume this form. You gain a +10 racial bonus on Disguise checks to appear as a bat. Changing from werebat-kin to bat shape is a standard action. This ability otherwise functions as beast shape II, and your ability scores change accordingly.",
+			"**Prerequisites:** Cha 13, [werebat-kin](race/skinwalker).  ",
+			"**Benefit:** You can take the form of a bat whose appearance is static and cannot be changed each time you assume this form. You gain a +10 racial bonus on Disguise checks to appear as a bat. Changing from werebat-kin to bat shape is a standard action. This ability otherwise functions as {spell/beast shape II}, and your ability scores change accordingly.",
 			"",
 			"If you wear a bat pelt, you may choose to adopt a form resembling the bat whose skin you wear instead of your normal bat form."
 		]
@@ -3196,7 +3198,7 @@
 			"{SOURCE People of the Wastes/10}",
 			"",
 			"Sometimes smacking your firearm against a solid surface is all that's needed to unjam it. Sometimes that solid surface is a creature.  ",
-			"**Prerequisites:** Craft (alchemy) 3 ranks; grit class feature or {feat/Amateur Gunslinger}; pistol-whip gunslinger deed; quick clear gunslinger deed.  ",
+			"**Prerequisites:** Craft (alchemy) 3 ranks; grit class feature or {feat/Amateur Gunslinger}; {deed/pistol-whip} gunslinger deed; {deed/quick clear} gunslinger deed.  ",
 			"**Benefit:** You can ignore the broken condition of a firearm you're wielding to perform the pistol-whip deed. If you hit a creature with this deed, you can spend 1 grit point as an immediate action to remove the broken condition from the firearm, but only if the firearm gained that condition from a misfire."
 		]
 	},
@@ -3232,7 +3234,7 @@
 			"{SOURCE Dirty Tactics Toolbox/13}",
 			"",
 			"Your songs ring in your foes' ears well before the foes can defend themselves.  ",
-			"**Prerequisites:** Bardic performance class feature.  ",
+			"**Prerequisites:** {ability/Bardic performance} class feature.  ",
 			"**Benefit:** Bardic performances you use during a surprise round do not count against your number of rounds per day. Any bonuses granted by your performance increase by 1 during a surprise round."
 		]
 	},
@@ -3258,8 +3260,8 @@
 			"{SOURCE Goblins of Golarion/24}",
 			"",
 			"Your battle songs can drive your fellow goblins to new heights of frenzy.  ",
-			"**Prerequisites:** Goblin, bardic performance class feature.  ",
-			"**Benefit:** When using bardic performance to inspire courage in allies, you can choose to sing in Goblin - allies who do not speak Goblin gain no benefits from this performance. Allied goblins who hear your battle songs become more energetic and brave, and thus add the bonus granted by your inspire courage ability to all saving throws as a morale bonus."
+			"**Prerequisites:** {race/Goblin}, {ability/bardic performance} class feature.  ",
+			"**Benefit:** When using bardic performance to {performance/inspire courage} in allies, you can choose to sing in Goblin - allies who do not speak Goblin gain no benefits from this performance. Allied goblins who hear your battle songs become more energetic and brave, and thus add the bonus granted by your inspire courage ability to all saving throws as a morale bonus."
 		]
 	},
 	"battlefield_healer": {
@@ -3286,7 +3288,7 @@
 			"{SOURCE Inner Sea Gods/207}",
 			"",
 			"Your hope inspires allies in their struggles.  ",
-			"**Prerequisites:** Channel energy 3d6, worshiper of Milani.  ",
+			"**Prerequisites:** {ability/Channel energy} 3d6, worshiper of {faith/Milani}.  ",
 			"**Benefit:** When you channel positive energy to heal living creatures, those you heal gain a +2 morale bonus on saving throws, attack rolls, ability checks, and skill checks for a number of rounds equal to your Charisma bonus (minimum 1 round)."
 		]
 	},
@@ -3326,7 +3328,7 @@
 			"",
 			"You can hold your foes even if you do not manage to grapple them.  ",
 			"**Prerequisites:** {feat/Weapon Focus/ (bite)}, base attack bonus +6.  ",
-			"**Benefit:** Whenever you confirm a critical hit against a foe with your bite attack, if your confirmation roll matches or exceeds your foe's CMD, you can clamp down on your foe to prevent it from moving away as a free action. The foe cannot move outside the area threatened by your bite attack unless it breaks free of your bite. It can attempt to free itself with a combat maneuver check or Escape Artist check as if you were grappling it, but neither of you gains the grappled condition. You cannot use your bite attack while you maintain your grip on your foe, but you can release the bite as a swift action to end the effect."
+			"**Benefit:** Whenever you confirm a critical hit against a foe with your bite attack, if your confirmation roll matches or exceeds your foe's CMD, you can clamp down on your foe to prevent it from moving away as a free action. The foe cannot move outside the area threatened by your bite attack unless it breaks free of your bite. It can attempt to free itself with a combat maneuver check or {skill/Escape Artist} check as if you were grappling it, but neither of you gains the grappled condition. You cannot use your bite attack while you maintain your grip on your foe, but you can release the bite as a swift action to end the effect."
 		]
 	},
 	"beast_hunter": {
@@ -3352,8 +3354,8 @@
 			"{SOURCE Advanced Race Guide/56}",
 			"",
 			"You gain the service of a monstrous companion or mount.  ",
-			"**Prerequisites:** Animal companion or mount class feature, character level 7th, half-orc or orc.  ",
-			"**Benefit:** Select one of the following creature types: elephant, pteranodon, rhinoceros, stegosaurus, or triceratops. Add this creature type to your list of possible animal companions or mounts. When summoning a creature of the selected type to serve as a mount or companion, treat your effective druid level as if it were two levels higher (to a maximum of your character level). If the creature is large enough for you to ride, it gains the combat training general purpose (see {skill/Handle Animal}) at no cost."
+			"**Prerequisites:** Animal companion or mount class feature, character level 7th, {race/half-orc} or {race/orc}.  ",
+			"**Benefit:** Select one of the following creature types: {companion/elephant}, {companion/pteranodon}, {companion/rhinoceros}, {companion/stegosaurus}, or {companion/triceratops}. Add this creature type to your list of possible animal companions or mounts. When summoning a creature of the selected type to serve as a mount or companion, treat your effective druid level as if it were two levels higher (to a maximum of your character level). If the creature is large enough for you to ride, it gains the [combat training general purpose](ability/animal_tricks) at no cost."
 		]
 	},
 	"beast_speaker": {
@@ -3365,7 +3367,7 @@
 			"{SOURCE Heroes of Golarion/21}",
 			"",
 			"You have trained in the ways that the beast speakers of the Tekritani once used to ally themselves with magical beasts.  ",
-			"**Prerequisites:** Handle Animal 7 ranks, animal companion with effective druid level 7.  ",
+			"**Prerequisites:** {skill/Handle Animal} 7 ranks, {sidekick/animal companion} with effective druid level 7.  ",
 			"**Benefit:** You can select a creature from the list of magical beasts to serve as your animal companion. You acquire and advance this beast companion in the same way as an animal companion detailed in the class feature that grants you access to your animal companion. You can also dismiss the creature, as dictated by your class feature.",
 			"",
 			"You must meet additional prerequisites to select a companion with an Intelligence score of 3 or higher, as described in each creature's entry.",
@@ -3376,9 +3378,21 @@
 			"",
 			"::h4[Basilisk]{jl}",
 			"",
-			"**Starting Statistics:** Size Medium; Speed 20 ft.; AC +4 natural armor; Attack bite (1d4); Ability Scores Str 16, Dex 10, Con 15, Int 2, Wis 13, Cha 11; Special Qualities darkvision 60 ft., low-light vision, gaze (one target within 30 ft., paralysis 1d4 rounds, Fortitude negates, once per day).",
+			"**Starting Statistics:**",
 			"",
-			"**9th-Level Advancement:** AC +2 natural armor; Ability Scores Dex +4, Con +4; Attack bite (1d6); Special Qualities gaze (three times per day).",
+			">**Size** Medium  ",
+			">**Speed** 20 ft.  ",
+			">**AC** +4 natural armor  ",
+			">**Attack** bite (1d4)  ",
+			">**Ability Scores** Str 16, Dex 10, Con 15, Int 2, Wis 13, Cha 11  ",
+			">**Special Qualities** darkvision 60 ft., low-light vision, {umr/gaze} (one target within 30 ft., paralysis 1d4 rounds, Fortitude negates, once per day).",
+			"",
+			"**9th-Level Advancement:**",
+			"",
+			">**AC** +2 natural armor  ",
+			">**Attack** bite (1d6)  ",
+			">**Ability Scores** Dex +4, Con +4  ",
+			">**Special Qualities** gaze (three times per day).",
 			"",
 			"**Mastery (11th level):** The basilisk's gaze attack functions as {spell/flesh to stone} (caster level equals basilisk's HD) instead of inflicting paralysis.",
 			"",
@@ -3386,33 +3400,87 @@
 			"",
 			"**Prerequisites:** Diplomacy or Intimidate 7 ranks, Knowledge (arcana) 7 ranks.",
 			"",
-			"**Starting Statistics:** Size Medium; Speed 40 ft., climb 20 ft.; AC +6 natural armor; Attack bite (1d6); Ability Scores Str 16, Dex 12, Con 16, Int 7, Wis 14, Cha 12; Special Attacks breath weapon (20-ft. line, 4d6 electricity damage, Reflex half, once per day), grab; Special Qualities electricity resistance 10.",
+			"**Starting Statistics:**",
 			"",
-			"**Mastery (11th level):** Size Large; AC +2 natural armor; Attack bite (1d8); Ability Scores Str +4, Dex -2, Con +2; Special Attacks breath weapon (three times per day), constrict 1d8; Special Qualities immune to electricity.",
+			">**Size** Medium  ",
+			">**Speed** 40 ft., climb 20 ft.  ",
+			">**AC** +6 natural armor  ",
+			">**Attack** bite (1d6)  ",
+			">**Ability Scores** Str 16, Dex 12, Con 16, Int 7, Wis 14, Cha 12  ",
+			">**Special Attacks** {umr/breath weapon} (20-ft. line, 4d6 electricity damage, Reflex half, once per day), {umr/grab}  ",
+			">**Special Qualities** electricity resistance 10",
+			"",
+			"**Mastery (11th level):**",
+			"",
+			">**Size** Large  ",
+			">**AC** +2 natural armor  ",
+			">**Attack** bite (1d8)  ",
+			">**Ability Scores** Str +4, Dex -2, Con +2  ",
+			">**Special Attacks** breath weapon (three times per day), {umr/constrict} 1d8  ",
+			">**Special Qualities** immune to electricity",
 			"",
 			"::h4[Bulette]{jl}",
 			"",
-			"**Starting Statistics:** Size Medium; Speed 40 ft., burrow 20 ft.; AC +4 natural armor; Attack bite (1d6), 2 claws (1d4); Ability Scores Str 16, Dex 14, Con 16, Int 2, Wis 13, Cha 6.",
+			"**Starting Statistics:**",
 			"",
-			"**Mastery (11th level):** Size Large; AC +4 natural armor; Attack bite (1d8), claws (1d6); Ability Scores Str +4, Dex -2, Con +2; Special Attacks leap (When charging, it can attempt a DC 20 Acrobatics check to jump into the air and land next to its enemies. If successful, it can make four claw attacks against foes in reach but cannot make a bite attack).",
+			">**Size** Medium  ",
+			">**Speed** 40 ft., burrow 20 ft.  ",
+			">**AC** +4 natural armor  ",
+			">**Attack** bite (1d6), 2 claws (1d4)  ",
+			">**Ability Scores** Str 16, Dex 14, Con 16, Int 2, Wis 13, Cha 6",
+			"",
+			"**Mastery (11th level):**",
+			"",
+			">**Size** Large  ",
+			">**AC** +4 natural armor  ",
+			">**Attack** bite (1d8), claws (1d6)  ",
+			">**Ability Scores** Str +4, Dex -2, Con +2  ",
+			">**Special Attacks** leap (When charging, it can attempt a DC 20 Acrobatics check to jump into the air and land next to its enemies. If successful, it can make four claw attacks against foes in reach but cannot make a bite attack)",
 			"",
 			"::h4[Death Worm]{jl}",
 			"",
 			"**Prerequisites:** Survival 7 ranks.",
 			"",
-			"**Starting Statistics:** Size Medium; Speed 20 ft., burrow 20 ft.; AC +6 natural armor; Attack bite (1d6 plus poison); Ability Scores Str 16, Dex 14, Con 16, Int 3, Wis 10, Cha 5; Special Attacks poison (*frequency* 1 round [6]; *effect* 1d2 Con damage; *cure* 2 saves, Con-based DC); Special Qualities acid resistance 10, darkvision 60 ft., low-light vision, tremorsense 60 ft., electricity resistance 10.",
+			"**Starting Statistics:**",
 			"",
-			"**Mastery (11th level):** Size Large; AC +4 natural armor; Attack bite (1d8 plus poison); Attack Ability Scores Str +4, Dex -2, Con +2; Special Attacks breath weapon (30-ft. line, 8d6 acid damage, Reflex half, once per day); Special Qualities immune to acid, immune to electricity.",
+			">**Size** Medium  ",
+			">**Speed** 20 ft., burrow 20 ft.  ",
+			">**AC** +6 natural armor  ",
+			">**Attack** bite (1d6 plus poison)  ",
+			">**Ability Scores** Str 16, Dex 14, Con 16, Int 3, Wis 10, Cha 5  ",
+			">**Special Attacks** poison (*frequency* 1 round [6]; *effect* 1d2 Con damage; *cure* 2 saves, Con-based DC)  ",
+			">**Special Qualities** acid resistance 10, darkvision 60 ft., low-light vision, {umr/tremorsense} 60 ft., electricity resistance 10",
+			"",
+			"**Mastery (11th level):**",
+			"",
+			">**Size** Large  ",
+			">**AC** +4 natural armor  ",
+			">**Ability Scores** Str +4, Dex -2, Con +2  ",
+			">**Special Attacks** {umr/breath weapon} (30-ft. line, 8d6 acid damage, Reflex half, once per day)  ",
+			">**Special Qualities** immune to acid, immune to electricity",
 			"",
 			"::h4[Sun Falcon]{jl}",
 			"",
 			"**Prerequisites:** Diplomacy 7 ranks, Knowledge (arcana) or Knowledge (religion) 7 ranks.",
 			"",
-			"**Starting Statistics:** Size Tiny; Speed 10 ft., fly 60 ft. (good); AC +2 natural armor; Attack talons (1d4 plus burn); Ability Scores Str 10, Dex 17, Con 12, Int 5, Wis 14, Cha 15; Special Attacks breath weapon (30-ft. line, 3d6 fire, Reflex half, once per day), burn (1d4).",
+			"**Starting Statistics:**",
 			"",
-			"**9th-level Advancement:** Size Small; AC 19 +4 natural armor; Attack talons (1d6 plus burn); Ability Scores Str +2, Con +4, Cha +2; Special Attacks breath weapon (three times per day), burn (1d6).",
+			">**Size** Tiny  ",
+			">**Speed** 10 ft., fly 60 ft. (good)  ",
+			">**AC** +2 natural armor  ",
+			">**Attack** talons (1d4 plus burn)  ",
+			">**Ability Scores** Str 10, Dex 17, Con 12, Int 5, Wis 14, Cha 15  ",
+			">**Special Attacks** {umr/breath weapon} (30-ft. line, 3d6 fire, Reflex half, once per day), {umr/burn} (1d4).",
 			"",
-			"**Mastery (11th level):** Three times per day, the sun falcon can blast an intense wave of heat and light in a 20-foot cone as a standard action. Creatures within this area must succeed at a Reflex save or take 1d6 points of fire damage and be blinded for 1d4+1 rounds. Creatures that succeed at this save take no fire damage and are instead dazzled for 1 round. The save DC is Charisma-based."
+			"**9th-level Advancement:**",
+			"",
+			">**Size** Small  ",
+			">**AC** 19 +4 natural armor  ",
+			">**Attack** talons (1d6 plus burn)  ",
+			">**Ability Scores** Str +2, Con +4, Cha +2  ",
+			">**Special Attacks** breath weapon (three times per day), burn (1d6).",
+			"",
+			"**Mastery (11th level):** Three times per day, the sun falcon can blast an intense wave of heat and light in a 20-foot cone as a standard action. Creatures within this area must succeed at a Reflex save or take 1d6 points of fire damage and be {misc/blinded} for 1d4+1 rounds. Creatures that succeed at this save take no fire damage and are instead {misc/dazzled} for 1 round. The save DC is Charisma-based."
 		]
 	},
 	"beast_speaker_mastery": {
@@ -3464,7 +3532,7 @@
 			"{SOURCE Ultimate Wilderness/107}",
 			"",
 			"Your animal companion is your most treasured friend, and you steadfastly protect it from your foes.  ",
-			"**Prerequisites:** Cha 13, Handle Animal 1 rank, must have an animal companion.  ",
+			"**Prerequisites:** Cha 13, Handle Animal 1 rank, must have an {sidekick/animal companion}.  ",
 			"**Benefit:** When you are adjacent to your animal companion and an attack is made against it, if you are also adjacent to the attacking creature, you can attempt a Handle Animal check as an immediate action to negate the hit. The hit is negated if your Handle Animal check result is greater than the attacker's attack roll.  ",
 			"**Special:** You cannot use this style if you are mounted on your animal companion."
 		]
@@ -3513,8 +3581,8 @@
 			"",
 			"Your unarmed strikes cause your opponent to bleed.  ",
 			"**Prerequisites:** {feat/Improved Unarmed Strike}.  ",
-			"**Benefit:** When you damage an opponent with an unarmed strike, you deal an extra 1d4 bleed damage.  ",
-			"**Special:** This ability does not stack with other special abilities, attacks, or items that allow you to deal bleed damage. The belier devil appears in Pathfinder Adventure Path volume #12."
+			"**Benefit:** When you damage an opponent with an unarmed strike, you deal an extra 1d4 {rule/bleed} damage.  ",
+			"**Special:** This ability does not stack with other special abilities, attacks, or items that allow you to deal bleed damage."
 		]
 	},
 	"believable_veils": {
@@ -3526,7 +3594,7 @@
 			"{SOURCE Inner Sea Gods/207}",
 			"",
 			"The teachings of your deity help you keep your secrets safe.  ",
-			"**Prerequisites:** Caster level 3rd, ability to cast at least one glamer or figment, worshiper of Sivanah.  ",
+			"**Prerequisites:** Caster level 3rd, ability to cast at least one glamer or figment, worshiper of {faith/Sivanah}.  ",
 			"**Benefit:** Once per day when you create a glamer or figment effect, you can empower the effect so that the DC to disbelieve it is 2 higher than normal."
 		]
 	},
@@ -3556,7 +3624,7 @@
 			"",
 			"You can heal others with a touch of your hand.  ",
 			"**Prerequisites:** Wis 13, {feat/Believer's Boon}, must be lawful good, alignment must be within one step of your deity's.  ",
-			"**Benefit:** Once per day, you can use the paladin's lay on hands ability. Your effective paladin level is equal to 1/2 your character level (minimum 1). If you already have (or later gain) the lay on hands ability, you instead gain one extra use of lay on hands each day.  ",
+			"**Benefit:** Once per day, you can use the paladin's {ability/lay on hands} ability. Your effective paladin level is equal to 1/2 your character level (minimum 1). If you already have (or later gain) the lay on hands ability, you instead gain one extra use of lay on hands each day.  ",
 			"**Special:** This feat counts as having the lay on hands ability for the purpose of qualifying for feats such as Extra Lay on Hands.",
 			"",
 			"If you grossly violate the code of conduct required by your deity, your alignment shifts so that it is more than one step away from your deity's, or you no longer worship your deity, you lose access to this feat. You can regain it once you atone for your misdeeds to your deity (see {spell/atonement})."
@@ -3601,8 +3669,8 @@
 			"{SOURCE Inner Sea Gods/207;Faiths of Purity/25}",
 			"",
 			"You instill hope in the creatures you heal.  ",
-			"**Prerequisites:** {feat/Improved Channel}, channel energy class feature, worshiper of Sarenrae.  ",
-			"**Benefit:** When you heal a creature by channeling positive energy, you also relieve its fear. If a creature you heal is shaken, that condition ends. If the creature is frightened, it becomes shaken instead. If the creature is panicked, it becomes frightened instead."
+			"**Prerequisites:** {feat/Improved Channel}, {ability/channel energy} class feature, worshiper of {faith/Sarenrae}.  ",
+			"**Benefit:** When you heal a creature by channeling positive energy, you also relieve its fear. If a creature you heal is {misc/shaken}, that condition ends. If the creature is {misc/frightened}, it becomes shaken instead. If the creature is {misc/panicked}, it becomes frightened instead."
 		]
 	},
 	"bestow_luck": {
@@ -3614,7 +3682,7 @@
 			"{SOURCE Advanced Race Guide/76}",
 			"",
 			"You are extremely lucky and sometimes your allies are as well.  ",
-			"**Prerequisites:** {feat/Defiant Luck}, {feat/Inexplicable Luck}, human.  ",
+			"**Prerequisites:** {feat/Defiant Luck}, {feat/Inexplicable Luck}, {race/human}.  ",
 			"**Benefit:** You gain an extra use per day of your Defiant Luck ability. You can also use your Inexplicable Luck ability to grant an ally that can see and hear its benefit as an immediate action."
 		]
 	},
@@ -3627,7 +3695,7 @@
 			"{SOURCE Ultimate Intrigue/75}",
 			"",
 			"You can sense betrayal and intrigue as well as physical traps.  ",
-			"**Prerequisites:** Wis 13, rogue level 3rd, trap sense class feature.  ",
+			"**Prerequisites:** Wis 13, rogue level 3rd, {ability/trap sense} class feature.  ",
 			"**Benefit:** You gain a bonus on Perception checks to pierce another creature's disguise and Sense Motive checks to avoid being surprised by an attack. These bonuses are equal to the bonus you gain from trap sense."
 		]
 	},
@@ -3641,9 +3709,9 @@
 			"",
 			"Believing in a just cause left you with a knife in your back. Now you hoard your trust in others, rarely sharing it.  ",
 			"**Prerequisites:** You must have had a valuable item (worth at least 1, 000 gp per character level) stolen by a former ally, have been left for dead by a former ally, or have the [Wrong Enemy](rule/bad_beginnings) conflict background.  ",
-			"**Benefit:** When you are in a harmful area of effect created by an ally (through a spell or other means), you can roll your saving throw twice and take the better result. If you do so, your shaken trust means you do not provide flanking bonuses to any allies for 1 hour.  ",
+			"**Benefit:** When you are in a harmful area of effect created by an ally (through a spell or other means), you can roll your saving throw twice and take the better result. If you do so, your shaken trust means you do not provide {rule/flanking} bonuses to any allies for 1 hour.  ",
 			"**Goal:** Track down the people who betrayed you, and either bring them to justice or slay them. At the GM's discretion, certain members of this group can be spared if they provide important information leading to more prominent targets.  ",
-			"**Completion Benefit:** You grow more confident in reading others, if not exactly more trusting of them. Your allies and enemies no longer provide cover bonuses on attacks you make against other creatures. You also gain a 20% miss chance against any attacks of opportunity made against you, as long as an ally is threatening the creature making the attack."
+			"**Completion Benefit:** You grow more confident in reading others, if not exactly more trusting of them. Your allies and enemies no longer provide {rule/cover} bonuses on attacks you make against other creatures. You also gain a 20% miss chance against any attacks of opportunity made against you, as long as an ally is threatening the creature making the attack."
 		]
 	},
 	"betrayer": {
@@ -3656,7 +3724,7 @@
 			"",
 			"You can charm people into lowering their defenses, allowing you to ambush them more effectively.  ",
 			"**Prerequisites:** {feat/Quick Draw}, {feat/Persuasive}, base attack bonus +3.  ",
-			"**Benefit:** When you succeed at a Diplomacy check to change a creature's attitude, you can draw a weapon and make a single melee attack against that creature as an immediate action. If you changed your target's attitude to friendly or better, your target is considered flat-footed against this attack. If the target survives, it takes a -2 penalty on its initiative check for this combat.",
+			"**Benefit:** When you succeed at a Diplomacy check to change a creature's attitude, you can draw a weapon and make a single melee attack against that creature as an immediate action. If you changed your target's attitude to friendly or better, your target is considered {rule/flat-footed} against this attack. If the target survives, it takes a -2 penalty on its initiative check for this combat.",
 			"",
 			"Once you attack a creature, its attitude becomes hostile."
 		]
@@ -3671,7 +3739,7 @@
 			"",
 			"When you break an alliance, you make sure it's broken for good.  ",
 			"**Prerequisites:** {feat/Solo Maneuvers}, base attack bonus +8.  ",
-			"**Benefit:** Whenever you use a melee attack to deal nonlethal damage to a creature that only you threaten, roll a Bluff check opposed by your opponent's Sense Motive check. You deal an additional amount of nonlethal damage equal to 1/2 the difference between your Bluff check and your opponent's Sense Motive check (minimum 0). If your opponent has an attitude of friendly or helpful toward you (including temporarily due to Intimidate checks, charm person, and similar effects), you instead deal an amount of extra nonlethal damage equal to the difference between your checks. Regardless, the amount of extra nonlethal damage you deal with this feat cannot exceed your Hit Dice."
+			"**Benefit:** Whenever you use a melee attack to deal nonlethal damage to a creature that only you threaten, roll a Bluff check opposed by your opponent's Sense Motive check. You deal an additional amount of nonlethal damage equal to 1/2 the difference between your Bluff check and your opponent's Sense Motive check (minimum 0). If your opponent has an attitude of friendly or helpful toward you (including temporarily due to Intimidate checks, {spell/charm person}, and similar effects), you instead deal an amount of extra nonlethal damage equal to the difference between your checks. Regardless, the amount of extra nonlethal damage you deal with this feat cannot exceed your Hit Dice."
 		]
 	},
 	"bewildering_koan": {
@@ -3683,7 +3751,7 @@
 			"{SOURCE Gnomes of Golarion/30}",
 			"",
 			"You can pose unanswerable questions that leave creatures momentarily dumbfounded as they dwell on their significance.  ",
-			"**Prerequisites:** Bluff 1 rank, ki pool class feature, gnome.  ",
+			"**Prerequisites:** Bluff 1 rank, ki pool class feature, {race/gnome}.  ",
 			"**Benefit:** As a swift action, spend 1 point from your ki pool and make a Bluff check by asking a creature one of the impossible questions you ponder when meditating. If the creature fails its check, you choose whether it loses its next action or you gain a +2 bonus on all damage rolls you make against that creature for 1 round."
 		]
 	},
@@ -3696,7 +3764,7 @@
 			"{SOURCE Elemental Master's Handbook/15}",
 			"",
 			"Keeping a sailing vessel afloat means moving constantly between bright sunlight and darkened holds. You wear an eye patch, out of convenience rather than necessity, to make one of your eyes used to the dark and the other to the light.  ",
-			"**Benefit:** If you are wearing an eye patch when you are dazzled or blinded as a result of eye damage or a visual stimulus (such as from fireworks or a glitterdust spell), you can remove or switch your eye patch as a move action to favor the eye you had kept covered. Switching your eye patch allows you to ignore the dazzled condition or to reduce the blinded condition to dazzled until the effect ends, at which time you regain the ability to use this feat."
+			"**Benefit:** If you are wearing an eye patch when you are {misc/dazzled} or {misc/blinded} as a result of eye damage or a visual stimulus (such as from fireworks or a {spell/glitterdust} spell), you can remove or switch your eye patch as a move action to favor the eye you had kept covered. Switching your eye patch allows you to ignore the dazzled condition or to reduce the blinded condition to dazzled until the effect ends, at which time you regain the ability to use this feat."
 		]
 	},
 	"binding_throw": {
@@ -3731,7 +3799,7 @@
 			"{SOURCE Legacy of the First World/8}",
 			"",
 			"You have practiced storing items in and retrieving them from the tangled vines on your back.  ",
-			"**Prerequisites:** Gathlain, racial fly speed.  ",
+			"**Prerequisites:** {race/Gathlain}, racial fly speed.  ",
 			"**Benefit:** As a move action, you can store an item you are carrying in your vines. While you are holding an item in your vines, you lose your fly speed. You can retrieve the stored item as a swift action or drop it as a free action, immediately regaining your fly speed in either case."
 		]
 	},
@@ -3744,7 +3812,7 @@
 			"{SOURCE Advanced Race Guide/93}",
 			"",
 			"Bad luck befalls those who dare to cross you.  ",
-			"**Prerequisites:** Catfolk.  ",
+			"**Prerequisites:** {race/Catfolk}.  ",
 			"**Benefit:** Once per day as an immediate action, when you are hit by a melee attack, you can force the opponent who made the attack to reroll it with a -4 penalty. The opponent must take the result of the second attack roll. This is a supernatural ability.  ",
 			"**Special:** If you take this feat and don't already have all black fur, your fur turns completely black when you takes this feat."
 		]
@@ -3846,7 +3914,7 @@
 			"{SOURCE Paths of the Righteous/15}",
 			"",
 			"You know how to balance a polearm perfectly, striking with artful, yet deadly precision.  ",
-			"**Prerequisites:** {feat/Weapon Focus/ (glaive)}, must be a worshiper of Shelyn.  ",
+			"**Prerequisites:** {feat/Weapon Focus/ (glaive)}, must be a worshiper of {faith/Shelyn}.  ",
 			"**Benefit:** You can use the Weapon Finesse feat to apply your Dexterity modifier instead of your Strength modifier to attack rolls with a glaive sized for you, even though it isn't a light weapon. When wielding a glaive, you can treat it as a one-handed piercing or slashing melee weapon and as if you were not making attacks with your off-hand for all feats and class abilities that require such a weapon (such as a duelist's or swashbuckler's precise strike).",
 			"",
 			"As a move action, you can shorten your grip on the glaive, treating it as though it lacked the reach weapon property. You can adjust your grip to grant the weapon the reach property as a move action."
@@ -3905,7 +3973,7 @@
 			"{SOURCE Advanced Race Guide/130}",
 			"",
 			"An inferno rages inside you, causing your body to radiate intense heat.  ",
-			"**Prerequisites:** {feat/Inner Flame}, {feat/Scorching Weapons}, character level 13th, ifrit.  ",
+			"**Prerequisites:** {feat/Inner Flame}, {feat/Scorching Weapons}, character level 13th, {race/ifrit}.  ",
 			"**Benefit:** When you use Scorching Weapons, on your turn as a free action, you may create an aura of heat that lasts for 1 round. This aura deals 1d6 points of fire damage to any creature that begins its turn adjacent to you.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -3938,7 +4006,7 @@
 			"{SOURCE Cohorts and Companions/15}",
 			"",
 			"Your holy power burns the undead like fire.  ",
-			"**Prerequisites:** {feat/Turn Undead}, channel positive energy class feature.  ",
+			"**Prerequisites:** {feat/Turn Undead}, {ability/channel positive energy} class feature.  ",
 			"**Benefit:** When you use your Turn Undead feat, undead failing their saving throw are engulfed in holy fire. This functions identically to catching on fire, but the damage dealt is divine (like the divine damage from flame strike) rather than fire. Water cannot extinguish this holy fire, but any negative energy effect that heals the creature of at least 5 points of damage extinguishes the flames instantly."
 		]
 	},
@@ -3969,7 +4037,7 @@
 			"{SOURCE Mythic Adventures/60}",
 			"",
 			"Your deadliest blows unleash rivers of blood.  ",
-			"**Prerequisites:** {feat/Bleeding Critical}, {feat/Mythic |Critical Focus}.  ",
+			"**Prerequisites:** Bleeding Critical, {feat/Mythic |Critical Focus}.  ",
 			"**Benefit:** The bleed damage dealt with Bleeding Critical increases by your tier. Stopping this bleed damage requires a Heal check with a DC equal to 15 + 1/2 your tier. Any magical healing ends the bleed damage normally.",
 			"",
 			"You can expend one use of mythic power to deal 1 Con bleed, in addition to the hit point bleed damage you deal with this feat. This effect increases by 1 for each additional use of mythic power you expend."
@@ -3997,7 +4065,7 @@
 			"{SOURCE Undead Slayer's Handbook/7}",
 			"",
 			"You can bless armor and weapons with a touch to imbue them with magical properties.  ",
-			"**Prerequisites:** Caster level 3rd, channel energy class feature.  ",
+			"**Prerequisites:** Caster level 3rd, {ability/channel energy} class feature.  ",
 			"**Benefit:** As a standard action, you may expend uses of your channel energy ability to touch a single weapon, suit of armor, or shield and temporarily grant it one weapon, armor, or shield special ability. To bless a piece of equipment with a particular blessing, you must expend a number of uses of channel energy equal to the number listed in the table above, and your caster level must be equal to or greater than that listed for the selected blessing.",
 			"",
 			"This blessing lasts for a number of rounds equal to the number of damage dice you are capable of dealing or healing with your channel energy ability (for example, the blessing of a cleric capable of channeling 3d6 points of damage would last for 3 rounds), during which time the item is treated as though it possessed the selected special ability. If the piece of equipment belongs to an unwilling creature, that creature may attempt a Will save to prevent the blessing, as if attempting a saving throw against your channel energy ability (so bonuses from channel resistance and similar effects apply); if the creature succeeds at its save, the channeled energy is expended to no effect.",
@@ -4010,18 +4078,18 @@
 			"",
 			"| Weapon Blessings | Uses of Channel Energy | Caster Level Required |",
 			"| --- | --- | --- |",
-			"| Bane[^N] | 2 | 3rd |",
-			"| Ghost touch | 2 | 3rd |",
-			"| Disruption | 3 | 6th |",
-			"| Lifesurge | 3 | 6th |",
-			"| Nullifying | 4 | 9th |",
+			"| {magic-enh/Bane} [^N] | 2 | 3rd |",
+			"| {magic-enh/Ghost touch} | 2 | 3rd |",
+			"| {magic-enh/Disruption} | 3 | 6th |",
+			"| {magic-enh/Lifesurge} | 3 | 6th |",
+			"| {magic-enh/Nullifying} | 4 | 9th |",
 			"",
 			"| Armor/Shield Blessings | Uses of Channel Energy | Caster Level Required |",
 			"| --- | --- | --- |",
-			"| Deathless[^S] | 2 | 3rd |",
-			"| Stanching[^S] | 2 | 3rd |",
-			"| Ghost touch | 4 | 9th |",
-			"| Undead-controlling | 6 | 13th |",
+			"| {magic-enh/Deathless} [^S] | 2 | 3rd |",
+			"| {magic-enh/Stanching} [^S] | 2 | 3rd |",
+			"| {magic-enh/Ghost touch>_a} | 4 | 9th |",
+			"| {magic-enh/Undead-controlling} | 6 | 13th |",
 			"",
 			"[^N]: You must choose the creature type or subtype at the time of blessing.",
 			"[^S]: Cannot be applied to shields."
@@ -4036,12 +4104,12 @@
 			"{SOURCE Quests and Campaigns/8}",
 			"",
 			"The repeated notice and boons of celestials have marked you as one of their chosen agents.  ",
-			"**Prerequisites:** You must have had friendly contact with a good outsider that would qualify as a challenging foe, be a sorcerer with the celestial bloodline, or have direct celestial ancestry (such as by being an aasimar).  ",
+			"**Prerequisites:** You must have had friendly contact with a good outsider that would qualify as a challenging foe, be a sorcerer with the celestial bloodline, or have direct celestial ancestry (such as by being an {race/aasimar}).  ",
 			"**Benefit:** You gain a +2 bonus on Charisma-based checks involving good-aligned outsiders and a +1 bonus to the DC of spells and spell-like abilities you use against such creatures. You take a -2 penalty on Charisma-based checks involving evil-aligned outsiders.  ",
 			"**Goal:** Thwart or decisively defeat an evil creature that qualifies as a challenging foe, but show mercy and then convert that creature toward good.  ",
 			"**Completion Benefit:** You gain the benefit of {spell/protection from evil} as a constant spell-like ability. In addition, you gain a +2 bonus on caster level checks against evil-aligned outsiders.",
 			"",
-			"Suggested Traits: {trait/Indomitable Faith}, {trait/Inspiring}, {trait/Memorable}.",
+			"*Suggested Traits:* {trait/Indomitable Faith}, {trait/Inspiring}, {trait/Memorable}.",
 			"",
 			"### Possible Blessed Quests",
 			"",
@@ -4066,7 +4134,7 @@
 			"{SOURCE Inner Sea Gods/207}",
 			"",
 			"Your god's power radiates from your warhammer.  ",
-			"**Prerequisites:** Ability to cast 3rd-level divine spells, proficient with warhammer, worshiper of Torag.  ",
+			"**Prerequisites:** Ability to cast 3rd-level divine spells, proficient with warhammer, worshiper of {faith/Torag}.  ",
 			"**Benefit:** You can use any warhammer you wield as a holy symbol when casting spells that require a divine focus or when you channel energy.",
 			"",
 			"Furthermore, as a swift action when you cast a divine touch spell, you can choose to have the warhammer carry the charge of the spell instead of your hand. When you deliver a touch spell with your warhammer you can do so as part of melee attack made with the warhammer. If you drop the warhammer or the warhammer is disarmed while carrying a charge, the charge is lost."
@@ -4210,7 +4278,7 @@
 			"{SOURCE Mythic Adventures/60}",
 			"",
 			"No creature can avoid your preternatural senses.  ",
-			"**Prerequisites:** {feat/Blind-Fight}.  ",
+			"**Prerequisites:** Blind-Fight.  ",
 			"**Benefit:** As a swift action, you can expend one use of mythic power to ignore all miss chances due to concealment or total concealment for a number of rounds equal to your tier."
 		]
 	},
@@ -4258,7 +4326,7 @@
 			"{SOURCE Blood of Angels/24}",
 			"",
 			"You use your impenetrable luminescence to disorient harbingers of darkness.  ",
-			"**Prerequisites:** {feat/Inner Light (BoA)}, aasimar, daylight spell-like ability.  ",
+			"**Prerequisites:** {feat/Inner Light (BoA)}, {race/aasimar}, daylight spell-like ability.  ",
 			"**Benefit:** Whenever an enemy unsuccessfully attempts to counter or dispel your daylight spell-like ability, it must succeed at a Fortitude saving throw (DC 10 + 1/2 your character level + your Charisma modifier) or become blinded for 1 round as its mind is overwhelmed with celestial light. This is a supernatural mind-affecting effect."
 		]
 	},
@@ -4271,7 +4339,7 @@
 			"{SOURCE Blood of Fiends/24}",
 			"",
 			"When you strike from the cover of darkness, you inject foes with a fraction of your foul magic.  ",
-			"**Prerequisites:** Base attack bonus +5, darkness spell-like ability, sneak attack class feature, tiefling.  ",
+			"**Prerequisites:** Base attack bonus +5, darkness spell-like ability, sneak attack class feature, {race/tiefling}.  ",
 			"**Benefit:** When you successfully deal sneak attack damage to a foe while you are within an area of magical darkness, you temporarily blind your opponent for 1 round. A successful Fortitude save (DC 10 + the amount of sneak attack damage dealt) negates this effect."
 		]
 	},
@@ -4314,7 +4382,7 @@
 			"{SOURCE Advanced Race Guide/130}",
 			"",
 			"Your foes flinch from the heat of your weapon, giving you an opportunity to slip past their defenses.  ",
-			"**Prerequisites:** {feat/Combat Expertise}, {feat/Improved Feint}, ifrit.  ",
+			"**Prerequisites:** {feat/Combat Expertise}, {feat/Improved Feint}, {race/ifrit}.  ",
 			"**Benefit:** You gain a +2 bonus on feint checks made while wielding a weapon that deals fire damage. Anytime you successfully feint a creature while using such a weapon, you may deal its fire damage to the enemy.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -4387,8 +4455,8 @@
 			"{SOURCE Advanced Race Guide/165}",
 			"",
 			"Your bleed attack is bloody and dangerous.  ",
-			"**Prerequisites:** Base attack bonus +5, natural weapon racial trait, tengu.  ",
-			"**Benefit:** Increase the damage of your beak attack to 1d6. Furthermore, when you confirm a critical hit with your beak attack, you also deal 1 point of bleed damage.  ",
+			"**Prerequisites:** Base attack bonus +5, natural weapon racial trait, {race/tengu}.  ",
+			"**Benefit:** Increase the damage of your beak attack to 1d6. Furthermore, when you confirm a critical hit with your beak attack, you also deal 1 point of {rule/bleed} damage.  ",
 			"**Special:** The bleed effect from this feat stacks with that of the {feat/Bleeding Critical} feat and similar effects, adding 1 point to your bleed damage.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -4558,7 +4626,7 @@
 			"{SOURCE Gnomes of Golarion/30}",
 			"",
 			"Pointing out your shared kinship with someone gives you the chance to win over creatures associated with your bloodline.  ",
-			"**Prerequisites:** Bluff 1 rank, bloodline class feature, gnome.  ",
+			"**Prerequisites:** Bluff 1 rank, bloodline class feature, {race/gnome}.  ",
 			"**Benefit:** When attempting a Diplomacy check to influence a creature with a plausible connection to your sorcerous bloodline, you may instead make a Bluff check. For example, a gnome sorcerer with the draconic bloodline may use this feat against dragons and their kin, but no other creatures."
 		]
 	},
@@ -4574,7 +4642,7 @@
 			"{SOURCE Advanced Race Guide/56;Orcs of Golarion/24}",
 			"",
 			"Seeing an ally fall in combat fills you with a raging and murderous fury.  ",
-			"**Prerequisites:** Half-orc or orc, nonlawful.  ",
+			"**Prerequisites:** {race/Half-orc} or {race/orc}, nonlawful.  ",
 			"**Benefit:** Whenever one of your allies is reduced to negative hit points or killed, you may enter a state similar to but less powerful than a barbarian's rage as a free action on your next turn. If you have the rage class feature and are already raging, your morale bonuses to Strength and Constitution increase by +2 for the duration of your rage. If you do not have the rage class feature, or you have no more rage rounds left, this weaker rage gives you all the benefits and penalties of a barbarian's rage, except your morale bonus to Strength and Constitution is only +2. In either case, this state lasts for 4 rounds.",
 			"",
 			"As with a barbarian's rage, when this weaker rage ends, you are fatigued; if another ally falls before this duration ends, the weaker rage lasts for an additional 4 rounds. This feat does not allow you to enter a rage if you are fatigued. You may only use this feat if the fallen ally had at least as many Hit Dice as you (excluding conjured or summoned allies)."
@@ -4614,7 +4682,7 @@
 			"{SOURCE Inner Sea Gods/208;Faiths of Corruption/25}",
 			"",
 			"When you attack with a piercing or slashing weapon, the wounds you cause bleed profusely.  ",
-			"**Prerequisites:** Worshiper of Zon-Kuthon.  ",
+			"**Prerequisites:** Worshiper of {faith/Zon-Kuthon}.  ",
 			"**Benefit:** Whenever you threaten a critical hit with a piercing or slashing weapon (regardless of whether you confirm the critical hit or not), you deal 1 point of bleed damage to the targeted creature.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -4632,7 +4700,7 @@
 			"{SOURCE Blood of the Moon/9}",
 			"",
 			"Your attunement to your werebat ancestry has allowed you to master a crude form of flight.  ",
-			"**Prerequisites:** Base attack bonus +5, werebat-kin.  ",
+			"**Prerequisites:** Base attack bonus +5, [werebat-kin](race/skinwalker).  ",
 			"**Benefit:** As an additional bestial feature, you can use your change shape ability to gain a fly speed of 30 feet with poor maneuverability if carrying a light load and wearing no armor or light armor, or a fly speed of 20 feet with clumsy maneuverability if carrying a medium or heavy load or wearing medium or heavy armor."
 		]
 	},

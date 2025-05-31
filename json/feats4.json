@@ -34,7 +34,7 @@
 			"{SOURCE Advanced Race Guide/66}",
 			"",
 			"You have an even greater knack than most halflings for adaptable luck.  ",
-			"**Prerequisites:** Adaptable luck racial trait, halfling.  ",
+			"**Prerequisites:** Adaptable luck racial trait, {race/halfling}.  ",
 			"**Benefit:** The number of times per day you can use the adaptable luck racial trait increases by 1."
 		]
 	},
@@ -104,7 +104,7 @@
 			"{SOURCE Dragon Empires Primer/5}",
 			"",
 			"You can change into a fox in addition to your other forms.  ",
-			"**Prerequisites:** Cha 13, base attack bonus +3, kitsune.  ",
+			"**Prerequisites:** Cha 13, base attack bonus +3, {race/kitsune}.  ",
 			"**Benefit:** You can take the form of a fox whose appearance is static and cannot be changed each time you assume this form. Your bite attack's damage is reduced to 1d3 points of damage on a hit, but you gain a +10 racial bonus on Disguise checks made to appear as a fox. Changing from kitsune to fox shape is a standard action. This ability otherwise functions as beast shape II, and your ability scores change accordingly."
 		]
 	},
@@ -226,7 +226,7 @@
 			"{SOURCE Inner Sea Races/206}",
 			"",
 			"You fight harder when you're trying to score a quick kill in single combat before your ally does.  ",
-			"**Prerequisites:** Human (Taldan).  ",
+			"**Prerequisites:** {race/Human} (Taldan).  ",
 			"**Benefit:** If you're the only one threatening a foe and an ally within 30 feet who also has this feat is the only creature threatening a different foe, you gain a +2 morale bonus on your melee attack rolls against the foe that only you are threatening. You gain the bonus only if neither of the qualifying opponents is flat-footed, helpless or otherwise unable to act. You must be able to see your ally to gain the benefit of this feat. If another ally who is not threatening your chosen foe makes any sort of attack against that foe (such as a ranged attack or a spell), you lose this feat's benefit for 1 round."
 		]
 	},
@@ -304,7 +304,7 @@
 			"{SOURCE Heroes from the Fringe/26}",
 			"",
 			"Rumors abound that winter half-orcs spend so much time in the snow that a thin layer of ice covers their skin.  ",
-			"**Prerequisites:** Con 15, frostkin half-orc.  ",
+			"**Prerequisites:** Con 15, frostkin {race/half-orc}.  ",
 			"**Benefit:** You gain cold resistance 3. If you already have cold resistance, it is increased by 3 instead."
 		]
 	},
@@ -347,7 +347,7 @@
 			"{SOURCE Mythic Adventures/65}",
 			"",
 			"Your attacks create a rhythmic barrage that doesn't sacrifice precision for force.  ",
-			"**Prerequisites:** {feat/Furious Focus}.  ",
+			"**Prerequisites:** Furious Focus.  ",
 			"**Benefit:** When you are using Furious Focus, you don't take Power Attack's penalty on attack rolls that are made as attacks of opportunity. As a free action, you can expend one use of mythic power to negate Power Attack's penalty on all melee attacks you make for 1 round while using this feat."
 		]
 	},
@@ -372,7 +372,7 @@
 			"{SOURCE Blood of Fiends/25}",
 			"",
 			"The unstoppable anger you feel toward do-gooders and self-proclaimed saints makes you a force to be reckoned with.  ",
-			"**Prerequisites:** Cha 13, rage class feature, tiefling.  ",
+			"**Prerequisites:** Cha 13, rage class feature, {race/tiefling}.  ",
 			"**Benefit:** While raging, you gain a +4 competence bonus on saving throws made against spells and effects with the good descriptor."
 		]
 	},
@@ -593,7 +593,7 @@
 			"{SOURCE Advanced Race Guide/18}",
 			"",
 			"Your cleaving strokes menace giants and larger foes.  ",
-			"**Prerequisites:** Str 13, {feat/Cleave}, {feat/Goblin Cleaver}, {feat/Orc Hewer}, {feat/Power Attack}, {feat/Strike Back}, base attack bonus +11, dwarf.  ",
+			"**Prerequisites:** Str 13, {feat/Cleave}, {feat/Goblin Cleaver}, {feat/Orc Hewer}, {feat/Power Attack}, {feat/Strike Back}, base attack bonus +11, {race/dwarf}.  ",
 			"**Benefit:** This functions as Goblin Cleaver, but your additional attacks can be made against creatures one size category larger than you or smaller. In addition, any such attacks made against humanoids (giant) gain a +2 circumstance bonus on attack rolls.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -719,7 +719,7 @@
 			"{SOURCE Heroes from the Fringe/20}",
 			"",
 			"Although shoreborn see little of their aquatic parents, they can still call on their underwater kin for help.  ",
-			"**Prerequisites:** Shoreborn half-elf.  ",
+			"**Prerequisites:** Shoreborn {race/half-elf}.  ",
 			"**Benefit:** Once per day, you can fill a vial with water from a natural source and the water will turn magical, functioning as a potion of a 1st-level druid spell of your choice with a caster level equal to your Hit Dice. This potion becomes inert after a number of hours equal to your Hit Dice."
 		]
 	},
@@ -773,7 +773,7 @@
 			"{SOURCE Advanced Race Guide/111}",
 			"",
 			"With a combination of strange shadow magic and chirurgery, your eyes are permanently modified to see farther in darkness.  ",
-			"**Prerequisites:** Fetchling.  ",
+			"**Prerequisites:** {race/Fetchling}.  ",
 			"**Benefit:** You gain darkvision 90 ft., but gain the light sensitivity weakness."
 		]
 	},
@@ -789,7 +789,7 @@
 			"{SOURCE Advanced Race Guide/111}",
 			"",
 			"Few creatures are as accustomed to fighting in the shadows as you.  ",
-			"**Prerequisites:** {feat/Blind-Fight}, fetchling.  ",
+			"**Prerequisites:** {feat/Blind-Fight}, {race/fetchling}.  ",
 			"**Benefit:** When you are within an area of dim light or darkness, you gain a +1 bonus on attack rolls against enemies that are also within dim light or darkness.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -838,7 +838,7 @@
 			"{SOURCE Inner Sea Gods/212;Faiths of Purity/25}",
 			"",
 			"When you cast divine fire spells, their heat empowers nearby allies.  ",
-			"**Prerequisites:** Ability to cast divine spells, caster level 5th, worshiper of Sarenrae.  ",
+			"**Prerequisites:** Ability to cast divine spells, caster level 5th, worshiper of {faith/Sarenrae}.  ",
 			"**Benefit:** Whenever you cast a divine spell with the fire descriptor, choose a single ally within 30 feet that you can see. That ally heals a number of hit points equal to half your level and gains a +1 morale bonus on attack rolls until the end of its next turn."
 		]
 	},
@@ -864,7 +864,7 @@
 			"{SOURCE Monster Codex/176}",
 			"",
 			"Thanks to your teeth's strength and quick growth, you are able to chew through nearly any obstacle given sufficient time.  ",
-			"**Prerequisites:** {feat/Sharptooth}, ratfolk.  ",
+			"**Prerequisites:** {feat/Sharptooth}, {race/ratfolk}.  ",
 			"**Benefit:** Damage dealt by your bite attack ignores an amount of hardness equal to 3 plus half your character level. You can spend a full-round action to deal double your bite damage to an unattended, inanimate object.  ",
 			"**Special:** If you have the Burrowing Teeth feat, you can burrow through solid stone at a speed of 5 feet per 10 minutes."
 		]
@@ -881,7 +881,7 @@
 			"{SOURCE Advanced Player's Guide/161}",
 			"",
 			"Your arcane talents go beyond the illusory.  ",
-			"**Prerequisites:** Cha 13, gnome, gnome magic racial trait.  ",
+			"**Prerequisites:** Cha 13, {race/gnome}, gnome magic racial trait.  ",
 			"**Benefit:** In addition to your normal gnome spell-like abilities, you also gain the following spell-like abilities: 1/day-mage hand and prestidigitation.",
 			"",
 			"### Mythic Gnome Trickster",
@@ -889,7 +889,7 @@
 			"{SOURCE Mythic Adventures/65}",
 			"",
 			"Thanks to your mythic power, the magic in your blood has grown more potent and diverse.  ",
-			"**Prerequisites:** {feat/Gnome Trickster}.  ",
+			"**Prerequisites:** Gnome Trickster.  ",
 			"**Benefit:** You gain the following spell-like abilities: 1/day-blur and vanish.",
 			"",
 			"You can use your gnome spell-like abilities an additional number of times per day equal to half your tier. You can spend these additional uses to use any of your gnome spell-like abilities you wish. Your caster level for your gnome spell-like abilities becomes your character level plus your tier."
@@ -907,7 +907,7 @@
 			"{SOURCE Advanced Race Guide/37}",
 			"",
 			"Your extensive training with traditional gnome weapons gives you an advantage.  ",
-			"**Prerequisites:** Base attack bonus +1, gnome, proficient with all martial weapons.  ",
+			"**Prerequisites:** Base attack bonus +1, {race/gnome}, proficient with all martial weapons.  ",
 			"**Benefit:** You gain a +1 bonus on attack rolls with gnome weapons (weapons with \"gnome\" in the title).",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -941,7 +941,7 @@
 			"{SOURCE Advanced Race Guide/18}",
 			"",
 			"You are ferocious at hewing smaller opponents.  ",
-			"**Prerequisites:** Str 13, {feat/Cleave}, {feat/Power Attack}, dwarf.  ",
+			"**Prerequisites:** Str 13, {feat/Cleave}, {feat/Power Attack}, {race/dwarf}.  ",
 			"**Benefit:** When using Cleave or Great Cleave, if your initial attack hits, you may take your additional attacks against any creature smaller than you that you threaten; your targets need not be adjacent to one another. Additional attacks you make against humanoids (goblinoid) gain a +2 circumstance bonus on attack rolls.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -962,7 +962,7 @@
 			"{SOURCE Advanced Race Guide/118}",
 			"",
 			"You have learned how to fire the big guns.  ",
-			"**Prerequisites:** Goblin.  ",
+			"**Prerequisites:** {race/Goblin}.  ",
 			"**Benefit:** You can wield Medium firearms without taking the penalty for an inappropriately sized weapon.  ",
 			"**Normal:** You take a -2 penalty when using an inappropriately sized weapon.",
 			"",
@@ -1041,7 +1041,7 @@
 			"{SOURCE Advanced Race Guide/57;Orcs of Golarion/25}",
 			"",
 			"Horrible wounds, whether on yourself or your enemies, make your blood sing.  ",
-			"**Prerequisites:** Half-orc or orc, rage class feature.  ",
+			"**Prerequisites:** {race/Half-orc} or {race/orc}, rage class feature.  ",
 			"**Benefit:** When you are raging and you confirm a critical hit with a melee weapon or a critical hit is confirmed on you (whether by a melee weapon, spell, or ranged weapon), you regain 1 round of rage (up to your maximum for the day). You can only gain this benefit once per round."
 		]
 	},
@@ -1415,7 +1415,7 @@
 			"{SOURCE Heroes from the Fringe/25}",
 			"",
 			"Burdened with heavy responsibility at a young age, you must mature faster than most.  ",
-			"**Prerequisites:** Rainkin half-orc, skilled alternate racial trait.  ",
+			"**Prerequisites:** Rainkin {race/half-orc}, skilled alternate racial trait.  ",
 			"**Benefit:** Choose Intelligence, Wisdom, or Charisma when you take this feat. This choice cannot be changed. As an immediate action a number of times per day equal to your modifier in the chosen attribute, you can gain a +2 circumstance bonus on any skill check that uses the chosen attribute. You can use this ability after rolling, but must use it before the results of the rolls are declared."
 		]
 	},
@@ -1438,7 +1438,7 @@
 			"{SOURCE Mythic Adventures/66}",
 			"",
 			"Your fortitude is unmatched.  ",
-			"**Prerequisites:** {feat/Great Fortitude}.  ",
+			"**Prerequisites:** Great Fortitude.  ",
 			"**Benefit:** Whenever you roll a Fortitude saving throw against a spell, spell-like ability, or supernatural ability from a non-mythic source, roll twice and take the higher result."
 		]
 	},
@@ -1454,7 +1454,7 @@
 			"{SOURCE Advanced Race Guide/37}",
 			"",
 			"Your rage burns with vast intensity.  ",
-			"**Prerequisites:** Gnome, hatred racial trait.  ",
+			"**Prerequisites:** {race/Gnome}, hatred racial trait.  ",
 			"**Benefit:** You gain an additional +1 bonus on melee and thrown weapon attacks against targets of your hatred racial trait.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -1525,7 +1525,7 @@
 			"{SOURCE Undead Slayer's Handbook/7}",
 			"",
 			"Your blessings are longer lasting, and you can bless more than one item at a time.  ",
-			"**Prerequisites:** {feat/Bless Equipment}, {feat/Improved Bless Equipment}, caster level 12th, channel energy class feature.  ",
+			"**Prerequisites:** {feat/Bless Equipment}, {feat/Improved Bless Equipment}, caster level 12th, {ability/channel energy} class feature.  ",
 			"**Benefit:** The duration of your equipment blessings doubles. In addition, as a standard action you may bless up to two pieces of equipment within range with a single blessing, expending uses of channeled energy as if you had only blessed one item."
 		]
 	},
@@ -1625,7 +1625,7 @@
 			"{SOURCE Advanced Race Guide/88}",
 			"",
 			"Your eruptions of divine power move your enemies.  ",
-			"**Prerequisites:** {feat/Channel Force}, {feat/Improved Channel Force}, aasimar, channel energy 6d6.  ",
+			"**Prerequisites:** {feat/Channel Force}, {feat/Improved Channel Force}, {race/aasimar}, {ability/channel energy} 6d6.  ",
 			"**Benefit:** When using Improved Channel Force, you can affect all creatures in a 30-foot-radius burst."
 		]
 	},
@@ -1638,7 +1638,7 @@
 			"{SOURCE Ultimate Combat/102}",
 			"",
 			"You empower your weapon with the might of your deity, which you discharge as you strike your foes.  ",
-			"**Prerequisites:** Channel energy class feature, {feat/Channel Smite}, base attack bonus +8.  ",
+			"**Prerequisites:** {ability/Channel energy} class feature, {feat/Channel Smite}, base attack bonus +8.  ",
 			"**Benefit:** Before making any melee attacks on your turn, you can use a swift action to expend one daily use of your channel energy class feature. The dice from your channel energy feature form a pool of damage dice you can access to further damage creatures normally harmed by the energy you are channeling - undead for positive energy, living creatures for negative energy. Prior to making each melee attack, allocate dice from the pool to be used as extra damage dice if you hit. Your target can make a Will save, as normal, to halve this extra damage. This extra damage is not multiplied when you score a critical hit. If you miss, the extra damage dice remain in your pool, but any dice left unexpended at the end of your turn are wasted."
 		]
 	},
@@ -1651,7 +1651,7 @@
 			"{SOURCE Heroes from the Fringe/9}",
 			"",
 			"Your devotion to the cloud dragons of your kingdom causes your connection with them to strengthen.  ",
-			"**Prerequisites:** {feat/Cloud Invocation}, Mbe'ke dwarf.  ",
+			"**Prerequisites:** {feat/Cloud Invocation}, Mbe'ke {race/dwarf}.  ",
 			"**Benefit:** The duration of your Cloud Invocation increases to 1 minute per level, and you can dismiss it as an immediate action. You can create mist with your Cloud Invocation ability multiple times per day, so long as you do not exceed a total duration of 1 minute per level, and you expend the duration of your Cloud Invocation in 1-minute increments. If you create a mist cloud while any previous mist is still present, the previous mist ends. Additionally, you can have the mist remain centered on you, rather than stationary."
 		]
 	},
@@ -1819,7 +1819,7 @@
 			"{SOURCE Ultimate Wilderness/13}",
 			"",
 			"You have greatly developed your innate magical abilities.  ",
-			"**Prerequisites:** Cha 15, {feat/Advanced Gathlain Magic}, character level 9th, gathlain.  ",
+			"**Prerequisites:** Cha 15, {feat/Advanced Gathlain Magic}, character level 9th, {race/gathlain}.  ",
 			"**Benefit:** You gain the following spells as spell-like abilities, each of which are usable 1/day: command plants, thorny entanglement."
 		]
 	},
@@ -2542,7 +2542,7 @@
 			"{SOURCE Ultimate Wilderness/13}",
 			"",
 			"You know the language of the plants.  ",
-			"**Prerequisites:** Cha 13, character level 5th, gathlain.  ",
+			"**Prerequisites:** Cha 13, character level 5th, {race/gathlain}.  ",
 			"**Benefit:** You can cast {spell/speak with plants} once per day, as a spell-like ability. At 10th level and every 5 levels thereafter, you can cast speak with plants an additional time per day."
 		]
 	},
@@ -2618,7 +2618,7 @@
 			"{SOURCE Advanced Player's Guide/162}",
 			"",
 			"You can speak with burrowing animals.  ",
-			"**Prerequisites:** Cha 13, gnome, gnome magic racial trait.  ",
+			"**Prerequisites:** Cha 13, {race/gnome}, gnome magic racial trait.  ",
 			"**Benefit:** You can use {spell/speak with animals} as a spell-like ability at will, but only to communicate with burrowing animals like gophers, moles, and the like. You can still use your gnome speak with animals ability once per day to speak with any animal, as usual."
 		]
 	},
@@ -2719,7 +2719,7 @@
 			"{SOURCE Advanced Race Guide/141}",
 			"",
 			"You feel great anger at anyone who dares to attack you, and this fury makes your own attacks that much stronger.  ",
-			"**Prerequisites:** Orc.  ",
+			"**Prerequisites:** {race/Orc}.  ",
 			"**Benefit:** You gain a +1 morale bonus on attack and damage rolls made against any creature that attacked you in the current combat.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -2802,7 +2802,7 @@
 			"{SOURCE Advanced Race Guide/28}",
 			"",
 			"Your mystic connection with the wilderness enhances your ability to react to threats.  ",
-			"**Prerequisites:** {feat/Attuned to the Wild}, elf.  ",
+			"**Prerequisites:** {feat/Attuned to the Wild}, {race/elf}.  ",
 			"**Benefit:** When you are in a terrain type you have selected the Attuned to the Wild feat for, you gain a +2 dodge bonus to Armor Class. If you are in an area that qualifies as more than one kind of terrain, these bonuses do not stack; you receive the bonus for only one of the terrain types."
 		]
 	},
@@ -2844,7 +2844,7 @@
 			"{SOURCE Ultimate Combat/103}",
 			"",
 			"Your deity blesses any strike you make with that deity's favored weapon.  ",
-			"**Prerequisites:** Channel energy class feature, {feat/Channel Smite}, proficiency with your deity's favored weapon.  ",
+			"**Prerequisites:** {ability/Channel energy} class feature, {feat/Channel Smite}, proficiency with your deity's favored weapon.  ",
 			"**Benefit:** With your deity's favored weapon, you can use your Wisdom modifier instead of your Strength or Dexterity modifier on attack rolls.",
 			"",
 			"### Mythic Guided Hand",
@@ -2852,7 +2852,7 @@
 			"{SOURCE Mythic Adventures/66}",
 			"",
 			"Attacks made with your deity's favored weapon are divinely inspired.  ",
-			"**Prerequisites:** {feat/Guided Hand}.  ",
+			"**Prerequisites:** Guided Hand.  ",
 			"**Benefit:** When making attacks with your deity's favored weapon, you can add your Wisdom modifier instead of your Strength or Dexterity modifier on damage rolls."
 		]
 	},
@@ -2865,7 +2865,7 @@
 			"{SOURCE Paths of the Righteous/29}",
 			"",
 			"The grace of Desna guides your starknife to its target and back to your hand.  ",
-			"**Prerequisites:** {feat/Starry Grace}, worshiper of Desna.  ",
+			"**Prerequisites:** {feat/Starry Grace}, worshiper of {faith/Desna}.  ",
 			"**Benefit:** You can empower a starknife with magical power once per day per character level as a swift action. Until the end of your turn, add your Wisdom modifier to your damage rolls with the starknife in addition to any other modifiers you normally add. If you throw the starknife during that time, it returns to you at the beginning of your next turn (as per the returning weapon special ability)."
 		]
 	},
@@ -2929,7 +2929,7 @@
 			"{SOURCE Advanced Race Guide/47}",
 			"",
 			"Your drow blood is particularly strong.  ",
-			"**Prerequisites:** Drow-blooded and drow magic racial traits, half-elf.  ",
+			"**Prerequisites:** Drow-blooded and drow magic racial traits, {race/half-elf}.  ",
 			"**Benefit:** You count as a drow for any effects that relate to race. Furthermore, the spell-like abilities granted to you by your drow magic racial trait count as drow spell-like abilities for the purposes of any feat prerequisites."
 		]
 	},
@@ -2942,7 +2942,7 @@
 			"{SOURCE Halflings of Golarion/23}",
 			"",
 			"You have honed your racial talent for slingcraft.  ",
-			"**Prerequisites:** Halfling.  ",
+			"**Prerequisites:** {race/Halfling}.  ",
 			"**Benefit:** You gain a +1 racial bonus on attack rolls made using a sling."
 		]
 	},
@@ -3038,7 +3038,7 @@
 			"{SOURCE Heroes from the Fringe/9}",
 			"",
 			"You can throw a hammer with such force that it knocks your foes over.  ",
-			"**Prerequisites:** Int 13, {feat/Combat Expertise}, {feat/Improved Trip}, {feat/Precise Shot}, base attack bonus +1, dwarf.  ",
+			"**Prerequisites:** Int 13, {feat/Combat Expertise}, {feat/Improved Trip}, {feat/Precise Shot}, base attack bonus +1, {race/dwarf}.  ",
 			"**Benefit:** As a standard action, you can make a single ranged attack with a weapon that deals bludgeoning damage against a creature no more than one size category larger than you that is within the weapon's first range increment. If you hit and damage the target, you can immediately attempt to perform a trip combat maneuver against that target. This does not provoke an attack of opportunity, and if your combat maneuver check fails by 10 or more, you do not fall prone."
 		]
 	},
@@ -3096,7 +3096,7 @@
 			"{SOURCE Inner Sea Gods/212}",
 			"",
 			"Your touch staunches wounds and inspires great deeds.  ",
-			"**Prerequisites:** Lay on hands class feature, worshiper of Iomedae.  ",
+			"**Prerequisites:** Lay on hands class feature, worshiper of {faith/Iomedae}.  ",
 			"**Benefit:** Once per day when you use lay on hands, you can also imbue that ally with valor. In addition to the normal effects of your lay on hands, the targeted ally gains a sacred bonus on attack rolls and on saves against fear effects equal to your Charisma bonus (minimum +1) for 1 minute."
 		]
 	},
@@ -3141,7 +3141,7 @@
 			"{SOURCE Advanced Race Guide/18}",
 			"",
 			"Your thick skull is almost a weapon unto itself.  ",
-			"**Prerequisites:** Base attack bonus +1, dwarf.  ",
+			"**Prerequisites:** Base attack bonus +1, {race/dwarf}.  ",
 			"**Benefit:** You gain a +1 bonus on attack rolls and combat maneuver checks made using a helmet. You receive a +2 bonus on saves against spells and special abilities that cause you to become staggered or stunned.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -3398,7 +3398,7 @@
 			"{SOURCE Undead Slayer's Handbook/7}",
 			"",
 			"You can channel even more energy into weapons and armor to grant them several divine powers at once.  ",
-			"**Prerequisites:** {feat/Bless Equipment}, caster level 9th, channel energy class feature.  ",
+			"**Prerequisites:** {feat/Bless Equipment}, caster level 9th, {ability/channel energy} class feature.  ",
 			"**Benefit:** The number of uses of channeled energy you must expend to bless a piece of equipment using Bless Equipment and Align Equipment decreases by one (to a minimum of one use of channel energy per blessing).",
 			"",
 			"You can also bless a piece of equipment with up to two blessings at a time. Each blessing provides a different special ability drawn from the Bless Equipment list (and the Align Equipment list if you possess that feat). You must still have a high enough caster level to bless a piece of equipment with each of the selected blessings.",
@@ -3472,7 +3472,7 @@
 			"{SOURCE Mythic Adventures/66}",
 			"",
 			"You push foes around with amazing ease.  ",
-			"**Prerequisites:** {feat/Improved Bull Rush}.  ",
+			"**Prerequisites:** Improved Bull Rush.  ",
 			"**Benefit:** You gain a bonus equal to half your tier on checks to bull rush, and to your CMD when an opponent bull rushes you. These bonuses stack with those granted by non-mythic Improved Bull Rush.",
 			"",
 			"Furthermore, you can make an attack of opportunity against any creature that attempts to bull rush you, unless it also has this feat."
@@ -3504,7 +3504,7 @@
 			"{SOURCE PRPG Core Rulebook/126}",
 			"",
 			"Your channeled energy is harder to resist.  ",
-			"**Prerequisites:** Channel energy class feature.  ",
+			"**Prerequisites:** {ability/Channel energy} class feature.  ",
 			"**Benefit:** Add 2 to the DC of saving throws made to resist the effects of your channel energy ability.",
 			"",
 			"### Mythic Improved Channel",
@@ -3512,7 +3512,7 @@
 			"{SOURCE Mythic Adventures/66}",
 			"",
 			"As a divine conduit for energy, you're unmatched.  ",
-			"**Prerequisites:** {feat/Improved Channel}.  ",
+			"**Prerequisites:** Improved Channel.  ",
 			"**Benefit:** Non-mythic creatures that take damage from your channel energy must roll their saving throws twice and take the lower result."
 		]
 	},
@@ -3525,7 +3525,7 @@
 			"{SOURCE Advanced Race Guide/88}",
 			"",
 			"You move your enemies within a beam of righteous energy.  ",
-			"**Prerequisites:** {feat/Channel Force}, aasimar, channel energy 4d6.  ",
+			"**Prerequisites:** {feat/Channel Force}, {race/aasimar}, {ability/channel energy} 4d6.  ",
 			"**Benefit:** When using Channel Force, you can affect all creatures in a 60-foot line or a 30-foot cone-shaped burst. You must choose to either push or pull all creatures within the affected area that fail their saves."
 		]
 	},
@@ -3620,7 +3620,7 @@
 			"{SOURCE Mythic Adventures/66}",
 			"",
 			"Your innate understanding of magical mechanics allows you to unravel spells with pure magical energy.  ",
-			"**Prerequisites:** {feat/Improved Counterspell}.  ",
+			"**Prerequisites:** Improved Counterspell.  ",
 			"**Benefit:** When counterspelling, you can use a spell of the same school that is the same or higher spell level as the target spell."
 		]
 	},
@@ -3651,7 +3651,7 @@
 			"{SOURCE Mythic Adventures/66}",
 			"",
 			"Your critical strikes with your chosen weapon are deadlier than most.  ",
-			"**Prerequisites:** {feat/Improved Critical}, base attack bonus +8.  ",
+			"**Prerequisites:** Improved Critical, base attack bonus +8.  ",
 			"**Benefit:** Your critical multiplier with your chosen weapon is increased by 1 (to a maximum of &times;6).  ",
 			"**Special:** You can gain this feat multiple times. The effects do not stack. Each time you take this feat, it applies to a different non-mythic Improved Critical feat."
 		]
@@ -3665,7 +3665,7 @@
 			"{SOURCE Advanced Race Guide/112}",
 			"",
 			"With further modification, your eyes see clearly in not only normal darkness, but in magical darkness as well.  ",
-			"**Prerequisites:** {feat/Dark Sight}, {feat/Gloom Sight}, fetchling.  ",
+			"**Prerequisites:** {feat/Dark Sight}, {feat/Gloom Sight}, {race/fetchling}.  ",
 			"**Benefit:** You gain the see in darkness ability and lose the light sensitivity weakness, but gain the light blindness weakness."
 		]
 	},
@@ -3757,7 +3757,7 @@
 			"{SOURCE Mythic Adventures/66}",
 			"",
 			"You're a paragon of down-and-dirty fighting.  ",
-			"**Prerequisites:** {feat/Improved Dirty Trick}.  ",
+			"**Prerequisites:** Improved Dirty Trick.  ",
 			"**Benefit:** You gain a bonus equal to half your tier on checks to attempt a dirty trick, and to your CMD when an opponent attempts to perform a dirty trick on you. These bonuses stack with those granted by Improved Dirty Trick.",
 			"",
 			"Furthermore, you can make an attack of opportunity against any creature that attempts a dirty trick maneuver against you, unless it also has this feat."
@@ -3790,7 +3790,7 @@
 			"{SOURCE Mythic Adventures/67}",
 			"",
 			"You're expert at knocking your enemies' weapons away.  ",
-			"**Prerequisites:** {feat/Improved Disarm}.  ",
+			"**Prerequisites:** Improved Disarm.  ",
 			"**Benefit:** You gain a bonus equal to half your tier on checks to disarm, and to your CMD when an opponent tries to disarm you. These bonuses stack with those granted by Improved Disarm.",
 			"",
 			"Furthermore, you can make an attack of opportunity against any creature that attempts to disarm you, unless it also has this feat."
@@ -3836,7 +3836,7 @@
 			"{SOURCE Mythic Adventures/67}",
 			"",
 			"You pull your enemies around the battlefield with great ease.  ",
-			"**Prerequisites:** {feat/Improved Drag}.  ",
+			"**Prerequisites:** Improved Drag.  ",
 			"**Benefit:** You gain a bonus equal to half your tier on checks to attempt a drag combat maneuver, and to your CMD when an opponent attempts a drag combat maneuver against you. These bonuses stack with those granted by Improved Drag.",
 			"",
 			"Furthermore, you can make an attack of opportunity against any creature that attempts a drag maneuver against you, unless it also has this feat."
@@ -3918,7 +3918,7 @@
 			"{SOURCE Mythic Adventures/67}",
 			"",
 			"Your familiar gains some of your incredible resiliency and insight.  ",
-			"**Prerequisites:** {feat/Improved Familiar}.  ",
+			"**Prerequisites:** Improved Familiar.  ",
 			"**Benefit:** For every 3 tiers you possess, your familiar gains a +2 bonus to an ability score of your choice. These bonuses stack. Your familiar adds your tier to its natural armor bonus and to its spell resistance (if it has spell resistance)."
 		]
 	},
@@ -4001,7 +4001,7 @@
 			"{SOURCE Blood of Fiends/25}",
 			"",
 			"Your innate ability to shroud others in darkness is further empowered.  ",
-			"**Prerequisites:** {feat/Fiendish Darkness}, darkness spell-like ability, caster level 3rd, tiefling.  ",
+			"**Prerequisites:** {feat/Fiendish Darkness}, darkness spell-like ability, caster level 3rd, {race/tiefling}.  ",
 			"**Benefit:** You gain a +2 bonus to your effective caster level when using your darkness spell-like ability. In addition, whenever you cast a spell with the evil descriptor that targets another creature, you can spend a swift action to apply the effects of your darkness spell-like ability to the spell cast, with the darkness effect centered on the spell's target. Using the darkness spell-like ability in this way expends all three uses of it for the day, and it cannot be used if fewer than three uses of it remain for that day."
 		]
 	},
@@ -4014,7 +4014,7 @@
 			"{SOURCE Blood of Fiends/25}",
 			"",
 			"Your skill with foul sorcery is even more potent than that of others of your race.  ",
-			"**Prerequisites:** Fiendish sorcery racial trait, tiefling.  ",
+			"**Prerequisites:** Fiendish sorcery racial trait, {race/tiefling}.  ",
 			"**Benefit:** If you are a sorcerer and possess the Rakshasa bloodline or Shadow bloodline, treat your Charisma score as 2 points higher for all sorcerer class abilities."
 		]
 	},
@@ -4053,7 +4053,7 @@
 			"{SOURCE Blood of Fiends/25}",
 			"",
 			"Your hatred for goodness is rivaled only by your ability to repel it.  ",
-			"**Prerequisites:** Cha 13, {feat/Fury of the Tainted}, base attack bonus +8, rage class feature, tiefling.  ",
+			"**Prerequisites:** Cha 13, {feat/Fury of the Tainted}, base attack bonus +8, rage class feature, {race/tiefling}.  ",
 			"**Benefit:** While raging, you gain spell resistance equal to 10 + your class level against spells with the good descriptor."
 		]
 	},
@@ -4105,7 +4105,7 @@
 			"{SOURCE Mythic Adventures/67}",
 			"",
 			"Your wrestling moves are difficult to counter.  ",
-			"**Prerequisites:** {feat/Improved Grapple}.  ",
+			"**Prerequisites:** Improved Grapple.  ",
 			"**Benefit:** You gain a bonus equal to half your tier on checks to grapple, and to your CMD when an opponent tries to grapple you. These bonuses stack with those granted by Improved Grapple.",
 			"",
 			"Furthermore, you can make an attack of opportunity against any creature that attempts to grapple you, unless it also has this feat."
@@ -4133,7 +4133,7 @@
 			"{SOURCE Heroes from the Fringe/9}",
 			"",
 			"Your ability to knock down your foes with ranged attacks is impressive.  ",
-			"**Prerequisites:** Int 13, {feat/Combat Expertise}, {feat/Hammer Throw}, {feat/Improved Trip}, {feat/Precise Shot}, base attack bonus +6, dwarf.  ",
+			"**Prerequisites:** Int 13, {feat/Combat Expertise}, {feat/Hammer Throw}, {feat/Improved Trip}, {feat/Precise Shot}, base attack bonus +6, {race/dwarf}.  ",
 			"**Benefit:** You can use the Hammer Throw feat against targets at any range and of any size."
 		]
 	},
@@ -4194,7 +4194,7 @@
 			"{SOURCE Advanced Race Guide/77}",
 			"",
 			"You are masterful in your improvisation.  ",
-			"**Prerequisites:** Int 13, {feat/Fast Learner}, {feat/Improvisation}, human.  ",
+			"**Prerequisites:** Int 13, {feat/Fast Learner}, {feat/Improvisation}, {race/human}.  ",
 			"**Benefit:** Your nonproficiency penalty with weapons, armor, and shields is halved. In addition, the bonus on all skill checks for skills you have no ranks in increases to +4 instead of +2."
 		]
 	},
@@ -4237,7 +4237,7 @@
 			"{SOURCE Mythic Adventures/67}",
 			"",
 			"You leap into the fray with speed and confidence.  ",
-			"**Prerequisites:** {feat/Improved Initiative}.  ",
+			"**Prerequisites:** Improved Initiative.  ",
 			"**Benefit:** The bonus on initiative checks granted by Improved Initiative increases by an amount equal to your tier. This bonus stacks with the bonus from Improved Initiative. In addition, instead of rolling initiative, you can expend one use of mythic power to treat your roll as a natural 20."
 		]
 	},
@@ -4355,7 +4355,7 @@
 			"{SOURCE Advanced Race Guide/66}",
 			"",
 			"You are adept at hitting larger opponents where it hurts.  ",
-			"**Prerequisites:** Base attack bonus +4, halfling, low-blow racial trait.  ",
+			"**Prerequisites:** Base attack bonus +4, {race/halfling}, low-blow racial trait.  ",
 			"**Benefit:** Your bonus to confirm critical hits against opponents larger than yourself improves to +2. Furthermore, once per day, after you fail to hit with a critical hit confirmation roll, you can reroll the confirmation roll, but must take the new result even if it is worse.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -4474,7 +4474,7 @@
 			"{SOURCE Mythic Adventures/67}",
 			"",
 			"You're an unstoppable force on the battlefield, able to run down lesser foes with ease.  ",
-			"**Prerequisites:** {feat/Improved Overrun}.  ",
+			"**Prerequisites:** Improved Overrun.  ",
 			"**Benefit:** You gain a bonus equal to half your tier on checks to overrun, and to your CMD when an opponent tries to overrun you. These bonuses stack with those granted by Improved Overrun.",
 			"",
 			"Furthermore, you can make an attack of opportunity against any creature that attempts to overrun you, unless it also has this feat."
@@ -4520,15 +4520,15 @@
 			"",
 			"Once per day while benefiting from your mentor's boon, you can cast one of the following spell-like abilities based on the active boon's alignment (CL = your character level). Once you cast the spell-like ability, your mentor's boon ends immediately.",
 			"",
-			"*Chaotic:* Chaos hammer, magic circle against law, summon monster IV (chaotic outsiders only).",
+			":HL[Chaotic:] {spell/Chaos hammer}, {spell/magic circle against law}, {spell/summon monster IV} (chaotic outsiders only).",
 			"",
-			"*Evil:* Magic circle against good, summon monster IV (evil outsiders only), unholy blight.",
+			":HL[Evil:] {spell/Magic circle against good}, {spell/summon monster IV} (evil outsiders only), {spell/unholy blight}.",
 			"",
-			"*Good:* Holy smite, magic circle against evil, summon monster IV (good outsiders only).",
+			":HL[Good:] {spell/Holy smite}, {spell/magic circle against evil}, {spell/summon monster IV} (good outsiders only).",
 			"",
-			"*Lawful:* Magic circle against chaos, order's wrath, summon monster IV (lawful outsiders only).",
+			":HL[Lawful:] {spell/Magic circle against chaos}, {spell/order's wrath}, {spell/summon monster IV} (lawful outsiders only).",
 			"",
-			"*Neutral:* Bestow curse, prayer, summon monster IV (outsiders without alignment subtypes only)."
+			":HL[Neutral:] {spell/Bestow curse}, {spell/prayer}, {spell/summon monster IV} (outsiders without alignment subtypes only)."
 		]
 	},
 	"improved_plane_shift": {
@@ -4668,7 +4668,7 @@
 			"{SOURCE Mythic Adventures/67}",
 			"",
 			"You put your foes right where you want them.  ",
-			"**Prerequisites:** {feat/Improved Reposition}.  ",
+			"**Prerequisites:** Improved Reposition.  ",
 			"**Benefit:** You gain a bonus equal to half your tier on checks to attempt a reposition combat maneuver, and to your CMD when an opponent attempts to perform a reposition combat maneuver against you. These bonuses stack with those granted by Improved Reposition.",
 			"",
 			"Furthermore, you can make an attack of opportunity against any creature that attempts to reposition you, unless it also has this feat."
@@ -4732,7 +4732,7 @@
 			"{SOURCE Blood of Shadows/7}",
 			"",
 			"You have developed a resistance to the life-sapping environment of the Shadow Plane.  ",
-			"**Prerequisites:** Fetchling, shadowy resistance racial trait.  ",
+			"**Prerequisites:** {race/Fetchling}, shadowy resistance racial trait.  ",
 			"**Benefit:** You gain resistance 5 against negative energy damage, do not lose hit points when you gain a negative level, and gain a +2 racial bonus on saving throws against death effects, energy drain, negative energy, and spells or spell-like abilities of the necromancy school."
 		]
 	},
@@ -4908,7 +4908,7 @@
 			"{SOURCE Mythic Adventures/67}",
 			"",
 			"Your light fingers can lift even the most closely held item off an enemy.  ",
-			"**Prerequisites:** {feat/Improved Steal}.  ",
+			"**Prerequisites:** Improved Steal.  ",
 			"**Benefit:** You gain a bonus equal to half your tier on checks to attempt a steal combat maneuver, and to your CMD when an opponent attempts a steal combat maneuver on you. These bonuses stack with those granted by Improved Steal.",
 			"",
 			"Furthermore, you can make an attack of opportunity against any creature that attempts a steal maneuver against, you unless it also has this feat."
@@ -4952,7 +4952,7 @@
 			"{SOURCE Advanced Player's Guide/163}",
 			"",
 			"Your sense for stonework is uncanny.  ",
-			"**Prerequisites:** Wis 13, dwarf, stonecunning racial trait.  ",
+			"**Prerequisites:** Wis 13, {race/dwarf}, stonecunning racial trait.  ",
 			"**Benefit:** You receive a +4 bonus on Perception checks to notice unusual stonework. This bonus replaces the stonecunning ability's normal bonus on Perception checks.",
 			"",
 			"### Mythic Improved Stonecunning",
@@ -4960,7 +4960,7 @@
 			"{SOURCE Mythic Adventures/67}",
 			"",
 			"If you listen close, you can hear the secrets of stone.  ",
-			"**Prerequisites:** {feat/Improved Stonecunning}.  ",
+			"**Prerequisites:** Improved Stonecunning.  ",
 			"**Benefit:** You gain {spell/stone tell} as a spell-like ability usable once per day with a caster level equal to twice your tier."
 		]
 	},
@@ -5004,7 +5004,7 @@
 			"{SOURCE Mythic Adventures/67}",
 			"",
 			"Your mighty smashing blows demolish objects.  ",
-			"**Prerequisites:** {feat/Improved Sunder}.  ",
+			"**Prerequisites:** Improved Sunder.  ",
 			"**Benefit:** You gain a bonus equal to half your tier on checks to sunder, and to your CMD when an opponent tries to sunder an object used by you. These bonuses stack with those granted by Improved Sunder.",
 			"",
 			"Furthermore, you can make an attack of opportunity against any creature that attempts to sunder an object used by you, unless it also has this feat."
@@ -5107,7 +5107,7 @@
 			"{SOURCE Mythic Adventures/68}",
 			"",
 			"You're expert at knocking your foes down.  ",
-			"**Prerequisites:** {feat/Improved Trip}.  ",
+			"**Prerequisites:** Improved Trip.  ",
 			"**Benefit:** You gain a bonus equal to half your tier on checks to trip, and to your CMD when an opponent tries to trip you. These bonuses stack with those granted by Improved Trip.",
 			"",
 			"Furthermore, you can make an attack of opportunity against any creature that attempts to trip you, unless it also has this feat."
@@ -5195,7 +5195,7 @@
 			"{SOURCE Mythic Adventures/68}",
 			"",
 			"Your unarmed strikes are more powerful than others.  ",
-			"**Prerequisites:** {feat/Improved Unarmed Strike}.  ",
+			"**Prerequisites:** Improved Unarmed Strike.  ",
 			"**Benefit:** You can add half your tier to your damage with unarmed strikes. As a swift action, you can expend one use of mythic power to overcome the hardness of objects with your unarmed strikes. This effect last for a number of rounds equal to your tier. If an object's hardness is greater than 15, you don't ignore any of its hardness."
 		]
 	},

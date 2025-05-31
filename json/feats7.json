@@ -55,7 +55,7 @@
 			"{SOURCE Ultimate Wilderness/13}",
 			"",
 			"You have trained long and hard at flight.  ",
-			"**Prerequisites:** Dex 15, Fly 5 ranks, fly speed, gathlain.  ",
+			"**Prerequisites:** Dex 15, Fly 5 ranks, fly speed, {race/gathlain}.  ",
 			"**Benefit:** Your maneuverability while flying improves to average."
 		]
 	},
@@ -190,7 +190,7 @@
 			"{SOURCE Inner Sea Gods/215}",
 			"",
 			"Even your healing is seductive.  ",
-			"**Prerequisites:** Channel positive energy class feature, worshiper of Calistria.  ",
+			"**Prerequisites:** {ability/Channel positive energy} class feature, worshiper of {faith/Calistria}.  ",
 			"**Benefit:** When you channel positive energy, those you heal can choose to take additional healing equal to your Charisma bonus (minimum 1), but in return they take a -2 penalty on Will saves against your charms, compulsions, and emotion effects and on Sense Motive checks against your Bluff checks. This penalty lasts for 24 hours. A creature cannot benefit from this feat again for the duration of this penalty."
 		]
 	},
@@ -242,7 +242,7 @@
 			"{SOURCE Advanced Race Guide/47}",
 			"",
 			"Your anonymity makes you difficult to find through magical or mundane means, and you have learned how to combat both of your progenitor races.  ",
-			"**Prerequisites:** {feat/Exile's Path}, character level 5th, half-elf.  ",
+			"**Prerequisites:** {feat/Exile's Path}, character level 5th, {race/half-elf}.  ",
 			"**Benefit:** You gain a +2 bonus on all saving throws against scrying or divination effects. Additionally, you gain a +2 bonus on all Stealth checks, and elves, half-elves, and humans take a -4 penalty on all efforts to track you through the Survival skill."
 		]
 	},
@@ -334,7 +334,7 @@
 			"{SOURCE PRPG Core Rulebook/132}",
 			"",
 			"You can choose whom to affect when you channel energy.  ",
-			"**Prerequisites:** Cha 13, channel energy class feature.  ",
+			"**Prerequisites:** Cha 13, {ability/channel energy} class feature.  ",
 			"**Benefit:** When you channel energy, you can choose a number of targets in the area up to your Charisma modifier. These targets are not affected by your channeled energy.  ",
 			"**Normal:** All targets in a 30-foot burst are affected when you channel energy. You can only choose whether or not you are affected.",
 			"",
@@ -343,7 +343,7 @@
 			"{SOURCE Mythic Adventures/72}",
 			"",
 			"When you exclude creatures from your channel, you empower those you do affect.  ",
-			"**Prerequisites:** {feat/Selective Channeling}.  ",
+			"**Prerequisites:** Selective Channeling.  ",
 			"**Benefit:** When you channel energy, the damage you heal or deal increases by a number of points equal to twice the number of targets you excluded from your channeled energy. You can expend one use of mythic power to increase the number of targets you exclude from your channeled energy by half your tier."
 		]
 	},
@@ -386,7 +386,7 @@
 			"{SOURCE Legacy of the First World/23}",
 			"",
 			"You can hoard channeled energy for yourself.  ",
-			"**Prerequisites:** Channel energy class feature.  ",
+			"**Prerequisites:** {ability/Channel energy} class feature.  ",
 			"**Benefit:** Whenever you channel positive energy to heal creatures, you regain half again as many hit points (+50%) as normal if you're the only creature healed by the channeled energy (either because there are no other living creatures within the area or because you exclude them with Selective Channeling or a similar effect).  ",
 			"**Special:** If you are healed by negative energy, this feat applies when you channel negative energy and you're the only creature healed by the channeled energy."
 		]
@@ -410,7 +410,7 @@
 			"{SOURCE Mythic Adventures/72}",
 			"",
 			"Independence comes naturally to you, and you have mastered taking care of yourself.  ",
-			"**Prerequisites:** {feat/Self-Sufficient}.  ",
+			"**Prerequisites:** Self-Sufficient.  ",
 			"**Benefit:** The bonus on Heal and Survival skill checks from Self-Sufficient increases by 2. In addition, you can expend one use of mythic power to treat a Heal or Survival check as if you had rolled a natural 20. You must decide to use this ability before making the roll."
 		]
 	},
@@ -423,7 +423,7 @@
 			"{SOURCE Heroes from the Fringe/21}",
 			"",
 			"Wildborn who grow up together are closely attuned to the presence of others and carry this skill throughout their lives.  ",
-			"**Prerequisites:** Perception 3 ranks, wildborn half-elf.  ",
+			"**Prerequisites:** Perception 3 ranks, wildborn {race/half-elf}.  ",
 			"**Benefit:** You are aware of the location of all allies within 60 feet, even if they are hiding, invisible, or otherwise could not normally be detected."
 		]
 	},
@@ -623,7 +623,7 @@
 			"{SOURCE Inner Sea Gods/216;Faiths of Corruption/24}",
 			"",
 			"You use shadows to confound your enemies' senses.  ",
-			"**Prerequisites:** Dex 13, worshiper of Norgorber.  ",
+			"**Prerequisites:** Dex 13, worshiper of {faith/Norgorber}.  ",
 			"**Benefit:** You can use the light around you to move back and forth from shadow to light again, and your sudden shifting confuses your enemies' eyes. Each time you move a distance equal to or greater than your speed in areas of normal light or dim light, you gain a +3 dodge bonus to AC until the start of your next turn. Enemies who do not use sight in order to perceive you or are using true seeing or a similar effect ignore this AC bonus. This feat is ineffective in areas of darkness or bright light, where one cannot readily shift between light and shadow."
 		]
 	},
@@ -653,7 +653,7 @@
 			"{SOURCE Advanced Race Guide/112}",
 			"",
 			"You can move between the Shadow Plane and the Material Plane more often.  ",
-			"**Prerequisites:** Fetchling, shadow walk spell-like ability.  ",
+			"**Prerequisites:** {race/Fetchling}, shadow walk spell-like ability.  ",
 			"**Benefit:** You gain the ability to use shadow walk an additional time each day.  ",
 			"**Special:** You may select this feat multiple times. Its effects stack."
 		]
@@ -731,7 +731,7 @@
 			"{SOURCE Advanced Race Guide/112}",
 			"",
 			"You can pierce the veil between the Shadow Plane and the Material Plane more often, and to greater effect.  ",
-			"**Prerequisites:** Fetchling, shadow walk spell-like ability.  ",
+			"**Prerequisites:** {race/Fetchling}, shadow walk spell-like ability.  ",
 			"**Benefit:** You can expend one use of your shadow walk spell-like ability to use {spell/dimension door} as a spell-like ability. Your start and end locations for this ability must be in dim light or darkness."
 		]
 	},
@@ -786,7 +786,7 @@
 			"{SOURCE Advanced Race Guide/211}",
 			"",
 			"In dim light, you resemble little more than a shadow.  ",
-			"**Prerequisites:** Wayang.  ",
+			"**Prerequisites:** {race/Wayang}.  ",
 			"**Benefit:** Whenever you are in an area of dim light or darkness, you can move at full speed using Stealth without taking the normal -5 penalty for doing so.  ",
 			"**Normal:** When moving at more than half your speed and up to your normal speed, you take a -5 penalty on Stealth checks."
 		]
@@ -875,7 +875,7 @@
 			"{SOURCE Ultimate Campaign/72}",
 			"",
 			"A past humiliation haunts you to this day.  ",
-			"**Prerequisites:** You must have been publicly embarrassed, or must have the Bastard Born background. If the embarrassment didn't cause significant harm to your personal honor or social standing, it does not qualify for the feat prerequisites. The humiliation doesn't need to have been unjustified.  ",
+			"**Prerequisites:** You must have been publicly embarrassed, or must have the [Bastard Born](rule/birth_circumstances_and_more) background. If the embarrassment didn't cause significant harm to your personal honor or social standing, it does not qualify for the feat prerequisites. The humiliation doesn't need to have been unjustified.  ",
 			"**Benefit:** Being observed drives you to excel. When you're in a conflict that is being observed by others not involved in the conflict, you gain a +1 bonus on attack rolls and skill checks.  ",
 			"**Goal:** You can complete this goal in one of two fashions. First, thwart a chosen foe in a fashion that clearly establishes your superiority to the general public. Second, prove your worth another way, like gaining a title or becoming the chosen hero of a region.  ",
 			"**Completion Benefit:** Your newfound confidence gives you temporary hit points equal to your character level. These temporary hit points last until lost and refresh any time you rest long enough for natural healing to occur, whether or not any healing actually occurs."
@@ -1048,7 +1048,7 @@
 			"{SOURCE Advanced Player's Guide/169}",
 			"",
 			"You deftly direct others' attentions where you wish.  ",
-			"**Prerequisites:** Wis 13, half-elf.  ",
+			"**Prerequisites:** Wis 13, {race/half-elf}.  ",
 			"**Benefit:** As a move action, you can grant all friendly creatures within 30 feet who can see or hear you a +2 bonus on Perception checks for a number of rounds equal to your Wisdom modifier (minimum 1 round)."
 		]
 	},
@@ -1074,7 +1074,7 @@
 			"{SOURCE Advanced Race Guide/47}",
 			"",
 			"You can subtly bolster allies' ability to misdirect and infuriate their enemies.  ",
-			"**Prerequisites:** Cha 13, half-elf.  ",
+			"**Prerequisites:** Cha 13, {race/half-elf}.  ",
 			"**Benefit:** As a move action, you can grant all friendly creatures within 30 feet who can see or hear you a +2 bonus on Bluff or Intimidate checks (choose which skill to affect each time you use this ability) for a number of rounds equal to your Charisma modifier (minimum 1 round)."
 		]
 	},
@@ -1087,7 +1087,7 @@
 			"{SOURCE Inner Sea Races/209}",
 			"",
 			"The concept of ownership is rather flexible among you and your friends.  ",
-			"**Prerequisites:** {feat/Well-Prepared}, Sleight of Hand 1 rank, halfling.  ",
+			"**Prerequisites:** {feat/Well-Prepared}, Sleight of Hand 1 rank, {race/halfling}.  ",
 			"**Benefit:** Whenever you're within 30 feet of a halfling ally who also has this feat, as a move action you can draw an item in that ally's possession as if it were on your person. This is not a magical effect - you just conveniently happen to remember that you had borrowed that item earlier. The item must be something that easily fits in a pocket or sleeve, such as a dagger, potion, wand, or scroll. When you or an ally draw an item (whether or not you do so using Shared Ownership) or otherwise definitively establish who is holding the item, you can't use Shared Ownership to draw the item in this manner until you have had at least 1 hour to mingle with your companions."
 		]
 	},
@@ -1115,7 +1115,7 @@
 			"{SOURCE Inner Sea Races/209}",
 			"",
 			"You can combine fragments of monster myths into a coherent story.  ",
-			"**Prerequisites:** Knowledge (any) 1 rank, elf.  ",
+			"**Prerequisites:** Knowledge (any) 1 rank, {race/elf}.  ",
 			"**Benefit:** Whenever you make a Knowledge check to identify a monster, you gain a cumulative +2 circumstance bonus on the check for each ally within 30 feet who also has this feat and has ranks in the Knowledge skill required to identify that monster (maximum +10 bonus)."
 		]
 	},
@@ -1210,7 +1210,7 @@
 			"{SOURCE Advanced Race Guide/154}",
 			"",
 			"Your nails are large and strong.  ",
-			"**Prerequisites:** Ratfolk.  ",
+			"**Prerequisites:** {race/Ratfolk}.  ",
 			"**Benefit:** You gain two claw attacks. These are primary natural attacks that deal 1d4 points of damage.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -1228,7 +1228,7 @@
 			"{SOURCE Monster Codex/177}",
 			"",
 			"Your teeth are especially sharp and sturdy.  ",
-			"**Prerequisites:** Ratfolk.  ",
+			"**Prerequisites:** {race/Ratfolk}.  ",
 			"**Benefit:** You gain a bite attack. This is a primary natural attack that deals 1d3 points of damage."
 		]
 	},
@@ -1241,7 +1241,7 @@
 			"{SOURCE Horror Adventures/93}",
 			"",
 			"You can infuse your attacks with divine power capable of harming the undead and shattering the bond between the undead and its controller.  ",
-			"**Prerequisites:** Channel positive energy 4d6.  ",
+			"**Prerequisites:** {ability/Channel positive energy} 4d6.  ",
 			"**Benefit:** As a special full-round action, you can make a single melee attack against an undead creature or a single ranged attack against an undead creature within 30 feet. If the attack is successful, you deal your normal damage with the melee or ranged attack to your undead target. If the target undead creature is being controlled by another, by way of spell, because the target undead creature is an unintelligent undead controlled by that creature, or is under command of another undead creature, and if the controlling creature is within 120 feet of you when you make the attack, the controlling creature must succeed at a Will save (DC = 10 + 1/2 your level + your Cha modifier) or immediately lose control of the targeted undead for 10 minutes. While under this effect, the targeted undead is immediately compelled to seek out and attack its former controller until the control is regained."
 		]
 	},
@@ -1271,7 +1271,7 @@
 			"{SOURCE Mythic Adventures/72}",
 			"",
 			"Your dazzling attacks leave your opponents flummoxed and bewildered, unable to attack you or to defend themselves effectively.  ",
-			"**Prerequisites:** {feat/Shatter Defenses}.  ",
+			"**Prerequisites:** Shatter Defenses.  ",
 			"**Benefit:** An opponent you affect with Shatter Defenses is flat-footed to all attacks, not just yours."
 		]
 	},
@@ -1301,7 +1301,7 @@
 			"{SOURCE Inner Sea Gods/216;Faiths of Corruption/25}",
 			"",
 			"Your negative energy causes despair in those you harm.  ",
-			"**Prerequisites:** Channel energy class feature, worshiper of Urgathoa.  ",
+			"**Prerequisites:** {ability/Channel energy} class feature, worshiper of {faith/Urgathoa}.  ",
 			"**Benefit:** When you damage a creature by channeling negative energy, you fill your foe with fear. A creature that fails its Will save against your channeled energy also becomes shaken for a number of rounds equal to the number of dice you roll for your channel energy ability."
 		]
 	},
@@ -1317,7 +1317,7 @@
 			"{SOURCE Advanced Race Guide/18}",
 			"",
 			"Your mighty blows shatter your enemy's magic.  ",
-			"**Prerequisites:** {feat/Disruptive}, {feat/Spellbreaker}, dwarf, 10th-level fighter.  ",
+			"**Prerequisites:** {feat/Disruptive}, {feat/Spellbreaker}, {race/dwarf}, 10th-level fighter.  ",
 			"**Benefit:** As a standard action, you can attempt to sunder an ongoing spell effect as if you had the spell sunder rage power. You may use this feat once per day, plus one additional time per day for every 5 points by which your base attack bonus exceeds +10.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -1383,7 +1383,7 @@
 			"{SOURCE Mythic Adventures/73}",
 			"",
 			"You're a master of using your shield for protection.  ",
-			"**Prerequisites:** {feat/Shield Focus}.  ",
+			"**Prerequisites:** Shield Focus.  ",
 			"**Benefit:** Add your shield bonus and your shield's enhancement bonus to your touch AC. As an immediate action, you can expend one use of mythic power to add your shield bonus and your shield's enhancement bonus on a Fortitude or Reflex save just before you roll it."
 		]
 	},
@@ -1514,7 +1514,7 @@
 			"{SOURCE Mythic Adventures/73}",
 			"",
 			"Your shield bash produces a powerful kick.  ",
-			"**Prerequisites:** {feat/Shield Slam}.  ",
+			"**Prerequisites:** Shield Slam.  ",
 			"**Benefit:** When using Shield Slam to bull rush, an opponent knocked prone because of an intervening wall or other surface also takes damage from the collision. The damage dealt is equal to 1d6 points per 2 tiers you possess. As an immediate action, you can expend one use of mythic power to add your tier to your combat maneuver checks when resolving a bull rush made due to Shield Slam."
 		]
 	},
@@ -1849,7 +1849,7 @@
 			"{SOURCE Mythic Adventures/73}",
 			"",
 			"With ease, you can snap off two shots while dashing across the battlefield.  ",
-			"**Prerequisites:** {feat/Shot on the Run}, base attack bonus +6.  ",
+			"**Prerequisites:** Shot on the Run, base attack bonus +6.  ",
 			"**Benefit:** Whenever you use Shot on the Run, you can make two ranged attacks at your highest base attack bonus at any point during your movement, instead of just one."
 		]
 	},
@@ -1896,7 +1896,7 @@
 			"{SOURCE Inner Sea Races/209}",
 			"",
 			"Common folk have many superstitious rumors about your kind - tall tales born out of ignorance and fear alike. Whether or not what they say about your race is true is irrelevant, as you use their beliefs to take advantage of them whenever you can.  ",
-			"**Prerequisites:** Bluff 1 rank; Disguise 1 rank; kitsune, nagaji, samsaran, tengu, or wayang.  ",
+			"**Prerequisites:** Bluff 1 rank; Disguise 1 rank; {race/kitsune}, {race/nagaji}, {race/samsaran}, {race/tengu}, or {race/wayang}.  ",
 			"**Benefit:** You gain a +2 insight bonus on Will saves against mind-affecting spells and effects and a +3 insight bonus on Bluff checks. Both benefits apply only against humanoid creatures of races other than your own."
 		]
 	},
@@ -2300,7 +2300,7 @@
 			"{SOURCE Inner Sea Gods/216}",
 			"",
 			"You can channel negative energy to feed off the suffering of others.  ",
-			"**Prerequisites:** Channel energy 3d6, worshiper of Ghlaunder.  ",
+			"**Prerequisites:** {ability/Channel energy} 3d6, worshiper of {faith/Ghlaunder}.  ",
 			"**Benefit:** Once per day when you channel negative energy to damage living creatures, you gain a number of temporary hit points equal to half the die result of your channeled energy + 1 per creature affected by the channeled energy. For each affected creature that did not succeed at its saving throw against the channeled energy, you gain an additional temporary hit point. These temporary hit points disappear after 1 hour."
 		]
 	},
@@ -2420,10 +2420,10 @@
 			"{SOURCE Ultimate Magic/155}",
 			"",
 			"The walking dead respond to your call.  ",
-			"**Prerequisites:** {feat/Spell Focus/ (necromancy)}, ability to cast summon monster.  ",
-			"**Benefit:** Add \"human skeleton\" to the list of creatures you can summon with summon monster I and \"human skeletal champion\" to the list of creatures you can summon with summon monster III.",
+			"**Prerequisites:** {feat/Spell Focus/ (necromancy)}, ability to cast *summon monster.*  ",
+			"**Benefit:** Add \"human skeleton\" to the list of creatures you can summon with {spell/summon monster I} and \"human skeletal champion\" to the list of creatures you can summon with {spell/summon monster III}.",
 			"",
-			"Once per day, when you cast summon monster, you may summon a skeletal version of one of the creatures on that spell's summoning list (apply the skeleton template to that creature to create this monster)."
+			"Once per day, when you cast *summon monster,* you may summon a skeletal version of one of the creatures on that spell's summoning list (apply the {template/skeleton} template to that creature to create this monster)."
 		]
 	},
 	"skill_focus": {
@@ -2446,7 +2446,7 @@
 			"{SOURCE Mythic Adventures/73}",
 			"",
 			"You mastery with this skill is unmatched, even in difficult situations.  ",
-			"**Prerequisites:** {feat/Skill Focus}.  ",
+			"**Prerequisites:** Skill Focus.  ",
 			"**Benefit:** You can always take 10 or 20 on checks with your choice of skill for Skill Focus, even when you are rushed or threatened.  ",
 			"**Special:** You can gain this feat multiple times. The effects do not stack. Each time you take this feat, it applies to a different non-mythic Skill Focus feat."
 		]
@@ -2823,7 +2823,7 @@
 			"{SOURCE Advanced Player's Guide/170}",
 			"",
 			"You overcome obstacles by breaking them.  ",
-			"**Prerequisites:** {feat/Power Attack}, half-orc.  ",
+			"**Prerequisites:** {feat/Power Attack}, {race/half-orc}.  ",
 			"**Benefit:** When you attack an inanimate, unattended object, you ignore the first 5 points of its hardness. You also receive a +5 bonus on Strength checks made to knock down or break open doors.  ",
 			"**Special:** The benefits of this feat do not apply to sunder attempts or attacks against constructs, only attacks on inanimate, unattended objects.",
 			"",
@@ -2909,7 +2909,7 @@
 			"{SOURCE Advanced Player's Guide/170}",
 			"",
 			"You can catch the sour scent of fear on the wind.  ",
-			"**Prerequisites:** {feat/Keen Scent}, half-orc or orc.  ",
+			"**Prerequisites:** {feat/Keen Scent}, {race/half-orc} or {race/orc}.  ",
 			"**Benefit:** You receive a +4 bonus on Perception checks to detect creatures with the shaken, frightened, or panicked conditions using scent. You can substitute your Perception skill for Sense Motive skill checks if the subject has one of the previous conditions or is attempting to cover up their fear in some way."
 		]
 	},
@@ -3188,7 +3188,7 @@
 			"{SOURCE Mythic Adventures/74}",
 			"",
 			"You can use the weapons you pluck from the air to immediately make melee attacks.  ",
-			"**Prerequisites:** {feat/Snatch Arrows}.  ",
+			"**Prerequisites:** Snatch Arrows.  ",
 			"**Benefit:** When you use Snatch Arrows to catch a thrown weapon that can also be used as a melee weapon, you can make a melee attack with it as an immediate action against a foe within the weapon's melee reach. You can expend one use of mythic power to make this attack without spending an immediate action."
 		]
 	},
@@ -3283,7 +3283,7 @@
 			"{SOURCE Advanced Player's Guide/170}",
 			"",
 			"You have a way of helping others to get along.  ",
-			"**Prerequisites:** Cha 13, half-elf.  ",
+			"**Prerequisites:** Cha 13, {race/half-elf}.  ",
 			"**Benefit:** As a move action, you grant all friendly creatures within 30 feet who can see or hear you (including yourself) a +2 bonus on Diplomacy checks for a number of rounds equal to your Charisma modifier (minimum 1 round).",
 			"",
 			"### Mythic Sociable",
@@ -3291,7 +3291,7 @@
 			"{SOURCE Mythic Adventures/74}",
 			"",
 			"Your easy nature flows from you without effort, putting others at ease.  ",
-			"**Prerequisites:** {feat/Sociable}.  ",
+			"**Prerequisites:** Sociable.  ",
 			"**Benefit:** You grant and benefit from the +2 bonus on Diplomacy checks from Sociable constantly without having to spend a move action. You can spend a move action to increase the bonus to +4 for a number of rounds equal to your tier."
 		]
 	},
@@ -3346,7 +3346,7 @@
 			"{SOURCE Heroes from the Fringe/27}",
 			"",
 			"Growing up in the harsh tundra, you could rarely rely on anyone other than yourself. Solitude has only made you stronger as you overcame insurmountable odds.  ",
-			"**Prerequisites:** Str 17, base attack bonus +4, half-orc.  ",
+			"**Prerequisites:** Str 17, base attack bonus +4, {race/half-orc}.  ",
 			"**Benefit:** As a free action when you have no conscious allies within 30 feet of you, you can call upon your solitary prowess to enter a focused state. While in this state, your melee attacks deal an additional 1d6 points of damage. This damage is not multiplied on a critical hit. You can remain in this state for a number of rounds per day equal to your Hit Dice. These rounds do not need to be consecutive."
 		]
 	},
@@ -3731,7 +3731,7 @@
 			"{SOURCE Mythic Adventures/74}",
 			"",
 			"Your magical specialties are particularly effective.  ",
-			"**Prerequisites:** {feat/Spell Focus}.  ",
+			"**Prerequisites:** Spell Focus.  ",
 			"**Benefit:** Choose a school of magic you already have Spell Focus in. The bonus to save DCs provided by Spell Focus and {feat/Greater Spell Focus} for that school increases by 1. You can expend one use of mythic power as part of casting a spell from your chosen school to force any of the spell's targets to roll their saving throws twice, taking the lower result.  ",
 			"**Special:** You can gain this feat multiple times. The effects do not stack. Each time you take this feat, it applies to a different non-mythic Spell Focus feat."
 		]
@@ -3772,7 +3772,7 @@
 			"{SOURCE Mythic Adventures/74}",
 			"",
 			"You're so familiar with certain spells you can prepare them with the greatest of ease.  ",
-			"**Prerequisites:** {feat/Spell Mastery}.  ",
+			"**Prerequisites:** Spell Mastery.  ",
 			"**Benefit:** You can prepare spells you have selected with Spell Mastery as a full-round action. You must spend the appropriate amount of time preparing other spells you have not mastered. As a full-round action, you can expend one use of mythic power to prepare all your spells that you have selected with Spell Mastery."
 		]
 	},
@@ -3795,7 +3795,7 @@
 			"{SOURCE Mythic Adventures/74}",
 			"",
 			"Your mythic power breaches your enemies' defenses.  ",
-			"**Prerequisites:** {feat/Spell Penetration}.  ",
+			"**Prerequisites:** Spell Penetration.  ",
 			"**Benefit:** Add half your tier to caster level checks to overcome spell resistance. If you have {feat/Greater Spell Penetration}, add your full tier instead."
 		]
 	},
@@ -3911,7 +3911,7 @@
 			"{SOURCE Mythic Adventures/74}",
 			"",
 			"You're a spellcaster's worst nightmare.  ",
-			"**Prerequisites:** {feat/Spellbreaker}.  ",
+			"**Prerequisites:** Spellbreaker.  ",
 			"**Benefit:** Any non-mythic creature you threaten provokes an attack of opportunity from you whenever it uses a spell or spell-like ability, even when casting defensively or casting a quickened spell.",
 			"",
 			"If a non-mythic creature within 30 feet of you uses a spell or spell-like ability, you can expend one use of mythic power to make a ranged attack against that creature as an attack of opportunity (even if the creature wouldn't normally provoke attacks of opportunity). You must have a ranged weapon in hand or have a free hand and the non-mythic Quick Draw feat to use this ability. You can use this ability against a mythic creature by expending two uses of mythic power."
@@ -4118,7 +4118,7 @@
 			"{SOURCE Advanced Race Guide/28}",
 			"",
 			"Your mystic connection with one type of wilderness has grown even stronger.  ",
-			"**Prerequisites:** {feat/Attuned to the Wild}, {feat/Guardian of the Wild}, elf.  ",
+			"**Prerequisites:** {feat/Attuned to the Wild}, {feat/Guardian of the Wild}, {race/elf}.  ",
 			"**Benefit:** When you are in a terrain type you have selected the Attuned to the Wild feat for, you gain a +4 bonus on Perception checks made to act in the surprise round of combat. If you act in the surprise round, you gain blindsense out to a range of 30 feet during the surprise round. If you are in an area that qualifies as more than one kind of terrain, these bonuses do not stack; you receive the bonus for only one terrain type."
 		]
 	},
@@ -4283,7 +4283,7 @@
 			"{SOURCE Mythic Adventures/74}",
 			"",
 			"Your mounted charge knocks the wind and wits from those foolish enough to stand against you.  ",
-			"**Prerequisites:** {feat/Spirited Charge}.  ",
+			"**Prerequisites:** Spirited Charge.  ",
 			"**Benefit:** When you hit an opponent with a mounted charge, that opponent must succeed at a Fortitude saving throw (DC 10 + 1/2 your character level + your Str modifier) or be staggered for a number of rounds equal to your tier. If you use a lance with this attack, increase the saving throw DC by 2. As a free action before you make the attack, you can expend one use of mythic power to daze your opponent on a failed saving throw instead of staggering it."
 		]
 	},
@@ -4364,7 +4364,7 @@
 			"{SOURCE Advanced Race Guide/197}",
 			"",
 			"You have mastered the nagaji warrior technique of spitting venom into your opponent's eyes.  ",
-			"**Prerequisites:** Nagaji.  ",
+			"**Prerequisites:** {race/Nagaji}.  ",
 			"**Benefit:** As a full-round action, you can spit poison up to 10 feet as a ranged touch attack. If you hit, the target must make a successful Fortitude save or be blinded for 1d6 rounds. The DC of this save is equal to 10 + 1/2 your total Hit Dice + your Constitution modifier. You can use this ability once per day plus one additional time per day for every three Hit Dice you have.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -4471,7 +4471,7 @@
 			"{SOURCE Mythic Adventures/74}",
 			"",
 			"You apply metamagic to your spells with greater ease than do other spontaneous casters.  ",
-			"**Prerequisites:** {feat/Spontaneous Metafocus}.  ",
+			"**Prerequisites:** Spontaneous Metafocus.  ",
 			"**Benefit:** You can change which spell your Spontaneous Metafocus feat applies to each morning when you restore your expended spell slots. The spell it applies to can be of any level, but it must be a legal selection for the Spontaneous Metafocus feat.  ",
 			"**Special:** You can gain this feat multiple times. The effects do not stack. Each time you take this feat, it applies to a different non-mythic Spontaneous Metafocus feat."
 		]
@@ -4534,7 +4534,7 @@
 			"{SOURCE Mythic Adventures/74}",
 			"",
 			"You move across the battlefield in a blur of whirling blades.  ",
-			"**Prerequisites:** {feat/Spring Attack}, base attack bonus +6.  ",
+			"**Prerequisites:** Spring Attack, base attack bonus +6.  ",
 			"**Benefit:** When you use Spring Attack, you don't need to move at least 10 feet before making the first attack. If you expend one use of mythic power when you start a Spring Attack, the movement you make during the Spring Attack doesn't provoke attacks of opportunity."
 		]
 	},
@@ -4617,7 +4617,7 @@
 			"{SOURCE Inner Sea Gods/216;Faiths of Corruption/25}",
 			"",
 			"You can bull rush an opponent straight to the ground.  ",
-			"**Prerequisites:** {feat/Improved Bull Rush}, {feat/Merciless Rush}, worshiper of Rovagug.  ",
+			"**Prerequisites:** {feat/Improved Bull Rush}, {feat/Merciless Rush}, worshiper of {faith/Rovagug}.  ",
 			"**Benefit:** Whenever you make a bull rush attack and your combat maneuver check exceeds the target's CMD by 5 or more, you can attempt to trip the target as part of your bull rush as a free action. This does not provoke an attack of opportunity.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -4671,7 +4671,7 @@
 			"{SOURCE Advanced Player's Guide/170}",
 			"",
 			"You can clear the way to continue using your bow.  ",
-			"**Prerequisites:** {feat/Rapid Shot}, elf.  ",
+			"**Prerequisites:** {feat/Rapid Shot}, {race/elf}.  ",
 			"**Benefit:** When adjacent to an opponent and making a full-attack action with a longbow or shortbow (including composite bows), you may choose to make a melee attack against that opponent with a drawn arrow rather than firing it. If the attack hits - whether or not it does damage - your target is pushed back 5 feet away from you. You can then fire arrows from your bow normally, at the original target, or at another target within range. This melee attack replaces the extra attack from Rapid Shot, and all of your attack rolls for the round (the melee attack and the ranged attacks) take a -2 penalty. If your initial attack leaves you with no enemies threatening you, you can make the subsequent ranged attack or attacks without provoking attacks of opportunity.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -5035,7 +5035,7 @@
 			"{SOURCE Inner Sea Gods/216;Faiths of Balance/24}",
 			"",
 			"You can draw on your excellent balance to trip or disarm opponents when they try to disengage.  ",
-			"**Prerequisites:** {feat/Combat Reflexes}, {feat/Stand Still}, worshiper of Irori.  ",
+			"**Prerequisites:** {feat/Combat Reflexes}, {feat/Stand Still}, worshiper of {faith/Irori}.  ",
 			"**Benefit:** If you use Stand Still to prevent an opponent from moving, you may make a disarm or trip combat maneuver against your target as an immediate action.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -5075,7 +5075,7 @@
 			"{SOURCE Mythic Adventures/75}",
 			"",
 			"Your grace and fluidity are beyond compare.  ",
-			"**Prerequisites:** {feat/Stealthy}.  ",
+			"**Prerequisites:** Stealthy.  ",
 			"**Benefit:** The bonus on Escape Artist and Stealth skill checks from Stealthy increases by 2. In addition, you can expend one use of mythic power to treat an Escape Artist or Stealth check as if you had rolled a natural 20. You must decide to use this ability before making the roll."
 		]
 	},
@@ -5088,7 +5088,7 @@
 			"{SOURCE Advanced Race Guide/178}",
 			"",
 			"You imbue your fire spells with elemental water, transforming them into powerful gouts of steam.  ",
-			"**Prerequisites:** Undine.  ",
+			"**Prerequisites:** {race/Undine}.  ",
 			"**Benefit:** You may increase the casting time of a fire spell to a full-round action, infusing it with elemental power (spells with a casting time of 1 full-round action or longer do not have an increased casting time). The spell is treated as if it had the water descriptor. All fire effects of the altered spell instead manifest as superheated steam. The altered spell works normally underwater without requiring a caster level check. Unlike fire, the steam cannot ignite objects or set creatures on fire. As the spell still deals fire damage, fire resistance or immunity still applies to the spell's effects."
 		]
 	},

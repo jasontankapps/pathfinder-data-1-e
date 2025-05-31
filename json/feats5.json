@@ -168,7 +168,7 @@
 			"{SOURCE Inner Sea Races/207}",
 			"",
 			"Your innate adaptability allows you to imitate others of your kind nearly flawlessly, to the extent that you can utilize their mastery over skills almost as if you had personally trained in their use.  ",
-			"**Prerequisites:** Half-elf, adaptability or ancestral arms racial trait.  ",
+			"**Prerequisites:** {race/Half-elf}, adaptability or ancestral arms racial trait.  ",
 			"**Benefit:** Whenever you are within 30 feet of an ally who also has this feat, you gain the following benefits. If the ally has a {feat/Skill Focus} feat, you also count as having that feat for the purpose of the following skill uses: Acrobatics checks to move through threatened squares, Bluff checks to feint, Escape Artist checks to escape a grapple, Intimidate checks to demoralize, Knowledge checks to identify a monster, and Perception checks to notice a creature using Stealth. Furthermore, if the ally has a weapon proficiency gained through the ancestral arms racial trait, you also count as having that weapon proficiency."
 		]
 	},
@@ -380,7 +380,7 @@
 			"{SOURCE Advanced Race Guide/78}",
 			"",
 			"You have boundless faith in your success.  ",
-			"**Prerequisites:** Cha 13, {feat/Fearless Curiosity}, Intimidate 5 ranks, human.  ",
+			"**Prerequisites:** Cha 13, {feat/Fearless Curiosity}, Intimidate 5 ranks, {race/human}.  ",
 			"**Benefit:** You gain a +1 bonus on saving throws against effects with the emotion descriptor; this bonus stacks with the bonus granted by Fearless Curiosity. When you confirm a critical hit, as a free action you can make an Intimidate check to demoralize one creature you threaten. If you have the {feat/Dazzling Display} feat, you can make Intimidate checks to demoralize all creatures you threaten instead. You gain a +2 bonus on this check if your weapon has a &times;3 critical modifier, or +4 if it has a &times;4 critical modifier."
 		]
 	},
@@ -451,7 +451,7 @@
 			"{SOURCE Mythic Adventures/68}",
 			"",
 			"Your mythic stature makes others uneasy.  ",
-			"**Prerequisites:** {feat/Intimidating Prowess}.  ",
+			"**Prerequisites:** Intimidating Prowess.  ",
 			"**Benefit:** You gain a bonus on Intimidate checks equal to your tier against non-mythic creatures, or half your tier against mythic creatures. If you also have the Persuasive (mythic) feat, you can expend one use of mythic power to treat the Intimidate check as if you had rolled a natural 20. You must decide to use this ability before the roll is made."
 		]
 	},
@@ -480,7 +480,7 @@
 			"{SOURCE Inner Sea Gods/213}",
 			"",
 			"You instinctively react to interfere with foes that attack your allies or innocents.  ",
-			"**Prerequisites:** {feat/Combat Reflexes}, worshiper of Kurgess.  ",
+			"**Prerequisites:** {feat/Combat Reflexes}, worshiper of {faith/Kurgess}.  ",
 			"**Benefit:** Whenever an opponent you threaten makes an attack against a helpless, prone, or stunned ally or any attack against a noncombatant, that opponent provokes an attack of opportunity from you. If your attack of opportunity hits your foe, she takes a -4 penalty on the attack roll that provoked this attack of opportunity.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -561,7 +561,7 @@
 			"{SOURCE Gnomes of Golarion/31}",
 			"",
 			"You can use your ability to take the shape of an animal to enhance your Bluff skill, giving yourself an aura of danger or meekness that influences nearby creatures into doing what you want.  ",
-			"**Prerequisites:** Bluff 1 rank, wild shape class feature, gnome.  ",
+			"**Prerequisites:** Bluff 1 rank, wild shape class feature, {race/gnome}.  ",
 			"**Benefit:** As a standard action, you can pantomime or describe predator- or prey-like behavior, expend one of your uses of wild shape, and make a Bluff check. All creatures within 30 feet that fail a Will save against your Bluff check DC regard you as a figure of either fear or contempt (your choice applies to all affected creatures). If you choose fear, the targets are frightened for 1 round per druid level. If you choose contempt, the targets consider you harmless for 1 minute, ignoring you unless you attack them or take a threatening action."
 		]
 	},
@@ -574,7 +574,7 @@
 			"{SOURCE Pathfinder #26: The Sixfold Trial/72}",
 			"",
 			"By swearing to never use a weapon other than a longsword, you can achieve things normally limited to the most highly trained swordsmen.  ",
-			"**Prerequisites:** Proficient in longsword, {feat/Weapon Focus/ (longsword)}, base attack bonus +4, worshiper of Iomedae.  ",
+			"**Prerequisites:** Proficient in longsword, {feat/Weapon Focus/ (longsword)}, base attack bonus +4, worshiper of {faith/Iomedae}.  ",
 			"**Benefit:** You may select longsword-related feats as if you were a 4th-level fighter. For example, you may select {feat/Weapon Specialization} (longsword) as a feat.  ",
 			"**Special:** If you ever use a melee or ranged weapon other than a longsword in combat, you lose the benefits of this feat until you receive an atonement spell. You may still use spells that act as weapons (such as flame blade and spiritual weapon) without affecting your oath."
 		]
@@ -611,7 +611,7 @@
 			"{SOURCE Mythic Adventures/68}",
 			"",
 			"Your will is incorruptible.  ",
-			"**Prerequisites:** {feat/Iron Will}.  ",
+			"**Prerequisites:** Iron Will.  ",
 			"**Benefit:** Whenever you roll a Will saving throw against a spell, spell-like ability, or supernatural ability from a non-mythic source, roll twice and take the higher result."
 		]
 	},
@@ -624,7 +624,7 @@
 			"{SOURCE Inner Sea Gods/213}",
 			"",
 			"You wear your heavy armor like a second skin.  ",
-			"**Prerequisites:** Cleric level 7th, worshiper of Gorum.  ",
+			"**Prerequisites:** Cleric level 7th, worshiper of {faith/Gorum}.  ",
 			"**Benefit:** You gain the armor training fighter class feature with an effective fighter level equal to your cleric level - 4."
 		]
 	},
@@ -668,7 +668,7 @@
 			"{SOURCE Advanced Player's Guide/164}",
 			"",
 			"You have an especially strong stomach.  ",
-			"**Prerequisites:** Con 13; dwarf, half-orc, or orc.  ",
+			"**Prerequisites:** Con 13; {race/dwarf}, {race/half-orc}, or {race/orc}.  ",
 			"**Benefit:** You gain a +2 racial bonus on saving throws against any effect causing the nauseated or sickened conditions and against all ingested poisons (but not other poisons). In addition, you receive a +2 bonus on Survival skill checks to find food for yourself (and only yourself)."
 		]
 	},
@@ -681,7 +681,7 @@
 			"{SOURCE Advanced Player's Guide/164}",
 			"",
 			"Your skin is thicker and more resilient than that of most of your people.  ",
-			"**Prerequisites:** Con 13; dwarf, half-orc, or orc.  ",
+			"**Prerequisites:** Con 13; {race/dwarf}, {race/half-orc}, or {race/orc}.  ",
 			"**Benefit:** You gain a +1 natural armor bonus due to your unusually tough hide."
 		]
 	},
@@ -973,7 +973,7 @@
 			"{SOURCE Inner Sea Races/207}",
 			"",
 			"You can use spirits of the unseen world to carry your spells for you.  ",
-			"**Prerequisites:** Knowledge (religion) 3 ranks, human (Mwangi).  ",
+			"**Prerequisites:** Knowledge (religion) 3 ranks, {race/human} (Mwangi).  ",
 			"**Benefit:** You can cast spells with the range of \"touch\" at a range of 20 feet if the recipient is a willing Mwangi ally who also has this feat."
 		]
 	},
@@ -1046,7 +1046,7 @@
 			"{SOURCE Advanced Player's Guide/164}",
 			"",
 			"Your nose is as sensitive as that of a wild predator.  ",
-			"**Prerequisites:** Wis 13, half-orc or orc.  ",
+			"**Prerequisites:** Wis 13, {race/half-orc} or {race/orc}.  ",
 			"**Benefit:** You gain the scent special ability."
 		]
 	},
@@ -1059,7 +1059,7 @@
 			"{SOURCE Inner Sea Gods/213}",
 			"",
 			"When you channel positive energy, you can also channel ki.  ",
-			"**Prerequisites:** Channel positive energy class feature, worshiper of Irori.  ",
+			"**Prerequisites:** {ability/Channel positive energy} class feature, worshiper of {faith/Irori}.  ",
 			"**Benefit:** When you channel positive energy to heal living creatures, any creature that could be healed by the channeled energy can choose to regain ki from it instead. Affected creatures regain a number of ki points equal to the number of dice healed by the channel. A creature regaining ki in such a way must either regain ki or be healed by the channel (it cannot gain both)."
 		]
 	},
@@ -1402,7 +1402,7 @@
 			"{SOURCE Mythic Adventures/68}",
 			"",
 			"Your knockout punches are truly mighty.  ",
-			"**Prerequisites:** {feat/Knockout Artist}.  ",
+			"**Prerequisites:** Knockout Artist.  ",
 			"**Benefit:** When you use your unarmed strike to deal nonlethal damage and sneak attack damage to an opponent, roll d8s for each sneak attack die instead of d6s."
 		]
 	},
@@ -1873,7 +1873,7 @@
 			"{SOURCE Heroes from the Fringe/27}",
 			"",
 			"You have been placed in positions of importance since a young age, and others naturally follow your example.  ",
-			"**Prerequisites:** Cha 15, half-orc.  ",
+			"**Prerequisites:** Cha 15, {race/half-orc}.  ",
 			"**Benefit:** Whenever you confirm a critical hit in combat, all allies within 30 feet gain a +2 morale bonus on attack rolls for the next round."
 		]
 	},
@@ -1886,7 +1886,7 @@
 			"{SOURCE Goblins of Golarion/24}",
 			"",
 			"You allies depend far too much on your leadership and encouraging words for you to actually put yourself in harms' way.  ",
-			"**Prerequisites:** Goblin, Intimidate 1 rank.  ",
+			"**Prerequisites:** {race/Goblin}, Intimidate 1 rank.  ",
 			"**Benefit:** During any round in which you gain the benefit of {rule/cover} or {rule/concealment} against at least one opponent, and you are not threatened by any opponent, you can bark orders and encouragement to your allies as a standard action. Doing so grants all allies within 30 feet a +1 bonus on all weapon damage rolls for 1 round."
 		]
 	},
@@ -1985,7 +1985,7 @@
 			"{SOURCE Advanced Player's Guide/164}",
 			"",
 			"Your songs recount the ways and mysteries of your people.  ",
-			"**Prerequisites:** Cha 13, bardic performance class feature, elf or half-elf.  ",
+			"**Prerequisites:** Cha 13, bardic performance class feature, {race/elf} or {race/half-elf}.  ",
 			"**Benefit:** When you use bardic performance with audible components in a forest, the range or area of your chosen performance is doubled. In addition, the DC for saving throws against your bardic performance is increased by +2 for creatures of the fey type, regardless of where the performance occurs."
 		]
 	},
@@ -2080,7 +2080,7 @@
 			"{SOURCE Advanced Race Guide/18}",
 			"",
 			"You negotiate tiny ledges like a mountain goat.  ",
-			"**Prerequisites:** Dex 13, dwarf, mountaineer or stability racial trait.  ",
+			"**Prerequisites:** Dex 13, {race/dwarf}, mountaineer or stability racial trait.  ",
 			"**Benefit:** You can move at full speed while using Acrobatics to balance on narrow surfaces, and you gain a +4 bonus on Climb checks to catch yourself or another creature while falling. You also gain a +4 bonus on saving throws against effects that would cause you to fall prone (such as earthquakes). This bonus does not apply to your CMD against bull rush or trip attacks."
 		]
 	},
@@ -2194,7 +2194,7 @@
 			"{SOURCE Faction Guide/57}",
 			"",
 			"You have trained to fight onrushing enemy hordes. With a carefully timed strike you ensure that their reckless charge will be their undoing.  ",
-			"**Prerequisites:** Dwarf, [Ninth Battalion](rule/f_legion) 25 TPA.  ",
+			"**Prerequisites:** {race/Dwarf}, [Ninth Battalion](rule/f_legion) 25 TPA.  ",
 			"**Benefit:** You treat all one- or two-handed melee weapons as if they had the brace special feature.  ",
 			"**Normal:** Only weapons with the brace special feature can be readied against charges."
 		]
@@ -2208,7 +2208,7 @@
 			"{SOURCE Goblins of Golarion/24}",
 			"",
 			"You go wild when someone tries to steal the words from your head.  ",
-			"**Prerequisites:** Goblin, rage class feature.  ",
+			"**Prerequisites:** {race/Goblin}, rage class feature.  ",
 			"**Benefit:** If someone reads or writes in your presence (including casting spells like glyph of warding or symbol) you can, as an immediate action, choose to activate your rage class ability for 1 round. This round of rage does not count toward the total number of rounds which you can rage each day, but if you wish to continue your rage beyond that single round you must expend rounds from your daily rage allotment as normal. Once you use this feat you must wait at least 1 minute after you cease raging before you can use it again."
 		]
 	},
@@ -2234,7 +2234,7 @@
 			"{SOURCE Inner Sea Gods/213}",
 			"",
 			"Your channeled energy is truly liberating.  ",
-			"**Prerequisites:** Channel energy 7d6, worshiper of Cayden Cailean.  ",
+			"**Prerequisites:** {ability/Channel energy} 7d6, worshiper of {faith/Cayden Cailean}.  ",
 			"**Benefit:** When you channel positive energy, any creature healed by the channel also gains the effect of freedom of movement for a number of rounds equal to your Charisma modifier (minimum 1 round). This effect has a caster level equal to your effective cleric level."
 		]
 	},
@@ -2255,7 +2255,7 @@
 			"**Goal:** Free at least 200 slaves through perilous rescues (not merely buying them at market).  ",
 			"**Completion Benefit:** You gain the ability to inspire others through your dedication to your cause. Allies within 20 feet receive your Liberator feat bonuses when working with you to free prisoners or slaves. In addition, as a standard action you can inspire slaves and former slaves within 120 feet, giving them temporary hit points equal to 1/2 your character level and a +1 bonus on saving throws. These benefits last for 1 hour, and a given creature can receive this benefit only once per day. These are mind-affecting effects, and the inspiring bonus is language-dependent.",
 			"",
-			"Suggested Traits: {trait/Reactionary}, {trait/Secret-Keeper (QaC)}, {trait/Supportive}.",
+			"*Suggested Traits:* {trait/Reactionary}, {trait/Secret-Keeper (QaC)}, {trait/Supportive}.",
 			"",
 			"### Possible Liberator Quests",
 			"",
@@ -2296,7 +2296,7 @@
 			"{SOURCE Ultimate Magic/153}",
 			"",
 			"Your channeled positive energy is irresistibly sweet to nearby undead.  ",
-			"**Prerequisites:** Channel positive energy class feature.  ",
+			"**Prerequisites:** {ability/Channel positive energy} class feature.  ",
 			"**Benefit:** As a standard action, you can channel positive energy to fascinate all undead within 30 feet for a number of rounds equal to your Charisma modifier (minimum of 1). Undead that succeed at a Will save (DC 10 + 1/2 your cleric level + your Charisma modifier) are unaffected. Channeling energy for this purpose does not heal or harm creatures."
 		]
 	},
@@ -2363,7 +2363,7 @@
 			"{SOURCE Advanced Race Guide/199}",
 			"",
 			"Your blood flows with eternal life, and its healing powers allow you use your blood to heal others.  ",
-			"**Prerequisites:** Samsaran.  ",
+			"**Prerequisites:** {race/Samsaran}.  ",
 			"**Benefit:** At will as a full-round action, you may perform a special bloodletting ritual through which you sacrifice some of your own vitality to heal another creature. When using this feat, you take 1d4 points of damage and apply your blood to the wounds of a living creature, healing it for a number of hit points equal to the amount of damage you took from the ritual. This is a supernatural ability. Only you can perform this bloodletting. A creature cannot be healed by this ability more than once per day."
 		]
 	},
@@ -2408,7 +2408,7 @@
 			"{SOURCE Advanced Player's Guide/164}",
 			"",
 			"You pick your way nimbly through even the most dangerous and uneven terrain.  ",
-			"**Prerequisites:** {feat/Acrobatic Steps}, {feat/Nimble Moves}, elf.  ",
+			"**Prerequisites:** {feat/Acrobatic Steps}, {feat/Nimble Moves}, {race/elf}.  ",
 			"**Benefit:** You can ignore the effects of difficult terrain in natural environments, as if it were normal terrain."
 		]
 	},
@@ -2474,7 +2474,7 @@
 			"{SOURCE Mythic Adventures/68}",
 			"",
 			"Your reflexes are superhuman.  ",
-			"**Prerequisites:** {feat/Lightning Reflexes}.  ",
+			"**Prerequisites:** Lightning Reflexes.  ",
 			"**Benefit:** Whenever you roll a Reflex saving throw against a spell, spell-like ability, or supernatural ability from a non-mythic source, roll twice and take the higher result."
 		]
 	},
@@ -2547,7 +2547,7 @@
 			"{SOURCE Undead Slayer's Handbook/25}",
 			"",
 			"You can channel your divine energy through a melee weapon to cause lingering damage to undead creatures.  ",
-			"**Prerequisites:** {feat/Channel Smite}, channel energy 3d6.  ",
+			"**Prerequisites:** {feat/Channel Smite}, {ability/channel energy} 3d6.  ",
 			"**Benefit:** When you use Channel Smite against a living creature (if you channel negative energy) or an undead creature (if you channel positive energy), you can damage your target slowly over a longer duration, rather than inflicting the normal effects of Channel Smite. Instead of the normal effects of successfully hitting with Channel Smite, you may choose the following effect. Starting on your target's next turn, it takes 1d8 points of damage each round at the beginning of its turn. This effect lasts for a number of rounds equal to the number of damage dice you use to roll your channel energy ability. Your target can attempt a Will save each round, as if saving against your channeled energy, to negate the damage dealt to it by this feat on that round. If your initial attack misses, the use of channel energy is still expended with no effect. Multiple uses of Lingering Smite (including those from multiple sources) do not stack, and instead reset the duration of the effect."
 		]
 	},
@@ -2728,7 +2728,7 @@
 			"{SOURCE Inner Sea Races/207}",
 			"",
 			"Stubborn, tenacious, and proud, you're all but immovable when you have kin to back you up.  ",
-			"**Prerequisites:** Dwarf, hardy racial trait.  ",
+			"**Prerequisites:** {race/Dwarf}, hardy racial trait.  ",
 			"**Benefit:** Whenever you fight defensively and you're adjacent to an ally who also has this feat, your racial bonus on saving throws against spells and spell-like abilities increases by 2."
 		]
 	},
@@ -2779,7 +2779,7 @@
 			"{SOURCE Advanced Race Guide/165}",
 			"",
 			"You can shift into the form of a human with an unusually long nose.  ",
-			"**Prerequisites:** Character level 3rd, tengu.  ",
+			"**Prerequisites:** Character level 3rd, {race/tengu}.  ",
 			"**Benefit:** Once per day, you can assume the form of a human whose nose is the length of your beak. This spell-like ability functions as alter self with a caster level equal to your level. While in this form you gain the scent ability and a +2 bonus to your Strength score. Because your long nose in this form clearly indicates you are not fully human, you do not gain the normal bonus to Disguise checks for using a polymorph effect (however, you could possibly explain the nose as an unfortunate curse or deformity, or hide it with an item such as a plague doctor's mask)."
 		]
 	},
@@ -2853,7 +2853,7 @@
 			"{SOURCE Blood of the Beast/27}",
 			"",
 			"You're charming enough that others assume your criminal inclinations are delightful quirks.  ",
-			"**Prerequisites:** Bluff 1 rank, Diplomacy 1 rank, tengu.  ",
+			"**Prerequisites:** Bluff 1 rank, Diplomacy 1 rank, {race/tengu}.  ",
 			"**Benefit:** If you fail a Bluff check to deceive, an Intimidate check to gain a target's cooperation, or a Sleight of Hand check to steal from another creature, you can immediately attempt a Diplomacy check against the same DC as a free action. If you succeed, your target assumes your actions were in jest or just some awkward tengu tradition, and its attitude toward you does not immediately worsen (though later actions can still shift its attitude toward hostile). You can use this feat only once per day per target."
 		]
 	},
@@ -2887,7 +2887,7 @@
 			"{SOURCE Inner Sea Races/207}",
 			"",
 			"You're so loyal to your family or friends that you're willing to suffer for them.  ",
-			"**Prerequisites:** Human (Tian).  ",
+			"**Prerequisites:** {race/Human} (Tian).  ",
 			"**Benefit:** Whenever an opponent makes a melee or ranged attack against one of your allies who is adjacent to you and who also has this feat, you can spend an immediate action to shield the ally with your own body. You become the target of the attack, and the opponent gains a +4 bonus on her attack roll. For the purpose of determining distance, {rule/cover} and {rule/concealment}, you count as being in your ally's square when the attack is resolved. If the attack misses you due to concealment, {spell/blink}, or a similar effect, it instead targets your ally as if you had not used this feat's ability."
 		]
 	},
@@ -2944,7 +2944,7 @@
 			"{SOURCE Advanced Player's Guide/165;Dark Markets - A Guide to Katapesh/13}",
 			"",
 			"You bring luck to those with whom you travel.  ",
-			"**Prerequisites:** Halfling.  ",
+			"**Prerequisites:** {race/Halfling}.  ",
 			"**Benefit:** Once per day, when one of your allies within 30 feet makes a saving throw, you may roll the same saving throw as if you were the one subject to the effect requiring it. You may use this ability after your ally has rolled, but before the GM declares if the roll was a success or failure. Your ally may choose to use your saving throw in place of his own.",
 			"",
 			"### Mythic Lucky Halfling",
@@ -2952,7 +2952,7 @@
 			"{SOURCE Mythic Adventures/68}",
 			"",
 			"You share your mythic luck with those around you.  ",
-			"**Prerequisites:** {feat/Lucky Halfling}.  ",
+			"**Prerequisites:** Lucky Halfling.  ",
 			"**Benefit:** When you use Lucky Halfling, add your tier as a bonus on the saving throw. You can expend one use of mythic power when an ally uses your save but still suffers an effect on a successful saving throw. If you do, that ally suffers no effect on the successful saving throw."
 		]
 	},
@@ -2965,7 +2965,7 @@
 			"{SOURCE Advanced Race Guide/66}",
 			"",
 			"Your luck allows you to draw from magical healing far more efficiently than most.  ",
-			"**Prerequisites:** Adaptive luck racial trait, halfling.  ",
+			"**Prerequisites:** Adaptive luck racial trait, {race/halfling}.  ",
 			"**Benefit:** When a magical healing effect (such as a spell with \"cure\" in the title or channel energy) cures you, you can spend one use of your adaptable luck racial trait to reroll the amount of damage cured. You regain a number of hit points equal to the new roll or the original roll, whichever is greater. Other creatures healed by the effect do not gain this benefit."
 		]
 	},
@@ -2981,7 +2981,7 @@
 			"{SOURCE Advanced Race Guide/67}",
 			"",
 			"Your luck increases the potency of your weapon attacks.  ",
-			"**Prerequisites:** Base attack bonus +5, adaptive luck racial trait, halfling.  ",
+			"**Prerequisites:** Base attack bonus +5, adaptive luck racial trait, {race/halfling}.  ",
 			"**Benefit:** Spend a use of your adaptive luck racial trait to reroll the damage from a single weapon attack. You deal damage equal to the new damage roll, or the original roll, whichever is greater.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -3029,7 +3029,7 @@
 			"{SOURCE Mythic Adventures/69}",
 			"",
 			"Your reaching strikes aid your defenses against those you hit.  ",
-			"**Prerequisites:** {feat/Lunge}.  ",
+			"**Prerequisites:** Lunge.  ",
 			"**Benefit:** Whenever you use Lunge and hit a creature with the melee attack, you no longer take a -2 penalty to AC against that creature. You can expend one use of mythic power when you use Lunge to negate the -2 penalty to AC whether you hit or miss, and gain a +2 bonus on attacks of opportunity you make while Lunge is in effect."
 		]
 	},
@@ -3109,7 +3109,7 @@
 			"{SOURCE Advanced Race Guide/28}",
 			"",
 			"Your mystic connection with the wilderness enhances your spellcasting.  ",
-			"**Prerequisites:** {feat/Attuned to the Wild}, elf.  ",
+			"**Prerequisites:** {feat/Attuned to the Wild}, {race/elf}.  ",
 			"**Benefit:** When you are in a terrain type you have selected the Attuned to the Wild feat for, you gain a +2 bonus on caster level checks, {rule/concentration} checks, and, Knowledge (arcana) and Spellcraft checks. If you are in an area that qualifies as more than one kind of terrain, these bonuses do not stack; you receive the bonus for only one of the terrain types."
 		]
 	},
@@ -3278,7 +3278,7 @@
 			"{SOURCE Mythic Adventures/69}",
 			"",
 			"Your understanding of the principles and intricacies of magic goes far beyond your training.  ",
-			"**Prerequisites:** {feat/Magical Aptitude}.  ",
+			"**Prerequisites:** Magical Aptitude.  ",
 			"**Benefit:** The bonus on Spellcraft and Use Magic Device skill checks from Magical Aptitude increases by 2. In addition, you can expend one use of mythic power to treat a Spellcraft or Use Magic Device check as if you had rolled a natural 20. You must decide to use this ability before making the roll."
 		]
 	},
@@ -3306,7 +3306,7 @@
 			"{SOURCE Inner Sea Gods/213}",
 			"",
 			"Your faith allows you to prepare a spell when you need it.  ",
-			"**Prerequisites:** Ability to prepare spells, worshiper of Nethys.  ",
+			"**Prerequisites:** Ability to prepare spells, worshiper of {faith/Nethys}.  ",
 			"**Benefit:** Once per day, you can prepare a spell in an open spell slot as a standard action."
 		]
 	},
@@ -3332,7 +3332,7 @@
 			"{SOURCE Advanced Race Guide/193}",
 			"",
 			"You grow an extra tail that represents your growing magical powers.  ",
-			"**Prerequisites:** Kitsune.  ",
+			"**Prerequisites:** {race/Kitsune}.  ",
 			"**Benefit:** You gain a new spell-like ability, each usable twice per day, from the following list, in order: disguise self, charm person, misdirection, invisibility, suggestion, displacement, confusion, dominate person. For example, the first time you select this feat, you gain disguise self 2/day; the second time you select this feat, you gain charm person 2/day. Your caster level for these spells is equal to your Hit Dice. The DCs for these abilities are Charisma-based.  ",
 			"**Special:** You may select this feat up to eight times. Each time you take it, you gain an additional ability as described above."
 		]
@@ -3364,7 +3364,7 @@
 			"{SOURCE Pathfinder #139: The Dead Road/71}",
 			"",
 			"The magistrates of death can breathe death and decay. You were in the presence of a final judge once and your soul remembers that moment still.  ",
-			"**Prerequisites:** Channel energy 5d6, {race/duskwalker}, ghost hunter racial trait.  ",
+			"**Prerequisites:** {ability/Channel energy} 5d6, {race/duskwalker}, ghost hunter racial trait.  ",
 			"**Benefit:** When you channel positive energy to harm undead, you can expend your ghost hunter racial ability as a free action. Your channeled energy takes the form of spectral beetles and other insectile scavengers, dealing 50% more damage to the undead. You also gain an additional daily use of ghost hunter."
 		]
 	},
@@ -3585,7 +3585,7 @@
 			"{SOURCE Mythic Adventures/69}",
 			"",
 			"You can fire a barrage of arrows at your target with very little effort.  ",
-			"**Prerequisites:** {feat/Manyshot}.  ",
+			"**Prerequisites:** Manyshot.  ",
 			"**Benefit:** When making a full-attack action with a bow and using Manyshot, you fire two arrows with both your first and second attacks, instead of just your first attack."
 		]
 	},
@@ -3674,7 +3674,7 @@
 			"{SOURCE Undead Unleashed/59}",
 			"",
 			"You have pledged your life to defend Mzali against invaders, and will continue to do so even after your death.  ",
-			"**Prerequisites:** 1st-level character, human of Mwangi ethnicity, Walkena worshiper, must personally create a token worth at least 50 gp prior to an 8-hour branding ritual during which you survive taking 2d6 points of fire damage.  ",
+			"**Prerequisites:** 1st-level character, {race/human} of Mwangi ethnicity, Walkena worshiper, must personally create a token worth at least 50 gp prior to an 8-hour branding ritual during which you survive taking 2d6 points of fire damage.  ",
 			"**Benefit:** Dedicated to ridding your land of colonialist invaders, you have pledged your eternal soul to the purging of their presence from Mzali. Upon completion of the ritual, you gain fire resistance 2 and a +1 morale bonus on Will saves.",
 			"",
 			"When you are killed, you rise as a juju zombie after 1d4 minutes. Upon rising, your alignment changes to evil. Lawful and chaotic components of your alignment are not changed. After this transformation, you deal an additional 1d6 points of fire damage with the slam attack gained from the template.  ",
@@ -3747,7 +3747,7 @@
 			"{SOURCE Advanced Race Guide/78}",
 			"",
 			"You broaden your study of weapons to encompass multiple similar weapons.  ",
-			"**Prerequisites:** {feat/Martial Versatility}, fighter level 16th, human.  ",
+			"**Prerequisites:** {feat/Martial Versatility}, fighter level 16th, {race/human}.  ",
 			"**Benefit:** Each combat feat you have that applies to a specific weapon (e.g., {feat/Weapon Focus}) can be used with all weapons in the same weapon group.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -3768,7 +3768,7 @@
 			"{SOURCE Advanced Race Guide/78}",
 			"",
 			"You further broaden your study of weapons to encompass multiple similar weapons.  ",
-			"**Prerequisites:** Fighter level 4th, human.  ",
+			"**Prerequisites:** Fighter level 4th, {race/human}.  ",
 			"**Benefit:** Choose one combat feat you know that applies to a specific weapon (e.g., {feat/Weapon Focus}). You can use that feat with any weapon within the same weapon group.  ",
 			"**Special:** You may take this feat more than once. Each time it applies to a different feat.",
 			"",
@@ -3985,7 +3985,7 @@
 			"{SOURCE Heroes from the Fringe/9}",
 			"",
 			"Your ability to knock down foes with thrown weapons is second to none.  ",
-			"**Prerequisites:** Int 13, {feat/Combat Expertise}, {feat/Hammer Throw}, {feat/Improved Hammer Throw}, {feat/Improved Trip}, {feat/Precise Shot}, base attack bonus +6, dwarf.  ",
+			"**Prerequisites:** Int 13, {feat/Combat Expertise}, {feat/Hammer Throw}, {feat/Improved Hammer Throw}, {feat/Improved Trip}, {feat/Precise Shot}, base attack bonus +6, {race/dwarf}.  ",
 			"**Benefit:** You can immediately attempt a trip combat maneuver against a target that you successfully hit and damage with a thrown bludgeoning weapon with any attack, even as part of a full-attack action."
 		]
 	},
@@ -3998,7 +3998,7 @@
 			"{SOURCE Inner Sea Gods/213}",
 			"",
 			"In times of need, you have the answers.  ",
-			"**Prerequisites:** Int 17, {feat/Skill Focus} (Knowledge [any]), worshiper of Irori.  ",
+			"**Prerequisites:** Int 17, {feat/Skill Focus} (Knowledge [any]), worshiper of {faith/Irori}.  ",
 			"**Benefit:** Choose a single Knowledge skill with which you have Skill Focus. Once per day, when you wish to make a check with that Knowledge skill, you need not roll, and may treat the result as if you had rolled a natural 20 instead."
 		]
 	},
@@ -4011,7 +4011,7 @@
 			"{SOURCE Gnomes of Golarion/13}",
 			"",
 			"Having seen the wonders of the world, you know how to tweak more chaos out of a rod of wonder.  ",
-			"**Prerequisites:** {feat/Iron Will}, Wonderseeker faction, gnome.  ",
+			"**Prerequisites:** {feat/Iron Will}, Wonderseeker faction, {race/gnome}.  ",
 			"**Benefit:** When you activate a rod of wonder, roll d% to determine what effect the rod would create. If you desire to do so, you can roll d% again and use this second result. You can only use this ability once per round."
 		]
 	},
@@ -4220,7 +4220,7 @@
 			"{SOURCE Inner Sea Gods/213;Faiths of Balance/24}",
 			"",
 			"You believe that a conservative but consistent response guarantees success.  ",
-			"**Prerequisites:** Base attack bonus +1, worshiper of Abadar.  ",
+			"**Prerequisites:** Base attack bonus +1, worshiper of {faith/Abadar}.  ",
 			"**Benefit:** When you hit an opponent with a melee or ranged weapon attack, you may choose to deal average damage (rounded down), as if you had rolled exactly the average amount on the damage die or dice. You add your damage bonuses and penalties as normal.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -4434,7 +4434,7 @@
 			"{SOURCE Inner Sea Gods/214;Faiths of Corruption/25}",
 			"",
 			"Though hordes stand against you, they rarely stand long.  ",
-			"**Prerequisites:** {feat/Improved Bull Rush}, worshiper of Rovagug.  ",
+			"**Prerequisites:** {feat/Improved Bull Rush}, worshiper of {faith/Rovagug}.  ",
 			"**Benefit:** When you bull rush a creature and your check exceeds the target's CMD by 5 or more, you deal damage equal to your Strength modifier to that target."
 		]
 	},
@@ -4461,7 +4461,7 @@
 			"{SOURCE Inner Sea Gods/214}",
 			"",
 			"The Lady of Graves has blessed you with the power of true prophecy.  ",
-			"**Prerequisites:** Ability to cast augury, worshiper of Pharasma.  ",
+			"**Prerequisites:** Ability to cast augury, worshiper of {faith/Pharasma}.  ",
 			"**Benefit:** When casting divination spells, you do so at +1 caster level. If your divination spell has a base percentage chance of providing correct or useful information, your maximum chance of gleaning correct or useful information is 100%, instead of the standard 90%."
 		]
 	},
@@ -4487,7 +4487,7 @@
 			"{SOURCE Advanced Race Guide/88}",
 			"",
 			"Your wing feathers are made of gleaming metal.  ",
-			"**Prerequisites:** {feat/Angelic Blood}, {feat/Angelic Flesh}, {feat/Angel Wings}, aasimar, character level 11th.  ",
+			"**Prerequisites:** {feat/Angelic Blood}, {feat/Angelic Flesh}, {feat/Angel Wings}, {race/aasimar}, character level 11th.  ",
 			"**Benefit:** You gain two wing attacks. These are secondary natural attacks that deal 1d4 points of slashing damage (or 1d3 if you are Small)."
 		]
 	},
@@ -4647,7 +4647,7 @@
 			"{SOURCE Inner Sea Races/207}",
 			"",
 			"Combining your cunning with illusion magic makes you and your allies nearly indistinguishable.  ",
-			"**Prerequisites:** Bluff 8 ranks, gnome, gnome magic racial trait.  ",
+			"**Prerequisites:** Bluff 8 ranks, {race/gnome}, gnome magic racial trait.  ",
 			"**Benefit:** Whenever you're adjacent to any gnome allies who also have this feat, your appearance and mannerisms change into an amalgam of the features of you and your allies, making you and your allies look exactly alike. Your shapes occasionally appear to blend into each other, making it impossible to distinguish you and granting you and any affected allies a 20% miss chance due to concealment. This is an illusion (figment) effect.",
 			"",
 			"Spells and effects that don't require an attack roll, such as area spells, affect you normally. An attacker must be able to see and reach both you and your ally to be fooled. If you're invisible or the attacker is blind, the feat has no effect. Because this feat relies on the fact that both you and your ally are blending together to create the visual illusion, it doesn't function with effects like the inquisitor's solo tactics class feature; both you and the ally must possess the feat. If you have more than one adjacent ally with this feat, this feat applies to all allies who qualify."
@@ -4752,7 +4752,7 @@
 			"{SOURCE Mythic Adventures/69}",
 			"",
 			"Your remarkable awareness allows you to deflect multiple ranged attacks and even ray spells.  ",
-			"**Prerequisites:** {feat/Missile Shield}.  ",
+			"**Prerequisites:** Missile Shield.  ",
 			"**Benefit:** When using Missile Shield, you can deflect an additional number of ranged attacks per round equal to half your tier. You can expend one use of mythic power as an immediate action to deflect a single ray from a ray spell or effect targeting you."
 		]
 	},
@@ -4862,7 +4862,7 @@
 			"{SOURCE Mythic Adventures/69}",
 			"",
 			"You have perfected your ability to weave through the battlefield, using your momentum to propel yourself far.  ",
-			"**Prerequisites:** {feat/Mobility}.  ",
+			"**Prerequisites:** Mobility.  ",
 			"**Benefit:** Whenever you use Mobility, you gain a +6 dodge bonus to AC instead of the normal +4. In addition, once per round when an attack of opportunity provoked by your movement misses you, you may move 5 feet as a free action. This movement doesn't count against your total overall movement for the round, but it does provoke attacks of opportunity."
 		]
 	},

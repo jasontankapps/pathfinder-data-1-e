@@ -8,7 +8,7 @@
 			"{SOURCE Advanced Race Guide/94}",
 			"",
 			"Your innate grace allows you to get out of the stickiest situations.  ",
-			"**Prerequisites:** Dexterity 13, catfolk.  ",
+			"**Prerequisites:** Dexterity 13, {race/catfolk}.  ",
 			"**Benefit:** You gain a +2 bonus to your CMD against bull rush, grapple, overrun, repositioning, and trip combat maneuvers."
 		]
 	},
@@ -132,7 +132,7 @@
 			"{SOURCE Advanced Race Guide/141}",
 			"",
 			"You ferocity is quick but shorter lived.  ",
-			"**Prerequisites:** Ferocity racial trait, orc.  ",
+			"**Prerequisites:** Ferocity racial trait, {race/orc}.  ",
 			"**Benefit:** When you fall to 0 hit points or fewer, you lose 2 hit points each round, but you are not staggered. If you are in a rage (such as that caused by the barbarian rage class feature), you instead only lose 1 hit point per round."
 		]
 	},
@@ -172,7 +172,7 @@
 			"{SOURCE Inner Sea Races/206}",
 			"",
 			"Seeing a fellow orc bleed makes you fight harder.  ",
-			"**Prerequisites:** Orc, ferocity racial trait.  ",
+			"**Prerequisites:** {race/Orc}, ferocity racial trait.  ",
 			"**Benefit:** Whenever you are at or below half of your full hit points and an orc ally within 30 feet who also has this feat is at or below half of her full hit points, you gain a +2 morale bonus on attack rolls."
 		]
 	},
@@ -197,7 +197,7 @@
 			"{SOURCE Advanced Race Guide/57}",
 			"",
 			"Your orc heritage allows you to fight on.  ",
-			"**Prerequisites:** Con 13, half-orc, orc ferocity racial trait.  ",
+			"**Prerequisites:** Con 13, {race/half-orc}, {race/orc} ferocity racial trait.  ",
 			"**Benefit:** You gain the {umr/ferocity} universal monster ability, allowing you to continue fighting at negative hit points. When using this ability, you gain a +2 bonus on Intimidate checks.  ",
 			"**Normal:** A half-orc with the orc ferocity racial trait can fight for 1 more round after he is brought below 0 hit points."
 		]
@@ -211,7 +211,7 @@
 			"{SOURCE Advanced Race Guide/57}",
 			"",
 			"Your summoned creatures gain your ferocity.  ",
-			"**Prerequisites:** {feat/Augment Summoning}, half-orc or orc.  ",
+			"**Prerequisites:** {feat/Augment Summoning}, {race/half-orc} or {race/orc}.  ",
 			"**Benefit:** Creatures you summon gain the {umr/ferocity} universal monster ability."
 		]
 	},
@@ -228,7 +228,7 @@
 			"{SOURCE Advanced Race Guide/57;Orcs of Golarion/24}",
 			"",
 			"You spit in the face of death.  ",
-			"**Prerequisites:** Ferocity racial trait, half-orc or orc, rage class feature.  ",
+			"**Prerequisites:** Ferocity racial trait, {race/half-orc} or {race/orc}, rage class feature.  ",
 			"**Benefit:** Once per day when raging, if you are hit by an attack that would deal enough hit points of damage to kill you (negative hit points equal to your Constitution score), as an immediate action you may expend 1 or more rounds of rage to negate some of this damage and keep yourself alive. Each round of rage you spend reduces the attack's damage by 1 point, but cannot reduce the damage taken below 1 hit point.",
 			"",
 			"For example, if you are raging, have a raging Constitution score of 18, are currently at 2 hit points, and take 20 hit points of damage from a hit (which is enough to bring you to -18 hit points, thereby killing you), you may spend 1 round of rage to reduce the damage by 1 hit point (leaving you perilously close to death at -17 hit points); if you spend 17 rounds of rage, you reduce the damage to 1 (the minimum), leaving you with 1 hit point.  ",
@@ -403,7 +403,7 @@
 			"{SOURCE Advanced Race Guide/174}",
 			"",
 			"Your eyes develop keener sight in dim light and darkness.  ",
-			"**Prerequisites:** Darkvision 60 ft., tiefling.  ",
+			"**Prerequisites:** Darkvision 60 ft., {race/tiefling}.  ",
 			"**Benefit:** You gain low-light vision and your darkvision improves to 120 ft.  ",
 			"**Special:** You can take this feat twice. When you take it a second time, you gain the {umr/see in darkness/ universal monster ability}."
 		]
@@ -417,7 +417,7 @@
 			"{SOURCE Blood of Fiends/24}",
 			"",
 			"You can use your darkness spell-like ability more often.  ",
-			"**Prerequisites:** Darkness spell-like ability, tiefling.  ",
+			"**Prerequisites:** Darkness spell-like ability, {race/tiefling}.  ",
 			"**Benefit:** You can use {spell/darkness} three times per day as a spell-like ability.  ",
 			"**Normal:** Tieflings can use darkness once per day as a spell-like ability."
 		]
@@ -434,7 +434,7 @@
 			"{SOURCE Blood of Fiends/25;Pathfinder #25: The Bastards of Erebus/66}",
 			"",
 			"You are easily mistaken for a member of another race. Your fiendish physical traits are normally hidden by clothing or appear to be markings of another race.  ",
-			"**Prerequisites:** Must be taken at 1st level, tiefling.  ",
+			"**Prerequisites:** Must be taken at 1st level, {race/tiefling}.  ",
 			"**Benefit:** You gain a +5 racial bonus on Disguise checks when attempting to impersonate a particular race. You must select the race you are able to impersonate when you select this feat, and thereafter you cannot change the race you have chosen. That race must be Medium size."
 		]
 	},
@@ -450,7 +450,7 @@
 			"{SOURCE Pathfinder #25: The Bastards of Erebus/66}",
 			"",
 			"You possess a strong tie to your fiendish ancestors, granting you favorable abilities.  ",
-			"**Prerequisites:** Tiefling, must be taken at 1st level.  ",
+			"**Prerequisites:** {race/Tiefling}, must be taken at 1st level.  ",
 			"**Benefit:** Your fiendish bloodline proves particularly strong, being tied to a specific race of fiends. Rather than taking a tiefling's usual racial ability modifiers, choose one of the {race/tiefling/ heritage modifiers}. In addition, you may roll on the Variant Tiefling Abilities table three times and choose the most favorable ability.  ",
 			"**Special:** {source/Blood of Fiends/ pgs. 18-23} reprinted the tiefling heritages without requiring this feat to access them. This feat is now essentially irrelevant."
 		]
@@ -483,7 +483,7 @@
 			"{SOURCE Blood of Fiends/25}",
 			"",
 			"You dodge energy attacks with amazing agility.  ",
-			"**Prerequisites:** Dex 13, evasion class feature, tiefling.  ",
+			"**Prerequisites:** Dex 13, evasion class feature, {race/tiefling}.  ",
 			"**Benefit:** Choose one of the following energy types that you have resistance to: cold, electricity, or fire. Anytime you make a Reflex saving throw against an attack that deals the selected type of energy damage and is subject to your evasion class feature, you gain a +4 competence bonus on the save.  ",
 			"**Special:** You can take this feat multiple times. Each time you take it, you select a different qualifying energy type."
 		]
@@ -540,7 +540,7 @@
 			"{SOURCE Advanced Player's Guide/160}",
 			"",
 			"You can keep fighting even after you should be dead.  ",
-			"**Prerequisites:** Con 13; dwarf, half-orc, or orc.  ",
+			"**Prerequisites:** Con 13; {race/dwarf}, {race/half-orc}, or {race/orc}.  ",
 			"**Benefit:** Once per day, you can gain a number of temporary hit points equal to your Constitution modifier. You can activate this feat as an immediate action when reduced to 0 or fewer hit points. You can use this feat to prevent yourself from dying. These temporary hit points last for 1 minute. If your hit points drop below 0 due to the loss of these temporary hit points, you fall unconscious and are dying as normal. If you also have the ferocity racial trait, you can use that once you have lost the temporary hit points from this feat."
 		]
 	},
@@ -714,7 +714,7 @@
 			"{SOURCE Orcs of Golarion/25}",
 			"",
 			"The Fire God rewards you for killing enemies with flame.  ",
-			"**Prerequisites:** Half-orc or orc, worshiper of the Fire God (Sezelrian).  ",
+			"**Prerequisites:** {race/Half-orc} or {race/orc}, worshiper of the Fire God ({faith/Sezelrian}).  ",
 			"**Benefit:** When in combat, if you deal fire damage to an enemy, you heal 1 hit point. You can only benefit from this healing once per round. Attacks that cause a target to catch on fire heal you each round the target takes fire damage."
 		]
 	},
@@ -730,7 +730,7 @@
 			"{SOURCE Advanced Race Guide/118}",
 			"",
 			"Born with a torch in your hand, you have a gift with anything that burns.  ",
-			"**Prerequisites:** Goblin.  ",
+			"**Prerequisites:** {race/Goblin}.  ",
 			"**Benefit:** You can wield a torch as a weapon without taking the nonproficient penalty and gain a +1 bonus on attack rolls with melee weapons that deal fire damage.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -763,7 +763,7 @@
 			"{SOURCE Mythic Adventures/65}",
 			"",
 			"You masterfully weave the ancient melodies of fire into your spells.  ",
-			"**Prerequisites:** {feat/Fire Music}.  ",
+			"**Prerequisites:** Fire Music.  ",
 			"**Benefit:** When you use Fire Music to change any of the damage dealt by a bard spell to fire damage, that damage ignores fire resistance up to your tier.",
 			"",
 			"If you cast summon monster as a bard spell and choose to give the summoned creature a fiery appearance, increase its fire resistance by 5 (adding to the resistance already granted by Fire Music) and add 1d4 points of fire damage to all of its natural attacks instead of the +1 fire damage normally granted by Fire Music. Creatures with the fire subtype also gain these benefits."
@@ -778,7 +778,7 @@
 			"{SOURCE Advanced Race Guide/118}",
 			"",
 			"You know your way around even magical fire.  ",
-			"**Prerequisites:** Goblin.  ",
+			"**Prerequisites:** {race/Goblin}.  ",
 			"**Benefit:** You gain a +2 bonus on saves against spells with the fire descriptor. Additionally, your scars mark you as a talented fire tamer, granting you a +2 circumstance bonus on Diplomacy and Intimidate checks when dealing with other goblins."
 		]
 	},
@@ -805,7 +805,7 @@
 			"{SOURCE Advanced Race Guide/130}",
 			"",
 			"Fire no longer blinds you, and smoke conceals nothing from your gaze.  ",
-			"**Prerequisites:** Ifrit.  ",
+			"**Prerequisites:** {race/Ifrit}.  ",
 			"**Benefit:** You can see through fire and smoke without penalty, ignoring any cover or concealment bonuses from fire and smoke. This does not allow you to see anything you could not otherwise see (for example, invisible creatures are still invisible). You are immune to the dazzled condition."
 		]
 	},
@@ -853,7 +853,7 @@
 			"{SOURCE Inner Sea Gods/212}",
 			"",
 			"You have learned to ignore the effects of pain through long years of exposure to it.  ",
-			"**Prerequisites:** {feat/Endurance}, character level 7th, worshiper of Zon-Kuthon.  ",
+			"**Prerequisites:** {feat/Endurance}, character level 7th, worshiper of {faith/Zon-Kuthon}.  ",
 			"**Benefit:** You gain a +4 bonus on saving throws against pain effects. Also, you suffer no adverse effect when your nonlethal damage equals your current hit points, and you become staggered when your nonlethal damage exceeds your current hit points. You never fall unconscious due to nonlethal damage.  ",
 			"**Normal:** When your nonlethal damage equals your current hit points, you become staggered. When your nonlethal damage exceeds your current hit points, you fall unconscious."
 		]
@@ -880,7 +880,7 @@
 			"{SOURCE Advanced Race Guide/118}",
 			"",
 			"You have mastered fire magic and alchemy.  ",
-			"**Prerequisites:** {feat/Fire Tamer}, character level 5th, goblin.  ",
+			"**Prerequisites:** {feat/Fire Tamer}, character level 5th, {race/goblin}.  ",
 			"**Benefit:** You gain fire resistance 5. When casting spells with the fire descriptor or throwing alchemist bombs that deal fire damage, treat your caster level or alchemist level as if you were 1 level higher."
 		]
 	},
@@ -962,7 +962,7 @@
 			"{SOURCE Mythic Adventures/65}",
 			"",
 			"You're fantastically light on your feet.  ",
-			"**Prerequisites:** {feat/Fleet}.  ",
+			"**Prerequisites:** Fleet.  ",
 			"**Benefit:** Your base land speed increases by 5 feet, regardless of what armor you wear or whether you're encumbered. This bonus stacks with the bonus gained from Fleet.  ",
 			"**Special:** You can take this feat multiple times, but no more than the number of times you've taken non-mythic Fleet. The effects stack."
 		]
@@ -1126,7 +1126,7 @@
 			"{SOURCE Inner Sea Races/206}",
 			"",
 			"You can spontaneously channel your ally's elemental essence, be it burning fire, freezing ice, crackling lightning, or searing acid.  ",
-			"**Prerequisites:** Ability to cast spells; ifrit, oread, sylph, or undine.  ",
+			"**Prerequisites:** Ability to cast spells; {race/ifrit}, {race/oread}, {race/sylph}, or {race/undine}.  ",
 			"**Benefit:** Whenever you're adjacent to an ifrit, oread, sylph, or undine ally who also has this feat, you can spontaneously replace or split a spell's damage when casting it, as though the spell were affected by Elemental Spell (without using a higher-level spell slot). The type of energy damage depends on your ally's race: acid for oread, electricity for sylph, fire for ifrit, or cold for undine."
 		]
 	},
@@ -1514,7 +1514,7 @@
 			"**Goal:** Slay an appropriate number of challenging foes.  ",
 			"**Completion Benefit:** You gain the benefits of the Improved Critical feat on attacks made against members of your chosen race. Your dodge bonus to AC against such foes increases to +2.",
 			"",
-			"Suggested Traits: {trait/Dirty Fighter (APG)}, {trait/Sworn Enemy}, {trait/Vengeful (Combat)}.",
+			"*Suggested Traits:* {trait/Dirty Fighter (APG)}, {trait/Sworn Enemy}, {trait/Vengeful (Combat)}.",
 			"",
 			"### Possible Foeslayer Quests",
 			"",
@@ -1574,7 +1574,7 @@
 			"{SOURCE Advanced Race Guide/141}",
 			"",
 			"You can unleash a wave of energy that drives orcs into a frenzy.  ",
-			"**Prerequisites:** Channel energy class feature, orc.  ",
+			"**Prerequisites:** {ability/Channel energy} class feature, {race/orc}.  ",
 			"**Benefit:** When you channel energy, instead of creating its normal effect, you can give orcs a bonus on weapon damage and critical hit confirmation rolls until your next turn. This bonus is equal to the number of dice your channeled energy normally heals or harms. Your channel has its normal effect on other creatures in the area."
 		]
 	},
@@ -1638,7 +1638,7 @@
 			"{SOURCE Inner Sea Gods/212}",
 			"",
 			"Calling on the destructive aspect of Nethys, you channel pure force.  ",
-			"**Prerequisites:** Channel negative energy 7d6, worshiper of Nethys.  ",
+			"**Prerequisites:** {ability/Channel negative energy} 7d6, worshiper of {faith/Nethys}.  ",
 			"**Benefit:** Once per day when you channel negative energy to deal damage to living creatures, you can cause affected creatures to make Fortitude saves instead of Will saves. Affected creatures take the amount of damage channeled in force damage (a successful save halves). Creatures that fail their saves are also knocked prone."
 		]
 	},
@@ -1768,7 +1768,7 @@
 			"{SOURCE Advanced Race Guide/77}",
 			"",
 			"You can figure out how to do almost anything.  ",
-			"**Prerequisites:** Int 13, {feat/Fast Learner}, human.  ",
+			"**Prerequisites:** Int 13, {feat/Fast Learner}, {race/human}.  ",
 			"**Benefit:** You gain a +2 bonus on all skill checks for skills you have no ranks in. Furthermore, you can use all skills designated \"trained only\" untrained."
 		]
 	},
@@ -2010,7 +2010,7 @@
 			"{SOURCE Advanced Race Guide/77}",
 			"",
 			"Others are often dumfounded by your luck.  ",
-			"**Prerequisites:** {feat/Defiant Luck}, human.  ",
+			"**Prerequisites:** {feat/Defiant Luck}, {race/human}.  ",
 			"**Benefit:** Once per day, as a free action before a roll is made, you gain a +8 bonus on any single d20 roll. You can also use this ability after the roll is made, but if you do, this bonus is reduced to +4."
 		]
 	},
@@ -2123,7 +2123,7 @@
 			"{SOURCE Advanced Race Guide/159}",
 			"",
 			"Your body is suffused with elemental air that provides for all your respiratory needs.  ",
-			"**Prerequisites:** Character level 11th, sylph.  ",
+			"**Prerequisites:** Character level 11th, {race/sylph}.  ",
 			"**Benefit:** You no longer need to breathe. You are immune to effects that require breathing (such as inhaled poison). This does not give you immunity to cloud or gas attacks that do not require breathing, such as cloudkill."
 		]
 	},
@@ -2139,7 +2139,7 @@
 			"{SOURCE Advanced Race Guide/130}",
 			"",
 			"Your body generates so much heat that your mere touch scorches your enemies.  ",
-			"**Prerequisites:** {feat/Scorching Weapons}, character level 7th, ifrit.  ",
+			"**Prerequisites:** {feat/Scorching Weapons}, character level 7th, {race/ifrit}.  ",
 			"**Benefit:** Your bonus on saves against fire attacks and spells with the fire descriptor or light descriptor increases to +4. When you use Scorching Weapons, the affected weapons deal an additional 1d6 points of fire damage instead of 1, and when you are grappling, you deal this damage to your grappling opponent on your turn.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -2157,7 +2157,7 @@
 			"{SOURCE Blood of Angels/25}",
 			"",
 			"Even when your innate powers over light fail you, you and your allies prove vigilant against dark forces, fighting until the end.  ",
-			"**Prerequisites:** Aasimar, daylight spell-like ability.  ",
+			"**Prerequisites:** {race/Aasimar}, daylight spell-like ability.  ",
 			"**Benefit:** Whenever you cast your daylight spell-like ability, you do so as if your caster level were one higher. Whenever an enemy successfully counters or dispels your daylight spell-like ability, you and any allies within a 20-foot radius gain darkvision 60 feet for a number of rounds equal to your character level. This is a supernatural effect."
 		]
 	},
@@ -2327,7 +2327,7 @@
 			"{SOURCE Advanced Race Guide/88}",
 			"",
 			"Your heavenly light can be used in a variety of ways.  ",
-			"**Prerequisites:** Aasimar, daylight spell-like ability, sufficiently high level (see below).  ",
+			"**Prerequisites:** {race/Aasimar}, daylight spell-like ability, sufficiently high level (see below).  ",
 			"**Benefit:** You gain one additional use per day of daylight. Choose one spell from the table below; by expending a use of daylight, you may use this spell as a spell-like ability. To select a spell, you must meet the minimum character level for its listing in the table. The save DC for this spell is Charisma-based.",
 			"",
 			"| Spell-Like Ability | Minimum Character Level |",
@@ -2459,7 +2459,7 @@
 			"{SOURCE Inner Sea Gods/212}",
 			"",
 			"You can channel the shackles of Hell onto your foes.  ",
-			"**Prerequisites:** Channel energy 5d6; worshiper of an archdevil, infernal duke, malbranche, or whore queen.  ",
+			"**Prerequisites:** {ability/Channel energy} 5d6; worshiper of an archdevil, infernal duke, malbranche, or whore queen.  ",
 			"**Benefit:** Once per day when you channel negative energy to damage living creatures, you can attempt to affect damaged creatures with a dimensional anchor. Those damaged must make a successful Will save (DC equal to the DC of the channel effect) in addition to the normal Will save to halve damage from the channeled energy. Those that fail their save against the channeled energy take a -4 penalty on their saving throw against the dimensional anchor effect. Those that fail their second Will save are affected by dimensional anchor for a number of minutes equal to your Charisma modifier (minimum 1 minute)."
 		]
 	},
@@ -2533,7 +2533,7 @@
 			"{SOURCE Gnomes of Golarion/31}",
 			"",
 			"You can talk your way out of most restraints.  ",
-			"**Prerequisites:** Bluff 5 ranks, Escape Artist 1 rank, gnome.  ",
+			"**Prerequisites:** Bluff 5 ranks, Escape Artist 1 rank, {race/gnome}.  ",
 			"**Benefit:** When you are restrained or imprisoned, you can make a Bluff check against any one creature within 30 feet in which you emphasize both your own harmlessness and the pain or inconvenience of your current condition. If the creature knows you are dangerous, it adds a +4 bonus to its Sense Motive check. If you win the check, the target does something intended to make you a little more comfortable - or at least shut you up - that gives you a +5 bonus on your next Escape Artist check.  ",
 			"**Special:** At the GM's discretion, an especially evil or cruel creature may gain a +2 bonus to its Sense Motive check to resist this ability. If it succeeds, it does something to make your bindings even more secure and less comfortable, giving you a -5 penalty on all Escape Artist checks made in those particular bonds."
 		]
@@ -2547,7 +2547,7 @@
 			"{SOURCE Potions and Poisons/5}",
 			"",
 			"Your venom destroys blood vessels and melts bone.  ",
-			"**Prerequisites:** {feat/Spit Venom}, {feat/Virulent Venom}, base attack bonus +7, nagaji.  ",
+			"**Prerequisites:** {feat/Spit Venom}, {feat/Virulent Venom}, base attack bonus +7, {race/nagaji}.  ",
 			"**Benefit:** Your ability to spit poison granted by the Spit Venom feat deals 2d6 points of bleed damage on a failed saving throw in addition to all other effects. The bleeding can be stopped as normal with a successful DC 15 Heal check or the application of any effect that heals hit point damage. In addition, you gain one additional use per day of the ability to spit poison granted by the Spit Venom feat."
 		]
 	},
@@ -2601,7 +2601,7 @@
 			"{SOURCE Mythic Adventures/66}",
 			"",
 			"You ignore harmful effects that would bring others down.  ",
-			"**Prerequisites:** {feat/Heroic Defiance}.  ",
+			"**Prerequisites:** Heroic Defiance.  ",
 			"**Benefit:** Once per day as an immediate action, you can attempt to negate the onset of one harmful condition or affliction (such as panicked, paralyzed, stunned, and so on) that allowed a saving throw for its onset, not including permanent and instantaneous conditions. When you do so, attempt a Will saving throw with a bonus equal to your tier against the original DC of the effect. If you succeed, the condition is negated. If you fail, the onset is delayed until the end of your next turn, after which it takes its normal effect. This feat has no effect on hit point damage or ability damage.",
 			"",
 			"This effect is separate from the use of non-mythic Heroic Defiance."
@@ -2661,7 +2661,7 @@
 			"{SOURCE Mythic Adventures/66}",
 			"",
 			"You can shrug off the effects of harmful conditions after they've taken effect.  ",
-			"**Prerequisites:** {feat/Heroic Recovery}.  ",
+			"**Prerequisites:** Heroic Recovery.  ",
 			"**Benefit:** As a swift action, you can expend one use of mythic power to use Heroic Recovery additional times. Whenever you do, add your tier to the result of the Fortitude save."
 		]
 	},
@@ -2674,7 +2674,7 @@
 			"{SOURCE Advanced Race Guide/77}",
 			"",
 			"Your indomitable will breaks free from mental shackles.  ",
-			"**Prerequisites:** {feat/Iron Will}, base Will save +4, human.  ",
+			"**Prerequisites:** {feat/Iron Will}, base Will save +4, {race/human}.  ",
 			"**Benefit:** Once per day as a standard action, you may attempt a new saving throw against a harmful condition requiring a Will save that is affecting you. If you are dominated, controlled, or cannot take an action because of the effect against which you are trying to make a new saving throw, you can make this saving throw at the start of the turn as no action, but on a success, your turn ends. You cannot use this feat to remove instantaneous effects, effects that do not require a Will save, or effects that do not allow a saving throw."
 		]
 	},
@@ -2770,7 +2770,7 @@
 			"{SOURCE Inner Sea Races/206}",
 			"",
 			"With the help of your fellow scholars, you can cast higher forms of magic, enhancing your spells by drawing upon their magical reserves rather than your own.  ",
-			"**Prerequisites:** Any metamagic feat, Spellcraft 7 ranks, ability to cast 2nd-level spells, human (Garundi).  ",
+			"**Prerequisites:** Any metamagic feat, Spellcraft 7 ranks, ability to cast 2nd-level spells, {race/human} (Garundi).  ",
 			"**Benefit:** With the help of allies who also have this feat, you can spontaneously apply metamagic feats to your spells without using a higher-level slot or increasing the casting time. Each ally must ready an action to cast the same spell you intend to cast. For each other ally within 30 feet who does so, you reduce the cost of the spontaneous metamagic feat by 1 level (to a minimum of 0, and you must have at least one ally assist you, even if the metamagic feat is normally a +0 adjustment). The allies don't need to have the metamagic feat you choose to apply, and the effective level of the spell (after applying the metamagic feat) can't be higher than the highest level of spells you can cast. Lastly, when you use this ability, the spell each ally readies is lost, as if they had cast that spell."
 		]
 	},
@@ -2891,7 +2891,7 @@
 			"{SOURCE Advanced Race Guide/57}",
 			"",
 			"When you charge with an ally, you are more deadly.  ",
-			"**Prerequisites:** Base attack bonus +1, half-orc or orc.  ",
+			"**Prerequisites:** Base attack bonus +1, {race/half-orc} or {race/orc}.  ",
 			"**Benefit:** When charging during the same round as an ally with this feat, you gain a +2 bonus on attack and damage rolls in addition to the normal bonus for charging. If you can make multiple attacks on a charge, this bonus only applies to the first attack."
 		]
 	},
@@ -3039,7 +3039,7 @@
 			"{SOURCE Advanced Race Guide/47}",
 			"",
 			"Your blood burns with the passion and unyielding quest for self-improvement displayed so prominently by your human relatives.  ",
-			"**Prerequisites:** Half-elf.  ",
+			"**Prerequisites:** {race/Half-elf}.  ",
 			"**Benefit:** You receive 1 bonus skill rank. Whenever you gain another Hit Die, you gain an additional skill rank. You cannot gain more than four skill ranks in this way.  ",
 			"**Special:** You can only take this feat at 1st level. If you take this feat, you cannot take the Elven Spirit feat."
 		]
@@ -3053,7 +3053,7 @@
 			"{SOURCE Inner Sea Gods/213}",
 			"",
 			"You viciously hunt and sacrifice metallic dragons.  ",
-			"**Prerequisites:** {ability/Favored enemy} (dragon), worshiper of Dahak.  ",
+			"**Prerequisites:** {ability/Favored enemy} (dragon), worshiper of {faith/Dahak}.  ",
 			"**Benefit:** Your favored enemy bonuses increase by 2 against metallic dragons."
 		]
 	},
@@ -3066,7 +3066,7 @@
 			"{SOURCE Advanced Race Guide/77}",
 			"",
 			"You are an expert trainer of horses, hounds, falcons, or hunting cats.  ",
-			"**Prerequisites:** Handle Animal 1 rank; either the animal companion, divine bond (mount), or mount class feature; human.  ",
+			"**Prerequisites:** Handle Animal 1 rank; either the animal companion, divine bond (mount), or mount class feature; {race/human}.  ",
 			"**Benefit:** If you have the animal companion class feature, pick one of the following types of animal companions that this feat affects: bird, dog, small cat, or horse. If you have the divine bond (mount) or mount class feature, this feat always affects horses.",
 			"",
 			"You gain a +2 bonus on Handle Animal and Knowledge (nature) checks with creatures of that type of animal. Furthermore, you are treated as one level higher when determining the abilities of your animal companion or mount, as long as it is of the chosen type."
@@ -3107,7 +3107,7 @@
 			"{SOURCE Advanced Race Guide/177}",
 			"",
 			"You can use your hydraulic push to disarm or trip.  ",
-			"**Prerequisites:** Hydraulic push spell-like ability, undine.  ",
+			"**Prerequisites:** Hydraulic push spell-like ability, {race/undine}.  ",
 			"**Benefit:** You may use hydraulic push to attempt a bull rush, disarm, dirty trick, or trip combat maneuver. Each time you use hydraulic push, you must decide which of the allowed combat maneuvers you want to perform. You may use this feat with your hydraulic push racial spell-like ability, your class-granted use of hydraulic push, or any hydraulic push spells you cast, but not with magic items or other external sources that use that spell.  ",
 			"**Normal:** Hydraulic push can only be used to make a bull rush combat maneuver."
 		]
@@ -3121,7 +3121,7 @@
 			"{SOURCE Legacy of the First World/8}",
 			"",
 			"You can change your wings to instead be effective underwater.  ",
-			"**Prerequisites:** Gathlain, racial fly speed.  ",
+			"**Prerequisites:** {race/Gathlain}, racial fly speed.  ",
 			"**Benefit:** Once per day as a full-round action, you can lose your fly speed to gain a swim speed of 30 feet as you reconfigure your symbiotic vines to help you move underwater. This effect lasts for 1 hour, or until you end it as a full-round action."
 		]
 	},
@@ -3444,7 +3444,7 @@
 			"{SOURCE Mythic Adventures/69}",
 			"",
 			"Every new experience carries you another step further along your path to enlightenment.  ",
-			"**Prerequisites:** {feat/Monastic Legacy}.  ",
+			"**Prerequisites:** Monastic Legacy.  ",
 			"**Benefit:** Add half the levels you have in classes other than monk to your monk level to determine your effective monk level for your AC bonus. As a free action, you can expend one use of mythic power to add half your tier to your effective monk level to determine your base unarmed strike damage and AC bonus until the start of your next turn."
 		]
 	},
@@ -3632,7 +3632,7 @@
 			"{SOURCE Blood of Fiends/25;Pathfinder #25: The Bastards of Erebus/66}",
 			"",
 			"Your fiendish physical traits give you a twisted and fearsome appearance that strikes fear into others' hearts.  ",
-			"**Prerequisites:** Tiefling, must be taken at 1st level.  ",
+			"**Prerequisites:** {race/Tiefling}, must be taken at 1st level.  ",
 			"**Benefit:** You get a +5 racial bonus on Intimidate checks made against all creatures of the humanoid type."
 		]
 	},
@@ -3804,7 +3804,7 @@
 			"{SOURCE Advanced Race Guide/185}",
 			"",
 			"You inherit a special boon from your hag parent.  ",
-			"**Prerequisites:** Changeling.  ",
+			"**Prerequisites:** {race/Changeling}.  ",
 			"**Benefit:** Your dark legacy manifests in one of the following ways. You choose the manifestation when you choose the feat, and once selected it cannot be changed.",
 			"",
 			">*Hag Claws (Ex):* You gain a +1 bonus on attack and damage rolls with your claws.",
@@ -3906,7 +3906,7 @@
 			"{SOURCE Mythic Adventures/69}",
 			"",
 			"Your skill as a rider allows you to take cover and shoot with amazing accuracy.  ",
-			"**Prerequisites:** {feat/Mounted Archery}.  ",
+			"**Prerequisites:** Mounted Archery.  ",
 			"**Benefit:** When using the Ride skill to use your mount as cover, you can still make a single ranged weapon attack as a standard action. While your mount is moving, you can expend one use of mythic power to negate the penalties for making ranged weapon attacks while mounted until the beginning of your next turn."
 		]
 	},
@@ -3953,7 +3953,7 @@
 			"{SOURCE Mythic Adventures/70}",
 			"",
 			"Your ability to maneuver a mount through the rigors of combat is nearly unparalleled.  ",
-			"**Prerequisites:** {feat/Mounted Combat}.  ",
+			"**Prerequisites:** Mounted Combat.  ",
 			"**Benefit:** You can negate an additional number of hits against your mount per round equal to your tier. Once per round as an immediate action, you can expend one use of mythic power to substitute a Ride check for a single Reflex saving throw your mount must make."
 		]
 	},
@@ -4066,7 +4066,7 @@
 			"{SOURCE Advanced Race Guide/47}",
 			"",
 			"You are adept at numerous disciplines.  ",
-			"**Prerequisites:** Character level 5th, half-elf, multitalented racial trait.  ",
+			"**Prerequisites:** Character level 5th, {race/half-elf}, multitalented racial trait.  ",
 			"**Benefit:** All of your classes are considered favored classes. You gain either +1 hit point or +1 skill point whenever you take a level in any class. Apply these bonuses retroactively for all class levels that have not yet gained one of these bonuses.  ",
 			"**Normal:** Half-elves with the multitalented racial trait have two favored classes."
 		]
@@ -4167,7 +4167,7 @@
 			"{SOURCE Advanced Race Guide/147}",
 			"",
 			"The earth opens up her secrets to your perceptions.  ",
-			"**Prerequisites:** {feat/Echoes of Stone}, character level 9th, oread.  ",
+			"**Prerequisites:** {feat/Echoes of Stone}, character level 9th, {race/oread}.  ",
 			"**Benefit:** You gain a limited form of tremorsense. As a move action, you become aware of all creatures within 15 feet that are in contact with the ground at that moment."
 		]
 	},
@@ -4557,7 +4557,7 @@
 			"{SOURCE Mythic Adventures/70}",
 			"",
 			"You can speak and use some magic items when you use wild shape.  ",
-			"**Prerequisites:** {feat/Natural Spell}.  ",
+			"**Prerequisites:** Natural Spell.  ",
 			"**Benefit:** When you're using wild shape, you can use spell completion and spell trigger magic items that were on your person when you changed form. You don't need to physically manipulate the items when you use them while using wild shape. Furthermore, you can speak normally when using wild shape."
 		]
 	},
@@ -4595,7 +4595,7 @@
 			"{SOURCE Ultimate Wilderness/116}",
 			"",
 			"Creatures affected by your channel energy are not affected by difficult terrain.  ",
-			"**Prerequisites:** Animal or Plant domain; channel energy class feature.  ",
+			"**Prerequisites:** Animal or Plant domain; {ability/channel energy} class feature.  ",
 			"**Benefit:** When you expend one additional use when you channel energy, you enable affected creatures to move freely through undergrowth as per the druid's woodland stride class feature. This effect lasts a for number of minutes equal to your Charisma modifier (minimum 1). Multiple uses of this feat extend the duration of the woodland stride effect."
 		]
 	},
@@ -4681,7 +4681,7 @@
 			"{SOURCE Advanced Race Guide/47}",
 			"",
 			"You have removed yourself from your heritage so thoroughly that even magic does not recognize you.  ",
-			"**Prerequisites:** {feat/Exile's Path}, {feat/Seen and Unseen}, character level 11th, half-elf.  ",
+			"**Prerequisites:** {feat/Exile's Path}, {feat/Seen and Unseen}, character level 11th, {race/half-elf}.  ",
 			"**Benefit:** You are not considered elven or human for the purpose of harmful spells or effects based on your type, like a {magic-enh/bane} weapon or a ranger's {ability/favored enemy} class feature."
 		]
 	},
@@ -4903,7 +4903,7 @@
 			"{SOURCE Inner Sea Gods/214}",
 			"",
 			"You bear scars in honor of Lamashtu, whether because you injured yourself in her name or because she saw fit to bless you with them.  ",
-			"**Prerequisites:** Worshiper of Lamashtu.  ",
+			"**Prerequisites:** Worshiper of {faith/Lamashtu}.  ",
 			"**Benefit:** You gain a +2 bonus on Diplomacy and Handle Animal checks to affect the attitudes of magical beasts, monstrous humanoids, and worshipers of Lamashtu. You take a -2 penalty on Diplomacy and Handle Animal checks to affect the attitudes of all other types of creatures. You also gain a +2 bonus on Intimidate checks, and take no penalty on Intimidate checks based on your size."
 		]
 	},
@@ -4970,7 +4970,7 @@
 			"{SOURCE Mythic Adventures/70}",
 			"",
 			"You dance across obstacles with ease, as though they weren't even there.  ",
-			"**Prerequisites:** {feat/Nimble Moves}.  ",
+			"**Prerequisites:** Nimble Moves.  ",
 			"**Benefit:** For every 2 tiers you possess, you can move through up to 5 feet of difficult terrain each round as if it were normal terrain (minimum 5 feet). This effect stacks with those provided by Nimble Moves and Acrobatic Steps."
 		]
 	},
@@ -5002,7 +5002,7 @@
 			"{SOURCE Advanced Race Guide/94}",
 			"",
 			"You were born to charge your enemies and nobody does it better.  ",
-			"**Prerequisites:** Dex 13, base attack bonus +1, catfolk, sprinter racial trait.  ",
+			"**Prerequisites:** Dex 13, base attack bonus +1, {race/catfolk}, sprinter racial trait.  ",
 			"**Benefit:** You do not take a -2 penalty to AC when you use the {feat/Cleave} feat, {feat/Lunge} feat, or when you charge.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",

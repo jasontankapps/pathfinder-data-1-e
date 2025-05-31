@@ -99,7 +99,7 @@
 			"{SOURCE Mythic Adventures/77}",
 			"",
 			"You're an expert with weapons that rely on your agility.  ",
-			"**Prerequisites:** {feat/Weapon Finesse}.  ",
+			"**Prerequisites:** Weapon Finesse.  ",
 			"**Benefit:** When using Weapon Finesse, you may also use your Dexterity modifier instead of your Strength modifier on your damage rolls. If you carry a shield, its armor check penalty doesn't apply to either the attack rolls or the damage rolls."
 		]
 	},
@@ -130,7 +130,7 @@
 			"{SOURCE Mythic Adventures/77}",
 			"",
 			"You're a master of one type of weapon.  ",
-			"**Prerequisites:** {feat/Weapon Focus}.  ",
+			"**Prerequisites:** Weapon Focus.  ",
 			"**Benefit:** Double the bonuses on your attack rolls from Weapon Focus and {feat/Greater Weapon Focus}. As a swift action, you can expend one use of mythic power to gain a bonus on attack rolls with your selected weapon equal to half your tier until the end of your turn.  ",
 			"**Special:** If you have taken non-mythic Weapon Focus multiple times, you must choose which of those feats this enhances. You can take this feat multiple times. The effects do not stack. Each time you take this feat, it applies to a different non-mythic Weapon Focus feat you have."
 		]
@@ -227,7 +227,7 @@
 			"{SOURCE Mythic Adventures/77}",
 			"",
 			"The damage you deal with your chosen weapon is truly awesome to behold.  ",
-			"**Prerequisites:** {feat/Weapon Specialization}.  ",
+			"**Prerequisites:** Weapon Specialization.  ",
 			"**Benefit:** When using your chosen weapon, you gain a bonus equal to half your tier on damage rolls. This stacks with the bonus from Weapon Specialization and {feat/Greater Weapon Specialization}.  ",
 			"**Special:** If you have taken non-mythic Weapon Specialization multiple times, you must choose which of those feats this enhances. You can take this feat multiple times. The effects do not stack. Each time you take this feat, it applies to a different non-mythic Weapon Specialization feat you have."
 		]
@@ -396,7 +396,7 @@
 			"{SOURCE Faiths of Corruption/25}",
 			"",
 			"Your appreciation of pain grants you great stamina.  ",
-			"**Prerequisites:** {feat/Iron Will}, worshiper of Zon-Kuthon.  ",
+			"**Prerequisites:** {feat/Iron Will}, worshiper of {faith/Zon-Kuthon}.  ",
 			"**Benefit:** Whenever you would be reduced to 0 or fewer hit points because of an ongoing or repeating damage effect (such as bleed), you may make a last-ditch effort to shed the condition. If you succeed at a DC 25 Will save, you ignore the damage that would reduce you to 0 or fewer hit points that turn. The DC of each subsequent save made in this manner increases by 1. In addition, spells or abilities that have the pain descriptor deal only half damage to you (if any)."
 		]
 	},
@@ -409,7 +409,7 @@
 			"{SOURCE Advanced Player's Guide/173}",
 			"",
 			"Somehow, you always seem to have the right tools or supplies close at hand.  ",
-			"**Prerequisites:** Halfling.  ",
+			"**Prerequisites:** {race/Halfling}.  ",
 			"**Benefit:** Once per day, when confronted with a situation that calls for a particular mundane item of equipment, you may make a Sleight of Hand check with a DC of 10 plus the item's cost in gold pieces to \"happen\" to have such an item on your person. For example, having a crowbar would be DC 12, whereas a flask of acid would be DC 20. The item must be something you can easily carry - if you are on foot and have only a backpack, for example, you could not have a large iron cauldron. You cannot have magical items using this feat, nor can you have specific items, such as the key to a particular door. If you are stripped of your equipment or possessions, you lose the benefits of this feat until you have at least a day to resupply and \"acquire\" new items. You must pay for these items normally.  ",
 			"**Special:** At the GM's option, a character can substitute the Survival skill for Sleight of Hand with this feat. Such a choice is permanent."
 		]
@@ -571,7 +571,7 @@
 			"{SOURCE Blood of Fiends/25}",
 			"",
 			"The fiendish blood that courses through your body causes your wounds to heal faster than usual.  ",
-			"**Prerequisites:** Con 15, {feat/Diehard}, {feat/Endurance}, tiefling.  ",
+			"**Prerequisites:** Con 15, {feat/Diehard}, {feat/Endurance}, {race/tiefling}.  ",
 			"**Benefit:** When you regain hit points by resting, you heal double the normal amount of damage. This feat does not stack with items or effects that also affect the amount of damage you recover from while resting. This feat only functions with a full night's rest; complete bed rest is not affected by this feat."
 		]
 	},
@@ -612,7 +612,7 @@
 			"{SOURCE Ultimate Wilderness/119}",
 			"",
 			"When you channel positive energy, you cause vines to grow and ensnare enemies.  ",
-			"**Prerequisites:** Channel positive energy class feature, Plant domain.  ",
+			"**Prerequisites:** {ability/Channel positive energy} class feature, Plant domain.  ",
 			"**Benefit:** By expending two additional uses when you channel energy, you cause the ground in the area of effect to erupt in a growth of vines. You create a number of vine growths (AC 10, 5 hp) equal to your Charisma modifier (minimum 1). Each growth of vines occupies 1 5-foot square of your choosing. As an immediate action when you use this ability, and again as a free action at the start of your turn, you can command the vines to wrap around the legs of a creature occupying the square. The creature must succeed at a Reflex save (DC = 10 + half your class level + your Charisma modifier) or become rooted to the spot. The vines last a number of rounds equal to your Charisma modifier (minimum 1). The ground must be composed of a material able to support plant life (such as soil)."
 		]
 	},
@@ -638,7 +638,7 @@
 			"{SOURCE Legacy of the First World/6}",
 			"",
 			"The Bleaching enhances a gnome's ability to communicate with the natural world.  ",
-			"**Prerequisites:** Bleachling racial trait, gnome.  ",
+			"**Prerequisites:** Bleachling racial trait, {race/gnome}.  ",
 			"**Benefit:** You can use your speak with animals spell-like ability at will."
 		]
 	},
@@ -888,7 +888,7 @@
 			"{SOURCE Advanced Race Guide/159}",
 			"",
 			"The winds lift you, carrying you where you want to go.  ",
-			"**Prerequisites:** {feat/Airy Step}, character level 9th, sylph.  ",
+			"**Prerequisites:** {feat/Airy Step}, character level 9th, {race/sylph}.  ",
 			"**Benefit:** Your bonus on saves against effects with the air or electricity descriptors and effects that deal electricity damage increases to +4. In addition, you gain a supernatural fly speed equal to your base speed (good maneuverability). You may only fly with this ability when wearing light armor or no armor."
 		]
 	},
@@ -947,7 +947,7 @@
 			"{SOURCE Mythic Adventures/77}",
 			"",
 			"Your witch knife is as much an extension of your body as it is an extension of your power.  ",
-			"**Prerequisites:** {feat/Witch Knife}.  ",
+			"**Prerequisites:** Witch Knife.  ",
 			"**Benefit:** You can use your witch knife as an additional focus component for all your witch spells, not just your patron spells, adding 1 to their DC. This bonus stacks with the bonus to patron spells granted by Witch Knife, granting your patron spells a total +2 bonus to their DC. Additionally, the hand holding the witch knife is still considered free for the purpose of casting spells and delivering touch attacks."
 		]
 	},
@@ -976,7 +976,7 @@
 			"{SOURCE Gnomes of Golarion/31}",
 			"",
 			"Your blending of conversation and martial prowess makes it difficult for opponents to slip past your guard.  ",
-			"**Prerequisites:** Bluff 1 rank, weapon training class feature, gnome.  ",
+			"**Prerequisites:** Bluff 1 rank, weapon training class feature, {race/gnome}.  ",
 			"**Benefit:** When you successfully feint against an opponent in combat, instead of denying the opponent his Dexterity bonus, you may gain a dodge bonus to your AC against his attacks. This bonus is equal to your weapon training bonus for your current weapon. The bonus lasts until combat ends, you switch opponents, or you switch to a different weapon, whichever comes first."
 		]
 	},

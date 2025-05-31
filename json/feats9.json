@@ -45,7 +45,7 @@
 			"{SOURCE Inner Sea Gods/208}",
 			"",
 			"Imitating the forms of your god, you strike deep and inflict a bloody wound.  ",
-			"**Prerequisites:** Dex 15, {feat/Exotic Weapon Proficiency/ (sawtooth sabre)}, {feat/Two-Weapon Fighting}, worshiper of Achaekek.  ",
+			"**Prerequisites:** Dex 15, {feat/Exotic Weapon Proficiency/ (sawtooth sabre)}, {feat/Two-Weapon Fighting}, worshiper of {faith/Achaekek}.  ",
 			"**Benefit:** If you hit an opponent with both your primary weapon and your off-hand weapon as part of the same attack action, and both of those weapons are sawtooth sabres, you deal 1 point of bleed damage in addition to the normal damage dealt by these attacks.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -66,7 +66,7 @@
 			"{SOURCE Inner Sea Gods/208;Faiths of Balance/24}",
 			"",
 			"Your retaliatory strikes have long-lasting effects.  ",
-			"**Prerequisites:** Base attack bonus +1, worshiper of Calistria.  ",
+			"**Prerequisites:** Base attack bonus +1, worshiper of {faith/Calistria}.  ",
 			"**Benefit:** If an opponent within line of sight has damaged you within the last minute, you may study that opponent as a standard action. Thereafter, if you hit that opponent with a melee attack, you deal 1 point of bleed damage to that creature in addition to the normal damage dealt by your attack."
 		]
 	},
@@ -117,7 +117,7 @@
 			"{SOURCE Advanced Race Guide/66}",
 			"",
 			"Your feverish and sometimes comical defensive techniques offer enough distraction to aid allies.  ",
-			"**Prerequisites:** {feat/Cautious Fighter}, halfling.  ",
+			"**Prerequisites:** {feat/Cautious Fighter}, {race/halfling}.  ",
 			"**Benefit:** Whenever you fight defensively or use the total defense action, allies gain a luck bonus to AC and CMD equal to 1/2 the dodge bonus you gain from the action you are taking. Allies only gain this bonus while they are adjacent to you.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -308,7 +308,7 @@
 			"{SOURCE Inner Sea Gods/208}",
 			"",
 			"You can fortify undead against positive energy.  ",
-			"**Prerequisites:** Channel energy 6d6, worshiper of Urgathoa.  ",
+			"**Prerequisites:** {ability/Channel energy} 6d6, worshiper of {faith/Urgathoa}.  ",
 			"**Benefit:** Whenever you channel negative energy to heal undead creatures, you grant all undead you heal +1 channel resistance (or a +1 bonus to their existing channel resistance) for a number of rounds equal to your Charisma modifier (minimum 1 round)."
 		]
 	},
@@ -398,7 +398,7 @@
 			"{SOURCE Advanced Race Guide/141}",
 			"",
 			"You are so tough and vicious that you killed and ate the rest of your litter while still in the womb.  ",
-			"**Prerequisites:** Orc.  ",
+			"**Prerequisites:** {race/Orc}.  ",
 			"**Benefit:** Whenever you kill or knock unconscious an opponent with a melee attack, you gain temporary hit points equal to your Constitution bonus (minimum 1) until your next turn. These temporary hit points do not stack. You do not gain this bonus if the opponent is helpless or has less than half your Hit Dice."
 		]
 	},
@@ -593,7 +593,7 @@
 			"{SOURCE Divine Anthology/7}",
 			"",
 			"Sometimes the key to bravery is acting before you have time to be scared.  ",
-			"**Prerequisites:** Bravery class feature, worshiper of Cayden Cailean.  ",
+			"**Prerequisites:** Bravery class feature, worshiper of {faith/Cayden Cailean}.  ",
 			"**Benefit:** You can add the bonus from bravery to your initiative checks."
 		]
 	},
@@ -619,7 +619,7 @@
 			"{SOURCE Advanced Player's Guide/151}",
 			"",
 			"Although still young for your kind, you have a lifetime of knowledge and training.  ",
-			"**Prerequisites:** Dwarf, elf, or gnome; 100+ years old.  ",
+			"**Prerequisites:** {race/Dwarf}, {race/elf}, or {race/gnome}; 100+ years old.  ",
 			"**Benefit:** You get a +2 bonus on all Knowledge and Profession skill checks, and can make checks with those skills untrained."
 		]
 	},
@@ -653,7 +653,7 @@
 			"{SOURCE Inner Sea Gods/208}",
 			"",
 			"You see it as your sacred duty to destroy all obstacles.  ",
-			"**Prerequisites:** Str 17, worshiper of Rovagug.  ",
+			"**Prerequisites:** Str 17, worshiper of {faith/Rovagug}.  ",
 			"**Benefit:** You gain a +2 bonus on Strength checks to break down doors, walls, dams, and other barriers and on combat maneuver checks to bull rush and overrun opponents. You ignore the first 5 points of hardness when you deal damage to doors, walls, dams, and other barriers."
 		]
 	},
@@ -694,7 +694,7 @@
 			"{SOURCE Advanced Race Guide/17}",
 			"",
 			"You can concoct potent brews.  ",
-			"**Prerequisites:** Craft (alchemy) 1 rank, Profession (brewer) 1 rank, dwarf.  ",
+			"**Prerequisites:** Craft (alchemy) 1 rank, Profession (brewer) 1 rank, {race/dwarf}.  ",
 			"**Benefit:** You gain a +2 bonus on Craft (alchemy) and Profession (brewer) checks, and you add +1 to the DC of any ingested poison you create."
 		]
 	},
@@ -824,7 +824,7 @@
 			"{SOURCE Orcs of Golarion/24}",
 			"",
 			"When helping an ally grapple, you can damage the target.  ",
-			"**Prerequisites:** Half-orc or orc.  ",
+			"**Prerequisites:** {race/Half-orc} or {race/orc}.  ",
 			"**Benefit:** When you and an ally with this feat have grappled the same creature, you may attempt to damage the opponent on your turn (whether you were the one who first initiated the grapple or were assisting your ally in doing so). You and the ally are treated as aiding each other in the grapple (+2 bonus on your grapple combat maneuver) as long as you both decide to maintain the grapple.  ",
 			"**Normal:** When multiple creatures grapple one target, the creature that first initiates the grapple is the only one that makes a check to damage a grappled opponent, with a +2 bonus for each creature that assists the grapple using the {rule/Aid Another} action."
 		]
@@ -1048,7 +1048,7 @@
 			"{SOURCE Advanced Race Guide/141}",
 			"",
 			"With a simple hit, you more easily intimidate an opponent.  ",
-			"**Prerequisites:** Intimidate 1 rank, orc.  ",
+			"**Prerequisites:** Intimidate 1 rank, {race/orc}.  ",
 			"**Benefit:** As a standard action, you may make a melee attack with a -2 penalty on the attack roll. If the attack damages your opponent, you may make an Intimidate check to demoralize that opponent as a free action.  ",
 			"**Normal:** Intimidating an opponent is a standard action.",
 			"",
@@ -1067,7 +1067,7 @@
 			"{SOURCE Inner Sea Races/201}",
 			"",
 			"Burning torches and the discordant symphony of riotous singing ignite the fervor within you.  ",
-			"**Prerequisites:** Base attack bonus +1, goblin.  ",
+			"**Prerequisites:** Base attack bonus +1, {race/goblin}.  ",
 			"**Benefit:** Whenever you make an attack with a torch, a flask of lamp oil fitted with a fuse, alchemist's fire, or a flaming weapon, you gain a morale bonus on your damage roll equal to the number of goblin allies within 30 feet who also have this feat (maximum +4). This bonus damage is fire damage."
 		]
 	},
@@ -1083,7 +1083,7 @@
 			"{SOURCE Advanced Race Guide/118;Goblins of Golarion/24}",
 			"",
 			"You take the goblin love of arson and fire play to a whole new level.  ",
-			"**Prerequisites:** Disable Device 1 rank, goblin.  ",
+			"**Prerequisites:** Disable Device 1 rank, {race/goblin}.  ",
 			"**Benefit:** You deal an extra 1d4 points of fire damage when you attack with fire from an alchemical or nonmagical source (such as with alchemical fire or torches) and gain a +4 competence bonus on Reflex saving throws made to avoid catching on fire or to put yourself out when on fire. Additional damage caused by this feat does not apply to magical attacks (such as an alchemist's bomb) or to splash damage."
 		]
 	},
@@ -1133,7 +1133,7 @@
 			"{SOURCE Advanced Race Guide/154}",
 			"",
 			"You have teeth and claws that suit you well to digging.  ",
-			"**Prerequisites:** {feat/Sharpclaw}, {feat/Tunnel Rat}, ratfolk.  ",
+			"**Prerequisites:** {feat/Sharpclaw}, {feat/Tunnel Rat}, {race/ratfolk}.  ",
 			"**Benefit:** You gain a burrow speed equal to 1/2 your base speed. You can burrow through sand, dirt, clay, gravel, or similar materials, but not solid stone. You do not leave a hole behind, nor is your passage marked on the surface."
 		]
 	},
@@ -1176,7 +1176,7 @@
 			"{SOURCE Inner Sea Gods/208;Faiths of Purity/24}",
 			"",
 			"You can forgo a critical hit in order to pass it on to an ally.  ",
-			"**Prerequisites:** {feat/Combat Expertise}, worshiper of Desna.  ",
+			"**Prerequisites:** {feat/Combat Expertise}, worshiper of {faith/Desna}.  ",
 			"**Benefit:** When you confirm a critical hit against a creature, you can choose to forgo the effect of the critical hit and grant a critical hit to the next ally who hits that creature with a melee attack before the start of your next turn. Your attack only deals normal damage, and the next ally to hit the target automatically confirms the attack as a critical hit.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -1375,7 +1375,7 @@
 			"{SOURCE Advanced Race Guide/165}",
 			"",
 			"Like many scavengers, you can stomach foods that would make weaker creatures ill.  ",
-			"**Prerequisites:** Tengu.  ",
+			"**Prerequisites:** {race/Tengu}.  ",
 			"**Benefit:** You gain a +2 racial bonus on saving throws against diseases and ingested poisons (but not other poisons). You receive a +2 bonus on Survival skill checks to find food for yourself (and only yourself)."
 		]
 	},
@@ -1461,7 +1461,7 @@
 			"{SOURCE Advanced Race Guide/37}",
 			"",
 			"You can use your innate magic to create minor illusions that augment your efforts at trickery and deceit.  ",
-			"**Prerequisites:** Gnome, gnome magic racial trait.  ",
+			"**Prerequisites:** {race/Gnome}, gnome magic racial trait.  ",
 			"**Benefit:** As long as you have at least one spell-like ability unused from your gnome magic racial trait, you gain a +2 racial bonus on all Bluff, Disguise, and Sleight of Hand checks you make. At 10th level, these bonuses increase to +4.  ",
 			"**Special:** This feat counts as the Deceitful feat for the purposes of all prerequisites."
 		]
@@ -1519,7 +1519,7 @@
 			"{SOURCE Mythic Adventures/60}",
 			"",
 			"In your hands, anything is a deadly weapon.  ",
-			"**Prerequisites:** {feat/Catch Off-Guard}.  ",
+			"**Prerequisites:** Catch Off-Guard.  ",
 			"**Benefit:** The damage dealt when you use improvised weapons increases by your tier. You also gain a bonus to CMD equal to your tier when an opponent attempts to sunder or disarm an improvised weapon you're wielding."
 		]
 	},
@@ -1532,7 +1532,7 @@
 			"{SOURCE Advanced Race Guide/96}",
 			"",
 			"Your feline traits are more defined and prominent than those of other members of your race.  ",
-			"**Prerequisites:** Catfolk.  ",
+			"**Prerequisites:** {race/Catfolk}.  ",
 			"**Benefit:** You can take the Aspect of the Beast feat even if you do not meet the normal prerequisites. Furthermore, your cat-like nature manifests in one of the following ways. You choose the manifestation when you take this feat, and cannot change it later.",
 			"",
 			">*Enhanced Senses (Ex):* If you have low-light vision, you gain the scent catfolk racial trait. If you have the scent racial trait, you gain low-light vision.",
@@ -1567,7 +1567,7 @@
 			"{SOURCE Gnomes of Golarion/31}",
 			"",
 			"You know exactly how to insult your favored enemies in order to make them lose their heads.  ",
-			"**Prerequisites:** Bluff 1 rank, {ability/favored enemy} class feature, gnome.  ",
+			"**Prerequisites:** Bluff 1 rank, {ability/favored enemy} class feature, {race/gnome}.  ",
 			"**Benefit:** As a standard action, you can make a Bluff check against one sort of favored enemy. Any creature of that type within 60 feet of you must make a Will saving throw or become angered. If an affected creature attacks you, it's treated as if it were using {feat/Power Attack} (taking a penalty on attack rolls but gaining a bonus on damage rolls). If the creature already has the power attack feat, the attack penalty increases by 1 and the damage bonus increases by 2. These modifiers end when combat ends.",
 			"",
 			"This ability does not work on creatures that cannot understand you, though sometimes a simple gesture is sufficient for an intelligent opponent to catch your gist regardless of any language barrier."
@@ -1585,7 +1585,7 @@
 			"{SOURCE Advanced Race Guide/66}",
 			"",
 			"You care more about survival than victory.  ",
-			"**Prerequisites:** Halfling.  ",
+			"**Prerequisites:** {race/Halfling}.  ",
 			"**Benefit:** When fighting defensively or using total defense, your dodge bonus to AC increases by 2.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -1679,7 +1679,7 @@
 			"{SOURCE Advanced Race Guide/88}",
 			"",
 			"Rather than being a normal animal or beast, your companion or familiar hails from the heavenly realms.  ",
-			"**Prerequisites:** Aasimar, animal companion, familiar, or mount class feature.  ",
+			"**Prerequisites:** {race/Aasimar}, animal companion, familiar, or mount class feature.  ",
 			"**Benefit:** Your animal companion, familiar, or mount gains the celestial template and becomes a magical beast, though you may still treat it as an animal when using Handle Animal, wild empathy, or any other spells or class abilities that specifically affect animals."
 		]
 	},
@@ -2061,7 +2061,7 @@
 			"{SOURCE Planar Adventures/26}",
 			"",
 			"Rather than bringing forth positive or negative energy to heal allies or blast undead, you channel a fraction of your deity's power into yourself.  ",
-			"**Prerequisites:** {feat/Alignment Channel}, channel energy 5d6, domain class feature, same alignment as patron deity.  ",
+			"**Prerequisites:** {feat/Alignment Channel}, {ability/channel energy} 5d6, domain class feature, same alignment as patron deity.  ",
 			"**Benefit:** As a standard action, you can expend a use of channel energy to select a domain you have. You gain the ability associated with that domain from the invoke deity spell for a number of rounds equal to your number of channel energy dice. While this ability is active, taking actions directly opposed to your deity's teachings or alignment causes you to take the penalties listed in invoke deity and ends this effect. You can gain only one ability from this feat at a time, and its effects do not stack with invoke deity.",
 			"",
 			"If you instead expend two uses of channel energy, you can instead infuse a single willing target within 30 feet with deific essence. The target need not be a worshiper of your deity, but is subject to the same penalties if it takes actions directly opposed to your deity's teachings or alignment."
@@ -2076,7 +2076,7 @@
 			"{SOURCE Inner Sea Gods/208}",
 			"",
 			"You can focus the Abyss's power to sow discord among those who take damage from your channeled energy.  ",
-			"**Prerequisites:** Channel energy 8d6, worshiper of a demon lord.  ",
+			"**Prerequisites:** {ability/Channel energy} 8d6, worshiper of a demon lord.  ",
 			"**Benefit:** Once per day when you channel negative energy to harm living creatures, in addition to dealing damage you can choose to affect those who fail their Will save against your channel with a song of discord (caster level equal to your effective cleric level)."
 		]
 	},
@@ -2089,7 +2089,7 @@
 			"{SOURCE Inner Sea Gods/209}",
 			"",
 			"Calling upon the winds and the waves, you prepare your allies for the dangers of the natural world.  ",
-			"**Prerequisites:** Channel positive energy 3d6, worshiper of Gozreh.  ",
+			"**Prerequisites:** {ability/Channel positive energy} 3d6, worshiper of {faith/Gozreh}.  ",
 			"**Benefit:** Once per day when you channel positive energy to heal living creatures, you can choose to grant each healed creature the benefit of {spell/endure elements} (caster level equal to your effective cleric level). This effect lasts 24 hours."
 		]
 	},
@@ -2102,7 +2102,7 @@
 			"{SOURCE Advanced Race Guide/88}",
 			"",
 			"Your channel is bolstered by your faith, allowing you to move and damage your foes.  ",
-			"**Prerequisites:** Aasimar, channel energy 2d6.  ",
+			"**Prerequisites:** {race/Aasimar}, {ability/channel energy} 2d6.  ",
 			"**Benefit:** When you channel energy to deal damage, you may choose to affect only a single target within 30 feet. In addition to dealing damage, if that single target fails its saving throw, you may pull or push the target up to 5 feet for every 2d6 points of channel energy damage you are capable of dealing."
 		]
 	},
@@ -2115,7 +2115,7 @@
 			"{SOURCE Inner Sea Gods/209}",
 			"",
 			"You masterfully inspire in others violence toward those you hate.  ",
-			"**Prerequisites:** Channel energy 6d6, worshiper of Gyronna.  ",
+			"**Prerequisites:** {ability/Channel energy} 6d6, worshiper of {faith/Gyronna}.  ",
 			"**Benefit:** As a standard action, you can expend one use of your channel energy ability to affect a single creature within 30 feet as if you had cast vengeful outrage (caster level equal to your effective cleric level). Upon obtaining channel energy 9d6, you can affect a number of creatures within 30 feet equal to your Charisma bonus (minimum 2 creatures) with this feat instead. If you expend an extra use of channel energy when using this feat, the target does not gain a second saving throw against this effect if you designate the target's friend or loved one as its hated enemy."
 		]
 	},
@@ -2128,7 +2128,7 @@
 			"{SOURCE Ranged Tactics Toolbox/12}",
 			"",
 			"You can focus your channeled energy on a single target.  ",
-			"**Prerequisites:** Channel energy class feature.  ",
+			"**Prerequisites:** {ability/Channel energy} class feature.  ",
 			"**Benefit:** When you channel energy, you can project a ray from your holy symbol instead of creating a burst. You must succeed at a ranged touch attack to hit an unwilling target; your target is then affected by the channeled energy as normal and receives a saving throw. You need not make an attack roll to affect a willing creature with the ray. The ray has a range of 30 feet per channel energy die, and its save DC is increased by 2."
 		]
 	},
@@ -2145,7 +2145,7 @@
 			"{SOURCE PRPG Core Rulebook/119}",
 			"",
 			"You can channel your divine energy through a melee weapon you wield.  ",
-			"**Prerequisites:** Channel energy class feature.  ",
+			"**Prerequisites:** {ability/Channel energy} class feature.  ",
 			"**Benefit:** Before you make a melee attack roll, you can choose to spend one use of your channel energy ability as a swift action. If you channel positive energy and you hit an undead creature, that creature takes an amount of additional damage equal to the damage dealt by your channel positive energy ability. If you channel negative energy and you hit a living creature, that creature takes an amount of additional damage equal to the damage dealt by your channel negative energy ability. Your target can make a Will save, as normal, to halve this additional damage. If your attack misses, the channel energy ability is still expended with no effect.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -2158,7 +2158,7 @@
 			"{SOURCE Mythic Adventures/60}",
 			"",
 			"Your weapon a conduit of divine energy.  ",
-			"**Prerequisites:** {feat/Channel Smite}.  ",
+			"**Prerequisites:** Channel Smite.  ",
 			"**Benefit:** When using Channel Smite, you gain a bonus on your attack roll equal to the number of d6s granted by your channel energy class feature. This is either a sacred bonus (if channeling positive energy) or a profane bonus (if channeling negative energy). If your attack misses the target, you can expend one use of mythic power as a free action to release the channeled energy, producing the normal effects of your channel energy class feature centered on the creature you were attempting to smite."
 		]
 	},
@@ -2185,7 +2185,7 @@
 			"{SOURCE Cohorts and Companions/15}",
 			"",
 			"You are a mighty conduit of sacred or profane power.  ",
-			"**Prerequisites:** Channel energy or lay on hands class feature.  ",
+			"**Prerequisites:** {ability/Channel energy} or lay on hands class feature.  ",
 			"**Benefit:** When you channel energy or lay on hands, you may expend two uses of the ability as a full-round action to increase the amount of healing or damage you do by +50%."
 		]
 	},
@@ -2198,7 +2198,7 @@
 			"{SOURCE Inner Sea Gods/209}",
 			"",
 			"You can channel brutality into the weapons of your allies.  ",
-			"**Prerequisites:** Channel negative energy 4d6, worshiper of Gorum.  ",
+			"**Prerequisites:** {ability/Channel negative energy} 4d6, worshiper of {faith/Gorum}.  ",
 			"**Benefit:** As a standard action, you can expend one of your uses of channel energy to charge the melee weapons of all allies within 30 feet of you with negative energy. Affected melee weapons gain the vicious magic weapon special ability for 1 minute &times; your Charisma bonus (minimum 1 minute)."
 		]
 	},
@@ -2211,7 +2211,7 @@
 			"{SOURCE Advanced Class Guide/143}",
 			"",
 			"Your channeled energy can deliver a warpriest's blessing.  ",
-			"**Prerequisites:** Blessings class feature, channel energy class feature.  ",
+			"**Prerequisites:** Blessings class feature, {ability/channel energy} class feature.  ",
 			"**Benefit:** When you channel energy to heal, you can instead deliver a warpriest's blessing to a single willing creature (including yourself) in the area that otherwise would have been healed by your channeled energy. The blessing must be one that requires a standard action and affects one or more creatures. If the blessing would normally affect multiple targets, you affect only a single target. The target receives the blessing in place of the healing and any other effects of the channeled energy. (This application doesn't count toward your uses of blessings per day.)"
 		]
 	},
@@ -2224,7 +2224,7 @@
 			"{SOURCE Ultimate Combat/92}",
 			"",
 			"You can expend a large portion of your channeling power to reverse death itself.  ",
-			"**Prerequisites:** Channel energy 6d6 (positive energy).  ",
+			"**Prerequisites:** {ability/Channel energy} 6d6 (positive energy).  ",
 			"**Benefit:** As a full-round action that provokes attacks of opportunity, you can expend three uses of your channel energy class feature to restore a dead creature to life as if you had cast the breath of life spell."
 		]
 	},
@@ -2237,7 +2237,7 @@
 			"{SOURCE Ultimate Magic/143}",
 			"",
 			"You draw upon your channel energy to enhance the protective ability of your shield and those of allies while they are adjacent to you.  ",
-			"**Prerequisites:** Channel energy 3d6, proficiency with a shield.  ",
+			"**Prerequisites:** {ability/Channel energy} 3d6, proficiency with a shield.  ",
 			"**Benefit:** As a swift action, you can spend a use of your channel energy to grant yourself a +2 deflection bonus while using a shield. This bonus lasts 1 minute per cleric level or effective cleric level. While you benefit from this bonus, allies with shields also gain a +2 deflection bonus while they are adjacent to you."
 		]
 	},
@@ -2253,7 +2253,7 @@
 			"{SOURCE Advanced Class Guide/143}",
 			"",
 			"You distill your channeled energy into a sheen of force that surrounds your weapon for a limited time.  ",
-			"**Prerequisites:** Ability to cast at least one force spell, channel energy class feature.  ",
+			"**Prerequisites:** Ability to cast at least one force spell, {ability/channel energy} class feature.  ",
 			"**Benefit:** A swift action, you can expend one use of channel energy to grant your weapon attacks a bonus on damage rolls equal to the number of dice of your channel energy. This extra damage is force damage. This lasts for your next three weapon attacks or until the end of combat, whichever comes first.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -2271,7 +2271,7 @@
 			"{SOURCE Ultimate Combat/92}",
 			"",
 			"Your zeal for hunting your faith's enemies empowers your ability to channel divine energy, as long as you channel that energy for harm.  ",
-			"**Prerequisites:** Channel energy class feature, inquisitor level 1st.  ",
+			"**Prerequisites:** {ability/Channel energy} class feature, inquisitor level 1st.  ",
 			"**Benefit:** When you use channel energy to deal damage, your inquisitor levels count as cleric levels for determining the number of damage dice and the saving throw DC."
 		]
 	},
@@ -2284,7 +2284,7 @@
 			"{SOURCE Magic Tactics Toolbox/9}",
 			"",
 			"You alter your channeled energies based on your god's tenets.  ",
-			"**Prerequisites:** Domain class feature, channel energy class feature, must worship and receive spells from a deity.  ",
+			"**Prerequisites:** Domain class feature, {ability/channel energy} class feature, must worship and receive spells from a deity.  ",
 			"**Benefit:** Choose one variant channeling ability. The chosen ability must match one of your deity's domains, subdomains, or areas of concern. Three times per day when you channel energy, you can apply the modifications of the chosen variant channeling ability to your channeled energy, including reductions to the damage dealt or healing performed by your channeled energy.",
 			"",
 			"If you already have a variant channeling ability, this feat instead allows you to channel energy without the modifications of your chosen variant channeling ability (including reductions to the damage dealt or healing performed by your channeled energy) three times per day.  ",
@@ -2311,7 +2311,7 @@
 			"{SOURCE Mythic Adventures/63}",
 			"",
 			"You can sense a creature's magical abilities with just a mere glance.  ",
-			"**Prerequisites:** {feat/Detect Expertise}.  ",
+			"**Prerequisites:** Detect Expertise.  ",
 			"**Benefit:** You gain the benefit of Detect Expertise immediately (without needing to observe a creature for 3 rounds) when using the divinations listed in Detect Expertise. Non-mythic creatures cannot attempt a Will save to resist this effect."
 		]
 	},
@@ -2373,7 +2373,7 @@
 			"{SOURCE Inner Sea Gods/210}",
 			"",
 			"Your pride allows no master but Asmodeus.  ",
-			"**Prerequisites:** {feat/Iron Will}, worshiper of Asmodeus.  ",
+			"**Prerequisites:** {feat/Iron Will}, worshiper of {faith/Asmodeus}.  ",
 			"**Benefit:** Whenever you attempt a Will save against a charm or compulsion spell cast by anyone who is not a worshiper of Asmodeus, you may roll twice and take the better result."
 		]
 	},
@@ -2454,7 +2454,7 @@
 			"{SOURCE Inner Sea Gods/210}",
 			"",
 			"You treat the art of negotiation as devilish science.  ",
-			"**Prerequisites:** {feat/Skill Focus/ (Diplomacy)}, worshiper of Asmodeus.  ",
+			"**Prerequisites:** {feat/Skill Focus/ (Diplomacy)}, worshiper of {faith/Asmodeus}.  ",
 			"**Benefit:** You can add your Intelligence or Wisdom modifier (whichever is higher) on Diplomacy checks in place of your Charisma modifier. You can shift a creature's attitude more than two steps with Diplomacy, and a creature's attitude is only decreased by one step if you roll a natural 1 and fail the check by 5 or more."
 		]
 	},
@@ -2632,7 +2632,7 @@
 			"{SOURCE Inner Sea Races/205}",
 			"",
 			"With practiced gestures, you buy enough time to prepare yourself for an inevitable battle.  ",
-			"**Prerequisites:** Diplomacy 3 ranks, human (Keleshite).  ",
+			"**Prerequisites:** Diplomacy 3 ranks, {race/human} (Keleshite).  ",
 			"**Benefit:** Whenever you're adjacent to an ally who also has this feat, you can perform a quick, seemingly courteous gesture when you make an initiative check. As part of the gesture, you can perform a single free action, such as dropping an item or entering rage. This feat can be used only when combat breaks out after a conversation, such as from failed negotiations."
 		]
 	},
@@ -2645,7 +2645,7 @@
 			"{SOURCE Blood of the Moon/9}",
 			"",
 			"You can become a dire bat.  ",
-			"**Prerequisites:** Cha 13, {feat/Bat Shape}, base attack bonus +3, werebat-kin.  ",
+			"**Prerequisites:** Cha 13, {feat/Bat Shape}, base attack bonus +3, [werebat-kin](race/skinwalker).  ",
 			"**Benefit:** When you use Bat Shape to become a bat, you can choose to become a bat or a dire bat."
 		]
 	},
@@ -2815,7 +2815,7 @@
 			"{SOURCE Advanced Race Guide/46}",
 			"",
 			"You are not easily fooled by illusions and forgeries.  ",
-			"**Prerequisites:** Elf or half-elf, keen senses racial trait.  ",
+			"**Prerequisites:** {race/Elf} or {race/half-elf}, keen senses racial trait.  ",
 			"**Benefit:** You receive a +2 racial bonus on saving throws against illusion spells and effects and a +2 bonus on Linguistic checks to detect forgeries. You can use the Linguistic skill to detect forgeries untrained."
 		]
 	},
@@ -2828,7 +2828,7 @@
 			"{SOURCE Inner Sea Gods/210}",
 			"",
 			"Your dedication to mastering Iomedae's favored weapon puts other to shame.  ",
-			"**Prerequisites:** {feat/Weapon Focus/ (longsword)}, cleric or inquisitor level 4th, worshiper of Iomedae.  ",
+			"**Prerequisites:** {feat/Weapon Focus/ (longsword)}, cleric or inquisitor level 4th, worshiper of {faith/Iomedae}.  ",
 			"**Benefit:** You gain the benefits of {feat/Weapon Specialization} (longsword), and you can use your cleric or inquisitor level in place of your fighter level for the purpose of qualifying for {feat/Greater Weapon Focus} (longsword) and {feat/Greater Weapon Specialization} (longsword). You can use this feat instead of Weapon Specialization (longsword) to qualify for Greater Weapon Specialization (longsword)."
 		]
 	},
@@ -3108,7 +3108,7 @@
 			"{SOURCE Horror Adventures/85}",
 			"",
 			"Your powerful fists can reduce undead foes to dust.  ",
-			"**Prerequisites:** {feat/Channel Smite}, {feat/Improved Unarmed Strike}, base attack bonus +9, channel positive energy 4d6.  ",
+			"**Prerequisites:** {feat/Channel Smite}, {feat/Improved Unarmed Strike}, base attack bonus +9, {ability/channel positive energy} 4d6.  ",
 			"**Benefit:** On a confirmed critical hit using an unarmed strike against an undead creature, you can expend two uses of your channel energy ability as a swift action to destroy that undead creature. The undead creature can negate this effect with a successful Will saving throw (DC = 10 + your base attack bonus)."
 		]
 	},
@@ -3159,7 +3159,7 @@
 			"{SOURCE Mythic Adventures/63}",
 			"",
 			"You're a master at disrupting nearby spellcasters.  ",
-			"**Prerequisites:** {feat/Disruptive}.  ",
+			"**Prerequisites:** Disruptive.  ",
 			"**Benefit:** The DC to cast spells defensively within your threatened area increases by half your tier. This stacks with the increase granted by Disruptive. In addition, even if you can't make attacks of opportunity, non-mythic spellcasters are still wary of you and continue to suffer from the effects of Disruptive."
 		]
 	},
@@ -3458,7 +3458,7 @@
 			"{SOURCE Inner Sea Gods/210}",
 			"",
 			"You have trained in the art of blocking breath weapons.  ",
-			"**Prerequisites:** Channel energy class feature, worshiper of Apsu.  ",
+			"**Prerequisites:** {ability/Channel energy} class feature, worshiper of {faith/Apsu}.  ",
 			"**Benefit:** When you are within an area effect that deals acid, cold, electricity, or fire damage, you can expend one use of your channel energy ability as an immediate action to shield yourself and all allies within 30 feet. You and allies within your shield only take half damage if they fail their save against the effect, and those who make a successful save take no damage from the effect."
 		]
 	},
@@ -3523,7 +3523,7 @@
 			"{SOURCE Inner Sea Gods/210}",
 			"",
 			"Secrets of the First Vault help you perfect your spellcasting.  ",
-			"**Prerequisites:** {feat/Combat Casting}, ability to cast divine spells, worshiper of Abadar.  ",
+			"**Prerequisites:** {feat/Combat Casting}, ability to cast divine spells, worshiper of {faith/Abadar}.  ",
 			"**Benefit:** Three times per day, as a free action when you cast a harmless divine spell or a domain spell, you can choose for the casting to not provoke attacks of opportunity.  ",
 			"**Special:** You can take this feat multiple times. When you do, you can use this feat three more times per day."
 		]
@@ -3537,7 +3537,7 @@
 			"{SOURCE Inner Sea Gods/211}",
 			"",
 			"You mix faith with art to empower your performances.  ",
-			"**Prerequisites:** Bard level 1st, cleric or oracle level 1st, worshiper of Shelyn.  ",
+			"**Prerequisites:** Bard level 1st, cleric or oracle level 1st, worshiper of {faith/Shelyn}.  ",
 			"**Benefit:** When you take this feat, choose either the cleric or oracle class. Levels in the selected class stack with your bard level when determining the number of rounds per day you can use your bardic performance and the type of action it takes to start a bardic performance."
 		]
 	},
@@ -3696,7 +3696,7 @@
 			"{SOURCE Mythic Adventures/63}",
 			"",
 			"Your divine power thwarts enemies of your faith.  ",
-			"**Prerequisites:** {feat/Divine Interference}.  ",
+			"**Prerequisites:** Divine Interference.  ",
 			"**Benefit:** When you use Divine Interference, the penalty on your opponent's attack roll is equal to twice the level of the spell sacrificed. You can expend one use of mythic power when you sacrifice the spell to increase the penalty to triple the level of the spell sacrificed."
 		]
 	},
@@ -3815,7 +3815,7 @@
 			"{SOURCE Mythic Adventures/63}",
 			"",
 			"When focused, you become nearly impossible to strike.  ",
-			"**Prerequisites:** {feat/Dodge}.  ",
+			"**Prerequisites:** Dodge.  ",
 			"**Benefit:** The bonus to AC from Dodge increases by 1. As an immediate action, you can expend one use of mythic power to grant yourself an additional +10 dodge bonus to AC against one attack."
 		]
 	},
@@ -3828,7 +3828,7 @@
 			"{SOURCE Goblins of Golarion/24}",
 			"",
 			"Embracing fear and hatred of your ancestral foes allows you to make particularly telling blows.  ",
-			"**Prerequisites:** Goblin, Handle Animal 1 rank.  ",
+			"**Prerequisites:** {race/Goblin}, Handle Animal 1 rank.  ",
 			"**Benefit:** You gain a +2 morale bonus on all attack and damage rolls made against dogs and horses (including dog-like and horse-like targets such a nightmares or worgs). Additionally, you gain a +2 bonus on rolls to confirm critical hits against these foes."
 		]
 	},
@@ -3845,7 +3845,7 @@
 			"{SOURCE We Be Goblins Free!/15;We Be Goblins!/12;We Be Goblins Too!/13}",
 			"",
 			"Unlike many goblins, you're not particularly afraid of dogs. You know what dogs smell like, and that smell makes you mad - very mad.  ",
-			"**Prerequisites:** {feat/Skill Focus/ (Perception)}, goblin.  ",
+			"**Prerequisites:** {feat/Skill Focus/ (Perception)}, {race/goblin}.  ",
 			"**Benefit:** You gain the scent ability, but only against canines (including dogs, goblin dogs, wolves, worgs, yeth hounds, and any similar creatures, subject to GM approval). Against these creatures, you gain a +1 morale bonus on attack rolls and a +2 morale bonus on weapon damage rolls."
 		]
 	},
@@ -4313,7 +4313,7 @@
 			"{SOURCE Advanced Race Guide/77}",
 			"",
 			"Your desire to see and experience the world overrides healthy caution.  ",
-			"**Prerequisites:** Cha 13, human.  ",
+			"**Prerequisites:** Cha 13, {race/human}.  ",
 			"**Benefit:** You gain a +1 bonus on saving throws against effects with the emotion descriptor. In addition, for any round in which you begin your turn affected by a fear effect, you gain a new save at the beginning of your turn to reduce the severity of the fear effect, from panicked to frightened, frightened to shaken, and shaken to unaffected."
 		]
 	},
@@ -4357,7 +4357,7 @@
 			"{SOURCE Inner Sea Gods/212;Faiths of Corruption/24}",
 			"",
 			"When you slay enemies, you frighten other opponents.  ",
-			"**Prerequisites:** {feat/Intimidating Prowess}, worshiper of Lamashtu.  ",
+			"**Prerequisites:** {feat/Intimidating Prowess}, worshiper of {faith/Lamashtu}.  ",
 			"**Benefit:** Upon reducing an enemy to 0 or fewer hit points, for the remaining duration of the combat encounter, you gain a +4 bonus on any Intimidate checks made to demoralize opponents who can see both you and the opponent you dropped."
 		]
 	},
