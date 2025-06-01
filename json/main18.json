@@ -2176,7 +2176,7 @@
 					[ [ "ladder, escalade 4", "{eq-siegeengine/ladder, escalade, colossal}" ], [ 10, "colossal close assault siege engine" ], 250, [ 0, "&mdash;" ], [ 0, "&mdash;" ], [ 0, "&mdash;" ], [ 0, "&mdash;" ], null, 8, [ 10, "&mdash;" ], null, 0 ],
 					[ [ "ram 4", "{eq-siegeengine/ram, colossal}" ], [ 10, "colossal close assault siege engine" ], 5000, [ 0, "&mdash;" ], [ 35, "10d6" ], [ 3, "&times;3" ], [ 0, "&mdash;" ], "B", 40, [ 10, "&mdash;" ], null, 15 ],
 					[ [ "siege tower 4", "{eq-siegeengine/siege tower, colossal}" ], [ 10, "colossal close assault siege engine" ], 10000, [ 0, "&mdash;" ], [ 0, "&mdash;" ], [ 0, "&mdash;" ], [ 0, "&mdash;" ], null, 48, [ 10, "&mdash;" ], null, 15 ]
-				 ],
+				],
 				"initialColumn": 1
 			}
 		]

@@ -9,7 +9,7 @@
 			"$comment": "This is for 99% of the JSON files",
 			"type": "object",
 			"patternProperties": {
-				"^[a-z0-9_]+$": {
+				"^[a-z_][a-z0-9_]*$": {
 					"type": "object",
 					"anyOf": [
 						{
@@ -24,9 +24,9 @@
 								"noFinder": { "type": "boolean" },
 								"tables": { "$ref": "#tables" },
 								"searchgroup": { "$ref": "#searchgroup" },
-								"parent_topics": { "$ref": "#uniqueArray" },
-								"siblings": { "$ref": "#uniqueArray" },
-								"subtopics": { "$ref": "#uniqueArray" },
+								"parent_topics": { "$ref": "#uniquePropArray" },
+								"siblings": { "$ref": "#uniquePropArray" },
+								"subtopics": { "$ref": "#uniquePropArray" },
 								"topLink": { "$ref": "#link" },
 								"type": { "type": "string" },
 								"className": { "type": "string" },
@@ -130,7 +130,8 @@
 						}
 					]
 				}
-			}
+			},
+			"unevaluatedProperties": false
 		},
 		{
 			"$comment": "This is exclusively for feat_tree_data.json",
@@ -226,6 +227,16 @@
 			"$anchor": "uniqueArray",
 			"type": "array",
 			"items": { "type": "string" },
+			"uniqueItems": true,
+			"unevaluatedItems": false
+		},
+		"uniquePropArray": {
+			"$anchor": "uniquePropArray",
+			"type": "array",
+			"items": {
+				"type": "string",
+				"pattern": "^[a-z_][a-z_0-9]+$"
+			},
 			"uniqueItems": true,
 			"unevaluatedItems": false
 		},

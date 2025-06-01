@@ -3826,9 +3826,9 @@
 			"{SOURCE Black Markets/7}",
 			"",
 			"You walk dark alleys and trade in secrets.  ",
-			"**Benefit:** You gain a +4 bonus on Diplomacy checks to access black markets and do not pay the gp cost to do so. You suffer no consequences for failing the check unless you fail by 10 or more.",
+			"**Benefit:** You gain a +4 bonus on Diplomacy checks to access {rule/black markets} and do not pay the gp cost to do so. You suffer no consequences for failing the check unless you fail by 10 or more.",
 			"",
-			"In addition, you can use the Diplomacy skill to locate merchants who have deeper pockets in a black market or settlement. If you are looking inside a black market, the DC is equal to the black market's access DC. If you are looking more widely in a settlement, use the black market's access DC + 5 (if a settlement has no black market, the DC is 30; PCs can apply the settlement's Crime modifier to their checks). If successful, you can treat the black market or settlement as one step larger for the purposes of base value, items available, and purchase limit. If the settlement was already a metropolis, nearly all minor and medium magic items are for sale, as well as 3d8 major magic items; the base value is 32,000 gp; and the purchase limit is 200,000 gp. If the black market was already an underworld, nearly all minor and medium magic items are for sale, as well as 4d8 major magic items; the base value is 64,000 gp; and the purchase limit is 300,000 gp. This benefit does not stack with other ways to increase the effective size of a black market or settlement (such as the black market connections rogue talent). You can attempt this check only once per week."
+			"In addition, you can use the Diplomacy skill to locate merchants who have deeper pockets in a black market or settlement. If you are looking inside a black market, the DC is equal to the black market's access DC. If you are looking more widely in a settlement, use the black market's access DC + 5 (if a settlement has no black market, the DC is 30; PCs can apply the settlement's Crime modifier to their checks). If successful, you can treat the black market or settlement as one step larger for the purposes of base value, items available, and purchase limit. If the settlement was already a metropolis, nearly all minor and medium magic items are for sale, as well as 3d8 major magic items; the base value is 32,000 gp; and the purchase limit is 200,000 gp. If the black market was already an underworld, nearly all minor and medium magic items are for sale, as well as 4d8 major magic items; the base value is 64,000 gp; and the purchase limit is 300,000 gp. This benefit does not stack with other ways to increase the effective size of a black market or settlement (such as the {talent/black market connections} rogue talent). You can attempt this check only once per week."
 		]
 	},
 	"black_market_sleuth": {
@@ -3841,7 +3841,7 @@
 			"",
 			"You track the dealings of criminals with an expert eye.  ",
 			"**Prerequisites:** Diplomacy 1 rank, Knowledge (local) 1 rank.  ",
-			"**Benefit:** You roll twice and take the better result on Diplomacy checks to access black markets or learn about anyone who has contact with black markets. You can roll twice and take the better result on Knowledge (local) checks to recall information about black markets, criminals, and people directly connected to either. You can search for people trying to disappear in a community, attempting a Diplomacy check to track a target rather than a Survival check, but only within an urban environment."
+			"**Benefit:** You roll twice and take the better result on Diplomacy checks to access {rule/black markets} or learn about anyone who has contact with black markets. You can roll twice and take the better result on Knowledge (local) checks to recall information about black markets, criminals, and people directly connected to either. You can search for people trying to disappear in a community, attempting a Diplomacy check to track a target rather than a Survival check, but only within an urban environment."
 		]
 	},
 	"black_marketeer": {
@@ -3854,7 +3854,7 @@
 			"",
 			"You have many contacts and a keen eye for hidden opportunities in the marketplace.  ",
 			"**Prerequisites:** Appraise 1 rank, Diplomacy 1 rank, Knowledge (local) 1 rank.  ",
-			"**Benefit:** By utilizing your black market connections, you acquire a resource pool worth 100 gp. This functions like the resource pool gained by the Profits of Kalistrade feat except it can only be used on illegal or illicit items or services (note that something may be illegal or illicit in one area but perfectly acceptable in another) and is centered on Osirion rather than Druma. Typical illegal or illicit items are drugs, poisons, evil magic items, slaves, or dead bodies, though intangibles such as secret information may also qualify (and for these items, a secret of equal value - at the GM's discretion - must be contributed to the pool)."
+			"**Benefit:** By utilizing your black market connections, you acquire a resource pool worth 100 gp. This functions like the resource pool gained by the {feat/Profits of Kalistrade} feat except it can only be used on illegal or illicit items or services (note that something may be illegal or illicit in one area but perfectly acceptable in another) and is centered on Osirion rather than Druma. Typical illegal or illicit items are drugs, poisons, evil magic items, slaves, or dead bodies, though intangibles such as secret information may also qualify (and for these items, a secret of equal value - at the GM's discretion - must be contributed to the pool)."
 		]
 	},
 	"black_powder_spectacle": {
@@ -3870,7 +3870,7 @@
 			"",
 			"You can sacrifice ammunition to make a grand spectacle.  ",
 			"**Prerequisites:** {feat/Amateur Gunslinger} or the grit class feature, base attack bonus +4.  ",
-			"**Benefit:** When you spend a swift action to attempt a performance combat check, you can sacrifice one cartridge or an amount of black powder required for a single shot to make either a loud sound or an impressive flash. If you choose to make your weapon's report louder, you gain a +4 bonus on all Intimidate checks you attempt for 1 round. If you choose to create an impressive flash, you gain a +4 bonus on any Perform checks you attempt for 1 round.",
+			"**Benefit:** When you spend a swift action to attempt a {rule/performance combat} check, you can sacrifice one cartridge or an amount of black powder required for a single shot to make either a loud sound or an impressive flash. If you choose to make your weapon's report louder, you gain a +4 bonus on all Intimidate checks you attempt for 1 round. If you choose to create an impressive flash, you gain a +4 bonus on any Perform checks you attempt for 1 round.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Weapon Master's Handbook/24}",
@@ -3889,7 +3889,7 @@
 			"You have learned to make your summons destructive to the fabric of the planes, bringing blackfire in the wake of your magic.  ",
 			"**Prerequisites:** {feat/Sacred Summons}.",
 			"",
-			"When you summon a single evil outsider, it appears in a flash of blackfire, harming all adjacent nonevil creatures. This deals an amount of damage equal to twice the CR of the summoned creature. An affected creature can attempt a Will save (DC = the DC of the spell used to summon the creature) to halve this damage. A spell augmented with blackfire summoning uses up a spell slot 1 level higher than the spell's actual level. If you have the blackfire pact class feature, you can apply the benefits of this feat to summoned outsiders of the type or types you have selected for your blackfire pact without raising the spell's effective level."
+			"When you summon a single evil outsider, it appears in a flash of blackfire, harming all adjacent nonevil creatures. This deals an amount of damage equal to twice the CR of the summoned creature. An affected creature can attempt a Will save (DC = the DC of the spell used to summon the creature) to halve this damage. A spell augmented with blackfire summoning uses up a spell slot 1 level higher than the spell's actual level. If you have the {pclass/blackfire /pact>adept} class feature, you can apply the benefits of this feat to summoned outsiders of the type or types you have selected for your *blackfire pact* without raising the spell's effective level."
 		]
 	},
 	"blade_of_the_purge": {
@@ -3915,9 +3915,9 @@
 			"",
 			"You know how to balance a polearm perfectly, striking with artful, yet deadly precision.  ",
 			"**Prerequisites:** {feat/Weapon Focus/ (glaive)}, must be a worshiper of {faith/Shelyn}.  ",
-			"**Benefit:** You can use the Weapon Finesse feat to apply your Dexterity modifier instead of your Strength modifier to attack rolls with a glaive sized for you, even though it isn't a light weapon. When wielding a glaive, you can treat it as a one-handed piercing or slashing melee weapon and as if you were not making attacks with your off-hand for all feats and class abilities that require such a weapon (such as a duelist's or swashbuckler's precise strike).",
+			"**Benefit:** You can use the {feat/Weapon Finesse} feat to apply your Dexterity modifier instead of your Strength modifier to attack rolls with a glaive sized for you, even though it isn't a light weapon. When wielding a glaive, you can treat it as a one-handed piercing or slashing melee weapon and as if you were not making attacks with your off-hand for all feats and class abilities that require such a weapon (such as a {pclass/duelist/'s} or {class/swashbuckler/'s} precise strike).",
 			"",
-			"As a move action, you can shorten your grip on the glaive, treating it as though it lacked the reach weapon property. You can adjust your grip to grant the weapon the reach property as a move action."
+			"As a move action, you can shorten your grip on the glaive, treating it as though it lacked the {misc/reach} weapon property. You can adjust your grip to grant the weapon the reach property as a move action."
 		]
 	},
 	"blades_above_and_below": {
@@ -3930,7 +3930,7 @@
 			"",
 			"You attack high and your ally attacks low, denying your foe the chance to dodge your attacks.  ",
 			"**Prerequisites:** Base attack bonus +6.  ",
-			"**Benefit:** When you and your ally who also has this feat threaten the same enemy, you're both considered to be flanking that enemy, regardless of your actual positioning. To gain this benefit, you and your ally must be of different size categories, and your target must be the same size category as either you or your ally."
+			"**Benefit:** When you and your ally who also has this feat threaten the same enemy, you're both considered to be {rule/flanking} that enemy, regardless of your actual positioning. To gain this benefit, you and your ally must be of different size categories, and your target must be the same size category as either you or your ally."
 		]
 	},
 	"blasting_boulder": {
@@ -3942,8 +3942,14 @@
 			"{SOURCE Giants Revisited/19}",
 			"",
 			"The boulders you hurl explode upon impact, laying waste to nearby creatures.  ",
-			"**Prerequisites:** {feat/Smoking Boulder}, base attack bonus +13, heat rock special attack.  ",
-			"**Benefit:** You can infuse rocks thrown as part of an attack action with volatile fire energies, adding one of the following effects to a thrown rock affected by your Smoking Boulder feat."
+			"**Prerequisites:** {feat/Smoking Boulder}, base attack bonus +13, heated rock special attack.  ",
+			"**Benefit:** You can infuse rocks thrown as part of an attack action with volatile fire energies, adding one of the following effects to a thrown rock affected by your Smoking Boulder feat.",
+			"",
+			":HL[Choking Smoke:] All creatures in the affected 10-foot-radius {misc/spread} are {misc/nauseated} for 1 round.",
+			"",
+			":HL[Concussive Blast:] Creatures in a 10-foot-radius {misc/burst} are {misc/deafened} and {misc/staggered} for 1d4 rounds (Fortitude negates).",
+			"",
+			":HL[Incendiary Explosion:] The creature struck by this rock takes 4d6 points of fire damage, other creatures within a 10-foot-radius burst take 2d6 points of damage, and all affected creatures catch on fire. A successful Reflex save halves the fire damage taken and negates {rule/catching on fire}."
 		]
 	},
 	"blasting_charge": {
@@ -3958,7 +3964,7 @@
 			"**Prerequisites:** Base attack bonus +7, ability to cast 2nd-level bloodrager spells, bloodrage class feature.  ",
 			"**Benefit:** While you are bloodraging, at the end of a charge you can expend a bloodrager spell slot as a swift action to imbue your charge attack with extra power. You deal an additional 1d6 points of damage per level of the spell slot expended. This extra damage is force damage, and it's not multiplied in the case of a critical hit.",
 			"",
-			"If your bloodline has a specific energy type associated with it (such as the elemental or draconic bloodlines), you can choose to increase the damage to 1d8 points per level of the spell slot expended, and this extra damage is of that energy type."
+			"If your bloodline has a specific energy type associated with it (such as the {blrgbloodline/elemental} or {blrgbloodline/draconic} bloodlines), you can choose to increase the damage to 1d8 points per level of the spell slot expended, and this extra damage is of that energy type."
 		]
 	},
 	"blazing_aura_arg": {
@@ -4007,7 +4013,7 @@
 			"",
 			"Your holy power burns the undead like fire.  ",
 			"**Prerequisites:** {feat/Turn Undead}, {ability/channel positive energy} class feature.  ",
-			"**Benefit:** When you use your Turn Undead feat, undead failing their saving throw are engulfed in holy fire. This functions identically to catching on fire, but the damage dealt is divine (like the divine damage from flame strike) rather than fire. Water cannot extinguish this holy fire, but any negative energy effect that heals the creature of at least 5 points of damage extinguishes the flames instantly."
+			"**Benefit:** When you use your Turn Undead feat, undead failing their saving throw are engulfed in holy fire. This functions identically to {rule/catching on fire}, but the damage dealt is divine (like the divine damage from {spell/flame strike}) rather than fire. Water cannot extinguish this holy fire, but any negative energy effect that heals the creature of at least 5 points of damage extinguishes the flames instantly."
 		]
 	},
 	"bleeding_critical": {
@@ -4024,7 +4030,7 @@
 			"",
 			"Your critical hits cause opponents to bleed profusely.  ",
 			"**Prerequisites:** {feat/Critical Focus}, base attack bonus +11.  ",
-			"**Benefit:** Whenever you score a critical hit with a slashing or piercing weapon, your opponent takes 2d6 points of bleed damage each round on his turn, in addition to the damage dealt by the critical hit. Bleed damage can be stopped by a DC 15 Heal skill check or through any magical healing. The effects of this feat stack.  ",
+			"**Benefit:** Whenever you score a critical hit with a slashing or piercing weapon, your opponent takes 2d6 points of {rule/bleed} damage each round on his turn, in addition to the damage dealt by the critical hit. Bleed damage can be stopped by a DC 15 Heal skill check or through any magical healing. The effects of this feat stack.  ",
 			"**Special:** You can only apply the effects of one critical feat to a given critical hit unless you possess Critical Mastery.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -4037,7 +4043,7 @@
 			"{SOURCE Mythic Adventures/60}",
 			"",
 			"Your deadliest blows unleash rivers of blood.  ",
-			"**Prerequisites:** Bleeding Critical, {feat/Mythic |Critical Focus}.  ",
+			"**Prerequisites:** Bleeding Critical, Mythic Critical Focus.  ",
 			"**Benefit:** The bleed damage dealt with Bleeding Critical increases by your tier. Stopping this bleed damage requires a Heal check with a DC equal to 15 + 1/2 your tier. Any magical healing ends the bleed damage normally.",
 			"",
 			"You can expend one use of mythic power to deal 1 Con bleed, in addition to the hit point bleed damage you deal with this feat. This effect increases by 1 for each additional use of mythic power you expend."
@@ -4053,7 +4059,7 @@
 			"",
 			"Your stare causes your foe to bleed out of its eyes.  ",
 			"**Prerequisites:** Mesmerist level 5th, painful stare class feature.  ",
-			"**Benefit:** When you trigger your painful stare, the target takes an amount of bleed damage equal to 1/3 your mesmerist level. Bleed damage from multiple uses of Bleeding Stare doesn't stack."
+			"**Benefit:** When you trigger your painful stare, the target takes an amount of {rule/bleed} damage equal to 1/3 your mesmerist level. Bleed damage from multiple uses of Bleeding Stare doesn't stack."
 		]
 	},
 	"bless_equipment": {
@@ -4115,14 +4121,14 @@
 			"",
 			"| d8 | Quest |",
 			"| --- | --- |",
-			"| 1 | The more pacifistic priests of Sarenrae in Qadira are considering the newly arrived White Feather Monks as potential allies, but they'll doubtlessly need a powerful emissary to help fuse the two groups. |",
-			"| 2 | The Hellknight Order of the Nail uses increasingly vicious methods to \"civilize\" the Shoanti of the Storval Plateau. A brave Shoanti thundercaller might be able to sway the tide of battle between these two groups. |",
+			"| 1 | The more pacifistic priests of {faith/Sarenrae} in Qadira are considering the newly arrived White Feather Monks as potential allies, but they'll doubtlessly need a powerful emissary to help fuse the two groups. |",
+			"| 2 | The Hellknight {hkorder/Order of the Nail} uses increasingly vicious methods to \"civilize\" the Shoanti of the Storval Plateau. A brave Shoanti thundercaller might be able to sway the tide of battle between these two groups. |",
 			"| 3 | Galt's Red Revolution led many to turn to evil, but hope for redemption comes from Woodsedge, where sympathy and moderation hold sway. |",
-			"| 4 | You were raised in a strict orphanage dedicated to Asmodeus during Isger's tumultuous Goblinblood Wars. Although you resisted indoctrination into the church of the Prince of Darkness, many did not, and you are likely their only hope for redemption as long as you can locate your fallen brethren. |",
-			"| 5 | In honor of Andoran's patron celestial, Talmandor, you use rhetoric and deeds to make revolutionaries out of collaborators in oppressed lands such as Cheliax, Galt, or Nidal. |",
-			"| 6 | In the Fangwood of Nirmathas, the cursed dryad Arlantia may yet be redeemed if only she can be reached. |",
-			"| 7 | You hope that by locating the fallen demigoddess Arazni's missing organs, you can use the powerful relics to bring the so-called Harlot Queen back to the light. |",
-			"| 8 | Tales of the accursed beings that now reside in the Estrovian Forest of Mendev have ignited within you a righteous indignation, and you will not rest until the spirits of the so-called \"hernes\" who plague the oaks repent for their indiscretions. |"
+			"| 4 | You were raised in a strict orphanage dedicated to {faith/Asmodeus} during Isger's tumultuous Goblinblood Wars. Although you resisted indoctrination into the church of the Prince of Darkness, many did not, and you are likely their only hope for redemption as long as you can locate your fallen brethren. |",
+			"| 5 | In honor of Andoran's patron celestial, {monster/Talmandor}, you use rhetoric and deeds to make revolutionaries out of collaborators in oppressed lands such as Cheliax, Galt, or Nidal. |",
+			"| 6 | In the Fangwood of Nirmathas, the [cursed](template/blighted_fey) {monster/dryad} Arlantia may yet be redeemed if only she can be reached. |",
+			"| 7 | You hope that by locating the fallen demigoddess {monster/Arazni/'s} missing organs, you can use the powerful relics to bring the so-called Harlot Queen back to the light. |",
+			"| 8 | Tales of the accursed beings that now reside in the Estrovian Forest of Mendev have ignited within you a righteous indignation, and you will not rest until the spirits of the so-called {monster/\"herne/s\"} who plague the oaks repent for their indiscretions. |"
 		]
 	},
 	"blessed_hammer": {
@@ -4134,8 +4140,8 @@
 			"{SOURCE Inner Sea Gods/207}",
 			"",
 			"Your god's power radiates from your warhammer.  ",
-			"**Prerequisites:** Ability to cast 3rd-level divine spells, proficient with warhammer, worshiper of {faith/Torag}.  ",
-			"**Benefit:** You can use any warhammer you wield as a holy symbol when casting spells that require a divine focus or when you channel energy.",
+			"**Prerequisites:** Ability to cast 3rd-level divine spells, proficient with {eq-weapon/warhammer}, worshiper of {faith/Torag}.  ",
+			"**Benefit:** You can use any warhammer you wield as a holy symbol when casting spells that require a divine focus or when you {ability/channel energy}.",
 			"",
 			"Furthermore, as a swift action when you cast a divine touch spell, you can choose to have the warhammer carry the charge of the spell instead of your hand. When you deliver a touch spell with your warhammer you can do so as part of melee attack made with the warhammer. If you drop the warhammer or the warhammer is disarmed while carrying a charge, the charge is lost."
 		]
@@ -4191,7 +4197,7 @@
 			"",
 			"With a critical hit from a spell or spell-like ability, you give the target a minor spellblight.  ",
 			"**Prerequisites:** Caster level 5th.  ",
-			"**Benefit:** Whenever you confirm a critical hit with a touch spell, ranged touch spell, or spell-like ability against an opponent, the victim gains a random minor spellblight.  ",
+			"**Benefit:** Whenever you confirm a critical hit with a touch spell, ranged touch spell, or spell-like ability against an opponent, the victim gains a random {rule/minor spellblight>s}.  ",
 			"**Special:** You can apply the effects of only one critical feat to a given critical hit unless you possess Critical Mastery."
 		]
 	},
@@ -4205,7 +4211,7 @@
 			"",
 			"You control the type of spellblight your critical hits give your opponent.  ",
 			"**Prerequisites:** {feat/Blighted Critical}, caster level 9th.  ",
-			"**Benefit:** Whenever you apply a spellblight by way of the Blighted Critical or Greater Blighted critical feat, you can choose the spellblight you apply rather than determining it randomly."
+			"**Benefit:** Whenever you apply a spellblight by way of the Blighted Critical or {feat/Greater Blighted Critical} feat, you can choose the spellblight you apply rather than determining it randomly."
 		]
 	},
 	"blinded_blade_style": {
@@ -4218,7 +4224,7 @@
 			"",
 			"You hold no fear of blindness, as your other senses improve without the distractions of sight.  ",
 			"**Prerequisites:** {feat/Blind-Fight}, Perception 5 ranks.  ",
-			"**Benefit:** While you are using this style, you gain a number of benefits whenever you are blinded or unable to see (including when you wear a blindfold or close your eyes). Under such circumstances, you do not take any penalties on Strength- or Dexterity-based skill checks due to blindness. In addition, you gain a +4 bonus on hearing- and smell-based Perception checks and gain the scent special ability with a range of 10 feet; if you already have scent, the range of your scent ability increases by 10 feet instead. Having this feat counts as having 10 ranks in Perception for the purpose of satisfying the prerequisites of the {feat/Improved Blind-Fight} feat, as well as any feat that lists Improved Blind-Fight as a prerequisite."
+			"**Benefit:** While you are using this style, you gain a number of benefits whenever you are {misc/blinded} or unable to see (including when you wear a blindfold or close your eyes). Under such circumstances, you do not take any penalties on Strength- or Dexterity-based skill checks due to blindness. In addition, you gain a +4 bonus on hearing- and smell-based Perception checks and gain the {umr/scent} special ability with a range of 10 feet; if you already have scent, the range of your scent ability increases by 10 feet instead. Having this feat counts as having 10 ranks in Perception for the purpose of satisfying the prerequisites of the {feat/Improved Blind-Fight} feat, as well as any feat that lists Improved Blind-Fight as a prerequisite."
 		]
 	},
 	"blinded_competence": {
@@ -4231,7 +4237,7 @@
 			"",
 			"Your lack of sight enables you to strike your foes with uncanny precision.  ",
 			"**Prerequisites:** {feat/Blinded Blade Style}, Perception 10 ranks.  ",
-			"**Benefit:** While you are using Blinded Blade Style and you are blinded or unable to see, you do not need to succeed at Perception checks to pinpoint the location of creatures within reach of your melee weapon, or your unmodified reach if you are not wielding a melee weapon. This ability functions like blindsense, except creatures you cannot see do not gain total {rule/concealment} against you. Having this feat counts as having 15 ranks in Perception for the purpose of satisfying the prerequisites of the {feat/Greater Blind-Fight} feat, as well as any feat that lists Greater Blind-Fight as a prerequisite."
+			"**Benefit:** While you are using Blinded Blade Style and you are {misc/blinded} or unable to see, you do not need to succeed at Perception checks to pinpoint the location of creatures within reach of your melee weapon, or your unmodified reach if you are not wielding a melee weapon. This ability functions like {umr/blindsense}, except creatures you cannot see do not gain total {rule/concealment} against you. Having this feat counts as having 15 ranks in Perception for the purpose of satisfying the prerequisites of the {feat/Greater Blind-Fight} feat, as well as any feat that lists Greater Blind-Fight as a prerequisite."
 		]
 	},
 	"blinded_master": {
@@ -4244,7 +4250,7 @@
 			"",
 			"Your skill at arms while unable to see is astounding.  ",
 			"**Prerequisites:** {feat/Blind-Fight}, {feat/Blinded Competence}, {feat/Blinded Blade Style}, {feat/Greater Blind-Fight}, {feat/Improved Blind-Fight} Perception 15 ranks.  ",
-			"**Benefit:** While you are using Blinded Blade Style and you are blinded or unable to see, your ability to pinpoint creatures' locations using Blinded Competence improves to function like blindsight rather than blindsense, and the range increases to 30 feet. In addition, you add half your character level to the DCs of Bluff checks to feint you in combat."
+			"**Benefit:** While you are using Blinded Blade Style and you are {misc/blinded} or unable to see, your ability to pinpoint creatures' locations using Blinded Competence improves to function like {umr/blindsight} rather than blindsense, and the range increases to 30 feet. In addition, you add half your character level to the DCs of Bluff checks to feint you in combat."
 		]
 	},
 	"blind_fight": {
@@ -4266,7 +4272,7 @@
 			"",
 			"You do not need to make Acrobatics skill checks to move at full speed while blinded.  ",
 			"**Normal:** Regular attack roll modifiers for invisible attackers trying to hit you apply, and you lose your Dexterity bonus to AC. The speed reduction for darkness and poor visibility also applies.  ",
-			"**Special:** The Blind-Fight feat is of no use against a character who is the subject of a blink spell.",
+			"**Special:** The Blind-Fight feat is of no use against a character who is the subject of a {spell/blink} spell.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/114}",
@@ -4295,7 +4301,7 @@
 			"",
 			"Your critical hits blind your opponents.  ",
 			"**Prerequisites:** {feat/Critical Focus}, base attack bonus +15.  ",
-			"**Benefit:** Whenever you score a critical hit, your opponent is permanently blinded. A successful Fortitude save reduces this to dazzled for 1d4 rounds. The DC of this Fortitude save is equal to 10 + your base attack bonus. This feat has no effect on creatures that do not rely on eyes for sight or creatures with more than two eyes (although multiple critical hits might cause blindness, at the GM's discretion). Blindness can be cured by heal, regeneration, remove blindness, or similar abilities.  ",
+			"**Benefit:** Whenever you score a critical hit, your opponent is permanently {misc/blinded}. A successful Fortitude save reduces this to {misc/dazzled} for 1d4 rounds. The DC of this Fortitude save is equal to 10 + your base attack bonus. This feat has no effect on creatures that do not rely on eyes for sight or creatures with more than two eyes (although multiple critical hits might cause blindness, at the GM's discretion). Blindness can be cured by {spell/heal}, {umr/regeneration}, {spell/remove blindness}, or similar abilities.  ",
 			"**Special:** You can only apply the effects of one critical feat to a given critical hit unless you possess Critical Mastery.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -4314,7 +4320,7 @@
 			"",
 			"You can temporarily blind your opponent by using your weapon or shield to flash sunlight into its eyes.  ",
 			"**Prerequisites:** Dex 13, {feat/Combat Expertise}.  ",
-			"**Benefit:** As a move action, you can expertly angle the blade of your weapon or shield to reflect light into an opponent's eyes, dazzling your foe for 1 round. This feat functions as a gaze attack, and the target must make a Fortitude save (DC 10 + 1/2 your character level + your Dex modifier) to resist the effect. This is a sight-dependent effect, and does not work on creatures that are already blinded or creatures that do not rely on sight as their primary sense. You must be wielding a weapon or shield with a polished or reflective surface in order to use this feat. You must be in an area of bright light to use this feat."
+			"**Benefit:** As a move action, you can expertly angle the blade of your weapon or shield to reflect light into an opponent's eyes, {misc/dazzl/ing>ed} your foe for 1 round. This feat functions as a {umr/gaze} attack, and the target must make a Fortitude save (DC 10 + 1/2 your character level + your Dex modifier) to resist the effect. This is a sight-dependent effect, and does not work on creatures that are already blinded or creatures that do not rely on sight as their primary sense. You must be wielding a weapon or shield with a polished or reflective surface in order to use this feat. You must be in an area of bright light to use this feat."
 		]
 	},
 	"blinding_light": {
@@ -4326,8 +4332,8 @@
 			"{SOURCE Blood of Angels/24}",
 			"",
 			"You use your impenetrable luminescence to disorient harbingers of darkness.  ",
-			"**Prerequisites:** {feat/Inner Light (BoA)}, {race/aasimar}, daylight spell-like ability.  ",
-			"**Benefit:** Whenever an enemy unsuccessfully attempts to counter or dispel your daylight spell-like ability, it must succeed at a Fortitude saving throw (DC 10 + 1/2 your character level + your Charisma modifier) or become blinded for 1 round as its mind is overwhelmed with celestial light. This is a supernatural mind-affecting effect."
+			"**Prerequisites:** {feat/Inner Light (BoA)}, {race/aasimar}, {spell/daylight} spell-like ability.  ",
+			"**Benefit:** Whenever an enemy unsuccessfully attempts to counter or dispel your daylight spell-like ability, it must succeed at a Fortitude saving throw (DC 10 + 1/2 your character level + your Charisma modifier) or become {misc/blinded} for 1 round as its mind is overwhelmed with celestial light. This is a supernatural mind-affecting effect."
 		]
 	},
 	"blinding_sneak_attack": {
@@ -4339,8 +4345,8 @@
 			"{SOURCE Blood of Fiends/24}",
 			"",
 			"When you strike from the cover of darkness, you inject foes with a fraction of your foul magic.  ",
-			"**Prerequisites:** Base attack bonus +5, darkness spell-like ability, sneak attack class feature, {race/tiefling}.  ",
-			"**Benefit:** When you successfully deal sneak attack damage to a foe while you are within an area of magical darkness, you temporarily blind your opponent for 1 round. A successful Fortitude save (DC 10 + the amount of sneak attack damage dealt) negates this effect."
+			"**Prerequisites:** Base attack bonus +5, {spell/darkness} spell-like ability, {ability/sneak attack} class feature, {race/tiefling}.  ",
+			"**Benefit:** When you successfully deal sneak attack damage to a foe while you are within an area of magical darkness, you temporarily {misc/blind} your opponent for 1 round. A successful Fortitude save (DC 10 + the amount of sneak attack damage dealt) negates this effect."
 		]
 	},
 	"blinding_stare": {
@@ -4353,7 +4359,7 @@
 			"",
 			"Your stare robs your foe of all sight.  ",
 			"**Prerequisites:** Mesmerist level 7th, painful stare class feature.  ",
-			"**Benefit:** When you trigger your painful stare, the target must succeed at a Will save (DC = 10 + half your mesmerist level + your Charisma modifier) or be blinded for 1 round."
+			"**Benefit:** When you trigger your painful stare, the target must succeed at a Will save (DC = 10 + half your mesmerist level + your Charisma modifier) or be {misc/blinded} for 1 round."
 		]
 	},
 	"blissful_spell": {

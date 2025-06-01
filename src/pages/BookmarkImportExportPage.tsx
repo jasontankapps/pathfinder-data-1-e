@@ -42,7 +42,7 @@ const clip = (toaster: UseIonToastResult, ref: RefObject<HTMLIonTextareaElement>
 	if(ref && ref.current && ref.current.value) {
 		Clipboard.write({string: ref.current.value}).then(
 			() => closeToast().then(
-			 	() => toast({
+				() => toast({
 					message: `Copied text to clipboard`,
 					color: "success",
 					duration: 1500,
