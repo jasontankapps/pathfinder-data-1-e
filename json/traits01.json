@@ -1476,7 +1476,7 @@
 		"description": [
 			"**Type:** Combat",
 			"",
-			"You evaded Technic League patrols with the Blood Gar pirates. When you move at least 10 feet, you gain a +1 trait bonus on attack rolls with firearms and technological weapons and a +1 dodge bonus to your AC against such weapons until the start of your next turn."
+			"You evaded Technic League patrols with the [Blood Gar pirates](rule/tarnished_halls). When you move at least 10 feet, you gain a +1 trait bonus on attack rolls with firearms and technological weapons and a +1 dodge bonus to your AC against such weapons until the start of your next turn."
 		],
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
@@ -1932,7 +1932,7 @@
 		"description": [
 			"**Type:** Faith",
 			"",
-			"Your mentor in the Wagons of Light taught you to hide holy symbols quickly. You can draw or stow a holy symbol as a swift action."
+			"Your mentor in the {rule/Wagons of Light} taught you to hide holy symbols quickly. You can draw or stow a holy symbol as a swift action."
 		],
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
@@ -3765,7 +3765,7 @@
 		"description": [
 			"**Type:** Social",
 			"",
-			"You learned how to bribe by watching Dusk Market merchants interact with Westcrown's dottari guards. Reduce the amount of gold you must spend to bribe a guard or official or compensate a conjured creature by 5%."
+			"You learned how to bribe by watching {rule/Dusk Market} merchants interact with Westcrown's dottari guards. Reduce the amount of gold you must spend to bribe a guard or official or compensate a conjured creature by 5%."
 		],
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
@@ -4358,7 +4358,7 @@
 		"description": [
 			"**Type:** Social",
 			"",
-			"Long exposure to the endless variety of the Nightstalls grants you a +2 trait bonus on Diplomacy checks to gather information and on Knowledge (local) checks to recall information about criminal activities. One of these (your choice) is always a class skill for you."
+			"Long exposure to the endless variety of the {rule/Nightstalls} grants you a +2 trait bonus on Diplomacy checks to gather information and on Knowledge (local) checks to recall information about criminal activities. One of these (your choice) is always a class skill for you."
 		],
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
@@ -4541,7 +4541,7 @@
 		"description": [
 			"**Type:** Social",
 			"",
-			"You learned from the Forthright Men, the Coins' peace-keeping thieves' guild, to use candor to avoid trouble. You gain a +5 trait bonus on Diplomacy checks to convince others to overlook offensive or illegal acts. Diplomacy is always a class skill for you."
+			"You learned from the [Forthright Men](rule/red_silk_route), the Coins' peace-keeping thieves' guild, to use candor to avoid trouble. You gain a +5 trait bonus on Diplomacy checks to convince others to overlook offensive or illegal acts. Diplomacy is always a class skill for you."
 		],
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]

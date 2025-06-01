@@ -3,6 +3,7 @@
 		"name": "Specific Rulesets",
 		"subtopics": [
 			"bar_fights",
+			"black_markets",
 			"dungeon_guides",
 			"firearms",
 			"foraging",
@@ -35,6 +36,7 @@
 		],
 		"siblings": [
 			"bar_fights",
+			"black_markets",
 			"dungeon_guides",
 			"firearms",
 			"foraging",
@@ -89,50 +91,50 @@
 			"::h3[Bow Out]{jl}",
 			"",
 			"You flee the fight entirely.  ",
- 			"**Action:** Attempt either an Acrobatics or Stealth check (DC = 15 + the crowd's CR). If you are successful, you are no longer part of the bar fight and cannot reenter it.",
+			"**Action:** Attempt either an Acrobatics or Stealth check (DC = 15 + the crowd's CR). If you are successful, you are no longer part of the bar fight and cannot reenter it.",
 			"",
 			"::h3[Cast a Spell]{jl}",
 			"",
- 			"You perform some magic amid the melee.  ",
- 			"**Action:** Being in a bar fight makes it difficult to focus, so you must succeed at a concentration check (DC = 15 + the spell level) to cast a spell with a casting time of 1 standard action or less; casting spells with longer casting times is impossible. You are assumed to be in range of any target you wish to affect.  ",
- 			"**Special:** Casting damaging spells immediately turns the bar fight into a normal combat. Healing magic doesn't help a participant regain tenacity. The crowd is treated as a swarm for the purpose of what spells can affect it.",
+			"You perform some magic amid the melee.  ",
+			"**Action:** Being in a bar fight makes it difficult to focus, so you must succeed at a concentration check (DC = 15 + the spell level) to cast a spell with a casting time of 1 standard action or less; casting spells with longer casting times is impossible. You are assumed to be in range of any target you wish to affect.  ",
+			"**Special:** Casting damaging spells immediately turns the bar fight into a normal combat. Healing magic doesn't help a participant regain tenacity. The crowd is treated as a swarm for the purpose of what spells can affect it.",
 			"",
 			"::h3[Hunker Down]{jl}",
 			"",
- 			"You duck behind a turned-over table or the bar to get a respite from the tumult.  ",
- 			"**Action:** Attempt either an Acrobatics or Stealth check (DC = 10 + the crowd's CR). If you are successful, the crowd doesn't reduce your tenacity this round and you gain a +2 bonus to your touch AC until the beginning of your next turn.",
+			"You duck behind a turned-over table or the bar to get a respite from the tumult.  ",
+			"**Action:** Attempt either an Acrobatics or Stealth check (DC = 10 + the crowd's CR). If you are successful, the crowd doesn't reduce your tenacity this round and you gain a +2 bonus to your touch AC until the beginning of your next turn.",
 			"",
 			"::h3[Improvise a Weapon]{jl}",
 			"",
- 			"You grab a chair to smash over someone's head or a bottle to throw into someone's face.  ",
- 			"**Action:** Attempt a Perception check (DC = 15 + the crowd's CR). If you are successful, the next brawling check you attempt for a mix it up or take a swing action can be a basic ranged attack (use your Dexterity modifier for the brawling check). Alternatively, the next time you succeed at a brawling check, you reduce the tenacity of the target by 1d8 + your Strength modifier.  ",
- 			"**Special:** If you have the {feat/Catch Off-Guard} or {feat/Throw Anything} feat, you automatically succeed at the Perception check.",
+			"You grab a chair to smash over someone's head or a bottle to throw into someone's face.  ",
+			"**Action:** Attempt a Perception check (DC = 15 + the crowd's CR). If you are successful, the next brawling check you attempt for a mix it up or take a swing action can be a basic ranged attack (use your Dexterity modifier for the brawling check). Alternatively, the next time you succeed at a brawling check, you reduce the tenacity of the target by 1d8 + your Strength modifier.  ",
+			"**Special:** If you have the {feat/Catch Off-Guard} or {feat/Throw Anything} feat, you automatically succeed at the Perception check.",
 			"",
 			"::h3[Mix It Up]{jl}",
 			"",
- 			"You wade into the crowd to knock some skulls.  ",
- 			"**Action:** Attempt a brawling check against the crowd's defense. If you are successful, you reduce the crowd's tenacity by an amount determined by your statistics (see [Brawling Damage](rule/setting_up_a_bar_fight)).",
+			"You wade into the crowd to knock some skulls.  ",
+			"**Action:** Attempt a brawling check against the crowd's defense. If you are successful, you reduce the crowd's tenacity by an amount determined by your statistics (see [Brawling Damage](rule/setting_up_a_bar_fight)).",
 			"",
 			"::h3[Redirect]{jl}",
 			"",
- 			"You divert part of the crowd's attention to another person.  ",
- 			"**Action:** Attempt either a Bluff or Intimidate check (DC = 15 + the crowd's CR). If you are successful, the amount the crowd reduces your tenacity by is halved and the amount the crowd reduces the tenacity of a major participant of your choice by is multiplied by 1-1/2.  ",
- 			"**Special:** For each character who successfully redirects the crowd's attention against the same major participant in 1 round, the multiplier increases by half (from 1-1/2 to 2, to 2-1/2, to 3, and so forth).",
+			"You divert part of the crowd's attention to another person.  ",
+			"**Action:** Attempt either a Bluff or Intimidate check (DC = 15 + the crowd's CR). If you are successful, the amount the crowd reduces your tenacity by is halved and the amount the crowd reduces the tenacity of a major participant of your choice by is multiplied by 1-1/2.  ",
+			"**Special:** For each character who successfully redirects the crowd's attention against the same major participant in 1 round, the multiplier increases by half (from 1-1/2 to 2, to 2-1/2, to 3, and so forth).",
 			"",
 			"::h3[Set Up a Strike]{jl}",
 			"",
- 			"You perform a fancy maneuver to take advantage of the bar's furnishings, such as leaping onto the bar to get higher ground or swinging from a light fixture.  ",
- 			"**Action:** Attempt either an Acrobatics or Climb check (DC = 12 + the crowd's CR). If you are successful, you gain a +2 bonus on brawling checks and threaten a critical hit on a natural 19 or 20 until the end of your next turn. If you roll a natural 1 on this check, you take a -2 penalty to your touch AC until the beginning of your next turn.",
+			"You perform a fancy maneuver to take advantage of the bar's furnishings, such as leaping onto the bar to get higher ground or swinging from a light fixture.  ",
+			"**Action:** Attempt either an Acrobatics or Climb check (DC = 12 + the crowd's CR). If you are successful, you gain a +2 bonus on brawling checks and threaten a critical hit on a natural 19 or 20 until the end of your next turn. If you roll a natural 1 on this check, you take a -2 penalty to your touch AC until the beginning of your next turn.",
 			"",
 			"::h3[Spread Rumors]{jl}",
 			"",
- 			"With choice words, you get the crowd to turn on itself.  ",
- 			"**Action:** Attempt a Bluff or Knowledge (local) check (DC = 15 + the crowd's CR). If you are successful, the crowd's tenacity is reduced by the same amount it reduces your tenacity.",
+			"With choice words, you get the crowd to turn on itself.  ",
+			"**Action:** Attempt a Bluff or Knowledge (local) check (DC = 15 + the crowd's CR). If you are successful, the crowd's tenacity is reduced by the same amount it reduces your tenacity.",
 			"",
 			"::h3[Take a Swing]{jl}",
 			"",
- 			"You strike out against a particular person.  ",
- 			"**Action:** Attempt a brawling check against a major participant's touch AC. If you are successful, you reduce the target's tenacity by an amount determined by your statistics (see [Brawling Damage](rule/setting_up_a_bar_fight)).",
+			"You strike out against a particular person.  ",
+			"**Action:** Attempt a brawling check against a major participant's touch AC. If you are successful, you reduce the target's tenacity by an amount determined by your statistics (see [Brawling Damage](rule/setting_up_a_bar_fight)).",
 			"",
 			"::h2[Experience for Bar Fights]{jl}",
 			"",
@@ -190,6 +192,1037 @@
 			"bar_fights"
 		]
 	},
+	"black_markets": {
+		"name": "Black Markets",
+		"sources": [ "Black Markets" ],
+		"description": [
+			"{SOURCE Black Markets/4}",
+			"",
+			"Not everyone willingly accepts the limits of the law. Criminals and conspiracies carve out secret alliances shaken by periodic betrayals, power grabs, and turf struggles. Even reputable groups make use of resources and connections that society at large may deem dangerous or distasteful, quietly buying from fences and privateers with black market connections when necessary.",
+			"",
+			"In this section, discover the secret workings of underground economies, including descriptions of the most infamous and wondrous black markets in and around the Inner Sea region. In illicit havens like these, adventurers can command a criminal organization or thieves' guild to rule the back streets and dark alleys using new {rule/downtime} activities."
+		],
+		"subtopics": [
+			"black_markets_in_campaigns",
+			"black_market_rules",
+			"example_black_markets",
+			"criminal_downtime_activities"
+		],
+		"siblings": [
+			"bar_fights",
+			"black_markets",
+			"dungeon_guides",
+			"firearms",
+			"foraging",
+			"harvesting_poisons",
+			"herbalism",
+			"infernal_contracts",
+			"leadership",
+			"pathfinder_chronicles",
+			"salvaging",
+			"siege_engines_uc",
+			"spontaneous_alchemy",
+			"vehicles"
+		],
+		"parent_topics": [ "specific_rulesets" ]
+	},
+	"black_markets_in_campaigns": {
+		"name": "Black Markets in Campaigns",
+		"sources": [ "Black Markets" ],
+		"description": [
+			"{SOURCE Black Markets/4}",
+			"",
+			"Even idealists and wonder-workers are at times driven to the outlaw havens of black markets. Magical visionaries use these unauthorized enterprises to fund and protect their work even when the populace fears and opposes their methods (reasonably or not). Freedom fighters rely on black markets to support their efforts to undermine oppressors. Persecuted faithful and isolated cultists hide their practices and their relics for fear of confiscation and worse, relying on each other for safety - and just as often on the questionable honor of the thieves with whom they must deal."
+		],
+		"subtopics": [
+			"black_markets_as_resources",
+			"black_markets_as_opportunities",
+			"black_market_perceptions"
+		],
+		"siblings": [
+			"black_markets_in_campaigns",
+			"black_market_rules",
+			"example_black_markets",
+			"criminal_downtime_activities"
+		],
+		"parent_topics": [
+			"specific_rulesets",
+			"black_markets"
+		]
+	},
+	"black_markets_as_resources": {
+		"name": "Black Markets as Resources",
+		"sources": [ "Black Markets" ],
+		"description": [
+			"{SOURCE Black Markets/4}",
+			"",
+			"Often, the unscrupulous traders of black markets have the deepest pockets, so adventurers turn to these merchants when the open market doesn't have what they need or law-abiding merchants can't afford to buy what they hope to sell. Conventional criminals - from tax dodgers to unlicensed treasure hunters to contract killers - also appreciate fellow outlaws as their best resources. Ineffectual government means that black market connections are often the fastest and easiest ways to get anything accomplished, even projects dedicated to the common good.",
+			"",
+			"Many illegal goods are still vital and accepted tools for adventurers. {main/Drugs}, {main/equipment_<poisons}, {main/magic_<cursed/ items}, dangerous spells, and {eq-misc/thieves' tools} are often banned from public sale - with good reason - but may prove necessary to those who delve dungeons and face extraordinary challenges, driving otherwise lawful heroes to consort with criminals.",
+			"",
+			"To any enemies of the powers that be, black markets are an invaluable outlet to sell goods and a source of new equipment, especially items deemed dangerous to those very powers. If you seek items to fight undead overlords, a mobile black market is perhaps your sole source of {eq-misc/holy symbol/s}, cure potions, and wands of {spell/bless}. Although this market is run by goodly clerics seeking to protect the living, in this evil land where the government is dominated by undead, the marketeers are outlaws.",
+			"",
+			"Similarly, when wealthy powers use legal means to keep the facts buried, truth-seekers often find themselves criminals, and find only fellow lawbreakers are willing to help (for the right price, of course). The best information brokers, even those dealing in perfectly legal lore and history, are often available only through the black market; few get to be the best in such a trade without breaking a few laws or attracting criminal patrons."
+		],
+		"siblings": [
+			"black_markets_as_resources",
+			"black_markets_as_opportunities",
+			"black_market_perceptions"
+		],
+		"parent_topics": [
+			"specific_rulesets",
+			"black_markets",
+			"black_markets_in_campaigns"
+		]
+	},
+	"black_markets_as_opportunities": {
+		"name": "Black Markets as Adventure Opportunities",
+		"sources": [ "Black Markets" ],
+		"description": [
+			"{SOURCE Black Markets/5}",
+			"",
+			"Adventurers can get involved with black markets in many ways. Each of these risky operations requires protection from whatever authority keeps it illegal. Most also feel the constant pressure of outside criminal groups or monsters hungry for a cut of the profits, or eager to prey on those living outside of the law's protection. Trust is the one commodity not for sale in any black market, and even if your band of thieves lives by a strict code of honor, it takes only one greedy client to bring the town guard knocking on your door, or one dissatisfied vendor to call down a rival syndicate's wrath. And as with any market, visitors may decide that robbery is faster and easier than haggling.",
+			"",
+			"Every black market needs wares delivered or collected, presenting a chance to work on the road. The {npc/pirate_<smuggler/s}, forgers, and brave {npc/mercenary_<caravan guard/s} who perform these tasks form the backbone of any illegal economy. These bold conspirators provide a steady supply of contraband. Trusted agents may also find work scouting new routes, acting as decoys or running shipments on their own.",
+			"",
+			"Most black markets need respectable go-betweens to settle affairs between the shadow world they occupy and the rest of the world. A law-abiding citizen in need of help only the black market can provide may need an advocate to protect her from the robbers and swindlers who call that market home - and that advocate may later need to protect the black-marketeers themselves from the citizen's loose lips. At the same time, criminals sometimes back themselves into a corner, and find themselves unable to call upon the legal authorities for aid or protection. A criminal with an odd disease or cursed item could likely use help getting in touch with the sort of lawful priest or mage who might be able to solve the problem.",
+			"",
+			"For upstanding citizens, black markets represent a chance to champion the authorities by sniffing out and exposing its activities. The authorities might offer rewards for anyone who exposes the markets' lawbreaking, but most lack sufficient personnel or inside knowledge to truly shut down a black market, as most underground economies simply change venues when discovered. Instead, stalwart heroes looking to end such a criminal enterprise must infiltrate the market and expose its leaders, or else address the societal ills that make black markets so profitable."
+		],
+		"siblings": [
+			"black_markets_as_resources",
+			"black_markets_as_opportunities",
+			"black_market_perceptions"
+		],
+		"parent_topics": [
+			"specific_rulesets",
+			"black_markets",
+			"black_markets_in_campaigns"
+		]
+	},
+	"black_market_perceptions": {
+		"name": "Perceptions of Black Markets",
+		"sources": [ "Black Markets" ],
+		"description": [
+			"{SOURCE Black Markets/5}",
+			"",
+			"Black markets provoke emotions of every sort. Despite trends in a nation as a whole, the opinions of individual cities and individual citizens naturally run the gamut.",
+			"",
+			"Nations with a strong sense of authoritarianism or moral rectitude view black markets as disgraces to proper society, and in such nations, fewer citizens dare associate with them. Criminal organizations exist, but the common folk rarely romanticize outlaws. The cities still have black markets, but they are the domain of scofflaws, revolutionaries, spies, and foreigners. If such a black market survives for long, it likely has some form of semi-official agreement with local authorities or powerful patrons.",
+			"",
+			"People from more profit-minded nations are less offended by these markets, recognizing that just because a product is illegal or distasteful doesn't mean it won't have buyers and sellers, even among otherwise lawful citizens. Authorities in these places focus on enforcing fines against violators without worrying about the endless task of eliminating them altogether. Most citizens merely shrug at the existence of these vendors, pointing the curious toward or away from noteworthy locations, depending on how their moral compasses align.",
+			"",
+			"In places where a certain amount of corruption is commonplace, black markets are an unavoidable fact of life, and ordinary citizens likely visit them to buy vital but hard-to-find goods or uncommon luxuries at affordable prices. Criminals, merchants, and even entire markets in these areas likely pay a cut of their profits to local authorities in exchange for turning a blind eye to their illegal activities.",
+			"",
+			"Nations invested in intrigue and spreading their own vision of the world take advantage of black markets inside rival nations. On foreign soil, a black market is a valuable blind spot in the enemy's vision, where their agents can hide, resupply, and find allies. With a little tacit support and clever propaganda, criminal organizations can prove fertile ground in which to plant the seeds of future schemes and networks of contacts.",
+			"",
+			"Nations with valuable artifacts and lost treasures devote much effort to finding and eliminating black markets because they represent the potential loss of extremely potent weapons or symbols. Some citizens may be tempted by the power or wealth these items represent, but others hate foreigners who dare to fleece their nation of its riches by exporting their history and culture. As result, citizens may be highly polarized, immediately either friendly or hostile, should they discover a visitor's black market dealings."
+		],
+		"siblings": [
+			"black_markets_as_resources",
+			"black_markets_as_opportunities",
+			"black_market_perceptions"
+		],
+		"parent_topics": [
+			"specific_rulesets",
+			"black_markets",
+			"black_markets_in_campaigns"
+		]
+	},
+	"black_market_rules": {
+		"name": "Black Market Rules",
+		"sources": [ "Black Markets" ],
+		"description": [
+			"{SOURCE Black Markets/6}",
+			"",
+			"Black markets represent a risky way for the canny adventurer to make lucrative business deals and find special treasures.",
+			"",
+			"A black market sometimes offers more valuable items and more powerful spellcasting services than the settlement in which it is found, but such items and services cost half again more (+50%) than their normal market price unless noted otherwise. Black markets by their very nature are illegal, whether because the sellers and buyers are criminals, local taxes and tariffs aren't paid, or the items or services are banned or stolen.",
+			"",
+			"### Black Market Statistics",
+			"",
+			"| Type | Population Range | Access DC | Modifiers | Qualities | Danger | Purchase Limit |",
+			"| --- | --- | --- | --- | --- | --- | --- |",
+			"| Hideout | 30 or fewer | 12 | 0 | 1 | 5 | 4,000 gp |",
+			"| Den | 31-120 | 15 | 0 | 1 | 10 | 8,000 gp |",
+			"| Hotbed | 121-400 | 18 | +1 | 2 | 10 | 16,000 gp |",
+			"| Underbelly | 401-1,200 | 20 | +1 | 2 | 15 | 35,000 gp |",
+			"| Underground | 1,201-4,000 | 25 | +2 | 3 | 15 | 75,000 gp |",
+			"| Underworld | 4,001 or more | 30 | +2 | 3 | 20 | 150,000 gp |",
+			"",
+			"### Available Magic Items and Spellcasting",
+			"",
+			"| Type | Base Value | Minor | Medium | Major | Spellcasting |",
+			"| --- | --- | --- | --- | --- | --- |",
+			"| Hideout | 1,000 gp | 3d4 items | 1d6 items | - | 3rd |",
+			"| Den | 2,000 gp | 3d4 items | 2d4 items | 1d4 items | 4th |",
+			"| Hotbed | 4,000 gp | 4d4 items | 3d4 items | 1d6 items | 5th |",
+			"| Underbelly | 8,000 gp | 4d4 items | 3d4 items | 2d4 items | 6th |",
+			"| Underground | 16,000 gp | [^A] | 4d4 items | 3d4 items | 7th |",
+			"| Underworld | 32,000 gp | [^A] | [^A] | 4d4 items | 8th |",
+			"",
+			"[^A]: At this size, nearly all magic items of their category are available for purchase"
+		],
+		"subtopics": [
+			"black_market_stat_blocks",
+			"black_market_qualities_disadvantages_feats"
+		],
+		"siblings": [
+			"black_markets_in_campaigns",
+			"black_market_rules",
+			"example_black_markets",
+			"criminal_downtime_activities"
+		],
+		"parent_topics": [
+			"specific_rulesets",
+			"black_markets"
+		]
+	},
+	"black_market_stat_blocks": {
+		"name": "Black Market Stat Blocks",
+		"sources": [ "Black Markets" ],
+		"description": [
+			"{SOURCE Black Markets/6}",
+			"",
+			"Black markets have stat blocks similar to those of {rule/settlements>_in_play} and function as settlements except as noted here. A black market is tied to a settlement that must have at least at least 201 inhabitants (small town or larger), and its population can never exceed half its settlement's population. A mobile market uses the nearest settlement as its host settlement for the purpose of its statistics. A black market stat block is organized as follows.",
+			"",
+			":HL[Name:] The black market's name is presented first.",
+			"",
+			":HL[Alignment and Type:] A black market's alignment almost always differs from that of its settlement, and the majority of the black market's workers and regulars are within one step of the market's alignment rather than the settlement's. A black market's alignment does not affect its modifiers; all black markets instead apply +1 Corruption and Crime modifiers. The type is indicative of the black market's size, whether it's a hideout, a den, a hotbed, an underbelly, an underground, or an underworld. A black market's type determines many of its statistics (see the [tables](rule/black_market_rules)).",
+			"",
+			":HL[Access:] This is the DC of the Diplomacy check to gather the information required to learn about and access the black market. Success reveals how to visit the black market. Failure by 4 or less reveals the market's existence and best-known attributes but not how to access it. Failure by 5 or more attracts unwanted attention or a false lead, and the check cannot be retried for 1 day. The GM might rule that failure by 5 of more results in a random encounter, with criminals who shake down nosy PCs or authorities who question the PCs' search for illegal goods. Regardless of success, each attempt costs 2d4 gp since PCs must buy drinks or otherwise bribe informants.",
+			"",
+			"A Knowledge (local) check against the black market's access DC reveals general information about the black market and its best-known patrons; failure by 5 or less reveals rumors of its existence.",
+			"",
+			":HL[Modifiers:] A black market's modifiers are cumulative with those of its settlement.",
+			"",
+			":HL[Qualities:] A black market's qualities are in addition to those of its settlement. Duplicated qualities don't stack. Danger: A black market's danger value from its type is added to that of its settlement and applies nearby as well as within the black market itself.",
+			"",
+			":HL[Disadvantages:] A black market's disadvantages are in addition to those of its settlement. Disadvantages duplicated by both a black market and its host settlement don't stack.",
+			"",
+			":HL[Government:] This entry lists how the black market is run. Most black markets are anarchies or run by secret syndicates. Modifiers for government types duplicated between a black market and its host settlement don't stack.",
+			"",
+			":HL[Population:] This number represents the number of people who regularly sell, buy, or otherwise maintain contact with the black market. Most are not present at any given time.",
+			"",
+			":HL[Notable NPCs:] This entry lists the key NPCs' roles, names, and abbreviated statistics.",
+			"",
+			":HL[Base Value, Purchase Limit, Spellcasting, and Minor Items/Medium Items/Major Items:] These values are set by the black market's type."
+		],
+		"siblings": [
+			"black_market_stat_blocks",
+			"black_market_qualities_disadvantages_feats"
+		],
+		"parent_topics": [
+			"specific_rulesets",
+			"black_markets",
+			"black_market_rules"
+		]
+	},
+	"black_market_qualities_disadvantages_feats": {
+		"name": "Black Market Qualities, Disadvantages, and Feats",
+		"sources": [ "Black Markets" ],
+		"description": [
+			"{SOURCE Black Markets/7}",
+			"",
+			"In addition to {rule/settlement>s_in_play} qualities, black markets can have any of the following qualities.",
+			"",
+			":HL[Diverse Economy:] The black market attracts an especially wide array of vendors. (Economy +1; increase base price by 20%; double magic item availability)",
+			"",
+			":HL[Mobile:] The market relocates often within its settlement, or operates from a roving caravan. (Access DC +3; Economy -1; Lore +1)",
+			"",
+			":HL[Official Understanding:] The black market is tolerated by government authorities. Guards might be authorized to look the other way to keep the peace or they accept bribes to provide security. (Access DC -8; Corruption +1; Law +3)",
+			"",
+			":HL[Persecuted Enclave:] The black market hosts a cult or another minority persecuted by the wider society. (Access DC +2; Corruption, Crime, and Economy -1; increase base price by 20%)",
+			"",
+			":HL[Secretive:] The black market is particularly difficult for outsiders to find. (Access DC +2)",
+			"",
+			":HL[Specialized Market:] The black market specializes in one or a few types of items or services. (Lore +2 regarding related topics; increase base price and purchase limit by 50% for related items)",
+			"",
+			"### Black Market Disadvantage",
+			"",
+			"In addition to settlement disadvantages, black markets can have the following disadvantage.",
+			"",
+			":HL[Violent:] Monsters or violent criminals take advantage of the black market's isolation from government protection. (Economy, Law, and Society -2; Danger +10)",
+			"",
+			"### Feats",
+			"",
+			"The following feats are used by patrons of black markets.",
+			"",
+			"- {feat/Black Market Dealings}",
+			"- {feat/Black Market Sleuth}",
+			"- {feat/Connected Criminal}",
+			"- {feat/Wary Smuggler}"
+		],
+		"siblings": [
+			"black_market_stat_blocks",
+			"black_market_qualities_disadvantages_feats"
+		],
+		"parent_topics": [
+			"specific_rulesets",
+			"black_markets",
+			"black_market_rules"
+		]
+	},
+	"example_black_markets": {
+		"name": "Example Black Markets",
+		"sources": [ "Black Markets" ],
+		"description": [
+			"{SOURCE Black Markets/8}",
+			"",
+			"Black markets can be found anywhere that has laws to evade. Each black market described here includes its stat block and a :HL[trait] for those with ties to that market."
+		],
+		"subtopics": [
+			"dusk_market",
+			"nightstalls",
+			"red_silk_route",
+			"tarnished_halls",
+			"wagons_of_light",
+			"witchmarket"
+		],
+		"siblings": [
+			"black_markets_in_campaigns",
+			"black_market_rules",
+			"example_black_markets",
+			"criminal_downtime_activities"
+		],
+		"parent_topics": [
+			"specific_rulesets",
+			"black_markets"
+		]
+	},
+	"dusk_market": {
+		"name": "Dusk Market",
+		"subtitle": "Black Markets",
+		"sources": [ "Black Markets" ],
+		"description": [
+			"{SOURCE Black Markets/8}",
+			"",
+			"**Associated Trait:** :hll[trait/Dusk Market Bribery]",
+			"",
+			"LE underground  ",
+			"**Access DC** 20  ",
+			"**Corruption** +6; **Crime** +6; **Economy** +3; **Law** -2; **Lore** +3; **Society** +2  ",
+			"**Qualities** mobile, notorious, official understanding  ",
+			"**Danger** +25",
+			"",
+			"### Demographics",
+			"",
+			"**Government** secret syndicate  ",
+			"**Population** 1,501 (1,126 humans, 223 halflings, 102 tieflings, 50 others)",
+			"",
+			"### Notable NPCs",
+			"",
+			">**Crooked Dottari Major Eco Drumanis** (CE male tiefling fighter 6)  ",
+			">**Monster Hunter Bellana Maxatari** (N female human ranger 8)",
+			"",
+			"### Marketplace",
+			"",
+			"**Base Value** 20,800 gp; **Purchase Limit** 112,500 gp; **Spellcasting** 7th  ",
+			"**Minor Items** all available; **Medium Items** 4d4; **Major Items** 3d4"
+		],
+		"siblings": [
+			"dusk_market",
+			"nightstalls",
+			"red_silk_route",
+			"tarnished_halls",
+			"wagons_of_light",
+			"witchmarket"
+		],
+		"parent_topics": [
+			"specific_rulesets",
+			"black_markets",
+			"example_black_markets"
+		]
+	},
+	"nightstalls": {
+		"name": "Nightstalls",
+		"subtitle": "Black Markets",
+		"sources": [ "Black Markets" ],
+		"description": [
+			"{SOURCE Black Markets/8}",
+			"",
+			"**Associated Trait:** :hll[trait/Nightstalls Navigator]",
+			"",
+			"NE underworld  ",
+			"**Access DC** 22  ",
+			"**Corruption** +6; **Crime** +5; **Economy** +6; **Law** -1; **Lore** +2; **Society** +2  ",
+			"**Qualities** diverse economy, official understanding, prosperous  ",
+			"**Danger** +20",
+			"",
+			"### Demographics",
+			"",
+			"**Government** secret syndicate  ",
+			"**Population** 5,623 (4,708 humans, 247 dwarves, 191 half-elves, 172 halflings, 114 gnomes, 93 half-orcs, 98 others); approximately 30% are slaves",
+			"",
+			"### Notable NPCs",
+			"",
+			">**Aspis Agent Fatima Jel-Abar** (NE female human rogue 6)  ",
+			">**Slave Master Lord Oslynn Clarion** (LE male half-elf aristocrat 8)",
+			"",
+			"### Marketplace",
+			"",
+			"**Base Value** 48,000 gp; **Purchase Limit** 225,000 gp; **Spellcasting** 8th  ",
+			"**Minor Items** all available; **Medium Items** all available; **Major Items** 8d4"
+		],
+		"siblings": [
+			"dusk_market",
+			"nightstalls",
+			"red_silk_route",
+			"tarnished_halls",
+			"wagons_of_light",
+			"witchmarket"
+		],
+		"parent_topics": [
+			"specific_rulesets",
+			"black_markets",
+			"example_black_markets"
+		]
+	},
+	"red_silk_route": {
+		"name": "Red Silk Route",
+		"subtitle": "Black Markets",
+		"sources": [ "Black Markets" ],
+		"description": [
+			"{SOURCE Black Markets/9}",
+			"",
+			"**Associated Trait:** :hll[trait/Red Silk Frankness]",
+			"",
+			"N underground  ",
+			"**Access DC** 17  ",
+			"**Corruption** +6; **Crime** +5; **Economy** +6; **Law** -1; **Lore** +2; **Society** +2  ",
+			"**Qualities** official understanding, strategic location, tourist attraction  ",
+			"**Danger** +15",
+			"",
+			"### Demographics",
+			"",
+			"**Government** secret syndicate  ",
+			"**Population** 3,126 (1,909 humans, 326 gnomes, 291 half-elves, 267 halflings, 155 dwarves, 88 elves, 29 half-orcs, 61 others)",
+			"",
+			"### Notable NPCs",
+			"",
+			">**Forthright Men Guildmaster The Jester** (LN male halfling bard 11)  ",
+			">**Captain of the Token Guard Lady Kythes Finch** (N female human cavalier 7)  ",
+			">**Revelant Ainnette Metimer** (LE male half-elf cleric of Calistria 9)",
+			"",
+			"### Marketplace",
+			"",
+			"**Base Value** 24,800 gp; **Purchase Limit** 75,000 gp; **Spellcasting** 7th  ",
+			"**Minor Items** all available; **Medium Items** 4d4; **Major Items** 3d4"
+		],
+		"siblings": [
+			"dusk_market",
+			"nightstalls",
+			"red_silk_route",
+			"tarnished_halls",
+			"wagons_of_light",
+			"witchmarket"
+		],
+		"parent_topics": [
+			"specific_rulesets",
+			"black_markets",
+			"example_black_markets"
+		]
+	},
+	"tarnished_halls": {
+		"name": "Tarnished Halls",
+		"subtitle": "Black Markets",
+		"sources": [ "Black Markets" ],
+		"description": [
+			"{SOURCE Black Markets/9}",
+			"",
+			"**Associated Trait:** :hll[trait/Tarnished Halls Runner]",
+			"",
+			"CE hotbed  ",
+			"**Access DC** 20  ",
+			"**Corruption** +4; **Crime** +5; **Economy** +2; **Law** -6; **Lore** +1 (+3 alien goods and technology); **Society** -1  ",
+			"**Qualities** notorious, specialized market (alien goods, technology)  ",
+			"**Danger** +30; **Disadvantages** violent",
+			"",
+			"### Demographics",
+			"",
+			"**Government** secret syndicate  ",
+			"**Population** 228 (167 humans, 19 halflings, 13 half-orcs, 8 androids, 7 dwarves, 5 orcs, 4 ratfolk, 5 others)",
+			"",
+			"### Notable NPCs",
+			"",
+			">**Blood Gar Captain Drakenda Kuldar** (NE female human slayer 6)  ",
+			">**Rogue Technomancer Tallend Halant** (CN female android sorcerer 9)",
+			"",
+			"### Marketplace",
+			"",
+			"**Base Value** 4,000 gp (6,000 gp alien goods and technology); **Purchase Limit** 24,000 gp (32,000 gp alien goods and technology); **Spellcasting** 5th  ",
+			"**Minor Items** 4d4; **Medium Items** 3d4; **Major Items** 1d6"
+		],
+		"siblings": [
+			"dusk_market",
+			"nightstalls",
+			"red_silk_route",
+			"tarnished_halls",
+			"wagons_of_light",
+			"witchmarket"
+		],
+		"parent_topics": [
+			"specific_rulesets",
+			"black_markets",
+			"example_black_markets"
+		]
+	},
+	"wagons_of_light": {
+		"name": "Wagons of Light",
+		"subtitle": "Black Markets",
+		"sources": [ "Black Markets" ],
+		"description": [
+			"{SOURCE Black Markets/9}",
+			"",
+			"**Associated Trait:** :hll[trait/Covert Channeler]",
+			"",
+			"NG den  ",
+			"**Access DC** 18  ",
+			"**Corruption** -5; **Crime** +1; **Economy** -1; **Law** +0; **Lore** +3; **Society** -2  ",
+			"**Qualities** mobile  ",
+			"**Danger** +10; **Disadvantages** cursed",
+			"",
+			"### Demographics",
+			"",
+			"**Government** magical  ",
+			"**Population** 101 (81 humans, 9 halflings, 6 dhampirs, 5 others)",
+			"",
+			"### Notable NPCs",
+			"",
+			">**Evangelist Ulliah Muharim** (NG male human warpriest of Sarenrae 11)  ",
+			">**Desnan Guide Ixilia Obeg** (N female dhampir rogue 7)",
+			"",
+			"### Marketplace",
+			"",
+			"**Base Value** 2,000 gp; **Purchase Limit** 8,000 gp; **Spellcasting** 5th  ",
+			"**Minor Items** 3d4; **Medium Items** 2d4; **Major Items** 1d4"
+		],
+		"siblings": [
+			"dusk_market",
+			"nightstalls",
+			"red_silk_route",
+			"tarnished_halls",
+			"wagons_of_light",
+			"witchmarket"
+		],
+		"parent_topics": [
+			"specific_rulesets",
+			"black_markets",
+			"example_black_markets"
+		]
+	},
+	"witchmarket": {
+		"name": "Witchmarket",
+		"subtitle": "Black Markets",
+		"sources": [ "Black Markets" ],
+		"description": [
+			"{SOURCE Black Markets/9}",
+			"",
+			"**Associated Trait:** :hll[trait/Hex-Proof]",
+			"",
+			"CN underbelly  ",
+			"**Access DC** 22  ",
+			"**Corruption** +4; **Crime** +0; **Economy** +2; **Law** +3; **Lore** +1; **Society** -1  ",
+			"**Qualities** diverse economy, magically attuned  ",
+			"**Danger** +15",
+			"",
+			"### Demographics",
+			"",
+			"**Government** overlord  ",
+			"**Population** 537 (297 fey, 55 hags, 43 gnomes, 37 elves, 34 humans, 17 half-elves, 44 others)",
+			"",
+			"### Notable NPCs",
+			"",
+			">**Crone in the Cart Aggys** (LE female green hag witch 13)  ",
+			">**Huckster Vitalion** (CN male satyr bard 4)",
+			"",
+			"### Marketplace",
+			"",
+			"**Base Value** 11,200 gp; **Purchase Limit** 42,000 gp; **Spellcasting** 8th  ",
+			"**Minor Items** 8d4; **Medium Items** 6d4; **Major Items** 4d4"
+		],
+		"siblings": [
+			"dusk_market",
+			"nightstalls",
+			"red_silk_route",
+			"tarnished_halls",
+			"wagons_of_light",
+			"witchmarket"
+		],
+		"parent_topics": [
+			"specific_rulesets",
+			"black_markets",
+			"example_black_markets"
+		]
+	},
+	"criminal_downtime_activities": {
+		"name": "Criminal Downtime Activities",
+		"sources": [
+			"Black Markets",
+			"Cohorts and Companions"
+		],
+		"description": [
+			"{SOURCE Black Markets/10}",
+			"",
+			"Even between adventures, black markets bustle with intrigue, opportunity, and trouble. Thieves' guilds, shadowy cabals, and other black market organizations can all make use of the {rule/downtime} rules.",
+			"",
+			"### Crime in Downtime",
+			"",
+			"{SOURCE Cohorts and Companions/26}  ",
+			"Most inexperienced thieves think that a job has three parts: get in, get the goods, get out. But there's a fourth part that's most important of all: get away with it. Any worthwhile haul leaves behind a furious former owner scouring the area for the culprit. That means you might need an alibi, and allies to divert their attention. If you're using downtime to plan a heist, the {rule/Scheme for an Upcoming Adventure} action is your best friend, but you can also use the following modifications and additions to the downtime rules in your preparations - and to cover your tracks.",
+			"",
+			"### Spending Limits",
+			"",
+			"{SOURCE Black Markets/10}  ",
+			"Black markets have spending limits just like settlements, representing how much help you can get in a given day. A black market uses the spending limits of its host {rule/settlement>s_in_play}, though it can exceed that settlement's normal limit. In such a case, all capital spent beyond the settlement's normal spending limit can be applied only toward black market businesses and activities. The following numbers represent the limit of Goods, Influence, and Labor you can use in a black market each day.",
+			"",
+			"| Black Market Type | Limit Per Day |",
+			"| --- | --- |",
+			"| Hideout | 5 |",
+			"| Den | 10 |",
+			"| Hotbed | 15 |",
+			"| Underbelly | 25 |",
+			"| Underground | 35 |",
+			"| Underworld | 50 |"
+		],
+		"subtopics": [
+			"downtime_and_teams",
+			"alibi",
+			"blackmail",
+			"coerce",
+			"enforce_order",
+			"heist",
+			"infiltrate",
+			"manipulate_evidence",
+			"prepare_resources",
+			"recruit_discreetly",
+			"smuggle",
+			"street_violence",
+			"transport"
+		],
+		"siblings": [
+			"black_markets_in_campaigns",
+			"black_market_rules",
+			"example_black_markets",
+			"criminal_downtime_activities"
+		],
+		"parent_topics": [
+			"specific_rulesets",
+			"black_markets"
+		]
+	},
+	"downtime_and_teams": {
+		"name": "Downtime and Teams",
+		"subtitle": "Criminal Downtime Activities",
+		"sources": [ "Black Markets" ],
+		"description": [
+			"{SOURCE Black Markets/10}",
+			"",
+			"The downtime activities listed in this section can also be performed by your teams. You cannot use a team to earn capital on the same day it is engaged in another downtime activity. When a team performs one of these downtime activities, it attempts a check using the same bonus it uses to attempt a check to earn capital. Multiple teams can collaborate on a downtime activity check, using the largest bonus available, and gaining a +2 bonus for each team assisting (maximum +4). Teams that do not have a listed bonus for a specific type of capital cannot attempt or collaborate on checks of that type.",
+			"",
+			"PCs who dispatch teams to do their dirty work risk their employees' safety. If a team fails its downtime activity check by 4 or less, it is reported. If the team fails the check by 5 or more, it is instead broken up.",
+			"",
+			":HL[Reported:] A team performing an illegal activity or negotiating with disreputable sorts may need to lie low when it fails at a task. A team that fails a downtime activity check may be detained by the authorities, lose confidence, or go into hiding from angry rivals, becoming unavailable for 2d6 days. The character who controls the reported team can spend 1 day of downtime attempting to ease feelings with a successful Bluff check (DC = 20 + the settlement or black market's Corruption or Law modifier, depending on whether the team is in trouble with other criminals or with the law, respectively) to reduce the team's exile to 1d6 days. 10",
+			"",
+			"Depending on the circumstances, the GM may allow different skill checks to reduce a team's exile - a Profession (barrister) check may be useful in freeing a team detained by the local guard, for example.",
+			"",
+			":HL[Broken Up:] The dangers of a criminal life sometimes lead to bad ends, and any team that fails a downtime activity check by 5 or more is broken up - its members are dead, imprisoned, or simply putting crime behind them. If the character who controls the broken-up team succeeds at a Diplomacy or Intimidate check (DC = 20 + the settlement or black market's Crime modifier), she can salvage enough resources - equipment, notes, and surviving team members - to reduce the capital cost of recruiting an identical team by half."
+		],
+		"siblings": [
+			"downtime_and_teams",
+			"alibi",
+			"blackmail",
+			"coerce",
+			"enforce_order",
+			"heist",
+			"infiltrate",
+			"manipulate_evidence",
+			"prepare_resources",
+			"recruit_discreetly",
+			"smuggle",
+			"street_violence",
+			"transport"
+		],
+		"parent_topics": [
+			"specific_rulesets",
+			"black_markets",
+			"criminal_downtime_activities"
+		]
+	},
+	"alibi": {
+		"name": "Alibi",
+		"subtitle": "Criminal Downtime Activities",
+		"sources": [ "Black Markets" ],
+		"description": [
+			"{SOURCE Black Markets/10}",
+			"",
+			"With a successful DC 15 Bluff or Influence check, you or a team can spend 1 day of downtime to interfere with a current or future investigation. This applies a +2 bonus to any Bluff check to convince others you were uninvolved in a specific event of your choice that happened in the past 48 hours or will happen within 24 hours. You can spend 1 point of Influence to increase this bonus to +5."
+		],
+		"siblings": [
+			"downtime_and_teams",
+			"alibi",
+			"blackmail",
+			"coerce",
+			"enforce_order",
+			"heist",
+			"infiltrate",
+			"manipulate_evidence",
+			"prepare_resources",
+			"recruit_discreetly",
+			"smuggle",
+			"street_violence",
+			"transport"
+		],
+		"parent_topics": [
+			"specific_rulesets",
+			"black_markets",
+			"criminal_downtime_activities"
+		]
+	},
+	"blackmail": {
+		"name": "Blackmail",
+		"subtitle": "Criminal Downtime Activities",
+		"sources": [ "Black Markets" ],
+		"description": [
+			"{SOURCE Black Markets/10}",
+			"",
+			"You can spend 1 day of downtime to learn an incriminating secret about someone. To learn a secret about your target, you or a team must succeed at a Diplomacy (gather information) or Influence check with a DC equal to 10 + target's Hit Dice + the target's Charisma modifier. On a successful check, you can pay 10 gp per Hit Die to learn the secret.",
+			"",
+			"You can reveal this secret at any time to gain a +5 circumstance bonus on a single Intimidate check against your target. On a successful check, the target's attitude remains friendly toward you for 1d6 days, rather than 1d6 &times; 10 minutes, then degrades by one category each day until the target's attitude become hostile. Alternatively, you can reveal a secret while coercing your target (see below) to automatically succeed at your Intimidate check to coerce that target. Once a secret has been revealed, you can't use it again."
+		],
+		"siblings": [
+			"downtime_and_teams",
+			"alibi",
+			"blackmail",
+			"coerce",
+			"enforce_order",
+			"heist",
+			"infiltrate",
+			"manipulate_evidence",
+			"prepare_resources",
+			"recruit_discreetly",
+			"smuggle",
+			"street_violence",
+			"transport"
+		],
+		"parent_topics": [
+			"specific_rulesets",
+			"black_markets",
+			"criminal_downtime_activities"
+		]
+	},
+	"coerce": {
+		"name": "Coerce",
+		"subtitle": "Criminal Downtime Activities",
+		"sources": [ "Black Markets" ],
+		"description": [
+			"{SOURCE Black Markets/10}",
+			"",
+			"You or your team uses 1 day of downtime to browbeat a person or team with a successful Intimidate or Influence check (DC = 15 + target's Hit Dice + target's Wisdom modifier). If you succeed, you can coerce the foe to perform a downtime activity on your behalf, or no activity for 1 day. Whether you succeed or fail, the target's attitude becomes unfriendly."
+		],
+		"siblings": [
+			"downtime_and_teams",
+			"alibi",
+			"blackmail",
+			"coerce",
+			"enforce_order",
+			"heist",
+			"infiltrate",
+			"manipulate_evidence",
+			"prepare_resources",
+			"recruit_discreetly",
+			"smuggle",
+			"street_violence",
+			"transport"
+		],
+		"parent_topics": [
+			"specific_rulesets",
+			"black_markets",
+			"criminal_downtime_activities"
+		]
+	},
+	"enforce_order": {
+		"name": "Enforce Order",
+		"subtitle": "Criminal Downtime Activities",
+		"sources": [ "Black Markets" ],
+		"description": [
+			"{SOURCE Black Markets/11}",
+			"",
+			"Your team keeps the black market relatively safe for customers and vendors for 1 day. Enforcing order requires a successful Influence or Labor check against the black market's access DC. Success raises the black market's Law modifier by 2 and reduces its Danger by 10 for 24 hours. While your agents enforce order, merchants and patrons might approach you to resolve internal disputes or address outside concerns (such as unaligned thieves or nosy guards)."
+		],
+		"siblings": [
+			"downtime_and_teams",
+			"alibi",
+			"blackmail",
+			"coerce",
+			"enforce_order",
+			"heist",
+			"infiltrate",
+			"manipulate_evidence",
+			"prepare_resources",
+			"recruit_discreetly",
+			"smuggle",
+			"street_violence",
+			"transport"
+		],
+		"parent_topics": [
+			"specific_rulesets",
+			"black_markets",
+			"criminal_downtime_activities"
+		]
+	},
+	"heist": {
+		"name": "Heist",
+		"subtitle": "Criminal Downtime Activities",
+		"sources": [ "Black Markets" ],
+		"description": [
+			"{SOURCE Black Markets/11}",
+			"",
+			"One or more of your loyal teams {rule/infiltrate} (see next topic) an organization or property to steal valuables or information. You must spend 1 day of downtime and succeed at an Appraise or Sense Motive check (DC = 20 + settlement or black market's Law modifier) to assemble the ideal recruits and provide them the necessary information on their target.",
+			"",
+			"At any point in the next week, your assembled team or teams can perform their heist, attempting a check to earn capital as if performing skilled work. Because this capital is stolen from another organization, you do not need to pay the associated gp cost for earning capital. Assembled teams must succeed at a DC 20 check to earn capital, or else they fail and are reported or broken up. Performing a heist to generate Magic capital imposes a -5 penalty on this check.",
+			"",
+			"Regardless of the result, your target suspects your involvement. Blame can be deflected with a successful Bluff check, which may benefit from an {rule/alibi} or {rule/manipulat[ing]«e» evidence}. To perform a heist without arousing too much suspicion, your team must first infiltrate it (see next topic)."
+		],
+		"siblings": [
+			"downtime_and_teams",
+			"alibi",
+			"blackmail",
+			"coerce",
+			"enforce_order",
+			"heist",
+			"infiltrate",
+			"manipulate_evidence",
+			"prepare_resources",
+			"recruit_discreetly",
+			"smuggle",
+			"street_violence",
+			"transport"
+		],
+		"parent_topics": [
+			"specific_rulesets",
+			"black_markets",
+			"criminal_downtime_activities"
+		]
+	},
+	"infiltrate": {
+		"name": "Infiltrate",
+		"subtitle": "Criminal Downtime Activities",
+		"sources": [ "Black Markets" ],
+		"description": [
+			"{SOURCE Black Markets/11}",
+			"",
+			"You spend 1 day of downtime to insert one of your teams into another organization to feed you information or steal resources. Doing so requires a successful Disguise or Bluff check against a DC of 20, modified by the settlement or black market's Crime (for criminal organizations), Law (for law enforcement and military organizations), or Society (for governments and businesses) modifier. While infiltrating another organization, your team can attempt checks to earn capital on your behalf, using any non-team bonuses provided by the infiltrated organization's facilities and resources; you must still pay any associated cost for earning capital. Alternatively, your team can spend 1 day of downtime to attempt a check to earn capital and treat the result as a Diplomacy check to gather information regarding the organization, reporting the discoveries to you.",
+			"",
+			"An infiltrating team remains ensconced for 1 week, plus 1 week if you succeeded at your initial check by 5 or more. You can perform the infiltrate activity up to once per week to maintain a team's infiltration for extended periods. An infiltrating team can perform no other downtime activities on your behalf.",
+			"",
+			"Instead of earning capital or gathering information, an infiltrating team can spend 1 day to perform a {rule/heist} (see previous topic). This ends the infiltration, but deflects any suspicion away from you or your organization; the target of the heist must succeed at a DC 20 Perception check (modified by the earning bonus your team used) to find any evidence of your involvement. Targets that fail their Perception checks by 5 or more don't realize they were robbed."
+		],
+		"siblings": [
+			"downtime_and_teams",
+			"alibi",
+			"blackmail",
+			"coerce",
+			"enforce_order",
+			"heist",
+			"infiltrate",
+			"manipulate_evidence",
+			"prepare_resources",
+			"recruit_discreetly",
+			"smuggle",
+			"street_violence",
+			"transport"
+		],
+		"parent_topics": [
+			"specific_rulesets",
+			"black_markets",
+			"criminal_downtime_activities"
+		]
+	},
+	"manipulate_evidence": {
+		"name": "Manipulate Evidence",
+		"subtitle": "Criminal Downtime Activities",
+		"sources": [ "Cohorts and Companions" ],
+		"description": [
+			"{SOURCE Cohorts and Companions/26}",
+			"",
+			"A stealthy thief may never be seen, but she still leaves evidence of her criminal activities. This activity enables you to attempt to remove genuine clues that you left during the crime, and set up false ones to misdirect investigations. These are two related but separate activities - you can set up some false clues before the actual crime is committed, but can erase evidence only during or after the act. Manipulating evidence works like {rule/spend[ing] capital to boost [skill ]checks}, expect you spend capital to impose penalties on a specific kind of check attempted by other characters. You select one skill and one event that skill might be applied to: for the next 1d6 days, anyone using that skill to gain information about the event in question takes a -1 penalty for each point of capital spent. As with spending capital to boost skill checks, the GM must agree your proposed use of capital is reasonable for the task at hand.",
+			"",
+			"For example, a rogue sneaks into a baron's keep and steals jewelry. He sells the jewelry on the black market, and now wants to make it difficult for anyone to use Diplomacy to gather information about the sale that points back to him. His player tells the GM he wants to spend 5 points of Influence to get word out to his underworld contacts that if he is implicated for the crime, anyone who helped handle the stolen goods is likely to be arrested as well. The GM agrees the subtle reminder of the cost of being a snitch is effective, and for 1d6 days anyone using Diplomacy to attempt to gain information about the sale of the stolen jewelry takes a -5 penalty."
+		],
+		"siblings": [
+			"downtime_and_teams",
+			"alibi",
+			"blackmail",
+			"coerce",
+			"enforce_order",
+			"heist",
+			"infiltrate",
+			"manipulate_evidence",
+			"prepare_resources",
+			"recruit_discreetly",
+			"smuggle",
+			"street_violence",
+			"transport"
+		],
+		"parent_topics": [
+			"specific_rulesets",
+			"black_markets",
+			"criminal_downtime_activities"
+		]
+	},
+	"prepare_resources": {
+		"name": "Prepare Resources",
+		"subtitle": "Criminal Downtime Activities",
+		"sources": [ "Cohorts and Companions" ],
+		"description": [
+			"{SOURCE Cohorts and Companions/26}",
+			"",
+			"You form a brilliant but unrevealed plan for upcoming contingencies, spending two days of downtime to effectively bank one day to use later. During an encounter, you can explain how you foresaw the current circumstances and what simple steps you took to prepare for them. Roll an Intelligence or Wisdom check against DC 20 - if your goals in this adventure are actively opposed to another character, instead make an opposed check against your opponent's respective attribute. If you succeed, the time you spent planning ahead means that you foresaw this situation and can retroactively spend 1 day of banked downtime in any normal downtime activity. Alternatively, you ensure that any party member has brought along any small, portable item that the party has easy access to but which does not currently appear to be in your possession (paying the cost of that item normally).",
+			"",
+			"You cannot use this ability to retroactively know something you could not possibly have known. You must be able to show how you might have deduced the need for your preparations based on the information available at the time. The GM is the sole arbiter of whether this is plausible. If she rules that you cannot use the banked downtime in a particular way, you retain the downtime. You can bank a maximum number of days of downtime equal to 1 + your Wisdom modifier (minimum 0), and can never use more than 1 banked day in a single encounter."
+		],
+		"siblings": [
+			"downtime_and_teams",
+			"alibi",
+			"blackmail",
+			"coerce",
+			"enforce_order",
+			"heist",
+			"infiltrate",
+			"manipulate_evidence",
+			"prepare_resources",
+			"recruit_discreetly",
+			"smuggle",
+			"street_violence",
+			"transport"
+		],
+		"parent_topics": [
+			"specific_rulesets",
+			"black_markets",
+			"criminal_downtime_activities"
+		]
+	},
+	"recruit_discreetly": {
+		"name": "Recruit Discreetly",
+		"subtitle": "Criminal Downtime Activities",
+		"sources": [ "Cohorts and Companions" ],
+		"description": [
+			"{SOURCE Cohorts and Companions/27}",
+			"",
+			"The {rule/recruit for an organization} downtime activity is a public process as appropriate for your organization - while a rogue recruiting for a gang of cutpurses obviously doesn't advertise the activity among law-abiding citizens, the recruitment is common knowledge among nearby criminals and underground organizations. You may instead recruit discreetly, allowing you to create teams and rooms in secret. To do you, attempt a DC 25 Knowledge (local) check or Diplomacy check to gather information followed by a DC 25 Sense Motive check to carefully consider who you tell about your recruitment. Alternatively, you can recruit discreetly by paying double the normal cost to create a team - this accounts for paying for people's silence and going the extra mile to research recruits before speaking to them. {rule/rooms_and_<Teams/ and rooms} recruited in this way are not common knowledge even among groups from which you recruited, and the DC of any skill check to learn information about them (including their existence) is increased by your character level."
+		],
+		"siblings": [
+			"downtime_and_teams",
+			"alibi",
+			"blackmail",
+			"coerce",
+			"enforce_order",
+			"heist",
+			"infiltrate",
+			"manipulate_evidence",
+			"prepare_resources",
+			"recruit_discreetly",
+			"smuggle",
+			"street_violence",
+			"transport"
+		],
+		"parent_topics": [
+			"specific_rulesets",
+			"black_markets",
+			"criminal_downtime_activities"
+		]
+	},
+	"smuggle": {
+		"name": "Smuggle",
+		"subtitle": "Criminal Downtime Activities",
+		"sources": [ "Black Markets" ],
+		"description": [
+			"{SOURCE Black Markets/11}",
+			"",
+			"Your team performs a {rule/transport} activity, but moves illegal goods or circumvents normal taxes and fees. Smuggling adds 1 additional day to the travel time, and the final downtime activity check DC is modified by the settlement's Law modifier."
+		],
+		"siblings": [
+			"downtime_and_teams",
+			"alibi",
+			"blackmail",
+			"coerce",
+			"enforce_order",
+			"heist",
+			"infiltrate",
+			"manipulate_evidence",
+			"prepare_resources",
+			"recruit_discreetly",
+			"smuggle",
+			"street_violence",
+			"transport"
+		],
+		"parent_topics": [
+			"specific_rulesets",
+			"black_markets",
+			"criminal_downtime_activities"
+		]
+	},
+	"street_violence": {
+		"name": "Street Violence",
+		"subtitle": "Criminal Downtime Activities",
+		"sources": [ "Black Markets" ],
+		"description": [
+			"{SOURCE Black Markets/11}",
+			"",
+			"You order a team to capture, intimidate, or slay a target team or creature with a CR at least 3 less than your character level. With a successful Labor check against a DC of 11 + double the target's CR or earning bonus, the target creature or team is intimidated or injured, and is unable to engage in any downtime activities for 1d6 days. If your team succeeds by 5 or more, the target creature is instead captured or killed, or the target team is broken up."
+		],
+		"siblings": [
+			"downtime_and_teams",
+			"alibi",
+			"blackmail",
+			"coerce",
+			"enforce_order",
+			"heist",
+			"infiltrate",
+			"manipulate_evidence",
+			"prepare_resources",
+			"recruit_discreetly",
+			"smuggle",
+			"street_violence",
+			"transport"
+		],
+		"parent_topics": [
+			"specific_rulesets",
+			"black_markets",
+			"criminal_downtime_activities"
+		]
+	},
+	"transport": {
+		"name": "Transport",
+		"subtitle": "Criminal Downtime Activities",
+		"sources": [ "Black Markets" ],
+		"description": [
+			"{SOURCE Black Markets/11}",
+			"",
+			"You dispatch a team to move specific items, people, or capital from one place or organization to another. The team becomes unavailable for the duration of the trip (minimum 1 day). At the end of its journey, a successful downtime activity check by the assigned team (DC = 5 + days traveled) means their goods arrived safely and intact. On a failure, the team is robbed or skims off the top, losing half the cargo's value. If its check fails by 5 or more, the team breaks up or goes rogue, and you lose both the team and the valuables it was transporting."
+		],
+		"siblings": [
+			"downtime_and_teams",
+			"alibi",
+			"blackmail",
+			"coerce",
+			"enforce_order",
+			"heist",
+			"infiltrate",
+			"manipulate_evidence",
+			"prepare_resources",
+			"recruit_discreetly",
+			"smuggle",
+			"street_violence",
+			"transport"
+		],
+		"parent_topics": [
+			"specific_rulesets",
+			"black_markets",
+			"criminal_downtime_activities"
+		]
+	},
 	"dungeon_guides": {
 		"name": "Dungeon Guides",
 		"sources": [ "Dungeoneer's Handbook" ],
@@ -209,6 +1242,7 @@
 		],
 		"siblings": [
 			"bar_fights",
+			"black_markets",
 			"dungeon_guides",
 			"firearms",
 			"foraging",
@@ -337,6 +1371,7 @@
 		],
 		"siblings": [
 			"bar_fights",
+			"black_markets",
 			"dungeon_guides",
 			"firearms",
 			"foraging",
@@ -526,6 +1561,7 @@
 		"parent_topics": [ "specific_rulesets" ],
 		"siblings": [
 			"bar_fights",
+			"black_markets",
 			"dungeon_guides",
 			"firearms",
 			"foraging",
@@ -569,6 +1605,7 @@
 		"subtopics": [ "crafting_antivenom" ],
 		"siblings": [
 			"bar_fights",
+			"black_markets",
 			"dungeon_guides",
 			"firearms",
 			"foraging",
@@ -647,6 +1684,7 @@
 		"parent_topics": [ "specific_rulesets" ],
 		"siblings": [
 			"bar_fights",
+			"black_markets",
 			"dungeon_guides",
 			"firearms",
 			"foraging",
@@ -679,6 +1717,7 @@
 		],
 		"siblings": [
 			"bar_fights",
+			"black_markets",
 			"dungeon_guides",
 			"firearms",
 			"foraging",
@@ -716,6 +1755,7 @@
 		],
 		"siblings": [
 			"bar_fights",
+			"black_markets",
 			"dungeon_guides",
 			"firearms",
 			"foraging",
@@ -1050,6 +2090,7 @@
 		],
 		"siblings": [
 			"bar_fights",
+			"black_markets",
 			"dungeon_guides",
 			"firearms",
 			"foraging",
@@ -1447,6 +2488,7 @@
 		],
 		"siblings": [
 			"bar_fights",
+			"black_markets",
 			"dungeon_guides",
 			"firearms",
 			"foraging",
@@ -1484,6 +2526,7 @@
 		"parent_topics": [ "specific_rulesets" ],
 		"siblings": [
 			"bar_fights",
+			"black_markets",
 			"dungeon_guides",
 			"firearms",
 			"foraging",
@@ -1781,6 +2824,7 @@
 		],
 		"siblings": [
 			"bar_fights",
+			"black_markets",
 			"dungeon_guides",
 			"firearms",
 			"foraging",
@@ -1952,6 +2996,7 @@
 		],
 		"siblings": [
 			"bar_fights",
+			"black_markets",
 			"dungeon_guides",
 			"firearms",
 			"foraging",

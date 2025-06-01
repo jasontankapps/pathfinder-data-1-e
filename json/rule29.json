@@ -594,7 +594,9 @@
 			"",
 			"This section provides many examples of activities you can undertake during downtime. Some of these are new, and others expand on options from the Core Rulebook or other sourcebooks to explain how those activities relate to the downtime rules. In most cases, using the downtime rules doesn't change the costs for performing the action, but it might allow you to spend capital instead of gp as per [Table 2-1: Capital Values](rule/gaining_capital). You can substitute 1 point of Goods or Labor for 20 gp, 1 point of Influence for 30 gp, and 1 point of Magic for 100 gp where appropriate. You can combine multiple types of capital when substituting for a gp value.",
 			"",
-			"Some downtime activities allow you to spend Goods, Influence, Labor, or Magic to modify the outcome of a check. You must decide to spend this capital before you attempt the check."
+			"Some downtime activities allow you to spend Goods, Influence, Labor, or Magic to modify the outcome of a check. You must decide to spend this capital before you attempt the check.",
+			"",
+			"Also see: {rule/Criminal Downtime Activities}"
 		],
 		"parent_topics": [
 			"optional_subsystems",
@@ -1364,9 +1366,9 @@
 		"description": [
 			"{SOURCE Ultimate Campaign/87}",
 			"",
-			"You can use downtime to prepare for an upcoming adventure or event. For example, if you know you have to crash the baron's fancy party in 2 days, you can spend downtime watching the baron's manor, investigating what clothing the servants will wear, and finding out which important guests are attending. This works like [spending capital to boost checks](rule/spend_capital_to_boost_checks), except you must spend 1 day of downtime, and each Good, Influence, Labor, or Magic you spend toward this purpose gives you a +2 bonus on one skill check (maximum +6). As with the spend capital option, the GM decides if your approach is reasonable for the check you're attempting. The bonus from this activity stacks with that from the spend capital to boost checks option (maximum +10 total). This bonus lasts for one check.",
+			"You can use downtime to prepare for an upcoming adventure or event. For example, if you know you have to crash the baron's fancy party in 2 days, you can spend downtime watching the baron's manor, investigating what clothing the servants will wear, and finding out which important guests are attending. This works like {rule/spend[ing] capital to boost checks}, except you must spend 1 day of downtime, and each Good, Influence, Labor, or Magic you spend toward this purpose gives you a +2 bonus on one skill check (maximum +6). As with the spend capital option, the GM decides if your approach is reasonable for the check you're attempting. The bonus from this activity stacks with that from the spend capital to boost checks option (maximum +10 total). This bonus lasts for one check.",
 			"",
-			"For example, by spending 1 day of downtime and 1 point of [Goods](rule/spend_capital_to_boost_checks), you gain an excellent understanding of the liveried servants' uniforms and add 2 to your Disguise check to disguise yourself as one of them. By spending 1 day of downtime and 1 point of Influence, you learn what famous trapsmith constructed the baron's vault and add 2 to your Disable Device check to open it."
+			"For example, by spending 1 day of downtime and 1 point of Goods, you gain an excellent understanding of the liveried servants' uniforms and add 2 to your Disguise check to disguise yourself as one of them. By spending 1 day of downtime and 1 point of Influence, you learn what famous trapsmith constructed the baron's vault and add 2 to your Disable Device check to open it."
 		],
 		"parent_topics": [
 			"optional_subsystems",
