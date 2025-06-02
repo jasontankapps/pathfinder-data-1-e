@@ -562,7 +562,7 @@
 			"{SOURCE Adventurer's Guide/26}",
 			"",
 			"When bypassing a foe's defenses while feinting, you can deal devastating damage.  ",
-			"**Prerequisites:** {feat/Exotic Weapon Proficiency/ (Aldori dueling sword)}, {feat/Weapon Focus/ (Aldori dueling sword)}, base attack bonus +6.  ",
+			"**Prerequisites:** {feat/Exotic Weapon Proficiency} (Aldori dueling sword), {feat/Weapon Focus} (Aldori dueling sword), base attack bonus +6.  ",
 			"**Benefit:** Once per round when you hit a foe you have successfully feinted against via a melee attack using an Aldori dueling sword, you deal an extra 2d6 points of precision damage. When your base attack bonus reaches +11, this damage bonus increases to +3d6, and at base attack bonus +16, it increases to +4d6. This precision damage does not stack with damage from sneak attack, a vigilante's sudden strike, or similar effects. Any effect which protects against sneak attack damage also protects against this additional damage."
 		]
 	},
@@ -636,7 +636,7 @@
 			"{SOURCE Inner Sea Magic/15}",
 			"",
 			"You can tap into the Plane of Shadow to momentarily lend reality to one of your illusion (figment) spells.  ",
-			"**Prerequisites:** {feat/Spell Focus/ (illusion)}, caster level 5th.  ",
+			"**Prerequisites:** {feat/Spell Focus} (illusion), caster level 5th.  ",
 			"**Benefit:** As a standard action, you can draw upon energies from the Plane of Shadow to cause an ongoing figment spell you cast to damage a foe as if the illusion were real. The illusion must be one you retain ongoing control of, such as minor image, and the target must be both visible to you and within or adjacent to the area of your illusion. Using this feat immediately ends the figment's duration.",
 			"",
 			"You must either make a melee touch attack or give the target a saving throw (Fortitude or Reflex) to resist the damage (see below). If you choose a melee touch attack, you use your own melee touch attack bonus, and if you miss, the spell deals no damage. If you choose to allow the target a saving throw, a successful save means it takes half damage. The shadowy attack deals 1d6 points of damage per spell level. If the target disbelieves or sees through the illusion, reduce the damage by half.",
@@ -1396,7 +1396,7 @@
 			"{SOURCE Armor Master's Handbook/12}",
 			"",
 			"You use your gauntlet to shield you from harm.  ",
-			"**Prerequisites:** {feat/Weapon Focus/ (gauntlet or spiked gauntlet)}, proficiency with bucklers and light shields.  ",
+			"**Prerequisites:** {feat/Weapon Focus} (gauntlet or spiked gauntlet), proficiency with bucklers and light shields.  ",
 			"**Benefit:** When using this style, if you begin your turn wearing a gauntlet or spiked gauntlet on your off hand, and you are not using that hand to hold or make attacks with any other weapons or shield, you gain a +1 shield bonus to AC. You lose this shield bonus whenever you attack with your gauntlet or hold a weapon or shield in that hand. While receiving this shield bonus to AC, your gauntlet or spiked gauntlet is treated as a buckler for the purpose of using other feats and abilities (though you are also considered to have a free hand). This feat acts as the {feat/Improved Unarmed Strike} feat for the purpose of satisfying the prerequisites of the {feat/Deflect Arrows} and {feat/Snatch Arrows} feats."
 		]
 	},
@@ -1724,7 +1724,7 @@
 			"{SOURCE Distant Realms/42}",
 			"",
 			"You can focus your concentration when maintaining pattern effects to slowly move them.  ",
-			"**Prerequisites:** {feat/Spell Focus/ (illusion)}, caster level 5th.  ",
+			"**Prerequisites:** {feat/Spell Focus} (illusion), caster level 5th.  ",
 			"**Benefit:** When you are concentrating to maintain a spell from the pattern subschool, you can move any area effects associated with that spell by up to 10 feet as a move action. Creatures within the new area of effect are subject to the spell as if it had just been cast (attempting saves as normal). When concentrating on a pattern spell that already allows you to move the effect, such as rainbow pattern, increase the distance you can move the pattern by 50%."
 		]
 	},
@@ -2233,7 +2233,7 @@
 			"{SOURCE Legacy of Dragons/19}",
 			"",
 			"Wyvarans have little skill in creating original art, but they have proven to be experts in imitating and even improving on it.  ",
-			"**Prerequisites:** Wyvaran.  ",
+			"**Prerequisites:** {race/Wyvaran}.  ",
 			"**Benefit:** You gain a +4 circumstance bonus on Craft checks to recreate an object you have seen before. You can spend 1 week studying the object to increase the circumstance bonus to +8. This doesn't include the time spent crafting the item."
 		]
 	},
@@ -2420,7 +2420,7 @@
 			"{SOURCE Ultimate Magic/155}",
 			"",
 			"The walking dead respond to your call.  ",
-			"**Prerequisites:** {feat/Spell Focus/ (necromancy)}, ability to cast *summon monster.*  ",
+			"**Prerequisites:** {feat/Spell Focus} (necromancy), ability to cast *summon monster.*  ",
 			"**Benefit:** Add \"human skeleton\" to the list of creatures you can summon with {spell/summon monster I} and \"human skeletal champion\" to the list of creatures you can summon with {spell/summon monster III}.",
 			"",
 			"Once per day, when you cast *summon monster,* you may summon a skeletal version of one of the creatures on that spell's summoning list (apply the {template/skeleton} template to that creature to create this monster)."
@@ -2623,7 +2623,7 @@
 			"{SOURCE Monster Codex/80}",
 			"",
 			"By seeking solace in the grave, you are able to recuperate more quickly.  ",
-			"**Prerequisites:** {feat/Warren Digger}, ghoul.  ",
+			"**Prerequisites:** {feat/Warren Digger}, {monster/ghoul}.  ",
 			"**Benefit:** You heal 1 hit point per 10 minutes as long as you are surrounded by at least 5 feet of dirt or stone on all sides and take no actions."
 		]
 	},
@@ -2681,7 +2681,7 @@
 			"{SOURCE Ultimate Combat/119}",
 			"",
 			"You can use your loaded sling to effectively strike at nearby foes.  ",
-			"**Prerequisites:** {feat/Weapon Focus/ (sling)}, base attack bonus +1.  ",
+			"**Prerequisites:** {feat/Weapon Focus} (sling), base attack bonus +1.  ",
 			"**Benefit:** You can make melee attacks using your loaded sling, using that weapon's normal statistics but treating it as a flail. Using a sling in this way does not expend mundane ammunition, but magical or masterwork ammunition loses its special properties after a single hit.  ",
 			"**Special:** Any feats you have that apply when you use a flail also apply when you use a loaded sling as a melee weapon.",
 			"",
@@ -3157,7 +3157,7 @@
 			"You have mastered the ability to grab foes while you fly by them, carry them into the air, and drop them from extreme heights.  ",
 			"**Prerequisites:** {feat/Flyby Attack}, {feat/Powerful Wings}.  ",
 			"**Benefit:** When you succeed at a grapple combat maneuver check as part of a flyby attack, you can move yourself and your target up to half your remaining fly speed. You must drop your target before the end of your turn, or both you and your target crash to the ground immediately and take 2d6 points of falling damage each. A dropped creature takes falling damage as normal. You can't use this feat on creatures whose weight would exceed the amount you can carry as a heavy load.  ",
-			"**Special:** While the following feats are primarily taken by strix, other creatures with natural wings can also take them at the GM's discretion."
+			"**Special:** While this feat is primarily taken by {race/strix}, other creatures with natural wings can also take them at the GM's discretion."
 		]
 	},
 	"snatch_arrows": {
@@ -3333,7 +3333,7 @@
 			"{SOURCE Monster Summoner's Handbook/14}",
 			"",
 			"Your shadowy illusions are more potent.  ",
-			"**Prerequisites:** {feat/Spell Focus/ (illusion)}.  ",
+			"**Prerequisites:** {feat/Spell Focus} (illusion).  ",
 			"**Benefit:** When casting greater shadow conjuration, greater shadow evocation, shadow conjuration, or shadow evocation (and, at the GM's discretion, any similar spell with the shadow descriptor that mimics a spell of another school), that spell is 20% more real then normal. A solid shadows spell takes up a spell slot 1 level higher than the spell's actual level."
 		]
 	},
@@ -3519,7 +3519,7 @@
 			"{SOURCE Inner Sea Gods/216;Faiths of Purity/25}",
 			"",
 			"You incorporate your two-handed reach weapon into a dizzying martial dance.  ",
-			"**Prerequisites:** {feat/Weapon Focus/ (any two-handed reach weapon)}, Perform (dance) 4 ranks.  ",
+			"**Prerequisites:** {feat/Weapon Focus} (any two-handed reach weapon), Perform (dance) 4 ranks.  ",
 			"**Benefit:** Each time you hit a creature with a two-handed reach weapon that you have {feat/Weapon Focus} in, the creature is dazzled for 1 round.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -4897,7 +4897,7 @@
 			"{SOURCE Ultimate Magic/157}",
 			"",
 			"Your summoned minions slink along under the shadows of the stars.  ",
-			"**Prerequisites:** {feat/Spell Focus/ (conjuration)}, able to cast summon nature's ally.  ",
+			"**Prerequisites:** {feat/Spell Focus} (conjuration), able to cast summon nature's ally.  ",
 			"**Benefit:** Creatures you summon gain the {feat/Blind-Fight} feat, a +5 bonus to Perception and Stealth checks in dim light or darkness, and their natural weapons are treated as cold iron for overcoming damage reduction."
 		]
 	},

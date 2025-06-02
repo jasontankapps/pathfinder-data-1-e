@@ -1671,7 +1671,7 @@
 			"",
 			"{SOURCE Plane-Hopper's Handbook/8}  ",
 			"**Element** void, wood; **Type** substance infusion; **Level** 4; **Burn** 3  ",
-			"**Prerequisite** {race/duskwalker}, or {feat/Planar Infusion/ (Boneyard)}  ",
+			"**Prerequisite** {race/duskwalker}, or {feat/Planar Infusion} (Boneyard)  ",
 			"**Associated Blasts** {kinetic/Positive Blast}, {kinetic/Negative Blast}  ",
 			"**Saving Throw** Will negates",
 			"",
@@ -2025,7 +2025,7 @@
 			"",
 			"{SOURCE Plane-Hopper's Handbook/8}  ",
 			"**Element** aether, water, wood; **Type** utility (Sp); **Level** 2; **Burn** 0  ",
-			"**Prerequisite** {kinetic/kinetic healer} wild talent, {race/aasimar} or {feat/Planar Infusion/ (Elysium, Heaven, Nirvana)}  ",
+			"**Prerequisite** {kinetic/kinetic healer} wild talent, {race/aasimar} or {feat/Planar Infusion} (Elysium, Heaven, Nirvana)  ",
 			"**Saving Throw** none; **SR** none",
 			"",
 			"When you use kinetic healer, the target of the healing gains the benefits of {spell/protection from evil} for 1 round."
@@ -2915,7 +2915,7 @@
 			"",
 			"{SOURCE Plane-Hopper's Handbook/8}  ",
 			"**Element** universal; **Type** utility (Sp); **Level** 1; **Burn** 0  ",
-			"**Prerequisite** {race/tiefling} or {feat/Planar Infusion/ (Hell)}  ",
+			"**Prerequisite** {race/tiefling} or {feat/Planar Infusion} (Hell)  ",
 			"**Saving Throw** none; **SR** yes",
 			"",
 			"As a swift action before using a utility talent on a willing target, you can add the effects of {spell/conditional favor}, except that it applies to any beneficial utility talent instead of to spells of certain schools."
@@ -3522,7 +3522,7 @@
 			"",
 			"{SOURCE Plane-Hopper's Handbook/8}  ",
 			"**Element** water; **Type** utility (Sp); **Level** 5; **Burn** 1  ",
-			"**Prerequisite** {race/tiefling} or {feat/Planar Infusion/ (Abaddon, Abyss, or Hell)}  ",
+			"**Prerequisite** {race/tiefling} or {feat/Planar Infusion} (Abaddon, Abyss, or Hell)  ",
 			"**Saving Throw** Will negates; **SR** yes",
 			"",
 			"You can spend 1 full round to draw upon the waters of the River Styx to erase memories of a target. This functions as {spell/modify memory}, except that it can only eliminate memories."

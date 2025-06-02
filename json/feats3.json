@@ -513,7 +513,7 @@
 			"{SOURCE Adventurer's Guide/25;Inner Sea Combat/10}",
 			"",
 			"You have embraced the Roaring Falls method of Aldori swordplay, known for its elegant, sweeping strikes.  ",
-			"**Prerequisites:** {feat/Aldori Dueling Disciple}, {feat/Exotic Weapon Proficiency/ (Aldori dueling sword)}, {feat/Weapon Finesse}, {feat/Weapon Focus/ (Aldori dueling sword)}, base attack bonus +5.  ",
+			"**Prerequisites:** {feat/Aldori Dueling Disciple}, {feat/Exotic Weapon Proficiency} (Aldori dueling sword), {feat/Weapon Finesse}, {feat/Weapon Focus} (Aldori dueling sword), base attack bonus +5.  ",
 			"**Benefit:** When you use an Aldori dueling sword to deal damage to a shaken, frightened, or panicked foe, you can add your Dexterity bonus to damage rolls instead of your Strength bonus. If you can already add your Dexterity bonus to damage rolls, you instead gain a +1 competence bonus on damage rolls made with an Aldori dueling sword. When you attempt a dueling parry during a duel, the penalty on your attack roll to parry is reduced from -5 to -3. To gain these benefits, you must be wielding only an Aldori dueling sword (not using a shield, an off-hand weapon, armor spikes, unarmed strikes, or natural weapons).",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -535,7 +535,7 @@
 			"{SOURCE Adventurer's Guide/25;Inner Sea Combat/10}",
 			"",
 			"You have embraced the Shrouded Lake style of Aldori swordplay, known for its circuitous footwork.  ",
-			"**Prerequisites:** {feat/Aldori Dueling Disciple}, {feat/Exotic Weapon Proficiency/ (Aldori dueling sword)}, {feat/Weapon Finesse}, {feat/Weapon Focus/ (Aldori dueling sword)}, base attack bonus +5.  ",
+			"**Prerequisites:** {feat/Aldori Dueling Disciple}, {feat/Exotic Weapon Proficiency} (Aldori dueling sword), {feat/Weapon Finesse}, {feat/Weapon Focus} (Aldori dueling sword), base attack bonus +5.  ",
 			"**Benefit:** When attempting to bull rush or reposition a foe, you gain a +1 insight bonus on the combat maneuver check and a +4 dodge bonus to your AC against attacks of opportunity you provoke. You also gain a +1 insight bonus to your CMD against bull rush and reposition attempts. When you attempt a dueling dodge during a duel, your bonus to AC increases to +6. To gain these benefits, you must be wielding only an Aldori dueling sword (not using a shield, an off-hand weapon, armor spikes, unarmed strikes, or natural weapons).",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -1433,7 +1433,7 @@
 			"{SOURCE Pathfinder #115: Trail of the Hunted/74}",
 			"",
 			"You can better resist arcane trickery from your hated foes.  ",
-			"**Prerequisites:** {ability/Favored enemy} class feature, hobgoblin.  ",
+			"**Prerequisites:** {ability/Favored enemy} class feature, {race/hobgoblin}.  ",
 			"**Benefit:** In addition to the normal benefits against your favored enemies, you add half your favored enemy bonus on saving throws made against arcane spells, spell-like abilities, and supernatural abilities of your favored enemies."
 		]
 	},
@@ -2414,7 +2414,7 @@
 			"{SOURCE Paths of the Righteous/19}",
 			"",
 			"Old Deadeye's favor grants you prowess with a bow that far exceeds your own physical capabilities.  ",
-			"**Prerequisites:** {feat/Weapon Focus/ (longbow)}, must be a worshiper of {faith/Erastil}.  ",
+			"**Prerequisites:** {feat/Weapon Focus} (longbow), must be a worshiper of {faith/Erastil}.  ",
 			"**Benefit:** You can use your Wisdom modifier instead of your Dexterity modifier on ranged attack rolls when using a bow."
 		]
 	},
@@ -2572,7 +2572,7 @@
 			"{SOURCE Advanced Class Guide/146}",
 			"",
 			"You can decipher even the most exotic of writings, including those that contain magic.  ",
-			"**Prerequisites:** {feat/Skill Focus/ (Linguistics)}.  ",
+			"**Prerequisites:** {feat/Skill Focus} (Linguistics).  ",
 			"**Benefit:** You can attempt a Linguistics check in place of a Use Magic Device check to activate a scroll, or in place of a Spellcraft check to identify a scroll. You must still have (or emulate) the ability score required to cast a spell of the desired level, and you cannot use Linguistics on the check to emulate the required ability score."
 		]
 	},
@@ -2659,7 +2659,7 @@
 			"{SOURCE Advanced Class Guide/146}",
 			"",
 			"The creatures you summon have evolved to have even greater abilities.  ",
-			"**Prerequisites:** {feat/Augment Summoning}, {feat/Spell Focus/ (conjuration)}, ability to cast {spell/summon monster I}.  ",
+			"**Prerequisites:** {feat/Augment Summoning}, {feat/Spell Focus} (conjuration), ability to cast {spell/summon monster I}.  ",
 			"**Benefit:** Each time you cast a summon monster spell, you can select a 1-point evolution other than pounce or reach from those available to a summoner's eidolon. Your summoned creature gains this evolution. The summoned creature must conform to any limitations of the evolution. (For instance, only a creature with a reach of 10 feet or more can have the pull evolution.) Evolutions that grant additional attacks or enhance existing attacks can be applied only to Medium or larger summoned creatures.",
 			"",
 			"If you summon more than one creature with a single spell, only one creature gains this evolution.  ",
@@ -3140,7 +3140,7 @@
 			"{SOURCE Plane-Hopper's Handbook/16}",
 			"",
 			"You've fought enough specters that doing so has become second nature.  ",
-			"**Prerequisites:** Character level 7th, duskwalker, ghost hunter racial trait.  ",
+			"**Prerequisites:** Character level 7th, {race/duskwalker}, ghost hunter racial trait.  ",
 			"**Benefit:** You can use your ghost hunter ability to grant your weapons the ghost touch special ability as a swift action. You can activate ghost hunter an additional time each day."
 		]
 	},
@@ -3906,7 +3906,7 @@
 			"{SOURCE PRPG Core Rulebook/124}",
 			"",
 			"You can use your lay on hands ability more often.  ",
-			"**Prerequisites:** Lay on hands class feature.  ",
+			"**Prerequisites:** {ability/Lay on hands} class feature.  ",
 			"**Benefit:** You can use your lay on hands ability two additional times per day.  ",
 			"**Special:** You can gain Extra Lay On Hands multiple times. Its effects stack."
 		]
@@ -3960,7 +3960,7 @@
 			"{SOURCE PRPG Core Rulebook/124}",
 			"",
 			"Your lay on hands ability adds an additional mercy.  ",
-			"**Prerequisites:** Lay on hands class feature, mercy class feature.  ",
+			"**Prerequisites:** {ability/Lay on hands} class feature, mercy class feature.  ",
 			"**Benefit:** Select one additional mercy for which you qualify. When you use lay on hands to heal damage to one target, it also receives the additional effects of this mercy.  ",
 			"**Special:** You can gain this feat multiple times. Its effects do not stack. Each time you take this feat, select a new mercy."
 		]
@@ -4439,7 +4439,7 @@
 			"{SOURCE Mythic Adventures/65}",
 			"",
 			"Your illusions are astonishingly realistic.  ",
-			"**Prerequisites:** {feat/Spell Focus/ (illusion)}.  ",
+			"**Prerequisites:** {feat/Spell Focus} (illusion).  ",
 			"**Benefit:** Non-mythic creatures can't identify your illusion spells with Spellcraft, including checks attempted as part of arcane sight, detect magic, or similar effects. When mythic creatures attempt to identify your illusions, add your tier to the DC of those Spellcraft checks. Mythic creatures informed by their allies that one of your illusions isn't real gain only a +2 bonus on their Will saves to disbelieve. Non-mythic creatures gain no bonus to disbelieve."
 		]
 	},
@@ -4506,7 +4506,7 @@
 			"{SOURCE Adventurer's Guide/25;Inner Sea Combat/10}",
 			"",
 			"You have integrated both the Roaring Falls and Shrouded Lake techniques of Aldori swordplay into a seamless union.  ",
-			"**Prerequisites:** {feat/Aldori Dueling Disciple}, {feat/Duelist of the Roaring Falls}, {feat/Duelist of the Shrouded Lake}, {feat/Exotic Weapon Proficiency/ (Aldori dueling sword)}, {feat/Weapon Finesse}, {feat/Weapon Focus/ (Aldori dueling sword)}, base attack bonus +8.  ",
+			"**Prerequisites:** {feat/Aldori Dueling Disciple}, {feat/Duelist of the Roaring Falls}, {feat/Duelist of the Shrouded Lake}, {feat/Exotic Weapon Proficiency} (Aldori dueling sword), {feat/Weapon Finesse}, {feat/Weapon Focus} (Aldori dueling sword), base attack bonus +8.  ",
 			"**Benefit:** When attacking a creature denied its Dexterity bonus to AC because of your successful feint, you increase the threat range of your Aldori dueling sword by 1 (typically to 18-20/&times;2), and gain a +2 bonus on attack rolls to confirm critical hits. After you make a dueling dodge or succeed at a dueling parry during a duel, you can make an attack of opportunity against the foe who attacked you if that foe is shaken, frightened, or panicked. To gain these benefits, you must be wielding only an Aldori dueling sword (not using a shield, an off-hand weapon, armor spikes, unarmed strikes, or natural weapons).",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",

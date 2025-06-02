@@ -574,7 +574,7 @@
 			"{SOURCE Pathfinder #26: The Sixfold Trial/72}",
 			"",
 			"By swearing to never use a weapon other than a longsword, you can achieve things normally limited to the most highly trained swordsmen.  ",
-			"**Prerequisites:** Proficient in longsword, {feat/Weapon Focus/ (longsword)}, base attack bonus +4, worshiper of {faith/Iomedae}.  ",
+			"**Prerequisites:** Proficient in longsword, {feat/Weapon Focus} (longsword), base attack bonus +4, worshiper of {faith/Iomedae}.  ",
 			"**Benefit:** You may select longsword-related feats as if you were a 4th-level fighter. For example, you may select {feat/Weapon Specialization} (longsword) as a feat.  ",
 			"**Special:** If you ever use a melee or ranged weapon other than a longsword in combat, you lose the benefits of this feat until you receive an atonement spell. You may still use spells that act as weapons (such as flame blade and spiritual weapon) without affecting your oath."
 		]
@@ -921,7 +921,7 @@
 			"{SOURCE Distant Realms/33}",
 			"",
 			"You have developed a deep rapport with your comrades that allows you to swiftly convey divine grace.  ",
-			"**Prerequisites:** Fervor or lay on hands class feature.  ",
+			"**Prerequisites:** Fervor or {ability/lay on hands} class feature.  ",
 			"**Benefit:** You can use your lay on hands or the healing granted by fervor on allies with this feat as a swift action."
 		]
 	},
@@ -1415,7 +1415,7 @@
 			"{SOURCE Blood of the Beast/11}",
 			"",
 			"You are capable of entangling far greater prey with the help of your allies.  ",
-			"**Prerequisites:** {feat/Exotic Weapon Proficiency/ (net)}, base attack bonus +1.  ",
+			"**Prerequisites:** {feat/Exotic Weapon Proficiency} (net), base attack bonus +1.  ",
 			"**Benefit:** If you ready an attack with a net to entangle a creature when an ally of your size who also has this feat attempts to entangle that creature with a net, the two of you can entangle the creature as if you were one size category larger. The entangled creature can attempt to escape both nets as though they were a single net, using the lower of the nets' hit points, hardness (if any), and DCs to break or escape. Only you or your ally can attempt to control the entangled creature's movement with an opposed Strength check, but your ally grants you a +1 bonus on the check. If you work with three other allies of the same size who have this feat, you can entangle a creature as if you were two size categories larger. If you work with seven other allies in this way, you can instead entangle a creature as if you were three size categories larger.  ",
 			"**Normal:** A net is useful against only creatures within one size category of you."
 		]
@@ -1606,7 +1606,7 @@
 			"{SOURCE Ultimate Wilderness/24}",
 			"",
 			"You climb all over creatures you're grappling like kudzu, blocking their vision.  ",
-			"**Prerequisites:** Dex 13, {feat/Improved Grapple}, {feat/Improved Unarmed Strike}, {feat/Greater Grapple}, base attack bonus +6, vine leshy.  ",
+			"**Prerequisites:** Dex 13, {feat/Improved Grapple}, {feat/Improved Unarmed Strike}, {feat/Greater Grapple}, base attack bonus +6, {race/vine leshy}.  ",
 			"**Benefit:** You add an option to blind the grappled creature for 1 round to the list of actions you can take when you succeed at a check to maintain a grapple."
 		]
 	},
@@ -1646,7 +1646,7 @@
 			"{SOURCE Horror Adventures/88}",
 			"",
 			"You lash yourself and share the pain with your opponent.  ",
-			"**Prerequisites:** Wis 17, {feat/Exotic Weapon Proficiency/ (spiked chain)}, {feat/Kyton Shield}, {feat/Kyton Style}, base attack bonus +8 or monk level 6th, Knowledge (planes) 3 ranks, ki pool class feature.  ",
+			"**Prerequisites:** Wis 17, {feat/Exotic Weapon Proficiency} (spiked chain), {feat/Kyton Shield}, {feat/Kyton Style}, base attack bonus +8 or monk level 6th, Knowledge (planes) 3 ranks, ki pool class feature.  ",
 			"**Benefit:** When using Kyton Style, your spiked chain attacks can be brutal, both to yourself and your foe. Before attempting an attack roll with a spiked chain attack, you can choose to make a Kyton Cut. Before making the attack, you take 1d6 points of nonlethal damage. This damage cannot be avoided or reduced in any way. If you are immune to nonlethal damage, you take normal damage instead. If the attack hits, its target takes an additional 1d6 points of nonlethal damage and a -4 penalty on {rule/concentration} checks for 1 round. The penalty is a pain effect."
 		]
 	},
@@ -1659,7 +1659,7 @@
 			"{SOURCE Horror Adventures/88}",
 			"",
 			"Whether in your hand or draped around your body, the spiked chain serves as both weapon and shield.  ",
-			"**Prerequisites:** Wis 15, {feat/Exotic Weapon Proficiency/ (spiked chain)}, {feat/Kyton Style}, base attack bonus +5, Knowledge (planes) 3 ranks, ki pool class feature.  ",
+			"**Prerequisites:** Wis 15, {feat/Exotic Weapon Proficiency} (spiked chain), {feat/Kyton Style}, base attack bonus +5, Knowledge (planes) 3 ranks, ki pool class feature.  ",
 			"**Benefit:** When using Kyton Style, you gain a +1 shield bonus to your Armor Class as long as you are wielding a spiked chain. If the spiked chain is magical, add 1/2 its enhancement bonus to this shield bonus. If the spiked chain has the vicious ability, instead add its full enhancement bonus to the shield bonus."
 		]
 	},
@@ -1672,7 +1672,7 @@
 			"{SOURCE Horror Adventures/89}",
 			"",
 			"Your fighting style emulates the disciplined nature of the kytons, with passion and pain held tightly in chains.  ",
-			"**Prerequisites:** Wis 13, {feat/Exotic Weapon Proficiency/ (spiked chain)}, Knowledge (planes) 3 ranks, ki pool class feature.  ",
+			"**Prerequisites:** Wis 13, {feat/Exotic Weapon Proficiency} (spiked chain), Knowledge (planes) 3 ranks, ki pool class feature.  ",
 			"**Benefit:** When using this style, you treat spiked chains as if they had the monk special weapon feature. Additionally, if you have Stunning Fist, you can spend 1 point from your ki pool to make a Stunning Fist attack with your spiked chain instead of an unarmed strike. This still costs a use of Stunning Fist as normal."
 		]
 	},
@@ -2337,7 +2337,7 @@
 			"{SOURCE Blood of the Night/28}",
 			"",
 			"You gain unusual resiliency from your mortal heritage.  ",
-			"**Prerequisites:** Dhampir.  ",
+			"**Prerequisites:** {race/Dhampir}.  ",
 			"**Benefit:** You are healed by channeled positive energy used to heal living creatures and channeled negative energy used to heal undead, but both only heal half the normal amount. You still take damage from positive energy used to harm undead, such as that from channeled energy and lay on hands."
 		]
 	},
@@ -2766,7 +2766,7 @@
 			"{SOURCE Plane-Hopper's Handbook/17}",
 			"",
 			"Whether because you were lost in wilderness or quarantined during a plague, you died alone, unnoticed, and unmourned. Your body might not have been discovered for weeks.  ",
-			"**Prerequisites:** Duskwalker.  ",
+			"**Prerequisites:** {race/Duskwalker}.  ",
 			"**Benefit:** Twice per day, if you are reduced below 0 hit points, as an immediate action you can move up to twice your base speed. If this brings you into cover or concealment, you can also attempt a Stealth check to hide. At 11th level, you can use this feat two additional times per day."
 		]
 	},
@@ -4086,7 +4086,7 @@
 			"{SOURCE Aquatic Adventures/58}",
 			"",
 			"You've trained at swimming in combat and over long distances for so long that you can move through the water like a native.  ",
-			"**Prerequisites:** {feat/Skill Focus/ (Swim)}, Swim 10 ranks.  ",
+			"**Prerequisites:** {feat/Skill Focus} (Swim), Swim 10 ranks.  ",
 			"**Benefit:** You gain a swim speed of 30 feet or your unmodified base land speed, whichever is slower; your racial bonus on Swim checks for having a swim speed is +2, instead of +8."
 		]
 	},
@@ -4188,7 +4188,7 @@
 			"{SOURCE Monster Hunter's Handbook/15}",
 			"",
 			"You have a near-perfect sense of direction.  ",
-			"**Prerequisites:** {feat/Skill Focus/ (Survival)}, Survival 5 ranks.  ",
+			"**Prerequisites:** {feat/Skill Focus} (Survival), Survival 5 ranks.  ",
 			"**Benefit:** You gain a +4 bonus on Survival checks to avoid becoming lost and to determine whether you are lost. You also gain a +4 bonus on Intelligence checks to navigate mazes, including to escape a maze spell. Once per day, you can use your intuition to determine whether traveling a particular direction from a fork in the road (or other junction) might be productive or dangerous. This functions like the augury spell, except it provides weal or woe based on traveling in a particular direction."
 		]
 	},

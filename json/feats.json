@@ -253,7 +253,7 @@
 			"{SOURCE Ultimate Intrigue/75}",
 			"",
 			"Your skillful movements prevent foes from disrupting your spells.  ",
-			"**Prerequisites:** {feat/Combat Casting}, {feat/Skill Focus/ (Acrobatics)}.  ",
+			"**Prerequisites:** {feat/Combat Casting}, {feat/Skill Focus} (Acrobatics).  ",
 			"**Benefit:** When you succeed at an Acrobatics check to move through a threatened square without provoking attacks of opportunity or to move through an enemy's space, creatures denied attacks of opportunity by your Acrobatics check also cannot make attacks of opportunity against you when you cast spells for the remainder of your turn.  ",
 			"**Normal:** Casting a spell within an enemy's reach provokes attacks of opportunity even after you succeed at an Acrobatics check to move through a threatened square."
 		]
@@ -2000,7 +2000,7 @@
 			"",
 			"Escaping death strengthened your bond to life, but fills you with a need for answers.  ",
 			"**Prerequisites:** You must have been slain and brought back from the dead, or have the [Left to Die or Cursed Birth](rule/birth_circumstances_and_more) circumstance background.  ",
-			"**Benefit:** You don't die until your negative hit point total is equal to or greater than 4 + your Constitution score. Once per day as a standard action, you can force yourself to carry on by strength of will alone, gaining 1 temporary hit point per hit die. These temporary hit points last for 10 minutes.  ",
+			"**Benefit:** You don't die until your negative hit point total is equal to or greater than 4 + your Constitution score. Once per day as a standard action, you can force yourself to carry on by strength of will alone, gaining 1 temporary hit point per hit die. These {rule/temporary hit points} last for 10 minutes.  ",
 			"**Normal:** You die when your negative hit point total is equal to or greater than your Constitution score.  ",
 			"**Goal:** You meet in person and hear the words of your deity or your deity's chosen herald. If you worship a pantheon of deities, you must meet and hear a member of that pantheon - a herald does not suffice in this case. If you worship no specific deity, you must hear the words of an appropriate entity of the GM's choice.  ",
 			"**Completion Benefit:** You gain a +2 bonus on saving throws against death effects and fear effects. In addition, the caster level of any conjuration (healing) spell that is cast on you increases by 1 for the purposes of its effects on you alone."
@@ -2015,7 +2015,7 @@
 			"{SOURCE Occult Mysteries/48}",
 			"",
 			"You are able to unravel the hidden meanings behind words by translating them into numerical equations. You can apply this insight to empower your magical effects.  ",
-			"**Prerequisites:** Int 13, {feat/Spell Focus/ (divination)}, Spellcraft 3 ranks.  ",
+			"**Prerequisites:** Int 13, {feat/Spell Focus} (divination), Spellcraft 3 ranks.  ",
 			"**Benefit:** Immediately before casting a spell, as a swift action, you can attempt to augment a spell's casting using Arithmancy. To do so, determine the digital root of the name of the spell you are casting.",
 			"",
 			"To find the digital root of a spell name, first assign a numerical value to each letter of the name, per the Letter Values table. Once you have a string of digits, sum them.",
@@ -2661,7 +2661,7 @@
 			"{SOURCE Monster Summoner's Handbook/13}",
 			"",
 			"Your attempts to bind or call outsiders are highly potent.  ",
-			"**Prerequisites:** {feat/Spell Focus/ (conjuration)}; ability to cast {spell/lesser planar ally}, {spell/lesser planar binding}, or a higher-level version of these spells.  ",
+			"**Prerequisites:** {feat/Spell Focus} (conjuration); ability to cast {spell/lesser planar ally}, {spell/lesser planar binding}, or a higher-level version of these spells.  ",
 			"**Benefit:** Choose a subtype of outsider, such as angel or elemental. When using the *planar ally* or *planar binding* spells, you can call 2 additional Hit Dice of outsiders with the chosen subtype. You also gain an additional benefit depending on what spell you are casting.",
 			"",
 			"When you call an outsider of the chosen subtype with *planar ally* spells, you reduce the price it demands for service by 25%, to a minimum of 1,000 gp.",
@@ -2682,7 +2682,7 @@
 			"{SOURCE PRPG Core Rulebook/118}",
 			"",
 			"Your summoned creatures are more powerful and robust.  ",
-			"**Prerequisites** {feat/Spell Focus/ (conjuration)}.  ",
+			"**Prerequisites** {feat/Spell Focus} (conjuration).  ",
 			"**Benefit:** Each creature you conjure with any summon spell gains a +4 enhancement bonus to Strength and Constitution for the duration of the spell that summoned it.",
 			"",
 			"### Mythic Augment Summoning",
@@ -2721,7 +2721,7 @@
 			"",
 			"Your foul patron's influence hastens death's approach.  ",
 			"**Prerequisites:** {ability/Channel energy} class feature, worshiper of one of the Four Horsemen.  ",
-			"**Benefit:** As a swift action, you can expend one of your uses of channel energy to emanate a 30-foot-radius aura of succumbing for a number of rounds equal to your effective cleric level. {misc/Dying} creatures in the area take 1 point of damage per die of your normal channel negative energy damage at the start of your turn each round. A successful Will save (DC equal to the DC of your channel energy ability) halves this damage. Whenever a living creature dies while within your aura of succumbing, you gain a number of temporary hit points equal to that creature's Hit Dice. These temporary hit points last for 1 hour."
+			"**Benefit:** As a swift action, you can expend one of your uses of channel energy to emanate a 30-foot-radius aura of succumbing for a number of rounds equal to your effective cleric level. {misc/Dying} creatures in the area take 1 point of damage per die of your normal channel negative energy damage at the start of your turn each round. A successful Will save (DC equal to the DC of your channel energy ability) halves this damage. Whenever a living creature dies while within your aura of succumbing, you gain a number of {rule/temporary hit points} equal to that creature's Hit Dice. These temporary hit points last for 1 hour."
 		]
 	},
 	"aural_insight": {
@@ -3002,7 +3002,7 @@
 			"{SOURCE Villain Codex/80}",
 			"",
 			"You can drag distant foes toward you with your whip.  ",
-			"**Prerequisites:** {feat/Weapon Focus/ (whip)}, {feat/Whip Mastery}, base attack bonus +8.  ",
+			"**Prerequisites:** {feat/Weapon Focus} (whip), {feat/Whip Mastery}, base attack bonus +8.  ",
 			"**Benefit:** When you perform a {rule/drag} combat maneuver with your {eq-weapon/whip}, you can choose not to move with your target, instead bringing your target closer to you. If you do this, you can't drag the target any farther than the distance it takes to move it adjacent to you, even if your result was high enough to drag the target farther. You gain a +2 bonus on drag combat maneuver checks when using a whip to drag, but this bonus doesn't stack with the bonus from Improved Drag.  ",
 			"**Special:** Balor Whip counts as Improved Drag for the purpose of qualifying for Quick Drag."
 		]
@@ -3301,7 +3301,7 @@
 			"{SOURCE Blood of the Moon/11}",
 			"",
 			"You can crush your foes with your powerful arms.  ",
-			"**Prerequisites:** Str 17, {feat/Beartrap Bite}, {feat/Weapon Focus/ (bite)}, base attack bonus +8.  ",
+			"**Prerequisites:** Str 17, {feat/Beartrap Bite}, {feat/Weapon Focus} (bite), base attack bonus +8.  ",
 			"**Benefit:** You can attempt to initiate a grapple against a foe trapped by your Beartrap Bite feat without provoking attacks of opportunity. You gain a +2 bonus on damage rolls against foes you are grappling."
 		]
 	},
@@ -3327,7 +3327,7 @@
 			"{SOURCE Blood of the Moon/11}",
 			"",
 			"You can hold your foes even if you do not manage to grapple them.  ",
-			"**Prerequisites:** {feat/Weapon Focus/ (bite)}, base attack bonus +6.  ",
+			"**Prerequisites:** {feat/Weapon Focus} (bite), base attack bonus +6.  ",
 			"**Benefit:** Whenever you confirm a critical hit against a foe with your bite attack, if your confirmation roll matches or exceeds your foe's CMD, you can clamp down on your foe to prevent it from moving away as a free action. The foe cannot move outside the area threatened by your bite attack unless it breaks free of your bite. It can attempt to free itself with a combat maneuver check or {skill/Escape Artist} check as if you were grappling it, but neither of you gains the grappled condition. You cannot use your bite attack while you maintain your grip on your foe, but you can release the bite as a swift action to end the effect."
 		]
 	},
@@ -3914,7 +3914,7 @@
 			"{SOURCE Paths of the Righteous/15}",
 			"",
 			"You know how to balance a polearm perfectly, striking with artful, yet deadly precision.  ",
-			"**Prerequisites:** {feat/Weapon Focus/ (glaive)}, must be a worshiper of {faith/Shelyn}.  ",
+			"**Prerequisites:** {feat/Weapon Focus} (glaive), must be a worshiper of {faith/Shelyn}.  ",
 			"**Benefit:** You can use the {feat/Weapon Finesse} feat to apply your Dexterity modifier instead of your Strength modifier to attack rolls with a glaive sized for you, even though it isn't a light weapon. When wielding a glaive, you can treat it as a one-handed piercing or slashing melee weapon and as if you were not making attacks with your off-hand for all feats and class abilities that require such a weapon (such as a {pclass/duelist/'s} or {class/swashbuckler/'s} precise strike).",
 			"",
 			"As a move action, you can shorten your grip on the glaive, treating it as though it lacked the {misc/reach} weapon property. You can adjust your grip to grant the weapon the reach property as a move action."
@@ -4169,7 +4169,7 @@
 			"{SOURCE Pathfinder #119: Prisoners of the Blight/61}",
 			"",
 			"Your confidence in exploring dangerous regions inspires the same in your companions.  ",
-			"**Prerequisites:** {feat/Blight Survivalist}, {feat/Skill Focus/ (Survival)}.  ",
+			"**Prerequisites:** {feat/Blight Survivalist}, {feat/Skill Focus} (Survival).  ",
 			"**Benefit:** Your bonus on saving throws gained from the Blight Survivalist feat extends to your allies within 30 feet. Furthermore, once per day, if you would fail a saving throw against an environmental hazard or weather effect, you can reroll that save, but you must use the second result, even if it is lower."
 		]
 	},
@@ -4182,7 +4182,7 @@
 			"{SOURCE Pathfinder #119: Prisoners of the Blight/61}",
 			"",
 			"You have learned to survive in dangerous environments.  ",
-			"**Prerequisites:** {feat/Skill Focus/ (Survival)}.  ",
+			"**Prerequisites:** {feat/Skill Focus} (Survival).  ",
 			"**Benefit:** You gain a +3 bonus on saving throws against environmental hazards and weather effects.  ",
 			"**Special:** If you have the {ability/favored terrain} class feature and the blighted land being explored matches one of those terrains, you can choose to use your favored terrain bonus in place of the +3 bonus granted by this feat."
 		]
@@ -4409,8 +4409,8 @@
 			"",
 			"{SOURCE City of Strangers/41;Pathfinder #12: Crown of Fangs/32;Pathfinder Campaign Setting/218}",
 			"",
-			"Your introduction to the ways of the bloatmage allows you to use elaborate rituals and gruesome rites to increase the amount of blood and lymph in your body, expanding your reserves of magical energy.  ",
-			"**Prerequisites:** {feat/Spell Focus/ (any school)}.  ",
+			"Your introduction to the ways of the {pclass/bloatmage} allows you to use elaborate rituals and gruesome rites to increase the amount of blood and lymph in your body, expanding your reserves of magical energy.  ",
+			"**Prerequisites:** {feat/Spell Focus} (any school).  ",
 			"**Benefit:** You learn the basics of the ancient art of hemotheurgy. Pick one school of magic in which you possess the {feat/Spell Focus} feat - you cast spells from this school of magic at +1 caster level. This bonus stacks with the bonus from Spell Focus. Unfortunately, the bloating side effects increase your girth to such a point that you are constantly under the effects of a medium load - your maximum bonus to AC from Dexterity is +3, you gain an armor check penalty of -3, and your speed decreases as appropriate (generally from 30 feet to 20 feet for a Medium creature)."
 		]
 	},
@@ -4424,11 +4424,11 @@
 			"",
 			"You've learned how to block the lower chakras of your foes.  ",
 			"**Prerequisites:** {feat/Psychic Sensitivity} or levels in an occult class, brawler's flurry or flurry of blows class feature, ki pool.  ",
-			"**Benefit:** As a standard action, you can spend 1 ki point to make a single unarmed strike that attempts to block one of the target's chakras. If you hit the target and deal damage, you can select either the root, sacral, or navel chakra, as long as you can open that chakra yourself. The target suffers a specific effect based on the chosen chakra (see below), though it can reduce these effects with a successful Fortitude save (DC = 10 + half your character level + the ability modifier you use to calculate your ki pool).",
+			"**Benefit:** As a standard action, you can spend 1 ki point to make a single unarmed strike that attempts to block one of the target's {rule/activating_<chakras}. If you hit the target and deal damage, you can select either the root, sacral, or navel chakra, as long as you can open that chakra yourself. The target suffers a specific effect based on the chosen chakra (see below), though it can reduce these effects with a successful Fortitude save (DC = 10 + half your character level + the ability modifier you use to calculate your ki pool).",
 			"",
-			"- Root: The target's DR is reduced by 10 for 1 minute. If the target has multiple forms of DR, you choose which DR is reduced. On a successful save, the target's DR is instead reduced by 5 for 1 round.",
-			"- Sacral: The target can't use any of its speeds except its land speed (or swim speed for an aquatic creature) for 1 round, and it moves at half speed for 1 minute. If it was flying, the target can attempt a Fly check to fall safely. On a successful save, the target instead moves at half speed for 1 round.",
-			"- Navel: The target takes a -2 penalty on attack rolls and damage rolls, and it reduces the DCs of its spells and abilities by 2 for 1 minute. On a successful save, the penalty and reduction is halved and lasts for 1 round."
+			"- **Root:** The target's DR is reduced by 10 for 1 minute. If the target has multiple forms of DR, you choose which DR is reduced. On a successful save, the target's DR is instead reduced by 5 for 1 round.",
+			"- **Sacral:** The target can't use any of its speeds except its land speed (or swim speed for an aquatic creature) for 1 round, and it moves at half speed for 1 minute. If it was flying, the target can attempt a Fly check to fall safely. On a successful save, the target instead moves at half speed for 1 round.",
+			"- **Navel:** The target takes a -2 penalty on attack rolls and damage rolls, and it reduces the DCs of its spells and abilities by 2 for 1 minute. On a successful save, the penalty and reduction is halved and lasts for 1 round."
 		]
 	},
 	"block_upper_chakras": {
@@ -4441,12 +4441,12 @@
 			"",
 			"You can block additional chakras.  ",
 			"**Prerequisites:** {feat/Block Chakras}, {feat/Psychic Sensitivity}, ki pool, character level 8th.  ",
-			"**Benefit:** When you use {feat/Block Chakras}, you can also select from the heart, throat, brow, and crown chakras, as long as you can open the chosen chakra yourself, with the following effects.",
+			"**Benefit:** When you use {feat/Block Chakras}, you can also select from the heart, throat, brow, and crown {rule/activating_<chakras}, as long as you can open the chosen chakra yourself, with the following effects.",
 			"",
-			"- Heart: The target can't recover hit points from any source for 1 minute. This prevents hit point recovery from fast healing and regeneration but doesn't deactivate regeneration altogether, so it does not allow a creature with regeneration to be killed through hit point damage. On a successful save, the target recovers only half as many hit points for 1 round.",
-			"- Throat: The target can't speak or cast spells with a thought component for 1 round, and for 1 minute, actions that require speaking or thought components have a 20% chance to fail. On a successful save, actions that require speaking or thought components have a 50% chance to fail for 1 round.",
-			"- Brow: The target is blinded for 1 minute. On a successful save, the target loses all special forms of vision (such as low-light vision, see in darkness, and true seeing) for 1 round; this doesn't affect nonvisual senses like blindsight and blindsense.",
-			"- Crown: The target must roll twice and take the lower result on all d20 rolls for 1 round and on its first attack roll or caster level check each round for 1 minute. On a successful save, the target must roll twice and take the lower result on its next d20 roll."
+			"- **Heart:** The target can't recover hit points from any source for 1 minute. This prevents hit point recovery from {umr/fast healing} and {umr/regeneration} but doesn't deactivate regeneration altogether, so it does not allow a creature with regeneration to be killed through hit point damage. On a successful save, the target recovers only half as many hit points for 1 round.",
+			"- **Throat:** The target can't speak or cast spells with a {rule/thought |component>s_oa} for 1 round, and for 1 minute, actions that require speaking or thought components have a 20% chance to fail. On a successful save, actions that require speaking or thought components have a 50% chance to fail for 1 round.",
+			"- **Brow:** The target is blinded for 1 minute. On a successful save, the target loses all special forms of vision (such as low-light vision, {umr/see in darkness}, and {spell/true seeing}) for 1 round; this doesn't affect nonvisual senses like {umr/blindsight} and {umr/blindsense}.",
+			"- **Crown:** The target must roll twice and take the lower result on all d20 rolls for 1 round and on its first attack roll or caster level check each round for 1 minute. On a successful save, the target must roll twice and take the lower result on its next d20 roll."
 		]
 	},
 	"blood_beak": {
@@ -4480,8 +4480,8 @@
 			"{SOURCE Advanced Race Guide/99}",
 			"",
 			"Consuming blood reinvigorates you.  ",
-			"**Prerequisites:** Dhampir.  ",
-			"**Benefit:** Choose one humanoid subtype, such as \"goblinoid\" (this subtype cannot be \"dhampir\"). You have acquired a taste for the blood of creatures with this subtype. Whenever you drink fresh blood from such a creature, you gain 5 temporary hit points and a +1 bonus on checks and saves based on Constitution. The effects last 1 hour. If you feed multiple times, you continue to gain hit points to a maximum of 5 temporary hit points for every three Hit Dice you have, but the +1 bonus on Constitution-based skill checks and saving throws does not stack.",
+			"**Prerequisites:** {race/Dhampir}.  ",
+			"**Benefit:** Choose one humanoid subtype, such as \"goblinoid\" (this subtype cannot be \"dhampir\"). You have acquired a taste for the blood of creatures with this subtype. Whenever you drink fresh blood from such a creature, you gain 5 {rule/temporary hit points} and a +1 bonus on checks and saves based on Constitution. The effects last 1 hour. If you feed multiple times, you continue to gain hit points to a maximum of 5 temporary hit points for every three Hit Dice you have, but the +1 bonus on Constitution-based skill checks and saving throws does not stack.",
 			"",
 			"Normally, you can only drink blood from an opponent who is helpless, grappled, paralyzed, pinned, unconscious, or similarly disabled. If you have a bite attack, you can drink blood automatically as part of your bite attack; otherwise, you must first cut your target by dealing 1 hit point of damage with a slashing or piercing weapon (though you may feed upon a creature with severe wounds or a bleed effect without cutting it first). Once you cut the target, you can drink from its wound as a standard action. Drinking blood deals 2 points of Constitution damage to the creature you feed upon.",
 			"",
@@ -4510,7 +4510,7 @@
 			"{SOURCE Advanced Race Guide/100}",
 			"",
 			"Consuming blood gives you superhuman strength.  ",
-			"**Prerequisites:** {feat/Blood Drinker}, base attack bonus +6, dhampir.  ",
+			"**Prerequisites:** {feat/Blood Drinker}, base attack bonus +6, {race/dhampir}.  ",
 			"**Benefit:** If you use your Blood Drinker feat to drain 4 or more points of Constitution from a living creature, you gain a +2 bonus on damage rolls and a +1 bonus on Strength-based skill checks. This bonus lasts for a number of rounds equal to 1/2 your Hit Dice."
 		]
 	},
@@ -4537,7 +4537,7 @@
 			"",
 			"The scent of blood intensifies your fury, and every wound you tear into your foes increases both your drive and ability to wreak havoc.  ",
 			"**Prerequisites:** Str 17, {feat/Blood Frenzy Strike}, {feat/Blood Frenzy Style}, {feat/Bloody Assault}, {feat/Improved Unarmed Strike}, {feat/Power Attack}, base attack bonus +6, aquatic subtype.  ",
-			"**Benefit:** While you are using Blood Frenzy Style, when you make a full attack, you can make an additional unarmed or natural weapon attack for each enemy within your reach that is affected by a bleed effect. Until your next turn, you take a -2 penalty to AC for each additional attack gained in this way. In addition, the bleed damage your unarmed strikes deal from Blood Frenzy Strike increases to 2d6 points of bleed damage."
+			"**Benefit:** While you are using Blood Frenzy Style, when you make a full attack, you can make an additional unarmed or natural weapon attack for each enemy within your reach that is affected by a {rule/bleed} effect. Until your next turn, you take a -2 penalty to AC for each additional attack gained in this way. In addition, the bleed damage your unarmed strikes deal from Blood Frenzy Strike increases to 2d6 points of bleed damage."
 		]
 	},
 	"blood_frenzy_strike": {
@@ -4550,7 +4550,7 @@
 			"",
 			"Your strikes tear at an opponent's flesh, inflicting serious wounds, and you can unleash all of your pent-up rage in a single powerful blow.  ",
 			"**Prerequisites:** Str 15, {feat/Blood Frenzy Style}, {feat/Improved Unarmed Strike}, {feat/Power Attack}, base attack bonus +4, aquatic subtype.  ",
-			"**Benefit:** While you are using Blood Frenzy Style, when you damage an opponent with your unarmed strikes or natural attacks, you deal an extra 1d6 points of bleed damage; this bleed damage does not stack with itself. Once every 1d4 rounds, you can make an unarmed attack with a -5 penalty; if you hit, you deal an additional 2d6 points of bludgeoning damage."
+			"**Benefit:** While you are using Blood Frenzy Style, when you damage an opponent with your unarmed strikes or natural attacks, you deal an extra 1d6 points of {rule/bleed} damage; this bleed damage does not stack with itself. Once every 1d4 rounds, you can make an unarmed attack with a -5 penalty; if you hit, you deal an additional 2d6 points of bludgeoning damage."
 		]
 	},
 	"blood_frenzy_style": {
@@ -4590,7 +4590,7 @@
 			"{SOURCE Advanced Race Guide/100}",
 			"",
 			"You do not need to drink blood from a living creature to gain healing benefits.  ",
-			"**Prerequisites:** {feat/Blood Drinker}, dhampir.  ",
+			"**Prerequisites:** {feat/Blood Drinker}, {race/dhampir}.  ",
 			"**Benefit:** You can use your Blood Drinker feat on a dead creature of the appropriate humanoid subtype. The creature must have died less than 6 hours beforehand.  ",
 			"**Normal:** You only benefit from the Blood Drinker feat if you consume fresh blood from a living creature."
 		]
@@ -4604,8 +4604,8 @@
 			"{SOURCE Horror Adventures/82}",
 			"",
 			"When cut in combat, you spray your blood into the faces of your foes.  ",
-			"**Prerequisites:** Base attack bonus +2, susceptibility to bleed damage.  ",
-			"**Benefit:** Whenever a creature adjacent to you hits you with a melee attack that deals bleed damage, that creature must succeed at a Fortitude save (DC = 10 + 1/2 your character level + your Constitution modifier) or become blinded for 1d4 rounds as your blood sprays it in the face. Additionally, if you have a special ability that deals bleed damage (such as a rogue's bleeding strike rogue talent), as a standard action, you can deal 1 point of bleed damage to yourself to spray blood in the face of an adjacent creature of your choice, causing the same effect. The creature only needs to attempt the saving throw for the first of its attacks that deals bleed damage."
+			"**Prerequisites:** Base attack bonus +2, susceptibility to {rule/bleed} damage.  ",
+			"**Benefit:** Whenever a creature adjacent to you hits you with a melee attack that deals bleed damage, that creature must succeed at a Fortitude save (DC = 10 + 1/2 your character level + your Constitution modifier) or become {misc/blinded} for 1d4 rounds as your blood sprays it in the face. Additionally, if you have a special ability that deals bleed damage (such as a rogue's {talent/bleeding attack} rogue talent), as a standard action, you can deal 1 point of bleed damage to yourself to spray blood in the face of an adjacent creature of your choice, causing the same effect. The creature only needs to attempt the saving throw for the first of its attacks that deals bleed damage."
 		]
 	},
 	"blood_tide": {
@@ -4617,8 +4617,8 @@
 			"{SOURCE Monster Codex/189}",
 			"",
 			"In the throes of blood frenzy, you can unleash a whirlwind of claws and teeth against your foes.  ",
-			"**Prerequisites:** {feat/Combat Expertise}, {feat/Greater Blood Frenzy}, base attack bonus +6, blood frenzy ability, sahuagin.  ",
-			"**Benefit:** When you make a full attack while in a blood frenzy, you can give up your regular attacks to instead make one melee attack at your highest base attack bonus against each bleeding or wounded opponent within reach. You must use a natural weapon with these attacks, and you must make a separate attack roll against each opponent. You do not need to use the same natural weapon against each opponent.",
+			"**Prerequisites:** {feat/Combat Expertise}, {feat/Greater Blood Frenzy}, base attack bonus +6, blood frenzy ability, {monster/sahuagin}.  ",
+			"**Benefit:** When you make a full attack while in a blood frenzy, you can give up your regular attacks to instead make one melee attack at your highest base attack bonus against each {rule/bleed/ing} or wounded opponent within reach. You must use a natural weapon with these attacks, and you must make a separate attack roll against each opponent. You do not need to use the same natural weapon against each opponent.",
 			"",
 			"When you use Blood Tide, you also forfeit any extra attacks granted by other feats, spells, or abilities."
 		]
@@ -4633,7 +4633,7 @@
 			"",
 			"Pointing out your shared kinship with someone gives you the chance to win over creatures associated with your bloodline.  ",
 			"**Prerequisites:** Bluff 1 rank, bloodline class feature, {race/gnome}.  ",
-			"**Benefit:** When attempting a Diplomacy check to influence a creature with a plausible connection to your sorcerous bloodline, you may instead make a Bluff check. For example, a gnome sorcerer with the draconic bloodline may use this feat against dragons and their kin, but no other creatures."
+			"**Benefit:** When attempting a Diplomacy check to influence a creature with a plausible connection to your sorcerous bloodline, you may instead make a Bluff check. For example, a gnome sorcerer with the {sorcbloodline/draconic} bloodline may use this feat against dragons and their kin, but no other creatures."
 		]
 	},
 	"blood_vengeance": {
@@ -4649,9 +4649,9 @@
 			"",
 			"Seeing an ally fall in combat fills you with a raging and murderous fury.  ",
 			"**Prerequisites:** {race/Half-orc} or {race/orc}, nonlawful.  ",
-			"**Benefit:** Whenever one of your allies is reduced to negative hit points or killed, you may enter a state similar to but less powerful than a barbarian's rage as a free action on your next turn. If you have the rage class feature and are already raging, your morale bonuses to Strength and Constitution increase by +2 for the duration of your rage. If you do not have the rage class feature, or you have no more rage rounds left, this weaker rage gives you all the benefits and penalties of a barbarian's rage, except your morale bonus to Strength and Constitution is only +2. In either case, this state lasts for 4 rounds.",
+			"**Benefit:** Whenever one of your allies is reduced to negative hit points or killed, you may enter a state similar to but less powerful than a {class/barbarian/'s} rage as a free action on your next turn. If you have the rage class feature and are already raging, your morale bonuses to Strength and Constitution increase by +2 for the duration of your rage. If you do not have the rage class feature, or you have no more rage rounds left, this weaker rage gives you all the benefits and penalties of a barbarian's rage, except your morale bonus to Strength and Constitution is only +2. In either case, this state lasts for 4 rounds.",
 			"",
-			"As with a barbarian's rage, when this weaker rage ends, you are fatigued; if another ally falls before this duration ends, the weaker rage lasts for an additional 4 rounds. This feat does not allow you to enter a rage if you are fatigued. You may only use this feat if the fallen ally had at least as many Hit Dice as you (excluding conjured or summoned allies)."
+			"As with a barbarian's rage, when this weaker rage ends, you are {misc/fatigued}; if another ally falls before this duration ends, the weaker rage lasts for an additional 4 rounds. This feat does not allow you to enter a rage if you are fatigued. You may only use this feat if the fallen ally had at least as many Hit Dice as you (excluding conjured or summoned allies)."
 		]
 	},
 	"blooded_arcane_strike": {
@@ -4689,7 +4689,7 @@
 			"",
 			"When you attack with a piercing or slashing weapon, the wounds you cause bleed profusely.  ",
 			"**Prerequisites:** Worshiper of {faith/Zon-Kuthon}.  ",
-			"**Benefit:** Whenever you threaten a critical hit with a piercing or slashing weapon (regardless of whether you confirm the critical hit or not), you deal 1 point of bleed damage to the targeted creature.",
+			"**Benefit:** Whenever you threaten a critical hit with a piercing or slashing weapon (regardless of whether you confirm the critical hit or not), you deal 1 point of {rule/bleed} damage to the targeted creature.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Weapon Master's Handbook/24}",

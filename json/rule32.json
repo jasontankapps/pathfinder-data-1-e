@@ -3844,7 +3844,7 @@
 		"description": [
 			"{SOURCE Pathfinder Unchained/68}",
 			"",
-			"Feats that give bonuses on skill checks need to be adjusted or removed in the consolidated skills system. This section presents a list of the skill feats in the Core Rulebook that shouldn't be used with this system. It also presents an alternative version of {feat/Skill Focus} that replaces the core version to make its power level work better with this system. If an ability or class feature would grant access to one of the banned feats, use the most appropriate {feat/Skill Focus} feat instead, as determined by the GM. For example, a familiar that grants {feat/Alertness} would instead grant {feat/Skill Focus/ (Perception)}. For feats that modify skills in other ways, see the {rule/Bonuses for Function} section.",
+			"Feats that give bonuses on skill checks need to be adjusted or removed in the consolidated skills system. This section presents a list of the skill feats in the Core Rulebook that shouldn't be used with this system. It also presents an alternative version of {feat/Skill Focus} that replaces the core version to make its power level work better with this system. If an ability or class feature would grant access to one of the banned feats, use the most appropriate {feat/Skill Focus} feat instead, as determined by the GM. For example, a familiar that grants {feat/Alertness} would instead grant {feat/Skill Focus} (Perception). For feats that modify skills in other ways, see the {rule/Bonuses for Function} section.",
 			"",
 			":HL[Removed Feats:] {feat/Acrobatic}, {feat/Alertness}, {feat/Animal Affinity}, {feat/Athletic}, {feat/Deceitful}, {feat/Deft Hands}, {feat/Magical Aptitude}, {feat/Persuasive}, {feat/Self-Sufficient}, {feat/Stealthy}.",
 			"",

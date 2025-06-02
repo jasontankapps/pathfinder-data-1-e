@@ -65,7 +65,7 @@
 			"{SOURCE Inner Sea World Guide/289;Pathfinder Campaign Setting/137}",
 			"",
 			"You trained at one of Taldor's elite fighting schools and are skilled at rondelero, the art of fighting with the falcata and buckler.  ",
-			"**Prerequisites:** Dex 13, {feat/Exotic Weapon Proficiency/ (falcata)}, {feat/Shield Proficiency/ (buckler)}, {feat/Weapon Focus/ (falcata)}.  ",
+			"**Prerequisites:** Dex 13, {feat/Exotic Weapon Proficiency} (falcata), {feat/Shield Proficiency} (buckler), {feat/Weapon Focus} (falcata).  ",
 			"**Benefit:** When fighting with the falcata and buckler, your shield bonus to AC increases by +1 and you gain a +2 bonus on Acrobatics checks.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -265,7 +265,7 @@
 			"{SOURCE Advanced Race Guide/124}",
 			"",
 			"You intimidate weaker allies into reckless ferocity.  ",
-			"**Prerequisites:** {feat/Demoralizing Lash}, Intimidate 5 ranks, hobgoblin.  ",
+			"**Prerequisites:** {feat/Demoralizing Lash}, Intimidate 5 ranks, {race/hobgoblin}.  ",
 			"**Benefit:** As a standard action, you spur an ally, who must have fewer Hit Dice than yourself, to reckless effort. For 1 minute, the ally gains a +1 morale bonus on attack rolls, weapon damage rolls, and Will saves against mind-affecting effects. However, the ally also takes a -2 penalty to AC and on skill checks. To affect an unwilling ally, you must succeed at an Intimidate check with the same DC used to demoralize your ally.  ",
 			"**Special:** If you have 10 or more ranks in Intimidate, the morale bonus increases to +2.",
 			"",
@@ -441,7 +441,7 @@
 			"{SOURCE Technology Guide/7}",
 			"",
 			"You utilize high-tech firearms to maximum effect.  ",
-			"**Prerequisites:** Dex 13, {feat/Exotic Weapon Proficiency/ (firearms)}, {feat/Point-Blank Shot}  ",
+			"**Prerequisites:** Dex 13, {feat/Exotic Weapon Proficiency} (firearms), {feat/Point-Blank Shot}  ",
 			"**Benefit:** When you attack with a technological firearm that consumes charges, the save DC of any effect caused by that firearm increases by 1. If your bonuses from Point-Blank Shot apply, it increases by 2 instead."
 		]
 	},
@@ -607,7 +607,7 @@
 			"{SOURCE Advanced Player's Guide/172}",
 			"",
 			"Your mastery of the magic of changing makes your transmutations more durable.  ",
-			"**Prerequisites:** {feat/Spell Focus/ (transmutation)}.  ",
+			"**Prerequisites:** {feat/Spell Focus} (transmutation).  ",
 			"**Benefit:** The DC of caster level checks to dispel or remove your transmutations increases by 2; even if the spell is negated, its effects persist for 1 additional round before dissipating."
 		]
 	},
@@ -730,7 +730,7 @@
 			"{SOURCE Advanced Race Guide/124}",
 			"",
 			"Your battle prowess frightens friend and foe alike.  ",
-			"**Prerequisites:** {feat/Dazzling Display}, {feat/Demoralizing Lash}, {feat/Taskmaster}, {feat/Weapon Focus}, Intimidate 10 ranks, hobgoblin, proficiency with selected weapon.  ",
+			"**Prerequisites:** {feat/Dazzling Display}, {feat/Demoralizing Lash}, {feat/Taskmaster}, {feat/Weapon Focus}, Intimidate 10 ranks, {race/hobgoblin}, proficiency with selected weapon.  ",
 			"**Benefit:** When you use Dazzling Display, in addition to its normal effects, you can use it to spur allies within 30 feet as if you had used the Taskmaster feat. Use the same Intimidate check to determine the effects of Dazzling Display and this feat.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -751,7 +751,7 @@
 			"{SOURCE Ultimate Magic/157;Osirion, Land of the Pharaohs/27}",
 			"",
 			"Your spells can pierce wards against negative energy and even affect undead targets.  ",
-			"**Prerequisites:** Knowledge (religion) 6 ranks, {feat/Spell Focus/ (necromancy)}.  ",
+			"**Prerequisites:** Knowledge (religion) 6 ranks, {feat/Spell Focus} (necromancy).  ",
 			"**Benefit:** A thanatopic spell pierces defenses and immunities that protect against {spelldef/death} effects, {rule/energy_drain_and_<negative levels/, and energy drain}, affecting the target as if the protective barrier did not exist. For example, you could cast a thanatopic {spell/vampiric touch} or {spell/enervation} spell on a target under the effects of {spell/death ward}, and the target would suffer the normal effect of the spell. Saving throws and SR (if any) still apply.",
 			"",
 			"Undead are susceptible to spells augmented by this feat, as it retunes the negative energy to be harmful to them. A thanatopic spell that would kill a living creature (such as by giving it negative levels equal to its Hit Dice) destroys an undead (though undead such as ghosts, liches, and vampires may reform as normal). Undead affected by thanatopic spells that give negative levels automatically make their saving throws to remove negative levels after 24 hours.",
@@ -857,7 +857,7 @@
 			"{SOURCE Gnomes of Golarion/27}",
 			"",
 			"You've mastered the art of making illusions that force foes to divide their attention in combat.  ",
-			"**Prerequisites:** {feat/Spell Focus/ (illusion)}, {race/Gnome}.  ",
+			"**Prerequisites:** {feat/Spell Focus} (illusion), {race/Gnome}.  ",
 			"**Benefit:** You can use this metamagic feat only on illusion (figment) spells.",
 			"",
 			"A threatening illusion spell causes one target to believe your illusion is a threat. Choose one 5-foot square within the area of your illusion; that square threatens the target as long as it is adjacent. Thus, if you or an ally is on the opposite side of the target, it is considered flanking.",
@@ -880,7 +880,7 @@
 			"{SOURCE Ultimate Intrigue/94}",
 			"",
 			"Those who you intimidate know that you'll go through with your threats.  ",
-			"**Prerequisites:** {feat/Nerve-Racking Negotiator}, {feat/Persuasive}, {feat/Skill Focus/ (Intimidate)}.  ",
+			"**Prerequisites:** {feat/Nerve-Racking Negotiator}, {feat/Persuasive}, {feat/Skill Focus} (Intimidate).  ",
 			"**Benefit:** When you successfully use the Intimidate skill to force an opponent to act friendly toward you, the duration of the attitude change lasts 2d6 hours.  ",
 			"**Normal:** Changing an opponent's attitude with Intimidate normally changes the foe's attitude to friendly for 1d6x10 minutes."
 		]
@@ -897,7 +897,7 @@
 			"{SOURCE Ultimate Magic/157;Osirion, Land of the Pharaohs/27}",
 			"",
 			"You can convert mind-affecting magic to necromantic power capable of controlling undead.  ",
-			"**Prerequisites:** Knowledge (religion) 6 ranks, {feat/Spell Focus/ (necromancy)}.  ",
+			"**Prerequisites:** Knowledge (religion) 6 ranks, {feat/Spell Focus} (necromancy).  ",
 			"**Benefit:** This feat only works on mind-affecting spells. A threnodic spell affects undead creatures (even mindless undead) as if they weren't immune to mind-affecting effects, but has no effect on living creatures. A threnodic spell uses up a spell slot two level higher than the spell's actual level.  ",
 			"**Normal:** Undead are immune to mind-affecting effects."
 		]
@@ -1050,7 +1050,7 @@
 			"{SOURCE Varisia, Birthplace of Legends/10;Pathfinder #10: A History of Ashes/28}",
 			"",
 			"You have mastered the ancient Shoanti Thunder and Fang fighting style, allowing you to fight with increased effectiveness when wielding an earth breaker and klar.  ",
-			"**Prerequisites:** Int 13, {feat/Combat Expertise}, {feat/Improved Trip}, {feat/Tripping Staff}, {feat/Weapon Focus/ (quarterstaff)}, {feat/Weapon Specialization/ (quarterstaff)}, base attack bonus +12.  ",
+			"**Prerequisites:** Int 13, {feat/Combat Expertise}, {feat/Improved Trip}, {feat/Tripping Staff}, {feat/Weapon Focus} (quarterstaff), {feat/Weapon Specialization} (quarterstaff), base attack bonus +12.  ",
 			"**Benefit:** You can use an earth breaker as though it were a one-handed weapon. When using an earth breaker in one hand and a klar in your off hand, you retain the shield bonus your klar grants to your Armor Class even when you use it to attack. Treat your klar as a light weapon for the purposes of determining your two-weapon fighting penalty.  ",
 			"**Normal:** An earth breaker is a two-handed weapon, preventing the use of a klar in one hand without imposing penalties for using the earth breaker one-handed. A klar can be used either as a one-handed weapon or a shield; it does not grant a bonus to AC during rounds in which it is used as a weapon.  ",
 			"**Special:** This is a combat feat, and may be selected with class features that grant bonus combat feats."
@@ -1207,7 +1207,7 @@
 			"{SOURCE Mythic Adventures/75}",
 			"",
 			"Your fists can fell titanic foes.  ",
-			"**Prerequisites:** {feat/Improved Unarmed Strike/ (mythic)}.  ",
+			"**Prerequisites:** {feat/Improved Unarmed Strike} (mythic).  ",
 			"**Benefit:** Your unarmed strike deals damage as if you were one size category larger. You also gain a +1 bonus for each size category that your target is larger than you on the following: bull rush, drag, grapple, overrun, sunder, and trip combat maneuver checks and the DC of your Stunning Fist."
 		]
 	},
@@ -2751,7 +2751,7 @@
 			"{SOURCE Ultimate Magic/158}",
 			"",
 			"By using lay on hands, you can bring the dead back to life.  ",
-			"**Prerequisites:** Cha 19, {feat/Greater Mercy}, lay on hands, mercy class feature.  ",
+			"**Prerequisites:** Cha 19, {feat/Greater Mercy}, {ability/lay on hands}, mercy class feature.  ",
 			"**Benefit:** You can expend 10 uses of lay on hands to bring a single dead creature you touch back to life as a {spell/raise dead} spell with a caster level equal to your paladin level. You must provide the material component for raise dead or choose to accept 1 temporary negative level; this level automatically goes away after 24 hours, never becomes a permanent negative level, and cannot be overcome in any way except by waiting for the duration to expire."
 		]
 	},
@@ -3051,7 +3051,7 @@
 			"{SOURCE Ultimate Magic/158}",
 			"",
 			"You can marshal vast armies of the undead to serve you.  ",
-			"**Prerequisites:** {feat/Spell Focus/ (necromancy)}, the ability to cast animate dead or command undead.  ",
+			"**Prerequisites:** {feat/Spell Focus} (necromancy), the ability to cast animate dead or command undead.  ",
 			"**Benefit:** When you cast animate dead or use the Command Undead feat, you are considered to be four levels higher when determining the number of Hit Dice you animate. When you cast command undead, your duration is doubled.",
 			"",
 			"### Mythic Undead Master",
@@ -3510,7 +3510,7 @@
 			"{SOURCE Bastards of Golarion/16}",
 			"",
 			"Your heritage is strange or difficult to trace, and people fear your otherworldly powers.  ",
-			"**Prerequisites:** Dhampir.  ",
+			"**Prerequisites:** {race/Dhampir}.  ",
 			"**Benefit:** Your undead progenitor left you with more than a hint of vampiric nature. You gain a natural bite attack that deals 1d4 points of damage. Once per day upon making a successful bite attack, you can choose to deal an additional 1d4 points of bleed damage to the creature struck.  ",
 			"**Special:** You can only select this feat at 1st level."
 		]
@@ -3689,7 +3689,7 @@
 			"{SOURCE Rival Guide/47}",
 			"",
 			"As a vampire, you may use your create spawn ability to transform a dire bat, dire rat, or wolf into a more powerful vampiric companion.  ",
-			"**Prerequisites:** Vampire, Charisma 18, animal companion class ability, sufficiently high level (see below).  ",
+			"**Prerequisites:** {template/Vampire}, Charisma 18, animal companion class ability, sufficiently high level (see below).  ",
 			"**Benefit:** A vampire with this feat can elect to use its create spawn ability on an animal summoned using the child of the night ability (such as a dire bat, dire rat, or wolf) to create a vampiric animal companion. This decision must be made as a free action as the vampire slays the animal with its blood drain or energy drain ability. The animal rises from death in 1d4 days as a vampiric animal bonded with the vampire who spawned it. Thereafter, the vampiric animal advances in abilities like a normal animal companion as the vampire gains further class levels in the class that granted the animal companion.",
 			"",
 			"In order to gain a dire rat as a vampiric companion, a vampire's effective druid level must be 4th. To gain a wolf as an vampiric companion, the vampire's effective druid level must be 6th. To gain a dire bat vampiric companion, the vampire's effective druid level must be 9th. At your option, additional animals could be added to this list - use these examples as guides to set minimum levels.",
@@ -3721,7 +3721,7 @@
 			"{SOURCE Monster Codex/237;Blood of the Night/28}",
 			"",
 			"Just as your undead existence mocks nature, so too does your twisted companion reflect the vile nature of vampirism.  ",
-			"**Prerequisites:** Dhampir or vampire, nongood alignment, 10th level in a class that grants a familiar or animal companion.  ",
+			"**Prerequisites:** {race/Dhampir} or {template/vampire}, nongood alignment, 10th level in a class that grants a familiar or animal companion.  ",
 			"**Benefit:** Your animal companion or familiar's type changes to \"undead.\" The creature gains fast healing 5 as well as your vampire or dhampir weaknesses. If you are a vampire, the creature also gains the following abilities, depending on what type of vampire you are.",
 			"",
 			"Jiang-Shi: While the creature is adjacent to or in your square, it gains the benefit of your prayer scroll ability. The creature crumbles into dust if destroyed (just like a jiang-shi), but is not permanently destroyed unless measures are taken that would destroy a jiang-shi.",
@@ -4001,7 +4001,7 @@
 			"{SOURCE Ultimate Wilderness/119;Heroes of the Wild/26}",
 			"",
 			"Your magical connection to nature allows you to entice, fool, and misdirect plants and fungi as though they were people.  ",
-			"**Prerequisites:** {feat/Spell Focus/ (enchantment)}, Knowledge (nature) 6 ranks.  ",
+			"**Prerequisites:** {feat/Spell Focus} (enchantment), Knowledge (nature) 6 ranks.  ",
 			"**Benefit:** A verdant spell affects plant creatures (even mindless plant creatures) as if they weren't immune to mind-affecting effects, but it has no effect on other types of creatures. A verdant spell uses up a spell slot 2 levels higher than the spell's actual level. This feat works only on mind-affecting spells.  ",
 			"**Normal:** Creatures of the plant type are immune to mind-affecting effects."
 		]
@@ -4505,7 +4505,7 @@
 			"{SOURCE Inner Sea Monster Codex/59}",
 			"",
 			"You can channel your daemonic energies through the vile blade you wield.  ",
-			"**Prerequisites:** {feat/Weapon Focus/ (rhoka sword)}, base attack bonus +4, urdefhan.  ",
+			"**Prerequisites:** {feat/Weapon Focus} (rhoka sword), base attack bonus +4, urdefhan.  ",
 			"**Benefit:** When wielding a rhoka sword, you can channel your daemonic energies through the blade as a swift action, causing it to deal Strength damage as your bite attack. You can use this ability a number of times per day equal to your Constitution modifier (minimum 1)."
 		]
 	},
@@ -4667,7 +4667,7 @@
 			"{SOURCE Monster Codex/117}",
 			"",
 			"You are adept at instigating wars among those you advise or antagonize.  ",
-			"**Prerequisites:** Cha 13, hobgoblin.  ",
+			"**Prerequisites:** Cha 13, {race/hobgoblin}.  ",
 			"**Benefit:** You gain Bluff and Diplomacy as class skills. In addition, you receive a +4 competence bonus on Bluff and Diplomacy skill checks when using either skill to convince another character to go to war against or attack another creature or group."
 		]
 	},
@@ -4696,7 +4696,7 @@
 			"{SOURCE Monster Codex/81;Classic Horrors Revisited/32}",
 			"",
 			"After years spent digging up graves, you are able to move through dirt almost as easily as a fish through water.  ",
-			"**Prerequisites:** Ghoul.  ",
+			"**Prerequisites:** {monster/Ghoul}.  ",
 			"**Benefit:** You gain a burrow speed of 10 feet through earth, sand, or soil.  ",
 			"**Special:** You can gain this feat multiple times. Each time you take it, add 10 feet to your burrow speed, up to a maximum of your base land speed."
 		]

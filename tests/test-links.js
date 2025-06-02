@@ -277,6 +277,7 @@ const testLinks = () => {
 		const invalid = [];
 		Object.keys(object).forEach(prop => {
 			const {sources, tables, description, topLink} = object[prop];
+			// Test sources property
 			if(sources !== undefined) {
 				if(!sources || !Array.isArray(sources)) {
 					msg.push(`\tINVALID ${prop}.sources`);
@@ -292,50 +293,45 @@ const testLinks = () => {
 					});
 				}
 			}
+			// Set up description for testing
 			const TESTING = description ? (Array.isArray(description) ? [...description] : [description]) : [];
 			const z = (tables || []);
 			if(z && !Array.isArray(z)) {
 				console.log(">>"+link+">>"+JSON.stringify(z));
 			}
+			// Go through tables and stage info for testing
 			(tables || []).forEach(table => {
-				const ripples = table.ripples || [];
 				table.data.forEach(row => {
 					Array.isArray(row) && TESTING.push(...row.map((bit, i) => {
-						if(Array.isArray(bit)) {
-							if(bit.length === 3) {
-								return `[](${bit[1]})`;
-							} else if (ripples.indexOf(i) > -1) {
-								return `[](${bit[0]})`;
-							}
-							const temp = bit[1];
-							return typeof temp === "string" ? temp : null;
-						}
-						return typeof bit === "string" ? bit : null;
-					}).filter(bit => bit !== null)); //test new tables
+						const test = Array.isArray(bit) ? bit[1] : bit;
+						return typeof test === "string" ? test : null;
+					}).filter(bit => bit !== null));
 				});
 			});
+			// Test the plain text
 			TESTING.forEach(line => {
 				let temp = line;
 				let m = false;
+				// Checking [Links](whatever/link)
 				while(m = temp.match(/\]\([/]?([^)]+)[/]([^)/]+)\)(.*$)/)) {
-					// Checking [Links](whatever/link)
 					if(m) {
-						const link = convertTextToLink(m[2]);
-						if(m[1] === "source") {
+						const [, protocol, text] = m;
+						const link = convertTextToLink(text);
+						if(protocol === "source") {
 							if(!allsources[link]) {
-								invalid.push(m[1] + "/" + m[2]);
+								invalid.push(protocol + "/" + text);
 							}
-						} else if (m[1].match(/^http/)) {
+						} else if (protocol.match(/^http/)) {
 							// Skip
-						} else if(!$KnownProps[m[1]] || !$KnownProps[m[1]][link]) {
-							invalid.push(m[1] + "/" + m[2]);
+						} else if(!$KnownProps[protocol] || !$KnownProps[protocol][link]) {
+							invalid.push(protocol + "/" + text);
 						}
 						temp = m[3];
 					}
 				}
 				temp = line;
+				// Testing {SOURCE Title/##}
 				while(m = temp.match(/\{SOURCE ([^}]+)\}(.*$)/)) {
-					// Testing {SOURCE Title/##}
 					if (m) {
 						m[1].split(/;/).forEach(bit => {
 							const xx = bit.match(/([^/]+)([/][-, 0-9]+)?$/);
@@ -349,8 +345,8 @@ const testLinks = () => {
 					}
 				}
 				temp = line;
+				// Testing ::main[text]{to=some/where}
 				while(m = temp.match(/::main\[.+?\]\{.*?\bto=([-a-z_]+)[/]([a-z_0-9]+).*?\}(.*$)/)) {
-					// Testing ::main[text]{to=some/where}
 					if(m[1] === "source") {
 						if(!allsources[m[2]]) {
 							invalid.push(m[1] + "/" + m[2]);
@@ -361,8 +357,8 @@ const testLinks = () => {
 					temp = m[3];
 				}
 				temp = line;
+				// Testing :ripple[link/text] and :hll[link/text]
 				while(m = temp.match(/:(ripple|hll)\[(.+?)(?<!\\)\](.*$)/)) {
-					// Testing :ripple[link/text] and :hll[link/text]
 					const q = checkForEncodedLink(m[2].replace(/\\/g, ""), { bare: true });
 					if(!q) {
 						invalid.push(`:${m[1]}[${m[2]}]`)
@@ -379,21 +375,21 @@ const testLinks = () => {
 					temp = m[2];
 				}
 				temp = line;
+				// Testing for {link/text}
 				while(m = checkForEncodedLink(temp)) {
-					// m = [...post, protocol, property, fullmatch]
-					const property = (m.pop() || 1) && m.pop();
-					const protocol = m.pop();
-					const potential = `{${protocol}/${property}}`;
+					// [pre, `${protocol}/${property}`, text, post, protocol, property, `{${protocol}/${matchedx}}`]
+					const [ , potential, , post, protocol, property, fulltext ] = m;
 					if(protocol === "source") {
 						if(!allsources[property]) {
-							invalid.push(potential);
+							invalid.push(fulltext === `{${potential}}` ? fulltext : `${fulltext} => ${potential}`);
 						}
 					} else if (!$KnownProps[protocol] || !$KnownProps[protocol][property]) {
-						invalid.push(potential)
+						invalid.push(fulltext === `{${potential}}` ? fulltext : `${fulltext} => ${potential}`)
 					}
-					temp = m.pop();
+					temp = post;
 				}
 			});
+			// Test validity of topLink properties
 			if(topLink) {
 				const [ title, link ] = topLink;
 				const m = link.match(/^([-a-z0-9_]+)[/]([a-z_0-9]+)$/);

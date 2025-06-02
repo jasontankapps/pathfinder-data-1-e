@@ -336,7 +336,7 @@
 			"{SOURCE Monster Codex/80}",
 			"",
 			"You have been dead for so long you have become quite difficult to kill.  ",
-			"**Prerequisites:** {feat/Sleeper}, {feat/Warren Digger}, creature has been a ghoul for at least 500 years.  ",
+			"**Prerequisites:** {feat/Sleeper}, {feat/Warren Digger}, creature has been a {monster/ghoul} for at least 500 years.  ",
 			"**Benefit:** When you are reduced to 0 hit points, you are not destroyed - you cannot be killed unless your body is completely destroyed with fire or doused in holy water, or you take damage from a cure spell or channeled positive energy after you've been reduced to 0 hit points. Anytime you are reduced to 0 hit points, you remain unconscious until you are healed or until the following midnight, at which time you regain 1 hit point per Hit Die and awaken."
 		]
 	},
@@ -459,7 +459,7 @@
 			"{SOURCE Agents of Evil/13}",
 			"",
 			"You pass along private details to the [Red Mantis](rule/aff_assassins), and they protect you in return.  ",
-			"**Prerequisites:** {feat/Associate/ (Red Mantis)}.  ",
+			"**Prerequisites:** {feat/Associate} (Red Mantis).  ",
 			"**Benefit:** The Red Mantis can help you hide from trouble in one of their secret safe houses. Anyone attempting Diplomacy or Survival checks to locate you during this time takes a -10 penalty, and anyone attempting to scry upon you or magically divine your location must first succeed at a caster level check (DC = 15 + your character level). You can stay in a Mantis safe house for up to 1 day per character level before you are forced to vacate."
 		]
 	},
@@ -544,7 +544,7 @@
 			"{SOURCE Adventurer's Guide/26}",
 			"",
 			"You've gained enough control over your body to translate strength into swiftness.  ",
-			"**Prerequisites:** Con 13, Wis 13, {feat/Exotic Weapon Proficiency/ (aldori dueling sword)}, {feat/Iron Will}, base attack bonus +4.  ",
+			"**Prerequisites:** Con 13, Wis 13, {feat/Exotic Weapon Proficiency} (aldori dueling sword), {feat/Iron Will}, base attack bonus +4.  ",
 			"**Benefit:** Whenever an effect would grant you an enhancement or morale bonus to your Strength score (such as via bull's strength or a skald's inspired rage performance), you can instead apply that bonus to your Dexterity score. You make this choice when you first gain the bonus. The bonus type does not change."
 		]
 	},
@@ -692,7 +692,7 @@
 			"{SOURCE Legacy of Dragons/19}",
 			"",
 			"Your clan had an impressive collection of ancient artifacts, and you often see things on your journey that remind you of items in the clan hoard.  ",
-			"**Prerequisites:** Wyvaran.  ",
+			"**Prerequisites:** {race/Wyvaran}.  ",
 			"**Benefit:** You gain a +2 bonus on Appraise checks to determine an item's value and on Spellcraft checks to determine an item's magic properties. For every 5 points by which you exceed the DC, you can determine additional details about the item at the GM's discretion, such as its country of origin, the crafter's race, techniques employed in its creation, or whether it has any historical significance."
 		]
 	},
@@ -974,7 +974,7 @@
 			"{SOURCE Plane-Hopper's Handbook/6}",
 			"",
 			"Your training in counterspelling summons is so extensive that you can redirect some of your foes' power to call forth your own allies.  ",
-			"**Prerequisites:** {feat/Spell Focus/ (conjuration)} or counter summons class feature.",
+			"**Prerequisites:** {feat/Spell Focus} (conjuration) or counter summons class feature.",
 			"",
 			"When you successfully counter a summoning spell with {spell/dispel magic} or your own {spell/summon monster>_1} spell, you can immediately summon nonevil creatures as if you had just finished casting a summon monster spell of 2 levels lower than the countered summoning spell."
 		]
@@ -1083,7 +1083,7 @@
 			"{SOURCE Ultimate Magic/155}",
 			"",
 			"When you lay on hands, divine energy ripples through you, granting you grace.  ",
-			"**Prerequisites:** Lay on hands class feature.  ",
+			"**Prerequisites:** {ability/Lay on hands} class feature.  ",
 			"**Benefit:** Each time you use your lay on hands ability, you gain a +1 sacred bonus on all attack rolls for 1 round."
 		]
 	},
@@ -1096,7 +1096,7 @@
 			"{SOURCE Ultimate Magic/155}",
 			"",
 			"When you lay on hands, you are also healed.  ",
-			"**Prerequisites:** Lay on hands class feature.  ",
+			"**Prerequisites:** {ability/Lay on hands} class feature.  ",
 			"**Benefit:** Each time you use your lay on hands ability to heal a creature other than yourself, you heal a number of hit points equal to your Charisma bonus. This ability has no effect if you use lay on hands to harm undead."
 		]
 	},
@@ -1786,7 +1786,7 @@
 			"{SOURCE Black Markets/18;Dark Markets - A Guide to Katapesh/56}",
 			"",
 			"You have intertwined your familiarities with pesh and magic to unlock strange powers.  ",
-			"**Prerequisites:** {feat/Spell Focus/ (any)}, ability to cast 2nd-level spells.  ",
+			"**Prerequisites:** {feat/Spell Focus} (any), ability to cast 2nd-level spells.  ",
 			"**Benefit:** When you consume pesh, you take 1 fewer point of Constitution or Wisdom damage (your choice). In addition, you add spells below to your own class spell list or list of spells known. You can add one spell from the highest level you can cast; you can instead add two spells to your list of spells known, but both of these spells must be at least 1 level lower than the highest-level spell you can cast for that class. If you have more than one spellcasting class, choose one and add the sahir-afiyun spell or spells to that class's spell list or list of spells known.",
 			"",
 			"All sahir-afiyun spells require 1 dose of pesh as a material component, either replacing the existing material component, or as part of the material component if the existing component costs more.",
@@ -2377,7 +2377,7 @@
 			"{SOURCE Monster Summoner's Handbook/14}",
 			"",
 			"Your experiments with the connection between summoners and the creatures they summon have taught you to see through the eyes of a summoned creature for a short time.  ",
-			"**Prerequisites:** {feat/Spell Focus/ (conjuration)}, ability to cast magic jar.  ",
+			"**Prerequisites:** {feat/Spell Focus} (conjuration), ability to cast magic jar.  ",
 			"**Benefit:** When casting a conjuration (summoning) spell that summons a single creature, you can possess the creature as per magic jar (but with no receptacle necessary). If the creature takes damage while you possess it, you must succeed at a {rule/concentration} check (DC equal to the amount of damage taken) or be ejected from the creature immediately. If the creature takes enough damage to reduce it to 0 hit points or fewer, you are immediately ejected from the creature and take an amount of damage equal to double the level of the spell slot used to summon that creature. A scouting summons spell takes up a spell slot 2 levels higher than the spell's actual level."
 		]
 	},
@@ -2835,7 +2835,7 @@
 			"{SOURCE Monster Hunter's Handbook/15}",
 			"",
 			"You can use your mercies to transform petrified victims back to flesh.  ",
-			"**Prerequisites:** Paladin level 12th, lay on hands class feature, mercy class feature.  ",
+			"**Prerequisites:** Paladin level 12th, {ability/lay on hands} class feature, mercy class feature.  ",
 			"**Benefit:** You gain a unique mercy, which aids victims of petrification. Whenever you use your lay on hands ability to heal damage, you can emulate stone to flesh on the target, using your paladin level as your caster level. This functions only on a creature that has been petrified, and it has no effect on other stone."
 		]
 	},
@@ -3041,7 +3041,7 @@
 			"{SOURCE Monster Codex/20}",
 			"",
 			"You can choke foes with a lasso.  ",
-			"**Prerequisites:** {feat/Exotic Weapon Proficiency/ (lasso)}, {feat/Weapon Focus/ (lasso)}.  ",
+			"**Prerequisites:** {feat/Exotic Weapon Proficiency} (lasso), {feat/Weapon Focus} (lasso).  ",
 			"**Benefit:** When you successfully entangle a creature with a lasso and beat the target's CMD by 5 or more, the target cannot speak above a whisper and must succeed at a {rule/concentration} check (DC = 20 + your CMB + the spell level) to cast a spell with a verbal component, use a command word item, or use any magic requiring speech. Additionally, the DC of an Escape Artist check to slip free of a lasso you are using equals 15 or your CMD, whichever is higher."
 		]
 	},
@@ -3161,7 +3161,7 @@
 			"{SOURCE Advanced Race Guide/201}",
 			"",
 			"You strengthen your crippled wings.  ",
-			"**Prerequisites:** Str 13, {feat/Skill Focus/ (Fly)}, strix, wing-clipped racial trait.  ",
+			"**Prerequisites:** Str 13, {feat/Skill Focus} (Fly), {race/strix}, wing-clipped racial trait.  ",
 			"**Benefit:** Your strix racial fly speed increases to 60 feet (average). You ignore the wing-clipped trait's Fly check requirement to fly upward."
 		]
 	},
@@ -4022,7 +4022,7 @@
 			"{SOURCE Ultimate Magic/157}",
 			"",
 			"Your summoned minions shine with the power of the sun.  ",
-			"**Prerequisites:** {feat/Spell Focus/ (conjuration)}, able to cast summon nature's ally.  ",
+			"**Prerequisites:** {feat/Spell Focus} (conjuration), able to cast summon nature's ally.  ",
 			"**Benefit:** Creatures that you summon shed light as a light spell. They are immune to blinding or dazzling effects, and their natural weapons are treated as magical for overcoming damage reduction."
 		]
 	},
@@ -4088,7 +4088,7 @@
 			"{SOURCE Ultimate Intrigue/94}",
 			"",
 			"You are adept at seeing more when scrying.  ",
-			"**Prerequisites:** {feat/Spell Focus/ (divination)}, the ability to cast at least one spell of the scrying subschool.  ",
+			"**Prerequisites:** {feat/Spell Focus} (divination), the ability to cast at least one spell of the scrying subschool.  ",
 			"**Benefit:** When casting a scrying spell, you see through the spell's sensor with darkvision 60 feet, whether or not you possess darkvision normally and whether or not the spell normally allows you to see with darkvision. If the spell sends back sensory information only within 10 feet of the sensor (such as with scrying and greater scrying), this feat doesn't increase that range. You receive a +2 bonus on Perception checks to notice things through a scrying sensor, and your prying eyes and insect spies also receive a +2 bonus on Perception checks.",
 			"",
 			"When you use the scrying or greater scrying spell, you have a 10% increase to the chance of using spells through the sensor."
@@ -4221,7 +4221,7 @@
 			"{SOURCE Monster Codex/68}",
 			"",
 			"You move on ice and snow as if it were dry ground.  ",
-			"**Prerequisites:** Frost giant.  ",
+			"**Prerequisites:** {monster/Frost giant}.  ",
 			"**Benefit:** You can move across icy and snowy surfaces without penalty, and don't need to attempt Acrobatics checks to run or charge on ice. You gain a +4 bonus on Climb checks to climb ice."
 		]
 	},

@@ -1640,7 +1640,7 @@
 					[ "{kinetic/Toxic Infusion}", "substance infusion", "wood", 4, 3, null, "{kinetic/Autumn Blast}, {kinetic/Spring Blast}, {kinetic/Summer Blast}, {kinetic/Verdant Blast}, {kinetic/Winter Blast}, {kinetic/Wood Blast}" ],
 					[ "{kinetic/Toxic Infusion, Greater}", "substance infusion", "wood", 7, 4, "{kinetic/toxic infusion}", "{kinetic/Autumn Blast}, {kinetic/Spring Blast}, {kinetic/Summer Blast}, {kinetic/Verdant Blast}, {kinetic/Winter Blast}, {kinetic/Wood Blast}" ],
 					[ "{kinetic/Tremor}", "form infusion", "earth", 5, 3, null, "{kinetic/Earth Blast}" ],
-					[ "{kinetic/Turning Blast}", "substance infusion", "void, wood", 4, 3, "{race/duskwalker}, or {feat/Planar Infusion/ (Boneyard)}", "{kinetic/Positive Blast}, {kinetic/Negative Blast}" ],
+					[ "{kinetic/Turning Blast}", "substance infusion", "void, wood", 4, 3, "{race/duskwalker}, or {feat/Planar Infusion} (Boneyard)", "{kinetic/Positive Blast}, {kinetic/Negative Blast}" ],
 					[ "{kinetic/Unblinking Flame Infusion}", "substance infusion", "fire", 5, 3, "{kinetic/kinetic fist}, member of the Monastery of Unblinking Flame", "{kinetic/Blue Flame Blast}, {kinetic/Fire Blast}" ],
 					[ "{kinetic/Unbreaking Waves Infusion}", "substance infusion", "water", 5, 3, "{kinetic/kinetic fist}, member of the Monastery of Unbreaking Waves", "{kinetic/Ice Blast}, {kinetic/Water Blast}" ],
 					[ "{kinetic/Unfolding Wind Infusion}", "substance infusion", "air", 5, 3, "{kinetic/kinetic fist}, member of the Monastery of Unfolding Wind", "{kinetic/Air Blast}, {kinetic/Thunderstorm Blast}" ],

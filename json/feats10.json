@@ -1101,7 +1101,7 @@
 			"You can throw grappled enemies a short distance, turning them into makeshift missiles against their allies.  ",
 			"**Prerequisites:** {feat/Flyby Attack}, {feat/Powerful Wings}, {feat/Snatch and Drop}, {feat/Throw Anything}.  ",
 			"**Benefit:** Whenever you successfully grapple an opponent using the Snatch and Drop feat, you can instead fling your victim at another target. You can throw a creature 10 feet, plus an additional 5 feet for every size category by which it is smaller than you. To strike another target, make a ranged touch attack. If you hit, the attack deals damage to both the creature flung and its intended target. This damage is equal to that of a slam attack of a creature two sizes larger than the creature being flung plus your Strength modifier. The flung creature lands prone in the nearest adjacent square to the target, and the target must succeed at a Reflex saving throw (DC = 10 + damage dealt) or also fall prone in its own square. You can't use this feat if the weight of the creature you intend to fling exceeds the amount you can carry as a heavy load.  ",
-			"**Special:** While the following feats are primarily taken by strix, other creatures with natural wings can also take them at the GM's discretion."
+			"**Special:** While this feat is primarily taken by {race/strix}, other creatures with natural wings can also take them at the GM's discretion."
 		]
 	},
 	"flinging_charge": {
@@ -1477,7 +1477,7 @@
 			"{SOURCE Advanced Race Guide/124}",
 			"",
 			"You and your allies work together to shake off mental effects.  ",
-			"**Prerequisites:** {feat/Hobgoblin Discipline}, hobgoblin.  ",
+			"**Prerequisites:** {feat/Hobgoblin Discipline}, {race/hobgoblin}.  ",
 			"**Benefit:** An ally who also has this feat can deal damage to you in order to break an ongoing mind-affecting effect that allows a saving throw. The ally must cause at least 5 points of damage to you with an attack, spell, or other ability. You then reroll your saving throw, with a +1 bonus for every 5 additional points of damage the attack caused. If your save is successful, the mind-affecting effect ends. Only damage actually dealt counts for purposes of this feat; nonlethal damage and damage reduced or eliminated by damage reduction, resistances, and so on does not qualify."
 		]
 	},
@@ -2445,7 +2445,7 @@
 			"{SOURCE Cheliax, Empire of Devils/27}",
 			"",
 			"You are difficult to see in the light.  ",
-			"**Prerequisites:** {feat/Skill Focus/ (Stealth)}, Stealth 6 ranks.  ",
+			"**Prerequisites:** {feat/Skill Focus} (Stealth), Stealth 6 ranks.  ",
 			"**Benefit:** You may make Stealth checks in normal or bright light even when observed, but at a -10 penalty.  ",
 			"**Normal:** You cannot make Stealth checks while observed."
 		]
@@ -2810,7 +2810,7 @@
 			"{SOURCE Advanced Race Guide/124}",
 			"",
 			"The presence of other hobgoblins bolsters your resolve.  ",
-			"**Prerequisites:** Base attack bonus +1, hobgoblin.  ",
+			"**Prerequisites:** Base attack bonus +1, {race/hobgoblin}.  ",
 			"**Benefit:** While you are within 30 feet of at least two other hobgoblins, you gain a +1 morale bonus on saving throws."
 		]
 	},
@@ -3173,7 +3173,7 @@
 			"{SOURCE Monster Codex/68}",
 			"",
 			"Your eyes burn like ice, allowing you to freeze and weaken foes with a glance.  ",
-			"**Prerequisites:** {feat/Born of Frost}, frost giant.  ",
+			"**Prerequisites:** {feat/Born of Frost}, {monster/frost giant}.  ",
 			"**Benefit:** As a standard action, you can direct your icy stare against a single creature or object within 10 feet. Targeted creatures must succeed at a Fortitude save (DC = 10 + 1/2 your Hit Dice + your Charisma modifier) or take 1d6 points of cold damage. Unattended objects cannot attempt a saving throw. Creatures damaged by the spell must succeed at a Fortitude save or take 1 point of Strength damage.",
 			"",
 			"This feat doesn't grant an actual gaze attack - foes and allies are not in danger simply by meeting your gaze."
@@ -3766,7 +3766,7 @@
 			"{SOURCE Ultimate Magic/153}",
 			"",
 			"Your summoned minions are infused with the power of the moon.  ",
-			"**Prerequisites:** {feat/Spell Focus/ (conjuration)}, able to cast summon nature's ally.  ",
+			"**Prerequisites:** {feat/Spell Focus} (conjuration), able to cast summon nature's ally.  ",
 			"**Benefit:** Creatures you summon shed light as a light spell. They are immune to confusion and sleep effects, and their natural weapons are treated as silver for the purposes of overcoming damage reduction."
 		]
 	},
@@ -4194,7 +4194,7 @@
 			"{SOURCE Villain Codex/56}",
 			"",
 			"You dodge ranged attacks with greater proficiency than most.  ",
-			"**Prerequisites:** {feat/Exotic Weapon Proficiency/ (firearms)}, gunslinger level 3rd, gunslinger's dodge deed.  ",
+			"**Prerequisites:** {feat/Exotic Weapon Proficiency} (firearms), gunslinger level 3rd, gunslinger's dodge deed.  ",
 			"**Benefit:** When you use the gunslinger's dodge deed to move, the movement granted by that deed does not provoke attacks of opportunity, and you gain a +4 dodge bonus to your Armor Class."
 		]
 	},
@@ -4207,7 +4207,7 @@
 			"{SOURCE Villain Codex/56}",
 			"",
 			"You can knock a foe away with your two-handed firearm.  ",
-			"**Prerequisites:** {feat/Exotic Weapon Proficiency/ (firearms)}, gunslinger level 6th, pistol-whip deed.  ",
+			"**Prerequisites:** {feat/Exotic Weapon Proficiency} (firearms), gunslinger level 6th, pistol-whip deed.  ",
 			"**Benefit:** When you hit an opponent with a two-handed firearm while using the pistol-whip deed, you can perform a reposition combat maneuver instead of knocking the target prone. However, you can't reposition the foe closer to you. This combat maneuver does not provoke attacks of opportunity."
 		]
 	},
@@ -4464,7 +4464,7 @@
 			"{SOURCE Advanced Race Guide/100}",
 			"",
 			"You possess some of the dominating powers of your vampire progenitor.  ",
-			"**Prerequisites:** Cha 17, dhampir.  ",
+			"**Prerequisites:** Cha 17, {race/dhampir}.  ",
 			"**Benefit:** You can take 20 on any Charisma-based skills to charm, convince, persuade, or seduce humanoids whose attitude is at least friendly to you. Taking 20 still requires 20 times the normal time to perform the skill.  ",
 			"**Normal:** You cannot take 20 on any check where you incur penalties for failure."
 		]
@@ -4668,7 +4668,7 @@
 			"{SOURCE Monster Hunter's Handbook/15}",
 			"",
 			"Once you have even the trace of a creature you're tracking, you can't be thrown off the trail.  ",
-			"**Prerequisites:** {feat/Skill Focus/ (Perception)}, Perception 3 ranks.  ",
+			"**Prerequisites:** {feat/Skill Focus} (Perception), Perception 3 ranks.  ",
 			"**Benefit:** You can use Perception (rather than Survival) to follow tracks. After you track a creature using the Perception skill, you gain a +2 insight bonus on Perception checks to avoid being surprised by that creature for 1 hour. If you have 10 or more ranks in Perception, this bonus increases to +4."
 		]
 	},
@@ -4727,7 +4727,7 @@
 			"{SOURCE Ultimate Combat/111}",
 			"",
 			"You have trained to use the net as a melee weapon.  ",
-			"**Prerequisites:** {feat/Exotic Weapon Proficiency/ (net)}, base attack bonus +1.  ",
+			"**Prerequisites:** {feat/Exotic Weapon Proficiency} (net), base attack bonus +1.  ",
 			"**Benefit:** You can treat a net as a one-handed melee reach weapon with a 10-foot reach. Further, you take no penalty on melee attack rolls for using an unfolded net, and you can use one full-round action or two move actions to fold a net.  ",
 			"**Normal:** A net is a ranged weapon that imposes a -4 penalty on ranged attack rolls if it is unfolded. Folding a net takes a proficient user 2 rounds.",
 			"",
@@ -4749,7 +4749,7 @@
 			"{SOURCE Ultimate Combat/111}",
 			"",
 			"Your skill with lighter weapons allows you to wield one alongside your net.  ",
-			"**Prerequisites:** Dex 15, {feat/Exotic Weapon Proficiency/ (net)}, {feat/Net Adept}, {feat/Two-Weapon Fighting}.  ",
+			"**Prerequisites:** Dex 15, {feat/Exotic Weapon Proficiency} (net), {feat/Net Adept}, {feat/Two-Weapon Fighting}.  ",
 			"**Benefit:** You can treat a net as a one-handed ranged weapon, allowing you to wield a light or one-handed melee weapon and still make ranged attacks with your net. When you use your light or one-handed melee weapon to attack an entangled opponent, you gain a +2 bonus on damage rolls and on attack rolls to confirm a critical hit.  ",
 			"**Normal:** A net is a two-handed ranged weapon.",
 			"",
@@ -4771,7 +4771,7 @@
 			"{SOURCE Ultimate Combat/111}",
 			"",
 			"With sweeping movements and brute force, you can use your net to put foes at a disadvantage.  ",
-			"**Prerequisites:** {feat/Exotic Weapon Proficiency/ (net)}, {feat/Net Adept}, base attack bonus +3.  ",
+			"**Prerequisites:** {feat/Exotic Weapon Proficiency} (net), {feat/Net Adept}, base attack bonus +3.  ",
 			"**Benefit:** In melee, you can use a net to trip or disarm opponents instead of entangling them. You gain a +2 bonus on disarm checks made to use a net in this way. Further, if you have an opponent entangled in your net, you can attempt to drag or reposition that opponent as long as he is within your net's reach or you control the trailing rope on your net.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -4792,7 +4792,7 @@
 			"{SOURCE Ultimate Combat/111}",
 			"",
 			"You have become very proficient at using your net to hinder your enemies.  ",
-			"**Prerequisites:** {feat/Exotic Weapon Proficiency/ (net)}, {feat/Net Adept}, {feat/Net Maneuvering}, base attack bonus +6.  ",
+			"**Prerequisites:** {feat/Exotic Weapon Proficiency} (net), {feat/Net Adept}, {feat/Net Maneuvering}, base attack bonus +6.  ",
 			"**Benefit:** In place of one of your melee attacks, you can use your net to attempt a dirty trick combat maneuver to blind an opponent. If you have an opponent entangled in your net, you can attempt to trip that opponent as long as he is within your net's reach or you control the trailing rope on your net. You also gain a +2 bonus on drag and reposition combat maneuver checks you make using your net.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -4855,7 +4855,7 @@
 			"{SOURCE Monster Codex/153;Classic Monsters Revisited/49}",
 			"",
 			"You excel at hunting humans in the dead of night and murdering them quietly.  ",
-			"**Prerequisites:** {feat/Skill Focus/ (Stealth)}, darkvision, half-ogre or ogre, size Large or larger.  ",
+			"**Prerequisites:** {feat/Skill Focus} (Stealth), darkvision, half-ogre or ogre, size Large or larger.  ",
 			"**Benefit:** While in areas of dim lighting or natural darkness, you ignore all size penalties on Stealth checks and gain a +2 bonus on attack rolls against flat-footed enemies."
 		]
 	},
@@ -4986,7 +4986,7 @@
 			"{SOURCE Inner Sea Gods/214;Faiths of Purity/24}",
 			"",
 			"Your summoned natural allies may walk the wild parts of the world unimpeded.  ",
-			"**Prerequisites:** {feat/Augment Summoning}, {feat/Spell Focus/ (conjuration)}, ability to cast summon nature's ally, caster level 6th, worshiper of {faith/Erastil}.  ",
+			"**Prerequisites:** {feat/Augment Summoning}, {feat/Spell Focus} (conjuration), ability to cast summon nature's ally, caster level 6th, worshiper of {faith/Erastil}.  ",
 			"**Benefit:** Creatures you summon with summon nature's ally can move through any sort of undergrowth (such as natural thorns, briars, and similar terrain) at their normal speeds without taking damage or suffering other impairment. Thorns, briars, and undergrowth areas that have been magically manipulated to impede motion, however, still affect summoned creatures."
 		]
 	},

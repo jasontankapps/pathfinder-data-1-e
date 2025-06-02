@@ -163,7 +163,7 @@
 			"{SOURCE Advanced Class Guide/152}",
 			"",
 			"You're able to construct statements and commands that are much more convincing than their content would otherwise suggest.  ",
-			"**Prerequisites:** {feat/Skill Focus/ (Linguistics)}.  ",
+			"**Prerequisites:** {feat/Skill Focus} (Linguistics).  ",
 			"**Benefit:** You can use a Linguistics check in place of a Bluff check to tell a falsehood or conceal information, in place of a Diplomacy check to change the attitude of a creature, or in place of an Intimidate check to force a creature to cooperate. You must deliver your attempt in a language the target understands."
 		]
 	},
@@ -664,7 +664,7 @@
 			"{SOURCE Ultimate Intrigue/88}",
 			"",
 			"You can move with the quiet grace of an owl.  ",
-			"**Prerequisites:** Dex 13, {feat/Skill Focus/ (Stealth)}, Stealth 1 rank.  ",
+			"**Prerequisites:** Dex 13, {feat/Skill Focus} (Stealth), Stealth 1 rank.  ",
 			"**Benefit:** While using this style, you can use your base attack bonus in place of your ranks in Stealth to determine your Stealth skill modifier (as usual, this does not replace your ranks for other purposes, such as determining the effects of {feat/Skill Focus}). While in this stance and using Stealth, you can charge at a -10 penalty beyond the penalty you take for using Stealth at full speed (which is typically -5). Foes that fail their Perception checks and don't otherwise notice you (for instance, with an ability like blindsight) are denied their Dexterity bonuses to AC against all attacks you make against them during or at the end of that charge instead of just against the first attack."
 		]
 	},
@@ -1186,7 +1186,7 @@
 			"{SOURCE Agents of Evil/13}",
 			"",
 			"The [Pathfinder Society](rule/aff_scholars) grants you access to its archives in thanks for services previously rendered.  ",
-			"**Prerequisites:** {feat/Associate/ (Pathfinder Society)}.  ",
+			"**Prerequisites:** {feat/Associate} (Pathfinder Society).  ",
 			"**Benefit:** The Pathfinder Society's vast archives are available for you to exploit. In any settlement that is the size of a small town or larger, you can spend 1d4 hours researching notes from available Pathfinders to gain a +4 circumstance bonus on a single Knowledge check."
 		]
 	},
@@ -1489,7 +1489,7 @@
 			"{SOURCE Plane-Hopper's Handbook/16}",
 			"",
 			"Psychopomps have sent a nosoi scribe to record your actions.  ",
-			"**Prerequisites:** Duskwalker.",
+			"**Prerequisites:** {race/Duskwalker}.",
 			"",
 			"You gain a fledgling nosoi familiar as per the arcane bond class feature, using your character level as your wizard level. Treat this as either a raven or a whippoorwill familiar (a whippoorwill uses the statistics for a thrush, but grants a +3 bonus to Intimidate instead of Diplomacy). If you have the ability to gain a familiar through other means and you are at least 5th level, the bird is instead treated as a {monster/nosoi} as though you had taken the {feat/Improved Familiar} feat. You can have only one familiar.",
 			"",
@@ -2884,7 +2884,7 @@
 			"{SOURCE Inner Sea Monster Codex/53}",
 			"",
 			"You have a large wingspan for a member of your race, and can use these appendages to batter your foes.  ",
-			"**Prerequisites:** Str 13, {feat/Skill Focus/ (Fly)}, base attack bonus +8.  ",
+			"**Prerequisites:** Str 13, {feat/Skill Focus} (Fly), base attack bonus +8.  ",
 			"**Benefit:** You gain two wing attacks. These are secondary natural attacks that each deal damage appropriate to a creature one size category larger than yourself. You are also considered one size category larger for the purposes of any feats or abilities related to your wings, such as the {feat/Hover} feat.  ",
 			"**Special:** While this feat is primarily taken by strix, other creatures with natural wings can also take it at the GM's discretion."
 		]
@@ -3316,7 +3316,7 @@
 			"{SOURCE Villain Codex/56}",
 			"",
 			"Your teammates look out for you while you reload.  ",
-			"**Prerequisites:** {feat/Exotic Weapon Proficiency/ (firearms)}.  ",
+			"**Prerequisites:** {feat/Exotic Weapon Proficiency} (firearms).  ",
 			"**Benefit:** When you are adjacent to an ally who also has this feat, you do not provoke attacks of opportunity while loading a firearm."
 		]
 	},
@@ -3758,7 +3758,7 @@
 			"{SOURCE Horror Adventures/91}",
 			"",
 			"You summon creatures whose very presence turns the stomach of your foes.  ",
-			"**Prerequisites:** {feat/Spell Focus/ (conjuration)}; ability to cast *summon monster* or *summon nature's ally*.  ",
+			"**Prerequisites:** {feat/Spell Focus} (conjuration); ability to cast *summon monster* or *summon nature's ally*.  ",
 			"**Benefit:** When you cast a *summon monster* or *summon nature's ally* spell, you can choose to summon a single creature that exudes a putrid odor or befouls the water surrounding it, granting it the {umr/stench} universal monster ability. The duration of the sickened condition created by this stench is a number of rounds equal to the spell's level. When performing a putrid summon, you summon a creature from the next lower list than the spell you are casting. For instance, if you cast {spell/summon monster IV}, you summon a creature from the {spell/summon monster III} list."
 		]
 	},
@@ -3787,7 +3787,7 @@
 			"{SOURCE Ultimate Magic/154}",
 			"",
 			"You can wield a quarterstaff as either a two-handed or one-handed weapon.  ",
-			"**Prerequisites:** {feat/Weapon Focus/ (quarterstaff)}, base attack bonus +5.  ",
+			"**Prerequisites:** {feat/Weapon Focus} (quarterstaff), base attack bonus +5.  ",
 			"**Benefit:** By employing a number of different stances and techniques, you can wield a quarterstaff as a one-handed weapon. At the start of your turn, you decide whether or not you are going to wield the quarterstaff as a one-handed or two-handed weapon. When you wield it as a one-handed weapon, your other hand is free, and you cannot use the staff as a double weapon. You can take the feat {feat/Weapon Specialization} in the quarterstaff even if you have no levels in fighter.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -4211,7 +4211,7 @@
 			"{SOURCE Ultimate Magic/154}",
 			"",
 			"When you charge, you do so with the power of faith.  ",
-			"**Prerequisites:** Lay on hands class feature.  ",
+			"**Prerequisites:** {ability/Lay on hands} class feature.  ",
 			"**Benefit:** When you hit with a charge attack, you can expend all of your remaining uses of lay on hands to deal extra damage equal to 1d6 per use of lay on hands expended + your Charisma bonus. This damage comes from holy power and is not subject to damage reduction, energy immunities, or energy resistances."
 		]
 	},
@@ -4915,7 +4915,7 @@
 			"{SOURCE Pathfinder #115: Trail of the Hunted/74}",
 			"",
 			"You are determined to maintain your own will and bow to no one.  ",
-			"**Prerequisites:** {feat/Iron Will}, hobgoblin.  ",
+			"**Prerequisites:** {feat/Iron Will}, {race/hobgoblin}.  ",
 			"**Benefit:** Add 2 to the DCs of checks to intimidate you. While you are subject to a charm person, dominate person, or other charm or compulsion effect, orders to perform normal or benign actions are treated as actions you wouldn't normally do. Orders to perform actions you wouldn't normally do are treated as obviously harmful or self-destructive.  ",
 			"**Normal:** While you are under certain charm or compulsion spell effects, commands to perform actions you wouldn't ordinarily do, including obviously harmful or self-destructive acts, allow a new saving throw or end the effect entirely, as described in the spell."
 		]
