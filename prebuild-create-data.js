@@ -147,6 +147,33 @@ const alternateBlocks = {
 				return `<${n} id="${id}">${text}</${n}>\n`;
 			}
 			return `<${n}>${text}</${n}>`;
+		} else if ("hl2hl3hl4hl5hl6".indexOf(n) >= 0) {
+			const m = checkForEncodedLink(text, { bare: true });
+			const t = "h" + n.slice(-1);
+			if(!m) {
+				console.log(`Bad ::${n} => [${text}]`);
+				$.errorCount++;
+				return `<${t}>${text}</${t}>\n`;
+			}
+			$.flags.link = true;
+			const { pre, post, extra } = attrs;
+			const [, link, linktext] = m;
+			let inner = `<Link to="${link}">${linktext}</Link>`;
+			if(pre) {
+				inner = pre + inner;
+			}
+			if(post) {
+				inner = inner + post;
+			}
+			if(extra) {
+				inner = `${inner} ${extra}`;
+			}
+			if(attrs.jl) {
+				const id = $.prefix + (attrs.id || linktext.toLowerCase().replace(/ +/g, "-").replace(/[^-a-z0-9]/g, ""));
+				jl(linktext, id);
+				return `<${t} id="${id}">${inner}</${t}>\n`;
+			}
+			return `<${t}>${inner}</${t}>`;
 		}
 		return false;
 	}
@@ -212,6 +239,20 @@ const inlineTags = {
 	renderer: (token) => {
 		const {text = "", attrs = {}, meta} = token;
 		const { hasAlternateText } = $.flags;
+		const maybeJL = (attrs, text) => {
+			if(attrs.jl) {
+				// Add as jumplist
+				const id = $.prefix + (
+					attrs.id
+					|| text
+						.replace(/ +/g, "-")
+						.toLowerCase()
+						.replace(/[^-a-z0-9]/g, "")
+				);
+				jl(text, id);
+				return id;
+			}
+		};
 		let tag = meta.name;
 		if(tag === "ripple" || tag === "hll") {
 			// :ripple[link/Text]
@@ -224,7 +265,8 @@ const inlineTags = {
 					return `<Link to="/${link}">${text}<IonRippleEffect /></Link>`;
 				}
 				// hll
-				return `<strong className="hl"><Link to="/${link}">${text}</Link></strong>`
+				const id = maybeJL(attrs, text);
+				return `<strong className="hl"${id ? ` id="${id}"` : ""}><Link to="/${link}">${text}</Link></strong>`
 			}
 			console.log(`Bad :${tag} => [${text}]`);
 			$.errorCount++;
@@ -238,7 +280,8 @@ const inlineTags = {
 			return marked2.parseInline(text);
 		} else if (tag === "hl" || tag === "HL") {
 			const marked2 = makeNewMarkedInstance();
-			return `<strong className="hl">${marked2.parseInline(text)}</strong>`;
+			const id = maybeJL(attrs, text);
+			return `<strong className="hl"${id ? ` id="${id}"` : ""}>${marked2.parseInline(text)}</strong>`;
 		}
 		switch(tag) {
 			case "primary":

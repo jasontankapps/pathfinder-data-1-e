@@ -2756,7 +2756,7 @@
 			"",
 			"Efreet have few allies among geniekind. They certainly hate djinn, and attack them on sight. They hold an equally strong enmity for marids, and view the jann as frail and weak. Efreet often work closely with shaitans, yet even then alliances are temporary at best.",
 			"",
-			"A small percentage of efreet are noble. Noble efreet, often called maliks, have 13 Hit Dice and gain the following spell-like abilities: 3/day-fireball, heat metal; 1/day-greater invisibility, pyroclastic storm (as ice storm, with fire instead of cold damage). A noble efreeti's caster level for its spell-like abilities is 15th. Noble efreet are CR 10.",
+			"A small percentage of efreet are noble. Noble efreet, often called maliks, have 13 Hit Dice and gain the following spell-like abilities: 3/day-{spell/fireball}, {spell/heat metal}; 1/day-{spell/greater invisibility}, pyroclastic storm (as {spell/ice storm}, with fire instead of cold damage). A noble efreeti's caster level for its spell-like abilities is 15th. Noble efreet are CR 10.",
 			"",
 			"**Family:** {family/Genie}",
 			"",
@@ -2764,6 +2764,7 @@
 		]
 	},
 	"efreeti": { "copyof": "genie_efreeti" },
+	"malik": { "copyof": "genie_efreeti" },
 	"genie_janni": {
 		"name": "Janni (Genie)",
 		"sources": [ "Pathfinder RPG Bestiary" ],

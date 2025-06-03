@@ -2133,8 +2133,6 @@
 			"",
 			"::main[Elementals]{ind endem=\"(82 monsters)\" to=main/monsters_outsiders_elemental}",
 			"",
-			"::main[Extraplanar]{ind endem=\"(478 monsters)\" to=main/monsters_outsiders_extraplanar}",
-			"",
 			"::main[Native]{ind endem=\"(86 monsters)\" to=main/monsters_outsiders_native}",
 			"",
 			"::main[Plant]{endem=\"(111 monsters)\" to=main/monsters_plants}",
