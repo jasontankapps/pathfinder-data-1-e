@@ -480,7 +480,7 @@
 			"{SOURCE Monster Codex/200}",
 			"",
 			"Your mastery of mental communication lets you assault and weaken the minds of your opponents.  ",
-			"**Prerequisites:** Cha 15, serpentfolk.  ",
+			"**Prerequisites:** Cha 15, {monster/serpentfolk}.  ",
 			"**Benefit:** As a standard action, you can focus your telepathy on one creature within range to weaken its resistance to mental attacks. The target must succeed at a Will save (DC = 10 + 1/2 your Hit Dice + your Charisma modifier) or take 1d6 points of nonlethal damage and take a -2 penalty against mind-affecting effects; the penalty lasts for 1d6 rounds. This is a mind-affecting effect. You can use this ability a number of times per day equal to 1/2 your Hit Dice."
 		]
 	},
@@ -3344,7 +3344,7 @@
 			"{SOURCE Potions and Poisons/6}",
 			"",
 			"Your toxic blood has the power to destroy both flesh and foul curses.  ",
-			"**Prerequisites:** {feat/Dispelling Blood}, Knowledge (arcana) 9 ranks, vishkanya.  ",
+			"**Prerequisites:** {feat/Dispelling Blood}, Knowledge (arcana) 9 ranks, {race/vishkanya}.  ",
 			"**Benefit:** As a swift action, you can alter the effects of your vishkanya venom to function as {spell/break enchantment} when striking a creature, using your character level as your caster level. This dispelling effect affects creatures even if they are immune to poison effects.  ",
 			"**Normal:** Vishkanya venom deals Dexterity damage."
 		]
@@ -3959,7 +3959,7 @@
 			"{SOURCE Monster Codex/200}",
 			"",
 			"You can spit your poison into a nearby opponent's face.  ",
-			"**Prerequisites:** Serpentfolk.  ",
+			"**Prerequisites:** {monster/Serpentfolk}.  ",
 			"**Benefit:** You can spit venom as a secondary ranged attack with a range of 5 feet. This is a natural attack and doesn't provoke attacks of opportunity. A target struck by your venom must succeed at a Fortitude save (DC = your poison DC) or be blinded for 1d4 rounds and suffer the normal effects of your poison. You can't use this attack during any round in which you make a bite attack (and vice versa). After spitting venom, you are unable to use your poisonous bite or to spit venom for 1d4 rounds."
 		]
 	},
@@ -4135,7 +4135,7 @@
 			"{SOURCE Monster Codex/153}",
 			"",
 			"You were born with a parasitic vestigial head with its own stunted brain. The head may be mostly subsumed within your own flesh and visible only as a distorted face, or it might sprout out of its own neck from your neck, shoulder, back, or chest.  ",
-			"**Prerequisites:** Ogre.  ",
+			"**Prerequisites:** {monster/Ogre}.  ",
 			"**Benefit:** Anytime you must attempt a Will save against a hostile effect, there is a 25% change that the effect targets your vestigial head instead. If this occurs, you are treated as if you had succeeded at your saving throw, and instead are sickened for 1d4 rounds or the duration of the effect (whichever is longer).  ",
 			"**Special:** You can take this feat twice. The second time you do, the chance of a hostile Will effect targeting your vestigial head instead of your own increases to 50%. This doesn't give you another vestigial head."
 		]
@@ -4394,7 +4394,7 @@
 			"{SOURCE Villain Codex/224}",
 			"",
 			"You can change your toxic spittle into poisonous breath.  ",
-			"**Prerequisites:** {feat/Deadly Kiss}, toxic racial trait, vishkanya.  ",
+			"**Prerequisites:** {feat/Deadly Kiss}, toxic racial trait, {race/vishkanya}.  ",
 			"**Benefit:** As a swift action, you can expend one use of your toxic racial trait to alter your venom into an inhaled poison for 1d4 rounds. At one point within this duration, you can select one adjacent enemy to be exposed. In its inhaled form, your venom is an invisible, perfumed gas, and its DC is 2 lower.",
 			"",
 			"In addition, you can use your toxic racial trait one additional time per day.  ",
@@ -4641,7 +4641,7 @@
 			"{SOURCE Potions and Poisons/6}",
 			"",
 			"Your ethereal venom is strong enough to repel anyone who attempts to cross through it.  ",
-			"**Prerequisites:** {feat/Ghostbane Ichor}, Knowledge (religion) 13 ranks, vishkanya.  ",
+			"**Prerequisites:** {feat/Ghostbane Ichor}, Knowledge (religion) 13 ranks, {race/vishkanya}.  ",
 			"**Benefit:** You can spend 10 minutes and two uses of your vishkanya venom to coat an area no larger than 10 feet by 10 feet with your blood. This creates a forbiddance effect, using your character level as your caster level (maximum 20). The save DC of this effect is equal to 15 + your Charisma modifier. Creatures that take damage from the forbiddance effect are also exposed to your vishkanya venom. If you have abilities that alter the effects of your venom, you must choose which effect applies when you create the venomous area."
 		]
 	},

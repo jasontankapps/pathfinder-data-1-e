@@ -4278,7 +4278,7 @@
 			"{SOURCE Monster Codex/153}",
 			"",
 			"You are able to harness the rage that burns inside you and fuels your might.  ",
-			"**Prerequisites:** Str 21, ogre.  ",
+			"**Prerequisites:** Str 21, {monster/ogre}.  ",
 			"**Benefit:** Select one rage power. Once per day as a free action, you can enter a state of fury and gain the effects of this rage power for 1 minute. If the rage power normally ends a barbarian rage when used, the ability ends after it's used and you immediately become fatigued. You don't otherwise become fatigued at the end of this ability's duration.",
 			"",
 			"Your effective barbarian level for the purpose of qualifying for and using rage powers is equal to your total Hit Dice - 3. This feat doesn't grant any of the normal benefits or penalties of a barbarian's rage.  ",
@@ -4333,7 +4333,7 @@
 			"{SOURCE Monster Codex/224}",
 			"",
 			"Your rage pushes your ability to regenerate beyond its normal limits.  ",
-			"**Prerequisites:** Rage class ability, regeneration, troll.  ",
+			"**Prerequisites:** Rage class ability, {umr/regeneration}, {monster/troll}.  ",
 			"**Benefit:** While you are raging, fire and acid damage don't make your regeneration stop functioning on the round following the attack, and instead reduce the number of hit points regained by regeneration each round by 2 until the end of your next turn.  ",
 			"**Normal:** Acid and fire damage cause your regeneration to stop functioning on the round following the attack."
 		]

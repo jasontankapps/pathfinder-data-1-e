@@ -274,6 +274,7 @@
 		],
 		"topLink": [ "Druid", "class/druid" ]
 	},
+	"animal_companion": { "copyof": "druid_companions" },
 	"druid_domains": {
 		"name": "Druid Domains",
 		"sources": [ "Ultimate Magic" ],

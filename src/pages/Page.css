@@ -907,7 +907,7 @@ div.featsTreePage section > div.leaf:first-child > div.coparents > strong {
 
 /* Scrolling via InnerLink */
 
-div,h2,h3,h4,h5,h6,p,b,i,strong,em,blockquote,aside,li,span {
+div,h2,h3,h4,h5,h6,p,b,i,strong,em,blockquote,aside,li,span,ion-item-divider {
 	transition: background-color 0.5s ease-in 1.5s;
 }
 a {

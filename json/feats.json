@@ -696,7 +696,7 @@
 			"",
 			"You have learned the classic Aldori dueling stance.  ",
 			"**Prerequisites:** {feat/Alertness}, {feat/Exotic Weapon Proficiency} ({eq-weapon/Aldori dueling sword}), {feat/Weapon Finesse}, {feat/Weapon Focus} (Aldori dueling sword).  ",
-			"**Benefit:** While using Aldori Style and wielding only a single Aldori dueling sword in one hand (not using a shield, an off-hand weapon, armor spikes, unarmed strikes, or natural weapons), when you fight defensively or use {feat/Combat Expertise}, you gain a +2 bonus on weapon damage rolls."
+			"**Benefit:** While using Aldori Style and wielding only a single Aldori dueling sword in one hand (not using a shield, an off-hand weapon, armor spikes, unarmed strikes, or natural weapons), when you {misc/fight defensively} or use {feat/Combat Expertise}, you gain a +2 bonus on weapon damage rolls."
 		]
 	},
 	"aldori_style_aegis": {
@@ -709,7 +709,7 @@
 			"",
 			"Baron Aldori's dueling style is at its strongest when employed in one-on-one duels. Adjusting to a reverse grip and keeping your blade in motion, you parry your rival's strikes with ease.  ",
 			"**Prerequisites:** {feat/Aldori Style}, {feat/Alertness}, {feat/Combat Reflexes}, {feat/Exotic Weapon Proficiency} ({eq-weapon/Aldori dueling sword}), {feat/Weapon Finesse}, {feat/Weapon Focus} (Aldori dueling sword).  ",
-			"**Benefit:** While using Aldori Style, at the beginning of your turn, you can designate a focused target as a swift action. This designation lasts until the beginning of your next turn, and you take a -2 penalty to your AC against all other creatures' attacks for that duration. As an immediate action while using {feat/Combat Expertise} or fighting defensively, you can attempt to parry the focused target's attack. This functions as the swashbuckler's {swashdeed/opportune parry and riposte} deed, except that it does not cost panache and you cannot riposte."
+			"**Benefit:** While using Aldori Style, at the beginning of your turn, you can designate a focused target as a swift action. This designation lasts until the beginning of your next turn, and you take a -2 penalty to your AC against all other creatures' attacks for that duration. As an immediate action while using {feat/Combat Expertise} or {misc/fighting defensively}, you can attempt to parry the focused target's attack. This functions as the swashbuckler's {swashdeed/opportune parry and riposte} deed, except that it does not cost panache and you cannot riposte."
 		]
 	},
 	"aldori_style_conquest": {
@@ -722,7 +722,7 @@
 			"",
 			"Defense is now second nature to you, and your blade punishes those who try to attack and fail.  ",
 			"**Prerequisites:** {feat/Aldori Style}, {feat/Aldori Style Aegis}, {feat/Alertness}, {feat/Combat Reflexes}, {feat/Exotic Weapon Proficiency} ({eq-weapon/Aldori dueling sword}), {feat/Weapon Finesse}, {feat/Weapon Focus} (Aldori dueling sword).  ",
-			"**Benefit:** When you attempt to parry an attack using Aldori Style Aegis, you do not take any penalties on the attack roll incurred from using {feat/Combat Expertise} or fighting defensively."
+			"**Benefit:** When you attempt to parry an attack using Aldori Style Aegis, you do not take any penalties on the attack roll incurred from using {feat/Combat Expertise} or {misc/fighting defensively}."
 		]
 	},
 	"alertness": {
@@ -1014,7 +1014,7 @@
 			"",
 			"You are always on your toes and are rarely caught off-guard for long, even when an enemy gets the jump on you.  ",
 			"**Prerequisites:** {feat/Alertness}.  ",
-			"**Benefit:** If you are unable to act in the surprise round because you failed a Perception check, you can still act on your initiative count in the surprise round, but only to take the [total defense](rule/other_standard_actions) action.  ",
+			"**Benefit:** If you are unable to act in the surprise round because you failed a Perception check, you can still act on your initiative count in the surprise round, but only to take the {misc/total defense} action.  ",
 			"**Normal:** If you are unable to act in the surprise round because you failed a Perception check, you can't take any actions during the surprise round.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -2878,7 +2878,7 @@
 			"{SOURCE Pathfinder #91: Battle of Bloodmarch Hills/69}",
 			"",
 			"Your ranged attacks can send smaller opponents flying.  ",
-			"**Prerequisites:** Str 25, {feat/Throw Anything} or rock throwing, {feat/Improved Bull Rush}, size Large or larger.  ",
+			"**Prerequisites:** Str 25, {feat/Throw Anything} or {umr/rock throwing}, {feat/Improved Bull Rush}, size Large or larger.  ",
 			"**Benefit:** As a standard action, you can perform the awesome throw combat maneuver. You do this by making a thrown weapon attack; if you don't have the Throw Anything feat, you must use a large, bulky, and relatively regular-shaped object with a hardness of at least 5 (such as a rock or treasure chest). If that attack hits a corporeal opponent smaller than you, the opponent takes damage and is knocked away, flying 10 feet in a straight line away from you and falling {rule/prone}. If an obstacle prevents the completion of your target's move, the target and the obstacle each take 1d6 points of damage, and the target is knocked prone in a space adjacent to the obstacle."
 		]
 	},

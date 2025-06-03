@@ -323,7 +323,7 @@
 			"{SOURCE Monster Codex/153}",
 			"",
 			"Your thick, muscular arms are capable of landing powerful blows and crushing the life out of the smaller creatures you embrace.  ",
-			"**Prerequisites:** Str 25, {feat/Improved Grapple}, {feat/Improved Unarmed Strike}, ogre, size Large or larger.  ",
+			"**Prerequisites:** Str 25, {feat/Improved Grapple}, {feat/Improved Unarmed Strike}, {monster/ogre}, size Large or larger.  ",
 			"**Benefit:** Your unarmed strike damage increases by one step when you're grappling creatures smaller than you. You gain the constrict monster special ability, dealing an amount of damage equal to either the slam damage for a creature of your size or your unarmed strike damage, whichever is greater."
 		]
 	},
@@ -570,7 +570,7 @@
 			"{SOURCE Plane-Hopper's Handbook/15}",
 			"",
 			"Vigilance has taught you to manifest your crystalline dust the instant you sense danger.  ",
-			"**Prerequisites:** {feat/Swift Crystalline Dust}, aphorite, crystalline dust racial trait.  ",
+			"**Prerequisites:** {feat/Swift Crystalline Dust}, {race/aphorite}, crystalline dust racial trait.  ",
 			"**Benefit:** You can activate your crystalline dust ability as an immediate action when you are targeted by an attack."
 		]
 	},
@@ -609,7 +609,7 @@
 			"{SOURCE Monster Codex/224}",
 			"",
 			"You use your powerful metabolism to temporarily increase the strength of your muscles, but doing so costs you your regeneration powers.  ",
-			"**Prerequisites:** {feat/Power Attack}, regeneration, troll.  ",
+			"**Prerequisites:** {feat/Power Attack}, {umr/regeneration}, {monster/troll}.  ",
 			"**Benefit:** As a free action, you can make your regeneration stop working for 1 minute and gain a +2 enhancement bonus to your Strength. You lose your regeneration ability while you benefit from this bonus to Strength and for 1 minute afterward. You can end this ability early as a free action. You can activate this ability only if your regeneration is functioning."
 		]
 	},
@@ -759,7 +759,7 @@
 			"{SOURCE Ultimate Combat/116}",
 			"",
 			"You easily tear your enemies limb from limb with your natural attacks.  ",
-			"**Prerequisites:** Base attack bonus +6, rend special attack.  ",
+			"**Prerequisites:** Base attack bonus +6, {umr/rend} special attack.  ",
 			"**Benefit:** You deal rend damage if you hit with half the normal natural attacks your rend requires. For example, a troll that has this feat can rend when it hits with one claw attack, while a girallon that has this feat must hit one target with two claw attacks to rend. You can only make this rend attack once per round.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -1973,7 +1973,7 @@
 			"{SOURCE Monster Codex/153}",
 			"",
 			"You are able to land critical hits precisely, dealing devastating damage.  ",
-			"**Prerequisites:** Str 19, ogre, sneak attack +2d6.  ",
+			"**Prerequisites:** Str 19, {monster/ogre}, sneak attack +2d6.  ",
 			"**Benefit:** When you hit a creature using the {feat/Vital Strike} feat or confirm a critical hit against an opponent, add your sneak attack damage to the damage from the attack. This feat has no effect on attacks that already allow you to add sneak attack damage."
 		]
 	},
@@ -2403,7 +2403,7 @@
 			"{SOURCE Plane-Hopper's Handbook/15}",
 			"",
 			"You pluck runes and glyphs from your crystalline dust and arrange them into an equation that holds magic for later use.  ",
-			"**Prerequisites:** {feat/Scribe Scroll}, aphorite, caster level 5th, crystalline dust racial trait.  ",
+			"**Prerequisites:** {feat/Scribe Scroll}, {race/aphorite}, caster level 5th, crystalline dust racial trait.  ",
 			"**Benefit:** You manipulate the runes and glyphs of your crystalline dust into an equation that describes a specific spell. This process is identical to scribing a scroll, except that the spell is stored as a specific pattern in your crystalline dust, visible only to you. You can activate the spell in the same way you would activate a scroll, except that you need only one hand free to trace the final glyph in the equation, releasing the spell. The cost of materials to store a spell equation is the same price as scribing an equivalent scroll. You can have one spell equation stored at a time, plus one additional spell when your character level reaches 10th, 15th, and 20th levels."
 		]
 	},
@@ -4544,7 +4544,7 @@
 			"{SOURCE Plane-Hopper's Handbook/15}",
 			"",
 			"You can manifest your crystalline dust more rapidly.  ",
-			"**Prerequisites:** Aphorite, crystalline dust racial trait.  ",
+			"**Prerequisites:** {race/Aphorite}, crystalline dust racial trait.  ",
 			"**Benefit:** You can activate your crystalline dust ability as a swift action instead of as a move action."
 		]
 	},
@@ -4611,7 +4611,7 @@
 			"{SOURCE Monster Codex/141}",
 			"",
 			"You are a faster swimmer than other members of your race.  ",
-			"**Prerequisites:** Lizardfolk, swim speed.  ",
+			"**Prerequisites:** {monster/Lizardfolk}, swim speed.  ",
 			"**Benefit:** Your swim speed increases by 15 feet."
 		]
 	},
@@ -4853,7 +4853,7 @@
 			"{SOURCE Monster Codex/200}",
 			"",
 			"You have strengthened your tail enough that you can use it to make slap attacks and augment your balance.  ",
-			"**Prerequisites:** Base attack bonus +1, serpentfolk.  ",
+			"**Prerequisites:** Base attack bonus +1, {monster/serpentfolk}.  ",
 			"**Benefit:** You can make a tail slap attack with your tail. This is a secondary natural attack that deals 1d6 points of bludgeoning damage. You also gain a +2 racial bonus on Acrobatics checks to balance and to your CMD against maneuvers that attempt to move you from your square."
 		]
 	}

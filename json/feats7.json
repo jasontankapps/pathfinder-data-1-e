@@ -549,7 +549,7 @@
 			"{SOURCE Monster Codex/200}",
 			"",
 			"You can squeeze through small areas thanks to your slippery scales and lithe musculature.  ",
-			"**Prerequisites:** Serpentfolk.  ",
+			"**Prerequisites:** {monster/Serpentfolk}.  ",
 			"**Benefit:** You gain the {umr/compression} universal monster ability, allowing you to move through an area as small as one-quarter your space without squeezing, or one-eighth your space when squeezing."
 		]
 	},
@@ -2609,7 +2609,7 @@
 			"{SOURCE Advanced Race Guide/209}",
 			"",
 			"You can change the nature of your toxic spittle to put your enemies to sleep.  ",
-			"**Prerequisites:** Vishkanya.  ",
+			"**Prerequisites:** {race/Vishkanya}.  ",
 			"**Benefit:** As a swift action, you may alter the effects of your venom so the target falls unconscious. This changes the initial and secondary effect of your venom to the following: *initial effect* staggered for 1d4 rounds; *secondary effect* unconsciousness for 1 minute. You must make the decision to alter your venom before you apply it to a weapon.  ",
 			"**Normal:** Vishkanya venom deals Dexterity damage."
 		]
@@ -3821,7 +3821,7 @@
 			"{SOURCE Plane-Hopper's Handbook/15}",
 			"",
 			"You can solve your spell equations in the instant your blade strikes a foe.  ",
-			"**Prerequisites:** {feat/Scribe Scroll}, {feat/Scribe Spell Equation}, aphorite, caster level 5th, crystalline dust racial trait.  ",
+			"**Prerequisites:** {feat/Scribe Scroll}, {feat/Scribe Spell Equation}, {race/aphorite}, caster level 5th, crystalline dust racial trait.  ",
 			"**Benefit:** When you hit a creature with a melee weapon, you can immediately solve one of your spell equations to cast the spell and target that creature as an immediate action. The spell stored in the spell equation must be a spell of up to 3rd level that targets one or more creatures and has a casting time of 1 standard action. The spell can target only the creature you hit, even if the spell would normally allow multiple targets."
 		]
 	},
@@ -4587,7 +4587,7 @@
 			"{SOURCE Monster Codex/225}",
 			"",
 			"You use your powerful metabolism to hunt swiftly, starving your regenerative powers in the interest of granting yourself greater speed.  ",
-			"**Prerequisites:** {feat/Fleet}, regeneration, troll.  ",
+			"**Prerequisites:** {feat/Fleet}, {umr/regeneration}, {monster/troll}.  ",
 			"**Benefit:** As a free action, you can increase your land speed by 10 feet for 1 minute. You lose your regeneration ability while you benefit from this enhancement bonus to your land speed and for 1 minute afterward. You can end this ability early as a free action. You can activate this ability only if your regeneration is functioning."
 		]
 	},
@@ -4600,7 +4600,7 @@
 			"{SOURCE Ultimate Wilderness/19}",
 			"",
 			"You are able to sprout more quickly than most, though your body is underdeveloped.  ",
-			"**Prerequisites:** Cha 15, seed racial trait, ghoran.  ",
+			"**Prerequisites:** Cha 15, seed racial trait, {race/ghoran}.  ",
 			"**Benefit:** Whenever you use your seed ability to grow a new body, you can choose to sprout in half the normal amount of time (1d6 days instead of 2d6 days). If you do, your new body is Small instead of Medium, your natural armor bonus from racial traits (if any) is reduced by half, and you take a -2 penalty to Strength, Dexterity, and Constitution. These modifications last 1d3 weeks, after which your body matures to its proper size and loses all penalties associated with sprouting early."
 		]
 	},

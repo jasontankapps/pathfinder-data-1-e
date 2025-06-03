@@ -1359,7 +1359,7 @@
 			"{SOURCE Plane-Hopper's Handbook/22}",
 			"",
 			"You've so impressed the Traitor that he's given you a title in his court-in-exile - possibly to keep an eye on you.  ",
-			"**Prerequisites:** Fey creature type or {feat/Fey Obedience} (Count Ranalc), character level 7th, you must have betrayed or deceived in a major fashion a demon with a CR at least 2 higher than your level when you took the feat.",
+			"**Prerequisites:** Fey creature type or {feat/Fey Obedience} (Count Ranalc), character level 7th, you must have betrayed or deceived in a major fashion a {family/demon} with a CR at least 2 higher than your level when you took the feat.",
 			"",
 			"Once per day you can cast {spell/glibness} as a spell-like ability with a caster level equal to your Hit Dice."
 		]
@@ -4542,7 +4542,7 @@
 			"{SOURCE Monster Codex/224}",
 			"",
 			"Your rending claws expose your opponent's vital organs to your teeth.  ",
-			"**Prerequisites:** Base attack bonus +6, bite attack, rend, troll.  ",
+			"**Prerequisites:** Base attack bonus +6, bite attack, {umr/rend}, {monster/troll}.  ",
 			"**Benefit:** If you deal damage to a creature with your rend ability, the critical threat range of your bite attack becomes 18-20 until the start of your next turn. This increase does not stack with other effects that increase your bite's critical threat range (such as the keen weapon special ability or the {feat/Improved Critical} feat)."
 		]
 	},

@@ -142,7 +142,7 @@
 			"",
 			"**Inner Peace (Ex):** At 8th level, the cavalier has learned that while not all things in the world will go as he wishes, he must remain calm and centered. Once per day as an immediate action, the cavalier may ignore an amount of damage from a single source (one attack, spell, or effect) equal to his cavalier level plus his Charisma modifier. He can only ignore hit point damage in this fashion. The cavalier can use this ability one additional time per day at 12th level and every four levels thereafter (to a maximum of four times per day at 20th level).",
 			"",
-			"**Shield of Blades (Ex):** At 15th level, the cavalier gains an expert sense of impending violence around him. When taking the total defense action, the cavalier can extend his protection to those around him, granting a +2 circumstance bonus to AC to all adjacent allies. In addition, while taking the total defense action, as an immediate action, the cavalier can attempt to deflect an attack by making an attack roll opposed by the attacker's original attack roll. If successful, the attack is deflected and deals no damage."
+			"**Shield of Blades (Ex):** At 15th level, the cavalier gains an expert sense of impending violence around him. When taking the {misc/total defense} action, the cavalier can extend his protection to those around him, granting a +2 circumstance bonus to AC to all adjacent allies. In addition, while taking the total defense action, as an immediate action, the cavalier can attempt to deflect an attack by making an attack roll opposed by the attacker's original attack roll. If successful, the attack is deflected and deals no damage."
 		]
 	},
 	"order_of_the_cockatrice": {
@@ -221,11 +221,11 @@
 			"",
 			"A cavalier belonging to this order gains the following abilities as he increases in level.",
 			"",
-			"**Guarded (Ex):** At 2nd level, the cavalier gains DR 1/- and a +2 morale bonus on saving throws when wearing light armor or no armor and fighting defensively or using {feat/Combat Expertise}. At 6th level and every 4 levels thereafter, this DR increases by 1. He loses the benefits of this ability if carrying a medium or heavier load.",
+			"**Guarded (Ex):** At 2nd level, the cavalier gains DR 1/- and a +2 morale bonus on saving throws when wearing light armor or no armor and {misc/fighting defensively} or using {feat/Combat Expertise}. At 6th level and every 4 levels thereafter, this DR increases by 1. He loses the benefits of this ability if carrying a medium or heavier load.",
 			"",
-			"**Pierce the Guard (Ex):** At 8th level, when attacking with a light or one-handed weapon, the cavalier ignores the penalty for fighting defensively or using {feat/Combat Expertise} on his first melee attack roll each round. If {rule/fighting with |two weapon/s>_fighting}, he ignores the penalty for the first attack with each weapon, as long as the off-hand weapon is a light weapon. The cavalier can't use this ability with double weapons.",
+			"**Pierce the Guard (Ex):** At 8th level, when attacking with a light or one-handed weapon, the cavalier ignores the penalty for {misc/fighting defensively} or using Combat Expertise on his first melee attack roll each round. If {rule/fighting with |two weapon/s>_fighting}, he ignores the penalty for the first attack with each weapon, as long as the off-hand weapon is a light weapon. The cavalier can't use this ability with double weapons.",
 			"",
-			"**One Purpose (Ex):** At 15th level, the cavalier's mount shares the benefits of the cavalier's guarded ability as long as both are wearing light or no armor and carrying no more than a light load. The cavalier must fight defensively or use {feat/Combat Expertise} to grant these benefits, but the mount need not. In addition, the mount gains all the benefits of the cavalier's challenge, regardless of what barding it wears."
+			"**One Purpose (Ex):** At 15th level, the cavalier's mount shares the benefits of the cavalier's guarded ability as long as both are wearing light or no armor and carrying no more than a light load. The cavalier must fight defensively or use Combat Expertise to grant these benefits, but the mount need not. In addition, the mount gains all the benefits of the cavalier's challenge, regardless of what barding it wears."
 		]
 	},
 	"order_of_the_eclipse": {

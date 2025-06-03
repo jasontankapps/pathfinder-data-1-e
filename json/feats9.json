@@ -2303,7 +2303,7 @@
 			"{SOURCE Ultimate Magic/148}",
 			"",
 			"You can detect the mystic specialty of a foe.  ",
-			"**Prerequisites:** Int 13; ability to cast detect chaos, detect evil, detect good, detect law, or detect magic.  ",
+			"**Prerequisites:** Int 13; ability to cast {spell/detect chaos}, {spell/detect evil}, {spell/detect good}, {spell/detect law}, or {spell/detect magic}.  ",
 			"**Benefit:** When you use any of the spells listed in this feat's prerequisites to detect a creature's alignment or its magic, you have a chance of detecting what spellcasting expertise it has. After you observe a creature with the detect spell for 3 rounds, it must make a Will save (DC 10 + 1/2 your caster level + your Intelligence modifier). If it fails the saving throw, you learn what bloodlines, domains, hexes, schools, or mysteries (if any) the creature possesses. If the creature makes its save, it is immune to the effects of this feat for 24 hours.",
 			"",
 			"### Mythic Detect Expertise",
@@ -2327,7 +2327,7 @@
 			"**Prerequisites:** Base attack bonus +9, weapon training class feature with a melee weapon.  ",
 			"**Benefit:** As a full-round action, you can bat aside all of your foe's defenses to ensure you make a single, especially effective melee attack. You make a single melee attack using an appropriate weapon against a single target, but make as many attack rolls as you could in a full-attack action using that weapon. You make the attack rolls in order from highest bonus to lowest, as if you were making a full attack. If any of the attack rolls hit the target, your single attack is considered to have hit and you roll damage normally. If one or more rolls are critical threats, you confirm the critical hit only once using your highest base attack bonus.",
 			"",
-			"If you hit with two or more attacks, the target must succeed at a Fortitude save (DC = 10 + 1/2 your base attack bonus + your Strength modifier) or suffer a condition for 1d4 rounds. If at least two attacks hit, you can choose from deafened, entangled, or shaken. If at least three attacks hit, you can also choose from blinded or staggered. If at least four attacks hit, you can also choose the dazed condition. Once you have forced a foe to attempt a saving throw to avoid suffering a condition via this feat, you cannot attempt to inflict that condition on it again with Devastating Assault for 24 hours."
+			"If you hit with two or more attacks, the target must succeed at a Fortitude save (DC = 10 + 1/2 your base attack bonus + your Strength modifier) or suffer a condition for 1d4 rounds. If at least two attacks hit, you can choose from {misc/deafened}, {rule/entangled}, or {misc/shaken}. If at least three attacks hit, you can also choose from {misc/blinded} or {misc/staggered}. If at least four attacks hit, you can also choose the {misc/dazed} condition. Once you have forced a foe to attempt a saving throw to avoid suffering a condition via this feat, you cannot attempt to inflict that condition on it again with Devastating Assault for 24 hours."
 		]
 	},
 	"devastating_strike": {
@@ -2360,7 +2360,7 @@
 			"{SOURCE Adventurer's Guide/176}",
 			"",
 			"You instinctively sense the presence of fiends.  ",
-			"**Prerequisites:** Wis 13, ability to cast detect evil as a spell or spell-like ability.  ",
+			"**Prerequisites:** Wis 13, ability to cast {spell/detect evil} as a spell or spell-like ability.  ",
 			"**Benefit:** At the beginning of your turn each round, if you are within 60 feet of an outsider with the evil subtype, you instinctively sense that something unholy is near. You may experience this sense as an unpleasant smell or taste (such as sulfur), as gooseflesh on your arms or neck, or as an ineffable sense of dread. This sense does not alert you to the direction of the outsider. Anything that can thwart or mislead detect evil can likewise block this sense."
 		]
 	},
@@ -2386,7 +2386,7 @@
 			"{SOURCE Andoran, Spirit of Liberty/13}",
 			"",
 			"Once you were just another helpless victim, but now even the deepest pits of Hell ring with the lamentations of your adversaries.  ",
-			"**Prerequisites:** Face 10 different devils in combat and take damage or suffer some other sort of injury from five or more attacks made by each one without falling unconscious, fleeing, or otherwise becoming unable to strike back at them.  ",
+			"**Prerequisites:** Face 10 different {family/devil/s} in combat and take damage or suffer some other sort of injury from five or more attacks made by each one without falling unconscious, fleeing, or otherwise becoming unable to strike back at them.  ",
 			"**Benefit:** Your attacks count as good-aligned for the purposes of bypassing the damage reduction of devils."
 		]
 	},
@@ -2399,8 +2399,8 @@
 			"{SOURCE Ultimate Wilderness/217}",
 			"",
 			"The animal's devotion to its master allows it to stand against unnatural forces.  ",
-			"**Prerequisites:** Animal companion, devotion special ability.  ",
-			"**Benefit:** The animal companion gains a +2 morale bonus on saving throws against spells, spell-like abilities, and supernatural abilities of aberrations, outsiders, and undead. The animal companion is immune to the unnatural aura ability that some undead creatures (such as wraiths) have."
+			"**Prerequisites:** {sidekick/Animal companion}, devotion special ability.  ",
+			"**Benefit:** The animal companion gains a +2 morale bonus on saving throws against spells, spell-like abilities, and supernatural abilities of aberrations, outsiders, and undead. The animal companion is immune to the unnatural aura ability that some undead creatures (such as {monster/wraith/s}) have."
 		]
 	},
 	"diabolic_humiliation": {
@@ -2413,7 +2413,7 @@
 			"",
 			"Your humiliating strikes decrease a foe's morale.  ",
 			"**Prerequisites:** {feat/Combat Reflexes}, {feat/Diabolic Style}; {feat/Vital Strike}; {feat/Improved Unarmed Strike} or {feat/Weapon Focus} (unarmed strike); base attack bonus +8 or monk level 7th.  ",
-			"**Benefit:** When you successfully stagger a foe with an unarmed strike using Diabolic Style, the target becomes further humiliated. The target cannot gain the benefit of any morale bonus for 1 minute after being staggered in this way, and for the duration of that minute, any additional staggered effects it suffers from your attacks of opportunity last for 2 rounds rather than 1. The durations of multiple staggered effects administered in this way stack.  ",
+			"**Benefit:** When you successfully {misc/stagger} a foe with an unarmed strike using Diabolic Style, the target becomes further humiliated. The target cannot gain the benefit of any morale bonus for 1 minute after being staggered in this way, and for the duration of that minute, any additional staggered effects it suffers from your attacks of opportunity last for 2 rounds rather than 1. The durations of multiple staggered effects administered in this way stack.  ",
 			"**Special:** A monk of at least 10th level with this feat can select {feat/Improved Vital Strike} as a monk bonus feat."
 		]
 	},
@@ -2441,7 +2441,7 @@
 			"",
 			"You utilize combat as an opportunity to inflict humiliation upon those who provoke your attacks of opportunity.  ",
 			"**Prerequisites:** {feat/Combat Reflexes}; {feat/Improved Unarmed Strike} or {feat/Weapon Focus} (unarmed strike); base attack bonus +2 or monk level 1st.  ",
-			"**Benefit:** While using this style, you can make an attack of opportunity with an unarmed strike to deliver a humiliating swat to the target. If you hit the target, you inflict 1 point of nonlethal damage and the target must succeed at a Will saving throw (DC = 10 + half your level + your Charisma modifier) or become staggered for 1 round.  ",
+			"**Benefit:** While using this style, you can make an attack of opportunity with an unarmed strike to deliver a humiliating swat to the target. If you hit the target, you inflict 1 point of nonlethal damage and the target must succeed at a Will saving throw (DC = 10 + half your level + your Charisma modifier) or become {misc/staggered} for 1 round.  ",
 			"**Special:** A monk of at least 6th level with this feat can select {feat/Vital Strike} as a monk bonus feat."
 		]
 	},
@@ -2467,10 +2467,10 @@
 			"{SOURCE Ultimate Magic/148}",
 			"",
 			"Your tumor familiar goes to any length to save your life.  ",
-			"**Prerequisites:** Tumor familiar alchemist discovery.  ",
+			"**Prerequisites:** {discovery/Tumor familiar} alchemist discovery.  ",
 			"**Benefit:** If your tumor familiar is attached, and you would be reduced to 0 or fewer hit points by damage in combat (from a weapon or other blow, not a spell or special ability), the familiar throws itself in the way of the attack as an immediate action. If it makes a Reflex saving throw (DC = damage dealt), it takes all the damage from the attack; if it fails, it takes half damage and you take half damage.",
 			"",
-			"The familiar must be aware of the attack and able to react to it in order to use this ability, and it can only do this once per day - if it is denied its Dexterity bonus to AC, it can't use this ability. Since this effect would not normally allow the familiar to make a Reflex save for half damage, its improved evasion ability does not apply on this saving throw."
+			"The familiar must be aware of the attack and able to react to it in order to use this ability, and it can only do this once per day - if it is denied its Dexterity bonus to AC, it can't use this ability. Since this effect would not normally allow the familiar to make a Reflex save for half damage, its *improved evasion* ability does not apply on this saving throw."
 		]
 	},
 	"diehard": {
@@ -2483,9 +2483,9 @@
 			"",
 			"You are especially hard to kill. Not only do your wounds automatically stabilize when grievously injured, but you can remain conscious and continue to act even at death's door.  ",
 			"**Prerequisites:** {feat/Endurance}.  ",
-			"**Benefit:** When your hit point total is below 0, but you are not dead, you automatically stabilize. You do not need to make a Constitution check each round to avoid losing additional hit points. You may choose to act as if you were disabled, rather than dying. You must make this decision as soon as you are reduced to negative hit points (even if it isn't your turn). If you do not choose to act as if you were disabled, you immediately fall unconscious.",
+			"**Benefit:** When your hit point total is below 0, but you are not dead, you automatically {misc/stabilize}. You do not need to make a Constitution check each round to avoid losing additional hit points. You may choose to act as if you were {misc/disabled}, rather than {misc/dying}. You must make this decision as soon as you are reduced to negative hit points (even if it isn't your turn). If you do not choose to act as if you were disabled, you immediately fall {misc/unconscious}.",
 			"",
-			"When using this feat, you are staggered. You can take a move action without further injuring yourself, but if you perform any standard action (or any other action deemed as strenuous, including some swift actions, such as casting a quickened spell) you take 1 point of damage after completing the act. If your negative hit points are equal to or greater than your Constitution score, you immediately die.  ",
+			"When using this feat, you are {misc/staggered}. You can take a move action without further injuring yourself, but if you perform any standard action (or any other action deemed as strenuous, including some swift actions, such as casting a {feat/quickened} spell) you take 1 point of damage after completing the act. If your negative hit points are equal to or greater than your Constitution score, you immediately die.  ",
 			"**Normal:** A character without this feat who is reduced to negative hit points is unconscious and dying."
 		]
 	},
@@ -2539,7 +2539,7 @@
 			"",
 			"You have been trained to use magical movement as part of your combat tactics.  ",
 			"**Prerequisites:** Ability to use the abundant step class feature or cast {spell/dimension door}, {feat/Dimensional Agility}.  ",
-			"**Benefit:** As a full-round action, you use abundant step or cast dimension door as a special charge. Doing so allows you to teleport up to double your current speed (up to the maximum distance allowed by the spell or ability) and to make the attack normally allowed on a charge."
+			"**Benefit:** As a full-round action, you use abundant step or cast *dimension door* as a special charge. Doing so allows you to teleport up to double your current speed (up to the maximum distance allowed by the spell or ability) and to make the attack normally allowed on a {rule/charge}."
 		]
 	},
 	"dimensional_awareness": {
@@ -2566,7 +2566,7 @@
 			"",
 			"You teleport with a mere thought, savaging your opponents as you flash in and out of reality.  ",
 			"**Prerequisites:** Ability to use the abundant step class feature or cast {spell/dimension door}, {feat/Dimensional Agility}, {feat/Dimensional Assault}, base attack bonus +6.  ",
-			"**Benefit:** You can take a full-attack action, activating abundant step or casting dimension door as a swift action. If your do, you can teleport up to twice your speed (up to the maximum distance allowed by the spell or ability), dividing this teleportation into increments you use before your first attack, between each attack, and after your last attack. You must teleport at least 5 feet each time you teleport.  ",
+			"**Benefit:** You can take a full-attack action, activating abundant step or casting *dimension door* as a swift action. If your do, you can teleport up to twice your speed (up to the maximum distance allowed by the spell or ability), dividing this teleportation into increments you use before your first attack, between each attack, and after your last attack. You must teleport at least 5 feet each time you teleport.  ",
 			"**Special:** A monk can use additional points from his ki pool to increase his speed before determining the total speed for this teleportation."
 		]
 	},
@@ -2594,7 +2594,7 @@
 			"",
 			"Your rapid teleportation makes your combat maneuvers more difficult to avoid.  ",
 			"**Prerequisites:** Ability to use the abundant step class feature or cast {spell/dimension door}, {feat/Dimensional Agility}, {feat/Dimensional Assault}, {feat/Dimensional Dervish}, base attack bonus +9.  ",
-			"**Benefit:** While using the Dimensional Dervish feat, you gain a +4 bonus on combat maneuver checks to bull rush, disarm, reposition, or trip an opponent."
+			"**Benefit:** While using the Dimensional Dervish feat, you gain a +4 bonus on {rule/combat maneuver>s} checks to bull rush, disarm, reposition, or trip an opponent."
 		]
 	},
 	"dimensional_savant": {
@@ -2607,7 +2607,7 @@
 			"",
 			"You flash into and out of reality so quickly it is impossible to tell exactly where you are at any given time.  ",
 			"**Prerequisites:** {feat/Dimensional Agility}, {feat/Dimensional Assault}, {feat/Dimensional Dervish}, ability to use the abundant step class feature or cast {spell/dimension door}, base attack bonus +9.  ",
-			"**Benefit:** While using the Dimensional Dervish feat, you provide flanking from all squares you attack from. Flanking starts from the moment you make an attack until the start of your next turn. You can effectively flank with yourself and with multiple allies when using this feat."
+			"**Benefit:** While using the Dimensional Dervish feat, you provide {rule/flanking} from all squares you attack from. Flanking starts from the moment you make an attack until the start of your next turn. You can effectively flank with yourself and with multiple allies when using this feat."
 		]
 	},
 	"dimensional_step_up": {
@@ -2620,7 +2620,7 @@
 			"",
 			"Even teleportation cannot keep you from confronting your foe.  ",
 			"**Prerequisites:** {feat/Dimensional Agility}, {feat/Step Up}, base attack bonus +12, abundant step class feature or ability to cast {spell/dimension door}.  ",
-			"**Benefit:** Once per day, when an adjacent foe moves using a teleportation spell, spell-like ability, or similar ability (including effects like a shadowdancer's shadow jump ability), you can follow the creature as an immediate action. This ability has no range limit; you simply appear adjacent to the target wherever its destination happens to be. You cannot use this ability to travel to another plane. This feat does not provide you any means of returning, nor does it grant you knowledge of where your foe is going."
+			"**Benefit:** Once per day, when an adjacent foe moves using a teleportation spell, spell-like ability, or similar ability (including effects like a {pclass/shadowdancer/'s} shadow jump ability), you can follow the creature as an immediate action. This ability has no range limit; you simply appear adjacent to the target wherever its destination happens to be. You cannot use this ability to travel to another plane. This feat does not provide you any means of returning, nor does it grant you knowledge of where your foe is going."
 		]
 	},
 	"diplomatic_ruse": {
@@ -2646,7 +2646,7 @@
 			"",
 			"You can become a dire bat.  ",
 			"**Prerequisites:** Cha 13, {feat/Bat Shape}, base attack bonus +3, [werebat-kin](race/skinwalker).  ",
-			"**Benefit:** When you use Bat Shape to become a bat, you can choose to become a bat or a dire bat."
+			"**Benefit:** When you use Bat Shape to become a bat, you can choose to become a bat or a {monster/dire bat}."
 		]
 	},
 	"directed_disarm": {
@@ -2659,7 +2659,7 @@
 			"",
 			"A weapon you pull from one enemy's grip flies toward another enemy.  ",
 			"**Prerequisites:** Int 13, {feat/Combat Expertise}, {feat/Greater Disarm}, {feat/Improved Disarm}, base attack bonus +11.  ",
-			"**Benefit:** Whenever you successfully use a combat maneuver to disarm an opponent, the disarmed weapon lands up to 15 feet away from its wielder, in the direction you choose. Alternatively, you can make a ranged attack as an immediate action with the disarmed weapon against another opponent, as long as the disarmed weapon is a light or one-handed weapon. If the weapon is not a thrown weapon, you take a -4 penalty on the attack roll. You take a -4 penalty on your attack roll if you do not have a free hand."
+			"**Benefit:** Whenever you successfully use a combat maneuver to {rule/disarm} an opponent, the disarmed weapon lands up to 15 feet away from its wielder, in the direction you choose. Alternatively, you can make a ranged attack as an immediate action with the disarmed weapon against another opponent, as long as the disarmed weapon is a light or one-handed weapon. If the weapon is not a thrown weapon, you take a -4 penalty on the attack roll. You take a -4 penalty on your attack roll if you do not have a free hand."
 		]
 	},
 	"dirty_critical_hit": {
@@ -2672,7 +2672,7 @@
 			"",
 			"Your blows are not only deadly, but debilitating as well.  ",
 			"**Prerequisites:** Int 13, {feat/Combat Expertise}, {feat/Critical Focus}, {feat/Improved Dirty Trick}, base attack bonus +11.  ",
-			"**Benefit:** Whenever you confirm a critical hit, you can also affect the target as if you had succeeded at a dirty trick combat maneuver check. Doing so normally causes the target to suffer for 1 round one of the conditions applied by a dirty trick, unless you have feats or abilities that give you more dirty trick options.  ",
+			"**Benefit:** Whenever you confirm a critical hit, you can also affect the target as if you had succeeded at a {rule/dirty trick} combat maneuver check. Doing so normally causes the target to suffer for 1 round one of the conditions applied by a dirty trick, unless you have feats or abilities that give you more dirty trick options.  ",
 			"**Special:** You can apply the effects of only one critical feat to a given critical hit unless you possess Critical Mastery."
 		]
 	},
@@ -2686,7 +2686,7 @@
 			"",
 			"You can pull dirty tricks while disarming your foes.  ",
 			"**Prerequisites:** Int 13, {feat/Combat Expertise}, {feat/Improved Dirty Trick}, {feat/Improved Disarm}, base attack bonus +6.  ",
-			"**Benefit:** You can attempt to perform a dirty trick and a disarm maneuver together against a single target as a full-round action. You attempt a single combat maneuver check for both maneuvers. If your CMB is different for the two types of maneuvers, use the lower of the two bonuses. If your target's CMD is different against the two types of maneuvers, use the higher CMD. If you succeed at the check, you successfully perform both combat maneuvers."
+			"**Benefit:** You can attempt to perform a {rule/dirty trick} and a {rule/disarm} maneuver together against a single target as a full-round action. You attempt a single combat maneuver check for both maneuvers. If your CMB is different for the two types of maneuvers, use the lower of the two bonuses. If your target's CMD is different against the two types of maneuvers, use the higher CMD. If you succeed at the check, you successfully perform both combat maneuvers."
 		]
 	},
 	"dirty_fighting": {
@@ -2698,7 +2698,7 @@
 			"{SOURCE Dirty Tactics Toolbox/14}",
 			"",
 			"You can take advantage of a distracted foe.  ",
-			"**Benefit:** When you attempt a combat maneuver check against a foe you are flanking, you can forgo the +2 bonus on your attack roll for flanking to instead have the combat maneuver not provoke an attack of opportunity. If you have a feat or ability that allows you to attempt the combat maneuver without provoking an attack of opportunity, you can instead increase the bonus on your attack roll for flanking to +4 for the combat maneuver check.  ",
+			"**Benefit:** When you attempt a combat maneuver check against a foe you are {rule/flanking}, you can forgo the +2 bonus on your attack roll for flanking to instead have the combat maneuver not provoke an attack of opportunity. If you have a feat or ability that allows you to attempt the combat maneuver without provoking an attack of opportunity, you can instead increase the bonus on your attack roll for flanking to +4 for the combat maneuver check.  ",
 			"**Special:** This feat counts as having Dex 13, Int 13, {feat/Combat Expertise}, and {feat/Improved Unarmed Strike} for the purposes of meeting the prerequisites of the various improved combat maneuver feats, as well as feats that require those improved combat maneuver feats as prerequisites."
 		]
 	},
@@ -2712,7 +2712,7 @@
 			"",
 			"You are skilled at pulling dirty tricks during a grapple.  ",
 			"**Prerequisites:** Dex 13, Int 13, {feat/Combat Expertise}, {feat/Improved Dirty Trick}, {feat/Improved Grapple}, {feat/Improved Unarmed Strike}, base attack bonus +6.  ",
-			"**Benefit:** You can attempt to perform a dirty trick and a grapple maneuver together against a single target as a full-round action when initiating or maintaining a grapple. You must attempt a single combat maneuver check for both maneuvers. If your CMB is different for the two types of maneuvers, use the lower of the two bonuses. If your target's CMD is different against the two types of maneuvers, use the higher CMD. If you succeed at the check, you successfully perform both combat maneuvers."
+			"**Benefit:** You can attempt to perform a {rule/dirty trick} and a {rule/grapple} maneuver together against a single target as a full-round action when initiating or maintaining a grapple. You must attempt a single combat maneuver check for both maneuvers. If your CMB is different for the two types of maneuvers, use the lower of the two bonuses. If your target's CMD is different against the two types of maneuvers, use the higher CMD. If you succeed at the check, you successfully perform both combat maneuvers."
 		]
 	},
 	"dirty_trick_master": {
@@ -2725,7 +2725,7 @@
 			"",
 			"You are adept at stifling your enemies and can expertly make a bad situation even worse.  ",
 			"**Prerequisites:** {feat/Greater Dirty Trick}, {feat/Improved Dirty Trick}, base attack bonus +11.  ",
-			"**Benefit:** Whenever you successfully perform a dirty trick combat maneuver against an opponent who is still affected by a condition inflicted by a previous dirty trick (whether your own or another creature's), you can cause the condition to worsen. In addition to increasing the duration of the condition as normal, you cause an opponent who is dazzled to become dazed, entangled to become pinned, shaken to become frightened, and sickened to become nauseated. This worsened condition replaces the previous dirty trick condition, and lasts for the duration of the dirty trick (including any rounds remaining from the previous dirty trick condition) or until the opponent uses a standard action to remove the condition (whichever comes first)."
+			"**Benefit:** Whenever you successfully perform a {rule/dirty trick} combat maneuver against an opponent who is still affected by a condition inflicted by a previous dirty trick (whether your own or another creature's), you can cause the condition to worsen. In addition to increasing the duration of the condition as normal, you cause an opponent who is {misc/dazzled} to become {misc/dazed}, {rule/entangled} to become [pinned](rule/grapple_conditions), {misc/shaken} to become {misc/frightened}, and {misc/sickened} to become {misc/nauseated}. This worsened condition replaces the previous dirty trick condition, and lasts for the duration of the dirty trick (including any rounds remaining from the previous dirty trick condition) or until the opponent uses a standard action to remove the condition (whichever comes first)."
 		]
 	},
 	"disable_dweomer": {
@@ -2737,7 +2737,7 @@
 			"{SOURCE Advanced Class Guide/144}",
 			"",
 			"You can disable a magic item, suppressing it for a short time.  ",
-			"**Prerequisites:** Disable Device 5 ranks, Use Magic Device 5 ranks, trapfinding.  ",
+			"**Prerequisites:** Disable Device 5 ranks, Use Magic Device 5 ranks, {ability/trapfinding}.  ",
 			"**Benefit:** You can use Disable Device to suppress the magic of a non-artifact magic item for 1d4 rounds, after which the item recovers its magical properties. A suppressed item becomes nonmagical for the duration of the suppression. Using Disable Device in this way takes 2d4 rounds, with a DC of 15 + the item's caster level."
 		]
 	},
@@ -2751,7 +2751,7 @@
 			"",
 			"When your ally fails to disarm an opponent within your reach, you can try to disarm that same foe.  ",
 			"**Prerequisites:** Base attack bonus +1.  ",
-			"**Benefit:** When an ally with this feat fails a disarm combat maneuver check made on his turn against an opponent within your melee reach, as an immediate action you can attempt a disarm combat maneuver check against that foe."
+			"**Benefit:** When an ally with this feat fails a {rule/disarm} combat maneuver check made on his turn against an opponent within your melee reach, as an immediate action you can attempt a disarm combat maneuver check against that foe."
 		]
 	},
 	"disarming_strike": {
@@ -2767,7 +2767,7 @@
 			"",
 			"Your critical hits can disarm your foes.  ",
 			"**Prerequisites:** Int 13, {feat/Combat Expertise}, {feat/Improved Disarm}, base attack bonus +9.  ",
-			"**Benefit:** Whenever you score a critical hit with a melee attack, you can disarm your opponent, in addition to the normal damage dealt by the attack. If your confirmation roll exceeds your opponent's CMD, you may disarm your opponent as if from the disarm combat maneuver. This does not provoke an attack of opportunity.  ",
+			"**Benefit:** Whenever you score a critical hit with a melee attack, you can disarm your opponent, in addition to the normal damage dealt by the attack. If your confirmation roll exceeds your opponent's CMD, you may disarm your opponent as if from the {rule/disarm} combat maneuver. This does not provoke an attack of opportunity.  ",
 			"**Normal:** You must perform a disarm combat maneuver to disarm an opponent.  ",
 			"**Special:** You can only apply the effects of one of the following feats to a given critical hit",
 			"",
@@ -2816,7 +2816,7 @@
 			"",
 			"You are not easily fooled by illusions and forgeries.  ",
 			"**Prerequisites:** {race/Elf} or {race/half-elf}, keen senses racial trait.  ",
-			"**Benefit:** You receive a +2 racial bonus on saving throws against illusion spells and effects and a +2 bonus on Linguistic checks to detect forgeries. You can use the Linguistic skill to detect forgeries untrained."
+			"**Benefit:** You receive a +2 racial bonus on saving throws against illusion spells and effects and a +2 bonus on {skill/Linguistics} checks to detect forgeries. You can use the Linguistics skill to detect forgeries untrained."
 		]
 	},
 	"disciple_of_the_sword": {
@@ -2842,7 +2842,7 @@
 			"",
 			"Your careful study of mental magic grants you mastery in your discipline.  ",
 			"**Prerequisites:** Psychic discipline class feature.  ",
-			"**Benefit:** You gain a +1 bonus on caster level checks and {rule/concentration} checks when casting spells from your psychic discipline, and you gain a +1 insight bonus on saving throws against spells from your discipline."
+			"**Benefit:** You gain a +1 bonus on caster level checks and {rule/concentration} checks when casting spells from your {ability/psychic |discipline>s}, and you gain a +1 insight bonus on saving throws against spells from your discipline."
 		]
 	},
 	"disconcerting_knowledge": {
@@ -2854,8 +2854,8 @@
 			"{SOURCE Horror Adventures/84}",
 			"",
 			"You unsettle your enemies by demonstrating that you how to defeat them.  ",
-			"**Prerequisites:** Bardic knowledge class ability or Knowledge domain, Knowledge (any two) 3 ranks each.  ",
-			"**Benefit:** You can use your knowledge to demoralize an enemy. When you use a standard action to Intimidate a creature with a base CR of 2 or greater, you can use a Knowledge skill that could be used to identify the creature's type in place of Intimidate when attempting to demoralize that creature. The target creature must be intelligent and understand the language that you are using when conveying the disconcerting knowledge."
+			"**Prerequisites:** Bardic knowledge class ability or {domain/Knowledge} domain, Knowledge (any two) 3 ranks each.  ",
+			"**Benefit:** You can use your knowledge to demoralize an enemy. When you use a standard action to {skill/Intimidate} a creature with a base CR of 2 or greater, you can use a Knowledge skill that could be used to identify the creature's type in place of Intimidate when attempting to demoralize that creature. The target creature must be intelligent and understand the language that you are using when conveying the disconcerting knowledge."
 		]
 	},
 	"disconcerting_stare": {
@@ -2868,7 +2868,7 @@
 			"",
 			"Your painful stare unnerves your target, making it oblivious to its surroundings.  ",
 			"**Prerequisites:** Mesmerist level 5th, painful stare class feature.  ",
-			"**Benefit:** When you trigger your painful stare, the target must succeed at a Will save (DC = 10 + 1/2 your mesmerist level + your Charisma modifier) or take a -6 penalty on Disable Device and Perception checks and a -2 penalty on Reflex saves for the next minute. If the target has the trap finding or trap sense class ability and fails this save, the target also loses the benefit of that ability (or abilities) for 1 minute."
+			"**Benefit:** When you trigger your painful stare, the target must succeed at a Will save (DC = 10 + 1/2 your mesmerist level + your Charisma modifier) or take a -6 penalty on Disable Device and Perception checks and a -2 penalty on Reflex saves for the next minute. If the target has the {ability/trapfinding} or {ability/trap sense} class ability and fails this save, the target also loses the benefit of that ability (or abilities) for 1 minute."
 		]
 	},
 	"discordant_voice": {
@@ -2880,7 +2880,7 @@
 			"{SOURCE Ultimate Combat/96}",
 			"",
 			"By singing out a precise tone, you cause discordant vibrations to run through allies' weapons.  ",
-			"**Prerequisites:** Bardic performance class feature, Perform (oratory or sing) 10 ranks.  ",
+			"**Prerequisites:** {ability/Bardic performance} class feature, Perform (oratory or sing) 10 ranks.  ",
 			"**Benefit:** Whenever you are using bardic performance to create a spell-like or supernatural effect, allies within 30 feet of you deal an extra 1d6 points of sonic damage with successful weapon attacks. This damage stacks with other energy damage a weapon might deal. Projectile weapons bestow this extra damage on their ammunition, but the extra damage is dealt only if the projectile hits a target within 30 feet of you."
 		]
 	},
@@ -2897,7 +2897,7 @@
 			"",
 			"You can feint to disengage from combat.  ",
 			"**Prerequisites:** Int 13, {feat/Combat Expertise}, {feat/Improved Feint}.  ",
-			"**Benefit:** As a standard action, use Bluff to feint against an opponent. Instead of denying that opponent his Dexterity bonus to AC, a successful feint allows you to move up to your speed without provoking an attack of opportunity from the opponent you feinted for leaving the square you start in.",
+			"**Benefit:** As a standard action, use {skill/Bluff} to feint against an opponent. Instead of denying that opponent his Dexterity bonus to AC, a successful feint allows you to move up to your speed without provoking an attack of opportunity from the opponent you feinted for leaving the square you start in.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/117}",
@@ -2918,7 +2918,7 @@
 			"",
 			"Distracting your opponents gives you the opportunity to make a swift retreat.  ",
 			"**Prerequisites:** Int 13, {feat/Combat Expertise}, {feat/Disengaging Feint}, {feat/Improved Feint}.  ",
-			"**Benefit:** As a standard action, make a Bluff check against each opponent that currently threatens you. If you succeed against at least one opponent, you can move up to your speed. This movement does not provoke attacks of opportunity from any opponent you succeeded at feinting against.",
+			"**Benefit:** As a standard action, make a {skill/Bluff} check against each opponent that currently threatens you. If you succeed against at least one opponent, you can move up to your speed. This movement does not provoke attacks of opportunity from any opponent you succeeded at feinting against.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/118}",
@@ -2939,7 +2939,7 @@
 			"",
 			"You make one last attack before beating a hasty retreat.  ",
 			"**Prerequisites:** Int 13, {feat/Combat Expertise}, {feat/Disengaging Feint}, {feat/Dodge}, {feat/Improved Feint}, {feat/Mobility}.  ",
-			"**Benefit:** Whenever you use Disengaging Feint or Disengaging Flourish, you can make a single melee attack against one opponent you succeeded at feinting against. That opponent is denied his Dexterity bonus to AC against this attack.",
+			"**Benefit:** Whenever you use Disengaging Feint or {feat/Disengaging Flourish}, you can make a single melee attack against one opponent you succeeded at feinting against. That opponent is denied his Dexterity bonus to AC against this attack.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/118}",
@@ -2960,7 +2960,7 @@
 			"",
 			"Your show of prowess further demoralizes others.  ",
 			"**Prerequisites:** {feat/Dazzling Display}, {feat/Weapon Focus}, base attack bonus +6, proficiency with chosen weapon.  ",
-			"**Benefit:** When you successfully use Dazzling Display against any shaken, frightened, or panicked opponents, their fear increases by one step. An already panicked creature demoralized by this feat cowers. Once affected by this feat, a creature cannot be affected by it again (by you or anyone else) for 24 hours.",
+			"**Benefit:** When you successfully use Dazzling Display against any {misc/shaken}, {misc/frightened}, or {misc/panicked} opponents, their fear increases by one step. An already panicked creature demoralized by this feat {misc/cower/s>ing}. Once affected by this feat, a creature cannot be affected by it again (by you or anyone else) for 24 hours.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/118}",
@@ -2978,7 +2978,7 @@
 			"",
 			"You can dislocate your limbs to aid in escaping from bonds or enemy grips.  ",
 			"**Prerequisites:** Con 13.  ",
-			"**Benefit:** As a swift action, you can deal 1d8 points of nonlethal damage to yourself as you pop your joints from their sockets, making yourself more flexible though suffering incredible pain. Any Escape Artist checks you attempt that would normally take 1 minute instead take 1 full-round action. If you have 7 Hit Dice or more, the damage you deal to yourself is decreased to 1d6. If you have 14 Hit Dice or more, you deal no damage to yourself, and any Escape Artist checks you attempt that normally take 1 full round instead take a move action. You can't gain any benefits from this feat if you are immune to nonlethal damage."
+			"**Benefit:** As a swift action, you can deal 1d8 points of nonlethal damage to yourself as you pop your joints from their sockets, making yourself more flexible though suffering incredible pain. Any {skill/Escape Artist} checks you attempt that would normally take 1 minute instead take 1 full-round action. If you have 7 Hit Dice or more, the damage you deal to yourself is decreased to 1d6. If you have 14 Hit Dice or more, you deal no damage to yourself, and any Escape Artist checks you attempt that normally take 1 full round instead take a move action. You can't gain any benefits from this feat if you are immune to nonlethal damage."
 		]
 	},
 	"disorienting_blow": {
@@ -2991,7 +2991,7 @@
 			"",
 			"When you successfully strike your opponent with your Stunning Fist, you leave it in a state of confusion.  ",
 			"**Prerequisites:** {feat/Stunning Fist}, base attack bonus +11.  ",
-			"**Benefit:** You must choose to use this ability before making an attack roll with your Stunning Fist, and this effect replaces other effects or conditions that would be caused by Stunning Fist. If you successfully hit your opponent and it fails its Fortitude save, it becomes confused for 1 round. Additional disorienting blows to the confused target add to the duration of its confusion. This feat is otherwise subject to all of the limits and conditions of Stunning Fist."
+			"**Benefit:** You must choose to use this ability before making an attack roll with your Stunning Fist, and this effect replaces other effects or conditions that would be caused by Stunning Fist. If you successfully hit your opponent and it fails its Fortitude save, it becomes {misc/confused} for 1 round. Additional disorienting blows to the confused target add to the duration of its confusion. This feat is otherwise subject to all of the limits and conditions of Stunning Fist."
 		]
 	},
 	"disorienting_maneuver": {
@@ -3004,7 +3004,7 @@
 			"",
 			"Your erratic movements disorient your opponent.  ",
 			"**Prerequisites:** {feat/Dodge}, Acrobatics 5 ranks.  ",
-			"**Benefit:** If you successfully use Acrobatics to tumble through an opponent's space, you gain a +2 circumstance bonus on attack rolls against that opponent until the start of your next turn. If you choose to make a trip attempt against that opponent, you gain a +4 circumstance bonus on your combat maneuver check. This bonus on trip also lasts until the start of your next turn."
+			"**Benefit:** If you successfully use {skill/Acrobatics} to tumble through an opponent's space, you gain a +2 circumstance bonus on attack rolls against that opponent until the start of your next turn. If you choose to make a {rule/trip} attempt against that opponent, you gain a +4 circumstance bonus on your combat maneuver check. This bonus on trip also lasts until the start of your next turn."
 		]
 	},
 	"dispel_focus": {
@@ -3030,7 +3030,7 @@
 			"",
 			"You can {spell/dispel magic} with abjuration magic items.  ",
 			"**Prerequisites:** Use Magic Device 3 ranks, base Fortitude save bonus +6.  ",
-			"**Benefit:** You can cause an item that has an abjuration spell of 2nd level or higher in its construction requirements to cast dispel magic, but only to perform a targeted dispel. You can use this feat once per day, plus an additional time per day at base Fortitude save bonus +9 and +12."
+			"**Benefit:** You can cause an item that has an abjuration spell of 2nd level or higher in its construction requirements to cast *dispel magic,* but only to perform a targeted dispel. You can use this feat once per day, plus an additional time per day at base Fortitude save bonus +9 and +12."
 		]
 	},
 	"dispel_synergy": {
@@ -3043,7 +3043,7 @@
 			"",
 			"By tearing away an opponent's magical defenses, you leave your enemy vulnerable, making it difficult for him to resist your spells.  ",
 			"**Prerequisites:** Spellcraft 5 ranks.  ",
-			"**Benefit:** If you successfully dispel an ongoing magical effect on an opponent, that opponent takes a -2 penalty on saving throws against your spells until the end of your next turn."
+			"**Benefit:** If you successfully {spell/dispel>_magic} an ongoing magical effect on an opponent, that opponent takes a -2 penalty on saving throws against your spells until the end of your next turn."
 		]
 	},
 	"dispelling_blood": {
@@ -3055,7 +3055,7 @@
 			"{SOURCE Potions and Poisons/6}",
 			"",
 			"You can change your toxic blood to unravel magic itself.  ",
-			"**Prerequisites:** Knowledge (arcana) 7 ranks, vishkanya.  ",
+			"**Prerequisites:** Knowledge (arcana) 7 ranks, {race/vishkanya}.  ",
 			"**Benefit:** As a swift action, you can alter the effects of your venom to affect magic instead of flesh. Your venom functions as a targeted {spell/dispel magic} effect when it strikes a creature, using your character level as your caster level. This dispelling effect affects creatures even if they are immune to poison effects.  ",
 			"**Normal:** Vishkanya venom deals Dexterity damage."
 		]
@@ -3070,7 +3070,7 @@
 			"",
 			"Your blows attack the physical and arcane forms of your enemies at the same time.  ",
 			"**Prerequisites:** {feat/Arcane Strike}, base attack bonus +11, ability to cast {spell/dispel magic}.  ",
-			"**Benefit:** If you have dispel magic prepared or can cast it spontaneously, when you score a critical hit against an opponent, you may use a swift action to cast dispel magic to make a targeted dispel against that opponent."
+			"**Benefit:** If you have *dispel magic* prepared or can cast it spontaneously, when you score a critical hit against an opponent, you may use a swift action to cast *dispel magic* to make a targeted dispel against that opponent."
 		]
 	},
 	"dispelling_fist": {
@@ -3083,7 +3083,7 @@
 			"",
 			"By focusing on your knowledge of magic and spells that negate its powers, you use your bare hands to rip magical defenses from your enemy.  ",
 			"**Prerequisites:** {feat/Improved Unarmed Strike}, base attack bonus +11, ability to cast {spell/dispel magic}, caster level 7th.  ",
-			"**Benefit:** If you have dispel magic prepared or can cast it spontaneously, you can cast it as a swift action after hitting an opponent with an unarmed strike. Treat this as a targeted dispel against the opponent you hit."
+			"**Benefit:** If you have *dispel magic* prepared or can cast it spontaneously, you can cast it as a swift action after hitting an opponent with an unarmed strike. Treat this as a targeted dispel against the opponent you hit."
 		]
 	},
 	"disposable_weapon": {
@@ -3096,7 +3096,7 @@
 			"",
 			"You ignore the limitations of your equipment, striking harder despite the damage it does to your weapon.  ",
 			"**Prerequisites:** Base attack bonus +1, proficient with weapon.  ",
-			"**Benefit:** Whenever you use a melee or thrown weapon with the {misc/fragile} weapon special quality to score a critical threat against an opponent, you can give your weapon the broken condition to automatically confirm the critical hit."
+			"**Benefit:** Whenever you use a melee or thrown weapon with the {misc/fragile} weapon special quality to score a critical threat against an opponent, you can give your weapon the {misc/broken} condition to automatically confirm the critical hit."
 		]
 	},
 	"disrupting_fist": {
@@ -3172,7 +3172,7 @@
 			"{SOURCE Ultimate Wilderness/217}",
 			"",
 			"The animal's presence harries nearby enemies, making concentration difficult.  ",
-			"**Prerequisites:** Animal companion.  ",
+			"**Prerequisites:** {sidekick/Animal companion}.  ",
 			"**Benefit:** The animal companion is trained to interfere with its opponent's concentration, making even rote tasks difficult. Increase the {rule/concentration} check DC of spells and spell-like abilities that opponents cast while within the animal companion's reach by +2. Additionally, opponents can't take 10 on d20 rolls or checks while within the animal companion's reach. If an opponent has an ability that allows it to always take 10 on certain skill checks while distracted (such as the skill mastery advanced talent), it gains the benefit of such abilities only if its number of skill ranks is at least 4 higher than the animal companion's Hit Dice.",
 			"",
 			"In addition, the animal companion counts as a fighter with a number of class levels equal to its Hit Dice for the purposes of qualifying for the {feat/Disruptive} feat, as well as for any feat that lists the Disruptive feat as a prerequisite. The animal companion also adds those feats to the list of animal feats that it can choose from when gaining a new feat."
@@ -3260,7 +3260,7 @@
 			"{SOURCE Mythic Adventures/63}",
 			"",
 			"There's virtually no limit to your powerful throwing arm.  ",
-			"**Prerequisites:** Str 17, {feat/Distance Thrower}.  ",
+			"**Prerequisites:** Str 17, Distance Thrower.  ",
 			"**Benefit:** Thrown weapons wielded by you have twice their normal range."
 		]
 	},
@@ -3272,7 +3272,7 @@
 			"",
 			"{SOURCE Occult Adventures/132}",
 			"",
-			"Your phantom can deliver spells at a greater range than usual.  ",
+			"Your {sidekick/phantom} can deliver spells at a greater range than usual.  ",
 			"**Prerequisites:** Phantom class feature, phantom with the deliver touch spells ability.  ",
 			"**Benefit:** The distance from you at which your phantom can deliver touch spells increases by 20 feet."
 		]
@@ -3317,7 +3317,7 @@
 			"{SOURCE Advanced Class Guide/144}",
 			"",
 			"Your ally's charge exposes an opening you can exploit.  ",
-			"**Benefit:** When your ally with this feat uses the charge action and hits, you gain a +2 bonus on your next attack roll against the target of that charge. This bonus must be used before your ally's next turn, or it is lost.",
+			"**Benefit:** When your ally with this feat uses the {rule/charge} action and hits, you gain a +2 bonus on your next attack roll against the target of that charge. This bonus must be used before your ally's next turn, or it is lost.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/118}",
@@ -3349,7 +3349,7 @@
 			"",
 			"You stride forward with confidence, trusting your performance to protect you as much as your arms and armor.  ",
 			"**Prerequisites:** Cha 17, {feat/Combat Expertise}, {feat/Diva Strike}, {feat/Diva Style}, {feat/Improved Feint}, base attack bonus +11 or bard level 11th.  ",
-			"**Benefit:** While using Diva Style, you do not provoke attacks of opportunity from creatures you have successfully feinted against. Additionally, you can feint against a creature using Diva Style from up to 30 feet away."
+			"**Benefit:** While using Diva Style, you do not provoke attacks of opportunity from creatures you have successfully feinted against. Additionally, you can {rule/feint} against a creature using Diva Style from up to 30 feet away."
 		]
 	},
 	"diva_strike": {
@@ -3375,7 +3375,7 @@
 			"",
 			"You employ song, dance, or some other method of performance to distract your enemies from the battle at hand.  ",
 			"**Prerequisites:** Cha 13; base attack bonus +1 or bard level 1st.  ",
-			"**Benefit:** While using this style, you can use any Perform skill in place of Bluff to feint in combat. You can attempt a Perform check to feint as a move action when you begin a bardic performance."
+			"**Benefit:** While using this style, you can use any Perform skill in place of {skill/Bluff} to feint in combat. You can attempt a Perform check to feint as a move action when you begin a {ability/bardic performance}."
 		]
 	},
 	"diverse_obedience": {
@@ -3417,7 +3417,7 @@
 			"",
 			"You can use your shots to distract opponents.  ",
 			"**Prerequisites:** {feat/Stealthy}, {feat/Target of Opportunity}.  ",
-			"**Benefit:** When you hit a target using Target of Opportunity, the ally who triggered your ranged attack can attempt a Stealth check to hide from your target as an immediate action, even if your target is aware of your ally's presence. Your ally must also have this feat to benefit from this effect. This Stealth check applies only to the target you hit, and the stealth ends if the ally takes any action other than to move into cover or concealment."
+			"**Benefit:** When you hit a target using Target of Opportunity, the ally who triggered your ranged attack can attempt a Stealth check to hide from your target as an immediate action, even if your target is aware of your ally's presence. Your ally must also have this feat to benefit from this effect. This Stealth check applies only to the target you hit, and the stealth ends if the ally takes any action other than to move into {rule/cover} or {rule/concealment}."
 		]
 	},
 	"divert_harm": {
@@ -3429,8 +3429,8 @@
 			"{SOURCE Bastards of Golarion/25}",
 			"",
 			"You know how to throw your enemies into harm's way at the last second.  ",
-			"**Prerequisites:** Int 13, {feat/Combat Expertise}, base attack bonus +6, evasion class feature.  ",
-			"**Benefit:** Whenever you are the target of an area-of-effect attack that normally deals half damage on a successful Reflex save (such as a fireball spell or dragon's breath weapon), you may, as an immediate action, wrestle an adjacent foe into harm's way. This does not alter the position of you or your opponent, but your opponent must attempt a Reflex save against the attack in your place. If your opponent fails, it takes half damage from the attack and you take none; if it succeeds, it takes no damage and you take damage as normal as though you'd failed your saving throw (though this damage is still reduced by abilities such as improved evasion). This feat works even if the opponent was already in the affected area of the attack (so it is possible that an unlucky opponent could take as much as 1-1/2 times the damage normally possible from the attack). You can use this ability only on a foe within one size category of yourself."
+			"**Prerequisites:** Int 13, {feat/Combat Expertise}, base attack bonus +6, {ability/evasion} class feature.  ",
+			"**Benefit:** Whenever you are the target of an area-of-effect attack that normally deals half damage on a successful Reflex save (such as a {spell/fireball} spell or dragon's breath weapon), you may, as an immediate action, wrestle an adjacent foe into harm's way. This does not alter the position of you or your opponent, but your opponent must attempt a Reflex save against the attack in your place. If your opponent fails, it takes half damage from the attack and you take none; if it succeeds, it takes no damage and you take damage as normal as though you'd failed your saving throw (though this damage is still reduced by abilities such as {ability/improved evasion}). This feat works even if the opponent was already in the affected area of the attack (so it is possible that an unlucky opponent could take as much as 1-1/2 times the damage normally possible from the attack). You can use this ability only on a foe within one size category of yourself."
 		]
 	},
 	"divination_guide": {
@@ -3445,8 +3445,8 @@
 			"{SOURCE Inner Sea Gods/210;Faiths of Purity/24}",
 			"",
 			"You deity grants you greater guidance and divine insight.  ",
-			"**Prerequisites:** Caster level 3rd, ability to cast augury or divination, must worship a deity.  ",
-			"**Benefit:** Whenever you cast augury or divination, you receive further guidance from your deity's agents. You gain a +1 sacred bonus if your worship a good deity or a +1 profane bonus if you worship an evil deity (if you worship a neutral deity the type of bonus is either determined by the type of energy you channel with the channel energy class feature or, if you don't have that class ability, your choice upon taking this feat) on all saving throws for 1 minute per caster level of the augury or divination spell you cast."
+			"**Prerequisites:** Caster level 3rd, ability to cast {spell/augury} or {spell/divination}, must worship a deity.  ",
+			"**Benefit:** Whenever you cast *augury* or *divination,* you receive further guidance from your deity's agents. You gain a +1 sacred bonus if your worship a good deity or a +1 profane bonus if you worship an evil deity (if you worship a neutral deity the type of bonus is either determined by the type of energy you channel with the channel energy class feature or, if you don't have that class ability, your choice upon taking this feat) on all saving throws for 1 minute per caster level of the augury or divination spell you cast."
 		]
 	},
 	"divine_barrier": {
@@ -3538,7 +3538,7 @@
 			"",
 			"You mix faith with art to empower your performances.  ",
 			"**Prerequisites:** Bard level 1st, cleric or oracle level 1st, worshiper of {faith/Shelyn}.  ",
-			"**Benefit:** When you take this feat, choose either the cleric or oracle class. Levels in the selected class stack with your bard level when determining the number of rounds per day you can use your bardic performance and the type of action it takes to start a bardic performance."
+			"**Benefit:** When you take this feat, choose either the cleric or oracle class. Levels in the selected class stack with your bard level when determining the number of rounds per day you can use your {ability/bardic performance} and the type of action it takes to start a bardic performance."
 		]
 	},
 	"divine_fighting_technique": {

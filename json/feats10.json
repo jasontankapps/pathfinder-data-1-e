@@ -249,7 +249,7 @@
 			"{SOURCE Monster Codex/152}",
 			"",
 			"The rotting of your flesh has spread to your lungs and fills them with putrid fluids.  ",
-			"**Prerequisites:** Con 15, {feat/Corrupted Flesh}, 6 HD, ogre.  ",
+			"**Prerequisites:** Con 15, {feat/Corrupted Flesh}, 6 HD, {monster/ogre}.  ",
 			"**Benefit:** You can exhale a 30-foot cone of vile-smelling, moist air mixed with phlegm and remnants of old meals. Creatures in the area must succeed at a Fortitude save (DC = 10 + 1/2 your Hit Dice + your Constitution modifier) or they are nauseated for 1d6 minutes. Affected creatures that spend a full-round action gasping for fresh air and scraping off your oral debris may attempt another save to overcome the effect. You can use this breath weapon twice per day, plus one additional time per day for every 6 HD you possess beyond 6."
 		]
 	},
@@ -607,7 +607,7 @@
 			"{SOURCE Ultimate Combat/101}",
 			"",
 			"Your coils are particularly deadly, allowing you to constrict opponents of your size or smaller.  ",
-			"**Prerequisites:** Str 13, Int 3; naga, serpentfolk, or creature that has the constrict special attack as a racial ability; base attack bonus +3.  ",
+			"**Prerequisites:** Str 13, Int 3; {family/naga}, {monster/serpentfolk}, or creature that has the {umr/constrict} special attack as a racial ability; base attack bonus +3.  ",
 			"**Benefit:** You gain the constrict and grab special attacks. Your constrict attack deals damage equal to your unarmed strike or primary natural weapon melee attack. Further, you can grab and constrict opponents up to your size.  ",
 			"**Normal:** You can grab and constrict creatures one size smaller than you.",
 			"",
@@ -629,7 +629,7 @@
 			"{SOURCE Ultimate Combat/101}",
 			"",
 			"Your constricting attack has become stronger and more lethal.  ",
-			"**Prerequisites:** Str 15, Int 3; naga, serpentfolk, or creature that has the constrict special attack; {feat/Final Embrace}; base attack bonus +6.  ",
+			"**Prerequisites:** Str 15, Int 3; {family/naga}, {monster/serpentfolk}, or creature that has the {umr/constrict} special attack; {feat/Final Embrace}; base attack bonus +6.  ",
 			"**Benefit:** A creature that takes damage from your constrict attack is also shaken until the start of your next turn.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -650,7 +650,7 @@
 			"{SOURCE Ultimate Combat/102}",
 			"",
 			"Few creatures can survive the crushing horror of your Final Embrace.  ",
-			"**Prerequisites:** Str 17, Int 3; naga, serpentfolk, or creature that has the constrict special attack; {feat/Final Embrace}; {feat/Final Embrace Horror}; base attack bonus +9.  ",
+			"**Prerequisites:** Str 17, Int 3; {family/naga}, {monster/serpentfolk}, or creature that has the {umr/constrict} special attack; {feat/Final Embrace}; {feat/Final Embrace Horror}; base attack bonus +9.  ",
 			"**Benefit:** Double the number of damage dice for your constrict special attack.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -668,7 +668,7 @@
 			"{SOURCE Plane-Hopper's Handbook/15}",
 			"",
 			"You sense the minute imperfections in the otherwise ordered structure of your foes' weapons and armor.  ",
-			"**Prerequisites:** Str 13, {feat/Improved Sunder}, {feat/Power Attack}, base attack bonus +1, Craft (armor or weapons) 5 ranks, aphorite.  ",
+			"**Prerequisites:** Str 13, {feat/Improved Sunder}, {feat/Power Attack}, base attack bonus +1, Craft (armor or weapons) 5 ranks, {race/aphorite}.  ",
 			"**Benefit:** When performing a sunder combat maneuver, you ignore a number of points of hardness equal to your Intelligence modifier."
 		]
 	},
@@ -2094,7 +2094,7 @@
 			"{SOURCE Monster Codex/200}",
 			"",
 			"You can refresh your spell-like abilities by expending spell energy.  ",
-			"**Prerequisites:** Arcane spellcaster, caster level 4th, serpentfolk.  ",
+			"**Prerequisites:** Arcane spellcaster, caster level 4th, {monster/serpentfolk}.  ",
 			"**Benefit:** You can expend two arcane spell slots or prepared spells to cast one of your racial spell-like abilities. The level of each expended spell must be equal to or higher than the sorcerer/wizard spell level of the spell-like ability you want to cast."
 		]
 	},
@@ -2170,7 +2170,7 @@
 			"{SOURCE Ultimate Wilderness/19}",
 			"",
 			"Some ghorans glow with a nurturing inner light.  ",
-			"**Prerequisites:** Wis 13, ghoran.  ",
+			"**Prerequisites:** Wis 13, {race/ghoran}.  ",
 			"**Benefit:** Once per day, you can cast {spell/daylight} as a spell-like ability with a caster level equal to your character level. If you have the light dependent racial trait, you can instead cast this spell without the usual effect, but you are considered to be exposed to sunlight for that day."
 		]
 	},
@@ -4855,7 +4855,7 @@
 			"{SOURCE Monster Codex/153;Classic Monsters Revisited/49}",
 			"",
 			"You excel at hunting humans in the dead of night and murdering them quietly.  ",
-			"**Prerequisites:** {feat/Skill Focus} (Stealth), darkvision, half-ogre or ogre, size Large or larger.  ",
+			"**Prerequisites:** {feat/Skill Focus} (Stealth), darkvision, {template/half-ogre} or {monster/ogre}, size Large or larger.  ",
 			"**Benefit:** While in areas of dim lighting or natural darkness, you ignore all size penalties on Stealth checks and gain a +2 bonus on attack rolls against flat-footed enemies."
 		]
 	},

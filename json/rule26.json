@@ -22,7 +22,9 @@
 			"planar_races",
 			"role_of_the_divine",
 			"traits_of_a_plane",
-			"building_a_planar_campaign"
+			"building_a_planar_campaign",
+			"planar_travel",
+			"specific_demiplanes"
 		],
 		"siblings": [
 			"aquatic_adventures_aa",
@@ -56,7 +58,9 @@
 			"planar_races",
 			"role_of_the_divine",
 			"traits_of_a_plane",
-			"building_a_planar_campaign"
+			"building_a_planar_campaign",
+			"planar_travel",
+			"specific_demiplanes"
 		]
 	},
 	"planar_races": {
@@ -105,7 +109,9 @@
 			"planar_races",
 			"role_of_the_divine",
 			"traits_of_a_plane",
-			"building_a_planar_campaign"
+			"building_a_planar_campaign",
+			"planar_travel",
+			"specific_demiplanes"
 		]
 	},
 	"role_of_the_divine": {
@@ -140,7 +146,9 @@
 			"planar_races",
 			"role_of_the_divine",
 			"traits_of_a_plane",
-			"building_a_planar_campaign"
+			"building_a_planar_campaign",
+			"planar_travel",
+			"specific_demiplanes"
 		]
 	},
 	"divine_power": {
@@ -460,7 +468,9 @@
 			"planar_races",
 			"role_of_the_divine",
 			"traits_of_a_plane",
-			"building_a_planar_campaign"
+			"building_a_planar_campaign",
+			"planar_travel",
+			"specific_demiplanes"
 		]
 	},
 	"gravity_traits_pa": {
@@ -829,7 +839,9 @@
 			"planar_races",
 			"role_of_the_divine",
 			"traits_of_a_plane",
-			"building_a_planar_campaign"
+			"building_a_planar_campaign",
+			"planar_travel",
+			"specific_demiplanes"
 		]
 	},
 	"why_the_planes": {
@@ -1438,6 +1450,83 @@
 			"extraterrestrial_planes",
 			"mundane_cosmology",
 			"world_tree"
+		]
+	},
+	"planar_travel": {
+		"name": "Planar Travel",
+		"subtitle": "Specific Campaigns",
+		"sources": [ "Plane-Hopper's Handbook" ],
+		"description": [
+			"{SOURCE Plane-Hopper's Handbook/4}",
+			"",
+			"Planar travel requires far more planning than a simple trip to another nation. The first hurdle for explorers to overcome is reaching their desired plane in the first place. Travel methods fall into several broad categories.",
+			"",
+			":HL[Spells:] Perhaps the most famous and versatile spell for planar travel is {spell/plane shift}, a reliable method for reaching the correct plane, if not necessarily the correct point on it. This imprecise spell deposits its targets potentially hundreds of miles away from their intended destinations. Thus, after arriving, travelers must orient themselves in an unfamiliar land and may have to contend with hostile threats for several days while they voyage. Some legendary mages have concocted ways to modify the spell to overcome this deficiency, but few spellcasters have proven capable of mastering these complex variations.",
+			"",
+			"The standard of precise planar travel is the {spell/gate} spell, capable of opening a temporary portal with perfect accuracy to almost anywhere in the Great Beyond. The most cautious and well-supplied planar traveler might consider foregoing traveling with his real form at all and use {spell/astral projection}, temporarily shifting through the Astral Plane and then creating a new body to face danger at his chosen destination.",
+			"",
+			"In addition to these versatile spells, certain more specialized magic can be used to reach specific planes, such as traveling to the Shadow Plane using {spell/shadow walk}. Travelers can even enter the Dimension of Dreams, a demiplane difficult to reach with conventional planar travel, using a {spell/dream voyage}. What these spells lack in versatility, they make up for in additional features that make journeys faster and safer.",
+			"",
+			"Returning home can be just as complicated as reaching another plane in the first place. If all else fails, travelers can resort to the same means that they might use to banish intruders from their native plane, casting {spell/dismissal} or similar spells on themselves to return home. As such crude methods risk shunting their targets onto other planes entirely, they are best reserved for desperate situations.",
+			"",
+			":HL[Magic Items and Vehicles:] Not everyone who wishes to travel the planes has a practiced spellcaster who is interested in joining them on the journey. Fortunately, there are a variety of magic items well suited to the task of transporting characters between planes. Some of these items are best for those who aren't particular about where on the plane they wind up, such as a cubic gate or well of many worlds. Travelers on a budget can consider using {magic-wondrous/planar keystone/s} to unerringly reach popular destinations. The wealthiest travelers can splurge for more versatile options, such as an {magic-wondrous/amulet of the planes}. They might even purchase a {magic-wondrous/flying skiff}, a vessel capable of sailing between the planes, piloted by the mere thoughts of its captain.",
+			"",
+			":HL[Planar Portals:] Planar portals join together specific portions of two different planes, allowing for travel in one or both directions. The most ephemeral of portals are those created by the {spell/gate} spell, which last for mere seconds. Slightly more durable, though often accidental, are *planar breaches,* temporary tears in the fabric of the planes that appear when a weakening of the planes coincides with a powerful magical effect, or when planes come into just the right configuration. Breaches are small, and without outside interference to keep them open, they tend to disappear within a few hours. The most stable types of planar portals are *planar tears* and *soulgates.*",
+			"",
+			"Tears to the Outer Planes litter the Material Plane. Perhaps the most famous tear in recent years is the Worldwound, a yawning gash connecting the Material Plane to the Abyss. Tears can connect to other planes as well, such as the portals to the First World that lurk deep in some forests where the fey hold considerable influence. Some planar tears, called elemental nexuses, connect locations on the Material Plane that are suffused with elemental energy to the Elemental Planes. For example, the heart of an active volcano may host a connection to the Plane of Fire, and a perpetual hurricane may hold a portal to the Plane of Water at its center.",
+			"",
+			"Soulgates are far quieter portals, and require specialized attunement or training to detect and activate. Soulgates typically connect planes with the same alignment traits, meaning that most such portals that appear on the Material Plane lead to unaligned planes like the Astral Plane or the Boneyard, but soulgates to various other planes are hidden throughout Golarion."
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"planar_adventures"
+		],
+		"siblings": [
+			"planar_terrains",
+			"planar_races",
+			"role_of_the_divine",
+			"traits_of_a_plane",
+			"building_a_planar_campaign",
+			"planar_travel",
+			"specific_demiplanes"
+		]
+	},
+	"specific_demiplanes": {
+		"name": "Specific Demiplanes",
+		"subtitle": "Planar Adventures",
+		"tags": "hao jin tapestry, cynosure, the harrowed realm, akashic record, dimension of dreams",
+		"sources": [ "Plane-Hopper's Handbook" ],
+		"description": [
+			"{SOURCE Plane-Hopper's Handbook/28}",
+			"",
+			"The Great Beyond seems unchanging, a collection of vast worlds held together in delicate balance by mystical forces. The reality, however, is that planes are malleable. The most powerful magical forces can warp and reshape planar boundaries, creating new realms altogether. These offshoots, generally originating in the Astral and Ethereal Planes, are called demiplanes. A demiplane is a discrete, unique reality, smaller than a regular plane but containing its own mysteries. Some are created by gods, some by unimaginably powerful mortals, and others by clashing planar energies.",
+			"",
+			":HL[Akashic Record:] A demiplane lying deep within the Astral Plane, the Akashic Record is an infinite library said to contain all knowledge in existence. This information is preserved in psychic form, curated and protected by the unwavering dedication of the outsiders known as {family/aeon/s}. Though this demiplane exists in the Astral Plane, it seems impossible to gain access from that realm. Instead, legends tell of explorers entering the Akashic Record through the elusive Dimension of Time. Those who find their way to the Akashic Record are said to enter a sort of reading room, where they can access a small portion of the plane's catalog under the aeons' strict supervision. In spite of these tales, there is currently no known method to access the Akashic Record. *Also see: {rule/Akashic Record}.*",
+			"",
+			":HL[Cynosure:] From Golarion, Cynosure appears as a glorious, shimmering blue star. This celestial body is not just a star, but also contains its own demiplane: the home of {faith/Desna}, goddess of stars and travelers. Desna's realm is strongly aligned with chaos and good, and those the goddess approves of can access the plane with ease. The landscape of Cynosure is lush and serene, with an eternally starry sky. The waters do not reflect the stars; instead, the pools function as portals that can be used to see through to the other side of the plane, and perhaps even for swift travel.",
+			"",
+			"Cynosure is a populous plane, home mostly to {template/petitioner/s} known as chosen dreamers, many of whom were worshipers of Desna in life. When Desna herself is home, she rules from the Sevenfold Cynosure, an ever-changing palace. Threats can arise in the form of evil dreamspawn from other planes, which Desna rewards visitors for defeating.",
+			"",
+			":HL[Dimension of Dreams:] Drifting aimlessly through the Ethereal Plane is the Dimension of Dreams, a place made up of infinite dreamscapes. Each individual enters the Dimension of Dreams naturally when she sleeps, creating a unique dreamscape just for herself. Entering another creature's dream can be achieved only by special means tailored to the Dimension of Dreams, such as the {spell/dream travel} spell. Visitors to a dreamscape can gain great power within the dream.",
+			"",
+			"Hidden at the heart of the Dimension of Dreams lie the Dreamlands, a more fixed demiplane created by the most powerful dreamers of the ancient world. The Dreamlands are considered easier to reach than individual dreamscapes and can be accessed through various occult rituals. This vast demiplane contains whole nations, though adventurers should proceed with caution: this realm is home not only to people, but also nightmarish creatures such as Elder Gods. *Also see: {rule/Dimension of Dreams}.*",
+			"",
+			":HL[Hao Jin Tapestry:] The Hao Jin Tapestry is an artifact that holds the eponymous personal demiplane of an incredibly powerful sorceress from the Dragon Empires named Hao Jin, also known as the Ruby Phoenix. She gained fame in her lifetime through battle and was given her moniker due to her mysterious ability to resurrect herself. Hao Jin created the tapestry as a museum of her favorite places on Golarion, tearing them from the Material Plane and preserving them in magically controlled environments meant to sustain these stolen cities and landscapes forever. At some point after creating the tapestry, Hao Jin disappeared, and she has not been seen there or on the Material Plane for centuries. In her absence, the magic that maintained the lands within the Hao Jin Tapestry has started to decay, creating chaotic and potentially catastrophic weather that threatens the demiplane's inhabitants.",
+			"",
+			":HL[The Harrowed Realm:] A Varisian bard named Sonnorae Imlios created the Harrowed Realm as her own demiplane where she could live forever. She crafted the demiplane out of a portion of the Dimension of Dreams, using her own {eq-misc/harrow deck}, the {magic-artifact/Deck of Harrowed Tales}, as a magical focus to build the realm upon. The magic of the Harrowed Realm eventually breathed life into the characters of Sonnorae's harrow deck, and these immortal creatures became known as the storykin. A group of eight storykin called the Conspirators grew tired of playing their preordained roles and, in a violent uprising, killed and consumed Sonnorae. The Conspirators now rule the Harrowed Realm, each with their own kingdom and a portion of Sonnorae's power. The Conspirator Zassrion, a blue dragon, controls Sonnorae's harrow deck and uses it to corrupt those who happen upon the deck on Golarion."
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"planar_adventures"
+		],
+		"siblings": [
+			"planar_terrains",
+			"planar_races",
+			"role_of_the_divine",
+			"traits_of_a_plane",
+			"building_a_planar_campaign",
+			"planar_travel",
+			"specific_demiplanes"
 		]
 	},
 	"the_first_world": {

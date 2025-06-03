@@ -2154,6 +2154,7 @@
 		],
 		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
+	"dorn_dergar": { "copyof": "dorn_dergar_dwarven" },
 	"double_spear": {
 		"name": "Double spear",
 		"sources": [ "Martial Arts Handbook" ],

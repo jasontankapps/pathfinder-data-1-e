@@ -837,6 +837,7 @@
 			"**Special Qualities and Defenses:** A half-ogre receives two random deformities, one beneficial and one disadvantageous, as per the ogrekin template."
 		]
 	},
+	"half_ogre": { "copyof": "ogrekin" },
 	"paladin": {
 		"name": "Paladin",
 		"sources": [ "Monster Codex" ],

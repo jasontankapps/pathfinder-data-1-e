@@ -563,7 +563,7 @@
 			"{SOURCE Potions and Poisons/6}",
 			"",
 			"Your venom is powerful enough to seep into the Ethereal Plane.  ",
-			"**Prerequisites:** Knowledge (religion) 9 ranks, vishkanya.  ",
+			"**Prerequisites:** Knowledge (religion) 9 ranks, {race/vishkanya}.  ",
 			"**Benefit:** For a number of rounds equal to your Constitution modifier, a weapon envenomed by your vishkanya venom gains the ghost touch special ability and deals 1d6 additional points of damage against incorporeal foes. This affects creatures even if they are immune to poison effects. If the weapon is used to attack a corporeal creature, the venom is expended and the effects it granted to your weapon end.  ",
 			"**Normal:** Vishkanya venom deals Dexterity damage."
 		]
@@ -732,7 +732,7 @@
 			"{SOURCE Plane-Hopper's Handbook/15}",
 			"",
 			"Axiomatic energies flow from the golden dust you shed, harming chaotic beings on contact.  ",
-			"**Prerequisites:** Aphorite, crystalline dust racial trait, nonchaotic alignment.  ",
+			"**Prerequisites:** {race/Aphorite}, crystalline dust racial trait, nonchaotic alignment.  ",
 			"**Benefit:** As a swift action, you can expend 1 round of your crystalline dust ability to coat up to two of your natural weapons or held manufactured weapons in a layer of crystalline dust. The weapons remain coated for 1 round and deal an additional 1d6 points of damage to creatures with the chaotic subtype. This extra damage does not stack with other features that add alignment-based damage to weapons, such as the {magic-enh/axiomatic} weapon special ability."
 		]
 	},
@@ -851,7 +851,7 @@
 			"{SOURCE Monster Codex/152}",
 			"",
 			"Some ogres are able to quickly choke down even the largest of meals so they can get on with other business.  ",
-			"**Prerequisites:** Both {feat/Improved Unarmed Strike} and {feat/Improved Grapple} or the grab ability, ogre, size Large or larger.  ",
+			"**Prerequisites:** Both {feat/Improved Unarmed Strike} and {feat/Improved Grapple} or the {umr/grab} ability, {monster/ogre}, size Large or larger.  ",
 			"**Benefit:** If you start your turn grappling another creature at least two size categories smaller than you, you can put the grappled creature in your mouth as a move action and attempt another grapple combat maneuver check (as though attempting to pin the opponent). If you succeed, you swallow the opponent as if you had the swallow whole special ability."
 		]
 	},
@@ -1472,7 +1472,7 @@
 			"{SOURCE Monster Codex/224}",
 			"",
 			"You use your teeth and claws to rip your foes to shreds.  ",
-			"**Prerequisites:** Bite attack, rend, troll.  ",
+			"**Prerequisites:** Bite attack, {umr/rend}, {monster/troll}.  ",
 			"**Benefit:** If you are able to use your rend ability on the same turn that you also succeed at a bite attack, your rend deals an amount of additional damage equal to half your Strength modifier."
 		]
 	},
@@ -2018,7 +2018,7 @@
 			"{SOURCE Ultimate Combat/103}",
 			"",
 			"When your claws latch on to an opponent, the effect is bloody and horrific.  ",
-			"**Prerequisites:** {feat/Improved Rending Fury}, {feat/Rending Fury}, base attack bonus +12, rend special attack.  ",
+			"**Prerequisites:** {feat/Improved Rending Fury}, {feat/Rending Fury}, base attack bonus +12, {umr/rend} special attack.  ",
 			"**Benefit:** Whenever you rend an opponent, you deal 1d6 bleed damage to that opponent. This is an addition to the effects of the rend.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -3345,7 +3345,7 @@
 			"{SOURCE Pathfinder #91: Battle of Bloodmarch Hills/69}",
 			"",
 			"When you perform an awesome throw, you knock opponents back farther.  ",
-			"**Prerequisites:** Str 25, {feat/Awesome Throw}, {feat/Greater Bull Rush}, {feat/Throw Anything} or rock throwing, size Large or larger.  ",
+			"**Prerequisites:** Str 25, {feat/Awesome Throw}, {feat/Greater Bull Rush}, {feat/Throw Anything} or {umr/rock throwing}, size Large or larger.  ",
 			"**Benefit:** When you make an awesome throw combat maneuver, for every 5 by which your combat maneuver check exceeds the target's CMD, you send the target flying 5 additional feet. Furthermore, this movement provokes attacks of opportunity from your allies."
 		]
 	},
@@ -4582,8 +4582,8 @@
 			"{SOURCE Demons Revisited/32}",
 			"",
 			"Your ability to possess bodies is more powerful.  ",
-			"**Prerequisites:** {feat/Demonic Possession} or shadow demon, Cha 25  ",
-			"**Benefit:** The duration of your magic jar spell-like ability increases to 24 hours. You can choose to activate a host body's extraordinary abilities, supernatural abilities, spell-like abilities, and spells known or prepared."
+			"**Prerequisites:** {feat/Demonic Possession} or {monster/shadow demon}, Cha 25  ",
+			"**Benefit:** The duration of your {spell/magic jar} spell-like ability increases to 24 hours. You can choose to activate a host body's extraordinary abilities, supernatural abilities, spell-like abilities, and spells known or prepared."
 		]
 	},
 	"improved_precise_shot": {
@@ -4646,7 +4646,7 @@
 			"{SOURCE Ultimate Combat/105}",
 			"",
 			"Honing the deadliness of your claws, you are a living hurricane of rending fury.  ",
-			"**Prerequisites:** {feat/Rending Fury}, base attack bonus +9, rend special attack.  ",
+			"**Prerequisites:** {feat/Rending Fury}, base attack bonus +9, {umr/rend} special attack.  ",
 			"**Benefit:** Whenever you successfully rend an opponent, you deal an extra 1d6 damage. This damage is not multiplied on a critical hit.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
