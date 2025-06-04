@@ -370,6 +370,7 @@
 		],
 		"topLink": [ "Hunter", "class/hunter" ]
 	},
+	"animal_focus": { "copyof": "animal_foci" },
 	"annointings": {
 		"name": "Annointings",
 		"sources": [ "Arcane Anthology" ],
@@ -428,6 +429,7 @@
 		},
 		"topLink": [ "Wizard", "class/wizard" ]
 	},
+	"arcane_discovery": { "copyof": "arcane_discoveries" },
 	"arcane_schools": {
 		"name": "Arcane Schools",
 		"sources": [
@@ -1299,5 +1301,6 @@
 			]
 		},
 		"topLink": [ "Alchemist", "class/alchemist" ]
-	}
+	},
+	"discovery": { "copyof": "discoveries" }
 }

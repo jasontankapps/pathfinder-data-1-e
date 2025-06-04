@@ -115,7 +115,7 @@
 			"{SOURCE Advanced Race Guide/105}",
 			"",
 			"Your ascension is complete; you have the spell resistance approaching that of a demon.  ",
-			"**Prerequisites:** Cha 13, Wis 13, {feat/Greater Drow Nobility}, character level 13th, drow.  ",
+			"**Prerequisites:** Cha 13, Wis 13, {feat/Greater Drow Nobility}, character level 13th, {race/drow}.  ",
 			"**Benefit:** Your spell resistance is equal to 11 + your character level.  ",
 			"**Special:** You receive a +1 circumstance bonus on Diplomacy and Intimidate checks made against any drow."
 		]
@@ -472,7 +472,7 @@
 			"{SOURCE Kobolds of Golarion/25}",
 			"",
 			"The purity you have found in the teachings of good dragonkind colors your scales and grants you confidence.  ",
-			"**Prerequisites:** Good alignment, kobold.  ",
+			"**Prerequisites:** Good alignment, {race/kobold}.  ",
 			"**Benefit:** Your scales take on a metallic sheen appropriate for that of a good-aligned metallic dragon who shares any existing energy affinity you possess, or whom you have chosen to emulate. You gain a +2 circumstance bonus on Diplomacy checks when interacting with good creatures.",
 			"",
 			"In addition, your Charisma is considered 2 points higher for the purposes of channeling positive energy."
@@ -2110,7 +2110,7 @@
 			"{SOURCE Kobolds of Golarion/25}",
 			"",
 			"Your draconic heritage manifests as divine power.  ",
-			"**Prerequisites:** Ability to spontaneously cast divine spells, kobold.  ",
+			"**Prerequisites:** Ability to spontaneously cast divine spells, {race/kobold}.  ",
 			"**Benefit:** You gain a +1 bonus to your caster level when casting spells included in the dragon domain or subdomains. Your spontaneous divine spellcasting qualifies in place of arcane casting for the dragon disciple prestige class, and you may increase spellcasting in your spontaneous divine class as you progress in dragon disciple levels. Add the bonus spells gained from the blood of dragons ability to those you can cast as divine spells."
 		]
 	},
@@ -3420,7 +3420,7 @@
 			"{SOURCE Monster Codex/9}",
 			"",
 			"The terrifying force of your croak disorients and debilitates your enemies.  ",
-			"**Prerequisites:** {feat/Sonic Croak}, {feat/Throat Pouch}, boggard, terrifying croak.  ",
+			"**Prerequisites:** {feat/Sonic Croak}, {feat/Throat Pouch}, {monster/boggard}, terrifying croak.  ",
 			"**Benefit:** When you use your terrifying croak ability, instead of imparting its normal effect you can choose to stun one creature within 30 feet for 1 round. If the target succeeds at a Fortitude save, it is instead staggered for 1 round. The DC of this Fortitude save is the same as that of your terrifying croak ability."
 		]
 	},
@@ -4261,7 +4261,7 @@
 			"{SOURCE Blood of Shadows/15}",
 			"",
 			"You were trained from youth to infiltrate and ambush aboveground settlements.  ",
-			"**Prerequisites:** Drow, spell-like abilities drow racial trait.  ",
+			"**Prerequisites:** {race/Drow}, spell-like abilities drow racial trait.  ",
 			"**Benefit:** You can use {spell/fear the sun} and {spell/ignoble form} each once per day as a spell-like ability. Your caster level is equal to your character level."
 		]
 	},
@@ -4835,7 +4835,7 @@
 			"{SOURCE Advanced Race Guide/137}",
 			"",
 			"You have strengthened your tail enough to make slap attacks with it.  ",
-			"**Prerequisites:** Base attack bonus +1, kobold.  ",
+			"**Prerequisites:** Base attack bonus +1, {race/kobold}.  ",
 			"**Benefit:** You can make a tail slap attack with your tail. This is a secondary natural attack that deals 1d4 points of bludgeoning damage. Furthermore, you can augment your tail slap attack with a kobold tail attachment. For the purpose of weapon feats, you are considered proficient with all kobold tail attachments.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",

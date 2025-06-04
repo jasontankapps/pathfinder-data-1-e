@@ -255,7 +255,7 @@
 			"{SOURCE Inner Sea Races/209}",
 			"",
 			"Your innate magical darkness seeps through your skin and strengthens when you're near another creature whose soul is as wicked as yours.  ",
-			"**Prerequisites:** Drow, darkness racial spell-like ability.  ",
+			"**Prerequisites:** {race/Drow}, darkness racial spell-like ability.  ",
 			"**Benefit:** Whenever you're adjacent to a drow ally who also has this feat, you can spend a move action to gain concealment (20% miss chance) for 1 round."
 		]
 	},
@@ -607,7 +607,7 @@
 			"{SOURCE Advanced Race Guide/105}",
 			"",
 			"Your command over shadow and darkness create longer-lasting spell effects.  ",
-			"**Prerequisites:** Caster level 1st, drow.  ",
+			"**Prerequisites:** Caster level 1st, {race/drow}.  ",
 			"**Benefit:** When you cast spells of the shadow subschool or spells with the darkness or shadow descriptor, you are considered two levels higher when determining the duration of those spells."
 		]
 	},
@@ -906,7 +906,7 @@
 			"A familiar is more than just an animal. It's a spirit and an intelligence, and your familiar can choose to take more than one physical form.  ",
 			"**Prerequisites:** Familiar class feature, caster level 7th.  ",
 			"**Benefit:** Your familiar gains the {umr/change shape} universal monster ability. This ability functions as {spell/beast shape II} and grants access to a single alternate form, which must be the same size as the familiar. Once chosen, this form cannot be changed.  ",
-			"**Special:** You can gain this feat multiple times. Each time you take this feat, your familiar gains an additional alternate form. If taken by a familiar that already has the {umr/change shape/ universal monster ability} (like an {monster/imp}), this grants a single additional form."
+			"**Special:** You can gain this feat multiple times. Each time you take this feat, your familiar gains an additional alternate form. If taken by a familiar that already has the {umr/change shape} universal monster ability (like an {monster/imp}), this grants a single additional form."
 		]
 	},
 	"shapeshifter_foil": {
@@ -2325,7 +2325,7 @@
 			"{SOURCE Inner Sea Monster Codex/59}",
 			"",
 			"You can empower yourself by drawing blood through your rhoka sword.  ",
-			"**Prerequisites:** {feat/Voracious Blade}, base attack bonus +8, urdefhan.  ",
+			"**Prerequisites:** {feat/Voracious Blade}, base attack bonus +8, {monster/urdefhan}.  ",
 			"**Benefit:** When you use the Voracious Blade feat to deal Strength damage with your rhoka sword, you also drain the victim's blood. The attack deals 1 point of bleed damage in addition to its normal damage, and you gain fast healing 2 for 3 rounds. You can use this ability only once against an individual creature in a 24-hour period."
 		]
 	},
@@ -2403,7 +2403,7 @@
 			"{SOURCE Inner Sea Monster Codex/59}",
 			"",
 			"You are bonded with a terrifying undead mount created through foul daemonic rites.  ",
-			"**Prerequisites:** 7th level in a class that grants an animal companion or mount, urdefhan.  ",
+			"**Prerequisites:** 7th level in a class that grants an animal companion or mount, {monster/urdefhan}.  ",
 			"**Benefit:** In place of the animal companion or mount granted by your class feature, you are bonded with a skaveling. Though less intelligent than others of its kind and lacking the ability to paralyze and infect victims with its bite, the beast serves you unerringly.",
 			"",
 			"### Bat, Skaveling",
@@ -2781,7 +2781,7 @@
 			"{SOURCE Monster Codex/129}",
 			"",
 			"You are skilled at riding slurks into battle.  ",
-			"**Prerequisites:** Kobold.  ",
+			"**Prerequisites:** {race/Kobold}.  ",
 			"**Benefit:** You are able to control, guide, and communicate with slurks, as if they understood Draconic. You can also spend a standard action to manipulate the nodules on the slurk's back to activate its slime ability. Both you and the slurk can activate this ability during the same round."
 		]
 	},
@@ -3371,7 +3371,7 @@
 			"{SOURCE Monster Codex/8}",
 			"",
 			"Your croak creates powerful sound waves that you can direct at {misc/fragile} targets.  ",
-			"**Prerequisites:** {feat/Throat Pouch}, boggard, terrifying croak.  ",
+			"**Prerequisites:** {feat/Throat Pouch}, {monster/boggard}, terrifying croak.  ",
 			"**Benefit:** When you use your terrifying croak ability, instead of it imparting its normal effect, you can choose to deal 1d4 points of sonic damage to creatures in a 15-foot cone (Fortitude half). The DC of this Fortitude save is the same as that of your terrifying croak. For every 3 Hit Dice you possess, the damage dealt increases by 1d4.  ",
 			"**Special:** The Throat Pouch feat increases the size of this feat's cone by 5 feet for every 6 HD you have, not every 2 HD."
 		]
@@ -3969,7 +3969,7 @@
 			"{SOURCE Advanced Race Guide/106}",
 			"",
 			"You tread where only arachnids dare.  ",
-			"**Prerequisites:** Character level 3rd, drow.  ",
+			"**Prerequisites:** Character level 3rd, {race/drow}.  ",
 			"**Benefit:** You can cast {spell/spider climb} once per day as a spell-like ability, using your character level as the caster level. Furthermore, you gain a +4 bonus on saving throws against the web special attacks of spiders and the effects of web and other similar spells (such as the {spell/web cloud} spell)."
 		]
 	},
@@ -3995,7 +3995,7 @@
 			"{SOURCE Advanced Race Guide/106}",
 			"",
 			"You gain the ability to summon powerful spiders.  ",
-			"**Prerequisites:** Ability to cast summon monster or summon nature's ally spells, drow.  ",
+			"**Prerequisites:** Ability to cast summon monster or summon nature's ally spells, {race/drow}.  ",
 			"**Benefit:** When casting either a summon monster spell or a summon nature's ally spell, your options increase. Depending on the level of the spell, you can summon the spiders listed below.",
 			"",
 			">*Summon Monster:* 1st level-giant crab spider\\*; 4th level-giant black widow\\*; 5th level-ogre spider\\*; 7th level-giant tarantula\\*",

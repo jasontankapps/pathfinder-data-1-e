@@ -2049,7 +2049,7 @@
 			"",
 			"Many familiars are able to turn into other animals, but a few familiars have greater talents, and can transform into humanoid bodies of their own.  ",
 			"**Prerequisites:** {ability/Familiar>s} class feature, caster level 9th, your {sidekick/familiar} must have the change shape universal monster ability.  ",
-			"**Benefit:** Your familiar's {umr/change shape/ universal monster ability} can function as {spell/alter self}, and it gains a single alternate form of either Small or Medium size. This form is of a child or teenager of its master's species, and once chosen cannot be changed. Such changeling familiars always bear some kind of visible mark of their original nature, such as a cat's eyes, a serpent's tongue, or small demonic horns. The changeling familiar does not gain any new languages with this transformation, so changeling familiars are often mute."
+			"**Benefit:** Your familiar's {umr/change shape} universal monster ability can function as {spell/alter self}, and it gains a single alternate form of either Small or Medium size. This form is of a child or teenager of its master's species, and once chosen cannot be changed. Such changeling familiars always bear some kind of visible mark of their original nature, such as a cat's eyes, a serpent's tongue, or small demonic horns. The changeling familiar does not gain any new languages with this transformation, so changeling familiars are often mute."
 		]
 	},
 	"channel_deific_essence": {
@@ -3560,22 +3560,22 @@
 			"::h3[Abadar's Crossbow]{jl}",
 			"",
 			"{faith/Abadar} teaches complex crossbow techniques.[^A]  ",
-			"**Initial Benefit:** You can attempt a ranged steal combat maneuver check with a crossbow, using your Dexterity modifier in place of your Strength modifier to calculate your Combat Maneuver Bonus. If you succeed, the stolen item is knocked away by the bolt; if the bolt can pierce any part of the item and the item weighs 2 pounds or less, the bolt continues past the creature and carries the item up to one range increment away, pinning it to whatever surface it lands on.  ",
-			"**Advanced Prerequisites:** Rapid Reload, base attack bonus +10.  ",
-			"**Advanced Benefit:** When fighting a foe adjacent to a firm surface, you can attempt a ranged dirty trick combat maneuver check with a crossbow, using your Dexterity modifier in place of your Strength modifier to calculate your Combat Maneuver Bonus. If you succeed, your bolt pins the target's clothing (or feathers, hide, or the like) to the surface, preventing the target from leaving that space until it breaks free by destroying the bolt or removing it with a successful Strength check (DC = the result of your combat maneuver check to pin it).",
+			"**Initial Benefit:** You can attempt a ranged {rule/steal} combat maneuver check with a crossbow, using your Dexterity modifier in place of your Strength modifier to calculate your Combat Maneuver Bonus. If you succeed, the stolen item is knocked away by the bolt; if the bolt can pierce any part of the item and the item weighs 2 pounds or less, the bolt continues past the creature and carries the item up to one range increment away, pinning it to whatever surface it lands on.  ",
+			"**Advanced Prerequisites:** {feat/Rapid Reload}, base attack bonus +10.  ",
+			"**Advanced Benefit:** When fighting a foe adjacent to a firm surface, you can attempt a ranged {rule/dirty trick} combat maneuver check with a crossbow, using your Dexterity modifier in place of your Strength modifier to calculate your Combat Maneuver Bonus. If you succeed, your bolt pins the target's clothing (or feathers, hide, or the like) to the surface, preventing the target from leaving that space until it breaks free by destroying the bolt or removing it with a successful Strength check (DC = the result of your combat maneuver check to pin it).",
 			"",
 			"::h3[Asmodeus's Mandate]{jl}",
 			"",
 			"Although soldiers and mercenaries alike in Cheliax claim that the martial techniques detailed within Wrath and Punishment, the most well-known fighting manual of the Church of {faith/Asmodeus}, are as old as time itself, martial experts across the Inner Sea region note that Wrath and Punishment is less than 3 decades old. Of course, few in Cheliax dare to publicly make such claims. Outside of Cheliax, copies of Wrath and Punishment tend to be found in [Hellknight](rule/aff_lawknights) enclaves.[^B]  ",
-			"**Initial Benefit:** Whenever you threaten a critical hit with a light mace or heavy mace on a foe, that foe becomes sickened for 1 round. If you confirm the critical hit, the sickened effect lasts for 2 rounds. The duration of the sickened effect doesn't stack with multiple critical threats.  ",
+			"**Initial Benefit:** Whenever you threaten a critical hit with a {eq-weapon/light mace} or {eq-weapon/heavy mace} on a foe, that foe becomes {misc/sickened} for 1 round. If you confirm the critical hit, the sickened effect lasts for 2 rounds. The duration of the sickened effect doesn't stack with multiple critical threats.  ",
 			"**Advanced Prerequisites:** Int 13; {feat/Combat Expertise}; {feat/Divine Fighting Technique}; {feat/Improved Feint}; base attack bonus +10 or Bluff 10 ranks.  ",
-			"**Advanced Benefit:** An opponent that you hit with a light mace or heavy mace who is denied his Dexterity bonus to AC is also hindered by the attack. You can attempt a dirty trick combat maneuver check as a swift action that doesn't provoke an attack of opportunity immediately after damage from the attack is resolved.",
+			"**Advanced Benefit:** An opponent that you hit with a light mace or heavy mace who is denied his Dexterity bonus to AC is also hindered by the attack. You can attempt a {rule/dirty trick} combat maneuver check as a swift action that doesn't provoke an attack of opportunity immediately after damage from the attack is resolved.",
 			"",
 			"::h3[Calistria's Poisoned Lash]{jl}",
 			"",
 			"{faith/Calistria} inspires creative ways to poison foes.[^A]  ",
-			"**Optional Replacement:** A chaotic neutral rogue or slayer who worships Calistria can replace one talent with the following initial benefit.  ",
-			"**Initial Benefit:** You can apply poison (your choice) to a whip as a move action. You do not risk poisoning yourself when applying poison to a whip. A whip you wield can deliver contact poison upon a successful combat maneuver check as well as upon a successful attack roll, regardless of whether you deal damage.  ",
+			"**Optional Replacement:** A chaotic neutral {class/rogue} or {class/slayer} who worships Calistria can replace one talent with the following initial benefit.  ",
+			"**Initial Benefit:** You can apply poison (your choice) to a {eq-weapon/whip} as a move action. You do not risk poisoning yourself when applying poison to a whip. A whip you wield can deliver contact poison upon a successful combat maneuver check as well as upon a successful attack roll, regardless of whether you deal damage.  ",
 			"**Advanced Prerequisites:** {feat/Whip Mastery}, base attack bonus +10.  ",
 			"**Optional Replacement:** A chaotic neutral rogue or slayer who worships Calistria can replace one advanced talent with the following advanced benefit even if she doesn't meet the prerequisites.  ",
 			"**Advanced Benefit:** You can apply poison to a whip as a swift action. You can apply up to 3 doses of the same poison to a whip at a time. Foes are exposed to only 1 dose of poison from any one attack.",
@@ -3583,8 +3583,8 @@
 			"::h3[Cayden Cailean's Blade and Tankard]{jl}",
 			"",
 			"{faith/Cayden Cailean} is famous for wading into battle with a tankard in his off hand.[^C]  ",
-			"**Optional Replacement:** A chaotic good fighter or swashbuckler who worships Cayden Cailean can replace proficiency with shields or bucklers with the following initial benefit.  ",
-			"**Initial Benefit:** You can wield a tankard (or mug) as a weapon, treating it in all ways as a light mace appropriate for your size. If you engage in two-weapon fighting with a rapier or light weapon in one hand and a tankard in the other, you can drink a potion or other liquid from the tankard or attempt to toss liquid from the tankard as a dirty trick combat maneuver (such as to blind a foe) in place of attacking with it. You do not provoke attacks of opportunity for attempting a dirty trick maneuver with a tankard.  ",
+			"**Optional Replacement:** A chaotic good {class/fighter} or {class/swashbuckler} who worships Cayden Cailean can replace proficiency with shields or bucklers with the following initial benefit.  ",
+			"**Initial Benefit:** You can wield a tankard (or mug) as a weapon, treating it in all ways as a {eq-weapon/light mace} appropriate for your size. If you engage in {rule/two-weapon fighting} with a {eq-weapon/rapier} or light weapon in one hand and a tankard in the other, you can drink a potion or other liquid from the tankard or attempt to toss liquid from the tankard as a {rule/dirty trick} combat maneuver (such as to blind a foe) in place of attacking with it. You do not provoke attacks of opportunity for attempting a dirty trick maneuver with a tankard.  ",
 			"**Advanced Prerequisites:** {feat/Two-Weapon Fighting}, {feat/Improved Two-Weapon Fighting}, base attack bonus +10.  ",
 			"**Optional Replacement:** A chaotic good fighter or swashbuckler of at least 10th level who worships Cayden Cailean can replace a bonus feat or deed with the following advanced benefit, even if he doesn't meet the prerequisites.  ",
 			"**Advanced Benefit:** You can refill your tankard with a beverage, potion, or other liquid from a bottle or vial as a swift action. You gain a +2 bonus on combat maneuver checks to perform dirty tricks with tankards. The effects of such a dirty trick lasts for 1d4 rounds + 1 round for every 5 points by which the result of your combat maneuver check exceeds the target's CMD; a standard action is required for the target to remove this penalty.",
@@ -3592,17 +3592,17 @@
 			"::h3[Desna's Shooting Star]{jl}",
 			"",
 			"Among the divine fighting manuals of the Inner Sea, few are as ancient as Clamor of the Spheres, a collection of fighting techniques favored by {faith/Desna/'s} faithful. True to its name, the manual focuses on interpreting the chaos and sounds of combat, but nevertheless provides insightful and downright brilliant methods of defense with Desna's favored weapon, using techniques that treat a fight with a starknife more as a beautiful dance than a battle.[^B]  ",
-			"**Optional Replacement:** A chaotic good bard of at least 2nd level who worships Desna can replace a versatile performance with the following initial benefit.  ",
-			"**Initial Benefit:** You can add your Charisma bonus to attack rolls and damage rolls when wielding a starknife. If you do so, you don't modify attack rolls and damage rolls with your starknife with your Strength modifier, your Dexterity modifier (if you have {feat/Weapon Finesse}), or any other ability score (if you have an ability that allows you to modify attack rolls and damage rolls with that ability score).  ",
+			"**Optional Replacement:** A chaotic good {class/bard} of at least 2nd level who worships Desna can replace a versatile performance with the following initial benefit.  ",
+			"**Initial Benefit:** You can add your Charisma bonus to attack rolls and damage rolls when wielding a {eq-weapon/starknife}. If you do so, you don't modify attack rolls and damage rolls with your starknife with your Strength modifier, your Dexterity modifier (if you have {feat/Weapon Finesse}), or any other ability score (if you have an ability that allows you to modify attack rolls and damage rolls with that ability score).  ",
 			"**Advanced Prerequisites:** Dex 17; {feat/Divine Fighting Technique}; {feat/Point-Blank Shot}; {feat/Rapid Shot}; base attack bonus +11 or Sleight of Hand 11 ranks.  ",
 			"**Optional Replacement:** A chaotic good bard of at least 10th level who worships Desna can replace a versatile performance with the following advanced benefit without meeting its prerequisites.  ",
-			"**Advanced Benefit:** You can impart a powerful spin to a thrown starknife so that multiple blades strike the target rather than just a single blade of the four, dealing extra damage with the other blades. As a full-round action, you can make a single attack with a thrown starknife, rolling 1d4 to determine how many effective strikes you gain with the attack (if you roll a 1, then only one blade strikes). If the attack hits, all of the effective strikes damage the target. Apply precision-based damage (such as sneak attack damage) and critical hit damage only once for this attack. The damage bonus from your appropriate ability score modifier applies to each strike, as do other damage bonuses, such as a bard's inspire competence bonus. Damage reduction and resistances apply separately to each strike.",
+			"**Advanced Benefit:** You can impart a powerful spin to a thrown starknife so that multiple blades strike the target rather than just a single blade of the four, dealing extra damage with the other blades. As a full-round action, you can make a single attack with a thrown starknife, rolling 1d4 to determine how many effective strikes you gain with the attack (if you roll a 1, then only one blade strikes). If the attack hits, all of the effective strikes damage the target. Apply precision-based damage (such as {ability/sneak attack} damage) and critical hit damage only once for this attack. The damage bonus from your appropriate ability score modifier applies to each strike, as do other damage bonuses, such as a bard's {performance/inspire competence} bonus. Damage reduction and resistances apply separately to each strike.",
 			"",
 			"::h3[Erastil's Distracting Shot]{jl}",
 			"",
 			"Sometimes used as a companion piece to the Parables of Erastil, the lesser-known Horns of the Elk is a manual completely dedicated to archery. Lacking the folktales that the Parables are celebrated for, the Horns of the Elk instead focuses on covering a wide array of beginner and advanced archery tactics. A copy of the manual can be found virtually anywhere a shrine to {faith/Erastil} exists.[^D]  ",
-			"**Optional Replacement:** A lawful good ranger who worships Erastil can choose Divine Fighting Technique as the bonus feat granted by his combat style if he chooses archery as his combat style.  ",
-			"**Initial Benefit:** As a standard action, you can fire a distracting shot from your longbow or shortbow; when you do, select one ally who is adjacent to the creature you are targeting with the distracting shot. If you hit the creature, the chosen ally gains a +2 bonus to her Armor Class against that creature. This bonus to her Armor Class lasts until the start of your next turn.  ",
+			"**Optional Replacement:** A lawful good {class/ranger} who worships Erastil can choose Divine Fighting Technique as the bonus feat granted by his combat style if he chooses archery as his combat style.  ",
+			"**Initial Benefit:** As a standard action, you can fire a distracting shot from your {eq-weapon/longbow} or {eq-weapon/shortbow}; when you do, select one ally who is adjacent to the creature you are targeting with the distracting shot. If you hit the creature, the chosen ally gains a +2 bonus to her Armor Class against that creature. This bonus to her Armor Class lasts until the start of your next turn.  ",
 			"**Advanced Prerequisites:** Dex 17, Divine Fighting Technique, {feat/Point-Blank Shot}, {feat/Precise Shot}, base attack bonus +10.  ",
 			"**Optional Replacement:** A lawful good ranger who worships Erastil and has the Divine Fighting Technique feat can replace the bonus feat granted by his combat style at 10th level with the following advanced benefit without meeting its prerequisites.  ",
 			"**Advanced Benefit:** When you fire a distracting shot at a creature and hit the creature, you grant a +4 Armor Class bonus to the selected adjacent ally and a +2 Armor Class bonus to all other allies within 30 feet of the selected adjacent ally against attacks by the targeted creature.",
@@ -3610,8 +3610,8 @@
 			"::h3[Gorum's Swordmanship]{jl}",
 			"",
 			"{faith/Gorum} teaches devastating greatsword techniques.[^C]  ",
-			"**Optional Replacement:** A chaotic neutral barbarian or fighter who worships Gorum can replace a bonus feat or rage power with the following initial benefit.  ",
-			"**Initial Benefit:** If you have the {feat/Vital Strike} feat, you can apply its effect to an attack you make with a greatsword at the end of a charge. If you don't have the Vital Strike feat, that attack deals 1 additional point of damage instead. The first time you make an attack of opportunity with a greatsword after using Vital Strike with a greatsword on your turn, you can apply Vital Strike to that attack of opportunity.  ",
+			"**Optional Replacement:** A chaotic neutral {class/barbarian} or {class/fighter} who worships Gorum can replace a bonus feat or rage power with the following initial benefit.  ",
+			"**Initial Benefit:** If you have the {feat/Vital Strike} feat, you can apply its effect to an attack you make with a {eq-weapon/greatsword} at the end of a charge. If you don't have the Vital Strike feat, that attack deals 1 additional point of damage instead. The first time you make an attack of opportunity with a greatsword after using Vital Strike with a greatsword on your turn, you can apply Vital Strike to that attack of opportunity.  ",
 			"**Advanced Prerequisites:** Str 13, {feat/Cleave}, {feat/Power Attack}, {feat/Vital Strike}, base attack bonus +10.  ",
 			"**Optional Replacement:** A chaotic neutral barbarian or fighter of at least 10th level who worships Gorum can replace a bonus feat or rage power with the following advanced benefit, even if she doesn't meet the prerequisites.  ",
 			"**Advanced Benefit:** When you use Vital Strike, {feat/Improved Vital Strike}, or {feat/Greater Vital Strike} with a greatsword, the damage counts as continuous damage from an injury for the purpose of determining whether a target must attempt a {rule/concentration} check to cast spells.",
@@ -3619,8 +3619,8 @@
 			"::h3[Irori's Perfected Fist]{jl}",
 			"",
 			"Practically synonymous with {faith/Irori} and his faith, The Woven Fist is among the best known of all diving fighting manuals. Many learned monks were taught their first martial techniques using drills and regiments from this manual, which some claim was written by Irori's own hand before his ascension to divinity. Although most commonly found in temples to Irori and secluded monasteries, copies of The Woven Fist often make their way into less scrupulous hands because of their effectiveness.[^D]  ",
-			"**Optional Replacement:** A lawful neutral brawler or monk can replace a bonus feat with the following initial benefit.  ",
-			"**Initial Benefit:** You can take a -2 penalty on all attack rolls made with your unarmed strikes in order to deal the average amount of damage with each successful attack instead of rolling your weapon damage. For instance, if your unarmed strike would normally deal 1d4 points of weapon damage, you instead deal 2 points of weapon damage. Apply bonuses and modifiers to this result as if you had rolled your damage normally. You must choose to use this benefit before making an attack roll, and its effects last until your next turn. You do not average additional damage dice (such as those granted by a sneak attack) when using this ability.  ",
+			"**Optional Replacement:** A lawful neutral {class/brawler} or {class/monk} can replace a bonus feat with the following initial benefit.  ",
+			"**Initial Benefit:** You can take a -2 penalty on all attack rolls made with your unarmed strikes in order to deal the average amount of damage with each successful attack instead of rolling your weapon damage. For instance, if your unarmed strike would normally deal 1d4 points of weapon damage, you instead deal 2 points of weapon damage. Apply bonuses and modifiers to this result as if you had rolled your damage normally. You must choose to use this benefit before making an attack roll, and its effects last until your next turn. You do not average additional damage dice (such as those granted by a {ability/sneak attack}) when using this ability.  ",
 			"**Advanced Prerequisites:** {feat/Critical Focus}; Divine Fighting Technique; {feat/Weapon Focus} (unarmed strike); base attack bonus +10 or monk level 10th.  ",
 			"**Optional Replacement:** A lawful neutral brawler or monk of at least 10th level who worships Irori and has the Divine Fighting Technique feat can replace a bonus feat with the following advanced benefit without meeting its prerequisites.  ",
 			"**Advanced Benefit:** You no longer take a -2 penalty on attack rolls with your unarmed strikes when you choose to deal the average amount of damage. If you critically hit a creature when using this ability, you automatically inflict maximum weapon damage for that critical hit (although you must still roll sneak attack dice or any other dice-based additional damage).",
@@ -3628,45 +3628,45 @@
 			"::h3[Lamashtu's Carving]{jl}",
 			"",
 			"One of the grisliest divine fighting manuals is Fecundity of Corpses, a harrowing tome that depicts the fighting styles favored by the followers of {faith/Lamashtu}, the Mother of Monsters. In addition to detailing many of the more gruesome rites favored by the Demon Queen, Fecundity of Corpses includes hundreds of techniques recorded in blood by cultists of Lamashtu from across the Inner Sea region. Though no standardized edition of this manual exists because of the cult's discordant hierarchy, each tome manages to perfectly capture similar techniques for sowing fear and blood in Lamashtu's name.[^D]  ",
-			"**Initial Benefit:** As a standard action, you can make a single attack with a falchion or a kukri in order to deal bleed damage to the target. When you make this attack, you do not apply your ability modifier (normally Strength, but potentially other modifiers) to the hit point damage dealt by your attack - instead, add an amount of bleed damage equal to this modifier. The bleeding can be stopped by a successful DC 15 Heal check or any amount of magical healing. Bleed damage from this benefit doesn't stack with itself.  ",
-			"**Advanced Prerequisites:** Str 13, Dazing Assault, Divine Fighting Technique, {feat/Power Attack}.  ",
-			"**Advanced Benefit:** Whenever you hit a bleeding creature with a melee attack using a falchion or a kukri, that creature must succeed at a Fortitude save (DC = 10 + your base attack bonus) or become staggered for 1 round. Multiple attacks do not cause this condition to stack, and a creature that successfully saves against this staggering effect is immune to this effect for 1 round.",
+			"**Initial Benefit:** As a standard action, you can make a single attack with a {eq-weapon/falchion} or a {eq-weapon/kukri} in order to deal {rule/bleed} damage to the target. When you make this attack, you do not apply your ability modifier (normally Strength, but potentially other modifiers) to the hit point damage dealt by your attack - instead, add an amount of bleed damage equal to this modifier. The bleeding can be stopped by a successful DC 15 Heal check or any amount of magical healing. Bleed damage from this benefit doesn't stack with itself.  ",
+			"**Advanced Prerequisites:** Str 13, {feat/Dazing Assault}, Divine Fighting Technique, {feat/Power Attack}.  ",
+			"**Advanced Benefit:** Whenever you hit a bleeding creature with a melee attack using a falchion or a kukri, that creature must succeed at a Fortitude save (DC = 10 + your base attack bonus) or become {misc/staggered} for 1 round. Multiple attacks do not cause this condition to stack, and a creature that successfully saves against this staggering effect is immune to this effect for 1 round.",
 			"",
 			"::h3[Rovagug's Thunder]{jl}",
 			"",
 			"Most copies of Ravage and Ruin, the divine fighting manual of the Rough Beast {faith/Rovagug}, are scrawled in blood upon flensed skins by orc priests - and indeed the vile techniques described within originated from the Hold of Belkzen not long after the orcs first seized that land as their own. Reviled across the Inner Sea, Ravage and Ruin sees additional use among savage Ulfen clans who have fallen to the Rough Beast's urges to become corrupt, lunatic cannibals who relish despoiling beauty in Rovagug's name.[^E]  ",
-			"**Initial Benefit:** Whenever you succeed at a dirty trick combat maneuver check against an opponent, you deal an amount of nonlethal damage equal to 1d6 + your Charisma modifier. In addition, whenever your dirty trick combat maneuver check beats an opponent's CMD by 5 or more, you can forgo increasing the duration of your condition by 1 or more rounds to instead impose a -2 penalty on all of that opponent's Charisma-based checks. This penalty doesn't stack with itself, and it lasts for a number of minutes equal to your Charisma modifier (minimum of 1 minute) or until the target receives any form of magical healing.  ",
+			"**Initial Benefit:** Whenever you succeed at a {rule/dirty trick} combat maneuver check against an opponent, you deal an amount of nonlethal damage equal to 1d6 + your Charisma modifier. In addition, whenever your dirty trick combat maneuver check beats an opponent's CMD by 5 or more, you can forgo increasing the duration of your condition by 1 or more rounds to instead impose a -2 penalty on all of that opponent's Charisma-based checks. This penalty doesn't stack with itself, and it lasts for a number of minutes equal to your Charisma modifier (minimum of 1 minute) or until the target receives any form of magical healing.  ",
 			"**Advanced Prerequisites:** {feat/Power Attack}, Divine Fighting Technique, base attack bonus +10.  ",
-			"**Optional Replacement:** A chaotic evil barbarian of at least 10th level who worships Rovagug can replace a rage power with the following advanced benefit without meeting its prerequisites.  ",
-			"**Advanced Benefit:** Anytime you use Power Attack with a great axe or a natural attack, you ignore an amount of the target's hardness or damage reduction equal to the penalty Power Attack imparts to your attack roll. This benefit stacks with Penetrating Strike and Greater Penetrating Strike.",
+			"**Optional Replacement:** A chaotic evil {class/barbarian} of at least 10th level who worships Rovagug can replace a rage power with the following advanced benefit without meeting its prerequisites.  ",
+			"**Advanced Benefit:** Anytime you use Power Attack with a great axe or a natural attack, you ignore an amount of the target's hardness or damage reduction equal to the penalty Power Attack imparts to your attack roll. This benefit stacks with {feat/Penetrating Strike} and {feat/Greater Penetrating Strike}.",
 			"",
 			"::h3[Sarenrae's Mercy]{jl}",
 			"",
 			"Although the Dawnflower is the goddess of healing and redemption, she is not a goddess of peace, and her followers are taught that combat may be the only way to ensure the safety of those who look to the faith for protection. In such situations, the faithful of {faith/Sarenrae} are expected to end combat swiftly and efficiently, to avoid drawing out the pain and agony of battle. When one can end a battle without resorting to killing, the opportunity for redemption of the defeated foe still remains. The pages of Dawnflower's Mercies teach methods by which those who serve Sarenrae as soldiers can vanquish enemies in combat without killing them, and encourage those who follow the teachings held within to offer those they take prisoner the chance to be welcomed into Sarenrae's arms.[^E]  ",
-			"**Initial Benefit:** You take no penalty on attack rolls for using a scimitar to deal nonlethal damage. If your attack with the scimitar would normally deal additional damage (such as via sneak attack, the {magic-enh/flaming} weapon special ability, or the like), this additional damage can be nonlethal damage. You can also alter spells with the fire, good, or light descriptor and {main/inflict |spell/s>_groupings} so that the damage they deal is nonlethal damage instead. You can choose to apply this effect as the spell is cast.  ",
+			"**Initial Benefit:** You take no penalty on attack rolls for using a {eq-weapon/scimitar} to deal nonlethal damage. If your attack with the scimitar would normally deal additional damage (such as via sneak attack, the {magic-enh/flaming} weapon special ability, or the like), this additional damage can be nonlethal damage. You can also alter spells with the fire, good, or light descriptor and {main/inflict |spell/s>_groupings} so that the damage they deal is nonlethal damage instead. You can choose to apply this effect as the spell is cast.  ",
 			"**Advanced Prerequisites:** {feat/Great Fortitude}, {feat/Weapon Focus} (scimitar), Heal 10 ranks.  ",
 			"**Advanced Benefit:** Once per round as you strike a foe with a weapon and deal nonlethal damage with that attack, you regain 1d6 hit points as the warmth of Sarenrae's approval and the conviction that you are doing the right thing to minimize suffering infuses your body and soul. If the attack that dealt nonlethal damage was from a scimitar, you instead regain 2d6 hit points. You can gain the benefit of this healing only once per round, regardless of how many successful attacks you make with the weapon.",
 			"",
 			"::h3[Torag's Patient Strikes]{jl}",
 			"",
 			"Copies of Lessons of the Father, the divine fighting manual of {faith/Torag}, are somewhat rare outside of the Five Kings Mountains, as tradition mandates that all copies of Lessons of the Father must be scribed by hand in Dwarven on iron sheets and bound between slabs of stone hand-carved by a cleric of Torag. As a result, these tomes are somewhat cumbersome to transport (even the smallest copy of the book weighs 50 pounds, and most exceed 100 pounds in weight). Those who have mastered the Lessons of the Father are highly respected within the faith.[^F]  ",
-			"**Initial Benefit:** Whenever you wield a warhammer, add your Wisdom bonus to the total number of attacks of opportunity that you can make per round. These additional attacks of opportunity don't stack with those granted by {feat/Combat Reflexes}, but this benefit counts as Combat Reflexes for the purpose of satisfying feat prerequisites and prestige class requirements. In addition, you can make attacks of opportunity while you're flat-footed.  ",
+			"**Initial Benefit:** Whenever you wield a {eq-weapon/warhammer}, add your Wisdom bonus to the total number of attacks of opportunity that you can make per round. These additional attacks of opportunity don't stack with those granted by {feat/Combat Reflexes}, but this benefit counts as Combat Reflexes for the purpose of satisfying feat prerequisites and prestige class requirements. In addition, you can make attacks of opportunity while you're {rule/flat-footed}.  ",
 			"**Advanced Prerequisites:** Divine Fighting Technique, {feat/Vital Strike}, {feat/Weapon Focus} (warhammer), base attack bonus +10.  ",
-			"**Advanced Benefit:** Once per round, before you make an attack of opportunity with a warhammer, you can declare an opportunistic strike. If the attack hits, you can apply the effects of your Vital Strike feat. You can apply the {feat/Improved Vital Strike} or {feat/Greater Vital Strike} feat instead if you have either of those feats. If you confirm a critical hit with an opportunistic strike, you can attempt a disarm or trip combat maneuver check against the target as a free action - this combat maneuver does not provoke an attack of opportunity.",
+			"**Advanced Benefit:** Once per round, before you make an attack of opportunity with a warhammer, you can declare an opportunistic strike. If the attack hits, you can apply the effects of your Vital Strike feat. You can apply the {feat/Improved Vital Strike} or {feat/Greater Vital Strike} feat instead if you have either of those feats. If you confirm a critical hit with an opportunistic strike, you can attempt a {rule/disarm} or {rule/trip} combat maneuver check against the target as a free action - this combat maneuver does not provoke an attack of opportunity.",
 			"",
 			"::h3[Urgathoa's Hunger]{jl}",
 			"",
 			"The grisly content of Pallid Cravings can be found in many places where the Pallid Princess maintains a significant presence, especially within the undead nation of Geb. The pages of this manuscript are said to be tattooed onto a humanoid and flensed off while the victim is still alive; the swaths of skin are then carefully preserved for presentation in the book. Pallid Cravings details hundreds of ways for a member of {faith/Urgathoa/'s} faithful to satisfy her depraved urges for an opponent's flesh and blood while in battle.[^F]  ",
-			"**Initial Benefit:** A number of times per day equal to your Wisdom bonus, you can feast upon the life essence of a creature that you hit with a scythe. Activating this ability is a swift action. When you do so, you gain a number of temporary hit points equal to the damage you dealt with the scythe attack. These temporary hit points last for 1 minute and don't stack.  ",
+			"**Initial Benefit:** A number of times per day equal to your Wisdom bonus, you can feast upon the life essence of a creature that you hit with a {eq-weapon/scythe}. Activating this ability is a swift action. When you do so, you gain a number of {rule/temporary hit points} equal to the damage you dealt with the scythe attack. These temporary hit points last for 1 minute and don't stack.  ",
 			"**Advanced Prerequisites:** Divine Fighting Technique, Heal 10 ranks, base attack bonus +7.  ",
 			"**Advanced Benefit:** A number of times per day equal to your Wisdom bonus, you can exacerbate any lingering contagions within a target's body upon making a successful melee attack with a scythe. Activating this ability is a swift action, and causes the target to immediately attempt additional saving throws against all diseases with which it is currently afflicted. Any failed saves cause the target to immediately take the effects of that disease, while a successful save does not count toward the number of consecutive saves that the target must succeed at in order to cure the disease.",
 			"",
 			"::h3[Zon-Kuthon's Flensing]{jl}",
 			"",
 			"{faith/Zon-Kuthon} invites all mortals to join in inflicting and suffering pain.[^C]  ",
-			"**Initial Benefit:** Once per round, when you hit a foe with a spiked chain, you can twist the chain so it painfully flenses both of you. You and your target are both sickened for 1 round, and the target must succeed at a Fortitude save (DC = 10 + 1/2 your character level + your Wisdom bonus) or be sickened for an additional 1d4+1 rounds.  ",
+			"**Initial Benefit:** Once per round, when you hit a foe with a {eq-weapon/spiked chain}, you can twist the chain so it painfully flenses both of you. You and your target are both {misc/sickened} for 1 round, and the target must succeed at a Fortitude save (DC = 10 + 1/2 your character level + your Wisdom bonus) or be sickened for an additional 1d4+1 rounds.  ",
 			"**Advanced Prerequisites:** Base attack bonus +10.  ",
-			"**Advanced Benefit:** Whenever you sicken a foe with pain using a spiked chain (whether by flensing, as a dirty trick combat maneuver, or otherwise), the victim must succeed at a Fortitude save (DC = 10 + 1/2 your character level + your Wisdom bonus) or be nauseated for the first round of the duration.",
+			"**Advanced Benefit:** Whenever you sicken a foe with pain using a spiked chain (whether by flensing, as a {rule/dirty trick} combat maneuver, or otherwise), the victim must succeed at a Fortitude save (DC = 10 + 1/2 your character level + your Wisdom bonus) or be {misc/nauseated} for the first round of the duration.",
 			"",
 			"[^A]: {source/Weapon Master's Handbook/ pg. 10}",
 			"[^B]: {source/Divine Anthology/ pg. 28}",
@@ -3723,7 +3723,7 @@
 			"",
 			"Your keen magical intuition makes reading signs, portents, and mystical clues quick and easy.  ",
 			"**Prerequisites:** {feat/Spell Focus} (divination).  ",
-			"**Benefit:** You gain a +2 bonus on caster level checks with divinations to overcome spell resistance or effects that impede divination (for example, nondetection). When using a divination spell that requires concentration, you gain information from the spell 1 round sooner than normal (so you gain information from the first 2 rounds with 1 round of concentration, and information from the third round in the second round of concentration)."
+			"**Benefit:** You gain a +2 bonus on caster level checks with divinations to overcome spell resistance or effects that impede divination (for example, {spell/nondetection}). When using a divination spell that requires concentration, you gain information from the spell 1 round sooner than normal (so you gain information from the first 2 rounds with 1 round of concentration, and information from the third round in the second round of concentration)."
 		]
 	},
 	"djinni_spin": {
@@ -3760,7 +3760,7 @@
 			"",
 			"By calling upon the spirits of storms, you can manipulate lightning to protect yourself and buffet your enemies with peals of thunder.  ",
 			"**Prerequisites:** Con 15, Wis 15, {feat/Djinni Style}, {feat/Elemental Fist}, {feat/Improved Unarmed Strike}, base attack bonus +11 or monk level 9th.  ",
-			"**Benefit:** You gain one additional Elemental Fist attempt per day. While using Djinni Style, you gain electricity resistance equal to your base attack bonus or monk level, whichever is higher. While denied your Dexterity bonus to AC you are also denied this resistance. Creatures that take electricity damage from your Elemental Fist attack must succeed at a Fortitude save (DC 10 + 1/2 your character level + your Wis modifier) or be deafened for 1d4 rounds. Those who take damage from your Djinni Spin are deafened, even on a successful saving throw.",
+			"**Benefit:** You gain one additional Elemental Fist attempt per day. While using Djinni Style, you gain electricity resistance equal to your base attack bonus or monk level, whichever is higher. While denied your Dexterity bonus to AC you are also denied this resistance. Creatures that take electricity damage from your Elemental Fist attack must succeed at a Fortitude save (DC 10 + 1/2 your character level + your Wis modifier) or be {misc/deafened} for 1d4 rounds. Those who take damage from your Djinni Spin are deafened, even on a successful saving throw.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/118}",
@@ -3829,7 +3829,7 @@
 			"",
 			"Embracing fear and hatred of your ancestral foes allows you to make particularly telling blows.  ",
 			"**Prerequisites:** {race/Goblin}, Handle Animal 1 rank.  ",
-			"**Benefit:** You gain a +2 morale bonus on all attack and damage rolls made against dogs and horses (including dog-like and horse-like targets such a nightmares or worgs). Additionally, you gain a +2 bonus on rolls to confirm critical hits against these foes."
+			"**Benefit:** You gain a +2 morale bonus on all attack and damage rolls made against {monster/dog/s} and {monster/horse/s} (including dog-like and horse-like targets such a {monster/nightmare/s} or {monster/worg/s}). Additionally, you gain a +2 bonus on rolls to confirm critical hits against these foes."
 		]
 	},
 	"dog_sniff_hate": {
@@ -3846,7 +3846,7 @@
 			"",
 			"Unlike many goblins, you're not particularly afraid of dogs. You know what dogs smell like, and that smell makes you mad - very mad.  ",
 			"**Prerequisites:** {feat/Skill Focus} (Perception), {race/goblin}.  ",
-			"**Benefit:** You gain the scent ability, but only against canines (including dogs, goblin dogs, wolves, worgs, yeth hounds, and any similar creatures, subject to GM approval). Against these creatures, you gain a +1 morale bonus on attack rolls and a +2 morale bonus on weapon damage rolls."
+			"**Benefit:** You gain the {umr/scent} ability, but only against canines (including {monster/dog/s}, {monster/goblin dog/s}, {monster/wolves}, {monster/worg/s}, {monster/yeth hound/s}, and any similar creatures, subject to GM approval). Against these creatures, you gain a +1 morale bonus on attack rolls and a +2 morale bonus on weapon damage rolls."
 		]
 	},
 	"dolphin_circle": {
@@ -3859,7 +3859,7 @@
 			"",
 			"You circle your foes like dolphins, forcing them to play into your attacks.  ",
 			"**Prerequisites:** {feat/Dolphin Dart}, {feat/Dolphin Style}, {feat/Improved Unarmed Strike}, Swim 10 ranks, base attack bonus +10 or monk level 10th.  ",
-			"**Benefit:** While in Dolphin Style, as a full-round action underwater you can choose a circular path starting and ending in your current space whose length is no longer than you could swim with a single move action. You circle around that path until your next turn, and this movement doesn't provoke attacks of opportunity. You are considered to be in every space along the path for the purpose of threatening squares and providing flanking for other allies (but not yourself), as well as whether you are in the area of an area effect. Other creatures can attack you (and touch you with beneficial touch spells) as if you were in every space along the path. However, you don't count as being in any of the spaces for the purpose of other creatures moving through an occupied space. At the beginning of your next turn, choose any space along the path to stop circling."
+			"**Benefit:** While in Dolphin Style, as a full-round action underwater you can choose a circular path starting and ending in your current space whose length is no longer than you could swim with a single move action. You circle around that path until your next turn, and this movement doesn't provoke attacks of opportunity. You are considered to be in every space along the path for the purpose of threatening squares and providing {rule/flanking} for other allies (but not yourself), as well as whether you are in the area of an area effect. Other creatures can attack you (and touch you with beneficial touch spells) as if you were in every space along the path. However, you don't count as being in any of the spaces for the purpose of other creatures moving through an occupied space. At the beginning of your next turn, choose any space along the path to stop circling."
 		]
 	},
 	"dolphin_dart": {
@@ -3885,7 +3885,7 @@
 			"",
 			"You fight like a dolphin, bunching your enemies up together to make it easier to pick them off.  ",
 			"**Prerequisites:** {feat/Improved Unarmed Strike}, Swim 3 ranks, base attack bonus +3 or monk level 3rd.  ",
-			"**Benefit:** You gain a +1 bonus on melee attack rolls against any creature adjacent to at least two of its other allies as long as you aren't flanking that creature, and your melee attacks ignore any bonus to AC gained by use of the aid another action."
+			"**Benefit:** You gain a +1 bonus on melee attack rolls against any creature adjacent to at least two of its other allies as long as you aren't {rule/flanking} that creature, and your melee attacks ignore any bonus to AC gained by use of the {rule/aid another>_2} action."
 		]
 	},
 	"domain_strike": {
@@ -3920,7 +3920,7 @@
 			"",
 			"You knock your opponents into each other, using one enemy to shove aside another.  ",
 			"**Prerequisites:** Int 13, {feat/Combat Expertise}, {feat/Improved Reposition}, {feat/Whipcrack}.  ",
-			"**Benefit:** When you successfully reposition an opponent, if you attempt to reposition it into a square already occupied by another creature, you can attempt a combat maneuver check as an immediate action to reposition that creature. You take a -4 penalty on this check. If you are successful, the second creature is pushed 5 feet in the direction of your original target's movement. You can move the secondary target an additional 5 feet for every 5 by which you exceed the secondary target's CMD. The secondary target does not provoke attacks of opportunity because of this movement unless you have the {feat/Greater Reposition} feat. If you fail your combat maneuver check, the movement of your original target ends in front of the secondary target.  ",
+			"**Benefit:** When you successfully {rule/reposition} an opponent, if you attempt to reposition it into a square already occupied by another creature, you can attempt a combat maneuver check as an immediate action to reposition that creature. You take a -4 penalty on this check. If you are successful, the second creature is pushed 5 feet in the direction of your original target's movement. You can move the secondary target an additional 5 feet for every 5 by which you exceed the secondary target's CMD. The secondary target does not provoke attacks of opportunity because of this movement unless you have the {feat/Greater Reposition} feat. If you fail your combat maneuver check, the movement of your original target ends in front of the secondary target.  ",
 			"**Normal:** You can't reposition a creature into a square that is occupied by a solid object or obstacle."
 		]
 	},
@@ -3936,8 +3936,8 @@
 			"{SOURCE Adventurer's Armory 2/11;Dwarves of Golarion/21}",
 			"",
 			"You can use a dorn-dergar with only one hand.  ",
-			"**Prerequisites:** {feat/Two-Weapon Fighting}, base attack bonus +4, proficiency with the dwarven dorn-dergar.  ",
-			"**Benefit:** You can use a dorn-dergar as a one-handed weapon. When using it one-handed, changing whether it's a normal or reach weapon is a full-round action. If you have the Darting Viper feat, changing its reach is a move action.  ",
+			"**Prerequisites:** {feat/Two-Weapon Fighting}, base attack bonus +4, proficiency with the {eq-weapon/dwarven dorn-dergar}.  ",
+			"**Benefit:** You can use a dorn-dergar as a one-handed weapon. When using it one-handed, changing whether it's a normal or reach weapon is a full-round action. If you have the {feat/Darting Viper} feat, changing its reach is a move action.  ",
 			"**Normal:** A dorn-dergar requires two hands to wield."
 		]
 	},
@@ -3998,7 +3998,7 @@
 			"{SOURCE Advanced Race Guide/136}",
 			"",
 			"You possess some of the qualities of your dragon ancestors.  ",
-			"**Prerequisites:** Kobold.  ",
+			"**Prerequisites:** {race/Kobold}.  ",
 			"**Benefit:** Your scales take on the color and some of the resistances of one of the chromatic dragons. Choose one of the following chromatic dragon types: black (acid), blue (electricity), green (acid), red (fire), or white (cold). Your scales take on the color of that dragon, and you gain resistance 5 to the dragon color's corresponding energy type.  ",
 			"**Special:** If you have the dragon-scaled racial trait, your scale color does not change and you gain a +1 natural armor bonus instead."
 		]
@@ -4012,7 +4012,7 @@
 			"{SOURCE Advanced Race Guide/136}",
 			"",
 			"You possess draconic defenses and a draconic breath weapon.  ",
-			"**Prerequisites:** {feat/Draconic Aspect}, kobold.  ",
+			"**Prerequisites:** {feat/Draconic Aspect}, {race/kobold}.  ",
 			"**Benefit:** You gain a +2 bonus against sleep and paralysis effects. You gain a breath weapon that is determined by your scale coloration by either the Draconic Aspect feat or the dragon-scaled racial trait. Using a breath weapon is a standard action that does not provoke attacks of opportunity. You can use your breath weapon once per day. Creatures within the area of your breath weapon who succeed at a Reflex saving throw (DC 10 + your character level + your Constitution modifier) take only half damage.",
 			"",
 			">*Black (Su):* You breathe a 30-foot line of acid that deals 2d6 points of acid damage.",
@@ -4025,7 +4025,7 @@
 			">",
 			">*White (Su):* You breathe a 15-foot cone of cold that deals 2d6 points of cold damage.",
 			"",
-			"**Special:** Kobold sorcerers with either the Draconic or Kobold bloodline can use their Charisma modifier instead of their Constitution to determine the DC of this breath weapon."
+			"**Special:** Kobold sorcerers with either the {sorcbloodline/Draconic} or {sorcbloodline/Kobold Sorcerer} bloodline can use their Charisma modifier instead of their Constitution to determine the DC of this breath weapon."
 		]
 	},
 	"draconic_glide": {
@@ -4037,8 +4037,8 @@
 			"{SOURCE Advanced Race Guide/136}",
 			"",
 			"You possess draconic defenses and wings that allow you to glide.  ",
-			"**Prerequisites:** {feat/Draconic Aspect}, kobold.  ",
-			"**Benefit:** You gain a +2 bonus against sleep and paralysis effects. You grow a pair of wings that you can use to fall and glide at a safe pace. You can make a DC 15 Fly check to fall safely from any height without taking falling damage, as if using feather fall. When falling safely, you may make an additional DC 15 Fly check to glide, moving 5 feet laterally for every 20 feet you fall.  ",
+			"**Prerequisites:** {feat/Draconic Aspect}, {race/kobold}.  ",
+			"**Benefit:** You gain a +2 bonus against sleep and paralysis effects. You grow a pair of wings that you can use to fall and glide at a safe pace. You can make a DC 15 Fly check to fall safely from any height without taking falling damage, as if using {spell/feather fall}. When falling safely, you may make an additional DC 15 Fly check to glide, moving 5 feet laterally for every 20 feet you fall.  ",
 			"**Special:** If you have the gliding wings racial trait, you don't need to make a Fly check to glide, and you can move 10 feet laterally for every 20 feet you fall."
 		]
 	},
@@ -4053,7 +4053,7 @@
 			"The power of dragons flows through your veins and you have awakened its potential.  ",
 			"**Prerequisites:** Cha 13.  ",
 			"**Benefit:** Choose one type of dragon from the options presented below. You gain the draconic heritage ability from your chosen dragon type. The save DCs of any associated ability are equal to 10 + 1/2 your Hit Dice + your Charisma modifier.  ",
-			"**Special:** You can take this feat only once. If you ever gain a bloodrager or sorcerer bloodline, you must take draconic as your chosen bloodline (or a bloodline tied to some other creature of the dragon type, as approved by your GM).",
+			"**Special:** You can take this feat only once. If you ever gain a {class/bloodrager} or {class/sorcerer} bloodline, you must take draconic as your chosen bloodline (or a bloodline tied to some other creature of the dragon type, as approved by your GM).",
 			"",
 			"::h3[True Dragons]{jl}",
 			"",
@@ -4069,7 +4069,7 @@
 			"",
 			"Those with the power of esoteric dragons take aloofness to an extreme and are prone to long nights of sleep and vivid, enrapturing dreams. They are often deeply empathetic and emotional individuals, feeling the needs and wants of others intimately and, in some cases, more intensely than they can handle.",
 			"",
-			"**Draconic Heritage:** As a standard action, you can project a psychic barrage at a creature within 15 feet to which you have line of sight. A creature targeted by your psychic barrage must succeed at a Will save or be dazed for 1 round. You can attempt a psychic barrage once per day for every 4 characters levels you have (minimum 1). This is a mind-affecting effect.  ",
+			"**Draconic Heritage:** As a standard action, you can project a psychic barrage at a creature within 15 feet to which you have line of sight. A creature targeted by your psychic barrage must succeed at a Will save or be {misc/dazed} for 1 round. You can attempt a psychic barrage once per day for every 4 characters levels you have (minimum 1). This is a mind-affecting effect.  ",
 			"**Special:** If you have 1 or more levels in a class that casts psychic spells, you can attempt a psychic barrage a number of times per day equal to 1/2 your level in that class (minimum 1), plus one more time per day for every 4 levels you have in other classes.",
 			"",
 			"::h4[Imperial]{jl}",
@@ -4088,14 +4088,14 @@
 			"",
 			"The utterly alien nature of outer dragons often conflicts with the more grounded and material upbringing of those who carry these dragons' influence within their bloodlines. Feelings of otherness or exclusion are common among humanoids with this bloodline, and many become exiles or wanderers.",
 			"",
-			"**Draconic Heritage:** As a swift action, you can generate an alien aura around yourself with a 5-foot radius that lasts for 1 round. Any enemy who enters your aura must succeed at a Will save or become sickened for 1 round. A creature who successfully saves against your alien aura is immune to its effects for 24 hours. You can generate an alien aura once per day for every 4 characters levels you have (minimum 1). This is a mind-affecting effect.",
+			"**Draconic Heritage:** As a swift action, you can generate an alien aura around yourself with a 5-foot radius that lasts for 1 round. Any enemy who enters your aura must succeed at a Will save or become {misc/sickened} for 1 round. A creature who successfully saves against your alien aura is immune to its effects for 24 hours. You can generate an alien aura once per day for every 4 characters levels you have (minimum 1). This is a mind-affecting effect.",
 			"",
 			"::h4[Primal]{jl}",
 			"",
 			"The scions with the power of the elementally attuned primal dragons are not often subtle in appearance. They tend towards hardy builds and skin tones that take on shimmering, iridescent hues in direct light. Additionally, they often experience tempestuous emotions that are difficult to control.",
 			"",
 			"**Draconic Heritage:** Choose acid, cold, electricity, or fire when you take this feat; once made, this choice cannot be changed. As a standard action, you can create a 10-foot-radius aura of elemental energy that lasts for 1 round. The area of this aura is considered difficult terrain, and creatures that end their turns in your aura take 1d6 points of energy damage of the appropriate type. A successful Fortitude save halves this damage but does not negate the difficult terrain effect. You can create an aura of elemental energy once per day for every 4 characters levels you have (minimum 1).  ",
-			"**Special:** If you are a druid, hunter, or kineticist, you can create an elemental aura a number of times per day equal to 1/2 your class level (minimum 1), plus one more time per day for every 4 levels you have in other classes.",
+			"**Special:** If you are a {class/druid}, {class/hunter}, or {class/kineticist}, you can create an elemental aura a number of times per day equal to 1/2 your class level (minimum 1), plus one more time per day for every 4 levels you have in other classes.",
 			"",
 			"::h3[Lesser Dragons]{jl}",
 			"",
@@ -4112,7 +4112,7 @@
 			"The cursed blood of linnorms is a unique case - it is sometimes passed down by those who bear a child while under the effects of a linnorm's death curse. Such an unlikely offspring usually bears a visible mark or scar that ties her life to the legacy of that linnorm.",
 			"",
 			"**Draconic Heritage:** As an immediate action when you are damaged by a melee attack, you can afflict your attacker with a curse. The target of your curse must succeed at a Will save or take a -2 penalty on all ability checks, attack rolls, and skill checks for 1 round. You can use this curse once per day for every 4 characters levels you have (minimum 1).  ",
-			"**Special:** If you are a shaman or a witch, you can use this curse a number of times per day equal to 1/2 your class level (minimum 1), plus one more time per day for every 4 levels you have in other classes."
+			"**Special:** If you are a {class/shaman} or a {class/witch}, you can use this curse a number of times per day equal to 1/2 your class level (minimum 1), plus one more time per day for every 4 levels you have in other classes."
 		]
 	},
 	"draconic_magic": {
@@ -4124,20 +4124,20 @@
 			"{SOURCE Monster Codex/129}",
 			"",
 			"Your draconic aspect manifests as magical might.  ",
-			"**Prerequisites:** {feat/Draconic Aspect}, kobold.  ",
+			"**Prerequisites:** {feat/Draconic Aspect}, {race/kobold}.  ",
 			"**Benefit:** You gain a group of spell-like abilities based on the color of your dragon aspect. Each spell-like ability can be used once per day, and the DC of any of these spell-like abilities is 10 + 1/2 your Hit Dice + Charisma modifier.",
 			"",
-			"**Black:** Corrosive touch&dagger;, darkness.",
+			">**Black:** {spell/Corrosive touch}&dagger;, {spell/darkness}.",
+			">",
+			">**Blue:** {spell/Minor image}, {spell/shocking grasp}&dagger;.",
+			">",
+			">**Green:** {spell/Entangle}&dagger;, {spell/gust of wind}.",
+			">",
+			">**Red:** {spell/Burning hands}&dagger;, {spell/pyrotechnics}.",
+			">",
+			">**White:** *Burning hands&dagger;* (deals cold damage instead of fire), {spell/fog cloud}.",
 			"",
-			"**Blue:** Minor image, shocking grasp&dagger;.",
-			"",
-			"**Green:** Entangle&dagger;, gust of wind.",
-			"",
-			"**Red:** Burning hands&dagger;, pyrotechnics.",
-			"",
-			"**White:** Burning hands&dagger; (deals cold damage instead of fire), fog cloud.",
-			"",
-			"**Special:** You can use this feat instead of Draconic Breath or Draconic Glide to qualify for the {feat/Draconic Paragon} feat. If you have this feat and Draconic Paragon, you can use the spell-like ability marked with a dagger (&dagger;) twice per day."
+			"**Special:** You can use this feat instead of {feat/Draconic Breath} or {feat/Draconic Glide} to qualify for the {feat/Draconic Paragon} feat. If you have this feat and Draconic Paragon, you can use the spell-like ability marked with a dagger (&dagger;) twice per day."
 		]
 	},
 	"draconic_manifestation": {
@@ -4149,20 +4149,20 @@
 			"{SOURCE Legacy of Dragons/5}",
 			"",
 			"You've unlocked more than just the ability to emulate the claws of your draconic forebear.  ",
-			"**Prerequisites:** Access to natural claw attacks, bloodrager or sorcerer with the draconic bloodline.  ",
+			"**Prerequisites:** Access to natural claw attacks, {class/bloodrager} or {class/sorcerer} with the draconic bloodline.  ",
 			"**Benefit:** As a free action when manifesting claws (as per the sorcerer bloodline ability), you infuse yourself with other dormant powers of your draconic bloodline. If you're a bloodrager, you gain the benefits of this feat as a free action, but only while bloodraging; the ability lasts for a number of rounds per day equal to 3 + your Charisma modifier. These rounds need not be used consecutively. Depending on the specific draconic bloodline you have, you gain one of the following abilities.",
 			"",
-			"Chromatic: You become immune to paralysis and sleep effects.",
-			"",
-			"Esoteric: You become partially incorporeal, gaining concealment (20%) against all incoming attacks.",
-			"",
-			"Imperial: You gain a +1 circumstance bonus on Intimidate checks for every 4 levels you have in a class that grants you a draconic bloodline. You also become immune to fear effects.",
-			"",
-			"Metallic: You radiate a 10-foot aura of courage, inspiring those around you with your intensity. Allies within the aura gain a +2 morale bonus on saves against fear effects and spells with the evil descriptor. Allies already affected by a fear effect when they first enter the aura can attempt a new saving throw at the same DC as the original effect. On a successful save, the fear effect ends. A creature can benefit from this reroll only once per day.",
-			"",
-			"Outer: You don't need to breathe and gain immunity to any gas-based or smell effects.",
-			"",
-			"Primal: You radiate a 5-foot aura of elemental damage. Creatures within the aura take 1 point of damage for every 4 levels you have in a class that grants you a draconic bloodline. This damage is energy damage based on your chosen dragon type."
+			">**Chromatic:** You become immune to paralysis and sleep effects.",
+			">",
+			">**Esoteric:** You become partially incorporeal, gaining {rule/concealment} (20%) against all incoming attacks.",
+			">",
+			">**Imperial:** You gain a +1 circumstance bonus on Intimidate checks for every 4 levels you have in a class that grants you a draconic bloodline. You also become immune to fear effects.",
+			">",
+			">**Metallic:** You radiate a 10-foot aura of courage, inspiring those around you with your intensity. Allies within the aura gain a +2 morale bonus on saves against fear effects and spells with the evil descriptor. Allies already affected by a fear effect when they first enter the aura can attempt a new saving throw at the same DC as the original effect. On a successful save, the fear effect ends. A creature can benefit from this reroll only once per day.",
+			">",
+			">**Outer:** You don't need to breathe and gain immunity to any gas-based or smell effects.",
+			">",
+			">**Primal:** You radiate a 5-foot aura of elemental damage. Creatures within the aura take 1 point of damage for every 4 levels you have in a class that grants you a draconic bloodline. This damage is energy damage based on your chosen dragon type."
 		]
 	},
 	"draconic_paragon": {
@@ -4174,7 +4174,7 @@
 			"{SOURCE Advanced Race Guide/137}",
 			"",
 			"You can shrug off sleep and paralysis effects as well as any dragon, and your draconic aspects improve.  ",
-			"**Prerequisites:** {feat/Draconic Aspect}, {feat/Draconic Breath}, {feat/Draconic Glide}, character level 10th, kobold.  ",
+			"**Prerequisites:** {feat/Draconic Aspect}, {feat/Draconic Breath}, {feat/Draconic Glide}, character level 10th, {race/kobold}.  ",
 			"**Benefit:** You gain an additional +2 bonus against sleep and paralysis effects. You can use your breath weapon twice per day and your breath weapon damage increases to 4d6 points of energy damage. Your wings from the Draconic Glide feat grow stronger, granting you a fly speed of 20 feet (average maneuverability)."
 		]
 	},
@@ -4191,7 +4191,7 @@
 			"",
 			"When you are knocked prone, you are skilled at bringing your opponent down with you.  ",
 			"**Prerequisites:** Int 13, {feat/Combat Expertise}, {feat/Improved Trip}.  ",
-			"**Benefit:** Whenever an opponent successfully trips you, you can attempt to trip that opponent as an immediate action.",
+			"**Benefit:** Whenever an opponent successfully trips you, you can attempt to {rule/trip} that opponent as an immediate action.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/118}",
@@ -4213,7 +4213,7 @@
 			"You attack with the strength of a dragon, your telling blows striking fear into your enemies.  ",
 			"**Prerequisites:** Str 15, {feat/Improved Unarmed Strike}, {feat/Dragon Style}, {feat/Stunning Fist}, Acrobatics 5 ranks.  ",
 			"**Benefit:** While using Dragon Style, increase your Strength bonus on unarmed strike damage rolls by an additional one-half your Strength bonus, to a total of double your Strength bonus on the first attack and 1-1/2 times your Strength bonus on the other attacks. When you score a critical hit or a successful Stunning Fist attempt against an opponent while using this style, that opponent is also shaken for a number of rounds equal to 1d4 + your Strength bonus.  ",
-			"**Special:** Taking this feat allows you to qualify for the Elemental Fist feat even if you do not meet that feat's prerequisites. If you do not meet that feat's prerequisites, you must choose one of the damage types that feat offers, and you can use only that damage type with your Elemental Fist attacks until you meet the feat's normal prerequisites. A monk with this feat can use Elemental Fist as if he were a monk of the four winds.",
+			"**Special:** Taking this feat allows you to qualify for the {feat/Elemental Fist} feat even if you do not meet that feat's prerequisites. If you do not meet that feat's prerequisites, you must choose one of the damage types that feat offers, and you can use only that damage type with your Elemental Fist attacks until you meet the feat's normal prerequisites. A monk with this feat can use Elemental Fist as if he were a monk of the four winds.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/118}",
@@ -4231,7 +4231,7 @@
 			"",
 			"Inspired by tales of First Emperor Taldaris pulling the gold from the gullet of the terrible dragon Verksaris to forge the Primogen Crown, you have learned to fashion potent headgear from the remains of magical creatures you defeat.  ",
 			"**Prerequisites:** Knowledge (arcana) 5 ranks, Survival 5 ranks.  ",
-			"**Benefit:** You can use the remains of a dragon or magical beast that you helped to defeat to craft a crown, as if you were harvesting and creating a trophy. If you successfully create the trophy, it has no monetary value but it functions for you as a {magic-wondrous/headband of alluring charisma>_2}. The bonus the trophy provides to you is based on the creature's base CR (not including class levels) or your character level at the time the crown was created, whichever is lower: +2 at CR 5 or 5th level, +4 at CR 10 or 10th level, and +6 at CR 15 or 15th level."
+			"**Benefit:** You can use the remains of a dragon or magical beast that you helped to defeat to craft a crown, as if you were {rule/harvesting [and creating a ]troph/y>ies}. If you successfully create the trophy, it has no monetary value but it functions for you as a {magic-wondrous/headband of alluring charisma>_2}. The bonus the trophy provides to you is based on the creature's base CR (not including class levels) or your character level at the time the crown was created, whichever is lower: +2 at CR 5 or 5th level, +4 at CR 10 or 10th level, and +6 at CR 15 or 15th level."
 		]
 	},
 	"favored_enemy_spellcasting": {

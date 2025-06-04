@@ -236,7 +236,7 @@
 			"",
 			"**Delayed Inspiration:** A dread investigator gains inspiration at 4th level instead of 1st and gains studied combat and studied strike at 7th level instead of 4th. A dread investigator's studied strike deals 1d6 fewer points of damage than normal. This alters inspiration, studied combat, and studied strike.",
 			"",
-			"**Embalming Fluids (Ex):** A dread investigator adds the following spells to his class list of extracts: 1st-{spell/hide from undead}, {spell/sanctify corpse}; 2nd-{spell/gentle repose}, {spell/lesser animate dead}; 3rd-{spell/animate dead}, {spell/speak with dead}; 4th-{spell/rest eternal}. A dread investigator can use these extracts to affect dead bodies as if using the infusion {ability/discover/y>ies} to affect another creature. This ability replaces poison lore.",
+			"**Embalming Fluids (Ex):** A dread investigator adds the following spells to his class list of extracts: 1st-{spell/hide from undead}, {spell/sanctify corpse}; 2nd-{spell/gentle repose}, {spell/lesser animate dead}; 3rd-{spell/animate dead}, {spell/speak with dead}; 4th-{spell/rest eternal}. A dread investigator can use these extracts to affect dead bodies as if using the infusion {ability/discovery} to affect another creature. This ability replaces poison lore.",
 			"",
 			"**Negative Energy Resistance (Ex):** At 2nd level, a dread investigator gains a +2 bonus on saving throws against death effects, energy drain, and negative energy. This bonus increases to +4 at 5th level and +6 at 8th level. At 11th level, effects created by undead that inflict ability drain, ability damage, or energy drain have only half their normal effect on a dread investigator (minimum 1 point of ability damage or ability drain, or 1 negative level). This ability replaces poison resistance and immunity.",
 			"",
@@ -674,7 +674,7 @@
 			"",
 			"This replaces trapfinding.",
 			"",
-			"**Herbalism (Su):** At 3rd level, a natural philosopher augments his knowledge of alchemy with herbal lore. He gains the infusion {ability/discover/y>ies} and can use Knowledge (nature) in place of Craft (alchemy) and Profession (herbalist) checks. He also gains a competence bonus equal to his class level on Craft (alchemy) checks to create alchemical items, and he gains half that bonus on {skill/Profession/ (herbalist)} checks to find herbs.",
+			"**Herbalism (Su):** At 3rd level, a natural philosopher augments his knowledge of alchemy with herbal lore. He gains the infusion {ability/discovery} and can use Knowledge (nature) in place of Craft (alchemy) and Profession (herbalist) checks. He also gains a competence bonus equal to his class level on Craft (alchemy) checks to create alchemical items, and he gains half that bonus on {skill/Profession/ (herbalist)} checks to find herbs.",
 			"",
 			"This alters alchemy and replaces trap sense and the investigator talent gained at 3rd level."
 		]

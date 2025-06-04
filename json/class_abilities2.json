@@ -749,6 +749,7 @@
 			"| :ripple[exploit/Consume Magic Items/ (Su)] | Consume the power of potions, scrolls, staves, and wands to fill your arcane reservoir. |",
 			"| :ripple[exploit/Counterspell/ (Su)] | Attempt to counter a spell as it is being cast. |",
 			"| :ripple[exploit/Dimensional Slide/ (Su)] | Create a dimensional crack you can step through to reach another location. |",
+			"| :ripple[exploit/Eldritch Aid] | Grant additional magic energy to an allied spellcaster. |",
 			"| :ripple[exploit/Energy Shield/ (Su)] | Protect yourself from energy damage. |",
 			"| :ripple[exploit/Familiar/ (Ex)] | Acquire a familiar. |",
 			"| :ripple[exploit/Feral Shifting/ (Su)] | Gain a bite or claw attack. |",
@@ -1011,6 +1012,7 @@
 		},
 		"topLink": [ "Alchemist", "class/alchemist" ]
 	},
+	"grand_discovery": { "copyof": "grand_discoveries" },
 	"grand_hexes": {
 		"name": "Grand Hexes",
 		"sources": [ "Advanced Player's Guide" ],

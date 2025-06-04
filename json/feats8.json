@@ -378,7 +378,7 @@
 			"",
 			"You are quite popular at the pubs you frequent and the bartenders remember you.  ",
 			"**Prerequisites:** Cha 14.  ",
-			"**Benefit:** You receive a 10% discount at any tavern after you have spent a cumulative 500 gp there. In addition, if a bar fight occurs in that tavern, you gain a +2 bonus on your checks to use the redirect action. On a round in which you don't attempt the redirect action, the crowd reduces your tenacity by only 1d4 (instead of by the normal amount)."
+			"**Benefit:** You receive a 10% discount at any tavern after you have spent a cumulative 500 gp there. In addition, if a {rule/bar fight>s} occurs in that tavern, you gain a +2 bonus on your checks to use the redirect action. On a round in which you don't attempt the redirect action, the crowd reduces your tenacity by only 1d4 (instead of by the normal amount)."
 		]
 	},
 	"team_pickpocketing": {
@@ -962,7 +962,7 @@
 			"{SOURCE Monster Codex/9}",
 			"",
 			"You can swell your throat to amplify and broadcast your vocalizations over vast distances.  ",
-			"**Prerequisites:** Boggard, terrifying croak.  ",
+			"**Prerequisites:** {monster/Boggard}, terrifying croak.  ",
 			"**Benefit:** The range of your terrifying croak ability increases by 5 feet for every 2 Hit Dice you have (maximum 30-foot increase). While speaking Boggard or wordlessly vocalizing, you can swell your throat pouch as a free action to reduce the Perception DC needed to hear your voice by an amount equal to your Hit Dice.  ",
 			"**Special:** The benefits of Throat Pouch and any feats that use it as a prerequisite are available only while you're wearing light, medium, or no armor."
 		]
@@ -2782,7 +2782,7 @@
 			"{SOURCE Advanced Race Guide/106;Pathfinder #15: The Armageddon Echo/59;Pathfinder #18: Descent into Midnight/14}",
 			"",
 			"New spell-like abilities are unlocked for you as you rise to ascendency among the drow people.  ",
-			"**Prerequisites:** Cha 13, Wis 13, {feat/Drow Nobility}, {feat/Greater Drow Nobility}, {feat/Improved Drow Nobility}, able to use drow spell-like abilities, drow.  ",
+			"**Prerequisites:** Cha 13, Wis 13, {feat/Drow Nobility}, {feat/Greater Drow Nobility}, {feat/Improved Drow Nobility}, able to use drow spell-like abilities, {race/drow}.  ",
 			"**Benefit:** Select one of the following: {spell/dispel magic}, {spell/divine favor}, or {spell/suggestion}. You may use this spell once per day as a spell-like ability. Your caster level is equal to your character level."
 		]
 	},
@@ -3622,7 +3622,7 @@
 			"{SOURCE Inner Sea Monster Codex/59}",
 			"",
 			"You can use your rhoka sword to destroy your foes' blades.  ",
-			"**Prerequisites:** Base attack bonus +1, proficiency with the rhoka sword, urdefhan.  ",
+			"**Prerequisites:** Base attack bonus +1, proficiency with the {eq-weapon/rhoka sword}, {monster/urdefhan}.  ",
 			"**Benefit:** When wielding a rhoka sword, you can attempt to sunder an opponent's sword or other slender-bladed weapon without provoking an attack of opportunity. You gain a +2 circumstance bonus on the combat maneuver check to do so."
 		]
 	},
@@ -4505,8 +4505,8 @@
 			"{SOURCE Inner Sea Monster Codex/59}",
 			"",
 			"You can channel your daemonic energies through the vile blade you wield.  ",
-			"**Prerequisites:** {feat/Weapon Focus} (rhoka sword), base attack bonus +4, urdefhan.  ",
-			"**Benefit:** When wielding a rhoka sword, you can channel your daemonic energies through the blade as a swift action, causing it to deal Strength damage as your bite attack. You can use this ability a number of times per day equal to your Constitution modifier (minimum 1)."
+			"**Prerequisites:** {feat/Weapon Focus} (rhoka sword), base attack bonus +4, {monster/urdefhan}.  ",
+			"**Benefit:** When wielding a {eq-weapon/rhoka sword}, you can channel your daemonic energies through the blade as a swift action, causing it to deal Strength damage as your bite attack. You can use this ability a number of times per day equal to your Constitution modifier (minimum 1)."
 		]
 	},
 	"vulpine_pounce": {

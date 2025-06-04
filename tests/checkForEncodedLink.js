@@ -23,6 +23,8 @@
 // The advanced forms can be used together in the order <|/>
 //   {rule/special_<Pre |Link//Text/ Stuff>_info} => [Pre Link/Text Stuff](rule/special_link_text_info)
 
+// Below needs to be copied to src/components/convertLinks.tsx (with Typescript) when changed
+
 const checkForEncodedLink = (input, options = {}) => {
 	const { basic, bare } = options;
 	let m = input.match(
@@ -63,6 +65,10 @@ const checkForEncodedLink = (input, options = {}) => {
 	}
 	// Double-slashes
 	while(m = matched.match(/(^.*?)[/]{2}(.*$)/)) {
+		matched = `${m[1]}=slAsh=${m[2]}`;
+	}
+	// Slashes in [brackets]
+	while(m = matched.match(/(^.*?\[[^\[\]]*)[/]([^\[\]]*\].*$)/)) {
 		matched = `${m[1]}=slAsh=${m[2]}`;
 	}
 	// pre|text

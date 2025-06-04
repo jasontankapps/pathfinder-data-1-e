@@ -2229,7 +2229,7 @@
 			"",
 			"**Healing Solution (Su):** A Thuvian alchemist learns how to convert magical reagents into life-giving admixtures. As a full-round action, she can convert the magical energies of two extracts or spells of 1st level into a special extract of {spell/cure light wounds}. This acts as an infused extract, but it must be used before the end of her next turn or its power is lost. At 3rd level and every 2 levels thereafter, a Thuvian alchemist gains the ability to convert extracts or spells into more powerful forms of curative magic: 3rd-{spell/cure moderate wounds}; 5th-{spell/cure serious wounds}; 7th-{spell/cure critical wounds}; 9th-{spell/breath of life}. In all cases, the Thuvian alchemist must expend two extracts or spells of the same level as the curative spell in order to complete the conversion.",
 			"",
-			"**Thuvian Discovery:** At 2nd level and again at 4th, 6th, and 8th level, a Thuvian alchemist gains a new {ability/alchemist |discover/y>ies} from one of the rare Thuvian discoveries below or from the following list: bottled ooze, combine extracts, dilution, elixir of life, enhance potion, eternal potion, extend potion, healing touch, infusion, mummification, preserve organs, sandstone solution, or spontaneous healing. The Thuvian alchemist must still meet all prerequisites for a Thuvian discovery, including level restrictions. Thuvian alchemist class levels stack with alchemist levels for the purpose of qualifying for and using these discoveries (but not others). Thuvian discoveries cannot be selected by characters without Thuvian alchemist levels.",
+			"**Thuvian Discovery:** At 2nd level and again at 4th, 6th, and 8th level, a Thuvian alchemist gains a new {ability/alchemist |discovery} from one of the rare Thuvian discoveries below or from the following list: bottled ooze, combine extracts, dilution, elixir of life, enhance potion, eternal potion, extend potion, healing touch, infusion, mummification, preserve organs, sandstone solution, or spontaneous healing. The Thuvian alchemist must still meet all prerequisites for a Thuvian discovery, including level restrictions. Thuvian alchemist class levels stack with alchemist levels for the purpose of qualifying for and using these discoveries (but not others). Thuvian discoveries cannot be selected by characters without Thuvian alchemist levels.",
 			"",
 			">**Bottled Elemental (Su):** This functions like the bottled ooze discovery, but allows the Thuvian alchemist to instead reconstitute an elemental that bursts forth when the bottle is broken. Creating a bottled elemental requires an extract 1 level lower than the elemental's CR (minimum 1st level). The Thuvian alchemist must have the bottled ooze discovery and be at least 8th level before selecting this Thuvian discovery.",
 			">",
@@ -2253,7 +2253,7 @@
 			"",
 			"Once chosen, a curative enhancement cannot be changed, but the Thuvian alchemist can choose which enhancements (if any) she incorporates each time she prepares a healing solution.",
 			"",
-			"**Eternal Youth (Su):** At 10th level, a Thuvian alchemist learns how to formulate an imperfect duplicate of the sun orchid elixir that affects only her. This functions as the eternal youth {ability/grand discover/y>ies}."
+			"**Eternal Youth (Su):** At 10th level, a Thuvian alchemist learns how to formulate an imperfect duplicate of the sun orchid elixir that affects only her. This functions as the eternal youth {ability/grand discovery}."
 		]
 	},
 	"twilight_talon": {

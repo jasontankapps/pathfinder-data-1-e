@@ -2036,7 +2036,7 @@
 			"",
 			":b[Scribe Scroll:] At 1st level, a wizard gains {feat/Scribe Scroll} as a bonus feat.",
 			"",
-			":b[Bonus Feats:] At 5th, 10th, 15th, and 20th level, a wizard gains a bonus feat. At each such opportunity, he can choose a {main/feats_<metamagic/ feat}, an {main/feats_<item creation/ feat}, a {main/feats_<familiar/ feat}, or {feat/Spell Mastery}. The wizard must still meet all prerequisites for a bonus feat, including caster level minimums. These bonus feats are in addition to the feats that a character of any class gets from advancing levels. The wizard is not limited to the categories of item creation feats, metamagic feats, familiar feats, or Spell Mastery when choosing those feats.",
+			":b[Bonus Feats:] At 5th, 10th, 15th, and 20th level, a wizard gains a bonus feat. At each such opportunity, he can choose a {main/feats_<metamagic/ feat}, an {main/feats_<item creation/ feat}, a {main/feats_<familiar/ feat}, {feat/Spell Mastery}, or {feat/Eldritch Aid}. The wizard must still meet all prerequisites for a bonus feat, including caster level minimums. These bonus feats are in addition to the feats that a character of any class gets from advancing levels; the wizard is not limited to the feats above when choosing those feats.",
 			"",
 			":::aside",
 			"",

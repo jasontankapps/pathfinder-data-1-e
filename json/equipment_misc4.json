@@ -702,7 +702,9 @@
 			"",
 			"**Drinking:** When imbibed, a vial of dragon's blood heals 1d4 points of damage. It also grants a +1 alchemical bonus on Will and Fortitude saving throws for 1 minute.",
 			"",
-			"**Bathing:** Covering oneself in dragon's blood removes 1 permanent negative level. No more than 1 permanent negative level can be removed from a single creature per week using this method. Bathing in dragon's blood requires 3 vials of dragon's blood. Blood used in such a manner is expended, and may not be reused."
+			"**Bathing:** Covering oneself in dragon's blood removes 1 permanent negative level. No more than 1 permanent negative level can be removed from a single creature per week using this method. Bathing in dragon's blood requires 3 vials of dragon's blood. Blood used in such a manner is expended, and may not be reused.",
+			"",
+			"The {feat/Dragoncrafting} feat can be used to harvest blood from a slain dragon."
 		]
 	},
 	"dragons_gut": {
@@ -4685,7 +4687,7 @@
 			"**Price** 500 gp; **Weight** -  ",
 			"**Category** Dragoncraft",
 			"",
-			"This rare and expensive variant of standard Garundi {drug/pesh} is produced by introducing a vial of dragon's blood into a dose of pesh during the refining process, and has a noticeable reddish tint. While the drug provides a more potent high and fewer immediate penalties, it is [highly addictive](drug/wyrm_pesh), and unless a user has a steady supply of dragon's blood, the cost to her well-being can be severe."
+			"This rare and expensive variant of standard Garundi {drug/pesh} is produced by introducing a vial of {eq-misc/dragon's blood} into a dose of pesh during the refining process, and has a noticeable reddish tint. While the drug provides a more potent high and fewer immediate penalties, it is [highly addictive](drug/wyrm_pesh), and unless a user has a steady supply of dragon's blood, the cost to her well-being can be severe."
 		]
 	},
 	"wyrms_breath_bitter": {

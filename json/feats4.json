@@ -1757,7 +1757,7 @@
 			"{SOURCE Advanced Race Guide/105}",
 			"",
 			"You have mastered the lesser spell-like abilities of the drow, demonstrating true nobility.  ",
-			"**Prerequisites:** Cha 13, {feat/Drow Nobility}, {feat/Improved Drow Nobility}, able to use drow spell-like abilities, drow.  ",
+			"**Prerequisites:** Cha 13, {feat/Drow Nobility}, {feat/Improved Drow Nobility}, able to use drow spell-like abilities, {race/drow}.  ",
 			"**Benefit:** Your detect magic spell-like ability is now constant. You may use your dancing lights, deeper darkness, faerie fire, feather fall, and levitate spell-like abilities at will."
 		]
 	},
@@ -3174,7 +3174,7 @@
 			"",
 			"You can hold your liquor and poisons better than most.  ",
 			"**Prerequisites:** {feat/Great Fortitude}.  ",
-			"**Benefit:** You gain a +2 bonus on Fortitude saving throws against ingested poisons. You take no penalties when you are tipsy, and the penalties for being drunk or soused are halved for you."
+			"**Benefit:** You gain a +2 bonus on Fortitude saving throws against ingested poisons. You take no penalties when you are tipsy, and the penalties for being {rule/drunk>enness} or soused are halved for you."
 		]
 	},
 	"harmonic_sage": {
@@ -3865,7 +3865,7 @@
 			"{SOURCE Advanced Race Guide/105}",
 			"",
 			"Your magical heritage is more potent than that of your peers, as demonstrated by your superior spell-like abilities.  ",
-			"**Prerequisites:** Cha 13, {feat/Drow Nobility}, able to use drow spell-like abilities, drow.  ",
+			"**Prerequisites:** Cha 13, {feat/Drow Nobility}, able to use drow spell-like abilities, {race/drow}.  ",
 			"**Benefit:** You may use your dancing lights, faerie fire, feather fall, and levitate spell-like abilities twice per day. Your darkness spell-like ability instead becomes deeper darkness, which you may use twice per day."
 		]
 	},
@@ -5179,7 +5179,7 @@
 			"{SOURCE Advanced Race Guide/105}",
 			"",
 			"You are a master of drow noble magic.  ",
-			"**Prerequisites:** Cha 13, Wis 13, {feat/Drow Nobility}, {feat/Greater Drow Nobility}, {feat/Improved Drow Nobility}, {feat/Umbral Scion}, able to use drow spell-like abilities, drow.  ",
+			"**Prerequisites:** Cha 13, Wis 13, {feat/Drow Nobility}, {feat/Greater Drow Nobility}, {feat/Improved Drow Nobility}, {feat/Umbral Scion}, able to use drow spell-like abilities, {race/drow}.  ",
 			"**Benefit:** You may use {spell/dispel magic}, {spell/divine favor}, and {spell/suggestion} once per day as spell-like abilities. Your caster level is equal to your character level."
 		]
 	},

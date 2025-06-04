@@ -2734,7 +2734,7 @@
 			"",
 			"**Spell-Like Abilities:** A guardian spirit's caster level for its spell-like abilities is equal to its Challenge Rating + 1, or to the base creature's caster level, whichever is higher. It can cast guidance at will. For every spell level of the conjuration spell used to call or summon it (such as {spell/planar ally}, {spell/planar binding}, or {spell/summon monster>_1} if the summoner has the {feat/Summon Guardian Spirit} feat), the guardian spirit gains access to one additional spell-like ability of the ward's choice from the following list:",
 			"",
-			"**Spell Level 3:** {spell/Chill touch}, {spell/ill omen}, {spell/protection from[ chaos//evil//good]//law} (choose one; its alignment descriptor must oppose the guardian spirit's alignment).  ",
+			"**Spell Level 3:** {spell/Chill touch}, {spell/ill omen}, {spell/protection from[ chaos/evil/good]//law} (choose one; its alignment descriptor must oppose the guardian spirit's alignment).  ",
 			"**Spell Level 4:** {spell/Call lightning}, {spell/detect thoughts}, {spell/invisibility}.  ",
 			"**Spell Level 5:** {spell/Cure serious wounds}, {spell/dispel magic}, {spell/shout}.  ",
 			"**Spell Level 6:** {spell/Call lightning storm}, {spell/death ward}, {spell/freedom of movement}.  ",

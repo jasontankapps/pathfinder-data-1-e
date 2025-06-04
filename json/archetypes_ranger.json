@@ -962,7 +962,7 @@
 			"",
 			"This ability replaces wild empathy.",
 			"",
-			"**Poison Style (Ex):** At 2nd level, in place of a combat style feat, a poison darter can select any {ability/rogue talent>s} that modifies sneak attacks or any alchemist {ability/discover/y>ies} that modifies poisons he creates and applies, using his Wisdom modifier in place of his Intelligence modifier and his ranger level in place of his alchemist or rogue level for the purpose of meeting prerequisites. He can use the sticky poison discovery to apply a single dose of poison to two blowgun darts without reducing its potency.",
+			"**Poison Style (Ex):** At 2nd level, in place of a combat style feat, a poison darter can select any {ability/rogue talent>s} that modifies sneak attacks or any alchemist {ability/discovery} that modifies poisons he creates and applies, using his Wisdom modifier in place of his Intelligence modifier and his ranger level in place of his alchemist or rogue level for the purpose of meeting prerequisites. He can use the sticky poison discovery to apply a single dose of poison to two blowgun darts without reducing its potency.",
 			"",
 			"This ability modifies combat style feat.",
 			"",
@@ -1042,7 +1042,7 @@
 			"",
 			"**Shrewdest Monarch (Su):** At 20th level, the realm wanderer has become a true master of the territories with which he is familiar. As a standard action, he can make a single attack at his full attack bonus against an enemy in one of the terrains chosen using the dual master ability. If the attack hits, the target takes damage normally and must succeed at a Fortitude saving throw or die. The DC of this saving throw is equal to 10 + half the realm wanderer's level + his Wisdom modifier. A realm wanderer can instead deal an amount of nonlethal damage equal to the creature's current hit points; the target can attempt a Fortitude save at the same DC to negates this damage. The realm wanderer can use this ability in these favored terrains only up to four times per day, but not against the same creature more than once in a 24-hour period.",
 			"",
-			"Further, the realm wanderer gains a bonus on attack rolls equal to his Wisdom modifier against creatures that have successfully learned his alignment (using {spell/detect [chaos//]evil[/good/law]}, as appropriate, or similar effects).",
+			"Further, the realm wanderer gains a bonus on attack rolls equal to his Wisdom modifier against creatures that have successfully learned his alignment (using {spell/detect [chaos/]evil[/good/law]}, as appropriate, or similar effects).",
 			"",
 			"This replaces master hunter."
 		]

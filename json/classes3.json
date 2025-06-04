@@ -1397,7 +1397,7 @@
 			"",
 			"Alternatively, a paladin can use this healing power to deal damage to undead creatures, dealing 1d6 points of damage for every two levels the paladin possesses. Using lay on hands in this way requires a successful melee touch attack and doesn't provoke an attack of opportunity. Undead do not receive a saving throw against this damage.",
 			"",
-			":b[Aura of Courage (Su):]{id=courage-health-and-mercy} At 3rd level, a paladin is immune to fear (magical or otherwise). Each ally within 10 feet of her gains a +4 morale bonus on saving throws against fear effects. This ability functions only while the paladin is conscious, not if she is unconscious or dead.",
+			":b[Aura of Courage (Su):]{id=courage-health-and-mercy} At 3rd level, a paladin is immune to fear (magical or otherwise). Each ally [within 10 feet of her](misc/emanation) gains a +4 morale bonus on saving throws against fear effects. This ability functions only while the paladin is conscious, not if she is unconscious or dead.",
 			"",
 			"**Divine Health (Ex):** At 3rd level, a paladin is immune to all diseases, including supernatural and magical diseases, including mummy rot.",
 			"",

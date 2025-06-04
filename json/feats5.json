@@ -1459,7 +1459,7 @@
 			"{SOURCE Advanced Race Guide/137}",
 			"",
 			"You are adept at moving fast and staying hidden.  ",
-			"**Prerequisites:** Stealth 4 ranks, kobold.  ",
+			"**Prerequisites:** Stealth 4 ranks, {race/kobold}.  ",
 			"**Benefit:** You take no penalty on Stealth checks when you move up to your full speed. You can use the run or charge action and remain hidden, taking a -10 penalty on the check to do so.  ",
 			"**Normal:** When moving greater than half speed up to your full speed, you take a -5 penalty on Stealth checks. When you are able to run or charge while using Stealth, you take a -20 penalty on the Stealth check.",
 			"",
@@ -1478,7 +1478,7 @@
 			"{SOURCE Kobolds of Golarion/24}",
 			"",
 			"Your cunning, confidence, or faith in the draconic power in your blood allows you to overcome your physical frailty.  ",
-			"**Prerequisites:** Charisma 13, kobold.  ",
+			"**Prerequisites:** Charisma 13, {race/kobold}.  ",
 			"**Benefit:** You use your Charisma, Intelligence, or Wisdom in place of Constitution to determine your bonus to Fortitude saves and your maximum negative hit points before death. Once this choice has been made, it can't be changed."
 		]
 	},
@@ -1520,7 +1520,7 @@
 			"{SOURCE Advanced Race Guide/137}",
 			"",
 			"You snipe quickly, making it harder for others to find the location of your attack.  ",
-			"**Prerequisites:** Stealth 1 rank, kobold.  ",
+			"**Prerequisites:** Stealth 1 rank, {race/kobold}.  ",
 			"**Benefit:** When you are sniping, you only take a -10 penalty on your Stealth checks to stay hidden.  ",
 			"**Normal:** You take a -20 penalty on your Stealth check to maintain your obscured location while sniping.",
 			"",
@@ -4405,7 +4405,7 @@
 			"{SOURCE Kobolds of Golarion/24}",
 			"",
 			"Your spellcasting is strongest against those in peril.  ",
-			"**Prerequisites:** Ability to cast spells, kobold.  ",
+			"**Prerequisites:** Ability to cast spells, {race/kobold}.  ",
 			"**Benefit:** The DC to resist your spells increases by 1 for targets that are already afflicted with any of the following conditions: blinded, dying, entangled, exhausted, frightened, helpless, nauseated, panicked, paralyzed, or stunned."
 		]
 	},
@@ -4418,7 +4418,7 @@
 			"{SOURCE Kobolds of Golarion/24}",
 			"",
 			"You delight and excel in bringing down hobbled targets.  ",
-			"**Prerequisites:** Sneak attack class feature, kobold.  ",
+			"**Prerequisites:** Sneak attack class feature, {race/kobold}.  ",
 			"**Benefit:** Your sneak attack damage increases by 1d6 against targets that are already afflicted with any of the following conditions: blinded, dying, entangled, exhausted, frightened, helpless, nauseated, panicked, paralyzed, or stunned."
 		]
 	},
@@ -4765,7 +4765,7 @@
 			"{SOURCE Kobolds of Golarion/24}",
 			"",
 			"You have two colors of scales, which mark you as special.  ",
-			"**Prerequisites:** {feat/Draconic Aspect} or dragon-scaled racial trait, kobold.  ",
+			"**Prerequisites:** {feat/Draconic Aspect} or dragon-scaled racial trait, {race/kobold}.  ",
 			"**Benefit:** Choose an additional color for your Draconic Aspect feat or dragon-scaled racial trait. You gain the benefits of both this color and the color you originally chose. (If you have both Draconic Aspect and dragon-scaled, this benefit applies to both.) If you gain abilities that rely on scale color, choose which color gains the benefits."
 		]
 	},

@@ -45,6 +45,10 @@ export const checkForEncodedLink = (input: string, options: Options = {}): false
 	while(m = matched.match(/(^.*?)[/]{2}(.*$)/)) {
 		matched = `${m[1]}=slAsh=${m[2]}`;
 	}
+	// Slashes in [brackets]
+	while(m = matched.match(/(^.*?\[[^\[\]]*)[/]([^\[\]]*\].*$)/)) {
+		matched = `${m[1]}=slAsh=${m[2]}`;
+	}
 	// pre|text
 	if(m = matched.match(/(^.*?)\|(.*$)/)) {
 		matched = m[2];

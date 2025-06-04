@@ -745,7 +745,7 @@
 		"compilationSources": [ [ "Chronicle of Legends", 7 ] ],
 		"category": "Other Talents",
 		"description": [
-			"A vigilante with this talent gains the ability to attach an {class/alchemist} bomb to a ranged attack he makes with a bow or crossbow as part of firing the attack. If the attack hits, it deals an additional amount of damage equal to that of an alchemist bomb, using the vigilante's level as his alchemist level to determine the bomb's damage. He can use this ability a number of times per day equal to 3 + his Intelligence modifier. The vigilante can takes this talent multiple times. Each time he does, he can use the ability one additional time per day and he gains one {ability/alchemist |discover/y>ies} that can modify bombs, treating his vigilante level as his alchemist level for any prerequisites. He can apply these discoveries to his bombs as normal."
+			"A vigilante with this talent gains the ability to attach an {class/alchemist} bomb to a ranged attack he makes with a bow or crossbow as part of firing the attack. If the attack hits, it deals an additional amount of damage equal to that of an alchemist bomb, using the vigilante's level as his alchemist level to determine the bomb's damage. He can use this ability a number of times per day equal to 3 + his Intelligence modifier. The vigilante can takes this talent multiple times. Each time he does, he can use the ability one additional time per day and he gains one {ability/alchemist |discovery} that can modify bombs, treating his vigilante level as his alchemist level for any prerequisites. He can apply these discoveries to his bombs as normal."
 		]
 	},
 	"vortex_splash": {

@@ -922,6 +922,44 @@
 			"This small metal shield is worn strapped to your forearm. You can use a bow or crossbow without penalty while carrying it. You can also use your shield arm to wield a weapon (whether you are using an off-hand weapon or using your off hand to help wield a two-handed weapon), but you take a -1 penalty on attack rolls while doing so. This penalty stacks with those that may apply for fighting with your off hand and for fighting with two weapons. In any case, if you use a weapon in your off hand, you lose the buckler's AC bonus until your next turn. You can cast a spell with somatic components using your shield arm, but you lose the buckler's AC bonus until your next turn. You can't make a shield bash with a buckler."
 		]
 	},
+	"poisoners_buckler": {
+		"name": "Poisoner's Buckler",
+		"sources": [ "Heroes from the Fringe" ],
+		"description": [
+			"## Poisoner's Buckler",
+			"{SOURCE Heroes from the Fringe/23}  ",
+			"**Cost** 1,505 gp **Weight** 3 lbs.  ",
+			"**Armor Bonus** +1; **Max Dex Bonus** &mdash;; **Armor Check Penalty** &mdash;  ",
+			"**Arcane Spell Failure Chance** &mdash;%",
+			"",
+			"Half-drow make these bucklers to allow for quick application of exactly the right poison in the middle of combat. This {eq-material/mithral} buckler is painted black with three deep grooves running over the surface, each fitted with a slot that can hold a vial of poison. As a move action, the user can swipe a weapon over the surface of the buckler, coating it with a single dose of poison. The buckler can hold 3 doses of poison. If the wearer does not have the {ability/poison use} ability, she faces the standard risk of poisoning herself."
+		]
+	},
+	"light_shield": {
+		"name": "Light Shield",
+		"sources": [],
+		"description": [
+			"## Light Shield",
+			"",
+			"\"Light Shield\" can refer to any of these shields.",
+			"",
+			"1. {eq-armor/light wooden shield}",
+			"    - {eq-armor/light wooden quickdraw shield}",
+			"2. {eq-armor/light steel shield}",
+			"    - {eq-armor/light steel quickdraw shield}",
+			"3. {eq-armor/leather madu}",
+			"4. {eq-armor/steel madu}",
+			"5. {eq-armor/dwarven war shield}",
+			"6. {eq-armor/klar}",
+			"",
+			"**Shield Bash Attacks:** You can bash an opponent with a light shield. Used this way, a light shield is a martial bludgeoning weapon. For the purpose of penalties on attack rolls, treat a light shield as a light weapon. If you use your shield as a weapon, you lose its AC bonus until your next turn. An enhancement bonus on a shield does not improve the effectiveness of a shield bash made with it, but the shield can be made into a magic weapon in its own right.",
+			"",
+			"**Damage** 1d2 (small), 1d3 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** -  ",
+			"**Category** Light; **Proficiency** Martial  ",
+			"**{ability/Weapon Group>s}** Close; Tribal"
+		],
+		"disambiguation": true
+	},
 	"klar": {
 		"name": "Klar",
 		"sources": [
@@ -1013,7 +1051,6 @@
 			"**{ability/Weapon Group>s}** Close; Tribal"
 		]
 	},
-	"light_shield": { "copyof": "light_wooden_shield" },
 	"light_wooden_quickdraw_shield": {
 		"name": "Light wooden quickdraw shield",
 		"sources": [
@@ -1084,19 +1121,6 @@
 		]
 	},
 	"steel_madu": { "copyof": "madu_shield_steel" },
-	"poisoners_buckler": {
-		"name": "Poisoner's Buckler",
-		"sources": [ "Heroes from the Fringe" ],
-		"description": [
-			"## Poisoner's Buckler",
-			"{SOURCE Heroes from the Fringe/23}  ",
-			"**Cost** 1,505 gp **Weight** 3 lbs.  ",
-			"**Armor Bonus** +1; **Max Dex Bonus** &mdash;; **Armor Check Penalty** &mdash;  ",
-			"**Arcane Spell Failure Chance** &mdash;%",
-			"",
-			"Half-drow make these bucklers to allow for quick application of exactly the right poison in the middle of combat. This {eq-material/mithral} buckler is painted black with three deep grooves running over the surface, each fitted with a slot that can hold a vial of poison. As a move action, the user can swipe a weapon over the surface of the buckler, coating it with a single dose of poison. The buckler can hold 3 doses of poison. If the wearer does not have the {ability/poison use} ability, she faces the standard risk of poisoning herself."
-		]
-	},
 	"war_shield_dwarven": {
 		"name": "War-shield, dwarven",
 		"sources": [ "Adventurer's Armory 2" ],
@@ -1117,6 +1141,27 @@
 		]
 	},
 	"dwarven_war_shield": { "copyof": "war_shield_dwarven" },
+	"heavy_shield": {
+		"name": "Heavy Shield",
+		"sources": [],
+		"description": [
+			"## Heavy Shield",
+			"",
+			"\"Heavy Shield\" can refer to any of these shields.",
+			"",
+			"1. {eq-armor/heavy wooden shield}",
+			"2. {eq-armor/heavy steel shield}",
+			"3. {eq-armor/wooden snarlshield}",
+			"4. {eq-armor/steel snarlshield}",
+			"",
+			"**Shield Bash Attacks:** You can bash an opponent with a heavy shield. Used this way, a heavy shield is a martial bludgeoning weapon. For the purpose of penalties on attack rolls, treat a heavy shield as a one-handed weapon. If you use your shield as a weapon, you lose its AC bonus until your next turn. An enhancement bonus on a shield does not improve the effectiveness of a shield bash made with it, but the shield can be made into a magic weapon in its own right.",
+			"",
+			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** -  ",
+			"**Category** One-Handed; **Proficiency** Martial  ",
+			"**{ability/Weapon Group>s}** Close; Tribal"
+		],
+		"disambiguation": true
+	},
 	"heavy_steel_shield": {
 		"name": "Heavy steel shield",
 		"sources": [
