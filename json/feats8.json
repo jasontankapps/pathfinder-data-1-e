@@ -662,7 +662,7 @@
 			"{SOURCE Heroes of the Darklands/5}",
 			"",
 			"You can use your surroundings to accelerate your movement, and your enemy's presence pushes you further.  ",
-			"**Prerequisites:** {ability/Favored enemy} class feature, favored terrain class feature.  ",
+			"**Prerequisites:** {ability/Favored enemy} class feature, {ability/favored terrain} class feature.  ",
 			"**Benefit:** While you're in any of your favored terrain types, you gain a 5-foot bonus to your movement speed. This bonus increases to 10 feet if a creature of the same type as one of your favored enemies is visible and within the same terrain type."
 		]
 	},
@@ -882,7 +882,7 @@
 			"Those who you intimidate know that you'll go through with your threats.  ",
 			"**Prerequisites:** {feat/Nerve-Racking Negotiator}, {feat/Persuasive}, {feat/Skill Focus} (Intimidate).  ",
 			"**Benefit:** When you successfully use the Intimidate skill to force an opponent to act friendly toward you, the duration of the attitude change lasts 2d6 hours.  ",
-			"**Normal:** Changing an opponent's attitude with Intimidate normally changes the foe's attitude to friendly for 1d6x10 minutes."
+			"**Normal:** Changing an opponent's attitude with Intimidate normally changes the foe's attitude to friendly for 1d6&times;10 minutes."
 		]
 	},
 	"threnodic_spell": {
@@ -1202,12 +1202,12 @@
 		"name": "Titan Strike",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
-			"## Titan Strike",
+			"## Titan Strike (Mythic)",
 			"",
 			"{SOURCE Mythic Adventures/75}",
 			"",
 			"Your fists can fell titanic foes.  ",
-			"**Prerequisites:** {feat/Improved Unarmed Strike} (mythic).  ",
+			"**Prerequisites:** {feat/Mythic |Improved Unarmed Strike}.  ",
 			"**Benefit:** Your unarmed strike deals damage as if you were one size category larger. You also gain a +1 bonus for each size category that your target is larger than you on the following: bull rush, drag, grapple, overrun, sunder, and trip combat maneuver checks and the DC of your Stunning Fist."
 		]
 	},
@@ -1661,7 +1661,7 @@
 			"{SOURCE Dirty Tactics Toolbox/9}",
 			"",
 			"You can infuse a spell with the power of a poison.  ",
-			"**Prerequisites:** Craft (poison) 5 ranks, ability to cast 2nd-level spells, poison use class feature.  ",
+			"**Prerequisites:** Craft (poison) 5 ranks, ability to cast 2nd-level spells, {ability/poison use} class feature.  ",
 			"**Benefit:** You can use 1 dose of contact, ingested, inhaled, or injury poison as an additional material component for a spell you cast. This spell gains the poison descriptor. Select a single creature affected by the spell. If that creature fails its saving throw against the spell, it must also attempt a saving throw against the poison used as a material component. If the target fails the save against the poison, the poison takes effect immediately, ignoring any onset time. The poison uses its save DC (rather than the save DC of the spell), but is modified by any effects that increase the spell's DC (such as {feat/Spell Focus}). This feat works only with spells whose effects can be negated by a successful Fortitude save. A toxic spell uses up a spell slot 1 level higher than the spell's actual level."
 		]
 	},
@@ -1876,7 +1876,7 @@
 			"{SOURCE Dirty Tactics Toolbox/6}",
 			"",
 			"You twist a blade to force more of the poison on it into an enemy's bloodstream.  ",
-			"**Prerequisites:** Base attack bonus +5, sneak attack class feature.  ",
+			"**Prerequisites:** Base attack bonus +5, {ability/sneak attack} class feature.  ",
 			"**Benefit:** When you make a sneak attack with a poisoned weapon, you can forgo some of your sneak attack damage to increase the save DC of your poison, increasing the poison's save DC by 1 for every 1d6 points of sneak attack damage you forgo. This can't cause the save DC to exceed 15 + 1/2 your character level."
 		]
 	},
@@ -2296,7 +2296,7 @@
 			"{SOURCE Planar Adventures/33}",
 			"",
 			"You can pour the churning chaos of the Maelstrom into your magic, causing foes to scatter unpredictably, pushed apart in random directions as the unknowable whims of chaos itself, bringing with it strange and unexpected sounds and flashes of unnatural color.  ",
-			"**Benefit:** You can enhance any spell that targets a single creature to become a tumultuous spell. A creature hit by a tumultuous spell (if the spell requires an attack roll) or that fails its saving throw against a tumultuous spell immediately moves 1d4x5 feet in a random direction. This movement does not provoke attacks of opportunity. If this movement would force a creature into a solid object or another creature, the movement ends harmlessly just before impact.",
+			"**Benefit:** You can enhance any spell that targets a single creature to become a tumultuous spell. A creature hit by a tumultuous spell (if the spell requires an attack roll) or that fails its saving throw against a tumultuous spell immediately moves 1d4&times;5 feet in a random direction. This movement does not provoke attacks of opportunity. If this movement would force a creature into a solid object or another creature, the movement ends harmlessly just before impact.",
 			"",
 			"A tumultuous spell uses a spell slot 1 level higher than the spell's normal spell level. Spells with the lawful descriptor can't be tumultuous spells."
 		]
@@ -2529,7 +2529,7 @@
 			"{SOURCE Advanced Class Guide/158}",
 			"",
 			"Your quick reflexes and dexterous movements make up for your lack of stamina.  ",
-			"**Prerequisites:** Evasion.  ",
+			"**Prerequisites:** {ability/Evasion}.  ",
 			"**Benefit:** While you are wearing light armor or no armor, if you are forced to attempt a Fortitude saving throw, you can use an immediate action to instead attempt a Reflex saving throw (at the same DC). If you succeed at this saving throw and the attack has a reduced effect on a successful save, you avoid the effect entirely. Whether the saving throw is successful or not, you are staggered until the end of your next turn. If you are prevented from becoming staggered, you can't use Twist Away, nor can you ignore the staggered condition from Twist Away or remove it early."
 		]
 	},
@@ -2552,7 +2552,7 @@
 		"name": "Two-Fisted Drinker",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
-			"## Two-Fisted Drinker",
+			"## Two-Fisted Drinker (Mythic)",
 			"",
 			"{SOURCE Mythic Adventures/76}",
 			"",
@@ -2947,7 +2947,7 @@
 			"{SOURCE Paths of the Righteous/25}",
 			"",
 			"You have learned to use your senses to protect others.  ",
-			"**Prerequisites:** {feat/Alertness}, uncanny dodge class feature.  ",
+			"**Prerequisites:** {feat/Alertness}, {ability/uncanny dodge} class feature.  ",
 			"**Benefit:** When you are conscious and able to move freely, allies adjacent to you who can see and hear you gain the benefit of your uncanny dodge. If you have improved uncanny dodge, as a free action at the beginning of your turn, you can designate one adjacent ally to receive the benefit of that ability as well. The ally can be sneak attacked by foes with 4 more rogue levels than your character level or your ally's character level, whichever is lower."
 		]
 	},
@@ -3669,7 +3669,7 @@
 		"name": "Valiant Vault",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
-			"## Valiant Vault",
+			"## Valiant Vault (Mythic)",
 			"",
 			"{SOURCE Mythic Adventures/76}",
 			"",
@@ -3743,7 +3743,7 @@
 			"{SOURCE Goblins of Golarion/25}",
 			"",
 			"Even other goblins admire your talent for mindless destruction.  ",
-			"**Prerequisites:** {race/Goblin}, sneak attack class feature.  ",
+			"**Prerequisites:** {race/Goblin}, {ability/sneak attack} class feature.  ",
 			"**Benefit:** You treat unattended objects as if they were vulnerable to your sneak attack, but you only deal half as much damage as you would against an actual creature. For instance, if you rolled 12 extra damage from the sneak attack you would deal an extra 6 damage to the object. This only applies when attacking unattended objects."
 		]
 	},
@@ -3985,7 +3985,7 @@
 			"{SOURCE Faction Guide/58}",
 			"",
 			"The range of your bardic performances increases.  ",
-			"**Prerequisites:** Bardic performance class feature, {feat/Extra Performance}, {feat/Master Performer}, bard level 8th, [Kitharodian Academy](rule/f_bards) 15 TPA.  ",
+			"**Prerequisites:** {ability/Bardic performance} class feature, {feat/Extra Performance}, {feat/Master Performer}, bard level 8th, [Kitharodian Academy](rule/f_bards) 15 TPA.  ",
 			"**Benefit:** Double the range of any bardic performance ability that possesses a range in the ability description."
 		]
 	},
@@ -4628,7 +4628,7 @@
 			"{SOURCE Advanced Player's Guide/173}",
 			"",
 			"Your songs draw upon the savage chants and brutal ways of your people, inspiring those around you to new heights of violence and savagery.  ",
-			"**Prerequisites:** Cha 13, bardic performance class feature, {race/half-orc} or {race/orc}.  ",
+			"**Prerequisites:** Cha 13, {ability/bardic performance} class feature, {race/half-orc} or {race/orc}.  ",
 			"**Benefit:** When you use bardic performance with audible components on a battlefield (any area where a combat involving a dozen or more combatants is taking place), the range or area of your chosen performance is doubled. In addition, the DC for saving throws against your bardic performance is increased by +2 for creatures of the orc subtype, regardless of where the performance occurs."
 		]
 	},

@@ -757,7 +757,7 @@
 			"{SOURCE Ultimate Intrigue/91}",
 			"",
 			"Your enemies' fear causes them to jump at shadows, diverting their attention.  ",
-			"**Prerequisites:** Hidden strike +2d8 or sneak attack +2d6.  ",
+			"**Prerequisites:** Hidden strike +2d8 or {ability/sneak attack} +2d6.  ",
 			"**Benefit:** The first time each round that you hit a creature suffering from a fear effect, you can deal hidden strike or sneak attack damage as if you were flanking that creature (improved uncanny dodge and other effects that prevent flanking also prevent a hidden strike or sneak attack from this feat)."
 		]
 	},
@@ -2178,7 +2178,7 @@
 			"{SOURCE Faction Guide/57}",
 			"",
 			"You can use any bardic performance ability without making a sound.  ",
-			"**Prerequisites:** Bardic performance class feature, {feat/Extra Performance}, {feat/Master Performer}, bard level 12th, [Kitharodian Academy](rule/f_bards) 15 TPA.  ",
+			"**Prerequisites:** {ability/Bardic performance} class feature, {feat/Extra Performance}, {feat/Master Performer}, bard level 12th, [Kitharodian Academy](rule/f_bards) 15 TPA.  ",
 			"**Benefit:** You can use your audible-component bardic performance as visual-component bardic performances. Any bardic ability used in this manner expends 4 times as many bardic performance rounds as normal."
 		]
 	},
@@ -3201,7 +3201,7 @@
 			"{SOURCE Dirty Tactics Toolbox/11}",
 			"",
 			"Your critical hits are particularly deadly.  ",
-			"**Prerequisites:** {feat/Critical Focus}, base attack bonus +9, sneak attack class feature.  ",
+			"**Prerequisites:** {feat/Critical Focus}, base attack bonus +9, {ability/sneak attack} class feature.  ",
 			"**Benefit:** Whenever you confirm a critical hit on a sneak attack, you can roll an additional number of sneak attack dice equal to your weapon's critical modifier.  ",
 			"**Special:** You can apply the effects of only one critical feat to a given critical hit unless you possess Critical Mastery."
 		]
@@ -3215,7 +3215,7 @@
 			"{SOURCE Ultimate Combat/120}",
 			"",
 			"Your knowledge of your enemies' vulnerable spots is especially punishing.  ",
-			"**Prerequisites:** Sneak attack +6d6, {feat/Critical Focus}, any critical feat, base attack bonus +9.  ",
+			"**Prerequisites:** {ability/Sneak attack} +6d6, {feat/Critical Focus}, any critical feat, base attack bonus +9.  ",
 			"**Benefit:** Whenever you successfully sneak attack an opponent for a second time on your turn, you can spend a swift action to apply the effects of one critical feat you know to that opponent."
 		]
 	},
@@ -3952,7 +3952,7 @@
 			"{SOURCE Ultimate Magic/156}",
 			"",
 			"You can blend the power of your performance and spellcasting.  ",
-			"**Prerequisites:** Cha 13, bardic performance class ability, able to cast 1st-level spells.  ",
+			"**Prerequisites:** Cha 13, {ability/bardic performance} class ability, able to cast 1st-level spells.  ",
 			"**Benefit:** You can combine your bardic performance and your spellcasting in two ways.",
 			"",
 			"First, you can conceal the activity of casting a bard spell by masking it in a performance. As a swift action, you may combine your casting time of a spell with a Perform check. Observers must make a Perception or Sense Motive check opposed by your Perform check to realize you are also casting a spell. This uses 1 round of your bardic performance ability, regardless of the spell's casting time.",

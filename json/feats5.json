@@ -50,7 +50,7 @@
 			"{SOURCE Advanced Class Guide/151}",
 			"",
 			"Your knowledge of where to strike makes your poisons more deadly.  ",
-			"**Prerequisites:** Poison use class feature, studied strike +4d6.  ",
+			"**Prerequisites:** {ability/Poison use} class feature, studied strike +4d6.  ",
 			"**Benefit:** When you use a poisoned weapon to attempt an attack in conjunction with studied strike, the DC to resist the poison increases by half the number of your studied strike dice."
 		]
 	},
@@ -115,7 +115,7 @@
 			"{SOURCE Dirty Tactics Toolbox/11}",
 			"",
 			"Your brilliant insight makes you more dangerous in combat.  ",
-			"**Prerequisites:** Inspiration pool; sneak attack or studied strike class feature.  ",
+			"**Prerequisites:** Inspiration pool; {ability/sneak attack} or studied strike class feature.  ",
 			"**Benefit:** When dealing sneak attack or studied strike damage, you can expend a use of inspiration from your pool to reroll all of your sneak attack dice that resulted in 1s. If you have the powerful sneak rogue talent, rather than treat all 1s on your sneak attack damage dice as 2s, you can reroll all your sneak attack dice that resulted in 1s. If you have the deadly sneak advanced rogue talent, rather than treat all 1s and 2s on your sneak attack damage dice as 3s, you can reroll all your sneak attack damage dice that resulted in 1s or 2s. In either case, you must take the result of the rerolls, even if it's worse than the original result."
 		]
 	},
@@ -154,7 +154,7 @@
 			"{SOURCE Ultimate Intrigue/85}",
 			"",
 			"Others listen to your words of encouragement and perform acts above and beyond as a result.  ",
-			"**Prerequisites:** Cha 13, inspire competence bardic performance.  ",
+			"**Prerequisites:** Cha 13, {performance/inspire competence} bardic performance.  ",
 			"**Benefit:** Inspire competence now affects all allies within 30 feet who can hear your performance, as long as they are attempting the skill you've selected.  ",
 			"**Normal:** Inspire competence only affects one ally."
 		]
@@ -208,7 +208,7 @@
 			"{SOURCE Classic Treasures Revisited/38}",
 			"",
 			"You can deliver a breathtaking bardic performance while activating the powers of a magical instrument, or utilize your bardic prowess to enhance the instrument's power.  ",
-			"**Prerequisites:** Bardic Performance class feature, Perform (any instrument) 3 ranks.  ",
+			"**Prerequisites:** {ability/Bardic Performance} class feature, Perform (any instrument) 3 ranks.  ",
 			"**Benefit:** When activating a magical instrument as a full-round or standard action, you may begin a bardic performance as a free action. Your performance must use a Perform skill appropriate to the instrument.",
 			"",
 			"Alternatively, you may expand 2 rounds of bardic performance to add +2 to any save DCs associated with the use of the instrument's powers.",
@@ -420,7 +420,7 @@
 			"{SOURCE Advanced Class Guide/151}",
 			"",
 			"Your performance strikes fear in the hearts of foes.  ",
-			"**Prerequisites:** Ability to start a performance (or raging song) as a move action, bardic performance or raging song class feature.  ",
+			"**Prerequisites:** Ability to start a performance (or raging song) as a move action, {ability/bardic performance} or raging song class feature.  ",
 			"**Benefit:** When you start a performance (or a raging song) as a move or swift action, you can use a standard action to demoralize a foe, attempting a Perform check appropriate to your performance in place of the Intimidate check. Your performance must be one with an audible component.",
 			"",
 			"If you can start a performance as a swift action and you have the {feat/Dazzling Display} feat, you can gain the benefit of Dazzling Display by succeeding at a Perform check in place of an Intimidate check."
@@ -498,7 +498,7 @@
 			"{SOURCE Legacy of the First World/23}",
 			"",
 			"With no other allies to enjoy your performance, you improvise to make it more inspiring for yourself.  ",
-			"**Prerequisites:** Perform (any) 3 ranks, bardic performance or raging song class feature.  ",
+			"**Prerequisites:** Perform (any) 3 ranks, {ability/bardic performance} or raging song class feature.  ",
 			"**Benefit:** Whenever you are the only creature affected by a bardic performance or raging song that normally affects all allies within a range, any bonuses granted by your bardic performance or raging song are calculated as though your class level were 4 higher. This feat does not allow you to activate a bardic performance or raging song if your actual class level is not high enough to use that performance."
 		]
 	},
@@ -1394,7 +1394,7 @@
 			"{SOURCE Ultimate Combat/106}",
 			"",
 			"You can throw devastating knockout punches.  ",
-			"**Prerequisites:** Sneak attack class feature, {feat/Improved Unarmed Strike}.  ",
+			"**Prerequisites:** {ability/Sneak attack} class feature, {feat/Improved Unarmed Strike}.  ",
 			"**Benefit:** When you use your unarmed strike to deal nonlethal damage and sneak attack damage to an opponent denied his Dexterity bonus to AC, you gain a +1 bonus on the damage roll per each sneak attack damage die you roll.",
 			"",
 			"### Mythic Knockout Artist",
@@ -1859,7 +1859,7 @@
 			"{SOURCE Advanced Class Guide/152}",
 			"",
 			"Your affinity to nature grants you greater insight into specific biomes.  ",
-			"**Prerequisites:** Animal focus class feature, wild empathy class feature.  ",
+			"**Prerequisites:** {ability/Animal focus} class feature, {ability/wild empathy} class feature.  ",
 			"**Benefit:** You gain a {ability/favored terrain} as the ranger ability of the same name, though the favored terrain bonuses you receive do not increase with your level. This ability counts as the favored terrain class feature for the purposes of prerequisites and other effects.  ",
 			"**Special:** You can select this feat up to four times. Each time you take it, you apply it to a different terrain. Unlike with the ranger's favored terrain class feature, the bonuses you gain for previously chosen terrains do not increase."
 		]
@@ -1985,7 +1985,7 @@
 			"{SOURCE Advanced Player's Guide/164}",
 			"",
 			"Your songs recount the ways and mysteries of your people.  ",
-			"**Prerequisites:** Cha 13, bardic performance class feature, {race/elf} or {race/half-elf}.  ",
+			"**Prerequisites:** Cha 13, {ability/bardic performance} class feature, {race/elf} or {race/half-elf}.  ",
 			"**Benefit:** When you use bardic performance with audible components in a forest, the range or area of your chosen performance is doubled. In addition, the DC for saving throws against your bardic performance is increased by +2 for creatures of the fey type, regardless of where the performance occurs."
 		]
 	},
@@ -2014,7 +2014,7 @@
 			"{SOURCE Melee Tactics Toolbox/9}",
 			"",
 			"You jump out of the way of dangerous effects.  ",
-			"**Prerequisites:** {feat/Lightning Reflexes}, evasion class feature.  ",
+			"**Prerequisites:** {feat/Lightning Reflexes}, {ability/evasion} class feature.  ",
 			"**Benefit:** When you succeed at a Reflex save against a spell or effect that affects an area, as an immediate action you can attempt an Acrobatics check to jump out of the effect's area. You must move to the nearest space you can see outside of the affected area. The DC for this Acrobatics check is equal to the number of feet you must move to escape the area, and you can't travel farther than your normal movement. If you use this feat, you are staggered on your next turn. This movement doesn't provoke attacks of opportunity from creatures in the area of the effect you are escaping.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -2127,7 +2127,7 @@
 		"name": "Legendary Teamwork",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
-			"## Legendary Teamwork",
+			"## Legendary Teamwork (Mythic)",
 			"",
 			"{SOURCE Mythic Adventures/68}",
 			"",
@@ -2534,7 +2534,7 @@
 			"{SOURCE Advanced Player's Guide/164}",
 			"",
 			"The effects of your bardic performance carry on, even after you have stopped performing.  ",
-			"**Prerequisites:** Bardic performance class feature.  ",
+			"**Prerequisites:** {ability/Bardic performance} class feature.  ",
 			"**Benefit:** The bonuses and penalties from your bardic performance continue for 2 rounds after you cease performing. Any other requirement, such as range or specific conditions, must still be met for the effect to continue. If you begin a new bardic performance during this time, the effects of the previous performance immediately cease."
 		]
 	},
@@ -2994,7 +2994,7 @@
 		"name": "Lucky Surge",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
-			"## Lucky Surge",
+			"## Lucky Surge (Mythic)",
 			"",
 			"{SOURCE Mythic Adventures/68}",
 			"",
@@ -4037,7 +4037,7 @@
 			"{SOURCE Faction Guide/57}",
 			"",
 			"When using your bardic performance abilities, you grant your allies greater bonuses.  ",
-			"**Prerequisites:** Bardic performance class feature, {feat/Extra Performance}, [Kitharodian Academy](rule/f_bards) 15 TPA.  ",
+			"**Prerequisites:** {ability/Bardic performance} class feature, {feat/Extra Performance}, [Kitharodian Academy](rule/f_bards) 15 TPA.  ",
 			"**Benefit:** When any of your bardic performance abilities grant your allies a bonus, that bonus is increased by +1."
 		]
 	},
@@ -4156,7 +4156,7 @@
 		"name": "Maximize Surge",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
-			"## Maximize Surge",
+			"## Maximize Surge (Mythic)",
 			"",
 			"{SOURCE Mythic Adventures/69}",
 			"",
@@ -4387,7 +4387,7 @@
 			"{SOURCE Advanced Class Guide/152}",
 			"",
 			"Your talent for slaughter lets you dispatch helpless opponents before they can recover.  ",
-			"**Prerequisites:** {feat/Dastardly Finish}, sneak attack +5d6, studied target class feature.  ",
+			"**Prerequisites:** {feat/Dastardly Finish}, {ability/sneak attack} +5d6, studied target class feature.  ",
 			"**Benefit:** As a standard action that does not provoke attacks of opportunity, you can attempt a coup de grace against a cowering, helpless, or stunned opponent that you have designated as your studied target.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -4418,7 +4418,7 @@
 			"{SOURCE Kobolds of Golarion/24}",
 			"",
 			"You delight and excel in bringing down hobbled targets.  ",
-			"**Prerequisites:** Sneak attack class feature, {race/kobold}.  ",
+			"**Prerequisites:** {ability/Sneak attack} class feature, {race/kobold}.  ",
 			"**Benefit:** Your sneak attack damage increases by 1d6 against targets that are already afflicted with any of the following conditions: blinded, dying, entangled, exhausted, frightened, helpless, nauseated, panicked, paralyzed, or stunned."
 		]
 	},

@@ -324,7 +324,7 @@
 			"{SOURCE Ultimate Combat/89}",
 			"",
 			"You can quickly apply poison to gloved hands, protected feet, or other protected body parts, delivering the poison with your unarmed strikes.  ",
-			"**Prerequisites:** Poison use class feature, Craft (alchemy) 1 rank, {feat/Improved Unarmed Strike}.  ",
+			"**Prerequisites:** {ability/Poison use} class feature, Craft (alchemy) 1 rank, {feat/Improved Unarmed Strike}.  ",
 			"**Benefit:** As a swift action, you can apply one dose of contact or injury poison to two body parts that you use for unarmed strikes. You must still protect yourself against exposure to contact poisons you apply in this way.  ",
 			"**Normal:** Applying poison to a weapon or single piece of ammunition is a standard action.",
 			"",
@@ -3169,7 +3169,7 @@
 			"{SOURCE Cohorts and Companions/6}",
 			"",
 			"Your performance interweaves with and enriches your ally's skills.  ",
-			"**Prerequisites:** Bardic performance or raging song.  ",
+			"**Prerequisites:** {ability/Bardic performance} or raging song.  ",
 			"**Benefit:** You can attempt a DC 10 Perform check to {rule/aid>_another} the Perform check of an ally who also has this feat. If you succeed, your ally gains a +1 bonus for each 5 points of your check result; a check result of 10 grants a +2 bonus, a result of 15 grants a +3 bonus, and so on. If you fail, the discord applies a -5 penalty on your ally's check.  ",
 			"**Normal:** Aid another checks grant a +2 bonus."
 		]

@@ -150,7 +150,7 @@
 			"",
 			"You can verbally bully others into believing unlikely or outrageous lies.  ",
 			"**Prerequisites:** Cha 13, Bluff 1 rank, Intimidate 1 rank.  ",
-			"**Benefit:** When using {skill/Bluff} to fool a foe, you can bully that person to reduce the penalty for telling an unlikely or far-fetched lie by 5. If you do so and your check would not have succeeded otherwise, after 1d6x10 minutes, the person you fooled realizes you bullied him into believing a lie, treats you as unfriendly, and might report you or take other actions against you.  ",
+			"**Benefit:** When using {skill/Bluff} to fool a foe, you can bully that person to reduce the penalty for telling an unlikely or far-fetched lie by 5. If you do so and your check would not have succeeded otherwise, after 1d6&times;10 minutes, the person you fooled realizes you bullied him into believing a lie, treats you as unfriendly, and might report you or take other actions against you.  ",
 			"**Normal:** The penalty for telling unlikely lies is -5, and the penalty for telling far-fetched lies is -10."
 		]
 	},
@@ -4258,7 +4258,7 @@
 			"",
 			"Your judgment against a particular type of creature is particularly harsh.  ",
 			"**Prerequisites:** Wis 13, judgment class feature.  ",
-			"**Benefit:** Select a favored race from the ranger's favored enemies chart. Any sacred or profane bonus you gain from a judgment is 1 higher for attacks you make against or take from creatures that match the selected favored enemy.  ",
+			"**Benefit:** Select a favored race from the ranger's {ability/favored enemies} chart. Any sacred or profane bonus you gain from a judgment is 1 higher for attacks you make against or take from creatures that match the selected favored enemy.  ",
 			"**Special:** You can gain this feat multiple times. Its effects do not stack. Each time you take the feat, it applies to a different favored enemy."
 		]
 	},
@@ -4270,7 +4270,7 @@
 			"",
 			"{SOURCE Paths of the Righteous/3}",
 			"",
-			"You have come to favor a certain prestige class, either because you are particularly devoted to the class's cause, have trained more than most others have for that specific role, or have simply been destined to excel in the prestige class all along. Regardless of the reason, levels gained in your favored prestige class grant additional benefits in a way similar to those you gain for taking levels in your base favored class.  ",
+			"You have come to favor a certain prestige class, either because you are particularly devoted to the class's cause, have trained more than most others have for that specific role, or have simply been destined to excel in the prestige class all along. Regardless of the reason, levels gained in your favored prestige class grant additional benefits in a way similar to those you gain for taking levels in your base {rule/favored class}.  ",
 			"**Benefit:** Choose one prestige class and one skill that is a class skill for that prestige class. Whenever you gain a level in that prestige class, you receive +1 hit point or +1 skill rank. You gain a +2 bonus on checks using the skill you chose from that prestige class's class skills. If you have 10 or more ranks in one of these skills, the bonus increases to +4 for that skill. This bonus stacks with the bonus granted by Skill Focus, but does not stack with a bonus granted by any other feat (such as Magical Aptitude or Persuasive). The choice of favored prestige class cannot be changed once you make it. Levels in a favored prestige class are not the same as levels in a regular favored class, and as such levels in a favored prestige class can never be used to qualify or gain favored class options. You can have only one favored prestige class, but can still have a favored base class as well.",
 			"",
 			"You can select this feat before you gain levels in your chosen favored prestige class, but the benefits of the feat do not apply until you actually gain at least 1 level in that prestige class.  ",
@@ -4300,7 +4300,7 @@
 			"",
 			"Your aura of courage becomes more potent, as your steadfast resolve is also manifested by your allies.  ",
 			"**Prerequisites:** Aura of courage class feature, caster level 8th.  ",
-			"**Benefit:** Your aura of courage expands to a 20-foot-radius emanation. Allies within the aura are immune to fear effects.  ",
+			"**Benefit:** Your aura of courage expands to a 20-foot-radius {misc/emanation}. Allies within the aura are immune to fear effects.  ",
 			"**Normal:** The aura of courage affects each ally within 10 feet, and grants a +4 morale bonus on saving throws against fear effects."
 		]
 	},
@@ -4314,7 +4314,7 @@
 			"",
 			"Your desire to see and experience the world overrides healthy caution.  ",
 			"**Prerequisites:** Cha 13, {race/human}.  ",
-			"**Benefit:** You gain a +1 bonus on saving throws against effects with the emotion descriptor. In addition, for any round in which you begin your turn affected by a fear effect, you gain a new save at the beginning of your turn to reduce the severity of the fear effect, from panicked to frightened, frightened to shaken, and shaken to unaffected."
+			"**Benefit:** You gain a +1 bonus on saving throws against effects with the emotion descriptor. In addition, for any round in which you begin your turn affected by a fear effect, you gain a new save at the beginning of your turn to reduce the severity of the fear effect, from {misc/panicked} to {misc/frightened}, frightened to {misc/shaken}, and shaken to unaffected."
 		]
 	},
 	"fearless_zeal": {
@@ -4358,7 +4358,7 @@
 			"",
 			"When you slay enemies, you frighten other opponents.  ",
 			"**Prerequisites:** {feat/Intimidating Prowess}, worshiper of {faith/Lamashtu}.  ",
-			"**Benefit:** Upon reducing an enemy to 0 or fewer hit points, for the remaining duration of the combat encounter, you gain a +4 bonus on any Intimidate checks made to demoralize opponents who can see both you and the opponent you dropped."
+			"**Benefit:** Upon reducing an enemy to 0 or fewer hit points, for the remaining duration of the combat encounter, you gain a +4 bonus on any {skill/Intimidate} checks made to demoralize opponents who can see both you and the opponent you dropped."
 		]
 	},
 	"fearsome_spell": {
@@ -4370,7 +4370,7 @@
 			"{SOURCE Occult Adventures/134}",
 			"",
 			"Your spells inspire great fear in those harmed by them.  ",
-			"**Benefit:** When a creature takes damage from a fearsome spell, if that creature failed its save against the spell, it becomes shaken for a number of rounds equal to the spell's original level. If the spell doesn't allow a save, creatures harmed by it can attempt a Will save (against the same DC the spell would have if it did allow a save) to negate the shaken effect. If the spell effect already causes creatures to become shaken, on a failed save, add the duration of this metamagic effect to the duration of the shaken condition imposed by the spell. A fearsome spell can't cause a creature to become frightened, even if that creature is already shaken. A fearsome spell uses up a spell slot 2 levels higher than the spell's actual level."
+			"**Benefit:** When a creature takes damage from a fearsome spell, if that creature failed its save against the spell, it becomes {misc/shaken} for a number of rounds equal to the spell's original level. If the spell doesn't allow a save, creatures harmed by it can attempt a Will save (against the same DC the spell would have if it did allow a save) to negate the shaken effect. If the spell effect already causes creatures to become shaken, on a failed save, add the duration of this metamagic effect to the duration of the shaken condition imposed by the spell. A fearsome spell can't cause a creature to become {misc/frightened}, even if that creature is already shaken. A fearsome spell uses up a spell slot 2 levels higher than the spell's actual level."
 		]
 	},
 	"fearsome_spell_like_ability": {
@@ -4385,7 +4385,7 @@
 			"**Prerequisites:** Spell-like ability at caster level 6th or higher.  ",
 			"**Benefit:** Choose one of your spell-like abilities, subject to the restrictions described in this feat. You can use the chosen spell-like ability as a fearsome spell-like ability three times per day (or less, if the ability is normally usable only once or twice per day).",
 			"",
-			"When a target takes damage from a fearsome spell-like ability and fails its saving throw against the spell-like ability, it becomes shaken for a number of rounds equal to the spell-like ability's equivalent spell level. If the spell-like ability doesn't allow a saving throw, creatures harmed by it can attempt a Will save (against the DC that the spell-like ability would have if it allowed a saving throw) to negate the shaken effect. If the effect of the spell-like ability also causes targets to become shaken and a target fails its saving throw, the duration of the shaken condition caused by this effect stacks with the spell-like ability's. A fearsome spell-like ability can't cause a creature to become frightened, even if that creature is already shaken.",
+			"When a target takes damage from a fearsome spell-like ability and fails its saving throw against the spell-like ability, it becomes {misc/shaken} for a number of rounds equal to the spell-like ability's equivalent spell level. If the spell-like ability doesn't allow a saving throw, creatures harmed by it can attempt a Will save (against the DC that the spell-like ability would have if it allowed a saving throw) to negate the shaken effect. If the effect of the spell-like ability also causes targets to become shaken and a target fails its saving throw, the duration of the shaken condition caused by this effect stacks with the spell-like ability's. A fearsome spell-like ability can't cause a creature to become {misc/frightened}, even if that creature is already shaken.",
 			"",
 			"You can only select a spell-like ability duplicating a spell with a level less than or equal to 1/2 your caster level (round down) - 2  ",
 			"**Special:** This feat can be taken multiple times. Each time it is taken, you can apply it to a different spell-like ability.",
@@ -4414,7 +4414,7 @@
 			"",
 			"You can fool others into believing you have ensorcelled them.  ",
 			"**Prerequisites:** {feat/Deceitful}, Bluff 5 ranks, Spellcraft 1 rank.  ",
-			"**Benefit:** As a standard action, you can feign placing a curse on a target. The target must attempt a Sense Motive or Spellcraft check (whichever skill that target has a higher bonus with) against a DC equal to 15 + your number of ranks in Bluff + your Charisma modifier, with a bonus on his skill check equal to any conditional bonus he has on saving throws against hexes or curses (like from the spell hex ward). If he fails, he becomes plagued by self-doubt and second-guesses himself. For his next two attack rolls, saving throws, skill checks, or ability checks, he rolls twice and takes the lower result; for every 5 ranks of Bluff you possess beyond 5, this ability affects an additional roll. This is a mind-affecting effect, and it doesn't work if the target is immune to curses. Once you attempt to feign putting a curse on a creature, you cannot do so again against the same creature for 24 hours, and if the target succeeds at detecting your ruse, he gains a +10 bonus against future attempts."
+			"**Benefit:** As a standard action, you can feign placing a curse on a target. The target must attempt a Sense Motive or Spellcraft check (whichever skill that target has a higher bonus with) against a DC equal to 15 + your number of ranks in Bluff + your Charisma modifier, with a bonus on his skill check equal to any conditional bonus he has on saving throws against hexes or curses (like from the spell {spell/hex ward}). If he fails, he becomes plagued by self-doubt and second-guesses himself. For his next two attack rolls, saving throws, skill checks, or ability checks, he rolls twice and takes the lower result; for every 5 ranks of Bluff you possess beyond 5, this ability affects an additional roll. This is a mind-affecting effect, and it doesn't work if the target is immune to curses. Once you attempt to feign putting a curse on a creature, you cannot do so again against the same creature for 24 hours, and if the target succeeds at detecting your ruse, he gains a +10 bonus against future attempts."
 		]
 	},
 	"feint_defender": {
@@ -4466,7 +4466,7 @@
 			"",
 			"Your subtle flourishes mislead your enemy, tricking it into changing its footing.  ",
 			"**Prerequisites:** Dex 15, flurry of blows class feature, {feat/Combat Expertise}.  ",
-			"**Benefit:** While using flurry of blows to make melee attacks, you can forgo your first attack to make a Bluff check to feint."
+			"**Benefit:** While using flurry of blows to make melee attacks, you can forgo your first attack to make a {skill/Bluff} check to feint."
 		]
 	}
 }

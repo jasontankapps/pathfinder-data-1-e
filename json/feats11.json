@@ -375,7 +375,7 @@
 			"{SOURCE Ultimate Intrigue/87}",
 			"",
 			"You're able to impart your guidance to a single ally, regardless of location.  ",
-			"**Prerequisites:** Cha 17, {feat/Inspiring Mentor}, inspire competence bardic performance.  ",
+			"**Prerequisites:** Cha 17, {feat/Inspiring Mentor}, {performance/inspire competence} bardic performance.  ",
 			"**Benefit:** By expending 4 rounds of your bardic performance at the start of the day, you can instill one ally with your inspiring words. Select one skill in which you possess ranks. Your ally gains the benefits of your inspire competence bardic performance, regardless of distance, until the next time you replenish rounds of bardic performance. This doesn't count as an active performance, so the effects don't end if you start another performance. Only one ally can be affected by this ability at a time; if you use this ability again before the duration expires, the ally currently affected loses the bonuses from this feat."
 		]
 	},
@@ -583,7 +583,7 @@
 			"{SOURCE Ultimate Wilderness/219}",
 			"",
 			"The animal can defend its master with lightning speed.  ",
-			"**Prerequisites:** {feat/Intercept Blow}, base attack bonus +3, animal companion, evasion.  ",
+			"**Prerequisites:** {feat/Intercept Blow}, base attack bonus +3, animal companion, {ability/evasion}.  ",
 			"**Benefit:** Whenever the animal companion is adjacent to its master and its master is attempts a Reflex save, the animal companion can expend an attack of opportunity as a free action, even if it isn't its turn, to attempt a Reflex save to intervene. When using this ability, the animal companion loses the benefits of evasion (and improved evasion if it has it), but if the animal companion succeeds at its saving throw, its master gains the benefit of the animal companion's evasion (or improved evasion if it has it)."
 		]
 	},
@@ -639,7 +639,7 @@
 			"{SOURCE Inner Sea Gods/215;Faiths of Corruption/24}",
 			"",
 			"You are a careful poisoner, and know how to protect yourself against exposure to the ill effects of most substances.  ",
-			"**Prerequisites:** Con 13, poison use class feature, worshiper of {faith/Norgorber}.  ",
+			"**Prerequisites:** Con 13, {ability/poison use} class feature, worshiper of {faith/Norgorber}.  ",
 			"**Benefit:** Whenever you fail the initial saving throw against poison, you have a 20% chance of naturally rejecting the toxin, negating its effects and wasting its use."
 		]
 	},
@@ -1487,7 +1487,7 @@
 			"{SOURCE Cohorts and Companions/7}",
 			"",
 			"You can sway the hearts of an entire crowd with your art, or turn them against your enemies.  ",
-			"**Prerequisites:** Cha 13, {feat/Charming Performance}, Perform (any) 5 ranks, bardic performance or raging song.  ",
+			"**Prerequisites:** Cha 13, {feat/Charming Performance}, Perform (any) 5 ranks, {ability/bardic performance} or raging song.  ",
 			"**Benefit:** You can use Charming Performance on all creatures within 60 feet. In addition to swaying the crowd's starting attitude toward a single person, you may choose to sway the crowd's attitude toward a well-defined group with which they are familiar (such as a specific nation, organization, or religion). An attempt to rouse emotions about a group takes a -5 penalty due to the difficulty of creating strong feelings toward an entire group rather than a specific individual. The DC for this check is 30 + 1 for every five people in the crowd to be affected. You can't use Rouse Emotions to change a crowd's attitude by more than one step, or to make it helpful or hostile."
 		]
 	},
@@ -1570,7 +1570,7 @@
 			"",
 			"You can fly through the air at high speed, creating a column of wind in your path that destabilizes other fliers.  ",
 			"**Prerequisites:** {feat/Turbulent Takeoff}, Fly 10 ranks.  ",
-			"**Benefit:** As a full-round action, you can fly up to twice your Fly speed in a straight line, creating a shockwave of rushing winds around you as you move. Each flying creature you pass adjacent to as part of this movement must succeed at a DC 25 Fly check or be blown back 1d6x10 feet and take 2d6 points of nonlethal damage due to battering and buffeting. Creatures that fail this check by 5 or more also lose 1d4x10 feet of altitude, and creatures that fail this check by 10 or more plummet to the ground."
+			"**Benefit:** As a full-round action, you can fly up to twice your Fly speed in a straight line, creating a shockwave of rushing winds around you as you move. Each flying creature you pass adjacent to as part of this movement must succeed at a DC 25 Fly check or be blown back 1d6&times;10 feet and take 2d6 points of nonlethal damage due to battering and buffeting. Creatures that fail this check by 5 or more also lose 1d4&times;10 feet of altitude, and creatures that fail this check by 10 or more plummet to the ground."
 		]
 	},
 	"ruthless_opportunist": {
@@ -1934,7 +1934,7 @@
 			"{SOURCE Ultimate Combat/116}",
 			"",
 			"You know just where to hit to knock the sense out of your foe.  ",
-			"**Prerequisites:** Sneak attack +1d6.  ",
+			"**Prerequisites:** {ability/Sneak attack} +1d6.  ",
 			"**Benefit:** Whenever you use a bludgeoning weapon to deal nonlethal sneak attack damage, you gain a bonus on your damage roll equal to the number of sneak attack damage dice you rolled.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -1955,7 +1955,7 @@
 			"{SOURCE Ultimate Combat/116}",
 			"",
 			"You knock the sense out of foes with a well-timed surprise attack.  ",
-			"**Prerequisites:** Sneak attack +3d6, {feat/Sap Adept}.  ",
+			"**Prerequisites:** {ability/Sneak attack} +3d6, {feat/Sap Adept}.  ",
 			"**Benefit:** Whenever you use a bludgeoning weapon to deal nonlethal sneak attack damage to a flat-footed opponent, roll your sneak attack dice twice, totaling the results as your nonlethal sneak attack damage for that attack.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -1973,7 +1973,7 @@
 			"{SOURCE Monster Codex/153}",
 			"",
 			"You are able to land critical hits precisely, dealing devastating damage.  ",
-			"**Prerequisites:** Str 19, {monster/ogre}, sneak attack +2d6.  ",
+			"**Prerequisites:** Str 19, {monster/ogre}, {ability/sneak attack} +2d6.  ",
 			"**Benefit:** When you hit a creature using the {feat/Vital Strike} feat or confirm a critical hit against an opponent, add your sneak attack damage to the damage from the attack. This feat has no effect on attacks that already allow you to add sneak attack damage."
 		]
 	},
@@ -2795,7 +2795,7 @@
 			"{SOURCE Advanced Player's Guide/171}",
 			"",
 			"Your songs are in accordance with the ways and lands of your people.  ",
-			"**Prerequisites:** Cha 13, bardic performance class feature, {race/dwarf}.  ",
+			"**Prerequisites:** Cha 13, {ability/bardic performance} class feature, {race/dwarf}.  ",
 			"**Benefit:** When you use bardic performance with audible components underground, the range or area of your chosen performance is doubled, and you can affect deaf creatures if they possess tremorsense and are in your new range. In addition, the DC for saving throws against your bardic performance is increased by +2 for creatures of the earth subtype, regardless of where the performance occurs."
 		]
 	},
@@ -3057,7 +3057,7 @@
 			"{SOURCE Ultimate Combat/121}",
 			"",
 			"Throttling the life out of enemies is second nature to you.  ",
-			"**Prerequisites:** Dex 13, sneak attack +1d6, {feat/Improved Grapple}, {feat/Improved Unarmed Strike}.  ",
+			"**Prerequisites:** Dex 13, {ability/sneak attack} +1d6, {feat/Improved Grapple}, {feat/Improved Unarmed Strike}.  ",
 			"**Benefit:** Whenever you successfully maintain a grapple and choose to deal damage, you can spend a swift action to deal your sneak attack damage to the creature you are grappling."
 		]
 	},
@@ -4321,7 +4321,7 @@
 			"{SOURCE Advanced Class Guide/157}",
 			"",
 			"Your maneuvers are devastating against disadvantaged foes.  ",
-			"**Prerequisites:** {feat/Combat Expertise}; sneak attack +3d6 or studied strike +3d6.  ",
+			"**Prerequisites:** {feat/Combat Expertise}; {ability/sneak attack} +3d6 or studied strike +3d6.  ",
 			"**Benefit:** If you have sneak attack, when you attempt a combat maneuver check against a creature that you are flanking or that is denied its Dexterity bonus to AC against your attack, you gain a bonus on the combat maneuver check that's equal to the number of sneak attack dice you roll.",
 			"",
 			"If you have the studied combat class feature, you can use studied strike on a combat maneuver check. When you do so, you gain a bonus on the combat maneuver check equal to your number of studied strike dice."
@@ -4458,7 +4458,7 @@
 			"{SOURCE Osirion, Land of the Pharaohs/29}",
 			"",
 			"You have learned tricks to avoid being engulfed by the swarms of crawling horrors that frequently inhabit Osirion's lost tombs and desolate wastes.  ",
-			"**Prerequisites:** Dex 15, evasion.  ",
+			"**Prerequisites:** Dex 15, {ability/evasion}.  ",
 			"**Benefit:** When a swarm attacks you by ending its turn in your space, you may attempt a Reflex save to avoid damage (DC equal to the swarm's distraction save DC + 10). If the save succeeds, you also avoid any poison, blood drain, or similar effects that normally result from damage by the swarm. If you have improved evasion, it also applies to swarm damage.  ",
 			"**Note:** You must still make a Fortitude save to avoid distraction if you begin your turn in a space occupied by a swarm."
 		]

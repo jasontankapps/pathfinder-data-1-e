@@ -1545,7 +1545,7 @@
 			"| 2 | Sparks fly from the construct, dazzling each adjacent creature that can see it (Fortitude negates). |",
 			"| 3 | The construct flails wildly, making one melee attack against each adjacent creature. If the construct is wielding only a ranged weapon, it uses that weapon as an improvised bludgeoning weapon. |",
 			"| 4 | The construct leaks lubricant, affecting itself and all adjacent squares as if with a {spell/grease} spell for 1d4+1 rounds. |",
-			"| 5 | The attack causes the construct to seize violently, functioning as a free disarm combat maneuver check against the weapon that triggered the malfunction. On a success, the weapon is thrown 1d4x10 feet in a random direction. A natural weapon instead provokes a free grapple combat maneuver attempt against the attacking creature for 1 round. This malfunction has no effect on ammunition. |",
+			"| 5 | The attack causes the construct to seize violently, functioning as a free disarm combat maneuver check against the weapon that triggered the malfunction. On a success, the weapon is thrown 1d4&times;10 feet in a random direction. A natural weapon instead provokes a free grapple combat maneuver attempt against the attacking creature for 1 round. This malfunction has no effect on ammunition. |",
 			"| 6 | Acrid smoke, steam, or mist pours from the construct, as if from a {spell/pyrotechnics} smoke cloud. |",
 			"| 7 | Shrapnel explodes from the construct in all directions, dealing 1d6 points of slashing damage per Hit Die of the construct to each creature within 20 feet (Reflex half). |",
 			"| 8 | The construct emits an earsplitting screech, deafening all creatures within 20 feet (Fortitude negates). |",

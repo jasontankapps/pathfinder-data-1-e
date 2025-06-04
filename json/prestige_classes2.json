@@ -1838,7 +1838,7 @@
 			"| 5 | Target is sickened for 1 minute |",
 			"| 6 | Target becomes fatigued |",
 			"",
-			"If the critical multiplier is X3, the duration of the effect doubles. If the critical multiplier is X4, the duration triples.",
+			"If the critical multiplier is &times;3, the duration of the effect doubles. If the critical multiplier is &times;4, the duration triples.",
 			"",
 			"**Sneak Attack (Ex):** This ability is exactly like the rogue ability of the same name. The extra damage dealt increases by +1d6 at 8th level. If a low templar gets a sneak attack bonus from another source, the bonuses on damage stack.",
 			"",

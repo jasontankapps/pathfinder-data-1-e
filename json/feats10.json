@@ -9,7 +9,7 @@
 			"",
 			"Your innate grace allows you to get out of the stickiest situations.  ",
 			"**Prerequisites:** Dexterity 13, {race/catfolk}.  ",
-			"**Benefit:** You gain a +2 bonus to your CMD against bull rush, grapple, overrun, repositioning, and trip combat maneuvers."
+			"**Benefit:** You gain a +2 bonus to your CMD against {rule/bull rush}, {rule/grapple}, {rule/overrun}, {rule/reposition/ing}, and {rule/trip} combat maneuvers."
 		]
 	},
 	"felling_escape": {
@@ -67,7 +67,7 @@
 			"",
 			"Your dashing style and fluid rapier forms allow you to use agility rather than brute force to fell your foes.  ",
 			"**Prerequisites:** Dex 13, {feat/Weapon Finesse}.  ",
-			"**Benefit:** When wielding a rapier one-handed, you can add your Dexterity modifier instead of your Strength modifier to that weapon's damage. The rapier must be one appropriate for your size. You do not gain this benefit while fighting with two weapons or using flurry of blows, or anytime another hand is otherwise occupied.",
+			"**Benefit:** When wielding a {eq-weapon/rapier} one-handed, you can add your Dexterity modifier instead of your Strength modifier to that weapon's damage. The rapier must be one appropriate for your size. You do not gain this benefit while fighting with two weapons or using flurry of blows, or anytime another hand is otherwise occupied.",
 			"",
 			"In addition, if you have the panache class feature, you gain a +2 bonus to your CMD against attempts to disarm you of your rapier while you have at least 1 panache point."
 		]
@@ -103,8 +103,8 @@
 			"{SOURCE Ultimate Wilderness/218}",
 			"",
 			"The animal's grace and agility are honed for battle, making it a deadly combatant.  ",
-			"**Prerequisites:** {feat/Weapon Finesse}, base attack bonus +3, animal companion.  ",
-			"**Benefit:** Choose one of the animal companion's natural attack. When the animal companion makes a melee attack with the chosen natural attack using its Dexterity bonus on attack rolls and its Strength bonus on damage rolls, it adds 1/4 of its Hit Dice as a bonus on damage rolls. This bonus damage doesn't increase or decrease based upon whether the natural attack is a primary or secondary natural attack.  ",
+			"**Prerequisites:** {feat/Weapon Finesse}, base attack bonus +3, {ability/animal companion}.  ",
+			"**Benefit:** Choose one of the animal companion's natural attack. When the {sidekick/animal companion} makes a melee attack with the chosen natural attack using its Dexterity bonus on attack rolls and its Strength bonus on damage rolls, it adds 1/4 of its Hit Dice as a bonus on damage rolls. This bonus damage doesn't increase or decrease based upon whether the natural attack is a primary or secondary natural attack.  ",
 			"**Special:** You can select this feat multiple times. Its effects don't stack. Each time you select this feat, choose a different natural attack to apply its benefit to."
 		]
 	},
@@ -118,9 +118,9 @@
 			"",
 			"In your chest beasts the heart of a wild beast.  ",
 			"**Prerequisites:** You must have reverted to savage behavior through a traumatic event or extended period in the wilderness, or have the Raised by Beasts background (either the [adoption](rule/birth_circumstances_and_more) or [druid](rule/class_background_tables) version).  ",
-			"**Benefit:** Whenever you receive a morale bonus on Strength or attack rolls (such as from heroism or the barbarian rage class feature), you receive a +2 bonus on Dexterity- and Strength-based ability and skill checks and a +1 bonus on Reflex saves until the morale bonus effect ends.  ",
+			"**Benefit:** Whenever you receive a morale bonus on Strength or attack rolls (such as from {spell/heroism} or the barbarian rage class feature), you receive a +2 bonus on Dexterity- and Strength-based ability and skill checks and a +1 bonus on Reflex saves until the morale bonus effect ends.  ",
 			"**Goal:** Woo and then marry or otherwise enter into a committed relationship with a person from a civilized culture. This relationship must be forged in love, not bought or coerced.  ",
-			"**Completion Benefit:** Delay the penalties for the exhausted, fatigued, shaken, and sickened conditions for 1 round after first receiving them. If you already have the condition in question and it is applied again, this feat provides no benefit. Despite ignoring the penalties you do still have the condition. For example, if you become shaken again while benefiting from this feat, you become frightened as normal."
+			"**Completion Benefit:** Delay the penalties for the {misc/exhausted}, {misc/fatigued}, {misc/shaken}, and {misc/sickened} conditions for 1 round after first receiving them. If you already have the condition in question and it is applied again, this feat provides no benefit. Despite ignoring the penalties you do still have the condition. For example, if you become shaken again while benefiting from this feat, you become {misc/frightened} as normal."
 		]
 	},
 	"ferocious_action": {
@@ -326,7 +326,7 @@
 			"{SOURCE Ultimate Wilderness/111;Heroes of the Wild/26}",
 			"",
 			"The wind, trees, earth, and local wildlife join in on your bardic performances.  ",
-			"**Prerequisites:** Bardic performance class ability.  ",
+			"**Prerequisites:** {ability/Bardic performance} class ability.  ",
 			"**Benefit:** You can enhance your performance with nature's sights and sounds by expending an extra round of bardic performance at the start of the performance. The range of the performance increases by 30 feet. Furthermore, for the purposes of affecting blind and deaf creatures, this performance counts as having both audible and visible components. This feat doesn't function in environments devoid of animal and plant life."
 		]
 	},
@@ -483,7 +483,7 @@
 			"{SOURCE Blood of Fiends/25}",
 			"",
 			"You dodge energy attacks with amazing agility.  ",
-			"**Prerequisites:** Dex 13, evasion class feature, {race/tiefling}.  ",
+			"**Prerequisites:** Dex 13, {ability/evasion} class feature, {race/tiefling}.  ",
 			"**Benefit:** Choose one of the following energy types that you have resistance to: cold, electricity, or fire. Anytime you make a Reflex saving throw against an attack that deals the selected type of energy damage and is subject to your evasion class feature, you gain a +4 competence bonus on the save.  ",
 			"**Special:** You can take this feat multiple times. Each time you take it, you select a different qualifying energy type."
 		]
@@ -989,7 +989,7 @@
 			"{SOURCE Demons Revisited/8}",
 			"",
 			"Your slashing sneak attacks tend to slice away swaths of skin and natural armor.  ",
-			"**Prerequisites:** Sneak attack +3d6, bleeding sneak attack rogue trick or {umr/bleed} universal monster ability.  ",
+			"**Prerequisites:** {ability/Sneak attack} +3d6, {talent/bleeding attack} rogue talent or {umr/bleed} universal monster ability.  ",
 			"**Benefit:** When you successfully inflict sneak attack damage on a foe with a slashing weapon, your attack doesn't go particularly deep, but you do carve away a significant portion of skin and flesh. If this sneak attack inflicts bleed damage, the victim of the sneak attack is sickened by the pain and has its natural armor bonus (if any) reduced by a number of points equal to the number of sneak attack dice you possess. These penalties persist as long as the bleed damage persists. Multiple strikes on the same foe do not stack the bleed damage, but the penalty to natural armor does stack, to a maximum penalty equal to the target's normal full natural armor score."
 		]
 	},
@@ -2417,7 +2417,7 @@
 			"{SOURCE Osirion, Land of the Pharaohs/29}",
 			"",
 			"You are acutely attentive to the subtleties of traps and how they are hidden.  ",
-			"**Prerequisites:** Search 6 ranks, trap sense +1.  ",
+			"**Prerequisites:** Search 6 ranks, {ability/trap sense} +1.  ",
 			"**Benefit:** When you pass within 5 feet of a trap, you are entitled to an automatic Search check to notice the trap. This check is made at a -10 penalty, or -5 if you are moving at half speed and taking no actions other than moving.  ",
 			"**Normal:** You must take an action to actively search."
 		]
@@ -2431,7 +2431,7 @@
 			"{SOURCE Cheliax, Empire of Devils/27}",
 			"",
 			"You attack unsuspecting foes twice.  ",
-			"**Prerequisites:** {feat/Hellcat Stealth}, sneak attack +2d6.  ",
+			"**Prerequisites:** {feat/Hellcat Stealth}, {ability/sneak attack} +2d6.  ",
 			"**Benefit:** Whenever you attack and damage an opponent in the surprise round, you may immediately make a second attack against the same opponent using the same attack bonus. The target is not considered flat-footed against this second attack.  ",
 			"**Special:** This ability only functions when carrying a light load or less."
 		]
@@ -3134,7 +3134,7 @@
 			"{SOURCE Blood of the Night/28}",
 			"",
 			"Your music is infused with your faith.  ",
-			"**Prerequisites:** Bardic performance, good alignment, worshiper of a good deity.  ",
+			"**Prerequisites:** {ability/Bardic performance}, good alignment, worshiper of a good deity.  ",
 			"**Benefit:** When using bardic performance, you may choose to play, recite, or sing a religious song or piece of scripture of your faith. Each round of bardic performance you spend in this way, you count as presenting a holy symbol, chanting prayers, or ringing a hand bell for the purpose of keeping vampires at bay."
 		]
 	},
@@ -4314,7 +4314,7 @@
 		"name": "Mythic Paragon",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
-			"## Mythic Paragon",
+			"## Mythic Paragon (Mythic)",
 			"",
 			"{SOURCE Mythic Adventures/70}",
 			"",
@@ -4326,7 +4326,7 @@
 		"name": "Mythic Spell Lore",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
-			"## Mythic Spell Lore",
+			"## Mythic Spell Lore (Mythic)",
 			"",
 			"{SOURCE Mythic Adventures/70}",
 			"",
@@ -4345,7 +4345,7 @@
 			"{SOURCE Ultimate Magic/153}",
 			"",
 			"Enchanted vegetation does not bar your path.  ",
-			"**Prerequisites:** Dex 15, {feat/Nimble Moves}, woodland stride class feature.  ",
+			"**Prerequisites:** Dex 15, {feat/Nimble Moves}, {ability/woodland stride} class feature.  ",
 			"**Benefit:** You can move at full speed even through thorns, briars, and overgrown areas that are enchanted or magically manipulated to impede motion, even if those areas confer the entangled condition.  ",
 			"**Normal:** Woodland stride does not apply to thorns, briars, and overgrowth areas that are enchanted or magically manipulated."
 		]

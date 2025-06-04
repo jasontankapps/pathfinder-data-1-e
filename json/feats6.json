@@ -64,7 +64,7 @@
 			"{SOURCE Advanced Class Origins/27}",
 			"",
 			"No one is prepared for how hard you strike until they see it firsthand.  ",
-			"**Prerequisites:** Str 13, {feat/Power Attack}, base attack bonus +1, sneak attack class feature.  ",
+			"**Prerequisites:** Str 13, {feat/Power Attack}, base attack bonus +1, {ability/sneak attack} class feature.  ",
 			"**Benefit:** If you use Power Attack with the first melee attack you make during a surprise round, you can sneak attack even if you are not flanking your target and it's not denied its Dexterity bonus to AC."
 		]
 	},
@@ -1464,7 +1464,7 @@
 			"{SOURCE Giant Hunter's Handbook/23}",
 			"",
 			"Your deep strikes allow you to deliver poison efficiently when your opponent is off guard.  ",
-			"**Prerequisites:** Sneak attack +2d6.  ",
+			"**Prerequisites:** {ability/Sneak attack} +2d6.  ",
 			"**Benefit:** When you hit an opponent with a poisoned weapon and would deal sneak attack damage, you can choose to forgo some or all of the sneak attack damage to increase the poison's chance of success. For every 2d6 points of sneak attack damage you forgo, add 1 to the saving throw DC of the poison delivered with your attack. This increase to the poison save DC does not apply to creatures that are immune to precision damage."
 		]
 	},
@@ -1871,7 +1871,7 @@
 			"{SOURCE Ultimate Combat/113}",
 			"",
 			"You deftly use specially prepared needles to apply poison for maximum effect.  ",
-			"**Prerequisites:** Poison use class feature, Craft (alchemy) 6 ranks, {feat/Adder Strike}, {feat/Improved Unarmed Strike}, {feat/Two-Weapon Fighting} or flurry of blows class feature.  ",
+			"**Prerequisites:** {ability/Poison use} class feature, Craft (alchemy) 6 ranks, {feat/Adder Strike}, {feat/Improved Unarmed Strike}, {feat/Two-Weapon Fighting} or flurry of blows class feature.  ",
 			"**Benefit:** When you use Adder Strike, you can instead poison up to two blowgun darts that you can then use to strike your opponent in melee. (Drawing such darts is a free action.) While holding these darts, you can spend a standard action to attack with one or a full-attack action to attack with both. Such attacks are considered melee touch attacks that deal 1d2 damage plus any bonuses you gain on your normal unarmed strike damage, and they deliver the poison. You can instead throw such darts as if they were shuriken, making your ranged attack rolls against the target's AC.  ",
 			"**Normal:** Applying poison to a weapon or single piece of ammunition is a standard action.",
 			"",
@@ -1959,7 +1959,7 @@
 			"{SOURCE Monster Summoner's Handbook/14}",
 			"",
 			"By studying other planes, you've learned to take on aspects of outsiders as well as animals.  ",
-			"**Prerequisites:** Knowledge (planes) 5 ranks, animal focus class feature.  ",
+			"**Prerequisites:** Knowledge (planes) 5 ranks, {ability/animal focus} class feature.  ",
 			"**Benefit:** When you use your animal focus class feature, you can choose any of the following new aspects unless they conflict with your alignment.",
 			"",
 			"Air: You gain a constant feather fall effect. At 10th level, you instead gain a constant levitate effect.",
@@ -2769,7 +2769,7 @@
 		"name": "Potent Surge",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
-			"## Potent Surge",
+			"## Potent Surge (Mythic)",
 			"",
 			"{SOURCE Mythic Adventures/71}",
 			"",
@@ -2832,7 +2832,7 @@
 			"{SOURCE Dirty Tactics Toolbox/6}",
 			"",
 			"You can make powerful attacks that place more of your weapon's poison into a target's wounds.  ",
-			"**Prerequisites:** {feat/Power Attack}; Craft (poison) 3 ranks or poison use class feature.  ",
+			"**Prerequisites:** {feat/Power Attack}; Craft (poison) 3 ranks or {ability/poison use} class feature.  ",
 			"**Benefit:** When you damage an opponent with a Power Attack while using a poisoned weapon, you can forgo the bonus damage from Power Attack to increase the save DC of the poison by 1. When your base attack bonus reaches +4, and every +4 thereafter, the bonus to the poison's save DC increases by an additional 1. This can't cause the save DC to exceed 15 + 1/2 your character level."
 		]
 	},
@@ -4807,7 +4807,7 @@
 			"{SOURCE Ultimate Intrigue/90}",
 			"",
 			"You never let down your guard.  ",
-			"**Prerequisites:** {feat/Alertness}, {feat/Improved Initiative}, {feat/Lightning Reflexes}, {feat/Quick Draw}, base attack bonus +6 or uncanny dodge class feature.  ",
+			"**Prerequisites:** {feat/Alertness}, {feat/Improved Initiative}, {feat/Lightning Reflexes}, {feat/Quick Draw}, base attack bonus +6 or {ability/uncanny dodge} class feature.  ",
 			"**Benefit:** You can always act in the surprise round even if you fail a Perception check to notice foes, but you are still considered flat-footed until you take an action."
 		]
 	},

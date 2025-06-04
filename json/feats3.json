@@ -299,7 +299,7 @@
 		"name": "Drink Is Life",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
-			"## Drink Is Life",
+			"## Drink Is Life (Mythic)",
 			"",
 			"{SOURCE Mythic Adventures/63}",
 			"",
@@ -472,7 +472,7 @@
 		"name": "Dual Path",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
-			"## Dual Path",
+			"## Dual Path (Mythic)",
 			"",
 			"{SOURCE Mythic Adventures/63}",
 			"",
@@ -4289,7 +4289,7 @@
 		"name": "Extra Mythic Power",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
-			"## Extra Mythic Power",
+			"## Extra Mythic Power (Mythic)",
 			"",
 			"{SOURCE Mythic Adventures/65}",
 			"",
@@ -4329,7 +4329,7 @@
 		"name": "Extra Path Ability",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
-			"## Extra Path Ability",
+			"## Extra Path Ability (Mythic)",
 			"",
 			"{SOURCE Mythic Adventures/65}",
 			"",
@@ -4617,7 +4617,7 @@
 			"{SOURCE Inner Sea Races/206}",
 			"",
 			"The innate planar energies of your allies empower your magical abilities, allowing you to make your spell-like abilities more difficult to resist.  ",
-			"**Prerequisites:** Any racial spell-like ability, outsider.  ",
+			"**Prerequisites:** Any racial spell-like ability, {type/outsider}.  ",
 			"**Benefit:** Whenever you're adjacent to an outsider ally who also has this feat, the DC of any racial spell-like abilities you use increases by 2 if your ally has the same racial spell-like ability. The proximity of multiple allies can't increase the DC further."
 		]
 	},
@@ -4645,7 +4645,7 @@
 			"{SOURCE Advanced Class Guide/147}",
 			"",
 			"Your hatred of a particular type of creature has honed your killer instinct.  ",
-			"**Prerequisites:** {feat/Seething Hatred}, sneak attack +3d6, studied target class feature.  ",
+			"**Prerequisites:** {feat/Seething Hatred}, {ability/sneak attack} +3d6, studied target class feature.  ",
 			"**Benefit:** When you succeed at a sneak attack against a creature you selected as the target of your Seething Hatred feat, you use d8s to roll sneak attack damage instead of d6s.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -4680,7 +4680,7 @@
 			"",
 			"Your understanding of the esoteric teachings of the Arclords of Nex allows you to open an eldritch eye that grants you superior perception of the magical world.  ",
 			"**Prerequisites:** Knowledge (arcana) 4 ranks, ability to cast arcane spells.  ",
-			"**Benefit:** Once per day as a standard action, you can open an incandescent third eye upon your forehead. The eye can remain open for 1 minute, during which time you cast all divination spells at +1 caster level (as long as you begin casting the spell before the eye closes), gain darkvision 60 feet, and can use {spell/detect magic} (as the spell of the same name). You gain a +8 bonus on Perception checks to notice invisible creatures while the eye is open as well."
+			"**Benefit:** Once per day as a standard action, you can open an incandescent third eye upon your forehead. The eye can remain open for 1 minute, during which time you cast all divination spells at +1 caster level (as long as you begin casting the spell before the eye closes), gain darkvision 60 feet, and can use {spell/detect magic} (as the spell of the same name). You gain a +8 bonus on {skill/Perception} checks to notice invisible creatures while the eye is open as well."
 		]
 	},
 	"eyes_of_judgment": {
@@ -4719,7 +4719,7 @@
 			"",
 			"Your eyes have grown accustomed to the half-light of dusk and dawn.  ",
 			"**Prerequisites:** {feat/Sharp Senses}, Perception 7 ranks, keen senses racial trait, low-light vision.  ",
-			"**Benefit:** Creatures within an area of dim light don't gain {rule/concealment} from you. You're still effectively blinded in an area of darkness.  ",
+			"**Benefit:** Creatures within an area of dim light don't gain {rule/concealment} from you. You're still effectively {misc/blinded} in an area of darkness.  ",
 			"**Normal:** Creatures within an area of dim light gain concealment (20% miss chance in combat) from those without darkvision or the ability to see in darkness."
 		]
 	},
@@ -4733,14 +4733,14 @@
 			"",
 			"You enjoy telling tall tales and gain confidence when others believe them.  ",
 			"**Prerequisites:** {feat/Amateur Gunslinger} feat or grit class feature.  ",
-			"**Benefit:** You gain a +1 bonus on Perform (act, comedy, oratory, and sing) skill checks, and Perform is a class skill for you. In addition, each time you make a successful Bluff check to convince someone of a far-fetched or impossible story, you regain 1 grit point. Successfully lying to a friendly or helpful creature, or a creature that has fewer Hit Dice than half your character level, doesn't restore grit."
+			"**Benefit:** You gain a +1 bonus on Perform (act, comedy, oratory, and sing) skill checks, and Perform is a class skill for you. In addition, each time you make a successful {skill/Bluff} check to convince someone of a far-fetched or impossible story, you regain 1 grit point. Successfully lying to a friendly or helpful creature, or a creature that has fewer Hit Dice than half your character level, doesn't restore grit."
 		]
 	},
 	"fabulous_figments": {
 		"name": "Fabulous Figments",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
-			"## Fabulous Figments",
+			"## Fabulous Figments (Mythic)",
 			"",
 			"{SOURCE Mythic Adventures/65}",
 			"",
@@ -4813,7 +4813,7 @@
 			"",
 			"You have integrated both the Roaring Falls and Shrouded Lake techniques of Aldori swordplay into a seamless union.  ",
 			"**Prerequisites:** {feat/Aldori Dueling Disciple}, {feat/Duelist of the Roaring Falls}, {feat/Duelist of the Shrouded Lake}, {feat/Exotic Weapon Proficiency} (Aldori dueling sword), {feat/Weapon Finesse}, {feat/Weapon Focus} (Aldori dueling sword), base attack bonus +8.  ",
-			"**Benefit:** When attacking a creature denied its Dexterity bonus to AC because of your successful feint, you increase the threat range of your Aldori dueling sword by 1 (typically to 18-20/&times;2), and gain a +2 bonus on attack rolls to confirm critical hits. After you make a dueling dodge or succeed at a dueling parry during a duel, you can make an attack of opportunity against the foe who attacked you if that foe is shaken, frightened, or panicked. To gain these benefits, you must be wielding only an Aldori dueling sword (not using a shield, an off-hand weapon, armor spikes, unarmed strikes, or natural weapons).",
+			"**Benefit:** When attacking a creature denied its Dexterity bonus to AC because of your successful feint, you increase the threat range of your {eq-weapon/Aldori dueling sword} by 1 (typically to 18-20/&times;2), and gain a +2 bonus on attack rolls to confirm critical hits. After you make a {rule/dueling dodge} or succeed at a {rule/dueling parry} during a duel, you can make an attack of opportunity against the foe who attacked you if that foe is {misc/shaken}, {misc/frightened}, or {misc/panicked}. To gain these benefits, you must be wielding only an Aldori dueling sword (not using a shield, an off-hand weapon, armor spikes, unarmed strikes, or natural weapons).",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Weapon Master's Handbook/25}",
@@ -4883,10 +4883,11 @@
 			"**Prerequisites:** Survival 3 ranks.  ",
 			"**Benefit:** You can create a false trail in the wilderness via a combination of misleading footprints, discarded items, torn scraps of clothing, and other signs. When you create a false trail, you determine the direction it leads. A creature tracking you must succeed at a Perception or Survival check (DC = 10 + half your character level + your Wisdom modifier) to determine the trail is fake when first encountering it. On a success, the creature can continue to track you as normal. The effect of a failure to identify the trail as false depends on the time and effort spent making it.",
 			"",
-			"Quick: A quick false trail takes 10 minutes to complete. A creature that fails to identify the trail as false follows it for 1d4x1,000 feet.  ",
-			"**Normal:** A normal false trail takes 1 hour to complete. A creature that fails to identify the trail as false follows it for 1d4 miles.",
-			"",
-			"Elaborate: An elaborate false trail takes 4 hours to complete. A creature that fails to identify the trail as false follows it for 2d6 miles.",
+			">**Quick:** A quick false trail takes 10 minutes to complete. A creature that fails to identify the trail as false follows it for 1d4&times;1,000 feet.",
+			">",
+			">**Normal:** A normal false trail takes 1 hour to complete. A creature that fails to identify the trail as false follows it for 1d4 miles.",
+			">",
+			">**Elaborate:** An elaborate false trail takes 4 hours to complete. A creature that fails to identify the trail as false follows it for 2d6 miles.",
 			"",
 			"After a creature that fails to identify a false trail follows it for the determined distance, it can attempt another Perception or Survival check with a +5 bonus. On a success, the creature realizes it's following a false trail and can continue to track you as normal after backtracking to the start of the false trail (or wherever you diverged from the false trail). On a failure, the creature continues to move in the direction of the false trail for an additional mile. After each mile, it can attempt a new check with a cumulative +5 bonus."
 		]
@@ -4915,7 +4916,7 @@
 			"",
 			"You have learned a ritual that allows you to gain a familiar.  ",
 			"**Prerequisites:** {feat/Iron Will}.  ",
-			"**Benefit:** You gain a familiar, as the wizard arcane bond class feature. You do not gain the special ability the familiar normally grants its master, and the familiar does not gain the deliver touch spells, scry on familiar, share spells, speak with animals of its kind, or spell resistance special abilities. Otherwise, your total Hit Dice are used as your wizard level for determining the familiar's abilities.  ",
+			"**Benefit:** You gain a {ability/familiar}, as the wizard arcane bond class feature. You do not gain the special ability the familiar normally grants its master, and the {sidekick/familiar} does not gain the deliver touch spells, scry on familiar, share spells, speak with animals of its kind, or spell resistance special abilities. Otherwise, your total Hit Dice are used as your wizard level for determining the familiar's abilities.  ",
 			"**Special:** If you have (or later gain) levels in a class that grants a familiar, whenever you select a familiar, you can either base your familiar's abilities on your total Hit Dice per this feat (including the restrictions on its special abilities), or choose to apply only your levels in classes that grant a familiar (and thus gain all the special abilities that familiar would grant based on those class levels). You can never have more than one familiar."
 		]
 	},
@@ -4928,7 +4929,7 @@
 			"{SOURCE Animal Archive/18}",
 			"",
 			"You are closely connected to your master's powers.  ",
-			"**Prerequisites:** Familiar.  ",
+			"**Prerequisites:** {sidekick/Familiar}.  ",
 			"**Benefit:** Whenever your master targets you with a harmless spell or spell-like ability, your master's effective caster level for the effect is increased by 1."
 		]
 	},
@@ -4941,7 +4942,7 @@
 			"{SOURCE Blood of the Coven/13}",
 			"",
 			"Within your coven, you have formed a bond with your fellow witches' familiars.  ",
-			"**Prerequisites:** Coven hex or {feat/Coven-Touched}, familiar or spirit animal class feature, witch level 1st.  ",
+			"**Prerequisites:** {hex/Coven} hex or {feat/Coven-Touched}, familiar or spirit animal class feature, {class/witch} level 1st.  ",
 			"**Benefit:** You share an empathic link with the familiars of all other witches in your coven who also have this feat, as per the witch's familiar ability. Additionally, you can use the share spells, deliver touch spells, and scry on familiar abilities with a coven member's familiar as the target, as long as your witch level is high enough to grant access to these abilities. You can communicate with the familiar using its speak with master ability. You gain a +5 bonus on Spellcraft checks to help your familiar learn spells from a coven member's familiar."
 		]
 	},
@@ -4954,7 +4955,7 @@
 			"{SOURCE Animal Archive/18}",
 			"",
 			"You can imbue your familiar with a spell.  ",
-			"**Prerequisites:** Spellcaster with familiar class feature.  ",
+			"**Prerequisites:** Spellcaster with {ability/familiar} class feature.  ",
 			"**Benefit:** You can transfer a prepared spell to your familiar, allowing the familiar to cast that spell at a later time. Variables that rely on caster level function according to your caster level, not your familiar's Hit Dice, though your familiar's Intelligence may influence how precisely it can follow your instructions on how to use these spells.",
 			"",
 			"Your familiar must be able to speak to cast spells with a verbal component (the ability to speak with its master or creatures of its kind is insufficient). Your familiar must be carrying any material or focus components necessary, unless the materials cost less than 1 gp and the spell is prepared with {feat/Eschew Materials}. Attack rolls use your familiar's ability scores. A familiar spell counts against the number of spells you may prepare for as long as your familiar retains the spell. Once your familiar casts a retained spell, you can prepare a new spell in that slot the next time you prepare spells.",
@@ -4972,9 +4973,9 @@
 			"{SOURCE Blood of the Night/28}",
 			"",
 			"You can abide much longer periods without feeding, and enjoy increased benefits from a meal.  ",
-			"**Prerequisites:** Moroi or nosferatu.  ",
+			"**Prerequisites:** [Moroi or nosferatu](template/vampire).  ",
 			"**Benefit:** You can go without feeding for a number of days equal to twice your Hit Dice before having to make hunger saves. When you use your blood drain ability, you gain twice the normal amount of temporary hit points for each feeding.  ",
-			"**Special:** This feat is only for campaigns using the optional undead hunger rules."
+			"**Special:** This feat is only for campaigns using {rule/the[ optional undead] hunger} rules."
 		]
 	},
 	"fan_bearer_at_the_kings_right_hand": {
@@ -5043,8 +5044,8 @@
 			"{SOURCE Familiar Folio/18}",
 			"",
 			"Distance can't sever the bond between you and your familiar.  ",
-			"**Prerequisites:** Intelligence 13, must have a familiar.  ",
-			"**Benefit:** You retain your empathic link to your familiar regardless of distance, though lead blocks the link at distances greater than 1 mile (similar to the way lead blocks detect magic effects)."
+			"**Prerequisites:** Intelligence 13, must have a {ability/familiar}.  ",
+			"**Benefit:** You retain your empathic link to your familiar regardless of distance, though lead blocks the link at distances greater than 1 mile (similar to the way lead blocks {spell/detect magic} effects)."
 		]
 	},
 	"fascinated_by_the_mundane": {
@@ -5071,8 +5072,8 @@
 			"{SOURCE Halflings of Golarion/27}",
 			"",
 			"If you jinx an already fascinated creature, it doesn't fully recover until the jinx ends.  ",
-			"**Prerequisites:** Bardic performance class feature, Halfling Jinx trait.  ",
-			"**Benefit:** If you jinx a creature under the effect of a bard's fascinate ability, it also takes a -10 penalty on initiative checks while affected by the jinx. A creature under the effect of your fascinate ability has a -2 penalty on its save against your jinx."
+			"**Prerequisites:** {ability/Bardic performance} class feature, Halfling Jinx trait.  ",
+			"**Benefit:** If you jinx a creature under the effect of a bard's {performance/fascinate} ability, it also takes a -10 penalty on initiative checks while affected by the jinx. A creature under the effect of your fascinate ability has a -2 penalty on its save against your jinx."
 		]
 	},
 	"fast_change": {
@@ -5097,7 +5098,7 @@
 			"{SOURCE Faction Guide/56}",
 			"",
 			"You are skilled at moving while prone.  ",
-			"**Benefit:** While prone, you can move at half speed. This movement provokes attacks of opportunity as normal. You can take a 5-foot step while crawling. This benefit does not stack with the rogue crawl talent.  ",
+			"**Benefit:** While {rule/prone}, you can move at half speed. This movement provokes attacks of opportunity as normal. You can take a 5-foot step while crawling. This benefit does not stack with the {talent/rogue crawl} talent.  ",
 			"**Normal:** You can crawl 5 feet as a move action. You cannot take a 5-foot step while crawling."
 		]
 	},
@@ -5188,7 +5189,7 @@
 			"",
 			"Your painful stare fatigues your opponent.  ",
 			"**Prerequisites:** Mesmerist level 7th, painful stare class feature.  ",
-			"**Benefit:** When a target takes damage from your painful stare, it must succeed at a Fortitude saving throw (DC = 10 + 1/2 your mesmerist level + your Charisma modifier) or become fatigued for 1 round. This can't cause the target to become exhausted, even if the target is already fatigued."
+			"**Benefit:** When a target takes damage from your painful stare, it must succeed at a Fortitude saving throw (DC = 10 + 1/2 your mesmerist level + your Charisma modifier) or become {misc/fatigued} for 1 round. This can't cause the target to become {misc/exhausted}, even if the target is already fatigued."
 		]
 	},
 	"favor_of_the_empress_of_torrents": {
@@ -5213,34 +5214,35 @@
 			"{SOURCE Wilderness Origins/22}",
 			"",
 			"Your companion is unusually comfortable wearing another (metaphorical) skin.  ",
-			"**Prerequisites:** Animal companion class feature, animal focus class feature.  ",
+			"**Prerequisites:** {ability/Animal companion} class feature, {ability/animal focus} class feature.  ",
 			"**Benefit:** Choose one animal focus. When you apply that animal focus to your animal companion, the benefits increase by one step. For example, if you are 6th level and choose the bear animal focus, then when you apply the animal focus to your animal companion, it gains a +4 enhancement bonus to Constitution instead of +2.",
 			"",
 			"If you are 15th level or higher, when you apply your chosen animal focus to your companion, it gains the corresponding ability listed below.",
 			"",
-			"Bat: The range of the animal companion's blindsense increases by 20 feet.",
+			">:HL[Bat:] The range of the animal companion's {umr/blindsense} increases by 20 feet.",
+			">",
+			">:HL[Bear:] The animal companion's Constitution bonus increases to +8.",
+			">",
+			">:HL[Bull:] The animal companion's Strength bonus increases to +8.",
+			">",
+			">:HL[Falcon:] The animal companion's Perception bonus increases to +12.",
+			">",
+			">:HL[Frog:] The animal companion's bonus to Swim and Acrobatics increases to +12.",
+			">",
+			">:HL[Monkey:] The animal companion's Climb bonus increases to +12.",
+			">",
+			">:HL[Mouse:] The animal companion gains {ability/Improved Uncanny Dodge}, as a rogue of its level.",
+			">",
+			">:HL[Owl:] The animal companion's Stealth bonus increases to +12.",
+			">",
+			">:HL[Snake:] The animal companion's attack and dodge bonuses increase to +8.",
+			">",
+			">:HL[Stag:] The animal companion's speed bonus increases to 30 feet.",
+			">",
+			">:HL[Tiger:] The animal companion's Dexterity bonus increases to +8.",
+			">",
+			">:HL[Wolf:] The range of the animal companion's scent ability increases to 60 feet.",
 			"",
-			"Bear: The animal companion's Constitution bonus increases to +8.",
-			"",
-			"Bull: The animal companion's Strength bonus increases to +8.",
-			"",
-			"Falcon: The animal companion's Perception bonus increases to +12.",
-			"",
-			"Frog: The animal companion's bonus to Swim and Acrobatics increases to +12.",
-			"",
-			"Monkey: The animal companion's Climb bonus increases to +12.",
-			"",
-			"Mouse: The animal companion gains Improved Uncanny Dodge, as a {class/rogue} of its level.",
-			"",
-			"Owl: The animal companion's Stealth bonus increases to +12.",
-			"",
-			"Snake: The animal companion's attack and dodge bonuses increase to +8.",
-			"",
-			"Stag: The animal companion's speed bonus increases to 30 feet.",
-			"",
-			"Tiger: The animal companion's Dexterity bonus increases to +8.",
-			"",
-			"Wolf: The range of the animal companion's scent ability increases to 60 feet.  ",
 			"**Special:** You can gain this feat multiple times. Each time you take this feat, you must select a new animal focus."
 		]
 	},
@@ -5254,7 +5256,7 @@
 			"",
 			"You know your local community like the back of your hand.  ",
 			"**Prerequisites:** Knowledge (local) 2 ranks, must have lived in the settlement for at least 1 year.  ",
-			"**Benefit:** Select a permanent, stationary settlement. While in that settlement, you gain a +2 bonus on initiative checks and Knowledge (geography), Perception, Stealth, and Survival checks, as per the ranger's {ability/favored terrain} class feature. If you already have that class feature and apply its bonuses in your favored community, increase the bonus provided by favored terrain by 2. The bonuses from this feat do not stack with other effects that provide or augment favored terrain bonuses, such as boots of friendly terrain."
+			"**Benefit:** Select a permanent, stationary settlement. While in that settlement, you gain a +2 bonus on initiative checks and Knowledge (geography), Perception, Stealth, and Survival checks, as per the ranger's {ability/favored terrain} class feature. If you already have that class feature and apply its bonuses in your favored community, increase the bonus provided by favored terrain by 2. The bonuses from this feat do not stack with other effects that provide or augment favored terrain bonuses, such as {magic-wondrous/boots of friendly terrain}."
 		]
 	},
 	"favored_defense": {

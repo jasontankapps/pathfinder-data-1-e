@@ -1258,7 +1258,7 @@
 			"{SOURCE Faction Guide/56}",
 			"",
 			"You grant your allies even greater bonuses when using your bardic performance abilities.  ",
-			"**Prerequisites:** Bardic performance class feature, {feat/Extra Performance}, {feat/Master Performer}, bard level 8th, [Kitharodian Academy](rule/f_bards) 20 TPA.  ",
+			"**Prerequisites:** {ability/Bardic performance} class feature, {feat/Extra Performance}, {feat/Master Performer}, bard level 8th, [Kitharodian Academy](rule/f_bards) 20 TPA.  ",
 			"**Benefit:** When any of your bardic performance abilities grant your allies a bonus, that bonus increases by +1. This bonus stacks with the bonus from the Master Performer feat."
 		]
 	},
@@ -3186,7 +3186,7 @@
 			"{SOURCE Ultimate Combat/104}",
 			"",
 			"Your thorough understanding of acoustics in artificial surroundings allows you to improve the power of your bardic performance.  ",
-			"**Prerequisites:** Bardic performance class feature, Knowledge (engineering) 5 ranks.  ",
+			"**Prerequisites:** {ability/Bardic performance} class feature, Knowledge (engineering) 5 ranks.  ",
 			"**Benefit:** While inside an artificial structure, you can spend a free action to make a DC 15 Knowledge (engineering) check when you begin your bardic performance. Success on this check allows you to do one of the following.",
 			"",
 			"Self-Harmonize: By performing over the acoustic reverberations of your performance, you increase the DC of your bardic performance effects +1.",
