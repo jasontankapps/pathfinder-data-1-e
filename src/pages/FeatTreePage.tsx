@@ -1,6 +1,7 @@
 import BasicPage from './BasicPage';
 import jsx from './subpages/__feat_tree_page';
 import './Page.css';
+import './FeatTreePage.css';
 
 const FeatsTreePage: React.FC = () => {
 	return (

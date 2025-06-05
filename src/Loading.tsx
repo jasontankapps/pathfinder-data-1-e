@@ -4,6 +4,7 @@ import {
 	IonText,
 	IonProgressBar
 } from '@ionic/react';
+import './Loading.css';
 
 const Loading: React.FC<{ text?: string, color?: string, barColor?: string }> = (props) => {
 	const {

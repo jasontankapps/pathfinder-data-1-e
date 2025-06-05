@@ -1,0 +1,18 @@
+/* Loading */
+
+div.loadingPage {
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+div.loadingPage ion-text {
+	display: block;
+}
+div.loadingPage ion-text {
+	padding-block-end: 2rem;
+}
+div.loadingPage h1 {
+	border: 0;
+}

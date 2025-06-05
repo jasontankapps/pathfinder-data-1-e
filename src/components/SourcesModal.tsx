@@ -13,10 +13,11 @@ import {
 	IonToolbar
 } from '@ionic/react';
 import { closeCircle } from 'ionicons/icons';
+import { convertTextToLink } from './convertLinks';
 import sourceInfo from '../json/sources.json';
 import { SourceProps } from '../types';
 import '../pages/Page.css';
-import { convertTextToLink } from './convertLinks';
+import './SourcesModal.css';
 
 type Data = typeof sourceInfo;
 

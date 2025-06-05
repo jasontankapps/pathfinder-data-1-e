@@ -360,7 +360,7 @@ const SearchPage: FC = () => {
 						<SearchResults searchText={searchText} filter={filter.length ? filter : undefined} />
 				}
 			</IonContent>
-			<PageFooter />
+			<PageFooter noSearchButton />
 		</IonPage>
 	);
 };

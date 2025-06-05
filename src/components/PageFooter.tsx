@@ -1,34 +1,47 @@
-import { SetStateAction, useState, FC } from 'react';
+import { SetStateAction, useState, FC, useCallback } from 'react';
 import {
 	IonButton, IonButtons, IonFooter, IonIcon,
 	IonLabel, IonToolbar, IonTabButton,
 	IonActionSheet, ActionSheetButton
 } from '@ionic/react';
-import { chevronBack, chevronForward, book } from 'ionicons/icons';
+import { chevronBack, chevronForward, book, search } from 'ionicons/icons';
 import { useLocation } from 'wouter';
 import { useLongPress } from '@uidotdev/usehooks';
 import { Haptics, ImpactStyle } from '@capacitor/haptics';
 import { useAppDispatch, useAppSelector } from '../store/hooks';
-import { goBack, goForward, goBackNum, goForwardNum } from '../store/historySlice';
+import { goBack, goForward, goBackNum, goForwardNum, goTo } from '../store/historySlice';
 import getPageName from './getPageName';
+import './PageFooter.css';
 
 type Action = React.Dispatch<SetStateAction<boolean>>;
 
-const Slotless: FC<{func: Action}> = ({ func }) => {
+const Slotless: FC<{
+	sourcesModalFunc?: Action,
+	searchButton?: () => void
+}> = ({ sourcesModalFunc, searchButton }) => {
 	return (
 		<IonButtons className="slotless">
-			<div onClick={() => func(true)}>
+			{sourcesModalFunc ? <div onClick={() => sourcesModalFunc(true)}>
 				<IonTabButton>
 					<IonIcon icon={book} />
 					<IonLabel>Sources</IonLabel>
 				</IonTabButton>
-			</div>
+			</div> : <></>}
+			{searchButton ? <div onClick={searchButton}>
+				<IonTabButton>
+					<IonIcon icon={search} />
+					<IonLabel>Search</IonLabel>
+				</IonTabButton>
+			</div> : <></>}
 		</IonButtons>
 	);
 };
 
-const PageFooter: FC<{setIsSourcesModalOpen?: Action}> = ({ setIsSourcesModalOpen }) => {
-	const [ location, navigate ] = useLocation();
+const PageFooter: FC<{
+	setIsSourcesModalOpen?: Action,
+	noSearchButton?: boolean
+}> = ({ setIsSourcesModalOpen, noSearchButton }) => {
+	const [ , navigate ] = useLocation();
 	const {previous, next} = useAppSelector(state => state.history);
 	const dispatch = useAppDispatch();
 	const [prevOpen, setPrevOpen] = useState<boolean>(false);
@@ -41,6 +54,10 @@ const PageFooter: FC<{setIsSourcesModalOpen?: Action}> = ({ setIsSourcesModalOpe
 		Haptics.impact({ style: ImpactStyle.Medium });
 		setNextOpen(true);
 	}, {});
+	const goToSearch = useCallback(() => {
+		dispatch(goTo("/search"));
+		navigate("/search");
+	}, [navigate]);
 	return (
 		<IonFooter>
 			<IonActionSheet
@@ -76,6 +93,7 @@ const PageFooter: FC<{setIsSourcesModalOpen?: Action}> = ({ setIsSourcesModalOpe
 			<IonToolbar>
 				<IonButtons slot="start">
 					<IonButton {...longPressPrev} id="prevButton" onClick={() => {
+						// Back Button
 						Haptics.impact({ style: ImpactStyle.Light });
 						dispatch(goBack());
 						navigate(previous[0]);
@@ -83,9 +101,13 @@ const PageFooter: FC<{setIsSourcesModalOpen?: Action}> = ({ setIsSourcesModalOpe
 						<IonIcon slot="icon-only" icon={chevronBack} />
 					</IonButton>
 				</IonButtons>
-				{setIsSourcesModalOpen ? <Slotless func={setIsSourcesModalOpen} /> : <></>}
+				<Slotless
+					sourcesModalFunc={setIsSourcesModalOpen}
+					searchButton={noSearchButton ? undefined : goToSearch}
+				/>
 				<IonButtons slot="end">
 					<IonButton {...longPressNext} id="nextButton" onClick={() => {
+						// Forward Button
 						Haptics.impact({ style: ImpactStyle.Light });
 						dispatch(goForward());
 						navigate(next[0]);

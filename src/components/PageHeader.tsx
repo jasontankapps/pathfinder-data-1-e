@@ -1,4 +1,7 @@
-import { Dispatch, PropsWithChildren, useMemo, ReactElement, MouseEventHandler } from 'react';
+import {
+	FC, Dispatch, PropsWithChildren, useMemo,
+	ReactElement, MouseEventHandler, SetStateAction
+} from 'react';
 import {
 	IonButton, IonButtons, IonHeader, IonIcon,
 	IonMenuButton, IonTitle, IonToolbar, IonPopover,
@@ -11,7 +14,7 @@ import { useAppDispatch, useAppSelector } from '../store/hooks';
 import getPageName from './getPageName';
 import './Bookmarks.css';
 
-const Bookmarks: React.FC<{location: string}> = ({location}) => {
+const Bookmarks: FC<{location: string}> = ({location}) => {
 	const dispatch = useAppDispatch();
 	const { db, order, catalog } = useAppSelector((state) => state.bookmarks);
 	const bookmarked = catalog[location] || [];
@@ -76,7 +79,7 @@ const Bookmarks: React.FC<{location: string}> = ({location}) => {
 	);
 };
 
-const PageHeader: React.FC<PropsWithChildren<{
+const PageHeader: FC<PropsWithChildren<{
 	title: string,
 	notBookmarkable?: boolean,
 	findInPage?: Dispatch<boolean>,
@@ -99,12 +102,15 @@ const PageHeader: React.FC<PropsWithChildren<{
 							{extraButton || <></>}
 							{findInPage
 								? (
-									<IonButton onClick={() => findInPage(!findingInPage)} color={findingInPage ? "tertiary" : undefined}>
+									<IonButton
+										onClick={() => findInPage(!findingInPage)}
+										color={findingInPage ? "tertiary" : undefined}
+									>
 										<IonIcon slot="icon-only" icon="/icons/find-in-page.svg" />
 									</IonButton>
 								) : <></>
 							}
-							{notBookmarkable ? <></> : <Bookmarks location={location} /> }
+							{ notBookmarkable ? <></> : <Bookmarks location={location} /> }
 						</IonButtons>
 				}
 			</IonToolbar>

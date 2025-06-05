@@ -1,0 +1,131 @@
+/* Feats Tree page */
+
+div.featsTreePage {
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: flex-start;
+	justify-content: flex-start;
+	background: var(--ion-color-step-50);
+}
+div.featsTreePage section {
+	background: var(--ion-background-color);
+	overflow-x: auto;
+	overflow-y: auto;
+	max-height: calc(100vh - 3.5rem - 3.5rem - 0.5rem - 2.1em - 1rem);
+	margin: 0 1rem;
+	width: calc(100% - 3rem);
+	max-width: calc(100% - 3rem);
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: flex-start;
+	justify-content: flex-start;
+	border-radius: 0 0 1rem 1rem;
+}
+div.featsTreePage section + section {
+	/*border: 0;
+	border-inline-start: 0.25rem;
+	border-style: solid;
+	border-image:
+		linear-gradient(
+			to bottom,
+			var(--ion-color-secondary),
+			transparent 98%
+		) 1 100%;*/
+	padding-block-end: 0.75rem;
+	margin-block-start: 1rem;
+	border-radius: 1rem;
+}
+div.featsTreePage section p {
+	padding: 0 1rem;
+	position: relative;
+	text-indent: 1.5rem;
+	font-size: 0.875rem;
+	line-height: 1rem;
+	margin: 0.5rem 0
+}
+div.featsTreePage section div.leaf {
+	display: flex;
+	position: relative;
+	padding: 0.75rem 0 0;
+	flex-flow: column nowrap;
+	align-items: flex-start;
+	justify-content: flex-start;
+	background: var(--ion-background-color);
+	padding-inline-start: 1rem;
+}
+div.featsTreePage section > div.leaf:first-child {
+	padding: 0 1rem;
+}
+div.featsTreePage section div.leaf div.leafName {
+	position: sticky;
+	top: 0;
+	width: 100%;
+	height: 1.5rem;
+	background: var(--ion-background-color);
+	white-space: nowrap;
+	z-index: 10;
+}
+div.featsTreePage section div.leaf div.leaf div.leafName {
+	top: 1.5rem;
+	z-index: 9;
+}
+div.featsTreePage section div.leaf div.leaf div.leaf div.leafName {
+	top: 3rem;
+	z-index: 8;
+}
+div.featsTreePage section div.leaf div.leaf div.leaf div.leaf div.leafName {
+	top: 4.5rem;
+	z-index: 7;
+}
+div.featsTreePage section div.leaf div.leaf div.leaf div.leaf div.leaf div.leafName {
+	top: 6rem;
+	z-index: 6;
+}
+div.featsTreePage section div.leaf div.leaf div.leaf div.leaf div.leaf div.leaf div.leafName {
+	top: 7.5rem;
+	z-index: 5;
+}
+div.featsTreePage section div.leaf div.leaf div.leaf div.leaf div.leaf div.leaf div.leafName {
+	top: 9rem;
+	z-index: 4;
+}
+div.featsTreePage section div.leaf div.leaf div.leaf div.leaf div.leaf div.leaf div.leaf div.leafName {
+	top: 10.5rem;
+	z-index: 3;
+}
+div.featsTreePage section div.leaf div.coparents {
+	font-size: 0.85rem;
+	line-height: 0.85rem;
+}
+div.featsTreePage section div.leaf div.coparents strong {
+	color: var(--ion-color-secondary);
+}
+div.featsTreePage section > div.leaf:first-child > div.coparents > strong {
+	color: var(--ion-color-tertiary);
+	padding-inline-start: 0.5rem;
+}
+
+/* Scrolling to a feat on the Feats Tree page */
+
+div.featsTreePage *.highlight {
+	background-color: transparent !important;
+}
+
+div.featsTreePage *.highlight a {
+	color: var(--ion-color-primary) !important;
+}
+
+*.highlight[id] > div.leafName {
+	background-color: var(--ion-color-success) !important;
+	transition: background-color 0s ease-out 0.25s;
+}
+*.highlight[id] > div.leafName a {
+	color: var(--ion-color-success-contrast) !important;
+	transition: color 0s ease-out 0.25s;
+}
+*[id] > div.leafName {
+	transition: background-color 0.5s ease-in 2.5s;
+}
+*[id] > div.leafName a {
+	transition: color 0.5s ease-in 2.5s;
+}

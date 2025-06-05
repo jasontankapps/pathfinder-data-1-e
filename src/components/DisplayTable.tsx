@@ -499,8 +499,8 @@ const DisplayTableFilterModal: FC<FilterProps> = (props) => {
 				}
 				// Add filter to list of filters
 				const obj: FilterObject = {
-					text: `${header || headers[col]} ${how}`,
-					otherText: `${header || headers[col]} ${other}`,
+					text: `${header || headers[col - 1]} ${how}`,
+					otherText: `${header || headers[col - 1]} ${other}`,
 					options,
 					toggles
 				};
