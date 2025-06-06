@@ -741,11 +741,11 @@
 	"lesser_age_resistance": { "copyof": "age_resistance_lesser" },
 	"age_resistance": {
 		"name": "Age Resistance",
-		"copyof": "lesser_age_resistance"
+		"copyof": "age_resistance_lesser"
 	},
 	"age_resistance_greater": {
 		"name": "Greater Age Resistance",
-		"copyof": "lesser_age_resistance"
+		"copyof": "age_resistance_lesser"
 	},
 	"greater_age_resistance": { "copyof": "age_resistance_greater" },
 	"aggravate_affliction": {
@@ -1757,11 +1757,11 @@
 	"lesser_angelic_aspect": { "copyof": "angelic_aspect_lesser" },
 	"angelic_aspect": {
 		"name": "Angelic Aspect",
-		"copyof": "lesser_angelic_aspect"
+		"copyof": "angelic_aspect_lesser"
 	},
 	"angelic_aspect_greater": {
 		"name": "Greater Angelic Aspect",
-		"copyof": "lesser_angelic_aspect"
+		"copyof": "angelic_aspect_lesser"
 	},
 	"greater_angelic_aspect": { "copyof": "angelic_aspect_greater" },
 	"animal_ambassador": {

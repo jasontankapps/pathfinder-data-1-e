@@ -53,6 +53,7 @@ import { useAppDispatch, useAppSelector } from '../store/hooks';
 import { goTo } from '../store/historySlice';
 import { resetTables, setTableFilter, setTableSortCol, setTableSortDir, TableObject } from '../store/displayTableSlice';
 import ScrollContainer from './ScrollContainer';
+import getLink from './getLink';
 
 type TriggerSortFunc = (index: number, useNormalSort: boolean, activeRows?: number[] | null, save?: boolean) => void;
 
@@ -278,7 +279,8 @@ const TdRouterLink: FC<PropsWithChildren<TdRouterLinkProps>> = ({ datum, align }
 			<td className={align === "end" ? "ion-text-end" : (align === "start" ? "ion-text-start" : undefined)}>LINK EXPECTED: {linkString}</td>
 		);
 	}
-	const [, link, output] = m;
+	const [, originalLink, output] = m;
+	const link = getLink(originalLink);
 	const click = useCallback(() => { navigate(`/${link}`); dispatch(goTo(`/${link}`)); }, [link, dispatch, navigate]);
 	return (
 		<td className={"ion-activatable cell-link" + (align === "end" ? " ion-text-end" : (align === "start" ? " ion-text-start" : ""))} onClick={click}>

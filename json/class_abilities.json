@@ -318,10 +318,10 @@
 		"topLink": [ "Fighter", "class/fighter" ]
 	},
 	"animal_foci": {
-		"name": "Animal Foci",
+		"name": "Animal Focus",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
-			"## Hunter Animal Foci",
+			"## Animal Focus",
 			"",
 			"{SOURCE Advanced Class Guide}  ",
 			"At 1st level, a hunter can take on the aspect of an animal as a swift action. She must select one type of animal to emulate, gaining a bonus or special ability based on the type of animal emulated and her hunter level. The hunter can use this ability for a number of minutes per day equal to her level. This duration does not need to be consecutive, but must be spent in 1-minute increments. The hunter can emulate only one animal at a time.",
@@ -330,7 +330,13 @@
 			"",
 			"If the hunter's animal companion is dead, the hunter can apply her companion's animal focus to herself instead of her animal companion. This is in addition to the normal one she can choose, and (as with a companion's focus) remains in effect until the hunter changes it instead of counting against her minutes per day.",
 			"",
-			"---",
+			":::aside",
+			"",
+			"Characters with the *animal focus* feature can also gain {ability/ward aspects} if they desire.",
+			"",
+			":::",
+			"",
+			"### Animal Foci",
 			"",
 			"**Bat:**  ",
 			"The creature gains darkvision to a range of 60 feet. At 8th level, the range increases by 30 feet. At 15th level, the creature also gains {umr/blindsense} to a range of 10 feet.",

@@ -15,7 +15,8 @@ const $ = {
 	flags: {},
 	prefix: "",
 	errorCount: 0,
-	savedCount: 0
+	savedCount: 0,
+	redirects: {}
 };
 
 const footnoteNames = "ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890!@&%#;?_=+~".split('');
@@ -965,8 +966,8 @@ Object.values(all_usable_groups).forEach((group, groupindex) => {
 						x = source;
 						return true;
 					});
-				} else {
-					copyof || (converted = convertDescription(temporaryFlags, d, `${link}-${prop}-`, tables, "IonList lines=\"full\"", "IonList"));
+				} else if (!copyof) {
+					converted = convertDescription(temporaryFlags, d, `${link}-${prop}-`, tables, "IonList lines=\"full\"", "IonList");
 				}
 				break;
 			case "compileable":
@@ -1025,25 +1026,30 @@ Object.values(all_usable_groups).forEach((group, groupindex) => {
 			final.push([prop, createItem(info, prop)]);
 		}
 	});
-	let changed;
+	let somethingChanged;
 	let remaining = [...copies];
 	do {
-		changed = false;
+		somethingChanged = false;
 		const missing = [];
 		remaining.forEach(([prop, copyof, info]) => {
 			if(copyRecord[copyof]) {
-				final.push([prop, createCopyItem(info, prop, copyof)]);
-				copyRecord[prop] = true;
-				changed = true;
+				if(Object.entries(info).filter(pair => pair[1] !== undefined).length === 0) {
+					// This is a bare redirect.
+					$.redirects[`${link}/${prop}`] = `${link}/${copyof}`;
+				} else {
+					final.push([prop, createCopyItem(info, prop, copyof)]);
+					copyRecord[prop] = true;
+				}
+				somethingChanged = true;
 			} else {
 				missing.push([prop, copyof, info]);
-				//console.log(`MISSING "${copyof}" property in ${prop}.copyof`);
 			}
 		});
 		remaining = missing;
-	} while ((remaining.length > 0) && changed);
-	remaining.forEach(([prop, copyof, info]) => {
+	} while ((remaining.length > 0) && somethingChanged);
+	remaining.forEach(([prop, copyof]) => {
 		console.log(`MISSING "${copyof}" property in ${prop}.copyof`);
+		$.errorCount++;
 	});
 	const imports = [];
 	const ionic = [];
@@ -1090,7 +1096,20 @@ Object.values(all_usable_groups).forEach((group, groupindex) => {
 	}
 });
 
-console.log(`\n\n>> Saved [${$.savedCount}] files (out of ${number_of_groups + 3}).`);
+const filename = `./src/json/_data__redirects.json`;
+testfile = get(filename).trim();
+const theOutput = JSON.stringify($.redirects);
+if(testfile === theOutput) {
+	console.log(`UNCHANGED: ${filename}`);
+} else {
+	// Write that file
+	fs.writeFileSync(filename, theOutput);
+	// Announce success
+	console.log(`Saved ${filename}`);
+	$.savedCount++;
+}
+
+console.log(`\n\n>> Saved [${$.savedCount}] files (out of ${number_of_groups + 4}).`);
 
 if($.errorCount) {
 	console.log(`\n\n>> Found [${$.errorCount}] errors.`);

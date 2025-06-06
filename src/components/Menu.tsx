@@ -63,6 +63,8 @@ const basicBookmarkPage: Page = {
 	minor: true
 };
 
+// Urls below should NEVER, EVER BE COPYOF LINKS!
+
 const appPages: AppPage[] = [
 	{
 		title: "Cheatsheet",

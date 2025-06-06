@@ -2643,7 +2643,7 @@
 	},
 	"peafowl": { "copyof": "familiar_peafowl" },
 	"familiar_peacock": { "copyof": "familiar_peafowl" },
-	"peacock": { "copyof": "familiar_peacock" },
+	"peacock": { "copyof": "familiar_peafowl" },
 	"familiar_penguin": {
 		"name": "Penguin (Familiar)",
 		"sources": [

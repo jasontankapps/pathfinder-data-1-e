@@ -317,17 +317,17 @@
 	"large_flag_ensign_or_courtesy": { "copyof": "flag_ensign_or_courtesy_large" },
 	"flag_ensign_or_courtesy_small": {
 		"name": "Flag (ensign or courtesy, small)",
-		"copyof": "large_flag_ensign_or_courtesy"
+		"copyof": "flag_ensign_or_courtesy_large"
 	},
 	"small_flag_ensign_or_courtesy": { "copyof": "flag_ensign_or_courtesy_small" },
 	"flag_personal_signal_large": {
 		"name": "Flag (personal signal, large)",
-		"copyof": "large_flag_ensign_or_courtesy"
+		"copyof": "flag_ensign_or_courtesy_large"
 	},
 	"large_flag_personal_signal": { "copyof": "flag_personal_signal_large" },
 	"flag_personal_signal_small": {
 		"name": "Flag (personal signal, small)",
-		"copyof": "large_flag_ensign_or_courtesy"
+		"copyof": "flag_ensign_or_courtesy_large"
 	},
 	"small_flag_personal_signal": { "copyof": "flag_personal_signal_small" },
 	"flag": {
@@ -2052,22 +2052,22 @@
 	"holy_symbol_compartment_gold": { "copyof": "holy_symbol_gold_compartment" },
 	"holy_symbol_iron_compartment": {
 		"name": "Holy symbol (iron, compartment)",
-		"copyof": "holy_symbol_compartment_gold"
+		"copyof": "holy_symbol_gold_compartment"
 	},
 	"holy_symbol_compartment_iron": { "copyof": "holy_symbol_iron_compartment" },
 	"holy_symbol_platinum_compartment": {
 		"name": "Holy symbol (platinum, compartment)",
-		"copyof": "holy_symbol_compartment_gold"
+		"copyof": "holy_symbol_gold_compartment"
 	},
 	"holy_symbol_compartment_platinum": { "copyof": "holy_symbol_platinum_compartment" },
 	"holy_symbol_silver_compartment": {
 		"name": "Holy symbol (silver, compartment)",
-		"copyof": "holy_symbol_compartment_gold"
+		"copyof": "holy_symbol_gold_compartment"
 	},
 	"holy_symbol_compartment_silver": { "copyof": "holy_symbol_silver_compartment" },
 	"holy_symbol_wooden_compartment": {
 		"name": "Holy symbol (wooden, compartment)",
-		"copyof": "holy_symbol_compartment_gold"
+		"copyof": "holy_symbol_gold_compartment"
 	},
 	"holy_symbol_compartment_wooden": { "copyof": "holy_symbol_wooden_compartment" },
 	"holy_symbol_gold_flask": {
@@ -2088,22 +2088,22 @@
 	"holy_symbol_flask_gold": { "copyof": "holy_symbol_gold_flask" },
 	"holy_symbol_iron_flask": {
 		"name": "Holy symbol (iron, flask)",
-		"copyof": "holy_symbol_flask_gold"
+		"copyof": "holy_symbol_gold_flask"
 	},
 	"holy_symbol_flask_iron": { "copyof": "holy_symbol_iron_flask" },
 	"holy_symbol_platinum_flask": {
 		"name": "Holy symbol (platinum, flask)",
-		"copyof": "holy_symbol_flask_gold"
+		"copyof": "holy_symbol_gold_flask"
 	},
 	"holy_symbol_flask_platinum": { "copyof": "holy_symbol_platinum_flask" },
 	"holy_symbol_silver_flask": {
 		"name": "Holy symbol (silver, flask)",
-		"copyof": "holy_symbol_flask_gold"
+		"copyof": "holy_symbol_gold_flask"
 	},
 	"holy_symbol_flask_silver": { "copyof": "holy_symbol_silver_flask" },
 	"holy_symbol_wooden_flask": {
 		"name": "Holy symbol (wooden, flask)",
-		"copyof": "holy_symbol_flask_gold"
+		"copyof": "holy_symbol_gold_flask"
 	},
 	"holy_symbol_flask_wooden": { "copyof": "holy_symbol_wooden_flask" },
 	"holy_symbol_gold": {
@@ -2460,12 +2460,12 @@
 	"hourglass_one_hour": { "copyof": "hourglass_1_hour" },
 	"hourglass_1_minute": {
 		"name": "Hourglass (1 minute)",
-		"copyof": "hourglass_one_hour"
+		"copyof": "hourglass_1_hour"
 	},
 	"hourglass_one_minute": { "copyof": "hourglass_1_minute" },
 	"hourglass_6_seconds": {
 		"name": "Hourglass (6 seconds)",
-		"copyof": "hourglass_one_hour"
+		"copyof": "hourglass_1_hour"
 	},
 	"hourglass_six_seconds": { "copyof": "hourglass_6_seconds" },
 	"hourglass": { "copyof": "hourglass_1_hour" },
@@ -3801,8 +3801,8 @@
 		"copyof": "lock_average"
 	},
 	"superior_lock": { "copyof": "lock_superior" },
-	"lock_of_the_saved_averge": {
-		"name": "Lock of the saved (averge)",
+	"lock_of_the_saved_average": {
+		"name": "Lock of the saved (average)",
 		"sources": [
 			"Adventurer's Armory",
 			"Ultimate Equipment",
@@ -3818,7 +3818,6 @@
 			"This sturdy lock may be of any quality; the cost of making it a channel focus is in addition to the normal {eq-misc/lock} cost. When activated, the lock's Disable Device DC and the break DC for whatever it is locking (such as a door or chest) increase by 5; the lock gains +2 hardness and +4 hit points. The lock retains these bonuses for 24 hours or until it is forced open (including picking the lock)."
 		]
 	},
-	"lock_of_the_saved_average": { "copyof": "lock_of_the_saved_averge" },
 	"lock_of_the_saved_good": {
 		"name": "Lock of the saved (good)",
 		"copyof": "lock_of_the_saved_average"
@@ -4154,17 +4153,17 @@
 	"manacle_barbs": { "copyof": "manacles_with_barbs_common" },
 	"manacles_with_barbs_masterwork": {
 		"name": "Manacles with barbs (masterwork)",
-		"copyof": "manacle_barbs"
+		"copyof": "manacles_with_barbs_common"
 	},
 	"manacle_barbs_masterwork": { "copyof": "manacles_with_barbs_masterwork" },
 	"manacles_with_barbs_mithral": {
 		"name": "Manacles with barbs (mithral)",
-		"copyof": "manacle_barbs"
+		"copyof": "manacles_with_barbs_common"
 	},
 	"manacle_barbs_mithral": { "copyof": "manacles_with_barbs_mithral" },
 	"manacles_with_barbs_quickcatch": {
 		"name": "Manacles with barbs (quickcatch)",
-		"copyof": "manacle_barbs"
+		"copyof": "manacles_with_barbs_common"
 	},
 	"manacle_barbs_quickcatch": { "copyof": "manacles_with_barbs_quickcatch" },
 	"manacles_common": {

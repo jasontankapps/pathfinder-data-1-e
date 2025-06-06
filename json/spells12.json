@@ -3873,11 +3873,11 @@
 	"lesser_create_demiplane": { "copyof": "create_demiplane_lesser" },
 	"create_demiplane": {
 		"name": "Create Demiplane",
-		"copyof": "lesser_create_demiplane"
+		"copyof": "create_demiplane_lesser"
 	},
 	"create_demiplane_greater": {
 		"name": "Greater Create Demiplane",
-		"copyof": "lesser_create_demiplane"
+		"copyof": "create_demiplane_lesser"
 	},
 	"greater_create_demiplane": { "copyof": "create_demiplane_greater" },
 	"create_drug": {

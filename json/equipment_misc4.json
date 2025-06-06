@@ -291,7 +291,7 @@
 		"name": "Dire animal",
 		"sources": [ "Animal Archive" ],
 		"description": [
-			"## Dire ape",
+			"## Dire animal",
 			"{SOURCE Animal Archive/15}  ",
 			"**Price** Varies; **Weight** -  ",
 			"**Category** Mounts/Pets",
@@ -313,17 +313,50 @@
 			"| Dire wolverine | 500 gp |"
 		]
 	},
-	"dire_ape": { "copyof": "dire_animal" },
-	"dire_badger": { "copyof": "dire_animal" },
-	"dire_bear": { "copyof": "dire_animal" },
-	"dire_boar": { "copyof": "dire_animal" },
-	"dire_crocodile": { "copyof": "dire_animal" },
-	"dire_hyena": { "copyof": "dire_animal" },
-	"dire_lion": { "copyof": "dire_animal" },
-	"dire_shark": { "copyof": "dire_animal" },
-	"dire_tiger": { "copyof": "dire_animal" },
-	"dire_wolf": { "copyof": "dire_animal" },
-	"dire_wolverine": { "copyof": "dire_animal" },
+	"dire_ape": {
+		"name": "Dire ape",
+		"copyof": "dire_animal"
+	},
+	"dire_badger": {
+		"name": "Dire badger",
+		"copyof": "dire_animal"
+	},
+	"dire_bear": {
+		"name": "Dire bear",
+		"copyof": "dire_animal"
+	},
+	"dire_boar": {
+		"name": "Dire boar",
+		"copyof": "dire_animal"
+	},
+	"dire_crocodile": {
+		"name": "Dire crocodile",
+		"copyof": "dire_animal"
+	},
+	"dire_hyena": {
+		"name": "Dire hyena",
+		"copyof": "dire_animal"
+	},
+	"dire_lion": {
+		"name": "Dire lion",
+		"copyof": "dire_animal"
+	},
+	"dire_shark": {
+		"name": "Dire shark",
+		"copyof": "dire_animal"
+	},
+	"dire_tiger": {
+		"name": "Dire tiger",
+		"copyof": "dire_animal"
+	},
+	"dire_wolf": {
+		"name": "Dire wolf",
+		"copyof": "dire_animal"
+	},
+	"dire_wolverine": {
+		"name": "Dire wolverine",
+		"copyof": "dire_animal"
+	},
 	"dire_bat": {
 		"name": "Dire bat",
 		"sources": [

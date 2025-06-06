@@ -1252,11 +1252,11 @@
 	"lesser_rejuvenate_eidolon": { "copyof": "rejuvenate_eidolon_lesser" },
 	"rejuvenate_eidolon": {
 		"name": "Rejuvenate Eidolon",
-		"copyof": "lesser_rejuvenate_eidolon"
+		"copyof": "rejuvenate_eidolon_lesser"
 	},
 	"rejuvenate_eidolon_greater": {
 		"name": "Greater Rejuvenate Eidolon",
-		"copyof": "lesser_rejuvenate_eidolon"
+		"copyof": "rejuvenate_eidolon_lesser"
 	},
 	"greater_rejuvenate_eidolon": { "copyof": "rejuvenate_eidolon_greater" },
 	"release_the_hounds": {
@@ -2280,7 +2280,7 @@
 	"lesser_restore_eidolon": { "copyof": "restore_eidolon_lesser" },
 	"restore_eidolon": {
 		"name": "Restore Eidolon",
-		"copyof": "lesser_restore_eidolon"
+		"copyof": "restore_eidolon_lesser"
 	},
 	"restore_mythic_power": {
 		"name": "Restore Mythic Power",

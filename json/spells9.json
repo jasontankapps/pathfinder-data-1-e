@@ -2910,11 +2910,11 @@
 	"lesser_spellcasting_contract": { "copyof": "spellcasting_contract_lesser" },
 	"spellcasting_contract": {
 		"name": "Spellcasting Contract",
-		"copyof": "lesser_spellcasting_contract"
+		"copyof": "spellcasting_contract_lesser"
 	},
 	"spellcasting_contract_greater": {
 		"name": "Greater Spellcasting Contract",
-		"copyof": "lesser_spellcasting_contract"
+		"copyof": "spellcasting_contract_lesser"
 	},
 	"greater_spellcasting_contract": { "copyof": "spellcasting_contract_greater" },
 	"spellcrash_lesser": {
@@ -2974,11 +2974,11 @@
 	"lesser_spellcrash": { "copyof": "spellcrash_lesser" },
 	"spellcrash": {
 		"name": "Spellcrash",
-		"copyof": "lesser_spellcrash"
+		"copyof": "spellcrash_lesser"
 	},
 	"spellcrash_greater": {
 		"name": "Greater Spellcrash",
-		"copyof": "lesser_spellcrash"
+		"copyof": "spellcrash_lesser"
 	},
 	"greater_spellcrash": { "copyof": "spellcrash_greater" },
 	"spellcurse": {

@@ -3535,7 +3535,7 @@
 	"lesser_geas": { "copyof": "geas_lesser" },
 	"geas_quest": {
 		"name": "Geas/Quest",
-		"copyof": "lesser_geas"
+		"copyof": "geas_lesser"
 	},
 	"geas": { "copyof": "geas_quest" },
 	"quest": { "copyof": "geas_quest" },

@@ -1881,12 +1881,12 @@
 	"ball_ten_in": { "copyof": "ball_10_in" },
 	"ball_2_in": {
 		"name": "Ball (2 in.)",
-		"copyof": "ball_ten_in"
+		"copyof": "ball_10_in"
 	},
 	"ball_two_in": { "copyof": "ball_2_in" },
 	"ball_5_in": {
 		"name": "Ball (5 in.)",
-		"copyof": "ball_ten_in"
+		"copyof": "ball_10_in"
 	},
 	"ball_five_in": { "copyof": "ball_5_in" },
 	"balloon_trap": {

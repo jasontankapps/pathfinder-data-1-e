@@ -3,6 +3,7 @@ import {IonItem,IonLabel} from '@ionic/react';
 import { useLocation } from 'wouter';
 import { useAppDispatch } from '../store/hooks';
 import { goTo } from '../store/historySlice';
+import getLink from './getLink';
 
 interface MainLinkProps {
 	className?: string
@@ -21,11 +22,12 @@ const convertEntities = (input: string) => (
 
 const MainLink: FC<MainLinkProps> = ({className, info, to, end, endem, bottom}) => {
 	const dispatch = useAppDispatch();
-	const [location, navigate] = useLocation();
+	const [, navigate] = useLocation();
+	const link = to && `/${getLink(to.slice(1))}`; 
 	return (
 		<IonItem
 			className={"mainItem linked" + (className ? " " + className : "")}
-			onClick={to ? () => { dispatch(goTo(to)); navigate(to); } : undefined}
+			onClick={link ? () => { dispatch(goTo(link)); navigate(link); } : undefined}
 		>
 			<IonLabel className={end || endem ? "endcap" : (bottom ? "bottomcap" : undefined)}>
 				<div>{convertEntities(info)}</div>

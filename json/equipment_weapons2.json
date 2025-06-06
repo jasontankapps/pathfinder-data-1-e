@@ -3495,23 +3495,23 @@
 	"long_lash": { "copyof": "kobold_tail_long_lash" },
 	"kobold_tail_pounder": {
 		"name": "Kobold tail, pounder",
-		"copyof": "long_lash_kobold_tail"
+		"copyof": "kobold_tail_long_lash"
 	},
 	"pounder_kobold_tail": { "copyof": "kobold_tail_pounder" },
 	"pounder_tail": { "copyof": "kobold_tail_pounder" },
 	"kobold_tail_razored": {
 		"name": "Kobold tail, razored",
-		"copyof": "long_lash_kobold_tail"
+		"copyof": "kobold_tail_long_lash"
 	},
 	"razored_kobold_tail": { "copyof": "kobold_tail_razored" },
 	"kobold_tail_spiked": {
 		"name": "Kobold tail, spiked",
-		"copyof": "long_lash_kobold_tail"
+		"copyof": "kobold_tail_long_lash"
 	},
 	"spiked_kobold_tail": { "copyof": "kobold_tail_spiked" },
 	"kobold_tail_sweeper": {
 		"name": "Kobold tail, sweeper",
-		"copyof": "long_lash_kobold_tail"
+		"copyof": "kobold_tail_long_lash"
 	},
 	"sweeper_kobold_tail": { "copyof": "kobold_tail_sweeper" },
 	"breech_loader": {

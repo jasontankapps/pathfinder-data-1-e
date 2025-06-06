@@ -871,7 +871,7 @@
 	"lesser_guardian_monument": { "copyof": "guardian_monument_lesser" },
 	"guardian_monument_greater": {
 		"name": "Greater Guardian Monument",
-		"copyof": "lesser_guardian_monument"
+		"copyof": "guardian_monument_lesser"
 	},
 	"greater_guardian_monument": { "copyof": "guardian_monument_greater" },
 	"guardian_of_faith": {

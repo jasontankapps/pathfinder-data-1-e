@@ -1205,11 +1205,11 @@
 	"lesser_entice_fey": { "copyof": "entice_fey_lesser" },
 	"entice_fey": {
 		"name": "Entice Fey",
-		"copyof": "lesser_entice_fey"
+		"copyof": "entice_fey_lesser"
 	},
 	"entice_fey_greater": {
 		"name": "Greater Entice Fey",
-		"copyof": "lesser_entice_fey"
+		"copyof": "entice_fey_lesser"
 	},
 	"greater_entice_fey": { "copyof": "entice_fey_greater" },
 	"enticing_adulation": {
@@ -1692,11 +1692,11 @@
 	"lesser_evolution_surge": { "copyof": "evolution_surge_lesser" },
 	"evolution_surge": {
 		"name": "Evolution Surge",
-		"copyof": "lesser_evolution_surge"
+		"copyof": "evolution_surge_lesser"
 	},
 	"evolution_surge_greater": {
 		"name": "Greater Evolution Surge",
-		"copyof": "lesser_evolution_surge"
+		"copyof": "evolution_surge_lesser"
 	},
 	"greater_evolution_surge": { "copyof": "evolution_surge_greater" },
 	"excruciating_deformation": {

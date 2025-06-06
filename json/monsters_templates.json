@@ -1191,9 +1191,7 @@
 			"**Ability Scores:** Wisdom -4."
 		]
 	},
-	"cursed_lord": {
-		"copyof": "dread_lord"
-	},
+	"cursed_lord": { "copyof": "dread_lord" },
 	"dream_eater": {
 		"name": "Dream Eater",
 		"sources": [ "Dungeons of Golarion" ],

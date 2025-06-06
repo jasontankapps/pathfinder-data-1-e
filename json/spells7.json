@@ -1368,11 +1368,11 @@
 	"lesser_object_possession": { "copyof": "object_possession_lesser" },
 	"object_possession": {
 		"name": "Object Possession",
-		"copyof": "lesser_object_possession"
+		"copyof": "object_possession_lesser"
 	},
 	"object_possession_greater": {
 		"name": "Greater Object Possession",
-		"copyof": "lesser_object_possession"
+		"copyof": "object_possession_lesser"
 	},
 	"greater_object_possession": { "copyof": "object_possession_greater" },
 	"object_reading": {
@@ -3859,7 +3859,7 @@
 	"lesser_planar_binding": { "copyof": "planar_binding_lesser" },
 	"planar_inquiry": {
 		"name": "Planar Inquiry",
-		"copyof": "lesser_planar_ally"
+		"copyof": "planar_ally_lesser"
 	},
 	"planar_orientation": {
 		"name": "Planar Orientation",

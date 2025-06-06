@@ -245,7 +245,7 @@
 	},
 	"ballista_heavy": {
 		"name": "Ballista, heavy",
-		"copyof": "light_ballista"
+		"copyof": "ballista_light"
 	},
 	"heavy_ballista": { "copyof": "ballista_heavy" },
 	"cannon_fiends_mouth": {
@@ -295,7 +295,7 @@
 	},
 	"ballista_gate_breaker": {
 		"name": "Ballista, gate Breaker",
-		"copyof": "light_ballista"
+		"copyof": "ballista_light"
 	},
 	"firewyrm": {
 		"name": "Firewyrm",
@@ -404,12 +404,12 @@
 	"light_trebuchet": { "copyof": "trebuchet_light" },
 	"bombard_standard": {
 		"name": "Bombard, standard",
-		"copyof": "light_bombard"
+		"copyof": "bombard_light"
 	},
 	"bombard": { "copyof": "bombard_standard" },
 	"catapult_standard": {
 		"name": "Catapult, standard",
-		"copyof": "light_catapult"
+		"copyof": "catapult_light"
 	},
 	"springal_arrow": {
 		"name": "Springal, arrow",
@@ -436,27 +436,27 @@
 	"arrow_springal": { "copyof": "springal_arrow" },
 	"springal_rocket": {
 		"name": "Springal, rocket",
-		"copyof": "arrow_springal"
+		"copyof": "springal_arrow"
 	},
 	"rocket_springal": { "copyof": "springal_rocket" },
 	"trebuchet_standard": {
 		"name": "Trebuchet, standard",
-		"copyof": "light_trebuchet"
+		"copyof": "trebuchet_light"
 	},
 	"standard_trebuchet": { "copyof": "trebuchet_standard" },
 	"bombard_heavy": {
 		"name": "Bombard, heavy",
-		"copyof": "light_bombard"
+		"copyof": "bombard_light"
 	},
 	"heavy_bombard": { "copyof": "bombard_heavy" },
 	"catapult_heavy": {
 		"name": "Catapult, heavy",
-		"copyof": "light_catapult"
+		"copyof": "catapult_light"
 	},
 	"heavy_catapult": { "copyof": "catapult_heavy" },
 	"trebuchet_heavy": {
 		"name": "Trebuchet, heavy",
-		"copyof": "light_trebuchet"
+		"copyof": "trebuchet_light"
 	},
 	"heavy_trebuchet": { "copyof": "trebuchet_heavy" },
 	"bridge_assault_colossal": {
@@ -505,17 +505,17 @@
 	"colossal_assault_bridge": { "copyof": "bridge_assault_colossal" },
 	"bridge_assault_gargantuan": {
 		"name": "Bridge, assault, gargantuan",
-		"copyof": "colossal_assault_bridge"
+		"copyof": "bridge_assault_colossal"
 	},
 	"gargantuan_assault_bridge": { "copyof": "bridge_assault_gargantuan" },
 	"bridge_assault_huge": {
 		"name": "Bridge, assault, huge",
-		"copyof": "colossal_assault_bridge"
+		"copyof": "bridge_assault_colossal"
 	},
 	"huge_assault_bridge": { "copyof": "bridge_assault_huge" },
 	"bridge_assault_large": {
 		"name": "Bridge, assault, large",
-		"copyof": "colossal_assault_bridge"
+		"copyof": "bridge_assault_colossal"
 	},
 	"large_assault_bridge": { "copyof": "bridge_assault_large" },
 	"corvus": {
@@ -610,17 +610,17 @@
 	"colossal_gallery": { "copyof": "gallery_colossal" },
 	"gallery_gargantuan": {
 		"name": "Gallery, gargantuan",
-		"copyof": "colossal_gallery"
+		"copyof": "gallery_colossal"
 	},
 	"gargantuan_gallery": { "copyof": "gallery_gargantuan" },
 	"gallery_huge": {
 		"name": "Gallery, huge",
-		"copyof": "colossal_gallery"
+		"copyof": "gallery_colossal"
 	},
 	"huge_gallery": { "copyof": "gallery_huge" },
 	"gallery_large": {
 		"name": "Gallery, large",
-		"copyof": "colossal_gallery"
+		"copyof": "gallery_colossal"
 	},
 	"large_gallery": { "copyof": "gallery_large" },
 	"harvester": {
@@ -686,17 +686,17 @@
 	"gargantuan_ladder_escalade": { "copyof": "ladder_escalade_gargantuan" },
 	"ladder_escalade_colossal": {
 		"name": "Ladder, escalade, colossal",
-		"copyof": "gargantuan_ladder_escalade"
+		"copyof": "ladder_escalade_gargantuan"
 	},
 	"colossal_ladder_escalade": { "copyof": "ladder_escalade_colossal" },
 	"ladder_escalade_huge": {
 		"name": "Ladder, escalade, huge",
-		"copyof": "gargantuan_ladder_escalade"
+		"copyof": "ladder_escalade_gargantuan"
 	},
 	"huge_ladder_escalade": { "copyof": "ladder_escalade_huge" },
 	"ladder_escalade_large": {
 		"name": "Ladder, escalade, large",
-		"copyof": "gargantuan_ladder_escalade"
+		"copyof": "ladder_escalade_gargantuan"
 	},
 	"large_ladder_escalade": { "copyof": "ladder_escalade_large" },
 	"ram_large": {
@@ -755,17 +755,17 @@
 	"large_ram": { "copyof": "ram_large" },
 	"ram_colossal": {
 		"name": "Ram, colossal",
-		"copyof": "large_ram"
+		"copyof": "ram_large"
 	},
 	"colossal_ram": { "copyof": "ram_colossal" },
 	"ram_gargantuan": {
 		"name": "Ram, gargantuan",
-		"copyof": "large_ram"
+		"copyof": "ram_large"
 	},
 	"gargantuan_ram": { "copyof": "ram_gargantuan" },
 	"ram_huge": {
 		"name": "Ram, huge",
-		"copyof": "large_ram"
+		"copyof": "ram_large"
 	},
 	"huge_ram": { "copyof": "ram_huge" },
 	"siege_tower_colossal": {
@@ -821,17 +821,17 @@
 	"colossal_siege_tower": { "copyof": "siege_tower_colossal" },
 	"siege_tower_gargantuan": {
 		"name": "Siege Tower, gargantuan",
-		"copyof": "colossal_siege_tower"
+		"copyof": "siege_tower_colossal"
 	},
 	"gargantuan_siege_tower": { "copyof": "siege_tower_gargantuan" },
 	"siege_tower_huge": {
 		"name": "Siege Tower, huge",
-		"copyof": "colossal_siege_tower"
+		"copyof": "siege_tower_colossal"
 	},
 	"huge_siege_tower": { "copyof": "siege_tower_huge" },
 	"siege_tower_large": {
 		"name": "Siege Tower, large",
-		"copyof": "colossal_siege_tower"
+		"copyof": "siege_tower_colossal"
 	},
 	"large_siege_tower": { "copyof": "siege_tower_large" },
 	"hotchkiss_6_pounder": {

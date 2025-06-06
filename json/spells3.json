@@ -1113,16 +1113,16 @@
 	"lesser_curse_terrain": { "copyof": "curse_terrain_lesser" },
 	"curse_terrain": {
 		"name": "Curse Terrain",
-		"copyof": "lesser_curse_terrain"
+		"copyof": "curse_terrain_lesser"
 	},
 	"curse_terrain_greater": {
 		"name": "Greater Curse Terrain",
-		"copyof": "lesser_curse_terrain"
+		"copyof": "curse_terrain_lesser"
 	},
 	"greater_curse_terrain": { "copyof": "curse_terrain_greater" },
 	"curse_terrain_supreme": {
 		"name": "Supreme Curse Terrain",
-		"copyof": "lesser_curse_terrain"
+		"copyof": "curse_terrain_lesser"
 	},
 	"supreme_curse_terrain": { "copyof": "curse_terrain_supreme" },
 	"curse_water": {

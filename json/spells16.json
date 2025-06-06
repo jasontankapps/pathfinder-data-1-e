@@ -564,11 +564,11 @@
 	"lesser_summon_genie": { "copyof": "summon_genie_lesser" },
 	"summon_genie": {
 		"name": "Summon Genie",
-		"copyof": "lesser_summon_genie"
+		"copyof": "summon_genie_lesser"
 	},
 	"summon_genie_greater": {
 		"name": "Greater Summon Genie",
-		"copyof": "lesser_summon_genie"
+		"copyof": "summon_genie_lesser"
 	},
 	"greater_summon_genie": { "copyof": "summon_genie_greater" },
 	"summon_giant_ally_1": {

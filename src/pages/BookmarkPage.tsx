@@ -138,7 +138,6 @@ const KeyedBookmarkPage: FC<{id: string}> = ({id}) => {
 	const dispatch = useAppDispatch();
 	const defaultTitle = "Bookmarks";
 	const [possiblyUnsavedTitle, setPossiblyUnsavedTitle] = useState(title);
-	const [, navigate] = useLocation();
 	const isDark = useDarkMode();
 
 	const [inputElement, inputRef] = useElement<HTMLIonInputElement>();
@@ -224,7 +223,7 @@ const KeyedBookmarkPage: FC<{id: string}> = ({id}) => {
 			}
 			return <BookmarkItem id={id} link={link} index={position} title={title} doEdit={doEdit} key={`orderable-bookmark-${link}-in-group-${id || ""}`} />;
 		});
-	} , [contents, id, color, doEdit, dispatch, navigate]);
+	} , [contents, id, color, doEdit, dispatch]);
 
 	const openColorModal = () => {
 		setNewColor(color);
