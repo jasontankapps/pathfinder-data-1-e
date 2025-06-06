@@ -337,6 +337,7 @@
 	"one_size_category_larger": { "copyof": "damage_die_adjustments" },
 	"one_size_smaller": { "copyof": "damage_die_adjustments" },
 	"one_size_category_smaller": { "copyof": "damage_die_adjustments" },
+	"by_one_step": { "copyof": "damage_die_adjustments" },
 	"weapon_size": {
 		"name": "Weapon Size",
 		"sources": [ "PRPG Core Rulebook" ],
@@ -764,5 +765,15 @@
 		"type": "Rule",
 		"topLink": [ "Attack", "rule/attack" ]
 	},
-	"fight_defensively": { "copyof": "fighting_defensively" }
+	"fight_defensively": { "copyof": "fighting_defensively" },
+	"dismissible": {
+		"name": "Dismissible Spells",
+		"sources": [ "Ultimate Intrigue" ],
+		"description": [
+			":HL[(D) Dismissible:] If the duration line ends with \"(D)\", you can dismiss the spell at will. You must be within range of the spell's effect and must speak words of dismissal, which are usually a modified form of the spell's verbal component. If the spell has no verbal component, you can dismiss the effect with a gesture. Dismissing a spell is a standard action that does not provoke attacks of opportunity.",
+			"",
+			"A spell that depends on concentration is dismissible by its very nature, and dismissing it does not take an action, since all you have to do to end the spell is to stop concentrating on your turn."
+		]
+	},
+	"dismiss": { "copyof": "dismissible" }
 }

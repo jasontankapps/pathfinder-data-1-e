@@ -1244,7 +1244,7 @@
 			"| 19th | 6 | 6 | 6 | 6 | 5 | 5 | 4 |",
 			"| 20th | 6 | 6 | 6 | 6 | 6 | 5 | 5 |",
 			"",
-			"**Weapon and Armor Proficiency:** An inquisitor is proficient with all simple weapons, plus the hand crossbow, longbow, repeating crossbow, shortbow, and the favored weapon of her deity. She is also proficient with light armor, medium armor, and shields (except tower shields).",
+			"**Weapon and Armor Proficiency:** An inquisitor is proficient with all simple weapons, plus the {eq-weapon/hand crossbow}, {eq-weapon/longbow}, {eq-weapon/repeating crossbow}, {eq-weapon/shortbow}, and the favored weapon of her deity. She is also proficient with light armor, medium armor, and shields (except tower shields).",
 			"",
 			":b[Spells:] An inquisitor casts divine spells drawn from the {main/spells_<inquisitor/ spell list}. She can cast any spell she knows at any time without preparing it ahead of time, assuming she has not yet used up her allotment of spells per day for the spell's level.",
 			"",

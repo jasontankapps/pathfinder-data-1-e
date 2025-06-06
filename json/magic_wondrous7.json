@@ -2399,7 +2399,7 @@
 			"**Aura** strong transmutation; **CL** 15th  ",
 			"**Slot** shoulders; **Price** 55,000 gp; **Weight** 1 lb.",
 			"",
-			"This silvery gray cloak seems to absorb light rather than be illuminated by it. On command, the cloak makes its wearer ethereal (as the ethereal jaunt spell). The effect is dismissible. The cloak works for a total of up to 10 minutes per day. This duration need not be continuous, but it must be used in 1 minute increments.",
+			"This silvery gray cloak seems to absorb light rather than be illuminated by it. On command, the cloak makes its wearer ethereal (as the ethereal jaunt spell). The effect is {misc/dismissible}. The cloak works for a total of up to 10 minutes per day. This duration need not be continuous, but it must be used in 1 minute increments.",
 			"",
 			"### Construction",
 			"",

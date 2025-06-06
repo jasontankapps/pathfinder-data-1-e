@@ -1744,7 +1744,7 @@
 			"",
 			"You can manipulate raw eldritch energies to do more than just deal damage.  ",
 			"**Prerequisites:** Arcane Blast.  ",
-			"**Benefit:** When you use Arcane Blast, you may halve the damage dice to also perform your choice of either a trip or bull rush combat maneuver against the target of the blast. You can't move with an opponent you bull rush with this feat. You gain a bonus on your combat maneuver check for this attempt equal to half the spell level of the spell you sacrificed when using Arcane Blast, and you can substitute your Intelligence or Charisma modifier in place of your Strength modifier when determining your combat maneuver bonus.",
+			"**Benefit:** When you use Arcane Blast, you may halve the damage dice to also perform your choice of either a {rule/trip} or {rule/bull rush} combat maneuver against the target of the blast. You can't move with an opponent you bull rush with this feat. You gain a bonus on your combat maneuver check for this attempt equal to half the spell level of the spell you sacrificed when using Arcane Blast, and you can substitute your Intelligence or Charisma modifier in place of your Strength modifier when determining your combat maneuver bonus.",
 			"",
 			"In addition, you can expend one use of mythic power to change the damage dice of your Arcane Blast to d8s instead of d6s."
 		]
@@ -2170,7 +2170,7 @@
 			"**Prerequisites:** {feat/Light Armor Proficiency}, {feat/Medium Armor Proficiency}.  ",
 			"**Benefit:** See Light Armor Proficiency.  ",
 			"**Normal:** See Light Armor Proficiency.  ",
-			"**Special:** Antipaladins, cavaliers, fighters, paladins, samurai and warpriests automatically have Heavy Armor Proficiency as a bonus feat. They need not select it."
+			"**Special:** Antipaladins, aristocrats, cavaliers, fighters, paladins, samurai, warpriests, and warriors automatically have Heavy Armor Proficiency as a bonus feat. They need not select it."
 		]
 	},
 	"heavy_armor_proficiency": { "copyof": "armor_proficiency_heavy" },
@@ -2185,7 +2185,7 @@
 			"You are skilled at wearing light armor.  ",
 			"**Benefit:** When you wear a type of armor with which you are proficient, the armor check penalty for that armor applies only to Dexterity- and Strength-based skill checks.  ",
 			"**Normal:** A character who is wearing armor with which he is not proficient applies its armor check penalty to attack rolls and to all skill checks that involve moving.  ",
-			"**Special:** All characters except arcanists, monks, psychics, sorcerers, witches and wizards automatically have Light Armor Proficiency as a bonus feat. They need not select it."
+			"**Special:** All characters except adepts, arcanists, commoners, monks, psychics, sorcerers, witches and wizards automatically have Light Armor Proficiency as a bonus feat. They need not select it."
 		]
 	},
 	"light_armor_proficiency": { "copyof": "armor_proficiency_light" },
@@ -2201,7 +2201,7 @@
 			"**Prerequisites:** {feat/Light Armor Proficiency}.  ",
 			"**Benefit:** See Light Armor Proficiency.  ",
 			"**Normal:** See Light Armor Proficiency.  ",
-			"**Special:** Barbarians, bloodragers, cavaliers, clerics, druids, fighters, hunters, inquisitors, mediums, occultists, oracles, paladins, rangers, shamans, shifters, skalds, slayers and vigilantes automatically have Medium Armor Proficiency as a bonus feat. They need not select it."
+			"**Special:** Aristocrats, Barbarians, bloodragers, cavaliers, clerics, druids, fighters, hunters, inquisitors, mediums, occultists, oracles, paladins, rangers, shamans, shifters, skalds, slayers, vigilantes, and warriors automatically have Medium Armor Proficiency as a bonus feat. They need not select it."
 		]
 	},
 	"medium_armor_proficiency": { "copyof": "armor_proficiency_medium" },

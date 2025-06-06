@@ -160,6 +160,14 @@
 			"Whenever the slayer gains a bonus on Reflex saves due to cover, she gains an equal bonus on Fortitude saves."
 		]
 	},
+	"graceful_athlete": {
+		"name": "Graceful Athlete",
+		"compilationSources": [ [ "Blood of the Beast", 6 ] ],
+		"category": "Other Talents",
+		"description": [
+			"Gain {feat/Graceful Athlete} as a bonus feat. You must meet the prerequisites for the feat."
+		]
+	},
 	"inured_to_terror": {
 		"name": "Inured to Terror",
 		"nameSuffix": "(Ex)",

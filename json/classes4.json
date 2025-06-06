@@ -1332,7 +1332,7 @@
 			"| 19th | 6 | 6 | 6 | 6 | 5 | 5 | 4 |",
 			"| 20th | 6 | 6 | 6 | 6 | 6 | 5 | 5 |",
 			"",
-			"**Weapon and Armor Proficiency:** A spiritualist is proficient with all simple weapons, kukris, saps, and scythes, as well as with light armor.",
+			"**Weapon and Armor Proficiency:** A spiritualist is proficient with all simple weapons, {eq-weapon/kukri/s}, {eq-weapon/sap/s}, and {eq-weapon/scythe/s}, as well as with light armor.",
 			"",
 			":b[Spells:] A spiritualist casts psychic spells drawn from the {main/spells_<spiritualist/ spell list}. She can cast any spell she knows without preparing it ahead of time, assuming she has not yet used up her allotment of spells per day for the spell's level. To learn or cast a spell, a spiritualist must have a Wisdom score equal to at least 10 + the spell level. The DC for a saving throw against a spiritualist's spell equals 10 + the spell level + the spiritualist's Wisdom modifier.",
 			"",

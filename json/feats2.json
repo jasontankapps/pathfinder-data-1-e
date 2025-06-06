@@ -115,7 +115,7 @@
 			"**Prerequisites:** Cha 13, Perform (any) 1 rank, {ability/bardic performance} or raging song.  ",
 			"**Benefit:** You can use Perform, rather than Diplomacy, to improve an NPC's starting attitude toward you. Alternatively, by praising another character, you may use Perform to improve an NPC's starting attitude toward another character, though the DC for doing so is increased by 5. Either use of this feat requires at least 5 minutes of performance. You can't improve an NPC's attitude beyond friendly in this way, but if you would have made them helpful, you gain a +2 bonus on your next normal Diplomacy check against that NPC attempted within 24 hours.",
 			"",
-			"If the campaign uses the contact rules, seeing you perform can count as up to four of the five positive interactions required to cultivate a contact."
+			"If the campaign uses the {rule/contact[ rule]s}, seeing you perform can count as up to four of the five positive interactions required to cultivate a contact."
 		]
 	},
 	"charnel_soldiers": {
@@ -3484,7 +3484,7 @@
 			"{SOURCE Advanced Player's Guide/157}",
 			"",
 			"You can take advantage of an enemy's debilitated state to attempt a coup de grace.  ",
-			"**Prerequisites:** {ability/Sneak attack} +5d6.  ",
+			"**Prerequisites:** Sneak attack +5d6.  ",
 			"**Benefit:** You can deliver a {misc/coup de grace} to {misc/cowering} or {misc/stunned} targets.  ",
 			"**Normal:** You can only coup de grace {misc/helpless} targets.",
 			"",
@@ -3499,7 +3499,7 @@
 			"",
 			"You strike downed, dazed, and staggered opponents with deadly efficiency.  ",
 			"**Prerequisites:** Dastardly Finish.  ",
-			"**Benefit:** You can deliver a coup de grace to dazed and staggered non-mythic opponents. In addition, when any creature makes a Fortitude saving throw to survive one of your coup de grace attempts, it takes a penalty to that saving throw equal to your tier."
+			"**Benefit:** You can deliver a coup de grace to {misc/dazed} and {misc/staggered} non-mythic opponents. In addition, when any creature makes a Fortitude saving throw to survive one of your coup de grace attempts, it takes a penalty to that saving throw equal to your tier."
 		]
 	},
 	"dastardly_trick": {
@@ -3622,7 +3622,7 @@
 			"",
 			"You can quickly deter others with your martial mastery.  ",
 			"**Prerequisites:** Dazzling Display.  ",
-			"**Benefit:** While wielding the weapon with which you have Weapon Focus, you can use Dazzling Display as a standard action with a -5 penalty on your Intimidate check, as a move action with a -10 penalty, or as a swift action with a -20 penalty. You can expend one use of mythic power when you make a Dazzling Display to make those affected by the display frightened rather than shaken."
+			"**Benefit:** While wielding the weapon with which you have Weapon Focus, you can use Dazzling Display as a standard action with a -5 penalty on your Intimidate check, as a move action with a -10 penalty, or as a swift action with a -20 penalty. You can expend one use of mythic power when you make a Dazzling Display to make those affected by the display {misc/frightened} rather than shaken."
 		]
 	},
 	"dead_inside": {
@@ -3930,7 +3930,7 @@
 			"",
 			"When attacking from the air or higher ground, you bear down on your enemy to deadly effect.  ",
 			"**Prerequisites:** Death from Above.  ",
-			"**Benefit:** Whenever you charge an opponent from higher ground, or from above while flying, the critical multiplier of your weapon increases by 2 (to a maximum of &times;6). This doesn't stack with other abilities that increase a weapon's critical multiplier. If your charge attack hits, you can perform a trip combat maneuver against the attack's target as a free action without provoking attacks of opportunity."
+			"**Benefit:** Whenever you charge an opponent from higher ground, or from above while flying, the critical multiplier of your weapon increases by 2 (to a maximum of &times;6). This doesn't stack with other abilities that increase a weapon's critical multiplier. If your charge attack hits, you can perform a {rule/trip} combat maneuver against the attack's target as a free action without provoking attacks of opportunity."
 		]
 	},
 	"death_from_below": {
