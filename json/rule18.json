@@ -1455,7 +1455,15 @@
 			"",
 			":HL[Harvesting Trophy Components:] Once a character identifies potential trophies, she must attempt a skill check to harvest the relevant components. This is typically either a Survival check (for external features, such as hide, horns, teeth, or the like) or a Heal check (for internal features, such as blood, internal organs, or sweat). The DC for this check is equal to 15 + the creature's CR. Harvesting trophy components generally takes 10 minutes of work (at the GM's discretion, this could be as much as 1 hour of work for creatures whose bodies are particularly difficult to work with).",
 			"",
-			":HL[Creating Trophies:] Once trophy components are harvested, they generally remain viable for 24 hours before decay or spoilage ruins them. Application of {spell/gentle repose}, {magic-wondrous/unguent of timelessness}, or similar magic can extend this period of decay. In order to turn components harvested from a creature into a long-lasting trophy, a character must attempt a check with an appropriate Craft skill (the exact skill varies according to the nature of the trophy the character is creating, but it is usually one from the following list: alchemy, jewelry, leather, or taxidermy) to preserve the components and turn them into a trophy. The DC of this check is equal to 15 + the creature's CR."
+			":HL[Creating Trophies:] Once trophy components are harvested, they generally remain viable for 24 hours before decay or spoilage ruins them. Application of {spell/gentle repose}, {magic-wondrous/unguent of timelessness}, or similar magic can extend this period of decay. In order to turn components harvested from a creature into a long-lasting trophy, a character must attempt a check with an appropriate Craft skill (the exact skill varies according to the nature of the trophy the character is creating, but it is usually one from the following list: alchemy, jewelry, leather, or taxidermy) to preserve the components and turn them into a trophy. The DC of this check is equal to 15 + the creature's CR.",
+			"",
+			"### Feats for Crafting Trophies",
+			"",
+			"Although any character can take trophies from fallen creatures for cosmetic or roleplaying purposes, the following feats allow characters to derive functionality from items they salvage from monstrous corpses. These feats work similarly to item creation feats, except trophies are created using a single Craft or Heal check, they are nonmagical, and the benefits they provide are typically temporary. The DC of such a check is equal to 15 + the creature's CR, and creating a trophy takes a number of minutes equal to the creature's CR.",
+			"",
+			"- {feat/Harvest Parts}",
+			"    - {feat/Grisly Ornament}",
+			"        - {feat/Monstrous Crafter}"
 		],
 		"parent_topics": [
 			"advanced_gm_topics",

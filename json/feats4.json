@@ -2985,7 +2985,7 @@
 			"",
 			"You can catch your opponents on your weapon and hold them in place.  ",
 			"**Prerequisites:** {feat/Improved Grapple}, Strength 13, Base Attack Bonus +7.  ",
-			"**Benefit:** Whenever you damage an opponent with a piercing weapon, you can immediately make a grapple check; success means the opponent is impaled on your weapon and you both gain the grappled condition. While the opponent is impaled, as an attack action you may make a grapple check on your turn at a -4 penalty to damage the opponent with your weapon, even if your weapon cannot normally be used in a grapple.  ",
+			"**Benefit:** Whenever you damage an opponent with a piercing weapon, you can immediately make a {rule/grapple} check; success means the opponent is impaled on your weapon and you both gain the grappled condition. While the opponent is impaled, as an attack action you may make a grapple check on your turn at a -4 penalty to damage the opponent with your weapon, even if your weapon cannot normally be used in a grapple.  ",
 			"**Normal:** You can only attack with an unarmed strike, natural weapon, or light weapon against opponents you are grappling."
 		]
 	},
@@ -3001,9 +3001,9 @@
 			"",
 			"{SOURCE Inner Sea World Guide/287;Pathfinder Campaign Setting/83}",
 			"",
-			"You have mastered a deadly fighting form inspired by the hideous attacks of the barbed devil.  ",
+			"You have mastered a deadly fighting form inspired by the hideous attacks of the {monster/barbed devil}.  ",
 			"**Prerequisites:** {feat/Improved Unarmed Strike}.  ",
-			"**Benefit:** Your unarmed attacks can deal either bludgeoning or piercing damage. You decide which type of damage you deal whenever you attack a foe, but you may only choose one type at a time. If you critically hit a foe with your unarmed strike while doing piercing damage, the additional pain caused by the strike causes the foe to become sickened for 1 round (or staggered for 1 round if the target is already sickened). Multiple critical hits in a round against a single foe do not increase the duration of the sickened or staggered condition.  ",
+			"**Benefit:** Your unarmed attacks can deal either bludgeoning or piercing damage. You decide which type of damage you deal whenever you attack a foe, but you may only choose one type at a time. If you critically hit a foe with your unarmed strike while doing piercing damage, the additional pain caused by the strike causes the foe to become {misc/sickened} for 1 round (or {misc/staggered} for 1 round if the target is already sickened). Multiple critical hits in a round against a single foe do not increase the duration of the sickened or staggered condition.  ",
 			"**Special:** Hamatulatsu may be selected as a substitute bonus feat at 6th level by a monk even if the monk does not otherwise meet the prerequisites. This fighting style is normally only taught to women of the Sisterhood of the Golden Erinyes.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -3055,7 +3055,7 @@
 			"",
 			"You can throw a hammer with such force that it knocks your foes over.  ",
 			"**Prerequisites:** Int 13, {feat/Combat Expertise}, {feat/Improved Trip}, {feat/Precise Shot}, base attack bonus +1, {race/dwarf}.  ",
-			"**Benefit:** As a standard action, you can make a single ranged attack with a weapon that deals bludgeoning damage against a creature no more than one size category larger than you that is within the weapon's first range increment. If you hit and damage the target, you can immediately attempt to perform a trip combat maneuver against that target. This does not provoke an attack of opportunity, and if your combat maneuver check fails by 10 or more, you do not fall prone."
+			"**Benefit:** As a standard action, you can make a single ranged attack with a weapon that deals bludgeoning damage against a creature no more than one size category larger than you that is within the weapon's first range increment. If you hit and damage the target, you can immediately attempt to perform a {rule/trip} combat maneuver against that target. This does not provoke an attack of opportunity, and if your combat maneuver check fails by 10 or more, you do not fall prone."
 		]
 	},
 	"hands_autonomy": {
@@ -3068,12 +3068,12 @@
 			"",
 			"Your possessed hand can act independently.  ",
 			"**Prerequisites:** {feat/Possessed Hand}.  ",
-			"**Benefit:** You reduce the penalties for fighting with two weapons (including fighting with double weapons or when throwing weapons from each hand) by 2, to a minimum penalty of -1. This benefit stacks with the {feat/Two-Weapon Fighting} feat. When you are unconscious, paralyzed, asleep, or stunned, your possessed hand can still act on your behalf in a limited fashion. The hand uses your statistics when performing any action in this manner. The hand can't take attacks of opportunity, but can draw attacks of opportunity from actions it takes. The hand can perform the following actions each turn on your initiative count.",
+			"**Benefit:** You reduce the penalties for {rule/fighting with |two weapon/s>_fighting} (including fighting with double weapons or when throwing weapons from each hand) by 2, to a minimum penalty of -1. This benefit stacks with the {feat/Two-Weapon Fighting} feat. When you are unconscious, paralyzed, asleep, or stunned, your possessed hand can still act on your behalf in a limited fashion. The hand uses your statistics when performing any action in this manner. The hand can't take attacks of opportunity, but can draw attacks of opportunity from actions it takes. The hand can perform the following actions each turn on your initiative count.",
 			"",
 			"- The hand can retrieve or pick up an item or weapon as a standard action.",
 			"- The hand can attempt any of the following skill checks at a -4 penalty: Disable Device, Escape Artist, Heal, Sleight of Hand, or Use Magic Device.",
-			"- The hand can knock you prone as a free action, and drag you while you're prone at a speed of 5 feet as a full-round action.",
-			"- The hand can perform any other action appropriate for a hand and an arm, such as pouring a held potion into your mouth or awakening you from a sleep spell.",
+			"- The hand can knock you {rule/prone} as a free action, and drag you while you're prone at a speed of 5 feet as a full-round action.",
+			"- The hand can perform any other action appropriate for a hand and an arm, such as pouring a held potion into your mouth or awakening you from a {spell/sleep} spell.",
 			"- The hand can make a single melee or ranged attack with a light or one-handed weapon as a full-round action."
 		]
 	},
@@ -3087,7 +3087,7 @@
 			"",
 			"Your possessed hand can painlessly pull free of your body or reattach itself, leaving you with a bloodless but raw-looking stump at the end of one arm while the hand itself performs remote tasks under your command, acting in many ways like a strange familiar.  ",
 			"**Prerequisites:** {feat/Hand's Autonomy}, {feat/Possessed Hand}.  ",
-			"**Benefit:** You can remove your possessed hand, allowing the possessing spirit to animate and control its motion. Removing or reattaching your possessed hand is a full-round action. This deals no damage to you, but you can't use the hand while it is removed. The hand acts as a wizard's familiar, using your character level as your effective wizard level, except it doesn't gain the alertness, share spells, deliver touch spells, spell resistance, or scry on familiar abilities. Use the statistics for a {monster/crawling hand} to represent the detached hand, save that the hand isn't undead, doesn't have the mark quarry ability, and shares your alignment. If the hand is destroyed, the spirit regenerates your missing hand in 2d4 days. This process can be accelerated by {spell/regenerate} or similar magic. You cannot use the Possessed Hand feat or any feat with the Possessed Hand feat as a prerequisite until the hand is fully regenerated. If you have the familiar class feature, you can choose for your possessed hand to become your familiar, granting it all familiar abilities as normal. If selected as a familiar, your possessed hand grants you a +3 bonus on Sleight of Hand checks."
+			"**Benefit:** You can remove your possessed hand, allowing the possessing spirit to animate and control its motion. Removing or reattaching your possessed hand is a full-round action. This deals no damage to you, but you can't use the hand while it is removed. The hand acts as a wizard's {ability/familiar}, using your character level as your effective wizard level, except it doesn't gain the alertness, share spells, deliver touch spells, spell resistance, or scry on familiar abilities. Use the statistics for a {monster/crawling hand} to represent the detached hand, save that the hand isn't undead, doesn't have the mark quarry ability, and shares your alignment. If the hand is destroyed, the spirit regenerates your missing hand in 2d4 days. This process can be accelerated by {spell/regenerate} or similar magic. You cannot use the Possessed Hand feat or any feat with the Possessed Hand feat as a prerequisite until the hand is fully regenerated. If you have the familiar class feature, you can choose for your possessed hand to become your {sidekick/familiar}, granting it all familiar abilities as normal. If selected as a familiar, your possessed hand grants you a +3 bonus on Sleight of Hand checks."
 		]
 	},
 	"hands_knowledge": {
@@ -3126,7 +3126,7 @@
 			"",
 			"By manifesting an eerie, spiritual eye of its own, your possessed hand can \"see\" on your behalf.  ",
 			"**Prerequisites:** {feat/Possessed Hand}.  ",
-			"**Benefit:** While your possessed hand isn't carrying anything, you gain darkvision with a range of 60 feet and cannot be flanked."
+			"**Benefit:** While your possessed hand isn't carrying anything, you gain darkvision with a range of 60 feet and cannot be {rule/flank/ed>ing}."
 		]
 	},
 	"harder_they_fall": {
@@ -3142,7 +3142,7 @@
 			"",
 			"You can work with an ally to move or knock over a foe that's too large for either of you to overcome alone.  ",
 			"**Prerequisites:** Str 13, Int 13, {feat/Combat Expertise}, {feat/Power Attack}.  ",
-			"**Benefit:** When you use the aid another action to grant an ally who also has this feat a +2 bonus on a bull rush or trip combat maneuver check, the ally can attempt that maneuver even against foes two or more size categories larger than herself."
+			"**Benefit:** When you use the {rule/aid another>_2} action to grant an ally who also has this feat a +2 bonus on a {rule/bull rush} or {rule/trip} combat maneuver check, the ally can attempt that maneuver even against foes two or more size categories larger than herself."
 		]
 	},
 	"hard_headed": {
@@ -3158,7 +3158,7 @@
 			"",
 			"Your thick skull is almost a weapon unto itself.  ",
 			"**Prerequisites:** Base attack bonus +1, {race/dwarf}.  ",
-			"**Benefit:** You gain a +1 bonus on attack rolls and combat maneuver checks made using a helmet. You receive a +2 bonus on saves against spells and special abilities that cause you to become staggered or stunned.",
+			"**Benefit:** You gain a +1 bonus on attack rolls and combat maneuver checks made using a helmet. You receive a +2 bonus on saves against spells and special abilities that cause you to become {misc/staggered} or {misc/stunned}.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/122}",
@@ -3176,7 +3176,7 @@
 			"",
 			"You can hold your liquor and poisons better than most.  ",
 			"**Prerequisites:** {feat/Great Fortitude}.  ",
-			"**Benefit:** You gain a +2 bonus on Fortitude saving throws against ingested poisons. You take no penalties when you are tipsy, and the penalties for being {rule/drunk>enness} or soused are halved for you."
+			"**Benefit:** You gain a +2 bonus on Fortitude saving throws against ingested poisons. You take no penalties when you are tipsy, and the penalties for being {rule/drunk/ or soused>enness} are halved for you."
 		]
 	},
 	"harmonic_sage": {
@@ -3191,9 +3191,10 @@
 			"**Prerequisites:** {ability/Bardic performance} class feature, Knowledge (engineering) 5 ranks.  ",
 			"**Benefit:** While inside an artificial structure, you can spend a free action to make a DC 15 Knowledge (engineering) check when you begin your bardic performance. Success on this check allows you to do one of the following.",
 			"",
-			"Self-Harmonize: By performing over the acoustic reverberations of your performance, you increase the DC of your bardic performance effects +1.",
+			">**Self-Harmonize:** By performing over the acoustic reverberations of your performance, you increase the DC of your bardic performance effects +1.",
+			">",
+			">**Reverberation:** You can choose to have the effect of your current bardic performance continue for 1 round after you cease maintaining it, regardless of why you cease maintaining it. You can still have no more than one bardic performance in effect at one time.",
 			"",
-			"Reverberation: You can choose to have the effect of your current bardic performance continue for 1 round after you cease maintaining it, regardless of why you cease maintaining it. You can still have no more than one bardic performance in effect at one time.  ",
 			"**Normal:** A bardic performance lasts only as long as you maintain it."
 		]
 	},
@@ -3210,8 +3211,8 @@
 			"{SOURCE Inner Sea World Guide/287;Pathfinder #12: Crown of Fangs/59;Pathfinder Campaign Setting/218}",
 			"",
 			"You can weave bardic music effects into your spellcasting in such a way that your spellcasting and bardic performance become indistinguishable.  ",
-			"**Prerequisites:** Bardic music ability.  ",
-			"**Benefit:** Whenever you cast a spell while you are maintaining a bardic performance, you can maintain the bardic performance for that round without expending one of your rounds of performance for the day. In addition, you can switch from one bardic performance to another as a swift action when you cast a spell while maintaining a bardic performance."
+			"**Prerequisites:** Bardic performance ability.  ",
+			"**Benefit:** Whenever you cast a spell while you are maintaining a {ability/bardic performance}, you can maintain the bardic performance for that round without expending one of your rounds of performance for the day. In addition, you can switch from one bardic performance to another as a swift action when you cast a spell while maintaining a bardic performance."
 		]
 	},
 	"harrowed": {
@@ -3227,7 +3228,7 @@
 			"{SOURCE Inner Sea World Guide/287;Curse of the Crimson Throne Player's Guide/14;Pathfinder Campaign Setting/218}",
 			"",
 			"Numerous Harrow readings early in your life seem to have hit the mark precisely, increasing your belief that you are destined for a specific purpose in life.  ",
-			"**Benefit:** You get a +1 bonus on all Will saves made to resist enchantment effects. Once per day, you may draw a card from a Harrow deck you own. At any one time for the rest of that day, you may apply a +2 bonus on any d20 roll modified by the card's suit. For example, if you drew a card from the suit of Dexterity, you could apply this +2 bonus on an Initiative check, a Reflex save, a Dexterity-based skill check, or a ranged attack roll. You may assign this +2 bonus after you make the roll, but you must do so before you know whether the roll was a success or not."
+			"**Benefit:** You get a +1 bonus on all Will saves made to resist enchantment effects. Once per day, you may draw a card from a {eq-misc/Harrow deck} you own. At any one time for the rest of that day, you may apply a +2 bonus on any d20 roll modified by the card's suit. For example, if you drew a card from the suit of Dexterity, you could apply this +2 bonus on an Initiative check, a Reflex save, a Dexterity-based skill check, or a ranged attack roll. You may assign this +2 bonus after you make the roll, but you must do so before you know whether the roll was a success or not."
 		]
 	},
 	"harrowed_summoning": {
@@ -3240,7 +3241,7 @@
 			"",
 			"Your summoned creatures are empowered by the magic of the harrow.  ",
 			"**Prerequisites:** {feat/Harrowed}.  ",
-			"**Benefit:** When you cast a conjuration (summoning) spell or use a spell-like ability to summon one or more creatures, you can draw two random cards from a complete harrow deck you own. Doing so adds both a somatic component (if the spell does not already have one) and a focus component (the harrow deck) to the spell, but does not increase the spell's casting time. For the duration of the spell, each summoned creature gains a +4 enhancement bonus to the corresponding ability scores of the drawn card's suits. If both cards are the same suit, each summoned creature gains a +6 bonus to that ability score instead. If either card's alignment is a true match for the summoned creatures' alignment, the duration of the spell is doubled, while drawing an opposite match halves the duration of the spell. If both a true match and an opposite match are drawn, the spell's duration is unchanged.",
+			"**Benefit:** When you cast a conjuration (summoning) spell or use a spell-like ability to summon one or more creatures, you can draw two random cards from a complete {eq-misc/harrow deck} you own. Doing so adds both a somatic component (if the spell does not already have one) and a focus component (the harrow deck) to the spell, but does not increase the spell's casting time. For the duration of the spell, each summoned creature gains a +4 enhancement bonus to the corresponding ability scores of the drawn card's suits. If both cards are the same suit, each summoned creature gains a +6 bonus to that ability score instead. If either card's alignment is a true match for the summoned creatures' alignment, the duration of the spell is doubled, while drawing an opposite match halves the duration of the spell. If both a true match and an opposite match are drawn, the spell's duration is unchanged.",
 			"",
 			"A creature summoned in this way is distinctly altered by the cards drawn. Its physical appearance reflects the visual elements of the cards (for example, a creature summoned with The Publican might have only one eye). The creature's personality is also influenced by the cards, but not so much as to alter its alignment (for example, The Snakebite might summon a creature that likes to gossip)."
 		]
@@ -3258,7 +3259,7 @@
 			"",
 			"Your movements perfectly synchronize with your ally's to greater effect.  ",
 			"**Prerequisites:** Any {main/feats_<teamwork/ feat}, base attack bonus +6.  ",
-			"**Benefit:** When you successfully use the aid another action to improve the Armor Class or attack roll of an ally who also has this feat, the benefit from aid another lasts until the beginning of your next turn.  ",
+			"**Benefit:** When you successfully use the {rule/aid another>_2} action to improve the Armor Class or attack roll of an ally who also has this feat, the benefit from aid another lasts until the beginning of your next turn.  ",
 			"**Normal:** The bonus granted by aid another either grants your ally a +2 bonus on her next attack roll against an opponent or grants your ally a +2 bonus to AC against that opponent's next attack made before the beginning of your next turn.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -3277,7 +3278,7 @@
 			"",
 			"You observe the signs of the universe by studying how spilled blood and viscera fall, learning insights into how to best appease unseen forces.  ",
 			"**Prerequisites:** Knowledge (religion) 3 ranks.  ",
-			"**Benefit:** If you perform a successful coup de grace, you gain a +2 circumstance bonus on skill checks attempted as part of a single occult ritual or occult skill unlock performed within the next minute. Alternatively, you can instead gain a +1 caster level bonus on a single divination or necromancy spell. The ritual or spell must begin within 1 minute of the coup de grace."
+			"**Benefit:** If you perform a successful {misc/coup de grace}, you gain a +2 circumstance bonus on skill checks attempted as part of a single occult ritual or occult skill unlock performed within the next minute. Alternatively, you can instead gain a +1 caster level bonus on a single divination or necromancy spell. The ritual or spell must begin within 1 minute of the *coup de grace.*"
 		]
 	},
 	"harvest_parts": {
@@ -3290,11 +3291,7 @@
 			"",
 			"You can extract the choicest parts from a monster's carcass to use as resources when crafting items.  ",
 			"**Prerequisites:** Craft (any) 1 rank or Heal 1 rank.  ",
-			"**Benefit:** You can attempt a Craft or Heal check, as though making a trophy, to gain usable resources from a creature that has been dead for less than an hour. Only creatures with a CR of 1 or higher yield usable parts. The value of the parts you harvest is equal to the creature's CR squared &times; 10 gp (increases to CR derived from class levels or templates do not contribute to this value). This value can be used only as raw materials for crafting alchemical, masterwork, mundane, or magic items. Items crafted using creature parts must be made of a suitable material - typically bone or hide, with metal only in extraordinary cases. No more than a quarter of a crafted item's cost can be supplied with harvested parts. Harvested parts remain usable for 2 days before they rot (unless used to craft objects or somehow preserved). Creature parts that are harvested in this manner can't be bought or sold in most settlements.",
-			"",
-			"### Crafting Trophies",
-			"",
-			"Although any character can take trophies from fallen creatures for cosmetic or roleplaying purposes, the following feats allow characters to derive functionality from items they salvage from monstrous corpses. These feats work similarly to item creation feats, except trophies are created using a single Craft or Heal check, they are nonmagical, and the benefits they provide are typically temporary. The DC of such a check is equal to 15 + the creature's CR, and creating a trophy takes a number of minutes equal to the creature's CR."
+			"**Benefit:** You can attempt a Craft or Heal check, as though making a {rule/harvesting_<troph/y>ies}, to gain usable resources from a creature that has been dead for less than an hour. Only creatures with a CR of 1 or higher yield usable parts. The value of the parts you harvest is equal to the creature's CR squared &times; 10 gp (increases to CR derived from class levels or templates do not contribute to this value). This value can be used only as raw materials for crafting alchemical, masterwork, mundane, or magic items. Items crafted using creature parts must be made of a suitable material - typically bone or hide, with metal only in extraordinary cases. No more than a quarter of a crafted item's cost can be supplied with harvested parts. Harvested parts remain usable for 2 days before they rot (unless used to craft objects or somehow preserved). Creature parts that are harvested in this manner can't be bought or sold in most settlements."
 		]
 	},
 	"improved_armor_focus": {
@@ -3361,7 +3358,7 @@
 			"",
 			"After much practice, you and an ally have become adept at fighting in close proximity to one another.  ",
 			"**Prerequisites:** {feat/Back to Back}, Perception 5 ranks.  ",
-			"**Benefit:** While you are adjacent to an ally who is flanked and also has this feat, you can spend a swift action to gain a +2 bonus to AC against all flankers until the start of your next turn."
+			"**Benefit:** While you are adjacent to an ally who is {rule/flank/ed>ing} and also has this feat, you can spend a swift action to gain a +2 bonus to AC against all flankers until the start of your next turn."
 		]
 	},
 	"improved_balor_whip": {
@@ -3374,7 +3371,7 @@
 			"",
 			"You can pull in foes with your whip and attack them with your sword.  ",
 			"**Prerequisites:** {feat/Balor Whip}, {feat/Whip Mastery}, base attack bonus +12.  ",
-			"**Benefit:** When you succeed at a drag attempt with your whip against a non-adjacent target and the target ends the drag adjacent to you, as a free action you can make a single attack against the target at your highest attack bonus using the melee weapon held in your other hand. You gain an additional +2 bonus on drag combat maneuver checks when using a whip to drag, but this bonus does not stack with the bonus from Greater Drag."
+			"**Benefit:** When you succeed at a {rule/drag} attempt with your {eq-weapon/whip} against a non-adjacent target and the target ends the drag adjacent to you, as a free action you can make a single attack against the target at your highest attack bonus using the melee weapon held in your other hand. You gain an additional +2 bonus on drag combat maneuver checks when using a whip to drag, but this bonus does not stack with the bonus from {feat/Greater Drag}."
 		]
 	},
 	"improved_beast_hunter": {
@@ -3387,7 +3384,7 @@
 			"",
 			"You are well trained in stalking and hunting the animals of the wild.  ",
 			"**Prerequisites:** {feat/Beast Hunter}; base attack bonus +3; Knowledge (nature) or Survival 3 ranks.  ",
-			"**Benefit:** When fighting animals that are at least one size category larger than you and that are native to the terrain you have chosen with Beast Hunter, you gain a +4 bonus on combat maneuver checks and a +4 to your CMD against such animals' attempts to use combat maneuvers against you. Additionally, you gain a +2 bonus on Reflex saves against attacks by the animal that allow a Reflex save (such as attempting to avoid a trample attack).  ",
+			"**Benefit:** When fighting animals that are at least one size category larger than you and that are native to the terrain you have chosen with Beast Hunter, you gain a +4 bonus on {rule/combat maneuver>s} checks and a +4 to your CMD against such animals' attempts to use combat maneuvers against you. Additionally, you gain a +2 bonus on Reflex saves against attacks by the animal that allow a Reflex save (such as attempting to avoid a {umr/trample} attack).  ",
 			"**Special:** If you have selected Beast Hunter multiple times, you gain this benefit for all of the terrains you have chosen for those feats."
 		]
 	},
@@ -3401,7 +3398,7 @@
 			"",
 			"You have mastered the ability to transform into a variety of beasts.  ",
 			"**Prerequisites:** {template/Vampire}.  ",
-			"**Benefit:** You can {umr/change shape} to assume the form of one of the following beasts, as beast shape II: boar, dire bat, giant frog, grizzly bear, hyena, leopard, lion, shark, squid, or wolf. This is a supernatural ability.  ",
+			"**Benefit:** You can {umr/change shape} to assume the form of one of the following beasts, as {spell/beast shape II}: {monster/boar}, {monster/dire bat}, {monster/giant frog}, {monster/grizzly bear}, {monster/hyena}, {monster/leopard}, {monster/lion}, {monster/shark}, {monster/squid}, or {monster/wolf}. This is a supernatural ability.  ",
 			"**Special:** You can gain this feat multiple times. Each time you take this feat, choose another animal transformation."
 		]
 	},
@@ -3415,11 +3412,11 @@
 			"",
 			"You can channel even more energy into weapons and armor to grant them several divine powers at once.  ",
 			"**Prerequisites:** {feat/Bless Equipment}, caster level 9th, {ability/channel energy} class feature.  ",
-			"**Benefit:** The number of uses of channeled energy you must expend to bless a piece of equipment using Bless Equipment and Align Equipment decreases by one (to a minimum of one use of channel energy per blessing).",
+			"**Benefit:** The number of uses of channeled energy you must expend to bless a piece of equipment using Bless Equipment and {feat/Align Equipment} decreases by one (to a minimum of one use of channel energy per blessing).",
 			"",
 			"You can also bless a piece of equipment with up to two blessings at a time. Each blessing provides a different special ability drawn from the Bless Equipment list (and the Align Equipment list if you possess that feat). You must still have a high enough caster level to bless a piece of equipment with each of the selected blessings.",
 			"",
-			"You expend the appropriate number of uses of channeled energy required for each blessing, taking into account the reduction granted by this feat (and the increase for blessing a masterwork item, if needed). For example, a cleric with this feat would need to expend two uses of channeled energy to bless a weapon with the undead-bane and ghost touch special abilities (one use for bane plus one use for ghost touch).",
+			"You expend the appropriate number of uses of channeled energy required for each blessing, taking into account the reduction granted by this feat (and the increase for blessing a masterwork item, if needed). For example, a cleric with this feat would need to expend two uses of channeled energy to bless a weapon with the undead-bane and ghost touch special abilities (one use for {magic-enh/bane} plus one use for {magic-enh/ghost touch}).",
 			"",
 			"If a given piece of equipment already has a blessing on it, you can give it a second blessing. When another blessing is applied to a piece of equipment that currently has a blessing active on it, the durations for the two blessings are tracked separately."
 		]
@@ -3440,7 +3437,7 @@
 			"**Benefit:** Your melee attacks ignore the miss chance for less than total {rule/concealment}. You may still reroll your miss chance percentile roll for total concealment.",
 			"",
 			"If you successfully pinpoint an invisible or hidden attacker within 30 feet, that attacker gets no advantages related to hitting you with ranged attacks. That is, you don't lose your Dexterity bonus to Armor Class, and the attacker doesn't get the usual +2 bonus for being invisible.  ",
-			"**Special:** The Improved Blind-Fight feat is of no use against a character who is the subject of a blink spell.",
+			"**Special:** The Improved Blind-Fight feat is of no use against a character who is the subject of a {spell/blink} spell.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/122}",
@@ -3475,7 +3472,7 @@
 			"",
 			"You are skilled at pushing your foes around.  ",
 			"**Prerequisites:** Str 13, {feat/Power Attack}, base attack bonus +1.  ",
-			"**Benefit:** You do not provoke an attack of opportunity when performing a bull rush combat maneuver. In addition, you receive a +2 bonus on checks made to bull rush a foe. You also receive a +2 bonus to your Combat Maneuver Defense whenever an opponent tries to bull rush you.  ",
+			"**Benefit:** You do not provoke an attack of opportunity when performing a {rule/bull rush} combat maneuver. In addition, you receive a +2 bonus on checks made to bull rush a foe. You also receive a +2 bonus to your Combat Maneuver Defense whenever an opponent tries to bull rush you.  ",
 			"**Normal:** You provoke an attack of opportunity when performing a bull rush combat maneuver.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -3504,7 +3501,7 @@
 			"",
 			"You are skilled at landing blows right where you want to.  ",
 			"**Prerequisites:** Int 13, {feat/Combat Expertise}.  ",
-			"**Benefit:** You receive a +2 bonus on attack rolls when making a called shot. When taking a full-round or standard action that gives you multiple attacks, you can replace a single attack with a called shot. You may only attempt one called shot per round.  ",
+			"**Benefit:** You receive a +2 bonus on attack rolls when making a {rule/called shot>s}. When taking a full-round or standard action that gives you multiple attacks, you can replace a single attack with a called shot. You may only attempt one called shot per round.  ",
 			"**Normal:** You can make one called shot per round as a full-round action."
 		]
 	},
@@ -3628,7 +3625,7 @@
 			"{SOURCE PRPG Core Rulebook/126}",
 			"",
 			"You are skilled at countering the spells of others using similar spells.  ",
-			"**Benefit:** When counterspelling, you may use a spell of the same school that is one or more spell levels higher than the target spell.  ",
+			"**Benefit:** When {rule/counterspell/ing>s}, you may use a spell of the same school that is one or more spell levels higher than the target spell.  ",
 			"**Normal:** Without this feat, you may counter a spell only with the same spell or with a spell specifically designated as countering the target spell.",
 			"",
 			"### Mythic Improved Counterspell",
@@ -3682,7 +3679,7 @@
 			"",
 			"With further modification, your eyes see clearly in not only normal darkness, but in magical darkness as well.  ",
 			"**Prerequisites:** {feat/Dark Sight}, {feat/Gloom Sight}, {race/fetchling}.  ",
-			"**Benefit:** You gain the see in darkness ability and lose the light sensitivity weakness, but gain the light blindness weakness."
+			"**Benefit:** You gain the {umr/see in darkness} ability and lose the {umr/light sensitivity} weakness, but gain the {umr/light blindness} weakness."
 		]
 	},
 	"improved_day_job": {
@@ -3694,8 +3691,10 @@
 			"{SOURCE Pathfinder Society Primer/8}",
 			"",
 			"You learned the importance of an honest day's work while training as an initiate of the [Pathfinder Society](rule/aff_scholars).  ",
-			"**Prerequisites:** Ability to attempt Day Job checks (see the Guide to Pathfinder Society Organized Play).  ",
-			"**Benefit:** You gain a +3 bonus on Day Job checks using one skill you choose when you take this feat. This bonus stacks with other feats that grant a bonus to the chosen skill, including {feat/Skill Focus}."
+			"**Prerequisites:** Ability to attempt Day Job checks (see the *Guide to Pathfinder Society Organized Play* [^X]).  ",
+			"**Benefit:** You gain a +3 bonus on Day Job checks using one skill you choose when you take this feat. This bonus stacks with other feats that grant a bonus to the chosen skill, including {feat/Skill Focus}.",
+			"",
+			"[^X]: Not included in this app. The Day Job appears in version 1.1 of that document, but not all versions."
 		]
 	},
 	"improved_death_stealing": {
@@ -3708,7 +3707,7 @@
 			"",
 			"Your death-stealing gaze creates more powerful undead.  ",
 			"**Prerequisites:** {monster/Nabasu}, {feat/Ability Focus} (death-stealing gaze)  ",
-			"**Benefit:** When you would normally create a ghoul with your death-stealing gaze, you instead create a ghast. As a free action, you may also spend a number of growth points in order to even further augment your new undead minion as it is created. If you spend 1 growth point, you create a wight instead of a ghast. If you spend 3 growth points, you create a wraith instead of a ghast. And if you spend 5 growth points, you transform the target into a juju zombie instead of a ghast. Note that spending growth in this manner reduces your statistics as appropriate."
+			"**Benefit:** When you would normally create a ghoul with your death-stealing gaze, you instead create a {monster/ghast}. As a free action, you may also spend a number of growth points in order to even further augment your new undead minion as it is created. If you spend 1 growth point, you create a {monster/wight} instead of a ghast. If you spend 3 growth points, you create a {monster/wraith} instead of a ghast. And if you spend 5 growth points, you transform the target into a {template/juju zombie} instead of a ghast. Note that spending growth in this manner reduces your statistics as appropriate."
 		]
 	},
 	"improved_devastating_strike": {
@@ -3741,8 +3740,8 @@
 			"{SOURCE Advanced Class Guide/150}",
 			"",
 			"The foreboding tone of your dirge is especially effective at unsettling your enemies.  ",
-			"**Prerequisites:** Ability to perform dirge of doom.  ",
-			"**Benefit:** The range of your dirge of doom ability is extended to 60 feet. Additionally, if a creature is shaken from another effect, the effect of your dirge of doom is changed to frightened for that specific creature. This benefit cannot cause a creature to become panicked, even if a target is already frightened from another effect.  ",
+			"**Prerequisites:** Ability to perform {performance/dirge of doom}.  ",
+			"**Benefit:** The range of your dirge of doom ability is extended to 60 feet. Additionally, if a creature is {misc/shaken} from another effect, the effect of your dirge of doom is changed to {misc/frightened} for that specific creature. This benefit cannot cause a creature to become {misc/panicked}, even if a target is already frightened from another effect.  ",
 			"**Normal:** The range of dirge of doom is 30 feet. A creature that is already shaken cannot become frightened by dirge of doom. Once affected by this feat, a creature cannot be affected by it again for 24 hours."
 		]
 	},
@@ -3760,7 +3759,7 @@
 			"",
 			"You are skilled at pulling dirty tricks on your foes.  ",
 			"**Prerequisites:** Int 13, {feat/Combat Expertise}.  ",
-			"**Benefit:** You do not provoke an attack of opportunity when performing a dirty trick combat maneuver. In addition, you receive a +2 bonus on checks made to attempt a dirty trick. You also receive a +2 bonus to your Combat Maneuver Defense when an opponent tries a dirty trick on you.  ",
+			"**Benefit:** You do not provoke an attack of opportunity when performing a {rule/dirty trick} combat maneuver. In addition, you receive a +2 bonus on checks made to attempt a dirty trick. You also receive a +2 bonus to your Combat Maneuver Defense when an opponent tries a dirty trick on you.  ",
 			"**Normal:** You provoke an attack of opportunity when performing a dirty trick combat maneuver.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -3793,7 +3792,7 @@
 			"",
 			"You are skilled at knocking weapons from a foe's grasp.  ",
 			"**Prerequisites:** Int 13, {feat/Combat Expertise}.  ",
-			"**Benefit:** You do not provoke an attack of opportunity when performing a disarm combat maneuver. In addition, you receive a +2 bonus on checks made to disarm a foe. You also receive a +2 bonus to your Combat Maneuver Defense whenever an opponent tries to disarm you.  ",
+			"**Benefit:** You do not provoke an attack of opportunity when performing a {rule/disarm} combat maneuver. In addition, you receive a +2 bonus on checks made to disarm a foe. You also receive a +2 bonus to your Combat Maneuver Defense whenever an opponent tries to disarm you.  ",
 			"**Normal:** You provoke an attack of opportunity when performing a disarm combat maneuver.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -3822,7 +3821,7 @@
 			"",
 			"You are ever the opportunist.  ",
 			"**Prerequisites:** {feat/Disarm Partner}, base attack bonus +5.  ",
-			"**Benefit:** When an ally with this feat fails a disarm combat maneuver check made on his turn against a foe that's within your melee reach, you can make an attack of opportunity against that foe. If that attack of opportunity hits the foe, you can also attempt a disarm combat maneuver check against that opponent as part of that attack of opportunity."
+			"**Benefit:** When an ally with this feat fails a {rule/disarm} combat maneuver check made on his turn against a foe that's within your melee reach, you can make an attack of opportunity against that foe. If that attack of opportunity hits the foe, you can also attempt a disarm combat maneuver check against that opponent as part of that attack of opportunity."
 		]
 	},
 	"improved_drag": {
@@ -3839,7 +3838,7 @@
 			"",
 			"You are skilled at dragging foes around the battlefield.  ",
 			"**Prerequisites:** Str 13, {feat/Power Attack}, base attack bonus +1.  ",
-			"**Benefit:** You do not provoke an attack of opportunity when performing a drag combat maneuver. In addition, you receive a +2 bonus on checks made to drag a foe. You also receive a +2 bonus to your Combat Maneuver Defense when an opponent tries to drag you.  ",
+			"**Benefit:** You do not provoke an attack of opportunity when performing a {rule/drag} combat maneuver. In addition, you receive a +2 bonus on checks made to drag a foe. You also receive a +2 bonus to your Combat Maneuver Defense when an opponent tries to drag you.  ",
 			"**Normal:** You provoke an attack of opportunity when performing a drag combat maneuver.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -3868,7 +3867,7 @@
 			"",
 			"Your magical heritage is more potent than that of your peers, as demonstrated by your superior spell-like abilities.  ",
 			"**Prerequisites:** Cha 13, {feat/Drow Nobility}, able to use drow spell-like abilities, {race/drow}.  ",
-			"**Benefit:** You may use your dancing lights, faerie fire, feather fall, and levitate spell-like abilities twice per day. Your darkness spell-like ability instead becomes deeper darkness, which you may use twice per day."
+			"**Benefit:** You may use your {spell/dancing lights}, {spell/faerie fire}, {spell/feather fall}, and {spell/levitate} spell-like abilities twice per day. Your {spell/darkness} spell-like ability instead becomes {spell/deeper darkness}, which you may use twice per day."
 		]
 	},
 	"improved_duck_and_cover": {
@@ -3881,7 +3880,7 @@
 			"",
 			"Your allies' ability to protect you from damage extends to area attacks.  ",
 			"**Prerequisites:** {feat/Duck and Cover}.  ",
-			"**Benefit:** Whenever you use Duck and Cover, your ally has evasion or improved evasion, and your ally's saving throw roll succeeds, half of the damage you would have taken is transferred to your ally. (This damage is not reduced by the ally's evasion or improved evasion.)"
+			"**Benefit:** Whenever you use Duck and Cover, your ally has {ability/evasion} or {ability/improved evasion}, and your ally's saving throw roll succeeds, half of the damage you would have taken is transferred to your ally. (This damage is not reduced by the ally's evasion or improved evasion.)"
 		]
 	},
 	"improved_eldritch_heritage": {
@@ -3908,7 +3907,7 @@
 			"",
 			"You can charge your kinetic blast with disruptive elemental energy that tears apart elemental spells.  ",
 			"**Prerequisites:** Two basic blast wild talents from two different elements, expanded element class feature, kinetic blast class feature.  ",
-			"**Benefit:** You can use a readied kinetic blast to counterspell any spell of equal or lower level, provided that the target spell has any of the following descriptors: air, cold, darkness, earth, electricity, fire, force, light, or water.  ",
+			"**Benefit:** You can use a readied kinetic blast to {rule/counterspell>s} any spell of equal or lower level, provided that the target spell has any of the following descriptors: air, cold, darkness, earth, electricity, fire, force, light, or water.  ",
 			"**Normal:** A readied kinetic blast can be used to counterspell spells that share its descriptor."
 		]
 	},
@@ -3924,7 +3923,7 @@
 			"{SOURCE PRPG Core Rulebook/127}",
 			"",
 			"This feat allows you to acquire a powerful familiar, but only when you could normally acquire a new familiar.  ",
-			"**Prerequisites:** Ability to acquire a new familiar, compatible alignment, sufficiently high level.  ",
+			"**Prerequisites:** Ability to acquire a new {ability/familiar}, compatible alignment, sufficiently high level.  ",
 			"**Benefit:** When choosing a familiar, [the creatures listed here](ability/improved_familiars) are also available to you. You may choose a familiar with an alignment up to one step away on each alignment axis (lawful through chaotic, good through evil).",
 			"",
 			"Improved familiars otherwise use the rules for regular familiars, with two exceptions: if the creature's type is something other than animal, its type does not change; and improved familiars do not gain the ability to speak with other creatures of their kind (although many of them already have the ability to communicate).",
@@ -3935,7 +3934,7 @@
 			"",
 			"Your familiar gains some of your incredible resiliency and insight.  ",
 			"**Prerequisites:** Improved Familiar.  ",
-			"**Benefit:** For every 3 tiers you possess, your familiar gains a +2 bonus to an ability score of your choice. These bonuses stack. Your familiar adds your tier to its natural armor bonus and to its spell resistance (if it has spell resistance)."
+			"**Benefit:** For every 3 tiers you possess, your {sidekick/familiar} gains a +2 bonus to an ability score of your choice. These bonuses stack. Your familiar adds your tier to its natural armor bonus and to its spell resistance (if it has spell resistance)."
 		]
 	},
 	"improved_familiar_bond": {
@@ -3964,7 +3963,7 @@
 			"",
 			"You are skilled at fooling your opponents in combat.  ",
 			"**Prerequisites:** Int 13, {feat/Combat Expertise}.  ",
-			"**Benefit:** You can make a Bluff check to feint in combat as a move action.  ",
+			"**Benefit:** You can make a Bluff check to {rule/feint} in combat as a move action.  ",
 			"**Normal:** Feinting in combat is a standard action.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -3986,7 +3985,7 @@
 			"",
 			"Knowledge of your companions' tricks and techniques allow you to take even greater advantage of your allies' feints.  ",
 			"**Prerequisites:** Bluff 1 rank, {feat/Combat Reflexes}, {feat/Feint Partner}, base attack bonus +6.  ",
-			"**Benefit:** Whenever an ally who also has this feat successfully feints against an opponent, that opponent provokes an attack of opportunity from you.",
+			"**Benefit:** Whenever an ally who also has this feat successfully {rule/feint/s} against an opponent, that opponent provokes an attack of opportunity from you.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/123}",
@@ -4004,7 +4003,7 @@
 			"",
 			"Your first melee attack throws your opponent completely off guard.  ",
 			"**Prerequisites:** Dex 17, flurry of blows class feature, {feat/Combat Expertise}, {feat/Feinting Flurry}, base attack bonus +6.  ",
-			"**Benefit:** While using Feinting Flurry, if you successfully feint, your opponent is denied its Dexterity bonus to AC until the end of your turn.  ",
+			"**Benefit:** While using Feinting Flurry, if you successfully {rule/feint}, your opponent is denied its Dexterity bonus to AC until the end of your turn.  ",
 			"**Normal:** A successful feint causes your opponent to be denied its Dexterity bonus to AC against your next attack."
 		]
 	},
@@ -4017,8 +4016,8 @@
 			"{SOURCE Blood of Fiends/25}",
 			"",
 			"Your innate ability to shroud others in darkness is further empowered.  ",
-			"**Prerequisites:** {feat/Fiendish Darkness}, darkness spell-like ability, caster level 3rd, {race/tiefling}.  ",
-			"**Benefit:** You gain a +2 bonus to your effective caster level when using your darkness spell-like ability. In addition, whenever you cast a spell with the evil descriptor that targets another creature, you can spend a swift action to apply the effects of your darkness spell-like ability to the spell cast, with the darkness effect centered on the spell's target. Using the darkness spell-like ability in this way expends all three uses of it for the day, and it cannot be used if fewer than three uses of it remain for that day."
+			"**Prerequisites:** {feat/Fiendish Darkness}, {spell/darkness} spell-like ability, caster level 3rd, {race/tiefling}.  ",
+			"**Benefit:** You gain a +2 bonus to your effective caster level when using your darkness spell-like ability. In addition, whenever you cast a spell with the evil descriptor that targets another creature, you can spend a swift action to apply the effects of your *darkness* spell-like ability to the spell cast, with the darkness effect centered on the spell's target. Using the *darkness* spell-like ability in this way expends all three uses of it for the day, and it cannot be used if fewer than three uses of it remain for that day."
 		]
 	},
 	"improved_fiendish_sorcery": {
@@ -4031,7 +4030,7 @@
 			"",
 			"Your skill with foul sorcery is even more potent than that of others of your race.  ",
 			"**Prerequisites:** Fiendish sorcery racial trait, {race/tiefling}.  ",
-			"**Benefit:** If you are a sorcerer and possess the Rakshasa bloodline or Shadow bloodline, treat your Charisma score as 2 points higher for all sorcerer class abilities."
+			"**Benefit:** If you are a sorcerer and possess the {sorcbloodline/Rakshasa} bloodline or {sorcbloodline/Shadow} bloodline, treat your Charisma score as 2 points higher for all sorcerer class abilities."
 		]
 	},
 	"improved_flexible_wizardry": {
@@ -4057,7 +4056,7 @@
 			"",
 			"Enemies fall before this animal's charge.  ",
 			"**Prerequisites:** {feat/Forceful Charge}, {feat/Improved Bull Rush}, {feat/Power Attack}, animal companion.  ",
-			"**Benefit:** This animal can bull rush a target that is up to two size categories larger than itself. If it pushes the target at least 10 feet as a result of this bull rush, it can attempt a trip combat maneuver check against the target as a free action. This trip combat maneuver provokes attacks of opportunity as normal."
+			"**Benefit:** This animal can bull rush a target that is up to two size categories larger than itself. If it pushes the target at least 10 feet as a result of this bull rush, it can attempt a {rule/trip} combat maneuver check against the target as a free action. This trip combat maneuver provokes attacks of opportunity as normal."
 		]
 	},
 	"improved_fury_of_the_tainted": {
@@ -4083,13 +4082,13 @@
 			"",
 			"Your gaseous state is more potent than that of your peers.  ",
 			"**Prerequisites:** {template/Vampire}.  ",
-			"**Benefit:** As a standard action, you can assume gaseous form at will (caster level 5th), but can remain gaseous indefinitely and have a fly speed of 20 feet with perfect maneuverability. This is a supernatural ability.",
+			"**Benefit:** As a standard action, you can assume *gaseous form* at will (caster level 5th), but can remain gaseous indefinitely and have a fly speed of 20 feet with perfect maneuverability. This is a supernatural ability.",
 			"",
-			"If you already possess the gaseous form special quality, you can instead choose to augment your gaseous form in one of the following ways. These effects apply only to creatures that enter your space while you are in gaseous form.",
+			"If you already possess the *gaseous form* special quality, you can instead choose to augment your *gaseous form* in one of the following ways. These effects apply only to creatures that enter your space while you are in *gaseous form.*",
 			"",
-			">*Glitterdust (Su):* Creatures must succeed at a Will save or be blinded and outlined in golden particles as though under the effects of {spell/glitterdust}.",
+			">**Glitterdust (Su):** Creatures must succeed at a Will save or be {misc/blinded} and outlined in golden particles as though under the effects of {spell/glitterdust}.",
 			">",
-			">*Mind Fog (Su):* Creatures must succeed at a Will save or take penalties as though under the effects of {spell/mind fog}. This effect lasts as long as a creature shares your space and for 2d6 rounds after.",
+			">**Mind Fog (Su):** Creatures must succeed at a Will save or take penalties as though under the effects of {spell/mind fog}. This effect lasts as long as a creature shares your space and for 2d6 rounds after.",
 			"",
 			"**Special:** You can gain this feat multiple times. Each time you take this feat, choose another swarm type."
 		]
@@ -4108,7 +4107,7 @@
 			"",
 			"You are skilled at grappling opponents.  ",
 			"**Prerequisites:** Dex 13, {feat/Improved Unarmed Strike}.  ",
-			"**Benefit:** You do not provoke an attack of opportunity when performing a grapple combat maneuver. In addition, you receive a +2 bonus on checks made to grapple a foe. You also receive a +2 bonus to your Combat Maneuver Defense whenever an opponent tries to grapple you.  ",
+			"**Benefit:** You do not provoke an attack of opportunity when performing a {rule/grapple} combat maneuver. In addition, you receive a +2 bonus on checks made to grapple a foe. You also receive a +2 bonus to your Combat Maneuver Defense whenever an opponent tries to grapple you.  ",
 			"**Normal:** You provoke an attack of opportunity when performing a grapple combat maneuver.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -4163,7 +4162,7 @@
 			"",
 			"Your understanding of horses goes so deep that you can communicate with them as if you shared a language.  ",
 			"**Prerequisites:** {feat/Horse Whisperer}, Handle Animal 5 ranks, Ride 5 ranks.  ",
-			"**Benefit:** With a successful DC 20 Handle Animal check, you can communicate with a horse as if you were using speak with animals for 1 round. The horse's ability to communicate and take actions is still limited by its intelligence."
+			"**Benefit:** With a successful DC 20 Handle Animal check, you can communicate with a {monster/horse} as if you were using {spell/speak with animals} for 1 round. The horse's ability to communicate and take actions is still limited by its intelligence."
 		]
 	},
 	"improved_hunters_bond": {
@@ -4175,7 +4174,7 @@
 			"{SOURCE Ultimate Wilderness/113}",
 			"",
 			"You deepen your connection to your allies, granting them higher bonuses.  ",
-			"**Prerequisites:** Hunter's bond (hunting companions) class feature, ranger level 9th.  ",
+			"**Prerequisites:** Hunter's bond (hunting companions) class feature, {class/ranger} level 9th.  ",
 			"**Benefit:** When you activate hunter's bond, you can grant your allies your full {ability/favored enemy} bonus against a single target.  ",
 			"**Normal:** Your allies receive half your favored enemy bonus against a single target."
 		]
@@ -4193,7 +4192,7 @@
 			"",
 			"When you impale a target, you hinder its movement and can cause severe bleeding.  ",
 			"**Prerequisites:** {feat/Impaling Critical}, {feat/Critical Focus}, {feat/Weapon Specialization} with selected piercing melee weapon, base attack bonus +13.  ",
-			"**Benefit:** While you are using Impaling Critical to impale an opponent, and you are still holding onto that weapon, that opponent must succeed at a grapple combat maneuver check against you to pull your weapon out. If you have let go of your weapon, the impaled opponent must spend a standard action to remove the weapon. Until the opponent pulls the weapon out, his speed in all modes is halved and his maneuverability, if any, is reduced by one step. When the weapon comes out, instead of dealing the damage normal for Impaling Critical, you can deal bleed damage equal to your weapon's damage dice result once per round at the start of that opponent's turn.",
+			"**Benefit:** While you are using Impaling Critical to impale an opponent, and you are still holding onto that weapon, that opponent must succeed at a {rule/grapple} combat maneuver check against you to pull your weapon out. If you have let go of your weapon, the impaled opponent must spend a standard action to remove the weapon. Until the opponent pulls the weapon out, his speed in all modes is halved and his maneuverability, if any, is reduced by one step. When the weapon comes out, instead of dealing the damage normal for Impaling Critical, you can deal {rule/bleed} damage equal to your weapon's damage dice result once per round at the start of that opponent's turn.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/123}",
@@ -4211,7 +4210,8 @@
 			"",
 			"You are masterful in your improvisation.  ",
 			"**Prerequisites:** Int 13, {feat/Fast Learner}, {feat/Improvisation}, {race/human}.  ",
-			"**Benefit:** Your nonproficiency penalty with weapons, armor, and shields is halved. In addition, the bonus on all skill checks for skills you have no ranks in increases to +4 instead of +2."
+			"**Benefit:** Your nonproficiency penalty with weapons, armor, and shields is halved. In addition, the bonus on all skill checks for skills you have no ranks in increases to +4 instead of +2.  ",
+			"**Normal:** A character who uses a weapon with which he is not proficient takes a -4 penalty on attack rolls. A character who wears armor and/or uses a shield with which he is not proficient takes the armor's (and/or shield's) armor check penalty on attack rolls as well as on all Dexterity- and Strength-based ability and skill checks. The penalty for nonproficiency with armor stacks with the penalty for shields."
 		]
 	},
 	"improved_infuse_weapon": {
@@ -4224,7 +4224,7 @@
 			"",
 			"When you infuse weapons, you may add an additional magical quality.  ",
 			"**Prerequisites:** Infuse weapon special ability, Cha 27  ",
-			"**Benefit:** When you infuse a weapon, you can add an additional +1 worth of weapon qualities to that weapon; this could either be used to increase a weapon infused to be a +1 weapon to be a +2 weapon, or to grant a weapon quality like flaming, defending, keen, or any other +1 quality from the Pathfinder RPG Core Rulebook. This effect occurs automatically as you infuse a weapon, but you may only do so to one weapon you wield at a time.  ",
+			"**Benefit:** When you infuse a weapon, you can add an additional +1 worth of weapon qualities to that weapon; this could either be used to increase a weapon infused to be a +1 weapon to be a +2 weapon, or to grant a weapon quality like {magic-enh/flaming}, {magic-enh/defending}, {magic-enh/keen}, or any other +1 quality. This effect occurs automatically as you infuse a weapon, but you may only do so to one weapon you wield at a time.  ",
 			"**Special:** You may take this feat more than once; each time you do, the limit to the number of weapons on which you can simultaneously use Improved Infuse Weapon increases by 2."
 		]
 	},
@@ -4266,7 +4266,7 @@
 			"{SOURCE Ultimate Wilderness/218}",
 			"",
 			"The animal's intervention completely protects its master from harm.  ",
-			"**Prerequisites:** {feat/Intercept Blow}, base attack bonus +6, animal companion.  ",
+			"**Prerequisites:** {feat/Intercept Blow}, base attack bonus +6, {sidekick/animal companion}.  ",
 			"**Benefit:** When the animal companion uses Intercept Blow to intercept an opponent's melee attack and succeeds, it can take all the damage from the intercepted attack, in which case its master takes no damage from the intercepted attack and doesn't suffer effects that trigger on a hit."
 		]
 	},
@@ -4296,7 +4296,7 @@
 			"",
 			"Your enemies are living weapons in your hands.  ",
 			"**Prerequisites:** {feat/Improved Bull Rush}, {feat/Ki Throw}.  ",
-			"**Benefit:** When using the Ki Throw feat, you may throw your target into any square you threaten that is occupied by another creature. Make a bull rush combat maneuver check with a -4 penalty against the secondary target. If this check succeeds, the thrown creature lands prone in the secondary target's square, while the secondary target is pushed back and knocked prone in an adjacent square. If the check fails, the thrown creature lands prone in the nearest square you threaten adjacent to the secondary target.",
+			"**Benefit:** When using the Ki Throw feat, you may throw your target into any square you threaten that is occupied by another creature. Make a {rule/bull rush} combat maneuver check with a -4 penalty against the secondary target. If this check succeeds, the thrown creature lands {rule/prone} in the secondary target's square, while the secondary target is pushed back and knocked prone in an adjacent square. If the check fails, the thrown creature lands prone in the nearest square you threaten adjacent to the secondary target.",
 			"",
 			"If you throw a Large or larger creature into an area containing multiple secondary targets, you take an additional penalty of -4 on your combat maneuver check for each target after the first.  ",
 			"**Special:** A monk may take this as a bonus feat at 14th level.",
@@ -4356,7 +4356,7 @@
 			"",
 			"You and your allies alert each other to surprise attacks.  ",
 			"**Prerequisites:** {feat/Lookout}.  ",
-			"**Benefit:** Whenever you are adjacent to an ally who also has the Lookout teamwork feat, when either of you first takes an action, you both lose the flat-footed condition."
+			"**Benefit:** Whenever you are adjacent to an ally who also has the Lookout teamwork feat, when either of you first takes an action, you both lose the {rule/flat-footed} condition."
 		]
 	},
 	"improved_low_blow": {
@@ -4432,7 +4432,8 @@
 			"**Prerequisites:** Natural weapon, base attack bonus +4.  ",
 			"**Benefit:** Choose one of the creature's natural attack forms (not an unarmed strike). The damage for this natural attack increases by one step on the following list, as if the creature's size had increased by one category. Damage dice increase as follows: 1d2, 1d3, 1d4, 1d6, 1d8, 2d6, 3d6, 4d6, 6d6, 8d6, 12d6.",
 			"",
-			"A weapon or attack that deals 1d10 points of damage increases as follows: 1d10, 2d8, 3d8, 4d8, 6d8, 8d8, 12d8.  ",
+			"A weapon or attack that deals 1d10 points of damage increases as follows: 1d10, 2d8, 3d8, 4d8, 6d8, 8d8, 12d8.",
+			"",
 			"**Special:** This feat can be taken multiple times. Each time it is taken, it applies to a different natural attack."
 		]
 	},
@@ -4459,7 +4460,7 @@
 			"",
 			"You can easily find openings in your enemies' defenses.  ",
 			"**Prerequisites:** {feat/Outflank}, base attack bonus +6.  ",
-			"**Benefit:** Whenever you and an ally who also has this feat are threatening the same foe, you are considered to be flanking that foe if you are adjacent to an unoccupied square from which you would be able to flank the foe with your ally.  ",
+			"**Benefit:** Whenever you and an ally who also has this feat are threatening the same foe, you are considered to be {rule/flanking} that foe if you are adjacent to an unoccupied square from which you would be able to flank the foe with your ally.  ",
 			"**Normal:** You must be positioned opposite an ally to flank an opponent."
 		]
 	},
@@ -4477,7 +4478,7 @@
 			"",
 			"You are skilled at running down your foes.  ",
 			"**Prerequisites:** Str 13, {feat/Power Attack}, base attack bonus +1.  ",
-			"**Benefit:** You do not provoke an attack of opportunity when performing an overrun combat maneuver. In addition, you receive a +2 bonus on checks made to overrrun a foe. You also receive a +2 bonus to your Combat Maneuver Defense whenever an opponent tries to overrun you. Targets of your overrun attempt may not chose to avoid you.  ",
+			"**Benefit:** You do not provoke an attack of opportunity when performing an {rule/overrun} combat maneuver. In addition, you receive a +2 bonus on checks made to overrrun a foe. You also receive a +2 bonus to your Combat Maneuver Defense whenever an opponent tries to overrun you. Targets of your overrun attempt may not chose to avoid you.  ",
 			"**Normal:** You provoke an attack of opportunity when performing an overrun combat maneuver.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -4506,7 +4507,7 @@
 			"",
 			"A flick of the wrist binds your opponent's weapon.  ",
 			"**Prerequisites:** Int 13, {feat/Combat Expertise}.  ",
-			"**Benefit:** When you successfully parry a foe's melee attack (with a dueling parry or the parry class feature), your next melee attack against the target does not allow the enemy to apply its Dexterity bonus to AC (if any). This attack must be made before the end of your next turn."
+			"**Benefit:** When you successfully parry a foe's melee attack (with a {rule/dueling parry} or the parry class feature), your next melee attack against the target does not allow the enemy to apply its Dexterity bonus to AC (if any). This attack must be made before the end of your next turn."
 		]
 	},
 	"improved_planar_infusion": {
@@ -4536,15 +4537,15 @@
 			"",
 			"Once per day while benefiting from your mentor's boon, you can cast one of the following spell-like abilities based on the active boon's alignment (CL = your character level). Once you cast the spell-like ability, your mentor's boon ends immediately.",
 			"",
-			":HL[Chaotic:] {spell/Chaos hammer}, {spell/magic circle against law}, {spell/summon monster IV} (chaotic outsiders only).",
-			"",
-			":HL[Evil:] {spell/Magic circle against good}, {spell/summon monster IV} (evil outsiders only), {spell/unholy blight}.",
-			"",
-			":HL[Good:] {spell/Holy smite}, {spell/magic circle against evil}, {spell/summon monster IV} (good outsiders only).",
-			"",
-			":HL[Lawful:] {spell/Magic circle against chaos}, {spell/order's wrath}, {spell/summon monster IV} (lawful outsiders only).",
-			"",
-			":HL[Neutral:] {spell/Bestow curse}, {spell/prayer}, {spell/summon monster IV} (outsiders without alignment subtypes only)."
+			">:HL[Chaotic:] {spell/Chaos hammer}, {spell/magic circle against law}, {spell/summon monster IV} (chaotic outsiders only).",
+			">",
+			">:HL[Evil:] {spell/Magic circle against good}, {spell/summon monster IV} (evil outsiders only), {spell/unholy blight}.",
+			">",
+			">:HL[Good:] {spell/Holy smite}, {spell/magic circle against evil}, {spell/summon monster IV} (good outsiders only).",
+			">",
+			">:HL[Lawful:] {spell/Magic circle against chaos}, {spell/order's wrath}, {spell/summon monster IV} (lawful outsiders only).",
+			">",
+			">:HL[Neutral:] {spell/Bestow curse}, {spell/prayer}, {spell/summon monster IV} (outsiders without alignment subtypes only)."
 		]
 	},
 	"improved_plane_shift": {
@@ -4557,7 +4558,7 @@
 			"",
 			"You're an expert at traveling the various realms of the Great Beyond via plane shift.  ",
 			"**Prerequisites:** Wizard level 9th.  ",
-			"**Benefit:** Add plane shift to your spell list and to your spellbook as a 5th-level wizard spell. The time required for you to identify a portal's destination is reduced to 1 round. In addition, you automatically identify any plane on which you arrive.  ",
+			"**Benefit:** Add {spell/plane shift} to your spell list and to your spellbook as a 5th-level wizard spell. The time required for you to identify a portal's destination is reduced to 1 round. In addition, you automatically identify any plane on which you arrive.  ",
 			"**Normal:** Plane shift is a 7th-level wizard spell.  ",
 			"**Special:** A wizard can select this as a wizard bonus feat."
 		]
@@ -4620,7 +4621,7 @@
 			"",
 			"Your precise timing and smooth teamwork allow you to strike a foe where it hurts.  ",
 			"**Prerequisites:** Dex 13, {feat/Precise Strike}, base attack bonus +4.  ",
-			"**Benefit:** Whenever you deal additional damage with Precise Strike, you also deal 1 point of bleed damage. This bleed damage does not stack with itself."
+			"**Benefit:** Whenever you deal additional damage with Precise Strike, you also deal 1 point of {rule/bleed} damage. This bleed damage does not stack with itself."
 		]
 	},
 	"improved_punishing_step": {
@@ -4633,7 +4634,7 @@
 			"",
 			"You know how to take advantage of a devastating charge.  ",
 			"**Prerequisites:** Dex 13, {feat/Dodge}, {feat/Punishing Step}, base attack bonus +8.  ",
-			"**Benefit:** Your bonus to AC from the Dodge feat increases to +2 against charge attacks. When a creature charges you and misses with its attack, it loses its Dexterity bonus to AC against the next melee attack you make against it before the end of your next turn. If a creature misses with multiple attacks (such as when using the pounce ability), you can make one such attack against the creature's flat-footed AC before the end of your next turn for each of that creature's attacks that missed you."
+			"**Benefit:** Your bonus to AC from the Dodge feat increases to +2 against {rule/charge} attacks. When a creature charges you and misses with its attack, it loses its Dexterity bonus to AC against the next melee attack you make against it before the end of your next turn. If a creature misses with multiple attacks (such as when using the {umr/pounce} ability), you can make one such attack against the creature's {rule/flat-footed} AC before the end of your next turn for each of that creature's attacks that missed you."
 		]
 	},
 	"improved_rending_fury": {
@@ -4671,7 +4672,7 @@
 			"",
 			"You have learned how to force your enemies to move around the battlefield.  ",
 			"**Prerequisites:** Int 13, {feat/Combat Expertise}.  ",
-			"**Benefit:** You do not provoke an attack of opportunity when performing a reposition combat maneuver. In addition, you receive a +2 bonus on checks made to reposition a foe. You also receive a +2 bonus to your Combat Maneuver Defense when an opponent tries to reposition you.  ",
+			"**Benefit:** You do not provoke an attack of opportunity when performing a {rule/reposition} combat maneuver. In addition, you receive a +2 bonus on checks made to reposition a foe. You also receive a +2 bonus to your Combat Maneuver Defense when an opponent tries to reposition you.  ",
 			"**Normal:** You provoke an attack of opportunity when performing a reposition combat maneuver.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -4714,7 +4715,7 @@
 			"",
 			"You become further adept at sabotaging your foes' items.  ",
 			"**Prerequisites:** Str 13, {feat/Improved Sunder}, {feat/Power Attack}, {feat/Sabotaging Sunder}, Disable Device 9 ranks.  ",
-			"**Benefit:** You do not provoke an attack of opportunity when performing the special sunder combat maneuver from the Sabotaging Sunder feat. In addition, you can attempt to use that maneuver on items held by the target, but you still cannot do so against items hidden in a bag, a pack, or another container."
+			"**Benefit:** You do not provoke an attack of opportunity when performing the special {rule/sunder} combat maneuver from the Sabotaging Sunder feat. In addition, you can attempt to use that maneuver on items held by the target, but you still cannot do so against items hidden in a bag, a pack, or another container."
 		]
 	},
 	"improved_second_chance": {
@@ -4762,7 +4763,7 @@
 			"",
 			"You can share spells with those you have a magical connection with.  ",
 			"**Prerequisites:** Spellcraft 10 ranks, ability to acquire an animal companion, eidolon, familiar, or special mount.  ",
-			"**Benefit:** Any non-instantaneous spell (but not any spell-like ability) you cast on yourself can also affect a creature bonded to you (such as an animal companion, eidolon, familiar, or special mount). The creature must be within 5 feet of you at the time of casting to receive the benefit. The spell's duration is halved between you and your bonded creature (for example, a spell with a duration of 1 hour has a duration of 30 minutes for both you and your bonded creature).",
+			"**Benefit:** Any non-instantaneous spell (but not any spell-like ability) you cast on yourself can also affect a creature bonded to you (such as an {sidekick/animal companion}, {sidekick/eidolon}, {sidekick/familiar}, or special mount). The creature must be within 5 feet of you at the time of casting to receive the benefit. The spell's duration is halved between you and your bonded creature (for example, a spell with a duration of 1 hour has a duration of 30 minutes for both you and your bonded creature).",
 			"",
 			"If the spell or effect has a duration other than instantaneous, it stops affecting the creature if it moves farther than 5 feet away from you. It does not affect the creature again if it returns before the duration expires.",
 			"",
@@ -4864,8 +4865,8 @@
 			"{SOURCE Advanced Class Guide/150}",
 			"",
 			"Your link with your companion creature allows you to share your magic with it.  ",
-			"**Prerequisites:** Ability to acquire an animal companion, eidolon, familiar, or special mount.  ",
-			"**Benefit:** When you are adjacent to or sharing a square with your companion creature and that companion creature has this feat, you can cast a spell on yourself and divide the duration evenly between yourself and the companion creature. You can use this feat only on spells with a duration of at least 2 rounds. For example, you could cast bull's strength on yourself, and instead of the spell lasting 1 minute per level on yourself, it lasts 5 rounds per level on yourself and 5 rounds per level on your companion.",
+			"**Prerequisites:** Ability to acquire an {sidekick/animal companion}, {sidekick/eidolon}, {sidekick/familiar}, or special mount.  ",
+			"**Benefit:** When you are adjacent to or sharing a square with your companion creature and that companion creature has this feat, you can cast a spell on yourself and divide the duration evenly between yourself and the companion creature. You can use this feat only on spells with a duration of at least 2 rounds. For example, you could cast {spell/bull's strength} on yourself, and instead of the spell lasting 1 minute per level on yourself, it lasts 5 rounds per level on yourself and 5 rounds per level on your companion.",
 			"",
 			"Once the spell is cast, you and the companion creature can move farther apart without ending the effect."
 		]
@@ -4911,7 +4912,7 @@
 			"",
 			"You have a knack for snatching items from your opponents.  ",
 			"**Prerequisites:** Int 13, {feat/Combat Expertise}.  ",
-			"**Benefit:** You do not provoke an attack of opportunity when performing a steal combat maneuver. In addition, you receive a +2 bonus on checks made to steal an item from a foe. You also receive a +2 bonus to your Combat Maneuver Defense when an opponent tries to steal an item from you.  ",
+			"**Benefit:** You do not provoke an attack of opportunity when performing a {rule/steal} combat maneuver. In addition, you receive a +2 bonus on checks made to steal an item from a foe. You also receive a +2 bonus to your Combat Maneuver Defense when an opponent tries to steal an item from you.  ",
 			"**Normal:** You provoke an attack of opportunity when performing a steal combat maneuver.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -5007,7 +5008,7 @@
 			"",
 			"You are skilled at damaging your foes' weapons and armor.  ",
 			"**Prerequisites:** Str 13, {feat/Power Attack}, base attack bonus +1.  ",
-			"**Benefit:** You do not provoke an attack of opportunity when performing a sunder combat maneuver. In addition, you receive a +2 bonus on checks made to sunder an item. You also receive a +2 bonus to your Combat Maneuver Defense whenever an opponent tries to sunder your gear.  ",
+			"**Benefit:** You do not provoke an attack of opportunity when performing a {rule/sunder} combat maneuver. In addition, you receive a +2 bonus on checks made to sunder an item. You also receive a +2 bonus to your Combat Maneuver Defense whenever an opponent tries to sunder your gear.  ",
 			"**Normal:** You provoke an attack of opportunity when performing a sunder combat maneuver.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -5060,7 +5061,7 @@
 			"",
 			"When you switch places with your comrade, your sizes don't matter.  ",
 			"**Prerequisites:** {feat/Swap Places}.  ",
-			"**Benefit:** When you and your ally use Swap Places, your ally can be up to one size larger or smaller than you, and your movement into the ally's square does not provoke an attack of opportunity. If your ally cannot fit into the space you had been occupying and there are no available adjacent squares to accommodate the rest of the ally's space, the ally must squeeze. Alternatively, as part of its movement, the ally can attempt a bull rush combat maneuver against a creature that occupies a space your ally would occupy, but this bull rush cannot move the creature more than 5 feet.  ",
+			"**Benefit:** When you and your ally use Swap Places, your ally can be up to one size larger or smaller than you, and your movement into the ally's square does not provoke an attack of opportunity. If your ally cannot fit into the space you had been occupying and there are no available adjacent squares to accommodate the rest of the ally's space, the ally must {misc/squeez/e>ing}. Alternatively, as part of its movement, the ally can attempt a {rule/bull rush} combat maneuver against a creature that occupies a space your ally would occupy, but this bull rush cannot move the creature more than 5 feet.  ",
 			"**Normal:** Using Swap Places requires you and your ally to be the same size, and your movement into the ally's square provokes attacks of opportunity.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -5079,7 +5080,7 @@
 			"",
 			"You can assume the form of various varmints.  ",
 			"**Prerequisites:** {template/Vampire}.  ",
-			"**Benefit:** Choose one of the following forms: bat swarm, centipede swarm, cockroach swarm, leech swarm, rat swarm, or spider swarm. As a standard action, you can change into this form.  ",
+			"**Benefit:** Choose one of the following forms: {monster/bat swarm}, {monster/centipede swarm}, {monster/cockroach swarm}, {monster/leech swarm}, {monster/rat swarm}, or {monster/spider swarm}. As a standard action, you can change into this form.  ",
 			"**Special:** You can gain this feat multiple times. Each time you take this feat, choose another swarm type."
 		]
 	},
@@ -5110,7 +5111,7 @@
 			"",
 			"You are skilled at sending your opponents to the ground.  ",
 			"**Prerequisites:** Int 13, {feat/Combat Expertise}.  ",
-			"**Benefit:** You do not provoke an attack of opportunity when performing a trip combat maneuver. In addition, you receive a +2 bonus on checks made to trip a foe. You also receive a +2 bonus to your Combat Maneuver Defense whenever an opponent tries to trip you.  ",
+			"**Benefit:** You do not provoke an attack of opportunity when performing a {rule/trip} combat maneuver. In addition, you receive a +2 bonus on checks made to trip a foe. You also receive a +2 bonus to your Combat Maneuver Defense whenever an opponent tries to trip you.  ",
 			"**Normal:** You provoke an attack of opportunity when performing a trip combat maneuver.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -5142,7 +5143,7 @@
 			"",
 			"Your primary weapon keeps a foe off balance, allowing you to slip your off-hand weapon past his defenses.  ",
 			"**Prerequisites:** Dex 17, Int 13, {feat/Combat Expertise}, base attack bonus +6.  ",
-			"**Benefit:** While using {feat/Two-Weapon Fighting} to make melee attacks, you can forgo your first primary-hand melee attack to make a Bluff check to feint an opponent. If you successfully feint, that opponent is denied his Dexterity bonus to AC until the end of your turn.",
+			"**Benefit:** While using {feat/Two-Weapon Fighting} to make melee attacks, you can forgo your first primary-hand melee attack to make a Bluff check to {rule/feint} an opponent. If you successfully feint, that opponent is denied his Dexterity bonus to AC until the end of your turn.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/124}",
@@ -5239,7 +5240,7 @@
 			"",
 			"You and your allies have trained together long enough to know how to exploit an opponent's disadvantage to make her predicament even worse.  ",
 			"**Prerequisites:** {feat/Combat Expertise}, {feat/Improved Dirty Trick}, {feat/Underhanded Teamwork}, base attack bonus +6.  ",
-			"**Benefit:** Whenever an ally who also has this feat performs the dirty trick combat maneuver against a foe that you both threaten, you may attempt a dirty trick combat maneuver against the same foe as an immediate action to inflict a second condition. If the foe uses an action to remove the first condition, it also removes the condition imposed by your immediate action."
+			"**Benefit:** Whenever an ally who also has this feat performs the {rule/dirty trick} combat maneuver against a foe that you both threaten, you may attempt a dirty trick combat maneuver against the same foe as an immediate action to inflict a second condition. If the foe uses an action to remove the first condition, it also removes the condition imposed by your immediate action."
 		]
 	},
 	"improved_vital_strike": {
@@ -5255,7 +5256,7 @@
 			"",
 			"You can make a single attack that deals a large amount of damage.  ",
 			"**Prerequisites:** {feat/Vital Strike}, base attack bonus +11.  ",
-			"**Benefit:** When you use the attack action, you can make one attack at your highest base attack bonus that deals additional damage. Roll the weapon's damage dice for the attack three times and add the results together before adding bonuses from Strength, weapon abilities (such as flaming), precision based damage, and other damage bonuses. These extra weapon damage dice are not multiplied on a critical hit, but are added to the total.",
+			"**Benefit:** When you use the attack action, you can make one attack at your highest base attack bonus that deals additional damage. Roll the weapon's damage dice for the attack three times and add the results together before adding bonuses from Strength, weapon abilities (such as {magic-enh/flaming}), precision based damage, and other damage bonuses. These extra weapon damage dice are not multiplied on a critical hit, but are added to the total.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/124}",
@@ -5310,7 +5311,7 @@
 			"",
 			"You are able to entangle opponents with the coils of your whip.  ",
 			"**Prerequisites:** {feat/Weapon Focus} (whip), {feat/Whip Mastery}, base attack bonus +5.  ",
-			"**Benefit:** While wielding a whip, you threaten the area of your natural reach plus 5 feet. You can also use a whip to grasp an unattended Small or Tiny object within your whip's reach and pull that object into your square. To do so, you must hit AC 10 with a melee touch attack. Further, you can use the whip to grasp onto an object within your whip's reach, using 5 feet of your whip as if it were a grappling hook, allowing you to use the rest of your whip to swing on like a rope. As a free action, you can release the object your whip is grasping, but you cannot use the whip to attack while the whip is grasping an object.",
+			"**Benefit:** While wielding a {eq-weapon/whip}, you threaten the area of your natural reach plus 5 feet. You can also use a whip to grasp an unattended Small or Tiny object within your whip's reach and pull that object into your square. To do so, you must hit AC 10 with a melee touch attack. Further, you can use the whip to grasp onto an object within your whip's reach, using 5 feet of your whip as if it were a {eq-misc/grappling hook}, allowing you to use the rest of your whip to swing on like a rope. As a free action, you can release the object your whip is grasping, but you cannot use the whip to attack while the whip is grasping an object.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/124}",
@@ -5328,7 +5329,7 @@
 			"",
 			"You gain greater skill with the natural power of your blows.  ",
 			"**Prerequisites:** Str 16, {feat/Improved Unarmed Strike}, {feat/Wilding}, {feat/Wilding Strike}, base attack bonus +11.  ",
-			"**Benefit:** The damage die of your unarmed strikes increases to 1d8 (or 1d6 if you are Small). This does not stack with any other effects that increase the damage die of your unarmed strikes, including levels in classes such as monk. Increases to your actual size category (such as enlarge person) still increase your damage die as normal."
+			"**Benefit:** The damage die of your unarmed strikes increases to 1d8 (or 1d6 if you are Small). This does not stack with any other effects that increase the damage die of your unarmed strikes, including levels in classes such as monk. Increases to your actual size category (such as {spell/enlarge person}) still increase your damage die as normal."
 		]
 	}
 }
