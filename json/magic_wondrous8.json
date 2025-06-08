@@ -1288,7 +1288,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/beast shape IV}, [protection from chaos/evil/good/law](spell/protection_from_evil); **Cost** 19,800 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/beast shape IV}, {spell/magic circle against chaos[/evil/good/law]}; **Cost** 19,800 gp"
 		]
 	},
 	"boots_of_fiendish_escape_tiefling": {

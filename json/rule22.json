@@ -1817,7 +1817,7 @@
 			"",
 			":HL[Leadership:] The commander's character level + Charisma modifier. If the commander is a monster, use HD instead of character level. If the commander has the {feat/Leadership} feat, increase this value by 3. This number is a prerequisite for some boons.",
 			"",
-			":HL[Boons:] This lists the {rule/boons} the commander knows. A commander's maximum number of boons known is 1, plus 1 for every 5 ranks in Profession (soldier). A new or unexceptional commander might know no boons at first, but can gain them from victories in battle. If you're a [kingdom leader](rule/kingdom_leader_commanders) acting as a commander, you automatically have one boon appropriate to your leadership role.",
+			":HL[Boons:] This lists the {rule/boons} the commander knows. A commander's maximum number of boons known is 1, plus 1 for every 5 ranks in Profession (soldier). A new or unexceptional commander might know no boons at first, but can gain them from victories in battle. If you're a {rule/kingdom leader>_commanders} acting as a commander, you automatically have one boon appropriate to your leadership role.",
 			"",
 			"The commander must be active with the army to grant a bonus on Morale checks or a boon to the army. Being active requires spending at least 3 days per week with the army. An army without a commander (whether because the commander is dead or because she isn't spending enough time with the army) loses 1 Morale per week. You may offset this loss by doubling the army's Consumption that week.",
 			"",

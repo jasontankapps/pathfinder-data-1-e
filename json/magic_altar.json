@@ -73,7 +73,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/control water}, {spell/control winds}, {spell/guidance}, [magic circle against chaos/evil/good/law](spell/magic_circle_against_evil) (as appropriate), creator must worship {faith/Gozreh}; **Cost** 4,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/control water}, {spell/control winds}, {spell/guidance}, {spell/magic circle against chaos[/evil/good/law]} (as appropriate), creator must worship {faith/Gozreh}; **Cost** 4,000 gp"
 		]
 	},
 	"altar_of_iomedae": {
@@ -124,7 +124,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, Heighten Spell, {spell/guidance}, [magic circle against chaos/evil/good/law](spell/magic_circle_against_evil) (as appropriate), creator must worship {faith/Nethys}; **Cost** 4,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, Heighten Spell, {spell/guidance}, {spell/magic circle against chaos[/evil/good/law]} (as appropriate), creator must worship {faith/Nethys}; **Cost** 4,000 gp"
 		]
 	},
 	"altar_of_sarenrae": {

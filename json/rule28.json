@@ -132,7 +132,7 @@
 			"",
 			":HL[Animal Companion Feats:] {feat/Al-Zabriti-Trained Horse}, {feat/Forceful Charge}, {feat/Improved Forceful Charge}",
 			"",
-			":HL[Magic Items:] The tribes of the desert create and use the following items, though they rarely share them with outsiders; they can sometimes be found in black markets in the nation, though purchasing them there might earn the enmity of the desert tribespeople: [Caparison of Resistance](magic-wondrous/caparison_of_resistance_1_bonus), {magic-wondrous/Cloak of Heavenly Fire}",
+			":HL[Magic Items:] The tribes of the desert create and use the following items, though they rarely share them with outsiders; they can sometimes be found in black markets in the nation, though purchasing them there might earn the enmity of the desert tribespeople: {magic-wondrous/Caparison of Resistance>_1_bonus}, {magic-wondrous/Cloak of Heavenly Fire}",
 			"",
 			":HL[Spells:] The following spells are closely guarded by the tribespeople: {spell/Blade of Light}, {spell/Burning Sands}, {spell/Cleansing Fire}, {spell/Sun's Disdain}, {spell/Mass Sun's Disdain}, {spell/Sunstalker}"
 		],
@@ -185,7 +185,7 @@
 			"",
 			":HL[Feats:] {feat/Aldori Artistry}, {feat/Aldori Dueling Disciple}, {feat/Aldori Dueling Mastery}, {feat/Aldori Style}, {feat/Aldori Style Aegis}, {feat/Aldori Style Conquest}, {feat/Duelist of the Roaring Falls}, {feat/Duelist of the Shrouded Lake}, {feat/Falling Water Gambit}, {feat/Garen's Discipline}, {feat/Redistributed Might}, {feat/Serren's Masterstroke}",
 			"",
-			":HL[Magic Items:] {magic-weapon/rostland edge}, [swordlord's cloak](magic-wondrous/swordlords_cloak_1_bonus)",
+			":HL[Magic Items:] {magic-weapon/rostland edge}, {magic-wondrous/swordlord's cloak>_1_bonus}",
 			"",
 			":HL[Spells:] By combining martial talents and arcane understanding, enthusiasts of the swordmaster style have designed a small number of potent spells: {spell/Aldori Alacrity}, {spell/Contest of Skill}, {spell/Deivon's Parry}, {spell/Tactical Adaptation}, {spell/Tieldlara's Feint}"
 		],

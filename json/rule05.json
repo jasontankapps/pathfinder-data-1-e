@@ -239,7 +239,7 @@
 			"",
 			":HL[Touch Attacks:] Some attacks completely disregard armor, including shields and natural armor - the aggressor need only touch a foe for such an attack to take full effect. In these cases, the attacker makes a touch attack roll (either ranged or melee). When you are the target of a touch attack, your AC doesn't include any armor bonus, shield bonus, or natural armor bonus. All other modifiers, such as your size modifier, Dexterity modifier, and deflection bonus (if any) apply normally.",
 			"",
-			"Some creatures have the ability to make incorporeal touch attacks. These attacks bypass solid objects, such as armor and shields, by passing through them. Incorporeal touch attacks work similarly to normal touch attacks except that they also ignore cover bonuses. Incorporeal touch attacks do not ignore armor bonuses granted by force effects, such as {spell/mage armor} and [bracers of armor](magic-wondrous/bracers_of_armor_1)."
+			"Some creatures have the ability to make incorporeal touch attacks. These attacks bypass solid objects, such as armor and shields, by passing through them. Incorporeal touch attacks work similarly to normal touch attacks except that they also ignore cover bonuses. Incorporeal touch attacks do not ignore armor bonuses granted by force effects, such as {spell/mage armor} and {magic-wondrous/bracers of armor>_1}."
 		],
 		"parent_topics": [
 			"combat",
@@ -334,7 +334,7 @@
 			"",
 			":HL[Moving:] Moving out of a threatened square usually provokes AoOs from threatening opponents. There are two common methods of avoiding such an attack - the 5-foot step and the withdraw action.",
 			"",
-			":HL[Performing a Distracting Act:] Some actions, when performed in a threatened square, provoke AoOs as you divert your attention from the battle. Many of the actions that provoke attacks of opportunity are noted in their respective sections: {rule/standard actions}, {rule/move actions}, {rule/full-round actions}, {rule/free actions}, [swift actions, immediate actions](rule/swift_and_immediate_actions), and {rule/miscellaneous actions}. They are summarized in the list below.",
+			":HL[Performing a Distracting Act:] Some actions, when performed in a threatened square, provoke AoOs as you divert your attention from the battle. Many of the actions that provoke attacks of opportunity are noted in their respective sections: {rule/standard actions}, {rule/move actions}, {rule/full-round actions}, {rule/free actions}, {rule/swift a[ctions, ]«nd_»immediate actions}, and {rule/miscellaneous actions}. They are summarized in the list below.",
 			"",
 			"Remember that even actions that normally provoke AoOs may have exceptions to this rule.",
 			"",
@@ -426,7 +426,7 @@
 			"",
 			":HL[Saving Throw Difficulty Class:] The DC for a save is determined by the attack itself.",
 			"",
-			":HL[Automatic Failures and Successes:] A natural 1 (the d20 comes up 1) on a saving throw is always a failure (and may cause damage to exposed items; see [Items Surviving after a Saving Throw](rule/saving_throw)). A natural 20 (the d20 comes up 20) is always a success."
+			":HL[Automatic Failures and Successes:] A natural 1 (the d20 comes up 1) on a saving throw is always a failure (and may cause damage to exposed items; see {rule/Items Surviving after a |Saving Throw}). A natural 20 (the d20 comes up 20) is always a success."
 		],
 		"parent_topics": [
 			"combat",
@@ -2263,13 +2263,13 @@
 		"description": [
 			"{SOURCE PRPG Core Rulebook/199}",
 			"",
-			"As a standard action, you can attempt to grapple a foe, hindering his combat options. If you do not have {feat/Improved Grapple}, grab, or a similar ability, attempting to grapple a foe provokes an attack of opportunity from the target of your maneuver. Humanoid creatures without two free hands attempting to grapple a foe take a -4 penalty on the combat maneuver roll. If successful, both you and the target gain the [grappled condition](rule/grapple_conditions). If you successfully grapple a creature that is not adjacent to you, move that creature to an adjacent open space (if no space is available, your grapple fails). Although both creatures have the grappled condition, you can, as the creature that initiated the grapple, release the grapple as a free action, removing the condition from both you and the target. If you do not release the grapple, you must continue to make a check each round, as a standard action, to maintain the hold. If your target does not break the grapple, you get a +5 circumstance bonus on grapple checks made against the same target in subsequent rounds. Once you are grappling an opponent, a successful check allows you to continue grappling the foe, and also allows you to perform one of the following actions (as part of the standard action spent to maintain the grapple).",
+			"As a standard action, you can attempt to grapple a foe, hindering his combat options. If you do not have {feat/Improved Grapple}, grab, or a similar ability, attempting to grapple a foe provokes an attack of opportunity from the target of your maneuver. Humanoid creatures without two free hands attempting to grapple a foe take a -4 penalty on the combat maneuver roll. If successful, both you and the target gain the {rule/grapple[d] condition>s}. If you successfully grapple a creature that is not adjacent to you, move that creature to an adjacent open space (if no space is available, your grapple fails). Although both creatures have the grappled condition, you can, as the creature that initiated the grapple, release the grapple as a free action, removing the condition from both you and the target. If you do not release the grapple, you must continue to make a check each round, as a standard action, to maintain the hold. If your target does not break the grapple, you get a +5 circumstance bonus on grapple checks made against the same target in subsequent rounds. Once you are grappling an opponent, a successful check allows you to continue grappling the foe, and also allows you to perform one of the following actions (as part of the standard action spent to maintain the grapple).",
 			"",
 			":HL[Move:] You can move both yourself and your target up to half your speed. At the end of your movement, you can place your target in any square adjacent to you. If you attempt to place your foe in a hazardous location, such as in a wall of fire or over a pit, the target receives a free attempt to break your grapple with a +4 bonus.",
 			"",
 			":HL[Damage:] You can inflict damage to your target equal to your unarmed strike, a natural attack, or an attack made with armor spikes or a light or one-handed weapon. This damage can be either lethal or nonlethal.",
 			"",
-			":HL[Pin:] You can give your opponent the [pinned condition](rule/grapple_conditions). Despite pinning your opponent, you still only have the grappled condition, but you lose your Dexterity bonus to AC.",
+			":HL[Pin:] You can give your opponent the {rule/grapple<pinned| condition>s}. Despite pinning your opponent, you still only have the grappled condition, but you lose your Dexterity bonus to AC.",
 			"",
 			":HL[Tie Up:] If you have your target pinned, otherwise restrained, or unconscious, you can use rope to tie him up. This works like a pin effect, but the DC to escape the bonds is equal to 20 + your Combat Maneuver Bonus (instead of your CMD). The ropes do not need to make a check every round to maintain the pin. If you are grappling the target, you can attempt to tie him up in ropes, but doing so requires a combat maneuver check at a -10 penalty. If the DC to escape from these bindings is higher than 20 + the target's CMB, the target cannot escape from the bonds, even with a natural 20 on the check.",
 			"",

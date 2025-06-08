@@ -1220,7 +1220,7 @@
 		"description": [
 			"{SOURCE Pathfinder Unchained/54}",
 			"",
-			"This section describes each consolidated skill, its functions in the game, and a list of the core skills it replaces. Use these descriptions instead of those in the Core Rulebook, though many of the entries refer back to the [skill descriptions](main/skills) for more detailed explanations. Each skill listed below is broken down into its different functions, each of which is described in further detail. These details list the action needed to use the skill function, whether you can try again after a failed check, special benefits that apply to the function, and special circumstances that affect whether you can use that function untrained.",
+			"This section describes each consolidated skill, its functions in the game, and a list of the core skills it replaces. Use these descriptions instead of those in the Core Rulebook, though many of the entries refer back to the {main/skill[ description]s} for more detailed explanations. Each skill listed below is broken down into its different functions, each of which is described in further detail. These details list the action needed to use the skill function, whether you can try again after a failed check, special benefits that apply to the function, and special circumstances that affect whether you can use that function untrained.",
 			"",
 			"### Monster Identification",
 			"",
@@ -1696,7 +1696,7 @@
 		"description": [
 			"{SOURCE Pathfinder Unchained/57}",
 			"",
-			"You can make jumps using Athletics. The DC is equal to the distance crossed (in feet) for a long jump or four times the height to be reached (in feet) for a high jump. If you don't have a running start of at least 10 feet, double the DC. If you fail an Athletics check to jump across a horizontal gap by 4 or less, you can attempt a DC 20 Reflex save to grab hold of the other side. If you fail by 5 or more, you fall (or land prone if you were attempting a high jump). The DC for a jump uses the same modifiers as the DC of an [Acrobatics check](rule/acrobatics_dex), depending on the surface from which you're jumping. For example, the DC for a jump that begins on a sandy surface would increase by 2. You can't exceed your maximum movement for a round by jumping.",
+			"You can make jumps using Athletics. The DC is equal to the distance crossed (in feet) for a long jump or four times the height to be reached (in feet) for a high jump. If you don't have a running start of at least 10 feet, double the DC. If you fail an Athletics check to jump across a horizontal gap by 4 or less, you can attempt a DC 20 Reflex save to grab hold of the other side. If you fail by 5 or more, you fall (or land prone if you were attempting a high jump). The DC for a jump uses the same modifiers as the DC of an {rule/Acrobatics /check>dex}, depending on the surface from which you're jumping. For example, the DC for a jump that begins on a sandy surface would increase by 2. You can't exceed your maximum movement for a round by jumping.",
 			"",
 			"| Long Jump | Acrobatics DC | High Jump | Acrobatics DC |",
 			"| --- | --- | --- | --- |",
@@ -2510,7 +2510,7 @@
 		"description": [
 			"{SOURCE Pathfinder Unchained/61}",
 			"",
-			"You can use Perception to detect that a secret message is being transmitted by someone using the Influence skill. Your Perception check is opposed by the sender's Influence check. You take a -2 penalty for each piece of information you lack relating to the message. If you succeed by 4 or less, you know there's a hidden message but don't know its content. If you exceed the DC by 5 or more, you intercept and understand the message. If you fail by 4 or less, you don't detect any hidden communication. If you fail by 5 or more, you might infer false information. See the [pass secret message](rule/pass_secret_messages) function of Influence for rules on sending a secret message.",
+			"You can use Perception to detect that a secret message is being transmitted by someone using the Influence skill. Your Perception check is opposed by the sender's Influence check. You take a -2 penalty for each piece of information you lack relating to the message. If you succeed by 4 or less, you know there's a hidden message but don't know its content. If you exceed the DC by 5 or more, you intercept and understand the message. If you fail by 4 or less, you don't detect any hidden communication. If you fail by 5 or more, you might infer false information. See the {rule/pass secret message>s} function of Influence for rules on sending a secret message.",
 			"",
 			":HL[Action:] None. This function is included in the time spent receiving the message.",
 			"",
@@ -2680,7 +2680,7 @@
 		"description": [
 			"{SOURCE Pathfinder Unchained/62}",
 			"",
-			"With an opposed Perception check, you can tell when a creature is lying to you. See the [lie function of the Influence skill](rule/influence_cha).",
+			"With an opposed Perception check, you can tell when a creature is lying to you. See the **lie** function of the {rule/Influence /skill>cha}.",
 			"",
 			":HL[Action:] None.",
 			"",
@@ -4034,7 +4034,7 @@
 			"",
 			":HL[Background Skills:] Instead of gaining background skill ranks at every level, a character gains one additional skill specialty at 1st level that can be used only to select a background skill. She can expend her normal skill specialties to select either background or adventuring skills. The Artistry and Lore skills fall under the Scholarly skill group. The character can take a specialty in Lore any number of times, choosing a different type of Lore each time. To attempt a check with a Lore skill, a character must have a specialty in it. Having training in the Scholarly skill group doesn't allow a character to use all the potential Lore skills untrained, but it does enable a character with one or more Lore skills to add her full level as a bonus on those checks, rather than just 1/2 her level.",
 			"",
-			":HL[Consolidated Skills:] Reduce both the number of skill groups and the number of skill specialties characters gain by 1/2 (rounded down, to a minimum of 1). Use 1/2 the class's skill ranks per level from the core rules to determine that class's number of skill groups and specialties, not 1/2 the adjusted values presented in the [Class Skills](rule/class_skills_2) section.",
+			":HL[Consolidated Skills:] Reduce both the number of skill groups and the number of skill specialties characters gain by 1/2 (rounded down, to a minimum of 1). Use 1/2 the class's skill ranks per level from the core rules to determine that class's number of skill groups and specialties, not 1/2 the adjusted values presented in the {rule/Class Skills>_2} section.",
 			"",
 			"You also need to change the skill groups to the following.",
 			"",

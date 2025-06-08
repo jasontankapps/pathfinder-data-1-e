@@ -461,7 +461,7 @@
 			"- {monster/Armadillo}",
 			"- {monster/Bat}",
 			"- {monster/Blue-Ringed Octopus}",
-			"- [Butterfly/Moth](monster/butterfly_or_moth)",
+			"- {monster/Butterfly//«or_»Moth}",
 			"- {monster/Cat}",
 			"- {monster/Chicken}",
 			"- {monster/Cockroach}",
@@ -1137,8 +1137,8 @@
 			"- Igroon, the Dragon Eater of the lost island",
 			"- Mantraska, the World Talons of the rain forest",
 			"- Shbloon, the Vortex Maw of the ocean deep",
-			"- [Lord Varklops](monster/varklops), the Thrice-Headed Fiend of the dormant volcano",
-			"- [Queen Vorgozen](monster/vorgozen), the Shapeless Feeder of the vast swamp",
+			"- {monster/Lord |Varklops}, the Thrice-Headed Fiend of the dormant volcano",
+			"- {monster/Queen |Vorgozen}, the Shapeless Feeder of the vast swamp",
 			"- {monster/Yarthoon}, the Moon Grub of the darkest nights",
 			"- Yorak, the Horned Thunder of the great mountains",
 			"- Zimivra, the Endless Coils of the trackless desert",
@@ -1646,9 +1646,9 @@
 			"",
 			"### Members of This Family:",
 			"",
-			"- [Bat Plague Swarm](monster/bat_plague_swarm_mythic)",
-			"- [Locust Plague Swarm](monster/locust_plague_swarm_mythic)",
-			"- [Rat Plague Swarm](monster/rat_plague_swarm_mythic)"
+			"- {monster/Bat Plague Swarm (Mythic)}",
+			"- {monster/Locust Plague Swarm (Mythic)}",
+			"- {monster/Rat Plague Swarm (Mythic)}"
 		]
 	},
 	"poppet": {
@@ -1663,8 +1663,8 @@
 			"",
 			"### Members of This Family:",
 			"",
-			"- [Poppet, Small](monster/small_poppet)",
-			"- [Poppet, Tiny](monster/tiny_poppet)"
+			"- {monster/Small Poppet}",
+			"- {monster/Tiny Poppet}"
 		]
 	},
 	"primeval_sea_creature": {
@@ -2039,7 +2039,7 @@
 			"",
 			"On the first round of infestation, applying flame to the point of entry can kill the grubs and save the host, but this inflicts 1d6 points of fire damage to the victim. Cutting the grubs out also works, but the longer the grubs remain in a host, the more damage this method does. For each round that the grubs have remained in a host, cutting them out requires a slashing weapon and a DC 20 Heal check, and inflicts 1d6 points of damage per round that the host has been infested. On a successful Heal check, the grubs are removed. A {spell/remove disease} spell (or similar effect) instantly halts the infestation, but as the grubs themselves are parasites, immunity to disease offers no protection against infestation. Any amount of damage reduction is enough to provide immunity to infestation, however.",
 			"",
-			"See also: [Infestation: Rot Grubs](infestation/rot_grubs).",
+			"See also: {infestation/Infestation: |Rot Grubs}.",
 			"",
 			"### Infested Undead",
 			"",

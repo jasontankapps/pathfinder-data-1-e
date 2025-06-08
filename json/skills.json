@@ -1189,7 +1189,7 @@
 			"Spymaster's Handbook"
 		],
 		"description": [
-			"## Knowledge (arcana)",
+			"## Knowledge",
 			"",
 			"**Associated Skill:** Intelligence  ",
 			"**Trained Only:** No  ",
@@ -1230,6 +1230,7 @@
 			"The Knowledge skill required to identify a feat or class feature varies depending on the type of feat or class feature to be identified."
 		]
 	},
+	"knowledge": { "copyof": "knowledge_all" },
 	"knowledge_arcana": {
 		"name": "Knowledge (arcana)",
 		"sources": [

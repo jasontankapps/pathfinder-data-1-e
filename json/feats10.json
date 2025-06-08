@@ -1931,7 +1931,7 @@
 			"",
 			"Your skill at riding helps your mount avoid attacks.  ",
 			"**Prerequisites:** {feat/Mounted Combat}, Handle Animal 5 ranks, Ride 5 ranks, Lastwall affinity.  ",
-			"**Benefit:** Once per round when your mount must make a saving throw, you can make a Ride check as an immediate action. Your mount makes its save if your Ride check result is greater than the DC of the opponent's attack."
+			"**Benefit:** Once per round when your mount must make a saving throw, you can make a {skill/Ride} check as an immediate action. Your mount makes its save if your Ride check result is greater than the DC of the opponent's attack."
 		]
 	},
 	"indomitable_mountain_avalanche": {
@@ -1944,7 +1944,7 @@
 			"",
 			"You are an impassable mountain, hurling your enemies back.  ",
 			"**Prerequisites:** Wis 15, {feat/Combat Reflexes}, {feat/Improved Unarmed Strike}, {feat/Indomitable Mountain Peak}, {feat/Indomitable Mountain Style}, base attack bonus +9.  ",
-			"**Benefit:** If an opponent fails at a combat maneuver against you, you can use an attack of opportunity to make a melee attack against the opponent using your highest attack bonus. If the attack hits, instead of dealing damage, you can push the opponent back 5 feet for every 5 by which it failed its combat maneuver check (minimum 5 feet). Additionally, when you hit with an unarmed melee attack against an opponent who provoked an attack of opportunity by failing its Acrobatics check to move through a space you threaten, you can push the opponent back 5 feet instead of dealing damage. The opponent moves back in a straight line, but stops before hitting any obstacle or hazard."
+			"**Benefit:** If an opponent fails at a combat maneuver against you, you can use an attack of opportunity to make a melee attack against the opponent using your highest attack bonus. If the attack hits, instead of dealing damage, you can push the opponent back 5 feet for every 5 by which it failed its combat maneuver check (minimum 5 feet). Additionally, when you hit with an unarmed melee attack against an opponent who provoked an attack of opportunity by failing its {skill/Acrobatics} check to move through a space you threaten, you can push the opponent back 5 feet instead of dealing damage. The opponent moves back in a straight line, but stops before hitting any obstacle or hazard."
 		]
 	},
 	"indomitable_mountain_peak": {
@@ -1957,7 +1957,7 @@
 			"",
 			"You become more difficult to move or pass, an elusive peak your enemies cannot surmount.  ",
 			"**Prerequisites:** Wis 15, {feat/Combat Reflexes}, {feat/Improved Unarmed Strike}, {feat/Indomitable Mountain Style}, base attack bonus +6.  ",
-			"**Benefit:** Whenever an opponent succeeds at a combat maneuver against you or at an Acrobatics check to avoid provoking an attack of opportunity when moving through a square you threaten, you immediately gain a +2 morale bonus to your CMD against the next combat maneuver against you or to the DC of the next Acrobatics check to avoid an attack of opportunity when moving through a square you threaten. This bonus stacks until either attempt fails against you."
+			"**Benefit:** Whenever an opponent succeeds at a {rule/combat maneuver>s} against you or at an {skill/Acrobatics} check to avoid provoking an attack of opportunity when moving through a square you threaten, you immediately gain a +2 morale bonus to your CMD against the next combat maneuver against you or to the DC of the next Acrobatics check to avoid an attack of opportunity when moving through a square you threaten. This bonus stacks until either attempt fails against you."
 		]
 	},
 	"indomitable_mountain_style": {
@@ -1996,7 +1996,7 @@
 			"",
 			"You will punish the guilty without letting any innocents be harmed as a result.  ",
 			"**Prerequisites:** Must have witnessed or suffered a grave injustice that went unpunished, or have the An Eye for an Eye {rule/class<ranger| background>_tables} or the Raiders [childhood event background](rule/birth_circumstances_and_more). If the offender is not a challenging foe, it either advances to become one or allies with one or more creatures who are.  ",
-			"**Benefit:** Once per day, you can choose to take the maximum possible weapon damage die roll rather than rolling when you hit a foe that is unaware of you or considers you an ally. Bonus dice, including from sneak attack, surprise attack, and {feat/Vital Strike}, are rolled normally.  ",
+			"**Benefit:** Once per day, you can choose to take the maximum possible weapon damage die roll rather than rolling when you hit a foe that is unaware of you or considers you an ally. Bonus dice, including from {ability/sneak attack}, surprise attack, and {feat/Vital Strike}, are rolled normally.  ",
 			"**Goal:** Decisively defeat or slay the offender without killing any innocents in the process. You can complete the goal after killing innocents if you receive an {spell/atonement} spell.  ",
 			"**Completion Benefit:** You can use this feat's benefit once per combat."
 		]
@@ -2037,7 +2037,7 @@
 			"",
 			"You can instantly conjure an infernal contract into being.  ",
 			"**Prerequisites:** Devil subtype.  ",
-			"**Benefit:** As a full-round action, you can produce an infernal contract. To receive the contract's benefit, a mortal creature must sign its name of its own free will. When it does so, that mortal's soul is sworn to Hell. As long as the infernal contract remains in effect, the victim cannot be restored to life after death save by a miracle or a wish. If the mortal is restored to life, you immediately sense it and gain the benefits of a discern location spell targeting the resurrected creature."
+			"**Benefit:** As a full-round action, you can produce an {rule/infernal contract>s}. To receive the contract's benefit, a mortal creature must sign its name of its own free will. When it does so, that mortal's soul is sworn to Hell. As long as the infernal contract remains in effect, the victim cannot be restored to life after death save by a {spell/miracle} or a {spell/wish}. If the mortal is restored to life, you immediately sense it and gain the benefits of a {spell/discern location} spell targeting the resurrected creature."
 		]
 	},
 	"infiltrator": {
@@ -2110,7 +2110,7 @@
 			"**Prerequisites:** {race/Duergar}, two racial spell-like abilities usable once per day.  ",
 			"**Benefit:** You gain a number of additional uses of your once per day racial spell-like abilities equal to the number of such abilities you have. You can expend these additional uses in any combination. Normal duergar spell-like abilities and those granted by duergar racial traits both count for the purpose of this feat.",
 			"",
-			"For example, a normal duergar has two once per day spell-like abilities (enlarge person and invisibility), so taking this feat would grant her two additional uses of her once per day spell-like abilities; each day she can use either two additional uses of enlarge person, two additional uses of invisibility, or one additional use of each.  ",
+			"For example, a normal duergar has two once per day spell-like abilities ({spell/enlarge person} and {spell/invisibility}), so taking this feat would grant her two additional uses of her once per day spell-like abilities; each day she can use either two additional uses of *enlarge person,* two additional uses of *invisibility,* or one additional use of each.  ",
 			"**Special:** You can take this feat multiple times. Its effects stack."
 		]
 	},
@@ -2124,7 +2124,7 @@
 			"",
 			"Your body is suffused with elemental air that provides for all your respiratory needs.  ",
 			"**Prerequisites:** Character level 11th, {race/sylph}.  ",
-			"**Benefit:** You no longer need to breathe. You are immune to effects that require breathing (such as inhaled poison). This does not give you immunity to cloud or gas attacks that do not require breathing, such as cloudkill."
+			"**Benefit:** You no longer need to breathe. You are immune to effects that require breathing (such as inhaled poison). This does not give you immunity to cloud or gas attacks that do not require breathing, such as {spell/cloudkill}."
 		]
 	},
 	"inner_flame": {
@@ -2157,8 +2157,8 @@
 			"{SOURCE Blood of Angels/25}",
 			"",
 			"Even when your innate powers over light fail you, you and your allies prove vigilant against dark forces, fighting until the end.  ",
-			"**Prerequisites:** {race/Aasimar}, daylight spell-like ability.  ",
-			"**Benefit:** Whenever you cast your daylight spell-like ability, you do so as if your caster level were one higher. Whenever an enemy successfully counters or dispels your daylight spell-like ability, you and any allies within a 20-foot radius gain darkvision 60 feet for a number of rounds equal to your character level. This is a supernatural effect."
+			"**Prerequisites:** {race/Aasimar}, {spell/daylight} spell-like ability.  ",
+			"**Benefit:** Whenever you cast your *daylight* spell-like ability, you do so as if your caster level were one higher. Whenever an enemy successfully counters or dispels your *daylight* spell-like ability, you and any allies within a 20-foot radius gain darkvision 60 feet for a number of rounds equal to your character level. This is a supernatural effect."
 		]
 	},
 	"inner_light_uw": {
@@ -2186,7 +2186,7 @@
 			"**Prerequisites:** You must slay at least 50 intelligent noncombatants for either your own personal gain or for no cause at all, or have the First Kill [childhood event background](rule/birth_circumstances_and_more), or either the Bloodthirsty (barbarian) or The Kill (rogue) {rule/class background>_tables}.  ",
 			"**Benefit:** You gain a +2 bonus on Intimidate checks. If you have 10 or more ranks in Intimidate, this bonus increases to +4. Each time you slay an intelligent creature, you gain a +1 bonus on attack rolls and caster level checks for 1 minute (this bonus does not stack with itself).  ",
 			"**Goal:** Slay at least 200 more intelligent noncombatants, then slay a challenging foe that seeks to either bring you to justice for your crimes or usurp your position.  ",
-			"**Completion Benefit:** Any shaken creature takes double the normal penalties when attacking you, making saves against your abilities, or resolving skill checks with you as a target."
+			"**Completion Benefit:** Any {misc/shaken} creature takes double the normal penalties when attacking you, making saves against your abilities, or resolving skill checks with you as a target."
 		]
 	},
 	"haunt_scavenger": {
@@ -2199,7 +2199,7 @@
 			"",
 			"You can use spiritual essence to craft magic items.  ",
 			"**Prerequisites:** Any one item creation feat or Craft (alchemy) 3 ranks.  ",
-			"**Benefit:** You can harvest the ectoplasmic remains of haunts, incorporeal undead, or the like to craft magic items. Whenever you encounter a recently neutralized haunt, the remains of an incorporeal undead creature, or the remains of a creature that has the ability to possess another creature using a racial spell-like ability or supernatural ability (such as a ghost or a shadow demon), you can attempt to extract material components from those remains that are suitable for crafting magic items. You must have access to an alchemist's lab in order to extract components from a haunt or creature, and you must begin extracting these components within 10xminutes of the haunt or creature's death or destruction. After 10 minutes, the components have degraded too much to be of any use to you.",
+			"**Benefit:** You can harvest the ectoplasmic remains of haunts, incorporeal undead, or the like to craft magic items. Whenever you encounter a recently neutralized haunt, the remains of an incorporeal undead creature, or the remains of a creature that has the ability to possess another creature using a racial spell-like ability or supernatural ability (such as a {template/ghost} or a {monster/shadow demon}), you can attempt to extract material components from those remains that are suitable for crafting magic items. You must have access to an {eq-misc/alchemist's lab} in order to extract components from a haunt or creature, and you must begin extracting these components within 10 minutes of the haunt or creature's death or destruction. After 10 minutes, the components have degraded too much to be of any use to you.",
 			"",
 			"Harvesting components with this feat can take several hours. Performing at least 1 minute of work extracting components from a haunt or creature prevents its material components from degrading further for 24 hours, allowing you to safely suspend and resume harvesting these components without fear of subsequent degradation. This ectoplasmic residue is portable once the extraction work begins, provided you have a vial to contain the source residue (the actual amount of residue is never much, physically, but the value of the components you can extract from the residue increases with the power of the original haunt or creature).",
 			"",
@@ -2244,7 +2244,7 @@
 			"**Prerequisites:** Cha 13, gnome magic racial trait, {feat/Haunted Gnome}, Knowledge (arcana) 3 ranks.  ",
 			"**Benefit:** You gain one use of your gnome magic that is independent of your gnome magic spell-like abilities. When you wish to cast a gnome magic spell-like ability for which you have no daily uses remaining, you can expend this independent use to do so.",
 			"",
-			"Further, while you are under the effect of {spell/haunted fey aspect}, you can discharge that spell as a free action after you hit an opponent with a charge attack or score a critical hit against an opponent. If you do, that opponent becomes shaken for 1 round.",
+			"Further, while you are under the effect of {spell/haunted fey aspect}, you can discharge that spell as a free action after you hit an opponent with a charge attack or score a critical hit against an opponent. If you do, that opponent becomes {misc/shaken} for 1 round.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/122}",
@@ -2265,7 +2265,7 @@
 			"",
 			"Your disturbing glamer expands to make your exact location hard to pinpoint.  ",
 			"**Prerequisites:** Cha 13, gnome magic racial trait, {feat/Haunted Gnome}, {feat/Haunted Gnome Assault}, Knowledge (arcana) 6 ranks.  ",
-			"**Benefit:** You gain another independent use of your gnome magic like that which Haunted Gnome Assault grants. Further, while you are under the effect of haunted fey aspect, you also have concealment (20% miss chance) against an opponent until that opponent deals you damage.",
+			"**Benefit:** You gain another independent use of your gnome magic like that which Haunted Gnome Assault grants. Further, while you are under the effect of {spell/haunted fey aspect}, you also have concealment (20% miss chance) against an opponent until that opponent deals you damage.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/122}",
@@ -2283,7 +2283,7 @@
 			"",
 			"Your healing efforts are bolstered by positive energy.  ",
 			"**Prerequisites:** Heal 1 rank, Knowledge (planes) 1 rank.  ",
-			"**Benefit:** You can use the Heal skill to treat deadly wounds as a full-round action. You do not take a penalty for not using a healer's kit when treating deadly wounds this way, and you can do so on a given creature more than once per day. When treating deadly wounds this way, if your result exceeds the DC by 10 or more, add your ranks in Knowledge (planes) to the damage healed. These benefits do not apply to creatures that are not healed by positive energy. You can use this feat's benefit a number of times per day equal to your ranks in Knowledge (planes)."
+			"**Benefit:** You can use the {skill/Heal} skill to treat deadly wounds as a full-round action. You do not take a penalty for not using a {eq-misc/healer's kit} when treating deadly wounds this way, and you can do so on a given creature more than once per day. When treating deadly wounds this way, if your result exceeds the DC by 10 or more, add your ranks in Knowledge (planes) to the damage healed. These benefits do not apply to creatures that are not healed by positive energy. You can use this feat's benefit a number of times per day equal to your ranks in Knowledge (planes)."
 		]
 	},
 	"healing_potion": {
@@ -2296,7 +2296,7 @@
 			"",
 			"You can infuse a healing spell into a potion that produces a different effect.  ",
 			"**Prerequisites:** {feat/Brew Potion}, ability to cast {spell/cure serious wounds}.  ",
-			"**Benefit:** When you brew a potion, you can add the effects of one of the following spells to the potion's effects: cure light wounds, cure moderate wounds, or cure serious wounds. When imbibed, the potion has the effect of both the chosen cure spell and the spell used to brew the potion. When brewing the potion, you must expend both spells as though you were creating two separate potions. Due to the intricacies of making such a carefully blended potion, you must use particularly fine and rare ingredients, meaning you must pay twice the cost of creating each potion separately. The combined spell levels of the cure spell and the other spell used in the potion must be level 3 or less (for example, you could combine cure light wounds with a 2nd-level spell to create a healing potion, or cure moderate wounds with a 1st-level spell, or cure serious wounds with a 0-level spell).",
+			"**Benefit:** When you brew a potion, you can add the effects of one of the following spells to the potion's effects: {spell/cure light wounds}, {spell/cure moderate wounds}, or *cure serious wounds.* When imbibed, the potion has the effect of both the chosen *cure* spell and the spell used to brew the potion. When brewing the potion, you must expend both spells as though you were creating two separate potions. Due to the intricacies of making such a carefully blended potion, you must use particularly fine and rare ingredients, meaning you must pay twice the cost of creating each potion separately. The combined spell levels of the *cure* spell and the other spell used in the potion must be level 3 or less (for example, you could combine *cure light wounds* with a 2nd-level spell to create a healing potion, or *cure moderate wounds* with a 1st-level spell, or *cure serious wounds* with a 0-level spell).",
 			"",
 			"### Versatile Brewing",
 			"",
@@ -2315,7 +2315,7 @@
 			"",
 			"Your weapons carry a trace of the divine when imbued with your bane ability.  ",
 			"**Prerequisites:** Bane class feature.  ",
-			"**Benefit:** Whenever you have a weapon imbued with the bane special quality, that weapon is considered good and lawful for the purpose of overcoming damage reduction."
+			"**Benefit:** Whenever you have a weapon imbued with the {magic-enh/bane} special quality, that weapon is considered good and lawful for the purpose of overcoming damage reduction."
 		]
 	},
 	"heavenly_radiance": {
@@ -2327,8 +2327,8 @@
 			"{SOURCE Advanced Race Guide/88}",
 			"",
 			"Your heavenly light can be used in a variety of ways.  ",
-			"**Prerequisites:** {race/Aasimar}, daylight spell-like ability, sufficiently high level (see below).  ",
-			"**Benefit:** You gain one additional use per day of daylight. Choose one spell from the table below; by expending a use of daylight, you may use this spell as a spell-like ability. To select a spell, you must meet the minimum character level for its listing in the table. The save DC for this spell is Charisma-based.",
+			"**Prerequisites:** {race/Aasimar}, {spell/daylight} spell-like ability, sufficiently high level (see below).  ",
+			"**Benefit:** You gain one additional use per day of *daylight.* Choose one spell from the table below; by expending a use of *daylight,* you may use this spell as a spell-like ability. To select a spell, you must meet the minimum character level for its listing in the table. The save DC for this spell is Charisma-based.",
 			"",
 			"| Spell-Like Ability | Minimum Character Level |",
 			"| --- | --- |",
@@ -2351,7 +2351,7 @@
 			"",
 			"You are a luminous beacon in the darkness, an icon of order and kindness through which the light of Heaven itself can shine, even in the most dreadful of realms.  ",
 			"**Prerequisites:** Knowledge (planes) 1 rank.  ",
-			"**Benefit:** As a standard action, you can emit an aura of bright light centered on a glowing halo above or behind your head. The illumination provided is equal in intensity to that of a torch. If you have at least 5 ranks in Knowledge (planes) the illumination is equivalent to that created by a {spell/daylight} spell. If you have at least 15 ranks in Knowledge (planes), the light becomes further infused with Heavenly power, and each evil creature within 30 feet of you must succeed at a Fortitude save (DC = 10 + half your level + your Charisma modifier) or become {rule/sickened>_conditions} by the light for as long as it remains in range plus 1 additional round after leaving the area.",
+			"**Benefit:** As a standard action, you can emit an aura of bright light centered on a glowing halo above or behind your head. The illumination provided is equal in intensity to that of a torch. If you have at least 5 ranks in Knowledge (planes) the illumination is equivalent to that created by a {spell/daylight} spell. If you have at least 15 ranks in Knowledge (planes), the light becomes further infused with Heavenly power, and each evil creature within 30 feet of you must succeed at a Fortitude save (DC = 10 + half your level + your Charisma modifier) or become {misc/sickened} by the light for as long as it remains in range plus 1 additional round after leaving the area.",
 			"",
 			"You can use this feat's benefit for a number of rounds per day equal to your ranks in Knowledge (planes). These rounds need not be consecutive."
 		]
@@ -2366,7 +2366,7 @@
 			"",
 			"Like the daring Heaven's Step Offensive championed by Grand Prince Gennaris III of Taldor, you confidently take the fight to your enemy and strike an unexpected blow.  ",
 			"**Prerequisites:** Dex 15, {feat/Following Step}, {feat/Step Up}, {feat/Step Up and Strike}, base attack bonus +10.  ",
-			"**Benefit:** When you make an attack using {feat/Step Up and Strike}, you can also make an extra attack with your offhand weapon using your highest base attack bonus. Both attacks take the normal penalties for two-weapon fighting."
+			"**Benefit:** When you make an attack using {feat/Step Up and Strike}, you can also make an extra attack with your offhand weapon using your highest base attack bonus. Both attacks take the normal penalties for {rule/two-weapon fighting}."
 		]
 	},
 	"heavy_gravity_acclimation": {
@@ -2379,7 +2379,7 @@
 			"",
 			"Your muscles work overtime in areas with heavy gravity.  ",
 			"**Prerequisites:** Str 17 or {feat/Endurance}.  ",
-			"**Benefit:** You do not take the normal penalties for being on heavy gravity planes. At the GM's discretion, this effect may apply to certain environments on the Material Plane, such as high-gravity planets. In addition, your Strength is considered to be 4 higher for the purpose of determining your carrying capacity."
+			"**Benefit:** You do not take the normal penalties for being on heavy {rule/gravity>_traits} planes. At the GM's discretion, this effect may apply to certain environments on the Material Plane, such as high-gravity planets. In addition, your Strength is considered to be 4 higher for the purpose of determining your carrying capacity."
 		]
 	},
 	"hefty_brute": {
@@ -2391,7 +2391,7 @@
 			"{SOURCE Wilderness Origins/22}",
 			"",
 			"You might be a different subspecies or simply a well-fed and well-grown beast, but either way you're built on a more massive scale than the rest of your kind.  ",
-			"**Prerequisites:** Animal companion or familiar.  ",
+			"**Prerequisites:** {sidekick/Animal companion} or {sidekick/familiar}.  ",
 			"**Benefit:** You treat your size as one category larger for the purposes of calculating CMB, CMD, carrying capacity, and any size-based special attacks you use or that are used against you (such as {umr/grab}, {umr/swallow whole}, and {umr/trample})."
 		]
 	},
@@ -2432,7 +2432,7 @@
 			"",
 			"You attack unsuspecting foes twice.  ",
 			"**Prerequisites:** {feat/Hellcat Stealth}, {ability/sneak attack} +2d6.  ",
-			"**Benefit:** Whenever you attack and damage an opponent in the surprise round, you may immediately make a second attack against the same opponent using the same attack bonus. The target is not considered flat-footed against this second attack.  ",
+			"**Benefit:** Whenever you attack and damage an opponent in the surprise round, you may immediately make a second attack against the same opponent using the same attack bonus. The target is not considered {rule/flat-footed} against this second attack.  ",
 			"**Special:** This ability only functions when carrying a light load or less."
 		]
 	},
@@ -2460,7 +2460,7 @@
 			"",
 			"You can channel the shackles of Hell onto your foes.  ",
 			"**Prerequisites:** {ability/Channel energy} 5d6; worshiper of an archdevil, infernal duke, malbranche, or whore queen.  ",
-			"**Benefit:** Once per day when you channel negative energy to damage living creatures, you can attempt to affect damaged creatures with a dimensional anchor. Those damaged must make a successful Will save (DC equal to the DC of the channel effect) in addition to the normal Will save to halve damage from the channeled energy. Those that fail their save against the channeled energy take a -4 penalty on their saving throw against the dimensional anchor effect. Those that fail their second Will save are affected by dimensional anchor for a number of minutes equal to your Charisma modifier (minimum 1 minute)."
+			"**Benefit:** Once per day when you channel negative energy to damage living creatures, you can attempt to affect damaged creatures with a {spell/dimensional anchor}. Those damaged must make a successful Will save (DC equal to the DC of the channel effect) in addition to the normal Will save to halve damage from the channeled energy. Those that fail their save against the channeled energy take a -4 penalty on their saving throw against the *dimensional anchor* effect. Those that fail their second Will save are affected by *dimensional anchor* for a number of minutes equal to your Charisma modifier (minimum 1 minute)."
 		]
 	},
 	"hellknight_aegis": {
@@ -2473,9 +2473,9 @@
 			"",
 			"Your Hellknight armor guards you against many threats.  ",
 			"**Prerequisites:** {feat/Heavy Armor Proficiency}, base attack bonus +5, must swear allegiance to a single [Hellknight](rule/aff_lawknights) order.  ",
-			"**Benefit:** Once per day as a full-round action, you can give your Hellknight armor the broken condition. Upon doing so, you are affected by one of the following spells (your choice), using your character level as your caster level: {spell/break enchantment}, {spell/neutralize poison}, {spell/remove disease}, or {spell/remove paralysis}. Once you have used this benefit, your Hellknight armor must be repaired as normal to restore its full bonus to your Armor Class and return its armor check penalty to normal.",
+			"**Benefit:** Once per day as a full-round action, you can give your Hellknight armor the {misc/broken} condition. Upon doing so, you are affected by one of the following spells (your choice), using your character level as your caster level: {spell/break enchantment}, {spell/neutralize poison}, {spell/remove disease}, or {spell/remove paralysis}. Once you have used this benefit, your Hellknight armor must be repaired as normal to restore its full bonus to your Armor Class and return its armor check penalty to normal.",
 			"",
-			"You can use this ability even if paralyzed or otherwise restrained, but not if you are unconscious. For the purposes of this ability, \"Hellknight armor\" means any armor with the word \"Hellknight\" in its name. You cannot use this ability if your armor is already broken."
+			"You can use this ability even if {rule/paralyzed} or otherwise restrained, but not if you are {misc/unconscious}. For the purposes of this ability, \"Hellknight armor\" means any armor with the word \"Hellknight\" in its name. You cannot use this ability if your armor is already broken."
 		]
 	},
 	"hellknight_obedience": {
@@ -2487,8 +2487,8 @@
 			"{SOURCE Path of the Hellknight/62}",
 			"",
 			"Performing daily [Hellknight](rule/aff_lawknights) reckonings grants you special boons.  ",
-			"**Prerequisites:** Knowledge (planes) 3 ranks, must swear allegiance to a single Hellknight order.  ",
-			"**Benefit:** Upon taking this feat, you gain proficiency in all of your Hellknight order's favored weapons. Additionally, by meditating and inflicting strenuous reckonings upon yourself, you unlock the power behind your order's doctrine. Each Hellknight order has its own unique reckoning - a trial of obedience and pain. When coupled with the necessary reflection and meditation, this reckoning takes 1 hour per day to perform. Once you have performed your order's reckoning, you gain the benefit of a special ability as indicated in the Reckoning entry for the Hellknight order to which you've sworn allegiance. If you have at least 12 Hit Dice, you also gain the first boon granted by the Hellknight order. If you have at least 16 Hit Dice, you also gain the Hellknight order's second boon. If you have 20 Hit Dice or more, you also gain the Hellknight order's third boon. Unless a specific duration or number of uses per day is listed in a boon's description, the boon's effects are constant.",
+			"**Prerequisites:** Knowledge (planes) 3 ranks, must swear allegiance to a single [Hellknight](rule/aff_lawknights) order.  ",
+			"**Benefit:** Upon taking this feat, you gain proficiency in all of your {ability/Hellknight order's} favored weapons. Additionally, by meditating and inflicting strenuous reckonings upon yourself, you unlock the power behind your order's doctrine. Each Hellknight order has its own unique reckoning - a trial of obedience and pain. When coupled with the necessary reflection and meditation, this reckoning takes 1 hour per day to perform. Once you have performed your order's reckoning, you gain the benefit of a special ability as indicated in the Reckoning entry for the Hellknight order to which you've sworn allegiance. If you have at least 12 Hit Dice, you also gain the first boon granted by the Hellknight order. If you have at least 16 Hit Dice, you also gain the Hellknight order's second boon. If you have 20 Hit Dice or more, you also gain the Hellknight order's third boon. Unless a specific duration or number of uses per day is listed in a boon's description, the boon's effects are constant.",
 			"",
 			"If you ever fail to perform a daily reckoning, you lose all access to the benefits and boons granted by this feat until you next perform the reckoning.",
 			"",
@@ -2500,7 +2500,7 @@
 			"",
 			"Hellknights are assumed to police their own thoughts and perform reckonings as necessary. If a Hellknight doesn't regularly perform reckonings as part of her scheduled meditations, she doesn't lose any abilities or suffer negative effects - however, she might be censured by her fellow Hellknights if they learn of this dereliction.",
 			"",
-			"Performing a Reckoning: Performing the physical component of a reckoning typically takes 10 minutes and deals 1d4 points of nonlethal damage. A particularly righteous or conflicted Hellknight might choose to perform a longer, more extreme version of a reckoning. In this case, the reckoning deals 1d4 additional points of lethal damage. A devoted Hellknight with the Hellknight Obedience feat can undergo an hour-long nonlethal reckoning to gain the benefit of a special ability, in addition to boons available for those with 12, 16, or 20 Hit Dice. See the descriptions of the major Hellknight orders for descriptions of their specific reckonings and the boons these provide. Additionally, Hellknights with the {feat/Hellknight Obsession} feat who choose to deal the lethal damage to themselves can access a suite of beneficial effects. The damage a reckoning deals cannot be reduced by any damage reduction or other ability or effect."
+			":HL[Performing a Reckoning:] Performing the physical component of a reckoning typically takes 10 minutes and deals 1d4 points of nonlethal damage. A particularly righteous or conflicted Hellknight might choose to perform a longer, more extreme version of a reckoning. In this case, the reckoning deals 1d4 additional points of lethal damage. A devoted Hellknight with the Hellknight Obedience feat can undergo an hour-long nonlethal reckoning to gain the benefit of a special ability, in addition to boons available for those with 12, 16, or 20 Hit Dice. See the descriptions of the major Hellknight orders for descriptions of their specific reckonings and the boons these provide. Additionally, Hellknights with the {feat/Hellknight Obsession} feat who choose to deal the lethal damage to themselves can access a suite of beneficial effects. The damage a reckoning deals cannot be reduced by any damage reduction or other ability or effect."
 		]
 	},
 	"hellknight_obsession": {
@@ -2512,16 +2512,16 @@
 			"{SOURCE Path of the Hellknight/62}",
 			"",
 			"You equate pain with discipline and can inflict damage upon yourself to unlock greater power.  ",
-			"**Prerequisites:** {feat/Hellknight Obedience}, Knowledge (planes) 3 ranks, must swear allegiance to a single Hellknight order.  ",
-			"**Benefit:** During your hour-long [Hellknight](rule/aff_lawknights) reckoning, if you choose to deal lethal damage to yourself, you reach a state of fantastic focus. Once during the next 24 hours, you can draw upon this focus to gain the benefits of any one of the following effects. To activate the ability, you must deal 1 point of lethal damage to yourself as a swift action (unless otherwise noted). Members of the Order of the Nail often install a sharp barb within their armor that deals this damage when the wearer is subject to a critical hit; if you're struck by a critical hit while wearing such armor, using this ability doesn't require a swift action.",
+			"**Prerequisites:** {feat/Hellknight Obedience}, Knowledge (planes) 3 ranks, must swear allegiance to a single [Hellknight](rule/aff_lawknights) order.  ",
+			"**Benefit:** During your hour-long [Hellknight](rule/aff_lawknights) reckoning, if you choose to deal lethal damage to yourself, you reach a state of fantastic focus. Once during the next 24 hours, you can draw upon this focus to gain the benefits of any one of the following effects. To activate the ability, you must deal 1 point of lethal damage to yourself as a swift action (unless otherwise noted). Members of the {hkorder/Order of the Nail} often install a sharp barb within their armor that deals this damage when the wearer is subject to a critical hit; if you're struck by a critical hit while wearing such armor, using this ability doesn't require a swift action.",
 			"",
-			"Fervor: The DCs to resist the effects of the boons granted by your Hellknight Obedience feat increase by 1 for 1 hour.",
-			"",
-			"Indomitability: You can reroll a single failed Will saving throw and must take the result of the second roll, even if it is worse. A swift action isn't required to use this effect, but you must still take 1 point of damage.",
-			"",
-			"Menacing: You gain a +3 bonus on Intimidate and Sense Motive skill checks for 1 hour.",
-			"",
-			"Mercilessness: The critical threat range of your order's favored weapon doubles for 1 hour (even if it is not a piercing or slashing weapon). This does not stack with any other effects that increase a weapon's critical threat range."
+			">:HL[Fervor:] The DCs to resist the effects of the boons granted by your Hellknight Obedience feat increase by 1 for 1 hour.",
+			">",
+			">:HL[Indomitability:] You can reroll a single failed Will saving throw and must take the result of the second roll, even if it is worse. A swift action isn't required to use this effect, but you must still take 1 point of damage.",
+			">",
+			">:HL[Menacing:] You gain a +3 bonus on Intimidate and Sense Motive skill checks for 1 hour.",
+			">",
+			">:HL[Mercilessness:] The critical threat range of your order's favored weapon doubles for 1 hour (even if it is not a piercing or slashing weapon). This does not stack with any other effects that increase a weapon's critical threat range."
 		]
 	},
 	"helpless_prisoner": {
@@ -2534,7 +2534,7 @@
 			"",
 			"You can talk your way out of most restraints.  ",
 			"**Prerequisites:** Bluff 5 ranks, Escape Artist 1 rank, {race/gnome}.  ",
-			"**Benefit:** When you are restrained or imprisoned, you can make a Bluff check against any one creature within 30 feet in which you emphasize both your own harmlessness and the pain or inconvenience of your current condition. If the creature knows you are dangerous, it adds a +4 bonus to its Sense Motive check. If you win the check, the target does something intended to make you a little more comfortable - or at least shut you up - that gives you a +5 bonus on your next Escape Artist check.  ",
+			"**Benefit:** When you are restrained or imprisoned, you can make a {skill/Bluff} check against any one creature within 30 feet in which you emphasize both your own harmlessness and the pain or inconvenience of your current condition. If the creature knows you are dangerous, it adds a +4 bonus to its {skill/Sense Motive} check. If you win the check, the target does something intended to make you a little more comfortable - or at least shut you up - that gives you a +5 bonus on your next {skill/Escape Artist} check.  ",
 			"**Special:** At the GM's discretion, an especially evil or cruel creature may gain a +2 bonus to its Sense Motive check to resist this ability. If it succeeds, it does something to make your bindings even more secure and less comfortable, giving you a -5 penalty on all Escape Artist checks made in those particular bonds."
 		]
 	},
@@ -2548,7 +2548,7 @@
 			"",
 			"Your venom destroys blood vessels and melts bone.  ",
 			"**Prerequisites:** {feat/Spit Venom}, {feat/Virulent Venom}, base attack bonus +7, {race/nagaji}.  ",
-			"**Benefit:** Your ability to spit poison granted by the Spit Venom feat deals 2d6 points of bleed damage on a failed saving throw in addition to all other effects. The bleeding can be stopped as normal with a successful DC 15 Heal check or the application of any effect that heals hit point damage. In addition, you gain one additional use per day of the ability to spit poison granted by the Spit Venom feat."
+			"**Benefit:** Your ability to spit poison granted by the Spit Venom feat deals 2d6 points of {rule/bleed} damage on a failed saving throw in addition to all other effects. The bleeding can be stopped as normal with a successful DC 15 Heal check or the application of any effect that heals hit point damage. In addition, you gain one additional use per day of the ability to spit poison granted by the Spit Venom feat."
 		]
 	},
 	"herbal_components": {
@@ -2594,7 +2594,7 @@
 			"",
 			"You struggle on when others would fall.  ",
 			"**Prerequisites:** {feat/Diehard}, {feat/Endurance}, base Fortitude save +8.  ",
-			"**Benefit:** Once per day as an immediate action you can delay the onset of one harmful condition or affliction (such as panicked, paralyzed, stunned, and so on), including permanent and instantaneous conditions. Activating this feat delays the onset of the condition until the end of your next turn, after which time the condition takes its normal effect. This feat has no effect on hit point damage or ability damage.",
+			"**Benefit:** Once per day as an immediate action you can delay the onset of one harmful condition or affliction (such as {misc/panicked}, {rule/paralyzed}, {misc/stunned}, and so on), including permanent and instantaneous conditions. Activating this feat delays the onset of the condition until the end of your next turn, after which time the condition takes its normal effect. This feat has no effect on hit point damage or ability damage.",
 			"",
 			"### Mythic Heroic Defiance",
 			"",
@@ -2637,7 +2637,7 @@
 			"{SOURCE Melee Tactics Toolbox/7}",
 			"",
 			"Whether part of a partnership or an army, you stand head and shoulders above your companions.  ",
-			"**Prerequisites:** Cha 13; any combat feat; ability to gain an animal companion, cohort, eidolon, familiar, or mount.  ",
+			"**Prerequisites:** Cha 13; any {main/feats_<combat/ feat}; ability to gain an animal companion, cohort, eidolon, familiar, or mount.  ",
 			"**Benefit:** Your animal companion, cohort, eidolon, familiar, or mount doesn't count as threatening your opponent for the purposes of feats that require you to be the only character threatening a target. Allies with Hit Dice equal to or less than 1/2 your own Hit Dice don't count as threatening opponents for the purposes of such feats."
 		]
 	},
@@ -2708,7 +2708,7 @@
 			"{SOURCE Advanced Player's Guide/324}",
 			"",
 			"Even at the start of your career, it was clear that you had a chance at greatness, and your legend continues to grow with every adventure.  ",
-			"**Benefit:** You gain a hero point. The maximum number of hero points you can have at any one time is increased to 5.  ",
+			"**Benefit:** You gain a hero point. The maximum number of {rule/hero points} you can have at any one time is increased to 5.  ",
 			"**Normal:** You can have no more than 3 hero points at one time.  ",
 			"**Special:** NPCs who take this feat receive 1 hero point and can have up to 3 (not 5)."
 		]
@@ -2758,7 +2758,7 @@
 			"",
 			"You excel at crafting armor made from the hides of animals or monsters.  ",
 			"**Prerequisites:** Craft (armor) 3 ranks, Knowledge (nature) 3 ranks.  ",
-			"**Benefit:** You gain a +4 bonus on Craft (armor) checks to create armor or shields from the hides of living creatures (such as dragonhide). If you succeed at a Craft (armor) check to create armor or shields from the hides of living creatures by 5 or more, you also decrease the cost to make the item by 10%."
+			"**Benefit:** You gain a +4 bonus on Craft (armor) checks to create armor or shields from the hides of living creatures (such as {eq-material/dragonhide}). If you succeed at a Craft (armor) check to create armor or shields from the hides of living creatures by 5 or more, you also decrease the cost to make the item by 10%."
 		]
 	},
 	"high_magic_focus": {
@@ -2770,7 +2770,7 @@
 			"{SOURCE Inner Sea Races/206}",
 			"",
 			"With the help of your fellow scholars, you can cast higher forms of magic, enhancing your spells by drawing upon their magical reserves rather than your own.  ",
-			"**Prerequisites:** Any metamagic feat, Spellcraft 7 ranks, ability to cast 2nd-level spells, {race/human} (Garundi).  ",
+			"**Prerequisites:** Any {main/feats_<metamagic/ feat}, Spellcraft 7 ranks, ability to cast 2nd-level spells, {race/human} (Garundi).  ",
 			"**Benefit:** With the help of allies who also have this feat, you can spontaneously apply metamagic feats to your spells without using a higher-level slot or increasing the casting time. Each ally must ready an action to cast the same spell you intend to cast. For each other ally within 30 feet who does so, you reduce the cost of the spontaneous metamagic feat by 1 level (to a minimum of 0, and you must have at least one ally assist you, even if the metamagic feat is normally a +0 adjustment). The allies don't need to have the metamagic feat you choose to apply, and the effective level of the spell (after applying the metamagic feat) can't be higher than the highest level of spells you can cast. Lastly, when you use this ability, the spell each ally readies is lost, as if they had cast that spell."
 		]
 	},
@@ -2797,7 +2797,7 @@
 			"{SOURCE Magic Tactics Toolbox/13}",
 			"",
 			"You've mastered the art of dismissing certain spells when they become a problem for you or your allies.  ",
-			"**Benefit:** You can dismiss any pit spell (such as create pit, hungry pit, spiked pit, and similar spells with \"pit\" in their names) or wall spell (such as wall of fire, wall of ice, and similar spells with \"wall\" in their names) you cast. The spells must have a duration of at least 1 round. This ability follows the normal rules for dismissing spells, allowing you to dismiss conjured pits and walls as a standard action.  ",
+			"**Benefit:** You can dismiss any pit spell (such as {spell/create pit}, {spell/hungry pit}, {spell/spiked pit}, and similar spells with \"pit\" in their names) or wall spell (such as {spell/wall of fire}, {spell/wall of ice}, and similar spells with \"wall\" in their names) you cast. The spells must have a duration of at least 1 round. This ability follows the normal rules for {misc/dismiss/ing} spells, allowing you to dismiss conjured pits and walls as a standard action.  ",
 			"**Normal:** Several pit and wall spells cannot be dismissed without the use of this feat."
 		]
 	},
@@ -2824,7 +2824,7 @@
 			"",
 			"You can take your opponent's weapon after being stabbed in the back.  ",
 			"**Prerequisites:** {feat/Improved Disarm}, base attack bonus +10.  ",
-			"**Benefit:** Whenever an enemy deals damage to you with a melee weapon as part of a flanking attack or sneak attack, you can make a combat maneuver check to disarm against that opponent as an immediate action. You must have at least one hand free when you use this feat. When you use this feat, you take a -4 penalty to your AC until your next turn. You can only use this feat once per round."
+			"**Benefit:** Whenever an enemy deals damage to you with a melee weapon as part of a {rule/flanking} attack or sneak attack, you can make a combat maneuver check to {rule/disarm} against that opponent as an immediate action. You must have at least one hand free when you use this feat. When you use this feat, you take a -4 penalty to your AC until your next turn. You can only use this feat once per round."
 		]
 	},
 	"hollow_soul": {
@@ -2837,7 +2837,7 @@
 			"",
 			"You can temporarily replace your soul with a fragment of the all-consuming void of Abaddon.  ",
 			"**Prerequisites:** Knowledge (planes) 9 ranks.  ",
-			"**Benefit:** As a move action, you can enter a state of emotional and spiritual hollowness. While in this state, you react to positive and negative energy as if you were undead: positive energy harms you, while negative energy heals you. Whenever you are targeted by an effect that specifically affects living creatures or undead creatures, or that affects both in different ways, you have a 50% chance to count as an undead creature rather than a living creature. You are immune to effects that specifically target your soul (such as trap the soul). However, while under the effect of this feat, you cannot benefit from beneficial mind-affecting effects, morale bonuses, or bardic performances.",
+			"**Benefit:** As a move action, you can enter a state of emotional and spiritual hollowness. While in this state, you react to positive and negative energy as if you were undead: positive energy harms you, while negative energy heals you. Whenever you are targeted by an effect that specifically affects living creatures or undead creatures, or that affects both in different ways, you have a 50% chance to count as an undead creature rather than a living creature. You are immune to effects that specifically target your soul (such as {spell/trap the soul}). However, while under the effect of this feat, you cannot benefit from beneficial mind-affecting effects, morale bonuses, or {ability/bardic performance/s}.",
 			"",
 			"You can use this feat's benefit for a number of minutes per day equal to your ranks in Knowledge (planes). These minutes need not be consecutive, but they must be spent in 1-minute increments."
 		]
@@ -2852,21 +2852,21 @@
 			"",
 			"You have found new and effective uses for holy water in combating the undead.  ",
 			"**Prerequisites:** Base attack bonus +1, Knowledge (religion) 3 ranks.  ",
-			"**Benefit:** In addition to holy water's normal uses, you can use holy water to create a variety of other effects, which are listed below. To use holy water in a particular way, you must meet the additional requirements of that effect, such as a particular feat, ranks in a specific skill, or the ability to cast a certain spell (specified after the effect's name). Unless otherwise specified, using any of these abilities consumes one vial of holy water.",
+			"**Benefit:** In addition to {eq-weapon/holy water/'s} normal uses, you can use holy water to create a variety of other effects, which are listed below. To use holy water in a particular way, you must meet the additional requirements of that effect, such as a particular feat, ranks in a specific skill, or the ability to cast a certain spell (specified after the effect's name). Unless otherwise specified, using any of these abilities consumes one vial of holy water.",
 			"",
-			"**Blinding Water (Improved Precise Shot):** By uttering a short prayer as swift action, you can empower a vial of holy water with blinding light. If you successfully throw that vial of holy water and land a direct hit against an undead creature by the end of your next turn, the target takes damage from the holy water as normal and also becomes blinded (Reflex DC 13 negates blindness). This even affects creatures that do not have eyes such as skeletons, but not creatures that don't rely on vision.",
-			"",
-			"**Concentrate Holy Water (Craft [alchemy] 4 ranks):** Through alchemical processes, you can refine multiple doses of holy water into a single hyperpotent dose. To do so, you must possess two or more flasks of holy water and you must succeed at a Craft (alchemy) check that takes 10 minutes of uninterrupted time. The DC of the Craft (alchemy) check is equal to 15 + 2 &times; the number of doses of holy water you are combining. For example, combining three flasks of holy water would require a successful DC 21 Craft (alchemy) check. Success means you combine all of the doses into a single concentrated flask of holy water. If you fail the check by 4 or less, the distillation process failed and must be tried again. If you fail the check by 5 or more, the distillation process failed and all of the doses of holy water are wasted. The maximum number of doses of holy water you can combine is equal to half the number of ranks you possess in Craft (alchemy).",
-			"",
-			"A direct hit with a flask of concentrated holy water deals 2d4 points of damage + 2 points of damage &times; the number of doses of holy water used to an undead creature or an evil outsider. Undead creatures and evil outsiders within 5 feet of where the flask hits take 1 point of damage + 1 point of damage &times; the number of doses of holy water used. For example, a flask of concentrated holy water made of 3 doses of holy water would deal 2d4+6 points of damage on a direct hit, and 4 points of damage to undead creatures and evil outsiders within 5 feet of the target.",
-			"",
-			"**Healing Glyph (ability to cast glyph of warding):** You can replace the diamond material component in a glyph of warding spell with a vial of holy water. When you do so, you must place a spell glyph containing a conjuration (healing) spell of 3rd level or lower, which can be designed to benefit allies or harm undead.",
-			"",
-			"**Healing Water (Heal 5 ranks):** You can use holy water for curative purposes. When you pour a vial of holy water over your hands, you gain a +4 bonus on Heal checks to perform first aid, treat wounds, treat poison, or treat disease in the next hour. Additionally, once per day you can drink a vial of holy water to heal yourself of 1d8 points of damage.",
-			"",
-			"**Holy Circle (ability to cast magic circle against evil):** You can replace the silver material component of a {spell/magic circle against evil} spell with a vial of holy water. When you do so, the duration of the spell increases 20 minutes per level instead of 10 minutes, and the Spellcraft DC to add a special diagram to the circle is 15 instead of 20.",
-			"",
-			"**Holy Water Splash (Point-Blank Shot):** When you throw a flask of holy water, creatures in the area of the holy water's splash radius take 1 additional point of damage as long as they are within 30 feet of you. This ability does not stack with other effects that increase the damage dealt to creatures within the splash radius of holy water, such as the concentrate holy water ability of this feat or the {spell/empower holy water} spell."
+			">**Blinding Water ({feat/Improved Precise Shot}):** By uttering a short prayer as swift action, you can empower a vial of holy water with blinding light. If you successfully throw that vial of holy water and land a direct hit against an undead creature by the end of your next turn, the target takes damage from the holy water as normal and also becomes {misc/blinded} (Reflex DC 13 negates blindness). This even affects creatures that do not have eyes such as {template/skeleton/s}, but not creatures that don't rely on vision.",
+			">",
+			">**Concentrate Holy Water (Craft [alchemy] 4 ranks):** Through alchemical processes, you can refine multiple doses of holy water into a single hyperpotent dose. To do so, you must possess two or more flasks of holy water and you must succeed at a Craft (alchemy) check that takes 10 minutes of uninterrupted time. The DC of the Craft (alchemy) check is equal to 15 + 2 &times; the number of doses of holy water you are combining. For example, combining three flasks of holy water would require a successful DC 21 Craft (alchemy) check. Success means you combine all of the doses into a single concentrated flask of holy water. If you fail the check by 4 or less, the distillation process failed and must be tried again. If you fail the check by 5 or more, the distillation process failed and all of the doses of holy water are wasted. The maximum number of doses of holy water you can combine is equal to half the number of ranks you possess in Craft (alchemy).",
+			">",
+			">A direct hit with a flask of concentrated holy water deals 2d4 points of damage + 2 points of damage &times; the number of doses of holy water used to an undead creature or an evil outsider. Undead creatures and evil outsiders within 5 feet of where the flask hits take 1 point of damage + 1 point of damage &times; the number of doses of holy water used. For example, a flask of concentrated holy water made of 3 doses of holy water would deal 2d4+6 points of damage on a direct hit, and 4 points of damage to undead creatures and evil outsiders within 5 feet of the target.",
+			">",
+			">**Healing Glyph (ability to cast {spell/glyph of warding}):** You can replace the diamond material component in a *glyph of warding* spell with a vial of holy water. When you do so, you must place a spell glyph containing a conjuration (healing) spell of 3rd level or lower, which can be designed to benefit allies or harm undead.",
+			">",
+			">**Healing Water (Heal 5 ranks):** You can use holy water for curative purposes. When you pour a vial of holy water over your hands, you gain a +4 bonus on Heal checks to perform first aid, treat wounds, treat poison, or treat disease in the next hour. Additionally, once per day you can drink a vial of holy water to heal yourself of 1d8 points of damage.",
+			">",
+			">**Holy Circle (ability to cast {spell/magic circle against evil}):** You can replace the silver material component of a *magic circle against evil* spell with a vial of holy water. When you do so, the duration of the spell increases 20 minutes per level instead of 10 minutes, and the Spellcraft DC to add a special diagram to the circle is 15 instead of 20.",
+			">",
+			">**Holy Water Splash ({feat/Point-Blank Shot}):** When you throw a flask of holy water, creatures in the area of the holy water's splash radius take 1 additional point of damage as long as they are within 30 feet of you. This ability does not stack with other effects that increase the damage dealt to creatures within the splash radius of holy water, such as the *concentrate holy water* ability of this feat or the {spell/empower holy water} spell."
 		]
 	},
 	"hook_fighter": {
@@ -2879,7 +2879,7 @@
 			"",
 			"In your deft hands, a climbing tool becomes a deadly weapon.  ",
 			"**Prerequisites:** Base attack bonus +1.  ",
-			"**Benefit:** You treat a grappling hook as a one-handed weapon that deals piercing damage equal to a heavy pick of its size and that has the disarm and trip special weapon features. You do not incur penalties as you would for using a grappling hook as an improvised weapon. If you are proficient with whips and your grappling hook has at least 10 feet of rope or chain attached to it, you can treat it as a two-handed melee weapon with 15-foot reach, though you can use it against foes anywhere within your reach (including adjacent foes), though you don't threaten any squares with it. Changing between using a grappling hook as a normal weapon and a reach weapon is a move action. When performing a reposition maneuver with a grappling hook, you can only move the target toward you from its original position."
+			"**Benefit:** You treat a {eq-misc/grappling hook} as a one-handed weapon that deals piercing damage equal to a {eq-weapon/heavy pick} of its size and that has the {misc/disarm} and {misc/trip} special weapon features. You do not incur penalties as you would for using a grappling hook as an {misc/improvised weapon}. If you are proficient with {eq-weapon/whip/s} and your grappling hook has at least 10 feet of rope or chain attached to it, you can treat it as a two-handed melee weapon with 15-foot reach, though you can use it against foes anywhere within your reach (including adjacent foes), though you don't threaten any squares with it. Changing between using a grappling hook as a normal weapon and a reach weapon is a move action. When performing a {rule/reposition} maneuver with a grappling hook, you can only move the target toward you from its original position."
 		]
 	},
 	"horde_charge": {
@@ -2892,7 +2892,7 @@
 			"",
 			"When you charge with an ally, you are more deadly.  ",
 			"**Prerequisites:** Base attack bonus +1, {race/half-orc} or {race/orc}.  ",
-			"**Benefit:** When charging during the same round as an ally with this feat, you gain a +2 bonus on attack and damage rolls in addition to the normal bonus for charging. If you can make multiple attacks on a charge, this bonus only applies to the first attack."
+			"**Benefit:** When charging during the same round as an ally with this feat, you gain a +2 bonus on attack and damage rolls in addition to the normal bonus for charging. If you can make multiple attacks on a {rule/charge}, this bonus only applies to the first attack."
 		]
 	},
 	"horn_of_the_criosphinx": {
@@ -2921,8 +2921,8 @@
 			"",
 			"You can defend yourself using the horn or tusk of a creature you're lashed to.  ",
 			"**Prerequisites:** Base attack bonus +1.  ",
-			"**Benefit:** You gain a +1 shield bonus to AC when lashed into a horn harness.  ",
-			"**Special:** A creature with this feat can take the Mounted Archery feat without possessing 1 rank in the Ride skill or the {feat/Mounted Combat} feat."
+			"**Benefit:** You gain a +1 shield bonus to AC when lashed into a {eq-misc/horn harness}.  ",
+			"**Special:** A creature with this feat can take the {feat/Mounted Archery} feat without possessing 1 rank in the Ride skill or the {feat/Mounted Combat} feat."
 		]
 	},
 	"horn_riders_charge": {
@@ -2935,7 +2935,7 @@
 			"",
 			"When the animal you're lashed to charges, you use its momentum in your own attack.  ",
 			"**Prerequisites:** {feat/Horn Rider}, base attack bonus +1.  ",
-			"**Benefit:** Whenever you're lashed into a horn harness and you ready an action to make a melee attack against the target of a charge made by the creature you're lashed to, you gain the attack bonus for charging and your attack deals double damage (or triple damage with a lance). This benefit does not stack with the benefit of Spirited Charge."
+			"**Benefit:** Whenever you're lashed into a {eq-misc/horn harness} and you ready an action to make a melee attack against the target of a {rule/charge} made by the creature you're lashed to, you gain the attack bonus for charging and your attack deals double damage (or triple damage with a {eq-weapon/lance}). This benefit does not stack with the benefit of {feat/Spirited Charge}."
 		]
 	},
 	"horrific_gorging": {
@@ -2950,7 +2950,7 @@
 			"**Prerequisites:** Bite attack, Large or larger, {umr/swallow whole} universal monster ability.  ",
 			"**Benefit:** As a full-round action, you can completely consume a dead, unconscious, paralyzed, or otherwise helpless humanoid creature that you could normally swallow with your swallow whole ability. When you do, you deal bite damage as a critical hit and swallow the humanoid as your swallow whole special ability.",
 			"",
-			"Allies of the swallowed creature within 30 feet that can see you indulge in this horrific feast must succeed at a Will save (DC = 10 + 1/2 your Hit Dice + your Charisma modifier) to avoid being shaken for 1d4 rounds. This part of the ability is a mind-affecting fear effect."
+			"Allies of the swallowed creature within 30 feet that can see you indulge in this horrific feast must succeed at a Will save (DC = 10 + 1/2 your Hit Dice + your Charisma modifier) to avoid being {misc/shaken} for 1d4 rounds. This part of the ability is a mind-affecting fear effect."
 		]
 	},
 	"horse_master": {
@@ -2986,7 +2986,7 @@
 			"You take Grand Prince Beldam I's insistence upon the resilience of simple creatures to heart, emulating them to shield yourself from complex mental effects.  ",
 			"**Prerequisites:** Wis 15, {feat/Iron Will}.",
 			"",
-			"When you attempt a saving throw against an enchantment effect that cannot affect an animal (such as charm person), you can roll the saving throw twice and take the better result."
+			"When you attempt a saving throw against an enchantment effect that cannot affect an animal (such as {spell/charm person}), you can roll the saving throw twice and take the better result."
 		]
 	},
 	"horse_whisperer": {
@@ -3026,8 +3026,8 @@
 			"{SOURCE Blood of the Beast/13}",
 			"",
 			"You have the ability to perfectly emulate a human.  ",
-			"**Prerequisites:** Change shape ability, shapechanger subtype, must be able to change shape into a human or must have a true form that appears human.  ",
-			"**Benefit:** You count as both human and your race for the purpose of taking character options, such as archetypes, feats, spells, traits, and prestige classes. In addition, you count as human for all other effects whenever you would otherwise appear human. For instance, a +1 human bane arrow would deal additional damage to a kitsune with this feat while she was in her human form (as per change shape), but not in her true form. Likewise, such an arrow would deal additional damage to a skinwalker with this feat while she was in her true form, but would not in her bestial form (as per change shape)."
+			"**Prerequisites:** {umr/Change shape} ability, shapechanger subtype, must be able to change shape into a human or must have a true form that appears human.  ",
+			"**Benefit:** You count as both human and your race for the purpose of taking character options, such as archetypes, feats, spells, traits, and prestige classes. In addition, you count as human for all other effects whenever you would otherwise appear human. For instance, a +1 human {magic-enh/bane} arrow would deal additional damage to a {race/kitsune} with this feat while she was in her human form (as per change shape), but not in her true form. Likewise, such an arrow would deal additional damage to a {race/skinwalker} with this feat while she was in her true form, but would not in her bestial form (as per change shape)."
 		]
 	},
 	"human_spirit": {
@@ -3067,7 +3067,7 @@
 			"",
 			"You are an expert trainer of horses, hounds, falcons, or hunting cats.  ",
 			"**Prerequisites:** Handle Animal 1 rank; either the animal companion, divine bond (mount), or mount class feature; {race/human}.  ",
-			"**Benefit:** If you have the animal companion class feature, pick one of the following types of animal companions that this feat affects: bird, dog, small cat, or horse. If you have the divine bond (mount) or mount class feature, this feat always affects horses.",
+			"**Benefit:** If you have the {ability/animal companion} class feature, pick one of the following types of animal companions that this feat affects: {companion/bird}, {companion/dog}, {companion/small cat}, or {companion/horse}. If you have the divine bond (mount) or mount class feature, this feat always affects horses.",
 			"",
 			"You gain a +2 bonus on Handle Animal and Knowledge (nature) checks with creatures of that type of animal. Furthermore, you are treated as one level higher when determining the abilities of your animal companion or mount, as long as it is of the chosen type."
 		]
@@ -3082,7 +3082,7 @@
 			"",
 			"Your fast strikes hit with the force of a hurricane, pushing your foes away.  ",
 			"**Prerequisites:** Str 13, {feat/Improved Bull Rush}, {feat/Improved Unarmed Strike}, {feat/Power Attack}.  ",
-			"**Benefit:** When you hit the same creature with unarmed strikes at least twice in the same round, you can attempt a bull rush combat maneuver against that creature as a swift action. You can also move with the target even if you have no movement remaining, but the distance you move can't exceed half your speed."
+			"**Benefit:** When you hit the same creature with unarmed strikes at least twice in the same round, you can attempt a {rule/bull rush} combat maneuver against that creature as a swift action. You can also move with the target even if you have no movement remaining, but the distance you move can't exceed half your speed."
 		]
 	},
 	"hurtful": {
@@ -3095,7 +3095,7 @@
 			"",
 			"You know how to add injury to insult.  ",
 			"**Prerequisites:** Str 13, {feat/Power Attack}.  ",
-			"**Benefit:** When you successfully demoralize an opponent within your melee reach with an Intimidate check, you can make a single melee attack against that creature as a swift action. If your attack fails to damage the target, its shaken condition from being demoralized immediately ends."
+			"**Benefit:** When you successfully demoralize an opponent within your melee reach with an {skill/Intimidate} check, you can make a single melee attack against that creature as a swift action. If your attack fails to damage the target, its {misc/shaken} condition from being demoralized immediately ends."
 		]
 	},
 	"hydraulic_maneuver": {
@@ -3108,7 +3108,7 @@
 			"",
 			"You can use your hydraulic push to disarm or trip.  ",
 			"**Prerequisites:** Hydraulic push spell-like ability, {race/undine}.  ",
-			"**Benefit:** You may use hydraulic push to attempt a bull rush, disarm, dirty trick, or trip combat maneuver. Each time you use hydraulic push, you must decide which of the allowed combat maneuvers you want to perform. You may use this feat with your hydraulic push racial spell-like ability, your class-granted use of hydraulic push, or any hydraulic push spells you cast, but not with magic items or other external sources that use that spell.  ",
+			"**Benefit:** You may use *hydraulic push* to attempt a {rule/bull rush}, {rule/disarm}, {rule/dirty trick}, or {rule/trip} combat maneuver. Each time you use hydraulic push, you must decide which of the allowed combat maneuvers you want to perform. You may use this feat with your hydraulic push racial spell-like ability, your class-granted use of hydraulic push, or any hydraulic push spells you cast, but not with magic items or other external sources that use that spell.  ",
 			"**Normal:** Hydraulic push can only be used to make a bull rush combat maneuver."
 		]
 	},
@@ -3135,7 +3135,7 @@
 			"",
 			"Your music is infused with your faith.  ",
 			"**Prerequisites:** {ability/Bardic performance}, good alignment, worshiper of a good deity.  ",
-			"**Benefit:** When using bardic performance, you may choose to play, recite, or sing a religious song or piece of scripture of your faith. Each round of bardic performance you spend in this way, you count as presenting a holy symbol, chanting prayers, or ringing a hand bell for the purpose of keeping vampires at bay."
+			"**Benefit:** When using bardic performance, you may choose to play, recite, or sing a religious song or piece of scripture of your faith. Each round of bardic performance you spend in this way, you count as presenting a holy symbol, chanting prayers, or ringing a hand bell for the purpose of keeping {template/vampire/s} at bay."
 		]
 	},
 	"ice_climber": {
@@ -3148,7 +3148,7 @@
 			"",
 			"You can move or clamber across slippery surfaces with great skill.  ",
 			"**Prerequisites:** {feat/Arctic Adaptation} or {feat/Mountaineer}; Climb 2 ranks.  ",
-			"**Benefit:** When moving across a slippery surface (including but not limited to icy surfaces), you gain a +5 bonus on Climb checks and on Acrobatics checks to maintain your balance. If you fail a Climb check, you fall only if you fail the check by 10 or more. You also gain a +5 bonus on Perception checks to notice an avalanche and a +2 circumstance bonus on Reflex saves to avoid an avalanche."
+			"**Benefit:** When moving across a slippery surface (including but not limited to icy surfaces), you gain a +5 bonus on Climb checks and on Acrobatics checks to maintain your balance. If you fail a Climb check, you fall only if you fail the check by 10 or more. You also gain a +5 bonus on Perception checks to notice an {rule/avalanche>s} and a +2 circumstance bonus on Reflex saves to avoid an avalanche."
 		]
 	},
 	"iconoclast": {
@@ -3161,7 +3161,7 @@
 			"",
 			"You know how to turn a holy symbol into a weapon against her followers.  ",
 			"**Prerequisites:** {feat/Divine Defiance}, {feat/Improved Sunder}, {feat/Power Attack}, Intimidate 3 ranks.  ",
-			"**Benefit:** When you succeed at a sunder combat maneuver against a holy or unholy symbol, you can attempt an Intimidate check to demoralize as a free action. This demoralization affects all followers of the deity or philosophy whose symbol you sundered who saw you sunder it and are within 30 feet. If you destroyed the symbol, you gain a +5 bonus on your Intimidate check. You can use this feat when sundering any physical holy symbol - it doesn't have to be the hand-held variety commonly used by clerics and other divine spellcasters."
+			"**Benefit:** When you succeed at a {rule/sunder} combat maneuver against a holy or unholy symbol, you can attempt an Intimidate check to demoralize as a free action. This demoralization affects all followers of the deity or philosophy whose symbol you sundered who saw you sunder it and are within 30 feet. If you destroyed the symbol, you gain a +5 bonus on your Intimidate check. You can use this feat when sundering any physical holy symbol - it doesn't have to be the hand-held variety commonly used by clerics and other divine spellcasters."
 		]
 	},
 	"icy_stare": {
@@ -3189,7 +3189,7 @@
 			"",
 			"You can weave figments with illusion magic items.  ",
 			"**Prerequisites:** Use Magic Device 2 ranks, base Fortitude save bonus +4.  ",
-			"**Benefit:** You can cause an item that has an illusion spell of 1st level or higher in its construction requirements to cast minor image. You can use this feat once per day, plus an additional time per day at base Fortitude save bonus +6, +8, +10, and +12."
+			"**Benefit:** You can cause an item that has an illusion spell of 1st level or higher in its construction requirements to cast {spell/minor image}. You can use this feat once per day, plus an additional time per day at base Fortitude save bonus +6, +8, +10, and +12."
 		]
 	},
 	"illusive_gnome_bewilderment": {
@@ -3228,7 +3228,7 @@
 			"",
 			"You can use gnome weapons in unusual ways.  ",
 			"**Prerequisites:** Int 13, {feat/Combat Expertise}, {feat/Gnome Weapon Focus}, {feat/Illusive Gnome Style}, {feat/Improved Feint}.  ",
-			"**Benefit:** While using Illusive Gnome Style, you gain a +2 bonus on combat maneuver checks to perform dirty tricks and on Bluff checks to feint. In addition, when you successfully use Bluff to feint against a foe, instead of denying that foe its Dexterity bonus to AC, you can treat one \"gnome\" weapon that you are wielding as if it had one of the following weapon special features: blocking, brace, disarm, distracting, performance, sunder, or trip. This benefit applies only against that foe and lasts for a number of rounds equal to your Charisma modifier (minimum 1)."
+			"**Benefit:** While using Illusive Gnome Style, you gain a +2 bonus on combat maneuver checks to perform dirty tricks and on Bluff checks to feint. In addition, when you successfully use Bluff to feint against a foe, instead of denying that foe its Dexterity bonus to AC, you can treat one \"gnome\" weapon that you are wielding as if it had one of the following weapon special features: {misc/blocking}, {misc/brace}, {misc/disarm}, {misc/distracting}, {misc/performance}, {misc/sunder}, or {misc/trip}. This benefit applies only against that foe and lasts for a number of rounds equal to your Charisma modifier (minimum 1)."
 		]
 	},
 	"impact_critical_shot": {
@@ -3244,7 +3244,7 @@
 			"",
 			"With a series of ranged attacks, you bring your foes to their knees or force them to move.  ",
 			"**Prerequisites:** Dex 13, {feat/Point-Blank Shot}, base attack bonus +9.  ",
-			"**Benefit:** Whenever you score a critical hit with a ranged attack, in addition to the normal damage your attack deals, if your confirmation roll exceeds your opponent's CMD, you can push your opponent back as if from the bull rush combat maneuver or knock that target prone as if from a trip combat maneuver. If you choose to bull rush, you cannot move with the target. Your maneuver does not provoke an attack of opportunity.  ",
+			"**Benefit:** Whenever you score a critical hit with a ranged attack, in addition to the normal damage your attack deals, if your confirmation roll exceeds your opponent's CMD, you can push your opponent back as if from the {rule/bull rush} combat maneuver or knock that target {rule/prone} as if from a {rule/trip} combat maneuver. If you choose to bull rush, you cannot move with the target. Your maneuver does not provoke an attack of opportunity.  ",
 			"**Normal:** You must perform a bull rush combat maneuver to bull rush an opponent, and you must perform a trip combat maneuver to trip an opponent.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -3308,12 +3308,12 @@
 			"{SOURCE Ultimate Magic/152}",
 			"",
 			"You can attach a bomb to a creature that explodes when the creature dies or after 24 hours.  ",
-			"**Prerequisites:** Heal 5 ranks, delayed bomb alchemist discovery.  ",
-			"**Benefit:** You may implant a bomb in a willing or helpless creature (a mindless creature under your control, such as a zombie, counts as willing for this purpose). This takes 1 hour and expends 1 use of your bomb ability for the day. When the implanted creature dies or is destroyed, the bomb detonates in the creature's square as if it were a delayed bomb set by you (though you can set the bomb's damage to less than your normal bomb damage). You can use any bomb-affecting discoveries on this implanted bomb (acid bomb, frost bomb, smoke bomb, and so on) as normal. The bomb automatically detonates 24 hours after you implant it in the creature.",
+			"**Prerequisites:** Heal 5 ranks, {discovery/delayed bomb} alchemist discovery.  ",
+			"**Benefit:** You may implant a bomb in a willing or helpless creature (a mindless creature under your control, such as a {template/zombie}, counts as willing for this purpose). This takes 1 hour and expends 1 use of your bomb ability for the day. When the implanted creature dies or is destroyed, the bomb detonates in the creature's square as if it were a delayed bomb set by you (though you can set the bomb's damage to less than your normal bomb damage). You can use any bomb-affecting discoveries on this implanted bomb ({discovery/acid bomb}, {discovery/frost bomb}, {discovery/smoke bomb}, and so on) as normal. The bomb automatically detonates 24 hours after you implant it in the creature.",
 			"",
 			"If you expend 150 gp worth of alchemical reagents per die of the bomb's damage (for example, 750 gp for a 5d6 bomb), the bomb does not automatically detonate after 24 hours, and only detonates if the creature dies or is destroyed (24 hours after implantation, this bomb no longer counts toward your daily total).",
 			"",
-			"Implanting a bomb is as invasive as using the Heal skill to treat deadly wounds and leaves surgical scars unless the creature is healed by magic or abilities such as regeneration or fast healing. Some creatures (such as oozes, elementals, and creatures with the incorporeal quality) cannot have bombs implanted in them. Removing an implanted bomb requires a Heal check to treat deadly wounds, followed by a {spell/dispel magic} spell or Disable Device check to neutralize the bomb (DC = 11 + alchemist's caster level)."
+			"Implanting a bomb is as invasive as using the {skill/Heal} skill to treat deadly wounds and leaves surgical scars unless the creature is healed by magic or abilities such as {umr/regeneration} or {umr/fast healing}. Some creatures (such as oozes, elementals, and creatures with the incorporeal quality) cannot have bombs implanted in them. Removing an implanted bomb requires a Heal check to treat deadly wounds, followed by a {spell/dispel magic} spell or Disable Device check to neutralize the bomb (DC = 11 + alchemist's caster level)."
 		]
 	},
 	"implement_focus": {
@@ -3326,7 +3326,7 @@
 			"",
 			"You are more adept at spending generic focus on focus powers from your chosen school.  ",
 			"**Prerequisites:** Occultist level 3rd.  ",
-			"**Benefit:** Select one of your implement schools. When you spend generic focus to activate focus powers with one of that school's implements, the focus powers cost their listed amount of mental focus.  ",
+			"**Benefit:** Select one of your {ability/implement[ school]s}. When you spend generic focus to activate focus powers with one of that school's implements, the focus powers cost their listed amount of mental focus.  ",
 			"**Normal:** Any focus power activated with generic focus costs twice as much focus to use and maintain.  ",
 			"**Special:** You can take this feat multiple times. Each time, you must select a different implement school."
 		]
@@ -3341,8 +3341,8 @@
 			"",
 			"You can use your implements to unlock secrets of mastering relics and other items of power.  ",
 			"**Prerequisites:** Implements class feature, mental focus class feature.  ",
-			"**Benefit:** For the purposes of using item mastery feats, you treat your implements as magic items with all spells that you know from each implement's associated implement school functioning as their effective construction requirements. When using an implement to activate an item mastery feat, you can spend a number of points of mental focus equal to half of the feat's base Fortitude save bonus prerequisite to activate the feat without counting the use against the item mastery feat's total number of daily uses.  ",
-			"**Special:** An occultist who has this feat can select item mastery feats in place of focus powers, provided he meets the feats' prerequisites."
+			"**Benefit:** For the purposes of using {main/feats_<item mastery/ feats}, you treat your {ability/implements} as magic items with all spells that you know from each implement's associated implement school functioning as their effective construction requirements. When using an implement to activate an item mastery feat, you can spend a number of points of mental focus equal to half of the feat's base Fortitude save bonus prerequisite to activate the feat without counting the use against the item mastery feat's total number of daily uses.  ",
+			"**Special:** An {class/occultist} who has this feat can select item mastery feats in place of focus powers, provided he meets the feats' prerequisites."
 		]
 	},
 	"imposing_bearing": {
@@ -3355,7 +3355,7 @@
 			"",
 			"Your armor allows you to push your opponents around.  ",
 			"**Prerequisites:** {feat/Poised Bearing}, base attack bonus +11 or fighter level 8th, armor training class feature, proficiency with heavy armor.  ",
-			"**Benefit:** You treat your size as two categories larger for the purposes of determining the size of creatures against which you can attempt bull rush, drag, overrun, and trip combat maneuvers.",
+			"**Benefit:** You treat your size as two categories larger for the purposes of determining the size of creatures against which you can attempt {rule/bull rush}, {rule/drag}, {rule/overrun}, and {rule/trip} combat maneuvers.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Armor Master's Handbook/20}",
@@ -3373,7 +3373,7 @@
 			"",
 			"Your mastery of ranged weapons allows you to perform impressive deeds.  ",
 			"**Prerequisites:** Base attack bonus +11, weapon training class feature with a ranged weapon.  ",
-			"**Benefit:** Select one of the following gunslinger deeds: dead shot, startling shot, or targeting. You can perform the selected deed a number of times per day equal to your highest mental ability score modifier (Intelligence, Wisdom, or Charisma; minimum 1). You can use this deed with an appropriate ranged weapon. If you also have the selected deed as a class feature, reduce the number of grit points that you need to use it by 1, as per the Signature Deed feat.  ",
+			"**Benefit:** Select one of the following gunslinger deeds: {deed/dead shot}, {deed/startling shot}, or {deed/targeting}. You can perform the selected deed a number of times per day equal to your highest mental ability score modifier (Intelligence, Wisdom, or Charisma; minimum 1). You can use this deed with an appropriate ranged weapon. If you also have the selected deed as a class feature, reduce the number of grit points that you need to use it by 1, as per the {feat/Signature Deed} feat.  ",
 			"**Special:** You can select Impressive Grit up to three times. Each time you select it, choose a different gunslinger deed. A gunslinger can ignore the weapon training class feature prerequisite of Impressive Grit."
 		]
 	},

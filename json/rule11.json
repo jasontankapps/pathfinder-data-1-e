@@ -1328,7 +1328,7 @@
 			"",
 			"Forests and jungles are, in the broadest possible terms, places where a significant number of trees grow and where a wide variety of other plants and animals live and thrive. The type of forest changes by latitude and terrain, ranging from sparse evergreens and other conifers in the coldest and highest parts of the world to dense, broadleaf jungle in the tropics. The strength of a forest's canopy should be determined - if the canopy creates too much shadow on the ground below, it can prevent the growth of underbrush. Leafier and more mature trees cast greater shadows, and thus more of the forest's inhabitants may live in the trees.",
 			"",
-			"{rule/Forest terrain/ is described here,} but when adventuring in the forest or jungle, some possible encounters might also incorporate {rule/darkness}, [falling branches or trees](rule/falling_objects), {rule/fog}, [forest fires and smoke](rule/forest_fires), or swampy terrain. In addition, trees and undergrowth can provide {rule/cover} and {rule/concealment}."
+			"{rule/Forest terrain/ is described here,} but when adventuring in the forest or jungle, some possible encounters might also incorporate {rule/darkness}, [falling branches or trees](rule/falling_objects), {rule/fog}, {rule/forest fires/ and smoke}, or swampy terrain. In addition, trees and undergrowth can provide {rule/cover} and {rule/concealment}."
 		],
 		"parent_topics": [
 			"gamemastery",
@@ -1356,7 +1356,7 @@
 			"",
 			"Hills can be of many different types. They might be rolling hills in a broad grassland, or they can be the transitional point between plains and more rugged mountains. They could be small, craggy bluffs or smooth, gentle slopes. Much depends on the terrain surrounding the hilly area. Streams or rivers may wind between the hills, cutting their banks. If the hills are the tallest features in an area, they are of immense strategic value: anyone who occupies them can see farther than would-be enemies.",
 			"",
-			"{rule/Hills terrain/ is described here}; hills also provide a good setting for both natural caves and dungeons. Additional environmental hazards for hill encounters include {rule/avalanches}, the danger of [falls](rule/falling), [icy terrain](rule/cold_dangers), inclement {rule/weather}, rivers and streams, and [rubble](rule/floors). Hills used as defensive positions might also incorporate trenches and berms."
+			"{rule/Hills terrain/ is described here}; hills also provide a good setting for both natural caves and dungeons. Additional environmental hazards for hill encounters include {rule/avalanches}, the danger of {rule/fall/s>ing}, [icy terrain](rule/cold_dangers), inclement {rule/weather}, rivers and streams, and [rubble](rule/floors). Hills used as defensive positions might also incorporate trenches and berms."
 		],
 		"parent_topics": [
 			"gamemastery",
@@ -1440,7 +1440,7 @@
 			"",
 			"Plains are large swaths of flat terrain with few trees. Several types of plains exist in different climates: prairie, savanna, steppe, and the like. The most common place for people to live, plains serve as farmlands, enabling the growth of culture on a huge number of levels. Because plains are so valuable, they are frequently contested, and those who rule the plains defend their turf ferociously. Because they are relatively flat and easy to traverse, plains also make convenient battlefields, as they afford the room needed for large-scale maneuvers. Lakes, ponds, rivers, streams, irrigation ditches, and other natural and man-made features divide plains and serve as impediments to travel.",
 			"",
-			"{rule/Plains terrain/ is described here.} With few terrain features to shield them, plains are often beset by {rule/high |winds}, causing {rule/dust |storms} and even tornadoes. Grassfires are also a danger (treat as [forest fires](rule/forest_fires)), and they can cause normally placid herd animals to stampede, effectively granting them the {umr/stampede and |trample} special abilities."
+			"{rule/Plains terrain/ is described here.} With few terrain features to shield them, plains are often beset by {rule/high |winds}, causing {rule/dust |storms} and even tornadoes. Grassfires are also a danger (treat as {rule/forest fires}), and they can cause normally placid herd animals to stampede, effectively granting them the {umr/stampede and |trample} special abilities."
 		],
 		"parent_topics": [
 			"gamemastery",
@@ -3575,7 +3575,7 @@
 			"",
 			"### Magnetized Ore (CR 2)",
 			"",
-			"The strange energies of the subterranean world can charge rocks and veins of ore with powerful magnetic fields, creating a hazard for anyone carrying or wearing ferrous metals. Any steel or iron brought within 20 feet of the ore is drawn toward it. Medium-sized creatures carrying 30 or more pounds of ferrous metal are pulled toward the ore as if by the {umr/pull} special ability. The ore has an effective CMB of +7 and CMD 17. Small creatures are pulled if they have 15 pounds of metal, Large if they have at least 60 pounds. For creatures of other sizes, modify the weight required as per the rules for {rule/carrying capacity}. Creatures wearing metallic armor suffer a penalty to their CMD to resist the pull (-2 for medium armor, -4 for heavy armor). Affected creatures are pulled up to 20 feet and slammed against the rock for 2d6 points of damage and gain the [grappled](rule/grapple_conditions) condition. Creatures not carrying large amounts of metal but holding metal items in their hands are affected by a {rule/disarm} maneuver as the items are ripped free. Freeing a stuck item requires a successful {rule/grapple/ check} against the ore's CMD.",
+			"The strange energies of the subterranean world can charge rocks and veins of ore with powerful magnetic fields, creating a hazard for anyone carrying or wearing ferrous metals. Any steel or iron brought within 20 feet of the ore is drawn toward it. Medium-sized creatures carrying 30 or more pounds of ferrous metal are pulled toward the ore as if by the {umr/pull} special ability. The ore has an effective CMB of +7 and CMD 17. Small creatures are pulled if they have 15 pounds of metal, Large if they have at least 60 pounds. For creatures of other sizes, modify the weight required as per the rules for {rule/carrying capacity}. Creatures wearing metallic armor suffer a penalty to their CMD to resist the pull (-2 for medium armor, -4 for heavy armor). Affected creatures are pulled up to 20 feet and slammed against the rock for 2d6 points of damage and gain the {rule/grapple/d>_conditions} condition. Creatures not carrying large amounts of metal but holding metal items in their hands are affected by a {rule/disarm} maneuver as the items are ripped free. Freeing a stuck item requires a successful {rule/grapple/ check} against the ore's CMD.",
 			"",
 			"### Mnemonic Crystals (CR 3)",
 			"",
@@ -3585,7 +3585,7 @@
 			"",
 			"### Poison Oak (CR 1 or 3)",
 			"",
-			"Contact with poison oak (CR 1) causes a painful rash, and the resulting itch leaves the hapless victim {rule/sickened>_conditions} until the damage is healed. Full body contact or inhaling the smoke from burning poison oak is particularly dangerous, and can be fatal (CR 3). A DC 15 Knowledge (nature) check reveals this seemingly innocuous plant for what it is. This hazard can also be used for similar noxious plants such as poison ivy, poison sumac, and stinging nettles, the latter not being hazardous when burned.",
+			"Contact with poison oak (CR 1) causes a painful rash, and the resulting itch leaves the hapless victim {misc/sickened} until the damage is healed. Full body contact or inhaling the smoke from burning poison oak is particularly dangerous, and can be fatal (CR 3). A DC 15 Knowledge (nature) check reveals this seemingly innocuous plant for what it is. This hazard can also be used for similar noxious plants such as poison ivy, poison sumac, and stinging nettles, the latter not being hazardous when burned.",
 			"",
 			">#### Poison Oak (brief contact)",
 			">",

@@ -3897,7 +3897,7 @@
 			"",
 			"**4th Level:** The wearer gains a foot enhancement bonus to his base speed.",
 			"",
-			"**8th Level:** The wearer gains [woodland stride](class/druid), as the druid class ability.",
+			"**8th Level:** The wearer gains {ability/woodland stride}, as the druid class ability.",
 			"",
 			"**12th Level:** The wearer is constantly under the effect of {spell/endure elements} and is automatically considered [acclimated to high altitudes](rule/mountain_travel). Should the {spell/endure elements} effect be dispelled, he can resume it as a free action.",
 			"",
@@ -3923,7 +3923,7 @@
 			"",
 			"**6th Level:** The bearer increases the bonus she grants from the aid another action by 1. This does not stack with the benefits of other feats or class features that improve the bonus she grants to an ally with aid another.",
 			"",
-			"**8th Level:** Once per day as a standard action, the bearer can use [inspire competence](class/bard) as if she were a bard with a level equal to her character level. The bonuses granted by this ability last until the ally completes the task he is attempting.",
+			"**8th Level:** Once per day as a standard action, the bearer can use {performance/inspire competence} as if she were a bard with a level equal to her character level. The bonuses granted by this ability last until the ally completes the task he is attempting.",
 			"",
 			"**11th Level:* The bearer is constantly aware of the position and condition (as {spell/status}) of anyone who has activated an ioun stone attuned to the wayfinder of cooperation.",
 			"",
@@ -4202,7 +4202,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [belt of mighty constitution (any)](magic-wondrous/belt_of_mighty_constitution_4); **Cost** -"
+			"**Requirements** {magic-wondrous/belt of mighty constitution /(any)>4}; **Cost** -"
 		]
 	},
 	"book_of_perilous_journeys": {

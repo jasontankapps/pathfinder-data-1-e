@@ -9,11 +9,11 @@
 			"",
 			"You can craft magical tattoos.  ",
 			"**Prerequisites:** Craft (calligraphy, paintings, or tattoos) 5 ranks, caster level 5th  ",
-			"**Benefit:** You can create magical tattoos, magic items inked directly into the flesh of a willing or helpless creature. Both you and the recipient of the tattoo (if the recipient is not yourself) must be present during the entire tattooing process. Magic tattoos must be placed on a part of the body normally able to hold a magic item slot, but they do not count against or interfere with magic items worn on those slots. A single slot can only hold one magical tattoo (nonmagical tattoos and tattoos acquired from the tattooed sorcerer archetype do not count against this limit). Tattoos may be inscribed on the following slots: belt, body, chest, feet, hands, head, neck, shoulder, ring (up to two), or wrist. They cannot be inscribed on armor, eye, headband, or shield slots.",
+			"**Benefit:** You can create magical tattoos, magic items inked directly into the flesh of a willing or helpless creature. Both you and the recipient of the tattoo (if the recipient is not yourself) must be present during the entire tattooing process. Magic tattoos must be placed on a part of the body {rule/normally able to hold a |magic item/ slot>s_on_the_body}, but they do not count against or interfere with magic items worn on those slots. A single slot can only hold one magical tattoo (nonmagical tattoos and tattoos acquired from the {arc-sorcerer/tattooed sorcerer} archetype do not count against this limit). Tattoos may be inscribed on the following slots: belt, body, chest, feet, hands, head, neck, shoulder, ring (up to two), or wrist. They cannot be inscribed on armor, eye, headband, or shield slots.",
 			"",
-			"Magical tattoos are difficult to destroy, though they count as magic items for the purposes of {spell/dispel magic}. The spell erase can permanently destroy a magical tattoo, but the bearer of the tattoo can resist the spell with a Will save, in addition to the caster needing to make a successful caster level check to erase the tattoo. Physically removing a magical tattoo with a sharp instrument or defacing it with fire or acid can destroy it as well. Doing so is a full-round action that not only requires the target to be willing or helpless, but also provokes attacks of opportunity. At least 2 points of damage per caster level of the tattoo must be dealt to destroy a magical tattoo in this manner.",
+			"Magical tattoos are difficult to destroy, though they count as magic items for the purposes of {spell/dispel magic}. The spell {spell/erase} can permanently destroy a magical tattoo, but the bearer of the tattoo can resist the spell with a Will save, in addition to the caster needing to make a successful caster level check to erase the tattoo. Physically removing a magical tattoo with a sharp instrument or defacing it with fire or acid can destroy it as well. Doing so is a full-round action that not only requires the target to be willing or helpless, but also provokes attacks of opportunity. At least 2 points of damage per caster level of the tattoo must be dealt to destroy a magical tattoo in this manner.",
 			"",
-			"Magical tattoos follow the rules for magic item creation as though they were wondrous items, except that they can use the Craft (calligraphy, paintings, tattoos) skill. New magical tattoos can be researched and designed using the guidelines for pricing new magic items. Magical tattoos are treated as slotless magical items for pricing purposes."
+			"Magical tattoos follow the rules for magic item creation as though they were {rule/creating_<wondrous items}, except that they can use the Craft (calligraphy, paintings, tattoos) skill. New magical tattoos can be researched and designed using the {rule/making<guidelines for pricing new| magic items}. Magical tattoos are treated as slotless magical items for pricing purposes."
 		]
 	},
 	"insidious_healing": {
@@ -77,7 +77,7 @@
 			"",
 			"Armies under your command enjoy higher morale thanks to your excellent leadership.  ",
 			"**Prerequisites:** Charisma 13.  ",
-			"**Benefit:** You or any army that is under your command gains a +2 bonus on Morale checks. Additionally, you gain two additional boons of your choice."
+			"**Benefit:** You or any army that is under your command gains a +2 bonus on [Morale checks](rule/mass_combat_quick_reference_guide). Additionally, you gain two additional {rule/boons} of your choice."
 		]
 	},
 	"inspired_alchemy": {
@@ -102,8 +102,8 @@
 			"{SOURCE Advanced Class Guide/151}",
 			"",
 			"When spreading fear to your enemies, you further embolden your allies.  ",
-			"**Prerequisites:** Ability to perform dirge of doom.  ",
-			"**Benefit:** Allies in the area of your dirge of doom receive a +4 morale bonus on saving throws against fear effects. At least one enemy must be in the dirge's area and become shaken by the dirge for you and your allies to receive this bonus."
+			"**Prerequisites:** Ability to perform {performance/dirge of doom}.  ",
+			"**Benefit:** Allies in the area of your dirge of doom receive a +4 morale bonus on saving throws against fear effects. At least one enemy must be in the dirge's area and become {misc/shaken} by the dirge for you and your allies to receive this bonus."
 		]
 	},
 	"inspired_sneak_attack": {
@@ -116,7 +116,7 @@
 			"",
 			"Your brilliant insight makes you more dangerous in combat.  ",
 			"**Prerequisites:** Inspiration pool; {ability/sneak attack} or studied strike class feature.  ",
-			"**Benefit:** When dealing sneak attack or studied strike damage, you can expend a use of inspiration from your pool to reroll all of your sneak attack dice that resulted in 1s. If you have the powerful sneak rogue talent, rather than treat all 1s on your sneak attack damage dice as 2s, you can reroll all your sneak attack dice that resulted in 1s. If you have the deadly sneak advanced rogue talent, rather than treat all 1s and 2s on your sneak attack damage dice as 3s, you can reroll all your sneak attack damage dice that resulted in 1s or 2s. In either case, you must take the result of the rerolls, even if it's worse than the original result."
+			"**Benefit:** When dealing sneak attack or studied strike damage, you can expend a use of inspiration from your pool to reroll all of your sneak attack dice that resulted in 1s. If you have the {talent/powerful sneak} rogue talent, rather than treat all 1s on your sneak attack damage dice as 2s, you can reroll all your sneak attack dice that resulted in 1s. If you have the {talent/deadly sneak} advanced rogue talent, rather than treat all 1s and 2s on your sneak attack damage dice as 3s, you can reroll all your sneak attack damage dice that resulted in 1s or 2s. In either case, you must take the result of the rerolls, even if it's worse than the original result."
 		]
 	},
 	"inspired_strike": {
@@ -142,7 +142,7 @@
 			"",
 			"Your bravery inspires bravery in others.  ",
 			"**Prerequisites:** Cha 13, bravery class feature.  ",
-			"**Benefit:** As long as you are conscious and not stunned, dazed, or confused, allies within 30 feet who can see and hear you gain your bravery bonus on saving throws against fear. If you have Improved Bravery, they gain your bravery bonus on saving throws against all mind-affecting effects. If you have Social Bravery, your bravery bonus is added to the DC of checks to demoralize them, feint against them, change their attitude, or convince them to perform a request."
+			"**Benefit:** As long as you are conscious and not stunned, dazed, or confused, allies within 30 feet who can see and hear you gain your bravery bonus on saving throws against fear. If you have {feat/Improved Bravery}, they gain your bravery bonus on saving throws against all mind-affecting effects. If you have {feat/Social Bravery}, your bravery bonus is added to the DC of checks to demoralize them, feint against them, change their attitude, or convince them to perform a request."
 		]
 	},
 	"inspiring_mentor": {
@@ -169,7 +169,7 @@
 			"",
 			"Your innate adaptability allows you to imitate others of your kind nearly flawlessly, to the extent that you can utilize their mastery over skills almost as if you had personally trained in their use.  ",
 			"**Prerequisites:** {race/Half-elf}, adaptability or ancestral arms racial trait.  ",
-			"**Benefit:** Whenever you are within 30 feet of an ally who also has this feat, you gain the following benefits. If the ally has a {feat/Skill Focus} feat, you also count as having that feat for the purpose of the following skill uses: Acrobatics checks to move through threatened squares, Bluff checks to feint, Escape Artist checks to escape a grapple, Intimidate checks to demoralize, Knowledge checks to identify a monster, and Perception checks to notice a creature using Stealth. Furthermore, if the ally has a weapon proficiency gained through the ancestral arms racial trait, you also count as having that weapon proficiency."
+			"**Benefit:** Whenever you are within 30 feet of an ally who also has this feat, you gain the following benefits. If the ally has a {feat/Skill Focus} feat, you also count as having that feat for the purpose of the following skill uses: {skill/Acrobatics} checks to move through threatened squares, {skill/Bluff} checks to feint, {skill/Escape Artist} checks to escape a grapple, {skill/Intimidate} checks to demoralize, {skill/Knowledge} checks to identify a monster, and {skill/Perception} checks to notice a creature using {skill/Stealth}. Furthermore, if the ally has a weapon proficiency gained through the ancestral arms racial trait, you also count as having that weapon proficiency."
 		]
 	},
 	"instant_alchemy": {
@@ -213,7 +213,7 @@
 			"",
 			"Alternatively, you may expand 2 rounds of bardic performance to add +2 to any save DCs associated with the use of the instrument's powers.",
 			"",
-			"If your instrument summons allies, such as pipes of the sewers or the horn of Valhalla, your bardic performances with that instrument affect those allies even if they normally would not."
+			"If your instrument summons allies, such as {magic-wondrous/pipes of the sewers} or the {magic-wondrous/horn of Valhalla}, your bardic performances with that instrument affect those allies even if they normally would not."
 		]
 	},
 	"intense_blows": {
@@ -243,7 +243,7 @@
 			"{SOURCE Occult Adventures/135}",
 			"",
 			"You deal additional damage when using your painful stare.  ",
-			"**Prerequisites:** Mesmerist level 7th, painful stare class feature.  ",
+			"**Prerequisites:** {class/Mesmerist} level 7th, painful stare class feature.  ",
 			"**Benefit:** When you use your painful stare ability to increase your own damage, you deal an additional 1d6 points of damage. This damage increases to 2d6 at mesmerist level 12th and to 3d6 at mesmerist level 18th. When you use painful stare to augment an ally's damage, the target of the painful stare takes 1 additional point of damage for every 4 mesmerist levels you possess."
 		]
 	},
@@ -300,10 +300,10 @@
 			"{SOURCE Ultimate Wilderness/219}",
 			"",
 			"The animal willingly throws itself in harm's way to defend its master.  ",
-			"**Prerequisites:** Base attack bonus +1, animal companion.  ",
-			"**Benefit:** Whenever the animal companion is adjacent to its master and its master is the target of a melee attack, the animal companion can expend an attack of opportunity as a free action, even if it isn't its turn, to attempt to intercept the attack. The animal companion makes an attack roll at its highest attack bonus with one of its natural attacks, as if it were making an attack of opportunity, with a -2 penalty for each size category the attacking creature is larger than the animal companion. If the result of this attack roll is greater than the attacking creature's attack roll result, the animal companion's master takes only half damage from the attack, and the other half of the damage is dealt to the animal companion. Effects that trigger on every successful hit (such as bleed or the trip special ability) affect both the animal companion and the master, as if both were hit by the attack; however, if it matters (such as for a touch spell that expires after a single hit), treat the animal companion as if it had been hit first.",
+			"**Prerequisites:** Base attack bonus +1, {sidekick/animal companion}.  ",
+			"**Benefit:** Whenever the animal companion is adjacent to its master and its master is the target of a melee attack, the animal companion can expend an attack of opportunity as a free action, even if it isn't its turn, to attempt to intercept the attack. The animal companion makes an attack roll at its highest attack bonus with one of its natural attacks, as if it were making an attack of opportunity, with a -2 penalty for each size category the attacking creature is larger than the animal companion. If the result of this attack roll is greater than the attacking creature's attack roll result, the animal companion's master takes only half damage from the attack, and the other half of the damage is dealt to the animal companion. Effects that trigger on every successful hit (such as {rule/bleed} or the {rule/trip} special ability) affect both the animal companion and the master, as if both were hit by the attack; however, if it matters (such as for a touch spell that expires after a single hit), treat the animal companion as if it had been hit first.",
 			"",
-			"If the animal companion knows the defend trick, the animal companion can use Intercept Blow and any feat that lists it as a prerequisite to protect any ally that it is adjacent to and defending (as per the defend trick)."
+			"If the animal companion knows the {ability/animal<defend| trick>s}, the animal companion can use Intercept Blow and any feat that lists it as a prerequisite to protect any ally that it is adjacent to and defending (as per the defend trick)."
 		]
 	},
 	"intercept_charge": {
@@ -318,7 +318,7 @@
 			"{SOURCE Advanced Class Guide/151}",
 			"",
 			"You can get in the way of an opponent charging your ally.  ",
-			"**Benefit:** When an opponent charges your ally with this feat, as an immediate action you can move up to your speed toward any square in the path of the charge. If you end your movement in the path of the charge, the opponent must stop when it becomes adjacent to you and then attack you instead of your ally. Your movement from using this feat counts toward your movement on your next turn.",
+			"**Benefit:** When an opponent {rule/charge/s} your ally with this feat, as an immediate action you can move up to your speed toward any square in the path of the charge. If you end your movement in the path of the charge, the opponent must stop when it becomes adjacent to you and then attack you instead of your ally. Your movement from using this feat counts toward your movement on your next turn.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/124}",
@@ -336,7 +336,7 @@
 			"",
 			"You can combine your blasts with those of another kineticist.  ",
 			"**Prerequisites:** Kinetic blast class feature.  ",
-			"**Benefit:** Whenever you are within 15 feet of another character who has this feat, you can ready an action to activate a simple blast of your choice. When that character unleashes a simple blast, yours is triggered, creating a composite blast for which the two simple blasts meet the prerequisites. The composite blast's caster level is equal to the average of the caster levels of both participants and deals damage as the appropriate composite blast created by a kineticist of that level (for example, if a 10th-level pyrokineticist and a 6th-level hydrokineticist worked together to create a steam blast, its base damage would be 4d6+4 points of fire damage and 4d6+4 points of bludgeoning damage).",
+			"**Benefit:** Whenever you are within 15 feet of another character who has this feat, you can ready an action to activate a simple blast of your choice. When that character unleashes a simple blast, yours is triggered, creating a composite blast for which the two simple blasts meet the prerequisites. The composite blast's caster level is equal to the average of the caster levels of both participants and deals damage as the appropriate composite blast created by a kineticist of that level (for example, if a 10th-level pyrokineticist and a 6th-level hydrokineticist worked together to create a {kinetic/steam blast}, its base damage would be 4d6+4 points of fire damage and 4d6+4 points of bludgeoning damage).",
 			"",
 			"One participant can provide a form infusion appropriate for the composite blast, and the other can provide an appropriate substance infusion. Each participant accepts the burn cost for the infusion she provided. The participant who didn't take the special ready action can apply a metakinesis to the blast, and she is the only one who can gather power to reduce the blast's cost (since only she has a move action to take prior to the blast). However, whatever metakinesis she applies affects the entire composite blast.",
 			"",
@@ -355,7 +355,7 @@
 			"",
 			"You are skilled at intimidating animals with your bluster and fury.  ",
 			"**Prerequisites:** {feat/Greater Wild Empathy}, Intimidate 5 ranks, Knowledge (nature) 5 ranks, {ability/wild empathy} class feature.  ",
-			"**Benefit:** You add your Wisdom modifier on Intimidate checks against animals in addition to your Charisma modifier. An animal with 4 or fewer Hit Dice is frightened instead of shaken on a successful Intimidate check to demoralize it."
+			"**Benefit:** You add your Wisdom modifier on Intimidate checks against animals in addition to your Charisma modifier. An animal with 4 or fewer Hit Dice is {misc/frightened} instead of {misc/shaken} on a successful Intimidate check to demoralize it."
 		]
 	},
 	"intimidating_bane": {
@@ -368,7 +368,7 @@
 			"",
 			"Your bane weapon strikes fear into your enemies.  ",
 			"**Prerequisites:** Bane class feature, {feat/Dazzling Display}, {feat/Weapon Focus}, character level 8th.  ",
-			"**Benefit:** Whenever you use Dazzling Display while your bane feature is active, you gain a +2 bonus on the Intimidate check that Dazzling Display allows against creatures of the type your bane weapon currently affects. Such creatures remain shaken while your bane feature is still active and effective against their creature type."
+			"**Benefit:** Whenever you use Dazzling Display while your bane feature is active, you gain a +2 bonus on the Intimidate check that Dazzling Display allows against creatures of the type your bane weapon currently affects. Such creatures remain {misc/shaken} while your bane feature is still active and effective against their creature type."
 		]
 	},
 	"intimidating_confidence": {
