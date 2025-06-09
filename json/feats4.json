@@ -4541,15 +4541,15 @@
 			"",
 			"Once per day while benefiting from your mentor's boon, you can cast one of the following spell-like abilities based on the active boon's alignment (CL = your character level). Once you cast the spell-like ability, your mentor's boon ends immediately.",
 			"",
-			">:HL[Chaotic:] {spell/Chaos hammer}, {spell/magic circle against law}, {spell/summon monster IV} (chaotic outsiders only).",
+			">@HL[Chaotic:] {spell/Chaos hammer}, {spell/magic circle against law}, {spell/summon monster IV} (chaotic outsiders only).",
 			">",
-			">:HL[Evil:] {spell/Magic circle against good}, {spell/summon monster IV} (evil outsiders only), {spell/unholy blight}.",
+			">@HL[Evil:] {spell/Magic circle against good}, {spell/summon monster IV} (evil outsiders only), {spell/unholy blight}.",
 			">",
-			">:HL[Good:] {spell/Holy smite}, {spell/magic circle against evil}, {spell/summon monster IV} (good outsiders only).",
+			">@HL[Good:] {spell/Holy smite}, {spell/magic circle against evil}, {spell/summon monster IV} (good outsiders only).",
 			">",
-			">:HL[Lawful:] {spell/Magic circle against chaos}, {spell/order's wrath}, {spell/summon monster IV} (lawful outsiders only).",
+			">@HL[Lawful:] {spell/Magic circle against chaos}, {spell/order's wrath}, {spell/summon monster IV} (lawful outsiders only).",
 			">",
-			">:HL[Neutral:] {spell/Bestow curse}, {spell/prayer}, {spell/summon monster IV} (outsiders without alignment subtypes only)."
+			">@HL[Neutral:] {spell/Bestow curse}, {spell/prayer}, {spell/summon monster IV} (outsiders without alignment subtypes only)."
 		]
 	},
 	"improved_plane_shift": {

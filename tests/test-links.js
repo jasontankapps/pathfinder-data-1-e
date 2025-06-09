@@ -357,19 +357,19 @@ const testLinks = () => {
 					temp = m[3];
 				}
 				temp = line;
-				// Testing :ripple[link/text] and :hll[link/text]
-				while(m = temp.match(/:(ripple|hll)\[(.+?)(?<!\\)\](.*$)/)) {
+				// Testing @ripple[link/text] and @ripple[link/text]
+				while(m = temp.match(/@(ripple|hll)\[(.+?)(?<!\\)\](.*$)/)) {
 					const q = checkForEncodedLink(m[2].replace(/\\/g, ""), { bare: true });
 					if(!q) {
-						invalid.push(`:${m[1]}[${m[2]}]`)
+						invalid.push(`@${m[1]}[${m[2]}]`)
 					} else {
 						let [, link, , , protocol, property] = q;
 						if(protocol === "source") {
 							if(!allsources[property]) {
-								invalid.push(`:${m[1]}[${link}]`);
+								invalid.push(`@${m[1]}[${link}]`);
 							}
 						} else if(!$KnownProps[protocol] || !$KnownProps[protocol][property]) {
-							invalid.push(`:${m[1]}[${link}]`);
+							invalid.push(`@${m[1]}[${link}]`);
 						}
 					}
 					temp = m[2];

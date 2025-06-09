@@ -105,7 +105,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "!-BQ-!:hll[talent/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-^S-! !-DESC-!"
+					"template": "!-BQ-!@hll[talent/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-^S-! !-DESC-!"
 				},
 				[
 					"",
@@ -119,7 +119,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "!-BQ-!:hll[talent/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-^S-! !-DESC-!"
+					"template": "!-BQ-!@hll[talent/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-^S-! !-DESC-!"
 				},
 				[
 					"",
@@ -133,7 +133,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "!-BQ-!:hll[talent/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-^S-! !-DESC-!"
+					"template": "!-BQ-!@hll[talent/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-^S-! !-DESC-!"
 				},
 				[
 					"",
@@ -147,7 +147,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "!-BQ-!:hll[talent/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-^S-! !-DESC-!"
+					"template": "!-BQ-!@hll[talent/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-^S-! !-DESC-!"
 				}
 			]
 		},
@@ -176,7 +176,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "!-BQ-!:hll[slayertalent/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-DESC-! !-^S-!"
+					"template": "!-BQ-!@hll[slayertalent/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-DESC-! !-^S-!"
 				}
 			]
 		},
@@ -429,7 +429,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "!-BQ-!:hll[arcanedisc/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-DESC-! !-^S-!"
+					"template": "!-BQ-!@hll[arcanedisc/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-DESC-! !-^S-!"
 				}
 			]
 		},
@@ -468,23 +468,23 @@
 			"",
 			"| School | Focused Schools |",
 			"| --- | --- |",
-			"| :ripple[arcaneschool/Abjuration] | Banishment, Counterspell |",
-			"| :ripple[arcaneschool/Conjuration] | Cheliax: Egorian Academy Infernal Binder, Creation, Extradimension, Teleportation |",
-			"| :ripple[arcaneschool/Divination] | Foresight, Prophecy, Scryer |",
-			"| :ripple[arcaneschool/Enchantment] | Controller, Manipulator |",
-			"| :ripple[arcaneschool/Evocation] | Admixture, Generation |",
-			"| :ripple[arcaneschool/Illusion] | Deception, Phantasm, Qadira: Mage of the Veil, Shadow |",
-			"| :ripple[arcaneschool/Necromancy] | Life, Undead |",
-			"| :ripple[arcaneschool/Transmutation] | Enhancement, Shapechange |",
-			"| :ripple[arcaneschool/Universalist] | Absalom: Arcanamirium Crafter |",
-			"| :ripple[arcaneschool/Aether] | &mdash; |",
-			"| :ripple[arcaneschool/Air] | Ice, Smoke |",
-			"| :ripple[arcaneschool/Earth] | Magma, Mud |",
-			"| :ripple[arcaneschool/Fire] | Magma, Smoke |",
-			"| :ripple[arcaneschool/Metal] | &mdash; |",
-			"| :ripple[arcaneschool/Void] | &mdash; |",
-			"| :ripple[arcaneschool/Water] | Ice, Mud |",
-			"| :ripple[arcaneschool/Wood] | &mdash; |"
+			"| @ripple[arcaneschool/Abjuration] | Banishment, Counterspell |",
+			"| @ripple[arcaneschool/Conjuration] | Cheliax: Egorian Academy Infernal Binder, Creation, Extradimension, Teleportation |",
+			"| @ripple[arcaneschool/Divination] | Foresight, Prophecy, Scryer |",
+			"| @ripple[arcaneschool/Enchantment] | Controller, Manipulator |",
+			"| @ripple[arcaneschool/Evocation] | Admixture, Generation |",
+			"| @ripple[arcaneschool/Illusion] | Deception, Phantasm, Qadira: Mage of the Veil, Shadow |",
+			"| @ripple[arcaneschool/Necromancy] | Life, Undead |",
+			"| @ripple[arcaneschool/Transmutation] | Enhancement, Shapechange |",
+			"| @ripple[arcaneschool/Universalist] | Absalom: Arcanamirium Crafter |",
+			"| @ripple[arcaneschool/Aether] | &mdash; |",
+			"| @ripple[arcaneschool/Air] | Ice, Smoke |",
+			"| @ripple[arcaneschool/Earth] | Magma, Mud |",
+			"| @ripple[arcaneschool/Fire] | Magma, Smoke |",
+			"| @ripple[arcaneschool/Metal] | &mdash; |",
+			"| @ripple[arcaneschool/Void] | &mdash; |",
+			"| @ripple[arcaneschool/Water] | Ice, Mud |",
+			"| @ripple[arcaneschool/Wood] | &mdash; |"
 		],
 		"topLink": [ "Wizard", "class/wizard" ]
 	},
@@ -834,30 +834,30 @@
 			"",
 			"| Bloodline | Description |",
 			"| --- | --- |",
-			"| :ripple[blrgbloodline/Aberrant] | There is a taint in your blood that is both alien and bizarre. When you bloodrage, this manifests in peculiar and terrifying ways. |",
-			"| :ripple[blrgbloodline/Abyssal] | Generations ago, a demon spread its filth into the essence of your bloodline. While it doesn't manifest in all of your kin, in those moments when you're bloodraging, you embody its terrifying presence. |",
-			"| :ripple[blrgbloodline/Aquatic] | The anger in your blood rises from the ocean depths, seeded by descent from undersea empires, creeping ichthyic infiltrators into remote seaside villages, or something deeper still. |",
-			"| :ripple[blrgbloodline/Arcane] | While others of your kin may be powerful wizards and sorcerers, the eldritch nature of the blood coursing through your veins transforms you into a spell-breaking terror. |",
-			"| :ripple[blrgbloodline/Black Blood] | Contact with the black blood of Orv - by you or one of your ancestors - transformed your bloodline. This necromantic taint in your blood mutates you into something peculiar. |",
-			"| :ripple[blrgbloodline/Celestial] | By way of a celestial ancestor or divine intervention, the blood of angels fills your body with a holy potency, granting you a majestic visage and angelic powers when you enter your bloodrage. |",
-			"| :ripple[blrgbloodline/Destined] | Your bloodline is destined for great things. When you bloodrage, you exude a greatness that makes all but the most legendary creatures seem lesser. |",
-			"| :ripple[blrgbloodline/Draconic] | At some point in your family's history, a dragon interbred with your bloodline. Now, the sublime monster's ancient power fuels your bloodrage. |",
-			"| :ripple[blrgbloodline/Elemental] | The power of the elements resides in you, and at times you can hardly control its fury. This influence comes either from an elemental outsider in your family history or from a moment when you or your ancestors were exposed to a powerful elemental force or cataclysm. |",
-			"| :ripple[blrgbloodline/Fey] | One of your ancestors was fey, or the fey realm somehow intermixed with your bloodline. It affects your bloodrage in tricky and surprising ways. |",
-			"| :ripple[blrgbloodline/Hag] | Hags interbreed with other races frequently, and those children who escape their grasp may pass their heritage on to later generations before it reemerges. The potent humors that accompany hag blood are better suited to a bloodrager's ferocity than to traditional spellcasting. |",
-			"| :ripple[blrgbloodline/Infernal] | The Pit lives in your blood. Maybe one of your ancestors was seduced by the powers of Hell or made a deal with a devil. Either way, its corruption seethes within your lineage. |",
-			"| :ripple[blrgbloodline/Kyton] | In the shadowy land of Nidal, the influence of Zon-Kuthon and the Midnight Lord's favored servants - the kytons - taints the land and its inhabitants. Just as an eclipse drives animals wild, so too does the darkness unleash a madness from deep within you. |",
-			"| :ripple[blrgbloodline/Martyred] | One of your ancestors paid the ultimate price for her beliefs. This distant relative martyred herself out of a devout dedication to some specific cause, and that sacrifice has infused you with power that you can use for good - or for ill. When you bloodrage, an inspiring fury conjures echoes of your forebear's incredible determination and selfless dedication, both offering you protection and amplifying your ability to punish any who dare incur your wrath. |",
-			"| :ripple[blrgbloodline/Medusa] | No magical creature is more iconic in Iblydan lore than the {monster/medusa}. Perhaps your lineage traces back to a medusa, or an ancestor survived a medusa's petrifying gaze and was forever changed by the experience. However the medusa's influence entered your bloodline, when you bloodrage, you gain fearsome and ancient powers. |",
-			"| :ripple[blrgbloodline/Naga] | The blood of the powerful, serpentine aberrations known as nagas runs through your veins, fueling your bloodrage. |",
-			"| :ripple[blrgbloodline/Phoenix] | The flames of the phoenix burn brightly within your soul, filling you with an inextinguishable vitality that can withstand the most harrowing of assaults. |",
-			"| :ripple[blrgbloodline/Salamander] | Salamanders are fierce warriors and master smiths, and you wield their might and mastery of metal by birthright. |",
-			"| :ripple[blrgbloodline/Shadow] | Because of your heritage, you can move and see through shadows as if you are part of them. Your fury absorbs light, warmth, and strength. |",
-			"| :ripple[blrgbloodline/Shapechanger] | The blood of doppelgangers, faceless stalkers, lycanthropes, or other shapechangers courses through your veins. |",
-			"| :ripple[blrgbloodline/Sphinx] | Those who successfully traded riddles with sphinxes sometimes find themselves or their descendants exhibiting both arcane power and violent fury. These bloodragers find being outwitted or outmaneuvered especially infuriating; though they are usually scholarly and erudite, their fits of frenzied rage are all the more terrifying in comparison. |",
-			"| :ripple[blrgbloodline/Undead] | The foul corruption of undeath is a part of you. Somewhere in the past, death became infused with your lineage. Your connection to the attributes of the undead bestows frightening power when your bloodrage. |",
-			"| :ripple[blrgbloodline/Verdant] | Your body is suffused with raw plant life. When you bloodrage, your plant-like characteristics bolster your durability and grant you some control over vegetation. |",
-			"| :ripple[blrgbloodline/Vestige] | You are the descendant of great heroes from a lost civilization. |"
+			"| @ripple[blrgbloodline/Aberrant] | There is a taint in your blood that is both alien and bizarre. When you bloodrage, this manifests in peculiar and terrifying ways. |",
+			"| @ripple[blrgbloodline/Abyssal] | Generations ago, a demon spread its filth into the essence of your bloodline. While it doesn't manifest in all of your kin, in those moments when you're bloodraging, you embody its terrifying presence. |",
+			"| @ripple[blrgbloodline/Aquatic] | The anger in your blood rises from the ocean depths, seeded by descent from undersea empires, creeping ichthyic infiltrators into remote seaside villages, or something deeper still. |",
+			"| @ripple[blrgbloodline/Arcane] | While others of your kin may be powerful wizards and sorcerers, the eldritch nature of the blood coursing through your veins transforms you into a spell-breaking terror. |",
+			"| @ripple[blrgbloodline/Black Blood] | Contact with the black blood of Orv - by you or one of your ancestors - transformed your bloodline. This necromantic taint in your blood mutates you into something peculiar. |",
+			"| @ripple[blrgbloodline/Celestial] | By way of a celestial ancestor or divine intervention, the blood of angels fills your body with a holy potency, granting you a majestic visage and angelic powers when you enter your bloodrage. |",
+			"| @ripple[blrgbloodline/Destined] | Your bloodline is destined for great things. When you bloodrage, you exude a greatness that makes all but the most legendary creatures seem lesser. |",
+			"| @ripple[blrgbloodline/Draconic] | At some point in your family's history, a dragon interbred with your bloodline. Now, the sublime monster's ancient power fuels your bloodrage. |",
+			"| @ripple[blrgbloodline/Elemental] | The power of the elements resides in you, and at times you can hardly control its fury. This influence comes either from an elemental outsider in your family history or from a moment when you or your ancestors were exposed to a powerful elemental force or cataclysm. |",
+			"| @ripple[blrgbloodline/Fey] | One of your ancestors was fey, or the fey realm somehow intermixed with your bloodline. It affects your bloodrage in tricky and surprising ways. |",
+			"| @ripple[blrgbloodline/Hag] | Hags interbreed with other races frequently, and those children who escape their grasp may pass their heritage on to later generations before it reemerges. The potent humors that accompany hag blood are better suited to a bloodrager's ferocity than to traditional spellcasting. |",
+			"| @ripple[blrgbloodline/Infernal] | The Pit lives in your blood. Maybe one of your ancestors was seduced by the powers of Hell or made a deal with a devil. Either way, its corruption seethes within your lineage. |",
+			"| @ripple[blrgbloodline/Kyton] | In the shadowy land of Nidal, the influence of Zon-Kuthon and the Midnight Lord's favored servants - the kytons - taints the land and its inhabitants. Just as an eclipse drives animals wild, so too does the darkness unleash a madness from deep within you. |",
+			"| @ripple[blrgbloodline/Martyred] | One of your ancestors paid the ultimate price for her beliefs. This distant relative martyred herself out of a devout dedication to some specific cause, and that sacrifice has infused you with power that you can use for good - or for ill. When you bloodrage, an inspiring fury conjures echoes of your forebear's incredible determination and selfless dedication, both offering you protection and amplifying your ability to punish any who dare incur your wrath. |",
+			"| @ripple[blrgbloodline/Medusa] | No magical creature is more iconic in Iblydan lore than the {monster/medusa}. Perhaps your lineage traces back to a medusa, or an ancestor survived a medusa's petrifying gaze and was forever changed by the experience. However the medusa's influence entered your bloodline, when you bloodrage, you gain fearsome and ancient powers. |",
+			"| @ripple[blrgbloodline/Naga] | The blood of the powerful, serpentine aberrations known as nagas runs through your veins, fueling your bloodrage. |",
+			"| @ripple[blrgbloodline/Phoenix] | The flames of the phoenix burn brightly within your soul, filling you with an inextinguishable vitality that can withstand the most harrowing of assaults. |",
+			"| @ripple[blrgbloodline/Salamander] | Salamanders are fierce warriors and master smiths, and you wield their might and mastery of metal by birthright. |",
+			"| @ripple[blrgbloodline/Shadow] | Because of your heritage, you can move and see through shadows as if you are part of them. Your fury absorbs light, warmth, and strength. |",
+			"| @ripple[blrgbloodline/Shapechanger] | The blood of doppelgangers, faceless stalkers, lycanthropes, or other shapechangers courses through your veins. |",
+			"| @ripple[blrgbloodline/Sphinx] | Those who successfully traded riddles with sphinxes sometimes find themselves or their descendants exhibiting both arcane power and violent fury. These bloodragers find being outwitted or outmaneuvered especially infuriating; though they are usually scholarly and erudite, their fits of frenzied rage are all the more terrifying in comparison. |",
+			"| @ripple[blrgbloodline/Undead] | The foul corruption of undeath is a part of you. Somewhere in the past, death became infused with your lineage. Your connection to the attributes of the undead bestows frightening power when your bloodrage. |",
+			"| @ripple[blrgbloodline/Verdant] | Your body is suffused with raw plant life. When you bloodrage, your plant-like characteristics bolster your durability and grant you some control over vegetation. |",
+			"| @ripple[blrgbloodline/Vestige] | You are the descendant of great heroes from a lost civilization. |"
 		],
 		"topLink": [ "Bloodrager", "class/bloodrager" ]
 	},
@@ -1036,47 +1036,47 @@
 			"",
 			"| Curse | Description |",
 			"| --- | --- |",
-			"| :ripple[oraclecurse/Aboleth] | Your mind is marked by aboleth tampering, either as a result of a close encounter with one of these creatures while you were a child, or even through an ancestor, close family member, or one of your sisters or brothers in faith - this associate's interaction with the aboleths may be all that it takes to infect you. |",
-			"| :ripple[oraclecurse/Acursed] | You are cursed with misfortune and sorrow, and you cannot gain benefit from morale bonuses. |",
-			"| :ripple[oraclecurse/Blackened] | Your hands and forearms are shriveled and blackened, as if you had plunged your arms into a blazing fire, and your thin, papery skin is sensitive to the touch. |",
-			"| :ripple[oraclecurse/Clouded Vision] | Your eyes are obscured, making it difficult for you to see. |",
-			"| :ripple[oraclecurse/Cold-Blooded] | Your blood turns sluggish without sufficient heat, and you must seek warmth and shelter earlier than most. |",
-			"| :ripple[oraclecurse/Consumed] | Your connection to Abaddon and the daemons that call it home has left you diminished but still able to scorn many mortal frailties. |",
-			"| :ripple[oraclecurse/Covetous] | You find yourself drawn to the luster of wealthy living. |",
-			"| :ripple[oraclecurse/Deaf] | You cannot hear and suffer all of the usual penalties for being deafened. |",
-			"| :ripple[oraclecurse/Deep One] | The lure of the ocean tugs at your soul. |",
-			"| :ripple[oraclecurse/Demonic] | Your heart is cursed with the pull of the Abyss. |",
-			"| :ripple[oraclecurse/Elemental Imbalance] | You wield an element's might, but you are vulnerable to its opposite. |",
-			"| :ripple[oraclecurse/Ghoul] | While your actual dietary needs don't change, you crave the flesh of sentient creatures. |",
-			"| :ripple[oraclecurse/God-Meddled] | Iblydos's hero-gods' interference in your life has left you with strange, unpredictable powers dependent on divine whim. |",
-			"| :ripple[oraclecurse/Haunted] | Malevolent spirits follow you wherever you go, causing minor mishaps and strange occurrences (such as unexpected breezes, small objects moving on their own, and faint noises). |",
-			"| :ripple[oraclecurse/Hellbound] | Infernal influence grants you profane insight and weighs on your soul. |",
-			"| :ripple[oraclecurse/Hive] | You were exposed at a young age (perhaps even before you were born) to the alien species known as the hive, but this exposure did not result in a full-blown infestation by these otherworldly monsters. |",
-			"| :ripple[oraclecurse/Hunger] | Ravenous hunger wracks your body in stressful situations. |",
-			"| :ripple[oraclecurse/Infested] | Insects, spiders, grubs, and other vermin plague you constantly. |",
-			"| :ripple[oraclecurse/Lame] | One of your legs is permanently wounded. |",
-			"| :ripple[oraclecurse/Legalistic] | The shackles of Hell impose savage consequences should you violate a covenant, but also imbue you with remarkable guile. |",
-			"| :ripple[oraclecurse/Lich] | You have (unknowingly) fulfilled most (but not all) of the ritualistic components to achieve lichdom. |",
-			"| :ripple[oraclecurse/Lycanthropy] | You suffer from a minor form of lycanthropy. |",
-			"| :ripple[oraclecurse/Plagued] | You suffer from minor ailments and sicknesses. |",
-			"| :ripple[oraclecurse/Possessed] | Another mind shares your body, interfering with your control, and it's more difficult for you to concentrate as a result. |",
-			"| :ripple[oraclecurse/Powerless Prophecy] | You are forewarned of danger but can't act to prevent it. |",
-			"| :ripple[oraclecurse/Pranked] | Capricious fey constantly bedevil you. |",
-			"| :ripple[oraclecurse/Promethean] | Your body is falling apart, forcing you to rely on mechanical augmentations or replacements to keep yourself alive. |",
-			"| :ripple[oraclecurse/Putrid] | Your presence stagnates water and befouls all liquids carried on your person, including magical items such as potions, and unattended sources of still water within 10 feet. |",
-			"| :ripple[oraclecurse/Reclusive] | You are reclusive and paranoid to the point that your allies cannot easily help you in times of stress or unease. |",
-			"| :ripple[oraclecurse/Scourge] | You are a blight on the natural world. |",
-			"| :ripple[oraclecurse/Shadowbound] | Your pigmentation is oddly colorless, and your eyes are highly sensitive to light. |",
-			"| :ripple[oraclecurse/Shattered Psyche] | Your mind is crowded with dozens of voices, fragmented snippets of your past lives. |",
-			"| :ripple[oraclecurse/Site-Bound] | You bond with a particular 10-foot square, and must remain within 1,500 feet of that site or immediately become sickened. |",
-			"| :ripple[oraclecurse/Song-Bound] | (Merfolk only) Whenever you speak, you are compelled to sing loudly, and you draw out even short utterances with vocal scales or simple melodies. |",
-			"| :ripple[oraclecurse/Tongues] | In times of stress or unease, you speak in tongues. |",
-			"| :ripple[oraclecurse/Toxic Blood] | Your body is ravaged by a potent, slow-acting poison that resists all treatment. |",
-			"| :ripple[oraclecurse/Vampirism] | You crave the taste of fresh, warm blood. |",
-			"| :ripple[oraclecurse/Wasting] | Your body is slowly rotting away. |",
-			"| :ripple[oraclecurse/Wolfscarred Face] | Your face is deformed, as though you were born with a wolf's muzzle instead of an ordinary nose and jaw. |",
-			"| :ripple[oraclecurse/Wrecker] | The destructive power of the Abyss and its teeming hordes of demons seeps from your very pores and into your belongings and surroundings. |",
-			"| :ripple[oraclecurse/Wrecking Mysticism] | (Kitsune only) A divine entity has blessed you with a source of eldritch power that erodes your fortitude. |"
+			"| @ripple[oraclecurse/Aboleth] | Your mind is marked by aboleth tampering, either as a result of a close encounter with one of these creatures while you were a child, or even through an ancestor, close family member, or one of your sisters or brothers in faith - this associate's interaction with the aboleths may be all that it takes to infect you. |",
+			"| @ripple[oraclecurse/Acursed] | You are cursed with misfortune and sorrow, and you cannot gain benefit from morale bonuses. |",
+			"| @ripple[oraclecurse/Blackened] | Your hands and forearms are shriveled and blackened, as if you had plunged your arms into a blazing fire, and your thin, papery skin is sensitive to the touch. |",
+			"| @ripple[oraclecurse/Clouded Vision] | Your eyes are obscured, making it difficult for you to see. |",
+			"| @ripple[oraclecurse/Cold-Blooded] | Your blood turns sluggish without sufficient heat, and you must seek warmth and shelter earlier than most. |",
+			"| @ripple[oraclecurse/Consumed] | Your connection to Abaddon and the daemons that call it home has left you diminished but still able to scorn many mortal frailties. |",
+			"| @ripple[oraclecurse/Covetous] | You find yourself drawn to the luster of wealthy living. |",
+			"| @ripple[oraclecurse/Deaf] | You cannot hear and suffer all of the usual penalties for being deafened. |",
+			"| @ripple[oraclecurse/Deep One] | The lure of the ocean tugs at your soul. |",
+			"| @ripple[oraclecurse/Demonic] | Your heart is cursed with the pull of the Abyss. |",
+			"| @ripple[oraclecurse/Elemental Imbalance] | You wield an element's might, but you are vulnerable to its opposite. |",
+			"| @ripple[oraclecurse/Ghoul] | While your actual dietary needs don't change, you crave the flesh of sentient creatures. |",
+			"| @ripple[oraclecurse/God-Meddled] | Iblydos's hero-gods' interference in your life has left you with strange, unpredictable powers dependent on divine whim. |",
+			"| @ripple[oraclecurse/Haunted] | Malevolent spirits follow you wherever you go, causing minor mishaps and strange occurrences (such as unexpected breezes, small objects moving on their own, and faint noises). |",
+			"| @ripple[oraclecurse/Hellbound] | Infernal influence grants you profane insight and weighs on your soul. |",
+			"| @ripple[oraclecurse/Hive] | You were exposed at a young age (perhaps even before you were born) to the alien species known as the hive, but this exposure did not result in a full-blown infestation by these otherworldly monsters. |",
+			"| @ripple[oraclecurse/Hunger] | Ravenous hunger wracks your body in stressful situations. |",
+			"| @ripple[oraclecurse/Infested] | Insects, spiders, grubs, and other vermin plague you constantly. |",
+			"| @ripple[oraclecurse/Lame] | One of your legs is permanently wounded. |",
+			"| @ripple[oraclecurse/Legalistic] | The shackles of Hell impose savage consequences should you violate a covenant, but also imbue you with remarkable guile. |",
+			"| @ripple[oraclecurse/Lich] | You have (unknowingly) fulfilled most (but not all) of the ritualistic components to achieve lichdom. |",
+			"| @ripple[oraclecurse/Lycanthropy] | You suffer from a minor form of lycanthropy. |",
+			"| @ripple[oraclecurse/Plagued] | You suffer from minor ailments and sicknesses. |",
+			"| @ripple[oraclecurse/Possessed] | Another mind shares your body, interfering with your control, and it's more difficult for you to concentrate as a result. |",
+			"| @ripple[oraclecurse/Powerless Prophecy] | You are forewarned of danger but can't act to prevent it. |",
+			"| @ripple[oraclecurse/Pranked] | Capricious fey constantly bedevil you. |",
+			"| @ripple[oraclecurse/Promethean] | Your body is falling apart, forcing you to rely on mechanical augmentations or replacements to keep yourself alive. |",
+			"| @ripple[oraclecurse/Putrid] | Your presence stagnates water and befouls all liquids carried on your person, including magical items such as potions, and unattended sources of still water within 10 feet. |",
+			"| @ripple[oraclecurse/Reclusive] | You are reclusive and paranoid to the point that your allies cannot easily help you in times of stress or unease. |",
+			"| @ripple[oraclecurse/Scourge] | You are a blight on the natural world. |",
+			"| @ripple[oraclecurse/Shadowbound] | Your pigmentation is oddly colorless, and your eyes are highly sensitive to light. |",
+			"| @ripple[oraclecurse/Shattered Psyche] | Your mind is crowded with dozens of voices, fragmented snippets of your past lives. |",
+			"| @ripple[oraclecurse/Site-Bound] | You bond with a particular 10-foot square, and must remain within 1,500 feet of that site or immediately become sickened. |",
+			"| @ripple[oraclecurse/Song-Bound] | (Merfolk only) Whenever you speak, you are compelled to sing loudly, and you draw out even short utterances with vocal scales or simple melodies. |",
+			"| @ripple[oraclecurse/Tongues] | In times of stress or unease, you speak in tongues. |",
+			"| @ripple[oraclecurse/Toxic Blood] | Your body is ravaged by a potent, slow-acting poison that resists all treatment. |",
+			"| @ripple[oraclecurse/Vampirism] | You crave the taste of fresh, warm blood. |",
+			"| @ripple[oraclecurse/Wasting] | Your body is slowly rotting away. |",
+			"| @ripple[oraclecurse/Wolfscarred Face] | Your face is deformed, as though you were born with a wolf's muzzle instead of an ordinary nose and jaw. |",
+			"| @ripple[oraclecurse/Wrecker] | The destructive power of the Abyss and its teeming hordes of demons seeps from your very pores and into your belongings and surroundings. |",
+			"| @ripple[oraclecurse/Wrecking Mysticism] | (Kitsune only) A divine entity has blessed you with a source of eldritch power that erodes your fortitude. |"
 		],
 		"topLink": [ "Oracle", "class/oracle" ]
 	},
@@ -1094,13 +1094,13 @@
 			"",
 			"---",
 			"",
-			"**Desperate Evasion (Ex):** While this dare is active, you gain the {ability/evasion} class feature. If you already have this class feature, while this dare is active you roll twice when making a Reflex saving throw and take the higher result. You regain 1 :primary[grit] :alternate[panache] point when you succeed at two Reflex saving throws while using this dare.",
+			"**Desperate Evasion (Ex):** While this dare is active, you gain the {ability/evasion} class feature. If you already have this class feature, while this dare is active you roll twice when making a Reflex saving throw and take the higher result. You regain 1 @primary[grit] @alternate[panache] point when you succeed at two Reflex saving throws while using this dare.",
 			"",
-			"**Frantically Nimble (Ex):** While this dare is active, you gain a +2 dodge bonus to AC. You regain 1 :primary[grit] :alternate[panache] point when any enemy making a ranged or melee attack against you misses you three consecutive times. The attacks need not come from the same enemy.",
+			"**Frantically Nimble (Ex):** While this dare is active, you gain a +2 dodge bonus to AC. You regain 1 @primary[grit] @alternate[panache] point when any enemy making a ranged or melee attack against you misses you three consecutive times. The attacks need not come from the same enemy.",
 			"",
-			"**Out for Blood (Ex):** While this dare is active, your critical threat range with :primary[firearms] :alternate[light or one-handed piercing melee weapons] increases by 1 (20/&times;4 becomes 19-20/&times;4, 19-20/&times;2 becomes 18-20/&times;2, and so on). This effect does not stack with similar effects that modify a weapon's critical threat range.",
+			"**Out for Blood (Ex):** While this dare is active, your critical threat range with @primary[firearms] @alternate[light or one-handed piercing melee weapons] increases by 1 (20/&times;4 becomes 19-20/&times;4, 19-20/&times;2 becomes 18-20/&times;2, and so on). This effect does not stack with similar effects that modify a weapon's critical threat range.",
 			"",
-			"**Run Like Hell (Ex):** While this dare is active, your speed increases by 10 feet, and you retain your Dexterity bonus to your AC while running. You regain 1 :primary[grit] :alternate[panache] point the first time you are more than 100 feet away from your closest enemy."
+			"**Run Like Hell (Ex):** While this dare is active, your speed increases by 10 feet, and you retain your Dexterity bonus to your AC while running. You regain 1 @primary[grit] @alternate[panache] point the first time you are more than 100 feet away from your closest enemy."
 		],
 		"topLink": [ "Gunslinger", "class/gunslinger" ]
 	},
@@ -1122,13 +1122,13 @@
 			"",
 			"| Defense | Element | Burn |",
 			"| --- | --- | --- |",
-			"| :ripple[kinetic/Emptiness/ (Su)] | void | 0 |",
-			"| :ripple[kinetic/Enveloping Winds/ (Su)] | air | 0 |",
-			"| :ripple[kinetic/Flesh of Stone/ (Su)] | earth | 0 |",
-			"| :ripple[kinetic/Flesh of Wood/ (Su)] | wood | 0 |",
-			"| :ripple[kinetic/Force Ward/ (Su)] | aether | 0 |",
-			"| :ripple[kinetic/Searing Flesh/ (Su)] | fire | 0 |",
-			"| :ripple[kinetic/Shroud of Water/ (Su)] | water | 0 |"
+			"| @ripple[kinetic/Emptiness/ (Su)] | void | 0 |",
+			"| @ripple[kinetic/Enveloping Winds/ (Su)] | air | 0 |",
+			"| @ripple[kinetic/Flesh of Stone/ (Su)] | earth | 0 |",
+			"| @ripple[kinetic/Flesh of Wood/ (Su)] | wood | 0 |",
+			"| @ripple[kinetic/Force Ward/ (Su)] | aether | 0 |",
+			"| @ripple[kinetic/Searing Flesh/ (Su)] | fire | 0 |",
+			"| @ripple[kinetic/Shroud of Water/ (Su)] | water | 0 |"
 		],
 		"topLink": [ "Kineticist", "class/kineticist" ]
 	},
@@ -1218,7 +1218,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "!-BQ-!:hll[discovery/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-DESC-! !-^S-!"
+					"template": "!-BQ-!@hll[discovery/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-DESC-! !-^S-!"
 				},
 				[
 					"",
@@ -1232,7 +1232,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "!-BQ-!:hll[discovery/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-DESC-! !-^S-!"
+					"template": "!-BQ-!@hll[discovery/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-DESC-! !-^S-!"
 				},
 				[
 					"",
@@ -1246,7 +1246,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "!-BQ-!:hll[discovery/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-DESC-! !-^S-!"
+					"template": "!-BQ-!@hll[discovery/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-DESC-! !-^S-!"
 				},
 				[
 					"",
@@ -1260,7 +1260,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "!-BQ-!:hll[discovery/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-DESC-! !-^S-!"
+					"template": "!-BQ-!@hll[discovery/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-DESC-! !-^S-!"
 				},
 				[
 					"",
@@ -1274,7 +1274,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "!-BQ-!:hll[discovery/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-DESC-! !-^S-!"
+					"template": "!-BQ-!@hll[discovery/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-DESC-! !-^S-!"
 				},
 				[
 					"",
@@ -1288,7 +1288,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "!-BQ-!:hll[discovery/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-DESC-! !-^S-!"
+					"template": "!-BQ-!@hll[discovery/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-DESC-! !-^S-!"
 				},
 				[
 					"",
@@ -1302,7 +1302,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "!-BQ-!:hll[discovery/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-DESC-! !-^S-!"
+					"template": "!-BQ-!@hll[discovery/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-DESC-! !-^S-!"
 				}
 			]
 		},

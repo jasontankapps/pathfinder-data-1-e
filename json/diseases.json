@@ -686,9 +686,9 @@
 			"| Hit Dice | Monster |",
 			"| --- | --- |",
 			"| 1-3 | Plague zombie |",
-			"| 4-5 | :ripple[monster/Ghast] |",
-			"| 6-7 | :ripple[monster/Wight] |",
-			"| 8+ | :ripple[template/Vampire] |"
+			"| 4-5 | @ripple[monster/Ghast] |",
+			"| 6-7 | @ripple[monster/Wight] |",
+			"| 8+ | @ripple[template/Vampire] |"
 		]
 	}
 }

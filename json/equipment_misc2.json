@@ -2656,7 +2656,7 @@
 			"**Price** 200 gp; **Weight** 1/2 lb.  ",
 			"**Category** Alchemical Tools",
 			"",
-			":HL[Mythic:] If you are a mythic divine spellcaster and burn this incense while preparing spells, you can expend two uses of mythic power to prepare any one spell as a mythic spell (but not as an augmented mythic spell), even if you're normally unable to cast the mythic version of that spell. Incense of divinity burns for 1 hour; you can prepare as many mythic spells as you are able to during this time, but you must expend two uses of mythic power for each mythic spell so prepared.",
+			"@HL[Mythic:] If you are a mythic divine spellcaster and burn this incense while preparing spells, you can expend two uses of mythic power to prepare any one spell as a mythic spell (but not as an augmented mythic spell), even if you're normally unable to cast the mythic version of that spell. Incense of divinity burns for 1 hour; you can prepare as many mythic spells as you are able to during this time, but you must expend two uses of mythic power for each mythic spell so prepared.",
 			"",
 			"**{rule/Spontaneous Alchemy} Recipe** (50 {eq-reagent/dew of lunary} + 150 {eq-reagent/phosphorus})/exposure; **Craft DC** 30  ",
 			"**Time** 1 hour; **Tools** {eq-misc/filter}; **Type** alchemical tool"

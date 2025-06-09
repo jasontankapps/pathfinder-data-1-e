@@ -257,7 +257,7 @@
 						"regex": ">*(.+?)",
 						"replacement": "$1"
 					},
-					"template": "!-BQ-!:hll[ragepower/!-TITLE-!:] !-^S-! !-DESC-!"
+					"template": "!-BQ-!@hll[ragepower/!-TITLE-!:] !-^S-! !-DESC-!"
 				},
 				[
 					"",
@@ -276,7 +276,7 @@
 						"regex": "(.+?)(!-N-!)+\\*\\*Elemental Power:\\*\\*.+",
 						"replacement": "$1"
 					},
-					"template": ":hll[ragepower/!-TITLE-!:] !-^S-! !-DESC-!"
+					"template": "@hll[ragepower/!-TITLE-!:] !-^S-! !-DESC-!"
 				},
 				[
 					"",
@@ -295,7 +295,7 @@
 						"regex": "(.+?)(?:!-N-!)+\\*\\*Blood\\*\\* rage powers grant powers in a theme\\..+$|^>*(.+)",
 						"replacement": "$1$2"
 					},
-					"template": "!-BQ-!:hll[ragepower/!-TITLE-!:] !-^S-! !-DESC-!"
+					"template": "!-BQ-!@hll[ragepower/!-TITLE-!:] !-^S-! !-DESC-!"
 				}
 			]
 		},
@@ -603,7 +603,7 @@
 						"regex": "##.+!-N-!+(.+?)",
 						"replacement": "$1"
 					},
-					"template": ":hll[performance/!-TITLE-!/ !-SUFFIX-!:] !-DESC-!"
+					"template": "@hll[performance/!-TITLE-!/ !-SUFFIX-!:] !-DESC-!"
 				}
 			]
 		},

@@ -33,7 +33,7 @@
 						"regex": "(.+?)((?:!-N-!)+)(.+)",
 						"replacement": "$1!-^S-!$2$2$3"
 					},
-					"template": "!-N-!::h3[!-TITLE-!]{jl}!-N-!!-N-!!-DESC-!!-N-!!-N-!>*Bookmarkable page: :hll[eidolon/!-TITLE-!]*"
+					"template": "!-N-!::h3[!-TITLE-!]{jl}!-N-!!-N-!!-DESC-!!-N-!!-N-!>*Bookmarkable page: @hll[eidolon/!-TITLE-!]*"
 				}
 			]
 		},
@@ -63,7 +63,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "!-BQ-!:hll[invtalent/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-DESC-! !-^S-!"
+					"template": "!-BQ-!@hll[invtalent/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-DESC-! !-^S-!"
 				},
 				[
 					"",
@@ -79,7 +79,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "!-BQ-!:hll[invtalent/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-DESC-! !-^S-!"
+					"template": "!-BQ-!@hll[invtalent/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-DESC-! !-^S-!"
 				},
 				[
 					"",
@@ -95,7 +95,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "!-BQ-!:hll[invtalent/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-DESC-! !-^S-!"
+					"template": "!-BQ-!@hll[invtalent/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-DESC-! !-^S-!"
 				},
 				[
 					"",
@@ -111,7 +111,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "!-BQ-!:hll[invtalent/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-DESC-! !-^S-!"
+					"template": "!-BQ-!@hll[invtalent/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-DESC-! !-^S-!"
 				},
 				[
 					"",
@@ -125,7 +125,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "!-BQ-!:hll[invtalent/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-DESC-! !-^S-!"
+					"template": "!-BQ-!@hll[invtalent/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-DESC-! !-^S-!"
 				}
 			]
 		},
@@ -152,7 +152,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "!-BQ-!:hll[kipower/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-DESC-! !-^S-!"
+					"template": "!-BQ-!@hll[kipower/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-DESC-! !-^S-!"
 				}
 			]
 		},
@@ -284,7 +284,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "!-BQ-!:hll[hex/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-DESC-! !-^S-!"
+					"template": "!-BQ-!@hll[hex/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-DESC-! !-^S-!"
 				}
 			]
 		},
@@ -312,7 +312,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "!-BQ-!:hll[phrenicamp/!-TITLE-!:] !-DESC-! !-^S-!"
+					"template": "!-BQ-!@hll[phrenicamp/!-TITLE-!:] !-DESC-! !-^S-!"
 				}
 			]
 		},
@@ -340,7 +340,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "!-BQ-!:hll[trick/!-TITLE-!:] !-DESC-! !-^S-!"
+					"template": "!-BQ-!@hll[trick/!-TITLE-!:] !-DESC-! !-^S-!"
 				}
 			]
 		},
@@ -370,7 +370,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "!-BQ-!:hll[ninjatrick/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-DESC-! !-^S-!"
+					"template": "!-BQ-!@hll[ninjatrick/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-DESC-! !-^S-!"
 				},
 				[
 					"",
@@ -386,7 +386,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "!-BQ-!:hll[ninjatrick/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-DESC-! !-^S-!"
+					"template": "!-BQ-!@hll[ninjatrick/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-DESC-! !-^S-!"
 				},
 				[
 					"",
@@ -402,7 +402,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "!-BQ-!:hll[ninjatrick/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-DESC-! !-^S-!"
+					"template": "!-BQ-!@hll[ninjatrick/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-DESC-! !-^S-!"
 				},
 				[
 					"",
@@ -416,7 +416,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "!-BQ-!:hll[ninjatrick/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-DESC-! !-^S-!"
+					"template": "!-BQ-!@hll[ninjatrick/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-DESC-! !-^S-!"
 				}
 			]
 		},
@@ -445,7 +445,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": ":hll[mercy/!-TITLE-!:] !-DESC-!!-^S-!"
+					"template": "@hll[mercy/!-TITLE-!:] !-DESC-!!-^S-!"
 				},
 				[
 					"",
@@ -459,7 +459,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": ":hll[mercy/!-TITLE-!:] !-DESC-!!-^S-!"
+					"template": "@hll[mercy/!-TITLE-!:] !-DESC-!!-^S-!"
 				},
 				[
 					"",
@@ -473,7 +473,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": ":hll[mercy/!-TITLE-!:] !-DESC-!!-^S-!"
+					"template": "@hll[mercy/!-TITLE-!:] !-DESC-!!-^S-!"
 				},
 				[
 					"",
@@ -487,7 +487,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": ":hll[mercy/!-TITLE-!:] !-DESC-!!-^S-!"
+					"template": "@hll[mercy/!-TITLE-!:] !-DESC-!!-^S-!"
 				}
 			]
 		},
@@ -527,96 +527,96 @@
 			"",
 			"| Mystery | Deities |",
 			"| :---: | --- |",
-			"| :ripple[mystery/Ancestor] | {faith/Erastil}, {faith/Irori}, {faith/Pharasma} |",
-			"| :ripple[mystery/Apocalypse] | {faith/Gorum}, {faith/Rovagug} |",
-			"| :ripple[mystery/Ascetic] | {faith/Gozreh}, {faith/Irori} |",
-			"| :ripple[mystery/Battle] | {faith/Cayden Cailean}, {faith/Gorum}, {faith/Iomedae}, {faith/Rovagug} |",
-			"| :ripple[mystery/Bones] | {faith/Norgorber}, {faith/Pharasma}, {faith/Urgathoa} |",
-			"| :ripple[mystery/Dark Tapestry] | {faith/Lamashtu}, {faith/Norgorber}, {faith/Zon-Kuthon} |",
-			"| :ripple[mystery/Dragon] | {faith/Dahak}, {faith/General Susumu}, {faith/Nalinivati}, {faith/Ragadahn}, {faith/Shizuru} |",
-			"| :ripple[mystery/Elemental] | [Elemental Lords](main/faiths_pantheons), {faith/Gozreh}, {faith/Nethys}, {faith/Yamatsumi} |",
-			"| :ripple[mystery/Flame] | {faith/Asmodeus}, {faith/Sarenrae} |",
-			"| :ripple[mystery/Godclaw] | {faith/Abadar}, {faith/Asmodeus}, {faith/Iomedae}, {faith/Irori}, {faith/Torag} |",
-			"| :ripple[mystery/Heavens] | {faith/Desna}, {faith/Gozreh}, {faith/Pharasma}, {faith/Sarenrae} |",
-			"| :ripple[mystery/Intrigue] | {faith/Calistria}, {faith/Norgorber} |",
-			"| :ripple[mystery/Juju] | {faith/Wendo} |",
-			"| :ripple[mystery/Life] | {faith/Gozreh}, {faith/Pharasma}, {faith/Sarenrae} |",
-			"| :ripple[mystery/Lore] | {faith/Abadar}, {faith/Irori}, {faith/Nethys} |",
-			"| :ripple[mystery/Lunar] | {faith/Ashava}, {faith/Desna}, {faith/Groetus}, {faith/Jezelda}, {faith/Tsukiyo}, {faith/Zon-Kuthon} |",
-			"| :ripple[mystery/Metal] | {faith/Abadar}, {faith/Gorum}, {faith/Torag} |",
-			"| :ripple[mystery/Nature] | {faith/Erastil}, {faith/Gozreh} |",
-			"| :ripple[mystery/Occult] | {faith/Magdh}, {faith/Nethys}, {faith/Pharasma}, {faith/Tsukiyo} |",
-			"| :ripple[mystery/Outer Rifts] | {faith/Iomedae}, {faith/Groetus}, {faith/Lamashtu}, [Demon Lords](main/faiths_pantheons) |",
-			"| :ripple[mystery/Reaper] | {faith/Achaekek}, {faith/Groetus}, {faith/Pharasma} |",
-			"| :ripple[mystery/Shadow] | {faith/Groetus}, {faith/Lao Shu Po}, {faith/Tsukiyo}, {faith/Zon-Kuthon} |",
-			"| :ripple[mystery/Solar] | {faith/Desna}, {faith/Gozreh}, {faith/Iomedae}, {faith/Keltheald}, {faith/Lalaci}, {faith/Nurgal}, {faith/Sarenrae}, {faith/Ymeri} |",
-			"| :ripple[mystery/Spellscar] | {faith/Gozreh}, {faith/Lamashtu}, {faith/Nethys}, {faith/Zyphus} |",
-			"| :ripple[mystery/Stone] | {faith/Abadar}, {faith/Gorum}, {faith/Torag} |",
-			"| :ripple[mystery/Streets] | {faith/Cayden Cailean}, {faith/Milani}, {faith/Norgorber} |",
-			"| :ripple[mystery/Succor] | {faith/Milani}, {faith/Pharasma}, {faith/Qi Zhong}, {faith/Sarenrae} |",
-			"| :ripple[mystery/Time] | {faith/Gozreh}, {faith/Nethys}, {faith/Pharasma} |",
-			"| :ripple[mystery/Volcano] | {faith/Flauros}, {faith/Mhar}, {faith/Rovagug}, {faith/Valani}, {faith/Yamatsumi}, {faith/Ymeri} |",
-			"| :ripple[mystery/Waves] | {faith/Gozreh}, {faith/Pharasma} |",
-			"| :ripple[mystery/Whimsy] | {faith/The Green Mother}, {faith/The Lantern King}, {faith/Ng}, {faith/Shyka} |",
-			"| :ripple[mystery/Wind] | {faith/Gozreh}, {faith/Shelyn} |",
-			"| :ripple[mystery/Winter] | {faith/Gorum}, {faith/Gozreh}, {faith/Kostchtchie}, {faith/Ng}, {faith/Rovagug} |",
-			"| :ripple[mystery/Wood] | {faith/Erastil}, {faith/Gozreh} |",
+			"| @ripple[mystery/Ancestor] | {faith/Erastil}, {faith/Irori}, {faith/Pharasma} |",
+			"| @ripple[mystery/Apocalypse] | {faith/Gorum}, {faith/Rovagug} |",
+			"| @ripple[mystery/Ascetic] | {faith/Gozreh}, {faith/Irori} |",
+			"| @ripple[mystery/Battle] | {faith/Cayden Cailean}, {faith/Gorum}, {faith/Iomedae}, {faith/Rovagug} |",
+			"| @ripple[mystery/Bones] | {faith/Norgorber}, {faith/Pharasma}, {faith/Urgathoa} |",
+			"| @ripple[mystery/Dark Tapestry] | {faith/Lamashtu}, {faith/Norgorber}, {faith/Zon-Kuthon} |",
+			"| @ripple[mystery/Dragon] | {faith/Dahak}, {faith/General Susumu}, {faith/Nalinivati}, {faith/Ragadahn}, {faith/Shizuru} |",
+			"| @ripple[mystery/Elemental] | [Elemental Lords](main/faiths_pantheons), {faith/Gozreh}, {faith/Nethys}, {faith/Yamatsumi} |",
+			"| @ripple[mystery/Flame] | {faith/Asmodeus}, {faith/Sarenrae} |",
+			"| @ripple[mystery/Godclaw] | {faith/Abadar}, {faith/Asmodeus}, {faith/Iomedae}, {faith/Irori}, {faith/Torag} |",
+			"| @ripple[mystery/Heavens] | {faith/Desna}, {faith/Gozreh}, {faith/Pharasma}, {faith/Sarenrae} |",
+			"| @ripple[mystery/Intrigue] | {faith/Calistria}, {faith/Norgorber} |",
+			"| @ripple[mystery/Juju] | {faith/Wendo} |",
+			"| @ripple[mystery/Life] | {faith/Gozreh}, {faith/Pharasma}, {faith/Sarenrae} |",
+			"| @ripple[mystery/Lore] | {faith/Abadar}, {faith/Irori}, {faith/Nethys} |",
+			"| @ripple[mystery/Lunar] | {faith/Ashava}, {faith/Desna}, {faith/Groetus}, {faith/Jezelda}, {faith/Tsukiyo}, {faith/Zon-Kuthon} |",
+			"| @ripple[mystery/Metal] | {faith/Abadar}, {faith/Gorum}, {faith/Torag} |",
+			"| @ripple[mystery/Nature] | {faith/Erastil}, {faith/Gozreh} |",
+			"| @ripple[mystery/Occult] | {faith/Magdh}, {faith/Nethys}, {faith/Pharasma}, {faith/Tsukiyo} |",
+			"| @ripple[mystery/Outer Rifts] | {faith/Iomedae}, {faith/Groetus}, {faith/Lamashtu}, [Demon Lords](main/faiths_pantheons) |",
+			"| @ripple[mystery/Reaper] | {faith/Achaekek}, {faith/Groetus}, {faith/Pharasma} |",
+			"| @ripple[mystery/Shadow] | {faith/Groetus}, {faith/Lao Shu Po}, {faith/Tsukiyo}, {faith/Zon-Kuthon} |",
+			"| @ripple[mystery/Solar] | {faith/Desna}, {faith/Gozreh}, {faith/Iomedae}, {faith/Keltheald}, {faith/Lalaci}, {faith/Nurgal}, {faith/Sarenrae}, {faith/Ymeri} |",
+			"| @ripple[mystery/Spellscar] | {faith/Gozreh}, {faith/Lamashtu}, {faith/Nethys}, {faith/Zyphus} |",
+			"| @ripple[mystery/Stone] | {faith/Abadar}, {faith/Gorum}, {faith/Torag} |",
+			"| @ripple[mystery/Streets] | {faith/Cayden Cailean}, {faith/Milani}, {faith/Norgorber} |",
+			"| @ripple[mystery/Succor] | {faith/Milani}, {faith/Pharasma}, {faith/Qi Zhong}, {faith/Sarenrae} |",
+			"| @ripple[mystery/Time] | {faith/Gozreh}, {faith/Nethys}, {faith/Pharasma} |",
+			"| @ripple[mystery/Volcano] | {faith/Flauros}, {faith/Mhar}, {faith/Rovagug}, {faith/Valani}, {faith/Yamatsumi}, {faith/Ymeri} |",
+			"| @ripple[mystery/Waves] | {faith/Gozreh}, {faith/Pharasma} |",
+			"| @ripple[mystery/Whimsy] | {faith/The Green Mother}, {faith/The Lantern King}, {faith/Ng}, {faith/Shyka} |",
+			"| @ripple[mystery/Wind] | {faith/Gozreh}, {faith/Shelyn} |",
+			"| @ripple[mystery/Winter] | {faith/Gorum}, {faith/Gozreh}, {faith/Kostchtchie}, {faith/Ng}, {faith/Rovagug} |",
+			"| @ripple[mystery/Wood] | {faith/Erastil}, {faith/Gozreh} |",
 			"",
 			"::h3[Mysteries by Deity]{jl}",
 			"",
 			"| Deity | Mysteries |",
 			"| :---: | --- |",
-			"| :ripple[faith/Abadar] | {mystery/Godclaw}, {mystery/Lore}, {mystery/Metal}, {mystery/Stone} |",
-			"| :ripple[faith/Achaekek] | {mystery/Reaper} |",
-			"| :ripple[faith/Ashava] | {mystery/Lunar} |",
-			"| :ripple[faith/Asmodeus] | {mystery/Flame}, {mystery/Godclaw} |",
-			"| :ripple[faith/Calistria] | {mystery/Intrigue} |",
-			"| :ripple[faith/Cayden Cailean] | {mystery/Battle}, {mystery/Streets} |",
-			"| :ripple[faith/Dahak] | {mystery/Dragon} |",
-			"| :ripple[main/faiths<Demon\\| /Lords>pantheons] | {mystery/Outer Rifts} |",
-			"| :ripple[faith/Desna] | {mystery/Heavens}, {mystery/Lunar}, {mystery/Solar} |",
-			"| :ripple[main/faiths<Elemental\\| /Lords>pantheons] | {mystery/Elemental} |",
-			"| :ripple[faith/Erastil] | {mystery/Ancestor}, {mystery/Nature}, {mystery/Wood} |",
-			"| :ripple[faith/Flauros] | {mystery/Volcano} |",
-			"| :ripple[faith/General Susumu] | {mystery/Dragon} |",
-			"| :ripple[faith/Gorum] | {mystery/Apocalypse}, {mystery/Battle}, {mystery/Metal}, {mystery/Stone}, {mystery/Winter} |",
-			"| :ripple[faith/Gozreh] | {mystery/Ascetic}, {mystery/Elemental}, {mystery/Heavens}, {mystery/Life}, {mystery/Nature}, {mystery/Solar}, {mystery/Spellscar}, {mystery/Time}, {mystery/Waves}, {mystery/Wind}, {mystery/Winter}, {mystery/Wood} |",
-			"| :ripple[faith/the_<Green Mother/, The] | {mystery/Whimsy} |",
-			"| :ripple[faith/Groetus] | {mystery/Lunar}, {mystery/Outer Rifts}, {mystery/Reaper}, {mystery/Shadow} |",
-			"| :ripple[faith/Iomedae] | {mystery/Battle}, {mystery/Godclaw}, {mystery/Outer Rifts}, {mystery/Solar} |",
-			"| :ripple[faith/Irori] | {mystery/Ancestor}, {mystery/Ascetic}, {mystery/Godclaw}, {mystery/Lore} |",
-			"| :ripple[faith/Jezelda] | {mystery/Lunar} |",
-			"| :ripple[faith/Keltheald] | {mystery/Solar} |",
-			"| :ripple[faith/Kostchtchie] | {mystery/Winter} |",
-			"| :ripple[faith/Lalaci] | {mystery/Solar} |",
-			"| :ripple[faith/Lamashtu] | {mystery/Dark Tapestry}, {mystery/Outer Rifts}, {mystery/Spellscar} |",
-			"| :ripple[faith/the_<Lantern King/, The] | {mystery/Whimsy} |",
-			"| :ripple[faith/Lao Shu Po] | {mystery/Shadow} |",
-			"| :ripple[faith/Magdh] | {mystery/Occult} |",
-			"| :ripple[faith/Mhar] | {mystery/Volcano} |",
-			"| :ripple[faith/Milani] | {mystery/Streets}, {mystery/Succor} |",
-			"| :ripple[faith/Nalinivati] | {mystery/Dragon} |",
-			"| :ripple[faith/Nethys] | {mystery/Elemental}, {mystery/Lore}, {mystery/Occult}, {mystery/Spellscar}, {mystery/Time} |",
-			"| :ripple[faith/Ng] | {mystery/Whimsy}, {mystery/Winter} |",
-			"| :ripple[faith/Norgorber] | {mystery/Bones}, {mystery/Dark Tapestry}, {mystery/Intrigue}, {mystery/Streets} |",
-			"| :ripple[faith/Nurgal] | {mystery/Solar} |",
-			"| :ripple[faith/Pharasma] | {mystery/Ancestor}, {mystery/Bones}, {mystery/Heavens}, {mystery/Life}, {mystery/Occult}, {mystery/Reaper}, {mystery/Succor}, {mystery/Time}, {mystery/Waves} |",
-			"| :ripple[faith/Qi Zhong] | {mystery/Succor} |",
-			"| :ripple[faith/Ragadahn] | {mystery/Dragon} |",
-			"| :ripple[faith/Rovagug] | {mystery/Apocalypse}, {mystery/Battle}, {mystery/Volcano}, {mystery/Winter} |",
-			"| :ripple[faith/Sarenrae] | {mystery/Flame}, {mystery/Heavens}, {mystery/Life}, {mystery/Solar}, {mystery/Succor} |",
-			"| :ripple[faith/Shelyn] | {mystery/Wind} |",
-			"| :ripple[faith/Shizuru] | {mystery/Dragon} |",
-			"| :ripple[faith/Shyka] | {mystery/Whimsy} |",
-			"| :ripple[faith/Torag] | {mystery/Godclaw}, {mystery/Metal}, {mystery/Stone} |",
-			"| :ripple[faith/Tsukiyo] | {mystery/Lunar}, {mystery/Occult}, {mystery/Shadow} |",
-			"| :ripple[faith/Urgathoa] | {mystery/Bones} |",
-			"| :ripple[faith/Valani] | {mystery/Volcano} |",
-			"| :ripple[faith/Wendo] | {mystery/Juju} |",
-			"| :ripple[faith/Yamatsumi] | {mystery/Elemental}, {mystery/Volcano} |",
-			"| :ripple[faith/Ymeri] | {mystery/Solar}, {mystery/Volcano} |",
-			"| :ripple[faith/Zon-Kuthon] | {mystery/Dark Tapestry}, {mystery/Lunar}, {mystery/Shadow} |",
-			"| :ripple[faith/Zyphus] | {mystery/Spellscar} |"
+			"| @ripple[faith/Abadar] | {mystery/Godclaw}, {mystery/Lore}, {mystery/Metal}, {mystery/Stone} |",
+			"| @ripple[faith/Achaekek] | {mystery/Reaper} |",
+			"| @ripple[faith/Ashava] | {mystery/Lunar} |",
+			"| @ripple[faith/Asmodeus] | {mystery/Flame}, {mystery/Godclaw} |",
+			"| @ripple[faith/Calistria] | {mystery/Intrigue} |",
+			"| @ripple[faith/Cayden Cailean] | {mystery/Battle}, {mystery/Streets} |",
+			"| @ripple[faith/Dahak] | {mystery/Dragon} |",
+			"| @ripple[main/faiths<Demon\\| /Lords>pantheons] | {mystery/Outer Rifts} |",
+			"| @ripple[faith/Desna] | {mystery/Heavens}, {mystery/Lunar}, {mystery/Solar} |",
+			"| @ripple[main/faiths<Elemental\\| /Lords>pantheons] | {mystery/Elemental} |",
+			"| @ripple[faith/Erastil] | {mystery/Ancestor}, {mystery/Nature}, {mystery/Wood} |",
+			"| @ripple[faith/Flauros] | {mystery/Volcano} |",
+			"| @ripple[faith/General Susumu] | {mystery/Dragon} |",
+			"| @ripple[faith/Gorum] | {mystery/Apocalypse}, {mystery/Battle}, {mystery/Metal}, {mystery/Stone}, {mystery/Winter} |",
+			"| @ripple[faith/Gozreh] | {mystery/Ascetic}, {mystery/Elemental}, {mystery/Heavens}, {mystery/Life}, {mystery/Nature}, {mystery/Solar}, {mystery/Spellscar}, {mystery/Time}, {mystery/Waves}, {mystery/Wind}, {mystery/Winter}, {mystery/Wood} |",
+			"| @ripple[faith/the_<Green Mother/, The] | {mystery/Whimsy} |",
+			"| @ripple[faith/Groetus] | {mystery/Lunar}, {mystery/Outer Rifts}, {mystery/Reaper}, {mystery/Shadow} |",
+			"| @ripple[faith/Iomedae] | {mystery/Battle}, {mystery/Godclaw}, {mystery/Outer Rifts}, {mystery/Solar} |",
+			"| @ripple[faith/Irori] | {mystery/Ancestor}, {mystery/Ascetic}, {mystery/Godclaw}, {mystery/Lore} |",
+			"| @ripple[faith/Jezelda] | {mystery/Lunar} |",
+			"| @ripple[faith/Keltheald] | {mystery/Solar} |",
+			"| @ripple[faith/Kostchtchie] | {mystery/Winter} |",
+			"| @ripple[faith/Lalaci] | {mystery/Solar} |",
+			"| @ripple[faith/Lamashtu] | {mystery/Dark Tapestry}, {mystery/Outer Rifts}, {mystery/Spellscar} |",
+			"| @ripple[faith/the_<Lantern King/, The] | {mystery/Whimsy} |",
+			"| @ripple[faith/Lao Shu Po] | {mystery/Shadow} |",
+			"| @ripple[faith/Magdh] | {mystery/Occult} |",
+			"| @ripple[faith/Mhar] | {mystery/Volcano} |",
+			"| @ripple[faith/Milani] | {mystery/Streets}, {mystery/Succor} |",
+			"| @ripple[faith/Nalinivati] | {mystery/Dragon} |",
+			"| @ripple[faith/Nethys] | {mystery/Elemental}, {mystery/Lore}, {mystery/Occult}, {mystery/Spellscar}, {mystery/Time} |",
+			"| @ripple[faith/Ng] | {mystery/Whimsy}, {mystery/Winter} |",
+			"| @ripple[faith/Norgorber] | {mystery/Bones}, {mystery/Dark Tapestry}, {mystery/Intrigue}, {mystery/Streets} |",
+			"| @ripple[faith/Nurgal] | {mystery/Solar} |",
+			"| @ripple[faith/Pharasma] | {mystery/Ancestor}, {mystery/Bones}, {mystery/Heavens}, {mystery/Life}, {mystery/Occult}, {mystery/Reaper}, {mystery/Succor}, {mystery/Time}, {mystery/Waves} |",
+			"| @ripple[faith/Qi Zhong] | {mystery/Succor} |",
+			"| @ripple[faith/Ragadahn] | {mystery/Dragon} |",
+			"| @ripple[faith/Rovagug] | {mystery/Apocalypse}, {mystery/Battle}, {mystery/Volcano}, {mystery/Winter} |",
+			"| @ripple[faith/Sarenrae] | {mystery/Flame}, {mystery/Heavens}, {mystery/Life}, {mystery/Solar}, {mystery/Succor} |",
+			"| @ripple[faith/Shelyn] | {mystery/Wind} |",
+			"| @ripple[faith/Shizuru] | {mystery/Dragon} |",
+			"| @ripple[faith/Shyka] | {mystery/Whimsy} |",
+			"| @ripple[faith/Torag] | {mystery/Godclaw}, {mystery/Metal}, {mystery/Stone} |",
+			"| @ripple[faith/Tsukiyo] | {mystery/Lunar}, {mystery/Occult}, {mystery/Shadow} |",
+			"| @ripple[faith/Urgathoa] | {mystery/Bones} |",
+			"| @ripple[faith/Valani] | {mystery/Volcano} |",
+			"| @ripple[faith/Wendo] | {mystery/Juju} |",
+			"| @ripple[faith/Yamatsumi] | {mystery/Elemental}, {mystery/Volcano} |",
+			"| @ripple[faith/Ymeri] | {mystery/Solar}, {mystery/Volcano} |",
+			"| @ripple[faith/Zon-Kuthon] | {mystery/Dark Tapestry}, {mystery/Lunar}, {mystery/Shadow} |",
+			"| @ripple[faith/Zyphus] | {mystery/Spellscar} |"
 		],
 		"topLink": [ "Oracle", "class/oracle" ]
 	},
@@ -644,7 +644,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "!-BQ-!:hll[ninjatrick/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-^S-! !-DESC-!"
+					"template": "!-BQ-!@hll[ninjatrick/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-^S-! !-DESC-!"
 				},
 				[
 					"",
@@ -660,7 +660,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "!-BQ-!:hll[ninjatrick/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-^S-! !-DESC-!"
+					"template": "!-BQ-!@hll[ninjatrick/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-^S-! !-DESC-!"
 				},
 				[
 					"",
@@ -676,7 +676,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "!-BQ-!:hll[ninjatrick/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-^S-! !-DESC-!"
+					"template": "!-BQ-!@hll[ninjatrick/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-^S-! !-DESC-!"
 				},
 				[
 					"",
@@ -690,7 +690,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "!-BQ-!:hll[ninjatrick/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-^S-! !-DESC-!"
+					"template": "!-BQ-!@hll[ninjatrick/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-^S-! !-DESC-!"
 				}
 			]
 		},
@@ -714,7 +714,7 @@
 				{
 					"limit": "1",
 					"join": [ "", "", "" ],
-					"template": ":hll[swashdeed/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-DESC-!"
+					"template": "@hll[swashdeed/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-DESC-!"
 				},
 				[
 					"",
@@ -724,7 +724,7 @@
 				{
 					"limit": "3",
 					"join": [ "", "", "" ],
-					"template": ":hll[swashdeed/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-DESC-!"
+					"template": "@hll[swashdeed/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-DESC-!"
 				},
 				[
 					"",
@@ -734,7 +734,7 @@
 				{
 					"limit": "7",
 					"join": [ "", "", "" ],
-					"template": ":hll[swashdeed/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-DESC-!"
+					"template": "@hll[swashdeed/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-DESC-!"
 				},
 				[
 					"",
@@ -744,7 +744,7 @@
 				{
 					"limit": "11",
 					"join": [ "", "", "" ],
-					"template": ":hll[swashdeed/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-DESC-!"
+					"template": "@hll[swashdeed/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-DESC-!"
 				},
 				[
 					"",
@@ -754,7 +754,7 @@
 				{
 					"limit": "15",
 					"join": [ "", "", "" ],
-					"template": ":hll[swashdeed/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-DESC-!"
+					"template": "@hll[swashdeed/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-DESC-!"
 				},
 				[
 					"",
@@ -764,7 +764,7 @@
 				{
 					"limit": "19",
 					"join": [ "", "", "" ],
-					"template": ":hll[swashdeed/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-DESC-!"
+					"template": "@hll[swashdeed/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-DESC-!"
 				}
 			]
 		},
@@ -826,7 +826,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "!-BQ-!:hll[trick/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-DESC-! !-^S-!"
+					"template": "!-BQ-!@hll[trick/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-DESC-! !-^S-!"
 				}
 			]
 		},
@@ -873,57 +873,57 @@
 			"",
 			"| Bloodline | Description | Wildblooded Mutation |",
 			"| :---: | --- | :---: |",
-			"| :ripple[sorcbloodline/Aberrant] | There is a taint in your blood, one that is alien and bizarre. | Warped |",
-			"| :ripple[sorcbloodline/Abyssal] | Generations ago, a demon spread its filth into your heritage. | Brutal |",
-			"| :ripple[sorcbloodline/Accursed] | Misfortune, pestilence, and nightmares follow your family like vermin drawn to carrion. | |",
-			"| :ripple[sorcbloodline/Aquatic] | Your family traces its heritage back to the ocean depths, whether scions of undersea empires left in the wake of nomadic sea-tribes, or the spawn of creeping ichthyic infiltrators into remote seaside villages. | Seaborn |",
-			"| :ripple[sorcbloodline/Arcane] | Your family has always been skilled in the eldritch art of magic. | Sage |",
-			"| :ripple[sorcbloodline/Astral] | Whether you were raised on the Astral Plane, had an ancestor with a strong connection to the Astral, or simply had a freak brush with an astral conduit in your youth, you have an unusual connection to both time and space. | |",
-			"| :ripple[sorcbloodline/Boreal] | Descended from inhabitants of the lands of ice and snow, you count among your ancestors giant-kin, troll-born, and frost-rimed spirits. | Rime-Blooded |",
-			"| :ripple[sorcbloodline/Celestial] | Your bloodline is blessed by a celestial power, either from a celestial ancestor or through divine intervention. | Empyreal |",
-			"| :ripple[sorcbloodline/Daemon] | Your powers derive from daemons, who take pleasure and gain power from manipulating mortal frailties like aging, pestilence, famine, and the horrors of war. | |",
-			"| :ripple[sorcbloodline/Deep Earth] | The echoing cave-songs and the rumble and creak of primal spirits deep below the ground thrum in your soul and in all your family line. | Bedrock |",
-			"| :ripple[sorcbloodline/Destined] | Your family is destined for greatness in some way. | Karmic |",
-			"| :ripple[sorcbloodline/Div] | You can trace your ancestry to one of the foul, corrupted genies known as divs. | |",
-			"| :ripple[sorcbloodline/Djinni] | You were born with the power of air genies, and the magic of the djinn is strong in you. | |",
-			"| :ripple[sorcbloodline/Draconic] | At some point in your family's history, a dragon interbred with your bloodline, and now its ancient power flows through your veins. | Linnorm |",
-			"| :ripple[sorcbloodline/Dreamspun] | Your family is a long line of dreamers, who dream not as ordinary mortals do but rather as those who reach through and touch the supernal realm of dreams and the farthest shores of night. | Visionary |",
-			"| :ripple[sorcbloodline/Ectoplasm] | The power of the Ethereal Plane thrums in your mind and pulls at your flesh. | |",
-			"| :ripple[sorcbloodline/Efreeti] | You were born with the power of fire genies, and the magic of the efreet is strong in you. | |",
-			"| :ripple[sorcbloodline/Elemental] | The power of the elements resides in you, and at times you can hardly control its fury. | Lifewater, Primal |",
-			"| :ripple[sorcbloodline/Fey] | The capricious nature of the fey runs in your family due to some intermingling of fey blood or magic. | Dark Fey, Sylvan |",
-			"| :ripple[sorcbloodline/Ghoul] | Your connection to the hungering undead shapes your magic. | |",
-			"| :ripple[sorcbloodline/Harrow] | Just as knowledge of the harrow has passed from generation to generation since time immemorial, so too has a deep spiritual connection to the otherworldly forces bound by the harrow passed through the ages. | |",
-			"| :ripple[sorcbloodline/Imperious] | (Human Only) A scion of forgotten kings, with a lineage rich with the dust of ancient empires spanning every golden age of humanity's history, an imperious embodies the apex of human potential, as well as human temerity and uninhibited hubris. | |",
-			"| :ripple[sorcbloodline/Impossible] | You can see beyond the mundane, and are capable of visualizing the improbable, and even the impossible. | |",
-			"| :ripple[sorcbloodline/Infernal] | Somewhere in your family's history, a relative made a deal with a devil, and that pact has influenced your family line ever since. | Pit-Touched |",
-			"| :ripple[sorcbloodline/Kobold Sorcerer] | (Kobold Only) While many kobold sorcerers tout their purely draconic bloodline, over generations of eldritch training, some such spellcasters have created a bloodline that, while tinged with some draconic magic, is the embodiment of the race's virtue distilled into arcane form. | |",
-			"| :ripple[sorcbloodline/Maestro] | The spiritual power of art and song runs strongly through your family line. | |",
-			"| :ripple[sorcbloodline/Marid] | You were born with the power of water genies, and the magic of the marids is strong in you. | Shahzada |",
-			"| :ripple[sorcbloodline/Martyred] | One of your ancestors paid the ultimate price for your beliefs. | Retribution |",
-			"| :ripple[sorcbloodline/Naga] | Naga blood flows within your veins. Perhaps a curious naga experimented upon one of your ancestors in an attempt to create the perfect servant, or maybe one of your ancestors was a shapeshifting naga. Either way, you boast powers similar to those of true nagas. | |",
-			"| :ripple[sorcbloodline/Nanite] | Either you were born from one of the forgewombs scattered throughout the wastelands, or you were infected by nanites, which now course through your blood. | |",
-			"| :ripple[sorcbloodline/Oni] | As slaves of capricious oni lords, your ancestors were forced to yield to their masters' hedonistic desires, inevitably tainting their descendents with oni blood. | |",
-			"| :ripple[sorcbloodline/Orc] | The rage of your ancestors burns within you, and the taint of savage orc blood flows through your veins. | |",
-			"| :ripple[sorcbloodline/Pestilence] | You were born during the height of a great magical plague, to a mother suffering from an eldritch disease, or you suffered an eldritch pox as a child, such that your very soul now carries a blight of pestilence within it. | |",
-			"| :ripple[sorcbloodline/Phoenix] | One of your ancestors bore witness to a phoenix's resurrection and formed a bond with the magical creature. The resurrecting flames still course through your veins, surging with power. | |",
-			"| :ripple[sorcbloodline/Possessed] | The mystical connection with your possessing spirit allows you to gain more control over your body and mind. | |",
-			"| :ripple[sorcbloodline/Protean] | You have in your veins the ever-changing wildness of primal chaos, the raw essence of unbound creation. | Anarchic |",
-			"| :ripple[sorcbloodline/Psychic] | Psychic power runs thorough your blood, whether it be from a familial predisposition to psychic power or exposure to a powerful psychic phenomenon. Whatever the source of this power, your mind is a dangerous weapon. | |",
-			"| :ripple[sorcbloodline/Rakshasa] | At some point in your family's history, one of your ancestors was tainted by the influence of a rakshasa. | |",
-			"| :ripple[sorcbloodline/Salamander] | You are descended from the elemental outsiders known as salamanders. You wield flame as a weapon and a tool, and your smithing skills are unrivaled. | |",
-			"| :ripple[sorcbloodline/Scorpion] | Whether your ancestors served a scorpion goddess or simply worked closely with more mundane members of the species, the venom from these arachnids has seeped down through generations into your blood. | |",
-			"| :ripple[sorcbloodline/Serpentine] | Your bloodline carries the lingering stain of ancient serpent races that ruled when the world was young. | Envenomed |",
-			"| :ripple[sorcbloodline/Shadow] | Spirits from the shadow plane dally at times in the world of light, and such as these lay with your ancestors once upon a time, imparting the mystery of shadow-stuff into your lineage. | Umbral |",
-			"| :ripple[sorcbloodline/Shaitan] | You were born with the power of earth genies, and the magic of the shaitans is strong in you. | |",
-			"| :ripple[sorcbloodline/Shapechanger] | Channeling the power of your shapeshifting ancestors that you carry in your blood, you gain powers that allow you to change your shape and alter your appearance and physical abilities. | |",
-			"| :ripple[sorcbloodline/Solar] | Sorcerers who serve in the sun goddess's court display powers infused with the glory of the sun itself. | |",
-			"| :ripple[sorcbloodline/Starsoul] | You come from a line of stargazers and explorers who delved deeply into the darkness beyond the stars. | Void-Touched |",
-			"| :ripple[sorcbloodline/Stormborn] | You trace your heritage to fierce and proud spirits of storm and sky, and living lightning sings in your veins. | Arial |",
-			"| :ripple[sorcbloodline/Undead] | The taint of the grave runs through your family. | Sanguine |",
-			"| :ripple[sorcbloodline/Unicorn] | Deeply empathetic and fiercely protective, unicorns on occasion form close bonds with humans, often young and noble-hearted women. When the two have a particularly strong bond, the unicorn's magic can become a part of the bonded human, and sometimes is even passed on to her children. These children, blessed by their parent's connection to that force of true good, grow up to become sorcerers of the unicorn bloodline. | |",
-			"| :ripple[sorcbloodline/Verdant] | Your progenitors infused themselves with raw plant life, binding it into their own tissue and passing it down to their literal seed, giving you innate communion with nature. | Groveborn |",
-			"| :ripple[sorcbloodline/Vestige] | You trace your ancestry to a bygone civilization and can call upon its forgotten people or places for power. | |"
+			"| @ripple[sorcbloodline/Aberrant] | There is a taint in your blood, one that is alien and bizarre. | Warped |",
+			"| @ripple[sorcbloodline/Abyssal] | Generations ago, a demon spread its filth into your heritage. | Brutal |",
+			"| @ripple[sorcbloodline/Accursed] | Misfortune, pestilence, and nightmares follow your family like vermin drawn to carrion. | |",
+			"| @ripple[sorcbloodline/Aquatic] | Your family traces its heritage back to the ocean depths, whether scions of undersea empires left in the wake of nomadic sea-tribes, or the spawn of creeping ichthyic infiltrators into remote seaside villages. | Seaborn |",
+			"| @ripple[sorcbloodline/Arcane] | Your family has always been skilled in the eldritch art of magic. | Sage |",
+			"| @ripple[sorcbloodline/Astral] | Whether you were raised on the Astral Plane, had an ancestor with a strong connection to the Astral, or simply had a freak brush with an astral conduit in your youth, you have an unusual connection to both time and space. | |",
+			"| @ripple[sorcbloodline/Boreal] | Descended from inhabitants of the lands of ice and snow, you count among your ancestors giant-kin, troll-born, and frost-rimed spirits. | Rime-Blooded |",
+			"| @ripple[sorcbloodline/Celestial] | Your bloodline is blessed by a celestial power, either from a celestial ancestor or through divine intervention. | Empyreal |",
+			"| @ripple[sorcbloodline/Daemon] | Your powers derive from daemons, who take pleasure and gain power from manipulating mortal frailties like aging, pestilence, famine, and the horrors of war. | |",
+			"| @ripple[sorcbloodline/Deep Earth] | The echoing cave-songs and the rumble and creak of primal spirits deep below the ground thrum in your soul and in all your family line. | Bedrock |",
+			"| @ripple[sorcbloodline/Destined] | Your family is destined for greatness in some way. | Karmic |",
+			"| @ripple[sorcbloodline/Div] | You can trace your ancestry to one of the foul, corrupted genies known as divs. | |",
+			"| @ripple[sorcbloodline/Djinni] | You were born with the power of air genies, and the magic of the djinn is strong in you. | |",
+			"| @ripple[sorcbloodline/Draconic] | At some point in your family's history, a dragon interbred with your bloodline, and now its ancient power flows through your veins. | Linnorm |",
+			"| @ripple[sorcbloodline/Dreamspun] | Your family is a long line of dreamers, who dream not as ordinary mortals do but rather as those who reach through and touch the supernal realm of dreams and the farthest shores of night. | Visionary |",
+			"| @ripple[sorcbloodline/Ectoplasm] | The power of the Ethereal Plane thrums in your mind and pulls at your flesh. | |",
+			"| @ripple[sorcbloodline/Efreeti] | You were born with the power of fire genies, and the magic of the efreet is strong in you. | |",
+			"| @ripple[sorcbloodline/Elemental] | The power of the elements resides in you, and at times you can hardly control its fury. | Lifewater, Primal |",
+			"| @ripple[sorcbloodline/Fey] | The capricious nature of the fey runs in your family due to some intermingling of fey blood or magic. | Dark Fey, Sylvan |",
+			"| @ripple[sorcbloodline/Ghoul] | Your connection to the hungering undead shapes your magic. | |",
+			"| @ripple[sorcbloodline/Harrow] | Just as knowledge of the harrow has passed from generation to generation since time immemorial, so too has a deep spiritual connection to the otherworldly forces bound by the harrow passed through the ages. | |",
+			"| @ripple[sorcbloodline/Imperious] | (Human Only) A scion of forgotten kings, with a lineage rich with the dust of ancient empires spanning every golden age of humanity's history, an imperious embodies the apex of human potential, as well as human temerity and uninhibited hubris. | |",
+			"| @ripple[sorcbloodline/Impossible] | You can see beyond the mundane, and are capable of visualizing the improbable, and even the impossible. | |",
+			"| @ripple[sorcbloodline/Infernal] | Somewhere in your family's history, a relative made a deal with a devil, and that pact has influenced your family line ever since. | Pit-Touched |",
+			"| @ripple[sorcbloodline/Kobold Sorcerer] | (Kobold Only) While many kobold sorcerers tout their purely draconic bloodline, over generations of eldritch training, some such spellcasters have created a bloodline that, while tinged with some draconic magic, is the embodiment of the race's virtue distilled into arcane form. | |",
+			"| @ripple[sorcbloodline/Maestro] | The spiritual power of art and song runs strongly through your family line. | |",
+			"| @ripple[sorcbloodline/Marid] | You were born with the power of water genies, and the magic of the marids is strong in you. | Shahzada |",
+			"| @ripple[sorcbloodline/Martyred] | One of your ancestors paid the ultimate price for your beliefs. | Retribution |",
+			"| @ripple[sorcbloodline/Naga] | Naga blood flows within your veins. Perhaps a curious naga experimented upon one of your ancestors in an attempt to create the perfect servant, or maybe one of your ancestors was a shapeshifting naga. Either way, you boast powers similar to those of true nagas. | |",
+			"| @ripple[sorcbloodline/Nanite] | Either you were born from one of the forgewombs scattered throughout the wastelands, or you were infected by nanites, which now course through your blood. | |",
+			"| @ripple[sorcbloodline/Oni] | As slaves of capricious oni lords, your ancestors were forced to yield to their masters' hedonistic desires, inevitably tainting their descendents with oni blood. | |",
+			"| @ripple[sorcbloodline/Orc] | The rage of your ancestors burns within you, and the taint of savage orc blood flows through your veins. | |",
+			"| @ripple[sorcbloodline/Pestilence] | You were born during the height of a great magical plague, to a mother suffering from an eldritch disease, or you suffered an eldritch pox as a child, such that your very soul now carries a blight of pestilence within it. | |",
+			"| @ripple[sorcbloodline/Phoenix] | One of your ancestors bore witness to a phoenix's resurrection and formed a bond with the magical creature. The resurrecting flames still course through your veins, surging with power. | |",
+			"| @ripple[sorcbloodline/Possessed] | The mystical connection with your possessing spirit allows you to gain more control over your body and mind. | |",
+			"| @ripple[sorcbloodline/Protean] | You have in your veins the ever-changing wildness of primal chaos, the raw essence of unbound creation. | Anarchic |",
+			"| @ripple[sorcbloodline/Psychic] | Psychic power runs thorough your blood, whether it be from a familial predisposition to psychic power or exposure to a powerful psychic phenomenon. Whatever the source of this power, your mind is a dangerous weapon. | |",
+			"| @ripple[sorcbloodline/Rakshasa] | At some point in your family's history, one of your ancestors was tainted by the influence of a rakshasa. | |",
+			"| @ripple[sorcbloodline/Salamander] | You are descended from the elemental outsiders known as salamanders. You wield flame as a weapon and a tool, and your smithing skills are unrivaled. | |",
+			"| @ripple[sorcbloodline/Scorpion] | Whether your ancestors served a scorpion goddess or simply worked closely with more mundane members of the species, the venom from these arachnids has seeped down through generations into your blood. | |",
+			"| @ripple[sorcbloodline/Serpentine] | Your bloodline carries the lingering stain of ancient serpent races that ruled when the world was young. | Envenomed |",
+			"| @ripple[sorcbloodline/Shadow] | Spirits from the shadow plane dally at times in the world of light, and such as these lay with your ancestors once upon a time, imparting the mystery of shadow-stuff into your lineage. | Umbral |",
+			"| @ripple[sorcbloodline/Shaitan] | You were born with the power of earth genies, and the magic of the shaitans is strong in you. | |",
+			"| @ripple[sorcbloodline/Shapechanger] | Channeling the power of your shapeshifting ancestors that you carry in your blood, you gain powers that allow you to change your shape and alter your appearance and physical abilities. | |",
+			"| @ripple[sorcbloodline/Solar] | Sorcerers who serve in the sun goddess's court display powers infused with the glory of the sun itself. | |",
+			"| @ripple[sorcbloodline/Starsoul] | You come from a line of stargazers and explorers who delved deeply into the darkness beyond the stars. | Void-Touched |",
+			"| @ripple[sorcbloodline/Stormborn] | You trace your heritage to fierce and proud spirits of storm and sky, and living lightning sings in your veins. | Arial |",
+			"| @ripple[sorcbloodline/Undead] | The taint of the grave runs through your family. | Sanguine |",
+			"| @ripple[sorcbloodline/Unicorn] | Deeply empathetic and fiercely protective, unicorns on occasion form close bonds with humans, often young and noble-hearted women. When the two have a particularly strong bond, the unicorn's magic can become a part of the bonded human, and sometimes is even passed on to her children. These children, blessed by their parent's connection to that force of true good, grow up to become sorcerers of the unicorn bloodline. | |",
+			"| @ripple[sorcbloodline/Verdant] | Your progenitors infused themselves with raw plant life, binding it into their own tissue and passing it down to their literal seed, giving you innate communion with nature. | Groveborn |",
+			"| @ripple[sorcbloodline/Vestige] | You trace your ancestry to a bygone civilization and can call upon its forgotten people or places for power. | |"
 		],
 		"topLink": [ "Sorcerer", "class/sorcerer" ]
 	},
@@ -952,31 +952,31 @@
 			"",
 			"| Outsider | Legend |",
 			"| --- | --- |",
-			"| :ripple[spirit/Abrogail Thrune I] | Hierophant |",
-			"| :ripple[spirit/Ambras Imre] | Trickster |",
-			"| :ripple[spirit/Ardril, the Would-Be King] | Champion |",
-			"| :ripple[spirit/Arnisant] | Guardian |",
-			"| :ripple[spirit/Azghaad I] | Marshal |",
-			"| :ripple[spirit/Beldam I] | Trickster |",
-			"| :ripple[spirit/Butcher] | Champion |",
-			"| :ripple[spirit/Cyricas] | Hierophant |",
-			"| :ripple[spirit/Daronlyr XII] | Archmage |",
-			"| :ripple[spirit/Deceiver] | Trickster |",
-			"| :ripple[spirit/Father of Legends] | Marshal |",
-			"| :ripple[spirit/Gennaris III] | Champion |",
-			"| :ripple[spirit/Heretic] | Hierophant |",
-			"| :ripple[spirit/Kelksiomides] | Hierophant |",
-			"| :ripple[spirit/Lich] | Archmage |",
-			"| :ripple[spirit/Namzaruum] | Marshal |",
-			"| :ripple[spirit/Nex] | Archmage |",
-			"| :ripple[spirit/Psomeira] | Champion |",
-			"| :ripple[spirit/Savith] | Champion |",
-			"| :ripple[spirit/Stavian I] | Guardian |",
-			"| :ripple[spirit/Sulesh the Great] | Archmage |",
-			"| :ripple[spirit/Taldaris] | Marshal |",
-			"| :ripple[spirit/Terminator] | Guardian |",
-			"| :ripple[spirit/Twice-Damned Prince] | Trickster |",
-			"| :ripple[spirit/Warmonger] | Marshal |"
+			"| @ripple[spirit/Abrogail Thrune I] | Hierophant |",
+			"| @ripple[spirit/Ambras Imre] | Trickster |",
+			"| @ripple[spirit/Ardril, the Would-Be King] | Champion |",
+			"| @ripple[spirit/Arnisant] | Guardian |",
+			"| @ripple[spirit/Azghaad I] | Marshal |",
+			"| @ripple[spirit/Beldam I] | Trickster |",
+			"| @ripple[spirit/Butcher] | Champion |",
+			"| @ripple[spirit/Cyricas] | Hierophant |",
+			"| @ripple[spirit/Daronlyr XII] | Archmage |",
+			"| @ripple[spirit/Deceiver] | Trickster |",
+			"| @ripple[spirit/Father of Legends] | Marshal |",
+			"| @ripple[spirit/Gennaris III] | Champion |",
+			"| @ripple[spirit/Heretic] | Hierophant |",
+			"| @ripple[spirit/Kelksiomides] | Hierophant |",
+			"| @ripple[spirit/Lich] | Archmage |",
+			"| @ripple[spirit/Namzaruum] | Marshal |",
+			"| @ripple[spirit/Nex] | Archmage |",
+			"| @ripple[spirit/Psomeira] | Champion |",
+			"| @ripple[spirit/Savith] | Champion |",
+			"| @ripple[spirit/Stavian I] | Guardian |",
+			"| @ripple[spirit/Sulesh the Great] | Archmage |",
+			"| @ripple[spirit/Taldaris] | Marshal |",
+			"| @ripple[spirit/Terminator] | Guardian |",
+			"| @ripple[spirit/Twice-Damned Prince] | Trickster |",
+			"| @ripple[spirit/Warmonger] | Marshal |"
 		],
 		"topLink": [ "Medium", "class/medium" ]
 	}

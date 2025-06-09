@@ -236,7 +236,7 @@ const getDuplicateSpecialContainerBlocks = () => {
 
 const inlineTags = {
 	level: "inline",
-	marker: ":",
+	marker: "@",
 	renderer: (token) => {
 		const {text = "", attrs = {}, meta} = token;
 		const { hasAlternateText } = $.flags;
@@ -256,7 +256,7 @@ const inlineTags = {
 		};
 		let tag = meta.name;
 		if(tag === "ripple" || tag === "hll") {
-			// :ripple[link/Text]
+			// @ripple[link/Text]
 			$.flags.link = true;
 			$.flags.ripple = true;
 			const m = checkForEncodedLink(text, { bare: true });

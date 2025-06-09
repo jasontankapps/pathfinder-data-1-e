@@ -337,7 +337,7 @@
 			"",
 			"This congealed incendiary functions like {eq-weapon/alchemist's fire}, but its white-hot flames deal 2d6 points of fire damage on a direct hit and 1d6 points of splash damage to adjacent creatures.",
 			"",
-			":HL[Mythic:] You can expend one use of mythic power while throwing a flask of Artokus's fire to cause the substance to burn hotter and longer than normal. A creature struck by a direct hit of Artokus's fire must succeed at a DC 15 Reflex save or continue to take 1d4 points of fire damage each round at the beginning of its turn. A burning creature can attempt a new save as a full-round action. This effect lasts for a number of rounds equal to the user's mythic tier, and otherwise acts as the {umr/burn} universal monster rule. Artokus's fire used in this way burns even underwater, offering no relief to creatures that try to extinguish the fire by dousing or immersing themselves in water.",
+			"@HL[Mythic:] You can expend one use of mythic power while throwing a flask of Artokus's fire to cause the substance to burn hotter and longer than normal. A creature struck by a direct hit of Artokus's fire must succeed at a DC 15 Reflex save or continue to take 1d4 points of fire damage each round at the beginning of its turn. A burning creature can attempt a new save as a full-round action. This effect lasts for a number of rounds equal to the user's mythic tier, and otherwise acts as the {umr/burn} universal monster rule. Artokus's fire used in this way burns even underwater, offering no relief to creatures that try to extinguish the fire by dousing or immersing themselves in water.",
 			"",
 			"**{rule/Spontaneous Alchemy} Recipe** (20 {eq-reagent/magnesium} + 25 {eq-reagent/saltpeter} + 30 {eq-reagent/spirit of wine})/congelation; **Craft DC** 30  ",
 			"**Time** 1 hour; **Tools** {eq-misc/alchemist's lab}; **Type** alchemical weapon"
@@ -355,13 +355,13 @@
 			"",
 			"The nearly invisible gas contained in this fragile glass sphere temporarily but drastically deteriorates the defenses - both manufactured and natural - of those affected. A blanch bomb is effective only against a target that is vulnerable to the type of blanch bomb employed against it. A blanch bomb is {rule/throw[n as a] splash weapon} with a range increment of 10 feet. Upon contact with a hard surface, the blanch bomb releases a hazy cloud of gas within a 10-foot-radius {misc/burst} centered on the point of impact. This cloud lasts for 1d4+1 rounds and can be dispersed as {spell/fog cloud}. If a creature whose damage reduction is overcome by the specified substance begins its turn in the affected area, the subject's DR/adamantine, DR/cold iron, or DR/silver (depending on the type of blanch bomb used) degrades at a rate of 1 point per round for as long as the creature remains in the area (to a minimum of DR 0). If the subject ends its turn outside the affected area, the creature's damage reduction returns to its original amount at a rate of 1 point per round.",
 			"",
-			":HL[Mythic:] You can expend one use of mythic power while throwing a blanch bomb to infuse the item with mythic power. When the blanch bomb activates, creatures in the area with the matching DR vulnerability must succeed at DC 16 Reflex saves or their DR is immediately reduced by an amount equal to 1/2 your mythic tier. The gas created by the blanch bomb lasts an additional number of rounds equal to your mythic tier, and it cannot be dispersed by wind. Non-mythic subjects who leave the affected area regain their DR at a rate of 1 point per minute.",
+			"@HL[Mythic:] You can expend one use of mythic power while throwing a blanch bomb to infuse the item with mythic power. When the blanch bomb activates, creatures in the area with the matching DR vulnerability must succeed at DC 16 Reflex saves or their DR is immediately reduced by an amount equal to 1/2 your mythic tier. The gas created by the blanch bomb lasts an additional number of rounds equal to your mythic tier, and it cannot be dispersed by wind. Non-mythic subjects who leave the affected area regain their DR at a rate of 1 point per minute.",
 			"",
 			"### {rule/Spontaneous Alchemy} Recipes",
 			"",
-			":HL[Adamantine:] (50 {eq-reagent/cold iron} + 75 {eq-reagent/magnesium} + 50 {eq-reagent/saltpeter})/congelation; **Craft DC** 30  ",
-			":HL[Cold Iron:] (100 {eq-reagent/cold iron} + 50 {eq-reagent/phosphorus} + 20 {eq-reagent/saltpeter})/congelation; **Craft DC** 25  ",
-			":HL[Silver:] (40 {eq-reagent/quicksilver} + 15 {eq-reagent/saltpeter} + 25 {eq-reagent/silver})/congelation; **Craft DC** 25  ",
+			"@HL[Adamantine:] (50 {eq-reagent/cold iron} + 75 {eq-reagent/magnesium} + 50 {eq-reagent/saltpeter})/congelation; **Craft DC** 30  ",
+			"@HL[Cold Iron:] (100 {eq-reagent/cold iron} + 50 {eq-reagent/phosphorus} + 20 {eq-reagent/saltpeter})/congelation; **Craft DC** 25  ",
+			"@HL[Silver:] (40 {eq-reagent/quicksilver} + 15 {eq-reagent/saltpeter} + 25 {eq-reagent/silver})/congelation; **Craft DC** 25  ",
 			"**Time** 1 hour; **Tools** {eq-misc/crucible}; **Type** alchemical weapon"
 		],
 		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
@@ -1746,7 +1746,7 @@
 			"",
 			"A stormstone functions like a {eq-weapon/thunderstone}, but deals 1d6 points of sonic damage in addition to {misc/deafen/ing} creatures; a successful DC 15 Fortitude save halves the damage and reduces the deafness to 1 round rather than negating it.",
 			"",
-			":HL[Mythic:] If you expend one use of mythic power while throwing a stormstone, the item deals an amount of electricity damage equal to your mythic tier to all affected creatures, regardless of whether they succeed at their save. Creatures that fail their saving throws against a mythic stormstone become {misc/staggered} for 1 round in addition to the other effects. The stormstone ignores non-mythic resistances, non-mythic immunity to electricity or sonic damage, and non-mythic silencing effects.",
+			"@HL[Mythic:] If you expend one use of mythic power while throwing a stormstone, the item deals an amount of electricity damage equal to your mythic tier to all affected creatures, regardless of whether they succeed at their save. Creatures that fail their saving throws against a mythic stormstone become {misc/staggered} for 1 round in addition to the other effects. The stormstone ignores non-mythic resistances, non-mythic immunity to electricity or sonic damage, and non-mythic silencing effects.",
 			"",
 			"**{rule/Spontaneous Alchemy} Recipe** (15 {eq-reagent/black powder} + 85 {eq-reagent/phosphorus})/digestion; **Craft DC** 30  ",
 			"**Time** 1 hour; **Tools** {eq-misc/crucible}; **Type** alchemical weapon"
@@ -1764,7 +1764,7 @@
 			"",
 			"This small sack of green-gray powder is thrown as a {rule/throw_<splash weapon} with a range increment of 10 feet. A creature struck by a direct hit must succeed at a DC 18 Fortitude save or begin choking and gasping for air as if {rule/suffocati/ng>on} (DC 12 for creatures in the splash radius). Affected creatures cannot breathe or speak for 1 round.",
 			"",
-			":HL[Mythic:] You can expend one use of mythic power while throwing a bag of suffocating powder to charge the item with mythic power. Non-mythic creatures do not receive saving throws to avoid the suffocation effect. Affected creatures suffocate for an additional number of rounds equal to your mythic tier.",
+			"@HL[Mythic:] You can expend one use of mythic power while throwing a bag of suffocating powder to charge the item with mythic power. Non-mythic creatures do not receive saving throws to avoid the suffocation effect. Affected creatures suffocate for an additional number of rounds equal to your mythic tier.",
 			"",
 			"**{rule/Spontaneous Alchemy} Recipe** (50 {eq-reagent/brimstone} + 50 {eq-reagent/phosphorus} + 5 {eq-reagent/realgar})/sublimation; **Craft DC** 20  ",
 			"**Time** 1 hour; **Tools** {eq-misc/retort}; **Type** alchemical weapon"

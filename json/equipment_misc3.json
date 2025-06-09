@@ -4205,7 +4205,7 @@
 			"**Price** 80 gp; **Weight** 1 lb.  ",
 			"**Category** Alchemical Remedies",
 			"",
-			":HL[Mythic:] Consuming a vial of surge syrup grants you a +1d4 alchemical bonus on your next mythic surge roll. Every round after you consume surge syrup that you don't use your surge ability, the bonus provided by this item decreases by 1 (minimum 0).",
+			"@HL[Mythic:] Consuming a vial of surge syrup grants you a +1d4 alchemical bonus on your next mythic surge roll. Every round after you consume surge syrup that you don't use your surge ability, the bonus provided by this item decreases by 1 (minimum 0).",
 			"",
 			"**{rule/Spontaneous Alchemy} Recipe** (12 {eq-reagent/dew of lunary} + 40 {eq-reagent/spirit of wine} + 40 {eq-reagent/urea})/congelation; **Craft DC** 25  ",
 			"**Time** 10 minutes; **Tools** {eq-misc/alchemist's lab}; **Type** alchemical remedy"
