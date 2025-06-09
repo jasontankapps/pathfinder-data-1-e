@@ -979,7 +979,8 @@
 			"**Prerequisites:** No levels in a class that has the panache class feature.  ",
 			"**Benefit:** You gain a small amount of panache and the ability to perform a single 1st-level {ability/swashbuckler deed>s}. Choose a 1st-level deed from the swashbuckler's deeds class feature (you can't select *opportune parry and riposte*). Once chosen, this deed cannot be changed.",
 			"",
-			"At the start of each day, you gain 1 panache point. Throughout the day, you can gain a number of panache points up to a maximum of your Charisma modifier (minimum 1). You can regain panache points as the {class/swashbuckler/'s} panache class feature. You can spend these panache points to perform the 1st-level deed you chose upon taking this feat as well as any other deeds you have gained through feats or magic items.  ",
+			"At the start of each day, you gain 1 panache point. Throughout the day, you can gain a number of panache points up to a maximum of your Charisma modifier (minimum 1). You can regain panache points as the {class/swashbuckler/'s} panache class feature. You can spend these panache points to perform the 1st-level deed you chose upon taking this feat as well as any other deeds you have gained through feats or magic items.",
+			"",
 			"**Special:** If you gain levels in a class that has the panache class feature, you can immediately trade this feat for the {feat/Extra Panache} feat.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -2666,7 +2667,8 @@
 			"",
 			"When you call an outsider of the chosen subtype with *planar ally* spells, you reduce the price it demands for service by 25%, to a minimum of 1,000 gp.",
 			"",
-			"When you bind an outsider of the chosen subtype with *planar binding* spells and request a service of the outsider, you gain a +2 bonus on Charisma checks to do so.  ",
+			"When you bind an outsider of the chosen subtype with *planar binding* spells and request a service of the outsider, you gain a +2 bonus on Charisma checks to do so.",
+			"",
 			"**Special:** You can gain this feat multiple times. Its effects do not stack. Each time you take the feat, it applies to a different subtype of outsider."
 		]
 	},
@@ -3708,7 +3710,7 @@
 			"{SOURCE Agents of Evil/8}",
 			"",
 			"Believing in a just cause left you with a knife in your back. Now you hoard your trust in others, rarely sharing it.  ",
-			"**Prerequisites:** You must have had a valuable item (worth at least 1, 000 gp per character level) stolen by a former ally, have been left for dead by a former ally, or have the [Wrong Enemy](rule/bad_beginnings) conflict background.  ",
+			"**Prerequisites:** You must have had a valuable item (worth at least 1,000 gp per character level) stolen by a former ally, have been left for dead by a former ally, or have the [Wrong Enemy](rule/bad_beginnings) conflict background.  ",
 			"**Benefit:** When you are in a harmful area of effect created by an ally (through a spell or other means), you can roll your saving throw twice and take the better result. If you do so, your shaken trust means you do not provide {rule/flanking} bonuses to any allies for 1 hour.  ",
 			"**Goal:** Track down the people who betrayed you, and either bring them to justice or slay them. At the GM's discretion, certain members of this group can be spared if they provide important information leading to more prominent targets.  ",
 			"**Completion Benefit:** You grow more confident in reading others, if not exactly more trusting of them. Your allies and enemies no longer provide {rule/cover} bonuses on attacks you make against other creatures. You also gain a 20% miss chance against any attacks of opportunity made against you, as long as an ally is threatening the creature making the attack."
@@ -4270,7 +4272,8 @@
 			"",
 			"An invisible attacker gets no advantages related to hitting you in melee. That is, you don't lose your Dexterity bonus to Armor Class, and the attacker doesn't get the usual +2 bonus for being invisible. The invisible attacker's bonuses do still apply for ranged attacks, however.",
 			"",
-			"You do not need to make Acrobatics skill checks to move at full speed while blinded.  ",
+			"You do not need to make Acrobatics skill checks to move at full speed while blinded.",
+			"",
 			"**Normal:** Regular attack roll modifiers for invisible attackers trying to hit you apply, and you lose your Dexterity bonus to AC. The speed reduction for darkness and poor visibility also applies.  ",
 			"**Special:** The Blind-Fight feat is of no use against a character who is the subject of a {spell/blink} spell.",
 			"",

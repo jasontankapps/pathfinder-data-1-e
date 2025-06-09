@@ -525,7 +525,7 @@
 			"The forces of darkness gird you against the light.  ",
 			"**Benefit:** You gain defensive abilities related to your patron's outsider subtype. For example, if your patron is a devil, the abilities listed below tie into the devil subtype. These benefits tie to your patron's subtype, not your specific patron (its abilities might differ from the norm).",
 			"",
-			"**One Damnation Feat:** Choose one of the energy types to which your patron's outsider subtype grants resistance. You gain resistance 5 against that energy type.  ",
+			"**One :hll[main/feats_<Damnation/ Feat:]** Choose one of the energy types to which your patron's outsider subtype grants resistance. You gain resistance 5 against that energy type.  ",
 			"**Two Damnation Feats:** Choose one of the energy types to which your patron's outsider subtype grants resistance. You gain resistance 5 against that energy type. If you already have resistance to the chosen energy type (even from earlier benefits of this feat), this new resistance stacks with the existing resistance.  ",
 			"**Three Damnation Feats:** Choose one of the energy types to which your patron's outsider subtype grants resistance. You gain immunity to the selected energy type.  ",
 			"**Four Damnation Feats:** Your creature type changes to outsider (native). Additionally, choose one energy type to which your patron's outsider subtype grants immunity or resistance. You gain immunity to that energy type."
@@ -1073,7 +1073,8 @@
 			"**Prerequisites:** Knowledge (planes) 9 ranks.  ",
 			"**Benefit:** You can use {spell/dimension door} as a spell-like ability with a caster level equal to your ranks in Knowledge (planes). You can't teleport a distance greater than twice your base speed in this way, and you must have both line of sight and line of effect to your destination.",
 			"",
-			"You can use this feat's benefit once per day, plus an additional time per day for every 5 ranks you have in Knowledge (planes).  ",
+			"You can use this feat's benefit once per day, plus an additional time per day for every 5 ranks you have in Knowledge (planes).",
+			"",
 			"**Special:** A fighter with this feat treats {feat/Dimensional Agility} and any feat that lists it as a prerequisite as though they were combat feats when selecting fighter bonus feats."
 		]
 	},
@@ -1464,7 +1465,8 @@
 			"",
 			"Whenever you spend downtime to perform skilled work to {rule/gain[ focus]«ing» capital}, you gain half again the normal amount (rounded down). However, you must also choose a second, separate type of capital from the same list to be your neglected capital. Whenever you spend downtime to perform skilled work to gain neglected capital, you gain only half the amount you normally would. This feat only affects capital you gain by performing skilled work, not capital you might gain by performing unskilled work, purchasing capital, or running a business.",
 			"",
-			"For example, say you chose Goods as your focus capital and Magic as your neglected capital. If you spent a day performing skilled work to gain Goods, and the result of your Sleight of Hands skill check is a 33, you would gain 4 Goods (rather than the usual 3 for a result of 30 or higher). However, if you were to spend the following day using your Spellcraft check to perform skilled work and again got a result of 33, you would only gain 2 Magic rather than the usual 3.  ",
+			"For example, say you chose Goods as your focus capital and Magic as your neglected capital. If you spent a day performing skilled work to gain Goods, and the result of your Sleight of Hands skill check is a 33, you would gain 4 Goods (rather than the usual 3 for a result of 30 or higher). However, if you were to spend the following day using your Spellcraft check to perform skilled work and again got a result of 33, you would only gain 2 Magic rather than the usual 3.",
+			"",
 			"**Special:** You may take this feat twice. The second time, you must choose the other two types of capital to be a focus and a neglected capital."
 		]
 	},
@@ -1981,7 +1983,7 @@
 			"",
 			"{SOURCE Plane-Hopper's Handbook/22}",
 			"",
-			"You realize that the endless march of time is more of a drunkard's lurch, and this grants you status in the eyes of the Many.  ",
+			"You realize that the endless march of time is more of a drunkard's lurch, and this grants you status in the eyes of [the Many](faith/shyka).  ",
 			"**Prerequisites:** Fey creature type or {feat/Fey Obedience} (Shyka), you must have either visited or interacted with an outsider from the Dimension of Time.  ",
 			"**Benefit:** Three times per day as a free action, you can increase your speed by any amount up to your base speed until the end of your turn. On the subsequent round, your speed is reduced by the same amount."
 		]
@@ -2110,7 +2112,8 @@
 			"**Prerequisites:** {race/Duergar}, two racial spell-like abilities usable once per day.  ",
 			"**Benefit:** You gain a number of additional uses of your once per day racial spell-like abilities equal to the number of such abilities you have. You can expend these additional uses in any combination. Normal duergar spell-like abilities and those granted by duergar racial traits both count for the purpose of this feat.",
 			"",
-			"For example, a normal duergar has two once per day spell-like abilities ({spell/enlarge person} and {spell/invisibility}), so taking this feat would grant her two additional uses of her once per day spell-like abilities; each day she can use either two additional uses of *enlarge person,* two additional uses of *invisibility,* or one additional use of each.  ",
+			"For example, a normal duergar has two once per day spell-like abilities ({spell/enlarge person} and {spell/invisibility}), so taking this feat would grant her two additional uses of her once per day spell-like abilities; each day she can use either two additional uses of *enlarge person,* two additional uses of *invisibility,* or one additional use of each.",
+			"",
 			"**Special:** You can take this feat multiple times. Its effects stack."
 		]
 	},
@@ -3013,7 +3016,8 @@
 			"**Prerequisites:** Fly speed.  ",
 			"**Benefit:** A creature with this feat can halt its movement while flying, allowing it to hover without needing to make a Fly skill check.",
 			"",
-			"If a creature of size Large or larger with this feat hovers within 20 feet of the ground in an area with lots of loose debris, the draft from its wings creates a hemispherical cloud with a radius of 60 feet. The winds generated can snuff torches, small campfires, exposed lanterns, and other small, open flames of non-magical origin. Clear vision within the cloud is limited to 10 feet. Creatures have concealment at 15 to 20 feet (20% miss chance). At 25 feet or more, creatures have total concealment (50% miss chance, and opponents cannot use sight to locate the creature).  ",
+			"If a creature of size Large or larger with this feat hovers within 20 feet of the ground in an area with lots of loose debris, the draft from its wings creates a hemispherical cloud with a radius of 60 feet. The winds generated can snuff torches, small campfires, exposed lanterns, and other small, open flames of non-magical origin. Clear vision within the cloud is limited to 10 feet. Creatures have concealment at 15 to 20 feet (20% miss chance). At 25 feet or more, creatures have total concealment (50% miss chance, and opponents cannot use sight to locate the creature).",
+			"",
 			"**Normal:** Without this feat, a creature must make a Fly skill check to hover and the creature does not create a cloud of debris while hovering."
 		]
 	},
@@ -3415,7 +3419,7 @@
 			"**Prerequisites:** Proficiency with the selected weapon.  ",
 			"**Benefit:** Select one type of weapon, such as {eq-weapon/longsword}. You are always considered to be proficient with modified weapons of that type.  ",
 			"**Normal:** A modified weapon is treated as one category more difficult to wield.  ",
-			"**Special:** A warpriest with the focus weapon class feature can gain this feat with his deity's favored weapon in place of his bonus {feat/Weapon Focus} feat. A {class/magus} with the {arc-magus/kensai} archetype can gain this feat with his chosen weapon in place of his bonus Weapon Focus feat."
+			"**Special:** A {class/warpriest} with the focus weapon class feature can gain this feat with his deity's favored weapon in place of his bonus {feat/Weapon Focus} feat. A {class/magus} with the {arc-magus/kensai} archetype can gain this feat with his chosen weapon in place of his bonus Weapon Focus feat."
 		]
 	},
 	"monastic_legacy": {
@@ -3460,7 +3464,7 @@
 			"**Prerequisites:** Knowledge (planes) 3 ranks, must worship a monitor demigod.  ",
 			"**Benefit:** Each monitor demigod requires a different obedience, but all obediences take only 1 hour to perform. Once you've performed the obedience, you gain the benefit of a special ability or resistance as indicated in the Obedience entry for the demigod.",
 			"",
-			"If you have at least 12 Hit Dice, you also gain the first boon granted by your monitor demigod upon undertaking your obedience. If you have at least 16 Hit Dice, you also gain the monitor demigod's second boon. If you have 20 Hit Dice or more, you also gain the monitor demigod's third boon. Unless a boon lists a specific duration or number of uses per day, its effects are constant.",
+			"If you have at least 12 Hit Dice, you also gain the first boon granted by your monitor demigod upon undertaking your obedience. If you have at least 16 Hit Dice, you also gain the monitor demigod's second boon. If you have 20 Hit Dice or more, you also gain the monitor demigod's third boon. Unless a boon lists a specific duration or number of uses per day, its effects are constant. {pclass/Proctor/s} gain these abilities at an excellerated rate.",
 			"",
 			"If you ever fail to perform a daily obedience, you lose access to the benefits and boons granted by this feat until you next perform the obedience."
 		]
@@ -3536,7 +3540,7 @@
 			"",
 			"Your unarmed fighting style is nimble and unpredictable, full of ground rolls and short leaps.  ",
 			"**Prerequisites:** Wis 13, {feat/Improved Unarmed Strike}, Acrobatics 5 ranks, Climb 5 ranks.  ",
-			"**Benefit:** You add your Wisdom bonus on Acrobatics checks. While using this style, you take no penalty on melee attack rolls or to AC while prone. Further, you can crawl and stand up from lying prone without provoking attacks of opportunity, and you can stand up as a swift action if you succeed at a DC 20 Acrobatics check.  ",
+			"**Benefit:** You add your Wisdom bonus on Acrobatics checks. While using this style, you take no penalty on melee attack rolls or to AC while {rule/prone}. Further, you can crawl and stand up from lying prone without provoking attacks of opportunity, and you can stand up as a swift action if you succeed at a DC 20 Acrobatics check.  ",
 			"**Normal:** You take a -4 penalty on attack rolls and AC against melee attacks while prone. Standing up is a standard action that provokes attacks of opportunity.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -3555,7 +3559,7 @@
 			"",
 			"Your knowledge of strange life forms makes you adept at piercing their disguises and detecting their hiding places.  ",
 			"**Prerequisites:** {feat/Skill Focus} (Knowledge [any]), Knowledge (any) 3 ranks.  ",
-			"**Benefit:** You can substitute a Knowledge skill for opposed Perception checks against creatures' Disguise and Stealth checks, and for Survival checks to track creatures. You must have 3 ranks in the Knowledge skill that corresponds to the creature's type."
+			"**Benefit:** You can substitute a {skill/Knowledge} skill for opposed Perception checks against creatures' Disguise and Stealth checks, and for Survival checks to track creatures. You must have 3 ranks in the Knowledge skill that corresponds to the creature's type."
 		]
 	},
 	"monstrous_companion": {
@@ -3567,7 +3571,7 @@
 			"{SOURCE Cohorts and Companions/9}",
 			"",
 			"You have formed a bond with a creature far more exotic than an animal.  ",
-			"**Prerequisites:** Handle Animal 7 ranks; class feature that functions as the druid animal companion ability (including animal companion, divine bond [mount], hunter's bond [animal companion], nature's bond [animal companion], and the mount class feature) with an effective druid level of 7.  ",
+			"**Prerequisites:** Handle Animal 7 ranks; class feature that functions as the druid {ability/animal companion} ability (including animal companion, divine bond [mount], hunter's bond [animal companion], nature's bond [animal companion], and the mount class feature) with an effective druid level of 7.  ",
 			"**Benefit:** You can select a magical beast as a cohort in place of your animal companion class feature. The following chart determines the effective cohort level for your monstrous companion based on your effective druid level.",
 			"",
 			"| Effective Druid Level | Effective Cohort Level |",
@@ -3659,7 +3663,7 @@
 			"",
 			"You have learned how to tame and ride exotic beasts.  ",
 			"**Prerequisites:** Handle Animal 4 ranks; Ride 4 ranks; divine bond (mount), hunter's bond (animal companion), or mount class feature with an effective druid level of 4.  ",
-			"**Benefit:** You can select an exotic beast from the list of monstrous mounts to serve as your animal companion or special mount. You acquire and advance this creature in the same way as the mount or animal companion detailed in the class feature used as a prerequisite for this feat. You can also dismiss the creature as dictated by your class feature.",
+			"**Benefit:** You can select an exotic beast from the list of monstrous mounts to serve as your animal companion or special mount. (They are labeled as \"monstrous\" in the list of possible {ability/animal companion/s}.) You acquire and advance this creature in the same way as the mount or animal companion detailed in the class feature used as a prerequisite for this feat. You can also dismiss the creature as dictated by your class feature.",
 			"",
 			"You must meet additional prerequisites to choose a creature with an Intelligence score of 3 or higher, as described in each creature's entry."
 		]
@@ -3674,7 +3678,7 @@
 			"",
 			"Your monstrous mount has developed an ability that only its wild kin would normally possess.  ",
 			"**Prerequisites:** {feat/Monstrous Mount}, character level equal to or higher than that listed in your mount's Mastery entry.  ",
-			"**Benefit:** Your monstrous mount gains the abilities and bonuses listed under Mastery in its stat block. You must be of at least the indicated level for the mount to use these abilities, so if you dismiss a mount and gain a new mount of a different type, you retain the feat but might not yet be of sufficient level for the new mount to gain its Mastery benefits.  ",
+			"**Benefit:** Your monstrous mount gains the abilities and bonuses listed under **Mastery** in its stat block. You must be of at least the indicated level for the mount to use these abilities, so if you dismiss a mount and gain a new mount of a different type, you retain the feat but might not yet be of sufficient level for the new mount to gain its Mastery benefits.  ",
 			"**Normal:** A monstrous mount is unable to use its Mastery abilities regardless of its advancement."
 		]
 	},
@@ -3687,8 +3691,8 @@
 			"{SOURCE Ultimate Campaign/71}",
 			"",
 			"Your inspired architecture shall make your name immortal.  ",
-			"**Prerequisites:** Knowledge (engineering) 1 rank, and you must have built a structure worth at least 5, 000 gp.  ",
-			"**Benefit:** When you supervise a construction project or do the construction yourself, reduce your raw material costs by 10%. You gain a +2 bonus on Knowledge (engineering) checks. If you have 10 or more ranks in Knowledge (engineering), this bonus increases to +4.  ",
+			"**Prerequisites:** Knowledge (engineering) 1 rank, and you must have built a structure worth at least 5,000 gp.  ",
+			"**Benefit:** When you supervise a {rule/construct/ion project>_buildings} or do the construction yourself, reduce your raw material costs by 10%. You gain a +2 bonus on Knowledge (engineering) checks. If you have 10 or more ranks in Knowledge (engineering), this bonus increases to +4.  ",
 			"**Goal:** Design and construct a building worth at least 100,000 gp with great personal significance to you. For example, you might construct a new temple for your god on the site where an old temple was destroyed, or an academy for students to unlock the secrets of the universe.  ",
 			"**Completion Benefit:** The value of any past and future buildings you construct (including the building constructed to achieve your goal) increases by 10% as your reputation spreads. In addition, you and your workers complete double the normal amount of work in a given time interval when you supervise a construction project."
 		]
@@ -3766,8 +3770,8 @@
 			"{SOURCE Ultimate Magic/153}",
 			"",
 			"Your summoned minions are infused with the power of the moon.  ",
-			"**Prerequisites:** {feat/Spell Focus} (conjuration), able to cast summon nature's ally.  ",
-			"**Benefit:** Creatures you summon shed light as a light spell. They are immune to confusion and sleep effects, and their natural weapons are treated as silver for the purposes of overcoming damage reduction."
+			"**Prerequisites:** {feat/Spell Focus} (conjuration), able to cast {spell/summon nature's ally>_1}.  ",
+			"**Benefit:** Creatures you summon shed light as a {spell/light} spell. They are immune to confusion and sleep effects, and their natural weapons are treated as silver for the purposes of overcoming damage reduction."
 		]
 	},
 	"moontouched": {
@@ -4407,7 +4411,8 @@
 			"**Prerequisites:** [Risen Guard](rule/f_second_life) rank, Risen Guard 10 TPA.  ",
 			"**Benefit:** Anyone who attempts to use magic in order to learn personal information about you, such as through divination, scrying, or similar magic, must make a caster level check with a DC equal to 10 plus your level to succeed. You are immune to spells that require the use of your name in order to function (such as trap the soul).",
 			"",
-			"Most members of the Risen Guard with this feat are addressed by their rank.  ",
+			"Most members of the Risen Guard with this feat are addressed by their rank.",
+			"",
 			"**Special:** If you ever choose a real name, you lose all benefits of this feat."
 		]
 	},

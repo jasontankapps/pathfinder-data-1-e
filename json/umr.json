@@ -1050,6 +1050,7 @@
 			"**Location:** Melee and Ranged."
 		]
 	},
+	"natural_attack": { "copyof": "natural_attacks" },
 	"natural_weapons": { "copyof": "natural_attacks" },
 	"spell_like_abilities": {
 		"name": "Spell-Like Abilities",

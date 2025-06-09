@@ -1098,7 +1098,7 @@ Object.values(all_usable_groups).forEach((group, groupindex) => {
 
 const filename = `./src/json/_data__redirects.json`;
 testfile = get(filename).trim();
-const theOutput = JSON.stringify($.redirects);
+const theOutput = JSON.stringify($.redirects).trim();
 if(testfile === theOutput) {
 	console.log(`UNCHANGED: ${filename}`);
 } else {

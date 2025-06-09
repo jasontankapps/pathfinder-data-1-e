@@ -2912,6 +2912,7 @@
 		],
 		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
 	},
+	"double_sling": { "copyof": "halfling_double_sling" },
 	"halfling_sling_staff": {
 		"name": "Halfling sling staff",
 		"sources": [

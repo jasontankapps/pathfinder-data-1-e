@@ -441,7 +441,8 @@
 			"",
 			"Whenever you use a bouncing spell-like ability against a single target and the ability has no effect on it (whether due to spell resistance or a successful saving throw), as a swift action, you can redirect the spell-like ability to target another eligible creature within range. The redirected spell-like ability behaves as if its new target were the original target for the spell-like ability. Spell-like abilities that affect a target in any way (including a lesser effect from a successful saving throw) can't be redirected in this manner.",
 			"",
-			"You can only select a spell-like ability duplicating a spell with a level less than or equal to 1/2 your caster level (round down) - 1  ",
+			"You can only select a spell-like ability duplicating a spell with a level less than or equal to 1/2 your caster level (round down) - 1",
+			"",
 			"**Special:** This feat can be taken multiple times. Each time it is taken, you can apply it to a different spell-like ability.",
 			"",
 			"| Spell Level | Caster Level |",
@@ -2287,7 +2288,8 @@
 			"**Prerequisites:** Domain class feature, {ability/channel energy} class feature, must worship and receive spells from a deity.  ",
 			"**Benefit:** Choose one {ability/variant channeling} ability. The chosen ability must match one of your deity's domains, subdomains, or areas of concern. Three times per day when you channel energy, you can apply the modifications of the chosen variant channeling ability to your channeled energy, including reductions to the damage dealt or healing performed by your channeled energy.",
 			"",
-			"If you already have a variant channeling ability, this feat instead allows you to channel energy without the modifications of your chosen variant channeling ability (including reductions to the damage dealt or healing performed by your channeled energy) three times per day.  ",
+			"If you already have a variant channeling ability, this feat instead allows you to channel energy without the modifications of your chosen variant channeling ability (including reductions to the damage dealt or healing performed by your channeled energy) three times per day.",
+			"",
 			"**Special:** This feat can be selected twice. The second time you do, you can use Channeling Variance whenever you channel energy instead of just three times per day."
 		]
 	},
@@ -2485,7 +2487,8 @@
 			"**Prerequisites:** {feat/Endurance}.  ",
 			"**Benefit:** When your hit point total is below 0, but you are not dead, you automatically {misc/stabilize}. You do not need to make a Constitution check each round to avoid losing additional hit points. You may choose to act as if you were {misc/disabled}, rather than {misc/dying}. You must make this decision as soon as you are reduced to negative hit points (even if it isn't your turn). If you do not choose to act as if you were disabled, you immediately fall {misc/unconscious}.",
 			"",
-			"When using this feat, you are {misc/staggered}. You can take a move action without further injuring yourself, but if you perform any standard action (or any other action deemed as strenuous, including some swift actions, such as casting a {feat/quickened} spell) you take 1 point of damage after completing the act. If your negative hit points are equal to or greater than your Constitution score, you immediately die.  ",
+			"When using this feat, you are {misc/staggered}. You can take a move action without further injuring yourself, but if you perform any standard action (or any other action deemed as strenuous, including some swift actions, such as casting a {feat/quickened} spell) you take 1 point of damage after completing the act. If your negative hit points are equal to or greater than your Constitution score, you immediately die.",
+			"",
 			"**Normal:** A character without this feat who is reduced to negative hit points is unconscious and dying."
 		]
 	},
@@ -3217,7 +3220,8 @@
 			"",
 			"For 1 round after you use a disruptive spell-like ability, affected targets attempting to cast as spell must attempt {rule/concentration} checks when casting spells or use spell-like abilities (DC = the disruptive spell-like ability's DC + the level of the spell the target is casting or spell-like ability it's using). Targets that avoid the spell-like ability's effects also avoid this feat's effect.",
 			"",
-			"You can only select a spell-like ability duplicating a spell with a level less than or equal to 1/2 your caster level (round down) - 1  ",
+			"You can only select a spell-like ability duplicating a spell with a level less than or equal to 1/2 your caster level (round down) - 1",
+			"",
 			"**Special:** This feat can be taken multiple times. Each time it is taken, you can apply it to a different spell-like ability.",
 			"",
 			"| Spell Level | Caster Level |",
@@ -4273,7 +4277,8 @@
 			"You have come to favor a certain prestige class, either because you are particularly devoted to the class's cause, have trained more than most others have for that specific role, or have simply been destined to excel in the prestige class all along. Regardless of the reason, levels gained in your favored prestige class grant additional benefits in a way similar to those you gain for taking levels in your base {rule/favored class}.  ",
 			"**Benefit:** Choose one prestige class and one skill that is a class skill for that prestige class. Whenever you gain a level in that prestige class, you receive +1 hit point or +1 skill rank. You gain a +2 bonus on checks using the skill you chose from that prestige class's class skills. If you have 10 or more ranks in one of these skills, the bonus increases to +4 for that skill. This bonus stacks with the bonus granted by Skill Focus, but does not stack with a bonus granted by any other feat (such as Magical Aptitude or Persuasive). The choice of favored prestige class cannot be changed once you make it. Levels in a favored prestige class are not the same as levels in a regular favored class, and as such levels in a favored prestige class can never be used to qualify or gain favored class options. You can have only one favored prestige class, but can still have a favored base class as well.",
 			"",
-			"You can select this feat before you gain levels in your chosen favored prestige class, but the benefits of the feat do not apply until you actually gain at least 1 level in that prestige class.  ",
+			"You can select this feat before you gain levels in your chosen favored prestige class, but the benefits of the feat do not apply until you actually gain at least 1 level in that prestige class.",
+			"",
 			"**Normal:** Prestige classes cannot be a favored class, and cannot benefit from the additional hit point or skill rank afforded to those who take levels in a favored class."
 		]
 	},
@@ -4387,7 +4392,8 @@
 			"",
 			"When a target takes damage from a fearsome spell-like ability and fails its saving throw against the spell-like ability, it becomes {misc/shaken} for a number of rounds equal to the spell-like ability's equivalent spell level. If the spell-like ability doesn't allow a saving throw, creatures harmed by it can attempt a Will save (against the DC that the spell-like ability would have if it allowed a saving throw) to negate the shaken effect. If the effect of the spell-like ability also causes targets to become shaken and a target fails its saving throw, the duration of the shaken condition caused by this effect stacks with the spell-like ability's. A fearsome spell-like ability can't cause a creature to become {misc/frightened}, even if that creature is already shaken.",
 			"",
-			"You can only select a spell-like ability duplicating a spell with a level less than or equal to 1/2 your caster level (round down) - 2  ",
+			"You can only select a spell-like ability duplicating a spell with a level less than or equal to 1/2 your caster level (round down) - 2",
+			"",
 			"**Special:** This feat can be taken multiple times. Each time it is taken, you can apply it to a different spell-like ability.",
 			"",
 			"| Spell Level | Caster Level |",

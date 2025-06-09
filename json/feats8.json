@@ -556,7 +556,8 @@
 			"**Prerequisites:** Unchained summoner level 1st, eidolon class feature.  ",
 			"**Benefit:** You can select an eidolon of any alignment, even if its alignment is more than one step away from your own. Your eidolon never refuses your call as a result of the differences between your respective alignments, though it still can refuse to follow commands that are against its ethos or alignment.",
 			"",
-			"Each time you gain a summoner level, you must attempt a Will saving throw (DC = 10 + half your eidolon's Hit Dice + your eidolon's Charisma modifier). On a failure, your alignment permanently shifts one step closer to that of your eidolon. Modifiers that are not permanent can't be applied on this saving throw.  ",
+			"Each time you gain a summoner level, you must attempt a Will saving throw (DC = 10 + half your eidolon's Hit Dice + your eidolon's Charisma modifier). On a failure, your alignment permanently shifts one step closer to that of your eidolon. Modifiers that are not permanent can't be applied on this saving throw.",
+			"",
 			"**Special:** If your alignment becomes the same as that of your eidolon, you can immediately replace this feat with any other feat you would have qualified for at 1st level. The feat you choose for this must be one approved by the GM, depending on the nature of your eidolon and its influence over you."
 		]
 	},
@@ -756,7 +757,8 @@
 			"",
 			"Undead are susceptible to spells augmented by this feat, as it retunes the negative energy to be harmful to them. A thanatopic spell that would kill a living creature (such as by giving it negative levels equal to its Hit Dice) destroys an undead (though undead such as ghosts, liches, and vampires may reform as normal). Undead affected by thanatopic spells that give negative levels automatically make their saving throws to remove negative levels after 24 hours.",
 			"",
-			"A thanatopic spell uses up a spell slot two levels higher than the spell's actual level.  ",
+			"A thanatopic spell uses up a spell slot two levels higher than the spell's actual level.",
+			"",
 			"**Normal:** Defenses such as death ward negate death effects, negative levels, and energy drain. {type/Undead} are immune to these attacks."
 		]
 	},
@@ -799,7 +801,7 @@
 			"{SOURCE Ultimate Campaign/73}",
 			"",
 			"More than just a burglar, you aspire to commit crimes of legendary stature.  ",
-			"**Prerequisites:** You must have stolen at least 1, 000 gp worth of treasure without being caught and kept mementos of these thefts worth at least 500 gp, or have the Greed {rule/class_<background>_tables} (rogue).  ",
+			"**Prerequisites:** You must have stolen at least 1,000 gp worth of treasure without being caught and kept mementos of these thefts worth at least 500 gp, or have the Greed {rule/class_<background>_tables} (rogue).  ",
 			"**Benefit:** Once per day when you attempt a Disable Device check to open a lock or Sleight of Hand check to pick a pocket, you can roll twice and take the better result.  ",
 			"**Goal:** Steal a famous and well-guarded treasure worth at least 50,000 gp while leaving no evidence of your involvement behind. The treasure must be protected by a mix of at least 8 traps or challenging foes. Any guardians need not be defeated, merely bypassed. You don't need to keep the treasure, and you can boast of the theft afterward.  ",
 			"**Completion Benefit:** You gain the ability to reactively disarm a trap. When you trigger a trap, you can attempt a Disable Device check with a -5 penalty to interrupt the trap's function, leaving it still armed but effectively preventing it from activating. You can use this ability a number of times per day equal to 3 + your Intelligence modifier. Since the trap is still armed, it might activate again if you don't immediately back away or otherwise avoid repeating the act that set it off the first time."
@@ -1850,7 +1852,8 @@
 			"",
 			"When you use a traumatic spell-like ability, affected targets must succeed at an additional Will saving throw the next time that they sleep (DC = the spell-like ability's DC) or be affected as per nightmare. Each time the target fails its save, it must save again the following night or be affected by another nightmare, though the save DC decreases by 2 each night after the first. This feat can be applied only to spell-like abilities with the emotion or fear descriptor. Targets that avoid the spell-like ability's effects avoid this feat's effect as well.",
 			"",
-			"You can only select a spell-like ability duplicating a spell with a level less than or equal to 1/2 your caster level (round down) - 2  ",
+			"You can only select a spell-like ability duplicating a spell with a level less than or equal to 1/2 your caster level (round down) - 2",
+			"",
 			"**Special:** This feat can be taken multiple times. Each time it is taken, you can apply it to a different spell-like ability.",
 			"",
 			"| Spell Level | Caster Level |",
@@ -2067,7 +2070,7 @@
 			"",
 			"{SOURCE Plane-Hopper's Handbook/22}",
 			"",
-			"The Three have seen your offerings and proclaimed them satisfactory, even before you actually had the chance to show those offerings to them.  ",
+			"[The Three](faith/magdh) have seen your offerings and proclaimed them satisfactory, even before you actually had the chance to show those offerings to them.  ",
 			"**Prerequisites:** Fey creature type or {feat/Fey Obedience} (Magdh), you must have collected three gifts worth at least 100 gp each from three different planes across the Great Beyond. At least two of the planes must be diametrically opposed to one another in terms of planar traits.  ",
 			"**Benefit:** Three times per day as an immediate action, when you are about to roll for an attack, saving throw, or skill check, you can roll three d20s and use the middle of the three results. This ability cannot be combined with other effects that involve rerolling dice or involve rolling twice and taking either the higher or lower result."
 		]
@@ -2178,7 +2181,8 @@
 			"",
 			"As an immediate action, or when you die, you can cause white-hot fire to burst from the tattooed cartouche on your flesh, immolating your body in a bright flash and instantly reducing it to ash. If you are still alive, you are immediately slain. Spells such as {spell/raise dead} or {spell/speak with dead} cannot be used on your remains, but your equipment is unaffected.",
 			"",
-			"As the fire consumes you, fiery snakes whip out of your body in a 5-foot-radius burst, dealing 1d6 points of fire damage + 1 point per character level. Creatures in the area can attempt a Reflex save to negate the damage (DC 10 + 1/2 your character level + your Constitution modifier). In addition, creatures within a 10-foot burst must succeed at a Fortitude save (DC 10 + 1/2 your character level + your Constitution modifier) or be blinded for 1 round. Blind or sightless creatures are unaffected by this blinding effect.  ",
+			"As the fire consumes you, fiery snakes whip out of your body in a 5-foot-radius burst, dealing 1d6 points of fire damage + 1 point per character level. Creatures in the area can attempt a Reflex save to negate the damage (DC 10 + 1/2 your character level + your Constitution modifier). In addition, creatures within a 10-foot burst must succeed at a Fortitude save (DC 10 + 1/2 your character level + your Constitution modifier) or be blinded for 1 round. Blind or sightless creatures are unaffected by this blinding effect.",
+			"",
 			"**Special:** You permanently lose 3 hit points when you take this feat. This damage can be healed only with a miracle or wish spell, but doing so causes you to lose all benefits of this feat."
 		]
 	},
@@ -2625,7 +2629,8 @@
 			"**Prerequisites:** {feat/Catch Off-Guard}, {feat/Two-Weapon Fighting}.  ",
 			"**Benefit:** When you wield a tankard as an improvised weapon in your off hand, it functions as a light mace, including for the purpose of determining the effects of feats like {feat/Weapon Focus}. If you worship Cayden Cailean, your off-hand tankard functions as a divine focus and does not interfere with somatic spell components.",
 			"",
-			"When you fight with two weapons and have the sickened condition, you do not apply the penalties from being sickened to attack rolls or weapon damage rolls.  ",
+			"When you fight with two weapons and have the sickened condition, you do not apply the penalties from being sickened to attack rolls or weapon damage rolls.",
+			"",
 			"**Normal:** A tankard wielded as an improvised weapon normally functions as a gauntlet."
 		]
 	},
@@ -2693,7 +2698,8 @@
 			"**Prerequisites:** Dex 15; {feat/Fencing Grace}, {feat/Slashing Grace}, or {feat/Starry Grace}; {feat/Two-Weapon Fighting}; {feat/Weapon Finesse}.  ",
 			"**Benefit:** You can gain the benefit of the Fencing Grace, Slashing Grace, or Starry Grace feats while fighting with two weapons. Your penalties from two-weapon fighting increase by 2 on all attack rolls you make when doing so, and you can't decrease the penalties to less than -2 even if other abilities would reduce the penalties further. Add 1/2 your Dexterity bonus to damage with your off-hand weapon instead of 1/2 your Strength modifier. If you attack without using your off-hand weapon, you can use the aforementioned feats despite your other hand being occupied.",
 			"",
-			"In addition, Two-Weapon Grace counts as Double Slice for the purposes of qualifying for the Two-Weapon Rend feat.  ",
+			"In addition, Two-Weapon Grace counts as Double Slice for the purposes of qualifying for the Two-Weapon Rend feat.",
+			"",
 			"**Normal:** You gain no benefit from the listed feats if you don't have a free hand."
 		]
 	},
@@ -3728,7 +3734,8 @@
 			"",
 			"Moroi: If the creature is adjacent to or in your square when you assume gaseous form, it transforms with you and follows you; its transformation ends when yours does. If reduced to 0 hit points, it's forced into gaseous form and must return to your coffin to reform (or the foot of your coffin if it cannot fit within it).",
 			"",
-			"Nosferatu: If the creature is adjacent to or in your square when you assume swarm form, it transforms with you and follows you; its transformation ends when yours does. The creature can climb as if using the spider climb vampire ability, even if its anatomy is not suitable for climbing (such as a horse).  ",
+			"Nosferatu: If the creature is adjacent to or in your square when you assume swarm form, it transforms with you and follows you; its transformation ends when yours does. The creature can climb as if using the spider climb vampire ability, even if its anatomy is not suitable for climbing (such as a horse).",
+			"",
 			"**Special:** If your animal companion or familiar is destroyed, dismissed, or lost, you can apply the effects of this feat to the replacement creature. If you are destroyed, the creature retains its undead type but loses all other special abilities from this feat. If you have more than one animal companion or familiar, choose one of them when you select this feat and apply its effects to that creature.",
 			"",
 			"You can select this feat more than once. Each time you select the feat, it applies to a different animal companion or familiar."
@@ -3832,13 +3839,14 @@
 			"**Prerequisites:** Jiang-shi.  ",
 			"**Benefit:** You gain the ability to create a different type of prayer scroll. You may create a prayer scroll with this ability by using any strip of parchment and a writing instrument, but doing so requires 10 minutes of uninterrupted work. Swapping your current prayer scroll for a different prepared one is a standard action. When wearing a different prayer scroll, you gain its special abilities, but lose your normal prayer scroll's immunity to spell completion and spell trigger magic items. Your prayer scrolls can be used only by you, and have no effect when used by other jiang-shis. When you choose this feat, select one of the following prayer scroll types.",
 			"",
-			"Embalmed Form: This prayer scroll alters your physical form to how you looked 1 day before your death. Treat this as an alter self spell that affects you regardless of your original or current type; your caster level is equal to your Hit Dice. Your speed increases by 10 feet, but you lose your immunity to trip attacks and your ability to move through difficult terrain unhindered. These effects persist indefinitely as long as you wear the prayer scroll, but end immediately if you use a different prayer scroll or 24 hours after you remove this prayer scroll.",
+			">:HL[Embalmed Form:] This prayer scroll alters your physical form to how you looked 1 day before your death. Treat this as an alter self spell that affects you regardless of your original or current type; your caster level is equal to your Hit Dice. Your speed increases by 10 feet, but you lose your immunity to trip attacks and your ability to move through difficult terrain unhindered. These effects persist indefinitely as long as you wear the prayer scroll, but end immediately if you use a different prayer scroll or 24 hours after you remove this prayer scroll.",
+			">",
+			">:HL[Enduring Dust:] If you crumble into dust from hit point damage, you reform after 1 round instead of 1 minute. Scattering your dust does not prevent you from reforming as long none of your dust is more than 30 feet from any other part of your dust. Storing a portion of your dust in an air-tight container prevents you from reforming. If you are unable to reform after 1 minute, you are destroyed.",
+			">",
+			">:HL[Positive Energy Immunity:] You become immune to positive channeled energy used to harm undead. This does not protect you against positive energy from other sources such as cure spells or lay on hands.",
+			">",
+			">:HL[Spell Immunity:] The prayer scroll grants you immunity to a spell, as if you were using spell immunity. You decide which spell when you create the prayer scroll, and can choose a different spell each time you create a new spell immunity prayer scroll. If you have 15 or more Hit Dice, this functions as greater spell immunity. Creating this type of prayer scroll costs 100 gp &times; the spell level of the spell keyed to the scroll.",
 			"",
-			"Enduring Dust: If you crumble into dust from hit point damage, you reform after 1 round instead of 1 minute. Scattering your dust does not prevent you from reforming as long none of your dust is more than 30 feet from any other part of your dust. Storing a portion of your dust in an air-tight container prevents you from reforming. If you are unable to reform after 1 minute, you are destroyed.",
-			"",
-			"Positive Energy Immunity: You become immune to positive channeled energy used to harm undead. This does not protect you against positive energy from other sources such as cure spells or lay on hands.",
-			"",
-			"Spell Immunity: The prayer scroll grants you immunity to a spell, as if you were using spell immunity. You decide which spell when you create the prayer scroll, and can choose a different spell each time you create a new spell immunity prayer scroll. If you have 15 or more Hit Dice, this functions as greater spell immunity. Creating this type of prayer scroll costs 100 gp &times; the spell level of the spell keyed to the scroll.  ",
 			"**Special:** You may select this feat multiple times. Each time you do so, choose another ability granted by the feat."
 		]
 	},
@@ -4397,7 +4405,8 @@
 			"**Prerequisites:** {feat/Deadly Kiss}, toxic racial trait, {race/vishkanya}.  ",
 			"**Benefit:** As a swift action, you can expend one use of your toxic racial trait to alter your venom into an inhaled poison for 1d4 rounds. At one point within this duration, you can select one adjacent enemy to be exposed. In its inhaled form, your venom is an invisible, perfumed gas, and its DC is 2 lower.",
 			"",
-			"In addition, you can use your toxic racial trait one additional time per day.  ",
+			"In addition, you can use your toxic racial trait one additional time per day.",
+			"",
 			"**Normal:** Vishkanya venom is an injury poison"
 		]
 	},
@@ -4750,7 +4759,8 @@
 			"**Prerequisites:** Chaotic neutral alignment, worshiper of {faith/Calistria}.  ",
 			"**Benefit:** You gain a familiar as per the arcane bond class feature, using your character level as your wizard level. The familiar is a cat-sized, chaotic neutral wasp loyal to you. Use the statistics for a greensting scorpion familiar, but give it a base speed of 10 feet, a fly speed of 40 feet (average), no Climb bonus, and Fly +7. If you have the ability to gain a familiar through other means (such as the arcane bond class feature), and you are at least 5th level, instead use the statistics for an imp, but replace the invisibility spell-like ability with an unnatural lust (DC 14) spell-like ability usable three times per day. You can have only one familiar.",
 			"",
-			"If you ever grossly violate the code of conduct required by Calistria (a violation of the scale that would cause a cleric of Calistria to lose all spells and class features), your familiar turns on you and attacks you until it is killed. To regain a familiar, you must atone for your deeds with the atonement spell, and pay to have the slain familiar raised from the dead. If your familiar is slain or lost through other means, you can replace it using the normal rules for replacing familiars.  ",
+			"If you ever grossly violate the code of conduct required by Calistria (a violation of the scale that would cause a cleric of Calistria to lose all spells and class features), your familiar turns on you and attacks you until it is killed. To regain a familiar, you must atone for your deeds with the atonement spell, and pay to have the slain familiar raised from the dead. If your familiar is slain or lost through other means, you can replace it using the normal rules for replacing familiars.",
+			"",
 			"**Special:** This feat can be taken a second time by characters of 7th or higher level if they do not otherwise have access to familiars. Such characters have access to a wasp familiar that uses the statistics for an imp, as described above."
 		]
 	},

@@ -2697,7 +2697,11 @@
 			">**Attack** bite (1d6), 2 talons (1d6);  ",
 			">**Ability Scores** Str +2, Con +2;  ",
 			">**Special Attacks** {umr/pounce}, {umr/rake} (1d6);  ",
-			">**Special Qualities** unable to carry a rider while flying"
+			">**Special Qualities** unable to carry a rider while flying",
+			"",
+			"### {feat/monstrous_mount_<Mastery} (7th Level)",
+			"",
+			"The griffon can carry a rider while flying, but reduces its fly speed by half while doing so."
 		]
 	},
 	"grizzly_bear": {
@@ -2815,7 +2819,11 @@
 			"",
 			">**Speed** Swim 60 ft.  ",
 			">**Attack** bite (1d6);  ",
-			">**Ability Scores** Str +2, Dex +4"
+			">**Ability Scores** Str +2, Dex +4",
+			"",
+			"### {feat/monstrous_mount_<Mastery} (7th Level)",
+			"",
+			"The hippocampus's swim speed increases by 20 feet, and it gains a tail slap secondary attack that deals id4 points of damage plus half its Strength bonus."
 		]
 	},
 	"hippogriff": {
@@ -2844,7 +2852,11 @@
 			">**Speed** 40 ft., fly 100 ft. (average)  ",
 			">**Attack** bite (1d6), 2 claws (1d4);  ",
 			">**Ability Scores** Str +2, Con +2;  ",
-			">**Special Qualities** unable to carry a rider while flying"
+			">**Special Qualities** unable to carry a rider while flying",
+			"",
+			"### {feat/monstrous_mount_<Mastery} (7th Level)",
+			"",
+			"The hippogriff can carry a rider while flying, but reduces its fly speed by half while doing so."
 		]
 	},
 	"hippopotamus": {
@@ -6091,7 +6103,11 @@
 			"",
 			">**AC** +2 natural armor  ",
 			">**Attack** bite (1d8 plus {umr/trip});  ",
-			">**Ability Scores** Str +2, Con +2"
+			">**Ability Scores** Str +2, Con +2",
+			"",
+			"### {feat/monstrous_mount_<Mastery} (7th Level)",
+			"",
+			"Once per day as a standard action, the worg can make a fearful howl. This functions as the *fear cone (30 ft.)* version of the {umr/fear} universal monster rule."
 		]
 	},
 	"yak": {

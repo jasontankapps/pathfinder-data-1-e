@@ -594,7 +594,8 @@
 			"**Prerequisites:** Neutral evil, patron deity Zon-Kuthon.  ",
 			"**Benefit:** Add the following spells to your druid spell list. 0-disrupt undead, ray of frost; 1st-ghost sound, touch of fatigue; 2nd-chill touch, spectral hand; 3rd-ghoul touch, invisibility; 4th-displacement, ray of exhaustion; 5th-animate dead, phantasmal killer; 6th-nightmare, waves of fatigue; 7th-circle of death, shadow walk; 8th-mass invisibility, waves of exhaustion; 9th-horrid wilting, weird.",
 			"",
-			"Remove all spells with the fire descriptor from all your spell lists (not just your druid spell list). You cannot cast any spells with the fire descriptor, nor activate them off scrolls, wands, or any other magic devices. In addition, you may not use wild shape to take the form of any creature with the fire subtype.  ",
+			"Remove all spells with the fire descriptor from all your spell lists (not just your druid spell list). You cannot cast any spells with the fire descriptor, nor activate them off scrolls, wands, or any other magic devices. In addition, you may not use wild shape to take the form of any creature with the fire subtype.",
+			"",
 			"**Special:** As part of this feat, you create a personal Umbrae-Token that ties your soul and your doings to the fell power of the Uskwood. This potent object is treated as a wooden unholy symbol that radiates faint necromancy magic. If your Umbrae-Token is ever destroyed, your connection to the shadowy heart of the Uskwood is severed and all benefits of this feat are lost until another is created. This process requires a journey to the Uskwood and an atonement spell cast by a fellow worshiper of Zon-Kuthon."
 		]
 	},
@@ -773,7 +774,8 @@
 			"**Prerequisites:** Knowledge (planes) 5 ranks.  ",
 			"**Benefit:** As a swift action, you can shroud yourself in shifting, camouflaging shadow. While shrouded in this fashion, you can attempt Stealth checks as though you had {rule/concealment}, even in areas of normal or bright light. Creatures that can see normally in supernatural darkness can still see you normally.",
 			"",
-			"You can use this feat's benefit for a number of rounds per day equal to your ranks in Knowledge (planes). These rounds need not be consecutive.  ",
+			"You can use this feat's benefit for a number of rounds per day equal to your ranks in Knowledge (planes). These rounds need not be consecutive.",
+			"",
 			"**Special:** Unlike spells like shadow walk, which require you to be on a plane that is coterminous with the Shadow Plane, this feat functions even on planes that do not normally share a border with the Shadow Plane. Like all conduit feats, the effects are suppressed when planar travel is forbidden."
 		]
 	},
@@ -1965,7 +1967,8 @@
 			"",
 			"Spell-like abilities that do not inflict damage do not benefit from this feat.",
 			"",
-			"You can only select a spell-like ability duplicating a spell with a level less than or equal to 1/2 your caster level (round down) - 2  ",
+			"You can only select a spell-like ability duplicating a spell with a level less than or equal to 1/2 your caster level (round down) - 2",
+			"",
 			"**Special:** This feat can be taken multiple times. Each time it is taken, you can apply it to a different spell-like ability.",
 			"",
 			"| Spell Level | Caster Level |",
@@ -3433,10 +3436,10 @@
 			"{SOURCE Champions of Corruption/17}",
 			"",
 			"Otherworldly dread infuses your gaze.  ",
-			"**Benefit:** You can use the Intimidate skill to manipulate and terrify others.",
+			"**Benefit:** You can use the {skill/Intimidate} skill to manipulate and terrify others.",
 			"",
-			"**One Damnation Feat:** You gain a +2 bonus on Intimidate checks.  ",
-			"**Two Damnation Feats:** When you demoralize a creatures more than once using Intimidate, you can create stronger fear conditions rather than increasing the duration of the shaken condition.  ",
+			"**One :hll[main/feats_<Damnation/ Feat:]** You gain a +2 bonus on Intimidate checks.  ",
+			"**Two Damnation Feats:** When you demoralize a creatures more than once using Intimidate, you can create stronger fear conditions rather than increasing the duration of the {misc/shaken} condition.  ",
 			"**Three Damnation Feats:** You gain a +2 bonus on Intimidate checks (this stacks with the earlier benefits of this feat).  ",
 			"**Four Damnation Feats:** You can use Intimidate to demoralize opponents as a swift action."
 		]
@@ -3614,7 +3617,8 @@
 			"**Prerequisites:** {feat/Alertness}, Perception 5 ranks.  ",
 			"**Benefit:** You can perform the read aura occult skill unlock even if you can't use psychic magic. If you can cast psychic spells or have the {feat/Psychic Sensitivity} feat, you can use read aura one additional time per day.",
 			"",
-			"Once per day, you can perform an aura reading as a full-round action. If you successfully use detect thoughts or a similar mind-reading divination on a creature, you can use the read aura skill unlock on that creature as a full-round action as long as it is in your line of sight and within 30 feet. If you fail the check, you can't attempt to read that same creature's aura for 24 hours.  ",
+			"Once per day, you can perform an aura reading as a full-round action. If you successfully use detect thoughts or a similar mind-reading divination on a creature, you can use the read aura skill unlock on that creature as a full-round action as long as it is in your line of sight and within 30 feet. If you fail the check, you can't attempt to read that same creature's aura for 24 hours.",
+			"",
 			"**Special:** If you have a ki pool, you can expend 1 point from your ki pool as a swift action to gain one additional daily use of the read aura occult skill unlock."
 		]
 	},
@@ -3837,7 +3841,8 @@
 			"**Prerequisites:** Int 13, {feat/Spell Focus}  ",
 			"**Benefit:** Select one spell of a school for which you have taken the Spell Focus feat. Treat your caster level as being two higher for all level-variable effects of the spell.",
 			"",
-			"Every time you gain an even level in the spellcasting class you chose your spell from, you can choose a new spell to replace the spell selected with this feat, and that spell becomes your specialized spell.  ",
+			"Every time you gain an even level in the spellcasting class you chose your spell from, you can choose a new spell to replace the spell selected with this feat, and that spell becomes your specialized spell.",
+			"",
 			"**Special:** You can gain this feat multiple times. Its effects do not stack. Each time you take the feat, it applies to a different spell."
 		]
 	},
@@ -4044,7 +4049,8 @@
 			"**Prerequisites:** {feat/Combat Expertise}, {feat/Improved Bull Rush}, {feat/Improved Trip}, {feat/Improved Unarmed Strike}, {feat/Ki Throw}.  ",
 			"**Benefit:** On a successful unarmed trip combat maneuver against an opponent your size or smaller, you can spend a swift action to attempt a bull rush combat maneuver against that opponent. If your bull rush succeeds, you can move that opponent to any unoccupied square you threaten, then push that opponent the number of 5-foot increments your successful bull rush allows. The target is then knocked prone. If the bull rush fails, you can use the Ki Throw feat as normal.",
 			"",
-			"If you also have the Improved Ki Throw feat, a successful bull rush allows you to push the opponent into a space secondary targets occupy. You resolve this effect as if you used the Improved Ki Throw feat to throw the opponent into that space.  ",
+			"If you also have the Improved Ki Throw feat, a successful bull rush allows you to push the opponent into a space secondary targets occupy. You resolve this effect as if you used the Improved Ki Throw feat to throw the opponent into that space.",
+			"",
 			"**Special:** Per the Ki Throw feat, a monk can use ki to affect creatures larger than himself with this feat.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -4078,7 +4084,8 @@
 			"**Prerequisites:** Wis 15, {feat/Iron Will}.  ",
 			"**Benefit:** Select one specific category of spirit: fey, outsiders, or undead (including haunts). You gain a +1 bonus on Perception and Sense Motive checks against those creatures. If you have 10 or more ranks in one of these skills, the bonus increases to +2 for that skill.",
 			"",
-			"You also gain a +1 dodge bonus to your Armor Class against creatures of the chosen type, and a +1 insight bonus on Will saving throws against spells, spell-like abilities, and supernatural abilities of creatures of the chosen type. Any condition that causes you to lose your Dexterity bonus to AC also causes you to lose the AC and saving throw bonuses from this feat.  ",
+			"You also gain a +1 dodge bonus to your Armor Class against creatures of the chosen type, and a +1 insight bonus on Will saving throws against spells, spell-like abilities, and supernatural abilities of creatures of the chosen type. Any condition that causes you to lose your Dexterity bonus to AC also causes you to lose the AC and saving throw bonuses from this feat.",
+			"",
 			"**Special:** You shine like a light to the eyes of spirits. Fey, outsiders, and undead creatures gain a +2 bonus on Perception checks to notice you.",
 			"",
 			"You can select this feat up to three times. Each time you do, you must select a different creature type for this feat's benefit."
@@ -4148,7 +4155,8 @@
 			"**Prerequisites:** Wis 17; {feat/Iron Will}; {feat/Spirit Beacon}; Diplomacy 5 ranks or Intimidate 5 ranks.  ",
 			"**Benefit:** Select one specific category of spirit (fey, outsiders, or undead). Once per day as a standard action, you can condemn these spirits with such force of will that you can drive them from hosts, unravel their magic, or damage them physically. A rebuke targets a single spirit you can see (or one that is possessing a creature you can see) within 30 feet.",
 			"",
-			"Rebuking a spirit either functions as a targeted {spell/dispel magic} spell or channels damaging energy directly into the creature, similar to a cleric's channel energy ability. To dispel a spirit's magic, attempt a dispel check, using your character level as your caster level (DC = 11 + spell level); if you're successful, that effect is dispelled. You can dispel only spells and spell-like abilities affecting the spirit itself or a creature it is currently possessing. If you use this dispel effect to end a spirit's possession of a creature or object, you gain a +2 bonus on this check. Channeling damaging energy instead deals 1d6 points of damage for every 2 character levels you have. A successful Will saving throw (DC = 10 + half your character level + your Charisma modifier) halves this damage.  ",
+			"Rebuking a spirit either functions as a targeted {spell/dispel magic} spell or channels damaging energy directly into the creature, similar to a cleric's channel energy ability. To dispel a spirit's magic, attempt a dispel check, using your character level as your caster level (DC = 11 + spell level); if you're successful, that effect is dispelled. You can dispel only spells and spell-like abilities affecting the spirit itself or a creature it is currently possessing. If you use this dispel effect to end a spirit's possession of a creature or object, you gain a +2 bonus on this check. Channeling damaging energy instead deals 1d6 points of damage for every 2 character levels you have. A successful Will saving throw (DC = 10 + half your character level + your Charisma modifier) halves this damage.",
+			"",
 			"**Special:** You can select this feat up to three times. Each time you do, you must select a different category of spirit your rebuke can affect, and you can use the feat one additional time each day."
 		]
 	},
@@ -4214,7 +4222,8 @@
 			"| 17-20 | 28 | (+9) |",
 			"| 21+ | 32 | (+11) |",
 			"",
-			"Conversing with a spirit in this manner unsettles the mind. Each time you attempt a Diplomacy check using this ability to influence the spirit's attitude or make a request, you take 1 point of Wisdom damage. No effect can prevent or reduce the ability damage, nor can the ability damage be healed or suppressed by any means until you release the spirit.  ",
+			"Conversing with a spirit in this manner unsettles the mind. Each time you attempt a Diplomacy check using this ability to influence the spirit's attitude or make a request, you take 1 point of Wisdom damage. No effect can prevent or reduce the ability damage, nor can the ability damage be healed or suppressed by any means until you release the spirit.",
+			"",
 			"**Special:** If you are using the {rule/sanity/ system}, when you attempt a Diplomacy check using this ability, you take 1d6 points of sanity damage instead of 1 point of Wisdom damage. No effect can prevent or reduce the damage, nor can the damage be healed or suppressed by any means until you release the spirit."
 		]
 	},

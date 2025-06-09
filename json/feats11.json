@@ -446,7 +446,8 @@
 			"**Prerequisites:** Cha 13, character level 5th.  ",
 			"**Benefit:** You gain a number of cohorts (as per the {feat/Leadership} feat) that represent NPCs you are responsible for instructing and overseeing. You have a number of such cohorts equal to half your character level. Unlike normal cohorts, these recruits must be at least 4 levels lower than your level. Since these recruits must spend most of their time studying and gaining experience, only one recruit can travel with you at a time (though they all gain experience at the same rate, as those not present are assumed to be studying and growing independently). Whenever you are in a major town or city, you can exchange the recruit currently accompanying you for a different member of your recruits.",
 			"",
-			"As recruits are busy learning and studying the basics of their careers, those not traveling with you can't engage in mundane or magical crafting or Profession checks. Recruits not traveling with you can, however, serve as managers for your holdings if you are using the downtime rules. If a recruit dies, you take only a -1 penalty to your Leadership score.  ",
+			"As recruits are busy learning and studying the basics of their careers, those not traveling with you can't engage in mundane or magical crafting or Profession checks. Recruits not traveling with you can, however, serve as managers for your holdings if you are using the downtime rules. If a recruit dies, you take only a -1 penalty to your Leadership score.",
+			"",
 			"**Special:** The Recruits feat counts as the {feat/Leadership} feat for purposes of fulfilling prerequisites. A character cannot have both {feat/Leadership} and Recruits. A character with Recruits who later qualifies for {feat/Leadership} can exchange this feat for {feat/Leadership} immediately upon qualifying (selecting one minor cohort to become a full cohort, while the rest move on)."
 		]
 	},
@@ -794,7 +795,8 @@
 			"Word of your pre-Pathfinder accomplishments precedes you, and you know how to make the most of your previous reputation.  ",
 			"**Benefit:** When in a settlement of 5,000 people or more, treat your Fame score as 2 higher for the purposes of qualifying for Prestige Awards or purchasing equipment.",
 			"",
-			"This feat doesn't grant you any additional Prestige Points.  ",
+			"This feat doesn't grant you any additional Prestige Points.",
+			"",
 			"**Normal:** Your Fame score is determined by the total number of Prestige Points earned over the course of your career."
 		]
 	},
@@ -1625,7 +1627,8 @@
 			"**Prerequisites:** Str 13, {feat/Improved Sunder}, {feat/Power Attack}, Disable Device 7 ranks.  ",
 			"**Benefit:** As a standard action, you can sabotage an item worn by a foe with a special sunder combat maneuver. You use this maneuver in melee to sabotage an item that is neither held nor hidden in a bag, pack, or other container. You must have at least one hand free to perform this combat maneuver, and doing so provokes an attack of opportunity from the creature against whom you are performing the maneuver, even though you have the Improved Sunder feat.",
 			"",
-			"When attempting the combat maneuver check, use your ranks in Disable Device in place of your base attack bonus and your Dexterity modifier in place of your Strength modifier. Any bonuses on combat maneuver checks specifically to sunder (such as the bonus granted by Improved Sunder) also apply to this maneuver, and any bonuses your target gains to CMD against sundering attempts also protect her from this maneuver. If you succeed at the check, instead of dealing damage, you sabotage the chosen item, causing it to gain the broken condition. If the item was already broken, you instead destroy the item or cause it to fall off. Items immune to sunder are also immune to this special combat maneuver, and this still can't destroy or remove an item such as an artifact that can normally be destroyed or removed only by specific means.  ",
+			"When attempting the combat maneuver check, use your ranks in Disable Device in place of your base attack bonus and your Dexterity modifier in place of your Strength modifier. Any bonuses on combat maneuver checks specifically to sunder (such as the bonus granted by Improved Sunder) also apply to this maneuver, and any bonuses your target gains to CMD against sundering attempts also protect her from this maneuver. If you succeed at the check, instead of dealing damage, you sabotage the chosen item, causing it to gain the broken condition. If the item was already broken, you instead destroy the item or cause it to fall off. Items immune to sunder are also immune to this special combat maneuver, and this still can't destroy or remove an item such as an artifact that can normally be destroyed or removed only by specific means.",
+			"",
 			"**Normal:** A successful sunder attempt deals weapon damage to the sundered item."
 		]
 	},
@@ -2178,7 +2181,8 @@
 			"",
 			"When you use a scarring spell-like ability, a target that fails its saving throw against the spell-like ability takes a -2 penalty on saving throws against emotion and fear effects you create, and a -1 penalty on saving throws against other emotion and fear effects, for the next 24 hours. If the spell-like ability doesn't allow a saving throw, you can't choose to enhance it with this feat. Penalties from multiple scarring spell-like abilities don't stack. This feat can be applied only to spell-like abilities with the emotion or fear descriptor.",
 			"",
-			"You can only select a spell-like ability duplicating a spell with a level less than or equal to 1/2 your caster level (round down) - 1  ",
+			"You can only select a spell-like ability duplicating a spell with a level less than or equal to 1/2 your caster level (round down) - 1",
+			"",
 			"**Special:** This feat can be taken multiple times. Each time it is taken, you can apply it to a different spell-like ability.",
 			"",
 			"| Spell Level | Caster Level |",
@@ -4642,7 +4646,8 @@
 			"",
 			"In combat, you must succeed at a steal combat maneuver in order to plant an item on a creature while attempting a Sleight of Hand check opposed by the target's Perception check to do so without the target noticing. You are automatically unnoticed if you succeed and have the Greater Steal feat.",
 			"",
-			"If you steal an object with a successful Sleight of Hand check or steal combat maneuver check, you can use this feat as a swift action to plant it on another creature within reach before the end of your turn.  ",
+			"If you steal an object with a successful Sleight of Hand check or steal combat maneuver check, you can use this feat as a swift action to plant it on another creature within reach before the end of your turn.",
+			"",
 			"**Special:** If you have Walking Sleight, you can take either or both of your actions with Swipe and Stash at any point during your movement in the same round, moving both before and after both snatching and planting the object if you wish to do so and have enough movement."
 		]
 	},

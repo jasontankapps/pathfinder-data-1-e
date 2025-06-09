@@ -477,11 +477,14 @@
 	},
 	"kensai": {
 		"name": "Kensai",
-		"sources": [ "Ultimate Combat" ],
+		"sources": [
+			"Ultimate Combat",
+			"Adventurer's Armory 2"
+		],
 		"description": [
 			"## Kensai",
 			"",
-			"{SOURCE Ultimate Combat/55}  ",
+			"{SOURCE Ultimate Combat/55;Adventurer's Armory 2/11}  ",
 			"A kensai spends his life focusing his training and meditation into a rapturous perfection of the use of a single weapon, which is usually but not always a sword, channeling his arcane might through it in a dizzying and deadly dance beyond the abilities of even the greatest of mundane warriors.",
 			"",
 			"**Weapon and Armor Proficiency:** A kensai is proficient in simple weapons and in a single martial or exotic melee weapon of his choice. A kensai is not proficient with armor or shields and suffers normal arcane spell failure chance when casting magus spells while armored.",
@@ -490,7 +493,7 @@
 			"",
 			"**Canny Defense (Ex):** At 1st level, when a kensai is wielding his chosen weapon, he gains the canny defense ability. This is identical to the {pclass/duelist/ prestige class} ability of the same name, save that his chosen weapon may be of any type.",
 			"",
-			"**Weapon Focus (Ex):** At 1st level, a kensai gains {feat/Weapon Focus} with his chosen weapon as a bonus feat.",
+			"**Weapon Focus (Ex):** At 1st level, a kensai gains either {feat/Weapon Focus} or {feat/Modified Weapon Proficiency} with his chosen weapon as a bonus feat.",
 			"",
 			"**Perfect Strike (Ex):** At 4th level, when a kensai hits with his chosen weapon, he can spend 1 point from his arcane pool in order to maximize his weapon damage. Don't roll for damage: the weapon deals maximum damage. This affects only the weapon's base damage dice, not additional damage from {ability/sneak attack}, magical weapon properties, spellstrike, or critical hits.",
 			"",

@@ -624,7 +624,8 @@
 			"- Change the government type.",
 			"- Significantly alter the laws.",
 			"",
-			"Failure indicates that popular opinion in the city successfully opposes you. In addition, from now on, your followers gain a +1 morale bonus on attack rolls and saving throws as long as they can see you.  ",
+			"Failure indicates that popular opinion in the city successfully opposes you. In addition, from now on, your followers gain a +1 morale bonus on attack rolls and saving throws as long as they can see you.",
+			"",
 			"**Special:** For groups using the {rule/kingdom-building/ rules}, you can optionally use the rules for establishing a settlement to complete the goal of this story feat.",
 			"",
 			"*Suggested Traits:* {trait/Domineering}, {trait/Inspiring}, {trait/Natural-Born Leader (Social)}.",
@@ -1837,7 +1838,8 @@
 			"Harsh conditions or long exertions do not easily tire you.  ",
 			"**Benefit:** You gain a +4 bonus on the following checks and saves: Swim checks made to resist nonlethal damage from exhaustion; Constitution checks made to continue running; Constitution checks made to avoid nonlethal damage from a forced march; Constitution checks made to hold your breath; Constitution checks made to avoid nonlethal damage from starvation or thirst; Fortitude saves made to avoid nonlethal damage from hot or cold environments; and Fortitude saves made to resist damage from suffocation.",
 			"",
-			"You may sleep in light or medium armor without becoming fatigued.  ",
+			"You may sleep in light or medium armor without becoming fatigued.",
+			"",
 			"**Normal:** A character without this feat who sleeps in medium or heavier armor is {misc/fatigued} the next day.",
 			"",
 			"### Mythic Endurance",
@@ -2936,7 +2938,8 @@
 			"**Prerequisites:** Cha 13, {ability/animal companion} class feature.  ",
 			"**Benefit:** Select a 1-point {ability/evolution>s} other than pounce or reach from those available to a summoner's eidolon. Your animal companion gains this evolution. The animal companion must conform to any limitations of the evolution. For instance, only an animal companion of an appropriate size and base form can have the {evolution/mount} evolution.",
 			"",
-			"If you gain a new animal companion, your old animal companion loses this evolution, and you can select a new 1-point evolution for the new animal companion.  ",
+			"If you gain a new animal companion, your old animal companion loses this evolution, and you can select a new 1-point evolution for the new animal companion.",
+			"",
 			"**Special:** You can take this feat multiple times. Each time you do, select an additional 1-point evolution for your animal companion."
 		]
 	},
@@ -2952,7 +2955,8 @@
 			"**Prerequisites:** Int 13, Cha 13, {ability/familiar} class feature.  ",
 			"**Benefit:** Select an {ability/evolution>s} from the list of 1-point evolutions available to a summoner's eidolon. Your familiar has this evolution. The familiar must conform to any limitations of the evolution. For instance, no familiars can benefit from the {evolution/mount} evolution and only familiars with wings can take the {evolution/wing buffet} evolution.",
 			"",
-			"If you gain a new familiar, your old familiar loses all evolutions, and you can select a new 1-point evolution for the new familiar.  ",
+			"If you gain a new familiar, your old familiar loses all evolutions, and you can select a new 1-point evolution for the new familiar.",
+			"",
 			"**Special:** You can gain this feat multiple times. Its effects stack, granting a new 1-point evolution to your familiar each time you gain this feat."
 		]
 	},
@@ -2968,7 +2972,8 @@
 			"**Prerequisites:** {feat/Augment Summoning}, {feat/Spell Focus} (conjuration), ability to cast {spell/summon monster I}.  ",
 			"**Benefit:** Each time you cast a summon monster spell, you can select a 1-point {ability/evolution>s} other than {evolution/pounce} or {evolution/reach} from those available to a summoner's eidolon. Your summoned creature gains this evolution. The summoned creature must conform to any limitations of the evolution. (For instance, only a creature with a reach of 10 feet or more can have the {evolution/pull} evolution.) Evolutions that grant additional attacks or enhance existing attacks can be applied only to Medium or larger summoned creatures.",
 			"",
-			"If you summon more than one creature with a single spell, only one creature gains this evolution.  ",
+			"If you summon more than one creature with a single spell, only one creature gains this evolution.",
+			"",
 			"**Special:** You can take this feat multiple times. Each time you do, select an additional 1-point evolution for one of your summoned creatures. If you summon more than one creature, you can choose to apply all the evolutions to a single summoned creature, or split them between the creatures summoned."
 		]
 	},
@@ -4960,7 +4965,8 @@
 			"",
 			"Your familiar must be able to speak to cast spells with a verbal component (the ability to speak with its master or creatures of its kind is insufficient). Your familiar must be carrying any material or focus components necessary, unless the materials cost less than 1 gp and the spell is prepared with {feat/Eschew Materials}. Attack rolls use your familiar's ability scores. A familiar spell counts against the number of spells you may prepare for as long as your familiar retains the spell. Once your familiar casts a retained spell, you can prepare a new spell in that slot the next time you prepare spells.",
 			"",
-			"A familiar spell uses up a spell slot 3 levels higher than the spell's actual level. Your familiar can store a number of spell levels (including this modifier) equal to your caster level, but no spell's adjusted level can exceed half your caster level.  ",
+			"A familiar spell uses up a spell slot 3 levels higher than the spell's actual level. Your familiar can store a number of spell levels (including this modifier) equal to your caster level, but no spell's adjusted level can exceed half your caster level.",
+			"",
 			"**Special:** If you are a spontaneous caster, you must select a specific spell with which to imbue your familiar; you cannot imbue your familiar with an open spell slot."
 		]
 	},
