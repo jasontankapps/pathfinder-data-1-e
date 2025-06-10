@@ -45,7 +45,7 @@
 		"nameSuffix": "(Ex or Su)",
 		"compilationSources": [ [ "People of the Wastes" ] ],
 		"description": [
-			"**Effect:** This trap stains the victim with blighted plant matter, increasing its susceptibility to the attacks of creatures created or enthralled by the affliction. The target takes a -2 penalty to Armor Class against the attacks of creatures closely affiliated with the specific blight (typically demons, fey, plants, or undead) and on saving throws against effects created by such creatures. This effect lasts for 10 minutes per ranger level. A successful Will save negates this effect. Regardless of whether this is a extraordinary or supernatural trap, the ranger must supply a sample of the specific blight when setting this trap."
+			"**Effect:** This trap stains the victim with blighted plant matter, increasing its susceptibility to the attacks of creatures created or enthralled by the affliction. The target takes a -2 penalty to Armor Class against the attacks of creatures closely affiliated with the specific blight (typically demons, fey, plants, or undead) and on saving throws against effects created by such creatures. This effect lasts for 10 minutes per ranger level. A successful Will save negates this effect. Regardless of whether this is an extraordinary or supernatural trap, the ranger must supply a sample of the specific blight when setting this trap."
 		]
 	},
 	"bludgeoning_trap": {

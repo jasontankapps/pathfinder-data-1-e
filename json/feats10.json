@@ -684,11 +684,11 @@
 			"**Prerequisites:** {feat/Marksman's Utility}, base attack bonus +7, weapon training class feature with a ranged weapon.  ",
 			"**Benefit:** In addition to the options allowed by the {deed/utility shot} gunslinger deed, you gain access to the following utility shots.",
 			"",
-			">**Open/Close Object:** You can use a ranged attack to open or close an object as a standard action. You make an attack roll against an unattended and unlocked door, window, or container within the first range increment of your weapon. Such an object has an AC equal to 3 + the object's size modifier (minimum +0) + its hardness. If you hit, the object opens if it is closed or closes if it is open. Otherwise, this ability functions as the {spell/open//close} spell.",
+			">@HL[Open/Close Object:] You can use a ranged attack to open or close an object as a standard action. You make an attack roll against an unattended and unlocked door, window, or container within the first range increment of your weapon. Such an object has an AC equal to 3 + the object's size modifier (minimum +0) + its hardness. If you hit, the object opens if it is closed or closes if it is open. Otherwise, this ability functions as the {spell/open//close} spell.",
 			">",
-			">**Triggering Shot:** You can use a ranged attack to trigger a trap. You make a ranged attack against a trap you are aware of that is within your weapon's first range increment. The trap's AC is equal to 10 + its Disable Device DC. If you hit, the trap automatically triggers as if its trigger condition had been met.",
+			">@HL[Triggering Shot:] You can use a ranged attack to trigger a trap. You make a ranged attack against a trap you are aware of that is within your weapon's first range increment. The trap's AC is equal to 10 + its Disable Device DC. If you hit, the trap automatically triggers as if its trigger condition had been met.",
 			">",
-			">**Use Object:** You can attempt to use a simple object by shooting it as a standard action. This ability functions as the *scoot unattended object* use of the utility shot deed, except you pull or push the object in such a way that it activates. For example, you can shoot an unattended lever, causing it to activate and lower a drawbridge."
+			">@HL[Use Object:] You can attempt to use a simple object by shooting it as a standard action. This ability functions as the *scoot unattended object* use of the utility shot deed, except you pull or push the object in such a way that it activates. For example, you can shoot an unattended lever, causing it to activate and lower a drawbridge."
 		]
 	},
 	"finishing_cascade": {
@@ -3811,11 +3811,11 @@
 			"**Prerequisites:** {race/Changeling}.  ",
 			"**Benefit:** Your dark legacy manifests in one of the following ways. You choose the manifestation when you choose the feat, and once selected it cannot be changed.",
 			"",
-			">*Hag Claws (Ex):* You gain a +1 bonus on attack and damage rolls with your claws.",
+			">@HL[Hag Claws (Ex):] You gain a +1 bonus on attack and damage rolls with your claws.",
 			">",
-			">*Surprisingly Tough (Ex):* Your natural armor bonus increases by +1.",
+			">@HL[Surprisingly Tough (Ex):] Your natural armor bonus increases by +1.",
 			">",
-			">*Uncanny Resistance (Su):* You gain spell resistance equal to 6 + your character level.",
+			">@HL[Uncanny Resistance (Su):] You gain spell resistance equal to 6 + your character level.",
 			"",
 			"**Special:** You can gain this feat up to three times. Its effects do not stack. Each time you take the feat, you must select a different manifestation."
 		]
@@ -3829,7 +3829,7 @@
 			"{SOURCE Monster Codex/117}",
 			"",
 			"Years of forcing your slaves and soldiers to march far beyond the limits of their endurance have made you an excellent taskmaster.  ",
-			"**Benefit:** When traveling overland, you and a number of allies equal to 10 times your character level reduce the amount of nonlethal damage taken as a result of a forced march by half. Creatures benefiting from this feat can delay the fatigued effect of a forced march for a number of hours equal to your Charisma modifier (minimum 1). A creature that delays this effect becomes exhausted instead of fatigued when the condition takes effect."
+			"**Benefit:** When {rule/traveling |overland>_movement}, you and a number of allies equal to 10 times your character level reduce the amount of nonlethal damage taken as a result of a forced march by half. Creatures benefiting from this feat can delay the {misc/fatigued} effect of a forced march for a number of hours equal to your Charisma modifier (minimum 1). A creature that delays this effect becomes {misc/exhausted} instead of fatigued when the condition takes effect."
 		]
 	},
 	"motivating_display": {
@@ -3842,7 +3842,7 @@
 			"",
 			"You can empower your allies through their fear of you.  ",
 			"**Prerequisites:** Cha 13, {feat/Dazzling Display}, {feat/Weapon Focus}.  ",
-			"**Benefit:** Whenever you use Dazzling Display to demoralize foes, you can motivate your allies to better serve you. In addition to possibly demoralizing foes within 30 feet, your Intimidate check while using Dazzling Display also applies to allies within 30 feet who can see you. The DC for this effect is the same as it would be to demoralize your allies. Each ally so affected gains a +1 morale bonus on attack rolls and skill checks for the duration that it would normally be shaken."
+			"**Benefit:** Whenever you use Dazzling Display to demoralize foes, you can motivate your allies to better serve you. In addition to possibly demoralizing foes within 30 feet, your {skill/Intimidate} check while using Dazzling Display also applies to allies within 30 feet who can see you. The DC for this effect is the same as it would be to demoralize your allies. Each ally so affected gains a +1 morale bonus on attack rolls and skill checks for the duration that it would normally be shaken."
 		]
 	},
 	"mountain_eyes": {
@@ -3855,7 +3855,7 @@
 			"",
 			"Your gaze cuts through vapors with ease.  ",
 			"**Prerequisites:** {feat/Blind-Fight}, Perception 5 ranks.  ",
-			"**Benefit:** You ignore {rule/concealment} (but not total concealment) caused by fog, rain, smoke, wind, and other gases or weather effects (including magical effects like obscuring mist), and you ignore up to -4 in penalties on Perception checks from such effects. You treat total concealment resulting from any such gas or weather effects within 10 feet of you as concealment (20% miss chance)."
+			"**Benefit:** You ignore {rule/concealment} (but not total concealment) caused by fog, rain, smoke, wind, and other gases or weather effects (including magical effects like {spell/obscuring mist}), and you ignore up to -4 in penalties on Perception checks from such effects. You treat total concealment resulting from any such gas or weather effects within 10 feet of you as concealment (20% miss chance)."
 		]
 	},
 	"mountaineer": {
@@ -3868,7 +3868,7 @@
 			"",
 			"You are thoroughly at home in the high peaks and precipices of alpine territory.  ",
 			"**Prerequisites:** {ability/Favored terrain} (mountains) class feature.  ",
-			"**Benefit:** You gain a +2 bonus on Climb checks on natural stone surfaces and a +4 bonus on Fortitude saves to avoid high-altitude fatigue and altitude sickness. If you spend 24 hours at a dangerous altitude, you treat that altitude as if it were one category lower. If you spend at least 1 week at that altitude, you are immune to altitude fatigue or sickness. If you go to a lower altitude for more than 1 week, you lose this acclimation."
+			"**Benefit:** You gain a +2 bonus on Climb checks on natural stone surfaces and a +4 bonus on Fortitude saves to avoid high-altitude fatigue and [altitude sickness](rule/mountain_travel). If you spend 24 hours at a dangerous altitude, you treat that altitude as if it were one category lower. If you spend at least 1 week at that altitude, you are immune to altitude fatigue or sickness. If you go to a lower altitude for more than 1 week, you lose this acclimation."
 		]
 	},
 	"mountain_splitting_strike": {
@@ -3881,7 +3881,7 @@
 			"",
 			"You have learned techniques to focus the force of an unarmed strike into the most vulnerable parts of a large opponent's anatomy.  ",
 			"**Prerequisites:** Wis 13, {feat/Improved Unarmed Strike}.  ",
-			"**Benefit:** When you make a charge attack against an opponent at least one size category larger than you, your unarmed attacks deal damage as though you were one size category larger. In addition, you gain a +2 bonus to the DC of any Stunning Fist effect you deliver with this charge attack."
+			"**Benefit:** When you make a {rule/charge} attack against an opponent at least one size category larger than you, your unarmed attacks deal damage as though you were {misc/one size category larger}. In addition, you gain a +2 bonus to the DC of any {feat/Stunning Fist} effect you deliver with this charge attack."
 		]
 	},
 	"mounted_archery": {
@@ -3911,7 +3911,7 @@
 			"",
 			"Your skill as a rider allows you to take cover and shoot with amazing accuracy.  ",
 			"**Prerequisites:** Mounted Archery.  ",
-			"**Benefit:** When using the Ride skill to use your mount as cover, you can still make a single ranged weapon attack as a standard action. While your mount is moving, you can expend one use of mythic power to negate the penalties for making ranged weapon attacks while mounted until the beginning of your next turn."
+			"**Benefit:** When using the Ride skill to use your mount as {rule/cover}, you can still make a single ranged weapon attack as a standard action. While your mount is moving, you can expend one use of mythic power to negate the penalties for making ranged weapon attacks while mounted until the beginning of your next turn."
 		]
 	},
 	"mounted_blade": {
@@ -3928,7 +3928,7 @@
 			"",
 			"You can use the momentum of your mount to carry your weapon through one foe and into another.  ",
 			"**Prerequisites:** {feat/Mounted Combat}, Ride 3 ranks.  ",
-			"**Benefit:** When you use the Ride-By Attack feat, if your attack hits, you can also make an attack against a target adjacent to your original target. You take a -5 penalty on this additional attack, which does not benefit from any effects of a charge."
+			"**Benefit:** When you use the {feat/Ride-By Attack} feat, if your attack hits, you can also make an attack against a target adjacent to your original target. You take a -5 penalty on this additional attack, which does not benefit from any effects of a charge."
 		]
 	},
 	"mounted_combat": {
@@ -3974,7 +3974,7 @@
 			"",
 			"You and your mount can shatter an enemy's line with your unyielding assault.  ",
 			"**Prerequisites:** {feat/Mounted Combat}, {feat/Trample}, Ride 5 ranks.  ",
-			"**Benefit:** On your turn, you can overrun more than one creature. Each overrun combat maneuver check beyond the first takes a cumulative -5 penalty. If you fail to overrun a target, your movement ends. Your mount can make only a single hoof attack against one target that is knocked prone by your overrun (not one per prone opponent).  ",
+			"**Benefit:** On your turn, you can {rule/overrun} more than one creature. Each overrun combat maneuver check beyond the first takes a cumulative -5 penalty. If you fail to overrun a target, your movement ends. Your mount can make only a single hoof attack against one target that is knocked prone by your overrun (not one per prone opponent).  ",
 			"**Normal:** You can perform only one overrun combat maneuver per round."
 		]
 	},
@@ -4031,7 +4031,7 @@
 			"",
 			"You are used to fighting in muck and slime, and happily hurl it in your foes' eyes in the heat of battle.  ",
 			"**Prerequisites:** {feat/Throw Anything}.  ",
-			"**Benefit:** As a standard action when in urban or subterranean terrain, you can scoop filth, sewage, mud, or similar grime off a nearby surface and hurl it at a foe as a ranged touch attack with a range increment of 5 feet. If the attack hits, you can immediately attempt a dirty trick combat maneuver against the target as a free action; this dirty trick can be used only to blind the target. As a ranged touch attack, this action provokes attacks of opportunity, even if your dirty trick attempts normally wouldn't provoke such attacks (such as via the {feat/Improved Dirty Trick} feat).  ",
+			"**Benefit:** As a standard action when in urban or subterranean terrain, you can scoop filth, sewage, mud, or similar grime off a nearby surface and hurl it at a foe as a ranged touch attack with a range increment of 5 feet. If the attack hits, you can immediately attempt a {rule/dirty trick} combat maneuver against the target as a free action; this dirty trick can be used only to {misc/blind>ed} the target. As a ranged touch attack, this action provokes attacks of opportunity, even if your dirty trick attempts normally wouldn't provoke such attacks (such as via the {feat/Improved Dirty Trick} feat).  ",
 			"**Special:** A character with {ability/favored terrain} (as the ranger class feature) can use this feat when in any of his favored terrains in addition to urban and subterranean."
 		]
 	},
@@ -4071,7 +4071,7 @@
 			"",
 			"You are adept at numerous disciplines.  ",
 			"**Prerequisites:** Character level 5th, {race/half-elf}, multitalented racial trait.  ",
-			"**Benefit:** All of your classes are considered favored classes. You gain either +1 hit point or +1 skill point whenever you take a level in any class. Apply these bonuses retroactively for all class levels that have not yet gained one of these bonuses.  ",
+			"**Benefit:** All of your classes are considered {rule/favored class/es}. You gain either +1 hit point or +1 skill point whenever you take a level in any class. Apply these bonuses retroactively for all class levels that have not yet gained one of these bonuses.  ",
 			"**Normal:** Half-elves with the multitalented racial trait have two favored classes."
 		]
 	},
@@ -4099,7 +4099,7 @@
 			"This multi-armed creature is skilled at making attacks with multiple weapons.  ",
 			"**Prerequisites:** Dex 13, three or more hands.  ",
 			"**Benefit:** Penalties for fighting with multiple weapons are reduced by -2 with the primary hand and by -6 with off hands.  ",
-			"**Normal:** A creature without this feat takes a -6 penalty on attacks made with its primary hand and a -10 penalty on attacks made with all of its off hands. (It has one primary hand, and all the others are off hands.) See {rule/Two-Weapon Fighting} in the Pathfinder RPG Core Rulebook.  ",
+			"**Normal:** A creature without this feat takes a -6 penalty on attacks made with its primary hand and a -10 penalty on attacks made with all of its off hands. (It has one primary hand, and all the others are off hands.) See {rule/Two-Weapon Fighting}.  ",
 			"**Special:** This feat replaces the {feat/Two-Weapon Fighting} feat for creatures with more than two arms."
 		]
 	},
@@ -4113,7 +4113,7 @@
 			"",
 			"You gain bonuses on damage when you wield identical one-handed weapons.  ",
 			"**Prerequisites:** Three or more arms, Dex 21  ",
-			"**Benefit:** When you wield one-handed or light weapons in each of your arms, and all of those weapons belong to the same weapon group (as defined for the fighter class), all attacks with those weapons gain a +2 bonus on damage rolls."
+			"**Benefit:** When you wield one-handed or light weapons in each of your arms, and all of those weapons belong to the same {ability/weapon group>s} (as defined for the fighter class), all attacks with those weapons gain a +2 bonus on damage rolls."
 		]
 	},
 	"murderers_circle": {
@@ -4129,7 +4129,7 @@
 			"",
 			"After savaging your foe, you circle like a hunter ready for the kill.  ",
 			"**Prerequisites:** {feat/Dodge}, Acrobatics 4 ranks.  ",
-			"**Benefit:** When you spend a swift action to make a performance combat check after scoring a critical hit or performing a combat maneuver, and you are adjacent to the target of the critical hit or combat maneuver, you can move to any other space that is adjacent to the target without provoking attacks of opportunity. You must have a clear path to that space and the ability to reach it by spending a move action. If you end this move in any space other than the one where you started, you gain a +2 bonus on the performance combat check.",
+			"**Benefit:** When you spend a swift action to make a {rule/performance combat} check after scoring a critical hit or performing a combat maneuver, and you are adjacent to the target of the critical hit or combat maneuver, you can move to any other space that is adjacent to the target without provoking attacks of opportunity. You must have a clear path to that space and the ability to reach it by spending a move action. If you end this move in any space other than the one where you started, you gain a +2 bonus on the performance combat check.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/127}",
@@ -4159,7 +4159,7 @@
 			"{SOURCE Aquatic Adventures/58}",
 			"",
 			"You can call upon murky sediments in the water to transform a mist spell underwater.  ",
-			"**Benefit:** You can apply Murky Spell only to a mist or fog spell that normally doesn't work underwater, such as cloudkill, fog cloud, mind fog, obscuring mist, or solid fog. When cast underwater, a murky spell clouds the water with sediments, producing roughly the same effects as the normal spell would above water except as follows. Due to the dilution, a murky spell has only one-tenth of the duration of a normal spell (generally 1 minute per level, though mind fog lasts 3 minutes), but this reduction doesn't affect the duration of secondary effects like mind fog's mental penalties. Abilities that see through mist and fog can't see through a murky spell unless they also specifically see through murky water (like the {umr/mistsight/ universal monster rule}). Instead of wind, currents can disperse a murky spell; any current with a speed of at least 10 feet disperses a murky spell in 1 round. A murky spell has no effect above the water. A murky spell uses up a slot the same spell level as the spell's actual level."
+			"**Benefit:** You can apply Murky Spell only to a mist or fog spell that normally doesn't work underwater, such as {spell/cloudkill}, {spell/fog cloud}, {spell/mind fog}, {spell/obscuring mist}, or {spell/solid fog}. When cast underwater, a murky spell clouds the water with sediments, producing roughly the same effects as the normal spell would above water except as follows. Due to the dilution, a murky spell has only one-tenth of the duration of a normal spell (generally 1 minute per level, though mind fog lasts 3 minutes), but this reduction doesn't affect the duration of secondary effects like mind fog's mental penalties. Abilities that see through mist and fog can't see through a murky spell unless they also specifically see through murky water (like the {umr/mistsight} universal monster rule). Instead of wind, currents can disperse a murky spell; any current with a speed of at least 10 feet disperses a murky spell in 1 round. A murky spell has no effect above the water. A murky spell uses up a slot the same spell level as the spell's actual level."
 		]
 	},
 	"murmurs_of_earth": {
@@ -4172,7 +4172,7 @@
 			"",
 			"The earth opens up her secrets to your perceptions.  ",
 			"**Prerequisites:** {feat/Echoes of Stone}, character level 9th, {race/oread}.  ",
-			"**Benefit:** You gain a limited form of tremorsense. As a move action, you become aware of all creatures within 15 feet that are in contact with the ground at that moment."
+			"**Benefit:** You gain a limited form of {umr/tremorsense}. As a move action, you become aware of all creatures within 15 feet that are in contact with the ground at that moment."
 		]
 	},
 	"musketeers_daring": {
@@ -4184,7 +4184,7 @@
 			"{SOURCE Villain Codex/56}",
 			"",
 			"The more you dare, the greater the results of your deeds.  ",
-			"**Prerequisites:** Dex 15, derring-do deed, swashbuckler level 6th.  ",
+			"**Prerequisites:** Dex 15, {swashdeed/derring-do} deed, {class/swashbuckler} level 6th.  ",
 			"**Benefit:** If the result of your d6 roll is a natural 5 or 6 when using the derring-do deed, you can roll another d6 and add it to the Acrobatics, Climb, Escape Artist, Fly, Ride, or Swim check that the deed modifies. The number of d6s you roll is still limited to a number equal to your Dexterity modifier (minimum 1), and you can roll another d6 after a natural roll of 5 or 6 only once per use of derring-do.  ",
 			"**Normal:** You can roll further derring-do d6s only if you roll a natural 6 on the die."
 		]
@@ -4198,7 +4198,7 @@
 			"{SOURCE Villain Codex/56}",
 			"",
 			"You dodge ranged attacks with greater proficiency than most.  ",
-			"**Prerequisites:** {feat/Exotic Weapon Proficiency} (firearms), gunslinger level 3rd, gunslinger's dodge deed.  ",
+			"**Prerequisites:** {feat/Exotic Weapon Proficiency} (firearms), {class/gunslinger} level 3rd, {deed/gunslinger's dodge} deed.  ",
 			"**Benefit:** When you use the gunslinger's dodge deed to move, the movement granted by that deed does not provoke attacks of opportunity, and you gain a +4 dodge bonus to your Armor Class."
 		]
 	},
@@ -4211,8 +4211,8 @@
 			"{SOURCE Villain Codex/56}",
 			"",
 			"You can knock a foe away with your two-handed firearm.  ",
-			"**Prerequisites:** {feat/Exotic Weapon Proficiency} (firearms), gunslinger level 6th, pistol-whip deed.  ",
-			"**Benefit:** When you hit an opponent with a two-handed firearm while using the pistol-whip deed, you can perform a reposition combat maneuver instead of knocking the target prone. However, you can't reposition the foe closer to you. This combat maneuver does not provoke attacks of opportunity."
+			"**Prerequisites:** {feat/Exotic Weapon Proficiency} (firearms), {class/gunslinger} level 6th, {deed/pistol-whip} deed.  ",
+			"**Benefit:** When you hit an opponent with a two-handed firearm while using the pistol-whip deed, you can perform a {rule/reposition} combat maneuver instead of knocking the target {rule/prone}. However, you can't reposition the foe closer to you. This combat maneuver does not provoke attacks of opportunity."
 		]
 	},
 	"musketeers_sidestep": {
@@ -4224,7 +4224,7 @@
 			"{SOURCE Villain Codex/56}",
 			"",
 			"You're able to dodge attacks with increased panache.  ",
-			"**Prerequisites:** Dodging panache deed, swashbuckler level 3rd.  ",
+			"**Prerequisites:** {swashdeed/Dodging panache} deed, {class/swashbuckler} level 3rd.  ",
 			"**Benefit:** When you use the dodging panache deed, the movement granted by that deed does not provoke attacks of opportunity from any creature, and you gain a +2 dodge bonus to your Armor Class."
 		]
 	},
@@ -4260,7 +4260,7 @@
 			"",
 			"You add a personal sacrifice to heighten the power of your ritual magic.  ",
 			"**Prerequisites:** Knowledge (arcana) 4 ranks, Knowledge (religion) 4 ranks, Spellcraft 4 ranks.  ",
-			"**Benefit:** Once during the casting of an occult ritual, you can inflict 1d6 hit points of damage per 2 Hit Dice and 1d4 Constitution damage (or Charisma damage if you're undead) to yourself as an immediate action with a piercing or slashing weapon. You can't reduce or ignore this damage in any way. This damage doesn't disrupt the ritual, and you can roll twice for the next skill check made as part of a ritual casting and take the better result. If the resulting ritual effect has the fear descriptor or is in the phantasm subschool, increase its saving throw DC by 1. Multiple characters with this feat can each use it once per ritual on their skill checks, but the DC increases don't stack."
+			"**Benefit:** Once during the casting of an {rule/occult ritual>s}, you can inflict 1d6 hit points of damage per 2 Hit Dice and 1d4 Constitution damage (or Charisma damage if you're undead) to yourself as an immediate action with a piercing or slashing weapon. You can't reduce or ignore this damage in any way. This damage doesn't disrupt the ritual, and you can roll twice for the next skill check made as part of a ritual casting and take the better result. If the resulting ritual effect has the fear descriptor or is in the phantasm subschool, increase its saving throw DC by 1. Multiple characters with this feat can each use it once per ritual on their skill checks, but the DC increases don't stack."
 		]
 	},
 	"mutual_hatred": {
@@ -4272,7 +4272,7 @@
 			"{SOURCE Monster Codex/164}",
 			"",
 			"Others hate you, and their hatred feeds your own.  ",
-			"**Benefit:** You gain a +1 bonus on attack rolls and damage rolls against creatures whose hatred racial trait or {ability/favored enemy} class feature applies to you. For instance, an orc would gain this bonus against all dwarves and against rangers who chose humanoid (orc) as a favored enemy."
+			"**Benefit:** You gain a +1 bonus on attack rolls and damage rolls against creatures whose hatred racial trait or {ability/favored enemy} class feature applies to you. For instance, an {race/orc} would gain this bonus against all {race/dwar/ves>f} and against rangers who chose humanoid (orc) as a favored enemy."
 		]
 	},
 	"my_blade_is_yours": {
@@ -4285,7 +4285,7 @@
 			"",
 			"You fight with seamless grace alongside your allies, complementing the inherent strengths of your weaponry.  ",
 			"**Prerequisites:** Int 13, {feat/Combat Expertise}, Sense Motive 3 ranks.  ",
-			"**Benefit:** When adjacent to an ally with this feat who is wielding a weapon with the blocking, disarm, distracting, or trip weapon special feature, you can treat your own weapon as if it also had that feature. If your ally's weapon has more than one of those features, you choose one feature to emulate at the start of your turn."
+			"**Benefit:** When adjacent to an ally with this feat who is wielding a weapon with the {misc/blocking}, {misc/disarm}, {misc/distracting}, or {misc/trip} weapon special feature, you can treat your own weapon as if it also had that feature. If your ally's weapon has more than one of those features, you choose one feature to emulate at the start of your turn."
 		]
 	},
 	"mythic_companion": {
@@ -4310,7 +4310,7 @@
 			"{SOURCE Mythic Adventures/70}",
 			"",
 			"You can craft mythic magic items.  ",
-			"**Prerequisites:** Any item creation feat.  ",
+			"**Prerequisites:** Any {main/feats_<item creation/ feat}.  ",
 			"**Benefit:** You can create any mythic magic item for which you have the appropriate item creation feat. In addition, you gain a +5 bonus on skill checks when creating non-mythic magic items."
 		]
 	},
@@ -4350,7 +4350,7 @@
 			"",
 			"Enchanted vegetation does not bar your path.  ",
 			"**Prerequisites:** Dex 15, {feat/Nimble Moves}, {ability/woodland stride} class feature.  ",
-			"**Benefit:** You can move at full speed even through thorns, briars, and overgrown areas that are enchanted or magically manipulated to impede motion, even if those areas confer the entangled condition.  ",
+			"**Benefit:** You can move at full speed even through thorns, briars, and overgrown areas that are enchanted or magically manipulated to impede motion, even if those areas confer the {rule/entangled} condition.  ",
 			"**Normal:** Woodland stride does not apply to thorns, briars, and overgrowth areas that are enchanted or magically manipulated."
 		]
 	},
@@ -4364,7 +4364,7 @@
 			"",
 			"Your ritualistic training has taught you to join in with the magic of others.  ",
 			"**Prerequisites:** Ability to spontaneously cast spells.  ",
-			"**Benefit:** As a standard action, select an ally within 30 feet who also has this feat and select a metamagic feat you have. If that ally doesn't have the selected metamagic feat, she can modify a spell she casts before the end of her next turn with that metamagic feat. The spell is modified as normal, except it uses a spell slot 1 additional level above the normal spell level modification for that metamagic feat.",
+			"**Benefit:** As a standard action, select an ally within 30 feet who also has this feat and select a {main/feats_<metamagic/ feat} you have. If that ally doesn't have the selected metamagic feat, she can modify a spell she casts before the end of her next turn with that metamagic feat. The spell is modified as normal, except it uses a spell slot 1 additional level above the normal spell level modification for that metamagic feat.",
 			"",
 			"If the selected ally does have the metamagic feat you select, she can instead use that feat to modify a spell she casts before the end of her next turn without increasing the spell's casting time."
 		]
@@ -4379,7 +4379,7 @@
 			"",
 			"You can craft ammunition intended to kill specific foes.  ",
 			"**Prerequisites:** {feat/Amateur Gunslinger} feat or grit class feature, {feat/Gunsmithing}, base attack bonus +5.  ",
-			"**Benefit:** Whenever you craft ammunition using Gunsmithing, you may inscribe a bullet or alchemical cartridge with the name of its intended target. The ammunition gains the bane weapon special ability against the chosen creature only. If the ammunition is used to attack any other target, the attack roll is instead made with a -2 penalty. Crafting a named bullet costs 1 grit point and reduces your maximum grit points by 1 until the named bullet is fired or destroyed."
+			"**Benefit:** Whenever you craft ammunition using Gunsmithing, you may inscribe a bullet or alchemical cartridge with the name of its intended target. The ammunition gains the {magic-enh/bane} weapon special ability against the chosen creature only. If the ammunition is used to attack any other target, the attack roll is instead made with a -2 penalty. Crafting a named bullet costs 1 grit point and reduces your maximum grit points by 1 until the named bullet is fired or destroyed."
 		]
 	},
 	"nameless_one": {
@@ -4396,7 +4396,7 @@
 			"You completely eschew your former identity, making you impossible to locate or even name.  ",
 			"**Benefit:** When you take this feat, you eschew all of your former identities, going as far as to render your former name completely inaccessible to discover by mortal means. You perform an 8-hour ritual that requires the expenditure of 200 gp for rare oils, incense, and creation of a special mask. After this ritual, you forever lose all names and identities previously associated with you (including any identities that you gain from class abilities). You adopt a brief descriptive title in place of a new name. Your title must not reference the names of any people or places. (For example, you could adopt the title \"Blue Fox\" or \"Twilight Stalker,\" but not the title \"Chelish Avenger\" or \"Spirit of the Mwangi.\") At the ritual's conclusion, you must don the mask created for the ritual, the appearance of which is evocative of your title. While you're wearing this mask, any attempts to scry or otherwise locate any of your eschewed identities or connect you to those identities do not work, revealing nothing but darkness, as if you were an invalid target or did not exist. Successful Knowledge checks to identify you reveal your new title rather than any old identity, but can reveal your strengths and weaknesses normally.",
 			"",
-			"As long as you wear the ritual mask and do not reveal your connection to any past identities, any attempt to scry on you in relation to of your eschewed identities requires a successful caster level check with a DC of 10 + your Hit Dice. In addition, you are immune to effects that require the use of your name, such as the {spell/named bullet} spell. While benefiting from this feat, you cannot wear any magic items in the head slot, as the mask used by this effect effectively occupies this slot (though this feat's benefits are not magical for the purpose of {spell/dispel magic} and other effects). In addition, you cannot attempt to impersonate a specific individual by any means, magical or nonmagical. If you ever reveal or confirm your connection to your eschewed identities, you immediately lose the benefit of this feat and gain 1d4 permanent negative levels as your discarded identities return. You cannot regain the benefit of this feat or remove these negative levels until you atone (as per atonement, as if restoring a class feature)."
+			"As long as you wear the ritual mask and do not reveal your connection to any past identities, any attempt to scry on you in relation to of your eschewed identities requires a successful caster level check with a DC of 10 + your Hit Dice. In addition, you are immune to effects that require the use of your name, such as the {spell/named bullet} spell. While benefiting from this feat, you cannot wear any magic items in the head slot, as the mask used by this effect effectively occupies this slot (though this feat's benefits are not magical for the purpose of {spell/dispel magic} and other effects). In addition, you cannot attempt to impersonate a specific individual by any means, magical or nonmagical. If you ever reveal or confirm your connection to your eschewed identities, you immediately lose the benefit of this feat and gain 1d4 permanent {rule/energy_drain_and_<negative levels} as your discarded identities return. You cannot regain the benefit of this feat or remove these negative levels until you atone (as per {spell/atonement}, as if restoring a class feature)."
 		]
 	},
 	"nameless_servitor": {
@@ -4409,7 +4409,7 @@
 			"",
 			"The fact that you have given up your real name makes you resistant to certain types of magic.  ",
 			"**Prerequisites:** [Risen Guard](rule/f_second_life) rank, Risen Guard 10 TPA.  ",
-			"**Benefit:** Anyone who attempts to use magic in order to learn personal information about you, such as through divination, scrying, or similar magic, must make a caster level check with a DC equal to 10 plus your level to succeed. You are immune to spells that require the use of your name in order to function (such as trap the soul).",
+			"**Benefit:** Anyone who attempts to use magic in order to learn personal information about you, such as through {spell/divination}, {spell/scrying}, or similar magic, must make a caster level check with a DC equal to 10 plus your level to succeed. You are immune to spells that require the use of your name in order to function (such as {spell/trap the soul}).",
 			"",
 			"Most members of the Risen Guard with this feat are addressed by their rank.",
 			"",
@@ -4439,7 +4439,7 @@
 			"",
 			"Your excellent coordination allows you to maneuver better in close quarters.  ",
 			"**Prerequisites:** Escape Artist 1 rank, animal or magical beast.  ",
-			"**Benefit:** You do not take penalties on your attack rolls or to your AC for squeezing through a narrow space that is at least half as wide as your normal space, though each move into or through a narrow space still counts as if it were 2 squares.  ",
+			"**Benefit:** You do not take penalties on your attack rolls or to your AC for {misc/squeezing} through a narrow space that is at least half as wide as your normal space, though each move into or through a narrow space still counts as if it were 2 squares.  ",
 			"**Normal:** You take a -4 penalty on attack rolls and a -4 penalty to AC while squeezing."
 		]
 	},
@@ -4453,9 +4453,7 @@
 			"",
 			"The land calls to you to conquer it and forge a realm all your own.  ",
 			"**Prerequisites:** You must have explored and claimed an area of at least 100 square miles.  ",
-			"**Benefit:** When in either unclaimed wilderness or land under your own control, you receive a +2 bonus on Perception checks, Stealth checks, and Survival checks.",
-			"",
-			"If you have 10 or more ranks in one of these skills, the bonus on that skill increases to +4.  ",
+			"**Benefit:** When in either unclaimed wilderness or land under your own control, you receive a +2 bonus on Perception checks, Stealth checks, and Survival checks. If you have 10 or more ranks in one of these skills, the bonus on that skill increases to +4.  ",
 			"**Goal:** Explore and conquer an area of at least 1,000 square miles, in the process decisively defeating a challenging foe. You must also lay claim to the land either in your own name or in the name of a leader you directly report to, and establish a stronghold or other fortification to defend it.  ",
 			"**Completion Benefit:** You gain a +2 bonus on initiative checks, attack rolls, and saving throws while in the area you have claimed."
 		]
@@ -4483,8 +4481,8 @@
 			"{SOURCE Pathfinder #69: Maiden, Mother, Crone/91}",
 			"",
 			"Nearly all svathurims have the following feat, which is common among tauric creatures.  ",
-			"**Prerequisites:** Centaur (or any tauric creature at the GM's discretion)  ",
-			"**Benefit:** You gain proficiency with the lance. You can wield a lance one-handed as if you were mounted, and you deal double damage with a lance while charging."
+			"**Prerequisites:** {monster/Centaur} (or any tauric creature at the GM's discretion)  ",
+			"**Benefit:** You gain proficiency with the {eq-weapon/lance}. You can wield a lance one-handed as if you were mounted, and you deal double damage with a lance while {rule/charg/ing>e}."
 		]
 	},
 	"natural_pathseeker": {
@@ -4510,7 +4508,7 @@
 			"",
 			"You have learned how to create antitoxin that can resist natural poisons.  ",
 			"**Prerequisites:** {feat/Natural Poison Harvester}, Craft (alchemy) 8 ranks, Survival 8 ranks.  ",
-			"**Benefit:** When you succeed at a Craft (alchemy) check to create an antitoxin using a dose of a natural poison you harvested, you increase the duration of the antitoxin to an amount equal to 4 hours plus an additional hour for every 5 by which your result exceeds the DC."
+			"**Benefit:** When you succeed at a Craft (alchemy) check to create an {eq-misc/antitoxin} using a dose of a natural poison you harvested, you increase the duration of the antitoxin to an amount equal to 4 hours plus an additional hour for every 5 by which your result exceeds the DC."
 		]
 	},
 	"natural_poison_harvester": {
@@ -4535,8 +4533,8 @@
 			"{SOURCE Quests and Campaigns/27}",
 			"",
 			"You have a special talent for ruling a nation, and take to the task with ease.  ",
-			"**Prerequisites:** Hold a leadership role related to running a kingdom.  ",
-			"**Benefit:** Choose an ability score. Any time your leadership role calls for that ability score to affect one of your kingdom's attributes, your modifier to that ability score is treated as being +2 higher. For example, if you choose Charisma and occupy the General or High Priest leadership role, your Charisma modifier to affect your kingdom's stability would be +2 higher than normal. However, if you occupied the Spymaster leadership role - which employs the Intelligence and Wisdom ability scores - this feat would grant no benefit. Additionally, the entire kingdom gains +2 Stability for as long as you occupy a leadership role.  ",
+			"**Prerequisites:** Hold a {rule/leadership role>s} related to running a kingdom.  ",
+			"**Benefit:** Choose an ability score. Any time your leadership role calls for that ability score to affect one of your kingdom's attributes, your modifier to that ability score is treated as being +2 higher. For example, if you choose Charisma and occupy the {rule/General} or {rule/High Priest} leadership role, your Charisma modifier to affect your kingdom's stability would be +2 higher than normal. However, if you occupied the {rule/Spymaster} leadership role - which employs the Intelligence and Wisdom ability scores - this feat would grant no benefit. Additionally, the entire kingdom gains +2 Stability for as long as you occupy a leadership role.  ",
 			"**Special:** You may gain this feat multiple times, but each time you must choose a different ability score. The bonus to Stability gained from this feat stacks."
 		]
 	},
@@ -4576,7 +4574,7 @@
 			"",
 			"You are able to use simple spells by drawing on nature's raw majesty.  ",
 			"**Prerequisites:** Knowledge (nature) 1 rank.  ",
-			"**Benefit:** You gain {spell/know direction} as a constant spell-like ability, and can choose another {main/spells_<druid/ orison} you can cast as a spell-like ability once per day. Your caster level for both of these spell-like abilities is equal to your character level."
+			"**Benefit:** You gain {spell/know direction} as a constant spell-like ability, and can choose another {main/spells_<druid /orison>0_1} (0-level spell) you can cast as a spell-like ability once per day. Your caster level for both of these spell-like abilities is equal to your character level."
 		]
 	},
 	"nature_soul": {
@@ -4600,8 +4598,8 @@
 			"{SOURCE Ultimate Wilderness/116}",
 			"",
 			"Creatures affected by your channel energy are not affected by difficult terrain.  ",
-			"**Prerequisites:** Animal or Plant domain; {ability/channel energy} class feature.  ",
-			"**Benefit:** When you expend one additional use when you channel energy, you enable affected creatures to move freely through undergrowth as per the druid's woodland stride class feature. This effect lasts a for number of minutes equal to your Charisma modifier (minimum 1). Multiple uses of this feat extend the duration of the woodland stride effect."
+			"**Prerequisites:** {domain/Animal} or {domain/Plant} domain; {ability/channel energy} class feature.  ",
+			"**Benefit:** When you expend one additional use when you channel energy, you enable affected creatures to move freely through undergrowth as per the druid's {ability/woodland stride} class feature. This effect lasts a for number of minutes equal to your Charisma modifier (minimum 1). Multiple uses of this feat extend the duration of the woodland stride effect."
 		]
 	},
 	"natures_weapons": {
@@ -4614,7 +4612,7 @@
 			"",
 			"You can make a weapon out of nearly anything that can be found in the wild.  ",
 			"**Prerequisites:** {feat/Catch Off-Guard}; base attack bonus +2; Knowledge (nature) or Survival 2 ranks.  ",
-			"**Benefit:** You can turn nearly anything you might find in the wilderness into an improvised melee weapon. This improvised melee weapon is one-handed and deals 1d6 points of damage for Medium creatures and 1d4 for Small creatures. Depending on the weapon, it deals bludgeoning, piercing, or slashing damage (at the GM's discretion). Grabbing an object to use as a weapon is the same action as drawing a weapon. The weapon must be of a material that is naturally occurring in that terrain."
+			"**Benefit:** You can turn nearly anything you might find in the wilderness into an {misc/improvised [melee ]weapon}. This improvised melee weapon is one-handed and deals 1d6 points of damage for Medium creatures and 1d4 for Small creatures. Depending on the weapon, it deals bludgeoning, piercing, or slashing damage (at the GM's discretion). Grabbing an object to use as a weapon is the same action as drawing a weapon. The weapon must be of a material that is naturally occurring in that terrain."
 		]
 	},
 	"natures_wrath": {
@@ -4643,7 +4641,7 @@
 			"",
 			"With a quick jerk, you snap an enemy's neck.  ",
 			"**Prerequisites:** {feat/Bonebreaker}, {feat/Greater Grapple}, {feat/Improved Grapple}, {feat/Improved Unarmed Strike}, {feat/Jawbreaker}, {feat/Stunning Fist}, Heal 12 ranks.  ",
-			"**Benefit:** If you have an opponent your size or smaller helpless or pinned, after you initiate or maintain a grapple, you can make a Stunning Fist attempt at a -5 penalty on the attack roll. If you succeed, you wrench that opponent's neck, dealing 2d6 Strength or Dexterity damage. If the targeted ability score is reduced to 0, any remaining damage is dealt to that opponent's Constitution score. A creature that is immune to critical hits or that has no discernible head and neck is immune to the effects of this feat.",
+			"**Benefit:** If you have an opponent your size or smaller {misc/helpless} or [pinned](rule/grapple_conditions), after you initiate or maintain a {rule/grapple}, you can make a Stunning Fist attempt at a -5 penalty on the attack roll. If you succeed, you wrench that opponent's neck, dealing 2d6 Strength or Dexterity damage. If the targeted ability score is reduced to 0, any remaining damage is dealt to that opponent's Constitution score. A creature that is immune to critical hits or that has no discernible head and neck is immune to the effects of this feat.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/127}",
@@ -4674,7 +4672,7 @@
 			"",
 			"Once you have even the trace of a creature you're tracking, you can't be thrown off the trail.  ",
 			"**Prerequisites:** {feat/Skill Focus} (Perception), Perception 3 ranks.  ",
-			"**Benefit:** You can use Perception (rather than Survival) to follow tracks. After you track a creature using the Perception skill, you gain a +2 insight bonus on Perception checks to avoid being surprised by that creature for 1 hour. If you have 10 or more ranks in Perception, this bonus increases to +4."
+			"**Benefit:** You can use {skill/Perception} (rather than {skill/Survival}) to follow tracks. After you track a creature using the Perception skill, you gain a +2 insight bonus on Perception checks to avoid being surprised by that creature for 1 hour. If you have 10 or more ranks in Perception, this bonus increases to +4."
 		]
 	},
 	"neither_elf_nor_human": {
@@ -4700,7 +4698,7 @@
 			"",
 			"A past enemy seeks your ruin.  ",
 			"**Prerequisites:** You must have at least one enemy who wishes to cause you great harm. If you have multiple enemies, the GM may keep the specific nemesis secret, or have many of your enemies work together against you. If your nemesis is not already a challenging foe, it either advances in strength to become a challenging foe or allies with others to achieve a higher challenge rating.  ",
-			"**Benefit:** Having a nemesis drives you to excel in training. For each new level you gain in a favored class, including the level you gained when you chose this feat, you can choose two benefits instead of one. One of these benefits must be either a bonus hit point or a bonus skill point, even if other options are available.  ",
+			"**Benefit:** Having a nemesis drives you to excel in training. For each new level you gain in a {rule/favored class}, including the level you gained when you chose this feat, you can choose two benefits instead of one. One of these benefits must be either a bonus hit point or a bonus skill point, even if other options are available.  ",
 			"**Goal:** Slay your nemesis. Causing your nemesis's death through your direct actions qualifies even if you do not strike the fatal blow, but another killing your nemesis without your involvement doesn't count.  ",
 			"**Completion Benefit:** You gain a +2 inherent bonus to an ability score of your choice. In addition, you may retroactively apply your extra favored class benefit to the favored class levels you gained before taking this feat.  ",
 			"**Special:** Thwarting your plans becomes an all-consuming goal for your nemesis. Your nemesis gains a +2 bonus on attack rolls and damage rolls against you. Whatever you try to achieve, your nemesis seeks to tear down."
@@ -4716,7 +4714,7 @@
 			"",
 			"You've mastered the art of intimidation to get what you want without suffering unwanted repercussions.  ",
 			"**Prerequisites:** {feat/Persuasive}.  ",
-			"**Benefit:** When you successfully use the Intimidate skill to force an opponent to act friendly toward you, the target must attempt a Will save once the intimidation wears off. The DC is equal to 10 + your number of ranks in Intimidate. If the target fails this save, after the intimidation period expires, the target counts as having the same attitude toward you as it initially did (usually indifferent) and will not report you to the authorities for intimidating it.  ",
+			"**Benefit:** When you successfully use the {skill/Intimidate} skill to force an opponent to act friendly toward you, the target must attempt a Will save once the intimidation wears off. The DC is equal to 10 + your number of ranks in Intimidate. If the target fails this save, after the intimidation period expires, the target counts as having the same attitude toward you as it initially did (usually indifferent) and will not report you to the authorities for intimidating it.  ",
 			"**Normal:** The target of a successful Intimidate check is unfriendly to you and potentially reports you to the authorities after the duration ends."
 		]
 	},
@@ -4733,7 +4731,7 @@
 			"",
 			"You have trained to use the net as a melee weapon.  ",
 			"**Prerequisites:** {feat/Exotic Weapon Proficiency} (net), base attack bonus +1.  ",
-			"**Benefit:** You can treat a net as a one-handed melee reach weapon with a 10-foot reach. Further, you take no penalty on melee attack rolls for using an unfolded net, and you can use one full-round action or two move actions to fold a net.  ",
+			"**Benefit:** You can treat a {eq-weapon/net} as a one-handed melee {misc/reach} weapon with a 10-foot reach. Further, you take no penalty on melee attack rolls for using an unfolded net, and you can use one full-round action or two move actions to fold a net.  ",
 			"**Normal:** A net is a ranged weapon that imposes a -4 penalty on ranged attack rolls if it is unfolded. Folding a net takes a proficient user 2 rounds.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -4755,7 +4753,7 @@
 			"",
 			"Your skill with lighter weapons allows you to wield one alongside your net.  ",
 			"**Prerequisites:** Dex 15, {feat/Exotic Weapon Proficiency} (net), {feat/Net Adept}, {feat/Two-Weapon Fighting}.  ",
-			"**Benefit:** You can treat a net as a one-handed ranged weapon, allowing you to wield a light or one-handed melee weapon and still make ranged attacks with your net. When you use your light or one-handed melee weapon to attack an entangled opponent, you gain a +2 bonus on damage rolls and on attack rolls to confirm a critical hit.  ",
+			"**Benefit:** You can treat a {eq-weapon/net} as a one-handed ranged weapon, allowing you to wield a light or one-handed melee weapon and still make ranged attacks with your net. When you use your light or one-handed melee weapon to attack an entangled opponent, you gain a +2 bonus on damage rolls and on attack rolls to confirm a critical hit.  ",
 			"**Normal:** A net is a two-handed ranged weapon.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -4777,7 +4775,7 @@
 			"",
 			"With sweeping movements and brute force, you can use your net to put foes at a disadvantage.  ",
 			"**Prerequisites:** {feat/Exotic Weapon Proficiency} (net), {feat/Net Adept}, base attack bonus +3.  ",
-			"**Benefit:** In melee, you can use a net to trip or disarm opponents instead of entangling them. You gain a +2 bonus on disarm checks made to use a net in this way. Further, if you have an opponent entangled in your net, you can attempt to drag or reposition that opponent as long as he is within your net's reach or you control the trailing rope on your net.",
+			"**Benefit:** In melee, you can use a {eq-weapon/net} to {rule/trip} or {rule/disarm} opponents instead of entangling them. You gain a +2 bonus on disarm checks made to use a net in this way. Further, if you have an opponent entangled in your net, you can attempt to {rule/drag} or {rule/reposition} that opponent as long as he is within your net's reach or you control the trailing rope on your net.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/127}",
@@ -4798,12 +4796,12 @@
 			"",
 			"You have become very proficient at using your net to hinder your enemies.  ",
 			"**Prerequisites:** {feat/Exotic Weapon Proficiency} (net), {feat/Net Adept}, {feat/Net Maneuvering}, base attack bonus +6.  ",
-			"**Benefit:** In place of one of your melee attacks, you can use your net to attempt a dirty trick combat maneuver to blind an opponent. If you have an opponent entangled in your net, you can attempt to trip that opponent as long as he is within your net's reach or you control the trailing rope on your net. You also gain a +2 bonus on drag and reposition combat maneuver checks you make using your net.",
+			"**Benefit:** In place of one of your melee attacks, you can use your {eq-weapon/net} to attempt a {rule/dirty trick} combat maneuver to {misc/blind>ed} an opponent. If you have an opponent entangled in your net, you can attempt to {rule/trip} that opponent as long as he is within your net's reach or you control the trailing rope on your net. You also gain a +2 bonus on {rule/drag} and {rule/reposition} combat maneuver checks you make using your net.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/127}",
 			">",
-			">As long as you have at least 1 stamina point in your stamina pool, you can dazzle or sicken the opponent with a dirty trick combat maneuver instead of blinding it."
+			">As long as you have at least 1 stamina point in your stamina pool, you can {misc/dazzle>d} or {misc/sicken} the opponent with a dirty trick combat maneuver instead of blinding it."
 		]
 	},
 	"never_conquered_forever_feared": {
@@ -4816,9 +4814,9 @@
 			"",
 			"You are dauntless in battle, and your lineage echoes with awe-inspiring power.  ",
 			"**Prerequisites:** Be a member of House Heskillar, or have the Adopted by Dragons [adopted background](rule/birth_circumstances_and_more), or the Path of Righteous Rage (inquisitor) or Proud Heritage (sorcerer) {rule/class background>_tables}.  ",
-			"**Benefit:** Your stern demeanor gives you a +2 bonus on Intimidate checks. If you have 10 or more ranks in Intimidate, this bonus increases to +4. You also gain a +2 bonus on saves against paralysis and sleep effects.  ",
+			"**Benefit:** Your stern demeanor gives you a +2 bonus on {skill/Intimidate} checks. If you have 10 or more ranks in Intimidate, this bonus increases to +4. You also gain a +2 bonus on saves against paralysis and sleep effects.  ",
 			"**Goal:** You must individually slay an appropriate number of significant foes in succession, without retreating or withdrawing from a fight.  ",
-			"**Completion Benefit:** You can display your imposing presence as a free action when you take an offensive action, such as an attack or a charge. Opponents within 30 feet of you must succeed at a Will save or become shaken for 3d6 rounds. The DC of this save is equal to 10 + 1/2 your character level + your Charisma modifier. This ability does not cause opponents that are already shaken to become frightened, and opponents with more Hit Dice than your character level are immune to the effect. This is a mind-affecting fear effect."
+			"**Completion Benefit:** You can display your imposing presence as a free action when you take an offensive action, such as an {rule/attack} or a {rule/charge}. Opponents within 30 feet of you must succeed at a Will save or become {misc/shaken} for 3d6 rounds. The DC of this save is equal to 10 + 1/2 your character level + your Charisma modifier. This ability does not cause opponents that are already shaken to become frightened, and opponents with more Hit Dice than your character level are immune to the effect. This is a mind-affecting fear effect."
 		]
 	},
 	"new_thassilonian_magic": {
@@ -4830,7 +4828,7 @@
 			"{SOURCE Paths of the Righteous/23}",
 			"",
 			"You use Thassilonian magic in a non-traditional way that preserves the ancient traditions while lifting some of its restrictions.  ",
-			"**Prerequisites:** Thassilonian specialization.  ",
+			"**Prerequisites:** {arc-wizard/Thassilonian specialization}.  ",
 			"**Benefit:** You choose one of your two opposition schools. You also gain Thassilonian as a bonus language. If you already speak Thassilonian, you gain one of the following languages as a bonus language instead: Aklo, Azlanti, Giant, Shoanti, or Varisian.  ",
 			"**Normal:** A Thassilonian specialist cannot customize his choice for opposition schools."
 		]
@@ -4844,8 +4842,8 @@
 			"{SOURCE Ultimate Wilderness/116}",
 			"",
 			"You use the mystical network of power that blazes in the night sky to empower your hexes.  ",
-			"**Prerequisites:** Hex class feature; moon, stars, or winter patron.  ",
-			"**Benefit:** When you gain this feat, choose one hex that you can use to affect no more than one opponent. When you are in view of the night sky and use that hex, increase the save DC of that hex by 2."
+			"**Prerequisites:** Hex class feature; {patron/moon}, {patron/stars}, or {patron/winter} patron.  ",
+			"**Benefit:** When you gain this feat, choose one {ability/hex>es} that you can use to affect no more than one opponent. When you are in view of the night sky and use that hex, increase the save DC of that hex by 2."
 		]
 	},
 	"night_stalker": {
@@ -4874,8 +4872,8 @@
 			"",
 			"Chains are a kyton's inheritance and dominion.  ",
 			"**Prerequisites:** Kyton subtype, 5 or more Hit Dice.  ",
-			"**Benefit:** You gain the kyton's dancing chains ability, except you can control only up to two chains this way. This grants you two chain attacks, which deal damage as per a spiked chain made for a creature of your size. If you already have the dancing chains ability, you can control two additional chains.  ",
-			"**Special:** At the GM's discretion, non-kyton outsiders can select this feat if they have a thematic link to chains (such as horned devils or demonic servants of Shivaska)."
+			"**Benefit:** You gain the {monster/kyton/'s} dancing chains ability, except you can control only up to two chains this way. This grants you two chain attacks, which deal damage as per a {eq-weapon/spiked chain} made for a creature of your size. If you already have the dancing chains ability, you can control two additional chains.  ",
+			"**Special:** At the GM's discretion, non-kyton outsiders can select this feat if they have a thematic link to chains (such as {monster/horned devil/s} or demonic servants of {faith/Shivaska})."
 		]
 	},
 	"nightmare_fist": {
@@ -4891,7 +4889,7 @@
 			"",
 			"You are even more deadly in magical darkness.  ",
 			"**Prerequisites:** {feat/Improved Unarmed Strike}, Intimidate 1 rank, ability to create magical darkness.  ",
-			"**Benefit:** While fighting within an area of magical darkness, you gain a +2 bonus on damage rolls with unarmed strikes, or a +4 bonus against opponents that are shaken, frightened, or panicked. You also gain a +2 morale bonus on Acrobatics and Intimidate checks.",
+			"**Benefit:** While fighting within an area of magical darkness, you gain a +2 bonus on damage rolls with unarmed strikes, or a +4 bonus against opponents that are {misc/shaken}, {misc/frightened}, or {misc/panicked}. You also gain a +2 morale bonus on Acrobatics and Intimidate checks.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/127}",
@@ -4924,13 +4922,13 @@
 			"{SOURCE Ultimate Combat/111}",
 			"",
 			"Your faerie fire not only illuminates your foes, but it also shows you their weaknesses.  ",
-			"**Prerequisites:** {feat/Improved Unarmed Strike}, {feat/Nightmare Fist}, {feat/Nightmare Weaver}, {feat/Stunning Fist}, Heal 5 ranks, ability to cast faerie fire.  ",
-			"**Benefit:** While a faerie fire you have cast (not one cast from a spell completion or spell trigger item) outlines an opponent, the DC for that opponent to resist your Stunning Fist attempts increases by +2. If you hit an opponent with a Stunning Fist attempt, and that opponent fails her saving throw, you can render the target shaken for 1d2 rounds plus 1 round for every 5 by which the opponent failed her save.",
+			"**Prerequisites:** {feat/Improved Unarmed Strike}, {feat/Nightmare Fist}, {feat/Nightmare Weaver}, {feat/Stunning Fist}, Heal 5 ranks, ability to cast {spell/faerie fire}.  ",
+			"**Benefit:** While a *faerie fire* you have cast (not one cast from a spell completion or spell trigger item) outlines an opponent, the DC for that opponent to resist your Stunning Fist attempts increases by +2. If you hit an opponent with a Stunning Fist attempt, and that opponent fails her saving throw, you can render the target {shaken} for 1d2 rounds plus 1 round for every 5 by which the opponent failed her save.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/127}",
 			">",
-			">When you hit an opponent with a Stunning Fist attack and that opponent fails its saving throw, you can spend 5 stamina points to make the opponent frightened for 1d4 rounds instead of shaken."
+			">When you hit an opponent with a Stunning Fist attack and that opponent fails its saving throw, you can spend 5 stamina points to make the opponent {misc/frightened} for 1d4 rounds instead of shaken."
 		]
 	},
 	"nightmare_weaver": {
@@ -4945,14 +4943,14 @@
 			"{SOURCE Ultimate Combat/112}",
 			"",
 			"You can use your ability to create magical darkness to terrorize enemies.  ",
-			"**Prerequisites:** {feat/Improved Unarmed Strike}, {feat/Nightmare Fist}, Intimidate 2 ranks, ability to cast darkness.  ",
-			"**Benefit:** By spending a full-round action to cast darkness, you can also make Intimidate checks to demoralize all foes in the spell's initial area.  ",
-			"**Special:** This feat counts as {feat/Dazzling Display} for purposes of qualifying for Deadly Stroke and Shatter Defenses.",
+			"**Prerequisites:** {feat/Improved Unarmed Strike}, {feat/Nightmare Fist}, Intimidate 2 ranks, ability to cast {spell/darkness}.  ",
+			"**Benefit:** By spending a full-round action to cast *darkness,* you can also make {skill/Intimidate} checks to demoralize all foes in the spell's initial area.  ",
+			"**Special:** This feat counts as {feat/Dazzling Display} for purposes of qualifying for {feat/Deadly Stroke} and {feat/Shatter Defenses}.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/127}",
 			">",
-			">When you cast darkness as a standard action, you can spend 5 stamina points to also attempt Intimidate checks to demoralize all foes in the spell's initial area."
+			">When you cast *darkness* as a standard action, you can spend 5 stamina points to also attempt Intimidate checks to demoralize all foes in the spell's initial area."
 		]
 	},
 	"nimble_moves": {
@@ -4976,7 +4974,7 @@
 			"",
 			"You dance across obstacles with ease, as though they weren't even there.  ",
 			"**Prerequisites:** Nimble Moves.  ",
-			"**Benefit:** For every 2 tiers you possess, you can move through up to 5 feet of difficult terrain each round as if it were normal terrain (minimum 5 feet). This effect stacks with those provided by Nimble Moves and Acrobatic Steps."
+			"**Benefit:** For every 2 tiers you possess, you can move through up to 5 feet of difficult terrain each round as if it were normal terrain (minimum 5 feet). This effect stacks with those provided by Nimble Moves and {feat/Acrobatic Steps}."
 		]
 	},
 	"nimble_natural_summons": {
@@ -4991,8 +4989,8 @@
 			"{SOURCE Inner Sea Gods/214;Faiths of Purity/24}",
 			"",
 			"Your summoned natural allies may walk the wild parts of the world unimpeded.  ",
-			"**Prerequisites:** {feat/Augment Summoning}, {feat/Spell Focus} (conjuration), ability to cast summon nature's ally, caster level 6th, worshiper of {faith/Erastil}.  ",
-			"**Benefit:** Creatures you summon with summon nature's ally can move through any sort of undergrowth (such as natural thorns, briars, and similar terrain) at their normal speeds without taking damage or suffering other impairment. Thorns, briars, and undergrowth areas that have been magically manipulated to impede motion, however, still affect summoned creatures."
+			"**Prerequisites:** {feat/Augment Summoning}, {feat/Spell Focus} (conjuration), ability to cast {spell/summon nature's ally>_1}, caster level 6th, worshiper of {faith/Erastil}.  ",
+			"**Benefit:** Creatures you summon with *summon nature's ally* can move through any sort of undergrowth (such as natural thorns, briars, and similar terrain) at their normal speeds without taking damage or suffering other impairment. Thorns, briars, and undergrowth areas that have been magically manipulated to impede motion, however, still affect summoned creatures."
 		]
 	},
 	"nimble_striker": {
@@ -5008,7 +5006,7 @@
 			"",
 			"You were born to charge your enemies and nobody does it better.  ",
 			"**Prerequisites:** Dex 13, base attack bonus +1, {race/catfolk}, sprinter racial trait.  ",
-			"**Benefit:** You do not take a -2 penalty to AC when you use the {feat/Cleave} feat, {feat/Lunge} feat, or when you charge.",
+			"**Benefit:** You do not take a -2 penalty to AC when you use the {feat/Cleave} feat, {feat/Lunge} feat, or when you {rule/charge}.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/127}",

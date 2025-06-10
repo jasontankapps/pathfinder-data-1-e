@@ -103,7 +103,7 @@
 		"description": [
 			"{SOURCE GameMastery Guide/249}",
 			"",
-			"There's a significant distinction between clues and hints. A clue is something that's necessary to solve the puzzle. A hint, on the other hand, is something that helps open up an entirely solvable puzzle. While a clue might be meted out by the GM, often in the form of additional details found along with the puzzle, later in a adventure, or from a loose-tongued henchman, hints should be the domain of the PCs and bridge the gap between characters and players.",
+			"There's a significant distinction between clues and hints. A clue is something that's necessary to solve the puzzle. A hint, on the other hand, is something that helps open up an entirely solvable puzzle. While a clue might be meted out by the GM, often in the form of additional details found along with the puzzle, later in an adventure, or from a loose-tongued henchman, hints should be the domain of the PCs and bridge the gap between characters and players.",
 			"",
 			"While optimally players should strive to answer a puzzle using only the knowledge their characters possess, this can be a challenge for even the most experienced players. While formulating puzzles with answers that both the players and PCs can solve fixes this problem to a degree, so does having the players work with their PCs to gain hints. It's wholly possible, even likely, that a character possesses knowledge and insights a player doesn't. Depending on the complexity of a puzzle, calling for a skill check (typically Perception or a Knowledge skill) or even an Intelligence ability check might provide a hint. While such information might hint at the solution, it shouldn't blatantly answer the puzzle. This allows a GM to interject some backstory, forgotten detail, or element of his own reasoning into the solving process without merely giving up the answer.",
 			"",
@@ -2501,7 +2501,7 @@
 			"",
 			"@HL[Jumper (2 RP):] **Prerequisite:** The race has at least a +2 racial bonus to Dexterity; **Benefit:** Members of this race are always considered to have a running start when making Acrobatics checks to jump.",
 			"",
-			"@HL[Mountaineer (1 RP):] **Prerequisites:** None; **Benefit:** Members of this race are immune to altitude sickness and do not lose their Dexterity bonus to AC when making Climb checks or Acrobatics checks to cross narrow or slippery surfaces.",
+			"@HL[Mountaineer (1 RP):] **Prerequisites:** None; **Benefit:** Members of this race are immune to [altitude sickness](rule/mountain_travel) and do not lose their Dexterity bonus to AC when making Climb checks or Acrobatics checks to cross narrow or slippery surfaces.",
 			"",
 			"@HL[Sprinter (1 RP):] **Prerequisite:** Normal speed; **Benefit:** Members of this race gain a +10 foot racial bonus to their speed when using the charge, run, or withdraw actions.",
 			"",

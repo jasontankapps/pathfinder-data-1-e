@@ -979,7 +979,7 @@
 					[ "{monster/Tatzlwyrm}", 2, null, [ 4, "medium" ], [ 4, "N" ], "This serpentine creature has the head of a ferocious dragon and two relatively small forearms that end in tiny claws." ],
 					[ "{monster/Vishap}", 19, "extraplanar", [ 8, "colossal" ], [ 4, "N" ], "This slender dragon is covered in vivid cerulean scales with four powerful wings to match." ],
 					[ "{monster/Woundwyrm}", 15, "chaotic, evil", [ 6, "huge" ], [ 8, "CE" ], "This massive, eyeless draconic creature is covered in purplehued scales and sharp, spiky protrusions." ],
-					[ "{monster/Wyvaran}", [ -2, "1/2" ], null, [ 4, "medium" ], [ 1, "LN" ], "This dragon-like humanoid brandishes its spear, spreads its wings, and shows its fangs in a angry snarl." ],
+					[ "{monster/Wyvaran}", [ -2, "1/2" ], null, [ 4, "medium" ], [ 1, "LN" ], "This dragon-like humanoid brandishes its spear, spreads its wings, and shows its fangs in an angry snarl." ],
 					[ "{monster/Wyvern}", 6, null, [ 5, "large" ], [ 4, "N" ], "A dark blue dragon, its wings immense and its tail tipped with a hooked stinger, lands on two taloned feet and roars a challenge." ]
 				],
 				"initialColumn": 0

@@ -1036,7 +1036,7 @@
 			"",
 			"**Sure-Footed (Ex):** At 3rd level, a mountain druid suffers no penalty to speed or on Acrobatics or Stealth checks when walking across steep slopes, rubble, or scree. This ability replaces trackless step.",
 			"",
-			"**Spire Walker (Ex):** At 4th level, a mountain druid does not lose her Dexterity bonus when climbing. A mountain druid is immune to altitude sickness and ignores the effects of a cold climate as if under the effects of {spell/endure elements}. This ability replaces resist nature's lure.",
+			"**Spire Walker (Ex):** At 4th level, a mountain druid does not lose her Dexterity bonus when climbing. A mountain druid is immune to [altitude sickness](rule/mountain_travel) and ignores the effects of a cold climate as if under the effects of {spell/endure elements}. This ability replaces resist nature's lure.",
 			"",
 			"**Wild Shape (Su):** A mountain druid gains this ability at 6th level, except that her effective druid level for the ability is equal to her druid level - 2. A mountain druid cannot use wild shape to adopt a plant form. However, at 12th level she can assume the form of a Large giant as if using {spell/giant form I}. At 16th level, she may assume the form of a Huge giant as if using {spell/giant form II}.",
 			"",
@@ -1623,7 +1623,7 @@
 			"",
 			"**Wild Shape (Su):** At 6th level, a sky druid gains the ability to use wild shape. When a sky druid takes the form of a creature with a fly speed, this ability functions at her class level + 1. For all other forms, her effective druid level for the ability is equal to her actual sky druid level. This ability otherwise functions as and replaces wild shape.",
 			"",
-			"**Soaring Form (Ex):** At 9th level, a sky druid is no longer affected by altitude sickness or natural or magical wind. This ability replaces venom immunity.",
+			"**Soaring Form (Ex):** At 9th level, a sky druid is no longer affected by [altitude sickness](rule/mountain_travel) or natural or magical wind. This ability replaces venom immunity.",
 			"",
 			"**Into the Wild Blue (Su):** At 13th level, a sky druid gains a fly speed equal to twice her base land speed (good maneuverability). This ability replaces a thousand faces."
 		]

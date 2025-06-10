@@ -16,51 +16,51 @@
 			"",
 			"When you select this feat, choose one of the benefits listed below that matches the flavor of your noble family. Work with your GM to ensure that your choice is appropriate.",
 			"",
-			">*Scion of the Arts:* You gain a +1 bonus on all Perform checks, and Perform is always a class skill for you. If you have the bardic performance ability, you can use that ability for an additional 3 rounds per day.",
+			">@HL[Scion of the Arts:] You gain a +1 bonus on all Perform checks, and Perform is always a class skill for you. If you have the bardic performance ability, you can use that ability for an additional 3 rounds per day.",
 			">",
-			">*Scion of Lore:* You gain a +1 bonus on all Knowledge skills in which you have at least 1 rank.",
+			">@HL[Scion of Lore:] You gain a +1 bonus on all Knowledge skills in which you have at least 1 rank.",
 			">",
-			">*Scion of Magic:* You gain one of the following languages as a bonus language: Abyssal, Aklo, Celestial, Draconic, Infernal, or Sylvan. Once per day, as a free action, you can gain a +2 bonus on any Spellcraft check you make. You must spend the free action to gain this bonus before you make the check.",
+			">@HL[Scion of Magic:] You gain one of the following languages as a bonus language: Abyssal, Aklo, Celestial, Draconic, Infernal, or Sylvan. Once per day, as a free action, you can gain a +2 bonus on any Spellcraft check you make. You must spend the free action to gain this bonus before you make the check.",
 			">",
-			">*Scion of Peace:* Whenever you take 10 on a Wisdom-based skill, treat the result as if you had rolled a 13 instead of a 10.",
+			">@HL[Scion of Peace:] Whenever you take 10 on a Wisdom-based skill, treat the result as if you had rolled a 13 instead of a 10.",
 			">",
-			">*Scion of War:* You use your Charisma modifier to adjust Initiative checks instead of your Dexterity modifier.",
+			">@HL[Scion of War:] You use your Charisma modifier to adjust Initiative checks instead of your Dexterity modifier.",
 			"",
 			"{SOURCE Heroes of the High Court/5}",
 			"",
 			"Noble houses throughout Golarion train their courts to focus on the ideals and skills most appropriate for their given region. The Noble Scion feat provides benefits to noble characters. Presented below are a number of benefits that can be taken in place of the standard selection of benefits provided by the feat.",
 			"",
-			">*Scion of Absalom:* You gain one of the following languages as a bonus language: Dwarven, Elven, Giant, Gnome, Halfling, or Orc. You gain a +1 bonus on Diplomacy checks when interacting with a creature that shares this bonus language.",
+			">@HL[Scion of Absalom:] You gain one of the following languages as a bonus language: Dwarven, Elven, Giant, Gnome, Halfling, or Orc. You gain a +1 bonus on Diplomacy checks when interacting with a creature that shares this bonus language.",
 			">",
-			">*Scion of Brevoy:* You gain a +2 bonus on Bluff checks against other nobles or members of a noble court.",
+			">@HL[Scion of Brevoy:] You gain a +2 bonus on Bluff checks against other nobles or members of a noble court.",
 			">",
-			">*Scion of Cheliax:* You gain a +1 bonus on Knowledge (planes) checks and treat your caster level as 1 higher when attempting to bind or call a devil.",
+			">@HL[Scion of Cheliax:] You gain a +1 bonus on Knowledge (planes) checks and treat your caster level as 1 higher when attempting to bind or call a devil.",
 			">",
-			">*Scion of Goka:* Choose either Sleight of Hand or Stealth. While you are in a small city or larger settlement, you can take 10 with the chosen skill, even while rushed or threatened.",
+			">@HL[Scion of Goka:] Choose either Sleight of Hand or Stealth. While you are in a small city or larger settlement, you can take 10 with the chosen skill, even while rushed or threatened.",
 			">",
-			">*Scion of Highhelm:* You use your Constitution modifier instead of your Charisma modifier for the purpose of the Leadership feat.",
+			">@HL[Scion of Highhelm:] You use your Constitution modifier instead of your Charisma modifier for the purpose of the Leadership feat.",
 			">",
-			">*Scion of Irrisen:* You reduce the amount of nonlethal damage you take from exposure to cold by 4 (minimum 0).",
+			">@HL[Scion of Irrisen:] You reduce the amount of nonlethal damage you take from exposure to cold by 4 (minimum 0).",
 			">",
-			">*Scion of Jalmeray:* Once per day, you can reroll a save against a psychic spell and gain a +2 bonus on that reroll.",
+			">@HL[Scion of Jalmeray:] Once per day, you can reroll a save against a psychic spell and gain a +2 bonus on that reroll.",
 			">",
-			">*Scion of Katapesh:* Once per day, you can attempt a Diplomacy check to reduce the cost of an item by 10% (DC = 15, + 1 for every 500 gp of the item's base cost). The item must have a market value of 5,000 gp or less.",
+			">@HL[Scion of Katapesh:] Once per day, you can attempt a Diplomacy check to reduce the cost of an item by 10% (DC = 15, + 1 for every 500 gp of the item's base cost). The item must have a market value of 5,000 gp or less.",
 			">",
-			">*Scion of Kyonin:* You use your Dexterity modifier instead of your Charisma modifier for the purpose of the Leadership feat.",
+			">@HL[Scion of Kyonin:] You use your Dexterity modifier instead of your Charisma modifier for the purpose of the Leadership feat.",
 			">",
-			">*Scion of Nidal:* You gain low-light vision. If you already have low-light vision, you instead gain a +2 bonus on Perception checks in areas of dim light.",
+			">@HL[Scion of Nidal:] You gain low-light vision. If you already have low-light vision, you instead gain a +2 bonus on Perception checks in areas of dim light.",
 			">",
-			">*Scion of Numeria:* You gain a +1 bonus on skill checks when interacting with technology and a +2 bonus on damage rolls against creatures of the robot subtype.",
+			">@HL[Scion of Numeria:] You gain a +1 bonus on skill checks when interacting with technology and a +2 bonus on damage rolls against creatures of the robot subtype.",
 			">",
-			">*Scion of Osirion:* You reduce the amount of nonlethal damage you take from heat exposure by 2 (minimum 0). Additionally, you require only a gallon of water per day to avoid dehydration in hot climates.",
+			">@HL[Scion of Osirion:] You reduce the amount of nonlethal damage you take from heat exposure by 2 (minimum 0). Additionally, you require only a gallon of water per day to avoid dehydration in hot climates.",
 			">",
-			">*Scion of Qadira:* Once per day, when attempting to negate an attack with {feat/Mounted Combat}, you can roll twice and take the better result. Ride is a class skill for you.",
+			">@HL[Scion of Qadira:] Once per day, when attempting to negate an attack with {feat/Mounted Combat}, you can roll twice and take the better result. Ride is a class skill for you.",
 			">",
-			">*Scion of the River Kingdoms:* Whenever you take 10 on Handle Animal, Knowledge (nature), Perception, Ride, or Survival checks, treat the result as if you had rolled a 13 instead of a 10.",
+			">@HL[Scion of the River Kingdoms:] Whenever you take 10 on Handle Animal, Knowledge (nature), Perception, Ride, or Survival checks, treat the result as if you had rolled a 13 instead of a 10.",
 			">",
-			">*Scion of Taldor:* You gain a +2 bonus on Charisma-based checks when interacting with nobles or members of a noble court.",
+			">@HL[Scion of Taldor:] You gain a +2 bonus on Charisma-based checks when interacting with nobles or members of a noble court.",
 			">",
-			">*Scion of Ustalav:* Once per day as a free action, you can suppress any fear effects affecting you for a number of rounds equal to half your Hit Dice (minimum 1) even if you could not normally take actions due to your fear. Knowledge (religion) is a class skill for you.",
+			">@HL[Scion of Ustalav:] Once per day as a free action, you can suppress any fear effects affecting you for a number of rounds equal to half your Hit Dice (minimum 1) even if you could not normally take actions due to your fear. Knowledge (religion) is a class skill for you.",
 			"",
 			"**Special:** You cannot take this feat if you have the [Taldor variant](feat/noble_scion_taldor_variant) of this feat, and vice versa."
 		]
@@ -77,31 +77,31 @@
 			"**Prerequisites:** Cha 13 or {trait/Child of Oppara} trait, must be taken at 1st level.  ",
 			"**Benefit:** You gain a +2 bonus on all Knowledge (nobility) checks, and Knowledge (nobility) is always a class skill for you. You also gain an additional benefit depending on which family you belong to.",
 			"",
-			">*Basri:* You come from the long line of ambassadors, diplomats, and travelers that make up the Basri, and your family maintains the strongest ties to the elven nation of Kyonin of any Taldan humans. Select one of the following as a bonus starting language: Celestial, Elven, Gnome, Sylvan. You gain proficiency in one of the following weapons: longbow (including composite), longsword, rapier, or shortbow (including composite). If you gain proficiency in all martial weapons at 1st level, you can instead select elven curve blade.",
+			">@HL[Basri:] You come from the long line of ambassadors, diplomats, and travelers that make up the Basri, and your family maintains the strongest ties to the elven nation of Kyonin of any Taldan humans. Select one of the following as a bonus starting language: Celestial, Elven, Gnome, Sylvan. You gain proficiency in one of the following weapons: longbow (including composite), longsword, rapier, or shortbow (including composite). If you gain proficiency in all martial weapons at 1st level, you can instead select elven curve blade.",
 			">",
-			">*Clement:* Your Garundi and Mwangi ancestors served Taldor proudly during the Sixth Army of Exploration and were awarded titles for their service. Your family, which has maintained their noble titles to this day, is known for keen insights and biting observations. You can substitute your Wisdom modifier for your Charisma modifier when attempting Diplomacy skill checks.",
+			">@HL[Clement:] Your Garundi and Mwangi ancestors served Taldor proudly during the Sixth Army of Exploration and were awarded titles for their service. Your family, which has maintained their noble titles to this day, is known for keen insights and biting observations. You can substitute your Wisdom modifier for your Charisma modifier when attempting Diplomacy skill checks.",
 			">",
-			">*Corcina:* Your family came to prominence during the Second Army of Exploration, and maintains a legacy as explorers and sailors. You gain a +1 bonus on Climb and Escape Artist checks, and a +2 bonus on Survival checks to navigate.",
+			">@HL[Corcina:] Your family came to prominence during the Second Army of Exploration, and maintains a legacy as explorers and sailors. You gain a +1 bonus on Climb and Escape Artist checks, and a +2 bonus on Survival checks to navigate.",
 			">",
-			">*Karthis:* Yours is a family of distinguished military veterans, charismatic demagogues, and xenophobic zealots. As the rest of the family becomes increasingly Imperialist, you have made no effort to remain in their good graces, but you retain the skills they taught you during a childhood of rigorous training. You can apply your Charisma modifier instead of your Dexterity modifier to Initiative checks.",
+			">@HL[Karthis:] Yours is a family of distinguished military veterans, charismatic demagogues, and xenophobic zealots. As the rest of the family becomes increasingly Imperialist, you have made no effort to remain in their good graces, but you retain the skills they taught you during a childhood of rigorous training. You can apply your Charisma modifier instead of your Dexterity modifier to Initiative checks.",
 			">",
-			">*Kastner:* Your stalwart family defines itself by opposing your devil-worshiping Chelish cousins, a grudge that inspired some of Taldor's greatest healers, priests, and negotiators. You gain one additional use per day of channel energy, lay on hands, or mesmerist tricks, or 3 additional rounds of bardic music per day. You gain only one of these benefits, even if you later acquire a second class that provides one of the other class features listed.",
+			">@HL[Kastner:] Your stalwart family defines itself by opposing your devil-worshiping Chelish cousins, a grudge that inspired some of Taldor's greatest healers, priests, and negotiators. You gain one additional use per day of channel energy, lay on hands, or mesmerist tricks, or 3 additional rounds of bardic music per day. You gain only one of these benefits, even if you later acquire a second class that provides one of the other class features listed.",
 			">",
-			">*Lotheed:* Your family ranks include the greatest wizards and arcane scholars in Taldor, and schooling in some of the most comprehensive arcane libraries in the Inner Sea was your birthright. If your Intelligence is 11 or higher, you gain the following spell-like abilities: 1/day&mdash;dancing lights, prestidigitation, read magic, unseen servant. The caster level for these effects is equal to one-half your class level.",
+			">@HL[Lotheed:] Your family ranks include the greatest wizards and arcane scholars in Taldor, and schooling in some of the most comprehensive arcane libraries in the Inner Sea was your birthright. If your Intelligence is 11 or higher, you gain the following spell-like abilities: 1/day&mdash;dancing lights, prestidigitation, read magic, unseen servant. The caster level for these effects is equal to one-half your class level.",
 			">",
-			">*Merosett:* The cunning members of your large family, a longtime fixture in Oppara's bureaucracy, specialize in tracking lineages and sidestepping red tape. You gain a +5 bonus on Bluff checks to send secret messages and Sense Motive checks to discern secret messages. You halve the time required to search through archives, navigate government offices, review contracts, or otherwise work with the complex bureaucracies your family has mastered for generations.",
+			">@HL[Merosett:] The cunning members of your large family, a longtime fixture in Oppara's bureaucracy, specialize in tracking lineages and sidestepping red tape. You gain a +5 bonus on Bluff checks to send secret messages and Sense Motive checks to discern secret messages. You halve the time required to search through archives, navigate government offices, review contracts, or otherwise work with the complex bureaucracies your family has mastered for generations.",
 			">",
-			">*Stavian:* As a close relative of the Grand Prince, yours has been a life of material comfort and indulgence, colored by constant threats and direct influence. You gain a +2 bonus on Fortitude saves against poison and on Will saves against enchantment spells of the charm and compulsion subschools.",
+			">@HL[Stavian:] As a close relative of the Grand Prince, yours has been a life of material comfort and indulgence, colored by constant threats and direct influence. You gain a +2 bonus on Fortitude saves against poison and on Will saves against enchantment spells of the charm and compulsion subschools.",
 			">",
-			">*Talbot:* Your starkly conservative family are merchants and entrepreneurs first and aristocrats second, willing to forgo duty if they can instead pursue profit. They condemn would-be adventurers and readily oust them from the family ranks, leaving you an outcast. You gain a +2 bonus on one Profession skill of your choice. Once per day, you can use this Profession skill in place of a single Knowledge skill check.",
+			">@HL[Talbot:] Your starkly conservative family are merchants and entrepreneurs first and aristocrats second, willing to forgo duty if they can instead pursue profit. They condemn would-be adventurers and readily oust them from the family ranks, leaving you an outcast. You gain a +2 bonus on one Profession skill of your choice. Once per day, you can use this Profession skill in place of a single Knowledge skill check.",
 			">",
-			">*Varima:* Your family immigrated to Taldor from Vudra hundreds of years ago, and thanks to noble roots, extensive trade contacts, and an unparalleled skill in negotiation, soon developed into a steadfast fixture of Oppara's social scene. Whenever you use Diplomacy to influence a crowd or a room (but not individuals), you can roll twice and use the better result.",
+			">@HL[Varima:] Your family immigrated to Taldor from Vudra hundreds of years ago, and thanks to noble roots, extensive trade contacts, and an unparalleled skill in negotiation, soon developed into a steadfast fixture of Oppara's social scene. Whenever you use Diplomacy to influence a crowd or a room (but not individuals), you can roll twice and use the better result.",
 			">",
-			">*Vernisant:* Your family is descended from the great general Arnisant, who commanded Taldan forces during the Shining Crusade... and they will never let anyone forget it! Their fierce Imperialist support and nationalist fervor has left you alienated from your relatives now, but their emphasis on scholarship left a mark nonetheless. You gain a +1 bonus on all Knowledge skills in which you have at least 1 rank.",
+			">@HL[Vernisant:] Your family is descended from the great general Arnisant, who commanded Taldan forces during the Shining Crusade... and they will never let anyone forget it! Their fierce Imperialist support and nationalist fervor has left you alienated from your relatives now, but their emphasis on scholarship left a mark nonetheless. You gain a +1 bonus on all Knowledge skills in which you have at least 1 rank.",
 			">",
-			">*Vinmark:* Newcomers and outsiders, your Ulfen family was exalted to nobility 19 years ago, when Stavian III promoted your family patriarch to Baron of Oppara as a reward for service in the [Ulfen Guard](rule/f_imperial). Established aristocrats consider your family crude, choosing to leave them on the margins of Taldan politics unless a noble thinks they could use you to curry favor with the Grand Prince, but hard-won practicality and newborn cynicism grant you insight most Taldan nobles lack. Once per day when rolling a Sense Motive check, you may roll two dice and use the better result.",
+			">@HL[Vinmark:] Newcomers and outsiders, your Ulfen family was exalted to nobility 19 years ago, when Stavian III promoted your family patriarch to Baron of Oppara as a reward for service in the [Ulfen Guard](rule/f_imperial). Established aristocrats consider your family crude, choosing to leave them on the margins of Taldan politics unless a noble thinks they could use you to curry favor with the Grand Prince, but hard-won practicality and newborn cynicism grant you insight most Taldan nobles lack. Once per day when rolling a Sense Motive check, you may roll two dice and use the better result.",
 			">",
-			">*Zespire:* Your family runs charities and lobbies heavily for social reform, leaving them with few friends among their Opparan peers but heartfelt support from the common folk and lesser nobility. You gain a +2 bonus on Diplomacy and Perform checks when dealing with common citizens and with nobles whose titles are limited to Lord, Lady, Knight, or Dame.",
+			">@HL[Zespire:] Your family runs charities and lobbies heavily for social reform, leaving them with few friends among their Opparan peers but heartfelt support from the common folk and lesser nobility. You gain a +2 bonus on Diplomacy and Perform checks when dealing with common citizens and with nobles whose titles are limited to Lord, Lady, Knight, or Dame.",
 			"",
 			"**Special:** This is a variant of the {feat/Noble Scion} feat. If you take this version of the feat, you cannot also take the original version."
 		]
@@ -160,7 +160,7 @@
 			"{SOURCE Ultimate Intrigue/87}",
 			"",
 			"You are widely known as dangerous and fearsome.  ",
-			"**Prerequisites:** {feat/Dazzling Display}, {feat/Weapon Focus}, any nongood alignment, great renown social talent, proficiency with chosen weapon.  ",
+			"**Prerequisites:** {feat/Dazzling Display}, {feat/Weapon Focus}, any nongood alignment, {soctalent/great renown} social talent, proficiency with chosen weapon.  ",
 			"**Benefit:** Your presence can act as a fast and effective Dazzling Display. As a standard action, you use the benefit of Dazzling Display even when you are not wielding a weapon in which you have Weapon Focus. If you are wielding such a weapon, you gain a +2 bonus on the Intimidate check."
 		]
 	},
@@ -173,7 +173,7 @@
 			"{SOURCE Potions and Poisons/4}",
 			"",
 			"You reflexively excrete poison in response to trauma.  ",
-			"**Prerequisites:** Grippli, toxic skin alternate racial trait.  ",
+			"**Prerequisites:** {race/Grippli}, toxic skin alternate racial trait.  ",
 			"**Benefit:** Whenever you are hit with an unarmed strike or natural weapon, you can spend a use of your toxic skin racial trait as an immediate action, affecting the creature that hit you with your grippli poison as if you had smeared the poison on your own body."
 		]
 	},
@@ -187,7 +187,7 @@
 			"",
 			"You strike the weapons of your opponents so forcefully that they are unable to quickly recover or counterattack.  ",
 			"**Prerequisites:** Int 13, Str 13, {feat/Combat Expertise}, {feat/Improved Disarm}, {feat/Power Attack}.  ",
-			"**Benefit:** Whenever you succeed at a combat maneuver check to disarm an opponent, the opponent must succeed at a Fortitude save (DC = 10 + your base attack bonus) or be hampered by the pain of the blow. For 1 round, if the target of your disarm combat maneuver failed its save, it can't use the limb or limbs that had been wielding the disarmed weapon to wield a weapon or shield, provide somatic components for spells, or manipulate objects. This is a pain effect."
+			"**Benefit:** Whenever you succeed at a combat maneuver check to {rule/disarm} an opponent, the opponent must succeed at a Fortitude save (DC = 10 + your base attack bonus) or be hampered by the pain of the blow. For 1 round, if the target of your disarm combat maneuver failed its save, it can't use the limb or limbs that had been wielding the disarmed weapon to wield a weapon or shield, provide somatic components for spells, or manipulate objects. This is a pain effect."
 		]
 	},
 	"oath_of_the_unbound": {
@@ -200,7 +200,7 @@
 			"",
 			"You have sworn never to be shackled.  ",
 			"**Prerequisites:** Worshiper of {faith/Rovagug}.  ",
-			"**Benefit:** You gain a +2 bonus on combat maneuver checks to break free of a grapple or pin, on Strength checks to burst bonds or to break through doors or walls, and on saving throws to resist spells and effects that would entangle or slow you."
+			"**Benefit:** You gain a +2 bonus on combat maneuver checks to break free of a {rule/grapple} or pin, on Strength checks to burst bonds or to break through doors or walls, and on saving throws to resist spells and effects that would entangle or slow you."
 		]
 	},
 	"object_of_legend": {
@@ -213,28 +213,28 @@
 			"",
 			"The object of your quest drives you ever forward.  ",
 			"**Prerequisites:** You must have some highly personal stake in attaining the object of your quest as determined collectively by you and the GM - such as needing an ancestral weapon to exact your revenge against a known betrayer, seeking to destroy the artifact that caused your family's downfall generations ago, or attempting to behead a monster that ravaged your homeland during your youth.  ",
-			"**Benefit:** When you gain this feat, select one of the quest objects on this page or the facing page, or devise a quest object with your GM based on the quest objects presented in this section. You gain a +2 bonus on any Knowledge checks to gain information on the object of your quest. If you have 10 or more ranks in the Knowledge skill in question, the bonus increases to +4. In addition, once per day when you threaten a critical hit against a foe who specifically aims to stop you from completing your quest, you gain a +10 bonus on your confirmation roll against that opponent. You must announce the use of this ability after threatening the critical hit and before rolling your confirmation roll. This bonus does not stack with bonuses on confirmation rolls from other feats, such as Critical Focus.  ",
+			"**Benefit:** When you gain this feat, select one of the quest objects below, or devise a quest object with your GM based on the quest objects presented in this feat. You gain a +2 bonus on any Knowledge checks to gain information on the object of your quest. If you have 10 or more ranks in the Knowledge skill in question, the bonus increases to +4. In addition, once per day when you threaten a critical hit against a foe who specifically aims to stop you from completing your quest, you gain a +10 bonus on your confirmation roll against that opponent. You must announce the use of this ability after threatening the critical hit and before rolling your confirmation roll. This bonus does not stack with bonuses on confirmation rolls from other feats, such as Critical Focus.  ",
 			"**Goal:** Attain the object of your quest, as determined by you and the GM upon taking this feat. This likely means decidedly obtaining the item for yourself, though in some cases (such as when the quest object is more abstract or intangible) this might mean slaying a certain foe, achieving a certain honor, or completing some other set of predetermined objectives.  ",
-			"**Completion Benefit:** You gain renown throughout a region, perhaps even an entire continent. You are sung of in bardic tales and can be the subject of spells such as legend lore, regardless of your actual level. Commoners in nearby lands know of your deeds, and your reputation precedes you in numerous lands. In addition, you gain a specific benefit keyed to the object of your quest. See the quest objects in this section for examples of completion benefits when devising your own quest objects for use with this feat.  ",
+			"**Completion Benefit:** You gain renown throughout a region, perhaps even an entire continent. You are sung of in bardic tales and can be the subject of spells such as {spell/legend lore}, regardless of your actual level. Commoners in nearby lands know of your deeds, and your reputation precedes you in numerous lands. In addition, you gain a specific benefit keyed to the object of your quest. See the quest objects below for examples of completion benefits when devising your own quest objects for use with this feat.  ",
 			"**Special:** This feat may be taken more than once. Each time it is taken, select a new quest object to strive for. As with all story feats, a character cannot take this feat again until she has completed the goal of the feat's first iteration.",
 			"",
-			"*Axe of the Dwarvish Lords*  ",
-			"**Completion Benefit:** Capturing the legendary Axe of the Dwarvish Lords from the dragon Moschabbatt proves your worth to the dwarven people. As long as you wield the Axe of the Dwarvish Lords, you gain a +4 bonus on Charisma-based skill checks with dwarves.",
+			"@HL[Axe of the Dwarvish Lords]  ",
+			"**Completion Benefit:** Capturing the legendary {magic-artifact/Axe of the Dwarvish Lords} from the dragon Moschabbatt proves your worth to the dwarven people. As long as you wield the Axe of the Dwarvish Lords, you gain a +4 bonus on Charisma-based skill checks with dwarves.",
 			"",
-			"*Chronicle of the Righteous*  ",
-			"**Completion Benefit:** The secrets of Heaven and the other goodly Outer Planes are now known to you. You gain the completion benefits of the Blessed story feat.",
+			"@hll[magic-artifact/Chronicle of the Righteous]  ",
+			"**Completion Benefit:** The secrets of Heaven and the other goodly Outer Planes are now known to you. You gain the completion benefits of the {feat/Blessed} story feat.",
 			"",
-			"*Linnorm Head*  ",
-			"**Completion Benefit:** Slaying a linnorm in the northlands of Avistan enables you to become a ruler in the Lands of the Linnorm Kings. You gain {ability/favored enemy} (dragon) +2, as the ranger class feature of t he same name. This bonus stacks with favored enemy bonuses granted by other sources.",
+			"@HL[Linnorm Head]  ",
+			"**Completion Benefit:** Slaying a {family/linnorm} in the northlands of Avistan enables you to become a ruler in the Lands of the Linnorm Kings. You gain {ability/favored enemy} (dragon) +2, as the ranger class feature of the same name. This bonus stacks with favored enemy bonuses granted by other sources.",
 			"",
-			"*Red Mantis Hit List*  ",
+			"@HL[Red Mantis Hit List]  ",
 			"**Completion Benefit:** By stealing a comprehensive list of all the targets slain and being kept dead by the [Red Mantis](rule/aff_assassins) assassins, you gain insights into their deadliest secrets. You gain {feat/Exotic Weapon Proficiency} (sawtooth sabre) and {feat/Weapon Focus} (sawtooth sabre) as bonus feats.",
 			"",
-			"*Sun Orchid Elixir*  ",
+			"@HL[Sun Orchid Elixir]  ",
 			"**Completion Benefit:** Upon acquiring a dose of {magic-artifact/sun orchid elixir} and restoring your youth, you completely lose your fear of physical harm. You gain a +2 bonus on saves against Strength, Dexterity, and Constitution damage.",
 			"",
-			"*Throne Card*  ",
-			"**Completion Benefit:** By snagging the Throne card from a deck of many things, you produce a fortress like Castle Everstand in Lastwall, using it as the seat for your new nation. You gain a +4 bonus on Stability checks and control checks while using the {rule/kingdom-building/ rules}."
+			"@HL[Throne Card]  ",
+			"**Completion Benefit:** By snagging the Throne card from a {magic-artifact/deck of many things}, you produce a fortress like Castle Everstand in Lastwall, using it as the seat for your new nation. You gain a +4 bonus on Stability checks and control checks while using the {rule/kingdom-building/ rules}."
 		]
 	},
 	"oblivating_stare": {
@@ -246,8 +246,8 @@
 			"{SOURCE Spymaster's Handbook/21}",
 			"",
 			"Your stare can cause a target to lose track of someone.  ",
-			"**Prerequisites:** Allure bold stare improvement, hypnotic stare class feature, Mesmerist level 5th.  ",
-			"**Benefit:** You can cause a target of your hypnotic stare to lose track of creatures other than yourself. If the target of your hypnotic stare is in an environment that would allow the target to take 10 on skill checks (if not in immediate danger or distracted), creatures can attempt Stealth checks opposed by the target's Perception check even if they lack cover or concealment. If the target of your hypnotic stare fails an opposed Perception check by 5 or more, it forgets the creature attempting the Stealth check was ever present, and acts as if it had failed a Will saving throw against a hidden presence spell cast by the creature using Stealth. If your hypnotic stare ends, the target takes damage, a creature using Stealth takes an action that would end a hidden presence spell, or the target's circumstances change so it would be unable to take 10 on a skill check, all effects of Obliviating Stare end and the target is immune to your Obliviating Stare for 24 hours."
+			"**Prerequisites:** {stare/Allure} bold stare improvement, hypnotic stare class feature, {class/Mesmerist} level 5th.  ",
+			"**Benefit:** You can cause a target of your hypnotic stare to lose track of creatures other than yourself. If the target of your hypnotic stare is in an environment that would allow the target to take 10 on skill checks (if not in immediate danger or distracted), creatures can attempt Stealth checks opposed by the target's Perception check even if they lack cover or concealment. If the target of your hypnotic stare fails an opposed Perception check by 5 or more, it forgets the creature attempting the Stealth check was ever present, and acts as if it had failed a Will saving throw against a {spell/hidden presence} spell cast by the creature using Stealth. If your hypnotic stare ends, the target takes damage, a creature using Stealth takes an action that would end a *hidden presence* spell, or the target's circumstances change so it would be unable to take 10 on a skill check, all effects of Obliviating Stare end and the target is immune to your Obliviating Stare for 24 hours."
 		]
 	},
 	"obscuring_beacon": {
@@ -271,8 +271,8 @@
 			"{SOURCE Heroes of Golarion/7}",
 			"",
 			"You can use your body as an implement to focus spells.  ",
-			"**Prerequisites:** Caster level 5th, implements class feature, mental focus class feature, {race/wyrwood}.  ",
-			"**Benefit:** You can invest mental focus in your body rather than an implement. When you invest mental focus this way, you treat your body as an implement of any implement school you know. You do not gain the resonant power for the chosen school, but you treat your occultist level as 1 higher for the purposes of that school's focus powers. You can change which implement school is tied to your body when you invest your chosen implements for the day."
+			"**Prerequisites:** Caster level 5th, {ability/implements} class feature, mental focus class feature, {race/wyrwood}.  ",
+			"**Benefit:** You can invest mental focus in your body rather than an implement. When you invest mental focus this way, you treat your body as an implement of any implement school you know. You do not gain the resonant power for the chosen school, but you treat your {class/occultist} level as 1 higher for the purposes of that school's focus powers. You can change which implement school is tied to your body when you invest your chosen implements for the day."
 		]
 	},
 	"octopus_focus": {
@@ -285,7 +285,7 @@
 			"",
 			"The more enemies that surround you, the more accurate your attacks become.  ",
 			"**Prerequisites:** Dex 13, {feat/Dodge}, {feat/Octopus Style}, Acrobatics 3 ranks, Perception 3 ranks.  ",
-			"**Benefit:** When using this style, you gain a cumulative +1 bonus on melee attacks for each enemy that threatens you, up to a maximum equal to your Dexterity modifier. In addition, when you attempt to grapple without two free hands, you take only a -2 penalty on your combat maneuver check instead of the usual -4."
+			"**Benefit:** When using this style, you gain a cumulative +1 bonus on melee attacks for each enemy that threatens you, up to a maximum equal to your Dexterity modifier. In addition, when you attempt to {rule/grapple} without two free hands, you take only a -2 penalty on your combat maneuver check instead of the usual -4."
 		]
 	},
 	"octopus_style": {
@@ -298,7 +298,7 @@
 			"",
 			"You anticipate the attacks of more than one enemy at once.  ",
 			"**Prerequisites:** Dex 13, {feat/Dodge}, {feat/Improved Unarmed Strike}, Acrobatics 1 rank, Perception 1 rank.  ",
-			"**Benefit:** As a move action when using this style, you can select a number of creatures you are aware of equal to your Dexterity modifier. You can't be flanked by the selected creatures until the start of your next turn."
+			"**Benefit:** As a move action when using this style, you can select a number of creatures you are aware of equal to your Dexterity modifier. You can't be {rule/flank/ed>ing} by the selected creatures until the start of your next turn."
 		]
 	},
 	"octopus_thrash": {
@@ -311,7 +311,7 @@
 			"",
 			"Your arms flail about in a confusing pattern of strikes that trips and batters your foes.  ",
 			"**Prerequisites:** Dex 13, {feat/Dodge}, {feat/Improved Trip}, {feat/Octopus Focus}, {feat/Octopus Style}, Acrobatics 7 ranks, Perception 7 ranks.  ",
-			"**Benefit:** While using {feat/Octopus Style}, when you threaten two enemies who are adjacent to each other, you can attempt a trip combat maneuver check against both targets at once in place of a melee attack. You attempt a single combat maneuver check at a -5 penalty and apply the result to both targets."
+			"**Benefit:** While using {feat/Octopus Style}, when you threaten two enemies who are adjacent to each other, you can attempt a {rule/trip} combat maneuver check against both targets at once in place of a melee attack. You attempt a single combat maneuver check at a -5 penalty and apply the result to both targets."
 		]
 	},
 	"ogre_crush": {
@@ -324,7 +324,7 @@
 			"",
 			"Your thick, muscular arms are capable of landing powerful blows and crushing the life out of the smaller creatures you embrace.  ",
 			"**Prerequisites:** Str 25, {feat/Improved Grapple}, {feat/Improved Unarmed Strike}, {monster/ogre}, size Large or larger.  ",
-			"**Benefit:** Your unarmed strike damage increases by one step when you're grappling creatures smaller than you. You gain the constrict monster special ability, dealing an amount of damage equal to either the slam damage for a creature of your size or your unarmed strike damage, whichever is greater."
+			"**Benefit:** Your unarmed strike damage increases {misc/by one step} when you're grappling creatures smaller than you. You gain the {umr/constrict} monster special ability, dealing an amount of damage equal to either the slam damage for a creature of your size or your unarmed strike damage, whichever is greater."
 		]
 	},
 	"old_as_dust": {
@@ -337,7 +337,7 @@
 			"",
 			"You have been dead for so long you have become quite difficult to kill.  ",
 			"**Prerequisites:** {feat/Sleeper}, {feat/Warren Digger}, creature has been a {monster/ghoul} for at least 500 years.  ",
-			"**Benefit:** When you are reduced to 0 hit points, you are not destroyed - you cannot be killed unless your body is completely destroyed with fire or doused in holy water, or you take damage from a cure spell or channeled positive energy after you've been reduced to 0 hit points. Anytime you are reduced to 0 hit points, you remain unconscious until you are healed or until the following midnight, at which time you regain 1 hit point per Hit Die and awaken."
+			"**Benefit:** When you are reduced to 0 hit points, you are not destroyed - you cannot be killed unless your body is completely destroyed with fire or doused in {eq-weapon/holy water}, or you take damage from a *cure spell* or {ability/channel[ed] positive energy} after you've been reduced to 0 hit points. Anytime you are reduced to 0 hit points, you remain unconscious until you are healed or until the following midnight, at which time you regain 1 hit point per Hit Die and awaken."
 		]
 	},
 	"old_cults_awakener": {
@@ -350,7 +350,7 @@
 			"",
 			"You hear the voices of the Old Ones, and believe it is your destiny to awaken others to their ancient cause using bizarre and torturous rituals. Whether your work leaves these individuals mad or truly touched by alien sentience remains unproven.  ",
 			"**Prerequisites:** [Old Cults](rule/f_old_cults) 20 TPA.  ",
-			"**Benefit:** You can attempt a DC 25 Heal check upon an unconscious but stable intelligent creature. The ritual takes 1 hour to complete. If it's successful, the victim must make a DC 25 Will save or he gains a false memory of a vision that he has personally been chosen by the Great Old Ones to serve them (treat as an implanted memory from modify memory, except this is a nonmagical effect). If the ritual is unsuccessful, the victim takes 1d2 points of Intelligence and Wisdom drain; you may attempt the ritual again."
+			"**Benefit:** You can attempt a DC 25 Heal check upon an unconscious but stable intelligent creature. The ritual takes 1 hour to complete. If it's successful, the victim must make a DC 25 Will save or he gains a false memory of a vision that he has personally been chosen by the Great Old Ones to serve them (treat as an implanted memory from {spell/modify memory}, except this is a nonmagical effect). If the ritual is unsuccessful, the victim takes 1d2 points of Intelligence and Wisdom {rule/ability_damage_<drain}; you may attempt the ritual again."
 		]
 	},
 	"ominous_mien": {
@@ -376,7 +376,7 @@
 			"",
 			"You're able to impart your guidance to a single ally, regardless of location.  ",
 			"**Prerequisites:** Cha 17, {feat/Inspiring Mentor}, {performance/inspire competence} bardic performance.  ",
-			"**Benefit:** By expending 4 rounds of your bardic performance at the start of the day, you can instill one ally with your inspiring words. Select one skill in which you possess ranks. Your ally gains the benefits of your inspire competence bardic performance, regardless of distance, until the next time you replenish rounds of bardic performance. This doesn't count as an active performance, so the effects don't end if you start another performance. Only one ally can be affected by this ability at a time; if you use this ability again before the duration expires, the ally currently affected loses the bonuses from this feat."
+			"**Benefit:** By expending 4 rounds of your bardic performance at the start of the day, you can instill one ally with your inspiring words. Select one skill in which you possess ranks. Your ally gains the benefits of your *inspire competence* bardic performance, regardless of distance, until the next time you replenish rounds of bardic performance. This doesn't count as an active performance, so the effects don't end if you start another performance. Only one ally can be affected by this ability at a time; if you use this ability again before the duration expires, the ally currently affected loses the bonuses from this feat."
 		]
 	},
 	"reckless_aim": {

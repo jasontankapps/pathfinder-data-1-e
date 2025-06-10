@@ -12,7 +12,7 @@
 			"",
 			"Your senses seek out threats even while you sleep.  ",
 			"**Prerequisites:** Wis 13, {feat/Alertness}.  ",
-			"**Benefit:** The DCs of your Perception checks don't increase when you are asleep. If you succeed at a Perception check to notice something dangerous while asleep, you can wake up to confront the danger.  ",
+			"**Benefit:** The DCs of your {skill/Perception} checks don't increase when you are asleep. If you succeed at a Perception check to notice something dangerous while asleep, you can wake up to confront the danger.  ",
 			"**Normal:** The DC for a Perception check attempted by a sleeping creature increases by 10."
 		]
 	},
@@ -26,7 +26,7 @@
 			"",
 			"Your nearly supernatural mental connection with your allies keeps you in a constant state of readiness.  ",
 			"**Prerequisites:** {feat/Alertness}, Sense Motive 3 ranks, {race/human} (Vudrani).  ",
-			"**Benefit:** Whenever you're adjacent to an ally who also has this feat, if your ally is not flat-footed, you're also not considered flat-footed before you act in combat (you might become flat-footed in other ways, however). Additionally, if your ally can see a creature that you can't see, that creature doesn't gain a +2 bonus on attack rolls against you from being invisible, nor do you take a -2 penalty to AC for being blinded if your ally can see."
+			"**Benefit:** Whenever you're adjacent to an ally who also has this feat, if your ally is not {rule/flat-footed}, you're also not considered flat-footed before you act in combat (you might become flat-footed in other ways, however). Additionally, if your ally can see a creature that you can't see, that creature doesn't gain a +2 bonus on attack rolls against you from being invisible, nor do you take a -2 penalty to AC for being {misc/blinded} if your ally can see."
 		]
 	},
 	"one_with_the_land": {
@@ -52,7 +52,7 @@
 			"",
 			"You combine the force of multiple blows into a single strike to potentially send a foe flying.  ",
 			"**Prerequisites:** {feat/Improved Unarmed Strike}.  ",
-			"**Benefit:** When making a full attack against a corporeal foe, you can forgo multiple attacks to make one unarmed strike at your highest base attack bonus. For each attack you forgo, you can add half your Strength modifier (minimum +0) to your damage roll. If you hit with this attack, you can attempt a bull rush combat maneuver check as a free action, substituting your attack roll result for the combat maneuver check result and adding a bonus equal to half your Strength modifier for each attack you forgo. This bull rush does not provoke an attack of opportunity, and you do not move as a result of the bull rush."
+			"**Benefit:** When making a full attack against a corporeal foe, you can forgo multiple attacks to make one unarmed strike at your highest base attack bonus. For each attack you forgo, you can add half your Strength modifier (minimum +0) to your damage roll. If you hit with this attack, you can attempt a {rule/bull rush} combat maneuver check as a free action, substituting your attack roll result for the combat maneuver check result and adding a bonus equal to half your Strength modifier for each attack you forgo. This bull rush does not provoke an attack of opportunity, and you do not move as a result of the bull rush."
 		]
 	},
 	"onslaught": {
@@ -91,7 +91,7 @@
 			"",
 			"You can draw forth planar energies with unparalleled ease.  ",
 			"**Prerequisites:** Knowledge (planes) 5 ranks or outsider with the native subtype.  ",
-			"**Benefit:** Select a conduit feat you have. When determining the uses per day or the amount of time per day you can use this conduit feat, you are treated as though you had an additional 5 ranks in Knowledge (planes). This does not offer any other benefit or affect other uses of Knowledge (planes).  ",
+			"**Benefit:** Select a {main/feats_<conduit/ feat} you have. When determining the uses per day or the amount of time per day you can use this conduit feat, you are treated as though you had an additional 5 ranks in Knowledge (planes). This does not offer any other benefit or affect other uses of Knowledge (planes).  ",
 			"**Special:** You can select this feat more than once. Its effects do not stack. Each time you select it, choose another conduit feat to gain its benefits."
 		]
 	},
@@ -106,7 +106,7 @@
 			"You pull an opponent's shield, opening your foe up to an unobstructed attack by an ally.  ",
 			"**Prerequisites:** Int 13, {feat/Combat Expertise}.  ",
 			"**Benefit:** When you successfully use the aid another action to improve the next attack roll against an opponent by an ally who also has this feat, that attack also ignores any Armor Class bonus granted by the opponent's shield. This benefit affects only physical shields, not shield bonuses from spells or other sources.  ",
-			"**Special:** If both you and your ally also have the Harrying Partners teamwork feat, all of your ally's attacks made before your next turn ignore the opponent's Armor Class bonus from a shield."
+			"**Special:** If both you and your ally also have the {feat/Harrying Partners} teamwork feat, all of your ally's attacks made before your next turn ignore the opponent's Armor Class bonus from a shield."
 		]
 	},
 	"opening_volley": {
@@ -138,7 +138,7 @@
 			"{SOURCE Antihero's Handbook/9}",
 			"",
 			"When someone grabs you, you can easily reach that opponent's vulnerable spots.  ",
-			"**Benefit:** While you are grappled (but not when you are controlling the grapple), you can attempt a dirty trick combat maneuver against the creature grappling you without provoking an attack of opportunity or taking a penalty on the combat maneuver check. If you have the {feat/Improved Dirty Trick} feat, you gain a +2 bonus on combat maneuver checks to attempt such a dirty trick, and the condition the dirty trick imposes lasts for 1 round longer than normal. This bonus stacks with the bonuses granted by Improved Dirty Trick and {feat/Greater Dirty Trick} feats."
+			"**Benefit:** While you are {rule/grapple/d>_conditions} (but not when you are controlling the grapple), you can attempt a {rule/dirty trick} combat maneuver against the creature grappling you without provoking an attack of opportunity or taking a penalty on the combat maneuver check. If you have the {feat/Improved Dirty Trick} feat, you gain a +2 bonus on combat maneuver checks to attempt such a dirty trick, and the condition the dirty trick imposes lasts for 1 round longer than normal. This bonus stacks with the bonuses granted by Improved Dirty Trick and {feat/Greater Dirty Trick} feats."
 		]
 	},
 	"oracular_intuition": {
@@ -164,7 +164,7 @@
 			"",
 			"You're able to construct statements and commands that are much more convincing than their content would otherwise suggest.  ",
 			"**Prerequisites:** {feat/Skill Focus} (Linguistics).  ",
-			"**Benefit:** You can use a Linguistics check in place of a Bluff check to tell a falsehood or conceal information, in place of a Diplomacy check to change the attitude of a creature, or in place of an Intimidate check to force a creature to cooperate. You must deliver your attempt in a language the target understands."
+			"**Benefit:** You can use a {skill/Linguistics} check in place of a {skill/Bluff} check to tell a falsehood or conceal information, in place of a {skill/Diplomacy} check to change the attitude of a creature, or in place of an {skill/Intimidate} check to force a creature to cooperate. You must deliver your attempt in a language the target understands."
 		]
 	},
 	"orc_fury_style": {
@@ -177,7 +177,7 @@
 			"",
 			"You inspire great fear in your enemies.  ",
 			"**Prerequisites:** {feat/Bullying Blow}, {feat/Intimidating Prowess}, Intimidate 3 ranks, weapon familiarity racial trait.  ",
-			"**Benefit:** While wielding a greataxe, a falchion, or any melee weapon that has \"orc\" in its name, you can use the Bullying Blow feat with the first attack of a full-attack action or as part of a standard action to make one or more attacks (such as with the {feat/Cleave} feat)."
+			"**Benefit:** While wielding a {eq-weapon/greataxe}, a {eq-weapon/falchion}, or any melee weapon that has \"orc\" in its name, you can use the Bullying Blow feat with the first attack of a full-attack action or as part of a standard action to make one or more attacks (such as with the {feat/Cleave} feat)."
 		]
 	},
 	"orc_hewer": {
@@ -211,7 +211,7 @@
 			"",
 			"You effortlessly savage fearful enemies.  ",
 			"**Prerequisites:** {feat/Bullying Blow}, {feat/Intimidating Prowess}, {feat/Orc Fury Style}, Intimidate 5 ranks, weapon familiarity racial trait.  ",
-			"**Benefit:** While using Orc Fury Style, you gain a +1 bonus on attack rolls and damage rolls against shaken opponents, and you don't take an attack penalty when using the Bullying Blow feat."
+			"**Benefit:** While using Orc Fury Style, you gain a +1 bonus on attack rolls and damage rolls against {misc/shaken} opponents, and you don't take an attack penalty when using the Bullying Blow feat."
 		]
 	},
 	"orc_snarl": {
@@ -224,7 +224,7 @@
 			"",
 			"Your attacks leave your opponent quivering in fear.  ",
 			"**Prerequisites:** {feat/Bullying Blow}, {feat/Intimidating Prowess}, {feat/Orc Fury Style}, {feat/Orc Rampage}, Intimidate 7 ranks, weapon familiarity racial trait.  ",
-			"**Benefit:** While using Orc Fury Style, you gain a +4 bonus on saving throws against effects created by shaken foes."
+			"**Benefit:** While using Orc Fury Style, you gain a +4 bonus on saving throws against effects created by {misc/shaken} foes."
 		]
 	},
 	"orc_weapon_expertise": {
@@ -277,7 +277,7 @@
 			"",
 			"You can modify a variety of your spells to use as counterspells.  ",
 			"**Prerequisites:** Caster level 7th, any lawful alignment.  ",
-			"**Benefit:** The DC of your Spellcraft check to identify an opponent's spell is equal to 20 + the spell level of the opponent's spell, but for your counterspell you can cast any spell from the same school of your foe's spell. The level of the spell used to counterspell must be equal to or higher than the level of your foe's spell.  ",
+			"**Benefit:** The DC of your Spellcraft check to identify an opponent's spell is equal to 20 + the spell level of the opponent's spell, but for your {rule/counterspell>s} you can cast any spell from the same school of your foe's spell. The level of the spell used to counterspell must be equal to or higher than the level of your foe's spell.  ",
 			"**Normal:** The Spellcraft DC to identify an opponent's spell is equal to 15 + the spell's level. Generally, a spell can only counter itself."
 		]
 	},
@@ -331,7 +331,7 @@
 			"Your extravagant jewelry and accessories give you an air of importance you can use to your advantage in many social situations.  ",
 			"**Benefit:** As long as you are wearing a valuable nonmagical item in a magic item slot, you gain a +1 bonus on skill checks with a corresponding skill. Bonuses from wearing items in multiple slots that affect the same skill do not stack.",
 			"",
-			"Each item must be worth at least 5% of your character wealth by level. For example, a 6th-level PC gains a +1 bonus on Bluff checks while wearing a gem-studded tiara (which fills the headband slot) worth at least 800 gp. When she reaches 7th level, she must wear an accessory in the appropriate slot worth at least 1,175 gp in order to continue gaining this bonus.",
+			"Each item must be worth at least 5% of your [character wealth by level](rule/placing_treasure). For example, a 6th-level PC gains a +1 bonus on Bluff checks while wearing a gem-studded tiara (which fills the headband slot) worth at least 800 gp. When she reaches 7th level, she must wear an accessory in the appropriate slot worth at least 1,175 gp in order to continue gaining this bonus.",
 			"",
 			"| Item Slot | Skill Bonus |",
 			"| --- | --- |",
@@ -351,9 +351,9 @@
 			"",
 			"You can enthrall onlookers with a show of ferocious might or compel enemies to regard you as a crucial threat.  ",
 			"**Prerequisites:** Intimidate 5 ranks, rage class feature.  ",
-			"**Benefit:** You can earn money with Intimidate by performing feats of strength and intimidation, exactly as if you were doing so with the Perform skill.",
+			"**Benefit:** You can earn money with {skill/Intimidate} by performing feats of strength and intimidation, exactly as if you were doing so with the {skill/Perform} skill.",
 			"",
-			"Additionally, while you're raging, if a foe would be demoralized by your Intimidate skill and the foe is not currently shaken by your intimidation, you can instead distract that foe until the beginning of your next turn. During that time, the foe takes a -5 penalty on Perception checks that don't involve you and takes a -2 penalty to its AC against any creature other than you. These effects end early if a creature other than you attacks the foe or if you demoralize the foe and apply the shaken condition."
+			"Additionally, while you're raging, if a foe would be demoralized by your Intimidate skill and the foe is not currently {misc/shaken} by your intimidation, you can instead distract that foe until the beginning of your next turn. During that time, the foe takes a -5 penalty on Perception checks that don't involve you and takes a -2 penalty to its AC against any creature other than you. These effects end early if a creature other than you attacks the foe or if you demoralize the foe and apply the shaken condition."
 		]
 	},
 	"ostentatious_weakness": {
@@ -369,7 +369,7 @@
 			"",
 			"You use knowledge of your hated foes to please onlookers.  ",
 			"**Prerequisites:** Base attack bonus +5, {ability/favored enemy} class feature.  ",
-			"**Benefit:** When you spend a swift action to attempt a performance combat check, you may add your favored enemy bonus to the check if you're fighting a favored enemy.",
+			"**Benefit:** When you spend a swift action to attempt a {rule/performance combat} check, you may add your favored enemy bonus to the check if you're fighting a favored enemy.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Weapon Master's Handbook/25}",
@@ -387,7 +387,7 @@
 			"",
 			"You are skilled at misdirecting an opponent's attacks.  ",
 			"**Prerequisites:** Bluff 8 ranks, {feat/Dodge}.  ",
-			"**Benefit:** While you are fighting defensively or using the total defense action, select one opponent. Add your Charisma bonus to your AC as a dodge bonus against that opponent's melee attacks until your next turn. You cannot use this feat if you cannot see the selected opponent."
+			"**Benefit:** While you are {misc/fighting defensively} or using the {misc/total defense} action, select one opponent. Add your Charisma bonus to your AC as a dodge bonus against that opponent's melee attacks until your next turn. You cannot use this feat if you cannot see the selected opponent."
 		]
 	},
 	"otherworldly_influence": {
@@ -415,7 +415,7 @@
 			"",
 			"You can ignore privation and channel your emotions to prepare for a later bounty.  ",
 			"**Prerequisites:** Be a member of House Denzarni, or have The Omen {rule/birth circumstance/ background>s_and_more}, or the Bloodthirsty (barbarian), Tree Tender (druid), or Unsuspecting Master (monk) {rule/class background>_tables}}.  ",
-			"**Benefit:** You add 1 day to the time you can go without food or water before making Constitution checks and you add +4 to Constitution checks to stave off the effects of starvation and thirst.  ",
+			"**Benefit:** You add 1 day to the time you can go without food or water before making Constitution checks and you add +4 to Constitution checks to stave off the effects of {rule/starvation and thirst}.  ",
 			"**Goal:** You must succumb to your emotions and be victorious. Thwart an appropriate number of foes while you are subject to an effect with the emotion descriptor, such as {spell/rage}.  ",
 			"**Completion Benefit:** Once per day, you can use {spell/heroes' feast} as a spell-like ability with a caster level equal to your character level, although your feast does not grant the effects of {spell/neutralize poison} or {spell/remove disease}."
 		]
@@ -433,7 +433,7 @@
 			"",
 			"You and your allies use the sun's glare to your advantage.  ",
 			"**Prerequisites:** Bluff 3 ranks, Stealth 3 ranks.  ",
-			"**Benefit:** When you hit with a melee attack, you can attempt a Bluff check as a move action to feint. You do not gain the benefits of this feint; instead, if you succeed at your Bluff check, an ally with this feat who is adjacent to you or your opponent gains the benefits, such that the opponent is denied its Dexterity bonus to AC (if any) against your ally's next melee attack against that opponent. This attack must be made before the end of your ally's next turn. You gain a +2 circumstance bonus on your Bluff check in bright light. This bonus increases to +4 in natural sunlight. You cannot use this feat in dim light or darkness.  ",
+			"**Benefit:** When you hit with a melee attack, you can attempt a {skill/Bluff} check as a move action to feint. You do not gain the benefits of this {rule/feint}; instead, if you succeed at your Bluff check, an ally with this feat who is adjacent to you or your opponent gains the benefits, such that the opponent is denied its Dexterity bonus to AC (if any) against your ally's next melee attack against that opponent. This attack must be made before the end of your ally's next turn. You gain a +2 circumstance bonus on your Bluff check in bright light. This bonus increases to +4 in natural sunlight. You cannot use this feat in dim light or darkness.  ",
 			"**Special:** If you have the {feat/Improved Feint} feat, you can feint with Out of the Sun as a swift action after you hit with a melee attack."
 		]
 	},
@@ -446,7 +446,7 @@
 			"{SOURCE Demon Hunter's Handbook/9}",
 			"",
 			"You have seen the outer reaches of the multiverse, and have gleaned knowledge from these alien realms. You have a special affinity for one of these realms in particular, and carry some of that plane's power within you.  ",
-			"**Prerequisites:** Knowledge (planes) 11 ranks, ability to cast plane shift or gate as a spell or spell-like ability.  ",
+			"**Prerequisites:** Knowledge (planes) 11 ranks, ability to cast {spell/plane shift} or {spell/gate} as a spell or spell-like ability.  ",
 			"**Benefit:** Choose one of the planes below. The alignment of the plane must be within one step of your alignment. You gain a +2 bonus on saves against spells and spell-like abilities with the associated descriptor, and you cast spells with that descriptor at +1 caster level.",
 			"",
 			"| Plane | Alignment | Descriptor |",
@@ -475,7 +475,7 @@
 			"",
 			"You look for every edge when flanking an enemy.  ",
 			"**Prerequisites:** Base attack bonus +4.  ",
-			"**Benefit:** Whenever you and an ally who also has this feat are flanking the same creature, your flanking bonus on attack rolls increases to +4. In addition, whenever you score a critical hit against the flanked creature, it provokes an attack of opportunity from your ally.",
+			"**Benefit:** Whenever you and an ally who also has this feat are {rule/flanking} the same creature, your flanking bonus on attack rolls increases to +4. In addition, whenever you score a critical hit against the flanked creature, it provokes an attack of opportunity from your ally.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/128}",
@@ -506,7 +506,7 @@
 			"",
 			"You dart in and out of combat.  ",
 			"**Prerequisites:** Int 13; {feat/Combat Expertise} or brawler's cunning class feature; {feat/Weapon Focus} with the chosen weapon.  ",
-			"**Benefit:** Choose one weapon from the close fighter weapon group. While using this style, when you take a 5-foot step, you gain a +1 dodge bonus to AC and a +1 bonus on weapon damage rolls with the chosen weapon until the beginning of your next turn.  ",
+			"**Benefit:** Choose one weapon from the close {ability/fighter |weapon group>s}. While using this style, when you take a 5-foot step, you gain a +1 dodge bonus to AC and a +1 bonus on weapon damage rolls with the chosen weapon until the beginning of your next turn.  ",
 			"**Special:** In addition to the chosen weapon, a character with the weapon training (close) or the brawler's close weapon mastery class feature can use Outslug Style with any close weapon."
 		]
 	},
@@ -533,7 +533,7 @@
 			"",
 			"Others made you feel small for too long, and now you drive yourself hard and never settle for second place.  ",
 			"**Prerequisites:** You must have been defeated by the same individual, organization, or creature type at least four times, or have the Boarding School or Humiliated [\"growing up\"](rule/bad_beginnings) background.  ",
-			"**Benefit:** You take only half the normal penalties from exhaustion. Choose one skill upon selecting this feat. Once per day, you can forgo rest to study or practice, gaining a +3 bonus on all checks attempted with your selected skill for 24 hours but becoming fatigued in the process. If you rest to recover from this fatigue, this bonus ends (but not if you recover from your fatigue in other ways, such as via lesser restoration). Forgoing rest for this purpose does not interfere with a spellcaster's ability to prepare spells.  ",
+			"**Benefit:** You take only half the normal penalties from {misc/exhaustion}. Choose one skill upon selecting this feat. Once per day, you can forgo rest to study or practice, gaining a +3 bonus on all checks attempted with your selected skill for 24 hours but becoming {misc/fatigued} in the process. If you rest to recover from this fatigue, this bonus ends (but not if you recover from your fatigue in other ways, such as via {spell/lesser restoration}). Forgoing rest for this purpose does not interfere with a spellcaster's ability to prepare spells.  ",
 			"**Goal:** You must utterly humiliate a member of your hated group by besting that creature at an activity for which it is known or in which it takes pride. This opponent's Hit Dice must exceed your current character level by at least 1.  ",
 			"**Completion Benefit:** Each time you forgo rest to study or practice, you can apply this feat's +3 bonus to a different skill. If you have 10 or more ranks in the skill selected, this bonus increases to +6."
 		]
@@ -548,7 +548,7 @@
 			"",
 			"You hoist your opponent above your head before slamming him to the ground, temporarily staggering the foe.  ",
 			"**Prerequisites:** Str 13, {feat/Improved Grapple}, {feat/Improved Unarmed Strike}, {feat/Savage Slam}.  ",
-			"**Benefit:** While you are using {feat/Savage Slam}, if you succeed at your grapple combat maneuver check to knock your opponent prone, the opponent must succeed at a Fortitude save (DC = 10 + your base attack bonus) or be staggered for 1 round. Oozes, incorporeal creatures, and creatures that are immune to critical hits are immune to this effect."
+			"**Benefit:** While you are using {feat/Savage Slam}, if you succeed at your grapple combat maneuver check to knock your opponent {rule/prone}, the opponent must succeed at a Fortitude save (DC = 10 + your base attack bonus) or be {misc/staggered} for 1 round. Oozes, incorporeal creatures, and creatures that are immune to critical hits are immune to this effect."
 		]
 	},
 	"overpowering_stare": {
@@ -561,7 +561,7 @@
 			"",
 			"Your painful stare overwhelms your foe's mind.  ",
 			"**Prerequisites:** {class/Mesmerist} level 11th, painful stare class feature.  ",
-			"**Benefit:** Whenever you use your painful stare, the target must succeed at a Will saving throw (DC = 10 + half your mesmerist level + your Charisma modifier) or become confused for 1 round. Whether or not the save is successful, a creature cannot be affected by this ability again for 24 hours."
+			"**Benefit:** Whenever you use your painful stare, the target must succeed at a Will saving throw (DC = 10 + half your mesmerist level + your Charisma modifier) or become {misc/confused} for 1 round. Whether or not the save is successful, a creature cannot be affected by this ability again for 24 hours."
 		]
 	},
 	"overseer_of_the_house_of_truth": {
@@ -626,7 +626,7 @@
 			"{SOURCE Dragonslayer's Handbook/21}",
 			"",
 			"You can overwhelm large foes with sheer numbers.  ",
-			"**Benefit:** You are considered to be flanking an opponent if at least one ally who also has this feat is threatening that opponent and the opponent is at least two size categories larger than the larger of you or your ally, regardless of your actual positioning.  ",
+			"**Benefit:** You are considered to be {rule/flanking} an opponent if at least one ally who also has this feat is threatening that opponent and the opponent is at least two size categories larger than the larger of you or your ally, regardless of your actual positioning.  ",
 			"**Normal:** You must be positioned opposite an ally to flank an opponent."
 		]
 	},
@@ -638,9 +638,9 @@
 			"",
 			"{SOURCE Occult Origins/19}",
 			"",
-			"Your phantom is strong-willed, allowing it to enter and dominate other creature's minds.  ",
-			"**Prerequisites:** Phantom class feature, spiritualist level 15th.  ",
-			"**Benefit:** Three times per day, as a standard action while it is fully manifested, your phantom can attempt to enter and take control of a living creature; doing so provokes an attack of opportunity. A creature can resist this influence with a successful Will save (DC = 1/2 the phantom's Hit Dice + the phantom's Charisma modifier). A phantom can maintain this control for 1 minute per spiritualist level you have, but the victim is allowed a new saving throw each minute. This ability otherwise functions as greater possession."
+			"Your {sidekick/phantom} is strong-willed, allowing it to enter and dominate other creature's minds.  ",
+			"**Prerequisites:** Phantom class feature, {class/spiritualist} level 15th.  ",
+			"**Benefit:** Three times per day, as a standard action while it is fully manifested, your phantom can attempt to enter and take control of a living creature; doing so provokes an attack of opportunity. A creature can resist this influence with a successful Will save (DC = 1/2 the phantom's Hit Dice + the phantom's Charisma modifier). A phantom can maintain this control for 1 minute per spiritualist level you have, but the victim is allowed a new saving throw each minute. This ability otherwise functions as {spell/greater possession}."
 		]
 	},
 	"owl_dive": {
@@ -653,7 +653,7 @@
 			"",
 			"Your martial training helps you fly and charge through others' spaces.  ",
 			"**Prerequisites:** Dex 17, {feat/Owl Style}, {feat/Owl Swoop}, base attack bonus +7 or monk level 5th, Acrobatics 1 rank, Fly 1 rank, Stealth 1 rank.  ",
-			"**Benefit:** While using Owl Style, you can use your base attack bonus in place of your ranks in Fly to determine your Fly skill bonus. You can charge through other creatures' spaces, but you must make a successful Acrobatics check to move through enemy spaces, as normal. If you fail an Acrobatics check to move through an enemy's space during a charge, your charge stops just before you enter that enemy's space; if you threaten that foe, you can make your charge attack against that foe."
+			"**Benefit:** While using Owl Style, you can use your base attack bonus in place of your ranks in Fly to determine your Fly skill bonus. You can {rule/charge} through other creatures' spaces, but you must make a successful Acrobatics check to move through enemy spaces, as normal. If you fail an Acrobatics check to move through an enemy's space during a charge, your charge stops just before you enter that enemy's space; if you threaten that foe, you can make your charge attack against that foe."
 		]
 	},
 	"owl_style": {
@@ -666,7 +666,7 @@
 			"",
 			"You can move with the quiet grace of an owl.  ",
 			"**Prerequisites:** Dex 13, {feat/Skill Focus} (Stealth), Stealth 1 rank.  ",
-			"**Benefit:** While using this style, you can use your base attack bonus in place of your ranks in Stealth to determine your Stealth skill modifier (as usual, this does not replace your ranks for other purposes, such as determining the effects of {feat/Skill Focus}). While in this stance and using Stealth, you can charge at a -10 penalty beyond the penalty you take for using Stealth at full speed (which is typically -5). Foes that fail their Perception checks and don't otherwise notice you (for instance, with an ability like blindsight) are denied their Dexterity bonuses to AC against all attacks you make against them during or at the end of that charge instead of just against the first attack."
+			"**Benefit:** While using this style, you can use your base attack bonus in place of your ranks in Stealth to determine your Stealth skill modifier (as usual, this does not replace your ranks for other purposes, such as determining the effects of {feat/Skill Focus}). While in this stance and using Stealth, you can {rule/charge} at a -10 penalty beyond the penalty you take for using Stealth at full speed (which is typically -5). Foes that fail their Perception checks and don't otherwise notice you (for instance, with an ability like {umr/blindsight}) are denied their Dexterity bonuses to AC against all attacks you make against them during or at the end of that charge instead of just against the first attack."
 		]
 	},
 	"owl_swoop": {
@@ -693,7 +693,7 @@
 			"You are able to calm rampaging animals.  ",
 			"**Prerequisites:** {ability/Wild empathy} class feature.  ",
 			"**Benefit:** As a full-round action, you attempt to mollify an animal or magical beast with an Intelligence score of 1 or 2 and an attitude of hostile toward you or your allies. You attempt a wild empathy check (DC = 10 + the target's Hit Dice + the target's Charisma modifier). If you succeed, the target's attitude toward you and your allies becomes indifferent for 1 minute, and it does not attack during this time. If the target is attacked during this time or if the target can see you or your allies after 1 minute, it becomes hostile again. A creature can be affected by this pacification attempt only once in a 24-hour period.  ",
-			"**Special:** Animal companions and creatures under magical compulsion are harder to pacify; the DC for such creatures equals 15 + the target's Hit Dice + the target's Charisma modifier. An animal companion also applies its bonus on Will saves from the devotion ability to this DC, and attacking the animal's master also breaks this effect. An animal companion's master can direct the animal to attack again, but the DC of this Handle Animal check is increased by your wild empathy modifier."
+			"**Special:** {sidekick/Animal companion/s} and creatures under magical compulsion are harder to pacify; the DC for such creatures equals 15 + the target's Hit Dice + the target's Charisma modifier. An animal companion also applies its bonus on Will saves from the devotion ability to this DC, and attacking the animal's master also breaks this effect. An animal companion's master can direct the animal to attack again, but the DC of this Handle Animal check is increased by your wild empathy modifier."
 		]
 	},
 	"pack_attack": {
@@ -727,8 +727,8 @@
 			"{SOURCE Advanced Class Guide/153}",
 			"",
 			"You and your companion creature are adept at fighting together against foes.  ",
-			"**Prerequisites:** Int 13, {feat/Combat Expertise}, ability to acquire an animal companion.  ",
-			"**Benefit:** When you and your companion creature have this feat, your companion creature is adjacent to you or sharing your square, and you both threaten the same opponent, you are both considered to be flanking that opponent, regardless of your actual positioning.  ",
+			"**Prerequisites:** Int 13, {feat/Combat Expertise}, ability to acquire an {ability/animal companion}.  ",
+			"**Benefit:** When you and your companion creature have this feat, your companion creature is adjacent to you or sharing your square, and you both threaten the same opponent, you are both considered to be {rule/flanking} that opponent, regardless of your actual positioning.  ",
 			"**Normal:** You must be positioned opposite an ally to flank an opponent."
 		]
 	},
@@ -767,8 +767,8 @@
 			"{SOURCE Advanced Class Origins/27}",
 			"",
 			"You have trained your animal companion to fight using your tactics.  ",
-			"**Prerequisites:** Int 13, animal companion class feature.  ",
-			"**Benefit:** Your animal companion is treated as having all the same teamwork feats that you do for the purpose of determining whether you or your allies receive a bonus from teamwork feats. Your animal companion doesn't receive any bonuses from these feats unless it actually possesses the teamwork feats. Your and all allies' positioning and actions must still meet the prerequisites listed in a teamwork feat's description in order to receive the teamwork feat's listed bonus."
+			"**Prerequisites:** Int 13, {ability/animal companion} class feature.  ",
+			"**Benefit:** Your animal companion is treated as having all the same {main/feats_<teamwork/ feats} that you do for the purpose of determining whether you or your allies receive a bonus from teamwork feats. Your animal companion doesn't receive any bonuses from these feats unless it actually possesses the teamwork feats. Your and all allies' positioning and actions must still meet the prerequisites listed in a teamwork feat's description in order to receive the teamwork feat's listed bonus."
 		]
 	},
 	"page": {
@@ -783,7 +783,7 @@
 			"**Prerequisites:** Character level 4th, proficiency with martial weapons.  ",
 			"**Benefit:** This feat is similar to the {feat/Leadership} feat, with several exceptions. You can attract only a 1st-level cohort (referred to hereafter as a page) with this feat, and can't recruit followers. You determine your Leadership score according to the rules presented in the {feat/Leadership} feat, but your page is always at least 3 levels lower than your level.",
 			"",
-			"A page can take levels in bard, cavalier, or paladin. She cannot multiclass, though she can take any archetype for which she qualifies.",
+			"A page can take levels in {class/bard}, {class/cavalier}, or {class/paladin}. She cannot multiclass, though she can take any archetype for which she qualifies.",
 			"",
 			"Whenever a page tries to influence a creature's attitude by using the Diplomacy skill, she can use her total Diplomacy skill bonus or yours. Any improvement of a creature's attitude toward the page also applies to you.",
 			"",
@@ -802,7 +802,7 @@
 			"",
 			"Evil outsiders take damage when they attempt to connect to other planes.  ",
 			"**Prerequisites:** Anchoring aura class feature.  ",
-			"**Benefit:** When an evil outsider uses a calling, summoning, or teleportation effect, or any ability that physically transports a creature to or from another plane (such as blink or etherealness) within your anchoring aura, it takes damage equal to 4d8 + your Charisma modifier. This damage comes from holy power and is not subject to damage reduction, energy immunities, or energy resistances."
+			"**Benefit:** When an evil outsider uses a calling, summoning, or teleportation effect, or any ability that physically transports a creature to or from another plane (such as {spell/blink} or {spell/etherealness}) within your anchoring aura, it takes damage equal to 4d8 + your Charisma modifier. This damage comes from holy power and is not subject to damage reduction, energy immunities, or energy resistances."
 		]
 	},
 	"painful_blow": {
@@ -828,7 +828,7 @@
 			"",
 			"You shove your opponents into each other, causing painful and damaging collisions.  ",
 			"**Prerequisites:** Str 13, {feat/Improved Bull Rush}, {feat/Power Attack}.  ",
-			"**Benefit:** When you bull rush an enemy into another creature, both creatures take 1d6 points of bludgeoning damage, plus an additional 1d6 points of bludgeoning damage for every 5 feet your original target has moved as a result of your bull rush. For instance, if you successfully bull rush a goblin 10 feet and it then collides with another goblin, both creatures would take 3d6 points of bludgeoning damage."
+			"**Benefit:** When you {rule/bull rush} an enemy into another creature, both creatures take 1d6 points of bludgeoning damage, plus an additional 1d6 points of bludgeoning damage for every 5 feet your original target has moved as a result of your bull rush. For instance, if you successfully bull rush a goblin 10 feet and it then collides with another goblin, both creatures would take 3d6 points of bludgeoning damage."
 		]
 	},
 	"painful_cures": {
@@ -1059,7 +1059,7 @@
 			"",
 			"Finding just the right pressure point, you paralyze your foe with a single hit.  ",
 			"**Prerequisites:** Dex 13, Wis 13, {feat/Improved Unarmed Strike}, base attack bonus +14.  ",
-			"**Benefit:** You must declare that you are using this feat before you make your attack roll (thus, a failed attack roll ruins the attempt). Paralyzing Strike forces a foe damaged by your unarmed attack to attempt a Fortitude saving throw (DC = 10 + 1/2 your character level + your Wisdom modifier), in addition to dealing damage normally. A defender who fails this saving throw is paralyzed for 1 round, until just before your next turn. You can attempt to use Paralyzing Strike once per day for every 4 character levels you have, but no more than once per round. Constructs, incorporeal creatures, plants, undead, and creatures that are immune to critical hits cannot be affected by this ability.",
+			"**Benefit:** You must declare that you are using this feat before you make your attack roll (thus, a failed attack roll ruins the attempt). Paralyzing Strike forces a foe damaged by your unarmed attack to attempt a Fortitude saving throw (DC = 10 + 1/2 your character level + your Wisdom modifier), in addition to dealing damage normally. A defender who fails this saving throw is {rule/paralyzed} for 1 round, until just before your next turn. You can attempt to use Paralyzing Strike once per day for every 4 character levels you have, but no more than once per round. Constructs, incorporeal creatures, plants, undead, and creatures that are immune to critical hits cannot be affected by this ability.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/128}",
@@ -1077,7 +1077,7 @@
 			"",
 			"You can throw an enemy spell back at its caster.  ",
 			"**Prerequisites:** Spellcraft 15 ranks, {feat/Improved Counterspell}.  ",
-			"**Benefit:** Whenever you successfully counter a spell, it returns back to its caster. This works exactly like the spell turning spell."
+			"**Benefit:** Whenever you successfully {rule/counter>spells} a spell, it returns back to its caster. This works exactly like the {spell/spell turning} spell."
 		]
 	},
 	"parting_blast": {
@@ -1090,7 +1090,7 @@
 			"",
 			"When you die, your body explodes in one final, destructive kinetic blast.  ",
 			"**Prerequisites:** Kinetic blast class feature.  ",
-			"**Benefit:** You can accept 1 point of burn to prepare a kinetic blast that automatically triggers upon your death. If you are killed at any point before your burn is removed, your body instantly erupts in an explosion that deals an amount of damage equal to that of your simple blast to all creatures in a 5-foot radius. A parting blast destroys your body, which might prevent any magic that requires an intact corpse."
+			"**Benefit:** You can accept 1 point of burn to prepare a kinetic blast that automatically triggers upon your death. If you are killed at any point before your burn is removed, your body instantly erupts in an explosion that deals an amount of damage equal to that of your simple blast to all creatures in a 5-foot radius. A Parting Blast destroys your body, which might prevent any magic that requires an intact corpse."
 		]
 	},
 	"parting_shot": {
@@ -1107,7 +1107,7 @@
 			"",
 			"You are an expert skirmisher, able to rain missiles upon your enemies whether advancing or retreating.  ",
 			"**Prerequisites:** Dex 13, {feat/Dodge}, {feat/Mobility}, {feat/Shot on the Run}, base attack bonus +6.  ",
-			"**Benefit:** Once per encounter, when using the withdraw action, you can make a single ranged attack at any point during your movement.  ",
+			"**Benefit:** Once per encounter, when using the {rule/withdraw} action, you can make a single ranged attack at any point during your movement.  ",
 			"**Normal:** You cannot attack when using the withdraw action.  ",
 			"**Special:** Starting at 6th level, a ranger with the archery combat style may select Parting Shot as a combat style feat.",
 			"",
@@ -1141,7 +1141,7 @@
 			"You're easily mistaken for a human rather than a member of your own race.  ",
 			"**Prerequisites:** {race/Half-elf}, {race/half-orc}, or {race/halfling} (see Special).  ",
 			"**Benefit:** You receive a +10 bonus on Disguise checks to disguise yourself as a human, and do not receive the penalty for disguising yourself as a member of another race when you do so. In areas largely populated or settled by humans, you can take 10 on your Disguise check, meaning most people tend to assume you are human unless given a reason to think otherwise.  ",
-			"**Special:** A halfling may take this feat, but must have the Childlike feat as a prerequisite. The benefits of the two feats stack."
+			"**Special:** A halfling may take this feat, but must have the {feat/Childlike} feat as a prerequisite. The benefits of the two feats stack."
 		]
 	},
 	"passing_grace": {
@@ -1153,7 +1153,7 @@
 			"{SOURCE Distant Realms/33}",
 			"",
 			"Your bond with your allies allows you to share positive energy between yourselves.  ",
-			"**Benefit:** Whenever a healing spell or an effect would restore you to above your maximum hit points, you can redirect excess hit points to an adjacent ally who has this feat. This ability functions only for effects that require an action to activate; fast healing, regeneration, and other passive effects that restore hit points are not shared."
+			"**Benefit:** Whenever a healing spell or an effect would restore you to above your maximum hit points, you can redirect excess hit points to an adjacent ally who has this feat. This ability functions only for effects that require an action to activate; {umr/fast healing}, {umr/regeneration}, and other passive effects that restore hit points are not shared."
 		]
 	},
 	"passing_trick": {
@@ -1170,7 +1170,7 @@
 			"Slipping past a foe gives you the chance to feint.  ",
 			"**Prerequisites:** Int 13, {feat/Combat Expertise}, {feat/Dodge}, {feat/Improved Feint}, {feat/Mobility}, size Small or smaller.  ",
 			"**Benefit:** Whenever you make a successful Acrobatics check to move through an opponent's space, you can spend a swift action to make a Bluff check against that opponent to feint in combat.  ",
-			"**Special:** If you have the Underfoot feat and the opponent is larger than you, you gain a +2 bonus on the Bluff check this feat allows.",
+			"**Special:** If you have the {feat/Underfoot} feat and the opponent is larger than you, you gain a +2 bonus on the Bluff check this feat allows.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/128}",
@@ -1241,7 +1241,7 @@
 			"",
 			"The blissful peace of Nirvana is never more than a thought away from your mind.  ",
 			"**Prerequisites:** Knowledge (planes) 3 ranks.  ",
-			"**Benefit:** As an immediate action when you fail a saving throw against an emotion, fear, or pain effect, you can ignore the effect and instead become dazed for an amount of time equal to twice the duration of the original effect. Any nonlethal damage you would have taken from the original effect is reduced to its minimum value (as though a 1 had been rolled on all dice). You cannot activate this ability if you are currently dazed.",
+			"**Benefit:** As an immediate action when you fail a saving throw against an emotion, fear, or pain effect, you can ignore the effect and instead become {misc/dazed} for an amount of time equal to twice the duration of the original effect. Any nonlethal damage you would have taken from the original effect is reduced to its minimum value (as though a 1 had been rolled on all dice). You cannot activate this ability if you are currently dazed.",
 			"",
 			"You can use this feat's benefit once per day, plus an additional time per day for every 5 ranks you have in Knowledge (planes)."
 		]
@@ -1256,7 +1256,7 @@
 			"",
 			"Your words of peace ring true and are much more difficult for others to resist.  ",
 			"**Prerequisites:** Charisma 13, good alignment.  ",
-			"**Benefit:** The DC to resist spells you cast to ensure peace or force aggressive creatures to become peaceful increases by +2. This affects spells that dissuade creatures from aggressive actions without exerting long-term or absolute control over them, and without leaving them defenseless. These spells include, but are not limited to, calm animals, calm emotions, command, compassionate ally, enthrall, euphoric tranquility, sanctuary, and serenity."
+			"**Benefit:** The DC to resist spells you cast to ensure peace or force aggressive creatures to become peaceful increases by +2. This affects spells that dissuade creatures from aggressive actions without exerting long-term or absolute control over them, and without leaving them defenseless. These spells include, but are not limited to, {spell/calm animals}, {spell/calm emotions}, {spell/command}, {spell/compassionate ally}, {spell/enthrall}, {spell/euphoric tranquility}, {spell/sanctuary}, and {spell/serenity}."
 		]
 	},
 	"peerless_courtier": {
@@ -1282,8 +1282,8 @@
 			"{SOURCE Demons Revisited/32}",
 			"",
 			"Your ability to possess foes can bypass magical protections.  ",
-			"**Prerequisites:** Magic jar as a known spell or spell-like ability, Cha 21  ",
-			"**Benefit:** The first time you attempt to possess a host under the effect of protection from evil spell or any similar spell, you have a chance to dispel that spell as if you had cast {spell/dispel magic} on the spell."
+			"**Prerequisites:** {spell/Magic jar} as a known spell or spell-like ability, Cha 21  ",
+			"**Benefit:** The first time you attempt to possess a host under the effect of {spell/protection from evil} spell or any similar spell, you have a chance to dispel that spell as if you had cast {spell/dispel magic} on the spell."
 		]
 	},
 	"penetrating_stare": {
@@ -1295,7 +1295,7 @@
 			"{SOURCE Psychic Anthology/17}",
 			"",
 			"Your stare penetrates right through your foe's strongest mental defenses.  ",
-			"**Prerequisites:** Mesmerist level 7th, painful stare class feature.  ",
+			"**Prerequisites:** {class/Mesmerist} level 7th, painful stare class feature.  ",
 			"**Benefit:** When you trigger your painful stare, the damage dealt ignores 5 points of the target's damage reduction, unless that damage reduction is untyped (for example, DR 10/-)."
 		]
 	},
@@ -2547,7 +2547,7 @@
 			"{SOURCE Potions and Poisons/4}",
 			"",
 			"The toxic slime from your skin hardens into a thick, venomous resin that you can craft into various shapes.  ",
-			"**Prerequisites:** Grippli, toxic skin alternate racial trait.  ",
+			"**Prerequisites:** {race/Grippli}, toxic skin alternate racial trait.  ",
 			"**Benefit:** As a standard action, you can spend a use of your toxic skin alternate racial trait to create any simple light weapon out of your hardened secretions. This weapon remains intact and usable for 1 hour. Once per minute when making an attack, you can treat this weapon as if you had applied your grippli racial poison to it. You can use this envenoming function a number of times per day equal to your Constitution modifier for any individual weapon created. Anyone other than you who attempts to wield the weapon is exposed to your poison."
 		]
 	},
@@ -4328,7 +4328,7 @@
 			"",
 			"An opponent can do little to evade your wrathful pitching of weapons and objects.  ",
 			"**Prerequisites:** Rage class feature, {feat/Throw Anything}.  ",
-			"**Benefit:** While raging, you can throw a two-handed weapon as a standard action, and you double the range increment for weapons you throw. If you also have the Quick Draw feat, you can throw two-handed weapons at your full normal rate of attacks. Further, you can pick up an unattended object that you can use as a improvised weapon within your reach as part of the attack action to throw that item."
+			"**Benefit:** While raging, you can throw a two-handed weapon as a standard action, and you double the range increment for weapons you throw. If you also have the Quick Draw feat, you can throw two-handed weapons at your full normal rate of attacks. Further, you can pick up an unattended object that you can use as an improvised weapon within your reach as part of the attack action to throw that item."
 		]
 	},
 	"raging_regeneration": {

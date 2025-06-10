@@ -116,7 +116,6 @@ const whats = [
 	"archetypes: medium",
 	"archetypes: mesmerist",
 	"archetypes: monk",
-	"archetypes: unchained monk",
 	"archetypes: ninja",
 	"archetypes: occultist",
 	"archetypes: oracle",
@@ -145,7 +144,9 @@ function isGood(archValue, what) {
 	let found = false;
 	if(!Object.entries(archValue).some(([prop, value]) => {
 		const test = value;
-		if(test && test.alternateOf) {
+		if(test && test.copyof) {
+			// Ignore
+		} else if(test && test.alternateOf) {
 			const {alternateOf} = test;
 			if(!alternateOf|| alternateOf === prop || !archValue[alternateOf] || archValue[alternateOf].alternateOf ) {
 				msg.push("Invalid alternateOf property of " + prop);

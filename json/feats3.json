@@ -401,17 +401,17 @@
 			"**Prerequisites:** Worshiper of {faith/Cayden Cailean}.  ",
 			"**Benefit:** When you have had at least a number of drinks equal to your Constitution modifier (or get {rule/drunk/ or soused>enness}) in a tavern, once within the following 24 hours, you can gain the benefits of {spell/remove paralysis} as a free action. Alternatively, you can choose one of the following benefits depending on the type of bar you patronized. At the GM's discretion, other types of taverns might grant other benefits.",
 			"",
-			">**Gambling Den:** You can gain the benefits of {spell/detect thoughts} for 1 minute as a free action.",
+			">@HL[Gambling Den:] You can gain the benefits of {spell/detect thoughts} for 1 minute as a free action.",
 			">",
-			">**Illegal Tavern:** You can gain the benefits of {spell/invisibility} for 1 minute as a free action.",
+			">@HL[Illegal Tavern:] You can gain the benefits of {spell/invisibility} for 1 minute as a free action.",
 			">",
-			">**Posh Tavern:** You can gain the benefits of {spell/eagle's splendor} for 1 minute as a free action.",
+			">@HL[Posh Tavern:] You can gain the benefits of {spell/eagle's splendor} for 1 minute as a free action.",
 			">",
-			">**Private Club:** You can gain the benefits of {spell/undetectable alignment} for 1 minute as a free action.",
+			">@HL[Private Club:] You can gain the benefits of {spell/undetectable alignment} for 1 minute as a free action.",
 			">",
-			">**Rowdy Bar:** You can gain the benefits of {spell/bear's endurance} for 1 minute as a free action.",
+			">@HL[Rowdy Bar:] You can gain the benefits of {spell/bear's endurance} for 1 minute as a free action.",
 			">",
-			">**Tavern of Intrigue:** You can gain the benefits of {spell/fox's cunning} for 1 minute as a free action."
+			">@HL[Tavern of Intrigue:] You can gain the benefits of {spell/fox's cunning} for 1 minute as a free action."
 		]
 	},
 	"drunken_sing_along": {
@@ -684,11 +684,11 @@
 			"**Prerequisites:** Character level 5th, convince four different Eagle Knights and either a member of the People's Council or an Andoran town mayor to write letters of commendation on your behalf.  ",
 			"**Benefit:** Choose one branch of the Eagle Knights you hope to join. You gain a specific benefit based on this choice.",
 			"",
-			">*Golden Legion:* Each round as a move action, you may issue commands to all allies within 30 feet who can see and hear you. Each affected ally that obeys your orders gains a +1 bonus on attack rolls, Armor Class, and saving throws during that round.",
+			">@HL[Golden Legion:] Each round as a move action, you may issue commands to all allies within 30 feet who can see and hear you. Each affected ally that obeys your orders gains a +1 bonus on attack rolls, Armor Class, and saving throws during that round.",
 			">",
-			">*Steel Falcons:* You deal +1 damage with weapon attacks directed at any creature against which you have {rule/concealment}. If you have total concealment against the creature, this bonus increases to +2.",
+			">@HL[Steel Falcons:] You deal +1 damage with weapon attacks directed at any creature against which you have {rule/concealment}. If you have total concealment against the creature, this bonus increases to +2.",
 			">",
-			">*Twilight Talons:* During the surprise round, the threat range of your weapons doubles for any attack made against unaware targets. This does not stack with any other effect that expands the threat range of a weapon."
+			">@HL[Twilight Talons:] During the surprise round, the threat range of your weapons doubles for any attack made against unaware targets. This does not stack with any other effect that expands the threat range of a weapon."
 		]
 	},
 	"eagle_eyed": {
@@ -1458,11 +1458,11 @@
 			"You have undergone the painful and ancient art of cranial binding, deforming your skull to unlock the hidden potential of your psychic self.  ",
 			"**Benefit:** Your cranium has been tightly bound with boards and wrappings to change its shape and attune your mind to your psychic discipline. If you take this feat after 1st level, you must undergo a painful 6-month regimen of increased tightening and head binding, during which you take a -1 penalty on Intelligence, Wisdom, and Charisma checks and on Intelligence-, Wisdom-, and Charisma-based skill checks. Once the binding is completed, your skull takes on one of three shapes of your choosing, each with a specific benefit. Once chosen, this shape cannot be changed.",
 			"",
-			">**Fronto-Occipital Elongation:** Your head slopes severely in a high conical shape, tapering from your brow to the crown of your head. You take a -1 penalty on Intelligence and Wisdom checks and on Intelligence- and Wisdom-based skill checks, but gain a +2 bonus on Charisma checks and Charisma-based skill checks. In addition, once per day, you can extend the duration of a psychic spell you cast by 50% (minimum 0 additional rounds). The increased duration doesn't stack with the increase granted by the Extend Spell feat.",
+			">@HL[Fronto-Occipital Elongation:] Your head slopes severely in a high conical shape, tapering from your brow to the crown of your head. You take a -1 penalty on Intelligence and Wisdom checks and on Intelligence- and Wisdom-based skill checks, but gain a +2 bonus on Charisma checks and Charisma-based skill checks. In addition, once per day, you can extend the duration of a psychic spell you cast by 50% (minimum 0 additional rounds). The increased duration doesn't stack with the increase granted by the Extend Spell feat.",
 			">",
-			">**Ovoid Compression:** Your head takes on a larger, more bulbous appearance than normal. You take a -1 penalty on Charisma and Wisdom checks and on Wisdom- and Charisma-based skill checks, but gain a +2 bonus on Intelligence checks and Intelligence-based skill checks. In addition, once per day you can cast one psychic magic spell you know with a +1 bonus to its caster level.",
+			">@HL[Ovoid Compression:] Your head takes on a larger, more bulbous appearance than normal. You take a -1 penalty on Charisma and Wisdom checks and on Wisdom- and Charisma-based skill checks, but gain a +2 bonus on Intelligence checks and Intelligence-based skill checks. In addition, once per day you can cast one psychic magic spell you know with a +1 bonus to its caster level.",
 			">",
-			">**Sagittal Elongation:** Your head slopes back in a gentle, elongated curve. You take a -1 penalty on Intelligence and Charisma checks and on Intelligence- and Charisma-based skill checks, but gain a +2 bonus on Wisdom checks and Wisdom-based skill checks. In addition, once per day, you can increase the DC of a psychic spell you cast by 1."
+			">@HL[Sagittal Elongation:] Your head slopes back in a gentle, elongated curve. You take a -1 penalty on Intelligence and Charisma checks and on Intelligence- and Charisma-based skill checks, but gain a +2 bonus on Wisdom checks and Wisdom-based skill checks. In addition, once per day, you can increase the DC of a psychic spell you cast by 1."
 		]
 	},
 	"elusive_redirection": {
@@ -2073,15 +2073,15 @@
 			"**Prerequisites:** Cha 13, {feat/Noble Scion}, Knowledge (nobility) 1 rank.  ",
 			"**Benefit:** You gain an additional benefit based on the flavor of your noble family chosen with the {feat/Noble Scion} feat.",
 			"",
-			">*Scion of the Arts:* A number of times per day equal to your Charisma modifier, you can roll 2d20 for a Perform check and take the better result.",
+			">@HL[Scion of the Arts:] A number of times per day equal to your Charisma modifier, you can roll 2d20 for a Perform check and take the better result.",
 			">",
-			">*Scion of Lore:* You can attempt Knowledge skill checks untrained. If you have 10 or more ranks in a Knowledge skill, the bonus from Scion of Lore increases to +2 for that skill.",
+			">@HL[Scion of Lore:] You can attempt Knowledge skill checks untrained. If you have 10 or more ranks in a Knowledge skill, the bonus from Scion of Lore increases to +2 for that skill.",
 			">",
-			">*Scion of Magic:* Once per day, you can gain a +2 bonus to caster level on a {rule/concentration} check, a Use Magic Device check, or a check to overcome spell resistance.",
+			">@HL[Scion of Magic:] Once per day, you can gain a +2 bonus to caster level on a {rule/concentration} check, a Use Magic Device check, or a check to overcome spell resistance.",
 			">",
-			">*Scion of Peace:* Choose one Wisdom-based skill. Once per day when you take 10 on this skill, you treat the result as if you had rolled an 18 instead of a 10.",
+			">@HL[Scion of Peace:] Choose one Wisdom-based skill. Once per day when you take 10 on this skill, you treat the result as if you had rolled an 18 instead of a 10.",
 			">",
-			">*Scion of War:* After rolling initiative, you can attempt a Bluff check as an immediate action to feint against a creature or an Intimidate check to demoralize a creature. This can only affect creatures that act after you in the initiative count."
+			">@HL[Scion of War:] After rolling initiative, you can attempt a Bluff check as an immediate action to feint against a creature or an Intimidate check to demoralize a creature. This can only affect creatures that act after you in the initiative count."
 		]
 	},
 	"ennobled_resistances": {
@@ -4888,11 +4888,11 @@
 			"**Prerequisites:** Survival 3 ranks.  ",
 			"**Benefit:** You can create a false trail in the wilderness via a combination of misleading footprints, discarded items, torn scraps of clothing, and other signs. When you create a false trail, you determine the direction it leads. A creature tracking you must succeed at a Perception or Survival check (DC = 10 + half your character level + your Wisdom modifier) to determine the trail is fake when first encountering it. On a success, the creature can continue to track you as normal. The effect of a failure to identify the trail as false depends on the time and effort spent making it.",
 			"",
-			">**Quick:** A quick false trail takes 10 minutes to complete. A creature that fails to identify the trail as false follows it for 1d4&times;1,000 feet.",
+			">@HL[Quick:] A quick false trail takes 10 minutes to complete. A creature that fails to identify the trail as false follows it for 1d4&times;1,000 feet.",
 			">",
-			">**Normal:** A normal false trail takes 1 hour to complete. A creature that fails to identify the trail as false follows it for 1d4 miles.",
+			">@HL[Normal:] A normal false trail takes 1 hour to complete. A creature that fails to identify the trail as false follows it for 1d4 miles.",
 			">",
-			">**Elaborate:** An elaborate false trail takes 4 hours to complete. A creature that fails to identify the trail as false follows it for 2d6 miles.",
+			">@HL[Elaborate:] An elaborate false trail takes 4 hours to complete. A creature that fails to identify the trail as false follows it for 2d6 miles.",
 			"",
 			"After a creature that fails to identify a false trail follows it for the determined distance, it can attempt another Perception or Survival check with a +5 bonus. On a success, the creature realizes it's following a false trail and can continue to track you as normal after backtracking to the start of the false trail (or wherever you diverged from the false trail). On a failure, the creature continues to move in the direction of the false trail for an additional mile. After each mile, it can attempt a new check with a cumulative +5 bonus."
 		]

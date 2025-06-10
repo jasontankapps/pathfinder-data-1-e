@@ -1920,7 +1920,7 @@
 			"",
 			"An @HL[emanation] spell functions like a burst spell, except that the effect continues to radiate from the point of origin for the duration of the spell. Most emanations are cones or spheres.",
 			"",
-			"A @HL[spread] spell, often a cloud or fog spell, extends out like a emanation but can turn corners. You select a grid intersection, and the spell spreads out a given distance in all directions. The effect can extend around corners and into areas that you can't see. Figure distance by actual distance traveled, taking into account turns the spell effect takes. When determining distance for spread effects, count around walls, not through them. As with movement, do not trace diagonals across corners. You must designate the point of origin for such an effect, but you need not have line of effect (see below) to all portions of the effect.",
+			"A @HL[spread] spell, often a cloud or fog spell, extends out like an emanation but can turn corners. You select a grid intersection, and the spell spreads out a given distance in all directions. The effect can extend around corners and into areas that you can't see. Figure distance by actual distance traveled, taking into account turns the spell effect takes. When determining distance for spread effects, count around walls, not through them. As with movement, do not trace diagonals across corners. You must designate the point of origin for such an effect, but you need not have line of effect (see below) to all portions of the effect.",
 			"",
 			"### Cone, Cylinder, Line, Sphere",
 			"",
