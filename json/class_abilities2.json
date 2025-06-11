@@ -1516,9 +1516,9 @@
 			"- {monster/Psyche serpent}",
 			"- {monster/Water wysp}",
 			"",
-			"**True neutral:** [^E]",
+			"**True neutral:**",
 			"",
-			"- {monster/Nosoi/ (Psychopomp)}",
+			"- {monster/Nosoi/ (Psychopomp)} [^N]",
 			"",
 			"**Neutral evil:**",
 			"",
@@ -1540,7 +1540,8 @@
 			"[^T]: This may be replaced with any other animal from the standard {ability/familiar} list, with the appropriate template ({template/celestial}, {template/entropic}, {template/fey-touched}, {template/fiendish}, or {template/resolute}) applied to it.",
 			"[^H]: The master must first create the homunculus.",
 			"[^P]: The pyrausta's heart spark glows slightly less brightly, but more steadily. This removes its fast healing ability and heart of flame special abilities.",
-			"[^E]: The spellcaster's alignment **must** match this eactly, instead of being within one step of the familiar's alignment."
+			"[^E]: The spellcaster's alignment **must** match this eactly, instead of being within one step of the familiar's alignment.",
+			"[^N]: The spellcaster's alignment **must** be True Neutral, or the spellcaster must be a {race/duskwalker} with the {feat/Personal Chronicler} feat."
 		],
 		"topLink": [ "Wizard", "class/wizard" ]
 	},

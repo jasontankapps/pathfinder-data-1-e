@@ -14,6 +14,7 @@ import colorJSON from './json/colors.json' with {type: 'json'};
 const $ = {
 	flags: {},
 	prefix: "",
+	current: "",
 	errorCount: 0,
 	savedCount: 0,
 	redirects: {}
@@ -32,6 +33,12 @@ const get = (filename, logError = false) => {
 		}
 		throw err;
 	}
+};
+
+// Console log error
+const logError = (...message) => {
+	$.errorCount++;
+	console.log(`[${$.current}]:`, ...message);
 };
 
 // Colors section
@@ -165,8 +172,7 @@ const alternateBlocks = {
 			const m = checkForEncodedLink(text, { bare: true });
 			const t = "h" + n.slice(-1);
 			if(!m) {
-				console.log(`Bad ::${n} => [${text}]`);
-				$.errorCount++;
+				logError(`Bad ::${n} => [${text}]`);
 				return `<${t}>${text}</${t}>\n`;
 			}
 			$.flags.link = true;
@@ -282,8 +288,7 @@ const inlineTags = {
 				const id = maybeJL(attrs, text);
 				return `<strong className="hl"${id ? ` id="${id}"` : ""}><Link to="/${link}">${text}</Link></strong>`
 			}
-			console.log(`Bad :${tag} => [${text}]`);
-			$.errorCount++;
+			logError(`Bad :${tag} => [${text}]`);
 			tag = "b";
 		} else if(
 			(tag === "primary" && !hasAlternateText)
@@ -470,9 +475,8 @@ const postprocess = (tables) => {
 				output = output + `<DisplayTable table={${JSON.stringify(tables[index])}} />`;
 				$.flags.displaytable = true;
 			} else {
-				console.log(`ERROR: Bad Table: "{table${table}}" in ${$.prefix}`);
 				output = output + `<p><code>\{table${table}\}</code></p>`;
-				$.errorCount++;
+				logError(`ERROR: Bad Table: "{table${table}}" in ${$.prefix}`);
 			}
 			text = post;
 		}
@@ -533,9 +537,7 @@ const removeCurlyBrackets = (input) => {
 			test = etc;
 		}
 		if(test) {
-			console.log("ERROR, non-complete tag?: " + line);
-			console.log(">> " + test);
-			$.errorCount++;
+			logError(`Incomplete tag? <${line}>\n>> ${test}`);
 		}
 		return final;
 	}).join("\n");
@@ -835,10 +837,11 @@ const parseFeatTree = (tree, ids = []) => {
 	const output = [];
 	tree.forEach(branch => {
 		const { prop, coparents, coparentsNolink, primary, leaves } = branch;
+		$.current = "Feat Tree: " + prop;
 		const link = "feat/" + prop;
 		const title = getFeatName(prop);
 		if(!title) {
-			$.errorCount++;
+			logError(`Cannot find tree.`);
 			return output.push(`<div><strong>ERROR</strong> trying to find "${prop}".</div>`);
 		}
 		const id = primary ? (anchor + prop) : undefined;
@@ -855,7 +858,7 @@ const parseFeatTree = (tree, ids = []) => {
 				(coparents || []).map(cp => {
 					const title = getFeatName(cp);
 					if(!title) {
-						$.errorCount++;
+						logError(`Couldn't find coparent "${cp}".`)
 						return `<strong>ERROR</strong> trying to find "${cp}".`
 					}
 					const id = ids.join("-") + `-${prop}-coparent-${cp}`;
@@ -864,7 +867,7 @@ const parseFeatTree = (tree, ids = []) => {
 				(coparentsNolink || []).map(cp => {
 					const title = getFeatName(cp);
 					if(!title) {
-						$.errorCount++;
+						logError(`Couldn't find coparent (nolink) "${cp}".`)
 						return `<strong>ERROR</strong> trying to find "${cp}".`
 					}
 					return `<span className="coparent">${title}</span>`;
@@ -908,8 +911,9 @@ if($.errorCount) {
 }
 
 //   Create all other files, including ___link.tsx files.
-Object.values(all_usable_groups).forEach((group, groupindex) => {
-//Object.values({"main01": all_usable_groups["main01"]}).forEach((group, groupindex) => {
+Object.entries(all_usable_groups).forEach((pairing, groupindex) => {
+//Object.entries({"main01": all_usable_groups["main01"]}).forEach((pairing, groupindex) => {
+	const [groupProp, group] = pairing;
 	const {
 		data,
 		datatype,
@@ -923,6 +927,7 @@ Object.values(all_usable_groups).forEach((group, groupindex) => {
 	const groupFlags = {};
 	const template = templates_by_link[link] || templates_by_link._basic;
 	Object.entries(data).forEach(([prop, value]) => {
+		$.current = `${groupProp}/${prop}`;
 		// Temporary flags should NEVER match regular flags.
 		const temporaryFlags = {};
 		// Handle alternateOf
@@ -1021,8 +1026,7 @@ Object.values(all_usable_groups).forEach((group, groupindex) => {
 							return true;
 						});
 					} else {
-						console.log(`ERROR: ${link}/${prop} does not have a description or a compileFrom property.`);
-						$.errorCount++;
+						logError(`ERROR: ${link}/${prop} does not have a description or a compileFrom property.`);
 						converted = [ "ERROR: This entry has no description.", {} ];
 					}
 				}
@@ -1039,6 +1043,7 @@ Object.values(all_usable_groups).forEach((group, groupindex) => {
 			final.push([prop, createItem(info, prop)]);
 		}
 	});
+	$.current = groupProp;
 	let somethingChanged;
 	let remaining = [...copies];
 	do {
@@ -1061,8 +1066,7 @@ Object.values(all_usable_groups).forEach((group, groupindex) => {
 		remaining = missing;
 	} while ((remaining.length > 0) && somethingChanged);
 	remaining.forEach(([prop, copyof]) => {
-		console.log(`MISSING "${copyof}" property in ${prop}.copyof`);
-		$.errorCount++;
+		logError(`MISSING "${copyof}" property in ${prop}.copyof`);
 	});
 	const imports = [];
 	const ionic = [];
@@ -1099,7 +1103,11 @@ Object.values(all_usable_groups).forEach((group, groupindex) => {
 	const theOutput = output.join("\n").trim();
 
 	if(testfile === theOutput) {
-		console.log(`UNCHANGED: ${filename} (${groupindex + 1} of ${number_of_groups})`);
+		//console.log(`UNCHANGED: ${filename} (${groupindex + 1} of ${number_of_groups})`);
+		const x = groupindex + 1;
+		if(Math.floor(x/25) === (x/25)) {
+			console.log(`... (passing ${x} of ${number_of_groups})`);
+		}
 	} else {
 		// Write that file
 		fs.writeFileSync(filename, theOutput);
@@ -1122,7 +1130,7 @@ if(testfile === theOutput) {
 	$.savedCount++;
 }
 
-console.log(`\n\n>> Saved [${$.savedCount}] files (out of ${number_of_groups + 4}).`);
+console.log(`\n\n>> Saved [${$.savedCount}] new files (out of ${number_of_groups + 4}).`);
 
 if($.errorCount) {
 	console.log(`\n\n>> Found [${$.errorCount}] errors.`);
