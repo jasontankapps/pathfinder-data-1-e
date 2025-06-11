@@ -2940,7 +2940,7 @@
 			"dimension_of_dreams",
 			"astral_plane_oa",
 			"akashic_record",
-			"the_boneyard",
+			"the_boneyard_oa",
 			"outer_sphere"
 		],
 		"siblings": [
@@ -2979,7 +2979,7 @@
 			"dimension_of_dreams",
 			"astral_plane_oa",
 			"akashic_record",
-			"the_boneyard",
+			"the_boneyard_oa",
 			"outer_sphere"
 		]
 	},
@@ -3012,7 +3012,7 @@
 			"dimension_of_dreams",
 			"astral_plane_oa",
 			"akashic_record",
-			"the_boneyard",
+			"the_boneyard_oa",
 			"outer_sphere"
 		]
 	},
@@ -3041,7 +3041,7 @@
 			"dimension_of_dreams",
 			"astral_plane_oa",
 			"akashic_record",
-			"the_boneyard",
+			"the_boneyard_oa",
 			"outer_sphere"
 		]
 	},
@@ -3078,7 +3078,7 @@
 			"dimension_of_dreams",
 			"astral_plane_oa",
 			"akashic_record",
-			"the_boneyard",
+			"the_boneyard_oa",
 			"outer_sphere"
 		]
 	},
@@ -3126,7 +3126,7 @@
 			"dimension_of_dreams",
 			"astral_plane_oa",
 			"akashic_record",
-			"the_boneyard",
+			"the_boneyard_oa",
 			"outer_sphere"
 		]
 	},
@@ -3161,7 +3161,7 @@
 			"dimension_of_dreams",
 			"astral_plane_oa",
 			"akashic_record",
-			"the_boneyard",
+			"the_boneyard_oa",
 			"outer_sphere"
 		]
 	},
@@ -3202,11 +3202,11 @@
 			"dimension_of_dreams",
 			"astral_plane_oa",
 			"akashic_record",
-			"the_boneyard",
+			"the_boneyard_oa",
 			"outer_sphere"
 		]
 	},
-	"the_boneyard": {
+	"the_boneyard_oa": {
 		"name": "The Boneyard",
 		"subtitle": "Occult, Gamemastery",
 		"sources": [ "Occult Adventures" ],
@@ -3242,7 +3242,7 @@
 			"dimension_of_dreams",
 			"astral_plane_oa",
 			"akashic_record",
-			"the_boneyard",
+			"the_boneyard_oa",
 			"outer_sphere"
 		]
 	},
@@ -3271,7 +3271,7 @@
 			"dimension_of_dreams",
 			"astral_plane_oa",
 			"akashic_record",
-			"the_boneyard",
+			"the_boneyard_oa",
 			"outer_sphere"
 		]
 	}

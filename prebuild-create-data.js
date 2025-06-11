@@ -106,6 +106,19 @@ const alternateBlocks = {
 				return `<div className="headerLike"><div>${text}</div><div className="sub">${sub}</div></div>\n`;
 			}
 			return `<div className="headerLike">${text}</div>\n`;
+		} else if (n === "ph") {
+			const {sub, desc, cat} = attrs;
+			let main = `<p className="statblockHeader"><span>${text}</span></p>`;
+			if(sub) {
+				main = main + `<div className="sub">${sub}</div>`;
+			}
+			if(desc) {
+				main = main + `<div><em>${desc}</em></div>`;
+			}
+			if(cat) {
+				main = main + `<div><strong>Category</strong> ${cat}</div>`;
+			}
+			return main + "\n";
 		} else if (n === "mhr") {
 			$.flags.divider = true;
 			return `<IonItemDivider className="mainItem divider"></IonItemDivider>`;
