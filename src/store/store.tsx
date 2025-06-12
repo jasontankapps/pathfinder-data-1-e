@@ -187,13 +187,39 @@ const migrations = {
 		// Fix all link changes since the last update
 		const {order, db: oldDB, catalog: oldCat} = bookmarks;
 		// FIX:
-		//   druidcompanion => companion,
+		//   druidcompanion/x => companion/x,
+		//   rule/the_boneyard -> _oa
+		//        dimension_of_dreams -> _oa
+		//        akashic_record -> _oa
+		//        material_plane -> _gg
+		//        shadow_plane -> _gg
+		//        negative_energy_plane -> _gg
+		//        positive_energy_plane -> _gg
+		//        plane_of_air -> _gg
+		//        plane_of_earth -> _gg
+		//        plane_of_fire -> _gg
+		//        plane_of_water -> _gg
+		//        ethereal_plane -> _gg
+		//        astral_plane -> _gg
+		//        heaven -> _gg
+		//        utopia -> _gg
+		//        hell -> _gg
+		//        nirvana -> _gg
+		//        purgatory -> _gg
+		//        abaddon -> _gg
+		//        elysium -> _gg
+		//        limbo -> _gg
+		//        the_abyss -> _gg
 
 		const db: BookmarkDB = {};
 		const catalog: Catalog = {};
 
 		const replacerCompanion = /(^[/]?)druidcompanion[/]/;
 		const replacementCompanion = "$1companion/";
+		const replacerOA = /^([/]?rule[/](?:dimension_of_dreams|the_boneyard|akashic_record))([/]?)$/;
+		const replacementOA = "$1_oa$2";
+		const replacerGG = /^([/]?rule[/](?:(?:(?:materi|ethere|astr)al|shadow|(?:nega|posi)tive_energy)_plane|plane_of_(?:air|earth|fire|water)|hell|heaven|utopia|nirvana|purgatory|abaddon|elysium|limbo|the_abyss))([/]?)$/;
+		const replacementGG = "$1_gg$2";
 
 		Object.keys(oldDB).forEach(id => {
 			const {color, title, contents:c, hidden} = oldDB[id] as BookmarkGroup;
@@ -203,7 +229,9 @@ const migrations = {
 				contents: c.map(pair =>
 					[
 						pair[0]
-							.replace(replacerCompanion, replacementCompanion),
+							.replace(replacerCompanion, replacementCompanion)
+							.replace(replacerOA, replacementOA)
+							.replace(replacerGG, replacementGG),
 						pair[1]
 					] as [string, string]
 				),

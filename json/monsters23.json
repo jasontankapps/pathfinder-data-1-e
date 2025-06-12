@@ -2276,6 +2276,7 @@
 		]
 	},
 	"elysian": { "copyof": "titan_elysian" },
+	"elysian_titan": { "copyof": "titan_elysian" },
 	"titan_hekatonkheires": {
 		"name": "Hekatonkheires (Titan)",
 		"sources": [

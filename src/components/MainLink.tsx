@@ -23,7 +23,7 @@ const convertEntities = (input: string) => (
 const MainLink: FC<MainLinkProps> = ({className, info, to, end, endem, bottom}) => {
 	const dispatch = useAppDispatch();
 	const [, navigate] = useLocation();
-	const link = to && `/${getLink(to.slice(1))}`; 
+	const link = to && `/${getLink(to.slice(1))}`;
 	return (
 		<IonItem
 			className={"mainItem linked" + (className ? " " + className : "")}

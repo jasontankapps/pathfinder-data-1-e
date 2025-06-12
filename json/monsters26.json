@@ -701,6 +701,7 @@
 			"Zephyr: Once per day, an anemos who guides the western winds can soothe the spirits of any creature touched by its gentle breezes. For 1 minute, creatures within 60 feet of the anemos must attempt DC 31 Will saves each time they attempt to attack or take aggressive actions toward another creature. If a creature succeeds, it can attack as normal. If it fails, it can't attack and is staggered for 1 minute."
 		]
 	},
+	"anemoi": { "copyof": "anemos" },
 	"angazhani_high_girallon": {
 		"name": "Angazhani (High Girallon)",
 		"sources": [ "Heart of the Jungle" ],

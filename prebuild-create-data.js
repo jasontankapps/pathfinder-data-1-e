@@ -117,10 +117,10 @@ const alternateBlocks = {
 			const {sub, desc, cat} = attrs;
 			let main = `<p className="statblockHeader"><span>${text}</span></p>`;
 			if(sub) {
-				main = main + `<div className="sub">${sub}</div>`;
+				main = `<p className="statblockHeader withSub"><span>${text}</span></p><div className="sub">${sub}</div>`;
 			}
 			if(desc) {
-				main = main + `<div><em>${desc}</em></div>`;
+				main = main + `<div className="indent"><em>${desc}</em></div>`;
 			}
 			if(cat) {
 				main = main + `<div><strong>Category</strong> ${cat}</div>`;
@@ -784,7 +784,7 @@ const compile = (compileFrom, prefix, temporaryFlags, openTag, closeTag) => {
 };
 
 const createItem = (info, prop) => {
-	const { title, description, sources, parent_topics, siblings, subtopics, topLink, noFinder, addenda, disambiguation } = info;
+	const { title, description, sources, parent_topics, siblings, subtopics, topLink, noFinder, addenda, disambiguation, className } = info;
 	let output = `const _${prop} = {title: "${title}", sources: ${sources ? JSON.stringify(sources) : "[]"}`;
 	parent_topics && (output = output + `, parent_topics: ${JSON.stringify(parent_topics)}`);
 	siblings && (output = output + `, siblings: ${JSON.stringify(siblings)}`);
@@ -792,13 +792,14 @@ const createItem = (info, prop) => {
 	topLink && (output = output + `, topLink: ${JSON.stringify(topLink)}`);
 	noFinder && (output = output + ", noFinder: true");
 	addenda && (output = output + `, addenda: ${JSON.stringify(addenda)}`);
+	className && (output = output + `, className: "${className}"`);
 	disambiguation && (output = output + `, notBookmarkable: true`);
 	output = output + `, jsx: ${description}};`;
 	return output;
 };
 
 const createCopyItem = (info, prop, copy) => {
-	const { title, sources, parent_topics, siblings, subtopics, topLink, noFinder } = info;
+	const { title, sources, parent_topics, siblings, subtopics, topLink, noFinder, className } = info;
 	let output = `const _${prop} = {..._${copy}`;
 	title && (output = output + `, title: "${title}"`);
 	sources && (output = output + `, sources: ${JSON.stringify(sources)}`);
@@ -807,6 +808,7 @@ const createCopyItem = (info, prop, copy) => {
 	subtopics && (output = output + `, subtopics: ${JSON.stringify(subtopics)}`);
 	topLink && (output = output + `, topLink: ${JSON.stringify(topLink)}`);
 	noFinder && (output = output + ", noFinder: true");
+	className && (output = output + `, className: "${className}"`);
 	return output + "};";
 };
 
@@ -942,7 +944,7 @@ Object.entries(all_usable_groups).forEach((pairing, groupindex) => {
 		const {
 			name: n, title: t, description: d, copyof,
 			sources, tables, topLink, parent_topics,
-			subtopics, siblings, noFinder,
+			subtopics, siblings, noFinder, className,
 			nameSuffix, compilationSources,
 			compileFrom, addenda, disambiguation
 		} = base;
@@ -966,7 +968,7 @@ Object.entries(all_usable_groups).forEach((pairing, groupindex) => {
 				})
 			})
 		})
-		const info = { sources };
+		const info = { sources, className };
 		let converted = [undefined, {}];
 		switch (datatype) {
 			case "main":

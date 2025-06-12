@@ -292,7 +292,7 @@
 			"",
 			"Your dreams are as vivid as your waking hours, and you can slip into a dreamlike state with no effort.  ",
 			"**Prerequisites:** Cha 17, {feat/Lucid Dreamer}, {feat/Practiced Dreamer}, Knowledge (planes) 10 ranks.  ",
-			"**Benefit:** Your experience in the {rule/Dimension of Dreams} allows you to enter the demiplane with ease. You no longer have to attempt a Charisma check when entering the Dimension of Dreams to determine whether or not you are at a disadvantage, instead automatically arriving unhindered."
+			"**Benefit:** Your experience in the {rule/Dimension of Dreams>_oa} allows you to enter the demiplane with ease. You no longer have to attempt a Charisma check when entering the Dimension of Dreams to determine whether or not you are at a disadvantage, instead automatically arriving unhindered."
 		]
 	},
 	"drink_is_life": {
@@ -2160,7 +2160,7 @@
 			"",
 			"You are able to gain some abilities of a lucid dreamer while in your corporeal form.  ",
 			"**Prerequisites:** Cha 15, {feat/Lucid Dreamer}, Knowledge (planes) 5 ranks.  ",
-			"**Benefit:** Once per day, when you are in the {rule/Dimension of Dreams} in your physical body, you can attempt an impossible action as a standard action as though you were in a lucid body. No positive modifiers can be applied to this roll other than your Charisma modifier."
+			"**Benefit:** Once per day, when you are in the {rule/Dimension of Dreams>_oa} in your physical body, you can attempt an impossible action as a standard action as though you were in a lucid body. No positive modifiers can be applied to this roll other than your Charisma modifier."
 		]
 	},
 	"equipment_trick": {

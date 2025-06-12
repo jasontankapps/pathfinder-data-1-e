@@ -2937,9 +2937,9 @@
 			"negative_energy_plane_oa",
 			"material_plane_oa",
 			"ethereal_plane_oa",
-			"dimension_of_dreams",
+			"dimension_of_dreams_oa",
 			"astral_plane_oa",
-			"akashic_record",
+			"akashic_record_oa",
 			"the_boneyard_oa",
 			"outer_sphere"
 		],
@@ -2963,7 +2963,9 @@
 			"",
 			"If the jyoti dedicate themselves to the protection of incubating immature souls, the other primary inhabitants of the Positive Energy Plane, the {family/manasaputra/s}, dedicate their existence to assisting the spiritual development of mortals. These \"sons of mind\" are the powerful psychic incarnations of mortals who have endured scores of mortal reincarnations, with each step becoming more attuned to the universal undersoul. The greatest and most powerful of the manasaputras - the glory-clad solar kumaras - dwell within the heart of the Cosmic Fire, and claim to be in communication with it. Lesser manasaputras like agnishvattas, barhisads, and manus spread through the Inner Sphere to initiate mortal adepts in the occult nature of the multiverse, so that they too might step once again into the light that birthed them.",
 			"",
-			"For reasons unknown even to the eldest natives, divine beings cannot enter the Positive Energy Plane. Refugees from the vengeance of the gods or those hoping to hide important relics from certain divinities sometimes venture to the Positive Energy Plane to negotiate with the jyoti, who over the centuries have amassed an astounding trove of world-shattering artifacts, illegitimate half-mortal bastards, heretics, and other dangers."
+			"For reasons unknown even to the eldest natives, divine beings cannot enter the Positive Energy Plane. Refugees from the vengeance of the gods or those hoping to hide important relics from certain divinities sometimes venture to the Positive Energy Plane to negotiate with the jyoti, who over the centuries have amassed an astounding trove of world-shattering artifacts, illegitimate half-mortal bastards, heretics, and other dangers.",
+			"",
+			">*Also see: {rule/Positive Energy Plane/ (Planar Adventures)}*"
 		],
 		"parent_topics": [
 			"gm_specific_campaigns",
@@ -2976,9 +2978,9 @@
 			"negative_energy_plane_oa",
 			"material_plane_oa",
 			"ethereal_plane_oa",
-			"dimension_of_dreams",
+			"dimension_of_dreams_oa",
 			"astral_plane_oa",
-			"akashic_record",
+			"akashic_record_oa",
 			"the_boneyard_oa",
 			"outer_sphere"
 		]
@@ -2996,7 +2998,9 @@
 			"",
 			"Within the plane, where the concentration of negative energy reaches an absolute, it begins to manifest a crystalline material that grows into beautiful and deadly structures of absolute entropy. When these crystals form strange angles, the plane gives birth to a {monster/sceaduinar}. These vile creatures hate life and unlife alike, and exist only to sow entropy and destruction. Somehow, their manifestation seems to drain a measure of the plane's entropic energies, ironically making the regions around these haunting snowflake structures the most stable and survivable regions in the otherwise hostile plane. While negative energy is less of a concern, the sceaduinar themselves represent a significant threat to visitors.",
 			"",
-			"The ancient wisdom suggests that the {monster/jyoti} hate the sceaduinar for their knowledge of the role destruction plays in the creation of souls, and the jyoti fear the exposure of that information. The Negative Energy Plane's most terrible and hateful residents, the undead abominations known as {family/nightshade/s}, care little for this squabbling between the planes. Theirs is a quest to eradicate all life in the cosmos, to cloak the stars of the Material Plane in darkness, and to quench the Cosmic Fire, no matter the consequences."
+			"The ancient wisdom suggests that the {monster/jyoti} hate the sceaduinar for their knowledge of the role destruction plays in the creation of souls, and the jyoti fear the exposure of that information. The Negative Energy Plane's most terrible and hateful residents, the undead abominations known as {family/nightshade/s}, care little for this squabbling between the planes. Theirs is a quest to eradicate all life in the cosmos, to cloak the stars of the Material Plane in darkness, and to quench the Cosmic Fire, no matter the consequences.",
+			"",
+			">*Also see: {rule/Negative Energy Plane/ (Planar Adventures)}*"
 		],
 		"parent_topics": [
 			"gm_specific_campaigns",
@@ -3009,9 +3013,9 @@
 			"negative_energy_plane_oa",
 			"material_plane_oa",
 			"ethereal_plane_oa",
-			"dimension_of_dreams",
+			"dimension_of_dreams_oa",
 			"astral_plane_oa",
-			"akashic_record",
+			"akashic_record_oa",
 			"the_boneyard_oa",
 			"outer_sphere"
 		]
@@ -3038,9 +3042,9 @@
 			"negative_energy_plane_oa",
 			"material_plane_oa",
 			"ethereal_plane_oa",
-			"dimension_of_dreams",
+			"dimension_of_dreams_oa",
 			"astral_plane_oa",
-			"akashic_record",
+			"akashic_record_oa",
 			"the_boneyard_oa",
 			"outer_sphere"
 		]
@@ -3062,7 +3066,9 @@
 			"",
 			"A creature's etheric double, aura, and chakras are not visible except to those with the knowledge or magic to see them. From the Material Plane, this involves esoteric use of the {skill/Perception} skill by a creature with the {feat/Psychic Sensitivity} feat or any of a number of spells. From within the Ethereal Plane, all it takes to observe the interplay of these forces is simple concentration: if you know what to look for, it becomes plainly visible. Interpreting this information, of course, is another matter. An etheric double is outlined in violet-gray or blue-gray luminescence. Unlike an astral body generated by {spell/astral projection} or a lucid body of the Dimension of Dreams, an etheric double is not normally capable of acting as a separate vehicle of consciousness.",
 			"",
-			"Finally, the sweeping expanse of the Ethereal Plane is home to countless pocket realities known as demiplanes. Many of these unique realms are the private domains of powerful arcane spellcasters, the playgrounds of minor gods, the experiments of the inscrutable elohim, or the prisons of creatures that pose such danger to the cosmos that they must never be released."
+			"Finally, the sweeping expanse of the Ethereal Plane is home to countless pocket realities known as demiplanes. Many of these unique realms are the private domains of powerful arcane spellcasters, the playgrounds of minor gods, the experiments of the inscrutable elohim, or the prisons of creatures that pose such danger to the cosmos that they must never be released.",
+			"",
+			">*Also see: {rule/Ethereal Plane/ (Planar Adventures)}*"
 		],
 		"parent_topics": [
 			"gm_specific_campaigns",
@@ -3075,14 +3081,14 @@
 			"negative_energy_plane_oa",
 			"material_plane_oa",
 			"ethereal_plane_oa",
-			"dimension_of_dreams",
+			"dimension_of_dreams_oa",
 			"astral_plane_oa",
-			"akashic_record",
+			"akashic_record_oa",
 			"the_boneyard_oa",
 			"outer_sphere"
 		]
 	},
-	"dimension_of_dreams": {
+	"dimension_of_dreams_oa": {
 		"name": "Dimension of Dreams",
 		"subtitle": "Occult, Gamemastery",
 		"tags": "dreamscapes",
@@ -3110,7 +3116,9 @@
 			"",
 			"- Flowing Time: Both lucid bodies and creatures visiting the Dimension of Dream with their physical bodies are subject to the flowing time trait of a given dreamscape.",
 			"- Highly Morphic: When a creature enters a dreamscape with a lucid body, it must make a Charisma check (DC 15) to prevent arriving in the Dimension of Dreams at a disadvantage, such as without important equipment or on the side of an arctic mountain during an avalanche. A successful save means the dreamer manifests in perfect health, with all of its regular equipment (spells and magic items used in a dream are not actually expended in the real world). Even in the worst of circumstances, however, the lucid body is capable of fantastic - even impossible - feats. As a standard action, a number of times during the dream equal to the creature's Charisma bonus (minimum 1) the dreamer can attempt one impossible action, such as casting a spell, gaining an effect of a spell as if it were cast, or conjuring a magic item. This requires a successful Charisma check (DC 10 + the level of the spell being cast or spell effect replicated or half of the caster level of the item conjured; nonmagical items are caster level 0). Other fantastic feats are also possible with GM approval and a Charisma check with a DC determined by the GM. If the check fails, the dreamer cannot perform the feat. Creatures that enter the dream with their physical bodies do not need to make the initial check and do not gain the ability to create items and spell effects or perform other fantastic feats, but must otherwise deal with the strange realities of the dreamscape.",
-			"- Wild Magic: Both lucid bodies and creatures visiting the Dimension of Dream with their physical bodies are subject to the wild magic of dreamscapes."
+			"- Wild Magic: Both lucid bodies and creatures visiting the Dimension of Dream with their physical bodies are subject to the wild magic of dreamscapes.",
+			"",
+			">*Also see: {rule/Dimension of Dreams/ (Planar Adventures)}*"
 		],
 		"parent_topics": [
 			"gm_specific_campaigns",
@@ -3123,9 +3131,9 @@
 			"negative_energy_plane_oa",
 			"material_plane_oa",
 			"ethereal_plane_oa",
-			"dimension_of_dreams",
+			"dimension_of_dreams_oa",
 			"astral_plane_oa",
-			"akashic_record",
+			"akashic_record_oa",
 			"the_boneyard_oa",
 			"outer_sphere"
 		]
@@ -3145,7 +3153,9 @@
 			"",
 			"The untethered astral bodies of the dead flow toward the Boneyard along the River of Souls. During this process, the dross of mortality is shed, leaving behind only the soul's core self, its memories, and the refined character of its prior life. The gods of the Outer Sphere consider the River of Souls inviolate, often sending celestial and infernal outsiders to help steward wayward souls toward judgment and eventual delivery to their afterlife of reward or punishment. Soul-collecting or soul-devouring predators such as {monster/night hag/s} and {monster/astradaemon/s} prey on the dead of the Astral Plane, usually limiting themselves to picking off isolated incorporeal undead but all too often raiding parties of disembodied souls as they make their way toward eternity. {faith/Pharasma}, the goddess of the dead, hates this perversion of the natural order of the multiverse, and the entities known as {family/psychopomp/s} often act as guides to deliver souls safely to their final destinations.",
 			"",
-			"Other inhabitants of the Astral Plane include enormous {monster/astral leviathan/s} that float through the silvery seas, sometimes with passengers or even semi-permanent settlements upon their backs; strange {monster/caulborn} who harvest knowledge and psychic energy from astral travelers; formless {family/manasaputra/s} who seek to guide Material Plane adepts through telepathy; and the lean humanoid outsiders known as the {monster/shulsaga}, multiplanar hunters who ride magical disks and view intruders to their astral realm with xenophobic disdain."
+			"Other inhabitants of the Astral Plane include enormous {monster/astral leviathan/s} that float through the silvery seas, sometimes with passengers or even semi-permanent settlements upon their backs; strange {monster/caulborn} who harvest knowledge and psychic energy from astral travelers; formless {family/manasaputra/s} who seek to guide Material Plane adepts through telepathy; and the lean humanoid outsiders known as the {monster/shulsaga}, multiplanar hunters who ride magical disks and view intruders to their astral realm with xenophobic disdain.",
+			"",
+			">*Also see: {rule/Astral Plane/ (Planar Adventures)}*"
 		],
 		"parent_topics": [
 			"gm_specific_campaigns",
@@ -3158,14 +3168,14 @@
 			"negative_energy_plane_oa",
 			"material_plane_oa",
 			"ethereal_plane_oa",
-			"dimension_of_dreams",
+			"dimension_of_dreams_oa",
 			"astral_plane_oa",
-			"akashic_record",
+			"akashic_record_oa",
 			"the_boneyard_oa",
 			"outer_sphere"
 		]
 	},
-	"akashic_record": {
+	"akashic_record_oa": {
 		"name": "Akashic Record",
 		"subtitle": "Occult, Gamemastery",
 		"sources": [ "Occult Adventures" ],
@@ -3186,7 +3196,9 @@
 			"",
 			"- Flowing Time",
 			"- Finite Shape",
-			"- Static"
+			"- Static",
+			"",
+			">*Also see: {rule/Akashic Record/ (Planar Adventures)}**"
 		],
 		"parent_topics": [
 			"gm_specific_campaigns",
@@ -3199,9 +3211,9 @@
 			"negative_energy_plane_oa",
 			"material_plane_oa",
 			"ethereal_plane_oa",
-			"dimension_of_dreams",
+			"dimension_of_dreams_oa",
 			"astral_plane_oa",
-			"akashic_record",
+			"akashic_record_oa",
 			"the_boneyard_oa",
 			"outer_sphere"
 		]
@@ -3226,7 +3238,9 @@
 			"- Timeless: Age, hunger, thirst, afflictions (such as diseases, curses, and poisons), and natural healing don't function in the Boneyard, though they resume functioning when the traveler leaves the Boneyard.",
 			"- Divinely Morphic: Deities with domains in the Boneyard can alter the plane at will.",
 			"- Strongly Neutral-Aligned",
-			"- Enhanced Magic: Spells and spell-like abilities with the death descriptor, or from the {domain/Death} or {domain/Repose} domains, are enhanced."
+			"- Enhanced Magic: Spells and spell-like abilities with the death descriptor, or from the {domain/Death} or {domain/Repose} domains, are enhanced.",
+			"",
+			">*Also see: {rule/The Boneyard/ (Planar Adventures)}*"
 		],
 		"parent_topics": [
 			"gm_specific_campaigns",
@@ -3239,9 +3253,9 @@
 			"negative_energy_plane_oa",
 			"material_plane_oa",
 			"ethereal_plane_oa",
-			"dimension_of_dreams",
+			"dimension_of_dreams_oa",
 			"astral_plane_oa",
-			"akashic_record",
+			"akashic_record_oa",
 			"the_boneyard_oa",
 			"outer_sphere"
 		]
@@ -3268,11 +3282,661 @@
 			"negative_energy_plane_oa",
 			"material_plane_oa",
 			"ethereal_plane_oa",
-			"dimension_of_dreams",
+			"dimension_of_dreams_oa",
 			"astral_plane_oa",
-			"akashic_record",
+			"akashic_record_oa",
 			"the_boneyard_oa",
 			"outer_sphere"
+		]
+	},
+	"planar_adventures": {
+		"name": "Planar Adventures",
+		"subtitle": "Specific Campaigns",
+		"sources": [ "Planar Adventures" ],
+		"description": [
+			"{SOURCE Planar Adventures/8}",
+			"",
+			"The Great Beyond is a place of unmatched beauty, boundless opportunity, and overwhelming magic, but those boons are more than matched by the dangers that await travelers and explorers of planes far from their own. Those who seek to adventure in such treacherous realms would do well to prepare in advance, and this section presents numerous options for characters to do so through archetypes, feats, spells, and magic items.",
+			"",
+			"The planes are vast, but their themes are also stronger than those on most Material Plane worlds. On a typical Material Plane world, one can expect to encounter a wide range of terrains, societies, civilizations, beliefs, and religions. This diversity is perhaps the Material Plane's greatest strength, and it is certainly why models of the planes tend to place the Material Plane at the metaphysical center of reality. Here, elements from all of the planes of the Great Beyond mix. In contrast, the other planes of the Great Beyond tend to each exemplify a single specific theme, condition, philosophical conceit, or incarnation of reality. There is little fear of dying of frostbite on the Plane of Fire. One can expect to find plenty of representation of chaotic good faiths in Elysium but relatively little (if any at all) of lawful faiths. Color itself is a rarity in the Shadow Plane, and solid ground likewise in places like the Astral and Ethereal Planes.",
+			"",
+			"As a result, preparation for planar travel is ironically easier in many cases than travel on the Material Plane - but this should not be taken to mean that other planes are safe places to visit. Most planes have dangerous, supernatural predators inimical to mortal life, and several are themselves deadly to merely visit. Arriving on a plane with the proper tools, already protected by the appropriate magic, and equipped with sufficient knowledge makes the difference between potential success and immediate failure.",
+			"",
+			"When you run an adventure or campaign that features planar travel, you'll want to keep this peril in mind. Further, you should consider the makeup of your player characters. Just as it can be frustrating for a druid's player to face adventure after adventure set in a city, or for a paladin's player to endure a campaign that frequently features moral quandaries and forces cooperation with forces of chaos or evil, it can likewise be annoying to play a character whose class features, goals, and necessities require the Material Plane in a campaign mostly set on other planes. You should make sure to alert your players at the start of any campaign that will take place on the other planes of the Great Beyond. You don't need to completely spoil all your plans for the game, but letting the players know that they will be unlikely to spend much time in the implied \"homeland\" of most games is important.",
+			"",
+			"A planar campaign is a great chance for your players to create characters of wildly diverse races. A number of suitable planar races are summarized below, including three new races appropriate for player characters. One thing to keep in mind when allowing players to play these races is that their powers tend to be a bit more significant than those of the game's core races. As a result, you should consider using the[ race builder rules](rule/race_builder). Choose a target RP total for all the players, and allow them to purchase new abilities and options for their races so that each player is playing an equivalently powerful character."
+		],
+		"parent_topics": [ "gm_specific_campaigns" ],
+		"subtopics": [
+			"planar_terrains",
+			"planar_races",
+			"role_of_the_divine",
+			"traits_of_a_plane",
+			"the_planes_pa",
+			"building_a_planar_campaign",
+			"planar_travel"
+		],
+		"siblings": [
+			"aquatic_adventures_aa",
+			"horror_rules",
+			"intrigue_systems",
+			"kingdoms_and_war",
+			"mythic_rules",
+			"occult_rules",
+			"planar_adventures",
+			"the_first_world",
+			"technological_equipment"
+		]
+	},
+	"planar_terrains": {
+		"name": "Planar Terrains",
+		"subtitle": "Specific Campaigns",
+		"sources": [ "Planar Adventures" ],
+		"description": [
+			"{SOURCE Planar Adventures/9}",
+			"",
+			"A staggering array of terrains await exploration in the Great Beyond. Some are akin to the forests, mountains, oceans, and plains of Material Plane worlds, but others are unlike anything found there, such as the ghostly reaches of the Ethereal Plane, the living and horrific reaches of the deep Abyss, the constantly burning inferno of the Plane of Fire, and the life-draining nothingness of the Negative Energy Plane.",
+			"",
+			"Some classes, like the {class/ranger}, interact directly with terrain, and class abilities like favored terrain can become complicated in a plane-hopping campaign. In games that are largely limited to the Material Plane, the planes terrain category works fine, but if you intend to run a game set on another plane, you should consider breaking up that category into specific planes (thus, a ranger would choose Heaven or Ethereal Plane, or even a demiplane like Leng as a favored terrain), or simply doing away with the planes category entirely. With this latter solution, you should work with ranger players to help them anticipate the terrains featured in your upcoming campaign, with new categories like crystalline (for realms in the Plane of Earth or under Elysium, where immense crystal formations are common), living (for truly sentient realms like portions of the Abyss), or void (for empty reaches in the Astral Plane or the energy planes) potentially becoming new options for rangers to select from."
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"planar_adventures"
+		],
+		"siblings": [
+			"planar_terrains",
+			"planar_races",
+			"role_of_the_divine",
+			"traits_of_a_plane",
+			"the_planes_pa",
+			"building_a_planar_campaign",
+			"planar_travel"
+		]
+	},
+	"planar_races": {
+		"name": "Planar Races",
+		"subtitle": "Specific Campaigns",
+		"sources": [ "Planar Adventures" ],
+		"description": [
+			"{SOURCE Planar Adventures/9}",
+			"",
+			"The following races all have specific ties to portions of the multiverse beyond the Material Plane (note that not all of these are native outsiders, and in addition to being found on the plane indicated below, all of these races can also be encountered on the Material Plane).",
+			"",
+			"**{race/Aasimar}:** Aasimars carry the blood of good-aligned outsiders in their veins. They can be found in Heaven, Nirvana, or Elysium, depending upon their heritage.",
+			"",
+			"**{race/Aphorite}:** Aphorites were created by axiomites to facilitate their interactions with mortals. They can often be found on Axis.",
+			"",
+			"**{race/Duskwalker}:** Duskwalkers are souls who have incarnated directly into the Material Plane from the Boneyard; as a result, most are now found on Material Plane worlds.",
+			"",
+			"**{race/Fetchling}:** Descended from humans who became trapped on the Shadow Plane, most fetchlings treat that sinister plane as home.",
+			"",
+			"**{race/Ganzi}:** Infused with strange energies and entropic legacies, ganzis are mortal incarnations of the myriad and mutable forces of chaos. They are typically encountered in the Maelstrom, but can also be found in Elysium or the Abyss.",
+			"",
+			"**{race/Gathlain}:** Rarely encountered on the Material Plane, the fey gathlains are most often found in the First World.",
+			"",
+			"**{race/Ifrit}:** Ifrits trace their lineage back to creatures from the Plane of Fire. They can be encountered on the Plane of Fire.",
+			"",
+			"**{race/Oread}:** Oreads boast the influence of shaitans and other earth creatures in their veins. They can be found on the Plane of Earth.",
+			"",
+			"**{race/Shabti}:** Shabtis are broken bits of mortal souls made flesh. They are encountered only on the Material Plane.",
+			"",
+			"**{race/Suli}:** Sulis are descended from the unions of mortals and jaan. They can sometimes be encountered on the Elemental Planes, but the majority dwell on the Material Plane.",
+			"",
+			"**{race/Sylph}:** Sylphs are infused with the blood and power of creatures of elemental air. They can often be found on the Plane of Air.",
+			"",
+			"**{race/Tiefling}:** Tieflings are mortals who have fiends in their ancestry. They can be found in Hell, Abaddon, or the Abyss, depending upon their heritage.",
+			"",
+			"**{race/Undine}:** Undines are the descendants of those who have mingled with creatures of elemental water. They can be found on the Plane of Water.",
+			"",
+			"**{race/Wayang}:** Wayangs originally came from the Shadow Plane, but are rarely found there today; most dwell now on the Material Plane."
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"planar_adventures"
+		],
+		"siblings": [
+			"planar_terrains",
+			"planar_races",
+			"role_of_the_divine",
+			"traits_of_a_plane",
+			"the_planes_pa",
+			"building_a_planar_campaign",
+			"planar_travel"
+		]
+	},
+	"role_of_the_divine": {
+		"name": "Role of the Divine",
+		"subtitle": "Planar Adventures",
+		"sources": [ "Planar Adventures" ],
+		"description": [
+			"{SOURCE Planar Adventures/70}",
+			"",
+			"The concept of free will hangs at the fundamental core of all living beings, even the choice to have faith in the gods or not. Whenever deities meddle directly in mortal affairs, they damage this agency and erode the concept of free will - what is the point of being able to make your own choices, after all, if an entity infinitely more powerful than you can simply ignore those choices and alter reality at its whim?",
+			"",
+			"The gods understand the nature of this conundrum far better than any of us mortals can, and their greater understanding of these paradoxes is a large part of what causes them to move in their proverbial \"mysterious ways.\" Still, mortals are often driven to ask the question, \"Why do the gods allow bad things to happen\"?",
+			"",
+			"The simplest explanation for this paradox is to equate divine intervention to an arms race. Were there one divinity, there would be none to question its actions or oppose its needs, but this is not the nature of the Great Beyond. Countless gods, demigods, and quasi deities exist, each of which has interests spread throughout the multiverse and across all Material Plane worlds. This means that every god, even the most secluded or non-confrontational, has competitors at best and enemies at worst. When a god takes direct action in a world, that god's opposing forces take note and react. The resulting arms race, with opposing deities taking increasingly overwhelming actions to counter each other, can swiftly spiral out of control and destroy entire worlds, at which point all the hard work of creation is, in effect, undone.",
+			"",
+			"And so the gods follow a largely self-imposed ban on direct interaction with the Material Plane. They leave their concerns and agendas in the capable hands of their faithful and allow their churches to represent the deity's interests and decide their own fates. It should be noted that this element of self-imposed non-intervention does not extend equally to the ranks of demigods. These entities, while powerful, can be defeated by the mortals whose lives they manipulate, and they do well to keep that possible fate, however unlikely, in mind."
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"planar_adventures"
+		],
+		"subtopics": [
+			"divine_power",
+			"divine_intervention",
+			"divine_gifts",
+			"faith_and_the_divine",
+			"deific_realms",
+			"the_core_pantheon"
+		],
+		"siblings": [
+			"planar_terrains",
+			"planar_races",
+			"role_of_the_divine",
+			"traits_of_a_plane",
+			"the_planes_pa",
+			"building_a_planar_campaign",
+			"planar_travel"
+		]
+	},
+	"divine_power": {
+		"name": "Divine Power",
+		"subtitle": "Planar Adventures",
+		"sources": [ "Planar Adventures" ],
+		"description": [
+			"{SOURCE Planar Adventures/70}",
+			"",
+			"There are three levels of power among the divine, although divinities of all levels wield vast power, especially when compared to a lowly mortal."
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"planar_adventures",
+			"role_of_the_divine"
+		],
+		"subtopics": [
+			"deity",
+			"demigod",
+			"quasi_deity"
+		],
+		"siblings": [
+			"divine_power",
+			"divine_intervention",
+			"divine_gifts",
+			"faith_and_the_divine",
+			"deific_realms",
+			"the_core_pantheon"
+		]
+	},
+	"deity": {
+		"name": "Deity",
+		"subtitle": "Planar Adventures",
+		"sources": [ "Planar Adventures" ],
+		"description": [
+			"{SOURCE Planar Adventures/70}",
+			"",
+			"The most powerful category among the divine are full-fledged deities. These divinities exist beyond the concept of rules, do not have stat blocks, and thus cannot be slain in simple combat. A deity can change reality, undo any mortal magic, restore or snuff out life, or do any other thing required for the story you wish to tell.",
+			"",
+			"Deities grant their clerics access to five domains."
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"planar_adventures",
+			"role_of_the_divine",
+			"divine_power"
+		],
+		"siblings": [
+			"deity",
+			"demigod",
+			"quasi_deity"
+		]
+	},
+	"demigod": {
+		"name": "Demigod",
+		"subtitle": "Planar Adventures",
+		"sources": [ "Planar Adventures" ],
+		"description": [
+			"{SOURCE Planar Adventures/70}",
+			"",
+			"Unlike a deity, a demigod is represented in game with statistics, ranging in power from CR 26 to CR 30. {family/Archdevil/s}, {family/demon lord/s}, {family/empyreal lord/s}, and {family/Great Old One/s} are all examples of demigods. A demigod who controls a planar realm can effect physical change in that realm by thought, but such changes are not instantaneous. Beyond the reach of its realm, a demigod must rely upon its own abilities and magic to effect such changes.",
+			"",
+			"Demigods grant their clerics access to four domains."
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"planar_adventures",
+			"role_of_the_divine",
+			"divine_power"
+		],
+		"siblings": [
+			"deity",
+			"demigod",
+			"quasi_deity"
+		]
+	},
+	"quasi_deity": {
+		"name": "Quasi Deity",
+		"subtitle": "Planar Adventures",
+		"sources": [ "Planar Adventures" ],
+		"description": [
+			"{SOURCE Planar Adventures/70}",
+			"",
+			"Quasi deities are the least powerful of the divine, and the most eclectic in their nature. A quasi deity has a stat block, and can be of any CR (although the vast majority lie in the CR 21-25 range). Nascent demon lords, the malebranche, and qlippoth lords are all examples of quasi deities, as are creatures like [deep one elders](monster/elder_deep_one), {monster/conqueror worm/s}, and [green men](monster/green_man), who have the ability to grant spells to clerics. Mythic characters who take the [divine source path ability](rule/universal_path_abilities) are also quasi deities.",
+			"",
+			"Quasi deities have no inborn ability to shape and alter reality by thought alone, even if they somehow gain control of a planar realm, and must rely upon their own abilities and magic to effect changes of this nature.",
+			"",
+			"A quasi deity grants from one to four domains to its clerics."
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"planar_adventures",
+			"role_of_the_divine",
+			"divine_power"
+		],
+		"siblings": [
+			"deity",
+			"demigod",
+			"quasi_deity"
+		]
+	},
+	"divine_intervention": {
+		"name": "Divine Intervention",
+		"subtitle": "Planar Adventures",
+		"sources": [ "Planar Adventures" ],
+		"description": [
+			"{SOURCE Planar Adventures/70}",
+			"",
+			"In the Pathfinder Roleplaying Game, elements of divine intervention occur when the GM steps in to change the flow of play, be it by arbitrarily assigning die roll results, reversing entire events, or even changing the nature of in-game reality, if only for a split second. The effects of a divine intervention are not bound by rules, and you can justify any sudden reversal of fortune or adjustment to reality you wish by categorizing it as divine intervention.",
+			"",
+			"This is a tool you should use only rarely - if ever - in your game. The best reason to allow divine intervention in your game is when there is no other option for party survival and you and your players wish to continue the campaign. In such cases, divine intervention can not only allow the game to continue but can instill in the characters and players alike a feeling of gratitude for the sudden unexpected salvation.",
+			"",
+			"Take care to not remove the threat of failure from your game, of course - if the players come to expect you to save their characters each and every time they fail, the suspense of the game will fade. As a general rule, divine intervention should only occur once per player per campaign, but of course you can alter this frequency as you wish to suit the preference of your table."
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"planar_adventures",
+			"role_of_the_divine"
+		],
+		"siblings": [
+			"divine_power",
+			"divine_intervention",
+			"divine_gifts",
+			"faith_and_the_divine",
+			"deific_realms",
+			"the_core_pantheon"
+		]
+	},
+	"divine_gifts": {
+		"name": "Divine Gifts",
+		"subtitle": "Planar Adventures",
+		"sources": [ "Planar Adventures" ],
+		"description": [
+			"{SOURCE Planar Adventures/71}",
+			"",
+			"The gods do not need to wait for mortals to call upon them for aid to grant boons. At times, when a character performs a particularly devout act or completes a legendary crusade, that character's deity may choose to reward her with a divine gift.",
+			"",
+			"The timing and frequency in which divine gifts are granted is left strictly to the discretion of the GM. They can be given to a particularly devout worshiper in a time of need. They might be granted upon the completion of a significant quest that furthers the faith. Or they might be rewards given in return for a significant sacrifice made in a deity's name or dedication shown to the deity. A divine gift can be granted to any creature, even to a follower of a different deity or to a creature who does not worship the divine at all. The only restriction is that a creature must be sapient in order to receive a divine gift, for a creature always has the option to refuse the gift if it so wishes - the freedom to accept or reject such a gift is part of the nature of this boon. However, at the GM's discretion, rejecting a divine gift from a deity you worship (or accepting a divine gift from a rival deity) may have repercussions.",
+			"",
+			"Divine gifts can be of any power level, but the example gifts presented in the following section focusing upon the core pantheon are all on par with effects that could be granted by a miracle spell - feel free to adjust this power level as you prefer for your home campaign. At your discretion, you can allow divine spellcasters to duplicate the effects of a divine gift (as appropriate for their deity) by casting {spell/miracle} themselves."
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"planar_adventures",
+			"role_of_the_divine"
+		],
+		"siblings": [
+			"divine_power",
+			"divine_intervention",
+			"divine_gifts",
+			"faith_and_the_divine",
+			"deific_realms",
+			"the_core_pantheon"
+		]
+	},
+	"faith_and_the_divine": {
+		"name": "Faith and the Divine",
+		"subtitle": "Planar Adventures",
+		"sources": [ "Planar Adventures" ],
+		"description": [
+			"{SOURCE Planar Adventures/71}",
+			"",
+			"Divinities have immense power and can intervene in the lives of mortal worshipers to grant miraculous boons. They can raise up realms and create life on a whim. What use, therefore, do divinities have for mortal life at all?",
+			"",
+			"One use lies in the nature of the fundamental building block of the Outer Planes - quintessence. As detailed in The River of Souls, when a mortal dies, the soul eventually merges with the material of another plane (usually after spending time as a petitioner or outsider), expanding the plane's size and counterbalancing its erosion by the Maelstrom. Thus, the very existence of the Outer Planes depends on the constant influx of souls. When a deity's religion is widespread on the Material Plane, her realm reaps direct benefits in the form of more petitioners, which can, in time, increase the overall size of the planar realm.",
+			"",
+			"But there's an even more important role that mortals play: they provide faith. When a mortal has faith in a divinity, that power increasingly ties that mortal's fate and soul to that divinity. The divinity does not directly gain power from this interaction - a deity with only one or even no worshipers can be as powerful as a deity with trillions of worshipers. A religion that is powerful and widespread, however, can expand a divinity's influence in ways that the divinity cannot, due to the fact that the divine do not directly interfere in the affairs of mortals. A deity who has legions of worshipers will see her religion spread, and that spread of faith will directly translate into an increase of souls into her realm. Deities with few or no worshipers will, over time, see their realms eaten away by the Maelstrom, their armies dwindle, and their standing among the divine fade. Faith can meet a divinity's emotional needs as well, be it the need for a self-centered deity to feel his ego bolstered, an extroverted deity to feel accepted and popular, a power-hungry deity to feel feared, or a benevolent deity to bask in the love of her children and family.",
+			"",
+			"Some deities have no interest in faith. These divinities may seek widespread destruction (such as {faith/Rovagug}, whose realm is also his prison, and who would be released into the Multiverse upon its destruction) or exist as a manifestation of the fact that all things must end (such as {faith/Groetus}, whose \"realm\" consists of his own body high above the Boneyard). And then there are the Outer Gods&mdash;divinities whose very existence predates the concept of existence as mortals understand it. Divinities like {faith/Azathoth}, {faith/Shub-Niggurath}, and {faith/Yog-Sothoth} are incalculably ancient, and they exist outside of the boundaries and restrictions of faith, souls, and the concept of quintessence entirely. Mortals still worship them, yet the Outer Gods have little interest in such worship, and in many cases these alien divinities may not even comprehend the concept of faith at all. Among the Outer Gods, only [Nyarlathotep's](faith/nyarlathotep_black_pharaoh) pursuit of faith provides a singular, ominous, and unnerving exception to this rule."
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"planar_adventures",
+			"role_of_the_divine"
+		],
+		"siblings": [
+			"divine_power",
+			"divine_intervention",
+			"divine_gifts",
+			"faith_and_the_divine",
+			"deific_realms",
+			"the_core_pantheon"
+		]
+	},
+	"deific_realms": {
+		"name": "Deific Realms",
+		"subtitle": "Planar Adventures",
+		"sources": [ "Planar Adventures" ],
+		"description": [
+			"{SOURCE Planar Adventures/72}",
+			"",
+			"A divinity gains authority over a portion of a plane in one of two ways. The first is via simple conquest. Such conflicts may involve vast armies, clever traps, devious espionage, political subterfuge, or any combination thereof. Whatever form it takes, the resulting battles and confrontations are always the stuff of legend.",
+			"",
+			"Conflict-based conquests are only rarely carried out by lawful or good divinities. The planes are vast, and for every realm currently ruled by a divinity, there are thousands, if not millions, more locations spread throughout the plane ripe for the picking. Thus, the most common method by which a divinity claims a realm on the planes is by challenging the plane itself. The divinity selects the realm it wishes to be its own, then exerts its will upon that realm and reshapes it to suit its needs. The more closely aligned a divinity is with the plane and the type of region it has chosen, the more quickly that territory transforms into a realm suited for rule.",
+			"",
+			"While a demigod's power within its realm is immense, a deity's is nigh absolute. Yet even in deities' realms, the concepts of free will and non-interference remain. Just as a divinity leaves its worshipers free to express their faith and set their own fates as they wish, it also does not oversee and police every facet of life in its realm. This means that non-worshipers, or even enemies of a faith, can travel through a deity's planar realm without fear of immediate reprisal. A paladin among a group of adventurers on a mission into {faith/Lamashtu/'s} realm in the Abyss will likely feel unwelcome and meet strong resistance from that region's denizens, but would not need to fear direct punishment from Lamashtu herself. Likewise, a devil-worshiping priest who infiltrates an enclave of azatas in {faith/Cayden Cailean/'s} realm in Elysium to chase down an escaped petitioner from the pits of Hell would not be immediately crushed by the offended god. Only in the most significant of incursions or when a divinity is directly called out or confronted will a deity or demigod take note - and even then, the most common response would be to send a powerful minion to handle the situation."
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"planar_adventures",
+			"role_of_the_divine"
+		],
+		"siblings": [
+			"divine_power",
+			"divine_intervention",
+			"divine_gifts",
+			"faith_and_the_divine",
+			"deific_realms",
+			"the_core_pantheon"
+		]
+	},
+	"the_core_pantheon": {
+		"name": "The Core Pantheon",
+		"subtitle": "Planar Adventures",
+		"sources": [ "Planar Adventures" ],
+		"description": [
+			"{SOURCE Planar Adventures/73}",
+			"",
+			"The most significant deities of the Inner Sea region are the 20 presented in the Pathfinder RPG Core Rulebook. In a setting of your own design, the most powerful and prominent deities are entirely up to you. Regardless of which deities hold sway in your setting, you should take the time to design and detail your chosen pantheon of gods and goddesses, both as individuals and as a group. The following section summarizes this information for each deity in the core pantheon, to provide players of characters (and GMs of NPCs) who worship one of these deities more information for roleplaying."
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"planar_adventures",
+			"role_of_the_divine"
+		],
+		"subtopics": [ "reading_a_deity_stat_block" ],
+		"siblings": [
+			"divine_power",
+			"divine_intervention",
+			"divine_gifts",
+			"faith_and_the_divine",
+			"deific_realms",
+			"the_core_pantheon"
+		]
+	},
+	"reading_a_deity_stat_block": {
+		"name": "Reading a Deity Stat Block",
+		"subtitle": "Planar Adventures",
+		"sources": [ "Planar Adventures" ],
+		"description": [
+			"{SOURCE Planar Adventures/73}",
+			"",
+			"Each of the core pantheon's deities are presented in stat block format for ease of reference.",
+			"",
+			"@HL[Name and Title:] The deity's name and its common title.",
+			"",
+			"@HL[Alignment, Gender, and Areas of Concern:] The gender of a deity is indicated by use of \"god\" or \"goddess\" in this entry. A deity's areas of concern represent those aspects of reality in which it has the most interest and influence.",
+			"",
+			"@HL[Realm:] This entry gives the name of the deity's realm, followed by the plane on which that realm is located.",
+			"",
+			"@HL[Allies:] This entry lists deities among the core pantheon who have allied with the god or goddess in question.",
+			"",
+			"@HL[Relations:] If the deity is related in some way to another deity of the core pantheon, that information is presented here. Although many deities are related to deities or demigods outside the core pantheon, those relationships may not be listed. A special relationship that deserves additional clarification is \"ascended sibling.\" Three of the core deities ({faith/Cayden Cailean}, {faith/Iomedae}, and {faith/Norgorber}) ascended from mortality via a harrowing quest known as the Test of the Starstone, and while these three deities are often at odds, they share an unshakable bond in that all three became deities in the same way.",
+			"",
+			"@HL[Enemies:] This entry lists deities among the core pantheon who are active enemies to the god or goddess in question.",
+			"",
+			"@HL[Symbol:] A description of the deity's symbol.",
+			"",
+			"@HL[Temples:] This describes typical places of worship.",
+			"",
+			"@HL[Sacred Animal:] With the exception of {faith/Gozreh} (whose faith holds all animals as sacred), each of the core deities' faiths holds a specific animal as particularly sacred. A deity's sacred animal often appears with the deity in artistic depictions, and some are kept as pets or guardians on temple grounds.",
+			"",
+			"@HL[Sacred Colors:] With the exception of {faith/Shelyn} (whose faith sees beauty and sacred significance in all colors), worshipers of the core pantheon typically associate two colors as sacred for each deity. These colors are typically incorporated into holy raiment or clothing worn by worshipers.",
+			"",
+			"@HL[Holy Days:] The days listed here are held as particularly sacred by the faith, and reasons for each day's significance to the faith along with the time of year at which the holy day occurs are listed in parentheses. Most faiths maintain several less important or regional holy days as well, but these are not listed here. These dates are listed using real-world days and months to avoid confusion. The names of days and months can vary in your campaign, as they do in the world of Golarion.",
+			"",
+			"@HL[Domains, Subdomains:] The domains and subdomains the deity grants to its clerics are listed here.",
+			"",
+			"@HL[Favored Weapon:] This lists the deity's favored weapon.",
+			"",
+			"@HL[Worshipers:] The worshipers listed here are the most common agents of the deity in question, but this list is not exhaustive. Because all 20 faiths count clerics, inquisitors, oracles, and warpriests among their worshipers, these four classes are not listed so as to avoid repetition.",
+			"",
+			"@HL[Minions:] As opposed to those that typically worship the deity, minions are the outsider races that often serve the deity. A deity's minions can often be encountered in temples and other places sacred to the deity, but more often they enter play when a worshiper of the deity calls upon one of the minions using magic like {spell/summon monster>_1} or {spell/planar ally}.",
+			"",
+			"@HL[Herald:] This lists the name of the deity's herald. A deity's herald is a unique creature who serves as a messenger and emissary. Heralds are typically CR 15 with 18 or fewer Hit Dice, making them available via {spell/greater planar ally} ({faith/Rovagug/'s} herald, the {monster/Tarrasque}, is a significant exception to this rule).",
+			"",
+			"@HL[Divine Gift:] These gifts are thematically appropriate boons the deity might grant, but are certainly not the only types of gifts the deity might hand out. Unless otherwise noted, any abilities granted by a divine gift can be used only once per gift.",
+			"",
+			"Deities and faiths can be found [here](main/faiths)."
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"planar_adventures",
+			"role_of_the_divine",
+			"the_core_pantheon"
+		],
+		"siblings": [ "reading_a_deity_stat_block" ]
+	},
+	"traits_of_a_plane": {
+		"name": "Traits of a Plane",
+		"subtitle": "Planar Adventures",
+		"sources": [ "Planar Adventures" ],
+		"description": [
+			"{SOURCE Planar Adventures/58}",
+			"",
+			"Reality is not the constant a rational creature might like to think it is. Even on different worlds of the Material Plane, fundamental aspects of life vary - planets can have lower or higher gravity, atmospheres that are poisonous for most species to breathe, or other deviations from what might be considered normal.",
+			"",
+			"These deviations expand greatly when traveling in the Great Beyond, for as you leave the Material Plane, you leave behind many of the constants of our reality. Each and every plane defines its own reality, and in some cases this reality is far from stable on its own. Aspects like the nature of gravity, the flow of time, and the size and shape of the region can vary wildly. On some planes, not even the gods can effect change, while on others, thoughts spring to truth and reality itself is alive. Even philosophical ideals like good or evil or the underlying nature of magic itself can become warped or physically manifest in such outlandish regions.",
+			"",
+			"There are seven categories of traits that summarize the nature of reality within each realm of existence: gravity, time, realm, structural, essence, alignment, and magic."
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"planar_adventures"
+		],
+		"subtopics": [
+			"gravity_traits_pa",
+			"time_traits_pa",
+			"realm_traits",
+			"structural_traits",
+			"essence_traits",
+			"alignment_traits_pa",
+			"magic_traits_pa"
+		],
+		"siblings": [
+			"planar_terrains",
+			"planar_races",
+			"role_of_the_divine",
+			"traits_of_a_plane",
+			"the_planes_pa",
+			"building_a_planar_campaign",
+			"planar_travel"
+		]
+	},
+	"gravity_traits_pa": {
+		"name": "Gravity Traits",
+		"subtitle": "Planar Traits, Adventures",
+		"sources": [ "Planar Adventures" ],
+		"description": [
+			"{SOURCE Planar Adventures/58}",
+			"",
+			"The direction of gravity's pull may be unexpected, and it might even change directions on the plane.",
+			"",
+			"### Normal Gravity",
+			"",
+			"Most planes have gravity similar to that of the Material Plane, either in that the plane consists of planets with their own gravitational fields or in that the plane consists of a single domain where \"down\" is always in the same direction: toward the ground. On these planes, the usual rules for physical ability scores, carrying capacity, and encumbrance apply.",
+			"",
+			"### Heavy Gravity",
+			"",
+			"The gravity on a plane with this trait is much more intense than on the Material Plane. As a result, Acrobatics, Climb, Ride, and Swim checks incur a -2 penalty, as do all attack rolls. Item weights are effectively doubled, which might affect a character's encumbrance or speed. Weapon ranges are halved. Characters who fall on a heavy gravity plane take 1d10 points of damage for each 10 feet fallen, to a maximum of 20d10 points of damage.",
+			"",
+			"### Light Gravity",
+			"",
+			"The gravity on a plane with this trait is less intense than on the Material Plane. Characters on a plane with the light gravity trait take a +2 circumstance bonus on attack rolls and on Acrobatics and Ride checks. All items weigh half as much, and weapon ranges double. These advantages apply to travelers from other planes as well as natives. Falling characters on a light gravity plane take only 1d4 points of damage for each 10 feet fallen (to a maximum of 20d4).",
+			"",
+			"### No Gravity",
+			"",
+			"Individuals on a plane with this trait merely float in space, unless other effects provide a direction for gravity's pull. Flight is the most common mode of transport here.",
+			"",
+			"### Objective Directional Gravity",
+			"",
+			"The strength of gravity on a plane with this trait is the same as on the Material Plane, but the direction is not the traditional \"down\" toward the ground. It may pull toward any solid object, at an angle to the surface of the plane (creating a plane that appears to consist entirely of an unending mountainside, for example), or even upward.",
+			"",
+			"### Subjective Directional Gravity",
+			"",
+			"The strength of gravity on a plane with this trait is the same as on the Material Plane, but each individual chooses the direction of gravity's pull for herself. Such a plane has no gravity for unattended objects and nonsentient creatures.",
+			"",
+			"Characters on a plane with subjective directional gravity can move normally along a solid surface by imagining \"down\" below their feet. If suspended in midair, a character \"flies\" by merely choosing a \"down\" direction and \"falling\" that way. An individual falls 150 feet in the first round and 300 feet in each succeeding round. Movement is straight-line only. To stop, a character must change the designated \"down\" direction to counteract her fall, reducing her falling speed by one step (from 300 feet to 150 feet, or from 150 feet to 0 feet) each round.",
+			"",
+			"Setting a new direction of gravity takes a free action and requires a successful DC 16 Wisdom check; a character can attempt this check once per round. A character who fails this Wisdom check receives a +6 bonus on subsequent checks until she succeeds."
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"planar_adventures",
+			"traits_of_a_plane"
+		],
+		"siblings": [
+			"gravity_traits_pa",
+			"time_traits_pa",
+			"realm_traits",
+			"structural_traits",
+			"essence_traits",
+			"alignment_traits_pa",
+			"magic_traits_pa"
+		]
+	},
+	"time_traits_pa": {
+		"name": "Time Traits",
+		"subtitle": "Planar Traits, Adventures",
+		"sources": [ "Planar Adventures" ],
+		"description": [
+			"{SOURCE Planar Adventures/59}",
+			"",
+			"The passage of time is always subjective for the viewer. This subjectivity applies to various planes: travelers may discover that they gain or lose time while moving between planes, but from their point of view, time always passes normally.",
+			"",
+			"### Normal Time",
+			"",
+			"This is the baseline for time flow, and describes the passage of time on the Material Plane; 1 hour on a plane with normal time equals 1 hour on the Material Plane.",
+			"",
+			"### Erratic Time",
+			"",
+			"Some planes have time that slows down and speeds up, so an individual may lose or gain time as he moves between such planes and any others. To creatures present on such a plane, time flows normally and the shifts are unnoticed. The following is provided as an example of how time on a plane with erratic time might compare to time on the Material Plane.",
+			"",
+			"| d% | Time on Material Plane | Time on Erratic Time Plane |",
+			"| --- | --- | --- |",
+			"| 01-10 | 1 day | 1 round |",
+			"| 11-40 | 1 day | 1 hour |",
+			"| 41-60 | 1 day | 1 day |",
+			"| 61-90 | 1 hour | 1 day |",
+			"| 91-100 | 1 round | 1 day |",
+			"",
+			"### Flowing Time",
+			"",
+			"On some planes, the flow of time is consistently faster or slower. An individual may spend a year on such a plane and then return to the Material Plane to find that only 6 seconds have elapsed. When indicating how time works on planes with flowing time, the Material Plane's flow of time is listed first, followed by the flow in the other plane.",
+			"",
+			"### Timeless",
+			"",
+			"On planes with this trait, time still passes but the effects of time are diminished. How the timeless trait affects certain activities or conditions such as hunger, thirst, aging, afflictions, and healing varies from plane to plane. The danger of a timeless plane is that once an individual leaves such a plane for one where time flows normally, conditions such as hunger and aging apply retroactively. If a plane is timeless with respect to magic, any spell cast with a duration other than instantaneous is permanent until dispelled."
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"planar_adventures",
+			"traits_of_a_plane"
+		],
+		"siblings": [
+			"gravity_traits_pa",
+			"time_traits_pa",
+			"realm_traits",
+			"structural_traits",
+			"essence_traits",
+			"alignment_traits_pa",
+			"magic_traits_pa"
+		]
+	},
+	"realm_traits": {
+		"name": "Realm Traits",
+		"subtitle": "Planar Traits, Adventures",
+		"sources": [ "Planar Adventures" ],
+		"description": [
+			"{SOURCE Planar Adventures/59}",
+			"",
+			"Planes come in a variety of sizes and shapes. Many planes are so large that they may as well be infinite in size, while others (particularly in the case of demiplanes) can be quite small. Regardless of a plane's size and shape, it conforms to one of three realm traits.",
+			"",
+			"### Finite",
+			"",
+			"A plane with this trait has defined edges or borders. These borders may adjoin other planes or may be hard, finite borders such as the edge of the world or a great wall. Demiplanes are often finite.",
+			"",
+			"### Immeasurable",
+			"",
+			"Planes with this trait might seem to go on forever, and indeed many are so vast that, for all practical purposes, their size is infinite. The Material Plane consists of the entire universe - an expanse so truly vast in scope that it is close enough to being immeasurable to qualify for this trait. Similarly, while the Outer Sphere has a static size, it is so unimaginably vast that it cannot be measured or traversed without powerful magic.",
+			"",
+			"### Unbounded",
+			"",
+			"On planes with this trait, the borders wrap in on themselves, depositing a traveler who voyages too far onto the other side of the map. Unbounded planes can be spheres, cubes, tori, or flat expanses with magical edges that teleport the traveler to the opposite edge when she crosses them."
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"planar_adventures",
+			"traits_of_a_plane"
+		],
+		"siblings": [
+			"gravity_traits_pa",
+			"time_traits_pa",
+			"realm_traits",
+			"structural_traits",
+			"essence_traits",
+			"alignment_traits_pa",
+			"magic_traits_pa"
+		]
+	},
+	"structural_traits": {
+		"name": "Structural Traits",
+		"subtitle": "Planar Traits, Adventures",
+		"sources": [ "Planar Adventures" ],
+		"description": [
+			"{SOURCE Planar Adventures/60}",
+			"",
+			"The underlying rules of reality that govern how the denizens and landscape of a plane function are described by a plane's structural traits. Regardless of the nature of a plane's structural traits, all planes can be altered on a whim by a deity's will to a certain extent; this ability to change reality is greatest within the boundaries of a deity's planar realm. Demigods have a lesser ability to effect such change and are limited to changing only their own planar realms. See {rule/Divine Power} for more details.",
+			"",
+			"### Lasting Structure",
+			"",
+			"On a plane with this trait, objects remain where they are (and what they are) unless affected by physical force or magic. Anyone can change the immediate environment as a result of tangible effort.",
+			"",
+			"### Morphic Structure",
+			"",
+			"A plane with morphic structure behaves similarly to a plane with a lasting structure, but its realities and physicality can be changed with ease even by non-divine beings. When a plane has morphic structure, additional details for how that manifests are provided in the entry.",
+			"",
+			"### Sentient Structure",
+			"",
+			"These planes respond to a single entity's thoughts - those of the plane itself. Travelers might find the plane's landscape changing as a result of what the plane thinks of the travelers, becoming either more or less hospitable depending on its reaction. The influence of a deity or demigod can sometimes supersede the plane's whims, but in most cases a sentient plane constantly works to erode and transform such unwanted intrusions into its structure.",
+			"",
+			"### Static Structure",
+			"",
+			"Static planes are unchanging, or they reset once change occurs. Visitors cannot affect living residents of the plane or objects that the denizens carry in any lasting way. Spells that would affect the plane or its denizens have no effect unless the plane's static trait is somehow removed or suppressed. Spells cast before entering a plane with the static trait remain in effect, however. Even moving an unattended object within a static plane requires a successful DC 16 Strength check. Particularly heavy objects may be impossible to move. Often, a plane with the static trait has a duration listed - this is the amount of time that any change can persist before the plane's reality resets."
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"planar_adventures",
+			"traits_of_a_plane"
+		],
+		"siblings": [
+			"gravity_traits_pa",
+			"time_traits_pa",
+			"realm_traits",
+			"structural_traits",
+			"essence_traits",
+			"alignment_traits_pa",
+			"magic_traits_pa"
 		]
 	}
 }

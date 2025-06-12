@@ -396,6 +396,15 @@ div.main.basicContent h6 a {
 	border-style: solid;
 	border-color: var(--ion-text-color);
 }
+.hasStatblock p.statblockHeader *,
+.hasStatblock p.statblockHeaderFull * {
+	/*
+		This is making a weird fading issue on page load... sometimes.
+		I don't think jumplists (the thing that needs transitions) ever
+		  point to these headers, so it's safe to remove them here.
+	*/
+	transition: none;
+}
 .hasStatblock p.statblockSubHeader {
 	letter-spacing: 0.1rem;
 	font-weight: normal;
@@ -408,6 +417,17 @@ div.main.basicContent h6 a {
 }
 .hasStatblock p.statblockHeader {
 	letter-spacing: 0.1rem;
+}
+.hasStatblock p.statblockHeader.withSub {
+	margin-block-end: 0.25rem;
+}
+.hasStatblock div.sub {
+	font-size: 1.15rem;
+	font-weight: bold;
+	padding-block-start: 0;
+}
+.hasStatblock div.indent {
+	text-indent: 1rem;
 }
 
 /* General tables */
