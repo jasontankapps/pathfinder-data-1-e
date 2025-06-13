@@ -1442,7 +1442,7 @@
 			"",
 			"**Bloodline Powers:** Your psychic powers make you a master mentalist, but your soul struggles with the urge to transcend into a pure thoughtform.",
 			"",
-			">*Psychic Strike (Su):* At 1st level, you can overwhelm the minds of those nearby. You can target one creature within 30 feet that you can see; that creature must succeed at a Will saving throw (DC = 10 + 1/2 your sorcerer level + your Charisma modifier) or it takes 1d6 points of damage + 1 point for every 2 sorcerer levels you possess and becomes shaken for 1 round. You can use this ability a number of times per day equal to 3 + your Charisma modifier.",
+			">*Psychic Strike (Su):* At 1st level, you can overwhelm the minds of those nearby. You can target one creature within 30 feet that you can see; that creature must succeed at a Will saving throw (DC = 10 + 1/2 your sorcerer level + your Charisma modifier) or it takes 1d6 points of damage + 1 point for every 2 sorcerer levels you possess and becomes {misc/shaken} for 1 round. You can use this ability a number of times per day equal to 3 + your Charisma modifier.",
 			">",
 			">*Mental Resistance (Ex):* At 3rd level, your mind blocks attempts to assail it. You gain a +2 bonus on saving throws against mind-affecting effects. At 9th level, this bonus increases to +4.",
 			">",

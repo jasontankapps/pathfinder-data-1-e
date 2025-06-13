@@ -2307,8 +2307,8 @@
 			"{SOURCE Ultimate Magic/154}",
 			"",
 			"You know how to preserve and reconstitute extraplanar monsters as well as normal animals.  ",
-			"**Prerequisites:** Preservationist alchemist archetype.  ",
-			"**Benefit:** For every summon nature's ally extract you know, you learn the equivalent summon monster spell as an extract. If you later learn other summon nature's ally extracts, you automatically learn the equivalent summon monster spell as an extract."
+			"**Prerequisites:** {arc-alchemist/Preservationist} alchemist archetype.  ",
+			"**Benefit:** For every {spell/summon nature's ally>_1} extract you know, you learn the equivalent {spell/summon monster>_1} spell as an extract. If you later learn other *summon nature's ally* extracts, you automatically learn the equivalent *summon monster* spell as an extract."
 		]
 	},
 	"planar_sensitivity": {
@@ -2326,9 +2326,9 @@
 			"",
 			"### Gatefinder (Perception)",
 			"",
-			"You can notice soulgates compatible with your alignment.",
+			"You can notice [soulgates](rule/planar_travel) compatible with your alignment.",
 			"",
-			"**Check:** You are familiar with soulgates and might notice those with an alignment matching your own. To notice a soulgate that you're not already familiar with, you must succeed at a DC 20 Perception check - this DC could be higher if the portal is obscured or damaged, or at the GM's discretion. If the soulgate shares your exact alignment, you gain a +5 bonus on your check to notice the portal, feeling an instinctual draw toward it. If your alignment and the portal's share none of the same components, you take a -5 penalty on your check to notice the portal. If your alignment is neutral with no other alignment components, you take no penalties on checks to find soulgates.",
+			"**Check:** You are familiar with soulgates and might notice those with an alignment matching your own. To notice a soulgate that you're not already familiar with, you must succeed at a DC 20 {skill/Perception} check - this DC could be higher if the portal is obscured or damaged, or at the GM's discretion. If the soulgate shares your exact alignment, you gain a +5 bonus on your check to notice the portal, feeling an instinctual draw toward it. If your alignment and the portal's share none of the same components, you take a -5 penalty on your check to notice the portal. If your alignment is neutral with no other alignment components, you take no penalties on checks to find soulgates.",
 			"",
 			"For example, a lawful good character would gain a +5 bonus on her Perception checks to find lawful good soulgates, but would take a -5 penalty on checks to find chaotic evil, chaotic neutral, and neutral evil soulgates, as she has no chaotic, neutral, or evil components to her alignment. A neutral character, however, gains a +5 bonus on checks to find neutral gates, but gains no bonus on checks to find chaotic neutral, lawful neutral, neutral good, and neutral evil soulgates. Additionally, she takes no penalty on checks to notice chaotic good, chaotic evil, lawful good, or lawful evil soulgates.",
 			"",
@@ -2338,9 +2338,9 @@
 			"",
 			"You can attempt to open soulgates compatible with your alignment.",
 			"",
-			"**Check:** Once you are aware of a soulgate, you can use your knowledge of the planes and your place as a child of the multiverse to attempt to open the portal. This attempt takes 1 minute to perform. The DC of the Knowledge (planes) check to open a soulgate is 30. If your alignment perfectly matches that of the soulgate, you gain a +5 bonus on this check. You can also attempt to open a soulgate with an alignment that is within one step of your own. However, unless you are neutral, you cannot open a soulgate with an alignment two or more steps away from your own.",
+			"**Check:** Once you are aware of a soulgate, you can use your knowledge of the planes and your place as a child of the multiverse to attempt to open the portal. This attempt takes 1 minute to perform. The DC of the {skill/Knowledge (planes)} check to open a soulgate is 30. If your alignment perfectly matches that of the soulgate, you gain a +5 bonus on this check. You can also attempt to open a soulgate with an alignment that is within one step of your own. However, unless you are neutral, you cannot open a soulgate with an alignment two or more steps away from your own.",
 			"",
-			"For example, a lawful evil character would gain a +5 bonus on her attempt to open a soulgate connecting the Material Plane to Hell (lawful evil) or other planes of lawful evil alignment. She can also attempt to open soulgates to Abaddon (neutral evil), Axis (lawful neutral), and other planes that share those planes' alignments, because their alignments are one step away from lawful evil. She can never open a soulgate to the Abyss (chaotic evil), the Boneyard (neutral), Elysium (chaotic good), Heaven (lawful good), the Maelstrom (chaotic neutral), Nirvana (neutral good), or any other plane with those alignments.",
+			"For example, a lawful evil character would gain a +5 bonus on her attempt to open a soulgate connecting the Material Plane to {rule/Hell} (lawful evil) or other planes of lawful evil alignment. She can also attempt to open soulgates to {rule/Abaddon} (neutral evil), {rule/Axis} (lawful neutral), and other planes that share those planes' alignments, because their alignments are one step away from lawful evil. She can never open a soulgate to {rule/the Abyss} (chaotic evil), {rule/the Boneyard} (neutral), {rule/Elysium} (chaotic good), {rule/Heaven} (lawful good), the {rule/Maelstrom} (chaotic neutral), {rule/Nirvana} (neutral good), or any other plane with those alignments.",
 			"",
 			"If your alignment is neutral with no other alignment components, you can open soulgates with an alignment two steps away from your own, but you take a -10 penalty on attempts to do so.",
 			"",
@@ -2370,7 +2370,7 @@
 			"",
 			"The confines of the Material Plane cannot sate your wanderlust, and you walk between alternate spheres of reality unhindered.  ",
 			"**Prerequisites:** You must be related to an outsider or have been born on a plane other than the Material Plane.  ",
-			"**Benefit:** You gain a +2 bonus on Survival checks when outside your home plane. You can identify portals and other planar connections as well as where they lead by sight or touch with a successful DC 20 Perception check.  ",
+			"**Benefit:** You gain a +2 bonus on Survival checks when outside your home plane. You can identify {rule/portals and other |planar /connections>travel} as well as where they lead by sight or touch with a successful DC 20 Perception check.  ",
 			"**Goal:** Spend at least 24 consecutive hours on three different planes of existence other than your home plane or more than a month on a single plane other than your home plane. Demiplanes do not count for the purposes of fulfilling this goal.  ",
 			"**Completion Benefit:** Whenever you cast a spell or use a magic item to travel to another plane, you always arrive exactly where you had intended. In addition, when identifying portals with the first benefit of this feat, you gain a glimpse of what you would see, hear, and smell upon arriving on the other end of the portal.",
 			"",
@@ -2381,13 +2381,13 @@
 			"| d8 | Quest |",
 			"| --- | --- |",
 			"| 1 | Your morbid curiosity urges you to journey through the Worldwound, either to contact or combat what impossible fiendish entities no doubt lurk beyond. |",
-			"| 2 | Several weak points exist between the forested realms of the River Kingdoms and the plane known as the First World. You seek to learn the mysteries of that realm's strange fey inhabitants. |",
-			"| 3 | Ancient relics imply connections between the fallen Empire of Thassilon and the nightmare realm of Leng. |",
-			"| 4 | The wealth of mortal cities pales in comparison to that of the fabled City of Brass on the Plane of Fire. You intend to seize at least a part of the metropolis's incredible wealth for yourself. |",
-			"| 5 | You have always been fascinated by death. Now, you wish to travel to its kingdom, the Boneyard, in life, either to rescue another soul from an uncertain fate or to learn of your own destiny. |",
-			"| 6 | You have resolved to reach Hell's vast fortress-capital Dis, where the magical treasures of Hell are available for a price. |",
-			"| 7 | In Axis, the city of perfect order, you hope to scale the crystal spires where the laws of reality are carved so that you might understand or, perhaps, change them. |",
-			"| 8 | The Immortal Ambulatory drifts among countless planes, allowing those who can reach the demiplane to visit many other realities. Perhaps by going there you can resolve long-unanswered questions regarding dragons and the nature of the multiverse. |"
+			"| 2 | Several weak points exist between the forested realms of the River Kingdoms and the plane known as the {rule/First World}. You seek to learn the mysteries of that realm's strange fey inhabitants. |",
+			"| 3 | Ancient relics imply connections between the fallen Empire of Thassilon and the nightmare realm of {rule/Leng}. |",
+			"| 4 | The wealth of mortal cities pales in comparison to that of the fabled City of Brass on the {rule/Plane of Fire}. You intend to seize at least a part of the metropolis's incredible wealth for yourself. |",
+			"| 5 | You have always been fascinated by death. Now, you wish to travel to its kingdom, {rule/the Boneyard}, in life, either to rescue another soul from an uncertain fate or to learn of your own destiny. |",
+			"| 6 | You have resolved to reach {rule/Hell/'s} vast fortress-capital Dis, where the magical treasures of Hell are available for a price. |",
+			"| 7 | In {rule/Axis}, the city of perfect order, you hope to scale the crystal spires where the laws of reality are carved so that you might understand or, perhaps, change them. |",
+			"| 8 | The [Immortal Ambulatory](rule/eleven_minor_demiplanes) drifts among countless planes, allowing those who can reach the demiplane to visit many other realities. Perhaps by going there you can resolve long-unanswered questions regarding dragons and the nature of the multiverse. |"
 		]
 	},
 	"planar_wanderer": {
@@ -2399,8 +2399,8 @@
 			"{SOURCE Ultimate Intrigue/88}",
 			"",
 			"Your knowledge of the planes and teleportation allows you to travel with more precision.  ",
-			"**Prerequisites:** {feat/Cartogramancer}, Knowledge (geography) 10 ranks, Knowledge (planes) 10 ranks, ability to cast greater teleport and plane shift.  ",
-			"**Benefit:** When researching a plane to which you intend to plane shift, you can attempt a DC 25 Knowledge (planes) check as you cast the spell. If you succeed at the check, you're able to more precisely target your planar transport, allowing you to arrive 5d20 miles away from your intended destination instead of 5d% miles away. If you exceed the DC by 10 or more, you arrive 5d10 miles away instead, and if you exceed the DC by 20 or more, you arrive 5d6 miles away."
+			"**Prerequisites:** {feat/Cartogramancer}, Knowledge (geography) 10 ranks, Knowledge (planes) 10 ranks, ability to cast {spell/greater teleport} and {spell/plane shift}.  ",
+			"**Benefit:** When researching a plane to which you intend to *plane shift,* you can attempt a DC 25 Knowledge (planes) check as you cast the spell. If you succeed at the check, you're able to more precisely target your planar transport, allowing you to arrive 5d20 miles away from your intended destination instead of 5d% miles away. If you exceed the DC by 10 or more, you arrive 5d10 miles away instead, and if you exceed the DC by 20 or more, you arrive 5d6 miles away."
 		]
 	},
 	"planar_wild_shape": {
@@ -2413,7 +2413,7 @@
 			"",
 			"You can infuse your wild shape with planar strength.  ",
 			"**Prerequisites:** Wild shape class feature, Knowledge (planes) 5 ranks.  ",
-			"**Benefit:** When you use wild shape to take the form of an animal, you can expend an additional daily use of your wild shape class feature to add the celestial template or fiendish template to your animal form. (Good druids must use the celestial template, while evil druids must use the fiendish template.) If your form has the celestial template and you score a critical threat against an evil creature while using your form's natural weapons, you gain a +2 bonus on the attack roll to confirm the critical hit. The same bonus applies if your form has the fiendish template and you score a critical threat against a good creature."
+			"**Benefit:** When you use wild shape to take the form of an animal, you can expend an additional daily use of your wild shape class feature to add the {template/celestial} template or {template/fiendish} template to your animal form. (Good druids must use the celestial template, while evil druids must use the fiendish template.) If your form has the celestial template and you score a critical threat against an evil creature while using your form's natural weapons, you gain a +2 bonus on the attack roll to confirm the critical hit. The same bonus applies if your form has the fiendish template and you score a critical threat against a good creature."
 		]
 	},
 	"planewalkers_insight": {
@@ -2425,7 +2425,7 @@
 			"{SOURCE Planar Adventures/31}",
 			"",
 			"You are well versed in the lore of the planes and the psychology of their natives.  ",
-			"**Benefit:** You gain a +2 bonus on Knowledge (planes) checks and on Sense Motive checks against outsiders, and Knowledge (planes) is a class skill for you. If you have 10 or more ranks in either of these skills, the bonus for that skill increases to +4. These bonuses do not stack with those granted by the Alertness or Scholar feats."
+			"**Benefit:** You gain a +2 bonus on Knowledge (planes) checks and on Sense Motive checks against outsiders, and Knowledge (planes) is a class skill for you. If you have 10 or more ranks in either of these skills, the bonus for that skill increases to +4. These bonuses do not stack with those granted by the {feat/Alertness} or {feat/Scholar} feats."
 		]
 	},
 	"planned_spontaneity": {
@@ -2452,7 +2452,7 @@
 			"",
 			"You can glean the interests of others and use that information to strengthen your rhetoric.  ",
 			"**Prerequisites:** Int 19, {feat/Ironclad Logic}, Diplomacy 5 ranks, Sense Motive 5 ranks.  ",
-			"**Benefit:** When you use Diplomacy to change the attitude of a character, you can first attempt a Sense Motive check against that NPC to get a hunch to determine whether the character is under the influence of an enchantment, to use Sense Assumptions, or to determine biases for a verbal duel. If you succeed at the Sense Motive check, you gain a +2 bonus on the Diplomacy check, and if you learned any biases for a verbal duel, you learn one additional bias of your choice. You do not worsen an NPC's attitude if you fail a Diplomacy check by 5 or more."
+			"**Benefit:** When you use Diplomacy to change the attitude of a character, you can first attempt a Sense Motive check against that NPC to get a hunch to determine whether the character is under the influence of an enchantment, to use {feat/Sense Assumptions}, or to determine biases for a {rule/verbal duel>s}. If you succeed at the Sense Motive check, you gain a +2 bonus on the Diplomacy check, and if you learned any biases for a verbal duel, you learn one additional bias of your choice. You do not worsen an NPC's attitude if you fail a Diplomacy check by 5 or more."
 		]
 	},
 	"point_blank_master": {
@@ -2470,7 +2470,7 @@
 			"**Prerequisites:** {feat/Weapon Specialization} with selected ranged weapon.  ",
 			"**Benefit:** Choose one type of ranged weapon. You do not provoke attacks of opportunity when firing the selected weapon while threatened.  ",
 			"**Normal:** Using a ranged weapon while you are threatened provokes attacks of opportunity.  ",
-			"**Special:** Starting at 6th level, a ranger with the archery combat style may select Point Blank Master as a combat style feat, but he must have {feat/Weapon Focus} instead of Weapon Specialization in the selected weapon.",
+			"**Special:** Starting at 6th level, a ranger with the archery {ability/combat style>s} may select Point Blank Master as a combat style feat, but he must have {feat/Weapon Focus} instead of Weapon Specialization in the selected weapon.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/129}",
@@ -2517,7 +2517,7 @@
 			"",
 			"Your armor's weight gives you stable footing.  ",
 			"**Prerequisites:** Base attack bonus +6 or fighter level 4th, armor training class feature, proficiency with medium or heavy armor.  ",
-			"**Benefit:** You treat your size as one category larger for the purposes of determining the size of creatures against which you can attempt bull rush, drag, overrun, and trip combat maneuvers.",
+			"**Benefit:** You treat your size as one category larger for the purposes of determining the size of creatures against which you can attempt {rule/bull rush}, {rule/drag}, {rule/overrun}, and {rule/trip} combat maneuvers.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Armor Master's Handbook/21}",
@@ -2561,7 +2561,7 @@
 			"",
 			"You can specially prepare bullets to deliver poisons that are normally used more subtly.  ",
 			"**Prerequisites:** {feat/Amateur Gunslinger} or grit class feature.  ",
-			"**Benefit:** You can spend 1 grit point to load your firearm with 1 dose of inhaled or ingested poison as a move action. This action has no chance of exposing you to the poison (as if you had the poison use class feature). Shooting a firearm loaded with a poison in this manner is a standard action that provokes attacks of opportunity and sprays out the poison in a 15-foot cone. Any creatures caught in the blast take no damage but are exposed to this poison and must each immediately attempt a save against the poison as though the onset time had elapsed."
+			"**Benefit:** You can spend 1 grit point to load your firearm with 1 dose of inhaled or ingested poison as a move action. This action has no chance of exposing you to the poison (as if you had the {ability/poison use} class feature). Shooting a firearm loaded with a poison in this manner is a standard action that provokes attacks of opportunity and sprays out the poison in a 15-foot cone. Any creatures caught in the blast take no damage but are exposed to this poison and must each immediately attempt a save against the poison as though the onset time had elapsed."
 		]
 	},
 	"poisoners_channel": {
@@ -2587,7 +2587,7 @@
 			"",
 			"Your familiar can speak with animals other than those of its own kind.  ",
 			"**Prerequisites:** Must have a familiar.  ",
-			"**Benefit:** Choose a category of creature: amphibians, birds, felines, invertebrates, reptiles, rodents, simians, or vermin. Your familiar can speak with creatures of that kind.  ",
+			"**Benefit:** Choose a category of creature: amphibians, birds, felines, invertebrates, reptiles, rodents, simians, or vermin. Your {ability/familiar} can speak with creatures of that kind.  ",
 			"**Special:** This feat can be taken multiple times, choosing a different category of creature each time. The first time you take this feat, if your familiar can't already speak with creatures of its kind, you must choose that category of creature. If your familiar later gains the ability to speak with creatures of its kind, you can choose to apply this feat's benefits to a different category of creature instead."
 		]
 	},
@@ -2606,7 +2606,7 @@
 			"You are granted a small bit of divine power as a result of your veneration of a pantheon of deities.  ",
 			"**Prerequisites:** Wis 13, must worship a pantheon.  ",
 			"**Benefit:** When you take this feat, select a pantheon from the list below. You gain the listed spell-like ability for your selected pantheon, usable once per day. If the granted spell allows a saving throw, the DC is equal to 10 + 1/2 your character level + your Charisma modifier.  ",
-			"**Special:** If you act out of line with the tenets of your pantheon's beliefs, you lose the ability to cast the granted spell-like ability until you have received an atonement for your transgression (as a cleric attempting to regain lost class abilities).",
+			"**Special:** If you act out of line with the tenets of your pantheon's beliefs, you lose the ability to cast the granted spell-like ability until you have received an {spell/atonement} for your transgression (as a {class/cleric} attempting to regain lost class abilities).",
 			"",
 			"### Juju Pantheon (Cultural)",
 			"",
@@ -2614,15 +2614,15 @@
 			"",
 			"**Common Believers** juju practitioners, wendifa",
 			"",
-			"**Granted Spell-like Ability** speak with animals",
+			"**Granted Spell-like Ability** {spell/speak with animals}",
 			"",
 			"### Sar-Gorog Pantheon (Aligned and Cultural)",
 			"",
-			"**Deities** Urgathoa (NE), Rovagug (CE), and Zura (CE)",
+			"**Deities** {faith/Urgathoa} (NE), {faith/Rovagug} (CE), and {faith/Zura} (CE)",
 			"",
 			"**Common Believers** Koboto cannibal tribes of the Sodden Lands",
 			"",
-			"**Granted Spell-like Ability** decompose corpse; if you use this ability on a corpse rather than on a corporeal undead, you receive nourishment as though you had eaten a normal meal for a Medium creature.",
+			"**Granted Spell-like Ability** {spell/decompose corpse}; if you use this ability on a corpse rather than on a corporeal undead, you receive nourishment as though you had eaten a normal meal for a Medium creature.",
 			"",
 			"**Note:** This feat was originally titled *Pantheistic Blessing*."
 		]
@@ -2637,7 +2637,7 @@
 			"",
 			"With a surprise swipe with your pommel, you can topple a foe.  ",
 			"**Prerequisites:** {feat/Amateur Swashbuckler} or panache class feature; base attack bonus +3.  ",
-			"**Benefit:** You can spend 1 panache point to make a melee attack with the pommel of a light or one-handed piercing melee weapon as a standard action. You make this attack as if you were using the weapon normally (including any bonuses gained from the swashbuckler's finesse class feature, {feat/Weapon Finesse}, or other similar feats and effects), but you deal 1d6 bludgeoning damage (or 1d4 if you are Small) instead of the weapon's normal damage. Regardless of your size, the critical threat range and critical multiplier of this attack are 20/&times;2, and they are not affected by {feat/Improved Critical}, the keen weapon special ability, or similar effects. If the attack hits, you can attempt a combat maneuver check to knock the target prone as a free action."
+			"**Benefit:** You can spend 1 panache point to make a melee attack with the pommel of a light or one-handed piercing melee weapon as a standard action. You make this attack as if you were using the weapon normally (including any bonuses gained from the swashbuckler's finesse class feature, {feat/Weapon Finesse}, or other similar feats and effects), but you deal 1d6 bludgeoning damage (or 1d4 if you are Small) instead of the weapon's normal damage. Regardless of your size, the critical threat range and critical multiplier of this attack are 20/&times;2, and they are not affected by {feat/Improved Critical}, the {magic-enh/keen} weapon special ability, or similar effects. If the attack hits, you can attempt a combat maneuver check to knock the target {rule/prone} as a free action."
 		]
 	},
 	"poppet_familiar": {
@@ -2650,7 +2650,7 @@
 			"",
 			"You may select a poppet as your familiar.  ",
 			"**Prerequisites:** Ability to acquire a new familiar, caster level 3rd.  ",
-			"**Benefit:** You can choose a standard Tiny poppet that you control as your familiar. This poppet cannot have any existing augmentations. You absorb the poppet's token harmlessly into your body, making it impossible for you to transfer control of the poppet thereafter. A poppet familiar uses the rules for regular familiars, with the following exceptions: its type does not change, and it does not gain the ability to speak with others of its kind. The poppet's Wisdom score increases to match its Intelligence score and it can speak and understand one language chosen by you at the time you select the poppet as your familiar. A poppet familiar has Craft, Perception, Profession, and Stealth as class skills. A poppet familiar cannot receive augmentations from crafting, but its connection to you allows it to spontaneously generate augmentations of your choice as you increase in level.",
+			"**Benefit:** You can choose a standard {monster/Tiny poppet} that you control as your {ability/familiar}. This poppet cannot have any existing augmentations. You absorb the poppet's token harmlessly into your body, making it impossible for you to transfer control of the poppet thereafter. A poppet familiar uses the rules for regular {sidekick/familiar/s}, with the following exceptions: its type does not change, and it does not gain the ability to speak with others of its kind. The poppet's Wisdom score increases to match its Intelligence score and it can speak and understand one language chosen by you at the time you select the poppet as your familiar. A poppet familiar has Craft, Perception, Profession, and Stealth as class skills. A poppet familiar cannot receive augmentations from crafting, but its connection to you allows it to spontaneously generate augmentations of your choice as you increase in level.",
 			"",
 			"If your caster level is 5th or higher, your poppet familiar either becomes Small in size or gains two augmentations of your choice. You do not need to meet the requirements (or pay the construction cost) to craft these augmentations. At caster level 7th, and every 2 caster levels thereafter, your poppet familiar gains an additional augmentation of your choice.",
 			"",
@@ -2690,7 +2690,7 @@
 			"",
 			"You know how to press your advantage when negotiating with noncombatants.  ",
 			"**Prerequisites:** Intimidate 5 ranks.  ",
-			"**Benefit:** As long as you are wielding one or more weapons with which you are proficient, you gain a +4 bonus on Intimidate checks against unarmed creatures, which doesn't stack with Intimidating Prowess. Additionally, if you successfully use Intimidate to demoralize an unarmed creature, that creature becomes shaken for as long as you continue to be armed and they continue not to be, to a maximum of 1 minute. Creatures with natural attacks, or whose unarmed strikes deal lethal damage, are considered to be armed for the purposes of this feat."
+			"**Benefit:** As long as you are wielding one or more weapons with which you are proficient, you gain a +4 bonus on Intimidate checks against unarmed creatures, which doesn't stack with {feat/Intimidating Prowess}. Additionally, if you successfully use Intimidate to demoralize an unarmed creature, that creature becomes {misc/shaken} for as long as you continue to be armed and they continue not to be, to a maximum of 1 minute. Creatures with natural attacks, or whose unarmed strikes deal lethal damage, are considered to be armed for the purposes of this feat."
 		]
 	},
 	"possess_creature": {
@@ -2705,9 +2705,9 @@
 			"**Prerequisites:** Cha 20, any evil outsider with 10 or more Hit Dice.  ",
 			"**Benefit:** Once per day, as a full-round action, a fiend can discorporate into a malign presence and target a creature within 15 feet. The creature targeted must succeed at a Will save equal to 10 + half the fiend's Hit Dice + the fiend's Charisma modifier or be possessed (see below). Targets under the effects of {spell/protection from evil}, or related spells, gain a bonus to this save. Should a target succeed at its Will save, the fiend is forced back into its natural form and is stunned for 1 round.",
 			"",
-			"A fiend that successfully possesses a target enters its space and merges with it. While possessing a creature or object, a fiend's body and abilities are unavailable. Once a fiend merges with its target it cannot be harmed until it leaves or is forcibly removed. While possessing a target, a fiend shares the senses of its host and can communicate with it telepathically. A fiend also gains a number of possession points per day equal to its total Hit Dice. These points can be spent to utilize special bodily possession actions detailed on the following pages. A fiend may expend these points as it pleases, with each possession action taking a full-round action.",
+			"A fiend that successfully possesses a target enters its space and merges with it. While possessing a creature or object, a fiend's body and abilities are unavailable. Once a fiend merges with its target it cannot be harmed until it leaves or is forcibly removed. While possessing a target, a fiend shares the senses of its host and can communicate with it telepathically. A fiend also gains a number of possession points per day equal to its total Hit Dice. These points can be spent to utilize special bodily {rule/possession actions}. A fiend may expend these points as it pleases, with each possession action taking a full-round action.",
 			"",
-			"Each day, the victim of a possession is allowed a new Will save at the original DC to force the possessing fiend to leave its body - objects and areas do not receive daily saves. Should a victim make this save or be killed, the fiend is ejected, retakes its original form in an adjacent space, and is stunned for 1 round. A fiend may not possess a new target for 24 hours after being ejected from a victim. {spell/Dispel evil} (or {spell/dispel chaos} or {spell/dispel law}, depending on the fiend) can eject a fiend, but the caster must succeed at a caster level check with a DC equal to 10 + the HD of the possessing fiend + the fiend's Cha modifier. {spell/Banishment} and {spell/dismissal} immediately eject a fiend from a target if it fails to save against the spell."
+			"Each day, the victim of a possession is allowed a new Will save at the original DC to force the possessing fiend to leave its body - objects and areas do not receive daily saves. Should a victim make this save or be killed, the fiend is ejected, retakes its original form in an adjacent space, and is {misc/stunned} for 1 round. A fiend may not possess a new target for 24 hours after being ejected from a victim. {spell/Dispel evil} (or {spell/dispel chaos} or {spell/dispel law}, depending on the fiend) can eject a fiend, but the caster must succeed at a caster level check with a DC equal to 10 + the HD of the possessing fiend + the fiend's Cha modifier. {spell/Banishment} and {spell/dismissal} immediately eject a fiend from a target if it fails to save against the spell."
 		]
 	},
 	"possess_location": {
@@ -2721,9 +2721,9 @@
 			"A fiend learns to disperse its essence over an area, gaining mastery over features and structures there and tainting the place with its wickedness.  ",
 			"**Prerequisites:** Cha 16, any evil outsider with 8 or more Hit Dice.",
 			"",
-			"Once per day, as a full-round action, a fiend may attempt to possess a structure or small area (like a pool, grove, or ruin) of a diameter equal to 10 feet per Hit Die. This area is spherical, so a fiend possessing a particularly large structure might only have power over a certain number of rooms. An area receives no save against fiendish possession unless creatures or magical items occupy the space, in which case the area makes a Will save equal to 10 + half the fiend's Hit Dice + the fiend's Charisma modifier using the stats of the occupant with the highest Will save. An area within the effects of a {spell/hallow} spell cannot be possessed. A fiend possessing an area operates similarly to one using the {feat/Possess Creature} can only be spent on location possession actions.",
+			"Once per day, as a full-round action, a fiend may attempt to possess a structure or small area (like a pool, grove, or ruin) of a diameter equal to 10 feet per Hit Die. This area is spherical, so a fiend possessing a particularly large structure might only have power over a certain number of rooms. An area receives no save against fiendish possession unless creatures or magical items occupy the space, in which case the area makes a Will save equal to 10 + half the fiend's Hit Dice + the fiend's Charisma modifier using the stats of the occupant with the highest Will save. An area within the effects of a {spell/hallow} spell cannot be possessed. A fiend possessing an area operates similarly to one using the {feat/Possess Creature} feat, but can only be spent on location {rule/possession actions}.",
 			"",
-			"Should a possessed location be destroyed, the fiend is ejected, retakes its original form in a space adjacent to the area it previously possessed, and is stunned for 1 round. {spell/Dispel evil} (or dispel chaos or dispel law, depending on the fiend) can eject a fiend, but the caster must succeed at a caster level check with a DC equal to 10 + the HD of the possessing fiend + the fiend's Cha modifier. {spell/Banishment} and {spell/dismissal} immediately eject a fiend from an object if it fails to make its saving throw against the spell's effects."
+			"Should a possessed location be destroyed, the fiend is ejected, retakes its original form in a space adjacent to the area it previously possessed, and is {misc/stunned} for 1 round. {spell/Dispel evil} (or {spell/dispel chaos} or {spell/dispel law}, depending on the fiend) can eject a fiend, but the caster must succeed at a caster level check with a DC equal to 10 + the HD of the possessing fiend + the fiend's Cha modifier. {spell/Banishment} and {spell/dismissal} immediately eject a fiend from an object if it fails to make its saving throw against the spell's effects."
 		]
 	},
 	"possess_object": {
@@ -2737,9 +2737,9 @@
 			"A fiend gains the power to bind its malign essence to a single object, corrupting it into a relic of undeniable evil.  ",
 			"**Prerequisites:** Cha 18, any evil outsider with 9 or more Hit Dice.",
 			"",
-			"Once per day, as a full-round action, a fiend can possess a Large or smaller object. Unattended, a mundane object receives no saving throw against possession, while an attended object uses its owner's saving throw to make a Will save equal to 10 + half the fiend's Hit Dice + the fiend's Charisma modifier. Magic items save as if they were subject to a spell. Items within the area of effect of a {spell/hallow} spell cannot be possessed. This effect is similar to that detailed in the {feat/Possess Creature} can only be spent on object-possession actions.",
+			"Once per day, as a full-round action, a fiend can possess a Large or smaller object. Unattended, a mundane object receives no saving throw against possession, while an attended object uses its owner's saving throw to make a Will save equal to 10 + half the fiend's Hit Dice + the fiend's Charisma modifier. Magic items save as if they were subject to a spell. Items within the area of effect of a {spell/hallow} spell cannot be possessed. This effect is similar to that detailed in the {feat/Possess Creature} feat, but can only be spent on object {rule/possession actions}.",
 			"",
-			"Should a possessed object be destroyed, the fiend is ejected, retakes its original form in an adjacent space, and is stunned for 1 round. {spell/Dispel evil} (or dispel chaos or dispel law, depending on the fiend) can eject a fiend, but the caster must succeed at a caster level check with a DC equal to 10 + the HD of the possessing fiend + the fiend's Cha modifier. {spell/Banishment} and {spell/dismissal} immediately eject a fiend from an object if it fails to make its saving throw against the spell's effects."
+			"Should a possessed object be destroyed, the fiend is ejected, retakes its original form in an adjacent space, and is stunned for 1 round. {spell/Dispel evil} (or {spell/dispel chaos} or {spell/dispel law}, depending on the fiend) can eject a fiend, but the caster must succeed at a caster level check with a DC equal to 10 + the HD of the possessing fiend + the fiend's Cha modifier. {spell/Banishment} and {spell/dismissal} immediately eject a fiend from an object if it fails to make its saving throw against the spell's effects."
 		]
 	},
 	"possessed_hand": {
@@ -2766,7 +2766,7 @@
 			"",
 			"In your pious hands, your holy symbol is a shining light of faith.  ",
 			"**Prerequisites:** Good alignment, worshiper of a good deity.  ",
-			"**Benefit:** Any round in which you use your holy symbol as a divine focus for the casting of a spell or to channel positive energy, you count as presenting a holy symbol, chanting prayers, or ringing a hand bell for the purpose of keeping vampires at bay."
+			"**Benefit:** Any round in which you use your holy symbol as a divine focus for the casting of a spell or to {ability/channel positive energy}, you count as presenting a holy symbol, chanting prayers, or ringing a hand bell for the purpose of keeping {template/vampire/s} at bay."
 		]
 	},
 	"potent_surge": {
@@ -2853,7 +2853,7 @@
 			"",
 			"Your wild shapes are mighty and muscular.  ",
 			"**Prerequisites:** Wild shape class feature, druid level 8th.  ",
-			"**Benefit:** When in wild shape, treat your size as one category larger for the purpose of calculating CMB, CMD, carrying capacity, and any size-based special attacks you use or that are used against you (such as grab, swallow whole, and trample).",
+			"**Benefit:** When in wild shape, treat your size as one category larger for the purpose of calculating CMB, CMD, carrying capacity, and any size-based special attacks you use or that are used against you (such as {umr/grab}, {umr/swallow whole}, and {umr/trample}).",
 			"",
 			"### Mythic Powerful Shape",
 			"",
@@ -2861,7 +2861,7 @@
 			"",
 			"The forms you take in wild shape tower over their natural counterparts.  ",
 			"**Prerequisites:** Powerful Shape.  ",
-			"**Benefit:** You can apply the {template/giant/ simple template} (quick rules version) to any form you take with wild shape. This replaces the benefit from Powerful Shape.",
+			"**Benefit:** You can apply the {template/giant} simple template (quick rules version) to any form you take with wild shape. This replaces the benefit from Powerful Shape.",
 			"",
 			"As a free action, you can expend one use of mythic power to combine the benefit from this feat with the benefit from non-mythic Powerful Shape for a number of rounds equal to your tier."
 		]
@@ -2876,7 +2876,7 @@
 			"",
 			"Unlike others of your kind, you are able to pull your prey toward yourself.  ",
 			"**Prerequisites:** Str 17, sticky tongue.  ",
-			"**Benefit:** Your tongue attack gains the pull special ability. At the start of your turn, if your tongue is attached to a target of your size or smaller and you succeed at a combat maneuver check, you can pull the target 5 feet closer to you as free action."
+			"**Benefit:** Your tongue attack gains the {umr/pull} special ability. At the start of your turn, if your tongue is attached to a target of your size or smaller and you succeed at a combat maneuver check, you can pull the target 5 feet closer to you as free action."
 		]
 	},
 	"powerful_wings": {
@@ -2890,7 +2890,7 @@
 			"You have a large wingspan for a member of your race, and can use these appendages to batter your foes.  ",
 			"**Prerequisites:** Str 13, {feat/Skill Focus} (Fly), base attack bonus +8.  ",
 			"**Benefit:** You gain two wing attacks. These are secondary natural attacks that each deal damage appropriate to a creature one size category larger than yourself. You are also considered one size category larger for the purposes of any feats or abilities related to your wings, such as the {feat/Hover} feat.  ",
-			"**Special:** While this feat is primarily taken by strix, other creatures with natural wings can also take it at the GM's discretion."
+			"**Special:** While this feat is primarily taken by {race/strix}, other creatures with natural wings can also take it at the GM's discretion."
 		]
 	},
 	"practical_kata": {
@@ -2914,7 +2914,7 @@
 			"",
 			"{SOURCE Plane-Hopper's Handbook/30}",
 			"",
-			"Your time in the Dimension of Dreams has improved your ability to manipulate its landscape.  ",
+			"Your time in the {rule/Dimension of Dreams} has improved your ability to manipulate its landscape.  ",
 			"**Prerequisites:** Cha 15, {feat/Lucid Dreamer}, Knowledge (planes) 5 ranks.  ",
 			"**Benefit:** Once per day, you can reroll a failed attempt to perform an impossible action, such as casting a spell you can't normally cast, gaining an effect of a spell as if it had been cast, or conjuring a magic item. You also gain an additional +2 bonus on Charisma checks to determine your initial condition when entering a dream with your lucid body."
 		]
@@ -2929,9 +2929,59 @@
 			"",
 			"When you and your cohort are both members of the same organization, you needn't shoulder the burden of leadership alone. By relying on the authority of your shared organization as well as your own leadership skills, your cohort demonstrates improved devotion and tactical acumen.  ",
 			"**Prerequisites:** {feat/Leadership}, membership in the same organization as your cohort.  ",
-			"**Benefit:** As long as you and your cohort maintain membership in good standing within the same organization, your cohort gains a +4 morale bonus on Will saves against enchantment spells and effects. Additionally, your cohort is treated as though she possessed the same teamwork feats you do for the purpose of determining whether you receive a bonus from your teamwork feats. Your cohort doesn't receive any bonuses from these feats unless she actually possesses the feats.",
+			"**Benefit:** As long as you and your cohort maintain membership in good standing within the same organization, your cohort gains a +4 morale bonus on Will saves against enchantment spells and effects. Additionally, your cohort is treated as though she possessed the same {main/feats_<teamwork/ feats} you do for the purpose of determining whether you receive a bonus from your teamwork feats. Your cohort doesn't receive any bonuses from these feats unless she actually possesses the feats.",
 			"",
-			"If you and your cohort belong to one of the organizations listed in this section, your cohort gains the practiced leadership benefit associated with your organization. If a benefit grants your cohort access to a spell-like ability, the caster level of the effect is 1st or equal to your cohort's caster level, whichever is higher."
+			"If you and your cohort belong to one of the organizations listed below, your cohort gains the practiced leadership benefit associated with your organization. If a benefit grants your cohort access to a spell-like ability, the caster level of the effect is 1st or equal to your cohort's caster level, whichever is higher.",
+			"",
+			"### Free Captains (CN)",
+			"",
+			"Less a formal organization and more a loose network of affiliations and mutual obligations, the Free Captains are nonetheless the only authority in the Shackles region. The Free Captains jealously guard their freedom to do as they please and take what they want by guile or force, and rarely have room on their agendas for benevolence or malice. Above all else, the Free Captains respect bravado, daring, and the ability to navigate the Shackles' treacherous seas.",
+			"",
+			"Cohorts of the Free Captains are usually fighters or rogues, and often take archetypes such as the {arc-rogue/swashbuckler} or {arc-rogue/pirate}.",
+			"",
+			"**Leadership Benefit:** Free Captains do not take a Leadership score penalty for moving around a lot.",
+			"",
+			"**Practiced Leadership Benefit:** If you are a Free Captain with the Practiced Leadership feat, your cohort can use water walk or water breathing once per day as a spell-like ability.",
+			"",
+			"### Green Faith (N)",
+			"",
+			"Druids, farmers, and peasants revere the {faith/Green Faith} so they might connect to the primal power and endless cycles of the natural world. Many followers of the Green Faith preserve balance for its own sake, so that no philosophy reigns over others and despoils the natural order. Adherents to the Green Faith often live far from civilization, but when they do live in settlements, they encourage their communities to work in harmony with the natural order.",
+			"",
+			"Cohorts of the Green Faith are almost always druids and may become {pclass/Green Faith acolyte/s}.",
+			"",
+			"**Leadership Benefit:** Members of the Green Faith do not take a Leadership score penalty for having an animal companion.",
+			"",
+			"**Practiced Leadership Benefit:** If you are a Green Faith follower with the Practiced Leadership feat, your cohort can use {spell/speak with animals} at will as a spell-like ability.",
+			"",
+			"### Hellknights (LN)",
+			"",
+			"Terrifying heralds of unrelenting order, the black-armored {rule/aff_law<Hell|knights} perfect their fighting techniques by training with the militant legions of Hell. Although each of the Hellknight orders has its own particular focus, the order as a whole is committed to the rigid enforcement of law for its own sake, independent of morality and deaf to excuses or exceptions. The greatest Hellknights are as committed to mental exercise as they are to physical training, memorizing tomes of law in order to better mete out perfect justice.",
+			"",
+			"Hellknight cohorts are usually fighters with levels in the {pclass/Hellknight} prestige class, but some are spellcasters with levels in the {pclass/Hellknight signifer} prestige class.",
+			"",
+			"**Leadership Benefit:** Hellknights do not take a Leadership score penalty for aloofness.",
+			"",
+			"**Practiced Leadership Benefit:** If you are a Hellknight with the Practiced Leadership feat, your cohort gains a +2 deflection bonus to AC against attacks from chaotic outsiders.",
+			"",
+			"### Pathfinder Society (N)",
+			"",
+			"[Pathfinders](rule/aff_scholars) are adventurous scholars who explore the most remote and dangerous corners of the world to find lost knowledge and hidden treasure. Most strive to have their exploits showcased in the pages of the Pathfinder Chronicles, where the most daring members find a sense of immortality in the written word. Although individual Pathfinders vary in alignment, the organization as a whole remains unconcerned with legal niceties or ethical constraints when it comes to recovering lost lore and ancient relics. The Society's leaders are likewise varied in their motives and approaches, but the highest-ranking Pathfinders are so resolute in their pursuit of lore and artifacts that they rarely brook any discussions of moral or ethical concerns.",
+			"",
+			"Pathfinder cohorts can be of any class, but many are bards. At higher levels, they might become {pclass/Pathfinder field agent/s}.",
+			"",
+			"**Leadership Benefit:** Pathfinders do not take a Leadership score penalty for moving around a lot.",
+			"",
+			"**Practiced Leadership Benefit:** If you are a Pathfinder with the Practiced Leadership feat, your cohort can use {spell/identify} at will as a spell-like ability.",
+			"",
+			"### Prophets of Kalistrade (LN)",
+			"",
+			"Followers of the secular [Prophecies of Kalistrade](rule/f_profits) amass wealth with a religious fervor. Adherents believe that they reap earthly riches by hewing to the byzantine strictures of their philosophy, and increased compliance leads to increased fortune. Moral considerations rarely impact their lives, as they consider the gods to be fallible and those devoted to the gods to be outmoded. As they must maintain rigorous ritual purity, followers of the Prophecies live structured, orderly lives.",
+			"",
+			"A follower of the Prophecies of Kalistrade typically has either a fellow Kalistocrat or a member of Druma's infamous Mercenary League for a cohort. These \"Blackjackets\" are ruthless fighters and rogues who serve only to protect Druma's mercantile elite, and in return see their own fortunes rapidly swell.",
+			"",
+			"**Leadership Benefit:** Followers of the Prophecies of Kalistrade do not take a Leadership score penalty for recruiting a cohort of a different alignment if the cohort is also a follower of the Prophecies or a member of the Mercenary League.",
+			"",
+			"**Practiced Leadership Benefit:** If you are a follower of the Prophecies of Kalistrade with the Practiced Leadership feat and your cohort is a fellow Kalistocrat, once per day she can roll either an Appraise or Bluff check twice and take the higher result. If your cohort is instead a member of the Mercenary League, once per day she can roll either an Intimidate check or a Sense Motive check twice and take the higher result. Your cohort must announce the use of this ability before attempting the check."
 		]
 	},
 	"practiced_ritualist": {
@@ -2944,7 +2994,7 @@
 			"",
 			"You are an experienced leader among ritual casters.  ",
 			"**Prerequisites:** Knowledge (arcana, history, planes, and religion) 1 rank.  ",
-			"**Benefit:** You gain a +2 bonus on skill checks to perform occult rituals, and on Intelligence checks to learn the method of casting an occult ritual. If you are a ritual's primary caster, the DC for saving throws against the ritual's effects is 2 higher. If the ritual has a minimum number of required secondary casters, that number is decreased by 1."
+			"**Benefit:** You gain a +2 bonus on skill checks to perform {rule/occult rituals}, and on Intelligence checks to learn the method of casting an occult ritual. If you are a ritual's primary caster, the DC for saving throws against the ritual's effects is 2 higher. If the ritual has a minimum number of required secondary casters, that number is decreased by 1."
 		]
 	},
 	"practiced_tactician": {
@@ -2971,7 +3021,7 @@
 			"",
 			"Rough mountain roads are as smooth as cobblestone to you. Enemies challenge you in your home territory at their peril.  ",
 			"**Prerequisites:** Dex 15, base attack bonus +6, cragkin {race/half-orc}.  ",
-			"**Benefit:** When you and the target of your attack are both in difficult terrain, treat the target as if he were flat-footed. In addition, if you attack a flat-footed enemy from a higher elevation (including while falling), you gain a +2 circumstance bonus on your attack roll."
+			"**Benefit:** When you and the target of your attack are both in difficult terrain, treat the target as if he were {rule/flat-footed}. In addition, if you attack a flat-footed enemy from a higher elevation (including while falling), you gain a +2 circumstance bonus on your attack roll."
 		]
 	},
 	"precise_shot": {
@@ -3008,7 +3058,7 @@
 			"",
 			"You are skilled at striking where it counts, as long as an ally distracts your foe.  ",
 			"**Prerequisites:** Dex 13, base attack bonus +1.  ",
-			"**Benefit:** Whenever you and an ally who also has this feat are flanking the same the creature, you deal an additional 1d6 points of precision damage with each successful melee attack. This bonus damage stacks with other sources of precision damage, such as sneak attack. This bonus damage is not multiplied on a critical hit.",
+			"**Benefit:** Whenever you and an ally who also has this feat are {rule/flanking} the same the creature, you deal an additional 1d6 points of precision damage with each successful melee attack. This bonus damage stacks with other sources of precision damage, such as {ability/sneak attack}. This bonus damage is not multiplied on a critical hit.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/129}",
@@ -3026,7 +3076,7 @@
 			"",
 			"Even in youth, you seek to be more adult than your childish peers, a personal trait that will no doubt aid you in future years.  ",
 			"**Prerequisites:** Young age category.  ",
-			"**Benefit:** You lose one of the penalties associated with the young age category, either -2 Constitution, -2 Strength, or -2 Wisdom. Upon reaching adulthood you may exchange this feat for {feat/Great Fortitude}, {feat/Iron Will}, or {feat/Lightning Reflexes}.  ",
+			"**Benefit:** You lose one of the penalties associated with the {rule/creating_<young /age category>characters}, either -2 Constitution, -2 Strength, or -2 Wisdom. Upon reaching adulthood you may exchange this feat for {feat/Great Fortitude}, {feat/Iron Will}, or {feat/Lightning Reflexes}.  ",
 			"**Special:** You may take this feat up to three times. Each time you do, it affects a different penalty and must be exchanged for a different feat upon reaching adulthood."
 		]
 	},
@@ -3054,7 +3104,7 @@
 			"",
 			"You gain an advantage when your opponent can't easily retreat.  ",
 			"**Prerequisites:** {feat/Step Up}, base attack bonus +3.  ",
-			"**Benefit:** If you are the only character threatening an opponent, you can treat solid, immovable objects that occupy a square (such as columns, tree trunks, and walls) and are adjacent to that opponent as allies threatening the opponent when determining whether you flank the foe."
+			"**Benefit:** If you are the only character threatening an opponent, you can treat solid, immovable objects that occupy a square (such as columns, tree trunks, and walls) and are adjacent to that opponent as allies threatening the opponent when determining whether you {rule/flank>ing} the foe."
 		]
 	},
 	"pressure_adept": {
@@ -3067,7 +3117,7 @@
 			"",
 			"You've spent so much time at unusual pressures that You've extended your native range beyond the norms of your species.  ",
 			"**Prerequisites:** Swim 5 ranks.  ",
-			"**Benefit:** Add one {rule/oceanic zone>s} to your native range when calculating pressure (meaning that you don't take [pressure damage](rule/water_dangers) in that range unless instantaneously transported up or down, and even then you adapt to the change all at once rather than 100 feet at a time). Surfacedwellers taking this feat must select the sunlight zone, and aquatic creatures can select any zone either directly above or directly below their native range."
+			"**Benefit:** Add one {rule/oceanic zone>s} to your native range when calculating pressure (meaning that you don't take [pressure damage](rule/water_dangers) in that range unless instantaneously transported up or down, and even then you adapt to the change all at once rather than 100 feet at a time). Surface-dwellers taking this feat must select the sunlight zone, and aquatic creatures can select any zone either directly above or directly below their native range."
 		]
 	},
 	"prestigious_spellcaster": {
@@ -3082,7 +3132,7 @@
 			"**Prerequisites:** {feat/Favored Prestige Class} with selected prestige class.  ",
 			"**Benefit:** The first time you gain a level in your favored prestige class and the spells per day class feature does not grant an increase in effective level for the purpose of casting spells, you gain new spells per day as if the prestige class did grant +1 level of spellcasting for that level. This effect is retroactive if you gain this feat at a level beyond the point where your favored prestige class would normally have not advanced your spellcasting.",
 			"",
-			"The Prestigious Spellcaster feat does not have any effect if your favored prestige class does not have the spells per day class feature, or if it does have the spells per day class feature but already grants a level increase for every level of the prestige class (as do the arcane trickster and loremaster prestige classes).",
+			"The Prestigious Spellcaster feat does not have any effect if your favored prestige class does not have the spells per day class feature, or if it does have the spells per day class feature but already grants a level increase for every level of the prestige class (as do the {pclass/arcane trickster} and {pclass/loremaster} prestige classes).",
 			"",
 			"**Special:** You can select the Prestigious Spellcaster feat multiple times. Each time you select the Prestigious Spellcaster feat, your effective caster level increases by 1. However, regardless of the number of times you choose this feat, the total increase to your effective caster level cannot exceed your actual prestige class level.",
 			"",
@@ -3112,9 +3162,9 @@
 			"",
 			"With a ferocious cry, you call to the First World to render magic unpredictable.  ",
 			"**Prerequisites:** Knowledge (planes) 10 ranks.  ",
-			"**Benefit:** As a standard action, you can create a 50-foot-radius spread of primal fey influence centered on yourself. This area is stationary and lasts for 1 minute. The affected area gains the wild magic planar trait, except that the DC of the caster level check increases by 5. If the area already has the wild magic planar trait, the DC of the caster level check increases by 10 instead.",
+			"**Benefit:** As a standard action, you can create a 50-foot-radius spread of primal fey influence centered on yourself. This area is stationary and lasts for 1 minute. The affected area gains the wild magic {rule/planar trait>s}, except that the DC of the caster level check increases by 5. If the area already has the wild magic planar trait, the DC of the caster level check increases by 10 instead.",
 			"",
-			"You can use this feat once per day, plus an additional time per day once you have 15 ranks in Knowledge (planes) and three times per day once you have 20 ranks in Knowledge (planes)."
+			"You can use this feat once per day, plus an additional time per day once you have 15 ranks in {skill/Knowledge (planes)} and three times per day once you have 20 ranks in Knowledge (planes)."
 		]
 	},
 	"primal_kineticist": {
@@ -3126,7 +3176,7 @@
 			"{SOURCE People of the Wastes/6}",
 			"",
 			"When primal magic surrounds you, you can channel it to transform the nature of your kinetic blasts.  ",
-			"**Prerequisites:** Kineticist level 1st.  ",
+			"**Prerequisites:** {class/Kineticist} level 1st.  ",
 			"**Benefit:** When using a simple kinetic blast in an area where {rule/primal magic} is either predominant or very common, you can accept 1 point of burn to cause your blast to become one of the following simple blasts instead. Roll 1d10 to determine the simple blast: 1 = air, 2 = cold, 3 = earth, 4 = electric, 5 = fire, 6 = gravity, 7 = negative, 8 = telekinetic, 9 = water, 10 = wood. You can apply any of your form or substance infusions that are allowed as choices for the random blast, accepting the typical burn cost."
 		]
 	},
@@ -3140,7 +3190,7 @@
 			"",
 			"You have learned to draw primal magic through your body to befuddle your enemies.  ",
 			"**Prerequisites:** Wis 17, {feat/Improved Unarmed Strike}, base attack bonus +8.  ",
-			"**Benefit:** Before making an attack roll, you can declare a primal strike. If you do and the attack hits, it deals damage normally and your target must attempt a Fortitude saving throw (DC = 10 + half your character level + your Wisdom modifier). A target who fails this saving throw is confused for 1 round. If you are in an area of {rule/primal magic}, the confused condition lasts for 1d4 rounds. You can attempt a primal strike attack once per day for every 4 character levels you have (see Special below if you have monk levels), but no more than once per round. A primal strike is a mind-affecting compulsion effect.  ",
+			"**Benefit:** Before making an attack roll, you can declare a primal strike. If you do and the attack hits, it deals damage normally and your target must attempt a Fortitude saving throw (DC = 10 + half your character level + your Wisdom modifier). A target who fails this saving throw is {misc/confused} for 1 round. If you are in an area of {rule/primal magic}, the confused condition lasts for 1d4 rounds. You can attempt a primal strike attack once per day for every 4 character levels you have (see Special below if you have monk levels), but no more than once per round. A primal strike is a mind-affecting compulsion effect.  ",
 			"**Special:** If you have levels in the monk class, you can make a primal attack a number of times per day equal to your monk level, plus one additional time per day for every 4 levels you have in classes other than monk, though still no more than once per round."
 		]
 	},
@@ -3166,8 +3216,8 @@
 			"{SOURCE Horror Adventures/91}",
 			"",
 			"Your study of fiends grants you advantages when summoning or fighting them.  ",
-			"**Prerequisites:** Int 13, Knowledge (planes) 4 ranks, ability to cast a summon monster spell.  ",
-			"**Benefit:** You gain a +5 bonus on Knowledge (planes) checks involving evil outsiders. Additionally, when you cast a summon monster spell to summon an evil outsider, treat your caster level as 2 levels higher for the purpose of determining the duration."
+			"**Prerequisites:** Int 13, Knowledge (planes) 4 ranks, ability to cast a {spell/summon monster>_1} spell.  ",
+			"**Benefit:** You gain a +5 bonus on Knowledge (planes) checks involving evil outsiders. Additionally, when you cast a *summon monster* spell to summon an evil outsider, treat your caster level as 2 levels higher for the purpose of determining the duration."
 		]
 	},
 	"profits_of_kalistrade": {
@@ -3198,7 +3248,7 @@
 			"",
 			"Take a reduced penalty to your AC against melee attacks while prone  ",
 			"**Prerequisites:** Base attack bonus +1.  ",
-			"**Benefit:** If you have been prone since the end of your last turn, the penalty to your Armor Class against melee attacks made against you is reduced to -2. In addition, the bonus to your Armor Class against ranged attacks made against you is increased to +6.",
+			"**Benefit:** If you have been {rule/prone} since the end of your last turn, the penalty to your Armor Class against melee attacks made against you is reduced to -2. In addition, the bonus to your Armor Class against ranged attacks made against you is increased to +6.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/129}",
@@ -3218,7 +3268,7 @@
 			"{SOURCE Ultimate Combat/113}",
 			"",
 			"Your sideways sling release allows you to launch bullets and stones even while prone.  ",
-			"**Benefit:** While prone, you can use a sling to make ranged attacks.  ",
+			"**Benefit:** While {rule/prone}, you can use a sling to make ranged attacks.  ",
 			"**Normal:** Crossbows and firearms are the only ranged weapons that can be used while prone.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -3250,13 +3300,13 @@
 			"",
 			"| d8 | Quest |",
 			"| --- | --- |",
-			"| 1 | You have been tasked with bringing Iomedae's faith to \"uncivilized\" backwoods people in a randomly determined nation. |",
-			"| 2 | The Umbral Court of Nidal expressly forbids the worship of gods other than Zon-Kuthon within their shadowy nation, but you're set to protect and spread Desna's ideals to the Nidalese, either at large or in a relatively confined region, such as around the Atteran Ranches. |",
+			"| 1 | You have been tasked with bringing {faith/Iomedae/'s} faith to \"uncivilized\" backwoods people in a randomly determined nation. |",
+			"| 2 | The Umbral Court of Nidal expressly forbids the worship of gods other than {faith/Zon-Kuthon} within their shadowy nation, but you're set to protect and spread {faith/Desna/'s} ideals to the Nidalese, either at large or in a relatively confined region, such as around the Atteran Ranches. |",
 			"| 3 | You seek to aid the little-known breed of horse-headed centaurs in the Exalted Wood in Razmiran and introduce them to your faith. |",
 			"| 4 | The Last Temple of Rahadoum offers the potential of many desperate evangelists who might aid you in spreading your god's faith in that domineering nation of atheists. |",
 			"| 5 | Inspired by the Hellknights of the Order of the Godclaw, you preach the words of your lawful patron among the rebellious rabble of Cheliax, whom you will turn into models of discipline whether they like it or not. |",
-			"| 6 | Disgusted by the disrespect of the Molthuni toward the once-sacred valley called Deadeye's Haunt, you intend to show them the error of their ways with the power of Erastil. |",
-			"| 7 | You spread the faith of Milani, the Everbloom, by expelling unjust tyrants and aiding the downtrodden. |",
+			"| 6 | Disgusted by the disrespect of the Molthuni toward the once-sacred valley called Deadeye's Haunt, you intend to show them the error of their ways with the power of {faith/Erastil}. |",
+			"| 7 | You spread the faith of {faith/Milani}, the Everbloom, by expelling unjust tyrants and aiding the downtrodden. |",
 			"| 8 | Your patron - a demon lord, archdevil, or other generally unwanted influence (determine randomly) - inspires you to disguise your faith and reveal it only slowly to potential converts in order to lure them into the fold. |"
 		]
 	},
@@ -3273,7 +3323,7 @@
 			"",
 			"Your oracular abilities give you a glimpse into the future.  ",
 			"**Prerequisites:** Mystery class feature.  ",
-			"**Benefit:** Once per day, you can enter a deep trance to receive a vision of the future. The trance lasts for 10 minutes, during which time you can take no other actions. If you are interrupted, you must begin again. When you come out of the trance, you know whether a particular action in the immediate future will bring good or bad results, as an augury spell with a 70% chance of success.",
+			"**Benefit:** Once per day, you can enter a deep trance to receive a vision of the future. The trance lasts for 10 minutes, during which time you can take no other actions. If you are interrupted, you must begin again. When you come out of the trance, you know whether a particular action in the immediate future will bring good or bad results, as an {spell/augury} spell with a 70% chance of success.",
 			"",
 			"### Mythic Prophetic Visionary",
 			"",
@@ -3281,7 +3331,7 @@
 			"",
 			"Your precognitive powers aid you further.  ",
 			"**Prerequisites:** Prophetic Visionary.  ",
-			"**Benefit:** You can use Prophetic Visionary's augury ability at will, spending 10 minutes in a deep trance each time. Your chance of a successful augury increases by 1% per tier. A successful augury made by using this feat also grants you the benefits of guidance, but the bonus is equal to your tier and is an insight bonus instead of a competence bonus."
+			"**Benefit:** You can use Prophetic Visionary's *augury* ability at will, spending 10 minutes in a deep trance each time. Your chance of a successful *augury* increases by 1% per tier. A successful *augury* made by using this feat also grants you the benefits of {spell/guidance}, but the bonus is equal to your tier and is an insight bonus instead of a competence bonus."
 		]
 	},
 	"prosperity_and_pride": {
@@ -3295,7 +3345,7 @@
 			"Your family has raised cities and mastered trade, and you seek to do the same.  ",
 			"**Prerequisites:** Be a member of House Corcina, or have the Inheritance [major childhood event](rule/birth_circumstances_and_more) background, Worldshaker (bard) {rule/class background>_tables}, or the Craftsperson or Well-Connected Friend [background](rule/influential_associates_table).  ",
 			"**Benefit:** When in a settlement the size of a large city or smaller, you receive a +2 bonus on Appraise checks and Diplomacy checks. If you have 10 or more ranks in one of these skills, the bonus on that skill increases to +4.  ",
-			"**Goal:** Your actions must spur a settlement to grow to the next size category; this usually involves decisively defeating a challenging foe or an appropriate number of foes preying upon or impeding the settlement's citizenry.  ",
+			"**Goal:** Your actions must spur a {rule/settlement>s_in_play} to grow to the next size category; this usually involves decisively defeating a challenging foe or an appropriate number of foes preying upon or impeding the settlement's citizenry.  ",
 			"**Completion Benefit:** You teach others how to get the most out of their equipment. Three times per day as a standard action, you can increase the armor bonus provided by a suit of nonmagical armor, the circumstance bonus to a skill provided by a tool or skill kit, or the shield bonus provided by a nonmagical shield by 1. This bonus lasts for 1 hour and doesn't stack with other uses of this ability."
 		]
 	},
@@ -3309,7 +3359,7 @@
 			"",
 			"When you channel energy, Iomedae grants protection against dark forces.  ",
 			"**Prerequisites:** {ability/Channel energy} 7d6, worshiper of {faith/Iomedae}.  ",
-			"**Benefit:** When you channel positive energy to heal living creatures, you can choose to affect healed creatures with a protection from evil spell (caster level equal to your effective cleric level)."
+			"**Benefit:** When you channel positive energy to heal living creatures, you can choose to affect healed creatures with a {spell/protection from evil} spell (caster level equal to your effective cleric level)."
 		]
 	},
 	"protective_line": {
@@ -3335,8 +3385,8 @@
 			"",
 			"You have vowed to construct a defender for your community.  ",
 			"**Prerequisites:** Your community has come under persecution and requires considerable defense.  ",
-			"**Benefit:** You temporarily gain the {feat/Craft Construct} feat for the purposes of building one golem to satisfy the goal of this story feat. You do not need to meet Craft Construct's prerequisites, and it can't be used as a prerequisite for any other crafting endeavor.  ",
-			"**Goal:** Craft a golem of CR 5 or greater and donate it to your community for its defense against persecution. You and your allies must fund the construction, not the community. You must be significantly involved in the golem's construction. After completion, this golem cannot be used as a personal adventuring companion; it is the property of the community to which it was dedicated. The donated creature must be a golem and not another type of construct, such as an animated object.  ",
+			"**Benefit:** You temporarily gain the {feat/Craft Construct} feat for the purposes of building one {family/golem} to satisfy the goal of this story feat. You do not need to meet Craft Construct's prerequisites, and it can't be used as a prerequisite for any other crafting endeavor.  ",
+			"**Goal:** Craft a golem of CR 5 or greater and donate it to your community for its defense against persecution. You and your allies must fund the construction, not the community. You must be significantly involved in the golem's construction. After completion, this golem cannot be used as a personal adventuring companion; it is the property of the community to which it was dedicated. The donated creature must be a golem and not another type of construct, such as an {monster/animated object}.  ",
 			"**Completion Benefit:** You gain Craft Construct as a bonus feat without meeting its prerequisites and can use it for any purpose. The cost to build any construct that normally costs less than the cost of your donated golem is permanently reduced by 10%; the cost of the base materials is not reduced, however."
 		]
 	},
@@ -3380,7 +3430,7 @@
 			"",
 			"You have honed your mind to harness psychic power.  ",
 			"**Prerequisites:** Int 11, {feat/Psychic Sensitivity}.  ",
-			"**Benefit:** You gain the ability to cast a 0-level knack from the {main/spells_<psychic/ class's spell list}. You can cast this spell three times per day as a spell-like ability. The caster level for this ability is equal to your character level, and the save DC is equal to 10 + your Intelligence modifier.  ",
+			"**Benefit:** You gain the ability to cast a 0-level knack from the {main/spells_<psychic /class's spell list>0_1}. You can cast this spell three times per day as a spell-like ability. The caster level for this ability is equal to your character level, and the save DC is equal to 10 + your Intelligence modifier.  ",
 			"**Special:** You can choose this feat multiple times, choosing a different knack each time."
 		]
 	},
@@ -3394,7 +3444,7 @@
 			"",
 			"You are skilled at attacking opponents in psychic duels.  ",
 			"**Prerequisites:** Int 13, {feat/Psychic Sensitivity} or the ability to cast psychic spells or use psychic spell-like abilities, character level 3rd.  ",
-			"**Benefit:** You gain an extra pool of manifestation points with a number of points equal to 1/2 your character level. You can use these points at any time during a psychic duel. When you are not participating in a psychic duel, you can spend 1 of these extra manifestation points as a swift action to gain a +1 bonus on saving throws against psychic spells until the start of your next turn, or 3 points as a swift action to gain a +2 bonus on saving throws against psychic spells until the start of your next turn. This pool refreshes at the start of each day."
+			"**Benefit:** You gain an extra pool of manifestation points with a number of points equal to 1/2 your character level. You can use these points at any time during a {rule/psychic duel>s}. When you are not participating in a psychic duel, you can spend 1 of these extra manifestation points as a swift action to gain a +1 bonus on saving throws against psychic spells until the start of your next turn, or 3 points as a swift action to gain a +2 bonus on saving throws against psychic spells until the start of your next turn. This pool refreshes at the start of each day."
 		]
 	},
 	"psychic_defender": {
@@ -3420,7 +3470,7 @@
 			"",
 			"You have opened your mind to the more advanced disciplines of basic psychic magic.  ",
 			"**Prerequisites:** Int 13, {feat/Psychic Adept}, {feat/Psychic Sensitivity}.  ",
-			"**Benefit:** You gain the ability to cast a 1st-level psychic spell from the {main/spells_<psychic/ class's spell list}. You can cast this spell twice per day as a spell-like ability. The caster level for this ability is equal to your character level, and the save DC is equal to 11 + your Intelligence modifier.  ",
+			"**Benefit:** You gain the ability to cast a 1st-level psychic spell from the {main/spells_<psychic /class's spell list>0_1}. You can cast this spell twice per day as a spell-like ability. The caster level for this ability is equal to your character level, and the save DC is equal to 11 + your Intelligence modifier.  ",
 			"**Special:** You can take this feat multiple times, choosing a different spell each time."
 		]
 	},
@@ -3434,7 +3484,7 @@
 			"",
 			"The spirit finds ways to heal the body, guided by your faith.  ",
 			"**Prerequisites:** Cha 11, {feat/Psychic Sensitivity} or the ability to cast psychic spells, Heal 3 ranks.  ",
-			"**Benefit:** As an additional use of the faith healing skill unlock, you can attempt to manipulate a creature's psychic form to heal damage to its physical form. This works as the treat deadly wounds use of the Heal skill, but also grants the creature a number of temporary hit points equal to the amount of damage healed. These temporary hit points last for 1 hour. Psychic healing doesn't require a healer's kit. A creature can benefit from psychic healing only once per day, and can't benefit from both this ability and treat deadly wounds in the same day."
+			"**Benefit:** As an additional use of the {skill/faith healing} skill unlock, you can attempt to manipulate a creature's psychic form to heal damage to its physical form. This works as the treat deadly wounds use of the {skill/Heal} skill, but also grants the creature a number of {rule/temporary hit points} equal to the amount of damage healed. These temporary hit points last for 1 hour. Psychic healing doesn't require a {eq-misc/healer's kit}. A creature can benefit from psychic healing only once per day, and can't benefit from both this ability and treat deadly wounds in the same day."
 		]
 	},
 	"psychic_maestro": {
@@ -3447,7 +3497,7 @@
 			"",
 			"You can use two occult skill unlocks more often.  ",
 			"**Prerequisites:** {feat/Psychic Sensitivity} or the ability to cast psychic spells.  ",
-			"**Benefit:** Choose two occult skill unlocks. You can use each of those one additional time per day (or per week, in the case of automatic writing). You must have at least 1 rank in the skills associated with the chosen occult skill unlocks."
+			"**Benefit:** Choose two {rule/occult skill unlocks}. You can use each of those one additional time per day (or per week, in the case of automatic writing). You must have at least 1 rank in the skills associated with the chosen occult skill unlocks."
 		]
 	},
 	"psychic_sensitivity": {
@@ -3459,7 +3509,7 @@
 			"{SOURCE Occult Adventures/138}",
 			"",
 			"You unlock the secrets of the occult world.  ",
-			"**Benefit:** You gain access to occult skill unlocks for any skills in which you have ranks. If you have no ranks in the appropriate skill, you can't use the occult skill unlock, even if that skill can be used untrained.  ",
+			"**Benefit:** You gain access to {rule/occult skill unlocks} for any skills in which you have ranks. If you have no ranks in the appropriate skill, you can't use the occult skill unlock, even if that skill can be used untrained.  ",
 			"**Normal:** You must have the ability to cast psychic spells in order to use occult skill unlocks."
 		]
 	},
@@ -3473,7 +3523,7 @@
 			"",
 			"You can use all of your occult skill unlocks more often and you are more talented at using them.  ",
 			"**Prerequisites:** {feat/Psychic Sensitivity} or ability to cast psychic spells.  ",
-			"**Benefit:** You gain a +2 bonus on checks to use occult skill unlocks. If you have more than 10 ranks in the base skill, this bonus increases to +4. This bonus doesn't apply on other checks using the base skills - only on checks for occult skill unlocks."
+			"**Benefit:** You gain a +2 bonus on checks to use {rule/occult skill unlocks}. If you have more than 10 ranks in the base skill, this bonus increases to +4. This bonus doesn't apply on other checks using the base skills - only on checks for occult skill unlocks."
 		]
 	},
 	"psychovore_master": {
@@ -3486,7 +3536,7 @@
 			"",
 			"When your unarmed attacks strike true. you also damage your target's mind and gain power from it.  ",
 			"**Prerequisites:** {feat/Improved Unarmed Strike}, {feat/Psychovore Strike}, {feat/Psychovore Style}, Sense Motives 15 ranks.  ",
-			"**Benefit:** When you score a critical hit against the creature you are gaining a dodge bonus to AC against from Psychovore Style with your unarmed strike, that target also takes 1 point of Intelligence and Wisdom damage and you gain 2d8 temporary hit points. These temporary hit points last for 1 hour and don't stack with other temporary hit points you might gain with this feat."
+			"**Benefit:** When you score a critical hit against the creature you are gaining a dodge bonus to AC against from Psychovore Style with your unarmed strike, that target also takes 1 point of Intelligence and Wisdom damage and you gain 2d8 {rule/temporary hit points}. These temporary hit points last for 1 hour and don't stack with other temporary hit points you might gain with this feat."
 		]
 	},
 	"psychovore_strike": {
@@ -3499,7 +3549,7 @@
 			"",
 			"You can land blows that confuse your enemies.  ",
 			"**Prerequisites:** {feat/Improved Unarmed Strike}, {feat/Psychovore Style}, Sense Motive 9 ranks.  ",
-			"**Benefit:** When you strike the creature you are gaining a dodge bonus to AC against from Psychovore Style with your unarmed strike, you can force that creature to attempt a Will saving throw (DC = 10 + 1/2 your character level + your Wisdom modifier), in addition to dealing damage normally. A creature who fails its save is confused for 1d6 rounds. You must declare that you are using this feat before you make your attack roll (thus, a failed attack roll ruins the attempt). You can use this ability a number of times per day equal to 1 + your Wisdom bonus (minimum once per day), and no more than once per round. This is a mind-affecting effect, and a creature confused in this way never attacks you."
+			"**Benefit:** When you strike the creature you are gaining a dodge bonus to AC against from Psychovore Style with your unarmed strike, you can force that creature to attempt a Will saving throw (DC = 10 + 1/2 your character level + your Wisdom modifier), in addition to dealing damage normally. A creature who fails its save is {misc/confused} for 1d6 rounds. You must declare that you are using this feat before you make your attack roll (thus, a failed attack roll ruins the attempt). You can use this ability a number of times per day equal to 1 + your Wisdom bonus (minimum once per day), and no more than once per round. This is a mind-affecting effect, and a creature confused in this way never attacks you."
 		]
 	},
 	"psychovore_style": {
@@ -3528,7 +3578,7 @@
 			"",
 			"Your punch has the chance to trip or move your target.  ",
 			"**Prerequisites:** {feat/Improved Reposition}, {feat/Improved Trip}, {feat/Improved Unarmed Strike}, {feat/Pummeling Style}; base attack bonus +9, brawler level 5th, or monk level 5th.  ",
-			"**Benefit:** When you use Pummeling Style to make an entire full attack or flurry of blows against a single target, if you hit with any of your attacks, you can attempt a reposition or trip combat maneuver check as a free action.",
+			"**Benefit:** When you use Pummeling Style to make an entire full attack or flurry of blows against a single target, if you hit with any of your attacks, you can attempt a {rule/reposition} or {rule/trip} combat maneuver check as a free action.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/129}",
@@ -3602,7 +3652,7 @@
 			"",
 			"Your stench is overwhelmingly nauseating.  ",
 			"**Prerequisites:** {umr/Stench} universal monster ability, {feat/Improved Stench}, {feat/Great Fortitude}  ",
-			"**Benefit:** The first round a creature is affected by your stench, it is nauseated in addition to being sickened. At the end of an affected creature's turn after the first round, it can make a new save against the stench's DC to remove the nauseated condition, but the sickened condition lasts as long as normal."
+			"**Benefit:** The first round a creature is affected by your stench, it is {misc/nauseated} in addition to being {misc/sickened}. At the end of an affected creature's turn after the first round, it can make a new save against the stench's DC to remove the nauseated condition, but the sickened condition lasts as long as normal."
 		]
 	},
 	"punishing_kick": {
@@ -3618,8 +3668,8 @@
 			"",
 			"Your kicks are so powerful you use them to push or knock back your foes.  ",
 			"**Prerequisites:** Con 13, Wis 13, {feat/Improved Unarmed Strike}, base attack bonus +8.  ",
-			"**Benefit:** You must declare that you are using this feat before you make your attack roll (thus a failed attack roll ruins the attempt). On a successful hit, the attack deals damage normally and you can choose to push your target 5 feet or attempt to knock them prone. If you decide to push the target, it is moved 5 feet directly away from you. This movement does not provoke attacks of opportunity, and the target must end this move in a safe space it can stand in. If you decide to attempt to knock the target prone, the target receives a Fortitude saving throw with a DC of 10 + 1/2 your character level + your Wisdom modifier to avoid the effect. You may attempt a punishing kick attack once per day for every four levels you have attained (but see Special), and no more than once per round.  ",
-			"**Special:** A hungry ghost monk receives Punishing Kick as a bonus feat at 1st level, even if he does not meet the prerequisites. A monk may attempt a punishing kick attack a number of times per day equal to his monk level, plus one more time per day for every four levels he has in classes other than monk.",
+			"**Benefit:** You must declare that you are using this feat before you make your attack roll (thus a failed attack roll ruins the attempt). On a successful hit, the attack deals damage normally and you can choose to push your target 5 feet or attempt to knock them {rule/prone}. If you decide to push the target, it is moved 5 feet directly away from you. This movement does not provoke attacks of opportunity, and the target must end this move in a safe space it can stand in. If you decide to attempt to knock the target prone, the target receives a Fortitude saving throw with a DC of 10 + 1/2 your character level + your Wisdom modifier to avoid the effect. You may attempt a punishing kick attack once per day for every four levels you have attained (but see Special), and no more than once per round.  ",
+			"**Special:** A {arc-monk/hungry ghost monk} receives Punishing Kick as a bonus feat at 1st level, even if he does not meet the prerequisites. A monk may attempt a punishing kick attack a number of times per day equal to his monk level, plus one more time per day for every four levels he has in classes other than monk.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/129}",
@@ -3677,7 +3727,7 @@
 			"{SOURCE Spymaster's Handbook/23}",
 			"",
 			"The Pure Legion trained you to apply your knowledge of religions to predicting and defeating divine servitors.  ",
-			"**Prerequisites:** Bluff 1 rank, Knowledge (religion) 1 rank, Pure Legion Recruit trait.  ",
+			"**Prerequisites:** Bluff 1 rank, Knowledge (religion) 1 rank, {trait/Pure Legion Recruit} trait.  ",
 			"**Benefit:** You gain a +2 bonus on saving throws against divine spells and effects and abilities from outsiders. If you must attempt a saving throw against a divine spell, you gain a +1 bonus on attack rolls against the creature that cast the spell"
 		]
 	},
@@ -3691,7 +3741,7 @@
 			"",
 			"You learn to purge toxins by vomiting.  ",
 			"**Prerequisites:** {feat/Great Fortitude}.  ",
-			"**Benefit:** As a full-round action that provokes attacks of opportunity, you can attempt to end an ingested poison effect by making yourself vomit. If you succeed at a new saving throw against the initial effect, you gain the nauseated condition for 1 round but end the poison effect as if you had succeeded at the requisite saving throws. Your vomiting causes one adjacent square to become slippery until your vomit is cleaned (usually taking 1 full round) or dries up (usually 1 hour). Once you use this feat, you must wait at least 1 hour and consume food or drink before you can use it again."
+			"**Benefit:** As a full-round action that provokes attacks of opportunity, you can attempt to end an ingested poison effect by making yourself vomit. If you succeed at a new saving throw against the initial effect, you gain the {misc/nauseated} condition for 1 round but end the poison effect as if you had succeeded at the requisite saving throws. Your vomiting causes one adjacent square to become slippery until your vomit is cleaned (usually taking 1 full round) or dries up (usually 1 hour). Once you use this feat, you must wait at least 1 hour and consume food or drink before you can use it again."
 		]
 	},
 	"purifying_channel": {
@@ -3704,7 +3754,7 @@
 			"",
 			"Your healing energy also damages your enemies.  ",
 			"**Prerequisites:** Cha 15, {feat/Selective Channeling}, {ability/channel energy} class feature.  ",
-			"**Benefit:** When you channel positive energy to heal, one creature that you exclude from your channeling takes an amount of fire damage equal to the die result you roll for healing, and is dazzled for 1 round by the light of these flames. A successful saving throw against your channel energy halves the fire damage and negates the dazzled effect."
+			"**Benefit:** When you channel positive energy to heal, one creature that you exclude from your channeling takes an amount of fire damage equal to the die result you roll for healing, and is {misc/dazzled} for 1 round by the light of these flames. A successful saving throw against your channel energy halves the fire damage and negates the dazzled effect."
 		]
 	},
 	"pursuit_of_glory": {
@@ -3730,7 +3780,7 @@
 			"",
 			"Even when suffering from fatigue, you can fight through and overcome incredible opposition.  ",
 			"**Prerequisites:** Con 13, {feat/Combat Stamina}, base attack bonus +1.  ",
-			"**Benefit:** You gain a secondary stamina pool with a number of stamina points equal to your Constitution modifier. You can spend these secondary stamina points only when you have 0 stamina points in your primary stamina pool or when you are fatigued, even though you normally can't spend stamina points while fatigued. You can spend these secondary stamina points as normal, but if the secondary pool drops to 0 points, you become exhausted until you have at least 1 stamina point in your primary pool. Even if you have points in your secondary pool, you are still fatigued as long as you have 0 points in your primary pool. Your secondary pool refreshes only after a full night's rest."
+			"**Benefit:** You gain a secondary stamina pool with a number of stamina points equal to your Constitution modifier. You can spend these secondary stamina points only when you have 0 stamina points in your primary stamina pool or when you are {misc/fatigued}, even though you normally can't spend stamina points while fatigued. You can spend these secondary stamina points as normal, but if the secondary pool drops to 0 points, you become {misc/exhausted} until you have at least 1 stamina point in your primary pool. Even if you have points in your secondary pool, you are still fatigued as long as you have 0 points in your primary pool. Your secondary pool refreshes only after a full night's rest."
 		]
 	},
 	"pushing_assault": {
@@ -3763,8 +3813,8 @@
 			"{SOURCE Horror Adventures/91}",
 			"",
 			"You summon creatures whose very presence turns the stomach of your foes.  ",
-			"**Prerequisites:** {feat/Spell Focus} (conjuration); ability to cast *summon monster* or *summon nature's ally*.  ",
-			"**Benefit:** When you cast a *summon monster* or *summon nature's ally* spell, you can choose to summon a single creature that exudes a putrid odor or befouls the water surrounding it, granting it the {umr/stench} universal monster ability. The duration of the sickened condition created by this stench is a number of rounds equal to the spell's level. When performing a putrid summon, you summon a creature from the next lower list than the spell you are casting. For instance, if you cast {spell/summon monster IV}, you summon a creature from the {spell/summon monster III} list."
+			"**Prerequisites:** {feat/Spell Focus} (conjuration); ability to cast {spell/summon monster>_1} or {spell/summon nature's ally>_1}.  ",
+			"**Benefit:** When you cast a *summon monster* or *summon nature's ally* spell, you can choose to summon a single creature that exudes a putrid odor or befouls the water surrounding it, granting it the {umr/stench} universal monster ability. The duration of the {misc/sickened} condition created by this stench is a number of rounds equal to the spell's level. When performing a putrid summon, you summon a creature from the next lower list than the spell you are casting. For instance, if you cast {spell/summon monster IV}, you summon a creature from the {spell/summon monster III} list."
 		]
 	},
 	"quah_bond": {
@@ -3793,7 +3843,7 @@
 			"",
 			"You can wield a quarterstaff as either a two-handed or one-handed weapon.  ",
 			"**Prerequisites:** {feat/Weapon Focus} (quarterstaff), base attack bonus +5.  ",
-			"**Benefit:** By employing a number of different stances and techniques, you can wield a quarterstaff as a one-handed weapon. At the start of your turn, you decide whether or not you are going to wield the quarterstaff as a one-handed or two-handed weapon. When you wield it as a one-handed weapon, your other hand is free, and you cannot use the staff as a double weapon. You can take the feat {feat/Weapon Specialization} in the quarterstaff even if you have no levels in fighter.",
+			"**Benefit:** By employing a number of different stances and techniques, you can wield a {eq-weapon/quarterstaff} as a one-handed weapon. At the start of your turn, you decide whether or not you are going to wield the quarterstaff as a one-handed or two-handed weapon. When you wield it as a one-handed weapon, your other hand is free, and you cannot use the staff as a double weapon. You can take the feat {feat/Weapon Specialization} in the quarterstaff even if you have no levels in fighter.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/129}",
@@ -3814,7 +3864,7 @@
 			"",
 			"You can barrel into your opponent and follow this with an attack.  ",
 			"**Prerequisites:** Str 13, {feat/Improved Bull Rush}, {feat/Power Attack}, base attack bonus +6.  ",
-			"**Benefit:** On your turn, you can perform a single bull rush combat maneuver in place of one of your melee attacks. You must choose the melee attack with the highest base attack bonus to make the bull rush.  ",
+			"**Benefit:** On your turn, you can perform a single {rule/bull rush} combat maneuver in place of one of your melee attacks. You must choose the melee attack with the highest base attack bonus to make the bull rush.  ",
 			"**Normal:** A bull rush combat maneuver is a standard action.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -3849,7 +3899,7 @@
 			"",
 			"You can perpetrate a dirty trick and deliver an attack before your opponent is the wiser.  ",
 			"**Prerequisites:** Int 13, {feat/Combat Expertise}, {feat/Improved Dirty Trick}, base attack bonus +6.  ",
-			"**Benefit:** On your turn, you can perform a single dirty trick combat maneuver in place of one of your melee attacks. You must choose the melee attack with the highest base attack bonus to make the dirty trick combat maneuver.  ",
+			"**Benefit:** On your turn, you can perform a single {rule/dirty trick} combat maneuver in place of one of your melee attacks. You must choose the melee attack with the highest base attack bonus to make the dirty trick combat maneuver.  ",
 			"**Normal:** A dirty trick combat maneuver is a standard action.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -3871,7 +3921,7 @@
 			"",
 			"You drag your enemy and deliver a punishing blow.  ",
 			"**Prerequisites:** Str 13, {feat/Improved Drag}, {feat/Power Attack}, base attack bonus +6.  ",
-			"**Benefit:** On your turn, you can perform a single drag combat maneuver in place of one of your melee attacks. You must choose the melee attack with the highest base attack bonus to make the drag.  ",
+			"**Benefit:** On your turn, you can perform a single {rule/drag} combat maneuver in place of one of your melee attacks. You must choose the melee attack with the highest base attack bonus to make the drag.  ",
 			"**Normal:** A drag combat maneuver is a standard action.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -3952,7 +4002,7 @@
 			"",
 			"Your opponent becomes an unwitting dance partner, following your lead while you fight.  ",
 			"**Prerequisites:** Int 13, {feat/Combat Expertise}, {feat/Improved Reposition}, base attack bonus +6.  ",
-			"**Benefit:** On your turn, you can perform a single reposition combat maneuver in place of one of your melee attacks. You must choose the melee attack with the highest base attack bonus to make the reposition.  ",
+			"**Benefit:** On your turn, you can perform a single {rule/reposition} combat maneuver in place of one of your melee attacks. You must choose the melee attack with the highest base attack bonus to make the reposition.  ",
 			"**Normal:** A reposition combat maneuver is a standard action.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -3974,7 +4024,7 @@
 			"",
 			"You are adept at relieving foes of their belongings even while you strike.  ",
 			"**Prerequisites:** Int 13, {feat/Combat Expertise}, {feat/Improved Steal}, base attack bonus +6.  ",
-			"**Benefit:** On your turn, you can perform a single steal combat maneuver in place of one of your melee attacks. You must choose the melee attack with the highest base attack bonus to make the steal.  ",
+			"**Benefit:** On your turn, you can perform a single {rule/steal} combat maneuver in place of one of your melee attacks. You must choose the melee attack with the highest base attack bonus to make the steal.  ",
 			"**Normal:** A steal combat maneuver is a standard action.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -3995,7 +4045,7 @@
 			"**Prerequisites:** {feat/Quick Draw}, base attack bonus +1.  ",
 			"**Benefit:** You do not provoke an attack of opportunity when sheathing a weapon, and you can combine a move action to sheathe a weapon with a regular move action. (You can both stow and draw a weapon as part of the same move action in this way.) If you have the {feat/Two-Weapon Fighting} feat, you can sheathe two light or one-handed weapons in the time it would normally take to sheathe one.",
 			"",
-			"You can also quickly stow items in a backpack or other container that you are wearing or carrying. When you successfully use an action to pick up an item (including when you steal an item with a successful Sleight of Hand check or steal combat maneuver check), you can stow the item as part of the same action used to acquire it. You can try to hide this object by attempting a Sleight of Hand check with a -20 penalty, opposed by the Perception check results of all opponents."
+			"You can also quickly stow items in a backpack or other container that you are wearing or carrying. When you successfully use an action to pick up an item (including when you steal an item with a successful Sleight of Hand check or {rule/steal} combat maneuver check), you can stow the item as part of the same action used to acquire it. You can try to hide this object by attempting a Sleight of Hand check with a -20 penalty, opposed by the Perception check results of all opponents."
 		]
 	},
 	"quick_study": {
@@ -4047,7 +4097,7 @@
 			"",
 			"You can deliver one of your blessings with greater speed.  ",
 			"**Prerequisites:** Access to a blessing's major power, blessings class feature.  ",
-			"**Benefit:** Choose one of your blessings that normally requires a standard action to use. You can expend two of your daily uses of blessings to deliver that blessing (regardless of whether it's a minor or major effect) as a swift action instead.  ",
+			"**Benefit:** Choose one of your {ability/blessings} that normally requires a standard action to use. You can expend two of your daily uses of blessings to deliver that blessing (regardless of whether it's a minor or major effect) as a swift action instead.  ",
 			"**Special:** You can take this feat multiple times. Each time you do, you choose a different blessing."
 		]
 	},
@@ -4128,8 +4178,8 @@
 			"{SOURCE Magical Marketplace/6}",
 			"",
 			"You know how to put armor spikes to defensive use by thrusting them into the path of an oncoming attack just in time.  ",
-			"**Prerequisites:** Proficiency with armor spikes.  ",
-			"**Benefit:** If you are wearing armor spikes, as an immediate action when you take damage from a nonmagical attack, you can give your armor spikes the broken condition to reduce the amount of damage you take by 5. If your armor spikes are already broken, they are destroyed when you take the damage. If you are wearing masterwork armor spikes, you instead reduce the damage taken by 10.",
+			"**Prerequisites:** Proficiency with {eq-armorenh/armor spikes}.  ",
+			"**Benefit:** If you are wearing armor spikes, as an immediate action when you take damage from a nonmagical attack, you can give your armor spikes the {misc/broken} condition to reduce the amount of damage you take by 5. If your armor spikes are already broken, they are destroyed when you take the damage. If you are wearing masterwork armor spikes, you instead reduce the damage taken by 10.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Armor Master's Handbook/21}",
@@ -4162,11 +4212,11 @@
 			"**Prerequisites:** Quivering palm class feature, base attack bonus +13.  ",
 			"**Benefit:** After successfully using your quivering palm attack on a creature, you can produce one of the following effects instead of killing the creature, as long as you do so within a number of days equal to your monk level.",
 			"",
-			"Coma: The subject falls unconscious and is helpless for a number of days equal to your monk level.",
-			"",
-			"Memory Loss: The subject falls unconscious for 24 hours and awakens with huge gaps in its memory. The target's memories of the recent past (a number of consecutive days equal to your monk level) are completely obliterated, and can only be restored by a wish or miracle spell.",
-			"",
-			"Pain: The subject takes 1d6 points of nonlethal damage per monk level you possess.",
+			">@HL[Coma:] The subject falls {misc/unconscious} and is {misc/helpless} for a number of days equal to your monk level.",
+			">",
+			">@HL[Memory Loss:] The subject falls unconscious for 24 hours and awakens with huge gaps in its memory. The target's memories of the recent past (a number of consecutive days equal to your monk level) are completely obliterated, and can only be restored by a {spell/wish} or {spell/miracle} spell.",
+			">",
+			">@HL[Pain:] The subject takes 1d6 points of nonlethal damage per monk level you possess.",
 			"",
 			"You must choose the desired effect before the quivering palm's attack roll is made. Unless the target succeeds at its Fortitude save against your quivering palm attack, it succumbs to the desired effect when you will it (a free action). This feat is otherwise subject to all of the limits and conditions of quivering palm."
 		]
@@ -4218,7 +4268,7 @@
 			"",
 			"When you charge, you do so with the power of faith.  ",
 			"**Prerequisites:** {ability/Lay on hands} class feature.  ",
-			"**Benefit:** When you hit with a charge attack, you can expend all of your remaining uses of lay on hands to deal extra damage equal to 1d6 per use of lay on hands expended + your Charisma bonus. This damage comes from holy power and is not subject to damage reduction, energy immunities, or energy resistances."
+			"**Benefit:** When you hit with a {rule/charge} attack, you can expend all of your remaining uses of lay on hands to deal extra damage equal to 1d6 per use of lay on hands expended + your Charisma bonus. This damage comes from holy power and is not subject to damage reduction, energy immunities, or energy resistances."
 		]
 	},
 	"rage_casting": {
@@ -4257,7 +4307,7 @@
 			"",
 			"Your blood boils with latent energy, filling you with an intense fury.  ",
 			"**Prerequisites:** {feat/Eldritch Heritage} or sorcerer bloodline class feature.  ",
-			"**Benefit:** You gain the 1st-level bloodrager bloodline power for your bloodline. In addition, you gain the ability to enter a state similar to (but less powerful than) a bloodrager's bloodrage. You can enter this lesser bloodrage twice per day, for up to 4 rounds. During this lesser bloodrage, you gain a +2 morale bonus to Strength and Constitution, and no morale bonus on Will saving throws. Otherwise, this benefit is the same as the bloodrage class feature.",
+			"**Benefit:** You gain the 1st-level {ability/bloodrager bloodline>s} power for your bloodline. In addition, you gain the ability to enter a state similar to (but less powerful than) a {class/bloodrager/'s} bloodrage. You can enter this lesser bloodrage twice per day, for up to 4 rounds. During this lesser bloodrage, you gain a +2 morale bonus to Strength and Constitution, and no morale bonus on Will saving throws. Otherwise, this benefit is the same as the bloodrage class feature.",
 			"",
 			"If you have more than one bloodline, you choose the bloodline this applies to upon taking the feat."
 		]
@@ -4285,7 +4335,7 @@
 			"",
 			"You are able to harness the rage that burns inside you and fuels your might.  ",
 			"**Prerequisites:** Str 21, {monster/ogre}.  ",
-			"**Benefit:** Select one rage power. Once per day as a free action, you can enter a state of fury and gain the effects of this rage power for 1 minute. If the rage power normally ends a barbarian rage when used, the ability ends after it's used and you immediately become fatigued. You don't otherwise become fatigued at the end of this ability's duration.",
+			"**Benefit:** Select one {ability/rage power>s}. Once per day as a free action, you can enter a state of fury and gain the effects of this rage power for 1 minute. If the rage power normally ends a barbarian rage when used, the ability ends after it's used and you immediately become {misc/fatigued}. You don't otherwise become fatigued at the end of this ability's duration.",
 			"",
 			"Your effective barbarian level for the purpose of qualifying for and using rage powers is equal to your total Hit Dice - 3. This feat doesn't grant any of the normal benefits or penalties of a barbarian's rage.",
 			"",
@@ -4328,7 +4378,7 @@
 			"",
 			"An opponent can do little to evade your wrathful pitching of weapons and objects.  ",
 			"**Prerequisites:** Rage class feature, {feat/Throw Anything}.  ",
-			"**Benefit:** While raging, you can throw a two-handed weapon as a standard action, and you double the range increment for weapons you throw. If you also have the Quick Draw feat, you can throw two-handed weapons at your full normal rate of attacks. Further, you can pick up an unattended object that you can use as an improvised weapon within your reach as part of the attack action to throw that item."
+			"**Benefit:** While raging, you can throw a two-handed weapon as a standard action, and you double the range increment for weapons you throw. If you also have the {feat/Quick Draw} feat, you can throw two-handed weapons at your full normal rate of attacks. Further, you can pick up an unattended object that you can use as an {misc/improvised weapon} within your reach as part of the attack action to throw that item."
 		]
 	},
 	"raging_regeneration": {
@@ -4355,7 +4405,7 @@
 			"",
 			"You expend some of your rage to throw one opponent at another.  ",
 			"**Prerequisites:** Str 13, Con 13, rage class feature, {feat/Improved Bull Rush}, {feat/Power Attack}, base attack bonus +6.  ",
-			"**Benefit:** While raging, when you attempt a bull rush combat maneuver, you can spend 1 additional round of your rage as a swift action to add your Constitution bonus on your combat maneuver check to the bull rush. Further, if you bull rush an opponent into a square another creature occupies or into a solid object, the opponent and the creature or object take bludgeoning damage equal to your Strength modifier + your Constitution modifier."
+			"**Benefit:** While raging, when you attempt a {rule/bull rush} combat maneuver, you can spend 1 additional round of your rage as a swift action to add your Constitution bonus on your combat maneuver check to the bull rush. Further, if you bull rush an opponent into a square another creature occupies or into a solid object, the opponent and the creature or object take bludgeoning damage equal to your Strength modifier + your Constitution modifier."
 		]
 	},
 	"raging_vitality": {
@@ -4368,7 +4418,7 @@
 			"",
 			"While raging, you are full of vigor and health.  ",
 			"**Prerequisites:** Con 15, rage class feature.  ",
-			"**Benefit:** Whenever you are raging, the morale bonus to your Constitution increases by +2. Your rage does not end if you become unconscious. While unconscious you must still expend rounds of rage per day each round."
+			"**Benefit:** Whenever you are raging, the morale bonus to your Constitution increases by +2. Your rage does not end if you become {misc/unconscious}. While unconscious you must still expend rounds of rage per day each round."
 		]
 	},
 	"rahadoumi_exorcist": {
@@ -4381,7 +4431,7 @@
 			"",
 			"You can stagger incorporeal and possessed creatures through sheer force of will.  ",
 			"**Prerequisites:** {feat/Iron Will}, can't have a patron deity.  ",
-			"**Benefit:** As a full-round action, you can recite the Laws of Man with such force and dedication that you stagger those creatures that prey upon the bodies, minds, and souls of mortals. When you use this ability, you must target one creature within 30 feet to which you have line of sight. A successful Will save (DC = 10 + 1/2 your Hit Dice + your Charisma modifier) negates the effects of this feat. An incorporeal undead creature that fails its save against this effect is staggered. If you target a possessed creature, the possessing entity must succeed at a Will save to resist being staggered for 1 round. If it is staggered, the creature it possesses can immediately attempt a new saving throw to end the possession effect (possession effects that don't allow saving throws to resist them cannot be ended by Rahadoumi Exorcist, but the feat can still stagger a possessed creature). You can use this ability a number of times per day equal to 3 + your Charisma modifier."
+			"**Benefit:** As a full-round action, you can recite the Laws of Man with such force and dedication that you stagger those creatures that prey upon the bodies, minds, and souls of mortals. When you use this ability, you must target one creature within 30 feet to which you have line of sight. A successful Will save (DC = 10 + 1/2 your Hit Dice + your Charisma modifier) negates the effects of this feat. An incorporeal undead creature that fails its save against this effect is {misc/staggered}. If you target a possessed creature, the possessing entity must succeed at a Will save to resist being staggered for 1 round. If it is staggered, the creature it possesses can immediately attempt a new saving throw to end the possession effect (possession effects that don't allow saving throws to resist them cannot be ended by Rahadoumi Exorcist, but the feat can still stagger a possessed creature). You can use this ability a number of times per day equal to 3 + your Charisma modifier."
 		]
 	},
 	"raking_claws": {
@@ -4394,7 +4444,7 @@
 			"",
 			"Your claws cause bleeding wounds.  ",
 			"**Prerequisites:** Base attack bonus +8, {class/shifter}, wild shape class feature.  ",
-			"**Benefit:** Whenever you deal piercing or slashing damage with your primary natural weapons, your opponent takes 1d6 points of bleed damage at the start of his turn each round, in addition to the damage dealt by the attack. Bleed damage can be stopped with a successful DC 15 Heal skill check or any magical healing."
+			"**Benefit:** Whenever you deal piercing or slashing damage with your primary natural weapons, your opponent takes 1d6 points of {rule/bleed} damage at the start of his turn each round, in addition to the damage dealt by the attack. Bleed damage can be stopped with a successful DC 15 Heal skill check or any magical healing."
 		]
 	},
 	"rallying_blow": {
@@ -4407,7 +4457,7 @@
 			"",
 			"When you strike true in battle, you wash away allies' fear.  ",
 			"**Prerequisites:** Aura of courage.  ",
-			"**Benefit:** When you confirm a critical hit against an enemy, any fear effect affecting allies within 30 feet is reduced by one step. Panicked becomes frightened, frightened becomes shaken, and shaken is removed. In addition, any ally suffering other effects from a failed save against a fear effect, such as the paralysis from a mummy's despair aura, receives a new save against the effect at the original DC."
+			"**Benefit:** When you confirm a critical hit against an enemy, any fear effect affecting allies within 30 feet is reduced by one step. {misc/Panicked} becomes {misc/frightened}, frightened becomes {misc/shaken}, and shaken is removed. In addition, any ally suffering other effects from a failed save against a fear effect, such as the {rule/paralysis} from a {monster/mummy/'s} despair aura, receives a new save against the effect at the original DC."
 		]
 	},
 	"ranged_disable": {
@@ -4420,7 +4470,7 @@
 			"",
 			"You can disable devices with ranged weapons.  ",
 			"**Prerequisites:** {feat/Far Shot}, {feat/Weapon Focus}, Disable Device 9 ranks.  ",
-			"**Benefit:** As a full-round action, you can attempt a Disable Device check with a ranged weapon you have chosen with Weapon Focus. You can use this ability against only a simple device (one that would normally take a full-round action to disable), and you can't use it if the device has any cover or concealment. This use of the ranged weapon deals no damage to the device, but it allows you to attempt a Disable Device check instead. You treat the ranged attack as if you were using tools inappropriate for the job, taking a -4 penalty on your Disable Device check. You also apply any range penalty for the weapon to the Disable Device check, but you do not gain any bonuses that would normally apply on attack rolls on the Disable Device check."
+			"**Benefit:** As a full-round action, you can attempt a {skill/Disable Device} check with a ranged weapon you have chosen with Weapon Focus. You can use this ability against only a simple device (one that would normally take a full-round action to disable), and you can't use it if the device has any {rule/cover} or {rule/concealment}. This use of the ranged weapon deals no damage to the device, but it allows you to attempt a Disable Device check instead. You treat the ranged attack as if you were using tools inappropriate for the job, taking a -4 penalty on your Disable Device check. You also apply any range penalty for the weapon to the Disable Device check, but you do not gain any bonuses that would normally apply on attack rolls on the Disable Device check."
 		]
 	},
 	"ranged_disarm": {
@@ -4433,7 +4483,7 @@
 			"",
 			"A well-placed shot disarms your foe.  ",
 			"**Prerequisites:** Dex 13, {feat/Deadly Aim}, base attack bonus +1.  ",
-			"**Benefit:** As a full-round action, you can attempt to perform a disarm combat maneuver with any ranged weapon at a -2 penalty. Add your Dexterity modifier to your CMB in place of your Strength modifier and apply range penalties to your combat maneuver check, doubling the penalties from range increments. If your target is more than 30 feet away, you take an additional -2 penalty. If the disarm attempt is successful, the target also takes damage as if you had made a successful attack with that weapon. You cannot be disarmed by failing this disarm attempt."
+			"**Benefit:** As a full-round action, you can attempt to perform a {rule/disarm} combat maneuver with any ranged weapon at a -2 penalty. Add your Dexterity modifier to your CMB in place of your Strength modifier and apply range penalties to your combat maneuver check, doubling the penalties from range increments. If your target is more than 30 feet away, you take an additional -2 penalty. If the disarm attempt is successful, the target also takes damage as if you had made a successful attack with that weapon. You cannot be disarmed by failing this disarm attempt."
 		]
 	},
 	"ranged_feint": {
@@ -4446,7 +4496,7 @@
 			"",
 			"You can mislead foes about your aim with ranged attacks.  ",
 			"**Prerequisites:** Base attack bonus +2, Bluff 3 ranks.  ",
-			"**Benefit:** You can feint with a ranged weapon by throwing a thrown weapon or firing one arrow, bolt, bullet, or other piece of ammunition; this feint takes the same action as normal to feint, but depending on your weapon, you might have to reload or draw another weapon afterward. When you successfully use a ranged feint, you deny that enemy its Dexterity bonus to AC against your ranged attacks as well as your melee attacks for the same duration as normal. If your feints normally deny a foe its Dexterity bonus to AC against attacks other than your own, this applies only against others' melee attacks.  ",
+			"**Benefit:** You can {rule/feint} with a ranged weapon by throwing a thrown weapon or firing one arrow, bolt, bullet, or other piece of ammunition; this feint takes the same action as normal to feint, but depending on your weapon, you might have to reload or draw another weapon afterward. When you successfully use a ranged feint, you deny that enemy its Dexterity bonus to AC against your ranged attacks as well as your melee attacks for the same duration as normal. If your feints normally deny a foe its Dexterity bonus to AC against attacks other than your own, this applies only against others' melee attacks.  ",
 			"**Normal:** You can feint only with a melee weapon, and only against a creature you threaten with that weapon."
 		]
 	},
@@ -4474,7 +4524,7 @@
 			"",
 			"A shot to the leg causes your foe to fall prone.  ",
 			"**Prerequisites:** Dex 13, {feat/Deadly Aim}, base attack bonus +1.  ",
-			"**Benefit:** As a full-round action, you can attempt to perform a trip combat maneuver with any ranged weapon at a -2 penalty. Add your Dexterity modifier to your CMB in place of your Strength modifier and apply range penalties to your combat maneuver check, doubling the penalties from range increments. If your target is more than 30 feet away, you take an additional -2 penalty. If the trip attempt is successful, the target also takes damage as if you had made a successful attack with that weapon. You can't be knocked prone by failing the trip attempt."
+			"**Benefit:** As a full-round action, you can attempt to perform a {rule/trip} combat maneuver with any ranged weapon at a -2 penalty. Add your Dexterity modifier to your CMB in place of your Strength modifier and apply range penalties to your combat maneuver check, doubling the penalties from range increments. If your target is more than 30 feet away, you take an additional -2 penalty. If the trip attempt is successful, the target also takes damage as if you had made a successful attack with that weapon. You can't be knocked prone by failing the trip attempt."
 		]
 	},
 	"rapid_focus_shift": {
@@ -4487,7 +4537,7 @@
 			"",
 			"You can move mental focus from one implement to another more quickly than usual.  ",
 			"**Prerequisites:** Caster level 5th, mental focus class ability.  ",
-			"**Benefit:** Once per day, you can take a full-round action to shift mental focus from one implement to another. You must be undisturbed and able to concentrate. If you take any damage during the transfer, you must succeed at a {rule/concentration} check (DC = 10 + the number of points of damage taken) to complete the transfer. If you fail this check, you lose the points of mental focus instead of moving them from one implement to the other.  ",
+			"**Benefit:** Once per day, you can take a full-round action to shift mental focus from one {ability/implement>s} to another. You must be undisturbed and able to concentrate. If you take any damage during the transfer, you must succeed at a {rule/concentration} check (DC = 10 + the number of points of damage taken) to complete the transfer. If you fail this check, you lose the points of mental focus instead of moving them from one implement to the other.  ",
 			"**Normal:** Shifting focus between two implements takes 1 minute of quiet contemplation.  ",
 			"**Special:** You can take this feat multiple times. Each time you do, you gain an additional daily use of Rapid Focus Shift."
 		]
@@ -4505,7 +4555,7 @@
 			"",
 			"You are a quick hand at grappling.  ",
 			"**Prerequisites:** Dex 13, {feat/Greater Grapple}, {feat/Improved Grapple}, {feat/Improved Unarmed Strike}, base attack bonus +9 or monk level 9th.  ",
-			"**Benefit:** Whenever you use Greater Grapple to successfully maintain a grapple as a move action, you can then spend a swift action to make a grapple combat maneuver check at a -5 penalty.",
+			"**Benefit:** Whenever you use Greater Grapple to successfully maintain a {rule/grapple} as a move action, you can then spend a swift action to make a grapple combat maneuver check at a -5 penalty.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/130}",
@@ -4543,7 +4593,7 @@
 			"",
 			"{SOURCE Ultimate Combat/115;Inner Sea World Guide/288;PRPG Core Rulebook/132}",
 			"",
-			"Choose a type of crossbow (hand, light, heavy) or a single type of one-handed or two-handed firearm that you are proficient with. You can reload such a weapon quickly.  ",
+			"Choose a type of crossbow ({eq-weapon/hand>_crossbow}, {eq-weapon/light>_crossbow}, {eq-weapon/heavy>_crossbow}) or a single type of one-handed or two-handed firearm that you are proficient with. You can reload such a weapon quickly.  ",
 			"**Prerequisites:** Weapon Proficiency (crossbow type chosen) or {feat/Exotic Weapon Proficiency} (firearm).  ",
 			"**Benefit:** The time required for you to reload your chosen type of weapon is reduced to a free action (for a hand or light crossbow), a move action (for heavy crossbow or one-handed firearm), or a standard action (two-handed firearm). Reloading a crossbow or firearm still provokes attacks of opportunity.",
 			"",
@@ -4636,7 +4686,7 @@
 			"",
 			"You coordinate efficiently in tight spaces.  ",
 			"**Prerequisites:** Dex 13, swarming racial trait.  ",
-			"**Benefit:** You can occupy the same square with up to two other creatures that also have this feat. If all participants also have the Tunnel Rat feat, up to four creatures can share the same space."
+			"**Benefit:** You can occupy the same square with up to two other creatures that also have this feat. If all participants also have the {feat/Tunnel Rat} feat, up to four creatures can share the same space."
 		]
 	},
 	"ray_shield": {
@@ -4652,7 +4702,7 @@
 			"",
 			"You can even deflect rays with your shield.  ",
 			"**Prerequisites:** Dex 15, {feat/Missile Shield}, {feat/Spellbreaker}.  ",
-			"**Benefit:** You must be using a light, heavy, or tower shield to use this feat. Once per round when you would normally be hit with a ranged touch attack (including rays and similar magical effects), you may deflect it so that you take no damage from it. Your shield suffers the full effects of the spell or effect, if applicable.",
+			"**Benefit:** You must be using a {eq-armor/light>_shield}, {eq-armor/heavy>_shield}, or {eq-armor/tower shield} to use this feat. Once per round when you would normally be hit with a ranged touch attack (including rays and similar magical effects), you may deflect it so that you take no damage from it. Your shield suffers the full effects of the spell or effect, if applicable.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/130}",
