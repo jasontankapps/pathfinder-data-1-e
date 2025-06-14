@@ -1300,7 +1300,7 @@
 			"",
 			"Deserts are defined not by climate, but rather by the amount of rainfall a region receives; they can be cold, temperate, or hot. They exist in weather shadows, blocked from ordinary precipitation patterns. Desert vegetation is tough and sparse, able to store water for long periods, which means in turn that the soil in a desert is loose and barren, if not entirely rocky. Desert animals tend to be smaller insects, arachnids, mammals, and lizards, with some predatory birds. Venomous creatures are common. In hot deserts, the days are scorching; but at night the heat dissipates quickly, and those who don't have proper cover or clothing can suffer from exposure.",
 			"",
-			"{rule/Desert terrain/ is described here,} but encounters in the desert might also include exposure to either severe {rule/heat>_dangers} or {rule/cold>_dangers}; {rule/storms}, whether blizzards, sandstorms, or thunderstorms, which can lead to flash {rule/floods} in the higher deserts in particular; and [thirst](rule/starvation_and_thirst), when water stores eventually vanish."
+			"{rule/Desert terrain/ is described here,} but encounters in the desert might also include exposure to either severe {rule/heat>_dangers} or {rule/cold>_dangers}; {rule/storms}, whether blizzards, sandstorms, or thunderstorms, which can lead to flash {rule/floods} in the higher deserts in particular; and {rule/starvation_and_<thirst}, when water stores eventually vanish."
 		],
 		"parent_topics": [
 			"gamemastery",

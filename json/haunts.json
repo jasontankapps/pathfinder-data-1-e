@@ -90,7 +90,10 @@
 	},
 	"rapping_spirit": {
 		"name": "Rapping Spirit",
-		"sources": [ "Occult Adventures" ],
+		"sources": [
+			"Occult Adventures",
+			"Occult Mysteries"
+		],
 		"description": [
 			"## Rapping Spirit",
 			"",
@@ -105,7 +108,10 @@
 			"",
 			"### Description",
 			"",
-			"The most common haunts are rapping spirits: unquiet dead with just enough substance to produce disembodied knocking and bumps in the night. Characters can attempt communication with these intelligent spirits by working out codes the spirits can use to convey cryptic messages, or by using tools like spirit planchettes to increase the efficiency of communication with the spirit."
+			"The most common haunts are rapping spirits: unquiet dead with just enough substance to produce disembodied knocking and bumps in the night. Characters can attempt communication with these intelligent spirits by working out codes the spirits can use to convey cryptic messages, or by using tools like spirit planchettes to increase the efficiency of communication with the spirit.",
+			"",
+			"{SOURCE Occult Mysteries/54}  ",
+			"While most haunts are malevolent in nature, some are more benign and serve as a means to communicate with spirits. The most common of these haunts are rapping spirits: unquiet dead with just enough substance to produce cacophonous knocking and loud bumps in the night. Adventurers can attempt communication with these intelligent spirits by working out codes to form cryptic messages at the rate of id10 words per minute with a successful {skill/Linguistics} check."
 		]
 	},
 	"spectral_screams": {
@@ -130,7 +136,10 @@
 	},
 	"demanding_dead": {
 		"name": "Demanding Dead",
-		"sources": [ "Occult Adventures" ],
+		"sources": [
+			"Occult Adventures",
+			"Occult Mysteries"
+		],
 		"description": [
 			"## Demanding Dead",
 			"",
@@ -145,7 +154,10 @@
 			"",
 			"### Description",
 			"",
-			"Some haunts influence the thoughts and actions of those in the mortal realms to communicate their anger, desires, or goals, which can lead to instances of direct-voice channeling and automatic writing. While the demanding dead are sometimes malevolent, more often there is a method to their requests, which could potentially reveal shocking secrets or the key to putting them to rest forever."
+			"Some haunts influence the thoughts and actions of those in the mortal realms to communicate their anger, desires, or goals, which can lead to instances of direct-voice channeling and automatic writing. While the demanding dead are sometimes malevolent, more often there is a method to their requests, which could potentially reveal shocking secrets or the key to putting them to rest forever.",
+			"",
+			"{SOURCE Occult Mysteries/54}  ",
+			"Instances of so-called direct-voice channeling, automatic writing, and talking board communications are often the result of haunts known as the possessive dead: haunts capable of influencing the thoughts and actions of those in the mortal realms to communicate their anger, desires, or goals as they seek eternal rest. "
 		]
 	},
 	"foreboding_mist": {

@@ -4519,7 +4519,7 @@
 	},
 	"the_thrush": {
 		"name": "The Thrush",
-		"compilationSources": [ [ "Occult Mysteries" ] ],
+		"compilationSources": [ [ "Occult Mysteries", 37 ] ],
 		"description": [
 			"**Type:** Cosmic  ",
 			"**Requirements:** Born between 18 Kuthona and 20 Abadius",
@@ -4531,7 +4531,7 @@
 	},
 	"the_lantern_bearer": {
 		"name": "The Lantern Bearer",
-		"compilationSources": [ [ "Occult Mysteries" ] ],
+		"compilationSources": [ [ "Occult Mysteries", 37 ] ],
 		"description": [
 			"**Type:** Cosmic  ",
 			"**Requirements:** Born between 21 Abadius and 16 Calistril",
@@ -4543,7 +4543,7 @@
 	},
 	"the_newlyweds": {
 		"name": "The Newlyweds",
-		"compilationSources": [ [ "Occult Mysteries" ] ],
+		"compilationSources": [ [ "Occult Mysteries", 37 ] ],
 		"description": [
 			"**Type:** Cosmic  ",
 			"**Requirements:** Born between 17 Calistril and 11 Pharast",
@@ -4555,7 +4555,7 @@
 	},
 	"the_bridge": {
 		"name": "The Bridge",
-		"compilationSources": [ [ "Occult Mysteries" ] ],
+		"compilationSources": [ [ "Occult Mysteries", 37 ] ],
 		"description": [
 			"**Type:** Cosmic  ",
 			"**Requirements:** Born between 12 Pharast and 18 Gozran",
@@ -4567,7 +4567,7 @@
 	},
 	"the_daughter": {
 		"name": "The Daughter",
-		"compilationSources": [ [ "Occult Mysteries" ] ],
+		"compilationSources": [ [ "Occult Mysteries", 37 ] ],
 		"description": [
 			"**Type:** Cosmic  ",
 			"**Requirements:** Born between 19 Gozran and 13 Desnus",
@@ -4579,7 +4579,7 @@
 	},
 	"the_rider": {
 		"name": "The Rider",
-		"compilationSources": [ [ "Occult Mysteries" ] ],
+		"compilationSources": [ [ "Occult Mysteries", 37 ] ],
 		"description": [
 			"**Type:** Cosmic  ",
 			"**Requirements:** Born between 14 Desnus and 20 Sarenith",
@@ -4591,7 +4591,7 @@
 	},
 	"the_patriarch": {
 		"name": "The Patriarch",
-		"compilationSources": [ [ "Occult Mysteries" ] ],
+		"compilationSources": [ [ "Occult Mysteries", 37 ] ],
 		"description": [
 			"**Type:** Cosmic  ",
 			"**Requirements:** Born between 21 Sarenith and 20 Erastus",
@@ -4603,7 +4603,7 @@
 	},
 	"the_wagon": {
 		"name": "The Wagon",
-		"compilationSources": [ [ "Occult Mysteries" ] ],
+		"compilationSources": [ [ "Occult Mysteries", 37 ] ],
 		"description": [
 			"**Type:** Cosmic  ",
 			"**Requirements:** Born between 21 Erastus and 10 Arodus",
@@ -4615,7 +4615,7 @@
 	},
 	"the_pack": {
 		"name": "The Pack",
-		"compilationSources": [ [ "Occult Mysteries" ] ],
+		"compilationSources": [ [ "Occult Mysteries", 37 ] ],
 		"description": [
 			"**Type:** Cosmic  ",
 			"**Requirements:** Born between 11 Arodus and 16 Rova",
@@ -4627,7 +4627,7 @@
 	},
 	"the_mother": {
 		"name": "The Mother",
-		"compilationSources": [ [ "Occult Mysteries" ] ],
+		"compilationSources": [ [ "Occult Mysteries", 37 ] ],
 		"description": [
 			"**Type:** Cosmic  ",
 			"**Requirements:** Born between 17 Rova and 30 Lamashan",
@@ -4639,7 +4639,7 @@
 	},
 	"the_star_gazer": {
 		"name": "The Star Gazer",
-		"compilationSources": [ [ "Occult Mysteries" ] ],
+		"compilationSources": [ [ "Occult Mysteries", 37 ] ],
 		"description": [
 			"**Type:** Cosmic  ",
 			"**Requirements:** Born between 31 Lamashan and 20 Neth",
@@ -4651,7 +4651,7 @@
 	},
 	"the_stranger": {
 		"name": "The Stranger",
-		"compilationSources": [ [ "Occult Mysteries" ] ],
+		"compilationSources": [ [ "Occult Mysteries", 37 ] ],
 		"description": [
 			"**Type:** Cosmic  ",
 			"**Requirements:** Born between 21 Neth and 29 Neth",
@@ -4663,7 +4663,7 @@
 	},
 	"the_follower": {
 		"name": "The Follower",
-		"compilationSources": [ [ "Occult Mysteries" ] ],
+		"compilationSources": [ [ "Occult Mysteries", 37 ] ],
 		"description": [
 			"**Type:** Cosmic  ",
 			"**Requirements:** Born between 30 Neth and 17 Kuthona",

@@ -4754,7 +4754,7 @@
 			"{SOURCE Advanced Player's Guide/168}",
 			"",
 			"Your spells go farther than normal.  ",
-			"**Benefit:** You can alter a spell with a range of touch, close, or medium to increase its range to a higher range category, using the following order: touch, close, medium, and long. A reach spell uses up a spell slot one level higher than the spell's actual level for each increase in range category. For example, a spell with a range of touch increased to long range uses up a spell slot three levels higher. Spells modified by this feat that require melee touch attacks instead require ranged touch attacks.",
+			"**Benefit:** You can alter a spell with a range of touch, close, or medium to increase its {rule/range} to a higher range category, using the following order: touch, close, medium, and long. A reach spell uses up a spell slot one level higher than the spell's actual level for each increase in range category. For example, a spell with a range of touch increased to long range uses up a spell slot three levels higher. Spells modified by this feat that require melee touch attacks instead require ranged touch attacks.",
 			"",
 			"Spells that do not have a range of touch, close, or medium do not benefit from this feat."
 		]
@@ -4771,7 +4771,7 @@
 			"**Prerequisites:** Spell-like ability at caster level 4th or higher.  ",
 			"**Benefit:** Choose one of your spell-like abilities, subject to the restrictions described in this feat. You can use the chosen spell-like ability as a reach spell-like ability three times per day (or less, if the ability is normally usable only once or twice per day).",
 			"",
-			"When you use a reach spell-like ability, it can alter a spell-like ability with a range of touch, close, or medium to increase its range to a higher range category, using the following order: touch, close, medium, and long. You can select a spell-like ability that duplicates a spell only if its level is less than or equal to 1/2 its caster level (round down) - 1 per increase in range category. For example, a spell-like ability with a range of touch can be increased to long range only if it duplicates a spell with a level less than or equal to 1/2 your caster level (round down) - 3. For a summary, see the table below. Reach spell-like abilities that normally require melee touch attacks instead require ranged touch attacks.",
+			"When you use a reach spell-like ability, it can alter a spell-like ability with a range of touch, close, or medium to increase its {rule/range} to a higher range category, using the following order: touch, close, medium, and long. You can select a spell-like ability that duplicates a spell only if its level is less than or equal to 1/2 its caster level (round down) - 1 per increase in range category. For example, a spell-like ability with a range of touch can be increased to long range only if it duplicates a spell with a level less than or equal to 1/2 your caster level (round down) - 3. For a summary, see the table below. Reach spell-like abilities that normally require melee touch attacks instead require ranged touch attacks.",
 			"",
 			"Spell-like abilities that do not have a range of touch, close, or medium do not benefit from this feat.",
 			"",
@@ -4840,9 +4840,9 @@
 			"{SOURCE Ultimate Intrigue/90}",
 			"",
 			"You can identify spells by the lingering traces they leave.  ",
-			"**Benefit:** When using identify or any spell of a higher level that normally allows you to detect the school and aura strength of an active spell, if you exceed the DC by 10 or more, you also learn the exact spell. If the spell you are using would already allow you to learn the exact spell from its aura, you can attempt to identify the spell from the traces in a lingering aura, though you take a -10 penalty on such an attempt. When using {spell/greater detect magic} to attempt to identify unique magical signatures, you receive a +2 bonus on your Knowledge (arcana) checks.",
+			"**Benefit:** When using {spell/identify} or any spell of a higher level that normally allows you to detect the school and aura strength of an active spell, if you exceed the DC by 10 or more, you also learn the exact spell. If the spell you are using would already allow you to learn the exact spell from its aura, you can attempt to identify the spell from the traces in a lingering aura, though you take a -10 penalty on such an attempt. When using {spell/greater detect magic} to attempt to identify unique magical signatures, you receive a +2 bonus on your Knowledge (arcana) checks.",
 			"",
-			"In addition, you gain a +2 bonus on saving throws against magic aura and other spells and effects that conceal a spell's true aura unless you succeed at a saving throw."
+			"In addition, you gain a +2 bonus on saving throws against {spell/magic aura} and other spells and effects that conceal a spell's true aura unless you succeed at a saving throw."
 		]
 	},
 	"read_the_room": {
@@ -4868,7 +4868,7 @@
 			"",
 			"You never let down your guard.  ",
 			"**Prerequisites:** {feat/Alertness}, {feat/Improved Initiative}, {feat/Lightning Reflexes}, {feat/Quick Draw}, base attack bonus +6 or {ability/uncanny dodge} class feature.  ",
-			"**Benefit:** You can always act in the surprise round even if you fail a Perception check to notice foes, but you are still considered flat-footed until you take an action."
+			"**Benefit:** You can always act in the surprise round even if you fail a Perception check to notice foes, but you are still considered {rule/flat-footed} until you take an action."
 		]
 	},
 	"ready_for_battle": {
@@ -4935,7 +4935,7 @@
 			"{SOURCE Ultimate Combat/115}",
 			"",
 			"Your riding and lancing expertise allows you to enter and leave the saddle with great speed.  ",
-			"**Prerequisites:** Leaping lance class feature, Acrobatics 5 ranks, Ride 11 ranks.  ",
+			"**Prerequisites:** [Leaping lance class feature]{arc-fighter/dragoon}, Acrobatics 5 ranks, Ride 11 ranks.  ",
 			"**Benefit:** When you succeed at the Acrobatics check to jump as part of your leaping lance class feature, you can remount your steed as a swift action.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -4957,7 +4957,7 @@
 			"",
 			"Your damage reduction can turn the force of blows back on your enemies.  ",
 			"**Prerequisites:** Str 13, damage reduction, {feat/Improved Bull Rush}, {feat/Power Attack}, base attack bonus +1.  ",
-			"**Benefit:** Whenever an opponent that is adjacent to you fails to penetrate your DR with a melee attack, you can spend an immediate action to attempt a bull rush combat maneuver against that opponent. If you succeed, you cannot move with the opponent.  ",
+			"**Benefit:** Whenever an opponent that is adjacent to you fails to penetrate your DR with a melee attack, you can spend an immediate action to attempt a {rule/bull rush} combat maneuver against that opponent. If you succeed, you cannot move with the opponent.  ",
 			"**Normal:** A bull rush combat maneuver is a standard action.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -4976,7 +4976,7 @@
 			"",
 			"You are determined to maintain your own will and bow to no one.  ",
 			"**Prerequisites:** {feat/Iron Will}, {race/hobgoblin}.  ",
-			"**Benefit:** Add 2 to the DCs of checks to intimidate you. While you are subject to a charm person, dominate person, or other charm or compulsion effect, orders to perform normal or benign actions are treated as actions you wouldn't normally do. Orders to perform actions you wouldn't normally do are treated as obviously harmful or self-destructive.  ",
+			"**Benefit:** Add 2 to the DCs of checks to intimidate you. While you are subject to a {spell/charm person}, {spell/dominate person}, or other charm or compulsion effect, orders to perform normal or benign actions are treated as actions you wouldn't normally do. Orders to perform actions you wouldn't normally do are treated as obviously harmful or self-destructive.  ",
 			"**Normal:** While you are under certain charm or compulsion spell effects, commands to perform actions you wouldn't ordinarily do, including obviously harmful or self-destructive acts, allow a new saving throw or end the effect entirely, as described in the spell."
 		]
 	},

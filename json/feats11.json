@@ -402,7 +402,7 @@
 			"",
 			"You and your teammates push and pull each other to maintain your balance in precarious circumstances.  ",
 			"**Prerequisites:** Acrobatics 3 ranks.  ",
-			"**Benefit:** If you are adjacent to an ally who also has this feat, you can initiate this feat as a free action to use the ally as a counterweight to improve your balance, which requires you to push or pull her slightly. You gain a +4 bonus on Acrobatics, Climb, and Stealth checks until you cease using this feat as a free action or you move away from the ally. The abettor is kept off balance and takes a -2 penalty on Acrobatics, Climb, and Stealth checks as long as this feat remains in effect. You can initiate this feat as an immediate action while you are falling or being knocked prone in order to switch places with the abettor, moving her into your former space and moving yourself into her former space. If you do, you and the abettor each end this movement prone unless you succeed at an Acrobatics check with a DC of 20 (the bonuses and penalties for this feat apply). If you were falling, the abettor is falling instead. If you or the abettor were climbing, the other person must succeed at a Climb check against the surface's normal DC to grab on and avoid falling. Switching places provokes attacks of opportunity for the abettor only."
+			"**Benefit:** If you are adjacent to an ally who also has this feat, you can initiate this feat as a free action to use the ally as a counterweight to improve your balance, which requires you to push or pull her slightly. You gain a +4 bonus on Acrobatics, Climb, and Stealth checks until you cease using this feat as a free action or you move away from the ally. The abettor is kept off balance and takes a -2 penalty on Acrobatics, Climb, and Stealth checks as long as this feat remains in effect. You can initiate this feat as an immediate action while you are falling or being knocked prone in order to switch places with the abettor, moving her into your former space and moving yourself into her former space. If you do, you and the abettor each end this movement {rule/prone} unless you succeed at an Acrobatics check with a DC of 20 (the bonuses and penalties for this feat apply). If you were falling, the abettor is {rule/falling} instead. If you or the abettor were climbing, the other person must succeed at a Climb check against the surface's normal DC to grab on and avoid falling. Switching places provokes attacks of opportunity for the abettor only."
 		]
 	},
 	"reckless_rage": {
@@ -446,9 +446,9 @@
 			"**Prerequisites:** Cha 13, character level 5th.  ",
 			"**Benefit:** You gain a number of cohorts (as per the {feat/Leadership} feat) that represent NPCs you are responsible for instructing and overseeing. You have a number of such cohorts equal to half your character level. Unlike normal cohorts, these recruits must be at least 4 levels lower than your level. Since these recruits must spend most of their time studying and gaining experience, only one recruit can travel with you at a time (though they all gain experience at the same rate, as those not present are assumed to be studying and growing independently). Whenever you are in a major town or city, you can exchange the recruit currently accompanying you for a different member of your recruits.",
 			"",
-			"As recruits are busy learning and studying the basics of their careers, those not traveling with you can't engage in mundane or magical crafting or Profession checks. Recruits not traveling with you can, however, serve as managers for your holdings if you are using the downtime rules. If a recruit dies, you take only a -1 penalty to your Leadership score.",
+			"As recruits are busy learning and studying the basics of their careers, those not traveling with you can't engage in mundane or magical crafting or Profession checks. Recruits not traveling with you can, however, serve as managers for your holdings if you are using the {rule/downtime} rules. If a recruit dies, you take only a -1 penalty to your Leadership score.",
 			"",
-			"**Special:** The Recruits feat counts as the {feat/Leadership} feat for purposes of fulfilling prerequisites. A character cannot have both {feat/Leadership} and Recruits. A character with Recruits who later qualifies for {feat/Leadership} can exchange this feat for {feat/Leadership} immediately upon qualifying (selecting one minor cohort to become a full cohort, while the rest move on)."
+			"**Special:** The Recruits feat counts as the Leadership feat for purposes of fulfilling prerequisites. A character cannot have both Leadership and Recruits. A character with Recruits who later qualifies for Leadership can exchange this feat for Leadership immediately upon qualifying (selecting one minor cohort to become a full cohort, while the rest move on)."
 		]
 	},
 	"red_mantis_collaborator": {
@@ -476,7 +476,7 @@
 			"**Prerequisites:** Good alignment, {race/kobold}.  ",
 			"**Benefit:** Your scales take on a metallic sheen appropriate for that of a good-aligned metallic dragon who shares any existing energy affinity you possess, or whom you have chosen to emulate. You gain a +2 circumstance bonus on Diplomacy checks when interacting with good creatures.",
 			"",
-			"In addition, your Charisma is considered 2 points higher for the purposes of channeling positive energy."
+			"In addition, your Charisma is considered 2 points higher for the purposes of {ability/channel[ing] positive energy}."
 		]
 	},
 	"redemption": {
@@ -489,7 +489,7 @@
 			"",
 			"Your past failure haunts you and drives you on.  ",
 			"**Prerequisites:** You must have lost class features by violating the code of conduct of a class that possesses such a code, or have the Dishonored Family [background](rule/birth_circumstances_and_more).  ",
-			"**Benefit:** As an immediate action, you can add a +1 bonus to the result of an ability check, attack roll, saving throw, or skill check you have just rolled by becoming shaken for 1 minute. You must choose before the result is revealed.  ",
+			"**Benefit:** As an immediate action, you can add a +1 bonus to the result of an ability check, attack roll, saving throw, or skill check you have just rolled by becoming {misc/shaken} for 1 minute. You must choose before the result is revealed.  ",
 			"**Goal:** Regain any lost class features and complete a quest to prove your worth. In the course of completing this quest, you must decisively defeat a challenging foe. The quest should relate in some fashion to the transgression that removed your class abilities or led to you being disgraced.  ",
 			"**Completion Benefit:** You gain the ability to reroll a failed saving throw once per day. You must keep the result of the second roll, even if it is lower."
 		]
@@ -546,7 +546,7 @@
 			"",
 			"You've gained enough control over your body to translate strength into swiftness.  ",
 			"**Prerequisites:** Con 13, Wis 13, {feat/Exotic Weapon Proficiency} (aldori dueling sword), {feat/Iron Will}, base attack bonus +4.  ",
-			"**Benefit:** Whenever an effect would grant you an enhancement or morale bonus to your Strength score (such as via bull's strength or a skald's inspired rage performance), you can instead apply that bonus to your Dexterity score. You make this choice when you first gain the bonus. The bonus type does not change."
+			"**Benefit:** Whenever an effect would grant you an enhancement or morale bonus to your Strength score (such as via {spell/bull's strength} or a {class/skald/'s} inspired rage performance), you can instead apply that bonus to your Dexterity score. You make this choice when you first gain the bonus. The bonus type does not change."
 		]
 	},
 	"reflexive_caster": {
@@ -584,8 +584,8 @@
 			"{SOURCE Ultimate Wilderness/219}",
 			"",
 			"The animal can defend its master with lightning speed.  ",
-			"**Prerequisites:** {feat/Intercept Blow}, base attack bonus +3, animal companion, {ability/evasion}.  ",
-			"**Benefit:** Whenever the animal companion is adjacent to its master and its master is attempts a Reflex save, the animal companion can expend an attack of opportunity as a free action, even if it isn't its turn, to attempt a Reflex save to intervene. When using this ability, the animal companion loses the benefits of evasion (and improved evasion if it has it), but if the animal companion succeeds at its saving throw, its master gains the benefit of the animal companion's evasion (or improved evasion if it has it)."
+			"**Prerequisites:** {feat/Intercept Blow}, base attack bonus +3, {sidekick/animal companion}, {ability/evasion}.  ",
+			"**Benefit:** Whenever the animal companion is adjacent to its master and its master is attempts a Reflex save, the animal companion can expend an attack of opportunity as a free action, even if it isn't its turn, to attempt a Reflex save to intervene. When using this ability, the animal companion loses the benefits of evasion (and {ability/improved evasion} if it has it), but if the animal companion succeeds at its saving throw, its master gains the benefit of the animal companion's evasion (or improved evasion if it has it)."
 		]
 	},
 	"reflexive_trick": {
@@ -623,8 +623,8 @@
 			"{SOURCE People of the Wastes/27}",
 			"",
 			"Your magical creations are hardier than most.  ",
-			"**Prerequisites:** {feat/Craft Magic Arms and Armor}, ability to cast make whole or mending.  ",
-			"**Benefit:** When you craft a magic weapon, magic armor, or magic shield, you can add a fortifying element to the item. This increases the item's total construction cost by 10%. If it's a weapon, when it becomes broken, the penalty to attack and damage rolls is reduced to -1 (this can never reduce a broken weapon's penalty to attack and damage to 0 or a positive number). If it's a suit of armor or a shield, when it becomes broken, the bonus it grants to AC is reduced by one-quarter, rounding down. Other drawbacks of the broken condition to weapons, armor, and shields still apply as normal.  ",
+			"**Prerequisites:** {feat/Craft Magic Arms and Armor}, ability to cast {spell/make whole} or {spell/mending}.  ",
+			"**Benefit:** When you craft a magic weapon, magic armor, or magic shield, you can add a fortifying element to the item. This increases the item's total construction cost by 10%. If it's a weapon, when it becomes {misc/broken}, the penalty to attack and damage rolls is reduced to -1 (this can never reduce a broken weapon's penalty to attack and damage to 0 or a positive number). If it's a suit of armor or a shield, when it becomes broken, the bonus it grants to AC is reduced by one-quarter, rounding down. Other drawbacks of the broken condition to weapons, armor, and shields still apply as normal.  ",
 			"**Normal:** A broken weapon imposes a -2 penalty on attack and damage rolls. The bonus a broken suit of armor or a broken shield grants to AC is halved."
 		]
 	},
@@ -667,7 +667,7 @@
 			"",
 			"You keep your aim steady on a downed foe.  ",
 			"**Prerequisites:** {feat/Point-Blank Shot}, base attack bonus +6.  ",
-			"**Benefit:** When you successfully trip an opponent within 30 feet with a ranged attack, you threaten that opponent until your next turn. You can make attacks of opportunity against that opponent with ranged weapons. This effect ends if you attack another target or the opponent moves from its current square.  ",
+			"**Benefit:** When you successfully {rule/trip} an opponent within 30 feet with a ranged attack, you threaten that opponent until your next turn. You can make attacks of opportunity against that opponent with ranged weapons. This effect ends if you attack another target or the opponent moves from its current square.  ",
 			"**Normal:** While wielding a ranged weapon, you threaten no squares and cannot make attacks of opportunity with that weapon."
 		]
 	},
@@ -681,7 +681,7 @@
 			"",
 			"You are furious when destroying dangerous objects.  ",
 			"**Prerequisites:** Str 13, {feat/Gate Breaker}, {feat/Improved Sunder}, {feat/Power Attack}, base attack bonus +1.  ",
-			"**Benefit:** Whenever you sunder a held object, its bearer must succeed at a Reflex saving throw or the bearer catches on fire (taking 1d6 points of fire damage immediately, and an additional 1d6 points of fire damage each subsequent round the creature fails a Reflex saving throw). When your total Hit Dice reach 5, this damage increases by 1d6, and it increases by 1d6 every 5 levels thereafter, to a maximum of 5d6 at 20th level. The saving throw's DC is equal to 10 + 1/2 your HD + your Charisma modifier."
+			"**Benefit:** Whenever you {rule/sunder} a held object, its bearer must succeed at a Reflex saving throw or the bearer {rule/catch[es]«ing» on fire} (taking 1d6 points of fire damage immediately, and an additional 1d6 points of fire damage each subsequent round the creature fails a Reflex saving throw). When your total Hit Dice reach 5, this damage increases by 1d6, and it increases by 1d6 every 5 levels thereafter, to a maximum of 5d6 at 20th level. The saving throw's DC is equal to 10 + 1/2 your HD + your Charisma modifier."
 		]
 	},
 	"relic_familiarity": {
@@ -707,7 +707,7 @@
 			"",
 			"You are a religious pilgrim who often journeys great distances to holy sites of your faith. You take solace in fulfilling your religious purpose and vows, and those you meet respect your dedication and faithfulness.  ",
 			"**Prerequisites:** Knowledge (geography) 2 ranks, Knowledge (religion) 4 ranks.  ",
-			"**Benefit:** You gain a +1 bonus to Will saves, Diplomacy checks, and Survival checks. If you are good, this is a sacred bonus; if you are evil, it's profane. Neutral characters must choose when taking this feat whether the bonus is sacred or profane (if you channel positive or negative energy you must choose the same type as your channeling type). These bonuses increase to +2 if you are on ground that is consecrated to your faith (under the effects of consecrate, desecrate, hallow, or unhallow cast by someone of your religion).",
+			"**Benefit:** You gain a +1 bonus to Will saves, Diplomacy checks, and Survival checks. If you are good, this is a sacred bonus; if you are evil, it's profane. Neutral characters must choose when taking this feat whether the bonus is sacred or profane (if you {ability/channel [positive or negative ]energy} you must choose the same type as your channeling type). These bonuses increase to +2 if you are on ground that is consecrated to your faith (under the effects of {spell/consecrate}, {spell/desecrate}, {spell/hallow}, or {spell/unhallow} cast by someone of your religion).",
 			"",
 			"You may purchase non-magical religious items (including holy water) at a 20% discount."
 		]
@@ -722,7 +722,7 @@
 			"",
 			"You can set off your delayed bombs at great distances.  ",
 			"**Prerequisites:** Delayed bomb discovery.  ",
-			"**Benefit:** The maximum delay for your delayed bombs increases to a number of minutes equal to your level.",
+			"**Benefit:** The maximum delay for your {discovery/delayed bomb/s} increases to a number of minutes equal to your level.",
 			"",
 			"If you have line of effect to your delayed bomb, you may detonate it earlier than its preset time by making a DC 20 Intelligence check; the DC increases by +1 for every 10 feet of distance between you and the bomb."
 		]
@@ -761,7 +761,7 @@
 			"",
 			"You easily tear your enemies limb from limb with your natural attacks.  ",
 			"**Prerequisites:** Base attack bonus +6, {umr/rend} special attack.  ",
-			"**Benefit:** You deal rend damage if you hit with half the normal natural attacks your rend requires. For example, a troll that has this feat can rend when it hits with one claw attack, while a girallon that has this feat must hit one target with two claw attacks to rend. You can only make this rend attack once per round.",
+			"**Benefit:** You deal rend damage if you hit with half the normal natural attacks your rend requires. For example, a {family/troll} that has this feat can rend when it hits with one claw attack, while a {monster/girallon} that has this feat must hit one target with two claw attacks to rend. You can only make this rend attack once per round.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/130}",
@@ -793,7 +793,7 @@
 			"{SOURCE Pathfinder Society Primer/9}",
 			"",
 			"Word of your pre-Pathfinder accomplishments precedes you, and you know how to make the most of your previous reputation.  ",
-			"**Benefit:** When in a settlement of 5,000 people or more, treat your Fame score as 2 higher for the purposes of qualifying for Prestige Awards or purchasing equipment.",
+			"**Benefit:** When in a settlement of 5,000 people or more, treat your {rule/reputation_and_<Fame} score as 2 higher for the purposes of qualifying for {rule/faction_<Prestige/ Awards} or purchasing equipment.",
 			"",
 			"This feat doesn't grant you any additional Prestige Points.",
 			"",
@@ -826,9 +826,9 @@
 			"",
 			"Your critical hits can move your foes where you wish.  ",
 			"**Prerequisites:** Int 13, {feat/Combat Expertise}, {feat/Improved Reposition}, base attack bonus +9.  ",
-			"**Benefit:** Whenever you score a critical hit with a melee attack, you can move your opponent, in addition to the normal damage dealt by the attack. If your confirmation roll exceeds your opponent's CMD, you may move your opponent as if from the reposition combat maneuver. This does not provoke an attack of opportunity.  ",
+			"**Benefit:** Whenever you score a critical hit with a melee attack, you can move your opponent, in addition to the normal damage dealt by the attack. If your confirmation roll exceeds your opponent's CMD, you may move your opponent as if from the {rule/reposition} combat maneuver. This does not provoke an attack of opportunity.  ",
 			"**Normal:** You must perform a reposition combat maneuver to reposition an opponent.  ",
-			"**Special:** You can only apply the effects of one of the following feats to a given critical hit: {feat/Bull Rush Strike}, {feat/Disarming Strike}, {feat/Repositioning Strike}, {feat/Sundering Strike}, or {feat/Tripping Strike}. You may choose to use this feat after you make your confirmation roll.",
+			"**Special:** You can only apply the effects of one of the following feats to a given critical hit: {feat/Bull Rush Strike}, {feat/Disarming Strike}, Repositioning Strike, {feat/Sundering Strike}, or {feat/Tripping Strike}. You may choose to use this feat after you make your confirmation roll.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/130}",
@@ -846,7 +846,7 @@
 			"",
 			"When you enhance your armor or shield, you gain a measure of damage reduction.  ",
 			"**Prerequisites:** Divine bond (armor or shield), or sacred armor class feature.  ",
-			"**Benefit:** While your armor or shield is under the effect of your divine bond or your sacred armor ability, you gain an amount of damage reduction equal to your armor's enhancement bonus (including the bonus from your divine bond or sacred armor) against the first attack to strike you in each round. An adamantine weapon overcomes this damage reduction, but any attack against you made with such a weapon does not count against this effect's duration."
+			"**Benefit:** While your armor or shield is under the effect of your divine bond or your sacred armor ability, you gain an amount of damage reduction equal to your armor's enhancement bonus (including the bonus from your divine bond or sacred armor) against the first attack to strike you in each round. An {eq-material/adamantine} weapon overcomes this damage reduction, but any attack against you made with such a weapon does not count against this effect's duration."
 		]
 	},
 	"resilient_brute": {
@@ -871,8 +871,8 @@
 			"{SOURCE Ultimate Magic/155}",
 			"",
 			"Your link with your eidolon is strong enough that it can remain with you for a short time after you fall unconscious or are killed.  ",
-			"**Prerequisites:** Eidolon class feature.  ",
-			"**Benefit:** If you are knocked unconscious, fall asleep, or are killed, your eidolon remains for a number of rounds equal to your summoner level before it is banished. If you are brought back to consciousness before this duration expires, your eidolon is not banished. If the duration expires before you are brought back to consciousness, your eidolon is banished normally.  ",
+			"**Prerequisites:** {Eidolon class feature.  ",
+			"**Benefit:** If you are knocked unconscious, fall asleep, or are killed, your {sidekick/eidolon} remains for a number of rounds equal to your summoner level before it is banished. If you are brought back to consciousness before this duration expires, your eidolon is not banished. If the duration expires before you are brought back to consciousness, your eidolon is banished normally.  ",
 			"**Normal:** An eidolon is immediately banished when its summoner is unconscious, asleep, or killed."
 		]
 	},
@@ -899,7 +899,7 @@
 			"",
 			"You are especially adept at fighting off the grabbing appendages of aberrations and other tentacled horrors.  ",
 			"**Prerequisites:** Dex 13.  ",
-			"**Benefit:** When a creature hits you with a melee attack and attempts to use the grab ability, it provokes an attack of opportunity from you unless it has the {feat/Improved Grapple} feat. If you hit the opponent with your attack, treat the damage you deal as 5 higher when calculating the penalty on the attacker's combat maneuver check to grapple you.  ",
+			"**Benefit:** When a creature hits you with a melee attack and attempts to use the {umr/grab} ability, it provokes an attack of opportunity from you unless it has the {feat/Improved Grapple} feat. If you hit the opponent with your attack, treat the damage you deal as 5 higher when calculating the penalty on the attacker's combat maneuver check to grapple you.  ",
 			"**Normal:** Creatures using the grab ability does not provoke attacks of opportunity."
 		]
 	},
@@ -938,7 +938,7 @@
 			"",
 			"You can heal more than just injuries of the flesh.  ",
 			"**Prerequisites:** Heal 5 ranks, Use Magic Device 5 ranks, base Fortitude saving throw bonus +3.  ",
-			"**Benefit:** You can cause an item that has a conjuration (healing) spell of 2nd level or higher listed in its construction requirements to cast lesser restoration. If you have 9 ranks in both Heal and Use Magic Device, you can instead cause an item that has a conjuration (healing) spell of 3rd level or higher listed in its construction requirements to cast either {spell/remove blindness//deafness} or {spell/remove paralysis}. You can use this feat once per day, plus an additional time per day when your base Fortitude save bonus reaches +9 and +12."
+			"**Benefit:** You can cause an item that has a conjuration (healing) spell of 2nd level or higher listed in its construction requirements to cast {spell/lesser restoration}. If you have 9 ranks in both Heal and Use Magic Device, you can instead cause an item that has a conjuration (healing) spell of 3rd level or higher listed in its construction requirements to cast either {spell/remove blindness//deafness} or {spell/remove paralysis}. You can use this feat once per day, plus an additional time per day when your base Fortitude save bonus reaches +9 and +12."
 		]
 	},
 	"restorative_vigor": {
@@ -978,7 +978,7 @@
 			"Your training in counterspelling summons is so extensive that you can redirect some of your foes' power to call forth your own allies.  ",
 			"**Prerequisites:** {feat/Spell Focus} (conjuration) or counter summons class feature.",
 			"",
-			"When you successfully counter a summoning spell with {spell/dispel magic} or your own {spell/summon monster>_1} spell, you can immediately summon nonevil creatures as if you had just finished casting a summon monster spell of 2 levels lower than the countered summoning spell."
+			"When you successfully {rule/counter>spells} a summoning spell with {spell/dispel magic} or your own {spell/summon monster>_1} spell, you can immediately summon nonevil creatures as if you had just finished casting a summon monster spell of 2 levels lower than the countered summoning spell."
 		]
 	},
 	"returning_throw": {
@@ -991,7 +991,7 @@
 			"",
 			"You have turned your deadly childhood games into a tactical advantage.  ",
 			"**Prerequisites:** {feat/Point-Blank Shot}, {feat/Precise Shot}, Sleight of Hand 3 ranks, goblinoid subtype.  ",
-			"**Benefit:** Whenever an ally who also has this feat makes an attack with a thrown weapon and misses the target by 4 or less, you can catch the weapon as an immediate action. Both you and your ally must be within 30 feet of the target, and you must be able to trace a line from any part of your space to any part of your ally's space so that the line passes through the target's space. As part of the action to catch the weapon, you can throw it at the target of the original attack. If your target has never seen you perform this maneuver before, it is denied its Dexterity bonus to AC against your attack. You must have at least one hand free to use this feat. You must be aware of the attack and not flat-footed."
+			"**Benefit:** Whenever an ally who also has this feat makes an attack with a thrown weapon and misses the target by 4 or less, you can catch the weapon as an immediate action. Both you and your ally must be within 30 feet of the target, and you must be able to trace a line from any part of your space to any part of your ally's space so that the line passes through the target's space. As part of the action to catch the weapon, you can throw it at the target of the original attack. If your target has never seen you perform this maneuver before, it is denied its Dexterity bonus to AC against your attack. You must have at least one hand free to use this feat. You must be aware of the attack and not {rule/flat-footed}."
 		]
 	},
 	"revelation_strike": {
@@ -1039,7 +1039,7 @@
 			"",
 			"You drag your opponent off balance, then use his momentum to fling him over your head.  ",
 			"**Prerequisites:** Str 13, {feat/Improved Drag}, {feat/Power Attack}.  ",
-			"**Benefit:** When you succeed at a drag combat maneuver check, at the end of your movement, you can fall prone to launch your target over your head. If you do, you move the target of your drag combat maneuver into the space adjacent to you that is opposite its position at the end of your movement, and the target falls prone in that square or squares. You can't use this ability to move a creature into a square that is occupied by a solid object or obstacle. If there would not be enough room for the creature in its new position, the ability fails and the creature is not moved."
+			"**Benefit:** When you succeed at a {rule/drag} combat maneuver check, at the end of your movement, you can fall {rule/prone} to launch your target over your head. If you do, you move the target of your drag combat maneuver into the space adjacent to you that is opposite its position at the end of your movement, and the target falls prone in that square or squares. You can't use this ability to move a creature into a square that is occupied by a solid object or obstacle. If there would not be enough room for the creature in its new position, the ability fails and the creature is not moved."
 		]
 	},
 	"reverse_feint": {
@@ -1112,7 +1112,7 @@
 			"",
 			"Your intense belief in your deity allows you to benefit more from divine magic he or she provides.  ",
 			"**Prerequisites:** Knowledge (religion) 1 rank, alignment must match that of your worshiped deity.  ",
-			"**Benefit:** Whenever you are the only target of a divine spell cast by a follower of your chosen deity other than you, the spell's caster level is treated as though it were 2 higher than it actually is. Additionally, whenever you regain hit points as a result of a worshiper of your deity other than you channeling energy or casting a cure spell, you regain 1 additional hit point per die rolled for the healing gained."
+			"**Benefit:** Whenever you are the only target of a divine spell cast by a follower of your chosen deity other than you, the spell's caster level is treated as though it were 2 higher than it actually is. Additionally, whenever you regain hit points as a result of a worshiper of your deity other than you {ability/channel[ing] energy} or casting a *cure* spell, you regain 1 additional hit point per die rolled for the healing gained."
 		]
 	},
 	"rhabdomancy": {
@@ -1125,7 +1125,7 @@
 			"",
 			"You have mastered the art of casting sticks, rods, or arrows to uncover secrets and find lost things, gaining insight from the way these objects fall.  ",
 			"**Prerequisites:** Knowledge (nature) 3 ranks, Survival 3 ranks.  ",
-			"**Benefit:** You can perform the dowsing occult skill unlock even if you can't use psychic magic. If you can cast psychic spells or have the {feat/Psychic Sensitivity} feat, you can use dowsing one additional time per day.",
+			"**Benefit:** You can perform the {skill/dowsing} occult skill unlock even if you can't use psychic magic. If you can cast psychic spells or have the {feat/Psychic Sensitivity} feat, you can use dowsing one additional time per day.",
 			"",
 			"Spending 1 minute casting sticks prior to attempting a Survival check grants you a +2 insight bonus on the check. In addition, you can cast sticks or rods while casting a spell that locates a creature or object (including scrying effects) to increase the caster level of that spell by 1."
 		]
@@ -1168,7 +1168,7 @@
 			"",
 			"Your charges are both violent and unpredictable.  ",
 			"**Prerequisites:** {feat/Power Attack}, {feat/Improved Bull Rush}, base attack bonus +5.  ",
-			"**Benefit:** You may ready a charge, though you may only move up to your speed on the charge.  ",
+			"**Benefit:** You may ready a {rule/charge}, though you may only move up to your speed on the charge.  ",
 			"**Normal:** Charging is a full-round action and allows you to move twice your speed."
 		]
 	},
@@ -1182,7 +1182,7 @@
 			"",
 			"You can ricochet a firearm shot off the wall and still hit your target.  ",
 			"**Prerequisites:** Grit class feature or {feat/Amateur Gunslinger} feat, {feat/Blind-Fight}.  ",
-			"**Benefit:** You can fire a shot at a wall or piece of solid terrain, and have it ricochet off. When you do, use the square immediately in front of the wall or piece of solid terrain to determine line of sight to a target, and this square is considered the new origin square of the attack. Use that square to determine the effects of cover, and your own square to determine the effects of {rule/concealment}. You can make this shot as long as you have at least 1 grit point. When making this shot, you can spend 1 grit point to ignore the effects of all cover or concealment. You must choose to spend the grit point before you make the attack roll."
+			"**Benefit:** You can fire a shot at a wall or piece of solid terrain, and have it ricochet off. When you do, use the square immediately in front of the wall or piece of solid terrain to determine line of sight to a target, and this square is considered the new origin square of the attack. Use that square to determine the effects of {rule/cover}, and your own square to determine the effects of {rule/concealment}. You can make this shot as long as you have at least 1 grit point. When making this shot, you can spend 1 grit point to ignore the effects of all cover or concealment. You must choose to spend the grit point before you make the attack roll."
 		]
 	},
 	"ricochet_splash_weapon": {
@@ -1226,7 +1226,7 @@
 			"",
 			"While mounted and charging, you can move, strike at a foe, and then continue moving.  ",
 			"**Prerequisites:** Ride 1 rank, {feat/Mounted Combat}.  ",
-			"**Benefit:** When you are mounted and use the charge action, you may move and attack as if with a standard charge and then move again (continuing the straight line of the charge). Your total movement for the round can't exceed double your mounted speed. You and your mount do not provoke an attack of opportunity from the opponent that you attack.",
+			"**Benefit:** When you are mounted and use the {rule/charge} action, you may move and attack as if with a standard charge and then move again (continuing the straight line of the charge). Your total movement for the round can't exceed double your mounted speed. You and your mount do not provoke an attack of opportunity from the opponent that you attack.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/130}",
@@ -1252,7 +1252,7 @@
 			"",
 			"Your healing spells are more potent when you have a judgment active.  ",
 			"**Prerequisites:** Judgment class feature.  ",
-			"**Benefit:** If you cast a cure spell while you have a judgment active, each target regains 1 extra hit point from the cure spell + 1 hit point per three inquisitor levels you possess."
+			"**Benefit:** If you cast a *cure* spell while you have a judgment active, each target regains 1 extra hit point from the *cure* spell + 1 hit point per three inquisitor levels you possess."
 		]
 	},
 	"righteous_orator": {
@@ -1265,7 +1265,7 @@
 			"",
 			"You know words are weapons, and you allow no evil creature to best you in a social setting.  ",
 			"**Prerequisites:** Diplomacy 3 ranks, smite evil class feature.  ",
-			"**Benefit:** While in a verbal debate, such as a court proceeding, negotiation, or verbal duel, you can target another creature participating in the debate as a swift action and expend one of your uses of smite evil. If you target a creature that is not evil, your smite is wasted with no effect. If the target is evil, you add your level in the class granting the smite evil feature as a bonus on your Diplomacy checks and on your Sense Motive checks against deceit attempted by the target. You also gain a morale bonus equal to your Charisma modifier on Will saves against effects originating from the target. This effect remains until you or the target is no longer actively participating in the verbal debate."
+			"**Benefit:** While in a verbal debate, such as a court proceeding, negotiation, or {rule/verbal duel>s}, you can target another creature participating in the debate as a swift action and expend one of your uses of smite evil. If you target a creature that is not evil, your smite is wasted with no effect. If the target is evil, you add your level in the class granting the smite evil feature as a bonus on your Diplomacy checks and on your Sense Motive checks against deceit attempted by the target. You also gain a morale bonus equal to your Charisma modifier on Will saves against effects originating from the target. This effect remains until you or the target is no longer actively participating in the verbal debate."
 		]
 	},
 	"rime_spell": {
@@ -1277,7 +1277,7 @@
 			"{SOURCE Ultimate Magic/155}",
 			"",
 			"Creatures damaged by your spells with the cold descriptor become entangled.  ",
-			"**Benefit:** The frost of your cold spell clings to the target, impeding it for a short time. A rime spell causes creatures that takes cold damage from the spell to become entangled for a number of rounds equal to the original level of the spell.",
+			"**Benefit:** The frost of your cold spell clings to the target, impeding it for a short time. A rime spell causes creatures that takes cold damage from the spell to become {rule/entangled} for a number of rounds equal to the original level of the spell.",
 			"",
 			"This feat only affects spells with the cold descriptor. A rime spell uses up a spell slot one level higher than the spell's actual level."
 		]
@@ -1296,7 +1296,7 @@
 			"",
 			"You can immediately drag opponents you successfully trip.  ",
 			"**Prerequisites:** {feat/Improved Drag}, {feat/Improved Trip}, worshiper of {faith/Gozreh}.  ",
-			"**Benefit:** Whenever you succeed at a trip combat maneuver, you can automatically attempt a drag combat maneuver against your tripped target as a swift action.",
+			"**Benefit:** Whenever you succeed at a {rule/trip} combat maneuver, you can automatically attempt a {rule/drag} combat maneuver against your tripped target as a swift action.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Weapon Master's Handbook/25}",
@@ -1335,7 +1335,7 @@
 			"",
 			"You are well versed in ancient secrets and forbidden curses, and know how to petition powers with which you are already in contact for additional knowledge.  ",
 			"**Prerequisites:** Knowledge (arcana) 4 ranks, Knowledge (history) 4 ranks, hex class feature.  ",
-			"**Benefit:** You learn to perform a special occult ritual known as Beseeching the Patron, which temporarily grants you a hex you don't already know how to use. You always believe that your ritual is a success, so the GM should roll the required skill checks in secret, revealing the result only when you try to use your newly acquired hex.",
+			"**Benefit:** You learn to perform a special {rule/occult ritual>s} known as Beseeching the Patron, which temporarily grants you a hex you don't already know how to use. You always believe that your ritual is a success, so the GM should roll the required skill checks in secret, revealing the result only when you try to use your newly acquired hex.",
 			"",
 			"### Beseeching the Patron",
 			"",
@@ -1351,7 +1351,7 @@
 			"",
 			"**Failure** All of the caster's spells suffer a 10% spell failure chance for 24 hours.",
 			"",
-			"**Effect:** The caster gains access to one additional hex for which she qualifies. This ritual can be used to acquire a major hex (increasing the DCs of the ritual's skill checks by 10) or grand hex (increasing the DCs by 20) if desired. The caster can have only one additional hex from this ritual at a time."
+			"**Effect:** The caster gains access to one additional hex for which she qualifies. This ritual can be used to acquire a {ability/major hex>es} (increasing the DCs of the ritual's skill checks by 10) or {ability/grand hex>es} (increasing the DCs by 20) if desired. The caster can have only one additional hex from this ritual at a time."
 		]
 	},
 	"ritual_mask": {
@@ -1367,9 +1367,9 @@
 			"",
 			"You can use your mask to enhance your occult powers.  ",
 			"**Prerequisites:** {feat/Nameless One}, ability to cast one or more occult rituals.  ",
-			"**Benefit:** While benefiting from the Nameless One feat, your masked identity affords you a greater spiritual connection when you act as the primary caster for an occult ritual you know. For any such occult ritual, you can attempt all required skill checks, even if untrained in such a skill. If you are trained in such a skill, you instead gain a +3 bonus on your skill check.",
+			"**Benefit:** While benefiting from the Nameless One feat, your masked identity affords you a greater spiritual connection when you act as the primary caster for an {rule/occult ritual>s} you know. For any such occult ritual, you can attempt all required skill checks, even if untrained in such a skill. If you are trained in such a skill, you instead gain a +3 bonus on your skill check.",
 			"",
-			"In addition, if you have the spirit class feature (as per the shaman or medium class), you can use the ritualistic focus afforded by this feat to enhance your connection to spirits with which you have communed. Once per day, when you use a supernatural ability granted to you by your spirit (such as a shaman's spirit's hex or spirit abilities, or a medium's spirit powers), you increase your effective class level by 1 when determining the effects of that supernatural ability."
+			"In addition, if you have the spirit class feature (as per the {class/shaman} or {class/medium} class), you can use the ritualistic focus afforded by this feat to enhance your connection to spirits with which you have communed. Once per day, when you use a supernatural ability granted to you by your spirit (such as a shaman's spirit's hex or spirit abilities, or a medium's spirit powers), you increase your effective class level by 1 when determining the effects of that supernatural ability."
 		]
 	},
 	"ritualistic_preparation": {
@@ -1382,8 +1382,8 @@
 			"",
 			"You have learned to access preparation rituals from spellbooks from which you can't otherwise benefit.  ",
 			"**Prerequisites:** Knowledge (arcana) 1 rank, Linguistics 1 rank, Spellcraft 1 rank, ability to cast {spell/read magic}.  ",
-			"**Benefit:** You can treat spellbooks with preparation rituals as if they were prayer books or meditation books.  ",
-			"**Special:** A character with this feat can take the Avid Spellbook Reader feat even if she does not meet its prerequisites. Doing so allows her to benefit from the preparation rituals from two spellbooks, though she must still sacrifice spell slots to benefit from preparation rituals when treating such books as meditation books."
+			"**Benefit:** You can treat {main/equipment_<spellbooks} with preparation rituals as if they were prayer books or meditation books.  ",
+			"**Special:** A character with this feat can take the {feat/Avid Spellbook Reader} feat even if she does not meet its prerequisites. Doing so allows her to benefit from the preparation rituals from two spellbooks, though she must still sacrifice spell slots to benefit from preparation rituals when treating such books as meditation books."
 		]
 	},
 	"rival": {
@@ -1475,9 +1475,9 @@
 			"",
 			"You know how to take a hit, even if your reaction sends you bouncing and flying out of battle while shrieking at the top of your lungs.  ",
 			"**Prerequisites:** {race/Goblin}, Acrobatics 1 rank.  ",
-			"**Benefit:** If you are struck by a melee weapon you can try to convert some or all of that damage into movement that sends you off in an uncontrolled bouncing roll. To do so, you must make an Acrobatics check (DC = 5 + the damage dealt from the attack) as an immediate action. If you succeed in this check, you take no damage from the actual attack but instead convert that damage into movement with each point equating to 1 foot of movement. For example, if you would have taken 6 points of damage, you would convert that into 6 feet of movement. You immediately move in a straight line in a direction of your choice this number of feet (rounded up to the nearest 5-foot-square), halting if you reach a distance equal to your actual speed. If this movement would make you strike an object or creature of your size or larger, the movement immediately ends, you take 1d4 points of damage, and fall prone in that square. This involuntary movement provokes attacks of opportunity normally if you move through threatened squares, but does not provoke an attack of opportunity from the creature that struck you in the first place.",
+			"**Benefit:** If you are struck by a melee weapon you can try to convert some or all of that damage into movement that sends you off in an uncontrolled bouncing roll. To do so, you must make an {skill/Acrobatics} check (DC = 5 + the damage dealt from the attack) as an immediate action. If you succeed in this check, you take no damage from the actual attack but instead convert that damage into movement with each point equating to 1 foot of movement. For example, if you would have taken 6 points of damage, you would convert that into 6 feet of movement. You immediately move in a straight line in a direction of your choice this number of feet (rounded up to the nearest 5-foot-square), halting if you reach a distance equal to your actual speed. If this movement would make you strike an object or creature of your size or larger, the movement immediately ends, you take 1d4 points of damage, and fall {rule/prone} in that square. This involuntary movement provokes attacks of opportunity normally if you move through threatened squares, but does not provoke an attack of opportunity from the creature that struck you in the first place.",
 			"",
-			"You are staggered for 1 round after you attempt to use this feat, whether or not you succeed."
+			"You are {misc/staggered} for 1 round after you attempt to use this feat, whether or not you succeed."
 		]
 	},
 	"rouse_emotions": {
@@ -1519,8 +1519,7 @@
 			"",
 			"You live a hard life in a cold climate, and after enduring the hardships of many brutal winters, you've gained some benefit from the frozen environs.  ",
 			"**Prerequisites:** Con 13, Survival 1 rank.  ",
-			"**Benefit:** You treat extreme cold conditions as severe cold, and severe cold as cold weather conditions. You are not impacted at all by normal cold weather conditions. In addition, you do not become fatigued by frostbite or hypothermia.  ",
-			"**Special:** This feat is unaffiliated - a character need not be affiliated with the [Mammoth Lords](rule/aff_beast_riders) to select this feat."
+			"**Benefit:** You treat {rule/extreme |cold /conditions>dangers} as severe cold, and severe cold as cold weather conditions. You are not impacted at all by normal cold weather conditions. In addition, you do not become fatigued by frostbite or hypothermia."
 		]
 	},
 	"run": {
@@ -1559,7 +1558,7 @@
 			"",
 			"You can deliver touch spells with frightful ferocity.  ",
 			"**Prerequisites:** Caster level 5th.  ",
-			"**Benefit:** As long as two of your hands are free, you can cast a spell with a range of touch and deliver the spell to a single target as part of a charge action. When you do so, you gain a +2 bonus on caster level checks to overcome the target's spell resistance, and the critical threat range of that touch attack is 19-20. This increased threat range does not stack with similar abilities such as {feat/Improved Critical}."
+			"**Benefit:** As long as two of your hands are free, you can cast a spell with a range of touch and deliver the spell to a single target as part of a {rule/charge} action. When you do so, you gain a +2 bonus on caster level checks to overcome the target's spell resistance, and the critical threat range of that touch attack is 19-20. This increased threat range does not stack with similar abilities such as {feat/Improved Critical}."
 		]
 	},
 	"rushing_winds": {
@@ -1598,7 +1597,7 @@
 			"",
 			"You can cause magic items to suffer mishaps.  ",
 			"**Prerequisites:** {feat/Magical Aptitude}, Disable Device 5 ranks, Use Magic Device 5 ranks.  ",
-			"**Benefit:** You can attempt a Use Magic Device check to sabotage a magic item rather than to activate it, with the same DC as activating it blindly. If you succeed at the check, you define a condition under which the magic item will suffer a mishap, either dealing 2d6 points of damage to the creature attempting to use the magic item and failing to perform its desired function or else affecting the wrong target. The condition must be either an audible or a visual trigger, as defined by the magic mouth spell. If you fail the check, you suffer a mishap instead, just as if you had failed to activate the item blindly by 10 or more."
+			"**Benefit:** You can attempt a {skill/Use Magic Device} check to sabotage a magic item rather than to activate it, with the same DC as activating it blindly. If you succeed at the check, you define a condition under which the magic item will suffer a mishap, either dealing 2d6 points of damage to the creature attempting to use the magic item and failing to perform its desired function or else affecting the wrong target. The condition must be either an audible or a visual trigger, as defined by the {spell/magic mouth} spell. If you fail the check, you suffer a mishap instead, just as if you had failed to activate the item blindly by 10 or more."
 		]
 	},
 	"sabotage_specialist": {
@@ -1625,9 +1624,9 @@
 			"",
 			"Your can quickly sabotage a foe's worn or carried equipment.  ",
 			"**Prerequisites:** Str 13, {feat/Improved Sunder}, {feat/Power Attack}, Disable Device 7 ranks.  ",
-			"**Benefit:** As a standard action, you can sabotage an item worn by a foe with a special sunder combat maneuver. You use this maneuver in melee to sabotage an item that is neither held nor hidden in a bag, pack, or other container. You must have at least one hand free to perform this combat maneuver, and doing so provokes an attack of opportunity from the creature against whom you are performing the maneuver, even though you have the Improved Sunder feat.",
+			"**Benefit:** As a standard action, you can sabotage an item worn by a foe with a special {rule/sunder} combat maneuver. You use this maneuver in melee to sabotage an item that is neither held nor hidden in a bag, pack, or other container. You must have at least one hand free to perform this combat maneuver, and doing so provokes an attack of opportunity from the creature against whom you are performing the maneuver, even though you have the Improved Sunder feat.",
 			"",
-			"When attempting the combat maneuver check, use your ranks in Disable Device in place of your base attack bonus and your Dexterity modifier in place of your Strength modifier. Any bonuses on combat maneuver checks specifically to sunder (such as the bonus granted by Improved Sunder) also apply to this maneuver, and any bonuses your target gains to CMD against sundering attempts also protect her from this maneuver. If you succeed at the check, instead of dealing damage, you sabotage the chosen item, causing it to gain the broken condition. If the item was already broken, you instead destroy the item or cause it to fall off. Items immune to sunder are also immune to this special combat maneuver, and this still can't destroy or remove an item such as an artifact that can normally be destroyed or removed only by specific means.",
+			"When attempting the combat maneuver check, use your ranks in Disable Device in place of your base attack bonus and your Dexterity modifier in place of your Strength modifier. Any bonuses on combat maneuver checks specifically to sunder (such as the bonus granted by Improved Sunder) also apply to this maneuver, and any bonuses your target gains to CMD against sundering attempts also protect her from this maneuver. If you succeed at the check, instead of dealing damage, you sabotage the chosen item, causing it to gain the {misc/broken} condition. If the item was already broken, you instead destroy the item or cause it to fall off. Items immune to sunder are also immune to this special combat maneuver, and this still can't destroy or remove an item such as an artifact that can normally be destroyed or removed only by specific means.",
 			"",
 			"**Normal:** A successful sunder attempt deals weapon damage to the sundered item."
 		]
@@ -1642,7 +1641,7 @@
 			"",
 			"You can use your mathematical prowess to add metamagic effects to your spells without using a higher-level spell slot.  ",
 			"**Prerequisites:** Int 13, Knowledge (engineering) 2 ranks  ",
-			"**Benefit:** When you take this feat, select two metamagic feats you do not yet have. When casting a spell, you can perform the steps below to spontaneously apply the effects of either or both of these metamagic feats, as well as any other metamagic feats you have, to the spell without expending a higher-level spell slot. Using a feat in this way increases the spell's casting time to the casting time it would take if the character were a sorcerer or bard (sorcerers and bards using this ability increase the spell's casting time [by two categories](rule/cast_a_spell_2)); applying the Quicken Spell metamagic effect negates the increased casting time but still contributes to the modified spell's effective spell level. You can take this feat more than once; each time, select two additional metamagic feats, adding their effects to the list of possible effects you can apply to spells with this ability.",
+			"**Benefit:** When you take this feat, select two {main/feats_<metamagic/ feats} you do not yet have. When casting a spell, you can perform the steps below to spontaneously apply the effects of either or both of these metamagic feats, as well as any other metamagic feats you have, to the spell without expending a higher-level spell slot. Using a feat in this way increases the spell's casting time to the casting time it would take if the character were a sorcerer or bard (sorcerers and bards using this ability increase the spell's casting time [by two categories](rule/cast_a_spell_2)); applying the {feat/Quicken Spell} metamagic effect negates the increased casting time but still contributes to the modified spell's effective spell level. You can take this feat more than once; each time, select two additional metamagic feats, adding their effects to the list of possible effects you can apply to spells with this ability.",
 			"",
 			"When casting a spell using Sacred Geometry, first determine the effective spell level of the modified spell you are attempting to cast (calculated as normal for a spell modified by metamagic feats). You can apply any number of metamagic effects to a single spell, provided you are able to cast spells of the modified spell's effective spell level.",
 			"",
@@ -1687,8 +1686,8 @@
 			"{SOURCE Ultimate Magic/155}",
 			"",
 			"The minions of your divine patrons stand ready to answer your call.  ",
-			"**Prerequisites:** Aura class feature, ability to cast summon monster.  ",
-			"**Benefit:** When using summon monster to summon creatures whose alignment subtype or subtypes exactly match your aura, you may cast the spell as a standard action instead of with a casting time of 1 round."
+			"**Prerequisites:** Aura class feature, ability to cast {spell/summon monster>_1}.  ",
+			"**Benefit:** When using *summon monster* to summon creatures whose alignment subtype or subtypes exactly match your aura, you may cast the spell as a standard action instead of with a casting time of 1 round."
 		]
 	},
 	"sacrificial_adept": {
@@ -1701,7 +1700,7 @@
 			"",
 			"The deaths of living, sentient creatures fuel your spells and heighten their potency.  ",
 			"**Prerequisites:** Knowledge (arcana) 4 ranks, Knowledge (planes) 4 ranks, Knowledge (religion) 4 ranks, Spellcraft 4 ranks, ability to cast 3rd-level spells, evil alignment.  ",
-			"**Benefit:** By partaking in a heinous ritual that takes at least 10 minutes to complete and which requires you to perform a successful coup de grace upon a sacrifice, you can enhance the power of a single spell you know or have prepared for the next 24 hours, regardless of how many times you cast it within that period. Your sacrifice must be a sentient creature with a total number of Hit Dice greater than or equal to your caster level, and it must die from your coup de grace; if it doesn't die or comes back to life, you lose all benefits related to that sacrifice.",
+			"**Benefit:** By partaking in a heinous ritual that takes at least 10 minutes to complete and which requires you to perform a successful {misc/coup de grace} upon a sacrifice, you can enhance the power of a single spell you know or have prepared for the next 24 hours, regardless of how many times you cast it within that period. Your sacrifice must be a sentient creature with a total number of Hit Dice greater than or equal to your caster level, and it must die from your *coup de grace;* if it doesn't die or comes back to life, you lose all benefits related to that sacrifice.",
 			"",
 			"After successfully performing the ritual, you choose the spell that the ritual enhances and gain your choice of a +2 bonus to any attack rolls and combat maneuvers made with that spell or a +2 bonus on caster level checks to overcome spell resistance with that spell for 24 hours.",
 			"",
@@ -1718,7 +1717,7 @@
 			"",
 			"You convince an ally to help you disable a trap, but the ally takes the damage if you fail.  ",
 			"**Benefit:** When you attempt to disable a trap, an ally who also has this feat can bolster your efforts. The ally rolls 1d20 and adds either her total bonus on Disable Device checks or her character level, whichever is higher; if the result of the ally's roll is 10 or greater, you gain a +4 bonus on your Disable Device check. If you trigger the trap, your ally is the target of the trap's effects. In the case of a trap with multiple targets, your ally takes the effects both for herself and for you (potentially taking damage twice or attempting saving throws twice).  ",
-			"**Normal:** You can use the aid another action only if you are able to attempt the skill check in question. The bonus provided is only +2."
+			"**Normal:** You can use the {rule/aid another} action only if you are able to attempt the skill check in question. The bonus provided is only +2."
 		]
 	},
 	"sacrificial_potency": {
@@ -1731,9 +1730,9 @@
 			"",
 			"Your powers wax with the deaths of mortals.  ",
 			"**Prerequisites:** One or more racial spell-like abilities, outsider with the evil subtype.  ",
-			"**Benefit:** Whenever you perform a coup de grace that kills a creature, choose a racial spell-like ability you have that is usable a limited number of times per day (but not more limited, such as once per week or once per month). The spell-like ability's spell level must be equal to or less than half the victim's Hit Dice. You regain a use of that spell-like ability. This has no effect if you haven't expended any uses of that spell-like ability.",
+			"**Benefit:** Whenever you perform a {misc/coup de grace} that kills a creature, choose a racial spell-like ability you have that is usable a limited number of times per day (but not more limited, such as once per week or once per month). The spell-like ability's spell level must be equal to or less than half the victim's Hit Dice. You regain a use of that spell-like ability. This has no effect if you haven't expended any uses of that spell-like ability.",
 			"",
-			"In addition, you can gain this benefit when an ally within 30 feet performs a coup de grace that kills its victim. The ally must openly proclaim that the killing is done in your name. This otherwise acts as if you had performed the coup de grace yourself.",
+			"In addition, you can gain this benefit when an ally within 30 feet performs a *coup de grace* that kills its victim. The ally must openly proclaim that the killing is done in your name. This otherwise acts as if you had performed the *coup de grace* yourself.",
 			"",
 			"You can gain this feat's benefit only once every 24 hours."
 		]
@@ -1748,7 +1747,7 @@
 			"",
 			"Your magical power used to originate in yourself, but now you draw it from others.  ",
 			"**Prerequisites:** {feat/Mutilating Ritualist}, Knowledge (arcana) 4 ranks, Knowledge (religion) 4 ranks, Spellcraft 4 ranks.  ",
-			"**Benefit:** You can improve your ability to cast an occult ritual by powering it with the blood of creatures. When you begin the occult ritual with the death of a sentient creature (or number of sentient creatures with a total number of Hit Dice equal to twice the effective level of the ritual), you and all secondary casters gain a +4 bonus on all skill checks necessary to complete the occult ritual. This feat's sacrifices are in addition to any sacrifices normally required to complete the ritual."
+			"**Benefit:** You can improve your ability to cast an {rule/occult ritual>s} by powering it with the blood of creatures. When you begin the occult ritual with the death of a sentient creature (or number of sentient creatures with a total number of Hit Dice equal to twice the effective level of the ritual), you and all secondary casters gain a +4 bonus on all skill checks necessary to complete the occult ritual. This feat's sacrifices are in addition to any sacrifices normally required to complete the ritual."
 		]
 	},
 	"saddle_shrieker": {
@@ -1774,7 +1773,7 @@
 			"",
 			"Your familiar's keen observations help you defeat foes.  ",
 			"**Prerequisites:** Must have a familiar with the {arc-familiar/sage} archetype.  ",
-			"**Benefit:** When your familiar succeeds at a Knowledge check to identify a hazard or an opponent's weaknesses and abilities, you gain a +2 insight bonus on attacks and skill checks against the opponent or hazard for 1 round. If your familiar is sharing a space with the opponent or hazard, this bonus is granted to all allies who can see and understand the familiar."
+			"**Benefit:** When your {sidekick/familiar} succeeds at a Knowledge check to identify a hazard or an opponent's weaknesses and abilities, you gain a +2 insight bonus on attacks and skill checks against the opponent or hazard for 1 round. If your familiar is sharing a space with the opponent or hazard, this bonus is granted to all allies who can see and understand the familiar."
 		]
 	},
 	"sahir_afiyun": {
@@ -1790,7 +1789,7 @@
 			"",
 			"You have intertwined your familiarities with pesh and magic to unlock strange powers.  ",
 			"**Prerequisites:** {feat/Spell Focus} (any), ability to cast 2nd-level spells.  ",
-			"**Benefit:** When you consume pesh, you take 1 fewer point of Constitution or Wisdom damage (your choice). In addition, you add spells below to your own class spell list or list of spells known. You can add one spell from the highest level you can cast; you can instead add two spells to your list of spells known, but both of these spells must be at least 1 level lower than the highest-level spell you can cast for that class. If you have more than one spellcasting class, choose one and add the sahir-afiyun spell or spells to that class's spell list or list of spells known.",
+			"**Benefit:** When you consume {drug/pesh}, you take 1 fewer point of Constitution or Wisdom damage (your choice). In addition, you add spells below to your own class spell list or list of spells known. You can add one spell from the highest level you can cast; you can instead add two spells to your list of spells known, but both of these spells must be at least 1 level lower than the highest-level spell you can cast for that class. If you have more than one spellcasting class, choose one and add the sahir-afiyun spell or spells to that class's spell list or list of spells known.",
 			"",
 			"All sahir-afiyun spells require 1 dose of pesh as a material component, either replacing the existing material component, or as part of the material component if the existing component costs more.",
 			"",
@@ -1855,7 +1854,7 @@
 			">**Duration** instantaneous  ",
 			">**Saving Throw** Fortitude partial; **Spell Resistance** yes",
 			">",
-			">This spell functions like slay living, and kills by immediate suffocation. Creatures that do not need to breathe are immune to this spell. The target is considered to have taken a dose of {drug/pesh} for the purpose of addiction and withdrawal effects.",
+			">This spell functions like {spell/slay living}, and kills by immediate suffocation. Creatures that do not need to breathe are immune to this spell. The target is considered to have taken a dose of {drug/pesh} for the purpose of addiction and withdrawal effects.",
 			">",
 			">### Suffocation, Slow",
 			">",
@@ -1882,8 +1881,8 @@
 			"{SOURCE Heroes from the Fringe/9}",
 			"",
 			"You can incorporate sand as part of your unarmed fighting techniques.  ",
-			"**Prerequisites:** {feat/Improved Unarmed Strike}, {race/dwarf}, proficiency with the cestus.  ",
-			"**Benefit:** You can take 1 minute to tightly embed sand into the joints and crevices of a pair of cestuses you wear. While they have sand embedded in them, the cestuses gain +1 hardness and +5 hit points. While wearing cestuses embedded with sand, you can perform a dirty trick combat maneuver to blind a foe in place of one of your melee attacks without provoking an attack of opportunity. Doing so causes the cestuses to no longer have sand embedded in them. You can embed a single cestus with sand as a full-round action, but you take a -4 penalty on the dirty trick combat maneuver check using a single cestus."
+			"**Prerequisites:** {feat/Improved Unarmed Strike}, {race/dwarf}, proficiency with the {eq-weapon/cestus}.  ",
+			"**Benefit:** You can take 1 minute to tightly embed sand into the joints and crevices of a pair of cestuses you wear. While they have sand embedded in them, the cestuses gain +1 hardness and +5 hit points. While wearing cestuses embedded with sand, you can perform a {rule/dirty trick} combat maneuver to {misc/blind>ed} a foe in place of one of your melee attacks without provoking an attack of opportunity. Doing so causes the cestuses to no longer have sand embedded in them. You can embed a single cestus with sand as a full-round action, but you take a -4 penalty on the dirty trick combat maneuver check using a single cestus."
 		]
 	},
 	"sandwalker": {
@@ -1896,7 +1895,7 @@
 			"",
 			"You are at home on the shifting waves of sand.  ",
 			"**Prerequisites:** Dex 13, Con 13.  ",
-			"**Benefit:** When desert terrain would reduce your overland movement speed to 1/2 normal, you can move at 3/4 your normal speed. You gain a +2 bonus to Survival checks to find food and water, and to checks to avoid getting lost in a desert."
+			"**Benefit:** When {rule/desert terrain} would reduce your overland movement speed to 1/2 normal, you can move at 3/4 your normal speed. You gain a +2 bonus to Survival checks to find food and water, and to checks to avoid getting lost in a desert."
 		]
 	},
 	"saoc_brethren_initiate": {
@@ -1905,9 +1904,9 @@
 		"description": [
 			"## Saoc Brethren Initiate",
 			"",
-			"{SOURCE Blood of the Ancients/8}",
+			"{SOURCE Blood of the Ancients/10}",
 			"",
-			"You follow the ancient teachings of the Saoc Brethren, adopting a multidisciplinary approach to charting and predicting astrological events. This insight allows you to easily locate and apply the effects of celestial phenomena.  ",
+			"You follow the ancient teachings of the Saoc Brethren, adopting a multidisciplinary approach to charting and predicting {rule/astrological events}. This insight allows you to easily locate and apply the effects of celestial phenomena.  ",
 			"**Prerequisites:** Knowledge (arcana) 1 rank, Knowledge (nature) 1 rank, Knowledge (planes) 1 rank.  ",
 			"**Benefit:** Gain a +3 bonus on skill checks to detect an astrological event. All bonuses you gain from astrological events are increased by 1, and any penalties are decreased by 1 (to a minimum penalty of -1)."
 		]
@@ -1922,7 +1921,7 @@
 			"",
 			"You have learned to draw additional power from celestial phenomena, harnessing their influence for longer than their natural duration.  ",
 			"**Prerequisites:** {feat/Saoc Brethren Initiate}, Knowledge (arcana) 5 ranks, Knowledge (nature) 5 ranks, Knowledge (planes) 5 ranks.  ",
-			"**Benefit:** You increase the duration of effects caused by astrological events. The duration of effects that last less than a day is increased by 50%, while those that last 24 hours or longer last 1 additional day."
+			"**Benefit:** You increase the duration of effects caused by {rule/astrological events}. The duration of effects that last less than a day is increased by 50%, while those that last 24 hours or longer last 1 additional day."
 		]
 	},
 	"sap_adept": {
@@ -1959,7 +1958,7 @@
 			"",
 			"You knock the sense out of foes with a well-timed surprise attack.  ",
 			"**Prerequisites:** {ability/Sneak attack} +3d6, {feat/Sap Adept}.  ",
-			"**Benefit:** Whenever you use a bludgeoning weapon to deal nonlethal sneak attack damage to a flat-footed opponent, roll your sneak attack dice twice, totaling the results as your nonlethal sneak attack damage for that attack.",
+			"**Benefit:** Whenever you use a bludgeoning weapon to deal nonlethal sneak attack damage to a {rule/flat-footed} opponent, roll your sneak attack dice twice, totaling the results as your nonlethal sneak attack damage for that attack.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/130}",
@@ -1993,7 +1992,7 @@
 			"",
 			"With your victory and a roar, you push yourself on with increased savagery.  ",
 			"**Prerequisites:** {feat/Dazzling Display}.  ",
-			"**Benefit:** When you spend a swift action to make a performance combat check, you gain a +2 bonus on your performance combat check and gain a +1d6 bonus on damage rolls until the end of your next turn. This extra damage is not precision damage.",
+			"**Benefit:** When you spend a swift action to make a {rule/performance combat} check, you gain a +2 bonus on your performance combat check and gain a +1d6 bonus on damage rolls until the end of your next turn. This extra damage is not precision damage.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/130}",
@@ -2011,7 +2010,7 @@
 			"",
 			"You leap into the air while holding your opponent and slam him to the ground.  ",
 			"**Prerequisites:** {feat/Improved Grapple}, {feat/Improved Unarmed Strike}, {feat/Savage Slam}, base attack bonus +12 or monk level 10th.  ",
-			"**Benefit:** When you use {feat/Savage Slam}, you can move yourself and your target up to half your speed before releasing the grapple. You provoke attacks of opportunity from this movement, but your target does not. If your target takes damage from {feat/Savage Slam}, the target is shaken for 1 round. You become flat-footed until the start of your next turn if you move before using {feat/Savage Slam} in this way."
+			"**Benefit:** When you use {feat/Savage Slam}, you can move yourself and your target up to half your speed before releasing the grapple. You provoke attacks of opportunity from this movement, but your target does not. If your target takes damage from {feat/Savage Slam}, the target is {misc/shaken} for 1 round. You become {rule/flat-footed} until the start of your next turn if you move before using {feat/Savage Slam} in this way."
 		]
 	},
 	"savage_slam": {
@@ -2024,7 +2023,7 @@
 			"",
 			"Using your lock on the enemy's body, you forcefully hurl your opponent to the ground.  ",
 			"**Prerequisites:** {feat/Improved Grapple}, {feat/Improved Unarmed Strike}.  ",
-			"**Benefit:** When you begin your turn grappling an opponent, instead of attempting a combat maneuver check to maintain the grapple, you can try to viciously slam your opponent down. As a standard action, you can attempt a grapple combat maneuver check against the opponent. If you succeed, you release your grapple and the opponent falls prone in an unoccupied square of your choice adjacent to you. If you attempt to throw your foe into a hazardous location, such as a wall of fire or a pit, the target receives a +4 bonus to its CMD against your attempt. As long as the opponent lands on solid ground or a solid object, it takes damage equal to your unarmed strike's damage."
+			"**Benefit:** When you begin your turn grappling an opponent, instead of attempting a combat maneuver check to maintain the grapple, you can try to viciously slam your opponent down. As a standard action, you can attempt a {rule/grapple} combat maneuver check against the opponent. If you succeed, you release your grapple and the opponent falls {rule/prone} in an unoccupied square of your choice adjacent to you. If you attempt to throw your foe into a hazardous location, such as a {spell/wall of fire} or a pit, the target receives a +4 bonus to its CMD against your attempt. As long as the opponent lands on solid ground or a solid object, it takes damage equal to your unarmed strike's damage."
 		]
 	},
 	"savage_surge": {
@@ -2040,7 +2039,7 @@
 			"",
 			"You can channel your rage into crowd-pleasing displays of brutality that aid you in the arena.  ",
 			"**Prerequisites:** {feat/Intimidating Prowess}, rage class feature.  ",
-			"**Benefit:** When attempting a performance combat check while raging, you may, as a free action, expend a number of your daily rounds of rage up to half your barbarian level to create a display of savagery. You gain a bonus on the performance combat check equal to half the number of rounds expended, rounded down. If you expend all your remaining rounds of rage in this manner, thus ending your rage, you gain an additional +2 bonus on the check.",
+			"**Benefit:** When attempting a {rule/performance combat} check while raging, you may, as a free action, expend a number of your daily rounds of rage up to half your {class/barbarian} level to create a display of savagery. You gain a bonus on the performance combat check equal to half the number of rounds expended, rounded down. If you expend all your remaining rounds of rage in this manner, thus ending your rage, you gain an additional +2 bonus on the check.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Weapon Master's Handbook/25}",
@@ -2062,7 +2061,7 @@
 			"",
 			"You deflect attacks that could mean your ally's death.  ",
 			"**Prerequisites:** {feat/Shield Proficiency}.  ",
-			"**Benefit:** Whenever an adjacent ally is the target of an attack, you can, as an immediate action, grant that adjacent ally a +2 shield bonus to AC. You must be wielding a light shield, heavy shield, or tower shield to use this feat.",
+			"**Benefit:** Whenever an adjacent ally is the target of an attack, you can, as an immediate action, grant that adjacent ally a +2 shield bonus to AC. You must be wielding a {eq-armor/light shield}, {eq-armor/heavy shield}, or {eq-armor/tower shield} to use this feat.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/130}",
@@ -2087,8 +2086,8 @@
 			"{SOURCE Inner Sea Gods/215}",
 			"",
 			"Calling on the power of Erastil, you can fire an arrow that heals instead of harms.  ",
-			"**Prerequisites:** Ability to cast cure spells, proficient with longbow, worshiper of {faith/Erastil}.  ",
-			"**Benefit:** Once per day when you cast a {main/cure |spell/>_groupings}, you can replace the normal somatic component with drawing a longbow to create a shaft of green glowing light. When you fire the bow as a part of casting the spell and hit your target with a ranged touch attack, the green shaft of light cures the target as if it were touched by the cure spell."
+			"**Prerequisites:** Ability to cast *cure* spells, proficient with longbow, worshiper of {faith/Erastil}.  ",
+			"**Benefit:** Once per day when you cast a {main/cure |spell/>_groupings}, you can replace the normal somatic component with drawing a {eq-weapon/longbow} to create a shaft of green glowing light. When you fire the bow as a part of casting the spell and hit your target with a ranged touch attack, the green shaft of light cures the target as if it were touched by the *cure* spell."
 		]
 	},
 	"scale_and_skin": {
@@ -2114,7 +2113,7 @@
 			"",
 			"Your draconic heritage manifests as divine power.  ",
 			"**Prerequisites:** Ability to spontaneously cast divine spells, {race/kobold}.  ",
-			"**Benefit:** You gain a +1 bonus to your caster level when casting spells included in the dragon domain or subdomains. Your spontaneous divine spellcasting qualifies in place of arcane casting for the dragon disciple prestige class, and you may increase spellcasting in your spontaneous divine class as you progress in dragon disciple levels. Add the bonus spells gained from the blood of dragons ability to those you can cast as divine spells."
+			"**Benefit:** You gain a +1 bonus to your caster level when casting spells included in the {domain/Dragon} domain or subdomains. Your spontaneous divine spellcasting qualifies in place of arcane casting for the {pclass/dragon disciple} prestige class, and you may increase spellcasting in your spontaneous divine class as you progress in dragon disciple levels. Add the bonus spells gained from the blood of dragons ability to those you can cast as divine spells."
 		]
 	},
 	"scapegoat": {
@@ -2209,7 +2208,7 @@
 			"",
 			"Your gaze is naturally drawn to valuable glittering objects.  ",
 			"**Prerequisites:** {race/Tengu}.  ",
-			"**Benefit:** You gain a +2 bonus on Appraise checks. You may determine the most valuable item in a hoard as a standard action and gain an additional +2 bonus on the Appraise check to do so. In addition, if you fail an Appraise check by 5 or more, you treat the check as if you had failed by less than 5.  ",
+			"**Benefit:** You gain a +2 bonus on {skill/Appraise} checks. You may determine the most valuable item in a hoard as a standard action and gain an additional +2 bonus on the Appraise check to do so. In addition, if you fail an Appraise check by 5 or more, you treat the check as if you had failed by less than 5.  ",
 			"**Normal:** Determining the most valuable object in a treasure hoard takes 1 full-round action."
 		]
 	},
@@ -2223,7 +2222,7 @@
 			"",
 			"You coax better behavior out of timeworn technology.  ",
 			"**Prerequisites:** Knowledge (engineering) 1 rank  ",
-			"**Benefit:** When your check for using a piece of timeworn technology results in a glitch, you can roll again. You must choose to reroll before determining the specific glitch, and must take the second result, even if it's worse. When you use timeworn technology, it doesn't automatically glitch on a natural 1."
+			"**Benefit:** When your check for using a piece of {rule/timeworn technology} results in a glitch, you can roll again. You must choose to reroll before determining the specific glitch, and must take the second result, even if it's worse. When you use timeworn technology, it doesn't automatically glitch on a natural 1."
 		]
 	},
 	"scholar": {
@@ -2251,8 +2250,8 @@
 			"{SOURCE Familiar Folio/14}",
 			"",
 			"Your familiar is tied to your school specialization.  ",
-			"**Prerequisites:** Familiar effective level 5th, specialized arcane school class feature.  ",
-			"**Benefit:** You can apply the school familiar archetype to your familiar."
+			"**Prerequisites:** {sidekick/Familiar} effective level 5th, specialized arcane school class feature.  ",
+			"**Benefit:** You can apply the {arc-familiar/school familiar} archetype to your familiar."
 		]
 	},
 	"school_strike": {
@@ -2268,7 +2267,7 @@
 			"",
 			"You focus the secrets of your school of wizardry into your unarmed strike.  ",
 			"**Prerequisites:** Wizard school class feature, {feat/Improved Unarmed Strike}.  ",
-			"**Benefit:** When you gain this feat, choose one arcane school power that you can use to affect no more than one opponent. If you make a successful unarmed strike against an opponent, in addition to dealing your unarmed strike damage, you can use a swift action to deliver the effects of the chosen school power to that opponent. Doing so provokes no attacks of opportunity.  ",
+			"**Benefit:** When you gain this feat, choose one {ability/arcane school>s} power that you can use to affect no more than one opponent. If you make a successful unarmed strike against an opponent, in addition to dealing your unarmed strike damage, you can use a swift action to deliver the effects of the chosen school power to that opponent. Doing so provokes no attacks of opportunity.  ",
 			"**Special:** You can take this feat multiple times. Each time you take it, you apply it to a different qualifying arcane school power.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -2287,7 +2286,7 @@
 			"",
 			"Your intensive combat training to fight vampiric forces allows you to fight off their mental spells and effects using your resistance to fear.  ",
 			"**Prerequisites:** Bravery class feature.  ",
-			"**Benefit:** You add your bravery bonus on Will saves against mind-affecting spells and effects from vampires. This does not stack with the normal bravery bonus on saves against fear effects."
+			"**Benefit:** You add your bravery bonus on Will saves against mind-affecting spells and effects from {template/vampire/s}. This does not stack with the normal bravery bonus on saves against fear effects."
 		]
 	},
 	"scion_of_the_land": {
@@ -2334,12 +2333,12 @@
 			"",
 			"Elemental fire stirs within your body, boiling your blood and rendering you resistant to flame.  ",
 			"**Prerequisites:** {race/Ifrit}.  ",
-			"**Benefit:** You gain a +2 bonus on saving throws against fire attacks and spells with the fire descriptor or light descriptor. As a swift action, you can make up to two held manufactured metallic weapons become red-hot for 1 round, dealing 1 additional point of fire damage with a successful hit. This does not stack with other effects that add fire damage to weapons, such as the flaming weapon special ability.",
+			"**Benefit:** You gain a +2 bonus on saving throws against fire attacks and spells with the fire descriptor or light descriptor. As a swift action, you can make up to two held manufactured metallic weapons become red-hot for 1 round, dealing 1 additional point of fire damage with a successful hit. This does not stack with other effects that add fire damage to weapons, such as the {magic-enh/flaming} weapon special ability.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/130}",
 			">",
-			">When you use this feat to make one or more metallic weapons red hot for 1 round, you can spend 2 stamina points to increase the additional fire damage to 2 points, and have that damage stack with other effects that add fire damage to a weapon (such as the flaming weapon special ability)."
+			">When you use this feat to make one or more metallic weapons red hot for 1 round, you can spend 2 stamina points to increase the additional fire damage to 2 points, and have that damage stack with other effects that add fire damage to a weapon (such as the *flaming* weapon special ability)."
 		]
 	},
 	"scorpion_style": {
@@ -2381,8 +2380,8 @@
 			"{SOURCE Monster Summoner's Handbook/14}",
 			"",
 			"Your experiments with the connection between summoners and the creatures they summon have taught you to see through the eyes of a summoned creature for a short time.  ",
-			"**Prerequisites:** {feat/Spell Focus} (conjuration), ability to cast magic jar.  ",
-			"**Benefit:** When casting a conjuration (summoning) spell that summons a single creature, you can possess the creature as per magic jar (but with no receptacle necessary). If the creature takes damage while you possess it, you must succeed at a {rule/concentration} check (DC equal to the amount of damage taken) or be ejected from the creature immediately. If the creature takes enough damage to reduce it to 0 hit points or fewer, you are immediately ejected from the creature and take an amount of damage equal to double the level of the spell slot used to summon that creature. A scouting summons spell takes up a spell slot 2 levels higher than the spell's actual level."
+			"**Prerequisites:** {feat/Spell Focus} (conjuration), ability to cast {spell/magic jar}.  ",
+			"**Benefit:** When casting a conjuration (summoning) spell that summons a single creature, you can possess the creature as per *magic jar* (but with no receptacle necessary). If the creature takes damage while you possess it, you must succeed at a {rule/concentration} check (DC equal to the amount of damage taken) or be ejected from the creature immediately. If the creature takes enough damage to reduce it to 0 hit points or fewer, you are immediately ejected from the creature and take an amount of damage equal to double the level of the spell slot used to summon that creature. A scouting summons spell takes up a spell slot 2 levels higher than the spell's actual level."
 		]
 	},
 	"scribe_scroll": {
@@ -2421,9 +2420,9 @@
 			"",
 			"You can quickly size up spellcasters to gain an advantage when counterspelling their spells.  ",
 			"**Prerequisites:** Spellcraft 1 rank.  ",
-			"**Benefit:** When you witness a creature casting a spell, you can attempt a Spellcraft check to determine what sort of spellcaster the target is - specifically, what the target's class is. The DC of this skill check is equal to 10 + the spellcaster's Hit Dice. If the target has levels in multiple spellcasting classes, succeeding at this check reveals what class spell list the spell came from. If the result of the check is high enough that it would identify the spell being cast (DC = 15 + the spell's level), you also identify the spell.",
+			"**Benefit:** When you witness a creature casting a spell, you can attempt a {skill/Spellcraft} check to determine what sort of spellcaster the target is - specifically, what the target's class is. The DC of this skill check is equal to 10 + the spellcaster's Hit Dice. If the target has levels in multiple spellcasting classes, succeeding at this check reveals what class spell list the spell came from. If the result of the check is high enough that it would identify the spell being cast (DC = 15 + the spell's level), you also identify the spell.",
 			"",
-			"Once you have identified the target's class, you can add your Wisdom or Charisma modifier (whichever is higher) to Spellcraft checks to identify all spells the target casts from that class's spell list. Additionally, after you have determined the target's spellcasting class, you can attempt an Intimidate check as a free action to demoralize the target, gaining a bonus equal to your Wisdom or Charisma modifier (whichever is highest)."
+			"Once you have identified the target's class, you can add your Wisdom or Charisma modifier (whichever is higher) to Spellcraft checks to identify all spells the target casts from that class's spell list. Additionally, after you have determined the target's spellcasting class, you can attempt an {skill/Intimidate} check as a free action to demoralize the target, gaining a bonus equal to your Wisdom or Charisma modifier (whichever is highest)."
 		]
 	},
 	"sculpting_the_river": {
@@ -2449,7 +2448,7 @@
 			"",
 			"You abandon all notion of personal space when in danger, scurrying about your allies in search of the best vantage point from which to strike at your foes.  ",
 			"**Prerequisites:** {race/Ratfolk}, swarming racial trait.  ",
-			"**Benefit:** You can use your swarming racial trait to enter the square of any willing ally that is the same size as you or up to one size category larger, granting you the benefits of the swarming racial trait as if your ally were also a ratfolk with the swarming racial trait. Your ally gains no benefits from sharing its space with you unless it also has the swarming racial trait. Additionally, you treat any ally who shares its space with you as having the same teamwork feats that you do for the purpose of determining whether you gain a bonus from teamwork feats. Your ally doesn't gain any of the bonuses from these feats unless she actually has the teamwork feats. You and your ally's positioning and actions must still meet the prerequisites listed in a teamwork feat's description in order to gain the teamwork feat's listed bonus, but your ally is considered to be adjacent to you while you share her space for the purpose of determining whether you or your ally gains a benefit."
+			"**Benefit:** You can use your swarming racial trait to enter the square of any willing ally that is the same size as you or up to one size category larger, granting you the benefits of the swarming racial trait as if your ally were also a {race/ratfolk} with the swarming racial trait. Your ally gains no benefits from sharing its space with you unless it also has the swarming racial trait. Additionally, you treat any ally who shares its space with you as having the same {main/feats_<teamwork/ feats} that you do for the purpose of determining whether you gain a bonus from teamwork feats. Your ally doesn't gain any of the bonuses from these feats unless she actually has the teamwork feats. You and your ally's positioning and actions must still meet the prerequisites listed in a teamwork feat's description in order to gain the teamwork feat's listed bonus, but your ally is considered to be adjacent to you while you share her space for the purpose of determining whether you or your ally gains a benefit."
 		]
 	},
 	"scuttle": {
@@ -4009,7 +4008,7 @@
 			"**Prerequisites:** Str 13, {feat/Improved Sunder}, {feat/Power Attack}, base attack bonus +9.  ",
 			"**Benefit:** Whenever you score a critical hit with a melee attack, you can sunder your opponent's weapon, in addition to the normal damage dealt by the attack. If your confirmation roll exceeds your opponent's CMD, you may deal damage to your opponent's weapon as if from the sunder combat maneuver (roll normal damage to the weapon separately). This does not provoke an attack of opportunity.  ",
 			"**Normal:** You must perform a sunder combat maneuver to sunder an opponent's weapon.  ",
-			"**Special:** You can only apply the effects of one of the following feats to a given critical hit: {feat/Bull Rush Strike}, {feat/Disarming Strike}, {feat/Repositioning Strike}, {feat/Sundering Strike}, or {feat/Tripping Strike}. You may choose to use this feat after you make your confirmation roll.",
+			"**Special:** You can only apply the effects of one of the following feats to a given critical hit: {feat/Bull Rush Strike}, {feat/Disarming Strike}, {feat/Repositioning Strike}, Sundering Strike, or {feat/Tripping Strike}. You may choose to use this feat after you make your confirmation roll.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/133}",
