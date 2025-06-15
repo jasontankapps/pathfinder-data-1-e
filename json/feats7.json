@@ -12,7 +12,7 @@
 			"",
 			"Your blows knock swimming opponents off balance.  ",
 			"**Prerequisites:** {feat/Combat Expertise}, merfolk.  ",
-			"**Benefit:** When you make a successful melee attack against a swimming target, as a free action you can attempt to knock the target off balance. Treat this as a trip combat maneuver. If you succeed, the target is considered off balance until it recovers its balance, usually by making a Swim check on its turn. This feat has no effect on creatures with a swim speed, those using magic such as freedom of movement, and creatures that can't be tripped.",
+			"**Benefit:** When you make a successful melee attack against a swimming target, as a free action you can attempt to knock the target off balance. Treat this as a {rule/trip} combat maneuver. If you succeed, the target is considered {rule/off-balance>_and_prone_underwater} until it recovers its balance, usually by making a Swim check on its turn. This feat has no effect on creatures with a swim speed, those using magic such as freedom of movement, and creatures that can't be tripped.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/130}",
@@ -43,7 +43,7 @@
 			"",
 			"You harry your foes with the light and heat of your weapon.  ",
 			"**Prerequisites:** {feat/Catch Off-Guard}.  ",
-			"**Benefit:** When you make an attack using a light source such as a sunrod or torch as an improvised weapon, the target must succeed at a Fortitude save or be dazzled for 1 round. On a critical hit, the target is instead blinded for 1 round. The DC of the effect is 10 + half your character level + your Dexterity modifier. Blind targets are immune to this effect."
+			"**Benefit:** When you make an attack using a light source such as a {eq-misc/sunrod} or {eq-misc/torch} as an {misc/improvised weapon}, the target must succeed at a Fortitude save or be {misc/dazzled} for 1 round. On a critical hit, the target is instead {misc/blinded} for 1 round. The DC of the effect is 10 + half your character level + your Dexterity modifier. Blind targets are immune to this effect."
 		]
 	},
 	"seasoned_flier": {
@@ -90,7 +90,7 @@
 			"",
 			"The roar of the crowd strengthens your resolve.  ",
 			"**Prerequisites:** {feat/Endurance}.  ",
-			"**Benefit:** When you spend a swift action to attempt a performance combat check, you gain a +2 bonus on your performance combat check, and if you are shaken, sickened, or fatigued, these conditions are suppressed until the end of your next turn."
+			"**Benefit:** When you spend a swift action to attempt a {rule/performance combat} check, you gain a +2 bonus on your performance combat check, and if you are {misc/shaken}, {misc/sickened}, or {misc/fatigued}, these conditions are suppressed until the end of your next turn."
 		]
 	},
 	"secret_capital": {
@@ -103,7 +103,7 @@
 			"",
 			"You have access to family connections and secret funds you can use to make things happen more easily.  ",
 			"**Prerequisites:** Int 13, member of the Seven Houses.  ",
-			"**Benefit:** When you use gp to buy capital using the downtime rules, you pay only 75% of the normal cost."
+			"**Benefit:** When you use gp to {rule/gaining<buy| capital} using the {rule/downtime} rules, you pay only 75% of the normal cost."
 		]
 	},
 	"secret_language": {
@@ -159,7 +159,7 @@
 			"",
 			"You are so skilled at stashing small packets of firearm ammunition and black powder on your person that you sometimes surprise yourself when you find them.  ",
 			"**Prerequisites:** Grit class feature or {feat/Amateur Gunslinger} feat, Sleight of Hand 1 rank.  ",
-			"**Benefit:** Spend 1 grit point while in combat to recover either 1 bullet and 1 dose of black powder or 1 alchemical cartridge from a hidden stash on your person that you had, until now, forgotten about. If the bullet and black powder or the alchemical cartridges are normal shot, you do not need to pay for the ammunition. If you want to recover any other kind of ammunition, you must pay for it with gold pieces from your character's wealth. The grit cost of this deed cannot be decreased by the Signature Deed feat, the true grit class feature, or any other similar effect that reduces the number of grit points you spend to use a deed. You also gain a +4 bonus on any Sleight of Hand checks made while gambling."
+			"**Benefit:** Spend 1 grit point while in combat to recover either 1 bullet and 1 dose of black powder or 1 alchemical cartridge from a hidden stash on your person that you had, until now, forgotten about. If the bullet and black powder or the alchemical cartridges are normal shot, you do not need to pay for the ammunition. If you want to recover any other kind of ammunition, you must pay for it with gold pieces from your character's wealth. The grit cost of this deed cannot be decreased by the {feat/Signature Deed} feat, the true grit class feature, or any other similar effect that reduces the number of grit points you spend to use a deed. You also gain a +4 bonus on any {skill/Sleight of Hand} checks made while gambling."
 		]
 	},
 	"secured_armor": {
@@ -172,8 +172,8 @@
 			"",
 			"You are adept at using your armor to cover your most vulnerable areas.  ",
 			"**Prerequisites:** Base attack bonus +11 or fighter level 8th, armor training class feature, proficiency with medium or heavy armor.  ",
-			"**Benefit:** When you are hit by a confirmed critical hit or a sneak attack, there is a 25% chance that the critical hit or sneak attack is negated and damage is instead rolled normally.  ",
-			"**Special:** This chance stacks with the light fortification and moderate fortification armor special abilities.",
+			"**Benefit:** When you are hit by a confirmed critical hit or a {ability/sneak attack}, there is a 25% chance that the critical hit or sneak attack is negated and damage is instead rolled normally.  ",
+			"**Special:** This chance stacks with the {magic-enh/light fortification} and {magic-enh/moderate fortification} armor special abilities.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Armor Master's Handbook/21}",
@@ -230,7 +230,7 @@
 			"{SOURCE Ranged Tactics Toolbox/13}",
 			"",
 			"You can cast spells that bend around barriers to reach their intended destination.  ",
-			"**Benefit:** A seeking spell's range can bend around obstacles to reach the intended target. You can define the route yourself or unambiguously identify a target and allow the spell to determine its own path. However, the spell fails if it would have to travel farther than its maximum range to reach the identified target. A ranged attack roll made to deliver a seeking spell is not subject to cover or concealment. In order to benefit from this feat, the selected spell must have a range greater than touch and target one or more creatures, or it must require the caster to make a ranged touch attack. A seeking spell uses up a spell slot 2 levels higher than the spell's actual level."
+			"**Benefit:** A seeking spell's range can bend around obstacles to reach the intended target. You can define the route yourself or unambiguously identify a target and allow the spell to determine its own path. However, the spell fails if it would have to travel farther than its maximum range to reach the identified target. A ranged attack roll made to deliver a seeking spell is not subject to {rule/cover} or {rule/concealment}. In order to benefit from this feat, the selected spell must have a range greater than touch and target one or more creatures, or it must require the caster to make a ranged touch attack. A seeking spell uses up a spell slot 2 levels higher than the spell's actual level."
 		]
 	},
 	"seen_and_unseen": {
@@ -256,7 +256,7 @@
 			"",
 			"Your innate magical darkness seeps through your skin and strengthens when you're near another creature whose soul is as wicked as yours.  ",
 			"**Prerequisites:** {race/Drow}, darkness racial spell-like ability.  ",
-			"**Benefit:** Whenever you're adjacent to a drow ally who also has this feat, you can spend a move action to gain concealment (20% miss chance) for 1 round."
+			"**Benefit:** Whenever you're adjacent to a drow ally who also has this feat, you can spend a move action to gain {rule/concealment} (20% miss chance) for 1 round."
 		]
 	},
 	"seething_hatred": {
@@ -292,8 +292,8 @@
 			"{SOURCE Advanced Class Guide/156}",
 			"",
 			"You can take advantage of your foes when they overcommit on their attacks.  ",
-			"**Prerequisites:** Opportune parry and riposte deed.  ",
-			"**Benefit:** When your foe is using {feat/Power Attack} and you successfully use the opportune parry and riposte deed to parry its attack and then respond with a riposte, you add your foe's current bonus on damage rolls from Power Attack to your own damage roll, but you do not take the penalty to hit from your foe's Power Attack.",
+			"**Prerequisites:** {swashdeed/Opportune parry and riposte} deed.  ",
+			"**Benefit:** When your foe is using {feat/Power Attack} and you successfully use the *opportune parry and riposte* deed to parry its attack and then respond with a riposte, you add your foe's current bonus on damage rolls from Power Attack to your own damage roll, but you do not take the penalty to hit from your foe's Power Attack.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/131}",
@@ -336,7 +336,7 @@
 			"You can choose whom to affect when you channel energy.  ",
 			"**Prerequisites:** Cha 13, {ability/channel energy} class feature.  ",
 			"**Benefit:** When you channel energy, you can choose a number of targets in the area up to your Charisma modifier. These targets are not affected by your channeled energy.  ",
-			"**Normal:** All targets in a 30-foot burst are affected when you channel energy. You can only choose whether or not you are affected.",
+			"**Normal:** All targets in a 30-foot {misc/burst} are affected when you channel energy. You can only choose whether or not you are affected.",
 			"",
 			"### Mythic Selective Channeling",
 			"",
@@ -357,7 +357,7 @@
 			"",
 			"Your allies need not fear friendly fire.  ",
 			"**Prerequisites:** Spellcraft 10 ranks.  ",
-			"**Benefit:** When casting a selective spell with an area effect and a duration of instantaneous, you can choose a number of targets in the area equal to the ability score modifier used to determine bonus spells of the same type (Charisma for bards, oracles, paladins, sorcerers, and summoners; Intelligence for witches and wizards; Wisdom for clerics, druids, inquisitors, and rangers). These targets are excluded from the effects of your spell. A selective spell uses up a spell slot one level higher than the spell's actual level.",
+			"**Benefit:** When casting a selective spell with an area effect and a duration of instantaneous, you can choose a number of targets in the area equal to the ability score modifier used to determine bonus spells of the same type (Charisma for antipaladins, bards, bloodragers, mediums, mesmerists, oracles, paladins, skalds, sorcerers, and summoners; Intelligence for arcanists, occultists, psychics, witches, and wizards; Wisdom for adepts, clerics, druids, hunters, inquisitors, rangers, shamans, spiritualists, and warpriests). These targets are excluded from the effects of your spell. A selective spell uses up a spell slot one level higher than the spell's actual level.",
 			"",
 			"Spells that do not have an area of effect do not benefit from this feat."
 		]
@@ -387,7 +387,7 @@
 			"",
 			"You can hoard channeled energy for yourself.  ",
 			"**Prerequisites:** {ability/Channel energy} class feature.  ",
-			"**Benefit:** Whenever you channel positive energy to heal creatures, you regain half again as many hit points (+50%) as normal if you're the only creature healed by the channeled energy (either because there are no other living creatures within the area or because you exclude them with Selective Channeling or a similar effect).  ",
+			"**Benefit:** Whenever you channel positive energy to heal creatures, you regain half again as many hit points (+50%) as normal if you're the only creature healed by the channeled energy (either because there are no other living creatures within the area or because you exclude them with {feat/Selective Channeling} or a similar effect).  ",
 			"**Special:** If you are healed by negative energy, this feat applies when you channel negative energy and you're the only creature healed by the channeled energy."
 		]
 	},
@@ -534,10 +534,10 @@
 			"{SOURCE Rival Guide/23;Osirion, Land of the Pharaohs/29}",
 			"",
 			"You are adept at vexing multiple foes with your whip.  ",
-			"**Prerequisites:** {feat/Weapon Finesse}, proficient in whip.  ",
-			"**Benefit:** As a standard action, you can make a disarm or trip maneuver with your whip. If it succeeds, you can make an additional disarm or trip maneuver with the same bonus against a target adjacent to the first and also within your whip's reach.",
+			"**Prerequisites:** {feat/Weapon Finesse}, proficient in {eq-weapon/whip}.  ",
+			"**Benefit:** As a standard action, you can make a {rule/disarm} or {rule/trip} maneuver with your whip. If it succeeds, you can make an additional disarm or trip maneuver with the same bonus against a target adjacent to the first and also within your whip's reach.",
 			"",
-			"In addition, you can use your whip to perform reposition maneuvers, though you take a -4 penalty on your CMB and you may only move the target toward you from its original position."
+			"In addition, you can use your whip to perform {rule/reposition} maneuvers, though you take a -4 penalty on your CMB and you may only move the target toward you from its original position."
 		]
 	},
 	"serpentine_compression": {
@@ -550,7 +550,7 @@
 			"",
 			"You can squeeze through small areas thanks to your slippery scales and lithe musculature.  ",
 			"**Prerequisites:** {monster/Serpentfolk}.  ",
-			"**Benefit:** You gain the {umr/compression} universal monster ability, allowing you to move through an area as small as one-quarter your space without squeezing, or one-eighth your space when squeezing."
+			"**Benefit:** You gain the {umr/compression} universal monster ability, allowing you to move through an area as small as one-quarter your space without {misc/squeezing}, or one-eighth your space when squeezing."
 		]
 	},
 	"serrens_masterstroke": {
@@ -563,7 +563,7 @@
 			"",
 			"When bypassing a foe's defenses while feinting, you can deal devastating damage.  ",
 			"**Prerequisites:** {feat/Exotic Weapon Proficiency} (Aldori dueling sword), {feat/Weapon Focus} (Aldori dueling sword), base attack bonus +6.  ",
-			"**Benefit:** Once per round when you hit a foe you have successfully feinted against via a melee attack using an Aldori dueling sword, you deal an extra 2d6 points of precision damage. When your base attack bonus reaches +11, this damage bonus increases to +3d6, and at base attack bonus +16, it increases to +4d6. This precision damage does not stack with damage from sneak attack, a vigilante's sudden strike, or similar effects. Any effect which protects against sneak attack damage also protects against this additional damage."
+			"**Benefit:** Once per round when you hit a foe you have successfully {rule/feint/ed} against via a melee attack using an {eq-weapon/Aldori dueling sword}, you deal an extra 2d6 points of precision damage. When your base attack bonus reaches +11, this damage bonus increases to +3d6, and at base attack bonus +16, it increases to +4d6. This precision damage does not stack with damage from {ability/sneak attack}, a vigilante's sudden strike, or similar effects. Any effect which protects against sneak attack damage also protects against this additional damage."
 		]
 	},
 	"servant_in_the_house_of_truth": {
@@ -590,13 +590,13 @@
 			"",
 			"{SOURCE Inner Sea World Guide/288;Pathfinder Campaign Setting/111}",
 			"",
-			"Ordained as one of the sinister albino druids who dwell within the heart of the Uskwood, you carry with you into the wider world a powerful effigy of hair, twigs, and blood that crawls with the deepening cold of the Midnight Lord's hallowed hunting grounds.  ",
-			"**Prerequisites:** Neutral evil, patron deity Zon-Kuthon.  ",
-			"**Benefit:** Add the following spells to your druid spell list. 0-disrupt undead, ray of frost; 1st-ghost sound, touch of fatigue; 2nd-chill touch, spectral hand; 3rd-ghoul touch, invisibility; 4th-displacement, ray of exhaustion; 5th-animate dead, phantasmal killer; 6th-nightmare, waves of fatigue; 7th-circle of death, shadow walk; 8th-mass invisibility, waves of exhaustion; 9th-horrid wilting, weird.",
+			"Ordained as one of the sinister albino {class/druid/s} who dwell within the heart of the Uskwood, you carry with you into the wider world a powerful effigy of hair, twigs, and blood that crawls with the deepening cold of the Midnight Lord's hallowed hunting grounds.  ",
+			"**Prerequisites:** Neutral evil, patron deity {faith/Zon-Kuthon}.  ",
+			"**Benefit:** Add the following spells to your druid spell list. 0-{spell/disrupt undead}, {spell/ray of frost}; 1st-{spell/ghost sound}, {spell/touch of fatigue}; 2nd-{spell/chill touch}, {spell/spectral hand}; 3rd-{spell/ghoul touch}, {spell/invisibility}; 4th-{spell/displacement}, {spell/ray of exhaustion}; 5th-{spell/animate dead}, {spell/phantasmal killer}; 6th-{spell/nightmare}, {spell/waves of fatigue}; 7th-{spell/circle of death}, {spell/shadow walk}; 8th-{spell/mass invisibility}, {spell/waves of exhaustion}; 9th-{spell/horrid wilting}, {spell/weird}.",
 			"",
-			"Remove all spells with the fire descriptor from all your spell lists (not just your druid spell list). You cannot cast any spells with the fire descriptor, nor activate them off scrolls, wands, or any other magic devices. In addition, you may not use wild shape to take the form of any creature with the fire subtype.",
+			"Remove all spells with the fire descriptor from all your spell lists (not just your {main/spells_<druid/ spell list}). You cannot cast any spells with the fire descriptor, nor activate them off scrolls, wands, or any other magic devices. In addition, you may not use wild shape to take the form of any creature with the fire subtype.",
 			"",
-			"**Special:** As part of this feat, you create a personal Umbrae-Token that ties your soul and your doings to the fell power of the Uskwood. This potent object is treated as a wooden unholy symbol that radiates faint necromancy magic. If your Umbrae-Token is ever destroyed, your connection to the shadowy heart of the Uskwood is severed and all benefits of this feat are lost until another is created. This process requires a journey to the Uskwood and an atonement spell cast by a fellow worshiper of Zon-Kuthon."
+			"**Special:** As part of this feat, you create a personal Umbrae-Token that ties your soul and your doings to the fell power of the Uskwood. This potent object is treated as a wooden unholy symbol that radiates faint necromancy magic. If your Umbrae-Token is ever destroyed, your connection to the shadowy heart of the Uskwood is severed and all benefits of this feat are lost until another is created. This process requires a journey to the Uskwood and an {spell/atonement} spell cast by a fellow worshiper of Zon-Kuthon."
 		]
 	},
 	"shadow_caster": {
@@ -638,7 +638,7 @@
 			"",
 			"You can tap into the Plane of Shadow to momentarily lend reality to one of your illusion (figment) spells.  ",
 			"**Prerequisites:** {feat/Spell Focus} (illusion), caster level 5th.  ",
-			"**Benefit:** As a standard action, you can draw upon energies from the Plane of Shadow to cause an ongoing figment spell you cast to damage a foe as if the illusion were real. The illusion must be one you retain ongoing control of, such as minor image, and the target must be both visible to you and within or adjacent to the area of your illusion. Using this feat immediately ends the figment's duration.",
+			"**Benefit:** As a standard action, you can draw upon energies from the Plane of Shadow to cause an ongoing figment spell you cast to damage a foe as if the illusion were real. The illusion must be one you retain ongoing control of, such as {spell/minor image}, and the target must be both visible to you and within or adjacent to the area of your illusion. Using this feat immediately ends the figment's duration.",
 			"",
 			"You must either make a melee touch attack or give the target a saving throw (Fortitude or Reflex) to resist the damage (see below). If you choose a melee touch attack, you use your own melee touch attack bonus, and if you miss, the spell deals no damage. If you choose to allow the target a saving throw, a successful save means it takes half damage. The shadowy attack deals 1d6 points of damage per spell level. If the target disbelieves or sees through the illusion, reduce the damage by half.",
 			"",
@@ -655,7 +655,7 @@
 			"",
 			"You can move between the Shadow Plane and the Material Plane more often.  ",
 			"**Prerequisites:** {race/Fetchling}, shadow walk spell-like ability.  ",
-			"**Benefit:** You gain the ability to use shadow walk an additional time each day.  ",
+			"**Benefit:** You gain the ability to use *shadow walk* an additional time each day.  ",
 			"**Special:** You may select this feat multiple times. Its effects stack."
 		]
 	},
@@ -669,7 +669,7 @@
 			"",
 			"Your darkness spells have substance and bind your foes.  ",
 			"**Prerequisites:** {feat/Tenebrous Spell}, {feat/Umbral Spell}.  ",
-			"**Benefit:** When you cast a spell with the darkness descriptor that affects an area, creatures in the area are entangled. If the spell allows a saving throw, a successful save negates the entangle effect. If the spell does not normally allow a save, a creature can make a Reflex save (DC = the spell's DC if it had a saving throw) to negate the effect. If the spell allows spell resistance, failing to overcome a creature's spell resistance means it is not entangled.",
+			"**Benefit:** When you cast a spell with the darkness descriptor that affects an area, creatures in the area are {rule/entangled}. If the spell allows a saving throw, a successful save negates the entangle effect. If the spell does not normally allow a save, a creature can make a Reflex save (DC = the spell's DC if it had a saving throw) to negate the effect. If the spell allows spell resistance, failing to overcome a creature's spell resistance means it is not entangled.",
 			"",
 			"An entangled creature remains so as long as it is in the area of the spell and for 1 round after it leaves. A creature that leaves and reenters the area must make a new saving throw to avoid becoming entangled. Creatures that succeed at a save to resist being entangled do not have to make additional saves if they stay within the darkened area.",
 			"",
@@ -685,7 +685,7 @@
 			"{SOURCE Blood of Shadows/7}",
 			"",
 			"Your mastery of shadow allows you to defend against shadow magic used against you.  ",
-			"**Prerequisites:** Disguise self racial spell-like ability or shadow illusion shadowdancer prestige class feature.  ",
+			"**Prerequisites:** Disguise self racial spell-like ability or shadow illusion {pclass/shadowdancer} prestige class feature.  ",
 			"**Benefit:** You gain a +2 bonus on saving throws against spells and spell-like abilities with the shadow descriptor or spells and spell-like abilities of the illusion (shadow) subschool. If you succeed at a saving throw against an illusion (shadow) spell that deals a percentage of its damage or effect against creatures that successfully save against it, reduce the amount of damage it deals to you by 20% (to a minimum of 0%)."
 		]
 	},
@@ -715,7 +715,7 @@
 			"",
 			"You accurately strike even those you cannot clearly see.  ",
 			"**Prerequisites:** Base attack bonus +1.  ",
-			"**Benefit:** You can deal precision damage, such as sneak attack damage, against targets with {rule/concealment} (but not total concealment).",
+			"**Benefit:** You can deal precision damage, such as {ability/sneak attack} damage, against targets with {rule/concealment} (but not total concealment).",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/131}",
@@ -733,7 +733,7 @@
 			"",
 			"You can pierce the veil between the Shadow Plane and the Material Plane more often, and to greater effect.  ",
 			"**Prerequisites:** {race/Fetchling}, shadow walk spell-like ability.  ",
-			"**Benefit:** You can expend one use of your shadow walk spell-like ability to use {spell/dimension door} as a spell-like ability. Your start and end locations for this ability must be in dim light or darkness."
+			"**Benefit:** You can expend one use of your *shadow walk* spell-like ability to use {spell/dimension door} as a spell-like ability. Your start and end locations for this ability must be in dim light or darkness."
 		]
 	},
 	"shadows_embrace": {
@@ -746,7 +746,7 @@
 			"",
 			"Shadows rise and fall at your whim.  ",
 			"**Prerequisites:** Shadow illusion class feature.  ",
-			"**Benefit:** Your shadow illusion ability can encase you in shadows as the {spell/darkness} spell, using your shadow dancer level as the caster level. As a standard action, you can raise or lower the illumination level of the effect, from darkness up to normal light."
+			"**Benefit:** Your *shadow illusion* ability can encase you in shadows as the {spell/darkness} spell, using your {pclass/shadowdancer} level as the caster level. As a standard action, you can raise or lower the illumination level of the effect, from darkness up to normal light."
 		]
 	},
 	"shadows_of_fear": {
@@ -759,7 +759,7 @@
 			"",
 			"Your enemies' fear causes them to jump at shadows, diverting their attention.  ",
 			"**Prerequisites:** Hidden strike +2d8 or {ability/sneak attack} +2d6.  ",
-			"**Benefit:** The first time each round that you hit a creature suffering from a fear effect, you can deal hidden strike or sneak attack damage as if you were flanking that creature (improved uncanny dodge and other effects that prevent flanking also prevent a hidden strike or sneak attack from this feat)."
+			"**Benefit:** The first time each round that you hit a creature suffering from a fear effect, you can deal hidden strike or sneak attack damage as if you were {rule/flanking} that creature ({ability/improved uncanny dodge} and other effects that prevent flanking also prevent a hidden strike or sneak attack from this feat)."
 		]
 	},
 	"shadows_shroud": {
@@ -776,7 +776,7 @@
 			"",
 			"You can use this feat's benefit for a number of rounds per day equal to your ranks in Knowledge (planes). These rounds need not be consecutive.",
 			"",
-			"**Special:** Unlike spells like shadow walk, which require you to be on a plane that is coterminous with the Shadow Plane, this feat functions even on planes that do not normally share a border with the Shadow Plane. Like all conduit feats, the effects are suppressed when planar travel is forbidden."
+			"**Special:** Unlike spells like {spell/shadow walk}, which require you to be on a plane that is coterminous with the {rule/Shadow Plane}, this feat functions even on planes that do not normally share a border with the Shadow Plane. Like all conduit feats, the effects are suppressed when planar travel is forbidden."
 		]
 	},
 	"shadowy_dash": {
@@ -806,7 +806,7 @@
 			"",
 			"With a forceful stomp you release a blast of acid from the earth to burn your enemies.  ",
 			"**Prerequisites:** Con 15, Wis 17, {feat/Elemental Fist}, {feat/Improved Unarmed Strike}, {feat/Shaitan Skin}, {feat/Shaitan Style}, base attack bonus +13 or monk level 11th.  ",
-			"**Benefit:** While using the Shaitan Style feat, as a standard action, you can spend two Elemental Fist attempts to unleash a 20-foot column of acid that has a 5-foot radius and erupts from a point of origin within 30 feet of you. Creatures caught in the column take your unarmed strike damage plus the acid damage from your Elemental Fist and are staggered for 1 round. A successful Reflex save (DC 10 + 1/2 your character level + your Wis modifier) reduces the damage by half and prevents a target from being staggered.",
+			"**Benefit:** While using the Shaitan Style feat, as a standard action, you can spend two Elemental Fist attempts to unleash a 20-foot column of acid that has a 5-foot radius and erupts from a point of origin within 30 feet of you. Creatures caught in the column take your unarmed strike damage plus the acid damage from your Elemental Fist and are {misc/staggered} for 1 round. A successful Reflex save (DC 10 + 1/2 your character level + your Wis modifier) reduces the damage by half and prevents a target from being staggered.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/131}",
@@ -827,7 +827,7 @@
 			"",
 			"You can manipulate acid to shield yourself and disable your enemies.  ",
 			"**Prerequisites:** Con 15, Wis 15, {feat/Elemental Fist}, {feat/Improved Unarmed Strike}, {feat/Shaitan Style}, base attack bonus +11 or monk level 9th.  ",
-			"**Benefit:** You gain one additional Elemental Fist attempt per day. While using the Shaitan Style feat, you gain acid resistance equal to your base attack bonus, or your monk level plus BAB gained from levels in classes other than monk, whichever is higher. While denied your Dexterity bonus to AC you are also denied this resistance. Creatures that take acid damage from your Elemental Fist attack must succeed at a Reflex save (DC 10 + 1/2 your character level + your Wis modifier) or be staggered for 1 round.",
+			"**Benefit:** You gain one additional Elemental Fist attempt per day. While using the Shaitan Style feat, you gain acid resistance equal to your base attack bonus, or your monk level plus BAB gained from levels in classes other than monk, whichever is higher. While denied your Dexterity bonus to AC you are also denied this resistance. Creatures that take acid damage from your Elemental Fist attack must succeed at a Reflex save (DC 10 + 1/2 your character level + your Wis modifier) or be {misc/staggered} for 1 round.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/131}",
@@ -880,7 +880,7 @@
 			"**Prerequisites:** You must have been publicly embarrassed, or must have the [Bastard Born](rule/birth_circumstances_and_more) background. If the embarrassment didn't cause significant harm to your personal honor or social standing, it does not qualify for the feat prerequisites. The humiliation doesn't need to have been unjustified.  ",
 			"**Benefit:** Being observed drives you to excel. When you're in a conflict that is being observed by others not involved in the conflict, you gain a +1 bonus on attack rolls and skill checks.  ",
 			"**Goal:** You can complete this goal in one of two fashions. First, thwart a chosen foe in a fashion that clearly establishes your superiority to the general public. Second, prove your worth another way, like gaining a title or becoming the chosen hero of a region.  ",
-			"**Completion Benefit:** Your newfound confidence gives you temporary hit points equal to your character level. These temporary hit points last until lost and refresh any time you rest long enough for natural healing to occur, whether or not any healing actually occurs."
+			"**Completion Benefit:** Your newfound confidence gives you {rule/temporary hit points} equal to your character level. These temporary hit points last until lost and refresh any time you rest long enough for natural healing to occur, whether or not any healing actually occurs."
 		]
 	},
 	"shapechanging_savage": {
@@ -893,7 +893,7 @@
 			"",
 			"You catch foes off guard when changing your shape.  ",
 			"**Prerequisites:** {feat/Improved Feint} or canny feint vigilante talent, change shape ability, shapechanger subtype.  ",
-			"**Benefit:** Whenever you use your change shape ability to assume a new form or to return to your true form, you can attempt a Bluff check as a swift action to feint one opponent within 30 feet who witnessed your transformation. You take a -4 penalty on Bluff checks to feint an opponent who is aware that you are a shapechanger. You don't take the usual penalties for feinting a creature of a different type or a creature with an Intelligence score of 1 or 2 when feinting in this manner.  ",
+			"**Benefit:** Whenever you use your change shape ability to assume a new form or to return to your true form, you can attempt a {skill/Bluff} check as a swift action to feint one opponent within 30 feet who witnessed your transformation. You take a -4 penalty on Bluff checks to feint an opponent who is aware that you are a shapechanger. You don't take the usual penalties for feinting a creature of a different type or a creature with an Intelligence score of 1 or 2 when feinting in this manner.  ",
 			"**Special:** A character with the wild shape class feature counts as having the change shape ability and shapechanger subtype for the purpose of meeting this feat's prerequisites. A character with wild shape can use this feat's benefit whenever she uses wild shape to assume a new form or return to her true form."
 		]
 	},
@@ -906,8 +906,8 @@
 			"{SOURCE Wilderness Origins/22}",
 			"",
 			"A familiar is more than just an animal. It's a spirit and an intelligence, and your familiar can choose to take more than one physical form.  ",
-			"**Prerequisites:** Familiar class feature, caster level 7th.  ",
-			"**Benefit:** Your familiar gains the {umr/change shape} universal monster ability. This ability functions as {spell/beast shape II} and grants access to a single alternate form, which must be the same size as the familiar. Once chosen, this form cannot be changed.  ",
+			"**Prerequisites:** {ability/Familiar} class feature, caster level 7th.  ",
+			"**Benefit:** Your {sidekick/familiar} gains the {umr/change shape} universal monster ability. This ability functions as {spell/beast shape II} and grants access to a single alternate form, which must be the same size as the familiar. Once chosen, this form cannot be changed.  ",
 			"**Special:** You can gain this feat multiple times. Each time you take this feat, your familiar gains an additional alternate form. If taken by a familiar that already has the {umr/change shape} universal monster ability (like an {monster/imp}), this grants a single additional form."
 		]
 	},
@@ -950,13 +950,13 @@
 			"**Prerequisites:** Base attack bonus +3, change shape ability, shapechanger subtype.  ",
 			"**Benefit:** You reshape your body, gaining one of the following benefits. You choose the benefit when you enter the style, and while in the style you can change the benefit as a swift action.",
 			"",
-			"**Brutal Attack:** Choose one of your natural attacks. You gain a +1 bonus on damage rolls with that attack when using this style, plus an additional +1 for every feat you have that lists {feat/Shapeshifter Style} as a prerequisite (maximum +3).",
-			"",
-			"**Steady Grip:** You gain a climb speed of 10 feet.",
-			"",
-			"**Tensed Sinews:** You gain a +1 bonus on Reflex saving throws and a +5 enhancement bonus to your base speed.",
-			"",
-			"**Toughened Hide:** You gain a +1 enhancement bonus to your existing natural armor bonus.",
+			">**Brutal Attack:** Choose one of your natural attacks. You gain a +1 bonus on damage rolls with that attack when using this style, plus an additional +1 for every feat you have that lists Shapeshifter Style as a prerequisite (maximum +3).",
+			">",
+			">**Steady Grip:** You gain a climb speed of 10 feet.",
+			">",
+			">**Tensed Sinews:** You gain a +1 bonus on Reflex saving throws and a +5 enhancement bonus to your base speed.",
+			">",
+			">**Toughened Hide:** You gain a +1 enhancement bonus to your existing natural armor bonus.",
 			"",
 			"**Special:** A character with the wild shape class feature counts as having the change shape ability and shapechanger subtype for the purpose of meeting this feat's prerequisites."
 		]
@@ -971,7 +971,7 @@
 			"",
 			"Your form flexes and contorts in unexpected ways, making it difficult for enemies to move you against your will.  ",
 			"**Prerequisites:** {feat/Shapeshifter Style}, base attack bonus +5, change shape ability, shapechanger subtype.  ",
-			"**Benefit:** While you are using {feat/Shapeshifter Style}, you gain a +2 bonus to your CMD versus bull rush, drag, grapple, overrun, reposition, and trip combat maneuvers. If you begin your turn with the grappled condition, you can attempt a combat maneuver check or an Escape Artist check as a move action to attempt to break the grapple.  ",
+			"**Benefit:** While you are using {feat/Shapeshifter Style}, you gain a +2 bonus to your CMD versus {rule/bull rush}, {rule/drag}, {rule/grapple}, {rule/overrun}, {rule/reposition}, and {rule/trip} combat maneuvers. If you begin your turn with the grappled condition, you can attempt a combat maneuver check or an Escape Artist check as a move action to attempt to break the grapple.  ",
 			"**Special:** A character with the wild shape class feature counts as having the change shape ability and shapechanger subtype for the purpose of meeting this feat's prerequisites."
 		]
 	},
@@ -1011,8 +1011,8 @@
 			"{SOURCE Ultimate Wilderness/219}",
 			"",
 			"The animal expands its capabilities and learns one of its master's class features.  ",
-			"**Prerequisites:** Animal companion, master must have the chosen class feature.  ",
-			"**Benefit:** Choose one of the following class features: bravery, camouflage, favored terrain, hide in plain sight, resist nature's lure, track, trackless step, venom immunity, and woodland stride. The animal companion gains the benefits of the selected class feature, using its Hit Dice as its level in its master's class for the purpose of this ability; the animal companion gains the benefits of the base class feature, even if the master alters the class feature via an archetype or other means, though the animal companion doesn't count as having the class feature for the purpose of fulfilling prerequisites."
+			"**Prerequisites:** {sidekick/Animal companion}, master must have the chosen class feature.  ",
+			"**Benefit:** Choose one of the following class features: bravery, camouflage, {ability/favored terrain}, hide in plain sight, {ability/resist nature's lure}, track, {ability/trackless step}, venom immunity, and {ability/woodland stride}. The animal companion gains the benefits of the selected class feature, using its Hit Dice as its level in its master's class for the purpose of this ability; the animal companion gains the benefits of the base class feature, even if the master alters the class feature via an archetype or other means, though the animal companion doesn't count as having the class feature for the purpose of fulfilling prerequisites."
 		]
 	},
 	"share_healing": {
@@ -1103,9 +1103,9 @@
 			"",
 			"When working together, you and your companions are skilled at taking down particular targets.  ",
 			"**Prerequisites:** Hunter's bond class feature, quarry class feature.  ",
-			"**Benefit:** Allies sharing your favored enemy bonuses from hunter's bond gain an additional benefit against a creature you've denoted as your quarry. Affected allies gain a +1 insight bonus on attack rolls against your quarry; this bonus increases to +4 on attack rolls to confirm critical hits against your quarry.",
+			"**Benefit:** Allies sharing your {ability/favored enemy} bonuses from hunter's bond gain an additional benefit against a creature you've denoted as your quarry. Affected allies gain a +1 insight bonus on attack rolls against your quarry; this bonus increases to +4 on attack rolls to confirm critical hits against your quarry.",
 			"",
-			"If your hunter's bond is with an animal companion, your companion gains the full benefits of your quarry class feature. when you denote a quarry."
+			"If your hunter's bond is with an {sidekick/animal companion}, your companion gains the full benefits of your quarry class feature. when you denote a quarry."
 		]
 	},
 	"shared_remembrance": {
@@ -1131,7 +1131,7 @@
 			"",
 			"You and your phantom are deeply connected in heart, mind, and soul.  ",
 			"**Prerequisites:** Shared consciousness class feature.  ",
-			"**Benefit:** While your phantom is confined within your consciousness, you gain a +2 bonus on saving throws against death effects, energy drain, and possession. In addition, once per day when you fail a saving throw against a death effect or possession effect or gain a negative level, as an immediate action you can shunt that effect into the phantom's section of your soul instead. When you do so, you are not affected by that effect, but you also don't gain any of the normal benefits of your shared consciousness ability and can't manifest your phantom in any way for the normal duration of the spell or effect shunted into the phantom's consciousness. The phantom suffers the full effect you transferred, and as long as your phantom continues to suffer from the effect, you cannot shunt a death or possession effect or negative level onto your phantom."
+			"**Benefit:** While your {sidekick/phantom} is confined within your consciousness, you gain a +2 bonus on saving throws against death effects, energy drain, and possession. In addition, once per day when you fail a saving throw against a death effect or possession effect or gain a negative level, as an immediate action you can shunt that effect into the phantom's section of your soul instead. When you do so, you are not affected by that effect, but you also don't gain any of the normal benefits of your shared consciousness ability and can't manifest your phantom in any way for the normal duration of the spell or effect shunted into the phantom's consciousness. The phantom suffers the full effect you transferred, and as long as your phantom continues to suffer from the effect, you cannot shunt a death or possession effect or negative level onto your phantom."
 		]
 	},
 	"shared_stash": {
@@ -1157,7 +1157,7 @@
 			"",
 			"Like a deadly predator, you bolt at unsuspecting foes from below.  ",
 			"**Prerequisites:** {feat/Improved Unarmed Strike}, {feat/Shark Style}, {feat/Shark Tear}, Swim 10 ranks, base attack bonus +10 or monk level 10th.  ",
-			"**Benefit:** While in Shark Style, when you're underwater with neutral, rising, or swiftly rising buoyancy, you can perform a terrifying leap to attack opponents directly above you. This works similarly to the charge action, except you can move only straight up, and you make a single piercing unarmed strike or bite attack. If the attack hits, it deals double damage; if the attack roll's result is also higher than 11 + the target's Swim modifier, the attack knocks the target off-balance until its next turn. Like with a charge, you can perform a partial version when limited to a single standard action (such as in the surprise round); in addition to moving half as far as normal for a partial charge, the attack doubles only the damage dice (as per {feat/Vital Strike}) rather than the full damage roll."
+			"**Benefit:** While in Shark Style, when you're underwater with neutral, rising, or swiftly rising buoyancy, you can perform a terrifying leap to attack opponents directly above you. This works similarly to the {rule/charge} action, except you can move only straight up, and you make a single piercing unarmed strike or bite attack. If the attack hits, it deals double damage; if the attack roll's result is also higher than 11 + the target's Swim modifier, the attack knocks the target {rule/off-balance>_and_prone_underwater} until its next turn. Like with a charge, you can perform a partial version when limited to a single standard action (such as in the surprise round); in addition to moving half as far as normal for a partial charge, the attack doubles only the damage dice (as per {feat/Vital Strike}) rather than the full damage roll."
 		]
 	},
 	"shark_style": {
@@ -1170,7 +1170,7 @@
 			"",
 			"You fight like a shark, shredding your foes.  ",
 			"**Prerequisites:** {feat/Improved Unarmed Strike}, Swim 3 ranks, base attack bonus +3 or monk level 3rd.  ",
-			"**Benefit:** You can deal piercing or bludgeoning damage with your unarmed strikes. Your piercing unarmed strikes and bite attacks deal an additional 1d6 points of bleed damage."
+			"**Benefit:** You can deal piercing or bludgeoning damage with your unarmed strikes. Your piercing unarmed strikes and bite attacks deal an additional 1d6 points of {rule/bleed} damage."
 		]
 	},
 	"shark_tear": {
@@ -1183,7 +1183,7 @@
 			"",
 			"You tear into bleeding foes and can smell their blood in the water.  ",
 			"**Prerequisites:** {feat/Improved Unarmed Strike}, {feat/Shark Style}, Swim 6 ranks, base attack bonus +6 or monk level 6th.  ",
-			"**Benefit:** While in Shark Style, you gain scent while in water, but only against bleeding creatures. You also gain a +1 bonus on attack and damage rolls against bleeding creatures."
+			"**Benefit:** While in Shark Style, you gain {umr/scent} while in water, but only against bleeding creatures. You also gain a +1 bonus on attack and damage rolls against bleeding creatures."
 		]
 	},
 	"sharp_senses": {
@@ -1231,7 +1231,7 @@
 			"",
 			"Your teeth are especially sharp and sturdy.  ",
 			"**Prerequisites:** {race/Ratfolk}.  ",
-			"**Benefit:** You gain a bite attack. This is a primary natural attack that deals 1d3 points of damage."
+			"**Benefit:** You gain a bite attack. This is a primary {umr/natural attack} that deals 1d3 points of damage."
 		]
 	},
 	"shatter_control": {
@@ -1261,7 +1261,7 @@
 			"",
 			"Your skill with your chosen weapon leaves opponents unable to defend themselves if you strike them when their defenses are already compromised.  ",
 			"**Prerequisites:** {feat/Weapon Focus}, {feat/Dazzling Display}, base attack bonus +6, proficiency with weapon.  ",
-			"**Benefit:** Any shaken, frightened, or panicked opponent hit by you this round is flat-footed to your attacks until the end of your next turn. This includes any additional attacks you make this round.",
+			"**Benefit:** Any {misc/shaken}, {misc/frightened}, or {misc/panicked} opponent hit by you this round is {rule/flat-footed} to your attacks until the end of your next turn. This includes any additional attacks you make this round.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/131}",
@@ -1287,8 +1287,8 @@
 			"",
 			"You are adept at ripping away an opponent's mental mask, exposing its true visage during a psychic duel.  ",
 			"**Prerequisites:** {feat/Psychic Sensitivity} or ability to cast psychic spells or use psychic spell-like abilities, character level 2nd.  ",
-			"**Benefit:** While in a psychic duel, when you create an offensive manifestation that can be negated or halved only with a successful Will saving throw, if your opponent fails that Will saving throw, its mental mask is shattered, revealing the opponent's true form.  ",
-			"**Special:** If you possess the Third Eye feat, your opponent's mental mask is shattered even on a successful Will saving throw."
+			"**Benefit:** While in a {rule/psychic duel>s}, when you create an offensive manifestation that can be negated or halved only with a successful Will saving throw, if your opponent fails that Will saving throw, its mental mask is shattered, revealing the opponent's true form.  ",
+			"**Special:** If you possess the {feat/Third Eye} feat, your opponent's mental mask is shattered even on a successful Will saving throw."
 		]
 	},
 	"shatter_resolve": {
@@ -1304,7 +1304,7 @@
 			"",
 			"Your negative energy causes despair in those you harm.  ",
 			"**Prerequisites:** {ability/Channel energy} class feature, worshiper of {faith/Urgathoa}.  ",
-			"**Benefit:** When you damage a creature by channeling negative energy, you fill your foe with fear. A creature that fails its Will save against your channeled energy also becomes shaken for a number of rounds equal to the number of dice you roll for your channel energy ability."
+			"**Benefit:** When you damage a creature by channeling negative energy, you fill your foe with fear. A creature that fails its Will save against your channeled energy also becomes {misc/shaken} for a number of rounds equal to the number of dice you roll for your channel energy ability."
 		]
 	},
 	"shatterspell": {
@@ -1320,7 +1320,7 @@
 			"",
 			"Your mighty blows shatter your enemy's magic.  ",
 			"**Prerequisites:** {feat/Disruptive}, {feat/Spellbreaker}, {race/dwarf}, 10th-level fighter.  ",
-			"**Benefit:** As a standard action, you can attempt to sunder an ongoing spell effect as if you had the spell sunder rage power. You may use this feat once per day, plus one additional time per day for every 5 points by which your base attack bonus exceeds +10.",
+			"**Benefit:** As a standard action, you can attempt to {rule/sunder} an ongoing spell effect as if you had the {ragepower/spell sunder} rage power. You may use this feat once per day, plus one additional time per day for every 5 points by which your base attack bonus exceeds +10.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/131}",
@@ -1338,7 +1338,7 @@
 			"",
 			"Your stubborn mind is not easy to sway.  ",
 			"**Prerequisites:** {feat/Iron Will}.  ",
-			"**Benefit:** When you fail a saving throw against a mind-affecting effect with a duration of 1 round or longer (such as confusion), you can choose to be dazzled for the first round of the duration instead of suffering the usual effect. On subsequent rounds, the effect functions normally. If an effect, immunity, or other ability prevents you from being dazzled, this feat has no effect."
+			"**Benefit:** When you fail a saving throw against a mind-affecting effect with a duration of 1 round or longer (such as {spell/confusion}), you can choose to be {misc/dazzled} for the first round of the duration instead of suffering the usual effect. On subsequent rounds, the effect functions normally. If an effect, immunity, or other ability prevents you from being dazzled, this feat has no effect."
 		]
 	},
 	"shield_brace": {
@@ -1351,7 +1351,7 @@
 			"",
 			"You've mastered the art of balancing a polearm's weight against a shield's stability.  ",
 			"**Prerequisites:** {feat/Shield Focus}; base attack bonus +3 or fighter level 1st; proficiency with light shields, heavy shields, or tower shields.  ",
-			"**Benefit:** You can use a two-handed weapon sized appropriately for you from the polearm or spears weapon group while also using a light, heavy, or tower shield with which you are proficient. The shield's armor check penalty (if any) applies to attacks made with the weapon.",
+			"**Benefit:** You can use a two-handed weapon sized appropriately for you from the polearm or spears {ability/weapon group>s} while also using a {eq-armor/light>_shield}, {eq-armor/heavy>_shield}, or {eq-armor/tower shield} with which you are proficient. The shield's armor check penalty (if any) applies to attacks made with the weapon.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Armor Master's Handbook/21}",
@@ -1399,7 +1399,7 @@
 			"",
 			"You use your gauntlet to shield you from harm.  ",
 			"**Prerequisites:** {feat/Weapon Focus} (gauntlet or spiked gauntlet), proficiency with bucklers and light shields.  ",
-			"**Benefit:** When using this style, if you begin your turn wearing a gauntlet or spiked gauntlet on your off hand, and you are not using that hand to hold or make attacks with any other weapons or shield, you gain a +1 shield bonus to AC. You lose this shield bonus whenever you attack with your gauntlet or hold a weapon or shield in that hand. While receiving this shield bonus to AC, your gauntlet or spiked gauntlet is treated as a buckler for the purpose of using other feats and abilities (though you are also considered to have a free hand). This feat acts as the {feat/Improved Unarmed Strike} feat for the purpose of satisfying the prerequisites of the {feat/Deflect Arrows} and {feat/Snatch Arrows} feats."
+			"**Benefit:** When using this style, if you begin your turn wearing a {eq-weapon/gauntlet} or {eq-weapon/spiked gauntlet} on your off hand, and you are not using that hand to hold or make attacks with any other weapons or shield, you gain a +1 shield bonus to AC. You lose this shield bonus whenever you attack with your gauntlet or hold a weapon or shield in that hand. While receiving this shield bonus to AC, your gauntlet or spiked gauntlet is treated as a buckler for the purpose of using other feats and abilities (though you are also considered to have a free hand). This feat acts as the {feat/Improved Unarmed Strike} feat for the purpose of satisfying the prerequisites of the {feat/Deflect Arrows} and {feat/Snatch Arrows} feats."
 		]
 	},
 	"shield_master": {
@@ -1435,11 +1435,11 @@
 			"**Prerequisites:** {feat/Shield Focus}, base attack bonus +6 or fighter level 4th.  ",
 			"**Benefit:** When wielding a shield made of one of the materials listed below, you can use the listed ability twice per day.",
 			"",
-			"Darkwood: As a free action as part of an attack with your shield, you can drive splinters of your shield into your opponent, dealing an amount of bleed damage equal to 1 + the shield's enhancement bonus.",
-			"",
-			"Dragonhide: As an immediate action when you take energy damage of the type to which the dragonhide shield is immune, you can reduce the amount of damage you take by 10 hit points.",
-			"",
-			"Living Steel: As a free action as part of an attack with your shield, you can attempt a sunder combat maneuver check against a metal weapon wielded by your target. If you succeed at the attempt, the weapon gains the broken condition; if the weapon already has the broken condition, it is destroyed."
+			">@hll[eq-material/Darkwood:] As a free action as part of an attack with your shield, you can drive splinters of your shield into your opponent, dealing an amount of bleed damage equal to 1 + the shield's enhancement bonus.",
+			">",
+			">@hll[eq-material/Dragonhide:] As an immediate action when you take energy damage of the type to which the dragonhide shield is immune, you can reduce the amount of damage you take by 10 hit points.",
+			">",
+			">@hll[eq-material/Living Steel:] As a free action as part of an attack with your shield, you can attempt a sunder combat maneuver check against a metal weapon wielded by your target. If you succeed at the attempt, the weapon gains the broken condition; if the weapon already has the broken condition, it is destroyed."
 		]
 	},
 	"shield_material_mastery": {
@@ -1504,12 +1504,12 @@
 			"",
 			"In the right position, your shield can be used to send opponents flying.  ",
 			"**Prerequisites:** {feat/Improved Shield Bash}, {feat/Shield Proficiency}, base attack bonus +6.  ",
-			"**Benefit:** Any opponents hit by your shield bash are also hit with a free bull rush attack, substituting your attack roll for the combat maneuver check. This bull rush does not provoke an attack of opportunity. Opponents who cannot move back due to a wall or other surface are knocked prone after moving the maximum possible distance. You may choose to move with your target if you are able to take a 5-foot step or to spend an action to move this turn.",
+			"**Benefit:** Any opponents hit by your shield bash are also hit with a free {rule/bull rush} attack, substituting your attack roll for the combat maneuver check. This bull rush does not provoke an attack of opportunity. Opponents who cannot move back due to a wall or other surface are knocked {rule/prone} after moving the maximum possible distance. You may choose to move with your target if you are able to take a 5-foot step or to spend an action to move this turn.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/131}",
 			">",
-			">Instead of attempting a free bull rush when using the Shield Slam feat, you can spend 2 stamina points to attempt a disarm, reposition, trip, or sunder combat maneuver. This combat maneuver attempt does not provoke an attack of opportunity from the target.",
+			">Instead of attempting a free bull rush when using the Shield Slam feat, you can spend 2 stamina points to attempt a {rule/disarm}, {rule/reposition}, {rule/trip}, or {rule/sunder} combat maneuver. This combat maneuver attempt does not provoke an attack of opportunity from the target.",
 			"",
 			"### Mythic Shield Slam",
 			"",
@@ -1533,7 +1533,7 @@
 			"",
 			"You know how to navigate your shield around weapons and can use it to keep your balance.  ",
 			"**Prerequisites:** {feat/Improved Shield Bash}, {feat/Shield Proficiency}, base attack bonus +6.  ",
-			"**Benefit:** Any opponents hit by your shield bash are also targeted by a free disarm attempt, substituting your attack roll for the combat maneuver check. This disarm attempt does not provoke an attack of opportunity. You cannot use this ability during the same round as a bull rush attempt made with {feat/Shield Slam} or with any other abilities that affect how your shield bash works.",
+			"**Benefit:** Any opponents hit by your shield bash are also targeted by a free {rule/disarm} attempt, substituting your attack roll for the combat maneuver check. This disarm attempt does not provoke an attack of opportunity. You cannot use this ability during the same round as a {rule/bull rush} attempt made with {feat/Shield Slam} or with any other abilities that affect how your shield bash works.",
 			"",
 			"When using a shield, you gain a +4 bonus on Strength checks to avoid being blown away by a strong wind and on Climb checks to catch yourself on a wall or slope when falling.",
 			"",
@@ -1608,7 +1608,7 @@
 			"",
 			"Your gauntlet helps you take advantage of weakness.  ",
 			"**Prerequisites:** {feat/Shield Gauntlet Style}, proficiency with bucklers and light shields.  ",
-			"**Benefit:** While using Shield Gauntlet Style, you can calculate the damage of your gauntlet or spiked gauntlet using the sacred weapon damage value of a warpriest with a level 4 less than your base attack bonus. The style also allows you to take one attack of opportunity each round that does not count toward your maximum number of attacks of opportunity. This must be used to make an attack with your gauntlet (or spiked gauntlet), or a disarm or steal combat maneuver. You do not provoke an attack of opportunity for performing either combat maneuver, and you are able to attempt a steal combat maneuver with this attack of opportunity despite the maneuver normally requiring a standard action."
+			"**Benefit:** While using Shield Gauntlet Style, you can calculate the damage of your gauntlet or spiked gauntlet using the sacred weapon damage value of a {class/warpriest} with a level 4 less than your base attack bonus. The style also allows you to take one attack of opportunity each round that does not count toward your maximum number of attacks of opportunity. This must be used to make an attack with your gauntlet (or spiked gauntlet), or a {rule/disarm} or {rule/steal} combat maneuver. You do not provoke an attack of opportunity for performing either combat maneuver, and you are able to attempt a steal combat maneuver with this attack of opportunity despite the maneuver normally requiring a standard action."
 		]
 	},
 	"shielded_gauntlet_master": {
@@ -1647,7 +1647,7 @@
 			"",
 			"You can hit an enemy unexpectedly with a maneuver.  ",
 			"**Prerequisites:** Dex 15, {feat/Shielded Staff Style}, base attack bonus +4.  ",
-			"**Benefit:** While in {feat/Shielded Staff Style}, if you hit a target with a shielded staff, you can attempt either a bull rush, disarm, sunder, or trip combat maneuver check as an immediate action. You lose your shield bonus until the start of your next turn if you attempt this combat maneuver."
+			"**Benefit:** While in {feat/Shielded Staff Style}, if you hit a target with a shielded staff, you can attempt either a {rule/bull rush}, {rule/disarm}, {rule/sunder}, or {rule/trip} combat maneuver check as an immediate action. You lose your shield bonus until the start of your next turn if you attempt this combat maneuver."
 		]
 	},
 	"shielded_staff_master": {
@@ -1672,10 +1672,10 @@
 			"{SOURCE Martial Arts Handbook/15}",
 			"",
 			"You can attack and defend effectively with a shield attached to your staff or spear.  ",
-			"**Prerequisites:** Dex 15, {feat/Two-Weapon Fighting}, {feat/Weapon Focus} (quarterstaff, any weapon from the polearms fighter weapon group, or any weapon from the spears fighter weapon group), proficiency with bucklers and light shields.  ",
-			"**Benefit:** When you enter this style, you attach your buckler or light shield to your quarterstaff, polearm, or spear, combining them into a weapon known as a shielded staff. While in this style, you can wield the shielded staff normally, but attacks you make with it take a -1 penalty. As long as you wield the shielded staff with two hands, you gain a +2 shield bonus to your AC (regardless of the shield or buckler's enhancement bonus). You can't make shield bash attacks with the attached buckler or shield, and detaching the buckler or shield from the weapon is a move action that provokes attacks of opportunity.",
+			"**Prerequisites:** Dex 15, {feat/Two-Weapon Fighting}, {feat/Weapon Focus} (quarterstaff, any weapon from the polearms fighter {ability/weapon group>s}, or any weapon from the spears fighter weapon group), proficiency with bucklers and light shields.  ",
+			"**Benefit:** When you enter this style, you attach your buckler or light shield to your {eq-weapon/quarterstaff}, polearm, or spear, combining them into a weapon known as a shielded staff. While in this style, you can wield the shielded staff normally, but attacks you make with it take a -1 penalty. As long as you wield the shielded staff with two hands, you gain a +2 shield bonus to your AC (regardless of the shield or buckler's enhancement bonus). You can't make shield bash attacks with the attached buckler or shield, and detaching the buckler or shield from the weapon is a move action that provokes attacks of opportunity.",
 			"",
-			"The weapon and attached shield count as separate objects for the purposes of abilities or effects that target objects, except for disarm attempts, which treat the shielded staff as a single object. Anyone not in this style who attempts to wield the shielded staff treats it as an improvised weapon that deals bludgeoning damage."
+			"The weapon and attached shield count as separate objects for the purposes of abilities or effects that target objects, except for {rule/disarm} attempts, which treat the shielded staff as a single object. Anyone not in this style who attempts to wield the shielded staff treats it as an {misc/improvised weapon} that deals bludgeoning damage."
 		]
 	},
 	"shielded_stand": {
@@ -1688,7 +1688,7 @@
 			"",
 			"You can cover an effort to regain your feet.  ",
 			"**Prerequisites:** {feat/Shield Focus}, base attack bonus +3 or fighter level 1st.  ",
-			"**Benefit:** As a swift action, you can prevent yourself or an adjacent ally from provoking an attack of opportunity when standing from prone or when picking up an object from the ground."
+			"**Benefit:** As a swift action, you can prevent yourself or an adjacent ally from provoking an attack of opportunity when standing from {rule/prone} or when picking up an object from the ground."
 		]
 	},
 	"shifters_edge": {
@@ -1727,7 +1727,7 @@
 			"",
 			"You can focus your concentration when maintaining pattern effects to slowly move them.  ",
 			"**Prerequisites:** {feat/Spell Focus} (illusion), caster level 5th.  ",
-			"**Benefit:** When you are concentrating to maintain a spell from the pattern subschool, you can move any area effects associated with that spell by up to 10 feet as a move action. Creatures within the new area of effect are subject to the spell as if it had just been cast (attempting saves as normal). When concentrating on a pattern spell that already allows you to move the effect, such as rainbow pattern, increase the distance you can move the pattern by 50%."
+			"**Benefit:** When you are concentrating to maintain a spell from the pattern subschool, you can move any area effects associated with that spell by up to 10 feet as a move action. Creatures within the new area of effect are subject to the spell as if it had just been cast (attempting saves as normal). When concentrating on a pattern spell that already allows you to move the effect, such as {spell/rainbow pattern}, increase the distance you can move the pattern by 50%."
 		]
 	},
 	"shikigami_manipulation": {
@@ -1740,7 +1740,7 @@
 			"",
 			"You channel a magic item's power to enhance its improvised attacks, even though it was never meant to be used as a weapon.  ",
 			"**Prerequisites:** {feat/Catch Off-Guard} or {feat/Throw Anything}, {feat/Shikigami Mimicry}, {feat/Shikigami Style}, Use Magic Device 5 ranks.  ",
-			"**Benefit:** While using {feat/Shikigami Style}, you can treat any magical item you're using as an improvised weapon as if it granted an enhancement bonus on attack and damage rolls equal to the item's caster level divided by 4 (minimum +1), to a maximum bonus of +5.  ",
+			"**Benefit:** While using {feat/Shikigami Style}, you can treat any magical item you're using as an {misc/improvised weapon} as if it granted an enhancement bonus on attack and damage rolls equal to the item's caster level divided by 4 (minimum +1), to a maximum bonus of +5.  ",
 			"**Special:** A character with this feat and {feat/Equipment Trick} who uses magical equipment to perform a trick can add a bonus equal to the item's caster level divided by 4 (minimum +1) on skill or combat maneuver checks attempted as part of the trick."
 		]
 	},
@@ -1754,7 +1754,7 @@
 			"",
 			"Your unique understanding of improvised tools enables you to turn the intrinsic form of all manner of objects to your advantage in combat.  ",
 			"**Prerequisites:** {feat/Catch Off-Guard} or {feat/Throw Anything}, {feat/Shikigami Style}.  ",
-			"**Benefit:** While in {feat/Shikigami Style}, you can take a -2 penalty on attack rolls to treat an improvised weapon as if it had one of the following weapon special qualities until the start of your next turn: blocking, brace, disarm, distracting, nonlethal, performance, or trip. If the weapon has the {misc/fragile} special quality or broken condition, you can treat it as if it had the jagged special quality."
+			"**Benefit:** While in {feat/Shikigami Style}, you can take a -2 penalty on attack rolls to treat an {misc/improvised weapon} as if it had one of the following weapon special qualities until the start of your next turn: {misc/blocking}, {misc/brace}, {misc/disarm}, {misc/distracting}, {misc/nonlethal}, {misc/performance}, or {misc/trip}. If the weapon has the {misc/fragile} special quality or {misc/broken} condition, you can treat it as if it had the [jagged](rule/improvised_weapon_special_features) special quality."
 		]
 	},
 	"shikigami_style": {
@@ -1767,7 +1767,7 @@
 			"",
 			"Your skill with improvised weapons makes them more dangerous than they would otherwise be.  ",
 			"**Prerequisites:** {feat/Catch Off-Guard} or {feat/Throw Anything}.  ",
-			"**Benefit:** While in this style, you deal damage with improvised weapons as if they were one size category larger. For every style feat you have that lists Shikigami Style as a prerequisite, treat the improvised weapon as an additional size category larger, to a maximum of three sizes larger than its actual size."
+			"**Benefit:** While in this style, you deal damage with {misc/improvised weapons} as if they were {misc/one size category larger}. For every style feat you have that lists Shikigami Style as a prerequisite, treat the improvised weapon as an additional size category larger, to a maximum of three sizes larger than its actual size."
 		]
 	},
 	"shingle_runner": {
@@ -1783,7 +1783,7 @@
 			"",
 			"Many of those who dwell among the rooftops that span much of Korvosa become skillful at making bounding leaps and clambering up steep surfaces, and learn how to land more safely when they fall.  ",
 			"**Prerequisites:** Dex 12, {feat/Acrobatic}.  ",
-			"**Benefit:** You gain a +2 bonus on Acrobatics and Climb checks, and can take 10 on Climb checks even when distracted. If you have 10 or more ranks in one of these skills, the bonus increases to +4 for that skill. If you fall, you automatically reduce the damage taken by the fall by 1d6, as if you'd fallen 10 feet less. This reduction in damage stacks with the reduction from a successful Acrobatics check to soften a fall."
+			"**Benefit:** You gain a +2 bonus on Acrobatics and Climb checks, and can take 10 on Climb checks even when distracted. If you have 10 or more ranks in one of these skills, the bonus increases to +4 for that skill. If you fall, you automatically reduce the damage taken by the {rule/fall>ing} by 1d6, as if you'd fallen 10 feet less. This reduction in damage stacks with the reduction from a successful Acrobatics check to soften a fall."
 		]
 	},
 	"shocking_amplification": {
@@ -1795,7 +1795,7 @@
 			"{SOURCE Magic Tactics Toolbox/9}",
 			"",
 			"Your electricity spells tire their targets.  ",
-			"**Benefit:** Whenever you cast a spell with the electricity descriptor that targets one or more creatures, you can take a -1 penalty on attack rolls made with the spell and reduce the spell's saving throw DC by 1 to cause the target closest to you that is dealt electricity damage by the spell to become fatigued for 1 round. This cannot cause a creature that is already fatigued to become exhausted. You must choose to use this feat before making an attack roll or before your target attempts its saving throw. This feat has no effect on spells that neither allow a saving throw nor require an attack roll."
+			"**Benefit:** Whenever you cast a spell with the electricity descriptor that targets one or more creatures, you can take a -1 penalty on attack rolls made with the spell and reduce the spell's saving throw DC by 1 to cause the target closest to you that is dealt electricity damage by the spell to become {misc/fatigued} for 1 round. This cannot cause a creature that is already fatigued to become {misc/exhausted}. You must choose to use this feat before making an attack roll or before your target attempts its saving throw. This feat has no effect on spells that neither allow a saving throw nor require an attack roll."
 		]
 	},
 	"shocking_bellow": {
@@ -1881,7 +1881,7 @@
 			"",
 			"Your dealings with pirates, thieves, and assassins have taught you to be exceedingly careful.  ",
 			"**Prerequisites:** {feat/Alertness}, {feat/Combat Reflexes}.  ",
-			"**Benefit:** Opponents do not gain a +2 bonus on attack rolls for flanking you, although they can still sneak attack you. You also gain a +3 bonus on Sense Motive checks made to resist a foe's Bluff checks to feint in combat.",
+			"**Benefit:** Opponents do not gain a +2 bonus on attack rolls for {rule/flanking} you, although they can still {ability/sneak attack} you. You also gain a +3 bonus on Sense Motive checks made to resist a foe's Bluff checks to {rule/feint} in combat.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Weapon Master's Handbook/25}",
@@ -1928,13 +1928,13 @@
 			"",
 			"Your critical hits cause opponents to become sickened.  ",
 			"**Prerequisites:** {feat/Critical Focus}, base attack bonus +11.  ",
-			"**Benefit:** Whenever you score a critical hit, your opponent becomes sickened for 1 minute. The effects of this feat do not stack. Additional hits instead add to the effect's duration.  ",
+			"**Benefit:** Whenever you score a critical hit, your opponent becomes {misc/sickened} for 1 minute. The effects of this feat do not stack. Additional hits instead add to the effect's duration.  ",
 			"**Special:** You can only apply the effects of one critical feat to a given critical hit unless you possess Critical Mastery.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/131}",
 			">",
-			">When you threaten a critical hit using this feat, before rolling the confirmation roll, you can spend 5 stamina points. If you do and the critical hit is confirmed, the foe is nauseated for 1d4+1 rounds unless it succeeds at a Fortitude save with a DC equal to 10 + your base attack bonus, which reduces the effect to the normal sickened condition."
+			">When you threaten a critical hit using this feat, before rolling the confirmation roll, you can spend 5 stamina points. If you do and the critical hit is confirmed, the foe is {misc/nauseated} for 1d4+1 rounds unless it succeeds at a Fortitude save with a DC equal to 10 + your base attack bonus, which reduces the effect to the normal sickened condition."
 		]
 	},
 	"sickening_spell": {
@@ -1946,7 +1946,7 @@
 			"{SOURCE Advanced Player's Guide/169}",
 			"",
 			"You can sicken creatures with your spells.  ",
-			"**Benefit:** You can modify a spell to sicken a creature damaged by the spell. When a creature takes damage from this spell, they become sickened for a number of rounds equal to the original level of the spell. If the spell allows a saving throw, a successful save negates the sickening effect. If the spell does not allow a save, the target can make a Fortitude save to negate the sickening effect. If the spell effect also causes the creature to become sickened, the duration of this metamagic effect is added on to the duration of the spell. A sickening spell uses up a spell slot two levels higher than the spell's actual level.",
+			"**Benefit:** You can modify a spell to sicken a creature damaged by the spell. When a creature takes damage from this spell, they become {misc/sickened} for a number of rounds equal to the original level of the spell. If the spell allows a saving throw, a successful save negates the sickening effect. If the spell does not allow a save, the target can make a Fortitude save to negate the sickening effect. If the spell effect also causes the creature to become sickened, the duration of this metamagic effect is added on to the duration of the spell. A sickening spell uses up a spell slot two levels higher than the spell's actual level.",
 			"",
 			"Spells that do not inflict damage do not benefit from this feat."
 		]
@@ -1963,7 +1963,7 @@
 			"**Prerequisites:** Spell-like ability at caster level 6th or higher.  ",
 			"**Benefit:** Choose one of your spell-like abilities, subject to the restrictions described in this feat. You can use the chosen spell-like ability as a sickening spell-like ability three times per day (or less, if the ability is normally usable only once or twice per day).",
 			"",
-			"When you use a sickening spell-like ability, a target that takes damage from the spell-like ability becomes sickened for a number of rounds equal to the spell-like ability's equivalent spell level. If the spell-like ability allows a saving throw, a successful save negates the sickening effect. If the spell does not allow a saving throw, the target can attempt a Fortitude save (against the DC that the spell-like ability would have if it allowed a saving throw) to negate the sickening effect. If the effect of the spell-like ability also causes targets to become sickened and targets fail their save, add the duration of the sickened condition caused by this effect to the duration of the sickened condition imposed by the spell-like ability.",
+			"When you use a sickening spell-like ability, a target that takes damage from the spell-like ability becomes {misc/sickened} for a number of rounds equal to the spell-like ability's equivalent spell level. If the spell-like ability allows a saving throw, a successful save negates the sickening effect. If the spell does not allow a saving throw, the target can attempt a Fortitude save (against the DC that the spell-like ability would have if it allowed a saving throw) to negate the sickening effect. If the effect of the spell-like ability also causes targets to become sickened and targets fail their save, add the duration of the sickened condition caused by this effect to the duration of the sickened condition imposed by the spell-like ability.",
 			"",
 			"Spell-like abilities that do not inflict damage do not benefit from this feat.",
 			"",
@@ -2019,7 +2019,7 @@
 			"",
 			"Under your leadership, the time required to assemble and move a siege engine is greatly reduced.  ",
 			"**Prerequisites:** Craft (siege weapon) 5 ranks, Knowledge (engineering) 5 ranks or Profession (siege engineer) 1 rank.  ",
-			"**Benefit:** When you lead a siege engine assembly crew, you grant all of its members a +4 competence bonus on checks to assemble or move the weapon. You also halve the time required to assemble a siege engine.",
+			"**Benefit:** When you lead a {rule/siege engine>_rules} assembly crew, you grant all of its members a +4 competence bonus on checks to assemble or move the weapon. You also halve the time required to assemble a siege engine.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/131}",
@@ -2040,7 +2040,7 @@
 			"",
 			"You are proficient with all siege weaponry.  ",
 			"**Prerequisites:** Knowledge (engineering) 5 ranks or Profession (siege engineer) 5 ranks, proficiency with one siege engine.  ",
-			"**Benefit:** You are considered to be proficient with all siege weapons. Also, when you are crew lead for a siege engine, you do not generate mishaps on the roll of a natural 1.  ",
+			"**Benefit:** You are considered to be proficient with all siege weapons. Also, when you are crew lead for a {rule/siege engine>s_uc}, you do not generate mishaps on the roll of a natural 1.  ",
 			"**Normal:** Each siege engine is an exotic weapon.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -2062,7 +2062,7 @@
 			"",
 			"Aiming outsized siege weapons poses little difficulty for you.  ",
 			"**Prerequisites:** {feat/Siege Engineer}, Profession (siege engineer) 5 ranks.  ",
-			"**Benefit:** You take no size penalty for aiming a direct-fire siege weapon larger than yourself. If you operate an indirect-fire siege weapon and miss, you misdirect fire by 1 square per range increment.  ",
+			"**Benefit:** You take no size penalty for aiming a direct-fire {rule/siege /weapon>engine_rules} larger than yourself. If you operate an indirect-fire siege weapon and miss, you misdirect fire by 1 square per range increment.  ",
 			"**Normal:** Direct-fire weapons impose a -2 attack roll penalty per size category by which the weapon is larger than the creature aiming it. An indirect-fire weapon that misses misdirects fire by 1d4 squares per range increment.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -2080,8 +2080,8 @@
 			"{SOURCE Ultimate Combat/119}",
 			"",
 			"You are known for performing a particular deed, and can perform it with greater ease.  ",
-			"**Prerequisites:** Grit class feature, gunslinger level 11th.  ",
-			"**Benefit:** Pick a deed that you have access to and that you must spend grit to perform. Once per round, you can perform this deed for 1 fewer grit point (minimum 0). You can reduce the cost of a deed in this way only if you have at least 1 grit point."
+			"**Prerequisites:** Grit class feature, {class/gunslinger} level 11th.  ",
+			"**Benefit:** Pick a {ability/gunslinger_<deed>s} that you have access to and that you must spend grit to perform. Once per round, you can perform this deed for 1 fewer grit point (minimum 0). You can reduce the cost of a deed in this way only if you have at least 1 grit point."
 		]
 	},
 	"signature_skill": {
@@ -2094,7 +2094,7 @@
 			"",
 			"Your ability with a particular skill is the stuff of legends, and you can do things with that skill that others cannot.  ",
 			"**Prerequisites:** 5 ranks in the chosen skill.  ",
-			"**Benefit:** Choose one skill. You gain the ability listed in that skill's 5 Ranks entry. As you gain more ranks in the chosen skill, you gain additional abilities. If you have 10 or more ranks in the chosen skill, you gain the appropriate abilities immediately. If your chosen skill is Craft, Knowledge, Perform, or Profession, you gain the listed powers only for one category of that skill, such as Craft (bows). This feat can be taken only once, but it stacks with the rogue's edge ability and the cutting edge rogue talent."
+			"**Benefit:** Choose one skill. You gain the ability listed in that skill's 5 Ranks entry. As you gain more ranks in the chosen skill, you gain additional abilities. If you have 10 or more ranks in the chosen skill, you gain the appropriate abilities immediately. If your chosen skill is Craft, Knowledge, Perform, or Profession, you gain the listed powers only for one category of that skill, such as Craft (bows). This feat can be taken only once, but it stacks with the rogue's edge ability and the {talent/cutting edge} rogue talent."
 		]
 	},
 	"signature_strike_style": {
@@ -2106,8 +2106,8 @@
 			"{SOURCE People of the Wastes/10}",
 			"",
 			"Your accuracy when attacking is both delightfully artistic and chillingly deadly.  ",
-			"**Prerequisites:** {feat/Precise Shot}; {feat/Weapon Focus}; base attack bonus +7; Intimidate 7 ranks; {feat/Improved Called Shot}, targeted strike swashbuckler deed, or targeting gunslinger deed.  ",
-			"**Benefit:** Each creature you hit using a called shot, the targeted strike swashbuckler deed, or the targeting gunslinger deed must succeed at a Will save or be shaken for 1d3 rounds (DC = 10 + half your character level + your Charisma modifier). You must be using this style and attacking with a weapon for which you have Weapon Focus to gain this benefit. This is a fear effect that doesn't stack with itself or with other fear effects. If a creature is already shaken and you make it shaken using this feat, the duration of the shaken condition is merely extended.",
+			"**Prerequisites:** {feat/Precise Shot}; {feat/Weapon Focus}; base attack bonus +7; Intimidate 7 ranks; {feat/Improved Called Shot}, {swashdeed/targeted strike} swashbuckler deed, or {deed/targeting} gunslinger deed.  ",
+			"**Benefit:** Each creature you hit using a {rule/called shot>s}, the *targeted strike* swashbuckler deed, or the *targeting* gunslinger deed must succeed at a Will save or be {misc/shaken} for 1d3 rounds (DC = 10 + half your character level + your Charisma modifier). You must be using this style and attacking with a weapon for which you have Weapon Focus to gain this benefit. This is a fear effect that doesn't stack with itself or with other fear effects. If a creature is already shaken and you make it shaken using this feat, the duration of the shaken condition is merely extended.",
 			"",
 			"If this attack deals damage, you can also have the injury leave a distinctive mark, such as a letter, shape, or other simple symbol. This mark heals naturally and disappears once the target has healed the damage dealt by your attack. As a free action after the attack, you can spend 1 grit point or 1 panache point to make the mark heal as a permanent scar unless the target succeeds at a Fortitude save (DC = 10 + half your character level + your Charisma modifier). You gain a +2 bonus on Perception checks to see through the disguises of creatures that bear your mark."
 		]
@@ -2122,7 +2122,7 @@
 			"",
 			"Your mocking strikes leave your foe deeply embarrassed and infuriated.  ",
 			"**Prerequisites:** {feat/Precise Shot}, {feat/Signature Strike Style}, {feat/Weapon Focus}, base attack bonus +9, Intimidate 9 ranks.  ",
-			"**Benefit:** Creatures that gain the shaken condition as a result of Signature Strike Style also take a -2 penalty to AC for the duration of the shaken condition that feat causes. While the shaken condition persists, you do not provoke attacks of opportunity when performing combat maneuvers against that target."
+			"**Benefit:** Creatures that gain the {misc/shaken} condition as a result of Signature Strike Style also take a -2 penalty to AC for the duration of the shaken condition that feat causes. While the shaken condition persists, you do not provoke attacks of opportunity when performing combat maneuvers against that target."
 		]
 	},
 	"signature_strike_triumph": {
@@ -2135,7 +2135,7 @@
 			"",
 			"With an effortless flourish, you strike terror into your foes and inspire your allies.  ",
 			"**Prerequisites:** {feat/Precise Shot}, {feat/Signature Strike Style}, {feat/Signature Strike Taunt}, {feat/Weapon Focus}, base attack bonus +11, Intimidate 11 ranks.  ",
-			"**Benefit:** When you use Signature Strike Style to give a creature the shaken condition, increase the duration to 1d4+1 rounds. When you confirm a critical hit against a creature marked by your Signature Strike Style, one ally within 60 feet who can see you can attempt a new saving throw against one ongoing effect with the emotion, fear, or mind-affecting descriptor caused by the marked creature. If the ally succeeds at this saving throw and the effect's remaining duration is 24 hours or less, the effect ends; if the remaining duration is more than 24 hours, the effect is suppressed for 1 minute."
+			"**Benefit:** When you use Signature Strike Style to give a creature the {misc/shaken} condition, increase the duration to 1d4+1 rounds. When you confirm a critical hit against a creature marked by your Signature Strike Style, one ally within 60 feet who can see you can attempt a new saving throw against one ongoing effect with the emotion, fear, or mind-affecting descriptor caused by the marked creature. If the ally succeeds at this saving throw and the effect's remaining duration is 24 hours or less, the effect ends; if the remaining duration is more than 24 hours, the effect is suppressed for 1 minute."
 		]
 	},
 	"signifer_armor_training": {
@@ -2163,7 +2163,7 @@
 			"{SOURCE Advanced Class Guide/156}",
 			"",
 			"You are quite adept at killing your prey without making noise or alerting others.  ",
-			"**Prerequisites:** Stealth 12 ranks; assassinate advanced slayer talent or ninja master trick.  ",
+			"**Prerequisites:** Stealth 12 ranks; *assassinate* [advanced slayer talent](slayertalent/assassinate) or [ninja master trick](ninjatrick/assassinate).  ",
 			"**Benefit:** When you kill a creature during a surprise round, you can attempt a Stealth check, opposed by the Perception checks of potential observers, to prevent them from noticing your action and subsequently identifying you as the assailant.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -2181,7 +2181,7 @@
 			"{SOURCE Faction Guide/57}",
 			"",
 			"You can use any bardic performance ability without making a sound.  ",
-			"**Prerequisites:** {ability/Bardic performance} class feature, {feat/Extra Performance}, {feat/Master Performer}, bard level 12th, [Kitharodian Academy](rule/f_bards) 15 TPA.  ",
+			"**Prerequisites:** {ability/Bardic performance} class feature, {feat/Extra Performance}, {feat/Master Performer}, {class/bard} level 12th, [Kitharodian Academy](rule/f_bards) 15 TPA.  ",
 			"**Benefit:** You can use your audible-component bardic performance as visual-component bardic performances. Any bardic ability used in this manner expends 4 times as many bardic performance rounds as normal."
 		]
 	},
@@ -2195,7 +2195,7 @@
 			"",
 			"You can cast your spells without making any sound.  ",
 			"**Benefit:** A silent spell can be cast with no verbal components. Spells without verbal components are not affected. A silent spell uses up a spell slot one level higher than the spell's actual level.  ",
-			"**Special:** Bard spells cannot be enhanced by this feat."
+			"**Special:** Bard and skald spells cannot be enhanced by this feat."
 		]
 	},
 	"silenced": { "copyof": "silent_spell" },
@@ -2222,9 +2222,9 @@
 			"",
 			"{SOURCE Ultimate Magic/155}",
 			"",
-			"Unlike others who have taken the oath against undeath, your preoccupation with the undead does not cloud your view of good and evil.  ",
+			"Unlike others who have taken the {oath/oath against |undeath}, your preoccupation with the undead does not cloud your view of good and evil.  ",
 			"**Prerequisites:** Detect undead paladin class feature.  ",
-			"**Benefit:** You gain the detect evil class feature. You may use it or the detect undead class feature, but not at the same time."
+			"**Benefit:** You gain the *detect evil* class feature. You may use it or the *detect undead* class feature, but not at the same time."
 		]
 	},
 	"sincere_flattery": {
@@ -2250,8 +2250,8 @@
 			"",
 			"You need spook only a few souls to scare a whole city.  ",
 			"**Prerequisites:** Cha 13; Intimidate 5 ranks; {feat/Persuasive} or renown social talent.  ",
-			"**Benefit:** By spending 8 hours cultivating your local legend in a settlement and then succeeding at an Intimidate check, your fearsome reputation becomes common knowledge. The DC is based on the [size of the settlement](rule/the_shape_of_civilization) (see the Sinister Reputation table below). If the check succeeds, you can attempt an Intimidate check to demoralize a creature that has fewer Hit Dice than you as a swift action, and using Intimidate to force a creature to act friendly to you takes only half as long. You gain these benefits only while within the settlement and while not disguised. These benefits last for a number of days equal to your half your level + your Charisma modifier.  ",
-			"**Special:** This feat's benefits always apply to a vigilante's area of renown, and he can choose whether the reputation and benefits apply to his social identity, vigilante identity, or both. You can always apply this feat's benefits to followers and cohorts gained from Leadership or similar abilities.",
+			"**Benefit:** By spending 8 hours cultivating your local legend in a settlement and then succeeding at an Intimidate check, your fearsome reputation becomes common knowledge. The DC is based on the [size of the settlement](rule/the_shape_of_civilization) (see the Sinister Reputation table below). If the check succeeds, you can attempt an {skill/Intimidate} check to demoralize a creature that has fewer Hit Dice than you as a swift action, and using Intimidate to force a creature to act friendly to you takes only half as long. You gain these benefits only while within the settlement and while not disguised. These benefits last for a number of days equal to your half your level + your Charisma modifier.  ",
+			"**Special:** This feat's benefits always apply to a {class/vigilante/'s} area of renown, and he can choose whether the reputation and benefits apply to his social identity, vigilante identity, or both. You can always apply this feat's benefits to followers and cohorts gained from {feat/Leadership} or similar abilities.",
 			"",
 			"### Sinister Reputation Table",
 			"",
@@ -2290,8 +2290,8 @@
 			"{SOURCE Wilderness Origins/11}",
 			"",
 			"Your vines can wrap around foes you grapple.  ",
-			"**Prerequisites:** Dex 13, {feat/Improved Grapple}, {feat/Improved Unarmed Strike}.  ",
-			"**Benefit:** You gain a +2 bonus on combat maneuver checks to grapple, and your wings count as a free hand for the purpose of grappling a foe. You can maintain a grapple with your wings and still make attacks with your other limbs. You cannot fly while maintaining a grapple with your wings."
+			"**Prerequisites:** Dex 13, {feat/Improved Grapple}, {feat/Improved Unarmed Strike}, base attack bonus +6, {race/gathlain}.  ",
+			"**Benefit:** You gain a +2 bonus on combat maneuver checks to {rule/grapple}, and your wings count as a free hand for the purpose of grappling a foe. You can maintain a grapple with your wings and still make attacks with your other limbs. You cannot fly while maintaining a grapple with your wings."
 		]
 	},
 	"siphon_channel": {
@@ -2304,7 +2304,7 @@
 			"",
 			"You can channel negative energy to feed off the suffering of others.  ",
 			"**Prerequisites:** {ability/Channel energy} 3d6, worshiper of {faith/Ghlaunder}.  ",
-			"**Benefit:** Once per day when you channel negative energy to damage living creatures, you gain a number of temporary hit points equal to half the die result of your channeled energy + 1 per creature affected by the channeled energy. For each affected creature that did not succeed at its saving throw against the channeled energy, you gain an additional temporary hit point. These temporary hit points disappear after 1 hour."
+			"**Benefit:** Once per day when you channel negative energy to damage living creatures, you gain a number of {rule/temporary hit points} equal to half the die result of your channeled energy + 1 per creature affected by the channeled energy. For each affected creature that did not succeed at its saving throw against the channeled energy, you gain an additional temporary hit point. These temporary hit points disappear after 1 hour."
 		]
 	},
 	"siphon_poison": {
@@ -2329,7 +2329,7 @@
 			"",
 			"You can empower yourself by drawing blood through your rhoka sword.  ",
 			"**Prerequisites:** {feat/Voracious Blade}, base attack bonus +8, {monster/urdefhan}.  ",
-			"**Benefit:** When you use the Voracious Blade feat to deal Strength damage with your rhoka sword, you also drain the victim's blood. The attack deals 1 point of bleed damage in addition to its normal damage, and you gain fast healing 2 for 3 rounds. You can use this ability only once against an individual creature in a 24-hour period."
+			"**Benefit:** When you use the Voracious Blade feat to deal Strength damage with your {eq-weapon/rhoka sword}, you also drain the victim's blood. The attack deals 1 point of {rule/bleed} damage in addition to its normal damage, and you gain {umr/fast healing} 2 for 3 rounds. You can use this ability only once against an individual creature in a 24-hour period."
 		]
 	},
 	"sisterhood_dedication": {
@@ -2342,7 +2342,7 @@
 			"",
 			"The [Gray Maidens'](rule/aff_scarred_ladies) bond with each other goes beyond simple combat coordination. An elite member of the sisterhood is an inspiration to her fellow women, both invigorating their spirits and effortlessly coordinating their tactics.  ",
 			"**Prerequisites:** Cha 13, {feat/Shield Focus}, {feat/Shield Wall}, {feat/Sisterhood Rampart}, {feat/Sisterhood Style}, base attack bonus +6.  ",
-			"**Benefit:** While you're using Sisterhood Style and wielding a longsword and either a light or heavy shield, the bonus on saving throws from Sisterhood Style increases to +2 and you grant half that bonus to all allies within 20 feet. In addition, you can choose up to two teamwork feats you have when entering the Sisterhood Style stance. As a swift action, you can grant one of those feats to two allies within 20 feet until the beginning of your next turn, or you can grant both feats to one ally within 20 feet until the beginning of your next turn."
+			"**Benefit:** While you're using Sisterhood Style and wielding a {eq-weapon/longsword} and either a {eq-armor/light>_shield} or {eq-armor/heavy shield}, the bonus on saving throws from Sisterhood Style increases to +2 and you grant half that bonus to all allies within 20 feet. In addition, you can choose up to two {main/feats_<teamwork/ feats} you have when entering the Sisterhood Style stance. As a swift action, you can grant one of those feats to two allies within 20 feet until the beginning of your next turn, or you can grant both feats to one ally within 20 feet until the beginning of your next turn."
 		]
 	},
 	"sisterhood_rampart": {
@@ -2355,7 +2355,7 @@
 			"",
 			"The shield wall was the heart of the Gray Maidens' military strategy; combined with their precise tactical coordination, [Gray Maiden](rule/aff_scarred_ladies) lines were nearly unbreakable. Maidens behind the line would then strike with polearms or longbows, picking off targets with ease.  ",
 			"**Prerequisites:** Cha 13, {feat/Shield Focus}, {feat/Shield Wall}, {feat/Sisterhood Style}, base attack bonus +4.  ",
-			"**Benefit:** While using Sisterhood Style, you and adjacent allies gain an additional +1 bonus to the shield bonus granted by Shield Wall, and each of you adds your shield bonus to AC (not counting enhancement bonuses) to your CMD against bull rush combat maneuvers. In addition, you and adjacent allies do not provide soft cover against allies' attacks."
+			"**Benefit:** While using Sisterhood Style, you and adjacent allies gain an additional +1 bonus to the shield bonus granted by Shield Wall, and each of you adds your shield bonus to AC (not counting enhancement bonuses) to your CMD against {rule/bull rush} combat maneuvers. In addition, you and adjacent allies do not provide soft cover against allies' attacks."
 		]
 	},
 	"sisterhood_style": {
@@ -2368,7 +2368,7 @@
 			"",
 			"The [Gray Maidens](rule/aff_scarred_ladies) are more than just soldiers - they drill relentlessly to fight as a team and to protect their bodies and minds. A Gray Maiden using the Sisterhood Style can easily coordinate tactics with other women.  ",
 			"**Prerequisites:** Cha 13, {feat/Shield Focus}, base attack bonus +2.  ",
-			"**Benefit:** While using this style and wielding a longsword and a light or heavy shield, you gain a +1 bonus on Reflex and Will saving throws. In addition, when you enter the Sisterhood Style stance, you can choose a teamwork feat you have. As a swift action, you can grant that feat to an ally within 10 feet until the beginning of your next turn."
+			"**Benefit:** While using this style and wielding a {eq-weapon/longsword} and either a {eq-armor/light>_shield} or {eq-armor/heavy shield}, you gain a +1 bonus on Reflex and Will saving throws. In addition, when you enter the Sisterhood Style stance, you can choose a {main/feats_<teamwork/ feat} you have. As a swift action, you can grant that feat to an ally within 10 feet until the beginning of your next turn."
 		]
 	},
 	"sizzling_shot": {
@@ -2381,7 +2381,7 @@
 			"",
 			"Your bullets ignite when you fire them.  ",
 			"**Prerequisites:** Grit class feature or {feat/Amateur Gunslinger}, base attack bonus +4.  ",
-			"**Benefit:** As long as you have at least 1 grit point when using a firearm to fire bullets, pellets, or similar ammunition, you can choose for half of the attack's damage to deal fire damage and the other half to deal bludgeoning and piercing damage. If you spend 1 grit point when you declare such an attack with a firearm, you can grant the bullet or pellets fired the flaming weapon special ability for that attack only."
+			"**Benefit:** As long as you have at least 1 grit point when using a firearm to fire bullets, pellets, or similar ammunition, you can choose for half of the attack's damage to deal fire damage and the other half to deal bludgeoning and piercing damage. If you spend 1 grit point when you declare such an attack with a firearm, you can grant the bullet or pellets fired the {magic-enh/flaming} weapon special ability for that attack only."
 		]
 	},
 	"skalds_vigor": {
@@ -2394,7 +2394,7 @@
 			"",
 			"Your song and your enthusiasm combine to invigorate you in battle.  ",
 			"**Prerequisites:** Raging song class feature.  ",
-			"**Benefit:** While maintaining a raging song, you gain fast healing equal to the Strength bonus your song provides, starting in the round after you begin the song. If you stop maintaining your song, the fast healing ends, even if the effects of your song persist."
+			"**Benefit:** While maintaining a raging song, you gain {umr/fast healing} equal to the Strength bonus your song provides, starting in the round after you begin the song. If you stop maintaining your song, the fast healing ends, even if the effects of your song persist."
 		]
 	},
 	"skaveling_companion": {
@@ -2407,11 +2407,11 @@
 			"",
 			"You are bonded with a terrifying undead mount created through foul daemonic rites.  ",
 			"**Prerequisites:** 7th level in a class that grants an animal companion or mount, {monster/urdefhan}.  ",
-			"**Benefit:** In place of the animal companion or mount granted by your class feature, you are bonded with a skaveling. Though less intelligent than others of its kind and lacking the ability to paralyze and infect victims with its bite, the beast serves you unerringly.",
+			"**Benefit:** In place of the animal companion or mount granted by your class feature, you are bonded with a {monster/skaveling}. Though less intelligent than others of its kind and lacking the ability to paralyze and infect victims with its bite, the beast serves you unerringly.",
 			"",
 			"### Bat, Skaveling",
 			"",
-			"**Size** Large; **Speed** 20 ft., fly 40 ft. (good); **AC** +6 natural armor; **Attack** bite +10 (2d8+6); **Ability Scores** Str 23, Dex 19, Con -, Int 2, Wis 15, Cha 14; **Special Attacks** screech (DC 15); **Languages** none; **Special Abilities** *Screech (Su)* Once per day as a standard action, a skaveling can utter an ear-splitting screech that stuns non-skavelings in a 20-foot burst. All creatures within the area must succeed at a DC 15 Fortitude save or be stunned for 1d3 rounds. Other skavelings, mobats, and urdefhans are immune to this effect. This is a sonic mind-affecting effect. The save DC is Charisma-based."
+			"**Size** Large; **Speed** 20 ft., fly 40 ft. (good); **AC** +6 natural armor; **Attack** bite +10 (2d8+6); **Ability Scores** Str 23, Dex 19, Con -, Int 2, Wis 15, Cha 14; **Special Attacks** screech (DC 15); **Languages** none; **Special Abilities** *Screech (Su)* Once per day as a standard action, a skaveling can utter an ear-splitting screech that stuns non-skavelings in a 20-foot burst. All creatures within the area must succeed at a DC 15 Fortitude save or be {misc/stunned} for 1d3 rounds. Other skavelings, {monster/mobat/s}, and urdefhans are immune to this effect. This is a sonic mind-affecting effect. The save DC is Charisma-based."
 		]
 	},
 	"skeleton_summoner": {
@@ -2462,7 +2462,7 @@
 			"",
 			"{SOURCE Ultimate Combat/119}",
 			"",
-			"Choose a type a type of vehicle (either air, land, or water). You are more skilled when driving that vehicle.  ",
+			"Choose a type a type of {rule/vehicle>s} (either air, land, or water). You are more skilled when driving that vehicle.  ",
 			"**Benefit:** You gain a +4 bonus on driving checks with your chosen vehicle."
 		]
 	},
@@ -2490,7 +2490,7 @@
 			"",
 			"During the daylight hours, you can cloak your unnatural form beneath a veil of flesh and blood.  ",
 			"**Prerequisites:** Int 7, undead creature that was originally humanoid.  ",
-			"**Benefit:** Once per day as a full-round action, you can cloak your body in a thin, fleshy suit that gives you the appearance of yourself as a young adult humanoid. Your appearance changes as per alter self, but this feat doesn't adjust your ability scores or grant any new abilities. When so disguised, you cannot use slashing or piercing natural attacks, such as bite or claw attacks, without unraveling and destroying your skin suit, nor can you deliver energy drain or ability damage with your undead special attacks (such as a wight or vampire's slam attacks) without destroying the suit. While wearing a skin suit, your alignment is masked as though by a constant undetectable alignment spell, and you have the aura of a living creature instead of an undead creature for the purposes of detect undead and similar effects. The skin suit dissolves into a puddle of bloody slurry at sundown, though you can remove it at any time as a standard action. The skin suit does not protect you from the effects of being exposed to direct sunlight. Finally, if you take lethal damage while wearing your skin suit, you must succeed at a Reflex save with a DC equal to the amount of lethal damageor the skin suit is destroyed."
+			"**Benefit:** Once per day as a full-round action, you can cloak your body in a thin, fleshy suit that gives you the appearance of yourself as a young adult humanoid. Your appearance changes as per {spell/alter self}, but this feat doesn't adjust your ability scores or grant any new abilities. When so disguised, you cannot use slashing or piercing natural attacks, such as bite or claw attacks, without unraveling and destroying your skin suit, nor can you deliver energy drain or ability damage with your undead special attacks (such as a {monster/wight} or {template/vampire/'s} slam attacks) without destroying the suit. While wearing a skin suit, your alignment is masked as though by a constant {spell/undetectable alignment} spell, and you have the aura of a living creature instead of an undead creature for the purposes of {spell/detect undead} and similar effects. The skin suit dissolves into a puddle of bloody slurry at sundown, though you can remove it at any time as a standard action. The skin suit does not protect you from the effects of being exposed to direct sunlight. Finally, if you take lethal damage while wearing your skin suit, you must succeed at a Reflex save with a DC equal to the amount of lethal damageor the skin suit is destroyed."
 		]
 	},
 	"skyseeker_impact": {
@@ -2503,7 +2503,7 @@
 			"",
 			"You've been trained to devastate larger opponents and shatter their weapons to negate their reach advantage.  ",
 			"**Prerequisites:** Con 13, {feat/Skyseeker Style}, {feat/Skyseeker Thrash}, {feat/Step Up}, base attack bonus +9.  ",
-			"**Benefit:** While using Skyseeker Style, whenever you hit an opponent larger than you with a melee attack, your weapon deals damage as if that weapon were one size category larger. You also gain a +4 bonus on sunder combat maneuver checks against targets larger than you."
+			"**Benefit:** While using Skyseeker Style, whenever you hit an opponent larger than you with a melee attack, your weapon deals damage as if that weapon were {misc/one size category larger}. You also gain a +4 bonus on {rule/sunder} combat maneuver checks against targets larger than you."
 		]
 	},
 	"skyseeker_style": {
@@ -2516,7 +2516,7 @@
 			"",
 			"You know how to duck and weave through small gaps in a foe's defense to close the distance between yourself and your enemy.  ",
 			"**Prerequisites:** {feat/Step Up}, base attack bonus +1.  ",
-			"**Benefit:** Once per round, when an opponent attacks you with a reach weapon, you can take a 5-foot step towards your opponent as an immediate action. If the movement takes you to a square that the opponent's reach weapon does not threaten, you receive a +4 bonus to AC against that attack. If you take this step, you cannot take a 5-foot step during your next turn. If you take an action to move during your next turn, subtract 5 feet from your total available movement."
+			"**Benefit:** Once per round, when an opponent attacks you with a {misc/reach} weapon, you can take a 5-foot step towards your opponent as an immediate action. If the movement takes you to a square that the opponent's reach weapon does not threaten, you receive a +4 bonus to AC against that attack. If you take this step, you cannot take a 5-foot step during your next turn. If you take an action to move during your next turn, subtract 5 feet from your total available movement."
 		]
 	},
 	"skyseeker_thrash": {
@@ -2545,7 +2545,7 @@
 			"",
 			"You can stab your enemies with your sword or another slashing weapon.  ",
 			"**Prerequisites:** Dex 13, {feat/Weapon Finesse}, {feat/Weapon Focus} with chosen weapon.  ",
-			"**Benefit:** Choose one kind of light or one-handed slashing weapon (such as the longsword). When wielding your chosen weapon one-handed, you can treat it as a one-handed piercing melee weapon for all feats and class abilities that require such a weapon (such as a swashbuckler's or a duelist's precise strike) and you can add your Dexterity modifier instead of your Strength modifier to that weapon's damage. The weapon must be one appropriate for your size. You do not gain this benefit while fighting with two weapons or using flurry of blows, or any time another hand is otherwise occupied.",
+			"**Benefit:** Choose one kind of light or one-handed slashing weapon (such as the {eq-weapon/longsword}). When wielding your chosen weapon one-handed, you can treat it as a one-handed piercing melee weapon for all feats and class abilities that require such a weapon (such as a {class/swashbuckler/'s} or a {pclass/duelist/'s} precise strike) and you can add your Dexterity modifier instead of your Strength modifier to that weapon's damage. The weapon must be one appropriate for your size. You do not gain this benefit while fighting with two weapons or using flurry of blows, or any time another hand is otherwise occupied.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/131}",
@@ -2566,7 +2566,7 @@
 			"",
 			"You rely on your deceptive speed and agility instead of trickery to catch your opponents unprepared.  ",
 			"**Prerequisites:** Dex 15, {feat/Acrobatic} or slayer level 1st, {feat/Combat Expertise}, Acrobatics 1 rank.  ",
-			"**Benefit:** You can use Acrobatics instead of Bluff to feint in combat.",
+			"**Benefit:** You can use Acrobatics instead of Bluff to {rule/feint} in combat.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/132}",
@@ -2598,7 +2598,7 @@
 			"",
 			"With swift feet and deadly intent, you finish off your target before anyone sees your blade.  ",
 			"**Prerequisites:** {feat/Dodge}, {feat/Mobility}, {feat/Spring Attack}, base attack bonus +13.  ",
-			"**Benefit:** You can move up to half your speed instead of taking a 5-foot step when taking a full-round action to perform a coup de grace. Performing a coup de grace does not provoke attacks of opportunity.",
+			"**Benefit:** You can move up to half your speed instead of taking a 5-foot step when taking a full-round action to perform a {misc/coup de grace}. Performing a *coup de grace* does not provoke attacks of opportunity.",
 			"",
 			"You can use this feat only when wielding a light or one-handed weapon."
 		]
@@ -2613,7 +2613,7 @@
 			"",
 			"You can change the nature of your toxic spittle to put your enemies to sleep.  ",
 			"**Prerequisites:** {race/Vishkanya}.  ",
-			"**Benefit:** As a swift action, you may alter the effects of your venom so the target falls unconscious. This changes the initial and secondary effect of your venom to the following: *initial effect* staggered for 1d4 rounds; *secondary effect* unconsciousness for 1 minute. You must make the decision to alter your venom before you apply it to a weapon.  ",
+			"**Benefit:** As a swift action, you may alter the effects of your venom so the target falls unconscious. This changes the initial and secondary effect of your venom to the following: *initial effect* {misc/staggered} for 1d4 rounds; *secondary effect* unconsciousness for 1 minute. You must make the decision to alter your venom before you apply it to a weapon.  ",
 			"**Normal:** Vishkanya venom deals Dexterity damage."
 		]
 	},
@@ -2640,7 +2640,7 @@
 			"",
 			"By maintaining a grapple hold on your opponent, you can cause it to lose consciousness.  ",
 			"**Prerequisites:** {feat/Greater Grapple}, base attack bonus +8.  ",
-			"**Benefit:** You must declare that you are using this feat before you make a combat maneuver check to maintain a grapple (thus a failed check to maintain the grapple ruins the attempt). If you maintain a grapple for a number of consecutive rounds equal to your opponent's Constitution bonus (minimum 1 round), you can attempt to knock out your opponent. The victim must succeed at a Fortitude save (DC 10 + 1/2 your character level + your Str modifier) or else it falls unconscious for 1d4 rounds. Each successive round you attempt this, the target takes a cumulative -1 penalty on its saving throw. When you use this feat, you take an additional -2 penalty to your AC. Creatures that are immune to bleed damage, stunning, or critical hits are immune to this ability."
+			"**Benefit:** You must declare that you are using this feat before you make a combat maneuver check to maintain a {rule/grapple} (thus a failed check to maintain the grapple ruins the attempt). If you maintain a grapple for a number of consecutive rounds equal to your opponent's Constitution bonus (minimum 1 round), you can attempt to knock out your opponent. The victim must succeed at a Fortitude save (DC 10 + 1/2 your character level + your Str modifier) or else it falls {misc/unconscious} for 1d4 rounds. Each successive round you attempt this, the target takes a cumulative -1 penalty on its saving throw. When you use this feat, you take an additional -2 penalty to your AC. Creatures that are immune to bleed damage, stunning, or critical hits are immune to this ability."
 		]
 	},
 	"sliding_axe_throw": {
@@ -2653,7 +2653,7 @@
 			"",
 			"You may aim your thrown axe to avoid an enemy's shield and even trip your opponent.  ",
 			"**Prerequisites:** Dex 13, base attack bonus +1.  ",
-			"**Benefit:** You can choose to take a -2 penalty on a ranged attack roll with an axe, bouncing it or sliding it along the ground. If the target is flat-footed, running, or charging, this attack ignores any bonuses to the target's AC from its shield. If the attack hits, you may immediately make a trip attempt against the target as a free action. If you fail to trip your opponent, your opponent does not get an attempt to trip you in return.",
+			"**Benefit:** You can choose to take a -2 penalty on a ranged attack roll with an axe, bouncing it or sliding it along the ground. If the target is {rule/flat-footed}, {rule/run/ning}, or {rule/charg/ing>e}, this attack ignores any bonuses to the target's AC from its shield. If the attack hits, you may immediately make a {rule/trip} attempt against the target as a free action. If you fail to trip your opponent, your opponent does not get an attempt to trip you in return.",
 			"",
 			"This ability may not work in certain circumstances as determined by the GM, such as if the ground is soft, there is an obstacle or difficult terrain on the floor between you and your target, and so on."
 		]
@@ -2668,7 +2668,7 @@
 			"",
 			"Your seemingly reckless advance becomes an agile strike at the last moment.  ",
 			"**Prerequisites:** Dex 15, Acrobatics 10 ranks or acrobatic charge class feature, Bluff 3 ranks.  ",
-			"**Benefit:** When charging, instead of moving to the closest space from which you can attack your target, you can move to the space adjacent to your target and on the other side of it, as long as you move through the closest space from which you can attack the target and through the target's space to get there. When you move through the target's space, you must attempt an Acrobatics check with a DC equal to 10 + your opponent's CMD. Success allows you to move through the target's space without provoking an attack of opportunity from that target, and when you arrive in the destination space and make your attack, the target is considered flanked for that attack (or the first attack if you have more than one attack on a charge). On a failed check, you instead provoke an attack of opportunity and complete the charge as normal. Whether or not you succeed at the Acrobatics check, you take a -4 penalty to your AC until the start of your turn, instead of the normal -2 penalty.  ",
+			"**Benefit:** When {rule/charg/ing>e}, instead of moving to the closest space from which you can attack your target, you can move to the space adjacent to your target and on the other side of it, as long as you move through the closest space from which you can attack the target and through the target's space to get there. When you move through the target's space, you must attempt an {skill/Acrobatics} check with a DC equal to 10 + your opponent's CMD. Success allows you to move through the target's space without provoking an attack of opportunity from that target, and when you arrive in the destination space and make your attack, the target is considered {rule/flank/ed>ing} for that attack (or the first attack if you have more than one attack on a charge). On a failed check, you instead provoke an attack of opportunity and complete the charge as normal. Whether or not you succeed at the Acrobatics check, you take a -4 penalty to your AC until the start of your turn, instead of the normal -2 penalty.  ",
 			"**Normal:** When charging, you must end the movement part of a charge in the closest space in which you can attack your target."
 		]
 	},
@@ -2685,13 +2685,13 @@
 			"",
 			"You can use your loaded sling to effectively strike at nearby foes.  ",
 			"**Prerequisites:** {feat/Weapon Focus} (sling), base attack bonus +1.  ",
-			"**Benefit:** You can make melee attacks using your loaded sling, using that weapon's normal statistics but treating it as a flail. Using a sling in this way does not expend mundane ammunition, but magical or masterwork ammunition loses its special properties after a single hit.  ",
+			"**Benefit:** You can make melee attacks using your loaded {eq-weapon/sling}, using that weapon's normal statistics but treating it as a {eq-weapon/flail}. Using a sling in this way does not expend mundane ammunition, but magical or masterwork ammunition loses its special properties after a single hit.  ",
 			"**Special:** Any feats you have that apply when you use a flail also apply when you use a loaded sling as a melee weapon.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/132}",
 			">",
-			">You can spend 2 stamina points to increase the damage dealt by the melee attacks you make with a loaded sling as if your sling were one size category larger than its actual size. For example, a Small sling would deal 1d4 points of damage, while a Medium one would deal 1d6. This benefit lasts until the start of your next turn, and doesn't stack with other effects that treat the sling as a larger size category unless they increase the sling's actual size."
+			">You can spend 2 stamina points to increase the damage dealt by the melee attacks you make with a loaded sling as if your sling were {misc/one size category larger} than its actual size. For example, a Small sling would deal 1d4 points of damage, while a Medium one would deal 1d6. This benefit lasts until the start of your next turn, and doesn't stack with other effects that treat the sling as a larger size category unless they increase the sling's actual size."
 		]
 	},
 	"slipslinger_bombardment": {
@@ -2704,7 +2704,7 @@
 			"",
 			"You can sling a rain of splash weapons at your enemies.  ",
 			"**Prerequisites:** {feat/Quick Draw}, {feat/Slipslinger Grenadier}, {feat/Slipslinger Style}, {feat/Throw Anything}, warslinger racial trait.  ",
-			"**Benefit:** You can use a sling to hurl alchemical splash weapons as ammunition with Slipslinger Grenadier during an attack action or a full-attack action, loading your sling with such weapons as a free action.  ",
+			"**Benefit:** You can use a {eq-weapon/sling} to hurl alchemical splash weapons as ammunition with Slipslinger Grenadier during an attack action or a full-attack action, loading your sling with such weapons as a free action.  ",
 			"**Special:** This feat can't be used with alchemists' bombs."
 		]
 	},
@@ -2718,7 +2718,7 @@
 			"",
 			"You can hurl splash weapons with your sling.  ",
 			"**Prerequisites:** {feat/Slipslinger Style}, {feat/Throw Anything}, warslinger racial trait.  ",
-			"**Benefit:** While using Slipslinger Style, as a standard action you can use a sling to hurl an alchemical splash weapon, treating it as a sling bullet for the purpose of drawing and loading it into your sling. Your sling deals its normal weapon damage, plus the loaded splash weapon's effect or damage. This extra damage is not multiplied on a critical hit.  ",
+			"**Benefit:** While using Slipslinger Style, as a standard action you can use a {eq-weapon/sling} to hurl an alchemical splash weapon, treating it as a sling bullet for the purpose of drawing and loading it into your sling. Your sling deals its normal weapon damage, plus the loaded splash weapon's effect or damage. This extra damage is not multiplied on a critical hit.  ",
 			"**Special:** This feat cannot be used with alchemists' bombs."
 		]
 	},
@@ -2732,7 +2732,7 @@
 			"",
 			"You can fire all manner of slings and sling-like weapons.  ",
 			"**Prerequisites:** {feat/Weapon Focus/ (sling) or weapon training (thrown) class feature} or weapon training (thrown) class feature), warslinger racial trait.  ",
-			"**Benefit:** You gain a +1 bonus on damage rolls made with all types of slings, and don't provoke attacks of opportunity when reloading a sling. In addition, you treat all ranged and thrown weapons that have \"sling\" in their name as if they were slings for all feats and class abilities that require such weapons, as well as the warslinger racial trait."
+			"**Benefit:** You gain a +1 bonus on damage rolls made with all types of {eq-weapon/sling/s}, and don't provoke attacks of opportunity when reloading a sling. In addition, you treat all ranged and thrown weapons that have \"sling\" in their name as if they were slings for all feats and class abilities that require such weapons, as well as the warslinger racial trait."
 		]
 	},
 	"slow_faller": {
@@ -2745,7 +2745,7 @@
 			"",
 			"You can reduce the amount of falling damage you take when you are close to a wall.  ",
 			"**Prerequisites:** Acrobatics 5 ranks or slow fall class feature.  ",
-			"**Benefit:** When you are within arm's reach of a wall, you can slow your descent, as long as you are not in heavy armor. You take damage as if the fall were 10 feet shorter than it actually is. This ability stacks with the slow fall class feature.  ",
+			"**Benefit:** When you are within arm's reach of a wall, you can slow your descent, as long as you are not in heavy armor. You take damage as if the {rule/fall>ing} were 10 feet shorter than it actually is. This ability stacks with the slow fall class feature.  ",
 			"**Special:** You can take this feat multiple times. Each time you do, you take damage as if the fall were an additional 10 feet shorter."
 		]
 	},
@@ -2759,7 +2759,7 @@
 			"",
 			"Meditation allows you to perceive time as if it were moving more slowly.  ",
 			"**Prerequisites:** Wis 15, {feat/Combat Meditation}, {feat/Meditation Master}, character level 7th.  ",
-			"**Benefit:** Once per day, when you meditate as a full-round action using the Combat Meditation feat, you gain the effects of haste for 1 round per 2 character levels. These effects do not stack with the haste spell, the speed magic weapon special ability, or other effects granting the same result. This is an extraordinary ability."
+			"**Benefit:** Once per day, when you meditate as a full-round action using the Combat Meditation feat, you gain the effects of {spell/haste} for 1 round per 2 character levels. These effects do not stack with the *haste* spell, the {magic-enh/speed} magic weapon special ability, or other effects granting the same result. This is an extraordinary ability."
 		]
 	},
 	"sluggish_jinx": {
@@ -2785,7 +2785,7 @@
 			"",
 			"You are skilled at riding slurks into battle.  ",
 			"**Prerequisites:** {race/Kobold}.  ",
-			"**Benefit:** You are able to control, guide, and communicate with slurks, as if they understood Draconic. You can also spend a standard action to manipulate the nodules on the slurk's back to activate its slime ability. Both you and the slurk can activate this ability during the same round."
+			"**Benefit:** You are able to control, guide, and communicate with {monster/slurk/s}, as if they understood Draconic. You can also spend a standard action to manipulate the nodules on the slurk's back to activate its slime ability. Both you and the slurk can activate this ability during the same round."
 		]
 	},
 	"sly_draw": {
@@ -2798,7 +2798,7 @@
 			"",
 			"You can draw your weapon with such speed and finesse that your opponents don't realize they're threatened.  ",
 			"**Prerequisites:** {feat/Quick Draw}.  ",
-			"**Benefit:** When you draw a light weapon, you may make a Sleight of Hand check instead of a Bluff check to feint in combat. Other feats and abilities that affect a feint still apply to your feint."
+			"**Benefit:** When you draw a light weapon, you may make a Sleight of Hand check instead of a Bluff check to {rule/feint} in combat. Other feats and abilities that affect a feint still apply to your feint."
 		]
 	},
 	"small_but_deadly": {
@@ -2828,7 +2828,7 @@
 			"You overcome obstacles by breaking them.  ",
 			"**Prerequisites:** {feat/Power Attack}, {race/half-orc}.  ",
 			"**Benefit:** When you attack an inanimate, unattended object, you ignore the first 5 points of its hardness. You also receive a +5 bonus on Strength checks made to knock down or break open doors.  ",
-			"**Special:** The benefits of this feat do not apply to sunder attempts or attacks against constructs, only attacks on inanimate, unattended objects.",
+			"**Special:** The benefits of this feat do not apply to {rule/sunder} attempts or attacks against constructs, only attacks on inanimate, unattended objects.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/132}",
@@ -2859,7 +2859,7 @@
 			"",
 			"Your hammers strike objects with destructive force.  ",
 			"**Prerequisites:** Str 13, {feat/Improved Sunder}, {feat/Smashing Style}, {feat/Weapon Focus} with the chosen weapon.  ",
-			"**Benefit:** While using Smashing Style, if you successfully damage an object with the sunder combat maneuver, you reduce its hardness by 1. An object can't have its hardness reduced to less than 50% of its normal hardness, and its hardness is restored when the damage dealt by the sunder attack is repaired."
+			"**Benefit:** While using Smashing Style, if you successfully damage an object with the {rule/sunder} combat maneuver, you reduce its hardness by 1. An object can't have its hardness reduced to less than 50% of its normal hardness, and its hardness is restored when the damage dealt by the sunder attack is repaired."
 		]
 	},
 	"smashing_dent": {
@@ -2872,7 +2872,7 @@
 			"",
 			"Your hammer strikes cause traumatic injuries.  ",
 			"**Prerequisites:** Str 13, {feat/Improved Sunder}, {feat/Smashing Crush}, {feat/Smashing Style}, {feat/Weapon Focus} with the chosen weapon, base attack bonus +6.  ",
-			"**Benefit:** While using Smashing Style, each time you damage a suit of armor with a sunder combat maneuver, you reduce its armor bonus to its Armor Class by 1 and increase its armor check penalty by 1. Armor cannot have its armor bonus to AC reduced to less than 50% of its normal bonus or its armor check penalty more than doubled. These reductions and increases both end when the damage dealt by the sunder is repaired."
+			"**Benefit:** While using Smashing Style, each time you damage a suit of armor with a {rule/sunder} combat maneuver, you reduce its armor bonus to its Armor Class by 1 and increase its armor check penalty by 1. Armor cannot have its armor bonus to AC reduced to less than 50% of its normal bonus or its armor check penalty more than doubled. These reductions and increases both end when the damage dealt by the sunder is repaired."
 		]
 	},
 	"smashing_impact": {
@@ -2885,7 +2885,7 @@
 			"",
 			"The force of your assault drives your opponents against, and possibly through, solid barriers.  ",
 			"**Prerequisites:** Str 15, {feat/Crushing Impact}, {feat/Improved Bull Rush}, {feat/Improved Unarmed Strike}, {feat/Power Attack}.  ",
-			"**Benefit:** Whenever you successfully bull rush an enemy and its movement is stopped by a solid object or barrier, you can deal your unarmed strike damage to both the foe and the object or barrier, as long as the enemy is within your threatened area. If you performed your bull rush as part of a charge, you gain a +2 bonus on your damage roll. If the damage is enough to destroy the object or barrier, you can continue to push your target the remaining distance allowed by your bull rush combat maneuver.  ",
+			"**Benefit:** Whenever you successfully {rule/bull rush} an enemy and its movement is stopped by a solid object or barrier, you can deal your unarmed strike damage to both the foe and the object or barrier, as long as the enemy is within your threatened area. If you performed your bull rush as part of a charge, you gain a +2 bonus on your damage roll. If the damage is enough to destroy the object or barrier, you can continue to push your target the remaining distance allowed by your bull rush combat maneuver.  ",
 			"**Normal:** You can't bull rush a creature into a solid object or barrier."
 		]
 	},
@@ -2899,7 +2899,7 @@
 			"",
 			"Your hammer blows dent armor, hampering your opponent.  ",
 			"**Prerequisites:** Str 13, {feat/Improved Sunder}, {feat/Power Attack}, {feat/Weapon Focus} with the chosen weapon.  ",
-			"**Benefit:** Choose one weapon from the axes, hammers, or flails fighter weapon group. While using this style, when you succeed at a sunder combat maneuver check against a suit of armor worn by an opponent, you can immediately attempt a bull rush or trip combat maneuver against that target with the same combat maneuver bonus. This maneuver does not provoke attacks of opportunity.  ",
+			"**Benefit:** Choose one weapon from the axes, hammers, or flails {ability/fighter |weapon group>s}. While using this style, when you succeed at a {rule/sunder} combat maneuver check against a suit of armor worn by an opponent, you can immediately attempt a {rule/bull rush} or {rule/trip} combat maneuver against that target with the same combat maneuver bonus. This maneuver does not provoke attacks of opportunity.  ",
 			"**Special:** A character with the weapon training (axes, hammers, or flails) class feature can use Smashing Style with any axe, flail, or hammer, respectively, in addition to the chosen weapon."
 		]
 	},
@@ -2913,7 +2913,7 @@
 			"",
 			"You can catch the sour scent of fear on the wind.  ",
 			"**Prerequisites:** {feat/Keen Scent}, {race/half-orc} or {race/orc}.  ",
-			"**Benefit:** You receive a +4 bonus on Perception checks to detect creatures with the shaken, frightened, or panicked conditions using scent. You can substitute your Perception skill for Sense Motive skill checks if the subject has one of the previous conditions or is attempting to cover up their fear in some way."
+			"**Benefit:** You receive a +4 bonus on Perception checks to detect creatures with the {misc/shaken}, {misc/frightened}, or {misc/panicked} conditions using {umr/scent}. You can substitute your Perception skill for Sense Motive skill checks if the subject has one of the previous conditions or is attempting to cover up their fear in some way."
 		]
 	},
 	"smite_evil_magic": {
@@ -2926,7 +2926,7 @@
 			"",
 			"You can slice apart foul enchantments.  ",
 			"**Prerequisites:** Smite evil class feature.  ",
-			"**Benefit:** You can expend a use of your smite evil class ability to perform a sunder combat maneuver against an ongoing spell effect created by an evil creature. For any effect other than one on a creature, the CMD equals 15 + the effect's caster level. When sundering an effect on a creature, use the creature's CMD + 5, ignoring any miss chance caused by a spell or spell-like ability. If successful, you suppress the effect for 1d4+1 rounds. If you exceed the CMD by 10 or more, the effect is dispelled. If an evil outsider, evil dragon, or undead creature created the spell effect, add your Charisma bonus to your combat maneuver check."
+			"**Benefit:** You can expend a use of your smite evil class ability to perform a {rule/sunder} combat maneuver against an ongoing spell effect created by an evil creature. For any effect other than one on a creature, the CMD equals 15 + the effect's caster level. When sundering an effect on a creature, use the creature's CMD + 5, ignoring any miss chance caused by a spell or spell-like ability. If successful, you suppress the effect for 1d4+1 rounds. If you exceed the CMD by 10 or more, the effect is dispelled. If an evil outsider, evil dragon, or undead creature created the spell effect, add your Charisma bonus to your combat maneuver check."
 		]
 	},
 	"smiting_reversal": {
@@ -2955,7 +2955,7 @@
 			"",
 			"The boulders you hurl burn so hot that they smoke.  ",
 			"**Prerequisites:** Base attack bonus +11, heated rock special ability.  ",
-			"**Benefit:** When you throw a rock as part of an attack action and hit your target, you can cause the boulder to emit a 10-foot-radius spread of [heavy smoke](rule/smoke_effects). The smoke lasts for 1d4 rounds."
+			"**Benefit:** When you throw a rock as part of an attack action and hit your target, you can cause the boulder to emit a 10-foot-radius {misc/spread} of [heavy smoke](rule/smoke_effects). The smoke lasts for 1d4 rounds."
 		]
 	},
 	"snake_fang": {
@@ -2992,7 +2992,7 @@
 			"",
 			"Your sensitive twisting movements make you difficult to anticipate combat.  ",
 			"**Prerequisites:** {feat/Improved Unarmed Strike}, {feat/Snake Style}, Acrobatics 3 ranks, Sense Motive 6 ranks.  ",
-			"**Benefit:** You gain a +4 bonus to CMD against trip combat maneuvers and on Acrobatics checks and saving throws to avoid being knocked prone. While using the Snake Style feat, whenever you score a critical threat with your unarmed strike, you can make a Sense Motive check in place of the attack roll to confirm the critical hit. Whenever you score a critical hit with your unarmed strike, you can spend an immediate action to take a 5-foot step even if you have otherwise moved this round.  ",
+			"**Benefit:** You gain a +4 bonus to CMD against {rule/trip} combat maneuvers and on Acrobatics checks and saving throws to avoid being knocked {rule/prone}. While using the Snake Style feat, whenever you score a critical threat with your unarmed strike, you can make a Sense Motive check in place of the attack roll to confirm the critical hit. Whenever you score a critical hit with your unarmed strike, you can spend an immediate action to take a 5-foot step even if you have otherwise moved this round.  ",
 			"**Normal:** You can take a 5-foot step only if you have not otherwise moved this round.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -3055,7 +3055,7 @@
 			"",
 			"You can make a swift bite attack against a flanked foe.  ",
 			"**Prerequisites:** Base attack bonus +9, bite attack.  ",
-			"**Benefit:** Whenever you are flanking with an ally who also has this feat, as a swift action you can make a bite attack against the opponent you and your ally are flanking."
+			"**Benefit:** Whenever you are {rule/flanking} with an ally who also has this feat, as a swift action you can make a bite attack against the opponent you and your ally are flanking."
 		]
 	},
 	"snapping_jaws": {
@@ -3084,7 +3084,7 @@
 			"",
 			"Your unarmed style allows you to turn your opponent's attack into an opportunity.  ",
 			"**Prerequisites:** {feat/Snapping Turtle Style}, {feat/Improved Grapple}, {feat/Improved Unarmed Strike}, base attack bonus +3 or monk level 3rd.  ",
-			"**Benefit:** While you are using the Snapping Turtle Style feat, the shield bonus the style grants to your AC applies to your CMD and touch AC. Whenever an opponent misses you with a melee attack while you are using the Snapping Turtle Style feat, you can use an immediate action to attempt a grapple combat maneuver against that opponent, but with a -2 penalty.",
+			"**Benefit:** While you are using the Snapping Turtle Style feat, the shield bonus the style grants to your AC applies to your CMD and touch AC. Whenever an opponent misses you with a melee attack while you are using the Snapping Turtle Style feat, you can use an immediate action to attempt a {rule/grapple} combat maneuver against that opponent, but with a -2 penalty.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/132}",
@@ -3144,9 +3144,9 @@
 			"",
 			"This creature can grab other creatures with ease.  ",
 			"**Prerequisites:** Size Huge or larger.  ",
-			"**Benefit:** The creature can start a grapple when it hits with a claw or bite attack, as though it had the grab ability. If it grapples a creature three or more sizes smaller, it squeezes each round for automatic bite or claw damage with a successful grapple check. A snatched opponent held in the creature's mouth is not allowed a Reflex save against the creature's breath weapon, if it has one.",
+			"**Benefit:** The creature can start a {rule/grapple} when it hits with a claw or bite attack, as though it had the {umr/grab} ability. If it grapples a creature three or more sizes smaller, it squeezes each round for automatic bite or claw damage with a successful grapple check. A snatched opponent held in the creature's mouth is not allowed a Reflex save against the creature's breath weapon, if it has one.",
 			"",
-			"The creature can drop a creature it has snatched as a free action or use a standard action to fling it aside. A flung creature travels 1d6 &times; 10 feet, and takes 1d6 points of damage per 10 feet traveled. If the creature flings a snatched opponent while flying, the opponent takes this amount or falling damage, whichever is greater."
+			"The creature can drop a creature it has snatched as a free action or use a standard action to fling it aside. A flung creature travels 1d6 &times; 10 feet, and takes 1d6 points of damage per 10 feet traveled. If the creature flings a snatched opponent while flying, the opponent takes this amount or {rule/falling} damage, whichever is greater."
 		]
 	},
 	"snatch_and_drop": {
@@ -3159,7 +3159,7 @@
 			"",
 			"You have mastered the ability to grab foes while you fly by them, carry them into the air, and drop them from extreme heights.  ",
 			"**Prerequisites:** {feat/Flyby Attack}, {feat/Powerful Wings}.  ",
-			"**Benefit:** When you succeed at a grapple combat maneuver check as part of a flyby attack, you can move yourself and your target up to half your remaining fly speed. You must drop your target before the end of your turn, or both you and your target crash to the ground immediately and take 2d6 points of falling damage each. A dropped creature takes falling damage as normal. You can't use this feat on creatures whose weight would exceed the amount you can carry as a heavy load.  ",
+			"**Benefit:** When you succeed at a {rule/grapple} combat maneuver check as part of a flyby attack, you can move yourself and your target up to half your remaining fly speed. You must drop your target before the end of your turn, or both you and your target crash to the ground immediately and take 2d6 points of falling damage each. A dropped creature takes {rule/falling} damage as normal. You can't use this feat on creatures whose weight would exceed the amount you can carry as a heavy load.  ",
 			"**Special:** While this feat is primarily taken by {race/strix}, other creatures with natural wings can also take them at the GM's discretion."
 		]
 	},
@@ -3243,8 +3243,8 @@
 			"{SOURCE Monster Codex/32}",
 			"",
 			"You use your innate magic powers to target enemies and spot their weaknesses.  ",
-			"**Prerequisites:** {feat/Point-Blank Shot}, dancing lights racial spell-like ability.  ",
-			"**Benefit:** You can use your dancing lights racial spell-like ability to create one orb of penetrating light. This light grants you a +2 insight bonus on all ranged attacks made against targets within 5 feet of the light's location. You can direct this light to a new location anywhere within the spell's range as a move action, otherwise the effect functions exactly like dancing lights. You can use this ability once per day, plus an additional time per day when your caster level for your racial dancing lights spell-like ability reaches 5th, 10th, 15th, and 20th."
+			"**Prerequisites:** {feat/Point-Blank Shot}, *dancing lights* racial spell-like ability.  ",
+			"**Benefit:** You can use your *dancing lights* racial spell-like ability to create one orb of penetrating light. This light grants you a +2 insight bonus on all ranged attacks made against targets within 5 feet of the light's location. You can direct this light to a new location anywhere within the spell's range as a move action, otherwise the effect functions exactly like {spell/dancing lights}. You can use this ability once per day, plus an additional time per day when your caster level for your racial *dancing lights* spell-like ability reaches 5th, 10th, 15th, and 20th."
 		]
 	},
 	"snoutgrip": {
@@ -3257,7 +3257,7 @@
 			"",
 			"You can hold an opponent's mouth shut.  ",
 			"**Prerequisites:** {feat/Combat Expertise}, {feat/Combat Reflexes}, {feat/Improved Grapple}, {feat/Improved Unarmed Strike}, base attack bonus +12 or 10th-level monk.  ",
-			"**Benefit:** As an immediate action, whenever an opponent up to one size category larger than you misses you with its bite attack, you can attempt a grapple with a -5 penalty on the check. If you succeed, you have grappled your opponent and are holding its mouth shut, preventing it from using its bite attack, breath weapon, or spells with a verbal component until it escapes your grapple. You may make this grapple attempt even if the target is out of your reach."
+			"**Benefit:** As an immediate action, whenever an opponent up to one size category larger than you misses you with its bite attack, you can attempt a {rule/grapple} with a -5 penalty on the check. If you succeed, you have grappled your opponent and are holding its mouth shut, preventing it from using its bite attack, breath weapon, or spells with a verbal component until it escapes your grapple. You may make this grapple attempt even if the target is out of your reach."
 		]
 	},
 	"snuffing_spell": {

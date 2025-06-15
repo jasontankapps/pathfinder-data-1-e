@@ -1699,39 +1699,6 @@
 			"vehicles"
 		]
 	},
-	"siege_engines_uc": {
-		"name": "Siege Engines",
-		"sources": [ "Ultimate Combat" ],
-		"description": [
-			"{SOURCE Ultimate Combat/158}",
-			"",
-			"A classic trope of fantasy warfare is the storming of a castle or other large fortification. Whether the PCs are leading a brave and desperate defense of a lonely bastion against an overwhelming army of darkness, or overseeing the fight to overthrow an evil ruler and cast down his mighty fortress, a fight along the battlements can fire the imagination of a jaded player who has grown bored with one-on-one hacking. While historical sieges often depended more on disease and starvation for victory than anything else, the thrill for players is likely to come more from bombardment and assault with an array of siege engines, and countering the massive engines of their enemies with their own.",
-			"",
-			"[The basic rules for siege engines from the Core Rulebook are found here](rule/siege_engines). The following new options for siege engines both supplement and expand upon those rules. If the rules ever appear to be in conflict, use the rules below."
-		],
-		"parent_topics": [ "specific_rulesets" ],
-		"subtopics": [
-			"siege_engine_rules",
-			"siege_engine_qualities",
-			"structure_hardness_and_hit_points"
-		],
-		"siblings": [
-			"bar_fights",
-			"black_markets",
-			"dungeon_guides",
-			"firearms",
-			"foraging",
-			"harvesting_poisons",
-			"herbalism",
-			"infernal_contracts",
-			"leadership",
-			"pathfinder_chronicles",
-			"salvaging",
-			"siege_engines_uc",
-			"spontaneous_alchemy",
-			"vehicles"
-		]
-	},
 	"infernal_contracts": {
 		"name": "Infernal Contracts",
 		"sources": [ "Book of the Damned" ],
@@ -2524,6 +2491,39 @@
 			"@HL[Costly Spell Components:] Anyone trained in Spellcraft can salvage costly material or focus spell components from magic items. Each attempt requires destroying the item and 8 hours of work. An item can be broken down into a powder that can be used in place of gemstone dust as a material component. Otherwise, the item must have a spell requiring the component in its construction requirements to salvage that component. A successful Spellcraft check with a DC equal to 10 + the item's caster level yields materials usable in place of that spell component worth two-thirds the item's creation cost (one-third its market price). If you fail the check by 4 or less, the item is destroyed without yielding spell components, but you can try to salvage them again. If you fail the check by 5 or more, the item is destroyed and the spell components are ruined."
 		],
 		"parent_topics": [ "specific_rulesets" ],
+		"siblings": [
+			"bar_fights",
+			"black_markets",
+			"dungeon_guides",
+			"firearms",
+			"foraging",
+			"harvesting_poisons",
+			"herbalism",
+			"infernal_contracts",
+			"leadership",
+			"pathfinder_chronicles",
+			"salvaging",
+			"siege_engines_uc",
+			"spontaneous_alchemy",
+			"vehicles"
+		]
+	},
+	"siege_engines_uc": {
+		"name": "Siege Engines",
+		"sources": [ "Ultimate Combat" ],
+		"description": [
+			"{SOURCE Ultimate Combat/158}",
+			"",
+			"A classic trope of fantasy warfare is the storming of a castle or other large fortification. Whether the PCs are leading a brave and desperate defense of a lonely bastion against an overwhelming army of darkness, or overseeing the fight to overthrow an evil ruler and cast down his mighty fortress, a fight along the battlements can fire the imagination of a jaded player who has grown bored with one-on-one hacking. While historical sieges often depended more on disease and starvation for victory than anything else, the thrill for players is likely to come more from bombardment and assault with an array of siege engines, and countering the massive engines of their enemies with their own.",
+			"",
+			"[The basic rules for siege engines from the Core Rulebook are found here](rule/siege_engines). The following new options for siege engines both supplement and expand upon those rules. If the rules ever appear to be in conflict, use the rules below."
+		],
+		"parent_topics": [ "specific_rulesets" ],
+		"subtopics": [
+			"siege_engine_rules",
+			"siege_engine_qualities",
+			"structure_hardness_and_hit_points"
+		],
 		"siblings": [
 			"bar_fights",
 			"black_markets",

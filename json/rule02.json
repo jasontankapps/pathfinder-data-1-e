@@ -219,7 +219,9 @@
 			"",
 			"The measure of how much effort it takes to use a weapon (whether the weapon is designated as a light, one-handed, or two-handed weapon for a particular wielder) is altered by one step for each size category of difference between the wielder's size and the size of the creature for which the weapon was designed. For example, a Small creature would wield a Medium one-handed weapon as a two-handed weapon. If a weapon's designation would be changed to something other than light, one-handed, or two-handed by this alteration, the creature can't wield the weapon at all.",
 			"",
-			"@HL[Improvised Weapons:] Sometimes objects not crafted to be weapons nonetheless see use in combat. Because such objects are not designed for this use, any creature that uses an improvised weapon in combat is considered to be nonproficient with it and takes a -4 penalty on attack rolls made with that object. To determine the size category and appropriate damage for an improvised weapon, compare its relative size and damage potential to the weapon list to find a reasonable match. An improvised weapon scores a threat on a natural roll of 20 and deals double damage on a critical hit. An improvised thrown weapon has a range increment of 10 feet."
+			"@HL[Improvised Weapons:] Sometimes objects not crafted to be weapons nonetheless see use in combat. Because such objects are not designed for this use, any creature that uses an improvised weapon in combat is considered to be nonproficient with it and takes a -4 penalty on attack rolls made with that object. To determine the size category and appropriate damage for an improvised weapon, compare its relative size and damage potential to the weapon list to find a reasonable match. An improvised weapon scores a threat on a natural roll of 20 and deals double damage on a critical hit. An improvised thrown weapon has a range increment of 10 feet.",
+			"",
+			">*Also see: {rule/Improvised Weapon Special Features}*"
 		],
 		"parent_topics": [
 			"basics",
@@ -363,6 +365,46 @@
 			"weapon_descriptions",
 			"weapon_special_features",
 			"masterwork_weapons"
+		],
+		"subtopics": [
+			"improvised_weapon_special_features"
+		]
+	},
+	"improvised_weapon_special_features": {
+		"name": "Improvised Weapon Special Features",
+		"tags": "burning, covering, disk-shaped, gross, jagged, heavy, pronged, silverware, weapon-like",
+		"sources": [ "Adventurer's Armory 2" ],
+		"description": [
+			"{SOURCE Adventurer's Armory 2/22}",
+			"",
+			"Without the appropriate feats, abilities, or magic, {misc/improvised weapons} generally impart a -4 nonproficiency penalty on attack rolls, threaten critical hits only on a natural 20, have a critical multiplier of &times;2, and possess a range increment of 10 feet. At the GM's discretion, some improvised weapons may have additional qualities, such as those listed below. Improvised weapons only ever have one quality, determined by the GM.",
+			"",
+			"@HL[Burning:] A burning or heated object, such as a fireplace poker or burning log, deals 1 point of fire damage, but its base damage die is usually {misc/one size category smaller}.",
+			"",
+			"@HL[Covering:] A large, soft item like a sheet of canvas, a blanket, or a drapery can be used to entangle foes as a {eq-weapon/net}, though it is always treated as being unfolded, and thus imparts and additional -4 penalty on the attack roll to use it as an improvised weapon.",
+			"",
+			"@HL[Disk-Shaped:] Plates and other thin, circular objects have a range increment of 20 feet, but they are usually destroyed after an attack, like ammunition.",
+			"",
+			"@HL[Gross:] Disgusting items, like hunks of rotting meat, the severed limb of a target's ally, or the contents of a chamberpot, can be used as improvised weapons that deal no damage but {misc/sicken} the target for 1d4 rounds. A successful DC 12 Fortitude saving throw negates this condition.",
+			"",
+			"@HL[Jagged:] Broken bottles and similar jagged, fragile items have a critical threat range of 19-20 but are destroyed on an attack roll of a natural 1.",
+			"",
+			"@HL[Heavy:] Anvils, sledgehammers, and other very heavy items deal damage as if one size category larger, but attacking with the weapon puts the attacker off-balance, imparting a -2 penalty to AC until the start of the attacker's next turn.",
+			"",
+			"@HL[Pronged:] Items with large prongs or flanges, like a pitchfork or the antlers of some taxidermic trophies, provide a +1 bonus on combat maneuver checks to {rule/disarm} an enemy.",
+			"",
+			"@HL[Silverware:] Items made of silver bypass damage resistance like alchemical silver weapons, but the wielder takes a -1 penalty on damage rolls.",
+			"",
+			"@HL[Weapon-Like:] Wall hanger swords, replicas, and other objects shaped very much like real weapons impart only a -2 nonproficiency penalty if the wielder is proficient in the weapon the object resembles."
+		],
+		"parent_topics": [
+			"basics",
+			"equipment",
+			"weapons",
+			"weapon_special_features"
+		],
+		"siblings": [
+			"improvised_weapon_special_features"
 		]
 	},
 	"masterwork_weapons": {
