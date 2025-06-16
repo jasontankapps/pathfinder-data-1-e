@@ -144,7 +144,7 @@ function isGood(archValue, what) {
 	let found = false;
 	if(!Object.entries(archValue).some(([prop, value]) => {
 		const test = value;
-		if(test && test.copyof) {
+		if(test && (test.copyof || test.redirect)) {
 			// Ignore
 		} else if(test && test.alternateOf) {
 			const {alternateOf} = test;

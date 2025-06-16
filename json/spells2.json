@@ -86,7 +86,7 @@
 		"name": "Mass Blessing of Luck and Resolve",
 		"copyof": "blessing_of_luck_and_resolve"
 	},
-	"mass_blessing_of_luck_and_resolve": { "copyof": "blessing_of_luck_and_resolve_mass" },
+	"mass_blessing_of_luck_and_resolve": { "redirect": "blessing_of_luck_and_resolve_mass" },
 	"blessing_of_the_mole": {
 		"name": "Blessing of the Mole",
 		"sources": [ "Ultimate Magic" ],
@@ -239,7 +239,7 @@
 			"You can cause the target to be both blinded and deafened at the same time. The target must attempt a saving throw against each effect separately."
 		]
 	},
-	"blindness_or_deafness": { "copyof": "blindness_deafness" },
+	"blindness_or_deafness": { "redirect": "blindness_deafness" },
 	"blink": {
 		"name": "Blink",
 		"sources": [
@@ -1242,7 +1242,7 @@
 		"name": "Greater Brand",
 		"copyof": "brand"
 	},
-	"greater_brand": { "copyof": "brand_greater" },
+	"greater_brand": { "redirect": "brand_greater" },
 	"brand_of_conformity": {
 		"name": "Brand of Conformity",
 		"sources": [
@@ -1388,7 +1388,7 @@
 		"name": "Greater Break",
 		"copyof": "break"
 	},
-	"greater_break": { "copyof": "break_greater" },
+	"greater_break": { "redirect": "break_greater" },
 	"breath_of_life": {
 		"name": "Breath of Life",
 		"sources": [
@@ -1630,7 +1630,7 @@
 		"name": "Mass Bull's Strength",
 		"copyof": "bulls_strength"
 	},
-	"mass_bulls_strength": { "copyof": "bulls_strength_mass" },
+	"mass_bulls_strength": { "redirect": "bulls_strength_mass" },
 	"bungle": {
 		"name": "Bungle",
 		"sources": [ "Ultimate Magic" ],
@@ -2093,7 +2093,7 @@
 		"name": "Mass Cacophonous Call",
 		"copyof": "cacophonous_call"
 	},
-	"mass_cacophonous_call": { "copyof": "cacophonous_call_mass" },
+	"mass_cacophonous_call": { "redirect": "cacophonous_call_mass" },
 	"caging_bomb_admixture": {
 		"name": "Caging Bomb Admixture",
 		"sources": [ "Ultimate Combat" ],
@@ -2422,7 +2422,7 @@
 		"name": "Greater Callback",
 		"copyof": "callback"
 	},
-	"greater_callback": { "copyof": "callback_greater" },
+	"greater_callback": { "redirect": "callback_greater" },
 	"calm_air": {
 		"name": "Calm Air",
 		"sources": [ "Ranged Tactics Toolbox" ],
@@ -2703,7 +2703,7 @@
 		"name": "Mass Castigate",
 		"copyof": "castigate"
 	},
-	"mass_castigate": { "copyof": "castigate_mass" },
+	"mass_castigate": { "redirect": "castigate_mass" },
 	"catatonia": {
 		"name": "Catatonia",
 		"sources": [ "Occult Adventures" ],
@@ -2761,7 +2761,7 @@
 		"name": "Mass Cat's Grace",
 		"copyof": "cats_grace"
 	},
-	"mass_cats_grace": { "copyof": "cats_grace_mass" },
+	"mass_cats_grace": { "redirect": "cats_grace_mass" },
 	"cause_fear": {
 		"name": "Cause Fear",
 		"sources": [ "PRPG Core Rulebook" ],
@@ -2930,7 +2930,7 @@
 			"As per celestial healing, except the target gains fast healing 4 and the target radiates the aura of a good cleric."
 		]
 	},
-	"greater_celestial_healing": { "copyof": "celestial_healing_greater" },
+	"greater_celestial_healing": { "redirect": "celestial_healing_greater" },
 	"ceremony": {
 		"name": "Ceremony",
 		"sources": [ "Quests and Campaigns" ],
@@ -3330,7 +3330,7 @@
 		"name": "Greater Chameleon Stride",
 		"copyof": "chameleon_stride"
 	},
-	"greater_chameleon_stride": { "copyof": "chameleon_stride_greater" },
+	"greater_chameleon_stride": { "redirect": "chameleon_stride_greater" },
 	"champions_bout": {
 		"name": "Champion's Bout",
 		"sources": [ "Inner Sea Races" ],
@@ -3561,7 +3561,7 @@
 		"name": "Mass Charm Monster",
 		"copyof": "charm_monster"
 	},
-	"mass_charm_monster": { "copyof": "charm_monster_mass" },
+	"mass_charm_monster": { "redirect": "charm_monster_mass" },
 	"charm_person": {
 		"name": "Charm Person",
 		"sources": [
@@ -3616,7 +3616,7 @@
 		"name": "Mass Charm Person",
 		"copyof": "charm_person"
 	},
-	"mass_charm_person": { "copyof": "charm_person_mass" },
+	"mass_charm_person": { "redirect": "charm_person_mass" },
 	"charm_fey": {
 		"name": "Charm Fey",
 		"copyof": "charm_person"
@@ -3874,7 +3874,7 @@
 		"name": "Greater Claim Identity",
 		"copyof": "claim_identity"
 	},
-	"greater_claim_identity": { "copyof": "claim_identity_greater" },
+	"greater_claim_identity": { "redirect": "claim_identity_greater" },
 	"clairaudience_clairvoyance": {
 		"name": "Clairaudience/Clairvoyance",
 		"sources": [ "PRPG Core Rulebook" ],
@@ -3893,9 +3893,9 @@
 			"Clairaudience/clairvoyance creates an invisible magical sensor at a specific location that enables you to hear or see (your choice) almost as if you were there. You don't need line of sight or line of effect, but the locale must be known - a place familiar to you, or an obvious one. Once you have selected the locale, the sensor doesn't move, but you can rotate it in all directions to view the area as desired. Unlike other scrying spells, this spell does not allow magically or supernaturally enhanced senses to work through it. If the chosen locale is magically dark, you see nothing. If it is naturally pitch black, you can see in a 10-foot radius around the center of the spell's effect. Clairaudience/clairvoyance functions only on the plane of existence you are currently occupying."
 		]
 	},
-	"clairvoyance_clairaudience": { "copyof": "clairaudience_clairvoyance" },
-	"clairaudience": { "copyof": "clairaudience_clairvoyance" },
-	"clairvoyance": { "copyof": "clairaudience_clairvoyance" },
+	"clairvoyance_clairaudience": { "redirect": "clairaudience_clairvoyance" },
+	"clairaudience": { "redirect": "clairaudience_clairvoyance" },
+	"clairvoyance": { "redirect": "clairaudience_clairvoyance" },
 	"clarion_call": {
 		"name": "Clarion Call",
 		"sources": [ "Knights of the Inner Sea" ],

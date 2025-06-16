@@ -695,7 +695,7 @@
 			"[^C]: {source/Blood of the Sea/ pg. 9}"
 		]
 	},
-	"gillmen": { "copyof": "gillman" },
+	"gillmen": { "redirect": "gillman" },
 	"gnome": {
 		"name": "Gnome",
 		"sources": [
@@ -1820,5 +1820,5 @@
 			"[^2]: {source/Ultimate Intrigue/ pg. 17}"
 		]
 	},
-	"half_elves": { "copyof": "half_elf" }
+	"half_elves": { "redirect": "half_elf" }
 }

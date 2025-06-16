@@ -99,7 +99,7 @@
 			"**Requirements** {feat/Craft Construct} or {feat/Craft Poppet}, {spell/make whole}, {spell/mending}; Skill Craft (carpentry) DC 18; **Cost** 500 gp"
 		]
 	},
-	"small_poppet": { "copyof": "poppet_poppet_small" },
+	"small_poppet": { "redirect": "poppet_poppet_small" },
 	"poppet_poppet_tiny": {
 		"name": "Tiny Poppet",
 		"sources": [ "Adventurer's Armory 2" ],
@@ -177,7 +177,7 @@
 			"**Swimming Poppet (Price +400 gp):** The poppet bears fins, flippers, or other accessories to assist with swimming. It gains a swim speed of 20 feet. A poppet must have the {feat/Athletic} feat before gaining this augmentation. **Requirements:** {spell/minor creation}, {spell/water breathing}; **Cost:** +200 gp."
 		]
 	},
-	"tiny_poppet": { "copyof": "poppet_poppet_tiny" },
+	"tiny_poppet": { "redirect": "poppet_poppet_tiny" },
 	"porcupine": {
 		"name": "Porcupine",
 		"sources": [ "Bestiary 3" ],
@@ -272,8 +272,8 @@
 			"More so than its smaller kin, the human-sized giant porcupine is a foul-tempered creature that is just as content chewing on carrion as on living creatures. Worse, giant porcupines are notorious in their almost foolhardy bravery, and have been known to attack creatures much larger than their own size. This unexpected aggression, when combined with their tangle of spear-like quills, makes the giant porcupine a dangerous foe."
 		]
 	},
-	"giant_porcupine": { "copyof": "porcupine_giant_porcupine" },
-	"porcupine_giant": { "copyof": "porcupine_giant_porcupine" },
+	"giant_porcupine": { "redirect": "porcupine_giant_porcupine" },
+	"porcupine_giant": { "redirect": "porcupine_giant_porcupine" },
 	"primeval_sea_creature_kronosaurus": {
 		"name": "Kronosaurus (Primeval Sea Creature)",
 		"sources": [ "Pathfinder #60: From Hell's Heart" ],
@@ -320,7 +320,7 @@
 			"**Family:** {family/Primeval Sea Creature}"
 		]
 	},
-	"kronosaurus": { "copyof": "primeval_sea_creature_kronosaurus" },
+	"kronosaurus": { "redirect": "primeval_sea_creature_kronosaurus" },
 	"primeval_sea_creature_nothosaur": {
 		"name": "Nothosaur (Primeval Sea Creature)",
 		"sources": [ "Pathfinder #60: From Hell's Heart" ],
@@ -371,7 +371,7 @@
 			"**Family:** {family/Primeval Sea Creature}"
 		]
 	},
-	"nothosaur": { "copyof": "primeval_sea_creature_nothosaur" },
+	"nothosaur": { "redirect": "primeval_sea_creature_nothosaur" },
 	"primeval_sea_creature_zeuglodon": {
 		"name": "Zeuglodon (Primeval Sea Creature)",
 		"sources": [ "Pathfinder #60: From Hell's Heart" ],
@@ -425,7 +425,7 @@
 			"**Family:** {family/Primeval Sea Creature}"
 		]
 	},
-	"zeuglodon": { "copyof": "primeval_sea_creature_zeuglodon" },
+	"zeuglodon": { "redirect": "primeval_sea_creature_zeuglodon" },
 	"proto_shoggoth": {
 		"name": "Proto-Shoggoth",
 		"sources": [ "Pathfinder #112: The Whisper Out of Time" ],
@@ -557,7 +557,7 @@
 			"Once two proto-shoggoths successfully merge and form a proto-shoggoth syncytium, the syncytium gains a rudimentary intellect that allows it to more successfully seek out others to merge with and finish the growth cycle into a full-fledged shoggoth. It can no longer infect flesh, though, nor can it merge with other non-syncytium proto-shoggoths, but it does understand that lingering in areas where other proto-shoggoths are active will, eventually, give it opportunities to grow. A proto-shoggoth syncytium often acts as a protector over its mindless \"children\" and has been known to use rudimentary cunning to lure (or more often chase) unsuspecting living creatures into proto-shoggoth nests."
 		]
 	},
-	"proto_shoggoth_synctium": { "copyof": "proto_shoggoth_proto_shoggoth_synctium" },
+	"proto_shoggoth_synctium": { "redirect": "proto_shoggoth_proto_shoggoth_synctium" },
 	"pseudodragon": {
 		"name": "Pseudodragon",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -1079,7 +1079,7 @@
 			"**Family:** {family/Qlippoth}"
 		]
 	},
-	"augnagar": { "copyof": "qlippoth_augnagar" },
+	"augnagar": { "redirect": "qlippoth_augnagar" },
 	"qlippoth_behimiron": {
 		"name": "Behimiron (Qlippoth)",
 		"sources": [
@@ -1149,7 +1149,7 @@
 			"**Family:** {family/Qlippoth}"
 		]
 	},
-	"behimiron": { "copyof": "qlippoth_behimiron" },
+	"behimiron": { "redirect": "qlippoth_behimiron" },
 	"qlippoth_cataboligne": {
 		"name": "Cataboligne (Qlippoth)",
 		"sources": [
@@ -1219,7 +1219,7 @@
 			"**Family:** {family/Qlippoth}"
 		]
 	},
-	"cataboligne": { "copyof": "qlippoth_cataboligne" },
+	"cataboligne": { "redirect": "qlippoth_cataboligne" },
 	"qlippoth_chernobue": {
 		"name": "Chernobue (Qlippoth)",
 		"sources": [ "Bestiary 2" ],
@@ -1285,7 +1285,7 @@
 			"**Family:** {family/Qlippoth}"
 		]
 	},
-	"chernobue": { "copyof": "qlippoth_chernobue" },
+	"chernobue": { "redirect": "qlippoth_chernobue" },
 	"qlippoth_cythnigot": {
 		"name": "Cythnigot (Qlippoth)",
 		"sources": [ "Bestiary 2" ],
@@ -1348,7 +1348,7 @@
 			"**Family:** {family/Qlippoth}"
 		]
 	},
-	"cythnigot": { "copyof": "qlippoth_cythnigot" },
+	"cythnigot": { "redirect": "qlippoth_cythnigot" },
 	"qlippoth_deinochos": {
 		"name": "Deinochos (Qlippoth)",
 		"sources": [
@@ -1416,7 +1416,7 @@
 			"**Family:** {family/Qlippoth}"
 		]
 	},
-	"deinochos": { "copyof": "qlippoth_deinochos" },
+	"deinochos": { "redirect": "qlippoth_deinochos" },
 	"qlippoth_gongorinan": {
 		"name": "Gongorinan (Qlippoth)",
 		"sources": [
@@ -1503,7 +1503,7 @@
 			"**Family:** {family/Qlippoth}"
 		]
 	},
-	"gongorinan": { "copyof": "qlippoth_gongorinan" },
+	"gongorinan": { "redirect": "qlippoth_gongorinan" },
 	"qlippoth_gorgoros": {
 		"name": "Gorgoros (Qlippoth)",
 		"sources": [
@@ -1571,7 +1571,7 @@
 			"**Family:** {family/Qlippoth}"
 		]
 	},
-	"gorgoros": { "copyof": "qlippoth_gorgoros" },
+	"gorgoros": { "redirect": "qlippoth_gorgoros" },
 	"qlippoth_hydraggon": {
 		"name": "Hydraggon (Qlippoth)",
 		"sources": [
@@ -1637,7 +1637,7 @@
 			"**Family:** {family/Qlippoth}"
 		]
 	},
-	"hydraggon": { "copyof": "qlippoth_hydraggon" },
+	"hydraggon": { "redirect": "qlippoth_hydraggon" },
 	"qlippoth_iathavos": {
 		"name": "Iathavos (Qlippoth)",
 		"sources": [ "Bestiary 2" ],
@@ -1714,7 +1714,7 @@
 			"**Family:** {family/Qlippoth}"
 		]
 	},
-	"iathavos": { "copyof": "qlippoth_iathavos" },
+	"iathavos": { "redirect": "qlippoth_iathavos" },
 	"qlippoth_nyogoth": {
 		"name": "Nyogoth (Qlippoth)",
 		"sources": [ "Bestiary 2" ],
@@ -1777,7 +1777,7 @@
 			"**Family:** {family/Qlippoth}"
 		]
 	},
-	"nyogoth": { "copyof": "qlippoth_nyogoth" },
+	"nyogoth": { "redirect": "qlippoth_nyogoth" },
 	"qlippoth_shoggti": {
 		"name": "Shoggti (Qlippoth)",
 		"sources": [ "Bestiary 2" ],
@@ -1841,7 +1841,7 @@
 			"**Family:** {family/Qlippoth}"
 		]
 	},
-	"shoggti": { "copyof": "qlippoth_shoggti" },
+	"shoggti": { "redirect": "qlippoth_shoggti" },
 	"qlippoth_thognorok": {
 		"name": "Thognorok (Qlippoth)",
 		"sources": [
@@ -1908,7 +1908,7 @@
 			"**Family:** {family/Qlippoth}"
 		]
 	},
-	"thognorok": { "copyof": "qlippoth_thognorok" },
+	"thognorok": { "redirect": "qlippoth_thognorok" },
 	"qlippoth_thulgant": {
 		"name": "Thulgant (Qlippoth)",
 		"sources": [ "Bestiary 2" ],
@@ -1976,7 +1976,7 @@
 			"**Family:** {family/Qlippoth}"
 		]
 	},
-	"thulgant": { "copyof": "qlippoth_thulgant" },
+	"thulgant": { "redirect": "qlippoth_thulgant" },
 	"qlippoth_utukku": {
 		"name": "Utukku (Qlippoth)",
 		"sources": [
@@ -2043,7 +2043,7 @@
 			"**Family:** {family/Qlippoth}"
 		]
 	},
-	"utukku": { "copyof": "qlippoth_utukku" },
+	"utukku": { "redirect": "qlippoth_utukku" },
 	"qlippoth_vexenion": {
 		"name": "Vexenion (Qlippoth)",
 		"sources": [
@@ -2128,7 +2128,7 @@
 			"Vexenions are often confused with {monster/nyogoth/s}, in whose company they are sometimes found. However, vexenions are more intelligent and better able to set up ambushes and traps for unsuspecting prey. Fortunately for nyogoths, they are among the only creatures in the Great Beyond that vexenions find unpalatable."
 		]
 	},
-	"vexenion": { "copyof": "qlippoth_vexenion" },
+	"vexenion": { "redirect": "qlippoth_vexenion" },
 	"rougarou": {
 		"name": "Rougarou",
 		"sources": [ "Bestiary 6" ],
@@ -2279,8 +2279,8 @@
 			"A typical adult rukh stands nearly 35 feet tall with a wingspawn of over 60 feet. Although often starving, they can weigh upward of 800 pounds. Juvenile rukhs usually stand about 10 feet tall, with a relatively small wingspan of near 18 feet. Most weigh about 200 pounds."
 		]
 	},
-	"rukh_juvenile": { "copyof": "rukh_juvenile_rukh" },
-	"juvenile_rukh": { "copyof": "rukh_juvenile_rukh" },
+	"rukh_juvenile": { "redirect": "rukh_juvenile_rukh" },
+	"juvenile_rukh": { "redirect": "rukh_juvenile_rukh" },
 	"rune_guardian": {
 		"name": "Rune Guardian",
 		"sources": [ "The Godsmouth Heresy" ],
@@ -2801,7 +2801,7 @@
 			"**Family:** {family/Sahkil}"
 		]
 	},
-	"esipil": { "copyof": "sahkil_esipil" },
+	"esipil": { "redirect": "sahkil_esipil" },
 	"sahkil_ichkoh": {
 		"name": "Ichkoh (Sahkil)",
 		"sources": [
@@ -2866,7 +2866,7 @@
 			"**Family:** {family/Sahkil}"
 		]
 	},
-	"ichkoh": { "copyof": "sahkil_ichkoh" },
+	"ichkoh": { "redirect": "sahkil_ichkoh" },
 	"sahkil_kimenhul": {
 		"name": "Kimenhul (Sahkil)",
 		"sources": [ "Bestiary 5" ],
@@ -2945,7 +2945,7 @@
 			"**Family:** {family/Sahkil}"
 		]
 	},
-	"kimenhul": { "copyof": "sahkil_kimenhul" },
+	"kimenhul": { "redirect": "sahkil_kimenhul" },
 	"sahkil_nucol": {
 		"name": "Nucol (Sahkil)",
 		"sources": [
@@ -3012,7 +3012,7 @@
 			"**Family:** {family/Sahkil}"
 		]
 	},
-	"nucol": { "copyof": "sahkil_nucol" },
+	"nucol": { "redirect": "sahkil_nucol" },
 	"sahkil_pakalchi": {
 		"name": "Pakalchi (Sahkil)",
 		"sources": [ "Bestiary 5" ],
@@ -3081,7 +3081,7 @@
 			"**Family:** {family/Sahkil}"
 		]
 	},
-	"pakalchi": { "copyof": "sahkil_pakalchi" },
+	"pakalchi": { "redirect": "sahkil_pakalchi" },
 	"sahkil_qolok": {
 		"name": "Qolok (Sahkil)",
 		"sources": [ "Bestiary 5" ],
@@ -3144,7 +3144,7 @@
 			"**Family:** {family/Sahkil}"
 		]
 	},
-	"qolok": { "copyof": "sahkil_qolok" },
+	"qolok": { "redirect": "sahkil_qolok" },
 	"sahkil_wihsaak": {
 		"name": "Wihsaak (Sahkil)",
 		"sources": [ "Bestiary 5" ],
@@ -3206,7 +3206,7 @@
 			"**Family:** {family/Sahkil}"
 		]
 	},
-	"wihsaak": { "copyof": "sahkil_wihsaak" },
+	"wihsaak": { "redirect": "sahkil_wihsaak" },
 	"sahkil_ximtal": {
 		"name": "Ximtal (Sahkil)",
 		"sources": [
@@ -3297,7 +3297,7 @@
 			"**Family:** {family/Sahkil}"
 		]
 	},
-	"ximtal": { "copyof": "sahkil_ximtal" },
+	"ximtal": { "redirect": "sahkil_ximtal" },
 	"sahkil_zohanil": {
 		"name": "Zohanil (Sahkil)",
 		"sources": [
@@ -3360,7 +3360,7 @@
 			"**Family:** {family/Sahkil}"
 		]
 	},
-	"zohanil": { "copyof": "sahkil_zohanil" },
+	"zohanil": { "redirect": "sahkil_zohanil" },
 	"sahuagin": {
 		"name": "Sahuagin",
 		"sources": [
@@ -3511,7 +3511,7 @@
 			"**Spined Sahuagin:** Covered in hundreds of needle-like spines, these sahuagin can raise these piercing protrusions to impale creatures that attempt to grab or consume them. Any creature that grapples a spined sahuagin takes 1d4 points of piercing damage. Additionally, these mutants gain {feat/Defensive Combat Training} as a bonus feat. Spined sahuagin most commonly appear in depths that also serve as the hunting grounds of sea serpents, thalassic behemoths, or other massive aquatic predators."
 		]
 	},
-	"four_armed_mutant": { "copyof": "sahuagin_mutant_four_armed_mutant" },
+	"four_armed_mutant": { "redirect": "sahuagin_mutant_four_armed_mutant" },
 	"sahuagin_mutant_malenti": {
 		"name": "Malenti (Sahuagin Mutant)",
 		"sources": [ "Pathfinder #56: Raiders of the Fever Sea" ],
@@ -3583,7 +3583,7 @@
 			"**Spined Sahuagin:** Covered in hundreds of needle-like spines, these sahuagin can raise these piercing protrusions to impale creatures that attempt to grab or consume them. Any creature that grapples a spined sahuagin takes 1d4 points of piercing damage. Additionally, these mutants gain {feat/Defensive Combat Training} as a bonus feat. Spined sahuagin most commonly appear in depths that also serve as the hunting grounds of sea serpents, thalassic behemoths, or other massive aquatic predators."
 		]
 	},
-	"malenti": { "copyof": "sahuagin_mutant_malenti" },
+	"malenti": { "redirect": "sahuagin_mutant_malenti" },
 	"sahuagin_sahuagin_baron": {
 		"name": "Sahuagin Baron",
 		"sources": [ "Monster Codex" ],
@@ -3637,7 +3637,7 @@
 			"Powerful warriors occupy the top ranks of sahuagin society."
 		]
 	},
-	"sahuagin_baron": { "copyof": "sahuagin_sahuagin_baron" },
+	"sahuagin_baron": { "redirect": "sahuagin_sahuagin_baron" },
 	"sahuagin_sahuagin_brute": {
 		"name": "Sahuagin Brute",
 		"sources": [ "Monster Codex" ],
@@ -3685,7 +3685,7 @@
 			"These sahuagin revel in their rage and blood frenzy."
 		]
 	},
-	"sahuagin_brute": { "copyof": "sahuagin_sahuagin_brute" },
+	"sahuagin_brute": { "redirect": "sahuagin_sahuagin_brute" },
 	"sahuagin_sahuagin_champion": {
 		"name": "Sahuagin Champion",
 		"sources": [ "Monster Codex" ],
@@ -3738,7 +3738,7 @@
 			"These sahuagin revel in their rage and blood frenzy."
 		]
 	},
-	"sahuagin_champion": { "copyof": "sahuagin_sahuagin_champion" },
+	"sahuagin_champion": { "redirect": "sahuagin_sahuagin_champion" },
 	"sahuagin_sahuagin_deep_racer": {
 		"name": "Sahuagin Deep Racer",
 		"sources": [ "Monster Codex" ],
@@ -3790,7 +3790,7 @@
 			"Shark speakers prefer the company of vicious fish over other sahuagin."
 		]
 	},
-	"sahuagin_deep_racer": { "copyof": "sahuagin_sahuagin_deep_racer" },
+	"sahuagin_deep_racer": { "redirect": "sahuagin_sahuagin_deep_racer" },
 	"sahuagin_sahuagin_high_priestess": {
 		"name": "Sahuagin High Priestess",
 		"sources": [ "Monster Codex" ],
@@ -3847,7 +3847,7 @@
 			"[^D]: Domain spell"
 		]
 	},
-	"sahuagin_high_priestess": { "copyof": "sahuagin_sahuagin_high_priestess" },
+	"sahuagin_high_priestess": { "redirect": "sahuagin_sahuagin_high_priestess" },
 	"sahuagin_sahuagin_infiltrator": {
 		"name": "Sahuagin Infiltrator",
 		"sources": [ "Monster Codex" ],
@@ -3900,7 +3900,7 @@
 			"Agents lead the way for other sahuagin by scouting enemy patrols and hidden fortifications."
 		]
 	},
-	"sahuagin_infiltrator": { "copyof": "sahuagin_sahuagin_infiltrator" },
+	"sahuagin_infiltrator": { "redirect": "sahuagin_sahuagin_infiltrator" },
 	"sahuagin_sahuagin_lieutenant": {
 		"name": "Sahuagin Lieutenant",
 		"sources": [ "Monster Codex" ],
@@ -3949,7 +3949,7 @@
 			"Powerful warriors occupy the top ranks of sahuagin society."
 		]
 	},
-	"sahuagin_lieutenant": { "copyof": "sahuagin_sahuagin_lieutenant" },
+	"sahuagin_lieutenant": { "redirect": "sahuagin_sahuagin_lieutenant" },
 	"sahuagin_sahuagin_prince": {
 		"name": "Sahuagin Prince",
 		"sources": [ "Monster Codex" ],
@@ -4023,7 +4023,7 @@
 			"**SQ** link"
 		]
 	},
-	"sahuagin_prince": { "copyof": "sahuagin_sahuagin_prince" },
+	"sahuagin_prince": { "redirect": "sahuagin_sahuagin_prince" },
 	"sahuagin_sahuagin_scout": {
 		"name": "Sahuagin Scout",
 		"sources": [ "Monster Codex" ],
@@ -4076,7 +4076,7 @@
 			"Agents lead the way for other sahuagin by scouting enemy patrols and hidden fortifications."
 		]
 	},
-	"sahuagin_scout": { "copyof": "sahuagin_sahuagin_scout" },
+	"sahuagin_scout": { "redirect": "sahuagin_sahuagin_scout" },
 	"sahuagin_sahuagin_shark_sentry": {
 		"name": "Sahuagin Shark Sentry",
 		"sources": [ "Monster Codex" ],
@@ -4131,7 +4131,7 @@
 			"Shark speakers prefer the company of vicious fish over other sahuagin."
 		]
 	},
-	"sahuagin_shark_sentry": { "copyof": "sahuagin_sahuagin_shark_sentry" },
+	"sahuagin_shark_sentry": { "redirect": "sahuagin_sahuagin_shark_sentry" },
 	"sahuagin_sahuagin_underpriestess": {
 		"name": "Sahuagin Underpriestess",
 		"sources": [ "Monster Codex" ],
@@ -4187,7 +4187,7 @@
 			"[^D]: Domain spell"
 		]
 	},
-	"sahuagin_underpriestess": { "copyof": "sahuagin_sahuagin_underpriestess" },
+	"sahuagin_underpriestess": { "redirect": "sahuagin_sahuagin_underpriestess" },
 	"salamander": {
 		"name": "Salamander",
 		"sources": [ "Pathfinder RPG Bestiary" ],

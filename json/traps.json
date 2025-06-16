@@ -90,7 +90,7 @@
 			"**Effect** 20-ft.-deep pit (2d6 falling damage); DC 20 Reflex avoids; multiple targets (all targets in a 10-ft.-square area)"
 		]
 	},
-	"pit": { "copyof": "pit_trap" },
+	"pit": { "redirect": "pit_trap" },
 	"poisoned_dart_trap": {
 		"name": "Poisoned Dart Trap",
 		"sources": [ "PRPG Core Rulebook" ],
@@ -354,7 +354,7 @@
 			"**Effect** Atk +20 melee (2d4+6/&times;4)"
 		]
 	},
-	"wall_scythe": { "copyof": "wall_scythe_trap" },
+	"wall_scythe": { "redirect": "wall_scythe_trap" },
 	"deadfall": {
 		"name": "Deadfall",
 		"sources": [ "Ultimate Wilderness" ],

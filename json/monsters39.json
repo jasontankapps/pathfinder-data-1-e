@@ -65,7 +65,7 @@
 			"**Family:** {family/Sphinx}"
 		]
 	},
-	"androsphinx": { "copyof": "sphinx_androsphinx" },
+	"androsphinx": { "redirect": "sphinx_androsphinx" },
 	"sphinx_criosphinx": {
 		"name": "Criosphinx (Sphinx)",
 		"sources": [ "Bestiary 3" ],
@@ -125,7 +125,7 @@
 			"**Family:** {family/Sphinx}"
 		]
 	},
-	"criosphinx": { "copyof": "sphinx_criosphinx" },
+	"criosphinx": { "redirect": "sphinx_criosphinx" },
 	"sphinx_cynosphinx": {
 		"name": "Cynosphinx (Sphinx)",
 		"sources": [
@@ -209,7 +209,7 @@
 			"Although they have the physical ability to carry a rider, cynosphinxes cannot be trained as mounts. They are intelligent beings who choose for themselves whether to accept a rider. A worthy rider is usually a powerful undead creature of evil alignment with whom the cynosphinx has an obsession, or who has promised eldritch secrets in return for service. Often, a creature petitioning a cynosphinx for this arrangement must provide such knowledge regularly for the cynosphinx to continue to grant its consent as a steed. A cynosphinx is considered a special cohort, not a normal mount."
 		]
 	},
-	"cynosphinx": { "copyof": "sphinx_cynosphinx" },
+	"cynosphinx": { "redirect": "sphinx_cynosphinx" },
 	"sphinx_elder_sphinx": {
 		"name": "Elder Sphinx (Sphinx)",
 		"sources": [
@@ -287,8 +287,8 @@
 			"Elder sphinxes have little to no contact with other sphinxes. This only occurs when a younger, less powerful sphinx seeks out one of these magnificent specimens to plead for lost knowledge. When elder sphinxes do come into contact with one another, it is always a meeting of great purpose, typically on a matter of such importance that it requires them to share their ancient wisdom and unfathomable lore."
 		]
 	},
-	"sphinx_elder": { "copyof": "sphinx_elder_sphinx" },
-	"elder_sphinx": { "copyof": "sphinx_elder_sphinx" },
+	"sphinx_elder": { "redirect": "sphinx_elder_sphinx" },
+	"elder_sphinx": { "redirect": "sphinx_elder_sphinx" },
 	"sphinx_gynosphinx": {
 		"name": "Gynosphinx (Sphinx)",
 		"sources": [
@@ -348,7 +348,7 @@
 			"**Family:** {family/Sphinx}"
 		]
 	},
-	"gynosphinx": { "copyof": "sphinx_gynosphinx" },
+	"gynosphinx": { "redirect": "sphinx_gynosphinx" },
 	"sphinx_hieracosphinx": {
 		"name": "Hieracosphinx (Sphinx)",
 		"sources": [ "Bestiary 3" ],
@@ -405,7 +405,7 @@
 			"**Family:** {family/Sphinx}"
 		]
 	},
-	"hieracosphinx": { "copyof": "sphinx_hieracosphinx" },
+	"hieracosphinx": { "redirect": "sphinx_hieracosphinx" },
 	"spider_eater": {
 		"name": "Spider Eater",
 		"sources": [ "Bestiary 3" ],
@@ -522,8 +522,8 @@
 			"[^B]: Bonus feat."
 		]
 	},
-	"spider_drain": { "copyof": "spider_drain_spider" },
-	"drain_spider": { "copyof": "spider_drain_spider" },
+	"spider_drain": { "redirect": "spider_drain_spider" },
+	"drain_spider": { "redirect": "spider_drain_spider" },
 	"spider_dream_spider": {
 		"name": "Dream Spider",
 		"sources": [
@@ -576,8 +576,8 @@
 			"Transplants from the Mwangi Expanse (where these spiders can grow to truly enormous proportions), dream spiders have become a significant but valuable infestation in Korvosa's Shingles, for the venom of one of these spiders can be distilled into the popular but dangerous drug known as {drug/shiver}."
 		]
 	},
-	"spider_dream": { "copyof": "spider_dream_spider" },
-	"dream_spider": { "copyof": "spider_dream_spider" },
+	"spider_dream": { "redirect": "spider_dream_spider" },
+	"dream_spider": { "redirect": "spider_dream_spider" },
 	"spider_giant_black_widow": {
 		"name": "Giant Black Widow (Spider)",
 		"sources": [ "Bestiary 2" ],
@@ -629,7 +629,7 @@
 			"Females of this species are larger than males. Males are identical to the typical giant spider."
 		]
 	},
-	"giant_black_widow": { "copyof": "spider_giant_black_widow" },
+	"giant_black_widow": { "redirect": "spider_giant_black_widow" },
 	"spider_giant_crab_spider": {
 		"name": "Giant Crab Spider",
 		"sources": [ "Bestiary 3" ],
@@ -676,8 +676,8 @@
 			"Giant crab spiders are dangerous ambush predators that live in dense forest vegetation. Though crab spiders are not web spinners, they are truly gifted climbers and use this talent to clamber up into places where they can observe wide areas from on high. Named for their curious scuttling walk and wide-legged stance, giant crab spiders are rarely larger than a typical adult halfling."
 		]
 	},
-	"spider_giant_crab": { "copyof": "spider_giant_crab_spider" },
-	"giant_crab_spider": { "copyof": "spider_giant_crab_spider" },
+	"spider_giant_crab": { "redirect": "spider_giant_crab_spider" },
+	"giant_crab_spider": { "redirect": "spider_giant_crab_spider" },
 	"spider_giant_spider": {
 		"name": "Giant Spider",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -736,8 +736,8 @@
 			"| Goliath spider | 11 | Colossal | 14d8 |"
 		]
 	},
-	"spider_giant": { "copyof": "spider_giant_spider" },
-	"giant_spider": { "copyof": "spider_giant_spider" },
+	"spider_giant": { "redirect": "spider_giant_spider" },
+	"giant_spider": { "redirect": "spider_giant_spider" },
 	"spider_giant_tarantula": {
 		"name": "Giant Tarantula (Spider)",
 		"sources": [ "Bestiary 2" ],
@@ -788,7 +788,7 @@
 			"No description provided."
 		]
 	},
-	"giant_tarantula": { "copyof": "spider_giant_tarantula" },
+	"giant_tarantula": { "redirect": "spider_giant_tarantula" },
 	"spider_goliath_spider": {
 		"name": "Goliath Spider",
 		"sources": [ "Bestiary 4" ],
@@ -839,8 +839,8 @@
 			"Goliath spiders are giant hunting spiders that most often prey on large creatures such as giant scorpions, snakes, and younger dragons, but sometimes catch and paralyze smaller prey to eat later. Camouflaged by their hairs and coloration, they prowl atop the forest canopy, dropping upon unsuspecting creatures. Females often cannibalize their mates."
 		]
 	},
-	"spider_goliath": { "copyof": "spider_goliath_spider" },
-	"goliath_spider": { "copyof": "spider_goliath_spider" },
+	"spider_goliath": { "redirect": "spider_goliath_spider" },
+	"goliath_spider": { "redirect": "spider_goliath_spider" },
 	"spider_moon_spider": {
 		"name": "Moon Spider",
 		"sources": [ "The Emerald Spire Superdungeon" ],
@@ -903,8 +903,8 @@
 			"Moon spiders do not speak any humanoid language, but communicate with each other in clicks and taps of their legs on the ground, and they can understand simple concepts in Common (which is useful when they're listening to prey)."
 		]
 	},
-	"spider_moon": { "copyof": "spider_moon_spider" },
-	"moon_spider": { "copyof": "spider_moon_spider" },
+	"spider_moon": { "redirect": "spider_moon_spider" },
+	"moon_spider": { "redirect": "spider_moon_spider" },
 	"spider_ogre_spider": {
 		"name": "Ogre Spider",
 		"sources": [ "Bestiary 3" ],
@@ -954,8 +954,8 @@
 			"Ogre spiders are brutal, terrifying hunters that spin tangled webs capable of encasing entire trees. So-named because the arrangement of its eyes and mandibles gives it a face unnervingly similar to that of an ogre as much as for their size, ogre spiders can fit into nooks and tunnels far more narrow than one might expect."
 		]
 	},
-	"spider_ogre": { "copyof": "spider_ogre_spider" },
-	"ogre_spider": { "copyof": "spider_ogre_spider" },
+	"spider_ogre": { "redirect": "spider_ogre_spider" },
+	"ogre_spider": { "redirect": "spider_ogre_spider" },
 	"spider_scarlet_spider": {
 		"name": "Scarlet Spider",
 		"sources": [
@@ -1010,8 +1010,8 @@
 			"[^B]: Bonus feat."
 		]
 	},
-	"spider_scarlet": { "copyof": "spider_scarlet_spider" },
-	"scarlet_spider": { "copyof": "spider_scarlet_spider" },
+	"spider_scarlet": { "redirect": "spider_scarlet_spider" },
+	"scarlet_spider": { "redirect": "spider_scarlet_spider" },
 	"spider_spider_swarm": {
 		"name": "Spider Swarm",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -1060,7 +1060,7 @@
 			"The sight of a carpet of swarming spiders is unsettling indeed - particularly when the swarm is made up of spiders each the size of a gold coin and possessing blade-like mandibles capable of lacerating flesh with sickening ease. A swarm of spiders is a colonial mass of arachnids that relies on overwhelming much larger prey with sheer numbers rather than catching smaller snacks. While spider swarms spin webs, these webs are incapable of catching larger prey and typically serve the swarm as a lair rather than a method of capturing dinner."
 		]
 	},
-	"spider_swarm": { "copyof": "spider_spider_swarm" },
+	"spider_swarm": { "redirect": "spider_spider_swarm" },
 	"strix": {
 		"name": "Strix",
 		"sources": [
@@ -1168,7 +1168,7 @@
 			"These warriors run many civil matters that are outside the rokoa's spiritual authority with a gruff and haphazard democracy, with tribe members' votes weighted by the resources they provide the group. Only the rokoa herself can override these group decisions, and even then only for a time. Unfortunately, the itaraak's inflamed animosity and general bitterness often push them to make ill-advised raids on otherwise peaceful settlements, bringing down a disproportionate response from Chelish forces."
 		]
 	},
-	"itaraak_champion": { "copyof": "strix_itaraak_champion" },
+	"itaraak_champion": { "redirect": "strix_itaraak_champion" },
 	"strix_strix_infiltrator": {
 		"name": "Strix Infiltrator",
 		"sources": [ "Inner Sea Monster Codex" ],
@@ -1221,7 +1221,7 @@
 			"Hearing the droning voices of humanity, seeing their featherless, leathery flesh, and dealing with their smell wears on any strix, but being unable to stretch one's wings and take flight when instinct calls for it is a chronic torture infiltrators must endure. Despite this discomfort, these quiet spies understand that of all the campaigns launched against the human settlements that encroach upon their territory, none is more important to maintaining the strix way of life than theirs. Posing as a friend and sometimes more to their despised foes, infiltrators keep a close and personal eye on their neighbors and position themselves for success in espionage and sabotage. The occasional assassination mission provides a small reward for their pain."
 		]
 	},
-	"strix_infiltrator": { "copyof": "strix_strix_infiltrator" },
+	"strix_infiltrator": { "redirect": "strix_strix_infiltrator" },
 	"strix_strix_rokoa": {
 		"name": "Strix Rokoa",
 		"sources": [ "Inner Sea Monster Codex" ],
@@ -1283,7 +1283,7 @@
 			"[^S]: Spirit magic spell"
 		]
 	},
-	"strix_rokoa": { "copyof": "strix_strix_rokoa" },
+	"strix_rokoa": { "redirect": "strix_strix_rokoa" },
 	"strix_strix_voyager": {
 		"name": "Strix Voyager",
 		"sources": [ "Inner Sea Monster Codex" ],
@@ -1334,7 +1334,7 @@
 			"Oddities found high atop the spire nests of Ciricskree, these masked visitors bring hope to the fading itarii - the Strix word for their race - of Devil's Perch. While welcomed as family, voyagers are not born amid their clutches, claiming instead to have flown across the western ocean. Draped in the mysterious regalia of the ancients, the newcomers supposedly hail from the Island of the Gods, a place of legend known only to the oldest rokoa. They entertain and inspire the curious locals who crowd around the roost with tales of their mythical homeland and promises of a return to glory. Most voyagers' tales describe strix ancestors sitting as equals beside a lost race of men and powerful elves, but then facing a mysterious exile on the winds of a green storm. The validity of their claims is open to debate, but the fact remains that the strix cannot account for the location of the bones of these visitors' ancestors."
 		]
 	},
-	"strix_voyager": { "copyof": "strix_strix_voyager" },
+	"strix_voyager": { "redirect": "strix_strix_voyager" },
 	"sump_steward": {
 		"name": "Sump Steward",
 		"sources": [ "Pathfinder #141: Last Watch" ],
@@ -1630,7 +1630,7 @@
 			"Troglodyte divine spellcasters act as spiritual advisors for their tribes. Troglodyte clerics usually worship demon lords, particularly those associated with caverns and reptiles."
 		]
 	},
-	"troglodyte_beast_speaker": { "copyof": "troglodyte_troglodyte_beast_speaker" },
+	"troglodyte_beast_speaker": { "redirect": "troglodyte_troglodyte_beast_speaker" },
 	"troglodyte_troglodyte_champion": {
 		"name": "Troglodyte Champion",
 		"sources": [ "Monster Codex" ],
@@ -1679,7 +1679,7 @@
 			"These mounted warriors ride reptilian steeds such as giant monitor lizards or giant chameleons into combat."
 		]
 	},
-	"troglodyte_champion": { "copyof": "troglodyte_troglodyte_champion" },
+	"troglodyte_champion": { "redirect": "troglodyte_troglodyte_champion" },
 	"troglodyte_troglodyte_chieftain": {
 		"name": "Troglodyte Chieftain",
 		"sources": [ "Monster Codex" ],
@@ -1742,7 +1742,7 @@
 			"[^D]: Domain spell"
 		]
 	},
-	"troglodyte_chieftain": { "copyof": "troglodyte_troglodyte_chieftain" },
+	"troglodyte_chieftain": { "redirect": "troglodyte_troglodyte_chieftain" },
 	"troglodyte_troglodyte_priest": {
 		"name": "Troglodyte Priest",
 		"sources": [ "Monster Codex" ],
@@ -1803,7 +1803,7 @@
 			"[^D]: Domain spell"
 		]
 	},
-	"troglodyte_priest": { "copyof": "troglodyte_troglodyte_priest" },
+	"troglodyte_priest": { "redirect": "troglodyte_troglodyte_priest" },
 	"troglodyte_troglodyte_scale_rider": {
 		"name": "Troglodyte Scale-Rider",
 		"sources": [ "Monster Codex" ],
@@ -1851,7 +1851,7 @@
 			"These mounted warriors ride reptilian steeds such as giant monitor lizards or giant chameleons into combat."
 		]
 	},
-	"troglodyte_scale_rider": { "copyof": "troglodyte_troglodyte_scale_rider" },
+	"troglodyte_scale_rider": { "redirect": "troglodyte_troglodyte_scale_rider" },
 	"troglodyte_troglodyte_skulker": {
 		"name": "Troglodyte Skulker",
 		"sources": [ "Monster Codex" ],
@@ -1900,7 +1900,7 @@
 			"Far-ranging and mobile, troglodyte skulkers spend most of their time away from the tribe."
 		]
 	},
-	"troglodyte_skulker": { "copyof": "troglodyte_troglodyte_skulker" },
+	"troglodyte_skulker": { "redirect": "troglodyte_troglodyte_skulker" },
 	"troglodyte_troglodyte_sorcerer": {
 		"name": "Troglodyte Sorcerer",
 		"sources": [ "Monster Codex" ],
@@ -1953,7 +1953,7 @@
 			"Arcane casters often become scouts, as their divine counterparts monopolize the positions of power within the tribe. Most troglodyte sorcerers have the Abyssal, Deep Earth, Draconic, or Undead bloodline."
 		]
 	},
-	"troglodyte_sorcerer": { "copyof": "troglodyte_troglodyte_sorcerer" },
+	"troglodyte_sorcerer": { "redirect": "troglodyte_troglodyte_sorcerer" },
 	"troglodyte_troglodyte_tyrant": {
 		"name": "Troglodyte Tyrant",
 		"sources": [ "Monster Codex" ],
@@ -2018,7 +2018,7 @@
 			"[^D]: Domain spell"
 		]
 	},
-	"troglodyte_tyrant": { "copyof": "troglodyte_troglodyte_tyrant" },
+	"troglodyte_tyrant": { "redirect": "troglodyte_troglodyte_tyrant" },
 	"troglodyte_troglodyte_warren_guard": {
 		"name": "Troglodyte Warren Guard",
 		"sources": [ "Monster Codex" ],
@@ -2073,7 +2073,7 @@
 			"Troglodyte tribes trust only their most powerful members to look after the tribe's future members. Warren guards care for all of the tribe's eggs except those that are badly flawed; the warren guards consume eggs that will not hatch or that will likely result in a weak or sickly hatchling to ensure the future strength of the tribe. Despite warren guards' usual impartiality, religious leaders in the tribe are sometimes able to arrange for preferential treatment for eggs they laid or fertilized. This stops, however, at getting a warmer position for their eggs. A leader who tries to destroy a rival's eggs by pressuring or bribing a warren guard almost invariably draws that guard's wrath. These hulking, savage troglodytes fight with only tooth and claw. They're devoted to guarding the egg clutches, and leave their warrens only if all of the eggs have been destroyed. When set loose from this obligation, warren guards are feral, uncontrolled, and extremely dangerous."
 		]
 	},
-	"troglodyte_warren_guard": { "copyof": "troglodyte_troglodyte_warren_guard" },
+	"troglodyte_warren_guard": { "redirect": "troglodyte_troglodyte_warren_guard" },
 	"troll": {
 		"name": "Troll",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -2207,8 +2207,8 @@
 			"[^B]: Bonus feat."
 		]
 	},
-	"canopy_troll": { "copyof": "troll_canopy_troll" },
-	"troll_canopy": { "copyof": "troll_canopy_troll" },
+	"canopy_troll": { "redirect": "troll_canopy_troll" },
+	"troll_canopy": { "redirect": "troll_canopy_troll" },
 	"troll_chimney_troll": {
 		"name": "Chimney Troll",
 		"sources": [
@@ -2275,8 +2275,8 @@
 			"**Family:** {family/Troll}"
 		]
 	},
-	"chimney_troll": { "copyof": "troll_chimney_troll" },
-	"troll_chimney": { "copyof": "troll_chimney_troll" },
+	"chimney_troll": { "redirect": "troll_chimney_troll" },
+	"troll_chimney": { "redirect": "troll_chimney_troll" },
 	"troll_flood_troll": {
 		"name": "Flood Troll",
 		"sources": [
@@ -2356,8 +2356,8 @@
 			"Because they can survive in arid environments for longer periods, flood trolls are much more common in Belkzen than their scrag forebears. The orcs of Belkzen claim that flood trolls wander over the Mindspin and Kodar mountain ranges, fleeing their scrag families in the Mushfens and Varisia's other wetlands. In the frigid Lands of the Linnorm Kings and Irrisen, scrags dwelling along the coast of the Arcadian Ocean and in Glacier Lake drive their flood troll offspring south along the Marbleflow River or east toward the Gullik River. While they are most commonly encountered in Avistan, flood trolls may be found around the world, wherever scrags carry the aruk-taii mutation, though their physical features vary somewhat depending on where they originate. The Zenj tribes of the Mwangi Expanse speak of blue-skinned, humanoid horrors-jeburo in the Polyglot tongue-that stalk the jungle's riverbeds during the dry season and boldly attack villages as the storm season approaches. A number of these flood trolls make their way into the Sodden Lands. Never lacking for the rain that allows for their regeneration, these flood trolls terrorize the few remaining enclaves of humanity in that drenched land."
 		]
 	},
-	"flood_troll": { "copyof": "troll_flood_troll" },
-	"troll_flood": { "copyof": "troll_flood_troll" },
+	"flood_troll": { "redirect": "troll_flood_troll" },
+	"troll_flood": { "redirect": "troll_flood_troll" },
 	"troll_ice_troll": {
 		"name": "Ice Troll",
 		"sources": [
@@ -2418,8 +2418,8 @@
 			"**Family:** {family/Troll}"
 		]
 	},
-	"ice_troll": { "copyof": "troll_ice_troll" },
-	"troll_ice": { "copyof": "troll_ice_troll" },
+	"ice_troll": { "redirect": "troll_ice_troll" },
+	"troll_ice": { "redirect": "troll_ice_troll" },
 	"troll_jotund_troll": {
 		"name": "Jotund Troll",
 		"sources": [
@@ -2484,8 +2484,8 @@
 			"**Family:** {family/Troll}"
 		]
 	},
-	"jotund_troll": { "copyof": "troll_jotund_troll" },
-	"troll_jotund": { "copyof": "troll_jotund_troll" },
+	"jotund_troll": { "redirect": "troll_jotund_troll" },
+	"troll_jotund": { "redirect": "troll_jotund_troll" },
 	"troll_moss_troll": {
 		"name": "Moss Troll",
 		"sources": [
@@ -2551,8 +2551,8 @@
 			"**Family:** {family/Troll}"
 		]
 	},
-	"moss_troll": { "copyof": "troll_moss_troll" },
-	"troll_moss": { "copyof": "troll_moss_troll" },
+	"moss_troll": { "redirect": "troll_moss_troll" },
+	"troll_moss": { "redirect": "troll_moss_troll" },
 	"troll_mountain_troll": {
 		"name": "Mountain Troll",
 		"sources": [
@@ -2616,8 +2616,8 @@
 			"**Family:** {family/Troll}"
 		]
 	},
-	"mountain_troll": { "copyof": "troll_mountain_troll" },
-	"troll_mountain": { "copyof": "troll_mountain_troll" },
+	"mountain_troll": { "redirect": "troll_mountain_troll" },
+	"troll_mountain": { "redirect": "troll_mountain_troll" },
 	"troll_rock_troll": {
 		"name": "Rock Troll",
 		"sources": [
@@ -2675,8 +2675,8 @@
 			"**Family:** {family/Troll}"
 		]
 	},
-	"rock_troll": { "copyof": "troll_rock_troll" },
-	"troll_rock": { "copyof": "troll_rock_troll" },
+	"rock_troll": { "redirect": "troll_rock_troll" },
+	"troll_rock": { "redirect": "troll_rock_troll" },
 	"troll_sewer_troll": {
 		"name": "Sewer Troll",
 		"sources": [
@@ -2739,8 +2739,8 @@
 			"**Family:** {family/Troll}"
 		]
 	},
-	"sewer_troll": { "copyof": "troll_sewer_troll" },
-	"troll_sewer": { "copyof": "troll_sewer_troll" },
+	"sewer_troll": { "redirect": "troll_sewer_troll" },
+	"troll_sewer": { "redirect": "troll_sewer_troll" },
 	"troll_troll_acolyte": {
 		"name": "Troll Acolyte",
 		"sources": [
@@ -2802,7 +2802,7 @@
 			"[^D]: Domain spell"
 		]
 	},
-	"troll_acolyte": { "copyof": "troll_troll_acolyte" },
+	"troll_acolyte": { "redirect": "troll_troll_acolyte" },
 	"troll_troll_berserker": {
 		"name": "Troll Berserker",
 		"sources": [
@@ -2857,7 +2857,7 @@
 			"**Family:** {family/Troll}"
 		]
 	},
-	"troll_berserker": { "copyof": "troll_troll_berserker" },
+	"troll_berserker": { "redirect": "troll_troll_berserker" },
 	"troll_troll_brute": {
 		"name": "Troll Brute",
 		"sources": [
@@ -2913,7 +2913,7 @@
 			"**Family:** {family/Troll}"
 		]
 	},
-	"troll_brute": { "copyof": "troll_troll_brute" },
+	"troll_brute": { "redirect": "troll_troll_brute" },
 	"troll_troll_elder_matron": {
 		"name": "Troll Elder Matron",
 		"sources": [
@@ -2975,7 +2975,7 @@
 			"**Family:** {family/Troll}"
 		]
 	},
-	"troll_elder_matron": { "copyof": "troll_troll_elder_matron" },
+	"troll_elder_matron": { "redirect": "troll_troll_elder_matron" },
 	"troll_troll_fury": {
 		"name": "Troll Fury",
 		"sources": [
@@ -3037,7 +3037,7 @@
 			"**Family:** {family/Troll}"
 		]
 	},
-	"troll_fury": { "copyof": "troll_troll_fury" },
+	"troll_fury": { "redirect": "troll_troll_fury" },
 	"troll_troll_monarch": {
 		"name": "Troll Monarch",
 		"sources": [
@@ -3097,7 +3097,7 @@
 			"**Family:** {family/Troll}"
 		]
 	},
-	"troll_monarch": { "copyof": "troll_troll_monarch" },
+	"troll_monarch": { "redirect": "troll_troll_monarch" },
 	"troll_troll_render": {
 		"name": "Troll Render",
 		"sources": [
@@ -3152,7 +3152,7 @@
 			"**Family:** {family/Troll}"
 		]
 	},
-	"troll_render": { "copyof": "troll_troll_render" },
+	"troll_render": { "redirect": "troll_troll_render" },
 	"troll_troll_ripper": {
 		"name": "Troll Ripper",
 		"sources": [
@@ -3203,7 +3203,7 @@
 			"**Family:** {family/Troll}"
 		]
 	},
-	"troll_ripper": { "copyof": "troll_troll_ripper" },
+	"troll_ripper": { "redirect": "troll_troll_ripper" },
 	"troll_troll_warden": {
 		"name": "Troll Warden",
 		"sources": [
@@ -3253,7 +3253,7 @@
 			"**Family:** {family/Troll}"
 		]
 	},
-	"troll_warden": { "copyof": "troll_troll_warden" },
+	"troll_warden": { "redirect": "troll_troll_warden" },
 	"trollhound": {
 		"name": "Trollhound",
 		"sources": [
@@ -3373,7 +3373,7 @@
 			"**Family:** {family/Thriae}"
 		]
 	},
-	"thriae_constructor": { "copyof": "thriae_thriae_constructor" },
+	"thriae_constructor": { "redirect": "thriae_thriae_constructor" },
 	"thriae_thriae_dancer": {
 		"name": "Thriae Dancer",
 		"sources": [
@@ -3442,7 +3442,7 @@
 			"**Family:** {family/Thriae}"
 		]
 	},
-	"thriae_dancer": { "copyof": "thriae_thriae_dancer" },
+	"thriae_dancer": { "redirect": "thriae_thriae_dancer" },
 	"thriae_thriae_queen": {
 		"name": "Thriae Queen",
 		"sources": [ "Bestiary 3" ],
@@ -3518,7 +3518,7 @@
 			"**Family:** {family/Thriae}"
 		]
 	},
-	"thriae_queen": { "copyof": "thriae_thriae_queen" },
+	"thriae_queen": { "redirect": "thriae_thriae_queen" },
 	"thriae_thriae_seer": {
 		"name": "Thriae Seer",
 		"sources": [ "Bestiary 3" ],
@@ -3583,7 +3583,7 @@
 			"**Family:** {family/Thriae}"
 		]
 	},
-	"thriae_seer": { "copyof": "thriae_thriae_seer" },
+	"thriae_seer": { "redirect": "thriae_thriae_seer" },
 	"thriae_thriae_soldier": {
 		"name": "Thriae Soldier",
 		"sources": [ "Bestiary 3" ],
@@ -3644,7 +3644,7 @@
 			"**Family:** {family/Thriae}"
 		]
 	},
-	"thriae_soldier": { "copyof": "thriae_thriae_soldier" },
+	"thriae_soldier": { "redirect": "thriae_thriae_soldier" },
 	"tick_giant_tick": {
 		"name": "Giant Tick",
 		"sources": [ "Bestiary 2" ],
@@ -3694,8 +3694,8 @@
 			"In areas where large creatures like megafauna or dinosaurs dwell, the giant tick behaves much like its smaller kin - it lies in wait in the undergrowth, and when a suitable host passes by, it drops onto the body to feed. In other areas, these vermin are much more aggressive, and actively hunt smaller prey like dogs, livestock, or even humanoids. A giant tick drains blood quickly, but once it has caused 6 points of Constitution damage, it drops off, sated, to crawl away to digest. A giant tick is 3 feet long and weighs 50 pounds."
 		]
 	},
-	"giant_tick": { "copyof": "tick_giant_tick" },
-	"tick_giant": { "copyof": "tick_giant_tick" },
+	"giant_tick": { "redirect": "tick_giant_tick" },
+	"tick_giant": { "redirect": "tick_giant_tick" },
 	"tick_tick_swarm": {
 		"name": "Tick Swarm",
 		"sources": [ "Bestiary 2" ],
@@ -3745,7 +3745,7 @@
 			"Tick swarms are merciless blights, able to quickly reduce the larger animal life of a region they infest to blood-drained, diseased husks."
 		]
 	},
-	"tick_swarm": { "copyof": "tick_tick_swarm" },
+	"tick_swarm": { "redirect": "tick_tick_swarm" },
 	"tidewretch": {
 		"name": "Tidewretch",
 		"sources": [ "Pathfinder #122: Into the Shattered Continent" ],
@@ -3976,9 +3976,9 @@
 			"These immense hunting cats grow to be over 12 feet long and can weigh up to 6,000 pounds."
 		]
 	},
-	"dire_tiger_smilodon": { "copyof": "tiger_dire_tiger_smilodon" },
-	"dire_tiger": { "copyof": "tiger_dire_tiger_smilodon" },
-	"tiger_dire": { "copyof": "tiger_dire_tiger_smilodon" },
+	"dire_tiger_smilodon": { "redirect": "tiger_dire_tiger_smilodon" },
+	"dire_tiger": { "redirect": "tiger_dire_tiger_smilodon" },
+	"tiger_dire": { "redirect": "tiger_dire_tiger_smilodon" },
 	"tikbalang": {
 		"name": "Tikbalang",
 		"sources": [ "Bestiary 4" ],

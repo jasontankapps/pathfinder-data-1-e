@@ -1050,8 +1050,8 @@
 			"**Location:** Melee and Ranged."
 		]
 	},
-	"natural_attack": { "copyof": "natural_attacks" },
-	"natural_weapons": { "copyof": "natural_attacks" },
+	"natural_attack": { "redirect": "natural_attacks" },
+	"natural_weapons": { "redirect": "natural_attacks" },
 	"spell_like_abilities": {
 		"name": "Spell-Like Abilities",
 		"sources": [ "Bestiary 5" ],
@@ -1437,7 +1437,7 @@
 			"A stampede occurs if three or more creatures with stampede make a trample attack while remaining adjacent to each other. While stampeding, the creatures can trample foes of their size or smaller, and the trample's save DC increases by +2."
 		]
 	},
-	"stampede": { "copyof": "trample" },
+	"stampede": { "redirect": "trample" },
 	"recuperation": {
 		"name": "Recuperation",
 		"subtitle": "Mythic",

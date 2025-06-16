@@ -34,7 +34,7 @@
 		"name": "Greater Stunning Barrier",
 		"copyof": "stunning_barrier"
 	},
-	"greater_stunning_barrier": { "copyof": "stunning_barrier_greater" },
+	"greater_stunning_barrier": { "redirect": "stunning_barrier_greater" },
 	"stunning_finale": {
 		"name": "Stunning Finale",
 		"sources": [ "Advanced Player's Guide" ],
@@ -168,7 +168,7 @@
 		"name": "Mass Suffocation",
 		"copyof": "suffocation"
 	},
-	"mass_suffocation": { "copyof": "suffocation_mass" },
+	"mass_suffocation": { "redirect": "suffocation_mass" },
 	"suggestion": {
 		"name": "Suggestion",
 		"sources": [
@@ -244,7 +244,7 @@
 		"name": "Mass Suggestion",
 		"copyof": "suggestion"
 	},
-	"mass_suggestion": { "copyof": "suggestion_mass" },
+	"mass_suggestion": { "redirect": "suggestion_mass" },
 	"contagious_suggestion": {
 		"name": "Contagious Suggestion",
 		"copyof": "suggestion"
@@ -320,12 +320,12 @@
 			"This spell functions like summon barghest I, save that it can summon 1 greater barghest or 1d3 normal barghests with 2 growth points each."
 		]
 	},
-	"summon_barghest_i": { "copyof": "summon_barghest_1" },
+	"summon_barghest_i": { "redirect": "summon_barghest_1" },
 	"summon_barghest_2": {
 		"name": "Summon Barghest II",
 		"copyof": "summon_barghest_1"
 	},
-	"summon_barghest_ii": { "copyof": "summon_barghest_2" },
+	"summon_barghest_ii": { "redirect": "summon_barghest_2" },
 	"summon_cacodaemon": {
 		"name": "Summon Cacodaemon",
 		"sources": [ "Book of the Damned - Volume 3: Horsemen of the Apocalypse" ],
@@ -361,7 +361,7 @@
 		"name": "Greater Summon Cacodaemon",
 		"copyof": "summon_cacodaemon"
 	},
-	"greater_summon_cacodaemon": { "copyof": "summon_cacodaemon_greater" },
+	"greater_summon_cacodaemon": { "redirect": "summon_cacodaemon_greater" },
 	"summon_ceustodaemon": {
 		"name": "Summon Ceustodaemon",
 		"sources": [ "Book of the Damned - Volume 3: Horsemen of the Apocalypse" ],
@@ -561,7 +561,7 @@
 			"This spell functions like lesser summon genie, except you can summon one shaitan, 1d3 djnn or 1d4+1 jann."
 		]
 	},
-	"lesser_summon_genie": { "copyof": "summon_genie_lesser" },
+	"lesser_summon_genie": { "redirect": "summon_genie_lesser" },
 	"summon_genie": {
 		"name": "Summon Genie",
 		"copyof": "summon_genie_lesser"
@@ -570,7 +570,7 @@
 		"name": "Greater Summon Genie",
 		"copyof": "summon_genie_lesser"
 	},
-	"greater_summon_genie": { "copyof": "summon_genie_greater" },
+	"greater_summon_genie": { "redirect": "summon_genie_greater" },
 	"summon_giant_ally_1": {
 		"name": "Summon Giant Ally I",
 		"sources": [ "Inner Sea Races" ],
@@ -615,17 +615,17 @@
 			"This spell functions as summon giant ally I, except you can summon one ash or cloud giant; 1d3 desert, fire, frost, or jungle giants; or 1d4+1 cave, hill, marsh, river, slag, stone, or wood giants."
 		]
 	},
-	"summon_giant_ally_i": { "copyof": "summon_giant_ally_1" },
+	"summon_giant_ally_i": { "redirect": "summon_giant_ally_1" },
 	"summon_giant_ally_2": {
 		"name": "Summon Giant Ally II",
 		"copyof": "summon_giant_ally_1"
 	},
-	"summon_giant_ally_ii": { "copyof": "summon_giant_ally_2" },
+	"summon_giant_ally_ii": { "redirect": "summon_giant_ally_2" },
 	"summon_giant_ally_3": {
 		"name": "Summon Giant Ally III",
 		"copyof": "summon_giant_ally_1"
 	},
-	"summon_giant_ally_iii": { "copyof": "summon_giant_ally_3" },
+	"summon_giant_ally_iii": { "redirect": "summon_giant_ally_3" },
 	"summon_greater_demon": {
 		"name": "Summon Greater Demon",
 		"sources": [ "Pathfinder #74: Sword of Valor" ],
@@ -1056,7 +1056,7 @@
 		"name": "Summon Monster IX",
 		"copyof": "summon_monster_1"
 	},
-	"summon_monster_i": { "copyof": "summon_monster_1" },
+	"summon_monster_i": { "redirect": "summon_monster_1" },
 	"summon_monster_ii": {
 		"name": "Summon Monster II",
 		"copyof": "summon_monster_1"
@@ -1367,7 +1367,7 @@
 		"name": "Summon Nature's Ally IX",
 		"copyof": "summon_natures_ally_1"
 	},
-	"summon_natures_ally_i": { "copyof": "summon_natures_ally_1" },
+	"summon_natures_ally_i": { "redirect": "summon_natures_ally_1" },
 	"summon_natures_ally_ii": {
 		"name": "Summon Nature's Ally II",
 		"copyof": "summon_natures_ally_1"
@@ -1760,7 +1760,7 @@
 		"name": "Mass Sun's Disdain",
 		"copyof": "suns_disdain"
 	},
-	"mass_suns_disdain": { "copyof": "suns_disdain_mass" },
+	"mass_suns_disdain": { "redirect": "suns_disdain_mass" },
 	"whirlwind": {
 		"name": "Whirlwind",
 		"sources": [

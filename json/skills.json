@@ -153,7 +153,7 @@
 			"**20 Ranks:** Determining the most expensive object as above is a move action, and if the check succeeds, you gain a +2 circumstance bonus on combat maneuver checks to steal that object or disarm a creature of that object for 1 minute."
 		]
 	},
-	"psychometry": { "copyof": "appraise" },
+	"psychometry": { "redirect": "appraise" },
 	"artistry_any": {
 		"name": "Artistry (any)",
 		"sources": [ "Pathfinder Unchained" ],
@@ -207,7 +207,7 @@
 			"**Try Again:** Yes. Retries are allowed, but they don't negate previous failures. If you're trying to earn a living as an artist in a city where the public hasn't been impressed with your work (because you failed a DC 15 Artistry check in the previous week), you have a hard time breaking into the marketplace with future artwork (increase the DC by 2 for each previous failure). If you leave the area for a month or more before trying again, this increase resets to 0."
 		]
 	},
-	"artistry": { "copyof": "artistry_any" },
+	"artistry": { "redirect": "artistry_any" },
 	"bluff": {
 		"name": "Bluff",
 		"sources": [
@@ -285,7 +285,7 @@
 			"**20 Ranks:** As a full-round action, you can make a {spell/suggestion} (as the spell, maximum duration 1 hour) to a creature within 30 feet (Will negates, DC = 15 + your Charisma modifier). A creature that saves against your {spell/suggestion} is immune to further uses of this effect for 24 hours, and whenever the suggested creature is specifically confronted with proof of your manipulation, it receives another saving throw. This is an extraordinary mind-affecting compulsion."
 		]
 	},
-	"feint": { "copyof": "bluff" },
+	"feint": { "redirect": "bluff" },
 	"climb": {
 		"name": "Climb",
 		"sources": [
@@ -499,7 +499,7 @@
 			"**20 Ranks:** You can craft magic armor, magic weapons, magic rings, and wondrous items that fall under your category of Craft using the normal Craft rules."
 		]
 	},
-	"craft": { "copyof": "craft_any" },
+	"craft": { "redirect": "craft_any" },
 	"diplomacy": {
 		"name": "Diplomacy",
 		"sources": [
@@ -600,7 +600,7 @@
 			"**20 Ranks:** You can attempt to adjust a creature's attitude in 1 round with no penalty. If you take 1 minute to adjust a creature's attitude, the duration of the resulting change is measured in weeks, not hours. You can gather information in 1d4 minutes with no penalty."
 		]
 	},
-	"hypnotism": { "copyof": "diplomacy" },
+	"hypnotism": { "redirect": "diplomacy" },
 	"disable_device": {
 		"name": "Disable Device",
 		"sources": [
@@ -1126,7 +1126,7 @@
 			"**20 Ranks:** When you treat deadly wounds, the target recovers hit point and ability damage as if it had rested for 3 days with long-term care."
 		]
 	},
-	"faith_healing": { "copyof": "heal" },
+	"faith_healing": { "redirect": "heal" },
 	"intimidate": {
 		"name": "Intimidate",
 		"sources": [
@@ -1230,7 +1230,7 @@
 			"The Knowledge skill required to identify a feat or class feature varies depending on the type of feat or class feature to be identified."
 		]
 	},
-	"knowledge": { "copyof": "knowledge_all" },
+	"knowledge": { "redirect": "knowledge_all" },
 	"knowledge_arcana": {
 		"name": "Knowledge (arcana)",
 		"sources": [
@@ -1326,7 +1326,7 @@
 			"**20 Ranks:** Whenever you attempt a Knowledge check, you can roll twice and take the better result."
 		]
 	},
-	"phrenology": { "copyof": "knowledge_arcana" },
+	"phrenology": { "redirect": "knowledge_arcana" },
 	"knowledge_dungeoneering": {
 		"name": "Knowledge (dungeoneering)",
 		"sources": [
@@ -1980,7 +1980,7 @@
 			"**20 Ranks:** You can attempt to decipher magical or nonmagical text at a rate of one page per round. If you instead spend 1 minute per page, roll twice and take the better result."
 		]
 	},
-	"automatic_writing": { "copyof": "linguistics" },
+	"automatic_writing": { "redirect": "linguistics" },
 	"lore_any": {
 		"name": "Lore (any)",
 		"sources": [ "Pathfinder Unchained" ],
@@ -2029,7 +2029,7 @@
 			"**Bards:** Lore is treated as a Knowledge skill for the purposes of bardic knowledge and lore master, as well as similar abilities found in other classes, creatures, and archetypes. This applies only to Lore skills in which a character is trained. In other circumstances, use the more relevant Knowledge skill."
 		]
 	},
-	"lore": { "copyof": "lore_any" },
+	"lore": { "redirect": "lore_any" },
 	"perception": {
 		"name": "Perception",
 		"sources": [
@@ -2152,7 +2152,7 @@
 			"**20 Ranks:** You gain a +10 bonus on Perception checks to notice invisible creatures or objects. The distance modifier on the DC of Perception checks you attempt is reduced to +1 per 60 feet."
 		]
 	},
-	"read_aura": { "copyof": "perception" },
+	"read_aura": { "redirect": "perception" },
 	"perform_any": {
 		"name": "Perform (any)",
 		"sources": [
@@ -2211,7 +2211,7 @@
 			"**20 Ranks:** Choose one of the following skills: Bluff, Diplomacy, or Intimidate. When you attempt a skill check with that skill, you can also attempt a Perform check and use the better result to determine the success of that skill check."
 		]
 	},
-	"perform": { "copyof": "perform_any" },
+	"perform": { "redirect": "perform_any" },
 	"profession_any": {
 		"name": "Profession (any)",
 		"sources": [
@@ -2251,7 +2251,7 @@
 			"**20 Ranks:** When attempting Profession checks, you can choose to roll once instead of twice. If you do and the result of the roll is less than 10, replace it with 10. When answering questions about your Profession, you can always take 20."
 		]
 	},
-	"profession": { "copyof": "profession_any" },
+	"profession": { "redirect": "profession_any" },
 	"ride": {
 		"name": "Ride",
 		"sources": [
@@ -2394,7 +2394,7 @@
 			"**20 Ranks:** You can read surface thoughts as above as a standard action. A successful check to gain an insight bonus to your AC also negates the attack that triggered it."
 		]
 	},
-	"prognostication": { "copyof": "sense_motive" },
+	"prognostication": { "redirect": "sense_motive" },
 	"sleight_of_hand": {
 		"name": "Sleight of Hand",
 		"sources": [
@@ -2557,8 +2557,8 @@
 			"**20 Ranks:** If you attack after successfully using Stealth, your target is denied its Dexterity bonus against all attacks that you make before the beginning of your next turn."
 		]
 	},
-	"sniping": { "copyof": "stealth" },
-	"snipe": { "copyof": "stealth" },
+	"sniping": { "redirect": "stealth" },
+	"snipe": { "redirect": "stealth" },
 	"survival": {
 		"name": "Survival",
 		"sources": [
@@ -2774,7 +2774,7 @@
 			"**20 Ranks:** You take only a -10 penalty when tracking creatures that leave no tracks."
 		]
 	},
-	"dowsing": { "copyof": "survival" },
+	"dowsing": { "redirect": "survival" },
 	"swim": {
 		"name": "Swim",
 		"sources": [

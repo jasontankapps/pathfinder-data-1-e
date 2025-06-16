@@ -442,7 +442,7 @@
 			"**Requirements** {feat/Craft Wondrous Item}, {spell/greater shout}; **Cost** 35,000 gp"
 		]
 	},
-	"greater_horn_of_blasting": { "copyof": "horn_of_blasting_greater" },
+	"greater_horn_of_blasting": { "redirect": "horn_of_blasting_greater" },
 	"independent_cube_of_force": {
 		"name": "Independent Cube of Force",
 		"sources": [ "Classic Treasures Revisited" ],
@@ -1855,7 +1855,7 @@
 			"**Requirements** {magic-wondrous/ioun stone}, {magic-wondrous/stone of alarm}, {magic-wondrous/stone of conjuring earth elementals}, {magic-wondrous/stone of good luck}; **Cost** -"
 		]
 	},
-	"stone_of_weight": { "copyof": "stone_of_weight_loadstone" },
+	"stone_of_weight": { "redirect": "stone_of_weight_loadstone" },
 	"tome_of_heretical_revelation": {
 		"name": "Tome of Heretical Revelation",
 		"sources": [ "Faiths and Philosophies" ],

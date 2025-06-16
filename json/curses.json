@@ -99,7 +99,7 @@
 			"**Cure** Unlike a minor haunting, a major haunting can be ended only by putting the ghost to rest, though casting {spell/remove curse} directly after the ghost is destroyed prevents it from reviving for 2d4 days."
 		]
 	},
-	"major_haunting": { "copyof": "haunting_major" },
+	"major_haunting": { "redirect": "haunting_major" },
 	"haunting_minor": {
 		"name": "Minor Haunting",
 		"sources": [ "Horror Adventures" ],
@@ -112,7 +112,7 @@
 			"**Cure** In addition to the normal means for removing a curse, this one can be ended by determining the poltergeist's reason for existence and setting right whatever prevents it from resting in peace."
 		]
 	},
-	"minor_haunting": { "copyof": "haunting_minor" },
+	"minor_haunting": { "redirect": "haunting_minor" },
 	"hunt_of_the_ankou": {
 		"name": "Hunt of the Ankou",
 		"sources": [ "Horror Adventures" ],
@@ -175,7 +175,7 @@
 			"**Cure** {spell/Remove curse} removes a grand perilous demesne only if followed by a casting of {spell/hallow} at the effect's center, and then casting {spell/disintegrate} on each of the hazards before the next nightfall or midnight."
 		]
 	},
-	"grand_perilous_demesne": { "copyof": "perilous_demesne_grand" },
+	"grand_perilous_demesne": { "redirect": "perilous_demesne_grand" },
 	"perilous_demesne_greater": {
 		"name": "Greater Perilous Demesne",
 		"sources": [ "Horror Adventures" ],
@@ -188,7 +188,7 @@
 			"**Cure** {spell/Remove curse} removes a greater perilous demesne only if followed by a casting of {spell/hallow} at the effect's center."
 		]
 	},
-	"greater_perilous_demesne": { "copyof": "perilous_demesne_greater" },
+	"greater_perilous_demesne": { "redirect": "perilous_demesne_greater" },
 	"perilous_demesne_major": {
 		"name": "Major Perilous Demesne",
 		"sources": [ "Horror Adventures" ],
@@ -200,7 +200,7 @@
 			"**Effect** As per {curse/minor perilous demesne}, except this can involve up to four hazards, each of CR 6 or less, imperil creatures in the area. If any hazards are encountered together, the encounter's effective CR from hazards must be no more than 7 (for instance, two CR 5 hazards could be encountered together)."
 		]
 	},
-	"major_perilous_demesne": { "copyof": "perilous_demesne_major" },
+	"major_perilous_demesne": { "redirect": "perilous_demesne_major" },
 	"perilous_demesne_minor": {
 		"name": "Minor Perilous Demesne",
 		"sources": [ "Horror Adventures" ],
@@ -212,7 +212,7 @@
 			"**Effect** Up to three hazards (see the {rule/Horror Environments} section), each of CR 3 or less, imperil creatures in the area, though never with more than one hazard at a time. If a creature places this curse, it can choose the hazards. The hazards must be appropriate to the type of terrain (at the GM's discretion). Any of the hazards that are rendered safe reset themselves and become dangerous again at each midnight."
 		]
 	},
-	"minor_perilous_demesne": { "copyof": "perilous_demesne_minor" },
+	"minor_perilous_demesne": { "redirect": "perilous_demesne_minor" },
 	"sealed_fate": {
 		"name": "Sealed Fate",
 		"sources": [ "Horror Adventures" ],

@@ -188,7 +188,7 @@
 		"name": "Lesser Globe of Invulnerability",
 		"copyof": "globe_of_invulnerability"
 	},
-	"lesser_globe_of_invulnerability": { "copyof": "globe_of_invulnerability_lesser" },
+	"lesser_globe_of_invulnerability": { "redirect": "globe_of_invulnerability_lesser" },
 	"globe_of_tranquil_water": {
 		"name": "Globe of Tranquil Water",
 		"sources": [ "Heroes of the Wild" ],
@@ -311,7 +311,7 @@
 		"name": "Greater Glyph of Warding",
 		"copyof": "glyph_of_warding"
 	},
-	"greater_glyph_of_warding": { "copyof": "glyph_of_warding_greater" },
+	"greater_glyph_of_warding": { "redirect": "glyph_of_warding_greater" },
 	"golden_guise": {
 		"name": "Golden Guise",
 		"sources": [ "Agents of Evil" ],
@@ -707,7 +707,7 @@
 		"name": "Greater Grease",
 		"copyof": "grease"
 	},
-	"greater_grease": { "copyof": "grease_greater" },
+	"greater_grease": { "redirect": "grease_greater" },
 	"green_caress": {
 		"name": "Green Caress",
 		"sources": [ "Horror Adventures" ],
@@ -868,12 +868,12 @@
 			"This spell functions as lesser guardian monument, except it grants DR 4/magic."
 		]
 	},
-	"lesser_guardian_monument": { "copyof": "guardian_monument_lesser" },
+	"lesser_guardian_monument": { "redirect": "guardian_monument_lesser" },
 	"guardian_monument_greater": {
 		"name": "Greater Guardian Monument",
 		"copyof": "guardian_monument_lesser"
 	},
-	"greater_guardian_monument": { "copyof": "guardian_monument_greater" },
+	"greater_guardian_monument": { "redirect": "guardian_monument_greater" },
 	"guardian_of_faith": {
 		"name": "Guardian of Faith",
 		"sources": [ "Advanced Class Guide" ],
@@ -1207,7 +1207,7 @@
 		"name": "Mass Halfling Vengeance",
 		"copyof": "halfling_vengeance"
 	},
-	"mass_halfling_vengeance": { "copyof": "halfling_vengeance_mass" },
+	"mass_halfling_vengeance": { "redirect": "halfling_vengeance_mass" },
 	"hallow": {
 		"name": "Hallow",
 		"sources": [ "PRPG Core Rulebook" ],
@@ -1538,7 +1538,7 @@
 		"name": "Greater Harrowing",
 		"copyof": "harrowing"
 	},
-	"greater_harrowing": { "copyof": "harrowing_greater" },
+	"greater_harrowing": { "redirect": "harrowing_greater" },
 	"harvest_knowledge": {
 		"name": "Harvest Knowledge",
 		"sources": [ "Inner Sea Temples" ],
@@ -1776,7 +1776,7 @@
 		"name": "Mass Heal",
 		"copyof": "heal"
 	},
-	"mass_heal": { "copyof": "heal_mass" },
+	"mass_heal": { "redirect": "heal_mass" },
 	"heal_mount": {
 		"name": "Heal Mount",
 		"sources": [ "PRPG Core Rulebook" ],
@@ -2304,7 +2304,7 @@
 		"name": "Mass Heroic Fortune",
 		"copyof": "heroic_fortune"
 	},
-	"mass_heroic_fortune": { "copyof": "heroic_fortune_mass" },
+	"mass_heroic_fortune": { "redirect": "heroic_fortune_mass" },
 	"heroic_invocation": {
 		"name": "Heroic Invocation",
 		"sources": [ "Ultimate Combat" ],
@@ -2402,7 +2402,7 @@
 		"name": "Greater Heroism",
 		"copyof": "heroism"
 	},
-	"greater_heroism": { "copyof": "heroism_greater" },
+	"greater_heroism": { "redirect": "heroism_greater" },
 	"hollow_heroism": {
 		"name": "Hollow Heroism",
 		"copyof": "heroism"
@@ -2411,7 +2411,7 @@
 		"name": "Greater Hollow Heroism",
 		"copyof": "heroism"
 	},
-	"greater_hollow_heroism": { "copyof": "hollow_heroism_greater" },
+	"greater_hollow_heroism": { "redirect": "hollow_heroism_greater" },
 	"heros_defiance": {
 		"name": "Hero's Defiance",
 		"sources": [ "Advanced Player's Guide" ],
@@ -2468,7 +2468,7 @@
 		"name": "Greater Hex Glyph",
 		"copyof": "hex_glyph"
 	},
-	"greater_hex_glyph": { "copyof": "hex_glyph_greater" },
+	"greater_hex_glyph": { "redirect": "hex_glyph_greater" },
 	"hex_vulnerability": {
 		"name": "Hex Vulnerability",
 		"sources": [ "Advanced Class Guide" ],
@@ -2728,7 +2728,7 @@
 		"name": "Greater Hide from Undead",
 		"copyof": "hide_from_undead"
 	},
-	"greater_hide_from_undead": { "copyof": "hide_from_undead_greater" },
+	"greater_hide_from_undead": { "redirect": "hide_from_undead_greater" },
 	"hide_weapon": {
 		"name": "Hide Weapon",
 		"sources": [ "Dirty Tactics Toolbox" ],
@@ -2873,7 +2873,7 @@
 		"name": "Mass Hold Monster",
 		"copyof": "hold_monster"
 	},
-	"mass_hold_monster": { "copyof": "hold_monster_mass" },
+	"mass_hold_monster": { "redirect": "hold_monster_mass" },
 	"hold_person": {
 		"name": "Hold Person",
 		"sources": [
@@ -2925,7 +2925,7 @@
 		"name": "Mass Hold Person",
 		"copyof": "hold_person"
 	},
-	"mass_hold_person": { "copyof": "hold_person_mass" },
+	"mass_hold_person": { "redirect": "hold_person_mass" },
 	"hold_fey": {
 		"name": "Hold Fey",
 		"copyof": "hold_person"
@@ -3371,7 +3371,7 @@
 		"name": "Greater Hostile Juxtaposition",
 		"copyof": "hostile_juxtaposition"
 	},
-	"greater_hostile_juxtaposition": { "copyof": "hostile_juxtaposition_greater" },
+	"greater_hostile_juxtaposition": { "redirect": "hostile_juxtaposition_greater" },
 	"hostile_levitation": {
 		"name": "Hostile Levitation",
 		"sources": [ "Ultimate Combat" ],
@@ -3445,7 +3445,7 @@
 		"name": "Mass Human Potential",
 		"copyof": "human_potential"
 	},
-	"mass_human_potential": { "copyof": "human_potential_mass" },
+	"mass_human_potential": { "redirect": "human_potential_mass" },
 	"hunger_for_flesh": {
 		"name": "Hunger for Flesh",
 		"sources": [ "Horror Adventures" ],
@@ -3482,7 +3482,7 @@
 		"name": "Mass Hunger for Flesh",
 		"copyof": "hunger_for_flesh"
 	},
-	"mass_hunger_for_flesh": { "copyof": "hunger_for_flesh_mass" },
+	"mass_hunger_for_flesh": { "redirect": "hunger_for_flesh_mass" },
 	"hungry_darkness": {
 		"name": "Hungry Darkness",
 		"sources": [ "Inner Sea Magic" ],
@@ -3846,7 +3846,7 @@
 		"name": "Greater Hypnotism",
 		"copyof": "hypnotism"
 	},
-	"greater_hypnotism": { "copyof": "hypnotism_greater" },
+	"greater_hypnotism": { "redirect": "hypnotism_greater" },
 	"ice_armor": {
 		"name": "Ice Armor",
 		"sources": [
@@ -4035,7 +4035,7 @@
 		"name": "Mass Icy Prison",
 		"copyof": "icy_prison"
 	},
-	"mass_icy_prison": { "copyof": "icy_prison_mass" },
+	"mass_icy_prison": { "redirect": "icy_prison_mass" },
 	"id_insinuation_1": {
 		"name": "Id Insinuation I",
 		"sources": [ "Occult Adventures" ],
@@ -4093,20 +4093,20 @@
 			"This functions as id insinuation I, except as noted above. In addition, on the first round of the effect, you can select the result of each creature's confused condition without having to roll, but this doesn't allow you to make any decisions about how that result is applied. On the following rounds of the effect, the targets of this spell must roll twice to determine their confused effect. You select which roll is used. This spell can be undercast."
 		]
 	},
-	"id_insinuation_i": { "copyof": "id_insinuation_1" },
+	"id_insinuation_i": { "redirect": "id_insinuation_1" },
 	"id_insinuation_2": {
 		"name": "Id Insinuation II",
 		"copyof": "id_insinuation_1"
 	},
-	"id_insinuation_ii": { "copyof": "id_insinuation_2" },
+	"id_insinuation_ii": { "redirect": "id_insinuation_2" },
 	"id_insinuation_3": {
 		"name": "Id Insinuation III",
 		"copyof": "id_insinuation_1"
 	},
-	"id_insinuation_iii": { "copyof": "id_insinuation_3" },
+	"id_insinuation_iii": { "redirect": "id_insinuation_3" },
 	"id_insinuation_4": {
 		"name": "Id Insinuation IV",
 		"copyof": "id_insinuation_1"
 	},
-	"id_insinuation_iv": { "copyof": "id_insinuation_4" }
+	"id_insinuation_iv": { "redirect": "id_insinuation_4" }
 }

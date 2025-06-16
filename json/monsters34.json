@@ -299,7 +299,7 @@
 			"[^B]: Bonus feat."
 		]
 	},
-	"bathysphere": { "copyof": "jellyfish_bathysphere" },
+	"bathysphere": { "redirect": "jellyfish_bathysphere" },
 	"jellyfish_deaths_head_jellyfish": {
 		"name": "Death's Head Jellyfish",
 		"sources": [ "Bestiary 3" ],
@@ -348,8 +348,8 @@
 			"Most common in warm or temperate waters, the death's head jellyfish is an aggressive predator. The creature derives its name from the pattern on its 4-foot-wide bell and from the poison it delivers with its tentacles. Those unfortunate enough to be subjected to this toxin develop rigor of the facial muscles that results in a wide-eyed grimace if left untreated."
 		]
 	},
-	"jellyfish_deaths_head": { "copyof": "jellyfish_deaths_head_jellyfish" },
-	"deaths_head_jellyfish": { "copyof": "jellyfish_deaths_head_jellyfish" },
+	"jellyfish_deaths_head": { "redirect": "jellyfish_deaths_head_jellyfish" },
+	"deaths_head_jellyfish": { "redirect": "jellyfish_deaths_head_jellyfish" },
 	"jellyfish_giant_jellyfish": {
 		"name": "Giant Jellyfish",
 		"sources": [ "Bestiary 2" ],
@@ -406,8 +406,8 @@
 			"| Whaler jellyfish | 17 | Colossal | 20 |"
 		]
 	},
-	"jellyfish_giant": { "copyof": "jellyfish_giant_jellyfish" },
-	"giant_jellyfish": { "copyof": "jellyfish_giant_jellyfish" },
+	"jellyfish_giant": { "redirect": "jellyfish_giant_jellyfish" },
+	"giant_jellyfish": { "redirect": "jellyfish_giant_jellyfish" },
 	"jellyfish_jellyfish_swarm": {
 		"name": "Jellyfish Swarm",
 		"sources": [ "Bestiary 2" ],
@@ -456,7 +456,7 @@
 			"Jellyfish often cluster together during springtime or when environmental conditions such as an increase in ocean temperature favor it. When conditions are right, jellyfish shift from being a nuisance to being a menace, if accidentally so, for a jellyfish swarm, unlike more aggressive monstrous kin like the giant jellyfish, comprises not aggressive hunters but rather opportunistic strikers. They do not generally move to attack nearby prey, but their nearly translucent coloration makes it horrifically easy for a creature to swim into a swarm unawares. Once a jellyfish swarm deals damage to a creature, the swarm pursues it for several rounds before giving up the chase. Many aquatic races use jellyfish swarms as defensive guardians, trusting a swarm's lack of interest in moving to keep it stationary for long periods of time."
 		]
 	},
-	"jellyfish_swarm": { "copyof": "jellyfish_jellyfish_swarm" },
+	"jellyfish_swarm": { "redirect": "jellyfish_jellyfish_swarm" },
 	"jellyfish_sapphire_jellyfish": {
 		"name": "Sapphire Jellyfish",
 		"sources": [ "Bestiary 3" ],
@@ -508,8 +508,8 @@
 			"Like other giant jellyfish, a sapphire jellyfish is an active hunter. It stores powerful electrical charges in its dome-like bell, which is 16 feet in diameter. Its sensory tentacles can trail for twice that length, but the dangerous toxic tentacles are positioned within about 20 feet of the creature's bell."
 		]
 	},
-	"jellyfish_sapphire": { "copyof": "jellyfish_sapphire_jellyfish" },
-	"sapphire_jellyfish": { "copyof": "jellyfish_sapphire_jellyfish" },
+	"jellyfish_sapphire": { "redirect": "jellyfish_sapphire_jellyfish" },
+	"sapphire_jellyfish": { "redirect": "jellyfish_sapphire_jellyfish" },
 	"jinmenju": {
 		"name": "Jinmenju",
 		"sources": [
@@ -1357,7 +1357,7 @@
 			"- Mortals who stray from a dosojin's path to do harm should not expect to find that path ever again."
 		]
 	},
-	"dosojin": { "copyof": "kami_dosojin" },
+	"dosojin": { "redirect": "kami_dosojin" },
 	"kami_dunagh": {
 		"name": "Dunagh (Kami)",
 		"sources": [
@@ -1423,7 +1423,7 @@
 			"**Family:** {family/Kami}"
 		]
 	},
-	"dunagh": { "copyof": "kami_dunagh" },
+	"dunagh": { "redirect": "kami_dunagh" },
 	"kami_fukujin": {
 		"name": "Fukujin (Kami)",
 		"sources": [
@@ -1505,7 +1505,7 @@
 			"Occasionally one might encounter a fukujin in the wild, in lands far from the societies and plants where they commonly make their homes. In such cases, these miniature kami often claim shrubs, young plants, and even whimiscal-looking mushrooms as their wards, grooming nearby groves and glades into quiet meditation gardens or into artistic shapes, inviting visitors to rest and reflect."
 		]
 	},
-	"fukujin": { "copyof": "kami_fukujin" },
+	"fukujin": { "redirect": "kami_fukujin" },
 	"kami_jinushigami": {
 		"name": "Jinushigami (Kami)",
 		"sources": [ "Bestiary 3" ],
@@ -1587,7 +1587,7 @@
 			"**Family:** {family/Kami}"
 		]
 	},
-	"jinushigami": { "copyof": "kami_jinushigami" },
+	"jinushigami": { "redirect": "kami_jinushigami" },
 	"kami_kaminari": {
 		"name": "Kaminari (Kami)",
 		"sources": [
@@ -1667,7 +1667,7 @@
 			"A kaminari goes to great lengths to surround itself with booming noise, and is rarely seen without its instrument of choice. While most kaminaris prefer to use drums and other percussion instruments to fill the air around them with sound, rare individuals also adhere to the use of keyboard, string, and wind instruments. The powers of these kaminaris do not greatly differ, but their choice of instrument is usually a fair indicator of their temperament as well as the kind of storm they travel upon - those who play keyboards are usually found amid desert-quenching storms that wander arid environments, bringing with them the power of tornadoes and dust storms; players of string instruments tend toward oceanic environs, residing within the hearts of devastating hurricanes of incredible magnitude far out at sea; and kaminaris who use wind instruments occupy blizzards, commanding the powers of the ice and snow that constantly whip about them."
 		]
 	},
-	"kaminari": { "copyof": "kami_kaminari" },
+	"kaminari": { "redirect": "kami_kaminari" },
 	"kami_kodama": {
 		"name": "Kodama (Kami)",
 		"sources": [ "Bestiary 3" ],
@@ -1729,7 +1729,7 @@
 			"**Family:** {family/Kami}"
 		]
 	},
-	"kodama": { "copyof": "kami_kodama" },
+	"kodama": { "redirect": "kami_kodama" },
 	"kami_shikigami": {
 		"name": "Shikigami (Kami)",
 		"sources": [ "Bestiary 3" ],
@@ -1795,7 +1795,7 @@
 			"[^B]: Bonus feat."
 		]
 	},
-	"shikigami": { "copyof": "kami_shikigami" },
+	"shikigami": { "redirect": "kami_shikigami" },
 	"kami_suijin": {
 		"name": "Suijin (Kami)",
 		"sources": [
@@ -1873,7 +1873,7 @@
 			"Suijins are solitary kami, and rarely go out of their way to band with others of their kind, preferring instead to protect isolated bodies of water. This form of aloofness isn't out of fear of or apathy for other kami; instead, suijins merely adhere to a loosely established territorial pact, knowing that their powers are more valuable when spread throughout regions, rather than concentrated on particular bodies of water. When suijins do interact with one another, they do so at points where two bodies of water meet, such as estuaries and deltas. If two connecting bodies of water are especially healthy and the suijins residing in them are entirely undisturbed by forces of corruption, it is said that the water kami celebrate nature in a sort of bonding ritual. The rare event can be seen as motes of blue and green light whirling in the shallows of the adjoining water, and scholars speculate that this event may symbolize the creation of a new suijin."
 		]
 	},
-	"suijin": { "copyof": "kami_suijin" },
+	"suijin": { "redirect": "kami_suijin" },
 	"kami_toshigami": {
 		"name": "Toshigami (Kami)",
 		"sources": [ "Bestiary 3" ],
@@ -1932,7 +1932,7 @@
 			"**Family:** {family/Kami}"
 		]
 	},
-	"toshigami": { "copyof": "kami_toshigami" },
+	"toshigami": { "redirect": "kami_toshigami" },
 	"kami_zuishin": {
 		"name": "Zuishin (Kami)",
 		"sources": [ "Bestiary 3" ],
@@ -1997,7 +1997,7 @@
 			"**Family:** {family/Kami}"
 		]
 	},
-	"zuishin": { "copyof": "kami_zuishin" },
+	"zuishin": { "redirect": "kami_zuishin" },
 	"lamhigyn": {
 		"name": "Lamhigyn",
 		"sources": [
@@ -2250,7 +2250,7 @@
 			"Hungerers are unnatural creatures, re-released into the world with Karzoug's awakening. These terrors live in constant pain and serve as living embodiments of hunger, insatiable in their constant quests for sustenance. Although they prefer to tear and rend living flesh, hungerers can consume almost any organic material, and might even gnaw on stone or metal without ill effect when nothing else is available."
 		]
 	},
-	"hungerer": { "copyof": "lamia_kin_hungerer" },
+	"hungerer": { "redirect": "lamia_kin_hungerer" },
 	"lamia_kin_kuchrima": {
 		"name": "Kuchrima (Lamia-Kin)",
 		"sources": [
@@ -2313,7 +2313,7 @@
 			"Kuchrimas dwell principally in the thin air among the upper peaks of desolate mountain ranges, where they have gathered in enclaves or \"gluttonies.\" They have lived in a state of static barbarism since the diaspora following the fall of the Thassilonian Empire. In the thousands of years since that civilization's collapse, these lamia-kin have migrated to many mountainous regions throughout Golarion. These disease-ridden hunters strive to remain well out of sight of landbound races, which they mistrust and fear in numbers. Should a new runelord or powerful harridan come into power and manage to locate these disparate gluttonies, however, the kuchrimas could be gathered into a formidable airborne force once again."
 		]
 	},
-	"kuchrima": { "copyof": "lamia_kin_kuchrima" },
+	"kuchrima": { "redirect": "lamia_kin_kuchrima" },
 	"lammasu": {
 		"name": "Lammasu",
 		"sources": [
@@ -3052,8 +3052,8 @@
 			"These invertebrate parasitic relatives of the worm lurk in stagnant or slow-moving water, waiting for a suitable host."
 		]
 	},
-	"giant_leech": { "copyof": "leech_giant_leech" },
-	"leech_giant": { "copyof": "leech_giant_leech" },
+	"giant_leech": { "redirect": "leech_giant_leech" },
+	"leech_giant": { "redirect": "leech_giant_leech" },
 	"leech_leech_swarm": {
 		"name": "Leech Swarm",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -3105,7 +3105,7 @@
 			"This horrifying cloud of ravenous, blood-draining parasites eschews the stealth of a lone leech's methods in favor of swift and merciless feeding."
 		]
 	},
-	"leech_swarm": { "copyof": "leech_leech_swarm" },
+	"leech_swarm": { "redirect": "leech_leech_swarm" },
 	"leshy_cactus_leshy": {
 		"name": "Cactus Leshy",
 		"sources": [
@@ -3185,8 +3185,8 @@
 			"**Family:** {family/Leshy}"
 		]
 	},
-	"leshy_cactus": { "copyof": "leshy_cactus_leshy" },
-	"cactus_leshy": { "copyof": "leshy_cactus_leshy" },
+	"leshy_cactus": { "redirect": "leshy_cactus_leshy" },
+	"cactus_leshy": { "redirect": "leshy_cactus_leshy" },
 	"leshy_flytrap_leshy": {
 		"name": "Flytrap Leshy",
 		"sources": [
@@ -3262,8 +3262,8 @@
 			"**Requirements** Knowledge (nature) 5 ranks, burst of nettles, plant growth, summon nature's ally IV; Skill Knowledge (nature) DC 18; **Cost** 3,250 gp"
 		]
 	},
-	"leshy_flytrap": { "copyof": "leshy_flytrap_leshy" },
-	"flytrap_leshy": { "copyof": "leshy_flytrap_leshy" },
+	"leshy_flytrap": { "redirect": "leshy_flytrap_leshy" },
+	"flytrap_leshy": { "redirect": "leshy_flytrap_leshy" },
 	"leshy_fungus_leshy": {
 		"name": "Fungus Leshy",
 		"sources": [
@@ -3340,8 +3340,8 @@
 			"**Family:** {family/Leshy}"
 		]
 	},
-	"leshy_fungus": { "copyof": "leshy_fungus_leshy" },
-	"fungus_leshy": { "copyof": "leshy_fungus_leshy" },
+	"leshy_fungus": { "redirect": "leshy_fungus_leshy" },
+	"fungus_leshy": { "redirect": "leshy_fungus_leshy" },
 	"leshy_gourd_leshy": {
 		"name": "Gourd Leshy",
 		"sources": [ "Bestiary 3" ],
@@ -3417,8 +3417,8 @@
 			"**Family:** {family/Leshy}"
 		]
 	},
-	"leshy_gourd": { "copyof": "leshy_gourd_leshy" },
-	"gourd_leshy": { "copyof": "leshy_gourd_leshy" },
+	"leshy_gourd": { "redirect": "leshy_gourd_leshy" },
+	"gourd_leshy": { "redirect": "leshy_gourd_leshy" },
 	"leshy_leaf_leshy": {
 		"name": "Leaf Leshy",
 		"sources": [ "Bestiary 3" ],
@@ -3489,8 +3489,8 @@
 			"**Family:** {family/Leshy}"
 		]
 	},
-	"leshy_leaf": { "copyof": "leshy_leaf_leshy" },
-	"leaf_leshy": { "copyof": "leshy_leaf_leshy" },
+	"leshy_leaf": { "redirect": "leshy_leaf_leshy" },
+	"leaf_leshy": { "redirect": "leshy_leaf_leshy" },
 	"leshy_lichen_leshy": {
 		"name": "Lichen Leshy",
 		"sources": [
@@ -3569,8 +3569,8 @@
 			"**Family:** {family/Leshy}"
 		]
 	},
-	"leshy_lichen": { "copyof": "leshy_lichen_leshy" },
-	"lichen_leshy": { "copyof": "leshy_lichen_leshy" },
+	"leshy_lichen": { "redirect": "leshy_lichen_leshy" },
+	"lichen_leshy": { "redirect": "leshy_lichen_leshy" },
 	"leshy_lotus_leshy": {
 		"name": "Lotus Leshy",
 		"sources": [
@@ -3645,8 +3645,8 @@
 			"**Requirements** Knowledge (nature) 5 ranks, Knowledge (religion) 5 ranks, lily pad stride, plant growth, summon nature's ally V; Skill Knowledge (nature or religion) DC 19; **Cost** 4,500 gp"
 		]
 	},
-	"leshy_lotus": { "copyof": "leshy_lotus_leshy" },
-	"lotus_leshy": { "copyof": "leshy_lotus_leshy" },
+	"leshy_lotus": { "redirect": "leshy_lotus_leshy" },
+	"lotus_leshy": { "redirect": "leshy_lotus_leshy" },
 	"leshy_seaweed_leshy": {
 		"name": "Seaweed Leshy",
 		"sources": [ "Bestiary 3" ],
@@ -3720,8 +3720,8 @@
 			"**Family:** {family/Leshy}"
 		]
 	},
-	"leshy_seaweed": { "copyof": "leshy_seaweed_leshy" },
-	"seaweed_leshy": { "copyof": "leshy_seaweed_leshy" },
+	"leshy_seaweed": { "redirect": "leshy_seaweed_leshy" },
+	"seaweed_leshy": { "redirect": "leshy_seaweed_leshy" },
 	"leshy_snapdragon_leshy": {
 		"name": "Snapdragon Leshy",
 		"sources": [
@@ -3798,8 +3798,8 @@
 			"**Family:** {family/Leshy}"
 		]
 	},
-	"leshy_snapdragon": { "copyof": "leshy_snapdragon_leshy" },
-	"snapdragon_leshy": { "copyof": "leshy_snapdragon_leshy" },
+	"leshy_snapdragon": { "redirect": "leshy_snapdragon_leshy" },
+	"snapdragon_leshy": { "redirect": "leshy_snapdragon_leshy" },
 	"leshy_sunflower_leshy": {
 		"name": "Sunflower Leshy",
 		"sources": [
@@ -3876,8 +3876,8 @@
 			"**Family:** {family/Leshy}"
 		]
 	},
-	"leshy_sunflower": { "copyof": "leshy_sunflower_leshy" },
-	"sunflower_leshy": { "copyof": "leshy_sunflower_leshy" },
+	"leshy_sunflower": { "redirect": "leshy_sunflower_leshy" },
+	"sunflower_leshy": { "redirect": "leshy_sunflower_leshy" },
 	"kraken": {
 		"name": "Kraken",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -3990,5 +3990,5 @@
 			"Having worked on the Cholcorite Mechanism for millennia, Qwoshokk was able to extract several unnecessary parts out of the device for his personal use. Among them are his crown and armlets, items which he's bonded to his flesh to give him power over lightning as well as to enhance his ability to summon and control creatures with weak minds."
 		]
 	},
-	"qwoshokk": { "copyof": "kraken_qwoshokk" }
+	"qwoshokk": { "redirect": "kraken_qwoshokk" }
 }

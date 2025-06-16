@@ -219,22 +219,22 @@
 			"**Requirements** {feat/Craft Wondrous Item}, {spell/fabricate}, {spell/magic aura}, {spell/secret chest}; **Cost** 2,500 gp (type I), 5,000 gp (type II), 7,400 gp (type III), 10,000 gp (type IV)"
 		]
 	},
-	"bag_of_concealment_type_i": { "copyof": "bag_of_concealment_type_1" },
+	"bag_of_concealment_type_i": { "redirect": "bag_of_concealment_type_1" },
 	"bag_of_concealment_type_2": {
 		"name": "Bag of Concealment (Type II)",
 		"copyof": "bag_of_concealment_type_1"
 	},
-	"bag_of_concealment_type_ii": { "copyof": "bag_of_concealment_type_2" },
+	"bag_of_concealment_type_ii": { "redirect": "bag_of_concealment_type_2" },
 	"bag_of_concealment_type_3": {
 		"name": "Bag of Concealment (Type III)",
 		"copyof": "bag_of_concealment_type_1"
 	},
-	"bag_of_concealment_type_iii": { "copyof": "bag_of_concealment_type_3" },
+	"bag_of_concealment_type_iii": { "redirect": "bag_of_concealment_type_3" },
 	"bag_of_concealment_type_4": {
 		"name": "Bag of Concealment (Type IV)",
 		"copyof": "bag_of_concealment_type_1"
 	},
-	"bag_of_concealment_type_iv": { "copyof": "bag_of_concealment_type_4" },
+	"bag_of_concealment_type_iv": { "redirect": "bag_of_concealment_type_4" },
 	"vial_of_reckless_courage": {
 		"name": "Vial of Reckless Courage",
 		"sources": [ "Antihero's Handbook" ],
@@ -860,7 +860,7 @@
 			"**Requirements** {feat/Craft Wondrous Item}, additional spells, see text; **Cost** 1,900 gp (Silver Raven), 3,000 gp (Coral Hippocampus), 3,500 gp (Emerald Frog), 3,750 gp (Lapis Camel), 3,800 gp (Pearl Dolphin), 4,500 gp (Ruby Butterfly), 4,550 gp (Black Jade Raven), 4,550 gp (Serpentine Eagle), 4,550 gp (Serpentine Owl), 5,000 gp (Bronze Griffon), 5,000 gp (Ebony Fly), 5,000 gp (Hematite Courgar), 5,000 gp (Slate Spider), 6,500 gp (Tin Imp), 7,000 gp (Glass Walrus), 7,500 gp (Obsidian Raven), 7,750 gp (Onyx Dog), 8,250 gp (Golden Lions), 8,500 gp (Marble Elephant), 10,500 gp (Ivory Goats), 14,250 gp (Obsidian Steed), 30,000 gp (Basalt Dragon)"
 		]
 	},
-	"figurines_of_wondrous_power": { "copyof": "figurine_of_wondrous_power" },
+	"figurines_of_wondrous_power": { "redirect": "figurine_of_wondrous_power" },
 	"figurine_of_wondrous_power_silver_raven": {
 		"name": "Figurine of Wondrous Power (Silver Raven)",
 		"copyof": "figurine_of_wondrous_power"
@@ -1378,7 +1378,7 @@
 			"**Requirements** {feat/Craft Wondrous Item}, {spell/alarm}, {spell/delayed blast fireball}; **Cost** 3,000 gp"
 		]
 	},
-	"greater_time_bomb": { "copyof": "time_bomb_greater" },
+	"greater_time_bomb": { "redirect": "time_bomb_greater" },
 	"ioun_memory_node_type_1": {
 		"name": "Ioun Memory Node (Type I)",
 		"sources": [ "Pathfinder #123: The Flooded Cathedral" ],
@@ -1405,22 +1405,22 @@
 			"**Requirements** {feat/Craft Wondrous Item}, {spell/awaken construct}; **Cost** 3,000 gp (Type I), 7,000 gp (Type II), 12,000 gp (Type III), 18,000 gp (Type IV)"
 		]
 	},
-	"ioun_memory_node_type_i": { "copyof": "ioun_memory_node_type_1" },
+	"ioun_memory_node_type_i": { "redirect": "ioun_memory_node_type_1" },
 	"ioun_memory_node_type_2": {
 		"name": "Ioun Memory Node (Type II)",
 		"copyof": "ioun_memory_node_type_1"
 	},
-	"ioun_memory_node_type_ii": { "copyof": "ioun_memory_node_type_2" },
+	"ioun_memory_node_type_ii": { "redirect": "ioun_memory_node_type_2" },
 	"ioun_memory_node_type_3": {
 		"name": "Ioun Memory Node (Type III)",
 		"copyof": "ioun_memory_node_type_1"
 	},
-	"ioun_memory_node_type_iii": { "copyof": "ioun_memory_node_type_3" },
+	"ioun_memory_node_type_iii": { "redirect": "ioun_memory_node_type_3" },
 	"ioun_memory_node_type_4": {
 		"name": "Ioun Memory Node (Type IV)",
 		"copyof": "ioun_memory_node_type_1"
 	},
-	"ioun_memory_node_type_iv": { "copyof": "ioun_memory_node_type_4" },
+	"ioun_memory_node_type_iv": { "redirect": "ioun_memory_node_type_4" },
 	"wavecutters_figurine": {
 		"name": "Wavecutter's Figurine",
 		"sources": [ "Pathfinder #124: City in the Deep" ],
@@ -1737,7 +1737,7 @@
 			"**Requirements** {feat/Craft Wondrous Item}, {spell/magic circle against evil}, {spell/magic circle against good}; **Cost** 3,250 gp"
 		]
 	},
-	"horn_of_goodness_or_evil": {"copyof": "horn_of_goodness_evil"},
+	"horn_of_goodness_or_evil": { "redirect": "horn_of_goodness_evil" },
 	"horn_of_plenty": {
 		"name": "Horn of Plenty",
 		"sources": [ "Quests and Campaigns" ],
@@ -1871,7 +1871,7 @@
 			"**Requirements** {feat/Craft Wondrous Item}, {spell/haste}, {spell/shrink item}, creator must be a dwarf; **Cost** 3,350 gp"
 		]
 	},
-	"anvil_of_the_skyseeker": { "copyof": "anvil_of_the_skyseeker_dwarf" },
+	"anvil_of_the_skyseeker": { "redirect": "anvil_of_the_skyseeker_dwarf" },
 	"bonedancer_bodhran": {
 		"name": "Bonedancer Bodhran",
 		"sources": [ "Daughters of Fury" ],
@@ -2155,7 +2155,7 @@
 			"**Requirements** {feat/Craft Wondrous Item}, {spell/fabricate}, creator must have 2 ranks in Craft (ships); **Cost** 3,600 gp"
 		]
 	},
-	"boat_folding": { "copyof": "folding_boat" },
+	"boat_folding": { "redirect": "folding_boat" },
 	"bottle_of_air": {
 		"name": "Bottle of Air",
 		"sources": [
@@ -2271,7 +2271,7 @@
 			"**Requirements** {feat/Brew Potion}, {feat/Craft Wondrous Item}, {spell/universal formula}, creator must be an elf; **Cost** 3,750 gp"
 		]
 	},
-	"elven_still": { "copyof": "elven_still_elf" },
+	"elven_still": { "redirect": "elven_still_elf" },
 	"harp_of_charming": {
 		"name": "Harp of Charming",
 		"sources": [
@@ -2932,7 +2932,7 @@
 			"**Requirements** {feat/Craft Wondrous Item}, {spell/invisibility}, {spell/light}; **Cost** 4,000 gp"
 		]
 	},
-	"vanishing_wayfinder": { "copyof": "wayfinder_vanishing" },
+	"vanishing_wayfinder": { "redirect": "wayfinder_vanishing" },
 	"werewhistle": {
 		"name": "Werewhistle",
 		"sources": [ "Ultimate Equipment" ],
@@ -3340,17 +3340,17 @@
 			"**Requirements** {feat/Craft Wondrous Item}, {spell/poison}; **Cost** 4,500 gp (Lesser), 16,250 gp (Standard), 36,500 gp (Greater)"
 		]
 	},
-	"lesser_fetish_of_the_frog_queen": { "copyof": "fetish_of_the_frog_queen_lesser" },
+	"lesser_fetish_of_the_frog_queen": { "redirect": "fetish_of_the_frog_queen_lesser" },
 	"fetish_of_the_frog_queen_standard": {
 		"name": "Fetish of the Frog Queen (Standard)",
 		"copyof": "fetish_of_the_frog_queen_lesser"
 	},
-	"standard_fetish_of_the_frog_queen": { "copyof": "fetish_of_the_frog_queen_standard" },
+	"standard_fetish_of_the_frog_queen": { "redirect": "fetish_of_the_frog_queen_standard" },
 	"fetish_of_the_frog_queen_greater": {
 		"name": "Fetish of the Frog Queen (Greater)",
 		"copyof": "fetish_of_the_frog_queen_lesser"
 	},
-	"greater_fetish_of_the_frog_queen": { "copyof": "fetish_of_the_frog_queen_greater" },
+	"greater_fetish_of_the_frog_queen": { "redirect": "fetish_of_the_frog_queen_greater" },
 	"loathsome_mirror": {
 		"name": "Loathsome Mirror",
 		"sources": [ "Ultimate Equipment" ],
@@ -3511,18 +3511,18 @@
 			"**Requirements** {feat/Craft Wondrous Item} and one of the following spells per bead, as appropriate: {spell/bless} (blessing); {spell/cure serious wounds}, {spell/remove blindness//deafness}, or {spell/remove disease} (healing); {spell/righteous might} (karma); {spell/gate} (summons); {spell/chaos hammer}, {spell/holy smite}, {spell/order's wrath}, or {spell/unholy blight} (smiting); {spell/wind walk} (wind walking); **Cost** 4,800 gp (Lesser), 22,900 gp (Standard), 47,900 gp (Greater)"
 		]
 	},
-	"lesser_strand_of_prayer_beads": { "copyof": "strand_of_prayer_beads_lesser" },
+	"lesser_strand_of_prayer_beads": { "redirect": "strand_of_prayer_beads_lesser" },
 	"strand_of_prayer_beads_standard": {
 		"name": "Strand of Prayer Beads (Standard)",
 		"copyof": "strand_of_prayer_beads_lesser"
 	},
-	"strand_of_prayer_beads": { "copyof": "strand_of_prayer_beads_standard" },
-	"standard_strand_of_prayer_beads": { "copyof": "strand_of_prayer_beads_standard" },
+	"strand_of_prayer_beads": { "redirect": "strand_of_prayer_beads_standard" },
+	"standard_strand_of_prayer_beads": { "redirect": "strand_of_prayer_beads_standard" },
 	"strand_of_prayer_beads_greater": {
 		"name": "Strand of Prayer Beads (Greater)",
 		"copyof": "strand_of_prayer_beads_lesser"
 	},
-	"greater_strand_of_prayer_beads": { "copyof": "strand_of_prayer_beads_greater" },
+	"greater_strand_of_prayer_beads": { "redirect": "strand_of_prayer_beads_greater" },
 	"chirugeon_cube": {
 		"name": "Chirugeon Cube",
 		"sources": [ "Construct Handbook" ],

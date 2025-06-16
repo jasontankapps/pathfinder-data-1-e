@@ -104,7 +104,7 @@
 			"[^B]: Bonus feat."
 		]
 	},
-	"centaur_charger": { "copyof": "centaur_centaur_charger" },
+	"centaur_charger": { "redirect": "centaur_centaur_charger" },
 	"centaur_centaur_forager": {
 		"name": "Centaur Forager",
 		"sources": [ "Inner Sea Monster Codex" ],
@@ -158,7 +158,7 @@
 			"When travelers respectfully petition centaurs for safe passage through their territory and convince them that no alternative route is available, a tribe may reluctantly grant the strangers' request. However, in exchange for permission, centaurs often demand a toll in the form of a task or favor performed on the tribe's behalf. They most often ask for metal tools and magic that their divine-leaning society can't produce reliably, but may instead request that adventurers destroy a local threat. Even with tribal approval to enter centaur lands, outsiders can expect their every step to be watched by the tribe's foragers' whether the interlopers can see their centaur observers or not."
 		]
 	},
-	"centaur_forager": { "copyof": "centaur_centaur_forager" },
+	"centaur_forager": { "redirect": "centaur_centaur_forager" },
 	"centaur_centaur_greenspeaker": {
 		"name": "Centaur Greenspeaker",
 		"sources": [ "Inner Sea Monster Codex" ],
@@ -214,7 +214,7 @@
 			"[^S]: Spirit magic spell"
 		]
 	},
-	"centaur_greenspeaker": { "copyof": "centaur_centaur_greenspeaker" },
+	"centaur_greenspeaker": { "redirect": "centaur_centaur_greenspeaker" },
 	"centaur_centaur_outcast": {
 		"name": "Centaur Outcast",
 		"sources": [ "Inner Sea Monster Codex" ],
@@ -269,7 +269,7 @@
 			"Outcasts' insatiable need for new experiences frequently overtakes them, and they rarely call one place home, or one group of people friends, for very long. Instead, they plod forever forward, challenging themselves with new languages, cultures, spells, and the constant frustration of humanoid stairs. Outcasts hold no ill will toward their former kin, though they consider traditional centaurs narrow-minded country cousins, ignorant of the outside world's seemingly infinite expanse."
 		]
 	},
-	"centaur_outcast": { "copyof": "centaur_centaur_outcast" },
+	"centaur_outcast": { "redirect": "centaur_centaur_outcast" },
 	"centianima": {
 		"name": "Centianima",
 		"sources": [ "Pathfinder #103: The Hellfire Compact" ],
@@ -427,7 +427,7 @@
 			"[^B]: Bonus feat."
 		]
 	},
-	"centipede_swarm": { "copyof": "centipede_centipede_swarm" },
+	"centipede_swarm": { "redirect": "centipede_centipede_swarm" },
 	"centipede_giant_centipede": {
 		"name": "Giant Centipede",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -487,8 +487,8 @@
 			"| Titan centipede | 9 | Colossal | 10d8 |"
 		]
 	},
-	"centipede_giant": { "copyof": "centipede_giant_centipede" },
-	"giant_centipede": { "copyof": "centipede_giant_centipede" },
+	"centipede_giant": { "redirect": "centipede_giant_centipede" },
+	"giant_centipede": { "redirect": "centipede_giant_centipede" },
 	"centipede_giant_whiptail_centipede": {
 		"name": "Giant Whiptail Centipede",
 		"sources": [ "Bestiary 2" ],
@@ -539,8 +539,8 @@
 			"Whiptail centipedes are carrion eaters, though corpses large enough to satiate them are a rarity. Corpses of Huge or larger creatures left to rot often attract whiptail centipedes, who viciously defend their bounty against any who would intrude upon their lairs."
 		]
 	},
-	"centipede_giant_whiptail": { "copyof": "centipede_giant_whiptail_centipede" },
-	"giant_whiptail_centipede": { "copyof": "centipede_giant_whiptail_centipede" },
+	"centipede_giant_whiptail": { "redirect": "centipede_giant_whiptail_centipede" },
+	"giant_whiptail_centipede": { "redirect": "centipede_giant_whiptail_centipede" },
 	"centipede_titan_centipede": {
 		"name": "Titan Centipede",
 		"sources": [ "Bestiary 2" ],
@@ -590,8 +590,8 @@
 			"The largest of their kind, titan centipedes are thankfully also the rarest. They attack other living creatures fearlessly, and require constant sustenance to nourish their vast bulk. Humanoids are in most danger from titan centipedes when mounted rather than afoot - a good-sized horse makes a much more satisfying meal to the centipede than a few bites of human. Titan centipedes are solitary by nature and because of the demands of their appetite, though when food is plentiful, multiple centipedes sometimes lurk in the same area."
 		]
 	},
-	"titan_centipede": { "copyof": "centipede_titan_centipede" },
-	"centipede_titan": { "copyof": "centipede_titan_centipede" },
+	"titan_centipede": { "redirect": "centipede_titan_centipede" },
+	"centipede_titan": { "redirect": "centipede_titan_centipede" },
 	"cephalophore": {
 		"name": "Cephalophore",
 		"sources": [
@@ -1196,7 +1196,7 @@
 			"The imposing blue whale is one of the largest animals in the sea, though it is generally docile toward anything it doesn't perceive as a threat. A filter-feeder, the blue whale does not look at humans or ships as potential meals, instead preferring to eat millions of tiny invertebrates known as krill, which it sucks through its baleen in massive gulps. The most dangerous thing about a blue whale, other than its sheer size, is its powerful tail, which can capsize boats and kill humanoids. These enormous mammals can be found in all of Golarion's oceans and seas. An adult blue whale is 100 feet long and weighs 200 tons."
 		]
 	},
-	"blue_whale": { "copyof": "cetacean_blue_whale" },
+	"blue_whale": { "redirect": "cetacean_blue_whale" },
 	"cetacean_crimson_whale": {
 		"name": "Crimson Whale (Cetacean)",
 		"sources": [ "Pathfinder #59: The Price of Infamy" ],
@@ -1248,7 +1248,7 @@
 			"While many cetaceans are docile, the crimson whale is an aggressive hunter that evolved to quickly kill even the largest and most powerful of prey. It sports a full set of deadly teeth that average between 1 and 2 feet in length, and its powerful bite can tear through flesh and crush bone. A typical adult crimson whale is 45 feet long and weighs 30 tons."
 		]
 	},
-	"crimson_whale": { "copyof": "cetacean_crimson_whale" },
+	"crimson_whale": { "redirect": "cetacean_crimson_whale" },
 	"cetacean_narwhal": {
 		"name": "Narwhal (Cetacean)",
 		"sources": [
@@ -1303,7 +1303,7 @@
 			"The narwhal is a skilled hunter in arctic waters, and has been known to dive deeper than even much larger cetaceans both in open water and beneath thick sheets of waterborne ice. Male narwhals possess a single, 6-foot-long tusk extending from just above the mouth that serves to impress females during mating season, though in times of need the tusks may be used to break through thick ice or even in self-defense. A typical narwhal is 14 feet long (not including the tusk) and weighs 3,200 pounds."
 		]
 	},
-	"narwhal": { "copyof": "cetacean_narwhal" },
+	"narwhal": { "redirect": "cetacean_narwhal" },
 	"cetus": {
 		"name": "Cetus",
 		"sources": [ "Bestiary 5" ],
@@ -1737,7 +1737,7 @@
 			"These charau-ka sometimes fall upon travelers simply to loot them, gathering supplies they need to build ingenious contraptions. Anyone who picks up the trail of a deadfall tracker is sure to come upon a devious trap before long. The secrets of trap construction and placement are kept by the elders of the tribe, who carefully detail where to place the devices in the jungle to maximize their disruptive potential."
 		]
 	},
-	"deadfall_tracker": { "copyof": "charau_ka_deadfall_tracker" },
+	"deadfall_tracker": { "redirect": "charau_ka_deadfall_tracker" },
 	"charau_ka_devotee_of_the_ravener_king": {
 		"name": "Devotee of the Ravener King (Charau-ka)",
 		"sources": [ "Inner Sea Monster Codex" ],
@@ -1801,7 +1801,7 @@
 			"[^B]: Bonus feat."
 		]
 	},
-	"devotee_of_the_ravener_king": { "copyof": "charau_ka_devotee_of_the_ravener_king" },
+	"devotee_of_the_ravener_king": { "redirect": "charau_ka_devotee_of_the_ravener_king" },
 	"cockatrice": {
 		"name": "Cockatrice",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -1898,7 +1898,7 @@
 			"Swarms of flesh-eating cockroaches are extremely virulent pests. Normally carnivorous scavengers, these vermin quickly transform into aggressive hunters when amassed in great numbers, actively seeking out territory and food and gravitating to locations that readily provide both, such as dumps, graveyards, sewers, swamps, and other foul areas filled with rotting waste. Although a flesh-eating cockroach swarm prefers to feed on rot and carrion, these ravenous creatures do not balk at attacking living creatures as large as an elephant if given a chance."
 		]
 	},
-	"cockroach_swarm": { "copyof": "cockroach_cockroach_swarm" },
+	"cockroach_swarm": { "redirect": "cockroach_cockroach_swarm" },
 	"cockroach_giant_cockroach": {
 		"name": "Giant Cockroach",
 		"sources": [ "Bestiary 2" ],
@@ -1953,8 +1953,8 @@
 			"A number of species of giant cockroach exist, as summarized on the table above. Most of these variants have additional abilities, such as poison stings."
 		]
 	},
-	"giant_cockroach": { "copyof": "cockroach_giant_cockroach" },
-	"cockroach_giant": { "copyof": "cockroach_giant_cockroach" },
+	"giant_cockroach": { "redirect": "cockroach_giant_cockroach" },
+	"cockroach_giant": { "redirect": "cockroach_giant_cockroach" },
 	"coffin_anemone": {
 		"name": "Coffin Anemone",
 		"sources": [ "Bestiary 6" ],
@@ -2464,8 +2464,8 @@
 			"Now in direct control of their own evolutionary progress, most contemplatives choose to advance methodically and scientifically. Yet a small subset engaged in daring research into occultism and the Esoteric Planes favor a more reckless approach. The most impressive discoveries of these self-styled \"enlightened\" individuals allow them to transcend the material world's limitations for brief periods of time, much to the chagrin of more conservative contemplatives, who prefer to pursue less radical methods than their peers."
 		]
 	},
-	"enlightened_contemplative": { "copyof": "contemplative_enlightened_contemplative" },
-	"contemplative_enlightened": { "copyof": "contemplative_enlightened_contemplative" },
+	"enlightened_contemplative": { "redirect": "contemplative_enlightened_contemplative" },
+	"contemplative_enlightened": { "redirect": "contemplative_enlightened_contemplative" },
 	"copsewight": {
 		"name": "Copsewight",
 		"sources": [ "Pathfinder #119: Prisoners of the Blight" ],
@@ -2781,8 +2781,8 @@
 			"Cordulegasters that dwell in the waters of the Styx long enough absorb memories from the river, and learn to consume entire souls. This grotesque insight transforms them into daemons: Elder Cordulegasters."
 		]
 	},
-	"elder_cordulegaster": { "copyof": "cordulegaster_elder_cordulegaster" },
-	"cordulegaster_elder": { "copyof": "cordulegaster_elder_cordulegaster" },
+	"elder_cordulegaster": { "redirect": "cordulegaster_elder_cordulegaster" },
+	"cordulegaster_elder": { "redirect": "cordulegaster_elder_cordulegaster" },
 	"corpse_lotus": {
 		"name": "Corpse Lotus",
 		"sources": [
@@ -3051,8 +3051,8 @@
 			"[^B]: Bonus feat."
 		]
 	},
-	"auwaz_couatl": { "copyof": "couatl_auwaz_couatl" },
-	"couatl_auwaz": { "copyof": "couatl_auwaz_couatl" },
+	"auwaz_couatl": { "redirect": "couatl_auwaz_couatl" },
+	"couatl_auwaz": { "redirect": "couatl_auwaz_couatl" },
 	"couatl_chicome": {
 		"name": "Chicome (Couatl)",
 		"sources": [ "Pathfinder #143: Borne by the Sun's Grace" ],
@@ -3142,8 +3142,8 @@
 			"[^B]: Bonus feat."
 		]
 	},
-	"chicome": { "copyof": "couatl_chicome" },
-	"chicome_couatl": { "copyof": "couatl_chicome" },
+	"chicome": { "redirect": "couatl_chicome" },
+	"chicome_couatl": { "redirect": "couatl_chicome" },
 	"couatl_lord_sun_warrior": {
 		"name": "Lord Sun-Warrior (Couatl)",
 		"sources": [ "Mythical Monsters Revisited" ],
@@ -3205,7 +3205,7 @@
 			"Lord Sun-Warrior acts independently of any deity, though he maintains positive relations with all of the good-aligned ones. His agenda is complex, but involves fostering the development of peaceful cultures and nations throughout many different worlds, and the discouragement or outright destruction of evil ones. In this he frequently recruits adventurers and other agents, dispatching them on quests that may not immediately make sense, and providing them with guidance and assistance as he is able. He is aided in his efforts by his champion, Jua Mfuasi (LG male human paladin of Iomedae 10), who was once a necromancer known as the Corpse-King until he was killed and returned to life by Sun-Warrior, after which he renounced his evil ways and abandoned arcane magic to become a paladin."
 		]
 	},
-	"lord_sun_warrior": { "copyof": "couatl_lord_sun_warrior" },
+	"lord_sun_warrior": { "redirect": "couatl_lord_sun_warrior" },
 	"couatl_mix_couatl": {
 		"name": "Mix Couatl (Couatl)",
 		"sources": [ "Pathfinder #140: Eulogy for Roslar's Coffer" ],
@@ -3294,8 +3294,8 @@
 			"[^B]: Bonus feat."
 		]
 	},
-	"mix_couatl": { "copyof": "couatl_mix_couatl" },
-	"couatl_mix": { "copyof": "couatl_mix_couatl" },
+	"mix_couatl": { "redirect": "couatl_mix_couatl" },
+	"couatl_mix": { "redirect": "couatl_mix_couatl" },
 	"couatl_tletli": {
 		"name": "Tletli (Couatl)",
 		"sources": [ "Pathfinder #143: Borne by the Sun's Grace" ],
@@ -3379,8 +3379,8 @@
 			"If and when a tletli is called upon to obliterate an irredeemable region, the couatl enlists mortals to aid its efforts, typically in the form of envoys and delegates who extend a final chance for redemption to the sinners in question. A tletli's prerogative, however, is punishment, not mercy, and woe be unto any who cavort with the wrong kind of company at the wrong time in a tletli's presence. If there are genuine innocents within a group or settlement on which the tletli has set its sights, the couatl may send an emissary, such as a charmed person, to forewarn the pure of heart, but it otherwise does not hesitate to incinerate the entire locale. Their deific masters understand tletlis' unrivaled propensity for holy retribution all too well, and they typically send other couatls or celestials like angels to accompany the tletlis in case there are a number of individuals in a settlement that should be evacuated or protected during the razing."
 		]
 	},
-	"tletli": { "copyof": "couatl_tletli" },
-	"tletli_couatl": { "copyof": "couatl_tletli" },
+	"tletli": { "redirect": "couatl_tletli" },
+	"tletli_couatl": { "redirect": "couatl_tletli" },
 	"couatl_xiuh_couatl": {
 		"name": "Xiuh Couatl",
 		"sources": [ "Pathfinder #106: For Queen and Empire" ],
@@ -3467,8 +3467,8 @@
 			"Though they tend to rely on their own visions and divinations to seek out evil, xiuh couatls are sometimes called on by the gods to tackle given tasks. Sarenrae, in particular, makes the most of use of all types of couatls, but xiuh couatls can be called upon by Desna, Shelyn, or, in Arcadia, Kazutal, goddess of community, liberty, and safety. As usual, xiuh couatls first attempt to redeem the creatures they are tasked with destroying, but follow with violent retribution if required. Gods may also assign xiuh couatls to aid individuals who require assistance in times of adversity. These individuals are gifted weapons by their divine patrons, and may never know they actually wield xiuh couatls, even after their tasks have been completed."
 		]
 	},
-	"xiuh_couatl": { "copyof": "couatl_xiuh_couatl" },
-	"couatl_xiuh": { "copyof": "couatl_xiuh_couatl" },
+	"xiuh_couatl": { "redirect": "couatl_xiuh_couatl" },
+	"couatl_xiuh": { "redirect": "couatl_xiuh_couatl" },
 	"crab_crab_swarm": {
 		"name": "Crab Swarm",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -3513,7 +3513,7 @@
 			"Crab swarms contain over a thousand normal-sized crabs that rush over their victims, plucking flesh with thousands of pinching claws. Some fishermen claim tides and phases of the moon cause these creatures to swarm as they do."
 		]
 	},
-	"crab_swarm": { "copyof": "crab_crab_swarm" },
+	"crab_swarm": { "redirect": "crab_crab_swarm" },
 	"crab_giant_crab": {
 		"name": "Giant Crab",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -3573,8 +3573,8 @@
 			"| {monster/Shipwrecker crab} | 13 | Colossal | 14d8 |"
 		]
 	},
-	"giant_crab": { "copyof": "crab_giant_crab" },
-	"crab_giant": { "copyof": "crab_giant_crab" },
+	"giant_crab": { "redirect": "crab_giant_crab" },
+	"crab_giant": { "redirect": "crab_giant_crab" },
 	"crab_shark_eating_crab": {
 		"name": "Shark-Eating Crab",
 		"sources": [ "Bestiary 3" ],
@@ -3626,8 +3626,8 @@
 			"The typical shark-eating crab stands 16 feet tall and weighs just over 4,000 pounds."
 		]
 	},
-	"shark_eating_crab": { "copyof": "crab_shark_eating_crab" },
-	"crab_shark_eating": { "copyof": "crab_shark_eating_crab" },
+	"shark_eating_crab": { "redirect": "crab_shark_eating_crab" },
+	"crab_shark_eating": { "redirect": "crab_shark_eating_crab" },
 	"crab_shipwrecker_crab": {
 		"name": "Shipwrecker Crab",
 		"sources": [ "Bestiary 3" ],
@@ -3681,8 +3681,8 @@
 			"A shipwrecker crab measures 50 feet across, with two long arms capable of extending a further 30 feet each, and weighs 6 tons."
 		]
 	},
-	"shipwrecker_crab": { "copyof": "crab_shipwrecker_crab" },
-	"crab_shipwrecker": { "copyof": "crab_shipwrecker_crab" },
+	"shipwrecker_crab": { "redirect": "crab_shipwrecker_crab" },
+	"crab_shipwrecker": { "redirect": "crab_shipwrecker_crab" },
 	"crackling_skull_swarm": {
 		"name": "Crackling Skull Swarm",
 		"sources": [ "Pathfinder #141: Last Watch" ],
@@ -3839,7 +3839,7 @@
 			"When not commanded to kill, the crawling hand remains still and can be handled and transported safely. Typically, owners carry them about in small, velvet-lined boxes. Crawling hands can also be placed as guardians and programmed with {spell/contingency} commands, such as to hunt down and slay an individual who performs a specific task like violating a shrine, opening a warded door, or breaking the seal of a casket."
 		]
 	},
-	"giant_crawling_hand": { "copyof": "crawling_hand_giant_crawling_hand" },
+	"giant_crawling_hand": { "redirect": "crawling_hand_giant_crawling_hand" },
 	"crimson_jellyfish": {
 		"name": "Crimson Jellyfish",
 		"sources": [ "Bestiary 6" ],
@@ -3991,8 +3991,8 @@
 			"The immense sarcosuchus, or dire crocodile, is an enormous predator capable of catching and eating prey as large as the largest dinosaurs."
 		]
 	},
-	"dire_crocodile": { "copyof": "crocodile_dire_crocodile" },
-	"crocodile_dire": { "copyof": "crocodile_dire_crocodile" },
+	"dire_crocodile": { "redirect": "crocodile_dire_crocodile" },
+	"crocodile_dire": { "redirect": "crocodile_dire_crocodile" },
 	"crocodile_hetkoshu": {
 		"name": "Hetkoshu (Crocodile)",
 		"sources": [ "Osirion, Legacy of the Pharaohs" ],
@@ -4048,7 +4048,7 @@
 			"Hetkoshus average 30 feet in length and weigh nearly 45,000 pounds."
 		]
 	},
-	"hetkoshu": { "copyof": "crocodile_hetkoshu" },
+	"hetkoshu": { "redirect": "crocodile_hetkoshu" },
 	"crocodilians_deinosuchus": {
 		"name": "Deinosuchus (Crocodilians)",
 		"sources": [ "Pathfinder #58: Island of Empty Eyes" ],
@@ -4104,7 +4104,7 @@
 			"[^B]: Bonus feat."
 		]
 	},
-	"deinosuchus": { "copyof": "crocodilians_deinosuchus" },
+	"deinosuchus": { "redirect": "crocodilians_deinosuchus" },
 	"crocodilians_marine_crocodile": {
 		"name": "Marine Crocodile (Crocodilians)",
 		"sources": [ "Pathfinder #58: Island of Empty Eyes" ],
@@ -4158,8 +4158,8 @@
 			"Marine crocodiles generally remain in warm, shallow oceans and seas. They spend most of their time at sea hunting fish, sea mammals, aquatic humanoids, and monstrous humanoids like merfolk, sahuagin, and locathahs. Only when breeding and laying eggs do marine crocodiles venture onto land (where they are slow and clumsy), before returning to the sea."
 		]
 	},
-	"marine_crocodile": { "copyof": "crocodilians_marine_crocodile" },
-	"crocodile_marine": { "copyof": "crocodilians_marine_crocodile" },
+	"marine_crocodile": { "redirect": "crocodilians_marine_crocodile" },
+	"crocodile_marine": { "redirect": "crocodilians_marine_crocodile" },
 	"crocodilians_saltwater_crocodile": {
 		"name": "Saltwater Crocodile (Crocodilians)",
 		"sources": [ "Pathfinder #58: Island of Empty Eyes" ],
@@ -4213,6 +4213,6 @@
 			"Native to tropical saltwater estuaries and the freshwater rivers that feed them, saltwater crocodiles are among the largest form of non-primordial crocodilian on Golarion. Adult saltwater crocodiles can reach lengths upward of 20 feet and weights of over 2,000 pounds, and are typically more lethargic than their smaller kin, spending their days sunning themselves on land or in shallow water and hunting at night."
 		]
 	},
-	"saltwater_crocodile": { "copyof": "crocodilians_saltwater_crocodile" },
-	"crocodile_saltwater": { "copyof": "crocodilians_saltwater_crocodile" }
+	"saltwater_crocodile": { "redirect": "crocodilians_saltwater_crocodile" },
+	"crocodile_saltwater": { "redirect": "crocodilians_saltwater_crocodile" }
 }

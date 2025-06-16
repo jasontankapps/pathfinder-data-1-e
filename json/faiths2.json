@@ -2215,7 +2215,7 @@
 			"Chaldira's depictions vary, with her taking on the same appearance as the local halfling communities that worship her in different regions, but she almost always has dense curly hair, freckles, and a patchwork red-and-green coat that is held together with buttons."
 		]
 	},
-	"chaldira": { "copyof": "chaldira_zuzaristan" },
+	"chaldira": { "redirect": "chaldira_zuzaristan" },
 	"chamiaholom": {
 		"name": "Chamiaholom",
 		"sources": [ "Book of the Damned" ],

@@ -66,12 +66,20 @@
 							"unevaluatedProperties": false
 						},
 						{
+							"$comment": "Basic redirect",
+							"properties": {
+								"redirect": { "type": "string" }
+							},
+							"required": [ "redirect" ],
+							"unevaluatedProperties": false
+						},
+						{
 							"$comment": "Basic copy",
 							"properties": {
 								"name": { "type": "string" },
 								"copyof": { "type": "string" }
 							},
-							"required": [ "copyof" ],
+							"required": [ "copyof", "name" ],
 							"unevaluatedProperties": false
 						},
 						{

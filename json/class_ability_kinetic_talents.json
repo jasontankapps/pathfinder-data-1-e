@@ -812,7 +812,7 @@
 			"Your blast creates supernatural darkness, as per the darkness infusion, except it acts as {spell/deeper darkness} and counts as a 6th-level darkness spell."
 		]
 	},
-	"darkness_infusion_greater": {"copyof": "greater_darkness_infusion"},
+	"darkness_infusion_greater": { "redirect": "greater_darkness_infusion" },
 	"dazzling_infusion": {
 		"name": "Dazzling Infusion",
 		"sources": [ "Elemental Master's Handbook" ],
@@ -1646,7 +1646,7 @@
 			">Blast-injury; *save* Fort; *frequency* 1/round for 6 rounds; *effect* 1d2 damage to the chosen ability score; *cure* 2 consecutive saves."
 		]
 	},
-	"toxic_infusion_greater": {"copyof": "greater_toxic_infusion"},
+	"toxic_infusion_greater": { "redirect": "greater_toxic_infusion" },
 	"tremor": {
 		"name": "Tremor",
 		"sources": [ "Psychic Anthology" ],
@@ -1835,7 +1835,7 @@
 			"This talent functions as the {kinetic/greater toxic infusion} wild talent, except it affects any creature that takes any type of damage from the blast."
 		]
 	},
-	"venom_infusion_greater": {"copyof": "greater_venom_infusion"},
+	"venom_infusion_greater": { "redirect": "greater_venom_infusion" },
 	"wall": {
 		"name": "Wall",
 		"sources": [ "Occult Adventures" ],
@@ -1989,7 +1989,7 @@
 			"Your air shroud improves, granting you the benefits of {spell/life bubble}. When you accept burn to grant the benefit to others, the benefit lasts until the next time your burn is removed."
 		]
 	},
-	"air_shroud_greater": { "copyof": "greater_air_shroud" },
+	"air_shroud_greater": { "redirect": "greater_air_shroud" },
 	"airs_leap": {
 		"name": "Air's Leap",
 		"sources": [ "Occult Adventures" ],
@@ -2418,7 +2418,7 @@
 			"Your friendship with the elements has grown. You gain your choice of a {family/wysp} or Small {family/elemental} of your primary element as an {ability/improved familiar>s}, without needing to meet any of the usual prerequisites for gaining such a familiar. Unlike with elemental whispers, this improved familiar acts in all ways like a {sidekick/familiar}: it's always manifested, it has hit points equal to 1/2 your own, and so on. You no longer receive the familiar benefits from the original creature you selected. If your improved familiar dies, you can still contact its voice in your mind and gain the {feat/Alertness} feat, but you can't cause it to manifest. If you pay the usual costs for replacing a familiar, you manifest a new form for your elemental friend."
 		]
 	},
-	"elemental_whispers_greater": { "copyof": "greater_elemental_whispers" },
+	"elemental_whispers_greater": { "redirect": "greater_elemental_whispers" },
 	"enduring_earth": {
 		"name": "Enduring Earth",
 		"sources": [ "Occult Adventures" ],
@@ -2485,7 +2485,7 @@
 			"You can {umr/see in darkness}, as per the monster special ability."
 		]
 	},
-	"eyes_of_the_void_greater": { "copyof": "greater_eyes_of_the_void" },
+	"eyes_of_the_void_greater": { "redirect": "greater_eyes_of_the_void" },
 	"fire_corridor": {
 		"name": "Fire Corridor",
 		"sources": [ "Wilderness Origins" ],
@@ -2578,7 +2578,7 @@
 			"You can use flame jet as a move action and can emanate a mild jet of flame, allowing you to hover without spending an action."
 		]
 	},
-	"flame_jet_greater": { "copyof": "greater_flame_jet" },
+	"flame_jet_greater": { "redirect": "greater_flame_jet" },
 	"flame_shield": {
 		"name": "Flame Shield",
 		"sources": [ "Occult Adventures" ],
@@ -2694,7 +2694,7 @@
 			"You have greater control over gravity, as per {kinetic/greater flame jet}."
 		]
 	},
-	"gravity_control_greater": { "copyof": "greater_gravity_control" },
+	"gravity_control_greater": { "redirect": "greater_gravity_control" },
 	"gravity_master": {
 		"name": "Gravity Master",
 		"sources": [ "Occult Origins" ],
@@ -2723,7 +2723,7 @@
 			"When using {kinetic/fire steed}, the mount gains immunity to fire and its speed increases by an additional 10 feet. In addition, when the mount takes a run action, it can run up steep slopes at its normal speed and down steep slopes without its rider needing to attempt a Ride check."
 		]
 	},
-	"fire_steed_greater": { "copyof": "greater_fire_steed" },
+	"fire_steed_greater": { "redirect": "greater_fire_steed" },
 	"green_tongue": {
 		"name": "Green Tongue",
 		"sources": [
@@ -2757,7 +2757,7 @@
 			"You can spend 10 minutes in any outdoor location that would be valid for {spell/commune with nature} in order to contact and chat with fey and leshy spirits, allowing you to gain three pieces of information as per commune with nature."
 		]
 	},
-	"green_tongue_greater": { "copyof": "greater_green_tongue" },
+	"green_tongue_greater": { "redirect": "greater_green_tongue" },
 	"greensight": {
 		"name": "Greensight",
 		"sources": [
@@ -3076,7 +3076,7 @@
 			"You can repel or attract metal objects in a vast line with a magnetism so strong that there is no hope of escaping. This functions as {spell/repel metal or stone}, except only for metal objects, and you can also pull the objects toward you instead of pushing them away. The effect lasts for 1 round, and the pulling version of the effect can't pull objects into the air unless they are already airborne. You can accept 1 point of burn to increase the duration to 1 round per kineticist level you have."
 		]
 	},
-	"magnetism_greater": { "copyof": "greater_magnetism" },
+	"magnetism_greater": { "redirect": "greater_magnetism" },
 	"merciful_foliage": {
 		"name": "Merciful Foliage",
 		"sources": [
@@ -3342,7 +3342,7 @@
 			"You have greater control over your self telekinesis. Otherwise, this wild talent functions like {kinetic/greater flame jet}."
 		]
 	},
-	"self_telekinesis_greater": { "copyof": "greater_self_telekinesis" },
+	"self_telekinesis_greater": { "redirect": "greater_self_telekinesis" },
 	"shape_wood": {
 		"name": "Shape Wood",
 		"sources": [
@@ -3388,7 +3388,7 @@
 			"You can move greater quantities of earth, as the spell {spell/move earth}."
 		]
 	},
-	"shift_earth_greater": { "copyof": "greater_shift_earth" },
+	"shift_earth_greater": { "redirect": "greater_shift_earth" },
 	"shimmering_mirage": {
 		"name": "Shimmering Mirage",
 		"sources": [ "Occult Adventures" ],
@@ -3430,7 +3430,7 @@
 			"By delving into study of the Ethereal and Elemental Planes, you are able to use your primary element to assist with your skills in an unusual way. Add Knowledge (planes) to your list of class skills. Choose one of your kineticist class skills that wasn't granted by your primary element to also receive the bonus from skilled kineticist."
 		]
 	},
-	"skilled_kineticist_greater": { "copyof": "greater_skilled_kineticist" },
+	"skilled_kineticist_greater": { "redirect": "greater_skilled_kineticist" },
 	"sky_walk": {
 		"name": "Sky Walk",
 		"sources": [ "Heroes of Golarion" ],
@@ -3721,7 +3721,7 @@
 			"Your strands of aether surround you, making it virtually impossible for a violent motion to catch you off guard, so long as the motion originates within their range. You are never denied your Dexterity bonus to AC against attacks from within 30 feet because of being {rule/flat-footed} or because your assailant is unseen or invisible. You always succeed at any Perception check to act on the surprise round against opponents within 30 feet."
 		]
 	},
-	"touchsight_reactive": { "copyof": "reactive_touchsight" },
+	"touchsight_reactive": { "redirect": "reactive_touchsight" },
 	"trail_of_flames": {
 		"name": "Trail of Flames",
 		"sources": [ "Occult Adventures" ],
@@ -3780,7 +3780,7 @@
 			"You can spend 10 minutes to extend your tremorsense outward while in a natural underground setting, letting you learn three facts as if using {spell/commune with nature}, except your tremorsense can't tell if a creature is a woodland creature or a powerful unnatural creature."
 		]
 	},
-	"tremorsense_greater": { "copyof": "greater_tremorsense" },
+	"tremorsense_greater": { "redirect": "greater_tremorsense" },
 	"undead_grip": {
 		"name": "Undead Grip",
 		"sources": [ "Psychic Anthology" ],
@@ -3849,7 +3849,7 @@
 			"Your voice of the wind ability gains both power and finesse. You can use voice of the wind to create unusual sounds, as {spell/ghost sound}, to throw your voice, as {spell/ventriloquism}, and even to alter your voice, as {spell/vocal alteration}. You can send messages at a much greater distance than before and at a faster rate. When using voice of the wind's whispering wind effect, you can choose to have the wind rise high into the sky, where it can gust at 50 miles per hour before descending to deliver the message. While the gust is still small, abnormal wind that fast is noticeable, unlike the normal gentle zephyr from whispering wind. If you choose to use the faster gust, you can deliver a message as far as 50 miles per kineticist level, instead of 1 mile per kineticist level."
 		]
 	},
-	"voice_of_the_wind_greater": { "copyof": "greater_voice_of_the_wind" },
+	"voice_of_the_wind_greater": { "redirect": "greater_voice_of_the_wind" },
 	"void_healer": {
 		"name": "Void Healer",
 		"sources": [ "Occult Origins" ],
@@ -3938,7 +3938,7 @@
 			"You can move across water (as {spell/water walk}) at will and breathe underwater, and your slashing and bludgeoning attacks don't take the usual penalties when you're underwater."
 		]
 	},
-	"waterdancer_greater": { "copyof": "greater_waterdancer" },
+	"waterdancer_greater": { "redirect": "greater_waterdancer" },
 	"watersense": {
 		"name": "Watersense",
 		"sources": [ "Occult Adventures" ],
@@ -3966,7 +3966,7 @@
 			"You project your watersense outward through the tides and water around you, allowing you to spy on others at a distance. You can take 10 minutes to project your senses, choosing a location within 480 feet that is connected to your current location via the same continuous body of water, or you can take 1 hour to attempt to spy on a specific creature within 1 mile per kineticist level that is visible from a location connected to your current location via the same continuous body of water. In the latter case, the creature receives a Will save as per {spell/scrying} (including bonuses and penalties based on connection and knowledge); a target that saves is immune to your greater watersense for 24 hours. In either case, an extremely thin funnel of water, lasting for 1 minute per kineticist level, carries light and sound to your location, where your target area or location appears in the water next to you and you can view it as if through a scrying sensor, allowing you to both see and hear the area immediately surrounding the other end of the funnel. In the case of a distance greater than 480 feet, the sound comes 1 round later than its corresponding visual information for every mile away you are (for instance, if you were 5 miles away, you would see your target start talking 5 rounds before you heard what it said). When you are tracking a creature, the funnel moves as best it can through the water to follow that creature, up to 150 feet per round, but the target can escape by simply moving away from the water. If you also possess the {kinetic/voice of the wind} wild talent, you can use its message effect to send your voice through the funnel with a delay of 1 round per mile. This wild talent is a divination and scrying effect."
 		]
 	},
-	"watersense_greater": { "copyof": "greater_watersense" },
+	"watersense_greater": { "redirect": "greater_watersense" },
 	"weather_master": {
 		"name": "Weather Master",
 		"sources": [ "Occult Adventures" ],
@@ -4037,7 +4037,7 @@
 			"You can send a slight breeze in a path up to 480 feet long and then back to where you wait. This allows you to use your windsight wild talent to catch a quick glimpse and hear a tiny snippet from any location that could be reached by the wind traveling that distance (the wind's path can't pass through openings smaller than 1 inch in diameter). The breeze travels 100 feet per round, so what you see and hear is delayed by 1 round for every 50 feet of the path. If you spend at least 10 minutes to set up a steady flow of wind, you can concentrate for up to 1 minute per level to gain continuous visual and auditory information for as long as you concentrate, delayed by 1 round for every 100 feet the wind travels (since the steady flow of wind has to travel only one way). While there is no invisible sensor to detect with this ability, creatures along the path of the breeze may notice a light wind, though it may not seem out of the ordinary."
 		]
 	},
-	"windsight_greater": { "copyof": "greater_windsight" },
+	"windsight_greater": { "redirect": "greater_windsight" },
 	"wings_of_air": {
 		"name": "Wings of Air",
 		"sources": [ "Occult Adventures" ],
@@ -4119,5 +4119,5 @@
 			"The plants actively assist you and nearby allies. You and all allies within 30 feet benefit as per {spell/forest friend}."
 		]
 	},
-	"woodland_step_greater": { "copyof": "greater_woodland_step" }
+	"woodland_step_greater": { "redirect": "greater_woodland_step" }
 }

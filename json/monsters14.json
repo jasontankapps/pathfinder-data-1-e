@@ -181,7 +181,7 @@
 			"**Family:** {family/House Spirit}"
 		]
 	},
-	"domovoi": { "copyof": "house_spirit_domovoi" },
+	"domovoi": { "redirect": "house_spirit_domovoi" },
 	"house_spirit_dvorovoi": {
 		"name": "Dvorovoi (House Spirit)",
 		"sources": [
@@ -246,7 +246,7 @@
 			"**Family:** {family/House Spirit}"
 		]
 	},
-	"dvorovoi": { "copyof": "house_spirit_dvorovoi" },
+	"dvorovoi": { "redirect": "house_spirit_dvorovoi" },
 	"house_spirit_ovinnik": {
 		"name": "Ovinnik (House Spirit)",
 		"sources": [
@@ -305,7 +305,7 @@
 			"**Family:** {family/House Spirit}"
 		]
 	},
-	"ovinnik": { "copyof": "house_spirit_ovinnik" },
+	"ovinnik": { "redirect": "house_spirit_ovinnik" },
 	"huldra": {
 		"name": "Huldra",
 		"sources": [
@@ -1020,7 +1020,7 @@
 			"[^B]: Bonus feat."
 		]
 	},
-	"dhirgiska": { "copyof": "hydra_dhirgiska" },
+	"dhirgiska": { "redirect": "hydra_dhirgiska" },
 	"hyena": {
 		"name": "Hyena",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -1112,9 +1112,9 @@
 			"Gnolls have been known to train hyaenodons to serve in their lairs as guardians, or more commonly as fearsome mounts."
 		]
 	},
-	"hyaenodon": { "copyof": "hyena_dire_hyena_hyaenodon" },
-	"dire_hyena": { "copyof": "hyena_dire_hyena_hyaenodon" },
-	"hyena_dire_hyaenodon": { "copyof": "hyena_dire_hyena_hyaenodon" },
+	"hyaenodon": { "redirect": "hyena_dire_hyena_hyaenodon" },
+	"dire_hyena": { "redirect": "hyena_dire_hyena_hyaenodon" },
+	"hyena_dire_hyaenodon": { "redirect": "hyena_dire_hyena_hyaenodon" },
 	"hypnalis": {
 		"name": "Hypnalis",
 		"sources": [ "Bestiary 4" ],
@@ -1407,7 +1407,7 @@
 			"**Family:** {family/Idol}"
 		]
 	},
-	"bone": { "copyof": "idol_bone" },
+	"bone": { "redirect": "idol_bone" },
 	"idol_jade": {
 		"name": "Jade Idol",
 		"sources": [ "Pathfinder #27: What Lies in Dust" ],
@@ -1475,7 +1475,7 @@
 			"**Family:** {family/Idol}"
 		]
 	},
-	"jade": { "copyof": "idol_jade" },
+	"jade": { "redirect": "idol_jade" },
 	"idol_stone": {
 		"name": "Stone Idol",
 		"sources": [ "Pathfinder #27: What Lies in Dust" ],
@@ -1540,7 +1540,7 @@
 			"**Family:** {family/Idol}"
 		]
 	},
-	"stone": { "copyof": "idol_stone" },
+	"stone": { "redirect": "idol_stone" },
 	"idol_wood": {
 		"name": "Wood Idol",
 		"sources": [ "Pathfinder #27: What Lies in Dust" ],
@@ -1607,7 +1607,7 @@
 			"**Family:** {family/Idol}"
 		]
 	},
-	"wood": { "copyof": "idol_wood" },
+	"wood": { "redirect": "idol_wood" },
 	"ifrit": {
 		"name": "Ifrit",
 		"sources": [ "Bestiary 2" ],
@@ -2226,7 +2226,7 @@
 			"**Rebuild Rules:** Senses darkvision 60 ft.; AC increase natural armor by 4; Immune mind-affecting effects; Ability Scores +4 Str and Con. A calcified creature has no Intelligence score, but can use its physical skills as directed by the incutilis lord that created it and does not lose any skill ranks; Skills: +8 racial bonus on Stealth checks in dim or no light."
 		]
 	},
-	"incutilis_lord": { "copyof": "incutilis_incutilis_lord" },
+	"incutilis_lord": { "redirect": "incutilis_incutilis_lord" },
 	"indarugant": {
 		"name": "Indarugant",
 		"sources": [ "Pathfinder #94: Ice Tomb of the Giant Queen" ],
@@ -2358,7 +2358,7 @@
 			"These creatures aren't terribly dangerous individually, but meet any disturbances in their territory with swift and often deadly investigation. The creatures immediately swarm any intruders, trying to learn their scent from as close as possible. They seem driven more by curiosity than animosity, but the resultant battering and probing can occasionally prove fatal. Pallid wrigglers are herbivores, feeding on the fungus that is ubiquitous in their cavernous lairs, so creatures slain by their attentions often rot away unless eaten by another scavenger."
 		]
 	},
-	"pallid_wriggler_swarm": { "copyof": "indescribable_swarm_pallid_wriggler_swarm" },
+	"pallid_wriggler_swarm": { "redirect": "indescribable_swarm_pallid_wriggler_swarm" },
 	"indescribable_swarm_patchwork_insect_swarm": {
 		"name": "Patchwork Insect Swarm (Indescribable Swarm)",
 		"sources": [ "Pathfinder #109: In Search of Sanity" ],
@@ -2411,7 +2411,7 @@
 			"Scholars who have had an opportunity to study these creatures up close speculate that they are actually created by some strange form of fungus or parasite that grows a human-like skin over the existing chitin of the vermin involved. The incredible coincidence of the resemblance to human forms makes the influence of occult magic a strong possibility, but there is no record of the history of these monstrous creatures that might reveal the truth."
 		]
 	},
-	"patchwork_insect_swarm": { "copyof": "indescribable_swarm_patchwork_insect_swarm" },
+	"patchwork_insect_swarm": { "redirect": "indescribable_swarm_patchwork_insect_swarm" },
 	"indescribable_swarm_swimming_eye_swarm": {
 		"name": "Swimming Eye Swarm (Indescribable Swarm)",
 		"sources": [ "Pathfinder #109: In Search of Sanity" ],
@@ -2468,7 +2468,7 @@
 			"Like many of their common jellyfish cousins, the creatures in a swimming eye swarm are incredibly poisonous. Their uncanny eyeballs act as poison sacs as well as a sensory organ. These eyes are remarkably fragile, often bursting after even the gentlest jostling. However, a swarm's eyeballs grow back quickly, often in less than a week."
 		]
 	},
-	"swimming_eye_swarm": { "copyof": "indescribable_swarm_swimming_eye_swarm" },
+	"swimming_eye_swarm": { "redirect": "indescribable_swarm_swimming_eye_swarm" },
 	"inevitable_arbiter": {
 		"name": "Arbiter (Inevitable)",
 		"sources": [ "Bestiary 2" ],
@@ -2538,7 +2538,7 @@
 			"[^B]: Bonus feat."
 		]
 	},
-	"arbiter": { "copyof": "inevitable_arbiter" },
+	"arbiter": { "redirect": "inevitable_arbiter" },
 	"inevitable_hykariut": {
 		"name": "Hykariut (Inevitable)",
 		"sources": [
@@ -2622,7 +2622,7 @@
 			"Hykariuts work together only rarely, and only for far-reaching or tenacious rebellions. A pair of hykariuts has monitored Galt's Red Revolution since its infancy, regularly meeting with and dispatching spies to measure scores of qualitative variables. Despite the immense amount of data collected over the decades, these inevitables haven't moved against the Gray Gardeners or Revolutionary Council-much to the hykariuts' mortal agents' distress. It may be that the inevitables believe the Galtan incident contained, or that they have calculated the frequent upheavals that replace each Revolutionary Council serve as a lesson to other mortal societies to avoid the same mistakes."
 		]
 	},
-	"hykariut": { "copyof": "inevitable_hykariut" },
+	"hykariut": { "redirect": "inevitable_hykariut" },
 	"inevitable_impariut": {
 		"name": "Impariut (Inevitable)",
 		"sources": [
@@ -2706,7 +2706,7 @@
 			"Those spellcasters who would instead force an impariut to obey can placate it by offering rare history volumes and noteworthy biographies, gaining a +1 bonus on the binder's Charisma check for every 100 gp worth of literature provided (maximum +4). At the same time, though, an impariut judges the conjurer, assessing whether the spellcaster might ultimately undermine the region's rule of law - and whether to destroy the conjurer at a later date."
 		]
 	},
-	"impariut": { "copyof": "inevitable_impariut" },
+	"impariut": { "redirect": "inevitable_impariut" },
 	"inevitable_kastamut": {
 		"name": "Kastamut (Inevitable)",
 		"sources": [
@@ -2796,7 +2796,7 @@
 			"This does not mean, however, that kastamuts are never encountered in the wilderness. In fact, many of the cultures in the greatest danger of being subverted or destroyed are found in the wilds. A few of these inevitables are believed to operate in the jungles of the Mwangi Expanse, working against those Chelish colonists seeking to quell resistance by the region's indigenous population. [Pathfinder Society](rule/aff_scholars) reports also indicate that at least one kastamut haunts the western border of Irrisen, working against white witches and their minions who attempt to eliminate the many Ulfen tribes that dwell there. At the same time, kastamuts have also appeared in Irrisen and Nidal to oppose rebels seeking to undermine the cultural status quo."
 		]
 	},
-	"kastamut": { "copyof": "inevitable_kastamut" },
+	"kastamut": { "redirect": "inevitable_kastamut" },
 	"inevitable_kolyarut": {
 		"name": "Kolyarut (Inevitable)",
 		"sources": [ "Bestiary 2" ],
@@ -2851,7 +2851,7 @@
 			"**Family:** {family/Inevitable}"
 		]
 	},
-	"kolyarut": { "copyof": "inevitable_kolyarut" },
+	"kolyarut": { "redirect": "inevitable_kolyarut" },
 	"inevitable_lhaksharut": {
 		"name": "Lhaksharut (Inevitable)",
 		"sources": [ "Bestiary 2" ],
@@ -2932,7 +2932,7 @@
 			"**Family:** {family/Inevitable}"
 		]
 	},
-	"lhaksharut": { "copyof": "inevitable_lhaksharut" },
+	"lhaksharut": { "redirect": "inevitable_lhaksharut" },
 	"inevitable_marut": {
 		"name": "Marut (Inevitable)",
 		"sources": [ "Bestiary 2" ],
@@ -2994,7 +2994,7 @@
 			"**Family:** {family/Inevitable}"
 		]
 	},
-	"marut": { "copyof": "inevitable_marut" },
+	"marut": { "redirect": "inevitable_marut" },
 	"inevitable_novenarut": {
 		"name": "Novenarut (Inevitable)",
 		"sources": [
@@ -3058,7 +3058,7 @@
 			"**Family:** {family/Inevitable}"
 		]
 	},
-	"novenarut": { "copyof": "inevitable_novenarut" },
+	"novenarut": { "redirect": "inevitable_novenarut" },
 	"inevitable_rokyamut": {
 		"name": "Rokyamut (Inevitable)",
 		"sources": [
@@ -3139,7 +3139,7 @@
 			"**Family:** {family/Inevitable}"
 		]
 	},
-	"rokyamut": { "copyof": "inevitable_rokyamut" },
+	"rokyamut": { "redirect": "inevitable_rokyamut" },
 	"inevitable_valharut": {
 		"name": "Valharut (Inevitable)",
 		"sources": [
@@ -3203,7 +3203,7 @@
 			"**Family:** {family/Inevitable}"
 		]
 	},
-	"valharut": { "copyof": "inevitable_valharut" },
+	"valharut": { "redirect": "inevitable_valharut" },
 	"inevitable_yarahkut": {
 		"name": "Yarahkut (Inevitable)",
 		"sources": [
@@ -3292,7 +3292,7 @@
 			"Sometimes yarahkuts seek out other types of inevitables when the need arises. For example, a situation in which a powerful undead creature has discovered a lost army of robots may prompt an alliance of convenience with a marut. If a bargain was broken regarding powerful technology, a yarahkut might instead align with a kolyarut, while a death-marked exile from Numeria bringing stolen items to other nations might necessitate working with a {monster/zelekhut} in order to track the renegade down."
 		]
 	},
-	"yarahkut": { "copyof": "inevitable_yarahkut" },
+	"yarahkut": { "redirect": "inevitable_yarahkut" },
 	"inevitable_zelekhut": {
 		"name": "Zelekhut (Inevitable)",
 		"sources": [ "Bestiary 2" ],
@@ -3352,7 +3352,7 @@
 			"**Family:** {family/Inevitable}"
 		]
 	},
-	"zelekhut": { "copyof": "inevitable_zelekhut" },
+	"zelekhut": { "redirect": "inevitable_zelekhut" },
 	"inkanyamba": {
 		"name": "Inkanyamba",
 		"sources": [ "Pathfinder #41: The Thousand Fangs Below" ],

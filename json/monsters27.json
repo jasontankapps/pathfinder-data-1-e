@@ -59,7 +59,7 @@
 			"**Family:** {family/Azata}"
 		]
 	},
-	"bralani": { "copyof": "azata_bralani" },
+	"bralani": { "redirect": "azata_bralani" },
 	"azata_brijidine": {
 		"name": "Brijidine (Azata)",
 		"sources": [
@@ -131,7 +131,7 @@
 			"**Family:** {family/Azata}"
 		]
 	},
-	"brijidine": { "copyof": "azata_brijidine" },
+	"brijidine": { "redirect": "azata_brijidine" },
 	"azata_gancanagh": {
 		"name": "Gancanagh (Azata)",
 		"sources": [
@@ -198,7 +198,7 @@
 			"**Family:** {family/Azata}"
 		]
 	},
-	"gancanagh": { "copyof": "azata_gancanagh" },
+	"gancanagh": { "redirect": "azata_gancanagh" },
 	"azata_ghaele": {
 		"name": "Ghaele (Azata)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -273,7 +273,7 @@
 			"**Family:** {family/Azata}"
 		]
 	},
-	"ghaele": { "copyof": "azata_ghaele" },
+	"ghaele": { "redirect": "azata_ghaele" },
 	"azata_lillend": {
 		"name": "Lillend (Azata)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -338,7 +338,7 @@
 			"**Family:** {family/Azata}"
 		]
 	},
-	"lillend": { "copyof": "azata_lillend" },
+	"lillend": { "redirect": "azata_lillend" },
 	"azata_lyrakien": {
 		"name": "Lyrakien (Azata)",
 		"sources": [
@@ -405,7 +405,7 @@
 			"**Family:** {family/Azata}"
 		]
 	},
-	"lyrakien": { "copyof": "azata_lyrakien" },
+	"lyrakien": { "redirect": "azata_lyrakien" },
 	"azata_nualidu": {
 		"name": "Nualidu (Azata)",
 		"sources": [
@@ -492,7 +492,7 @@
 			"A nualidu can be called with {spell/lesser planar ally}, although it is very difficult to call the same nualidu more than once. The azatas prefer tasks that contribute in some way to the protection or cleaning of a body of water, and generally accept payment with gems or valuable stones that have been eroded by flowing water into unique and organic shapes. They also demand at least a token amount of respect from their callers, and most nualidus require their callers to treat them politely and to memorize, if not directly use, at least a handful of their myriad titles."
 		]
 	},
-	"nualidu": { "copyof": "azata_nualidu" },
+	"nualidu": { "redirect": "azata_nualidu" },
 	"azata_prydanu": {
 		"name": "Prydanu (Azata)",
 		"sources": [
@@ -580,7 +580,7 @@
 			"When not battling against tyranny, prydanus enjoy studying emancipated societies to view the daily life of mortals left to make their own choices. They chronicle these thoughts and observations in journals, which they then share with other celestials in Elysium."
 		]
 	},
-	"prydanu": { "copyof": "azata_prydanu" },
+	"prydanu": { "redirect": "azata_prydanu" },
 	"azata_raelis": {
 		"name": "Raelis (Azata)",
 		"sources": [
@@ -653,7 +653,7 @@
 			"**Family:** {family/Azata}"
 		]
 	},
-	"raelis": { "copyof": "azata_raelis" },
+	"raelis": { "redirect": "azata_raelis" },
 	"azata_thyrlien": {
 		"name": "Thyrlien (Azata)",
 		"sources": [
@@ -717,7 +717,7 @@
 			"**Family:** {family/Azata}"
 		]
 	},
-	"thyrlien": { "copyof": "azata_thyrlien" },
+	"thyrlien": { "redirect": "azata_thyrlien" },
 	"azata_uinuja": {
 		"name": "Uinuja (Azata)",
 		"sources": [
@@ -788,7 +788,7 @@
 			"**Family:** {family/Azata}"
 		]
 	},
-	"uinuja": { "copyof": "azata_uinuja" },
+	"uinuja": { "redirect": "azata_uinuja" },
 	"aspidochelone": {
 		"name": "Aspidochelone",
 		"sources": [ "Pathfinder #27: What Lies in Dust" ],
@@ -911,8 +911,8 @@
 			"**Family:** {family/Blight}"
 		]
 	},
-	"cave_blight": { "copyof": "blight_cave_blight" },
-	"blight_cave": { "copyof": "blight_cave_blight" },
+	"cave_blight": { "redirect": "blight_cave_blight" },
+	"blight_cave": { "redirect": "blight_cave_blight" },
 	"blight_desert_blight": {
 		"name": "Desert Blight",
 		"sources": [ "Bestiary 6" ],
@@ -972,8 +972,8 @@
 			"**Family:** {family/Blight}"
 		]
 	},
-	"desert_blight": { "copyof": "blight_desert_blight" },
-	"blight_desert": { "copyof": "blight_desert_blight" },
+	"desert_blight": { "redirect": "blight_desert_blight" },
+	"blight_desert": { "redirect": "blight_desert_blight" },
 	"blight_forest_blight": {
 		"name": "Forest Blight",
 		"sources": [ "Bestiary 6" ],
@@ -1033,8 +1033,8 @@
 			"**Family:** {family/Blight}"
 		]
 	},
-	"forest_blight": { "copyof": "blight_forest_blight" },
-	"blight_forest": { "copyof": "blight_forest_blight" },
+	"forest_blight": { "redirect": "blight_forest_blight" },
+	"blight_forest": { "redirect": "blight_forest_blight" },
 	"blight_mountain_blight": {
 		"name": "Mountain Blight",
 		"sources": [ "Bestiary 6" ],
@@ -1096,8 +1096,8 @@
 			"**Family:** {family/Blight}"
 		]
 	},
-	"mountain_blight": { "copyof": "blight_mountain_blight" },
-	"blight_mountain": { "copyof": "blight_mountain_blight" },
+	"mountain_blight": { "redirect": "blight_mountain_blight" },
+	"blight_mountain": { "redirect": "blight_mountain_blight" },
 	"blight_sewer_blight": {
 		"name": "Sewer Blight",
 		"sources": [ "Bestiary 6" ],
@@ -1160,8 +1160,8 @@
 			"**Family:** {family/Blight}"
 		]
 	},
-	"sewer_blight": { "copyof": "blight_sewer_blight" },
-	"blight_sewer": { "copyof": "blight_sewer_blight" },
+	"sewer_blight": { "redirect": "blight_sewer_blight" },
+	"blight_sewer": { "redirect": "blight_sewer_blight" },
 	"blight_swamp_blight": {
 		"name": "Swamp Blight",
 		"sources": [ "Bestiary 6" ],
@@ -1224,8 +1224,8 @@
 			"**Family:** {family/Blight}"
 		]
 	},
-	"swamp_blight": { "copyof": "blight_swamp_blight" },
-	"blight_swamp": { "copyof": "blight_swamp_blight" },
+	"swamp_blight": { "redirect": "blight_swamp_blight" },
+	"blight_swamp": { "redirect": "blight_swamp_blight" },
 	"blight_tundra_blight": {
 		"name": "Tundra Blight",
 		"sources": [ "Bestiary 6" ],
@@ -1290,8 +1290,8 @@
 			"**Family:** {family/Blight}"
 		]
 	},
-	"tundra_blight": { "copyof": "blight_tundra_blight" },
-	"blight_tundra": { "copyof": "blight_tundra_blight" },
+	"tundra_blight": { "redirect": "blight_tundra_blight" },
+	"blight_tundra": { "redirect": "blight_tundra_blight" },
 	"blightspawn": {
 		"name": "Blightspawn",
 		"sources": [ "Bestiary 5" ],
@@ -2275,8 +2275,8 @@
 			"A boar is four feet long and weighs 200 pounds."
 		]
 	},
-	"bristle_boar": { "copyof": "boar_bristle_boar" },
-	"boar_bristle": { "copyof": "boar_bristle_boar" },
+	"bristle_boar": { "redirect": "boar_bristle_boar" },
+	"boar_bristle": { "redirect": "boar_bristle_boar" },
 	"boar_dire_boar_daeodon": {
 		"name": "Dire Boar (Daeodon)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -2320,10 +2320,10 @@
 			"Whereas the boar is ill-tempered and generally unfriendly, the towering daeodon (known as the dire boar to most commoners and hunters) is legitimately hateful and violent. Although omnivorous like its smaller kin, the daeodon prefers to feed on flesh, and its razor-sharp tusks and keen eyesight make it particularly well suited as a predator. While the daeodon is primarily a scavenger, it isn't averse to attacking smaller creatures it encounters while searching for easier meals, or those who stumble unwittingly into its territory. Particularly brave or skilled orcs are fond of using daeodons as mounts, and orc cavalry mounted on dire boars make for a fearsome force indeed. A typical adult daeodon is 10 feet long and 7 feet tall at the shoulder. It weighs approximately 2,000 pounds."
 		]
 	},
-	"daeodon": { "copyof": "boar_dire_boar_daeodon" },
-	"dire_boar": { "copyof": "boar_dire_boar_daeodon" },
-	"boar_dire": { "copyof": "boar_dire_boar_daeodon" },
-	"boar_dire_daeodon": { "copyof": "boar_dire_boar_daeodon" },
+	"daeodon": { "redirect": "boar_dire_boar_daeodon" },
+	"dire_boar": { "redirect": "boar_dire_boar_daeodon" },
+	"boar_dire": { "redirect": "boar_dire_boar_daeodon" },
+	"boar_dire_daeodon": { "redirect": "boar_dire_boar_daeodon" },
 	"bodak": {
 		"name": "Bodak",
 		"sources": [
@@ -2706,7 +2706,7 @@
 			"A few boggards serve their tribes in specialized roles."
 		]
 	},
-	"boggard_abyssal_warrior": { "copyof": "boggard_boggard_abyssal_warrior" },
+	"boggard_abyssal_warrior": { "redirect": "boggard_boggard_abyssal_warrior" },
 	"boggard_boggard_brute": {
 		"name": "Boggard Brute",
 		"sources": [ "Monster Codex" ],
@@ -2755,7 +2755,7 @@
 			"Boggard brutes may be armed with primitive-looking weapons, yet their terrifying strength makes them as deadly as any knight in armor."
 		]
 	},
-	"boggard_brute": { "copyof": "boggard_boggard_brute" },
+	"boggard_brute": { "redirect": "boggard_boggard_brute" },
 	"boggard_boggard_champion": {
 		"name": "Boggard Champion",
 		"sources": [ "Monster Codex" ],
@@ -2805,7 +2805,7 @@
 			"Most boggard champions forsake tactics in favor of mayhem. In magic-deficient tribes, champions are often second only to priest-kings in status."
 		]
 	},
-	"boggard_champion": { "copyof": "boggard_boggard_champion" },
+	"boggard_champion": { "redirect": "boggard_boggard_champion" },
 	"boggard_boggard_farcroaker": {
 		"name": "Boggard Farcroaker",
 		"sources": [ "Monster Codex" ],
@@ -2853,7 +2853,7 @@
 			"A few boggards serve their tribes in specialized roles."
 		]
 	},
-	"boggard_farcroaker": { "copyof": "boggard_boggard_farcroaker" },
+	"boggard_farcroaker": { "redirect": "boggard_boggard_farcroaker" },
 	"boggard_boggard_hunter": {
 		"name": "Boggard Hunter",
 		"sources": [ "Monster Codex" ],
@@ -2898,7 +2898,7 @@
 			"Boggard rangers stalk silently through the swamps."
 		]
 	},
-	"boggard_hunter": { "copyof": "boggard_boggard_hunter" },
+	"boggard_hunter": { "redirect": "boggard_boggard_hunter" },
 	"boggard_boggard_priest_king": {
 		"name": "Boggard Priest-King",
 		"sources": [ "Monster Codex" ],
@@ -2961,7 +2961,7 @@
 			"[^D]: Domain spell"
 		]
 	},
-	"boggard_priest_king": { "copyof": "boggard_boggard_priest_king" },
+	"boggard_priest_king": { "redirect": "boggard_boggard_priest_king" },
 	"boggard_boggard_prophet": {
 		"name": "Boggard Prophet",
 		"sources": [ "Monster Codex" ],
@@ -3012,7 +3012,7 @@
 			"These casters are often the children of the priest-king."
 		]
 	},
-	"boggard_prophet": { "copyof": "boggard_boggard_prophet" },
+	"boggard_prophet": { "redirect": "boggard_boggard_prophet" },
 	"boggard_boggard_savage": {
 		"name": "Boggard Savage",
 		"sources": [ "Monster Codex" ],
@@ -3062,7 +3062,7 @@
 			"Boggard barbarians are terrifying and unpredictable."
 		]
 	},
-	"boggard_savage": { "copyof": "boggard_boggard_savage" },
+	"boggard_savage": { "redirect": "boggard_boggard_savage" },
 	"boggard_boggard_scarred_one": {
 		"name": "Boggard Scarred One",
 		"sources": [ "Monster Codex" ],
@@ -3112,7 +3112,7 @@
 			"Boggard barbarians are terrifying and unpredictable."
 		]
 	},
-	"boggard_scarred_one": { "copyof": "boggard_boggard_scarred_one" },
+	"boggard_scarred_one": { "redirect": "boggard_boggard_scarred_one" },
 	"boggard_boggard_stalker": {
 		"name": "Boggard Stalker",
 		"sources": [ "Monster Codex" ],
@@ -3159,7 +3159,7 @@
 			"Boggard rangers stalk silently through the swamps."
 		]
 	},
-	"boggard_stalker": { "copyof": "boggard_boggard_stalker" },
+	"boggard_stalker": { "redirect": "boggard_boggard_stalker" },
 	"boggard_boggard_swampseer": {
 		"name": "Boggard Swampseer",
 		"sources": [ "Monster Codex" ],
@@ -3210,7 +3210,7 @@
 			"[^D]: Domain spell"
 		]
 	},
-	"boggard_swampseer": { "copyof": "boggard_boggard_swampseer" },
+	"boggard_swampseer": { "redirect": "boggard_boggard_swampseer" },
 	"boggart": {
 		"name": "Boggart",
 		"sources": [
@@ -3316,7 +3316,7 @@
 			"These enormous bovines are 15 feet tall, measure nearly 30 feet from horns to tail, and weigh approximately 16 tons. Bred for war and violence by the Murdered Child orc tribe, they are used in ravine fights - bloodsports in blocked-off gorges or gullies that pit the might and ferocity of orcs against various wild beasts. Aggressive and trained for combat, bulls of Zagresh respond to most threats by charging anything that stands and goring whatever is left. Skilled Murdered Child beast drovers oversee bulls of Zagresh in warfare, driving the mighty cattle into enemy formations to break the front line or crush foot archers and other lightly armored targets."
 		]
 	},
-	"bull_of_zagresh": { "copyof": "war_beast_of_belkzen_bull_of_zagresh" },
+	"bull_of_zagresh": { "redirect": "war_beast_of_belkzen_bull_of_zagresh" },
 	"war_beast_of_belkzen_warcat_of_rull": {
 		"name": "Warcat of Rull (War Beast of Belkzen)",
 		"sources": [ "Belkzen, Hold of the Orc Hordes" ],
@@ -3361,7 +3361,7 @@
 			"Warcats of Rull are massive creatures with the shapes and habits of great cats but the armored skin of armadillos. Weighing 4,000 pounds and stretching 25 feet from nose to the base of its tail, a warcat of Rull is a dangerous predator with a large territory. Wild warcats of Rull hunt alone or with a single mate, and have been known to take down prey ranging from megafauna to giants and even young dragons. The Ice Tooth orc clan catches warcats of Rull as cubs and trains them to serve the clan. These beasts often act as mounts for the clan's champions, who ride them into battle against warriors from the Realm of the Mammoth Lords."
 		]
 	},
-	"warcat_of_rull": { "copyof": "war_beast_of_belkzen_warcat_of_rull" },
+	"warcat_of_rull": { "redirect": "war_beast_of_belkzen_warcat_of_rull" },
 	"boggle": {
 		"name": "Boggle",
 		"sources": [ "Bestiary 6" ],

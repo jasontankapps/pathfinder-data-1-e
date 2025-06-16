@@ -25,7 +25,7 @@
 			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/deadly juggernaut}; **Price** +1 bonus"
 		]
 	},
-	"advancing_a": { "copyof": "advancing_armor" },
+	"advancing_a": { "redirect": "advancing_armor" },
 	"balanced": {
 		"name": "Balanced",
 		"sources": [
@@ -63,7 +63,7 @@
 			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/aid}; **Price** +1 bonus"
 		]
 	},
-	"benevolent_a": { "copyof": "benevolent_armor" },
+	"benevolent_a": { "redirect": "benevolent_armor" },
 	"billowing": {
 		"name": "Billowing",
 		"sources": [ "Planar Adventures" ],
@@ -245,8 +245,8 @@
 			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/summon monster I}; **Price** +1 bonus"
 		]
 	},
-	"defiant_armor": { "copyof": "defiant" },
-	"defiant_a": { "copyof": "defiant" },
+	"defiant_armor": { "redirect": "defiant" },
+	"defiant_a": { "redirect": "defiant" },
 	"evolving": {
 		"name": "Evolving",
 		"sources": [ "Melee Tactics Toolbox" ],
@@ -285,7 +285,7 @@
 		"name": "Fortification (light)",
 		"copyof": "fortification"
 	},
-	"light_fortification": { "copyof": "fortification_light" },
+	"light_fortification": { "redirect": "fortification_light" },
 	"grinding": {
 		"name": "Grinding",
 		"sources": [ "Ultimate Equipment" ],
@@ -320,7 +320,7 @@
 			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/fabricate}, {spell/make whole}; **Price** +1 bonus"
 		]
 	},
-	"impervious_a": { "copyof": "impervious_armor" },
+	"impervious_a": { "redirect": "impervious_armor" },
 	"mirrored": {
 		"name": "Mirrored",
 		"sources": [ "Ultimate Equipment" ],
@@ -389,7 +389,7 @@
 			"**Requirements** {feat/Craft Magic Arms and Armor}, creator must be a caster of at least 12th level; **Price** +1 bonus"
 		]
 	},
-	"spell_storing_a": { "copyof": "spell_storing_armor" },
+	"spell_storing_a": { "redirect": "spell_storing_armor" },
 	"spellsink": {
 		"name": "Spellsink",
 		"sources": [ "Dirty Tactics Toolbox" ],
@@ -547,9 +547,9 @@
 		"name": "Buoyant (medium/heavy armor)",
 		"copyof": "buoyant_light_armor"
 	},
-	"buoyant_medium_or_heavy_armor": { "copyof": "buoyant_medium_heavy_armor" },
-	"buoyant_medium_armor": { "copyof": "buoyant_medium_heavy_armor" },
-	"buoyant_heavy_armor": { "copyof": "buoyant_medium_heavy_armor" },
+	"buoyant_medium_or_heavy_armor": { "redirect": "buoyant_medium_heavy_armor" },
+	"buoyant_medium_armor": { "redirect": "buoyant_medium_heavy_armor" },
+	"buoyant_heavy_armor": { "redirect": "buoyant_medium_heavy_armor" },
 	"fitting": {
 		"name": "Fitting",
 		"sources": [ "Giant Hunter's Handbook" ],
@@ -604,8 +604,8 @@
 			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/disguise self}; **Price** +1,350 gp"
 		]
 	},
-	"glamered_armor": { "copyof": "glamered" },
-	"glamered_a": { "copyof": "glamered" },
+	"glamered_armor": { "redirect": "glamered" },
+	"glamered_a": { "redirect": "glamered" },
 	"mental_focus": {
 		"name": "Mental Focus",
 		"sources": [ "Armor Master's Handbook" ],
@@ -1278,8 +1278,8 @@
 			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/bull's strength}; **Price** +3 bonus"
 		]
 	},
-	"brawling_armor": { "copyof": "brawling" },
-	"brawling_a": { "copyof": "brawling" },
+	"brawling_armor": { "redirect": "brawling" },
+	"brawling_a": { "redirect": "brawling" },
 	"cotraveling": {
 		"name": "Cotraveling",
 		"sources": [ "Planar Adventures" ],
@@ -1301,7 +1301,7 @@
 		"name": "Fortification (moderate)",
 		"copyof": "fortification_light"
 	},
-	"moderate_fortification": { "copyof": "fortification_moderate" },
+	"moderate_fortification": { "redirect": "fortification_moderate" },
 	"ghost_touch_armor": {
 		"name": "Ghost Touch (armor, shield)",
 		"sources": [
@@ -1324,7 +1324,7 @@
 			"See also: {magic-enh/ghost touch weapon/ enhancement}"
 		]
 	},
-	"ghost_touch_a": { "copyof": "ghost_touch_armor" },
+	"ghost_touch_a": { "redirect": "ghost_touch_armor" },
 	"invulnerability": {
 		"name": "Invulnerability",
 		"sources": [
@@ -1523,7 +1523,7 @@
 			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/invisibility}, {spell/silence}; **Price** +7,500 gp"
 		]
 	},
-	"improved_shadow": { "copyof": "shadow_improved" },
+	"improved_shadow": { "redirect": "shadow_improved" },
 	"slick_improved": {
 		"name": "Improved Slick",
 		"sources": [
@@ -1544,7 +1544,7 @@
 			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/grease}; **Price** +7,500 gp"
 		]
 	},
-	"improved_slick": { "copyof": "slick_improved" },
+	"improved_slick": { "redirect": "slick_improved" },
 	"venom_eating": {
 		"name": "Venom-eating",
 		"sources": [ "Armor Master's Handbook" ],
@@ -1641,7 +1641,7 @@
 		"name": "Fortification (heavy)",
 		"copyof": "fortification_light"
 	},
-	"heavy_fortification": { "copyof": "fortification_heavy" },
+	"heavy_fortification": { "redirect": "fortification_heavy" },
 	"spell_resistance_19": {
 		"name": "Spell Resistance (19)",
 		"copyof": "spell_resistance"
@@ -1785,7 +1785,7 @@
 			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/invisibility}, {spell/silence}; **Price** +16,875 gp"
 		]
 	},
-	"greater_shadow": { "copyof": "shadow_greater" },
+	"greater_shadow": { "redirect": "shadow_greater" },
 	"slick_greater": {
 		"name": "Greater Slick",
 		"sources": [
@@ -1806,7 +1806,7 @@
 			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/grease}; **Price** +16,875 gp"
 		]
 	},
-	"greater_slick": { "copyof": "slick_greater" },
+	"greater_slick": { "redirect": "slick_greater" },
 	"energy_resistance_improved": {
 		"name": "Improved Energy Resistance",
 		"sources": [
@@ -1827,7 +1827,7 @@
 			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/resist energy}; **Price** +21,000 gp"
 		]
 	},
-	"improved_energy_resistance": { "copyof": "energy_resistance_improved" },
+	"improved_energy_resistance": { "redirect": "energy_resistance_improved" },
 	"etherealness": {
 		"name": "Etherealness",
 		"sources": [
@@ -1888,7 +1888,7 @@
 			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/resist energy}; **Price** +33,000 gp"
 		]
 	},
-	"greater_energy_resistance": { "copyof": "energy_resistance_greater" },
+	"greater_energy_resistance": { "redirect": "energy_resistance_greater" },
 	"arrow_catching": {
 		"name": "Arrow Catching",
 		"sources": [
@@ -2163,7 +2163,7 @@
 			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/shield other}; **Price** +2 bonus"
 		]
 	},
-	"greater_guarding": { "copyof": "guarding_greater" },
+	"greater_guarding": { "redirect": "guarding_greater" },
 	"jawbreaker": {
 		"name": "Jawbreaker",
 		"sources": [ "Ultimate Wilderness" ],
@@ -2451,8 +2451,8 @@
 			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/aid}; **Price** -"
 		]
 	},
-	"benevolent_w": { "copyof": "benevolent" },
-	"benevolent_weapon": { "copyof": "benevolent" },
+	"benevolent_w": { "redirect": "benevolent" },
+	"benevolent_weapon": { "redirect": "benevolent" },
 	"bewildering": {
 		"name": "Bewildering",
 		"sources": [ "Dirty Tactics Toolbox" ],
@@ -2535,7 +2535,7 @@
 			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Improved Trip}, {spell/guidance}; **Price** -"
 		]
 	},
-	"brawling_w": { "copyof": "brawling_weapon" },
+	"brawling_w": { "redirect": "brawling_weapon" },
 	"breaking": {
 		"name": "Breaking",
 		"sources": [ "Dungeoneer's Handbook" ],
@@ -2913,7 +2913,7 @@
 			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/cat's grace}; **Price** -"
 		]
 	},
-	"dueling_pfsg": { "copyof": "dueling_psfg" },
+	"dueling_pfsg": { "redirect": "dueling_psfg" },
 	"fate_stealing": {
 		"name": "Fate-Stealing",
 		"sources": [ "Advanced Class Guide" ],
@@ -3070,7 +3070,7 @@
 			"See also: {magic-enh/ghost touch armor/ enhancement}"
 		]
 	},
-	"ghost_touch": { "copyof": "ghost_touch_weapon" },
+	"ghost_touch": { "redirect": "ghost_touch_weapon" },
 	"grayflame": {
 		"name": "Grayflame",
 		"sources": [

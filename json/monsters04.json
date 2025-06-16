@@ -60,7 +60,7 @@
 			"Empress bore worms, the largest and eldest members of the species, live short lives in their final stage of development. Eating their own kind acts to perpetuate their species, and after a week-long torpor, empress bore worms hungrily devour everything in their path to find a suitable spot to nest - and die. They are then eaten from within by the live bore worm swarms they birth, and the fat reserves they built up during their monarch stage serve as fuel at the end of their lives."
 		]
 	},
-	"bore_worm_monarch": { "copyof": "bore_worm_bore_worm_monarch" },
+	"bore_worm_monarch": { "redirect": "bore_worm_bore_worm_monarch" },
 	"bore_worm_bore_worm_swarm": {
 		"name": "Bore Worm Swarm",
 		"sources": [ "Pathfinder #117: Assault on Longshadow" ],
@@ -124,7 +124,7 @@
 			"Empress bore worms, the largest and eldest members of the species, live short lives in their final stage of development. Eating their own kind acts to perpetuate their species, and after a week-long torpor, empress bore worms hungrily devour everything in their path to find a suitable spot to nest - and die. They are then eaten from within by the live bore worm swarms they birth, and the fat reserves they built up during their monarch stage serve as fuel at the end of their lives."
 		]
 	},
-	"bore_worm_swarm": { "copyof": "bore_worm_bore_worm_swarm" },
+	"bore_worm_swarm": { "redirect": "bore_worm_bore_worm_swarm" },
 	"bore_worm_empress_bore_worm": {
 		"name": "Empress Bore Worm",
 		"sources": [ "Pathfinder #117: Assault on Longshadow" ],
@@ -188,7 +188,7 @@
 			"Empress bore worms, the largest and eldest members of the species, live short lives in their final stage of development. Eating their own kind acts to perpetuate their species, and after a week-long torpor, empress bore worms hungrily devour everything in their path to find a suitable spot to nest - and die. They are then eaten from within by the live bore worm swarms they birth, and the fat reserves they built up during their monarch stage serve as fuel at the end of their lives."
 		]
 	},
-	"empress_bore_worm": { "copyof": "bore_worm_empress_bore_worm" },
+	"empress_bore_worm": { "redirect": "bore_worm_empress_bore_worm" },
 	"boruta": {
 		"name": "Boruta",
 		"sources": [ "Pathfinder #44: Trial of the Beast" ],
@@ -314,7 +314,7 @@
 			"Parasites such as botfly larvae cause infestations, a type of affliction similar to diseases. Infestations can only be cured through specific means; otherwise, no matter how many saving throws are made, the infestation continues to afflict the target. While a remove disease spell (or similar effect) instantly halts an infestation, immunity to disease offers no protection, as the infestation itself is caused by parasites."
 		]
 	},
-	"botfly_swarm": { "copyof": "botfly_botfly_swarm" },
+	"botfly_swarm": { "redirect": "botfly_botfly_swarm" },
 	"botfly_giant_botfly": {
 		"name": "Giant Botfly",
 		"sources": [ "Heart of the Jungle" ],
@@ -368,8 +368,8 @@
 			"[^B]: Bonus feat."
 		]
 	},
-	"giant_botfly": { "copyof": "botfly_giant_botfly" },
-	"botfly_giant": { "copyof": "botfly_giant_botfly" },
+	"giant_botfly": { "redirect": "botfly_giant_botfly" },
+	"botfly_giant": { "redirect": "botfly_giant_botfly" },
 	"brain_mole": {
 		"name": "Brain Mole",
 		"sources": [ "Bestiary 5" ],
@@ -488,7 +488,7 @@
 			"Brain moles who gorge themselves on psychic energy occasionally find their bodies wracked by magically infused tumors that vastly enhance their intellects and psychic spellcasting but condemn the moles to slow deaths. These individuals, called brain mole monarchs, connect to their fellow brain moles in a psychic hive mind. Most use their newfound mental abilities to attempt to secure a legacy or to provide for their nests once they pass on, and their mad plots become increasingly eccentric and aggressive as the end nears."
 		]
 	},
-	"brain_mole_monarch": { "copyof": "brain_mole_brain_mole_monarch" },
+	"brain_mole_monarch": { "redirect": "brain_mole_brain_mole_monarch" },
 	"brain_ooze": {
 		"name": "Brain Ooze",
 		"sources": [ "Bestiary 3" ],
@@ -1101,7 +1101,7 @@
 			"Stalking though the wilderness, bugbear hunters are always on the lookout for potential food and victims to practice their cruelties on. As a rule, they are territorial and patient, and thrill in the opportunity to prey on travelers far from the support of civilization."
 		]
 	},
-	"bugbear_ambusher": { "copyof": "bugbear_bugbear_ambusher" },
+	"bugbear_ambusher": { "redirect": "bugbear_bugbear_ambusher" },
 	"bugbear_bugbear_bloodmage": {
 		"name": "Bugbear Bloodmage",
 		"sources": [ "Monster Codex" ],
@@ -1164,7 +1164,7 @@
 			"Arcane spellcasters among bugbears are typically sorcerers - few bugbears have enough interest or patience to follow arcane paths such as wizardry that require study or control. Bugbears call those with natural magical talent bloodmages, and treat their spellcasting ability the same as any skill - if it's useful for hurting, it's worth knowing. A typical bloodmage is interested in only spells that cause destruction and pain, plus a few supplemental spells to help her defend herself. Almost no bloodmages learn to create magic items."
 		]
 	},
-	"bugbear_bloodmage": { "copyof": "bugbear_bugbear_bloodmage" },
+	"bugbear_bloodmage": { "redirect": "bugbear_bugbear_bloodmage" },
 	"bugbear_bugbear_cultist": {
 		"name": "Bugbear Cultist",
 		"sources": [ "Monster Codex" ],
@@ -1221,7 +1221,7 @@
 			"Bugbears worship in divergent, sometimes contradictory ways, and no one would call their religion \"organized.\" Most of them simply utter occasional thanks to any demon lords whose names they happen to know. A cultist who comes along with a slightly formalized religious spiel and the ability to cast potent spells can sometimes convince other bugbears to follow him into a religious fervor. Cultists revere gods of battle, particularly demon lords. Their rituals vary wildly, and often involve violent blood sacrifices. A small number of especially conceited cultists consider themselves true prophets or living gods."
 		]
 	},
-	"bugbear_cultist": { "copyof": "bugbear_bugbear_cultist" },
+	"bugbear_cultist": { "redirect": "bugbear_bugbear_cultist" },
 	"bugbear_bugbear_flesh_glutton": {
 		"name": "Bugbear Flesh Glutton",
 		"sources": [ "Monster Codex" ],
@@ -1274,7 +1274,7 @@
 			"Some bugbears have an appetite for the flesh of sapient creatures, though they prefer consuming others over eating their own kind. They often keep groups of captives for weeks, killing and consuming them one at a time."
 		]
 	},
-	"bugbear_flesh_glutton": { "copyof": "bugbear_bugbear_flesh_glutton" },
+	"bugbear_flesh_glutton": { "redirect": "bugbear_bugbear_flesh_glutton" },
 	"bugbear_bugbear_gnasher": {
 		"name": "Bugbear Gnasher",
 		"sources": [ "Monster Codex" ],
@@ -1327,7 +1327,7 @@
 			"Some bugbears have an appetite for the flesh of sapient creatures, though they prefer consuming others over eating their own kind. They often keep groups of captives for weeks, killing and consuming them one at a time."
 		]
 	},
-	"bugbear_gnasher": { "copyof": "bugbear_bugbear_gnasher" },
+	"bugbear_gnasher": { "redirect": "bugbear_bugbear_gnasher" },
 	"bugbear_bugbear_lurker": {
 		"name": "Bugbear Lurker",
 		"sources": [ "Monster Codex" ],
@@ -1379,7 +1379,7 @@
 			"Many bugbear sneaks serve as scouts and assassins for hobgoblin armies. They sometimes become enamored of the act of killing itself, and use their natural affinity for moving quietly to become unseen murderers in cities."
 		]
 	},
-	"bugbear_lurker": { "copyof": "bugbear_bugbear_lurker" },
+	"bugbear_lurker": { "redirect": "bugbear_bugbear_lurker" },
 	"bugbear_bugbear_shadow_sneak": {
 		"name": "Bugbear Shadow Sneak",
 		"sources": [ "Monster Codex" ],
@@ -1434,7 +1434,7 @@
 			"Many bugbear sneaks serve as scouts and assassins for hobgoblin armies. They sometimes become enamored of the act of killing itself, and use their natural affinity for moving quietly to become unseen murderers in cities."
 		]
 	},
-	"bugbear_shadow_sneak": { "copyof": "bugbear_bugbear_shadow_sneak" },
+	"bugbear_shadow_sneak": { "redirect": "bugbear_bugbear_shadow_sneak" },
 	"bugbear_bugbear_stalker": {
 		"name": "Bugbear Stalker",
 		"sources": [ "Monster Codex" ],
@@ -1486,7 +1486,7 @@
 			"Stalking though the wilderness, bugbear hunters are always on the lookout for potential food and victims to practice their cruelties on. As a rule, they are territorial and patient, and thrill in the opportunity to prey on travelers far from the support of civilization."
 		]
 	},
-	"bugbear_stalker": { "copyof": "bugbear_bugbear_stalker" },
+	"bugbear_stalker": { "redirect": "bugbear_bugbear_stalker" },
 	"bugbear_bugbear_tyrant": {
 		"name": "Bugbear Tyrant",
 		"sources": [ "Monster Codex" ],
@@ -1548,7 +1548,7 @@
 			"The tyrant doesn't reserve his violence for enemies of the bugbear race. It doesn't take much for him to turn on his underlings and slice them up for fun, especially if he's growing bored."
 		]
 	},
-	"bugbear_tyrant": { "copyof": "bugbear_bugbear_tyrant" },
+	"bugbear_tyrant": { "redirect": "bugbear_bugbear_tyrant" },
 	"buggane": {
 		"name": "Buggane",
 		"sources": [ "Bestiary 4" ],
@@ -3328,7 +3328,7 @@
 			"An adult cheetah is 4-1/2 feet long and weighs 140 pounds."
 		]
 	},
-	"cheetah": { "copyof": "cat_cheetah" },
+	"cheetah": { "redirect": "cat_cheetah" },
 	"cat_leopard": {
 		"name": "Leopard (Cat)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -3374,7 +3374,7 @@
 			"Leopards eat almost any animal they can run down and catch, preferring Small prey but capable of downing Large herbivores or surviving on rodents, birds, and insects. Healthy leopards are generally not aggressive toward humanoids, and if they aren't hungry and don't feel threatened, it is possible to approach closely without a hostile reaction. Yet a leopard that settles in an area bordered by humanoid civilization can easily and swiftly become a dangerous predator."
 		]
 	},
-	"leopard": { "copyof": "cat_leopard" },
+	"leopard": { "redirect": "cat_leopard" },
 	"caterpillar_blood_caterpillar": {
 		"name": "Blood Caterpillar",
 		"sources": [ "Bestiary 5" ],
@@ -3426,8 +3426,8 @@
 			"Blood caterpillars are among the largest of giant caterpillars. These massive vermin draw sustenance from rotting meat in the same way many butterflies eat rotting fruit. Behind their mandibles are spinnerets that allow them to manipulate silk, which the caterpillars can discharge to spin webs and immobilize their prey. Their venom weakens the muscles of creatures exposed to it, aiding the caterpillars in restraining and devouring even large, strong, and agile prey."
 		]
 	},
-	"blood_caterpillar": { "copyof": "caterpillar_blood_caterpillar" },
-	"caterpillar_blood": { "copyof": "caterpillar_blood_caterpillar" },
+	"blood_caterpillar": { "redirect": "caterpillar_blood_caterpillar" },
+	"caterpillar_blood": { "redirect": "caterpillar_blood_caterpillar" },
 	"caterpillar_horn_caterpillar": {
 		"name": "Horn Caterpillar",
 		"sources": [ "Bestiary 5" ],
@@ -3480,8 +3480,8 @@
 			"Horn caterpillars feed on the hooves and horns of dead ungulates, which they usually scavenge from corpses. Their sharp mandibles allow them to effortlessly shear through tendon and bone."
 		]
 	},
-	"horn_caterpillar": { "copyof": "caterpillar_horn_caterpillar" },
-	"caterpillar_horn": { "copyof": "caterpillar_horn_caterpillar" },
+	"horn_caterpillar": { "redirect": "caterpillar_horn_caterpillar" },
+	"caterpillar_horn": { "redirect": "caterpillar_horn_caterpillar" },
 	"catfolk": {
 		"name": "Catfolk",
 		"sources": [ "Bestiary 3" ],
@@ -3732,7 +3732,7 @@
 			"On Golarion, caulborn thoughtkeepers are most reliably found deep beneath Kaer Maga in the city of Xavorax, communing with Anamnesis, the hive's resident chrestomath."
 		]
 	},
-	"caulborn_thoughtkeeper": { "copyof": "caulborn_caulborn_thoughtkeeper" },
+	"caulborn_thoughtkeeper": { "redirect": "caulborn_caulborn_thoughtkeeper" },
 	"caulborn_chrestomath": {
 		"name": "Chrestomath (Caulborn)",
 		"sources": [ "Pathfinder #63: The Asylum Stone" ],
@@ -3812,7 +3812,7 @@
 			"While parasitic by nature, caulborn are not necessarily predatory, and aren't above trading for the sustenance they need. When they do so, it's often as prophets, a role in which chrestomaths are singularly important. Left with nothing but god-like memories and an ability to analyze information, chrestomaths are often able to extrapolate from trends and make logical connections that result in uncannily accurate predictions about future events."
 		]
 	},
-	"chrestomath": { "copyof": "caulborn_chrestomath" },
+	"chrestomath": { "redirect": "caulborn_chrestomath" },
 	"cauldron_bloom": {
 		"name": "Cauldron Bloom",
 		"sources": [ "Pathfinder #142: Gardens of Gallowspire" ],

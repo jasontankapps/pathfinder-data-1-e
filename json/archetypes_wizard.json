@@ -732,7 +732,7 @@
 			"**Prohibited Schools:** abjuration, conjuration."
 		]
 	},
-	"thassilonian_specialization": { "copyof": "thassilonian_specialist" },
+	"thassilonian_specialization": { "redirect": "thassilonian_specialist" },
 	"undead_master": {
 		"name": "Undead Master",
 		"sources": [ "Horror Adventures" ],

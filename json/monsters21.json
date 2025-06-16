@@ -356,8 +356,8 @@
 			"Blackwood satyrs are an especially infamous breed of fey indigenous to the Verduran Forest, which straddles the borders of Andoran, Taldor, and Galt. They are well known throughout southeastern Avistan for exuding the pleasantly sweet aroma of blackwood tar, from which they gain their name. Though the human population surrounding the Verduran Forest seldom ventures deep into the fey wood for anything other than logging, the blackwood satyrs seem to take perverse pleasure in waylaying noble lords and ladies during their passage down the heavily traveled Sellen River, playing songs from the river's bank to lure vessels closer and enthrall all aboard."
 		]
 	},
-	"satyr_blackwood": { "copyof": "satyr_blackwood_satyr" },
-	"blackwood_satyr": { "copyof": "satyr_blackwood_satyr" },
+	"satyr_blackwood": { "redirect": "satyr_blackwood_satyr" },
+	"blackwood_satyr": { "redirect": "satyr_blackwood_satyr" },
 	"saumen_kar": {
 		"name": "Saumen Kar",
 		"sources": [ "Pathfinder #51: The Hungry Storm" ],
@@ -1107,8 +1107,8 @@
 			"The immense black scorpion is one of the largest desert predators. Capable of stinging with blinding speed, this creature is constantly on the hunt."
 		]
 	},
-	"scorpion_black": { "copyof": "scorpion_black_scorpion" },
-	"black_scorpion": { "copyof": "scorpion_black_scorpion" },
+	"scorpion_black": { "redirect": "scorpion_black_scorpion" },
+	"black_scorpion": { "redirect": "scorpion_black_scorpion" },
 	"scorpion_cave_scorpion": {
 		"name": "Cave Scorpion",
 		"sources": [ "Bestiary 2" ],
@@ -1156,8 +1156,8 @@
 			"The squat cave scorpion is quite well suited for life in caves. With its bulky armor, a cave scorpion at rest looks like a pile of stones. The cave scorpion's favorite food is dwarven meat, and when a cave scorpion finds a working dwarven mine, it can quickly become a major inconvenience. Dwarven societies often post hefty bounties on cave scorpion stingers."
 		]
 	},
-	"scorpion_cave": { "copyof": "scorpion_cave_scorpion" },
-	"cave_scorpion": { "copyof": "scorpion_cave_scorpion" },
+	"scorpion_cave": { "redirect": "scorpion_cave_scorpion" },
+	"cave_scorpion": { "redirect": "scorpion_cave_scorpion" },
 	"scorpion_deadfall_scorpion": {
 		"name": "Deadfall Scorpion",
 		"sources": [ "Bestiary 3" ],
@@ -1211,8 +1211,8 @@
 			"[^B]: Bonus feat."
 		]
 	},
-	"scorpion_deadfall": { "copyof": "scorpion_deadfall_scorpion" },
-	"deadfall_scorpion": { "copyof": "scorpion_deadfall_scorpion" },
+	"scorpion_deadfall": { "redirect": "scorpion_deadfall_scorpion" },
+	"deadfall_scorpion": { "redirect": "scorpion_deadfall_scorpion" },
 	"scorpion_ghost_scorpion": {
 		"name": "Ghost Scorpion",
 		"sources": [ "Bestiary 3" ],
@@ -1260,8 +1260,8 @@
 			"So named for their eerie, translucent carapaces, ghost scorpions are nocturnal desert hunters. A ghost scorpion's body is 3 feet long with a 3-foot long tail, and it weighs 45 pounds."
 		]
 	},
-	"scorpion_ghost": { "copyof": "scorpion_ghost_scorpion" },
-	"ghost_scorpion": { "copyof": "scorpion_ghost_scorpion" },
+	"scorpion_ghost": { "redirect": "scorpion_ghost_scorpion" },
+	"ghost_scorpion": { "redirect": "scorpion_ghost_scorpion" },
 	"scorpion_giant_emperor_scorpion": {
 		"name": "Giant Emperor Scorpion",
 		"sources": [ "Bestiary 4" ],
@@ -1312,8 +1312,8 @@
 			"A giant emperor scorpion is an ambush predator, burying itself in soil or sand until prey approaches."
 		]
 	},
-	"scorpion_giant_emperor": { "copyof": "scorpion_giant_emperor_scorpion" },
-	"giant_emperor_scorpion": { "copyof": "scorpion_giant_emperor_scorpion" },
+	"scorpion_giant_emperor": { "redirect": "scorpion_giant_emperor_scorpion" },
+	"giant_emperor_scorpion": { "redirect": "scorpion_giant_emperor_scorpion" },
 	"scorpion_giant_scorpion": {
 		"name": "Giant Scorpion",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -1383,8 +1383,8 @@
 			"| Black scorpion | 15 | Colossal | 22d8 |"
 		]
 	},
-	"scorpion_giant": { "copyof": "scorpion_giant_scorpion" },
-	"giant_scorpion": { "copyof": "scorpion_giant_scorpion" },
+	"scorpion_giant": { "redirect": "scorpion_giant_scorpion" },
+	"giant_scorpion": { "redirect": "scorpion_giant_scorpion" },
 	"scorpion_greensting_scorpion": {
 		"name": "Greensting Scorpion",
 		"sources": [
@@ -1439,8 +1439,8 @@
 			"A greensting scorpion familiar grants a +4 bonus on Initiative checks so long as the familiar is within 1 mile of the spellcaster. A greensting scorpion familiar loses the mindless trait and has an Intelligence score appropriate for its master's level."
 		]
 	},
-	"scorpion_greensting": { "copyof": "scorpion_greensting_scorpion" },
-	"greensting_scorpion": { "copyof": "scorpion_greensting_scorpion" },
+	"scorpion_greensting": { "redirect": "scorpion_greensting_scorpion" },
+	"greensting_scorpion": { "redirect": "scorpion_greensting_scorpion" },
 	"scrapshell": {
 		"name": "Scrapshell",
 		"sources": [ "Seers of the Drowned City" ],
@@ -2106,8 +2106,8 @@
 			"Giant sea snakes typically reach up to 30 feet in length and weigh 500 pounds."
 		]
 	},
-	"sea_snake_giant": { "copyof": "sea_snake_giant_sea_snake" },
-	"giant_sea_snake": { "copyof": "sea_snake_giant_sea_snake" },
+	"sea_snake_giant": { "redirect": "sea_snake_giant_sea_snake" },
+	"giant_sea_snake": { "redirect": "sea_snake_giant_sea_snake" },
 	"sea_urchin_giant_black_spot": {
 		"name": "Black Spot (Giant Sea Urchin)",
 		"sources": [ "Pathfinder #56: Raiders of the Fever Sea" ],
@@ -2171,7 +2171,7 @@
 			"A black spot urchin is typically several feet in diameter, but is mostly made of its long spines and so weighs only a few pounds."
 		]
 	},
-	"black_spot": { "copyof": "sea_urchin_giant_black_spot" },
+	"black_spot": { "redirect": "sea_urchin_giant_black_spot" },
 	"sea_urchin_giant_glass_urchin": {
 		"name": "Glass Urchin (Giant Sea Urchin)",
 		"sources": [ "Pathfinder #37: Souls for Smuggler's Shiv" ],
@@ -2241,7 +2241,7 @@
 			"Sea Urchin Venom: Spines-injury; *save* Fort 11; *frequency* 1/minute for 6 minutes; *effect* victim is sickened for 1 minute; *cure* 1 save."
 		]
 	},
-	"glass_urchin": { "copyof": "sea_urchin_giant_glass_urchin" },
+	"glass_urchin": { "redirect": "sea_urchin_giant_glass_urchin" },
 	"sea_urchin_giant_great_diadem_urchin": {
 		"name": "Great Diadem Urchin (Giant Sea Urchin)",
 		"sources": [ "Pathfinder #56: Raiders of the Fever Sea" ],
@@ -2294,7 +2294,7 @@
 			"Enormous and brilliantly colored diadem urchins are often sought after by terrestrial collectors or aquatic creatures seeking to simultaneously decorate and defend their throne rooms, yet such beasts are never truly trainable, and attack anyone who comes close."
 		]
 	},
-	"great_diadem_urchin": { "copyof": "sea_urchin_giant_great_diadem_urchin" },
+	"great_diadem_urchin": { "redirect": "sea_urchin_giant_great_diadem_urchin" },
 	"sea_urchin_giant_hunter_urchin": {
 		"name": "Hunter Urchin (Giant Sea Urchin)",
 		"sources": [
@@ -2367,7 +2367,7 @@
 			"Sea Urchin Venom: Spines-injury; *save* Fort 11; *frequency* 1/minute for 6 minutes; *effect* victim is sickened for 1 minute; *cure* 1 save."
 		]
 	},
-	"hunter_urchin": { "copyof": "sea_urchin_giant_hunter_urchin" },
+	"hunter_urchin": { "redirect": "sea_urchin_giant_hunter_urchin" },
 	"sea_urchin_giant_ravenous_urchin_swarm": {
 		"name": "Ravenous Urchin Swarm (Giant Sea Urchin)",
 		"sources": [ "Pathfinder #56: Raiders of the Fever Sea" ],
@@ -2440,7 +2440,7 @@
 			"[^B]: Bonus feat."
 		]
 	},
-	"ravenous_urchin_swarm": { "copyof": "sea_urchin_giant_ravenous_urchin_swarm" },
+	"ravenous_urchin_swarm": { "redirect": "sea_urchin_giant_ravenous_urchin_swarm" },
 	"sea_urchin_giant_spear_urchin": {
 		"name": "Spear Urchin (Giant Sea Urchin)",
 		"sources": [
@@ -2514,7 +2514,7 @@
 			"Sea Urchin Venom: Spines-injury; *save* Fort 11; *frequency* 1/minute for 6 minutes; *effect* victim is sickened for 1 minute; *cure* 1 save."
 		]
 	},
-	"spear_urchin": { "copyof": "sea_urchin_giant_spear_urchin" },
+	"spear_urchin": { "redirect": "sea_urchin_giant_spear_urchin" },
 	"sea_worm_king_ragworm": {
 		"name": "King Ragworm (Sea Worm)",
 		"sources": [ "Pathfinder #124: City in the Deep" ],
@@ -2571,7 +2571,7 @@
 			"[^B]: Bonus feat."
 		]
 	},
-	"king_ragworm": { "copyof": "sea_worm_king_ragworm" },
+	"king_ragworm": { "redirect": "sea_worm_king_ragworm" },
 	"seahorse_giant_seahorse": {
 		"name": "Giant Seahorse",
 		"sources": [ "Bestiary 4" ],
@@ -2622,8 +2622,8 @@
 			"A giant seahorse is considered a quadruped for the purpose of carrying capacity. A light load for a giant seahorse is up to 500 pounds, a medium load is 1,000 pounds, and a heavy load is 1,600 pounds. It can drag 8,000 pounds."
 		]
 	},
-	"seahorse_giant": { "copyof": "seahorse_giant_seahorse" },
-	"giant_seahorse": { "copyof": "seahorse_giant_seahorse" },
+	"seahorse_giant": { "redirect": "seahorse_giant_seahorse" },
+	"giant_seahorse": { "redirect": "seahorse_giant_seahorse" },
 	"seahorse_killer_seahorse": {
 		"name": "Killer Seahorse",
 		"sources": [ "Bestiary 4" ],
@@ -2673,8 +2673,8 @@
 			"A light load for a killer seahorse is up to 2,500 pounds, a medium load is 4,900 pounds, and a heavy load is 7,400 pounds. A killer seahorse can drag 36,800 pounds."
 		]
 	},
-	"seahorse_killer": { "copyof": "seahorse_killer_seahorse" },
-	"killer_seahorse": { "copyof": "seahorse_killer_seahorse" },
+	"seahorse_killer": { "redirect": "seahorse_killer_seahorse" },
+	"killer_seahorse": { "redirect": "seahorse_killer_seahorse" },
 	"seaweed_siren": {
 		"name": "Seaweed Siren",
 		"sources": [
@@ -3037,8 +3037,8 @@
 			"Sepses are born live. A hatchling soon grows up to 7 feet long and weighs 10 pounds."
 		]
 	},
-	"seps_juvenile": { "copyof": "seps_juvenile_seps" },
-	"juvenile_seps": { "copyof": "seps_juvenile_seps" },
+	"seps_juvenile": { "redirect": "seps_juvenile_seps" },
+	"juvenile_seps": { "redirect": "seps_juvenile_seps" },
 	"serpentfolk": {
 		"name": "Serpentfolk",
 		"sources": [
@@ -3173,7 +3173,7 @@
 			"The serpentfolk bone prophet uses its powers to control slaves and convert the dead into mindless minions. It constantly hears the otherworldly whispers of the skeletal head of its god and relays those cryptic words to its mage colleagues."
 		]
 	},
-	"serpentfolk_bone_prophet": { "copyof": "serpentfolk_serpentfolk_bone_prophet" },
+	"serpentfolk_bone_prophet": { "redirect": "serpentfolk_serpentfolk_bone_prophet" },
 	"serpentfolk_serpentfolk_high_priest": {
 		"name": "Serpentfolk High Priest",
 		"sources": [ "Monster Codex" ],
@@ -3241,7 +3241,7 @@
 			"[^D]: Domain spell"
 		]
 	},
-	"serpentfolk_high_priest": { "copyof": "serpentfolk_serpentfolk_high_priest" },
+	"serpentfolk_high_priest": { "redirect": "serpentfolk_serpentfolk_high_priest" },
 	"serpentfolk_serpentfolk_hunter": {
 		"name": "Serpentfolk Hunter",
 		"sources": [ "Monster Codex" ],
@@ -3297,7 +3297,7 @@
 			"Despite the fact that the serpentfolk live underground, serpentfolk hunters usually train to work against a specific enemy rather than in a specific terrain. This allows them to do their job equally well when defending their cavern-cities against encroaching adventures as when making precise raids into aboveground communities. A single purecaste serpentfolk might have several different hunters working for him that all specialize in different favored enemies to maximize versatility, or he might have an entire squad trained as a unit from birth to fight a particular hated breed of surface-dwelling foe."
 		]
 	},
-	"serpentfolk_hunter": { "copyof": "serpentfolk_serpentfolk_hunter" },
+	"serpentfolk_hunter": { "redirect": "serpentfolk_serpentfolk_hunter" },
 	"serpentfolk_serpentfolk_illusionist": {
 		"name": "Serpentfolk Illusionist",
 		"sources": [ "Monster Codex" ],
@@ -3359,7 +3359,7 @@
 			"A serpentfolk illusionist has greatly enhanced its racial gifts for deception with decades of intensive arcane study. On the surface world, it is often the leader of a group of serpentfolk or a cult of lesser reptilian humanoids."
 		]
 	},
-	"serpentfolk_illusionist": { "copyof": "serpentfolk_serpentfolk_illusionist" },
+	"serpentfolk_illusionist": { "redirect": "serpentfolk_serpentfolk_illusionist" },
 	"serpentfolk_serpentfolk_reclaimer": {
 		"name": "Serpentfolk Reclaimer",
 		"sources": [ "Occult Bestiary" ],
@@ -3422,7 +3422,7 @@
 			"Serpentfolk reclaimers stand 6 feet tall and weigh 120 pounds."
 		]
 	},
-	"serpentfolk_reclaimer": { "copyof": "serpentfolk_serpentfolk_reclaimer" },
+	"serpentfolk_reclaimer": { "redirect": "serpentfolk_serpentfolk_reclaimer" },
 	"serpentfolk_serpentfolk_spellblade": {
 		"name": "Serpentfolk Spellblade",
 		"sources": [ "Monster Codex" ],
@@ -3485,7 +3485,7 @@
 			"Spellblades mix the brute power of degenerate serpentfolk with the skill and magic of purecastes. An enigma even among their own kind, spellblades are respected by all."
 		]
 	},
-	"serpentfolk_spellblade": { "copyof": "serpentfolk_serpentfolk_spellblade" },
+	"serpentfolk_spellblade": { "redirect": "serpentfolk_serpentfolk_spellblade" },
 	"serpentfolk_serpentfolk_spy": {
 		"name": "Serpentfolk Spy",
 		"sources": [ "Monster Codex" ],
@@ -3542,7 +3542,7 @@
 			"A serpentfolk spy monitors activity in surface settlements, noting authority figures, defenses, and those who could be bribed or coerced into serving the serpentfolk empire. While most serpentfolk spies describe their professions in terms of analyzing weaknesses and preparing for the eventual large-scale assault on the surface world, the truth is that many spies (and their masters) have immediate goals in mind. Spies often stake out powerful priests and arcanists, posing as fellow scholars or simple servitors, in order to gain access to knowledge and arcane lore not readily available in their subterranean caverns. Given their long life spans and reptilian patience, these individuals may infiltrate an organization and stay implanted there for years, waiting for a choice artifact or tome to present itself. Once it does, the spy absconds with the relic and retreats back to the serpentfolk city of its paymasters-killing any warmbloods who stand in its way."
 		]
 	},
-	"serpentfolk_spy": { "copyof": "serpentfolk_serpentfolk_spy" },
+	"serpentfolk_spy": { "redirect": "serpentfolk_serpentfolk_spy" },
 	"serpopard": {
 		"name": "Serpopard",
 		"sources": [ "Pathfinder #81: Shifting Sands" ],
@@ -3893,7 +3893,7 @@
 			"Worm-like monstrosities engorged on the thoughts of prophets and mystics, seugathi savants differ from their lesser kin in their immense size and their inherent talent for psychic magic. Like all seugathi, savants are driven by mental compulsions instilled by their neothelid masters. However, they perceive more of their masters' eons-spanning schemes than most other seugathi, and the neothelids grant them greater flexibility in achieving these goals. Seugathi savants dismiss ordinary seugathi as unworthy drones and largely ignore them, while seugathi revere savants as wiser, older siblings-much to the irritation of the savants. A seugathi savant measures 35 feet long and weighs 7,000 pounds."
 		]
 	},
-	"seugathi_savant": { "copyof": "seugathi_seugathi_savant" },
+	"seugathi_savant": { "redirect": "seugathi_seugathi_savant" },
 	"sha": {
 		"name": "Sha",
 		"sources": [
@@ -4218,7 +4218,7 @@
 			"Shadow creatures on the Material Plane will produce offspring, giving rise to shadow creature enclaves in dark corners of the world. Stranger still, a burgeoning ecology of shadow creatures that forms a colony on the Material Plane seems to create a small blighted realm of shadow where they dwell. As such, areas grow more and more overcast. Shadows become unnaturally deeper, darker, and more cloying until the land itself seems to assume the landscape and terrain of the Shadow Plane. As part of this transformation process, one of the more intelligent shadow creatures in the area becomes a shadow lord - a dread agent of shadow that controls powerful shadow abilities and works to expand its alien domain."
 		]
 	},
-	"shadow_roper": { "copyof": "shadow_creature_shadow_roper" },
+	"shadow_roper": { "redirect": "shadow_creature_shadow_roper" },
 	"shadow_fern": {
 		"name": "Shadow Fern",
 		"sources": [ "Nidal, Land of Shadows" ],
@@ -4379,6 +4379,6 @@
 			"Greater shadows are those undead shadows that have come to be particularly infused with negative energy, such as those that have spent vast lengths of time in areas of the Plane of Shadow awash in negative energy, or those that have drained the lives of thousands of victims. These undead monsters are often found with a small band of normal shadows, which typically treat a greater shadow as a leader to rally behind."
 		]
 	},
-	"shadow_greater": { "copyof": "shadow_greater_shadow" },
-	"greater_shadow": { "copyof": "shadow_greater_shadow" }
+	"shadow_greater": { "redirect": "shadow_greater_shadow" },
+	"greater_shadow": { "redirect": "shadow_greater_shadow" }
 }

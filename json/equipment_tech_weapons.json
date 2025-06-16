@@ -685,7 +685,7 @@
 			"{feat/Craft Technological Arms and Armor}, {rule/crafting<military| lab>oratories}"
 		]
 	},
-	"beam_cannon_arc_cannon": { "copyof": "beam_cannon" },
+	"beam_cannon_arc_cannon": { "redirect": "beam_cannon" },
 	"beam_cannon_emp_cannon": {
 		"name": "Beam Cannon (EMP cannon)",
 		"copyof": "beam_cannon"

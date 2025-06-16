@@ -116,7 +116,7 @@
 			"The karkinoi brood mother remains close by her progeny after they hatch, both to educate them and to safeguard them from predators, especially other karkinoi, which have been known to cannibalize karkinoi spawn. Karkinoi spawn mature rapidly, growing larger and aggressively vying for domination over each other. A karkinoi brood swarm's spawn rapidly diminish in number as the stronger members consume the vanquished. Eventually the karkinoi adolescents split up, searching for their own aquatic lairs and ample sources of soft meat."
 		]
 	},
-	"karkinoi_brood_swarm": { "copyof": "karkinoi_karkinoi_brood_swarm" },
+	"karkinoi_brood_swarm": { "redirect": "karkinoi_karkinoi_brood_swarm" },
 	"keeper_of_the_yellow_sign": {
 		"name": "Keeper of the Yellow Sign",
 		"sources": [ "Pathfinder #110: The Thrushmoor Terror" ],
@@ -250,8 +250,8 @@
 			"**Family:** {family/Linnorm}"
 		]
 	},
-	"linnorm_cairn": { "copyof": "linnorm_cairn_linnorm" },
-	"cairn_linnorm": { "copyof": "linnorm_cairn_linnorm" },
+	"linnorm_cairn": { "redirect": "linnorm_cairn_linnorm" },
+	"cairn_linnorm": { "redirect": "linnorm_cairn_linnorm" },
 	"linnorm_crag_linnorm": {
 		"name": "Crag Linnorm",
 		"sources": [
@@ -317,8 +317,8 @@
 			"**Family:** {family/Linnorm}"
 		]
 	},
-	"linnorm_crag": { "copyof": "linnorm_crag_linnorm" },
-	"crag_linnorm": { "copyof": "linnorm_crag_linnorm" },
+	"linnorm_crag": { "redirect": "linnorm_crag_linnorm" },
+	"crag_linnorm": { "redirect": "linnorm_crag_linnorm" },
 	"linnorm_fjord_linnorm": {
 		"name": "Fjord Linnorm",
 		"sources": [ "Bestiary 3" ],
@@ -380,8 +380,8 @@
 			"**Family:** {family/Linnorm}"
 		]
 	},
-	"linnorm_fjord": { "copyof": "linnorm_fjord_linnorm" },
-	"fjord_linnorm": { "copyof": "linnorm_fjord_linnorm" },
+	"linnorm_fjord": { "redirect": "linnorm_fjord_linnorm" },
+	"fjord_linnorm": { "redirect": "linnorm_fjord_linnorm" },
 	"linnorm_gare_linnorm": {
 		"name": "Gare Linnorm",
 		"sources": [
@@ -462,8 +462,8 @@
 			"Despite their fearsome reputations, gare linnorms are sometimes hunted by the brave or the foolhardy. In the Lands of the Linnorm Kings, would-be kings who kill a gare linnorm are afforded extra prestige, as such combat often requires fighting the beast both on land and on or beneath the surface of the water. Frost giants are also known to hunt gare linnorms, but invariably target hatchlings or the very young, raising the captive dragons as powerful sentries and loyal companions that are often more dangerous than the giant's entire clan."
 		]
 	},
-	"linnorm_gare": { "copyof": "linnorm_gare_linnorm" },
-	"gare_linnorm": { "copyof": "linnorm_gare_linnorm" },
+	"linnorm_gare": { "redirect": "linnorm_gare_linnorm" },
+	"gare_linnorm": { "redirect": "linnorm_gare_linnorm" },
 	"linnorm_ice_linnorm": {
 		"name": "Ice Linnorm",
 		"sources": [
@@ -531,8 +531,8 @@
 			"**Family:** {family/Linnorm}"
 		]
 	},
-	"linnorm_ice": { "copyof": "linnorm_ice_linnorm" },
-	"ice_linnorm": { "copyof": "linnorm_ice_linnorm" },
+	"linnorm_ice": { "redirect": "linnorm_ice_linnorm" },
+	"ice_linnorm": { "redirect": "linnorm_ice_linnorm" },
 	"linnorm_sea_linnorm": {
 		"name": "Sea Linnorm",
 		"sources": [
@@ -609,8 +609,8 @@
 			"Few mortals know of the existence of sea linnorms, let alone hunt these ancient creatures. The sole recorded instance of a successfully slain sea linnorm was by the Linnorm King Elgar Fahrstad. As the king crossed the Arcadian Ocean on his way to the mystical paradise of Valenhall, Fahrstad is said to have leapt without uttering a word from the side of his longship into the depths of the ocean. For 3 days and 3 nights, his entourage waited. On daybreak of the fourth day, Elgar Fahrstad emerged from the sea, accompanied by a ride of eight valkyries and the severed head of a sea linnorm. A half-dozen skalds departed the expedition, forsaking the paradise of Valenhall so they could return to the Lands of the Linnorm Kings and retell the final journey of King Fahrstad."
 		]
 	},
-	"linnorm_sea": { "copyof": "linnorm_sea_linnorm" },
-	"sea_linnorm": { "copyof": "linnorm_sea_linnorm" },
+	"linnorm_sea": { "redirect": "linnorm_sea_linnorm" },
+	"sea_linnorm": { "redirect": "linnorm_sea_linnorm" },
 	"linnorm_taiga_linnorm": {
 		"name": "Taiga Linnorm",
 		"sources": [ "Bestiary 3" ],
@@ -673,8 +673,8 @@
 			"**Family:** {family/Linnorm}"
 		]
 	},
-	"linnorm_taiga": { "copyof": "linnorm_taiga_linnorm" },
-	"taiga_linnorm": { "copyof": "linnorm_taiga_linnorm" },
+	"linnorm_taiga": { "redirect": "linnorm_taiga_linnorm" },
+	"taiga_linnorm": { "redirect": "linnorm_taiga_linnorm" },
 	"linnorm_tarn_linnorm": {
 		"name": "Tarn Linnorm",
 		"sources": [
@@ -745,8 +745,8 @@
 			"**Family:** {family/Linnorm}"
 		]
 	},
-	"linnorm_tarn": { "copyof": "linnorm_tarn_linnorm" },
-	"tarn_linnorm": { "copyof": "linnorm_tarn_linnorm" },
+	"linnorm_tarn": { "redirect": "linnorm_tarn_linnorm" },
+	"tarn_linnorm": { "redirect": "linnorm_tarn_linnorm" },
 	"linnorm_tor_linnorm": {
 		"name": "Tor Linnorm",
 		"sources": [ "Bestiary 3" ],
@@ -808,8 +808,8 @@
 			"**Family:** {family/Linnorm}"
 		]
 	},
-	"linnorm_tor": { "copyof": "linnorm_tor_linnorm" },
-	"tor_linnorm": { "copyof": "linnorm_tor_linnorm" },
+	"linnorm_tor": { "redirect": "linnorm_tor_linnorm" },
+	"tor_linnorm": { "redirect": "linnorm_tor_linnorm" },
 	"mandragora": {
 		"name": "Mandragora",
 		"sources": [
@@ -1315,7 +1315,7 @@
 			"**Family:** {family/Megafauna}"
 		]
 	},
-	"archelon": { "copyof": "megafauna_archelon" },
+	"archelon": { "redirect": "megafauna_archelon" },
 	"megafauna_arsinoitherium": {
 		"name": "Arsinoitherium (Megafauna)",
 		"sources": [
@@ -1365,7 +1365,7 @@
 			"**Family:** {family/Megafauna}"
 		]
 	},
-	"arsinoitherium": { "copyof": "megafauna_arsinoitherium" },
+	"arsinoitherium": { "redirect": "megafauna_arsinoitherium" },
 	"megafauna_baluchitherium": {
 		"name": "Baluchitherium (Megafauna)",
 		"sources": [
@@ -1417,7 +1417,7 @@
 			"**Family:** {family/Megafauna}"
 		]
 	},
-	"baluchitherium": { "copyof": "megafauna_baluchitherium" },
+	"baluchitherium": { "redirect": "megafauna_baluchitherium" },
 	"megafauna_basilosaurus": {
 		"name": "Basilosaurus (Megafauna)",
 		"sources": [
@@ -1470,7 +1470,7 @@
 			"**Family:** {family/Megafauna}"
 		]
 	},
-	"basilosaurus": { "copyof": "megafauna_basilosaurus" },
+	"basilosaurus": { "redirect": "megafauna_basilosaurus" },
 	"megafauna_brontotherium": {
 		"name": "Brontotherium (Megafauna)",
 		"sources": [
@@ -1520,7 +1520,7 @@
 			"**Family:** {family/Megafauna}"
 		]
 	},
-	"brontotherium": { "copyof": "megafauna_brontotherium" },
+	"brontotherium": { "redirect": "megafauna_brontotherium" },
 	"megafauna_chalicotherium": {
 		"name": "Chalicotherium (Megafauna)",
 		"sources": [
@@ -1574,7 +1574,7 @@
 			"**Family:** {family/Megafauna}"
 		]
 	},
-	"chalicotherium": { "copyof": "megafauna_chalicotherium" },
+	"chalicotherium": { "redirect": "megafauna_chalicotherium" },
 	"megafauna_deinotherium": {
 		"name": "Deinotherium (Megafauna)",
 		"sources": [
@@ -1631,7 +1631,7 @@
 			"**Family:** {family/Megafauna}"
 		]
 	},
-	"deinotherium": { "copyof": "megafauna_deinotherium" },
+	"deinotherium": { "redirect": "megafauna_deinotherium" },
 	"megafauna_elasmotherium": {
 		"name": "Elasmotherium (Megafauna)",
 		"sources": [
@@ -1687,7 +1687,7 @@
 			"**Family:** {family/Megafauna}"
 		]
 	},
-	"elasmotherium": { "copyof": "megafauna_elasmotherium" },
+	"elasmotherium": { "redirect": "megafauna_elasmotherium" },
 	"megafauna_embolotherium": {
 		"name": "Embolotherium (Megafauna)",
 		"sources": [
@@ -1740,7 +1740,7 @@
 			"**Family:** {family/Megafauna}"
 		]
 	},
-	"embolotherium": { "copyof": "megafauna_embolotherium" },
+	"embolotherium": { "redirect": "megafauna_embolotherium" },
 	"megafauna_glyptodon": {
 		"name": "Glyptodon (Megafauna)",
 		"sources": [
@@ -1789,7 +1789,7 @@
 			"**Family:** {family/Megafauna}"
 		]
 	},
-	"glyptodon": { "copyof": "megafauna_glyptodon" },
+	"glyptodon": { "redirect": "megafauna_glyptodon" },
 	"megafauna_kaprosuchus": {
 		"name": "Kaprosuchus (Megafauna)",
 		"sources": [
@@ -1843,7 +1843,7 @@
 			"**Family:** {family/Megafauna}"
 		]
 	},
-	"kaprosuchus": { "copyof": "megafauna_kaprosuchus" },
+	"kaprosuchus": { "redirect": "megafauna_kaprosuchus" },
 	"megafauna_megalania": {
 		"name": "Megalania (Megafauna)",
 		"sources": [
@@ -1899,7 +1899,7 @@
 			"**Family:** {family/Megafauna}"
 		]
 	},
-	"megalania": { "copyof": "megafauna_megalania" },
+	"megalania": { "redirect": "megafauna_megalania" },
 	"megafauna_megaloceros": {
 		"name": "Megaloceros (Megafauna)",
 		"sources": [
@@ -1952,7 +1952,7 @@
 			"[^B]: Bonus feat."
 		]
 	},
-	"megaloceros": { "copyof": "megafauna_megaloceros" },
+	"megaloceros": { "redirect": "megafauna_megaloceros" },
 	"megafauna_megatherium": {
 		"name": "Megatherium (Megafauna)",
 		"sources": [
@@ -2002,7 +2002,7 @@
 			"**Family:** {family/Megafauna}"
 		]
 	},
-	"megatherium": { "copyof": "megafauna_megatherium" },
+	"megatherium": { "redirect": "megafauna_megatherium" },
 	"megafauna_moa": {
 		"name": "Moa (Megafauna)",
 		"sources": [
@@ -2053,7 +2053,7 @@
 			"**Family:** {family/Megafauna}"
 		]
 	},
-	"moa": { "copyof": "megafauna_moa" },
+	"moa": { "redirect": "megafauna_moa" },
 	"megafauna_titanoboa": {
 		"name": "Titanoboa (Megafauna)",
 		"sources": [
@@ -2105,7 +2105,7 @@
 			"**Family:** {family/Megafauna}"
 		]
 	},
-	"titanoboa": { "copyof": "megafauna_titanoboa" },
+	"titanoboa": { "redirect": "megafauna_titanoboa" },
 	"megafauna_uintatherium": {
 		"name": "Uintatherium (Megafauna)",
 		"sources": [
@@ -2158,7 +2158,7 @@
 			"**Family:** {family/Megafauna}"
 		]
 	},
-	"uintatherium": { "copyof": "megafauna_uintatherium" },
+	"uintatherium": { "redirect": "megafauna_uintatherium" },
 	"melacage": {
 		"name": "Melacage",
 		"sources": [ "Pathfinder #140: Eulogy for Roslar's Coffer" ],
@@ -2710,8 +2710,8 @@
 			"A freshwater merrow is 12 feet tall and weighs 500 pounds. Saltwater merrows easily reach 20 feet tall and 4,000 pounds, and have been known to hunt whales. The two species do not often come in contact, but when they do, feuding and conflict are swift to develop."
 		]
 	},
-	"merrow_freshwater": { "copyof": "merrow_freshwater_merrow" },
-	"freshwater_merrow": { "copyof": "merrow_freshwater_merrow" },
+	"merrow_freshwater": { "redirect": "merrow_freshwater_merrow" },
+	"freshwater_merrow": { "redirect": "merrow_freshwater_merrow" },
 	"merrow_saltwater_merrow": {
 		"name": "Saltwater Merrow",
 		"sources": [ "Bestiary 2" ],
@@ -2760,8 +2760,8 @@
 			"A freshwater merrow is 12 feet tall and weighs 500 pounds. Saltwater merrows easily reach 20 feet tall and 4,000 pounds, and have been known to hunt whales. The two species do not often come in contact, but when they do, feuding and conflict are swift to develop."
 		]
 	},
-	"merrow_saltwater": { "copyof": "merrow_saltwater_merrow" },
-	"saltwater_merrow": { "copyof": "merrow_saltwater_merrow" },
+	"merrow_saltwater": { "redirect": "merrow_saltwater_merrow" },
+	"saltwater_merrow": { "redirect": "merrow_saltwater_merrow" },
 	"mezlan": {
 		"name": "Mezlan",
 		"sources": [
@@ -2947,7 +2947,7 @@
 			"[^B]: Bonus feat."
 		]
 	},
-	"labyrinth_guardian": { "copyof": "minotaur_labyrinth_guardian" },
+	"labyrinth_guardian": { "redirect": "minotaur_labyrinth_guardian" },
 	"minotaur_labyrinth_minotaur": {
 		"name": "Labyrinth Minotaur",
 		"sources": [ "Pathfinder #77: Herald of the Ivory Labyrinth" ],
@@ -3025,8 +3025,8 @@
 			"Labyrinth minotaurs are rarely encountered outside of the Ivory Labyrinth, and therefore have little interaction with other races beyond visitors to their master's realm. Labyrinth minotaurs display grudging respect for glabrezu and vilsteth demons and undisguised contempt for mortal minotaurs and cultists of Baphomet. Their arrogance precludes true camaraderie with anyone other than those of their own kind."
 		]
 	},
-	"minotaur_labyrinth": { "copyof": "minotaur_labyrinth_minotaur" },
-	"labyrinth_minotaur": { "copyof": "minotaur_labyrinth_minotaur" },
+	"minotaur_labyrinth": { "redirect": "minotaur_labyrinth_minotaur" },
+	"labyrinth_minotaur": { "redirect": "minotaur_labyrinth_minotaur" },
 	"minotaur_minotaur_marauder": {
 		"name": "Minotaur Marauder",
 		"sources": [ "Inner Sea Monster Codex" ],
@@ -3081,7 +3081,7 @@
 			"These minotaurs show an uncharacteristic kindness to beasts of the field, sometimes training goats, dogs, or bulls to serve them as pets and guardians."
 		]
 	},
-	"minotaur_marauder": { "copyof": "minotaur_minotaur_marauder" },
+	"minotaur_marauder": { "redirect": "minotaur_minotaur_marauder" },
 	"minotaur_prophet_of_baphomet": {
 		"name": "Prophet of Baphomet (Minotaur)",
 		"sources": [ "Inner Sea Monster Codex" ],
@@ -3143,7 +3143,7 @@
 			"[^D]: Domain spell"
 		]
 	},
-	"prophet_of_baphomet": { "copyof": "minotaur_prophet_of_baphomet" },
+	"prophet_of_baphomet": { "redirect": "minotaur_prophet_of_baphomet" },
 	"minotaur_tangle_tender": {
 		"name": "Tangle Tender (Minotaur)",
 		"sources": [ "Inner Sea Monster Codex" ],
@@ -3192,7 +3192,7 @@
 			"Weaker than many of their brutish kin, tangle tenders instead apply their racial cunning and understanding of complex systems to mechanical devices, constructing ingenious traps that whittle away those lost in the labyrinths with little or no direct danger to themselves. They build and reset traps, alter or conceal carefully whatever trails their victims attempt to leave, and strike from the shadows only once their victims are desperate, exhausted, and at each others' throats. Their tactics aren't motivated by cowardice; rather, these cruel creators love to inflict misery by outwitting their enemies rather than out-muscling them. Tangle tenders belong to the maze; they are intimately familiar with every twist and turn, and are keen to introduce interlopers to each in turn. Among minotaur tribes, tangle tenders hold a strange position, both necessary and loathed. They never shy away from bragging about their genius, and their kin recognize the value of a tangle tender's devices for trapping prey. But minotaurs respect strength, courage, and aggression first and foremost, and these clever rogues excel at none of those qualities-most thus see these trapsmiths as socially stunted, needlessly sadistic (even by minotaur standards), and physically weak to the point of embarrassment. Few voice these opinions, however, as those who do frequently face tragic accidents deep within the maze."
 		]
 	},
-	"tangle_tender": { "copyof": "minotaur_tangle_tender" },
+	"tangle_tender": { "redirect": "minotaur_tangle_tender" },
 	"naga_dark_naga": {
 		"name": "Dark Naga",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -3261,8 +3261,8 @@
 			"[^B]: Bonus feat."
 		]
 	},
-	"naga_dark": { "copyof": "naga_dark_naga" },
-	"dark_naga": { "copyof": "naga_dark_naga" },
+	"naga_dark": { "redirect": "naga_dark_naga" },
+	"dark_naga": { "redirect": "naga_dark_naga" },
 	"naga_deep_naga": {
 		"name": "Deep Naga",
 		"sources": [
@@ -3346,8 +3346,8 @@
 			"Deep nagas are very particular about and protective of their lairs. They exert a substantial effort to find one that suits their needs, so they don't give them up without a fight. Unless the source of magic depletes or they are driven out by a more powerful deep naga, they rarely abandon their lairs. However, if a deep naga learns of an even more potent magical site, she might try to conquer this new lair for herself. Deep nagas do not usually care what tribes that serve them do, as long as the offerings keep coming, but they might push the tribes to conquer a superior place for a lair."
 		]
 	},
-	"naga_deep": { "copyof": "naga_deep_naga" },
-	"deep_naga": { "copyof": "naga_deep_naga" },
+	"naga_deep": { "redirect": "naga_deep_naga" },
+	"deep_naga": { "redirect": "naga_deep_naga" },
 	"naga_dream_naga": {
 		"name": "Dream Naga",
 		"sources": [
@@ -3414,8 +3414,8 @@
 			"**Family:** {family/Naga}"
 		]
 	},
-	"naga_dream": { "copyof": "naga_dream_naga" },
-	"dream_naga": { "copyof": "naga_dream_naga" },
+	"naga_dream": { "redirect": "naga_dream_naga" },
+	"dream_naga": { "redirect": "naga_dream_naga" },
 	"naga_guardian_naga": {
 		"name": "Guardian Naga",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -3479,8 +3479,8 @@
 			"**Family:** {family/Naga}"
 		]
 	},
-	"naga_guardian": { "copyof": "naga_guardian_naga" },
-	"guardian_naga": { "copyof": "naga_guardian_naga" },
+	"naga_guardian": { "redirect": "naga_guardian_naga" },
+	"guardian_naga": { "redirect": "naga_guardian_naga" },
 	"naga_lunar_naga": {
 		"name": "Lunar Naga",
 		"sources": [
@@ -3549,8 +3549,8 @@
 			"[^B]: Bonus feat."
 		]
 	},
-	"naga_lunar": { "copyof": "naga_lunar_naga" },
-	"lunar_naga": { "copyof": "naga_lunar_naga" },
+	"naga_lunar": { "redirect": "naga_lunar_naga" },
+	"lunar_naga": { "redirect": "naga_lunar_naga" },
 	"naga_royal_naga": {
 		"name": "Royal Naga",
 		"sources": [
@@ -3621,8 +3621,8 @@
 			"**Family:** {family/Naga}"
 		]
 	},
-	"naga_royal": { "copyof": "naga_royal_naga" },
-	"royal_naga": { "copyof": "naga_royal_naga" },
+	"naga_royal": { "redirect": "naga_royal_naga" },
+	"royal_naga": { "redirect": "naga_royal_naga" },
 	"naga_slime_naga": {
 		"name": "Slime Naga",
 		"sources": [
@@ -3692,8 +3692,8 @@
 			"**Family:** {family/Naga}"
 		]
 	},
-	"naga_slime": { "copyof": "naga_slime_naga" },
-	"slime_naga": { "copyof": "naga_slime_naga" },
+	"naga_slime": { "redirect": "naga_slime_naga" },
+	"slime_naga": { "redirect": "naga_slime_naga" },
 	"naga_spirit_naga": {
 		"name": "Spirit Naga",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -3762,8 +3762,8 @@
 			"[^B]: Bonus feat."
 		]
 	},
-	"naga_spirit": { "copyof": "naga_spirit_naga" },
-	"spirit_naga": { "copyof": "naga_spirit_naga" },
+	"naga_spirit": { "redirect": "naga_spirit_naga" },
+	"spirit_naga": { "redirect": "naga_spirit_naga" },
 	"naga_water_naga": {
 		"name": "Water Naga",
 		"sources": [
@@ -3832,8 +3832,8 @@
 			"[^B]: Bonus feat."
 		]
 	},
-	"naga_water": { "copyof": "naga_water_naga" },
-	"water_naga": { "copyof": "naga_water_naga" },
+	"naga_water": { "redirect": "naga_water_naga" },
+	"water_naga": { "redirect": "naga_water_naga" },
 	"nagaji": {
 		"name": "Nagaji",
 		"sources": [ "Bestiary 4" ],

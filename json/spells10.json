@@ -978,7 +978,7 @@
 		"name": "Greater Synaptic Pulse",
 		"copyof": "synaptic_pulse"
 	},
-	"greater_synaptic_pulse": { "copyof": "synaptic_pulse_greater" },
+	"greater_synaptic_pulse": { "redirect": "synaptic_pulse_greater" },
 	"synaptic_scramble": {
 		"name": "Synaptic Scramble",
 		"sources": [ "Occult Adventures" ],
@@ -1044,7 +1044,7 @@
 		"name": "Mass Synesthesia",
 		"copyof": "synesthesia"
 	},
-	"mass_synesthesia": { "copyof": "synesthesia_mass" },
+	"mass_synesthesia": { "redirect": "synesthesia_mass" },
 	"tactical_acumen": {
 		"name": "Tactical Acumen",
 		"sources": [ "Ultimate Combat" ],
@@ -1838,7 +1838,7 @@
 		"name": "Greater Teleport",
 		"copyof": "teleport"
 	},
-	"greater_teleport": { "copyof": "teleport_greater" },
+	"greater_teleport": { "redirect": "teleport_greater" },
 	"teleportation_circle": {
 		"name": "Teleportation Circle",
 		"sources": [ "PRPG Core Rulebook" ],
@@ -2281,27 +2281,27 @@
 			"This functions as thought shield IV, except as noted above. This spell immediately ends if you fail a Will saving throw against a mind-affecting effect. This spell can be undercast."
 		]
 	},
-	"thought_shield_i": { "copyof": "thought_shield_1" },
+	"thought_shield_i": { "redirect": "thought_shield_1" },
 	"thought_shield_2": {
 		"name": "Thought Shield II",
 		"copyof": "thought_shield_1"
 	},
-	"thought_shield_ii": { "copyof": "thought_shield_2" },
+	"thought_shield_ii": { "redirect": "thought_shield_2" },
 	"thought_shield_3": {
 		"name": "Thought Shield III",
 		"copyof": "thought_shield_1"
 	},
-	"thought_shield_iii": { "copyof": "thought_shield_3" },
+	"thought_shield_iii": { "redirect": "thought_shield_3" },
 	"thought_shield_4": {
 		"name": "Thought Shield IV",
 		"copyof": "thought_shield_1"
 	},
-	"thought_shield_iv": { "copyof": "thought_shield_4" },
+	"thought_shield_iv": { "redirect": "thought_shield_4" },
 	"thought_shield_5": {
 		"name": "Thought Shield V",
 		"copyof": "thought_shield_1"
 	},
-	"thought_shield_v": { "copyof": "thought_shield_5" },
+	"thought_shield_v": { "redirect": "thought_shield_5" },
 	"thought_worm_1": {
 		"name": "Thought Worm I",
 		"sources": [ "Psychic Anthology" ],
@@ -2320,7 +2320,7 @@
 			"You implant a minor suggestion within the target creature's psyche that makes it less inclined to resist mental intrusion. The target creature takes a -2 penalty on Will saves against all mind-affecting spells and effects for the duration of the spell."
 		]
 	},
-	"thought_worm_i": { "copyof": "thought_worm_1" },
+	"thought_worm_i": { "redirect": "thought_worm_1" },
 	"thought_worm_2": {
 		"name": "Thought Worm II",
 		"sources": [ "Psychic Anthology" ],
@@ -2339,7 +2339,7 @@
 			"This spell functions as per thought worm I, but the penalty on Will saves is -4. This spell can be undercast."
 		]
 	},
-	"thought_worm_ii": { "copyof": "thought_worm_2" },
+	"thought_worm_ii": { "redirect": "thought_worm_2" },
 	"thought_worm_3": {
 		"name": "Thought Worm III",
 		"sources": [ "Psychic Anthology" ],
@@ -2358,7 +2358,7 @@
 			"This functions as per thought worm II, except a target that succeeds at its Will save still takes a -2 penalty on Will saves against your mind-affecting spells and effects for the same duration. This spell can be undercast."
 		]
 	},
-	"thought_worm_iii": { "copyof": "thought_worm_3" },
+	"thought_worm_iii": { "redirect": "thought_worm_3" },
 	"thought_worm_4": {
 		"name": "Thought Worm IV",
 		"sources": [ "Psychic Anthology" ],
@@ -2377,7 +2377,7 @@
 			"This functions as per thought worm III, except that the penalty on Will saves is -6 and a target that succeeds at its Will save still takes a -3 penalty on Will saves against your mind-affecting spells and effects for the same duration. This spell can be undercast."
 		]
 	},
-	"thought_worm_iv": { "copyof": "thought_worm_4" },
+	"thought_worm_iv": { "redirect": "thought_worm_4" },
 	"thoughtsense": {
 		"name": "Thoughtsense",
 		"sources": [ "Occult Adventures" ],
@@ -2541,7 +2541,7 @@
 		"name": "Greater Thunderstomp",
 		"copyof": "thunderstomp"
 	},
-	"greater_thunderstomp": { "copyof": "thunderstomp_greater" },
+	"greater_thunderstomp": { "redirect": "thunderstomp_greater" },
 	"tidal_surge": {
 		"name": "Tidal Surge",
 		"sources": [ "Ultimate Wilderness" ],
@@ -2804,7 +2804,7 @@
 		"name": "Communal Tongues",
 		"copyof": "tongues"
 	},
-	"communal_tongues": { "copyof": "tongues_communal" },
+	"communal_tongues": { "redirect": "tongues_communal" },
 	"torpid_reanimation": {
 		"name": "Torpid Reanimation",
 		"sources": [ "Horror Adventures" ],
@@ -3171,27 +3171,27 @@
 			"This functions as tower of iron will I, except as noted above. This spell can be undercast."
 		]
 	},
-	"tower_of_iron_will_i": { "copyof": "tower_of_iron_will_1" },
+	"tower_of_iron_will_i": { "redirect": "tower_of_iron_will_1" },
 	"tower_of_iron_will_2": {
 		"name": "Tower of Iron Will II",
 		"copyof": "tower_of_iron_will_1"
 	},
-	"tower_of_iron_will_ii": { "copyof": "tower_of_iron_will_2" },
+	"tower_of_iron_will_ii": { "redirect": "tower_of_iron_will_2" },
 	"tower_of_iron_will_3": {
 		"name": "Tower of Iron Will III",
 		"copyof": "tower_of_iron_will_1"
 	},
-	"tower_of_iron_will_iii": { "copyof": "tower_of_iron_will_3" },
+	"tower_of_iron_will_iii": { "redirect": "tower_of_iron_will_3" },
 	"tower_of_iron_will_4": {
 		"name": "Tower of Iron Will IV",
 		"copyof": "tower_of_iron_will_1"
 	},
-	"tower_of_iron_will_iv": { "copyof": "tower_of_iron_will_4" },
+	"tower_of_iron_will_iv": { "redirect": "tower_of_iron_will_4" },
 	"tower_of_iron_will_5": {
 		"name": "Tower of Iron Will V",
 		"copyof": "tower_of_iron_will_1"
 	},
-	"tower_of_iron_will_v": { "copyof": "tower_of_iron_will_5" },
+	"tower_of_iron_will_v": { "redirect": "tower_of_iron_will_5" },
 	"toxic_blood": {
 		"name": "Toxic Blood",
 		"sources": [ "Potions and Poisons" ],

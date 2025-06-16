@@ -141,8 +141,8 @@
 			"**Languages:** Reborn samsarans begin play speaking Common and Samsaran. Those reborn samsarans with high Intelligence scores can choose from the following: any human language, Abyssal, Aquan, Auran, Celestial, Draconic, Giant, Ignan, Infernal, and Terran."
 		]
 	},
-	"samsaran_reborn": { "copyof": "samsaran_reborn_samsaran" },
-	"reborn_samsaran": { "copyof": "samsaran_reborn_samsaran" },
+	"samsaran_reborn": { "redirect": "samsaran_reborn_samsaran" },
+	"reborn_samsaran": { "redirect": "samsaran_reborn_samsaran" },
 	"roper": {
 		"name": "Roper",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -368,7 +368,7 @@
 			"**Family:** {family/Rot Grub}"
 		]
 	},
-	"giant_rot_grub": { "copyof": "rot_grub_giant_rot_grub" },
+	"giant_rot_grub": { "redirect": "rot_grub_giant_rot_grub" },
 	"rot_grub_rot_grub_swarm": {
 		"name": "Rot Grub Swarm",
 		"sources": [
@@ -425,7 +425,7 @@
 			"**Family:** {family/Rot Grub}"
 		]
 	},
-	"rot_grub_swarm": { "copyof": "rot_grub_rot_grub_swarm" },
+	"rot_grub_swarm": { "redirect": "rot_grub_rot_grub_swarm" },
 	"shadowgarm": {
 		"name": "Shadowgarm",
 		"sources": [ "Pathfinder #25: The Bastards of Erebus" ],
@@ -945,7 +945,7 @@
 			"The angustiden is a gargantuan hunter of the deep sea. The size and ferocity of this behemoth are matched only by those of the megalodon, and it counts even the great white shark among its prey. Its foot-long, dense, and jagged teeth tear through anything they choose to clamp down on, and very few creatures manage to leave such an embrace with all of their body parts."
 		]
 	},
-	"angustiden": { "copyof": "shark_angustiden" },
+	"angustiden": { "redirect": "shark_angustiden" },
 	"shark_bull_shark": {
 		"name": "Bull Shark",
 		"sources": [ "Bestiary 4" ],
@@ -990,8 +990,8 @@
 			"A bull shark is over 7 feet long and weighs roughly 250 pounds. Female bull sharks are slightly larger than males."
 		]
 	},
-	"shark_bull": { "copyof": "shark_bull_shark" },
-	"bull_shark": { "copyof": "shark_bull_shark" },
+	"shark_bull": { "redirect": "shark_bull_shark" },
+	"bull_shark": { "redirect": "shark_bull_shark" },
 	"shark_dire_shark_megalodon": {
 		"name": "Dire Shark (Megalodon)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -1036,9 +1036,9 @@
 			"The true nightmare of the sea is the megalodon, a shark that represents the pinnacle of this species' evolution. Horrifying in its immense size and ruinous appetite, the megalodon is certainly the beast behind many legends of enormous fish who swallow ships whole. A megalodon is 60 feet long and weighs 100,000 pounds."
 		]
 	},
-	"dire_shark_megalodon": { "copyof": "shark_dire_shark_megalodon" },
-	"dire_shark": { "copyof": "shark_dire_shark_megalodon" },
-	"shark_dire": { "copyof": "shark_dire_shark_megalodon" },
+	"dire_shark_megalodon": { "redirect": "shark_dire_shark_megalodon" },
+	"dire_shark": { "redirect": "shark_dire_shark_megalodon" },
+	"shark_dire": { "redirect": "shark_dire_shark_megalodon" },
 	"shark_great_white_shark": {
 		"name": "Great White Shark",
 		"sources": [
@@ -1090,8 +1090,8 @@
 			"An adult great white shark is 20 feet long and weighs 5,000 pounds."
 		]
 	},
-	"shark_great_white": { "copyof": "shark_great_white_shark" },
-	"great_white_shark": { "copyof": "shark_great_white_shark" },
+	"shark_great_white": { "redirect": "shark_great_white_shark" },
+	"great_white_shark": { "redirect": "shark_great_white_shark" },
 	"shark_hammerhead_shark": {
 		"name": "Hammerhead Shark",
 		"sources": [ "Pathfinder #57: Tempest Rising" ],
@@ -1135,8 +1135,8 @@
 			"Hammerheads' heads give them a wider field of vision and allow them to pin prey to the seafloor before devouring it."
 		]
 	},
-	"shark_hammerhead": { "copyof": "shark_hammerhead_shark" },
-	"hammerhead_shark": { "copyof": "shark_hammerhead_shark" },
+	"shark_hammerhead": { "redirect": "shark_hammerhead_shark" },
+	"hammerhead_shark": { "redirect": "shark_hammerhead_shark" },
 	"shark_helicoprion": {
 		"name": "Helicoprion (Shark)",
 		"sources": [ "Pathfinder #57: Tempest Rising" ],
@@ -1185,7 +1185,7 @@
 			"The helicoprion is a bizarre beast to behold. The remarkable physiology of its mouth allows it to flick out its bottom jaw, unrolling the whorl of teeth and snaring prey along its length. As its powerful muscles roll its jaw, the prey becomes trapped in a spiral of ragged, brutal incisors. Once it has captured a hearty meal, the helicoprion retreats in a thickening cloud of its victim's blood to patiently await the slowing of struggles and the imminent demise of its dinner."
 		]
 	},
-	"helicoprion": { "copyof": "shark_helicoprion" },
+	"helicoprion": { "redirect": "shark_helicoprion" },
 	"shark_jigsaw_shark": {
 		"name": "Jigsaw Shark",
 		"sources": [ "Pathfinder #57: Tempest Rising" ],
@@ -1229,8 +1229,8 @@
 			"The fact that these sharks dwell in shallow coastal waters places them in direct contact with those making a living from the sea. It's not uncommon to hear stories of jigsaw sharks leaping from the water and taking out dockworkers or fishermen in small boats. Their patchwork coloration of browns and blue-grays partly inspires their name."
 		]
 	},
-	"shark_jigsaw": { "copyof": "shark_jigsaw_shark" },
-	"jigsaw_shark": { "copyof": "shark_jigsaw_shark" },
+	"shark_jigsaw": { "redirect": "shark_jigsaw_shark" },
+	"jigsaw_shark": { "redirect": "shark_jigsaw_shark" },
 	"shasalqu": {
 		"name": "Shasalqu",
 		"sources": [
@@ -1767,7 +1767,7 @@
 			"See {monster/Ship in a Bottle} for information on how to construct one, and on how to use one as a haunt."
 		]
 	},
-	"bottled_armada": { "copyof": "ship_in_a_bottle_bottled_armada" },
+	"bottled_armada": { "redirect": "ship_in_a_bottle_bottled_armada" },
 	"ship_sentinel": {
 		"name": "Ship Sentinel",
 		"sources": [ "Pathfinder #57: Tempest Rising" ],
@@ -2427,7 +2427,7 @@
 			"A queen that does interact with members of another species - whether they're allies of fallen Bakrakhan (normally demons, giants, or {monster/sinspawn}) or members of modern societies now living in or near the shriezyx's ruined lair - is likely to be quite verbose. After centuries of loneliness, most queens are overwhelmed by the idea of conversing with an intellectual equal, and they see such opportunities as a rare chances to implement long-delayed plans. Humanoids often find such conversations off-putting, both because the shriezyx are such horrific works of arcane mutation and because few adventurers would ever expect to encounter chatty monstrosities when exploring millennia-old ruins."
 		]
 	},
-	"shriezyx_queen": { "copyof": "shriezyx_shriezyx_queen" },
+	"shriezyx_queen": { "redirect": "shriezyx_shriezyx_queen" },
 	"shrike_worm": {
 		"name": "Shrike Worm",
 		"sources": [ "Pathfinder #114: Black Stars Beckon" ],
@@ -2723,8 +2723,8 @@
 			"[^B]: Bonus feat."
 		]
 	},
-	"siktempora_misery": { "copyof": "siktempora_misery_siktempora" },
-	"misery_siktempora": { "copyof": "siktempora_misery_siktempora" },
+	"siktempora_misery": { "redirect": "siktempora_misery_siktempora" },
+	"misery_siktempora": { "redirect": "siktempora_misery_siktempora" },
 	"waldgeist": {
 		"name": "Waldgeist",
 		"sources": [ "Pathfinder #105: The Inferno Gate" ],
@@ -2875,8 +2875,8 @@
 			"Spriggans resemble ugly gnomes with an alien, feral appearance. Many are gaunt and haggard. When magically enlarged, they look the same except much more hale and muscular."
 		]
 	},
-	"spriggan_large_size": { "copyof": "spriggan_spriggan_large_size" },
-	"large_spriggan": { "copyof": "spriggan_spriggan_large_size" },
+	"spriggan_large_size": { "redirect": "spriggan_spriggan_large_size" },
+	"large_spriggan": { "redirect": "spriggan_spriggan_large_size" },
 	"spriggan_spriggan_normal_size": {
 		"name": "Spriggan (Normal Size)",
 		"sources": [ "Bestiary 2" ],
@@ -2935,8 +2935,8 @@
 			"Spriggans resemble ugly gnomes with an alien, feral appearance. Many are gaunt and haggard. When magically enlarged, they look the same except much more hale and muscular."
 		]
 	},
-	"spriggan_normal_size": { "copyof": "spriggan_spriggan_normal_size" },
-	"normal_spriggan": { "copyof": "spriggan_spriggan_normal_size" },
+	"spriggan_normal_size": { "redirect": "spriggan_spriggan_normal_size" },
+	"normal_spriggan": { "redirect": "spriggan_spriggan_normal_size" },
 	"spring_heeled_jack": {
 		"name": "Spring-Heeled Jack",
 		"sources": [
@@ -3120,7 +3120,7 @@
 			"In some parts of Golarion where sprites are known to exist, those accused of crimes or other unacceptable behavior are sentenced to face a sprite swarm so that nature itself can judge them. If a sprite swarm forms to drive one of the accused away, he is guilty; if not, he is innocent. Most of those sent forth never return, having run afoul of the sprites' protective instincts, but occasionally the sprites allow someone they deem not a threat to live-quite independently of their actual guilt or innocence."
 		]
 	},
-	"sprite_swarm": { "copyof": "sprite_sprite_swarm" },
+	"sprite_swarm": { "redirect": "sprite_sprite_swarm" },
 	"squid": {
 		"name": "Squid",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -3215,8 +3215,8 @@
 			"The giant squid is a legendary beast capable of feeding on humans with ease. Hunger has been known to drive these normally deep-dwelling creatures up to the ocean surface where anything they encounter is potential prey. A giant squid is 45 feet long and weighs 1,500 pounds."
 		]
 	},
-	"giant_squid": { "copyof": "squid_giant_squid" },
-	"squid_giant": { "copyof": "squid_giant_squid" },
+	"giant_squid": { "redirect": "squid_giant_squid" },
+	"squid_giant": { "redirect": "squid_giant_squid" },
 	"star_monarch": {
 		"name": "Star Monarch",
 		"sources": [ "Inner Sea Bestiary" ],

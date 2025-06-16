@@ -1617,7 +1617,7 @@
 			"The boldest kobolds enjoy riding bizarre beasts into battle."
 		]
 	},
-	"kobold_battle_master": { "copyof": "kobold_kobold_battle_master" },
+	"kobold_battle_master": { "redirect": "kobold_kobold_battle_master" },
 	"kobold_kobold_blade": {
 		"name": "Kobold Blade",
 		"sources": [ "Monster Codex" ],
@@ -1665,7 +1665,7 @@
 			"Kobold warriors are more prudent than brave. They usually opt to attack from hiding with ranged weapons, and move into melee only when absolutely necessary - such as when the chief doesn't give them any other option."
 		]
 	},
-	"kobold_blade": { "copyof": "kobold_kobold_blade" },
+	"kobold_blade": { "redirect": "kobold_kobold_blade" },
 	"kobold_kobold_bomber": {
 		"name": "Kobold Bomber",
 		"sources": [ "Monster Codex" ],
@@ -1719,7 +1719,7 @@
 			"Kobold tricksters are experts at crafting deadly traps - both magical and mundane - and at striking from concealment while their enemies are distracted by the traps' effects."
 		]
 	},
-	"kobold_bomber": { "copyof": "kobold_kobold_bomber" },
+	"kobold_bomber": { "redirect": "kobold_kobold_bomber" },
 	"kobold_kobold_chieftain": {
 		"name": "Kobold Chieftain",
 		"sources": [ "Monster Codex" ],
@@ -1767,7 +1767,7 @@
 			"Kobold leaders are the undisputed masters of their tribes."
 		]
 	},
-	"kobold_chieftain": { "copyof": "kobold_kobold_chieftain" },
+	"kobold_chieftain": { "redirect": "kobold_kobold_chieftain" },
 	"kobold_kobold_devilspeaker": {
 		"name": "Kobold Devilspeaker",
 		"sources": [ "Monster Codex" ],
@@ -1832,7 +1832,7 @@
 			"[^D]: Domain spell"
 		]
 	},
-	"kobold_devilspeaker": { "copyof": "kobold_kobold_devilspeaker" },
+	"kobold_devilspeaker": { "redirect": "kobold_kobold_devilspeaker" },
 	"kobold_kobold_guilecaster": {
 		"name": "Kobold Guilecaster",
 		"sources": [ "Monster Codex" ],
@@ -1886,7 +1886,7 @@
 			"Kobolds see sorcery as proof of their draconic heritage."
 		]
 	},
-	"kobold_guilecaster": { "copyof": "kobold_kobold_guilecaster" },
+	"kobold_guilecaster": { "redirect": "kobold_kobold_guilecaster" },
 	"kobold_kobold_master_trapper": {
 		"name": "Kobold Master Trapper",
 		"sources": [ "Monster Codex" ],
@@ -1939,7 +1939,7 @@
 			"Kobold tricksters are experts at crafting deadly traps - both magical and mundane - and at striking from concealment while their enemies are distracted by the traps' effects."
 		]
 	},
-	"kobold_master_trapper": { "copyof": "kobold_kobold_master_trapper" },
+	"kobold_master_trapper": { "redirect": "kobold_kobold_master_trapper" },
 	"kobold_kobold_monster_wrangler": {
 		"name": "Kobold Monster Wrangler",
 		"sources": [ "Monster Codex" ],
@@ -1986,7 +1986,7 @@
 			"The boldest kobolds enjoy riding bizarre beasts into battle."
 		]
 	},
-	"kobold_monster_wrangler": { "copyof": "kobold_kobold_monster_wrangler" },
+	"kobold_monster_wrangler": { "redirect": "kobold_kobold_monster_wrangler" },
 	"kobold_kobold_scalecaster": {
 		"name": "Kobold Scalecaster",
 		"sources": [ "Monster Codex" ],
@@ -2038,7 +2038,7 @@
 			"Kobolds see sorcery as proof of their draconic heritage."
 		]
 	},
-	"kobold_scalecaster": { "copyof": "kobold_kobold_scalecaster" },
+	"kobold_scalecaster": { "redirect": "kobold_kobold_scalecaster" },
 	"kobold_kobold_sniper": {
 		"name": "Kobold Sniper",
 		"sources": [ "Monster Codex" ],
@@ -2085,7 +2085,7 @@
 			"Kobold warriors are more prudent than brave. They usually opt to attack from hiding with ranged weapons, and move into melee only when absolutely necessary - such as when the chief doesn't give them any other option."
 		]
 	},
-	"kobold_sniper": { "copyof": "kobold_kobold_sniper" },
+	"kobold_sniper": { "redirect": "kobold_kobold_sniper" },
 	"kobold_kobold_yapper": {
 		"name": "Kobold Yapper",
 		"sources": [ "Monster Codex" ],
@@ -2138,7 +2138,7 @@
 			"Kobold leaders are the undisputed masters of their tribes."
 		]
 	},
-	"kobold_yapper": { "copyof": "kobold_kobold_yapper" },
+	"kobold_yapper": { "redirect": "kobold_kobold_yapper" },
 	"kokogiak": {
 		"name": "Kokogiak",
 		"sources": [ "Pathfinder #69: Maiden, Mother, Crone" ],
@@ -2943,7 +2943,7 @@
 			"**Family:** {family/Kyton}"
 		]
 	},
-	"evangelist": { "copyof": "kyton" },
+	"evangelist": { "redirect": "kyton" },
 	"kyton_apocrisiarius": {
 		"name": "Apocrisiarius (Kyton)",
 		"sources": [
@@ -3026,7 +3026,7 @@
 			"An apocrisiarius' victims are particularly unfortunate souls, for these kytons have no interest in their prisoners' well-being after truths have been extracted. Indeed, apocrisiariuses have been known to deliberately avoid acquiring the desired information in a timely manner in order to maximize the amount of time they can spend tormenting their victims, under the theory that only when a being has nothing else to cling to does the truth it conceals become pure. This does mean that in cases where a creature might hold multiple secrets, an apocrisiarius may not be the best choice for the job. These kytons excel at extracting the truth, but often their subjects do not survive beyond uttering their first revelations."
 		]
 	},
-	"apocrisiarius": { "copyof": "kyton_apocrisiarius" },
+	"apocrisiarius": { "redirect": "kyton_apocrisiarius" },
 	"kyton_augur": {
 		"name": "Augur (Kyton)",
 		"sources": [ "Bestiary 3" ],
@@ -3092,8 +3092,8 @@
 			"**Family:** {family/Kyton}"
 		]
 	},
-	"augur": { "copyof": "kyton_augur" },
-	"augur_kyton": { "copyof": "kyton_augur" },
+	"augur": { "redirect": "kyton_augur" },
+	"augur_kyton": { "redirect": "kyton_augur" },
 	"kyton_cantor": {
 		"name": "Cantor (Kyton)",
 		"sources": [
@@ -3159,7 +3159,7 @@
 			"**Family:** {family/Kyton}"
 		]
 	},
-	"cantor": { "copyof": "kyton_cantor" },
+	"cantor": { "redirect": "kyton_cantor" },
 	"kyton_ephialtes": {
 		"name": "Ephialtes (Kyton)",
 		"sources": [
@@ -3240,7 +3240,7 @@
 			"**Family:** {family/Kyton}"
 		]
 	},
-	"ephialtes": { "copyof": "kyton_ephialtes" },
+	"ephialtes": { "redirect": "kyton_ephialtes" },
 	"kyton_eremite": {
 		"name": "Eremite (Kyton)",
 		"sources": [ "Bestiary 3" ],
@@ -3322,7 +3322,7 @@
 			"**Family:** {family/Kyton}"
 		]
 	},
-	"eremite": { "copyof": "kyton_eremite" },
+	"eremite": { "redirect": "kyton_eremite" },
 	"kyton_interlocutor": {
 		"name": "Interlocutor (Kyton)",
 		"sources": [ "Bestiary 3" ],
@@ -3385,8 +3385,8 @@
 			"**Family:** {family/Kyton}"
 		]
 	},
-	"interlocutor": { "copyof": "kyton_interlocutor" },
-	"interlocutor_kyton": { "copyof": "kyton_interlocutor" },
+	"interlocutor": { "redirect": "kyton_interlocutor" },
+	"interlocutor_kyton": { "redirect": "kyton_interlocutor" },
 	"kyton_lampadarius": {
 		"name": "Lampadarius (Kyton)",
 		"sources": [
@@ -3454,7 +3454,7 @@
 			"**Family:** {family/Kyton}"
 		]
 	},
-	"lampadarius": { "copyof": "kyton_lampadarius" },
+	"lampadarius": { "redirect": "kyton_lampadarius" },
 	"kyton_libitinarii": {
 		"name": "Libitinarii (Kyton)",
 		"sources": [
@@ -3537,7 +3537,7 @@
 			"An infamous libitinarii ritual is the Rite of Piercing, which is common practice in the realm of Frozen Tears. In this ritual, libitinariis drive foot-long nails of ice through the flesh of victims they have determined to be morally pure. When the victims reach the point of death, the kytons then freeze them into icy statues and arrange them into unholy menageries."
 		]
 	},
-	"libitinarii": { "copyof": "kyton_libitinarii" },
+	"libitinarii": { "redirect": "kyton_libitinarii" },
 	"kyton_oitos": {
 		"name": "Oitos (Kyton)",
 		"sources": [
@@ -3605,7 +3605,7 @@
 			"**Family:** {family/Kyton}"
 		]
 	},
-	"oitos": { "copyof": "kyton_oitos" },
+	"oitos": { "redirect": "kyton_oitos" },
 	"kyton_ostiarius": {
 		"name": "Ostiarius (Kyton)",
 		"sources": [
@@ -3671,7 +3671,7 @@
 			"**Family:** {family/Kyton}"
 		]
 	},
-	"ostiarius": { "copyof": "kyton_ostiarius" },
+	"ostiarius": { "redirect": "kyton_ostiarius" },
 	"kyton_phylacator": {
 		"name": "Phylacator (Kyton)",
 		"sources": [
@@ -3760,7 +3760,7 @@
 			"Most phylacators on Golarion serve evil dictators or wicked cults, although a few secretly serve less despicable benefactors who use the outsiders to keep dangerous criminals securely locked away. For instance, many Nidalese know of phylacators serving in Pangolais, but rumors that taxmasters of Abadar employ a phylacator in a secret correctional installation beneath Oppara are stridently denied by the church."
 		]
 	},
-	"phylacator": { "copyof": "kyton_phylacator" },
+	"phylacator": { "redirect": "kyton_phylacator" },
 	"kyton_sacristan": {
 		"name": "Sacristan (Kyton)",
 		"sources": [
@@ -3824,7 +3824,7 @@
 			"**Family:** {family/Kyton}"
 		]
 	},
-	"sacristan": { "copyof": "kyton_sacristan" },
+	"sacristan": { "redirect": "kyton_sacristan" },
 	"kyton_suffragan": {
 		"name": "Suffragan (Kyton)",
 		"sources": [
@@ -3909,7 +3909,7 @@
 			"As suffragans switch easily and naturally between their configurations, they are often quite comfortable with other creatures that have malleable forms. Suffragans particularly like oozes, keeping them as pampered pets when possible and feeding them cast-off bits of flesh or the remains of their victims. Suffragans find doppelgangers and faceless stalkers intriguing, and such captives might earn an opportunity to escape by promising an entertaining display of shape-shifting."
 		]
 	},
-	"suffragan": { "copyof": "kyton_suffragan" },
+	"suffragan": { "redirect": "kyton_suffragan" },
 	"kyton_termagant": {
 		"name": "Termagant (Kyton)",
 		"sources": [
@@ -3973,5 +3973,5 @@
 			"**Family:** {family/Kyton}"
 		]
 	},
-	"termagant": { "copyof": "kyton_termagant" }
+	"termagant": { "redirect": "kyton_termagant" }
 }

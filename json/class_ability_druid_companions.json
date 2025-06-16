@@ -99,7 +99,7 @@
 			">**Special Attacks** {umr/poison} (*frequency* 1 round [4]; *effect* 1 Str damage; *cure* 1 save, Con-based DC)"
 		]
 	},
-	"giant_ant": { "copyof": "ant_giant" },
+	"giant_ant": { "redirect": "ant_giant" },
 	"antelope": {
 		"name": "Antelope",
 		"sources": [ "Bestiary 3" ],
@@ -242,7 +242,7 @@
 			">**Special Attacks** poison (frequency 1 round [4]; *effect* 1d2 Dex; *cure* 2 saves; Con-based DC)"
 		]
 	},
-	"giant_assassin_bug": { "copyof": "assassin_bug_giant" },
+	"giant_assassin_bug": { "redirect": "assassin_bug_giant" },
 	"aurochs": {
 		"name": "Aurochs",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -275,8 +275,8 @@
 			"Bison companions are identical to aurochs animal companions."
 		]
 	},
-	"auroch": { "copyof": "aurochs" },
-	"bison": { "copyof": "aurochs" },
+	"auroch": { "redirect": "aurochs" },
+	"bison": { "redirect": "aurochs" },
 	"axe_beak": {
 		"name": "Axe Beak",
 		"sources": [ "Bestiary 3" ],
@@ -389,7 +389,7 @@
 			">**Ability Scores** Str +4, Dex -2, Con +2"
 		]
 	},
-	"wolverine": { "copyof": "badger" },
+	"wolverine": { "redirect": "badger" },
 	"bear": {
 		"name": "Bear",
 		"sources": [ "PRPG Core Rulebook" ],
@@ -448,7 +448,7 @@
 			">**Special Attacks** {umr/trample} (1d4)"
 		]
 	},
-	"giant_beetle": { "copyof": "beetle_giant" },
+	"giant_beetle": { "redirect": "beetle_giant" },
 	"bird": {
 		"name": "Bird (Eagle, Hawk, Owl)",
 		"sources": [ "PRPG Core Rulebook" ],
@@ -475,9 +475,9 @@
 			">**Ability Scores** Str +2, Con +2"
 		]
 	},
-	"eagle": { "copyof": "bird" },
-	"hawk": { "copyof": "bird" },
-	"owl": { "copyof": "bird" },
+	"eagle": { "redirect": "bird" },
+	"hawk": { "redirect": "bird" },
+	"owl": { "redirect": "bird" },
 	"blackwisp_egret": {
 		"name": "Blackwisp Egret",
 		"sources": [ "Pathfinder #91: Battle of Bloodmarch Hills" ],
@@ -792,9 +792,9 @@
 			">**Special Attacks** {umr/grab}, {umr/pounce}, rake (1d6)"
 		]
 	},
-	"big_cat": { "copyof": "cat_big" },
-	"lion": { "copyof": "cat_big" },
-	"tiger": { "copyof": "cat_big" },
+	"big_cat": { "redirect": "cat_big" },
+	"lion": { "redirect": "cat_big" },
+	"tiger": { "redirect": "cat_big" },
 	"cat_small_cheetah_leopard": {
 		"name": "Cat, Small (Cheetah, Leopard)",
 		"sources": [ "PRPG Core Rulebook" ],
@@ -824,10 +824,10 @@
 			">**Special Qualities** sprint"
 		]
 	},
-	"cheetah": { "copyof": "cat_small_cheetah_leopard" },
-	"leopard": { "copyof": "cat_small_cheetah_leopard" },
-	"cat_small": { "copyof": "cat_small_cheetah_leopard" },
-	"small_cat": { "copyof": "cat_small_cheetah_leopard" },
+	"cheetah": { "redirect": "cat_small_cheetah_leopard" },
+	"leopard": { "redirect": "cat_small_cheetah_leopard" },
+	"cat_small": { "redirect": "cat_small_cheetah_leopard" },
+	"small_cat": { "redirect": "cat_small_cheetah_leopard" },
 	"caterpillar_giant": {
 		"name": "Giant Caterpillar",
 		"sources": [ "Ultimate Wilderness" ],
@@ -859,7 +859,7 @@
 			">**Ability Scores** Str +4, Dex -2, Con +2"
 		]
 	},
-	"giant_caterpillar": { "copyof": "caterpillar_giant" },
+	"giant_caterpillar": { "redirect": "caterpillar_giant" },
 	"cattle": {
 		"name": "Cattle",
 		"sources": [ "Ultimate Wilderness" ],
@@ -890,8 +890,8 @@
 			">**Special Qualities** {umr/powerful charge} (gore, 1d8), {umr/trample}"
 		]
 	},
-	"cow": { "copyof": "cattle" },
-	"bull": { "copyof": "cattle" },
+	"cow": { "redirect": "cattle" },
+	"bull": { "redirect": "cattle" },
 	"cave_salamander": {
 		"name": "Cave Salamander",
 		"sources": [ "Monster Codex" ],
@@ -949,7 +949,7 @@
 			">**Ability Scores** Str +4, Dex -2, Con +2"
 		]
 	},
-	"giant_centipede": { "copyof": "centipede_giant" },
+	"giant_centipede": { "redirect": "centipede_giant" },
 	"ceratosaurus": {
 		"name": "Ceratosaurus",
 		"sources": [ "Bestiary 5" ],
@@ -1072,7 +1072,7 @@
 			">**Bonus Feat(s)** {feat/Diehard}"
 		]
 	},
-	"giant_cockroach": { "copyof": "cockroach_giant" },
+	"giant_cockroach": { "redirect": "cockroach_giant" },
 	"corpse_eater_fungus": {
 		"name": "Corpse-Eater Fungus",
 		"sources": [ "Ultimate Wilderness" ],
@@ -1136,7 +1136,7 @@
 			">**Special Attacks** constrict (1d4)"
 		]
 	},
-	"giant_crab": { "copyof": "crab_giant" },
+	"giant_crab": { "redirect": "crab_giant" },
 	"creeping_puffball": {
 		"name": "Creeping Puffball",
 		"sources": [ "Ultimate Wilderness" ],
@@ -1196,7 +1196,7 @@
 			">**Special Attacks** death roll, {umr/grab}, sprint"
 		]
 	},
-	"alligator": { "copyof": "crocodile" },
+	"alligator": { "redirect": "crocodile" },
 	"dallo": {
 		"name": "Dallo",
 		"sources": [ "Pathfinder #118: Siege of Stone" ],
@@ -2049,7 +2049,7 @@
 			">**Bonus Feat(s)** {feat/Flyby Attack}"
 		]
 	},
-	"giant_dragonfly": { "copyof": "dragonfly_giant" },
+	"giant_dragonfly": { "redirect": "dragonfly_giant" },
 	"dunkleosteus": {
 		"name": "Dunkleosteus",
 		"sources": [ "Bestiary 6" ],
@@ -2168,8 +2168,8 @@
 			">**Special Attacks** {umr/trample} (2d6)"
 		]
 	},
-	"elephant": { "copyof": "elephant_mastodon" },
-	"mastodon": { "copyof": "elephant_mastodon" },
+	"elephant": { "redirect": "elephant_mastodon" },
+	"mastodon": { "redirect": "elephant_mastodon" },
 	"elk": {
 		"name": "Elk",
 		"sources": [ "Bestiary 3" ],
@@ -2372,7 +2372,7 @@
 			">**Ability Scores** Str +8, Dex -2, Con +4"
 		]
 	},
-	"giant_frilled_lizard": { "copyof": "frilled_lizard_giant" },
+	"giant_frilled_lizard": { "redirect": "frilled_lizard_giant" },
 	"frog_father": {
 		"name": "Frog Father",
 		"sources": [ "Bestiary 5" ],
@@ -3153,7 +3153,7 @@
 			">**Special Qualities** {umr/blindsight} 30 ft."
 		]
 	},
-	"giant_leech": { "copyof": "leech_giant" },
+	"giant_leech": { "redirect": "leech_giant" },
 	"lizard_giant_chameleon": {
 		"name": "Lizard (Giant Chameleon)",
 		"sources": [ "Bestiary 3" ],
@@ -3184,8 +3184,8 @@
 			">**Special Qualities** speed increase (40 ft., climb 40 ft.)"
 		]
 	},
-	"giant_chameleon": { "copyof": "lizard_giant_chameleon" },
-	"giant_gecko": { "copyof": "lizard_giant_gecko" },
+	"giant_chameleon": { "redirect": "lizard_giant_chameleon" },
+	"giant_gecko": { "redirect": "lizard_giant_gecko" },
 	"lizard_giant_gecko": {
 		"name": "Lizard (Giant Gecko)",
 		"sources": [ "Bestiary 3" ],
@@ -3246,7 +3246,7 @@
 			"Poison (based on monster entry): *Bite-injury; *save* Fort DC 14; *onset* 1 minute; *frequency* 1/hour for 6 hours; *effect* 1d2 Dexterity damage; *cure* 1 save.*"
 		]
 	},
-	"monitor_lizard": { "copyof": "lizard_monitor_lizard" },
+	"monitor_lizard": { "redirect": "lizard_monitor_lizard" },
 	"llama": {
 		"name": "Llama",
 		"sources": [ "Ultimate Wilderness" ],
@@ -3308,7 +3308,7 @@
 			">**Special Attacks** voracious (bite attack deals double damage to creatures with the plant subtype and to objects made of paper, wood, or other plant materials)"
 		]
 	},
-	"giant_locust": { "copyof": "locust_giant" },
+	"giant_locust": { "redirect": "locust_giant" },
 	"manta_ray": {
 		"name": "Manta Ray",
 		"sources": [ "Bestiary 2" ],
@@ -3371,7 +3371,7 @@
 			">**Special Qualities** {umr/blindsight} 10 ft., sonic resistance 10"
 		]
 	},
-	"giant_mantis_shrimp": { "copyof": "mantis_shrimp_giant" },
+	"giant_mantis_shrimp": { "redirect": "mantis_shrimp_giant" },
 	"mantis_giant": {
 		"name": "Giant Mantis",
 		"sources": [ "Ultimate Magic" ],
@@ -3404,7 +3404,7 @@
 			">**Special Attacks** mandibles (1d6 secondary attack against a grabbed target), sudden strike (may take a full attack in the surprise round)"
 		]
 	},
-	"giant_mantis": { "copyof": "mantis_giant" },
+	"giant_mantis": { "redirect": "mantis_giant" },
 	"marax": {
 		"name": "Marax",
 		"sources": [ "Pathfinder #90: The Divinity Drive" ],
@@ -3903,7 +3903,7 @@
 			">**Special Attacks** {umr/rend} (2 claws, 1d6)"
 		]
 	},
-	"giant_mole": { "copyof": "mole_giant" },
+	"giant_mole": { "redirect": "mole_giant" },
 	"mome_rath": {
 		"name": "Mome Rath",
 		"sources": [ "Pathfinder #119: Prisoners of the Blight" ],
@@ -3993,7 +3993,7 @@
 			">**Special Attacks** gnaw"
 		]
 	},
-	"giant_moray_eel": { "copyof": "moray_eel" },
+	"giant_moray_eel": { "redirect": "moray_eel" },
 	"mosquito_giant": {
 		"name": "Giant Mosquito",
 		"sources": [ "Ultimate Wilderness" ],
@@ -4026,7 +4026,7 @@
 			">**Special Attacks** bleed (2d4), {umr/blood drain} (1d2 Constitution)"
 		]
 	},
-	"giant_mosquito": { "copyof": "mosquito_giant" },
+	"giant_mosquito": { "redirect": "mosquito_giant" },
 	"narwhal": {
 		"name": "Narwhal",
 		"sources": [ "Bestiary 5" ],
@@ -4203,7 +4203,7 @@
 			">**Special Attacks** {umr/rend} (2 talons, 1d6)"
 		]
 	},
-	"giant_owl": { "copyof": "owl_giant" },
+	"giant_owl": { "redirect": "owl_giant" },
 	"panda": {
 		"name": "Panda",
 		"sources": [ "Ultimate Wilderness" ],
@@ -4380,7 +4380,7 @@
 			">**Special Attacks** quills (as {monster/giant porcupine} quills)"
 		]
 	},
-	"giant_porcupine": { "copyof": "porcupine_giant" },
+	"giant_porcupine": { "redirect": "porcupine_giant" },
 	"prionosuchus": {
 		"name": "Prionosuchus",
 		"sources": [ "Ultimate Wilderness" ],
@@ -4566,7 +4566,7 @@
 			">**Ability Scores** Str +4, Dex +2, Con +2"
 		]
 	},
-	"giant_raven": { "copyof": "raven_giant" },
+	"giant_raven": { "redirect": "raven_giant" },
 	"reef_snake": {
 		"name": "Reef Snake",
 		"sources": [ "Ultimate Wilderness" ],
@@ -4820,7 +4820,7 @@
 			">**Racial Skill Modifiers** +4 Stealth"
 		]
 	},
-	"giant_salamander": { "copyof": "salamander_giant" },
+	"giant_salamander": { "redirect": "salamander_giant" },
 	"scorpion_giant": {
 		"name": "Giant Scorpion",
 		"sources": [ "Ultimate Magic" ],
@@ -4854,7 +4854,7 @@
 			">**Special Qualities** tremorsense 60 ft."
 		]
 	},
-	"giant_scorpion": { "copyof": "scorpion_giant" },
+	"giant_scorpion": { "redirect": "scorpion_giant" },
 	"sea_crawler": {
 		"name": "Sea Crawler",
 		"sources": [ "Pathfinder #121: The Lost Outpost" ],
@@ -4914,7 +4914,7 @@
 			">**Special Attacks** anchor"
 		]
 	},
-	"giant_seahorse": { "copyof": "seahorse_giant" },
+	"giant_seahorse": { "redirect": "seahorse_giant" },
 	"shark": {
 		"name": "Shark",
 		"sources": [ "PRPG Core Rulebook" ],
@@ -5034,7 +5034,7 @@
 			">**Special Qualities** musk (Fort save or {misc/nauseated} for 1d3 rounds)"
 		]
 	},
-	"giant_skunk": { "copyof": "skunk_giant" },
+	"giant_skunk": { "redirect": "skunk_giant" },
 	"slithering_sundew": {
 		"name": "Slithering Sundew",
 		"sources": [ "Ultimate Wilderness" ],
@@ -5099,7 +5099,7 @@
 			">**Special Qualities** {umr/blindsight} 30 ft."
 		]
 	},
-	"giant_slug": { "copyof": "slug_giant" },
+	"giant_slug": { "redirect": "slug_giant" },
 	"snake_constrictor": {
 		"name": "Snake (Constrictor)",
 		"sources": [ "PRPG Core Rulebook" ],
@@ -5131,8 +5131,8 @@
 			">**Special Attacks** {umr/constrict} 1d4"
 		]
 	},
-	"constrictor_snake": { "copyof": "snake_constrictor" },
-	"constrictor": { "copyof": "snake_constrictor" },
+	"constrictor_snake": { "redirect": "snake_constrictor" },
+	"constrictor": { "redirect": "snake_constrictor" },
 	"snake_viper": {
 		"name": "Snake (Viper)",
 		"sources": [ "PRPG Core Rulebook" ],
@@ -5162,7 +5162,7 @@
 			">**Ability Scores** Str +4, Dex -2, Con +2"
 		]
 	},
-	"viper": { "copyof": "snake_viper" },
+	"viper": { "redirect": "snake_viper" },
 	"snapping_flytrap": {
 		"name": "Snapping Flytrap",
 		"sources": [ "Ultimate Wilderness" ],
@@ -5252,7 +5252,7 @@
 			">**Special Attacks** {umr/pounce}, {umr/rend} (2 claws; 1d4)"
 		]
 	},
-	"giant_solifugid": { "copyof": "solifugid_giant" },
+	"giant_solifugid": { "redirect": "solifugid_giant" },
 	"sorico": {
 		"name": "Sorico",
 		"sources": [ "Pathfinder #85: Fires of Creation" ],
@@ -5313,7 +5313,7 @@
 			">**Ability Scores** Str +4, Dex -2, Con +2"
 		]
 	},
-	"giant_spider": { "copyof": "spider_giant" },
+	"giant_spider": { "redirect": "spider_giant" },
 	"spider_web_tyrant": {
 		"name": "Spider (Web Tyrant)",
 		"sources": [ "Ultimate Wilderness" ],
@@ -5344,7 +5344,7 @@
 			">**Ability Scores** Str +4, Dex -2, Con +2"
 		]
 	},
-	"web_tyrant": { "copyof": "spider_web_tyrant" },
+	"web_tyrant": { "redirect": "spider_web_tyrant" },
 	"spitting_cobra": {
 		"name": "Spitting Cobra",
 		"sources": [ "Ultimate Wilderness" ],
@@ -5430,7 +5430,7 @@
 			">**Special Qualities** {umr/ink cloud} (20-ft. radius)"
 		]
 	},
-	"giant_squid": { "copyof": "squid_giant" },
+	"giant_squid": { "redirect": "squid_giant" },
 	"stag": {
 		"name": "Stag",
 		"sources": [ "Bestiary 4" ],
@@ -5512,7 +5512,7 @@
 			">**Ability Scores** Str +2, Con +2"
 		]
 	},
-	"trumpeter_swan": { "copyof": "swan_trumpeter" },
+	"trumpeter_swan": { "redirect": "swan_trumpeter" },
 	"switchback_jackal": {
 		"name": "Switchback Jackal",
 		"sources": [ "Pathfinder #115: Trail of the Hunted" ],
@@ -5572,7 +5572,7 @@
 			">**Special Attacks** gnaw (bite attack ignores hardness of 5 or less)"
 		]
 	},
-	"giant_termite": { "copyof": "termite_giant" },
+	"giant_termite": { "redirect": "termite_giant" },
 	"therizinosaurus": {
 		"name": "Therizinosaurus",
 		"sources": [ "Bestiary 5" ],
@@ -5692,7 +5692,7 @@
 			">**Special Qualities** {feat/Great Fortitude} (Bonus Feat)"
 		]
 	},
-	"giant_tortoise": { "copyof": "tortoise_giant" },
+	"giant_tortoise": { "redirect": "tortoise_giant" },
 	"troodon": {
 		"name": "Troodon",
 		"sources": [ "Bestiary 5" ],
@@ -5751,7 +5751,7 @@
 			">**Special Attacks** {umr/grab}"
 		]
 	},
-	"giant_snapping_turtle": { "copyof": "turtle_giant_snapping" },
+	"giant_snapping_turtle": { "redirect": "turtle_giant_snapping" },
 	"uintatherium": {
 		"name": "Uintatherium",
 		"sources": [ "Bestiary 5" ],
@@ -5809,7 +5809,7 @@
 			">**Ability Scores** Str +8, Dex -2, Con +4"
 		]
 	},
-	"giant_vulture": { "copyof": "vulture_giant" },
+	"giant_vulture": { "redirect": "vulture_giant" },
 	"walrus": {
 		"name": "Walrus",
 		"sources": [ "Bestiary 4" ],
@@ -5901,7 +5901,7 @@
 			">**Ability Scores** Str +8, Dex -2, Con +4"
 		]
 	},
-	"giant_wasp": { "copyof": "wasp_giant" },
+	"giant_wasp": { "redirect": "wasp_giant" },
 	"weasel_giant": {
 		"name": "Giant Weasel",
 		"sources": [ "Bestiary 4" ],
@@ -5931,7 +5931,7 @@
 			">**Ability Scores** Str +4, Dex -2, Con +2"
 		]
 	},
-	"giant_weasel": { "copyof": "weasel_giant" },
+	"giant_weasel": { "redirect": "weasel_giant" },
 	"whiptail_centipede_giant": {
 		"name": "Giant Whiptail Centipede",
 		"sources": [ "Ultimate Wilderness" ],
@@ -5963,7 +5963,7 @@
 			">**Ability Scores** Str +8, Dex -2, Con +4"
 		]
 	},
-	"giant_whiptail_centipede": { "copyof": "whiptail_centipede_giant" },
+	"giant_whiptail_centipede": { "redirect": "whiptail_centipede_giant" },
 	"whisperfall_vulture": {
 		"name": "Whisperfall Vulture",
 		"sources": [ "Belkzen, Hold of the Orc Hordes" ],
@@ -6337,5 +6337,5 @@
 			">**Ability Scores** Str +8, Dex -2, Con +4"
 		]
 	},
-	"sapling_treant": { "copyof": "treant_sapling" }
+	"sapling_treant": { "redirect": "treant_sapling" }
 }

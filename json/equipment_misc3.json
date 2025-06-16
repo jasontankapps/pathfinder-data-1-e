@@ -440,12 +440,12 @@
 		"name": "Pot (iron)",
 		"copyof": "pot_common"
 	},
-	"iron_pot": { "copyof": "pot_iron" },
+	"iron_pot": { "redirect": "pot_iron" },
 	"pot_mithral": {
 		"name": "Pot (mithral)",
 		"copyof": "pot_common"
 	},
-	"mithral_pot": { "copyof": "pot_mithral" },
+	"mithral_pot": { "redirect": "pot_mithral" },
 	"potion_sponge": {
 		"name": "Potion sponge",
 		"sources": [ "Advanced Race Guide" ],
@@ -1092,7 +1092,7 @@
 			"Generally composed of meat, hard cheese, fruits and vegetables, nut and bean pastes, and vital herbs, space rations are dehydrated and then kept extremely dry in order to maximize preservation and storage efficiency. A single serving feeds a Medium character for 1 day, but unless an equal weight of water is added to the rations, the character eating them becomes {misc/fatigued} until she drinks enough water."
 		]
 	},
-	"space_rations": { "copyof": "rations_space_per_day" },
+	"space_rations": { "redirect": "rations_space_per_day" },
 	"raven": {
 		"name": "Raven",
 		"sources": [
@@ -1353,7 +1353,7 @@
 			"Cities and towns often use gate tolls to generate additional income, to favor local sellers over visiting merchants, to discourage heavy traffic in congested areas, or to recoup the cost of constructing and maintaining the road or gate. Bridge tolls are also popular, as most travelers have no easy way to circumvent them."
 		]
 	},
-	"toll": { "copyof": "road_or_gate_toll" },
+	"toll": { "redirect": "road_or_gate_toll" },
 	"roar_cord": {
 		"name": "Roar cord",
 		"sources": [ "Advanced Race Guide" ],
@@ -1407,9 +1407,9 @@
 			"This 50-foot length of hemp rope has 2 hit points and can be burst with a DC 23 Strength check."
 		]
 	},
-	"rope": { "copyof": "rope_50_ft" },
-	"hemp_rope": { "copyof": "rope_50_ft" },
-	"rope_fifty_ft": { "copyof": "rope_50_ft" },
+	"rope": { "redirect": "rope_50_ft" },
+	"hemp_rope": { "redirect": "rope_50_ft" },
+	"rope_fifty_ft": { "redirect": "rope_50_ft" },
 	"rope_recaller": {
 		"name": "Rope recaller",
 		"sources": [ "Adventurer's Armory 2" ],
@@ -1572,7 +1572,7 @@
 			"**Exotic Saddle:** These saddles are designed for a variety of unusual mounts, each customized for a specific type of beast. Exotic saddles come in military, pack, and riding styles, just as normal saddles do, and have the same traits."
 		]
 	},
-	"exotic_military_saddle": { "copyof": "saddle_exotic_military" },
+	"exotic_military_saddle": { "redirect": "saddle_exotic_military" },
 	"saddle_exotic_pack": {
 		"name": "Saddle (exotic, pack)",
 		"copyof": "saddle_exotic_military"
@@ -1581,7 +1581,7 @@
 		"name": "Saddle (exotic, riding)",
 		"copyof": "saddle_exotic_military"
 	},
-	"exotic_saddle": { "copyof": "saddle_exotic_riding" },
+	"exotic_saddle": { "redirect": "saddle_exotic_riding" },
 	"military_saddle": {
 		"name": "Saddle (military)",
 		"copyof": "saddle_exotic_military"
@@ -1594,13 +1594,13 @@
 		"name": "Saddle (pack)",
 		"copyof": "saddle_exotic_military"
 	},
-	"pack_saddle": { "copyof": "saddle_pack" },
+	"pack_saddle": { "redirect": "saddle_pack" },
 	"saddle_riding": {
 		"name": "Saddle (riding)",
 		"copyof": "saddle_exotic_military"
 	},
-	"riding_saddle": { "copyof": "saddle_riding" },
-	"saddle": { "copyof": "saddle_riding" },
+	"riding_saddle": { "redirect": "saddle_riding" },
+	"saddle": { "redirect": "saddle_riding" },
 	"saddlebags": {
 		"name": "Saddlebags",
 		"sources": [
@@ -1649,7 +1649,7 @@
 			"**Construction:** Craft (Alchemy) DC 10"
 		]
 	},
-	"salt_tablets_ten": { "copyof": "salt_tablets_10" },
+	"salt_tablets_ten": { "redirect": "salt_tablets_10" },
 	"samsaran_life_wheel": {
 		"name": "Samsaran life wheel",
 		"sources": [ "Advanced Race Guide" ],
@@ -1731,7 +1731,7 @@
 		"name": "Scarf (reinforced)",
 		"copyof": "scarf_pocketed"
 	},
-	"pocketed_scarf": { "copyof": "scarf_pocketed" },
+	"pocketed_scarf": { "redirect": "scarf_pocketed" },
 	"scarf": {
 		"name": "Scarf",
 		"sources": [
@@ -2225,7 +2225,7 @@
 		"name": "Shears (small)",
 		"copyof": "shears_adamantine"
 	},
-	"shears": { "copyof": "shears_small" },
+	"shears": { "redirect": "shears_small" },
 	"sheep": {
 		"name": "Sheep",
 		"sources": [ "Ultimate Equipment" ],
@@ -2340,14 +2340,14 @@
 			">*{source/Adventurer's Armory/ pg. 20} lists this as costing 2cp and weighing 3lbs. This is probably an error.*"
 		]
 	},
-	"spade": { "copyof": "shovel_common" },
+	"spade": { "redirect": "shovel_common" },
 	"shovel_folding": {
 		"name": "Shovel (folding)",
 		"copyof": "shovel_common"
 	},
-	"folding_shovel": { "copyof": "shovel_folding" },
-	"common_shovel": { "copyof": "shovel_common" },
-	"shovel": { "copyof": "shovel_common" },
+	"folding_shovel": { "redirect": "shovel_folding" },
+	"common_shovel": { "redirect": "shovel_common" },
+	"shovel": { "redirect": "shovel_common" },
 	"shrapnel_caltrops": {
 		"name": "Shrapnel caltrops",
 		"sources": [ "Dirty Tactics Toolbox" ],
@@ -2433,7 +2433,7 @@
 			"This ring has a tiny compartment under the setting, typically used to hold poison. Opening and closing a ring is a move action; doing so unseen requires a DC 20 Sleight of Hand check."
 		]
 	},
-	"poison_pill_ring": { "copyof": "poison_pill_signet_ring" },
+	"poison_pill_ring": { "redirect": "poison_pill_signet_ring" },
 	"signifer_mask": {
 		"name": "Signifer mask",
 		"sources": [
@@ -2503,11 +2503,11 @@
 			"This 50-foot length of silk rope has 4 hit points and can be broken with a DC 24 Strength check."
 		]
 	},
-	"rope_silk_50_ft": { "copyof": "silk_rope_50_ft" },
-	"silk_rope_fifty_ft": { "copyof": "silk_rope_50_ft" },
-	"silk_rope": { "copyof": "silk_rope_50_ft" },
-	"rope_silk_50_feet": { "copyof": "silk_rope_50_ft" },
-	"silk_rope_50_feet": { "copyof": "silk_rope_50_ft" },
+	"rope_silk_50_ft": { "redirect": "silk_rope_50_ft" },
+	"silk_rope_fifty_ft": { "redirect": "silk_rope_50_ft" },
+	"silk_rope": { "redirect": "silk_rope_50_ft" },
+	"rope_silk_50_feet": { "redirect": "silk_rope_50_ft" },
+	"silk_rope_50_feet": { "redirect": "silk_rope_50_ft" },
 	"silver_drops": {
 		"name": "Silver drops",
 		"sources": [ "Blood of the Moon" ],
@@ -2693,7 +2693,7 @@
 		"name": "Slave (slip, halfling)",
 		"copyof": "slave_hard_labor"
 	},
-	"halfling_slave_slip": { "copyof": "slave_slip_halfling" },
+	"halfling_slave_slip": { "redirect": "slave_slip_halfling" },
 	"slave_specialized": {
 		"name": "Slave (specialized)",
 		"copyof": "slave_hard_labor"
@@ -2997,7 +2997,7 @@
 		"name": "Snorkel (masterwork)",
 		"copyof": "snorkel_common"
 	},
-	"snorkel": { "copyof": "snorkel_common" },
+	"snorkel": { "redirect": "snorkel_common" },
 	"snow_goggles": {
 		"name": "Snow goggles",
 		"sources": [ "Pathfinder #51: The Hungry Storm" ],
@@ -3396,8 +3396,8 @@
 			"This 50-foot length of rope is woven of strands of silk from monstrous spiders. Rare to virtually non-existent on the surface world, it is commonly used by the dark elves, though shorter spider's silk rope scraps (generally no more than 10 feet long) occasionally appear among goblins. Spider's silk rope has 6 hit points and can be broken with a DC 25 Strength check."
 		]
 	},
-	"spiders_silk_rope_fifty_ft": { "copyof": "spiders_silk_rope_50_ft" },
-	"rope_spiders_silk_50_ft": { "copyof": "spiders_silk_rope_50_ft" },
+	"spiders_silk_rope_fifty_ft": { "redirect": "spiders_silk_rope_50_ft" },
+	"rope_spiders_silk_50_ft": { "redirect": "spiders_silk_rope_50_ft" },
 	"spiderdraw": {
 		"name": "Spiderdraw",
 		"sources": [ "Monster Codex" ],
@@ -3845,7 +3845,7 @@
 			"This whip is made from braids of metallic wire. When it is activated, the wielder can expend the power within it to gain a sacred (if activated with positive energy) or profane (if activated with negative energy) bonus on her next disarm or trip combat maneuver with the whip. This bonus is equal to the number of dice of the activating cleric's {ability/channel energy} ability. The whip remains charged until its magic is used or 1 hour has passed."
 		]
 	},
-	"stinging_whip": { "copyof": "stinging_whip_calistria" },
+	"stinging_whip": { "redirect": "stinging_whip_calistria" },
 	"stink_ink_arcane": {
 		"name": "Stink ink (arcane)",
 		"sources": [ "Advanced Race Guide" ],
@@ -3872,7 +3872,7 @@
 			"**Construction:** Craft (Alchemy) DC 15"
 		]
 	},
-	"stink_ink": { "copyof": "stink_ink_common" },
+	"stink_ink": { "redirect": "stink_ink_common" },
 	"stirge": {
 		"name": "Stirge",
 		"sources": [
@@ -4014,9 +4014,9 @@
 			"Sold in balls or spools of 50 feet, string and twine are useful for rigging traps and alarms and are a vital component of grappling bolts and arrows. String or twine has hardness 0, 1 hit point, and a break DC of 14."
 		]
 	},
-	"string_or_twine_fifty_ft": { "copyof": "string_or_twine_50_ft" },
-	"string": { "copyof": "string_or_twine_50_ft" },
-	"twine": { "copyof": "string_or_twine_50_ft" },
+	"string_or_twine_fifty_ft": { "redirect": "string_or_twine_50_ft" },
+	"string": { "redirect": "string_or_twine_50_ft" },
+	"twine": { "redirect": "string_or_twine_50_ft" },
 	"subversive_vest_vest": {
 		"name": "Subversive vest (vest)",
 		"sources": [ "Ultimate Intrigue" ],
@@ -4135,7 +4135,7 @@
 			"This mask is a representation of Nethys's own. Activating the mask charges it with healing power. If a member of Nethys' faith wears the mask when it is activated, the first time the wearer takes damage, the mask releases the stored energy into the wearer, healing a number of hit points equal to the number of dice of the activating cleric's {ability/channel energy} ability. The mask heals its wearer regardless of the type of channeled energy used and whether the target is living or undead. This healing does not prevent the wearer from dying because of hit point damage, and is mainly used to provide instant healing when a cleric is occupied or can only channel a harmful kind of energy. The mask remains charged until it heals someone or 24 hours pass."
 		]
 	},
-	"sundered_mask": { "copyof": "sundered_mask_nethys" },
+	"sundered_mask": { "redirect": "sundered_mask_nethys" },
 	"sunrod": {
 		"name": "Sunrod",
 		"sources": [
@@ -4529,20 +4529,20 @@
 			"| &times;250 | +6 |"
 		]
 	},
-	"telescope_times10": { "copyof": "telescope_x10" },
-	"telescope_10": { "copyof": "telescope_x10" },
+	"telescope_times10": { "redirect": "telescope_x10" },
+	"telescope_10": { "redirect": "telescope_x10" },
 	"telescope_x250": {
 		"name": "Telescope (&times;250)",
 		"copyof": "telescope_x10"
 	},
-	"telescope_times250": { "copyof": "telescope_x250" },
-	"telescope_250": { "copyof": "telescope_x250" },
+	"telescope_times250": { "redirect": "telescope_x250" },
+	"telescope_250": { "redirect": "telescope_x250" },
 	"telescope_x50": {
 		"name": "Telescope (&times;50)",
 		"copyof": "telescope_x10"
 	},
-	"telescope_times50": { "copyof": "telescope_x50" },
-	"telescope_50": { "copyof": "telescope_x50" },
+	"telescope_times50": { "redirect": "telescope_x50" },
+	"telescope_50": { "redirect": "telescope_x50" },
 	"tennis_gear": {
 		"name": "Tennis gear",
 		"sources": [ "Ultimate Equipment" ],
@@ -4595,11 +4595,11 @@
 			"When fastened over a normal tent, this sheet of resilient waterproof animal gut provides an additional layer of protection against harsh weather and pestering insects. Attaching the cover requires 1 minute of work. The occupants of a tent that is fitted with the cover gain a +5 circumstance bonus on saves to resist the adverse effects of dust storms, rain, snow, and other harmful weather conditions. The occupants also gain DR 5/- against swarm damage caused by swarms composed of Diminutive or smaller creatures outside the tent. If an occupant takes no damage from a swarm as a result of this DR, she is not affected by the swarm's distraction ability. The swarm can attempt a DC 20 Reflex save as a full-round action to enter the tent and deal full damage in subsequent rounds."
 		]
 	},
-	"tent": { "copyof": "tent_small" },
-	"small_tent": { "copyof": "tent_small" },
-	"medium_tent": { "copyof": "tent_medium" },
-	"large_tent": { "copyof": "tent_large" },
-	"pavilion_tent": { "copyof": "tent_pavilion" },
+	"tent": { "redirect": "tent_small" },
+	"small_tent": { "redirect": "tent_small" },
+	"medium_tent": { "redirect": "tent_medium" },
+	"large_tent": { "redirect": "tent_large" },
+	"pavilion_tent": { "redirect": "tent_pavilion" },
 	"tent_hanging": {
 		"name": "Tent, hanging",
 		"sources": [ "Advanced Race Guide" ],
@@ -4723,12 +4723,8 @@
 		"name": "Thieves' tools (masterwork)",
 		"copyof": "thieves_tools_common"
 	},
-	"masterwork_thieves_tools": {
-		"copyof": "thieves_tools_masterwork"
-	},
-	"thieves_tools_mwk": {
-		"copyof": "thieves_tools_masterwork"
-	},
+	"masterwork_thieves_tools": { "redirect": "thieves_tools_masterwork" },
+	"thieves_tools_mwk": { "redirect": "thieves_tools_masterwork" },
 	"thinkers_tipple": {
 		"name": "Thinker's tipple",
 		"sources": [ "Potions and Poisons" ],
@@ -4930,7 +4926,7 @@
 			"A torch burns for 1 hour, shedding normal light in a 20-foot radius and increasing the light level by one step for an additional 20 feet beyond that area (darkness becomes dim light and dim light becomes normal light). A torch does not increase the light level in normal light or bright light. If a torch is used in combat, treat it as a one-handed improvised weapon that deals bludgeoning damage equal to that of a gauntlet of its size, plus 1 point of fire damage."
 		]
 	},
-	"torches": { "copyof": "torch" },
+	"torches": { "redirect": "torch" },
 	"tossglove": {
 		"name": "Tossglove",
 		"sources": [ "Goblins of Golarion" ],

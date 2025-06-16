@@ -703,8 +703,8 @@
 			"[^B]: Bonus feat."
 		]
 	},
-	"armored_ogre_skeleton": { "copyof": "skeleton_armored_ogre_skeleton" },
-	"skeleton_armored_ogre": { "copyof": "skeleton_armored_ogre_skeleton" },
+	"armored_ogre_skeleton": { "redirect": "skeleton_armored_ogre_skeleton" },
+	"skeleton_armored_ogre": { "redirect": "skeleton_armored_ogre_skeleton" },
 	"skeleton_four_armed_mudra_skeleton": {
 		"name": "Four-Armed Mudra Skeleton",
 		"sources": [
@@ -747,8 +747,8 @@
 			"[^B]: Bonus feat."
 		]
 	},
-	"four_armed_mudra_skeleton": { "copyof": "skeleton_four_armed_mudra_skeleton" },
-	"skeleton_four_armed_mudra": { "copyof": "skeleton_four_armed_mudra_skeleton" },
+	"four_armed_mudra_skeleton": { "redirect": "skeleton_four_armed_mudra_skeleton" },
+	"skeleton_four_armed_mudra": { "redirect": "skeleton_four_armed_mudra_skeleton" },
 	"skeleton_multiplying_t_rex_skeleton": {
 		"name": "Multiplying T-Rex Skeleton",
 		"sources": [
@@ -796,9 +796,9 @@
 			"[^B]: Bonus feat."
 		]
 	},
-	"multiplying_t_rex_skeleton": { "copyof": "skeleton_multiplying_t_rex_skeleton" },
-	"multiplying_trex_skeleton": { "copyof": "skeleton_multiplying_t_rex_skeleton" },
-	"skeleton_multiplying_t_rex": { "copyof": "skeleton_multiplying_t_rex_skeleton" },
+	"multiplying_t_rex_skeleton": { "redirect": "skeleton_multiplying_t_rex_skeleton" },
+	"multiplying_trex_skeleton": { "redirect": "skeleton_multiplying_t_rex_skeleton" },
+	"skeleton_multiplying_t_rex": { "redirect": "skeleton_multiplying_t_rex_skeleton" },
 	"skeleton_skeletal_mage": {
 		"name": "Skeletal Mage (Skeleton)",
 		"sources": [
@@ -857,7 +857,7 @@
 			"[^B]: Bonus feat."
 		]
 	},
-	"skeletal_mage": { "copyof": "skeleton_skeletal_mage" },
+	"skeletal_mage": { "redirect": "skeleton_skeletal_mage" },
 	"skeleton_skeletal_mount": {
 		"name": "Skeletal Mount (Skeleton)",
 		"sources": [
@@ -900,7 +900,7 @@
 			"[^B]: Bonus feat."
 		]
 	},
-	"skeletal_mount": { "copyof": "skeleton_skeletal_mount" },
+	"skeletal_mount": { "redirect": "skeleton_skeletal_mount" },
 	"skeltercat": {
 		"name": "Skeltercat",
 		"sources": [ "Pathfinder #92: The Hill Giant's Pledge" ],
@@ -1491,7 +1491,7 @@
 			"Skum do not age, and barring death by violence or disease, they can live forever. Unfortunately, this near immortality is crippled by the fact that skum are incapable of reproducing among themselves, for all skum are male. The aboleths did not want their slave race to prosper without their permission. Yet terribly, this does not mean that skum cannot breed. Originally created from human stock, skum can impregnate humans, and the children issued from such unholy unions are invariably deformed. Those who are not born skum undergo gradual transformations throughout their lives, and when they would normally die of old age, such hybrids instead go through \"the change,\" shedding their wrinkled flesh and transforming into one of the ulat-kini. While most skum tribes lack the drive to perpetuate their race and would prefer to languish in their hideous sunken ruins, tribes settling offshore of remotely populated coastlines seem to be on the rise. Some such communities raid villages for breeding stock, but a few more insidious tribes form alliances with these desperate folk, providing protection and bounty from the sea in return for wives."
 		]
 	},
-	"ulat_kini": { "copyof": "skum" },
+	"ulat_kini": { "redirect": "skum" },
 	"skunk": {
 		"name": "Skunk",
 		"sources": [ "Bestiary 3" ],
@@ -1590,8 +1590,8 @@
 			"Much larger than their passive cousins, giant skunks are an aggressive lot. Having a greater bulk to maintain, giant skunks feed on creatures beyond just grubs and insects, often hunting small mammals and reptiles by night in addition to giant versions of insects. While giant skunks are dangerous to nearby settlements, farmers find a positive aspect in their presence, valuing the creatures' taste for giant insects and other more dangerous vermin."
 		]
 	},
-	"giant_skunk": { "copyof": "skunk_giant_skunk" },
-	"skunk_giant": { "copyof": "skunk_giant_skunk" },
+	"giant_skunk": { "redirect": "skunk_giant_skunk" },
+	"skunk_giant": { "redirect": "skunk_giant_skunk" },
 	"skvader": {
 		"name": "Skvader",
 		"sources": [ "Pathfinder #61: Shards of Sin" ],
@@ -2259,7 +2259,7 @@
 			"While all snake swarms are dangerous, swarms made up of venomous snakes are typically the most lethal. Snake swarms of both types can generally be encountered in the same regions, dwelling in ruins or wilderness alike."
 		]
 	},
-	"venomous_snake_swarm": { "copyof": "snake_swarm_venomous_snake_swarm" },
+	"venomous_snake_swarm": { "redirect": "snake_swarm_venomous_snake_swarm" },
 	"snake_asp": {
 		"name": "Asp (Snake)",
 		"sources": [ "Osirion, Legacy of the Pharaohs" ],
@@ -2309,7 +2309,7 @@
 			"[^B]: Bonus feat."
 		]
 	},
-	"asp": { "copyof": "snake_asp" },
+	"asp": { "redirect": "snake_asp" },
 	"snake_constrictor_snake": {
 		"name": "Constrictor Snake",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -2355,8 +2355,8 @@
 			"The constrictor snake presented here is a relatively small one. You can create stats for a larger maneater like an anaconda by applying the advanced and giant simple templates, or by advancing the stats above to a 7 HD Large snake (CR 5), or even a 14 HD Huge snake (CR 10)."
 		]
 	},
-	"snake_constrictor": { "copyof": "snake_constrictor_snake" },
-	"constrictor_snake": { "copyof": "snake_constrictor_snake" },
+	"snake_constrictor": { "redirect": "snake_constrictor_snake" },
+	"constrictor_snake": { "redirect": "snake_constrictor_snake" },
 	"snake_emperor_cobra": {
 		"name": "Emperor Cobra (Snake)",
 		"sources": [ "Bestiary 2" ],
@@ -2404,7 +2404,7 @@
 			"Infamous among travelers for its deadly poisonous bite, the emperor cobra is a foul-tempered snake typically encountered in bogs. The snake's scales are generally a dark green, with a pale green or even ivory underbelly. Its eyes are bright red and lack the distinctive serpentine slit most snake eyes possess. Emperor cobras are often trained to serve as guardians in temples. They are 16 feet long and weigh 200 pounds."
 		]
 	},
-	"emperor_cobra": { "copyof": "snake_emperor_cobra" },
+	"emperor_cobra": { "redirect": "snake_emperor_cobra" },
 	"snake_giant_anaconda": {
 		"name": "Giant Anaconda (Snake)",
 		"sources": [ "Bestiary 2" ],
@@ -2449,7 +2449,7 @@
 			"Of the multitude of slithering predators that infest jungles, forests, and swamps, few inspire such terror as the giant anaconda. Incredibly strong, fearless hunters, these creatures are capable of taking down and eating elephants, dinosaurs, and giants. Their olive green and black mottled scales afford them exceptional camouflage in the murky waters they call home. A giant anaconda can grow to a length of 60 feet."
 		]
 	},
-	"giant_anaconda": { "copyof": "snake_giant_anaconda" },
+	"giant_anaconda": { "redirect": "snake_giant_anaconda" },
 	"snake_venomous_snake": {
 		"name": "Venomous Snake",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -2500,8 +2500,8 @@
 			"[^B]: Bonus feat."
 		]
 	},
-	"snake_venomous": { "copyof": "snake_venomous_snake" },
-	"venomous_snake": { "copyof": "snake_venomous_snake" },
+	"snake_venomous": { "redirect": "snake_venomous_snake" },
+	"venomous_snake": { "redirect": "snake_venomous_snake" },
 	"snallygaster": {
 		"name": "Snallygaster",
 		"sources": [
@@ -2656,8 +2656,8 @@
 			"The six-legged albino cave solifugid is well known for its aggressive hunting patterns. It has a legspan of 5 feet, and weighs 100 pounds."
 		]
 	},
-	"solifugid_albino_cave": { "copyof": "solifugid_albino_cave_solifugid" },
-	"albino_cave_solifugid": { "copyof": "solifugid_albino_cave_solifugid" },
+	"solifugid_albino_cave": { "redirect": "solifugid_albino_cave_solifugid" },
+	"albino_cave_solifugid": { "redirect": "solifugid_albino_cave_solifugid" },
 	"solifugid_giant_solifugid": {
 		"name": "Giant Solifugid",
 		"sources": [ "Bestiary 2" ],
@@ -2711,8 +2711,8 @@
 			"| Duneshaker solifugid | 18 | Colossal | 20 |"
 		]
 	},
-	"giant_solifugid": { "copyof": "solifugid_giant_solifugid" },
-	"solifugid_giant": { "copyof": "solifugid_giant_solifugid" },
+	"giant_solifugid": { "redirect": "solifugid_giant_solifugid" },
+	"solifugid_giant": { "redirect": "solifugid_giant_solifugid" },
 	"somalcygot": {
 		"name": "Somalcygot",
 		"sources": [
@@ -3993,7 +3993,7 @@
 			"Most stymphalides stand approximately 2-1/2 feet tall and weigh little more than 40 pounds. Although mean-tempered and territorial, lone stymphalides prove relatively harmless, thus traveling in swarms of several dozen, relying on strength of numbers to bring down large or dangerous prey. Many tales also tell of enormous breeds of these monstrous birds, powerful enough to prey upon wyverns. These giant stymphalides are said to grow up to 13 feet tall and weigh over 250 pounds, with wingspans reaching upward of 25 feet. Such gigantic stymphalides are rarely seen, preferring to lurk upon desolate cliffs or even amid harsh extraplanar realms."
 		]
 	},
-	"giant_stymphalidies": { "copyof": "stymphalide_giant_stymphalidies" },
+	"giant_stymphalidies": { "redirect": "stymphalide_giant_stymphalidies" },
 	"stymphalide_stymphalides_swarm": {
 		"name": "Stymphalides Swarm",
 		"sources": [ "Pathfinder #26: The Sixfold Trial" ],
@@ -4048,7 +4048,7 @@
 			"Most stymphalides stand approximately 2-1/2 feet tall and weigh little more than 40 pounds. Although mean-tempered and territorial, lone stymphalides prove relatively harmless, thus traveling in swarms of several dozen, relying on strength of numbers to bring down large or dangerous prey. Many tales also tell of enormous breeds of these monstrous birds, powerful enough to prey upon wyverns. These giant stymphalides are said to grow up to 13 feet tall and weigh over 250 pounds, with wingspans reaching upward of 25 feet. Such gigantic stymphalides are rarely seen, preferring to lurk upon desolate cliffs or even amid harsh extraplanar realms."
 		]
 	},
-	"stymphalides_swarm": { "copyof": "stymphalide_stymphalides_swarm" },
+	"stymphalides_swarm": { "redirect": "stymphalide_stymphalides_swarm" },
 	"stymphalidies": {
 		"name": "Stymphalidies",
 		"sources": [ "Bestiary 3" ],

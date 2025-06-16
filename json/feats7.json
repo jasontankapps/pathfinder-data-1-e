@@ -2198,8 +2198,8 @@
 			"**Special:** Bard and skald spells cannot be enhanced by this feat."
 		]
 	},
-	"silenced": { "copyof": "silent_spell" },
-	"silent": { "copyof": "silent_spell" },
+	"silenced": { "redirect": "silent_spell" },
+	"silent": { "redirect": "silent_spell" },
 	"simple_weapon_proficiency": {
 		"name": "Simple Weapon Proficiency",
 		"sources": [ "PRPG Core Rulebook" ],

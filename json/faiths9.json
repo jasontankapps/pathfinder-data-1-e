@@ -1018,7 +1018,7 @@
 			"| Donma Goko | The Cliffdweller | Dagger | Swallow-tailed gull |"
 		]
 	},
-	"juju": { "copyof": "wendo" },
+	"juju": { "redirect": "wendo" },
 	"winlas": {
 		"name": "Winlas",
 		"sources": [

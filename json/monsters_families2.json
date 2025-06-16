@@ -58,7 +58,7 @@
 			"- {monster/Small Aether Elemental}"
 		]
 	},
-	"aether_elemental": { "copyof": "elemental_aether" },
+	"aether_elemental": { "redirect": "elemental_aether" },
 	"elemental_air": {
 		"name": "Elemental (Air)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -102,7 +102,7 @@
 			"- {monster/Elder Air Elemental>_mythic}"
 		]
 	},
-	"air_elemental": { "copyof": "elemental_air" },
+	"air_elemental": { "redirect": "elemental_air" },
 	"elemental_earth": {
 		"name": "Elemental (Earth)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -146,7 +146,7 @@
 			"- {monster/Elder Earth Elemental>_mythic}"
 		]
 	},
-	"earth_elemental": { "copyof": "elemental_earth" },
+	"earth_elemental": { "redirect": "elemental_earth" },
 	"elemental_fire": {
 		"name": "Elemental (Fire)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -192,7 +192,7 @@
 			"- {monster/Elder Fire Elemental>_mythic}"
 		]
 	},
-	"fire_elemental": { "copyof": "elemental_fire" },
+	"fire_elemental": { "redirect": "elemental_fire" },
 	"elemental_ice": {
 		"name": "Elemental (Ice)",
 		"sources": [ "Bestiary 2" ],
@@ -225,7 +225,7 @@
 			"- {monster/Small Ice Elemental}"
 		]
 	},
-	"ice_elemental": { "copyof": "elemental_ice" },
+	"ice_elemental": { "redirect": "elemental_ice" },
 	"elemental_lightning": {
 		"name": "Elemental (Lightning)",
 		"sources": [ "Bestiary 2" ],
@@ -256,7 +256,7 @@
 			"- {monster/Small Lightning Elemental}"
 		]
 	},
-	"lightning_elemental": { "copyof": "elemental_lightning" },
+	"lightning_elemental": { "redirect": "elemental_lightning" },
 	"elemental_magma": {
 		"name": "Elemental (Magma)",
 		"sources": [ "Bestiary 2" ],
@@ -287,7 +287,7 @@
 			"- {monster/Small Magma Elemental}"
 		]
 	},
-	"magma_elemental": { "copyof": "elemental_magma" },
+	"magma_elemental": { "redirect": "elemental_magma" },
 	"elemental_mud": {
 		"name": "Elemental (Mud)",
 		"sources": [ "Bestiary 2" ],
@@ -316,7 +316,7 @@
 			"- {monster/Small Mud Elemental}"
 		]
 	},
-	"mud_elemental": { "copyof": "elemental_mud" },
+	"mud_elemental": { "redirect": "elemental_mud" },
 	"elemental_water": {
 		"name": "Elemental (Water)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -362,7 +362,7 @@
 			"- {monster/Elder Water Elemental>_mythic}"
 		]
 	},
-	"water_elemental": { "copyof": "elemental_water" },
+	"water_elemental": { "redirect": "elemental_water" },
 	"empyreal_lord": {
 		"name": "Empyreal Lord",
 		"sources": [ "Bestiary 4" ],
@@ -2358,7 +2358,7 @@
 			"- {monster/Sodden Drauger Troop}"
 		]
 	},
-	"troop": { "copyof": "troops" },
+	"troop": { "redirect": "troops" },
 	"vampire_servant": {
 		"name": "Vampire Servant",
 		"sources": [ "Monster Codex" ],

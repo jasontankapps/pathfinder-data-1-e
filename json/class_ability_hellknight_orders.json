@@ -429,7 +429,7 @@
 			"Each entry notes the major order to which it is most similar. This analogous order does not necessarily share any special relationship with the lesser order, but players who wish to create a character who is a member of a lesser order should look to the corresponding order to fill in specifics that these summaries don't detail, such as the boons accessible through the {feat/Hellknight Obedience} feat."
 		]
 	},
-	"order_of_the_torrent": { "copyof": "order_of_the_torrent_minor_order" },
+	"order_of_the_torrent": { "redirect": "order_of_the_torrent_minor_order" },
 	"order_of_the_wall_minor_order": {
 		"name": "Order of the Wall (Minor Order)",
 		"sources": [ "Path of the Hellknight" ],

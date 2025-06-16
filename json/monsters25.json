@@ -453,8 +453,8 @@
 			"Giant wasps attack when hungry or threatened, stinging their prey to death. They take dead or incapacitated opponents back to their lairs as food for their unhatched young - the experience of lying in a wasp nest, paralyzed while its grubs feed, is one of nature's cruelest inventions. Even when part of a nest, giant wasps tend toward solitary hunting, and it's rare to see more than one at a time."
 		]
 	},
-	"giant_wasp": { "copyof": "wasp_giant_wasp" },
-	"wasp_giant": { "copyof": "wasp_giant_wasp" },
+	"giant_wasp": { "redirect": "wasp_giant_wasp" },
+	"wasp_giant": { "redirect": "wasp_giant_wasp" },
 	"wasp_ground_wasp_swarm": {
 		"name": "Ground Wasp Swarm",
 		"sources": [ "Pathfinder #79: The Half-Dead City" ],
@@ -505,8 +505,8 @@
 			"Many varieties of ground wasps are parasitic, and attack large creatures as a means of reproduction, as well as in defense. Ground wasps have a paralytic poison, and once a victim has sustained dozens of stings, its body goes limp. Once its prey is incapacitated, a ground wasp swarm descends on the still-living creature and lays hundreds of eggs just beneath its skin. Some ground wasps swarm for food in a similar fashion. Mature ground wasps don't eat much flesh themselves, but they often take down prey so they can retrieve food for their growing larvae."
 		]
 	},
-	"ground_wasp_swarm": { "copyof": "wasp_ground_wasp_swarm" },
-	"wasp_ground_swarm": { "copyof": "wasp_ground_wasp_swarm" },
+	"ground_wasp_swarm": { "redirect": "wasp_ground_wasp_swarm" },
+	"wasp_ground_swarm": { "redirect": "wasp_ground_wasp_swarm" },
 	"wasp_wasp_swarm": {
 		"name": "Wasp Swarm",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -558,7 +558,7 @@
 			"Wasp swarms surround and attack any living prey in their paths, and are swift to seek out new prey once their anger is aroused. An enraged wasp swarm often loses track of its hive or the original source of its anger, and presented with a constant series of new targets to swarm and sting, a swarm can continue its rampage nonstop until it is destroyed or dispersed."
 		]
 	},
-	"wasp_swarm": { "copyof": "wasp_wasp_swarm" },
+	"wasp_swarm": { "redirect": "wasp_wasp_swarm" },
 	"watcher": {
 		"name": "Watcher",
 		"sources": [ "Planar Adventures" ],
@@ -850,7 +850,7 @@
 			"Carrying more than a light load (200 pounds) prevents a giant water strider from using its water skating ability."
 		]
 	},
-	"giant_water_strider": { "copyof": "water_strider_giant_water_strider" },
+	"giant_water_strider": { "redirect": "water_strider_giant_water_strider" },
 	"water_strider_nymph_water_strider": {
 		"name": "Nymph Water Strider",
 		"sources": [ "Bestiary 4" ],
@@ -898,7 +898,7 @@
 			"A nymph water strider isn't suitable as a mount for any Large or smaller creature."
 		]
 	},
-	"nymph_water_strider": { "copyof": "water_strider_nymph_water_strider" },
+	"nymph_water_strider": { "redirect": "water_strider_nymph_water_strider" },
 	"water_wraith": {
 		"name": "Water Wraith",
 		"sources": [ "Inner Sea Bestiary" ],
@@ -1072,8 +1072,8 @@
 			"Measuring 12 feet long, a dire weasel stands 4 feet tall at the shoulder and weighs around 900 pounds."
 		]
 	},
-	"dire_weasel": { "copyof": "weasel_dire_weasel" },
-	"weasel_dire": { "copyof": "weasel_dire_weasel" },
+	"dire_weasel": { "redirect": "weasel_dire_weasel" },
+	"weasel_dire": { "redirect": "weasel_dire_weasel" },
 	"weasel_giant_weasel": {
 		"name": "Giant Weasel",
 		"sources": [
@@ -1123,8 +1123,8 @@
 			"Giant weasels are often trained to serve as guards and mounts by various Small humanoids. Adult giant weasels can grow to be 5 feet long, stand as high as 2-1/2 feet tall at the shoulder, and weigh up to 150 pounds."
 		]
 	},
-	"giant_weasel": { "copyof": "weasel_giant_weasel" },
-	"weasel_giant": { "copyof": "weasel_giant_weasel" },
+	"giant_weasel": { "redirect": "weasel_giant_weasel" },
+	"weasel_giant": { "redirect": "weasel_giant_weasel" },
 	"weaverworm": {
 		"name": "Weaverworm",
 		"sources": [ "Pathfinder #45: Broken Moon" ],
@@ -1409,8 +1409,8 @@
 			"Legendary in size and temper, great white whales are far more aggressive than their smaller kin."
 		]
 	},
-	"whale_great_white": { "copyof": "whale_great_white_whale" },
-	"great_white_whale": { "copyof": "whale_great_white_whale" },
+	"whale_great_white": { "redirect": "whale_great_white_whale" },
+	"great_white_whale": { "redirect": "whale_great_white_whale" },
 	"whaler_jellyfish": {
 		"name": "Whaler Jellyfish",
 		"sources": [ "Bestiary 6" ],
@@ -1927,7 +1927,7 @@
 			"**Family:** {family/Wild Hunt}"
 		]
 	},
-	"wild_hunt_archer": { "copyof": "wild_hunt_wild_hunt_archer" },
+	"wild_hunt_archer": { "redirect": "wild_hunt_wild_hunt_archer" },
 	"wild_hunt_wild_hunt_horse": {
 		"name": "Wild Hunt Horse",
 		"sources": [ "Bestiary 6" ],
@@ -1991,7 +1991,7 @@
 			"**Family:** {family/Wild Hunt}"
 		]
 	},
-	"wild_hunt_horse": { "copyof": "wild_hunt_wild_hunt_horse" },
+	"wild_hunt_horse": { "redirect": "wild_hunt_wild_hunt_horse" },
 	"wild_hunt_wild_hunt_hound": {
 		"name": "Wild Hunt Hound",
 		"sources": [ "Bestiary 6" ],
@@ -2056,7 +2056,7 @@
 			"**Family:** {family/Wild Hunt}"
 		]
 	},
-	"wild_hunt_hound": { "copyof": "wild_hunt_wild_hunt_hound" },
+	"wild_hunt_hound": { "redirect": "wild_hunt_wild_hunt_hound" },
 	"wild_hunt_wild_hunt_monarch": {
 		"name": "Wild Hunt Monarch",
 		"sources": [ "Bestiary 6" ],
@@ -2140,7 +2140,7 @@
 			"**Family:** {family/Wild Hunt}"
 		]
 	},
-	"wild_hunt_monarch": { "copyof": "wild_hunt_wild_hunt_monarch" },
+	"wild_hunt_monarch": { "redirect": "wild_hunt_wild_hunt_monarch" },
 	"wild_hunt_wild_hunt_scout": {
 		"name": "Wild Hunt Scout",
 		"sources": [ "Bestiary 6" ],
@@ -2202,7 +2202,7 @@
 			"**Family:** {family/Wild Hunt}"
 		]
 	},
-	"wild_hunt_scout": { "copyof": "wild_hunt_wild_hunt_scout" },
+	"wild_hunt_scout": { "redirect": "wild_hunt_wild_hunt_scout" },
 	"will_o_wisp": {
 		"name": "Will-o'-Wisp",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -2524,8 +2524,8 @@
 			"[^B]: Bonus feat."
 		]
 	},
-	"witchcrow_greater": { "copyof": "witchcrow_greater_witchcrow" },
-	"greater_witchcrow": { "copyof": "witchcrow_greater_witchcrow" },
+	"witchcrow_greater": { "redirect": "witchcrow_greater_witchcrow" },
+	"greater_witchcrow": { "redirect": "witchcrow_greater_witchcrow" },
 	"witchfire": {
 		"name": "Witchfire",
 		"sources": [
@@ -2758,7 +2758,7 @@
 			"Wandering alone or in packs, wolves sit at the top of the food chain. Ferociously territorial and exceptionally wide-ranging in their hunting, wolf packs cover broad areas. A wolf's wide paws contain slight webbing between the toes that assists in moving over snow, and its fur is a thick, water-resistant coat ranging in color from gray to brown and even black in some species. Its paws contain scent glands that mark the ground as it travels, assisting in navigation as well as broadcasting its whereabouts to fellow pack members. Generally, a wolf stands from 2-1/2 to 3 feet tall at the shoulder and weighs between 45 and 150 pounds, with females being slightly smaller."
 		]
 	},
-	"wolves": { "copyof": "wolf" },
+	"wolves": { "redirect": "wolf" },
 	"wolf_dire_wolf": {
 		"name": "Dire Wolf",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -2802,8 +2802,8 @@
 			"An enormous version of a normal wolf, dire wolves represent the wolf in its most primal form. These creatures follow the same basic behaviors of regular wolves, but are much more aggressive. Dire wolves often serve giants as hunting companions and vicious guard animals. Some ferocious humanoids and woodsmen use trained dire wolves as mounts. Darker than normal wolves, dire wolves' coats tend toward blacks and deep mottled grays. An adult dire wolf is typically about 9 feet long and weighs roughly 800 pounds."
 		]
 	},
-	"dire_wolf": { "copyof": "wolf_dire_wolf" },
-	"wolf_dire": { "copyof": "wolf_dire_wolf" },
+	"dire_wolf": { "redirect": "wolf_dire_wolf" },
+	"wolf_dire": { "redirect": "wolf_dire_wolf" },
 	"wolf_timber_wolf": {
 		"name": "Timber Wolf",
 		"sources": [ "Pathfinder #67: The Snows of Summer" ],
@@ -2852,8 +2852,8 @@
 			"The power and majesty of timber wolves inspire many sentient races. For civilized folk, the wolf has come to embody a primitive evil, often playing the role of a villain in fairy tales. This has earned the animal an undeserved reputation for aggression. Among northern peoples, the wolf symbolizes strength and prowess in battle. Many tribes revere wolf totems, and some even claim in their folklore to be originally descended from wolves."
 		]
 	},
-	"wolf_timber": { "copyof": "wolf_timber_wolf" },
-	"timber_wolf": { "copyof": "wolf_timber_wolf" },
+	"wolf_timber": { "redirect": "wolf_timber_wolf" },
+	"timber_wolf": { "redirect": "wolf_timber_wolf" },
 	"wolf_in_sheeps_clothing": {
 		"name": "Wolf-in-Sheep's-Clothing",
 		"sources": [
@@ -3054,7 +3054,7 @@
 			"Ningese Wollipeds: The remote nation of Ning breeds the smallest wollipeds on Triaxus. Ningese wollipeds are quick and nimble, using these traits to elude the hordes of monsters threatening the civilized regions of the nation. Wollipeds here are primarily used for fleece and food. In the summer, Ningese wollipeds grow to Medium size and their speed increases by 10 feet. Ningese wollipeds born in the harsh winter are Small and have 2 fewer Hit Dice; their Strength and Constitution decreases by 2, and their Dexterity increases by 2."
 		]
 	},
-	"wolliped_combat_trained": { "copyof": "wolliped_wolliped_combat_trained" },
+	"wolliped_combat_trained": { "redirect": "wolliped_wolliped_combat_trained" },
 	"wolliped_wolliped_domesticated_or_wild": {
 		"name": "Wolliped (Domesticated or Wild)",
 		"sources": [ "Pathfinder #70: The Frozen Stars" ],
@@ -3130,7 +3130,7 @@
 			"Ningese Wollipeds: The remote nation of Ning breeds the smallest wollipeds on Triaxus. Ningese wollipeds are quick and nimble, using these traits to elude the hordes of monsters threatening the civilized regions of the nation. Wollipeds here are primarily used for fleece and food. In the summer, Ningese wollipeds grow to Medium size and their speed increases by 10 feet. Ningese wollipeds born in the harsh winter are Small and have 2 fewer Hit Dice; their Strength and Constitution decreases by 2, and their Dexterity increases by 2."
 		]
 	},
-	"wolliped_domesticated_or_wild": { "copyof": "wolliped_wolliped_domesticated_or_wild" },
+	"wolliped_domesticated_or_wild": { "redirect": "wolliped_wolliped_domesticated_or_wild" },
 	"wolpertinger": {
 		"name": "Wolpertinger",
 		"sources": [ "Pathfinder #61: Shards of Sin" ],
@@ -3290,8 +3290,8 @@
 			"Dire wolverines tend to be even more territorial than their smaller wolverine cousins, and they defend to the death the areas where they choose to live, often selecting humanoid-settled regions as their own and then fearlessly tearing the settlements apart. Dire wolverines grow to about 12 feet in length and can weigh as much as 2,000 pounds."
 		]
 	},
-	"dire_wolverine": { "copyof": "wolverine_dire_wolverine" },
-	"wolverine_dire": { "copyof": "wolverine_dire_wolverine" },
+	"dire_wolverine": { "redirect": "wolverine_dire_wolverine" },
+	"wolverine_dire": { "redirect": "wolverine_dire_wolverine" },
 	"worg": {
 		"name": "Worg",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -3386,7 +3386,7 @@
 			"A typical winter wolf is 8 feet long, stands 4-1/2 feet tall at the shoulder, and weighs about 450 pounds. Winter wolves will often ally themselves with frost giants, hill giants, and other large humanoids, serving entire tribes of giants as both scouts and guards."
 		]
 	},
-	"winter_wolf": { "copyof": "worg_winter_wolf" },
+	"winter_wolf": { "redirect": "worg_winter_wolf" },
 	"worm_that_walks_locust_variant": {
 		"name": "Worm That Walks, Locust Variant",
 		"sources": [ "Pathfinder #75: Demon's Heresy" ],
@@ -3447,7 +3447,7 @@
 			"[^D]: Domain spell"
 		]
 	},
-	"locust_variant": { "copyof": "worm_that_walks_locust_variant" },
+	"locust_variant": { "redirect": "worm_that_walks_locust_variant" },
 	"woundwyrm": {
 		"name": "Woundwyrm",
 		"sources": [ "Inner Sea Bestiary" ],

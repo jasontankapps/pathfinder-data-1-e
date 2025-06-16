@@ -761,7 +761,7 @@
 			"When a giant ant lion reaches maturity, it creates a cocoon of sand and dirt around itself. Over the course of a month, the ant lion undergoes a dramatic metamorphosis - when it emerges, its body has become elongated and thin and it has gained a set of enormous, lacy wings. Depending on the region, giant adult ant lions are often called giant lacewings, giant damselflies, or giant spindleflies, but regardless of their regional name, they remain ravenous and deadly, replacing the sand trap cunning of their larval form with swift flight and greater battlefield mobility."
 		]
 	},
-	"giant_adult_ant_lion": { "copyof": "ant_lion_giant_adult_ant_lion" },
+	"giant_adult_ant_lion": { "redirect": "ant_lion_giant_adult_ant_lion" },
 	"ant_lion_giant_ant_lion": {
 		"name": "Giant Ant Lion",
 		"sources": [
@@ -812,7 +812,7 @@
 			"Perils of the desert depths, giant ant lions construct traps from the shifting sands. These beasts lurk at the base of these pits, half buried and patiently awaiting unwary prey."
 		]
 	},
-	"giant_ant_lion": { "copyof": "ant_lion_giant_ant_lion" },
+	"giant_ant_lion": { "redirect": "ant_lion_giant_ant_lion" },
 	"ant_army_ant_swarm": {
 		"name": "Army Ant Swarm",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -863,7 +863,7 @@
 			"The notoriety of the army ant swarm is well earned. Constantly on the march, a hive of army ants is capable of eating anything that gets in the way of its unabating swath of destruction and ruin."
 		]
 	},
-	"army_ant_swarm": { "copyof": "ant_army_ant_swarm" },
+	"army_ant_swarm": { "redirect": "ant_army_ant_swarm" },
 	"ant_giant_ant": {
 		"name": "Giant Ant",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -921,8 +921,8 @@
 			"[^B]: Bonus feat."
 		]
 	},
-	"giant_ant": { "copyof": "ant_giant_ant" },
-	"ant_giant": { "copyof": "ant_giant_ant" },
+	"giant_ant": { "redirect": "ant_giant_ant" },
+	"ant_giant": { "redirect": "ant_giant_ant" },
 	"ant_knight_ant": {
 		"name": "Knight Ant",
 		"sources": [ "Bestiary 5" ],
@@ -976,8 +976,8 @@
 			"A knight ant is 10 feet long and weighs approximately 1,100 pounds. Its head is 7 feet across, and the flanges on the sides make it appear slightly concave."
 		]
 	},
-	"knight_ant": { "copyof": "ant_knight_ant" },
-	"ant_knight": { "copyof": "ant_knight_ant" },
+	"knight_ant": { "redirect": "ant_knight_ant" },
+	"ant_knight": { "redirect": "ant_knight_ant" },
 	"ant_megapon_ant": {
 		"name": "Megapon Ant",
 		"sources": [ "Bestiary 5" ],
@@ -1031,8 +1031,8 @@
 			"A knight ant is 10 feet long and weighs approximately 1,100 pounds. Its head is 7 feet across, and the flanges on the sides make it appear slightly concave."
 		]
 	},
-	"megapon_ant": { "copyof": "ant_megapon_ant" },
-	"ant_megapon": { "copyof": "ant_megapon_ant" },
+	"megapon_ant": { "redirect": "ant_megapon_ant" },
+	"ant_megapon": { "redirect": "ant_megapon_ant" },
 	"aoandon": {
 		"name": "Aoandon",
 		"sources": [ "Bestiary 4" ],
@@ -1195,9 +1195,9 @@
 			"A dire ape makes no displays of toughness or warnings before it attacks - it simply leaps into action with little or no provocation, tearing at its opponents with claws and teeth. If a dire ape is stymied by a heavily armored foe, it attempts to grapple its foe, pin it to the ground, and rend it."
 		]
 	},
-	"gigantopithecus": { "copyof": "ape_dire_ape_gigantopithecus" },
-	"dire_ape": { "copyof": "ape_dire_ape_gigantopithecus" },
-	"ape_dire": { "copyof": "ape_dire_ape_gigantopithecus" },
+	"gigantopithecus": { "redirect": "ape_dire_ape_gigantopithecus" },
+	"dire_ape": { "redirect": "ape_dire_ape_gigantopithecus" },
+	"ape_dire": { "redirect": "ape_dire_ape_gigantopithecus" },
 	"ape_gorilla": {
 		"name": "Gorilla (Ape)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -1243,8 +1243,8 @@
 			"Gorillas typically make a large show of force before actually attacking, thumping their chests with their palms, stamping their feet, and roaring loudly. Any opponents who refuse to flee after this display are attacked. Troops of apes fight together in a frenzy, tearing opponents to pieces with their hands and teeth."
 		]
 	},
-	"gorilla": { "copyof": "ape_gorilla" },
-	"ape": { "copyof": "ape_gorilla" },
+	"gorilla": { "redirect": "ape_gorilla" },
+	"ape": { "redirect": "ape_gorilla" },
 	"ape_megaprimatus": {
 		"name": "Megaprimatus (Ape)",
 		"sources": [ "Bestiary 5" ],
@@ -1301,7 +1301,7 @@
 			"Its tendency to overlook smaller creatures can lead to a megaprimatus's downfall, because it is woefully underprepared to deal with the ingenuity of humanoids, whose implements of war are powerful enough to bring down a creature even as mighty as a megaprimatus."
 		]
 	},
-	"megaprimatus": { "copyof": "ape_megaprimatus" },
+	"megaprimatus": { "redirect": "ape_megaprimatus" },
 	"aphorite": {
 		"name": "Aphorite",
 		"sources": [ "Planar Adventures" ],
@@ -1666,7 +1666,7 @@
 			"Mote archon swarms enjoy the company of other celestials dedicated to healing. They particularly admire brijidines and sometimes follow these fiery azatas with exuberant devotion. Eventually, a mote archon swarm's adoration gives way to irritation over an azata's flighty recklessness, however, so the swarm returns to the more serious business of tending to the sick or wounded."
 		]
 	},
-	"mote_archon_swarm": { "copyof": "archon_swarm_mote_archon_swarm" },
+	"mote_archon_swarm": { "redirect": "archon_swarm_mote_archon_swarm" },
 	"archon_bastion_archon": {
 		"name": "Bastion Archon",
 		"sources": [
@@ -1762,8 +1762,8 @@
 			"**Family:** {family/Archon}"
 		]
 	},
-	"bastion_archon": { "copyof": "archon_bastion_archon" },
-	"archon_bastion": { "copyof": "archon_bastion_archon" },
+	"bastion_archon": { "redirect": "archon_bastion_archon" },
+	"archon_bastion": { "redirect": "archon_bastion_archon" },
 	"archon_codex_archon": {
 		"name": "Codex Archon",
 		"sources": [
@@ -1831,8 +1831,8 @@
 			"**Family:** {family/Archon}"
 		]
 	},
-	"codex_archon": { "copyof": "archon_codex_archon" },
-	"archon_codex": { "copyof": "archon_codex_archon" },
+	"codex_archon": { "redirect": "archon_codex_archon" },
+	"archon_codex": { "redirect": "archon_codex_archon" },
 	"archon_exscinder": {
 		"name": "Exscinder (Archon)",
 		"sources": [
@@ -1896,7 +1896,7 @@
 			"**Family:** {family/Archon}"
 		]
 	},
-	"exscinder": { "copyof": "archon_exscinder" },
+	"exscinder": { "redirect": "archon_exscinder" },
 	"archon_gate_archon": {
 		"name": "Gate Archon",
 		"sources": [
@@ -1970,8 +1970,8 @@
 			"**Family:** {family/Archon}"
 		]
 	},
-	"gate_archon": { "copyof": "archon_gate_archon" },
-	"archon_gate": { "copyof": "archon_gate_archon" },
+	"gate_archon": { "redirect": "archon_gate_archon" },
+	"archon_gate": { "redirect": "archon_gate_archon" },
 	"archon_hammer_archon": {
 		"name": "Hammer Archon",
 		"sources": [
@@ -2057,8 +2057,8 @@
 			"Many hammer archons share a particular hatred for mariliths. These demons can possess a martial prowess equal to that of hammer archons, and are usually at the command of fiendish armies. A marilith's many bladed weapons can bypass a hammer archon's damage reduction and immunities, so hammer archons seek to sunder them before they can cause too much damage. A battle between a hammer archon and a marilith is an awe-inspiring sight to behold, as the two titans struggle to gain advantage over each other."
 		]
 	},
-	"hammer_archon": { "copyof": "archon_hammer_archon" },
-	"archon_hammer": { "copyof": "archon_hammer_archon" },
+	"hammer_archon": { "redirect": "archon_hammer_archon" },
+	"archon_hammer": { "redirect": "archon_hammer_archon" },
 	"archon_harbinger_archon": {
 		"name": "Harbinger Archon",
 		"sources": [
@@ -2132,8 +2132,8 @@
 			"**Family:** {family/Archon}"
 		]
 	},
-	"harbinger_archon": { "copyof": "archon_harbinger_archon" },
-	"archon_harbinger": { "copyof": "archon_harbinger_archon" },
+	"harbinger_archon": { "redirect": "archon_harbinger_archon" },
+	"archon_harbinger": { "redirect": "archon_harbinger_archon" },
 	"archon_hound_archon": {
 		"name": "Hound Archon",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -2193,8 +2193,8 @@
 			"**Family:** {family/Archon}"
 		]
 	},
-	"hound_archon": { "copyof": "archon_hound_archon" },
-	"archon_hound": { "copyof": "archon_hound_archon" },
+	"hound_archon": { "redirect": "archon_hound_archon" },
+	"archon_hound": { "redirect": "archon_hound_archon" },
 	"archon_lantern_archon": {
 		"name": "Lantern Archon",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -2255,8 +2255,8 @@
 			"**Family:** {family/Archon}"
 		]
 	},
-	"lantern_archon": { "copyof": "archon_lantern_archon" },
-	"archon_lantern": { "copyof": "archon_lantern_archon" },
+	"lantern_archon": { "redirect": "archon_lantern_archon" },
+	"archon_lantern": { "redirect": "archon_lantern_archon" },
 	"archon_legion_archon": {
 		"name": "Legion Archon",
 		"sources": [
@@ -2326,8 +2326,8 @@
 			"[^B]: Bonus feat."
 		]
 	},
-	"legion_archon": { "copyof": "archon_legion_archon" },
-	"archon_legion": { "copyof": "archon_legion_archon" },
+	"legion_archon": { "redirect": "archon_legion_archon" },
+	"archon_legion": { "redirect": "archon_legion_archon" },
 	"archon_preceptor_archon": {
 		"name": "Preceptor Archon",
 		"sources": [
@@ -2390,8 +2390,8 @@
 			"**Family:** {family/Archon}"
 		]
 	},
-	"preceptor_archon": { "copyof": "archon_preceptor_archon" },
-	"archon_preceptor": { "copyof": "archon_preceptor_archon" },
+	"preceptor_archon": { "redirect": "archon_preceptor_archon" },
+	"archon_preceptor": { "redirect": "archon_preceptor_archon" },
 	"archon_shield_archon": {
 		"name": "Shield Archon",
 		"sources": [
@@ -2457,8 +2457,8 @@
 			"**Family:** {family/Archon}"
 		]
 	},
-	"shield_archon": { "copyof": "archon_shield_archon" },
-	"archon_shield": { "copyof": "archon_shield_archon" },
+	"shield_archon": { "redirect": "archon_shield_archon" },
+	"archon_shield": { "redirect": "archon_shield_archon" },
 	"archon_spyglass_archon": {
 		"name": "Spyglass Archon",
 		"sources": [
@@ -2527,8 +2527,8 @@
 			"**Family:** {family/Archon}"
 		]
 	},
-	"spyglass_archon": { "copyof": "archon_spyglass_archon" },
-	"archon_spyglass": { "copyof": "archon_spyglass_archon" },
+	"spyglass_archon": { "redirect": "archon_spyglass_archon" },
+	"archon_spyglass": { "redirect": "archon_spyglass_archon" },
 	"archon_stag_archon": {
 		"name": "Stag Archon",
 		"sources": [
@@ -2590,8 +2590,8 @@
 			"**Family:** {family/Archon}"
 		]
 	},
-	"stag_archon": { "copyof": "archon_stag_archon" },
-	"archon_stag": { "copyof": "archon_stag_archon" },
+	"stag_archon": { "redirect": "archon_stag_archon" },
+	"archon_stag": { "redirect": "archon_stag_archon" },
 	"archon_star_archon": {
 		"name": "Star Archon",
 		"sources": [
@@ -2665,8 +2665,8 @@
 			"**Family:** {family/Archon}"
 		]
 	},
-	"star_archon": { "copyof": "archon_star_archon" },
-	"archon_star": { "copyof": "archon_star_archon" },
+	"star_archon": { "redirect": "archon_star_archon" },
+	"archon_star": { "redirect": "archon_star_archon" },
 	"archon_trumpet_archon": {
 		"name": "Trumpet Archon",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -2735,8 +2735,8 @@
 			"**Family:** {family/Archon}"
 		]
 	},
-	"trumpet_archon": { "copyof": "archon_trumpet_archon" },
-	"archon_trumpet": { "copyof": "archon_trumpet_archon" },
+	"trumpet_archon": { "redirect": "archon_trumpet_archon" },
+	"archon_trumpet": { "redirect": "archon_trumpet_archon" },
 	"ardoc_moilant": {
 		"name": "Ardoc Moilant",
 		"sources": [ "Pathfinder #135: Runeplague" ],
@@ -3160,7 +3160,7 @@
 			"Giant assassin bugs lay eggs in shallow caves or the crevices between rocks, preferably where food is readily available for the hatching young. An adult giant assassin bug is typically 4 feet long and weighs 65 pounds, though the larger varieties grow to a length of 6 feet and weigh around 150 pounds."
 		]
 	},
-	"giant_assassin_bug": { "copyof": "assassin_bug_giant_assassin_bug" },
+	"giant_assassin_bug": { "redirect": "assassin_bug_giant_assassin_bug" },
 	"assassin_bug_great_assassin_bug": {
 		"name": "Great Assassin Bug",
 		"sources": [ "Bestiary 5" ],
@@ -3212,7 +3212,7 @@
 			"Giant assassin bugs lay eggs in places shaded from the sun at all times, such as shallow caves or the crevices between rocks, preferably in a place where food is readily available for the hatching young. The soft-bodied young that hatch resemble their mature counterparts in all ways but size, and are fully ready to hunt the moment they emerge, though they typically seek much smaller prey. An adult assassin bug is typically 4 feet long, and weighs 65 pounds."
 		]
 	},
-	"great_assassin_bug": { "copyof": "assassin_bug_great_assassin_bug" },
+	"great_assassin_bug": { "redirect": "assassin_bug_great_assassin_bug" },
 	"assassin_vine": {
 		"name": "Assassin Vine",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -3463,7 +3463,7 @@
 			"**Family:** {family/Asura}"
 		]
 	},
-	"adhukait": { "copyof": "asura_adhukait" },
+	"adhukait": { "redirect": "asura_adhukait" },
 	"asura_aghasura": {
 		"name": "Aghasura (Asura)",
 		"sources": [ "Bestiary 3" ],
@@ -3529,7 +3529,7 @@
 			"**Family:** {family/Asura}"
 		]
 	},
-	"aghasura": { "copyof": "asura_aghasura" },
+	"aghasura": { "redirect": "asura_aghasura" },
 	"asura_asurendra": {
 		"name": "Asurendra (Asura)",
 		"sources": [ "Bestiary 3" ],
@@ -3612,7 +3612,7 @@
 			"[^B]: Bonus feat."
 		]
 	},
-	"asurendra": { "copyof": "asura_asurendra" },
+	"asurendra": { "redirect": "asura_asurendra" },
 	"asura_hishandura": {
 		"name": "Hishandura (Asura)",
 		"sources": [
@@ -3697,7 +3697,7 @@
 			"Hishanduras distrust any beings placed above others, and distance themselves from asura ranas, whom they see as hypocrites. Hishanduras who honor asura ranas do so because they see truths in their violent teachings, not because they consider the ranas as lords to be slavishly obeyed. These hishanduras favor violent and vindictive patrons such as {faith/Chugarra}, the Guru of Butchers; {faith/Chupurvagasti}, Lady of Poison Mist; and {faith/Zurapadyn}, the Beast Who Waits in Smoke."
 		]
 	},
-	"hishandura": { "copyof": "asura_hishandura" },
+	"hishandura": { "redirect": "asura_hishandura" },
 	"asura_japalisura": {
 		"name": "Japalisura (Asura)",
 		"sources": [
@@ -3782,7 +3782,7 @@
 			"[^B]: Bonus feat."
 		]
 	},
-	"japalisura": { "copyof": "asura_japalisura" },
+	"japalisura": { "redirect": "asura_japalisura" },
 	"asura_nikaramsa": {
 		"name": "Nikaramsa (Asura)",
 		"sources": [
@@ -3847,7 +3847,7 @@
 			"**Family:** {family/Asura}"
 		]
 	},
-	"nikaramsa": { "copyof": "asura_nikaramsa" },
+	"nikaramsa": { "redirect": "asura_nikaramsa" },
 	"asura_tripurasura": {
 		"name": "Tripurasura (Asura)",
 		"sources": [ "Bestiary 3" ],
@@ -3912,7 +3912,7 @@
 			"**Family:** {family/Asura}"
 		]
 	},
-	"tripurasura": { "copyof": "asura_tripurasura" },
+	"tripurasura": { "redirect": "asura_tripurasura" },
 	"asura_upasunda": {
 		"name": "Upasunda (Asura)",
 		"sources": [ "Bestiary 3" ],
@@ -3977,7 +3977,7 @@
 			"[^B]: Bonus feat."
 		]
 	},
-	"upasunda": { "copyof": "asura_upasunda" },
+	"upasunda": { "redirect": "asura_upasunda" },
 	"asura_vayuphak": {
 		"name": "Vayuphak (Asura)",
 		"sources": [
@@ -4041,5 +4041,5 @@
 			"**Family:** {family/Asura}"
 		]
 	},
-	"vayuphak": { "copyof": "asura_vayuphak" }
+	"vayuphak": { "redirect": "asura_vayuphak" }
 }

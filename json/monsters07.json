@@ -183,7 +183,7 @@
 			"When derros grow brazen enough to take multiple specimens, they target complete households. Bodysnatchers are unparalleled in their ability to pluck victims from secure havens. Since news of an entire family's disappearance creates a stir, derros often direct such operations toward a settlement's rural outskirts and make it look like their marks were the victims of raiding bandits or a wild beast. Sometimes bodysnatchers even provide such cover themselves, dragging captured monsters with them from the depths to rampage through a home once their own work is complete, covering up any trace of derro involvement and leaving a delightful surprise for any concerned citizens who rush to their neighbors' aid."
 		]
 	},
-	"derro_bodysnatcher": { "copyof": "derro_derro_bodysnatcher" },
+	"derro_bodysnatcher": { "redirect": "derro_derro_bodysnatcher" },
 	"derro_derro_brainwasher": {
 		"name": "Derro Brainwasher",
 		"sources": [ "Inner Sea Monster Codex" ],
@@ -240,7 +240,7 @@
 			"Brainwashers typically venture aboveground to examine former test subjects when their memories of Nar-Voth visits threaten to return with unwelcome clarity. Instead of killing these leaks outright, the derro would rather protect their investment and try to recover these subjects, open them up to see what went wrong, and return them after appropriate repairs. Fortunately for the brainwashers, these former guests are generally so unhinged from their experience that they're unable to hide effectively. Most rave about white-eyed abductors, slobbering in seedy taverns where they quell the horrible visions with strong drink, or are locked away in asylums when they're caught violently preparing for their tormentors' return. Once the brainwashers locate their targets, they incapacitate the unfortunate victims, bring them back underground, and alter their memories of recent events using either magic or drastic surgery. They rarely come to the surface unprepared or alone, however, and their expeditions often return with new subjects as well as old ones."
 		]
 	},
-	"derro_brainwasher": { "copyof": "derro_derro_brainwasher" },
+	"derro_brainwasher": { "redirect": "derro_derro_brainwasher" },
 	"derro_derro_magister": {
 		"name": "Derro Magister",
 		"sources": [
@@ -305,7 +305,7 @@
 			"Ingesting high doses of the fungus cytillesh imbues derro magisters with heightened mental abilities"
 		]
 	},
-	"derro_magister": { "copyof": "derro_derro_magister" },
+	"derro_magister": { "redirect": "derro_derro_magister" },
 	"derro_urban_stalker": {
 		"name": "Urban Stalker (Derro)",
 		"sources": [ "Inner Sea Monster Codex" ],
@@ -359,7 +359,7 @@
 			"Urban stalkers pursue their targets over several days and take great satisfaction in seeing their marks during the most intimate moments of their lives, even forming an unreciprocated obsession during their pursuit. When the moment finally comes to quiet those too stubborn to forget their experiences in Nar-Voth, these sadistic derros savor the last moments they have with their victims, even crying to themselves once the deed is done and their new \"friends\" lie quiet and cold. To protect themselves from this painful separation, urban stalkers stretch the killing out over an inhumane amount of time and always collect a memento from each victim that they lovingly care for and keep in a safe place alongside their other souvenirs."
 		]
 	},
-	"urban_stalker": { "copyof": "derro_urban_stalker" },
+	"urban_stalker": { "redirect": "derro_urban_stalker" },
 	"derro_white_eyed_torturer": {
 		"name": "White-Eyed Torturer (Derro)",
 		"sources": [ "Inner Sea Monster Codex" ],
@@ -416,7 +416,7 @@
 			"The self-mutilated white-eyed torturer carves into humanoid flesh with deviant glee and bestial hands, eager to learn the limits of anatomy. Armed with cutting implements, pliers, clamps, and perhaps even aberrant claws, this twisted surgeon goes about his work modifying his patients and himself. To this derro, his subject is at best a beast, and as his victim's screams echo through the nearby fungus-lined tunnels, other derros become drawn to the song and wait eagerly outside the torturer's laboratory to see what wonder he has created."
 		]
 	},
-	"white_eyed_torturer": { "copyof": "derro_white_eyed_torturer" },
+	"white_eyed_torturer": { "redirect": "derro_white_eyed_torturer" },
 	"desert_vermin_giant_ground_wasp": {
 		"name": "Giant Ground Wasp (Desert Vermin)",
 		"sources": [ "Pathfinder #81: Shifting Sands" ],
@@ -466,7 +466,7 @@
 			"In areas of dense vegetation, ground wasps can destroy crops and ruin the land with their burrows, but in the rocky and sandy desert, living creatures are most at risk from these dangerous vermin. The blistering heat of the desert can damage delicate eggs laid in exposed locations, so ground wasps have evolved to lay their eggs safely in the bodies of their victims. They keep to their shallow burrows during the hottest parts of the day, but remain near the opening to ambush creatures that wander near. A fully-grown ground wasp is 2 feet long, with a wingspan of 5 feet, and weighs 22 pounds."
 		]
 	},
-	"giant_ground_wasp": { "copyof": "desert_vermin_giant_ground_wasp" },
+	"giant_ground_wasp": { "redirect": "desert_vermin_giant_ground_wasp" },
 	"desert_vermin_giant_walking_stick": {
 		"name": "Giant Walking Stick (Desert Vermin)",
 		"sources": [ "Pathfinder #81: Shifting Sands" ],
@@ -517,7 +517,7 @@
 			"A fully grown giant walking stick stretches from 6 to 10 feet long, but typically weighs only 120 pounds."
 		]
 	},
-	"giant_walking_stick": { "copyof": "desert_vermin_giant_walking_stick" },
+	"giant_walking_stick": { "redirect": "desert_vermin_giant_walking_stick" },
 	"despoiler": {
 		"name": "Despoiler",
 		"sources": [ "Seers of the Drowned City" ],
@@ -745,9 +745,9 @@
 			"**Family:** {family/Devil}"
 		]
 	},
-	"hesperian": { "copyof": "devil_accomplice_devil_hesperian" },
-	"accomplice_devil": { "copyof": "devil_accomplice_devil_hesperian" },
-	"devil_accomplice": { "copyof": "devil_accomplice_devil_hesperian" },
+	"hesperian": { "redirect": "devil_accomplice_devil_hesperian" },
+	"accomplice_devil": { "redirect": "devil_accomplice_devil_hesperian" },
+	"devil_accomplice": { "redirect": "devil_accomplice_devil_hesperian" },
 	"devil_accuser_devil_zebub": {
 		"name": "Accuser Devil (Zebub)",
 		"sources": [
@@ -814,9 +814,9 @@
 			"**Family:** {family/Devil}"
 		]
 	},
-	"zebub": { "copyof": "devil_accuser_devil_zebub" },
-	"accuser_devil": { "copyof": "devil_accuser_devil_zebub" },
-	"devil_accuser": { "copyof": "devil_accuser_devil_zebub" },
+	"zebub": { "redirect": "devil_accuser_devil_zebub" },
+	"accuser_devil": { "redirect": "devil_accuser_devil_zebub" },
+	"devil_accuser": { "redirect": "devil_accuser_devil_zebub" },
 	"devil_advodaza": {
 		"name": "Advodaza (Devil)",
 		"sources": [
@@ -890,7 +890,7 @@
 			"**Family:** {family/Devil}"
 		]
 	},
-	"advodaza": { "copyof": "devil_advodaza" },
+	"advodaza": { "redirect": "devil_advodaza" },
 	"devil_apostate_devil_deimavigga": {
 		"name": "Apostate Devil (Deimavigga)",
 		"sources": [
@@ -970,9 +970,9 @@
 			"**Family:** {family/Devil}"
 		]
 	},
-	"deimavigga": { "copyof": "devil_apostate_devil_deimavigga" },
-	"apostate_devil": { "copyof": "devil_apostate_devil_deimavigga" },
-	"devil_apostate": { "copyof": "devil_apostate_devil_deimavigga" },
+	"deimavigga": { "redirect": "devil_apostate_devil_deimavigga" },
+	"apostate_devil": { "redirect": "devil_apostate_devil_deimavigga" },
+	"devil_apostate": { "redirect": "devil_apostate_devil_deimavigga" },
 	"devil_barbed_devil_hamatula": {
 		"name": "Barbed Devil (Hamatula)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -1035,9 +1035,9 @@
 			"**Family:** {family/Devil}"
 		]
 	},
-	"hamatula": { "copyof": "devil_barbed_devil_hamatula" },
-	"barbed_devil": { "copyof": "devil_barbed_devil_hamatula" },
-	"devil_barbed": { "copyof": "devil_barbed_devil_hamatula" },
+	"hamatula": { "redirect": "devil_barbed_devil_hamatula" },
+	"barbed_devil": { "redirect": "devil_barbed_devil_hamatula" },
+	"devil_barbed": { "redirect": "devil_barbed_devil_hamatula" },
 	"devil_bearded_devil_barbazu": {
 		"name": "Bearded Devil (Barbazu)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -1101,9 +1101,9 @@
 			"**Family:** {family/Devil}"
 		]
 	},
-	"barbazu": { "copyof": "devil_bearded_devil_barbazu" },
-	"bearded_devil": { "copyof": "devil_bearded_devil_barbazu" },
-	"devil_bearded": { "copyof": "devil_bearded_devil_barbazu" },
+	"barbazu": { "redirect": "devil_bearded_devil_barbazu" },
+	"bearded_devil": { "redirect": "devil_bearded_devil_barbazu" },
+	"devil_bearded": { "redirect": "devil_bearded_devil_barbazu" },
 	"devil_belier_devil_bdellavritra": {
 		"name": "Belier Devil (Bdellavritra)",
 		"sources": [
@@ -1166,9 +1166,9 @@
 			"**Family:** {family/Devil}"
 		]
 	},
-	"bdellavritra": { "copyof": "devil_belier_devil_bdellavritra" },
-	"belier_devil": { "copyof": "devil_belier_devil_bdellavritra" },
-	"devil_belier": { "copyof": "devil_belier_devil_bdellavritra" },
+	"bdellavritra": { "redirect": "devil_belier_devil_bdellavritra" },
+	"belier_devil": { "redirect": "devil_belier_devil_bdellavritra" },
+	"devil_belier": { "redirect": "devil_belier_devil_bdellavritra" },
 	"devil_bone_devil_osyluth": {
 		"name": "Bone Devil (Osyluth)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -1230,9 +1230,9 @@
 			"**Family:** {family/Devil}"
 		]
 	},
-	"osyluth": { "copyof": "devil_bone_devil_osyluth" },
-	"bone_devil": { "copyof": "devil_bone_devil_osyluth" },
-	"devil_bone": { "copyof": "devil_bone_devil_osyluth" },
+	"osyluth": { "redirect": "devil_bone_devil_osyluth" },
+	"bone_devil": { "redirect": "devil_bone_devil_osyluth" },
+	"devil_bone": { "redirect": "devil_bone_devil_osyluth" },
 	"devil_cabal_devil_uniila": {
 		"name": "Cabal Devil (Uniila)",
 		"sources": [
@@ -1317,9 +1317,9 @@
 			"**Family:** {family/Devil}"
 		]
 	},
-	"uniila": { "copyof": "devil_cabal_devil_uniila" },
-	"cabal_devil": { "copyof": "devil_cabal_devil_uniila" },
-	"devil_cabal": { "copyof": "devil_cabal_devil_uniila" },
+	"uniila": { "redirect": "devil_cabal_devil_uniila" },
+	"cabal_devil": { "redirect": "devil_cabal_devil_uniila" },
+	"devil_cabal": { "redirect": "devil_cabal_devil_uniila" },
 	"devil_chortov": {
 		"name": "Chortov (Devil)",
 		"sources": [
@@ -1387,7 +1387,7 @@
 			"**Family:** {family/Devil}"
 		]
 	},
-	"chortov": { "copyof": "devil_chortov" },
+	"chortov": { "redirect": "devil_chortov" },
 	"devil_contract_devil_phistophilus": {
 		"name": "Contract Devil (Phistophilus)",
 		"sources": [
@@ -1474,9 +1474,9 @@
 			"**Family:** {family/Devil}"
 		]
 	},
-	"phistophilus": { "copyof": "devil_contract_devil_phistophilus" },
-	"contract_devil": { "copyof": "devil_contract_devil_phistophilus" },
-	"devil_contract": { "copyof": "devil_contract_devil_phistophilus" },
+	"phistophilus": { "redirect": "devil_contract_devil_phistophilus" },
+	"contract_devil": { "redirect": "devil_contract_devil_phistophilus" },
+	"devil_contract": { "redirect": "devil_contract_devil_phistophilus" },
 	"devil_curse_devil_phiam": {
 		"name": "Curse Devil (Phiam)",
 		"sources": [
@@ -1544,9 +1544,9 @@
 			"**Family:** {family/Devil}"
 		]
 	},
-	"phiam": { "copyof": "devil_curse_devil_phiam" },
-	"curse_devil": { "copyof": "devil_curse_devil_phiam" },
-	"devil_curse": { "copyof": "devil_curse_devil_phiam" },
+	"phiam": { "redirect": "devil_curse_devil_phiam" },
+	"curse_devil": { "redirect": "devil_curse_devil_phiam" },
+	"devil_curse": { "redirect": "devil_curse_devil_phiam" },
 	"devil_drowning_devil_sarglagon": {
 		"name": "Drowning Devil (Sarglagon)",
 		"sources": [
@@ -1613,9 +1613,9 @@
 			"**Family:** {family/Devil}"
 		]
 	},
-	"sarglagon": { "copyof": "devil_drowning_devil_sarglagon" },
-	"drowning_devil": { "copyof": "devil_drowning_devil_sarglagon" },
-	"devil_drowning": { "copyof": "devil_drowning_devil_sarglagon" },
+	"sarglagon": { "redirect": "devil_drowning_devil_sarglagon" },
+	"drowning_devil": { "redirect": "devil_drowning_devil_sarglagon" },
+	"devil_drowning": { "redirect": "devil_drowning_devil_sarglagon" },
 	"devil_erinyes": {
 		"name": "Erinyes (Devil)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -1677,7 +1677,7 @@
 			"[^B]: Bonus feat."
 		]
 	},
-	"erinyes": { "copyof": "devil_erinyes" },
+	"erinyes": { "redirect": "devil_erinyes" },
 	"devil_executioner_devil_munagola": {
 		"name": "Executioner Devil (Munagola)",
 		"sources": [
@@ -1735,9 +1735,9 @@
 			"**Family:** {family/Devil}"
 		]
 	},
-	"munagola": { "copyof": "devil_executioner_devil_munagola" },
-	"executioner_devil": { "copyof": "devil_executioner_devil_munagola" },
-	"devil_executioner": { "copyof": "devil_executioner_devil_munagola" },
+	"munagola": { "redirect": "devil_executioner_devil_munagola" },
+	"executioner_devil": { "redirect": "devil_executioner_devil_munagola" },
+	"devil_executioner": { "redirect": "devil_executioner_devil_munagola" },
 	"devil_gambling_devil_magadaz": {
 		"name": "Gambling Devil (Magadaz)",
 		"sources": [
@@ -1820,9 +1820,9 @@
 			"The fact that one never knows whether a called gambling devil will be meticulous or incompetent poses an additional risk. When not tasked with a job, less effectual gambling devils seize upon any opportunity for a game of chance. To combat this inclination, canny summoners provide a bound magadaz with constant distractions. Many find benefit in calling two magadazes at once, allowing them free rein to gamble as they will so long as they do so only with one another."
 		]
 	},
-	"magadaz": { "copyof": "devil_gambling_devil_magadaz" },
-	"gambling_devil": { "copyof": "devil_gambling_devil_magadaz" },
-	"devil_gambling": { "copyof": "devil_gambling_devil_magadaz" },
+	"magadaz": { "redirect": "devil_gambling_devil_magadaz" },
+	"gambling_devil": { "redirect": "devil_gambling_devil_magadaz" },
+	"devil_gambling": { "redirect": "devil_gambling_devil_magadaz" },
 	"devil_handmaiden_devil_gylou": {
 		"name": "Handmaiden Devil (Gylou)",
 		"sources": [
@@ -1888,9 +1888,9 @@
 			"**Family:** {family/Devil}"
 		]
 	},
-	"gylou": { "copyof": "devil_handmaiden_devil_gylou" },
-	"handmaiden_devil": { "copyof": "devil_handmaiden_devil_gylou" },
-	"devil_handmaiden": { "copyof": "devil_handmaiden_devil_gylou" },
+	"gylou": { "redirect": "devil_handmaiden_devil_gylou" },
+	"handmaiden_devil": { "redirect": "devil_handmaiden_devil_gylou" },
+	"devil_handmaiden": { "redirect": "devil_handmaiden_devil_gylou" },
 	"devil_heresy_devil_ayngavhaul": {
 		"name": "Heresy Devil (Ayngavhaul)",
 		"sources": [
@@ -1959,9 +1959,9 @@
 			"**Family:** {family/Devil}"
 		]
 	},
-	"ayngavhaul": { "copyof": "devil_heresy_devil_ayngavhaul" },
-	"heresy_devil": { "copyof": "devil_heresy_devil_ayngavhaul" },
-	"devil_heresy": { "copyof": "devil_heresy_devil_ayngavhaul" },
+	"ayngavhaul": { "redirect": "devil_heresy_devil_ayngavhaul" },
+	"heresy_devil": { "redirect": "devil_heresy_devil_ayngavhaul" },
+	"devil_heresy": { "redirect": "devil_heresy_devil_ayngavhaul" },
 	"devil_horned_devil_cornugon": {
 		"name": "Horned Devil (Cornugon)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -2022,9 +2022,9 @@
 			"**Family:** {family/Devil}"
 		]
 	},
-	"cornugon": { "copyof": "devil_horned_devil_cornugon" },
-	"horned_devil": { "copyof": "devil_horned_devil_cornugon" },
-	"devil_horned": { "copyof": "devil_horned_devil_cornugon" },
+	"cornugon": { "redirect": "devil_horned_devil_cornugon" },
+	"horned_devil": { "redirect": "devil_horned_devil_cornugon" },
+	"devil_horned": { "redirect": "devil_horned_devil_cornugon" },
 	"devil_host_devil_greater_magaav": {
 		"name": "Greater Host Devil (Magaav)",
 		"sources": [
@@ -2091,10 +2091,10 @@
 			"**Family:** {family/Devil}"
 		]
 	},
-	"host_devil_greater_magaav": { "copyof": "devil_host_devil_greater_magaav" },
-	"devil_host_greater": { "copyof": "devil_host_devil_greater_magaav" },
-	"host_devil_greater": { "copyof": "devil_host_devil_greater_magaav" },
-	"greater_host_devil": { "copyof": "devil_host_devil_greater_magaav" },
+	"host_devil_greater_magaav": { "redirect": "devil_host_devil_greater_magaav" },
+	"devil_host_greater": { "redirect": "devil_host_devil_greater_magaav" },
+	"host_devil_greater": { "redirect": "devil_host_devil_greater_magaav" },
+	"greater_host_devil": { "redirect": "devil_host_devil_greater_magaav" },
 	"devil_host_devil_lesser_gaav": {
 		"name": "Lesser Host Devil (Gaav)",
 		"sources": [
@@ -2162,10 +2162,10 @@
 			"**Family:** {family/Devil}"
 		]
 	},
-	"host_devil_lesser_gaav": { "copyof": "devil_host_devil_lesser_gaav" },
-	"host_devil_lesser": { "copyof": "devil_host_devil_lesser_gaav" },
-	"devil_host_lesser": { "copyof": "devil_host_devil_lesser_gaav" },
-	"lesser_host_devil": { "copyof": "devil_host_devil_lesser_gaav" },
+	"host_devil_lesser_gaav": { "redirect": "devil_host_devil_lesser_gaav" },
+	"host_devil_lesser": { "redirect": "devil_host_devil_lesser_gaav" },
+	"devil_host_lesser": { "redirect": "devil_host_devil_lesser_gaav" },
+	"lesser_host_devil": { "redirect": "devil_host_devil_lesser_gaav" },
 	"devil_ice_devil_gelugon": {
 		"name": "Ice Devil (Gelugon)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -2226,9 +2226,9 @@
 			"**Family:** {family/Devil}"
 		]
 	},
-	"gelugon": { "copyof": "devil_ice_devil_gelugon" },
-	"ice_devil": { "copyof": "devil_ice_devil_gelugon" },
-	"devil_ice": { "copyof": "devil_ice_devil_gelugon" },
+	"gelugon": { "redirect": "devil_ice_devil_gelugon" },
+	"ice_devil": { "redirect": "devil_ice_devil_gelugon" },
+	"devil_ice": { "redirect": "devil_ice_devil_gelugon" },
 	"devil_immolation_devil_puragaus": {
 		"name": "Immolation Devil (Puragaus)",
 		"sources": [
@@ -2291,9 +2291,9 @@
 			"**Family:** {family/Devil}"
 		]
 	},
-	"puragaus": { "copyof": "devil_immolation_devil_puragaus" },
-	"immolation_devil": { "copyof": "devil_immolation_devil_puragaus" },
-	"devil_immolation": { "copyof": "devil_immolation_devil_puragaus" },
+	"puragaus": { "redirect": "devil_immolation_devil_puragaus" },
+	"immolation_devil": { "redirect": "devil_immolation_devil_puragaus" },
+	"devil_immolation": { "redirect": "devil_immolation_devil_puragaus" },
 	"devil_imp": {
 		"name": "Imp (Devil)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -2357,7 +2357,7 @@
 			"**Family:** {family/Devil}"
 		]
 	},
-	"imp": { "copyof": "devil_imp" },
+	"imp": { "redirect": "devil_imp" },
 	"devil_lemure": {
 		"name": "Lemure (Devil)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -2403,7 +2403,7 @@
 			"**Family:** {family/Devil}"
 		]
 	},
-	"lemure": { "copyof": "devil_lemure" },
+	"lemure": { "redirect": "devil_lemure" },
 	"devil_mnemor": {
 		"name": "Mnemor (Devil)",
 		"sources": [
@@ -2471,7 +2471,7 @@
 			"**Family:** {family/Devil}"
 		]
 	},
-	"mnemor": { "copyof": "devil_mnemor" },
+	"mnemor": { "redirect": "devil_mnemor" },
 	"devil_nemesis_devil_advodaza": {
 		"name": "Nemesis Devil (Advodaza)",
 		"sources": [
@@ -2553,8 +2553,8 @@
 			"**Family:** {family/Devil}"
 		]
 	},
-	"nemesis_devil": { "copyof": "devil_nemesis_devil_advodaza" },
-	"devil_nemesis": { "copyof": "devil_nemesis_devil_advodaza" },
+	"nemesis_devil": { "redirect": "devil_nemesis_devil_advodaza" },
+	"devil_nemesis": { "redirect": "devil_nemesis_devil_advodaza" },
 	"devil_nupperibo": {
 		"name": "Nupperibo (Devil)",
 		"sources": [
@@ -2603,7 +2603,7 @@
 			"**Family:** {family/Devil}"
 		]
 	},
-	"nupperibo": { "copyof": "devil_nupperibo" },
+	"nupperibo": { "redirect": "devil_nupperibo" },
 	"devil_pit_fiend": {
 		"name": "Pit Fiend (Devil)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -2680,7 +2680,7 @@
 			"**Family:** {family/Devil}"
 		]
 	},
-	"pit_fiend": { "copyof": "devil_pit_fiend" },
+	"pit_fiend": { "redirect": "devil_pit_fiend" },
 	"devil_possession_devil_greater_gidim": {
 		"name": "Greater Possession Devil (Gidim)",
 		"sources": [
@@ -2753,10 +2753,10 @@
 			"**Family:** {family/Devil}"
 		]
 	},
-	"greater_gidim": { "copyof": "devil_possession_devil_greater_gidim" },
-	"greater_possession_devil": { "copyof": "devil_possession_devil_greater_gidim" },
-	"devil_possession_greater": { "copyof": "devil_possession_devil_greater_gidim" },
-	"devil_possession_devil_greater": { "copyof": "devil_possession_devil_greater_gidim" },
+	"greater_gidim": { "redirect": "devil_possession_devil_greater_gidim" },
+	"greater_possession_devil": { "redirect": "devil_possession_devil_greater_gidim" },
+	"devil_possession_greater": { "redirect": "devil_possession_devil_greater_gidim" },
+	"devil_possession_devil_greater": { "redirect": "devil_possession_devil_greater_gidim" },
 	"devil_possession_devil_lesser_gidim": {
 		"name": "Lesser Possession Devil (Gidim)",
 		"sources": [
@@ -2832,10 +2832,10 @@
 			"**Family:** {family/Devil}"
 		]
 	},
-	"lesser_gidim": { "copyof": "devil_possession_devil_lesser_gidim" },
-	"lesser_possession_devil": { "copyof": "devil_possession_devil_lesser_gidim" },
-	"devil_possession_devil_lesser": { "copyof": "devil_possession_devil_lesser_gidim" },
-	"devil_possession_lesser": { "copyof": "devil_possession_devil_lesser_gidim" },
+	"lesser_gidim": { "redirect": "devil_possession_devil_lesser_gidim" },
+	"lesser_possession_devil": { "redirect": "devil_possession_devil_lesser_gidim" },
+	"devil_possession_devil_lesser": { "redirect": "devil_possession_devil_lesser_gidim" },
+	"devil_possession_lesser": { "redirect": "devil_possession_devil_lesser_gidim" },
 	"devil_rust_devil_ferrugon": {
 		"name": "Rust Devil (Ferrugon)",
 		"sources": [
@@ -2932,9 +2932,9 @@
 			"Description Infernal contracts created by rust devils incorporate complex diagrams and sketches as examples to either help explain or obfuscate the contract's contents. Complexity 34 Specialized Skills Craft (any), Knowledge (engineering), Profession (any that produces physical goods) kp 36 Hidden Condition (18 kp) Once per month, the rust devil can use enter image on any object created by the contracted mortal that depicts a visage of any type. While this effect is active, the rust devil can use its spell-like abilities through the image on any target within range and sight. Termination Clause (0 kp) If the mortal harvests a replacement rib from a donor of the same race as himself and then allows this rib to be used as an additional material component during the casting of a regenerate spell cast by the creature from whom the rib was harvested, the contract is terminated."
 		]
 	},
-	"ferrugon": { "copyof": "devil_rust_devil_ferrugon" },
-	"rust_devil": { "copyof": "devil_rust_devil_ferrugon" },
-	"devil_rust": { "copyof": "devil_rust_devil_ferrugon" },
+	"ferrugon": { "redirect": "devil_rust_devil_ferrugon" },
+	"rust_devil": { "redirect": "devil_rust_devil_ferrugon" },
+	"devil_rust": { "redirect": "devil_rust_devil_ferrugon" },
 	"devil_salikotal": {
 		"name": "Salikotal (Devil)",
 		"sources": [
@@ -3014,7 +3014,7 @@
 			"**Family:** {family/Devil}"
 		]
 	},
-	"salikotal": { "copyof": "devil_salikotal" },
+	"salikotal": { "redirect": "devil_salikotal" },
 	"devil_sire_devil_patraavex": {
 		"name": "Sire Devil (Patraavex)",
 		"sources": [
@@ -3079,9 +3079,9 @@
 			"**Family:** {family/Devil}"
 		]
 	},
-	"patraavex": { "copyof": "devil_sire_devil_patraavex" },
-	"sire_devil": { "copyof": "devil_sire_devil_patraavex" },
-	"devil_sire": { "copyof": "devil_sire_devil_patraavex" },
+	"patraavex": { "redirect": "devil_sire_devil_patraavex" },
+	"sire_devil": { "redirect": "devil_sire_devil_patraavex" },
+	"devil_sire": { "redirect": "devil_sire_devil_patraavex" },
 	"devil_tinder_devil_ukobach": {
 		"name": "Tinder Devil (Ukobach)",
 		"sources": [
@@ -3156,9 +3156,9 @@
 			"**Family:** {family/Devil}"
 		]
 	},
-	"ukobach": { "copyof": "devil_tinder_devil_ukobach" },
-	"tinder_devil": { "copyof": "devil_tinder_devil_ukobach" },
-	"devil_tinder": { "copyof": "devil_tinder_devil_ukobach" },
+	"ukobach": { "redirect": "devil_tinder_devil_ukobach" },
+	"tinder_devil": { "redirect": "devil_tinder_devil_ukobach" },
+	"devil_tinder": { "redirect": "devil_tinder_devil_ukobach" },
 	"devil_warmonger_devil_levaloch": {
 		"name": "Warmonger Devil (Levaloch)",
 		"sources": [
@@ -3228,9 +3228,9 @@
 			"**Family:** {family/Devil}"
 		]
 	},
-	"levaloch": { "copyof": "devil_warmonger_devil_levaloch" },
-	"warmonger_devil": { "copyof": "devil_warmonger_devil_levaloch" },
-	"devil_warmonger": { "copyof": "devil_warmonger_devil_levaloch" },
+	"levaloch": { "redirect": "devil_warmonger_devil_levaloch" },
+	"warmonger_devil": { "redirect": "devil_warmonger_devil_levaloch" },
+	"devil_warmonger": { "redirect": "devil_warmonger_devil_levaloch" },
 	"devilfish": {
 		"name": "Devilfish",
 		"sources": [

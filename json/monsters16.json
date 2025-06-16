@@ -590,7 +590,7 @@
 			"Under exceptional conditions, a lich's full consciousness survives its transformation into a demilich, or a lich's wandering intellect manages to return to its jeweled skull. Such creatures are awakened demiliches, and combine the powers and near-invulnerability of a demilich with the mind and spellcasting prowess of a lich. An awakened demilich has the full spellcasting abilities of the lich it was before, and gains Eschew Materials and Still Spell as bonus feats. Awakened liches keep their original lich Hit Dice, and any mental attributes that are higher than the demilich's minimums. They otherwise have all the special abilities and defenses of a demilich except torpor, and no abilities of the original lich beyond spellcasting and mental attributes. An awakened demilich has a CR of 16, or the CR of the original lich + 3, whichever is higher."
 		]
 	},
-	"demilich": { "copyof": "lich_demilich" },
+	"demilich": { "redirect": "lich_demilich" },
 	"lich_forsaken_lich": {
 		"name": "Forsaken Lich",
 		"sources": [ "Pathfinder #48: Shadows of Gallowspire" ],
@@ -649,8 +649,8 @@
 			"[^D]: Domain spell"
 		]
 	},
-	"lich_forsaken": { "copyof": "lich_forsaken_lich" },
-	"forsaken_lich": { "copyof": "lich_forsaken_lich" },
+	"lich_forsaken": { "redirect": "lich_forsaken_lich" },
+	"forsaken_lich": { "redirect": "lich_forsaken_lich" },
 	"liminal_sprite": {
 		"name": "Liminal Sprite",
 		"sources": [ "Bestiary 5" ],
@@ -805,9 +805,9 @@
 			"Dire lions, known locally as spotted lions or cave lions, are immense predators that can grow up to 15 feet long and weigh up to 3,500 pounds. Although they are merely animals, these large creatures seem to take an almost sadistic glee in playing with and tormenting their prey before eventually devouring it. As a result, many tribes view dire lions as the spawn of evil gods, and hunt them down as soon as their presence in a region becomes obvious."
 		]
 	},
-	"spotted_lion": { "copyof": "lion_dire_lion_spotted_lion" },
-	"dire_lion": { "copyof": "lion_dire_lion_spotted_lion" },
-	"lion_dire": { "copyof": "lion_dire_lion_spotted_lion" },
+	"spotted_lion": { "redirect": "lion_dire_lion_spotted_lion" },
+	"dire_lion": { "redirect": "lion_dire_lion_spotted_lion" },
+	"lion_dire": { "redirect": "lion_dire_lion_spotted_lion" },
 	"litanu": {
 		"name": "Litanu",
 		"sources": [ "Pathfinder #125: Tower of the Drowned Dead" ],
@@ -1347,7 +1347,7 @@
 			"Due to their intrepidness, they readily answer callings to serve summoners so they can visit new places and spread their sand far and wide. If they see an opportunity to do so, they may break free of their calling and explore the wider Material Plane, where they favor desert climes and their nearby regions, and where they are known to contribute to rapid desertification. When marooned on the Material Plane, they are generally restless until they find a way back to the Plane of Earth, but if they know of a route home, they instead explore the nearby area, wandering farther and farther until they lose interest in filling that world with sand and long to move on to a new one."
 		]
 	},
-	"living_sandstorm_humanoid": { "copyof": "living_sandstorm_living_sandstorm_humanoid" },
+	"living_sandstorm_humanoid": { "redirect": "living_sandstorm_living_sandstorm_humanoid" },
 	"living_sandstorm_living_sandstorm_sandstorm": {
 		"name": "Living Sandstorm (Sandstorm)",
 		"sources": [ "Pathfinder #83: The Slave Trenches of Hakotep" ],
@@ -1417,7 +1417,7 @@
 			"Due to their intrepidness, they readily answer callings to serve summoners so they can visit new places and spread their sand far and wide. If they see an opportunity to do so, they may break free of their calling and explore the wider Material Plane, where they favor desert climes and their nearby regions, and where they are known to contribute to rapid desertification. When marooned on the Material Plane, they are generally restless until they find a way back to the Plane of Earth, but if they know of a route home, they instead explore the nearby area, wandering farther and farther until they lose interest in filling that world with sand and long to move on to a new one."
 		]
 	},
-	"living_sandstorm_sandstorm": { "copyof": "living_sandstorm_living_sandstorm_sandstorm" },
+	"living_sandstorm_sandstorm": { "redirect": "living_sandstorm_living_sandstorm_sandstorm" },
 	"living_topiary": {
 		"name": "Living Topiary",
 		"sources": [
@@ -1597,7 +1597,7 @@
 			"These large lizards have the ability to shift the pigments in their skin to match their surroundings. A giant chameleon is typically 11 feet long and weighs 160 pounds."
 		]
 	},
-	"giant_chameleon": { "copyof": "lizard_giant_chameleon" },
+	"giant_chameleon": { "redirect": "lizard_giant_chameleon" },
 	"lizard_giant_gecko": {
 		"name": "Giant Gecko (Lizard)",
 		"sources": [ "Bestiary 3" ],
@@ -1642,7 +1642,7 @@
 			"Smaller humanoids (in particular, goblins) can even use the creatures as mounts, taking advantage of their superior climbing skills to attack from seemingly impossible positions and angles. A giant gecko measures 8 feet from nose to tail and weighs 120 pounds. Coloration among giant geckos can vary wildly, though most are some shade of green."
 		]
 	},
-	"giant_gecko": { "copyof": "lizard_giant_gecko" },
+	"giant_gecko": { "redirect": "lizard_giant_gecko" },
 	"lizard_giant_frilled_lizard": {
 		"name": "Giant Frilled Lizard",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -1691,8 +1691,8 @@
 			"This lizard is a true behemoth - an apex predator found in tropical regions. Many species of giant lizard exist - other species lack this lizard's intimidating charge special ability but might have other special attacks like grab, trip, constrict (with a bite), or pounce."
 		]
 	},
-	"lizard_giant_frilled": { "copyof": "lizard_giant_frilled_lizard" },
-	"giant_frilled_lizard": { "copyof": "lizard_giant_frilled_lizard" },
+	"lizard_giant_frilled": { "redirect": "lizard_giant_frilled_lizard" },
+	"giant_frilled_lizard": { "redirect": "lizard_giant_frilled_lizard" },
 	"lizard_monitor_lizard": {
 		"name": "Monitor Lizard",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -1739,8 +1739,8 @@
 			"Monitor lizards are large enough to pose a threat to humans, and in some societies are often mistaken for dragons. Some can reach lengths of 10 feet or more and weights of 350 pounds."
 		]
 	},
-	"lizard_monitor": { "copyof": "lizard_monitor_lizard" },
-	"monitor_lizard": { "copyof": "lizard_monitor_lizard" },
+	"lizard_monitor": { "redirect": "lizard_monitor_lizard" },
+	"monitor_lizard": { "redirect": "lizard_monitor_lizard" },
 	"lizardfolk": {
 		"name": "Lizardfolk",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -1855,7 +1855,7 @@
 			"Lizard scions average 10 feet in height and 500 pounds, though this can vary by tribe and age. Unlike boggard priest-kings, lizard scions are never fat, but rather hugely muscled specimens with excellent reflexes."
 		]
 	},
-	"lizard_scion": { "copyof": "lizardfolk_lizard_scion" },
+	"lizard_scion": { "redirect": "lizardfolk_lizard_scion" },
 	"lizardfolk_lizardfolk_berserker": {
 		"name": "Lizardfolk Berserker",
 		"sources": [ "Monster Codex" ],
@@ -1906,7 +1906,7 @@
 			"Some warriors enter war-trances to increase their prowess."
 		]
 	},
-	"lizardfolk_berserker": { "copyof": "lizardfolk_lizardfolk_berserker" },
+	"lizardfolk_berserker": { "redirect": "lizardfolk_lizardfolk_berserker" },
 	"lizardfolk_lizardfolk_champion": {
 		"name": "Lizardfolk Champion",
 		"sources": [ "Monster Codex" ],
@@ -1978,7 +1978,7 @@
 			">**SQ** devotion, tricks (attack [all creatures], come, defend, down, guard, heal, seek, stay, work)"
 		]
 	},
-	"lizardfolk_champion": { "copyof": "lizardfolk_lizardfolk_champion" },
+	"lizardfolk_champion": { "redirect": "lizardfolk_lizardfolk_champion" },
 	"lizardfolk_lizardfolk_clutch_mother": {
 		"name": "Lizardfolk Clutch Mother",
 		"sources": [ "Monster Codex" ],
@@ -2041,7 +2041,7 @@
 			"[^D]: Domain spell"
 		]
 	},
-	"lizardfolk_clutch_mother": { "copyof": "lizardfolk_lizardfolk_clutch_mother" },
+	"lizardfolk_clutch_mother": { "redirect": "lizardfolk_lizardfolk_clutch_mother" },
 	"lizardfolk_lizardfolk_rattler": {
 		"name": "Lizardfolk Rattler",
 		"sources": [ "Monster Codex" ],
@@ -2090,7 +2090,7 @@
 			"Lizardfolk rattlers are often tribal elders, but when youths show a propensity for bardic magic or a particular passion for the old stories and shamanistic rituals, a tribe's existing rattlers might choose to take them in and train them as the rattlers of the next generation. This practice is crucial, as it can take most of a lifetime to learn all the stories, and a tribe never wants to risk losing ties to their history because of the sudden death of the tribe's rattler to old age or in battle."
 		]
 	},
-	"lizardfolk_rattler": { "copyof": "lizardfolk_lizardfolk_rattler" },
+	"lizardfolk_rattler": { "redirect": "lizardfolk_lizardfolk_rattler" },
 	"lizardfolk_lizardfolk_sorcerer": {
 		"name": "Lizardfolk Sorcerer",
 		"sources": [ "Monster Codex" ],
@@ -2149,7 +2149,7 @@
 			"Lizardfolk sorcerers can have any bloodline, but most claim (rightly or not) that their magic is the result of ancient interbreeding with majestic dragons. With the blood of dragons coursing through her veins, the sorcerer is respected and feared by members of her tribe. They could see her as an omen - of good or ill - and might send her away to live on the outskirts of tribal land if she can't quickly learn to control her powers. Nevertheless, though the sorcerer might stand apart from the rest of her tribe, she almost always comes to her kin's defense in their times of need."
 		]
 	},
-	"lizardfolk_sorcerer": { "copyof": "lizardfolk_lizardfolk_sorcerer" },
+	"lizardfolk_sorcerer": { "redirect": "lizardfolk_lizardfolk_sorcerer" },
 	"lizardfolk_lizardfolk_stalker": {
 		"name": "Lizardfolk Stalker",
 		"sources": [ "Monster Codex" ],
@@ -2198,7 +2198,7 @@
 			"Submerged in shallow water or hidden in tangles of rushes, lizardfolk rangers give away their position only once it is too late for their prey to do anything about it."
 		]
 	},
-	"lizardfolk_stalker": { "copyof": "lizardfolk_lizardfolk_stalker" },
+	"lizardfolk_stalker": { "redirect": "lizardfolk_lizardfolk_stalker" },
 	"lizardfolk_lizardfolk_swamp_lurker": {
 		"name": "Lizardfolk Swamp Lurker",
 		"sources": [ "Monster Codex" ],
@@ -2243,7 +2243,7 @@
 			"Submerged in shallow water or hidden in tangles of rushes, lizardfolk rangers give away their position only once it is too late for their prey to do anything about it."
 		]
 	},
-	"lizardfolk_swamp_lurker": { "copyof": "lizardfolk_lizardfolk_swamp_lurker" },
+	"lizardfolk_swamp_lurker": { "redirect": "lizardfolk_lizardfolk_swamp_lurker" },
 	"lizardfolk_lizardfolk_vanguard": {
 		"name": "Lizardfolk Vanguard",
 		"sources": [ "Monster Codex" ],
@@ -2293,7 +2293,7 @@
 			"Some warriors enter war-trances to increase their prowess."
 		]
 	},
-	"lizardfolk_vanguard": { "copyof": "lizardfolk_lizardfolk_vanguard" },
+	"lizardfolk_vanguard": { "redirect": "lizardfolk_lizardfolk_vanguard" },
 	"llama": {
 		"name": "Llama",
 		"sources": [ "Animal Archive" ],
@@ -2502,8 +2502,8 @@
 			"A mature giant locust measures just over 4 feet long and weighs 50 pounds."
 		]
 	},
-	"giant_locust": { "copyof": "locust_giant_locust" },
-	"locust_giant": { "copyof": "locust_giant_locust" },
+	"giant_locust": { "redirect": "locust_giant_locust" },
+	"locust_giant": { "redirect": "locust_giant_locust" },
 	"locust_locust_swarm": {
 		"name": "Locust Swarm",
 		"sources": [ "Bestiary 4" ],
@@ -2554,7 +2554,7 @@
 			"The largest swarms, known as plagues, can include billions of locusts and cover hundreds of square miles. Locusts in these swarms are larger and more aggressive than common ones, making the swarm a true danger to everything edible in their path and even to inedible objects as well."
 		]
 	},
-	"locust_swarm": { "copyof": "locust_locust_swarm" },
+	"locust_swarm": { "redirect": "locust_locust_swarm" },
 	"locust_plague_locust_swarm": {
 		"name": "Plague Locust Swarm",
 		"sources": [ "Pathfinder #79: The Half-Dead City" ],
@@ -2609,8 +2609,8 @@
 			"Plague locust swarms in other regions are considered to be the work of the demon lord Deskari, especially those found in the northern reaches of Avistan."
 		]
 	},
-	"locust_plague_swarm": { "copyof": "locust_plague_locust_swarm" },
-	"plague_locust_swarm": { "copyof": "locust_plague_locust_swarm" },
+	"locust_plague_swarm": { "redirect": "locust_plague_locust_swarm" },
+	"plague_locust_swarm": { "redirect": "locust_plague_locust_swarm" },
 	"lorelei": {
 		"name": "Lorelei",
 		"sources": [
@@ -3053,7 +3053,7 @@
 			"**Family:** {family/Lurking Ray}"
 		]
 	},
-	"executioners_hood": { "copyof": "lurking_ray_executioners_hood" },
+	"executioners_hood": { "redirect": "lurking_ray_executioners_hood" },
 	"lurking_ray_lurker_above": {
 		"name": "Lurker Above (Lurking Ray)",
 		"sources": [
@@ -3111,7 +3111,7 @@
 			"**Family:** {family/Lurking Ray}"
 		]
 	},
-	"lurker_above": { "copyof": "lurking_ray_lurker_above" },
+	"lurker_above": { "redirect": "lurking_ray_lurker_above" },
 	"lurking_ray_trapper": {
 		"name": "Trapper (Lurking Ray)",
 		"sources": [
@@ -3166,7 +3166,7 @@
 			"**Family:** {family/Lurking Ray}"
 		]
 	},
-	"trapper": { "copyof": "lurking_ray_trapper" },
+	"trapper": { "redirect": "lurking_ray_trapper" },
 	"lusca": {
 		"name": "Lusca",
 		"sources": [
@@ -3845,7 +3845,7 @@
 			"**Family:** {family/Manasaputra}"
 		]
 	},
-	"maharishi_manu": { "copyof": "manasaputra_maharishi_manu" },
+	"maharishi_manu": { "redirect": "manasaputra_maharishi_manu" },
 	"manasaputra_manu": {
 		"name": "Manu (Manasaputra)",
 		"sources": [ "Bestiary 5" ],
@@ -3906,7 +3906,7 @@
 			"**Family:** {family/Manasaputra}"
 		]
 	},
-	"manu": { "copyof": "manasaputra_manu" },
+	"manu": { "redirect": "manasaputra_manu" },
 	"manasaputra_rishi_manu": {
 		"name": "Rishi Manu (Manasaputra)",
 		"sources": [ "Bestiary 5" ],
@@ -3968,7 +3968,7 @@
 			"**Family:** {family/Manasaputra}"
 		]
 	},
-	"rishi_manu": { "copyof": "manasaputra_rishi_manu" },
+	"rishi_manu": { "redirect": "manasaputra_rishi_manu" },
 	"manasaputra_twilight_pitri_barhisad": {
 		"name": "Twilight Pitri (Barhisad, Manasaputra)",
 		"sources": [ "Bestiary 5" ],
@@ -4050,8 +4050,8 @@
 			"**Family:** {family/Manasaputra}"
 		]
 	},
-	"barhisad": { "copyof": "manasaputra_twilight_pitri_barhisad" },
-	"twilight_pitri": { "copyof": "manasaputra_twilight_pitri_barhisad" },
+	"barhisad": { "redirect": "manasaputra_twilight_pitri_barhisad" },
+	"twilight_pitri": { "redirect": "manasaputra_twilight_pitri_barhisad" },
 	"mantis_deadly_mantis": {
 		"name": "Deadly Mantis",
 		"sources": [ "Inner Sea Bestiary" ],
@@ -4102,8 +4102,8 @@
 			"The legendary deadly mantis stalks the deepest jungles of Mediogalti Island and the Mwangi Expanse. Tales about this lethal predator preying upon such mammoth creatures as drakes and giants frighten even the bravest hunters. Deadly mantises are sacred to the followers of Achaekek, the Mantis God, who keep the massive beasts well fed, and bring them sacrificial victims and livestock. Followers of Achaekek have also been known to serve as protectors of the dens of deadly mantises. Though creatures of this size and power obviously need no guardians, the devout followers guard their lairs and prevent adventurers from slaying the mighty insects. The typical deadly mantis stands 40 feet tall, 60 feet long, and weighs several tons."
 		]
 	},
-	"mantis_deadly": { "copyof": "mantis_deadly_mantis" },
-	"deadly_mantis": { "copyof": "mantis_deadly_mantis" },
+	"mantis_deadly": { "redirect": "mantis_deadly_mantis" },
+	"deadly_mantis": { "redirect": "mantis_deadly_mantis" },
 	"mantis_giant_mantis": {
 		"name": "Giant Mantis",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -4160,6 +4160,6 @@
 			"The giant mantis presented here stands 7 feet tall and 15 feet long, and weighs 650 pounds. Larger giant mantises exist in the deepest, darkest forests of the world, where they might prey upon things as mighty as giants or dragons. Known by various names, such as the drake-eating mantis, the treebender mantis, or simply the deadly mantis, these immense behemoths average more than 60 feet in height and have a terrifying habit of destroying entire villages or towns in order to satiate their ravenous appetites. A deadly mantis is a giant mantis advanced to Colossal size, 16 Hit Dice, and CR 14."
 		]
 	},
-	"mantis_giant": { "copyof": "mantis_giant_mantis" },
-	"giant_mantis": { "copyof": "mantis_giant_mantis" }
+	"mantis_giant": { "redirect": "mantis_giant_mantis" },
+	"giant_mantis": { "redirect": "mantis_giant_mantis" }
 }

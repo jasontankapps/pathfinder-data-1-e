@@ -1191,7 +1191,7 @@
 			"**Ability Scores:** Wisdom -4."
 		]
 	},
-	"cursed_lord": { "copyof": "dread_lord" },
+	"cursed_lord": { "redirect": "dread_lord" },
 	"dream_eater": {
 		"name": "Dream Eater",
 		"sources": [ "Dungeons of Golarion" ],
@@ -2052,7 +2052,7 @@
 			"| 11+ | 10/cold iron |"
 		]
 	},
-	"fey_touched": { "copyof": "fey_touched_creature" },
+	"fey_touched": { "redirect": "fey_touched_creature" },
 	"fiend_infused": {
 		"name": "Fiend-Infused",
 		"sources": [ "Cheliax, the Infernal Empire" ],
@@ -2290,7 +2290,7 @@
 			"**Step Five-Determine CR:** Compare the foo creature's statistics to determine the creature's final CR. An imperial foo creature has a minimum CR score of 11. If your creation's statistics aren't good enough to qualify for this CR minimum, continue adding racial Hit Dice until the imperial's statistics reach this minimum."
 		]
 	},
-	"foo": { "copyof": "foo_creature" },
+	"foo": { "redirect": "foo_creature" },
 	"frostfallen_creature": {
 		"name": "Frostfallen Creature",
 		"sources": [ "Pathfinder #51: The Hungry Storm" ],

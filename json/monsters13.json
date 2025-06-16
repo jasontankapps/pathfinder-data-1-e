@@ -1588,7 +1588,7 @@
 			"The word \"havero\" has its roots in ancient Thassilonian, roughly translating into \"smothering arms.\" The creature itself was first described in notes and theories postulated by ancient students of the stars and delvers into dark lore. Horrifically, haveros are not the mere imaginings of those sages who chronicle the heavens. They are entities of deepest blackness, and on terrible occasions a lone havero has been drawn to Golarion, putting all the races of the world into reach of its endless, ruinous arms."
 		]
 	},
-	"havero_tentacle": { "copyof": "havero_havero_tentacle" },
+	"havero_tentacle": { "redirect": "havero_havero_tentacle" },
 	"heart_thief": {
 		"name": "Heart Thief",
 		"sources": [ "Seers of the Drowned City" ],
@@ -1879,8 +1879,8 @@
 			"They are fearsome, snarling horrors in combat."
 		]
 	},
-	"nessian_warhound": { "copyof": "hell_hound_nessian_warhound" },
-	"nessian_hell_hound": { "copyof": "hell_hound_nessian_warhound" },
+	"nessian_warhound": { "redirect": "hell_hound_nessian_warhound" },
+	"nessian_hell_hound": { "redirect": "hell_hound_nessian_warhound" },
 	"hellcat": {
 		"name": "Hellcat",
 		"sources": [ "Bestiary 2" ],
@@ -2114,7 +2114,7 @@
 			"[^B]: Bonus feat."
 		]
 	},
-	"antelope": { "copyof": "herd_animal_antelope" },
+	"antelope": { "redirect": "herd_animal_antelope" },
 	"herd_animal_aurochs": {
 		"name": "Aurochs (Herd Animal)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -2165,8 +2165,8 @@
 			"**Family:** {family/Herd Animal}"
 		]
 	},
-	"auroch": { "copyof": "herd_animal_aurochs" },
-	"aurochs": { "copyof": "herd_animal_aurochs" },
+	"auroch": { "redirect": "herd_animal_aurochs" },
+	"aurochs": { "redirect": "herd_animal_aurochs" },
 	"herd_animal_oxen": {
 		"name": "Oxen (Herd Animal)",
 		"sources": [
@@ -2223,8 +2223,8 @@
 			"**Family:** {family/Herd Animal}"
 		]
 	},
-	"oxen": { "copyof": "herd_animal_oxen" },
-	"ox": { "copyof": "herd_animal_oxen" },
+	"oxen": { "redirect": "herd_animal_oxen" },
+	"ox": { "redirect": "herd_animal_oxen" },
 	"herd_animal_bison": {
 		"name": "Bison (Herd Animal)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -2275,7 +2275,7 @@
 			"**Family:** {family/Herd Animal}"
 		]
 	},
-	"bison": { "copyof": "herd_animal_bison" },
+	"bison": { "redirect": "herd_animal_bison" },
 	"yak": {
 		"name": "Yak (Herd Animal)",
 		"sources": [
@@ -2376,7 +2376,7 @@
 			"**Family:** {family/Herd Animal}"
 		]
 	},
-	"camel": { "copyof": "herd_animal_camel" },
+	"camel": { "redirect": "herd_animal_camel" },
 	"herd_animal_elk": {
 		"name": "Elk (Herd Animal)",
 		"sources": [
@@ -2429,7 +2429,7 @@
 			"[^B]: Bonus feat."
 		]
 	},
-	"elk": { "copyof": "herd_animal_elk" },
+	"elk": { "redirect": "herd_animal_elk" },
 	"herd_animal_giraffe": {
 		"name": "Giraffe (Herd Animal)",
 		"sources": [
@@ -2484,7 +2484,7 @@
 			"**Family:** {family/Herd Animal}"
 		]
 	},
-	"giraffe": { "copyof": "herd_animal_giraffe" },
+	"giraffe": { "redirect": "herd_animal_giraffe" },
 	"herd_animal_ram": {
 		"name": "Ram (Herd Animal)",
 		"sources": [
@@ -2535,7 +2535,7 @@
 			"**Family:** {family/Herd Animal}"
 		]
 	},
-	"ram": { "copyof": "herd_animal_ram" },
+	"ram": { "redirect": "herd_animal_ram" },
 	"herd_animal_river_elk": {
 		"name": "River Elk (Herd Animal)",
 		"sources": [
@@ -2594,7 +2594,7 @@
 			"[^B]: Bonus feat."
 		]
 	},
-	"river_elk": { "copyof": "herd_animal_river_elk" },
+	"river_elk": { "redirect": "herd_animal_river_elk" },
 	"herd_animal_stag": {
 		"name": "Stag (Herd Animal)",
 		"sources": [
@@ -2646,7 +2646,7 @@
 			"[^B]: Bonus feat."
 		]
 	},
-	"stag": { "copyof": "herd_animal_stag" },
+	"stag": { "redirect": "herd_animal_stag" },
 	"herecite_herecite_of_asmodeus": {
 		"name": "Herecite of Asmodeus",
 		"sources": [
@@ -2728,7 +2728,7 @@
 			"Herecites, once created, typically remain as guardians by the temple responsible for their forced conversion. In some cases, a lone herecite may wander from the site of its creation, especially if it loses its creator, but once a group of herecites forms a cabal, its members remain bound to that area for months, years, or even centuries - if they leave the area, the cabal is broken, and a new ritual must be performed in order to reaffirm their blasphemous faith. They have very little interest in their new lives save for the constant offering of blasphemous prayers to their new deity; these prayers often consist of warped versions of sacred chants and songs devoted to their prior faith."
 		]
 	},
-	"herecite_of_asmodeus": { "copyof": "herecite_herecite_of_asmodeus" },
+	"herecite_of_asmodeus": { "redirect": "herecite_herecite_of_asmodeus" },
 	"herne": {
 		"name": "Herne",
 		"sources": [ "Pathfinder #73: The Worldwound Incursion" ],
@@ -3023,8 +3023,8 @@
 			"The behemoth hippopotamus is a true monster. Standing taller than an elephant, this animal has few enemies in the natural world - even dinosaurs and dire crocodiles avoid fights with them. Making them even more dangerous is the fact that they are practically carnivores - while not above eating plant matter, they devour carrion or foolish creatures that come too close."
 		]
 	},
-	"hippopotamus_behemoth": { "copyof": "hippopotamus_behemoth_hippopotamus" },
-	"behemoth_hippopotamus": { "copyof": "hippopotamus_behemoth_hippopotamus" },
+	"hippopotamus_behemoth": { "redirect": "hippopotamus_behemoth_hippopotamus" },
+	"behemoth_hippopotamus": { "redirect": "hippopotamus_behemoth_hippopotamus" },
 	"hiracapath": {
 		"name": "Hiracapath",
 		"sources": [ "Pathfinder #104: Wrath of Thrune" ],
@@ -3222,7 +3222,7 @@
 			"**Family:** {family/Hive}"
 		]
 	},
-	"hive_brute": { "copyof": "hive_hive_brute" },
+	"hive_brute": { "redirect": "hive_hive_brute" },
 	"hive_hive_larva_swarm": {
 		"name": "Hive Larva Swarm",
 		"sources": [ "Horror Adventures" ],
@@ -3279,7 +3279,7 @@
 			"**Family:** {family/Hive}"
 		]
 	},
-	"hive_larva_swarm": { "copyof": "hive_hive_larva_swarm" },
+	"hive_larva_swarm": { "redirect": "hive_hive_larva_swarm" },
 	"hive_hive_queen": {
 		"name": "Hive Queen",
 		"sources": [ "Horror Adventures" ],
@@ -3337,7 +3337,7 @@
 			"**Family:** {family/Hive}"
 		]
 	},
-	"hive_queen": { "copyof": "hive_hive_queen" },
+	"hive_queen": { "redirect": "hive_hive_queen" },
 	"hive_hive_warrior": {
 		"name": "Hive Warrior",
 		"sources": [ "Horror Adventures" ],
@@ -3392,7 +3392,7 @@
 			"**Family:** {family/Hive}"
 		]
 	},
-	"hive_warrior": { "copyof": "hive_hive_warrior" },
+	"hive_warrior": { "redirect": "hive_hive_warrior" },
 	"hivemind_rat_swarm": {
 		"name": "Hivemind Rat Swarm",
 		"sources": [ "Bestiary 6" ],
@@ -3643,7 +3643,7 @@
 			"[^D]: Domain spell"
 		]
 	},
-	"hobgoblin_battle_priest": { "copyof": "hobgoblin_hobgoblin_battle_priest" },
+	"hobgoblin_battle_priest": { "redirect": "hobgoblin_hobgoblin_battle_priest" },
 	"hobgoblin_hobgoblin_battlefield_zealot": {
 		"name": "Hobgoblin Battlefield Zealot",
 		"sources": [ "Monster Codex" ],
@@ -3697,7 +3697,7 @@
 			"[^D]: Domain spell"
 		]
 	},
-	"hobgoblin_battlefield_zealot": { "copyof": "hobgoblin_hobgoblin_battlefield_zealot" },
+	"hobgoblin_battlefield_zealot": { "redirect": "hobgoblin_hobgoblin_battlefield_zealot" },
 	"hobgoblin_hobgoblin_bombardier": {
 		"name": "Hobgoblin Bombardier",
 		"sources": [ "Monster Codex" ],
@@ -3756,7 +3756,7 @@
 			"These alchemists focus their race's penchant for fire into more productive and efficient means of destruction than mere torches or bonfires. Instead, they hone the craft of concocting bombs, mutagens, and extracts. Though they possess the means of enhancing their physical prowess, many bombardiers forgo imbibing their mutagens prior to battle, believing that increasing one's weaknesses, even for potential gain in other areas, is a tactical mistake. When the situation calls for it, however, they drink mutagens to increase their physical stamina or ranged accuracy, preferring to decrease their perception and influence before compromising their mental faculties."
 		]
 	},
-	"hobgoblin_bombardier": { "copyof": "hobgoblin_hobgoblin_bombardier" },
+	"hobgoblin_bombardier": { "redirect": "hobgoblin_hobgoblin_bombardier" },
 	"hobgoblin_hobgoblin_commander": {
 		"name": "Hobgoblin Commander",
 		"sources": [ "Monster Codex" ],
@@ -3829,7 +3829,7 @@
 			"**Gear** {eq-armor/leather lamellar} {eq-armor/barding}"
 		]
 	},
-	"hobgoblin_commander": { "copyof": "hobgoblin_hobgoblin_commander" },
+	"hobgoblin_commander": { "redirect": "hobgoblin_hobgoblin_commander" },
 	"hobgoblin_hobgoblin_forerunner": {
 		"name": "Hobgoblin Forerunner",
 		"sources": [ "Monster Codex" ],
@@ -3877,7 +3877,7 @@
 			"Hobgoblin forerunners are masters of mounted combat, and lead the charge at the front of hobgoblin armies. They sometimes use {monster/yzobu/s} as mounts."
 		]
 	},
-	"hobgoblin_forerunner": { "copyof": "hobgoblin_hobgoblin_forerunner" },
+	"hobgoblin_forerunner": { "redirect": "hobgoblin_hobgoblin_forerunner" },
 	"hobgoblin_hobgoblin_lieutenant": {
 		"name": "Hobgoblin Lieutenant",
 		"sources": [ "Monster Codex" ],
@@ -3926,7 +3926,7 @@
 			"In addition to leading squadrons, hobgoblin lieutenants are assigned elite missions that call for stealth - particularly scouting missions and sabotage."
 		]
 	},
-	"hobgoblin_lieutenant": { "copyof": "hobgoblin_hobgoblin_lieutenant" },
+	"hobgoblin_lieutenant": { "redirect": "hobgoblin_hobgoblin_lieutenant" },
 	"hobgoblin_hobgoblin_paragon": {
 		"name": "Hobgoblin Paragon",
 		"sources": [ "Monster Codex" ],
@@ -3980,7 +3980,7 @@
 			"Many hobgoblin paragons join specialized teams of fellow hobgoblins within larger armies, though they live isolated lives, apart from their regimented kin, rather than feeling a true camaraderie. A large number of them instead travel the world, participating in tournaments of martial skill, from gladiatorial arenas to competitions in distant monasteries practicing foreign techniques. Others pursue more mercenary endeavors, selling their talents to the highest bidder so long as their contract involves dishing out pain to the weak or the unworthy. Whether as lone bodyguards of corrupt merchants or politicians, or high-ranking enforcers of the criminal underworld, a hobgoblin paragon willing to serve a well-paying master has no trouble finding employment wherever she might seek it."
 		]
 	},
-	"hobgoblin_paragon": { "copyof": "hobgoblin_hobgoblin_paragon" },
+	"hobgoblin_paragon": { "redirect": "hobgoblin_hobgoblin_paragon" },
 	"hobgoblin_hobgoblin_sergeant": {
 		"name": "Hobgoblin Sergeant",
 		"sources": [ "Monster Codex" ],
@@ -4027,7 +4027,7 @@
 			"Sergeants are versatile warriors; they're capable of engaging in battle up close or at range, and smart and tough enough to lead the army's rank-and-file troops."
 		]
 	},
-	"hobgoblin_sergeant": { "copyof": "hobgoblin_hobgoblin_sergeant" },
+	"hobgoblin_sergeant": { "redirect": "hobgoblin_hobgoblin_sergeant" },
 	"hodag": {
 		"name": "Hodag",
 		"sources": [
@@ -4291,5 +4291,5 @@
 			"While the first hollow serpents were supposedly created from scales shed by beasts favored by the Serpent King himself, and those unholy snakeskins can even shed their own lesser offspring over time, serpentfolk priests can also create their own lesser hollow serpents. A lesser hollow serpent created by a serpentfolk priest requires a more involved process. The priest must fill a clay pot with dirt taken from a serpentfolk grave, the skin and bones of a giant constrictor snake, an onyx gem worth at least 250 gp, and a sprinkling of unholy water. Thereafter, a 15th-level caster must cast create undead on the skin stuffed with the other assembled reagents."
 		]
 	},
-	"lesser_hollow_serpent": { "copyof": "hollow_serpent_lesser_hollow_serpent" }
+	"lesser_hollow_serpent": { "redirect": "hollow_serpent_lesser_hollow_serpent" }
 }

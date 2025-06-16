@@ -565,17 +565,17 @@
 			"**Riding Dog:** This Medium dog is bred for carrying Small riders, and is combat trained. Breeders select dogs with strong backs, endurance, and loyal dispositions and train them for riding and combat before sale. Reputable breeders can be found in major cities."
 		]
 	},
-	"guard_dog": { "copyof": "dog_guard" },
+	"guard_dog": { "redirect": "dog_guard" },
 	"dog_lap": {
 		"name": "Dog (lap)",
 		"copyof": "dog_guard"
 	},
-	"lap_dog": { "copyof": "dog_lap" },
+	"lap_dog": { "redirect": "dog_lap" },
 	"dog_riding": {
 		"name": "Dog (riding)",
 		"copyof": "dog_guard"
 	},
-	"riding_dog": { "copyof": "dog_riding" },
+	"riding_dog": { "redirect": "dog_riding" },
 	"dog_sled": {
 		"name": "Dog sled",
 		"sources": [
@@ -621,8 +621,8 @@
 			"Donkeys and mules are stolid in the face of danger, hardy, surefooted, and capable of carrying heavy loads over vast distances. Unlike a {eq-misc/horse}, a donkey or mule is willing (though not eager) to enter dungeons and other strange or threatening places. Donkeys and mules have the same statistics as ponies."
 		]
 	},
-	"mule": { "copyof": "donkey_or_mule" },
-	"donkey": { "copyof": "donkey_or_mule" },
+	"mule": { "redirect": "donkey_or_mule" },
+	"donkey": { "redirect": "donkey_or_mule" },
 	"donkey_rat": {
 		"name": "Donkey rat",
 		"sources": [
@@ -824,7 +824,7 @@
 			"This is a hand-carved icon of a human figure. When the icon is activated and a flower is placed in the niche, the icon grants the bearer a +1 luck bonus to Armor Class for 1 hour, but only against ranged attacks."
 		]
 	},
-	"driftwood_icon": { "copyof": "driftwood_icon_gozreh" },
+	"driftwood_icon": { "redirect": "driftwood_icon_gozreh" },
 	"drill": {
 		"name": "Drill",
 		"sources": [
@@ -936,13 +936,13 @@
 			"**Waterproof Lantern:** Meant to shelter its flame from both water and wind, this lantern treats severe winds as strong winds, windstorms as severe winds, and hurricanes as windstorms for the purpose of determining whether they extinguish its flame. It holds enough air to burn underwater for 5 rounds before going dark."
 		]
 	},
-	"lantern_dusk": { "copyof": "dusk_lantern" },
+	"lantern_dusk": { "redirect": "dusk_lantern" },
 	"waterproof_lantern_dusk": {
 		"name": "Waterproof lantern (dusk)",
 		"copyof": "dusk_lantern"
 	},
-	"waterproof_dusk_lantern": { "copyof": "dusk_lantern" },
-	"lantern_waterproof_dusk": { "copyof": "dusk_lantern" },
+	"waterproof_dusk_lantern": { "redirect": "dusk_lantern" },
+	"lantern_waterproof_dusk": { "redirect": "dusk_lantern" },
 	"duskeye": {
 		"name": "Duskeye",
 		"sources": [ "Heroes of the Wild" ],
@@ -1075,7 +1075,7 @@
 			"**Construction:** Craft (Alchemy) DC 10"
 		]
 	},
-	"efreeti_switch": { "copyof": "efreeti_cord" },
+	"efreeti_switch": { "redirect": "efreeti_cord" },
 	"elemental_breath": {
 		"name": "Elemental breath",
 		"sources": [ "Advanced Race Guide" ],
@@ -1502,7 +1502,7 @@
 			"These manacles are nearly indistinguishable from standard {eq-misc/manacles} upon inspection (Perception DC 25). A wearer who knows the location of the secret catch can open them as a standard action; otherwise they act like masterwork manacles. Some appear to be of common quality, though false manacles are always masterwork."
 		]
 	},
-	"manacles_false": { "copyof": "false_manacles" },
+	"manacles_false": { "redirect": "false_manacles" },
 	"false_teeth_clockwork": {
 		"name": "False teeth (clockwork)",
 		"sources": [ "Adventurer's Armory 2" ],
@@ -1537,7 +1537,7 @@
 			"These chests are typically used by smugglers transporting contraband or those with treasures they would prefer to keep hidden. The secret compartment in this chest is approximately 1 inch deep. Different styles open from the inside, from the underside, or through the back. Detecting the compartment requires a DC 20 Perception check."
 		]
 	},
-	"chest_false_bottomed": { "copyof": "false_bottomed_chest" },
+	"chest_false_bottomed": { "redirect": "false_bottomed_chest" },
 	"false_bottomed_cup": {
 		"name": "False-bottomed cup",
 		"sources": [
@@ -1553,7 +1553,7 @@
 			"The tiny compartment in the thick bottom of this cup is an excellent place to store a small item or substance. The most insidious are designed with a weighted catch that opens when the cup is tilted back, releasing the hidden substance into the contents of the cup. Spotting the secret compartment in an empty cup requires a DC 15 Perception check."
 		]
 	},
-	"cup_false_bottomed": { "copyof": "false_bottomed_cup" },
+	"cup_false_bottomed": { "redirect": "false_bottomed_cup" },
 	"false_bottomed_scabbard": {
 		"name": "False-bottomed scabbard",
 		"sources": [
@@ -1569,7 +1569,7 @@
 			"The space at the bottom of this sword scabbard is just large enough to hold a potion flask. Some are accessed from the outside; others open on the inside with a secret catch at the top end. Finding the secret compartment requires a DC 25 Perception check, or DC 20 if you can compare the sword's length to that of the scabbard."
 		]
 	},
-	"scabbard_false_bottomed": { "copyof": "false_bottomed_scabbard" },
+	"scabbard_false_bottomed": { "redirect": "false_bottomed_scabbard" },
 	"false_bottomed_wagon": {
 		"name": "False-bottomed wagon",
 		"sources": [ "Heroes of the Streets" ],
@@ -1582,7 +1582,7 @@
 			"This {eq-misc/wagon} has a hollow below its apparent bottom. The hollow is 6 inches deep and has a capacity of 75 cubic feet. The hollow can be noticed during a search of the wagon with a successful DC 20 Perception check. The wagon otherwise resembles a normal medium wagon."
 		]
 	},
-	"wagon_false_bottomed": { "copyof": "false_bottomed_wagon" },
+	"wagon_false_bottomed": { "redirect": "false_bottomed_wagon" },
 	"falsehood_fizz": {
 		"name": "Falsehood fizz",
 		"sources": [ "Ultimate Intrigue" ],
@@ -1662,7 +1662,7 @@
 			"Horses, donkeys, mules, and ponies can graze in some regions to sustain themselves, but feed provides more reliable nourishment. Riding dogs and other carnivores can be fed meat for the same cost. Except for horses, other Large creatures need to eat twice the feed of other animals each day. Huge creatures need four times the feed."
 		]
 	},
-	"animal_feed": { "copyof": "feed_per_day" },
+	"animal_feed": { "redirect": "feed_per_day" },
 	"fellowship_film": {
 		"name": "Fellowship film",
 		"sources": [ "Ultimate Intrigue" ],
@@ -1732,9 +1732,9 @@
 			"Whether it is a simple pottery cup or an elaborate drinking stein with a handle and decorative lid that flips up, this cup may be used to hold any sort of beverage. Tankards are commonly made out of clay or tin."
 		]
 	},
-	"mug_or_tankard": { "copyof": "mug_tankard" },
-	"mug": { "copyof": "mug_tankard" },
-	"tankard": { "copyof": "mug_tankard" },
+	"mug_or_tankard": { "redirect": "mug_tankard" },
+	"mug": { "redirect": "mug_tankard" },
+	"tankard": { "redirect": "mug_tankard" },
 	"muscle_grout": {
 		"name": "Muscle grout",
 		"sources": [ "Heroes of the Darklands" ],
@@ -1763,13 +1763,13 @@
 			"**Masterwork Musical Instrument:** This high-quality instrument grants a +2 circumstance bonus on Perform checks made to perform with the instrument."
 		]
 	},
-	"musical_instrument": { "copyof": "musical_instrument_common" },
+	"musical_instrument": { "redirect": "musical_instrument_common" },
 	"musical_instrument_masterwork": {
 		"name": "Musical instrument (masterwork)",
 		"copyof": "musical_instrument_common"
 	},
-	"masterwork_musical_instrument": { "copyof": "musical_instrument_masterwork" },
-	"musical_instrument_mwk": { "copyof": "musical_instrument_masterwork" },
+	"masterwork_musical_instrument": { "redirect": "musical_instrument_masterwork" },
+	"musical_instrument_mwk": { "redirect": "musical_instrument_masterwork" },
 	"musk_kit": {
 		"name": "Musk kit",
 		"sources": [ "Advanced Class Guide" ],
@@ -2430,8 +2430,8 @@
 		"name": "Pack animal (donkey/mule)",
 		"copyof": "pack_animal_ox"
 	},
-	"pack_animal_donkey": { "copyof": "pack_animal_donkey_mule" },
-	"pack_animal_mule": { "copyof": "pack_animal_donkey_mule" },
+	"pack_animal_donkey": { "redirect": "pack_animal_donkey_mule" },
+	"pack_animal_mule": { "redirect": "pack_animal_donkey_mule" },
 	"pack_animal_yak": {
 		"name": "Pack animal (yak)",
 		"copyof": "pack_animal_ox"
@@ -2530,7 +2530,7 @@
 			"A sheet of ordinary paper typically measures 9 inches by 6 inches and is unsuitable for making magical scrolls. It has hardness 0, 1 hit point, and a break DC of 5."
 		]
 	},
-	"paper": { "copyof": "paper_sheet" },
+	"paper": { "redirect": "paper_sheet" },
 	"paper_wall_paste": {
 		"name": "Paper wall paste",
 		"sources": [ "Kobolds of Golarion" ],
@@ -2557,8 +2557,8 @@
 			"Not all underwater creatures use sight as their primary means of reading text, so underwater paper is significantly thicker than surface paper, allowing the writer to carve the letters into the sheet. This lets creatures with {umr/blindsight} see the textured writing from afar as well as allowing others to read it by touch, or sometimes from a short distance if they have unusually precise {umr/tremorsense}. For underwater societies where vision is more prominent, the writer can fill the carved grooves with colorful ink (and potentially {eq-misc/bioluminescent ink}) and then adhere a transparent waterproof sheet on top to prevent the ink from washing away. This transparent sheet costs an additional 4 sp."
 		]
 	},
-	"underwater_sheet_paper": { "copyof": "paper_underwater_sheet" },
-	"underwater_paper": { "copyof": "paper_underwater_sheet" },
+	"underwater_sheet_paper": { "redirect": "paper_underwater_sheet" },
+	"underwater_paper": { "redirect": "paper_underwater_sheet" },
 	"parasol_common": {
 		"name": "Parasol (common)",
 		"sources": [ "Ultimate Equipment" ],
@@ -2576,7 +2576,7 @@
 		"name": "Parasol (umbrella)",
 		"copyof": "parasol_common"
 	},
-	"umbrella": { "copyof": "parasol_umbrella" },
+	"umbrella": { "redirect": "parasol_umbrella" },
 	"parchment_sheet": {
 		"name": "Parchment (sheet)",
 		"sources": [
@@ -2592,7 +2592,7 @@
 			"This sheet of thin, treated animal skin is a durable writing surface and is suitable for making magic scrolls. It has hardness 0, 2 hit points, and a break DC of 5."
 		]
 	},
-	"parchment": { "copyof": "parchment_sheet" },
+	"parchment": { "redirect": "parchment_sheet" },
 	"parrot": {
 		"name": "Parrot",
 		"sources": [ "Ultimate Equipment" ],
@@ -2830,7 +2830,7 @@
 			"Underwater pens fill the grooves carved into {eq-misc/underwater paper} with {eq-misc/ink}; as such, they work somewhat like a syringe, drawing ink from a waterproof bladder and then gently releasing it into the grooves as the writer traces them with the pen. These pens function equally well at depositing ink into tablets, underwater paper, walls, or anything with carved writing."
 		]
 	},
-	"underwater_pen": { "copyof": "pen_underwater" },
+	"underwater_pen": { "redirect": "pen_underwater" },
 	"performers_token": {
 		"name": "Performer's token",
 		"sources": [ "Occult Adventures" ],
@@ -2887,8 +2887,8 @@
 		"name": "Perfume/Cologne",
 		"copyof": "perfume_common_per_dose"
 	},
-	"perfume": { "copyof": "perfume_common_per_dose" },
-	"cologne": { "copyof": "perfume_cologne" },
+	"perfume": { "redirect": "perfume_common_per_dose" },
+	"cologne": { "redirect": "perfume_cologne" },
 	"periscope": {
 		"name": "Periscope",
 		"sources": [
@@ -3004,7 +3004,7 @@
 			"Goblins pickle everything, and thus goblin pickles can be composed of almost anything. Their only shared characteristic is that they're mostly edible. At the GM's discretion, a non-goblin who eats a goblin pickle must make a DC 10 Fortitude save to avoid being {misc/sickened} for 1 hour. A single jar of goblin pickles provides a goblin enough nourishment for a day."
 		]
 	},
-	"pickles_goblin_one_jar": { "copyof": "pickles_goblin_1_jar" },
+	"pickles_goblin_one_jar": { "redirect": "pickles_goblin_1_jar" },
 	"pickpockets_outfit": {
 		"name": "Pickpocket's outfit",
 		"sources": [
@@ -3914,10 +3914,10 @@
 		"name": "Wagon (medium)",
 		"copyof": "wagon_heavy"
 	},
-	"wagon": { "copyof": "wagon_heavy" },
-	"heavy_wagon": { "copyof": "wagon_heavy" },
-	"light_wagon": { "copyof": "wagon_light" },
-	"medium_wagon": { "copyof": "wagon_medium" },
+	"wagon": { "redirect": "wagon_heavy" },
+	"heavy_wagon": { "redirect": "wagon_heavy" },
+	"light_wagon": { "redirect": "wagon_light" },
+	"medium_wagon": { "redirect": "wagon_medium" },
 	"wall_hook": {
 		"name": "Wall hook",
 		"sources": [ "Blood of the Sea" ],
@@ -4169,9 +4169,7 @@
 		"name": "Weapon blanch (cold iron)",
 		"copyof": "weapon_blanch_adamantine"
 	},
-	"cold_iron_weapon_blanch": {
-		"copyof": "weapon_blanch_cold_iron"
-	},
+	"cold_iron_weapon_blanch": { "redirect": "weapon_blanch_cold_iron" },
 	"weapon_blanch_ghost_salt": {
 		"name": "Weapon blanch (ghost salt)",
 		"sources": [ "Pathfinder Society Field Guide" ],
@@ -4184,7 +4182,7 @@
 			"This gritty alchemical powder is made from exotic minerals mixed with an infusion crafted from the ectoplasmic remains of destroyed incorporeal undead. When rubbed onto a weapon that is then placed over a hot flame for a full round, ghost salt melts and forms a temporary coating on the weapon. The blanching gives the weapon the ability to do full damage to incorporeal creatures, even if the weapon itself is nonmagical. An application of ghost salt remains effective until the weapon makes a successful attack. Each dose of weapon blanch can coat one weapon or up to 10 pieces of ammunition. Only one kind of {eq-misc/weapon blanch>_adamantine} can be on a weapon at one time."
 		]
 	},
-	"ghost_salt": { "copyof": "weapon_blanch_ghost_salt" },
+	"ghost_salt": { "redirect": "weapon_blanch_ghost_salt" },
 	"weapon_blanch_silver": {
 		"name": "Weapon blanch (silver)",
 		"copyof": "weapon_blanch_adamantine"
@@ -4296,7 +4294,7 @@
 			"This short lash has a reach of only 10 feet, but is otherwise identical to a normal {eq-weapon/whip}. The wielder gains a +2 circumstance bonus on {skill/Handle Animal} checks to push a trained animal and on Intimidate checks made to demoralize any animal as long as the animal is within the whip's reach. When using the whip to demoralize a trained animal, the wielder may choose to {misc/fascinate>d} the animal rather than causing it to become shaken for the same duration as the shaken condition, but the fascinate effect ends if line of sight between the wielder and the animal is broken."
 		]
 	},
-	"training_whip": { "copyof": "whip_training" },
+	"training_whip": { "redirect": "whip_training" },
 	"whiskey_cup": {
 		"name": "Whiskey (cup)",
 		"sources": [ "Ultimate Equipment" ],
@@ -4309,7 +4307,7 @@
 			"Whiskey is a distilled beverage made from fermented grain mash (typically barley, corn, malt, rye, or wheat) aged in a wooden cask. The longer the drink ages in the cask, the smoother the final product."
 		]
 	},
-	"whiskey": { "copyof": "whiskey_cup" },
+	"whiskey": { "redirect": "whiskey_cup" },
 	"whistle_signal": {
 		"name": "Whistle (signal)",
 		"sources": [
@@ -4330,8 +4328,8 @@
 		"name": "Whistle (silent)",
 		"copyof": "whistle_signal"
 	},
-	"signal_whistle": { "copyof": "whistle_signal" },
-	"whistle_silent": { "copyof": "silent_whistle" },
+	"signal_whistle": { "redirect": "whistle_signal" },
+	"whistle_silent": { "redirect": "silent_whistle" },
 	"wig": {
 		"name": "Wig",
 		"sources": [
@@ -4441,10 +4439,8 @@
 		"name": "Wine (fine, bottle)",
 		"copyof": "wine_common_pitcher"
 	},
-	"bottle_of_fine_wine": {
-		"copyof": "wine_fine_bottle"
-	},
-	"wine": { "copyof": "wine_common_pitcher" },
+	"bottle_of_fine_wine": { "redirect": "wine_fine_bottle" },
+	"wine": { "redirect": "wine_common_pitcher" },
 	"wing_cloak": {
 		"name": "Wing cloak",
 		"sources": [ "Advanced Race Guide" ],
@@ -4532,7 +4528,7 @@
 			"This amulet is made of a dulled dagger wrapped with feathers. When activated, it protects the wearer against undead creatures. The first time the wearer is subject to an attack from an undead creature that requires a saving throw (such as disease, paralysis, or energy drain), the amulet gives the wearer a sacred (if activated with positive energy) or profane (if activated with negative energy) bonus on her saving throw against that attack. This bonus is equal to the number of dice of the activating cleric's {ability/channel energy} ability. The amulet remains charged until its magic is used or 1 hour has passed."
 		]
 	},
-	"winged_fetish": { "copyof": "winged_fetish_pharasma" },
+	"winged_fetish": { "redirect": "winged_fetish_pharasma" },
 	"winterbite": {
 		"name": "Winterbite",
 		"sources": [
@@ -4644,7 +4640,7 @@
 		"name": "Woad painting (paint, 1 block)",
 		"copyof": "woad_painting_kit"
 	},
-	"woad_painting_paint_one_block": { "copyof": "woad_painting_paint_1_block" },
+	"woad_painting_paint_one_block": { "redirect": "woad_painting_paint_1_block" },
 	"wolfsbane": {
 		"name": "Wolfsbane",
 		"sources": [ "Adventurer's Armory" ],

@@ -252,7 +252,7 @@
 			"This replaces seeker arrow."
 		]
 	},
-	"deadeye_devotee": { "copyof": "deadeye_devotee_arcane_archer" },
+	"deadeye_devotee": { "redirect": "deadeye_devotee_arcane_archer" },
 	"arcane_trickster": {
 		"name": "Arcane Trickster",
 		"sources": [ "PRPG Core Rulebook" ],
@@ -354,7 +354,7 @@
 			"This replaces tricky spells."
 		]
 	},
-	"thought_thief": { "copyof": "thought_thief_arcane_trickster" },
+	"thought_thief": { "redirect": "thought_thief_arcane_trickster" },
 	"arclord_of_nex": {
 		"name": "Arclord of Nex",
 		"sources": [ "Paths of Prestige" ],

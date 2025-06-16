@@ -411,8 +411,8 @@
 			"**Requirements** {feat/Craft Magic Arms and Armor}, creator must be a caster of at least 12th level; **Price** -"
 		]
 	},
-	"spell_storing_w": { "copyof": "spell_storing" },
-	"spell_storing_weapon": { "copyof": "spell_storing" },
+	"spell_storing_w": { "redirect": "spell_storing" },
+	"spell_storing_weapon": { "redirect": "spell_storing" },
 	"spirit_hunting": {
 		"name": "Spirit-Hunting",
 		"sources": [ "Advanced Class Guide" ],
@@ -695,7 +695,7 @@
 			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/major creation}; **Price** 1,500 gp"
 		]
 	},
-	"lesser_concealed": { "copyof": "concealed_lesser" },
+	"lesser_concealed": { "redirect": "concealed_lesser" },
 	"impervious": {
 		"name": "Impervious (weapon)",
 		"sources": [ "Ultimate Equipment" ],
@@ -713,8 +713,8 @@
 			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/fabricate}, {spell/make whole}; **Price** +1,500 gp"
 		]
 	},
-	"impervious_w": { "copyof": "impervious" },
-	"impervious_weapon": { "copyof": "impervious" },
+	"impervious_w": { "redirect": "impervious" },
+	"impervious_weapon": { "redirect": "impervious" },
 	"exclusionary": {
 		"name": "Exclusionary",
 		"sources": [ "Advanced Class Guide" ],
@@ -749,7 +749,7 @@
 			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/disguise self}, {spell/magic aura}; **Price** +2,000 gp"
 		]
 	},
-	"glamered_w": { "copyof": "glamered_weapon" },
+	"glamered_w": { "redirect": "glamered_weapon" },
 	"resizing": {
 		"name": "Resizing",
 		"sources": [ "Giant Hunter's Handbook" ],
@@ -858,8 +858,8 @@
 			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/feather step}; **Price** -"
 		]
 	},
-	"advancing_w": { "copyof": "advancing" },
-	"advancing_weapon": { "copyof": "advancing" },
+	"advancing_w": { "redirect": "advancing" },
+	"advancing_weapon": { "redirect": "advancing" },
 	"anarchic": {
 		"name": "Anarchic",
 		"sources": [
@@ -994,7 +994,7 @@
 			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Heroic Defiance}, {spell/break enchantment}, {spell/stabilize}; **Price** -"
 		]
 	},
-	"defiant_w": { "copyof": "defiant_weapon" },
+	"defiant_w": { "redirect": "defiant_weapon" },
 	"dispelling_burst": {
 		"name": "Dispelling Burst",
 		"sources": [ "Ultimate Equipment" ],
@@ -1051,7 +1051,7 @@
 			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/qualm}; **Price** -"
 		]
 	},
-	"greater_distracting": { "copyof": "distracting_greater" },
+	"greater_distracting": { "redirect": "distracting_greater" },
 	"flaming_burst": {
 		"name": "Flaming Burst",
 		"sources": [
@@ -1692,7 +1692,7 @@
 			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/cure moderate wounds}, {spell/inflict moderate wounds}, {spell/vampiric touch}; **Price** -"
 		]
 	},
-	"greater_vampiric": { "copyof": "vampiric_greater" },
+	"greater_vampiric": { "redirect": "vampiric_greater" },
 	"wounding": {
 		"name": "Wounding",
 		"sources": [
@@ -1770,7 +1770,7 @@
 			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/polymorph any object}; **Price** 7,500 gp"
 		]
 	},
-	"greater_transformative": { "copyof": "transformative_greater" },
+	"greater_transformative": { "redirect": "transformative_greater" },
 	"exhausting": {
 		"name": "Exhausting",
 		"sources": [ "Advanced Class Guide" ],
@@ -1805,7 +1805,7 @@
 			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/greater heroism}, creator must be a panache user; **Price** -"
 		]
 	},
-	"greater_flamboyant": { "copyof": "flamboyant_greater" },
+	"greater_flamboyant": { "redirect": "flamboyant_greater" },
 	"gory": {
 		"name": "Gory",
 		"sources": [ "Dirty Tactics Toolbox" ],
@@ -2084,7 +2084,7 @@
 			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/invisibility}, {spell/silence}; **Price** 937 gp"
 		]
 	},
-	"normal_sniping": { "copyof": "sniping_normal" },
+	"normal_sniping": { "redirect": "sniping_normal" },
 	"ambushing": {
 		"name": "Ambushing",
 		"sources": [ "Ultimate Wilderness" ],
@@ -2410,7 +2410,7 @@
 			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/invisibility}, {spell/silence}; **Price** 3,750 gp"
 		]
 	},
-	"improved_sniping": { "copyof": "sniping_improved" },
+	"improved_sniping": { "redirect": "sniping_improved" },
 	"cyclonic": {
 		"name": "Cyclonic",
 		"sources": [ "Ranged Tactics Toolbox" ],
@@ -2462,7 +2462,7 @@
 			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/instant enemy}; **Price** -"
 		]
 	},
-	"lesser_designating": { "copyof": "designating_lesser" },
+	"lesser_designating": { "redirect": "designating_lesser" },
 	"endless_ammunition": {
 		"name": "Endless Ammunition",
 		"sources": [ "Ultimate Equipment" ],
@@ -2550,7 +2550,7 @@
 			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/invisibility}, {spell/silence}; **Price** 8,437 gp"
 		]
 	},
-	"greater_sniping": { "copyof": "sniping_greater" },
+	"greater_sniping": { "redirect": "sniping_greater" },
 	"lucky_greater": {
 		"name": "Greater Lucky",
 		"sources": [
@@ -2571,7 +2571,7 @@
 			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/greater heroism}, creator must be a grit user; **Price** -"
 		]
 	},
-	"greater_lucky": { "copyof": "lucky_greater" },
+	"greater_lucky": { "redirect": "lucky_greater" },
 	"reliable_greater": {
 		"name": "Reliable (greater)",
 		"sources": [
@@ -2592,7 +2592,7 @@
 			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/make whole}; **Price** -"
 		]
 	},
-	"greater_reliable": { "copyof": "reliable_greater" },
+	"greater_reliable": { "redirect": "reliable_greater" },
 	"sonic_boom": {
 		"name": "Sonic Boom",
 		"sources": [ "Ranged Tactics Toolbox" ],
@@ -2644,7 +2644,7 @@
 			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/instant enemy}; **Price** -"
 		]
 	},
-	"greater_designating": { "copyof": "designating_greater" },
+	"greater_designating": { "redirect": "designating_greater" },
 	"nimble_shot": {
 		"name": "Nimble Shot",
 		"sources": [ "Ultimate Equipment" ],

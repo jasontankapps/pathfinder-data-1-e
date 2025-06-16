@@ -609,7 +609,7 @@
 			"**Requirements** {feat/Craft Wondrous Item}, {spell/secret chest}; **Cost** 500 gp"
 		]
 	},
-	"minor_bag_of_holding": { "copyof": "bag_of_holding_minor" },
+	"minor_bag_of_holding": { "redirect": "bag_of_holding_minor" },
 	"bead_of_newt_prevention": {
 		"name": "Bead of Newt Prevention",
 		"sources": [ "Ultimate Equipment" ],
@@ -3194,7 +3194,7 @@
 			"**Requirements** {feat/Craft Wondrous Item}, {spell/locate weakness}, {spell/true strike}; **Cost** 6,125 gp"
 		]
 	},
-	"greater_assassins_sight": { "copyof": "assassins_sight_greater" },
+	"greater_assassins_sight": { "redirect": "assassins_sight_greater" },
 	"jungle_seekers_monocle": {
 		"name": "Jungle Seeker's Monocle",
 		"sources": [ "Merchant's Manifest" ],
@@ -3315,16 +3315,16 @@
 			"**Requirements** {feat/Craft Wondrous Item}, {spell/secret chest}; **Cost** 6,250 gp (Type V), 7,500 gp (Type VI)"
 		]
 	},
-	"bag_of_holding_giant_type_v": { "copyof": "bag_of_holding_giant_type_5" },
-	"giant_bag_of_holding_type_5": { "copyof": "bag_of_holding_giant_type_5" },
-	"giant_bag_of_holding_type_v": { "copyof": "bag_of_holding_giant_type_5" },
+	"bag_of_holding_giant_type_v": { "redirect": "bag_of_holding_giant_type_5" },
+	"giant_bag_of_holding_type_5": { "redirect": "bag_of_holding_giant_type_5" },
+	"giant_bag_of_holding_type_v": { "redirect": "bag_of_holding_giant_type_5" },
 	"bag_of_holding_giant_type_6": {
 		"name": "Bag of Holding (Giant) (Type VI)",
 		"copyof": "bag_of_holding_giant_type_5"
 	},
-	"bag_of_holding_giant_type_vi": { "copyof": "bag_of_holding_giant_type_6" },
-	"giant_bag_of_holding_type_6": { "copyof": "bag_of_holding_giant_type_6" },
-	"giant_bag_of_holding_type_vi": { "copyof": "bag_of_holding_giant_type_6" },
+	"bag_of_holding_giant_type_vi": { "redirect": "bag_of_holding_giant_type_6" },
+	"giant_bag_of_holding_type_6": { "redirect": "bag_of_holding_giant_type_6" },
+	"giant_bag_of_holding_type_vi": { "redirect": "bag_of_holding_giant_type_6" },
 	"waters_of_transfiguration": {
 		"name": "Waters of Transfiguration",
 		"sources": [ "Ultimate Equipment" ],

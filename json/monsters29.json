@@ -66,7 +66,7 @@
 			"**Family:** {family/Dark Folk}"
 		]
 	},
-	"caligni": { "copyof": "dark_folk_caligni" },
+	"caligni": { "redirect": "dark_folk_caligni" },
 	"dark_folk_dark_caller": {
 		"name": "Dark Caller (Dark Folk)",
 		"sources": [
@@ -135,7 +135,7 @@
 			"**Family:** {family/Dark Folk}"
 		]
 	},
-	"dark_caller": { "copyof": "dark_folk_dark_caller" },
+	"dark_caller": { "redirect": "dark_folk_dark_caller" },
 	"dark_folk_dark_champion": {
 		"name": "Dark Champion (Dark Folk)",
 		"sources": [
@@ -197,7 +197,7 @@
 			"**Family:** {family/Dark Folk}"
 		]
 	},
-	"dark_champion": { "copyof": "dark_folk_dark_champion" },
+	"dark_champion": { "redirect": "dark_folk_dark_champion" },
 	"dark_folk_dark_creeper": {
 		"name": "Dark Creeper (Dark Folk)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -262,7 +262,7 @@
 			"**Family:** {family/Dark Folk}"
 		]
 	},
-	"dark_creeper": { "copyof": "dark_folk_dark_creeper" },
+	"dark_creeper": { "redirect": "dark_folk_dark_creeper" },
 	"dark_folk_dark_dancer": {
 		"name": "Dark Dancer (Dark Folk)",
 		"sources": [
@@ -324,7 +324,7 @@
 			"**Family:** {family/Dark Folk}"
 		]
 	},
-	"dark_dancer": { "copyof": "dark_folk_dark_dancer" },
+	"dark_dancer": { "redirect": "dark_folk_dark_dancer" },
 	"dark_folk_dark_empath": {
 		"name": "Dark Empath (Dark Folk)",
 		"sources": [
@@ -390,7 +390,7 @@
 			"**Family:** {family/Dark Folk}"
 		]
 	},
-	"dark_empath": { "copyof": "dark_folk_dark_empath" },
+	"dark_empath": { "redirect": "dark_folk_dark_empath" },
 	"dark_folk_dark_slayer": {
 		"name": "Dark Slayer (Dark Folk)",
 		"sources": [
@@ -458,7 +458,7 @@
 			"**Family:** {family/Dark Folk}"
 		]
 	},
-	"dark_slayer": { "copyof": "dark_folk_dark_slayer" },
+	"dark_slayer": { "redirect": "dark_folk_dark_slayer" },
 	"dark_folk_dark_stalker": {
 		"name": "Dark Stalker (Dark Folk)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -523,7 +523,7 @@
 			"**Family:** {family/Dark Folk}"
 		]
 	},
-	"dark_stalker": { "copyof": "dark_folk_dark_stalker" },
+	"dark_stalker": { "redirect": "dark_folk_dark_stalker" },
 	"demodand_gristly_demodand": {
 		"name": "Gristly Demodand",
 		"sources": [
@@ -588,8 +588,8 @@
 			"**Family:** {family/Demodand}"
 		]
 	},
-	"gristly_demodand": { "copyof": "demodand_gristly_demodand" },
-	"demodand_gristly": { "copyof": "demodand_gristly_demodand" },
+	"gristly_demodand": { "redirect": "demodand_gristly_demodand" },
+	"demodand_gristly": { "redirect": "demodand_gristly_demodand" },
 	"demodand_shaggy_demodand": {
 		"name": "Shaggy Demodand",
 		"sources": [ "Bestiary 3" ],
@@ -645,8 +645,8 @@
 			"**Family:** {family/Demodand}"
 		]
 	},
-	"shaggy_demodand": { "copyof": "demodand_shaggy_demodand" },
-	"demodand_shaggy": { "copyof": "demodand_shaggy_demodand" },
+	"shaggy_demodand": { "redirect": "demodand_shaggy_demodand" },
+	"demodand_shaggy": { "redirect": "demodand_shaggy_demodand" },
 	"demodand_slimy_demodand": {
 		"name": "Slimy Demodand",
 		"sources": [ "Bestiary 3" ],
@@ -709,8 +709,8 @@
 			"**Family:** {family/Demodand}"
 		]
 	},
-	"slimy_demodand": { "copyof": "demodand_slimy_demodand" },
-	"demodand_slimy": { "copyof": "demodand_slimy_demodand" },
+	"slimy_demodand": { "redirect": "demodand_slimy_demodand" },
+	"demodand_slimy": { "redirect": "demodand_slimy_demodand" },
 	"demodand_squamous_demodand": {
 		"name": "Squamous Demodand",
 		"sources": [
@@ -780,8 +780,8 @@
 			"**Family:** {family/Demodand}"
 		]
 	},
-	"squamous_demodand": { "copyof": "demodand_squamous_demodand" },
-	"demodand_squamous": { "copyof": "demodand_squamous_demodand" },
+	"squamous_demodand": { "redirect": "demodand_squamous_demodand" },
+	"demodand_squamous": { "redirect": "demodand_squamous_demodand" },
 	"demodand_stringy_demodand": {
 		"name": "Stringy Demodand",
 		"sources": [
@@ -847,8 +847,8 @@
 			"**Family:** {family/Demodand}"
 		]
 	},
-	"stringy_demodand": { "copyof": "demodand_stringy_demodand" },
-	"demodand_stringy": { "copyof": "demodand_stringy_demodand" },
+	"stringy_demodand": { "redirect": "demodand_stringy_demodand" },
+	"demodand_stringy": { "redirect": "demodand_stringy_demodand" },
 	"demodand_tarry_demodand": {
 		"name": "Tarry Demodand",
 		"sources": [ "Bestiary 3" ],
@@ -907,8 +907,8 @@
 			"**Family:** {family/Demodand}"
 		]
 	},
-	"tarry_demodand": { "copyof": "demodand_tarry_demodand" },
-	"demodand_tarry": { "copyof": "demodand_tarry_demodand" },
+	"tarry_demodand": { "redirect": "demodand_tarry_demodand" },
+	"demodand_tarry": { "redirect": "demodand_tarry_demodand" },
 	"demon_abrikandilu": {
 		"name": "Abrikandilu (Demon)",
 		"sources": [
@@ -977,7 +977,7 @@
 			"**Family:** {family/Demon}"
 		]
 	},
-	"abrikandilu": { "copyof": "demon_abrikandilu" },
+	"abrikandilu": { "redirect": "demon_abrikandilu" },
 	"demon_andrazku": {
 		"name": "Andrazku (Demon)",
 		"sources": [
@@ -1065,7 +1065,7 @@
 			"Andrazkus are receptive to flattery about their size and strength. They like offers of weapons and strengthenhancing items as payment for their services. They can be assigned to guard, hunt, or retrieve; any Charisma check attempted as part a spell to convince an andrazku to undertake a mission other than these kinds of tasks takes a -2 penalty. A female summoner has a -10 penalty on all Charisma checks made to bargain unless the caster acts inferior and unworthy of the demon's aid."
 		]
 	},
-	"andrazku": { "copyof": "demon_andrazku" },
+	"andrazku": { "redirect": "demon_andrazku" },
 	"demon_babau": {
 		"name": "Babau (Demon)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -1126,7 +1126,7 @@
 			"**Family:** {family/Demon}"
 		]
 	},
-	"babau": { "copyof": "demon_babau" },
+	"babau": { "redirect": "demon_babau" },
 	"demon_balor": {
 		"name": "Balor (Demon)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -1213,7 +1213,7 @@
 			"**Family:** {family/Demon}"
 		]
 	},
-	"balor": { "copyof": "demon_balor" },
+	"balor": { "redirect": "demon_balor" },
 	"demon_brimorak": {
 		"name": "Brimorak (Demon)",
 		"sources": [
@@ -1281,7 +1281,7 @@
 			"**Family:** {family/Demon}"
 		]
 	},
-	"brimorak": { "copyof": "demon_brimorak" },
+	"brimorak": { "redirect": "demon_brimorak" },
 	"demon_cambion": {
 		"name": "Cambion (Demon)",
 		"sources": [
@@ -1353,7 +1353,7 @@
 			"**Family:** {family/Demon}"
 		]
 	},
-	"cambion": { "copyof": "demon_cambion" },
+	"cambion": { "redirect": "demon_cambion" },
 	"demon_coloxus": {
 		"name": "Coloxus (Demon)",
 		"sources": [
@@ -1421,7 +1421,7 @@
 			"**Family:** {family/Demon}"
 		]
 	},
-	"coloxus": { "copyof": "demon_coloxus" },
+	"coloxus": { "redirect": "demon_coloxus" },
 	"demon_derakni": {
 		"name": "Derakni (Demon)",
 		"sources": [
@@ -1487,7 +1487,7 @@
 			"**Family:** {family/Demon}"
 		]
 	},
-	"derakni": { "copyof": "demon_derakni" },
+	"derakni": { "redirect": "demon_derakni" },
 	"demon_dretch": {
 		"name": "Dretch (Demon)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -1542,7 +1542,7 @@
 			"**Family:** {family/Demon}"
 		]
 	},
-	"dretch": { "copyof": "demon_dretch" },
+	"dretch": { "redirect": "demon_dretch" },
 	"demon_gallu": {
 		"name": "Gallu (Demon)",
 		"sources": [
@@ -1616,7 +1616,7 @@
 			"**Family:** {family/Demon}"
 		]
 	},
-	"gallu": { "copyof": "demon_gallu" },
+	"gallu": { "redirect": "demon_gallu" },
 	"demon_ghalzarokh": {
 		"name": "Ghalzarokh (Demon)",
 		"sources": [
@@ -1677,7 +1677,7 @@
 			"**Family:** {family/Demon}"
 		]
 	},
-	"ghalzarokh": { "copyof": "demon_ghalzarokh" },
+	"ghalzarokh": { "redirect": "demon_ghalzarokh" },
 	"demon_gibrileth": {
 		"name": "Gibrileth (Demon)",
 		"sources": [
@@ -1745,7 +1745,7 @@
 			"**Family:** {family/Demon}"
 		]
 	},
-	"gibrileth": { "copyof": "demon_gibrileth" },
+	"gibrileth": { "redirect": "demon_gibrileth" },
 	"demon_glabrezu": {
 		"name": "Glabrezu (Demon)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -1801,7 +1801,7 @@
 			"**Family:** {family/Demon}"
 		]
 	},
-	"glabrezu": { "copyof": "demon_glabrezu" },
+	"glabrezu": { "redirect": "demon_glabrezu" },
 	"demon_hala": {
 		"name": "Hala (Demon)",
 		"sources": [
@@ -1886,7 +1886,7 @@
 			"[^B]: Bonus feat."
 		]
 	},
-	"hala": { "copyof": "demon_hala" },
+	"hala": { "redirect": "demon_hala" },
 	"demon_hezrou": {
 		"name": "Hezrou (Demon)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -1949,7 +1949,7 @@
 			"**Family:** {family/Demon}"
 		]
 	},
-	"hezrou": { "copyof": "demon_hezrou" },
+	"hezrou": { "redirect": "demon_hezrou" },
 	"demon_incubus": {
 		"name": "Incubus (Demon)",
 		"sources": [
@@ -2013,7 +2013,7 @@
 			"**Family:** {family/Demon}"
 		]
 	},
-	"incubus": { "copyof": "demon_incubus" },
+	"incubus": { "redirect": "demon_incubus" },
 	"demon_kalavakus": {
 		"name": "Kalavakus (Demon)",
 		"sources": [
@@ -2076,7 +2076,7 @@
 			"**Family:** {family/Demon}"
 		]
 	},
-	"kalavakus": { "copyof": "demon_kalavakus" },
+	"kalavakus": { "redirect": "demon_kalavakus" },
 	"demon_katpaskir": {
 		"name": "Katpaskir (Demon)",
 		"sources": [
@@ -2158,7 +2158,7 @@
 			"Katpaskirs are drawn to newly opened rifts and thin places between the planes. Upon reaching such areas, a katpaskir may either attempt to accelerate the opening of the rift or wait for whatever creatures come through once it opens."
 		]
 	},
-	"katpaskir": { "copyof": "demon_katpaskir" },
+	"katpaskir": { "redirect": "demon_katpaskir" },
 	"demon_kithangian": {
 		"name": "Kithangian (Demon)",
 		"sources": [
@@ -2226,7 +2226,7 @@
 			"**Family:** {family/Demon}"
 		]
 	},
-	"kithangian": { "copyof": "demon_kithangian" },
+	"kithangian": { "redirect": "demon_kithangian" },
 	"demon_larva": {
 		"name": "Larva (Demon)",
 		"sources": [
@@ -2271,7 +2271,7 @@
 			"**Family:** {family/Demon}"
 		]
 	},
-	"larva": { "copyof": "demon_larva" },
+	"larva": { "redirect": "demon_larva" },
 	"demon_lilitu": {
 		"name": "Lilitu (Demon)",
 		"sources": [
@@ -2360,7 +2360,7 @@
 			"**Family:** {family/Demon}"
 		]
 	},
-	"lilitu": { "copyof": "demon_lilitu" },
+	"lilitu": { "redirect": "demon_lilitu" },
 	"demon_marilith": {
 		"name": "Marilith (Demon)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -2425,7 +2425,7 @@
 			"**Family:** {family/Demon}"
 		]
 	},
-	"marilith": { "copyof": "demon_marilith" },
+	"marilith": { "redirect": "demon_marilith" },
 	"demon_nabasu": {
 		"name": "Nabasu (Demon)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -2483,7 +2483,7 @@
 			"**Family:** {family/Demon}"
 		]
 	},
-	"nabasu": { "copyof": "demon_nabasu" },
+	"nabasu": { "redirect": "demon_nabasu" },
 	"demon_nalfeshnee": {
 		"name": "Nalfeshnee (Demon)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -2543,7 +2543,7 @@
 			"**Family:** {family/Demon}"
 		]
 	},
-	"nalfeshnee": { "copyof": "demon_nalfeshnee" },
+	"nalfeshnee": { "redirect": "demon_nalfeshnee" },
 	"demon_omox": {
 		"name": "Omox (Demon)",
 		"sources": [
@@ -2611,7 +2611,7 @@
 			"**Family:** {family/Demon}"
 		]
 	},
-	"omox": { "copyof": "demon_omox" },
+	"omox": { "redirect": "demon_omox" },
 	"demon_oolioddroo": {
 		"name": "Oolioddroo (Demon)",
 		"sources": [
@@ -2690,7 +2690,7 @@
 			"**Family:** {family/Demon}"
 		]
 	},
-	"oolioddroo": { "copyof": "demon_oolioddroo" },
+	"oolioddroo": { "redirect": "demon_oolioddroo" },
 	"demon_painajai": {
 		"name": "Painajai (Demon)",
 		"sources": [
@@ -2758,7 +2758,7 @@
 			"**Family:** {family/Demon}"
 		]
 	},
-	"painajai": { "copyof": "demon_painajai" },
+	"painajai": { "redirect": "demon_painajai" },
 	"demon_quasit": {
 		"name": "Quasit (Demon)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -2821,7 +2821,7 @@
 			"**Family:** {family/Demon}"
 		]
 	},
-	"quasit": { "copyof": "demon_quasit" },
+	"quasit": { "redirect": "demon_quasit" },
 	"demon_schir": {
 		"name": "Schir (Demon)",
 		"sources": [
@@ -2888,7 +2888,7 @@
 			"**Family:** {family/Demon}"
 		]
 	},
-	"schir": { "copyof": "demon_schir" },
+	"schir": { "redirect": "demon_schir" },
 	"demon_seraptis": {
 		"name": "Seraptis (Demon)",
 		"sources": [
@@ -2956,7 +2956,7 @@
 			"**Family:** {family/Demon}"
 		]
 	},
-	"seraptis": { "copyof": "demon_seraptis" },
+	"seraptis": { "redirect": "demon_seraptis" },
 	"demon_shachath": {
 		"name": "Shachath (Demon)",
 		"sources": [
@@ -3034,7 +3034,7 @@
 			"Shachaths that reside in the Abyss typically act as advisors and counselors to more powerful demons that seek their unique insight into good gods, outsiders, and the mortal condition itself. Others are skilled at interrogating and breaking good-aligned prisoners. On the Material Plane, shachaths dedicate their efforts toward the corruption of mortal faith. This can represent an attack upon a devout cleric or an entire community - or both, if they can manage."
 		]
 	},
-	"shachath": { "copyof": "demon_shachath" },
+	"shachath": { "redirect": "demon_shachath" },
 	"demon_shadow_demon": {
 		"name": "Shadow Demon (Demon)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -3097,8 +3097,8 @@
 			"**Family:** {family/Demon}"
 		]
 	},
-	"shadow_demon": { "copyof": "demon_shadow_demon" },
-	"demon_shadow": { "copyof": "demon_shadow_demon" },
+	"shadow_demon": { "redirect": "demon_shadow_demon" },
+	"demon_shadow": { "redirect": "demon_shadow_demon" },
 	"demon_shemhazian": {
 		"name": "Shemhazian (Demon)",
 		"sources": [
@@ -3164,7 +3164,7 @@
 			"**Family:** {family/Demon}"
 		]
 	},
-	"shemhazian": { "copyof": "demon_shemhazian" },
+	"shemhazian": { "redirect": "demon_shemhazian" },
 	"demon_succubus": {
 		"name": "Succubus (Demon)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -3223,7 +3223,7 @@
 			"**Family:** {family/Demon}"
 		]
 	},
-	"succubus": { "copyof": "demon_succubus" },
+	"succubus": { "redirect": "demon_succubus" },
 	"demon_swaithe": {
 		"name": "Swaithe (Demon)",
 		"sources": [
@@ -3296,7 +3296,7 @@
 			"**Family:** {family/Demon}"
 		]
 	},
-	"swaithe": { "copyof": "demon_swaithe" },
+	"swaithe": { "redirect": "demon_swaithe" },
 	"demon_thoxel_demon": {
 		"name": "Thoxel Demon (Demon)",
 		"sources": [
@@ -3376,8 +3376,8 @@
 			"Thoxel demons are skilled artisans, able to forge and maintain weapons and armor of excellent quality, and they take a certain pride in ensuring their personal armaments are always sharp and in good repair. When closely supervised, thoxel demons can be tasked with forge duty, turning out weapons for demonic legions in great numbers. However, their selfishness and laziness impairs their usefulness as foundry smiths for demon armies, as they frequently take shortcuts to get through their quotas and care little for the fate of demonic soldiers whose weapons shatter in battle or whose armor is ill-fitting or missing key fasteners. Anyone who relies on an insubordination demon's craftsmanship takes a great risk, for thoxels rarely put much care and attention to detail into the armor or weapons that are intended for anyone but themselves."
 		]
 	},
-	"thoxel_demon": { "copyof": "demon_thoxel_demon" },
-	"demon_thoxel": { "copyof": "demon_thoxel_demon" },
+	"thoxel_demon": { "redirect": "demon_thoxel_demon" },
+	"demon_thoxel": { "redirect": "demon_thoxel_demon" },
 	"demon_ulkreth": {
 		"name": "Ulkreth (Demon)",
 		"sources": [
@@ -3460,7 +3460,7 @@
 			"On the Material Plane, the cultists of Xoveron and his gargoyle minions stand sentinel against the encroachment of civilization, ready to foil its ambitious reach towards eternity. When his minions report cities growing too great, too lovely, or too proud, Xoveron tempts mortals with a gluttonous hunger for power and a jealous pride and rage toward their fellows that drives them to call forth an ulkreth demon. Mortal gargoyles can sense the presence of one of their master's favored servants and flock to its side to swoop hooting and screeching overhead as the wrecker commences a reign of terror. Of course, ulkreths are notoriously indiscriminate about their destruction, and those summoning them must be very careful not to become casualties of the ulkreth's rampage."
 		]
 	},
-	"ulkreth": { "copyof": "demon_ulkreth" },
+	"ulkreth": { "redirect": "demon_ulkreth" },
 	"demon_vavakia": {
 		"name": "Vavakia (Demon)",
 		"sources": [
@@ -3537,7 +3537,7 @@
 			"**Family:** {family/Demon}"
 		]
 	},
-	"vavakia": { "copyof": "demon_vavakia" },
+	"vavakia": { "redirect": "demon_vavakia" },
 	"demon_vermlek": {
 		"name": "Vermlek (Demon)",
 		"sources": [
@@ -3604,7 +3604,7 @@
 			"**Family:** {family/Demon}"
 		]
 	},
-	"vermlek": { "copyof": "demon_vermlek" },
+	"vermlek": { "redirect": "demon_vermlek" },
 	"demon_vilsteth": {
 		"name": "Vilsteth (Demon)",
 		"sources": [
@@ -3683,7 +3683,7 @@
 			"When vilsteths are encountered outside of the Abyss, these demons are often found in places where Baphomet's cults hold power. In rural areas, such cults may form around insular villages that have abandoned the traditional gods of hunt and harvest, trading them for a predatory faith hidden from the eyes of outsiders. In urban settlements, cultic cells and clandestine rites conducted behind masks and veils work together to suborn existing governmental, legal, and cultural authorities. Vilsteth demons may visit Baphomet's faithful in either milieu, acting as ambassadors and agents provocateur, often sitting in judgment of those who have violated the cult's confidentiality and helping to design and implement their agendas for anarchy and societal upheaval."
 		]
 	},
-	"vilsteth": { "copyof": "demon_vilsteth" },
+	"vilsteth": { "redirect": "demon_vilsteth" },
 	"demon_vrock": {
 		"name": "Vrock (Demon)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -3745,7 +3745,7 @@
 			"**Family:** {family/Demon}"
 		]
 	},
-	"vrock": { "copyof": "demon_vrock" },
+	"vrock": { "redirect": "demon_vrock" },
 	"demon_vrolikai": {
 		"name": "Vrolikai (Demon)",
 		"sources": [
@@ -3812,7 +3812,7 @@
 			"**Family:** {family/Demon}"
 		]
 	},
-	"vrolikai": { "copyof": "demon_vrolikai" },
+	"vrolikai": { "redirect": "demon_vrolikai" },
 	"demon_yaenit": {
 		"name": "Yaenit (Demon)",
 		"sources": [
@@ -3878,5 +3878,5 @@
 			"**Family:** {family/Demon}"
 		]
 	},
-	"yaenit": { "copyof": "demon_yaenit" }
+	"yaenit": { "redirect": "demon_yaenit" }
 }

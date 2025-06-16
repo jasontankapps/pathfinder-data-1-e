@@ -1131,8 +1131,8 @@
 			"- {family/Dragon (Black)}"
 		]
 	},
-	"true_dragon": { "copyof": "dragon_true" },
-	"dragon": { "copyof": "dragon_true" },
+	"true_dragon": { "redirect": "dragon_true" },
+	"dragon": { "redirect": "dragon_true" },
 	"dragon_black": {
 		"name": "Dragon (Black)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -1185,7 +1185,7 @@
 			"- {monster/Mature Adult Black Dragon>_mythic}"
 		]
 	},
-	"black_dragon": { "copyof": "dragon_black" },
+	"black_dragon": { "redirect": "dragon_black" },
 	"dragon_blue": {
 		"name": "Dragon (Blue)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -1236,7 +1236,7 @@
 			"- {monster/Mature Adult Blue Dragon>_mythic}"
 		]
 	},
-	"blue_dragon": { "copyof": "dragon_blue" },
+	"blue_dragon": { "redirect": "dragon_blue" },
 	"dragon_brass": {
 		"name": "Dragon (Brass)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -1274,7 +1274,7 @@
 			"- {monster/Young Brass Dragon}"
 		]
 	},
-	"brass_dragon": { "copyof": "dragon_brass" },
+	"brass_dragon": { "redirect": "dragon_brass" },
 	"dragon_bronze": {
 		"name": "Dragon (Bronze)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -1308,7 +1308,7 @@
 			"- {monster/Young Bronze Dragon}"
 		]
 	},
-	"bronze_dragon": { "copyof": "dragon_bronze" },
+	"bronze_dragon": { "redirect": "dragon_bronze" },
 	"dragon_copper": {
 		"name": "Dragon (Copper)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -1342,7 +1342,7 @@
 			"- {monster/Young Copper Dragon}"
 		]
 	},
-	"copper_dragon": { "copyof": "dragon_copper" },
+	"copper_dragon": { "redirect": "dragon_copper" },
 	"dragon_esoteric": {
 		"name": "Dragon (Esoteric)",
 		"sources": [ "Bestiary 5" ],
@@ -1474,7 +1474,7 @@
 			"- {monster/Young Occult Dragon}"
 		]
 	},
-	"esoteric_dragon": { "copyof": "dragon_esoteric" },
+	"esoteric_dragon": { "redirect": "dragon_esoteric" },
 	"dragon_gold": {
 		"name": "Dragon (Gold)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -1508,7 +1508,7 @@
 			"- {monster/Young Gold Dragon}"
 		]
 	},
-	"gold_dragon": { "copyof": "dragon_gold" },
+	"gold_dragon": { "redirect": "dragon_gold" },
 	"dragon_green": {
 		"name": "Dragon (Green)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -1544,7 +1544,7 @@
 			"- {monster/Very Old Green Dragon>_mythic}"
 		]
 	},
-	"green_dragon": { "copyof": "dragon_green" },
+	"green_dragon": { "redirect": "dragon_green" },
 	"dragon_imperial": {
 		"name": "Dragon (Imperial)",
 		"sources": [ "Bestiary 3" ],
@@ -1566,7 +1566,7 @@
 			"- {family/Dragon (Imperial, Underworld)}"
 		]
 	},
-	"imperial_dragon": { "copyof": "dragon_imperial" },
+	"imperial_dragon": { "redirect": "dragon_imperial" },
 	"dragon_imperial_forest": {
 		"name": "Dragon (Imperial, Forest)",
 		"sources": [ "Bestiary 3" ],
@@ -1611,7 +1611,7 @@
 			"- {monster/Young Forest Dragon}"
 		]
 	},
-	"forest_dragon": { "copyof": "dragon_imperial_forest" },
+	"forest_dragon": { "redirect": "dragon_imperial_forest" },
 	"dragon_imperial_sea": {
 		"name": "Dragon (Imperial, Sea)",
 		"sources": [ "Bestiary 3" ],
@@ -1654,7 +1654,7 @@
 			"- {monster/Young Sea Dragon}"
 		]
 	},
-	"sea_dragon": { "copyof": "dragon_imperial_sea" },
+	"sea_dragon": { "redirect": "dragon_imperial_sea" },
 	"dragon_imperial_sky": {
 		"name": "Dragon (Imperial, Sky)",
 		"sources": [ "Bestiary 3" ],
@@ -1699,7 +1699,7 @@
 			"- {monster/Young Sky Dragon}"
 		]
 	},
-	"sky_dragon": { "copyof": "dragon_imperial_sky" },
+	"sky_dragon": { "redirect": "dragon_imperial_sky" },
 	"dragon_imperial_sovereign": {
 		"name": "Dragon (Imperial, Sovereign)",
 		"sources": [ "Bestiary 3" ],
@@ -1742,7 +1742,7 @@
 			"- {monster/Young Sovereign Dragon}"
 		]
 	},
-	"sovereign_dragon": { "copyof": "dragon_imperial_sovereign" },
+	"sovereign_dragon": { "redirect": "dragon_imperial_sovereign" },
 	"dragon_imperial_underworld": {
 		"name": "Dragon (Imperial, Underworld)",
 		"sources": [ "Bestiary 3" ],
@@ -1785,7 +1785,7 @@
 			"- {monster/Young Underworld Dragon}"
 		]
 	},
-	"underworld_dragon": { "copyof": "dragon_imperial_underworld" },
+	"underworld_dragon": { "redirect": "dragon_imperial_underworld" },
 	"dragon_outer": {
 		"name": "Dragon (Outer)",
 		"sources": [ "Bestiary 4" ],
@@ -1807,7 +1807,7 @@
 			"- {family/Dragon (Outer, Vortex)}"
 		]
 	},
-	"outer_dragon": { "copyof": "dragon_outer" },
+	"outer_dragon": { "redirect": "dragon_outer" },
 	"dragon_outer_lunar": {
 		"name": "Dragon (Outer, Lunar)",
 		"sources": [ "Bestiary 4" ],
@@ -1852,7 +1852,7 @@
 			"- {monster/Young Lunar Dragon}"
 		]
 	},
-	"lunar_dragon": { "copyof": "dragon_outer_lunar" },
+	"lunar_dragon": { "redirect": "dragon_outer_lunar" },
 	"dragon_outer_solar": {
 		"name": "Dragon (Outer, Solar)",
 		"sources": [ "Bestiary 4" ],
@@ -1895,7 +1895,7 @@
 			"- {monster/Young Solar Dragon}"
 		]
 	},
-	"solar_dragon": { "copyof": "dragon_outer_solar" },
+	"solar_dragon": { "redirect": "dragon_outer_solar" },
 	"dragon_outer_time": {
 		"name": "Dragon (Outer, Time)",
 		"sources": [ "Bestiary 4" ],
@@ -1940,7 +1940,7 @@
 			"- {monster/Young Time Dragon}"
 		]
 	},
-	"time_dragon": { "copyof": "dragon_outer_time" },
+	"time_dragon": { "redirect": "dragon_outer_time" },
 	"dragon_outer_void": {
 		"name": "Dragon (Outer, Void)",
 		"sources": [ "Bestiary 4" ],
@@ -1983,7 +1983,7 @@
 			"- {monster/Young Void Dragon}"
 		]
 	},
-	"void_dragon": { "copyof": "dragon_outer_void" },
+	"void_dragon": { "redirect": "dragon_outer_void" },
 	"dragon_outer_vortex": {
 		"name": "Dragon (Outer, Vortex)",
 		"sources": [ "Bestiary 4" ],
@@ -2026,7 +2026,7 @@
 			"- {monster/Young Vortex Dragon}"
 		]
 	},
-	"vortex_dragon": { "copyof": "dragon_outer_vortex" },
+	"vortex_dragon": { "redirect": "dragon_outer_vortex" },
 	"dragon_planar": {
 		"name": "Dragon (Planar)",
 		"sources": [
@@ -2055,7 +2055,7 @@
 			"- {family/Dragon (Planar, Tumult)}"
 		]
 	},
-	"planar_dragon": { "copyof": "dragon_planar" },
+	"planar_dragon": { "redirect": "dragon_planar" },
 	"dragon_planar_apocalypse": {
 		"name": "Dragon (Planar, Apocalypse)",
 		"sources": [ "Pathfinder #137: The City Outside of Time" ],
@@ -2075,7 +2075,7 @@
 			"- {monster/Young Apocalypse Dragon}"
 		]
 	},
-	"apocalypse_dragon": { "copyof": "dragon_planar_apocalypse" },
+	"apocalypse_dragon": { "redirect": "dragon_planar_apocalypse" },
 	"dragon_planar_bliss": {
 		"name": "Dragon (Planar, Bliss)",
 		"sources": [ "Pathfinder #137: The City Outside of Time" ],
@@ -2095,7 +2095,7 @@
 			"- {monster/Young Bliss Dragon}"
 		]
 	},
-	"bliss_dragon": { "copyof": "dragon_planar_bliss" },
+	"bliss_dragon": { "redirect": "dragon_planar_bliss" },
 	"dragon_planar_crypt": {
 		"name": "Dragon (Planar, Crypt)",
 		"sources": [ "Bestiary 6" ],
@@ -2115,7 +2115,7 @@
 			"- {monster/Young Crypt Dragon}"
 		]
 	},
-	"crypt_dragon": { "copyof": "dragon_planar_crypt" },
+	"crypt_dragon": { "redirect": "dragon_planar_crypt" },
 	"dragon_planar_edict": {
 		"name": "Dragon (Planar, Edict)",
 		"sources": [ "Pathfinder #131: The Reaper's Right Hand" ],
@@ -2227,7 +2227,7 @@
 			"- {monster/Young Edict Dragon}"
 		]
 	},
-	"edict_dragon": { "copyof": "dragon_planar_edict" },
+	"edict_dragon": { "redirect": "dragon_planar_edict" },
 	"dragon_planar_havoc": {
 		"name": "Dragon (Planar, Havoc)",
 		"sources": [ "Bestiary 6" ],
@@ -2247,7 +2247,7 @@
 			"- {monster/Young Havoc Dragon}"
 		]
 	},
-	"havoc_dragon": { "copyof": "dragon_planar_havoc" },
+	"havoc_dragon": { "redirect": "dragon_planar_havoc" },
 	"dragon_planar_infernal": {
 		"name": "Dragon (Planar, Infernal)",
 		"sources": [ "Bestiary 6" ],
@@ -2267,7 +2267,7 @@
 			"- {monster/Young Infernal Dragon}"
 		]
 	},
-	"infernal_dragon": { "copyof": "dragon_planar_infernal" },
+	"infernal_dragon": { "redirect": "dragon_planar_infernal" },
 	"dragon_planar_paradise": {
 		"name": "Dragon (Planar, Paradise)",
 		"sources": [ "Bestiary 6" ],
@@ -2287,7 +2287,7 @@
 			"- {monster/Young Paradise Dragon}"
 		]
 	},
-	"paradise_dragon": { "copyof": "dragon_planar_paradise" },
+	"paradise_dragon": { "redirect": "dragon_planar_paradise" },
 	"dragon_planar_rift": {
 		"name": "Dragon (Planar, Rift)",
 		"sources": [ "Bestiary 6" ],
@@ -2307,7 +2307,7 @@
 			"- {monster/Young Rift Dragon}"
 		]
 	},
-	"rift_dragon": { "copyof": "dragon_planar_rift" },
+	"rift_dragon": { "redirect": "dragon_planar_rift" },
 	"dragon_planar_tumult": {
 		"name": "Dragon (Planar, Tumult)",
 		"sources": [ "Pathfinder #138: Rise of New Thassilon" ],
@@ -2327,7 +2327,7 @@
 			"- {monster/Young Tumult Dragon}"
 		]
 	},
-	"tumult_dragon": { "copyof": "dragon_planar_tumult" },
+	"tumult_dragon": { "redirect": "dragon_planar_tumult" },
 	"dragon_primal": {
 		"name": "Dragon (Primal)",
 		"sources": [ "Bestiary 2" ],
@@ -2349,7 +2349,7 @@
 			"- {family/Dragon (Primal, Umbral)}"
 		]
 	},
-	"primal_dragon": { "copyof": "dragon_primal" },
+	"primal_dragon": { "redirect": "dragon_primal" },
 	"dragon_primal_brine": {
 		"name": "Dragon (Primal, Brine)",
 		"sources": [ "Bestiary 2" ],
@@ -2390,7 +2390,7 @@
 			"- {monster/Young Brine Dragon}"
 		]
 	},
-	"brine_dragon": { "copyof": "dragon_primal_brine" },
+	"brine_dragon": { "redirect": "dragon_primal_brine" },
 	"dragon_primal_cloud": {
 		"name": "Dragon (Primal, Cloud)",
 		"sources": [ "Bestiary 2" ],
@@ -2433,7 +2433,7 @@
 			"- {monster/Young Cloud Dragon}"
 		]
 	},
-	"cloud_dragon": { "copyof": "dragon_primal_cloud" },
+	"cloud_dragon": { "redirect": "dragon_primal_cloud" },
 	"dragon_primal_crystal": {
 		"name": "Dragon (Primal, Crystal)",
 		"sources": [ "Bestiary 2" ],
@@ -2476,7 +2476,7 @@
 			"- {monster/Young Crystal Dragon}"
 		]
 	},
-	"crystal_dragon": { "copyof": "dragon_primal_crystal" },
+	"crystal_dragon": { "redirect": "dragon_primal_crystal" },
 	"dragon_primal_magma": {
 		"name": "Dragon (Primal, Magma)",
 		"sources": [ "Bestiary 2" ],
@@ -2517,7 +2517,7 @@
 			"- {monster/Young Magma Dragon}"
 		]
 	},
-	"magma_dragon": { "copyof": "dragon_primal_magma" },
+	"magma_dragon": { "redirect": "dragon_primal_magma" },
 	"dragon_primal_umbral": {
 		"name": "Dragon (Primal, Umbral)",
 		"sources": [ "Bestiary 2" ],
@@ -2564,7 +2564,7 @@
 			"- {monster/Young Umbral Dragon}"
 		]
 	},
-	"umbral_dragon": { "copyof": "dragon_primal_umbral" },
+	"umbral_dragon": { "redirect": "dragon_primal_umbral" },
 	"dragon_red": {
 		"name": "Dragon (Red)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -2599,7 +2599,7 @@
 			"- {monster/Young Red Dragon}"
 		]
 	},
-	"red_dragon": { "copyof": "dragon_red" },
+	"red_dragon": { "redirect": "dragon_red" },
 	"dragon_silver": {
 		"name": "Dragon (Silver)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -2635,7 +2635,7 @@
 			"- {monster/Young Silver Dragon}"
 		]
 	},
-	"silver_dragon": { "copyof": "dragon_silver" },
+	"silver_dragon": { "redirect": "dragon_silver" },
 	"dragon_white": {
 		"name": "Dragon (White)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -2673,7 +2673,7 @@
 			"- {monster/Juvenile White Dragon>_mythic}"
 		]
 	},
-	"white_dragon": { "copyof": "dragon_white" },
+	"white_dragon": { "redirect": "dragon_white" },
 	"drake": {
 		"name": "Drake",
 		"sources": [ "Bestiary 2" ],

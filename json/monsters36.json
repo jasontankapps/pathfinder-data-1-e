@@ -215,7 +215,7 @@
 			"The cauchemar is a more dangerous variant of the nightmare, particularly valued for its ability to enter the Ethereal Plane with its rider in addition to being able to use plane shift to invade other realities."
 		]
 	},
-	"cauchemar": { "copyof": "nightmare_cauchemar" },
+	"cauchemar": { "redirect": "nightmare_cauchemar" },
 	"nightshade_nightcrawler": {
 		"name": "Nightcrawler (Nightshade)",
 		"sources": [ "Bestiary 2" ],
@@ -281,7 +281,7 @@
 			"**Family:** {family/Nightshade}"
 		]
 	},
-	"nightcrawler": { "copyof": "nightshade_nightcrawler" },
+	"nightcrawler": { "redirect": "nightshade_nightcrawler" },
 	"nightshade_nightprowler": {
 		"name": "Nightprowler (Nightshade)",
 		"sources": [
@@ -366,7 +366,7 @@
 			"Ultimately, the common goal of all nightshades is nothing less than the desecration of all that is pure, and the death of all that lives. Mortals in the grip of madness rant of the coming night when nightshades great and small will march to rid all the planes once and for all of the curse of life. Nightprowlers will be the outriders in that terrible army, the mad ones warn, bringing undead allies with them into that final fray. It is easy to ignore these fevered prophecies or label them the ramblings of the insane. But in the baleful dark, when all lights have been extinguished save for a pair of red eyes, the potential truth in those words is undeniable."
 		]
 	},
-	"nightprowler": { "copyof": "nightshade_nightprowler" },
+	"nightprowler": { "redirect": "nightshade_nightprowler" },
 	"nightshade_nightwalker": {
 		"name": "Nightwalker (Nightshade)",
 		"sources": [ "Bestiary 2" ],
@@ -432,7 +432,7 @@
 			"**Family:** {family/Nightshade}"
 		]
 	},
-	"nightwalker": { "copyof": "nightshade_nightwalker" },
+	"nightwalker": { "redirect": "nightshade_nightwalker" },
 	"nightshade_nightwave": {
 		"name": "Nightwave (Nightshade)",
 		"sources": [ "Bestiary 2" ],
@@ -496,7 +496,7 @@
 			"**Family:** {family/Nightshade}"
 		]
 	},
-	"nightwave": { "copyof": "nightshade_nightwave" },
+	"nightwave": { "redirect": "nightshade_nightwave" },
 	"nightshade_nightwing": {
 		"name": "Nightwing (Nightshade)",
 		"sources": [ "Bestiary 2" ],
@@ -560,7 +560,7 @@
 			"**Family:** {family/Nightshade}"
 		]
 	},
-	"nightwing": { "copyof": "nightshade_nightwing" },
+	"nightwing": { "redirect": "nightshade_nightwing" },
 	"nihiloi": {
 		"name": "Nihiloi",
 		"sources": [ "Pathfinder #29: Mother of Flies" ],
@@ -866,8 +866,8 @@
 			"Ningyos measure approximately 2 to 2-1/2 feet long from head to tail, and weigh 6 to 9 pounds."
 		]
 	},
-	"ningyo_undead": { "copyof": "ningyo_undead_ningyo" },
-	"undead_ningyo": { "copyof": "ningyo_undead_ningyo" },
+	"ningyo_undead": { "redirect": "ningyo_undead_ningyo" },
+	"undead_ningyo": { "redirect": "ningyo_undead_ningyo" },
 	"nirento": {
 		"name": "Nirento",
 		"sources": [ "Isles of the Shackles" ],
@@ -964,8 +964,8 @@
 			"Elder nirentos are individuals that have lived for well over a century, and have absorbed nutrients from countless victims over the years. A typical nirento is 15 feet tall and weighs 1,000 pounds, while elder nirentos can reach heights of up to 25 feet and weigh over a ton."
 		]
 	},
-	"nirento_elder": { "copyof": "nirento_elder_nirento" },
-	"elder_nirento": { "copyof": "nirento_elder_nirento" },
+	"nirento_elder": { "redirect": "nirento_elder_nirento" },
+	"elder_nirento": { "redirect": "nirento_elder_nirento" },
 	"nisid": {
 		"name": "Nisid",
 		"sources": [ "Pathfinder #122: Into the Shattered Continent" ],
@@ -1293,8 +1293,8 @@
 			"**Family:** {family/Ossumental}"
 		]
 	},
-	"ossumental_air": { "copyof": "ossumental_ossumental_air" },
-	"air_ossumental": { "copyof": "ossumental_ossumental_air" },
+	"ossumental_air": { "redirect": "ossumental_ossumental_air" },
+	"air_ossumental": { "redirect": "ossumental_ossumental_air" },
 	"ossumental_ossumental_earth": {
 		"name": "Ossumental (Earth)",
 		"sources": [ "Pathfinder #83: The Slave Trenches of Hakotep" ],
@@ -1355,8 +1355,8 @@
 			"**Family:** {family/Ossumental}"
 		]
 	},
-	"ossumental_earth": { "copyof": "ossumental_ossumental_earth" },
-	"earth_ossumental": { "copyof": "ossumental_ossumental_earth" },
+	"ossumental_earth": { "redirect": "ossumental_ossumental_earth" },
+	"earth_ossumental": { "redirect": "ossumental_ossumental_earth" },
 	"ossumental_ossumental_fire": {
 		"name": "Ossumental (Fire)",
 		"sources": [ "Pathfinder #83: The Slave Trenches of Hakotep" ],
@@ -1418,8 +1418,8 @@
 			"**Family:** {family/Ossumental}"
 		]
 	},
-	"ossumental_fire": { "copyof": "ossumental_ossumental_fire" },
-	"fire_ossumental": { "copyof": "ossumental_ossumental_fire" },
+	"ossumental_fire": { "redirect": "ossumental_ossumental_fire" },
+	"fire_ossumental": { "redirect": "ossumental_ossumental_fire" },
 	"ossumental_ossumental_water": {
 		"name": "Ossumental (Water)",
 		"sources": [ "Pathfinder #83: The Slave Trenches of Hakotep" ],
@@ -1478,8 +1478,8 @@
 			"**Family:** {family/Ossumental}"
 		]
 	},
-	"ossumental_water": { "copyof": "ossumental_ossumental_water" },
-	"water_ossumental": { "copyof": "ossumental_ossumental_water" },
+	"ossumental_water": { "redirect": "ossumental_ossumental_water" },
+	"water_ossumental": { "redirect": "ossumental_ossumental_water" },
 	"ostovite": {
 		"name": "Ostovite",
 		"sources": [ "Bestiary 5" ],
@@ -1867,7 +1867,7 @@
 			"**Thalaphyrr Martyr-Minder (LE Forsaken of failed heroics, imprisonment, and squandered time):** Thalaphyrr guarded the prisons where the Forsaken kept their would-be usurpers and destroyers. Creatures within 30 feet of Thalaphyrr's owb prophets cannot benefit from morale bonuses. In addition, his owb prophets can use {spell/slow} at will as a spell-like ability. Thalaphyrr's symbol is a pair of hands grasping a set of prison bars, and his favored weapon is the spear."
 		]
 	},
-	"owb_prophet": { "copyof": "owb_owb_prophet" },
+	"owb_prophet": { "redirect": "owb_owb_prophet" },
 	"owl_giant_owl": {
 		"name": "Giant Owl",
 		"sources": [ "Bestiary 3" ],
@@ -1921,8 +1921,8 @@
 			"The noble giant owl roosts in the tallest trees or in high caves near its forest home. No mere animals, giant owls pride themselves as intellectuals and keen judges of character. Little passes a giant owl's notice in its home forest. What it doesn't observe directly, it learns from its wide network of animal informants. Giant owls view themselves more as watchers than participants, rarely interfering in the affairs of others barring a threat to their homes. Giant owls stand 18 feet tall and have 30-foot wingspans, yet they rarely weigh over 600 pounds."
 		]
 	},
-	"giant_owl": { "copyof": "owl_giant_owl" },
-	"owl_giant": { "copyof": "owl_giant_owl" },
+	"giant_owl": { "redirect": "owl_giant_owl" },
+	"owl_giant": { "redirect": "owl_giant_owl" },
 	"owl_great_horned_owl": {
 		"name": "Great Horned Owl",
 		"sources": [ "Bestiary 3" ],
@@ -1967,8 +1967,8 @@
 			"Great horned owls primarily hunt at night, locating prey through their excellent hearing. Their diet consists of rodents supplemented by smaller birds and rabbits."
 		]
 	},
-	"owl_great_horned": { "copyof": "owl_great_horned_owl" },
-	"great_horned_owl": { "copyof": "owl_great_horned_owl" },
+	"owl_great_horned": { "redirect": "owl_great_horned_owl" },
+	"great_horned_owl": { "redirect": "owl_great_horned_owl" },
 	"owlbear": {
 		"name": "Owlbear",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -3166,7 +3166,7 @@
 			"**Family:** {family/Phantom Armor}"
 		]
 	},
-	"giant_phantom_armor": { "copyof": "phantom_armor_giant" },
+	"giant_phantom_armor": { "redirect": "phantom_armor_giant" },
 	"phantom_armor_guardian": {
 		"name": "Guardian Phantom Armor",
 		"sources": [
@@ -3221,7 +3221,7 @@
 			"**Family:** {family/Phantom Armor}"
 		]
 	},
-	"guardian_phantom_armor": { "copyof": "phantom_armor_guardian" },
+	"guardian_phantom_armor": { "redirect": "phantom_armor_guardian" },
 	"phantom_armor_hollow_helm": {
 		"name": "Hollow Helm (Phantom Armor)",
 		"sources": [ "Pathfinder #47: Ashes at Dawn" ],
@@ -3284,7 +3284,7 @@
 			"**Family:** {family/Phantom Armor}"
 		]
 	},
-	"hollow_helm": { "copyof": "phantom_armor_hollow_helm" },
+	"hollow_helm": { "redirect": "phantom_armor_hollow_helm" },
 	"phantom_armor_phantom_lancer": {
 		"name": "Phantom Lancer (Phantom Armor)",
 		"sources": [ "Pathfinder #47: Ashes at Dawn" ],
@@ -3345,7 +3345,7 @@
 			"**Family:** {family/Phantom Armor}"
 		]
 	},
-	"phantom_lancer": { "copyof": "phantom_armor_phantom_lancer" },
+	"phantom_lancer": { "redirect": "phantom_armor_phantom_lancer" },
 	"phantom_fungus": {
 		"name": "Phantom Fungus",
 		"sources": [ "Bestiary 3" ],
@@ -3940,7 +3940,7 @@
 			"See also: {monster/Grim Reaper}"
 		]
 	},
-	"reaper_grim": { "copyof": "reaper_grim_reaper" },
+	"reaper_grim": { "redirect": "reaper_grim_reaper" },
 	"reaper_minor_reaper": {
 		"name": "Minor Reaper",
 		"sources": [ "Pathfinder #48: Shadows of Gallowspire" ],
@@ -4012,8 +4012,8 @@
 			"See also: {monster/Lesser Death}"
 		]
 	},
-	"reaper_minor": { "copyof": "reaper_minor_reaper" },
-	"minor_reaper": { "copyof": "reaper_minor_reaper" },
+	"reaper_minor": { "redirect": "reaper_minor_reaper" },
+	"minor_reaper": { "redirect": "reaper_minor_reaper" },
 	"rat_king": {
 		"name": "Rat King",
 		"sources": [ "Bestiary 4" ],
@@ -4120,8 +4120,8 @@
 			"Dire rats grow up to 2 feet long and weigh up to 25 pounds. They are common menaces in dungeons and city sewers alike."
 		]
 	},
-	"dire_rat": { "copyof": "rat_dire_rat" },
-	"rat_dire": { "copyof": "rat_dire_rat" },
+	"dire_rat": { "redirect": "rat_dire_rat" },
+	"rat_dire": { "redirect": "rat_dire_rat" },
 	"rat_rat_swarm": {
 		"name": "Rat Swarm",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -4173,7 +4173,7 @@
 			"Rat swarms surround and attack any warm-blooded prey in their path."
 		]
 	},
-	"rat_swarm": { "copyof": "rat_rat_swarm" },
+	"rat_swarm": { "redirect": "rat_rat_swarm" },
 	"ratling": {
 		"name": "Ratling",
 		"sources": [

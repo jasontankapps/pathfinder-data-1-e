@@ -1207,7 +1207,7 @@
 			"**Requirements** {feat/Craft Construct}, {spell/alarm}, *detect magic*, {spell/geas//quest}, {spell/limited wish}, {spell/scorching ray}, creator must be caster level 10th; Skill Craft (sculpture) DC 18; **Cost** 11,000 gp"
 		]
 	},
-	"bronze_sentinel": { "copyof": "thassilonian_sentinel_bronze_sentinel" },
+	"bronze_sentinel": { "redirect": "thassilonian_sentinel_bronze_sentinel" },
 	"thassilonian_sentinel_iron_sentinel": {
 		"name": "Iron Sentinel (Thassilonian Sentinel)",
 		"sources": [ "Pathfinder #134: It Came from Hollow Mountain" ],
@@ -1277,7 +1277,7 @@
 			"**Requirements** {feat/Craft Construct}, {spell/alarm}, {spell/cone of cold}, *detect magic*, {spell/geas//quest}, {spell/limited wish}; Skill Craft (sculpture) DC 22; **Cost** 14,000 gp"
 		]
 	},
-	"iron_sentinel": { "copyof": "thassilonian_sentinel_iron_sentinel" },
+	"iron_sentinel": { "redirect": "thassilonian_sentinel_iron_sentinel" },
 	"thassilonian_sentinel_ivory_sentinel": {
 		"name": "Ivory Sentinel (Thassilonian Sentinel)",
 		"sources": [ "Pathfinder #134: It Came from Hollow Mountain" ],
@@ -1348,7 +1348,7 @@
 			"**Requirements** {feat/Craft Construct}, {spell/alarm}, *detect magic*, {spell/geas//quest}, {spell/limited wish}, {spell/poison}, {spell/shout}; Skill Craft (sculpture) DC 26; **Cost** 18,000 gp"
 		]
 	},
-	"ivory_sentinel": { "copyof": "thassilonian_sentinel_ivory_sentinel" },
+	"ivory_sentinel": { "redirect": "thassilonian_sentinel_ivory_sentinel" },
 	"thassilonian_sentinel_marble_sentinel": {
 		"name": "Marble Sentinel (Thassilonian Sentinel)",
 		"sources": [
@@ -1419,7 +1419,7 @@
 			"**Requirements** {feat/Craft Construct}, {spell/alarm}, *detect magic*, {spell/geas//quest}, {spell/limited wish}, {spell/stone shape}, creator must be caster level 12th; Skill Craft (sculpture) DC 20; **Cost** 12,500 gp"
 		]
 	},
-	"marble_sentinel": { "copyof": "thassilonian_sentinel_marble_sentinel" },
+	"marble_sentinel": { "redirect": "thassilonian_sentinel_marble_sentinel" },
 	"thawn": {
 		"name": "Thawn",
 		"sources": [ "Pathfinder #31: Stolen Land" ],
@@ -2149,8 +2149,8 @@
 			"Sarusan Wolf: The Sarusan wolf is a slightly bigger and more dog-like form of the normal thylacine. Whereas indigenous people refer to the thylacine as a lion or other great cat, the Sarusan wolf has an unmistakable canine jaw. While they are physically larger, Sarusan wolves are actually less hardy than their traditional cousins, due to poor weight allocation. Prone to tiring quickly and falling down, Sarusan wolves focus more on rapid takedowns of their prey. Sarusan wolves have a Constitution score of 12 and gain {feat/Power Attack} as a bonus feat."
 		]
 	},
-	"thylacine_brush": { "copyof": "thylacine_brush_thylacine" },
-	"brush_thylacine": { "copyof": "thylacine_brush_thylacine" },
+	"thylacine_brush": { "redirect": "thylacine_brush_thylacine" },
+	"brush_thylacine": { "redirect": "thylacine_brush_thylacine" },
 	"tiberolith": {
 		"name": "Tiberolith",
 		"sources": [
@@ -2275,8 +2275,8 @@
 			"**Family:** {family/Titan}"
 		]
 	},
-	"elysian": { "copyof": "titan_elysian" },
-	"elysian_titan": { "copyof": "titan_elysian" },
+	"elysian": { "redirect": "titan_elysian" },
+	"elysian_titan": { "redirect": "titan_elysian" },
 	"titan_hekatonkheires": {
 		"name": "Hekatonkheires (Titan)",
 		"sources": [
@@ -2357,7 +2357,7 @@
 			"**Family:** {family/Titan}"
 		]
 	},
-	"hekatonkheires": { "copyof": "titan_hekatonkheires" },
+	"hekatonkheires": { "redirect": "titan_hekatonkheires" },
 	"titan_thanatotic": {
 		"name": "Thanatotic (Titan)",
 		"sources": [ "Bestiary 2" ],
@@ -2419,7 +2419,7 @@
 			"**Family:** {family/Titan}"
 		]
 	},
-	"thanatotic": { "copyof": "titan_thanatotic" },
+	"thanatotic": { "redirect": "titan_thanatotic" },
 	"titanboar": {
 		"name": "Titanboar",
 		"sources": [ "Taldor, the First Empire" ],
@@ -2709,8 +2709,8 @@
 			"Giant toad companions are identical to giant frog companions, save that they lack the frog's tongue and pull abilities. Instead, they gain the poison skin ability at 4th level."
 		]
 	},
-	"toad_giant": { "copyof": "toad_giant_toad" },
-	"giant_toad": { "copyof": "toad_giant_toad" },
+	"toad_giant": { "redirect": "toad_giant_toad" },
+	"giant_toad": { "redirect": "toad_giant_toad" },
 	"toad_glacier_toad": {
 		"name": "Glacier Toad",
 		"sources": [ "Bestiary 2" ],
@@ -2763,8 +2763,8 @@
 			"Glacier toads are strange, magical cousins of the more common giant toads. None can say for certain whether they were bred, or evolved from exposure to elemental energies. Glacier toads have no practical use for most treasure, but have a fondness for shiny objects like gems and glowing items."
 		]
 	},
-	"toad_glacier": { "copyof": "toad_glacier_toad" },
-	"glacier_toad": { "copyof": "toad_glacier_toad" },
+	"toad_glacier": { "redirect": "toad_glacier_toad" },
+	"glacier_toad": { "redirect": "toad_glacier_toad" },
 	"tobongo_mwangi_treant": {
 		"name": "Tobongo (Mwangi Treant)",
 		"sources": [ "Heart of the Jungle" ],
@@ -2830,7 +2830,7 @@
 			"This is a variation of the {monster/treant}."
 		]
 	},
-	"tobongo": { "copyof": "tobongo_mwangi_treant" },
+	"tobongo": { "redirect": "tobongo_mwangi_treant" },
 	"tojanida": {
 		"name": "Tojanida",
 		"sources": [
@@ -3024,7 +3024,7 @@
 			"Tooth fairy monarchs are willing to stand up to nearly any creature with imperious bluster. The sole exceptions to their bravado are cats. Even a tiny kitten causes quivering terror in tooth fairy monarchs, and they insist that their attendants chase away such creatures. Most tooth fairy monarchs will abandon all their \"wealth\"- including their hoards of carefully collected teeth-rather than share a lair with a cat."
 		]
 	},
-	"tooth_fairy_monarch": { "copyof": "tooth_fairy_tooth_fairy_monarch" },
+	"tooth_fairy_monarch": { "redirect": "tooth_fairy_tooth_fairy_monarch" },
 	"tophet": {
 		"name": "Tophet",
 		"sources": [
@@ -3205,7 +3205,7 @@
 			"This scuttling thing looks at first glance like a colorful, animate blob of slime, but its thin insectoid legs and eyestalks suggest it is a more advanced creature. Its antennae-like appendages wave about curiously, and its multiple legs carry forth its transparent, hand-sized body at a surprisingly swift scuttle."
 		]
 	},
-	"torble_swarm": { "copyof": "torble_torble_swarm" },
+	"torble_swarm": { "redirect": "torble_torble_swarm" },
 	"tortoise_giant_tortoise": {
 		"name": "Giant Tortoise",
 		"sources": [ "Bestiary 4" ],
@@ -3259,8 +3259,8 @@
 			"A typical giant tortoise is 3-1/2 feet tall to the top of the shell and weighs 500 pounds."
 		]
 	},
-	"tortoise_giant": { "copyof": "tortoise_giant_tortoise" },
-	"giant_tortoise": { "copyof": "tortoise_giant_tortoise" },
+	"tortoise_giant": { "redirect": "tortoise_giant_tortoise" },
+	"giant_tortoise": { "redirect": "tortoise_giant_tortoise" },
 	"tortoise_immense_tortoise": {
 		"name": "Immense Tortoise",
 		"sources": [ "Bestiary 4" ],
@@ -3306,8 +3306,8 @@
 			"These immense, ancient tortoises never stop growing."
 		]
 	},
-	"tortoise_immense": { "copyof": "tortoise_immense_tortoise" },
-	"immense_tortoise": { "copyof": "tortoise_immense_tortoise" },
+	"tortoise_immense": { "redirect": "tortoise_immense_tortoise" },
+	"immense_tortoise": { "redirect": "tortoise_immense_tortoise" },
 	"totenmaske": {
 		"name": "Totenmaske",
 		"sources": [
@@ -3619,7 +3619,7 @@
 			">*Symbiote (Ex):* A unique relationship with trench mists grants trench zombies immunity to acid. In addition, when a trench zombie reaches 0 hit points and is destroyed, the mustard-colored mist that animates the creature bursts violently from its damaged form. All creatures adjacent to the trench zombie are exposed to the toxic gas and take 4d6 points of acid damage. If the trench zombie is enveloped within the fog of its parent trench mist when this death burst occurs, the mist's fast healing ability increases by 1 for a number of rounds equal to the Hit Dice of the destroyed trench zombie. The effects of the deaths of multiple symbiotic trench zombies stack."
 		]
 	},
-	"trench_zombie": { "copyof": "trench_mist_trench_zombie" },
+	"trench_zombie": { "redirect": "trench_mist_trench_zombie" },
 	"triaxian": {
 		"name": "Triaxian",
 		"sources": [ "Pathfinder #70: The Frozen Stars" ],
@@ -3913,5 +3913,5 @@
 			"Some troggles exhibit natural skill for hunting and tracking, and their ogre masters take advantage of these talents to create fast, deadly pets that excel at finding and killing humans for the stewpot."
 		]
 	},
-	"troggle_raider": { "copyof": "troggle_troggle_raider" }
+	"troggle_raider": { "redirect": "troggle_troggle_raider" }
 }

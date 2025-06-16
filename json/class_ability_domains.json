@@ -69,9 +69,9 @@
 			"**Replacement Domain Spells:** 1st-{spell/whispering wind}, 6th-{spell/wind walk}, 9th-{spell/winds of vengeance}."
 		]
 	},
-	"cloud": { "copyof": "air" },
-	"lightning": { "copyof": "air" },
-	"wind": { "copyof": "air" },
+	"cloud": { "redirect": "air" },
+	"lightning": { "redirect": "air" },
+	"wind": { "redirect": "air" },
 	"animal": {
 		"name": "Animal",
 		"sources": [
@@ -137,9 +137,9 @@
 			"**Replacement Domain Spells:** 4th-{spell/giant vermin}, 5th-{spell/vermin shape II}, 8th-{spell/summon nature's ally VIII} (1d3 goliath stag beetles)."
 		]
 	},
-	"feather": { "copyof": "animal" },
-	"fur": { "copyof": "animal" },
-	"insect": { "copyof": "animal" },
+	"feather": { "redirect": "animal" },
+	"fur": { "redirect": "animal" },
+	"insect": { "redirect": "animal" },
 	"artifice": {
 		"name": "Artifice",
 		"sources": [
@@ -245,10 +245,10 @@
 			"This subdomain is associated with both the {domain/Artifice} and {domain/Magic} domains."
 		]
 	},
-	"construct": { "copyof": "artifice" },
-	"industry": { "copyof": "artifice" },
-	"toil": { "copyof": "artifice" },
-	"trap": { "copyof": "artifice" },
+	"construct": { "redirect": "artifice" },
+	"industry": { "redirect": "artifice" },
+	"toil": { "redirect": "artifice" },
+	"trap": { "redirect": "artifice" },
 	"chaos": {
 		"name": "Chaos",
 		"sources": [
@@ -411,12 +411,12 @@
 			"These subdomains are associated with both the {domain/Chaos} and {domain/Evil} domains."
 		]
 	},
-	"demon": { "copyof": "demodand" },
-	"entropy": { "copyof": "chaos" },
-	"protean": { "copyof": "chaos" },
-	"revelry": { "copyof": "chaos" },
-	"riot": { "copyof": "chaos" },
-	"whimsy": { "copyof": "chaos" },
+	"demon": { "redirect": "demodand" },
+	"entropy": { "redirect": "chaos" },
+	"protean": { "redirect": "chaos" },
+	"revelry": { "redirect": "chaos" },
+	"riot": { "redirect": "chaos" },
+	"whimsy": { "redirect": "chaos" },
 	"charm": {
 		"name": "Charm",
 		"sources": [
@@ -478,9 +478,9 @@
 			"**Replacement Domain Spells:** 2nd-{spell/touch of idiocy}, 4th-{spell/confusion}."
 		]
 	},
-	"captivation": { "copyof": "charm" },
-	"love": { "copyof": "charm" },
-	"lust": { "copyof": "charm" },
+	"captivation": { "redirect": "charm" },
+	"love": { "redirect": "charm" },
+	"lust": { "redirect": "charm" },
 	"community": {
 		"name": "Community",
 		"sources": [
@@ -555,7 +555,7 @@
 			"**Replacement Domain Spells:** 1st-{spell/alarm}, 3rd-{spell/glyph of warding}, 7th-{spell/guards and wards}."
 		]
 	},
-	"cooperation": { "copyof": "community" },
+	"cooperation": { "redirect": "community" },
 	"education": {
 		"name": "Education",
 		"sources": [],
@@ -565,8 +565,8 @@
 			"This subdomain is associated with both the {domain/Community} and {domain/Knowledge} domains."
 		]
 	},
-	"family": { "copyof": "community" },
-	"home": { "copyof": "community" },
+	"family": { "redirect": "community" },
+	"home": { "redirect": "community" },
 	"darkness": {
 		"name": "Darkness",
 		"sources": [
@@ -643,9 +643,9 @@
 			"**Replacement Domain Spells:** 1st-{spell/ray of enfeeblement}, 4th-{spell/phantasmal killer}, 8th-orb of the void"
 		]
 	},
-	"loss": { "copyof": "darkness" },
-	"moon": { "copyof": "darkness" },
-	"night": { "copyof": "darkness" },
+	"loss": { "redirect": "darkness" },
+	"moon": { "redirect": "darkness" },
+	"night": { "redirect": "darkness" },
 	"shadow": {
 		"name": "Shadow",
 		"sources": [],
@@ -769,7 +769,7 @@
 			"This replaces the bleeding touch domain power of the Death domain."
 		]
 	},
-	"murder": { "copyof": "death" },
+	"murder": { "redirect": "death" },
 	"plague": {
 		"name": "Plague",
 		"sources": [],
@@ -788,7 +788,7 @@
 			"This subdomain is associated with both the {domain/Death} and {domain/Repose} domains."
 		]
 	},
-	"undead": { "copyof": "death" },
+	"undead": { "redirect": "death" },
 	"destruction": {
 		"name": "Destruction",
 		"sources": [
@@ -863,10 +863,10 @@
 			"**Replacement Domain Spells:** 2nd-{spell/pain strike}, 5th-{spell/symbol of pain}, 8th-{spell/demand}."
 		]
 	},
-	"catastrophe": { "copyof": "destruction" },
-	"hatred": { "copyof": "destruction" },
-	"rage": { "copyof": "destruction" },
-	"torture": { "copyof": "destruction" },
+	"catastrophe": { "redirect": "destruction" },
+	"hatred": { "redirect": "destruction" },
+	"rage": { "redirect": "destruction" },
+	"torture": { "redirect": "destruction" },
 	"earth": {
 		"name": "Earth",
 		"sources": [
@@ -943,10 +943,10 @@
 			"**Replacement Domain Spells:** 2nd-{spell/defoliate}, 4th-{spell/blight}, 8th-{spell/horrid wilting}."
 		]
 	},
-	"caves": { "copyof": "earth" },
-	"metal": { "copyof": "earth" },
-	"petrification": { "copyof": "earth" },
-	"radiation": { "copyof": "earth" },
+	"caves": { "redirect": "earth" },
+	"metal": { "redirect": "earth" },
+	"petrification": { "redirect": "earth" },
+	"radiation": { "redirect": "earth" },
 	"evil": {
 		"name": "Evil",
 		"sources": [
@@ -1100,9 +1100,9 @@
 			"**Replacement Domain Spells:** 2nd-{spell/haunting mists}, 4th-{spell/they know}, 6th-{spell/phobia}."
 		]
 	},
-	"cannibalism": { "copyof": "evil" },
-	"corruption": { "copyof": "evil" },
-	"daemon": { "copyof": "evil" },
+	"cannibalism": { "redirect": "evil" },
+	"corruption": { "redirect": "evil" },
+	"daemon": { "redirect": "evil" },
 	"devil": {
 		"name": "Devil and Kyton",
 		"sources": [],
@@ -1112,9 +1112,9 @@
 			"These subdomains are associated with both the {domain/Law} and {domain/Evil} domains."
 		]
 	},
-	"kyton": { "copyof": "devil" },
-	"fear": { "copyof": "evil" },
-	"sahkil": { "copyof": "evil" },
+	"kyton": { "redirect": "devil" },
+	"fear": { "redirect": "evil" },
+	"sahkil": { "redirect": "evil" },
 	"fire": {
 		"name": "Fire",
 		"sources": [
@@ -1176,9 +1176,9 @@
 			"**Replacement Domain Spells:** 2nd-{spell/pyrotechnics}, 3rd-{spell/stinking cloud}."
 		]
 	},
-	"arson": { "copyof": "fire" },
-	"ash": { "copyof": "fire" },
-	"smoke": { "copyof": "fire" },
+	"arson": { "redirect": "fire" },
+	"ash": { "redirect": "fire" },
+	"smoke": { "redirect": "fire" },
 	"glory": {
 		"name": "Glory",
 		"sources": [
@@ -1268,9 +1268,9 @@
 			"**Replacement Domain Spells:** 2nd-{spell/aid}, 3rd-{spell/contagious zeal}, 4th-{spell/righteous vigor}, 6th-{spell/unshakeable zeal}. If you are evil, replace the domain spells holy smite, holy sword, and holy aura with unholy blight, unholy sword, and unholy aura respectively."
 		]
 	},
-	"chivalry": { "copyof": "glory" },
-	"heroism": { "copyof": "glory" },
-	"honor": { "copyof": "glory" },
+	"chivalry": { "redirect": "glory" },
+	"heroism": { "redirect": "glory" },
+	"honor": { "redirect": "glory" },
 	"hubris": {
 		"name": "Hubris",
 		"sources": [],
@@ -1280,7 +1280,7 @@
 			"This subdomain is associated with both the {domain/Glory} and {domain/Nobility} domains."
 		]
 	},
-	"legend": { "copyof": "glory" },
+	"legend": { "redirect": "glory" },
 	"good": {
 		"name": "Good",
 		"sources": [
@@ -1368,7 +1368,7 @@
 			"**Replacement Domain Spells:** 2nd-{spell/qualm}, 4th-{spell/forced repentance}, 5th-{spell/atonement}"
 		]
 	},
-	"agathion": { "copyof": "good" },
+	"agathion": { "redirect": "good" },
 	"archon": {
 		"name": "Archon",
 		"sources": [],
@@ -1378,8 +1378,8 @@
 			"This subdomain is associated with both the {domain/Good} and {domain/Law} domains."
 		]
 	},
-	"friendship": { "copyof": "good" },
-	"redemption": { "copyof": "good" },
+	"friendship": { "redirect": "good" },
+	"redemption": { "redirect": "good" },
 	"healing": {
 		"name": "Healing",
 		"sources": [
@@ -1457,9 +1457,9 @@
 			"This replaces the rebuke death domain power of the Healing domain."
 		]
 	},
-	"medicine": { "copyof": "healing" },
-	"restoration": { "copyof": "healing" },
-	"resurrection": { "copyof": "healing" },
+	"medicine": { "redirect": "healing" },
+	"restoration": { "redirect": "healing" },
+	"resurrection": { "redirect": "healing" },
 	"knowledge": {
 		"name": "Knowledge",
 		"sources": [
@@ -1546,7 +1546,7 @@
 			"**Replacement Domain Spells:** 3rd-{spell/seek thoughts}, 5th-{spell/telepathic bond}, 8th-{spell/mind blank}."
 		]
 	},
-	"aeon": { "copyof": "knowledge" },
+	"aeon": { "redirect": "knowledge" },
 	"espionage": {
 		"name": "Espionage",
 		"sources": [],
@@ -1556,6 +1556,6 @@
 			"This subdomain is associated with both the {domain/Knowledge} and {domain/Trickery} domains."
 		]
 	},
-	"memory": { "copyof": "knowledge" },
-	"thought": { "copyof": "knowledge" }
+	"memory": { "redirect": "knowledge" },
+	"thought": { "redirect": "knowledge" }
 }

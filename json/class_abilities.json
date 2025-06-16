@@ -153,7 +153,7 @@
 		},
 		"topLink": [ "Rogue", "class/rogue" ]
 	},
-	"advanced_rogue_talent": { "copyof": "advanced_rogue_talents" },
+	"advanced_rogue_talent": { "redirect": "advanced_rogue_talents" },
 	"advanced_slayer_talents": {
 		"name": "Advanced Slayer Talents",
 		"sources": [ "Advanced Class Guide" ],
@@ -376,7 +376,7 @@
 		],
 		"topLink": [ "Hunter", "class/hunter" ]
 	},
-	"animal_focus": { "copyof": "animal_foci" },
+	"animal_focus": { "redirect": "animal_foci" },
 	"annointings": {
 		"name": "Annointings",
 		"sources": [ "Arcane Anthology" ],
@@ -435,7 +435,7 @@
 		},
 		"topLink": [ "Wizard", "class/wizard" ]
 	},
-	"arcane_discovery": { "copyof": "arcane_discoveries" },
+	"arcane_discovery": { "redirect": "arcane_discoveries" },
 	"arcane_schools": {
 		"name": "Arcane Schools",
 		"sources": [
@@ -1309,5 +1309,5 @@
 		},
 		"topLink": [ "Alchemist", "class/alchemist" ]
 	},
-	"discovery": { "copyof": "discoveries" }
+	"discovery": { "redirect": "discoveries" }
 }

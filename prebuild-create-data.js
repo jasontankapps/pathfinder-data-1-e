@@ -683,15 +683,15 @@ const compile = (compileFrom, prefix, temporaryFlags, openTag, closeTag) => {
 			const pool = [];
 			if(typeof limit === "string") {
 				Object.values(found).forEach(v => {
-					v.category === limit && pool.push(v);
+					v.category === limit && !v.redirect && pool.push(v);
 				});
 			} else if(limit.uncategorized) {
 				Object.values(found).forEach(v => {
-					v.category === undefined && !v.copyof && pool.push(v);
+					v.category === undefined && !v.redirect && !v.copyof && pool.push(v);
 				});
 			} else if (limit.omit) {
 				Object.entries(found).forEach(([prop, v]) => {
-					(limit.omit.indexOf(prop) === -1) && pool.push(v);
+					(limit.omit.indexOf(prop) === -1) && !v.redirect && !v.copyof && pool.push(v);
 				});
 			} else if (limit.only) {
 				pool.push(...limit.only.map(prop => found[prop]));
@@ -925,6 +925,7 @@ Object.entries(all_usable_groups).forEach((pairing, groupindex) => {
 	const final = [];
 	const baselink = num ? `${link}${num}` : link;
 	const copies = [];
+	const redirections = [];
 	const copyRecord = {};
 	const groupFlags = {};
 	const template = templates_by_link[link] || templates_by_link._basic;
@@ -945,7 +946,7 @@ Object.entries(all_usable_groups).forEach((pairing, groupindex) => {
 			name: n, title: t, description: d, copyof,
 			sources, tables, topLink, parent_topics,
 			subtopics, siblings, noFinder, className,
-			nameSuffix, compilationSources,
+			nameSuffix, compilationSources, redirect,
 			compileFrom, addenda, disambiguation
 		} = base;
 		// Convert entities in tables
@@ -974,7 +975,7 @@ Object.entries(all_usable_groups).forEach((pairing, groupindex) => {
 			case "main":
 				info.title = t;
 				groupFlags.list = true;
-				if (compileFrom && !copyof) {
+				if (compileFrom && !copyof && !redirect) {
 					temporaryFlags.mainCompilation = true;
 					converted = compile(compileFrom, `${link}-${prop}-`, temporaryFlags, "IonList lines=\"full\"", "IonList");
 					const newSources = [...info.sources, ...converted.shift()];
@@ -986,7 +987,7 @@ Object.entries(all_usable_groups).forEach((pairing, groupindex) => {
 						x = source;
 						return true;
 					});
-				} else if (!copyof) {
+				} else if (!copyof && !redirect) {
 					converted = convertDescription(temporaryFlags, d, `${link}-${prop}-`, tables, "IonList lines=\"full\"", "IonList");
 				}
 				break;
@@ -1013,7 +1014,7 @@ Object.entries(all_usable_groups).forEach((pairing, groupindex) => {
 			default:
 				info.title = n;
 				info.topLink = topLink;
-				if(!copyof) {
+				if(!copyof && !redirect) {
 					if(d) {
 						converted = convertDescription(temporaryFlags, d, `${link}-${prop}-`, tables);
 					} else if (compileFrom) {
@@ -1040,6 +1041,8 @@ Object.entries(all_usable_groups).forEach((pairing, groupindex) => {
 		Object.keys(newflags).forEach((flag) => {groupFlags[flag] = true});
 		if(copyof) {
 			copies.push([prop, copyof, {...info}]);
+		} else if (redirect) {
+			redirections.push([prop, redirect]);
 		} else {
 			copyRecord[prop] = true;
 			final.push([prop, createItem(info, prop)]);
@@ -1067,8 +1070,15 @@ Object.entries(all_usable_groups).forEach((pairing, groupindex) => {
 		});
 		remaining = missing;
 	} while ((remaining.length > 0) && somethingChanged);
-	remaining.forEach(([prop, copyof]) => {
-		logError(`MISSING "${copyof}" property in ${prop}.copyof`);
+	redirections.forEach(([prop, redirect]) => {
+		if(copyRecord[redirect]) {
+			$.redirects[`${link}/${prop}`] = `${link}/${redirect}`;
+		} else {
+			remaining.push([prop, redirect, false]);
+		}
+	});
+	remaining.forEach(([prop, copyof, flag]) => {
+		logError(`MISSING "${copyof}" property in ${prop}.${flag ? "copyof" : "redirect"}`);
 	});
 	const imports = [];
 	const ionic = [];
@@ -1106,6 +1116,7 @@ Object.entries(all_usable_groups).forEach((pairing, groupindex) => {
 
 	if(testfile === theOutput) {
 		//console.log(`UNCHANGED: ${filename} (${groupindex + 1} of ${number_of_groups})`);
+		//return;
 		const x = groupindex + 1;
 		if(Math.floor(x/25) === (x/25)) {
 			console.log(`... (passing ${x} of ${number_of_groups})`);

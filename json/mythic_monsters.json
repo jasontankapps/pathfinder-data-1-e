@@ -140,7 +140,7 @@
 			"Anunnaki prefer to interact with most humanoids without being recognized for what they are, and an anunnaki may depart a conversation abruptly if a non-anunnaki reveals that she knows it is not the god or mortal it pretends to be."
 		]
 	},
-	"anunnaki": { "copyof": "anunnaki_mythic" },
+	"anunnaki": { "redirect": "anunnaki_mythic" },
 	"apkallu_mythic": {
 		"name": "Apkallu",
 		"sources": [ "Bestiary 5" ],
@@ -231,7 +231,7 @@
 			"[^M]: mythic spell"
 		]
 	},
-	"apkallu": { "copyof": "apkallu_mythic" },
+	"apkallu": { "redirect": "apkallu_mythic" },
 	"apocalypse_locust_mythic": {
 		"name": "Apocalypse Locust",
 		"sources": [ "Bestiary 4" ],
@@ -290,7 +290,7 @@
 			"Apocalypse locusts are damned humans twisted and fused into the form of massive, fiendish insects. They delight in torturing living creatures, drawing out the torment for as long as possible. Though these creatures have average intelligence, they are consumed by hatred and eternal pain, and therefore lack any kind of empathy or sanity. Apocalypse locusts particularly enjoy watching holy warriors suffer their hallucinatory stings."
 		]
 	},
-	"apocalypse_locust": { "copyof": "apocalypse_locust_mythic" },
+	"apocalypse_locust": { "redirect": "apocalypse_locust_mythic" },
 	"argus_mythic": {
 		"name": "Argus",
 		"sources": [ "Bestiary 4" ],
@@ -360,7 +360,7 @@
 			"[^I]: This creature may expend one mythic power to treat its initiative roll as a natural 20, per Mythic Improved Initiative."
 		]
 	},
-	"argus": { "copyof": "argus_mythic" },
+	"argus": { "redirect": "argus_mythic" },
 	"champion_of_the_gilded_host_mythic": {
 		"name": "Champion of the Gilded Host",
 		"sources": [ "Lost Treasures" ],
@@ -440,7 +440,7 @@
 			"**Requirements** {feat/Craft Construct}, {feat/Mythic Crafter}, {spell/antimagic field}, *good hope*, {spell/remove fear}, *vengeful outrage*, {spell/wish}, creator must be at least mythic rank or tier 6th"
 		]
 	},
-	"champion_of_the_gilded_host": { "copyof": "champion_of_the_gilded_host_mythic" },
+	"champion_of_the_gilded_host": { "redirect": "champion_of_the_gilded_host_mythic" },
 	"chaneque_mythic": {
 		"name": "Chaneque",
 		"sources": [ "Bestiary 4" ],
@@ -503,7 +503,7 @@
 			"A typical chaneque stands about 3 feet tall, with blackish-red, rubbery flesh. It has long, filthy claws it uses to cling to trees. Between the creature's legs and arms hang wide, webbed flaps it uses for gliding. A chaneque also has long, ridged, bat-like ears and needle-like teeth."
 		]
 	},
-	"chaneque": { "copyof": "chaneque_mythic" },
+	"chaneque": { "redirect": "chaneque_mythic" },
 	"cockatrice_mythic": {
 		"name": "Cockatrice",
 		"sources": [ "Mythic Adventures" ],
@@ -624,10 +624,10 @@
 			"**Requirements** {feat/Craft Construct}, {feat/Mythic Crafter}, 6th mythic tier, {spell/animate dead}, {spell/antimagic field}, {spell/gentle repose}, {spell/limited wish}; Skill Heal DC 25; **Cost** 70,000 gp"
 		]
 	},
-	"colossus_flesh_colossus": { "copyof": "colossus_flesh_colossus_mythic" },
-	"colossus_flesh": { "copyof": "colossus_flesh_colossus_mythic" },
-	"flesh_colossus_mythic": { "copyof": "colossus_flesh_colossus_mythic" },
-	"flesh_colossus": { "copyof": "colossus_flesh_colossus_mythic" },
+	"colossus_flesh_colossus": { "redirect": "colossus_flesh_colossus_mythic" },
+	"colossus_flesh": { "redirect": "colossus_flesh_colossus_mythic" },
+	"flesh_colossus_mythic": { "redirect": "colossus_flesh_colossus_mythic" },
+	"flesh_colossus": { "redirect": "colossus_flesh_colossus_mythic" },
 	"colossus_iron_colossus_mythic": {
 		"name": "Iron Colossus",
 		"sources": [ "Bestiary 4" ],
@@ -704,10 +704,10 @@
 			"**Requirements** {feat/Craft Construct}, {feat/Mythic Crafter}, mythic tier or rank 8, {spell/antimagic field}, {spell/cloudkill}, {spell/meteor swarm}, {spell/rusting grasp}, {spell/wall of iron}, {spell/wish}; Skill Craft (blacksmithing) DC 30; **Cost** 300,000 gp"
 		]
 	},
-	"colossus_iron_colossus": { "copyof": "colossus_iron_colossus_mythic" },
-	"colossus_iron": { "copyof": "colossus_iron_colossus_mythic" },
-	"iron_colossus_mythic": { "copyof": "colossus_iron_colossus_mythic" },
-	"iron_colossus": { "copyof": "colossus_iron_colossus_mythic" },
+	"colossus_iron_colossus": { "redirect": "colossus_iron_colossus_mythic" },
+	"colossus_iron": { "redirect": "colossus_iron_colossus_mythic" },
+	"iron_colossus_mythic": { "redirect": "colossus_iron_colossus_mythic" },
+	"iron_colossus": { "redirect": "colossus_iron_colossus_mythic" },
 	"colossus_sphinx_colossus_mythic": {
 		"name": "Sphinx Colossus",
 		"sources": [
@@ -781,10 +781,10 @@
 			"**Requirements** {feat/Craft Construct}, {feat/Mythic Crafter}, {feat/Quicken Spell}, 4th mythic rank or tier, {spell/antimagic field}, {spell/limited wish}, *moment of prescience*, *true strike*; Skill Craft (stonemasonry) DC 25; **Cost** 62,500 gp"
 		]
 	},
-	"colossus_sphinx_colossus": { "copyof": "colossus_sphinx_colossus_mythic" },
-	"colossus_sphinx": { "copyof": "colossus_sphinx_colossus_mythic" },
-	"sphinx_colossus_mythic": { "copyof": "colossus_sphinx_colossus_mythic" },
-	"sphinx_colossus": { "copyof": "colossus_sphinx_colossus_mythic" },
+	"colossus_sphinx_colossus": { "redirect": "colossus_sphinx_colossus_mythic" },
+	"colossus_sphinx": { "redirect": "colossus_sphinx_colossus_mythic" },
+	"sphinx_colossus_mythic": { "redirect": "colossus_sphinx_colossus_mythic" },
+	"sphinx_colossus": { "redirect": "colossus_sphinx_colossus_mythic" },
 	"colossus_stone_colossus_mythic": {
 		"name": "Stone Colossus",
 		"sources": [ "Bestiary 4" ],
@@ -861,10 +861,10 @@
 			"[^I]: This creature may expend one mythic power to treat its initiative roll as a natural 20, per Mythic Improved Initiative."
 		]
 	},
-	"colossus_stone_colossus": { "copyof": "colossus_stone_colossus_mythic" },
-	"colossus_stone": { "copyof": "colossus_stone_colossus_mythic" },
-	"stone_colossus_mythic": { "copyof": "colossus_stone_colossus_mythic" },
-	"stone_colossus": { "copyof": "colossus_stone_colossus_mythic" },
+	"colossus_stone_colossus": { "redirect": "colossus_stone_colossus_mythic" },
+	"colossus_stone": { "redirect": "colossus_stone_colossus_mythic" },
+	"stone_colossus_mythic": { "redirect": "colossus_stone_colossus_mythic" },
+	"stone_colossus": { "redirect": "colossus_stone_colossus_mythic" },
 	"colossus_wood_colossus_mythic": {
 		"name": "Wood Colossus",
 		"sources": [ "Bestiary 5" ],
@@ -932,10 +932,10 @@
 			"[^I]: This creature may expend one mythic power to treat its initiative roll as a natural 20, per Mythic Improved Initiative."
 		]
 	},
-	"colossus_wood_colossus": { "copyof": "colossus_wood_colossus_mythic" },
-	"colossus_wood": { "copyof": "colossus_wood_colossus_mythic" },
-	"wood_colossus_mythic": { "copyof": "colossus_wood_colossus_mythic" },
-	"wood_colossus": { "copyof": "colossus_wood_colossus_mythic" },
+	"colossus_wood_colossus": { "redirect": "colossus_wood_colossus_mythic" },
+	"colossus_wood": { "redirect": "colossus_wood_colossus_mythic" },
+	"wood_colossus_mythic": { "redirect": "colossus_wood_colossus_mythic" },
+	"wood_colossus": { "redirect": "colossus_wood_colossus_mythic" },
 	"cyclops_great_cyclops_mythic": {
 		"name": "Great Cyclops",
 		"sources": [ "Mythic Adventures" ],
@@ -995,7 +995,7 @@
 			"Mythic great cyclopes are the first and oldest of their kind to succumb to visions of rage and destruction. Said to be the lost offspring of gods of lightning and the forge, they wield power over earth and energy, using it to blast open humanoid defenses so they can pluck out the tasty morsels within."
 		]
 	},
-	"great_cyclops_mythic": { "copyof": "cyclops_great_cyclops_mythic" },
+	"great_cyclops_mythic": { "redirect": "cyclops_great_cyclops_mythic" },
 	"demon_marilith_mythic": {
 		"name": "Marilith (Demon)",
 		"sources": [ "Mythic Adventures" ],
@@ -1057,7 +1057,7 @@
 			"A mythic marilith is a queen of chaos and evil, controlling a large territory in the Abyss and commanding a legion of demons."
 		]
 	},
-	"marilith_mythic": { "copyof": "demon_marilith_mythic" },
+	"marilith_mythic": { "redirect": "demon_marilith_mythic" },
 	"demon_nalfeshnee_mythic": {
 		"name": "Nalfeshnee (Demon)",
 		"sources": [ "Mythic Adventures" ],
@@ -1120,7 +1120,7 @@
 			"[^I]: This creature may expend one mythic power to treat its initiative roll as a natural 20, per Mythic Improved Initiative."
 		]
 	},
-	"nalfeshnee_mythic": { "copyof": "demon_nalfeshnee_mythic" },
+	"nalfeshnee_mythic": { "redirect": "demon_nalfeshnee_mythic" },
 	"demon_vrock_mythic": {
 		"name": "Vrock (Demon)",
 		"sources": [ "Mythic Adventures" ],
@@ -1178,7 +1178,7 @@
 			"A mythic vrock is a violent creature of unrestrained rage that takes out its anger on anything weaker than itself."
 		]
 	},
-	"vrock_mythic": { "copyof": "demon_vrock_mythic" },
+	"vrock_mythic": { "redirect": "demon_vrock_mythic" },
 	"devastator_mythic": {
 		"name": "Devastator",
 		"sources": [
@@ -1243,7 +1243,7 @@
 			"In an unholy act of twisted, demonic humor, devastators derive their power from the souls of good outsiders."
 		]
 	},
-	"devastator": { "copyof": "devastator_mythic" },
+	"devastator": { "redirect": "devastator_mythic" },
 	"devil_bone_devil_mythic": {
 		"name": "Bone Devil (Devil)",
 		"sources": [ "Mythic Adventures" ],
@@ -1306,8 +1306,8 @@
 			"[^I]: This creature may expend one mythic power to treat its initiative roll as a natural 20, per Mythic Improved Initiative."
 		]
 	},
-	"devil_bone_devil": { "copyof": "devil_bone_devil_mythic" },
-	"bone_devil_mythic": { "copyof": "devil_bone_devil_mythic" },
+	"devil_bone_devil": { "redirect": "devil_bone_devil_mythic" },
+	"bone_devil_mythic": { "redirect": "devil_bone_devil_mythic" },
 	"devil_ice_devil_mythic": {
 		"name": "Ice Devil (Devil)",
 		"sources": [ "Mythic Adventures" ],
@@ -1373,8 +1373,8 @@
 			"[^I]: This creature may expend one mythic power to treat its initiative roll as a natural 20, per Mythic Improved Initiative."
 		]
 	},
-	"devil_ice_devil": { "copyof": "devil_ice_devil_mythic" },
-	"ice_devil_mythic": { "copyof": "devil_ice_devil_mythic" },
+	"devil_ice_devil": { "redirect": "devil_ice_devil_mythic" },
+	"ice_devil_mythic": { "redirect": "devil_ice_devil_mythic" },
 	"dragon_black_mature_adult_black_dragon_mythic": {
 		"name": "Mature Adult Black Dragon",
 		"sources": [ "Mythic Adventures" ],
@@ -1434,8 +1434,8 @@
 			"[^I]: This creature may expend one mythic power to treat its initiative roll as a natural 20, per Mythic Improved Initiative."
 		]
 	},
-	"dragon_black_mature_adult_black_dragon": { "copyof": "dragon_black_mature_adult_black_dragon_mythic" },
-	"mature_adult_black_dragon_mythic": { "copyof": "dragon_black_mature_adult_black_dragon_mythic" },
+	"dragon_black_mature_adult_black_dragon": { "redirect": "dragon_black_mature_adult_black_dragon_mythic" },
+	"mature_adult_black_dragon_mythic": { "redirect": "dragon_black_mature_adult_black_dragon_mythic" },
 	"dragon_blue_mature_adult_blue_dragon_mythic": {
 		"name": "Mature Adult Blue Dragon",
 		"sources": [ "Mythic Adventures" ],
@@ -1494,8 +1494,8 @@
 			"[^I]: This creature may expend one mythic power to treat its initiative roll as a natural 20, per Mythic Improved Initiative."
 		]
 	},
-	"dragon_blue_mature_adult_blue_dragon": { "copyof": "dragon_blue_mature_adult_blue_dragon_mythic" },
-	"mature_adult_blue_dragon_mythic": { "copyof": "dragon_blue_mature_adult_blue_dragon_mythic" },
+	"dragon_blue_mature_adult_blue_dragon": { "redirect": "dragon_blue_mature_adult_blue_dragon_mythic" },
+	"mature_adult_blue_dragon_mythic": { "redirect": "dragon_blue_mature_adult_blue_dragon_mythic" },
 	"dragon_green_very_old_green_dragon_mythic": {
 		"name": "Very Old Green Dragon",
 		"sources": [ "Mythic Adventures" ],
@@ -1555,8 +1555,8 @@
 			"**Family:** {family/Green Dragon}"
 		]
 	},
-	"dragon_green_very_old_green_dragon": { "copyof": "dragon_green_very_old_green_dragon_mythic" },
-	"very_old_green_dragon_mythic": { "copyof": "dragon_green_very_old_green_dragon_mythic" },
+	"dragon_green_very_old_green_dragon": { "redirect": "dragon_green_very_old_green_dragon_mythic" },
+	"very_old_green_dragon_mythic": { "redirect": "dragon_green_very_old_green_dragon_mythic" },
 	"dragon_red_wyrm_red_dragon_mythic": {
 		"name": "Wyrm Red Dragon",
 		"sources": [ "Mythic Adventures" ],
@@ -1629,9 +1629,9 @@
 			"[^I]: This creature may expend one mythic power to treat its initiative roll as a natural 20, per Mythic Improved Initiative."
 		]
 	},
-	"dragon_red_wyrm_red_dragon": { "copyof": "dragon_red_wyrm_red_dragon_mythic" },
-	"wyrm_red_dragon_mythic": { "copyof": "dragon_red_wyrm_red_dragon_mythic" },
-	"wyrm_red_dragon": { "copyof": "dragon_red_wyrm_red_dragon_mythic" },
+	"dragon_red_wyrm_red_dragon": { "redirect": "dragon_red_wyrm_red_dragon_mythic" },
+	"wyrm_red_dragon_mythic": { "redirect": "dragon_red_wyrm_red_dragon_mythic" },
+	"wyrm_red_dragon": { "redirect": "dragon_red_wyrm_red_dragon_mythic" },
 	"dragon_red_young_red_dragon_mythic": {
 		"name": "Young Red Dragon",
 		"sources": [ "Mythic Adventures" ],
@@ -1694,7 +1694,7 @@
 			"[^I]: This creature may expend one mythic power to treat its initiative roll as a natural 20, per Mythic Improved Initiative."
 		]
 	},
-	"young_red_dragon_mythic": { "copyof": "dragon_red_young_red_dragon_mythic" },
+	"young_red_dragon_mythic": { "redirect": "dragon_red_young_red_dragon_mythic" },
 	"dragon_white_juvenile_white_dragon_mythic": {
 		"name": "Juvenile White Dragon",
 		"sources": [ "Mythic Adventures" ],
@@ -1747,8 +1747,8 @@
 			"**Family:** {family/White Dragon}"
 		]
 	},
-	"dragon_white_juvenile_white_dragon": { "copyof": "dragon_white_juvenile_white_dragon_mythic" },
-	"juvenile_white_dragon_mythic": { "copyof": "dragon_white_juvenile_white_dragon_mythic" },
+	"dragon_white_juvenile_white_dragon": { "redirect": "dragon_white_juvenile_white_dragon_mythic" },
+	"juvenile_white_dragon_mythic": { "redirect": "dragon_white_juvenile_white_dragon_mythic" },
 	"drakainia": {
 		"name": "Drakainia",
 		"sources": [ "Bestiary 4" ],
@@ -1898,7 +1898,7 @@
 			"A mythic elder air elemental is pure fury and strength, capable of throwing wooden splinters through stone walls and tearing creatures apart with fists of solid wind. Its greatest speed is within its empty core, able to suffocate enemies in moments."
 		]
 	},
-	"elder_air_elemental_mythic": { "copyof": "elemental_air_elder_air_elemental_mythic" },
+	"elder_air_elemental_mythic": { "redirect": "elemental_air_elder_air_elemental_mythic" },
 	"elemental_earth_elder_earth_elemental_mythic": {
 		"name": "Elder Earth Elemental",
 		"sources": [ "Mythic Adventures" ],
@@ -1959,7 +1959,7 @@
 			"Infused with the power and wisdom of the deepest, oldest stone, a mythic elder earth elemental is a rocky bulwark against progress and change. They use innate magic and their very bodies to block enemy advances and preserve treasures of the earth."
 		]
 	},
-	"elder_earth_elemental_mythic": { "copyof": "elemental_earth_elder_earth_elemental_mythic" },
+	"elder_earth_elemental_mythic": { "redirect": "elemental_earth_elder_earth_elemental_mythic" },
 	"elemental_fire_elder_fire_elemental_mythic": {
 		"name": "Elder Fire Elemental",
 		"sources": [ "Mythic Adventures" ],
@@ -2021,7 +2021,7 @@
 			"A mythic elder fire elemental is a living fragment of the original fires at the heart of its home plane. Having learned the patience of a slow burn, it lacks both the recklessness of younger fire elementals and the urge to inspire fear in the hearts of flammable mortals. It enjoys using smoke to scatter opponents so it can chase them down and set them alight."
 		]
 	},
-	"elder_fire_elemental_mythic": { "copyof": "elemental_fire_elder_fire_elemental_mythic" },
+	"elder_fire_elemental_mythic": { "redirect": "elemental_fire_elder_fire_elemental_mythic" },
 	"elemental_water_elder_water_elemental_mythic": {
 		"name": "Elder Water Elemental",
 		"sources": [ "Mythic Adventures" ],
@@ -2080,7 +2080,7 @@
 			"A mythic water elemental comes from the unknowable depths of its home plane, predating the current civilizations and gods. A witness to ancient and bizarre acts of life-creation, it is unconcerned about the interests of mortal creatures."
 		]
 	},
-	"elder_water_elemental_mythic": { "copyof": "elemental_water_elder_water_elemental_mythic" },
+	"elder_water_elemental_mythic": { "redirect": "elemental_water_elder_water_elemental_mythic" },
 	"elohim_mythic": {
 		"name": "Elohim",
 		"sources": [ "Bestiary 4" ],
@@ -2140,7 +2140,7 @@
 			"An elohim is a strange being obsessed with creating miniature worlds populated with creatures of its choosing. It creates new permanent demiplanes or alters remote environments in pre-existing planes, seeds them with new life, then eventually abandons them. An elohim might return to its creation decades or centuries later to observe how its progeny have fared, and might allow them to continue or eradicate them completely. Elohim communicate with other beings only rarely, and always in a cryptic fashion."
 		]
 	},
-	"elohim": { "copyof": "elohim_mythic" },
+	"elohim": { "redirect": "elohim_mythic" },
 	"ettin_mythic": {
 		"name": "Ettin",
 		"sources": [ "Mythic Adventures" ],
@@ -2324,8 +2324,8 @@
 			"A mythic fire giant burns like the heart of a volcano. Wielding weapons of flame and ash, it brands enemies with its fury and strength."
 		]
 	},
-	"giant_fire_giant": { "copyof": "giant_fire_giant_mythic" },
-	"fire_giant_mythic": { "copyof": "giant_fire_giant_mythic" },
+	"giant_fire_giant": { "redirect": "giant_fire_giant_mythic" },
+	"fire_giant_mythic": { "redirect": "giant_fire_giant_mythic" },
 	"giant_hill_giant_mythic": {
 		"name": "Hill Giant",
 		"sources": [ "Mythic Adventures" ],
@@ -2382,8 +2382,8 @@
 			"A mythic hill giant is a relic from an earlier age, smarter than its degenerate kin and gifted with magic of stone and earth. Some seek to rule, creating tribes with their non-mythic kin and using smaller beings as serfs. Others prefer lives of solitude, intolerant of all other creatures."
 		]
 	},
-	"hill_giant_mythic": { "copyof": "giant_hill_giant_mythic" },
-	"mythic_hill_giant": { "copyof": "giant_hill_giant_mythic" },
+	"hill_giant_mythic": { "redirect": "giant_hill_giant_mythic" },
+	"mythic_hill_giant": { "redirect": "giant_hill_giant_mythic" },
 	"glaistig_mythic": {
 		"name": "Glaistig",
 		"sources": [ "Bestiary 5" ],
@@ -2461,7 +2461,7 @@
 			"[^I]: This creature may expend one mythic power to treat its initiative roll as a natural 20, per Mythic Improved Initiative."
 		]
 	},
-	"glaistig": { "copyof": "glaistig_mythic" },
+	"glaistig": { "redirect": "glaistig_mythic" },
 	"golem_flesh_golem_mythic": {
 		"name": "Flesh Golem",
 		"sources": [ "Mythic Adventures" ],
@@ -2521,7 +2521,7 @@
 			"A mythic flesh golem retains an unnatural level of electrical energy from the process that created it. This grants it limited intelligence, extra strength, and the ability to shock its opponents."
 		]
 	},
-	"flesh_golem_mythic": { "copyof": "golem_flesh_golem_mythic" },
+	"flesh_golem_mythic": { "redirect": "golem_flesh_golem_mythic" },
 	"graeae_mythic": {
 		"name": "Graeae",
 		"sources": [ "Bestiary 4" ],
@@ -2590,7 +2590,7 @@
 			"All three graeaes must spend a full-round action to take part in this form of cooperative magic. All coven spell-like abilities are CL 9th (or at the highest caster level available to the most powerful graeaes in the coven)."
 		]
 	},
-	"graeae": { "copyof": "graeae_mythic" },
+	"graeae": { "redirect": "graeae_mythic" },
 	"greater_barghest_mythic": {
 		"name": "Greater Barghest",
 		"sources": [ "Mythic Adventures" ],
@@ -2709,7 +2709,7 @@
 			"This reaver of the cold marsh is not just a monster; he is a force of nature. Where there is peace and prosperity in the world, Grendel strikes, eager to prove that tranquility is transitory and death is the only constant. Grendel stalks the edge of his fens looking for quiet settlements. Under cover of night, he strikes, murdering the strong in their beds and chasing the terrified with demonic glee. He then takes the prize of his carnage deep into his fen where his lust for blood is grotesquely sated."
 		]
 	},
-	"grendel": { "copyof": "grendel_mythic" },
+	"grendel": { "redirect": "grendel_mythic" },
 	"griffon_mythic": {
 		"name": "Griffon",
 		"sources": [ "Mythic Adventures" ],
@@ -2833,5 +2833,5 @@
 			"[^I]: This creature may expend one mythic power to treat its initiative roll as a natural 20, per Mythic Improved Initiative."
 		]
 	},
-	"grogrisant": { "copyof": "grogrisant_mythic" }
+	"grogrisant": { "redirect": "grogrisant_mythic" }
 }

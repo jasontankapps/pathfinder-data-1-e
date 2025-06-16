@@ -316,8 +316,8 @@
 			"Swans are large and aggressive waterfowl. The average adult trumpeter swan is 5 feet long and weighs around 25 pounds."
 		]
 	},
-	"swan_trumpeter": { "copyof": "swan_trumpeter_swan" },
-	"trumpeter_swan": { "copyof": "swan_trumpeter_swan" },
+	"swan_trumpeter": { "redirect": "swan_trumpeter_swan" },
+	"trumpeter_swan": { "redirect": "swan_trumpeter_swan" },
 	"switchback_jackal": {
 		"name": "Switchback Jackal",
 		"sources": [ "Pathfinder #115: Trail of the Hunted" ],
@@ -613,8 +613,8 @@
 			"**Family:** {family/Troop}"
 		]
 	},
-	"barrier_breaker_troop": { "copyof": "troop_barrier_breaker_troop" },
-	"troop_barrier_breaker": { "copyof": "troop_barrier_breaker_troop" },
+	"barrier_breaker_troop": { "redirect": "troop_barrier_breaker_troop" },
+	"troop_barrier_breaker": { "redirect": "troop_barrier_breaker_troop" },
 	"troop_cultist_troop": {
 		"name": "Cultist Troop",
 		"sources": [ "Bestiary 6" ],
@@ -678,8 +678,8 @@
 			"**Family:** {family/Troop}"
 		]
 	},
-	"cultist_troop": { "copyof": "troop_cultist_troop" },
-	"troop_cultist": { "copyof": "troop_cultist_troop" },
+	"cultist_troop": { "redirect": "troop_cultist_troop" },
+	"troop_cultist": { "redirect": "troop_cultist_troop" },
 	"troop_goblin_troop": {
 		"name": "Goblin Troop",
 		"sources": [ "Bestiary 6" ],
@@ -732,8 +732,8 @@
 			"**Family:** {family/Troop}"
 		]
 	},
-	"goblin_troop": { "copyof": "troop_goblin_troop" },
-	"troop_goblin": { "copyof": "troop_goblin_troop" },
+	"goblin_troop": { "redirect": "troop_goblin_troop" },
+	"troop_goblin": { "redirect": "troop_goblin_troop" },
 	"troop_outlaw_troop": {
 		"name": "Outlaw Troop",
 		"sources": [ "Bestiary 6" ],
@@ -786,8 +786,8 @@
 			"**Family:** {family/Troop}"
 		]
 	},
-	"outlaw_troop": { "copyof": "troop_outlaw_troop" },
-	"troop_outlaw": { "copyof": "troop_outlaw_troop" },
+	"outlaw_troop": { "redirect": "troop_outlaw_troop" },
+	"troop_outlaw": { "redirect": "troop_outlaw_troop" },
 	"troop_sodden_drauger_troop": {
 		"name": "Sodden Drauger Troop",
 		"sources": [
@@ -853,8 +853,8 @@
 			"**Family:** {family/Troop}"
 		]
 	},
-	"sodden_drauger_troop": { "copyof": "troop_sodden_drauger_troop" },
-	"troop_sodden_drauger": { "copyof": "troop_sodden_drauger_troop" },
+	"sodden_drauger_troop": { "redirect": "troop_sodden_drauger_troop" },
+	"troop_sodden_drauger": { "redirect": "troop_sodden_drauger_troop" },
 	"troops_dottari_troop": {
 		"name": "Dottari Troop",
 		"sources": [ "Pathfinder #100: A Song of Silver" ],
@@ -904,8 +904,8 @@
 			"**Family:** {family/Troops}"
 		]
 	},
-	"dottari_troop": { "copyof": "troops_dottari_troop" },
-	"troop_dottari": { "copyof": "troops_dottari_troop" },
+	"dottari_troop": { "redirect": "troops_dottari_troop" },
+	"troop_dottari": { "redirect": "troops_dottari_troop" },
 	"troops_glorious_reclamation": {
 		"name": "Glorious Reclamation (Troops)",
 		"sources": [
@@ -993,7 +993,7 @@
 			"**Family:** {family/Troops}"
 		]
 	},
-	"glorious_reclamation": { "copyof": "troops_glorious_reclamation" },
+	"glorious_reclamation": { "redirect": "troops_glorious_reclamation" },
 	"troops_hobgoblin_phalanx_troop": {
 		"name": "Hobgoblin Phalanx Troop",
 		"sources": [
@@ -1051,8 +1051,8 @@
 			"**Family:** {family/Troops}"
 		]
 	},
-	"hobgoblin_phalanx_troop": { "copyof": "troops_hobgoblin_phalanx_troop" },
-	"troop_hobgoblin_phalanx": { "copyof": "troops_hobgoblin_phalanx_troop" },
+	"hobgoblin_phalanx_troop": { "redirect": "troops_hobgoblin_phalanx_troop" },
+	"troop_hobgoblin_phalanx": { "redirect": "troops_hobgoblin_phalanx_troop" },
 	"troops_hound_archon_troop": {
 		"name": "Hound Archon Troop",
 		"sources": [
@@ -1107,8 +1107,8 @@
 			"**Family:** {family/Troops}"
 		]
 	},
-	"hound_archon_troop": { "copyof": "troops_hound_archon_troop" },
-	"troop_hound_archon": { "copyof": "troops_hound_archon_troop" },
+	"hound_archon_troop": { "redirect": "troops_hound_archon_troop" },
+	"troop_hound_archon": { "redirect": "troops_hound_archon_troop" },
 	"troops_inquisitor_troop": {
 		"name": "Inquisitor Troop",
 		"sources": [ "Pathfinder #100: A Song of Silver" ],
@@ -1161,8 +1161,8 @@
 			"**Family:** {family/Troops}"
 		]
 	},
-	"inquisitor_troop": { "copyof": "troops_inquisitor_troop" },
-	"troop_inquisitor": { "copyof": "troops_inquisitor_troop" },
+	"inquisitor_troop": { "redirect": "troops_inquisitor_troop" },
+	"troop_inquisitor": { "redirect": "troops_inquisitor_troop" },
 	"troops_ironfang_magehunter_troop": {
 		"name": "Ironfang Magehunter Troop",
 		"sources": [
@@ -1224,8 +1224,8 @@
 			"**Family:** {family/Troops}"
 		]
 	},
-	"ironfang_magehunter_troop": { "copyof": "troops_ironfang_magehunter_troop" },
-	"troop_ironfang_magehunter": { "copyof": "troops_ironfang_magehunter_troop" },
+	"ironfang_magehunter_troop": { "redirect": "troops_ironfang_magehunter_troop" },
+	"troop_ironfang_magehunter": { "redirect": "troops_ironfang_magehunter_troop" },
 	"troops_ironfang_siege_alchemist_troop": {
 		"name": "Ironfang Siege Alchemist Troop",
 		"sources": [
@@ -1286,8 +1286,8 @@
 			"**Family:** {family/Troops}"
 		]
 	},
-	"ironfang_siege_alchemist_troop": { "copyof": "troops_ironfang_siege_alchemist_troop" },
-	"troop_ironfang_siege_alchemist": { "copyof": "troops_ironfang_siege_alchemist_troop" },
+	"ironfang_siege_alchemist_troop": { "redirect": "troops_ironfang_siege_alchemist_troop" },
+	"troop_ironfang_siege_alchemist": { "redirect": "troops_ironfang_siege_alchemist_troop" },
 	"troops_ironfang_yzobu_rider_troop": {
 		"name": "Ironfang Yzobu Rider Troop",
 		"sources": [
@@ -1350,8 +1350,8 @@
 			"**Family:** {family/Troops}"
 		]
 	},
-	"ironfang_yzobu_rider_troop": { "copyof": "troops_ironfang_yzobu_rider_troop" },
-	"troop_ironfang_yzobu_rider": { "copyof": "troops_ironfang_yzobu_rider_troop" },
+	"ironfang_yzobu_rider_troop": { "redirect": "troops_ironfang_yzobu_rider_troop" },
+	"troop_ironfang_yzobu_rider": { "redirect": "troops_ironfang_yzobu_rider_troop" },
 	"troops_morlock_swarmer_troop": {
 		"name": "Morlock Swarmer Troop",
 		"sources": [
@@ -1411,8 +1411,8 @@
 			"**Family:** {family/Troops}"
 		]
 	},
-	"morlock_swarmer_troop": { "copyof": "troops_morlock_swarmer_troop" },
-	"troop_morlock_swarmer": { "copyof": "troops_morlock_swarmer_troop" },
+	"morlock_swarmer_troop": { "redirect": "troops_morlock_swarmer_troop" },
+	"troop_morlock_swarmer": { "redirect": "troops_morlock_swarmer_troop" },
 	"troops_warmaze_disciples_troop": {
 		"name": "Warmaze Disciples Troop",
 		"sources": [
@@ -1472,8 +1472,8 @@
 			"**Family:** {family/Troops}"
 		]
 	},
-	"warmaze_disciples_troop": { "copyof": "troops_warmaze_disciples_troop" },
-	"troop_warmaze_disciples": { "copyof": "troops_warmaze_disciples_troop" },
+	"warmaze_disciples_troop": { "redirect": "troops_warmaze_disciples_troop" },
+	"troop_warmaze_disciples": { "redirect": "troops_warmaze_disciples_troop" },
 	"trox": {
 		"name": "Trox",
 		"sources": [ "Bestiary 4" ],
@@ -1926,8 +1926,8 @@
 			"Giant snapping turtles typically grow to diameters of about 35 feet and weigh 20,000 pounds."
 		]
 	},
-	"turtle_giant_snapping": { "copyof": "turtle_giant_snapping_turtle" },
-	"giant_snapping_turtle": { "copyof": "turtle_giant_snapping_turtle" },
+	"turtle_giant_snapping": { "redirect": "turtle_giant_snapping_turtle" },
+	"giant_snapping_turtle": { "redirect": "turtle_giant_snapping_turtle" },
 	"turtle_snapping_turtle": {
 		"name": "Snapping Turtle",
 		"sources": [ "Bestiary 2" ],
@@ -1976,8 +1976,8 @@
 			"Snapping turtles are water-dwelling reptiles known for their propensity to bite anyone they deem threatening. Adult snapping turtles are usually about 1-1/2 feet in diameter. A spellcaster who can acquire a familiar can choose a snapping turtle as a familiar. A snapping turtle familiar grants its master a +2 bonus on all Fortitude saves."
 		]
 	},
-	"turtle_snapping": { "copyof": "turtle_snapping_turtle" },
-	"snapping_turtle": { "copyof": "turtle_snapping_turtle" },
+	"turtle_snapping": { "redirect": "turtle_snapping_turtle" },
+	"snapping_turtle": { "redirect": "turtle_snapping_turtle" },
 	"turul": {
 		"name": "Turul",
 		"sources": [ "Bestiary 5" ],
@@ -2372,7 +2372,7 @@
 			"Ubashki were prized for being stealthy, agile, and preternaturally perceptive sentries that made for effective spies and watch guards for the tombs of Osirian god-kings. Emperors often filled their crypts with the bodies of strangled and mutilated cats before they themselves were entombed, believing that a feline's suffering in life would translate to strength in undeath. Whether or not such theories were true is up for debate, but those felid creatures that did rise from death with their masters were indeed beasts to be reckoned with, and a sizeable pack of the mummified things could very well spell the end for would-be tomb raiders. Ranging from tiny housecats to desert-roaming mountain lions, the feline enshrined with a deceased pharaoh varied in type depending on the predilections of its master, but all were known to be significantly more powerful than their living iterations."
 		]
 	},
-	"ubashki_lynx": { "copyof": "ubashki_ubashki_lynx" },
+	"ubashki_lynx": { "redirect": "ubashki_ubashki_lynx" },
 	"ubashki_ubashki_swarm": {
 		"name": "Ubashki Swarm",
 		"sources": [ "Lost Kingdoms" ],
@@ -2424,7 +2424,7 @@
 			"Ubashki were prized for being stealthy, agile, and preternaturally perceptive sentries that made for effective spies and watch guards for the tombs of Osirian god-kings. Emperors often filled their crypts with the bodies of strangled and mutilated cats before they themselves were entombed, believing that a feline's suffering in life would translate to strength in undeath. Whether or not such theories were true is up for debate, but those felid creatures that did rise from death with their masters were indeed beasts to be reckoned with, and a sizeable pack of the mummified things could very well spell the end for would-be tomb raiders. Ranging from tiny housecats to desert-roaming mountain lions, the feline enshrined with a deceased pharaoh varied in type depending on the predilections of its master, but all were known to be significantly more powerful than their living iterations."
 		]
 	},
-	"ubashki_swarm": { "copyof": "ubashki_ubashki_swarm" },
+	"ubashki_swarm": { "redirect": "ubashki_ubashki_swarm" },
 	"ugash_iram": {
 		"name": "Ugash-Iram",
 		"sources": [ "Pathfinder #60: From Hell's Heart" ],
@@ -2791,7 +2791,7 @@
 			"While most draugr captains were the masters of their ships in life, exceptions have been known to exist, particularly among lowly crew drudges who derived the most power from their transition to undeath. Such gifted individuals are usually seen by their fellow undead crew members as the rightful captains of the ghost ships they have come to command."
 		]
 	},
-	"draugr_captain": { "copyof": "undead_pirate_draugr_captain" },
+	"draugr_captain": { "redirect": "undead_pirate_draugr_captain" },
 	"undead_pirate_draugr_pirate": {
 		"name": "Draugr Pirate (Undead Pirate)",
 		"sources": [ "Isles of the Shackles" ],
@@ -2855,7 +2855,7 @@
 			"Many ghost ships take the form of a haunt, usually triggered by a ship sailing at night into an oceanic region hexed by some maritime tragedy or particularly terrible event. The most common effects of these haunts are fear-related, though some of these ocean-bound terror-traps inflict various curses upon victims, such as rotting diseases, premature aging, or permanent physical debilitations. Some haunts are known to place a powerful geas on those ships that run afoul of them, requiring that their crews complete some task before being freed of a dreadful blight. Destruction of these haunts is often extremely difficult, as the bodies of the restless spirits that perpetuate such curses usually lie at the bottom of the sea or have drifted ashore on remote islands. Some sea haunts are tied to a specific date denoting the anniversary of a tragedy near a particular point in the ocean, and thus may not reset for an entire year. Such commemorative haunts tend to be more feared and dangerous to mariners, especially since the bodies or treasures such haunts are anchored to are sometimes dragged by the tides far from where the original event that triggered the haunt occurred."
 		]
 	},
-	"draugr_pirate": { "copyof": "undead_pirate_draugr_pirate" },
+	"draugr_pirate": { "redirect": "undead_pirate_draugr_pirate" },
 	"undead_pirate_ghost_captain": {
 		"name": "Ghost Captain (Undead Pirate)",
 		"sources": [ "Isles of the Shackles" ],
@@ -2901,7 +2901,7 @@
 			"Sometimes, pirate captains' dedication to looting and pillaging drives them to continue such heinous crimes even after death. Such vile leaders inevitably remain at sea, where they command ghost ships crewed by dreadful draugr, who recognize ghost pirates as powerful undead spirits perhaps most capable of captaining crews of undead."
 		]
 	},
-	"ghost_captain": { "copyof": "undead_pirate_ghost_captain" },
+	"ghost_captain": { "redirect": "undead_pirate_ghost_captain" },
 	"undigested": {
 		"name": "Undigested",
 		"sources": [
@@ -3000,7 +3000,7 @@
 			"Whereas individual undigested are more of a nuisance than a threat to adventurers, a swarm of such creatures can be dangerous to even experienced adventurers. An undigested swarm comprises hundreds of individual undigested. Driven by insatiable hunger, they fall upon and consume any living creatures crossing their path, surrounding the unfortunate victims and drenching them in acidic slime, digesting their still-living prey even before the screaming ends."
 		]
 	},
-	"undigested_swarm": { "copyof": "undigested_undigested_swarm" },
+	"undigested_swarm": { "redirect": "undigested_undigested_swarm" },
 	"undine": {
 		"name": "Undine",
 		"sources": [ "Bestiary 2" ],
@@ -3522,7 +3522,7 @@
 			"Urdefhans never forget who created them, and they spend their lives awaiting the day they will be destroyed and returned to Abaddon for an eternity of torment. Their frequent interactions with daemons occasionally spawns reality-warping half-blood children who rise to positions of great power in urdefhan society - if they manage to survive."
 		]
 	},
-	"half_fiend_scion": { "copyof": "urdefhan_half_fiend_scion" },
+	"half_fiend_scion": { "redirect": "urdefhan_half_fiend_scion" },
 	"urdefhan_orvian_necromancer": {
 		"name": "Orvian Necromancer (Urdefhan)",
 		"sources": [ "Inner Sea Monster Codex" ],
@@ -3583,7 +3583,7 @@
 			"In their philosophy on life's futility, urdefhans see being raised as an undead as a suitable punishment for enemies since it wrenches their souls from the sweet oblivion that awaits them beyond and forces their continued suffering on the Material Plane. Necromancers flourish among urdefhans, serving as jailers, mercenaries, and labor contractors."
 		]
 	},
-	"orvian_necromancer": { "copyof": "urdefhan_orvian_necromancer" },
+	"orvian_necromancer": { "redirect": "urdefhan_orvian_necromancer" },
 	"urdefhan_sightless_sea_sailor": {
 		"name": "Sightless Sea Sailor (Urdefhan)",
 		"sources": [ "Inner Sea Monster Codex" ],
@@ -3636,7 +3636,7 @@
 			"Thanks to their years spent on rolling decks and in tight quarters, urdefhan sailors are faster and more dexterous than the landlubber soldiers of their empire, and all the more vicious and desperate in battle for their lack of overwhelming reinforcements. Their vessels, which are freely traded between urdefhans whenever they find port, are floating sanctuaries of disease and torture and are chronically undersupplied. Crew members eat only by claiming the cargo and passengers aboard the enemy ships they raid; conveniently, to the urdefhans, everyone is an enemy. When these stolen supplies run dry, crew members readily devour the flesh of weaker shipmates to continue their grim voyages of theft, conquest, and slaughter."
 		]
 	},
-	"sightless_sea_sailor": { "copyof": "urdefhan_sightless_sea_sailor" },
+	"sightless_sea_sailor": { "redirect": "urdefhan_sightless_sea_sailor" },
 	"urdefhan_skaveling_rider": {
 		"name": "Skaveling Rider (Urdefhan)",
 		"sources": [ "Inner Sea Monster Codex" ],
@@ -3711,7 +3711,7 @@
 			"**Gear** {eq-armor/leather} {eq-armor/barding}, {eq-misc/military saddle}"
 		]
 	},
-	"skaveling_rider": { "copyof": "urdefhan_skaveling_rider" },
+	"skaveling_rider": { "redirect": "urdefhan_skaveling_rider" },
 	"urhag": {
 		"name": "Urhag",
 		"sources": [ "Bestiary 6" ],
@@ -3942,7 +3942,7 @@
 			"**Family:** {family/Vampire Servant}"
 		]
 	},
-	"coffin_guard": { "copyof": "vampire_servant_coffin_guard" },
+	"coffin_guard": { "redirect": "vampire_servant_coffin_guard" },
 	"vampire_servant_weird_butler": {
 		"name": "Weird Butler (Vampire Servant)",
 		"sources": [ "Monster Codex" ],
@@ -3993,7 +3993,7 @@
 			"**Family:** {family/Vampire Servant}"
 		]
 	},
-	"weird_butler": { "copyof": "vampire_servant_weird_butler" },
+	"weird_butler": { "redirect": "vampire_servant_weird_butler" },
 	"vampire_enlightened_vampire": {
 		"name": "Enlightened Vampire",
 		"sources": [ "Monster Codex" ],
@@ -4045,8 +4045,8 @@
 			"[^B]: Bonus feat."
 		]
 	},
-	"enlightened_vampire": { "copyof": "vampire_enlightened_vampire" },
-	"vampire_enlightened": { "copyof": "vampire_enlightened_vampire" },
+	"enlightened_vampire": { "redirect": "vampire_enlightened_vampire" },
+	"vampire_enlightened": { "redirect": "vampire_enlightened_vampire" },
 	"vampire_vampire_lord": {
 		"name": "Vampire Lord",
 		"sources": [ "Monster Codex" ],
@@ -4104,7 +4104,7 @@
 			"A vampire lord is a ruthless, calculating noble or other figure of authority that dominates her political landscape."
 		]
 	},
-	"vampire_lord": { "copyof": "vampire_vampire_lord" },
+	"vampire_lord": { "redirect": "vampire_vampire_lord" },
 	"vampire_vampire_savage": {
 		"name": "Vampire Savage",
 		"sources": [ "Monster Codex" ],
@@ -4164,7 +4164,7 @@
 			"[^B]: Bonus feat."
 		]
 	},
-	"vampire_savage": { "copyof": "vampire_vampire_savage" },
+	"vampire_savage": { "redirect": "vampire_vampire_savage" },
 	"vampire_vampire_seducer": {
 		"name": "Vampire Seducer",
 		"sources": [ "Monster Codex" ],
@@ -4224,7 +4224,7 @@
 			"[^B]: Bonus feat."
 		]
 	},
-	"vampire_seducer": { "copyof": "vampire_vampire_seducer" },
+	"vampire_seducer": { "redirect": "vampire_vampire_seducer" },
 	"vampire_vampire_warrior": {
 		"name": "Vampire Warrior",
 		"sources": [ "Monster Codex" ],
@@ -4288,7 +4288,7 @@
 			"[^B]: Bonus feat."
 		]
 	},
-	"vampire_warrior": { "copyof": "vampire_vampire_warrior" },
+	"vampire_warrior": { "redirect": "vampire_vampire_warrior" },
 	"vampiric_mist": {
 		"name": "Vampiric Mist",
 		"sources": [ "Bestiary 2" ],

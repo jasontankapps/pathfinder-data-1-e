@@ -1710,7 +1710,7 @@
 			"Saving throws and opposed rolls are not affected, nor are spells without random variables. An empowered spell uses up a spell slot two levels higher than the spell's actual level."
 		]
 	},
-	"empowered": { "copyof": "empower_spell" },
+	"empowered": { "redirect": "empower_spell" },
 	"empower_spell_like_ability": {
 		"name": "Empower Spell-Like Ability",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -1866,8 +1866,8 @@
 			"**Benefit:** If you take nonlethal damage, you may attempt a Fortitude saving throw (DC equal to 10 + the nonlethal damage dealt) to reduce that damage by half. The Endurance feat grants a +4 bonus on this saving throw."
 		]
 	},
-	"endure_pain": { "copyof": "endure_pain_zon_kuthons_kiss" },
-	"zon_kuthons_kiss": { "copyof": "endure_pain_zon_kuthons_kiss" },
+	"endure_pain": { "redirect": "endure_pain_zon_kuthons_kiss" },
+	"zon_kuthons_kiss": { "redirect": "endure_pain_zon_kuthons_kiss" },
 	"enduring_might": {
 		"name": "Enduring Might",
 		"sources": [ "Martial Arts Handbook" ],
@@ -2060,7 +2060,7 @@
 			"Spells whose ranges are not defined by distance, as well as spells whose ranges are not close, medium, or long, do not benefit from this feat."
 		]
 	},
-	"enlarged": { "copyof": "enlarge_spell" },
+	"enlarged": { "redirect": "enlarge_spell" },
 	"enlightened_noble": {
 		"name": "Enlightened Noble",
 		"sources": [ "Heroes of the High Court" ],
@@ -3711,7 +3711,7 @@
 			"**Benefit:** An extended spell lasts twice as long as normal. A spell with a duration of concentration, instantaneous, or permanent is not affected by this feat. An extended spell uses up a spell slot one level higher than the spell's actual level."
 		]
 	},
-	"extended": { "copyof": "extend_spell" },
+	"extended": { "redirect": "extend_spell" },
 	"extend_the_bulwark": {
 		"name": "Extend the Bulwark",
 		"sources": [

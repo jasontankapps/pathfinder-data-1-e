@@ -572,7 +572,7 @@
 			"A language-dependent spell uses intelligible language as a medium for communication. If the target cannot understand or hear what the caster of a language-dependent spell says, the spell has no effect, even if the target fails its saving throw."
 		]
 	},
-	"languagedependent": { "copyof": "language_dependent" },
+	"languagedependent": { "redirect": "language_dependent" },
 	"lawful": {
 		"name": "Lawful",
 		"sources": [ "Ultimate Magic" ],
@@ -617,7 +617,7 @@
 			"A mind-affecting spell works only against creatures with an Intelligence score of 1 or higher. Mindless creatures (those with an Intelligence score of ---) and undead are immune to mind-affecting effects."
 		]
 	},
-	"mind_affecting": { "copyof": "mindaffecting" },
+	"mind_affecting": { "redirect": "mindaffecting" },
 	"pain": {
 		"name": "Pain",
 		"sources": [ "Ultimate Magic" ],

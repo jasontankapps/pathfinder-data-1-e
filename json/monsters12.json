@@ -168,8 +168,8 @@
 			"Mephengitan emits a 30-foot-radius aura of frigid cold. Any living creature that begins its turn in this area must succeed at a DC 26 Fortitude save or take 4d6 points of cold damage as its core body temperature plummets and its blood begins to freeze. Creatures that don't need water to live are immune to this effect. Creatures with the water subtype take twice as much as damage."
 		]
 	},
-	"gigas_abaddon": { "copyof": "gigas_abaddon_gigas" },
-	"abaddon_gigas": { "copyof": "gigas_abaddon_gigas" },
+	"gigas_abaddon": { "redirect": "gigas_abaddon_gigas" },
+	"abaddon_gigas": { "redirect": "gigas_abaddon_gigas" },
 	"gigas_abyss_gigas": {
 		"name": "Abyss Gigas",
 		"sources": [
@@ -238,8 +238,8 @@
 			"**Family:** {family/Gigas}"
 		]
 	},
-	"gigas_abyss": { "copyof": "gigas_abyss_gigas" },
-	"abyss_gigas": { "copyof": "gigas_abyss_gigas" },
+	"gigas_abyss": { "redirect": "gigas_abyss_gigas" },
+	"abyss_gigas": { "redirect": "gigas_abyss_gigas" },
 	"gigas_hell_gigas": {
 		"name": "Hell Gigas",
 		"sources": [ "Pathfinder #30: The Twice-Damned Prince" ],
@@ -301,8 +301,8 @@
 			"**Family:** {family/Gigas}"
 		]
 	},
-	"gigas_hell": { "copyof": "gigas_hell_gigas" },
-	"hell_gigas": { "copyof": "gigas_hell_gigas" },
+	"gigas_hell": { "redirect": "gigas_hell_gigas" },
+	"hell_gigas": { "redirect": "gigas_hell_gigas" },
 	"gillman": {
 		"name": "Gillman",
 		"sources": [ "Inner Sea World Guide" ],
@@ -418,7 +418,7 @@
 			"Awakened agents gather data about the surface world and use their influence over other Low Azlanti to complete whatever tasks are doled out by their aboleth masters. Many lead cults, ostensibly leading their people in the worship of \"hidden Azlanti gods\" or \"newly risen ocean spirits,\" their congregations never realize they bow to the very foes who laid their ancient empire low. Some awakened agents teeter on the brink of madness, never fully understanding the purpose behind their own actions. Others carry out their assignments in the belief that everything they do is absolutely necessary for the well-being of their race-sacrificing the world to guarantee their people a role as favored pets. Aboleths frequently trust these skilled servants with strange and advanced magic, such as the mind-warping {magic-wondrous/masters' call} amulets."
 		]
 	},
-	"awakened_agent": { "copyof": "gillman_awakened_agent" },
+	"awakened_agent": { "redirect": "gillman_awakened_agent" },
 	"gillman_ship_scavenger": {
 		"name": "Ship Scavenger (Gillman)",
 		"sources": [ "Inner Sea Monster Codex" ],
@@ -471,7 +471,7 @@
 			"While most ship scavengers content themselves with recovering lost treasures from past accidents or battles, a greedy few cause shipwrecks by moving buoys, extinguishing lighthouses, disseminating false charts, and sabotaging vessels. The worst are little better than pirates, prying ships apart from below the waves or setting them aflame, then slaughtering the crew as they leap into the ocean. Whether they're malign or merely opportunistic, ship scavengers are unlikely to share a wreck's treasures, even - or especially - with its air-breathing former owners."
 		]
 	},
-	"ship_scavenger": { "copyof": "gillman_ship_scavenger" },
+	"ship_scavenger": { "redirect": "gillman_ship_scavenger" },
 	"gillman_squall_seer": {
 		"name": "Squall Seer (Gillman)",
 		"sources": [ "Inner Sea Monster Codex" ],
@@ -528,7 +528,7 @@
 			"Equal parts clergy and sailors, squall seers often amass cultish crews of gillmen and humans with blind faith in their ability to see ships through any storm as they journey across Golarion, whether they're crashing through ice floes in the Steaming Sea, riding the storm-lashed currents of the Eye of Abendego, or challenging beasts from the darkest ocean trenches. More than a few alternate between piracy and pirate-hunting, following whatever impulse seems most exciting; they may be denounced in one city only to be celebrated 50 miles up the coast."
 		]
 	},
-	"squall_seer": { "copyof": "gillman_squall_seer" },
+	"squall_seer": { "redirect": "gillman_squall_seer" },
 	"gillman_wet_house_emissary": {
 		"name": "Wet-House Emissary (Gillman)",
 		"sources": [ "Inner Sea Monster Codex" ],
@@ -585,7 +585,7 @@
 			"With the whole ocean as a resource, emissaries excel at distracting those who would investigate the Low Azlanti too closely with strange new challenges. They possess an almost endless supply of sea-creature venoms, aquatic beasts that boggle description, and secret magic lost below the waves for centuries. With access to all manner of twisting, secluded hideaways, these gillmen can lead the overly curious into undertaking convoluted quests while the Low Azlanti accomplish their real objectives. Victims who survive the emissaries' poisons or monster attacks may look forward to a short, desperate future spent trapped in lightless sea caves unseen by landwalkers' eyes for 10,000 years."
 		]
 	},
-	"wet_house_emissary": { "copyof": "gillman_wet_house_emissary" },
+	"wet_house_emissary": { "redirect": "gillman_wet_house_emissary" },
 	"ginever": {
 		"name": "Ginever",
 		"sources": [ "Taldor, the First Empire" ],
@@ -814,7 +814,7 @@
 			"[^D]: Domain spell"
 		]
 	},
-	"divine_chieftain": { "copyof": "girtablilu_divine_chieftain" },
+	"divine_chieftain": { "redirect": "girtablilu_divine_chieftain" },
 	"girtablilu_dune_strider": {
 		"name": "Dune Strider (Girtablilu)",
 		"sources": [ "Inner Sea Monster Codex" ],
@@ -866,7 +866,7 @@
 			"Quick and sure-footed, dune striders prefer to follow targets from dune tops or ragged bluffs, snipe at them, and then move on before enemies can close in. The dune striders' victims often die before ever noticing the massive hunters' presence, and travelers and adventurers spread stories through Qadira, Osirion, and Thuvia of explorers abandoning their expeditions upon waking to discover that all their guards and porters were silently executed in the night."
 		]
 	},
-	"dune_strider": { "copyof": "girtablilu_dune_strider" },
+	"dune_strider": { "redirect": "girtablilu_dune_strider" },
 	"girtablilu_quick_striker": {
 		"name": "Quick Striker (Girtablilu)",
 		"sources": [ "Inner Sea Monster Codex" ],
@@ -919,7 +919,7 @@
 			"Quick strikers are vital to helping a tribe establish its hold on new territory. Their skills make them good at harassing monsters in newly discovered ruins and disarming any dangers left behind by past masters. Because of their knowledge of alchemy and anatomy, they may also serve as healers, treating injuries as mundane as snakebites as the tribe ekes out an existence in the desert."
 		]
 	},
-	"quick_striker": { "copyof": "girtablilu_quick_striker" },
+	"quick_striker": { "redirect": "girtablilu_quick_striker" },
 	"girtablilu_raging_sting": {
 		"name": "Raging Sting (Girtablilu)",
 		"sources": [ "Inner Sea Monster Codex" ],
@@ -975,7 +975,7 @@
 			"In peacetime, raging stings make up much of a tribe's labor force, working to preserve important sites. Raging stings see themselves as a natural balance to the desert sands, uncovering ancient works, honing age-worn edges, and treading on intruders rather than being trodden upon."
 		]
 	},
-	"raging_sting": { "copyof": "girtablilu_raging_sting" },
+	"raging_sting": { "redirect": "girtablilu_raging_sting" },
 	"gishvit": {
 		"name": "Gishvit",
 		"sources": [ "Pathfinder #127: Crownfall" ],
@@ -1544,7 +1544,7 @@
 			"[^D]: Domain spell"
 		]
 	},
-	"chosen_of_lamashtu": { "copyof": "gnoll_chosen_of_lamashtu" },
+	"chosen_of_lamashtu": { "redirect": "gnoll_chosen_of_lamashtu" },
 	"gnoll_eye_of_lamashtu": {
 		"name": "Eye of Lamashtu (Gnoll)",
 		"sources": [ "Monster Codex" ],
@@ -1597,7 +1597,7 @@
 			"[^D]: Domain spell"
 		]
 	},
-	"eye_of_lamashtu": { "copyof": "gnoll_eye_of_lamashtu" },
+	"eye_of_lamashtu": { "redirect": "gnoll_eye_of_lamashtu" },
 	"gnoll_flind": {
 		"name": "Flind (Gnoll)",
 		"sources": [ "Monster Codex" ],
@@ -1653,7 +1653,7 @@
 			"A flind is roughly 7 feet tall and weighs between 280 and 315 pounds. Flinds have brindled or spotted fur, and are primarily russet in color with patches of black."
 		]
 	},
-	"flind": { "copyof": "gnoll_flind" },
+	"flind": { "redirect": "gnoll_flind" },
 	"gnoll_gnoll_bouda": {
 		"name": "Gnoll Bouda",
 		"sources": [ "Monster Codex" ],
@@ -1712,7 +1712,7 @@
 			"Though she sees after the pack, a bouda is an unknowable and cryptic being even to gnolls who grew up with her, for arcane magic remains largely a mystery to gnolls, and most avoid it. Because a bouda's expertise seems so alien and odd, a witch must prove her toughness before she is accepted as a revered bouda."
 		]
 	},
-	"gnoll_bouda": { "copyof": "gnoll_gnoll_bouda" },
+	"gnoll_bouda": { "redirect": "gnoll_gnoll_bouda" },
 	"gnoll_gnoll_bruiser": {
 		"name": "Gnoll Bruiser",
 		"sources": [ "Monster Codex" ],
@@ -1761,7 +1761,7 @@
 			"These massive gnolls pound enemies into submission."
 		]
 	},
-	"gnoll_bruiser": { "copyof": "gnoll_gnoll_bruiser" },
+	"gnoll_bruiser": { "redirect": "gnoll_gnoll_bruiser" },
 	"gnoll_gnoll_lieutenant": {
 		"name": "Gnoll Lieutenant",
 		"sources": [ "Monster Codex" ],
@@ -1811,7 +1811,7 @@
 			"Gnoll lieutenants use intimidation and the crack of their scorpion whips to push lesser members of the pack into battle and to demoralize their enemies."
 		]
 	},
-	"gnoll_lieutenant": { "copyof": "gnoll_gnoll_lieutenant" },
+	"gnoll_lieutenant": { "redirect": "gnoll_gnoll_lieutenant" },
 	"gnoll_gnoll_packlord": {
 		"name": "Gnoll Packlord",
 		"sources": [ "Monster Codex" ],
@@ -1861,7 +1861,7 @@
 			"Gnoll barbarians feed off one another's rage, and use pack tactics to savage their enemies."
 		]
 	},
-	"gnoll_packlord": { "copyof": "gnoll_gnoll_packlord" },
+	"gnoll_packlord": { "redirect": "gnoll_gnoll_packlord" },
 	"gnoll_gnoll_rageborn": {
 		"name": "Gnoll Rageborn",
 		"sources": [ "Monster Codex" ],
@@ -1911,7 +1911,7 @@
 			"Gnoll barbarians feed off one another's rage, and use pack tactics to savage their enemies."
 		]
 	},
-	"gnoll_rageborn": { "copyof": "gnoll_gnoll_rageborn" },
+	"gnoll_rageborn": { "redirect": "gnoll_gnoll_rageborn" },
 	"gnoll_gnoll_ravager": {
 		"name": "Gnoll Ravager",
 		"sources": [ "Monster Codex" ],
@@ -1967,7 +1967,7 @@
 			"Gnolls revere Lamashtu above all other gods."
 		]
 	},
-	"gnoll_ravager": { "copyof": "gnoll_gnoll_ravager" },
+	"gnoll_ravager": { "redirect": "gnoll_gnoll_ravager" },
 	"gnoll_gnoll_sergeant": {
 		"name": "Gnoll Sergeant",
 		"sources": [ "Monster Codex" ],
@@ -2012,7 +2012,7 @@
 			"The lowest of gnoll war leaders, sergeants are always eager to prove their mettle in order to move up in the dominance hierarchy of the pack."
 		]
 	},
-	"gnoll_sergeant": { "copyof": "gnoll_gnoll_sergeant" },
+	"gnoll_sergeant": { "redirect": "gnoll_gnoll_sergeant" },
 	"gnoll_gnoll_warden": {
 		"name": "Gnoll Warden",
 		"sources": [ "Monster Codex" ],
@@ -2058,7 +2058,7 @@
 			"The warden often serves as a gnoll pack's forward scout, tracking prey and wearing it down with pursuit before her packmates swoop in to attack."
 		]
 	},
-	"gnoll_warden": { "copyof": "gnoll_gnoll_warden" },
+	"gnoll_warden": { "redirect": "gnoll_gnoll_warden" },
 	"gnoph_keh": {
 		"name": "Gnoph-Keh",
 		"sources": [ "Pathfinder #46: Wake of the Watcher" ],
@@ -2342,7 +2342,7 @@
 			"A massive brute, the goblin chief gets the best food and treasure that the tribe collects. Some lesser goblins test their mighty chief by returning from a raid empty-handed but full-bellied-this almost always ends poorly for them."
 		]
 	},
-	"goblin_chief": { "copyof": "goblin_goblin_chief" },
+	"goblin_chief": { "redirect": "goblin_goblin_chief" },
 	"goblin_goblin_commando": {
 		"name": "Goblin Commando",
 		"sources": [ "Monster Codex" ],
@@ -2387,7 +2387,7 @@
 			"A goblin commando is a cut above a typical goblin warrior-braver, cleverer, and more persuasive. He uses fear and threats to keep other goblins in line."
 		]
 	},
-	"goblin_commando": { "copyof": "goblin_goblin_commando" },
+	"goblin_commando": { "redirect": "goblin_goblin_commando" },
 	"goblin_goblin_firestarter": {
 		"name": "Goblin Firestarter",
 		"sources": [ "Monster Codex" ],
@@ -2437,7 +2437,7 @@
 			"Goblins adore theft, and are adept at slinking about undetected. Goblin sneaks are master ambushers and spectacular hiders. The most talented also incorporate their racial love of fire into their tactics."
 		]
 	},
-	"goblin_firestarter": { "copyof": "goblin_goblin_firestarter" },
+	"goblin_firestarter": { "redirect": "goblin_goblin_firestarter" },
 	"goblin_goblin_frog_talker": {
 		"name": "Goblin Frog-Talker",
 		"sources": [ "Monster Codex" ],
@@ -2498,7 +2498,7 @@
 			"Regardless of what their origins may be, frog-talkers are powerful spellcasters who vomit up swarms of swamp creatures to do their bidding and fry disobedient minions with sizzling lightning. The only mortal creatures a frogtalker seems to truly respect are (naturally) frogs, and most keep a frog or toad on their person at all times. But the most worrying aspect of frog-talkers is that they don't appear to feel fear - an otherwise omnipresent aspect of goblin life."
 		]
 	},
-	"goblin_frog_talker": { "copyof": "goblin_goblin_frog_talker" },
+	"goblin_frog_talker": { "redirect": "goblin_goblin_frog_talker" },
 	"goblin_goblin_outrider": {
 		"name": "Goblin Outrider",
 		"sources": [ "Monster Codex" ],
@@ -2547,7 +2547,7 @@
 			"Goblin riders usually ride goblin dogs, wolves, or worgs, but might also ride exotic creatures like giant geckos."
 		]
 	},
-	"goblin_outrider": { "copyof": "goblin_goblin_outrider" },
+	"goblin_outrider": { "redirect": "goblin_goblin_outrider" },
 	"goblin_goblin_sneak": {
 		"name": "Goblin Sneak",
 		"sources": [ "Monster Codex" ],
@@ -2597,7 +2597,7 @@
 			"Goblins adore theft, and are adept at slinking about undetected. Goblin sneaks are master ambushers and spectacular hiders. The most talented also incorporate their racial love of fire into their tactics."
 		]
 	},
-	"goblin_sneak": { "copyof": "goblin_goblin_sneak" },
+	"goblin_sneak": { "redirect": "goblin_goblin_sneak" },
 	"goblin_goblin_stickylord": {
 		"name": "Goblin Stickylord",
 		"sources": [ "Monster Codex" ],
@@ -2657,7 +2657,7 @@
 			"Despite their obsession, goblin stickylords are careful to always carry powerful solvents, as even the best of them wind up glued in place on occasion."
 		]
 	},
-	"goblin_stickylord": { "copyof": "goblin_goblin_stickylord" },
+	"goblin_stickylord": { "redirect": "goblin_goblin_stickylord" },
 	"goblin_goblin_vulture_pilot": {
 		"name": "Goblin Vulture Pilot",
 		"sources": [ "Monster Codex" ],
@@ -2738,7 +2738,7 @@
 			"**Gear** {eq-misc/flying straps}"
 		]
 	},
-	"goblin_vulture_pilot": { "copyof": "goblin_goblin_vulture_pilot" },
+	"goblin_vulture_pilot": { "redirect": "goblin_goblin_vulture_pilot" },
 	"goblin_grizzled_rider": {
 		"name": "Grizzled Rider",
 		"sources": [ "Monster Codex" ],
@@ -2789,7 +2789,7 @@
 			"Goblin riders usually ride goblin dogs, wolves, or worgs, but might also ride exotic creatures like giant geckos."
 		]
 	},
-	"grizzled_rider": { "copyof": "goblin_grizzled_rider" },
+	"grizzled_rider": { "redirect": "goblin_grizzled_rider" },
 	"goblin_monkey_goblin": {
 		"name": "Monkey Goblin",
 		"sources": [
@@ -2846,7 +2846,7 @@
 			"Monkey goblins lead savage lives, and many take levels in the barbarian class, though fighters and rogues are also common among the race. While spellcasting classes are almost unheard of among them, monkey goblin clerics in the service of dark gods are given a level of respect by other monkey goblins that borders on fear."
 		]
 	},
-	"monkey_goblin": { "copyof": "goblin_monkey_goblin" },
+	"monkey_goblin": { "redirect": "goblin_monkey_goblin" },
 	"goezspall": {
 		"name": "Goezspall",
 		"sources": [
@@ -4108,5 +4108,5 @@
 			"See also: {monster/Minor reaper}"
 		]
 	},
-	"lesser_death": { "copyof": "grim_reaper_lesser_death" }
+	"lesser_death": { "redirect": "grim_reaper_lesser_death" }
 }

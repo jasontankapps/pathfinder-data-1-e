@@ -2466,7 +2466,7 @@
 			"Once a minor runewell of wrath is deactivated, it can be destroyed forever by filling it with holy water that is then set to a boil for no less than 24 hours."
 		]
 	},
-	"minor_runewell": { "copyof": "runewell_minor" },
+	"minor_runewell": { "redirect": "runewell_minor" },
 	"screaming_spear_of_the_sun": {
 		"name": "Screaming Spear of the Sun",
 		"sources": [ "Mythic Adventures" ],

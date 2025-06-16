@@ -412,7 +412,7 @@
 		],
 		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
-	"acid_bolt": { "copyof": "bolt_acid" },
+	"acid_bolt": { "redirect": "bolt_acid" },
 	"bolt_alchemical_fire": {
 		"name": "Bolt, alchemical fire",
 		"sources": [ "Adventurer's Armory 2" ],
@@ -432,7 +432,7 @@
 		],
 		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
-	"alchemical_fire_bolt": { "copyof": "bolt_alchemical_fire" },
+	"alchemical_fire_bolt": { "redirect": "bolt_alchemical_fire" },
 	"bolt_liquid_ice": {
 		"name": "Bolt, liquid ice",
 		"sources": [ "Adventurer's Armory 2" ],
@@ -452,7 +452,7 @@
 		],
 		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
-	"liquid_ice_bolt": { "copyof": "bolt_liquid_ice" },
+	"liquid_ice_bolt": { "redirect": "bolt_liquid_ice" },
 	"bolt_poison": {
 		"name": "Bolt, poison",
 		"sources": [ "Adventurer's Armory 2" ],
@@ -472,7 +472,7 @@
 		],
 		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
-	"poison_bolt": { "copyof": "bolt_poison" },
+	"poison_bolt": { "redirect": "bolt_poison" },
 	"bone_burn": {
 		"name": "Bone Burn",
 		"sources": [ "Pathfinder #139: The Dead Road" ],
@@ -894,7 +894,7 @@
 		],
 		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
-	"spirit_firework_firecracker": { "copyof": "firework_firecracker_spirit" },
+	"spirit_firework_firecracker": { "redirect": "firework_firecracker_spirit" },
 	"firework_flame_fountain": {
 		"name": "Firework (flame fountain)",
 		"sources": [ "Ultimate Equipment" ],
@@ -1199,7 +1199,7 @@
 		],
 		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
-	"unholy_water": { "copyof": "holy_water" },
+	"unholy_water": { "redirect": "holy_water" },
 	"holy_weapon_balm": {
 		"name": "Holy weapon balm",
 		"sources": [ "Advanced Class Guide" ],
@@ -1950,7 +1950,7 @@
 		],
 		"topLink": [ "Ammunition", "main/equipment_weapons_ammunition" ]
 	},
-	"arrows": { "copyof": "arrow" },
+	"arrows": { "redirect": "arrow" },
 	"atlatl_dart": {
 		"name": "Atlatl dart",
 		"sources": [ "Ultimate Equipment" ],
@@ -2000,7 +2000,7 @@
 		],
 		"topLink": [ "Ammunition", "main/equipment_weapons_ammunition" ]
 	},
-	"barbed_bolt": { "copyof": "barbed_arrow" },
+	"barbed_bolt": { "redirect": "barbed_arrow" },
 	"blowgun_darts": {
 		"name": "Blowgun darts",
 		"sources": [
@@ -2021,7 +2021,7 @@
 		],
 		"topLink": [ "Ammunition", "main/equipment_weapons_ammunition" ]
 	},
-	"blowgun_dart": { "copyof": "blowgun_darts" },
+	"blowgun_dart": { "redirect": "blowgun_darts" },
 	"blunt_arrows": {
 		"name": "Blunt arrows",
 		"sources": [
@@ -2110,7 +2110,7 @@
 		],
 		"topLink": [ "Ammunition", "main/equipment_weapons_ammunition" ]
 	},
-	"bolt": { "copyof": "crossbow_bolts" },
+	"bolt": { "redirect": "crossbow_bolts" },
 	"featherweight_dart": {
 		"name": "Featherweight dart",
 		"sources": [ "Ultimate Intrigue" ],
@@ -2224,7 +2224,7 @@
 		],
 		"topLink": [ "Ammunition", "main/equipment_weapons_ammunition" ]
 	},
-	"incendiary_bolt": { "copyof": "incendiary_arrow" },
+	"incendiary_bolt": { "redirect": "incendiary_arrow" },
 	"kestros_dart": {
 		"name": "Kestros dart",
 		"sources": [ "Ultimate Equipment" ],
@@ -2295,7 +2295,7 @@
 		],
 		"topLink": [ "Ammunition", "main/equipment_weapons_ammunition" ]
 	},
-	"sling_bullet": { "copyof": "sling_bullets" },
+	"sling_bullet": { "redirect": "sling_bullets" },
 	"smoke_arrow": {
 		"name": "Smoke arrow",
 		"sources": [
@@ -3594,7 +3594,7 @@
 		],
 		"topLink": [ "Light Weapons", "main/equipment_weapons_light" ]
 	},
-	"shortsword": { "copyof": "short_sword" },
+	"shortsword": { "redirect": "short_sword" },
 	"starknife": {
 		"name": "Starknife",
 		"sources": [
@@ -3792,7 +3792,7 @@
 		],
 		"topLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
 	},
-	"sharpened_combat_scabbard": { "copyof": "combat_scabbard_sharpened" },
+	"sharpened_combat_scabbard": { "redirect": "combat_scabbard_sharpened" },
 	"cutlass": {
 		"name": "Cutlass",
 		"sources": [
@@ -4086,7 +4086,7 @@
 		],
 		"topLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
 	},
-	"steel_terbutje": { "copyof": "terbutje_steel" },
+	"steel_terbutje": { "redirect": "terbutje_steel" },
 	"trident": {
 		"name": "Trident",
 		"sources": [

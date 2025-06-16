@@ -156,8 +156,8 @@
 			"**Replacement Domain Spells:** 1st-{spell/command}, 3rd-{spell/bestow curse}, 7th-{spell/symbol of persuasion}."
 		]
 	},
-	"inevitable": { "copyof": "law" },
-	"judgment": { "copyof": "law" },
+	"inevitable": { "redirect": "law" },
+	"judgment": { "redirect": "law" },
 	"legislation": {
 		"name": "Legislation",
 		"sources": [],
@@ -167,10 +167,10 @@
 			"This subdomain is associated with both the {domain/Law} and {domain/Rune} domains."
 		]
 	},
-	"loyalty": { "copyof": "law" },
-	"slavery": { "copyof": "law" },
-	"sovereignty": { "copyof": "law" },
-	"tyranny": { "copyof": "law" },
+	"loyalty": { "redirect": "law" },
+	"slavery": { "redirect": "law" },
+	"sovereignty": { "redirect": "law" },
+	"tyranny": { "redirect": "law" },
 	"liberation": {
 		"name": "Liberation",
 		"sources": [
@@ -233,8 +233,8 @@
 			"**Replacement Domain Spells:** 4th-{spell/paragon surge} (always matches your actual race), 6th-{spell/primal scream}, 7th-{spell/transformation}."
 		]
 	},
-	"freedom": { "copyof": "liberation" },
-	"revolution": { "copyof": "liberation" },
+	"freedom": { "redirect": "liberation" },
+	"revolution": { "redirect": "liberation" },
 	"self_realization": {
 		"name": "Self-Realization",
 		"sources": [],
@@ -303,9 +303,9 @@
 			"**Replacement Domain Spells:** 1st-{spell/silent image}, 2nd-{spell/minor image}, 3rd-{spell/major image}, 5th-dream"
 		]
 	},
-	"curse": { "copyof": "luck" },
-	"fate": { "copyof": "luck" },
-	"imagination": { "copyof": "luck" },
+	"curse": { "redirect": "luck" },
+	"fate": { "redirect": "luck" },
+	"imagination": { "redirect": "luck" },
 	"madness": {
 		"name": "Madness",
 		"sources": [
@@ -367,9 +367,9 @@
 			"**Replacement Domain Spells:** 3rd-{spell/wall of nausea}, 5th-{spell/contact other plane}, 6th-{spell/litany of madness}."
 		]
 	},
-	"insanity": { "copyof": "madness" },
-	"nightmare": { "copyof": "madness" },
-	"truth": { "copyof": "madness" },
+	"insanity": { "redirect": "madness" },
+	"nightmare": { "redirect": "madness" },
+	"truth": { "redirect": "madness" },
 	"magic": {
 		"name": "Magic",
 		"sources": [
@@ -446,9 +446,9 @@
 			"**Replacement Domain Spells:** 1st-{spell/sanctify corpse}, 5th-{spell/permanency}, 8th-{spell/binding}."
 		]
 	},
-	"arcane": { "copyof": "magic" },
-	"divine": { "copyof": "magic" },
-	"rites": { "copyof": "magic" },
+	"arcane": { "redirect": "magic" },
+	"divine": { "redirect": "magic" },
+	"rites": { "redirect": "magic" },
 	"nobility": {
 		"name": "Nobility",
 		"sources": [
@@ -542,9 +542,9 @@
 			"This replaces the leadership domain power of the Nobility domain."
 		]
 	},
-	"aristocracy": { "copyof": "nobility" },
-	"leadership": { "copyof": "nobility" },
-	"martyr": { "copyof": "nobility" },
+	"aristocracy": { "redirect": "nobility" },
+	"leadership": { "redirect": "nobility" },
+	"martyr": { "redirect": "nobility" },
 	"plant": {
 		"name": "Plant",
 		"sources": [
@@ -621,10 +621,10 @@
 			"**Replacement Domain Spells:** 1st-{spell/thorn javelin}, 3rd-{spell/thorny entanglement}, 4th-{spell/thorn body}."
 		]
 	},
-	"decay": { "copyof": "plant" },
-	"growth": { "copyof": "plant" },
-	"leshy": { "copyof": "plant" },
-	"thorns": { "copyof": "plant" },
+	"decay": { "redirect": "plant" },
+	"growth": { "redirect": "plant" },
+	"leshy": { "redirect": "plant" },
+	"thorns": { "redirect": "plant" },
 	"protection": {
 		"name": "Protection",
 		"sources": [
@@ -697,10 +697,10 @@
 			"**Replacement Domain Spells:** 2nd-{spell/silence}, 4th-{spell/detect scrying}, 5th-{spell/mirage arcana}, 9th-{spell/greater create demiplane}."
 		]
 	},
-	"defense": { "copyof": "protection" },
-	"fortifications": { "copyof": "protection" },
-	"purity": { "copyof": "protection" },
-	"solitude": { "copyof": "protection" },
+	"defense": { "redirect": "protection" },
+	"fortifications": { "redirect": "protection" },
+	"purity": { "redirect": "protection" },
+	"solitude": { "redirect": "protection" },
 	"repose": {
 		"name": "Repose",
 		"sources": [
@@ -785,8 +785,8 @@
 			"This replaces the ward against death domain power of the Repose domain."
 		]
 	},
-	"ancestors": { "copyof": "repose" },
-	"souls": { "copyof": "repose" },
+	"ancestors": { "redirect": "repose" },
+	"souls": { "redirect": "repose" },
 	"rune": {
 		"name": "Rune",
 		"sources": [
@@ -849,8 +849,8 @@
 			"**Replacement Domain Spells:** 1st-{spell/arcane lock}, 4th-{spell/dimensional anchor}, 6th-{spell/guards and wards}."
 		]
 	},
-	"language": { "copyof": "rune" },
-	"wards": { "copyof": "rune" },
+	"language": { "redirect": "rune" },
+	"wards": { "redirect": "rune" },
 	"scalykind": {
 		"name": "Scalykind",
 		"sources": [
@@ -918,9 +918,9 @@
 			"**Replacement Domain Spells:** 2nd-{spell/pernicious poison}, 6th-{spell/cloudkill}."
 		]
 	},
-	"dragon": { "copyof": "scalykind" },
-	"saurian": { "copyof": "scalykind" },
-	"venom": { "copyof": "scalykind" },
+	"dragon": { "redirect": "scalykind" },
+	"saurian": { "redirect": "scalykind" },
+	"venom": { "redirect": "scalykind" },
 	"strength": {
 		"name": "Strength",
 		"sources": [
@@ -1009,10 +1009,10 @@
 			"**Replacement Domain Spells:** 4th-{spell/paragon surge} (always matches your actual race), 6th-{spell/primal scream}, 7th-{spell/transformation}."
 		]
 	},
-	"competition": { "copyof": "strength" },
-	"ferocity": { "copyof": "strength" },
-	"fist": { "copyof": "strength" },
-	"resolve": { "copyof": "strength" },
+	"competition": { "redirect": "strength" },
+	"ferocity": { "redirect": "strength" },
+	"fist": { "redirect": "strength" },
+	"resolve": { "redirect": "strength" },
 	"sun": {
 		"name": "Sun",
 		"sources": [
@@ -1089,10 +1089,10 @@
 			"**Replacement Domain Spells:** 3rd-{spell/cup of dust}, 9th-{spell/horrid wilting}."
 		]
 	},
-	"day": { "copyof": "sun" },
-	"light": { "copyof": "sun" },
-	"revelation": { "copyof": "sun" },
-	"thirst": { "copyof": "sun" },
+	"day": { "redirect": "sun" },
+	"light": { "redirect": "sun" },
+	"revelation": { "redirect": "sun" },
+	"thirst": { "redirect": "sun" },
 	"travel": {
 		"name": "Travel",
 		"sources": [
@@ -1156,9 +1156,9 @@
 			"**Replacement Domain Spells:** 1st-{spell/floating disk}, 5th-{spell/overland flight}, 9th-{spell/gate}."
 		]
 	},
-	"exploration": { "copyof": "travel" },
-	"portal": { "copyof": "travel" },
-	"trade": { "copyof": "travel" },
+	"exploration": { "redirect": "travel" },
+	"portal": { "redirect": "travel" },
+	"trade": { "redirect": "travel" },
 	"trickery": {
 		"name": "Trickery",
 		"sources": [
@@ -1276,11 +1276,11 @@
 			"This replaces the copycat domain power of the Trickery domain."
 		]
 	},
-	"ambush": { "copyof": "trickery" },
-	"deception": { "copyof": "trickery" },
-	"greed": { "copyof": "trickery" },
-	"innuendo": { "copyof": "trickery" },
-	"thievery": { "copyof": "trickery" },
+	"ambush": { "redirect": "trickery" },
+	"deception": { "redirect": "trickery" },
+	"greed": { "redirect": "trickery" },
+	"innuendo": { "redirect": "trickery" },
+	"thievery": { "redirect": "trickery" },
 	"void": {
 		"name": "Void",
 		"sources": [
@@ -1348,9 +1348,9 @@
 			"**Replacement Domain Spells:** 2nd - hypnotic pattern, 7th - sunbeam, 9th - meteor swarm."
 		]
 	},
-	"dark_tapestry": { "copyof": "void" },
-	"isolation": { "copyof": "void" },
-	"stars": { "copyof": "void" },
+	"dark_tapestry": { "redirect": "void" },
+	"isolation": { "redirect": "void" },
+	"stars": { "redirect": "void" },
 	"war": {
 		"name": "War",
 		"sources": [
@@ -1410,9 +1410,9 @@
 			"**Replacement Domain Spells:** 2nd-{spell/aid}, 5th-{spell/greater command}, 8th-{spell/greater planar ally}."
 		]
 	},
-	"blood": { "copyof": "war" },
-	"duels": { "copyof": "war" },
-	"tactics": { "copyof": "war" },
+	"blood": { "redirect": "war" },
+	"duels": { "redirect": "war" },
+	"tactics": { "redirect": "war" },
 	"water": {
 		"name": "Water",
 		"sources": [
@@ -1500,11 +1500,11 @@
 			"**Replacement Domain Spells:** 1st-{spell/hydraulic push}, 2nd-{spell/slipstream}, 5th-{spell/elemental body II}, 6th-{spell/fluid form}."
 		]
 	},
-	"flotsam": { "copyof": "water" },
-	"flowing": { "copyof": "water" },
-	"ice": { "copyof": "water" },
-	"oceans": { "copyof": "water" },
-	"rivers": { "copyof": "water" },
+	"flotsam": { "redirect": "water" },
+	"flowing": { "redirect": "water" },
+	"ice": { "redirect": "water" },
+	"oceans": { "redirect": "water" },
+	"rivers": { "redirect": "water" },
 	"weather": {
 		"name": "Weather",
 		"sources": [
@@ -1566,7 +1566,7 @@
 			"**Replacement Domain Spells:** 5th-{spell/call lightning storm}, 6th-{spell/sirocco}."
 		]
 	},
-	"monsoon": { "copyof": "weather" },
-	"seasons": { "copyof": "weather" },
-	"storms": { "copyof": "weather" }
+	"monsoon": { "redirect": "weather" },
+	"seasons": { "redirect": "weather" },
+	"storms": { "redirect": "weather" }
 }

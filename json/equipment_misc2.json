@@ -11,8 +11,8 @@
 			"Tribal fetishes vary from tribe to tribe, but are generally small, carved wooden or stone religious symbols, luck tokens, or curious naturally occurring objects specially carved to resemble something of significance (such as an acorn with a wolf fangs, a dried mushroom with skull-shaped blotches, or a stone with a lizard carved on it). A {race/goblin} divine spellcaster can use a tribal fetish as a divine focus for spellcasting."
 		]
 	},
-	"tribal_fetish": { "copyof": "fetish_tribal" },
-	"fetish": { "copyof": "fetish_tribal" },
+	"tribal_fetish": { "redirect": "fetish_tribal" },
+	"fetish": { "redirect": "fetish_tribal" },
 	"fetters_common": {
 		"name": "Fetters (common)",
 		"sources": [ "Advanced Race Guide" ],
@@ -28,7 +28,7 @@
 		"name": "Fetters (masterwork)",
 		"copyof": "fetters_common"
 	},
-	"fetters": { "copyof": "fetters_common" },
+	"fetters": { "redirect": "fetters_common" },
 	"field_survival_guide": {
 		"name": "Field survival guide",
 		"sources": [ "Ultimate Wilderness" ],
@@ -246,7 +246,7 @@
 			"This bundle of dry wood includes twigs and logs."
 		]
 	},
-	"firewood": { "copyof": "firewood_per_day" },
+	"firewood": { "redirect": "firewood_per_day" },
 	"fishhook": {
 		"name": "Fishhook",
 		"sources": [
@@ -314,22 +314,22 @@
 			"Ensign and courtesy flags cost less than personal signals, as they can be made in large quantities. Personal signals must be custom ordered."
 		]
 	},
-	"large_flag_ensign_or_courtesy": { "copyof": "flag_ensign_or_courtesy_large" },
+	"large_flag_ensign_or_courtesy": { "redirect": "flag_ensign_or_courtesy_large" },
 	"flag_ensign_or_courtesy_small": {
 		"name": "Flag (ensign or courtesy, small)",
 		"copyof": "flag_ensign_or_courtesy_large"
 	},
-	"small_flag_ensign_or_courtesy": { "copyof": "flag_ensign_or_courtesy_small" },
+	"small_flag_ensign_or_courtesy": { "redirect": "flag_ensign_or_courtesy_small" },
 	"flag_personal_signal_large": {
 		"name": "Flag (personal signal, large)",
 		"copyof": "flag_ensign_or_courtesy_large"
 	},
-	"large_flag_personal_signal": { "copyof": "flag_personal_signal_large" },
+	"large_flag_personal_signal": { "redirect": "flag_personal_signal_large" },
 	"flag_personal_signal_small": {
 		"name": "Flag (personal signal, small)",
 		"copyof": "flag_ensign_or_courtesy_large"
 	},
-	"small_flag_personal_signal": { "copyof": "flag_personal_signal_small" },
+	"small_flag_personal_signal": { "redirect": "flag_personal_signal_small" },
 	"flag": {
 		"name": "Flag",
 		"copyof": "flag_personal_signal_small"
@@ -478,7 +478,7 @@
 		"name": "Flying straps (standard)",
 		"copyof": "flying_straps_masterwork"
 	},
-	"flying_straps": { "copyof": "flying_straps_standard" },
+	"flying_straps": { "redirect": "flying_straps_standard" },
 	"foaming_powder": {
 		"name": "Foaming powder",
 		"sources": [ "Ultimate Equipment" ],
@@ -831,8 +831,8 @@
 			"**Construction:** Craft (Alchemy) DC 15"
 		]
 	},
-	"fuel_pellet_ten": { "copyof": "fuel_pellet_10" },
-	"fuel_pellet": { "copyof": "fuel_pellet_10" },
+	"fuel_pellet_ten": { "redirect": "fuel_pellet_10" },
+	"fuel_pellet": { "redirect": "fuel_pellet_10" },
 	"furs": {
 		"name": "Furs",
 		"sources": [
@@ -1274,7 +1274,7 @@
 		"name": "Grappling hook (mithral)",
 		"copyof": "grappling_hook_common"
 	},
-	"mithral_grappling_hook": { "copyof": "grappling_hook_mithral" },
+	"mithral_grappling_hook": { "redirect": "grappling_hook_mithral" },
 	"grappling_hook": {
 		"name": "Grappling hook",
 		"copyof": "grappling_hook_common"
@@ -1832,7 +1832,7 @@
 			"- Identify poisonous flora (Knowledge [nature] +2)"
 		]
 	},
-	"herokas_saga_vol_1": { "copyof": "herokas_saga_vol_i" },
+	"herokas_saga_vol_1": { "redirect": "herokas_saga_vol_i" },
 	"hide_dye": {
 		"name": "Hide dye",
 		"sources": [ "Familiar Folio" ],
@@ -2049,27 +2049,27 @@
 			"Designed and approved by a member of the appropriate religion, this modification to a holy symbol creates a secret compartment large enough to hold a potion vial. Detecting the compartment requires a DC 20 Perception check."
 		]
 	},
-	"holy_symbol_compartment_gold": { "copyof": "holy_symbol_gold_compartment" },
+	"holy_symbol_compartment_gold": { "redirect": "holy_symbol_gold_compartment" },
 	"holy_symbol_iron_compartment": {
 		"name": "Holy symbol (iron, compartment)",
 		"copyof": "holy_symbol_gold_compartment"
 	},
-	"holy_symbol_compartment_iron": { "copyof": "holy_symbol_iron_compartment" },
+	"holy_symbol_compartment_iron": { "redirect": "holy_symbol_iron_compartment" },
 	"holy_symbol_platinum_compartment": {
 		"name": "Holy symbol (platinum, compartment)",
 		"copyof": "holy_symbol_gold_compartment"
 	},
-	"holy_symbol_compartment_platinum": { "copyof": "holy_symbol_platinum_compartment" },
+	"holy_symbol_compartment_platinum": { "redirect": "holy_symbol_platinum_compartment" },
 	"holy_symbol_silver_compartment": {
 		"name": "Holy symbol (silver, compartment)",
 		"copyof": "holy_symbol_gold_compartment"
 	},
-	"holy_symbol_compartment_silver": { "copyof": "holy_symbol_silver_compartment" },
+	"holy_symbol_compartment_silver": { "redirect": "holy_symbol_silver_compartment" },
 	"holy_symbol_wooden_compartment": {
 		"name": "Holy symbol (wooden, compartment)",
 		"copyof": "holy_symbol_gold_compartment"
 	},
-	"holy_symbol_compartment_wooden": { "copyof": "holy_symbol_wooden_compartment" },
+	"holy_symbol_compartment_wooden": { "redirect": "holy_symbol_wooden_compartment" },
 	"holy_symbol_gold_flask": {
 		"name": "Holy symbol (gold, flask)",
 		"sources": [
@@ -2085,27 +2085,27 @@
 			"This version of a standard holy symbol is oversized and has a watertight compartment that can hold 1 pint (the same volume as a flask of {eq-weapon/holy water}). Adventurers normally use the compartment to hold holy water or alcohol. A holy symbol flask is not meant for you to throw at enemies and is not fragile like a flask or vial. Like using holy water on incorporeal opponent, you unstopper the flask and pour the contents onto an adjacent target. Detecting the compartment requires a successful DC 10 Perception check."
 		]
 	},
-	"holy_symbol_flask_gold": { "copyof": "holy_symbol_gold_flask" },
+	"holy_symbol_flask_gold": { "redirect": "holy_symbol_gold_flask" },
 	"holy_symbol_iron_flask": {
 		"name": "Holy symbol (iron, flask)",
 		"copyof": "holy_symbol_gold_flask"
 	},
-	"holy_symbol_flask_iron": { "copyof": "holy_symbol_iron_flask" },
+	"holy_symbol_flask_iron": { "redirect": "holy_symbol_iron_flask" },
 	"holy_symbol_platinum_flask": {
 		"name": "Holy symbol (platinum, flask)",
 		"copyof": "holy_symbol_gold_flask"
 	},
-	"holy_symbol_flask_platinum": { "copyof": "holy_symbol_platinum_flask" },
+	"holy_symbol_flask_platinum": { "redirect": "holy_symbol_platinum_flask" },
 	"holy_symbol_silver_flask": {
 		"name": "Holy symbol (silver, flask)",
 		"copyof": "holy_symbol_gold_flask"
 	},
-	"holy_symbol_flask_silver": { "copyof": "holy_symbol_silver_flask" },
+	"holy_symbol_flask_silver": { "redirect": "holy_symbol_silver_flask" },
 	"holy_symbol_wooden_flask": {
 		"name": "Holy symbol (wooden, flask)",
 		"copyof": "holy_symbol_gold_flask"
 	},
-	"holy_symbol_flask_wooden": { "copyof": "holy_symbol_wooden_flask" },
+	"holy_symbol_flask_wooden": { "redirect": "holy_symbol_wooden_flask" },
 	"holy_symbol_gold": {
 		"name": "Holy symbol (gold)",
 		"sources": [
@@ -2127,9 +2127,9 @@
 		"name": "Holy symbol (iron)",
 		"copyof": "holy_symbol_gold"
 	},
-	"iron_holy_symbol": { "copyof": "holy_symbol_iron" },
-	"iron_unholy_symbol": { "copyof": "holy_symbol_iron" },
-	"gold_unholy_symbol": { "copyof": "holy_symbol_gold" },
+	"iron_holy_symbol": { "redirect": "holy_symbol_iron" },
+	"iron_unholy_symbol": { "redirect": "holy_symbol_iron" },
+	"gold_unholy_symbol": { "redirect": "holy_symbol_gold" },
 	"holy_symbol_cold_iron": {
 		"name": "Holy symbol (cold iron)",
 		"copyof": "holy_symbol_gold"
@@ -2138,14 +2138,14 @@
 		"name": "Holy symbol (platinum)",
 		"copyof": "holy_symbol_gold"
 	},
-	"platinum_holy_symbol": { "copyof": "holy_symbol_platinum" },
-	"platinum_unholy_symbol": { "copyof": "holy_symbol_platinum" },
+	"platinum_holy_symbol": { "redirect": "holy_symbol_platinum" },
+	"platinum_unholy_symbol": { "redirect": "holy_symbol_platinum" },
 	"holy_symbol_silver": {
 		"name": "Holy symbol (silver)",
 		"copyof": "holy_symbol_gold"
 	},
-	"silver_holy_symbol": { "copyof": "holy_symbol_silver" },
-	"silver_unholy_symbol": { "copyof": "holy_symbol_silver" },
+	"silver_holy_symbol": { "redirect": "holy_symbol_silver" },
+	"silver_unholy_symbol": { "redirect": "holy_symbol_silver" },
 	"holy_symbol_tattoo": {
 		"name": "Holy symbol (tattoo)",
 		"sources": [ "Ultimate Equipment" ],
@@ -2166,9 +2166,9 @@
 		"name": "Holy symbol (wooden)",
 		"copyof": "holy_symbol_gold"
 	},
-	"wooden_unholy_symbol": { "copyof": "wooden_holy_symbol" },
-	"unholy_symbol_wooden": { "copyof": "wooden_holy_symbol" },
-	"holy_symbol_wooden": { "copyof": "wooden_holy_symbol" },
+	"wooden_unholy_symbol": { "redirect": "wooden_holy_symbol" },
+	"unholy_symbol_wooden": { "redirect": "wooden_holy_symbol" },
+	"holy_symbol_wooden": { "redirect": "wooden_holy_symbol" },
 	"holy_text": {
 		"name": "Holy text",
 		"sources": [ "Ultimate Equipment" ],
@@ -2248,14 +2248,14 @@
 			"**Waterproof Lantern:** Meant to shelter its flame from both water and wind, this lantern treats severe winds as strong winds, windstorms as severe winds, and hurricanes as windstorms for the purpose of determining whether they extinguish its flame. It holds enough air to burn underwater for 5 rounds before going dark."
 		]
 	},
-	"lantern_hooded": { "copyof": "hooded_lantern" },
-	"lantern": { "copyof": "hooded_lantern" },
+	"lantern_hooded": { "redirect": "hooded_lantern" },
+	"lantern": { "redirect": "hooded_lantern" },
 	"waterproof_lantern_hooded": {
 		"name": "Waterproof lantern (hooded)",
 		"copyof": "hooded_lantern"
 	},
-	"waterproof_hooded_lantern": { "copyof": "hooded_lantern" },
-	"lantern_waterproof_hooded": { "copyof": "hooded_lantern" },
+	"waterproof_hooded_lantern": { "redirect": "hooded_lantern" },
+	"lantern_waterproof_hooded": { "redirect": "hooded_lantern" },
 	"hoodwink_cowl": {
 		"name": "Hoodwink cowl",
 		"sources": [ "Occult Adventures" ],
@@ -2321,7 +2321,7 @@
 			"**Pony (Combat Trained):** Ponies can be trained for combat just as effectively as their larger, more mature brethren. Such steeds often serve Small riders that expect to face battle."
 		]
 	},
-	"heavy_horse": { "copyof": "horse_heavy" },
+	"heavy_horse": { "redirect": "horse_heavy" },
 	"horse_heavy_combat_trained": {
 		"name": "Horse (heavy, combat trained)",
 		"copyof": "horse_heavy"
@@ -2334,7 +2334,7 @@
 		"name": "Horse (light)",
 		"copyof": "horse_heavy"
 	},
-	"light_horse": { "copyof": "horse_light" },
+	"light_horse": { "redirect": "horse_light" },
 	"light_horse_combat_trained": {
 		"name": "Horse (light, combat trained)",
 		"copyof": "horse_heavy"
@@ -2457,18 +2457,18 @@
 			"The standard hourglass takes 1 hour to empty the sand from the upper chamber; smaller ones that mark time more precisely are also readily available, in 1-minute and 6-second sizes. Hourglasses tracking more than an hour are rare."
 		]
 	},
-	"hourglass_one_hour": { "copyof": "hourglass_1_hour" },
+	"hourglass_one_hour": { "redirect": "hourglass_1_hour" },
 	"hourglass_1_minute": {
 		"name": "Hourglass (1 minute)",
 		"copyof": "hourglass_1_hour"
 	},
-	"hourglass_one_minute": { "copyof": "hourglass_1_minute" },
+	"hourglass_one_minute": { "redirect": "hourglass_1_minute" },
 	"hourglass_6_seconds": {
 		"name": "Hourglass (6 seconds)",
 		"copyof": "hourglass_1_hour"
 	},
-	"hourglass_six_seconds": { "copyof": "hourglass_6_seconds" },
-	"hourglass": { "copyof": "hourglass_1_hour" },
+	"hourglass_six_seconds": { "redirect": "hourglass_6_seconds" },
+	"hourglass": { "redirect": "hourglass_1_hour" },
 	"howdah": {
 		"name": "Howdah",
 		"sources": [ "Belkzen, Hold of the Orc Hordes" ],
@@ -2544,7 +2544,7 @@
 			"A hypnotist's locket can also come in the form of a {eq-misc/pocket watch}. It can be worn the same way, still includes a space for a portrait or keepsake, and adds the same bonus for hypnotism, but it also functions as a timepiece."
 		]
 	},
-	"hypnotists_locket": { "copyof": "hypnotists_locket_locket" },
+	"hypnotists_locket": { "redirect": "hypnotists_locket_locket" },
 	"hypnotists_locket_pocket_watch": {
 		"name": "Hypnotist's locket (pocket watch)",
 		"copyof": "hypnotists_locket_locket"
@@ -2752,7 +2752,7 @@
 			"Extracted from bioluminescent jellyfish, plankton, and other marine organisms that glow in the ocean's depths, this ink is refined in a process that makes the ink stable and long lasting. This colorful ink glows gently like a {eq-misc/candle}, so it is easier to discern any writing at a distance, especially in the dark. The ink's glow lasts for about 1 year, after which time the writing remains colorful but no longer glows. Bioluminescent ink is typically stored in a waterproof bladder."
 		]
 	},
-	"bioluminescent_ink": { "copyof": "ink_bioluminescent" },
+	"bioluminescent_ink": { "redirect": "ink_bioluminescent" },
 	"inkpen": {
 		"name": "Inkpen",
 		"sources": [
@@ -2796,17 +2796,17 @@
 		"name": "Inn stay (suite, average)",
 		"copyof": "inn_stay_common"
 	},
-	"average_inn_stay_suite": { "copyof": "inn_stay_suite_average" },
+	"average_inn_stay_suite": { "redirect": "inn_stay_suite_average" },
 	"inn_stay_suite_luxurious": {
 		"name": "Inn stay (suite, luxurious)",
 		"copyof": "inn_stay_common"
 	},
-	"luxurious_inn_stay_suite": { "copyof": "inn_stay_suite_luxurious" },
+	"luxurious_inn_stay_suite": { "redirect": "inn_stay_suite_luxurious" },
 	"inn_stay_suite_small": {
 		"name": "Inn stay (suite, small)",
 		"copyof": "inn_stay_common"
 	},
-	"small_inn_stay_suite": { "copyof": "inn_stay_suite_small" },
+	"small_inn_stay_suite": { "redirect": "inn_stay_suite_small" },
 	"inquisitors_kit": {
 		"name": "Inquisitor's kit",
 		"sources": [ "Ultimate Equipment" ],
@@ -2962,22 +2962,22 @@
 			"**Construction:** Craft (Alchemy) DC 25 (superior), DC 20 (average, good), DC 15 (simple)"
 		]
 	},
-	"average_invisible_ink": { "copyof": "invisible_ink_average" },
+	"average_invisible_ink": { "redirect": "invisible_ink_average" },
 	"invisible_ink_good": {
 		"name": "Invisible ink (good)",
 		"copyof": "invisible_ink_average"
 	},
-	"good_invisible_ink": { "copyof": "invisible_ink_good" },
+	"good_invisible_ink": { "redirect": "invisible_ink_good" },
 	"invisible_ink_simple": {
 		"name": "Invisible ink (simple)",
 		"copyof": "invisible_ink_average"
 	},
-	"simple_invisible_ink": { "copyof": "invisible_ink_simple" },
+	"simple_invisible_ink": { "redirect": "invisible_ink_simple" },
 	"invisible_ink_superior": {
 		"name": "Invisible ink (superior)",
 		"copyof": "invisible_ink_average"
 	},
-	"superior_invisible_ink": { "copyof": "invisible_ink_superior" },
+	"superior_invisible_ink": { "redirect": "invisible_ink_superior" },
 	"iron_eye_gorum": {
 		"name": "Iron eye",
 		"sources": [ "Faiths of Balance" ],
@@ -2991,7 +2991,7 @@
 			"This simple iron amulet is in the shape of an eye within a helm. It must be worn in plain sight to have any effect. When activated, an iron eye allows its wielder to expend its power to gain a sacred (if activated with positive energy) or profane (if activated with negative energy) bonus on her next Intimidate check. This bonus is equal to the number of dice of the activating cleric's {ability/channel energy} ability. The amulet remains charged until its magic is used or 1 hour passes."
 		]
 	},
-	"iron_eye": { "copyof": "iron_eye_gorum" },
+	"iron_eye": { "redirect": "iron_eye_gorum" },
 	"iron_maiden": {
 		"name": "Iron maiden",
 		"sources": [ "Horror Adventures" ],
@@ -3183,7 +3183,7 @@
 			"This set of small gold-plated scales is inscribed with words from Abadar's holy text. When activated, its presence aids in negotiations, making attempts to change the attitude of another person by one step a swift action instead of requiring 1 minute. The user must touch the scales and speak to the intended target as part of the skill check. The item remains activated for 1 hour, or until it has been used to influence a number of creatures equal to 1/2 the effective cleric level of the person who activated it."
 		]
 	},
-	"just_scale": { "copyof": "just_scale_abadar" },
+	"just_scale": { "redirect": "just_scale_abadar" },
 	"kaava_musk": {
 		"name": "Kaava musk",
 		"sources": [
@@ -3784,23 +3784,23 @@
 			"This can be a padlock, an inset lock in a door or chest, or any other type of keyed lock. The DC to open a lock with the Disable Device skill depends on the lock's quality: simple (DC 20), average (DC 25), good (DC 30), or superior (DC 40)."
 		]
 	},
-	"lock": { "copyof": "lock_average" },
-	"average_lock": { "copyof": "lock_average" },
+	"lock": { "redirect": "lock_average" },
+	"average_lock": { "redirect": "lock_average" },
 	"lock_good": {
 		"name": "Lock (good)",
 		"copyof": "lock_average"
 	},
-	"good_lock": { "copyof": "lock_good" },
+	"good_lock": { "redirect": "lock_good" },
 	"lock_simple": {
 		"name": "Lock (simple)",
 		"copyof": "lock_average"
 	},
-	"simple_lock": { "copyof": "lock_simple" },
+	"simple_lock": { "redirect": "lock_simple" },
 	"lock_superior": {
 		"name": "Lock (superior)",
 		"copyof": "lock_average"
 	},
-	"superior_lock": { "copyof": "lock_superior" },
+	"superior_lock": { "redirect": "lock_superior" },
 	"lock_of_the_saved_average": {
 		"name": "Lock of the saved (average)",
 		"sources": [
@@ -4150,22 +4150,22 @@
 			"{eq-misc/Fetters} can also be fitted with barbs, but the wearer can avoid damage by not taking actions that involve moving its legs. Hobgoblins often use such fetters to secure artisans to their worktables. Securing a captive with multiple sets of manacles and/or fetters doesn't cause additional damage."
 		]
 	},
-	"manacle_barbs": { "copyof": "manacles_with_barbs_common" },
+	"manacle_barbs": { "redirect": "manacles_with_barbs_common" },
 	"manacles_with_barbs_masterwork": {
 		"name": "Manacles with barbs (masterwork)",
 		"copyof": "manacles_with_barbs_common"
 	},
-	"manacle_barbs_masterwork": { "copyof": "manacles_with_barbs_masterwork" },
+	"manacle_barbs_masterwork": { "redirect": "manacles_with_barbs_masterwork" },
 	"manacles_with_barbs_mithral": {
 		"name": "Manacles with barbs (mithral)",
 		"copyof": "manacles_with_barbs_common"
 	},
-	"manacle_barbs_mithral": { "copyof": "manacles_with_barbs_mithral" },
+	"manacle_barbs_mithral": { "redirect": "manacles_with_barbs_mithral" },
 	"manacles_with_barbs_quickcatch": {
 		"name": "Manacles with barbs (quickcatch)",
 		"copyof": "manacles_with_barbs_common"
 	},
-	"manacle_barbs_quickcatch": { "copyof": "manacles_with_barbs_quickcatch" },
+	"manacle_barbs_quickcatch": { "redirect": "manacles_with_barbs_quickcatch" },
 	"manacles_common": {
 		"name": "Manacles (common)",
 		"sources": [
@@ -4202,19 +4202,19 @@
 			"**Restraining Two Individuals:** Two creatures might share one set of manacles. While manacled together, the manacled individuals must remain adjacent to one another. If they are not working together, they are both treated as {rule/grapple/d>_conditions}. If they are working together, they can move together in the same round (using the movement speed of the slower creature). A manacled creature can forfeit its turn during combat to mimic the other manacled creature's movements, allowing that creature to act as if unrestrained."
 		]
 	},
-	"manacles": { "copyof": "manacles_common" },
-	"common_manacles": { "copyof": "manacles_common" },
+	"manacles": { "redirect": "manacles_common" },
+	"common_manacles": { "redirect": "manacles_common" },
 	"manacles_masterwork": {
 		"name": "Manacles (masterwork)",
 		"copyof": "manacles_common"
 	},
-	"manacles_mwk": { "copyof": "manacles_masterwork" },
-	"masterwork_manacles": { "copyof": "manacles_masterwork" },
+	"manacles_mwk": { "redirect": "manacles_masterwork" },
+	"masterwork_manacles": { "redirect": "manacles_masterwork" },
 	"manacles_mithral": {
 		"name": "Manacles (mithral)",
 		"copyof": "manacles_common"
 	},
-	"mithral_manacles": { "copyof": "manacles_mithral" },
+	"mithral_manacles": { "redirect": "manacles_mithral" },
 	"manacles_quickcatch": {
 		"name": "Manacles (quickcatch)",
 		"sources": [ "Melee Tactics Toolbox" ],
@@ -4296,12 +4296,12 @@
 			"Both types of marine rope are sold in 50-foot lengths. Treated hemp has 2 hit points and can be broken with a DC 23 Strength check. Woven kelp has 3 hit points and can be broken with a DC 24 Strength check."
 		]
 	},
-	"rope_marine_treated_hemp": { "copyof": "marine_rope_treated_hemp" },
+	"rope_marine_treated_hemp": { "redirect": "marine_rope_treated_hemp" },
 	"marine_rope_woven_kelp": {
 		"name": "Marine rope (woven kelp)",
 		"copyof": "marine_rope_treated_hemp"
 	},
-	"rope_marine_woven_kelp": { "copyof": "marine_rope_woven_kelp" },
+	"rope_marine_woven_kelp": { "redirect": "marine_rope_woven_kelp" },
 	"marked_cards": {
 		"name": "Marked cards",
 		"sources": [
@@ -4508,8 +4508,8 @@
 			"This length of sturdy twine is marked off in foot-long increments for ease of measurement. Measuring cord is purchased in increments of 10 feet."
 		]
 	},
-	"measuring_cord_ten_ft": { "copyof": "measuring_cord_10_ft" },
-	"measuring_cord": { "copyof": "measuring_cord_10_ft" },
+	"measuring_cord_ten_ft": { "redirect": "measuring_cord_10_ft" },
+	"measuring_cord": { "redirect": "measuring_cord_10_ft" },
 	"meat": {
 		"name": "Meat",
 		"sources": [
@@ -4846,13 +4846,13 @@
 			"**Waterproof Lantern:** Meant to shelter its flame from both water and wind, this lantern treats severe winds as strong winds, windstorms as severe winds, and hurricanes as windstorms for the purpose of determining whether they extinguish its flame. It holds enough air to burn underwater for 5 rounds before going dark."
 		]
 	},
-	"lantern_miners": { "copyof": "miners_lantern" },
+	"lantern_miners": { "redirect": "miners_lantern" },
 	"waterproof_lantern_miners": {
 		"name": "Waterproof lantern (miner's)",
 		"copyof": "miners_lantern"
 	},
-	"waterproof_miners_lantern": { "copyof": "miners_lantern" },
-	"lantern_waterproof_miners": { "copyof": "miners_lantern" },
+	"waterproof_miners_lantern": { "redirect": "miners_lantern" },
+	"lantern_waterproof_miners": { "redirect": "miners_lantern" },
 	"miners_pick": {
 		"name": "Miner's pick",
 		"sources": [
@@ -4961,8 +4961,8 @@
 			"This 10-foot-long {eq-misc/chain} has hardness 15 and 5 hit points. A successful DC 28 Strength check is required to burst it, making it strong enough to hold most lesser types of giants."
 		]
 	},
-	"mithral_chain_ten_ft": { "copyof": "mithral_chain_10_ft" },
-	"chain_mithral": { "copyof": "mithral_chain_10_ft" },
+	"mithral_chain_ten_ft": { "redirect": "mithral_chain_10_ft" },
+	"chain_mithral": { "redirect": "mithral_chain_10_ft" },
 	"mithral_horseshoes": {
 		"name": "Mithral horseshoes",
 		"sources": [ "Adventurer's Guide" ],

@@ -166,7 +166,7 @@
 			"While raging, the barbarian is treated as if she has {feat/Two-Weapon Fighting} when making unarmed strike attacks. A barbarian must have the {ragepower/brawler} rage power to select this rage power."
 		]
 	},
-	"brawler_greater": { "copyof": "greater_brawler" },
+	"brawler_greater": { "redirect": "greater_brawler" },
 	"breathtaker": {
 		"name": "Breathtaker",
 		"nameSuffix": "(Ex)",
@@ -238,7 +238,7 @@
 			"Whenever the barbarian rages, {rule/vision_and<the| light/ level} within 20 feet of her lowers by two steps instead of one. She still can't decrease the light level below normal darkness with this ability. A barbarian must be at least 10th level and have the {ragepower/eclipsing rage} rage power to choose this rage power."
 		]
 	},
-	"eclipsing_rage_greater": { "copyof": "greater_eclipsing_rage" },
+	"eclipsing_rage_greater": { "redirect": "greater_eclipsing_rage" },
 	"lesser_elemental_rage": {
 		"name": "Lesser Elemental Rage",
 		"nameSuffix": "(Su)",
@@ -247,7 +247,7 @@
 			"As a swift action, the barbarian can cause her melee attacks to deal an additional 1d6 points of energy damage (acid, cold, electricity, or fire) for 1 round. A barbarian must be at least 4th level to select this rage power. This power can only be used once per rage."
 		]
 	},
-	"elemental_rage_lesser": { "copyof": "lesser_elemental_rage" },
+	"elemental_rage_lesser": { "redirect": "lesser_elemental_rage" },
 	"elemental_rage": {
 		"name": "Elemental Rage",
 		"nameSuffix": "(Su)",
@@ -266,8 +266,8 @@
 			"While raging, all of the barbarian's critical hits made with melee weapons deal an additional 1d10 points of energy damage (2d10 if the weapon deals &times;3 damage on a critical hit, 3d10 if the weapon deals &times;4 on a critical hit). The type of this damage is the same as the type chosen for the elemental rage power. A barbarian must have the {ragepower/elemental rage} power to select this rage power. A barbarian must be at least 12th level to select this rage power."
 		]
 	},
-	"elemental_rage_greater": { "copyof": "greater_elemental_rage" },
-	"lesser_elemental": { "copyof": "lesser_elemental_rage" },
+	"elemental_rage_greater": { "redirect": "greater_elemental_rage" },
+	"lesser_elemental": { "redirect": "lesser_elemental_rage" },
 	"energy_resistance": {
 		"name": "Energy Resistance",
 		"nameSuffix": "(Ex)",
@@ -285,7 +285,7 @@
 			"Once per rage, a barbarian can reduce damage by half from a single attack against which she has energy resistance (halve the damage, then apply resistance). A barbarian must have the {ragepower/energy resistance} rage power to select this rage power. A barbarian must be at least 8th level to select this rage power."
 		]
 	},
-	"energy_resistance_greater": { "copyof": "greater_energy_resistance" },
+	"energy_resistance_greater": { "redirect": "greater_energy_resistance" },
 	"energy_absorption": {
 		"name": "Energy Absorption",
 		"nameSuffix": "(Su)",
@@ -321,7 +321,7 @@
 			"The barbarian can move 10 feet when using erratic charge. If she does so, the creature she is charging must be at least 20 feet away and the movement reduces the maximum distance of her charge by 20 feet. A barbarian must be at least 8th level and must have the {ragepower/erratic charge} rage power before selecting this power."
 		]
 	},
-	"erratic_charge_greater": { "copyof": "greater_erratic_charge" },
+	"erratic_charge_greater": { "redirect": "greater_erratic_charge" },
 	"fearless_rage": {
 		"name": "Fearless Rage",
 		"nameSuffix": "(Ex)",
@@ -347,7 +347,7 @@
 			"While the barbarian is raging, her animal companion shares the benefits of the barbarian's rage powers that are constant in effect. It gains no benefit from rage powers that require actions to activate, even if they are free actions. A barbarian must have the {ragepower/ferocious beast} rage power and be at least 8th level to select this rage power."
 		]
 	},
-	"ferocious_beast_greater": { "copyof": "greater_ferocious_beast" },
+	"ferocious_beast_greater": { "redirect": "greater_ferocious_beast" },
 	"ferocious_mount": {
 		"name": "Ferocious Mount",
 		"nameSuffix": "(Ex)",
@@ -365,7 +365,7 @@
 			"While raging and mounted, the barbarian's mount gains the benefits of any rage powers that are constant in effect when the barbarian is raging. It does not gain the benefit of any rage powers that require actions to activate, even if they are free actions. A barbarian must have the {ragepower/ferocious mount} rage power to select this rage power. A barbarian must be at least 8th level to select this rage power."
 		]
 	},
-	"ferocious_mount_greater": { "copyof": "greater_ferocious_mount" },
+	"ferocious_mount_greater": { "redirect": "greater_ferocious_mount" },
 	"ferocious_trample": {
 		"name": "Ferocious Trample",
 		"nameSuffix": "(Ex)",
@@ -384,7 +384,7 @@
 			"A barbarian's mount can affect creatures up to its own size with its ferocious trample. In addition, it can make an {rule/overrun} combat maneuver check as a free action against a creature that fails its Reflex save (or chooses not to save in order to take an attack of opportunity) against its trample. A barbarian must have the {ragepower/ferocious trample} rage power to select this rage power. A barbarian must be at least 12th level to select this rage power."
 		]
 	},
-	"ferocious_trample_greater": { "copyof": "greater_ferocious_trample" },
+	"ferocious_trample_greater": { "redirect": "greater_ferocious_trample" },
 	"spirit_steed": {
 		"name": "Spirit Steed",
 		"nameSuffix": "(Su)",
@@ -473,7 +473,7 @@
 			"When using the ground breaker rage power, the barbarian can extend the radius of the effect by 5 feet. This rage power can be selected up to three times, and its effects stack. A barbarian must have the {ragepower/ground breaker} rage power and be at least 8th level before selecting this rage power."
 		]
 	},
-	"ground_breaker_greater": { "copyof": "greater_ground_breaker" },
+	"ground_breaker_greater": { "redirect": "greater_ground_breaker" },
 	"guarded_life": {
 		"name": "Guarded Life",
 		"nameSuffix": "(Ex)",
@@ -491,7 +491,7 @@
 			"When using the guarded life rage power, 1 additional hit point of lethal damage per barbarian level is converted to nonlethal damage. A barbarian must have the {ragepower/guarded life} rage power and be at least 6th level before selecting this rage power."
 		]
 	},
-	"guarded_life_greater": { "copyof": "greater_guarded_life" },
+	"guarded_life_greater": { "redirect": "greater_guarded_life" },
 	"guarded_stance": {
 		"name": "Guarded Stance",
 		"nameSuffix": "(Ex)",
@@ -518,7 +518,7 @@
 			"As a full-round action while raging, the barbarian can lift and hurl an object up to one size category smaller than herself with both hands or two size categories smaller with one hand as an improvised weapon with a range increment of 10 feet. This inflicts damage as a {rule/falling object>s} plus the barbarian's Strength bonus. This damage is halved if the object is not made of stone, metal, or similar material. This is a ranged touch attack, and the target may attempt a Reflex save (DC 10 + 1/2 the barbarian's level + the barbarian's Strength modifier) for half damage. The barbarian may apply {feat/Power Attack} to this attack as a one- or two-handed weapon, as appropriate."
 		]
 	},
-	"hurling_lesser": { "copyof": "lesser_hurling" },
+	"hurling_lesser": { "redirect": "lesser_hurling" },
 	"hurling": {
 		"name": "Hurling",
 		"nameSuffix": "(Ex)",
@@ -537,7 +537,7 @@
 			"As hurling, but the barbarian can increase the range increment to 30 feet or increase the size of a hurled object by two size categories. A barbarian must have the {ragepower/hurling} rage power to select this rage power. A barbarian must be at least 12th level to select this rage power."
 		]
 	},
-	"hurling_greater": { "copyof": "greater_hurling" },
+	"hurling_greater": { "redirect": "greater_hurling" },
 	"hurling_charge": {
 		"name": "Hurling Charge",
 		"nameSuffix": "(Ex)",
@@ -630,7 +630,7 @@
 			">**Curse of Decay:** *save* Will DC 10 + 1/2 character's level + character's Charisma bonus; *effect* target takes 1 point of Con damage per day and ages at a rate of 1 year per day (eventually incurring all of the penalties of old age but none of the bonuses)."
 		]
 	},
-	"linnorm_death_curse_cairn": { "copyof": "cairn_linnorm_death_curse" },
+	"linnorm_death_curse_cairn": { "redirect": "cairn_linnorm_death_curse" },
 	"crag_linnorm_death_curse": {
 		"name": "Crag Linnorm Death Curse",
 		"nameSuffix": "(Su)",
@@ -641,7 +641,7 @@
 			">**Curse of Fire:** *save* Will DC 10 + 1/2 character's level + character's Charisma bonus; *effect* target gains vulnerability to fire."
 		]
 	},
-	"linnorm_death_curse_crag": { "copyof": "crag_linnorm_death_curse" },
+	"linnorm_death_curse_crag": { "redirect": "crag_linnorm_death_curse" },
 	"fjord_linnorm_death_curse": {
 		"name": "Fjord Linnorm Death Curse",
 		"nameSuffix": "(Su)",
@@ -652,7 +652,7 @@
 			">**Curse of Drowning:** *save* Will DC 10 + 1/2 character's level + character's Charisma bonus; *effect* target is unable to breathe water (even with magic), can hold its breath only half as long as normal, and is {misc/sickened} whenever it holds its breath."
 		]
 	},
-	"linnorm_death_curse_fjord": { "copyof": "fjord_linnorm_death_curse" },
+	"linnorm_death_curse_fjord": { "redirect": "fjord_linnorm_death_curse" },
 	"ice_linnorm_death_curse": {
 		"name": "Ice Linnorm Death Curse",
 		"nameSuffix": "(Su)",
@@ -663,7 +663,7 @@
 			">**Curse of Frost:** *save* Will DC 10 + 1/2 character's level + character's Charisma bonus; *effect* target gains vulnerability to cold."
 		]
 	},
-	"linnorm_death_curse_ice": { "copyof": "ice_linnorm_death_curse" },
+	"linnorm_death_curse_ice": { "redirect": "ice_linnorm_death_curse" },
 	"taiga_linnorm_death_curse": {
 		"name": "Taiga Linnorm Death Curse",
 		"nameSuffix": "(Su)",
@@ -674,7 +674,7 @@
 			">**Curse of Electricity:** *save* Will DC 10 + 1/2 character's level + character's Charisma bonus; *effect* target gains vulnerability to electricity."
 		]
 	},
-	"linnorm_death_curse_taiga": { "copyof": "taiga_linnorm_death_curse" },
+	"linnorm_death_curse_taiga": { "redirect": "taiga_linnorm_death_curse" },
 	"tarn_linnorm_death_curse": {
 		"name": "Tarn Linnorm Death Curse",
 		"nameSuffix": "(Su)",
@@ -685,7 +685,7 @@
 			">**Curse of Death:** *save* Will DC 10 + 1/2 character's level + character's Charisma bonus; *effect* target is no longer affected by healing spells and can't heal damage naturally by resting."
 		]
 	},
-	"linnorm_death_curse_tarn": { "copyof": "tarn_linnorm_death_curse" },
+	"linnorm_death_curse_tarn": { "redirect": "tarn_linnorm_death_curse" },
 	"tor_linnorm_death_curse": {
 		"name": "Tor Linnorm Death Curse",
 		"nameSuffix": "(Su)",
@@ -696,7 +696,7 @@
 			">**Curse of Boiling Blood:** *save* Will DC 10 + 1/2 character's level + character's Charisma bonus; *effect* target gains vulnerability to fire and is permanently {misc/staggered} from the pain of its boiling blood (this is a pain effect)."
 		]
 	},
-	"linnorm_death_curse_tor": { "copyof": "tor_linnorm_death_curse" },
+	"linnorm_death_curse_tor": { "redirect": "tor_linnorm_death_curse" },
 	"liquid_courage": {
 		"name": "Liquid Courage",
 		"nameSuffix": "(Ex)",
@@ -1136,7 +1136,7 @@
 			"When the barbarian is using the suffocating grip rage power, the grappled creature cannot hold its breath and immediately begins {rule/suffocati/ng>on}. A barbarian must be at least 12th level and have the {ragepower/suffocating grip} rage power to select this rage power."
 		]
 	},
-	"suffocating_grip_greater": { "copyof": "greater_suffocating_grip" },
+	"suffocating_grip_greater": { "redirect": "greater_suffocating_grip" },
 	"summer_rage": {
 		"name": "Summer Rage",
 		"nameSuffix": "(Su)",
@@ -1350,7 +1350,7 @@
 			"**Totem** rage powers are only available to barbarians taking the {arc-barbarian/Totem Warrior} archetype. A barbarian cannot select from more than one group of totem rage powers; for example, a barbarian who selects a *beast* totem rage power cannot later choose to gain any of the *dragon* totem rage powers (any rage power with \"dragon totem\" in its title)."
 		]
 	},
-	"ancestor_totem_lesser": { "copyof": "lesser_ancestor_totem" },
+	"ancestor_totem_lesser": { "redirect": "lesser_ancestor_totem" },
 	"ancestor_totem": {
 		"name": "Ancestor Totem",
 		"nameSuffix": "(Su)",
@@ -1371,7 +1371,7 @@
 			"The barbarian's insight bonus to her chosen skill increases to +6. Once per rage, she can spend one round of rage as an immediate action to reroll a skill check in the chosen skill. She must take the result of the second roll, even if it is lower. A barbarian must have the {ragepower/ancestor totem} rage power and be at least 10th level to select this rage power."
 		]
 	},
-	"ancestor_totem_greater": { "copyof": "greater_ancestor_totem" },
+	"ancestor_totem_greater": { "redirect": "greater_ancestor_totem" },
 	"lesser_atavism_totem": {
 		"name": "Lesser Atavism Totem",
 		"nameSuffix": "(Su)",
@@ -1383,7 +1383,7 @@
 			"**Totem** rage powers are only available to barbarians taking the {arc-barbarian/Totem Warrior} archetype. A barbarian cannot select from more than one group of totem rage powers; for example, a barbarian who selects a *beast* totem rage power cannot later choose to gain any of the *dragon* totem rage powers (any rage power with \"dragon totem\" in its title)."
 		]
 	},
-	"atavism_totem_lesser": { "copyof": "lesser_atavism_totem" },
+	"atavism_totem_lesser": { "redirect": "lesser_atavism_totem" },
 	"atavism_totem": {
 		"name": "Atavism Totem",
 		"nameSuffix": "(Su)",
@@ -1406,7 +1406,7 @@
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
-	"atavism_totem_greater": { "copyof": "greater_atavism_totem" },
+	"atavism_totem_greater": { "redirect": "greater_atavism_totem" },
 	"lesser_beast_totem": {
 		"name": "Lesser Beast Totem",
 		"nameSuffix": "(Su)",
@@ -1419,7 +1419,7 @@
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
-	"beast_totem_lesser": { "copyof": "lesser_beast_totem" },
+	"beast_totem_lesser": { "redirect": "lesser_beast_totem" },
 	"beast_totem": {
 		"name": "Beast Totem",
 		"nameSuffix": "(Su)",
@@ -1442,7 +1442,7 @@
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
-	"beast_totem_greater": { "copyof": "greater_beast_totem" },
+	"beast_totem_greater": { "redirect": "greater_beast_totem" },
 	"lesser_celestial_totem": {
 		"name": "Lesser Celestial Totem",
 		"nameSuffix": "(Su)",
@@ -1455,7 +1455,7 @@
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
-	"celestial_totem_lesser": { "copyof": "lesser_celestial_totem" },
+	"celestial_totem_lesser": { "redirect": "lesser_celestial_totem" },
 	"celestial_totem": {
 		"name": "Celestial Totem",
 		"nameSuffix": "(Su)",
@@ -1478,7 +1478,7 @@
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
-	"celestial_totem_greater": { "copyof": "greater_celestial_totem" },
+	"celestial_totem_greater": { "redirect": "greater_celestial_totem" },
 	"lesser_chaos_totem": {
 		"name": "Lesser Chaos Totem",
 		"nameSuffix": "(Su)",
@@ -1491,7 +1491,7 @@
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
-	"chaos_totem_lesser": { "copyof": "lesser_chaos_totem" },
+	"chaos_totem_lesser": { "redirect": "lesser_chaos_totem" },
 	"chaos_totem": {
 		"name": "Chaos Totem",
 		"nameSuffix": "(Su)",
@@ -1514,7 +1514,7 @@
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
-	"chaos_totem_greater": { "copyof": "greater_chaos_totem" },
+	"chaos_totem_greater": { "redirect": "greater_chaos_totem" },
 	"lesser_cult_totem": {
 		"name": "Lesser Cult Totem",
 		"nameSuffix": "(Ex)",
@@ -1527,7 +1527,7 @@
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
-	"cult_totem_lesser": { "copyof": "lesser_cult_totem" },
+	"cult_totem_lesser": { "redirect": "lesser_cult_totem" },
 	"cult_totem": {
 		"name": "Cult Totem",
 		"nameSuffix": "(Ex)",
@@ -1550,7 +1550,7 @@
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
-	"cult_totem_greater": { "copyof": "greater_cult_totem" },
+	"cult_totem_greater": { "redirect": "greater_cult_totem" },
 	"lesser_daemon_totem": {
 		"name": "Lesser Daemon Totem",
 		"compilationSources": [ [ "Horror Adventures" ] ],
@@ -1562,7 +1562,7 @@
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
-	"daemon_totem_lesser": { "copyof": "lesser_daemon_totem" },
+	"daemon_totem_lesser": { "redirect": "lesser_daemon_totem" },
 	"daemon_totem": {
 		"name": "Daemon Totem",
 		"nameSuffix": "(Su)",
@@ -1585,7 +1585,7 @@
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
-	"daemon_totem_greater": { "copyof": "greater_daemon_totem" },
+	"daemon_totem_greater": { "redirect": "greater_daemon_totem" },
 	"dragon_totem": {
 		"name": "Dragon Totem",
 		"nameSuffix": "(Su)",
@@ -1632,7 +1632,7 @@
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
-	"elemental_totem_lesser": { "copyof": "lesser_elemental_totem" },
+	"elemental_totem_lesser": { "redirect": "lesser_elemental_totem" },
 	"air_totem": {
 		"name": "Air Totem",
 		"nameSuffix": "(Su)",
@@ -1655,7 +1655,7 @@
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
-	"air_totem_greater": { "copyof": "greater_air_totem" },
+	"air_totem_greater": { "redirect": "greater_air_totem" },
 	"earth_totem": {
 		"name": "Earth Totem",
 		"nameSuffix": "(Ex)",
@@ -1678,7 +1678,7 @@
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
-	"earth_totem_greater": { "copyof": "greater_earth_totem" },
+	"earth_totem_greater": { "redirect": "greater_earth_totem" },
 	"fire_totem": {
 		"name": "Fire Totem",
 		"nameSuffix": "(Su)",
@@ -1701,7 +1701,7 @@
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
-	"fire_totem_greater": { "copyof": "greater_fire_totem" },
+	"fire_totem_greater": { "redirect": "greater_fire_totem" },
 	"water_totem": {
 		"name": "Water Totem",
 		"nameSuffix": "(Ex)",
@@ -1724,7 +1724,7 @@
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
-	"water_totem_greater": { "copyof": "greater_water_totem" },
+	"water_totem_greater": { "redirect": "greater_water_totem" },
 	"lesser_fiend_totem": {
 		"name": "Lesser Fiend Totem",
 		"nameSuffix": "(Su)",
@@ -1737,7 +1737,7 @@
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
-	"fiend_totem_lesser": { "copyof": "lesser_fiend_totem" },
+	"fiend_totem_lesser": { "redirect": "lesser_fiend_totem" },
 	"fiend_totem": {
 		"name": "Fiend Totem",
 		"nameSuffix": "(Su)",
@@ -1760,7 +1760,7 @@
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
-	"fiend_totem_greater": { "copyof": "greater_fiend_totem" },
+	"fiend_totem_greater": { "redirect": "greater_fiend_totem" },
 	"hive_totem": {
 		"name": "Hive Totem",
 		"nameSuffix": "(Su)",
@@ -1807,7 +1807,7 @@
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
-	"moon_totem_lesser": { "copyof": "lesser_moon_totem" },
+	"moon_totem_lesser": { "redirect": "lesser_moon_totem" },
 	"moon_totem": {
 		"name": "Moon Totem",
 		"nameSuffix": "(Su)",
@@ -1830,7 +1830,7 @@
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
-	"moon_totem_greater": { "copyof": "greater_moon_totem" },
+	"moon_totem_greater": { "redirect": "greater_moon_totem" },
 	"lesser_psychopomp_totem": {
 		"name": "Lesser Psychopomp Totem",
 		"compilationSources": [ [ "Pathfinder #139: The Dead Road" ] ],
@@ -1842,7 +1842,7 @@
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
-	"psychopomp_totem_lesser": { "copyof": "lesser_psychopomp_totem" },
+	"psychopomp_totem_lesser": { "redirect": "lesser_psychopomp_totem" },
 	"psychopomp_totem": {
 		"name": "Psychopomp Totem",
 		"level": 1,
@@ -1863,7 +1863,7 @@
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
-	"psychopomp_totem_greater": { "copyof": "greater_psychopomp_totem" },
+	"psychopomp_totem_greater": { "redirect": "greater_psychopomp_totem" },
 	"lesser_spire_totem": {
 		"name": "Lesser Spire Totem",
 		"nameSuffix": "(Su)",
@@ -1876,7 +1876,7 @@
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
-	"spire_totem_lesser": { "copyof": "lesser_spire_totem" },
+	"spire_totem_lesser": { "redirect": "lesser_spire_totem" },
 	"spire_totem": {
 		"name": "Spire Totem",
 		"nameSuffix": "(Su)",
@@ -1899,7 +1899,7 @@
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
-	"spire_totem_greater": { "copyof": "greater_spire_totem" },
+	"spire_totem_greater": { "redirect": "greater_spire_totem" },
 	"lesser_spirit_totem": {
 		"name": "Lesser Spirit Totem",
 		"nameSuffix": "(Su)",
@@ -1912,7 +1912,7 @@
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
-	"spirit_totem_lesser": { "copyof": "lesser_spirit_totem" },
+	"spirit_totem_lesser": { "redirect": "lesser_spirit_totem" },
 	"spirit_totem": {
 		"name": "Spirit Totem",
 		"nameSuffix": "(Su)",
@@ -1935,7 +1935,7 @@
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
-	"spirit_totem_greater": { "copyof": "greater_spirit_totem" },
+	"spirit_totem_greater": { "redirect": "greater_spirit_totem" },
 	"lesser_sun_totem": {
 		"name": "Lesser Sun Totem",
 		"nameSuffix": "(Su)",
@@ -1948,7 +1948,7 @@
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
-	"sun_totem_lesser": { "copyof": "lesser_sun_totem" },
+	"sun_totem_lesser": { "redirect": "lesser_sun_totem" },
 	"sun_totem": {
 		"name": "Sun Totem",
 		"nameSuffix": "(Su)",
@@ -1971,7 +1971,7 @@
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
-	"sun_totem_greater": { "copyof": "greater_sun_totem" },
+	"sun_totem_greater": { "redirect": "greater_sun_totem" },
 	"lesser_tyrant_totem": {
 		"name": "Lesser Tyrant Totem",
 		"nameSuffix": "(Ex)",
@@ -1984,7 +1984,7 @@
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
-	"tyrant_totem_lesser": { "copyof": "lesser_tyrant_totem" },
+	"tyrant_totem_lesser": { "redirect": "lesser_tyrant_totem" },
 	"tyrant_totem": {
 		"name": "Tyrant Totem",
 		"nameSuffix": "(Ex)",
@@ -2007,7 +2007,7 @@
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},
-	"tyrant_totem_greater": { "copyof": "greater_tyrant_totem" },
+	"tyrant_totem_greater": { "redirect": "greater_tyrant_totem" },
 	"world_serpent_totem": {
 		"name": "World Serpent Totem",
 		"nameSuffix": "(Su)",
@@ -2053,7 +2053,7 @@
 			"**Blood** rage powers grant powers in a theme. A barbarian cannot select from more than one group of blood rage powers."
 		]
 	},
-	"abyssal_blood_lesser": { "copyof": "lesser_abyssal_blood" },
+	"abyssal_blood_lesser": { "redirect": "lesser_abyssal_blood" },
 	"abyssal_blood": {
 		"name": "Abyssal Blood",
 		"nameSuffix": "(Su)",
@@ -2074,7 +2074,7 @@
 			"While raging, the barbarian gains resistance 5 to acid, cold, and fire. You must be 10th level and have the {ragepower/abyssal blood} rage power to select this power."
 		]
 	},
-	"abyssal_blood_greater": { "copyof": "greater_abyssal_blood" },
+	"abyssal_blood_greater": { "redirect": "greater_abyssal_blood" },
 	"lesser_celestial_blood": {
 		"name": "Lesser Celestial Blood",
 		"nameSuffix": "(Su)",
@@ -2086,7 +2086,7 @@
 			"**Blood** rage powers grant powers in a theme. A barbarian cannot select from more than one group of blood rage powers."
 		]
 	},
-	"celestial_blood_lesser": { "copyof": "lesser_celestial_blood" },
+	"celestial_blood_lesser": { "redirect": "lesser_celestial_blood" },
 	"celestial_blood": {
 		"name": "Celestial Blood",
 		"nameSuffix": "(Su)",
@@ -2107,7 +2107,7 @@
 			"Once per rage, the barbarian can reroll one ability check, skill check, or saving throw she just made. She must take the second result, even if it's lower. She must decide to use this ability after the die is rolled but before results are revealed. You must be 10th level and have the {ragepower/celestial blood} rage power to select this power."
 		]
 	},
-	"celestial_blood_greater": { "copyof": "greater_celestial_blood" },
+	"celestial_blood_greater": { "redirect": "greater_celestial_blood" },
 	"lesser_draconic_blood": {
 		"name": "Lesser Draconic Blood",
 		"nameSuffix": "(Su)",
@@ -2119,7 +2119,7 @@
 			"**Blood** rage powers grant powers in a theme. A barbarian cannot select from more than one group of blood rage powers."
 		]
 	},
-	"draconic_blood_lesser": { "copyof": "lesser_draconic_blood" },
+	"draconic_blood_lesser": { "redirect": "lesser_draconic_blood" },
 	"draconic_blood": {
 		"name": "Draconic Blood",
 		"nameSuffix": "(Su)",
@@ -2140,7 +2140,7 @@
 			"While raging, the barbarian gains a breath weapon that she can use once per day. For every 2 barbarian levels, this breath weapon deals 1d6 points of damage of the energy type she choose for the draconic blood power, either in a 30-foot cone (if cold or fire) or a 60-foot line (if acid or electricity). Those caught in the area of the breath can attempt a Reflex saving throw for half damage. The DC of this save is equal to 10 + 1/2 the barbarian's level + her Constitution modifier. You must be 10th level and have the {ragepower/draconic blood} rage power to select this power."
 		]
 	},
-	"draconic_blood_greater": { "copyof": "greater_draconic_blood" },
+	"draconic_blood_greater": { "redirect": "greater_draconic_blood" },
 	"lesser_elemental_blood": {
 		"name": "Lesser Elemental Blood",
 		"nameSuffix": "(Su)",
@@ -2152,7 +2152,7 @@
 			"**Blood** rage powers grant powers in a theme. A barbarian cannot select from more than one group of blood rage powers."
 		]
 	},
-	"elemental_blood_lesser": { "copyof": "lesser_elemental_blood" },
+	"elemental_blood_lesser": { "redirect": "lesser_elemental_blood" },
 	"elemental_blood": {
 		"name": "Elemental Blood",
 		"nameSuffix": "(Su)",
@@ -2173,7 +2173,7 @@
 			"While raging, the barbarian gains a special movement type or bonus based on her chosen element: acid grants a burrow speed of 30 feet, cold grants a swim speed of 60 feet, fire grants an increase of 30 feet to her base land speed, and electricity grants a fly speed of 60 feet (good maneuverability). You must be 10th level and have the {ragepower/elemental blood} rage power to select this power."
 		]
 	},
-	"elemental_blood_greater": { "copyof": "greater_elemental_blood" },
+	"elemental_blood_greater": { "redirect": "greater_elemental_blood" },
 	"lesser_fey_blood": {
 		"name": "Lesser Fey Blood",
 		"nameSuffix": "(Su)",
@@ -2185,7 +2185,7 @@
 			"**Blood** rage powers grant powers in a theme. A barbarian cannot select from more than one group of blood rage powers."
 		]
 	},
-	"fey_blood_lesser": { "copyof": "lesser_fey_blood" },
+	"fey_blood_lesser": { "redirect": "lesser_fey_blood" },
 	"fey_blood": {
 		"name": "Fey Blood",
 		"nameSuffix": "(Su)",
@@ -2206,7 +2206,7 @@
 			"While raging, as long as the barbarian moves at least 10 feet, she gain the effects of {spell/blur} for 1 round. You must be 10th level and have the {ragepower/fey blood} rage power to select this power."
 		]
 	},
-	"fey_blood_greater": { "copyof": "greater_fey_blood" },
+	"fey_blood_greater": { "redirect": "greater_fey_blood" },
 	"lesser_infernal_blood": {
 		"name": "Lesser Infernal Blood",
 		"nameSuffix": "(Su)",
@@ -2218,7 +2218,7 @@
 			"**Blood** rage powers grant powers in a theme. A barbarian cannot select from more than one group of blood rage powers."
 		]
 	},
-	"infernal_blood_lesser": { "copyof": "lesser_infernal_blood" },
+	"infernal_blood_lesser": { "redirect": "lesser_infernal_blood" },
 	"infernal_blood": {
 		"name": "Infernal Blood",
 		"nameSuffix": "(Su)",
@@ -2239,7 +2239,7 @@
 			"While raging, the barbarian gains a +4 bonus against enchantment and fear effects. You must be 10th level and have the {ragepower/infernal blood} rage power to select this power."
 		]
 	},
-	"infernal_blood_greater": { "copyof": "greater_infernal_blood" },
+	"infernal_blood_greater": { "redirect": "greater_infernal_blood" },
 	"lesser_undead_blood": {
 		"name": "Lesser Undead Blood",
 		"nameSuffix": "(Su)",
@@ -2251,7 +2251,7 @@
 			"**Blood** rage powers grant powers in a theme. A barbarian cannot select from more than one group of blood rage powers."
 		]
 	},
-	"undead_blood_lesser": { "copyof": "lesser_undead_blood" },
+	"undead_blood_lesser": { "redirect": "lesser_undead_blood" },
 	"undead_blood": {
 		"name": "Undead Blood",
 		"nameSuffix": "(Su)",
@@ -2272,7 +2272,7 @@
 			"While raging, the barbarian gains cold resistance 10, as well as DR 10/- against nonlethal damage. You must be 10th level and have the {ragepower/undead blood} rage power to select this power."
 		]
 	},
-	"undead_blood_greater": { "copyof": "greater_undead_blood" },
+	"undead_blood_greater": { "redirect": "greater_undead_blood" },
 	"accurate_stance": {
 		"name": "Accurate Stance",
 		"nameSuffix": "(Ex)",

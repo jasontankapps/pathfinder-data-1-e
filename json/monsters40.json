@@ -56,8 +56,8 @@
 			"**Family:** {family/Veela}"
 		]
 	},
-	"air_veela": { "copyof": "veela_air_veela" },
-	"veela_air": { "copyof": "veela_air_veela" },
+	"air_veela": { "redirect": "veela_air_veela" },
+	"veela_air": { "redirect": "veela_air_veela" },
 	"veela_earth_veela": {
 		"name": "Earth Veela",
 		"sources": [ "Bestiary 5" ],
@@ -115,8 +115,8 @@
 			"**Family:** {family/Veela}"
 		]
 	},
-	"earth_veela": { "copyof": "veela_earth_veela" },
-	"veela_earth": { "copyof": "veela_earth_veela" },
+	"earth_veela": { "redirect": "veela_earth_veela" },
+	"veela_earth": { "redirect": "veela_earth_veela" },
 	"veela_fire_veela": {
 		"name": "Fire Veela",
 		"sources": [ "Bestiary 5" ],
@@ -175,8 +175,8 @@
 			"**Family:** {family/Veela}"
 		]
 	},
-	"fire_veela": { "copyof": "veela_fire_veela" },
-	"veela_fire": { "copyof": "veela_fire_veela" },
+	"fire_veela": { "redirect": "veela_fire_veela" },
+	"veela_fire": { "redirect": "veela_fire_veela" },
 	"veela_water_veela": {
 		"name": "Water Veela",
 		"sources": [ "Bestiary 5" ],
@@ -234,8 +234,8 @@
 			"**Family:** {family/Veela}"
 		]
 	},
-	"water_veela": { "copyof": "veela_water_veela" },
-	"veela_water": { "copyof": "veela_water_veela" },
+	"water_veela": { "redirect": "veela_water_veela" },
+	"veela_water": { "redirect": "veela_water_veela" },
 	"vegepygmy": {
 		"name": "Vegepygmy",
 		"sources": [
@@ -355,7 +355,7 @@
 			"Known by many as \"vegepygmy hounds,\" these masses of fungal matter dwarf their diminutive vegepygmy kin, but still maintain a strong sense of loyalty to them. Named for the vicious thorns that adorn their backs, thornies infect their prey with a weak paralytic toxin, making the prey susceptible to capture. Creatures infected by russet mold while thorny poison lingers in their systems have a small chance of producing thorny offspring."
 		]
 	},
-	"thorny": { "copyof": "vegepygmy_thorny" },
+	"thorny": { "redirect": "vegepygmy_thorny" },
 	"veldenar": {
 		"name": "Veldenar",
 		"sources": [ "Planes of Power" ],
@@ -700,7 +700,7 @@
 			"Greater verdurous oozes are formed when several green oozes merge together as part of their reproductive process. They are similar in form but much larger, and while still green, exhibit white and red lines that resemble veins running through them. They are even more voracious and dangerous than standard green oozes, as they eat and eat to gain enough mass to reproduce. A greater verdurous ooze typically weighs 2,400 pounds and can easily spread to fill a 10-foot-square area."
 		]
 	},
-	"greater_verdurous_ooze": { "copyof": "verdurous_ooze_greater_verduous_ooze" },
+	"greater_verdurous_ooze": { "redirect": "verdurous_ooze_greater_verduous_ooze" },
 	"vescavor_queen": {
 		"name": "Vescavor Queen",
 		"sources": [
@@ -1879,8 +1879,8 @@
 			"A giant vulture stands more than 13 feet tall, has a wingspan of over 30 feet, and weighs 500 to 600 pounds."
 		]
 	},
-	"vulture_giant": { "copyof": "vulture_giant_vulture" },
-	"giant_vulture": { "copyof": "vulture_giant_vulture" },
+	"vulture_giant": { "redirect": "vulture_giant_vulture" },
+	"giant_vulture": { "redirect": "vulture_giant_vulture" },
 	"vulture_whisperfall_vulture": {
 		"name": "Whisperfall Vulture",
 		"sources": [ "Belkzen, Hold of the Orc Hordes" ],
@@ -1927,8 +1927,8 @@
 			"A mature Whisperfall vulture has an 8-foot-long wingspan and weighs 50 pounds."
 		]
 	},
-	"vulture_whisperfall": { "copyof": "vulture_whisperfall_vulture" },
-	"whisperfall_vulture": { "copyof": "vulture_whisperfall_vulture" },
+	"vulture_whisperfall": { "redirect": "vulture_whisperfall_vulture" },
+	"whisperfall_vulture": { "redirect": "vulture_whisperfall_vulture" },
 	"vydrarch": {
 		"name": "Vydrarch",
 		"sources": [ "Magnimar, City of Monuments" ],
@@ -2237,7 +2237,7 @@
 			"[^D]: Domain spell"
 		]
 	},
-	"deep_one_hybrid": { "copyof": "deep_one_deep_one_hybrid" },
+	"deep_one_hybrid": { "redirect": "deep_one_deep_one_hybrid" },
 	"deep_one_elder_deep_one": {
 		"name": "Elder Deep One",
 		"sources": [ "Bestiary 5" ],
@@ -2308,5 +2308,5 @@
 			"A few deep ones never stop growing over the eons of their endless lives. Many elder deep ones claim the names of monsters or gods for their own-Mother Hydra and Father Dagon being two of the more legendary of their kind. Elder deep ones ascend to the status of near-gods in deep one society, towering over their kin and ruling their sunken cities. Just as they are worshiped, so do the elder deep ones worship the Great Old Ones and Outer Gods themselves."
 		]
 	},
-	"elder_deep_one": { "copyof": "deep_one_elder_deep_one" }
+	"elder_deep_one": { "redirect": "deep_one_elder_deep_one" }
 }

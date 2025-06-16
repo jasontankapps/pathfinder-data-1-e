@@ -77,7 +77,7 @@
 			"Known as ugoloroths among their own kind, the largest and most ancient faceless hulks serve as spies and infiltrators within the societies of the largest races of giantkind, including cloud giants, storm giants, and taiga giants. An ugoloroth is a faceless hulk with the advanced and giant creature simple templates. It gains {feat/Combat Reflexes} and {feat/Greater Bull Rush} as bonus feats. It casts spell-like abilities as a 12th-level caster, and gains levitate and undetectable alignment as at-will spell-like abilities. When using its change shape ability, an ugoloroth can take the shape of any Huge humanoid. More so than their ugoroth kin, ugoloroths often take levels in classes such as barbarian, fighter, ranger, sorcerer, and witch to more easily pass as members of various giant races."
 		]
 	},
-	"ugoroth": { "copyof": "faceless_hulk_ugoroth" },
+	"ugoroth": { "redirect": "faceless_hulk_ugoroth" },
 	"faceless_stalker": {
 		"name": "Faceless Stalker",
 		"sources": [
@@ -389,7 +389,7 @@
 			"**Family:** {family/Familiar}"
 		]
 	},
-	"archaeopteryx": { "copyof": "familiar_archaeopteryx" },
+	"archaeopteryx": { "redirect": "familiar_archaeopteryx" },
 	"familiar_arctic_hare": {
 		"name": "Arctic Hare (Familiar)",
 		"sources": [
@@ -439,8 +439,8 @@
 			"**Family:** {family/Familiar}"
 		]
 	},
-	"arctic_hare": { "copyof": "familiar_arctic_hare" },
-	"hare_arctic": { "copyof": "familiar_arctic_hare" },
+	"arctic_hare": { "redirect": "familiar_arctic_hare" },
+	"hare_arctic": { "redirect": "familiar_arctic_hare" },
 	"familiar_arctic_tern": {
 		"name": "Arctic Tern (Familiar)",
 		"sources": [
@@ -492,8 +492,8 @@
 			"**Family:** {family/Familiar}"
 		]
 	},
-	"arctic_tern": { "copyof": "familiar_arctic_tern" },
-	"tern_arctic": { "copyof": "familiar_arctic_tern" },
+	"arctic_tern": { "redirect": "familiar_arctic_tern" },
+	"tern_arctic": { "redirect": "familiar_arctic_tern" },
 	"familiar_armadillo": {
 		"name": "Armadillo (Familiar)",
 		"sources": [
@@ -553,7 +553,7 @@
 			"**Family:** {family/Familiar}"
 		]
 	},
-	"armadillo": { "copyof": "familiar_armadillo" },
+	"armadillo": { "redirect": "familiar_armadillo" },
 	"familiar_bat": {
 		"name": "Bat (Familiar)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -597,7 +597,7 @@
 			"**Family:** {family/Familiar}"
 		]
 	},
-	"bat": { "copyof": "familiar_bat" },
+	"bat": { "redirect": "familiar_bat" },
 	"familiar_blue_ringed_octopus": {
 		"name": "Blue-Ringed Octopus (Familiar)",
 		"sources": [
@@ -656,8 +656,8 @@
 			"[^B]: Bonus feat."
 		]
 	},
-	"blue_ringed_octopus": { "copyof": "familiar_blue_ringed_octopus" },
-	"octopus_blue_ringed": { "copyof": "familiar_blue_ringed_octopus" },
+	"blue_ringed_octopus": { "redirect": "familiar_blue_ringed_octopus" },
+	"octopus_blue_ringed": { "redirect": "familiar_blue_ringed_octopus" },
 	"familiar_butterfly_moth": {
 		"name": "Butterfly/Moth (Familiar)",
 		"sources": [
@@ -705,11 +705,11 @@
 			"**Family:** {family/Familiar}"
 		]
 	},
-	"butterfly": { "copyof": "familiar_butterfly_moth" },
-	"familiar_butterfly": { "copyof": "familiar_butterfly_moth" },
-	"butterfly_or_moth": { "copyof": "familiar_butterfly_moth" },
-	"butterfly_moth": { "copyof": "familiar_butterfly_moth" },
-	"moth": { "copyof": "familiar_butterfly_moth" },
+	"butterfly": { "redirect": "familiar_butterfly_moth" },
+	"familiar_butterfly": { "redirect": "familiar_butterfly_moth" },
+	"butterfly_or_moth": { "redirect": "familiar_butterfly_moth" },
+	"butterfly_moth": { "redirect": "familiar_butterfly_moth" },
+	"moth": { "redirect": "familiar_butterfly_moth" },
 	"familiar_cat": {
 		"name": "Cat (Familiar)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -753,7 +753,7 @@
 			"**Family:** {family/Familiar}"
 		]
 	},
-	"cat": { "copyof": "familiar_cat" },
+	"cat": { "redirect": "familiar_cat" },
 	"familiar_chicken": {
 		"name": "Chicken (Familiar)",
 		"sources": [
@@ -812,7 +812,7 @@
 			"**Family:** {family/Familiar}"
 		]
 	},
-	"chicken": { "copyof": "familiar_chicken" },
+	"chicken": { "redirect": "familiar_chicken" },
 	"familiar_cockroach": {
 		"name": "Cockroach (Familiar)",
 		"sources": [
@@ -863,7 +863,7 @@
 			"**Family:** {family/Familiar}"
 		]
 	},
-	"cockroach": { "copyof": "familiar_cockroach" },
+	"cockroach": { "redirect": "familiar_cockroach" },
 	"familiar_creeper_ivy": {
 		"name": "Creeper Ivy (Familiar)",
 		"sources": [
@@ -913,7 +913,7 @@
 			"**Family:** {family/Familiar}"
 		]
 	},
-	"creeper_ivy": { "copyof": "familiar_creeper_ivy" },
+	"creeper_ivy": { "redirect": "familiar_creeper_ivy" },
 	"familiar_dodo": {
 		"name": "Dodo (Familiar)",
 		"sources": [
@@ -963,7 +963,7 @@
 			"**Family:** {family/Familiar}"
 		]
 	},
-	"dodo": { "copyof": "familiar_dodo" },
+	"dodo": { "redirect": "familiar_dodo" },
 	"familiar_donkey_rat": {
 		"name": "Donkey Rat (Familiar)",
 		"sources": [
@@ -1009,8 +1009,8 @@
 			"**Family:** {family/Familiar}"
 		]
 	},
-	"donkey_rat": { "copyof": "familiar_donkey_rat" },
-	"capybara": { "copyof": "familiar_donkey_rat" },
+	"donkey_rat": { "redirect": "familiar_donkey_rat" },
+	"capybara": { "redirect": "familiar_donkey_rat" },
 	"familiar_dwarf_caiman": {
 		"name": "Dwarf Caiman (Familiar)",
 		"sources": [
@@ -1063,7 +1063,7 @@
 			"**Family:** {family/Familiar}"
 		]
 	},
-	"dwarf_caiman": { "copyof": "familiar_dwarf_caiman" },
+	"dwarf_caiman": { "redirect": "familiar_dwarf_caiman" },
 	"familiar_dweomer_cap": {
 		"name": "Dweomer Cap (Familiar)",
 		"sources": [
@@ -1120,7 +1120,7 @@
 			"**Family:** {family/Familiar}"
 		]
 	},
-	"dweomer_cap": { "copyof": "familiar_dweomer_cap" },
+	"dweomer_cap": { "redirect": "familiar_dweomer_cap" },
 	"familiar_fire_salamander": {
 		"name": "Fire Salamander (Familiar)",
 		"sources": [
@@ -1176,7 +1176,7 @@
 			"**Family:** {family/Familiar}"
 		]
 	},
-	"fire_salamander": { "copyof": "familiar_fire_salamander" },
+	"fire_salamander": { "redirect": "familiar_fire_salamander" },
 	"familiar_flowering_lattice": {
 		"name": "Flowering Lattice (Familiar)",
 		"sources": [
@@ -1232,7 +1232,7 @@
 			"**Family:** {family/Familiar}"
 		]
 	},
-	"flowering_lattice": { "copyof": "familiar_flowering_lattice" },
+	"flowering_lattice": { "redirect": "familiar_flowering_lattice" },
 	"familiar_flying_fox": {
 		"name": "Flying Fox (Familiar)",
 		"sources": [
@@ -1279,7 +1279,7 @@
 			"**Family:** {family/Familiar}"
 		]
 	},
-	"flying_fox": { "copyof": "familiar_flying_fox" },
+	"flying_fox": { "redirect": "familiar_flying_fox" },
 	"familiar_flying_squirrel": {
 		"name": "Flying Squirrel (Familiar)",
 		"sources": [
@@ -1333,7 +1333,7 @@
 			"[^B]: Bonus feat."
 		]
 	},
-	"flying_squirrel": { "copyof": "familiar_flying_squirrel" },
+	"flying_squirrel": { "redirect": "familiar_flying_squirrel" },
 	"familiar_fox": {
 		"name": "Fox (Familiar)",
 		"sources": [
@@ -1381,7 +1381,7 @@
 			"**Family:** {family/Familiar}"
 		]
 	},
-	"fox": { "copyof": "familiar_fox" },
+	"fox": { "redirect": "familiar_fox" },
 	"familiar_giant_isopod": {
 		"name": "Giant Isopod (Familiar)",
 		"sources": [
@@ -1435,8 +1435,8 @@
 			"**Family:** {family/Familiar}"
 		]
 	},
-	"giant_isopod": { "copyof": "familiar_giant_isopod" },
-	"isopod_giant": { "copyof": "familiar_giant_isopod" },
+	"giant_isopod": { "redirect": "familiar_giant_isopod" },
+	"isopod_giant": { "redirect": "familiar_giant_isopod" },
 	"familiar_giant_tardigrade": {
 		"name": "Giant Tardigrade (Familiar)",
 		"sources": [
@@ -1490,8 +1490,8 @@
 			"**Family:** {family/Familiar}"
 		]
 	},
-	"giant_tardigrade": { "copyof": "familiar_giant_tardigrade" },
-	"tardigrade_giant": { "copyof": "familiar_giant_tardigrade" },
+	"giant_tardigrade": { "redirect": "familiar_giant_tardigrade" },
+	"tardigrade_giant": { "redirect": "familiar_giant_tardigrade" },
 	"familiar_goat": {
 		"name": "Goat (Familiar)",
 		"sources": [
@@ -1538,7 +1538,7 @@
 			"**Family:** {family/Familiar}"
 		]
 	},
-	"goat": { "copyof": "familiar_goat" },
+	"goat": { "redirect": "familiar_goat" },
 	"familiar_hawk": {
 		"name": "Hawk (Familiar)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -1582,8 +1582,8 @@
 			"**Family:** {family/Familiar}"
 		]
 	},
-	"hawk": { "copyof": "familiar_hawk" },
-	"falcon": { "copyof": "familiar_hawk" },
+	"hawk": { "redirect": "familiar_hawk" },
+	"falcon": { "redirect": "familiar_hawk" },
 	"familiar_hedgehog": {
 		"name": "Hedgehog (Familiar)",
 		"sources": [
@@ -1633,7 +1633,7 @@
 			"**Family:** {family/Familiar}"
 		]
 	},
-	"hedgehog": { "copyof": "familiar_hedgehog" },
+	"hedgehog": { "redirect": "familiar_hedgehog" },
 	"familiar_horned_lizard": {
 		"name": "Horned Lizard (Familiar)",
 		"sources": [
@@ -1692,7 +1692,7 @@
 			"**Family:** {family/Familiar}"
 		]
 	},
-	"horned_lizard": { "copyof": "familiar_horned_lizard" },
+	"horned_lizard": { "redirect": "familiar_horned_lizard" },
 	"familiar_house_centipede": {
 		"name": "House Centipede (Familiar)",
 		"sources": [
@@ -1745,8 +1745,8 @@
 			"**Family:** {family/Familiar}"
 		]
 	},
-	"house_centipede": { "copyof": "familiar_house_centipede" },
-	"centipede_house": { "copyof": "familiar_house_centipede" },
+	"house_centipede": { "redirect": "familiar_house_centipede" },
+	"centipede_house": { "redirect": "familiar_house_centipede" },
 	"familiar_ioun_wyrd": {
 		"name": "Ioun Wyrd (Familiar)",
 		"sources": [
@@ -1815,7 +1815,7 @@
 			"**Requirements** {feat/Craft Construct}, {spell/animate objects}, {spell/lesser geas}; Skill Knowledge (arcana) DC 15; **Cost** 1,000 gp plus ioun stone"
 		]
 	},
-	"ioun_wyrd": { "copyof": "familiar_ioun_wyrd" },
+	"ioun_wyrd": { "redirect": "familiar_ioun_wyrd" },
 	"familiar_jerboa": {
 		"name": "Jerboa (Familiar)",
 		"sources": [
@@ -1866,7 +1866,7 @@
 			"**Family:** {family/Familiar}"
 		]
 	},
-	"jerboa": { "copyof": "familiar_jerboa" },
+	"jerboa": { "redirect": "familiar_jerboa" },
 	"familiar_kakapo": {
 		"name": "Kakapo (Familiar)",
 		"sources": [
@@ -1922,7 +1922,7 @@
 			"**Family:** {family/Familiar}"
 		]
 	},
-	"kakapo": { "copyof": "familiar_kakapo" },
+	"kakapo": { "redirect": "familiar_kakapo" },
 	"familiar_king_crab": {
 		"name": "King Crab (Familiar)",
 		"sources": [
@@ -1975,8 +1975,8 @@
 			"**Family:** {family/Familiar}"
 		]
 	},
-	"king_crab": { "copyof": "familiar_king_crab" },
-	"crab_king": { "copyof": "familiar_king_crab" },
+	"king_crab": { "redirect": "familiar_king_crab" },
+	"crab_king": { "redirect": "familiar_king_crab" },
 	"familiar_koala": {
 		"name": "Koala (Familiar)",
 		"sources": [
@@ -2027,7 +2027,7 @@
 			"**Family:** {family/Familiar}"
 		]
 	},
-	"koala": { "copyof": "familiar_koala" },
+	"koala": { "redirect": "familiar_koala" },
 	"familiar_lamprey": {
 		"name": "Lamprey (Familiar)",
 		"sources": [
@@ -2079,7 +2079,7 @@
 			"**Family:** {family/Familiar}"
 		]
 	},
-	"lamprey": { "copyof": "familiar_lamprey" },
+	"lamprey": { "redirect": "familiar_lamprey" },
 	"familiar_lemming": {
 		"name": "Lemming (Familiar)",
 		"sources": [
@@ -2131,7 +2131,7 @@
 			"**Family:** {family/Familiar}"
 		]
 	},
-	"lemming": { "copyof": "familiar_lemming" },
+	"lemming": { "redirect": "familiar_lemming" },
 	"familiar_leopard_slug": {
 		"name": "Leopard Slug (Familiar)",
 		"sources": [
@@ -2189,8 +2189,8 @@
 			"**Family:** {family/Familiar}"
 		]
 	},
-	"leopard_slug": { "copyof": "familiar_leopard_slug" },
-	"slug_leopard": { "copyof": "familiar_leopard_slug" },
+	"leopard_slug": { "redirect": "familiar_leopard_slug" },
+	"slug_leopard": { "redirect": "familiar_leopard_slug" },
 	"familiar_lizard": {
 		"name": "Lizard (Familiar)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -2234,7 +2234,7 @@
 			"**Family:** {family/Familiar}"
 		]
 	},
-	"lizard": { "copyof": "familiar_lizard" },
+	"lizard": { "redirect": "familiar_lizard" },
 	"familiar_margay_cat": {
 		"name": "Margay Cat (Familiar)",
 		"sources": [
@@ -2286,8 +2286,8 @@
 			"**Family:** {family/Familiar}"
 		]
 	},
-	"margay_cat": { "copyof": "familiar_margay_cat" },
-	"cat_margay": { "copyof": "familiar_margay_cat" },
+	"margay_cat": { "redirect": "familiar_margay_cat" },
+	"cat_margay": { "redirect": "familiar_margay_cat" },
 	"familiar_meerkat": {
 		"name": "Meerkat (Familiar)",
 		"sources": [
@@ -2346,7 +2346,7 @@
 			"**Family:** {family/Familiar}"
 		]
 	},
-	"meerkat": { "copyof": "familiar_meerkat" },
+	"meerkat": { "redirect": "familiar_meerkat" },
 	"familiar_mole_uw": {
 		"name": "Mole (UW) (Familiar)",
 		"sources": [
@@ -2398,7 +2398,7 @@
 			"**Family:** {family/Familiar}"
 		]
 	},
-	"mole_uw": { "copyof": "familiar_mole_uw" },
+	"mole_uw": { "redirect": "familiar_mole_uw" },
 	"familiar_mole_ff": {
 		"name": "Mole (FF) (Familiar)",
 		"sources": [
@@ -2448,7 +2448,7 @@
 			"**Family:** {family/Familiar}"
 		]
 	},
-	"mole_ff": { "copyof": "familiar_mole_ff" },
+	"mole_ff": { "redirect": "familiar_mole_ff" },
 	"familiar_monkey": {
 		"name": "Monkey (Familiar)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -2492,7 +2492,7 @@
 			"**Family:** {family/Familiar}"
 		]
 	},
-	"monkey": { "copyof": "familiar_monkey" },
+	"monkey": { "redirect": "familiar_monkey" },
 	"familiar_otter": {
 		"name": "Otter (Familiar)",
 		"sources": [
@@ -2539,7 +2539,7 @@
 			"**Family:** {family/Familiar}"
 		]
 	},
-	"otter": { "copyof": "familiar_otter" },
+	"otter": { "redirect": "familiar_otter" },
 	"familiar_owl": {
 		"name": "Owl (Familiar)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -2583,7 +2583,7 @@
 			"**Family:** {family/Familiar}"
 		]
 	},
-	"owl": { "copyof": "familiar_owl" },
+	"owl": { "redirect": "familiar_owl" },
 	"familiar_peafowl": {
 		"name": "Peafowl (Familiar)",
 		"sources": [
@@ -2641,9 +2641,9 @@
 			"**Family:** {family/Familiar}"
 		]
 	},
-	"peafowl": { "copyof": "familiar_peafowl" },
-	"familiar_peacock": { "copyof": "familiar_peafowl" },
-	"peacock": { "copyof": "familiar_peafowl" },
+	"peafowl": { "redirect": "familiar_peafowl" },
+	"familiar_peacock": { "redirect": "familiar_peafowl" },
+	"peacock": { "redirect": "familiar_peafowl" },
 	"familiar_penguin": {
 		"name": "Penguin (Familiar)",
 		"sources": [
@@ -2700,7 +2700,7 @@
 			"**Family:** {family/Familiar}"
 		]
 	},
-	"penguin": { "copyof": "familiar_penguin" },
+	"penguin": { "redirect": "familiar_penguin" },
 	"familiar_petrifern": {
 		"name": "Petrifern (Familiar)",
 		"sources": [
@@ -2759,7 +2759,7 @@
 			"**Family:** {family/Familiar}"
 		]
 	},
-	"petrifern": { "copyof": "familiar_petrifern" },
+	"petrifern": { "redirect": "familiar_petrifern" },
 	"familiar_pig": {
 		"name": "Pig (Familiar)",
 		"sources": [
@@ -2806,7 +2806,7 @@
 			"**Family:** {family/Familiar}"
 		]
 	},
-	"pig": { "copyof": "familiar_pig" },
+	"pig": { "redirect": "familiar_pig" },
 	"familiar_platypus": {
 		"name": "Platypus (Familiar)",
 		"sources": [
@@ -2868,7 +2868,7 @@
 			"**Family:** {family/Familiar}"
 		]
 	},
-	"platypus": { "copyof": "familiar_platypus" },
+	"platypus": { "redirect": "familiar_platypus" },
 	"familiar_popoto_dolphin": {
 		"name": "Popoto Dolphin (Familiar)",
 		"sources": [
@@ -2917,7 +2917,7 @@
 			"**Family:** {family/Familiar}"
 		]
 	},
-	"popoto_dolphin": { "copyof": "familiar_popoto_dolphin" },
+	"popoto_dolphin": { "redirect": "familiar_popoto_dolphin" },
 	"familiar_ptarmigan": {
 		"name": "Ptarmigan (Familiar)",
 		"sources": [
@@ -2969,7 +2969,7 @@
 			"**Family:** {family/Familiar}"
 		]
 	},
-	"ptarmigan": { "copyof": "familiar_ptarmigan" },
+	"ptarmigan": { "redirect": "familiar_ptarmigan" },
 	"familiar_pufferfish": {
 		"name": "Pufferfish (Familiar)",
 		"sources": [
@@ -3028,7 +3028,7 @@
 			"**Family:** {family/Familiar}"
 		]
 	},
-	"pufferfish": { "copyof": "familiar_pufferfish" },
+	"pufferfish": { "redirect": "familiar_pufferfish" },
 	"familiar_puffin": {
 		"name": "Puffin (Familiar)",
 		"sources": [
@@ -3080,7 +3080,7 @@
 			"**Family:** {family/Familiar}"
 		]
 	},
-	"puffin": { "copyof": "familiar_puffin" },
+	"puffin": { "redirect": "familiar_puffin" },
 	"familiar_rabbit": {
 		"name": "Rabbit (Familiar)",
 		"sources": [
@@ -3132,7 +3132,7 @@
 			"**Family:** {family/Familiar}"
 		]
 	},
-	"rabbit": { "copyof": "familiar_rabbit" },
+	"rabbit": { "redirect": "familiar_rabbit" },
 	"familiar_raccoon": {
 		"name": "Raccoon (Familiar)",
 		"sources": [
@@ -3179,7 +3179,7 @@
 			"**Family:** {family/Familiar}"
 		]
 	},
-	"raccoon": { "copyof": "familiar_raccoon" },
+	"raccoon": { "redirect": "familiar_raccoon" },
 	"familiar_rat": {
 		"name": "Rat (Familiar)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -3223,7 +3223,7 @@
 			"**Family:** {family/Familiar}"
 		]
 	},
-	"rat": { "copyof": "familiar_rat" },
+	"rat": { "redirect": "familiar_rat" },
 	"familiar_raven": {
 		"name": "Raven (Familiar)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -3267,7 +3267,7 @@
 			"**Family:** {family/Familiar}"
 		]
 	},
-	"raven": { "copyof": "familiar_raven" },
+	"raven": { "redirect": "familiar_raven" },
 	"familiar_ravenous_tumbleweed": {
 		"name": "Ravenous Tumbleweed (Familiar)",
 		"sources": [
@@ -3323,7 +3323,7 @@
 			"**Family:** {family/Familiar}"
 		]
 	},
-	"ravenous_tumbleweed": { "copyof": "familiar_ravenous_tumbleweed" },
+	"ravenous_tumbleweed": { "redirect": "familiar_ravenous_tumbleweed" },
 	"familiar_razor_fern": {
 		"name": "Razor Fern (Familiar)",
 		"sources": [
@@ -3378,7 +3378,7 @@
 			"**Family:** {family/Familiar}"
 		]
 	},
-	"razor_fern": { "copyof": "familiar_razor_fern" },
+	"razor_fern": { "redirect": "familiar_razor_fern" },
 	"familiar_red_panda": {
 		"name": "Red Panda (Familiar)",
 		"sources": [
@@ -3425,7 +3425,7 @@
 			"**Family:** {family/Familiar}"
 		]
 	},
-	"red_panda": { "copyof": "familiar_red_panda" },
+	"red_panda": { "redirect": "familiar_red_panda" },
 	"familiar_rhamphorhynchus": {
 		"name": "Rhamphorhynchus (Familiar)",
 		"sources": [
@@ -3481,7 +3481,7 @@
 			"**Family:** {family/Familiar}"
 		]
 	},
-	"rhamphorhynchus": { "copyof": "familiar_rhamphorhynchus" },
+	"rhamphorhynchus": { "redirect": "familiar_rhamphorhynchus" },
 	"familiar_sawleg_locust": {
 		"name": "Sawleg Locust (Familiar)",
 		"sources": [
@@ -3538,7 +3538,7 @@
 			"**Family:** {family/Familiar}"
 		]
 	},
-	"sawleg_locust": { "copyof": "familiar_sawleg_locust" },
+	"sawleg_locust": { "redirect": "familiar_sawleg_locust" },
 	"familiar_seal": {
 		"name": "Seal (Familiar)",
 		"sources": [
@@ -3589,7 +3589,7 @@
 			"**Family:** {family/Familiar}"
 		]
 	},
-	"seal": { "copyof": "familiar_seal" },
+	"seal": { "redirect": "familiar_seal" },
 	"familiar_shimmerwing_dragonfly": {
 		"name": "Shimmerwing Dragonfly (Familiar)",
 		"sources": [
@@ -3639,8 +3639,8 @@
 			"**Family:** {family/Familiar}"
 		]
 	},
-	"shimmerwing_dragonfly": { "copyof": "familiar_shimmerwing_dragonfly" },
-	"dragonfly_shimmerwing": { "copyof": "familiar_shimmerwing_dragonfly" },
+	"shimmerwing_dragonfly": { "redirect": "familiar_shimmerwing_dragonfly" },
+	"dragonfly_shimmerwing": { "redirect": "familiar_shimmerwing_dragonfly" },
 	"familiar_sloth": {
 		"name": "Sloth (Familiar)",
 		"sources": [
@@ -3687,7 +3687,7 @@
 			"**Family:** {family/Familiar}"
 		]
 	},
-	"sloth": { "copyof": "familiar_sloth" },
+	"sloth": { "redirect": "familiar_sloth" },
 	"familiar_spiny_starfish": {
 		"name": "Spiny Starfish (Familiar)",
 		"sources": [
@@ -3744,8 +3744,8 @@
 			"**Family:** {family/Familiar}"
 		]
 	},
-	"spiny_starfish": { "copyof": "familiar_spiny_starfish" },
-	"starfish_spiny": { "copyof": "familiar_spiny_starfish" },
+	"spiny_starfish": { "redirect": "familiar_spiny_starfish" },
+	"starfish_spiny": { "redirect": "familiar_spiny_starfish" },
 	"familiar_squirrel": {
 		"name": "Squirrel (Familiar)",
 		"sources": [
@@ -3797,7 +3797,7 @@
 			"**Family:** {family/Familiar}"
 		]
 	},
-	"squirrel": { "copyof": "familiar_squirrel" },
+	"squirrel": { "redirect": "familiar_squirrel" },
 	"familiar_suture_vine": {
 		"name": "Suture Vine (Familiar)",
 		"sources": [
@@ -3858,7 +3858,7 @@
 			"[^B]: Bonus feat."
 		]
 	},
-	"suture_vine": { "copyof": "familiar_suture_vine" },
+	"suture_vine": { "redirect": "familiar_suture_vine" },
 	"familiar_tarsier": {
 		"name": "Tarsier (Familiar)",
 		"sources": [
@@ -3914,7 +3914,7 @@
 			"**Family:** {family/Familiar}"
 		]
 	},
-	"tarsier": { "copyof": "familiar_tarsier" },
+	"tarsier": { "redirect": "familiar_tarsier" },
 	"familiar_thrush": {
 		"name": "Thrush (Familiar)",
 		"sources": [
@@ -3961,7 +3961,7 @@
 			"**Family:** {family/Familiar}"
 		]
 	},
-	"thrush": { "copyof": "familiar_thrush" },
+	"thrush": { "redirect": "familiar_thrush" },
 	"familiar_toad": {
 		"name": "Toad (Familiar)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -4004,7 +4004,7 @@
 			"**Family:** {family/Familiar}"
 		]
 	},
-	"toad": { "copyof": "familiar_toad" },
+	"toad": { "redirect": "familiar_toad" },
 	"familiar_trilobite": {
 		"name": "Trilobite (Familiar)",
 		"sources": [
@@ -4059,7 +4059,7 @@
 			"[^B]: Bonus feat."
 		]
 	},
-	"trilobite": { "copyof": "familiar_trilobite" },
+	"trilobite": { "redirect": "familiar_trilobite" },
 	"familiar_tuatara": {
 		"name": "Tuatara (Familiar)",
 		"sources": [
@@ -4105,7 +4105,7 @@
 			"**Family:** {family/Familiar}"
 		]
 	},
-	"tuatara": { "copyof": "familiar_tuatara" },
+	"tuatara": { "redirect": "familiar_tuatara" },
 	"familiar_vampire_squid": {
 		"name": "Vampire Squid (Familiar)",
 		"sources": [
@@ -4166,7 +4166,7 @@
 			"**Family:** {family/Familiar}"
 		]
 	},
-	"vampire_squid": { "copyof": "familiar_vampire_squid" },
+	"vampire_squid": { "redirect": "familiar_vampire_squid" },
 	"familiar_viper": {
 		"name": "Viper (Familiar)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -4214,7 +4214,7 @@
 			"**Family:** {family/Familiar}"
 		]
 	},
-	"viper": { "copyof": "familiar_viper" },
+	"viper": { "redirect": "familiar_viper" },
 	"familiar_wallaby": {
 		"name": "Wallaby (Familiar)",
 		"sources": [
@@ -4265,7 +4265,7 @@
 			"**Family:** {family/Familiar}"
 		]
 	},
-	"wallaby": { "copyof": "familiar_wallaby" },
+	"wallaby": { "redirect": "familiar_wallaby" },
 	"familiar_weasel": {
 		"name": "Weasel (Familiar)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -4313,7 +4313,7 @@
 			"**Family:** {family/Familiar}"
 		]
 	},
-	"weasel": { "copyof": "familiar_weasel" },
+	"weasel": { "redirect": "familiar_weasel" },
 	"fantionette": {
 		"name": "Fantionette",
 		"sources": [ "Pathfinder #127: Crownfall" ],
@@ -5247,7 +5247,7 @@
 			"**Family:** {family/Fiend Bred Animal}"
 		]
 	},
-	"chelish_hell_bred_dog": { "copyof": "fiend_bred_animal_chelish_hell_bred_dog" },
+	"chelish_hell_bred_dog": { "redirect": "fiend_bred_animal_chelish_hell_bred_dog" },
 	"fiend_bred_animal_quillcat": {
 		"name": "Quillcat (Fiend-Bred Animal)",
 		"sources": [ "Pathfinder #103: The Hellfire Compact" ],
@@ -5305,7 +5305,7 @@
 			"**Family:** {family/Fiend Bred Animal}"
 		]
 	},
-	"quillcat": { "copyof": "fiend_bred_animal_quillcat" },
+	"quillcat": { "redirect": "fiend_bred_animal_quillcat" },
 	"fiend_bred_animal_stygian_hot_blooded_horse": {
 		"name": "Stygian Hot-Blooded Horse (Fiend-Bred Animal)",
 		"sources": [ "Pathfinder #103: The Hellfire Compact" ],
@@ -5367,7 +5367,7 @@
 			"[^B]: Bonus feat."
 		]
 	},
-	"stygian_hot_blooded_horse": { "copyof": "fiend_bred_animal_stygian_hot_blooded_horse" },
+	"stygian_hot_blooded_horse": { "redirect": "fiend_bred_animal_stygian_hot_blooded_horse" },
 	"firbolg": {
 		"name": "Firbolg",
 		"sources": [ "Bestiary 5" ],
@@ -5538,7 +5538,7 @@
 			"A dunkleosteus is a massive fish with a bony head, armor plating, and a beak-like maw capable of creating a vortex that siphons in its prey. Despite growing to over 30 feet in length and weighing 8,000 pounds, dunkleosteuses are agile swimmers. These voracious predators think nothing of swimming into estuaries where the brine of the sea extends, lying in wait under piers or in the shallows along shorelines, patiently watching for a chance to lunge up and snap their jaws around unsuspecting prey that has come to the water's edge to fish or swim."
 		]
 	},
-	"dunkleosteus": { "copyof": "fish_dunkleosteus" },
+	"dunkleosteus": { "redirect": "fish_dunkleosteus" },
 	"fish_giant_blowfish": {
 		"name": "Giant Blowfish",
 		"sources": [ "Pathfinder #56: Raiders of the Fever Sea" ],
@@ -5591,7 +5591,7 @@
 			"These gigantic cousins of common blowfish, covered in poisonous spear-like quills, can reach up to 10 feet in size, and nearly double that when fully inflated."
 		]
 	},
-	"giant_blowfish": { "copyof": "fish_giant_blowfish" },
+	"giant_blowfish": { "redirect": "fish_giant_blowfish" },
 	"fish_swordfish": {
 		"name": "Swordfish",
 		"sources": [ "Pathfinder #56: Raiders of the Fever Sea" ],
@@ -5640,7 +5640,7 @@
 			"Swordfish are among the fastest and most efficient predators in the sea, and can grow to lengths of almost 15 feet and weigh up to 1,500 pounds."
 		]
 	},
-	"swordfish": { "copyof": "fish_swordfish" },
+	"swordfish": { "redirect": "fish_swordfish" },
 	"fish_tiger_fish": {
 		"name": "Tiger Fish",
 		"sources": [ "Pathfinder #56: Raiders of the Fever Sea" ],
@@ -5688,8 +5688,8 @@
 			"Tiger fish roam tropical waterways, their long, streamlined bodies built for speed. They can grow to lengths of up to 6 feet and weigh as much as 150 pounds."
 		]
 	},
-	"fish_tiger": { "copyof": "fish_tiger_fish" },
-	"tiger_fish": { "copyof": "fish_tiger_fish" },
+	"fish_tiger": { "redirect": "fish_tiger_fish" },
+	"tiger_fish": { "redirect": "fish_tiger_fish" },
 	"fish_varisian_hagfish": {
 		"name": "Varisian Hagfish",
 		"sources": [ "Pathfinder #56: Raiders of the Fever Sea" ],
@@ -5737,7 +5737,7 @@
 			"These cousins to normal hagfish most commonly appear in the Varisian Gulf. They can reach lengths of 4 feet and weigh up to 15 pounds."
 		]
 	},
-	"varisian_hagfish": { "copyof": "fish_varisian_hagfish" },
+	"varisian_hagfish": { "redirect": "fish_varisian_hagfish" },
 	"flail_snail": {
 		"name": "Flail Snail",
 		"sources": [
@@ -5858,8 +5858,8 @@
 			"A witch can take a giant flea as a familiar. Like all vermin, a giant flea gains 1 point of Intelligence when it becomes a familiar. A giant flea familiar grants its master a +3 bonus on Fortitude saves against disease."
 		]
 	},
-	"flea_giant": { "copyof": "flea_giant_flea" },
-	"giant_flea": { "copyof": "flea_giant_flea" },
+	"flea_giant": { "redirect": "flea_giant_flea" },
+	"giant_flea": { "redirect": "flea_giant_flea" },
 	"flea_mammoth_flea": {
 		"name": "Mammoth Flea",
 		"sources": [ "Bestiary 4" ],
@@ -5912,8 +5912,8 @@
 			"[^B]: Bonus feat."
 		]
 	},
-	"flea_mammoth": { "copyof": "flea_mammoth_flea" },
-	"mammoth_flea": { "copyof": "flea_mammoth_flea" },
+	"flea_mammoth": { "redirect": "flea_mammoth_flea" },
+	"mammoth_flea": { "redirect": "flea_mammoth_flea" },
 	"fleshdreg": {
 		"name": "Fleshdreg",
 		"sources": [

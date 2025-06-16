@@ -123,7 +123,7 @@
 			"A demonic champion has been tested by the powers of the Abyss and emerged stronger for it. Her soul is scarred by centuries of depraved acts, and she is irredeemable in her evil-something she is happy to prove. Demonic champions enjoy many creature comforts within drow society thanks to the spoils they claim in war, but their bloodlust motivates them to repeatedly return to battle."
 		]
 	},
-	"drow_demonic_champion": { "copyof": "drow_drow_demonic_champion" },
+	"drow_demonic_champion": { "redirect": "drow_drow_demonic_champion" },
 	"drow_drow_house_captain": {
 		"name": "Drow House Captain",
 		"sources": [ "Monster Codex" ],
@@ -174,7 +174,7 @@
 			"A house guard is better trained and equipped than a common warrior defending a drow city or caravan."
 		]
 	},
-	"drow_house_captain": { "copyof": "drow_drow_house_captain" },
+	"drow_house_captain": { "redirect": "drow_drow_house_captain" },
 	"drow_drow_house_guard": {
 		"name": "Drow House Guard",
 		"sources": [ "Monster Codex" ],
@@ -228,7 +228,7 @@
 			"A house guard is better trained and equipped than a common warrior defending a drow city or caravan."
 		]
 	},
-	"drow_house_guard": { "copyof": "drow_drow_house_guard" },
+	"drow_house_guard": { "redirect": "drow_drow_house_guard" },
 	"drow_drow_master_scout": {
 		"name": "Drow Master Scout",
 		"sources": [ "Monster Codex" ],
@@ -283,7 +283,7 @@
 			"Scouts are cunning and resourceful, but still must prove themselves to higher-ranked drow before being considered anything but expendable."
 		]
 	},
-	"drow_master_scout": { "copyof": "drow_drow_master_scout" },
+	"drow_master_scout": { "redirect": "drow_drow_master_scout" },
 	"drow_drow_matron": {
 		"name": "Drow Matron",
 		"sources": [ "Monster Codex" ],
@@ -351,7 +351,7 @@
 			"[^D]: Domain spell"
 		]
 	},
-	"drow_matron": { "copyof": "drow_drow_matron" },
+	"drow_matron": { "redirect": "drow_drow_matron" },
 	"drow_drow_noble": {
 		"name": "Drow Noble",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -417,7 +417,7 @@
 			"[^D]: Domain spell"
 		]
 	},
-	"drow_noble": { "copyof": "drow_drow_noble" },
+	"drow_noble": { "redirect": "drow_drow_noble" },
 	"drow_drow_poisoner": {
 		"name": "Drow Poisoner",
 		"sources": [ "Monster Codex" ],
@@ -478,7 +478,7 @@
 			"This drow makes use of deadly venoms and alchemy."
 		]
 	},
-	"drow_poisoner": { "copyof": "drow_drow_poisoner" },
+	"drow_poisoner": { "redirect": "drow_drow_poisoner" },
 	"drow_drow_priest": {
 		"name": "Drow Priest",
 		"sources": [ "Monster Codex" ],
@@ -546,7 +546,7 @@
 			"[^D]: Domain spell"
 		]
 	},
-	"drow_priest": { "copyof": "drow_drow_priest" },
+	"drow_priest": { "redirect": "drow_drow_priest" },
 	"drow_drow_scout": {
 		"name": "Drow Scout",
 		"sources": [ "Monster Codex" ],
@@ -597,7 +597,7 @@
 			"Scouts are cunning and resourceful, but still must prove themselves to higher-ranked drow before being considered anything but expendable."
 		]
 	},
-	"drow_scout": { "copyof": "drow_drow_scout" },
+	"drow_scout": { "redirect": "drow_drow_scout" },
 	"duergar": {
 		"name": "Duergar",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -698,7 +698,7 @@
 			"Martial mystics expunge corruption from duergar society."
 		]
 	},
-	"duergar_anvil": { "copyof": "duergar_duergar_anvil" },
+	"duergar_anvil": { "redirect": "duergar_duergar_anvil" },
 	"duergar_duergar_bombardier": {
 		"name": "Duergar Bombardier",
 		"sources": [ "Monster Codex" ],
@@ -757,7 +757,7 @@
 			"Though the military and slavers are loath to employ these unpredictable duergar, bombardiers can be very effective when subtlety is not required. Though most bombardiers wouldn't hurt their own kind - the bonds of kin and law are too strong - they often inadvertently kill potential slaves instead of capturing them."
 		]
 	},
-	"duergar_bombardier": { "copyof": "duergar_duergar_bombardier" },
+	"duergar_bombardier": { "redirect": "duergar_duergar_bombardier" },
 	"duergar_duergar_captain": {
 		"name": "Duergar Captain",
 		"sources": [ "Monster Codex" ],
@@ -806,7 +806,7 @@
 			"Veteran soldiers among the duergar lead groups of warriors or form their own elite strike forces. These soldiers always use enlarge person before combat."
 		]
 	},
-	"duergar_captain": { "copyof": "duergar_duergar_captain" },
+	"duergar_captain": { "redirect": "duergar_duergar_captain" },
 	"duergar_duergar_hammer": {
 		"name": "Duergar Hammer",
 		"sources": [ "Monster Codex" ],
@@ -855,7 +855,7 @@
 			"Martial mystics expunge corruption from duergar society."
 		]
 	},
-	"duergar_hammer": { "copyof": "duergar_duergar_hammer" },
+	"duergar_hammer": { "redirect": "duergar_duergar_hammer" },
 	"duergar_duergar_high_priest": {
 		"name": "Duergar High Priest",
 		"sources": [ "Monster Codex" ],
@@ -925,7 +925,7 @@
 			"[^D]: Domain spell"
 		]
 	},
-	"duergar_high_priest": { "copyof": "duergar_duergar_high_priest" },
+	"duergar_high_priest": { "redirect": "duergar_duergar_high_priest" },
 	"duergar_duergar_lieutenant": {
 		"name": "Duergar Lieutenant",
 		"sources": [ "Monster Codex" ],
@@ -981,7 +981,7 @@
 			"Spending much time scouting and exploring alone, rangers prove their toughness to their kin."
 		]
 	},
-	"duergar_lieutenant": { "copyof": "duergar_duergar_lieutenant" },
+	"duergar_lieutenant": { "redirect": "duergar_duergar_lieutenant" },
 	"duergar_duergar_sergeant": {
 		"name": "Duergar Sergeant",
 		"sources": [ "Monster Codex" ],
@@ -1029,7 +1029,7 @@
 			"Veteran soldiers among the duergar lead groups of warriors or form their own elite strike forces. These soldiers always use enlarge person before combat."
 		]
 	},
-	"duergar_sergeant": { "copyof": "duergar_duergar_sergeant" },
+	"duergar_sergeant": { "redirect": "duergar_duergar_sergeant" },
 	"duergar_duergar_sharpshooter": {
 		"name": "Duergar Sharpshooter",
 		"sources": [ "Monster Codex" ],
@@ -1078,7 +1078,7 @@
 			"Spending much time scouting and exploring alone, rangers prove their toughness to their kin."
 		]
 	},
-	"duergar_sharpshooter": { "copyof": "duergar_duergar_sharpshooter" },
+	"duergar_sharpshooter": { "redirect": "duergar_duergar_sharpshooter" },
 	"duergar_duergar_slaver": {
 		"name": "Duergar Slaver",
 		"sources": [ "Monster Codex" ],
@@ -1127,7 +1127,7 @@
 			"Duergar rogues primarily capture and discipline slaves."
 		]
 	},
-	"duergar_slaver": { "copyof": "duergar_duergar_slaver" },
+	"duergar_slaver": { "redirect": "duergar_duergar_slaver" },
 	"duergar_duergar_taskmaster": {
 		"name": "Duergar Taskmaster",
 		"sources": [ "Monster Codex" ],
@@ -1179,7 +1179,7 @@
 			"Duergar rogues primarily capture and discipline slaves."
 		]
 	},
-	"duergar_taskmaster": { "copyof": "duergar_duergar_taskmaster" },
+	"duergar_taskmaster": { "redirect": "duergar_duergar_taskmaster" },
 	"duergar_duergar_tyrant": {
 		"name": "Duergar Tyrant",
 		"sources": [ "Occult Bestiary" ],
@@ -1241,7 +1241,7 @@
 			"**Spell Resistance:** A duergar tyrant has spell resistance equal to 11 + her character level."
 		]
 	},
-	"duergar_tyrant": { "copyof": "duergar_duergar_tyrant" },
+	"duergar_tyrant": { "redirect": "duergar_duergar_tyrant" },
 	"dinosaur_allosaurus": {
 		"name": "Allosaurus (Dinosaur)",
 		"sources": [
@@ -1291,7 +1291,7 @@
 			"**Family:** {family/Dinosaur}"
 		]
 	},
-	"allosaurus": { "copyof": "dinosaur_allosaurus" },
+	"allosaurus": { "redirect": "dinosaur_allosaurus" },
 	"dinosaur_amargasaurus": {
 		"name": "Amargasaurus (Dinosaur)",
 		"sources": [
@@ -1341,7 +1341,7 @@
 			"**Family:** {family/Dinosaur}"
 		]
 	},
-	"amargasaurus": { "copyof": "dinosaur_amargasaurus" },
+	"amargasaurus": { "redirect": "dinosaur_amargasaurus" },
 	"dinosaur_ankylosaurus": {
 		"name": "Ankylosaurus (Dinosaur)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -1391,7 +1391,7 @@
 			"**Family:** {family/Dinosaur}"
 		]
 	},
-	"ankylosaurus": { "copyof": "dinosaur_ankylosaurus" },
+	"ankylosaurus": { "redirect": "dinosaur_ankylosaurus" },
 	"dinosaur_brachiosaurus": {
 		"name": "Brachiosaurus (Dinosaur)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -1438,7 +1438,7 @@
 			"**Family:** {family/Dinosaur}"
 		]
 	},
-	"brachiosaurus": { "copyof": "dinosaur_brachiosaurus" },
+	"brachiosaurus": { "redirect": "dinosaur_brachiosaurus" },
 	"dinosaur_ceratosaurus": {
 		"name": "Ceratosaurus (Dinosaur)",
 		"sources": [
@@ -1489,7 +1489,7 @@
 			"**Family:** {family/Dinosaur}"
 		]
 	},
-	"ceratosaurus": { "copyof": "dinosaur_ceratosaurus" },
+	"ceratosaurus": { "redirect": "dinosaur_ceratosaurus" },
 	"dinosaur_compsognathus": {
 		"name": "Compsognathus (Dinosaur)",
 		"sources": [
@@ -1544,7 +1544,7 @@
 			"**Family:** {family/Dinosaur}"
 		]
 	},
-	"compsognathus": { "copyof": "dinosaur_compsognathus" },
+	"compsognathus": { "redirect": "dinosaur_compsognathus" },
 	"dinosaur_deinonychus": {
 		"name": "Deinonychus (Dinosaur)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -1592,7 +1592,7 @@
 			"**Family:** {family/Dinosaur}"
 		]
 	},
-	"deinonychus": { "copyof": "dinosaur_deinonychus" },
+	"deinonychus": { "redirect": "dinosaur_deinonychus" },
 	"dinosaur_dimetrodon": {
 		"name": "Dimetrodon (Dinosaur)",
 		"sources": [
@@ -1648,7 +1648,7 @@
 			"**Family:** {family/Dinosaur}"
 		]
 	},
-	"dimetrodon": { "copyof": "dinosaur_dimetrodon" },
+	"dimetrodon": { "redirect": "dinosaur_dimetrodon" },
 	"dinosaur_dimorphodon": {
 		"name": "Dimorphodon (Dinosaur)",
 		"sources": [
@@ -1706,7 +1706,7 @@
 			"**Family:** {family/Dinosaur}"
 		]
 	},
-	"dimorphodon": { "copyof": "dinosaur_dimorphodon" },
+	"dimorphodon": { "redirect": "dinosaur_dimorphodon" },
 	"dinosaur_diplodocus": {
 		"name": "Diplodocus (Dinosaur)",
 		"sources": [
@@ -1760,7 +1760,7 @@
 			"**Family:** {family/Dinosaur}"
 		]
 	},
-	"diplodocus": { "copyof": "dinosaur_diplodocus" },
+	"diplodocus": { "redirect": "dinosaur_diplodocus" },
 	"dinosaur_elasmosaurus": {
 		"name": "Elasmosaurus (Dinosaur)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -1806,7 +1806,7 @@
 			"**Family:** {family/Dinosaur}"
 		]
 	},
-	"elasmosaurus": { "copyof": "dinosaur_elasmosaurus" },
+	"elasmosaurus": { "redirect": "dinosaur_elasmosaurus" },
 	"dinosaur_giganotosaurus": {
 		"name": "Giganotosaurus (Dinosaur)",
 		"sources": [
@@ -1856,7 +1856,7 @@
 			"**Family:** {family/Dinosaur}"
 		]
 	},
-	"giganotosaurus": { "copyof": "dinosaur_giganotosaurus" },
+	"giganotosaurus": { "redirect": "dinosaur_giganotosaurus" },
 	"dinosaur_iguanodon": {
 		"name": "Iguanodon (Dinosaur)",
 		"sources": [
@@ -1912,7 +1912,7 @@
 			"**Family:** {family/Dinosaur}"
 		]
 	},
-	"iguanodon": { "copyof": "dinosaur_iguanodon" },
+	"iguanodon": { "redirect": "dinosaur_iguanodon" },
 	"dinosaur_kentrosaurus": {
 		"name": "Kentrosaurus (Dinosaur)",
 		"sources": [
@@ -1969,7 +1969,7 @@
 			"**Family:** {family/Dinosaur}"
 		]
 	},
-	"kentrosaurus": { "copyof": "dinosaur_kentrosaurus" },
+	"kentrosaurus": { "redirect": "dinosaur_kentrosaurus" },
 	"dinosaur_pachycephalosaurus": {
 		"name": "Pachycephalosaurus (Dinosaur)",
 		"sources": [
@@ -2025,7 +2025,7 @@
 			"**Family:** {family/Dinosaur}"
 		]
 	},
-	"pachycephalosaurus": { "copyof": "dinosaur_pachycephalosaurus" },
+	"pachycephalosaurus": { "redirect": "dinosaur_pachycephalosaurus" },
 	"dinosaur_parasaurolophus": {
 		"name": "Parasaurolophus (Dinosaur)",
 		"sources": [
@@ -2074,7 +2074,7 @@
 			"**Family:** {family/Dinosaur}"
 		]
 	},
-	"parasaurolophus": { "copyof": "dinosaur_parasaurolophus" },
+	"parasaurolophus": { "redirect": "dinosaur_parasaurolophus" },
 	"dinosaur_plesiosaurus": {
 		"name": "Plesiosaurus (Dinosaur)",
 		"sources": [
@@ -2130,7 +2130,7 @@
 			"**Family:** {family/Dinosaur}"
 		]
 	},
-	"plesiosaurus": { "copyof": "dinosaur_plesiosaurus" },
+	"plesiosaurus": { "redirect": "dinosaur_plesiosaurus" },
 	"dinosaur_pteranodon": {
 		"name": "Pteranodon (Dinosaur)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -2178,7 +2178,7 @@
 			"**Family:** {family/Dinosaur}"
 		]
 	},
-	"pteranodon": { "copyof": "dinosaur_pteranodon" },
+	"pteranodon": { "redirect": "dinosaur_pteranodon" },
 	"dinosaur_quetzalcoatlus": {
 		"name": "Quetzalcoatlus (Dinosaur)",
 		"sources": [
@@ -2235,7 +2235,7 @@
 			"**Family:** {family/Dinosaur}"
 		]
 	},
-	"quetzalcoatlus": { "copyof": "dinosaur_quetzalcoatlus" },
+	"quetzalcoatlus": { "redirect": "dinosaur_quetzalcoatlus" },
 	"dinosaur_spinosaurus": {
 		"name": "Spinosaurus (Dinosaur)",
 		"sources": [
@@ -2286,7 +2286,7 @@
 			"**Family:** {family/Dinosaur}"
 		]
 	},
-	"spinosaurus": { "copyof": "dinosaur_spinosaurus" },
+	"spinosaurus": { "redirect": "dinosaur_spinosaurus" },
 	"dinosaur_stegosaurus": {
 		"name": "Stegosaurus (Dinosaur)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -2332,7 +2332,7 @@
 			"**Family:** {family/Dinosaur}"
 		]
 	},
-	"stegosaurus": { "copyof": "dinosaur_stegosaurus" },
+	"stegosaurus": { "redirect": "dinosaur_stegosaurus" },
 	"dinosaur_styracosaurus": {
 		"name": "Styracosaurus (Dinosaur)",
 		"sources": [
@@ -2391,7 +2391,7 @@
 			"[^B]: Bonus feat."
 		]
 	},
-	"styracosaurus": { "copyof": "dinosaur_styracosaurus" },
+	"styracosaurus": { "redirect": "dinosaur_styracosaurus" },
 	"dinosaur_therizinosaurus": {
 		"name": "Therizinosaurus (Dinosaur)",
 		"sources": [
@@ -2449,7 +2449,7 @@
 			"**Family:** {family/Dinosaur}"
 		]
 	},
-	"therizinosaurus": { "copyof": "dinosaur_therizinosaurus" },
+	"therizinosaurus": { "redirect": "dinosaur_therizinosaurus" },
 	"dinosaur_triceratops": {
 		"name": "Triceratops (Dinosaur)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -2498,7 +2498,7 @@
 			"**Family:** {family/Dinosaur}"
 		]
 	},
-	"triceratops": { "copyof": "dinosaur_triceratops" },
+	"triceratops": { "redirect": "dinosaur_triceratops" },
 	"dinosaur_troodon": {
 		"name": "Troodon (Dinosaur)",
 		"sources": [
@@ -2553,7 +2553,7 @@
 			"**Family:** {family/Dinosaur}"
 		]
 	},
-	"troodon": { "copyof": "dinosaur_troodon" },
+	"troodon": { "redirect": "dinosaur_troodon" },
 	"dinosaur_tylosaurus": {
 		"name": "Tylosaurus (Dinosaur)",
 		"sources": [
@@ -2603,7 +2603,7 @@
 			"**Family:** {family/Dinosaur}"
 		]
 	},
-	"tylosaurus": { "copyof": "dinosaur_tylosaurus" },
+	"tylosaurus": { "redirect": "dinosaur_tylosaurus" },
 	"dinosaur_tyrannosaurus": {
 		"name": "Tyrannosaurus (Dinosaur)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -2655,7 +2655,7 @@
 			"**Family:** {family/Dinosaur}"
 		]
 	},
-	"tyrannosaurus": { "copyof": "dinosaur_tyrannosaurus" },
+	"tyrannosaurus": { "redirect": "dinosaur_tyrannosaurus" },
 	"dinosaur_velociraptor": {
 		"name": "Velociraptor (Dinosaur)",
 		"sources": [
@@ -2711,7 +2711,7 @@
 			"**Family:** {family/Dinosaur}"
 		]
 	},
-	"velociraptor": { "copyof": "dinosaur_velociraptor" },
+	"velociraptor": { "redirect": "dinosaur_velociraptor" },
 	"dark_young_of_shub_niggurath": {
 		"name": "Dark Young of Shub-Niggurath",
 		"sources": [ "Pathfinder #46: Wake of the Watcher" ],
@@ -3262,7 +3262,7 @@
 			"Sometimes a pregnant death worm lays an especially promising egg among her brood, about twice as large as the others and with a nigh-impenetrable, brownspeckled shell. This egg requires even more warmth than the others in its clutch, and upon emerging the worm would rather devour its brethren than the meal left by its parent. Such rare specimens grow up to become death worm leviathans, and those few who have heard of the fell beasts know to fear them as well as to hold them in awe. Death worm leviathans possess powers nearly identical to those of their smaller kin, albeit at a much deadlier scale. In addition, their massive girth makes it even easier for them to consume prey both large and small, and a single leviathan might consume an entire desert village before its terrible hunger is sated."
 		]
 	},
-	"death_worm_leviathan": { "copyof": "death_worm_death_worm_leviathan" },
+	"death_worm_leviathan": { "redirect": "death_worm_death_worm_leviathan" },
 	"deathsnatcher": {
 		"name": "Deathsnatcher",
 		"sources": [ "Bestiary 6" ],
@@ -4043,7 +4043,7 @@
 			"**Family:** {family/Div}"
 		]
 	},
-	"aghash": { "copyof": "div_aghash" },
+	"aghash": { "redirect": "div_aghash" },
 	"div_akvan": {
 		"name": "Akvan (Div)",
 		"sources": [ "Bestiary 3" ],
@@ -4133,7 +4133,7 @@
 			"**Family:** {family/Div}"
 		]
 	},
-	"akvan": { "copyof": "div_akvan" },
+	"akvan": { "redirect": "div_akvan" },
 	"div_bushyasta": {
 		"name": "Bushyasta (Div)",
 		"sources": [
@@ -4202,7 +4202,7 @@
 			"**Family:** {family/Div}"
 		]
 	},
-	"bushyasta": { "copyof": "div_bushyasta" },
+	"bushyasta": { "redirect": "div_bushyasta" },
 	"div_doru": {
 		"name": "Doru (Div)",
 		"sources": [
@@ -4269,7 +4269,7 @@
 			"**Family:** {family/Div}"
 		]
 	},
-	"doru": { "copyof": "div_doru" },
+	"doru": { "redirect": "div_doru" },
 	"div_druj_nasu": {
 		"name": "Druj Nasu (Div)",
 		"sources": [
@@ -4358,7 +4358,7 @@
 			"On the Material Plane, ghuls frequently inhabit the same kinds of spaces that druj nasus haunt. This leads the two creatures to compete over the theft of corpses; more often than not, such conflicts are won by the divs. Since divs can tolerate the burning rays of the sun better than ghuls, these divs gain a greater advantage in successfully stealing corpses."
 		]
 	},
-	"druj_nasu": { "copyof": "div_druj_nasu" },
+	"druj_nasu": { "redirect": "div_druj_nasu" },
 	"div_ghawwas": {
 		"name": "Ghawwas (Div)",
 		"sources": [
@@ -4428,7 +4428,7 @@
 			"**Family:** {family/Div}"
 		]
 	},
-	"ghawwas": { "copyof": "div_ghawwas" },
+	"ghawwas": { "redirect": "div_ghawwas" },
 	"div_pairaka": {
 		"name": "Pairaka (Div)",
 		"sources": [
@@ -4497,7 +4497,7 @@
 			"**Family:** {family/Div}"
 		]
 	},
-	"pairaka": { "copyof": "div_pairaka" },
+	"pairaka": { "redirect": "div_pairaka" },
 	"div_sepid": {
 		"name": "Sepid (Div)",
 		"sources": [
@@ -4566,7 +4566,7 @@
 			"[^B]: Bonus feat."
 		]
 	},
-	"sepid": { "copyof": "div_sepid" },
+	"sepid": { "redirect": "div_sepid" },
 	"div_shira": {
 		"name": "Shira (Div)",
 		"sources": [
@@ -4635,5 +4635,5 @@
 			"**Family:** {family/Div}"
 		]
 	},
-	"shira": { "copyof": "div_shira" }
+	"shira": { "redirect": "div_shira" }
 }

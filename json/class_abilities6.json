@@ -100,7 +100,7 @@
 			"If the ranger chooses humanoids or outsiders as a favored enemy, he must also choose an associated subtype, as indicated above. (Note that there are other types of humanoid to choose from - those called out specifically are merely the most common.) If a specific creature falls into more than one category of favored enemy, the ranger's bonuses do not stack; he simply uses whichever bonus is higher."
 		]
 	},
-	"favored_enemies": { "copyof": "favored_enemy" },
+	"favored_enemies": { "redirect": "favored_enemy" },
 	"favored_terrain": {
 		"name": "Favored Terrain",
 		"sources": [ "PRPG Core Rulebook" ],
@@ -226,8 +226,8 @@
 			"{class/Warpriest/s}, {class/paladin/s}, and {class/antipaladin/s} gain this ability at 4th level. Warpriests channel positive or negative energy depending on whether they chose \"cure\" or \"inflict\" spells at 1st level. Paladins can only channel positive energy, while antipaladins can only channel negative energy. Using this ability costs two uses of the fervor (warpriest), lay on hands (paladin), or touch of corruption (antipaladin) ability."
 		]
 	},
-	"channel_positive_energy": { "copyof": "channel_energy" },
-	"channel_negative_energy": { "copyof": "channel_energy" },
+	"channel_positive_energy": { "redirect": "channel_energy" },
+	"channel_negative_energy": { "redirect": "channel_energy" },
 	"rage_powers": {
 		"name": "Rage Powers",
 		"sources": [
@@ -609,5 +609,5 @@
 		},
 		"topLink": [ "Bard", "class/bard" ]
 	},
-	"bardic_performance": { "copyof": "bardic_performances" }
+	"bardic_performance": { "redirect": "bardic_performances" }
 }

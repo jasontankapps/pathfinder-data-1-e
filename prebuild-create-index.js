@@ -82,6 +82,7 @@ Object.entries(basic_data_groups).forEach(([file, groupobject]) => {
 			name: n,
 			title,
 			copyof,
+			redirect,
 			subtitle,
 			tags,
 			searchgroup: sg2,
@@ -92,6 +93,9 @@ Object.entries(basic_data_groups).forEach(([file, groupobject]) => {
 		typeOverride && recordType(typeOverride);
 		if(copyof && !data[copyof]) {
 			console.log(`>>>ERROR>>> ${file}.${prop}.copyof = [${copyof}], not found in same file`);
+			return;
+		} else if (redirect && !data[redirect]) {
+			console.log(`>>>ERROR>>> ${file}.${prop}.redirect = [${redirect}], not found in same file`);
 			return;
 		} else if (alternateOf && !data[alternateOf]) {
 			console.log(`>>>ERROR>>> ${file}.${prop}.alternateOf = [${alternateOf}], not found in same file`);

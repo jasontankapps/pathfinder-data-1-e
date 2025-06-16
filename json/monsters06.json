@@ -666,7 +666,7 @@
 			"Despite their inherent divinatory gift, few cyclopes embrace the path of the grand-eye. A dedicated minority - respected and even revered by their brethren - retain some semblance of their peoples' grandeur. Though still cursed with great rages and ravenous hunger, grand-eyes temper those primal urges with spiritual wisdom and historical insight. Most live apart from their kind, advising only occasionally, for fear that other cyclopes' terrible impulses will drag them down as well. The grand-eyes are legendary prophets, and sometimes meddle in other races' affairs by offering prophecy, spells, and magical goods."
 		]
 	},
-	"cyclops_grand_eye": { "copyof": "cyclops_cyclops_grand_eye" },
+	"cyclops_grand_eye": { "redirect": "cyclops_cyclops_grand_eye" },
 	"cyclops_cyclops_lorekeeper": {
 		"name": "Cyclops Lorekeeper",
 		"sources": [ "Inner Sea Monster Codex" ],
@@ -724,7 +724,7 @@
 			"These studied cyclopes are the closest thing the race has to true adventurers, raiding ancient ruins for lore, and even infiltrating the lands of younger races to plumb their libraries. Many attract like-minded cohorts, though more often their power attracts less civilized cyclopes hoping for leadership and protection against the human usurpers."
 		]
 	},
-	"cyclops_lorekeeper": { "copyof": "cyclops_cyclops_lorekeeper" },
+	"cyclops_lorekeeper": { "redirect": "cyclops_cyclops_lorekeeper" },
 	"cyclops_cyclops_manhunter": {
 		"name": "Cyclops Manhunter",
 		"sources": [ "Inner Sea Monster Codex" ],
@@ -777,7 +777,7 @@
 			"While humanoids are their favored prey, manhunters delight in tracking all manner of creatures and wearing their skulls, skins, and shiny belongings as trophies. They rarely use stealth, instead openly pursuing their victims over great distances. In a proper hunt, exhaustion is as likely to fell a manhunter's prey as her axe."
 		]
 	},
-	"cyclops_manhunter": { "copyof": "cyclops_cyclops_manhunter" },
+	"cyclops_manhunter": { "redirect": "cyclops_cyclops_manhunter" },
 	"cyclops_cyclops_smasher": {
 		"name": "Cyclops Smasher",
 		"sources": [ "Inner Sea Monster Codex" ],
@@ -832,7 +832,7 @@
 			"These one-eyed barbarians engage strangers with some degree of tactics and insight born of their prophetic talent. They tame mastodons and other massive beasts as mounts, and are skilled at leaving false trails that lead pursuers into an ambush. The smashers' favorite tactic is to battle indoors or among ruins and destroy supports until the structure collapses around them, trusting their phenomenal strength to save them from destruction."
 		]
 	},
-	"cyclops_smasher": { "copyof": "cyclops_cyclops_smasher" },
+	"cyclops_smasher": { "redirect": "cyclops_cyclops_smasher" },
 	"cyclops_great_cyclops": {
 		"name": "Great Cyclops",
 		"sources": [
@@ -891,8 +891,8 @@
 			"The average great cyclops stands approximately 30 feet tall and weighs upward of 4 tons, though individuals of significantly greater size are known."
 		]
 	},
-	"great_cyclops": { "copyof": "cyclops_great_cyclops" },
-	"cyclops_great": { "copyof": "cyclops_great_cyclops" },
+	"great_cyclops": { "redirect": "cyclops_great_cyclops" },
+	"cyclops_great": { "redirect": "cyclops_great_cyclops" },
 	"cyclops_kabandha": {
 		"name": "Kabandha (Cyclops)",
 		"sources": [ "Bestiary 5" ],
@@ -955,7 +955,7 @@
 			"To reproduce, these giants lay single, rock-like eggs that require great heat to mature. The eggs hatch quickly, releasing young that reach full size within a year. Though a cold environment doesn't harm their eggs, it does cause the eggs to enter stasis until properly tended."
 		]
 	},
-	"kabandha": { "copyof": "cyclops_kabandha" },
+	"kabandha": { "redirect": "cyclops_kabandha" },
 	"cyclops_oracular_cyclops": {
 		"name": "Oracular Cyclops",
 		"sources": [ "Pathfinder #58: Island of Empty Eyes" ],
@@ -1011,8 +1011,8 @@
 			"A cyclops oracle retains more of the powers of foresight than most of its kin. In addition to a cyclops's typical flash of insight ability, an oracular cyclops can share its gift with others, granting them a boon on a future challenge. While often smaller than others of its kind, an oracular cyclops gains the ability to foresee danger coming its way. The statistics above depict a cyclops who is served by a cult of worshippers, and is therefore in good health. Other oracular cyclopes are sometimes kept as chained prisoners, at the mercy of their captors."
 		]
 	},
-	"oracular_cyclops": { "copyof": "cyclops_oracular_cyclops" },
-	"cyclops_oracular": { "copyof": "cyclops_oracular_cyclops" },
+	"oracular_cyclops": { "redirect": "cyclops_oracular_cyclops" },
+	"cyclops_oracular": { "redirect": "cyclops_oracular_cyclops" },
 	"cyclops_savage_great_cyclops": {
 		"name": "Savage Great Cyclops",
 		"sources": [ "Pathfinder #58: Island of Empty Eyes" ],
@@ -1069,8 +1069,8 @@
 			"In the jungles of the south, great cyclopes roam. Some brutes are especially dangerous, raining down furious blows with their huge greatclubs, and stunning and smashing foes in a blood-red rage. The roaring cries of savage great cyclopes can be heard echoing through the jungles as a warning for all other creatures to flee before its wrath."
 		]
 	},
-	"cyclops_savage_great": { "copyof": "cyclops_savage_great_cyclops" },
-	"savage_great_cyclops": { "copyof": "cyclops_savage_great_cyclops" },
+	"cyclops_savage_great": { "redirect": "cyclops_savage_great_cyclops" },
+	"savage_great_cyclops": { "redirect": "cyclops_savage_great_cyclops" },
 	"cynosoma": {
 		"name": "Cynosoma",
 		"sources": [ "Planar Adventures" ],
@@ -1378,7 +1378,7 @@
 			"D'ziriaks rarely travel off the Plane of Shadow except on orders of their rulers, and prefer to live their lives out in their hive cities. They remain open to trade and diplomacy with any brave enough to travel the Plane of Shadow, and are valued by many both on and off their plane for their artisans' ability to weave light into tangible art and create weapons of great quality and beauty."
 		]
 	},
-	"d_ziriak": { "copyof": "dziriak" },
+	"d_ziriak": { "redirect": "dziriak" },
 	"daemon_acrididaemon": {
 		"name": "Acrididaemon (Daemon)",
 		"sources": [
@@ -1446,7 +1446,7 @@
 			"**Family:** {family/Daemon}"
 		]
 	},
-	"acrididaemon": { "copyof": "daemon_acrididaemon" },
+	"acrididaemon": { "redirect": "daemon_acrididaemon" },
 	"daemon_astradaemon": {
 		"name": "Astradaemon (Daemon)",
 		"sources": [
@@ -1510,7 +1510,7 @@
 			"**Family:** {family/Daemon}"
 		]
 	},
-	"astradaemon": { "copyof": "daemon_astradaemon" },
+	"astradaemon": { "redirect": "daemon_astradaemon" },
 	"daemon_bibliodaemon": {
 		"name": "Bibliodaemon (Daemon)",
 		"sources": [
@@ -1572,7 +1572,7 @@
 			"**Family:** {family/Daemon}"
 		]
 	},
-	"bibliodaemon": { "copyof": "daemon_bibliodaemon" },
+	"bibliodaemon": { "redirect": "daemon_bibliodaemon" },
 	"daemon_cacodaemon": {
 		"name": "Cacodaemon (Daemon)",
 		"sources": [ "Bestiary 2" ],
@@ -1635,7 +1635,7 @@
 			"**Family:** {family/Daemon}"
 		]
 	},
-	"cacodaemon": { "copyof": "daemon_cacodaemon" },
+	"cacodaemon": { "redirect": "daemon_cacodaemon" },
 	"daemon_ceustodaemon": {
 		"name": "Ceustodaemon (Daemon)",
 		"sources": [ "Bestiary 2" ],
@@ -1700,9 +1700,9 @@
 			"**Family:** {family/Daemon}"
 		]
 	},
-	"ceustodaemon": { "copyof": "daemon_ceustodaemon" },
-	"lesser_ceustodaemon": { "copyof": "daemon_ceustodaemon" },
-	"greater_ceustodaemon": { "copyof": "daemon_ceustodaemon" },
+	"ceustodaemon": { "redirect": "daemon_ceustodaemon" },
+	"lesser_ceustodaemon": { "redirect": "daemon_ceustodaemon" },
+	"greater_ceustodaemon": { "redirect": "daemon_ceustodaemon" },
 	"daemon_crucidaemon": {
 		"name": "Crucidaemon (Daemon)",
 		"sources": [
@@ -1767,7 +1767,7 @@
 			"**Family:** {family/Daemon}"
 		]
 	},
-	"crucidaemon": { "copyof": "daemon_crucidaemon" },
+	"crucidaemon": { "redirect": "daemon_crucidaemon" },
 	"daemon_derghodaemon": {
 		"name": "Derghodaemon (Daemon)",
 		"sources": [ "Bestiary 2" ],
@@ -1831,7 +1831,7 @@
 			"**Family:** {family/Daemon}"
 		]
 	},
-	"derghodaemon": { "copyof": "daemon_derghodaemon" },
+	"derghodaemon": { "redirect": "daemon_derghodaemon" },
 	"daemon_erodaemon": {
 		"name": "Erodaemon (Daemon)",
 		"sources": [
@@ -1896,7 +1896,7 @@
 			"**Family:** {family/Daemon}"
 		]
 	},
-	"erodaemon": { "copyof": "daemon_erodaemon" },
+	"erodaemon": { "redirect": "daemon_erodaemon" },
 	"daemon_genthodaemon": {
 		"name": "Genthodaemon (Daemon)",
 		"sources": [
@@ -1984,7 +1984,7 @@
 			"On the Material Plane, genthodaemons sometimes serve daemonic cults that are unworthy of a greater daemon's attention or lacking the power to summon a more powerful creature. As their magic is suitable for war and destruction, they have limited use to mortal cultists not intent on violence."
 		]
 	},
-	"genthodaemon": { "copyof": "daemon_genthodaemon" },
+	"genthodaemon": { "redirect": "daemon_genthodaemon" },
 	"daemon_hydrodaemon": {
 		"name": "Hydrodaemon (Daemon)",
 		"sources": [ "Bestiary 2" ],
@@ -2048,7 +2048,7 @@
 			"**Family:** {family/Daemon}"
 		]
 	},
-	"hydrodaemon": { "copyof": "daemon_hydrodaemon" },
+	"hydrodaemon": { "redirect": "daemon_hydrodaemon" },
 	"daemon_lacridaemon": {
 		"name": "Lacridaemon (Daemon)",
 		"sources": [
@@ -2117,7 +2117,7 @@
 			"**Family:** {family/Daemon}"
 		]
 	},
-	"lacridaemon": { "copyof": "daemon_lacridaemon" },
+	"lacridaemon": { "redirect": "daemon_lacridaemon" },
 	"daemon_lapsudaemon": {
 		"name": "Lapsudaemon (Daemon)",
 		"sources": [
@@ -2204,7 +2204,7 @@
 			"Lapsudaemons are intelligent and cruel, but their plight allows them little opportunity to focus on studies or more advanced machinations. As such, they focus almost exclusively on tasks assigned by more powerful daemons. They frequently serve immortal harbingers such as Uaransaph or Geon, evil deities like Zyphus, or the Four Horsemen as assassins or insane heralds of an imminent military force. Where legends speak of a storm of falling daemons dropping mortals from the sky, they also speak of the ruin of entire city-states shortly thereafter."
 		]
 	},
-	"lapsudaemon": { "copyof": "daemon_lapsudaemon" },
+	"lapsudaemon": { "redirect": "daemon_lapsudaemon" },
 	"daemon_leukodaemon": {
 		"name": "Leukodaemon (Daemon)",
 		"sources": [
@@ -2272,7 +2272,7 @@
 			"**Family:** {family/Daemon}"
 		]
 	},
-	"leukodaemon": { "copyof": "daemon_leukodaemon" },
+	"leukodaemon": { "redirect": "daemon_leukodaemon" },
 	"daemon_meladaemon": {
 		"name": "Meladaemon (Daemon)",
 		"sources": [
@@ -2339,7 +2339,7 @@
 			"**Family:** {family/Daemon}"
 		]
 	},
-	"meladaemon": { "copyof": "daemon_meladaemon" },
+	"meladaemon": { "redirect": "daemon_meladaemon" },
 	"daemon_nixudaemon": {
 		"name": "Nixudaemon (Daemon)",
 		"sources": [
@@ -2422,7 +2422,7 @@
 			"While their industrious natures and affinities for mortal business make them useful to each of the Four Horsemen, most of nixudaemons serve Szuriel, Trelmarixian, and the daemonic harbingers that scheme below them. The Horseman of War uses them as morale officers - a most effective paradox during the heat of battle. She also maintains special units of indentured prisoners under nixudaemon care, always breaking her promise to send her weary combatants home after a costly battle. The Horseman of Famine offers mere crumbs for sustenance to his legions of soldiers and slaves. He takes delight in using pet nixudaemons to drive his legions past their limits, accelerating their spiritual and physical starvation."
 		]
 	},
-	"nixudaemon": { "copyof": "daemon_nixudaemon" },
+	"nixudaemon": { "redirect": "daemon_nixudaemon" },
 	"daemon_obcisidaemon": {
 		"name": "Obcisidaemon (Daemon)",
 		"sources": [
@@ -2506,7 +2506,7 @@
 			"**Family:** {family/Daemon}"
 		]
 	},
-	"obcisidaemon": { "copyof": "daemon_obcisidaemon" },
+	"obcisidaemon": { "redirect": "daemon_obcisidaemon" },
 	"daemon_olethrodaemon": {
 		"name": "Olethrodaemon (Daemon)",
 		"sources": [ "Bestiary 2" ],
@@ -2588,7 +2588,7 @@
 			"**Family:** {family/Daemon}"
 		]
 	},
-	"olethrodaemon": { "copyof": "daemon_olethrodaemon" },
+	"olethrodaemon": { "redirect": "daemon_olethrodaemon" },
 	"daemon_phasmadaemon": {
 		"name": "Phasmadaemon (Daemon)",
 		"sources": [
@@ -2654,7 +2654,7 @@
 			"**Family:** {family/Daemon}"
 		]
 	},
-	"phasmadaemon": { "copyof": "daemon_phasmadaemon" },
+	"phasmadaemon": { "redirect": "daemon_phasmadaemon" },
 	"daemon_piscodaemon": {
 		"name": "Piscodaemon (Daemon)",
 		"sources": [ "Bestiary 2" ],
@@ -2718,7 +2718,7 @@
 			"**Family:** {family/Daemon}"
 		]
 	},
-	"piscodaemon": { "copyof": "daemon_piscodaemon" },
+	"piscodaemon": { "redirect": "daemon_piscodaemon" },
 	"daemon_purrodaemon": {
 		"name": "Purrodaemon (Daemon)",
 		"sources": [ "Bestiary 2" ],
@@ -2777,7 +2777,7 @@
 			"**Family:** {family/Daemon}"
 		]
 	},
-	"purrodaemon": { "copyof": "daemon_purrodaemon" },
+	"purrodaemon": { "redirect": "daemon_purrodaemon" },
 	"daemon_sangudaemon": {
 		"name": "Sangudaemon (Daemon)",
 		"sources": [
@@ -2845,7 +2845,7 @@
 			"**Family:** {family/Daemon}"
 		]
 	},
-	"sangudaemon": { "copyof": "daemon_sangudaemon" },
+	"sangudaemon": { "redirect": "daemon_sangudaemon" },
 	"daemon_sepsidaemon": {
 		"name": "Sepsidaemon (Daemon)",
 		"sources": [
@@ -2908,7 +2908,7 @@
 			"**Family:** {family/Daemon}"
 		]
 	},
-	"sepsidaemon": { "copyof": "daemon_sepsidaemon" },
+	"sepsidaemon": { "redirect": "daemon_sepsidaemon" },
 	"daemon_suspiridaemon": {
 		"name": "Suspiridaemon (Daemon)",
 		"sources": [
@@ -2979,7 +2979,7 @@
 			"**Family:** {family/Daemon}"
 		]
 	},
-	"suspiridaemon": { "copyof": "daemon_suspiridaemon" },
+	"suspiridaemon": { "redirect": "daemon_suspiridaemon" },
 	"daemon_temerdaemon": {
 		"name": "Temerdaemon (Daemon)",
 		"sources": [
@@ -3048,7 +3048,7 @@
 			"**Family:** {family/Daemon}"
 		]
 	},
-	"temerdaemon": { "copyof": "daemon_temerdaemon" },
+	"temerdaemon": { "redirect": "daemon_temerdaemon" },
 	"daemon_thanadaemon": {
 		"name": "Thanadaemon (Daemon)",
 		"sources": [ "Bestiary 2" ],
@@ -3109,7 +3109,7 @@
 			"**Family:** {family/Daemon}"
 		]
 	},
-	"thanadaemon": { "copyof": "daemon_thanadaemon" },
+	"thanadaemon": { "redirect": "daemon_thanadaemon" },
 	"daemon_venedaemon": {
 		"name": "Venedaemon (Daemon)",
 		"sources": [
@@ -3181,7 +3181,7 @@
 			"**Family:** {family/Daemon}"
 		]
 	},
-	"venedaemon": { "copyof": "daemon_venedaemon" },
+	"venedaemon": { "redirect": "daemon_venedaemon" },
 	"daemon_vulnudaemon": {
 		"name": "Vulnudaemon (Daemon)",
 		"sources": [
@@ -3247,7 +3247,7 @@
 			"**Family:** {family/Daemon}"
 		]
 	},
-	"vulnudaemon": { "copyof": "daemon_vulnudaemon" },
+	"vulnudaemon": { "redirect": "daemon_vulnudaemon" },
 	"dahzagan": {
 		"name": "Dahzagan",
 		"sources": [ "Belkzen, Hold of the Orc Hordes" ],

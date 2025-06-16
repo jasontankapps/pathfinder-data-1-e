@@ -938,8 +938,8 @@
 			"After a slugspawn has reached a host's brain, it proves to be a beneficial parasite-at least initially. A slugspawn's host benefits from complete immunity to mind-affecting effects, as the slugspawn's presence confuses and devours such magic. This benefit doesn't last for long, though, as after a variable period (typically lasting 2d6 days in humanoids, though sometimes more or less in other creature types) the slugspawn matures into a spawning canker, a new stage in its lifecycle that begins with it violently devouring its host's brain, erupting from its skull, and taking over the beheaded host body - a near-instantaneous process that immediately kills the host. The result is a new creature, a spawning canker garbed in its former host's skin. If the host is killed before the slugspawn fully matures, the parasite undergoes a rapid, emergency maturation, taking control of the host body as if it had fully matured - though such spawning cankers rarely prove as long-lived as their fully matured brethren."
 		]
 	},
-	"spawning_canker": { "copyof": "moit_of_shub_niggurath_spawning_canker" },
-	"moit_of_shub_niggurath": { "copyof": "moit_of_shub_niggurath_spawning_canker" },
+	"spawning_canker": { "redirect": "moit_of_shub_niggurath_spawning_canker" },
+	"moit_of_shub_niggurath": { "redirect": "moit_of_shub_niggurath_spawning_canker" },
 	"mokele_mbembe": {
 		"name": "Mokele-Mbembe",
 		"sources": [
@@ -1655,7 +1655,7 @@
 			"**Family:** {family/Mortic}"
 		]
 	},
-	"angheuvore": { "copyof": "mortic_angheuvore" },
+	"angheuvore": { "redirect": "mortic_angheuvore" },
 	"mortic_etioling": {
 		"name": "Etioling (Mortic)",
 		"sources": [
@@ -1743,7 +1743,7 @@
 			"Storms bring some measure of calm to the etioling's mind - as if the primordial energy within them were siphoned off by the more powerful forces swirling about- and the mortics can seem truly mad as they rejoice in dangerous weathers. Most are simply intoxicated by the terrible but awesome displays of nature, though a few become true servants of powerful weather-controlling outsiders or fey, striking grim bargains to bring suffering to others in exchange for control over their own unstable minds."
 		]
 	},
-	"etioling": { "copyof": "mortic_etioling" },
+	"etioling": { "redirect": "mortic_etioling" },
 	"mortic_gurgist": {
 		"name": "Gurgist (Mortic)",
 		"sources": [
@@ -1825,7 +1825,7 @@
 			"Gurgist communities tend to be standoffish but not actively hostile to others in the area. In wilder areas, such as in the depths of the Mwangi Expanse or near the Crown of the World, gurgists are sometimes even accepted as neighbors by local human communities-not necessarily comfortable or friendly, but as allies against more dangerous forces."
 		]
 	},
-	"gurgist": { "copyof": "mortic_gurgist" },
+	"gurgist": { "redirect": "mortic_gurgist" },
 	"mortic_jitterbone": {
 		"name": "Jitterbone (Mortic)",
 		"sources": [ "Pathfinder #139: The Dead Road" ],
@@ -1888,7 +1888,7 @@
 			"**Family:** {family/Mortic}"
 		]
 	},
-	"jitterbone": { "copyof": "mortic_jitterbone" },
+	"jitterbone": { "redirect": "mortic_jitterbone" },
 	"mortic_lifeleecher": {
 		"name": "Lifeleecher (Mortic)",
 		"sources": [
@@ -1971,7 +1971,7 @@
 			"Lifeleecher mortics who live apart from orc settlements fare far worse than their half-orc cousins in similar communities. Something about their mannerisms, especially their dead eyes, is off-putting to non-orcs. Add to that their proclivity for cannibalism, and lifeleecher mortics find they do not assimilate well outside of gladiatorial pens or spectacle sideshows, and the public quickly drives them out into the wild when they discover the lifeleecher mortic's questionable heritage and unsavory diet. This suits most lifeleecher mortics just fine, as outside of orc lands they gravitate towards loner lifestyles as explorers, big-game hunters, and practitioners of guerrilla warfare."
 		]
 	},
-	"lifeleecher": { "copyof": "mortic_lifeleecher" },
+	"lifeleecher": { "redirect": "mortic_lifeleecher" },
 	"mortic_relictner": {
 		"name": "Relictner (Mortic)",
 		"sources": [
@@ -2057,7 +2057,7 @@
 			"Of course, creating traps that never get triggered is boring, so relictners routinely lure visitors to their ruinous homes. Particularly duplicitous relictners have even been known to hire adventuring parties as unwitting meat for their grinders, finding these capable targets a satisfying test for their skills."
 		]
 	},
-	"relictner": { "copyof": "mortic_relictner" },
+	"relictner": { "redirect": "mortic_relictner" },
 	"mosquito_giant_mosquito": {
 		"name": "Giant Mosquito",
 		"sources": [ "Bestiary 2" ],
@@ -2107,8 +2107,8 @@
 			"Giant mosquitoes grow to 6 feet in length, and weigh up to 150 pounds. Variant species of giant mosquitoes exist, although not in the great diversity seen in many other giant vermin. The most common variant is the smaller goblin mosquito (a giant mosquito with the young creature template), but stories of Large jungle mosquitoes (giant mosquitoes with the advanced and giant simple templates) are not unheard of."
 		]
 	},
-	"giant_mosquito": { "copyof": "mosquito_giant_mosquito" },
-	"mosquito_giant": { "copyof": "mosquito_giant_mosquito" },
+	"giant_mosquito": { "redirect": "mosquito_giant_mosquito" },
+	"mosquito_giant": { "redirect": "mosquito_giant_mosquito" },
 	"mosquito_mosquito_swarm": {
 		"name": "Mosquito Swarm",
 		"sources": [
@@ -2158,7 +2158,7 @@
 			"Giant mosquitoes grow to 6 feet in length, and weigh up to 150 pounds. Variant species of giant mosquitoes exist, although not in the great diversity seen in many other giant vermin. The most common variant is the smaller goblin mosquito (a giant mosquito with the young creature template), but stories of Large jungle mosquitoes (giant mosquitoes with the advanced and giant simple templates) are not unheard of."
 		]
 	},
-	"mosquito_swarm": { "copyof": "mosquito_mosquito_swarm" },
+	"mosquito_swarm": { "redirect": "mosquito_mosquito_swarm" },
 	"mosslord": {
 		"name": "Mosslord",
 		"sources": [ "Bestiary 6" ],
@@ -2344,7 +2344,7 @@
 			"A mothman elder is 8 feet tall and weighs 150 pounds."
 		]
 	},
-	"mothman_elder": { "copyof": "mothman_mothman_elder" },
+	"mothman_elder": { "redirect": "mothman_mothman_elder" },
 	"mu_spore": {
 		"name": "Mu Spore",
 		"sources": [ "Bestiary 2" ],

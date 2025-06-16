@@ -94,48 +94,48 @@
 			"| Prismatic | +10 |"
 		]
 	},
-	"epick_brown": { "copyof": "e_pick_brown" },
-	"black_e_pick": { "copyof": "e_pick_brown" },
+	"epick_brown": { "redirect": "e_pick_brown" },
+	"black_e_pick": { "redirect": "e_pick_brown" },
 	"e_pick_blue": {
 		"name": "E-pick (blue)",
 		"copyof": "e_pick_brown"
 	},
-	"epick_blue": { "copyof": "e_pick_blue" },
+	"epick_blue": { "redirect": "e_pick_blue" },
 	"e_pick_black": {
 		"name": "E-pick (black)",
 		"copyof": "e_pick_brown"
 	},
-	"epick_black": { "copyof": "e_pick_black" },
+	"epick_black": { "redirect": "e_pick_black" },
 	"e_pick_gray": {
 		"name": "E-pick (gray)",
 		"copyof": "e_pick_brown"
 	},
-	"epick_gray": { "copyof": "e_pick_gray" },
+	"epick_gray": { "redirect": "e_pick_gray" },
 	"e_pick_green": {
 		"name": "E-pick (green)",
 		"copyof": "e_pick_brown"
 	},
-	"epick_green": { "copyof": "e_pick_green" },
+	"epick_green": { "redirect": "e_pick_green" },
 	"e_pick_orange": {
 		"name": "E-pick (orange)",
 		"copyof": "e_pick_brown"
 	},
-	"epick_orange": { "copyof": "e_pick_orange" },
+	"epick_orange": { "redirect": "e_pick_orange" },
 	"e_pick_prismatic": {
 		"name": "E-pick (prismatic)",
 		"copyof": "e_pick_brown"
 	},
-	"epick_prismatic": { "copyof": "e_pick_prismatic" },
+	"epick_prismatic": { "redirect": "e_pick_prismatic" },
 	"e_pick_red": {
 		"name": "E-pick (red)",
 		"copyof": "e_pick_brown"
 	},
-	"epick_red": { "copyof": "e_pick_red" },
+	"epick_red": { "redirect": "e_pick_red" },
 	"e_pick_white": {
 		"name": "E-pick (white)",
 		"copyof": "e_pick_brown"
 	},
-	"epick_white": { "copyof": "e_pick_white" },
+	"epick_white": { "redirect": "e_pick_white" },
 	"lock_coder_brown": {
 		"name": "Lock Coder (brown)",
 		"sources": [ "Technology Guide" ],
@@ -1062,47 +1062,47 @@
 		"name": "Force Field (brown)",
 		"copyof": "force_field"
 	},
-	"brown_force_field": { "copyof": "force_field_brown" },
+	"brown_force_field": { "redirect": "force_field_brown" },
 	"force_field_blue": {
 		"name": "Force Field (blue)",
 		"copyof": "force_field"
 	},
-	"blue_force_field": { "copyof": "force_field_blue" },
+	"blue_force_field": { "redirect": "force_field_blue" },
 	"force_field_black": {
 		"name": "Force Field (black)",
 		"copyof": "force_field"
 	},
-	"black_force_field": { "copyof": "force_field_black" },
+	"black_force_field": { "redirect": "force_field_black" },
 	"force_field_gray": {
 		"name": "Force Field (gray)",
 		"copyof": "force_field"
 	},
-	"gray_force_field": { "copyof": "force_field_gray" },
+	"gray_force_field": { "redirect": "force_field_gray" },
 	"force_field_green": {
 		"name": "Force Field (green)",
 		"copyof": "force_field"
 	},
-	"green_force_field": { "copyof": "force_field_green" },
+	"green_force_field": { "redirect": "force_field_green" },
 	"force_field_orange": {
 		"name": "Force Field (orange)",
 		"copyof": "force_field"
 	},
-	"orange_force_field": { "copyof": "force_field_orange" },
+	"orange_force_field": { "redirect": "force_field_orange" },
 	"force_field_prismatic": {
 		"name": "Force Field (prismatic)",
 		"copyof": "force_field"
 	},
-	"prismatic_force_field": { "copyof": "force_field_prismatic" },
+	"prismatic_force_field": { "redirect": "force_field_prismatic" },
 	"force_field_red": {
 		"name": "Force Field (red)",
 		"copyof": "force_field"
 	},
-	"red_force_field": { "copyof": "force_field_red" },
+	"red_force_field": { "redirect": "force_field_red" },
 	"force_field_white": {
 		"name": "Force Field (white)",
 		"copyof": "force_field"
 	},
-	"white_force_field": { "copyof": "force_field_white" },
+	"white_force_field": { "redirect": "force_field_white" },
 	"gravity_clip": {
 		"name": "Gravity clip",
 		"sources": [ "Technology Guide" ],

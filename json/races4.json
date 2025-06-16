@@ -141,7 +141,7 @@
 			">**Languages:** Reborn samsarans begin play speaking Common and Samsaran. Those reborn samsarans with high Intelligence scores can choose from the following: any human language, Abyssal, Aquan, Auran, Celestial, Draconic, Giant, Ignan, Infernal, and Terran."
 		]
 	},
-	"samsaran_reborn": { "copyof": "reborn_samsaran" },
+	"samsaran_reborn": { "redirect": "reborn_samsaran" },
 	"shabti": {
 		"name": "Shabti",
 		"sources": [

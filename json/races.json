@@ -2463,5 +2463,5 @@
 			"[^Z]: {source/Ultimate Intrigue/ pg. 17}"
 		]
 	},
-	"elves": { "copyof": "elf" }
+	"elves": { "redirect": "elf" }
 }

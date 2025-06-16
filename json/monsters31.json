@@ -54,7 +54,7 @@
 			"**Family:** {family/Esoteric Dragon}"
 		]
 	},
-	"adult_astral_dragon": { "copyof": "dragon_esoteric_astral_adult_astral_dragon" },
+	"adult_astral_dragon": { "redirect": "dragon_esoteric_astral_adult_astral_dragon" },
 	"dragon_esoteric_astral_ancient_astral_dragon": {
 		"name": "Ancient Astral Dragon",
 		"sources": [ "Bestiary 5" ],
@@ -114,7 +114,7 @@
 			"**Family:** {family/Esoteric Dragon}"
 		]
 	},
-	"ancient_astral_dragon": { "copyof": "dragon_esoteric_astral_ancient_astral_dragon" },
+	"ancient_astral_dragon": { "redirect": "dragon_esoteric_astral_ancient_astral_dragon" },
 	"dragon_esoteric_astral_young_astral_dragon": {
 		"name": "Young Astral Dragon",
 		"sources": [ "Bestiary 5" ],
@@ -169,7 +169,7 @@
 			"**Family:** {family/Esoteric Dragon}"
 		]
 	},
-	"young_astral_dragon": { "copyof": "dragon_esoteric_astral_young_astral_dragon" },
+	"young_astral_dragon": { "redirect": "dragon_esoteric_astral_young_astral_dragon" },
 	"dragon_esoteric_dream_adult_dream_dragon": {
 		"name": "Adult Dream Dragon",
 		"sources": [ "Bestiary 5" ],
@@ -225,7 +225,7 @@
 			"**Family:** {family/Esoteric Dragon}"
 		]
 	},
-	"adult_dream_dragon": { "copyof": "dragon_esoteric_dream_adult_dream_dragon" },
+	"adult_dream_dragon": { "redirect": "dragon_esoteric_dream_adult_dream_dragon" },
 	"dragon_esoteric_dream_ancient_dream_dragon": {
 		"name": "Ancient Dream Dragon",
 		"sources": [ "Bestiary 5" ],
@@ -285,7 +285,7 @@
 			"**Family:** {family/Esoteric Dragon}"
 		]
 	},
-	"ancient_dream_dragon": { "copyof": "dragon_esoteric_dream_ancient_dream_dragon" },
+	"ancient_dream_dragon": { "redirect": "dragon_esoteric_dream_ancient_dream_dragon" },
 	"dragon_esoteric_dream_young_dream_dragon": {
 		"name": "Young Dream Dragon",
 		"sources": [ "Bestiary 5" ],
@@ -339,7 +339,7 @@
 			"**Family:** {family/Esoteric Dragon}"
 		]
 	},
-	"young_dream_dragon": { "copyof": "dragon_esoteric_dream_young_dream_dragon" },
+	"young_dream_dragon": { "redirect": "dragon_esoteric_dream_young_dream_dragon" },
 	"dragon_esoteric_etheric_adult_etheric_dragon": {
 		"name": "Adult Etheric Dragon",
 		"sources": [ "Bestiary 5" ],
@@ -394,7 +394,7 @@
 			"**Family:** {family/Esoteric Dragon}"
 		]
 	},
-	"adult_etheric_dragon": { "copyof": "dragon_esoteric_etheric_adult_etheric_dragon" },
+	"adult_etheric_dragon": { "redirect": "dragon_esoteric_etheric_adult_etheric_dragon" },
 	"dragon_esoteric_etheric_ancient_etheric_dragon": {
 		"name": "Ancient Etheric Dragon",
 		"sources": [ "Bestiary 5" ],
@@ -453,7 +453,7 @@
 			"**Family:** {family/Esoteric Dragon}"
 		]
 	},
-	"ancient_etheric_dragon": { "copyof": "dragon_esoteric_etheric_ancient_etheric_dragon" },
+	"ancient_etheric_dragon": { "redirect": "dragon_esoteric_etheric_ancient_etheric_dragon" },
 	"dragon_esoteric_etheric_young_etheric_dragon": {
 		"name": "Young Etheric Dragon",
 		"sources": [ "Bestiary 5" ],
@@ -503,7 +503,7 @@
 			"**Family:** {family/Esoteric Dragon}"
 		]
 	},
-	"young_etheric_dragon": { "copyof": "dragon_esoteric_etheric_young_etheric_dragon" },
+	"young_etheric_dragon": { "redirect": "dragon_esoteric_etheric_young_etheric_dragon" },
 	"dragon_esoteric_nightmare_adult_nightmare_dragon": {
 		"name": "Adult Nightmare Dragon",
 		"sources": [ "Bestiary 5" ],
@@ -558,7 +558,7 @@
 			"**Family:** {family/Esoteric Dragon}"
 		]
 	},
-	"adult_nightmare_dragon": { "copyof": "dragon_esoteric_nightmare_adult_nightmare_dragon" },
+	"adult_nightmare_dragon": { "redirect": "dragon_esoteric_nightmare_adult_nightmare_dragon" },
 	"dragon_esoteric_nightmare_ancient_nightmare_dragon": {
 		"name": "Ancient Nightmare Dragon",
 		"sources": [ "Bestiary 5" ],
@@ -617,7 +617,7 @@
 			"**Family:** {family/Esoteric Dragon}"
 		]
 	},
-	"ancient_nightmare_dragon": { "copyof": "dragon_esoteric_nightmare_ancient_nightmare_dragon" },
+	"ancient_nightmare_dragon": { "redirect": "dragon_esoteric_nightmare_ancient_nightmare_dragon" },
 	"dragon_esoteric_nightmare_young_nightmare_dragon": {
 		"name": "Young Nightmare Dragon",
 		"sources": [ "Bestiary 5" ],
@@ -666,7 +666,7 @@
 			"**Family:** {family/Esoteric Dragon}"
 		]
 	},
-	"young_nightmare_dragon": { "copyof": "dragon_esoteric_nightmare_young_nightmare_dragon" },
+	"young_nightmare_dragon": { "redirect": "dragon_esoteric_nightmare_young_nightmare_dragon" },
 	"dragon_esoteric_occult_adult_occult_dragon": {
 		"name": "Adult Occult Dragon",
 		"sources": [ "Bestiary 5" ],
@@ -722,7 +722,7 @@
 			"**Family:** {family/Esoteric Dragon}"
 		]
 	},
-	"adult_occult_dragon": { "copyof": "dragon_esoteric_occult_adult_occult_dragon" },
+	"adult_occult_dragon": { "redirect": "dragon_esoteric_occult_adult_occult_dragon" },
 	"dragon_esoteric_occult_ancient_occult_dragon": {
 		"name": "Ancient Occult Dragon",
 		"sources": [ "Bestiary 5" ],
@@ -782,7 +782,7 @@
 			"**Family:** {family/Esoteric Dragon}"
 		]
 	},
-	"ancient_occult_dragon": { "copyof": "dragon_esoteric_occult_ancient_occult_dragon" },
+	"ancient_occult_dragon": { "redirect": "dragon_esoteric_occult_ancient_occult_dragon" },
 	"dragon_esoteric_occult_young_occult_dragon": {
 		"name": "Young Occult Dragon",
 		"sources": [ "Bestiary 5" ],
@@ -837,7 +837,7 @@
 			"**Family:** {family/Esoteric Dragon}"
 		]
 	},
-	"young_occult_dragon": { "copyof": "dragon_esoteric_occult_young_occult_dragon" },
+	"young_occult_dragon": { "redirect": "dragon_esoteric_occult_young_occult_dragon" },
 	"dragon_imperial_forest_adult_forest_dragon": {
 		"name": "Adult Forest Dragon",
 		"sources": [ "Bestiary 3" ],
@@ -893,7 +893,7 @@
 			"**Family:** {family/Forest Dragon}"
 		]
 	},
-	"adult_forest_dragon": { "copyof": "dragon_imperial_forest_adult_forest_dragon" },
+	"adult_forest_dragon": { "redirect": "dragon_imperial_forest_adult_forest_dragon" },
 	"dragon_imperial_forest_ancient_forest_dragon": {
 		"name": "Ancient Forest Dragon",
 		"sources": [ "Bestiary 3" ],
@@ -953,7 +953,7 @@
 			"**Family:** {family/Forest Dragon}"
 		]
 	},
-	"ancient_forest_dragon": { "copyof": "dragon_imperial_forest_ancient_forest_dragon" },
+	"ancient_forest_dragon": { "redirect": "dragon_imperial_forest_ancient_forest_dragon" },
 	"dragon_imperial_forest_young_forest_dragon": {
 		"name": "Young Forest Dragon",
 		"sources": [ "Bestiary 3" ],
@@ -1008,7 +1008,7 @@
 			"**Family:** {family/Forest Dragon}"
 		]
 	},
-	"young_forest_dragon": { "copyof": "dragon_imperial_forest_young_forest_dragon" },
+	"young_forest_dragon": { "redirect": "dragon_imperial_forest_young_forest_dragon" },
 	"dragon_imperial_sea_adult_sea_dragon": {
 		"name": "Adult Sea Dragon",
 		"sources": [ "Bestiary 3" ],
@@ -1064,7 +1064,7 @@
 			"**Family:** {family/Sea Dragon}"
 		]
 	},
-	"adult_sea_dragon": { "copyof": "dragon_imperial_sea_adult_sea_dragon" },
+	"adult_sea_dragon": { "redirect": "dragon_imperial_sea_adult_sea_dragon" },
 	"dragon_imperial_sea_ancient_sea_dragon": {
 		"name": "Ancient Sea Dragon",
 		"sources": [ "Bestiary 3" ],
@@ -1124,7 +1124,7 @@
 			"**Family:** {family/Sea Dragon}"
 		]
 	},
-	"ancient_sea_dragon": { "copyof": "dragon_imperial_sea_ancient_sea_dragon" },
+	"ancient_sea_dragon": { "redirect": "dragon_imperial_sea_ancient_sea_dragon" },
 	"dragon_imperial_sea_young_sea_dragon": {
 		"name": "Young Sea Dragon",
 		"sources": [ "Bestiary 3" ],
@@ -1179,7 +1179,7 @@
 			"**Family:** {family/Sea Dragon}"
 		]
 	},
-	"young_sea_dragon": { "copyof": "dragon_imperial_sea_young_sea_dragon" },
+	"young_sea_dragon": { "redirect": "dragon_imperial_sea_young_sea_dragon" },
 	"dragon_imperial_sky_adult_sky_dragon": {
 		"name": "Adult Sky Dragon",
 		"sources": [ "Bestiary 3" ],
@@ -1235,7 +1235,7 @@
 			"**Family:** {family/Sky Dragon}"
 		]
 	},
-	"adult_sky_dragon": { "copyof": "dragon_imperial_sky_adult_sky_dragon" },
+	"adult_sky_dragon": { "redirect": "dragon_imperial_sky_adult_sky_dragon" },
 	"dragon_imperial_sky_ancient_sky_dragon": {
 		"name": "Ancient Sky Dragon",
 		"sources": [ "Bestiary 3" ],
@@ -1294,7 +1294,7 @@
 			"**Family:** {family/Sky Dragon}"
 		]
 	},
-	"ancient_sky_dragon": { "copyof": "dragon_imperial_sky_ancient_sky_dragon" },
+	"ancient_sky_dragon": { "redirect": "dragon_imperial_sky_ancient_sky_dragon" },
 	"dragon_imperial_sky_young_sky_dragon": {
 		"name": "Young Sky Dragon",
 		"sources": [ "Bestiary 3" ],
@@ -1349,7 +1349,7 @@
 			"**Family:** {family/Sky Dragon}"
 		]
 	},
-	"young_sky_dragon": { "copyof": "dragon_imperial_sky_young_sky_dragon" },
+	"young_sky_dragon": { "redirect": "dragon_imperial_sky_young_sky_dragon" },
 	"dragon_imperial_sovereign_adult_sovereign_dragon": {
 		"name": "Adult Sovereign Dragon",
 		"sources": [ "Bestiary 3" ],
@@ -1405,7 +1405,7 @@
 			"**Family:** {family/Sovereign Dragon}"
 		]
 	},
-	"adult_sovereign_dragon": { "copyof": "dragon_imperial_sovereign_adult_sovereign_dragon" },
+	"adult_sovereign_dragon": { "redirect": "dragon_imperial_sovereign_adult_sovereign_dragon" },
 	"dragon_imperial_sovereign_ancient_sovereign_dragon": {
 		"name": "Ancient Sovereign Dragon",
 		"sources": [ "Bestiary 3" ],
@@ -1465,7 +1465,7 @@
 			"**Family:** {family/Sovereign Dragon}"
 		]
 	},
-	"ancient_sovereign_dragon": { "copyof": "dragon_imperial_sovereign_ancient_sovereign_dragon" },
+	"ancient_sovereign_dragon": { "redirect": "dragon_imperial_sovereign_ancient_sovereign_dragon" },
 	"dragon_imperial_sovereign_young_sovereign_dragon": {
 		"name": "Young Sovereign Dragon",
 		"sources": [ "Bestiary 3" ],
@@ -1520,7 +1520,7 @@
 			"**Family:** {family/Sovereign Dragon}"
 		]
 	},
-	"young_sovereign_dragon": { "copyof": "dragon_imperial_sovereign_young_sovereign_dragon" },
+	"young_sovereign_dragon": { "redirect": "dragon_imperial_sovereign_young_sovereign_dragon" },
 	"dragon_imperial_underworld_adult_underworld_dragon": {
 		"name": "Adult Underworld Dragon",
 		"sources": [ "Bestiary 3" ],
@@ -1576,7 +1576,7 @@
 			"**Family:** {family/Underworld Dragon}"
 		]
 	},
-	"adult_underworld_dragon": { "copyof": "dragon_imperial_underworld_adult_underworld_dragon" },
+	"adult_underworld_dragon": { "redirect": "dragon_imperial_underworld_adult_underworld_dragon" },
 	"dragon_imperial_underworld_ancient_underworld_dragon": {
 		"name": "Ancient Underworld Dragon",
 		"sources": [ "Bestiary 3" ],
@@ -1636,7 +1636,7 @@
 			"**Family:** {family/Underworld Dragon}"
 		]
 	},
-	"ancient_underworld_dragon": { "copyof": "dragon_imperial_underworld_ancient_underworld_dragon" },
+	"ancient_underworld_dragon": { "redirect": "dragon_imperial_underworld_ancient_underworld_dragon" },
 	"dragon_imperial_underworld_young_underworld_dragon": {
 		"name": "Young Underworld Dragon",
 		"sources": [ "Bestiary 3" ],
@@ -1692,7 +1692,7 @@
 			"**Family:** {family/Underworld Dragon}"
 		]
 	},
-	"young_underworld_dragon": { "copyof": "dragon_imperial_underworld_young_underworld_dragon" },
+	"young_underworld_dragon": { "redirect": "dragon_imperial_underworld_young_underworld_dragon" },
 	"dragon_horse": {
 		"name": "Dragon Horse",
 		"sources": [ "Bestiary 2" ],
@@ -1995,8 +1995,8 @@
 			"**Family:** {family/Drake}"
 		]
 	},
-	"drake_desert": { "copyof": "drake_desert_drake" },
-	"desert_drake": { "copyof": "drake_desert_drake" },
+	"drake_desert": { "redirect": "drake_desert_drake" },
+	"desert_drake": { "redirect": "drake_desert_drake" },
 	"drake_ether_drake": {
 		"name": "Ether Drake",
 		"sources": [
@@ -2061,8 +2061,8 @@
 			"**Family:** {family/Drake}"
 		]
 	},
-	"drake_ether": { "copyof": "drake_ether_drake" },
-	"ether_drake": { "copyof": "drake_ether_drake" },
+	"drake_ether": { "redirect": "drake_ether_drake" },
+	"ether_drake": { "redirect": "drake_ether_drake" },
 	"drake_flame_drake": {
 		"name": "Flame Drake",
 		"sources": [
@@ -2125,8 +2125,8 @@
 			"**Family:** {family/Drake}"
 		]
 	},
-	"drake_flame": { "copyof": "drake_flame_drake" },
-	"flame_drake": { "copyof": "drake_flame_drake" },
+	"drake_flame": { "redirect": "drake_flame_drake" },
+	"flame_drake": { "redirect": "drake_flame_drake" },
 	"drake_forest_drake": {
 		"name": "Forest Drake",
 		"sources": [
@@ -2193,8 +2193,8 @@
 			"**Family:** {family/Drake}"
 		]
 	},
-	"drake_forest": { "copyof": "drake_forest_drake" },
-	"forest_drake": { "copyof": "drake_forest_drake" },
+	"drake_forest": { "redirect": "drake_forest_drake" },
+	"forest_drake": { "redirect": "drake_forest_drake" },
 	"drake_frost_drake": {
 		"name": "Frost Drake",
 		"sources": [ "Bestiary 2" ],
@@ -2257,8 +2257,8 @@
 			"**Family:** {family/Drake}"
 		]
 	},
-	"drake_frost": { "copyof": "drake_frost_drake" },
-	"frost_drake": { "copyof": "drake_frost_drake" },
+	"drake_frost": { "redirect": "drake_frost_drake" },
+	"frost_drake": { "redirect": "drake_frost_drake" },
 	"drake_jungle_drake": {
 		"name": "Jungle Drake",
 		"sources": [
@@ -2325,8 +2325,8 @@
 			"**Family:** {family/Drake}"
 		]
 	},
-	"drake_jungle": { "copyof": "drake_jungle_drake" },
-	"jungle_drake": { "copyof": "drake_jungle_drake" },
+	"drake_jungle": { "redirect": "drake_jungle_drake" },
+	"jungle_drake": { "redirect": "drake_jungle_drake" },
 	"drake_lava_drake": {
 		"name": "Lava Drake",
 		"sources": [
@@ -2390,8 +2390,8 @@
 			"**Family:** {family/Drake}"
 		]
 	},
-	"drake_lava": { "copyof": "drake_lava_drake" },
-	"lava_drake": { "copyof": "drake_lava_drake" },
+	"drake_lava": { "redirect": "drake_lava_drake" },
+	"lava_drake": { "redirect": "drake_lava_drake" },
 	"drake_mist_drake": {
 		"name": "Mist Drake",
 		"sources": [
@@ -2458,8 +2458,8 @@
 			"**Family:** {family/Drake}"
 		]
 	},
-	"drake_mist": { "copyof": "drake_mist_drake" },
-	"mist_drake": { "copyof": "drake_mist_drake" },
+	"drake_mist": { "redirect": "drake_mist_drake" },
+	"mist_drake": { "redirect": "drake_mist_drake" },
 	"drake_rift_drake": {
 		"name": "Rift Drake",
 		"sources": [
@@ -2524,8 +2524,8 @@
 			"**Family:** {family/Drake}"
 		]
 	},
-	"drake_rift": { "copyof": "drake_rift_drake" },
-	"rift_drake": { "copyof": "drake_rift_drake" },
+	"drake_rift": { "redirect": "drake_rift_drake" },
+	"rift_drake": { "redirect": "drake_rift_drake" },
 	"drake_river_drake": {
 		"name": "River Drake",
 		"sources": [
@@ -2591,8 +2591,8 @@
 			"**Family:** {family/Drake}"
 		]
 	},
-	"drake_river": { "copyof": "drake_river_drake" },
-	"river_drake": { "copyof": "drake_river_drake" },
+	"drake_river": { "redirect": "drake_river_drake" },
+	"river_drake": { "redirect": "drake_river_drake" },
 	"drake_sea_drake": {
 		"name": "Sea Drake",
 		"sources": [ "Bestiary 2" ],
@@ -2654,8 +2654,8 @@
 			"**Family:** {family/Drake}"
 		]
 	},
-	"drake_sea": { "copyof": "drake_sea_drake" },
-	"sea_drake": { "copyof": "drake_sea_drake" },
+	"drake_sea": { "redirect": "drake_sea_drake" },
+	"sea_drake": { "redirect": "drake_sea_drake" },
 	"drake_shadow_drake": {
 		"name": "Shadow Drake",
 		"sources": [
@@ -2721,8 +2721,8 @@
 			"**Family:** {family/Drake}"
 		]
 	},
-	"drake_shadow": { "copyof": "drake_shadow_drake" },
-	"shadow_drake": { "copyof": "drake_shadow_drake" },
+	"drake_shadow": { "redirect": "drake_shadow_drake" },
+	"shadow_drake": { "redirect": "drake_shadow_drake" },
 	"drake_spire_drake": {
 		"name": "Spire Drake",
 		"sources": [
@@ -2789,8 +2789,8 @@
 			"**Family:** {family/Drake}"
 		]
 	},
-	"drake_spire": { "copyof": "drake_spire_drake" },
-	"spire_drake": { "copyof": "drake_spire_drake" },
+	"drake_spire": { "redirect": "drake_spire_drake" },
+	"spire_drake": { "redirect": "drake_spire_drake" },
 	"fleshwarp_drider": {
 		"name": "Drider (Fleshwarp)",
 		"sources": [
@@ -2863,7 +2863,7 @@
 			"**Family:** {family/Fleshwarp}"
 		]
 	},
-	"drider": { "copyof": "fleshwarp_drider" },
+	"drider": { "redirect": "fleshwarp_drider" },
 	"fleshwarp_ghonhatine": {
 		"name": "Ghonhatine (Fleshwarp)",
 		"sources": [
@@ -2927,7 +2927,7 @@
 			"**Family:** {family/Fleshwarp}"
 		]
 	},
-	"ghonhatine": { "copyof": "fleshwarp_ghonhatine" },
+	"ghonhatine": { "redirect": "fleshwarp_ghonhatine" },
 	"fleshwarp_grothlut": {
 		"name": "Grothlut (Fleshwarp)",
 		"sources": [ "Bestiary 4" ],
@@ -2986,7 +2986,7 @@
 			"**Family:** {family/Fleshwarp}"
 		]
 	},
-	"grothlut": { "copyof": "fleshwarp_grothlut" },
+	"grothlut": { "redirect": "fleshwarp_grothlut" },
 	"fleshwarp_halsora": {
 		"name": "Halsora (Fleshwarp)",
 		"sources": [ "Bestiary 4" ],
@@ -3042,7 +3042,7 @@
 			"**Family:** {family/Fleshwarp}"
 		]
 	},
-	"halsora": { "copyof": "fleshwarp_halsora" },
+	"halsora": { "redirect": "fleshwarp_halsora" },
 	"fleshwarp_irnakurse": {
 		"name": "Irnakurse (Fleshwarp)",
 		"sources": [
@@ -3103,7 +3103,7 @@
 			"**Family:** {family/Fleshwarp}"
 		]
 	},
-	"irnakurse": { "copyof": "fleshwarp_irnakurse" },
+	"irnakurse": { "redirect": "fleshwarp_irnakurse" },
 	"fleshwarp_oronci": {
 		"name": "Oronci (Fleshwarp)",
 		"sources": [
@@ -3169,7 +3169,7 @@
 			"**Family:** {family/Fleshwarp}"
 		]
 	},
-	"oronci": { "copyof": "fleshwarp_oronci" },
+	"oronci": { "redirect": "fleshwarp_oronci" },
 	"flying_polyp": {
 		"name": "Flying Polyp",
 		"sources": [
@@ -3308,7 +3308,7 @@
 			"[^B]: Bonus feat."
 		]
 	},
-	"forgefiend": { "copyof": "forgefiend_scanderig" },
+	"forgefiend": { "redirect": "forgefiend_scanderig" },
 	"forlarren": {
 		"name": "Forlarren",
 		"sources": [ "Bestiary 2" ],
@@ -3438,7 +3438,7 @@
 			"**Family:** {family/Formian}"
 		]
 	},
-	"formian_myrmarch": { "copyof": "formian_formian_myrmarch" },
+	"formian_myrmarch": { "redirect": "formian_formian_myrmarch" },
 	"formian_formian_queen": {
 		"name": "Formian Queen",
 		"sources": [ "Bestiary 4" ],
@@ -3498,7 +3498,7 @@
 			"**Family:** {family/Formian}"
 		]
 	},
-	"formian_queen": { "copyof": "formian_formian_queen" },
+	"formian_queen": { "redirect": "formian_formian_queen" },
 	"formian_formian_taskmaster": {
 		"name": "Formian Taskmaster",
 		"sources": [ "Bestiary 4" ],
@@ -3569,7 +3569,7 @@
 			"**Family:** {family/Formian}"
 		]
 	},
-	"formian_taskmaster": { "copyof": "formian_formian_taskmaster" },
+	"formian_taskmaster": { "redirect": "formian_formian_taskmaster" },
 	"formian_formian_warrior": {
 		"name": "Formian Warrior",
 		"sources": [ "Bestiary 4" ],
@@ -3635,7 +3635,7 @@
 			"**Family:** {family/Formian}"
 		]
 	},
-	"formian_warrior": { "copyof": "formian_formian_warrior" },
+	"formian_warrior": { "redirect": "formian_formian_warrior" },
 	"formian_formian_worker": {
 		"name": "Formian Worker",
 		"sources": [ "Bestiary 4" ],
@@ -3695,7 +3695,7 @@
 			"**Family:** {family/Formian}"
 		]
 	},
-	"formian_worker": { "copyof": "formian_formian_worker" },
+	"formian_worker": { "redirect": "formian_formian_worker" },
 	"formless_spawn": {
 		"name": "Formless Spawn",
 		"sources": [ "Pathfinder #111: Dreams of the Yellow King" ],
@@ -3822,7 +3822,7 @@
 			"These soldiers were once specialists who operated a variety of ranged weapons, including ancient Jistkan siege weapons. The unholy power of the forsaken legion allows these arbalesters to fire ghostly bolts supernaturally quickly without sacrificing accuracy."
 		]
 	},
-	"forsaken_arbalester": { "copyof": "forsaken_legion_forsaken_arbalester" },
+	"forsaken_arbalester": { "redirect": "forsaken_legion_forsaken_arbalester" },
 	"forsaken_legion_forsaken_defender": {
 		"name": "Forsaken Defender (Forsaken Legion)",
 		"sources": [ "Pathfinder #102: Breaking the Bones of Hell" ],
@@ -3874,7 +3874,7 @@
 			"Long ago, these defense specialists planned and supervised the construction of field fortifications for the Jistka Imperium. Now powered by unholy energies, they can create impromptu defenses in the blink of an eye."
 		]
 	},
-	"forsaken_defender": { "copyof": "forsaken_legion_forsaken_defender" },
+	"forsaken_defender": { "redirect": "forsaken_legion_forsaken_defender" },
 	"forsaken_legion_forsaken_foot_soldier": {
 		"name": "Forsaken Foot Soldier (Forsaken Legion)",
 		"sources": [ "Pathfinder #102: Breaking the Bones of Hell" ],
@@ -3925,7 +3925,7 @@
 			"The greatest strength of the rank-and-file soldiers of the Jistka Imperium was their ability to work as a cohesive unit in stressful situations. Now powered by unholy energies, these legionnaires' loyalty transcends even death. Wherever groupings of forsaken legionnaires are found, there is always a solid number of foot soldiers, which still serve as the elite backbone of Jistkan companies even though they have long been forgotten."
 		]
 	},
-	"forsaken_foot_soldier": { "copyof": "forsaken_legion_forsaken_foot_soldier" },
+	"forsaken_foot_soldier": { "redirect": "forsaken_legion_forsaken_foot_soldier" },
 	"fossegrim": {
 		"name": "Fossegrim",
 		"sources": [ "Bestiary 4" ],
@@ -4153,7 +4153,7 @@
 			"Frog fathers devour entire hives of monstrous vermin and any livestock that stray too close to their marshes, but happily gulp down any prey that crosses their paths. Their long, sticky tongues allow them to capture and restrain prey while they determine whether they want to consume it. A frog father's chosen prey has little chance of escaping, as the frog's powerful throat muscles allow it to swallow even large creatures rapidly."
 		]
 	},
-	"frog_father": { "copyof": "frog_frog_father" },
+	"frog_father": { "redirect": "frog_frog_father" },
 	"frog_giant_frog": {
 		"name": "Giant Frog",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -4202,8 +4202,8 @@
 			"Giant frogs have razor-sharp teeth lining their mouths. They are 6 feet long and weigh 200 pounds."
 		]
 	},
-	"frog_giant": { "copyof": "frog_giant_frog" },
-	"giant_frog": { "copyof": "frog_giant_frog" },
+	"frog_giant": { "redirect": "frog_giant_frog" },
+	"giant_frog": { "redirect": "frog_giant_frog" },
 	"frog_goliath_frog": {
 		"name": "Goliath Frog",
 		"sources": [ "Bestiary 5" ],
@@ -4252,8 +4252,8 @@
 			"These hulking frogs haunt warm marshlands and river shallows where thick undergrowth can conceal them. They are dangerous, aggressive predators that gorge themselves on smaller creatures or team up to bring down larger prey. They often climb to the low branches of ancient, mossy trees, picking off prey from the wetland's floor before their existence is even suspected."
 		]
 	},
-	"frog_goliath": { "copyof": "frog_goliath_frog" },
-	"goliath_frog": { "copyof": "frog_goliath_frog" },
+	"frog_goliath": { "redirect": "frog_goliath_frog" },
+	"goliath_frog": { "redirect": "frog_goliath_frog" },
 	"frog_poison_frog": {
 		"name": "Poison Frog",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -4303,8 +4303,8 @@
 			"You can make a larger poison frog either by applying the giant simple template or by giving a normal giant frog a poison frog's venomous bite."
 		]
 	},
-	"frog_poison": { "copyof": "frog_poison_frog" },
-	"poison_frog": { "copyof": "frog_poison_frog" },
+	"frog_poison": { "redirect": "frog_poison_frog" },
+	"poison_frog": { "redirect": "frog_poison_frog" },
 	"froghemoth": {
 		"name": "Froghemoth",
 		"sources": [ "Pathfinder RPG Bestiary" ],

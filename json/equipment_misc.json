@@ -110,8 +110,8 @@
 			"This 10-foot-long chain has hardness 20 and 6 hit points. A successful DC 30 Strength check is required to burst it, making it strong enough to hold many types of giants."
 		]
 	},
-	"chain_adamantine": { "copyof": "adamantine_chain_10_ft" },
-	"adamantine_chain": { "copyof": "adamantine_chain_10_ft" },
+	"chain_adamantine": { "redirect": "adamantine_chain_10_ft" },
+	"adamantine_chain": { "redirect": "adamantine_chain_10_ft" },
 	"adhesive_strip": {
 		"name": "Adhesive strip",
 		"sources": [ "Ultimate Wilderness" ],
@@ -201,8 +201,8 @@
 			"An air-breathing adventurer would need to bring over a dozen tanks full of air with her to have enough to breathe for even a single hour. Since this is impractical, alchemists developed a technique to store greater amounts of air in a smaller volume using pressure. Each pressurized air tank is a little smaller than half the size of a tank, but it contains enough air for a swimming character to breathe for 1 hour (the pressurized air itself weighs 7 pounds, so an empty tank weighs only 23 pounds). When a small crank is manipulated as a standard action, the tank releases just enough air for a breath, which the diving character breathes in through a straw-like tube with a semi-permeable end piece that allows air out but not water in. The process of refilling the air tank requires 5 gp of materials and a successful DC 20 Craft (alchemy) check (failure destroys the tank) or the services of a {class/kineticist} with basic aerokinesis."
 		]
 	},
-	"pressurized_air_tank": { "copyof": "air_tank_pressurized" },
-	"air_tank": { "copyof": "air_tank_pressurized" },
+	"pressurized_air_tank": { "redirect": "air_tank_pressurized" },
+	"air_tank": { "redirect": "air_tank_pressurized" },
 	"alchemical_blood": {
 		"name": "Alchemical blood",
 		"sources": [ "Monster Codex" ],
@@ -737,8 +737,8 @@
 			"While these alchemical solutions do not cause as swift or extensive a change as magical alternatives, they are far more affordable, especially among the [Rivethun](rule/aff_animists), who often teach the process of their creation to their disciples."
 		]
 	},
-	"anderos_salve": { "copyof": "anderos_salve_and_mulibrous_tincture" },
-	"mulibrous_tincture": { "copyof": "anderos_salve_and_mulibrous_tincture" },
+	"anderos_salve": { "redirect": "anderos_salve_and_mulibrous_tincture" },
+	"mulibrous_tincture": { "redirect": "anderos_salve_and_mulibrous_tincture" },
 	"anesthetic_wine": {
 		"name": "Anesthetic wine",
 		"sources": [ "Adventurer's Armory 2" ],
@@ -849,7 +849,7 @@
 			"This leather or hemp harness allows a holder to restrain and control a domesticated animal. A harness is standard equipment for anyone trying to teach an animal tricks with the Handle Animal skill. Ready-made harnesses are available in most markets for common domesticated animals such as cats, dogs, horses, and oxen, but harnesses can be made for nearly any creature."
 		]
 	},
-	"harness": { "copyof": "animal_harness" },
+	"harness": { "redirect": "animal_harness" },
 	"animal_repellent": {
 		"name": "Animal repellent",
 		"sources": [ "Ultimate Wilderness" ],
@@ -1380,8 +1380,8 @@
 			"This small grappling hook is designed to be tied to a {eq-misc/silk rope>_50_ft} and fired from a bow. When fired, it has a range increment of 30 feet. An equivalent item exists for crossbows."
 		]
 	},
-	"grappling_arrow": { "copyof": "arrow_grappling" },
-	"grappling_bolt": { "copyof": "arrow_grappling" },
+	"grappling_arrow": { "redirect": "arrow_grappling" },
+	"grappling_bolt": { "redirect": "arrow_grappling" },
 	"artifical_gills": {
 		"name": "Artifical gills",
 		"sources": [ "Blood of the Sea" ],
@@ -1455,9 +1455,9 @@
 		"name": "Artisan's tools (masterwork)",
 		"copyof": "artisans_tools_common"
 	},
-	"masterwork_artisans_tools": { "copyof": "artisans_tools_masterwork" },
-	"artisans_tools_mwk": { "copyof": "artisans_tools_masterwork" },
-	"artisans_tools": { "copyof": "artisans_tools_common" },
+	"masterwork_artisans_tools": { "redirect": "artisans_tools_masterwork" },
+	"artisans_tools_mwk": { "redirect": "artisans_tools_masterwork" },
+	"artisans_tools": { "redirect": "artisans_tools_common" },
 	"artists_poster": {
 		"name": "Artist's poster",
 		"sources": [ "Occult Adventures" ],
@@ -1796,8 +1796,8 @@
 		"name": "Backpack (masterwork)",
 		"copyof": "backpack_common"
 	},
-	"backpack_mwk": { "copyof": "backpack_masterwork" },
-	"masterwork_backpack": { "copyof": "backpack_masterwork" },
+	"backpack_mwk": { "redirect": "backpack_masterwork" },
+	"masterwork_backpack": { "redirect": "backpack_masterwork" },
 	"backpack_weaponrack": {
 		"name": "Backpack (weaponrack)",
 		"copyof": "backpack_common"
@@ -1838,7 +1838,7 @@
 			"These sacks each include a 20-foot-long rope, from which they may be easily suspended from a tree limb or similar anchor point. Placing foodstuffs or fragile materials in hanging sacks is often considered a basic precaution when camping in the wild, to prevent bears and other predators from rooting through the sack's contents."
 		]
 	},
-	"bear_bag": { "copyof": "bag_bear" },
+	"bear_bag": { "redirect": "bag_bear" },
 	"baijiu_bottle": {
 		"name": "Baijiu (bottle)",
 		"sources": [ "Ultimate Equipment" ],
@@ -1878,17 +1878,17 @@
 			"This ball may be an inflated animal bladder, carved from light wood, fabric stuffed with cloth or plant fiber and sewn shut."
 		]
 	},
-	"ball_ten_in": { "copyof": "ball_10_in" },
+	"ball_ten_in": { "redirect": "ball_10_in" },
 	"ball_2_in": {
 		"name": "Ball (2 in.)",
 		"copyof": "ball_10_in"
 	},
-	"ball_two_in": { "copyof": "ball_2_in" },
+	"ball_two_in": { "redirect": "ball_2_in" },
 	"ball_5_in": {
 		"name": "Ball (5 in.)",
 		"copyof": "ball_10_in"
 	},
-	"ball_five_in": { "copyof": "ball_5_in" },
+	"ball_five_in": { "redirect": "ball_5_in" },
 	"balloon_trap": {
 		"name": "Balloon trap",
 		"sources": [ "Dragonslayer's Handbook" ],
@@ -2409,7 +2409,7 @@
 			"This mixture of seed and dead insects is suitable food for small birds such as ravens, crows, and chickens. Birds of prey such as falcons, hawks, and owls can also sustain themselves on bird feed, though they typically require at least two servings per day. Larger avian creatures such as axe beaks and griffons require larger portions of meat, and cannot survive on bird feed alone."
 		]
 	},
-	"bird_feed": { "copyof": "bird_feed_per_day" },
+	"bird_feed": { "redirect": "bird_feed_per_day" },
 	"bird_training_kit": {
 		"name": "Bird-training kit",
 		"sources": [ "Animal Archive" ],
@@ -2516,7 +2516,7 @@
 			"**Construction:** Craft (Alchemy) DC 25"
 		]
 	},
-	"black_fester": { "copyof": "black_fester_vial" },
+	"black_fester": { "redirect": "black_fester_vial" },
 	"blackfingers_paste": {
 		"name": "Blackfingers paste",
 		"sources": [ "Rival Guide" ],
@@ -3039,7 +3039,7 @@
 			"This glass bottle holds about a pint and includes a cork."
 		]
 	},
-	"glass_bottle": { "copyof": "bottle" },
+	"glass_bottle": { "redirect": "bottle" },
 	"bottled_musk": {
 		"name": "Bottled musk",
 		"sources": [ "Monster Hunter's Handbook" ],
@@ -3163,7 +3163,7 @@
 		"name": "Branding iron (custom shape)",
 		"copyof": "branding_iron_common"
 	},
-	"branding_iron": { "copyof": "branding_iron_common" },
+	"branding_iron": { "redirect": "branding_iron_common" },
 	"brawlers_brew": {
 		"name": "Brawler's brew",
 		"sources": [ "Potions and Poisons" ],
@@ -3268,7 +3268,7 @@
 			"This exceptionally crafted kit provides extra spices, a wider variety of herbs, and higher quality tools than a normal brewer's kit. A masterwork brewer's kit grants a +2 circumstance bonus on Craft (alchemy) checks to produce alcoholic beverages."
 		]
 	},
-	"masterwork_brewers_kit": { "copyof": "brewers_kit_masterwork" },
+	"masterwork_brewers_kit": { "redirect": "brewers_kit_masterwork" },
 	"broadsheet": {
 		"name": "Broadsheet",
 		"sources": [ "Inner Sea Intrigue" ],
@@ -3294,7 +3294,7 @@
 			"When activated, this small masterwork metal gong remains charged with power for 8 hours. When the gong is struck softly, it emits a clear and pleasing tone that instantly focuses the striker's thoughts and mental energy. If the creature striking the gong has a ki pool and worships {faith/Irori}, she regains 1 ki point. This use expends the power within the gong."
 		]
 	},
-	"bronze_gong": { "copyof": "bronze_gong_irori" },
+	"bronze_gong": { "redirect": "bronze_gong_irori" },
 	"brooch": {
 		"name": "Brooch",
 		"sources": [ "Ultimate Equipment" ],
@@ -3352,10 +3352,10 @@
 			"**Waterproof Lantern:** Meant to shelter its flame from both water and wind, this lantern treats severe winds as strong winds, windstorms as severe winds, and hurricanes as windstorms for the purpose of determining whether they extinguish its flame. It holds enough air to burn underwater for 5 rounds before going dark."
 		]
 	},
-	"lantern_bullseye": { "copyof": "bullseye_lantern" },
-	"waterproof_lantern_bullseye": { "copyof": "bullseye_lantern" },
-	"waterproof_bullseye_lantern": { "copyof": "bullseye_lantern" },
-	"lantern_waterproof_bullseye": { "copyof": "bullseye_lantern" },
+	"lantern_bullseye": { "redirect": "bullseye_lantern" },
+	"waterproof_lantern_bullseye": { "redirect": "bullseye_lantern" },
+	"waterproof_bullseye_lantern": { "redirect": "bullseye_lantern" },
+	"lantern_waterproof_bullseye": { "redirect": "bullseye_lantern" },
 	"bunk": {
 		"name": "Bunk",
 		"sources": [ "Alchemy Manual" ],
@@ -3500,7 +3500,7 @@
 		"name": "Cage (tiny)",
 		"copyof": "cage"
 	},
-	"tiny_cage": { "copyof": "cage_tiny" },
+	"tiny_cage": { "redirect": "cage_tiny" },
 	"cage_small_or_medium": {
 		"name": "Cage (small or medium)",
 		"copyof": "cage"
@@ -3582,7 +3582,7 @@
 			"Cold iron caltrops function in all ways as ordinary {eq-misc/caltrops} except that they are made of cold iron, and affect creatures with DR/cold iron accordingly."
 		]
 	},
-	"cold_iron_caltrops": { "copyof": "caltrops_cold_iron" },
+	"cold_iron_caltrops": { "redirect": "caltrops_cold_iron" },
 	"caltrops_vicious": {
 		"name": "Caltrops, vicious",
 		"sources": [ "Goblins of Golarion" ],
@@ -3595,7 +3595,7 @@
 			"These specially modified {eq-misc/caltrops} have clusters of needle-sharp spines that are slightly longer and more brittle than those on normal caltrops. Like standard caltrops, a 2-pound bag of vicious caltrops covers a 5-foot-square area. Vicious caltrops work just like normal caltrops, save that they have an attack bonus of +4, do 1d2 points of damage, and require a DC 20 Heal check to fully treat."
 		]
 	},
-	"vicious_caltrops": { "copyof": "caltrops_vicious" },
+	"vicious_caltrops": { "redirect": "caltrops_vicious" },
 	"calumet": {
 		"name": "Calumet",
 		"sources": [ "Advanced Class Guide" ],
@@ -3725,7 +3725,7 @@
 			"A candle dimly illuminates a small area, increasing the light level in a 5-foot radius by one step (darkness becomes dim light and dim light becomes normal light). A candle cannot increase the light level above normal light. A candle burns for 1 hour."
 		]
 	},
-	"candles": { "copyof": "candle" },
+	"candles": { "redirect": "candle" },
 	"candlefish": {
 		"name": "Candlefish",
 		"sources": [ "Merchant's Manifest" ],
@@ -3799,18 +3799,18 @@
 			"A hollow cane has a false top that conceals a small compartment within the cane. The compartment is large enough to house a potion or vial. Spotting the secret compartment of a hollow cane requires a successful DC 18 Perception check."
 		]
 	},
-	"hollow_cane": { "copyof": "cane_hollow_common" },
-	"hollow_common_cane": { "copyof": "cane_hollow_common" },
+	"hollow_cane": { "redirect": "cane_hollow_common" },
+	"hollow_common_cane": { "redirect": "cane_hollow_common" },
 	"cane_hollow_simple": {
 		"name": "Cane, hollow (simple)",
 		"copyof": "cane_hollow_common"
 	},
-	"hollow_simple_cane": { "copyof": "cane_hollow_simple" },
+	"hollow_simple_cane": { "redirect": "cane_hollow_simple" },
 	"cane_hollow_elegant": {
 		"name": "Cane, hollow (elegant)",
 		"copyof": "cane_hollow_common"
 	},
-	"hollow_elegant_cane": { "copyof": "cane_hollow_elegant" },
+	"hollow_elegant_cane": { "redirect": "cane_hollow_elegant" },
 	"cannon_ball": {
 		"name": "Cannon ball",
 		"sources": [ "Inner Sea World Guide" ],
@@ -3850,7 +3850,7 @@
 			"This square yard of heavy cloth is suitable for painting, for covering items in a rainstorm, for creating a sail, or as an improvised bag. It is not waterproof but can be treated with oil, wax, or resin to make it water-resistant."
 		]
 	},
-	"canvas": { "copyof": "canvas_sq_yd" },
+	"canvas": { "redirect": "canvas_sq_yd" },
 	"caparison": {
 		"name": "Caparison",
 		"sources": [ "Adventurer's Guide" ],
@@ -3915,8 +3915,8 @@
 			"Playing cards range from block-printed symbols on thick paper to elaborate, hand-painted works of art on waxed vellum, ivory, wood, or even metal."
 		]
 	},
-	"deck_of_cards": { "copyof": "cards" },
-	"playing_cards": { "copyof": "cards" },
+	"deck_of_cards": { "redirect": "cards" },
+	"playing_cards": { "redirect": "cards" },
 	"carnivore_feed_per_day": {
 		"name": "Carnivore feed (per day)",
 		"sources": [ "Animal Archive" ],
@@ -3929,7 +3929,7 @@
 			"Consisting of various kinds of raw meat that have been jerked, smoked, or salted for preservation, a day's worth of carnivore feed is adequate food for any Small or Medium meat-eating animal such as a tiger, bear, or dog. Larger carnivores might require up to 2 to 4 days' worth of carnivore feed per day."
 		]
 	},
-	"carnivore_feed": { "copyof": "carnivore_feed_per_day" },
+	"carnivore_feed": { "redirect": "carnivore_feed_per_day" },
 	"carriage": {
 		"name": "Carriage",
 		"sources": [
@@ -4015,7 +4015,7 @@
 			"These Tiny animals are often kept as pets or familiars. Though small, they are excellent hunters. Grain farmers usually keep cats for pest control in crop storage areas, but cats can be found in most regions and strays occupy many cities."
 		]
 	},
-	"cat": { "copyof": "cat_common" },
+	"cat": { "redirect": "cat_common" },
 	"cat_osirian_wise_eye": {
 		"name": "Cat (osirian wise-eye)",
 		"copyof": "cat_common"
@@ -4206,8 +4206,8 @@
 			"These creatures come in many forms, from the lighter-colored 20-legged variety to the darker 300-legged variety. Typically, these arthropods are what pass for pets in the slums, but the young and eccentric often search for the best specimens to serve as familiars. Centipedes employed as familiars have an Intelligence score and lose the mindless trait."
 		]
 	},
-	"centipede": { "copyof": "centipede_house" },
-	"house_centipede": { "copyof": "centipede_house" },
+	"centipede": { "redirect": "centipede_house" },
+	"house_centipede": { "redirect": "centipede_house" },
 	"chain_10_ft": {
 		"name": "Chain (10 ft.)",
 		"sources": [
@@ -4223,8 +4223,8 @@
 			"This chain is made of interlocking metal links roughly an inch long, and thick enough to bear large amounts of weight. It has hardness 10 and 5 hit points. It can be burst with a DC 26 Strength check."
 		]
 	},
-	"chain": { "copyof": "chain_10_ft" },
-	"chain_ten_ft": { "copyof": "chain_10_ft" },
+	"chain": { "redirect": "chain_10_ft" },
+	"chain_ten_ft": { "redirect": "chain_10_ft" },
 	"chain_belt": {
 		"name": "Chain belt",
 		"sources": [ "Advanced Race Guide" ],
@@ -4835,9 +4835,7 @@
 		"name": "Coffin (ornate)",
 		"copyof": "coffin_common"
 	},
-	"coffin": {
-		"copyof": "coffin_common"
-	},
+	"coffin": { "redirect": "coffin_common" },
 	"cold_weather_outfit": {
 		"name": "Cold-weather outfit",
 		"sources": [
@@ -4944,7 +4942,7 @@
 		"name": "Commissioned broadsheet (print run (500 broadsheets))",
 		"copyof": "commissioned_broadsheet_setup_and_proof_print"
 	},
-	"commissioned_broadsheet_print_run_five_hundred_broadsheets": { "copyof": "commissioned_broadsheet_print_run_500_broadsheets" },
+	"commissioned_broadsheet_print_run_five_hundred_broadsheets": { "redirect": "commissioned_broadsheet_print_run_500_broadsheets" },
 	"compact_spellbook": {
 		"name": "Compact spellbook",
 		"sources": [ "Advanced Race Guide" ],
@@ -5488,7 +5486,7 @@
 			"In addition to granting the same bonus on Perform (dance) checks as regular dancer's garb, silver dancer's garb is considered a silver instrument for {arc-bard/silver balladeer} bards. Silver dancer's garb can be made of {eq-material/sunsilver}; sunsilver dancer's garb costs an additional 3,000 gp and grants the same benefits as armor made of sunsilver. As with the bonus on Perform (dance) checks, this benefit functions only when no other armor or concealing clothing is worn."
 		]
 	},
-	"silver_dancers_garb": { "copyof": "dancers_garb_silver" },
+	"silver_dancers_garb": { "redirect": "dancers_garb_silver" },
 	"dandy_brush": {
 		"name": "Dandy brush",
 		"sources": [ "Animal Archive" ],

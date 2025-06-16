@@ -74,7 +74,7 @@
 			"| Two-handed weapon, or both heads of a double weapon | +180 gp |"
 		]
 	},
-	"silver": { "copyof": "alchemical_silver" },
+	"silver": { "redirect": "alchemical_silver" },
 	"angelskin": {
 		"name": "Angelskin",
 		"sources": [ "Ultimate Equipment" ],

@@ -1077,7 +1077,7 @@
 		],
 		"topLink": [ "Light Weapons", "main/equipment_weapons_light" ]
 	},
-	"dwarven_boulder_helmet": { "copyof": "helmet_dwarven_boulder" },
+	"dwarven_boulder_helmet": { "redirect": "helmet_dwarven_boulder" },
 	"kama": {
 		"name": "Kama",
 		"sources": [
@@ -1207,7 +1207,7 @@
 		],
 		"topLink": [ "Light Weapons", "main/equipment_weapons_light" ]
 	},
-	"drow_razor": { "copyof": "razor_drow" },
+	"drow_razor": { "redirect": "razor_drow" },
 	"rope_gauntlet": {
 		"name": "Rope gauntlet",
 		"sources": [
@@ -1717,7 +1717,7 @@
 		],
 		"topLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
 	},
-	"dwarven_ram_hammer": { "copyof": "ram_hammer_dwarven" },
+	"dwarven_ram_hammer": { "redirect": "ram_hammer_dwarven" },
 	"rhoka_sword": {
 		"name": "Rhoka sword",
 		"sources": [
@@ -1982,7 +1982,7 @@
 		],
 		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
-	"gnome_battle_ladder": { "copyof": "battle_ladder_gnome" },
+	"gnome_battle_ladder": { "redirect": "battle_ladder_gnome" },
 	"bladed_scarf": {
 		"name": "Bladed scarf",
 		"sources": [
@@ -2154,8 +2154,8 @@
 		],
 		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
-	"dorn_dergar": { "copyof": "dorn_dergar_dwarven" },
-	"dwarven_dorn_dergar": { "copyof": "dorn_dergar_dwarven" },
+	"dorn_dergar": { "redirect": "dorn_dergar_dwarven" },
+	"dwarven_dorn_dergar": { "redirect": "dorn_dergar_dwarven" },
 	"double_spear": {
 		"name": "Double spear",
 		"sources": [ "Martial Arts Handbook" ],
@@ -2495,7 +2495,7 @@
 		],
 		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
-	"dwarven_longaxe": { "copyof": "longaxe_dwarven" },
+	"dwarven_longaxe": { "redirect": "longaxe_dwarven" },
 	"longhammer_dwarven": {
 		"name": "Longhammer, dwarven",
 		"sources": [ "Advanced Race Guide" ],
@@ -2511,7 +2511,7 @@
 		],
 		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
-	"dwarven_longhammer": { "copyof": "longhammer_dwarven" },
+	"dwarven_longhammer": { "redirect": "longhammer_dwarven" },
 	"mancatcher": {
 		"name": "Mancatcher",
 		"sources": [
@@ -2607,7 +2607,7 @@
 		],
 		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
-	"gnome_piston_maul": { "copyof": "piston_maul_gnome" },
+	"gnome_piston_maul": { "redirect": "piston_maul_gnome" },
 	"ripsaw_glaive_gnome": {
 		"name": "Ripsaw glaive, gnome",
 		"sources": [
@@ -2627,7 +2627,7 @@
 		],
 		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
-	"gnome_ripsaw_glaive": { "copyof": "ripsaw_glaive_gnome" },
+	"gnome_ripsaw_glaive": { "redirect": "ripsaw_glaive_gnome" },
 	"seven_branched_sword": {
 		"name": "Seven-branched sword",
 		"sources": [
@@ -2663,7 +2663,7 @@
 		],
 		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
-	"dwarven_sphinx_hammer": { "copyof": "sphinx_hammer_dwarven" },
+	"dwarven_sphinx_hammer": { "redirect": "sphinx_hammer_dwarven" },
 	"spiked_chain": {
 		"name": "Spiked chain",
 		"sources": [
@@ -2912,7 +2912,7 @@
 		],
 		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
 	},
-	"double_sling": { "copyof": "halfling_double_sling" },
+	"double_sling": { "redirect": "halfling_double_sling" },
 	"halfling_sling_staff": {
 		"name": "Halfling sling staff",
 		"sources": [
@@ -3041,7 +3041,7 @@
 		],
 		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
 	},
-	"orc_hornbow": { "copyof": "hornbow_orc" },
+	"orc_hornbow": { "redirect": "hornbow_orc" },
 	"horse_bow": {
 		"name": "Horse bow",
 		"sources": [ "Merchant's Manifest" ],
@@ -3185,7 +3185,7 @@
 		],
 		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
 	},
-	"dwarven_heavy_pelletbow": { "copyof": "pelletbow_dwarven_heavy" },
+	"dwarven_heavy_pelletbow": { "redirect": "pelletbow_dwarven_heavy" },
 	"pelletbow_dwarven_light": {
 		"name": "Pelletbow, dwarven light",
 		"sources": [ "Heroes from the Fringe" ],
@@ -3204,7 +3204,7 @@
 		],
 		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
 	},
-	"dwarven_light_pelletbow": { "copyof": "pelletbow_dwarven_light" },
+	"dwarven_light_pelletbow": { "redirect": "pelletbow_dwarven_light" },
 	"repeating_hand_crossbow": {
 		"name": "Repeating hand crossbow",
 		"sources": [
@@ -3266,7 +3266,7 @@
 		],
 		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
 	},
-	"light_repeating_crossbow": { "copyof": "repeating_light_crossbow" },
+	"light_repeating_crossbow": { "redirect": "repeating_light_crossbow" },
 	"repeating_crossbow": {
 		"name": "Repeating crossbow",
 		"sources": [],
@@ -3496,30 +3496,30 @@
 		"name": "Kobold Tail Attachment",
 		"copyof": "kobold_tail_long_lash"
 	},
-	"kobold_tail_attachment": { "copyof": "kobold_tail" },
-	"long_lash_kobold_tail": { "copyof": "kobold_tail_long_lash" },
-	"long_lash": { "copyof": "kobold_tail_long_lash" },
+	"kobold_tail_attachment": { "redirect": "kobold_tail" },
+	"long_lash_kobold_tail": { "redirect": "kobold_tail_long_lash" },
+	"long_lash": { "redirect": "kobold_tail_long_lash" },
 	"kobold_tail_pounder": {
 		"name": "Kobold tail, pounder",
 		"copyof": "kobold_tail_long_lash"
 	},
-	"pounder_kobold_tail": { "copyof": "kobold_tail_pounder" },
-	"pounder_tail": { "copyof": "kobold_tail_pounder" },
+	"pounder_kobold_tail": { "redirect": "kobold_tail_pounder" },
+	"pounder_tail": { "redirect": "kobold_tail_pounder" },
 	"kobold_tail_razored": {
 		"name": "Kobold tail, razored",
 		"copyof": "kobold_tail_long_lash"
 	},
-	"razored_kobold_tail": { "copyof": "kobold_tail_razored" },
+	"razored_kobold_tail": { "redirect": "kobold_tail_razored" },
 	"kobold_tail_spiked": {
 		"name": "Kobold tail, spiked",
 		"copyof": "kobold_tail_long_lash"
 	},
-	"spiked_kobold_tail": { "copyof": "kobold_tail_spiked" },
+	"spiked_kobold_tail": { "redirect": "kobold_tail_spiked" },
 	"kobold_tail_sweeper": {
 		"name": "Kobold tail, sweeper",
 		"copyof": "kobold_tail_long_lash"
 	},
-	"sweeper_kobold_tail": { "copyof": "kobold_tail_sweeper" },
+	"sweeper_kobold_tail": { "redirect": "kobold_tail_sweeper" },
 	"breech_loader": {
 		"name": "Breech-loader",
 		"sources": [ "Heroes of Golarion" ],
@@ -4169,76 +4169,76 @@
 		"name": "Alchemical cartridge (dragon's breath)",
 		"copyof": "alchemical_cartridge"
 	},
-	"dragons_breath_alchemical_cartridge": { "copyof": "alchemical_cartridge_dragons_breath" },
-	"dragons_breath_cartridge": { "copyof": "alchemical_cartridge_dragons_breath" },
+	"dragons_breath_alchemical_cartridge": { "redirect": "alchemical_cartridge_dragons_breath" },
+	"dragons_breath_cartridge": { "redirect": "alchemical_cartridge_dragons_breath" },
 	"alchemical_cartridge_entangling_shot": {
 		"name": "Alchemical cartridge (entangling shot)",
 		"copyof": "alchemical_cartridge_dragons_breath"
 	},
-	"entangling_shot_alchemical_cartridge": { "copyof": "alchemical_cartridge_entangling_shot" },
-	"entangling_shot_cartridge": { "copyof": "alchemical_cartridge_entangling_shot" },
+	"entangling_shot_alchemical_cartridge": { "redirect": "alchemical_cartridge_entangling_shot" },
+	"entangling_shot_cartridge": { "redirect": "alchemical_cartridge_entangling_shot" },
 	"alchemical_cartridge_flare": {
 		"name": "Alchemical cartridge (flare)",
 		"copyof": "alchemical_cartridge_dragons_breath"
 	},
-	"flare_alchemical_cartridge": { "copyof": "alchemical_cartridge_flare" },
-	"flare_cartridge": { "copyof": "alchemical_cartridge_flare" },
+	"flare_alchemical_cartridge": { "redirect": "alchemical_cartridge_flare" },
+	"flare_cartridge": { "redirect": "alchemical_cartridge_flare" },
 	"alchemical_cartridge_gray_dust_shot": {
 		"name": "Alchemical cartridge (gray dust shot)",
 		"copyof": "alchemical_cartridge_dragons_breath"
 	},
-	"gray_dust_shot_alchemical_cartridge": { "copyof": "alchemical_cartridge_gray_dust_shot" },
-	"gray_dust_shot_cartridge": { "copyof": "alchemical_cartridge_gray_dust_shot" },
+	"gray_dust_shot_alchemical_cartridge": { "redirect": "alchemical_cartridge_gray_dust_shot" },
+	"gray_dust_shot_cartridge": { "redirect": "alchemical_cartridge_gray_dust_shot" },
 	"alchemical_cartridge_gray_dust": {
 		"name": "Alchemical cartridge (gray dust)",
 		"copyof": "alchemical_cartridge_dragons_breath"
 	},
-	"gray_dust_alchemical_cartridge": { "copyof": "alchemical_cartridge_gray_dust" },
-	"gray_dust_cartridge": { "copyof": "alchemical_cartridge_gray_dust" },
+	"gray_dust_alchemical_cartridge": { "redirect": "alchemical_cartridge_gray_dust" },
+	"gray_dust_cartridge": { "redirect": "alchemical_cartridge_gray_dust" },
 	"alchemical_cartridge_molten_shot": {
 		"name": "Alchemical cartridge (molten shot)",
 		"copyof": "alchemical_cartridge_dragons_breath"
 	},
-	"molten_shot_alchemical_cartridge": { "copyof": "alchemical_cartridge_molten_shot" },
-	"molten_shot_cartridge": { "copyof": "alchemical_cartridge_molten_shot" },
+	"molten_shot_alchemical_cartridge": { "redirect": "alchemical_cartridge_molten_shot" },
+	"molten_shot_cartridge": { "redirect": "alchemical_cartridge_molten_shot" },
 	"alchemical_cartridge_paper_bullet_or_pellet": {
 		"name": "Alchemical cartridge (paper, bullet or pellet)",
 		"copyof": "alchemical_cartridge_dragons_breath"
 	},
-	"paper_bullet_or_pellet_alchemical_cartridge": { "copyof": "alchemical_cartridge_paper_bullet_or_pellet" },
-	"paper_bullet_or_pellet_cartridge": { "copyof": "alchemical_cartridge_paper_bullet_or_pellet" },
-	"paper_bullet_alchemical_cartridge": { "copyof": "alchemical_cartridge_paper_bullet_or_pellet" },
-	"paper_bullet_cartridge": { "copyof": "alchemical_cartridge_paper_bullet_or_pellet" },
-	"paper_pellet_alchemical_cartridge": { "copyof": "alchemical_cartridge_paper_bullet_or_pellet" },
-	"paper_pellet_cartridge": { "copyof": "alchemical_cartridge_paper_bullet_or_pellet" },
-	"paper_alchemical_cartridge": { "copyof": "alchemical_cartridge_paper_bullet_or_pellet" },
-	"paper_cartridge": { "copyof": "alchemical_cartridge_paper_bullet_or_pellet" },
+	"paper_bullet_or_pellet_alchemical_cartridge": { "redirect": "alchemical_cartridge_paper_bullet_or_pellet" },
+	"paper_bullet_or_pellet_cartridge": { "redirect": "alchemical_cartridge_paper_bullet_or_pellet" },
+	"paper_bullet_alchemical_cartridge": { "redirect": "alchemical_cartridge_paper_bullet_or_pellet" },
+	"paper_bullet_cartridge": { "redirect": "alchemical_cartridge_paper_bullet_or_pellet" },
+	"paper_pellet_alchemical_cartridge": { "redirect": "alchemical_cartridge_paper_bullet_or_pellet" },
+	"paper_pellet_cartridge": { "redirect": "alchemical_cartridge_paper_bullet_or_pellet" },
+	"paper_alchemical_cartridge": { "redirect": "alchemical_cartridge_paper_bullet_or_pellet" },
+	"paper_cartridge": { "redirect": "alchemical_cartridge_paper_bullet_or_pellet" },
 	"alchemical_cartridge_repellent": {
 		"name": "Alchemical cartridge (repellent)",
 		"copyof": "alchemical_cartridge_dragons_breath"
 	},
-	"repellent_alchemical_cartridge": { "copyof": "alchemical_cartridge_repellent" },
-	"repellent_cartridge": { "copyof": "alchemical_cartridge_repellent" },
+	"repellent_alchemical_cartridge": { "redirect": "alchemical_cartridge_repellent" },
+	"repellent_cartridge": { "redirect": "alchemical_cartridge_repellent" },
 	"alchemical_cartridge_salt_shot": {
 		"name": "Alchemical cartridge (salt shot)",
 		"copyof": "alchemical_cartridge_dragons_breath"
 	},
-	"salt_shot_alchemical_cartridge": { "copyof": "alchemical_cartridge_salt_shot" },
-	"salt_shot_cartridge": { "copyof": "alchemical_cartridge_salt_shot" },
+	"salt_shot_alchemical_cartridge": { "redirect": "alchemical_cartridge_salt_shot" },
+	"salt_shot_cartridge": { "redirect": "alchemical_cartridge_salt_shot" },
 	"alchemical_cartridge_smoke_cartridge": {
 		"name": "Alchemical cartridge (smoke cartridge)",
 		"copyof": "alchemical_cartridge_dragons_breath"
 	},
-	"smoke_cartridge_alchemical_cartridge": { "copyof": "alchemical_cartridge_smoke_cartridge" },
-	"smoke_cartridge_cartridge": { "copyof": "alchemical_cartridge_smoke_cartridge" },
-	"smoke_alchemical_cartridge": { "copyof": "alchemical_cartridge_smoke_cartridge" },
-	"smoke_cartridge": { "copyof": "alchemical_cartridge_smoke_cartridge" },
+	"smoke_cartridge_alchemical_cartridge": { "redirect": "alchemical_cartridge_smoke_cartridge" },
+	"smoke_cartridge_cartridge": { "redirect": "alchemical_cartridge_smoke_cartridge" },
+	"smoke_alchemical_cartridge": { "redirect": "alchemical_cartridge_smoke_cartridge" },
+	"smoke_cartridge": { "redirect": "alchemical_cartridge_smoke_cartridge" },
 	"alchemical_cartridge_toxin": {
 		"name": "Alchemical cartridge (toxin)",
 		"copyof": "alchemical_cartridge_dragons_breath"
 	},
-	"toxin_alchemical_cartridge": { "copyof": "alchemical_cartridge_toxin" },
-	"toxin_cartridge": { "copyof": "alchemical_cartridge_toxin" },
+	"toxin_alchemical_cartridge": { "redirect": "alchemical_cartridge_toxin" },
+	"toxin_cartridge": { "redirect": "alchemical_cartridge_toxin" },
 	"black_powder_dose": {
 		"name": "Black Powder (dose)",
 		"sources": [
@@ -4257,7 +4257,7 @@
 		],
 		"topLink": [ "Ammunition", "main/equipment_weapons_ammunition" ]
 	},
-	"black_powder": { "copyof": "black_powder_dose" },
+	"black_powder": { "redirect": "black_powder_dose" },
 	"black_powder_keg": {
 		"name": "Black powder (keg)",
 		"copyof": "black_powder_dose"
@@ -4276,7 +4276,7 @@
 		],
 		"topLink": [ "Ammunition", "main/equipment_weapons_ammunition" ]
 	},
-	"adamantine_bullet": { "copyof": "bullet_adamantine" },
+	"adamantine_bullet": { "redirect": "bullet_adamantine" },
 	"bullet_screaming": {
 		"name": "Bullet, screaming",
 		"sources": [ "Heroes of Golarion" ],
@@ -4291,7 +4291,7 @@
 		],
 		"topLink": [ "Ammunition", "main/equipment_weapons_ammunition" ]
 	},
-	"screaming_bullet": { "copyof": "bullet_screaming" },
+	"screaming_bullet": { "redirect": "bullet_screaming" },
 	"dragoon_cartridge": {
 		"name": "Dragoon Cartridge",
 		"sources": [ "Villain Codex" ],
@@ -4328,7 +4328,7 @@
 		],
 		"topLink": [ "Ammunition", "main/equipment_weapons_ammunition" ]
 	},
-	"bullet": { "copyof": "firearm_bullet" },
+	"bullet": { "redirect": "firearm_bullet" },
 	"firearm_bullet_silver": {
 		"name": "Firearm bullet, silver",
 		"sources": [ "Ultimate Combat" ],
@@ -4345,7 +4345,7 @@
 		],
 		"topLink": [ "Ammunition", "main/equipment_weapons_ammunition" ]
 	},
-	"silver_firearm_bullet": { "copyof": "firearm_bullet_silver" },
+	"silver_firearm_bullet": { "redirect": "firearm_bullet_silver" },
 	"gunsmiths_kit": {
 		"name": "Gunsmith's kit",
 		"sources": [ "Ultimate Combat" ],
@@ -4396,7 +4396,7 @@
 		],
 		"topLink": [ "Ammunition", "main/equipment_weapons_ammunition" ]
 	},
-	"pellets": { "copyof": "pellets_handful" },
+	"pellets": { "redirect": "pellets_handful" },
 	"pitted_bullet": {
 		"name": "Pitted bullet",
 		"sources": [

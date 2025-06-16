@@ -577,7 +577,7 @@
 			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/shrink item}; **Price** 406 gp (lesser), 986 gp (normal), 2,006 gp (greater)"
 		]
 	},
-	"lesser_boulder_bullet": { "copyof": "boulder_bullet_lesser" },
+	"lesser_boulder_bullet": { "redirect": "boulder_bullet_lesser" },
 	"phase_arrow": {
 		"name": "Phase Arrow",
 		"sources": [ "Ranged Tactics Toolbox" ],
@@ -599,7 +599,7 @@
 		"name": "Hushing Arrow (greater)",
 		"copyof": "hushing_arrow_normal"
 	},
-	"greater_hushing_arrow": { "copyof": "hushing_arrow_greater" },
+	"greater_hushing_arrow": { "redirect": "hushing_arrow_greater" },
 	"dimensional_grenade": {
 		"name": "Dimensional Grenade",
 		"sources": [ "Pathfinder #71: Rasputin Must Die!" ],
@@ -714,7 +714,7 @@
 			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/symbol of pain} (burrowing bullet) or {spell/symbol of stunning} (greater burrowing bullet); **Price** 861 gp (normal), 1,723 gp (greater)"
 		]
 	},
-	"lesser_burrowing_bullet": { "copyof": "burrowing_bullet_lesser" },
+	"lesser_burrowing_bullet": { "redirect": "burrowing_bullet_lesser" },
 	"dust_bolt": {
 		"name": "Dust Bolt",
 		"sources": [ "Ultimate Equipment" ],
@@ -812,7 +812,7 @@
 			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/finger of death} (slaying arrow) or heightened finger of death (greater slaying arrow); **Price** 1,144 gp (normal), 2,032 gp (greater)"
 		]
 	},
-	"slaying_arrow": { "copyof": "slaying_arrow_normal" },
+	"slaying_arrow": { "redirect": "slaying_arrow_normal" },
 	"crossbow_of_the_crab": {
 		"name": "Crossbow of the Crab",
 		"sources": [ "Pathfinder #123: The Flooded Cathedral" ],
@@ -1038,7 +1038,7 @@
 		"name": "Burrowing Bullet (greater)",
 		"copyof": "burrowing_bullet_lesser"
 	},
-	"greater_burrowing_bullet": { "copyof": "burrowing_bullet_greater" },
+	"greater_burrowing_bullet": { "redirect": "burrowing_bullet_greater" },
 	"stake_of_the_righteous": {
 		"name": "Stake of the Righteous",
 		"sources": [ "Blood of the Night" ],
@@ -1149,12 +1149,12 @@
 		"name": "Boulder Bullet (greater)",
 		"copyof": "boulder_bullet_lesser"
 	},
-	"greater_boulder_bullet": { "copyof": "boulder_bullet_greater" },
+	"greater_boulder_bullet": { "redirect": "boulder_bullet_greater" },
 	"slaying_arrow_greater": {
 		"name": "Slaying Arrow (greater)",
 		"copyof": "slaying_arrow_normal"
 	},
-	"greater_slaying_arrow": { "copyof": "slaying_arrow_greater" },
+	"greater_slaying_arrow": { "redirect": "slaying_arrow_greater" },
 	"lashing_aklys": {
 		"name": "Lashing Aklys",
 		"sources": [ "Pathfinder #64: Beyond the Doomsday Door" ],
@@ -2098,7 +2098,7 @@
 			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/darkness}, {spell/darkvision}, creator must be an elf; **Price** 4,310 gp"
 		]
 	},
-	"shadow_cleaver": { "copyof": "shadow_cleaver_elf" },
+	"shadow_cleaver": { "redirect": "shadow_cleaver_elf" },
 	"akitonian_blade": {
 		"name": "Akitonian Blade",
 		"sources": [ "Melee Tactics Toolbox" ],
@@ -2135,12 +2135,12 @@
 			"**Requirements** {feat/Craft Magic Arms and Armor}; {spell/spider climb} (lesser) or {spell/confusion}, {spell/magic stone}, {spell/spider climb} (greater); **Price** 4,315 gp (lesser), 25,315 gp (greater)"
 		]
 	},
-	"lesser_leng_flail": { "copyof": "leng_flail_lesser" },
+	"lesser_leng_flail": { "redirect": "leng_flail_lesser" },
 	"leng_flail_greater": {
 		"name": "Leng Flail (greater)",
 		"copyof": "leng_flail_lesser"
 	},
-	"greater_leng_flail": { "copyof": "leng_flail_greater" },
+	"greater_leng_flail": { "redirect": "leng_flail_greater" },
 	"rusting_teeth_of_the_rough_beast": {
 		"name": "Rusting Teeth of the Rough Beast",
 		"sources": [ "Inner Sea Gods" ],
@@ -2599,7 +2599,7 @@
 			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/shrink item}, {spell/summon monster I}, creator must be a goblin; **Price** 5,118 gp"
 		]
 	},
-	"junkblade": { "copyof": "junkblade_goblin" },
+	"junkblade": { "redirect": "junkblade_goblin" },
 	"masters_woe_stiletto": {
 		"name": "Master's Woe Stiletto",
 		"sources": [ "Undead Slayer's Handbook" ],
@@ -3994,7 +3994,7 @@
 		"name": "Mace of Smiting (normal)",
 		"copyof": "mace_of_smiting_lesser"
 	},
-	"lesser_mace_of_smiting": { "copyof": "mace_of_smiting_lesser" },
+	"lesser_mace_of_smiting": { "redirect": "mace_of_smiting_lesser" },
 	"tsuruhashi_the_silent_crane": {
 		"name": "Tsuruhashi, the Silent Crane",
 		"sources": [ "Pathfinder #54: The Empty Throne" ],
@@ -4393,7 +4393,7 @@
 			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/litany of entanglement}, {spell/plant growth}, {spell/speak with plants}, creator must be an elf; **Price** 9,650 gp"
 		]
 	},
-	"treekeepers_staff": { "copyof": "treekeepers_staff_elf" },
+	"treekeepers_staff": { "redirect": "treekeepers_staff_elf" },
 	"steadfast_urumi": {
 		"name": "Steadfast Urumi",
 		"sources": [ "Inner Sea Combat" ],

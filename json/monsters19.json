@@ -157,7 +157,7 @@
 			"Shoals of piranhas are voracious feeders, capable of stripping the flesh from the bones of large animals with astonishing speed. These fish have garnered a well-earned reputation in regions where they thrive, but while they are native to tropical rivers, many species of piranha are incredibly hearty. Collectors of exotic pets sometimes ship tanks of these carnivorous fish home, and some unscrupulous owners even put the fish to work disposing of unwanted bodies. When the authorities draw near, panicked criminals sometimes dump the fish into nearby rivers, inadvertently unleashing schools in waters woefully unprepared for their ravenous introduction!"
 		]
 	},
-	"megapiranha_swarm": { "copyof": "piranha_swarm_megapiranha_swarm" },
+	"megapiranha_swarm": { "redirect": "piranha_swarm_megapiranha_swarm" },
 	"pixie": {
 		"name": "Pixie",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -894,7 +894,7 @@
 			"**Family:** {family/Protean}"
 		]
 	},
-	"akizendri": { "copyof": "protean_akizendri" },
+	"akizendri": { "redirect": "protean_akizendri" },
 	"protean_azuretzi": {
 		"name": "Azuretzi (Protean)",
 		"sources": [
@@ -960,7 +960,7 @@
 			"**Family:** {family/Protean}"
 		]
 	},
-	"azuretzi": { "copyof": "protean_azuretzi" },
+	"azuretzi": { "redirect": "protean_azuretzi" },
 	"protean_hegessik": {
 		"name": "Hegessik (Protean)",
 		"sources": [
@@ -1030,7 +1030,7 @@
 			"**Family:** {family/Protean}"
 		]
 	},
-	"hegessik": { "copyof": "protean_hegessik" },
+	"hegessik": { "redirect": "protean_hegessik" },
 	"protean_ibshaunet": {
 		"name": "Ibshaunet (Protean)",
 		"sources": [
@@ -1094,7 +1094,7 @@
 			"**Family:** {family/Protean}"
 		]
 	},
-	"ibshaunet": { "copyof": "protean_ibshaunet" },
+	"ibshaunet": { "redirect": "protean_ibshaunet" },
 	"protean_illureshi": {
 		"name": "Illureshi (Protean)",
 		"sources": [
@@ -1165,7 +1165,7 @@
 			"**Family:** {family/Protean}"
 		]
 	},
-	"illureshi": { "copyof": "protean_illureshi" },
+	"illureshi": { "redirect": "protean_illureshi" },
 	"protean_imentesh": {
 		"name": "Imentesh (Protean)",
 		"sources": [
@@ -1229,7 +1229,7 @@
 			"**Family:** {family/Protean}"
 		]
 	},
-	"imentesh": { "copyof": "protean_imentesh" },
+	"imentesh": { "redirect": "protean_imentesh" },
 	"protean_izfiitar": {
 		"name": "Izfiitar (Protean)",
 		"sources": [
@@ -1333,7 +1333,7 @@
 			"**Family:** {family/Protean}"
 		]
 	},
-	"izfiitar": { "copyof": "protean_izfiitar" },
+	"izfiitar": { "redirect": "protean_izfiitar" },
 	"protean_keketar": {
 		"name": "Keketar (Protean)",
 		"sources": [
@@ -1400,7 +1400,7 @@
 			"**Family:** {family/Protean}"
 		]
 	},
-	"keketar": { "copyof": "protean_keketar" },
+	"keketar": { "redirect": "protean_keketar" },
 	"protean_naunet": {
 		"name": "Naunet (Protean)",
 		"sources": [
@@ -1467,7 +1467,7 @@
 			"**Family:** {family/Protean}"
 		]
 	},
-	"naunet": { "copyof": "protean_naunet" },
+	"naunet": { "redirect": "protean_naunet" },
 	"protean_oshageros": {
 		"name": "Oshageros (Protean)",
 		"sources": [
@@ -1532,7 +1532,7 @@
 			"**Family:** {family/Protean}"
 		]
 	},
-	"oshageros": { "copyof": "protean_oshageros" },
+	"oshageros": { "redirect": "protean_oshageros" },
 	"protean_ourdivar": {
 		"name": "Ourdivar (Protean)",
 		"sources": [
@@ -1610,7 +1610,7 @@
 			"**Family:** {family/Protean}"
 		]
 	},
-	"ourdivar": { "copyof": "protean_ourdivar" },
+	"ourdivar": { "redirect": "protean_ourdivar" },
 	"protean_pelagastr": {
 		"name": "Pelagastr (Protean)",
 		"sources": [
@@ -1678,7 +1678,7 @@
 			"**Family:** {family/Protean}"
 		]
 	},
-	"pelagastr": { "copyof": "protean_pelagastr" },
+	"pelagastr": { "redirect": "protean_pelagastr" },
 	"protean_voidworm": {
 		"name": "Voidworm (Protean)",
 		"sources": [ "Bestiary 2" ],
@@ -1740,7 +1740,7 @@
 			"**Family:** {family/Protean}"
 		]
 	},
-	"voidworm": { "copyof": "protean_voidworm" },
+	"voidworm": { "redirect": "protean_voidworm" },
 	"psychopomp_ahmuuth": {
 		"name": "Ahmuuth (Psychopomp)",
 		"sources": [
@@ -1804,7 +1804,7 @@
 			"**Family:** {family/Psychopomp}"
 		]
 	},
-	"ahmuuth": { "copyof": "psychopomp_ahmuuth" },
+	"ahmuuth": { "redirect": "psychopomp_ahmuuth" },
 	"psychopomp_algea": {
 		"name": "Algea (Psychopomp)",
 		"sources": [
@@ -1871,7 +1871,7 @@
 			"**Family:** {family/Psychopomp}"
 		]
 	},
-	"algea": { "copyof": "psychopomp_algea" },
+	"algea": { "redirect": "psychopomp_algea" },
 	"psychopomp_calaca": {
 		"name": "Calaca (Psychopomp)",
 		"sources": [
@@ -1953,7 +1953,7 @@
 			"When not performing their core duty consoling the aggrieved, calacas accompany other psychopomps on missions to the Material Plane, either as heralds or to provide support. A calaca typically reports its success or failures to a {monster/nosoi}, who scribbles details of the calaca's latest encounter with a mortal. When a {monster/morrigna} has been given a target for assassination, several calacas may be sent in advance to soften the morrigna's prey before the attack. Calacas can also be found in the backs of the ranks of {monster/vanth} forces, maintaining the pace of the psychopomps' march with their haunting battle dirges. Truly, wherever there are psychopomps, the somber songs of the calaca are never far behind."
 		]
 	},
-	"calaca": { "copyof": "psychopomp_calaca" },
+	"calaca": { "redirect": "psychopomp_calaca" },
 	"psychopomp_catrina": {
 		"name": "Catrina (Psychopomp)",
 		"sources": [ "Bestiary 4" ],
@@ -2020,7 +2020,7 @@
 			"**Family:** {family/Psychopomp}"
 		]
 	},
-	"catrina": { "copyof": "psychopomp_catrina" },
+	"catrina": { "redirect": "psychopomp_catrina" },
 	"psychopomp_ember_weaver": {
 		"name": "Ember Weaver (Psychopomp)",
 		"sources": [
@@ -2084,7 +2084,7 @@
 			"**Family:** {family/Psychopomp}"
 		]
 	},
-	"ember_weaver": { "copyof": "psychopomp_ember_weaver" },
+	"ember_weaver": { "redirect": "psychopomp_ember_weaver" },
 	"psychopomp_esobok": {
 		"name": "Esobok (Psychopomp)",
 		"sources": [
@@ -2150,7 +2150,7 @@
 			"**Family:** {family/Psychopomp}"
 		]
 	},
-	"esobok": { "copyof": "psychopomp_esobok" },
+	"esobok": { "redirect": "psychopomp_esobok" },
 	"psychopomp_fulgati": {
 		"name": "Fulgati (Psychopomp)",
 		"sources": [
@@ -2235,7 +2235,7 @@
 			"**Family:** {family/Psychopomp}"
 		]
 	},
-	"fulgati": { "copyof": "psychopomp_fulgati" },
+	"fulgati": { "redirect": "psychopomp_fulgati" },
 	"psychopomp_kere": {
 		"name": "Kere (Psychopomp)",
 		"sources": [
@@ -2326,7 +2326,7 @@
 			"For all of the ambiance and grim reputations cultivated by keres, their primary objective upon the Material Plane is to preemptively thwart the deeds of necromancers and undead. To this end they terrorize grave robbers, harry the work of dark cultists, and openly attack the unliving. Any undead beings who enter or manifest in a cemetery under a kere's care find the weight of eternity crushing down upon them, making the most common sorts easy prey for these sentinel psychopomps. In some cases, though, more powerful undead might find ways to undermine a kere's defenses, or even drive her off. Such desperate keres have been known to grudgingly seek out aid, typically from the church of Pharasma or fringe-dwelling magic-users, in countering the taint of undeath."
 		]
 	},
-	"kere": { "copyof": "psychopomp_kere" },
+	"kere": { "redirect": "psychopomp_kere" },
 	"psychopomp_memitim": {
 		"name": "Memitim (Psychopomp)",
 		"sources": [
@@ -2388,7 +2388,7 @@
 			"**Family:** {family/Psychopomp}"
 		]
 	},
-	"memitim": { "copyof": "psychopomp_memitim" },
+	"memitim": { "redirect": "psychopomp_memitim" },
 	"psychopomp_morbai": {
 		"name": "Morbai (Psychopomp)",
 		"sources": [
@@ -2451,7 +2451,7 @@
 			"**Family:** {family/Psychopomp}"
 		]
 	},
-	"morbai": { "copyof": "psychopomp_morbai" },
+	"morbai": { "redirect": "psychopomp_morbai" },
 	"psychopomp_morrigna": {
 		"name": "Morrigna (Psychopomp)",
 		"sources": [
@@ -2526,7 +2526,7 @@
 			"[^B]: Bonus feat."
 		]
 	},
-	"morrigna": { "copyof": "psychopomp_morrigna" },
+	"morrigna": { "redirect": "psychopomp_morrigna" },
 	"psychopomp_nosoi": {
 		"name": "Nosoi (Psychopomp)",
 		"sources": [
@@ -2593,7 +2593,7 @@
 			"**Family:** {family/Psychopomp}"
 		]
 	},
-	"nosoi": { "copyof": "psychopomp_nosoi" },
+	"nosoi": { "redirect": "psychopomp_nosoi" },
 	"psychopomp_olethros": {
 		"name": "Olethros (Psychopomp)",
 		"sources": [
@@ -2677,7 +2677,7 @@
 			"**Family:** {family/Psychopomp}"
 		]
 	},
-	"olethros": { "copyof": "psychopomp_olethros" },
+	"olethros": { "redirect": "psychopomp_olethros" },
 	"psychopomp_shoki": {
 		"name": "Shoki (Psychopomp)",
 		"sources": [
@@ -2738,7 +2738,7 @@
 			"**Family:** {family/Psychopomp}"
 		]
 	},
-	"shoki": { "copyof": "psychopomp_shoki" },
+	"shoki": { "redirect": "psychopomp_shoki" },
 	"psychopomp_vanth": {
 		"name": "Vanth (Psychopomp)",
 		"sources": [
@@ -2805,7 +2805,7 @@
 			"**Family:** {family/Psychopomp}"
 		]
 	},
-	"vanth": { "copyof": "psychopomp_vanth" },
+	"vanth": { "redirect": "psychopomp_vanth" },
 	"psychopomp_viduus": {
 		"name": "Viduus (Psychopomp)",
 		"sources": [
@@ -2868,7 +2868,7 @@
 			"**Family:** {family/Psychopomp}"
 		]
 	},
-	"viduus": { "copyof": "psychopomp_viduus" },
+	"viduus": { "redirect": "psychopomp_viduus" },
 	"psychopomp_yamaraj": {
 		"name": "Yamaraj (Psychopomp)",
 		"sources": [
@@ -2949,7 +2949,7 @@
 			"**Family:** {family/Psychopomp}"
 		]
 	},
-	"yamaraj": { "copyof": "psychopomp_yamaraj" },
+	"yamaraj": { "redirect": "psychopomp_yamaraj" },
 	"pukwudgie": {
 		"name": "Pukwudgie",
 		"sources": [ "Bestiary 3" ],

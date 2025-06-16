@@ -107,22 +107,22 @@
 			"*Augmented (4th):* If you expend two uses of mythic power, the ability score bonuses increase by an additional 2. Additionally, you can cast this spell on other willing creatures, changing the range to touch and the target to one creature per tier."
 		]
 	},
-	"monstrous_physique_i": { "copyof": "monstrous_physique_1" },
+	"monstrous_physique_i": { "redirect": "monstrous_physique_1" },
 	"monstrous_physique_2": {
 		"name": "Monstrous Physique II",
 		"copyof": "monstrous_physique_1"
 	},
-	"monstrous_physique_ii": { "copyof": "monstrous_physique_2" },
+	"monstrous_physique_ii": { "redirect": "monstrous_physique_2" },
 	"monstrous_physique_3": {
 		"name": "Monstrous Physique III",
 		"copyof": "monstrous_physique_1"
 	},
-	"monstrous_physique_iii": { "copyof": "monstrous_physique_3" },
+	"monstrous_physique_iii": { "redirect": "monstrous_physique_3" },
 	"monstrous_physique_4": {
 		"name": "Monstrous Physique IV",
 		"copyof": "monstrous_physique_1"
 	},
-	"monstrous_physique_iv": { "copyof": "monstrous_physique_4" },
+	"monstrous_physique_iv": { "redirect": "monstrous_physique_4" },
 	"moonrise_arrow": {
 		"name": "Moonrise Arrow",
 		"sources": [ "Pathfinder #134: It Came from Hollow Mountain" ],
@@ -253,7 +253,7 @@
 		"name": "Communal Mount",
 		"copyof": "mount"
 	},
-	"communal_mount": { "copyof": "mount_communal" },
+	"communal_mount": { "redirect": "mount_communal" },
 	"move_earth": {
 		"name": "Move Earth",
 		"sources": [
@@ -469,7 +469,7 @@
 		"name": "Mass Mydriatic Spontaneity",
 		"copyof": "mydriatic_spontaneity"
 	},
-	"mass_mydriatic_spontaneity": { "copyof": "mydriatic_spontaneity_mass" },
+	"mass_mydriatic_spontaneity": { "redirect": "mydriatic_spontaneity_mass" },
 	"mythic_severance": {
 		"name": "Mythic Severance",
 		"sources": [ "Mythic Adventures" ],
@@ -535,17 +535,17 @@
 			"This spell functions as naga shape I. Additionally, if the form you assume has any of the following abilities, you gain the listed ability: burrow 60 feet, climb 90 feet, fly 120 feet (good maneuverability), swim 120 feet, blindsense 60 feet, darkvision 90 feet, low-light vision, tremorsense 60 feet, bleed, compression, constrict, detect thoughts, dreamsight, grab, hypnosis, poison, sneak attack +3d6, and spit."
 		]
 	},
-	"naga_shape_i": { "copyof": "naga_shape_1" },
+	"naga_shape_i": { "redirect": "naga_shape_1" },
 	"naga_shape_2": {
 		"name": "Naga Shape II",
 		"copyof": "naga_shape_1"
 	},
-	"naga_shape_ii": { "copyof": "naga_shape_2" },
+	"naga_shape_ii": { "redirect": "naga_shape_2" },
 	"naga_shape_3": {
 		"name": "Naga Shape III",
 		"copyof": "naga_shape_1"
 	},
-	"naga_shape_iii": { "copyof": "naga_shape_3" },
+	"naga_shape_iii": { "redirect": "naga_shape_3" },
 	"named_bullet": {
 		"name": "Named Bullet",
 		"sources": [
@@ -594,7 +594,7 @@
 		"name": "Greater Named Bullet",
 		"copyof": "named_bullet"
 	},
-	"greater_named_bullet": { "copyof": "named_bullet_greater" },
+	"greater_named_bullet": { "redirect": "named_bullet_greater" },
 	"nap_stack": {
 		"name": "Nap Stack",
 		"sources": [ "Advanced Player's Guide" ],
@@ -709,7 +709,7 @@
 		"name": "Greater Nature's Ravages",
 		"copyof": "natures_ravages"
 	},
-	"greater_natures_ravages": { "copyof": "natures_ravages_greater" },
+	"greater_natures_ravages": { "redirect": "natures_ravages_greater" },
 	"nauseating_dart": {
 		"name": "Nauseating Dart",
 		"sources": [ "Advanced Class Guide" ],
@@ -897,7 +897,7 @@
 		"name": "Greater Neutralize Poison",
 		"copyof": "neutralize_poison"
 	},
-	"greater_neutralize_poison": { "copyof": "neutralize_poison_greater" },
+	"greater_neutralize_poison": { "redirect": "neutralize_poison_greater" },
 	"night_blindness": {
 		"name": "Night Blindness",
 		"sources": [
@@ -1144,7 +1144,7 @@
 		"name": "Communal Nondetection",
 		"copyof": "nondetection"
 	},
-	"communal_nondetection": { "copyof": "nondetection_communal" },
+	"communal_nondetection": { "redirect": "nondetection_communal" },
 	"nondetection_lesser": {
 		"name": "Lesser Nondetection",
 		"sources": [ "Magic Tactics Toolbox" ],
@@ -1163,7 +1163,7 @@
 			"This spell functions like nondetection, except it blocks the effects of only divination spells and effects that target an area, rather than you or an object in your possession specifically. For example, lesser nondetection doesn't ward you against a spellcaster who is attempting to scry on you with the scrying spell or find an object in your possession with locate object, but it does protect you against effects that target an area you happen to be in, such as detect spells or clairaudience/clairvoyance."
 		]
 	},
-	"lesser_nondetection": { "copyof": "nondetection_lesser" },
+	"lesser_nondetection": { "redirect": "nondetection_lesser" },
 	"nexs_secret_workshop": {
 		"name": "Nex's Secret Workshop",
 		"copyof": "nondetection"
@@ -1343,7 +1343,7 @@
 			"You can attempt to possess a construct instead of an unattended object as your first possession with this spell. If you do, this spell acts as control construct, except as noted above."
 		]
 	},
-	"lesser_object_possession": { "copyof": "object_possession_lesser" },
+	"lesser_object_possession": { "redirect": "object_possession_lesser" },
 	"object_possession": {
 		"name": "Object Possession",
 		"copyof": "object_possession_lesser"
@@ -1352,7 +1352,7 @@
 		"name": "Greater Object Possession",
 		"copyof": "object_possession_lesser"
 	},
-	"greater_object_possession": { "copyof": "object_possession_greater" },
+	"greater_object_possession": { "redirect": "object_possession_greater" },
 	"object_reading": {
 		"name": "Object Reading",
 		"sources": [ "Occult Adventures" ],
@@ -1535,7 +1535,7 @@
 		"name": "Greater Oneiric Horror",
 		"copyof": "oneiric_horror"
 	},
-	"greater_oneiric_horror": { "copyof": "oneiric_horror_greater" },
+	"greater_oneiric_horror": { "redirect": "oneiric_horror_greater" },
 	"ooze_form_1": {
 		"name": "Ooze Form I",
 		"sources": [ "Ultimate Wilderness" ],
@@ -1585,17 +1585,17 @@
 			"*Huge Ooze:* If you assume this form, you gain a +4 size bonus to your Strength, a +10 size bonus to your Constitution score, a -10 penalty to your Dexterity score, base speed 20 feet, climb speed 20 feet, swim speed 30 feet, a slam attack (2d6 plus 2d6 acid and grab), and constrict (2d6)."
 		]
 	},
-	"ooze_form_i": { "copyof": "ooze_form_1" },
+	"ooze_form_i": { "redirect": "ooze_form_1" },
 	"ooze_form_2": {
 		"name": "Ooze Form II",
 		"copyof": "ooze_form_1"
 	},
-	"ooze_form_ii": { "copyof": "ooze_form_2" },
+	"ooze_form_ii": { "redirect": "ooze_form_2" },
 	"ooze_form_3": {
 		"name": "Ooze Form III",
 		"copyof": "ooze_form_1"
 	},
-	"ooze_form_iii": { "copyof": "ooze_form_3" },
+	"ooze_form_iii": { "redirect": "ooze_form_3" },
 	"open_and_shut": {
 		"name": "Open and Shut",
 		"sources": [ "Ultimate Intrigue" ],
@@ -1700,7 +1700,7 @@
 			"You can open or close (your choice) a door, chest, box, window, bag, pouch, bottle, barrel, or other container. If anything resists this activity (such as a bar on a door or a lock on a chest), the spell fails. In addition, the spell can only open and close things weighing 30 pounds or less. Thus, doors, chests, and similar objects sized for enormous creatures may be beyond this spell's ability to affect."
 		]
 	},
-	"open_and_close": { "copyof": "open_close" },
+	"open_and_close": { "redirect": "open_close" },
 	"opportunistic_loyalty": {
 		"name": "Opportunistic Loyalty",
 		"sources": [ "Pathfinder #115: Trail of the Hunted" ],
@@ -2042,7 +2042,7 @@
 		"name": "Mass Owl's Wisdom",
 		"copyof": "owls_wisdom"
 	},
-	"mass_owls_wisdom": { "copyof": "owls_wisdom_mass" },
+	"mass_owls_wisdom": { "redirect": "owls_wisdom_mass" },
 	"pack_empathy": {
 		"name": "Pack Empathy",
 		"sources": [ "Ultimate Intrigue" ],
@@ -2114,7 +2114,7 @@
 		"name": "Mass Pain Strike",
 		"copyof": "pain_strike"
 	},
-	"mass_pain_strike": { "copyof": "pain_strike_mass" },
+	"mass_pain_strike": { "redirect": "pain_strike_mass" },
 	"painful_revelation": {
 		"name": "Painful Revelation",
 		"sources": [ "Inner Sea Temples" ],
@@ -2284,7 +2284,7 @@
 		"name": "Mass Passing Fancy",
 		"copyof": "passing_fancy"
 	},
-	"mass_passing_fancy": { "copyof": "passing_fancy_mass" },
+	"mass_passing_fancy": { "redirect": "passing_fancy_mass" },
 	"passwall": {
 		"name": "Passwall",
 		"sources": [ "PRPG Core Rulebook" ],
@@ -2338,7 +2338,7 @@
 		"name": "Greater Path of Glory",
 		"copyof": "path_of_glory"
 	},
-	"greater_path_of_glory": { "copyof": "path_of_glory_greater" },
+	"greater_path_of_glory": { "redirect": "path_of_glory_greater" },
 	"path_of_the_winds": {
 		"name": "Path of the Winds",
 		"sources": [ "Advanced Race Guide" ],
@@ -2434,7 +2434,7 @@
 		"name": "Greater Peacebond",
 		"copyof": "peacebond"
 	},
-	"greater_peacebond": { "copyof": "peacebond_greater" },
+	"greater_peacebond": { "redirect": "peacebond_greater" },
 	"peacemakers_parley": {
 		"name": "Peacemaker's Parley",
 		"sources": [ "Dwarves of Golarion" ],
@@ -3277,7 +3277,7 @@
 		"name": "Communal Phantom Steed",
 		"copyof": "phantom_steed"
 	},
-	"communal_phantom_steed": { "copyof": "phantom_steed_communal" },
+	"communal_phantom_steed": { "redirect": "phantom_steed_communal" },
 	"phantom_trap": {
 		"name": "Phantom Trap",
 		"sources": [ "PRPG Core Rulebook" ],
@@ -3657,7 +3657,7 @@
 		"name": "Mass Planar Adaptation",
 		"copyof": "planar_adaptation"
 	},
-	"mass_planar_adaptation": { "copyof": "planar_adaptation_mass" },
+	"mass_planar_adaptation": { "redirect": "planar_adaptation_mass" },
 	"planar_aegis": {
 		"name": "Planar Aegis",
 		"sources": [ "Plane-Hopper's Handbook" ],
@@ -3765,12 +3765,12 @@
 		"name": "Greater Planar Ally",
 		"copyof": "planar_ally"
 	},
-	"greater_planar_ally": { "copyof": "planar_ally_greater" },
+	"greater_planar_ally": { "redirect": "planar_ally_greater" },
 	"planar_ally_lesser": {
 		"name": "Lesser Planar Ally",
 		"copyof": "planar_ally"
 	},
-	"lesser_planar_ally": { "copyof": "planar_ally_lesser" },
+	"lesser_planar_ally": { "redirect": "planar_ally_lesser" },
 	"planar_binding": {
 		"name": "Planar Binding",
 		"sources": [ "PRPG Core Rulebook" ],
@@ -3829,12 +3829,12 @@
 		"name": "Greater Planar Binding",
 		"copyof": "planar_binding"
 	},
-	"greater_planar_binding": { "copyof": "planar_binding_greater" },
+	"greater_planar_binding": { "redirect": "planar_binding_greater" },
 	"planar_binding_lesser": {
 		"name": "Lesser Planar Binding",
 		"copyof": "planar_binding"
 	},
-	"lesser_planar_binding": { "copyof": "planar_binding_lesser" },
+	"lesser_planar_binding": { "redirect": "planar_binding_lesser" },
 	"planar_inquiry": {
 		"name": "Planar Inquiry",
 		"copyof": "planar_ally_lesser"
@@ -4000,7 +4000,7 @@
 		"name": "Mass Planetary Adaptation",
 		"copyof": "planetary_adaptation"
 	},
-	"mass_planetary_adaptation": { "copyof": "planetary_adaptation_mass" },
+	"mass_planetary_adaptation": { "redirect": "planetary_adaptation_mass" },
 	"planned_assault": {
 		"name": "Planned Assault",
 		"sources": [ "Dwarves of Golarion" ],
@@ -4100,17 +4100,17 @@
 			"*Huge plant:* If the form you take is that of a Huge plant, you gain a +8 size bonus to your Strength, a -2 penalty to your Dexterity, a +4 size bonus to your Constitution, and a +6 natural armor bonus."
 		]
 	},
-	"plant_shape_i": { "copyof": "plant_shape_1" },
+	"plant_shape_i": { "redirect": "plant_shape_1" },
 	"plant_shape_2": {
 		"name": "Plant Shape II",
 		"copyof": "plant_shape_1"
 	},
-	"plant_shape_ii": { "copyof": "plant_shape_2" },
+	"plant_shape_ii": { "redirect": "plant_shape_2" },
 	"plant_shape_3": {
 		"name": "Plant Shape III",
 		"copyof": "plant_shape_1"
 	},
-	"plant_shape_iii": { "copyof": "plant_shape_3" },
+	"plant_shape_iii": { "redirect": "plant_shape_3" },
 	"plant_voice": {
 		"name": "Plant Voice",
 		"sources": [ "Cohorts and Companions" ],
@@ -4410,5 +4410,5 @@
 			"This spell functions as {spell/polymorph} except that it allows the creature to take on the form of a dragon or plant creature. If you use this spell to cause the target to take on the form of an animal or magical beast, it functions as beast shape IV. If the form is that of an elemental, the spell functions as elemental body III. If the form is that of a humanoid, the spell functions as alter self. If the form is that of a plant, the spell functions as plant shape II. If the form is that of a dragon, the spell functions as form of the dragon I. The subject may choose to resume its normal form as a full-round action; doing so ends the spell."
 		]
 	},
-	"greater_polymorph": { "copyof": "polymorph_greater" }
+	"greater_polymorph": { "redirect": "polymorph_greater" }
 }

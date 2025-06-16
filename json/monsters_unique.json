@@ -427,7 +427,7 @@
 			"[^M]: Baalzebul can use this ability's mythic version in his infernal realm."
 		]
 	},
-	"baalzebul": { "copyof": "archdevil_baalzebul" },
+	"baalzebul": { "redirect": "archdevil_baalzebul" },
 	"archdevil_barbatos": {
 		"name": "Barbatos (Archdevil)",
 		"sources": [ "Bestiary 6" ],
@@ -505,7 +505,7 @@
 			"[^M]: Barbatos can use this ability's mythic version in his realm"
 		]
 	},
-	"barbatos": { "copyof": "archdevil_barbatos" },
+	"barbatos": { "redirect": "archdevil_barbatos" },
 	"archdevil_belial": {
 		"name": "Belial (Archdevil)",
 		"sources": [ "Bestiary 6" ],
@@ -589,7 +589,7 @@
 			"[^M]: Belial can use this ability's mythic version in their realm."
 		]
 	},
-	"belial": { "copyof": "archdevil_belial" },
+	"belial": { "redirect": "archdevil_belial" },
 	"archdevil_dispater": {
 		"name": "Dispater (Archdevil)",
 		"sources": [ "Bestiary 6" ],
@@ -666,7 +666,7 @@
 			"[^M]: Dispater can use this ability's mythic version in his realm."
 		]
 	},
-	"dispater": { "copyof": "archdevil_dispater" },
+	"dispater": { "redirect": "archdevil_dispater" },
 	"archdevil_geryon": {
 		"name": "Geryon (Archdevil)",
 		"sources": [ "Bestiary 6" ],
@@ -749,7 +749,7 @@
 			"[^M]: Geryon can use this ability's mythic version in its realm."
 		]
 	},
-	"geryon": { "copyof": "archdevil_geryon" },
+	"geryon": { "redirect": "archdevil_geryon" },
 	"archdevil_mammon": {
 		"name": "Mammon (Archdevil)",
 		"sources": [ "Bestiary 6" ],
@@ -826,7 +826,7 @@
 			"[^M]: Mammon can use this ability's mythic version in his realm."
 		]
 	},
-	"mammon": { "copyof": "archdevil_mammon" },
+	"mammon": { "redirect": "archdevil_mammon" },
 	"archdevil_mephistopheles": {
 		"name": "Mephistopheles (Archdevil)",
 		"sources": [ "Bestiary 6" ],
@@ -903,7 +903,7 @@
 			"[^M]: Mephistopheles can use this ability's mythic version in his realm."
 		]
 	},
-	"mephistopheles": { "copyof": "archdevil_mephistopheles" },
+	"mephistopheles": { "redirect": "archdevil_mephistopheles" },
 	"archdevil_moloch": {
 		"name": "Moloch (Archdevil)",
 		"sources": [ "Bestiary 6" ],
@@ -986,7 +986,7 @@
 			"[^M]: Moloch can use this ability's mythic version in his realm"
 		]
 	},
-	"moloch": { "copyof": "archdevil_moloch" },
+	"moloch": { "redirect": "archdevil_moloch" },
 	"aridus": {
 		"name": "Aridus, the Desert's Howl",
 		"sources": [ "Mythical Monsters Revisited" ],
@@ -1229,7 +1229,7 @@
 			"**Family:** {family/Baba Yaga's Rider}"
 		]
 	},
-	"black_rider": { "copyof": "baba_yagas_rider_black_rider" },
+	"black_rider": { "redirect": "baba_yagas_rider_black_rider" },
 	"baba_yagas_rider_red_rider": {
 		"name": "Red Rider (Baba Yaga's Rider)",
 		"sources": [ "Irrisen - Land of Eternal Winter" ],
@@ -1292,7 +1292,7 @@
 			"**Family:** {family/Baba Yaga's Rider}"
 		]
 	},
-	"red_rider": { "copyof": "baba_yagas_rider_red_rider" },
+	"red_rider": { "redirect": "baba_yagas_rider_red_rider" },
 	"baba_yagas_rider_white_rider": {
 		"name": "White Rider (Baba Yaga's Rider)",
 		"sources": [ "Irrisen - Land of Eternal Winter" ],
@@ -1357,7 +1357,7 @@
 			"**Family:** {family/Baba Yaga's Rider}"
 		]
 	},
-	"white_rider": { "copyof": "baba_yagas_rider_white_rider" },
+	"white_rider": { "redirect": "baba_yagas_rider_white_rider" },
 	"balravnus": {
 		"name": "Balravnus, Lord of the Deep Pools",
 		"sources": [ "Demons Revisited" ],
@@ -1826,7 +1826,7 @@
 			"Over a century ago, Braismois turned his attention to the nation of Druma and its Kalistocracy. A member of the esteemed Petronax family had come to learn the truth of the Kalistocracy's promised afterlife and saw it as little more than delaying an inevitable judgment by {faith/Pharasma}. This prophet betrayed the Kalistocracy and, using ancient Kellid rituals and profane tools uncovered in the Palakar Forest, communed with Braismois to share the discovery. Braismois fumed at the Kalistocracy's subversion of death, as any daemon would in their role as the would-be enders of all life. Having learned one of the greatest secrets on Golarion, Braismois has kept the information to himself, using the well-positioned Petronax family to weaken the Kalistocracy and pave the way for a daemonic incursion into the heart of the nation. It is through this culminating scheme that Braismois hopes to unearth the hidden tombs of Kalistrade's prophets and gorge on the untold number of souls removed from the cycle of death - an act that Braismois hopes will grant him enough power to challenge and supplant {faith/Charon} as the Horseman of Death."
 		]
 	},
-	"braismois": { "copyof": "daemonic_harbinger_braismois" },
+	"braismois": { "redirect": "daemonic_harbinger_braismois" },
 	"dancing_hut_of_baba_yaga": {
 		"name": "Dancing Hut of Baba Yaga",
 		"sources": [
@@ -1969,7 +1969,7 @@
 			"**Family:** {family/Demon Lord}"
 		]
 	},
-	"baphomet": { "copyof": "demon_lord_baphomet" },
+	"baphomet": { "redirect": "demon_lord_baphomet" },
 	"demon_lord_dagon": {
 		"name": "Dagon (Demon Lord)",
 		"sources": [ "Bestiary 4" ],
@@ -2048,7 +2048,7 @@
 			"[^M]: Dagon can use the mythic version of this ability in his realm."
 		]
 	},
-	"dagon": { "copyof": "demon_lord_dagon" },
+	"dagon": { "redirect": "demon_lord_dagon" },
 	"demon_lord_deskari": {
 		"name": "Deskari (Demon Lord)",
 		"sources": [
@@ -2134,7 +2134,7 @@
 			"**Family:** {family/Demon Lord}"
 		]
 	},
-	"deskari": { "copyof": "demon_lord_deskari" },
+	"deskari": { "redirect": "demon_lord_deskari" },
 	"demon_lord_kostchtchie": {
 		"name": "Kostchtchie (Demon Lord)",
 		"sources": [ "Bestiary 4" ],
@@ -2219,7 +2219,7 @@
 			"[^M]: Kostchtchie can use the mythic version of this ability in his realm."
 		]
 	},
-	"kostchtchie": { "copyof": "demon_lord_kostchtchie" },
+	"kostchtchie": { "redirect": "demon_lord_kostchtchie" },
 	"demon_lord_nocticula": {
 		"name": "Nocticula (Demon Lord)",
 		"sources": [
@@ -2305,7 +2305,7 @@
 			"**Family:** {family/Demon Lord}"
 		]
 	},
-	"nocticula": { "copyof": "demon_lord_nocticula" },
+	"nocticula": { "redirect": "demon_lord_nocticula" },
 	"demon_lord_pazuzu": {
 		"name": "Pazuzu (Demon Lord)",
 		"sources": [ "Bestiary 4" ],
@@ -2388,7 +2388,7 @@
 			"[^M]: Pazuzu can use the mythic version of this ability in his realm."
 		]
 	},
-	"pazuzu": { "copyof": "demon_lord_pazuzu" },
+	"pazuzu": { "redirect": "demon_lord_pazuzu" },
 	"demon_lord_shax": {
 		"name": "Shax (Demon Lord)",
 		"sources": [
@@ -2475,7 +2475,7 @@
 			"**Family:** {family/Demon Lord}"
 		]
 	},
-	"shax": { "copyof": "demon_lord_shax" },
+	"shax": { "redirect": "demon_lord_shax" },
 	"demon_lord_sifkesh": {
 		"name": "Sifkesh (Demon Lord)",
 		"sources": [
@@ -2561,7 +2561,7 @@
 			"**Family:** {family/Demon Lord}"
 		]
 	},
-	"sifkesh": { "copyof": "demon_lord_sifkesh" },
+	"sifkesh": { "redirect": "demon_lord_sifkesh" },
 	"demon_lord_xoveron": {
 		"name": "Xoveron (Demon Lord)",
 		"sources": [
@@ -2644,7 +2644,7 @@
 			"**Family:** {family/Demon Lord}"
 		]
 	},
-	"xoveron": { "copyof": "demon_lord_xoveron" },
+	"xoveron": { "redirect": "demon_lord_xoveron" },
 	"emperor_of_scales": {
 		"name": "Emperor of Scales",
 		"sources": [ "Pathfinder #42: Sanctum of the Serpent God" ],

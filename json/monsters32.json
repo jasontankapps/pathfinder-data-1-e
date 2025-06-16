@@ -80,7 +80,7 @@
 			"Drexins are proud gremlins and do not typically worship deities or acknowledge any force greater than themselves. Contrary to their nature, however, some drexins pay homage to a being reverently named \"The Taker.\" This entity urges drexins to increase their own mental abilities by stealing the power of others, usually through a gruesome ritual in which the gremlin ingests portions of the brain of a murdered spellcaster or psychic. Drexins who follow The Taker typically dispatch their victims via traps, poison, or strangulation while those unfortunate souls sleep. While The Taker is not a deity and cannot grant spells to clerics, drexin oracles and shamans serve as the being's prophets and emissaries among drexin populations. Whether The Taker is an aspect of another deity, a powerful but mortal being with nefarious plans, or the creation of the gremlins' wild imaginations remains unknown."
 		]
 	},
-	"drexin": { "copyof": "gremlin_drexin" },
+	"drexin": { "redirect": "gremlin_drexin" },
 	"gremlin_erinat": {
 		"name": "Erinat (Gremlin)",
 		"sources": [
@@ -146,7 +146,7 @@
 			"[^B]: Bonus feat."
 		]
 	},
-	"erinat": { "copyof": "gremlin_erinat" },
+	"erinat": { "redirect": "gremlin_erinat" },
 	"gremlin_fuath": {
 		"name": "Fuath (Gremlin)",
 		"sources": [
@@ -215,7 +215,7 @@
 			"[^B]: Bonus feat."
 		]
 	},
-	"fuath": { "copyof": "gremlin_fuath" },
+	"fuath": { "redirect": "gremlin_fuath" },
 	"gremlin_grimple": {
 		"name": "Grimple (Gremlin)",
 		"sources": [
@@ -285,7 +285,7 @@
 			"[^B]: Bonus feat."
 		]
 	},
-	"grimple": { "copyof": "gremlin_grimple" },
+	"grimple": { "redirect": "gremlin_grimple" },
 	"gremlin_haniver": {
 		"name": "Haniver (Gremlin)",
 		"sources": [
@@ -352,7 +352,7 @@
 			"**Family:** {family/Gremlin}"
 		]
 	},
-	"haniver": { "copyof": "gremlin_haniver" },
+	"haniver": { "redirect": "gremlin_haniver" },
 	"gremlin_hobkins": {
 		"name": "Hobkins (Gremlin)",
 		"sources": [
@@ -426,7 +426,7 @@
 			"**Family:** {family/Gremlin}"
 		]
 	},
-	"hobkins": { "copyof": "gremlin_hobkins" },
+	"hobkins": { "redirect": "gremlin_hobkins" },
 	"gremlin_jinkin": {
 		"name": "Jinkin (Gremlin)",
 		"sources": [
@@ -495,7 +495,7 @@
 			"**Family:** {family/Gremlin}"
 		]
 	},
-	"jinkin": { "copyof": "gremlin_jinkin" },
+	"jinkin": { "redirect": "gremlin_jinkin" },
 	"gremlin_monaciello": {
 		"name": "Monaciello (Gremlin)",
 		"sources": [
@@ -562,7 +562,7 @@
 			"[^B]: Bonus feat."
 		]
 	},
-	"monaciello": { "copyof": "gremlin_monaciello" },
+	"monaciello": { "redirect": "gremlin_monaciello" },
 	"gremlin_nuglub": {
 		"name": "Nuglub (Gremlin)",
 		"sources": [ "Bestiary 2" ],
@@ -627,7 +627,7 @@
 			"[^B]: Bonus feat."
 		]
 	},
-	"nuglub": { "copyof": "gremlin_nuglub" },
+	"nuglub": { "redirect": "gremlin_nuglub" },
 	"gremlin_nuno": {
 		"name": "Nuno (Gremlin)",
 		"sources": [
@@ -694,7 +694,7 @@
 			"**Family:** {family/Gremlin}"
 		]
 	},
-	"nuno": { "copyof": "gremlin_nuno" },
+	"nuno": { "redirect": "gremlin_nuno" },
 	"gremlin_pugwampi": {
 		"name": "Pugwampi (Gremlin)",
 		"sources": [
@@ -760,7 +760,7 @@
 			"[^B]: Bonus feat."
 		]
 	},
-	"pugwampi": { "copyof": "gremlin_pugwampi" },
+	"pugwampi": { "redirect": "gremlin_pugwampi" },
 	"gremlin_vexgit": {
 		"name": "Vexgit (Gremlin)",
 		"sources": [
@@ -827,7 +827,7 @@
 			"[^B]: Bonus feat."
 		]
 	},
-	"vexgit": { "copyof": "gremlin_vexgit" },
+	"vexgit": { "redirect": "gremlin_vexgit" },
 	"gibbering_mouther": {
 		"name": "Gibbering Mouther",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -934,8 +934,8 @@
 			"A full-grown male emperor walrus measures 20 feet in length and weighs around 16 tons, with tusks up to 6 feet long. It can live up to 80 years."
 		]
 	},
-	"walrus_emperor": { "copyof": "walrus_emperor_walrus" },
-	"emperor_walrus": { "copyof": "walrus_emperor_walrus" },
+	"walrus_emperor": { "redirect": "walrus_emperor_walrus" },
+	"emperor_walrus": { "redirect": "walrus_emperor_walrus" },
 	"walrus_walrus_b4": {
 		"name": "Walrus (B4)",
 		"sources": [ "Bestiary 4" ],
@@ -984,7 +984,7 @@
 			"Owing to their fearsome tusks, prodigious strength, and willingness to fight as a herd, only the most aggressive or hungry polar predators risk attacking an adult walrus. People hunt walruses for meat and for their tusks, valued for their worth as ivory and as impressive trophies in their own right."
 		]
 	},
-	"walrus_b4": { "copyof": "walrus_walrus_b4" },
+	"walrus_b4": { "redirect": "walrus_walrus_b4" },
 	"walrus_walrus_aa": {
 		"name": "Walrus (AA)",
 		"sources": [ "Animal Archive" ],
@@ -1033,7 +1033,7 @@
 			"Young walruses start out with gray hides, but their flesh becomes almost pinkish when they reach old age (20-30 years for most walruses). Their hide is up to 4 inches thick, with another 6 inches of blubber hidden underneath that, accounting for their incredible toughness - and for their usefulness to arctic cultures as a source of meat and fuel."
 		]
 	},
-	"walrus_aa": { "copyof": "walrus_walrus_aa" },
+	"walrus_aa": { "redirect": "walrus_walrus_aa" },
 	"wamp": {
 		"name": "Wamp",
 		"sources": [ "Pathfinder #111: Dreams of the Yellow King" ],
@@ -1172,8 +1172,8 @@
 			"Ash giants are 10 feet tall and weigh 1,200 pounds."
 		]
 	},
-	"giant_ash": { "copyof": "giant_ash_giant" },
-	"ash_giant": { "copyof": "giant_ash_giant" },
+	"giant_ash": { "redirect": "giant_ash_giant" },
+	"ash_giant": { "redirect": "giant_ash_giant" },
 	"giant_cave_giant": {
 		"name": "Cave Giant",
 		"sources": [ "Bestiary 3" ],
@@ -1233,8 +1233,8 @@
 			"Giant lizards of all types serve as both guard beasts and sport for the cave giants. Giant frilled lizards are rarely pets, as most cave giants opt to keep less dangerous monitor lizards instead. Kept in check only by fear and brutal beatings, such pets turn on their handlers at the first sign of weakness. At feeding time, live captives are tossed into the pens, a festive event filled with boisterous cheers and spirited betting."
 		]
 	},
-	"giant_cave": { "copyof": "giant_cave_giant" },
-	"cave_giant": { "copyof": "giant_cave_giant" },
+	"giant_cave": { "redirect": "giant_cave_giant" },
+	"cave_giant": { "redirect": "giant_cave_giant" },
 	"giant_cliff_giant": {
 		"name": "Cliff Giant",
 		"sources": [ "Bestiary 4" ],
@@ -1297,8 +1297,8 @@
 			"Cliff giants respect their elders, and some pairs living together are an adult giant with an old parent or grandparent."
 		]
 	},
-	"giant_cliff": { "copyof": "giant_cliff_giant" },
-	"cliff_giant": { "copyof": "giant_cliff_giant" },
+	"giant_cliff": { "redirect": "giant_cliff_giant" },
+	"cliff_giant": { "redirect": "giant_cliff_giant" },
 	"giant_cloud_giant": {
 		"name": "Cloud Giant",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -1358,8 +1358,8 @@
 			"Legends abound of magical cloud giant cities nestled in the very clouds themselves that float with the winds and circumnavigate the world. While most cloud giants recognize this as a fantasy, there are some who not only claim to have seen them but have dedicated the entirety of their long lives to finding them again."
 		]
 	},
-	"giant_cloud": { "copyof": "giant_cloud_giant" },
-	"cloud_giant": { "copyof": "giant_cloud_giant" },
+	"giant_cloud": { "redirect": "giant_cloud_giant" },
+	"cloud_giant": { "redirect": "giant_cloud_giant" },
 	"giant_desert_giant": {
 		"name": "Desert Giant",
 		"sources": [ "Bestiary 3" ],
@@ -1418,8 +1418,8 @@
 			"Despite their nomadic ways, desert giants guard their territory fiercely, driving away all interlopers, whether intelligent or bestial."
 		]
 	},
-	"giant_desert": { "copyof": "giant_desert_giant" },
-	"desert_giant": { "copyof": "giant_desert_giant" },
+	"giant_desert": { "redirect": "giant_desert_giant" },
+	"desert_giant": { "redirect": "giant_desert_giant" },
 	"giant_eclipse_giant": {
 		"name": "Eclipse Giant",
 		"sources": [ "Bestiary 5" ],
@@ -1484,8 +1484,8 @@
 			"Eclipse seers are able to predict the coming of eclipses. While some believe this knowledge is divinely inspired, in truth most such giants are able to derive the eclipses using mathematical formulas. A typical eclipse seer has the advanced simple template or a few levels in bard, investigator, or wizard (specializing in divination)."
 		]
 	},
-	"giant_eclipse": { "copyof": "giant_eclipse_giant" },
-	"eclipse_giant": { "copyof": "giant_eclipse_giant" },
+	"giant_eclipse": { "redirect": "giant_eclipse_giant" },
+	"eclipse_giant": { "redirect": "giant_eclipse_giant" },
 	"giant_hill_giant": {
 		"name": "Hill Giant",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -1539,8 +1539,8 @@
 			"Solitary, non-evil hill giants are very rare but can sometimes be found in other humanoid societies, though they are almost never accepted in central cities or population centers. They do best as laborers and soldiers in outlying frontier towns, and often serve as rudimentary diplomats to negotiate with marauding hill giant bands. Unfortunately, hill giants who shed their racial lifestyle for civilization are mocked and often killed on sight by their nomadic brethren. Still, these \"civilized\" hill giants can find their place within society and many have managed to live peaceful, uneventful lives."
 		]
 	},
-	"giant_hill": { "copyof": "giant_hill_giant" },
-	"hill_giant": { "copyof": "giant_hill_giant" },
+	"giant_hill": { "redirect": "giant_hill_giant" },
+	"hill_giant": { "redirect": "giant_hill_giant" },
 	"giant_jungle_giant": {
 		"name": "Jungle Giant",
 		"sources": [ "Bestiary 3" ],
@@ -1598,8 +1598,8 @@
 			"Jungle giants stand 17 feet tall and weigh 4,000 pounds. Their bark-like skin bears runic brands etched into each giant as a rite of passage into adulthood. Jungle giant tribes are matriarchal, ruled by an elder female warrior. Males traditionally defend the village, gather food, tend livestock, and raise children."
 		]
 	},
-	"giant_jungle": { "copyof": "giant_jungle_giant" },
-	"jungle_giant": { "copyof": "giant_jungle_giant" },
+	"giant_jungle": { "redirect": "giant_jungle_giant" },
+	"jungle_giant": { "redirect": "giant_jungle_giant" },
 	"giant_marsh_giant": {
 		"name": "Marsh Giant",
 		"sources": [
@@ -1659,8 +1659,8 @@
 			"*3/day*-{spell/contagion} (DC 15), {spell/confusion} (DC 14), quench (DC 14)."
 		]
 	},
-	"giant_marsh": { "copyof": "giant_marsh_giant" },
-	"marsh_giant": { "copyof": "giant_marsh_giant" },
+	"giant_marsh": { "redirect": "giant_marsh_giant" },
+	"marsh_giant": { "redirect": "giant_marsh_giant" },
 	"giant_moon_giant": {
 		"name": "Moon Giant",
 		"sources": [ "Bestiary 5" ],
@@ -1729,8 +1729,8 @@
 			"Most moon giants stand about 24 feet tall and weigh almost 18,000 pounds."
 		]
 	},
-	"giant_moon": { "copyof": "giant_moon_giant" },
-	"moon_giant": { "copyof": "giant_moon_giant" },
+	"giant_moon": { "redirect": "giant_moon_giant" },
+	"moon_giant": { "redirect": "giant_moon_giant" },
 	"giant_mountain_giant": {
 		"name": "Mountain Giant",
 		"sources": [ "Bestiary 6" ],
@@ -1791,8 +1791,8 @@
 			"The typical mountain giant stands a towering 45 feet tall and weighs 30,000 pounds."
 		]
 	},
-	"giant_mountain": { "copyof": "giant_mountain_giant" },
-	"mountain_giant": { "copyof": "giant_mountain_giant" },
+	"giant_mountain": { "redirect": "giant_mountain_giant" },
+	"mountain_giant": { "redirect": "giant_mountain_giant" },
 	"giant_ocean_giant": {
 		"name": "Ocean Giant",
 		"sources": [ "Bestiary 4" ],
@@ -1855,8 +1855,8 @@
 			"[^B]: Bonus feat."
 		]
 	},
-	"giant_ocean": { "copyof": "giant_ocean_giant" },
-	"ocean_giant": { "copyof": "giant_ocean_giant" },
+	"giant_ocean": { "redirect": "giant_ocean_giant" },
+	"ocean_giant": { "redirect": "giant_ocean_giant" },
 	"giant_plague_giant": {
 		"name": "Plague Giant",
 		"sources": [ "Bestiary 6" ],
@@ -1918,8 +1918,8 @@
 			"The average plague giant is 24 feet tall and weigh 15,000 pounds."
 		]
 	},
-	"giant_plague": { "copyof": "giant_plague_giant" },
-	"plague_giant": { "copyof": "giant_plague_giant" },
+	"giant_plague": { "redirect": "giant_plague_giant" },
+	"plague_giant": { "redirect": "giant_plague_giant" },
 	"giant_river_giant": {
 		"name": "River Giant",
 		"sources": [ "Bestiary 4" ],
@@ -1976,8 +1976,8 @@
 			"River giants prefer to lair on small islands, rock formations, or sediment banks where rivers come together. A river giant uses its home, usually a simple earthen hut of mud and reeds, to store its valuables or as a place to gather with others of its kind."
 		]
 	},
-	"giant_river": { "copyof": "giant_river_giant" },
-	"river_giant": { "copyof": "giant_river_giant" },
+	"giant_river": { "redirect": "giant_river_giant" },
+	"river_giant": { "redirect": "giant_river_giant" },
 	"giant_rune_giant": {
 		"name": "Rune Giant",
 		"sources": [
@@ -2043,8 +2043,8 @@
 			"Rune giants' charcoal flesh is decorated by dozens of runes-manifestations of their eldritch powers. Rune giants are 40 feet tall and weigh 25,000 pounds."
 		]
 	},
-	"giant_rune": { "copyof": "giant_rune_giant" },
-	"rune_giant": { "copyof": "giant_rune_giant" },
+	"giant_rune": { "redirect": "giant_rune_giant" },
+	"rune_giant": { "redirect": "giant_rune_giant" },
 	"giant_shadow_giant": {
 		"name": "Shadow Giant",
 		"sources": [
@@ -2104,8 +2104,8 @@
 			"Most shadow giants are especially taciturn and keep to themselves when not called to duty by the Umbral Court. They keep their own counsel and practice their own mysterious religion, whose bloody rituals of autosacrifice and cannibalism are presided over by their bone-and-featheradorned shamans atop short-stepped pyramids constructed of dark basalt blocks. On the Shadow Plane, families of shadow giants have been known to combine together to form greater tribes when times of war are at hand. Such an army arrayed upon the field of battle is often enough to make enemies sue for peace with offers of gold and prisoners for sacrifice."
 		]
 	},
-	"giant_shadow": { "copyof": "giant_shadow_giant" },
-	"shadow_giant": { "copyof": "giant_shadow_giant" },
+	"giant_shadow": { "redirect": "giant_shadow_giant" },
+	"shadow_giant": { "redirect": "giant_shadow_giant" },
 	"giant_slag_giant": {
 		"name": "Slag Giant",
 		"sources": [ "Bestiary 4" ],
@@ -2162,8 +2162,8 @@
 			"Slag giant settlements usually consist of several stone homes (built from or surrounded by forge slag) with built-in forges and large, smoking chimneys. Most are in hills or mountains, but they can be found anywhere there is a ready supply of iron ore. Although they prefer creation to combat, slag giants are brutal and efficient fighters, capable of destroying an enemy's weapons or armor in a few precise blows. They often let opponents retreat if it gives the giants the opportunity to collect any broken weapons and armor as salvage. If approached peacefully, they are willing to barter or sell their goods, though they usually don't have human-sized items on hand. Trespassers who carelessly or wantonly destroy a slag giant's work or foul its forge usually end up in the fire. Most settlements have several giant-sized breastplates the residents can don if they expect a serious fight."
 		]
 	},
-	"giant_slag": { "copyof": "giant_slag_giant" },
-	"slag_giant": { "copyof": "giant_slag_giant" },
+	"giant_slag": { "redirect": "giant_slag_giant" },
+	"slag_giant": { "redirect": "giant_slag_giant" },
 	"giant_stone_giant": {
 		"name": "Stone Giant",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -2223,8 +2223,8 @@
 			"Some stone giants develop special abilities related to their environment. Called elders, these stone giants have Charisma scores of at least 15 and three spell-like abilities (CL 10th). Once per day they can use stone shape, stone tell, and either transmute rock to mud or transmute mud to rock (DC 17). The save DC is Charisma-based. One in 10 elders is a sorcerer, usually of 3rd to 6th level. Stone giant elders add +1 to their CR."
 		]
 	},
-	"giant_stone": { "copyof": "giant_stone_giant" },
-	"stone_giant": { "copyof": "giant_stone_giant" },
+	"giant_stone": { "redirect": "giant_stone_giant" },
+	"stone_giant": { "redirect": "giant_stone_giant" },
 	"giant_storm_giant": {
 		"name": "Storm Giant",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -2286,8 +2286,8 @@
 			"Storm giants live in well-constructed towers, castles, or walled settlements, and prefer to live off the land. They maintain enormous, well-tended gardens and manage hundreds of acres of farmland per group. They often hire other humanoids, such as elves or humans, to help them run their massive farms. A storm giant enclave often takes responsibility for the safety of an entire island or stretch of coastline."
 		]
 	},
-	"giant_storm": { "copyof": "giant_storm_giant" },
-	"storm_giant": { "copyof": "giant_storm_giant" },
+	"giant_storm": { "redirect": "giant_storm_giant" },
+	"storm_giant": { "redirect": "giant_storm_giant" },
 	"giant_sun_giant": {
 		"name": "Sun Giant",
 		"sources": [ "Bestiary 5" ],
@@ -2350,8 +2350,8 @@
 			"Though they live for centuries, sun giants are blessed with eternally youthful appearances, a blessing that remains even for those who become selfish and corrupt. They tower over 25 feet tall and weigh roughly 18,000 pounds."
 		]
 	},
-	"giant_sun": { "copyof": "giant_sun_giant" },
-	"sun_giant": { "copyof": "giant_sun_giant" },
+	"giant_sun": { "redirect": "giant_sun_giant" },
+	"sun_giant": { "redirect": "giant_sun_giant" },
 	"giant_taiga_giant": {
 		"name": "Taiga Giant",
 		"sources": [
@@ -2413,8 +2413,8 @@
 			"[^B]: Bonus feat."
 		]
 	},
-	"giant_taiga": { "copyof": "giant_taiga_giant" },
-	"taiga_giant": { "copyof": "giant_taiga_giant" },
+	"giant_taiga": { "redirect": "giant_taiga_giant" },
+	"taiga_giant": { "redirect": "giant_taiga_giant" },
 	"giant_tomb_giant": {
 		"name": "Tomb Giant",
 		"sources": [
@@ -2497,8 +2497,8 @@
 			"Tomb giants are a secretive race, and go to extraordinary lengths to pursue and capture anyone they catch spying on them. Surrounding themselves with undead creatures (most of which are under their control) has provided the giants the secrecy they crave, as the dead don't utter secrets. Some folktales speak of silent, pale folk of impossible height who come out of the night in pursuit of a victim who has \"seen something no one should see.\" These stories have a grain of truth to them, and invariably end with the foolhardy individual vanished from his home, never to be seen again. Those few fortunate enough to have escaped with their lives bear scars of their interactions with the sinister giants, and survivors tell tales of pale giants who made light conversation with their victims while preparing to cook them. Darker tales hint at the tomb giants' perverse mating rituals, wherein chained victims are drained of their life force and left hanging on the walls, bearing witness to the giants' frenzied couplings before the pale creatures eat their weakened captives alive. Wherever these alabaster fiends tread, horror and madness is sure to follow."
 		]
 	},
-	"giant_tomb": { "copyof": "giant_tomb_giant" },
-	"tomb_giant": { "copyof": "giant_tomb_giant" },
+	"giant_tomb": { "redirect": "giant_tomb_giant" },
+	"tomb_giant": { "redirect": "giant_tomb_giant" },
 	"giant_vault_giant": {
 		"name": "Vault Giant",
 		"sources": [ "Pathfinder #120: Vault of the Onyx Citadel" ],
@@ -2573,8 +2573,8 @@
 			"In their interactions with other intelligent denizens of the Sightless Sea, such as aboleths, munavris, and urdefhans, vault giants seem to operate according to an inscrutable agenda. They might raid one settlement, lavish gifts upon another, or raze yet another to the ground and take all of its inhabitants as prisoners. Intelligent captives receive equally erratic treatment: they might be eaten in a communal feast or set free in a distant corner of Orv. Vault giants are cautious when they meet unfamiliar intelligent creatures for the first time, preferring to take them captive until they receive instructions from their leaders. Vault giants know only that they loyally follow the orders of their psychic circle; few realize that these powerful psychics take their commands in turn from unknown masters far below the Sightless Sea."
 		]
 	},
-	"giant_vault": { "copyof": "giant_vault_giant" },
-	"vault_giant": { "copyof": "giant_vault_giant" },
+	"giant_vault": { "redirect": "giant_vault_giant" },
+	"vault_giant": { "redirect": "giant_vault_giant" },
 	"giant_wood_giant": {
 		"name": "Wood Giant",
 		"sources": [ "Bestiary 2" ],
@@ -2631,8 +2631,8 @@
 			"Wood giants stand 14 feet tall and weigh 1,200 pounds. They are vegetarians by choice, resorting to eating meat only when no other option is available."
 		]
 	},
-	"giant_wood": { "copyof": "giant_wood_giant" },
-	"wood_giant": { "copyof": "giant_wood_giant" },
+	"giant_wood": { "redirect": "giant_wood_giant" },
+	"wood_giant": { "redirect": "giant_wood_giant" },
 	"genie_djinni": {
 		"name": "Djinni (Genie)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -2696,7 +2696,7 @@
 			"[^B]: Bonus feat."
 		]
 	},
-	"djinni": { "copyof": "genie_djinni" },
+	"djinni": { "redirect": "genie_djinni" },
 	"genie_efreeti": {
 		"name": "Efreeti (Genie)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -2763,8 +2763,8 @@
 			"[^B]: Bonus feat."
 		]
 	},
-	"efreeti": { "copyof": "genie_efreeti" },
-	"malik": { "copyof": "genie_efreeti" },
+	"efreeti": { "redirect": "genie_efreeti" },
+	"malik": { "redirect": "genie_efreeti" },
 	"genie_janni": {
 		"name": "Janni (Genie)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -2833,7 +2833,7 @@
 			"[^B]: Bonus feat."
 		]
 	},
-	"janni": { "copyof": "genie_janni" },
+	"janni": { "redirect": "genie_janni" },
 	"genie_marid": {
 		"name": "Marid (Genie)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -2903,7 +2903,7 @@
 			"[^B]: Bonus feat."
 		]
 	},
-	"marid": { "copyof": "genie_marid" },
+	"marid": { "redirect": "genie_marid" },
 	"genie_shaitan": {
 		"name": "Shaitan (Genie)",
 		"sources": [
@@ -2974,7 +2974,7 @@
 			"[^B]: Bonus feat."
 		]
 	},
-	"shaitan": { "copyof": "genie_shaitan" },
+	"shaitan": { "redirect": "genie_shaitan" },
 	"genie_touched_horse": {
 		"name": "Genie-Touched Horse",
 		"sources": [ "Qadira, Jewel of the East" ],
@@ -3197,8 +3197,8 @@
 			"**Family:** {family/Gargoyle}"
 		]
 	},
-	"gargoyle_four_armed": { "copyof": "gargoyle_four_armed_gargoyle" },
-	"four_armed_gargoyle": { "copyof": "gargoyle_four_armed_gargoyle" },
+	"gargoyle_four_armed": { "redirect": "gargoyle_four_armed_gargoyle" },
+	"four_armed_gargoyle": { "redirect": "gargoyle_four_armed_gargoyle" },
 	"gargoyle_gargoyle_abductor": {
 		"name": "Gargoyle Abductor",
 		"sources": [
@@ -3255,7 +3255,7 @@
 			"**Family:** {family/Gargoyle}"
 		]
 	},
-	"gargoyle_abductor": { "copyof": "gargoyle_gargoyle_abductor" },
+	"gargoyle_abductor": { "redirect": "gargoyle_gargoyle_abductor" },
 	"gargoyle_gargoyle_guardian": {
 		"name": "Gargoyle Guardian",
 		"sources": [
@@ -3323,7 +3323,7 @@
 			"**Requirements** {feat/Craft Construct}, {spell/animate objects}, {spell/stone shape}, {spell/geas//quest}; **Cost** 15,000 gp; 25,000 gp (sentry)"
 		]
 	},
-	"gargoyle_guardian": { "copyof": "gargoyle_gargoyle_guardian" },
+	"gargoyle_guardian": { "redirect": "gargoyle_gargoyle_guardian" },
 	"gargoyle_kapoacinth_hunter": {
 		"name": "Kapoacinth Hunter (Gargoyle)",
 		"sources": [
@@ -3378,7 +3378,7 @@
 			"**Family:** {family/Gargoyle}"
 		]
 	},
-	"kapoacinth_hunter": { "copyof": "gargoyle_kapoacinth_hunter" },
+	"kapoacinth_hunter": { "redirect": "gargoyle_kapoacinth_hunter" },
 	"gar": {
 		"name": "Gar",
 		"sources": [ "Bestiary 2" ],
@@ -3467,8 +3467,8 @@
 			"Giant gars are often kept as pets and guard animals by aquatic creatures such as merrows, scrags (aquatic trolls), and the rare sea hags who dwell in freshwater dens."
 		]
 	},
-	"giant_gar": { "copyof": "gar_giant_gar" },
-	"gar_giant": { "copyof": "gar_giant_gar" },
+	"giant_gar": { "redirect": "gar_giant_gar" },
+	"gar_giant": { "redirect": "gar_giant_gar" },
 	"gathlain": {
 		"name": "Gathlain",
 		"sources": [ "Bestiary 4" ],
@@ -3809,7 +3809,7 @@
 			"Giant hook fly matriarchs are typically found alone or with other non-matriarch hook flies in places where spilled blood is enormously abundant, such as on or near recent battlefields, at sites of mass tragedy, or the like. Although they tolerate other giant hook flies, particularly their own spawn, giant hook fly matriarchs are often quite territorial, and matriarchs in close proximity often squabble or even fight the death. However, in places where blood is so abundant that the matriarchs don't need to fight for resources, giant hook fly matriarchs sometimes coexist peacefully, regularly giving birth to enormous broods. The prospect of such a hook fly population explosion is terrifying to most sentient creatures, as it would ensure that no living creature could survive nearby for long."
 		]
 	},
-	"giant_hook_fly": { "copyof": "hook_fly_giant_hook_fly" },
+	"giant_hook_fly": { "redirect": "hook_fly_giant_hook_fly" },
 	"hook_fly_hook_fly_swarm": {
 		"name": "Hook Fly Swarm",
 		"sources": [ "Gallows of Madness" ],
@@ -3875,7 +3875,7 @@
 			"Giant hook fly matriarchs are typically found alone or with other non-matriarch hook flies in places where spilled blood is enormously abundant, such as on or near recent battlefields, at sites of mass tragedy, or the like. Although they tolerate other giant hook flies, particularly their own spawn, giant hook fly matriarchs are often quite territorial, and matriarchs in close proximity often squabble or even fight the death. However, in places where blood is so abundant that the matriarchs don't need to fight for resources, giant hook fly matriarchs sometimes coexist peacefully, regularly giving birth to enormous broods. The prospect of such a hook fly population explosion is terrifying to most sentient creatures, as it would ensure that no living creature could survive nearby for long."
 		]
 	},
-	"hook_fly_swarm": { "copyof": "hook_fly_hook_fly_swarm" },
+	"hook_fly_swarm": { "redirect": "hook_fly_hook_fly_swarm" },
 	"hookfang_worm": {
 		"name": "Hookfang Worm",
 		"sources": [ "Bestiary 6" ],
@@ -4092,7 +4092,7 @@
 			"[^B]: Bonus feat."
 		]
 	},
-	"pony": { "copyof": "horse_pony" },
+	"pony": { "redirect": "horse_pony" },
 	"isonade": {
 		"name": "Isonade",
 		"sources": [ "Bestiary 5" ],

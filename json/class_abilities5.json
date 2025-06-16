@@ -1620,7 +1620,7 @@
 		],
 		"topLink": [ "Kineticist", "class/kineticist" ]
 	},
-	"utility_wild_talents": { "copyof": "wild_utility_talents" },
+	"utility_wild_talents": { "redirect": "wild_utility_talents" },
 	"ward_aspects": {
 		"name": "Ward Aspects",
 		"sources": [ "Wilderness Origins" ],

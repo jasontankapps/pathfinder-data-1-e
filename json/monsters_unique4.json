@@ -83,7 +83,7 @@
 			"[^M]: Arshea can use the mythic version of this ability in certain conditions (see Nomadic)."
 		]
 	},
-	"arshea": { "copyof": "empyreal_lord_arshea" },
+	"arshea": { "redirect": "empyreal_lord_arshea" },
 	"empyreal_lord_ashava": {
 		"name": "Ashava (Empyreal Lord)",
 		"sources": [
@@ -171,7 +171,7 @@
 			"[^M]: Ashava can use this ability's mythic version in her realm."
 		]
 	},
-	"ashava": { "copyof": "empyreal_lord_ashava" },
+	"ashava": { "redirect": "empyreal_lord_ashava" },
 	"empyreal_lord_black_butterfly": {
 		"name": "Black Butterfly (Empyreal Lord)",
 		"sources": [
@@ -260,7 +260,7 @@
 			"[^M]: Black Butterfly can use this ability's mythic version in her realm."
 		]
 	},
-	"black_butterfly": { "copyof": "empyreal_lord_black_butterfly" },
+	"black_butterfly": { "redirect": "empyreal_lord_black_butterfly" },
 	"empyreal_lord_cernunnos": {
 		"name": "Cernunnos (Empyreal Lord)",
 		"sources": [ "Bestiary 4" ],
@@ -363,7 +363,7 @@
 			"[^M]: Cernunnos can use the mythic version of this ability in his realm."
 		]
 	},
-	"cernunnos": { "copyof": "empyreal_lord_cernunnos" },
+	"cernunnos": { "redirect": "empyreal_lord_cernunnos" },
 	"empyreal_lord_korada": {
 		"name": "Korada (Empyreal Lord)",
 		"sources": [ "Bestiary 4" ],
@@ -453,7 +453,7 @@
 			"[^B]: Bonus feat."
 		]
 	},
-	"korada": { "copyof": "empyreal_lord_korada" },
+	"korada": { "redirect": "empyreal_lord_korada" },
 	"empyreal_lord_ragathiel": {
 		"name": "Ragathiel (Empyreal Lord)",
 		"sources": [
@@ -541,7 +541,7 @@
 			"[^M]: Ragathiel can use this ability's mythic version in his realm."
 		]
 	},
-	"ragathiel": { "copyof": "empyreal_lord_ragathiel" },
+	"ragathiel": { "redirect": "empyreal_lord_ragathiel" },
 	"empyreal_lord_vildeis": {
 		"name": "Vildeis (Empyreal Lord)",
 		"sources": [ "Bestiary 4" ],
@@ -627,7 +627,7 @@
 			"[^M]: Vildeis can use the mythic version of this ability in her realm.  "
 		]
 	},
-	"vildeis": { "copyof": "empyreal_lord_vildeis" },
+	"vildeis": { "redirect": "empyreal_lord_vildeis" },
 	"erotundee": {
 		"name": "Erotundee, Keeper of the Risen Light",
 		"sources": [ "Demons Revisited" ],
@@ -1069,7 +1069,7 @@
 			"**Family:** {family/Great Old One}"
 		]
 	},
-	"atlach_nacha": { "copyof": "great_old_one_atlach_nacha" },
+	"atlach_nacha": { "redirect": "great_old_one_atlach_nacha" },
 	"kaiju_mogaru": {
 		"name": "Mogaru (Kaiju)",
 		"sources": [ "Bestiary 4" ],
@@ -1141,8 +1141,8 @@
 			"**Family:** {family/Kaiju}"
 		]
 	},
-	"mogaru": { "copyof": "kaiju_mogaru" },
-	"king_mogaru": { "copyof": "kaiju_mogaru" },
+	"mogaru": { "redirect": "kaiju_mogaru" },
+	"king_mogaru": { "redirect": "kaiju_mogaru" },
 	"kaiju_varklops": {
 		"name": "Varklops (Kaiju)",
 		"sources": [
@@ -1220,7 +1220,7 @@
 			"**Family:** {family/Kaiju}"
 		]
 	},
-	"varklops": { "copyof": "kaiju_varklops" },
+	"varklops": { "redirect": "kaiju_varklops" },
 	"kaiju_vorgozen": {
 		"name": "Vorgozen (Kaiju)",
 		"sources": [
@@ -1300,7 +1300,7 @@
 			"**Family:** {family/Kaiju}"
 		]
 	},
-	"vorgozen": { "copyof": "kaiju_vorgozen" },
+	"vorgozen": { "redirect": "kaiju_vorgozen" },
 	"kaiju_yarthoon": {
 		"name": "Yarthoon (Kaiju)",
 		"sources": [
@@ -1377,7 +1377,7 @@
 			"**Family:** {family/Kaiju}"
 		]
 	},
-	"yarthoon": { "copyof": "kaiju_yarthoon" },
+	"yarthoon": { "redirect": "kaiju_yarthoon" },
 	"kallas_devil": {
 		"name": "Kallas Devil",
 		"sources": [ "Fey Revisited" ],
@@ -1787,7 +1787,7 @@
 			"**Family:** {family/Kyton Demagogue}"
 		]
 	},
-	"inkariax": { "copyof": "kyton_demagogue_inkariax" },
+	"inkariax": { "redirect": "kyton_demagogue_inkariax" },
 	"uchurah": {
 		"name": "Uchurah",
 		"sources": [ "Darklands Revisited" ],
@@ -2407,7 +2407,7 @@
 			"Ymeri's unholy symbol is a quartet of flaming swords, and her favored weapon is the longsword. She grants access to the Destruction, Evil, Fire, and War domains, and access to the subdomains of Ash, Catastrophe, Fear, and Tactics."
 		]
 	},
-	"ymeri": { "copyof": "elemental_lord_ymeri" },
+	"ymeri": { "redirect": "elemental_lord_ymeri" },
 	"zelishkar_of_the_bitter_flame": {
 		"name": "Zelishkar of the Bitter Flame",
 		"sources": [ "Inner Sea Bestiary" ],

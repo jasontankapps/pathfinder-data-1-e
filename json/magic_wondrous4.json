@@ -989,7 +989,7 @@
 			"**Requirements** {feat/Craft Wondrous Item}, {spell/cure light wounds}, {spell/lesser restoration}, creator must have 5 ranks in Heal; **Cost** 750 gp (Normal), 1,500 gp (Specialized)"
 		]
 	},
-	"normal_healers_satchel": { "copyof": "healers_satchel_normal" },
+	"normal_healers_satchel": { "redirect": "healers_satchel_normal" },
 	"healers_satchel_specialized": {
 		"name": "Healer's Satchel (Specialized)",
 		"copyof": "healers_satchel_normal"
@@ -2061,12 +2061,12 @@
 			"**Requirements** {feat/Craft Wondrous Item}, {spell/pyrotechnics}, {spell/spark}; **Cost** 1,000 gp (Normal), 2,250 gp (Greater)"
 		]
 	},
-	"normal_goblin_fire_drum": { "copyof": "goblin_fire_drum_normal" },
+	"normal_goblin_fire_drum": { "redirect": "goblin_fire_drum_normal" },
 	"goblin_fire_drum_greater": {
 		"name": "Goblin Fire Drum (Greater)",
 		"copyof": "goblin_fire_drum_normal"
 	},
-	"greater_goblin_fire_drum": { "copyof": "goblin_fire_drum_greater" },
+	"greater_goblin_fire_drum": { "redirect": "goblin_fire_drum_greater" },
 	"ointment_of_secret_seeing_ulfen": {
 		"name": "Ointment of Secret Seeing (Ulfen)",
 		"sources": [ "Inner Sea Races" ],
@@ -2286,22 +2286,22 @@
 			"**Requirements** {feat/Craft Wondrous Item}, {spell/create food and water}; **Cost** 1,000 gp (Type I), 2,000 gp (Type II), 3,750 gp (Type III), 7,500 gp (Type IV)"
 		]
 	},
-	"satchel_of_plentiful_feed_type_i": { "copyof": "satchel_of_plentiful_feed_type_1" },
+	"satchel_of_plentiful_feed_type_i": { "redirect": "satchel_of_plentiful_feed_type_1" },
 	"satchel_of_plentiful_feed_type_2": {
 		"name": "Satchel of Plentiful Feed (Type II)",
 		"copyof": "satchel_of_plentiful_feed_type_1"
 	},
-	"satchel_of_plentiful_feed_type_ii": { "copyof": "satchel_of_plentiful_feed_type_2" },
+	"satchel_of_plentiful_feed_type_ii": { "redirect": "satchel_of_plentiful_feed_type_2" },
 	"satchel_of_plentiful_feed_type_3": {
 		"name": "Satchel of Plentiful Feed (Type III)",
 		"copyof": "satchel_of_plentiful_feed_type_1"
 	},
-	"satchel_of_plentiful_feed_type_iii": { "copyof": "satchel_of_plentiful_feed_type_3" },
+	"satchel_of_plentiful_feed_type_iii": { "redirect": "satchel_of_plentiful_feed_type_3" },
 	"satchel_of_plentiful_feed_type_4": {
 		"name": "Satchel of Plentiful Feed (Type IV)",
 		"copyof": "satchel_of_plentiful_feed_type_1"
 	},
-	"satchel_of_plentiful_feed_type_iv": { "copyof": "satchel_of_plentiful_feed_type_4" },
+	"satchel_of_plentiful_feed_type_iv": { "redirect": "satchel_of_plentiful_feed_type_4" },
 	"wayfinder_shining": {
 		"name": "Shining Wayfinder",
 		"sources": [
@@ -2322,7 +2322,7 @@
 			"**Requirements** {feat/Craft Wondrous Item}, {spell/detect evil}, {spell/light}, {spell/protection from evil}; **Cost** 1,000 gp"
 		]
 	},
-	"shining_wayfinder": { "copyof": "wayfinder_shining" },
+	"shining_wayfinder": { "redirect": "wayfinder_shining" },
 	"silver_nail": {
 		"name": "Silver Nail",
 		"sources": [ "Horror Adventures" ],
@@ -3211,7 +3211,7 @@
 			"**Requirements** {feat/Craft Wondrous Item}, {spell/secret chest}; **Cost** 1,250 gp (Type I), 2,500 gp (Type II), 3,700 gp (Type III), 5,000 gp (Type IV)"
 		]
 	},
-	"bag_of_holding_type_i": { "copyof": "bag_of_holding_type_1" },
+	"bag_of_holding_type_i": { "redirect": "bag_of_holding_type_1" },
 	"bag_of_holding": {
 		"name": "Bag of Holding",
 		"copyof": "bag_of_holding_type_1"
@@ -3220,17 +3220,17 @@
 		"name": "Bag of Holding (Type II)",
 		"copyof": "bag_of_holding_type_1"
 	},
-	"bag_of_holding_type_ii": { "copyof": "bag_of_holding_type_2" },
+	"bag_of_holding_type_ii": { "redirect": "bag_of_holding_type_2" },
 	"bag_of_holding_type_3": {
 		"name": "Bag of Holding (Type III)",
 		"copyof": "bag_of_holding_type_1"
 	},
-	"bag_of_holding_type_iii": { "copyof": "bag_of_holding_type_3" },
+	"bag_of_holding_type_iii": { "redirect": "bag_of_holding_type_3" },
 	"bag_of_holding_type_4": {
 		"name": "Bag of Holding (Type IV)",
 		"copyof": "bag_of_holding_type_1"
 	},
-	"bag_of_holding_type_iv": { "copyof": "bag_of_holding_type_4" },
+	"bag_of_holding_type_iv": { "redirect": "bag_of_holding_type_4" },
 	"urgathoas_breath": {
 		"name": "Urgathoa's Breath",
 		"sources": [ "Villain Codex" ],

@@ -387,7 +387,7 @@
 			"Now, the brazen medusa stalks the Thassilonian ruins that dot the southern Mushfens, seeking some sort of artifact or piece of history that will once again give meaning to her life, all the while butchering any she comes across with little regard to their motives or means. Though her memory is mostly shattered, her skill at hunting remains sharp, and she seeks solace from the chaos of her mind by stalking her prey and feasting on their corpses. Still, though she does not remember why, the sight of the toady people of the swamp enrages her to no end, and the only thing that will stop Eygreas from pursuing her current target is the opportunity to hunt a boggard instead."
 		]
 	},
-	"eygreas": { "copyof": "medusa_eygreas" },
+	"eygreas": { "redirect": "medusa_eygreas" },
 	"moxix": {
 		"name": "Moxix",
 		"sources": [ "Inner Sea Bestiary" ],
@@ -1180,7 +1180,7 @@
 			"This giant ebon bird is streaked in lines of fiery embers and red lightning, clouds of black smoke billowing behind it."
 		]
 	},
-	"pyralisia": { "copyof": "phoenix_pyralisia" },
+	"pyralisia": { "redirect": "phoenix_pyralisia" },
 	"prince_in_chains_the": {
 		"name": "The Prince in Chains",
 		"sources": [ "Inner Sea Gods" ],
@@ -1246,7 +1246,7 @@
 			"{faith/Zon-Kuthon} has stripped the flesh from this spirit-wolf and replaced it with haphazard layers of metal, leather, and necrotic tissue to create a terrifying herald. The Prince in Chains stands i8 feet tall and weighs nearly 3 tons."
 		]
 	},
-	"the_prince_in_chains": { "copyof": "prince_in_chains_the" },
+	"the_prince_in_chains": { "redirect": "prince_in_chains_the" },
 	"psychopomp_usher_barzahk": {
 		"name": "Barzahk (Psychopomp Usher)",
 		"sources": [ "Pathfinder #143: Borne by the Sun's Grace" ],
@@ -1314,7 +1314,7 @@
 			"Barzahk normally wanders the Dead Roads among the faceless flocks of ravens, jays, vultures, and whippoorwills that infest the Dead Roads, but they sometimes assume a larger, more humanoid form. In this form, they stand just over 5 feet tall and weigh 200 pounds."
 		]
 	},
-	"barzahk": { "copyof": "psychopomp_usher_barzahk" },
+	"barzahk": { "redirect": "psychopomp_usher_barzahk" },
 	"qaishan_yeti": {
 		"name": "Qaishan Yeti",
 		"sources": [ "Mystery Monsters Revisited" ],
@@ -1451,7 +1451,7 @@
 			"[^M]: Chavazvug can use the mythic version of this ability within his sanctum."
 		]
 	},
-	"chavazvug": { "copyof": "qlippoth_lord_chavazvug" },
+	"chavazvug": { "redirect": "qlippoth_lord_chavazvug" },
 	"qlippoth_lord_isph_aun_vuln": {
 		"name": "Isph-Aun-Vuln (Qlippoth Lord)",
 		"sources": [ "Bestiary 6" ],
@@ -1532,7 +1532,7 @@
 			"[^M]: Isph-Aun-Vuln can use the mythic version of this ability within her sanctum"
 		]
 	},
-	"isph_aun_vuln": { "copyof": "qlippoth_lord_isph_aun_vuln" },
+	"isph_aun_vuln": { "redirect": "qlippoth_lord_isph_aun_vuln" },
 	"qlippoth_lord_oaur_ooung": {
 		"name": "Oaur-Ooung (Qlippoth Lord)",
 		"sources": [ "Bestiary 6" ],
@@ -1621,7 +1621,7 @@
 			"[^M]: Oaur-Ooung can use the mythic version of this ability within her sanctum."
 		]
 	},
-	"oaur_ooung": { "copyof": "qlippoth_lord_oaur_ooung" },
+	"oaur_ooung": { "redirect": "qlippoth_lord_oaur_ooung" },
 	"qlippoth_lord_thuskchoon": {
 		"name": "Thuskchoon (Qlippoth Lord)",
 		"sources": [ "Bestiary 6" ],
@@ -1705,7 +1705,7 @@
 			"[^M]: Thuskchoon can use the mythic version of this ability within his sanctum."
 		]
 	},
-	"thuskchoon": { "copyof": "qlippoth_lord_thuskchoon" },
+	"thuskchoon": { "redirect": "qlippoth_lord_thuskchoon" },
 	"qlippoth_lord_yamasoth": {
 		"name": "Yamasoth (Qlippoth Lord)",
 		"sources": [
@@ -1785,7 +1785,7 @@
 			"**Family:** {family/Qlippoth Lord}"
 		]
 	},
-	"yamasoth": { "copyof": "qlippoth_lord_yamasoth" },
+	"yamasoth": { "redirect": "qlippoth_lord_yamasoth" },
 	"quetzutrhul": {
 		"name": "Quetzutrhul",
 		"sources": [ "Darklands Revisited" ],
@@ -2290,8 +2290,8 @@
 			"**Family:** {family/Spawn of Rovagug}"
 		]
 	},
-	"chemnosit_the_monarch_worm": { "copyof": "spawn_of_rovagug_chemnosit_the_monarch_worm" },
-	"chemnosit": { "copyof": "spawn_of_rovagug_chemnosit_the_monarch_worm" },
+	"chemnosit_the_monarch_worm": { "redirect": "spawn_of_rovagug_chemnosit_the_monarch_worm" },
+	"chemnosit": { "redirect": "spawn_of_rovagug_chemnosit_the_monarch_worm" },
 	"spawn_of_rovagug_festering_ulunat_the_unholy_first": {
 		"name": "Festering Ulunat (The Unholy First) (Spawn of Rovagug)",
 		"sources": [
@@ -2365,8 +2365,8 @@
 			"**Family:** {family/Spawn of Rovagug}"
 		]
 	},
-	"festering_ulunat_the_unholy_first": { "copyof": "spawn_of_rovagug_festering_ulunat_the_unholy_first" },
-	"festering_ulunat": { "copyof": "spawn_of_rovagug_festering_ulunat_the_unholy_first" },
+	"festering_ulunat_the_unholy_first": { "redirect": "spawn_of_rovagug_festering_ulunat_the_unholy_first" },
+	"festering_ulunat": { "redirect": "spawn_of_rovagug_festering_ulunat_the_unholy_first" },
 	"spawn_of_rovagug_volnagur_the_end_singer": {
 		"name": "Volnagur (The End-Singer) (Spawn of Rovagug)",
 		"sources": [ "Inner Sea Bestiary" ],
@@ -2428,8 +2428,8 @@
 			"**Family:** {family/Spawn of Rovagug}"
 		]
 	},
-	"volnagur_the_end_singer": { "copyof": "spawn_of_rovagug_volnagur_the_end_singer" },
-	"volnagur": { "copyof": "spawn_of_rovagug_volnagur_the_end_singer" },
+	"volnagur_the_end_singer": { "redirect": "spawn_of_rovagug_volnagur_the_end_singer" },
+	"volnagur": { "redirect": "spawn_of_rovagug_volnagur_the_end_singer" },
 	"talmandor": {
 		"name": "Talmandor",
 		"sources": [ "Andoran, Birthplace of Freedom" ],
@@ -2892,7 +2892,7 @@
 			"He soon reestablished his power, animating thousands of dead. For centuries, the forces of the living were unable to resist the tide of the dead - with Aroden gone, nothing could stop the Whispering Tyrant. Only the Shining Crusade had a chance to end his threat. Bearing the Shield of Aroden, General Arnisant faced the lich, but when the Whispering Tyrant used a wish to summon the general's heart to his waiting claw, the symbol of Aroden flared to life, the shield shattered, and the lich's body was destroyed. Without a means to locate the Tyrant's phylactery, let alone destroy it, the crusaders instead sealed him away in his tower, where their descendants remain ever watchful for his return."
 		]
 	},
-	"tar_baphon": { "copyof": "the_whispering_tyrant" },
+	"tar_baphon": { "redirect": "the_whispering_tyrant" },
 	"almara_kazaar": {
 		"name": "The Would-Be Queen, Almara Kazaar",
 		"sources": [ "Darklands Revisited" ],
@@ -2946,5 +2946,5 @@
 			"The leader of Droskar's faithful in Mabbryn, Almara spends much of her time in the Forge Quencher, the massive fortress that protects Mabbryn's water supply. Much of Almara's daily life is fraught with political squabbles with Mabbryn's military leader, Margrave Daguda Urgadan. Nicknamed the \"Would-Be Queen\" by members of Droskar's faithful, Almara maintains a tense relationship with Daguda, but hopes to replace the other political leader of the city one day."
 		]
 	},
-	"the_would_be_queen": { "copyof": "almara_kazaar" }
+	"the_would_be_queen": { "redirect": "almara_kazaar" }
 }

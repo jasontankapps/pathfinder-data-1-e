@@ -103,7 +103,7 @@
 			"*Team Effort (minor)*: At 1st level, you can touch an ally and grant it the blessing of cooperation. Choose one teamwork feat that you have. The touched ally gains the benefit of the chosen teamwork feat for a number of rounds equal to 1/2 your warpriest level (minimum 1). Alternatively, you can choose one teamwork feat that a touched ally has and gain the benefit of the chosen feat for a number of rounds equal to 1/2 your warpriest level (minimum 1)."
 		]
 	},
-	"cooperation": { "copyof": "community" },
+	"cooperation": { "redirect": "community" },
 	"curse": {
 		"name": "Curse",
 		"sources": [ "Magic Tactics Toolbox" ],
@@ -305,8 +305,8 @@
 			"*Return of the Fallen (major)*: At 10th level, your touch can defy the cold claws of death itself. You can temporarily revive a touched ally to continue fighting, as if you had cast {spell/raise dead} on her. The revived ally is also {misc/staggered} for a number of rounds equal to 1/2 your warpriest level, after which she immediately dies. The ally is free to act as she sees fit during this time, and you are granted no control over her."
 		]
 	},
-	"resurrection": { "copyof": "healing" },
-	"restoration": { "copyof": "healing" },
+	"resurrection": { "redirect": "healing" },
+	"restoration": { "redirect": "healing" },
 	"knowledge": {
 		"name": "Knowledge",
 		"sources": [ "Advanced Class Guide" ],
@@ -360,7 +360,7 @@
 			"*Greater Liberation (major)*: At 10th level, when you use the liberation ability of the Liberation blessing, its effects last for 1 minute."
 		]
 	},
-	"freedom": { "copyof": "liberation" },
+	"freedom": { "redirect": "liberation" },
 	"luck": {
 		"name": "Luck",
 		"sources": [ "Advanced Class Guide" ],
@@ -428,7 +428,7 @@
 			"*Martyr's Sacrifice (major)*: At 10th level, your body can accept wounds meant for others you deem worthy. You can shoulder the wounds of an ally within 50 feet for 1 minute, and during this time, the ally is affected as if you had cast {spell/shield other} on her (except with a range of 50 feet). You can have only one use of this ability active at a time; if you use this major blessing again, the previous use immediately expires."
 		]
 	},
-	"martyr": { "copyof": "nobility" },
+	"martyr": { "redirect": "nobility" },
 	"plant": {
 		"name": "Plant",
 		"sources": [ "Advanced Class Guide" ],

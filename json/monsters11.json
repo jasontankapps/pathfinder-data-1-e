@@ -1613,7 +1613,7 @@
 			">**Lycanthrope:** While a ghoul cannot become a lycanthrope, a living lycanthrope who succumbs to ghoul fever could rise as a ghoul. In most cases, this transformation removes the lycanthropic curse, resulting in a standard ghoul, but in rare events the resulting monster is a true ghoul lycanthrope. To create stats for such a creature, simply apply the {template/lycanthrope} template to a ghoul-this is an exception to the general rule that you can normally only add the lycanthrope template to a humanoid."
 		]
 	},
-	"ghast": { "copyof": "ghoul" },
+	"ghast": { "redirect": "ghoul" },
 	"ghoul_hound": {
 		"name": "Ghoul Hound",
 		"sources": [
@@ -1726,7 +1726,7 @@
 			"Years of digging up graves have given this ancient ghoul an affinity for earth magic. Powerful spellcasting ghouls usually rise to positions of leadership, and in his ghoul city, this gravedigger is a high-ranking member of the ruling elite."
 		]
 	},
-	"ancient_gravedigger": { "copyof": "ghoul_ancient_gravedigger" },
+	"ancient_gravedigger": { "redirect": "ghoul_ancient_gravedigger" },
 	"ghoul_ghoul_commander": {
 		"name": "Ghoul Commander",
 		"sources": [ "Monster Codex" ],
@@ -1783,7 +1783,7 @@
 			"Fiendish Dire Boar Servant hp 42 When ghouls marshal themselves into organized groups, it is ghoul commanders who shoulder the responsibility of leadership and command. In \"civilized\" ghoul cities and nations, ghoul commanders serve as an elite officer class, directing and commanding units of more common ghouls in military maneuvers and on excursions. While they receive their orders from ghouls higher up the chain of command, ghoul commanders are responsible for translating those orders into concrete tactics, and enjoy great autonomy on the battlefield - so long as their strategies succeed, at least."
 		]
 	},
-	"ghoul_commander": { "copyof": "ghoul_ghoul_commander" },
+	"ghoul_commander": { "redirect": "ghoul_ghoul_commander" },
 	"ghoul_ghoul_creeper": {
 		"name": "Ghoul Creeper",
 		"sources": [ "Monster Codex" ],
@@ -1829,7 +1829,7 @@
 			"While all ghouls are quiet and deadly in the night, these ghouls specialize in striking from cover or exploiting tactical advantages. They set up ambushes or fight using group tactics to claim their prey."
 		]
 	},
-	"ghoul_creeper": { "copyof": "ghoul_ghoul_creeper" },
+	"ghoul_creeper": { "redirect": "ghoul_ghoul_creeper" },
 	"ghoul_ghoul_huntsmaster": {
 		"name": "Ghoul Huntsmaster",
 		"sources": [ "Monster Codex" ],
@@ -1910,7 +1910,7 @@
 			">**SQ** tricks (attack [all creatures], come, fetch, guard, seek, stay, track)"
 		]
 	},
-	"ghoul_huntsmaster": { "copyof": "ghoul_ghoul_huntsmaster" },
+	"ghoul_huntsmaster": { "redirect": "ghoul_ghoul_huntsmaster" },
 	"ghoul_ghoul_monarch": {
 		"name": "Ghoul Monarch",
 		"sources": [ "Monster Codex" ],
@@ -1971,7 +1971,7 @@
 			"These ancient sorcerers have attained their power by using those around them as puppets. They command mortals and undead using both their magic and force of personality."
 		]
 	},
-	"ghoul_monarch": { "copyof": "ghoul_ghoul_monarch" },
+	"ghoul_monarch": { "redirect": "ghoul_ghoul_monarch" },
 	"ghoul_ghoul_stalker": {
 		"name": "Ghoul Stalker",
 		"sources": [ "Monster Codex" ],
@@ -2017,7 +2017,7 @@
 			"While all ghouls are quiet and deadly in the night, these ghouls specialize in striking from cover or exploiting tactical advantages. They set up ambushes or fight using group tactics to claim their prey."
 		]
 	},
-	"ghoul_stalker": { "copyof": "ghoul_ghoul_stalker" },
+	"ghoul_stalker": { "redirect": "ghoul_ghoul_stalker" },
 	"ghoul_leng_ghoul": {
 		"name": "Leng Ghoul",
 		"sources": [ "Bestiary 5" ],
@@ -2076,8 +2076,8 @@
 			"Although most Leng ghouls venerate the Great Old Ones or Outer Gods (they have a particular affinity for Nyarlathotep), a rare few of these creatures retain more of their humanity than merely their living intellect. These unique few drift away from evil in their pursuit of magical lore-while they still hunger for dead flesh, many try their best to feed only on those who died naturally or willingly offer themselves up to the carrion feast in return for favors. While many eventually succumb to the temptation to feed on fresh kills in time, a rare few manage to maintain nonevil alignments. Such rare ghouls also retain some or all of the class levels they had in life, transferring those levels onto their new undead forms. The bulk of these Leng ghouls have levels as arcane spellcasters or rogues, since those who were once divine spellcasters, or otherwise religious in life, tend to be wholly devoted to gods of evil and decay."
 		]
 	},
-	"ghoul_leng": { "copyof": "ghoul_leng_ghoul" },
-	"leng_ghoul": { "copyof": "ghoul_leng_ghoul" },
+	"ghoul_leng": { "redirect": "ghoul_leng_ghoul" },
+	"leng_ghoul": { "redirect": "ghoul_leng_ghoul" },
 	"ghoul_masked_murderer": {
 		"name": "Masked Murderer (Ghoul)",
 		"sources": [ "Monster Codex" ],
@@ -2137,7 +2137,7 @@
 			"Unfortunately for ghouls, spending so much time among the living serves only to highlight the life they traded away for the unending hunger of their undead existence. Many masked murderers find themselves conflicted as a result, envying the vibrant lives of their prey. In the end, however, a masked murderer's ghoulish hunger always overwhelms any other emotion she might feel, and she hunts her prey with as much ravenous fervor as any other ghoul, if not more."
 		]
 	},
-	"masked_murderer": { "copyof": "ghoul_masked_murderer" },
+	"masked_murderer": { "redirect": "ghoul_masked_murderer" },
 	"ghul": {
 		"name": "Ghul",
 		"sources": [
@@ -2221,7 +2221,7 @@
 			"**Whirlwind (Su)** As a standard action a great ghul can transform itself into a whirlwind of air, bone shards, and pieces of gristle, with its head floating about. A great ghul's movement while in whirlwind form does not provoke attacks of opportunity, even if the great ghul enters the space another creature occupies. Any creature sharing a space with the whirlwind or attacking it with natural weapons takes 1d6 hit points of damage. Any living creature that begins its turn in the whirlwind's space must succeed on a DC 18 Fortitude save or be nauseated for 1 round. The save DC is Charisma-based. Returning to its normal form is a standard action. Only a great ghul that was once a djinni can have this ability."
 		]
 	},
-	"great_ghul": { "copyof": "ghul" },
+	"great_ghul": { "redirect": "ghul" },
 	"giant_fire_fire_giant": {
 		"name": "Fire Giant",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -2280,8 +2280,8 @@
 			"Fire giants prefer hot locations - the hotter, the better. They've been found in deserts, volcanoes, hot springs, and deep beneath the earth near lava vents. They live in castles, walled settlements, or large caverns, and the design of these locations reflects their rigid, militaristic lifestyle, with officers living in better quarters than the rank-and-file."
 		]
 	},
-	"fire_giant": { "copyof": "giant_fire_fire_giant" },
-	"giant_fire": { "copyof": "giant_fire_fire_giant" },
+	"fire_giant": { "redirect": "giant_fire_fire_giant" },
+	"giant_fire": { "redirect": "giant_fire_fire_giant" },
 	"giant_fire_fire_giant_doombringer": {
 		"name": "Fire Giant Doombringer",
 		"sources": [ "Monster Codex" ],
@@ -2344,7 +2344,7 @@
 			"This lumbering giant has short stumpy legs and powerful, muscular arms. Its hair and beard seem to be made of fire."
 		]
 	},
-	"fire_giant_doombringer": { "copyof": "giant_fire_fire_giant_doombringer" },
+	"fire_giant_doombringer": { "redirect": "giant_fire_fire_giant_doombringer" },
 	"giant_fire_fire_giant_glaive": {
 		"name": "Fire Giant Glaive",
 		"sources": [ "Monster Codex" ],
@@ -2395,7 +2395,7 @@
 			"This lumbering giant has short stumpy legs and powerful, muscular arms. Its hair and beard seem to be made of fire."
 		]
 	},
-	"fire_giant_glaive": { "copyof": "giant_fire_fire_giant_glaive" },
+	"fire_giant_glaive": { "redirect": "giant_fire_fire_giant_glaive" },
 	"giant_fire_fire_giant_king": {
 		"name": "Fire Giant King",
 		"sources": [ "Monster Codex" ],
@@ -2457,7 +2457,7 @@
 			"This lumbering giant has short stumpy legs and powerful, muscular arms. Its hair and beard seem to be made of fire."
 		]
 	},
-	"fire_giant_king": { "copyof": "giant_fire_fire_giant_king" },
+	"fire_giant_king": { "redirect": "giant_fire_fire_giant_king" },
 	"giant_fire_fire_giant_lieutenant": {
 		"name": "Fire Giant Lieutenant",
 		"sources": [ "Monster Codex" ],
@@ -2516,7 +2516,7 @@
 			"This lumbering giant has short stumpy legs and powerful, muscular arms. Its hair and beard seem to be made of fire."
 		]
 	},
-	"fire_giant_lieutenant": { "copyof": "giant_fire_fire_giant_lieutenant" },
+	"fire_giant_lieutenant": { "redirect": "giant_fire_fire_giant_lieutenant" },
 	"giant_fire_fire_giant_magmablade": {
 		"name": "Fire Giant Magmablade",
 		"sources": [ "Monster Codex" ],
@@ -2581,7 +2581,7 @@
 			"This lumbering giant has short stumpy legs and powerful, muscular arms. Its hair and beard seem to be made of fire."
 		]
 	},
-	"fire_giant_magmablade": { "copyof": "giant_fire_fire_giant_magmablade" },
+	"fire_giant_magmablade": { "redirect": "giant_fire_fire_giant_magmablade" },
 	"giant_fire_fire_giant_queen": {
 		"name": "Fire Giant Queen",
 		"sources": [ "Monster Codex" ],
@@ -2644,7 +2644,7 @@
 			"This lumbering giant has short stumpy legs and powerful, muscular arms. Its hair and beard seem to be made of fire."
 		]
 	},
-	"fire_giant_queen": { "copyof": "giant_fire_fire_giant_queen" },
+	"fire_giant_queen": { "redirect": "giant_fire_fire_giant_queen" },
 	"giant_fire_fire_giant_strongarm": {
 		"name": "Fire Giant Strongarm",
 		"sources": [ "Monster Codex" ],
@@ -2696,7 +2696,7 @@
 			"This lumbering giant has short stumpy legs and powerful, muscular arms. Its hair and beard seem to be made of fire."
 		]
 	},
-	"fire_giant_strongarm": { "copyof": "giant_fire_fire_giant_strongarm" },
+	"fire_giant_strongarm": { "redirect": "giant_fire_fire_giant_strongarm" },
 	"giant_frost_frost_giant": {
 		"name": "Frost Giant",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -2751,7 +2751,7 @@
 			"Frost giants love to take captives, and use them for food as well as slaves and commodities. Every group of frost giants typically has 1-2 humanoid slaves shackled to a slave handler - usually the meanest and cruelest non-jarl in the group. They are also quite fond of monstrous pets - white dragons and winter wolves are popular choices, but remorhazes, yetis, and even linnorms can be found dwelling in a frost giant lair."
 		]
 	},
-	"frost_giant": { "copyof": "giant_frost_frost_giant" },
+	"frost_giant": { "redirect": "giant_frost_frost_giant" },
 	"giant_frost_frost_giant_battle_priest": {
 		"name": "Frost Giant Battle Priest",
 		"sources": [ "Monster Codex" ],
@@ -2820,7 +2820,7 @@
 			"[^D]: Domain spell"
 		]
 	},
-	"frost_giant_battle_priest": { "copyof": "giant_frost_frost_giant_battle_priest" },
+	"frost_giant_battle_priest": { "redirect": "giant_frost_frost_giant_battle_priest" },
 	"giant_frost_frost_giant_elite_scout": {
 		"name": "Frost Giant Elite Scout",
 		"sources": [ "Monster Codex" ],
@@ -2873,7 +2873,7 @@
 			"This giant looks like a thick, muscular human. It has frost-white skin and long, light blue hair that it wears braided."
 		]
 	},
-	"frost_giant_elite_scout": { "copyof": "giant_frost_frost_giant_elite_scout" },
+	"frost_giant_elite_scout": { "redirect": "giant_frost_frost_giant_elite_scout" },
 	"giant_frost_frost_giant_houndmaster": {
 		"name": "Frost Giant Houndmaster",
 		"sources": [ "Monster Codex" ],
@@ -2937,7 +2937,7 @@
 			"This giant looks like a thick, muscular human. It has frost-white skin and long, light blue hair that it wears braided."
 		]
 	},
-	"frost_giant_houndmaster": { "copyof": "giant_frost_frost_giant_houndmaster" },
+	"frost_giant_houndmaster": { "redirect": "giant_frost_frost_giant_houndmaster" },
 	"giant_frost_frost_giant_hunter": {
 		"name": "Frost Giant Hunter",
 		"sources": [ "Monster Codex" ],
@@ -2989,7 +2989,7 @@
 			"This giant looks like a thick, muscular human. It has frost-white skin and long, light blue hair that it wears braided."
 		]
 	},
-	"frost_giant_hunter": { "copyof": "giant_frost_frost_giant_hunter" },
+	"frost_giant_hunter": { "redirect": "giant_frost_frost_giant_hunter" },
 	"giant_frost_frost_giant_ice_mage": {
 		"name": "Frost Giant Ice Mage",
 		"sources": [ "Monster Codex" ],
@@ -3054,7 +3054,7 @@
 			"This giant looks like a thick, muscular human. It has frost-white skin and long, light blue hair that it wears braided."
 		]
 	},
-	"frost_giant_ice_mage": { "copyof": "giant_frost_frost_giant_ice_mage" },
+	"frost_giant_ice_mage": { "redirect": "giant_frost_frost_giant_ice_mage" },
 	"giant_frost_frost_giant_jarl": {
 		"name": "Frost Giant Jarl",
 		"sources": [ "Monster Codex" ],
@@ -3114,7 +3114,7 @@
 			"This giant looks like a thick, muscular human. It has frost-white skin and long, light blue hair that it wears braided."
 		]
 	},
-	"frost_giant_jarl": { "copyof": "giant_frost_frost_giant_jarl" },
+	"frost_giant_jarl": { "redirect": "giant_frost_frost_giant_jarl" },
 	"giant_frost_frost_giant_raider": {
 		"name": "Frost Giant Raider",
 		"sources": [ "Monster Codex" ],
@@ -3173,7 +3173,7 @@
 			"This giant looks like a thick, muscular human. It has frost-white skin and long, light blue hair that it wears braided."
 		]
 	},
-	"frost_giant_raider": { "copyof": "giant_frost_frost_giant_raider" },
+	"frost_giant_raider": { "redirect": "giant_frost_frost_giant_raider" },
 	"giant_ant_spore_zombie": {
 		"name": "Giant Ant Spore Zombie",
 		"sources": [ "Bestiary 6" ],
@@ -3446,7 +3446,7 @@
 			"Giant dragonflies lay clutches of eggs in swampy terrain or areas of standing water. Their young, called nymphs, voraciously eat carrion and small prey, growing and maturing rapidly until they sprout fully functional wings and become adult dragonflies."
 		]
 	},
-	"giant_dragonfly_nymph": { "copyof": "giant_dragonfly_giant_dragonfly_nymph" },
+	"giant_dragonfly_nymph": { "redirect": "giant_dragonfly_giant_dragonfly_nymph" },
 	"giant_fly": {
 		"name": "Giant Fly",
 		"sources": [

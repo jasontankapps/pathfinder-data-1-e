@@ -2358,7 +2358,7 @@
 			"Each of Nyarlathotep's forms is associated with its own distinct cult, and has a different symbol, favored weapon, and special domain (and associated subdomains). The god's two most well-known manifestations are the Haunter of the Dark (a bat-like entity with a tri-lobed burning eye) and the Black Pharaoh (a humanoid form that has links to Ancient Osirion as well as to many modern witch cults)."
 		]
 	},
-	"nyarlathotep": { "copyof": "nyarlathotep_faceless_sphinx" },
+	"nyarlathotep": { "redirect": "nyarlathotep_faceless_sphinx" },
 	"nyarlathotep_haunter_of_the_dark": {
 		"name": "Nyarlathotep (Haunter of the Dark)",
 		"sources": [

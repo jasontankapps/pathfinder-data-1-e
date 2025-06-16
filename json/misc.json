@@ -16,8 +16,8 @@
 		"type": "Rule",
 		"topLink": [ "Awareness Conditions", "rule/awareness_conditions" ]
 	},
-	"blind": { "copyof": "blinded" },
-	"blindness": { "copyof": "blinded" },
+	"blind": { "redirect": "blinded" },
+	"blindness": { "redirect": "blinded" },
 	"confused": {
 		"name": "Confused",
 		"sources": [ "PRPG Core Rulebook" ],
@@ -39,7 +39,7 @@
 		"type": "Rule",
 		"topLink": [ "Awareness Conditions", "rule/awareness_conditions" ]
 	},
-	"confusion": { "copyof": "confused" },
+	"confusion": { "redirect": "confused" },
 	"dazed": {
 		"name": "Dazed",
 		"sources": [ "PRPG Core Rulebook" ],
@@ -70,8 +70,8 @@
 		"type": "Rule",
 		"topLink": [ "Awareness Conditions", "rule/awareness_conditions" ]
 	},
-	"deafen": { "copyof": "deafened" },
-	"deaf": { "copyof": "deafened" },
+	"deafen": { "redirect": "deafened" },
+	"deaf": { "redirect": "deafened" },
 	"fascinated": {
 		"name": "Fascinated",
 		"sources": [ "PRPG Core Rulebook" ],
@@ -97,7 +97,7 @@
 		"type": "Rule",
 		"topLink": [ "Awareness Conditions", "rule/awareness_conditions" ]
 	},
-	"coup_de_grace": { "copyof": "helpless" },
+	"coup_de_grace": { "redirect": "helpless" },
 	"staggered": {
 		"name": "Staggered",
 		"sources": [ "PRPG Core Rulebook" ],
@@ -108,7 +108,7 @@
 		"type": "Rule",
 		"topLink": [ "Awareness Conditions", "rule/awareness_conditions" ]
 	},
-	"stagger": { "copyof": "staggered" },
+	"stagger": { "redirect": "staggered" },
 	"stunned": {
 		"name": "Stunned",
 		"sources": [ "PRPG Core Rulebook" ],
@@ -173,7 +173,7 @@
 		"type": "Rule",
 		"topLink": [ "Dying Conditions", "rule/dying_conditions" ]
 	},
-	"stabilize": { "copyof": "stable" },
+	"stabilize": { "redirect": "stable" },
 	"exhausted": {
 		"name": "Exhausted",
 		"sources": [ "PRPG Core Rulebook" ],
@@ -184,7 +184,7 @@
 		"type": "Rule",
 		"topLink": [ "Exhaustion Conditions", "rule/exhaustion_conditions" ]
 	},
-	"exhaustion": { "copyof": "exhausted" },
+	"exhaustion": { "redirect": "exhausted" },
 	"fatigued": {
 		"name": "Fatigued",
 		"sources": [ "PRPG Core Rulebook" ],
@@ -195,7 +195,7 @@
 		"type": "Rule",
 		"topLink": [ "Exhaustion Conditions", "rule/exhaustion_conditions" ]
 	},
-	"fatigue": { "copyof": "fatigued" },
+	"fatigue": { "redirect": "fatigued" },
 	"cowering": {
 		"name": "Cowering",
 		"sources": [ "PRPG Core Rulebook" ],
@@ -250,8 +250,8 @@
 		"type": "Rule",
 		"topLink": [ "Sickened Conditions", "rule/sickened_conditions" ]
 	},
-	"sicken": { "copyof": "sickened" },
-	"sickness": { "copyof": "sickened" },
+	"sicken": { "redirect": "sickened" },
+	"sickness": { "redirect": "sickened" },
 	"nauseated": {
 		"name": "Nauseated",
 		"sources": [ "PRPG Core Rulebook" ],
@@ -262,8 +262,8 @@
 		"type": "Rule",
 		"topLink": [ "Sickened Conditions", "rule/sickened_conditions" ]
 	},
-	"nauseate": { "copyof": "nauseated" },
-	"nausea": { "copyof": "nauseated" },
+	"nauseate": { "redirect": "nauseated" },
+	"nausea": { "redirect": "nauseated" },
 	"improvised_weapons": {
 		"name": "Improvised Weapons",
 		"sources": [ "PRPG Core Rulebook" ],
@@ -276,8 +276,8 @@
 		"type": "Rule",
 		"topLink": [ "Weapon Encumbrance and Size", "rule/weapon_encumbrance" ]
 	},
-	"improvised_weapon": { "copyof": "improvised_weapons" },
-	"improvised": { "copyof": "improvised_weapons" },
+	"improvised_weapon": { "redirect": "improvised_weapons" },
+	"improvised": { "redirect": "improvised_weapons" },
 	"damage_die_adjustments": {
 		"name": "Damage Die Adjustments",
 		"sources": [
@@ -334,12 +334,12 @@
 		"searchgroup": "rule",
 		"type": "Rule"
 	},
-	"increase_the_damage_die": { "copyof": "damage_die_adjustments" },
-	"deal_less_damage": { "copyof": "damage_die_adjustments" },
-	"one_size_category_larger": { "copyof": "damage_die_adjustments" },
-	"one_size_smaller": { "copyof": "damage_die_adjustments" },
-	"one_size_category_smaller": { "copyof": "damage_die_adjustments" },
-	"by_one_step": { "copyof": "damage_die_adjustments" },
+	"increase_the_damage_die": { "redirect": "damage_die_adjustments" },
+	"deal_less_damage": { "redirect": "damage_die_adjustments" },
+	"one_size_category_larger": { "redirect": "damage_die_adjustments" },
+	"one_size_smaller": { "redirect": "damage_die_adjustments" },
+	"one_size_category_smaller": { "redirect": "damage_die_adjustments" },
+	"by_one_step": { "redirect": "damage_die_adjustments" },
 	"weapon_size": {
 		"name": "Weapon Size",
 		"sources": [ "PRPG Core Rulebook" ],
@@ -356,7 +356,7 @@
 		],
 		"topLink": [ "Weapon Encumbrance and Size", "rule/weapon_encumbrance" ]
 	},
-	"weapon_category": { "copyof": "weapon_size" },
+	"weapon_category": { "redirect": "weapon_size" },
 	"burst": {
 		"name": "Burst",
 		"sources": [ "PRPG Core Rulebook" ],
@@ -741,7 +741,7 @@
 		"type": "Rule",
 		"topLink": [ "Terrain and Obstacles", "rule/terrain_and_obstacles" ]
 	},
-	"squeeze": { "copyof": "squeezing" },
+	"squeeze": { "redirect": "squeezing" },
 	"total_defense": {
 		"name": "Total Defense",
 		"sources": [ "PRPG Core Rulebook" ],
@@ -754,7 +754,7 @@
 		"type": "Rule",
 		"topLink": [ "Standard Actions", "rule/standard_actions" ]
 	},
-	"full_defense": { "copyof": "total_defense" },
+	"full_defense": { "redirect": "total_defense" },
 	"fighting_defensively": {
 		"name": "Fighting Defensively",
 		"sources": [ "PRPG Core Rulebook" ],
@@ -767,7 +767,7 @@
 		"type": "Rule",
 		"topLink": [ "Attack", "rule/attack" ]
 	},
-	"fight_defensively": { "copyof": "fighting_defensively" },
+	"fight_defensively": { "redirect": "fighting_defensively" },
 	"dismissible": {
 		"name": "Dismissible Spells",
 		"sources": [ "PRPG Core Rulebook" ],
@@ -782,5 +782,5 @@
 		"type": "Rule",
 		"topLink": [ "Spell Duration", "rule/duration" ]
 	},
-	"dismiss": { "copyof": "dismissible" }
+	"dismiss": { "redirect": "dismissible" }
 }

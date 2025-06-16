@@ -131,7 +131,7 @@
 		},
 		"topLink": [ "Investigator", "class/investigator" ]
 	},
-	"investigator_talent": { "copyof": "investigator_talents" },
+	"investigator_talent": { "redirect": "investigator_talents" },
 	"ki_powers": {
 		"name": "Ki Powers",
 		"sources": [ "Pathfinder Unchained" ],
@@ -422,7 +422,7 @@
 		},
 		"topLink": [ "Ninja", "class/ninja" ]
 	},
-	"advanced_ninja_tricks": { "copyof": "master_tricks" },
+	"advanced_ninja_tricks": { "redirect": "master_tricks" },
 	"mercies": {
 		"name": "Mercies",
 		"sources": [ "PRPG Core Rulebook" ],

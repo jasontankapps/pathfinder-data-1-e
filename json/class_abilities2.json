@@ -276,7 +276,7 @@
 		],
 		"topLink": [ "Druid", "class/druid" ]
 	},
-	"animal_companion": { "copyof": "druid_companions" },
+	"animal_companion": { "redirect": "druid_companions" },
 	"druid_domains": {
 		"name": "Druid Domains",
 		"sources": [ "Ultimate Magic" ],
@@ -990,7 +990,7 @@
 		],
 		"topLink": [ "Wizard", "class/wizard" ]
 	},
-	"familiar": { "copyof": "familiars" },
+	"familiar": { "redirect": "familiars" },
 	"grand_discoveries": {
 		"name": "Grand Discoveries",
 		"sources": [ "Advanced Player's Guide" ],
@@ -1014,7 +1014,7 @@
 		},
 		"topLink": [ "Alchemist", "class/alchemist" ]
 	},
-	"grand_discovery": { "copyof": "grand_discoveries" },
+	"grand_discovery": { "redirect": "grand_discoveries" },
 	"grand_hexes": {
 		"name": "Grand Hexes",
 		"sources": [ "Advanced Player's Guide" ],

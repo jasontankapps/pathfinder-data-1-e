@@ -1115,7 +1115,7 @@
 			"**Family:** {family/Aeon}"
 		]
 	},
-	"agnoia": { "copyof": "aeon_agnoia" },
+	"agnoia": { "redirect": "aeon_agnoia" },
 	"aeon_akhana": {
 		"name": "Akhana (Aeon)",
 		"sources": [ "Bestiary 2" ],
@@ -1177,7 +1177,7 @@
 			"**Family:** {family/Aeon}"
 		]
 	},
-	"akhana": { "copyof": "aeon_akhana" },
+	"akhana": { "redirect": "aeon_akhana" },
 	"aeon_bythos": {
 		"name": "Bythos (Aeon)",
 		"sources": [ "Bestiary 2" ],
@@ -1243,7 +1243,7 @@
 			"**Family:** {family/Aeon}"
 		]
 	},
-	"bythos": { "copyof": "aeon_bythos" },
+	"bythos": { "redirect": "aeon_bythos" },
 	"aeon_lipika": {
 		"name": "Lipika (Aeon)",
 		"sources": [
@@ -1321,7 +1321,7 @@
 			"**Family:** {family/Aeon}"
 		]
 	},
-	"lipika": { "copyof": "aeon_lipika" },
+	"lipika": { "redirect": "aeon_lipika" },
 	"aeon_othaos": {
 		"name": "Othaos (Aeon)",
 		"sources": [
@@ -1385,7 +1385,7 @@
 			"**Family:** {family/Aeon}"
 		]
 	},
-	"othaos": { "copyof": "aeon_othaos" },
+	"othaos": { "redirect": "aeon_othaos" },
 	"aeon_paracletus": {
 		"name": "Paracletus (Aeon)",
 		"sources": [ "Bestiary 2" ],
@@ -1452,7 +1452,7 @@
 			"**Family:** {family/Aeon}"
 		]
 	},
-	"paracletus": { "copyof": "aeon_paracletus" },
+	"paracletus": { "redirect": "aeon_paracletus" },
 	"aeon_pleroma": {
 		"name": "Pleroma (Aeon)",
 		"sources": [ "Bestiary 2" ],
@@ -1535,7 +1535,7 @@
 			"**Family:** {family/Aeon}"
 		]
 	},
-	"pleroma": { "copyof": "aeon_pleroma" },
+	"pleroma": { "redirect": "aeon_pleroma" },
 	"aeon_synesis": {
 		"name": "Synesis (Aeon)",
 		"sources": [
@@ -1601,7 +1601,7 @@
 			"**Family:** {family/Aeon}"
 		]
 	},
-	"synesis": { "copyof": "aeon_synesis" },
+	"synesis": { "redirect": "aeon_synesis" },
 	"aeon_theletos": {
 		"name": "Theletos (Aeon)",
 		"sources": [ "Bestiary 2" ],
@@ -1663,7 +1663,7 @@
 			"**Family:** {family/Aeon}"
 		]
 	},
-	"theletos": { "copyof": "aeon_theletos" },
+	"theletos": { "redirect": "aeon_theletos" },
 	"aerial_servant": {
 		"name": "Aerial Servant",
 		"sources": [ "Bestiary 5" ],
@@ -1783,7 +1783,7 @@
 			"**Family:** {family/Agathion}"
 		]
 	},
-	"avoral": { "copyof": "agathion_avoral" },
+	"avoral": { "redirect": "agathion_avoral" },
 	"agathion_bishop_agathion": {
 		"name": "Bishop Agathion (Agathion)",
 		"sources": [
@@ -1863,8 +1863,8 @@
 			"Although few known bishop agathions remain on Golarion for any length of time, some cultures revere their arrival as an omen of fortune and luck. Those seeing a bishop agathion - and being entrusted with its diplomatic knowledge - consider the encounter to be the greatest honor one can receive. Therefore, groups of eager adventurers have set sail from Varisia over the years, hoping to reap the rewards of encountering one of these strange creatures. These seekers are inevitably disappointed. Bishops appear to only those with whom they have business - or whose evil they witness and wish to stop."
 		]
 	},
-	"agathion_bishop": { "copyof": "agathion_bishop_agathion" },
-	"bishop_agathion": { "copyof": "agathion_bishop_agathion" },
+	"agathion_bishop": { "redirect": "agathion_bishop_agathion" },
+	"bishop_agathion": { "redirect": "agathion_bishop_agathion" },
 	"agathion_cervapral": {
 		"name": "Cervapral (Agathion)",
 		"sources": [
@@ -1935,7 +1935,7 @@
 			"**Family:** {family/Agathion}"
 		]
 	},
-	"cervapral": { "copyof": "agathion_cervapral" },
+	"cervapral": { "redirect": "agathion_cervapral" },
 	"agathion_cervinal": {
 		"name": "Cervinal (Agathion)",
 		"sources": [
@@ -2002,7 +2002,7 @@
 			"**Family:** {family/Agathion}"
 		]
 	},
-	"cervinal": { "copyof": "agathion_cervinal" },
+	"cervinal": { "redirect": "agathion_cervinal" },
 	"agathion_cetaceal": {
 		"name": "Cetaceal (Agathion)",
 		"sources": [ "Bestiary 2" ],
@@ -2068,7 +2068,7 @@
 			"**Family:** {family/Agathion}"
 		]
 	},
-	"cetaceal": { "copyof": "agathion_cetaceal" },
+	"cetaceal": { "redirect": "agathion_cetaceal" },
 	"agathion_chelonidal": {
 		"name": "Chelonidal (Agathion)",
 		"sources": [
@@ -2157,7 +2157,7 @@
 			"While chelonidals defend those who cannot defend themselves, they are at their strongest when they stand alongside those with the strength and will to fight. A single chelonidal can bolster a mortal legion, keeping the troops fighting until reinforcements arrive. In greater numbers, chelonidals form a phalanx, trusting in allies to clean up any foe that makes it past their guard. On those rare occasions when the agathions must march to war, chelonidals form the core of their armies. Led by cervinal knights and supported by soaring avorals, a chelonidal legion is a force potent enough to make any fiendish combatants think twice."
 		]
 	},
-	"chelonidal": { "copyof": "agathion_chelonidal" },
+	"chelonidal": { "redirect": "agathion_chelonidal" },
 	"agathion_draconal": {
 		"name": "Draconal (Agathion)",
 		"sources": [ "Bestiary 2" ],
@@ -2253,7 +2253,7 @@
 			"[^D]: Domain spell"
 		]
 	},
-	"draconal": { "copyof": "agathion_draconal" },
+	"draconal": { "redirect": "agathion_draconal" },
 	"agathion_leonal": {
 		"name": "Leonal (Agathion)",
 		"sources": [ "Bestiary 2" ],
@@ -2318,7 +2318,7 @@
 			"**Family:** {family/Agathion}"
 		]
 	},
-	"leonal": { "copyof": "agathion_leonal" },
+	"leonal": { "redirect": "agathion_leonal" },
 	"agathion_muldnal": {
 		"name": "Muldnal (Agathion)",
 		"sources": [
@@ -2413,7 +2413,7 @@
 			"**Elder (+2 CR):** A muldnal elder commands tremendous respect among its kind. It gains the {template/advanced} and {template/giant} creature simple templates, gains {umr/blindsight} instead of tremorsense, and can cast {spell/spiked pit} as a spell-like ability once per day."
 		]
 	},
-	"muldnal": { "copyof": "agathion_muldnal" },
+	"muldnal": { "redirect": "agathion_muldnal" },
 	"agathion_mustelidal": {
 		"name": "Mustelidal (Agathion)",
 		"sources": [
@@ -2499,7 +2499,7 @@
 			"Mustelidals are among the more powerful outsiders that can be called with {spell/greater planar ally}. Although they do not need to eat, they enjoy the taste of honey, and each 8-ounce jar included in the material components of the spell counts as 200 gp worth of offerings. A mustelidal will eagerly accept the task of watching over a worthy person, halving the payment requested, though such tasks require a specific time frame and cannot be open-ended. Mustelidal protectors are often willing to lay down their lives to ensure the people in their care survive whatever dangers prompted them to employ the agathions' services in the first place. Particularly zealous mustelidals have been known to check in on their former charges from time to time, even years after the terms of their original agreement ended, offering their services again. While they require a new agreement to serve the mortal again, they can be very persuasive, and former charges who find themselves in perpetual danger may employ the same mustelidal a dozen or more times over the course of their lives, so long as the threats that the agathions are defending against present suitable challenges."
 		]
 	},
-	"mustelidal": { "copyof": "agathion_mustelidal" },
+	"mustelidal": { "redirect": "agathion_mustelidal" },
 	"agathion_procyal": {
 		"name": "Procyal (Agathion)",
 		"sources": [
@@ -2589,7 +2589,7 @@
 			"On the Material Plane, procyals are rarely wholly trusted. Since procyals love to chasten the powerful and to play pranks on the high and mighty, few talented creatures are willing to enter into long-term alliances with them. Individuals in the lower classes are frequent exceptions. They tend to welcome procyals with open arms. For here among the poor and downtrodden, where society exists in its most imperfect state, nearly every action that a procyal takes has a positive and lasting effect."
 		]
 	},
-	"procyal": { "copyof": "agathion_procyal" },
+	"procyal": { "redirect": "agathion_procyal" },
 	"agathion_reptial": {
 		"name": "Reptial (Agathion)",
 		"sources": [
@@ -2652,7 +2652,7 @@
 			"**Family:** {family/Agathion}"
 		]
 	},
-	"reptial": { "copyof": "agathion_reptial" },
+	"reptial": { "redirect": "agathion_reptial" },
 	"agathion_silvanshee": {
 		"name": "Silvanshee (Agathion)",
 		"sources": [ "Bestiary 2" ],
@@ -2718,7 +2718,7 @@
 			"**Family:** {family/Agathion}"
 		]
 	},
-	"silvanshee": { "copyof": "agathion_silvanshee" },
+	"silvanshee": { "redirect": "agathion_silvanshee" },
 	"agathion_vulpinal": {
 		"name": "Vulpinal (Agathion)",
 		"sources": [
@@ -2784,7 +2784,7 @@
 			"**Family:** {family/Agathion}"
 		]
 	},
-	"vulpinal": { "copyof": "agathion_vulpinal" },
+	"vulpinal": { "redirect": "agathion_vulpinal" },
 	"agrawgh": {
 		"name": "Agrawgh",
 		"sources": [ "Planes of Power" ],
@@ -3345,7 +3345,7 @@
 			"Appearing at first to be a collection of tiny blobs of viscous, translucent fluid, alchemical oozes become far more terrifying once their hungry nature becomes apparent. Each swarm is composed of several hundred palm-sized balls of ooze that all scuttle along as a single unit."
 		]
 	},
-	"choleric_ooze_swarm": { "copyof": "alchemical_ooze_swarm_choleric_ooze_swarm" },
+	"choleric_ooze_swarm": { "redirect": "alchemical_ooze_swarm_choleric_ooze_swarm" },
 	"alchemical_ooze_swarm_melancholic_ooze_swarm": {
 		"name": "Melancholic Ooze Swarm (Alchemical Ooze Swarm)",
 		"sources": [ "Pathfinder #43: Haunting of Harrowstone" ],
@@ -3396,7 +3396,7 @@
 			"Appearing at first to be a collection of tiny blobs of viscous, translucent fluid, alchemical oozes become far more terrifying once their hungry nature becomes apparent. Each swarm is composed of several hundred palm-sized balls of ooze that all scuttle along as a single unit."
 		]
 	},
-	"melancholic_ooze_swarm": { "copyof": "alchemical_ooze_swarm_melancholic_ooze_swarm" },
+	"melancholic_ooze_swarm": { "redirect": "alchemical_ooze_swarm_melancholic_ooze_swarm" },
 	"alchemical_ooze_swarm_phlegmatic_ooze_swarm": {
 		"name": "Phlegmatic Ooze Swarm (Alchemical Ooze Swarm)",
 		"sources": [ "Pathfinder #43: Haunting of Harrowstone" ],
@@ -3447,7 +3447,7 @@
 			"Appearing at first to be a collection of tiny blobs of viscous, translucent fluid, alchemical oozes become far more terrifying once their hungry nature becomes apparent. Each swarm is composed of several hundred palm-sized balls of ooze that all scuttle along as a single unit."
 		]
 	},
-	"phlegmatic_ooze_swarm": { "copyof": "alchemical_ooze_swarm_phlegmatic_ooze_swarm" },
+	"phlegmatic_ooze_swarm": { "redirect": "alchemical_ooze_swarm_phlegmatic_ooze_swarm" },
 	"alchemical_ooze_swarm_sanguine_ooze_swarm": {
 		"name": "Sanguine Ooze Swarm (Alchemical Ooze Swarm)",
 		"sources": [ "Pathfinder #43: Haunting of Harrowstone" ],
@@ -3500,7 +3500,7 @@
 			"Appearing at first to be a collection of tiny blobs of viscous, translucent fluid, alchemical oozes become far more terrifying once their hungry nature becomes apparent. Each swarm is composed of several hundred palm-sized balls of ooze that all scuttle along as a single unit."
 		]
 	},
-	"sanguine_ooze_swarm": { "copyof": "alchemical_ooze_swarm_sanguine_ooze_swarm" },
+	"sanguine_ooze_swarm": { "redirect": "alchemical_ooze_swarm_sanguine_ooze_swarm" },
 	"allip": {
 		"name": "Allip",
 		"sources": [

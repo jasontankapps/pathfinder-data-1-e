@@ -78,7 +78,7 @@
 			"In addition to the typical firing modes for a beam cannon, a gravity cannon can be fired on a sustained setting. When used in this mode, the gravity cannon can be used to move and manipulate objects from a distance, similar to the sustained force or combat maneuver versions of a {spell/telekinesis} spell. (A gravity cannon can't duplicate the violent thrust option of a telekinesis spell.) The gravity cannon uses 1 charge per round in this mode, and can move objects weighing no more than 500 pounds up to 20 feet per round. A creature can negate this effect on an object in its possession with a successful DC 19 Reflex save. If used to perform a combat maneuver, the cannon uses the wielder's CMB + 8, but uses her Intelligence modifier in place of her Strength or Dexterity modifier. A gravity cannon is a technological artifact."
 		]
 	},
-	"gravity_cannon": { "copyof": "beam_cannon_gravity_cannon" },
+	"gravity_cannon": { "redirect": "beam_cannon_gravity_cannon" },
 	"compact_ai_core": {
 		"name": "Compact AI Core",
 		"sources": [ "Pathfinder #88: Valley of the Brain Collectors" ],

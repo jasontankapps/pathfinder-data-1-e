@@ -374,7 +374,7 @@
 		},
 		"topLink": [ "Rogue", "class/rogue" ]
 	},
-	"rogue_talent": { "copyof": "rogue_talents" },
+	"rogue_talent": { "redirect": "rogue_talents" },
 	"sagas": {
 		"name": "Sagas",
 		"sources": [ "Magic Tactics Toolbox" ],

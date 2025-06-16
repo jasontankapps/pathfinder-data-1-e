@@ -245,7 +245,7 @@
 			"**Requirements** {feat/Forge Ring}, creator must be able to cast spells of the spell level to be granted; **Cost** 750 gp (type I), 3,000 gp (type II), 6,750 gp (type III), 12,000 gp (type IV)"
 		]
 	},
-	"ring_of_spell_knowledge_type_i": { "copyof": "ring_of_spell_knowledge_type_1" },
+	"ring_of_spell_knowledge_type_i": { "redirect": "ring_of_spell_knowledge_type_1" },
 	"ring_of_balanced_grip": {
 		"name": "Ring of Balanced Grip",
 		"sources": [ "Adventurer's Armory 2" ],
@@ -972,7 +972,7 @@
 		"name": "Ring of Spell Knowledge (type II)",
 		"copyof": "ring_of_spell_knowledge_type_1"
 	},
-	"ring_of_spell_knowledge_type_ii": { "copyof": "ring_of_spell_knowledge_type_2" },
+	"ring_of_spell_knowledge_type_ii": { "redirect": "ring_of_spell_knowledge_type_2" },
 	"ring_of_unquenchable_passions": {
 		"name": "Ring of Unquenchable Passions",
 		"sources": [ "Inner Sea Gods" ],
@@ -1607,7 +1607,7 @@
 			"**Requirements** {feat/Forge Ring}, creator must be an oracle with the desired revelation; **Cost** 5,000 gp (lesser), 8,000 gp (greater), 12,000 gp (superior)"
 		]
 	},
-	"lesser_ring_of_revelation": { "copyof": "ring_of_revelation_lesser" },
+	"lesser_ring_of_revelation": { "redirect": "ring_of_revelation_lesser" },
 	"ring_of_climbing_improved": {
 		"name": "Ring of Climbing (improved)",
 		"sources": [
@@ -1628,7 +1628,7 @@
 			"**Requirements** {feat/Forge Ring}, creator must have 10 ranks in the Climb skill; **Cost** 5,000 gp"
 		]
 	},
-	"improved_ring_of_climbing": { "copyof": "ring_of_climbing_improved" },
+	"improved_ring_of_climbing": { "redirect": "ring_of_climbing_improved" },
 	"ring_of_curing": {
 		"name": "Ring of Curing",
 		"sources": [ "Ultimate Equipment" ],
@@ -1683,7 +1683,7 @@
 			"**Requirements** {feat/Forge Ring}, creator must have 10 ranks in Acrobatics; **Cost** 5,000 gp"
 		]
 	},
-	"improved_ring_of_jumping": { "copyof": "ring_of_jumping_improved" },
+	"improved_ring_of_jumping": { "redirect": "ring_of_jumping_improved" },
 	"ring_of_ki_mastery": {
 		"name": "Ring of Ki Mastery",
 		"sources": [ "Ultimate Equipment" ],
@@ -1742,7 +1742,7 @@
 			"**Requirements** {feat/Forge Ring}, creator must have 10 ranks in Swim; **Cost** 5,000 gp"
 		]
 	},
-	"improved_ring_of_swimming": { "copyof": "ring_of_swimming_improved" },
+	"improved_ring_of_swimming": { "redirect": "ring_of_swimming_improved" },
 	"ring_of_summoning_affinity_daemon": {
 		"name": "Ring of Summoning Affinity (Daemon)",
 		"sources": [ "Advanced Class Guide" ],
@@ -1909,7 +1909,7 @@
 			"**Requirements** {feat/Forge Ring}, {spell/resist energy}; **Cost** 6,000 gp (minor), 14,000 gp (major), 22,000 gp (greater)"
 		]
 	},
-	"minor_ring_of_energy_resistance": { "copyof": "ring_of_energy_resistance_minor" },
+	"minor_ring_of_energy_resistance": { "redirect": "ring_of_energy_resistance_minor" },
 	"ring_of_blood_calling": {
 		"name": "Ring of Blood Calling",
 		"sources": [ "Pathfinder #106: For Queen and Empire" ],
@@ -2105,7 +2105,7 @@
 		"name": "Ring of Spell Knowledge (type III)",
 		"copyof": "ring_of_spell_knowledge_type_1"
 	},
-	"ring_of_spell_knowledge_type_iii": { "copyof": "ring_of_spell_knowledge_type_3" },
+	"ring_of_spell_knowledge_type_iii": { "redirect": "ring_of_spell_knowledge_type_3" },
 	"ring_of_rulership": {
 		"name": "Ring of Rulership",
 		"sources": [ "Villain Codex" ],
@@ -2304,7 +2304,7 @@
 		"name": "Ring of Revelation (greater)",
 		"copyof": "ring_of_revelation_lesser"
 	},
-	"greater_ring_of_revelation": { "copyof": "ring_of_revelation_greater" },
+	"greater_ring_of_revelation": { "redirect": "ring_of_revelation_greater" },
 	"heavenly_aegis_ring": {
 		"name": "Heavenly Aegis Ring",
 		"sources": [ "Horror Adventures" ],
@@ -2412,7 +2412,7 @@
 			"**Requirements** {feat/Forge Ring}, {spell/restoration}; **Cost** 9,000 gp (minor), 21,000 gp (major), 33,000 gp (greater)"
 		]
 	},
-	"minor_ring_of_inner_fortitude": { "copyof": "ring_of_inner_fortitude_minor" },
+	"minor_ring_of_inner_fortitude": { "redirect": "ring_of_inner_fortitude_minor" },
 	"ring_of_spell_storing_minor": {
 		"name": "Ring of Spell Storing (minor)",
 		"sources": [
@@ -2433,7 +2433,7 @@
 			"**Requirements** {feat/Forge Ring}, {spell/imbue with spell ability}; **Cost** 9,000 gp"
 		]
 	},
-	"minor_ring_of_spell_storing": { "copyof": "ring_of_spell_storing_minor" },
+	"minor_ring_of_spell_storing": { "redirect": "ring_of_spell_storing_minor" },
 	"ring_of_stony_flesh": {
 		"name": "Ring of Stony Flesh",
 		"sources": [ "Pathfinder #83: The Slave Trenches of Hakotep" ],
@@ -2665,7 +2665,7 @@
 		"name": "Ring of Spell Knowledge (type IV)",
 		"copyof": "ring_of_spell_knowledge_type_1"
 	},
-	"ring_of_spell_knowledge_type_iv": { "copyof": "ring_of_spell_knowledge_type_4" },
+	"ring_of_spell_knowledge_type_iv": { "redirect": "ring_of_spell_knowledge_type_4" },
 	"ring_of_delayed_doom_5_stones": {
 		"name": "Ring of Delayed Doom (5 stones)",
 		"copyof": "ring_of_delayed_doom_1_stone"
@@ -2778,7 +2778,7 @@
 		"name": "Ring of Energy Resistance (major)",
 		"copyof": "ring_of_energy_resistance_minor"
 	},
-	"major_ring_of_energy_resistance": { "copyof": "ring_of_energy_resistance_major" },
+	"major_ring_of_energy_resistance": { "redirect": "ring_of_energy_resistance_major" },
 	"ring_of_the_ecclesiarch": {
 		"name": "Ring of the Ecclesiarch",
 		"sources": [ "Ultimate Equipment" ],
@@ -3003,18 +3003,18 @@
 			"**Requirements** {feat/Forge Ring}, {spell/freedom of movement}; **Cost** 20,000 gp"
 		]
 	},
-	"ring_of_mysticism_type_i": { "copyof": "ring_of_mysticism_type_1" },
+	"ring_of_mysticism_type_i": { "redirect": "ring_of_mysticism_type_1" },
 	"ring_of_mysticism_type_2": {
 		"name": "Ring of Mysticism (Type II)",
 		"copyof": "ring_of_mysticism_type_1"
 	},
-	"ring_of_mysticism_type_ii": { "copyof": "ring_of_mysticism_type_2" },
-	"ring_of_wizardry_type_i": { "copyof": "ring_of_wizardry_type_1" },
+	"ring_of_mysticism_type_ii": { "redirect": "ring_of_mysticism_type_2" },
+	"ring_of_wizardry_type_i": { "redirect": "ring_of_wizardry_type_1" },
 	"ring_of_wizardry_type_2": {
 		"name": "Ring of Wizardry (type II)",
 		"copyof": "ring_of_wizardry_type_1"
 	},
-	"ring_of_wizardry_type_ii": { "copyof": "ring_of_wizardry_type_2" },
+	"ring_of_wizardry_type_ii": { "redirect": "ring_of_wizardry_type_2" },
 	"ring_of_inner_fortitude_major": {
 		"name": "Ring of Inner Fortitude (major)",
 		"copyof": "ring_of_inner_fortitude_minor"
@@ -3038,13 +3038,13 @@
 			"**Requirements** {feat/Forge Ring}, {spell/bestow curse}, {spell/detect thoughts}, {spell/geas//quest}, {spell/sanctuary}, {spell/share language}, {spell/status}; **Cost** 21,000 gp"
 		]
 	},
-	"greater_rings_of_bondage": { "copyof": "rings_of_bondage_greater" },
+	"greater_rings_of_bondage": { "redirect": "rings_of_bondage_greater" },
 	"ring_of_energy_resistance_greater": {
 		"name": "Ring of Energy Resistance (greater)",
 		"copyof": "ring_of_energy_resistance_minor"
 	},
-	"greater_ring_of_energy_resistance": { "copyof": "ring_of_energy_resistance_greater" },
-	"greater_ring_of_fire_resistance": { "copyof": "ring_of_energy_resistance_greater" },
+	"greater_ring_of_energy_resistance": { "redirect": "ring_of_energy_resistance_greater" },
+	"greater_ring_of_fire_resistance": { "redirect": "ring_of_energy_resistance_greater" },
 	"ring_of_delayed_doom_9_stones": {
 		"name": "Ring of Delayed Doom (9 stones)",
 		"copyof": "ring_of_delayed_doom_1_stone"
@@ -3263,7 +3263,7 @@
 		"name": "Ring of Inner Fortitude (greater)",
 		"copyof": "ring_of_inner_fortitude_minor"
 	},
-	"greater_ring_of_inner_fortitude": { "copyof": "ring_of_inner_fortitude_greater" },
+	"greater_ring_of_inner_fortitude": { "redirect": "ring_of_inner_fortitude_greater" },
 	"spiritualist_rings": {
 		"name": "Spiritualist Rings",
 		"sources": [ "Ultimate Equipment" ],
@@ -3290,12 +3290,12 @@
 		"name": "Ring of Wizardry (type III)",
 		"copyof": "ring_of_wizardry_type_1"
 	},
-	"ring_of_wizardry_type_iii": { "copyof": "ring_of_wizardry_type_3" },
+	"ring_of_wizardry_type_iii": { "redirect": "ring_of_wizardry_type_3" },
 	"ring_of_mysticism_type_3": {
 		"name": "Ring of Mysticism (Type III)",
 		"copyof": "ring_of_mysticism_type_1"
 	},
-	"ring_of_mysticism_type_iii": { "copyof": "ring_of_mysticism_type_3" },
+	"ring_of_mysticism_type_iii": { "redirect": "ring_of_mysticism_type_3" },
 	"ring_of_telekinesis": {
 		"name": "Ring of Telekinesis",
 		"sources": [
@@ -3360,12 +3360,12 @@
 		"name": "Ring of Mysticism (Type IV)",
 		"copyof": "ring_of_mysticism_type_1"
 	},
-	"ring_of_mysticism_type_iv": { "copyof": "ring_of_mysticism_type_4" },
+	"ring_of_mysticism_type_iv": { "redirect": "ring_of_mysticism_type_4" },
 	"ring_of_wizardry_type_4": {
 		"name": "Ring of Wizardry (type IV)",
 		"copyof": "ring_of_wizardry_type_1"
 	},
-	"ring_of_wizardry_type_iv": { "copyof": "ring_of_wizardry_type_4" },
+	"ring_of_wizardry_type_iv": { "redirect": "ring_of_wizardry_type_4" },
 	"ring_of_the_shadow_victim": {
 		"name": "Ring of the Shadow Victim",
 		"sources": [ "Ultimate Intrigue" ],
@@ -3592,7 +3592,7 @@
 			"**Requirements** {feat/Forge Ring}, {spell/imbue with spell ability}; **Cost** 100,000 gp"
 		]
 	},
-	"major_ring_of_spell_storing": { "copyof": "ring_of_spell_storing_major" },
+	"major_ring_of_spell_storing": { "redirect": "ring_of_spell_storing_major" },
 	"wary_ring": {
 		"name": "Wary Ring",
 		"sources": [ "Magical Marketplace" ],

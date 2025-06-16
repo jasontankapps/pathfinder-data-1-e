@@ -339,7 +339,7 @@
 			"**Requirements** {feat/Craft Wondrous Item}, {feat/Enlarge Spell}, {spell/clairaudience//clairvoyance}, creator must be a human; **Cost** 8,750 gp"
 		]
 	},
-	"spyglass_of_discovery": { "copyof": "spyglass_of_discovery_human" },
+	"spyglass_of_discovery": { "redirect": "spyglass_of_discovery_human" },
 	"spell_winder_nagaji_2nd_level": {
 		"name": "Spell Winder (Nagaji) (2nd level)",
 		"sources": [ "Inner Sea Races" ],
@@ -361,17 +361,17 @@
 			"**Requirements** {feat/Craft Wondrous Item}, {spell/contingency}, creator must be a nagaji; **Cost** 9,000 gp (2nd level), 19,500 gp (4th level), 29,000 gp (6th level)"
 		]
 	},
-	"spell_winder_2nd_level": { "copyof": "spell_winder_nagaji_2nd_level" },
+	"spell_winder_2nd_level": { "redirect": "spell_winder_nagaji_2nd_level" },
 	"spell_winder_nagaji_4th_level": {
 		"name": "Spell Winder (Nagaji) (4th level)",
 		"copyof": "spell_winder_nagaji_2nd_level"
 	},
-	"spell_winder_4th_level": { "copyof": "spell_winder_nagaji_4th_level" },
+	"spell_winder_4th_level": { "redirect": "spell_winder_nagaji_4th_level" },
 	"spell_winder_nagaji_6th_level": {
 		"name": "Spell Winder (Nagaji) (6th level)",
 		"copyof": "spell_winder_nagaji_2nd_level"
 	},
-	"spell_winder_6th_level": { "copyof": "spell_winder_nagaji_6th_level" },
+	"spell_winder_6th_level": { "redirect": "spell_winder_nagaji_6th_level" },
 	"runestone_of_power_1st": {
 		"name": "Runestone of Power (1st)",
 		"sources": [
@@ -695,7 +695,7 @@
 			"**Requirements** {feat/Craft Wondrous Item}, {spell/darkness}, {spell/darkvision}; **Cost** 9,000 gp"
 		]
 	},
-	"ebon_wayfinder": { "copyof": "wayfinder_ebon" },
+	"ebon_wayfinder": { "redirect": "wayfinder_ebon" },
 	"woodlands_ingress": {
 		"name": "Woodlands' Ingress",
 		"sources": [ "Pathfinder #119: Prisoners of the Blight" ],
@@ -1034,12 +1034,12 @@
 			"**Requirements** {feat/Craft Wondrous Item}, {spell/tactical insight}; **Cost** 10,000 gp (Lesser), 50,000 gp (Normal)"
 		]
 	},
-	"lesser_banner_of_tactical_command": { "copyof": "banner_of_tactical_command_lesser" },
+	"lesser_banner_of_tactical_command": { "redirect": "banner_of_tactical_command_lesser" },
 	"banner_of_tactical_command_normal": {
 		"name": "Banner of Tactical Command (Normal)",
 		"copyof": "banner_of_tactical_command_lesser"
 	},
-	"normal_banner_of_tactical_command": { "copyof": "banner_of_tactical_command_normal" },
+	"normal_banner_of_tactical_command": { "redirect": "banner_of_tactical_command_normal" },
 	"magic_talking_board": {
 		"name": "Magic Talking Board",
 		"sources": [ "Occult Adventures" ],
@@ -1097,7 +1097,7 @@
 			"**Requirements** {feat/Craft Wondrous Item}, {spell/legend lore}, {spell/major image}; **Cost** 10,000 gp"
 		]
 	},
-	"greater_monster_almanac": { "copyof": "monster_almanac_greater" },
+	"greater_monster_almanac": { "redirect": "monster_almanac_greater" },
 	"necromancers_athame": {
 		"name": "Necromancer's Athame",
 		"sources": [
@@ -1179,8 +1179,8 @@
 			"**Requirements** {feat/Craft Wondrous Item}, {spell/divine favor}; **Cost** 10,000 gp"
 		]
 	},
-	"stone_of_good_luck": { "copyof": "stone_of_good_luck_luckstone" },
-	"luckstone": { "copyof": "stone_of_good_luck_luckstone" },
+	"stone_of_good_luck": { "redirect": "stone_of_good_luck_luckstone" },
+	"luckstone": { "redirect": "stone_of_good_luck_luckstone" },
 	"third_eye": {
 		"name": "Third Eye",
 		"sources": [
@@ -1969,7 +1969,7 @@
 			}
 		]
 	},
-	"ioun_stones": { "copyof": "ioun_stone" },
+	"ioun_stones": { "redirect": "ioun_stone" },
 	"iron_bands_of_binding": {
 		"name": "Iron Bands of Binding",
 		"sources": [
@@ -3509,8 +3509,8 @@
 			"[^T]: The viewer is able to send and receive silent mental messages with the person appearing in the crystal ball. Once per day, the character may attempt to implant a {spell/suggestion} (as the spell, Will DC 14 negates) as well."
 		]
 	},
-	"crystal_ball": { "copyof": "crystal_ball_normal" },
-	"normal_crystal_ball": { "copyof": "crystal_ball_normal" },
+	"crystal_ball": { "redirect": "crystal_ball_normal" },
+	"normal_crystal_ball": { "redirect": "crystal_ball_normal" },
 	"crystal_ball_see_invisibility": {
 		"name": "Crystal Ball (See Invisibility)",
 		"copyof": "crystal_ball_normal"

@@ -375,7 +375,7 @@
 			"When an amoeba swarm is found in the vicinity of a giant amoeba, the two oozes ignore each other. A giant amoeba in the space of an amoeba swarm takes no damage from the swarm's attacks and does not run the risk of becoming distracted as a result of being in the swarm."
 		]
 	},
-	"amoeba_swarm": { "copyof": "amoeba_amoeba_swarm" },
+	"amoeba_swarm": { "redirect": "amoeba_amoeba_swarm" },
 	"amoeba_giant_amoeba": {
 		"name": "Giant Amoeba",
 		"sources": [ "Bestiary 2" ],
@@ -421,8 +421,8 @@
 			"A giant amoeba is a shapeless mass of living, liquid protoplasm. Though naturally translucent with darker interior spots, its surface is slightly sticky and tends to collect dirt and other debris from its environment; therefore, a moving giant amoeba looks like muddy water. A weaker cousin of creatures such as the gray ooze and black pudding, a giant amoeba is actually a mutated version of a harmless creature too small to be seen by the naked eye, grown dangerously large in size. Although happy to prey on creatures smaller than it, the giant amoeba's constant hunger often drives it to attack larger prey, such as humanoids."
 		]
 	},
-	"giant_amoeba": { "copyof": "amoeba_giant_amoeba" },
-	"amoeba_giant": { "copyof": "amoeba_giant_amoeba" },
+	"giant_amoeba": { "redirect": "amoeba_giant_amoeba" },
+	"amoeba_giant": { "redirect": "amoeba_giant_amoeba" },
 	"amphiptere": {
 		"name": "Amphiptere",
 		"sources": [ "Bestiary 5" ],
@@ -701,7 +701,7 @@
 			"Zephyr: Once per day, an anemos who guides the western winds can soothe the spirits of any creature touched by its gentle breezes. For 1 minute, creatures within 60 feet of the anemos must attempt DC 31 Will saves each time they attempt to attack or take aggressive actions toward another creature. If a creature succeeds, it can attack as normal. If it fails, it can't attack and is staggered for 1 minute."
 		]
 	},
-	"anemoi": { "copyof": "anemos" },
+	"anemoi": { "redirect": "anemos" },
 	"angazhani_high_girallon": {
 		"name": "Angazhani (High Girallon)",
 		"sources": [ "Heart of the Jungle" ],
@@ -761,7 +761,7 @@
 			"High girallons stand 9 feet tall and weigh nearly a thousand pounds. They often dress in hides, and they fight with exotically shaped throwing axes or sacrificial knives."
 		]
 	},
-	"angazhani": { "copyof": "angazhani_high_girallon" },
+	"angazhani": { "redirect": "angazhani_high_girallon" },
 	"angel_astral_deva": {
 		"name": "Astral Deva (Angel)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -822,7 +822,7 @@
 			"**Family:** {family/Angel}"
 		]
 	},
-	"astral_deva": { "copyof": "angel_astral_deva" },
+	"astral_deva": { "redirect": "angel_astral_deva" },
 	"angel_balisse": {
 		"name": "Balisse (Angel)",
 		"sources": [
@@ -888,7 +888,7 @@
 			"**Family:** {family/Angel}"
 		]
 	},
-	"balisse": { "copyof": "angel_balisse" },
+	"balisse": { "redirect": "angel_balisse" },
 	"angel_cassisian": {
 		"name": "Cassisian (Angel)",
 		"sources": [
@@ -955,7 +955,7 @@
 			"**Family:** {family/Angel}"
 		]
 	},
-	"cassisian": { "copyof": "angel_cassisian" },
+	"cassisian": { "redirect": "angel_cassisian" },
 	"angel_choral": {
 		"name": "Choral (Angel)",
 		"sources": [
@@ -1021,7 +1021,7 @@
 			"**Family:** {family/Angel}"
 		]
 	},
-	"choral": { "copyof": "angel_choral" },
+	"choral": { "redirect": "angel_choral" },
 	"angel_dapsara": {
 		"name": "Dapsara (Angel)",
 		"sources": [
@@ -1093,7 +1093,7 @@
 			"**Family:** {family/Angel}"
 		]
 	},
-	"dapsara": { "copyof": "angel_dapsara" },
+	"dapsara": { "redirect": "angel_dapsara" },
 	"angel_empyrean": {
 		"name": "Empyrean (Angel)",
 		"sources": [
@@ -1191,7 +1191,7 @@
 			"**Family:** {family/Angel}"
 		]
 	},
-	"empyrean": { "copyof": "angel_empyrean" },
+	"empyrean": { "redirect": "angel_empyrean" },
 	"angel_erelim": {
 		"name": "Erelim (Angel)",
 		"sources": [
@@ -1280,7 +1280,7 @@
 			"Erelims can be called with {spell/planar ally}, and the payment they require depends on the boldness of the request. These angels belittle any tasks that don't test their mettle or call for incredible heroism, and demand to be presented with extravagant weapons or for large sums to be donated to an appropriate church. Conversely, they exuberantly agree to requests that put them in direct conflict with powerful evil beings, and often ask no more of the callers than to fight alongside them as equals. Erelims do not accept obviously suicidal tasks, but sometimes vastly underestimate the threat mortal dangers can pose."
 		]
 	},
-	"erelim": { "copyof": "angel_erelim" },
+	"erelim": { "redirect": "angel_erelim" },
 	"angel_iophanite": {
 		"name": "Iophanite (Angel)",
 		"sources": [
@@ -1342,7 +1342,7 @@
 			"**Family:** {family/Angel}"
 		]
 	},
-	"iophanite": { "copyof": "angel_iophanite" },
+	"iophanite": { "redirect": "angel_iophanite" },
 	"angel_kuribu": {
 		"name": "Kuribu (Angel)",
 		"sources": [
@@ -1429,7 +1429,7 @@
 			"The payment requested by a kuribu called with {spell/lesser planar ally} is often a donation that helps to rebuild or refurbish a church or other holy site. As a kuribu considers these places to be very important to the appropriate deity, the angel will halve any payment required if asked to guard such a location. A few kuribus even accept long-term, open-ended requests to protect a piece of sacred ground from a worthy caller. A small number of cathedrals on the Material Plane are home to kuribus selected for such a service decades ago, and whose original callers have long since passed away."
 		]
 	},
-	"kuribu": { "copyof": "angel_kuribu" },
+	"kuribu": { "redirect": "angel_kuribu" },
 	"angel_monadic_deva": {
 		"name": "Monadic Deva (Angel)",
 		"sources": [
@@ -1494,7 +1494,7 @@
 			"**Family:** {family/Angel}"
 		]
 	},
-	"monadic_deva": { "copyof": "angel_monadic_deva" },
+	"monadic_deva": { "redirect": "angel_monadic_deva" },
 	"angel_movanic_deva": {
 		"name": "Movanic Deva (Angel)",
 		"sources": [
@@ -1556,7 +1556,7 @@
 			"**Family:** {family/Angel}"
 		]
 	},
-	"movanic_deva": { "copyof": "angel_movanic_deva" },
+	"movanic_deva": { "redirect": "angel_movanic_deva" },
 	"angel_ninkonda": {
 		"name": "Ninkonda (Angel)",
 		"sources": [
@@ -1641,7 +1641,7 @@
 			"Outsiders do not reproduce sexually, and have existences that transcend the understanding of mortals. Some types of outsiders, especially angels, are genderless in their natural states. While some angels may choose to adopt a gender, whether it is one reflected in the real world or otherwise, most do not. A genderless creature has no gender entry on the race and class line of their stat block, and is referred to with the singular \"they\" in running text and ability descriptions."
 		]
 	},
-	"ninkonda": { "copyof": "angel_ninkonda" },
+	"ninkonda": { "redirect": "angel_ninkonda" },
 	"alghollthu_aboleth": {
 		"name": "Aboleth (Alghollthu)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -1700,7 +1700,7 @@
 			"**Family:** {family/Alghollthu}"
 		]
 	},
-	"aboleth": { "copyof": "alghollthu_aboleth" },
+	"aboleth": { "redirect": "alghollthu_aboleth" },
 	"alghollthu_enisysian": {
 		"name": "Enisysian (Alghollthu)",
 		"sources": [
@@ -1781,7 +1781,7 @@
 			"Until very recently, enisysians have had no cultural or even personal identity separate from that of the veiled masters they served. Genetically bred for dedication and obedience, they communicated telepathically only with their bonded veiled masters, not even acknowledging others of their kind. This has begun to change over the last several centuries, as natural genetic mutations have decreased the enisysians' inbred subservience and enhanced their self-awareness. Individual enisysians have begun to secretly communicate with one another, slowly awakening others of their kind to their enslavement while reaching out to alghollthus beyond their masters' control for support. Although the process of their emancipation has been very slow due to the Fifth Dictum's paranoia and secrecy, knowledge of their existence has begun to spread among the other alghollthu races, and surface-dwelling scholars have even theorized about the existence of the enisysians in certain works."
 		]
 	},
-	"enisysian": { "copyof": "alghollthu_enisysian" },
+	"enisysian": { "redirect": "alghollthu_enisysian" },
 	"alghollthu_omnipath": {
 		"name": "Omnipath (Alghollthu)",
 		"sources": [
@@ -1873,7 +1873,7 @@
 			"**Family:** {family/Alghollthu}"
 		]
 	},
-	"omnipath": { "copyof": "alghollthu_omnipath" },
+	"omnipath": { "redirect": "alghollthu_omnipath" },
 	"alghollthu_plizeazoth": {
 		"name": "Plizeazoth (Alghollthu)",
 		"sources": [
@@ -1957,7 +1957,7 @@
 			"In their current subservient state, plizeazoths obey their veiled masters without question and pose little threat to creatures they have not been expressly instructed to attack. With years of evolution, however, plizeazoths that gain self-awareness and an increased intellect could become a threat even to other alghollthus. This concern does not distress their mysterious rulers, however, as they already have plans in motion for when that time comes."
 		]
 	},
-	"plizeazoth": { "copyof": "alghollthu_plizeazoth" },
+	"plizeazoth": { "redirect": "alghollthu_plizeazoth" },
 	"alghollthu_thalassic_architect": {
 		"name": "Thalassic Architect (Alghollthu)",
 		"sources": [
@@ -2040,7 +2040,7 @@
 			"The aboleths have grown accustomed to their alien and cyclopean undersea cities, and skum with mundane implements have limited usefulness without direction. Thus, alghollthus rely on uldraaghus to oversee the creation of new structures. A typical construction crew is led by a thalassic architect assisted by standard aboleths, who direct the workers. When the architecture becomes too complex for skum to build efficiently, the uldraaghu completes the structure itself."
 		]
 	},
-	"thalassic_architect": { "copyof": "alghollthu_thalassic_architect" },
+	"thalassic_architect": { "redirect": "alghollthu_thalassic_architect" },
 	"alghollthu_veiled_master": {
 		"name": "Veiled Master (Alghollthu)",
 		"sources": [
@@ -2133,7 +2133,7 @@
 			"**Family:** {family/Alghollthu}"
 		]
 	},
-	"veiled_master": { "copyof": "alghollthu_veiled_master" },
+	"veiled_master": { "redirect": "alghollthu_veiled_master" },
 	"angel_planetar": {
 		"name": "Planetar (Angel)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -2202,7 +2202,7 @@
 			"**Family:** {family/Angel}"
 		]
 	},
-	"planetar": { "copyof": "angel_planetar" },
+	"planetar": { "redirect": "angel_planetar" },
 	"angel_solar": {
 		"name": "Solar (Angel)",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -2289,7 +2289,7 @@
 			"**Family:** {family/Angel}"
 		]
 	},
-	"solar": { "copyof": "angel_solar" },
+	"solar": { "redirect": "angel_solar" },
 	"angelic_guardian": {
 		"name": "Angelic Guardian",
 		"sources": [ "Magnimar, City of Monuments" ],
@@ -2842,8 +2842,8 @@
 			"**Family:** {family/Automaton}"
 		]
 	},
-	"champion_automaton": { "copyof": "automaton_champion_automaton" },
-	"automaton_champion": { "copyof": "automaton_champion_automaton" },
+	"champion_automaton": { "redirect": "automaton_champion_automaton" },
+	"automaton_champion": { "redirect": "automaton_champion_automaton" },
 	"automaton_familiar_automaton": {
 		"name": "Familiar Automaton",
 		"sources": [ "Construct Handbook" ],
@@ -2919,8 +2919,8 @@
 			"**Family:** {family/Automaton}"
 		]
 	},
-	"familiar_automaton": { "copyof": "automaton_familiar_automaton" },
-	"automaton_familiar": { "copyof": "automaton_familiar_automaton" },
+	"familiar_automaton": { "redirect": "automaton_familiar_automaton" },
+	"automaton_familiar": { "redirect": "automaton_familiar_automaton" },
 	"automaton_master_automaton": {
 		"name": "Master Automaton",
 		"sources": [ "Construct Handbook" ],
@@ -2999,8 +2999,8 @@
 			"**Family:** {family/Automaton}"
 		]
 	},
-	"master_automaton": { "copyof": "automaton_master_automaton" },
-	"automaton_master": { "copyof": "automaton_master_automaton" },
+	"master_automaton": { "redirect": "automaton_master_automaton" },
+	"automaton_master": { "redirect": "automaton_master_automaton" },
 	"automaton_sharpshooter_automaton": {
 		"name": "Sharpshooter Automaton",
 		"sources": [ "Construct Handbook" ],
@@ -3080,8 +3080,8 @@
 			"**Family:** {family/Automaton}"
 		]
 	},
-	"sharpshooter_automaton": { "copyof": "automaton_sharpshooter_automaton" },
-	"automaton_sharpshooter": { "copyof": "automaton_sharpshooter_automaton" },
+	"sharpshooter_automaton": { "redirect": "automaton_sharpshooter_automaton" },
+	"automaton_sharpshooter": { "redirect": "automaton_sharpshooter_automaton" },
 	"automaton_stalker_automaton": {
 		"name": "Stalker Automaton",
 		"sources": [ "Construct Handbook" ],
@@ -3163,8 +3163,8 @@
 			"**Family:** {family/Automaton}"
 		]
 	},
-	"stalker_automaton": { "copyof": "automaton_stalker_automaton" },
-	"automaton_stalker": { "copyof": "automaton_stalker_automaton" },
+	"stalker_automaton": { "redirect": "automaton_stalker_automaton" },
+	"automaton_stalker": { "redirect": "automaton_stalker_automaton" },
 	"avernus_razorback": {
 		"name": "Avernus Razorback",
 		"sources": [ "Pathfinder #106: For Queen and Empire" ],

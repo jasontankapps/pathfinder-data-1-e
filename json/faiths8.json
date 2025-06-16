@@ -1809,7 +1809,7 @@
 			"The Pale Horse appears as a powerful white stallion, missing its head save for a disembodied skull and a floating crown of flames, though he sometimes appears as a silent rider on a white horse. His home, Abatory, is a desolate stretch of the Graveyard of Souls that resembles the perpetual gloom of Abaddon, save that silent vanths that lurk above the walls and hills."
 		]
 	},
-	"pale_horse": { "copyof": "the_pale_horse" },
+	"pale_horse": { "redirect": "the_pale_horse" },
 	"thisamet": {
 		"name": "Thisamet",
 		"sources": [

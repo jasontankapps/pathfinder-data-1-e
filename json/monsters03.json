@@ -97,7 +97,7 @@
 			"**Family:** {family/Azata}"
 		]
 	},
-	"veranallia": { "copyof": "azata_veranallia" },
+	"veranallia": { "redirect": "azata_veranallia" },
 	"azata_yamah": {
 		"name": "Yamah (Azata)",
 		"sources": [
@@ -165,7 +165,7 @@
 			"**Family:** {family/Azata}"
 		]
 	},
-	"yamah": { "copyof": "azata_yamah" },
+	"yamah": { "redirect": "azata_yamah" },
 	"azer": {
 		"name": "Azer",
 		"sources": [ "Bestiary 2" ],
@@ -542,8 +542,8 @@
 			"Dire badgers stand 4 feet tall at the shoulder, and weigh 500 pounds."
 		]
 	},
-	"dire_badger": { "copyof": "badger_dire_badger" },
-	"badger_dire": { "copyof": "badger_dire_badger" },
+	"dire_badger": { "redirect": "badger_dire_badger" },
+	"badger_dire": { "redirect": "badger_dire_badger" },
 	"baetriov": {
 		"name": "Baetriov",
 		"sources": [ "Taldor, the First Empire" ],
@@ -1296,8 +1296,8 @@
 			"Said to be fiendish relations of all goblinoid races, the hateful barghests come to the Material Plane to feed. As they consume the bodies of innocents, they grow increasingly powerful. A barghest eventually sheds its skin to transform into a greater barghest, at which point it often seeks out a tribe of goblins or other creatures to rule."
 		]
 	},
-	"barghest_greater": { "copyof": "barghest_greater_barghest" },
-	"greater_barghest": { "copyof": "barghest_greater_barghest" },
+	"barghest_greater": { "redirect": "barghest_greater_barghest" },
+	"greater_barghest": { "redirect": "barghest_greater_barghest" },
 	"barometz": {
 		"name": "Barometz",
 		"sources": [ "Bestiary 4" ],
@@ -1662,7 +1662,7 @@
 			"Bat swarms dwell in large caves, ruins, or even city sewers - anywhere they can find darkness to hide in during the day and a supply of food to feast upon at night. They are only encountered outside in a group at dawn or dusk, or when they have been startled and forced to flee their lairs."
 		]
 	},
-	"bat_swarm": { "copyof": "bat_bat_swarm" },
+	"bat_swarm": { "redirect": "bat_bat_swarm" },
 	"bat_dire_bat": {
 		"name": "Dire Bat",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -1708,8 +1708,8 @@
 			"The dire bat generally doesn't shelter in groups larger than eight, often living a solitary life. A dire bat prefers feeding on livestock and herd animals."
 		]
 	},
-	"dire_bat": { "copyof": "bat_dire_bat" },
-	"bat_dire": { "copyof": "bat_dire_bat" },
+	"dire_bat": { "redirect": "bat_dire_bat" },
+	"bat_dire": { "redirect": "bat_dire_bat" },
 	"bat_mobat": {
 		"name": "Mobat (Bat)",
 		"sources": [ "Bestiary 2" ],
@@ -1761,7 +1761,7 @@
 			"Mobats' fur varies in coloration, from deep auburn to almost black, and their skin is black. A mobat's wingspan is 15 feet across, and it weighs 250 pounds."
 		]
 	},
-	"mobat": { "copyof": "bat_mobat" },
+	"mobat": { "redirect": "bat_mobat" },
 	"bat_skaveling": {
 		"name": "Skaveling (Bat)",
 		"sources": [ "Bestiary 2" ],
@@ -1814,7 +1814,7 @@
 			"Known in some circles as ghoul bats, skavelings are the hideous result of necromantic manipulation by urdefhans, who create them from mobats specially raised on diets of fungus and humanoid flesh. Upon reaching maturity, urdefhans ritually slay the bats using necrotic poisons, then raise the corpses to serve as mounts and guardians."
 		]
 	},
-	"skaveling": { "copyof": "bat_skaveling" },
+	"skaveling": { "redirect": "bat_skaveling" },
 	"bat_sootwing_bat": {
 		"name": "Sootwing Bat",
 		"sources": [ "Monster Codex" ],
@@ -1864,8 +1864,8 @@
 			"Ghoul spellcasters use these smaller cousins to skavelings as familiars. An evil spellcaster can gain a sootwing bat as a familiar at 5th level by taking the {feat/Improved Familiar} feat. A sootwing bat familiar grants its master a +1 bonus to channel resistance (if the master has any)."
 		]
 	},
-	"sootwing_bat": { "copyof": "bat_sootwing_bat" },
-	"bat_sootwing": { "copyof": "bat_sootwing_bat" },
+	"sootwing_bat": { "redirect": "bat_sootwing_bat" },
+	"bat_sootwing": { "redirect": "bat_sootwing_bat" },
 	"baykok": {
 		"name": "Baykok",
 		"sources": [ "Bestiary 3" ],
@@ -1967,9 +1967,9 @@
 			"Unlike most bears, a dire bear is short-tempered and swift to anger when confronted with intruders in its territory. Like a grizzly, a dire bear attempts to subdue or kill with its claws. However, a dire bear is far more likely (and willing) to begin biting a grabbed foe."
 		]
 	},
-	"cave_bear": { "copyof": "bear_dire_bear_cave_bear" },
-	"dire_bear": { "copyof": "bear_dire_bear_cave_bear" },
-	"bear_dire": { "copyof": "bear_dire_bear_cave_bear" },
+	"cave_bear": { "redirect": "bear_dire_bear_cave_bear" },
+	"dire_bear": { "redirect": "bear_dire_bear_cave_bear" },
+	"bear_dire": { "redirect": "bear_dire_bear_cave_bear" },
 	"bear_dire_polar_bear": {
 		"name": "Dire Polar Bear",
 		"sources": [ "Bestiary 5" ],
@@ -2013,8 +2013,8 @@
 			"Dire polar bears, kin to cave bears, are larger and more aggressive than cave bears and normal polar bears alike. These short-tempered animals tend to avoid settled regions, but sometimes venture dangerously close to them while hunting, potentially resulting in bloody massacres."
 		]
 	},
-	"dire_polar_bear": { "copyof": "bear_dire_polar_bear" },
-	"bear_dire_polar": { "copyof": "bear_dire_polar_bear" },
+	"dire_polar_bear": { "redirect": "bear_dire_polar_bear" },
+	"bear_dire_polar": { "redirect": "bear_dire_polar_bear" },
 	"bear_grizzly_bear": {
 		"name": "Grizzly Bear",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -2062,9 +2062,9 @@
 			"To generate stats for a smaller bear (like a black bear), you can apply the young simple template to the grizzly bear's stat block. To generate stats for a larger grizzly or a polar bear, apply the advanced simple template to the grizzly's stats."
 		]
 	},
-	"bear": { "copyof": "bear_grizzly_bear" },
-	"grizzly_bear": { "copyof": "bear_grizzly_bear" },
-	"bear_grizzly": { "copyof": "bear_grizzly_bear" },
+	"bear": { "redirect": "bear_grizzly_bear" },
+	"grizzly_bear": { "redirect": "bear_grizzly_bear" },
+	"bear_grizzly": { "redirect": "bear_grizzly_bear" },
 	"bear_polar_bear": {
 		"name": "Polar Bear",
 		"sources": [
@@ -2115,8 +2115,8 @@
 			"Polar bears live an average of 15 to 20 years, but arctic peoples have known individual bears to live as long as 40 years, often assuming legendary status in local lore. An adult male polar bear can weigh 800 to 1,200 pounds, with females weighing 350 to 650 pounds."
 		]
 	},
-	"polar_bear": { "copyof": "bear_polar_bear" },
-	"bear_polar": { "copyof": "bear_polar_bear" },
+	"polar_bear": { "redirect": "bear_polar_bear" },
+	"bear_polar": { "redirect": "bear_polar_bear" },
 	"bebilith": {
 		"name": "Bebilith",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -2230,8 +2230,8 @@
 			"These bulky and aggressive giant bees have the advanced creature simple template. Their venom is deadly, and deals Constitution damage rather than Strength damage."
 		]
 	},
-	"giant_bee": { "copyof": "bee_giant_bee" },
-	"bee_giant": { "copyof": "bee_giant_bee" },
+	"giant_bee": { "redirect": "bee_giant_bee" },
+	"bee_giant": { "redirect": "bee_giant_bee" },
 	"bee_giant_queen_bee": {
 		"name": "Giant Queen Bee",
 		"sources": [ "Bestiary 2" ],
@@ -2286,8 +2286,8 @@
 			"Royal jelly has remarkable effects on other creatures if eaten. A pound of royal jelly provides enough nourishment for a full day, and grants a +4 resistance bonus on all saving throws against disease for the next 24 hours. If a creature sleeps enough to heal damage within 24 hours of eating at least a pound of royal jelly, it heals twice the hit points and ability damage as it otherwise would. A typical bee hive contains 2d6 pounds of royal jelly - a single pound sells for 100 gp."
 		]
 	},
-	"bee_giant_queen": { "copyof": "bee_giant_queen_bee" },
-	"giant_queen_bee": { "copyof": "bee_giant_queen_bee" },
+	"bee_giant_queen": { "redirect": "bee_giant_queen_bee" },
+	"giant_queen_bee": { "redirect": "bee_giant_queen_bee" },
 	"beetle_dark_spitter_beetle": {
 		"name": "Dark Spitter Beetle",
 		"sources": [ "Monster Codex" ],
@@ -2332,8 +2332,8 @@
 			"Spitter beetles are used as mounts by duergar explorers."
 		]
 	},
-	"beetle_dark_spitter": { "copyof": "beetle_dark_spitter_beetle" },
-	"dark_spitter_beetle": { "copyof": "beetle_dark_spitter_beetle" },
+	"beetle_dark_spitter": { "redirect": "beetle_dark_spitter_beetle" },
+	"dark_spitter_beetle": { "redirect": "beetle_dark_spitter_beetle" },
 	"beetle_fire_beetle": {
 		"name": "Fire Beetle",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -2387,8 +2387,8 @@
 			"Flash Beetle (CR 1/2): A flash beetle is an advanced fire beetle that can create a bright flash of light once an hour. When a flash beetle does so, all creatures in a 10-foot burst must make a DC 12 Fortitude save or be dazzled for 1d3 rounds. The save DC is Constitution-based."
 		]
 	},
-	"fire_beetle": { "copyof": "beetle_fire_beetle" },
-	"beetle_fire": { "copyof": "beetle_fire_beetle" },
+	"fire_beetle": { "redirect": "beetle_fire_beetle" },
+	"beetle_fire": { "redirect": "beetle_fire_beetle" },
 	"beetle_giant_stag_beetle": {
 		"name": "Giant Stag Beetle",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -2439,9 +2439,9 @@
 			"**Goliath Beetle (CR 8):** The immense goliath beetle is a Huge stag beetle with 12 HD and the {umr/trample} special ability."
 		]
 	},
-	"beetle_giant_stag": { "copyof": "beetle_giant_stag_beetle" },
-	"giant_stag_beetle": { "copyof": "beetle_giant_stag_beetle" },
-	"giant_beetle": { "copyof": "beetle_giant_stag_beetle" },
+	"beetle_giant_stag": { "redirect": "beetle_giant_stag_beetle" },
+	"giant_stag_beetle": { "redirect": "beetle_giant_stag_beetle" },
+	"giant_beetle": { "redirect": "beetle_giant_stag_beetle" },
 	"beetle_goliath_stag_beetle": {
 		"name": "Goliath Stag Beetle",
 		"sources": [ "Bestiary 2" ],
@@ -2488,8 +2488,8 @@
 			"A goliath stag beetle is 25 feet long and weighs 8,000 pounds."
 		]
 	},
-	"beetle_goliath_stag": { "copyof": "beetle_goliath_stag_beetle" },
-	"goliath_stag_beetle": { "copyof": "beetle_goliath_stag_beetle" },
+	"beetle_goliath_stag": { "redirect": "beetle_goliath_stag_beetle" },
+	"goliath_stag_beetle": { "redirect": "beetle_goliath_stag_beetle" },
 	"beetle_juggernaut_beetle": {
 		"name": "Juggernaut Beetle",
 		"sources": [ "Monster Codex" ],
@@ -2540,8 +2540,8 @@
 			"One duergar steers a juggernaut while two riders attack."
 		]
 	},
-	"juggernaut_beetle": { "copyof": "beetle_juggernaut_beetle" },
-	"beetle_juggernaut": { "copyof": "beetle_juggernaut_beetle" },
+	"juggernaut_beetle": { "redirect": "beetle_juggernaut_beetle" },
+	"beetle_juggernaut": { "redirect": "beetle_juggernaut_beetle" },
 	"beetle_scarab_beetle": {
 		"name": "Scarab Beetle",
 		"sources": [ "Inner Sea Bestiary" ],
@@ -2589,8 +2589,8 @@
 			"In Osirion, these massive beetles are a threat to ancient tombs as they chew their way through the interred. Some say scarab beetles' connection with the dead gives them powers greater than those of normal beetles, but any evidence of this has yet to been proven true. Merchants claim powdered scarab is an essential element in magic that protects against death effects."
 		]
 	},
-	"scarab_beetle": { "copyof": "beetle_scarab_beetle" },
-	"beetle_scarab": { "copyof": "beetle_scarab_beetle" },
+	"scarab_beetle": { "redirect": "beetle_scarab_beetle" },
+	"beetle_scarab": { "redirect": "beetle_scarab_beetle" },
 	"beetle_slicer_beetle": {
 		"name": "Slicer Beetle",
 		"sources": [ "Bestiary 2" ],
@@ -2640,8 +2640,8 @@
 			"The slicer beetle sports specialized mouthparts that scissor apart flesh for easier consumption. Each side of its horizontally closing mandibles fits into the other with barely a hair's breadth to spare. These creatures prefer to dwell in compact caves or warrens. A typical slicer beetle measures 10 feet long and weighs 800 pounds."
 		]
 	},
-	"slicer_beetle": { "copyof": "beetle_slicer_beetle" },
-	"beetle_slicer": { "copyof": "beetle_slicer_beetle" },
+	"slicer_beetle": { "redirect": "beetle_slicer_beetle" },
+	"beetle_slicer": { "redirect": "beetle_slicer_beetle" },
 	"beetle_stalk_beetle": {
 		"name": "Stalk Beetle",
 		"sources": [ "Inner Sea Bestiary" ],
@@ -2689,8 +2689,8 @@
 			"Stalk beetles are a plague in Rahadoum, scouring the land like giant locusts, and eating any and all vegetation they encounter."
 		]
 	},
-	"stalk_beetle": { "copyof": "beetle_stalk_beetle" },
-	"beetle_stalk": { "copyof": "beetle_stalk_beetle" },
+	"stalk_beetle": { "redirect": "beetle_stalk_beetle" },
+	"beetle_stalk": { "redirect": "beetle_stalk_beetle" },
 	"beheaded": {
 		"name": "Beheaded",
 		"sources": [ "Bestiary 4" ],
@@ -2821,7 +2821,7 @@
 			"**Family:** {family/Beheaded}"
 		]
 	},
-	"flaming_skull": { "copyof": "beheaded_flaming_skull" },
+	"flaming_skull": { "redirect": "beheaded_flaming_skull" },
 	"beheaded_giant_beheaded": {
 		"name": "Giant Beheaded",
 		"sources": [
@@ -2890,8 +2890,8 @@
 			"**Family:** {family/Beheaded}"
 		]
 	},
-	"giant_beheaded": { "copyof": "beheaded_giant_beheaded" },
-	"beheaded_giant": { "copyof": "beheaded_giant_beheaded" },
+	"giant_beheaded": { "redirect": "beheaded_giant_beheaded" },
+	"beheaded_giant": { "redirect": "beheaded_giant_beheaded" },
 	"beheaded_medusa_head": {
 		"name": "Medusa Head (Beheaded)",
 		"sources": [
@@ -2966,7 +2966,7 @@
 			"[^B]: Bonus feat."
 		]
 	},
-	"medusa_head": { "copyof": "beheaded_medusa_head" },
+	"medusa_head": { "redirect": "beheaded_medusa_head" },
 	"beheaded_severed_head": {
 		"name": "Severed Head (Beheaded)",
 		"sources": [
@@ -3033,7 +3033,7 @@
 			"**Family:** {family/Beheaded}"
 		]
 	},
-	"severed_head": { "copyof": "beheaded_severed_head" },
+	"severed_head": { "redirect": "beheaded_severed_head" },
 	"beheaded_skull_swarm": {
 		"name": "Skull Swarm (Beheaded)",
 		"sources": [
@@ -3103,7 +3103,7 @@
 			"**Family:** {family/Beheaded}"
 		]
 	},
-	"skull_swarm": { "copyof": "beheaded_skull_swarm" },
+	"skull_swarm": { "redirect": "beheaded_skull_swarm" },
 	"behemoth_ravener": {
 		"name": "Ravener (Behemoth)",
 		"sources": [
@@ -3182,7 +3182,7 @@
 			"**Family:** {family/Behemoth}"
 		]
 	},
-	"ravener": { "copyof": "behemoth_ravener" },
+	"ravener": { "redirect": "behemoth_ravener" },
 	"behemoth_tempest_behemoth": {
 		"name": "Tempest Behemoth",
 		"sources": [ "Bestiary 3" ],
@@ -3246,8 +3246,8 @@
 			"**Family:** {family/Behemoth}"
 		]
 	},
-	"behemoth_tempest": { "copyof": "behemoth_tempest_behemoth" },
-	"tempest_behemoth": { "copyof": "behemoth_tempest_behemoth" },
+	"behemoth_tempest": { "redirect": "behemoth_tempest_behemoth" },
+	"tempest_behemoth": { "redirect": "behemoth_tempest_behemoth" },
 	"behemoth_thalassic_behemoth": {
 		"name": "Thalassic Behemoth",
 		"sources": [ "Bestiary 3" ],
@@ -3308,8 +3308,8 @@
 			"**Family:** {family/Behemoth}"
 		]
 	},
-	"behemoth_thalassic": { "copyof": "behemoth_thalassic_behemoth" },
-	"thalassic_behemoth": { "copyof": "behemoth_thalassic_behemoth" },
+	"behemoth_thalassic": { "redirect": "behemoth_thalassic_behemoth" },
+	"thalassic_behemoth": { "redirect": "behemoth_thalassic_behemoth" },
 	"behemoth_thunder_behemoth": {
 		"name": "Thunder Behemoth",
 		"sources": [ "Bestiary 3" ],
@@ -3371,8 +3371,8 @@
 			"**Family:** {family/Behemoth}"
 		]
 	},
-	"behemoth_thunder": { "copyof": "behemoth_thunder_behemoth" },
-	"thunder_behemoth": { "copyof": "behemoth_thunder_behemoth" },
+	"behemoth_thunder": { "redirect": "behemoth_thunder_behemoth" },
+	"thunder_behemoth": { "redirect": "behemoth_thunder_behemoth" },
 	"behir": {
 		"name": "Behir",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -3612,7 +3612,7 @@
 			"While the practice of making benaiohs is most closely associated with the religious practices of ancient tribes of giants, tales and rumors of similar practices persist among primitive humanoids in the lower depths of the Darklands. In accounts of this practice, the flesh-devouring worm ceremony serves as a punishment or torture, but the end result is similar - the creation of guardians. These stories go on to describe guardians with powerful abilities."
 		]
 	},
-	"benaioh_clay_vessel": { "copyof": "benaioh_benaioh_clay_vessel" },
+	"benaioh_clay_vessel": { "redirect": "benaioh_benaioh_clay_vessel" },
 	"benaioh_benaioh_ooze_form": {
 		"name": "Benaioh (Ooze Form)",
 		"sources": [ "Pathfinder #93: Forge of the Giant God" ],
@@ -3681,7 +3681,7 @@
 			"While the practice of making benaiohs is most closely associated with the religious practices of ancient tribes of giants, tales and rumors of similar practices persist among primitive humanoids in the lower depths of the Darklands. In accounts of this practice, the flesh-devouring worm ceremony serves as a punishment or torture, but the end result is similar - the creation of guardians. These stories go on to describe guardians with powerful abilities."
 		]
 	},
-	"benaioh_ooze_form": { "copyof": "benaioh_benaioh_ooze_form" },
+	"benaioh_ooze_form": { "redirect": "benaioh_benaioh_ooze_form" },
 	"berbalang": {
 		"name": "Berbalang",
 		"sources": [ "Bestiary 3" ],

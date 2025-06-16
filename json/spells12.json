@@ -562,7 +562,7 @@
 		"name": "Mass Bear's Endurance",
 		"copyof": "bears_endurance"
 	},
-	"mass_bears_endurance": { "copyof": "bears_endurance_mass" },
+	"mass_bears_endurance": { "redirect": "bears_endurance_mass" },
 	"beast_shape_1": {
 		"name": "Beast Shape I",
 		"sources": [
@@ -723,22 +723,22 @@
 
 		]
 	},
-	"beast_shape_i": { "copyof": "beast_shape_1" },
+	"beast_shape_i": { "redirect": "beast_shape_1" },
 	"beast_shape_2": {
 		"name": "Beast Shape II",
 		"copyof": "beast_shape_1"
 	},
-	"beast_shape_ii": { "copyof": "beast_shape_2" },
+	"beast_shape_ii": { "redirect": "beast_shape_2" },
 	"beast_shape_3": {
 		"name": "Beast Shape III",
 		"copyof": "beast_shape_1"
 	},
-	"beast_shape_iii": { "copyof": "beast_shape_3" },
+	"beast_shape_iii": { "redirect": "beast_shape_3" },
 	"beast_shape_4": {
 		"name": "Beast Shape IV",
 		"copyof": "beast_shape_1"
 	},
-	"beast_shape_iv": { "copyof": "beast_shape_4" },
+	"beast_shape_iv": { "redirect": "beast_shape_4" },
 	"magical_beast_shape": {
 		"name": "Magical Beast Shape",
 		"copyof": "beast_shape_1"
@@ -992,7 +992,7 @@
 		"name": "Greater Bestow Curse",
 		"copyof": "bestow_curse"
 	},
-	"greater_bestow_curse": { "copyof": "bestow_curse_greater" },
+	"greater_bestow_curse": { "redirect": "bestow_curse_greater" },
 	"conditional_curse": {
 		"name": "Conditional Curse",
 		"copyof": "bestow_curse"
@@ -1001,7 +1001,7 @@
 		"name": "Major Curse",
 		"copyof": "bestow_curse"
 	},
-	"major_curse": { "copyof": "curse_major" },
+	"major_curse": { "redirect": "curse_major" },
 	"bestow_grace": {
 		"name": "Bestow Grace",
 		"sources": [ "Advanced Player's Guide" ],
@@ -1102,17 +1102,17 @@
 			"This functions as bestow planar infusion I, except that the touched creature gains the greater infusion of the current plane."
 		]
 	},
-	"bestow_planar_infusion_i": { "copyof": "bestow_planar_infusion_1" },
+	"bestow_planar_infusion_i": { "redirect": "bestow_planar_infusion_1" },
 	"bestow_planar_infusion_2": {
 		"name": "Bestow Planar Infusion II",
 		"copyof": "bestow_planar_infusion_1"
 	},
-	"bestow_planar_infusion_ii": { "copyof": "bestow_planar_infusion_2" },
+	"bestow_planar_infusion_ii": { "redirect": "bestow_planar_infusion_2" },
 	"bestow_planar_infusion_3": {
 		"name": "Bestow Planar Infusion III",
 		"copyof": "bestow_planar_infusion_1"
 	},
-	"bestow_planar_infusion_iii": { "copyof": "bestow_planar_infusion_3" },
+	"bestow_planar_infusion_iii": { "redirect": "bestow_planar_infusion_3" },
 	"bestow_weapon_proficiency": {
 		"name": "Bestow Weapon Proficiency",
 		"sources": [ "Ultimate Combat" ],
@@ -1312,7 +1312,7 @@
 		"name": "Mass Binding Earth",
 		"copyof": "binding_earth"
 	},
-	"mass_binding_earth": { "copyof": "binding_earth_mass" },
+	"mass_binding_earth": { "redirect": "binding_earth_mass" },
 	"bit_of_luck": {
 		"name": "Bit of Luck",
 		"sources": [ "Blood of the Beast" ],
@@ -1367,7 +1367,7 @@
 		"name": "Mass Bite the Hand",
 		"copyof": "bite_the_hand"
 	},
-	"mass_bite_the_hand": { "copyof": "bite_the_hand_mass" },
+	"mass_bite_the_hand": { "redirect": "bite_the_hand_mass" },
 	"biting_words": {
 		"name": "Biting Words",
 		"sources": [ "Magic Tactics Toolbox" ],
@@ -1721,7 +1721,7 @@
 		"name": "Greater Bladed Dash",
 		"copyof": "bladed_dash"
 	},
-	"greater_bladed_dash": { "copyof": "bladed_dash_greater" },
+	"greater_bladed_dash": { "redirect": "bladed_dash_greater" },
 	"blasphemy": {
 		"name": "Blasphemy",
 		"sources": [
@@ -2159,7 +2159,7 @@
 		"name": "Greater Command",
 		"copyof": "command"
 	},
-	"greater_command": { "copyof": "command_greater" },
+	"greater_command": { "redirect": "command_greater" },
 	"command_plants": {
 		"name": "Command Plants",
 		"sources": [ "PRPG Core Rulebook" ],
@@ -2664,7 +2664,7 @@
 		"name": "Lesser Confusion",
 		"copyof": "confusion"
 	},
-	"lesser_confusion": { "copyof": "confusion_lesser" },
+	"lesser_confusion": { "redirect": "confusion_lesser" },
 	"conjuration_foil": {
 		"name": "Conjuration Foil",
 		"sources": [ "Ultimate Intrigue" ],
@@ -2903,22 +2903,22 @@
 			"| Shoggoth | Art object worth 3,000 gp recovered from the bottom of a sea [chaotic] |"
 		]
 	},
-	"contact_entity_i": { "copyof": "contact_entity_1" },
+	"contact_entity_i": { "redirect": "contact_entity_1" },
 	"contact_entity_2": {
 		"name": "Contact Entity II",
 		"copyof": "contact_entity_1"
 	},
-	"contact_entity_ii": { "copyof": "contact_entity_2" },
+	"contact_entity_ii": { "redirect": "contact_entity_2" },
 	"contact_entity_3": {
 		"name": "Contact Entity III",
 		"copyof": "contact_entity_1"
 	},
-	"contact_entity_iii": { "copyof": "contact_entity_3" },
+	"contact_entity_iii": { "redirect": "contact_entity_3" },
 	"contact_entity_4": {
 		"name": "Contact Entity IV",
 		"copyof": "contact_entity_1"
 	},
-	"contact_entity_iv": { "copyof": "contact_entity_4" },
+	"contact_entity_iv": { "redirect": "contact_entity_4" },
 	"contact_high": {
 		"name": "Contact High",
 		"sources": [ "Black Markets" ],
@@ -3046,7 +3046,7 @@
 		"name": "Greater Contagion",
 		"copyof": "contagion"
 	},
-	"greater_contagion": { "copyof": "contagion_greater" },
+	"greater_contagion": { "redirect": "contagion_greater" },
 	"contagious_flame": {
 		"name": "Contagious Flame",
 		"sources": [ "Advanced Player's Guide" ],
@@ -3870,7 +3870,7 @@
 			"You can make this spell permanent with the {spell/permanency} spell, at a cost of 22,500 gp. If you have cast create greater demiplane multiple times to enlarge the demiplane, each casting's area requires its own permanency spell."
 		]
 	},
-	"lesser_create_demiplane": { "copyof": "create_demiplane_lesser" },
+	"lesser_create_demiplane": { "redirect": "create_demiplane_lesser" },
 	"create_demiplane": {
 		"name": "Create Demiplane",
 		"copyof": "create_demiplane_lesser"
@@ -3879,7 +3879,7 @@
 		"name": "Greater Create Demiplane",
 		"copyof": "create_demiplane_lesser"
 	},
-	"greater_create_demiplane": { "copyof": "create_demiplane_greater" },
+	"greater_create_demiplane": { "redirect": "create_demiplane_greater" },
 	"create_drug": {
 		"name": "Create Drug",
 		"sources": [

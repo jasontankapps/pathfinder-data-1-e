@@ -25,7 +25,7 @@
 			"**Requirements** {feat/Craft Rod}, {spell/threefold sight}; **Cost** 1,250 gp (lesser), 3,250 gp (normal), 9,750 (greater)"
 		]
 	},
-	"lesser_rod_of_the_thriceborn": { "copyof": "rod_of_the_thriceborn_lesser" },
+	"lesser_rod_of_the_thriceborn": { "redirect": "rod_of_the_thriceborn_lesser" },
 	"rod_of_giant_summoning_lesser": {
 		"name": "Rod of Giant Summoning (lesser)",
 		"sources": [ "Monster Summoner's Handbook" ],
@@ -43,7 +43,7 @@
 			"**Requirements** {feat/Craft Rod}, {feat/Augment Summoning}, {spell/summon monster III} or {spell/summon nature's ally III}; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
 		]
 	},
-	"lesser_rod_of_giant_summoning": { "copyof": "rod_of_giant_summoning_lesser" },
+	"lesser_rod_of_giant_summoning": { "redirect": "rod_of_giant_summoning_lesser" },
 	"aerialists_rod": {
 		"name": "Aerialist's Rod",
 		"sources": [ "Villain Codex" ],
@@ -179,7 +179,7 @@
 			"**Requirements** {feat/Craft Rod}, {feat/Empower Spell}, the creator must know at least one spell that can be undercast; **Cost** 2,500 gp (lesser), 9,000 gp (normal), 20,250 gp (greater)"
 		]
 	},
-	"lesser_recondite_rod": { "copyof": "recondite_rod_lesser" },
+	"lesser_recondite_rod": { "redirect": "recondite_rod_lesser" },
 	"rod_of_thunderous_force": {
 		"name": "Rod of Thunderous Force",
 		"sources": [ "Ultimate Equipment" ],
@@ -201,8 +201,8 @@
 		"name": "Rod of the Thriceborn (normal)",
 		"copyof": "rod_of_the_thriceborn_lesser"
 	},
-	"normal_rod_of_the_thriceborn": { "copyof": "rod_of_the_thriceborn_normal" },
-	"rod_of_the_thriceborn": { "copyof": "rod_of_the_thriceborn_normal" },
+	"normal_rod_of_the_thriceborn": { "redirect": "rod_of_the_thriceborn_normal" },
+	"rod_of_the_thriceborn": { "redirect": "rod_of_the_thriceborn_normal" },
 	"backbiters_focus": {
 		"name": "Backbiter's Focus",
 		"sources": [ "The Harrow Handbook" ],
@@ -372,8 +372,8 @@
 		"name": "Rod of Giant Summoning (normal)",
 		"copyof": "rod_of_giant_summoning_lesser"
 	},
-	"normal_rod_of_giant_summoning": { "copyof": "rod_of_giant_summoning_normal" },
-	"rod_of_giant_summoning": { "copyof": "rod_of_giant_summoning_normal" },
+	"normal_rod_of_giant_summoning": { "redirect": "rod_of_giant_summoning_normal" },
+	"rod_of_giant_summoning": { "redirect": "rod_of_giant_summoning_normal" },
 	"rod_of_burning_blood": {
 		"name": "Rod of Burning Blood",
 		"sources": [ "Villain Codex" ],
@@ -804,8 +804,8 @@
 		"name": "Recondite Rod (normal)",
 		"copyof": "recondite_rod_lesser"
 	},
-	"normal_recondite_rod": { "copyof": "recondite_rod_normal" },
-	"recondite_rod": { "copyof": "recondite_rod_normal" },
+	"normal_recondite_rod": { "redirect": "recondite_rod_normal" },
+	"recondite_rod": { "redirect": "recondite_rod_normal" },
 	"waterblight_scepter": {
 		"name": "Waterblight Scepter",
 		"sources": [ "Merchant's Manifest" ],
@@ -849,7 +849,7 @@
 		"name": "Rod of the Thriceborn (greater)",
 		"copyof": "rod_of_the_thriceborn_lesser"
 	},
-	"greater_rod_of_the_thriceborn": { "copyof": "rod_of_the_thriceborn_greater" },
+	"greater_rod_of_the_thriceborn": { "redirect": "rod_of_the_thriceborn_greater" },
 	"rod_of_minor_curses": {
 		"name": "Rod of Minor Curses",
 		"sources": [ "Magic Tactics Toolbox" ],
@@ -948,7 +948,7 @@
 		"name": "Rod of Giant Summoning (greater)",
 		"copyof": "rod_of_giant_summoning_lesser"
 	},
-	"greater_rod_of_giant_summoning": { "copyof": "rod_of_giant_summoning_greater" },
+	"greater_rod_of_giant_summoning": { "redirect": "rod_of_giant_summoning_greater" },
 	"overflowing_rod": {
 		"name": "Overflowing Rod",
 		"sources": [ "Occult Adventures" ],
@@ -1339,7 +1339,7 @@
 		"name": "Recondite Rod (greater)",
 		"copyof": "recondite_rod_lesser"
 	},
-	"greater_recondite_rod": { "copyof": "recondite_rod_greater" },
+	"greater_recondite_rod": { "redirect": "recondite_rod_greater" },
 	"coldwarp_key": {
 		"name": "Coldwarp Key",
 		"sources": [ "Magical Marketplace" ],
@@ -1889,9 +1889,9 @@
 			"**Requirements** {feat/Craft Rod}, {feat/Eclipsed Spell}; **Cost** 750 gp (lesser), 2,750 gp (normal), 6,125 gp (greater)"
 		]
 	},
-	"lesser_eclipsed_rod_of_metamagic": { "copyof": "rod_of_metamagic_eclipsed_lesser" },
-	"lesser_eclipsed_metamagic_rod": { "copyof": "rod_of_metamagic_eclipsed_lesser" },
-	"eclipsed": { "copyof": "rod_of_metamagic_eclipsed_lesser" },
+	"lesser_eclipsed_rod_of_metamagic": { "redirect": "rod_of_metamagic_eclipsed_lesser" },
+	"lesser_eclipsed_metamagic_rod": { "redirect": "rod_of_metamagic_eclipsed_lesser" },
+	"eclipsed": { "redirect": "rod_of_metamagic_eclipsed_lesser" },
 	"rod_of_metamagic_merciful_lesser": {
 		"name": "Rod of Metamagic, Merciful (lesser)",
 		"sources": [
@@ -1912,9 +1912,9 @@
 			"**Requirements** {feat/Craft Rod}, {feat/Merciful Spell}; **Cost** 750 gp (lesser), 2,750 gp (normal), 6,125 gp (greater)"
 		]
 	},
-	"lesser_merciful_rod_of_metamagic": { "copyof": "rod_of_metamagic_merciful_lesser" },
-	"lesser_merciful_metamagic_rod": { "copyof": "rod_of_metamagic_merciful_lesser" },
-	"merciful": { "copyof": "rod_of_metamagic_merciful_lesser" },
+	"lesser_merciful_rod_of_metamagic": { "redirect": "rod_of_metamagic_merciful_lesser" },
+	"lesser_merciful_metamagic_rod": { "redirect": "rod_of_metamagic_merciful_lesser" },
+	"merciful": { "redirect": "rod_of_metamagic_merciful_lesser" },
 	"rod_of_metamagic_murky_lesser": {
 		"name": "Rod of Metamagic, Murky (lesser)",
 		"sources": [ "Aquatic Adventures" ],
@@ -1932,9 +1932,9 @@
 			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/freedom of movement}; **Cost** 750 gp (lesser), 2,750 gp (normal), 6,125 gp (greater)"
 		]
 	},
-	"lesser_murky_rod_of_metamagic": { "copyof": "rod_of_metamagic_murky_lesser" },
-	"lesser_murky_metamagic_rod": { "copyof": "rod_of_metamagic_murky_lesser" },
-	"murky": { "copyof": "rod_of_metamagic_murky_lesser" },
+	"lesser_murky_rod_of_metamagic": { "redirect": "rod_of_metamagic_murky_lesser" },
+	"lesser_murky_metamagic_rod": { "redirect": "rod_of_metamagic_murky_lesser" },
+	"murky": { "redirect": "rod_of_metamagic_murky_lesser" },
 	"rod_of_metamagic_steam_lesser": {
 		"name": "Rod of Metamagic, Steam (lesser)",
 		"sources": [ "Aquatic Adventures" ],
@@ -1952,9 +1952,9 @@
 			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/freedom of movement}; **Cost** 750 gp (lesser), 2,750 gp (normal), 6,125 gp (greater)"
 		]
 	},
-	"lesser_steam_rod_of_metamagic": { "copyof": "rod_of_metamagic_steam_lesser" },
-	"lesser_steam_metamagic_rod": { "copyof": "rod_of_metamagic_steam_lesser" },
-	"steam": { "copyof": "rod_of_metamagic_steam_lesser" },
+	"lesser_steam_rod_of_metamagic": { "redirect": "rod_of_metamagic_steam_lesser" },
+	"lesser_steam_metamagic_rod": { "redirect": "rod_of_metamagic_steam_lesser" },
+	"steam": { "redirect": "rod_of_metamagic_steam_lesser" },
 	"rod_of_metamagic_apocalyptic_lesser": {
 		"name": "Rod of Metamagic, Apocalyptic (lesser)",
 		"sources": [ "Planar Adventures" ],
@@ -1972,9 +1972,9 @@
 			"**Requirements** {feat/Craft Rod}, {feat/Apocalyptic Spell}; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
 		]
 	},
-	"lesser_apocalyptic_rod_of_metamagic": { "copyof": "rod_of_metamagic_apocalyptic_lesser" },
-	"lesser_apocalyptic_metamagic_rod": { "copyof": "rod_of_metamagic_apocalyptic_lesser" },
-	"apocalyptic": { "copyof": "rod_of_metamagic_apocalyptic_lesser" },
+	"lesser_apocalyptic_rod_of_metamagic": { "redirect": "rod_of_metamagic_apocalyptic_lesser" },
+	"lesser_apocalyptic_metamagic_rod": { "redirect": "rod_of_metamagic_apocalyptic_lesser" },
+	"apocalyptic": { "redirect": "rod_of_metamagic_apocalyptic_lesser" },
 	"rod_of_metamagic_authoritative_lesser": {
 		"name": "Rod of Metamagic, Authoritative (lesser)",
 		"sources": [ "Planar Adventures" ],
@@ -1992,9 +1992,9 @@
 			"**Requirements** {feat/Craft Rod}, {feat/Authoritative Spell}; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
 		]
 	},
-	"lesser_authoritative_rod_of_metamagic": { "copyof": "rod_of_metamagic_authoritative_lesser" },
-	"lesser_authoritative_metamagic_rod": { "copyof": "rod_of_metamagic_authoritative_lesser" },
-	"authoritative": { "copyof": "rod_of_metamagic_authoritative_lesser" },
+	"lesser_authoritative_rod_of_metamagic": { "redirect": "rod_of_metamagic_authoritative_lesser" },
+	"lesser_authoritative_metamagic_rod": { "redirect": "rod_of_metamagic_authoritative_lesser" },
+	"authoritative": { "redirect": "rod_of_metamagic_authoritative_lesser" },
 	"rod_of_metamagic_blissful_lesser": {
 		"name": "Rod of Metamagic, Blissful (lesser)",
 		"sources": [ "Planar Adventures" ],
@@ -2012,9 +2012,9 @@
 			"**Requirements** {feat/Craft Rod}, {feat/Blissful Spell}; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
 		]
 	},
-	"lesser_blissful_rod_of_metamagic": { "copyof": "rod_of_metamagic_blissful_lesser" },
-	"lesser_blissful_metamagic_rod": { "copyof": "rod_of_metamagic_blissful_lesser" },
-	"blissful": { "copyof": "rod_of_metamagic_blissful_lesser" },
+	"lesser_blissful_rod_of_metamagic": { "redirect": "rod_of_metamagic_blissful_lesser" },
+	"lesser_blissful_metamagic_rod": { "redirect": "rod_of_metamagic_blissful_lesser" },
+	"blissful": { "redirect": "rod_of_metamagic_blissful_lesser" },
 	"rod_of_metamagic_bouncing_lesser": {
 		"name": "Rod of Metamagic, Bouncing (lesser)",
 		"sources": [
@@ -2035,9 +2035,9 @@
 			"**Requirements** {feat/Craft Rod}, {feat/Bouncing Spell}; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
 		]
 	},
-	"lesser_bouncing_rod_of_metamagic": { "copyof": "rod_of_metamagic_bouncing_lesser" },
-	"lesser_bouncing_metamagic_rod": { "copyof": "rod_of_metamagic_bouncing_lesser" },
-	"bouncing": { "copyof": "rod_of_metamagic_bouncing_lesser" },
+	"lesser_bouncing_rod_of_metamagic": { "redirect": "rod_of_metamagic_bouncing_lesser" },
+	"lesser_bouncing_metamagic_rod": { "redirect": "rod_of_metamagic_bouncing_lesser" },
+	"bouncing": { "redirect": "rod_of_metamagic_bouncing_lesser" },
 	"rod_of_metamagic_crypt_lesser": {
 		"name": "Rod of Metamagic, Crypt (lesser)",
 		"sources": [ "Planar Adventures" ],
@@ -2055,9 +2055,9 @@
 			"**Requirements** {feat/Craft Rod}, {feat/Crypt Spell}; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
 		]
 	},
-	"lesser_crypt_rod_of_metamagic": { "copyof": "rod_of_metamagic_crypt_lesser" },
-	"lesser_crypt_metamagic_rod": { "copyof": "rod_of_metamagic_crypt_lesser" },
-	"crypt": { "copyof": "rod_of_metamagic_crypt_lesser" },
+	"lesser_crypt_rod_of_metamagic": { "redirect": "rod_of_metamagic_crypt_lesser" },
+	"lesser_crypt_metamagic_rod": { "redirect": "rod_of_metamagic_crypt_lesser" },
+	"crypt": { "redirect": "rod_of_metamagic_crypt_lesser" },
 	"rod_of_metamagic_disruptive_lesser": {
 		"name": "Rod of Metamagic, Disruptive (lesser)",
 		"sources": [
@@ -2078,9 +2078,9 @@
 			"**Requirements** {feat/Craft Rod}, {feat/Disruptive Spell}; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
 		]
 	},
-	"lesser_disruptive_rod_of_metamagic": { "copyof": "rod_of_metamagic_disruptive_lesser" },
-	"lesser_disruptive_metamagic_rod": { "copyof": "rod_of_metamagic_disruptive_lesser" },
-	"disruptive": { "copyof": "rod_of_metamagic_disruptive_lesser" },
+	"lesser_disruptive_rod_of_metamagic": { "redirect": "rod_of_metamagic_disruptive_lesser" },
+	"lesser_disruptive_metamagic_rod": { "redirect": "rod_of_metamagic_disruptive_lesser" },
+	"disruptive": { "redirect": "rod_of_metamagic_disruptive_lesser" },
 	"rod_of_metamagic_ectoplasmic_lesser": {
 		"name": "Rod of Metamagic, Ectoplasmic (lesser)",
 		"sources": [
@@ -2101,9 +2101,9 @@
 			"**Requirements** {feat/Craft Rod}, {feat/Ectoplasmic Spell}; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
 		]
 	},
-	"lesser_ectoplasmic_rod_of_metamagic": { "copyof": "rod_of_metamagic_ectoplasmic_lesser" },
-	"lesser_ectoplasmic_metamagic_rod": { "copyof": "rod_of_metamagic_ectoplasmic_lesser" },
-	"ectoplasmic": { "copyof": "rod_of_metamagic_ectoplasmic_lesser" },
+	"lesser_ectoplasmic_rod_of_metamagic": { "redirect": "rod_of_metamagic_ectoplasmic_lesser" },
+	"lesser_ectoplasmic_metamagic_rod": { "redirect": "rod_of_metamagic_ectoplasmic_lesser" },
+	"ectoplasmic": { "redirect": "rod_of_metamagic_ectoplasmic_lesser" },
 	"rod_of_metamagic_elemental_lesser": {
 		"name": "Rod of Metamagic, Elemental (lesser)",
 		"sources": [
@@ -2124,9 +2124,9 @@
 			"**Requirements** {feat/Craft Rod}, {feat/Elemental Spell}; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
 		]
 	},
-	"lesser_elemental_rod_of_metamagic": { "copyof": "rod_of_metamagic_elemental_lesser" },
-	"lesser_elemental_metamagic_rod": { "copyof": "rod_of_metamagic_elemental_lesser" },
-	"elemental": { "copyof": "rod_of_metamagic_elemental_lesser" },
+	"lesser_elemental_rod_of_metamagic": { "redirect": "rod_of_metamagic_elemental_lesser" },
+	"lesser_elemental_metamagic_rod": { "redirect": "rod_of_metamagic_elemental_lesser" },
+	"elemental": { "redirect": "rod_of_metamagic_elemental_lesser" },
 	"rod_of_metamagic_enlarge_lesser": {
 		"name": "Rod of Metamagic, Enlarge (lesser)",
 		"sources": [
@@ -2147,9 +2147,9 @@
 			"**Requirements** {feat/Craft Rod}, {feat/Enlarge Spell}; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
 		]
 	},
-	"lesser_enlarge_rod_of_metamagic": { "copyof": "rod_of_metamagic_enlarge_lesser" },
-	"lesser_enlarge_metamagic_rod": { "copyof": "rod_of_metamagic_enlarge_lesser" },
-	"enlarge": { "copyof": "rod_of_metamagic_enlarge_lesser" },
+	"lesser_enlarge_rod_of_metamagic": { "redirect": "rod_of_metamagic_enlarge_lesser" },
+	"lesser_enlarge_metamagic_rod": { "redirect": "rod_of_metamagic_enlarge_lesser" },
+	"enlarge": { "redirect": "rod_of_metamagic_enlarge_lesser" },
 	"rod_of_metamagic_extend_lesser": {
 		"name": "Rod of Metamagic, Extend (lesser)",
 		"sources": [
@@ -2170,9 +2170,9 @@
 			"**Requirements** {feat/Craft Rod}, {feat/Extend Spell}; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
 		]
 	},
-	"lesser_extend_rod_of_metamagic": { "copyof": "rod_of_metamagic_extend_lesser" },
-	"lesser_extend_metamagic_rod": { "copyof": "rod_of_metamagic_extend_lesser" },
-	"extend": { "copyof": "rod_of_metamagic_extend_lesser" },
+	"lesser_extend_rod_of_metamagic": { "redirect": "rod_of_metamagic_extend_lesser" },
+	"lesser_extend_metamagic_rod": { "redirect": "rod_of_metamagic_extend_lesser" },
+	"extend": { "redirect": "rod_of_metamagic_extend_lesser" },
 	"rod_of_metamagic_flaring_lesser": {
 		"name": "Rod of Metamagic, Flaring (lesser)",
 		"sources": [ "Ultimate Equipment" ],
@@ -2190,9 +2190,9 @@
 			"**Requirements** {feat/Craft Rod}, {feat/Flaring Spell}; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
 		]
 	},
-	"lesser_flaring_rod_of_metamagic": { "copyof": "rod_of_metamagic_flaring_lesser" },
-	"lesser_flaring_metamagic_rod": { "copyof": "rod_of_metamagic_flaring_lesser" },
-	"flaring": { "copyof": "rod_of_metamagic_flaring_lesser" },
+	"lesser_flaring_rod_of_metamagic": { "redirect": "rod_of_metamagic_flaring_lesser" },
+	"lesser_flaring_metamagic_rod": { "redirect": "rod_of_metamagic_flaring_lesser" },
+	"flaring": { "redirect": "rod_of_metamagic_flaring_lesser" },
 	"rod_of_metamagic_focused_lesser": {
 		"name": "Rod of Metamagic, Focused (lesser)",
 		"sources": [
@@ -2213,9 +2213,9 @@
 			"**Requirements** {feat/Craft Rod}, {feat/Focused Spell}; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
 		]
 	},
-	"lesser_focused_rod_of_metamagic": { "copyof": "rod_of_metamagic_focused_lesser" },
-	"lesser_focused_metamagic_rod": { "copyof": "rod_of_metamagic_focused_lesser" },
-	"focused": { "copyof": "rod_of_metamagic_focused_lesser" },
+	"lesser_focused_rod_of_metamagic": { "redirect": "rod_of_metamagic_focused_lesser" },
+	"lesser_focused_metamagic_rod": { "redirect": "rod_of_metamagic_focused_lesser" },
+	"focused": { "redirect": "rod_of_metamagic_focused_lesser" },
 	"rod_of_metamagic_furious_lesser": {
 		"name": "Rod of Metamagic, Furious (lesser)",
 		"sources": [ "Occult Adventures" ],
@@ -2233,9 +2233,9 @@
 			"**Requirements** {feat/Craft Rod}, {feat/Furious Spell}; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 22,250 gp (greater)"
 		]
 	},
-	"lesser_furious_rod_of_metamagic": { "copyof": "rod_of_metamagic_furious_lesser" },
-	"lesser_furious_metamagic_rod": { "copyof": "rod_of_metamagic_furious_lesser" },
-	"furious": { "copyof": "rod_of_metamagic_furious_lesser" },
+	"lesser_furious_rod_of_metamagic": { "redirect": "rod_of_metamagic_furious_lesser" },
+	"lesser_furious_metamagic_rod": { "redirect": "rod_of_metamagic_furious_lesser" },
+	"furious": { "redirect": "rod_of_metamagic_furious_lesser" },
 	"rod_of_metamagic_intensified_lesser": {
 		"name": "Rod of Metamagic, Intensified (lesser)",
 		"sources": [
@@ -2256,9 +2256,9 @@
 			"**Requirements** {feat/Craft Rod}, {feat/Intensified Spell}; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
 		]
 	},
-	"lesser_intensified_rod_of_metamagic": { "copyof": "rod_of_metamagic_intensified_lesser" },
-	"lesser_intensified_metamagic_rod": { "copyof": "rod_of_metamagic_intensified_lesser" },
-	"intensified": { "copyof": "rod_of_metamagic_intensified_lesser" },
+	"lesser_intensified_rod_of_metamagic": { "redirect": "rod_of_metamagic_intensified_lesser" },
+	"lesser_intensified_metamagic_rod": { "redirect": "rod_of_metamagic_intensified_lesser" },
+	"intensified": { "redirect": "rod_of_metamagic_intensified_lesser" },
 	"rod_of_metamagic_lingering_lesser": {
 		"name": "Rod of Metamagic, Lingering (lesser)",
 		"sources": [
@@ -2279,9 +2279,9 @@
 			"**Requirements** {feat/Craft Rod}, {feat/Lingering Spell}; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
 		]
 	},
-	"lesser_lingering_rod_of_metamagic": { "copyof": "rod_of_metamagic_lingering_lesser" },
-	"lesser_lingering_metamagic_rod": { "copyof": "rod_of_metamagic_lingering_lesser" },
-	"lingering": { "copyof": "rod_of_metamagic_lingering_lesser" },
+	"lesser_lingering_rod_of_metamagic": { "redirect": "rod_of_metamagic_lingering_lesser" },
+	"lesser_lingering_metamagic_rod": { "redirect": "rod_of_metamagic_lingering_lesser" },
+	"lingering": { "redirect": "rod_of_metamagic_lingering_lesser" },
 	"rod_of_metamagic_logical_lesser": {
 		"name": "Rod of Metamagic, Logical (lesser)",
 		"sources": [ "Occult Adventures" ],
@@ -2299,9 +2299,9 @@
 			"**Requirements** {feat/Craft Rod}, {feat/Logical Spell}; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
 		]
 	},
-	"lesser_logical_rod_of_metamagic": { "copyof": "rod_of_metamagic_logical_lesser" },
-	"lesser_logical_metamagic_rod": { "copyof": "rod_of_metamagic_logical_lesser" },
-	"logical": { "copyof": "rod_of_metamagic_logical_lesser" },
+	"lesser_logical_rod_of_metamagic": { "redirect": "rod_of_metamagic_logical_lesser" },
+	"lesser_logical_metamagic_rod": { "redirect": "rod_of_metamagic_logical_lesser" },
+	"logical": { "redirect": "rod_of_metamagic_logical_lesser" },
 	"rod_of_metamagic_piercing_lesser": {
 		"name": "Rod of Metamagic, Piercing (lesser)",
 		"sources": [ "Ultimate Equipment" ],
@@ -2319,9 +2319,9 @@
 			"**Requirements** {feat/Craft Rod}, {feat/Piercing Spell}; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
 		]
 	},
-	"lesser_piercing_rod_of_metamagic": { "copyof": "rod_of_metamagic_piercing_lesser" },
-	"lesser_piercing_metamagic_rod": { "copyof": "rod_of_metamagic_piercing_lesser" },
-	"piercing": { "copyof": "rod_of_metamagic_piercing_lesser" },
+	"lesser_piercing_rod_of_metamagic": { "redirect": "rod_of_metamagic_piercing_lesser" },
+	"lesser_piercing_metamagic_rod": { "redirect": "rod_of_metamagic_piercing_lesser" },
+	"piercing": { "redirect": "rod_of_metamagic_piercing_lesser" },
 	"rod_of_metamagic_reach_lesser": {
 		"name": "Rod of Metamagic, Reach (lesser)",
 		"sources": [
@@ -2342,9 +2342,9 @@
 			"**Requirements** {feat/Craft Rod}, {feat/Reach Spell}; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
 		]
 	},
-	"lesser_reach_rod_of_metamagic": { "copyof": "rod_of_metamagic_reach_lesser" },
-	"lesser_reach_metamagic_rod": { "copyof": "rod_of_metamagic_reach_lesser" },
-	"reach": { "copyof": "rod_of_metamagic_reach_lesser" },
+	"lesser_reach_rod_of_metamagic": { "redirect": "rod_of_metamagic_reach_lesser" },
+	"lesser_reach_metamagic_rod": { "redirect": "rod_of_metamagic_reach_lesser" },
+	"reach": { "redirect": "rod_of_metamagic_reach_lesser" },
 	"rod_of_metamagic_rime_lesser": {
 		"name": "Rod of Metamagic, Rime (lesser)",
 		"sources": [ "Ultimate Equipment" ],
@@ -2362,9 +2362,9 @@
 			"**Requirements** {feat/Craft Rod}, {feat/Rime Spell}; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
 		]
 	},
-	"lesser_rime_rod_of_metamagic": { "copyof": "rod_of_metamagic_rime_lesser" },
-	"lesser_rime_metamagic_rod": { "copyof": "rod_of_metamagic_rime_lesser" },
-	"rime": { "copyof": "rod_of_metamagic_rime_lesser" },
+	"lesser_rime_rod_of_metamagic": { "redirect": "rod_of_metamagic_rime_lesser" },
+	"lesser_rime_metamagic_rod": { "redirect": "rod_of_metamagic_rime_lesser" },
+	"rime": { "redirect": "rod_of_metamagic_rime_lesser" },
 	"rod_of_metamagic_scarring_lesser": {
 		"name": "Rod of Metamagic, Scarring (lesser)",
 		"sources": [ "Occult Adventures" ],
@@ -2382,9 +2382,9 @@
 			"**Requirements** {feat/Craft Rod}, {feat/Scarring Spell}; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 22,250 gp (greater)"
 		]
 	},
-	"lesser_scarring_rod_of_metamagic": { "copyof": "rod_of_metamagic_scarring_lesser" },
-	"lesser_scarring_metamagic_rod": { "copyof": "rod_of_metamagic_scarring_lesser" },
-	"scarring": { "copyof": "rod_of_metamagic_scarring_lesser" },
+	"lesser_scarring_rod_of_metamagic": { "redirect": "rod_of_metamagic_scarring_lesser" },
+	"lesser_scarring_metamagic_rod": { "redirect": "rod_of_metamagic_scarring_lesser" },
+	"scarring": { "redirect": "rod_of_metamagic_scarring_lesser" },
 	"rod_of_metamagic_selective_lesser": {
 		"name": "Rod of Metamagic, Selective (lesser)",
 		"sources": [
@@ -2405,9 +2405,9 @@
 			"**Requirements** {feat/Craft Rod}, {feat/Selective Spell}; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
 		]
 	},
-	"lesser_selective_rod_of_metamagic": { "copyof": "rod_of_metamagic_selective_lesser" },
-	"lesser_selective_metamagic_rod": { "copyof": "rod_of_metamagic_selective_lesser" },
-	"selective": { "copyof": "rod_of_metamagic_selective_lesser" },
+	"lesser_selective_rod_of_metamagic": { "redirect": "rod_of_metamagic_selective_lesser" },
+	"lesser_selective_metamagic_rod": { "redirect": "rod_of_metamagic_selective_lesser" },
+	"selective": { "redirect": "rod_of_metamagic_selective_lesser" },
 	"rod_of_metamagic_silent_lesser": {
 		"name": "Rod of Metamagic, Silent (lesser)",
 		"sources": [
@@ -2428,9 +2428,9 @@
 			"**Requirements** {feat/Craft Rod}, {feat/Silent Spell}; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
 		]
 	},
-	"lesser_silent_rod_of_metamagic": { "copyof": "rod_of_metamagic_silent_lesser" },
-	"lesser_silent_metamagic_rod": { "copyof": "rod_of_metamagic_silent_lesser" },
-	"silent": { "copyof": "rod_of_metamagic_silent_lesser" },
+	"lesser_silent_rod_of_metamagic": { "redirect": "rod_of_metamagic_silent_lesser" },
+	"lesser_silent_metamagic_rod": { "redirect": "rod_of_metamagic_silent_lesser" },
+	"silent": { "redirect": "rod_of_metamagic_silent_lesser" },
 	"rod_of_metamagic_stable_lesser": {
 		"name": "Rod of Metamagic, Stable (lesser)",
 		"sources": [ "Wardens of the Reborn Forge" ],
@@ -2448,9 +2448,9 @@
 			"**Requirements** {feat/Craft Rod}, {feat/Stable Spell}; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
 		]
 	},
-	"lesser_stable_rod_of_metamagic": { "copyof": "rod_of_metamagic_stable_lesser" },
-	"lesser_stable_metamagic_rod": { "copyof": "rod_of_metamagic_stable_lesser" },
-	"stable": { "copyof": "rod_of_metamagic_stable_lesser" },
+	"lesser_stable_rod_of_metamagic": { "redirect": "rod_of_metamagic_stable_lesser" },
+	"lesser_stable_metamagic_rod": { "redirect": "rod_of_metamagic_stable_lesser" },
+	"stable": { "redirect": "rod_of_metamagic_stable_lesser" },
 	"rod_of_metamagic_toppling_lesser": {
 		"name": "Rod of Metamagic, Toppling (lesser)",
 		"sources": [ "Ultimate Equipment" ],
@@ -2468,9 +2468,9 @@
 			"**Requirements** {feat/Craft Rod}, {feat/Toppling Spell}; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
 		]
 	},
-	"lesser_toppling_rod_of_metamagic": { "copyof": "rod_of_metamagic_toppling_lesser" },
-	"lesser_toppling_metamagic_rod": { "copyof": "rod_of_metamagic_toppling_lesser" },
-	"toppling": { "copyof": "rod_of_metamagic_toppling_lesser" },
+	"lesser_toppling_rod_of_metamagic": { "redirect": "rod_of_metamagic_toppling_lesser" },
+	"lesser_toppling_metamagic_rod": { "redirect": "rod_of_metamagic_toppling_lesser" },
+	"toppling": { "redirect": "rod_of_metamagic_toppling_lesser" },
 	"rod_of_metamagic_tumultuous_lesser": {
 		"name": "Rod of Metamagic, Tumultuous (lesser)",
 		"sources": [ "Planar Adventures" ],
@@ -2488,45 +2488,45 @@
 			"**Requirements** {feat/Craft Rod}, {feat/Tumultuous Spell}; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
 		]
 	},
-	"lesser_tumultuous_rod_of_metamagic": { "copyof": "rod_of_metamagic_tumultuous_lesser" },
-	"lesser_tumultuous_metamagic_rod": { "copyof": "rod_of_metamagic_tumultuous_lesser" },
-	"tumultuous": { "copyof": "rod_of_metamagic_tumultuous_lesser" },
+	"lesser_tumultuous_rod_of_metamagic": { "redirect": "rod_of_metamagic_tumultuous_lesser" },
+	"lesser_tumultuous_metamagic_rod": { "redirect": "rod_of_metamagic_tumultuous_lesser" },
+	"tumultuous": { "redirect": "rod_of_metamagic_tumultuous_lesser" },
 	"rod_of_metamagic_eclipsed_normal": {
 		"name": "Rod of Metamagic, Eclipsed (normal)",
 		"copyof": "rod_of_metamagic_eclipsed_lesser"
 	},
-	"rod_of_metamagic_eclipsed": { "copyof": "rod_of_metamagic_eclipsed_normal" },
-	"normal_eclipsed_rod_of_metamagic": { "copyof": "rod_of_metamagic_eclipsed_normal" },
-	"eclipsed_rod_of_metamagic": { "copyof": "rod_of_metamagic_eclipsed_normal" },
-	"normal_eclipsed_metamagic_rod": { "copyof": "rod_of_metamagic_eclipsed_normal" },
-	"eclipsed_metamagic_rod": { "copyof": "rod_of_metamagic_eclipsed_normal" },
+	"rod_of_metamagic_eclipsed": { "redirect": "rod_of_metamagic_eclipsed_normal" },
+	"normal_eclipsed_rod_of_metamagic": { "redirect": "rod_of_metamagic_eclipsed_normal" },
+	"eclipsed_rod_of_metamagic": { "redirect": "rod_of_metamagic_eclipsed_normal" },
+	"normal_eclipsed_metamagic_rod": { "redirect": "rod_of_metamagic_eclipsed_normal" },
+	"eclipsed_metamagic_rod": { "redirect": "rod_of_metamagic_eclipsed_normal" },
 	"rod_of_metamagic_merciful_normal": {
 		"name": "Rod of Metamagic, Merciful (normal)",
 		"copyof": "rod_of_metamagic_merciful_lesser"
 	},
-	"rod_of_metamagic_merciful": { "copyof": "rod_of_metamagic_merciful_normal" },
-	"normal_merciful_rod_of_metamagic": { "copyof": "rod_of_metamagic_merciful_normal" },
-	"merciful_rod_of_metamagic": { "copyof": "rod_of_metamagic_merciful_normal" },
-	"normal_merciful_metamagic_rod": { "copyof": "rod_of_metamagic_merciful_normal" },
-	"merciful_metamagic_rod": { "copyof": "rod_of_metamagic_merciful_normal" },
+	"rod_of_metamagic_merciful": { "redirect": "rod_of_metamagic_merciful_normal" },
+	"normal_merciful_rod_of_metamagic": { "redirect": "rod_of_metamagic_merciful_normal" },
+	"merciful_rod_of_metamagic": { "redirect": "rod_of_metamagic_merciful_normal" },
+	"normal_merciful_metamagic_rod": { "redirect": "rod_of_metamagic_merciful_normal" },
+	"merciful_metamagic_rod": { "redirect": "rod_of_metamagic_merciful_normal" },
 	"rod_of_metamagic_murky_normal": {
 		"name": "Rod of Metamagic, Murky (normal)",
 		"copyof": "rod_of_metamagic_murky_lesser"
 	},
-	"rod_of_metamagic_murky": { "copyof": "rod_of_metamagic_murky_normal" },
-	"normal_murky_rod_of_metamagic": { "copyof": "rod_of_metamagic_murky_normal" },
-	"murky_rod_of_metamagic": { "copyof": "rod_of_metamagic_murky_normal" },
-	"normal_murky_metamagic_rod": { "copyof": "rod_of_metamagic_murky_normal" },
-	"murky_metamagic_rod": { "copyof": "rod_of_metamagic_murky_normal" },
+	"rod_of_metamagic_murky": { "redirect": "rod_of_metamagic_murky_normal" },
+	"normal_murky_rod_of_metamagic": { "redirect": "rod_of_metamagic_murky_normal" },
+	"murky_rod_of_metamagic": { "redirect": "rod_of_metamagic_murky_normal" },
+	"normal_murky_metamagic_rod": { "redirect": "rod_of_metamagic_murky_normal" },
+	"murky_metamagic_rod": { "redirect": "rod_of_metamagic_murky_normal" },
 	"rod_of_metamagic_steam_normal": {
 		"name": "Rod of Metamagic, Steam (normal)",
 		"copyof": "rod_of_metamagic_steam_lesser"
 	},
-	"rod_of_metamagic_steam": { "copyof": "rod_of_metamagic_steam_normal" },
-	"normal_steam_rod_of_metamagic": { "copyof": "rod_of_metamagic_steam_normal" },
-	"steam_rod_of_metamagic": { "copyof": "rod_of_metamagic_steam_normal" },
-	"normal_steam_metamagic_rod": { "copyof": "rod_of_metamagic_steam_normal" },
-	"steam_metamagic_rod": { "copyof": "rod_of_metamagic_steam_normal" },
+	"rod_of_metamagic_steam": { "redirect": "rod_of_metamagic_steam_normal" },
+	"normal_steam_rod_of_metamagic": { "redirect": "rod_of_metamagic_steam_normal" },
+	"steam_rod_of_metamagic": { "redirect": "rod_of_metamagic_steam_normal" },
+	"normal_steam_metamagic_rod": { "redirect": "rod_of_metamagic_steam_normal" },
+	"steam_metamagic_rod": { "redirect": "rod_of_metamagic_steam_normal" },
 	"rod_of_metamagic_burning_lesser": {
 		"name": "Rod of Metamagic, Burning (lesser)",
 		"sources": [ "Ultimate Equipment" ],
@@ -2544,9 +2544,9 @@
 			"**Requirements** {feat/Craft Rod}, {feat/Burning Spell}; **Cost** 4,500 gp (lesser), 16,250 gp (normal), 36,500 gp (greater)"
 		]
 	},
-	"lesser_burning_rod_of_metamagic": { "copyof": "rod_of_metamagic_burning_lesser" },
-	"lesser_burning_metamagic_rod": { "copyof": "rod_of_metamagic_burning_lesser" },
-	"burning": { "copyof": "rod_of_metamagic_burning_lesser" },
+	"lesser_burning_rod_of_metamagic": { "redirect": "rod_of_metamagic_burning_lesser" },
+	"lesser_burning_metamagic_rod": { "redirect": "rod_of_metamagic_burning_lesser" },
+	"burning": { "redirect": "rod_of_metamagic_burning_lesser" },
 	"rod_of_metamagic_concussive_lesser": {
 		"name": "Rod of Metamagic, Concussive (lesser)",
 		"sources": [ "Ultimate Equipment" ],
@@ -2564,9 +2564,9 @@
 			"**Requirements** {feat/Craft Rod}, {feat/Concussive Spell}; **Cost** 4,500 gp (lesser), 16,250 gp (normal), 36,500 gp (greater)"
 		]
 	},
-	"lesser_concussive_rod_of_metamagic": { "copyof": "rod_of_metamagic_concussive_lesser" },
-	"lesser_concussive_metamagic_rod": { "copyof": "rod_of_metamagic_concussive_lesser" },
-	"concussive": { "copyof": "rod_of_metamagic_concussive_lesser" },
+	"lesser_concussive_rod_of_metamagic": { "redirect": "rod_of_metamagic_concussive_lesser" },
+	"lesser_concussive_metamagic_rod": { "redirect": "rod_of_metamagic_concussive_lesser" },
+	"concussive": { "redirect": "rod_of_metamagic_concussive_lesser" },
 	"rod_of_metamagic_empower_lesser": {
 		"name": "Rod of Metamagic, Empower (lesser)",
 		"sources": [
@@ -2587,9 +2587,9 @@
 			"**Requirements** {feat/Craft Rod}, {feat/Empower Spell}; **Cost** 4,500 gp (lesser), 16,250 gp (normal), 36,500 gp (greater)"
 		]
 	},
-	"lesser_empower_rod_of_metamagic": { "copyof": "rod_of_metamagic_empower_lesser" },
-	"lesser_empower_metamagic_rod": { "copyof": "rod_of_metamagic_empower_lesser" },
-	"empower": { "copyof": "rod_of_metamagic_empower_lesser" },
+	"lesser_empower_rod_of_metamagic": { "redirect": "rod_of_metamagic_empower_lesser" },
+	"lesser_empower_metamagic_rod": { "redirect": "rod_of_metamagic_empower_lesser" },
+	"empower": { "redirect": "rod_of_metamagic_empower_lesser" },
 	"rod_of_metamagic_fearsome_lesser": {
 		"name": "Rod of Metamagic, Fearsome (lesser)",
 		"sources": [ "Occult Adventures" ],
@@ -2607,9 +2607,9 @@
 			"**Requirements** {feat/Craft Rod}, {feat/Fearsome Spell}; **Cost** 4,500 gp (lesser), 16,250 gp (normal), 36,500 gp (greater)"
 		]
 	},
-	"lesser_fearsome_rod_of_metamagic": { "copyof": "rod_of_metamagic_fearsome_lesser" },
-	"lesser_fearsome_metamagic_rod": { "copyof": "rod_of_metamagic_fearsome_lesser" },
-	"fearsome": { "copyof": "rod_of_metamagic_fearsome_lesser" },
+	"lesser_fearsome_rod_of_metamagic": { "redirect": "rod_of_metamagic_fearsome_lesser" },
+	"lesser_fearsome_metamagic_rod": { "redirect": "rod_of_metamagic_fearsome_lesser" },
+	"fearsome": { "redirect": "rod_of_metamagic_fearsome_lesser" },
 	"rod_of_metamagic_persistent_lesser": {
 		"name": "Rod of Metamagic, Persistent (lesser)",
 		"sources": [
@@ -2630,9 +2630,9 @@
 			"**Requirements** {feat/Craft Rod}, {feat/Persistent Spell}; **Cost** 4,500 gp (lesser), 16,250 gp (normal), 36,500 gp (greater)"
 		]
 	},
-	"lesser_persistent_rod_of_metamagic": { "copyof": "rod_of_metamagic_persistent_lesser" },
-	"lesser_persistent_metamagic_rod": { "copyof": "rod_of_metamagic_persistent_lesser" },
-	"persistent": { "copyof": "rod_of_metamagic_persistent_lesser" },
+	"lesser_persistent_rod_of_metamagic": { "redirect": "rod_of_metamagic_persistent_lesser" },
+	"lesser_persistent_metamagic_rod": { "redirect": "rod_of_metamagic_persistent_lesser" },
+	"persistent": { "redirect": "rod_of_metamagic_persistent_lesser" },
 	"rod_of_metamagic_sickening_lesser": {
 		"name": "Rod of Metamagic, Sickening (lesser)",
 		"sources": [
@@ -2653,9 +2653,9 @@
 			"**Requirements** {feat/Craft Rod}, {feat/Sickening Spell}; **Cost** 4,500 gp (lesser), 16,250 gp (normal), 36,500 gp (greater)"
 		]
 	},
-	"lesser_sickening_rod_of_metamagic": { "copyof": "rod_of_metamagic_sickening_lesser" },
-	"lesser_sickening_metamagic_rod": { "copyof": "rod_of_metamagic_sickening_lesser" },
-	"sickening": { "copyof": "rod_of_metamagic_sickening_lesser" },
+	"lesser_sickening_rod_of_metamagic": { "redirect": "rod_of_metamagic_sickening_lesser" },
+	"lesser_sickening_metamagic_rod": { "redirect": "rod_of_metamagic_sickening_lesser" },
+	"sickening": { "redirect": "rod_of_metamagic_sickening_lesser" },
 	"rod_of_metamagic_snuffing_lesser": {
 		"name": "Rod of Metamagic, Snuffing (lesser)",
 		"sources": [ "Blood of Shadows" ],
@@ -2673,9 +2673,9 @@
 			"**Requirements** {feat/Craft Rod}, {feat/Snuffing Spell}; **Cost** 4,500 gp (lesser), 16,250 gp (normal), 36,500 gp (greater)"
 		]
 	},
-	"lesser_snuffing_rod_of_metamagic": { "copyof": "rod_of_metamagic_snuffing_lesser" },
-	"lesser_snuffing_metamagic_rod": { "copyof": "rod_of_metamagic_snuffing_lesser" },
-	"snuffing": { "copyof": "rod_of_metamagic_snuffing_lesser" },
+	"lesser_snuffing_rod_of_metamagic": { "redirect": "rod_of_metamagic_snuffing_lesser" },
+	"lesser_snuffing_metamagic_rod": { "redirect": "rod_of_metamagic_snuffing_lesser" },
+	"snuffing": { "redirect": "rod_of_metamagic_snuffing_lesser" },
 	"rod_of_metamagic_stygian_lesser": {
 		"name": "Rod of Metamagic, Stygian (lesser)",
 		"sources": [ "Planar Adventures" ],
@@ -2693,9 +2693,9 @@
 			"**Requirements** {feat/Craft Rod}, {feat/Stygian Spell}; **Cost** 4,500 gp (lesser), 16,250 gp (normal), 36,500 gp (greater)"
 		]
 	},
-	"lesser_stygian_rod_of_metamagic": { "copyof": "rod_of_metamagic_stygian_lesser" },
-	"lesser_stygian_metamagic_rod": { "copyof": "rod_of_metamagic_stygian_lesser" },
-	"stygian": { "copyof": "rod_of_metamagic_stygian_lesser" },
+	"lesser_stygian_rod_of_metamagic": { "redirect": "rod_of_metamagic_stygian_lesser" },
+	"lesser_stygian_metamagic_rod": { "redirect": "rod_of_metamagic_stygian_lesser" },
+	"stygian": { "redirect": "rod_of_metamagic_stygian_lesser" },
 	"rod_of_metamagic_thanatopic_lesser": {
 		"name": "Rod of Metamagic, Thanatopic (lesser)",
 		"sources": [ "Ultimate Equipment" ],
@@ -2713,9 +2713,9 @@
 			"**Requirements** {feat/Craft Rod}, {feat/Thanatopic Spell}; **Cost** 4,500 gp (lesser), 16,250 gp (normal), 36,500 gp (greater)"
 		]
 	},
-	"lesser_thanatopic_rod_of_metamagic": { "copyof": "rod_of_metamagic_thanatopic_lesser" },
-	"lesser_thanatopic_metamagic_rod": { "copyof": "rod_of_metamagic_thanatopic_lesser" },
-	"thanatopic": { "copyof": "rod_of_metamagic_thanatopic_lesser" },
+	"lesser_thanatopic_rod_of_metamagic": { "redirect": "rod_of_metamagic_thanatopic_lesser" },
+	"lesser_thanatopic_metamagic_rod": { "redirect": "rod_of_metamagic_thanatopic_lesser" },
+	"thanatopic": { "redirect": "rod_of_metamagic_thanatopic_lesser" },
 	"rod_of_metamagic_threnodic_lesser": {
 		"name": "Rod of Metamagic, Threnodic (lesser)",
 		"sources": [ "Ultimate Equipment" ],
@@ -2733,9 +2733,9 @@
 			"**Requirements** {feat/Craft Rod}, {feat/Threnodic Spell}; **Cost** 4,500 gp (lesser), 16,250 gp (normal), 36,500 gp (greater)"
 		]
 	},
-	"lesser_threnodic_rod_of_metamagic": { "copyof": "rod_of_metamagic_threnodic_lesser" },
-	"lesser_threnodic_metamagic_rod": { "copyof": "rod_of_metamagic_threnodic_lesser" },
-	"threnodic": { "copyof": "rod_of_metamagic_threnodic_lesser" },
+	"lesser_threnodic_rod_of_metamagic": { "redirect": "rod_of_metamagic_threnodic_lesser" },
+	"lesser_threnodic_metamagic_rod": { "redirect": "rod_of_metamagic_threnodic_lesser" },
+	"threnodic": { "redirect": "rod_of_metamagic_threnodic_lesser" },
 	"rod_of_metamagic_thundering_lesser": {
 		"name": "Rod of Metamagic, Thundering (lesser)",
 		"sources": [
@@ -2756,9 +2756,9 @@
 			"**Requirements** {feat/Craft Rod}, {feat/Thundering Spell}; **Cost** 4,500 gp (lesser), 16,250 gp (normal), 36,500 gp (greater)"
 		]
 	},
-	"lesser_thundering_rod_of_metamagic": { "copyof": "rod_of_metamagic_thundering_lesser" },
-	"lesser_thundering_metamagic_rod": { "copyof": "rod_of_metamagic_thundering_lesser" },
-	"thundering": { "copyof": "rod_of_metamagic_thundering_lesser" },
+	"lesser_thundering_rod_of_metamagic": { "redirect": "rod_of_metamagic_thundering_lesser" },
+	"lesser_thundering_metamagic_rod": { "redirect": "rod_of_metamagic_thundering_lesser" },
+	"thundering": { "redirect": "rod_of_metamagic_thundering_lesser" },
 	"rod_of_metamagic_traumatic_lesser": {
 		"name": "Rod of Metamagic, Traumatic (lesser)",
 		"sources": [ "Occult Adventures" ],
@@ -2776,258 +2776,258 @@
 			"**Requirements** {feat/Craft Rod}, {feat/Traumatic Spell}; **Cost** 4,500 gp (lesser), 16,250 gp (normal), 36,500 gp (greater)"
 		]
 	},
-	"lesser_traumatic_rod_of_metamagic": { "copyof": "rod_of_metamagic_traumatic_lesser" },
-	"lesser_traumatic_metamagic_rod": { "copyof": "rod_of_metamagic_traumatic_lesser" },
-	"traumatic": { "copyof": "rod_of_metamagic_traumatic_lesser" },
+	"lesser_traumatic_rod_of_metamagic": { "redirect": "rod_of_metamagic_traumatic_lesser" },
+	"lesser_traumatic_metamagic_rod": { "redirect": "rod_of_metamagic_traumatic_lesser" },
+	"traumatic": { "redirect": "rod_of_metamagic_traumatic_lesser" },
 	"rod_of_metamagic_apocalyptic_normal": {
 		"name": "Rod of Metamagic, Apocalyptic (normal)",
 		"copyof": "rod_of_metamagic_apocalyptic_lesser"
 	},
-	"rod_of_metamagic_apocalyptic": { "copyof": "rod_of_metamagic_apocalyptic_normal" },
-	"normal_apocalyptic_rod_of_metamagic": { "copyof": "rod_of_metamagic_apocalyptic_normal" },
-	"apocalyptic_rod_of_metamagic": { "copyof": "rod_of_metamagic_apocalyptic_normal" },
-	"normal_apocalyptic_metamagic_rod": { "copyof": "rod_of_metamagic_apocalyptic_normal" },
-	"apocalyptic_metamagic_rod": { "copyof": "rod_of_metamagic_apocalyptic_normal" },
+	"rod_of_metamagic_apocalyptic": { "redirect": "rod_of_metamagic_apocalyptic_normal" },
+	"normal_apocalyptic_rod_of_metamagic": { "redirect": "rod_of_metamagic_apocalyptic_normal" },
+	"apocalyptic_rod_of_metamagic": { "redirect": "rod_of_metamagic_apocalyptic_normal" },
+	"normal_apocalyptic_metamagic_rod": { "redirect": "rod_of_metamagic_apocalyptic_normal" },
+	"apocalyptic_metamagic_rod": { "redirect": "rod_of_metamagic_apocalyptic_normal" },
 	"rod_of_metamagic_authoritative_normal": {
 		"name": "Rod of Metamagic, Authoritative (normal)",
 		"copyof": "rod_of_metamagic_authoritative_lesser"
 	},
-	"rod_of_metamagic_authoritative": { "copyof": "rod_of_metamagic_authoritative_normal" },
-	"normal_authoritative_rod_of_metamagic": { "copyof": "rod_of_metamagic_authoritative_normal" },
-	"authoritative_rod_of_metamagic": { "copyof": "rod_of_metamagic_authoritative_normal" },
-	"normal_authoritative_metamagic_rod": { "copyof": "rod_of_metamagic_authoritative_normal" },
-	"authoritative_metamagic_rod": { "copyof": "rod_of_metamagic_authoritative_normal" },
+	"rod_of_metamagic_authoritative": { "redirect": "rod_of_metamagic_authoritative_normal" },
+	"normal_authoritative_rod_of_metamagic": { "redirect": "rod_of_metamagic_authoritative_normal" },
+	"authoritative_rod_of_metamagic": { "redirect": "rod_of_metamagic_authoritative_normal" },
+	"normal_authoritative_metamagic_rod": { "redirect": "rod_of_metamagic_authoritative_normal" },
+	"authoritative_metamagic_rod": { "redirect": "rod_of_metamagic_authoritative_normal" },
 	"rod_of_metamagic_blissful_normal": {
 		"name": "Rod of Metamagic, Blissful (normal)",
 		"copyof": "rod_of_metamagic_blissful_lesser"
 	},
-	"rod_of_metamagic_blissful": { "copyof": "rod_of_metamagic_blissful_normal" },
-	"normal_blissful_rod_of_metamagic": { "copyof": "rod_of_metamagic_blissful_normal" },
-	"blissful_rod_of_metamagic": { "copyof": "rod_of_metamagic_blissful_normal" },
-	"normal_blissful_metamagic_rod": { "copyof": "rod_of_metamagic_blissful_normal" },
-	"blissful_metamagic_rod": { "copyof": "rod_of_metamagic_blissful_normal" },
+	"rod_of_metamagic_blissful": { "redirect": "rod_of_metamagic_blissful_normal" },
+	"normal_blissful_rod_of_metamagic": { "redirect": "rod_of_metamagic_blissful_normal" },
+	"blissful_rod_of_metamagic": { "redirect": "rod_of_metamagic_blissful_normal" },
+	"normal_blissful_metamagic_rod": { "redirect": "rod_of_metamagic_blissful_normal" },
+	"blissful_metamagic_rod": { "redirect": "rod_of_metamagic_blissful_normal" },
 	"rod_of_metamagic_bouncing_normal": {
 		"name": "Rod of Metamagic, Bouncing (normal)",
 		"copyof": "rod_of_metamagic_bouncing_lesser"
 	},
-	"rod_of_metamagic_bouncing": { "copyof": "rod_of_metamagic_bouncing_normal" },
-	"normal_bouncing_rod_of_metamagic": { "copyof": "rod_of_metamagic_bouncing_normal" },
-	"bouncing_rod_of_metamagic": { "copyof": "rod_of_metamagic_bouncing_normal" },
-	"normal_bouncing_metamagic_rod": { "copyof": "rod_of_metamagic_bouncing_normal" },
-	"bouncing_metamagic_rod": { "copyof": "rod_of_metamagic_bouncing_normal" },
+	"rod_of_metamagic_bouncing": { "redirect": "rod_of_metamagic_bouncing_normal" },
+	"normal_bouncing_rod_of_metamagic": { "redirect": "rod_of_metamagic_bouncing_normal" },
+	"bouncing_rod_of_metamagic": { "redirect": "rod_of_metamagic_bouncing_normal" },
+	"normal_bouncing_metamagic_rod": { "redirect": "rod_of_metamagic_bouncing_normal" },
+	"bouncing_metamagic_rod": { "redirect": "rod_of_metamagic_bouncing_normal" },
 	"rod_of_metamagic_crypt_normal": {
 		"name": "Rod of Metamagic, Crypt (normal)",
 		"copyof": "rod_of_metamagic_crypt_lesser"
 	},
-	"rod_of_metamagic_crypt": { "copyof": "rod_of_metamagic_crypt_normal" },
-	"normal_crypt_rod_of_metamagic": { "copyof": "rod_of_metamagic_crypt_normal" },
-	"crypt_rod_of_metamagic": { "copyof": "rod_of_metamagic_crypt_normal" },
-	"normal_crypt_metamagic_rod": { "copyof": "rod_of_metamagic_crypt_normal" },
-	"crypt_metamagic_rod": { "copyof": "rod_of_metamagic_crypt_normal" },
+	"rod_of_metamagic_crypt": { "redirect": "rod_of_metamagic_crypt_normal" },
+	"normal_crypt_rod_of_metamagic": { "redirect": "rod_of_metamagic_crypt_normal" },
+	"crypt_rod_of_metamagic": { "redirect": "rod_of_metamagic_crypt_normal" },
+	"normal_crypt_metamagic_rod": { "redirect": "rod_of_metamagic_crypt_normal" },
+	"crypt_metamagic_rod": { "redirect": "rod_of_metamagic_crypt_normal" },
 	"rod_of_metamagic_disruptive_normal": {
 		"name": "Rod of Metamagic, Disruptive (normal)",
 		"copyof": "rod_of_metamagic_disruptive_lesser"
 	},
-	"rod_of_metamagic_disruptive": { "copyof": "rod_of_metamagic_disruptive_normal" },
-	"normal_disruptive_rod_of_metamagic": { "copyof": "rod_of_metamagic_disruptive_normal" },
-	"disruptive_rod_of_metamagic": { "copyof": "rod_of_metamagic_disruptive_normal" },
-	"normal_disruptive_metamagic_rod": { "copyof": "rod_of_metamagic_disruptive_normal" },
-	"disruptive_metamagic_rod": { "copyof": "rod_of_metamagic_disruptive_normal" },
+	"rod_of_metamagic_disruptive": { "redirect": "rod_of_metamagic_disruptive_normal" },
+	"normal_disruptive_rod_of_metamagic": { "redirect": "rod_of_metamagic_disruptive_normal" },
+	"disruptive_rod_of_metamagic": { "redirect": "rod_of_metamagic_disruptive_normal" },
+	"normal_disruptive_metamagic_rod": { "redirect": "rod_of_metamagic_disruptive_normal" },
+	"disruptive_metamagic_rod": { "redirect": "rod_of_metamagic_disruptive_normal" },
 	"rod_of_metamagic_ectoplasmic_normal": {
 		"name": "Rod of Metamagic, Ectoplasmic (normal)",
 		"copyof": "rod_of_metamagic_ectoplasmic_lesser"
 	},
-	"rod_of_metamagic_ectoplasmic": { "copyof": "rod_of_metamagic_ectoplasmic_normal" },
-	"normal_ectoplasmic_rod_of_metamagic": { "copyof": "rod_of_metamagic_ectoplasmic_normal" },
-	"ectoplasmic_rod_of_metamagic": { "copyof": "rod_of_metamagic_ectoplasmic_normal" },
-	"normal_ectoplasmic_metamagic_rod": { "copyof": "rod_of_metamagic_ectoplasmic_normal" },
-	"ectoplasmic_metamagic_rod": { "copyof": "rod_of_metamagic_ectoplasmic_normal" },
+	"rod_of_metamagic_ectoplasmic": { "redirect": "rod_of_metamagic_ectoplasmic_normal" },
+	"normal_ectoplasmic_rod_of_metamagic": { "redirect": "rod_of_metamagic_ectoplasmic_normal" },
+	"ectoplasmic_rod_of_metamagic": { "redirect": "rod_of_metamagic_ectoplasmic_normal" },
+	"normal_ectoplasmic_metamagic_rod": { "redirect": "rod_of_metamagic_ectoplasmic_normal" },
+	"ectoplasmic_metamagic_rod": { "redirect": "rod_of_metamagic_ectoplasmic_normal" },
 	"rod_of_metamagic_elemental_normal": {
 		"name": "Rod of Metamagic, Elemental (normal)",
 		"copyof": "rod_of_metamagic_elemental_lesser"
 	},
-	"rod_of_metamagic_elemental": { "copyof": "rod_of_metamagic_elemental_normal" },
-	"normal_elemental_rod_of_metamagic": { "copyof": "rod_of_metamagic_elemental_normal" },
-	"elemental_rod_of_metamagic": { "copyof": "rod_of_metamagic_elemental_normal" },
-	"normal_elemental_metamagic_rod": { "copyof": "rod_of_metamagic_elemental_normal" },
-	"elemental_metamagic_rod": { "copyof": "rod_of_metamagic_elemental_normal" },
+	"rod_of_metamagic_elemental": { "redirect": "rod_of_metamagic_elemental_normal" },
+	"normal_elemental_rod_of_metamagic": { "redirect": "rod_of_metamagic_elemental_normal" },
+	"elemental_rod_of_metamagic": { "redirect": "rod_of_metamagic_elemental_normal" },
+	"normal_elemental_metamagic_rod": { "redirect": "rod_of_metamagic_elemental_normal" },
+	"elemental_metamagic_rod": { "redirect": "rod_of_metamagic_elemental_normal" },
 	"rod_of_metamagic_enlarge_normal": {
 		"name": "Rod of Metamagic, Enlarge (normal)",
 		"copyof": "rod_of_metamagic_enlarge_lesser"
 	},
-	"rod_of_metamagic_enlarge": { "copyof": "rod_of_metamagic_enlarge_normal" },
-	"normal_enlarge_rod_of_metamagic": { "copyof": "rod_of_metamagic_enlarge_normal" },
-	"enlarge_rod_of_metamagic": { "copyof": "rod_of_metamagic_enlarge_normal" },
-	"normal_enlarge_metamagic_rod": { "copyof": "rod_of_metamagic_enlarge_normal" },
-	"enlarge_metamagic_rod": { "copyof": "rod_of_metamagic_enlarge_normal" },
+	"rod_of_metamagic_enlarge": { "redirect": "rod_of_metamagic_enlarge_normal" },
+	"normal_enlarge_rod_of_metamagic": { "redirect": "rod_of_metamagic_enlarge_normal" },
+	"enlarge_rod_of_metamagic": { "redirect": "rod_of_metamagic_enlarge_normal" },
+	"normal_enlarge_metamagic_rod": { "redirect": "rod_of_metamagic_enlarge_normal" },
+	"enlarge_metamagic_rod": { "redirect": "rod_of_metamagic_enlarge_normal" },
 	"rod_of_metamagic_extend_normal": {
 		"name": "Rod of Metamagic, Extend (normal)",
 		"copyof": "rod_of_metamagic_extend_lesser"
 	},
-	"rod_of_metamagic_extend": { "copyof": "rod_of_metamagic_extend_normal" },
-	"normal_extend_rod_of_metamagic": { "copyof": "rod_of_metamagic_extend_normal" },
-	"extend_rod_of_metamagic": { "copyof": "rod_of_metamagic_extend_normal" },
-	"normal_extend_metamagic_rod": { "copyof": "rod_of_metamagic_extend_normal" },
-	"extend_metamagic_rod": { "copyof": "rod_of_metamagic_extend_normal" },
+	"rod_of_metamagic_extend": { "redirect": "rod_of_metamagic_extend_normal" },
+	"normal_extend_rod_of_metamagic": { "redirect": "rod_of_metamagic_extend_normal" },
+	"extend_rod_of_metamagic": { "redirect": "rod_of_metamagic_extend_normal" },
+	"normal_extend_metamagic_rod": { "redirect": "rod_of_metamagic_extend_normal" },
+	"extend_metamagic_rod": { "redirect": "rod_of_metamagic_extend_normal" },
 	"rod_of_metamagic_flaring_normal": {
 		"name": "Rod of Metamagic, Flaring (normal)",
 		"copyof": "rod_of_metamagic_flaring_lesser"
 	},
-	"rod_of_metamagic_flaring": { "copyof": "rod_of_metamagic_flaring_normal" },
-	"normal_flaring_rod_of_metamagic": { "copyof": "rod_of_metamagic_flaring_normal" },
-	"flaring_rod_of_metamagic": { "copyof": "rod_of_metamagic_flaring_normal" },
-	"normal_flaring_metamagic_rod": { "copyof": "rod_of_metamagic_flaring_normal" },
-	"flaring_metamagic_rod": { "copyof": "rod_of_metamagic_flaring_normal" },
+	"rod_of_metamagic_flaring": { "redirect": "rod_of_metamagic_flaring_normal" },
+	"normal_flaring_rod_of_metamagic": { "redirect": "rod_of_metamagic_flaring_normal" },
+	"flaring_rod_of_metamagic": { "redirect": "rod_of_metamagic_flaring_normal" },
+	"normal_flaring_metamagic_rod": { "redirect": "rod_of_metamagic_flaring_normal" },
+	"flaring_metamagic_rod": { "redirect": "rod_of_metamagic_flaring_normal" },
 	"rod_of_metamagic_focused_normal": {
 		"name": "Rod of Metamagic, Focused (normal)",
 		"copyof": "rod_of_metamagic_focused_lesser"
 	},
-	"rod_of_metamagic_focused": { "copyof": "rod_of_metamagic_focused_normal" },
-	"normal_focused_rod_of_metamagic": { "copyof": "rod_of_metamagic_focused_normal" },
-	"focused_rod_of_metamagic": { "copyof": "rod_of_metamagic_focused_normal" },
-	"normal_focused_metamagic_rod": { "copyof": "rod_of_metamagic_focused_normal" },
-	"focused_metamagic_rod": { "copyof": "rod_of_metamagic_focused_normal" },
+	"rod_of_metamagic_focused": { "redirect": "rod_of_metamagic_focused_normal" },
+	"normal_focused_rod_of_metamagic": { "redirect": "rod_of_metamagic_focused_normal" },
+	"focused_rod_of_metamagic": { "redirect": "rod_of_metamagic_focused_normal" },
+	"normal_focused_metamagic_rod": { "redirect": "rod_of_metamagic_focused_normal" },
+	"focused_metamagic_rod": { "redirect": "rod_of_metamagic_focused_normal" },
 	"rod_of_metamagic_furious_normal": {
 		"name": "Rod of Metamagic, Furious (normal)",
 		"copyof": "rod_of_metamagic_furious_lesser"
 	},
-	"rod_of_metamagic_furious": { "copyof": "rod_of_metamagic_furious_normal" },
-	"normal_furious_rod_of_metamagic": { "copyof": "rod_of_metamagic_furious_normal" },
-	"furious_rod_of_metamagic": { "copyof": "rod_of_metamagic_furious_normal" },
-	"normal_furious_metamagic_rod": { "copyof": "rod_of_metamagic_furious_normal" },
-	"furious_metamagic_rod": { "copyof": "rod_of_metamagic_furious_normal" },
+	"rod_of_metamagic_furious": { "redirect": "rod_of_metamagic_furious_normal" },
+	"normal_furious_rod_of_metamagic": { "redirect": "rod_of_metamagic_furious_normal" },
+	"furious_rod_of_metamagic": { "redirect": "rod_of_metamagic_furious_normal" },
+	"normal_furious_metamagic_rod": { "redirect": "rod_of_metamagic_furious_normal" },
+	"furious_metamagic_rod": { "redirect": "rod_of_metamagic_furious_normal" },
 	"rod_of_metamagic_intensified_normal": {
 		"name": "Rod of Metamagic, Intensified (normal)",
 		"copyof": "rod_of_metamagic_intensified_lesser"
 	},
-	"rod_of_metamagic_intensified": { "copyof": "rod_of_metamagic_intensified_normal" },
-	"normal_intensified_rod_of_metamagic": { "copyof": "rod_of_metamagic_intensified_normal" },
-	"intensified_rod_of_metamagic": { "copyof": "rod_of_metamagic_intensified_normal" },
-	"normal_intensified_metamagic_rod": { "copyof": "rod_of_metamagic_intensified_normal" },
-	"intensified_metamagic_rod": { "copyof": "rod_of_metamagic_intensified_normal" },
+	"rod_of_metamagic_intensified": { "redirect": "rod_of_metamagic_intensified_normal" },
+	"normal_intensified_rod_of_metamagic": { "redirect": "rod_of_metamagic_intensified_normal" },
+	"intensified_rod_of_metamagic": { "redirect": "rod_of_metamagic_intensified_normal" },
+	"normal_intensified_metamagic_rod": { "redirect": "rod_of_metamagic_intensified_normal" },
+	"intensified_metamagic_rod": { "redirect": "rod_of_metamagic_intensified_normal" },
 	"rod_of_metamagic_lingering_normal": {
 		"name": "Rod of Metamagic, Lingering (normal)",
 		"copyof": "rod_of_metamagic_lingering_lesser"
 	},
-	"rod_of_metamagic_lingering": { "copyof": "rod_of_metamagic_lingering_normal" },
-	"normal_lingering_rod_of_metamagic": { "copyof": "rod_of_metamagic_lingering_normal" },
-	"lingering_rod_of_metamagic": { "copyof": "rod_of_metamagic_lingering_normal" },
-	"normal_lingering_metamagic_rod": { "copyof": "rod_of_metamagic_lingering_normal" },
-	"lingering_metamagic_rod": { "copyof": "rod_of_metamagic_lingering_normal" },
+	"rod_of_metamagic_lingering": { "redirect": "rod_of_metamagic_lingering_normal" },
+	"normal_lingering_rod_of_metamagic": { "redirect": "rod_of_metamagic_lingering_normal" },
+	"lingering_rod_of_metamagic": { "redirect": "rod_of_metamagic_lingering_normal" },
+	"normal_lingering_metamagic_rod": { "redirect": "rod_of_metamagic_lingering_normal" },
+	"lingering_metamagic_rod": { "redirect": "rod_of_metamagic_lingering_normal" },
 	"rod_of_metamagic_logical_normal": {
 		"name": "Rod of Metamagic, Logical (normal)",
 		"copyof": "rod_of_metamagic_logical_lesser"
 	},
-	"rod_of_metamagic_logical": { "copyof": "rod_of_metamagic_logical_normal" },
-	"normal_logical_rod_of_metamagic": { "copyof": "rod_of_metamagic_logical_normal" },
-	"logical_rod_of_metamagic": { "copyof": "rod_of_metamagic_logical_normal" },
-	"normal_logical_metamagic_rod": { "copyof": "rod_of_metamagic_logical_normal" },
-	"logical_metamagic_rod": { "copyof": "rod_of_metamagic_logical_normal" },
+	"rod_of_metamagic_logical": { "redirect": "rod_of_metamagic_logical_normal" },
+	"normal_logical_rod_of_metamagic": { "redirect": "rod_of_metamagic_logical_normal" },
+	"logical_rod_of_metamagic": { "redirect": "rod_of_metamagic_logical_normal" },
+	"normal_logical_metamagic_rod": { "redirect": "rod_of_metamagic_logical_normal" },
+	"logical_metamagic_rod": { "redirect": "rod_of_metamagic_logical_normal" },
 	"rod_of_metamagic_piercing_normal": {
 		"name": "Rod of Metamagic, Piercing (normal)",
 		"copyof": "rod_of_metamagic_piercing_lesser"
 	},
-	"rod_of_metamagic_piercing": { "copyof": "rod_of_metamagic_piercing_normal" },
-	"normal_piercing_rod_of_metamagic": { "copyof": "rod_of_metamagic_piercing_normal" },
-	"piercing_rod_of_metamagic": { "copyof": "rod_of_metamagic_piercing_normal" },
-	"normal_piercing_metamagic_rod": { "copyof": "rod_of_metamagic_piercing_normal" },
-	"piercing_metamagic_rod": { "copyof": "rod_of_metamagic_piercing_normal" },
+	"rod_of_metamagic_piercing": { "redirect": "rod_of_metamagic_piercing_normal" },
+	"normal_piercing_rod_of_metamagic": { "redirect": "rod_of_metamagic_piercing_normal" },
+	"piercing_rod_of_metamagic": { "redirect": "rod_of_metamagic_piercing_normal" },
+	"normal_piercing_metamagic_rod": { "redirect": "rod_of_metamagic_piercing_normal" },
+	"piercing_metamagic_rod": { "redirect": "rod_of_metamagic_piercing_normal" },
 	"rod_of_metamagic_reach_normal": {
 		"name": "Rod of Metamagic, Reach (normal)",
 		"copyof": "rod_of_metamagic_reach_lesser"
 	},
-	"rod_of_metamagic_reach": { "copyof": "rod_of_metamagic_reach_normal" },
-	"normal_reach_rod_of_metamagic": { "copyof": "rod_of_metamagic_reach_normal" },
-	"reach_rod_of_metamagic": { "copyof": "rod_of_metamagic_reach_normal" },
-	"normal_reach_metamagic_rod": { "copyof": "rod_of_metamagic_reach_normal" },
-	"reach_metamagic_rod": { "copyof": "rod_of_metamagic_reach_normal" },
+	"rod_of_metamagic_reach": { "redirect": "rod_of_metamagic_reach_normal" },
+	"normal_reach_rod_of_metamagic": { "redirect": "rod_of_metamagic_reach_normal" },
+	"reach_rod_of_metamagic": { "redirect": "rod_of_metamagic_reach_normal" },
+	"normal_reach_metamagic_rod": { "redirect": "rod_of_metamagic_reach_normal" },
+	"reach_metamagic_rod": { "redirect": "rod_of_metamagic_reach_normal" },
 	"rod_of_metamagic_rime_normal": {
 		"name": "Rod of Metamagic, Rime (normal)",
 		"copyof": "rod_of_metamagic_rime_lesser"
 	},
-	"rod_of_metamagic_rime": { "copyof": "rod_of_metamagic_rime_normal" },
-	"normal_rime_rod_of_metamagic": { "copyof": "rod_of_metamagic_rime_normal" },
-	"rime_rod_of_metamagic": { "copyof": "rod_of_metamagic_rime_normal" },
-	"normal_rime_metamagic_rod": { "copyof": "rod_of_metamagic_rime_normal" },
-	"rime_metamagic_rod": { "copyof": "rod_of_metamagic_rime_normal" },
+	"rod_of_metamagic_rime": { "redirect": "rod_of_metamagic_rime_normal" },
+	"normal_rime_rod_of_metamagic": { "redirect": "rod_of_metamagic_rime_normal" },
+	"rime_rod_of_metamagic": { "redirect": "rod_of_metamagic_rime_normal" },
+	"normal_rime_metamagic_rod": { "redirect": "rod_of_metamagic_rime_normal" },
+	"rime_metamagic_rod": { "redirect": "rod_of_metamagic_rime_normal" },
 	"rod_of_metamagic_scarring_normal": {
 		"name": "Rod of Metamagic, Scarring (normal)",
 		"copyof": "rod_of_metamagic_scarring_lesser"
 	},
-	"rod_of_metamagic_scarring": { "copyof": "rod_of_metamagic_scarring_normal" },
-	"normal_scarring_rod_of_metamagic": { "copyof": "rod_of_metamagic_scarring_normal" },
-	"scarring_rod_of_metamagic": { "copyof": "rod_of_metamagic_scarring_normal" },
-	"normal_scarring_metamagic_rod": { "copyof": "rod_of_metamagic_scarring_normal" },
-	"scarring_metamagic_rod": { "copyof": "rod_of_metamagic_scarring_normal" },
+	"rod_of_metamagic_scarring": { "redirect": "rod_of_metamagic_scarring_normal" },
+	"normal_scarring_rod_of_metamagic": { "redirect": "rod_of_metamagic_scarring_normal" },
+	"scarring_rod_of_metamagic": { "redirect": "rod_of_metamagic_scarring_normal" },
+	"normal_scarring_metamagic_rod": { "redirect": "rod_of_metamagic_scarring_normal" },
+	"scarring_metamagic_rod": { "redirect": "rod_of_metamagic_scarring_normal" },
 	"rod_of_metamagic_selective_normal": {
 		"name": "Rod of Metamagic, Selective (normal)",
 		"copyof": "rod_of_metamagic_selective_lesser"
 	},
-	"rod_of_metamagic_selective": { "copyof": "rod_of_metamagic_selective_normal" },
-	"normal_selective_rod_of_metamagic": { "copyof": "rod_of_metamagic_selective_normal" },
-	"selective_rod_of_metamagic": { "copyof": "rod_of_metamagic_selective_normal" },
-	"normal_selective_metamagic_rod": { "copyof": "rod_of_metamagic_selective_normal" },
-	"selective_metamagic_rod": { "copyof": "rod_of_metamagic_selective_normal" },
+	"rod_of_metamagic_selective": { "redirect": "rod_of_metamagic_selective_normal" },
+	"normal_selective_rod_of_metamagic": { "redirect": "rod_of_metamagic_selective_normal" },
+	"selective_rod_of_metamagic": { "redirect": "rod_of_metamagic_selective_normal" },
+	"normal_selective_metamagic_rod": { "redirect": "rod_of_metamagic_selective_normal" },
+	"selective_metamagic_rod": { "redirect": "rod_of_metamagic_selective_normal" },
 	"rod_of_metamagic_silent_normal": {
 		"name": "Rod of Metamagic, Silent (normal)",
 		"copyof": "rod_of_metamagic_silent_lesser"
 	},
-	"rod_of_metamagic_silent": { "copyof": "rod_of_metamagic_silent_normal" },
-	"normal_silent_rod_of_metamagic": { "copyof": "rod_of_metamagic_silent_normal" },
-	"silent_rod_of_metamagic": { "copyof": "rod_of_metamagic_silent_normal" },
-	"normal_silent_metamagic_rod": { "copyof": "rod_of_metamagic_silent_normal" },
-	"silent_metamagic_rod": { "copyof": "rod_of_metamagic_silent_normal" },
+	"rod_of_metamagic_silent": { "redirect": "rod_of_metamagic_silent_normal" },
+	"normal_silent_rod_of_metamagic": { "redirect": "rod_of_metamagic_silent_normal" },
+	"silent_rod_of_metamagic": { "redirect": "rod_of_metamagic_silent_normal" },
+	"normal_silent_metamagic_rod": { "redirect": "rod_of_metamagic_silent_normal" },
+	"silent_metamagic_rod": { "redirect": "rod_of_metamagic_silent_normal" },
 	"rod_of_metamagic_stable_normal": {
 		"name": "Rod of Metamagic, Stable (normal)",
 		"copyof": "rod_of_metamagic_stable_lesser"
 	},
-	"rod_of_metamagic_stable": { "copyof": "rod_of_metamagic_stable_normal" },
-	"normal_stable_rod_of_metamagic": { "copyof": "rod_of_metamagic_stable_normal" },
-	"stable_rod_of_metamagic": { "copyof": "rod_of_metamagic_stable_normal" },
-	"normal_stable_metamagic_rod": { "copyof": "rod_of_metamagic_stable_normal" },
-	"stable_metamagic_rod": { "copyof": "rod_of_metamagic_stable_normal" },
+	"rod_of_metamagic_stable": { "redirect": "rod_of_metamagic_stable_normal" },
+	"normal_stable_rod_of_metamagic": { "redirect": "rod_of_metamagic_stable_normal" },
+	"stable_rod_of_metamagic": { "redirect": "rod_of_metamagic_stable_normal" },
+	"normal_stable_metamagic_rod": { "redirect": "rod_of_metamagic_stable_normal" },
+	"stable_metamagic_rod": { "redirect": "rod_of_metamagic_stable_normal" },
 	"rod_of_metamagic_toppling_normal": {
 		"name": "Rod of Metamagic, Toppling (normal)",
 		"copyof": "rod_of_metamagic_toppling_lesser"
 	},
-	"rod_of_metamagic_toppling": { "copyof": "rod_of_metamagic_toppling_normal" },
-	"normal_toppling_rod_of_metamagic": { "copyof": "rod_of_metamagic_toppling_normal" },
-	"toppling_rod_of_metamagic": { "copyof": "rod_of_metamagic_toppling_normal" },
-	"normal_toppling_metamagic_rod": { "copyof": "rod_of_metamagic_toppling_normal" },
-	"toppling_metamagic_rod": { "copyof": "rod_of_metamagic_toppling_normal" },
+	"rod_of_metamagic_toppling": { "redirect": "rod_of_metamagic_toppling_normal" },
+	"normal_toppling_rod_of_metamagic": { "redirect": "rod_of_metamagic_toppling_normal" },
+	"toppling_rod_of_metamagic": { "redirect": "rod_of_metamagic_toppling_normal" },
+	"normal_toppling_metamagic_rod": { "redirect": "rod_of_metamagic_toppling_normal" },
+	"toppling_metamagic_rod": { "redirect": "rod_of_metamagic_toppling_normal" },
 	"rod_of_metamagic_tumultuous_normal": {
 		"name": "Rod of Metamagic, Tumultuous (normal)",
 		"copyof": "rod_of_metamagic_tumultuous_lesser"
 	},
-	"rod_of_metamagic_tumultuous": { "copyof": "rod_of_metamagic_tumultuous_normal" },
-	"normal_tumultuous_rod_of_metamagic": { "copyof": "rod_of_metamagic_tumultuous_normal" },
-	"tumultuous_rod_of_metamagic": { "copyof": "rod_of_metamagic_tumultuous_normal" },
-	"normal_tumultuous_metamagic_rod": { "copyof": "rod_of_metamagic_tumultuous_normal" },
-	"tumultuous_metamagic_rod": { "copyof": "rod_of_metamagic_tumultuous_normal" },
+	"rod_of_metamagic_tumultuous": { "redirect": "rod_of_metamagic_tumultuous_normal" },
+	"normal_tumultuous_rod_of_metamagic": { "redirect": "rod_of_metamagic_tumultuous_normal" },
+	"tumultuous_rod_of_metamagic": { "redirect": "rod_of_metamagic_tumultuous_normal" },
+	"normal_tumultuous_metamagic_rod": { "redirect": "rod_of_metamagic_tumultuous_normal" },
+	"tumultuous_metamagic_rod": { "redirect": "rod_of_metamagic_tumultuous_normal" },
 	"rod_of_metamagic_eclipsed_greater": {
 		"name": "Rod of Metamagic, Eclipsed (greater)",
 		"copyof": "rod_of_metamagic_eclipsed_lesser"
 	},
-	"greater_eclipsed_rod_of_metamagic": { "copyof": "rod_of_metamagic_eclipsed_greater" },
-	"greater_eclipsed_metamagic_rod": { "copyof": "rod_of_metamagic_eclipsed_greater" },
+	"greater_eclipsed_rod_of_metamagic": { "redirect": "rod_of_metamagic_eclipsed_greater" },
+	"greater_eclipsed_metamagic_rod": { "redirect": "rod_of_metamagic_eclipsed_greater" },
 	"rod_of_metamagic_merciful_greater": {
 		"name": "Rod of Metamagic, Merciful (greater)",
 		"copyof": "rod_of_metamagic_merciful_lesser"
 	},
-	"greater_merciful_rod_of_metamagic": { "copyof": "rod_of_metamagic_merciful_greater" },
-	"greater_merciful_metamagic_rod": { "copyof": "rod_of_metamagic_merciful_greater" },
+	"greater_merciful_rod_of_metamagic": { "redirect": "rod_of_metamagic_merciful_greater" },
+	"greater_merciful_metamagic_rod": { "redirect": "rod_of_metamagic_merciful_greater" },
 	"rod_of_metamagic_murky_greater": {
 		"name": "Rod of Metamagic, Murky (greater)",
 		"copyof": "rod_of_metamagic_murky_lesser"
 	},
-	"greater_murky_rod_of_metamagic": { "copyof": "rod_of_metamagic_murky_greater" },
-	"greater_murky_metamagic_rod": { "copyof": "rod_of_metamagic_murky_greater" },
+	"greater_murky_rod_of_metamagic": { "redirect": "rod_of_metamagic_murky_greater" },
+	"greater_murky_metamagic_rod": { "redirect": "rod_of_metamagic_murky_greater" },
 	"rod_of_metamagic_steam_greater": {
 		"name": "Rod of Metamagic, Steam (greater)",
 		"copyof": "rod_of_metamagic_steam_lesser"
 	},
-	"greater_steam_rod_of_metamagic": { "copyof": "rod_of_metamagic_steam_greater" },
-	"greater_steam_metamagic_rod": { "copyof": "rod_of_metamagic_steam_greater" },
+	"greater_steam_rod_of_metamagic": { "redirect": "rod_of_metamagic_steam_greater" },
+	"greater_steam_metamagic_rod": { "redirect": "rod_of_metamagic_steam_greater" },
 	"rod_of_metamagic_dazing_lesser": {
 		"name": "Rod of Metamagic, Dazing (lesser)",
 		"sources": [
@@ -3048,9 +3048,9 @@
 			"**Requirements** {feat/Craft Rod}, {feat/Dazing Spell}; **Cost** 7,000 gp (lesser), 27,000 gp (normal), 60,750 gp (greater)"
 		]
 	},
-	"lesser_dazing_rod_of_metamagic": { "copyof": "rod_of_metamagic_dazing_lesser" },
-	"lesser_dazing_metamagic_rod": { "copyof": "rod_of_metamagic_dazing_lesser" },
-	"dazing": { "copyof": "rod_of_metamagic_dazing_lesser" },
+	"lesser_dazing_rod_of_metamagic": { "redirect": "rod_of_metamagic_dazing_lesser" },
+	"lesser_dazing_metamagic_rod": { "redirect": "rod_of_metamagic_dazing_lesser" },
+	"dazing": { "redirect": "rod_of_metamagic_dazing_lesser" },
 	"rod_of_metamagic_echoing_lesser": {
 		"name": "Rod of Metamagic, Echoing (lesser)",
 		"sources": [ "Ultimate Equipment" ],
@@ -3068,9 +3068,9 @@
 			"**Requirements** {feat/Craft Rod}, {feat/Echoing Spell}; **Cost** 7,000 gp (lesser), 27,000 gp (normal), 60,750 gp (greater)"
 		]
 	},
-	"lesser_echoing_rod_of_metamagic": { "copyof": "rod_of_metamagic_echoing_lesser" },
-	"lesser_echoing_metamagic_rod": { "copyof": "rod_of_metamagic_echoing_lesser" },
-	"echoing": { "copyof": "rod_of_metamagic_echoing_lesser" },
+	"lesser_echoing_rod_of_metamagic": { "redirect": "rod_of_metamagic_echoing_lesser" },
+	"lesser_echoing_metamagic_rod": { "redirect": "rod_of_metamagic_echoing_lesser" },
+	"echoing": { "redirect": "rod_of_metamagic_echoing_lesser" },
 	"rod_of_metamagic_familiar_lesser": {
 		"name": "Rod of Metamagic, Familiar (lesser)",
 		"sources": [ "Animal Archive" ],
@@ -3088,9 +3088,9 @@
 			"**Requirements** {feat/Craft Rod}, {feat/Familiar Spell}; **Cost** 7,000 gp (lesser), 27,000 gp (normal), 60,750 gp (greater)"
 		]
 	},
-	"lesser_familiar_rod_of_metamagic": { "copyof": "rod_of_metamagic_familiar_lesser" },
-	"lesser_familiar_metamagic_rod": { "copyof": "rod_of_metamagic_familiar_lesser" },
-	"familiar": { "copyof": "rod_of_metamagic_familiar_lesser" },
+	"lesser_familiar_rod_of_metamagic": { "redirect": "rod_of_metamagic_familiar_lesser" },
+	"lesser_familiar_metamagic_rod": { "redirect": "rod_of_metamagic_familiar_lesser" },
+	"familiar": { "redirect": "rod_of_metamagic_familiar_lesser" },
 	"rod_of_metamagic_maximize_lesser": {
 		"name": "Rod of Metamagic, Maximize (lesser)",
 		"sources": [
@@ -3111,9 +3111,9 @@
 			"**Requirements** {feat/Craft Rod}, {feat/Maximize Spell}; **Cost** 7,000 gp (lesser), 27,000 gp (normal), 60,750 gp (greater)"
 		]
 	},
-	"lesser_maximize_rod_of_metamagic": { "copyof": "rod_of_metamagic_maximize_lesser" },
-	"lesser_maximize_metamagic_rod": { "copyof": "rod_of_metamagic_maximize_lesser" },
-	"maximize": { "copyof": "rod_of_metamagic_maximize_lesser" },
+	"lesser_maximize_rod_of_metamagic": { "redirect": "rod_of_metamagic_maximize_lesser" },
+	"lesser_maximize_metamagic_rod": { "redirect": "rod_of_metamagic_maximize_lesser" },
+	"maximize": { "redirect": "rod_of_metamagic_maximize_lesser" },
 	"rod_of_metamagic_widen_lesser": {
 		"name": "Rod of Metamagic, Widen (lesser)",
 		"sources": [ "Ultimate Equipment" ],
@@ -3131,267 +3131,267 @@
 			"**Requirements** {feat/Craft Rod}, {feat/Widen Spell}; **Cost** 7,000 gp (lesser), 27,000 gp (normal), 60,750 gp (greater)"
 		]
 	},
-	"lesser_widen_rod_of_metamagic": { "copyof": "rod_of_metamagic_widen_lesser" },
-	"lesser_widen_metamagic_rod": { "copyof": "rod_of_metamagic_widen_lesser" },
-	"widen": { "copyof": "rod_of_metamagic_widen_lesser" },
+	"lesser_widen_rod_of_metamagic": { "redirect": "rod_of_metamagic_widen_lesser" },
+	"lesser_widen_metamagic_rod": { "redirect": "rod_of_metamagic_widen_lesser" },
+	"widen": { "redirect": "rod_of_metamagic_widen_lesser" },
 	"rod_of_metamagic_apocalyptic_greater": {
 		"name": "Rod of Metamagic, Apocalyptic (greater)",
 		"copyof": "rod_of_metamagic_apocalyptic_lesser"
 	},
-	"greater_apocalyptic_rod_of_metamagic": { "copyof": "rod_of_metamagic_apocalyptic_greater" },
-	"greater_apocalyptic_metamagic_rod": { "copyof": "rod_of_metamagic_apocalyptic_greater" },
+	"greater_apocalyptic_rod_of_metamagic": { "redirect": "rod_of_metamagic_apocalyptic_greater" },
+	"greater_apocalyptic_metamagic_rod": { "redirect": "rod_of_metamagic_apocalyptic_greater" },
 	"rod_of_metamagic_authoritative_greater": {
 		"name": "Rod of Metamagic, Authoritative (greater)",
 		"copyof": "rod_of_metamagic_authoritative_lesser"
 	},
-	"greater_authoritative_rod_of_metamagic": { "copyof": "rod_of_metamagic_authoritative_greater" },
-	"greater_authoritative_metamagic_rod": { "copyof": "rod_of_metamagic_authoritative_greater" },
+	"greater_authoritative_rod_of_metamagic": { "redirect": "rod_of_metamagic_authoritative_greater" },
+	"greater_authoritative_metamagic_rod": { "redirect": "rod_of_metamagic_authoritative_greater" },
 	"rod_of_metamagic_blissful_greater": {
 		"name": "Rod of Metamagic, Blissful (greater)",
 		"copyof": "rod_of_metamagic_blissful_lesser"
 	},
-	"greater_blissful_rod_of_metamagic": { "copyof": "rod_of_metamagic_blissful_greater" },
-	"greater_blissful_metamagic_rod": { "copyof": "rod_of_metamagic_blissful_greater" },
+	"greater_blissful_rod_of_metamagic": { "redirect": "rod_of_metamagic_blissful_greater" },
+	"greater_blissful_metamagic_rod": { "redirect": "rod_of_metamagic_blissful_greater" },
 	"rod_of_metamagic_bouncing_greater": {
 		"name": "Rod of Metamagic, Bouncing (greater)",
 		"copyof": "rod_of_metamagic_bouncing_lesser"
 	},
-	"greater_bouncing_rod_of_metamagic": { "copyof": "rod_of_metamagic_bouncing_greater" },
-	"greater_bouncing_metamagic_rod": { "copyof": "rod_of_metamagic_bouncing_greater" },
+	"greater_bouncing_rod_of_metamagic": { "redirect": "rod_of_metamagic_bouncing_greater" },
+	"greater_bouncing_metamagic_rod": { "redirect": "rod_of_metamagic_bouncing_greater" },
 	"rod_of_metamagic_crypt_greater": {
 		"name": "Rod of Metamagic, Crypt (greater)",
 		"copyof": "rod_of_metamagic_crypt_lesser"
 	},
-	"greater_crypt_rod_of_metamagic": { "copyof": "rod_of_metamagic_crypt_greater" },
-	"greater_crypt_metamagic_rod": { "copyof": "rod_of_metamagic_crypt_greater" },
+	"greater_crypt_rod_of_metamagic": { "redirect": "rod_of_metamagic_crypt_greater" },
+	"greater_crypt_metamagic_rod": { "redirect": "rod_of_metamagic_crypt_greater" },
 	"rod_of_metamagic_disruptive_greater": {
 		"name": "Rod of Metamagic, Disruptive (greater)",
 		"copyof": "rod_of_metamagic_disruptive_lesser"
 	},
-	"greater_disruptive_rod_of_metamagic": { "copyof": "rod_of_metamagic_disruptive_greater" },
-	"greater_disruptive_metamagic_rod": { "copyof": "rod_of_metamagic_disruptive_greater" },
+	"greater_disruptive_rod_of_metamagic": { "redirect": "rod_of_metamagic_disruptive_greater" },
+	"greater_disruptive_metamagic_rod": { "redirect": "rod_of_metamagic_disruptive_greater" },
 	"rod_of_metamagic_ectoplasmic_greater": {
 		"name": "Rod of Metamagic, Ectoplasmic (greater)",
 		"copyof": "rod_of_metamagic_ectoplasmic_lesser"
 	},
-	"greater_ectoplasmic_rod_of_metamagic": { "copyof": "rod_of_metamagic_ectoplasmic_greater" },
-	"greater_ectoplasmic_metamagic_rod": { "copyof": "rod_of_metamagic_ectoplasmic_greater" },
+	"greater_ectoplasmic_rod_of_metamagic": { "redirect": "rod_of_metamagic_ectoplasmic_greater" },
+	"greater_ectoplasmic_metamagic_rod": { "redirect": "rod_of_metamagic_ectoplasmic_greater" },
 	"rod_of_metamagic_elemental_greater": {
 		"name": "Rod of Metamagic, Elemental (greater)",
 		"copyof": "rod_of_metamagic_elemental_lesser"
 	},
-	"greater_elemental_rod_of_metamagic": { "copyof": "rod_of_metamagic_elemental_greater" },
-	"greater_elemental_metamagic_rod": { "copyof": "rod_of_metamagic_elemental_greater" },
+	"greater_elemental_rod_of_metamagic": { "redirect": "rod_of_metamagic_elemental_greater" },
+	"greater_elemental_metamagic_rod": { "redirect": "rod_of_metamagic_elemental_greater" },
 	"rod_of_metamagic_enlarge_greater": {
 		"name": "Rod of Metamagic, Enlarge (greater)",
 		"copyof": "rod_of_metamagic_enlarge_lesser"
 	},
-	"greater_enlarge_rod_of_metamagic": { "copyof": "rod_of_metamagic_enlarge_greater" },
-	"greater_enlarge_metamagic_rod": { "copyof": "rod_of_metamagic_enlarge_greater" },
+	"greater_enlarge_rod_of_metamagic": { "redirect": "rod_of_metamagic_enlarge_greater" },
+	"greater_enlarge_metamagic_rod": { "redirect": "rod_of_metamagic_enlarge_greater" },
 	"rod_of_metamagic_extend_greater": {
 		"name": "Rod of Metamagic, Extend (greater)",
 		"copyof": "rod_of_metamagic_extend_lesser"
 	},
-	"greater_extend_rod_of_metamagic": { "copyof": "rod_of_metamagic_extend_greater" },
-	"greater_extend_metamagic_rod": { "copyof": "rod_of_metamagic_extend_greater" },
+	"greater_extend_rod_of_metamagic": { "redirect": "rod_of_metamagic_extend_greater" },
+	"greater_extend_metamagic_rod": { "redirect": "rod_of_metamagic_extend_greater" },
 	"rod_of_metamagic_flaring_greater": {
 		"name": "Rod of Metamagic, Flaring (greater)",
 		"copyof": "rod_of_metamagic_flaring_lesser"
 	},
-	"greater_flaring_rod_of_metamagic": { "copyof": "rod_of_metamagic_flaring_greater" },
-	"greater_flaring_metamagic_rod": { "copyof": "rod_of_metamagic_flaring_greater" },
+	"greater_flaring_rod_of_metamagic": { "redirect": "rod_of_metamagic_flaring_greater" },
+	"greater_flaring_metamagic_rod": { "redirect": "rod_of_metamagic_flaring_greater" },
 	"rod_of_metamagic_focused_greater": {
 		"name": "Rod of Metamagic, Focused (greater)",
 		"copyof": "rod_of_metamagic_focused_lesser"
 	},
-	"greater_focused_rod_of_metamagic": { "copyof": "rod_of_metamagic_focused_greater" },
-	"greater_focused_metamagic_rod": { "copyof": "rod_of_metamagic_focused_greater" },
+	"greater_focused_rod_of_metamagic": { "redirect": "rod_of_metamagic_focused_greater" },
+	"greater_focused_metamagic_rod": { "redirect": "rod_of_metamagic_focused_greater" },
 	"rod_of_metamagic_furious_greater": {
 		"name": "Rod of Metamagic, Furious (greater)",
 		"copyof": "rod_of_metamagic_furious_lesser"
 	},
-	"greater_furious_rod_of_metamagic": { "copyof": "rod_of_metamagic_furious_greater" },
-	"greater_furious_metamagic_rod": { "copyof": "rod_of_metamagic_furious_greater" },
+	"greater_furious_rod_of_metamagic": { "redirect": "rod_of_metamagic_furious_greater" },
+	"greater_furious_metamagic_rod": { "redirect": "rod_of_metamagic_furious_greater" },
 	"rod_of_metamagic_intensified_greater": {
 		"name": "Rod of Metamagic, Intensified (greater)",
 		"copyof": "rod_of_metamagic_intensified_lesser"
 	},
-	"greater_intensified_rod_of_metamagic": { "copyof": "rod_of_metamagic_intensified_greater" },
-	"greater_intensified_metamagic_rod": { "copyof": "rod_of_metamagic_intensified_greater" },
+	"greater_intensified_rod_of_metamagic": { "redirect": "rod_of_metamagic_intensified_greater" },
+	"greater_intensified_metamagic_rod": { "redirect": "rod_of_metamagic_intensified_greater" },
 	"rod_of_metamagic_lingering_greater": {
 		"name": "Rod of Metamagic, Lingering (greater)",
 		"copyof": "rod_of_metamagic_lingering_lesser"
 	},
-	"greater_lingering_rod_of_metamagic": { "copyof": "rod_of_metamagic_lingering_greater" },
-	"greater_lingering_metamagic_rod": { "copyof": "rod_of_metamagic_lingering_greater" },
+	"greater_lingering_rod_of_metamagic": { "redirect": "rod_of_metamagic_lingering_greater" },
+	"greater_lingering_metamagic_rod": { "redirect": "rod_of_metamagic_lingering_greater" },
 	"rod_of_metamagic_logical_greater": {
 		"name": "Rod of Metamagic, Logical (greater)",
 		"copyof": "rod_of_metamagic_logical_lesser"
 	},
-	"greater_logical_rod_of_metamagic": { "copyof": "rod_of_metamagic_logical_greater" },
-	"greater_logical_metamagic_rod": { "copyof": "rod_of_metamagic_logical_greater" },
+	"greater_logical_rod_of_metamagic": { "redirect": "rod_of_metamagic_logical_greater" },
+	"greater_logical_metamagic_rod": { "redirect": "rod_of_metamagic_logical_greater" },
 	"rod_of_metamagic_piercing_greater": {
 		"name": "Rod of Metamagic, Piercing (greater)",
 		"copyof": "rod_of_metamagic_piercing_lesser"
 	},
-	"greater_piercing_rod_of_metamagic": { "copyof": "rod_of_metamagic_piercing_greater" },
-	"greater_piercing_metamagic_rod": { "copyof": "rod_of_metamagic_piercing_greater" },
+	"greater_piercing_rod_of_metamagic": { "redirect": "rod_of_metamagic_piercing_greater" },
+	"greater_piercing_metamagic_rod": { "redirect": "rod_of_metamagic_piercing_greater" },
 	"rod_of_metamagic_reach_greater": {
 		"name": "Rod of Metamagic, Reach (greater)",
 		"copyof": "rod_of_metamagic_reach_lesser"
 	},
-	"greater_reach_rod_of_metamagic": { "copyof": "rod_of_metamagic_reach_greater" },
-	"greater_reach_metamagic_rod": { "copyof": "rod_of_metamagic_reach_greater" },
+	"greater_reach_rod_of_metamagic": { "redirect": "rod_of_metamagic_reach_greater" },
+	"greater_reach_metamagic_rod": { "redirect": "rod_of_metamagic_reach_greater" },
 	"rod_of_metamagic_rime_greater": {
 		"name": "Rod of Metamagic, Rime (greater)",
 		"copyof": "rod_of_metamagic_rime_lesser"
 	},
-	"greater_rime_rod_of_metamagic": { "copyof": "rod_of_metamagic_rime_greater" },
-	"greater_rime_metamagic_rod": { "copyof": "rod_of_metamagic_rime_greater" },
+	"greater_rime_rod_of_metamagic": { "redirect": "rod_of_metamagic_rime_greater" },
+	"greater_rime_metamagic_rod": { "redirect": "rod_of_metamagic_rime_greater" },
 	"rod_of_metamagic_scarring_greater": {
 		"name": "Rod of Metamagic, Scarring (greater)",
 		"copyof": "rod_of_metamagic_scarring_lesser"
 	},
-	"greater_scarring_rod_of_metamagic": { "copyof": "rod_of_metamagic_scarring_greater" },
-	"greater_scarring_metamagic_rod": { "copyof": "rod_of_metamagic_scarring_greater" },
+	"greater_scarring_rod_of_metamagic": { "redirect": "rod_of_metamagic_scarring_greater" },
+	"greater_scarring_metamagic_rod": { "redirect": "rod_of_metamagic_scarring_greater" },
 	"rod_of_metamagic_selective_greater": {
 		"name": "Rod of Metamagic, Selective (greater)",
 		"copyof": "rod_of_metamagic_selective_lesser"
 	},
-	"greater_selective_rod_of_metamagic": { "copyof": "rod_of_metamagic_selective_greater" },
-	"greater_selective_metamagic_rod": { "copyof": "rod_of_metamagic_selective_greater" },
+	"greater_selective_rod_of_metamagic": { "redirect": "rod_of_metamagic_selective_greater" },
+	"greater_selective_metamagic_rod": { "redirect": "rod_of_metamagic_selective_greater" },
 	"rod_of_metamagic_silent_greater": {
 		"name": "Rod of Metamagic, Silent (greater)",
 		"copyof": "rod_of_metamagic_silent_lesser"
 	},
-	"greater_silent_rod_of_metamagic": { "copyof": "rod_of_metamagic_silent_greater" },
-	"greater_silent_metamagic_rod": { "copyof": "rod_of_metamagic_silent_greater" },
+	"greater_silent_rod_of_metamagic": { "redirect": "rod_of_metamagic_silent_greater" },
+	"greater_silent_metamagic_rod": { "redirect": "rod_of_metamagic_silent_greater" },
 	"rod_of_metamagic_stable_greater": {
 		"name": "Rod of Metamagic, Stable (greater)",
 		"copyof": "rod_of_metamagic_stable_lesser"
 	},
-	"greater_stable_rod_of_metamagic": { "copyof": "rod_of_metamagic_stable_greater" },
-	"greater_stable_metamagic_rod": { "copyof": "rod_of_metamagic_stable_greater" },
+	"greater_stable_rod_of_metamagic": { "redirect": "rod_of_metamagic_stable_greater" },
+	"greater_stable_metamagic_rod": { "redirect": "rod_of_metamagic_stable_greater" },
 	"rod_of_metamagic_toppling_greater": {
 		"name": "Rod of Metamagic, Toppling (greater)",
 		"copyof": "rod_of_metamagic_toppling_lesser"
 	},
-	"greater_toppling_rod_of_metamagic": { "copyof": "rod_of_metamagic_toppling_greater" },
-	"greater_toppling_metamagic_rod": { "copyof": "rod_of_metamagic_toppling_greater" },
+	"greater_toppling_rod_of_metamagic": { "redirect": "rod_of_metamagic_toppling_greater" },
+	"greater_toppling_metamagic_rod": { "redirect": "rod_of_metamagic_toppling_greater" },
 	"rod_of_metamagic_tumultuous_greater": {
 		"name": "Rod of Metamagic, Tumultuous (greater)",
 		"copyof": "rod_of_metamagic_tumultuous_lesser"
 	},
-	"greater_tumultuous_rod_of_metamagic": { "copyof": "rod_of_metamagic_tumultuous_greater" },
-	"greater_tumultuous_metamagic_rod": { "copyof": "rod_of_metamagic_tumultuous_greater" },
+	"greater_tumultuous_rod_of_metamagic": { "redirect": "rod_of_metamagic_tumultuous_greater" },
+	"greater_tumultuous_metamagic_rod": { "redirect": "rod_of_metamagic_tumultuous_greater" },
 	"rod_of_metamagic_burning_normal": {
 		"name": "Rod of Metamagic, Burning (normal)",
 		"copyof": "rod_of_metamagic_burning_lesser"
 	},
-	"rod_of_metamagic_burning": { "copyof": "rod_of_metamagic_burning_normal" },
-	"normal_burning_rod_of_metamagic": { "copyof": "rod_of_metamagic_burning_normal" },
-	"burning_rod_of_metamagic": { "copyof": "rod_of_metamagic_burning_normal" },
-	"normal_burning_metamagic_rod": { "copyof": "rod_of_metamagic_burning_normal" },
-	"burning_metamagic_rod": { "copyof": "rod_of_metamagic_burning_normal" },
+	"rod_of_metamagic_burning": { "redirect": "rod_of_metamagic_burning_normal" },
+	"normal_burning_rod_of_metamagic": { "redirect": "rod_of_metamagic_burning_normal" },
+	"burning_rod_of_metamagic": { "redirect": "rod_of_metamagic_burning_normal" },
+	"normal_burning_metamagic_rod": { "redirect": "rod_of_metamagic_burning_normal" },
+	"burning_metamagic_rod": { "redirect": "rod_of_metamagic_burning_normal" },
 	"rod_of_metamagic_concussive_normal": {
 		"name": "Rod of Metamagic, Concussive (normal)",
 		"copyof": "rod_of_metamagic_concussive_lesser"
 	},
-	"rod_of_metamagic_concussive": { "copyof": "rod_of_metamagic_concussive_normal" },
-	"normal_concussive_rod_of_metamagic": { "copyof": "rod_of_metamagic_concussive_normal" },
-	"concussive_rod_of_metamagic": { "copyof": "rod_of_metamagic_concussive_normal" },
-	"normal_concussive_metamagic_rod": { "copyof": "rod_of_metamagic_concussive_normal" },
-	"concussive_metamagic_rod": { "copyof": "rod_of_metamagic_concussive_normal" },
+	"rod_of_metamagic_concussive": { "redirect": "rod_of_metamagic_concussive_normal" },
+	"normal_concussive_rod_of_metamagic": { "redirect": "rod_of_metamagic_concussive_normal" },
+	"concussive_rod_of_metamagic": { "redirect": "rod_of_metamagic_concussive_normal" },
+	"normal_concussive_metamagic_rod": { "redirect": "rod_of_metamagic_concussive_normal" },
+	"concussive_metamagic_rod": { "redirect": "rod_of_metamagic_concussive_normal" },
 	"rod_of_metamagic_empower_normal": {
 		"name": "Rod of Metamagic, Empower (normal)",
 		"copyof": "rod_of_metamagic_empower_lesser"
 	},
-	"rod_of_metamagic_empower": { "copyof": "rod_of_metamagic_empower_normal" },
-	"normal_empower_rod_of_metamagic": { "copyof": "rod_of_metamagic_empower_normal" },
-	"empower_rod_of_metamagic": { "copyof": "rod_of_metamagic_empower_normal" },
-	"normal_empower_metamagic_rod": { "copyof": "rod_of_metamagic_empower_normal" },
-	"empower_metamagic_rod": { "copyof": "rod_of_metamagic_empower_normal" },
+	"rod_of_metamagic_empower": { "redirect": "rod_of_metamagic_empower_normal" },
+	"normal_empower_rod_of_metamagic": { "redirect": "rod_of_metamagic_empower_normal" },
+	"empower_rod_of_metamagic": { "redirect": "rod_of_metamagic_empower_normal" },
+	"normal_empower_metamagic_rod": { "redirect": "rod_of_metamagic_empower_normal" },
+	"empower_metamagic_rod": { "redirect": "rod_of_metamagic_empower_normal" },
 	"rod_of_metamagic_fearsome_normal": {
 		"name": "Rod of Metamagic, Fearsome (normal)",
 		"copyof": "rod_of_metamagic_fearsome_lesser"
 	},
-	"rod_of_metamagic_fearsome": { "copyof": "rod_of_metamagic_fearsome_normal" },
-	"normal_fearsome_rod_of_metamagic": { "copyof": "rod_of_metamagic_fearsome_normal" },
-	"fearsome_rod_of_metamagic": { "copyof": "rod_of_metamagic_fearsome_normal" },
-	"normal_fearsome_metamagic_rod": { "copyof": "rod_of_metamagic_fearsome_normal" },
-	"fearsome_metamagic_rod": { "copyof": "rod_of_metamagic_fearsome_normal" },
+	"rod_of_metamagic_fearsome": { "redirect": "rod_of_metamagic_fearsome_normal" },
+	"normal_fearsome_rod_of_metamagic": { "redirect": "rod_of_metamagic_fearsome_normal" },
+	"fearsome_rod_of_metamagic": { "redirect": "rod_of_metamagic_fearsome_normal" },
+	"normal_fearsome_metamagic_rod": { "redirect": "rod_of_metamagic_fearsome_normal" },
+	"fearsome_metamagic_rod": { "redirect": "rod_of_metamagic_fearsome_normal" },
 	"rod_of_metamagic_persistent_normal": {
 		"name": "Rod of Metamagic, Persistent (normal)",
 		"copyof": "rod_of_metamagic_persistent_lesser"
 	},
-	"rod_of_metamagic_persistent": { "copyof": "rod_of_metamagic_persistent_normal" },
-	"normal_persistent_rod_of_metamagic": { "copyof": "rod_of_metamagic_persistent_normal" },
-	"persistent_rod_of_metamagic": { "copyof": "rod_of_metamagic_persistent_normal" },
-	"normal_persistent_metamagic_rod": { "copyof": "rod_of_metamagic_persistent_normal" },
-	"persistent_metamagic_rod": { "copyof": "rod_of_metamagic_persistent_normal" },
+	"rod_of_metamagic_persistent": { "redirect": "rod_of_metamagic_persistent_normal" },
+	"normal_persistent_rod_of_metamagic": { "redirect": "rod_of_metamagic_persistent_normal" },
+	"persistent_rod_of_metamagic": { "redirect": "rod_of_metamagic_persistent_normal" },
+	"normal_persistent_metamagic_rod": { "redirect": "rod_of_metamagic_persistent_normal" },
+	"persistent_metamagic_rod": { "redirect": "rod_of_metamagic_persistent_normal" },
 	"rod_of_metamagic_sickening_normal": {
 		"name": "Rod of Metamagic, Sickening (normal)",
 		"copyof": "rod_of_metamagic_sickening_lesser"
 	},
-	"rod_of_metamagic_sickening": { "copyof": "rod_of_metamagic_sickening_normal" },
-	"normal_sickening_rod_of_metamagic": { "copyof": "rod_of_metamagic_sickening_normal" },
-	"sickening_rod_of_metamagic": { "copyof": "rod_of_metamagic_sickening_normal" },
-	"normal_sickening_metamagic_rod": { "copyof": "rod_of_metamagic_sickening_normal" },
-	"sickening_metamagic_rod": { "copyof": "rod_of_metamagic_sickening_normal" },
+	"rod_of_metamagic_sickening": { "redirect": "rod_of_metamagic_sickening_normal" },
+	"normal_sickening_rod_of_metamagic": { "redirect": "rod_of_metamagic_sickening_normal" },
+	"sickening_rod_of_metamagic": { "redirect": "rod_of_metamagic_sickening_normal" },
+	"normal_sickening_metamagic_rod": { "redirect": "rod_of_metamagic_sickening_normal" },
+	"sickening_metamagic_rod": { "redirect": "rod_of_metamagic_sickening_normal" },
 	"rod_of_metamagic_snuffing_normal": {
 		"name": "Rod of Metamagic, Snuffing (normal)",
 		"copyof": "rod_of_metamagic_snuffing_lesser"
 	},
-	"rod_of_metamagic_snuffing": { "copyof": "rod_of_metamagic_snuffing_normal" },
-	"normal_snuffing_rod_of_metamagic": { "copyof": "rod_of_metamagic_snuffing_normal" },
-	"snuffing_rod_of_metamagic": { "copyof": "rod_of_metamagic_snuffing_normal" },
-	"normal_snuffing_metamagic_rod": { "copyof": "rod_of_metamagic_snuffing_normal" },
-	"snuffing_metamagic_rod": { "copyof": "rod_of_metamagic_snuffing_normal" },
+	"rod_of_metamagic_snuffing": { "redirect": "rod_of_metamagic_snuffing_normal" },
+	"normal_snuffing_rod_of_metamagic": { "redirect": "rod_of_metamagic_snuffing_normal" },
+	"snuffing_rod_of_metamagic": { "redirect": "rod_of_metamagic_snuffing_normal" },
+	"normal_snuffing_metamagic_rod": { "redirect": "rod_of_metamagic_snuffing_normal" },
+	"snuffing_metamagic_rod": { "redirect": "rod_of_metamagic_snuffing_normal" },
 	"rod_of_metamagic_stygian_normal": {
 		"name": "Rod of Metamagic, Stygian (normal)",
 		"copyof": "rod_of_metamagic_stygian_lesser"
 	},
-	"rod_of_metamagic_stygian": { "copyof": "rod_of_metamagic_stygian_normal" },
-	"normal_stygian_rod_of_metamagic": { "copyof": "rod_of_metamagic_stygian_normal" },
-	"stygian_rod_of_metamagic": { "copyof": "rod_of_metamagic_stygian_normal" },
-	"normal_stygian_metamagic_rod": { "copyof": "rod_of_metamagic_stygian_normal" },
-	"stygian_metamagic_rod": { "copyof": "rod_of_metamagic_stygian_normal" },
+	"rod_of_metamagic_stygian": { "redirect": "rod_of_metamagic_stygian_normal" },
+	"normal_stygian_rod_of_metamagic": { "redirect": "rod_of_metamagic_stygian_normal" },
+	"stygian_rod_of_metamagic": { "redirect": "rod_of_metamagic_stygian_normal" },
+	"normal_stygian_metamagic_rod": { "redirect": "rod_of_metamagic_stygian_normal" },
+	"stygian_metamagic_rod": { "redirect": "rod_of_metamagic_stygian_normal" },
 	"rod_of_metamagic_thanatopic_normal": {
 		"name": "Rod of Metamagic, Thanatopic (normal)",
 		"copyof": "rod_of_metamagic_thanatopic_lesser"
 	},
-	"rod_of_metamagic_thanatopic": { "copyof": "rod_of_metamagic_thanatopic_normal" },
-	"normal_thanatopic_rod_of_metamagic": { "copyof": "rod_of_metamagic_thanatopic_normal" },
-	"thanatopic_rod_of_metamagic": { "copyof": "rod_of_metamagic_thanatopic_normal" },
-	"normal_thanatopic_metamagic_rod": { "copyof": "rod_of_metamagic_thanatopic_normal" },
-	"thanatopic_metamagic_rod": { "copyof": "rod_of_metamagic_thanatopic_normal" },
+	"rod_of_metamagic_thanatopic": { "redirect": "rod_of_metamagic_thanatopic_normal" },
+	"normal_thanatopic_rod_of_metamagic": { "redirect": "rod_of_metamagic_thanatopic_normal" },
+	"thanatopic_rod_of_metamagic": { "redirect": "rod_of_metamagic_thanatopic_normal" },
+	"normal_thanatopic_metamagic_rod": { "redirect": "rod_of_metamagic_thanatopic_normal" },
+	"thanatopic_metamagic_rod": { "redirect": "rod_of_metamagic_thanatopic_normal" },
 	"rod_of_metamagic_threnodic_normal": {
 		"name": "Rod of Metamagic, Threnodic (normal)",
 		"copyof": "rod_of_metamagic_threnodic_lesser"
 	},
-	"rod_of_metamagic_threnodic": { "copyof": "rod_of_metamagic_threnodic_normal" },
-	"normal_threnodic_rod_of_metamagic": { "copyof": "rod_of_metamagic_threnodic_normal" },
-	"threnodic_rod_of_metamagic": { "copyof": "rod_of_metamagic_threnodic_normal" },
-	"normal_threnodic_metamagic_rod": { "copyof": "rod_of_metamagic_threnodic_normal" },
-	"threnodic_metamagic_rod": { "copyof": "rod_of_metamagic_threnodic_normal" },
+	"rod_of_metamagic_threnodic": { "redirect": "rod_of_metamagic_threnodic_normal" },
+	"normal_threnodic_rod_of_metamagic": { "redirect": "rod_of_metamagic_threnodic_normal" },
+	"threnodic_rod_of_metamagic": { "redirect": "rod_of_metamagic_threnodic_normal" },
+	"normal_threnodic_metamagic_rod": { "redirect": "rod_of_metamagic_threnodic_normal" },
+	"threnodic_metamagic_rod": { "redirect": "rod_of_metamagic_threnodic_normal" },
 	"rod_of_metamagic_thundering_normal": {
 		"name": "Rod of Metamagic, Thundering (normal)",
 		"copyof": "rod_of_metamagic_thundering_lesser"
 	},
-	"rod_of_metamagic_thundering": { "copyof": "rod_of_metamagic_thundering_normal" },
-	"normal_thundering_rod_of_metamagic": { "copyof": "rod_of_metamagic_thundering_normal" },
-	"thundering_rod_of_metamagic": { "copyof": "rod_of_metamagic_thundering_normal" },
-	"normal_thundering_metamagic_rod": { "copyof": "rod_of_metamagic_thundering_normal" },
-	"thundering_metamagic_rod": { "copyof": "rod_of_metamagic_thundering_normal" },
+	"rod_of_metamagic_thundering": { "redirect": "rod_of_metamagic_thundering_normal" },
+	"normal_thundering_rod_of_metamagic": { "redirect": "rod_of_metamagic_thundering_normal" },
+	"thundering_rod_of_metamagic": { "redirect": "rod_of_metamagic_thundering_normal" },
+	"normal_thundering_metamagic_rod": { "redirect": "rod_of_metamagic_thundering_normal" },
+	"thundering_metamagic_rod": { "redirect": "rod_of_metamagic_thundering_normal" },
 	"rod_of_metamagic_traumatic_normal": {
 		"name": "Rod of Metamagic, Traumatic (normal)",
 		"copyof": "rod_of_metamagic_traumatic_lesser"
 	},
-	"rod_of_metamagic_traumatic": { "copyof": "rod_of_metamagic_traumatic_normal" },
-	"normal_traumatic_rod_of_metamagic": { "copyof": "rod_of_metamagic_traumatic_normal" },
-	"traumatic_rod_of_metamagic": { "copyof": "rod_of_metamagic_traumatic_normal" },
-	"normal_traumatic_metamagic_rod": { "copyof": "rod_of_metamagic_traumatic_normal" },
-	"traumatic_metamagic_rod": { "copyof": "rod_of_metamagic_traumatic_normal" },
+	"rod_of_metamagic_traumatic": { "redirect": "rod_of_metamagic_traumatic_normal" },
+	"normal_traumatic_rod_of_metamagic": { "redirect": "rod_of_metamagic_traumatic_normal" },
+	"traumatic_rod_of_metamagic": { "redirect": "rod_of_metamagic_traumatic_normal" },
+	"normal_traumatic_metamagic_rod": { "redirect": "rod_of_metamagic_traumatic_normal" },
+	"traumatic_metamagic_rod": { "redirect": "rod_of_metamagic_traumatic_normal" },
 	"rod_of_metamagic_quicken_lesser": {
 		"name": "Rod of Metamagic, Quicken (lesser)",
 		"sources": [
@@ -3412,171 +3412,171 @@
 			"**Requirements** {feat/Craft Rod}, {feat/Quicken Spell}; **Cost** 17,500 gp (lesser), 37,750 gp (normal), 85,000 gp (greater)"
 		]
 	},
-	"lesser_quicken_rod_of_metamagic": { "copyof": "rod_of_metamagic_quicken_lesser" },
-	"lesser_quicken_metamagic_rod": { "copyof": "rod_of_metamagic_quicken_lesser" },
-	"quicken": { "copyof": "rod_of_metamagic_quicken_lesser" },
+	"lesser_quicken_rod_of_metamagic": { "redirect": "rod_of_metamagic_quicken_lesser" },
+	"lesser_quicken_metamagic_rod": { "redirect": "rod_of_metamagic_quicken_lesser" },
+	"quicken": { "redirect": "rod_of_metamagic_quicken_lesser" },
 	"rod_of_metamagic_dazing_normal": {
 		"name": "Rod of Metamagic, Dazing (normal)",
 		"copyof": "rod_of_metamagic_dazing_lesser"
 	},
-	"rod_of_metamagic_dazing": { "copyof": "rod_of_metamagic_dazing_normal" },
-	"normal_dazing_rod_of_metamagic": { "copyof": "rod_of_metamagic_dazing_normal" },
-	"dazing_rod_of_metamagic": { "copyof": "rod_of_metamagic_dazing_normal" },
-	"normal_dazing_metamagic_rod": { "copyof": "rod_of_metamagic_dazing_normal" },
-	"dazing_metamagic_rod": { "copyof": "rod_of_metamagic_dazing_normal" },
+	"rod_of_metamagic_dazing": { "redirect": "rod_of_metamagic_dazing_normal" },
+	"normal_dazing_rod_of_metamagic": { "redirect": "rod_of_metamagic_dazing_normal" },
+	"dazing_rod_of_metamagic": { "redirect": "rod_of_metamagic_dazing_normal" },
+	"normal_dazing_metamagic_rod": { "redirect": "rod_of_metamagic_dazing_normal" },
+	"dazing_metamagic_rod": { "redirect": "rod_of_metamagic_dazing_normal" },
 	"rod_of_metamagic_echoing_normal": {
 		"name": "Rod of Metamagic, Echoing (normal)",
 		"copyof": "rod_of_metamagic_echoing_lesser"
 	},
-	"rod_of_metamagic_echoing": { "copyof": "rod_of_metamagic_echoing_normal" },
-	"normal_echoing_rod_of_metamagic": { "copyof": "rod_of_metamagic_echoing_normal" },
-	"echoing_rod_of_metamagic": { "copyof": "rod_of_metamagic_echoing_normal" },
-	"normal_echoing_metamagic_rod": { "copyof": "rod_of_metamagic_echoing_normal" },
-	"echoing_metamagic_rod": { "copyof": "rod_of_metamagic_echoing_normal" },
+	"rod_of_metamagic_echoing": { "redirect": "rod_of_metamagic_echoing_normal" },
+	"normal_echoing_rod_of_metamagic": { "redirect": "rod_of_metamagic_echoing_normal" },
+	"echoing_rod_of_metamagic": { "redirect": "rod_of_metamagic_echoing_normal" },
+	"normal_echoing_metamagic_rod": { "redirect": "rod_of_metamagic_echoing_normal" },
+	"echoing_metamagic_rod": { "redirect": "rod_of_metamagic_echoing_normal" },
 	"rod_of_metamagic_familiar_normal": {
 		"name": "Rod of Metamagic, Familiar (normal)",
 		"copyof": "rod_of_metamagic_familiar_lesser"
 	},
-	"rod_of_metamagic_familiar": { "copyof": "rod_of_metamagic_familiar_normal" },
-	"normal_familiar_rod_of_metamagic": { "copyof": "rod_of_metamagic_familiar_normal" },
-	"familiar_rod_of_metamagic": { "copyof": "rod_of_metamagic_familiar_normal" },
-	"normal_familiar_metamagic_rod": { "copyof": "rod_of_metamagic_familiar_normal" },
-	"familiar_metamagic_rod": { "copyof": "rod_of_metamagic_familiar_normal" },
+	"rod_of_metamagic_familiar": { "redirect": "rod_of_metamagic_familiar_normal" },
+	"normal_familiar_rod_of_metamagic": { "redirect": "rod_of_metamagic_familiar_normal" },
+	"familiar_rod_of_metamagic": { "redirect": "rod_of_metamagic_familiar_normal" },
+	"normal_familiar_metamagic_rod": { "redirect": "rod_of_metamagic_familiar_normal" },
+	"familiar_metamagic_rod": { "redirect": "rod_of_metamagic_familiar_normal" },
 	"rod_of_metamagic_maximize_normal": {
 		"name": "Rod of Metamagic, Maximize (normal)",
 		"copyof": "rod_of_metamagic_maximize_lesser"
 	},
-	"rod_of_metamagic_maximize": { "copyof": "rod_of_metamagic_maximize_normal" },
-	"normal_maximize_rod_of_metamagic": { "copyof": "rod_of_metamagic_maximize_normal" },
-	"maximize_rod_of_metamagic": { "copyof": "rod_of_metamagic_maximize_normal" },
-	"normal_maximize_metamagic_rod": { "copyof": "rod_of_metamagic_maximize_normal" },
-	"maximize_metamagic_rod": { "copyof": "rod_of_metamagic_maximize_normal" },
+	"rod_of_metamagic_maximize": { "redirect": "rod_of_metamagic_maximize_normal" },
+	"normal_maximize_rod_of_metamagic": { "redirect": "rod_of_metamagic_maximize_normal" },
+	"maximize_rod_of_metamagic": { "redirect": "rod_of_metamagic_maximize_normal" },
+	"normal_maximize_metamagic_rod": { "redirect": "rod_of_metamagic_maximize_normal" },
+	"maximize_metamagic_rod": { "redirect": "rod_of_metamagic_maximize_normal" },
 	"rod_of_metamagic_widen_normal": {
 		"name": "Rod of Metamagic, Widen (normal)",
 		"copyof": "rod_of_metamagic_widen_lesser"
 	},
-	"rod_of_metamagic_widen": { "copyof": "rod_of_metamagic_widen_normal" },
-	"normal_widen_rod_of_metamagic": { "copyof": "rod_of_metamagic_widen_normal" },
-	"widen_rod_of_metamagic": { "copyof": "rod_of_metamagic_widen_normal" },
-	"normal_widen_metamagic_rod": { "copyof": "rod_of_metamagic_widen_normal" },
-	"widen_metamagic_rod": { "copyof": "rod_of_metamagic_widen_normal" },
+	"rod_of_metamagic_widen": { "redirect": "rod_of_metamagic_widen_normal" },
+	"normal_widen_rod_of_metamagic": { "redirect": "rod_of_metamagic_widen_normal" },
+	"widen_rod_of_metamagic": { "redirect": "rod_of_metamagic_widen_normal" },
+	"normal_widen_metamagic_rod": { "redirect": "rod_of_metamagic_widen_normal" },
+	"widen_metamagic_rod": { "redirect": "rod_of_metamagic_widen_normal" },
 	"rod_of_metamagic_burning_greater": {
 		"name": "Rod of Metamagic, Burning (greater)",
 		"copyof": "rod_of_metamagic_burning_lesser"
 	},
-	"greater_burning_rod_of_metamagic": { "copyof": "rod_of_metamagic_burning_greater" },
-	"greater_burning_metamagic_rod": { "copyof": "rod_of_metamagic_burning_greater" },
+	"greater_burning_rod_of_metamagic": { "redirect": "rod_of_metamagic_burning_greater" },
+	"greater_burning_metamagic_rod": { "redirect": "rod_of_metamagic_burning_greater" },
 	"rod_of_metamagic_concussive_greater": {
 		"name": "Rod of Metamagic, Concussive (greater)",
 		"copyof": "rod_of_metamagic_concussive_lesser"
 	},
-	"greater_concussive_rod_of_metamagic": { "copyof": "rod_of_metamagic_concussive_greater" },
-	"greater_concussive_metamagic_rod": { "copyof": "rod_of_metamagic_concussive_greater" },
+	"greater_concussive_rod_of_metamagic": { "redirect": "rod_of_metamagic_concussive_greater" },
+	"greater_concussive_metamagic_rod": { "redirect": "rod_of_metamagic_concussive_greater" },
 	"rod_of_metamagic_empower_greater": {
 		"name": "Rod of Metamagic, Empower (greater)",
 		"copyof": "rod_of_metamagic_empower_lesser"
 	},
-	"greater_empower_rod_of_metamagic": { "copyof": "rod_of_metamagic_empower_greater" },
-	"greater_empower_metamagic_rod": { "copyof": "rod_of_metamagic_empower_greater" },
+	"greater_empower_rod_of_metamagic": { "redirect": "rod_of_metamagic_empower_greater" },
+	"greater_empower_metamagic_rod": { "redirect": "rod_of_metamagic_empower_greater" },
 	"rod_of_metamagic_fearsome_greater": {
 		"name": "Rod of Metamagic, Fearsome (greater)",
 		"copyof": "rod_of_metamagic_fearsome_lesser"
 	},
-	"greater_fearsome_rod_of_metamagic": { "copyof": "rod_of_metamagic_fearsome_greater" },
-	"greater_fearsome_metamagic_rod": { "copyof": "rod_of_metamagic_fearsome_greater" },
+	"greater_fearsome_rod_of_metamagic": { "redirect": "rod_of_metamagic_fearsome_greater" },
+	"greater_fearsome_metamagic_rod": { "redirect": "rod_of_metamagic_fearsome_greater" },
 	"rod_of_metamagic_persistent_greater": {
 		"name": "Rod of Metamagic, Persistent (greater)",
 		"copyof": "rod_of_metamagic_persistent_lesser"
 	},
-	"greater_persistent_rod_of_metamagic": { "copyof": "rod_of_metamagic_persistent_greater" },
-	"greater_persistent_metamagic_rod": { "copyof": "rod_of_metamagic_persistent_greater" },
+	"greater_persistent_rod_of_metamagic": { "redirect": "rod_of_metamagic_persistent_greater" },
+	"greater_persistent_metamagic_rod": { "redirect": "rod_of_metamagic_persistent_greater" },
 	"rod_of_metamagic_sickening_greater": {
 		"name": "Rod of Metamagic, Sickening (greater)",
 		"copyof": "rod_of_metamagic_sickening_lesser"
 	},
-	"greater_sickening_rod_of_metamagic": { "copyof": "rod_of_metamagic_sickening_greater" },
-	"greater_sickening_metamagic_rod": { "copyof": "rod_of_metamagic_sickening_greater" },
+	"greater_sickening_rod_of_metamagic": { "redirect": "rod_of_metamagic_sickening_greater" },
+	"greater_sickening_metamagic_rod": { "redirect": "rod_of_metamagic_sickening_greater" },
 	"rod_of_metamagic_snuffing_greater": {
 		"name": "Rod of Metamagic, Snuffing (greater)",
 		"copyof": "rod_of_metamagic_snuffing_lesser"
 	},
-	"greater_snuffing_rod_of_metamagic": { "copyof": "rod_of_metamagic_snuffing_greater" },
-	"greater_snuffing_metamagic_rod": { "copyof": "rod_of_metamagic_snuffing_greater" },
+	"greater_snuffing_rod_of_metamagic": { "redirect": "rod_of_metamagic_snuffing_greater" },
+	"greater_snuffing_metamagic_rod": { "redirect": "rod_of_metamagic_snuffing_greater" },
 	"rod_of_metamagic_stygian_greater": {
 		"name": "Rod of Metamagic, Stygian (greater)",
 		"copyof": "rod_of_metamagic_stygian_lesser"
 	},
-	"greater_stygian_rod_of_metamagic": { "copyof": "rod_of_metamagic_stygian_greater" },
-	"greater_stygian_metamagic_rod": { "copyof": "rod_of_metamagic_stygian_greater" },
+	"greater_stygian_rod_of_metamagic": { "redirect": "rod_of_metamagic_stygian_greater" },
+	"greater_stygian_metamagic_rod": { "redirect": "rod_of_metamagic_stygian_greater" },
 	"rod_of_metamagic_thanatopic_greater": {
 		"name": "Rod of Metamagic, Thanatopic (greater)",
 		"copyof": "rod_of_metamagic_thanatopic_lesser"
 	},
-	"greater_thanatopic_rod_of_metamagic": { "copyof": "rod_of_metamagic_thanatopic_greater" },
-	"greater_thanatopic_metamagic_rod": { "copyof": "rod_of_metamagic_thanatopic_greater" },
+	"greater_thanatopic_rod_of_metamagic": { "redirect": "rod_of_metamagic_thanatopic_greater" },
+	"greater_thanatopic_metamagic_rod": { "redirect": "rod_of_metamagic_thanatopic_greater" },
 	"rod_of_metamagic_threnodic_greater": {
 		"name": "Rod of Metamagic, Threnodic (greater)",
 		"copyof": "rod_of_metamagic_threnodic_lesser"
 	},
-	"greater_threnodic_rod_of_metamagic": { "copyof": "rod_of_metamagic_threnodic_greater" },
-	"greater_threnodic_metamagic_rod": { "copyof": "rod_of_metamagic_threnodic_greater" },
+	"greater_threnodic_rod_of_metamagic": { "redirect": "rod_of_metamagic_threnodic_greater" },
+	"greater_threnodic_metamagic_rod": { "redirect": "rod_of_metamagic_threnodic_greater" },
 	"rod_of_metamagic_thundering_greater": {
 		"name": "Rod of Metamagic, Thundering (greater)",
 		"copyof": "rod_of_metamagic_thundering_lesser"
 	},
-	"greater_thundering_rod_of_metamagic": { "copyof": "rod_of_metamagic_thundering_greater" },
-	"greater_thundering_metamagic_rod": { "copyof": "rod_of_metamagic_thundering_greater" },
+	"greater_thundering_rod_of_metamagic": { "redirect": "rod_of_metamagic_thundering_greater" },
+	"greater_thundering_metamagic_rod": { "redirect": "rod_of_metamagic_thundering_greater" },
 	"rod_of_metamagic_traumatic_greater": {
 		"name": "Rod of Metamagic, Traumatic (greater)",
 		"copyof": "rod_of_metamagic_traumatic_lesser"
 	},
-	"greater_traumatic_rod_of_metamagic": { "copyof": "rod_of_metamagic_traumatic_greater" },
-	"greater_traumatic_metamagic_rod": { "copyof": "rod_of_metamagic_traumatic_greater" },
+	"greater_traumatic_rod_of_metamagic": { "redirect": "rod_of_metamagic_traumatic_greater" },
+	"greater_traumatic_metamagic_rod": { "redirect": "rod_of_metamagic_traumatic_greater" },
 	"rod_of_metamagic_quicken_normal": {
 		"name": "Rod of Metamagic, Quicken (normal)",
 		"copyof": "rod_of_metamagic_quicken_lesser"
 	},
-	"rod_of_metamagic_quicken": { "copyof": "rod_of_metamagic_quicken_normal" },
-	"normal_quicken_rod_of_metamagic": { "copyof": "rod_of_metamagic_quicken_normal" },
-	"quicken_rod_of_metamagic": { "copyof": "rod_of_metamagic_quicken_normal" },
-	"normal_quicken_metamagic_rod": { "copyof": "rod_of_metamagic_quicken_normal" },
-	"quicken_metamagic_rod": { "copyof": "rod_of_metamagic_quicken_normal" },
+	"rod_of_metamagic_quicken": { "redirect": "rod_of_metamagic_quicken_normal" },
+	"normal_quicken_rod_of_metamagic": { "redirect": "rod_of_metamagic_quicken_normal" },
+	"quicken_rod_of_metamagic": { "redirect": "rod_of_metamagic_quicken_normal" },
+	"normal_quicken_metamagic_rod": { "redirect": "rod_of_metamagic_quicken_normal" },
+	"quicken_metamagic_rod": { "redirect": "rod_of_metamagic_quicken_normal" },
 	"rod_of_metamagic_dazing_greater": {
 		"name": "Rod of Metamagic, Dazing (greater)",
 		"copyof": "rod_of_metamagic_dazing_lesser"
 	},
-	"greater_dazing_rod_of_metamagic": { "copyof": "rod_of_metamagic_dazing_greater" },
-	"greater_dazing_metamagic_rod": { "copyof": "rod_of_metamagic_dazing_greater" },
+	"greater_dazing_rod_of_metamagic": { "redirect": "rod_of_metamagic_dazing_greater" },
+	"greater_dazing_metamagic_rod": { "redirect": "rod_of_metamagic_dazing_greater" },
 	"rod_of_metamagic_echoing_greater": {
 		"name": "Rod of Metamagic, Echoing (greater)",
 		"copyof": "rod_of_metamagic_echoing_lesser"
 	},
-	"greater_echoing_rod_of_metamagic": { "copyof": "rod_of_metamagic_echoing_greater" },
-	"greater_echoing_metamagic_rod": { "copyof": "rod_of_metamagic_echoing_greater" },
+	"greater_echoing_rod_of_metamagic": { "redirect": "rod_of_metamagic_echoing_greater" },
+	"greater_echoing_metamagic_rod": { "redirect": "rod_of_metamagic_echoing_greater" },
 	"rod_of_metamagic_familiar_greater": {
 		"name": "Rod of Metamagic, Familiar (greater)",
 		"copyof": "rod_of_metamagic_familiar_lesser"
 	},
-	"greater_familiar_rod_of_metamagic": { "copyof": "rod_of_metamagic_familiar_greater" },
-	"greater_familiar_metamagic_rod": { "copyof": "rod_of_metamagic_familiar_greater" },
+	"greater_familiar_rod_of_metamagic": { "redirect": "rod_of_metamagic_familiar_greater" },
+	"greater_familiar_metamagic_rod": { "redirect": "rod_of_metamagic_familiar_greater" },
 	"rod_of_metamagic_maximize_greater": {
 		"name": "Rod of Metamagic, Maximize (greater)",
 		"copyof": "rod_of_metamagic_maximize_lesser"
 	},
-	"greater_maximize_rod_of_metamagic": { "copyof": "rod_of_metamagic_maximize_greater" },
-	"greater_maximize_metamagic_rod": { "copyof": "rod_of_metamagic_maximize_greater" },
+	"greater_maximize_rod_of_metamagic": { "redirect": "rod_of_metamagic_maximize_greater" },
+	"greater_maximize_metamagic_rod": { "redirect": "rod_of_metamagic_maximize_greater" },
 	"rod_of_metamagic_widen_greater": {
 		"name": "Rod of Metamagic, Widen (greater)",
 		"copyof": "rod_of_metamagic_widen_lesser"
 	},
-	"greater_widen_rod_of_metamagic": { "copyof": "rod_of_metamagic_widen_greater" },
-	"greater_widen_metamagic_rod": { "copyof": "rod_of_metamagic_widen_greater" },
+	"greater_widen_rod_of_metamagic": { "redirect": "rod_of_metamagic_widen_greater" },
+	"greater_widen_metamagic_rod": { "redirect": "rod_of_metamagic_widen_greater" },
 	"rod_of_metamagic_quicken_greater": {
 		"name": "Rod of Metamagic, Quicken (greater)",
 		"copyof": "rod_of_metamagic_quicken_lesser"
 	},
-	"greater_quicken_rod_of_metamagic": { "copyof": "rod_of_metamagic_quicken_greater" },
-	"greater_quicken_metamagic_rod": { "copyof": "rod_of_metamagic_quicken_greater" },
+	"greater_quicken_rod_of_metamagic": { "redirect": "rod_of_metamagic_quicken_greater" },
+	"greater_quicken_metamagic_rod": { "redirect": "rod_of_metamagic_quicken_greater" },
 	"rod_that_should_not_be_lesser": {
 		"name": "Rod That Should Not Be (Lesser)",
 		"sources": [ "Ultimate Equipment" ],
@@ -3606,7 +3606,7 @@
 			"**Communication** none (none)"
 		]
 	},
-	"lesser_rod_that_should_not_be": { "copyof": "rod_that_should_not_be_lesser" },
+	"lesser_rod_that_should_not_be": { "redirect": "rod_that_should_not_be_lesser" },
 	"rod_that_should_not_be_greater": {
 		"name": "Rod That Should Not Be (Greater)",
 		"sources": [ "Ultimate Equipment" ],
@@ -3636,7 +3636,7 @@
 			"**Communication** telepathy (Aklo)"
 		]
 	},
-	"greater_rod_that_should_not_be": { "copyof": "rod_that_should_not_be_greater" },
+	"greater_rod_that_should_not_be": { "redirect": "rod_that_should_not_be_greater" },
 	"harbinger_rod": {
 		"name": "Harbinger Rod",
 		"sources": [ "Ultimate Equipment" ],

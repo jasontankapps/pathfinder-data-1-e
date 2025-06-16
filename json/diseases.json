@@ -21,8 +21,8 @@
 			"**Cure** 2 consecutive saves"
 		]
 	},
-	"bonecrusher": { "copyof": "bonecrusher_dengue" },
-	"dengue": { "copyof": "bonecrusher_dengue" },
+	"bonecrusher": { "redirect": "bonecrusher_dengue" },
+	"dengue": { "redirect": "bonecrusher_dengue" },
 	"filth_fever": {
 		"name": "Filth Fever",
 		"sources": [ "PRPG Core Rulebook" ],

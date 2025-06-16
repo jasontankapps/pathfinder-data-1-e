@@ -128,7 +128,7 @@
 			"More than simple clothing, padded armor combines heavy, quilted cloth and layers of densely packed stuffing to create a cheap and basic protection. It is typically worn by those not intending to face lethal combat or those who wish their maneuverability to be impacted as little as possible."
 		]
 	},
-	"padded_armor": { "copyof": "padded" },
+	"padded_armor": { "redirect": "padded" },
 	"quilted_cloth": {
 		"name": "Quilted cloth",
 		"sources": [
@@ -211,7 +211,7 @@
 			"Leather armor is made up of multiple overlapping pieces of leather, boiled to increase their natural toughness and then deliberately stitched together. Although not as sturdy as metal armor, the flexibility it allows wearers makes it among the most widely used types of armor."
 		]
 	},
-	"leather_armor": { "copyof": "leather" },
+	"leather_armor": { "redirect": "leather" },
 	"rosewood_armor": {
 		"name": "Rosewood armor",
 		"sources": [
@@ -346,7 +346,7 @@
 			"An improved form of {eq-armor/leather} armor, studded leather armor is covered with dozens of metal protuberances. While these rounded studs offer little defense individually, in the numbers they are arrayed in upon such armor, they help catch lethal edges and channel them away from vital spots. The rigidity caused by the additional metal does, however, result in less mobility than is afforded by a suit of normal leather armor."
 		]
 	},
-	"studded_leather_armor": { "copyof": "studded_leather" },
+	"studded_leather_armor": { "redirect": "studded_leather" },
 	"wooden": {
 		"name": "Wooden",
 		"sources": [
@@ -364,7 +364,7 @@
 			"This suit of leather armor has plates of fire-treated wood sewn over vital areas. Though not as effective as metal armor, it offers better protection than leather alone. Unlike metal armor, the wood is slightly buoyant, and the armor check penalty for swimming in this armor is 0."
 		]
 	},
-	"wooden_armor": { "copyof": "wooden" },
+	"wooden_armor": { "redirect": "wooden" },
 	"chain_shirt": {
 		"name": "Chain shirt",
 		"sources": [
@@ -399,7 +399,7 @@
 			"Lamellar is a type of armor in which small plates of various types of materials are strung together in parallel rows using fine cord. Lamellar plates can be constructed from lacquered leather, horn, or even stone, though suits of iron and steel are the most common. Lamellar armor can be crafted into various shapes, including partial pieces such as breastplates, greaves, or even entire coats. The properties of specific suits and pieces of lamellar armor are determined by their material."
 		]
 	},
-	"leather_lamellar": { "copyof": "lamellar_leather" },
+	"leather_lamellar": { "redirect": "lamellar_leather" },
 	"armored_coat": {
 		"name": "Armored coat",
 		"sources": [
@@ -462,7 +462,7 @@
 			"Hide armor is made from the tanned skin of particularly thick-hided beasts, stitched with either multiple overlapping layers of crude leather or exterior pieces of leather stuffed with padding or fur. Damage to the armor is typically repaired by restitching gashes or adding new pieces of hide, giving the most heavily used suits a distinctively patchwork quality."
 		]
 	},
-	"hide_armor": { "copyof": "hide" },
+	"hide_armor": { "redirect": "hide" },
 	"do_maru": {
 		"name": "Do-maru",
 		"sources": [
@@ -514,7 +514,7 @@
 			"Lamellar is a type of armor in which small plates of various types of materials are strung together in parallel rows using fine cord. Lamellar plates can be constructed from lacquered leather, horn, or even stone, though suits of iron and steel are the most common. Lamellar armor can be crafted into various shapes, including partial pieces such as breastplates, greaves, or even entire coats. The properties of specific suits and pieces of lamellar armor are determined by their material."
 		]
 	},
-	"horn_lamellar": { "copyof": "lamellar_horn" },
+	"horn_lamellar": { "redirect": "lamellar_horn" },
 	"scale_mail": {
 		"name": "Scale mail",
 		"sources": [
@@ -617,7 +617,7 @@
 			"Lamellar is a type of armor in which small plates of various types of materials are strung together in parallel rows using fine cord. Lamellar plates can be constructed from lacquered leather, horn, or even stone, though suits of iron and steel are the most common. Lamellar armor can be crafted into various shapes, including partial pieces such as breastplates, greaves, or even entire coats. The properties of specific suits and pieces of lamellar armor are determined by their material."
 		]
 	},
-	"steel_lamellar": { "copyof": "lamellar_steel" },
+	"steel_lamellar": { "redirect": "lamellar_steel" },
 	"mountain_pattern": {
 		"name": "Mountain pattern",
 		"sources": [
@@ -704,7 +704,7 @@
 			"Lamellar is a type of armor in which small plates of various types of materials are strung together in parallel rows using fine cord. Lamellar plates can be constructed from lacquered leather, horn, or even stone, though suits of iron and steel are the most common. Lamellar armor can be crafted into various shapes, including partial pieces such as breastplates, greaves, or even entire coats. The properties of specific suits and pieces of lamellar armor are determined by their material."
 		]
 	},
-	"iron_lamellar": { "copyof": "lamellar_iron" },
+	"iron_lamellar": { "redirect": "lamellar_iron" },
 	"splint_mail": {
 		"name": "Splint mail",
 		"sources": [
@@ -821,7 +821,7 @@
 			"Lamellar is a type of armor in which small plates of various types of materials are strung together in parallel rows using fine cord. Lamellar plates can be constructed from lacquered leather, horn, or even stone, though suits of iron and steel are the most common. Lamellar armor can be crafted into various shapes, including partial pieces such as breastplates, greaves, or even entire coats. The properties of specific suits and pieces of lamellar armor are determined by their material."
 		]
 	},
-	"stone_lamellar": { "copyof": "lamellar_stone" },
+	"stone_lamellar": { "redirect": "lamellar_stone" },
 	"o_yoroi": {
 		"name": "O-yoroi",
 		"sources": [
@@ -1096,7 +1096,7 @@
 			"**{ability/Weapon Group>s}** Blades, Light; Close"
 		]
 	},
-	"leather_madu": { "copyof": "madu_shield_leather" },
+	"leather_madu": { "redirect": "madu_shield_leather" },
 	"madu_shield_steel": {
 		"name": "Madu shield (steel)",
 		"sources": [
@@ -1120,7 +1120,7 @@
 			"**{ability/Weapon Group>s}** Blades, Light; Close"
 		]
 	},
-	"steel_madu": { "copyof": "madu_shield_steel" },
+	"steel_madu": { "redirect": "madu_shield_steel" },
 	"war_shield_dwarven": {
 		"name": "War-shield, dwarven",
 		"sources": [ "Adventurer's Armory 2" ],
@@ -1140,7 +1140,7 @@
 			"**{ability/Weapon Group>s}** Close"
 		]
 	},
-	"dwarven_war_shield": { "copyof": "war_shield_dwarven" },
+	"dwarven_war_shield": { "redirect": "war_shield_dwarven" },
 	"heavy_shield": {
 		"name": "Heavy Shield",
 		"sources": [],
@@ -1228,7 +1228,7 @@
 			"**{ability/Weapon Group>s}** Close"
 		]
 	},
-	"steel_snarlshield": { "copyof": "snarlshield_steel" },
+	"steel_snarlshield": { "redirect": "snarlshield_steel" },
 	"snarlshield_wooden": {
 		"name": "Snarlshield, wooden",
 		"sources": [
@@ -1251,7 +1251,7 @@
 			"**{ability/Weapon Group>s}** Close"
 		]
 	},
-	"wooden_snarlshield": { "copyof": "snarlshield_wooden" },
+	"wooden_snarlshield": { "redirect": "snarlshield_wooden" },
 	"tower_shield": {
 		"name": "Tower shield",
 		"sources": [

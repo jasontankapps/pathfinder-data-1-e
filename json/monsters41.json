@@ -52,8 +52,8 @@
 			"**Family:** {family/Wysp}"
 		]
 	},
-	"aether_wysp": { "copyof": "wysp_aether_wysp" },
-	"wysp_aether": { "copyof": "wysp_aether_wysp" },
+	"aether_wysp": { "redirect": "wysp_aether_wysp" },
+	"wysp_aether": { "redirect": "wysp_aether_wysp" },
 	"wysp_air_wysp": {
 		"name": "Air Wysp",
 		"sources": [ "Bestiary 5" ],
@@ -103,8 +103,8 @@
 			"**Family:** {family/Wysp}"
 		]
 	},
-	"air_wysp": { "copyof": "wysp_air_wysp" },
-	"wysp_air": { "copyof": "wysp_air_wysp" },
+	"air_wysp": { "redirect": "wysp_air_wysp" },
+	"wysp_air": { "redirect": "wysp_air_wysp" },
 	"wysp_earth_wysp": {
 		"name": "Earth Wysp",
 		"sources": [ "Bestiary 5" ],
@@ -154,8 +154,8 @@
 			"**Family:** {family/Wysp}"
 		]
 	},
-	"earth_wysp": { "copyof": "wysp_earth_wysp" },
-	"wysp_earth": { "copyof": "wysp_earth_wysp" },
+	"earth_wysp": { "redirect": "wysp_earth_wysp" },
+	"wysp_earth": { "redirect": "wysp_earth_wysp" },
 	"wysp_fire_wysp": {
 		"name": "Fire Wysp",
 		"sources": [ "Bestiary 5" ],
@@ -207,8 +207,8 @@
 			"**Family:** {family/Wysp}"
 		]
 	},
-	"fire_wysp": { "copyof": "wysp_fire_wysp" },
-	"wysp_fire": { "copyof": "wysp_fire_wysp" },
+	"fire_wysp": { "redirect": "wysp_fire_wysp" },
+	"wysp_fire": { "redirect": "wysp_fire_wysp" },
 	"wysp_water_wysp": {
 		"name": "Water Wysp",
 		"sources": [ "Bestiary 5" ],
@@ -263,8 +263,8 @@
 			"**Family:** {family/Wysp}"
 		]
 	},
-	"water_wysp": { "copyof": "wysp_water_wysp" },
-	"wysp_water": { "copyof": "wysp_water_wysp" },
+	"water_wysp": { "redirect": "wysp_water_wysp" },
+	"wysp_water": { "redirect": "wysp_water_wysp" },
 	"wyvaran": {
 		"name": "Wyvaran",
 		"sources": [ "Bestiary 4" ],
@@ -729,7 +729,7 @@
 			"Xill matriarchs are paragons of their kind, having undergone a ritualistic metamorphosis involving the consumption of brain matter from xill egg hosts. The matriarchs possess powerful mental abilities, which they use to protect the young of their race."
 		]
 	},
-	"xill_matriarch": { "copyof": "xill_xill_matriarch" },
+	"xill_matriarch": { "redirect": "xill_xill_matriarch" },
 	"xiomorn_vault_keeper": {
 		"name": "Vault Keeper (Xiomorn)",
 		"sources": [
@@ -793,7 +793,7 @@
 			"Xiomorns comprise two castes: the four-legged mythic {monster/Vault Builder/s} and the two-legged non-mythic Vault Keepers. Both are among the most ancient forms of life-primeval elemental beings who travel to raw, new worlds upon the Material Plane, pursuing strange ecological investigations into the nature of life. The worlds these enigmatic beings have visited feature strange ruins in remote regions and immense, vault-like caverns deep underground where ecologies that shouldn't exist flourish. Xiomorns have little interest in protecting a world's indigenous life, except as necessary for their experiments' goals, and wage war against such races when native empires encroach upon the xiomorns' experimental realms."
 		]
 	},
-	"vault_keeper": { "copyof": "xiomorn_vault_keeper" },
+	"vault_keeper": { "redirect": "xiomorn_vault_keeper" },
 	"xocothian": {
 		"name": "Xocothian",
 		"sources": [ "Inner Sea Gods" ],
@@ -2802,8 +2802,8 @@
 			"Larger dogs (known to Small races like halflings and gnomes as riding dogs) include hardier breeds such as huskies, mastiffs, and wolfhounds. A riding dog can fight while carrying a rider, but the rider cannot also attack unless he or she succeeds on a DC 10 Ride check."
 		]
 	},
-	"dog_riding": { "copyof": "dog_riding_dog" },
-	"riding_dog": { "copyof": "dog_riding_dog" },
+	"dog_riding": { "redirect": "dog_riding_dog" },
+	"riding_dog": { "redirect": "dog_riding_dog" },
 	"dolphin": {
 		"name": "Dolphin",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -2895,7 +2895,7 @@
 			"The orca, or \"killer whale,\" is actually the largest species of dolphin. Adult orcas are typically 15-25 feet long and weigh 8,000-12,000 pounds"
 		]
 	},
-	"orca": { "copyof": "dolphin_orca" },
+	"orca": { "redirect": "dolphin_orca" },
 	"dolphin_popoto": {
 		"name": "Popoto (Dolphin)",
 		"sources": [ "Familiar Folio" ],
@@ -2937,7 +2937,7 @@
 			"Popotos are the smallest breed of dolphin, and generally swim in shallow waters near shorelines. They are social hunters, traveling in small groups called pods, which normally contain three to five popotos. Like larger dolphins, popotos are popular with seafarers, who consider the creatures good luck and tell tales of popotos leading lost swimmers to shore and pods fighting off sharks much larger than themselves."
 		]
 	},
-	"popoto": { "copyof": "dolphin_popoto" },
+	"popoto": { "redirect": "dolphin_popoto" },
 	"doppeldrek": {
 		"name": "Doppeldrek",
 		"sources": [ "Bestiary 5" ],

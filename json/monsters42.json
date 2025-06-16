@@ -54,7 +54,7 @@
 			"**Family:** {family/Lunar Dragon}"
 		]
 	},
-	"adult_lunar_dragon": { "copyof": "dragon_outer_lunar_adult_lunar_dragon" },
+	"adult_lunar_dragon": { "redirect": "dragon_outer_lunar_adult_lunar_dragon" },
 	"dragon_outer_lunar_ancient_lunar_dragon": {
 		"name": "Ancient Lunar Dragon",
 		"sources": [ "Bestiary 4" ],
@@ -115,7 +115,7 @@
 			"**Family:** {family/Lunar Dragon}"
 		]
 	},
-	"ancient_lunar_dragon": { "copyof": "dragon_outer_lunar_ancient_lunar_dragon" },
+	"ancient_lunar_dragon": { "redirect": "dragon_outer_lunar_ancient_lunar_dragon" },
 	"dragon_outer_lunar_young_lunar_dragon": {
 		"name": "Young Lunar Dragon",
 		"sources": [ "Bestiary 4" ],
@@ -170,7 +170,7 @@
 			"**Family:** {family/Lunar Dragon}"
 		]
 	},
-	"young_lunar_dragon": { "copyof": "dragon_outer_lunar_young_lunar_dragon" },
+	"young_lunar_dragon": { "redirect": "dragon_outer_lunar_young_lunar_dragon" },
 	"dragon_outer_solar_adult_solar_dragon": {
 		"name": "Adult Solar Dragon",
 		"sources": [ "Bestiary 4" ],
@@ -226,7 +226,7 @@
 			"**Family:** {family/Solar Dragon}"
 		]
 	},
-	"adult_solar_dragon": { "copyof": "dragon_outer_solar_adult_solar_dragon" },
+	"adult_solar_dragon": { "redirect": "dragon_outer_solar_adult_solar_dragon" },
 	"dragon_outer_solar_ancient_solar_dragon": {
 		"name": "Ancient Solar Dragon",
 		"sources": [ "Bestiary 4" ],
@@ -286,7 +286,7 @@
 			"**Family:** {family/Solar Dragon}"
 		]
 	},
-	"ancient_solar_dragon": { "copyof": "dragon_outer_solar_ancient_solar_dragon" },
+	"ancient_solar_dragon": { "redirect": "dragon_outer_solar_ancient_solar_dragon" },
 	"dragon_outer_solar_young_solar_dragon": {
 		"name": "Young Solar Dragon",
 		"sources": [ "Bestiary 4" ],
@@ -341,7 +341,7 @@
 			"**Family:** {family/Solar Dragon}"
 		]
 	},
-	"young_solar_dragon": { "copyof": "dragon_outer_solar_young_solar_dragon" },
+	"young_solar_dragon": { "redirect": "dragon_outer_solar_young_solar_dragon" },
 	"dragon_outer_time_adult_time_dragon": {
 		"name": "Adult Time Dragon",
 		"sources": [ "Bestiary 4" ],
@@ -398,7 +398,7 @@
 			"**Family:** {family/Time Dragon}"
 		]
 	},
-	"adult_time_dragon": { "copyof": "dragon_outer_time_adult_time_dragon" },
+	"adult_time_dragon": { "redirect": "dragon_outer_time_adult_time_dragon" },
 	"dragon_outer_time_ancient_time_dragon": {
 		"name": "Ancient Time Dragon",
 		"sources": [ "Bestiary 4" ],
@@ -459,7 +459,7 @@
 			"**Family:** {family/Time Dragon}"
 		]
 	},
-	"ancient_time_dragon": { "copyof": "dragon_outer_time_ancient_time_dragon" },
+	"ancient_time_dragon": { "redirect": "dragon_outer_time_ancient_time_dragon" },
 	"dragon_outer_time_young_time_dragon": {
 		"name": "Young Time Dragon",
 		"sources": [ "Bestiary 4" ],
@@ -515,7 +515,7 @@
 			"**Family:** {family/Time Dragon}"
 		]
 	},
-	"young_time_dragon": { "copyof": "dragon_outer_time_young_time_dragon" },
+	"young_time_dragon": { "redirect": "dragon_outer_time_young_time_dragon" },
 	"dragon_outer_void_adult_void_dragon": {
 		"name": "Adult Void Dragon",
 		"sources": [ "Bestiary 4" ],
@@ -571,7 +571,7 @@
 			"**Family:** {family/Void Dragon}"
 		]
 	},
-	"adult_void_dragon": { "copyof": "dragon_outer_void_adult_void_dragon" },
+	"adult_void_dragon": { "redirect": "dragon_outer_void_adult_void_dragon" },
 	"dragon_outer_void_ancient_void_dragon": {
 		"name": "Ancient Void Dragon",
 		"sources": [ "Bestiary 4" ],
@@ -632,7 +632,7 @@
 			"**Family:** {family/Void Dragon}"
 		]
 	},
-	"ancient_void_dragon": { "copyof": "dragon_outer_void_ancient_void_dragon" },
+	"ancient_void_dragon": { "redirect": "dragon_outer_void_ancient_void_dragon" },
 	"dragon_outer_void_young_void_dragon": {
 		"name": "Young Void Dragon",
 		"sources": [ "Bestiary 4" ],
@@ -687,7 +687,7 @@
 			"**Family:** {family/Void Dragon}"
 		]
 	},
-	"young_void_dragon": { "copyof": "dragon_outer_void_young_void_dragon" },
+	"young_void_dragon": { "redirect": "dragon_outer_void_young_void_dragon" },
 	"dragon_outer_vortex_adult_vortex_dragon": {
 		"name": "Adult Vortex Dragon",
 		"sources": [ "Bestiary 4" ],
@@ -744,7 +744,7 @@
 			"**Family:** {family/Vortex Dragon}"
 		]
 	},
-	"adult_vortex_dragon": { "copyof": "dragon_outer_vortex_adult_vortex_dragon" },
+	"adult_vortex_dragon": { "redirect": "dragon_outer_vortex_adult_vortex_dragon" },
 	"dragon_outer_vortex_ancient_vortex_dragon": {
 		"name": "Ancient Vortex Dragon",
 		"sources": [ "Bestiary 4" ],
@@ -805,7 +805,7 @@
 			"**Family:** {family/Vortex Dragon}"
 		]
 	},
-	"ancient_vortex_dragon": { "copyof": "dragon_outer_vortex_ancient_vortex_dragon" },
+	"ancient_vortex_dragon": { "redirect": "dragon_outer_vortex_ancient_vortex_dragon" },
 	"dragon_outer_vortex_young_vortex_dragon": {
 		"name": "Young Vortex Dragon",
 		"sources": [ "Bestiary 4" ],
@@ -927,7 +927,7 @@
 			"Faerie dragons sometimes ally with spellcasters, serving as curious, occasionally reckless, but always true familiars. An arcane spellcaster of at least 7th level with an alignment within 1 step of chaotic good who has the {feat/Improved Familiar} feat may select a faerie dragon as a familiar."
 		]
 	},
-	"faerie_dragon": { "copyof": "dragon_other_faerie_dragon" },
+	"faerie_dragon": { "redirect": "dragon_other_faerie_dragon" },
 	"dragon_other_prism_dragon": {
 		"name": "Prism Dragon",
 		"sources": [ "Occult Bestiary" ],
@@ -1004,7 +1004,7 @@
 			"[^X]: This spell has not been published, but is presumably an enhanced version of {spell/id insinuation IV}."
 		]
 	},
-	"prism_dragon": { "copyof": "dragon_other_prism_dragon" },
+	"prism_dragon": { "redirect": "dragon_other_prism_dragon" },
 	"dragon_other_spine_dragon": {
 		"name": "Spine Dragon",
 		"sources": [ "Inner Sea World Guide" ],
@@ -1067,7 +1067,7 @@
 			"A spine dragon is 60 feet long and 20 feet high, and weighs 16,000 pounds."
 		]
 	},
-	"spine_dragon": { "copyof": "dragon_other_spine_dragon" },
+	"spine_dragon": { "redirect": "dragon_other_spine_dragon" },
 	"dragon_other_tidepool_dragon": {
 		"name": "Tidepool Dragon",
 		"sources": [ "Pathfinder #55: The Wormwood Mutiny" ],
@@ -1146,8 +1146,8 @@
 			"Although difficult to approach, tidepool dragons sometimes choose to serve as the familiars of unruly spellcasters and those who go out of their way to feed them rich or exotic foods. Spellcasters of 7th level or higher with an alignment within one step of chaotic neutral can gain a tidepool dragon as a familiar by taking the {feat/Improved Familiar} feat."
 		]
 	},
-	"tidepool_dragon": { "copyof": "dragon_other_tidepool_dragon" },
-	"young_vortex_dragon": { "copyof": "dragon_outer_vortex_young_vortex_dragon" },
+	"tidepool_dragon": { "redirect": "dragon_other_tidepool_dragon" },
+	"young_vortex_dragon": { "redirect": "dragon_outer_vortex_young_vortex_dragon" },
 	"flotsam_terror": {
 		"name": "Flotsam Terror",
 		"sources": [ "Pathfinder #121: The Lost Outpost" ],
@@ -1369,8 +1369,8 @@
 			"The great mastodons are primeval cousins of elephants. Their large tusks dwarf those of regular elephants, jutting outward and then curving back toward one another at the tips. Shaggy woolly mammoths are a mastodon variant adapted to cold environments, but have the same statistics."
 		]
 	},
-	"mastodon": { "copyof": "elephant_mastodon" },
-	"mammoth": { "copyof": "elephant_mastodon" },
+	"mastodon": { "redirect": "elephant_mastodon" },
+	"mammoth": { "redirect": "elephant_mastodon" },
 	"embalming_bear": {
 		"name": "Embalming Bear",
 		"sources": [ "Tears at Bitter Manor" ],
@@ -2045,7 +2045,7 @@
 			"Several cults in Osirion keep estuarine worms as sacred beasts in their secret temples. Worshipers of both Lamashtu and Rovagug believe it was their respective god who birthed these worms. Members of the Old Cults revere estuarine worms for their connection to the star Alboras and the Great Old One who supposedly dwells there. The cultists seek out the worms during the season of shemu, when the worms are less violent and more tractable. A combination of brute force and magic are necessary to find, exhume, and contain these elusive creatures. In captivity, estuarine worms can be made to change form regardless of the season through the application or exclusion of water. The high priests of these cults also know certain spells that can trigger an immediate change. The cultists connect to their god through the worms, offering sacrifices to them and reading omens in their violent squirming. The worms serve as guards against intruders, and can also be used as weapons against the cult's enemies."
 		]
 	},
-	"estuarine_worm_ahket_form": { "copyof": "estuarine_worm_estuarine_worm_ahket_form" },
+	"estuarine_worm_ahket_form": { "redirect": "estuarine_worm_estuarine_worm_ahket_form" },
 	"estuarine_worm_estuarine_worm_shemu_form": {
 		"name": "Estuarine Worm (Shemu Form)",
 		"sources": [ "Pathfinder #82: Secrets of the Sphinx" ],
@@ -2116,7 +2116,7 @@
 			"Several cults in Osirion keep estuarine worms as sacred beasts in their secret temples. Worshipers of both Lamashtu and Rovagug believe it was their respective god who birthed these worms. Members of the Old Cults revere estuarine worms for their connection to the star Alboras and the Great Old One who supposedly dwells there. The cultists seek out the worms during the season of shemu, when the worms are less violent and more tractable. A combination of brute force and magic are necessary to find, exhume, and contain these elusive creatures. In captivity, estuarine worms can be made to change form regardless of the season through the application or exclusion of water. The high priests of these cults also know certain spells that can trigger an immediate change. The cultists connect to their god through the worms, offering sacrifices to them and reading omens in their violent squirming. The worms serve as guards against intruders, and can also be used as weapons against the cult's enemies."
 		]
 	},
-	"estuarine_worm_shemu_form": { "copyof": "estuarine_worm_estuarine_worm_shemu_form" },
+	"estuarine_worm_shemu_form": { "redirect": "estuarine_worm_estuarine_worm_shemu_form" },
 	"etheroot": {
 		"name": "Etheroot",
 		"sources": [ "Planar Adventures" ],
@@ -2498,8 +2498,8 @@
 			"[^B]: Bonus feat."
 		]
 	},
-	"eurypterid_bluetip": { "copyof": "eurypterid_bluetip_eurypterid" },
-	"bluetip_eurypterid": { "copyof": "eurypterid_bluetip_eurypterid" },
+	"eurypterid_bluetip": { "redirect": "eurypterid_bluetip_eurypterid" },
+	"bluetip_eurypterid": { "redirect": "eurypterid_bluetip_eurypterid" },
 	"eurypterid_common_eurypterid": {
 		"name": "Common Eurypterid",
 		"sources": [
@@ -2554,9 +2554,9 @@
 			"[^B]: Bonus feat."
 		]
 	},
-	"eurypterid_common": { "copyof": "eurypterid_common_eurypterid" },
-	"common_eurypterid": { "copyof": "eurypterid_common_eurypterid" },
-	"eurypterid": { "copyof": "eurypterid_common_eurypterid" },
+	"eurypterid_common": { "redirect": "eurypterid_common_eurypterid" },
+	"common_eurypterid": { "redirect": "eurypterid_common_eurypterid" },
+	"eurypterid": { "redirect": "eurypterid_common_eurypterid" },
 	"eurypterid_ochre_eurypterid": {
 		"name": "Ochre Eurypterid",
 		"sources": [ "Pathfinder #37: Souls for Smuggler's Shiv" ],
@@ -2610,8 +2610,8 @@
 			"[^B]: Bonus feat."
 		]
 	},
-	"eurypterid_ochre": { "copyof": "eurypterid_ochre_eurypterid" },
-	"ochre_eurypterid": { "copyof": "eurypterid_ochre_eurypterid" },
+	"eurypterid_ochre": { "redirect": "eurypterid_ochre_eurypterid" },
+	"ochre_eurypterid": { "redirect": "eurypterid_ochre_eurypterid" },
 	"eurypterid_spiny_eurypterid": {
 		"name": "Spiny Eurypterid",
 		"sources": [
@@ -2669,8 +2669,8 @@
 			"[^B]: Bonus feat."
 		]
 	},
-	"eurypterid_spiny": { "copyof": "eurypterid_spiny_eurypterid" },
-	"spiny_eurypterid": { "copyof": "eurypterid_spiny_eurypterid" },
+	"eurypterid_spiny": { "redirect": "eurypterid_spiny_eurypterid" },
+	"spiny_eurypterid": { "redirect": "eurypterid_spiny_eurypterid" },
 	"eurypterid_spitting_eurypterid": {
 		"name": "Spitting Eurypterid",
 		"sources": [ "Pathfinder #37: Souls for Smuggler's Shiv" ],
@@ -2725,8 +2725,8 @@
 			"[^B]: Bonus feat."
 		]
 	},
-	"eurypterid_spitting": { "copyof": "eurypterid_spitting_eurypterid" },
-	"spitting_eurypterid": { "copyof": "eurypterid_spitting_eurypterid" },
+	"eurypterid_spitting": { "redirect": "eurypterid_spitting_eurypterid" },
+	"spitting_eurypterid": { "redirect": "eurypterid_spitting_eurypterid" },
 	"exiled_shade": {
 		"name": "Exiled Shade",
 		"sources": [ "Bestiary 6" ],
