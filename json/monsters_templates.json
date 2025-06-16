@@ -2290,6 +2290,7 @@
 			"**Step Five-Determine CR:** Compare the foo creature's statistics to determine the creature's final CR. An imperial foo creature has a minimum CR score of 11. If your creation's statistics aren't good enough to qualify for this CR minimum, continue adding racial Hit Dice until the imperial's statistics reach this minimum."
 		]
 	},
+	"foo": { "copyof": "foo_creature" },
 	"frostfallen_creature": {
 		"name": "Frostfallen Creature",
 		"sources": [ "Pathfinder #51: The Hungry Storm" ],

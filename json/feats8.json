@@ -22,7 +22,7 @@
 			"",
 			"You can shield your partner's body with your own.  ",
 			"**Prerequisites:** {feat/Bonded Mind}, base attack bonus +6.  ",
-			"**Benefit:** As long as an ally with the Bonded Mind feat is adjacent to you, you can choose to absorb up to half of the hit point damage from any attack that strikes him, as if subject to a shield other spell. Using this ability is an immediate action, and it only applies to one attack, even if the ally is hit by multiple attacks as part of the same action."
+			"**Benefit:** As long as an ally with the Bonded Mind feat is adjacent to you, you can choose to absorb up to half of the hit point damage from any attack that strikes him, as if subject to a {spell/shield other} spell. Using this ability is an immediate action, and it only applies to one attack, even if the ally is hit by multiple attacks as part of the same action."
 		]
 	},
 	"take_this": {
@@ -49,7 +49,7 @@
 			"",
 			"Your constant training in service to your lord has improved your martial prowess with some weapons.  ",
 			"**Prerequisites:** Taldan serf in service to a lord.  ",
-			"**Benefit:** When wielding a farm implement (such as a hand axe, pick, pitchfork, or scythe) as a weapon, you get a +1 bonus on damage rolls. When fighting alongside other conscripts you get a +1 bonus on initiative checks."
+			"**Benefit:** When wielding a farm implement (such as a hand axe, pick, pitchfork, or {eq-weapon/scythe}) as a weapon, you get a +1 bonus on damage rolls. When fighting alongside other conscripts you get a +1 bonus on initiative checks."
 		]
 	},
 	"taldan_duelist": {
@@ -66,7 +66,7 @@
 			"",
 			"You trained at one of Taldor's elite fighting schools and are skilled at rondelero, the art of fighting with the falcata and buckler.  ",
 			"**Prerequisites:** Dex 13, {feat/Exotic Weapon Proficiency} (falcata), {feat/Shield Proficiency} (buckler), {feat/Weapon Focus} (falcata).  ",
-			"**Benefit:** When fighting with the falcata and buckler, your shield bonus to AC increases by +1 and you gain a +2 bonus on Acrobatics checks.",
+			"**Benefit:** When fighting with the {eq-weapon/falcata} and {eq-armor/buckler}, your shield bonus to AC increases by +1 and you gain a +2 bonus on Acrobatics checks.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Weapon Master's Handbook/25}",
@@ -96,7 +96,7 @@
 			"{SOURCE Advanced Class Guide/158}",
 			"",
 			"Roguish magic comes easily to you.  ",
-			"**Prerequisites:** Major magic rogue talent, minor magic rogue talent.  ",
+			"**Prerequisites:** {talent/Major magic} rogue talent, {talent/minor magic} rogue talent.  ",
 			"**Benefit:** You gain an additional daily use of each of your minor magic and major magic rogue talents.  ",
 			"**Special:** You can take this feat multiple times. Each time you do, you gain an additional daily use of each talent."
 		]
@@ -110,10 +110,10 @@
 			"{SOURCE Andoran, Spirit of Liberty/13}",
 			"",
 			"You felt the powerful wings of Talmandor surround you when you risked death from a fall, and somehow a tiny spark of his essence remains connected to your soul.  ",
-			"**Prerequisites:** Take at least 10d6 falling damage on three different occasions and survive.  ",
+			"**Prerequisites:** Take at least 10d6 {rule/falling} damage on three different occasions and survive.  ",
 			"**Benefit:** When you cast a healing spell on an unharmed creature, it briefly manifests as a pair of wings made of golden light. The spell's duration becomes \"1 hour or until discharged.\" For the next hour, the spell remains on the target, triggering automatically as a swift action if the creature takes damage or experiences an effect that the spell could cure, mitigate, or remove (which causes the wings of light to appear briefly).",
 			"",
-			"For example, if you cast lesser restoration on an ally who had no ability damage, the spell would trigger immediately if the target became fatigued, exhausted, or took ability damage, but not if the target suffered ability drain, energy drain, or hit point damage (none of which are affected by lesser restoration)."
+			"For example, if you cast {spell/lesser restoration} on an ally who had no ability damage, the spell would trigger immediately if the target became {misc/fatigued}, {misc/exhausted}, or took ability damage, but not if the target suffered ability drain, energy drain, or hit point damage (none of which are affected by lesser restoration)."
 		]
 	},
 	"tandem_evasion": {
@@ -129,12 +129,12 @@
 			"",
 			"You and your allies help each other evade deadly attacks.  ",
 			"**Prerequisites:** Dex 13, {feat/Dodge}.  ",
-			"**Benefit:** When adjacent to an ally who also has this feat, you gain evasion against a dragon's breath weapon and tail sweep special attacks. If you already have evasion, you gain improved evasion instead.",
+			"**Benefit:** When adjacent to an ally who also has this feat, you gain {ability/evasion} against a dragon's breath weapon and tail sweep special attacks. If you already have evasion, you gain {ability/improved evasion} instead.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Armor Master's Handbook/21}",
 			">",
-			">You can spend 5 stamina points to benefit from this feat even if there are no adjacent allies who also have this feat. However, if you fail your save, you are knocked prone."
+			">You can spend 5 stamina points to benefit from this feat even if there are no adjacent allies who also have this feat. However, if you fail your save, you are knocked {rule/prone}."
 		]
 	},
 	"tandem_trip": {
@@ -149,7 +149,7 @@
 			"{SOURCE Ultimate Combat/122}",
 			"",
 			"You know how to work together to trip your foes.  ",
-			"**Benefit:** Whenever you attempt a trip combat maneuver against an enemy threatened by an ally with this feat, you roll twice and take the better result.",
+			"**Benefit:** Whenever you attempt a {rule/trip} combat maneuver against an enemy threatened by an ally with this feat, you roll twice and take the better result.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/133}",
@@ -170,7 +170,7 @@
 			"",
 			"Creatures who cross your path find themselves tripping over their own feet.  ",
 			"**Prerequisites:** {feat/Dodge}, {feat/Mobility}, {feat/Underfoot}, {race/goblin}, Small size or smaller.  ",
-			"**Benefit:** When you successfully make an Acrobatics check to avoid provoking an attack of opportunity from a larger opponent when you move through its threatened area or its space, you can make that opponent lose its balance until the end of its next turn as a free action. While that creature's balance is lost, if it attempts to move, it must make a successful DC 15 Acrobatics check or fall prone, wasting the move action. You can only affect one creature with this effect each round.",
+			"**Benefit:** When you successfully make an Acrobatics check to avoid provoking an attack of opportunity from a larger opponent when you move through its threatened area or its space, you can make that opponent lose its balance until the end of its next turn as a free action. While that creature's balance is lost, if it attempts to move, it must make a successful DC 15 {skill/Acrobatics} check or fall {rule/prone}, wasting the move action. You can only affect one creature with this effect each round.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/133}",
@@ -188,7 +188,7 @@
 			"",
 			"You twist your long weapon among your target's legs, knocking your foe off-balance.  ",
 			"**Prerequisites:** Int 13, {feat/Combat Expertise}, {feat/Improved Trip}, {feat/Weapon Focus} with the chosen weapon.  ",
-			"**Benefit:** Choose one weapon with the reach special quality. When you attempt a trip combat maneuver check with the chosen weapon, your target doesn't receive a bonus to its CMD against your trip attempt for having more than two legs.  ",
+			"**Benefit:** Choose one weapon with the {misc/reach} special quality. When you attempt a {rule/trip} combat maneuver check with the chosen weapon, your target doesn't receive a bonus to its CMD against your trip attempt for having more than two legs.  ",
 			"**Normal:** A creature with more than two legs receives a +2 bonus to its CMD against trip attempts for each additional leg it has.  ",
 			"**Special:** In addition to the chosen weapon, a character with the weapon training class feature can use Tangled Limbs with any melee weapon from any fighter weapon group that he has selected with weapon training and that has the reach special quality."
 		]
@@ -203,7 +203,7 @@
 			"",
 			"Your crying, sputtering, and even frothing at the mouth makes you so laughably incoherent that opponents are apt to dismiss you as a threat.  ",
 			"**Prerequisites:** Bluff 1 rank, rage class feature, {race/gnome}.  ",
-			"**Benefit:** You may use the Bluff skill to feint while raging. The effect of the feint lasts only until the first time you hit the target."
+			"**Benefit:** You may use the Bluff skill to `feint` while raging. The effect of the feint lasts only until the first time you hit the target."
 		]
 	},
 	"tapestry_traveler": {
@@ -214,9 +214,9 @@
 			"",
 			"{SOURCE Pathfinder Society Primer/13}",
 			"",
-			"Your many visits to the Hao Jin Tapestry demiplane have made you an expert in long-distance travel.  ",
+			"Your many visits to the {rule/Hao Jin Tapestry} demiplane have made you an expert in long-distance travel.  ",
 			"**Prerequisites:** Character level 5th.  ",
-			"**Benefit:** You cast spells of the teleportation subschool as though your caster level were 2 higher, and you treat yourself as one step more familiar when teleporting to an established Pathfinder lodge with the teleport spell. If you can teleport as a supernatural ability, you treat your class level as if it were 2 higher when calculating the total distance that you can travel with this ability."
+			"**Benefit:** You cast spells of the teleportation subschool as though your caster level were 2 higher, and you treat yourself as one step more familiar when teleporting to an established Pathfinder lodge with the {spell/teleport} spell. If you can teleport as a supernatural ability, you treat your class level as if it were 2 higher when calculating the total distance that you can travel with this ability."
 		]
 	},
 	"target_of_opportunity": {
@@ -250,7 +250,7 @@
 			"",
 			"You can inflict special injuries on your foes by attacking specific areas.  ",
 			"**Prerequisites:** Str 13, {feat/Power Attack}, base attack bonus +9, weapon training class feature with a melee weapon.  ",
-			"**Benefit:** As a standard action, you can make a single melee attack with an appropriate weapon while targeting a specific body part of your foe. On a successful attack, you affect the target as if you had used the targeting gunslinger deed. You can use this ability two times per day, plus one additional time per day when your base attack bonus reaches +10, +15, and +20."
+			"**Benefit:** As a standard action, you can make a single melee attack with an appropriate weapon while targeting a specific body part of your foe. On a successful attack, you affect the target as if you had used the {deed/targeting} gunslinger deed. You can use this ability two times per day, plus one additional time per day when your base attack bonus reaches +10, +15, and +20."
 		]
 	},
 	"taskmaster": {

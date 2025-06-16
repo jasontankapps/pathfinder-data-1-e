@@ -3308,7 +3308,7 @@
 			"",
 			"Even the most stressful social situations don't daunt you, and you weather them as easily as a battle with a dragon.  ",
 			"**Prerequisites:** Cha 13, bravery class feature.  ",
-			"**Benefit:** In social situations, your bravado protects you and makes you harder to read. Add your bravery bonus to the DCs of checks to demoralize you, feint against you, change your attitude, or convince you to perform a request (this also applies against Cutting Humiliation and Intoxicating Flattery). Additionally, add a morale bonus equal to your bravery bonus on Bluff and Intimidate checks."
+			"**Benefit:** In social situations, your bravado protects you and makes you harder to read. Add your bravery bonus to the DCs of checks to [demoralize](skill/Intimidate) you, {rule/feint} against you, change your attitude, or [convince you](skill/Diplomacy) to perform a request (this also applies against {feat/Cutting Humiliation} and {feat/Intoxicating Flattery}). Additionally, add a morale bonus equal to your bravery bonus on Bluff and Intimidate checks."
 		]
 	},
 	"solar_spell": {
@@ -3320,7 +3320,7 @@
 			"{SOURCE Cohorts and Companions/15}",
 			"",
 			"Your spells erupt with the searing light of the sun, blinding or burning creatures of evil.  ",
-			"**Benefit:** Any spell you cast with the light descriptor is fortified with the cleansing energies of the sun. If the spell creates an area of light, all creatures are dazzled for as long as they remain within the spell's area. Oozes, fungal creatures, creatures from the Shadow Plane, and undead must also succeed at a Will save (DC 10 + the spell level + your Wisdom or Charisma bonus) or take a -2 penalty on attack rolls, damage rolls, saving throws, skill checks, and ability checks for as long as they remain within the spell's area. If the spell normally dazzles or blinds affected creatures with a duration other than instantaneous or permanent, the duration of that effect is increased by a number of rounds equal to the spell's original level. Saving throws to remove the effect early still apply and can bypass this increase.",
+			"**Benefit:** Any spell you cast with the light descriptor is fortified with the cleansing energies of the sun. If the spell creates an area of light, all creatures are {misc/dazzled} for as long as they remain within the spell's area. Oozes, fungal creatures, creatures from the Shadow Plane, and undead must also succeed at a Will save (DC 10 + the spell level + your Wisdom or Charisma bonus) or take a -2 penalty on attack rolls, damage rolls, saving throws, skill checks, and ability checks for as long as they remain within the spell's area. If the spell normally dazzles or {misc/blind/s>ed} affected creatures with a duration other than instantaneous or permanent, the duration of that effect is increased by a number of rounds equal to the spell's original level. Saving throws to remove the effect early still apply and can bypass this increase.",
 			"",
 			"If the spell deals more damage against oozes, fungal creatures, creatures from the Shadow Plane, or undead with a specific vulnerability to sunlight, the spell deals 1 additional point of damage per die against such creatures.",
 			"",
@@ -3337,7 +3337,7 @@
 			"",
 			"Your shadowy illusions are more potent.  ",
 			"**Prerequisites:** {feat/Spell Focus} (illusion).  ",
-			"**Benefit:** When casting greater shadow conjuration, greater shadow evocation, shadow conjuration, or shadow evocation (and, at the GM's discretion, any similar spell with the shadow descriptor that mimics a spell of another school), that spell is 20% more real then normal. A solid shadows spell takes up a spell slot 1 level higher than the spell's actual level."
+			"**Benefit:** When casting {spell/greater shadow conjuration}, {spell/greater shadow evocation}, {spell/shadow conjuration}, or {spell/shadow evocation} (and, at the GM's discretion, any similar spell with the shadow descriptor that mimics a spell of another school), that spell is 20% more real then normal. A solid shadows spell takes up a spell slot 1 level higher than the spell's actual level."
 		]
 	},
 	"solitary_survivor": {
@@ -3389,7 +3389,7 @@
 			"",
 			"You can regain power when you kill a creature.  ",
 			"**Prerequisites:** Cha 13, sorcerer bloodline class feature.  ",
-			"**Benefit:** Once per day, as an immediate action upon reducing a creature to 0 or fewer hit points with one of your sorcerer spells, you can regain one usage of a sorcerer bloodline power that has a limited number of uses per day. The slain creature must have at least half as many Hit Dice as your sorcerer level. You cannot use this feat to gain another usage of a bloodline power that you have not yet used today."
+			"**Benefit:** Once per day, as an immediate action upon reducing a creature to 0 or fewer hit points with one of your sorcerer spells, you can regain one usage of a {ability/sorcerer bloodline>s} power that has a limited number of uses per day. The slain creature must have at least half as many Hit Dice as your sorcerer level. You cannot use this feat to gain another usage of a bloodline power that you have not yet used today."
 		]
 	},
 	"sorcerous_strike": {
@@ -3405,7 +3405,7 @@
 			"",
 			"The power flowing through your veins also flows through your unarmed strike.  ",
 			"**Prerequisites:** Sorcerer bloodline class feature, {feat/Improved Unarmed Strike}.  ",
-			"**Benefit:** When you gain this feat, you choose one bloodline power that you can use to affect a single opponent. If you make a successful unarmed strike against an opponent, in addition to dealing your unarmed strike damage, you can spend a swift action to deliver the effects of the chosen bloodline power to that opponent. Doing so provokes no attacks of opportunity.  ",
+			"**Benefit:** When you gain this feat, you choose one {ability/sorcerer_<bloodline>s} power that you can use to affect a single opponent. If you make a successful unarmed strike against an opponent, in addition to dealing your unarmed strike damage, you can spend a swift action to deliver the effects of the chosen bloodline power to that opponent. Doing so provokes no attacks of opportunity.  ",
 			"**Special:** You can take this feat multiple times. Each time you take it, you apply it to a different qualifying bloodline power.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -3424,7 +3424,7 @@
 			"",
 			"You can't always count on having a source of positive energy to fight haunts, and have mastered an eerie talent for briefly focusing your own life energy into your weapons.  ",
 			"**Prerequisites:** Knowledge (religion) 1 rank, Perception 1 rank.  ",
-			"**Benefit:** As a standard action, you can make a weapon attack against a haunt. If successful, your attack deals damage equal to your weapon dice plus any enhancement bonus (but not other bonuses, such as those granted by Strength, {feat/Weapon Specialization}, or class features like sneak attack). You can use any {feat/Vital Strike} feat in order to enhance this attack."
+			"**Benefit:** As a standard action, you can make a weapon attack against a {rule/haunt>s}. If successful, your attack deals damage equal to your weapon dice plus any enhancement bonus (but not other bonuses, such as those granted by Strength, {feat/Weapon Specialization}, or class features like sneak attack). You can use any {feat/Vital Strike} feat in order to enhance this attack."
 		]
 	},
 	"soulless_gaze": {
@@ -3458,15 +3458,15 @@
 			"",
 			"A soul used as a material component is damaged but not destroyed. Once used, such a soul is no longer trapped and cannot be used as a material component again. A creature whose soul has been used as a material component cannot be restored to life via {spell/raise dead}. {spell/Reincarnate}, {spell/resurrection}, and {spell/true resurrection} can restore such a creature to life if the caster succeeds at a DC 20 caster level check. {spell/Miracle} and {spell/wish} can restore the creature to life without requiring a caster level check. Using Soul-Powered Magic is an evil act.",
 			"",
-			"The Value of Souls",
+			"### The Value of Souls",
 			"",
 			"Trapped souls are one of the fundamental currencies throughout Abaddon, the Abyss, and Hell. Three key factors influence a soul's value in the soul trade: the strength of the soul's life force (which relates directly to the CR of the creature from which the soul was harvested), the soul's age (how long the soul has been cycled through reincarnation, which directly relates to the sapience of the creature from which the soul was harvested), and the soul's flavor (which is determined by factors that include the alignment, personality, and religion of the creature from which the soul was harvested). Of course, it's worth noting that while trading in souls may prove lucrative, the practice is undeniably evil and an affront to the natural order, and thus it is considered to be an evil act unless one is trading souls for an altruistic purpose (such as to smash purchased prisons and release the souls trapped within).",
 			"",
-			"Life Force: A soul's life force sets its base gp value. This is equal to the CR of the creature from which the soul was harvested &times; 1,000. Thus, the base value of a CR 1 creature's soul is 1,000 gp, while the base value of a CR 20 creature's soul is 20,000 gp.",
+			"@HL[Life Force:] A soul's life force sets its base gp value. This is equal to the CR of the creature from which the soul was harvested &times; 1,000. Thus, the base value of a CR 1 creature's soul is 1,000 gp, while the base value of a CR 20 creature's soul is 20,000 gp.",
 			"",
-			"Age: A soul from a creature who in life had an Intelligence, Wisdom, or Charisma score of 2 or less (including the lack of a score at all in one of those categories, and regardless of how high the other ability scores were) is less refined and younger in age, and as such is worth half its base value. Thus, the soul of a CR 1 animal with an Intelligence of 1 is worth 500 gp, while the soul of a CR 20 vermin with no intelligence score at all would be worth 10,000 gp.",
+			"@HL[Age:] A soul from a creature who in life had an Intelligence, Wisdom, or Charisma score of 2 or less (including the lack of a score at all in one of those categories, and regardless of how high the other ability scores were) is less refined and younger in age, and as such is worth half its base value. Thus, the soul of a CR 1 animal with an Intelligence of 1 is worth 500 gp, while the soul of a CR 20 vermin with no intelligence score at all would be worth 10,000 gp.",
 			"",
-			"Flavor: As a general rule, a soul's flavor has no direct impact on its gp value for the purposes of functioning as a material component or raw materials for magic item creation, but in certain circumstances subject to the GM's discretion, the soul's flavor can halve or double its final value. For example, a paladin's soul might have double its normal value to a daemon who finds lawful good souls to be particularly delicious, while the soul of a devout worshiper of {faith/Desna} might be worth only half as much when used to create a magic item designed to be particularly deadly when used against chaotic good creatures, since such a soul would inherently resist being used in such a way."
+			"@HL[Flavor:] As a general rule, a soul's flavor has no direct impact on its gp value for the purposes of functioning as a material component or raw materials for magic item creation, but in certain circumstances subject to the GM's discretion, the soul's flavor can halve or double its final value. For example, a paladin's soul might have double its normal value to a daemon who finds lawful good souls to be particularly delicious, while the soul of a devout worshiper of {faith/Desna} might be worth only half as much when used to create a magic item designed to be particularly deadly when used against chaotic good creatures, since such a soul would inherently resist being used in such a way."
 		]
 	},
 	"soulwrecking_strike": {
@@ -3491,8 +3491,8 @@
 			"{SOURCE Wilderness Origins/22}",
 			"",
 			"All familiars are more than they seem, but yours wears its skin like an ill-fitting coat.  ",
-			"**Prerequisites:** Familiar class feature.  ",
-			"**Benefit:** Your familiar is able to speak a single language that you know.  ",
+			"**Prerequisites:** {ability/Familiar} class feature.  ",
+			"**Benefit:** Your {sidekick/familiar} is able to speak a single language that you know.  ",
 			"**Special:** At 5th level, your familiar takes its true form; you can replace this feat with {feat/Improved Familiar}."
 		]
 	},
@@ -3506,7 +3506,7 @@
 			"",
 			"You can see through the eyes of your spawned minions.  ",
 			"**Prerequisites:** Int 13, create spawn monster ability.  ",
-			"**Benefit:** As a full-round action, you can create a link with one of your spawn that you control on the same plane. When you do so, your spawn's eyes glow bright red. When linked in this way, you can see through your spawn's eyes with either the spawn's vision or yours, whichever is more beneficial. While looking through your spawn's eyes, your body is blinded. You can also speak though your spawn (if it can speak), using your own voice. You can maintain this link each round as a standard action as if concentrating to maintain a 3rd-level spell. If your spawn is reduced to 0 or fewer hit points while you use this ability, you become blinded and dazed for 1d6 rounds with no saving throw."
+			"**Benefit:** As a full-round action, you can create a link with one of your spawn that you control on the same plane. When you do so, your spawn's eyes glow bright red. When linked in this way, you can see through your spawn's eyes with either the spawn's vision or yours, whichever is more beneficial. While looking through your spawn's eyes, your body is {misc/blinded}. You can also speak though your spawn (if it can speak), using your own voice. You can maintain this link each round as a standard action as if {rule/concentrati/ng>on} to maintain a 3rd-level spell. If your spawn is reduced to 0 or fewer hit points while you use this ability, you become blinded and {misc/dazed} for 1d6 rounds with no saving throw."
 		]
 	},
 	"spear_dancer": {
@@ -3523,7 +3523,7 @@
 			"",
 			"You incorporate your two-handed reach weapon into a dizzying martial dance.  ",
 			"**Prerequisites:** {feat/Weapon Focus} (any two-handed reach weapon), Perform (dance) 4 ranks.  ",
-			"**Benefit:** Each time you hit a creature with a two-handed reach weapon that you have {feat/Weapon Focus} in, the creature is dazzled for 1 round.",
+			"**Benefit:** Each time you hit a creature with a two-handed reach weapon that you have {feat/Weapon Focus} in, the creature is {misc/dazzled} for 1 round.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Weapon Master's Handbook/25}",
@@ -3541,7 +3541,7 @@
 			"",
 			"You can strike from afar with double weapons.  ",
 			"**Prerequisites:** Dex 17, {feat/Spear Dancing Spiral}, {feat/Spear Dancing Style}, {feat/Weapon Finesse}, {feat/Weapon Focus} with the chosen weapon.  ",
-			"**Benefit:** While using Spear Dancing Style and making a full attack using the chosen weapon as a double weapon, you can grant the reach special weapon feature to one or both of the weapon's ends until the end of your turn as a swift action."
+			"**Benefit:** While using Spear Dancing Style and making a full attack using the chosen weapon as a {misc/double} weapon, you can grant the {misc/reach} special weapon feature to one or both of the weapon's ends until the end of your turn as a swift action."
 		]
 	},
 	"spear_dancing_spiral": {
@@ -3554,7 +3554,7 @@
 			"",
 			"You wield spears with poise and grace.  ",
 			"**Prerequisites:** Dex 15, {feat/Spear Dancing Style}, {feat/Weapon Finesse}, {feat/Weapon Focus} with the chosen weapon.  ",
-			"**Benefit:** While using Spear Dancing Style, you gain the benefit of Weapon Finesse with the chosen weapon if it is appropriately sized for a creature of your size category. In addition, you can use any feat or ability that functions with a quarterstaff with your chosen weapon."
+			"**Benefit:** While using Spear Dancing Style, you gain the benefit of Weapon Finesse with the chosen weapon if it is appropriately sized for a creature of your size category. In addition, you can use any feat or ability that functions with a {eq-weapon/quarterstaff} with your chosen weapon."
 		]
 	},
 	"spear_dancing_style": {
@@ -3567,7 +3567,7 @@
 			"",
 			"You can use polearms and spears as double weapons.  ",
 			"**Prerequisites:** Dex 13, {feat/Two-Weapon Fighting}, {feat/Weapon Focus} with the chosen weapon.  ",
-			"**Benefit:** Choose one weapon from the polearm or spear fighter weapon groups. While using this style, you grant the chosen weapon the double special weapon feature, using the weapon's normal statistics for its main-hand end and the statistics of a light mace for its off-hand end. A weapon wielded in this way loses the brace and reach special weapon features.  ",
+			"**Benefit:** Choose one weapon from the polearm or spear {ability/fighter |weapon groups}. While using this style, you grant the chosen weapon the {misc/double} special weapon feature, using the weapon's normal statistics for its main-hand end and the statistics of a light mace for its off-hand end. A weapon wielded in this way loses the {misc/brace} and {misc/reach} special weapon features.  ",
 			"**Special:** A character with the weapon training (polearms or spears) class feature can use Spear Dancing Style with any polearm or spear, respectively, in addition to the chosen weapon."
 		]
 	},
@@ -3581,7 +3581,7 @@
 			"",
 			"Your partner can carry your spells to their targets.  ",
 			"**Prerequisites:** {feat/Bonded Mind}, {feat/Share Spells}, ability to deliver spells through an animal companion, eidolon, familiar, or phantom, caster level 3rd.  ",
-			"**Benefit:** Whenever you are in contact with an ally who has the Bonded Mind feat and you cast a touch spell, you can designate the ally as the \"toucher,\" as per the deliver touch spells familiar ability."
+			"**Benefit:** Whenever you are in contact with an ally who has the Bonded Mind feat and you cast a touch spell, you can designate the ally as the \"toucher,\" as per the deliver touch spells {sidekick/familiar} ability."
 		]
 	},
 	"spectacular_exit": {
@@ -3597,7 +3597,7 @@
 			"",
 			"You have mastered acrobatic maneuvers that turn even your retreats into breathtaking feats of skill.  ",
 			"**Prerequisites:** Dex 15, {feat/Dodge}, Acrobatics 7 ranks.  ",
-			"**Benefit:** When you must attempt a performance combat check because you used the withdraw action, you can attempt an Acrobatics check against your opponent's CMD before the performance combat check. Success allows you to withdraw without taking the standard -5 penalty on your check. In addition, for every 5 points by which your Acrobatics check result exceeds your opponent's CMD, you gain a +1 bonus on all Perform checks you make for the remainder of the round.",
+			"**Benefit:** When you must attempt a {rule/performance combat} check because you used the {rule/withdraw} action, you can attempt an Acrobatics check against your opponent's CMD before the performance combat check. Success allows you to withdraw without taking the standard -5 penalty on your check. In addition, for every 5 points by which your Acrobatics check result exceeds your opponent's CMD, you gain a +1 bonus on all Perform checks you make for the remainder of the round.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Weapon Master's Handbook/25}",
@@ -3615,9 +3615,9 @@
 			"",
 			"Your pursuit of dispassionate perfection gives you unmatched insight into the condition of others.  ",
 			"**Prerequisites:** {feat/Alertness}, Perception 5 ranks.  ",
-			"**Benefit:** You can perform the read aura occult skill unlock even if you can't use psychic magic. If you can cast psychic spells or have the {feat/Psychic Sensitivity} feat, you can use read aura one additional time per day.",
+			"**Benefit:** You can perform the {skill/read aura} occult skill unlock even if you can't use psychic magic. If you can cast psychic spells or have the {feat/Psychic Sensitivity} feat, you can use read aura one additional time per day.",
 			"",
-			"Once per day, you can perform an aura reading as a full-round action. If you successfully use detect thoughts or a similar mind-reading divination on a creature, you can use the read aura skill unlock on that creature as a full-round action as long as it is in your line of sight and within 30 feet. If you fail the check, you can't attempt to read that same creature's aura for 24 hours.",
+			"Once per day, you can perform an aura reading as a full-round action. If you successfully use {spell/detect thoughts} or a similar mind-reading divination on a creature, you can use the read aura skill unlock on that creature as a full-round action as long as it is in your line of sight and within 30 feet. If you fail the check, you can't attempt to read that same creature's aura for 24 hours.",
 			"",
 			"**Special:** If you have a ki pool, you can expend 1 point from your ki pool as a swift action to gain one additional daily use of the read aura occult skill unlock."
 		]
@@ -3657,7 +3657,7 @@
 			"",
 			"You know the principles of arcane dueling, and when fighting other spellcasters, you have learned to hide the true nature of your spells until the last possible moment.  ",
 			"**Prerequisites:** Bluff 5 ranks, Spellcraft 5 ranks.  ",
-			"**Benefit:** If another spellcaster tries to counterspell your casting, she adds +4 to her Spellcraft DC when trying to determine your spell.",
+			"**Benefit:** If another spellcaster tries to {rule/counterspell>s} your casting, she adds +4 to her Spellcraft DC when trying to determine your spell.",
 			"",
 			"Because you have studied how to mask the recognizable elements of your spellcasting, you gain a +2 bonus on your Spellcraft checks to identify and counter an opponent's spell if it is a spell you know or have in your spellbook."
 		]
@@ -3812,7 +3812,7 @@
 			"{SOURCE Advanced Player's Guide/170}",
 			"",
 			"You are unequaled at the casting of one particular spell.  ",
-			"**Prerequisites:** Spellcraft 15 ranks, at least three metamagic feats.  ",
+			"**Prerequisites:** Spellcraft 15 ranks, at least three {main/feats_<metamagic/ feats}.  ",
 			"**Benefit:** Pick one spell which you have the ability to cast. Whenever you cast that spell you may apply any one metamagic feat you have to that spell without affecting its level or casting time, as long as the total modified level of the spell does not use a spell slot above 9th level. In addition, if you have other feats which allow you to apply a set numerical bonus to any aspect of this spell (such as {feat/Spell Focus}, {feat/Spell Penetration}, {feat/Weapon Focus} [ray], and so on), double the bonus granted by that feat when applied to this spell."
 		]
 	},
@@ -3855,8 +3855,8 @@
 			"{SOURCE Animal Archive/19}",
 			"",
 			"Your mystical connection with your spellcasting master attunes you to helpful magical effects.  ",
-			"**Prerequisites:** Animal companion or familiar, share spells ability.  ",
-			"**Benefit:** Whenever your master targets you with a harmless spell with a target of \"you,\" the spell's duration is doubled as if modified by the Extend Spell metamagic feat. This does not affect spells with a duration of concentration, instantaneous, or permanent, or spells already modified by Extend Spell."
+			"**Prerequisites:** {sidekick/Animal companion} or {sidekick/familiar}, share spells ability.  ",
+			"**Benefit:** Whenever your master targets you with a harmless spell with a target of \"you,\" the spell's duration is doubled as if modified by the {feat/Extend Spell} metamagic feat. This does not affect spells with a duration of concentration, instantaneous, or permanent, or spells already modified by Extend Spell."
 		]
 	},
 	"spell_synergy": {
@@ -3884,9 +3884,9 @@
 			"**Prerequisites:** Masterful tricks class feature, ability to cast 4th-level mesmerist spells.  ",
 			"**Benefit:** You can implant a spell trick in a target's mind, following the same rules and limitations for implanting mesmerist tricks. A spell trick acts as a mesmerist trick in all ways, except you specify under what circumstances the spell trick can be triggered (known as the triggering condition) and what the trick's effects are once it is triggered. When determining the spell trick's effects, choose one mesmerist spell that you know. The spell trick duplicates the effects of the chosen spell when triggered, as if you had cast the spell using a mesmerist spell slot.",
 			"",
-			"When you are implanting a spell trick, you must expend a mesmerist spell slot of a level equal to or higher than the chosen spell's level. This spell can be countered and dispelled, and implanting it doesn't provoke attacks of opportunity. You are considered the spell's caster for all purposes, and the spell uses your caster level and ability score modifiers for all purposes. You can't choose a spell with a range of personal unless you are implanting the trick in yourself or a target that you can share your spells with (such as via the share spells ability).",
+			"When you are implanting a spell trick, you must expend a mesmerist spell slot of a level equal to or higher than the chosen spell's level. This spell can be {rule/counter/ed>spells} and {spell/dispel/led>_magic}, and implanting it doesn't provoke attacks of opportunity. You are considered the spell's caster for all purposes, and the spell uses your caster level and ability score modifiers for all purposes. You can't choose a spell with a range of personal unless you are implanting the trick in yourself or a target that you can share your spells with (such as via the share spells ability).",
 			"",
-			"A spell trick counts as a contingency spell when determining the total number of contingencies that a creature can have active at once."
+			"A spell trick counts as a {spell/contingency} spell when determining the total number of contingencies that a creature can have active at once."
 		]
 	},
 	"spellbreaker": {
@@ -3909,7 +3909,7 @@
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/132}",
 			">",
-			">When you hit a caster with an attack of opportunity it provoked by failing to [cast defensively](rule/concentration), you can spend 5 stamina points to daze the caster until the end of its next turn. If the caster succeeds at a Fortitude save with a DC equal to 10 + your base attack bonus, it is staggered instead.",
+			">When you hit a caster with an attack of opportunity it provoked by failing to [cast defensively](rule/concentration), you can spend 5 stamina points to {misc/daze>d} the caster until the end of its next turn. If the caster succeeds at a Fortitude save with a DC equal to 10 + your base attack bonus, it is {misc/staggered} instead.",
 			"",
 			"### Mythic Spellbreaker",
 			"",
@@ -3919,7 +3919,7 @@
 			"**Prerequisites:** Spellbreaker.  ",
 			"**Benefit:** Any non-mythic creature you threaten provokes an attack of opportunity from you whenever it uses a spell or spell-like ability, even when casting defensively or casting a quickened spell.",
 			"",
-			"If a non-mythic creature within 30 feet of you uses a spell or spell-like ability, you can expend one use of mythic power to make a ranged attack against that creature as an attack of opportunity (even if the creature wouldn't normally provoke attacks of opportunity). You must have a ranged weapon in hand or have a free hand and the non-mythic Quick Draw feat to use this ability. You can use this ability against a mythic creature by expending two uses of mythic power."
+			"If a non-mythic creature within 30 feet of you uses a spell or spell-like ability, you can expend one use of mythic power to make a ranged attack against that creature as an attack of opportunity (even if the creature wouldn't normally provoke attacks of opportunity). You must have a ranged weapon in hand or have a free hand and the non-mythic {feat/Quick Draw} feat to use this ability. You can use this ability against a mythic creature by expending two uses of mythic power."
 		]
 	},
 	"spellcut": {
@@ -3945,7 +3945,7 @@
 			"",
 			"Spells that are cast at you are sometimes deflected, courtesy of your natural resistance.  ",
 			"**Prerequisites:** Cha 13, character level 6th, {race/ghoran}, spelleater racial trait.  ",
-			"**Benefit:** Once per day, you can use the {spell/dispel magic} spell-like ability granted by your spelleater racial trait as an immediate action to attempt to counterspell. If your counterspell attempt is successful, the spell rebounds back upon the original caster, taking effect as if the spell had been cast upon that creature. This exhausts the daily use of {spell/dispel magic} granted by the spelleater racial trait."
+			"**Benefit:** Once per day, you can use the {spell/dispel magic} spell-like ability granted by your spelleater racial trait as an immediate action to attempt to {rule/counterspell>s}. If your counterspell attempt is successful, the spell rebounds back upon the original caster, taking effect as if the spell had been cast upon that creature. This exhausts the daily use of *dispel magic* granted by the spelleater racial trait."
 		]
 	},
 	"spellsong": {
@@ -3975,7 +3975,7 @@
 			"",
 			"You tread where only arachnids dare.  ",
 			"**Prerequisites:** Character level 3rd, {race/drow}.  ",
-			"**Benefit:** You can cast {spell/spider climb} once per day as a spell-like ability, using your character level as the caster level. Furthermore, you gain a +4 bonus on saving throws against the web special attacks of spiders and the effects of web and other similar spells (such as the {spell/web cloud} spell)."
+			"**Benefit:** You can cast {spell/spider climb} once per day as a spell-like ability, using your character level as the caster level. Furthermore, you gain a +4 bonus on saving throws against the {umr/web} special attacks of spiders and the effects of {spell/web} and other similar spells (such as the {spell/web cloud} spell)."
 		]
 	},
 	"spider_step": {
@@ -4003,7 +4003,7 @@
 			"**Prerequisites:** Ability to cast *summon monster or *summon nature's ally* spells, {race/drow}.  ",
 			"**Benefit:** When casting either a *summon monster* spell or a *summon nature's ally* spell, your options increase. Depending on the level of the spell, you can summon the spiders listed below.",
 			"",
-			">@hll[spell/Summon Monster:>_1] 1st level-giant crab spider\\*; 4th level-giant black widow\\*; 5th level-ogre spider\\*; 7th level-giant tarantula\\*",
+			">@hll[spell/Summon Monster:>_1] 1st level-{monster/giant crab spider}\\*; 4th level-{monster/giant black widow}\\*; 5th level-{monster/ogre spider}\\*; 7th level-{monster/giant tarantula}\\*",
 			">",
 			">@hll[spell/Summon Nature's Ally:>_1] 1st level-giant crab spider; 4th level-giant black widow; 5th level-ogre spider; 7th level-giant tarantula",
 			"",
@@ -4025,8 +4025,8 @@
 			"{SOURCE Inner Sea Gods/216;Faiths of Balance/24}",
 			"",
 			"You can attack with your armor spikes while using bull rush or overrun.  ",
-			"**Prerequisites:** Proficient with armor spikes.  ",
-			"**Benefit:** When you succeed at a bull rush or overrun combat maneuver, you may automatically make an attack roll with your armor spikes against the target of the maneuver as a swift action, using your highest attack bonus.",
+			"**Prerequisites:** Proficient with {eq-armorenh/armor spikes}.  ",
+			"**Benefit:** When you succeed at a {rule/bull rush} or {rule/overrun} combat maneuver, you may automatically make an attack roll with your armor spikes against the target of the maneuver as a swift action, using your highest attack bonus.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Weapon Master's Handbook/25}",
@@ -4047,9 +4047,9 @@
 			"",
 			"You whirl your foe around and then let go.  ",
 			"**Prerequisites:** {feat/Combat Expertise}, {feat/Improved Bull Rush}, {feat/Improved Trip}, {feat/Improved Unarmed Strike}, {feat/Ki Throw}.  ",
-			"**Benefit:** On a successful unarmed trip combat maneuver against an opponent your size or smaller, you can spend a swift action to attempt a bull rush combat maneuver against that opponent. If your bull rush succeeds, you can move that opponent to any unoccupied square you threaten, then push that opponent the number of 5-foot increments your successful bull rush allows. The target is then knocked prone. If the bull rush fails, you can use the Ki Throw feat as normal.",
+			"**Benefit:** On a successful unarmed {rule/trip} combat maneuver against an opponent your size or smaller, you can spend a swift action to attempt a {rule/bull rush} combat maneuver against that opponent. If your bull rush succeeds, you can move that opponent to any unoccupied square you threaten, then push that opponent the number of 5-foot increments your successful bull rush allows. The target is then knocked {rule/prone}. If the bull rush fails, you can use the Ki Throw feat as normal.",
 			"",
-			"If you also have the Improved Ki Throw feat, a successful bull rush allows you to push the opponent into a space secondary targets occupy. You resolve this effect as if you used the Improved Ki Throw feat to throw the opponent into that space.",
+			"If you also have the {feat/Improved Ki Throw} feat, a successful bull rush allows you to push the opponent into a space secondary targets occupy. You resolve this effect as if you used the Improved Ki Throw feat to throw the opponent into that space.",
 			"",
 			"**Special:** Per the Ki Throw feat, a monk can use ki to affect creatures larger than himself with this feat.",
 			"",
@@ -4101,7 +4101,7 @@
 			"",
 			"You have a strong connection to a particular legend, which empowers the spirits you channel.  ",
 			"**Prerequisites:** Spirit bonus class feature.  ",
-			"**Benefit:** Select a legend of spirits. Your spirit bonus from spirits of that legend increases by 1."
+			"**Benefit:** Select a {ability/legend of |spirits}. Your spirit bonus from spirits of that legend increases by 1."
 		]
 	},
 	"spirit_of_the_corps": {
@@ -4113,7 +4113,7 @@
 			"{SOURCE Monster Codex/117}",
 			"",
 			"You find inspiration in your fellow soldiers, trusting that your shared training and dedication will bring you victory on the battlefield.  ",
-			"**Benefit:** Whenever you are within 10 feet of an ally benefiting from a spell or effect that grants a morale bonus on a particular type of roll, once during that effect's duration, you can apply that morale bonus on a roll you make of that type. For instance, if an ally with this feat is benefiting from heroism, once during the duration of the spell you could gain a +2 morale bonus on one saving throw, attack roll, or skill check. You can use this feat only once per round, and only once per spell or effect."
+			"**Benefit:** Whenever you are within 10 feet of an ally benefiting from a spell or effect that grants a morale bonus on a particular type of roll, once during that effect's duration, you can apply that morale bonus on a roll you make of that type. For instance, if an ally with this feat is benefiting from {spell/heroism}, once during the duration of the spell you could gain a +2 morale bonus on one saving throw, attack roll, or skill check. You can use this feat only once per round, and only once per spell or effect."
 		]
 	},
 	"spirit_of_the_wild": {
@@ -4126,7 +4126,7 @@
 			"",
 			"Your mystic connection with one type of wilderness has grown even stronger.  ",
 			"**Prerequisites:** {feat/Attuned to the Wild}, {feat/Guardian of the Wild}, {race/elf}.  ",
-			"**Benefit:** When you are in a terrain type you have selected the Attuned to the Wild feat for, you gain a +4 bonus on Perception checks made to act in the surprise round of combat. If you act in the surprise round, you gain blindsense out to a range of 30 feet during the surprise round. If you are in an area that qualifies as more than one kind of terrain, these bonuses do not stack; you receive the bonus for only one terrain type."
+			"**Benefit:** When you are in a terrain type you have selected the Attuned to the Wild feat for, you gain a +4 bonus on Perception checks made to act in the surprise round of combat. If you act in the surprise round, you gain {umr/blindsense} out to a range of 30 feet during the surprise round. If you are in an area that qualifies as more than one kind of terrain, these bonuses do not stack; you receive the bonus for only one terrain type."
 		]
 	},
 	"spirit_oni_master": {
@@ -4139,7 +4139,7 @@
 			"",
 			"Through forbidden blood pacts, you have bound a {monster/spirit oni} to your service.  ",
 			"**Prerequisites:** Knowledge (planes) 3 ranks; Lawful neutral, lawful evil, or neutral evil.  ",
-			"**Benefit:** Whenever you wear a specially crafted oni mask (which costs 50 gp), you gain a primary gore attack dealing 1d4 points of damage. If you have poison use, you can apply poison to this gore attack as a move action.  ",
+			"**Benefit:** Whenever you wear a specially crafted oni mask (which costs 50 gp), you gain a primary gore attack dealing 1d4 points of damage. If you have {ability/poison use}, you can apply poison to this gore attack as a move action.  ",
 			"**Normal:** Applying poison to a weapon is a standard action."
 		]
 	},
@@ -4155,7 +4155,7 @@
 			"**Prerequisites:** Wis 17; {feat/Iron Will}; {feat/Spirit Beacon}; Diplomacy 5 ranks or Intimidate 5 ranks.  ",
 			"**Benefit:** Select one specific category of spirit (fey, outsiders, or undead). Once per day as a standard action, you can condemn these spirits with such force of will that you can drive them from hosts, unravel their magic, or damage them physically. A rebuke targets a single spirit you can see (or one that is possessing a creature you can see) within 30 feet.",
 			"",
-			"Rebuking a spirit either functions as a targeted {spell/dispel magic} spell or channels damaging energy directly into the creature, similar to a cleric's channel energy ability. To dispel a spirit's magic, attempt a dispel check, using your character level as your caster level (DC = 11 + spell level); if you're successful, that effect is dispelled. You can dispel only spells and spell-like abilities affecting the spirit itself or a creature it is currently possessing. If you use this dispel effect to end a spirit's possession of a creature or object, you gain a +2 bonus on this check. Channeling damaging energy instead deals 1d6 points of damage for every 2 character levels you have. A successful Will saving throw (DC = 10 + half your character level + your Charisma modifier) halves this damage.",
+			"Rebuking a spirit either functions as a targeted {spell/dispel magic} spell or channels damaging energy directly into the creature, similar to a cleric's {ability/channel energy} ability. To dispel a spirit's magic, attempt a dispel check, using your character level as your caster level (DC = 11 + spell level); if you're successful, that effect is dispelled. You can dispel only spells and spell-like abilities affecting the spirit itself or a creature it is currently possessing. If you use this dispel effect to end a spirit's possession of a creature or object, you gain a +2 bonus on this check. Channeling damaging energy instead deals 1d6 points of damage for every 2 character levels you have. A successful Will saving throw (DC = 10 + half your character level + your Charisma modifier) halves this damage.",
 			"",
 			"**Special:** You can select this feat up to three times. Each time you do, you must select a different category of spirit your rebuke can affect, and you can use the feat one additional time each day."
 		]
@@ -4196,7 +4196,7 @@
 			"",
 			"You fully open your mind to the spirit world, learning to perceive the hidden.  ",
 			"**Prerequisites:** Wis 15, {feat/Iron Will}, {feat/Spirit Beacon}.  ",
-			"**Benefit:** Invisible creatures of the fey, outsider, and undead types gain only {rule/concealment} from you, rather than total concealment (though they can still gain total concealment from cover or use of the Stealth skill). Such creatures do not gain a bonus on attack rolls against you or ignore your Dexterity bonus to AC as normally granted by invisibility."
+			"**Benefit:** Invisible creatures of the fey, outsider, and undead types gain only {rule/concealment} from you, rather than total concealment (though they can still gain total concealment from {rule/cover} or use of the Stealth skill). Such creatures do not gain a bonus on attack rolls against you or ignore your Dexterity bonus to AC as normally granted by invisibility."
 		]
 	},
 	"spirit_speaker": {
@@ -4209,7 +4209,7 @@
 			"",
 			"By absorbing spirits, you can learn how to set them free.  ",
 			"**Prerequisites:** Cha 13, Con 13, {feat/Absorb Spirit}, Diplomacy 5 ranks, must have died at least once or been possessed by an undead creature.  ",
-			"**Benefit:** When you absorb a spirit with the Absorb Spirit feat, you can converse with it through an internal dialogue in your mind. While conversing with the spirit, you can attempt Diplomacy checks to change its attitude toward you, as a normal use of that skill. If you are a medium with the haunt channeler class feature, you gain a +4 bonus on these Diplomacy checks. Once the spirit's attitude is indifferent or better, you can request to know what must be done to lay the spirit to rest, though the DC to do so is the DC to change its current attitude + 15. This takes into account the circumstance modifiers for the request in a typical situation, though it could be higher or lower in an unusual circumstance.",
+			"**Benefit:** When you absorb a spirit with the Absorb Spirit feat, you can converse with it through an internal dialogue in your mind. While conversing with the spirit, you can attempt Diplomacy checks to change its attitude toward you, as a normal use of that skill. If you are a {class/medium} with the haunt channeler class feature, you gain a +4 bonus on these Diplomacy checks. Once the spirit's attitude is indifferent or better, you can request to know what must be done to lay the spirit to rest, though the DC to do so is the DC to change its current attitude + 15. This takes into account the circumstance modifiers for the request in a typical situation, though it could be higher or lower in an unusual circumstance.",
 			"",
 			"The spirit's starting attitude is usually hostile since you destroyed it and imprisoned it within you, interfering with its rejuvenation. If it's the spirit of an undead creature, it has the same Charisma bonus it had while fully manifested. If the spirit is that of a haunt, it has an effective Charisma based on its CR using the following table.",
 			"",
@@ -4237,7 +4237,7 @@
 			"",
 			"Your phantom is impressionable and easily influenced by contact with new spirits.  ",
 			"**Prerequisites:** Ability to cast {spell/speak with dead}, phantom class feature.  ",
-			"**Benefit:** When you cast speak with dead, you can choose not to gain any of the normal effects of the spell, instead temporarily merging the summoned spirit into your phantom, exchanging your phantom's current emotional focus and all related abilities for a new emotional focus of your choice. This new emotional focus persists for 10 minutes per class level you have, after which your phantom's original emotional focus returns."
+			"**Benefit:** When you cast *speak with dead,* you can choose not to gain any of the normal effects of the spell, instead temporarily merging the summoned spirit into your {sidekick/phantom}, exchanging your phantom's current emotional focus and all related abilities for a new {ability/emotional focus} of your choice. This new emotional focus persists for 10 minutes per class level you have, after which your phantom's original emotional focus returns."
 		]
 	},
 	"spirit_talker": {
@@ -4249,8 +4249,8 @@
 			"{SOURCE Advanced Class Guide/156}",
 			"",
 			"By forging a temporary bond with a spirit, you gain access to an unfamiliar hex.  ",
-			"**Prerequisites:** Hex class feature; shaman level 6th or witch level 6th.  ",
-			"**Benefit:** Once per day, you can spend 10 minutes communing with a shaman spirit of your choice. When you do, you gain the temporary use of one hex from its list of hexes. This hex is added to your list of available hexes for the next hour, after which you immediately lose all benefits of that hex."
+			"**Prerequisites:** Hex class feature; {class/shaman} level 6th or {class/witch} level 6th.  ",
+			"**Benefit:** Once per day, you can spend 10 minutes communing with a {ability/shaman spirit>s} of your choice. When you do, you gain the temporary use of one hex from its list of hexes. This hex is added to your list of available hexes for the next hour, after which you immediately lose all benefits of that hex."
 		]
 	},
 	"spirit_vision": {
@@ -4262,7 +4262,7 @@
 			"{SOURCE Demons Revisited/32}",
 			"",
 			"You retain your senses when seeking a possession target.  ",
-			"**Prerequisites:** Magic jar as a known spell or spell-like ability, Wis 15  ",
+			"**Prerequisites:** {spell/Magic jar} as a known spell or spell-like ability, Wis 15  ",
 			"**Benefit:** When you sense life forces while seeking a host, you can observe them as you could when you were in your own body. Attempting to possess a body is a standard action."
 		]
 	},
@@ -4280,7 +4280,7 @@
 			"",
 			"Your mounted charge attacks deal a tremendous amount of damage.  ",
 			"**Prerequisites:** Ride 1 rank, {feat/Mounted Combat}.  ",
-			"**Benefit:** When mounted and using the charge action, you deal double damage with a melee weapon (or triple damage with a lance).",
+			"**Benefit:** When mounted and using the {rule/charge} action, you deal double damage with a melee weapon (or triple damage with a lance).",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/132}",
@@ -4293,7 +4293,7 @@
 			"",
 			"Your mounted charge knocks the wind and wits from those foolish enough to stand against you.  ",
 			"**Prerequisites:** Spirited Charge.  ",
-			"**Benefit:** When you hit an opponent with a mounted charge, that opponent must succeed at a Fortitude saving throw (DC 10 + 1/2 your character level + your Str modifier) or be staggered for a number of rounds equal to your tier. If you use a lance with this attack, increase the saving throw DC by 2. As a free action before you make the attack, you can expend one use of mythic power to daze your opponent on a failed saving throw instead of staggering it."
+			"**Benefit:** When you hit an opponent with a mounted charge, that opponent must succeed at a Fortitude saving throw (DC 10 + 1/2 your character level + your Str modifier) or be {misc/staggered} for a number of rounds equal to your tier. If you use a lance with this attack, increase the saving throw DC by 2. As a free action before you make the attack, you can expend one use of mythic power to {misc/daze>d} your opponent on a failed saving throw instead of staggering it."
 		]
 	},
 	"spirits_gift": {
@@ -4305,8 +4305,8 @@
 			"{SOURCE Advanced Class Guide/157}",
 			"",
 			"You commune with a spirit of your choice, and it grants your animal companion or familiar a boon.  ",
-			"**Prerequisites:** Animal companion class feature or familiar class feature.  ",
-			"**Benefit:** At the start of the day, you can choose to commune with a single shaman spirit. (Although a shaman would need an hour of preparation, this takes you no time.) Once during the next 24 hours, you can spend a standard action to grant your animal companion or familiar that shaman spirit's spirit animal ability for 1 minute per level in the class that grants your animal companion or familiar."
+			"**Prerequisites:** {ability/Animal companion} class feature or {ability/familiar} class feature.  ",
+			"**Benefit:** At the start of the day, you can choose to commune with a single {ability/shaman spirit>s}. (Although a shaman would need an hour of preparation, this takes you no time.) Once during the next 24 hours, you can spend a standard action to grant your animal companion or familiar that shaman spirit's spirit animal ability for 1 minute per level in the class that grants your animal companion or familiar."
 		]
 	},
 	"spiritual_balance": {
@@ -4332,8 +4332,8 @@
 			"{SOURCE Advanced Class Guide/157}",
 			"",
 			"Your spiritual guardians are more powerful than those of most others.  ",
-			"**Prerequisites:** Ability to cast spiritual weapon or spiritual ally, spirit magic class feature.  ",
-			"**Benefit:** Whenever you cast spiritual weapon, spiritual ally, or a similar spell that grants you a spiritual guardian, that guardian uses your shaman level instead of your base attack bonus to determine its base attack bonus, potentially granting it multiple attacks. Additionally, it gains a +2 bonus on caster level checks to overcome spell resistance as well as on damage rolls."
+			"**Prerequisites:** Ability to cast {spell/spiritual weapon} or {spell/spiritual ally}, spirit magic class feature.  ",
+			"**Benefit:** Whenever you cast *spiritual weapon, spiritual ally,* or a similar spell that grants you a spiritual guardian, that guardian uses your shaman level instead of your base attack bonus to determine its base attack bonus, potentially granting it multiple attacks. Additionally, it gains a +2 bonus on caster level checks to overcome spell resistance as well as on damage rolls."
 		]
 	},
 	"spiritual_training": {
@@ -4345,7 +4345,7 @@
 			"{SOURCE Haunted Heroes Handbook/25}",
 			"",
 			"Through dedicated study and training, you can resist the control of possessing spirits.  ",
-			"**Benefit:** You gain a +2 competence bonus on Knowledge checks to identify creatures with the incorporeal subtype, and can attempt Knowledge checks dealing with incorporeal creatures untrained. When affected by a dominate person, magic jar, or possession spell or a similar ability, your mind and soul remain aware within your body, at war with the invading consciousness. While dominated or possessed, you can attempt a Will save as a swift action to temporarily regain control over your body. On a successful save, you can act normally for 1 round. On a failed save, you cannot attempt to regain control for 1 hour, but the possessing consciousness can't take a swift action that round."
+			"**Benefit:** You gain a +2 competence bonus on Knowledge checks to identify creatures with the incorporeal subtype, and can attempt Knowledge checks dealing with incorporeal creatures untrained. When affected by a {spell/dominate person}, {spell/magic jar}, or {spell/possession} spell or a similar ability, your mind and soul remain aware within your body, at war with the invading consciousness. While dominated or possessed, you can attempt a Will save as a swift action to temporarily regain control over your body. On a successful save, you can act normally for 1 round. On a failed save, you cannot attempt to regain control for 1 hour, but the possessing consciousness can't take a swift action that round."
 		]
 	},
 	"spiritualists_call": {
@@ -4358,7 +4358,7 @@
 			"",
 			"Whenever you summon your phantom, it is more powerful for a brief period of time.  ",
 			"**Prerequisites:** Phantom class feature.  ",
-			"**Benefit:** Whenever you summon your phantom, you can give it a +2 enhancement bonus to its Strength, Dexterity, or Charisma. This bonus lasts for 10 minutes after the summoning ritual is complete."
+			"**Benefit:** Whenever you summon your {sidekick/phantom}, you can give it a +2 enhancement bonus to its Strength, Dexterity, or Charisma. This bonus lasts for 10 minutes after the summoning ritual is complete."
 		]
 	},
 	"spit_venom": {
@@ -4392,7 +4392,7 @@
 			"",
 			"Your allies are used to being in the splash zone of your hurled weapons, and try to ensure that at least your opponent gets hit.  ",
 			"**Prerequisites:** Base attack bonus +1.  ",
-			"**Benefit:** You initiate this feat whenever you throw a splash weapon into a square within the reach of an ally who also has this feat and miss your target. Rather than you rolling to see where the weapon lands, the abettor can try to redirect it as an immediate action by making a melee touch attack against any adjacent foe. If the abettor's attack hits that foe, the splash weapon impacts in the nearest square the targeted foe occupies."
+			"**Benefit:** You initiate this feat whenever you {rule/throw[ a] splash weapon} into a square within the reach of an ally who also has this feat and miss your target. Rather than you rolling to see where the weapon lands, the abettor can try to redirect it as an immediate action by making a melee touch attack against any adjacent foe. If the abettor's attack hits that foe, the splash weapon impacts in the nearest square the targeted foe occupies."
 		]
 	},
 	"splash_weapon_mastery": {
@@ -4404,7 +4404,7 @@
 			"{SOURCE Adventurer's Armory/31}",
 			"",
 			"You are adept at increasing the range, area, and accuracy of splash weapons.  ",
-			"**Benefit:** When throwing a splash weapon, you act as if you had the Far Shot feat. When you hit with a splash weapon, select one additional square adjacent to the splash area; creatures in this area also take splash damage. When you miss with a splash weapon, you may adjust the miss direction on the grid by +1 or -1. This feat counts as Far Shot for the purpose of qualifying for other feats, but only in regard to splash weapons."
+			"**Benefit:** When {rule/throw[ing a] splash weapon}, you act as if you had the {feat/Far Shot} feat. When you hit with a splash weapon, select one additional square adjacent to the splash area; creatures in this area also take splash damage. When you miss with a splash weapon, you may adjust the miss direction on the grid by +1 or -1. This feat counts as Far Shot for the purpose of qualifying for other feats, but only in regard to splash weapons."
 		]
 	},
 	"splintering_weapon": {
@@ -4416,8 +4416,8 @@
 			"{SOURCE Ultimate Combat/120}",
 			"",
 			"Your {misc/fragile} weapon works to your advantage, breaking off fragments in wounds you inflict.  ",
-			"**Prerequisites:** Base attack bonus +1, proficient with weapon, weapon made of primitive material.  ",
-			"**Benefit:** Whenever you use a melee or thrown weapon with the {misc/fragile} weapon feature or similar quality and hit an opponent, you can give your weapon the broken condition to deal that opponent 1d4 points of bleed damage."
+			"**Prerequisites:** Base attack bonus +1, proficient with weapon, weapon made of {main/equipment<primitive| material>s}.  ",
+			"**Benefit:** Whenever you use a melee or thrown weapon with the {misc/fragile} weapon feature or similar quality and hit an opponent, you can give your weapon the {misc/broken} condition to deal that opponent 1d4 points of {rule/bleed} damage."
 		]
 	},
 	"split_hex": {
@@ -4429,8 +4429,8 @@
 			"{SOURCE Ultimate Magic/156}",
 			"",
 			"You can split the effect of one of your targeted hexes, affecting another creature you can see.  ",
-			"**Prerequisites:** Witch level 10th.  ",
-			"**Benefit:** When you use one of your hexes (not a major hex or a grand hex) that targets a single creature, you can choose another creature within 30 feet of the first target to also be targeted by the hex."
+			"**Prerequisites:** {class/Witch} level 10th.  ",
+			"**Benefit:** When you use one of your {ability/hexes} (not a major hex or a grand hex) that targets a single creature, you can choose another creature within 30 feet of the first target to also be targeted by the hex."
 		]
 	},
 	"split_major_hex": {
@@ -4442,8 +4442,8 @@
 			"{SOURCE Ultimate Magic/156}",
 			"",
 			"You can split the effect of one of your targeted hexes, affecting another creature you can see.  ",
-			"**Prerequisites:** {feat/Split hex}, caster level 18th.  ",
-			"**Benefit:** When you use one of your major hexes (not a grand hex) that targets a creature, you can choose another creature within 30 feet of the first target to also be targeted by the major hex."
+			"**Prerequisites:** {feat/Split Hex}, caster level 18th.  ",
+			"**Benefit:** When you use one of your {ability/major hexes} (not a grand hex) that targets a creature, you can choose another creature within 30 feet of the first target to also be targeted by the major hex."
 		]
 	},
 	"split_trick": {
@@ -4471,7 +4471,7 @@
 			"{SOURCE Ultimate Magic/157}",
 			"",
 			"You can focus to combine one of your known spells and metamagic feats.  ",
-			"**Prerequisites:** Cha 13, one metamagic feat, able to spontaneously cast spells.  ",
+			"**Prerequisites:** Cha 13, one {main/feats_<metamagic/ feat}, able to spontaneously cast spells.  ",
 			"**Benefit:** Pick a single spell that you are able to cast spontaneously. When you apply metamagic feats to that spell, you can cast the spell using the normal casting time instead of at the slower casting time.  ",
 			"**Special:** You can take this feat multiple times. Each time you select this feat, choose a new spell that you can cast spontaneously; the feat applies to that spell.",
 			"",
@@ -4494,8 +4494,8 @@
 			"{SOURCE Advanced Class Guide/157}",
 			"",
 			"Instead of casting a cure spell, you can instead cast summon nature's ally.  ",
-			"**Prerequisites:** Knowledge (nature) 5 ranks, ability to spontaneously cast {main/cure or inflict |spell/s>_groupings}, Animal or Plant domain.  ",
-			"**Benefit:** You can \"lose\" a prepared spell in order to cast any summon nature's ally spell of the same level or lower, instead of casting a cure spell or an inflict spell as you normally would. For the purpose of this feat only, the summon nature's ally spells of the appropriate spell levels count as being on your spell list at the same spell level as for a druid."
+			"**Prerequisites:** Knowledge (nature) 5 ranks, ability to spontaneously cast {main/cure or inflict |spell/s>_groupings}, {domain/Animal} or {domain/Plant} domain.  ",
+			"**Benefit:** You can \"lose\" a prepared spell in order to cast any {spell/summon nature's ally>_1} spell of the same level or lower, instead of casting a *cure* spell or an *inflict* spell as you normally would. For the purpose of this feat only, the *summon nature's ally* spells of the appropriate spell levels count as being on your spell list at {main/the same |spell[ level a]s [for a ]druid}."
 		]
 	},
 	"sprightly_armor": {
@@ -4556,8 +4556,8 @@
 			"{SOURCE Armor Master's Handbook/11}",
 			"",
 			"Your armor's flexibility and your own training allow you to strike multiple times while moving.  ",
-			"**Prerequisites:** Dex 17, {feat/Dodge}, {feat/Mobility}, base attack bonus +11, proficiency with light armor.  ",
-			"**Benefit:** While using Spring-Heeled Style, whenever you use {feat/Shot on the Run} or {feat/Spring Attack}, you can attack two different creatures at any point in your movement. Each attack is made at your full attack bonus. Any creature that you attack in melee with this feat cannot make attacks of opportunity against you for that movement, as normal for Spring Attack."
+			"**Prerequisites:** Dex 17, {feat/Dodge}, {feat/Mobility}, {feat/Shot on the Run} or {feat/Spring Attack}, {feat/Spring-Heeled Sprint}, {feat/Spring-Heeled Style}, base attack bonus +11, proficiency with light armor.  ",
+			"**Benefit:** While using Spring-Heeled Style, whenever you use Shot on the Run or Spring Attack, you can attack two different creatures at any point in your movement. Each attack is made at your full attack bonus. Any creature that you attack in melee with this feat cannot make attacks of opportunity against you for that movement, as normal for Spring Attack."
 		]
 	},
 	"spring_heeled_sprint": {
@@ -4569,8 +4569,8 @@
 			"{SOURCE Armor Master's Handbook/11}",
 			"",
 			"You can move quickly without sacrificing your offense.  ",
-			"**Prerequisites:** Dex 15, {feat/Dodge}, {feat/Mobility}, base attack bonus +7, proficiency with light armor.  ",
-			"**Benefit:** While using Spring-Heeled Style, you can move up to twice your speed when using the {feat/Shot on the Run} or {feat/Spring Attack} feats"
+			"**Prerequisites:** Dex 15, {feat/Dodge}, {feat/Mobility}, {feat/Shot on the Run} or {feat/Spring Attack}, {feat/Spring-Heeled Style}, base attack bonus +7, proficiency with light armor.  ",
+			"**Benefit:** While using Spring-Heeled Style, you can move up to twice your speed when using the Shot on the Run or Spring Attack feats"
 		]
 	},
 	"spring_heeled_style": {
@@ -4627,7 +4627,7 @@
 			"",
 			"You can bull rush an opponent straight to the ground.  ",
 			"**Prerequisites:** {feat/Improved Bull Rush}, {feat/Merciless Rush}, worshiper of {faith/Rovagug}.  ",
-			"**Benefit:** Whenever you make a bull rush attack and your combat maneuver check exceeds the target's CMD by 5 or more, you can attempt to trip the target as part of your bull rush as a free action. This does not provoke an attack of opportunity.",
+			"**Benefit:** Whenever you make a {rule/bull rush} attack and your combat maneuver check exceeds the target's CMD by 5 or more, you can attempt to {rule/trip} the target as part of your bull rush as a free action. This does not provoke an attack of opportunity.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Weapon Master's Handbook/25}",
@@ -4647,11 +4647,12 @@
 			"**Prerequisites:** Character level 4th, proficient with all martial weapons.  ",
 			"**Benefit:** This feat acts similarly to the {feat/Leadership} feat, with several exceptions. You can only attract a 1st-level cohort (referred to hereafter as a squire) with this feat, and cannot recruit followers until you have the Leadership feat. You determine your Leadership score according to the rules presented in the Leadership feat, but your squire is always at least three or more levels lower than yourself.",
 			"",
-			"A squire can only take levels in a class that grants proficiency with all martial weapons as a class feature, such as paladin, gunslinger, cavalier, or fighter. She cannot multiclass, though she may take any archetype she qualifies for, including those from the following \"Squire Archetypes\" section.",
+			"A squire can only take levels in a class that grants proficiency with all martial weapons as a class feature: antipaladin, aristocrat, barbarian, bloodrager, cavalier, fighter, gunslinger, hunter, magus, occultist, paladin, ranger, samurai, skald, slayer, swashbuckler, vigilante, warpriest, or warrior. She cannot multiclass, though she may take any archetype she qualifies for, including {arc-paladin/Combat Healer Squire} (paladin), {arc-gunslinger/Gunner Squire} (gunslinger), {arc-cavalier/Herald Squire} (cavalier), and {arc-fighter/Weapon Bearer Squire} (fighter).",
 			"",
 			"If a squire gains enough XP to bring her to two levels lower than your level, the squire does not gain the new level until you gain your next level - until then her new XP total is 1 less than the amount needed to attain the next level and she gains no additional XP until you advance.",
 			"",
-			"If you release your squire from service, you may gain a new one by scouting for potential candidates in a city or large town where members of your knightly order can typically be found, which requires at least 24 hours of uninterrupted scouting. This act can also replace a squire who has perished.  ",
+			"If you release your squire from service, you may gain a new one by scouting for potential candidates in a city or large town where members of your knightly order can typically be found, which requires at least 24 hours of uninterrupted scouting. This act can also replace a squire who has perished.",
+			"",
 			"**Graduation:** When you reach 7th level, this feat automatically upgrades to the Leadership feat (meaning that you effectively lose this feat and replace it with Leadership). You gain all the normal benefits of the Leadership feat, except that your squire must remain at least three levels lower than you and must continue to take levels in her first class. In order for your squire to be able to be two levels lower than you, your squire must be at least 4th level, and you must witness her as she single-handedly defeats a creature with Hit Dice equal to or greater than her own. Upon the creature's defeat, your squire graduates to full knighthood and acts as a normal cohort; she may begin taking levels in other classes if she so chooses, and she may increase in level to up to two levels lower than yourself."
 		]
 	},
@@ -4665,7 +4666,7 @@
 			"",
 			"Your body is easily lost in the muddy chaos of fighting as a swarm, making your vital areas difficult to target.  ",
 			"**Prerequisites:** Acrobatics 5 ranks, swarming racial trait.  ",
-			"**Benefit:** While sharing a square with an ally who has this feat, you gain a 25% chance of negating the additional damage from a successful critical hit or sneak attack; if you negate the damage, it is instead rolled normally. This negation chance doesn't stack with similar protection provided by any other source, such as the fortification armor special ability."
+			"**Benefit:** While sharing a square with an ally who has this feat, you gain a 25% chance of negating the additional damage from a successful critical hit or {ability/sneak attack}; if you negate the damage, it is instead rolled normally. This negation chance doesn't stack with similar protection provided by any other source, such as the {magic-enh/fortification} armor special ability."
 		]
 	},
 	"stabbing_shot": {
@@ -4699,7 +4700,7 @@
 			"",
 			"You run with a smooth and steady gait.  ",
 			"**Prerequisites:** Animal or magical beast.  ",
-			"**Benefit:** Your AC penalty when charging is halved. The penalties on ranged attacks made by your rider are reduced by 1 when you take a double move and by 2 when you run (minimum penalty of 0). Your rider gains a +4 bonus on {rule/concentration} checks caused by your motion."
+			"**Benefit:** Your AC penalty when {rule/charg/ing>e} is halved. The penalties on ranged attacks made by your rider are reduced by 1 when you take a double move and by 2 when you {rule/run} (minimum penalty of 0). Your rider gains a +4 bonus on {rule/concentration} checks caused by your motion."
 		]
 	},
 	"stable_spell": {
@@ -4724,7 +4725,7 @@
 			"",
 			"You've learned to gain the upper hand against your enemies by charging at them with feigned abandon, yet gaining a strong grip on them after attacking.  ",
 			"**Prerequisites:** Dex 13, {feat/Charging Stag Style}, {feat/Dodge}, {feat/Improved Unarmed Strike}, {feat/Mobility}.  ",
-			"**Benefit:** While using Charging Stag Style, if you make a successful unarmed attack at the end of a charge, you can attempt a free grapple check against the target of your charge without provoking an attack of opportunity.  ",
+			"**Benefit:** While using Charging Stag Style, if you make a successful unarmed attack at the end of a charge, you can attempt a free {rule/grapple} check against the target of your charge without provoking an attack of opportunity.  ",
 			"**Normal:** Attempting a grapple requires a standard action, which provokes an attack of opportunity from your target unless you have the {feat/Improved Grapple} feat."
 		]
 	},
@@ -4738,7 +4739,7 @@
 			"",
 			"You can quickly subdue an opponent you've charged using a special submission hold.  ",
 			"**Prerequisites:** {feat/Charging Stag Style}, {feat/Dodge}, {feat/Improved Unarmed Strike}, {feat/Mobility}, {feat/Stag Horns}.  ",
-			"**Benefit:** When you are in Charging Stag Style and succeed at a combat maneuver check to pin a foe, you can choose to also knock the foe prone or to deal your unarmed attack damage to the foe.  ",
+			"**Benefit:** When you are in Charging Stag Style and succeed at a combat maneuver check to [pin](rule/grapple) a foe, you can choose to also knock the foe {rule/prone} or to deal your unarmed attack damage to the foe.  ",
 			"**Normal:** After successfully maintaining a grapple on a target, you can choose to move, damage, or pin the target."
 		]
 	},
@@ -4774,7 +4775,7 @@
 			"",
 			"You know just where to strike to temporarily stagger a foe.  ",
 			"**Prerequisites:** Str 13, {feat/Power Attack}, {feat/Vital Strike}, base attack bonus +8.  ",
-			"**Benefit:** When you attack a foe using Vital Strike, you can choose to take a -2 penalty on your attack roll to also make the attack a staggering strike. You must make this choice before making the attack roll. If your attack roll is successful, your target must succeed at a Fortitude saving throw (DC = 10 + 1/2 your character level + your Strength modifier) or be staggered until the start of your next turn. Once a creature that failed its save recovers from the effects of your staggering blow, it is immune to the effects of this feat for 24 hours. Constructs, oozes, plants, undead, incorporeal creatures, and creatures that are immune to critical hits are immune to this effect."
+			"**Benefit:** When you attack a foe using Vital Strike, you can choose to take a -2 penalty on your attack roll to also make the attack a staggering strike. You must make this choice before making the attack roll. If your attack roll is successful, your target must succeed at a Fortitude saving throw (DC = 10 + 1/2 your character level + your Strength modifier) or be {misc/staggered} until the start of your next turn. Once a creature that failed its save recovers from the effects of your staggering blow, it is immune to the effects of this feat for 24 hours. Constructs, oozes, plants, undead, incorporeal creatures, and creatures that are immune to critical hits are immune to this effect."
 		]
 	},
 	"staggering_critical": {
@@ -4790,7 +4791,7 @@
 			"",
 			"Your critical hits cause opponents to slow down.  ",
 			"**Prerequisites:** {feat/Critical Focus}, base attack bonus +13.  ",
-			"**Benefit:** Whenever you score a critical hit, your opponent becomes staggered for 1d4+1 rounds. A successful Fortitude save reduces the duration to 1 round. The DC of this Fortitude save is equal to 10 + your base attack bonus. The effects of this feat do not stack. Additional hits instead add to the duration.  ",
+			"**Benefit:** Whenever you score a critical hit, your opponent becomes {misc/staggered} for 1d4+1 rounds. A successful Fortitude save reduces the duration to 1 round. The DC of this Fortitude save is equal to 10 + your base attack bonus. The effects of this feat do not stack. Additional hits instead add to the duration.  ",
 			"**Special:** You can only apply the effects of one critical feat to a given critical hit unless you possess Critical Mastery.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -4812,7 +4813,7 @@
 			"",
 			"When you engage in unarmed combat, you know just where to strike to stagger your foe.  ",
 			"**Prerequisites:** Dex 13, Wis 13, {feat/Improved Unarmed Strike}, base attack bonus +2.  ",
-			"**Benefit:** When you damage a foe with your unarmed attack, you can also cause it to be staggered for 1 round (until just before your next turn). The target can avoid this with a successful Fortitude saving throw (DC = 10 + 1/2 your character level + your Wisdom modifier). You must declare that you are using this feat before you make your attack roll; thus, a failed attack roll ruins the attempt. You can attempt to use this feat once per day for every 4 character levels you have, but no more than once per round. Constructs, incorporeal creatures, plants, undead, and creatures that are immune to critical hits cannot be affected by this ability.",
+			"**Benefit:** When you damage a foe with your unarmed attack, you can also cause it to be {misc/staggered} for 1 round (until just before your next turn). The target can avoid this with a successful Fortitude saving throw (DC = 10 + 1/2 your character level + your Wisdom modifier). You must declare that you are using this feat before you make your attack roll; thus, a failed attack roll ruins the attempt. You can attempt to use this feat once per day for every 4 character levels you have, but no more than once per round. Constructs, incorporeal creatures, plants, undead, and creatures that are immune to critical hits cannot be affected by this ability.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/132}",
@@ -4830,7 +4831,7 @@
 			"",
 			"Your affinity to the natural world allows you to adopt the focus of a single animal.  ",
 			"**Prerequisites:** Knowledge (nature) 3 ranks, Survival 3 ranks, no levels in a class that has the animal focus class feature.  ",
-			"**Benefit:** Choose a single type of animal to emulate from the hunter's animal focus class feature. Once per day, you or your animal companion (if you have one) can gain the benefit of that animal focus for 1 minute. Treat your character level as your hunter level for the purpose of determining the benefits granted by your chosen animal focus.  ",
+			"**Benefit:** Choose a single type of animal to emulate from the hunter's {ability/animal focus} class feature. Once per day, you or your {sidekick/animal companion} (if you have one) can gain the benefit of that animal focus for 1 minute. Treat your character level as your hunter level for the purpose of determining the benefits granted by your chosen animal focus.  ",
 			"**Special:** If you gain levels in a class that has the animal focus class feature, when you gain that feature you gain 1 additional minute of use each day of your animal focus class feature."
 		]
 	},
@@ -4844,7 +4845,7 @@
 			"",
 			"You adopt a defensive stance that allows you to absorb and redirect hits.  ",
 			"**Prerequisites:** {feat/Diehard}, {feat/Endurance}, base attack bonus +4.  ",
-			"**Benefit:** While using the total defense action, fighting defensively action, or {feat/Combat Expertise}, you can forgo the dodge bonus to AC you would normally gain to instead gain an equivalent amount of DR, to a maximum of DR 5/-, until the start of your next turn. This damage reduction stacks with DR you gain from class features, such as the barbarian's, but not with DR from any other source. If you are denied your Dexterity bonus to AC, you are also denied this DR."
+			"**Benefit:** While using the {misc/total defense} action, {misc/fighting defensively} action, or {feat/Combat Expertise}, you can forgo the dodge bonus to AC you would normally gain to instead gain an equivalent amount of DR, to a maximum of DR 5/-, until the start of your next turn. This damage reduction stacks with DR you gain from class features, such as the {class/barbarian/'s}, but not with DR from any other source. If you are denied your Dexterity bonus to AC, you are also denied this DR."
 		]
 	},
 	"stance_of_the_xorn": {
@@ -4857,7 +4858,7 @@
 			"",
 			"You have heightened awareness of enemies on all sides.  ",
 			"**Prerequisites:** Wis 15, base attack bonus +3.  ",
-			"**Benefit:** Flanking creatures do not gain a +2 bonus to attack you (this does not prevent you from being sneak attacked or denied your Dexterity bonus). A condition that makes you lose your Dex bonus to AC also makes you lose the benefits of this feat.  ",
+			"**Benefit:** {rule/Flanking} creatures do not gain a +2 bonus to attack you (this does not prevent you from being {ability/sneak attack/ed} or denied your Dexterity bonus). A condition that makes you lose your Dex bonus to AC also makes you lose the benefits of this feat.  ",
 			"**Normal:** Flanking opponents gain a +2 flanking bonus to hit."
 		]
 	},
@@ -4874,7 +4875,7 @@
 			"",
 			"You can stop foes that try to move past you.  ",
 			"**Prerequisites:** {feat/Combat Reflexes}.  ",
-			"**Benefit:** When a foe provokes an attack of opportunity due to moving through your adjacent squares, you can make a combat maneuver check as your attack of opportunity. If successful, the enemy cannot move for the rest of his turn. An enemy can still take the rest of his action, but cannot move. This feat also applies to any creature that attempts to move from a square that is adjacent to you if such movement provokes an attack of opportunity.",
+			"**Benefit:** When a foe provokes an attack of opportunity due to moving through your adjacent squares, you can make a {rule/combat maneuver>s} check as your attack of opportunity. If successful, the enemy cannot move for the rest of his turn. An enemy can still take the rest of his action, but cannot move. This feat also applies to any creature that attempts to move from a square that is adjacent to you if such movement provokes an attack of opportunity.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/132}",
@@ -4906,7 +4907,7 @@
 			"{SOURCE Ultimate Magic/157}",
 			"",
 			"Your summoned minions slink along under the shadows of the stars.  ",
-			"**Prerequisites:** {feat/Spell Focus} (conjuration), able to cast summon nature's ally.  ",
+			"**Prerequisites:** {feat/Spell Focus} (conjuration), able to cast {spell/summon nature's ally>_1}.  ",
 			"**Benefit:** Creatures you summon gain the {feat/Blind-Fight} feat, a +5 bonus to Perception and Stealth checks in dim light or darkness, and their natural weapons are treated as cold iron for overcoming damage reduction."
 		]
 	},
@@ -4920,9 +4921,9 @@
 			"",
 			"Your quick and free starknife motions allow you to make deadly dexterous attacks.  ",
 			"**Prerequisites:** Dex 13, {feat/Weapon Finesse}.  ",
-			"**Benefit:** When wielding a starknife, you can add your Dexterity modifier instead of your Strength modifier to that weapon's damage. The starknife must be one appropriate for your size. You do not gain this benefit while fighting with two weapons or using flurry of blows, or any time another hand is otherwise occupied.",
+			"**Benefit:** When wielding a {eq-weapon.starknife}, you can add your Dexterity modifier instead of your Strength modifier to that weapon's damage. The starknife must be one appropriate for your size. You do not gain this benefit while fighting with two weapons or using flurry of blows, or any time another hand is otherwise occupied.",
 			"",
-			"In addition, if you have the panache class feature, as long as you have at least 1 panache point, you gain a +5 bonus to your movement speed on your move action after taking an attack action with a starknife or on your {feat/Spring Attack} or charge with a starknife."
+			"In addition, if you have the panache class feature, as long as you have at least 1 panache point, you gain a +5 bonus to your movement speed on your move action after taking an attack action with a starknife or on your {feat/Spring Attack} or {rule/charge} with a starknife."
 		]
 	},
 	"startling_getaway": {
@@ -4989,7 +4990,7 @@
 			"",
 			"Your thrown weapons become more deadly.  ",
 			"**Prerequisites:** Dex 13, {feat/Point-Blank Shot}, {feat/Weapon Focus} with the chosen weapon.  ",
-			"**Benefit:** Choose one weapon from the thrown fighter weapon group. While using this style and the chosen weapon, you gain a bonus on damage rolls made with the weapon equal to 2 + 2 per style feat you possess that lists Startoss Style as a prerequisite (maximum +6 damage). You cannot use this ability if you are carrying a weapon or a shield in your off hand (except for a buckler).  ",
+			"**Benefit:** Choose one weapon from the thrown {ability/fighter |weapon group>s}. While using this style and the chosen weapon, you gain a bonus on damage rolls made with the weapon equal to 2 + 2 per style feat you possess that lists Startoss Style as a prerequisite (maximum +6 damage). You cannot use this ability if you are carrying a weapon or a shield in your off hand (except for a {eq-armor/buckler}).  ",
 			"**Special:** In addition to the chosen weapon, a character with this feat and the weapon training (thrown) class feature can use Startoss Style with any thrown weapons that she wields in one hand."
 		]
 	},
@@ -5045,7 +5046,7 @@
 			"",
 			"You can draw on your excellent balance to trip or disarm opponents when they try to disengage.  ",
 			"**Prerequisites:** {feat/Combat Reflexes}, {feat/Stand Still}, worshiper of {faith/Irori}.  ",
-			"**Benefit:** If you use Stand Still to prevent an opponent from moving, you may make a disarm or trip combat maneuver against your target as an immediate action.",
+			"**Benefit:** If you use Stand Still to prevent an opponent from moving, you may make a {rule/disarm} or {rule/trip} combat maneuver against your target as an immediate action.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Weapon Master's Handbook/25}",
@@ -5062,7 +5063,7 @@
 			"{SOURCE Ultimate Combat/121}",
 			"",
 			"Working closely with an ally, you are able to move like twin shadows.  ",
-			"**Benefit:** While you can see one or more allies who also have this feat, whenever you and your allies make a Stealth check, you all take the highest roll and add all your modifiers to Stealth."
+			"**Benefit:** While you can see one or more allies who also have this feat, whenever you and your allies make a {skill/Stealth} check, you all take the highest roll and add all your modifiers to Stealth."
 		]
 	},
 	"stealthy": {
@@ -5077,7 +5078,7 @@
 			"{SOURCE PRPG Core Rulebook/135}",
 			"",
 			"You are good at avoiding unwanted attention and slipping out of bonds.  ",
-			"**Benefit:** You get a +2 bonus on all Escape Artist and Stealth skill checks. If you have 10 or more ranks in one of these skills, the bonus increases to +4 for that skill.",
+			"**Benefit:** You get a +2 bonus on all {skill/Escape Artist} and {skill/Stealth} skill checks. If you have 10 or more ranks in one of these skills, the bonus increases to +4 for that skill.",
 			"",
 			"### Mythic Stealthy",
 			"",

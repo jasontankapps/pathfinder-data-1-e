@@ -2499,9 +2499,9 @@
 			"",
 			"{SOURCE Plane-Hopper's Handbook/29}",
 			"",
-			"You have gained Desna's trust, and she has taught you her realm's secrets.  ",
+			"You have gained {faith/Desna/'s} trust, and she has taught you her realm's secrets.  ",
 			"**Prerequisites:** Character level 15, Knowledge (planes) 10 ranks.  ",
-			"**Benefit:** Once per week, you can use the pools of Cynosure to instantly transport yourself from Cynosure to any plane, as per {spell/plane shift}."
+			"**Benefit:** Once per week, you can use the pools of {rule/Cynosure} to instantly transport yourself from Cynosure to any plane, as per {spell/plane shift}."
 		]
 	},
 	"step_of_the_flighty_fey": {
@@ -2514,7 +2514,7 @@
 			"",
 			"Your spell-like ability taps the magic and resilience of the First World.  ",
 			"**Prerequisites:** {race/Gathlain}, feather step spell-like ability.  ",
-			"**Benefit:** A creature under the effect of your feather step spell-like ability gains DR 1/cold iron for the duration of the effect. If you have at least 8 Hit Dice, the creature instead gains DR 2/cold iron, and if you have at least 16 Hit Dice, the creature instead gains DR 3/cold iron."
+			"**Benefit:** A creature under the effect of your *feather step* spell-like ability gains DR 1/cold iron for the duration of the effect. If you have at least 8 Hit Dice, the creature instead gains DR 2/cold iron, and if you have at least 16 Hit Dice, the creature instead gains DR 3/cold iron."
 		]
 	},
 	"step_up": {
@@ -2569,7 +2569,7 @@
 			"{SOURCE Melee Tactics Toolbox/11}",
 			"",
 			"You stick close to your allies in combat.  ",
-			"**Benefit:** When an adjacent ally with this feat moves, you can move up to your speed as an immediate action, as long as your movement ends adjacent to that ally. If you do so, you are staggered on your next turn. This movement provokes attacks of opportunity as normal."
+			"**Benefit:** When an adjacent ally with this feat moves, you can move up to your speed as an immediate action, as long as your movement ends adjacent to that ally. If you do so, you are {misc/staggered} on your next turn. This movement provokes attacks of opportunity as normal."
 		]
 	},
 	"stick_fighting_counter": {
@@ -2582,7 +2582,7 @@
 			"",
 			"Using stick-fighting techniques both defensively and offensively, you can turn your parries into counterattacks.  ",
 			"**Prerequisites:** {feat/Stick-Fighting Style}, base attack bonus +4.  ",
-			"**Benefit:** While you are fighting defensively, as a free action you can select an opponent you have attacked on that turn and prepare yourself to counter one of its attacks. Once per round, when that opponent attempts a melee attack against you and the attack misses, the attacker provokes an attack of opportunity from you, provided that it is within your threatened area. You must use a club, quarterstaff, dan bong, sap, or tonfa to perform the attack of opportunity."
+			"**Benefit:** While you are {misc/fighting defensively}, as a free action you can select an opponent you have attacked on that turn and prepare yourself to counter one of its attacks. Once per round, when that opponent attempts a melee attack against you and the attack misses, the attacker provokes an attack of opportunity from you, provided that it is within your threatened area. You must use a {eq-weapon/club}, {eq-weapon/quarterstaff}, {eq-weapon/dan bong}, {eq-weapon/sap}, or {eq-weapon/tonfa} to perform the attack of opportunity."
 		]
 	},
 	"stick_fighting_maneuver": {
@@ -2595,7 +2595,7 @@
 			"",
 			"Your attacks with sticks have become blindingly fast, and you can throw in a combat maneuver between your attacks.  ",
 			"**Prerequisites:** {feat/Stick-Fighting Counter}, {feat/Stick-Fighting Style}, base attack bonus +6.  ",
-			"**Benefit:** When making a full attack using only clubs, a quarterstaff, dan bongs, saps, or tonfas, you can perform a combat maneuver as an extra attack using your full base attack bonus."
+			"**Benefit:** When making a full attack using only {eq-weapon/club/s}, a {eq-weapon/quarterstaff}, {eq-weapon/dan bong/s}, {eq-weapon/sap/s}, or {eq-weapon/tonfa/s}, you can perform a combat maneuver as an extra attack using your full base attack bonus."
 		]
 	},
 	"stick_fighting_style": {
@@ -2608,7 +2608,7 @@
 			"",
 			"You know how to use batons, clubs, and sticks in new ways.  ",
 			"**Prerequisites:** Base attack bonus +1.  ",
-			"**Benefit:** When fighting with a club, quarterstaff, dan bong, sap, or tonfa with which you are proficient, you gain a +1 enhancement bonus on attack rolls as though it were a masterwork weapon. If the weapon actually is a masterwork weapon, it instead counts as having the blocking, disarm, distracting, performance, and trip special weapon qualities, even if the weapon normally doesn't have them."
+			"**Benefit:** When fighting with a {eq-weapon/club}, {eq-weapon/quarterstaff}, {eq-weapon/dan bong}, {eq-weapon/sap}, or {eq-weapon/tonfa} with which you are proficient, you gain a +1 enhancement bonus on attack rolls as though it were a {rule/masterwork weapon>s}. If the weapon actually is a masterwork weapon, it instead counts as having the {misc/blocking}, {misc/disarm}, {misc/distracting}, {misc/performance}, and {misc/trip} special weapon qualities, even if the weapon normally doesn't have them."
 		]
 	},
 	"still_spell": {
@@ -2634,8 +2634,8 @@
 			"{SOURCE People of the Wastes/11}",
 			"",
 			"Your fighting technique makes you equally deadly with your firearm's stock as with its bullets.  ",
-			"**Prerequisites:** Pistol-whip gunslinger deed.  ",
-			"**Benefit:** When you perform the pistol-whip deed while using this style, you gain a +1 bonus on the attack roll and on the combat maneuver check to knock the target prone; this increases to +2 when you use a two-handed firearm. If you successfully knock the target prone, you do not provoke attacks of opportunity from the target until the end of your next turn when you make ranged attacks with your firearm. You can treat one-handed firearms as light weapons for the purpose of abilities such as {feat/Weapon Finesse} when performing the pistol-whip deed."
+			"**Prerequisites:** {deed/Pistol-whip} gunslinger deed.  ",
+			"**Benefit:** When you perform the pistol-whip deed while using this style, you gain a +1 bonus on the attack roll and on the combat maneuver check to knock the target {rule/prone}; this increases to +2 when you use a two-handed firearm. If you successfully knock the target prone, you do not provoke attacks of opportunity from the target until the end of your next turn when you make ranged attacks with your firearm. You can treat one-handed firearms as light weapons for the purpose of abilities such as {feat/Weapon Finesse} when performing the pistol-whip deed."
 		]
 	},
 	"stock_striker_sweep": {
@@ -2647,8 +2647,8 @@
 			"{SOURCE People of the Wastes/11}",
 			"",
 			"The force of your firearm strikes can drive back your foe or damage a second target.  ",
-			"**Prerequisites:** {feat/Stock-Striker Style}, base attack bonus +7, pistol-whip gunslinger deed.  ",
-			"**Benefit:** When you are using Stock-Striker Style and successfully knock a target prone with the pistol-whip deed, as a swift action you can either push the target 5 feet away from you or perform the pistol-whip deed a second time against a foe that is adjacent to the first and within your reach. This second use of pistol-whip costs 0 grit points."
+			"**Prerequisites:** {feat/Stock-Striker Style}, base attack bonus +7, {deed/pistol-whip} gunslinger deed.  ",
+			"**Benefit:** When you are using Stock-Striker Style and successfully knock a target {rule/prone} with the pistol-whip deed, as a swift action you can either push the target 5 feet away from you or perform the pistol-whip deed a second time against a foe that is adjacent to the first and within your reach. This second use of pistol-whip costs 0 grit points."
 		]
 	},
 	"stock_striker_takedown": {
@@ -2660,8 +2660,8 @@
 			"{SOURCE People of the Wastes/11}",
 			"",
 			"Your melee strike leaves your target vulnerable to a merciless finishing shot.  ",
-			"**Prerequisites:** {feat/Point-Blank Shot}, {feat/Stock-Striker Style}, {feat/Stock-Striker Sweep}, base attack bonus +9, pistol-whip gunslinger deed.  ",
-			"**Benefit:** After you knock a target prone with the pistol-whip deed while using Stock-Striker Style, you can fire one barrel of a loaded firearm you're wielding at the target as a move action; if your firearm has the scatter weapon quality, you can instead make a scattering shot so long as you include the target in the area of effect. For this attack, you take no attack penalty for making a ranged attack against a prone target, and the critical multiplier of your weapon increases by 1 (to a maximum of &times;5)."
+			"**Prerequisites:** {feat/Point-Blank Shot}, {feat/Stock-Striker Style}, {feat/Stock-Striker Sweep}, base attack bonus +9, {deed/pistol-whip} gunslinger deed.  ",
+			"**Benefit:** After you knock a target {rule/prone} with the pistol-whip deed while using Stock-Striker Style, you can fire one barrel of a loaded firearm you're wielding at the target as a move action; if your firearm has the {misc/scatter} weapon quality, you can instead make a scattering shot so long as you include the target in the area of effect. For this attack, you take no attack penalty for making a ranged attack against a prone target, and the critical multiplier of your weapon increases by 1 (to a maximum of &times;5)."
 		]
 	},
 	"stoic": {
@@ -2689,7 +2689,7 @@
 			"{SOURCE Advanced Race Guide/205}",
 			"",
 			"You can hold yourself as still as a statue, evading detection.  ",
-			"**Prerequisites:** Svirfneblin.  ",
+			"**Prerequisites:** {monster/Svirfneblin}.  ",
 			"**Benefit:** By spending 5 rounds finding a suitable location, you can hold yourself so still that you appear to be a Small object such as a pile of rocks. This allows you to make a Stealth check without cover or concealment, as long as you do not move or take any other actions."
 		]
 	},
@@ -2702,7 +2702,7 @@
 			"{SOURCE Giants Revisited/49}",
 			"",
 			"You can sense creatures touching earth or stone.  ",
-			"**Prerequisites:** Wis 13, Perception 10 ranks, stone giant.  ",
+			"**Prerequisites:** Wis 13, Perception 10 ranks, {monster/stone giant}.  ",
 			"**Benefit:** You gain tremorsense 15 feet when in contact with earth or stone, including worked stone, and gain all the benefits of the {umr/tremorsense} universal monster ability."
 		]
 	},
@@ -2743,8 +2743,8 @@
 			"{SOURCE Giants Revisited/49;Pathfinder #4: Fortress of the Stone Giants/57}",
 			"",
 			"Knowledgeable even among stone giant elders, you have unlocked greater mastery over earth and stone.  ",
-			"**Prerequisites:** Cha 17, stone giant elder (age 700 years or older).  ",
-			"**Benefit:** In addition to the usual spell-like abilities of a stone giant elder, you gain the ability to use passwall, spike stones, statue, stoneskin, and wall of stone once per day as spell-like abilities (caster level 10th, the save DCs are Charisma-based)."
+			"**Prerequisites:** Cha 17, {monster/stone giant} elder (age 700 years or older).  ",
+			"**Benefit:** In addition to the usual spell-like abilities of a stone giant elder, you gain the ability to use {spell/passwall}, {spell/spike stones}, {spell/statue}, {spell/stoneskin}, and {spell/wall of stone} once per day as spell-like abilities (caster level 10th, the save DCs are Charisma-based)."
 		]
 	},
 	"stone_read": {
@@ -2773,7 +2773,7 @@
 			"",
 			"You can feel movement in the very earth and stones around you.  ",
 			"**Prerequisites:** {feat/Improved Stonecunning}, Perception 10 ranks.  ",
-			"**Benefit:** You gain tremorsense to a range of 10 feet."
+			"**Benefit:** You gain {umr/tremorsense} to a range of 10 feet."
 		]
 	},
 	"stone_shroud": {
@@ -2799,7 +2799,7 @@
 			"",
 			"Your songs are in accordance with the ways and lands of your people.  ",
 			"**Prerequisites:** Cha 13, {ability/bardic performance} class feature, {race/dwarf}.  ",
-			"**Benefit:** When you use bardic performance with audible components underground, the range or area of your chosen performance is doubled, and you can affect deaf creatures if they possess tremorsense and are in your new range. In addition, the DC for saving throws against your bardic performance is increased by +2 for creatures of the earth subtype, regardless of where the performance occurs."
+			"**Benefit:** When you use bardic performance with audible components underground, the range or area of your chosen performance is doubled, and you can affect deaf creatures if they possess {umr/tremorsense} and are in your new range. In addition, the DC for saving throws against your bardic performance is increased by +2 for creatures of the earth subtype, regardless of where the performance occurs."
 		]
 	},
 	"stone_soul": {
@@ -2811,9 +2811,9 @@
 			"{SOURCE Pathfinder #91: Battle of Bloodmarch Hills/70}",
 			"",
 			"You're so attuned to the earth that your skin can harden to the thickness of stone.  ",
-			"**Prerequisites:** Stone giant.  ",
+			"**Prerequisites:** {monster/Stone giant}.  ",
 			"**Benefit:** Your natural armor bonus increases by 1. Once per day, you can use {spell/stoneskin} (on yourself only) as a spell-like ability. Your caster level is equal to 1/2 your Hit Dice.  ",
-			"**Special:** You can take this feat up to three times. Each additional time you take this feat, the number of times you can use stoneskin per day increases by one."
+			"**Special:** You can take this feat up to three times. Each additional time you take this feat, the number of times you can use *stoneskin* per day increases by one."
 		]
 	},
 	"stone_strider": {
@@ -2839,7 +2839,7 @@
 			"",
 			"You can use your mercies to transform petrified victims back to flesh.  ",
 			"**Prerequisites:** Paladin level 12th, {ability/lay on hands} class feature, mercy class feature.  ",
-			"**Benefit:** You gain a unique mercy, which aids victims of petrification. Whenever you use your lay on hands ability to heal damage, you can emulate stone to flesh on the target, using your paladin level as your caster level. This functions only on a creature that has been petrified, and it has no effect on other stone."
+			"**Benefit:** You gain a unique mercy, which aids victims of petrification. Whenever you use your lay on hands ability to heal damage, you can emulate {spell/stone to flesh} on the target, using your paladin level as your caster level. This functions only on a creature that has been petrified, and it has no effect on other stone."
 		]
 	},
 	"stone_faced": {
@@ -2852,7 +2852,7 @@
 			"",
 			"Rocks show more expression than you.  ",
 			"**Prerequisites:** {race/Dwarf}.  ",
-			"**Benefit:** You receive a +4 bonus on Bluff checks to lie or conceal your feelings or true motives, but not to feint in combat or deliver secret messages. In addition, the DC for Sense Motive checks to get a hunch about you is 25 rather than 20."
+			"**Benefit:** You receive a +4 bonus on {skill/Bluff} checks to lie or conceal your feelings or true motives, but not to {rule/feint} in combat or deliver secret messages. In addition, the DC for {skill/Sense Motive} checks to get a hunch about you is 25 rather than 20."
 		]
 	},
 	"stone_handed": {
@@ -2878,7 +2878,7 @@
 			"",
 			"Stone rises up at your command, offering cover to allies.  ",
 			"**Prerequisites:** Knowledge (planes) 3 ranks.  ",
-			"**Benefit:** As a standard action, you can call forth a low wall of unworked stone along any side of a square within 30 feet. This wall is 5 feet long, 3 feet high, 2 inches thick, and acts as a low obstacle, except that it provides only partial cover. A single 5-foot section of stone created by this feat has hardness 8 and 30 hp. You can only have one such wall in existence at a time for every 5 ranks in Knowledge (planes) you have (minimum 1); walls last for a number of rounds equal to your ranks in Knowledge (planes) before crumbling to dust. If you have 10 or more ranks in Knowledge (planes), you can create multiple walls as a single standard action by expending an equivalent number of uses of this ability.",
+			"**Benefit:** As a standard action, you can call forth a low wall of unworked stone along any side of a square within 30 feet. This wall is 5 feet long, 3 feet high, 2 inches thick, and acts as a low obstacle, except that it provides only partial {rule/cover}. A single 5-foot section of stone created by this feat has hardness 8 and 30 hp. You can only have one such wall in existence at a time for every 5 ranks in Knowledge (planes) you have (minimum 1); walls last for a number of rounds equal to your ranks in Knowledge (planes) before crumbling to dust. If you have 10 or more ranks in Knowledge (planes), you can create multiple walls as a single standard action by expending an equivalent number of uses of this ability.",
 			"",
 			"You can use this feat's benefit a number of times per day equal to your ranks in Knowledge (planes)."
 		]
@@ -2905,7 +2905,7 @@
 			"{SOURCE Elemental Master's Handbook/15}",
 			"",
 			"After the Eye of Abendego, no other storm, magic or mundane, can faze you.  ",
-			"**Benefit:** You are treated as two sizes larger than your actual size when calculating whether you can be moved by wind or currents, including the vortex and whirlwind special abilities of monsters. If you have at least 11 Hit Dice, you cannot be moved by nonmagical wind unless you so choose."
+			"**Benefit:** You are treated as two sizes larger than your actual size when calculating whether you can be moved by {rule/wind} or {rule/currents>_and_running_water}, including the vortex and {umr/whirlwind} special abilities of monsters. If you have at least 11 Hit Dice, you cannot be moved by nonmagical wind unless you so choose."
 		]
 	},
 	"storm_of_arrows": {
@@ -2918,7 +2918,7 @@
 			"",
 			"You can rain arrows upon a greater number of foes.  ",
 			"**Prerequisites:** Hail of arrows class feature.  ",
-			"**Benefit:** When using hail of arrows, you can target up to two targets for every arcane archer level you have."
+			"**Benefit:** When using hail of arrows, you can target up to two targets for every {pclass/arcane archer} level you have."
 		]
 	},
 	"storm_of_blades": {
@@ -2931,7 +2931,7 @@
 			"",
 			"Your technique unleashes a dizzying torrent of cuts.  ",
 			"**Prerequisites:** {feat/Weapon Focus} with slashing weapon, base attack bonus +6.  ",
-			"**Benefit:** As a standard action, you can make a single attack with your chosen weapon while setting up a vortex of cuts that lasts until the beginning of your next turn. Any creature that begins its turn threatened by this weapon takes damage equal to your Strength or Dexterity bonus, whichever is greater. When your base attack bonus reaches +11, you also add your base weapon damage. When your base attack bonus reaches +16, you gain the {umr/distraction} universal monster rule for this damage, but a creature that fails its save is only sickened. You can use this feat's benefits only once per minute."
+			"**Benefit:** As a standard action, you can make a single attack with your chosen weapon while setting up a vortex of cuts that lasts until the beginning of your next turn. Any creature that begins its turn threatened by this weapon takes damage equal to your Strength or Dexterity bonus, whichever is greater. When your base attack bonus reaches +11, you also add your base weapon damage. When your base attack bonus reaches +16, you gain the {umr/distraction} universal monster rule for this damage, but a creature that fails its save is only {misc/sickened}. You can use this feat's benefits only once per minute."
 		]
 	},
 	"storm_soul": {
@@ -2943,7 +2943,7 @@
 			"{SOURCE Pathfinder #91: Battle of Bloodmarch Hills/70}",
 			"",
 			"Your attunement to storms grants you immunity to some of their effects.  ",
-			"**Prerequisites:** Cloud or storm giant.  ",
+			"**Prerequisites:** {monster/Cloud>_giant} or {monster/storm giant}.  ",
 			"**Benefit:** You gain immunity to electricity."
 		]
 	},
@@ -2969,7 +2969,7 @@
 			"{SOURCE Pathfinder #91: Battle of Bloodmarch Hills/70}",
 			"",
 			"Your weapons channel the fury of thunderstorms.  ",
-			"**Prerequisites:** {feat/Storm Soul}, cloud or storm giant.  ",
+			"**Prerequisites:** {feat/Storm Soul}, {monster/cloud>_giant} or {monster/storm giant}.  ",
 			"**Benefit:** You can transfer the power of storms from your body to any metal melee weapons you wield, dealing an additional 1d6 points of electricity damage."
 		]
 	},
@@ -3045,7 +3045,7 @@
 			"",
 			"You can choke foes with a lasso.  ",
 			"**Prerequisites:** {feat/Exotic Weapon Proficiency} (lasso), {feat/Weapon Focus} (lasso).  ",
-			"**Benefit:** When you successfully entangle a creature with a lasso and beat the target's CMD by 5 or more, the target cannot speak above a whisper and must succeed at a {rule/concentration} check (DC = 20 + your CMB + the spell level) to cast a spell with a verbal component, use a command word item, or use any magic requiring speech. Additionally, the DC of an Escape Artist check to slip free of a lasso you are using equals 15 or your CMD, whichever is higher."
+			"**Benefit:** When you successfully entangle a creature with a {eq-weapon/lasso} and beat the target's CMD by 5 or more, the target cannot speak above a whisper and must succeed at a {rule/concentration} check (DC = 20 + your CMB + the spell level) to cast a spell with a verbal component, use a command word item, or use any magic requiring speech. Additionally, the DC of an Escape Artist check to slip free of a lasso you are using equals 15 or your CMD, whichever is higher."
 		]
 	},
 	"strangler_uc": {
@@ -3061,7 +3061,7 @@
 			"",
 			"Throttling the life out of enemies is second nature to you.  ",
 			"**Prerequisites:** Dex 13, {ability/sneak attack} +1d6, {feat/Improved Grapple}, {feat/Improved Unarmed Strike}.  ",
-			"**Benefit:** Whenever you successfully maintain a grapple and choose to deal damage, you can spend a swift action to deal your sneak attack damage to the creature you are grappling."
+			"**Benefit:** Whenever you successfully maintain a {rule/grapple} and choose to deal damage, you can spend a swift action to deal your sneak attack damage to the creature you are grappling."
 		]
 	},
 	"street_carnage": {
@@ -3086,7 +3086,7 @@
 			"{SOURCE Ultimate Intrigue/92}",
 			"",
 			"You are able to navigate the streets and personalities of whatever locale you run across.  ",
-			"**Benefit:** You get a +2 bonus on Knowledge (local) and Sense Motive checks, and Knowledge (local) is always a class skill for you. If you have 10 or more ranks in one of these skills, the bonus increases to +4 for that skill. The bonus on Sense Motive checks doesn't stack with Alertness."
+			"**Benefit:** You get a +2 bonus on Knowledge (local) and Sense Motive checks, and Knowledge (local) is always a class skill for you. If you have 10 or more ranks in one of these skills, the bonus increases to +4 for that skill. The bonus on Sense Motive checks doesn't stack with {feat/Alertness}."
 		]
 	},
 	"street_style": {
@@ -3099,7 +3099,7 @@
 			"",
 			"You use the urban environment to your advantage, thrashing and bashing your foe and driving it back.  ",
 			"**Prerequisites:** Str 15, {feat/Improved Bull Rush}, {feat/Improved Unarmed Strike}, {feat/Power Attack}, base attack bonus +4 or monk level 3rd.  ",
-			"**Benefit:** While using this style, once per round as a swift action when you hit a target with an unarmed strike, you can deal an extra 1d6 points of damage and attempt a bull rush combat maneuver against that target.  ",
+			"**Benefit:** While using this style, once per round as a swift action when you hit a target with an unarmed strike, you can deal an extra 1d6 points of damage and attempt a {rule/bull rush} combat maneuver against that target.  ",
 			"**Special:** You can enter the style stance for street style only while in urban terrain, and the stance ends immediately if you cease to be in urban terrain."
 		]
 	},
@@ -3113,7 +3113,7 @@
 			"",
 			"After driving your foe back, you can quickly knock it to the ground and slow it down.  ",
 			"**Prerequisites:** Str 15, {feat/Improved Bull Rush}, {feat/Improved Unarmed Strike}, {feat/Power Attack}, {feat/Street Style}, base attack bonus +6 or monk level 5th.  ",
-			"**Benefit:** While using Street Style, the first time each round that you deal damage with an unarmed strike to a foe that you bull rushed with Street Style since the beginning of your last turn, that foe must succeed at a Fortitude save (DC = 10 + your base attack bonus) or be knocked prone and staggered for 1 round."
+			"**Benefit:** While using Street Style, the first time each round that you deal damage with an unarmed strike to a foe that you {rule/bull rush/ed} with Street Style since the beginning of your last turn, that foe must succeed at a Fortitude save (DC = 10 + your base attack bonus) or be knocked {rule/prone} and staggered for 1 round."
 		]
 	},
 	"strength_in_defeat": {
@@ -3243,7 +3243,7 @@
 			"{SOURCE Occult Adventures/141}",
 			"",
 			"Your connection to a particular implement allows you to draw on its power more efficiently even when it's not in your possession.  ",
-			"**Prerequisites:** Implements class feature.  ",
+			"**Prerequisites:** {ability/Implements} class feature.  ",
 			"**Benefit:** When you are within 30 feet of your implement, you don't need to attempt a {rule/concentration} check to cast spells associated with that implement. When you are at a greater distance, the DC for the concentration check is equal to 15 + the spell's level.  ",
 			"**Normal:** Anytime you attempt to cast a spell using an implement that's not in your possession, you must succeed at a concentration check with a DC equal to 20 + the spell's level in order to cast the spell.  ",
 			"**Special:** You can take this feat multiple times. Its effects don't stack. Each time you take the feat, you gain the benefits for a different school of implements. If you have more than one implement of a single school, you can select that school multiple times and apply the benefits to another one of those implements each time you take this feat and select that school."
@@ -3259,7 +3259,7 @@
 			"",
 			"You are experienced at long-term intimidation of those you wish to exploit, and strike fear into the hearts of those you bully.  ",
 			"**Prerequisites:** {feat/Intimidating Prowess}, member of the Lumber Consortium.  ",
-			"**Benefit:** When you use the Intimidate skill to improve a target's attitude, if your check result exceeds the DC by 5 or more, the target's attitude is improved for 5d6 hours. During this time, should it attack you, the target immediately becomes shaken for 1d6+1 rounds, as though it had been demoralized."
+			"**Benefit:** When you use the Intimidate skill to improve a target's attitude, if your check result exceeds the DC by 5 or more, the target's attitude is improved for 5d6 hours. During this time, should it attack you, the target immediately becomes {misc/shaken} for 1d6+1 rounds, as though it had been demoralized."
 		]
 	},
 	"stronghold": {
@@ -3288,10 +3288,10 @@
 			"{SOURCE Ultimate Intrigue/92}",
 			"",
 			"You use your knowledge of how things fit together to find ways to punch through the defenses of any foe.  ",
-			"**Prerequisites:** Knowledge (engineering) 5 ranks, precise strike class feature or precise strike deed.  ",
-			"**Benefit:** When using the duelist's or swashbuckler's precise strike, you can make a single strike as a standard action against an opponent that would be otherwise immune to your precise strike damage. If you hit, you deal your precise strike damage as normal against this enemy. When using the swashbuckler's precise strike deed, you can spend 1 panache point as a swift action to deal your regular precise strike damage on a single attack against an opponent that would typically be immune. If you have both class features, you can use either option in order to apply the full damage from both versions of precise strike.",
+			"**Prerequisites:** Knowledge (engineering) 5 ranks, precise strike class feature or {swashdeed/precise strike} deed.  ",
+			"**Benefit:** When using the {pclass/duelist/'s} or {class/swashbuckler/'s} precise strike, you can make a single strike as a standard action against an opponent that would be otherwise immune to your precise strike damage. If you hit, you deal your precise strike damage as normal against this enemy. When using the swashbuckler's precise strike deed, you can spend 1 panache point as a swift action to deal your regular precise strike damage on a single attack against an opponent that would typically be immune. If you have both class features, you can use either option in order to apply the full damage from both versions of precise strike.",
 			"",
-			"Additionally, against opponents with a chance of immunity to your precise strike (such as an opponent wearing armor with the fortification special ability), this feat reduces their chance of negating your precise strikes by 10%."
+			"Additionally, against opponents with a chance of immunity to your precise strike (such as an opponent wearing armor with the {magic-enh/fortification} special ability), this feat reduces their chance of negating your precise strikes by 10%."
 		]
 	},
 	"stubborn_curse": {
@@ -3355,7 +3355,7 @@
 			"{SOURCE Ultimate Intrigue/93}",
 			"",
 			"You use your knowledge about the target to bypass its resistances and damage reduction.  ",
-			"**Benefit:** When casting a studied spell, designate one target affected by the spell. Attempt an appropriate Knowledge check based on that target's creature type as you cast the spell. The DC for this check is equal to 20 + the creature's CR based on its race and not including any class levels or template (a creature that is defined by class levels has an effective CR of 0 for this ability). If you succeed, your studied spell ignores any energy resistance or damage reduction the target has because of its race as well as any bonuses on saving throws against the spell granted by the target's race (such as the bonus from a dwarf's hardy ability or a halfling's halfling luck ability). Your studied spell doesn't ignore energy resistance, damage reduction, or saving throw bonuses granted by other spells and effects. If you fail the Knowledge check, the spell still has its normal effects. A studied spell uses up a spell slot 2 levels higher than the spell's actual level."
+			"**Benefit:** When casting a studied spell, designate one target affected by the spell. Attempt an appropriate Knowledge check based on that target's creature type as you cast the spell. The DC for this check is equal to 20 + the creature's CR based on its race and not including any class levels or template (a creature that is defined by class levels has an effective CR of 0 for this ability). If you succeed, your studied spell ignores any energy resistance or damage reduction the target has because of its race as well as any bonuses on saving throws against the spell granted by the target's race (such as the bonus from a {race/dwarf/'s} hardy ability or a {race/halfling/'s} halfling luck ability). Your studied spell doesn't ignore energy resistance, damage reduction, or saving throw bonuses granted by other spells and effects. If you fail the Knowledge check, the spell still has its normal effects. A studied spell uses up a spell slot 2 levels higher than the spell's actual level."
 		]
 	},
 	"stumbling_bash": {
@@ -3405,7 +3405,7 @@
 			"",
 			"Your critical hits cause opponents to become stunned.  ",
 			"**Prerequisites:** {feat/Critical Focus}, {feat/Staggering Critical}, base attack bonus +17.  ",
-			"**Benefit:** Whenever you score a critical hit, your opponent becomes stunned for 1d4 rounds. A successful Fortitude save reduces this to staggered for 1d4 rounds. The DC of this Fortitude save is equal to 10 + your base attack bonus. The effects of this feat do not stack. Additional hits instead add to the duration.  ",
+			"**Benefit:** Whenever you score a critical hit, your opponent becomes {misc/stunned} for 1d4 rounds. A successful Fortitude save reduces this to {misc/staggered} for 1d4 rounds. The DC of this Fortitude save is equal to 10 + your base attack bonus. The effects of this feat do not stack. Additional hits instead add to the duration.  ",
 			"**Special:** You can only apply the effects of one critical feat to a given critical hit unless you possess Critical Mastery.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -3424,7 +3424,7 @@
 			"",
 			"The terrifying force of your croak disorients and debilitates your enemies.  ",
 			"**Prerequisites:** {feat/Sonic Croak}, {feat/Throat Pouch}, {monster/boggard}, terrifying croak.  ",
-			"**Benefit:** When you use your terrifying croak ability, instead of imparting its normal effect you can choose to stun one creature within 30 feet for 1 round. If the target succeeds at a Fortitude save, it is instead staggered for 1 round. The DC of this Fortitude save is the same as that of your terrifying croak ability."
+			"**Benefit:** When you use your terrifying croak ability, instead of imparting its normal effect you can choose to stun one creature within 30 feet for 1 round. If the target succeeds at a Fortitude save, it is instead {misc/staggered} for 1 round. The DC of this Fortitude save is the same as that of your terrifying croak ability."
 		]
 	},
 	"stunning_fist": {
@@ -3441,7 +3441,7 @@
 			"",
 			"You know just where to strike to temporarily stun a foe.  ",
 			"**Prerequisites:** Dex 13, Wis 13, {feat/Improved Unarmed Strike}, base attack bonus +8.  ",
-			"**Benefit:** You must declare that you are using this feat before you make your attack roll (thus, a failed attack roll ruins the attempt). Stunning Fist forces a foe damaged by your unarmed attack to make a Fortitude saving throw (DC 10 + 1/2 your character level + your Wis modifier), in addition to dealing damage normally. A defender who fails this saving throw is stunned for 1 round (until just before your next turn). A stunned character drops everything held, can't take actions, loses any Dexterity bonus to AC, and takes a -2 penalty to AC. You may attempt a stunning attack once per day for every four levels you have attained (but see Special), and no more than once per round. Constructs, oozes, plants, undead, incorporeal creatures, and creatures immune to critical hits cannot be stunned.  ",
+			"**Benefit:** You must declare that you are using this feat before you make your attack roll (thus, a failed attack roll ruins the attempt). Stunning Fist forces a foe damaged by your unarmed attack to make a Fortitude saving throw (DC 10 + 1/2 your character level + your Wis modifier), in addition to dealing damage normally. A defender who fails this saving throw is {misc/stunned} for 1 round (until just before your next turn). A stunned character drops everything held, can't take actions, loses any Dexterity bonus to AC, and takes a -2 penalty to AC. You may attempt a stunning attack once per day for every four levels you have attained (but see Special), and no more than once per round. Constructs, oozes, plants, undead, incorporeal creatures, and creatures immune to critical hits cannot be stunned.  ",
 			"**Special:** A monk receives Stunning Fist as a bonus feat at 1st level, even if he does not meet the prerequisites. A monk may attempt a stunning attack a number of times per day equal to his monk level, plus one more time per day for every four levels he has in classes other than monk.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -3481,7 +3481,7 @@
 			"",
 			"When you smash your way into a room, you gain more than just the element of surprise.  ",
 			"**Prerequisites:** Str 15, {feat/Power Attack}, base attack bonus +5.  ",
-			"**Benefit:** Before starting combat, you can attempt to break through a door, window, or wall to enter a room. If you succeed, the violence of your arrival is so great that all characters within 20 feet of your entry point must succeed at a Fortitude saving throw (DC = 10 + your base attack bonus) or be stunned instead of acting in the surprise round (if there is one) plus 1 round thereafter. Characters who succeed at this save are instead shaken for 1d4 rounds."
+			"**Benefit:** Before starting combat, you can attempt to break through a door, window, or wall to enter a room. If you succeed, the violence of your arrival is so great that all characters within 20 feet of your entry point must succeed at a Fortitude saving throw (DC = 10 + your base attack bonus) or be {misc/stunned} instead of acting in the surprise round (if there is one) plus 1 round thereafter. Characters who succeed at this save are instead {misc/shaken} for 1d4 rounds."
 		]
 	},
 	"stunning_pin": {
@@ -3497,7 +3497,7 @@
 			"",
 			"You can render a pinned foe temporarily incapacitated.  ",
 			"**Prerequisites:** {feat/Improved Grapple}, {feat/Improved Unarmed Strike}, {feat/Stunning Fist}.  ",
-			"**Benefit:** Whenever you pin an opponent, you can spend a swift action to make a Stunning Fist attempt against that opponent.",
+			"**Benefit:** Whenever you [pin](rule/grapple) an opponent, you can spend a swift action to make a Stunning Fist attempt against that opponent.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/133}",
@@ -3527,7 +3527,7 @@
 			"{SOURCE Planar Adventures/32}",
 			"",
 			"Stygian spells forsake pure water for the memory-destroying tides of the River Styx.  ",
-			"**Benefit:** You can enhance any spell with the water descriptor that targets at least one creature to become a Stygian spell. Any creature successfully hit by a Stygian spell (if the spell requires an attack roll) or that fails its saving throw against a Stygian spell must succeed at a Will save (using the save DC of the original spell) or suffer the fugue lesser madness in addition to the spell's normal effects. If the attack is a confirmed critical hit or the original saving throw result is a natural 1, the creature must instead succeed at a Will save (again using the same DC) or suffer the amnesia greater madness. Madness gained this way lasts indefinitely, but can be treated using the normal methods for curing madness. This is a mind-affecting effect, and creatures native to the River Styx are immune to it.",
+			"**Benefit:** You can enhance any spell with the water descriptor that targets at least one creature to become a Stygian spell. Any creature successfully hit by a Stygian spell (if the spell requires an attack roll) or that fails its saving throw against a Stygian spell must succeed at a Will save (using the save DC of the original spell) or suffer the {madness/fugue} lesser madness in addition to the spell's normal effects. If the attack is a confirmed critical hit or the original saving throw result is a natural 1, the creature must instead succeed at a Will save (again using the same DC) or suffer the {madness/amnesia} greater madness. {rule/Madness} gained this way lasts indefinitely, but can be treated using the normal methods for curing madness. This is a mind-affecting effect, and creatures native to the River Styx are immune to it.",
 			"",
 			"A spell modified by this feat gains the evil descriptor. A Stygian spell uses a spell slot 2 levels higher than the spell's normal spell level. Spells with the good descriptor can't be Stygian spells."
 		]
@@ -3545,7 +3545,7 @@
 			"",
 			"You cast a spell in a distinctive manner.  ",
 			"**Prerequisites:** Bluff 5 ranks, Spellcraft 5 ranks.  ",
-			"**Benefit:** A stylized spell has slightly different verbal and somatic components than normal, and the spell effect appears noticeably different. The Spellcraft DC to identify a stylized spell as it is being cast is 10 higher than normal. The Knowledge (arcana) DC to identify a stylized spell, its effects, or the materials it creates is 10 higher than normal, as is the DC to recognize your magical signature with greater detect magic. When you apply this feat to a spell, you can attempt to disguise your stylized spell as another spell of the same school and subschool with the same descriptors. The other spell must be either the same spell level as the stylized spell (before applying the metamagic adjustment) or 1 spell level higher. If you do so, the stylized spell gains the ruse descriptor and takes on some superficial aspects of the other spell. As usual for a spell with the ruse descriptor, identification attempts that fail by 10 or less mistakenly identify it as the chosen spell (those that fail by more can't identify it at all). A stylized spell uses up a spell slot 1 level higher than the spell's actual level.",
+			"**Benefit:** A stylized spell has slightly different verbal and somatic components than normal, and the spell effect appears noticeably different. The Spellcraft DC to identify a stylized spell as it is being cast is 10 higher than normal. The Knowledge (arcana) DC to identify a stylized spell, its effects, or the materials it creates is 10 higher than normal, as is the DC to recognize your magical signature with {spell/greater detect magic}. When you apply this feat to a spell, you can attempt to disguise your stylized spell as another spell of the same school and subschool with the same descriptors. The other spell must be either the same spell level as the stylized spell (before applying the metamagic adjustment) or 1 spell level higher. If you do so, the stylized spell gains the {spelldef/ruse} descriptor and takes on some superficial aspects of the other spell. As usual for a spell with the ruse descriptor, identification attempts that fail by 10 or less mistakenly identify it as the chosen spell (those that fail by more can't identify it at all). A stylized spell uses up a spell slot 1 level higher than the spell's actual level.",
 			"",
 			"### Stylized Magic",
 			"",
@@ -3557,13 +3557,13 @@
 			"",
 			"**Apparent School:** A stylized spell can appear to be of a different school or subschool when studied with detect magic.",
 			"",
-			"**Apparent Source of Magic:** A stylized spell can appear to be a different type of magic - arcane, divine, or psychic. The effect is convincing only if the spellcaster provides any necessary components (such as a divine focus when imitating divine spells), and the caster must have a number of ranks in the skill associated with that type of magic equal to the spell's level. Knowledge (arcana) and Perform are associated with arcane magic, Knowledge (nature and religion) are associated with divine magic, and Bluff and Knowledge (arcana) are associated with psychic magic. A spellcaster can disguise his spell as psychic magic only if he can hide or remove the spell's verbal and somatic components (if any), such as with Conceal Spell, Secret Signs, Silent Spell, or Still Spell.",
+			"**Apparent Source of Magic:** A stylized spell can appear to be a different type of magic - arcane, divine, or psychic. The effect is convincing only if the spellcaster provides any necessary components (such as a divine focus when imitating divine spells), and the caster must have a number of ranks in the skill associated with that type of magic equal to the spell's level. Knowledge (arcana) and Perform are associated with arcane magic, Knowledge (nature and religion) are associated with divine magic, and Bluff and Knowledge (arcana) are associated with psychic magic. A spellcaster can disguise his spell as psychic magic only if he can hide or remove the spell's verbal and somatic components (if any), such as with {feat/Conceal Spell}, {feat/Secret Signs}, {feat/Silent Spell}, or {feat/Still Spell}.",
 			"",
 			"**Direction of Spell's Effect:** A stylized spell effect that visibly originates from the caster (such as a ray, {spell/magic missile}, or {spell/fireball} bead) can instead appear to originate from another point within 30 feet of the caster. There must be clear lines of effect between each of the caster, the new origin point, and the destination. If the spell effect instead fills an area that originates from the caster (such as a line or cone), the effect can instead appear to originate from any point in that area. The new point of origin is entirely cosmetic, and it does not allow the spellcaster to ignore cover or other barriers. In addition, the deception can't make it appear that another creature cast the spell.",
 			"",
 			"**Imitate a Dissimilar Spell:** If a stylized spell appears to be of the same school and same source of magic, and to have the same descriptors as another spell because of other stylized spell modifications or changes from other sources (such as a class ability), the stylized spell can take on the superficial visual and auditory properties of the other spell.",
 			"",
-			"**Suppress Audible or Visible Effects:** A stylized spell's effects can be suppressed to the point where they are difficult to spot or hear. Such a spell's audible and visual effects are largely transparent, quieter, smaller, or otherwise less obtrusive. A creature notices the suppressed effects only if it succeeds at a Perception check (DC = 10 + your number of ranks in Bluff or Spellcraft + the highest of your Intelligence, Wisdom or Charisma modifiers). If, at the GM's discretion, a spell's effects are intrinsically bound to its visual or auditory signature (such as sunburst, sound burst, and most spells with the language-dependent, light, or sonic descriptors), reduce the DC of the Perception by 10."
+			"**Suppress Audible or Visible Effects:** A stylized spell's effects can be suppressed to the point where they are difficult to spot or hear. Such a spell's audible and visual effects are largely transparent, quieter, smaller, or otherwise less obtrusive. A creature notices the suppressed effects only if it succeeds at a Perception check (DC = 10 + your number of ranks in Bluff or Spellcraft + the highest of your Intelligence, Wisdom or Charisma modifiers). If, at the GM's discretion, a spell's effects are intrinsically bound to its visual or auditory signature (such as {spell/sunburst}, {spell/sound burst}, and most spells with the language-dependent, light, or sonic descriptors), reduce the DC of the Perception by 10."
 		]
 	},
 	"stylized_spell_mastery": {
@@ -3616,7 +3616,7 @@
 			"",
 			"You are master of your own gravity in planar realms where gravity is subjective.  ",
 			"**Prerequisites:** Wis 13.  ",
-			"**Benefit:** You automatically succeed at Wisdom checks to set a new direction of gravity. When you set a new direction of gravity, you can reduce your falling speed by up to two-thirds (to a minimum of 50 feet on the first round and 100 feet per round thereafter) or increase it to a maximum of twice normal (300 feet on the first round and 600 feet per round thereafter). These effects only apply on planes with subjective directional gravity."
+			"**Benefit:** You automatically succeed at Wisdom checks to set a new direction of gravity. When you set a new direction of gravity, you can reduce your falling speed by up to two-thirds (to a minimum of 50 feet on the first round and 100 feet per round thereafter) or increase it to a maximum of twice normal (300 feet on the first round and 600 feet per round thereafter). These effects only apply on planes with {rule/subjective directional |gravity>_traits}."
 		]
 	},
 	"subjective_slam": {
@@ -3629,7 +3629,7 @@
 			"",
 			"When in control of gravity, you can use your momentum to cause brutal impacts, transforming the very act of falling into a devastating weapon.  ",
 			"**Prerequisites:** Con 13; Wis 13; {feat/Subjective Mobility}; base attack bonus +4 or monk level 3rd.  ",
-			"**Benefit:** While on a plane with subjective directional gravity, you halve all damage you take from impacts (such as falling damage). While on such a plane, if your \"fall\" would cause you to collide with a creature or object, you can slam into it with devastating force as a standard action. You must succeed at a touch attack to slam a creature or object, with a cumulative -1 penalty for every 50 feet of your current falling speed; at the GM's discretion, you can automatically hit vast objects such as walls. A creature or object hit by this slam takes 1d6 points of bludgeoning damage for every 50 feet of current falling speed, to a maximum of 6d6, and begins falling at your current speed according to your current subjective directional gravity."
+			"**Benefit:** While on a plane with {rule/subjective directional |gravity>_traits}, you halve all damage you take from impacts (such as {rule/falling} damage). While on such a plane, if your \"fall\" would cause you to collide with a creature or object, you can slam into it with devastating force as a standard action. You must succeed at a touch attack to slam a creature or object, with a cumulative -1 penalty for every 50 feet of your current falling speed; at the GM's discretion, you can automatically hit vast objects such as walls. A creature or object hit by this slam takes 1d6 points of bludgeoning damage for every 50 feet of current falling speed, to a maximum of 6d6, and begins falling at your current speed according to your current subjective directional gravity."
 		]
 	},
 	"subtle_devices": {
@@ -3669,7 +3669,7 @@
 			"",
 			"You have mastered the art of stealthily and quickly preparing a poisoned weapon.  ",
 			"**Prerequisites:** Sleight of Hand 5 ranks.  ",
-			"**Benefit:** Whenever you draw a weapon, you can apply poison to the weapon as part of the same action. To do so, you must already have the poison in hand and must succeed at a DC 20 Sleight of Hand check. Success means the dose of poison is expended and you poison the weapon without drawing attention to your act. This check is in addition to any other Sleight of Hand checks you attempt to perform the action (such as to draw a hidden weapon). Failure means any creatures present can immediately attempt opposed Perception checks to notice your poisoning attempt. If you fail the check by 5 or more, you also expose yourself to the poison unless you have an ability that would prevent accidental poisoning, such as an alchemist's poison use ability."
+			"**Benefit:** Whenever you draw a weapon, you can apply poison to the weapon as part of the same action. To do so, you must already have the poison in hand and must succeed at a DC 20 {skill/Sleight of Hand} check. Success means the dose of poison is expended and you poison the weapon without drawing attention to your act. This check is in addition to any other Sleight of Hand checks you attempt to perform the action (such as to draw a hidden weapon). Failure means any creatures present can immediately attempt opposed Perception checks to notice your poisoning attempt. If you fail the check by 5 or more, you also expose yourself to the poison unless you have an ability that would prevent accidental poisoning, such as an alchemist's {ability/poison use} ability."
 		]
 	},
 	"summon_evil_monster": {
@@ -3682,80 +3682,80 @@
 			"",
 			"You can summon the aid of creatures driven their very nature to destroy goodness.  ",
 			"**Prerequisites:** Evil alignment.  ",
-			"**Benefit:** When casting summon monster, you also have access to the list of evil monsters on this page. When summoning a creature from this list, your debased nature allows you to cast the spell as a standard action. The summoned creature appears as normal for the spell but can't act until next your next turn. It is not flat-footed, however, and it can make attacks of opportunity as normal. These effects don't apply for creatures from the standard list that aren't also on this list.  ",
-			"**Special:** If you possess the Sacred Summons feat, you can apply it to a creature on this list whose alignment (as opposed to its subtype or subtypes) matches your aura.",
+			"**Benefit:** When casting {spell/summon monster>_1}, you also have access to the list of evil monsters on this page. When summoning a creature from this list, your debased nature allows you to cast the spell as a standard action. The summoned creature appears as normal for the spell but can't act until next your next turn. It is not {rule/flat-footed}, however, and it can make attacks of opportunity as normal. These effects don't apply for creatures from the standard list that aren't also on this list.  ",
+			"**Special:** If you possess the {feat/Sacred Summons} feat, you can apply it to a creature on this list whose alignment (as opposed to its subtype or subtypes) matches your aura.",
 			"",
 			"- 1st Level",
-			"    - Fiendish dire rat (NE)",
-			"    - Fiendish fire beetle (NE)",
-			"    - Fiendish ghost scorpion (NE)",
-			"    - Fiendish pony (NE)",
-			"    - Fiendish stingray (NE)",
-			"    - Fiendish vulture (NE)",
+			"    - {template/Fiendish} {monster/dire rat} (NE)",
+			"    - Fiendish {monster/fire beetle} (NE)",
+			"    - Fiendish {monster/ghost scorpion} (NE)",
+			"    - Fiendish {monster/pony} (NE)",
+			"    - Fiendish {monster/stingray} (NE)",
+			"    - Fiendish {monster/vulture} (NE)",
 			"- 2nd Level",
-			"    - Damned petitioner (LE)",
-			"    - Fiendish squid (NE)",
-			"    - Fuath (gremlin, CE)",
+			"    - Damned {template/petitioner} (LE)",
+			"    - Fiendish {monster/squid} (NE)",
+			"    - {monster/Fuath} (gremlin, CE)",
 			"    - Hunted petitioner (NE)",
 			"    - Larvae petitioner (CE)",
-			"    - Lemure (devil, LE)",
-			"    - Pugwampi (gremlin, NE)",
+			"    - {monster/Lemure} (devil, LE)",
+			"    - {monster/Pugwampi} (gremlin, NE)",
 			"- 3rd Level",
-			"    - Augur (kyton, LE)",
-			"    - Cacodaemon (daemon, NE)",
-			"    - Doru (div, NE)",
-			"    - Dretch (demon, CE)",
-			"    - Fiendish shark (NE)",
-			"    - Howler (CE)",
-			"    - Tripurasura (asura, LE)",
+			"    - {monster/Augur} (kyton, LE)",
+			"    - {monster/Cacodaemon} (daemon, NE)",
+			"    - {monster/Doru} (div, NE)",
+			"    - {monster/Dretch} (demon, CE)",
+			"    - Fiendish {monster/shark} (NE)",
+			"    - {monster/Howler} (CE)",
+			"    - {monster/Tripurasura} (asura, LE)",
 			"- 4th Level",
-			"    - Aghash (div, NE)",
-			"    - Hell hound (LE)",
-			"    - Kelpie (NE)",
-			"    - Schir (demon, CE)",
-			"    - Spring-Heeled Jack (CE)",
-			"    - Yeth Hound (NE)",
-			"    - Zebub (devil, LE)",
+			"    - {monster/Aghash} (div, NE)",
+			"    - {monster/Hell hound} (LE)",
+			"    - {monster/Kelpie} (NE)",
+			"    - {monster/Schir} (demon, CE)",
+			"    - {monster/Spring-Heeled Jack} (CE)",
+			"    - {monster/Yeth Hound} (NE)",
+			"    - {monster/Zebub} (devil, LE)",
 			"- 5th Level",
-			"    - Babau (demon, CE)",
-			"    - Barbazu (devil, LE)",
-			"    - Evangelist (kyton, LE)",
-			"    - Fiendish giant moray eel (NE)",
-			"    - Lurker in light (NE)",
-			"    - Salamander (CE)",
-			"    - Shadow mastiff (NE)",
+			"    - {monster/Babau} (demon, CE)",
+			"    - {monster/Barbazu} (devil, LE)",
+			"    - {monster/Evangelist} (kyton, LE)",
+			"    - Fiendish {monster/giant moray eel} (NE)",
+			"    - {monster/Lurker in light} (NE)",
+			"    - {monster/Salamander} (CE)",
+			"    - {monster/Shadow mastiff} (NE)",
 			"- 6th Level",
-			"    - Efreeti (genie, LE)",
-			"    - Erinyes (devil, LE)",
-			"    - Fiendish giant octopus (NE)",
-			"    - Pairaka (div, NE)",
-			"    - Shadow demon (CE)",
-			"    - Soul eater (NE)",
-			"    - Succubus (demon, CE)",
+			"    - {monster/Efreeti} (genie, LE)",
+			"    - {monster/Erinyes} (devil, LE)",
+			"    - Fiendish {monster/giant octopus} (NE)",
+			"    - {monster/Pairaka} (div, NE)",
+			"    - {monster/Shadow demon} (CE)",
+			"    - {monster/Soul eater} (NE)",
+			"    - {monster/Succubus} (demon, CE)",
 			"- 7th Level",
-			"    - Bebilith (CE)",
-			"    - Bogeyman (NE)",
-			"    - Leukodaemon (daemon, NE)",
-			"    - Nuckelavee (NE)",
-			"    - Osyluth (devil, LE)",
-			"    - Sacristan (kyton, LE)",
-			"    - Vrock (demon, CE)",
+			"    - {monster/Bebilith} (CE)",
+			"    - {monster/Bogeyman} (NE)",
+			"    - {monster/Leukodaemon} (daemon, NE)",
+			"    - {monster/Nuckelavee} (NE)",
+			"    - {monster/Osyluth} (devil, LE)",
+			"    - {monster/Sacristan} (kyton, LE)",
+			"    - {monster/Vrock} (demon, CE)",
 			"- 8th Level",
-			"    - Baregara (CE)",
-			"    - Dorvae (NE)",
-			"    - Hamatula (devil, LE)",
-			"    - Hezrou (demon, CE)",
-			"    - Meladaemon (daemon, NE)",
-			"    - Rusalka (NE)",
-			"    - Young adult green dragon (LE)",
+			"    - {monster/Baregara} (CE)",
+			"    - {monster/Dorvae} (NE)",
+			"    - {monster/Hamatula} (devil, LE)",
+			"    - {monster/Hezrou} (demon, CE)",
+			"    - {monster/Meladaemon} (daemon, NE)",
+			"    - {monster/Rusalka} (NE)",
+			"    - Young adult {family/green dragon} (LE)",
 			"- 9th Level",
-			"    - Ankou (LE)",
-			"    - Nalfeshnee (demon, CE)",
-			"    - Derghodaemon (daemon, NE)",
-			"    - Gelugon (devil, LE)",
-			"    - Glabrezu (demon, CE)",
-			"    - Sepid (div, NE)",
-			"    - Thanadaemon (daemon, NE)"
+			"    - {monster/Ankou} (LE)",
+			"    - {monster/Nalfeshnee} (demon, CE)",
+			"    - {monster/Derghodaemon} (daemon, NE)",
+			"    - {monster/Gelugon} (devil, LE)",
+			"    - {monster/Glabrezu} (demon, CE)",
+			"    - {monster/Sepid} (div, NE)",
+			"    - {monster/Thanadaemon} (daemon, NE)"
 		]
 	},
 	"summon_good_monster": {
@@ -3768,68 +3768,68 @@
 			"",
 			"You can summon the aid of creatures driven by their very nature to destroy evil.  ",
 			"**Prerequisites:** Good alignment.  ",
-			"**Benefit:** When casting summon monster, you also gain access to the list of good monsters below. Your righteous determination grants these summoned creatures the {feat/Diehard} feat. You may still summon creatures from the standard list, but without the Diehard feat.",
+			"**Benefit:** When casting {spell/summon monster>_1}, you also gain access to the list of good monsters below. Your righteous determination grants these summoned creatures the {feat/Diehard} feat. You may still summon creatures from the standard list, but without the Diehard feat.",
 			"- 1st Level",
-			"    - Celestial dog (NG)",
-			"    - Celestial dolphin (NG)",
-			"    - Celestial eagle (NG)",
-			"    - Celestial fire beetle (NG)",
-			"    - Celestial pony (NG)",
-			"    - Celestial viper (NG)",
+			"    - {template/Celestial} {monster/dog} (NG)",
+			"    - Celestial {monster/dolphin} (NG)",
+			"    - Celestial {monster/eagle} (NG)",
+			"    - Celestial {monster/fire beetle} (NG)",
+			"    - Celestial {monster/pony} (NG)",
+			"    - Celestial {monster/viper} (NG)",
 			"- 2nd Level",
-			"    - Celestial octopus (NG)",
-			"    - Celestial wolf (NG)",
-			"    - Faun (CG)",
-			"    - Grig (without fiddle ability) (NG)",
-			"    - Pseudodragon (NG)",
+			"    - Celestial {monster/octopus} (NG)",
+			"    - Celestial {monster/wolf} (NG)",
+			"    - {monster/Faun} (CG)",
+			"    - {monster/Grig} (without fiddle ability) (NG)",
+			"    - {monster/Pseudodragon} (NG)",
 			"- 3rd Level",
-			"    - Blink dog (LG)",
-			"    - Celestial shark (NG)",
-			"    - Foo dog (NG)",
-			"    - Lantern archon (LG)",
-			"    - Lyrakien azata (CG)",
-			"    - Silvanshee agathion (NG)",
+			"    - {monster/Blink dog} (LG)",
+			"    - Celestial {monster/shark} (NG)",
+			"    - {template/Foo} dog (NG)",
+			"    - {monster/Lantern archon} (LG)",
+			"    - {monster/Lyrakien} azata (CG)",
+			"    - {monster/Silvanshee} agathion (NG)",
 			"- 4th Level",
-			"    - Celestial dire wolf (NG)",
-			"    - Celestial giant eagle (NG)",
-			"    - Celestial pegasus (CG)",
-			"    - Faerie dragon (NG)",
-			"    - Foo lion (NG)",
-			"    - Hound archon (LG)",
-			"    - Pixie (NG)",
+			"    - Celestial {monster/dire wolf} (NG)",
+			"    - Celestial {monster/giant eagle} (NG)",
+			"    - Celestial {monster/pegasus} (CG)",
+			"    - {monster/Faerie dragon} (NG)",
+			"    - Foo {monster/lion} (NG)",
+			"    - {monster/Hound archon} (LG)",
+			"    - {monster/Pixie} (NG)",
 			"- 5th Level",
-			"    - Bralani azata (CG)",
-			"    - Celestial orca (NG)",
-			"    - Djinni (CG)",
-			"    - Unicorn (CG)",
-			"    - Vulpinal agathion (NG)",
+			"    - {monster/Bralani} azata (CG)",
+			"    - Celestial {monster/orca} (NG)",
+			"    - {monster/Djinni} (CG)",
+			"    - {monster/Unicorn} (CG)",
+			"    - {monster/Vulpinal} agathion (NG)",
 			"- 6th Level",
-			"    - Celestial giant octopus (NG)",
-			"    - Kirin (LG)",
-			"    - Legion archon (LG)",
-			"    - Lillend azata (LG)",
-			"    - Wood giant (CG)",
+			"    - Celestial {monster/giant octopus} (NG)",
+			"    - {monster/Kirin} (LG)",
+			"    - {monster/Legion archon} (LG)",
+			"    - {monster/Lillend} azata (LG)",
+			"    - {monster/Wood giant} (CG)",
 			"- 7th Level",
-			"    - Celestial dire shark (NG)",
-			"    - Celestial roc (NG)",
-			"    - Movanic deva (NG)",
-			"    - Shedu (LG)",
-			"    - Shield archon (LG)",
-			"    - Treant (NG)",
-			"    - Young bronze dragon (LG)",
+			"    - Celestial {monster/dire shark} (NG)",
+			"    - Celestial {monster/roc} (NG)",
+			"    - {monster/Movanic deva} (NG)",
+			"    - {monster/Shedu} (LG)",
+			"    - {monster/Shield archon} (LG)",
+			"    - {monster/Treant} (NG)",
+			"    - {monster/Young bronze dragon} (LG)",
 			"- 8th Level",
-			"    - Cloud giant (NG)",
-			"    - Dragon horse (NG)",
-			"    - Lammasu (LG)",
-			"    - Monadic deva (NG)",
-			"    - Young gold dragon (LG)",
+			"    - {monster/Cloud giant} (NG)",
+			"    - {monster/Dragon horse} (NG)",
+			"    - {monster/Lammasu} (LG)",
+			"    - {monster/Monadic deva} (NG)",
+			"    - {monster/Young gold dragon} (LG)",
 			"- 9th Level",
-			"    - Astral deva (NG)",
-			"    - Couatl (LG)",
-			"    - Ghaele azata (CG)",
-			"    - Leonal agathion (NG)",
-			"    - Storm giant (CG)",
-			"    - Trumpet archon (LG)"
+			"    - {monster/Astral deva} (NG)",
+			"    - {monster/Couatl} (LG)",
+			"    - {monster/Ghaele} azata (CG)",
+			"    - {monster/Leonal} agathion (NG)",
+			"    - {monster/Storm giant} (CG)",
+			"    - {monster/Trumpet archon} (LG)"
 		]
 	},
 	"summon_guardian_spirit": {
@@ -3842,7 +3842,7 @@
 			"",
 			"A guardian spirit has selected you as its ward.  ",
 			"**Prerequisites:** Ability to cast {spell/summon monster III} or {spell/summon nature's ally III}.  ",
-			"**Benefit:** Select one creature that qualifies to be an improved familiar, and apply the {template/guardian spirit/ template} to it. That creature is added to either your *summon monster III* or *summon nature's ally III* list as a summonable creature. When you summon your guardian spirit, the duration of the spell you use to summon it is 1 minute per level. A guardian spirit is always exactly the same creature, with memory of all the events that occurred while previously summoned; multiple versions of it can't be summoned. If it's killed while summoned, it cannot be summoned again for 24 hours.",
+			"**Benefit:** Select one creature that qualifies to be an {ability/improved familiar>s}, and apply the {template/guardian spirit/ template} to it. That creature is added to either your *summon monster III* or *summon nature's ally III* list as a summonable creature. When you summon your guardian spirit, the duration of the spell you use to summon it is 1 minute per level. A guardian spirit is always exactly the same creature, with memory of all the events that occurred while previously summoned; multiple versions of it can't be summoned. If it's killed while summoned, it cannot be summoned again for 24 hours.",
 			"",
 			"If you're capable of casting a higher-level summon monster or summon nature's ally spell, you can perform a ritual to attune the guardian spirit to a higher-level version of the spell. This also allows you to change any selections made regarding the abilities the creature gains based on the level of spell used to conjure it. This ritual takes 24 hours, and once complete it moves the guardian spirit to the higher-level list of creatures that can be summoned."
 		]
@@ -3857,49 +3857,49 @@
 			"",
 			"You can summon creatures that embody the forces of balance.  ",
 			"**Prerequisites:** Chaotic neutral, lawful neutral, or neutral alignment.  ",
-			"**Benefit:** When casting a summon monster spell, you gain access to the list of neutral creatures on this page. You may also summon creatures from the standard summon monster list and apply the {template/counterpoised/ creature simple template} to applicable creatures instead of the celestial or fiendish template. Creatures you summon from the list on this page and creatures you summon with the counterpoised template gain a +2 resistance bonus on Will saves.",
+			"**Benefit:** When casting a {spell/summon monster>_1} spell, you gain access to the list of neutral creatures on this page. You may also summon creatures from the standard *summon monster* list and apply the {template/counterpoised/ creature simple template} to applicable creatures instead of the {template/celestial} or {template/fiendish} template. Creatures you summon from the list on this page and creatures you summon with the counterpoised template gain a +2 resistance bonus on Will saves.",
 			"",
 			"- 1st Level",
-			"    - Sprite (CN)",
-			"    - Stirge (N)",
+			"    - {monster/Sprite} (CN)",
+			"    - {monster/Stirge} (N)",
 			"- 2nd Level",
-			"    - Atomie (CN)",
-			"    - Brownie (N)",
+			"    - {monster/Atomie} (CN)",
+			"    - {monster/Brownie} (N)",
 			"- 3rd Level",
-			"    - Arbiter (inevitable) (LN)",
-			"    - Nosoi (psychopomp) (N)",
-			"    - Paracletus (aeon) (N)",
-			"    - Thoqqua (N)",
-			"    - Voidworm (protean) (CN)",
+			"    - {monster/Arbiter} (inevitable) (LN)",
+			"    - {monster/Nosoi} (psychopomp) (N)",
+			"    - {monster/Paracletus} (aeon) (N)",
+			"    - {monster/Thoqqua} (N)",
+			"    - {monster/Voidworm} (protean) (CN)",
 			"- 4th Level",
-			"    - D'ziriak (N)",
-			"    - Magmin (CN)",
-			"    - Mephit (any) (N)",
-			"    - Satyr (CN)",
-			"    - Shae (N)",
-			"    - Viduus (psychopomp) (N)",
+			"    - {monster/D'ziriak} (N)",
+			"    - {monster/Magmin} (CN)",
+			"    - {monster/Mephit} (any) (N)",
+			"    - {monster/Satyr} (CN)",
+			"    - {monster/Shae} (N)",
+			"    - {monster/Viduus} (psychopomp) (N)",
 			"- 5th Level",
-			"    - Catrina (psychopomp) (N)",
-			"    - Mercane (LN)",
-			"    - Rast (N)",
-			"    - Tojanida (N)",
+			"    - {monster/Catrina} (psychopomp) (N)",
+			"    - {monster/Mercane} (LN)",
+			"    - {monster/Rast} (N)",
+			"    - {monster/Tojanida} (N)",
 			"- 6th Level",
-			"    - Chaos Beast (CN)",
-			"    - Invisible stalker (N)",
-			"    - Naunet (protean) (CN)",
-			"    - Theletos (aeon) (N)",
-			"    - Vanth (psychopomp) (N)",
+			"    - {monster/Chaos Beast} (CN)",
+			"    - {monster/Invisible stalker} (N)",
+			"    - {monster/Naunet} (protean) (CN)",
+			"    - {monster/Theletos} (aeon) (N)",
+			"    - {monster/Vanth} (psychopomp) (N)",
 			"- 7th Level",
-			"    - Axiomite (LN)",
-			"    - Jyoti (N)",
-			"    - Shoki (psychopomp) (N)",
-			"    - Zelekhut (inevitable) (LN)",
+			"    - {monster/Axiomite} (LN)",
+			"    - {monster/Jyoti} (N)",
+			"    - {monster/Shoki} (psychopomp) (N)",
+			"    - {monster/Zelekhut} (inevitable) (LN)",
 			"- 8th Level",
-			"    - Imentesh (protean) (CN)",
+			"    - {monster/Imentesh} (protean) (CN)",
 			"- 9th Level",
-			"    - Akhana (aeon) (N)",
-			"    - Morrigna (psychopomp)",
-			"    - Valkyrie (CN)"
+			"    - {monster/Akhana} (aeon) (N)",
+			"    - {monster/Morrigna} (psychopomp)",
+			"    - {monster/Valkyrie} (CN)"
 		]
 	},
 	"summon_plant_ally": {
@@ -3912,25 +3912,25 @@
 			"",
 			"You can call plant creatures to your aid in battle.  ",
 			"**Prerequisites:** Knowledge (nature) 1 rank, ability to cast summon nature's ally spells.  ",
-			"**Benefit:** When casting a summon nature's ally spell, you gain access to the list of plant creatures below.",
+			"**Benefit:** When casting a *summon nature's ally* spell, you gain access to the list of plant creatures below.",
 			"",
-			"@hll[spell/Summon nature's ally I:] Leaf leshy, vegepygmy.",
+			"@hll[spell/Summon nature's ally I:] {monster/Leaf leshy}, {monster/vegepygmy}.",
 			"",
-			"@hll[spell/Summon nature's ally II:] Gourd leshy, leaf ray (without seed ability).",
+			"@hll[spell/Summon nature's ally II:] {monster/Gourd leshy}, {monster/leaf ray} (without seed ability).",
 			"",
-			"@hll[spell/Summon nature's ally III:] Fungus leshy, weedwhip.",
+			"@hll[spell/Summon nature's ally III:] {monster/Fungus leshy}, {monster/weedwhip}.",
 			"",
-			"@hll[spell/Summon nature's ally IV:] Assassin vine, seaweed leshy (without air cyst ability).",
+			"@hll[spell/Summon nature's ally IV:] {monster/Assassin vine}, {monster/seaweed leshy} (without air cyst ability).",
 			"",
-			"@hll[spell/Summon nature's ally V:] Mandragora, shambling mound.",
+			"@hll[spell/Summon nature's ally V:] {monster/Mandragora}, {monster/shambling mound}.",
 			"",
-			"@hll[spell/Summon nature's ally VI:] Tendriculos, treant.",
+			"@hll[spell/Summon nature's ally VI:] {monster/Tendriculos}, {monster/treant}.",
 			"",
-			"@hll[spell/Summon nature's ally VII:] Giant flytrap.",
+			"@hll[spell/Summon nature's ally VII:] {monster/Giant flytrap}.",
 			"",
-			"@hll[spell/Summon nature's ally VIII:] Jinmenju.",
+			"@hll[spell/Summon nature's ally VIII:] {monster/Jinmenju}.",
 			"",
-			"@hll[spell/Summon nature's ally IX:] Alraune."
+			"@hll[spell/Summon nature's ally IX:] {monster/Alraune}."
 		]
 	},
 	"summoners_call": {
@@ -3959,7 +3959,7 @@
 			"",
 			"Called by the Dawnflower to strike down the undead, your scimitar becomes an agent of her burning will.  ",
 			"**Prerequisites:** {feat/Critical Focus}, character level 7th, worshiper of {faith/Sarenrae}.  ",
-			"**Benefit:** Whenever you confirm a critical hit against an undead creature, your attack bypasses all DR, deals full damage to incorporeal creatures, and acts as though it has the flaming burst weapon special ability.",
+			"**Benefit:** Whenever you confirm a critical hit against an undead creature, your attack bypasses all DR, deals full damage to incorporeal creatures, and acts as though it has the {magic-enh/flaming burst} weapon special ability.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Weapon Master's Handbook/25}",
@@ -3976,8 +3976,8 @@
 			"{SOURCE Elemental Master's Handbook/7}",
 			"",
 			"You can channel your deity's solar wrath through your blade.  ",
-			"**Prerequisites:** {feat/Word of Healing}, paladin level 5th, worshiper of a deity that grants the Fire or Sun domain.  ",
-			"**Benefit:** You can expend a use of lay on hands as a standard action to launch a blast of flame from your weapon. This acts as the kineticist's fire blast, with an effective kineticist level equal to your paladin level - 4. You do not need a free hand to use this ability, but you must be wielding a manufactured melee weapon. You use your Charisma modifier instead of your Constitution modifier to determine the blast's damage. This blast cannot be modified by infusions or other effects that specifically improve a kineticist's blast, even if you have them from other classes."
+			"**Prerequisites:** {feat/Word of Healing}, paladin level 5th, worshiper of a deity that grants the {domain/Fire} or {domain/Sun} domain.  ",
+			"**Benefit:** You can expend a use of lay on hands as a standard action to launch a blast of flame from your weapon. This acts as the kineticist's {kinetic/fire blast}, with an effective kineticist level equal to your paladin level - 4. You do not need a free hand to use this ability, but you must be wielding a manufactured melee weapon. You use your Charisma modifier instead of your Constitution modifier to determine the blast's damage. This blast cannot be modified by infusions or other effects that specifically improve a kineticist's blast, even if you have them from other classes."
 		]
 	},
 	"sunder_blessing": {
@@ -3990,7 +3990,7 @@
 			"",
 			"Your disdain for authority allows you to tear away the blessings of the gods.  ",
 			"**Prerequisites:** {feat/Disruptive}, fighter level 8th.  ",
-			"**Benefit:** You can attempt to sunder an ongoing divine spell effect or divine spell-like ability by succeeding at a combat maneuver check. For any effect other than one on a creature, you must succeed at a combat maneuver check against a CMD of 15 + the effect's caster level. To sunder an effect on a creature, you must succeed at a normal sunder combat maneuver check against the creature's CMD + 5, ignoring any miss chance caused by a spell or spell-like ability. On a success, you suppress the effect for 1 round. If you exceed the CMD by 5 or more, you suppress the effect for 2 rounds. If you exceed the CMD by 10 or more, the effect is dispelled instead. If you fail to sunder a spell, you cannot attempt to sunder that effect again for 1 minute."
+			"**Benefit:** You can attempt to {rule/sunder} an ongoing divine spell effect or divine spell-like ability by succeeding at a combat maneuver check. For any effect other than one on a creature, you must succeed at a combat maneuver check against a CMD of 15 + the effect's caster level. To sunder an effect on a creature, you must succeed at a normal sunder combat maneuver check against the creature's CMD + 5, ignoring any miss chance caused by a spell or spell-like ability. On a success, you suppress the effect for 1 round. If you exceed the CMD by 5 or more, you suppress the effect for 2 rounds. If you exceed the CMD by 10 or more, the effect is dispelled instead. If you fail to sunder a spell, you cannot attempt to sunder that effect again for 1 minute."
 		]
 	},
 	"sundering_strike": {
@@ -4006,7 +4006,7 @@
 			"",
 			"Your critical hits can sunder your foes' weapons.  ",
 			"**Prerequisites:** Str 13, {feat/Improved Sunder}, {feat/Power Attack}, base attack bonus +9.  ",
-			"**Benefit:** Whenever you score a critical hit with a melee attack, you can sunder your opponent's weapon, in addition to the normal damage dealt by the attack. If your confirmation roll exceeds your opponent's CMD, you may deal damage to your opponent's weapon as if from the sunder combat maneuver (roll normal damage to the weapon separately). This does not provoke an attack of opportunity.  ",
+			"**Benefit:** Whenever you score a critical hit with a melee attack, you can {rule/sunder} your opponent's weapon, in addition to the normal damage dealt by the attack. If your confirmation roll exceeds your opponent's CMD, you may deal damage to your opponent's weapon as if from the sunder combat maneuver (roll normal damage to the weapon separately). This does not provoke an attack of opportunity.  ",
 			"**Normal:** You must perform a sunder combat maneuver to sunder an opponent's weapon.  ",
 			"**Special:** You can only apply the effects of one of the following feats to a given critical hit: {feat/Bull Rush Strike}, {feat/Disarming Strike}, {feat/Repositioning Strike}, Sundering Strike, or {feat/Tripping Strike}. You may choose to use this feat after you make your confirmation roll.",
 			"",
@@ -4026,7 +4026,7 @@
 			"",
 			"Your summoned minions shine with the power of the sun.  ",
 			"**Prerequisites:** {feat/Spell Focus} (conjuration), able to cast summon nature's ally.  ",
-			"**Benefit:** Creatures that you summon shed light as a light spell. They are immune to blinding or dazzling effects, and their natural weapons are treated as magical for overcoming damage reduction."
+			"**Benefit:** Creatures that you summon shed light as a {spell/light} spell. They are immune to blinding or dazzling effects, and their natural weapons are treated as magical for overcoming damage reduction."
 		]
 	},
 	"sunlit_strike": {
@@ -4039,7 +4039,7 @@
 			"",
 			"Your melee blows deal extra damage to creatures sensitive to light, making you adept at hunting foul monsters of the night.  ",
 			"**Prerequisites:** {feat/Arcane Strike}, able to prepare or cast daylight.  ",
-			"**Benefit:** Whenever you successfully hit an enemy that is vulnerable to light (such as by the {umr/light blindness}, {umr/light sensitivity}, or {umr/sunlight powerlessness} universal monster rules) with a melee weapon you've imbued with your Arcane Strike feat, you deal an additional 1d6 points of damage to the target of your attack. The struck creature must also succeed at a Fortitude saving throw (DC 10 + your character level + your Strength modifier) or become staggered for 1 round."
+			"**Benefit:** Whenever you successfully hit an enemy that is vulnerable to light (such as by the {umr/light blindness}, {umr/light sensitivity}, or {umr/sunlight powerlessness} universal monster rules) with a melee weapon you've imbued with your Arcane Strike feat, you deal an additional 1d6 points of damage to the target of your attack. The struck creature must also succeed at a Fortitude saving throw (DC 10 + your character level + your Strength modifier) or become {misc/staggered} for 1 round."
 		]
 	},
 	"superintendent": {
@@ -4051,7 +4051,7 @@
 			"{SOURCE Quests and Campaigns/27}",
 			"",
 			"You have a nearly endless arsenal of tricks and methods to keep your buildings in top shape.  ",
-			"**Prerequisites:** Own at least one room.  ",
+			"**Prerequisites:** Own at least one {rule/room>s_and_teams}.  ",
 			"**Benefit:** When a room you own gains the broken condition, you may repair it for half the normal cost in gold pieces and other capital, rounded up. Additionally, buildings and organizations you've created are not affected by capital attrition until 1 month of your absence. From that point, capital attrition affects your buildings and organizations as normal."
 		]
 	},
@@ -4065,7 +4065,7 @@
 			"",
 			"Your training in a particular dirty trick makes it especially effective.  ",
 			"**Prerequisites:** Int 13, {feat/Combat Expertise}, {feat/Greater Dirty Trick}, {feat/Improved Dirty Trick}, base attack bonus +8.  ",
-			"**Benefit:** Choose one condition imposed by the dirty trick combat maneuver, such as blinded or entangled. The target must spend a full-round action in order to remove that condition.  ",
+			"**Benefit:** Choose one condition imposed by the {rule/dirty trick} combat maneuver, such as {misc/blinded} or {rule/entangled}. The target must spend a full-round action in order to remove that condition.  ",
 			"**Special:** You can gain this feat multiple times. Each time you take the feat, it applies to a different condition."
 		]
 	},
@@ -4079,7 +4079,7 @@
 			"",
 			"Your experience has enabled you to dramatically develop your innate magical abilities.  ",
 			"**Prerequisites:** Cha 17, {feat/Advanced Gathlain Magic}, {feat/Greater Gathlain Magic}, character level 15th, {race/gathlain}.  ",
-			"**Benefit:** You gain the following spells as spell-like abilities, each usable 1/day: liveoak, tree stride."
+			"**Benefit:** You gain the following spells as spell-like abilities, each usable 1/day: {spell/liveoak}, {spell/tree stride}."
 		]
 	},
 	"superior_scryer": {
@@ -4092,9 +4092,9 @@
 			"",
 			"You are adept at seeing more when scrying.  ",
 			"**Prerequisites:** {feat/Spell Focus} (divination), the ability to cast at least one spell of the scrying subschool.  ",
-			"**Benefit:** When casting a scrying spell, you see through the spell's sensor with darkvision 60 feet, whether or not you possess darkvision normally and whether or not the spell normally allows you to see with darkvision. If the spell sends back sensory information only within 10 feet of the sensor (such as with scrying and greater scrying), this feat doesn't increase that range. You receive a +2 bonus on Perception checks to notice things through a scrying sensor, and your prying eyes and insect spies also receive a +2 bonus on Perception checks.",
+			"**Benefit:** When casting a scrying spell, you see through the spell's sensor with darkvision 60 feet, whether or not you possess darkvision normally and whether or not the spell normally allows you to see with darkvision. If the spell sends back sensory information only within 10 feet of the sensor (such as with {spell/scrying} and {spell/greater scrying}), this feat doesn't increase that range. You receive a +2 bonus on Perception checks to notice things through a scrying sensor, and your {spell/prying eyes} and {spell/insect spies} also receive a +2 bonus on Perception checks.",
 			"",
-			"When you use the scrying or greater scrying spell, you have a 10% increase to the chance of using spells through the sensor."
+			"When you use the *scrying* or *greater scrying* spell, you have a 10% increase to the chance of using spells through the sensor."
 		]
 	},
 	"superior_summoning": {
@@ -4120,7 +4120,7 @@
 			"",
 			"You sup on the blood of your ancestors to fuel your fury.  ",
 			"**Prerequisites:** Con 15, {race/aasimar}.  ",
-			"**Benefit:** Whenever you are adjacent to a good outsider that takes bleed or blood drain damage, you gain 1 temporary hit point as you bathe in the celestial being's gore. Furthermore, as a full-round action, you can feast on the fallen body of a good outsider that has been dead no longer than 24 hours. When you do, you regain 1 temporary hit point per Hit Die the outsider possessed at a rate of 1 hit point per minute. Temporary hit points gained from this feat last 1d4 hours."
+			"**Benefit:** Whenever you are adjacent to a good outsider that takes {rule/bleed} or {umr/blood drain} damage, you gain 1 {rule/temporary hit point>s} as you bathe in the celestial being's gore. Furthermore, as a full-round action, you can feast on the fallen body of a good outsider that has been dead no longer than 24 hours. When you do, you regain 1 temporary hit point per Hit Die the outsider possessed at a rate of 1 hit point per minute. Temporary hit points gained from this feat last 1d4 hours."
 		]
 	},
 	"supernatural_spy": {
@@ -4133,7 +4133,7 @@
 			"",
 			"Your familiarity with magic drives you to discover a great supernatural secret. You might work with an eldritch organization, which could be a school of magic such as the Arcanamirium or part of a government with strong ties to magic such as that of Irrisen, or you might attempt to keep your magical inquiries hidden from your employers.  ",
 			"**Prerequisites:** Alchemist discovery, arcane discovery, arcanist exploit, or magus arcana class feature and you must either have observed a created magical effect you could not understand or have the Master Craftsman (alchemist) or the Unquenchable Hunger for Knowledge (wizard) {rule/class_<background>_tables}.  ",
-			"**Benefit:** Treat your Intelligence, Wisdom, or Charisma score as 2 higher for the purpose of calculating the effects and save DCs of one of the following class features: alchemist discoveries, arcane discoveries, arcanist exploits, or magus arcana. You select both the ability score and class feature to be affected when you select this feat, and the choice cannot be changed. This increases the potency of the abilities but does not grant access to additional abilities.  ",
+			"**Benefit:** Treat your Intelligence, Wisdom, or Charisma score as 2 higher for the purpose of calculating the effects and save DCs of one of the following class features: {ability/alchemist |discoveries}, {ability/arcane discoveries}, {ability/arcanist |exploits}, or {ability/magus arcana}. You select both the ability score and class feature to be affected when you select this feat, and the choice cannot be changed. This increases the potency of the abilities but does not grant access to additional abilities.  ",
 			"**Goal:** Learn a great supernatural secret, connected in some manner to an aspect of the class feature you selected with this story feat. You must evade or thwart a challenging foe in the process.  ",
 			"**Completion Benefit:** When calculating the effect of the class feature selected with this feat, you treat your class level for the relevant class as 2 higher. This does not impact when you gain access to additional abilities tied to that class feature, only the effectiveness of abilities from the feature you already have."
 		]
@@ -4147,8 +4147,8 @@
 			"{SOURCE Heroes of the Wild/26}",
 			"",
 			"Combining magical detection with your tracking skills allows you to sense and track a creature's lingering presence.  ",
-			"**Prerequisites:** Survival 1 rank, ability to cast a detect spell.  ",
-			"**Benefit:** You can cast a detect spell that specifies a creature type, such as {spell/detect animals or plants} or {spell/detect undead}, to augment your ability to track such creatures instead of the spell's normal benefit; you can see a soft glow that highlights tracks of passage left by creatures of that type. For a duration of 1 hour per level of the spell, you gain a bonus equal to 5 + the spell's level on Survival checks to track creatures of the specified type. For this duration, you can track such creatures as if you are trained in the Survival skill, even if you are not."
+			"**Prerequisites:** Survival 1 rank, ability to cast a {main/detect |spell>_groupings}.  ",
+			"**Benefit:** You can cast a *detect* spell that specifies a creature type, such as {spell/detect animals or plants} or {spell/detect undead}, to augment your ability to track such creatures instead of the spell's normal benefit; you can see a soft glow that highlights tracks of passage left by creatures of that type. For a duration of 1 hour per level of the spell, you gain a bonus equal to 5 + the spell's level on Survival checks to track creatures of the specified type. For this duration, you can track such creatures as if you are trained in the {skill/Survival} skill, even if you are not."
 		]
 	},
 	"suppress_blight": {
@@ -4161,7 +4161,7 @@
 			"",
 			"You can temporarily suppress afflictions brought on by blight, at a long-term cost.  ",
 			"**Prerequisites:** {feat/Great Fortitude}, {feat/Iron Will}.  ",
-			"**Benefit:** Once per day as a standard action, when you are suffering from a curse or disease effect, you can suppress the effects (as delay poison) for 1 hour per 3 character levels (minimum 1 hour). While the affliction is suppressed, you gain a number of temporary hit points equal to the suppressed affliction's save DC, which last as long as the affliction's effects are suppressed. At the end of this duration, the effects return and all subsequent saving throw DCs against the affliction (including the DC to permanently end the effect) are increased by 2, to a maximum increase of half your Hit Dice; you can't suppress an affliction whose save DC has already been increased to its maximum."
+			"**Benefit:** Once per day as a standard action, when you are suffering from a curse or disease effect, you can suppress the effects (as {spell/delay poison}) for 1 hour per 3 character levels (minimum 1 hour). While the affliction is suppressed, you gain a number of {rule/temporary hit points} equal to the suppressed affliction's save DC, which last as long as the affliction's effects are suppressed. At the end of this duration, the effects return and all subsequent saving throw DCs against the affliction (including the DC to permanently end the effect) are increased by 2, to a maximum increase of half your Hit Dice; you can't suppress an affliction whose save DC has already been increased to its maximum."
 		]
 	},
 	"suppress_regeneration": {
@@ -4173,7 +4173,7 @@
 			"{SOURCE Giant Hunter's Handbook/19}",
 			"",
 			"You and your allies can exacerbate a regenerating creature's weaknesses. By making a precisely timed attack to open a serious wound just a bit further, your allies can extend the length of time the creature's regeneration is suppressed.  ",
-			"**Benefit:** When you make a successful attack that causes a creature's regeneration ability to cease functioning for at least 1 round (such as by hitting a troll with alchemist's fire), any ally who also has this feat and is currently threatening the creature can make an attack of opportunity against it. This attack of opportunity deals no damage, but instead extends the time that the creature's regeneration is suppressed by 1 additional round. If multiple allies with this feat hit the creature with this attack of opportunity, the additional rounds of suppression stack."
+			"**Benefit:** When you make a successful attack that causes a creature's {umr/regeneration} ability to cease functioning for at least 1 round (such as by hitting a {family/troll} with {eq-weapon/alchemist's fire}), any ally who also has this feat and is currently threatening the creature can make an attack of opportunity against it. This attack of opportunity deals no damage, but instead extends the time that the creature's regeneration is suppressed by 1 additional round. If multiple allies with this feat hit the creature with this attack of opportunity, the additional rounds of suppression stack."
 		]
 	},
 	"suppressive_fire": {
@@ -4278,7 +4278,7 @@
 			"",
 			"Due to inherent hardiness and painful training, you can operate indefinitely on land.  ",
 			"**Prerequisites:** Con 15, {race/gillman}, water dependent racial trait.  ",
-			"**Benefit:** You lose the water dependent racial trait, but you are sickened if you have not submerged yourself in water within the past 24 hours."
+			"**Benefit:** You lose the water dependent racial trait, but you are {misc/sickened} if you have not submerged yourself in water within the past 24 hours."
 		]
 	},
 	"surge_of_success": {
@@ -4325,7 +4325,7 @@
 			"",
 			"Your maneuvers are devastating against disadvantaged foes.  ",
 			"**Prerequisites:** {feat/Combat Expertise}; {ability/sneak attack} +3d6 or studied strike +3d6.  ",
-			"**Benefit:** If you have sneak attack, when you attempt a combat maneuver check against a creature that you are flanking or that is denied its Dexterity bonus to AC against your attack, you gain a bonus on the combat maneuver check that's equal to the number of sneak attack dice you roll.",
+			"**Benefit:** If you have sneak attack, when you attempt a combat maneuver check against a creature that you are {rule/flanking} or that is denied its Dexterity bonus to AC against your attack, you gain a bonus on the combat maneuver check that's equal to the number of sneak attack dice you roll.",
 			"",
 			"If you have the studied combat class feature, you can use studied strike on a combat maneuver check. When you do so, you gain a bonus on the combat maneuver check equal to your number of studied strike dice."
 		]
@@ -4343,7 +4343,7 @@
 			"",
 			"You actually seem to do more damage when frantically trying to avoid your enemies.  ",
 			"**Prerequisites:** {feat/Cautious Fighter}, {feat/Desperate Swing}, base attack bonus +6, {race/halfling}.  ",
-			"**Benefit:** Once per day, when fighting defensively or making an attack of opportunity while taking the total defense action with the Desperate Swing feat, you take no penalty on the attack roll.",
+			"**Benefit:** Once per day, when {misc/fighting defensively} or making an attack of opportunity while taking the {misc/total defense} action with the Desperate Swing feat, you take no penalty on the attack roll.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/133}",
@@ -4374,7 +4374,7 @@
 			"",
 			"Your quick swordsmanship leaves your opponents struggling to predict your moves.  ",
 			"**Prerequisites:** Riposte class feature.  ",
-			"**Benefit:** In addition to the attack of opportunity you can make when you successfully parry an attack, you can attempt a dirty trick, disarm, or sunder combat maneuver with a +2 morale bonus without provoking an attack of opportunity against the creature whose attack you parry, so long as the creature is within reach."
+			"**Benefit:** In addition to the attack of opportunity you can make when you successfully parry an attack, you can attempt a {rule/dirty trick}, {rule/disarm}, or {rule/sunder} combat maneuver with a +2 morale bonus without provoking an attack of opportunity against the creature whose attack you parry, so long as the creature is within reach."
 		]
 	},
 	"survivor": {
@@ -4390,7 +4390,7 @@
 			"",
 			"Only the strong thrive in your homeland, and you are no weakling, even among your kin.  ",
 			"**Prerequisites:** Con 13, {feat/Diehard}, {feat/Endurance}.  ",
-			"**Benefit:** You gain a +5 bonus on all Constitution checks made to stabilize while dying. Once per day, if you are struck by a critical hit or sneak attack, you can spend an immediate action to negate the critical or the sneak attack damage, making the attack a normal hit."
+			"**Benefit:** You gain a +5 bonus on all Constitution checks made to stabilize while {misc/dying}. Once per day, if you are struck by a critical hit or {ability/sneak attack}, you can spend an immediate action to negate the critical or the sneak attack damage, making the attack a normal hit."
 		]
 	},
 	"swamp_dweller": {
@@ -4402,7 +4402,7 @@
 			"{SOURCE Plane-Hopper's Handbook/30}",
 			"",
 			"You have trained with the Muckmouth lizardfolk of the Hao Jin Tapestry and learned their ways.  ",
-			"**Prerequisites:** Str 13, must have visited the Hao Jin Tapestry.  ",
+			"**Prerequisites:** Str 13, must have visited the {rule/Hao Jin Tapestry}.  ",
 			"**Benefit:** You gain a +2 bonus on Swim checks. If you have 10 or more ranks in Swim, the bonus increases to +4. This bonus doubles while you're in marshy terrain. In addition, you can move normally into squares with a shallow bog, and it costs you only 2 squares of movement to move into a square with a deep bog."
 		]
 	},
@@ -4462,7 +4462,7 @@
 			"",
 			"You have learned tricks to avoid being engulfed by the swarms of crawling horrors that frequently inhabit Osirion's lost tombs and desolate wastes.  ",
 			"**Prerequisites:** Dex 15, {ability/evasion}.  ",
-			"**Benefit:** When a swarm attacks you by ending its turn in your space, you may attempt a Reflex save to avoid damage (DC equal to the swarm's distraction save DC + 10). If the save succeeds, you also avoid any poison, blood drain, or similar effects that normally result from damage by the swarm. If you have improved evasion, it also applies to swarm damage.  ",
+			"**Benefit:** When a {subtype/swarm} attacks you by ending its turn in your space, you may attempt a Reflex save to avoid damage (DC equal to the swarm's distraction save DC + 10). If the save succeeds, you also avoid any poison, {umr/blood drain}, or similar effects that normally result from damage by the swarm. If you have {ability/improved evasion}, it also applies to swarm damage.  ",
 			"**Note:** You must still make a Fortitude save to avoid distraction if you begin your turn in a space occupied by a swarm."
 		]
 	},
@@ -4475,7 +4475,7 @@
 			"{SOURCE Blood of the Moon/19}",
 			"",
 			"You have studied the habits of swarming rats for defensive tactics.  ",
-			"**Benefit:** For each ally who has this feat and is adjacent to you, you gain a +1 circumstance bonus to AC. As long as you have this bonus, you are immune to the swarm attack and distraction ability of rat swarms."
+			"**Benefit:** For each ally who has this feat and is adjacent to you, you gain a +1 circumstance bonus to AC. As long as you have this bonus, you are immune to the swarm attack and distraction ability of {monster/rat swarm/s}."
 		]
 	},
 	"swarm_strike": {
@@ -4500,7 +4500,7 @@
 			"",
 			"When you knock a weapon from an opponent's grasp, the errant weapon may disarm another foe.  ",
 			"**Prerequisites:** Int 13, {feat/Combat Expertise}, {feat/Improved Disarm}, base attack bonus +1.  ",
-			"**Benefit:** Whenever you succeed at a combat maneuver check to disarm an opponent, you can attempt a second disarm at a -5 penalty against an opponent adjacent to the original target. You need not be threatening the second target. You can attempt only one additional disarm combat maneuver check per round with this feat."
+			"**Benefit:** Whenever you succeed at a combat maneuver check to {rule/disarm} an opponent, you can attempt a second disarm at a -5 penalty against an opponent adjacent to the original target. You need not be threatening the second target. You can attempt only one additional disarm combat maneuver check per round with this feat."
 		]
 	},
 	"sweeping_dodge": {
@@ -4513,7 +4513,7 @@
 			"",
 			"A quick sweep of your cloak deflects an incoming attack.  ",
 			"**Prerequisites:** Dex 13, {feat/Dodge}.  ",
-			"**Benefit:** When you make a dueling dodge while wearing a cloak, you gain evasion (as the rogue ability). If a critical hit or sneak attack is scored on you, there is a 25% chance that the critical hit or sneak attack is negated and damage is instead rolled normally. This feat only applies until the attack that triggered the immediate action is resolved. This feat does not stack with the fortification armor special ability or similar effects."
+			"**Benefit:** When you make a {rule/dueling dodge} while wearing a cloak, you gain {ability/evasion} (as the rogue ability). If a critical hit or {ability/sneak attack} is scored on you, there is a 25% chance that the critical hit or sneak attack is negated and damage is instead rolled normally. This feat only applies until the attack that triggered the immediate action is resolved. This feat does not stack with the {magic-enh/fortification} armor special ability or similar effects."
 		]
 	},
 	"swift_aid": {
@@ -4529,7 +4529,7 @@
 			"",
 			"With a quick but harmless swipe, you can aid an ally's assault.  ",
 			"**Prerequisites:** Int 13, {feat/Combat Expertise}, base attack bonus +6.  ",
-			"**Benefit:** As a swift action, you can attempt the aid another action, granting your ally either a +1 bonus on his next attack roll or a +1 bonus to his AC.  ",
+			"**Benefit:** As a swift action, you can attempt the {rule/aid another>_2} action, granting your ally either a +1 bonus on his next attack roll or a +1 bonus to his AC.  ",
 			"**Normal:** Aid another is a standard action.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -4575,7 +4575,7 @@
 			"",
 			"You can change shape more quickly than most kitsune.  ",
 			"**Prerequisites:** Dex 13, base attack bonus +6, {race/kitsune}.  ",
-			"**Benefit:** You can assume human or kitsune form as a swift action. If you have the Fox Shape feat, you can assume fox form as a swift action as well.  ",
+			"**Benefit:** You can assume human or kitsune form as a swift action. If you have the {feat/Fox Shape} feat, you can assume fox form as a swift action as well.  ",
 			"**Normal:** A kitsune's change shape ability is a standard action."
 		]
 	},
@@ -4589,7 +4589,7 @@
 			"",
 			"You quickly turn, forcing devastating blows to be blunted by the thickest part of your armor.  ",
 			"**Prerequisites:** Str 13, Dex 13, {feat/Swift Iron Style}, proficiency with medium armor.  ",
-			"**Benefit:** Once per day when using Swift Iron Style, when you're hit by a weapon, unarmed attack, or natural weapon, you can treat all dice other than the weapon's base damage dice (including extra dice from sneak attack, critical hit, magic special weapon abilities, and {feat/Vital Strike}) as having rolled 1s. You can use this ability a second time per day when your base attack bonus reaches +8, and a third time at +16."
+			"**Benefit:** Once per day when using Swift Iron Style, when you're hit by a weapon, unarmed attack, or natural weapon, you can treat all dice other than the weapon's base damage dice (including extra dice from {ability/sneak attack}, critical hit, magic special weapon abilities, and {feat/Vital Strike}) as having rolled 1s. You can use this ability a second time per day when your base attack bonus reaches +8, and a third time at +16."
 		]
 	},
 	"swift_sprint": {
@@ -4602,7 +4602,7 @@
 			"",
 			"You balance your armor expertly, allowing you to run and sprint without impediment.  ",
 			"**Prerequisites:** Str 13, Dex 13, {feat/Swift Iron Style}, {feat/Swift Refuge}, proficiency with medium armor.  ",
-			"**Benefit:** When you're charging, running, or taking no action in your turn other than movement, your armor does not reduce your movement."
+			"**Benefit:** When you're {rule/charg/ing>e}, {rule/run/ning}, or taking no action in your turn other than movement, your armor does not reduce your movement."
 		]
 	},
 	"swift_swimmer": {
@@ -4643,11 +4643,11 @@
 			"**Prerequisites:** Sleight of Hand 5 ranks.  ",
 			"**Benefit:** As a standard action, you can attempt a DC 20 Sleight of Hand check to plant a small object on a creature. The target is entitled to a Perception check opposed by your Sleight of Hand check to notice you planting the item. This does not force the creature to wear, wield, or otherwise use the item; you simply plant it on the creature's person. The DC increases to 30 if the target is not wearing clothing, armor, tack and harness (if an animal or similar creature), or some other equivalent accoutrements in which you can hide the item.",
 			"",
-			"In combat, you must succeed at a steal combat maneuver in order to plant an item on a creature while attempting a Sleight of Hand check opposed by the target's Perception check to do so without the target noticing. You are automatically unnoticed if you succeed and have the Greater Steal feat.",
+			"In combat, you must succeed at a {rule/steal} combat maneuver in order to plant an item on a creature while attempting a Sleight of Hand check opposed by the target's Perception check to do so without the target noticing. You are automatically unnoticed if you succeed and have the Greater Steal feat.",
 			"",
 			"If you steal an object with a successful Sleight of Hand check or steal combat maneuver check, you can use this feat as a swift action to plant it on another creature within reach before the end of your turn.",
 			"",
-			"**Special:** If you have Walking Sleight, you can take either or both of your actions with Swipe and Stash at any point during your movement in the same round, moving both before and after both snatching and planting the object if you wish to do so and have enough movement."
+			"**Special:** If you have {feat/Walking Sleight}, you can take either or both of your actions with Swipe and Stash at any point during your movement in the same round, moving both before and after both snatching and planting the object if you wish to do so and have enough movement."
 		]
 	},
 	"sword_and_pistol": {
@@ -4682,7 +4682,7 @@
 			"",
 			"You can deflect incoming attacks.  ",
 			"**Prerequisites:** {feat/Combat Expertise}, {feat/Improved Feint}, {feat/Swordplay Style}, {feat/Swordplay Upset}, {feat/Weapon Focus} with the chosen weapon, base attack bonus +7.  ",
-			"**Benefit:** While using Swordplay Style, when you make one or more melee attacks, you can forgo a single melee attack to prepare an action to disrupt an opponent's attack. This functions as a swashbuckler's opportune parry and riposte deed, except that if your result is greater than your opponent's, you gain a +4 shield bonus to your Armor Class against attacks made by your opponent until the start of your next turn instead of preventing the hit, and you cannot attempt to riposte. If you have the opportune parry and riposte deed, you gain this Armor Class bonus anytime you successfully parry an opponent's attack."
+			"**Benefit:** While using Swordplay Style, when you make one or more melee attacks, you can forgo a single melee attack to prepare an action to disrupt an opponent's attack. This functions as a swashbuckler's {swashdeed/opportune parry and riposte} deed, except that if your result is greater than your opponent's, you gain a +4 shield bonus to your Armor Class against attacks made by your opponent until the start of your next turn instead of preventing the hit, and you cannot attempt to riposte. If you have the opportune parry and riposte deed, you gain this Armor Class bonus anytime you successfully parry an opponent's attack."
 		]
 	},
 	"swordplay_style": {
@@ -4695,7 +4695,7 @@
 			"",
 			"Your defense relies on perfectly timed attacks.  ",
 			"**Prerequisites:** {feat/Combat Expertise}, {feat/Weapon Focus} with the chosen weapon, base attack bonus +3.  ",
-			"**Benefit:** Choose one weapon from the heavy blades or light blades fighter weapon group. While using this style, wielding the chosen weapon, and fighting defensively or using either the total defense action or the Combat Expertise feat, you gain a +1 shield bonus to your Armor Class. In addition, you do not take the penalty on melee attacks from Combat Expertise on the first attack roll you make each turn. You still take the penalty on additional attacks, including attacks of opportunity.  ",
+			"**Benefit:** Choose one weapon from the heavy blades or light blades {ability/fighter |weapon group>s}. While using this style, wielding the chosen weapon, and {misc/fighting defensively} or using either the {misc/total defense} action or the Combat Expertise feat, you gain a +1 shield bonus to your Armor Class. In addition, you do not take the penalty on melee attacks from Combat Expertise on the first attack roll you make each turn. You still take the penalty on additional attacks, including attacks of opportunity.  ",
 			"**Special:** A character with the swashbuckler weapon training or weapon training (heavy blades or light blades) class feature can use Swordplay Style with any light or one-handed piercing melee weapon, heavy blade, or light blade, respectively, in addition to the chosen weapon."
 		]
 	},
@@ -4709,7 +4709,7 @@
 			"",
 			"You catch opponents off guard with your attacks.  ",
 			"**Prerequisites:** {feat/Combat Expertise}, {feat/Improved Feint}, {feat/Swordplay Style}, {feat/Weapon Focus} with the chosen weapon, base attack bonus +5.  ",
-			"**Benefit:** While using Swordplay Style, as an immediate action, you can attempt a feint against an opponent that makes a melee attack against you and misses."
+			"**Benefit:** While using Swordplay Style, as an immediate action, you can attempt a {rule/feint} against an opponent that makes a melee attack against you and misses."
 		]
 	},
 	"swords_shadow": {
@@ -4722,7 +4722,7 @@
 			"",
 			"You attack with a second strike before your opponent can recover from the first.  ",
 			"**Prerequisites:** {feat/Deft Hands}.  ",
-			"**Benefit:** When you successfully damage an enemy with the first attack of a full attack, you can attempt a Sleight of Hand check against that enemy's CMD as an immediate action. If you succeed, you can treat that enemy as flat-footed for the next attack you make as part of the full attack action."
+			"**Benefit:** When you successfully damage an enemy with the first attack of a full attack, you can attempt a Sleight of Hand check against that enemy's CMD as an immediate action. If you succeed, you can treat that enemy as {rule/flat-footed} for the next attack you make as part of the full attack action."
 		]
 	},
 	"sycophant": {
@@ -4747,7 +4747,7 @@
 			"",
 			"Your symbiotic vines have spread all throughout your body, granting you a lesser form of the immunities enjoyed by plant creatures.  ",
 			"**Prerequisites:** Con 13, {race/gathlain}.  ",
-			"**Benefit:** When you are paralyzed, magically put to sleep, or stunned, you ignore the effects of that condition, but you are instead staggered for the same duration as the ignored condition. Removing the ignored condition also removes this staggered condition, but you can't otherwise remove the staggered condition, nor can immunity to being staggered protect against it."
+			"**Benefit:** When you are {rule/paralyzed}, magically put to sleep, or {misc/stunned}, you ignore the effects of that condition, but you are instead {misc/staggered} for the same duration as the ignored condition. Removing the ignored condition also removes this staggered condition, but you can't otherwise remove the staggered condition, nor can immunity to being staggered protect against it."
 		]
 	},
 	"symbolic_mastery": {
@@ -4760,9 +4760,9 @@
 			"",
 			"You can channel the power of the gods through symbols of their faiths, using it as a weapon.  ",
 			"**Prerequisites:** Use Magic Device 4 ranks, base Fortitude saving throw bonus +2.  ",
-			"**Benefit:** A number of times per day equal to your base Fortitude save bonus, you can cause a holy symbol of a deity you worship and whose alignment is the same as yours to unleash a harmful magical attack called a symbolic bolt. This attack can be delivered via touch or a ray, as a standard action. A melee symbolic bolt requires a melee touch attack that doesn't provoke attacks of opportunity, and a ranged symbolic bolt is a ranged attack with a range of 30 feet. A symbolic bolt deals damage equal to 1d6 + 1/2 your total number of ranks in the Use Magic Device skill. You choose the type of damage dealt by your symbolic bolt each time you use this feat from those offered by the cleric domains granted by the deity whose holy symbol you use. The types of damage (and the cleric domains that grant them) are acid (Earth, Magic, Rune), cold (Darkness, Magic, Rune, Void, Water, Weather), electricity (Air, Magic, Rune, Weather), fire (Destruction, Fire, Magic, Rune), negative energy (Death, Destruction, Void), positive energy (Glory, Healing, Repose, Sun), sonic (Magic, Rune, Weather), and untyped (any). If a symbolic bolt is used to deal untyped damage, the bolt's damage is reduced to an amount equal to 1d3 + 1/2 your total number of ranks in Use Magic Device.",
+			"**Benefit:** A number of times per day equal to your base Fortitude save bonus, you can cause a holy symbol of a deity you worship and whose alignment is the same as yours to unleash a harmful magical attack called a *symbolic bolt.* This attack can be delivered via touch or a ray, as a standard action. A melee *symbolic bolt* requires a melee touch attack that doesn't provoke attacks of opportunity, and a ranged *symbolic bolt* is a ranged attack with a range of 30 feet. A *symbolic bolt* deals damage equal to 1d6 + 1/2 your total number of ranks in the {skill/Use Magic Device} skill. You choose the type of damage dealt by your *symbolic bolt* each time you use this feat from those offered by the cleric domains granted by the deity whose holy symbol you use. The types of damage (and the cleric domains that grant them) are acid (Earth, Magic, Rune), cold (Darkness, Magic, Rune, Void, Water, Weather), electricity (Air, Magic, Rune, Weather), fire (Destruction, Fire, Magic, Rune), negative energy (Death, Destruction, Void), positive energy (Glory, Healing, Repose, Sun), sonic (Magic, Rune, Weather), and untyped (any). If a *symbolic bolt* is used to deal untyped damage, the *bolt's* damage is reduced to an amount equal to 1d3 + 1/2 your total number of ranks in Use Magic Device.",
 			"",
-			"When you create a symbolic bolt, it originates from the hand holding the holy symbol and appears only briefly, so you have a hand free anytime you're not attacking with a symbolic bolt. The feat {feat/Weapon Focus} (ray) doesn't apply to symbolic bolts, but you can take the feat Weapon Focus (symbolic bolt) and apply it to both melee and ranged symbolic bolts. Spells that target a single weapon (such as magic weapon) can't affect symbolic bolts, nor can a symbolic bolt have magic weapon special abilities. Abilities and feats that affect all weapon attacks function as normal with symbolic bolts."
+			"When you create a *symbolic bolt,* it originates from the hand holding the holy symbol and appears only briefly, so you have a hand free anytime you're not attacking with a *symbolic bolt.* The feat {feat/Weapon Focus} (ray) doesn't apply to *symbolic bolts,* but you can take the feat Weapon Focus (symbolic bolt) and apply it to both melee and ranged *symbolic bolts.* Spells that target a single weapon (such as {spell/magic weapon}) can't affect *symbolic bolts,* nor can a *symbolic bolt* have magic weapon special abilities. Abilities and feats that affect all weapon attacks function as normal with symbolic bolts."
 		]
 	},
 	"sympathetic_rage": {
@@ -4779,7 +4779,7 @@
 			"",
 			"Seeing an ally rage fills you with your own fury.  ",
 			"**Prerequisites:** {race/Half-orc} or {race/orc}, nonlawful.  ",
-			"**Benefit:** Whenever you are adjacent to an ally who is raging, you may choose to enter a similar but less powerful rage as a free action on your turn. This weaker rage gives you all the benefits and penalties of a barbarian's rage, except your morale bonus to Strength and Constitution is only +2. There is no limit to how long you can rage, as long as you remain adjacent to a raging ally (for example, you could take a 5-foot step away from one raging ally toward another raging ally and maintain your rage). As with a barbarian's rage, when this weaker rage ends, you are fatigued. You cannot use this feat if you are fatigued.",
+			"**Benefit:** Whenever you are adjacent to an ally who is raging, you may choose to enter a similar but less powerful rage as a free action on your turn. This weaker rage gives you all the benefits and penalties of a barbarian's rage, except your morale bonus to Strength and Constitution is only +2. There is no limit to how long you can rage, as long as you remain adjacent to a raging ally (for example, you could take a 5-foot step away from one raging ally toward another raging ally and maintain your rage). As with a barbarian's rage, when this weaker rage ends, you are {misc/fatigued}. You cannot use this feat if you are fatigued.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/133}",
@@ -4797,8 +4797,8 @@
 			"",
 			"You excel at moving foes right where you want them.  ",
 			"**Prerequisites:** Int 13, {feat/Combat Expertise}, {feat/Improved Reposition}.  ",
-			"**Benefit:** When making a reposition combat maneuver, you can move an enemy into a trap or other hazardous area, such as a pit, wall scythe, or blade barrier. When you do so, the moved enemy is treated as though it had activated the trap or triggered the hazard, and it takes a -2 penalty to AC and on saving throws to mitigate the trap or hazard's effects.  ",
-			"**Normal:** You cannot reposition a foe into an intrinsically dangerous space such as a pit or blade barrier."
+			"**Benefit:** When making a {rule/reposition} combat maneuver, you can move an enemy into a trap or other hazardous area, such as a {trap/pit}, {trap/wall scythe}, or {spell/blade barrier}. When you do so, the moved enemy is treated as though it had activated the trap or triggered the hazard, and it takes a -2 penalty to AC and on saving throws to mitigate the trap or hazard's effects.  ",
+			"**Normal:** You cannot reposition a foe into an intrinsically dangerous space such as a pit or *blade barrier.*"
 		]
 	},
 	"tag_team_interrogation": {
@@ -4840,7 +4840,7 @@
 			"",
 			"You have strengthened your tail enough to make slap attacks with it.  ",
 			"**Prerequisites:** Base attack bonus +1, {race/kobold}.  ",
-			"**Benefit:** You can make a tail slap attack with your tail. This is a secondary natural attack that deals 1d4 points of bludgeoning damage. Furthermore, you can augment your tail slap attack with a kobold tail attachment. For the purpose of weapon feats, you are considered proficient with all kobold tail attachments.",
+			"**Benefit:** You can make a tail slap attack with your tail. This is a secondary {umr/natural attack} that deals 1d4 points of bludgeoning damage. Furthermore, you can augment your tail slap attack with a {eq-weapon/kobold tail attachment}. For the purpose of weapon feats, you are considered proficient with all kobold tail attachments.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/133}",
@@ -4858,7 +4858,7 @@
 			"",
 			"You have strengthened your tail enough that you can use it to make slap attacks and augment your balance.  ",
 			"**Prerequisites:** Base attack bonus +1, {monster/serpentfolk}.  ",
-			"**Benefit:** You can make a tail slap attack with your tail. This is a secondary natural attack that deals 1d6 points of bludgeoning damage. You also gain a +2 racial bonus on Acrobatics checks to balance and to your CMD against maneuvers that attempt to move you from your square."
+			"**Benefit:** You can make a tail slap attack with your tail. This is a secondary {umr/natural attack} that deals 1d6 points of bludgeoning damage. You also gain a +2 racial bonus on Acrobatics checks to balance and to your CMD against maneuvers that attempt to move you from your square."
 		]
 	}
 }

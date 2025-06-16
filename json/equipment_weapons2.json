@@ -3492,6 +3492,11 @@
 		],
 		"topLink": [ "Light Weapons", "main/equipment_weapons_light" ]
 	},
+	"kobold_tail": {
+		"name": "Kobold Tail Attachment",
+		"copyof": "kobold_tail_long_lash"
+	},
+	"kobold_tail_attachment": { "copyof": "kobold_tail" },
 	"long_lash_kobold_tail": { "copyof": "kobold_tail_long_lash" },
 	"long_lash": { "copyof": "kobold_tail_long_lash" },
 	"kobold_tail_pounder": {
