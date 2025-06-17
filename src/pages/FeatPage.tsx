@@ -17,6 +17,11 @@ const FeatGroup9Page = lazy(() => import("./FeatGroup9Page"));
 const FeatGroup10Page = lazy(() => import("./FeatGroup10Page"));
 const FeatGroup11Page = lazy(() => import("./FeatGroup11Page"));
 const FeatGroup12Page = lazy(() => import("./FeatGroup12Page"));
+const FeatGroup13Page = lazy(() => import("./FeatGroup13Page"));
+const FeatGroup14Page = lazy(() => import("./FeatGroup14Page"));
+const FeatGroup15Page = lazy(() => import("./FeatGroup15Page"));
+const FeatGroup16Page = lazy(() => import("./FeatGroup16Page"));
+const FeatGroup17Page = lazy(() => import("./FeatGroup17Page"));
 
 const pages = [
 	({id}: {id: string}) => <FeatGroup1Page id={id} />,
@@ -31,6 +36,11 @@ const pages = [
 	({id}: {id: string}) => <FeatGroup10Page id={id} />,
 	({id}: {id: string}) => <FeatGroup11Page id={id} />,
 	({id}: {id: string}) => <FeatGroup12Page id={id} />,
+	({id}: {id: string}) => <FeatGroup13Page id={id} />,
+	({id}: {id: string}) => <FeatGroup14Page id={id} />,
+	({id}: {id: string}) => <FeatGroup15Page id={id} />,
+	({id}: {id: string}) => <FeatGroup16Page id={id} />,
+	({id}: {id: string}) => <FeatGroup17Page id={id} />,
 ]
 
 const FeatPage: React.FC = () => {

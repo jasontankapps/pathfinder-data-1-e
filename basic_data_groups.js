@@ -186,18 +186,23 @@ import faith8 from './json/faiths8.json' with {type: 'json'};
 import faith9 from './json/faiths9.json' with {type: 'json'};
 import family1 from './json/monsters_families.json' with {type: 'json'};
 import family2 from './json/monsters_families2.json' with {type: 'json'};
-import feat1 from './json/feats.json' with {type: 'json'};
-import feat2 from './json/feats2.json' with {type: 'json'};
-import feat3 from './json/feats3.json' with {type: 'json'};
-import feat4 from './json/feats4.json' with {type: 'json'};
-import feat5 from './json/feats5.json' with {type: 'json'};
-import feat6 from './json/feats6.json' with {type: 'json'};
-import feat7 from './json/feats7.json' with {type: 'json'};
-import feat8 from './json/feats8.json' with {type: 'json'};
-import feat9 from './json/feats9.json' with {type: 'json'};
-import feat10 from './json/feats10.json' with {type: 'json'};
-import feat11 from './json/feats11.json' with {type: 'json'};
-import feat12 from './json/feats12.json' with {type: 'json'};
+import feat1 from './json/feat01.json' with {type: 'json'};
+import feat2 from './json/feat02.json' with {type: 'json'};
+import feat3 from './json/feat03.json' with {type: 'json'};
+import feat4 from './json/feat04.json' with {type: 'json'};
+import feat5 from './json/feat05.json' with {type: 'json'};
+import feat6 from './json/feat06.json' with {type: 'json'};
+import feat7 from './json/feat07.json' with {type: 'json'};
+import feat8 from './json/feat08.json' with {type: 'json'};
+import feat9 from './json/feat09.json' with {type: 'json'};
+import feat10 from './json/feat10.json' with {type: 'json'};
+import feat11 from './json/feat11.json' with {type: 'json'};
+import feat12 from './json/feat12.json' with {type: 'json'};
+import feat13 from './json/feat13.json' with {type: 'json'};
+import feat14 from './json/feat14.json' with {type: 'json'};
+import feat15 from './json/feat15.json' with {type: 'json'};
+import feat16 from './json/feat16.json' with {type: 'json'};
+import feat17 from './json/feat17.json' with {type: 'json'};
 import magicartifact1 from './json/magic_artifact.json' with {type: 'json'};
 import magicartifact2 from './json/magic_artifact2.json' with {type: 'json'};
 import magicartifact3 from './json/magic_artifact3.json' with {type: 'json'};
@@ -1919,6 +1924,41 @@ const basic_data_groups = {
 		searchgroup: 3, // feat
 		link: "feat",
 		num: 12,
+		type: "Feat"
+	},
+	"feats13": {
+		data: feat13,
+		searchgroup: 3, // feat
+		link: "feat",
+		num: 13,
+		type: "Feat"
+	},
+	"feats14": {
+		data: feat14,
+		searchgroup: 3, // feat
+		link: "feat",
+		num: 14,
+		type: "Feat"
+	},
+	"feats15": {
+		data: feat15,
+		searchgroup: 3, // feat
+		link: "feat",
+		num: 15,
+		type: "Feat"
+	},
+	"feats16": {
+		data: feat16,
+		searchgroup: 3, // feat
+		link: "feat",
+		num: 16,
+		type: "Feat"
+	},
+	"feats17": {
+		data: feat17,
+		searchgroup: 3, // feat
+		link: "feat",
+		num: 17,
 		type: "Feat"
 	},
 	"magic_altar": {
