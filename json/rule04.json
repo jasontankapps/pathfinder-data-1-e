@@ -1322,7 +1322,7 @@
 			"",
 			"When a living creature dies, its soul departs its body, leaves the Material Plane, travels through the Astral Plane, and goes to abide on the plane where the creature's deity resides. If the creature did not worship a deity, its soul departs to the plane corresponding to its alignment. Bringing someone back from the dead involves magically retrieving his soul and returning it to his body.",
 			"",
-			"@HL[Negative Levels:] Any creature brought back to life usually gains one or more permanent {rule/energy_drain_and_<negative levels}. These levels apply a penalty to most rolls until removed through spells such as {spell/restoration}. If the character was 1st level at the time of death, he loses 2 points of Constitution instead of gaining a negative level.",
+			"@HL[Negative Levels:] Any creature brought back to life usually gains one or more permanent {rule/negative levels}. These levels apply a penalty to most rolls until removed through spells such as {spell/restoration}. If the character was 1st level at the time of death, he loses 2 points of Constitution instead of gaining a negative level.",
 			"",
 			"@HL[Preventing Revivification:] Enemies can take steps to make it more difficult for a character to be returned from the dead. Keeping the body prevents others from using {spell/raise dead} or {spell/resurrection} to restore the slain character to life. Casting {spell/trap the soul} prevents any sort of revivification unless the soul is first released.",
 			"",

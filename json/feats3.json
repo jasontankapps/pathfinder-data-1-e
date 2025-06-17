@@ -1148,7 +1148,7 @@
 			"",
 			"The fury of lightning storms fuels you and your allies.  ",
 			"**Prerequisites:** {feat/Arcane Strike}, ability to cast a 1st-level or higher spell with the electricity descriptor.  ",
-			"**Benefit:** If you ready an action to cast a 1st-level or higher spell with the electricity descriptor when an ally within 30 feet who has this feat casts a 1st-level or higher spell with the electricity descriptor, when you cast your spell both you and that ally gain the ability to have the next weapon attack you augment with the Arcane Strike feat deal an additional 1d4 points of electricity damage on a hit. These attacks must be made before the end of the next round."
+			"**Benefit:** If you {rule/ready an action} to cast a 1st-level or higher spell with the electricity descriptor when an ally within 30 feet who has this feat casts a 1st-level or higher spell with the electricity descriptor, when you cast your spell both you and that ally gain the ability to have the next weapon attack you augment with the Arcane Strike feat deal an additional 1d4 points of electricity damage on a hit. These attacks must be made before the end of the next round."
 		]
 	},
 	"electric_eel_conduit": {
@@ -2236,8 +2236,6 @@
 			"**Benefit:** You can use any {feat/Equipment Trick} related to the chosen item as long as you meet the trick's prerequisites. If the item would normally be considered an {misc/improvised weapon}, you can treat it as either a normal weapon or an improvised weapon, depending on which is more beneficial for you.  ",
 			"**Special:** You can gain Equipment Trick multiple times. Each time you take the feat, it applies to a new type of equipment. (These are listed as separate feats for reading convenience.)",
 			"",
-			"In addition to the feat or skill prerequisites (listed in parentheses) for each of the following tricks, you must have the appropriate Equipment Trick feat.[^B]",
-			"",
 			"A pair of boots refers to any set of footwear that has hard soles. These equipment tricks can be used with either magic or mundane boots.",
 			"",
 			">@HL[Cleat Stomp;] *({feat/Improved Unarmed Strike}):* When you make a successful unarmed strike against an opponent while wearing a pair of boots with cleats, the target takes 1 point of {rule/bleed} damage. The bleed damage can be stopped by a successful DC 15 Heal skill check or by magical healing. The effects of this trick stack with other sources of bleed damage but not with other bleed damage dealt by this trick.",
@@ -2259,8 +2257,6 @@
 			"**Prerequisites:** Base attack bonus +1.  ",
 			"**Benefit:** You can use any {feat/Equipment Trick} related to the chosen item as long as you meet the trick's prerequisites. If the item would normally be considered an {misc/improvised weapon}, you can treat it as either a normal weapon or an improvised weapon, depending on which is more beneficial for you.  ",
 			"**Special:** You can gain Equipment Trick multiple times. Each time you take the feat, it applies to a new type of equipment. (These are listed as separate feats for reading convenience.)",
-			"",
-			"In addition to the feat or skill prerequisites (listed in parentheses) for each of the following tricks, you must have the appropriate Equipment Trick feat.[^B]",
 			"",
 			"At the GM's discretion, you can use these tricks with any cloth object that is roughly the same size and shape as a cloak for a creature of your size (such as a curtain).",
 			"",
@@ -4907,7 +4903,7 @@
 			"",
 			"You curse the blood of your foes, forcing them to falter in their subsequent actions.  ",
 			"**Prerequisites:** Int 13, Spellcraft 5 ranks, Use Magic Device 5 ranks.  ",
-			"**Benefit:** As a standard action, you can curse an enemy you've dealt damage to since your last turn. That target must succeed at a Will save or be unable to take a 5-foot step, delay an action, or ready an action for 1 round.  ",
+			"**Benefit:** As a standard action, you can curse an enemy you've dealt damage to since your last turn. That target must succeed at a Will save or be unable to take a 5-foot step, {rule/delay} an action, or {rule/ready an action} for 1 round.  ",
 			"**Special:** A shaman or witch with this [blood hex](rule/feats_class) can use it against any creature she has dealt damage to in the past minute. A creature affected by this blood hex used by a shaman or witch also has its movement rate halved for the blood hex's duration."
 		]
 	},

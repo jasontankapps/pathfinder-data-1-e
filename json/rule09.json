@@ -732,7 +732,7 @@
 			"detailing_your_world",
 			"geography",
 			"cultural_considerations",
-			"technology_2",
+			"technology",
 			"time",
 			"the_cosmos",
 			"the_planes_gg",
@@ -774,7 +774,7 @@
 			"detailing_your_world",
 			"geography",
 			"cultural_considerations",
-			"technology_2",
+			"technology",
 			"time",
 			"the_cosmos",
 			"the_planes_gg",
@@ -888,7 +888,7 @@
 			"detailing_your_world",
 			"geography",
 			"cultural_considerations",
-			"technology_2",
+			"technology",
 			"time",
 			"the_cosmos",
 			"the_planes_gg",
@@ -1034,7 +1034,7 @@
 		"description": [
 			"{SOURCE GameMastery Guide/144}",
 			"",
-			"Now we come to the information that perhaps only a sage would need to know, but which forms the underpinning of your world's physics - and metaphysics. Such details include how the world was formed, how magic works, and where dead heroes go when they fall in battle; many are fleshed out further starting [here](rule/technology_2).",
+			"Now we come to the information that perhaps only a sage would need to know, but which forms the underpinning of your world's physics - and metaphysics. Such details include how the world was formed, how magic works, and where dead heroes go when they fall in battle; many are fleshed out further starting [here](rule/technology).",
 			"",
 			"Like the other considerations, these aren't necessarily outside the comprehension of the player characters. Most people have a basic understanding of them, albeit colored by their backgrounds. It's been said that sometimes the most exciting and rich worlds are those that don't answer all the questions, but you're the final arbiter on that score.",
 			"",
@@ -1064,7 +1064,7 @@
 			"",
 			"### What constitutes cutting-edge technology?",
 			"",
-			"Setting a world's tech level can be an excellent defining characteristic. Where does alchemy fit in? Does the printing press exist? What about rudimentary steam power? For more on this subject, see {rule/Technology>_2}.",
+			"Setting a world's tech level can be an excellent defining characteristic. Where does alchemy fit in? Does the printing press exist? What about rudimentary steam power? For more on this subject, see {rule/Technology}.",
 			"",
 			"### Where do monsters come from?",
 			"",
@@ -1120,7 +1120,7 @@
 			"detailing_your_world",
 			"geography",
 			"cultural_considerations",
-			"technology_2",
+			"technology",
 			"time",
 			"the_cosmos",
 			"the_planes_gg",
@@ -1397,7 +1397,7 @@
 			"detailing_your_world",
 			"geography",
 			"cultural_considerations",
-			"technology_2",
+			"technology",
 			"time",
 			"the_cosmos",
 			"the_planes_gg",
@@ -2297,7 +2297,7 @@
 			"other_societies"
 		]
 	},
-	"technology_2": {
+	"technology": {
 		"name": "Technology",
 		"subtitle": "World Building, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
@@ -2322,7 +2322,7 @@
 			"detailing_your_world",
 			"geography",
 			"cultural_considerations",
-			"technology_2",
+			"technology",
 			"time",
 			"the_cosmos",
 			"the_planes_gg",
@@ -2356,7 +2356,7 @@
 			"gamemastery",
 			"gamemastery_guide",
 			"creating_a_world",
-			"technology_2"
+			"technology"
 		],
 		"siblings": [
 			"contentious_technology",
@@ -2380,7 +2380,7 @@
 			"gamemastery",
 			"gamemastery_guide",
 			"creating_a_world",
-			"technology_2"
+			"technology"
 		],
 		"siblings": [
 			"contentious_technology",
@@ -2404,7 +2404,7 @@
 			"gamemastery",
 			"gamemastery_guide",
 			"creating_a_world",
-			"technology_2"
+			"technology"
 		],
 		"siblings": [
 			"contentious_technology",
@@ -2430,7 +2430,7 @@
 			"gamemastery",
 			"gamemastery_guide",
 			"creating_a_world",
-			"technology_2"
+			"technology"
 		],
 		"siblings": [
 			"contentious_technology",
@@ -2466,7 +2466,7 @@
 			"detailing_your_world",
 			"geography",
 			"cultural_considerations",
-			"technology_2",
+			"technology",
 			"time",
 			"the_cosmos",
 			"the_planes_gg",
@@ -2714,7 +2714,7 @@
 			"detailing_your_world",
 			"geography",
 			"cultural_considerations",
-			"technology_2",
+			"technology",
 			"time",
 			"the_cosmos",
 			"the_planes_gg",
@@ -2870,7 +2870,7 @@
 			"detailing_your_world",
 			"geography",
 			"cultural_considerations",
-			"technology_2",
+			"technology",
 			"time",
 			"the_cosmos",
 			"the_planes_gg",
@@ -3022,7 +3022,7 @@
 			"detailing_your_world",
 			"geography",
 			"cultural_considerations",
-			"technology_2",
+			"technology",
 			"time",
 			"the_cosmos",
 			"the_planes_gg",

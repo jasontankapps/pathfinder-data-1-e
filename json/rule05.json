@@ -2661,6 +2661,8 @@
 			"take_5_foot_step"
 		]
 	},
+	"readied_action": { "redirect": "ready" },
+	"ready_an_action": { "redirect": "ready" },
 	"conditions": {
 		"name": "Conditions",
 		"sources": [
@@ -3976,6 +3978,8 @@
 			"spell_resistance_2"
 		]
 	},
+	"negative_levels": { "redirect": "energy_drain_and_negative_levels" },
+	"energy_drain": { "redirect": "energy_drain_and_negative_levels" },
 	"energy_immunity_and_vulnerability": {
 		"name": "Energy Immunity, Vulnerability, and Resistance",
 		"tags": "energy resistance energy vulnerability",

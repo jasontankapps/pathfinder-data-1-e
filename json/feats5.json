@@ -337,7 +337,7 @@
 			"",
 			"You can combine your blasts with those of another kineticist.  ",
 			"**Prerequisites:** Kinetic blast class feature.  ",
-			"**Benefit:** Whenever you are within 15 feet of another character who has this feat, you can ready an action to activate a simple blast of your choice. When that character unleashes a simple blast, yours is triggered, creating a composite blast for which the two simple blasts meet the prerequisites. The composite blast's caster level is equal to the average of the caster levels of both participants and deals damage as the appropriate composite blast created by a kineticist of that level (for example, if a 10th-level pyrokineticist and a 6th-level hydrokineticist worked together to create a {kinetic/steam blast}, its base damage would be 4d6+4 points of fire damage and 4d6+4 points of bludgeoning damage).",
+			"**Benefit:** Whenever you are within 15 feet of another character who has this feat, you can {rule/ready an action} to activate a simple blast of your choice. When that character unleashes a simple blast, yours is triggered, creating a composite blast for which the two simple blasts meet the prerequisites. The composite blast's caster level is equal to the average of the caster levels of both participants and deals damage as the appropriate composite blast created by a kineticist of that level (for example, if a 10th-level pyrokineticist and a 6th-level hydrokineticist worked together to create a {kinetic/steam blast}, its base damage would be 4d6+4 points of fire damage and 4d6+4 points of bludgeoning damage).",
 			"",
 			"One participant can provide a form infusion appropriate for the composite blast, and the other can provide an appropriate substance infusion. Each participant accepts the burn cost for the infusion she provided. The participant who didn't take the special ready action can apply a metakinesis to the blast, and she is the only one who can gather power to reduce the blast's cost (since only she has a move action to take prior to the blast). However, whatever metakinesis she applies affects the entire composite blast.",
 			"",
@@ -989,7 +989,7 @@
 			"",
 			"You can avoid a charge, leaving your opponent vulnerable to attacks by you or your allies.  ",
 			"**Prerequisites:** Dex 13, {feat/Dodge}, {feat/Mobility}, {feat/Sidestep}.  ",
-			"**Benefit:** When an opponent {rule/charge/s} you, you gain a +4 dodge bonus to your AC. If the charger's attack roll misses you and his movement ends while he is adjacent to you, you can switch places with the opponent as an immediate action, and he is considered to be {rule/flank/ed>ing} by you until the end of your next turn. You can't use the benefits of Juke if you ready an action to set a weapon with the {misc/brace} special quality against a charging foe."
+			"**Benefit:** When an opponent {rule/charge/s} you, you gain a +4 dodge bonus to your AC. If the charger's attack roll misses you and his movement ends while he is adjacent to you, you can switch places with the opponent as an immediate action, and he is considered to be {rule/flank/ed>ing} by you until the end of your next turn. You can't use the benefits of Juke if you {rule/ready an action} to set a weapon with the {misc/brace} special quality against a charging foe."
 		]
 	},
 	"jumper": {

@@ -188,6 +188,7 @@ const migrations = {
 		const {order, db: oldDB, catalog: oldCat} = bookmarks;
 		// FIX:
 		//   druidcompanion/x => companion/x,
+		//   rule/technology_2 => rule/technology
 		//   rule/the_boneyard -> _oa
 		//        dimension_of_dreams -> _oa
 		//        akashic_record -> _oa
@@ -214,8 +215,9 @@ const migrations = {
 		const db: BookmarkDB = {};
 		const catalog: Catalog = {};
 
-		const replacerCompanion = /(^[/]?)druidcompanion[/]/;
-		const replacementCompanion = "$1companion/";
+		const replacerCompanion = /(^[/]?)druid(companion[/])/;
+		const replacerTechnology = /(^[/]?rule[/]technology)_2([/]?)$/;
+		const replacementBasic = "$1$2";
 		const replacerOA = /^([/]?rule[/](?:dimension_of_dreams|the_boneyard|akashic_record))([/]?)$/;
 		const replacementOA = "$1_oa$2";
 		const replacerGG = /^([/]?rule[/](?:(?:(?:materi|ethere|astr)al|shadow|(?:nega|posi)tive_energy)_plane|plane_of_(?:air|earth|fire|water)|hell|heaven|utopia|nirvana|purgatory|abaddon|elysium|limbo|the_abyss))([/]?)$/;
@@ -229,7 +231,8 @@ const migrations = {
 				contents: c.map(pair =>
 					[
 						pair[0]
-							.replace(replacerCompanion, replacementCompanion)
+							.replace(replacerCompanion, replacementBasic)
+							.replace(replacerTechnology, replacementBasic)
 							.replace(replacerOA, replacementOA)
 							.replace(replacerGG, replacementGG),
 						pair[1]
@@ -240,7 +243,10 @@ const migrations = {
 		});
 		Object.keys(oldCat).forEach(link => {
 			const newLink = link
-				.replace(replacerCompanion, replacementCompanion);
+				.replace(replacerCompanion, replacementBasic)
+				.replace(replacerTechnology, replacementBasic)
+				.replace(replacerOA, replacementOA)
+				.replace(replacerGG, replacementGG);
 			catalog[newLink] = oldCat[link] as string[];
 		});
 		return {

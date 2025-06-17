@@ -448,7 +448,7 @@
 			"**Prerequisites:** Dex 13, {feat/Improved Grapple}, {feat/Improved Unarmed Strike}.  ",
 			"**Benefit:** As a standard action, you can attempt a grapple combat maneuver with a -5 penalty against a creature that is currently grappling another creature via its {umr/grab} special ability. If you succeed, you pry open the creature's grasp, releasing any creatures it had grappled.",
 			"",
-			"Additionally, you can ready an action to trigger if a creature attempts a bite attack against you. When the readied action triggers, you can attempt a grapple combat maneuver with a +2 bonus. If you succeed, you grapple the creature and cause the bite attack to miss. As long as you maintain the grapple, the creature can't use its bite attack."
+			"Additionally, you can {rule/ready an action} to trigger if a creature attempts a bite attack against you. When the readied action triggers, you can attempt a grapple combat maneuver with a +2 bonus. If you succeed, you grapple the creature and cause the bite attack to miss. As long as you maintain the grapple, the creature can't use its bite attack."
 		]
 	},
 	"cleansing_burst": {
@@ -1273,7 +1273,7 @@
 			"",
 			"Your simultaneous ranged attacks punch through your foe's defenses with ease.  ",
 			"**Prerequisites:** {feat/Point-Blank Shot}, {race/elf}, weapon familiarity racial trait.  ",
-			"**Benefit:** If you and a single ally who also has this feat both ready an action to each make a ranged attack against the same opponent and choose the same condition for the readied action, when you and the ally make those attacks, each of you can use the highest of the two attack rolls for your attack roll. Furthermore, if you and your ally both hit the target, you can total the damage for both attacks before applying the target's damage reduction or energy resistance."
+			"**Benefit:** If you and a single ally who also has this feat both {rule/ready an action} to each make a ranged attack against the same opponent and choose the same condition for the readied action, when you and the ally make those attacks, each of you can use the highest of the two attack rolls for your attack roll. Furthermore, if you and your ally both hit the target, you can total the damage for both attacks before applying the target's damage reduction or energy resistance."
 		]
 	},
 	"concentrated_splash": {
@@ -1438,7 +1438,7 @@
 			"",
 			"Creatures that you swallow are quickly absorbed and soon utterly annihilated.  ",
 			"**Prerequisites:** Base attack bonus +6; evil alignment; {umr/swallow whole} universal monster ability; must be of the magical beast, outsider, or undead type.  ",
-			"**Benefit:** When you start your turn having swallowed at least one creature, each swallowed creature must succeed at a Fortitude save (DC = 10 + 1/2 your Hit Dice + your Charisma modifier) or gain a temporary {rule/energy_drain_and_<negative level>s}. Swallowed creatures that die from these negative levels are consumed as per {spell/disintegrate}. This is a death effect.  ",
+			"**Benefit:** When you start your turn having swallowed at least one creature, each swallowed creature must succeed at a Fortitude save (DC = 10 + 1/2 your Hit Dice + your Charisma modifier) or gain a temporary {rule/negative levels}. Swallowed creatures that die from these negative levels are consumed as per {spell/disintegrate}. This is a death effect.  ",
 			"**Special:** If you are of the undead type, each time a swallowed creature gains a temporary negative level from his ability, you add 5 {rule/temporary hit points} to the number of hit points that swallowed creatures must deal to escape, up to a maximum of 15 temporary hit points. These temporary hit points last for 10 minutes."
 		]
 	},
@@ -3054,7 +3054,7 @@
 			"",
 			"You can read your foe's body language to gauge your foe and gain an edge in combat.  ",
 			"**Prerequisites:** {feat/Alertness}, {feat/Improved Initiative}, {feat/Lightning Reflexes}, {feat/Quick Draw}, {feat/Ready for Anything}, base attack bonus +13 or rogue level 13th, Sense Motive 13 ranks.  ",
-			"**Benefit:** When you ready an action, you do not need to declare what action you will take, only the trigger for that action and an action type (either standard, move, swift, or free). If you choose the standard action type, you can take a move action instead when your readied action triggers. When the condition triggers, you can choose a specific action of the appropriate type to take."
+			"**Benefit:** When you {rule/ready an action}, you do not need to declare what action you will take, only the trigger for that action and an action type (either standard, move, swift, or free). If you choose the standard action type, you can take a move action instead when your readied action triggers. When the condition triggers, you can choose a specific action of the appropriate type to take."
 		]
 	},
 	"cunning_killer": {
@@ -3667,7 +3667,7 @@
 			"",
 			"Your death-infused punch drains life force from your foes.  ",
 			"**Prerequisites:** Wis 23, {feat/Deadhand Initiate}, {feat/Deadhand Style}, {feat/Improved Unarmed Strike}, Knowledge (religion) 14 ranks, ki pool class feature, nongood alignment.  ",
-			"**Benefit:** While using Deadhand Style, when you damage a living creature with an unarmed strike, you can spend 2 points from your ki pool as a swift action to inflict 2 temporary {rule/energy_drain_and_<negative levels} on your enemy with no saving throw. Effects that reduce the ki cost also reduce the number of negative levels you inflict on your foe, but effects that increase the ki cost do not increase the number of negative levels you inflict. As long as the foe is affected by the temporary negative levels, you can't recover the ki points you spent, effectively reducing the size of your ki pool. The Fortitude save DC to remove the negative levels and prevent them from becoming permanent is equal to 10 + 1/2 your Hit Dice + your Wisdom modifier. Once the negative levels become permanent or the foe removes them, you can recover your spent ki points. If the foe dies before either happens, you can recover the spent ki after 24 hours."
+			"**Benefit:** While using Deadhand Style, when you damage a living creature with an unarmed strike, you can spend 2 points from your ki pool as a swift action to inflict 2 temporary {rule/negative levels} on your enemy with no saving throw. Effects that reduce the ki cost also reduce the number of negative levels you inflict on your foe, but effects that increase the ki cost do not increase the number of negative levels you inflict. As long as the foe is affected by the temporary negative levels, you can't recover the ki points you spent, effectively reducing the size of your ki pool. The Fortitude save DC to remove the negative levels and prevent them from becoming permanent is equal to 10 + 1/2 your Hit Dice + your Wisdom modifier. Once the negative levels become permanent or the foe removes them, you can recover your spent ki points. If the foe dies before either happens, you can recover the spent ki after 24 hours."
 		]
 	},
 	"deadhand_style": {

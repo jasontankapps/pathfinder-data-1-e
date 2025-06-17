@@ -23,7 +23,7 @@
 			"{SOURCE Adventurer's Armory 2/11}",
 			"",
 			"You are skilled at using customized weaponry.  ",
-			"**Benefit:** Choose a weapon modification (such as jagged hooks). You treat weapons with that modification as being of their normal category (simple, martial, or exotic).  ",
+			"**Benefit:** Choose a {main/equipment_<weapon/ modification>enhancements} (such as {eq-weaponenh/jagged hooks}). You treat weapons with that modification as being of their normal category (simple, martial, or exotic).  ",
 			"**Normal:** A modified weapon is treated as one category more difficult to wield.  ",
 			"**Special:** You can gain this feat multiple times, choosing a different weapon modification each time."
 		]
@@ -147,23 +147,23 @@
 			"**Prerequisites:** Base attack bonus +7, weapon training class feature with a melee weapon.  ",
 			"**Benefit:** While wielding an appropriate melee weapon, you gain the following special abilities, based on which special material the weapon is primarily constructed of (if any).",
 			"",
-			"**Adamantine:** Your critical hits ignore the target's DR.",
+			"@HL[Adamantine:] Your critical hits ignore the target's DR.",
 			"",
-			"**Alchemical Silver, Mithral, or Silversheen:** When you successfully deal damage to a creature that is under the effects of an illusion or polymorph effect (such as disguise self or the change shape special ability), its wound fizzles and boils loudly, revealing the presence of such effects. If the effect is a racial ability, anyone that sees you attack the creature gains a +4 bonus on Knowledge checks to identify the creature. In addition, you immediately receive a Will save to disbelieve any illusion effect on the creature that allows disbelief.",
+			"@HL[Alchemical Silver, Mithral, or Silversheen:] When you successfully deal damage to a creature that is under the effects of an illusion or polymorph effect (such as {spell/disguise self} or the {umr/change shape} special ability), its wound fizzles and boils loudly, revealing the presence of such effects. If the effect is a racial ability, anyone that sees you attack the creature gains a +4 bonus on Knowledge checks to identify the creature. In addition, you immediately receive a Will save to disbelieve any illusion effect on the creature that allows disbelief.",
 			"",
-			"**Cold Iron:** When you score a critical hit against a target benefiting from spells that grant temporary hit points or bonuses to AC, ability scores, attack rolls, damage rolls, or saving throws, you must immediately attempt a special dispel check (1d20 + your base attack bonus) as a targeted dispel as per the {spell/dispel magic} spell, but targeting only those spells. Once a creature has been the target of this effect, you can't affect it in this way again for 24 hours.",
+			"@HL[Cold Iron:] When you score a critical hit against a target benefiting from spells that grant temporary hit points or bonuses to AC, ability scores, attack rolls, damage rolls, or saving throws, you must immediately attempt a special dispel check (1d20 + your base attack bonus) as a targeted dispel as per the {spell/dispel magic} spell, but targeting only those spells. Once a creature has been the target of this effect, you can't affect it in this way again for 24 hours.",
 			"",
-			"**Elysium Bronze:** When you damage a magical beast or monstrous humanoid, the creature must succeed at a Fortitude save (DC = 10 + 1/2 your base attack bonus + your Strength modifier) or lose access to a randomly selected supernatural or spell-like ability (if any). Once a creature has been the target of this effect, you can't affect it in this way again for 24 hours.",
+			"@HL[Elysium Bronze:] When you damage a magical beast or monstrous humanoid, the creature must succeed at a Fortitude save (DC = 10 + 1/2 your base attack bonus + your Strength modifier) or lose access to a randomly selected supernatural or spell-like ability (if any). Once a creature has been the target of this effect, you can't affect it in this way again for 24 hours.",
 			"",
-			"**Fire-Forged Steel or Frost-Forged Steel:** When your weapon is exposed to 10 points or more of energy damage (fire for fire-forged steel or cold for frost-forged steel), the weapon adds +1d6 points of energy damage to its attacks instead of +1d4 points of energy damage. Additionally, the duration of this effect increases by 1 round for every 5 points of the appropriate type of energy damage to which the weapon is exposed beyond 10.",
+			"@HL[Fire-Forged Steel or Frost-Forged Steel:] When your weapon is exposed to 10 points or more of energy damage (fire for fire-forged steel or cold for frost-forged steel), the weapon adds +1d6 points of energy damage to its attacks instead of +1d4 points of energy damage. Additionally, the duration of this effect increases by 1 round for every 5 points of the appropriate type of energy damage to which the weapon is exposed beyond 10.",
 			"",
-			"**Greenwood or Living Steel:** When you score a critical hit, the target must succeed at a Fortitude save (DC = 10 + 1/2 your base attack bonus + your Strength modifier) or lose its fast healing and regeneration (if any) for 1d3 rounds.",
+			"@HL[Greenwood or Living Steel:] When you score a critical hit, the target must succeed at a Fortitude save (DC = 10 + 1/2 your base attack bonus + your Strength modifier) or lose its {umr/fast healing} and {umr/regeneration} (if any) for 1d3 rounds.",
 			"",
-			"**Viridium:** You add your Strength modifier and the weapon's enhancement bonus (if any) to the Fortitude DC to determine if a foe struck by the weapon contracts leprosy.",
+			"@HL[Viridium:] You add your Strength modifier and the weapon's enhancement bonus (if any) to the Fortitude DC to determine if a foe struck by the weapon contracts {disease/leprosy}.",
 			"",
-			"**Whipwood:** The weapon gains the trip special weapon feature, and you gain a +2 bonus on trip combat maneuvers made with it.",
+			"@HL[Whipwood:] The weapon gains the {misc/trip} special weapon feature, and you gain a +2 bonus on {rule/trip} combat maneuvers made with it.",
 			"",
-			"**Wyroot:** Once per turn, you can absorb life points from the weapon as a free action instead of a swift action. You can never absorb life points from wyroot weapons or equipment more than once per turn."
+			"@HL[Wyroot:] Once per turn, you can absorb life points from the weapon as a free action instead of a swift action. You can never absorb life points from wyroot weapons or equipment more than once per turn."
 		]
 	},
 	"weapon_of_the_chosen": {
@@ -197,7 +197,7 @@
 			"",
 			"Your melee weapons meld into your animal form.  ",
 			"**Prerequisites:** Wild shape class feature.  ",
-			"**Benefit:** When you use your wild shape ability, any melee weapons you are wielding and proficient with meld into your new form. Select one of these weapons; while in your new form, your natural attacks deal the same damage type as that weapon. Your natural attacks also gain all of the weapon's properties (such as disarm), other than the double weapon property and the {misc/fragile} weapon property; moreover, when using this feat to grant the trip property to your natural attacks, you gain a +2 bonus on combat maneuver checks to trip an enemy, but you cannot drop your weapon to avoid being tripped due to a failed trip attempt. Weapon Shift does not apply a magic weapon's enhancement bonus to your natural attacks, nor does it grant your natural attacks any of a weapon's magical special abilities."
+			"**Benefit:** When you use your wild shape ability, any melee weapons you are wielding and proficient with meld into your new form. Select one of these weapons; while in your new form, your natural attacks deal the same damage type as that weapon. Your natural attacks also gain all of the weapon's properties (such as {misc/disarm}), other than the {misc/double} weapon property and the {misc/fragile} weapon property; moreover, when using this feat to grant the {misc/trip} property to your natural attacks, you gain a +2 bonus on combat maneuver checks to trip an enemy, but you cannot drop your weapon to avoid being tripped due to a failed trip attempt. Weapon Shift does not apply a magic weapon's enhancement bonus to your natural attacks, nor does it grant your natural attacks any of a weapon's magical special abilities."
 		]
 	},
 	"weapon_specialization": {
@@ -241,7 +241,7 @@
 			"{SOURCE Weapon Master's Handbook/23}",
 			"",
 			"You can combine multiple fighting styles together.  ",
-			"**Prerequisites:** Any two style feats from different styles, base attack bonus +6, weapon training class feature with a melee weapon.  ",
+			"**Prerequisites:** Any two {main/feats_<style/ feats} from different styles, base attack bonus +6, weapon training class feature with a melee weapon.  ",
 			"**Benefit:** Choose one weapon style (a style feat that lists {feat/Weapon Focus} as a prerequisite) that you have. You can have the chosen style and a second style active at once. Starting a stance provided by a style feat is still a swift action, but you can assume both the chosen weapon style's stance and another style's stance simultaneously using this action. This ability doesn't stack with other abilities that allow you to have multiple styles active at the same time.  ",
 			"**Normal:** You can have only one style active at once."
 		]
@@ -260,91 +260,191 @@
 			"Choose one weapon trick option (one-handed weapon, polearm, ranged, two-handed weapon, two-weapon, or weapon and shield). You can perform weapon tricks in combat when armed appropriately for that option.  ",
 			"**Prerequisites:** Base attack bonus +1.  ",
 			"**Benefit:** You can use any weapon tricks relating to the chosen weapon option if you meet the trick's prerequisites and are proficient with any weapon or shield that you use as part of the trick.  ",
-			"**Special:** You can gain Weapon Trick multiple times. Each time you take the feat, it applies to a new weapon trick option.",
+			"**Special:** You can gain Weapon Trick multiple times. Each time you take the feat, it applies to a new weapon trick option. (These are listed as separate feats for reading convenience.)",
+			"",
+			"- {feat/Weapon Trick (One-Handed Weapon)}",
+			"- {feat/Weapon Trick (Polearm)}",
+			"- {feat/Weapon Trick (Ranged Weapon)}",
+			"- {feat/Weapon Trick (Two-Handed Weapon)}",
+			"- {feat/Weapon Trick (Two-Weapon)}",
+			"- {feat/Weapon Trick (Weapon and Shield)}"
+		],
+		"disambiguation": true
+	},
+	"weapon_trick_one_handed_weapon": {
+		"name": "Weapon Trick (One-Handed Weapon)",
+		"sources": [
+			"Martial Arts Handbook",
+			"Weapon Master's Handbook"
+		],
+		"description": [
+			"## Weapon Trick (One-Handed Weapon) (Combat)",
+			"",
+			"{SOURCE Martial Arts Handbook/12;Weapon Master's Handbook/8-9}",
+			"",
+			"Choose one weapon trick option (one-handed weapon, polearm, ranged, two-handed weapon, two-weapon, or weapon and shield). You can perform weapon tricks in combat when armed appropriately for that option.  ",
+			"**Prerequisites:** Base attack bonus +1.  ",
+			"**Benefit:** You can use any weapon tricks relating to the chosen weapon option if you meet the trick's prerequisites and are proficient with any weapon or shield that you use as part of the trick.  ",
+			"**Special:** You can gain {feat/Weapon Trick} multiple times. Each time you take the feat, it applies to a new weapon trick option. (These are listed as separate feats for reading convenience.)",
 			"",
 			"::h3[One-Handed Weapon Tricks]{jl}",
 			"",
 			"These weapon tricks are common among the Aldori swordlords and many weapon masters of Tian Xia. You can use these tricks only while wearing light or no armor, wielding a light or one-handed manufactured weapon in one hand, and holding nothing in your off hand.",
 			"",
-			"*Free Hand Maneuver* (base attack bonus +6): As a full-round action, you can make a single attack with your weapon and attempt to perform a dirty trick, disarm, drag, reposition, or steal combat maneuver with your free hand, taking no penalties for two-weapon fighting. The combat maneuver provokes attacks of opportunities as normal, unless you have an appropriate ability or feat. You are not considered unarmed for this maneuver, but can't apply any benefits of your weapon to the combat maneuver check.",
+			"@HL[Free Hand Maneuver] (base attack bonus +6): As a full-round action, you can make a single attack with your weapon and attempt to perform a {rule/dirty trick}, {rule/disarm}, {rule/drag}, {rule/reposition}, or {rule/steal} combat maneuver with your free hand, taking no penalties for {rule/two-weapon fighting}. The combat maneuver provokes attacks of opportunities as normal, unless you have an appropriate ability or feat. You are not considered unarmed for this maneuver, but can't apply any benefits of your weapon to the combat maneuver check.",
 			"",
-			"*Mindful Dodge* ({feat/Dodge}): As an immediate action, you can gain a +4 dodge bonus to your AC against a single of which attack you are aware. You must make this decision before the attack roll is revealed. You are staggered on your next turn.",
+			"@HL[Mindful Dodge] ({feat/Dodge}): As an immediate action, you can gain a +4 dodge bonus to your AC against a single of which attack you are aware. You must make this decision before the attack roll is revealed. You are staggered on your next turn.",
 			"",
-			"*Strike and Seize* ({feat/Improved Disarm}, base attack bonus +6): As a standard action, you can make a single attack with your weapon and attempt to perform a disarm combat maneuver with your free hand, taking no penalties for two-weapon fighting.",
+			"@HL[Strike and Seize] ({feat/Improved Disarm}, base attack bonus +6): As a standard action, you can make a single attack with your weapon and attempt to perform a {rule/disarm} combat maneuver with your free hand, taking no penalties for two-weapon fighting.",
 			"",
-			"*Stylish Riposte* ({feat/Combat Reflexes}, base attack bonus +4): When your AC exceeds the result of a foe's melee attack against you by 5 or more, that foe provokes an attack of opportunity from you. Once you make such an attack of opportunity against a foe, you can't again use this trick against the foe that day.",
+			"@HL[Stylish Riposte] ({feat/Combat Reflexes}, base attack bonus +4): When your AC exceeds the result of a foe's melee attack against you by 5 or more, that foe provokes an attack of opportunity from you. Once you make such an attack of opportunity against a foe, you can't again use this trick against the foe that day.",
 			"",
-			"*Grab and Stab* ({feat/Improved Grapple}, base attack bonus +6): As a standard action, you can initiate a grapple with your free hand (taking the usual -4 penalty for not having two hands free). If the attempt is successful, you can immediately follow up with an attack using your light or one-handed weapon as a free action. If you do so, you can't use any other abilities that are triggered by a successful grapple combat maneuver check (such as constrict). The grapple attempt provokes attacks of opportunity as normal unless you have an ability or feat that prevents this.",
+			"@HL[Grab and Stab] ({feat/Improved Grapple}, base attack bonus +6): As a standard action, you can initiate a {rule/grapple} with your free hand (taking the usual -4 penalty for not having two hands free). If the attempt is successful, you can immediately follow up with an attack using your light or one-handed weapon as a free action. If you do so, you can't use any other abilities that are triggered by a successful grapple combat maneuver check (such as {umr/constrict}). The grapple attempt provokes attacks of opportunity as normal unless you have an ability or feat that prevents this.",
 			"",
-			"*Switch Hands* ({feat/Improved Feint}): As a free action, you can pass a light or one-handed weapon you are wielding to your free hand. If you attempt a feint during the same round, you gain a +2 bonus on your Bluff check. Once you have used this weapon trick against a target, you can't gain the bonus against the same creature until 24 hours have passed.",
+			"@HL[Switch Hands] ({feat/Improved Feint}): As a free action, you can pass a light or one-handed weapon you are wielding to your free hand. If you attempt a {rule/feint} during the same round, you gain a +2 bonus on your Bluff check. Once you have used this weapon trick against a target, you can't gain the bonus against the same creature until 24 hours have passed."
+		]
+	},
+	"weapon_trick_polearm": {
+		"name": "Weapon Trick (Polearm)",
+		"sources": [
+			"Martial Arts Handbook",
+			"Weapon Master's Handbook"
+		],
+		"description": [
+			"## Weapon Trick (Polearm) (Combat)",
 			"",
-			"::h3[Polearm Tricks]{jl}",
+			"{SOURCE Martial Arts Handbook/12;Weapon Master's Handbook/8-9}",
 			"",
-			"These weapon tricks are common in southern Garund and parts of Iobaria and Arcadia. You can use these tricks only while wielding a weapon from the polearm weapon group.",
+			"Choose one weapon trick option (one-handed weapon, polearm, ranged, two-handed weapon, two-weapon, or weapon and shield). You can perform weapon tricks in combat when armed appropriately for that option.  ",
+			"**Prerequisites:** Base attack bonus +1.  ",
+			"**Benefit:** You can use any weapon tricks relating to the chosen weapon option if you meet the trick's prerequisites and are proficient with any weapon or shield that you use as part of the trick.  ",
+			"**Special:** You can gain {feat/Weapon Trick} multiple times. Each time you take the feat, it applies to a new weapon trick option. (These are listed as separate feats for reading convenience.)",
 			"",
-			"*Choke Up* (Acrobatics 1 rank, Climb 1 rank): You can take a -2 penalty on attack rolls and damage rolls until the beginning of your next turn in order to choke up on and wield a two-handed polearm sized for you in one hand, as long as you do not make attacks with your other hand.",
+			"These weapon tricks are common in southern Garund and parts of Iobaria and Arcadia. You can use these tricks only while wielding a weapon from the polearm {ability/weapon group>s}.",
 			"",
-			"*Close Sweep* ({feat/Improved Bull Rush}, {feat/Improved Reposition}, or {feat/Improved Trip}): You can attempt a bull rush, reposition, or trip combat maneuver check (one for which you have the matching prerequisite feat) against an adjacent foe, even if wielding a weapon with the reach quality.",
+			"@HL[Choke Up] (Acrobatics 1 rank, Climb 1 rank): You can take a -2 penalty on attack rolls and damage rolls until the beginning of your next turn in order to choke up on and wield a two-handed polearm sized for you in one hand, as long as you do not make attacks with your other hand.",
 			"",
-			"*Haft Bash* ({feat/Weapon Focus}): You can accept a -2 penalty on attack rolls with a reach polearm for which you have Weapon Focus in order to treat the weapon as if it lacked the reach quality until the start of your next turn. If you do, the polearm functions as a club. Any qualities (such as trip) or special abilities (such as keen) of the weapon that a club could not have, and any feats or abilities you can't apply to a club, don't apply to attacks with the weapon during this time.",
+			"@HL[Close Sweep] ({feat/Improved Bull Rush}, {feat/Improved Reposition}, or {feat/Improved Trip}): You can attempt a {rule/bull rush}, {rule/reposition}, or {rule/trip} combat maneuver check (one for which you have the matching prerequisite feat) against an adjacent foe, even if wielding a weapon with the {misc/reach} quality.",
 			"",
-			"*Polearm Balance* (Acrobatics 10 ranks): You can use a polearm to improve your balance. Any round in which you do not make a melee attack, you can take 10 on an Acrobatics check even when distraction would normally prevent you from doing so.",
+			"@HL[Haft Bash] ({feat/Weapon Focus}): You can accept a -2 penalty on attack rolls with a reach polearm for which you have Weapon Focus in order to treat the weapon as if it lacked the reach quality until the start of your next turn. If you do, the polearm functions as a {eq-weapon/club}. Any qualities (such as {misc/trip}) or special abilities (such as {magic-enh/keen}) of the weapon that a club could not have, and any feats or abilities you can't apply to a club, don't apply to attacks with the weapon during this time.",
 			"",
-			"*Quick Brace* (base attack bonus +6): While taking a full-attack action with a polearm with brace, you can ready an attack with the polearm in place of your final attack. The readied attack uses the attack bonus of the attack you used to ready it.",
+			"@HL[Polearm Balance] (Acrobatics 10 ranks): You can use a polearm to improve your balance. Any round in which you do not make a melee attack, you can take 10 on an Acrobatics check even when distraction would normally prevent you from doing so.",
 			"",
-			"*Pole Vault* (Acrobatics 3 ranks): You gain a +4 bonus on Acrobatics checks to jump, and you count as having a running start if you move at least 5 feet before jumping.",
+			"@HL[Quick Brace] (base attack bonus +6): While taking a full-attack action with a polearm with {misc/brace}, you can {rule/ready} an attack with the polearm in place of your final attack. The readied attack uses the attack bonus of the attack you used to ready it.",
 			"",
-			"::h3[Ranged Weapon Tricks]{jl}",
+			"@HL[Pole Vault] (Acrobatics 3 ranks): You gain a +4 bonus on Acrobatics checks to jump, and you count as having a running start if you move at least 5 feet before jumping."
+		]
+	},
+	"weapon_trick_ranged_weapon": {
+		"name": "Weapon Trick (Ranged Weapon)",
+		"sources": [
+			"Martial Arts Handbook",
+			"Weapon Master's Handbook"
+		],
+		"description": [
+			"## Weapon Trick (Ranged Weapon) (Combat)",
+			"",
+			"{SOURCE Martial Arts Handbook/12;Weapon Master's Handbook/8-9}",
+			"",
+			"Choose one weapon trick option (one-handed weapon, polearm, ranged, two-handed weapon, two-weapon, or weapon and shield). You can perform weapon tricks in combat when armed appropriately for that option.  ",
+			"**Prerequisites:** Base attack bonus +1.  ",
+			"**Benefit:** You can use any weapon tricks relating to the chosen weapon option if you meet the trick's prerequisites and are proficient with any weapon or shield that you use as part of the trick.  ",
+			"**Special:** You can gain {feat/Weapon Trick} multiple times. Each time you take the feat, it applies to a new weapon trick option. (These are listed as separate feats for reading convenience.)",
 			"",
 			"These weapon tricks are common among the Chernasardo Rangers of Fangwood and the archers trained by House Narikopolus in Cheliax. You can use these tricks while wielding a ranged weapon",
 			"",
-			"*Hindering Shot* ({feat/Precise Shot}, {feat/Snap Shot}): You can distract a foe at a crucial moment, making it vulnerable to your allies' abilities. You can ready an action to make a ranged attack against a foe when an ally forces the foe to attempt a saving throw. If your attack hits the foe and deals damage, the foe takes a -4 penalty on the saving throw that triggered your readied action.",
+			"@HL[Hindering Shot] ({feat/Precise Shot}, {feat/Snap Shot}): You can distract a foe at a crucial moment, making it vulnerable to your allies' abilities. You can {rule/ready an action} to make a ranged attack against a foe when an ally forces the foe to attempt a saving throw. If your attack hits the foe and deals damage, the foe takes a -4 penalty on the saving throw that triggered your readied action.",
 			"",
-			"*Suppressing Shot* ({feat/Far Shot}, {feat/Precise Shot}): You can cover an ally's momentary vulnerability. You can ready an action to make a ranged attack against a foe when it makes an attack of opportunity. If your attack hits and damages the foe, the foe's attack of opportunity automatically misses its target.",
+			"@HL[Suppressing Shot] ({feat/Far Shot}, {feat/Precise Shot}): You can cover an ally's momentary vulnerability. You can ready an action to make a ranged attack against a foe when it makes an attack of opportunity. If your attack hits and damages the foe, the foe's attack of opportunity automatically misses its target."
+		]
+	},
+	"weapon_trick_two_handed_weapon": {
+		"name": "Weapon Trick (Two-Handed Weapon)",
+		"sources": [
+			"Martial Arts Handbook",
+			"Weapon Master's Handbook"
+		],
+		"description": [
+			"## Weapon Trick (Two-Handed Weapon) (Combat)",
 			"",
-			"::h3[Two-Handed Weapon Tricks]{jl}",
+			"{SOURCE Martial Arts Handbook/12;Weapon Master's Handbook/8-9}",
+			"",
+			"Choose one weapon trick option (one-handed weapon, polearm, ranged, two-handed weapon, two-weapon, or weapon and shield). You can perform weapon tricks in combat when armed appropriately for that option.  ",
+			"**Prerequisites:** Base attack bonus +1.  ",
+			"**Benefit:** You can use any weapon tricks relating to the chosen weapon option if you meet the trick's prerequisites and are proficient with any weapon or shield that you use as part of the trick.  ",
+			"**Special:** You can gain {feat/Weapon Trick} multiple times. Each time you take the feat, it applies to a new weapon trick option. (These are listed as separate feats for reading convenience.)",
 			"",
 			"These weapon tricks are known to dwarves of the Five Kings Mountains and Shoanti champions of the Cinderlands. You can use these tricks while wielding any two-handed weapon.",
 			"",
-			"*Cleaving Smash* ({feat/Cleave}, {feat/Improved Vital Strike}, {feat/Power Attack}): When you use Cleave, you can add the additional damage from {feat/Vital Strike} to both your initial and your secondary attacks. If you also have the {feat/Greater Vital Strike} feat, you can instead add the damage from Improved Vital Strike to both your initial and your secondary attacks.",
+			"@HL[Cleaving Smash] ({feat/Cleave}, {feat/Improved Vital Strike}, {feat/Power Attack}): When you use Cleave, you can add the additional damage from {feat/Vital Strike} to both your initial and your secondary attacks. If you also have the {feat/Greater Vital Strike} feat, you can instead add the damage from Improved Vital Strike to both your initial and your secondary attacks.",
 			"",
-			"*Crush Armor* ({feat/Improved Sunder}, {feat/Power Attack}): When you deal damage to a foe's armor with a successful sunder combat maneuver check while using a two-handed weapon, the foe must succeed at a Fortitude save (DC = 10 + 1/2 your base attack bonus + your Strength modifier) or be fatigued for 1 round. If the armor has the broken condition after you damage it, the foe must continue making this save every round until he removes the armor or the armor loses the broken condition. If the armor is destroyed by your sunder attempt, the foe is automatically fatigued for 1 round. The foe cannot become exhausted this way.",
+			"@HL[Crush Armor] ({feat/Improved Sunder}, {feat/Power Attack}): When you deal damage to a foe's armor with a successful {rule/sunder} combat maneuver check while using a two-handed weapon, the foe must succeed at a Fortitude save (DC = 10 + 1/2 your base attack bonus + your Strength modifier) or be {misc/fatigued} for 1 round. If the armor has the {misc/broken} condition after you damage it, the foe must continue making this save every round until he removes the armor or the armor loses the broken condition. If the armor is destroyed by your sunder attempt, the foe is automatically fatigued for 1 round. The foe cannot become {misc/exhausted} this way.",
 			"",
-			"*Two-Handed Menace* (Intimidate 5 ranks): Capitalizing on the fear inspired by massive weapons, you can take 10 on Intimidate checks even when distracted or in combat.",
+			"@HL[Two-Handed Menace] (Intimidate 5 ranks): Capitalizing on the fear inspired by massive weapons, you can take 10 on {skill/Intimidate} checks even when distracted or in combat.",
 			"",
-			"*Warding Weapon* ({feat/Combat Expertise}): While you are using the total defense action, fighting defensively, or using {feat/Combat Expertise}, you gain a +1 shield bonus to AC.",
+			"@HL[Warding Weapon] ({feat/Combat Expertise}): While you are using the {misc/total defense} action, {misc/fighting defensively}, or using {feat/Combat Expertise}, you gain a +1 shield bonus to AC.",
 			"",
-			"*One-Handed Lunge* (base attack bonus +6): As a standard action, you can release one of your hands holding a two-handed weapon and make a melee attack with the weapon, increasing your reach by 5 feet for the duration of the attack. If the attack hits, you deal damage as if using a one-handed weapon, adding only your Strength bonus to damage if you are using your primary hand or half your Strength bonus if you are using your off hand, instead of 1-1/2 times your Strength bonus. Otherwise, you take no penalty for using the weapon one-handed. The extra reach doesn't stack with the {feat/Lunge} feat or other effects that extend your melee reach beyond that granted by your size category.",
+			"@HL[One-Handed Lunge] (base attack bonus +6): As a standard action, you can release one of your hands holding a two-handed weapon and make a melee attack with the weapon, increasing your reach by 5 feet for the duration of the attack. If the attack hits, you deal damage as if using a one-handed weapon, adding only your Strength bonus to damage if you are using your primary hand or half your Strength bonus if you are using your off hand, instead of 1-1/2 times your Strength bonus. Otherwise, you take no penalty for using the weapon one-handed. The extra reach doesn't stack with the {feat/Lunge} feat or other effects that extend your melee reach beyond that granted by your size category."
+		]
+	},
+	"weapon_trick_two_weapon": {
+		"name": "Weapon Trick (Two-Weapon)",
+		"sources": [
+			"Martial Arts Handbook",
+			"Weapon Master's Handbook"
+		],
+		"description": [
+			"## Weapon Trick (Two-Weapon) (Combat)",
 			"",
-			"::h3[Two-Weapon Tricks]{jl}",
+			"{SOURCE Martial Arts Handbook/12;Weapon Master's Handbook/8-9}",
+			"",
+			"Choose one weapon trick option (one-handed weapon, polearm, ranged, two-handed weapon, two-weapon, or weapon and shield). You can perform weapon tricks in combat when armed appropriately for that option.  ",
+			"**Prerequisites:** Base attack bonus +1.  ",
+			"**Benefit:** You can use any weapon tricks relating to the chosen weapon option if you meet the trick's prerequisites and are proficient with any weapon or shield that you use as part of the trick.  ",
+			"**Special:** You can gain {feat/Weapon Trick} multiple times. Each time you take the feat, it applies to a new weapon trick option. (These are listed as separate feats for reading convenience.)",
 			"",
 			"These weapon tricks are common among the pirates of the Shackles, the Shoanti, and natives of Northern Casmaron and Garund. You can use these tricks only while wielding two weapons.",
 			"",
-			"*Arm Bind* ({feat/Two-Weapon Defense}, {feat/Two-Weapon Fighting}): You can attempt a combat maneuver check to disarm a foe even if the foe has no weapons. This functions as the disarm combat maneuver. If you succeed and the foe has no weapon, you ensnare an arm of your choice, preventing your foe from using that limb until the end of your next turn. A foe can take a standard action to free its arm.",
+			"@HL[Arm Bind] ({feat/Two-Weapon Defense}, {feat/Two-Weapon Fighting}): You can attempt a combat maneuver check to {rule/disarm} a foe even if the foe has no weapons. This functions as the disarm combat maneuver. If you succeed and the foe has no weapon, you ensnare an arm of your choice, preventing your foe from using that limb until the end of your next turn. A foe can take a standard action to free its arm.",
 			"",
-			"*Dual Strike* ({feat/Double Slice}, {feat/Improved Vital Strike}): As a standard action, you can make two attacks, one with each weapon you're wielding, applying the normal penalties for two-weapon fighting to each.",
+			"@HL[Dual Strike] ({feat/Double Slice}, {feat/Improved Vital Strike}): As a standard action, you can make two attacks, one with each weapon you're wielding, applying the normal penalties for {rule/two-weapon fighting} to each.",
 			"",
-			"*Off-Hand Opportunity* ({feat/Combat Reflexes}): You can make one additional attack of opportunity each round with your off-hand weapon.",
+			"@HL[Off-Hand Opportunity] ({feat/Combat Reflexes}): You can make one additional attack of opportunity each round with your off-hand weapon.",
 			"",
-			"*Piercing Climb* (Climb 8 ranks): You can use piercing weapons to climb as if your hands were free. You take a -4 penalty on Stealth checks while doing so. You can take 10 on such Climb checks even while distracted or endangered.",
+			"@HL[Piercing Climb] (Climb 8 ranks): You can use piercing weapons to climb as if your hands were free. You take a -4 penalty on Stealth checks while doing so. You can take 10 on such Climb checks even while distracted or endangered.",
 			"",
-			"*Weapon Juggle* ({feat/Two-Weapon Fighting}): You can draw a weapon even while wielding two weapons. Doing so takes the same type of action as drawing that weapon normally would. As part of the action to draw the weapon, you must sheathe one of the two weapons you were wielding.",
+			"@HL[Weapon Juggle] ({feat/Two-Weapon Fighting}): You can draw a weapon even while wielding two weapons. Doing so takes the same type of action as drawing that weapon normally would. As part of the action to draw the weapon, you must sheathe one of the two weapons you were wielding."
+		]
+	},
+	"weapon_trick_weapon_and_shield": {
+		"name": "Weapon Trick (Weapon and Shield)",
+		"sources": [
+			"Martial Arts Handbook",
+			"Weapon Master's Handbook"
+		],
+		"description": [
+			"## Weapon Trick (Weapon and Shield) (Combat)",
 			"",
-			"::h3[Weapon and Shield Tricks]{jl}",
+			"{SOURCE Martial Arts Handbook/12;Weapon Master's Handbook/8-9}",
+			"",
+			"Choose one weapon trick option (one-handed weapon, polearm, ranged, two-handed weapon, two-weapon, or weapon and shield). You can perform weapon tricks in combat when armed appropriately for that option.  ",
+			"**Prerequisites:** Base attack bonus +1.  ",
+			"**Benefit:** You can use any weapon tricks relating to the chosen weapon option if you meet the trick's prerequisites and are proficient with any weapon or shield that you use as part of the trick.  ",
+			"**Special:** You can gain {feat/Weapon Trick} multiple times. Each time you take the feat, it applies to a new weapon trick option. (These are listed as separate feats for reading convenience.)",
 			"",
 			"These weapon tricks are common in Taldor, where they are used by rondelero fighters, and Lastwall, where they are taught in the Crusader's War College. You can use these tricks only while wielding a shield and a weapon you can wield in one hand.",
 			"",
-			"*Confounding Shield* (Bluff 5 ranks): You can always take 10 on Bluff checks to feint in combat.",
+			"@HL[Confounding Shield] (Bluff 5 ranks): You can always take 10 on Bluff checks to {rule/feint} in combat.",
 			"",
-			"*Feint and Bash* ({feat/Improved Feint}, Bluff 10 ranks): When you feint successfully against a foe you threaten with your shield, that foe provokes an attack of opportunity from you. You can only perform a shield bash with this attack of opportunity.",
+			"@HL[Feint and Bash] ({feat/Improved Feint}, Bluff 10 ranks): When you feint successfully against a foe you threaten with your shield, that foe provokes an attack of opportunity from you. You can only perform a shield bash with this attack of opportunity.",
 			"",
-			"*Shielded View* (Knowledge [dungeoneering] 1 rank): When you avert your eyes to avoid a gaze attack, you have an 80% chance to avoid having to attempt a saving throw against the gaze.",
+			"@HL[Shielded View] (Knowledge [dungeoneering] 1 rank): When you avert your eyes to avoid a {umr/gaze} attack, you have an 80% chance to avoid having to attempt a saving throw against the gaze.",
 			"",
-			"*Warded Movement* ({feat/Dodge}): As a swift action, you can choose a foe you can see. You can pass through that foe's threatened area without provoking attacks of opportunity from that foe this round. Once you target a foe with this trick, you can't target it again that day.",
+			"@HL[Warded Movement] ({feat/Dodge}): As a swift action, you can choose a foe you can see. You can pass through that foe's threatened area without provoking attacks of opportunity from that foe this round. Once you target a foe with this trick, you can't target it again that day.",
 			"",
-			"*Block and Counter* ({feat/Two-Weapon Fighting}): You can ready a standard action to block an attack with your shield, making an attack roll as though you were making a shield bash and using the result as your AC against that attack. If you successfully block the attack, you can attack that opponent with the weapon in your other hand as an immediate action.",
+			"@HL[Block and Counter] ({feat/Two-Weapon Fighting}): You can {rule/ready} a standard action to block an attack with your shield, making an attack roll as though you were making a shield bash and using the result as your AC against that attack. If you successfully block the attack, you can attack that opponent with the weapon in your other hand as an immediate action.",
 			"",
-			"*Shield Charge* ({feat/Shield Focus}, {feat/Double Slice}, base attack bonus +11): When you make a charge attack, you can attack twice - once with your shield and once with the weapon you are wielding in your other hand, applying the normal penalties for fighting with two weapons to each."
+			"@HL[Shield Charge] ({feat/Shield Focus}, {feat/Double Slice}, base attack bonus +11): When you make a charge attack, you can attack twice - once with your shield and once with the weapon you are wielding in your other hand, applying the normal penalties for {rule/fighting with |two weapon/s>_fighting} to each."
 		]
 	},
 	"weapon_versatility": {
@@ -370,7 +470,7 @@
 			"",
 			"Your constant attention to the natural order and your place in it has given you a keen sense for the ebb and flow of the seasons.  ",
 			"**Prerequisites:** Survival 3 ranks, must worship nature.  ",
-			"**Benefit:** You gain a +4 bonus on Survival checks made to predict the weather. You gain a +1 bonus on saving throws to avoid the effects of extreme weather."
+			"**Benefit:** You gain a +4 bonus on Survival checks made to predict the weather. You gain a +1 bonus on saving throws to avoid the effects of extreme {rule/weather}."
 		]
 	},
 	"weathered_warrior": {
@@ -383,7 +483,7 @@
 			"",
 			"You have a steady hand in any weather.  ",
 			"**Prerequisites:** {feat/Endurance}.  ",
-			"**Benefit:** In areas of strong or severe wind or when affected by wind effects or spells that penalize ranged attacks, you take only half the ranged attack penalty. You can make ranged attacks in windstorm-level winds at a -4 penalty.  ",
+			"**Benefit:** In areas of strong or severe {rule/wind} or when affected by wind effects or spells that penalize ranged attacks, you take only half the ranged attack penalty. You can make ranged attacks in windstorm-level winds at a -4 penalty.  ",
 			"**Normal:** Strong and severe winds impose -2 and -4 penalties on ranged attack rolls, respectively. Making ranged attacks in windstorms is impossible."
 		]
 	},
@@ -397,7 +497,7 @@
 			"",
 			"Your appreciation of pain grants you great stamina.  ",
 			"**Prerequisites:** {feat/Iron Will}, worshiper of {faith/Zon-Kuthon}.  ",
-			"**Benefit:** Whenever you would be reduced to 0 or fewer hit points because of an ongoing or repeating damage effect (such as bleed), you may make a last-ditch effort to shed the condition. If you succeed at a DC 25 Will save, you ignore the damage that would reduce you to 0 or fewer hit points that turn. The DC of each subsequent save made in this manner increases by 1. In addition, spells or abilities that have the pain descriptor deal only half damage to you (if any)."
+			"**Benefit:** Whenever you would be reduced to 0 or fewer hit points because of an ongoing or repeating damage effect (such as {rule/bleed}), you may make a last-ditch effort to shed the condition. If you succeed at a DC 25 Will save, you ignore the damage that would reduce you to 0 or fewer hit points that turn. The DC of each subsequent save made in this manner increases by 1. In addition, spells or abilities that have the pain descriptor deal only half damage to you (if any)."
 		]
 	},
 	"well_prepared": {
@@ -410,8 +510,8 @@
 			"",
 			"Somehow, you always seem to have the right tools or supplies close at hand.  ",
 			"**Prerequisites:** {race/Halfling}.  ",
-			"**Benefit:** Once per day, when confronted with a situation that calls for a particular mundane item of equipment, you may make a Sleight of Hand check with a DC of 10 plus the item's cost in gold pieces to \"happen\" to have such an item on your person. For example, having a crowbar would be DC 12, whereas a flask of acid would be DC 20. The item must be something you can easily carry - if you are on foot and have only a backpack, for example, you could not have a large iron cauldron. You cannot have magical items using this feat, nor can you have specific items, such as the key to a particular door. If you are stripped of your equipment or possessions, you lose the benefits of this feat until you have at least a day to resupply and \"acquire\" new items. You must pay for these items normally.  ",
-			"**Special:** At the GM's option, a character can substitute the Survival skill for Sleight of Hand with this feat. Such a choice is permanent."
+			"**Benefit:** Once per day, when confronted with a situation that calls for a particular mundane item of equipment, you may make a {skill/Sleight of Hand} check with a DC of 10 plus the item's cost in gold pieces to \"happen\" to have such an item on your person. For example, having a {eq-misc/crowbar} would be DC 12, whereas a flask of {eq-weapon/acid} would be DC 20. The item must be something you can easily carry - if you are on foot and have only a {eq-misc/backpack}, for example, you could not have a large iron {eq-misc/cauldron}. You cannot have magical items using this feat, nor can you have specific items, such as the key to a particular door. If you are stripped of your equipment or possessions, you lose the benefits of this feat until you have at least a day to resupply and \"acquire\" new items. You must pay for these items normally.  ",
+			"**Special:** At the GM's option, a character can substitute the {skill/Survival} skill for Sleight of Hand with this feat. Such a choice is permanent."
 		]
 	},
 	"wheeling_charge": {
@@ -424,7 +524,7 @@
 			"",
 			"Your mount moves with ease across battlefields.  ",
 			"**Prerequisites:** {feat/Mounted Combat}, Ride 5 ranks, Lastwall affinity.  ",
-			"**Benefit:** When you are mounted and use the charge action, your mount can make one turn of up to 90 degrees as part of the move, as long as each part of the move is at least 10 feet. You may make an attack during any part of this move. Your total movement for the round can't exceed double your mounted speed. Allied creatures do not impede your charge, though you cannot attack from or end your move in an ally's space.  ",
+			"**Benefit:** When you are mounted and use the {rule/charge} action, your mount can make one turn of up to 90 degrees as part of the move, as long as each part of the move is at least 10 feet. You may make an attack during any part of this move. Your total movement for the round can't exceed double your mounted speed. Allied creatures do not impede your charge, though you cannot attack from or end your move in an ally's space.  ",
 			"**Normal:** You cannot turn when making a charge."
 		]
 	},
@@ -441,13 +541,13 @@
 			"",
 			"Your superior expertise with this weapon does not provoke attacks of opportunity from your enemies.  ",
 			"**Prerequisites:** {feat/Weapon Focus} (whip), base attack bonus +2.  ",
-			"**Benefit:** You no longer provoke attacks of opportunity when attacking with a whip. You can deal lethal damage with a whip, although you can still deal nonlethal damage when you want. Further, you can deal damage with a whip despite a creature's armor bonus or natural armor bonus.  ",
+			"**Benefit:** You no longer provoke attacks of opportunity when attacking with a {eq-weapon/whip}. You can deal lethal damage with a whip, although you can still deal nonlethal damage when you want. Further, you can deal damage with a whip despite a creature's armor bonus or natural armor bonus.  ",
 			"**Normal:** Attacking with a whip provokes attacks of opportunity as if you used a ranged weapon. A whip deals no damage to a creature that has an armor bonus of +1 or natural armor bonus of +3.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/135}",
 			">",
-			">When using a whip to deal nonlethal damage, as long as you have at least 1 stamina point in your stamina pool, the whip deals 1d8 points of nonlethal damage (1d6 for a Small whip). At the start of your turn, you can spend 2 stamina points to increase the damage die of the whip as if it were one size category larger for your next attack, regardless of whether you are dealing lethal or nonlethal damage. For nonlethal attacks, these two increases stack. This effect doesn't stack with other effects that treat the weapon as a larger size category unless they increase the actual size."
+			">When using a whip to deal nonlethal damage, as long as you have at least 1 stamina point in your stamina pool, the whip deals 1d8 points of nonlethal damage (1d6 for a Small whip). At the start of your turn, you can spend 2 stamina points to increase the damage die of the whip as if it were {misc/one size category larger} for your next attack, regardless of whether you are dealing lethal or nonlethal damage. For nonlethal attacks, these two increases stack. This effect doesn't stack with other effects that treat the weapon as a larger size category unless they increase the actual size."
 		]
 	},
 	"whipcrack": {
@@ -460,7 +560,7 @@
 			"",
 			"You move an opponent and use his momentum to send him reeling across the battlefield.  ",
 			"**Prerequisites:** Int 13, {feat/Combat Expertise}, {feat/Improved Reposition}.  ",
-			"**Benefit:** When you successfully reposition an opponent, its movement need not remain within your reach, though once the opponent leaves your reach, its remaining movement must be in a straight line. This movement doesn't provoke attacks of opportunity unless you have the {feat/Greater Reposition} feat.  ",
+			"**Benefit:** When you successfully {rule/reposition} an opponent, its movement need not remain within your reach, though once the opponent leaves your reach, its remaining movement must be in a straight line. This movement doesn't provoke attacks of opportunity unless you have the {feat/Greater Reposition} feat.  ",
 			"**Normal:** The target of a reposition combat maneuver must remain within your reach at all times during its movement, except for the final 5 feet of movement, which can be to a space adjacent to your reach."
 		]
 	},
@@ -473,8 +573,8 @@
 			"{SOURCE Magical Marketplace/22}",
 			"",
 			"You can fire your weapon and strike with it at the same time.  ",
-			"**Prerequisites:** Grit class feature or {feat/Amateur Gunslinger} feat, pistol-whip deed.  ",
-			"**Benefit:** Whenever you use your pistol-whip deed, you can fire a single bullet from your firearm at the same time that you strike a foe with the butt of your firearm. You must spend a total of 2 grit points to use the pistol-whip deed in this way, and must still succeed at a ranged touch attack against the target of your pistolwhip deed to hit. You cannot use the scatter weapon quality of a firearm when you use this feat."
+			"**Prerequisites:** Grit class feature or {feat/Amateur Gunslinger} feat, {deed/pistol-whip} deed.  ",
+			"**Benefit:** Whenever you use your *pistol-whip* deed, you can fire a single bullet from your firearm at the same time that you strike a foe with the butt of your firearm. You must spend a total of 2 grit points to use the *pistol-whip* deed in this way, and must still succeed at a ranged touch attack against the target of your pistolwhip deed to hit. You cannot use the {misc/scatter} weapon quality of a firearm when you use this feat."
 		]
 	},
 	"whip_slinger": {
@@ -486,8 +586,8 @@
 			"{SOURCE Halflings of Golarion/23}",
 			"",
 			"You can use your sling as a sap to make attacks of opportunity.  ",
-			"**Prerequisites:** Proficient with sling.  ",
-			"**Benefit:** When wielding a sling, double sling, or halfling sling staff, you threaten areas around you as normal and can make attacks of opportunity with the sling into these threatened areas. The sling deals 1d4 nonlethal bludgeoning damage (1d6 for a Medium wielder), threatens a critical hit on a 20, and deals &times;2 damage on a critical hit. If the sling isn't loaded with ammunition when you make an attack of opportunity, you take a -4 penalty on the attack roll.  ",
+			"**Prerequisites:** Proficient with {eq-weapon/sling}.  ",
+			"**Benefit:** When wielding a sling, {eq-weapon/double sling}, or {eq-weapon/halfling sling staff}, you threaten areas around you as normal and can make attacks of opportunity with the sling into these threatened areas. The sling deals 1d4 nonlethal bludgeoning damage (1d6 for a Medium wielder), threatens a critical hit on a 20, and deals &times;2 damage on a critical hit. If the sling isn't loaded with ammunition when you make an attack of opportunity, you take a -4 penalty on the attack roll.  ",
 			"**Normal:** Slings and double slings are ranged weapons, do not threaten areas, and cannot make attacks of opportunity. A halfling sling staff can be used as a simple melee weapon that deals bludgeoning damage equal to that of a club its size; as a melee weapon, it threatens areas normally and its wielder can make attacks of opportunity with it."
 		]
 	},
@@ -501,7 +601,7 @@
 			"",
 			"You lift your grappled foe from the ground and violently spin and disorient him.  ",
 			"**Prerequisites:** {feat/Improved Grapple}, {feat/Improved Unarmed Strike}.  ",
-			"**Benefit:** When you succeed at a combat maneuver check to maintain a grapple, instead of choosing to damage, move, pin, or tie up your opponent, you can lift and rapidly spin your opponent. At the end of the spin, you can place the opponent in any square adjacent to you. The opponent is sickened for a number of rounds equal to your Strength or Dexterity modifier, whichever is higher."
+			"**Benefit:** When you succeed at a combat maneuver check to maintain a {rule/grapple}, instead of choosing to damage, move, pin, or tie up your opponent, you can lift and rapidly spin your opponent. At the end of the spin, you can place the opponent in any square adjacent to you. The opponent is {misc/sickened} for a number of rounds equal to your Strength or Dexterity modifier, whichever is higher."
 		]
 	},
 	"whirlwind_attack": {
@@ -536,16 +636,16 @@
 			"{SOURCE Faction Guide/58}",
 			"",
 			"You possess secret knowledge that enhances and helps perfect your undead form.  ",
-			"**Prerequisites:** Corporeal undead, Whispering Way 15 TPA.  ",
+			"**Prerequisites:** Corporeal undead, [Whispering Way](rule/f_gravepath) 15 TPA.  ",
 			"**Benefit:** Choose one of the following secrets:",
 			"",
-			"Secret of Blood: After successfully dealing damage to a living creature with a melee attack, you can consume that creature's blood from your weapon as a swift action, gaining 1d8 temporary hit points, a +2 enhancement bonus to Strength, and a +1 bonus to your caster level. This lasts 10 minutes per Hit Die of your target, and otherwise acts as a {spell/death knell} spell.",
-			"",
-			"Secret of Bone: Your bones harden and calcify. You gain DR 5/bludgeoning.",
-			"",
-			"Secret of Brains: As secret of blood, but you gain a +2 enhancement bonus to your Intelligence instead of Strength. This ability has no effect on mindless targets.",
-			"",
-			"Secret of the Grave: You can designate an unholy container for your remains, such as a coffin, canopic jar, or burial urn. When in this container and not taking any actions, you gain fast healing 5.",
+			">@HL[Secret of Blood:] After successfully dealing damage to a living creature with a melee attack, you can consume that creature's blood from your weapon as a swift action, gaining 1d8 {rule/temporary hit points}, a +2 enhancement bonus to Strength, and a +1 bonus to your caster level. This lasts 10 minutes per Hit Die of your target, and otherwise acts as a {spell/death knell} spell.",
+			">",
+			">@HL[Secret of Bone:] Your bones harden and calcify. You gain DR 5/bludgeoning.",
+			">",
+			">@HL[Secret of Brains:] As *secret of blood,* but you gain a +2 enhancement bonus to your Intelligence instead of Strength. This ability has no effect on mindless targets.",
+			">",
+			">@HL[Secret of the Grave:] You can designate an unholy container for your remains, such as a coffin, canopic jar, or burial urn. When in this container and not taking any actions, you gain {umr/fast healing} 5.",
 			"",
 			"**Special:** You can gain this feat multiple times. Its effects do not stack. Each time you take the feat, you learn a new secret."
 		]
@@ -560,7 +660,7 @@
 			"",
 			"Your research has gained the attention of the [Whispering Way](rule/f_gravepath), which rewards you with access to its libraries.  ",
 			"**Prerequisites:** {feat/Associate} (Whispering Way).  ",
-			"**Benefit:** You can exploit lore acquired from the Whispering Way once per day to combine your own blood and a vial of unholy water to create a potion of cure light wounds or a potion of inflict light wounds as a full-round action. The blood loss from this transformation deals 1 point of Constitution damage to you. In addition, in any settlement that is the size of a small town or larger, you can always find scrolls of the following spells available for purchase regardless of their legality: {spell/animate dead}, {spell/control undead}, {spell/create undead}, {spell/detect undead}, {spell/disrupt undead}, {spell/false life}, {spell/greater false life}, {spell/ghoul touch}, {spell/lesser animate dead}, {spell/mass repair undead}, {spell/repair undead}, and {spell/undead anatomy I/-IV}."
+			"**Benefit:** You can exploit lore acquired from the Whispering Way once per day to combine your own blood and a vial of {eq-weapon/unholy water} to create a potion of {spell/cure light wounds} or a potion of {spell/inflict light wounds} as a full-round action. The blood loss from this transformation deals 1 point of Constitution damage to you. In addition, in any {rule/the_<settlement>_stat_block} that is the size of a small town or larger, you can always find scrolls of the following spells available for purchase regardless of their legality: {spell/animate dead}, {spell/control undead}, {spell/create undead}, {spell/detect undead}, {spell/disrupt undead}, {spell/false life}, {spell/greater false life}, {spell/ghoul touch}, {spell/lesser animate dead}, {spell/mass repair undead}, {spell/repair undead}, and {spell/undead anatomy I/-IV}."
 		]
 	},
 	"wicked_valor": {
@@ -585,7 +685,7 @@
 			"{SOURCE PRPG Core Rulebook/137}",
 			"",
 			"You can cast your spells so that they occupy a larger space.  ",
-			"**Benefit:** You can alter a burst, emanation, or spread-shaped spell to increase its area. Any numeric measurements of the spell's area increase by 100%. A widened spell uses up a spell slot three levels higher than the spell's actual level.",
+			"**Benefit:** You can alter a {misc/burst}, {misc/emanation}, or {misc/spread}-shaped spell to increase its area. Any numeric measurements of the spell's area increase by 100%. A widened spell uses up a spell slot three levels higher than the spell's actual level.",
 			"",
 			"Spells that do not have an area of one of these four sorts are not affected by this feat."
 		]
@@ -601,7 +701,7 @@
 			"",
 			"When flanking, you use your position to rain grievous blows upon a trapped foe, though you have little regard to the well-being of your flanking partner as you wildly hack away.  ",
 			"**Prerequisites:** {feat/Power Attack}, base attack bonus +4.  ",
-			"**Benefit:** When you are flanking an opponent with an ally who also possesses this feat, you can throw yourself into your attacks in such a way that your opponent takes extra damage, at the risk of these attacks striking your ally as well. When you choose to use this feat, check the results of your attack roll against both your opponent's AC and your ally's AC. If you hit your opponent, you deal bonus damage as though you were using Power Attack. If you hit your ally, the ally takes no damage from your attack except this bonus damage. It is possible to hit both your enemy and your abettor with one attack. Extra damage from this feat stacks with Power Attack."
+			"**Benefit:** When you are {rule/flanking} an opponent with an ally who also possesses this feat, you can throw yourself into your attacks in such a way that your opponent takes extra damage, at the risk of these attacks striking your ally as well. When you choose to use this feat, check the results of your attack roll against both your opponent's AC and your ally's AC. If you hit your opponent, you deal bonus damage as though you were using Power Attack. If you hit your ally, the ally takes no damage from your attack except this bonus damage. It is possible to hit both your enemy and your abettor with one attack. Extra damage from this feat stacks with Power Attack."
 		]
 	},
 	"wild_growth_channel": {
@@ -613,7 +713,7 @@
 			"{SOURCE Ultimate Wilderness/119}",
 			"",
 			"When you channel positive energy, you cause vines to grow and ensnare enemies.  ",
-			"**Prerequisites:** {ability/Channel positive energy} class feature, Plant domain.  ",
+			"**Prerequisites:** {ability/Channel positive energy} class feature, {domain/Plant} domain.  ",
 			"**Benefit:** By expending two additional uses when you channel energy, you cause the ground in the area of effect to erupt in a growth of vines. You create a number of vine growths (AC 10, 5 hp) equal to your Charisma modifier (minimum 1). Each growth of vines occupies 1 5-foot square of your choosing. As an immediate action when you use this ability, and again as a free action at the start of your turn, you can command the vines to wrap around the legs of a creature occupying the square. The creature must succeed at a Reflex save (DC = 10 + half your class level + your Charisma modifier) or become rooted to the spot. The vines last a number of rounds equal to your Charisma modifier (minimum 1). The ground must be composed of a material able to support plant life (such as soil)."
 		]
 	},
@@ -626,7 +726,7 @@
 			"{SOURCE Ultimate Wilderness/119}",
 			"",
 			"Hexing your enemies causes them to be ensnared in tangling vines.  ",
-			"**Prerequisites:** Hex class feature; summer, thorns, or woodlands patron.  ",
+			"**Prerequisites:** Hex class feature; {patron/summer}, {patron/thorns}, or {patron/woodlands} patron.  ",
 			"**Benefit:** When you gain this feat, choose one hex that you can use to affect no more than one opponent. If the target of your hex fails its saving throw to resist your hex, the square it occupies becomes overgrown with thorny plants that count as difficult terrain. A creature moving in or out of the square must succeed at a Reflex save or Acrobatics check (DC = 10 + half your level + your Charisma modifier) or take 1d6 points of piercing damage and immediately end its movement. For every 5 by which the target fails its save against your hex, you can create 1 additional square of difficult terrain adjacent to any square the target occupies. The difficult terrain lasts a number of rounds equal to your Charisma modifier (minimum 1). The ground must be composed of a material able to support plant life (such as soil)."
 		]
 	},
@@ -640,7 +740,7 @@
 			"",
 			"The Bleaching enhances a gnome's ability to communicate with the natural world.  ",
 			"**Prerequisites:** Bleachling racial trait, {race/gnome}.  ",
-			"**Benefit:** You can use your speak with animals spell-like ability at will."
+			"**Benefit:** You can use your {spell/speak with animals} spell-like ability at will."
 		]
 	},
 	"wild_speech": {
@@ -653,9 +753,9 @@
 			"",
 			"You speak with the tongue of men and beasts.  ",
 			"**Prerequisites:** Druid level 6th, wild shape class feature.  ",
-			"**Benefit:** When using wild shape to take the form in which you cannot speak (such as an animal), you are able to speak normally in any language you know. This allows you to cast spells with verbal components, speak command words, and activate spell completion and spell trigger items. However, it does not give you the ability to cast spells requiring somatic components unless you also have the Natural Spell feat, or cast spells with material components merged into your form.",
+			"**Benefit:** When using wild shape to take the form in which you cannot speak (such as an animal), you are able to speak normally in any language you know. This allows you to cast spells with verbal components, speak command words, and activate spell completion and spell trigger items. However, it does not give you the ability to cast spells requiring somatic components unless you also have the {feat/Natural Spell} feat, or cast spells with material components merged into your form.",
 			"",
-			"When using wild shape to take the form of an animal, you may use speak with animals to communicate with animals of your assumed form. This is a spell-like ability with a caster level equal to your druid level, and you may use it for a number of minutes per day equal to your druid level. These minutes do not have to be consecutive, but must be used in one-minute increments."
+			"When using wild shape to take the form of an animal, you may use {spell/speak with animals} to communicate with animals of your assumed form. This is a spell-like ability with a caster level equal to your druid level, and you may use it for a number of minutes per day equal to your druid level. These minutes do not have to be consecutive, but must be used in one-minute increments."
 		]
 	},
 	"wild_vigor": {
@@ -668,7 +768,7 @@
 			"",
 			"The forces of nature bolster your vitality when you use wild shape.  ",
 			"**Prerequisites:** Wild shape class feature.  ",
-			"**Benefit:** A number of times per day equal to your Wisdom bonus (minimum 1), when you use wild shape, you can gain a number of temporary hit points equal to your base attack bonus. These temporary hit points last for the duration of the wild shape or until they are lost."
+			"**Benefit:** A number of times per day equal to your Wisdom bonus (minimum 1), when you use wild shape, you can gain a number of {rule/temporary hit points} equal to your base attack bonus. These temporary hit points last for the duration of the wild shape or until they are lost."
 		]
 	},
 	"wilding": {
@@ -682,7 +782,7 @@
 			"You were touched by nature at an early age and share a kinship with wild creatures. Your body might bear animalistic features, such as bestial ears or a tail, or your presence may be subtly unlike that of others.  ",
 			"**Prerequisites:** Any neutral alignment, must be taken at 1st level.  ",
 			"**Benefit:** You gain the druid's {ability/wild empathy} ability, using your character level as your druid level. If you have one or more levels in a class that grants wild empathy, you gain an additional +3 bonus on wild empathy checks. You are treated as an animal for the purpose of harmful mind-affecting effects that target animals (such as {spell/charm animal}).  ",
-			"**Special:** A character who has this feat can select the Animal Soul or Aspect of the Beast feats without meeting the prerequisites."
+			"**Special:** A character who has this feat can select the {feat/Animal Soul} or {feat/Aspect of the Beast} feats without meeting the prerequisites."
 		]
 	},
 	"wilding_mind": {
@@ -708,7 +808,7 @@
 			"",
 			"The wilderness speaks to you, giving you a preternatural sense of approaching danger.  ",
 			"**Prerequisites:** Wis 13, {feat/Wilding}.  ",
-			"**Benefit:** You gain a +2 bonus on Perception checks; this bonus increases to +4 when determining if you can act during a surprise round. If you have 10 or more ranks in Perception, this bonus increases to +4 (or +8 when determining whether you can act during a surprise round). This bonus does not stack with that granted by the Alertness feat, though Wilding Senses counts as the Alertness feat for the purpose of fulfilling feat prerequisites and prestige class requirements."
+			"**Benefit:** You gain a +2 bonus on {skill/Perception} checks; this bonus increases to +4 when determining if you can act during a surprise round. If you have 10 or more ranks in Perception, this bonus increases to +4 (or +8 when determining whether you can act during a surprise round). This bonus does not stack with that granted by the {feat/Alertness} feat, though Wilding Senses counts as the Alertness feat for the purpose of fulfilling feat prerequisites and prestige class requirements."
 		]
 	},
 	"wilding_stride": {
@@ -720,7 +820,7 @@
 			"{SOURCE Ultimate Wilderness/120}",
 			"",
 			"Your wild-hearted drive and honed physique allow you to move with great swiftness.  ",
-			"**Prerequisites:** Con 13, {feat/Wilding.}  ",
+			"**Prerequisites:** Con 13, {feat/Wilding}.  ",
 			"**Benefit:** Your base speed increases by 10 feet. This does not stack with the fast movement class feature or similar effects, unless that class feature or effect provides an enhancement bonus."
 		]
 	},
@@ -734,7 +834,7 @@
 			"",
 			"Filled with the might of nature, you need no weapons of steel or wood. Your fists and feet are as potent as any creation of the forge.  ",
 			"**Prerequisites:** Str 13, {feat/Improved Unarmed Strike}, {feat/Wilding}.  ",
-			"**Benefit:** The damage die of your unarmed strikes increases to 1d6 (or 1d4 if you are Small). This does not stack with any other effects that increase the damage die of your unarmed strikes, including levels in classes such as monk. Increases to your actual size category (such as enlarge person) still increase your damage die as normal."
+			"**Benefit:** The damage die of your unarmed strikes increases to 1d6 (or 1d4 if you are Small). This does not stack with any other effects that increase the damage die of your unarmed strikes, including levels in classes such as monk. Increases to your actual size category (such as {spell/enlarge person}) still increase your damage die as normal."
 		]
 	},
 	"will_of_giants": {
@@ -747,7 +847,7 @@
 			"",
 			"You are no mere humanoid, to be toyed with by petty enchantments.  ",
 			"**Prerequisites:** Wis 14, {feat/Iron Will}, giant subtype.  ",
-			"**Benefit:** You gain immunity to enchantment effects that target only humanoids, such as charm person and hold person."
+			"**Benefit:** You gain immunity to enchantment effects that target only humanoids, such as {spell/charm person} and {spell/hold person}."
 		]
 	},
 	"willing_accomplice": {
@@ -773,7 +873,7 @@
 			"",
 			"You might have been a soldier in an army, a self-sacrificing lover, or a hero who rushed in where even angels feared to tread. You died because you valued someone else's life above your own.  ",
 			"**Prerequisites:** {race/Duskwalker}.  ",
-			"**Benefit:** Twice per day, when an ally within 30 feet would die as a result of an attack or failing a saving throw, as an immediate action you can redirect the damage and effects to yourself. This functions as paladin's sacrifice. At 11th level, you can use this feat two additional times per day."
+			"**Benefit:** Twice per day, when an ally within 30 feet would die as a result of an attack or failing a saving throw, as an immediate action you can redirect the damage and effects to yourself. This functions as {spell/paladin's sacrifice}. At 11th level, you can use this feat two additional times per day."
 		]
 	},
 	"wily_warrior": {
@@ -785,7 +885,7 @@
 			"{SOURCE Spymaster's Handbook/17}",
 			"",
 			"Those who observe your imposing demeanor assume muscle is your sole advantage, but you prove them wrong every time.  ",
-			"**Prerequisites:** Bluff 1 rank, Sense Motive 1 rank, base attack bonus +1, or you must have the Military Strategist background.  ",
+			"**Prerequisites:** Bluff 1 rank, Sense Motive 1 rank, base attack bonus +1, or you must have the Military Strategist [espionage background](rule/spymaster_bg).  ",
 			"**Benefit:** Once per day, you can use your ranks in Sense Motive in place of your total Will saving throw modifier when attempting a Will save. You must decide to use this ability prior to attempting the saving throw.  ",
 			"**Goal:** Thwart an appropriate number of challenging foes after getting a negative hunch about them when they attempted to deceive you or after ambushing them.  ",
 			"**Completion Benefit:** The DC of Bluff and Intimidate checks attempted against you increase by 5."
@@ -801,7 +901,7 @@
 			"",
 			"Energies from the Plane of Air ease your movements and let you make mighty leaps.  ",
 			"**Prerequisites:** Knowledge (planes) 3 ranks.  ",
-			"**Benefit:** As a swift action, you can wrap your body in airy energies. This reduces your effective weight by half. While this ability is active, you gain a circumstance bonus on Acrobatics checks equal to half your ranks in Knowledge (planes), you are always treated as having a running start when attempting Acrobatics checks to jump, and your Acrobatics checks to high jump are treated as long jumps for the purpose of determining the DC.",
+			"**Benefit:** As a swift action, you can wrap your body in airy energies. This reduces your effective weight by half. While this ability is active, you gain a circumstance bonus on {skill/Acrobatics} checks equal to half your ranks in Knowledge (planes), you are always treated as having a running start when attempting Acrobatics checks to jump, and your Acrobatics checks to high jump are treated as long jumps for the purpose of determining the DC.",
 			"",
 			"You can use this feat's benefit for a number of rounds per day equal to your ranks in Knowledge (planes). These rounds need not be consecutive."
 		]
@@ -816,7 +916,7 @@
 			"",
 			"You have trained yourself to move and fight in strong winds, allowing you to use their elemental power to boost your own speed.  ",
 			"**Prerequisites:** Acrobatics or Fly 3 ranks.  ",
-			"**Benefit:** When flying within strong winds, you gain a +15 foot bonus to your fly speed. For every wind strength category above strong, you gain an additional +15 foot bonus to your fly speed (for a total of +30 feet in severe winds, +45 feet in a windstorm, and +60 feet in tornadoes). This feat does not give you any bonuses on Fly or Strength checks to determine if you are potentially checked or blown away."
+			"**Benefit:** When flying within strong winds, you gain a +15 foot bonus to your fly speed. For every {rule/wind} strength category above strong, you gain an additional +15 foot bonus to your fly speed (for a total of +30 feet in severe winds, +45 feet in a windstorm, and +60 feet in tornadoes). This feat does not give you any bonuses on Fly or Strength checks to determine if you are potentially checked or blown away."
 		]
 	},
 	"wind_song": {
@@ -863,7 +963,7 @@
 			"",
 			"Your attacks can prevent winged opponents from flying.  ",
 			"**Prerequisites:** Base attack bonus +9.  ",
-			"**Benefit:** Whenever you confirm a critical hit against an opponent that uses wings to fly, you can forgo the extra critical damage to instead prevent it from flying for a number of rounds equal to twice the critical multiplier of your attack. Opponents that are flying at the time of the critical effect must succeed at a DC 20 Fly check to avoid taking falling damage."
+			"**Benefit:** Whenever you confirm a critical hit against an opponent that uses wings to fly, you can forgo the extra critical damage to instead prevent it from flying for a number of rounds equal to twice the critical multiplier of your attack. Opponents that are flying at the time of the critical effect must succeed at a DC 20 Fly check to avoid taking {rule/falling} damage."
 		]
 	},
 	"wingover": {
@@ -876,7 +976,7 @@
 			"",
 			"This creature can make turns with ease while flying.  ",
 			"**Prerequisites:** Fly speed.  ",
-			"**Benefit:** Once each round, a creature with this feat can turn up to 180 degrees as a free action without making a Fly skill check. This free turn does not consume any additional movement from the creature.  ",
+			"**Benefit:** Once each round, a creature with this feat can turn up to 180 degrees as a free action without making a {skill/Fly} skill check. This free turn does not consume any additional movement from the creature.  ",
 			"**Normal:** A flying creature can turn up to 90 degrees by making a DC 15 Fly skill check and expending 5 feet of movement. A flying creature can turn up to 180 degrees by making a DC 20 Fly skill check and expending 10 feet of movement."
 		]
 	},
@@ -903,7 +1003,7 @@
 			"",
 			"You can reshape the kinetic energy of foes' charges.  ",
 			"**Prerequisites:** Int 13, {feat/Combat Expertise}, {feat/Improved Reposition}, base attack bonus +1 or monk level 1st.  ",
-			"**Benefit:** You gain a +2 bonus to AC against charge attacks. If a creature charges you and fails its attack roll, as an immediate action you can attempt a reposition combat maneuver to reposition that foe. If you use a readied action to attack a creature charging you, you can roll to attack and then attempt to reposition that creature as a free action before it resolves its charge attack.  ",
+			"**Benefit:** You gain a +2 bonus to AC against {rule/charge} attacks. If a creature charges you and fails its attack roll, as an immediate action you can attempt a {rule/reposition} combat maneuver to reposition that foe. If you use a {rule/readied action} to attack a creature charging you, you can roll to attack and then attempt to reposition that creature as a free action before it resolves its charge attack.  ",
 			"**Note:** A monk can take this feat as a bonus feat at 1st level. To benefit from this feat, monks must have both hands free and be capable of delivering an unarmed strike."
 		]
 	},
@@ -940,16 +1040,16 @@
 			"{SOURCE Ultimate Magic/159}",
 			"",
 			"You empower your witch spells by incorporating the use of a special ceremonial knife during your castings.  ",
-			"**Prerequisites:** Witch class.  ",
-			"**Benefit:** Each day, when you prepare your spells, you can select a masterwork or magical dagger, transforming it into a witch knife, which serves as an additional focus component for witch patron spells. Add +1 to the DC of all your patron spells.",
+			"**Prerequisites:** {class/Witch} class.  ",
+			"**Benefit:** Each day, when you prepare your spells, you can select a masterwork or magical {eq-weapon/dagger}, transforming it into a *witch knife,* which serves as an additional focus component for witch patron spells. Add +1 to the DC of all your patron spells.",
 			"",
 			"### Mythic Witch Knife",
 			"",
 			"{SOURCE Mythic Adventures/77}",
 			"",
-			"Your witch knife is as much an extension of your body as it is an extension of your power.  ",
+			"Your *witch knife* is as much an extension of your body as it is an extension of your power.  ",
 			"**Prerequisites:** Witch Knife.  ",
-			"**Benefit:** You can use your witch knife as an additional focus component for all your witch spells, not just your patron spells, adding 1 to their DC. This bonus stacks with the bonus to patron spells granted by Witch Knife, granting your patron spells a total +2 bonus to their DC. Additionally, the hand holding the witch knife is still considered free for the purpose of casting spells and delivering touch attacks."
+			"**Benefit:** You can use your *witch knife* as an additional focus component for all your witch spells, not just your patron spells, adding 1 to their DC. This bonus stacks with the bonus to patron spells granted by Witch Knife, granting your patron spells a total +2 bonus to their DC. Additionally, the hand holding the *witch knife* is still considered free for the purpose of casting spells and delivering touch attacks."
 		]
 	},
 	"witchbreaker": {
@@ -965,7 +1065,7 @@
 			"",
 			"You are trained to be resilient to and disrupt the magic of hags and witches.  ",
 			"**Prerequisites:** {feat/Iron Will}.  ",
-			"**Benefit:** You gain a +2 bonus on saving throws against the hexes, spells, spell-like abilities, and supernatural abilities of hags and witches. In addition, whenever you confirm a critical hit against a hag or a witch, any of your allies affected by a mind-affecting effect from that creature can attempt a new saving throw against the effect as an immediate action."
+			"**Benefit:** You gain a +2 bonus on saving throws against the hexes, spells, spell-like abilities, and supernatural abilities of {family/hag/s} and {class/witch/es}. In addition, whenever you confirm a critical hit against a hag or a witch, any of your allies affected by a mind-affecting effect from that creature can attempt a new saving throw against the effect as an immediate action."
 		]
 	},
 	"witty_feint": {
@@ -978,7 +1078,7 @@
 			"",
 			"Your blending of conversation and martial prowess makes it difficult for opponents to slip past your guard.  ",
 			"**Prerequisites:** Bluff 1 rank, weapon training class feature, {race/gnome}.  ",
-			"**Benefit:** When you successfully feint against an opponent in combat, instead of denying the opponent his Dexterity bonus, you may gain a dodge bonus to your AC against his attacks. This bonus is equal to your weapon training bonus for your current weapon. The bonus lasts until combat ends, you switch opponents, or you switch to a different weapon, whichever comes first."
+			"**Benefit:** When you successfully {rule/feint} against an opponent in combat, instead of denying the opponent his Dexterity bonus, you may gain a dodge bonus to your AC against his attacks. This bonus is equal to your weapon training bonus for your current weapon. The bonus lasts until combat ends, you switch opponents, or you switch to a different weapon, whichever comes first."
 		]
 	},
 	"wolf_rider": {
@@ -991,7 +1091,7 @@
 			"",
 			"Others can keep their horses. You know that wolves are better mounts.  ",
 			"**Prerequisites:** {feat/Undersized Mount} or effective level 7th in the class that grants the mount or divine bond (mount) class feature; Knowledge (nature) 1 rank; mount or divine bond (mount) class feature.  ",
-			"**Benefit:** You can select a wolf in place of the normal mount available via your mount or divine bond (mount) class feature. In addition, Knowledge (nature) is always a class skill for you."
+			"**Benefit:** You can select a {companion/wolf} in place of the normal mount available via your mount or divine bond (mount) class feature. In addition, Knowledge (nature) is always a class skill for you."
 		]
 	},
 	"wolf_savage": {
@@ -1007,7 +1107,7 @@
 			"",
 			"You savage your foes so badly that they can become supernaturally disfigured.  ",
 			"**Prerequisites:** Wis 17, {feat/Improved Unarmed Strike}, {feat/Wolf Style}, {feat/Wolf Trip}, Knowledge (nature) 9 ranks.  ",
-			"**Benefit:** While using Wolf Style, when you deal at least 10 points of damage to a prone opponent with a natural weapon or an unarmed strike, as a swift action you can savage that creature. When you do, your opponent must succeed at a Fortitude save (DC = 10 + half your character level + your Wisdom modifier). If the target fails the saving throw, it takes either 1d4 Charisma damage or 1d4 Constitution damage, or it becomes fatigued (your choice). Ability score damage dealt with this ability cannot equal or exceed the victim's actual ability score total."
+			"**Benefit:** While using Wolf Style, when you deal at least 10 points of damage to a {rule/prone} opponent with a natural weapon or an unarmed strike, as a swift action you can savage that creature. When you do, your opponent must succeed at a Fortitude save (DC = 10 + half your character level + your Wisdom modifier). If the target fails the saving throw, it takes either 1d4 Charisma damage or 1d4 Constitution damage, or it becomes {misc/fatigued} (your choice). Ability score damage dealt with this ability cannot equal or exceed the victim's actual ability score total."
 		]
 	},
 	"wolf_style": {
@@ -1023,7 +1123,7 @@
 			"",
 			"While in this style, you hamper foes that turn their backs on you.  ",
 			"**Prerequisites:** Wis 13, {feat/Improved Unarmed Strike}, Knowledge (nature) 3 ranks.  ",
-			"**Benefit:** While using this style, whenever you deal at least 10 points of damage to a foe with an attack of opportunity, that foe's base speed decreases by 5 feet until the end of its next turn. For every 10 points of damage your attack deals beyond 10, the foe's base speed decreases by an additional 5 feet. If the penalty meets or exceeds the total base speed of the foe, you can attempt to trip the foe as a free action after the attack of opportunity is resolved."
+			"**Benefit:** While using this style, whenever you deal at least 10 points of damage to a foe with an attack of opportunity, that foe's base speed decreases by 5 feet until the end of its next turn. For every 10 points of damage your attack deals beyond 10, the foe's base speed decreases by an additional 5 feet. If the penalty meets or exceeds the total base speed of the foe, you can attempt to {rule/trip} the foe as a free action after the attack of opportunity is resolved."
 		]
 	},
 	"wolf_trip": {
@@ -1039,7 +1139,7 @@
 			"",
 			"You have studied the manner in which wolves bring down their prey.  ",
 			"**Prerequisites:** Wis 15, {feat/Improved Unarmed Strike}, {feat/Wolf Style}, Knowledge (nature) 6 ranks.  ",
-			"**Benefit:** While using Wolf Style, you gain a +2 bonus when you attempt a trip combat maneuver as part of an attack of opportunity. Whenever you successfully trip a creature, as a free action you can choose an available space that is both adjacent to you and the creature's original space for the tripped creature to land prone in."
+			"**Benefit:** While using Wolf Style, you gain a +2 bonus when you attempt a {rule/trip} combat maneuver as part of an attack of opportunity. Whenever you successfully trip a creature, as a free action you can choose an available space that is both adjacent to you and the creature's original space for the tripped creature to land {rule/prone} in."
 		]
 	},
 	"wood_crafter": {
@@ -1052,7 +1152,7 @@
 			"",
 			"Eschewing the use of metals in your craft, you excel at crafting armor from wood.  ",
 			"**Prerequisites:** Craft (armor) 3 ranks, Knowledge (nature) 3 ranks.  ",
-			"**Benefit:** You gain a +4 bonus on Craft (armor) checks to create armor and shields from wood or special materials containing wood (such as darkwood). If you succeed at the check by 5 or more, you decrease the cost to make the item by 10%."
+			"**Benefit:** You gain a +4 bonus on Craft (armor) checks to create armor and shields from wood or special materials containing wood (such as {eq-material/darkwood}). If you succeed at the check by 5 or more, you decrease the cost to make the item by 10%."
 		]
 	},
 	"woodland_wraith": {
@@ -1065,7 +1165,7 @@
 			"",
 			"You put the terrain between yourself and your opponents to avoid attacks.  ",
 			"**Prerequisites:** Dex 15, {feat/Dodge}, base attack bonus +6.  ",
-			"**Benefit:** If you take two actions to move or a withdrawal action in a turn while starting or ending your movement in either naturally occurring difficult terrain (bushes, brambles, etc.) or a space with a natural object providing at least partial cover (a tree, rock, etc.), you gain {rule/concealment} until you attack, until you move out of that space, or until the end of your next turn, whichever occurs first."
+			"**Benefit:** If you take two actions to move or a {rule/withdraw/al} action in a turn while starting or ending your movement in either naturally occurring difficult terrain (bushes, brambles, etc.) or a space with a natural object providing at least partial {rule/cover} (a tree, rock, etc.), you gain {rule/concealment} until you attack, until you move out of that space, or until the end of your next turn, whichever occurs first."
 		]
 	},
 	"word_of_healing": {
@@ -1104,7 +1204,7 @@
 			"",
 			"Your jinxes hinder beneficial spells.  ",
 			"**Prerequisites:** Knowledge (arcana) 5 ranks, Halfling Jinx trait.  ",
-			"**Benefit:** Beneficial variable effects on a jinxed target (such as {spell/aid}, {main/cure |spell/s>_groupings}, {spell/false life}, the variable ability damage cured by {spell/lesser restoration}, and so on) always result in the minimum possible amount for the effect. For example, a 5th-level cleric casting cure serious wounds on the target only heals 8 hit points (the minimum for 3d8+5)."
+			"**Benefit:** Beneficial variable effects on a jinxed target (such as {spell/aid}, {main/cure |spell/s>_groupings}, {spell/false life}, the variable ability damage cured by {spell/lesser restoration}, and so on) always result in the minimum possible amount for the effect. For example, a 5th-level cleric casting {spell/cure serious wounds} on the target only heals 8 hit points (the minimum for 3d8+5)."
 		]
 	},
 	"wounded_paw_gambit": {
@@ -1140,9 +1240,9 @@
 			"",
 			"You can extract a charge from otherwise depleted technology.  ",
 			"**Prerequisites:** Disable Device 5 ranks, Knowledge (engineering) 5 ranks  ",
-			"**Benefit:** With a successful DC 20 Disable Device check, you can jury-rig a depleted (but not destroyed) battery so it provides 1 more charge. Using this charge or failing your check by 5 or more permanently depletes the battery.",
+			"**Benefit:** With a successful DC 20 Disable Device check, you can jury-rig a depleted (but not destroyed) {tech-misc/battery} so it provides 1 more charge. Using this charge or failing your check by 5 or more permanently depletes the battery.",
 			"",
-			"You can attempt the same check to add 1 last charge to a discharged piece of timeworn technology. Regardless of the outcome, no other attempts can be made, even by another person. Using this feat takes 1 minute. You can attempt to wrest a charge as a move action by taking a -10 penalty on your check. This feat does not stack with the charge cycling deed."
+			"You can attempt the same check to add 1 last charge to a discharged piece of {rule/timeworn technology}. Regardless of the outcome, no other attempts can be made, even by another person. Using this feat takes 1 minute. You can attempt to wrest a charge as a move action by taking a -10 penalty on your check. This feat does not stack with the [charge recycling deed](arc-gunslinger/techslinger)."
 		]
 	},
 	"wretched_curator": {
@@ -1156,8 +1256,8 @@
 			"Some fools fear the written word, but you that understand knowledge all knowledge is a valuable tool, and restricting it out of superstition is abominable in your eyes.  ",
 			"**Prerequisites:** You must have purchased a scroll or spellbook containing a spell with the {spelldef/evil} descriptor in a place where such dealings are illegal, or must have the Secret Society Inductee (growing up) or Diabolical Upbringing (early events) [background](rule/bad_beginnings).  ",
 			"**Benefit:** You can always purchase potions and scrolls of spells with the evil descriptor at a 10% discount, even if they are not normally available in a settlement because of its size or the local laws. You gain a +4 bonus on Knowledge (arcana), Spellcraft, and Use Magic Device checks related to spells with the evil descriptor or evil written works.  ",
-			"**Goal:** You must own scrolls of spells with the evil descriptor or tomes of forbidden lore worth a total of 50 gp per character level, and be the primary caster of a successful [occult ritual](rule/occult_rituals) of at least 5th level that has the evil descriptor.  ",
-			"**Completion Benefit:** Every time you cast a spell with the evil descriptor, you can remove that descriptor from the spell and treat yourself as a neutral-aligned caster for the purpose of determining the spell's effects, circumventing defenses such as {spell/protection from evil} and preventing detection via {spell/detect evil} and similar effects. If you cast a spell with the evil descriptor and do not remove that descriptor, you instead gain 2 temporary hit points per spell level. These temporary hit points last for 1 hour."
+			"**Goal:** You must own scrolls of spells with the evil descriptor or tomes of forbidden lore worth a total of 50 gp per character level, and be the primary caster of a successful {rule/occult ritual>s} of at least 5th level that has the evil descriptor.  ",
+			"**Completion Benefit:** Every time you cast a spell with the evil descriptor, you can remove that descriptor from the spell and treat yourself as a neutral-aligned caster for the purpose of determining the spell's effects, circumventing defenses such as {spell/protection from evil} and preventing detection via {spell/detect evil} and similar effects. If you cast a spell with the evil descriptor and do not remove that descriptor, you instead gain 2 {rule/temporary hit points} per spell level. These temporary hit points last for 1 hour."
 		]
 	},
 	"wrist_grab": {
@@ -1170,7 +1270,7 @@
 			"",
 			"When an enemy overextends to attack you, you quickly catch its arm and knock its weapon loose.  ",
 			"**Prerequisites:** Dex 13, Int 13, {feat/Combat Expertise}, {feat/Combat Reflexes}, {feat/Improved Disarm}, {feat/Improved Unarmed Strike}, base attack bonus +6.  ",
-			"**Benefit:** When an opponent's attack misses you by 5 or more, you can attempt a disarm combat maneuver check against that foe as an immediate action."
+			"**Benefit:** When an opponent's attack misses you by 5 or more, you can attempt a {rule/disarm} combat maneuver check against that foe as an immediate action."
 		]
 	},
 	"wyvaran_spellcasting": {
@@ -1183,7 +1283,7 @@
 			"",
 			"Your unique physiology makes you particularly adept at wielding draconic magic.  ",
 			"**Prerequisites:** Knowledge (arcana) 6 ranks, {race/wyvaran}.  ",
-			"**Benefit:** Select one spell you can cast that you gained through your draconic bloodline, the {domain/Scalykind} domain, or the {domain/Dragon} subdomain. It must be at least 1 spell level lower than the highest-level spell you can cast. You can cast this spell as a spell-like ability twice per day."
+			"**Benefit:** Select one spell you can cast that you gained through your {sorcbloodline/draconic} sorcerer bloodline, {blrgbloodline/draconic} bloodrager bloodline, the {domain/Scalykind} domain, or the {domain/Dragon} subdomain. It must be at least 1 spell level lower than the highest-level spell you can cast. You can cast this spell as a spell-like ability twice per day."
 		]
 	},
 	"wyvern_fury_style": {
@@ -1196,7 +1296,7 @@
 			"",
 			"You can combine sweeping attacks with a whip and quick stabs with a blade, imitating a wyvern's powerful bite and tail tipped with a stinger.  ",
 			"**Prerequisites:** {feat/Exotic Weapon Proficiency} (whip), Acrobatics 3 ranks, brawler's flurry class feature or flurry of blows class feature.  ",
-			"**Benefit:** While using this style, you can make attacks with a dagger, punching dagger, scorpion whip, spiked gauntlet, or whip when using a flurry of blows or brawler's flurry. Only one of these attacks can be made with a whip or scorpion whip."
+			"**Benefit:** While using this style, you can make attacks with a {eq-weapon/dagger}, {eq-weapon/punching dagger}, {eq-weapon/scorpion whip}, {eq-weapon/spiked gauntlet}, or {eq-weapon/whip} when using a flurry of blows or brawler's flurry. Only one of these attacks can be made with a whip or scorpion whip."
 		]
 	},
 	"wyvern_sting": {
@@ -1209,7 +1309,7 @@
 			"",
 			"You can use your whip like a wyvern's sting, forcing foes to give it their undivided attention.  ",
 			"**Prerequisites:** {feat/Exotic Weapon Proficiency} (whip), {feat/Wyvern Fury Style}, Acrobatics 6 ranks, brawler's flurry class feature or flurry of blows class feature.  ",
-			"**Benefit:** While using Wyvern Fury Style, if you successfully attack a foe with a whip or scorpion whip, as a swift action you can choose one ally. Until the beginning of your next turn, that ally can leave spaces threatened by that foe without provoking an attack of opportunity from the foe."
+			"**Benefit:** While using Wyvern Fury Style, if you successfully attack a foe with a {eq-weapon/whip} or {eq-weapon/scorpion whip}, as a swift action you can choose one ally. Until the beginning of your next turn, that ally can leave spaces threatened by that foe without provoking an attack of opportunity from the foe."
 		]
 	},
 	"wyvern_wing": {
@@ -1235,7 +1335,7 @@
 			"",
 			"People everywhere share a common tongue; they just don't always remember it.  ",
 			"**Prerequisites:** Int 13, Linguistics 3 ranks.  ",
-			"**Benefit:** With a successful DC 25 Linguistics check, you can speak with a single individual with whom you share no common languages. You cannot take 10 on this check, nor can anyone aid you. You believe you are speaking your native language, and the listener believes you are speaking its native language; however, to everyone else able to hear you, you sound like you are speaking gibberish. Creatures that have truespeech or that are under the effects of tongues can understand Xenoglossy, and other creatures who succeed at a DC 25 Linguistics check can pick up the gist of what you are saying. Xenoglossy lasts for the length of the conversation or for 1 minute per level, whichever is shorter. You can use Xenoglossy again to continue a longer conversation, and you gain a +2 on Linguistics checks to use Xenoglossy to communicate with someone with whom you previously communicated using this feat. If you fail a Xenoglossy check, you can't use the Xenoglossy feat to attempt further communication with that creature until you gain additional ranks in Linguistics."
+			"**Benefit:** With a successful DC 25 Linguistics check, you can speak with a single individual with whom you share no common languages. You cannot take 10 on this check, nor can anyone aid you. You believe you are speaking your native language, and the listener believes you are speaking its native language; however, to everyone else able to hear you, you sound like you are speaking gibberish. Creatures that have *truespeech* or that are under the effects of {spell/tongues} can understand Xenoglossy, and other creatures who succeed at a DC 25 {skill/Linguistics} check can pick up the gist of what you are saying. Xenoglossy lasts for the length of the conversation or for 1 minute per level, whichever is shorter. You can use Xenoglossy again to continue a longer conversation, and you gain a +2 on Linguistics checks to use Xenoglossy to communicate with someone with whom you previously communicated using this feat. If you fail a Xenoglossy check, you can't use the Xenoglossy feat to attempt further communication with that creature until you gain additional ranks in Linguistics."
 		]
 	},
 	"yai_mimic_spell": {
@@ -1248,7 +1348,7 @@
 			"",
 			"You have studied the magical nature of giant oni and can use your spells to imitate their esoteric features.  ",
 			"**Prerequisites:** Int 15, {feat/Still Spell}.  ",
-			"**Benefit:** You can modify a ray spell to issue from the center of your forehead, where the third eye would be on a yai. This spell doesn't require somatic components. When the spell is cast, you gain regeneration 1 for a number of rounds equal to the original level of the spell. This regeneration can't regrow lost body parts or reattach severed limbs. Fire or acid damage suppresses this regeneration for 1 round, which counts against the total duration of the regeneration effect. A yai-mimic spell uses up a spell slot 3 levels higher than the spell's actual level."
+			"**Benefit:** You can modify a ray spell to issue from the center of your forehead, where the third eye would be on a [yai](family/oni). This spell doesn't require somatic components. When the spell is cast, you gain {umr/regeneration} 1 for a number of rounds equal to the original level of the spell. This regeneration can't regrow lost body parts or reattach severed limbs. Fire or acid damage suppresses this regeneration for 1 round, which counts against the total duration of the regeneration effect. A yai-mimic spell uses up a spell slot 3 levels higher than the spell's actual level."
 		]
 	},
 	"zealous_mind": {
