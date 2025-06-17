@@ -9,7 +9,6 @@
 			"",
 			":::"
 		],
-		"noFinder": true,
 		"searchgroup": "monster",
 		"tables": [
 			{
@@ -121,7 +120,6 @@
 		"title": "Good Monsters",
 		"sources": [],
 		"searchgroup": "monster",
-		"noFinder": true,
 		"description": [
 			"::mainheader[Good Monsters]",
 			"",
@@ -259,7 +257,6 @@
 		"title": "Evil Monsters",
 		"sources": [],
 		"searchgroup": "monster",
-		"noFinder": true,
 		"description": [
 			"::mainheader[Evil Monsters]",
 			"",
@@ -554,7 +551,6 @@
 		"title": "Lawful Monsters",
 		"sources": [],
 		"searchgroup": "monster",
-		"noFinder": true,
 		"description": [
 			"::mainheader[Lawful Monsters]",
 			"",
@@ -737,7 +733,6 @@
 		"title": "Chaotic Monsters",
 		"sources": [],
 		"searchgroup": "monster",
-		"noFinder": true,
 		"description": [
 			"::mainheader[Chaotic Monsters]",
 			"",
@@ -921,7 +916,6 @@
 		"title": "Unique Monsters",
 		"sources": [],
 		"searchgroup": "monster",
-		"noFinder": true,
 		"description": [
 			"::mainheader[Names and Descriptions]",
 			"",
@@ -1316,7 +1310,6 @@
 		"title": "Mythic Monsters",
 		"sources": [],
 		"searchgroup": "monster",
-		"noFinder": true,
 		"description": [
 			"::mainheader[Names and Descriptions]",
 			"",

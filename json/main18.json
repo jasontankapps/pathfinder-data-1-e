@@ -3,7 +3,6 @@
 		"title": "NPCs",
 		"sources": [],
 		"searchgroup": "monster",
-		"noFinder": true,
 		"description": [
 			"::mainheader[NPCs by Class]",
 			"",
@@ -554,7 +553,6 @@
 		"title": "NPCs: NPC Classes",
 		"sources": [],
 		"searchgroup": "monster",
-		"noFinder": true,
 		"description": [
 			"::mainheader[Adepts]",
 			"",
@@ -755,7 +753,6 @@
 		"title": "NPCs: Core Arcane Classes",
 		"sources": [],
 		"searchgroup": "monster",
-		"noFinder": true,
 		"description": [
 			"::mainheader[Bards]",
 			"",
@@ -917,7 +914,6 @@
 	"npcs_clerics_druids_paladins": {
 		"title": "NPCs: Core Divine Classes",
 		"sources": [],
-		"noFinder": true,
 		"searchgroup": "monster",
 		"description": [
 			"::mainheader[Clerics]",
@@ -1131,7 +1127,6 @@
 	"npcs_other_core": {
 		"title": "NPCs: Core Non-Spellcasters",
 		"searchgroup": "monster",
-		"noFinder": true,
 		"sources": [],
 		"description": [
 			"::mainheader[Barbarians]",
@@ -1518,7 +1513,6 @@
 			"",
 			":::"
 		],
-		"noFinder": true,
 		"searchgroup": "tech",
 		"tables": [
 			{
@@ -1575,7 +1569,6 @@
 			"",
 			":::"
 		],
-		"noFinder": true,
 		"searchgroup": "tech",
 		"tables": [
 			{
@@ -1670,7 +1663,6 @@
 			"",
 			":::"
 		],
-		"noFinder": true,
 		"searchgroup": "tech",
 		"tables": [
 			{
@@ -1725,7 +1717,6 @@
 			"",
 			":::"
 		],
-		"noFinder": true,
 		"searchgroup": "tech",
 		"tables": [
 			{
@@ -1766,7 +1757,6 @@
 			"",
 			":::"
 		],
-		"noFinder": true,
 		"searchgroup": "tech",
 		"tables": [
 			{
@@ -2124,7 +2114,6 @@
 			"",
 			":::"
 		],
-		"noFinder": true,
 		"tables": [
 			{
 				"id": "siege engines",
@@ -2214,7 +2203,6 @@
 			"",
 			":::"
 		],
-		"noFinder": true,
 		"searchgroup": "equip",
 		"tables": [
 			{
@@ -2355,7 +2343,6 @@
 			"",
 			":::"
 		],
-		"noFinder": true,
 		"searchgroup": "equip",
 		"tables": [
 			{
@@ -2473,7 +2460,6 @@
 			"",
 			":::"
 		],
-		"noFinder": true,
 		"searchgroup": "equip",
 		"tables": [
 			{
@@ -2555,7 +2541,6 @@
 			"",
 			":::"
 		],
-		"noFinder": true,
 		"searchgroup": "equip",
 		"tables": [
 			{
@@ -2624,7 +2609,6 @@
 			"",
 			":::"
 		],
-		"noFinder": true,
 		"searchgroup": "equip",
 		"tables": [
 			{
@@ -2858,7 +2842,6 @@
 	},
 	"equipment_illicit": {
 		"title": "Illicit Items",
-		"noFinder": true,
 		"description": [
 			":::item",
 			"",
@@ -2936,7 +2919,6 @@
 			"PRPG Core Rulebook",
 			"Inner Sea Intrigue"
 		],
-		"noFinder": true,
 		"description": [
 			":::item",
 			"",

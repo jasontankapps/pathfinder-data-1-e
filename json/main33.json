@@ -3,7 +3,6 @@
 		"title": "All Mythic Spells",
 		"sources": [],
 		"searchgroup": "spell",
-		"noFinder": true,
 		"description": [
 			"::mainheader[Arcane Mythic Spells by Class]",
 			"",
@@ -216,7 +215,6 @@
 	"spells_mythic_arcanist_sorcerer_wizard": {
 		"title": "Mythic Arcanist, Sorcerer and Wizard Spells",
 		"sources": [],
-		"noFinder": true,
 		"searchgroup": "spell",
 		"description": [
 			":::item",
@@ -328,7 +326,6 @@
 	"spells_mythic_alchemist": {
 		"title": "Mythic Alchemist Extracts",
 		"sources": [],
-		"noFinder": true,
 		"searchgroup": "spell",
 		"description": [
 			"::main[Alchemist Extracts]{to=Mythic}",
@@ -379,7 +376,6 @@
 		"title": "Mythic Investigator Extracs",
 		"sources": [],
 		"searchgroup": "spell",
-		"noFinder": true,
 		"description": [
 			"::main[Investigator Extracs]{to=Mythic}",
 			"",
@@ -429,7 +425,6 @@
 		"title": "Mythic Summoner Spells",
 		"sources": [],
 		"searchgroup": "spell",
-		"noFinder": true,
 		"description": [
 			":::item",
 			"",
@@ -469,7 +464,6 @@
 		"title": "Mythic Unchained Summoner Spells",
 		"sources": [],
 		"searchgroup": "spell",
-		"noFinder": true,
 		"description": [
 			":::item",
 			"",
@@ -510,7 +504,6 @@
 		"title": "Mythic Bard and Skald Spells",
 		"sources": [],
 		"searchgroup": "spell",
-		"noFinder": true,
 		"description": [
 			":::item",
 			"",
@@ -559,7 +552,6 @@
 		"title": "Mythic Magus Spells",
 		"sources": [],
 		"searchgroup": "spell",
-		"noFinder": true,
 		"description": [
 			":::item",
 			"",
@@ -622,7 +614,6 @@
 		"title": "Mythic Witch Spells",
 		"sources": [],
 		"searchgroup": "spell",
-		"noFinder": true,
 		"description": [
 			":::item",
 			"",
@@ -694,7 +685,6 @@
 		"title": "Mythic Bloodrager Spells",
 		"sources": [],
 		"searchgroup": "spell",
-		"noFinder": true,
 		"description": [
 			":::item",
 			"",
@@ -753,7 +743,6 @@
 		"title": "Mythic Cleric and Oracle Spells",
 		"sources": [],
 		"searchgroup": "spell",
-		"noFinder": true,
 		"description": [
 			":::item",
 			"",
@@ -820,7 +809,6 @@
 		"title": "Mythic Druid Spells",
 		"sources": [],
 		"searchgroup": "spell",
-		"noFinder": true,
 		"description": [
 			":::item",
 			"",
@@ -877,7 +865,6 @@
 		"title": "Mythic Ranger Spells",
 		"sources": [],
 		"searchgroup": "spell",
-		"noFinder": true,
 		"description": [
 			":::item",
 			"",
@@ -914,7 +901,6 @@
 		"title": "Mythic Hunter Spells",
 		"sources": [],
 		"searchgroup": "spell",
-		"noFinder": true,
 		"description": [
 			":::item",
 			"",
@@ -965,7 +951,6 @@
 		"title": "Mythic Inquisitor Spells",
 		"sources": [],
 		"searchgroup": "spell",
-		"noFinder": true,
 		"description": [
 			":::item",
 			"",
@@ -1016,7 +1001,6 @@
 		"title": "Mythic Warpriest Spells",
 		"sources": [],
 		"searchgroup": "spell",
-		"noFinder": true,
 		"description": [
 			":::item",
 			"",
@@ -1075,7 +1059,6 @@
 		"title": "Mythic Paladin Spells",
 		"sources": [],
 		"searchgroup": "spell",
-		"noFinder": true,
 		"description": [
 			":::item",
 			"",
@@ -1112,7 +1095,6 @@
 		"title": "Mythic Antipaladin Spells",
 		"sources": [],
 		"searchgroup": "spell",
-		"noFinder": true,
 		"description": [
 			":::item",
 			"",
@@ -1151,7 +1133,6 @@
 		"title": "Mythic Shaman Spells",
 		"sources": [],
 		"searchgroup": "spell",
-		"noFinder": true,
 		"description": [
 			":::item",
 			"",
@@ -1208,7 +1189,6 @@
 		"title": "Mythic Medium Spells",
 		"sources": [],
 		"searchgroup": "spell",
-		"noFinder": true,
 		"description": [
 			":::item",
 			"",
@@ -1257,7 +1237,6 @@
 		"title": "Mythic Mesmerist Spells",
 		"sources": [],
 		"searchgroup": "spell",
-		"noFinder": true,
 		"description": [
 			":::item",
 			"",
@@ -1312,7 +1291,6 @@
 		"title": "Mythic Occultist Spells",
 		"sources": [],
 		"searchgroup": "spell",
-		"noFinder": true,
 		"description": [
 			":::item",
 			"",
@@ -1381,7 +1359,6 @@
 		"title": "Mythic Psychic Spells",
 		"sources": [],
 		"searchgroup": "spell",
-		"noFinder": true,
 		"description": [
 			":::item",
 			"",
@@ -1461,7 +1438,6 @@
 		"title": "Mythic Spiritualist Spells",
 		"sources": [],
 		"searchgroup": "spell",
-		"noFinder": true,
 		"description": [
 			":::item",
 			"",
@@ -1520,7 +1496,6 @@
 			"",
 			":::"
 		],
-		"noFinder": true,
 		"tables": [
 			{
 				"id": "redmantisassassin spells table",

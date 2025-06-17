@@ -1,6 +1,7 @@
 import {
 	FC, Dispatch, PropsWithChildren, useMemo,
-	ReactElement, MouseEventHandler, SetStateAction
+	ReactElement, MouseEventHandler, SetStateAction,
+	useContext
 } from 'react';
 import {
 	IonButton, IonButtons, IonHeader, IonIcon,
@@ -11,6 +12,7 @@ import { bookmark, bookmarkOutline, bookmarks, } from 'ionicons/icons';
 import { useLocation } from 'wouter';
 import { addBookmark, removeBookmark } from '../store/bookmarksSlice';
 import { useAppDispatch, useAppSelector } from '../store/hooks';
+import { FinderContext } from './contexts';
 import getPageName from './getPageName';
 import './Bookmarks.css';
 
@@ -83,10 +85,10 @@ const PageHeader: FC<PropsWithChildren<{
 	title: string,
 	notBookmarkable?: boolean,
 	findInPage?: Dispatch<boolean>,
-	findingInPage?: boolean,
 	className?: string,
 	extraButton?: ReactElement
-}>> = ({ title, children, notBookmarkable, findInPage, findingInPage, className, extraButton }) => {
+}>> = ({ title, children, notBookmarkable, findInPage, className, extraButton }) => {
+	const findingInPage = useContext(FinderContext);
 	const [location] = useLocation();
 	return (
 		<IonHeader className={className}>

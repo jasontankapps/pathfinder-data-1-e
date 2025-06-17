@@ -15,8 +15,7 @@
 			"::main[Witch Spells (Levels 5-6)]{endem=\"(225 spells)\" to=main/spells_witch_5_6}",
 			"",
 			"::main[Witch Spells (Levels 7-9)]{endem=\"(165 spells)\" to=main/spells_witch_7_9}"
-		],
-		"noFinder": true
+		]
 	},
 	"spells_witch_0_1": {
 		"title": "Witch Spells Levels 0-1",
@@ -39,7 +38,6 @@
 			"",
 			":::"
 		],
-		"noFinder": true,
 		"tables": [
 			{
 				"id": "witch spells table",
@@ -293,7 +291,6 @@
 			"",
 			":::"
 		],
-		"noFinder": true,
 		"tables": [
 			{
 				"id": "witch spells table 2",
@@ -974,7 +971,6 @@
 			"",
 			":::"
 		],
-		"noFinder": true,
 		"tables": [
 			{
 				"id": "witch spells table 3",
@@ -1262,7 +1258,6 @@
 			"",
 			":::"
 		],
-		"noFinder": true,
 		"tables": [
 			{
 				"id": "witch spells table 4",
@@ -1492,7 +1487,6 @@
 			"",
 			":::"
 		],
-		"noFinder": true,
 		"tables": [
 			{
 				"id": "witch spells table 5 6",
@@ -1783,7 +1777,6 @@
 			"",
 			":::"
 		],
-		"noFinder": true,
 		"tables": [
 			{
 				"id": "witch spells table 7 9",
@@ -2010,7 +2003,6 @@
 			"",
 			"::main[Shaman Spells (Levels 7-9)]{endem=\"(88 spells)\" to=main/spells_shaman_7_9}"
 		],
-		"noFinder": true,
 		"searchgroup": "spell"
 	},
 	"spells_shaman_0_1": {
@@ -2033,7 +2025,6 @@
 			"",
 			":::"
 		],
-		"noFinder": true,
 		"searchgroup": "spell",
 		"tables": [
 			{
@@ -2217,7 +2208,6 @@
 			"",
 			":::"
 		],
-		"noFinder": true,
 		"searchgroup": "spell",
 		"tables": [
 			{
@@ -2406,7 +2396,6 @@
 			"",
 			":::"
 		],
-		"noFinder": true,
 		"searchgroup": "spell",
 		"tables": [
 			{
@@ -2581,7 +2570,6 @@
 			"",
 			":::"
 		],
-		"noFinder": true,
 		"searchgroup": "spell",
 		"tables": [
 			{
@@ -2747,7 +2735,6 @@
 			"",
 			":::"
 		],
-		"noFinder": true,
 		"searchgroup": "spell",
 		"tables": [
 			{
@@ -2934,7 +2921,6 @@
 			"",
 			":::"
 		],
-		"noFinder": true,
 		"searchgroup": "spell",
 		"tables": [
 			{

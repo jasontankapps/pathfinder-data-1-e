@@ -5,6 +5,7 @@ import {
 	FC,
 	PropsWithChildren,
 	useCallback,
+	useContext,
 	useMemo,
 	useState
 } from 'react';
@@ -48,6 +49,7 @@ import { Datum, Filter, RawDatum, Table, ColumnDataType, Column } from '../types
 import Link from './Link';
 import convertLinks, { checkForEncodedLink } from './convertLinks';
 import InnerLink from './InnerLink';
+import { FinderContext } from './contexts';
 import { AppDispatch } from '../store/store';
 import { useAppDispatch, useAppSelector } from '../store/hooks';
 import { goTo } from '../store/historySlice';
@@ -739,8 +741,6 @@ State =
 	);
 };
 
-const noRipples: number[] = [];
-
 interface StoreErrorProps {
 	id: string
 	dispatch: AppDispatch
@@ -775,6 +775,7 @@ const DisplayTable: FC<{ table: Table }> = ({ table }) => {
 	const [sortDirection, setSortDirection] = useState<boolean>(alpha); // true = a-z, false = z-a
 	const [hiddenRows, setHiddenRows] = useState<number[]>(hiddenrows);
 	const [hiddenColumns, setHiddenColumns] = useState<number[]>(hiddencols);
+	const finderIsOpen = useContext(FinderContext);
 	const [open, setOpen] = useState<boolean>(false);
 	const dispatch = useAppDispatch();
 
@@ -833,7 +834,7 @@ const DisplayTable: FC<{ table: Table }> = ({ table }) => {
 			currentHiddenColumns={hiddenColumns}
 			currentHiddenRows={hiddenRows}
 		/>
-			<IonButton className="tableFilterButton" color="tertiary" size="small" shape="round" fill="outline" onClick={() => setOpen(true)}>
+			<IonButton className="tableFilterButton" disabled={finderIsOpen} color="tertiary" size="small" shape="round" fill="outline" onClick={() => setOpen(true)}>
 				<IonIcon slot="icon-only" icon={filterIcon} />
 			</IonButton>
 		</>;

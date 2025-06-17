@@ -18,6 +18,7 @@ import PageFooter from '../components/PageFooter';
 import PageHeader from '../components/PageHeader';
 import SourcesModal, { SourceProp } from '../components/SourcesModal';
 import Link from '../components/Link';
+import { FinderContext } from '../components/contexts';
 import { DisplayItemProps } from '../types';
 import './Page.css';
 
@@ -64,7 +65,7 @@ const HierarchyInset: React.FC<{linkInfo: [string, string]}> = ({linkInfo}) => {
 };
 
 const markerConfig = {
-	exclude: [ "div.displayTable *" ],
+	exclude: [ "ion-item-options *", "ion-button *" ],
 	acrossElements: true,
 	ignorePunctuation: ":;.,(){}[]!'?*\"".split(""),
 	debug: true
@@ -236,6 +237,7 @@ const BasicPage: FC<PropsWithChildren<PageProps>> = (props) => {
 								// This bit below is broken, won't work on ends or beginnings of lines
 								//
 								//accuracy: wholeWords ? "exactly" : "partially",
+								//
 								done: (n) => {
 									//const found = Number(n);
 									const markers = (
@@ -277,19 +279,20 @@ const BasicPage: FC<PropsWithChildren<PageProps>> = (props) => {
 		setHighlightedText
 	), [markers, highlightedText, setHighlightedText]);
 
-	const findInPageFunc = useCallback(() => {
-		setSearchBoxOpen(!searchBoxOpen);
-		searchBoxOpen
-			? onInput(null)
-			: (
-				findInPageSearchbarObj
+	const openOrCloseFindInPageFunc = useCallback(() => {
+		if(searchBoxOpen) {
+			onInput(null);
+			setSearchBoxOpen(false);
+		} else {
+			setSearchBoxOpen(true);
+			findInPageSearchbarObj
 				&& debounce(
 					() => findInPageSearchbarObj
 						&& findInPageSearchbarObj.setFocus(),
 					"setting Focus",
 					505
-				)
-			);
+				);
+		}
 	}, [searchBoxOpen, setSearchBoxOpen, onInput, findInPageSearchbarObj]);
 
 	return (
@@ -298,11 +301,10 @@ const BasicPage: FC<PropsWithChildren<PageProps>> = (props) => {
 			initial={unopaque}
 			animate={opaque}
 			exit={unopaque}
-		><IonPage>
+		><IonPage><FinderContext.Provider value={searchBoxOpen}>
 			<PageHeader
 				title={title}
-				findInPage={ (!noFinder && marker) ? findInPageFunc : undefined }
-				findingInPage={searchBoxOpen}
+				findInPage={ (!noFinder && marker) ? openOrCloseFindInPageFunc : undefined }
 				notBookmarkable={notBookmarkable}
 				extraButton={extraButton}
 			/>
@@ -378,7 +380,7 @@ const BasicPage: FC<PropsWithChildren<PageProps>> = (props) => {
 				</div>
 			</IonContent>
 			<PageFooter setIsSourcesModalOpen={hideSources ? undefined : setIsSourcesModalOpen} />
-		</IonPage></motion.div>}
+		</FinderContext.Provider></IonPage></motion.div>}
 		</AnimatePresence>
 	);
 };

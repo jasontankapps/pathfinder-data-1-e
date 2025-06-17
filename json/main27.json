@@ -11,7 +11,6 @@
 			"",
 			":::"
 		],
-		"noFinder": true,
 		"searchgroup": "magic",
 		"tables": [
 			{
@@ -537,7 +536,6 @@
 			"",
 			":::"
 		],
-		"noFinder": true,
 		"searchgroup": "magic",
 		"tables": [
 			{
@@ -789,7 +787,6 @@
 			"",
 			":::"
 		],
-		"noFinder": true,
 		"searchgroup": "magic",
 		"tables": [
 			{
@@ -1635,7 +1632,6 @@
 			"",
 			":::"
 		],
-		"noFinder": true,
 		"searchgroup": "magic",
 		"tables": [
 			{
@@ -1911,7 +1907,6 @@
 			"",
 			":::"
 		],
-		"noFinder": true,
 		"searchgroup": "magic",
 		"tables": [
 			{
@@ -2456,7 +2451,6 @@
 	"magic_enhancements": {
 		"title": "Magic - Enhancements",
 		"sources": [],
-		"noFinder": true,
 		"description": [
 			":::item",
 			"",
@@ -2838,7 +2832,6 @@
 			"",
 			":::"
 		],
-		"noFinder": true,
 		"searchgroup": "magic",
 		"tables": [
 			{

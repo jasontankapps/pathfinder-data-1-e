@@ -13,7 +13,6 @@
 			"",
 			"::main[Inquisitor Spells (Level 5-6)]{endem=\"(109 spells)\" to=main/spells_inquisitor_5_6}"
 		],
-		"noFinder": true,
 		"searchgroup": "spell"
 	},
 	"spells_inquisitor_0_1": {
@@ -34,7 +33,6 @@
 			"",
 			":::"
 		],
-		"noFinder": true,
 		"searchgroup": "spell",
 		"tables": [
 			{
@@ -242,7 +240,6 @@
 			"",
 			":::"
 		],
-		"noFinder": true,
 		"searchgroup": "spell",
 		"tables": [
 			{
@@ -462,7 +459,6 @@
 			"",
 			":::"
 		],
-		"noFinder": true,
 		"searchgroup": "spell",
 		"tables": [
 			{
@@ -665,7 +661,6 @@
 			"",
 			":::"
 		],
-		"noFinder": true,
 		"searchgroup": "spell",
 		"tables": [
 			{
@@ -830,7 +825,6 @@
 			"",
 			":::"
 		],
-		"noFinder": true,
 		"searchgroup": "spell",
 		"tables": [
 			{
@@ -995,8 +989,7 @@
 			"::main[Medium Spells (Level 2)]{endem=\"(121 spells)\" to=main/spells_medium_2}",
 			"",
 			"::main[Medium Spells (Level 3+)]{endem=\"(157 spells)\" to=main/spells_medium_3_6}"
-		],
-		"noFinder": true
+		]
 	},
 	"spells_medium_0_1": {
 		"title": "Medium Spells Levels 0-1",
@@ -1013,7 +1006,6 @@
 			"",
 			":::"
 		],
-		"noFinder": true,
 		"tables": [
 			{
 				"id": "medium spells table 0 1",
@@ -1455,7 +1447,6 @@
 			"",
 			":::"
 		],
-		"noFinder": true,
 		"tables": [
 			{
 				"id": "medium spells table 2",
@@ -1634,7 +1625,6 @@
 			"",
 			":::"
 		],
-		"noFinder": true,
 		"tables": [
 			{
 				"id": "medium spells table 3 4 5 6",
@@ -1846,7 +1836,6 @@
 			"",
 			"::main[Ranger Spells (Levels 3-4)]{endem=\"(151 spells)\" to=main/spells_ranger_3_4}"
 		],
-		"noFinder": true,
 		"searchgroup": "spell"
 	},
 	"spells_ranger_1": {
@@ -1863,7 +1852,6 @@
 			"",
 			":::"
 		],
-		"noFinder": true,
 		"searchgroup": "spell",
 		"tables": [
 			{
@@ -2042,7 +2030,6 @@
 			"",
 			":::"
 		],
-		"noFinder": true,
 		"searchgroup": "spell",
 		"tables": [
 			{
@@ -2218,7 +2205,6 @@
 			"",
 			":::"
 		],
-		"noFinder": true,
 		"searchgroup": "spell",
 		"tables": [
 			{
@@ -2421,7 +2407,6 @@
 			"",
 			"::main[Investigator Formulae (Level 3-6)]{endem=\"(221 spells)\" to=main/spells_investigator_3_6}"
 		],
-		"noFinder": true,
 		"searchgroup": "spell"
 	},
 	"spells_investigator_1_2": {
@@ -2436,7 +2421,6 @@
 			"",
 			":::"
 		],
-		"noFinder": true,
 		"searchgroup": "spell",
 		"tables": [
 			{
@@ -2675,7 +2659,6 @@
 			"",
 			":::"
 		],
-		"noFinder": true,
 		"searchgroup": "spell",
 		"tables": [
 			{
@@ -2950,7 +2933,6 @@
 			"",
 			":::"
 		],
-		"noFinder": true,
 		"searchgroup": "spell",
 		"tables": [
 			{

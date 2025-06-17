@@ -19,7 +19,6 @@
 			"",
 			":::"
 		],
-		"noFinder": true,
 		"searchgroup": "feat",
 		"tables": [
 			{
@@ -348,7 +347,6 @@
 		"title": "Feats - Monster",
 		"sources": [ "Horror Adventures" ],
 		"searchgroup": "feat",
-		"noFinder": true,
 		"description": [
 			":::item",
 			"",
@@ -404,7 +402,6 @@
 		"title": "Feats - Teamwork",
 		"sources": [ "Advanced Player's Guide" ],
 		"searchgroup": "feat",
-		"noFinder": true,
 		"description": [
 			":::item",
 			"",
@@ -715,7 +712,6 @@
 		"title": "Feats - Story",
 		"sources": [ "Ultimate Campaign" ],
 		"searchgroup": "feat",
-		"noFinder": true,
 		"description": [
 			":::item",
 			"",
@@ -820,7 +816,6 @@
 		"title": "Feats - Style",
 		"sources": [ "Ultimate Combat" ],
 		"searchgroup": "feat",
-		"noFinder": true,
 		"description": [
 			":::item",
 			"",
@@ -978,7 +973,6 @@
 	"feats_metamagic": {
 		"title": "Feats - Metamagic",
 		"searchgroup": "rule",
-		"noFinder": true,
 		"description": [
 			":::item",
 			"",

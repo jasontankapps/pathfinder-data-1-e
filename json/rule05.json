@@ -3535,7 +3535,6 @@
 			"| @ripple[curse/Weeping Wound] | Fortitude DC 14 |",
 			"| @ripple[curse/Werewolf Lycanthropy] | Fortitude DC 15 |"
 		],
-		"noFinder": true,
 		"parent_topics": [
 			"combat",
 			"special_abilities_2",
@@ -3607,7 +3606,6 @@
 			"| @ripple[disease/Crypt Fever] | DC 22 |",
 			"| @ripple[disease/Daemonic Wasting] | DC 23 |"
 		],
-		"noFinder": true,
 		"parent_topics": [
 			"combat",
 			"special_abilities_2",
@@ -3639,7 +3637,6 @@
 			"| @ripple[infestation/Soldier's Peace] | 15 | These nanites settle in the brain, where they inflict crippling pain in response to violent acts and thoughts. |",
 			"| @ripple[infestation/Thought Crawlers] | 16 | These parasitic worms live in cerebrospinal fluid, causing an escalating progression of debilitating neurological symptoms. |"
 		],
-		"noFinder": true,
 		"parent_topics": [
 			"combat",
 			"special_abilities_2",

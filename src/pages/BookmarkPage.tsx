@@ -1,6 +1,12 @@
-import { FC, useCallback, useMemo, useState } from 'react';
+import {
+	createContext, FC, useCallback,
+	useContext, useEffect, useMemo, useState
+} from 'react';
 import { useParams, useLocation } from 'wouter';
-import { pencil, reorderTwo, trash, bookmark, chevronExpand, closeCircle, save } from 'ionicons/icons';
+import {
+	pencil, reorderTwo, trash, bookmark,
+	chevronExpand, closeCircle, save
+} from 'ionicons/icons';
 import {
 	IonButton,
 	IonButtons,
@@ -36,6 +42,7 @@ import {
 	changeGroupColor, getColor
 } from '../store/bookmarksSlice';
 import { useAppDispatch, useAppSelector, useElement } from '../store/hooks';
+import { FinderContext } from '../components/contexts';
 import useDarkMode from '../components/useDarkMode';
 import BasicPage from './BasicPage';
 import '../components/Bookmarks.css';
@@ -55,12 +62,19 @@ interface BookmarkItemProps extends BaseProps {
 	doEdit: (title: string, position: number) => void
 }
 
+const ListContext = createContext<HTMLIonListElement|null>(null);
+
 const BookmarkItem: FC<BookmarkItemProps> = (props) => {
 	const { index, id, link, title, doEdit } = props;
 	const [, navigate] = useLocation();
 	const dispatch = useAppDispatch();
+	const findingInProgress = useContext(FinderContext);
+	const listElement = useContext(ListContext);
+	useEffect(() => {
+		findingInProgress && listElement && listElement.closeSlidingItems();
+	}, [findingInProgress, listElement]);
 	return (
-		<IonItemSliding>
+		<IonItemSliding disabled={findingInProgress}>
 			<IonItem detail={false} className="link">
 				<IonReorder slot="start">
 					<IonIcon icon={reorderTwo} />
@@ -124,7 +138,6 @@ const Fab: FC<{color: Color, id: string, func: () => void}> = ({color, id, func}
 type Params = { id: string };
 
 const blank: [string, string][] = [];
-
 
 const KeyedBookmarkPage: FC<{id: string}> = ({id}) => {
 	const [doAlert] = useIonAlert();
@@ -269,7 +282,7 @@ const KeyedBookmarkPage: FC<{id: string}> = ({id}) => {
 					</IonToolbar>
 				</IonFooter>
 			</IonModal>
-			<IonList lines="full" id={id + "BookmarkList"} ref={listRef}>
+			<ListContext.Provider value={listElement}><IonList lines="full" id={id + "BookmarkList"} ref={listRef}>
 				<IonItem>
 					<IonButton color="secondary" slot="start" fill="clear" onClick={openColorModal}>
 						<IonIcon className={`color-${color}`} slot="icon-only" icon={bookmark} />
@@ -293,7 +306,7 @@ const KeyedBookmarkPage: FC<{id: string}> = ({id}) => {
 				<IonReorderGroup disabled={false} onIonItemReorder={handleReorder}>
 					{members}
 				</IonReorderGroup>
-			</IonList>
+			</IonList></ListContext.Provider>
 		</BasicPage>
 	);
 };

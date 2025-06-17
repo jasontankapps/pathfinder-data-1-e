@@ -1081,7 +1081,6 @@
 			"PRPG Core Rulebook",
 			"Pathfinder Unchained"
 		],
-		"noFinder": true,
 		"description": [
 			":::item",
 			"",
@@ -2449,7 +2448,6 @@
 	"monster_templates": {
 		"title": "Monster Templates",
 		"sources": [],
-		"noFinder": true,
 		"description": [
 			":::item",
 			"",
@@ -2752,7 +2750,6 @@
 			"",
 			":::"
 		],
-		"noFinder": true,
 		"searchgroup": "rule",
 		"tables": [
 			{
