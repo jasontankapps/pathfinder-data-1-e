@@ -2739,6 +2739,7 @@
 			"water_dangers"
 		]
 	},
+	"suffocate": { "redirect": "suffocation" },
 	"water_dangers": {
 		"name": "Water Dangers",
 		"subtitle": "Environmental Rules",

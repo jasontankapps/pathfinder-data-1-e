@@ -337,6 +337,7 @@
 	"increase_the_damage_die": { "redirect": "damage_die_adjustments" },
 	"deal_less_damage": { "redirect": "damage_die_adjustments" },
 	"one_size_category_larger": { "redirect": "damage_die_adjustments" },
+	"two_size_categories_larger": { "redirect": "damage_die_adjustments" },
 	"one_size_smaller": { "redirect": "damage_die_adjustments" },
 	"one_size_category_smaller": { "redirect": "damage_die_adjustments" },
 	"by_one_step": { "redirect": "damage_die_adjustments" },
@@ -516,7 +517,7 @@
 			"",
 			"Some weapons have special features in addition to those noted in their descriptions.",
 			"",
-			"@HL[Grapple:] On a successful critical hit with a weapon of this type, you can {rule/grapple} the target of the attack. The wielder can then attempt a combat maneuver check to grapple his opponent as a free action. This grapple attempt does not provoke an attack of opportunity from the creature you are attempting to grapple if that creature is not threatening you. While you grapple the target with a grappling weapon, you can only move or damage the creature on your turn. You are still considered {rule/grapple/d>_conditions}, though you do not have to be adjacent to the creature to continue the grapple. If you move far enough away to be out of the weapon's reach, you end the grapple with that action."
+			"@HL[Grapple:] On a successful critical hit with a weapon of this type, you can {rule/grapple} the target of the attack. The wielder can then attempt a combat maneuver check to grapple his opponent as a free action. This grapple attempt does not provoke an attack of opportunity from the creature you are attempting to grapple if that creature is not threatening you. While you grapple the target with a grappling weapon, you can only move or damage the creature on your turn. You are still considered {rule/grappled}, though you do not have to be adjacent to the creature to continue the grapple. If you move far enough away to be out of the weapon's reach, you end the grapple with that action."
 		],
 		"searchgroup": "rule",
 		"type": "Rule",

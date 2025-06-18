@@ -257,6 +257,52 @@ const migrations = {
 				catalog
 			}
 		};
+	},
+	16: (state: any) => {
+		const {bookmarks, ...unchangedState} = state;
+		// Fix all link changes since the last update
+		const {order, db: oldDB, catalog: oldCat} = bookmarks;
+		// FIX:
+		//   haunt/bountiful_feat => haunt/bountiful_feast,
+
+		const db: BookmarkDB = {};
+		const catalog: Catalog = {};
+
+		const replacerFeast = /(^[/]?haunt[/]bountiful_fea)(t[/]?)$/;
+		const replacementFeast = "$1s$2";
+		const replacerWhispers = /(^[/]?haunt[/])maddening_influence([/]?)$/;
+		const replacementWhispers = "$1whispers_from_beyond$2";
+
+		Object.keys(oldDB).forEach(id => {
+			const {color, title, contents:c, hidden} = oldDB[id] as BookmarkGroup;
+			db[id] = {
+				color,
+				title,
+				contents: c.map(pair =>
+					[
+						pair[0]
+							.replace(replacerWhispers, replacementWhispers)
+							.replace(replacerFeast, replacementFeast),
+						pair[1]
+					] as [string, string]
+				),
+				hidden
+			}
+		});
+		Object.keys(oldCat).forEach(link => {
+			const newLink = link
+				.replace(replacerWhispers, replacementWhispers)
+				.replace(replacerFeast, replacementFeast);
+			catalog[newLink] = oldCat[link] as string[];
+		});
+		return {
+			...unchangedState,
+			bookmarks: {
+				order,
+				db,
+				catalog
+			}
+		};
 	}
 };
 

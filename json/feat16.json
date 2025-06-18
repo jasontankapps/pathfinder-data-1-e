@@ -862,7 +862,7 @@
 			"",
 			"Sometimes the only way to deal with those who see your illicit activities is to get rid of them.  ",
 			"**Prerequisites:** Base attack bonus +1.  ",
-			"**Benefit:** When using a one-handed, light, or natural weapon, you can deliver a {misc/coup de grace} to an unconscious, bound, or [pinned](rule/grapple_conditions) target (though not other kinds of helpless targets) as a standard action."
+			"**Benefit:** When using a one-handed, light, or natural weapon, you can deliver a {misc/coup de grace} to an unconscious, bound, or {rule/pinned} target (though not other kinds of helpless targets) as a standard action."
 		]
 	},
 	"throw_anything": {

@@ -189,7 +189,7 @@
 			"",
 			"**Liberation (Su):** You have the ability to ignore impediments to your mobility. For a number of rounds per day equal to your cleric level, you can move normally regardless of magical effects that impede movement, as if you were affected by {spell/freedom of movement}. This effect occurs automatically as soon as it applies. These rounds do not need to be consecutive.",
 			"",
-			">**Freedom's Call (Su):** At 8th level, you can emit a 30-foot aura of freedom for a number of rounds per day equal to your cleric level. Allies within this aura are not affected by the {misc/confused}, {rule/grapple[d,] /pinned>conditions}, {misc/frightened}, {misc/panicked}, {rule/paralyzed}, or {misc/shaken} conditions. This aura only suppresses these effects, and they return once a creature leaves the aura or when the aura ends, if applicable. These rounds do not need to be consecutive.",
+			">**Freedom's Call (Su):** At 8th level, you can emit a 30-foot aura of freedom for a number of rounds per day equal to your cleric level. Allies within this aura are not affected by the {misc/confused}, {rule/grappled,/ pinned}, {misc/frightened}, {misc/panicked}, {rule/paralyzed}, or {misc/shaken} conditions. This aura only suppresses these effects, and they return once a creature leaves the aura or when the aura ends, if applicable. These rounds do not need to be consecutive.",
 			"",
 			"**Domain Spells:** 1st-{spell/remove fear}, 2nd-{spell/remove paralysis}, 3rd-{spell/remove curse}, 4th-{spell/freedom of movement}, 5th-{spell/break enchantment}, 6th-{spell/greater dispel magic}, 7th-{spell/refuge}, 8th-{spell/mind blank}, 9th-{spell/freedom}.",
 			"",

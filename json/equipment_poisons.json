@@ -1914,7 +1914,7 @@
 			"**Price** 1,200 gp; **Weight** &mdash;  ",
 			"**Type** inhaled; **Save** Fortitude DC 17  ",
 			"**Frequency** 1/round for 6 rounds  ",
-			"**Effect** 1d6 Str; If this poison's accumulated Strength damage ever exceeds the victim's Strength score, the victim immediately begins to {rule/suffocat/e>ion}. A DC 17 Heal check (or any amount of magical healing) is enough to stop this suffocation before the victim dies.  ",
+			"**Effect** 1d6 Str; If this poison's accumulated Strength damage ever exceeds the victim's Strength score, the victim immediately begins to {rule/suffocate}. A DC 17 Heal check (or any amount of magical healing) is enough to stop this suffocation before the victim dies.  ",
 			"**Cure** 2 saves"
 		]
 	},

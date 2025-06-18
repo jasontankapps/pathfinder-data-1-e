@@ -1338,7 +1338,7 @@
 			"",
 			"With a quick jerk, you snap an enemy's neck.  ",
 			"**Prerequisites:** {feat/Bonebreaker}, {feat/Greater Grapple}, {feat/Improved Grapple}, {feat/Improved Unarmed Strike}, {feat/Jawbreaker}, {feat/Stunning Fist}, Heal 12 ranks.  ",
-			"**Benefit:** If you have an opponent your size or smaller {misc/helpless} or [pinned](rule/grapple_conditions), after you initiate or maintain a {rule/grapple}, you can make a Stunning Fist attempt at a -5 penalty on the attack roll. If you succeed, you wrench that opponent's neck, dealing 2d6 Strength or Dexterity damage. If the targeted ability score is reduced to 0, any remaining damage is dealt to that opponent's Constitution score. A creature that is immune to critical hits or that has no discernible head and neck is immune to the effects of this feat.",
+			"**Benefit:** If you have an opponent your size or smaller {misc/helpless} or {rule/pinned}, after you initiate or maintain a {rule/grapple}, you can make a Stunning Fist attempt at a -5 penalty on the attack roll. If you succeed, you wrench that opponent's neck, dealing 2d6 Strength or Dexterity damage. If the targeted ability score is reduced to 0, any remaining damage is dealt to that opponent's Constitution score. A creature that is immune to critical hits or that has no discernible head and neck is immune to the effects of this feat.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/127}",
@@ -2258,7 +2258,7 @@
 			"{SOURCE Antihero's Handbook/9}",
 			"",
 			"When someone grabs you, you can easily reach that opponent's vulnerable spots.  ",
-			"**Benefit:** While you are {rule/grapple/d>_conditions} (but not when you are controlling the grapple), you can attempt a {rule/dirty trick} combat maneuver against the creature grappling you without provoking an attack of opportunity or taking a penalty on the combat maneuver check. If you have the {feat/Improved Dirty Trick} feat, you gain a +2 bonus on combat maneuver checks to attempt such a dirty trick, and the condition the dirty trick imposes lasts for 1 round longer than normal. This bonus stacks with the bonuses granted by Improved Dirty Trick and {feat/Greater Dirty Trick} feats."
+			"**Benefit:** While you are {rule/grappled} (but not when you are controlling the grapple), you can attempt a {rule/dirty trick} combat maneuver against the creature grappling you without provoking an attack of opportunity or taking a penalty on the combat maneuver check. If you have the {feat/Improved Dirty Trick} feat, you gain a +2 bonus on combat maneuver checks to attempt such a dirty trick, and the condition the dirty trick imposes lasts for 1 round longer than normal. This bonus stacks with the bonuses granted by Improved Dirty Trick and {feat/Greater Dirty Trick} feats."
 		]
 	},
 	"oracular_intuition": {

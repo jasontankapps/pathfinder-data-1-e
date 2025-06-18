@@ -141,7 +141,7 @@
 			"{SOURCE Numeria, Land of Fallen Stars/23}  ",
 			"**Type** inhaled; **Fortitude Save* DC 14  ",
 			"**Onset** 1 hour; **Frequency** 1/day  ",
-			"**Effect** 1d6 nonlethal damage and {misc/fatigue}. The fatigue and nonlethal damage cannot be cured while the disease remains. This fatigue does not stack with itself to produce exhaustion, but does stack with other sources of fatigue. A victim that accumulates sufficient damage to fall {misc/unconscious} while infected with bluespit begins to {rule/suffocat/e>ion}. Despite being unconscious, the victim is considered to be holding its breath rather than immediately progressing to negative hit points and death.  ",
+			"**Effect** 1d6 nonlethal damage and {misc/fatigue}. The fatigue and nonlethal damage cannot be cured while the disease remains. This fatigue does not stack with itself to produce exhaustion, but does stack with other sources of fatigue. A victim that accumulates sufficient damage to fall {misc/unconscious} while infected with bluespit begins to {rule/suffocate}. Despite being unconscious, the victim is considered to be holding its breath rather than immediately progressing to negative hit points and death.  ",
 			"**Cure** 2 consecutive saves"
 		]
 	},

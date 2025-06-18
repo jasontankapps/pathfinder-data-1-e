@@ -2898,7 +2898,7 @@
 			"",
 			"::sh[Description]",
 			"",
-			"Sometimes, pirate captains' dedication to looting and pillaging drives them to continue such heinous crimes even after death. Such vile leaders inevitably remain at sea, where they command ghost ships crewed by dreadful draugr, who recognize ghost pirates as powerful undead spirits perhaps most capable of captaining crews of undead."
+			"Sometimes, pirate captains' dedication to looting and pillaging drives them to continue such heinous crimes even after death. Such vile leaders inevitably remain at sea, where they command ghost ships crewed by dreadful {monster/draugr>_pirate}, who recognize ghost pirates as powerful undead spirits perhaps most capable of captaining crews of undead."
 		]
 	},
 	"ghost_captain": { "redirect": "undead_pirate_ghost_captain" },

@@ -41,7 +41,7 @@
 			"**Notice** Perception DC 5 (to see dried bloody prints on the sruface  ",
 			"**hp** 1; **Trigger** touch; **Reset** 1 day  ",
 			"**Effect** Bloody handprints slowly appear on the surface. Anyone touching the surface takes 1d6 points of damage.  ",
-			"**Destruction** The bloody handprints vanish if the surface is thoroughly cleaned and scrubbed with holy water.",
+			"**Destruction** The bloody handprints vanish if the surface is thoroughly cleaned and scrubbed with {eq-weapon/holy water}.",
 			"",
 			"### Description",
 			"",
@@ -60,7 +60,7 @@
 			"**Caster Level** 1st  ",
 			"**Notice** Perception DC 15 (to hear the faint scream behind the wall)  ",
 			"**hp** 1; **Trigger** proximity; **Reset** 1 day  ",
-			"**Effect** The sound of claws scraping on the inside of the wall echoes throughout the hallway. Creatures within its area must succeed at a DC 11 Will save or be shaken for 1d4 rounds.  ",
+			"**Effect** The sound of claws scraping on the inside of the wall echoes throughout the hallway. Creatures within its area must succeed at a DC 11 Will save or be {misc/shaken} for 1d4 rounds.  ",
 			"**Destruction** A character who finds the servant's body and removes her from behind the wall destroys the haunt forever.",
 			"",
 			"### Description",
@@ -80,7 +80,7 @@
 			"**Caster Level** 1st  ",
 			"**Notice** Perception DC 20 (to feel the temperature dropping)  ",
 			"**hp** 2; **Weakness** fire (these effects can damage the haunt); **Trigger** proximity; **Reset** 1 day  ",
-			"**Effect** The temperature suddenly plummets below freezing. All creatures within the radius are affected as if they had been outside in cold weather for 1 hour, taking 1d6 points of nonlethal damage unless they succeed at a DC 15 Fortitude save. The cold temperature lingers for 10 minutes, but has no additional mechanical effect.  ",
+			"**Effect** The temperature suddenly plummets below freezing. All creatures within the radius are affected as if they had been outside in {rule/cold /weather>dangers} for 1 hour, taking 1d6 points of nonlethal damage unless they succeed at a DC 15 Fortitude save. The cold temperature lingers for 10 minutes, but has no additional mechanical effect.  ",
 			"**Destruction** If the cold spot is destroyed with holy fire (such as with {spell/flame strike}), it never returns.",
 			"",
 			"### Description",
@@ -108,7 +108,7 @@
 			"",
 			"### Description",
 			"",
-			"The most common haunts are rapping spirits: unquiet dead with just enough substance to produce disembodied knocking and bumps in the night. Characters can attempt communication with these intelligent spirits by working out codes the spirits can use to convey cryptic messages, or by using tools like spirit planchettes to increase the efficiency of communication with the spirit.",
+			"The most common haunts are rapping spirits: unquiet dead with just enough substance to produce disembodied knocking and bumps in the night. Characters can attempt communication with these intelligent spirits by working out codes the spirits can use to convey cryptic messages, or by using tools like {magic-wondrous/spirit planchette/s} to increase the efficiency of communication with the spirit.",
 			"",
 			"{SOURCE Occult Mysteries/54}  ",
 			"While most haunts are malevolent in nature, some are more benign and serve as a means to communicate with spirits. The most common of these haunts are rapping spirits: unquiet dead with just enough substance to produce cacophonous knocking and loud bumps in the night. Adventurers can attempt communication with these intelligent spirits by working out codes to form cryptic messages at the rate of id10 words per minute with a successful {skill/Linguistics} check."
@@ -125,7 +125,7 @@
 			"NE haunt (10-ft. radius)  ",
 			"**Caster Level** 3rd  ",
 			"**Notice** Perception DC 10 (to hear the moaning spirits approaching)  ",
-			"**hp** 4; **Weakness** Intimidate; **Trigger** proximity; **Reset** 1 hour  ",
+			"**hp** 4; **Weakness** {skill/Intimidate}; **Trigger** proximity; **Reset** 1 hour  ",
 			"**Effect** Spectral forms of disembodied heads emerge from the floor and scream at everyone in the area, their jaws distending to an impossible width. Creatures are affected by {spell/scare}. The spectral heads take pride in terrorizing their victims; if a creature succeeds at a DC 16 Intimidate check to demonstrate its own frightening nature, the spirits decide the PC is the true winner of the current contest, after which they lose interest in the PCs for 1 hour as if reduced to 0 hit points.  ",
 			"**Destruction** The spectral screams haunt is destroyed if a creature spends 8 consecutive hours sleeping in its area.",
 			"",
@@ -149,7 +149,7 @@
 			"**Caster Level** 1st  ",
 			"**Notice** Perception DC 15 (to hear faint mutterings and feel a cool breeze)  ",
 			"**hp** 13; **Weakness** tricked by {spell/hide from undead}; **Trigger** proximity; **Reset** 1 day  ",
-			"**Effect** This haunt seeks to influence the actions of the living, targeting a victim with a {spell/suggestion} effect or a heightened {spell/command} (save DC 14 for either). Depending on the haunt's alignment and goals, the suggested actions may be malicious (such as subtly putting its victims in harm's way or sowing antagonistic interactions) or benign (such as prompting mysterious automatic writings or unconscious utterances in hopes of communicating its ambitions to the world of the living).  ",
+			"**Effect** This haunt seeks to influence the actions of the living, targeting a victim with a {spell/suggestion} effect or a {feat/heightened} {spell/command} (save DC 14 for either). Depending on the haunt's alignment and goals, the suggested actions may be malicious (such as subtly putting its victims in harm's way or sowing antagonistic interactions) or benign (such as prompting mysterious automatic writings or unconscious utterances in hopes of communicating its ambitions to the world of the living).  ",
 			"**Destruction** A demanding dead typically asks for rest for its mortal remains or the resolution of desires unfulfilled in life. Fulfilling the request dismisses the haunt.",
 			"",
 			"### Description",
@@ -171,7 +171,7 @@
 			"NE persistent haunt (15-ft. radius)  ",
 			"**Caster Level** 3rd  ",
 			"**Notice** Perception DC 15 (to notice a chill fog forming)  ",
-			"**hp** 13; **Weakness** slow; **Trigger** proximity; **Reset** 1 hour  ",
+			"**hp** 13; **Weakness** {spell/slow}; **Trigger** proximity; **Reset** 1 hour  ",
 			"**Effect** A chilly fog descends, twisting and condensing into claws that grab and prod those within it. This fog functions as per {spell/haunting mists} (DC 13).  ",
 			"**Destruction** Casting {spell/consecrate} on the ground underneath the mist prevents it from returning.",
 			"",
@@ -192,8 +192,8 @@
 			"**Caster Level** 5th  ",
 			"**Notice** Perception DC 20 (to hear a shovel cleaving through dirt)  ",
 			"**hp** 18; **Trigger** proximity; **Reset** 1 day  ",
-			"**Effect** On the first round, spectral gravediggers create a single 15-foot-deep pit covering the haunt's entire radius. Creatures in the area must succeed at a DC 15 Reflex saving throw or fall to the bottom of the pit, taking 2d6 points of damage. Creatures who succeed leap to a square at the edge of the pit. The walls of the pit are uneven (Climb DC 20). On the second round, the spectral gravediggers fill the pit with loose, spectral dirt, burying everyone still inside. Buried creatures are pinned, but they can reduce their condition to grappled with a successful DC 15 Strength check. They take 1d6 points of nonlethal damage each minute, and begin to suffocate after 10 minutes. Creatures outside of the pit can dig out the buried creatures. Each 5-foot cube of spectral dirt weighs 1,000 pounds; a creature can move 5 times her maximum load worth of dirt per minute, or 10 times her maximum load if she has a shovel. If the haunt is dispersed, buried creatures automatically rise to the surface.  ",
-			"**Destruction** The haunt can be permanently destroyed if a character finds the bones of the person who was buried alive, exhumes them, coats them in holy water, and reburies them in a temple of their patron deity.",
+			"**Effect** On the first round, spectral gravediggers create a single 15-foot-deep pit covering the haunt's entire radius. Creatures in the area must succeed at a DC 15 Reflex saving throw or fall to the bottom of the pit, taking 2d6 points of damage. Creatures who succeed leap to a square at the edge of the pit. The walls of the pit are uneven (Climb DC 20). On the second round, the spectral gravediggers fill the pit with loose, spectral dirt, burying everyone still inside. Buried creatures are {rule/pinned}, but they can reduce their condition to *grappled* with a successful DC 15 Strength check. They take 1d6 points of nonlethal damage each minute, and begin to {rule/suffocate} after 10 minutes. Creatures outside of the pit can dig out the buried creatures. Each 5-foot cube of spectral dirt weighs 1,000 pounds; a creature can move 5 times her maximum load worth of dirt per minute, or 10 times her maximum load if she has a {eq-misc/shovel}. If the haunt is dispersed, buried creatures automatically rise to the surface.  ",
+			"**Destruction** The haunt can be permanently destroyed if a character finds the bones of the person who was buried alive, exhumes them, coats them in {eq-weapon/holy water}, and reburies them in a temple of their patron deity.",
 			"",
 			"### Description",
 			"",
@@ -229,8 +229,8 @@
 			"**Caster Level** 7th  ",
 			"**Notice** Perception DC 10 (to notice nearby strange footprints and hear rustling in nearby underbrush)  ",
 			"**hp** 8; **Weakness** negative energy (see {rule/echoes of the first world}); **Trigger** proximity; **Reset** 1 week  ",
-			"**Effect** Strange animal noises pervade the underbrush within the area of the echo, and strange tracks can be easily discovered. Non-fey viewing the tracks are fascinated by them and are compelled to follow (DC 16 Will negates). Each creature that fails this save follows a different set of tracks only it can perceive, moving in a random direction for up to 1 minute at a speed of 20 feet per round. This effect continues even if the creature leaves the echo's area. At the end of each of its turns following the tracks, a creature can attempt a new Will saving throw to negate the effect. If it fails three such saving throws, the creature must follow the tracks for the remaining duration. {spell/Break enchantment} or a similar effect cast on an affected creature removes this compulsion. This is a mind-affecting effect.  ",
-			"**Destruction** A character who succeeds at her initial saving throw against the compulsion can attempt to deal damage against the echo by disrupting the original tracks. This requires the use of Survival as a full-round action. With a successful DC 24 Survival check, such a character deals 1d6 points of damage to the echo. If the result of the Survival check used in this way is a natural 20, she deals 2d6 points of damage to the echo instead. Casting {spell/find the path} and touching the tracks (treating it as a creature for this use) destroys the haunt instantly."
+			"**Effect** Strange animal noises pervade the underbrush within the area of the echo, and strange tracks can be easily discovered. Non-fey viewing the tracks are {misc/fascinated} by them and are compelled to follow (DC 16 Will negates). Each creature that fails this save follows a different set of tracks only it can perceive, moving in a random direction for up to 1 minute at a speed of 20 feet per round. This effect continues even if the creature leaves the echo's area. At the end of each of its turns following the tracks, a creature can attempt a new Will saving throw to negate the effect. If it fails three such saving throws, the creature must follow the tracks for the remaining duration. {spell/Break enchantment} or a similar effect cast on an affected creature removes this compulsion. This is a mind-affecting effect.  ",
+			"**Destruction** A character who succeeds at her initial saving throw against the compulsion can attempt to deal damage against the echo by disrupting the original tracks. This requires the use of {skill/Survival} as a full-round action. With a successful DC 24 Survival check, such a character deals 1d6 points of damage to the echo. If the result of the Survival check used in this way is a natural 20, she deals 2d6 points of damage to the echo instead. Casting {spell/find the path} and touching the tracks (treating it as a creature for this use) destroys the haunt instantly."
 		]
 	},
 	"belated_arrival": {
@@ -244,8 +244,8 @@
 			"N chained haunt (25-ft. radius)  ",
 			"**Caster Level** 9th  ",
 			"**Notice** Perception DC 20 (to hear running footsteps)  ",
-			"**hp** 22; **Weakness** slow; **Trigger** proximity; **Reset** 1 day  ",
-			"**Effect** The spectral forms of several people take faltering steps before falling to their knees and wailing with grief. All creatures in the area are exhausted (no save, as per {spell/waves of exhaustion}) and are slowed for 13 minutes as per slow unless they succeed at a DC 16 Will saving throw.  ",
+			"**hp** 22; **Weakness** {spell/slow}; **Trigger** proximity; **Reset** 1 day  ",
+			"**Effect** The spectral forms of several people take faltering steps before falling to their knees and wailing with grief. All creatures in the area are {misc/exhausted} (no save, as per {spell/waves of exhaustion}) and are slowed for 13 minutes as per *slow* unless they succeed at a DC 16 Will saving throw.  ",
 			"**Destruction** These spirits find rest only if those they could not save lead them to the afterlife.",
 			"",
 			"### Description",
@@ -303,9 +303,9 @@
 			"**Notice** Perception or Spellcraft DC 20 (to hear the sound of clashing energy or deduce the effect from the charred ground)  ",
 			"**hp** 27; **Weakness** energy damage (immune to positive energy); **Trigger** proximity; **Reset** 1 day  ",
 			"**Effect** Each round, the arcane storm fires a bolt of energy to hit as many creatures as possible in its area (Reflex DC 15 halves). This functions as per {spell/lightning bolt}, except the energy type cycles between acid, cold, electricity, and fire. The storm is immune to the most recent type of energy damage it has dealt.  ",
-			"**Destruction** The arcane storm is destroyed if a character successfully counterspells four of its bolts in a row.",
+			"**Destruction** The arcane storm is destroyed if a character successfully {rule/counterspells} four of its bolts in a row.",
 			"",
-			"### Description",
+			"### Magical Scars",
 			"",
 			"Each spell, no matter how weak, leaves its signature on the world for a short time, which spellcasters can perceive as a lingering magical aura. When dozens of powerful spells are hurled against each other over a small area, reality itself can form scars that affect all who come near them.",
 			"",
@@ -323,11 +323,11 @@
 			"{SOURCE Horror Realms/62}  ",
 			"**CR** 6; **XP** 2,400  ",
 			"CE persistent variant haunt (20-ft. radius)  ",
-			"**Caster Level** 6th; Deity Lamashtu  ",
+			"**Caster Level** 6th; **Deity** {faith/Lamashtu}  ",
 			"**Notice** Perception DC 0 (to hear the sound of howling and screeching beasts  ",
 			"**hp** 27; **Weakness** good or lawful spells or effects; **Trigger** proximity; **Reset** 1 day  ",
-			"**Effect** Remnants of Lamashtu's power awaken bestial ferocity within those who walk upon this unholy ground. All creatures must succeed at a DC 16 Will saving throw or experience the effects of the {spell/moonstruck} spell. Additionally, worshipers of Desna who fail the saving throw take 2d6 points of slashing, bludgeoning, and piercing damage each round for the next 5 rounds as deep gashes and bite marks appear all over their bodies. These bites do not count as an attacker for the purposes of determining a Desnan's actions. Creatures that worship Lamashtu gain the bite and claw attacks that {spell/moonstruck} grants for 24 hours without any ill effects. If they already have claws or a bite attack, these attacks deal damage as if they were two size categories larger.  ",
-			"**Destruction** If a cleric of Desna with the Travel domain casts {spell/find the path} on the resonance, it is permanently destroyed. When the spell is cast in this way, it has no other effect.",
+			"**Effect** Remnants of Lamashtu's power awaken bestial ferocity within those who walk upon this unholy ground. All creatures must succeed at a DC 16 Will saving throw or experience the effects of the {spell/moonstruck} spell. Additionally, worshipers of {faith/Desna} who fail the saving throw take 2d6 points of slashing, bludgeoning, and piercing damage each round for the next 5 rounds as deep gashes and bite marks appear all over their bodies. These bites do not count as an attacker for the purposes of determining a Desnan's actions. Creatures that worship Lamashtu gain the bite and claw attacks that {spell/moonstruck} grants for 24 hours without any ill effects. If they already have claws or a bite attack, these attacks deal damage as if they were {misc/two size categories larger}.  ",
+			"**Destruction** If a cleric of Desna with the {domain/Travel} domain casts {spell/find the path} on the resonance, it is permanently destroyed. When the spell is cast in this way, it has no other effect.",
 			"",
 			"### Description",
 			"",
@@ -339,7 +339,7 @@
 			"",
 			"The resonances sense the presence of their creator's influence and react differently to their creator's followers than to all others they encounter. Typically, they grant the faithful a benefit for 24 hours, though a single pilgrim can receive a manifestation's blessing only once. A miraculous resonance haunt has an alignment identical to the deity with which it resonates. These resonances typically manifest in areas where the associated deity's worship has traditionally been strong, but they can appear anywhere where such worship is particularly potent or where the deity has brushed against the Material Plane at some point in the past.",
 			"",
-			"Miraculous resonances are vulnerable to forces connected to other deities, as well as spells that oppose their deity's nature. Spells with an alignment descriptor that does not match the haunt's alignment deal 1d6 points of damage per spell level (or the spell's damage against an aligned outsider, whichever is higher). While weapon attacks cannot normally harm miraculous resonances, these haunts take any extra damage that specifically affects creatures of their alignment, such as the 2d6 points of extra damage from a {magic-enh/holy} weapon or the extra damage from a paladin's smite evil. Such attacks target an AC of 5. Channeled energy can damage a resonance, so long as the creature channeling the energy has a patron deity of a different alignment than the haunt."
+			"Miraculous resonances are vulnerable to forces connected to other deities, as well as spells that oppose their deity's nature. Spells with an alignment descriptor that does not match the haunt's alignment deal 1d6 points of damage per spell level (or the spell's damage against an aligned outsider, whichever is higher). While weapon attacks cannot normally harm miraculous resonances, these haunts take any extra damage that specifically affects creatures of their alignment, such as the 2d6 points of extra damage from a {magic-enh/holy} weapon or the extra damage from a paladin's smite evil. Such attacks target an AC of 5. {ability/Channel[ed] energy} can damage a resonance, so long as the creature channeling the energy has a patron deity of a different alignment than the haunt."
 		]
 	},
 	"unsolved_murder": {
@@ -374,8 +374,8 @@
 			"**Caster Level** 7th  ",
 			"**Notice** Perception or Sense Motive DC 20 (to see the outllines of a dozen cloaked figures begin to form or feel a suden sense of suspicion)  ",
 			"**hp** 31; **Trigger** proximity; **Reset** 1 day  ",
-			"**Effect** As dozens of cloaked figures swarm the area, the line between friend and foe blurs, and paranoia descends upon everyone within the haunt's area, as per {spell/confusion} (Will DC 15 negates). Furthermore, creatures within the haunt's area must attempt a DC 15 Will saving throw against the haunt's curse. Until it is removed, the curse forces its victims to attempt saving throws against spells, including those designated harmless. Additionally, the victims cannot benefit from any effect that requires them to treat another creature as an ally, such as flanking or aid another. {spell/Remove curse} can remove this effect.  ",
-			"**Destruction** The betrayal haunt is destroyed if a victim falls unconscious or dies because of damage it took on behalf of another creature in the area. Any spell or ability that allows for the transfer of damage, such as {spell/shield other} or a {mystery/life/ oracle's lifelink ability}, satisfies this haunt's requirement. This doesn't work if the characters in question colluded to manufacture the damage transfer to destroy the haunt; it works only if it was a truly selfless act of protecting another.",
+			"**Effect** As dozens of cloaked figures swarm the area, the line between friend and foe blurs, and paranoia descends upon everyone within the haunt's area, as per {spell/confusion} (Will DC 15 negates). Furthermore, creatures within the haunt's area must attempt a DC 15 Will saving throw against the haunt's curse. Until it is removed, the curse forces its victims to attempt saving throws against spells, including those designated harmless. Additionally, the victims cannot benefit from any effect that requires them to treat another creature as an ally, such as {rule/flanking} or {rule/aid another>_2}. {spell/Remove curse} can remove this effect.  ",
+			"**Destruction** The betrayal haunt is destroyed if a victim falls unconscious or dies because of damage it took on behalf of another creature in the area. Any spell or ability that allows for the transfer of damage, such as {spell/shield other} or a {mystery/life} oracle's lifelink ability, satisfies this haunt's requirement. This doesn't work if the characters in question colluded to manufacture the damage transfer to destroy the haunt; it works only if it was a truly selfless act of protecting another.",
 			"",
 			"### Description",
 			"",
@@ -391,7 +391,7 @@
 			"{SOURCE Horror Realms/62}  ",
 			"**CR** 7; **XP** 3,200  ",
 			"N persistent variant haunt (30-ft. radius)  ",
-			"**Caster Level** 7th; Deity Gozreh  ",
+			"**Caster Level** 7th; **Deity** {faith/Gozreh}  ",
 			"**Notice** Perception DC 0 (to hear a rumbling thunderstorm)  ",
 			"**hp** 31; **Weakness** chaotic, evil, good, or lawful effects; **Trigger** proximity; **Reset** 1 day  ",
 			"**Effect** A fierce storm rages, bringing [windstorm-strength winds and pouring rain](rule/weather). Each round for 6 rounds, a bolt of lightning strikes a random creature within the area, dealing 5d10 points of damage (Reflex DC 17 half). A worshiper of Gozreh who stays in the area of the resonance for its entire 6-round duration gains the ability to cast each of the following spells once, with a caster level equal to her Hit Dice: {spell/alter winds}, {spell/resist energy} (electricity only), and {spell/water breathing}. The ability to cast these spells persists until it is expended.  ",
@@ -407,7 +407,7 @@
 			"",
 			"The resonances sense the presence of their creator's influence and react differently to their creator's followers than to all others they encounter. Typically, they grant the faithful a benefit for 24 hours, though a single pilgrim can receive a manifestation's blessing only once. A miraculous resonance haunt has an alignment identical to the deity with which it resonates. These resonances typically manifest in areas where the associated deity's worship has traditionally been strong, but they can appear anywhere where such worship is particularly potent or where the deity has brushed against the Material Plane at some point in the past.",
 			"",
-			"Miraculous resonances are vulnerable to forces connected to other deities, as well as spells that oppose their deity's nature. Spells with an alignment descriptor that does not match the haunt's alignment deal 1d6 points of damage per spell level (or the spell's damage against an aligned outsider, whichever is higher). While weapon attacks cannot normally harm miraculous resonances, these haunts take any extra damage that specifically affects creatures of their alignment, such as the 2d6 points of extra damage from a {magic-enh/holy} weapon or the extra damage from a paladin's smite evil. Such attacks target an AC of 5. Channeled energy can damage a resonance, so long as the creature channeling the energy has a patron deity of a different alignment than the haunt."
+			"Miraculous resonances are vulnerable to forces connected to other deities, as well as spells that oppose their deity's nature. Spells with an alignment descriptor that does not match the haunt's alignment deal 1d6 points of damage per spell level (or the spell's damage against an aligned outsider, whichever is higher). While weapon attacks cannot normally harm miraculous resonances, these haunts take any extra damage that specifically affects creatures of their alignment, such as the 2d6 points of extra damage from a {magic-enh/holy} weapon or the extra damage from a paladin's smite evil. Such attacks target an AC of 5. {ability/Channel[ed] energy} can damage a resonance, so long as the creature channeling the energy has a patron deity of a different alignment than the haunt."
 		]
 	},
 	"malignant_weapon": {
@@ -423,18 +423,18 @@
 			"**Notice** Perception DC 25 (to hear distant cackling when touching the weapon)  ",
 			"**hp** 36; **Weakness** tricked by {spell/invisibility}; **Trigger** special (see below); **Reset** 1 day  ",
 			"**Effect** Whenever the wielder of the haunted weapon threatens a critical hit with the weapon, the area immediately resonates with a cacophonous cackling. All creatures within a 35-foot radius centered on the weapon suffer the effects of a {spell/song of discord} spell (Will DC 17 negates) for the next 8 rounds. If the weapon's wielder is affected, she gains a +2 bonus on the critical confirmation roll.  ",
-			"**Destruction** The weapon must be boiled in the cauldron of a willing hag's coven, which destroys both the weapon and the cauldron at the same time.",
+			"**Destruction** The weapon must be boiled in the cauldron of a willing {family/hag/'s} coven, which destroys both the weapon and the cauldron at the same time.",
 			"",
 			"### Description",
 			"",
-			"Sometimes a weapon that slays a powerful witch or hag becomes tainted by the victim's malignant hatred. Although haunted weapons often still bear holy marks from the original owners or relics like bones from a revered saint, these are never sufficient to contain the malevolence that dwells within the weapon."
+			"Sometimes a weapon that slays a powerful {class/witch} or hag becomes tainted by the victim's malignant hatred. Although haunted weapons often still bear holy marks from the original owners or relics like bones from a revered saint, these are never sufficient to contain the malevolence that dwells within the weapon."
 		]
 	},
-	"bountiful_feat": {
-		"name": "Bountiful Feat",
+	"bountiful_feast": {
+		"name": "Bountiful Feast",
 		"sources": [ "Pathfinder #144: Midwives to Death" ],
 		"description": [
-			"## Bountiful Feat",
+			"## Bountiful Feast",
 			"",
 			"{SOURCE Pathfinder #144: Midwives to Death/65}  ",
 			"**CR** 8; **XP** 4,800  ",
@@ -444,14 +444,10 @@
 			"**hp** 72; **Trigger** touch; **Reset** 1 hour  ",
 			"**Effect** This haunt appears as a large grove of trees or patch of berry-laden bushes covered in perfectly ripe and delicious-looking fruit native to the area. The haunt notices Small or larger creatures and triggers as soon as such a creature attempts to grab a fruit. As soon as it is triggered, the fruits near every Small or larger creature in the area explode into a cloud of carnivorous seeds coated in poison that infest their targets' flesh.",
 			"",
-			"These seeds have two effects. First, the poison is a powerful neurotoxin that paralyzes its victims (bountiful feast poison: contact; *save* Fort DC 20; *frequency* 1/round for 10 rounds; *effect* paralysis for 1 round; *cure* 2 consecutive saves). Second, the seeds quickly feed upon unmoving prey; on each round that an infested creature does not spend a move action to move at least 10 feet, it must succeed at a DC 18 Fortitude save or take 1d6 points of Constitution damage as the seeds feed upon the nutrients in its body. This effect ends only if the haunt is destroyed or the seeds are removed from the creature's body (see below). If a creature dies from this Constitution damage, its body explodes into a 5-foot-radius area of fruiting plants that is added to the haunt's area (even if it is outside of the haunt's typical radius). For each point of Constitution damage the seeds deal, the haunt gains 3 temporary hit points. These temporary hit points last for 1 hour.",
+			"These seeds have two effects. First, the poison is a powerful neurotoxin that paralyzes its victims (bountiful feast poison: contact; *save* Fort DC 20; *frequency* 1/round for 10 rounds; *effect* paralysis for 1 round; *cure* 2 consecutive saves). Second, the seeds quickly feed upon unmoving prey; on each round that an infested creature does not spend a move action to move at least 10 feet, it must succeed at a DC 18 Fortitude save or take 1d6 points of Constitution damage as the seeds feed upon the nutrients in its body. This effect ends only if the haunt is destroyed or the seeds are removed from the creature's body (see below). If a creature dies from this Constitution damage, its body explodes into a 5-foot-radius area of fruiting plants that is added to the haunt's area (even if it is outside of the haunt's typical radius). For each point of Constitution damage the seeds deal, the haunt gains 3 {rule/temporary hit points}. These temporary hit points last for 1 hour.",
 			"",
 			"Extracting the seeds from an affected creature requires a successful DC 25 Heal check as a standard action. Regardless of whether the check succeeds or fails, the target takes an amount of damage equal to 1d6 times the amount of Constitution damage it has already taken from the seeds. Spells such as {spell/remove disease} and {spell/heal} can also treat the affliction, in which case the target doesn't take hit point damage.  ",
-			"**Destruction** The weapon must be boiled in the cauldron of a willing hag's coven, which destroys both the weapon and the cauldron at the same time.",
-			"",
-			"### Description",
-			"",
-			"The demon-possessed {monster/dryad} in the nearby crypt must be defeated and its ashes scattered around the dryad's tree."
+			"**Destruction** The demon-possessed {monster/dryad} in the nearby crypt must be defeated and its ashes scattered around the dryad's tree."
 		]
 	},
 	"dimensional_tear": {
@@ -467,9 +463,9 @@
 			"**Caster Level** 13th  ",
 			"**Notice** Perception DC 18 (to see rippling, rainbow-hued distortions in the air)  ",
 			"**hp** 27; **Weaknesses** negative energy (see {rule/echoes of the first world}); **Trigger** proximity  ",
-			"**Effect** As soon as a Small or larger creature enters the area of a dimensional tear, it is affected as if by {spell/plane shift} and must succeed at a Will save (DC 21) or be immediately transported to the First World. When this occurs, a creature from the First World (determined randomly from the {spell/summon nature's ally VI} list) is teleported to a space adjacent to the echo, determined by the GM. The creature has a starting attitude of hostile.  ",
+			"**Effect** As soon as a Small or larger creature enters the area of a dimensional tear, it is affected as if by {spell/plane shift} and must succeed at a Will save (DC 21) or be immediately transported to {rule/the First World}. When this occurs, a creature from the First World (determined randomly from the {spell/summon nature's ally VI} list) is teleported to a space adjacent to the echo, determined by the GM. The creature has a starting attitude of hostile.  ",
 			"**Benefit** Determine the First World creature called using the {spell/summon nature's ally VII} list instead, and then add the {template/fey creature/ template}.  ",
-			"**Destruction** A character with {spell/plane shift} prepared can attempt to counterspell the echo's effect. Successfully doing so destroys the dimensional tear."
+			"**Destruction** A character with {spell/plane shift} prepared can attempt to {rule/counterspell>s} the echo's effect. Successfully doing so destroys the dimensional tear."
 		]
 	},
 	"robotic_reactivation": {
@@ -483,8 +479,8 @@
 			"N chained persistent variant haunt (20-ft. radius centered on the activated robot)  ",
 			"**Caster Level** 8th  ",
 			"**Notice** Perception DC 20 (to hear whirring mechanisms springing to life)  ",
-			"**hp** 36; **Weakness** harmed by Disable Device DC 23 and electricity effects (immune to positive energy); **Trigger** proximity; **Reset** 1 hour  ",
-			"**Effect** A whirling cloud of miniature repair robots animates and reactivates a dormant {monster/myrmidon robot}. The repair robots follow the myrmidon and augment its defenses. The myrmidon's force field improves to 75 hit points with fast healing of 15, and the myrmidon gains a +2 bonus on all saving throws and to AC.  ",
+			"**hp** 36; **Weakness** harmed by {skill/Disable Device} DC 23 and electricity effects (immune to positive energy); **Trigger** proximity; **Reset** 1 hour  ",
+			"**Effect** A whirling cloud of miniature repair robots animates and reactivates a dormant {monster/myrmidon robot}. The repair robots follow the myrmidon and augment its defenses. The myrmidon's force field improves to 75 hit points with {umr/fast healing} of 15, and the myrmidon gains a +2 bonus on all saving throws and to AC.  ",
 			"**Destruction** Destroying the myrmidon prevents this technological surge from recurring.",
 			"",
 			"### Description",
@@ -513,7 +509,7 @@
 			"**Notice** Perception DC 20 (to hear bubbles rising to the surface of the water)  ",
 			"**hp** 36; **Trigger** proximity; **Reset** 1 day  ",
 			"**Effect** A ghostly tendril of water erupts from the sea and forces itself into the lungs of a living creature aboard the ship, which then begins to drown. This functions as per {spell/suffocation} (Fortitude DC 17 negates). The haunt affects one additional victim each round until it is dispersed.  ",
-			"**Destruction** The watery grave haunt is destroyed if the ghost ship's captain is permanently destroyed.",
+			"**Destruction** The watery grave haunt is destroyed if the {monster/ghost [ship's ]captain} is permanently destroyed.",
 			"",
 			"### Description",
 			"",
@@ -532,12 +528,12 @@
 			"**Caster Level** 9th  ",
 			"**Notice** Perception DC 20 (to hear teeth scraping againt bone)  ",
 			"**hp** 40; **Trigger** proximity; **Reset** 1 day  ",
-			"**Effect** A swarm of disembodied mouths fills the area. Each humanoid creature in the area must succeed at a DC 21 Fortitude save or be paralyzed, as per {spell/mass hold person}. The maws swarm around paralyzed creatures, dealing them 4d6 points of damage per round. Elves are immune to the effects of this haunt.  ",
+			"**Effect** A swarm of disembodied mouths fills the area. Each humanoid creature in the area must succeed at a DC 21 Fortitude save or be paralyzed, as per {spell/mass hold person}. The maws swarm around paralyzed creatures, dealing them 4d6 points of damage per round. {race/Elves} are immune to the effects of this haunt.  ",
 			"**Destruction** Living (though not necessarily sentient) creatures with a combined weight of at least 10,000 pounds must be left in the area to be devoured over the course of a single day.",
 			"",
 			"### Description",
 			"",
-			"A pack of ravenous ghouls descended upon a once-peaceful town, killing or transforming all of its denizens who were not fast enough to flee. The ghouls' unending hunger blended with the townsfolk's horrifying memories of death to produce the devouring maws haunt."
+			"A pack of ravenous {monster/ghoul/s} descended upon a once-peaceful town, killing or transforming all of its denizens who were not fast enough to flee. The ghouls' unending hunger blended with the townsfolk's horrifying memories of death to produce the devouring maws haunt."
 		]
 	},
 	"insidious_presence": {
@@ -573,7 +569,7 @@
 			"N persistent variant haunt (up to 45-ft.-square room)  ",
 			"**Caster Level** 9th  ",
 			"**Notice** Perception DC 30 (to hear a faint humming)  ",
-			"**hp** 40; **Weakness** harmed by Disable Device DC 24 (immune to positive energy); **Trigger** proximity; **Reset** 1 day  ",
+			"**hp** 40; **Weakness** harmed by {skill/Disable Device} DC 24 (immune to positive energy); **Trigger** proximity; **Reset** 1 day  ",
 			"**Effect** On the first round, a network of lasers detects all corporeal Diminutive or larger creatures in the area, excluding invisible creatures. Heavy blast doors drop to bar creatures from exiting the room (break DC 35). On the second round, one laser activates for each creature detected and fires concentrated beams at its targets (+12 touch, 5d6 points of fire damage). The lasers fire each round for 5 rounds unless disabled or destroyed. Destroying the lasers without disabling the surge is difficult - each laser has 10 hardness and 20 hp. The blast doors reopen if the surge is disabled or if all of the laser guns are destroyed.  ",
 			"**Destruction** Disabling the surge is sufficient to stop the network from reactivating.",
 			"",
@@ -602,19 +598,19 @@
 			"**Caster Level** 9th  ",
 			"**Notice** Perception DC 20 (to smell a faint floral odor)  ",
 			"**hp** 40; **Weakness** negative energy (immune to positive energy); **Trigger** proximity; **Reset** 1 day  ",
-			"**Effect** The surrounding area begins to rapidly cycle through manifestations of the season. Each season lasts 1 round, and the haunt cycles through the seasons three times (lasting 12 rounds total). On the spring round, flowers bloom, spreading a thick cloud of pollen that blocks sight (as per {spell/obscuring mist}) and requires each creature within the area to succeed at a DC 18 Fortitude saving throw or sneeze violently, gaining the staggered condition for 1 round. On the summer round, the pollen falls out of the air as the atmosphere becomes unbearably hot and dry, dealing 8d6 points of damage (Fortitude DC 18 half). Half of this damage is fire damage, and the other half is untyped damage from desiccation. On the autumn round, ropes of decaying leaves grasp at all creatures in the area, as per {spell/black tentacles}. Finally, on the winter round, a heavy hailstorm strikes, as per {spell/ice storm}.  ",
-			"**Overcharge** During a spring round, seeds join the pollen spray, implanting themselves in the flesh of all living creatures that fail a DC 18 Fortitude saving throw. These seeds deal 1d4 points of Strength damage. A summer round becomes hotter, dealing 12d6 points of fire and untyped damage instead of 8d6. On an autumn round, the leaves become razor sharp, dealing 1d6 points of bleed damage to any foe they grapple. A winter round produces a more bitter chill and causes any creature that fails a DC 18 Fortitude saving throw to become staggered and move at half speed for 1 minute.  ",
+			"**Effect** The surrounding area begins to rapidly cycle through manifestations of the season. Each season lasts 1 round, and the haunt cycles through the seasons three times (lasting 12 rounds total). On the spring round, flowers bloom, spreading a thick cloud of pollen that blocks sight (as per {spell/obscuring mist}) and requires each creature within the area to succeed at a DC 18 Fortitude saving throw or sneeze violently, gaining the {misc/staggered} condition for 1 round. On the summer round, the pollen falls out of the air as the atmosphere becomes unbearably hot and dry, dealing 8d6 points of damage (Fortitude DC 18 half). Half of this damage is fire damage, and the other half is untyped damage from desiccation. On the autumn round, ropes of decaying leaves grasp at all creatures in the area, as per {spell/black tentacles}. Finally, on the winter round, a heavy hailstorm strikes, as per {spell/ice storm}.  ",
+			"**Overcharge** During a spring round, seeds join the pollen spray, implanting themselves in the flesh of all living creatures that fail a DC 18 Fortitude saving throw. These seeds deal 1d4 points of Strength damage. A summer round becomes hotter, dealing 12d6 points of fire and untyped damage instead of 8d6. On an autumn round, the leaves become razor sharp, dealing 1d6 points of {rule/bleed} damage to any foe they grapple. A winter round produces a more bitter chill and causes any creature that fails a DC 18 Fortitude saving throw to become staggered and move at half speed for 1 minute.  ",
 			"**Destruction** To destroy the haunt, a character must use a spell or effect that counters a seasonal effect with one associated with the opposite season (for example, a fire effect during the winter round, or an {spell/entangle} spell during the autumn round) for 4 consecutive rounds.",
 			"",
 			"### Description",
 			"",
-			"The most powerful beings in the First World are the Eldest, divine creatures who can transform large swaths of the plane to suit their interests. Mortal scholars know little about the Eldest, with Ng the Hooded, who is connected to the shifting seasons, proving particularly inscrutable. Seasonal haunts manifest at crossroads in the Material Plane connected to the paths Ng treads in the First World.",
+			"The most powerful beings in {rule/the First World} are the Eldest, divine creatures who can transform large swaths of the plane to suit their interests. Mortal scholars know little about the Eldest, with {faith/Ng/ the Hooded}, who is connected to the shifting seasons, proving particularly inscrutable. Seasonal haunts manifest at crossroads in the Material Plane connected to the paths Ng treads in the First World.",
 			"",
 			"### Echoes of the First World",
 			"",
 			"The boundless and ever-shifting First World is home to fey and all manner of strange, otherworldly creatures caught in a constant flux of life-giving energies. Ancient beyond measure, the realm is a vibrant \"first draft of reality,\" according to legend. It shares its place in existence with the Material Plane, and in some places, the boundary between the two planes wears thin. The Material Plane's influence on the First World manifests as regions of stubborn stability that the First World's denizens regard with disgust. On the Material Plane, the fey realm's pull erodes the laws of time and space and transforms reality in its wake.",
 			"",
-			"Unlike a typical haunt, an echo of the First World is healed by positive energy. In fact, when these manifestations interact with positive energy, they typically become stronger. When an echo of the First World is healed beyond its normal maximum hit points, any excess hit points persist for 1 minute as temporary hit points. As long as it has any temporary hit points, it gains the effects listed in the overcharge section of its stat block.",
+			"Unlike a typical haunt, an echo of the First World is healed by positive energy. In fact, when these manifestations interact with positive energy, they typically become stronger. When an echo of the First World is healed beyond its normal maximum hit points, any excess hit points persist for 1 minute as {rule/temporary hit points}. As long as it has any temporary hit points, it gains the effects listed in the overcharge section of its stat block.",
 			"",
 			"While positive energy is a boon for these unusual haunts, negative energy damages them as if they were living creatures. Damaging spells with the death descriptor also harm them. Echoes of the First World are almost always chaotic neutral."
 		]
@@ -634,7 +630,7 @@
 			"**hp** 45; **Weakness** negative energy (see {rule/echoes of the first world}); **Trigger** proximity  ",
 			"**Effect** Every minute a creature spends within an enchanting demise, that creature must succeed at a DC 25 Will save or fall asleep as though affected by {spell/deep slumber}. Creatures that fail this save and fall asleep take 1 point of Wisdom drain each minute they sleep within the area of an enchanting demise. A creature that succeeds at this Will saving throw remains awake, but it must attempt a new saving throw after 1 minute if it does not leave the enchanting demise's area. A creature reduced to 0 Wisdom by this effect dies and blooms into a field of colorful wildflowers with a radius of 5 feet per Hit Die the creature had. If this radius would extend beyond the radius of the enchanting demise, it instead expands the radius of the echo out to the border of the created wildflowers. The presence of such wildflowers reduces the Perception DC to notice the echo by 2.  ",
 			"**Benefit** Sleeping creatures take 1d4 points of Wisdom drain each minute instead of 1 per minute.  ",
-			"**Destruction** A character with the {feat/Lucid Dreamer} feat who falls asleep in an enchanting demise intrusion can attempt to destroy it permanently in the Dimension of Dreams. When such a character falls asleep, he receives one attempt to successfully form a [lucid body](rule/dimension_of_dreams) without disadvantage. If he fails this check, he does not successfully lucid dream and remains in a dreamless slumber. If the character succeeds at this check, he can immediately attempt a DC 15 Charisma check to affect the boundary between the Dimension of Dreams, the Material Plane, and the First World. If he succeeds, the enchanting demise is destroyed and all sleeping creatures in its area wake up. If the character fails, he immediately ceases lucid dreaming and falls into a deep, dreamless sleep."
+			"**Destruction** A character with the {feat/Lucid Dreamer} feat who falls asleep in an enchanting demise intrusion can attempt to destroy it permanently in the Dimension of Dreams. When such a character falls asleep, he receives one attempt to successfully form a [lucid body](rule/dimension_of_dreams) without disadvantage. If he fails this check, he does not successfully lucid dream and remains in a dreamless slumber. If the character succeeds at this check, he can immediately attempt a DC 15 Charisma check to affect the boundary between the Dimension of Dreams, the Material Plane, and {rule/the First World}. If he succeeds, the enchanting demise is destroyed and all sleeping creatures in its area wake up. If the character fails, he immediately ceases lucid dreaming and falls into a deep, dreamless sleep."
 		]
 	},
 	"living_decay": {
@@ -663,11 +659,11 @@
 			"**Effect** In the weakened state, the target also takes a -2 penalty on Strength- and Dexterity-based skill checks and ability checks. In the impaired state, the target takes a 50% miss chance on attack rolls and the target's speed is reduced by half (minimum 5 feet). All objects touched at the impaired state and beyond can transfer the disease; **Cure** 2 consecutive saves, penalties from the weakened state and worse are permanent until the victim is the target of {spell/heal} or {spell/regenerate}"
 		]
 	},
-	"maddening_influence": {
-		"name": "Maddening Influence",
+	"whispers_from_beyond": {
+		"name": "Whispers from Beyond",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"## Maddening Influence",
+			"## Whispers from Beyond",
 			"",
 			"{SOURCE Horror Adventures/173}  ",
 			"**CR** 10; **XP** 9,600  ",
@@ -678,11 +674,11 @@
 			"**Effect** The whispers drift toward sentient beings, particularly those whose minds they have touched before. Each creature in the area must succeed at a DC 16 Will save or take 1d8 points of Wisdom damage, or 1 Wisdom damage on a successful save (or if you are using the {rule/sanity/ system}, 1d6 points of sanity damage on a successful save or 2d8 points on a failed save). The DC increases by 1 for each round a creature spends within the haunt's area (these rounds need not be consecutive, though a given creature's DC resets to 16 after 24 hours and whenever the haunt is dispersed). Each time a creature damages this haunt, it must succeed at a Will save with a DC equal to its Knowledge check result or take 1d4 Wisdom drain (or, if you are using the sanity system, 1d8 points of sanity damage on a successful save or 2d10 points on a failed save).  ",
 			"**Destruction** The haunt is destroyed if the corpses of all the cultists who created it are cremated and buried on consecrated ground.",
 			"",
-			"### Description",
+			"### Maddening Influence",
 			"",
 			"These haunts are tied to the reality-warping influence of beings beyond comprehension. The only way to hold these haunts at bay is to draw upon dark knowledge, but such knowledge comes at a cost. As a full-round action, any character within the haunt's area can attempt an appropriate Knowledge check to perform a short rite, utter an arcane word, or otherwise quell the maddening influence (DC = 15 + the haunt's CR). If successful, the haunt takes 5 points of damage plus additional damage equal to the amount the character exceeded the DC.",
 			"",
-			"The whispers from beyond haunt detailed below is an example of a maddening influence formed at the site of a mass ritual suicide. The murmurs worm their way into the minds of all who hear them and leave lasting wounds."
+			"This haunt is an example of a maddening influence formed at the site of a mass ritual suicide. The murmurs worm their way into the minds of all who hear them and leave lasting wounds."
 		]
 	},
 	"psychic_echo_anger": {
@@ -700,13 +696,13 @@
 			"**Effect** As per {spell/foster hatred}, except any creature that fails a DC 19 Will save becomes hostile toward members of the raiders' ethnic group.  ",
 			"**Destruction** To destroy the haunt, two people, one each of the villagers' and raiders' ethnicity must reveal their true love for one another (typically by marrying) within the haunt's area.",
 			"",
-			"### Description",
+			"### Psychic Haunts",
 			"",
 			"Sometimes, the collective emotional energy of significant or traumatic events creates a lasting psychic impression, even in places not associated with death. These psychic haunts are mind-affecting emotion effects. A character who uses {spell/analyze aura} or the {skill/read aura/ skill unlock} on a psychic haunt's area automatically detects the haunt and receives cryptic clues about how to put it to rest.",
 			"",
 			"Every psychic haunt focuses on a specific emotion, and when targeted by or within the area of effect of an emotion spell or effect that is not connected to the associated emotion, they take damage equal to three times the effect's spell level (each spell deals damage to the haunt once, regardless of its duration). {spell/Calm emotions} damages psychic haunts regardless of their associated emotion, and an emotion effect without a spell level deals an amount of damage equal to the HD of the creature who created the effect. A character can calm a psychic haunt with a Diplomacy check (DC = 15 + the haunt's CR). If successful, the haunt takes 5 points of damage plus additional damage equal to the amount the character exceeded the DC.",
 			"",
-			"The psychic echo below lies in the heart of an abandoned village. A group of raiders drove the villagers from their home by the sword, but an echo of the villagers' fury persists, stoking hatred against all members of the raiders' ethnic group."
+			"This psychic echo haunt lies in the heart of an abandoned village. A group of raiders drove the villagers from their home by the sword, but an echo of the villagers' fury persists, stoking hatred against all members of the raiders' ethnic group."
 		]
 	},
 	"servants_of_the_book": {
@@ -748,7 +744,7 @@
 			"",
 			"### Description",
 			"",
-			"An eternal pyre is formed from the spirits of people who were burned alive during an overzealous witch trial. It hates all living beings, but it has a strong bond of kinship with the {monster/witchfire} who arose from the most powerful of those spirits. The {monster/witchfire} often lurks within the haunt's area, as her witchflame intensifies the power of the pyre's strikes, which in turn heal her."
+			"An eternal pyre is formed from the spirits of people who were burned alive during an overzealous witch trial. It hates all living beings, but it has a strong bond of kinship with the witchfire who arose from the most powerful of those spirits. The witchfire often lurks within the haunt's area, as her witchflame intensifies the power of the pyre's strikes, which in turn heal her."
 		]
 	},
 	"spawn_of_the_abyss": {
@@ -768,19 +764,19 @@
 			"",
 			"| d4 | Demon |",
 			"| :---: | --- |",
-			"| 1 | Dretch (CR 2) |",
-			"| 2 | Babau (CR 6) |",
-			"| 3 | Succubus (CR 7) |",
-			"| 4 | Nabasu (CR 8) |",
+			"| 1 | {monster/Dretch} (CR 2) |",
+			"| 2 | {monster/Babau} (CR 6) |",
+			"| 3 | {monster/Succubus} (CR 7) |",
+			"| 4 | {monster/Nabasu} (CR 8) |",
 			"",
-			"**Benefit** A character can channel the instability's power by spending 1 minute in the area while performing a ritual to focus its energy, requiring a DC 30 Knowledge (arcana) or Knowledge (planes) check. If she succeeds, she gains the fiendish template for 24 hours, and her alignment shifts one step closer to chaotic evil. If she fails, she is pulled into the Abyss.  ",
-			"**Destruction** The instability can only be permanently closed with a miracle or wish spell. A hallow spell tied to a dimensional anchor can temporarily prevent the instability's effects.",
+			"**Benefit** A character can channel the instability's power by spending 1 minute in the area while performing a ritual to focus its energy, requiring a DC 30 Knowledge (arcana) or Knowledge (planes) check. If she succeeds, she gains the {template/fiendish} template for 24 hours, and her alignment shifts one step closer to chaotic evil. If she fails, she is pulled into {rule/the Abyss}.  ",
+			"**Destruction** The instability can only be permanently closed with a {spell/miracle} or {spell/wish} spell. A {spell/hallow} spell tied to a {spell/dimensional anchor} can temporarily prevent the instability's effects.",
 			"",
-			"### Description",
+			"### Dimensional Instabilities",
 			"",
 			"Dimensional instabilities are areas where the boundary between the Material Plane and another plane is thin and rifts between the planes frequently open. They take damage from effects that oppose the connected plane's fundamental nature. For example, a dimensional instability associated with the chaotic evil Abyss takes damage from good or lawful spells or effects, and an instability tied to the Elemental Plane of Fire takes damage from water and cold effects. Instabilities can even provide benefits to those who know how to cultivate them.",
 			"",
-			"The sample haunt appeared when an ancient wizard bound 666 demons. Over time, the boundary between the Abyss and his summoning chamber grew thin, and the plane's influence fractured the binding circle he carved into the floor, creating tiny rifts that flicker into existence at irregular intervals.",
+			"This particular haunt appeared when an ancient wizard bound 666 demons. Over time, the boundary between the Abyss and his summoning chamber grew thin, and the plane's influence fractured the binding circle he carved into the floor, creating tiny rifts that flicker into existence at irregular intervals.",
 			"",
 			"In addition to good and lawful effects, the haunt is vulnerable to other damage associated with good or law at the GM's discretion, such as the extra damage from a holy weapon."
 		]
@@ -803,17 +799,17 @@
 			"| d% | Quickening Effect |",
 			"| --- | --- |",
 			"| 01-25 | The target transforms into a Tiny animal that is not native to the local region (as per {spell/baleful polymorph}). As typical for that spell, a creature that fails the initial Fortitude saving throw must succeed at a secondary Will saving throw or lose significant mental abilities. |",
-			"| 26-40 | The target gains a random mutation from the {template/mutant/ creature template}, with the exception of radiation affinity. Roll 1d20 to select the mutation. |",
-			"| 41-75 | The target gains a random deformity from the {template/mutant/ creature template}. Roll 1d12 to select the specific deformity. |",
+			"| 26-40 | The target gains a random mutation from the {template/mutant} creature template, with the exception of radiation affinity.[^M] Roll 1d20 to select the mutation. |",
+			"| 41-75 | The target gains a random deformity from the mutant creature template. Roll 1d12 to select the specific deformity. |",
 			"| 76-95 | The First World lashes out at the target vindictively, bestowing the {corruption/accursed} corruption. |",
 			"| 96-99 | The target gains a new form. This effect functions as per {spell/reincarnate}, with a few exceptions. It takes full effect when the breach triggers, rather than taking 1 hour to activate. Additionally, it works only on living creatures, it does not impose any negative levels, and it does not cause a spellcaster to lose spells. Restoring the target to its original form requires a {spell/miracle} or {spell/wish} spell. |",
-			"| 100 | The target gains the {template/fey creature/ template}, and its alignment changes to chaotic neutral. Restoring the target's original form requires a {spell/miracle} or {spell/wish} spell. |",
+			"| 100 | The target gains the {template/fey creature/ template}, and its alignment changes to chaotic neutral. Restoring the target's original form requires a *miracle* or *wish* spell. |",
 			"",
-			"**Destruction** Breaches to the Quickening spontaneously close or move on their own as unpredictably as they appear. A {spell/forbiddance} or {spell/dimensional lock} cast on the area of a breach prevents the breach from exerting influence on the Material Plane until it moves to a different location. A {spell/wish} or {spell/miracle} spell permanently closes a breach.",
+			"**Destruction** Breaches to the Quickening spontaneously close or move on their own as unpredictably as they appear. A {spell/forbiddance} or {spell/dimensional lock} cast on the area of a breach prevents the breach from exerting influence on the Material Plane until it moves to a different location. A *wish* or *miracle* spell permanently closes a breach.",
 			"",
 			"### Description",
 			"",
-			"The Quickening is the most chaotic portion of the First World, a region so unstable that most of the denizens of the First World give it a wide berth. Even a brief journey into the Quickening is enough to transform body and mind in unforeseeable ways. Connections between the Quickening and the Material Plane are rare and fleeting, but their effects persist.",
+			"The Quickening is the most chaotic portion of the First World, a region so unstable that most of the denizens of {rule/the First World} give it a wide berth. Even a brief journey into the Quickening is enough to transform body and mind in unforeseeable ways. Connections between the Quickening and the Material Plane are rare and fleeting, but their effects persist.",
 			"",
 			"### Echoes of the First World",
 			"",
@@ -821,7 +817,9 @@
 			"",
 			"Unlike a typical haunt, an echo of the First World is healed by positive energy. In fact, when these manifestations interact with positive energy, they typically become stronger. When an echo of the First World is healed beyond its normal maximum hit points, any excess hit points persist for 1 minute as temporary hit points. As long as it has any temporary hit points, it gains the effects listed in the overcharge section of its stat block.",
 			"",
-			"While positive energy is a boon for these unusual haunts, negative energy damages them as if they were living creatures. Damaging spells with the death descriptor also harm them. Echoes of the First World are almost always chaotic neutral."
+			"While positive energy is a boon for these unusual haunts, negative energy damages them as if they were living creatures. Damaging spells with the death descriptor also harm them. Echoes of the First World are almost always chaotic neutral.",
+			"",
+			"[^M]: No mutation mentioning \"radiation affinity\" exists in that template."
 		]
 	},
 	"dissolving_vat": {
@@ -856,7 +854,7 @@
 			"**Caster Level** 13th  ",
 			"**Notice** Heal or Perception DC 20 (for affected characters to notice pressure building around their hearts)  ",
 			"**hp** 58; **Trigger** proximity; **Reset** 1 day  ",
-			"**Effect** The spectral form of a giant beating heart appears, and the hearts of everyone within the haunt's area begin to accelerate out of control. All creatures within the area are sickened, and must succeed at a DC 21 Fortitude save each round or be dazed and take 1d6+2 Constitution drain. If a creature who fails this saving throw has fewer than 10 hit points or reaches a Constitution score of 0, its heart forcefully explodes out of its chest, killing it instantly. The pressure of the explosion throws fragments of rib cage in all directions, dealing 2d6 points of slashing damage to all creatures within 10 feet (Reflex DC 21 negates). Creatures without hearts are immune to this haunt.  ",
+			"**Effect** The spectral form of a giant beating heart appears, and the hearts of everyone within the haunt's area begin to accelerate out of control. All creatures within the area are {misc/sickened}, and must succeed at a DC 21 Fortitude save each round or be {misc/dazed} and take 1d6+2 Constitution drain. If a creature who fails this saving throw has fewer than 10 hit points or reaches a Constitution score of 0, its heart forcefully explodes out of its chest, killing it instantly. The pressure of the explosion throws fragments of rib cage in all directions, dealing 2d6 points of slashing damage to all creatures within 10 feet (Reflex DC 21 negates). Creatures without hearts are immune to this haunt.  ",
 			"**Destruction** The heart explosion haunt is destroyed if a good-aligned creature spends 3 days motionlessly meditating in the center of its area.",
 			"",
 			"### Description",
@@ -876,7 +874,7 @@
 			"**Caster Level** 13th  ",
 			"**Notice** Perception DC 20 (to hear the sound of bones snapping)  ",
 			"**hp** 58; **Trigger** proximity; **Reset** 1 hour  ",
-			"**Effect** Several copies of the same colossal dragon's tail snake through the haunt's area. Each round, the tails attempt to grab and constrict each creature in the area (+18 to hit, 2d6+6 points of damage plus grab, CMB +35, constrict 2d6+18 points of damage). Each round a creature takes damage from the tail's constrict ability, one of its limbs (randomly determined) snaps into pieces, and it must succeed at a DC 22 Fortitude save or be nauseated for 1d4 rounds. Cure spells are not sufficient to repair the severely broken bones this haunt produces - only {spell/heal} or stronger magic can mend them. Snapped limbs cannot be used for any purpose; having a snapped leg reduces a creature's movement speed by half when using its legs, and having more than half a creature's legs snapped prevents it from using any form of movement that uses its legs.  ",
+			"**Effect** Several copies of the same colossal dragon's tail snake through the haunt's area. Each round, the tails attempt to grab and constrict each creature in the area (+18 to hit, 2d6+6 points of damage plus {umr/grab}, CMB +35, {umr/constrict} 2d6+18 points of damage). Each round a creature takes damage from the tail's constrict ability, one of its limbs (randomly determined) snaps into pieces, and it must succeed at a DC 22 Fortitude save or be {misc/nauseated} for 1d4 rounds. *Cure* spells are not sufficient to repair the severely broken bones this haunt produces - only {spell/heal} or stronger magic can mend them. Snapped limbs cannot be used for any purpose; having a snapped leg reduces a creature's movement speed by half when using its legs, and having more than half a creature's legs snapped prevents it from using any form of movement that uses its legs.  ",
 			"**Destruction** The crushing terror haunt is destroyed if the bodies of the linnorm's victims are retrieved from the cave where it stores them, reassembled, and buried.",
 			"",
 			"### Description",
@@ -897,7 +895,7 @@
 			"**Notice** Perception DC 20 (to hear the muted sounds of battle)  ",
 			"**hp** 202; **Trigger** proximity; **Reset** 1 day  ",
 			"**Effect** A horde of armor-clad spectral soldiers rises from all sides. On the haunt's initiative count, five soldiers beset each creature in the area, and each soldier makes a single incorporeal touch attack with a spectral sword (+12 to hit, 2d6+9 points of damage/19-20). Creatures in the haunt's area can attack the soldiers, but even if they destroy an individual soldier, five soldiers continue to attack each of the creatures each round until they disperse the haunt.  ",
-			"**Destruction** The final soldier will rest only once the ancient general, who has risen as a {template/graveknight} antipaladin, is permanently destroyed.",
+			"**Destruction** The final soldier will rest only once the ancient general, who has risen as a {template/graveknight} {class/antipaladin}, is permanently destroyed.",
 			"",
 			"### Description",
 			"",
@@ -916,7 +914,7 @@
 			"**Caster Level** 16th  ",
 			"**Notice** Perception DC 20 (to feel a slight tremor in the ground)  ",
 			"**hp** 72; **Trigger** proximity; **Reset** 1 day  ",
-			"**Effect** The haunt causes all creatures within the haunt's area along the cliff's edge to plummet 200 feet to the ground, dealing 20d6 points of damage. The haunt temporarily negates spells, spell-like abilities, and supernatural abilities within its area as per {spell/antimagic field}, except it does not block effects that deal positive energy damage. The haunt's entire area is always difficult terrain. Extraordinary abilities, such as a monk's slow fall ability, reduce falling damage as normal. The haunt lifts creatures back to the top of the cliff on each subsequent round, but it must then succeed at a combat maneuver check to bull rush each creature off the cliff (CMB +25). Creatures with natural flight can attempt a Fly check opposed by the haunt's CMB to control their descent and take no damage.  ",
+			"**Effect** The haunt causes all creatures within the haunt's area along the cliff's edge to plummet 200 feet to the ground, dealing 20d6 points of damage. The haunt temporarily negates spells, spell-like abilities, and supernatural abilities within its area as per {spell/antimagic field}, except it does not block effects that deal positive energy damage. The haunt's entire area is always difficult terrain. Extraordinary abilities, such as a monk's slow fall ability, reduce falling damage as normal. The haunt lifts creatures back to the top of the cliff on each subsequent round, but it must then succeed at a combat maneuver check to {rule/bull rush} each creature off the cliff (CMB +25). Creatures with natural flight can attempt a Fly check opposed by the haunt's CMB to control their descent and take no damage.  ",
 			"**Destruction** The current head magistrate of the city must go to the cliff's edge and issue individual pardons by name to everyone who was ever thrown off the cliff, even those whose names were never recorded.",
 			"",
 			"### Description",
@@ -936,7 +934,7 @@
 			"**Caster Level** 17th  ",
 			"**Notice** Perception DC 10 (to notice all of the dungeon's furniture and trapings approaching)  ",
 			"**hp** 229; **Trigger** proximity; **Reset** 1 day  ",
-			"**Effect** This dungeon directs its malevolence toward everyone inside of it. Its interior is under the effects of {spell/guards and wards} at all times. If this ability is dispelled, the haunt recreates it when it resets the following day. Once per minute, the dungeon can gather a collection of furniture and other items to form an {monster/animated object}. It can create one Colossal animated object; alternatively, it can create two Gargantuan animated objects, four Huge animated objects, and so on. It can control up to four times as many animated objects as it can create in a minute (for a total CR of 15). For the purposes of detecting creatures, the haunted dungeon and its animated objects have blindsight out to a range of the entire area of the haunt, even through walls.  ",
+			"**Effect** This dungeon directs its malevolence toward everyone inside of it. Its interior is under the effects of {spell/guards and wards} at all times. If this ability is {spell/dispel/led>_magic}, the haunt recreates it when it resets the following day. Once per minute, the dungeon can gather a collection of furniture and other items to form an {monster/animated object}. It can create one Colossal animated object; alternatively, it can create two Gargantuan animated objects, four Huge animated objects, and so on. It can control up to four times as many animated objects as it can create in a minute (for a total CR of 15). For the purposes of detecting creatures, the haunted dungeon and its animated objects have {umr/blindsight} out to a range of the entire area of the haunt, even through walls.  ",
 			"**Destruction** If the entire dungeon is simultaneously placed under the effects of {spell/hallow}, the haunt is destroyed.",
 			"",
 			"### Description",
@@ -956,12 +954,12 @@
 			"**Caster Level** 20th  ",
 			"**Notice** Perception DC 20 (for affected characters to notice a prickling sensation in their skin)  ",
 			"**hp** 243; **Weakness** -; **Trigger** proximity; **Reset** 1 day  ",
-			"**Effect** Hundreds of razor-sharp knives appear and carve into the skin of those in the haunt's area. An affected creature can attempt a DC 25 Fortitude save to maintain the connection between its skin and its body. On a successful save, the creature takes 10d6 points of slashing damage. Creatures that fail this saving throw take 20d6 points of slashing damage as they are flayed alive. The skin of each flayed creature animates into a necromantic puppet that single-mindedly tries to kill its source. The skin carries all of the creature's equipment (and thus the creature loses access to this equipment), has access to all of its abilities, and shares its statistics, except its hit point total is equal to half the original creature's maximum hit points. If the skin uses one of the creature's limited-use abilities, it counts against the creature's total uses for the day. A flayed creature is permanently sickened, and is staggered from the pain unless it succeeds at a DC 25 Fortitude save at the beginning of its turn. Even if she defeats her necrotic skin, a flayed creature's skin never regrows naturally, and can only be restored with {spell/regenerate}.  ",
+			"**Effect** Hundreds of razor-sharp knives appear and carve into the skin of those in the haunt's area. An affected creature can attempt a DC 25 Fortitude save to maintain the connection between its skin and its body. On a successful save, the creature takes 10d6 points of slashing damage. Creatures that fail this saving throw take 20d6 points of slashing damage as they are flayed alive. The skin of each flayed creature animates into a necromantic puppet that single-mindedly tries to kill its source. The skin carries all of the creature's equipment (and thus the creature loses access to this equipment), has access to all of its abilities, and shares its statistics, except its hit point total is equal to half the original creature's maximum hit points. If the skin uses one of the creature's limited-use abilities, it counts against the creature's total uses for the day. A flayed creature is permanently {misc/sickened}, and is {misc/staggered} from the pain unless it succeeds at a DC 25 Fortitude save at the beginning of its turn. Even if she defeats her necrotic skin, a flayed creature's skin never regrows naturally, and can only be restored with {spell/regenerate}.  ",
 			"**Destruction** A flayed herald of a deity must be reunited with its skin and cured of its madness to give the haunt its final rest. If a character manages this feat, all flayed suicide haunts in existence on any plane are instantly destroyed.",
 			"",
 			"### Description",
 			"",
-			"A flayed suicide haunt arises from the spirits of people tortured beyond insanity, until no remnants of their former essence remain. Only kytons are capable of the depths of depravity required to produce this powerful, disturbing vestige of suffering."
+			"A flayed suicide haunt arises from the spirits of people tortured beyond insanity, until no remnants of their former essence remain. Only {family/kyton/s} are capable of the depths of depravity required to produce this powerful, disturbing vestige of suffering."
 		]
 	},
 	"soul_vortex": {
@@ -976,7 +974,7 @@
 			"**Caster Level** 20th  ",
 			"**Notice** Perception DC 20 (for affected creatures to notice a fundamental feeling that something is wrong within them)  ",
 			"**hp** 256; **Trigger** proximity; **Reset** 1 day  ",
-			"**Effect** A black vortex appears in the center of the haunt's radius, and tugs inexorably on the souls of all creatures within its reach. Each round, before it targets their souls, the vortex first targets the magic protecting them, affecting each creature with a {spell/greater dispel magic} effect that targets {spell/death ward} or any other spells that would prevent level drain first. After the dispelling effect, the creature must succeed at a DC 23 Will save to partially resist the vortex's pull. On a success, the creature takes 1d4 negative levels. On a failure, that creature's soul is wrenched out of its body and destroyed. Only {spell/miracle} or {spell/wish} can reconstitute a soul that the vortex devours. The vortex gains 5 temporary hit points for each level it drains - treat devouring a soul as draining as many negative levels as it would normally take to kill the creature. These temporary hit points stack and last for 1 hour. The soul vortex haunt is immune to the spells {spell/heal} and {spell/mass heal}. Creatures normally immune to fear lose that immunity within this haunt's radius.  ",
+			"**Effect** A black vortex appears in the center of the haunt's radius, and tugs inexorably on the souls of all creatures within its reach. Each round, before it targets their souls, the vortex first targets the magic protecting them, affecting each creature with a {spell/greater dispel magic} effect that targets {spell/death ward} or any other spells that would prevent level drain first. After the dispelling effect, the creature must succeed at a DC 23 Will save to partially resist the vortex's pull. On a success, the creature takes 1d4 {rule/negative levels}. On a failure, that creature's soul is wrenched out of its body and destroyed. Only {spell/miracle} or {spell/wish} can reconstitute a soul that the vortex devours. The vortex gains 5 {rule/temporary hit points} for each level it drains - treat devouring a soul as draining as many negative levels as it would normally take to kill the creature. These temporary hit points stack and last for 1 hour. The soul vortex haunt is immune to the spells {spell/heal} and {spell/mass heal}. Creatures normally immune to fear lose that immunity within this haunt's radius.  ",
 			"**Destruction** The soul vortex haunt can only be destroyed if the phylactery of a lich of CR 20 or higher that is currently destroyed and awaiting rejuvenation is cast into it. This act destroys both the vortex and the phylactery.",
 			"",
 			"### Description",

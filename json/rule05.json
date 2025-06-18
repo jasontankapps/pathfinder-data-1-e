@@ -3095,6 +3095,8 @@
 			"prone"
 		]
 	},
+	"pinned": { "redirect": "grapple_conditions" },
+	"grappled": { "redirect": "grapple_conditions" },
 	"incorporeal": {
 		"name": "Incorporeal",
 		"subtitle": "Condition",

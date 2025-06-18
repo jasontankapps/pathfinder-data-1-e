@@ -4199,7 +4199,7 @@
 			"",
 			"**Rear Restraint:** Manacles might be employed to keep a creature's hands behind its back. In such cases, the creature cannot use its hands to effectively employ any weapon or shield. The creature can attempt to use its hands to perform a skill, but at a -10 penalty (-25 on Disable Device checks to pick the lock of manacles the creature is wearing). While manacled, a creature can attempt to flip its arms beneath its legs, bringing its hands in front of itself. This requires a successful DC 25 Escape Artist check (a separate Escape Artist check is then required to escape the manacles).",
 			"",
-			"**Restraining Two Individuals:** Two creatures might share one set of manacles. While manacled together, the manacled individuals must remain adjacent to one another. If they are not working together, they are both treated as {rule/grapple/d>_conditions}. If they are working together, they can move together in the same round (using the movement speed of the slower creature). A manacled creature can forfeit its turn during combat to mimic the other manacled creature's movements, allowing that creature to act as if unrestrained."
+			"**Restraining Two Individuals:** Two creatures might share one set of manacles. While manacled together, the manacled individuals must remain adjacent to one another. If they are not working together, they are both treated as {rule/grappled}. If they are working together, they can move together in the same round (using the movement speed of the slower creature). A manacled creature can forfeit its turn during combat to mimic the other manacled creature's movements, allowing that creature to act as if unrestrained."
 		]
 	},
 	"manacles": { "redirect": "manacles_common" },

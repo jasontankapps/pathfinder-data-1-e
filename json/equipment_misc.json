@@ -1224,7 +1224,7 @@
 			"**Price** 80 gp; **Weight** 20 lbs.  ",
 			"**Category** Animal Gear",
 			"",
-			"This clear, 1-inch-thick glass orb is the size of a large melon and hangs from a thick chain. It can hold up to 2 gallons of freshwater or saltwater, allowing it to house aquatic creatures such as fish or frogs. The cap near the top of the ball can be unscrewed for access. One Tiny creature or two Diminutive creatures can fit comfortably into an aquarium ball. The water within the orb must be changed daily in order to keep the creatures within alive. Otherwise, the inhabitants begin to slowly {rule/suffocat/e>ion}."
+			"This clear, 1-inch-thick glass orb is the size of a large melon and hangs from a thick chain. It can hold up to 2 gallons of freshwater or saltwater, allowing it to house aquatic creatures such as fish or frogs. The cap near the top of the ball can be unscrewed for access. One Tiny creature or two Diminutive creatures can fit comfortably into an aquarium ball. The water within the orb must be changed daily in order to keep the creatures within alive. Otherwise, the inhabitants begin to slowly {rule/suffocate}."
 		]
 	},
 	"aquatic_harness_large": {
@@ -1393,7 +1393,7 @@
 			"",
 			"Flexible tubes connect a hand pump and a breathing mask to this reinforced leather backpack. When the hand pump is pressed, the artificial gills draw in oxygen from the surrounding water and feed it through the mask, allowing the wearer to breathe underwater for extended periods of time.",
 			"",
-			"The hand pump must be regularly depressed, requiring you to have a free hand and use a move action each round. If you do not squeeze the hand pump in a round, you must hold your breath or begin to {rule/suffocat/e>ion}. Artificial gills eventually become clogged with particulates and must be disassembled and cleaned after 1 hour of being submerged, although this time can be dramatically shortened by murky or polluted water.",
+			"The hand pump must be regularly depressed, requiring you to have a free hand and use a move action each round. If you do not squeeze the hand pump in a round, you must hold your breath or begin to {rule/suffocate}. Artificial gills eventually become clogged with particulates and must be disassembled and cleaned after 1 hour of being submerged, although this time can be dramatically shortened by murky or polluted water.",
 			"",
 			"Artificial gills provide no protection against {rule/water<temperature| dangers/ or pressure damage} in the open seas. If artificial gills are submerged more than 100 feet below the surface, they take 1d6 points of damage per round until they are either brought into shallower water or they rupture from the pressure. Artificial gills have a hardness of 0, 10 hit points, and a break DC of 30."
 		]
@@ -5590,7 +5590,7 @@
 			"**Price** 200 gp; **Weight** -  ",
 			"**Category** Alchemical Tools",
 			"",
-			"Within this corked vial is a tiny sample of what is known as \"dead air.\" Heavy, still, and of unknown origin, pockets of dead air becalm airships and smother crews in remote parts of the Plane of Air. When you open a dead air vial, invisible dead air fills a 20-foot-radius area centered on you. The affected area becomes devoid of breathable air. Creatures that breathe air must hold their breath or {rule/suffocat/e>ion} in an area of dead air, though sound, fire, and other effects that rely on a stable atmosphere are unaffected. Undisturbed, the dead air dissipates in 1 minute. A moderate wind (11+ mph) disperses the dead air in 4 rounds; a strong wind (21+ mph) disperses the dead air in 1 round. This item can be crafted with a successful DC 25 Craft (alchemy) check.",
+			"Within this corked vial is a tiny sample of what is known as \"dead air.\" Heavy, still, and of unknown origin, pockets of dead air becalm airships and smother crews in remote parts of the Plane of Air. When you open a dead air vial, invisible dead air fills a 20-foot-radius area centered on you. The affected area becomes devoid of breathable air. Creatures that breathe air must hold their breath or {rule/suffocate} in an area of dead air, though sound, fire, and other effects that rely on a stable atmosphere are unaffected. Undisturbed, the dead air dissipates in 1 minute. A moderate wind (11+ mph) disperses the dead air in 4 rounds; a strong wind (21+ mph) disperses the dead air in 1 round. This item can be crafted with a successful DC 25 Craft (alchemy) check.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 25"
 		]

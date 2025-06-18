@@ -1326,6 +1326,10 @@
 		"name": "Spirit Planchette (Silver)",
 		"copyof": "spirit_planchette_brass"
 	},
+	"spirit_planchette": {
+		"name": "Spirit Planchette",
+		"copyof": "spirit_planchette_brass"
+	},
 	"cautionary_creance": {
 		"name": "Cautionary Creance",
 		"sources": [ "Ultimate Equipment" ],
