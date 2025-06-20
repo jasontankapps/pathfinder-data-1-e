@@ -23,22 +23,6 @@
 			"Hallucinations can affect all of the senses, but some of the most potentially debilitating are auditory hallucinations, where the afflicted character hears voices talking in his head, and visual hallucinations, where the afflicted character sees things that aren't there. Most hallucinations are intermittent and produce a muddling of reality."
 		]
 	},
-	"mania_phobia": {
-		"name": "Mania/Phobia",
-		"sources": [ "GameMastery Guide" ],
-		"description": [
-			"## Mania/Phobia",
-			"",
-			"{SOURCE GameMastery Guide/251}  ",
-			"**Type** insanity; **Save** Will DC 14  ",
-			"**Onset** 1 day  ",
-			"**Effect** target is sickened (if manic) or shaken (if phobic) as long as the source of the mania or phobia is obvious; chance of becoming fascinated or frightened (see below)",
-			"",
-			"A mania is an irrational obsession with a (usually inappropriate) particular object or situation, while a phobia is an irrational fear of a (usually commonplace) object or situation. Additionally, if a manic or phobic character is directly confronted by his obsession (requiring a standard action), he must make a Will save against the insanity or become fascinated (if manic) or frightened (if phobic) by the object for 1d6 rounds.",
-			"",
-			"*Horror Adventures* introduced {rule/different rules for |madness}, and provided separate entries for {madness/mania} and {madness/phobia}."
-		]
-	},
 	"mania": {
 		"name": "Mania",
 		"sources": [
@@ -48,13 +32,22 @@
 		"description": [
 			"## Mania",
 			"",
-			"{SOURCE Horror Adventures/184;GameMastery Guide/250}  ",
+			"{SOURCE Horror Adventures/184}  ",
 			"**Type** lesser madness (compulsion); **Save DC** 14  ",
 			"**Onset** 1 day  ",
 			"**Effect** Each round when an afflicted character is within 30 feet and can see the object of her mania, she must succeed at a Will saving throw or rush to interact with that object. If the afflicted character succeeds at the saving throw by 5 or more, she can keep away from the object of the mania or resist the manic activity for 1 minute before having to attempt the saving throw again. After failing a saving throw and fully performing the mania's compulsion, the afflicted character need not attempt another saving throw for 1 minute, as she has temporarily satisfied her obsession.  ",
-			"**Dormancy Effect** Each round when an afflicted character is within 30 feet and can see the object of her mania, she must attempt a Will saving throw. If she fails, she can choose to either interact with the object of her mania (as above) or become fascinated by the object while abstaining from the activity for 1 round. If the afflicted character succeeds at this saving throw by 5 or more, she can't be fascinated by that particular stimulus for 24 hours before having to attempt the saving throw again (for instance, if a character obsessed with swords succeeded at her save against a particular sword by 5 or more, she wouldn't be fascinated by that sword for 24 hours, but she might be fascinated by other swords).",
+			"**Dormancy Effect** Each round when an afflicted character is within 30 feet and can see the object of her mania, she must attempt a Will saving throw. If she fails, she can choose to either interact with the object of her mania (as above) or become {misc/fascinated} by the object while abstaining from the activity for 1 round. If the afflicted character succeeds at this saving throw by 5 or more, she can't be fascinated by that particular stimulus for 24 hours before having to attempt the saving throw again (for instance, if a character obsessed with swords succeeded at her save against a particular sword by 5 or more, she wouldn't be fascinated by that sword for 24 hours, but she might be fascinated by other swords).",
 			"",
-			"A mania is an irrational and unhealthy obsession with an object or activity. Nearly any object or activity can become the object of a mania, but often the object is either dangerous (like fire or deadly magic) or somewhat taboo (like the need to commit small thefts or engage in risky sexual behavior). The GM determines the exact nature of the mania, but it should have some connection to the madness's impetus and be respectful to the narrative sensibilities and maturity of the player and the group."
+			"A mania is an irrational and unhealthy obsession with an object or activity. Nearly any object or activity can become the object of a mania, but often the object is either dangerous (like fire or deadly magic) or somewhat taboo (like the need to commit small thefts or engage in risky sexual behavior). The GM determines the exact nature of the mania, but it should have some connection to the madness's impetus and be respectful to the narrative sensibilities and maturity of the player and the group.",
+			"",
+			"### Mania/Phobia (original rules version)",
+			"",
+			"{SOURCE GameMastery Guide/251}  ",
+			"**Type** insanity; **Save** Will DC 14  ",
+			"**Onset** 1 day  ",
+			"**Effect** target is {misc/sickened} (if manic) or {misc/shaken} (if phobic) as long as the source of the mania or phobia is obvious; chance of becoming {misc/fascinated} or {misc/frightened} (see below)",
+			"",
+			"A mania is an irrational obsession with a (usually inappropriate) particular object or situation, while a phobia is an irrational fear of a (usually commonplace) object or situation. Additionally, if a manic or phobic character is directly confronted by his obsession (requiring a standard action), he must make a Will save against the insanity or become fascinated (if manic) or frightened (if phobic) by the object for 1d6 rounds."
 		]
 	},
 	"melancholia": {
@@ -81,13 +74,22 @@
 		"description": [
 			"## Phobia",
 			"",
-			"{SOURCE Horror Adventures/185;GameMastery Guide/250}  ",
+			"{SOURCE Horror Adventures/185}  ",
 			"**Type** lesser madness (fear); **Save DC** 14  ",
 			"**Onset** 1 day  ",
-			"**Effect** Each round an afflicted character is within 30 feet and can see the object of her phobia, she must succeed at a Will saving throw or become shaken. The next round, the afflicted character can choose to attempt another saving throw to end the effect, but if she fails, she becomes [scared](rule/lesser_fear_and_greater_fear) instead. A scared character can choose to attempt another saving throw to become shaken again, but if she fails, she becomes frightened for 1d6 rounds instead.  ",
-			"**Dormancy Effect** Each round an afflicted character is within 30 feet and can see the object of her phobia, she must succeed at a Will saving throw or become shaken for 1 round. If the afflicted character succeeds at this saving throw by 5 or more, that particular stimulus can't cause her to become shaken for 24 hours before having to attempt the saving throw again (for instance, if a character has a phobia of spiders and succeeds at her saving throw by 5 or more after seeing the wizard's spider familiar, she doesn't need to attempt another saving throw against the familiar for 24 hours, but she would still need to attempt a saving throw if she saw a different spider).",
+			"**Effect** Each round an afflicted character is within 30 feet and can see the object of her phobia, she must succeed at a Will saving throw or become *shaken.* The next round, the afflicted character can choose to attempt another saving throw to end the effect, but if she fails, she becomes *scared* instead. A scared character can choose to attempt another saving throw to become *shaken* again, but if she fails, she becomes *frightened* for 1d6 rounds instead. (The terms *shaken, scared,* and *frightened* are different than the \"standard\" fear terms, and are explained under {rule/Lesser Fear and Greater Fear}.)  ",
+			"**Dormancy Effect** Each round an afflicted character is within 30 feet and can see the object of her phobia, she must succeed at a Will saving throw or become *shaken* for 1 round. If the afflicted character succeeds at this saving throw by 5 or more, that particular stimulus can't cause her to become *shaken* for 24 hours before having to attempt the saving throw again (for instance, if a character has a phobia of spiders and succeeds at her saving throw by 5 or more after seeing the wizard's spider familiar, she doesn't need to attempt another saving throw against the familiar for 24 hours, but she would still need to attempt a saving throw if she saw a different spider).",
 			"",
-			"A phobia is an irrational fear of an object or activity. Nearly any object or activity can become the focus of a phobia, but often the object is either very specific (like all spiders, no matter how big or small, or clowns) or something that could be hazardous in some situations (like heights or water) but could be made relativity safe with magical or mundane precautions. The GM determines the exact nature of the phobia, but it should have some connection to the madness's impetus and be respectful to the narrative sensibilities and maturity of the player and the group."
+			"A phobia is an irrational fear of an object or activity. Nearly any object or activity can become the focus of a phobia, but often the object is either very specific (like all spiders, no matter how big or small, or clowns) or something that could be hazardous in some situations (like heights or water) but could be made relativity safe with magical or mundane precautions. The GM determines the exact nature of the phobia, but it should have some connection to the madness's impetus and be respectful to the narrative sensibilities and maturity of the player and the group.",
+			"",
+			"### Mania/Phobia (original rules version)",
+			"",
+			"{SOURCE GameMastery Guide/251}  ",
+			"**Type** insanity; **Save** Will DC 14  ",
+			"**Onset** 1 day  ",
+			"**Effect** target is {misc/sickened} (if manic) or {misc/shaken} (if phobic) as long as the source of the mania or phobia is obvious; chance of becoming {misc/fascinated} or {misc/frightened} (see below)",
+			"",
+			"A mania is an irrational obsession with a (usually inappropriate) particular object or situation, while a phobia is an irrational fear of a (usually commonplace) object or situation. Additionally, if a manic or phobic character is directly confronted by his obsession (requiring a standard action), he must make a Will save against the insanity or become fascinated (if manic) or frightened (if phobic) by the object for 1d6 rounds."
 		]
 	},
 	"delirium": {
@@ -131,14 +133,15 @@
 			"{SOURCE Horror Adventures/185}  ",
 			"**Type** lesser madness; **Save DC** 16  ",
 			"**Onset** 1 day  ",
-			"**Effect** Each night when the afflicted character sleeps, she must succeed at a saving throw or wake up fatigued (see below).  ",
+			"**Effect** Each night when the afflicted character sleeps, she must succeed at a saving throw or wake up {misc/fatigued} (see below).  ",
 			"**Dormancy Effect** None",
 			"",
-			"A character suffering from night terrors is plagued by persistent terrifying dreams, worry, or terror that impedes her from getting restful sleep. Each night the afflicted character must succeed at a saving throw or wake up fatigued, though multiple nights of night terrors do not increase the condition to exhausted, and an exhausted character with night terrors wakes up after 8 hours of sleep either rested or fatigued based on the success or failure of the saving throw for this affliction. Often a character suffering from night terrors will bolt upright during sleep, eyes open, and scream, though less-dramatic symptoms are also possible. A character who awakens fatigued from night terrors doesn't count as having had a good night's rest for the purpose of preparing new spells, and she can't remove the fatigue until she gets a good night's rest by succeeding at the Will save against night terrors."
+			"A character suffering from night terrors is plagued by persistent terrifying dreams, worry, or terror that impedes her from getting restful sleep. Each night the afflicted character must succeed at a saving throw or wake up fatigued, though multiple nights of night terrors do not increase the condition to exhausted, and an {misc/exhausted} character with night terrors wakes up after 8 hours of sleep either rested or fatigued based on the success or failure of the saving throw for this affliction. Often a character suffering from night terrors will bolt upright during sleep, eyes open, and scream, though less-dramatic symptoms are also possible. A character who awakens fatigued from night terrors doesn't count as having had a good night's rest for the purpose of preparing new spells, and she can't remove the fatigue until she gets a good night's rest by succeeding at the Will save against night terrors."
 		]
 	},
 	"paranoid": {
 		"name": "Paranoid",
+		"tags": "paranoia",
 		"sources": [
 			"Horror Adventures",
 			"GameMastery Guide"
@@ -146,29 +149,22 @@
 		"description": [
 			"## Paranoid",
 			"",
-			"{SOURCE Horror Adventures/185;GameMastery Guide/251}  ",
+			"{SOURCE Horror Adventures/185}  ",
 			"**Type** lesser madness; **Save DC** 17  ",
 			"**Onset** 2d6 days  ",
-			"**Effect** The afflicted character gains a +2 bonus on saving throws against charm effects, but takes a -2 penalty on Bluff, Diplomacy, and Sense Motive checks. When the afflicted character attempts a Sense Motive check, the GM rolls the check in secret, and failure gives the afflicted character the impression that those whose motives he is trying to sense are plotting against him in some way. Lastly, any time the afflicted character tries to use or gain a benefit from the aid another action, or is the target of a beneficial spell or effect from an ally, he must succeed at a Will saving throw in order to take the aid another action or gain the benefit from the action, spell, or effect.  ",
+			"**Effect** The afflicted character gains a +2 bonus on saving throws against charm effects, but takes a -2 penalty on Bluff, Diplomacy, and Sense Motive checks. When the afflicted character attempts a Sense Motive check, the GM rolls the check in secret, and failure gives the afflicted character the impression that those whose motives he is trying to sense are plotting against him in some way. Lastly, any time the afflicted character tries to use or gain a benefit from the {rule/aid another} action, or is the target of a beneficial spell or effect from an ally, he must succeed at a Will saving throw in order to take the aid another action or gain the benefit from the action, spell, or effect.  ",
 			"**Dormancy Effect** The afflicted character gains a +2 bonus on saving throws against charm effects, but takes a -2 penalty on Bluff, Diplomacy, and Sense Motive checks.",
 			"",
-			"A paranoid character is convinced that the world and society are conspiring toward his ruin. Typically those afflicted with paranoia are fidgety, argumentative, sullen, or extremely introverted."
-		]
-	},
-	"paranoia": {
-		"name": "Paranoia",
-		"sources": [ "GameMastery Guide" ],
-		"description": [
-			"## Paranoia",
+			"A paranoid character is convinced that the world and society are conspiring toward his ruin. Typically those afflicted with paranoia are fidgety, argumentative, sullen, or extremely introverted.",
+			"",
+			"## Paranoia (original rules version)",
 			"",
 			"{SOURCE GameMastery Guide/251}  ",
 			"**Type** insanity; **Save** Will DC 17  ",
 			"**Onset** 2d6 days  ",
 			"**Effect** -4 penalty on Will saves and Charisma-based skill checks; cannot receive benefit from or attempt the Aid Another action; cannot willingly accept aid (including healing) from another creature unless he makes a Will save against his insanity's DC",
 			"",
-			"The paranoid character is convinced that the world and all that dwell within it are out to get him. Paranoid characters are typically argumentative or introverted.",
-			"",
-			"*Horror Adventures* introduced {rule/different rules for |madness}, and provided a separate entry for {madness/paranoi/a>d}."
+			"The paranoid character is convinced that the world and all that dwell within it are out to get him. Paranoid characters are typically argumentative or introverted."
 		]
 	},
 	"fugue": {
@@ -203,6 +199,7 @@
 	},
 	"dissociated_identity": {
 		"name": "Dissociated Identity",
+		"tags": "multiple personality disorder",
 		"sources": [
 			"Horror Adventures",
 			"GameMastery Guide"
@@ -210,22 +207,17 @@
 		"description": [
 			"## Dissociated Identity",
 			"",
-			"{SOURCE Horror Adventures/187;GameMastery Guide/251}  ",
+			"{SOURCE Horror Adventures/187}  ",
 			"**Type** greater madness; **Save DC** 20  ",
 			"**Onset** 2d6 days  ",
 			"**Effect** -6 penalty on Will saving throws and Wisdom-based checks, and disassociated identities (see below)  ",
 			"**Dormancy Effect** -2 penalty on Will saving throws and Wisdom-based checks",
 			"",
-			"This is a complicated affliction that manifests as two or more distinct and different personalities in the same mind. The number of personalities is up to the GM, as is the nature of the personalities. Should the affliction worsen in some way (such as by gaining dissociated identity again), the number of additional personalities might increase as well.",
+			"This is a complicated affliction that manifests as two or more distinct and different personalities in the same mind. The number of personalities is up to the GM, as is the nature of the personalities. Should the affliction worsen in some way (such as by gaining *dissociated identity* again), the number of additional personalities might increase as well.",
 			"",
-			"Each morning upon waking and each time the afflicted character is revived from unconsciousness, she must succeed at a Will save, or one of the character's other personalities takes hold. If the afflicted character has more than one personality because of this madness, the manifested personality is either randomly chosen or chosen by the GM. If the afflicted character succeeds at all her saving throws against manifesting alternate personalities for 3 consecutive days, there is a 10% cumulative chance each night thereafter that another personality takes control during the character's sleep, returning to bed afterwards and leaving the character with less sleep than expected; if the afflicted character fails a saving throw, the cumulative chance resets. The afflicted character's memories, skills, and other abilities are unaffected by the personality shift, but typically the various personalities have no knowledge of each other and will deny, often violently, that the other personalities exist."
-		]
-	},
-	"dissociated_identity_gg": {
-		"name": "Dissociated Identity",
-		"sources": [ "GameMastery Guide" ],
-		"description": [
-			"## Dissociated Identity",
+			"Each morning upon waking and each time the afflicted character is revived from unconsciousness, she must succeed at a Will save, or one of the character's other personalities takes hold. If the afflicted character has more than one personality because of this madness, the manifested personality is either randomly chosen or chosen by the GM. If the afflicted character succeeds at all her saving throws against manifesting alternate personalities for 3 consecutive days, there is a 10% cumulative chance each night thereafter that another personality takes control during the character's sleep, returning to bed afterwards and leaving the character with less sleep than expected; if the afflicted character fails a saving throw, the cumulative chance resets. The afflicted character's memories, skills, and other abilities are unaffected by the personality shift, but typically the various personalities have no knowledge of each other and will deny, often violently, that the other personalities exist.",
+			"",
+			"## Multiple Personality Disorder (original rules version)",
 			"",
 			"{SOURCE GameMastery Guide/251}  ",
 			"**Type** insanity; **Save** Will DC 19  ",
@@ -234,9 +226,7 @@
 			"",
 			"This is a complicated affliction that manifests as two or more distinct and different personalities within the same body and mind. The number of additional personalities the victim manifests equals the DC of the insanity divided by 10 (round down, minimum of 1 additional personality). Should the insanity worsen in some way (such as by the save DC increasing), the number of additional personalities increases as well. Likewise, the number of additional personalities decreases as the sufferer recovers and the insanity's DC decreases. The GM should develop these additional personalities.",
 			"",
-			"Every morning, and each time the afflicted character is rendered unconscious, he must make a Will save against his insanity's DC. Failure indicates that a different personality takes over. A character's memories and skills remain unchanged, but the various personalities have no knowledge of each other and will deny, often violently, that these other personalities exist.",
-			"",
-			"*Horror Adventures* introduced {rule/different rules for |madness}, and provided a separate entry for [disassociated identity](madness/dissociated_identity)."
+			"Every morning, and each time the afflicted character is rendered unconscious, he must make a Will save against his insanity's DC. Failure indicates that a different personality takes over. A character's memories and skills remain unchanged, but the various personalities have no knowledge of each other and will deny, often violently, that these other personalities exist."
 		]
 	},
 	"psychosomatic_loss": {
@@ -248,7 +238,7 @@
 			"{SOURCE Horror Adventures/187}  ",
 			"**Type** greater madness; **Save DC** 20  ",
 			"**Onset** immediate  ",
-			"**Effect** The afflicted character becomes blinded or deafened, loses another special sense (like scent or blindsense), loses the use of limbs, or loses a special movement speed (like a fly or swim speed). The GM chooses how the psychosomatic loss manifests.  ",
+			"**Effect** The afflicted character becomes {misc/blinded} or {misc/deafened}, loses another special sense (like {umr/scent} or {umr/blindsense}), loses the use of limbs, or loses a special movement speed (like a fly or swim speed). The GM chooses how the psychosomatic loss manifests.  ",
 			"**Dormancy Effect** None",
 			"",
 			"While there is nothing physically wrong with the afflicted character, some kind of mental trauma has forced her brain to shut down sensory or motor systems. Furthermore, magical effects that typically remove these conditions (such as {spell/remove blindness//deafness}) have no effect on this madness; the madness must be cured in order to regain the senses or motor skills."
@@ -263,7 +253,7 @@
 		"description": [
 			"## Amnesia",
 			"",
-			"{SOURCE Horror Adventures/186;GameMastery Guide/250}  ",
+			"{SOURCE Horror Adventures/186}  ",
 			"**Type** greater madness; **Save DC** 22  ",
 			"**Onset** immediate  ",
 			"**Effect** -4 penalty on Will saving throws and skill checks, and loss of memory (see below)  ",
@@ -271,14 +261,9 @@
 			"",
 			"A character suffering from amnesia cannot remember things; his name, skills, and past are all equal mysteries. While the character can build new memories, he has trouble accessing those gained before he contracted amnesia. While a character with amnesia can still speak and read any languages he knows, and doesn't lose the most basic of skills needed to care for himself and interact within society, he cannot remember anything substantial about his past.",
 			"",
-			"A character with this affliction loses all class abilities, feats, and skill ranks gained before contracting amnesia. He retains his base attack bonus, saving throws bonuses (though he takes a -4 penalty on Will saves), CMB, CMD, total XP, Hit Dice, and hit points. If a character gains a character level while suffering from amnesia, he can use any abilities gained via that class level normally. If the class level he gained was of a class in which he already had levels, he initially gains the abilities of a 1st-level character of that class, even though he is technically of a higher level in that class, and then progresses from there. When the amnesia is cured, the character regains the full abilities of the class; recalculate his level based on his total XP."
-		]
-	},
-	"amnesia_gg": {
-		"name": "Amnesia",
-		"sources": [ "GameMastery Guide" ],
-		"description": [
-			"## Amnesia",
+			"A character with this affliction loses all class abilities, feats, and skill ranks gained before contracting amnesia. He retains his base attack bonus, saving throws bonuses (though he takes a -4 penalty on Will saves), CMB, CMD, total XP, Hit Dice, and hit points. If a character gains a character level while suffering from amnesia, he can use any abilities gained via that class level normally. If the class level he gained was of a class in which he already had levels, he initially gains the abilities of a 1st-level character of that class, even though he is technically of a higher level in that class, and then progresses from there. When the amnesia is cured, the character regains the full abilities of the class; recalculate his level based on his total XP.",
+			"",
+			"### Amnesia (original rules version)",
 			"",
 			"{SOURCE GameMastery Guide/250}  ",
 			"**Type** insanity; **Save** Will DC 20  ",
@@ -287,13 +272,12 @@
 			"",
 			"A character suffering from amnesia cannot remember things; his name, his skills, and his past are all equal mysteries. He can build new memories, but any memories that existed before he became an amnesiac are suppressed.",
 			"",
-			"Worse, the amnesiac loses all class abilities, feats, and skill ranks for as long as his amnesia lasts. He retains his base attack bonus, base saving throw bonuses, combat maneuver bonus, combat maneuver defense, total experience points, and hit dice (and hit points), but everything else is gone until the amnesia is cured. If a character gains a class level while suffering from amnesia, he may use any abilities gained by that class level normally. If the class level he gained was of a class he already possess levels in, he gains the abilities of a 1st-level character of that class, even though he is technically of a higher level in that class. If his amnesia is later cured, he regains all the full abilities of this class, including those gained from any levels taken while he was suffering from amnesia.",
-			"",
-			"*Horror Adventures* introduced {rule/different rules for |madness}, and provided a separate entry for {madness/amnesia}."
+			"Worse, the amnesiac loses all class abilities, feats, and skill ranks for as long as his amnesia lasts. He retains his base attack bonus, base saving throw bonuses, combat maneuver bonus, combat maneuver defense, total experience points, and hit dice (and hit points), but everything else is gone until the amnesia is cured. If a character gains a class level while suffering from amnesia, he may use any abilities gained by that class level normally. If the class level he gained was of a class he already possess levels in, he gains the abilities of a 1st-level character of that class, even though he is technically of a higher level in that class. If his amnesia is later cured, he regains all the full abilities of this class, including those gained from any levels taken while he was suffering from amnesia."
 		]
 	},
 	"moral_insanity": {
 		"name": "Moral Insanity",
+		"tags": "psychosis",
 		"sources": [
 			"Horror Adventures",
 			"GameMastery Guide"
@@ -301,29 +285,22 @@
 		"description": [
 			"## Moral Insanity",
 			"",
-			"{SOURCE Horror Adventures/187;GameMastery Guide/251}  ",
+			"{SOURCE Horror Adventures/187}  ",
 			"**Type** greater madness; **Save DC** 22  ",
 			"**Onset** 3d6 days  ",
 			"**Effect** The afflicted character's alignment shifts to evil, and he gains a +10 competence bonus on Bluff checks to hide this madness. Once per day, the afflicted character can attempt a Will saving throw to suppress this effect for 24 hours.  ",
 			"**Dormancy Effect** None",
 			"",
-			"This complex madness fills the afflicted character with hatred for the world and a detached feeling about others, as if they were nothing more than pawns for the afflicted character's own uses. A character afflicted by moral insanity might plot the demise of friends and enemies alike, but always with the goal of avoiding blame or consequences and enabling him to continue to feed his dark desires. The impact of moral insanity must be roleplayed, although not all players may find it fun or interesting to play such a character. In such cases, the GM should assume control of the character whenever the madness is dominant. Evil characters can't gain this madness."
-		]
-	},
-	"moral_insanity_gg": {
-		"name": "Moral Insanity",
-		"sources": [ "GameMastery Guide" ],
-		"description": [
-			"## Moral Insanity",
+			"This complex madness fills the afflicted character with hatred for the world and a detached feeling about others, as if they were nothing more than pawns for the afflicted character's own uses. A character afflicted by moral insanity might plot the demise of friends and enemies alike, but always with the goal of avoiding blame or consequences and enabling him to continue to feed his dark desires. The impact of moral insanity must be roleplayed, although not all players may find it fun or interesting to play such a character. In such cases, the GM should assume control of the character whenever the madness is dominant. Evil characters can't gain this madness.",
+			"",
+			"### Psychosis (original rules version)",
 			"",
 			"{SOURCE GameMastery Guide/251}  ",
 			"**Type** insanity; **Save** Will DC 20  ",
 			"**Onset** 3d6 days  ",
 			"**Effect** The afflicted character's alignment shifts to chaotic evil, and he gains a +10 competence bonus on Bluff checks to hide this insanity",
 			"",
-			"This complex insanity fills the victim with hate for the world. He may suppress his insanity for a period of 1 day by making a Will save against the DC of his insanity, otherwise he cannot help but plot and plan the death and destruction of his friends and enemies alike. For the most part, the impact of this insanity must be roleplayed, although not all players find entertainment in roleplaying a lunatic who's trying to do in his friends. In such cases, the GM should assume control of the character whenever his insanity is in control.",
-			"",
-			"*Horror Adventures* introduced {rule/different rules for |madness}, and provided a separate entry for {madness/moral insanity}."
+			"This complex insanity fills the victim with hate for the world. He may suppress his insanity for a period of 1 day by making a Will save against the DC of his insanity, otherwise he cannot help but plot and plan the death and destruction of his friends and enemies alike. For the most part, the impact of this insanity must be roleplayed, although not all players find entertainment in roleplaying a lunatic who's trying to do in his friends. In such cases, the GM should assume control of the character whenever his insanity is in control."
 		]
 	},
 	"schizophrenia": {
@@ -335,32 +312,22 @@
 		"description": [
 			"## Schizophrenia",
 			"",
-			"{SOURCE Horror Adventures/187;GameMastery Guide/251}  ",
+			"{SOURCE Horror Adventures/187}  ",
 			"**Type** greater madness; **Save DC** 22  ",
 			"**Onset** 1d6 days  ",
 			"**Effect** -4 penalty on Wisdom- and Charisma-based checks; cannot take 10 or take 20 on any check; chance of becoming confused (see below)  ",
 			"**Dormancy Effect** cannot take 10 or take 20 on any check",
 			"",
-			"A character afflicted with schizophrenia can no longer function as he once did, dealing with sudden deficits in social skills and cognition, and an influx of new, strange behaviors. The character becomes erratic, chaotic, and unpredictable as his affliction and symptoms continue, often hitting a peak of symptoms including hallucinations and delusions. Each time a character afflicted with this madness finds himself in a stressful situation (such as combat), he must succeed at a Will saving throw or become confused for 1d6 rounds."
-		]
-	},
-	"schizophrenia_gg": {
-		"name": "Schizophrenia",
-		"sources": [
-			"Horror Adventures",
-			"GameMastery Guide"
-		],
-		"description": [
-			"## Schizophrenia",
+			"A character afflicted with schizophrenia can no longer function as he once did, dealing with sudden deficits in social skills and cognition, and an influx of new, strange behaviors. The character becomes erratic, chaotic, and unpredictable as his affliction and symptoms continue, often hitting a peak of symptoms including hallucinations and delusions. Each time a character afflicted with this madness finds himself in a stressful situation (such as combat), he must succeed at a Will saving throw or become {misc/confused} for 1d6 rounds.",
 			"",
-			"{SOURCE Horror Adventures/187;GameMastery Guide/251}  ",
+			"### Schizophrenia (original rules version)",
+			"",
+			"{SOURCE GameMastery Guide/251}  ",
 			"**Type** insanity; **Save** Will DC 16  ",
 			"**Onset** 1d6 days  ",
 			"**Effect** -4 penalty on Wisdom- and Charisma-based skill checks; chance of becoming confused (see below)",
 			"",
-			"A schizophrenic character has lost his grip on reality, and can no longer tell the difference between what is real and what is not. These constant hallucinations cause the schizophrenic to appear erratic, chaotic, and unpredictable to others. Each time a schizophrenic character finds himself in a stressful situation (such as combat) he must make a Will save against his insanity's DC. Failure indicates that the character becomes {misc/confused} for 1d6 rounds.",
-			"",
-			"*Horror Adventures* introduced {rule/different rules for |madness}, and provided a separate entry for {madness/schizophrenia}."
+			"A schizophrenic character has lost his grip on reality, and can no longer tell the difference between what is real and what is not. These constant hallucinations cause the schizophrenic to appear erratic, chaotic, and unpredictable to others. Each time a schizophrenic character finds himself in a stressful situation (such as combat) he must make a Will save against his insanity's DC. Failure indicates that the character becomes confused for 1d6 rounds."
 		]
 	},
 	"catatonia": {
@@ -372,10 +339,10 @@
 			"{SOURCE Horror Adventures/186}  ",
 			"**Type** greater madness; **Save DC** 24  ",
 			"**Onset** immediate  ",
-			"**Effect** The afflicted character acts as if she were cowering, but this is not a fear effect, unlike other forms of cowering.  ",
-			"**Dormancy Effect** The afflicted character is staggered.",
+			"**Effect** The afflicted character acts as if she were {misc/cowering}, but this is not a fear effect, unlike other forms of cowering.  ",
+			"**Dormancy Effect** The afflicted character is {misc/staggered}.",
 			"",
-			"A character suffering from catatonia mentally shuts down completely, or nearly so, greatly limiting her physical capabilities as well. While a catatonic character still breathes, she can eat or drink without assistance only if the catatonia is dormant. If a catatonic character is faced with a dangerous situation, she must attempt a saving throw. If she succeeds, she acts as if panicked (though this is not a fear effect) until she is out of line of sight of the danger or is cornered. If she is cornered, she cowers again."
+			"A character suffering from catatonia mentally shuts down completely, or nearly so, greatly limiting her physical capabilities as well. While a catatonic character still breathes, she can eat or drink without assistance only if the catatonia is dormant. If a catatonic character is faced with a dangerous situation, she must attempt a saving throw. If she succeeds, she acts as if {misc/panicked} (though this is not a fear effect) until she is out of line of sight of the danger or is cornered. If she is cornered, she cowers again."
 		]
 	}
 }

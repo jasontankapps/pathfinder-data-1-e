@@ -208,13 +208,13 @@
 			"| d% | Insanity |",
 			"| --- | --- |",
 			"| 01-11 | {madness/Amnesia} |",
-			"| 12-48 | [Mania/Phobia](madness/mania_phobia) |",
-			"| 49-68 | [Disassociated Identity](madness/dissociated_identity_gg) |",
+			"| 12-48 | {madness/Mania}/{madness/Phobia} |",
+			"| 49-68 | {madness/Dissociated Identity} |",
 			"| 69-78 | {madness/Paranoid} |",
 			"| 79-84 | {madness/Moral Insanity} |",
 			"| 85-100 | {madness/Schizophrenia} |",
 			"",
-			"@HL[Note:] *Horror Adventures* introduced {rule/different rules for |madness}, which you may prefer to use."
+			"@HL[Note:] These rules point to the \"original rules version\" of some of the madnesses, which can be found at the bottom of their entries. *{source/Horror Adventures}* introduced {rule/different rules for |madness}, which you may prefer to use."
 		],
 		"parent_topics": [
 			"gamemastery",
