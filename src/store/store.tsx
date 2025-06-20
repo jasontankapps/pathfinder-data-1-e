@@ -327,7 +327,7 @@ const stateReconciler = (incomingState: any, originalState: any, reducedState: a
 };
 const persistConfig: PersistConfig<typeof initialAppState> = {
 	key: 'root-pf-data',
-	version: 15,
+	version: 16,
 	storage,
 	stateReconciler,
 	migrate: createMigrate(migrations, { debug: false }),

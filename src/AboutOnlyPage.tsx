@@ -23,7 +23,7 @@ export const AboutInfo: React.FC<{className: string}> = ({className}) => (
 		<p><em>All original icons are distributed under the <a href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a> Creative Commons license.</em></p>
 		<p>The font is <a href="https://fonts.google.com/specimen/Taviraj">Taviraj</a> by <a href="https://fonts.google.com/?query=Cadson%20Demak">Cadson Demak</a>, with some symbols being rendered as <a href="https://www.onlinewebfonts.com/download/bd95c919d5566390c0565bea43f95495">Symbola</a> by George Douros.</p>
 		<h2>App Info</h2>
-		<p>v.0.4.0</p>
+		<p>v.0.4.1</p>
 	</div>
 );
 
