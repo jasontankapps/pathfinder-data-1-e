@@ -163,9 +163,9 @@ const alternateBlocks = {
 				const id = $.prefix + (attrs.id || text.toLowerCase().replace(/ +/g, "-").replace(/[^-a-z0-9]/g, ""));
 				jl(text, id);
 				if(attrs.extra) {
-					return `<${n} id="${id}">${text} ${attrs.extra}</${n}>\n`;
+					return `<${n} id="${id}" data-hash-target>${text} ${attrs.extra}</${n}>\n`;
 				}
-				return `<${n} id="${id}">${text}</${n}>\n`;
+				return `<${n} id="${id}" data-hash-target>${text}</${n}>\n`;
 			}
 			return `<${n}>${text}</${n}>`;
 		} else if ("hl2hl3hl4hl5hl6".indexOf(n) >= 0) {
@@ -191,7 +191,7 @@ const alternateBlocks = {
 			if(attrs.jl) {
 				const id = $.prefix + (attrs.id || linktext.toLowerCase().replace(/ +/g, "-").replace(/[^-a-z0-9]/g, ""));
 				jl(linktext, id);
-				return `<${t} id="${id}">${inner}</${t}>\n`;
+				return `<${t} id="${id}" data-hash-target>${inner}</${t}>\n`;
 			}
 			return `<${t}>${inner}</${t}>`;
 		}
@@ -286,7 +286,7 @@ const inlineTags = {
 				}
 				// hll
 				const id = maybeJL(attrs, text);
-				return `<strong className="hl"${id ? ` id="${id}"` : ""}><Link to="/${link}">${text}</Link></strong>`
+				return `<strong className="hl"${id ? ` id="${id}" data-hash-target` : ""}><Link to="/${link}">${text}</Link></strong>`
 			}
 			logError(`Bad :${tag} => [${text}]`);
 			tag = "b";
@@ -300,7 +300,7 @@ const inlineTags = {
 		} else if (tag === "hl" || tag === "HL") {
 			const marked2 = makeNewMarkedInstance();
 			const id = maybeJL(attrs, text);
-			return `<strong className="hl"${id ? ` id="${id}"` : ""}>${marked2.parseInline(text)}</strong>`;
+			return `<strong className="hl"${id ? ` id="${id}" data-hash-target` : ""}>${marked2.parseInline(text)}</strong>`;
 		}
 		switch(tag) {
 			case "primary":
@@ -325,7 +325,7 @@ const inlineTags = {
 		const id = $.prefix + (attrs.id || texts[0].replace(/ +/g, "-").toLowerCase().replace(/[^-a-z0-9]/g, ""));
 		// implicit jumplist
 		attrs.jl && jl(texts[0], id);
-		return `<${tag} id="${id}">${marked2.parseInline(texts.join(""))}</${tag}>`;
+		return `<${tag} id="${id}" data-hash-target>${marked2.parseInline(texts.join(""))}</${tag}>`;
 	}
 };
 
@@ -431,7 +431,7 @@ const postprocess = (tables) => {
 				footnotedata[id] = 0;
 			}
 			const noteNumber = ++footnotedata[id];
-			output = output + `${pre}<sup><InnerLink showBacklink="backlink-${$.prefix}${id}-${noteNumber}" id="${$.prefix}${id}-${noteNumber}" to="${$.prefix}${to}">${linktext}</InnerLink></sup>`;
+			output = output + `${pre}<sup><InnerLink showBacklink="backlink-${$.prefix}${id}-${noteNumber}" id="${$.prefix}${id}-${noteNumber}" data-hash-target to="${$.prefix}${to}">${linktext}</InnerLink></sup>`;
 			text = post;
 			$.flags.innerlink = true;
 		}
@@ -443,7 +443,7 @@ const postprocess = (tables) => {
 		while(m = text.match(backmatcher)) {
 			const [, pre, to, aria, linktext, linknumber, post] = m;
 			const noteNumber = linknumber || "1";
-			output = output + `${pre}<InnerLink id="backlink-${$.prefix}${to}-${noteNumber}" to="${$.prefix}${to}-${noteNumber}"${aria}-${noteNumber}">${linktext}</InnerLink>`;
+			output = output + `${pre}<InnerLink id="backlink-${$.prefix}${to}-${noteNumber}" data-hash-target to="${$.prefix}${to}-${noteNumber}"${aria}-${noteNumber}">${linktext}</InnerLink>`;
 			text = post;
 			$.flags.innerlink = true;
 		}

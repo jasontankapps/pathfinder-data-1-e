@@ -36,9 +36,9 @@
 			"",
 			"Planes with this trait drain the life out of travelers who tread upon them. They tend to be lonely, haunted planes, drained of color, devoid of plant and animal life, and filled with winds bearing the soft moans of those who died within them. {spell/Death ward} provides protection from a negative-dominant plane as long as the effect lasts, regardless of the strength of that plane's negative dominant trait.",
 			"",
-			"On minor negative-dominant planes, living creatures take 1d6 points of negative energy damage per round. When this damage reduces a creature to 0 hit points or below, the creature crumbles into ash. Undead on a minor negative-dominant plane instead gain fast healing 2 (this does not stack with existing fast healing an undead already has).",
+			"On minor negative-dominant planes, living creatures take 1d6 points of negative energy damage per round. When this damage reduces a creature to 0 hit points or below, the creature crumbles into ash. Undead on a minor negative-dominant plane instead gain {umr/fast healing} 2 (this does not stack with existing fast healing an undead already has).",
 			"",
-			"Major negative-dominant planes are even more dangerous to the living. Each round, a living creature on such a plane must succeed at a DC 25 Fortitude save or incur a negative level. A creature whose negative levels equal its current levels or Hit Dice is slain and becomes a {monster/wraith}. Undead on a negative-dominant plane gain fast healing 5 (this does not stack with any existing fast healing an undead already has).",
+			"Major negative-dominant planes are even more dangerous to the living. Each round, a living creature on such a plane must succeed at a DC 25 Fortitude save or incur a negative level. A creature whose {rule/negative levels} equal its current levels or Hit Dice is slain and becomes a {monster/wraith}. Undead on a negative-dominant plane gain fast healing 5 (this does not stack with any existing fast healing an undead already has).",
 			"",
 			"### Positive-Dominant",
 			"",
@@ -46,7 +46,7 @@
 			"",
 			"A minor positive-dominant plane is a riotous explosion of life in all its forms. Colors are brighter, fires are hotter, noises are louder, and sensations are more intense as a result of the positive energy infusing the plane. All living individuals in a positive-dominant plane gain fast healing 2. Undead instead take 1d6 points of positive energy damage per round, and at 0 hit points they crumble to ash.",
 			"",
-			"A creature on a major positive-dominant plane must succeed at a DC 15 Fortitude save or be blinded for 10 rounds by the brilliance of the surroundings. Simply being on the plane grants living creatures fast healing 5. In addition, living creatures at full hit points gain 5 additional temporary hit points per round that last until 1d20 rounds after the creature leaves the major positive-dominant plane. However, a creature that gains temporary hit points in this way must attempt a DC 20 Fortitude save each round that its temporary hit points exceed its normal maximum hit point total. Failure results in the creature exploding in a riot of energy, which kills it. Undead on a major positive-dominant plane take 3d6 points of positive energy damage per round and are staggered during each round they take this damage."
+			"A creature on a major positive-dominant plane must succeed at a DC 15 Fortitude save or be {misc/blinded} for 10 rounds by the brilliance of the surroundings. Simply being on the plane grants living creatures fast healing 5. In addition, living creatures at full hit points gain 5 additional {rule/temporary hit points} per round that last until 1d20 rounds after the creature leaves the major positive-dominant plane. However, a creature that gains temporary hit points in this way must attempt a DC 20 Fortitude save each round that its temporary hit points exceed its normal maximum hit point total. Failure results in the creature exploding in a riot of energy, which kills it. Undead on a major positive-dominant plane take 3d6 points of positive energy damage per round and are {misc/staggered} during each round they take this damage."
 		],
 		"parent_topics": [
 			"gm_specific_campaigns",
@@ -114,7 +114,7 @@
 			"",
 			"### Dead Magic",
 			"",
-			"These planes have no magic at all. A plane with the dead magic trait functions in all respects as if affected by an {spell/antimagic field} spell. Divination spells cannot detect subjects within a dead magic plane, and a spellcaster cannot cast plane shift or another spell to move in or out. The only exceptions to the \"no magic\" rule are permanent planar portals, which still function normally.",
+			"These planes have no magic at all. A plane with the dead magic trait functions in all respects as if affected by an {spell/antimagic field} spell. Divination spells cannot detect subjects within a dead magic plane, and a spellcaster cannot cast {spell/plane shift} or another spell to move in or out. The only exceptions to the \"no magic\" rule are permanent planar portals, which still function normally.",
 			"",
 			"### Enhanced Magic",
 			"",
@@ -148,7 +148,9 @@
 			"| 52-59 | Nothing happens. The spell does not function. Any material components are used up, the spell or spell slot is used up, an item the spell is cast from loses charges, and the effect counts against an item's or spell-like ability's use limit. |",
 			"| 60-71 | Nothing happens. The spell does not function, but no material components are consumed. The spell is not expended from the caster's mind (the spell slot or prepared spell can be used again). If the spell is cast from an item, the item does not lose charges. The effect does not count against an item's or spell-like ability's use limit. |",
 			"| 72-98 | The spell functions normally. |",
-			"| 99-100 | The spell functions strongly. Targets take a -2 penalty on saving throws against the spell. The spell has the maximum possible effect, as if cast with the {feat/Maximize Spell} feat. If the spell is already maximized with this feat, there is no further effect. |"
+			"| 99-100 | The spell functions strongly. Targets take a -2 penalty on saving throws against the spell. The spell has the maximum possible effect, as if cast with the {feat/Maximize Spell} feat. If the spell is already maximized with this feat, there is no further effect. |",
+			"",
+			"@HL[Compare:] {rule/Primal Magic}, {rule/Unchained |Wild Magic}"
 		],
 		"parent_topics": [
 			"gm_specific_campaigns",
@@ -279,9 +281,11 @@
 			"",
 			"### Description",
 			"",
-			"The Material Plane was not the first of its kind. In the earliest days of existence, before the creation of mortals and their realm, divinities created a rough draft - a prototype where they could test out different laws of physics and magic. Working through powerful proxies known as the elohim, the gods and goddesses populated this infinitely mutable landscape with countless forms of life. Every creature that could come to be was shaped and refined, every natural process examined. In the end, the goddesses and gods hit upon a configuration they enjoyed - yet they didn't simply declare their rough draft finished. Instead, they started over from scratch, abandoning their old ideas and painting the final version of the Material Plane over the top of their rough sketches. Thus, the First World was abandoned by its makers and the elohim proxies were freed to continue their own designs in the Astral Plane.",
+			"The Ethereal Plane is a misty veil laid over existence - a ghostly world that connects all of the Inner Planes on a subconscious level. Those who visit this strange dimension find a realm that appears as a vast expanse of pale mist, lit by gently rising and falling waves of green luminosity. While rare, matter sometimes accretes in the mists, whether formed intentionally by creatures, shed from one of the Elemental Planes, or spontaneously manifested by the plane's roiling tides of emotion. Most of the Ethereal Plane is empty.",
 			"",
-			"Today, the First World occupies a unique position in the Great Beyond. Set somewhat aside from deific interests and the Cycle of Souls in what residents dub the \"Great Abandonment,\" the First World is a closed system, its soul energy constantly recycling. Bolstered by its proximity to the Positive Energy Plane and the souls of the few mortal worshipers of the First World's demigods, the Eldest, the realm has become unnaturally verdant, bursting with growth. However, the First World is not simply a pastoral wonderland. It is a realm of infinite possibility and unbridled evolution, with natural laws changing from place to place to reflect the variety of half-finished versions tested out by their makers - the landscape constantly reinventing itself to suit the whims of powerful individuals or its own inscrutable desires. Its residents are equally mysterious, at once familiar and alien, with most living in harmony with a landscape of savage, primeval beauty. Thus, the First World is the realm of fairy tales, where anything is possible - if you can pay the price.",
+			"Of all the Transitive Planes, the Ethereal Plane is the closest to the Material Plane, though still unreachable without potent magic. Those with the power to step through find the veiled existence of ethereality to be useful indeed. Ethereal creatures can perceive objects, terrain, and creatures on the Material Plane as wispy, ghostlike images, but are themselves invisible to all on the Material Plane save for the supernaturally gifted. The ability to move through solid objects on the Material Plane gives an ethereal traveler incredible mobility, provided said traveler has a method of movement on this plane (see below). While traveling on the Ethereal Plane, a creature is insubstantial, invisible, and utterly silent to someone on the Material Plane.",
+			"",
+			"While it is most often used by mortals as a means to move incorporeally and unseen, the Ethereal Plane also serves as the launching point for souls, for it is here that they drift to upon death, joining the River of Souls to begin their journey to the Boneyard. Not all souls succeed at this journey, however; the Ethereal Plane is receptive to potent emotion, and souls that died without finding peace may linger in the mists for a time. Souls that become lost or are unable to move on due to extreme emotional trauma at the time of death may return to the Material Plane as {template/ghost/s}, {monster/spectre/s}, {monster/wraith/s}, or other bodiless undead, while others are called back to existence by {class/spiritualist/s} to become {sidekick/phantom/s}. Folklore sometimes claims that incorporeal undead and outsiders somehow straddle the Ethereal Plane and Material Plane, existing on both simultaneously, but ghosts and other incorporeal creatures in fact have no intrinsic ties to the Ethereal Plane and can exist anywhere in the multiverse.",
 			"",
 			"### Exploration",
 			"",
@@ -337,7 +341,7 @@
 		"description": [
 			"{SOURCE Planar Adventures/100}",
 			"",
-			"::ph[Realm of the Fey]{sub=\"This rough draft of the Material Plane was abandoned by the gods and set aside from the ebb and flow of the Cycle of Souls. Today, it is a place where fey rule and the laws of nature itself constantly change - a realm of nature run amok and ruled by the fey and the demigods known as the Eldest.\" cat=\"Inner Plane\"}",
+			"::ph[Realm of the Fey]{sub=\"Realm of the Fey\" desc=\"This rough draft of the Material Plane was abandoned by the gods and set aside from the ebb and flow of the Cycle of Souls. Today, it is a place where fey rule and the laws of nature itself constantly change - a realm of nature run amok and ruled by the fey and the demigods known as the Eldest.\" cat=\"Inner Plane\"}",
 			"",
 			"::sh[Traits]",
 			"",
@@ -397,7 +401,7 @@
 			"",
 			"The ability to bend the fabric of the First World to one's whim is an outgrowth of the plane's fundamental mutability and inconsistency, and thus the practice is difficult to codify into a single system of rules. Even on the First World, shaping is an ability learned through trial and error rather than taught - an expression of personality and sheer will - and no two entities go about the process in exactly the same way. The following notes give some general guidelines on how to incorporate shaping into your game.",
 			"",
-			"Shaping is not a simple matter, and an attempt to alter the morphic nature of the First World requires 1 minute of concentration by a character who is not fatigued or exhausted. This action provokes attacks of opportunity. At the end of this minute, the character must succeed at a Charisma check (DC = 20 + 4 per previous shaping attempt made in the last 24 hours). On a failed check, the character's ability to shape the First World is exhausted for 24 hours. If the character fails the check by 10 or more, she also becomes fatigued. Druids, hunters, rangers, fey, worshipers of one of the Eldest, and natives of the First World all gain a +4 bonus on Charisma checks to shape.",
+			"Shaping is not a simple matter, and an attempt to alter the morphic nature of the First World requires 1 minute of concentration by a character who is not {misc/fatigued} or {misc/exhausted}. This action provokes attacks of opportunity. At the end of this minute, the character must succeed at a Charisma check (DC = 20 + 4 per previous shaping attempt made in the last 24 hours). On a failed check, the character's ability to shape the First World is exhausted for 24 hours. If the character fails the check by 10 or more, she also becomes fatigued. Druids, hunters, rangers, fey, worshipers of one of the Eldest, and natives of the First World all gain a +4 bonus on Charisma checks to shape.",
 			"",
 			"On a successful Charisma check, the character can alter the First World by using a spell-like ability determined by the shaper's Hit Dice, as shown on Table 3-4. The shaper must begin using the spell-like ability on the round immediately after spending the minute of concentration required to shape in the first place, or the opportunity to shape is wasted. The spell-like ability resolves at a caster level equal to the character's Hit Dice or character level, whichever is higher. At the GM's option, similar spells of equal spell level can be allowed.",
 			"",
@@ -491,7 +495,7 @@
 			"",
 			"### Shifting Shadows",
 			"",
-			"Parts of the Shadow Plane continually flow into other planes. As a result, creating a precise map of the plane is next to impossible, despite the presence of landmarks. In addition, certain spells, such as shadow conjuration and shadow evocation, modify the base material of the Shadow Plane. The utility and power of these spells here become enhanced (see above) as they are able to tap into the morphic nature of the realm.",
+			"Parts of the Shadow Plane continually flow into other planes. As a result, creating a precise map of the plane is next to impossible, despite the presence of landmarks. In addition, certain spells, such as *shadow conjuration* and *shadow evocation,* modify the base material of the Shadow Plane. The utility and power of these spells here become enhanced (see above) as they are able to tap into the morphic nature of the realm.",
 			"",
 			"### Vision on the Shadow Plane",
 			"",
@@ -706,7 +710,7 @@
 			"",
 			"### Exploration",
 			"",
-			"Breathable air is the plane's most dominant substance, making the Plane of Air the most hospitable of all the Elemental Planes for visitors from the Material Plane. Flying creatures have great advantages here, though nonnatives of all sorts might find themselves constrained by the lack of solid ground. Such material does exist, in the form of great chunks of drifting ice originating from the adjacent Plane of Water and magically suspended hunks of earth and crystal - but such places are few and far between.",
+			"Creatures native to the Plane of Air usually have innate means of reaching a desired destination. Visitors who would explore the wonders of the Endless Sky must plan ahead, but fortunately, there are many ways to accomplish this, such as airships, flying mounts, and magic.",
 			"",
 			"No standard day-night cycle exists on the Plane of Air, and the skies above (and below) are deep blue and strewn with clouds. Star-like formations can shed light, but in most reaches of the plane, the lighting itself comes from unknown sources. Travelers navigate via magic or the sighting of visual (or other) landmarks, but no direct analog to north exists on this plane."
 		],
@@ -1273,7 +1277,7 @@
 			"",
 			"Axis is a bastion of immutable law set against the ever-crashing tide of pure chaos that is the Maelstrom. From the outside, Axis appears as a pristine city surrounded by a wall of gold amid a demolished wasteland littered with ancient, skeletal corpses of titans left over from a war during the Age of Creation. Known as the Eternal City, the Perfect City, or even Utopia, Axis is actually millions of separate cities folded and layered atop, within, and around one another in an elegantly arrayed masterpiece of architecture and city planning. Many of the city-districts within Axis are either a deity's domain or the remnants of a domain of a deceased deity. Magical portals at major crossroads connect the countless cities, aiding in navigation and travel. At Axis's back, looming impossibly tall, rises Pharasma's Spire - the foundation of the Boneyard.",
 			"",
-			"Before the rise of mortal life, the realm of Axis was a blank slate - an empty wasteland surrounding the base of Pharasma's Spire. As cities and laws were introduced by mortal acts, portions of the Maelstrom crystallized and broke away from that churning sea of infinite possibilities. These crystalline shards fell into the rough-hewn wasteland around Pharasma's Spire and became the Threefold Pillars of the Axiomite Godmind, allowing order and rigidity to manifest physically. It is from this seed, this Godmind, that the first axiomites emerged, and from them, in time, came their aphorite mortal proxies.",
+			"Before the rise of mortal life, the realm of Axis was a blank slate - an empty wasteland surrounding the base of Pharasma's Spire. As cities and laws were introduced by mortal acts, portions of the Maelstrom crystallized and broke away from that churning sea of infinite possibilities. These crystalline shards fell into the rough-hewn wasteland around Pharasma's Spire and became the Threefold Pillars of the Axiomite Godmind, allowing order and rigidity to manifest physically. It is from this seed, this Godmind, that the first axiomites emerged, and from them, in time, came their {race/aphorite} mortal proxies.",
 			"",
 			"Since its foundation, Axis has endured countless assaults on its walls from its enemies, but three legendary wars bear special mention. The first of these wars was against a legion of powerful proteans whose devastating assault resulted in the creation of the first inevitables as guardians and protectors of law. The second was a colossal conflict between the gods and titans, the scars of which can still be seen and explored in the wasteland that surrounds the city. The third and final war was against the Rough Beast {faith/Rovagug}, before he was sealed away by a collection of powerful deities, when he descended upon Axis in what may be the most devastating disaster the city has endured.",
 			"",
@@ -1489,7 +1493,7 @@
 			">The Infernal City of Dis is the largest city in Hell. It is ruled by {faith/Dispater}, the archdevil of cities, prisons, and rulership.",
 			">",
 			">@HL[Erebus]  ",
-			">Erebus is ruled by Mammon, the archdevil of avarice, watchfulness, and wealth. These lightless vaults serve as Hell's treasury.",
+			">Erebus is ruled by {faith/Mammon}, the archdevil of avarice, watchfulness, and wealth. These lightless vaults serve as Hell's treasury.",
 			">",
 			">@HL[Phlegethon]  ",
 			">The burning reaches of Phlegethon contain immense mines and endless toil, and they are ruled by {faith/Belial}, the archdevil of adultery, deception, and desire.",
@@ -1513,7 +1517,7 @@
 			"",
 			"Hell is famed throughout the Great Beyond for its innumerable dangers and torments. The skies above range from gloomy and depressing on the best of days to burning red with ash and fire, or, in realms like Erebus, entirely absent. The exact nature of the clouds and illumination varies from each layer of Hell to the next, but there is never anything comforting or soothing in the view.",
 			"",
-			"Asmodeus's throne, the Catafalque, is Hell's \"heart\" and the point which functions as the strongest navigational aid for items like astralabes (see page 52). Anything in the direction of the Catafalque is often referred to as \"Pitward\" by the denizens of Hell, but Material Plane standards of north, south, east, and west are used also, in large part due to an obscure proviso in an ancient contract that no devil has yet felt the need or had the time to seek out and revise."
+			"Asmodeus's throne, the Catafalque, is Hell's \"heart\" and the point which functions as the strongest navigational aid for items like {magic-wondrous/astralabe/s}. Anything in the direction of the Catafalque is often referred to as \"Pitward\" by the denizens of Hell, but Material Plane standards of north, south, east, and west are used also, in large part due to an obscure proviso in an ancient contract that no devil has yet felt the need or had the time to seek out and revise."
 		],
 		"parent_topics": [
 			"gm_specific_campaigns",
@@ -1650,7 +1654,7 @@
 			"",
 			"### Exploration",
 			"",
-			"As if the inhabitants of the Abyss weren't enough, the plane itself is an enemy of those who travel there. Each realm has its own rules of reality, making navigation from realm to realm impossible without magic like plane shift. Day-night cycles and whatever might (or might not) substitute as \"north\" can vary widely from realm to realm.",
+			"As if the inhabitants of the Abyss weren't enough, the plane itself is an enemy of those who travel there. Each realm has its own rules of reality, making navigation from realm to realm impossible without magic like {spell/plane shift}. Day-night cycles and whatever might (or might not) substitute as \"north\" can vary widely from realm to realm.",
 			"",
 			"#### Endless Rifts",
 			"",
@@ -1698,7 +1702,7 @@
 			"",
 			"While some demiplanes arise from planar forces, others are born when individuals deliberately fracture pieces of the Astral or Ethereal Planes and reshape them into pocket dimensions to suit their needs. Even mortals can weave demiplanes into existence with complex rituals or powerful magic. The most common reason behind the creation of demiplanes is a desire to isolate their contents. Demiplanes serve as ideal, protected havens for experiments, as well as for manipulations of time and space that would prove difficult or impossible to produce in other places.",
 			"",
-			"The true definition of a demiplane is a matter of debate. In its most restrictive definition, only self-contained pockets of reality formed from the Astral or Ethereal Planes and accessible via typical methods of planar travel - such as plane shift - qualify. This definition excludes secluded places that the gods have formed by reshaping portions of other planes, such as Desna's realm of Cynosure, and places that are difficult or impossible to access via standard methods, such as the mythical Akashic Record and Rovagug's prison, the Dead Vault.",
+			"The true definition of a demiplane is a matter of debate. In its most restrictive definition, only self-contained pockets of reality formed from the Astral or Ethereal Planes and accessible via typical methods of planar travel - such as {spell/plane shift} - qualify. This definition excludes secluded places that the gods have formed by reshaping portions of other planes, such as {faith/Desna/'s} realm of Cynosure, and places that are difficult or impossible to access via standard methods, such as the mythical Akashic Record and {faith/Rovagug/'s} prison, the Dead Vault.",
 			"",
 			"Some demiplanes include the word \"Dimension\" in their title, as is the case for the Dimension of Dreams and the Dimension of Time. A dimension is a type of demiplane that breaks two of the common rules most demiplanes share. First, a dimension is always a Transitive Plane that overlays all other planes, including other dimensions. Second, a dimension is an infinite space that encompasses all of reality; it is never a small, finite plane. However, some scholars believe that dimensions are not demiplanes at all, and insist that other Transitive Planes like the Astral Plane, the Ethereal Plane, and the Shadow Plane are, in fact, dimensions.",
 			"",
@@ -1756,7 +1760,7 @@
 			"",
 			"@HL[The Circle Between:] The Bramble Maiden and her circle of druidic followers watch over this wilderness demiplane, where plants and animals from myriad worlds flourish. The plane's name comes from a circle of standing stones that hold dozens of extraplanar portals.",
 			"",
-			"@HL[Crypt of the Dying Sun:] The pale red glow of a dying star illuminates the tomb at this demiplane's heart. This tomb serves as the lair of an ancient vampire sorcerer named Larynsang the Wasted.",
+			"@HL[Crypt of the Dying Sun:] The pale red glow of a dying star illuminates the tomb at this demiplane's heart. This tomb serves as the lair of an ancient {template/vampire} sorcerer named Larynsang the Wasted.",
 			"",
 			"@HL[Fleshwarren:] This demiplane appears to be entirely encased in a massive corpse. Most travelers who find themselves in the Fleshwarren's repulsive halls are trapped. The plane blocks most planar travel magic, forcing many visitors to survive off the plane's flesh. However, those who do so are forever cursed, unable to draw nourishment from any other source.",
 			"",
@@ -1834,7 +1838,7 @@
 			"",
 			"As might be expected given the reverence with which occult scholars speak of the Akashic Record, its putative existence serves as a linchpin they use to account for countless phenomena. These range from humble psychometry all the way up to powerful magic that allows the mightiest psychics to emulate imperfectly Akashic Guru's signature power and restore themselves to a version from the past. Even arcane and divine scholars begrudgingly accept the effectiveness of such spells, but they maintain that the mysterious magic that could be explained by accessing the Akashic Record is not necessarily proof of the record's existence.",
 			"",
-			">*Also see: {rule/Akashic Record (O/ccult Adventures)>a}**"
+			">*Also see: {rule/Akashic Record (O/ccult Adventures)>a}*"
 		],
 		"parent_topics": [
 			"gm_specific_campaigns",
@@ -1986,7 +1990,7 @@
 		"description": [
 			"{SOURCE Planar Adventures/210}",
 			"",
-			"::ph[Dimension of Dreams]{sub=\"The Dreamlands\" desc=\"When we sleep, we all visit the Dimension of Dreams.\" cat=\"dimension (Transitive)/demiplane\\*\"}",
+			"::ph[Dimension of Dreams]{sub=\"The Dreamlands\" desc=\"When we sleep, we all visit the Dimension of Dreams.\" cat=\"dimension (Transitive)/demiplane*\"}",
 			"",
 			"::sh[Traits]",
 			"",

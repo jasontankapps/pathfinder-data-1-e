@@ -744,10 +744,14 @@ div.finder input.searchbar-input {
 
 /* Scrolling via InnerLink */
 
-div,h2,h3,h4,h5,h6,p,b,i,strong,em,blockquote,aside,li,span,ion-item-divider {
+/*div,h2,h3,h4,h5,h6,p,b,i,strong,em,blockquote,aside,li,span,ion-item-divider*/
+*[data-hash-target],
+ion-item-divider[id],
+section[data-footnotes] li[id] {
 	transition: background-color 0.5s ease-in 1.5s;
 }
-a {
+*[data-hash-target] a,
+ion-item-divider[id] a {
 	transition: color 0.5s ease-in 1.5s;
 }
 a.backToPreviousLink,
@@ -757,9 +761,9 @@ span.innerlink.backToPreviousLink {
 
 *.highlight {
 	background-color: var(--ion-color-success) !important;
-	transition: background-color 0.25s ease-out 0s;
+	transition: background-color 0.25s ease-out 0s !important;
 }
 *.highlight a {
 	color: var(--ion-color-success-contrast) !important;
-	transition: color 0.25s ease-out 0s;
+	transition: color 0.25s ease-out 0s !important;
 }

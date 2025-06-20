@@ -1549,7 +1549,7 @@
 			"| 72-98 | The spell functions normally. |",
 			"| 99-100 | The spell functions strongly. Saving throws against the spell incur a -2 penalty. The spell has the maximum possible effect, as if it were cast with the {feat/Maximize Spell} feat. If the spell is already maximized with the feat, there is no further effect. |",
 			"",
-			"Compare: {rule/Primal Magic}, [Unchained Wild Magic](rule/wild_magic)"
+			"@HL[Compare:] {rule/Primal Magic}, {rule/Unchained |Wild Magic}"
 		],
 		"parent_topics": [
 			"gamemastery",

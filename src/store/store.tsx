@@ -272,6 +272,10 @@ const migrations = {
 		const replacementFeast = "$1s$2";
 		const replacerWhispers = /(^[/]?haunt[/])maddening_influence([/]?)$/;
 		const replacementWhispers = "$1whispers_from_beyond$2";
+		const replacerMadness = /(^[/]?madness[/])(?:(mania)_phobia|(dissociated_identity|amnesia|moral_insanity|schizophrenia)_gg)([/]?)$/;
+		const replacementMadness = "$1$2$3$4";
+		const replacerParanoid = /(^[/]?madness[/]paranoi)a([/]?)$/;
+		const replacementParanoid = "$1d$2";
 
 		Object.keys(oldDB).forEach(id => {
 			const {color, title, contents:c, hidden} = oldDB[id] as BookmarkGroup;
@@ -281,6 +285,8 @@ const migrations = {
 				contents: c.map(pair =>
 					[
 						pair[0]
+							.replace(replacerMadness, replacementMadness)
+							.replace(replacerParanoid, replacementParanoid)
 							.replace(replacerWhispers, replacementWhispers)
 							.replace(replacerFeast, replacementFeast),
 						pair[1]
@@ -291,6 +297,8 @@ const migrations = {
 		});
 		Object.keys(oldCat).forEach(link => {
 			const newLink = link
+				.replace(replacerMadness, replacementMadness)
+				.replace(replacerParanoid, replacementParanoid)
 				.replace(replacerWhispers, replacementWhispers)
 				.replace(replacerFeast, replacementFeast);
 			catalog[newLink] = oldCat[link] as string[];
