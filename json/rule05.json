@@ -1544,7 +1544,7 @@
 			"",
 			"Your speed is determined by your race and your armor (see Table 8-3). Your speed while unarmored is your base land speed.",
 			"",
-			"@HL[Encumbrance:] A character [encumbered](rule/carrying_capacity) by carrying treasure. a large amount of gear, or fallen comrades may move slower than normal.",
+			"@HL[Encumbrance:] A character {rule/encumbered} by carrying treasure, a large amount of gear, or fallen comrades may move slower than normal.",
 			"",
 			"@HL[Hampered Movement:] Difficult terrain, obstacles, or poor visibility can hamper movement.",
 			"",
