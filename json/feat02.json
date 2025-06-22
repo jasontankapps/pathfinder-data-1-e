@@ -1580,7 +1580,7 @@
 			"{SOURCE Faction Guide/56}",
 			"",
 			"You are skilled at fighting criminal humans such as bandits.  ",
-			"**Prerequisites:** [Bloodstone Swords](rule/f_merceneries) 10 TPA.  ",
+			"**Prerequisites:** {rule/Bloodstone Swords} 10 TPA.  ",
 			"**Benefit:** You gain a +1 bonus on Bluff, Knowledge, Perception, Sense Motive, and Survival checks against humans, and a +1 bonus on weapon attack and damage rolls against humans. If you have a {ability/favored enemy} bonus against humans, this feat does not stack with that bonus."
 		]
 	},
@@ -2837,7 +2837,7 @@
 			"{SOURCE Faction Guide/56}",
 			"",
 			"You always appear to be in control of your situation.  ",
-			"**Prerequisites:** [Prophets of Kalistrade](rule/f_profits) 10 TPA.  ",
+			"**Prerequisites:** {rule/Prophets of Kalistrade} 10 TPA.  ",
 			"**Benefit:** You gain +2 bonus on saving throws against effects that affect your composure. This includes all mind-affecting spells, as well as any spell or ability that would cause you to behave in an out-of-control manner, such as fear effects and nausea. This does not include physical effects such as {misc/fatigue>d}, and does not reduce any damage taken from concurrent effects."
 		]
 	},
@@ -2918,7 +2918,7 @@
 			"",
 			"{SOURCE Occult Origins/24}",
 			"",
-			"Your training with the [Pathfinder Society](rule/aff_scholars) (or its rivals) has taught you proper caution and wariness when deciphering the ancient scrolls and inscriptions of fallen civilizations.  ",
+			"Your training with the {rule/Pathfinder Society} (or its rivals) has taught you proper caution and wariness when deciphering the ancient scrolls and inscriptions of fallen civilizations.  ",
 			"**Prerequisites:** Linguistics 3 ranks, Spellcraft 3 ranks.  ",
 			"**Benefit:** You gain a +4 bonus on saving throws against written magical effects, including {spell/explosive runes}, {spell/glyph of warding}, {spell/illusory script}, {spell/symbol of death}, and similar magic, as well as against any form of curse, madness, possession, or similar effect - magical or not - that might occur from reading a book, inscription, scroll, or any other form of writing."
 		]

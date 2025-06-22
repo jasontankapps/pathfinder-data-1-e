@@ -1105,7 +1105,7 @@
 			"{SOURCE Faction Guide/57}",
 			"",
 			"The fact that you have given up your real name makes you resistant to certain types of magic.  ",
-			"**Prerequisites:** [Risen Guard](rule/f_second_life) rank, Risen Guard 10 TPA.  ",
+			"**Prerequisites:** {rule/Risen Guard} rank, Risen Guard 10 TPA.  ",
 			"**Benefit:** Anyone who attempts to use magic in order to learn personal information about you, such as through {spell/divination}, {spell/scrying}, or similar magic, must make a caster level check with a DC equal to 10 plus your level to succeed. You are immune to spells that require the use of your name in order to function (such as {spell/trap the soul}).",
 			"",
 			"Most members of the Risen Guard with this feat are addressed by their rank.",
@@ -1839,7 +1839,7 @@
 			">",
 			">@HL[Vernisant:] Your family is descended from the great general Arnisant, who commanded Taldan forces during the Shining Crusade... and they will never let anyone forget it! Their fierce Imperialist support and nationalist fervor has left you alienated from your relatives now, but their emphasis on scholarship left a mark nonetheless. You gain a +1 bonus on all Knowledge skills in which you have at least 1 rank.",
 			">",
-			">@HL[Vinmark:] Newcomers and outsiders, your Ulfen family was exalted to nobility 19 years ago, when Stavian III promoted your family patriarch to Baron of Oppara as a reward for service in the [Ulfen Guard](rule/f_imperial). Established aristocrats consider your family crude, choosing to leave them on the margins of Taldan politics unless a noble thinks they could use you to curry favor with the Grand Prince, but hard-won practicality and newborn cynicism grant you insight most Taldan nobles lack. Once per day when rolling a Sense Motive check, you may roll two dice and use the better result.",
+			">@HL[Vinmark:] Newcomers and outsiders, your Ulfen family was exalted to nobility 19 years ago, when Stavian III promoted your family patriarch to Baron of Oppara as a reward for service in the {rule/Ulfen Guard}. Established aristocrats consider your family crude, choosing to leave them on the margins of Taldan politics unless a noble thinks they could use you to curry favor with the Grand Prince, but hard-won practicality and newborn cynicism grant you insight most Taldan nobles lack. Once per day when rolling a Sense Motive check, you may roll two dice and use the better result.",
 			">",
 			">@HL[Zespire:] Your family runs charities and lobbies heavily for social reform, leaving them with few friends among their Opparan peers but heartfelt support from the common folk and lesser nobility. You gain a +2 bonus on Diplomacy and Perform checks when dealing with common citizens and with nobles whose titles are limited to Lord, Lady, Knight, or Dame.",
 			"",
@@ -1968,7 +1968,7 @@
 			"**Completion Benefit:** Slaying a {family/linnorm} in the northlands of Avistan enables you to become a ruler in the Lands of the Linnorm Kings. You gain {ability/favored enemy} (dragon) +2, as the ranger class feature of the same name. This bonus stacks with favored enemy bonuses granted by other sources.",
 			"",
 			"@HL[Red Mantis Hit List]  ",
-			"**Completion Benefit:** By stealing a comprehensive list of all the targets slain and being kept dead by the [Red Mantis](rule/aff_assassins) assassins, you gain insights into their deadliest secrets. You gain {feat/Exotic Weapon Proficiency} (sawtooth sabre) and {feat/Weapon Focus} (sawtooth sabre) as bonus feats.",
+			"**Completion Benefit:** By stealing a comprehensive list of all the targets slain and being kept dead by the {rule/Red Mantis} assassins, you gain insights into their deadliest secrets. You gain {feat/Exotic Weapon Proficiency} (sawtooth sabre) and {feat/Weapon Focus} (sawtooth sabre) as bonus feats.",
 			"",
 			"@HL[Sun Orchid Elixir]  ",
 			"**Completion Benefit:** Upon acquiring a dose of {magic-artifact/sun orchid elixir} and restoring your youth, you completely lose your fear of physical harm. You gain a +2 bonus on saves against Strength, Dexterity, and Constitution damage.",
@@ -2089,7 +2089,7 @@
 			"{SOURCE Faction Guide/57}",
 			"",
 			"You hear the voices of the Old Ones, and believe it is your destiny to awaken others to their ancient cause using bizarre and torturous rituals. Whether your work leaves these individuals mad or truly touched by alien sentience remains unproven.  ",
-			"**Prerequisites:** [Old Cults](rule/f_old_cults) 20 TPA.  ",
+			"**Prerequisites:** {rule/Old Cults} 20 TPA.  ",
 			"**Benefit:** You can attempt a DC 25 Heal check upon an unconscious but stable intelligent creature. The ritual takes 1 hour to complete. If it's successful, the victim must make a DC 25 Will save or he gains a false memory of a vision that he has personally been chosen by the Great Old Ones to serve them (treat as an implanted memory from {spell/modify memory}, except this is a nonmagical effect). If the ritual is unsuccessful, the victim takes 1d2 points of Intelligence and Wisdom {rule/ability_damage_<drain}; you may attempt the ritual again."
 		]
 	},
@@ -2101,8 +2101,8 @@
 			"",
 			"{SOURCE Faction Guide/57}",
 			"",
-			"Your walk, stance, and voice all amplify your status as a [Hellknight](rule/aff_lawknights) when you cast spells or use spell-like abilities against opponents.  ",
-			"**Prerequisites:** Hellknight rank, [Hellknight](rule/aff_lawknights) 10 TPA.  ",
+			"Your walk, stance, and voice all amplify your status as a {rule/Hellknight>s} when you cast spells or use spell-like abilities against opponents.  ",
+			"**Prerequisites:** Hellknight rank, {rule/Hellknight>s} 10 TPA.  ",
 			"**Benefit:** Whenever you cast a spell or use a spell-like ability from the compulsion, fear, phantasm, or shadow sub-schools, add +1 to the DC of the saving throw against that spell or effect."
 		]
 	},
@@ -3061,7 +3061,7 @@
 			"",
 			"**Deities:** {faith/Abadar} (LN), {faith/Asmodeus} (LE), {faith/Iomedae} (LG), {faith/Irori} (LN), {faith/Torag} (LG)",
 			"",
-			"**Common Believers:** [Hellknights](rule/aff_lawknights)",
+			"**Common Believers:** {rule/Hellknights}",
 			"",
 			"**Granted Spell-Like Ability:** {spell/protection from chaos}",
 			"",
@@ -3306,7 +3306,7 @@
 			"",
 			"{SOURCE Agents of Evil/13}",
 			"",
-			"The [Pathfinder Society](rule/aff_scholars) grants you access to its archives in thanks for services previously rendered.  ",
+			"The {rule/Pathfinder Society} grants you access to its archives in thanks for services previously rendered.  ",
 			"**Prerequisites:** {feat/Associate} (Pathfinder Society).  ",
 			"**Benefit:** The Pathfinder Society's vast archives are available for you to exploit. In any settlement that is the size of a small town or larger, you can spend 1d4 hours researching notes from available Pathfinders to gain a +4 circumstance bonus on a single Knowledge check."
 		]

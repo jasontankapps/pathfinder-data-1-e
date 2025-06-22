@@ -3145,7 +3145,7 @@
 			"{SOURCE Faction Guide/56}",
 			"",
 			"You grant your allies even greater bonuses when using your bardic performance abilities.  ",
-			"**Prerequisites:** {ability/Bardic performance} class feature, {feat/Extra Performance}, {feat/Master Performer}, bard level 8th, [Kitharodian Academy](rule/f_bards) 20 TPA.  ",
+			"**Prerequisites:** {ability/Bardic performance} class feature, {feat/Extra Performance}, {feat/Master Performer}, bard level 8th, {rule/Kitharodian Academy} 20 TPA.  ",
 			"**Benefit:** When any of your bardic performance abilities grant your allies a bonus, that bonus increases by +1. This bonus stacks with the bonus from the Master Performer feat."
 		]
 	},
@@ -3250,7 +3250,7 @@
 			"",
 			"{SOURCE Adventurer's Guide/84}",
 			"",
-			"You were selected for indoctrination into the [Gray Maidens](rule/aff_scarred_ladies) and underwent some of the preliminary scarring and conditioning, but Queen Ileosa was defeated before you could fully serve her. You bear the mental and physical scars of your sisters in the Gray Maidens, and while you never had to carry out any of the queen's commands, you feel a strong kinship with those of your sisters who have.  ",
+			"You were selected for indoctrination into the {rule/Gray Maidens} and underwent some of the preliminary scarring and conditioning, but Queen Ileosa was defeated before you could fully serve her. You bear the mental and physical scars of your sisters in the Gray Maidens, and while you never had to carry out any of the queen's commands, you feel a strong kinship with those of your sisters who have.  ",
 			"**Prerequisites:** Female, must be taken at 1st level.  ",
 			"**Benefit:** You are affiliated with the Gray Maidens. In addition, choose two of the following benefits to represent the focus of your initial training and indoctrination.",
 			"",

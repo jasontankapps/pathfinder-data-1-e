@@ -32,9 +32,9 @@
 			"",
 			"Affiliation with a group means that a character has proven to be an ally with the group's interests at heart and is trusted to be a caretaker for that group's secrets.",
 			"",
-			"@HL[Affiliation Slots:] Each PC has a number of affiliation slots equal to the character's Charisma modifier + 1 (minimum 1 slot). Each time a PC takes the {feat/Additional Affiliations} feat, his total number of affiliation slots increases by 2. Finally, a GM can award bonus affiliation slots as rewards for gameplay, but typically these slots must be spent on specific groups. (For example, after the PCs successfully undertake a dangerous mission for the [Silver Ravens](rule/aff_rebels), the GM may reward the group with a bonus affiliation with the Silver Ravens.)",
+			"@HL[Affiliation Slots:] Each PC has a number of affiliation slots equal to the character's Charisma modifier + 1 (minimum 1 slot). Each time a PC takes the {feat/Additional Affiliations} feat, his total number of affiliation slots increases by 2. Finally, a GM can award bonus affiliation slots as rewards for gameplay, but typically these slots must be spent on specific groups. (For example, after the PCs successfully undertake a dangerous mission for the {rule/Silver Ravens}, the GM may reward the group with a bonus affiliation with the Silver Ravens.)",
 			"",
-			"@HL[Starting Affiliation:] A player can choose her PC's first affiliation when she creates the character, so long as she justifies her choice via the character's background. For example, perhaps a PC's parents belong to the [Pathfinder Society](rule/aff_scholars), and her parents' reputation in that organization could vouch for her own affiliation. A PC born into an [Al-Zabriti](rule/aff_deserts) tribe may retain her birthright and history by belonging to these horse-riding folk despite having since traveled far from Qadira. Or maybe a PC was rescued from slavery at a young age by members of the [Bellflower Network](rule/aff_antislavery), and has modeled his life upon heroes from that group. This starting affiliation must be approved by the GM, who may say that certain affiliations are off-limits or some organizations must be contacted in-play before joining.",
+			"@HL[Starting Affiliation:] A player can choose her PC's first affiliation when she creates the character, so long as she justifies her choice via the character's background. For example, perhaps a PC's parents belong to the {rule/Pathfinder Society}, and her parents' reputation in that organization could vouch for her own affiliation. A PC born into an {rule/Al-Zabriti} tribe may retain her birthright and history by belonging to these horse-riding folk despite having since traveled far from Qadira. Or maybe a PC was rescued from slavery at a young age by members of the {rule/Bellflower Network}, and has modeled his life upon heroes from that group. This starting affiliation must be approved by the GM, who may say that certain affiliations are off-limits or some organizations must be contacted in-play before joining.",
 			"",
 			"@HL[Subsequent Affiliations:] Once play begins, a PC must seek out and contact agents of an organization before attempting to join or gain affiliation with it. Upon making contact, she must convince that agent that she would make a good addition to the organization. Players should speak with their GM out of the game when they make the decision to pursue affiliation with a group, since the GM has final say as to which groups (and thus which options) are available. An affiliation should never be something players just decide they have on their own - it should be the result of gameplay and interaction with NPCs associated with the organization. Additional information on how to earn affiliation is presented in each group's section, along with a short example encounter GMs can use as inspiration for setting up the attempt to affiliate with the group.",
 			"",
@@ -50,7 +50,7 @@
 			"",
 			"### Rivals",
 			"",
-			"Note that certain groups have rivals listed in their group stat blocks, representing long-standing conflicts with other groups. The [Aspis Consortium](rule/aff_profiteers) and the Pathfinder Society are perennial enemies, and the [Hellknights](rule/aff_lawknights) and the Bellflower Network have long been at odds. There's no reason that characters of rival affiliations can't exist in the same adventuring party (although such a group will likely be more prone to party strife than others), but a single character cannot normally have an affiliation with two rival groups.",
+			"Note that certain groups have rivals listed in their group stat blocks, representing long-standing conflicts with other groups. The {rule/Aspis Consortium} and the Pathfinder Society are perennial enemies, and the {rule/Hellknights} and the Bellflower Network have long been at odds. There's no reason that characters of rival affiliations can't exist in the same adventuring party (although such a group will likely be more prone to party strife than others), but a single character cannot normally have an affiliation with two rival groups.",
 			"",
 			"### Abandoning Affiliations",
 			"",
@@ -161,6 +161,7 @@
 			"aff_storms"
 		]
 	},
+	"al_zabriti": { "redirect": "aff_deserts" },
 	"aff_swordmasters": {
 		"name": "Swordmasters",
 		"subtitle": "Affiliation",
@@ -214,6 +215,7 @@
 			"aff_storms"
 		]
 	},
+	"aldori_swordlords": { "redirect": "aff_swordmasters" },
 	"aff_profiteers": {
 		"name": "Crimson Syndicate",
 		"subtitle": "Affiliation",
@@ -225,7 +227,7 @@
 			"@HL[Values:] development of new revenue streams, elimination of competition, indirect political power, monopolies, profit  ",
 			"@HL[Goals:] finance new ventures by securing exotic goods for customers, providing consultation services, and taking control of rare and profitable resources; maximize earnings; secure capital  ",
 			"@HL[Allies:] aspiring tyrants; [Golden League](pclass/golden_legionnaire); numerous municipal, national, and organizational authorities throughout the region and beyond; sundry jungle tribes  ",
-			"@HL[Enemies:] competing mercantile interests, [Vanguard of Liberty](rule/aff_vangard), Pirate Council, [The Ancient School](rule/aff_i_school), [Exploration Association](rule/aff_scholars)  ",
+			"@HL[Enemies:] competing mercantile interests, {rule/Vangard of Liberty}, Pirate Council, {rule/The Ancient School}, {rule/Exploration Association}  ",
 			"@HL[Rivals:] Exploration Association  ",
 			"**Also See:** [Crimson Syndicate (faction)](rule/f_profiteers)",
 			"",
@@ -268,6 +270,8 @@
 			"aff_storms"
 		]
 	},
+	"aspis_consortium": { "redirect": "aff_profiteers" },
+	"crimson_syndicate": { "redirect": "aff_profiteers" },
 	"aff_antislavery": {
 		"name": "Breakers of Chains",
 		"subtitle": "Affiliation",
@@ -278,8 +282,8 @@
 			"@HL[Alignment:] CG  ",
 			"@HL[Values:] abolition of slavery, equality between the races, freedom to pursue lives of comfort, reintegration of escaped slaves into a safe and welcoming society  ",
 			"@HL[Goals:] abolish slavery, disband organized slavery rings, emancipate slaves (particularly halfling slaves) from servitude, establish networks of underground routes to help slaves escape, remove slavers from positions of power  ",
-			"@HL[Allies:] [Caydenites](faith/cayden_cailean), [Vanguard of Liberty](rule/aff_vangard), [Dwarven Animists](rule/aff_animists), [The Rebellion](rule/aff_rebels), those who oppose slavery  ",
-			"@HL[Enemies:] [Asmodeans](faith/asmodeus), [Steel Knights](rule/aff_lawknights) (most orders), slavers  ",
+			"@HL[Allies:] {faith/Cayden/ites>_cailean}, {rule/Vangard of Liberty}, {rule/Dwarven Animists}, {rule/The Rebellion}, those who oppose slavery  ",
+			"@HL[Enemies:] {faith/Asmode/ans>us}, {rule/Steel Knights} (most orders), slavers  ",
 			"@HL[Rivals:] Steel Knights (most orders)  ",
 			"**Also See:** [Breakers of Chains (faction)](rule/f_antislavery)",
 			"",
@@ -318,6 +322,8 @@
 			"aff_storms"
 		]
 	},
+	"breakers_of_chains": { "redirect": "aff_antislavery" },
+	"bellflower_network": { "redirect": "aff_antislavery" },
 	"aff_thieves": {
 		"name": "Thieves' Guild",
 		"subtitle": "Affiliation",
@@ -328,8 +334,8 @@
 			"@HL[Alignment:] CN  ",
 			"@HL[Values:] absorb or eliminate rival gangs, commit crime with class, kill only when necessary  ",
 			"@HL[Goals:] control government officials, dominate criminal activity across the nation and beyond, make money, research and understand their own occulted history  ",
-			"@HL[Allies:] noble families, [Vanguard of Liberty](rule/aff_vangard) ({pclass/Twilight Talon/s}), insurgents and rebels, [The Rebellion](rule/aff_rebels)  ",
-			"@HL[Enemies:] {faith/Abadar/ans}, city guards, [Steel Knights](rule/aff_lawknights) (Orders of the Pyre, Rack, and Scourge), merchants, {faith/Norgorber/ites}  ",
+			"@HL[Allies:] noble families, {rule/Vangard of Liberty} ({pclass/Twilight Talon/s}), insurgents and rebels, {rule/The Rebellion}  ",
+			"@HL[Enemies:] {faith/Abadar/ans}, city guards, {rule/Steel Knights} (Orders of the Pyre, Rack, and Scourge), merchants, {faith/Norgorber/ites}  ",
 			"@HL[Rivals:] Steel Knights (particularly the Orders of the Pyre, Rack, and Scourge)",
 			"",
 			"### Associated Concepts",
@@ -365,6 +371,8 @@
 			"aff_storms"
 		]
 	},
+	"thieves_guild": { "redirect": "aff_thieves" },
+	"council_of_thieves": { "redirect": "aff_thieves" },
 	"aff_i_tradition": {
 		"name": "Inheritors of the Ancients",
 		"subtitle": "Affiliation",
@@ -375,7 +383,7 @@
 			"@HL[Alignment:] N  ",
 			"@HL[Values:] ancient magical artifacts and items, information about an ancient magical empire, protection of the nation from threats rising from the empire's legacy, pursuit of knowledge  ",
 			"@HL[Goals:] decipher and catalog ancient empire lore, master the mysteries of the ancient ruins, prepare the nation to defend itself against further dangers by understanding long-lost magic and developing protective measures against these ancient threats  ",
-			"@HL[Allies:] followers of the empyreal lord {faith/Soralyon}, {faith/Nethys/ians}, [Exploration Association](rule/aff_scholars)  ",
+			"@HL[Allies:] followers of the empyreal lord {faith/Soralyon}, {faith/Nethys/ians}, {rule/Exploration Association}  ",
 			"@HL[Enemies:] crime lords and syndicates, disciples of the old emperors, thieves and other agents trafficking black-market ancient-empire artifacts  ",
 			"@HL[Rivals:] none",
 			"",
@@ -414,8 +422,11 @@
 			"aff_storms"
 		]
 	},
+	"cyphermage": { "redirect": "aff_i_tradition" },
+	"cyphermages": { "redirect": "aff_i_tradition" },
+	"inheritors_of_the_ancients": { "redirect": "aff_i_tradition" },
 	"aff_vangard": {
-		"name": "Vanguard of Liberty",
+		"name": "Vangard of Liberty",
 		"subtitle": "Affiliation",
 		"sources": [ "Adventurer's Guide" ],
 		"description": [
@@ -423,11 +434,11 @@
 			"@HL[Scope:] regional  ",
 			"@HL[Alignment:] NG  ",
 			"@HL[Values:] community, equality for all, freedom, justice, personal responsibility  ",
-			"@HL[Goals:] abolish slavery in all its forms, lead the people of the region into a new era of common rule and individual liberty, maintain vigilance against all threats to the nation's freedom via any means that don't threaten the core values of the Vanguard  ",
-			"@HL[Allies:] [Breakers of Chains](rule/aff_antislavery), [Thieves' Guild](rule/aff_thieves), {faith/Erastil/ians}, {faith/Iomedae/ans}, [Dwarven Animists](rule/aff_animists), {faith/Shelyn/ites}, [The Rebellion](rule/aff_rebels), various empyreal lord cults  ",
-			"@HL[Enemies:] [Asmodeans](faith/asmodeus), [Crimson Syndicate](rule/aff_profiteers), enemies of the nation, {faith/Norgorber/ites}, [Cult of the Assassin](rule/aff_assassins), slavers  ",
+			"@HL[Goals:] abolish slavery in all its forms, lead the people of the region into a new era of common rule and individual liberty, maintain vigilance against all threats to the nation's freedom via any means that don't threaten the core values of the Vangard  ",
+			"@HL[Allies:] {rule/Breakers of Chains}, {rule/Thieves' Guild}, {faith/Erastil/ians}, {faith/Iomedae/ans}, {rule/Dwarven Animists}, {faith/Shelyn/ites}, {rule/The Rebellion}, various empyreal lord cults  ",
+			"@HL[Enemies:] {faith/Asmode/ans>us}, {rule/Crimson Syndicate}, enemies of the nation, {faith/Norgorber/ites}, {rule/Cult of the Assassin}, slavers  ",
 			"@HL[Rivals:] none  ",
-			"**Also See:** [Vanguard of Liberty (faction)](rule/f_vangard)",
+			"**Also See:** {rule/f_<Vangard/ of Liberty (faction)}",
 			"",
 			"### Associated Concepts",
 			"",
@@ -435,7 +446,7 @@
 			"",
 			"@HL[Archetypes:] {arc-paladin/Scion of Talmandor} (Paladin), {arc-rogue/Toxic Talon} (Rogue)",
 			"",
-			"@HL[Feats:] most of the feats listed here require affiliation with one of the specific factions within the Vanguard: {feat/Eagle's Resolve}, {feat/Expert Boarder}, {feat/Falcon's Cry}, {feat/Legionnaire's Inspiration}, {feat/Twilight Tattoo}",
+			"@HL[Feats:] most of the feats listed here require affiliation with one of the specific factions within the Vangard: {feat/Eagle's Resolve}, {feat/Expert Boarder}, {feat/Falcon's Cry}, {feat/Legionnaire's Inspiration}, {feat/Twilight Tattoo}",
 			"",
 			"@HL[Magic Items:] {magic-armor/Eagle Knight Dress Uniform}, {magic-wondrous/Golden Eagle Epaulets}, {magic-weapon/Talonstrike Sword}",
 			"",
@@ -466,6 +477,8 @@
 			"aff_storms"
 		]
 	},
+	"eagle_knights": { "redirect": "aff_vangard" },
+	"vangard_of_liberty": { "redirect": "aff_vangard" },
 	"aff_scarred_ladies": {
 		"name": "The Scarred Ladies",
 		"subtitle": "Affiliation",
@@ -477,7 +490,7 @@
 			"@HL[Alignment:] LE (Sisterhood) or NG (Rebloomers)  ",
 			"@HL[Values:] preservation of a dead evil queen's ideals, service to her new nation (Sisterhood); the aid, rehabilitation, and protection of each other and allies (Rebloomers)  ",
 			"@HL[Goals:] expand their own power, reclaim rule of old nation (Sisterhood); oppose tyranny, recover from the queen's evil (Rebloomers)  ",
-			"@HL[Allies:] nobles in their new nation, followers of the Queens of the Night [pantheon](main/faiths_pantheons) (Sisterhood); {faith/Shelyn/ites}, [The Rebellion](rule/aff_rebels) (Rebloomers)  ",
+			"@HL[Allies:] nobles in their new nation, followers of the Queens of the Night [pantheon](main/faiths_pantheons) (Sisterhood); {faith/Shelyn/ites}, {rule/The Rebellion} (Rebloomers)  ",
 			"@HL[Enemies:] rival Scarred Ladies, The Rebellion (Sisterhood); rival Scarred Ladies (Rebloomers)  ",
 			"@HL[Rivals:] rival Scarred Ladies factions",
 			"",
@@ -518,6 +531,8 @@
 			"aff_storms"
 		]
 	},
+	"scarred_ladies": { "redirect": "aff_scarred_ladies" },
+	"gray_maidens": { "redirect": "aff_scarred_ladies" },
 	"aff_lawknights": {
 		"name": "Steel Knights",
 		"subtitle": "Affiliation",
@@ -528,7 +543,7 @@
 			"@HL[Alignment:] varies by order  ",
 			"@HL[Values:] enforcement of Steel Knights law; order-specific values (varies)  ",
 			"@HL[Goals:] crush chaos and lawlessness, spread their ideals  ",
-			"@HL[Allies:] {faith/Abadar/ans}; [Asmodeans](faith/asmodeus); followers of other lawful faiths; lawful governments  ",
+			"@HL[Allies:] {faith/Abadar/ans}; {faith/Asmode/ans>us}; followers of other lawful faiths; lawful governments  ",
 			"@HL[Enemies:] lawbreakers and rebels; varies by order  ",
 			"@HL[Rivals:] varies by order  ",
 			"**Also See:** [Steel Knights (faction)](rule/f_lawknights)",
@@ -570,6 +585,8 @@
 			"aff_storms"
 		]
 	},
+	"steel_knights": { "redirect": "aff_lawknights" },
+	"hellknights": { "redirect": "aff_lawknights" },
 	"aff_monasteries": {
 		"name": "Elemental Monasteries",
 		"subtitle": "Affiliation",
@@ -580,7 +597,7 @@
 			"@HL[Alignment:] LN  ",
 			"@HL[Values:] the elements as expressions of nature's perfect forms, improvement through competition, pursuit of perfection (even if one does not reach it)  ",
 			"@HL[Goals:] defend the nation, develop new methods of purifying and enhancing mind and body alike through study of the four elements, overcome the weaknesses of mind and flesh, train the region's finest martial artists  ",
-			"@HL[Allies:] followers of numerous other national gods; genies; [Irorans](faith/irori); {faith/Nethys/ians}; seekers of enlightenment and the perfection of the body and mind  ",
+			"@HL[Allies:] followers of numerous other national gods; genies; {faith/Iror/ans>i}; {faith/Nethys/ians}; seekers of enlightenment and the perfection of the body and mind  ",
 			"@HL[Enemies:] wizards of a neighboring magocracy, asuras, rakshasas  ",
 			"@HL[Rivals:] none",
 			"",
@@ -619,6 +636,7 @@
 			"aff_storms"
 		]
 	},
+	"houses_of_perfection": { "redirect": "aff_monasteries" },
 	"aff_lights": {
 		"name": "Lights in the Dark",
 		"subtitle": "Affiliation",
@@ -629,7 +647,7 @@
 			"@HL[Alignment:] NG  ",
 			"@HL[Values:] nurture beauty and those who seek redemption, oppose conspiracies and reveal destructive secrets, remain pure-hearted, reveal and fight corruption  ",
 			"@HL[Goals:] push back the darkness (be it literal or metaphorical) and light the way for allies, redeem corrupted elves (and in particular, provide drow who seek redemption a safe venue to escape their society), thwart drow and demon plots  ",
-			"@HL[Allies:] followers of [elven deities and neutral good empyreal lords](main/faiths_pantheons), local people and government, [Sarenites](faith/sarenrae), {faith/Shelyn/ites}  ",
+			"@HL[Allies:] followers of [elven deities and neutral good empyreal lords](main/faiths_pantheons), local people and government, {faith/Saren/ites>rae}, {faith/Shelyn/ites}  ",
 			"@HL[Enemies:] cults of demon lords and {faith/Rovagug}, demons, drow, [Lamashtans](faith/lamashtu)  ",
 			"@HL[Rivals:] none",
 			"",
@@ -670,6 +688,7 @@
 			"aff_storms"
 		]
 	},
+	"lantern_bearers": { "redirect": "aff_lights" },
 	"aff_i_school": {
 		"name": "The Ancient School",
 		"subtitle": "Affiliation",
@@ -680,8 +699,8 @@
 			"@HL[Alignment:] NG  ",
 			"@HL[Values:] civility over barbarism, history as a guide for the future, knowledge over ignorance  ",
 			"@HL[Goals:] acquire, protect, and disseminate knowledge (especially concerning arcane magic, history, and the natural world); foster peace between peoples in the region and beyond; oppose evil as it gains power in the region; recover and restore ancient magical relics  ",
-			"@HL[Allies:] [Gozrens](faith/gozreh), {faith/Nethys/ians}, [Exploration Association](rule/aff_scholars), [Pharasmins](faith/pharasma), [Storm Seekers](rule/aff_storms)  ",
-			"@HL[Enemies:] [Crimson Syndicate](rule/aff_profiteers), cults of demon lords and {faith/Rovagug}, nearby evil nations  ",
+			"@HL[Allies:] {faith/Gozre/ns>h}, {faith/Nethys/ians}, {rule/Exploration Association}, [Pharasmins](faith/pharasma), {rule/Storm Seekers}  ",
+			"@HL[Enemies:] {rule/Crimson Syndicate}, cults of demon lords and {faith/Rovagug}, nearby evil nations  ",
 			"@HL[Rivals:] none",
 			"",
 			"### Associated Concepts",
@@ -719,6 +738,8 @@
 			"aff_storms"
 		]
 	},
+	"the_ancient_school": { "redirect": "aff_i_school" },
+	"magaambya": { "redirect": "aff_i_school" },
 	"aff_beast_riders": {
 		"name": "Beast-Riding Barbarian Tribes",
 		"subtitle": "Affiliation",
@@ -772,6 +793,7 @@
 			"aff_storms"
 		]
 	},
+	"mammoth_lords": { "redirect": "aff_beast_riders" },
 	"aff_scholars": {
 		"name": "Exploration Association",
 		"subtitle": "Affiliation",
@@ -782,8 +804,8 @@
 			"@HL[Alignment:] N  ",
 			"@HL[Values:] camaraderie, cooperation, proper documentation of important findings, self-promotion though publication, world travel  ",
 			"@HL[Goals:] understand the world's past and present wonders by exploring important sites, recovering relics, chronicling what's found, and publishing findings  ",
-			"@HL[Allies:] few steadfast allies; countless minor alliances maintained by a region's venture-captains and agents; [Inheritors of the Ancients](rule/aff_i_tradition); [The Ancient School](rule/aff_i_school)  ",
-			"@HL[Enemies:] [Crimson Syndicate](rule/aff_profiteers), [Cult of the Assassins](rule/aff_assassins)  ",
+			"@HL[Allies:] few steadfast allies; countless minor alliances maintained by a region's venture-captains and agents; {rule/Inheritors of the Ancients}; {rule/The Ancient School}  ",
+			"@HL[Enemies:] {rule/Crimson Syndicate}, {rule/Cult of the Assassin}  ",
 			"@HL[Rivals:] Crimson Syndicate",
 			"",
 			"### Associated Concepts",
@@ -823,6 +845,9 @@
 			"aff_storms"
 		]
 	},
+	"pathfinder_society": { "redirect": "aff_scholars" },
+	"pathfinders": { "redirect": "aff_scholars" },
+	"exploration_association": { "redirect": "aff_scholars" },
 	"aff_assassins": {
 		"name": "Cult of the Assassin",
 		"subtitle": "Affiliation",
@@ -833,8 +858,8 @@
 			"@HL[Alignment:] LE  ",
 			"@HL[Values:] deadly efficiency, discretion, loyalty, professionalism, purity of focus, respect for the rule of rightful monarchies  ",
 			"@HL[Goals:] act as professional assassins - and only assassins - for any client willing to pay the price of a contract, honor the mantis god {faith/Achaekek} through the sacred rite of assassination, never fail to fulfill an assassination contract  ",
-			"@HL[Allies:] [Asmodeans](faith/asmodeus), {faith/Besmara/ns}, {faith/Calistria/ns}, {pclass/Gray Gardener/s}, {faith/Nethys/ians}, pirates, rightful monarchs  ",
-			"@HL[Enemies:] [Caydenites](faith/cayden_cailean), {faith/Desna/ns}, [Vanguard of Liberty](rule/aff_vangard), {faith/Iomedae/ans}, most [Steel Knight](rule/aff_lawknights) orders, {faith/Norgorber/ites}, [Exploration Association](rule/aff_scholars), [Sarenites](faith/sarenrae), {faith/Shelyn/ites}  ",
+			"@HL[Allies:] {faith/Asmode/ans>us}, {faith/Besmara/ns}, {faith/Calistria/ns}, {pclass/Gray Gardener/s}, {faith/Nethys/ians}, pirates, rightful monarchs  ",
+			"@HL[Enemies:] {faith/Cayden/ites>_cailean}, {faith/Desna/ns}, {rule/Vangard of Liberty}, {faith/Iomedae/ans}, most {rule/Steel Knight>s} orders, {faith/Norgorber/ites}, {rule/Exploration Association}, {faith/Saren/ites>rae}, {faith/Shelyn/ites}  ",
 			"@HL[Rivals:] none",
 			"",
 			"### Associated Concepts",
@@ -874,6 +899,8 @@
 			"aff_storms"
 		]
 	},
+	"red_mantis": { "redirect": "aff_assassins" },
+	"cult_of_the_assassin": { "redirect": "aff_assassins" },
 	"aff_animists": {
 		"name": "Dwarven Animists",
 		"subtitle": "Affiliation",
@@ -884,7 +911,7 @@
 			"@HL[Alignment:] LN  ",
 			"@HL[Values:] acceptance of others for who they are, open negotiation founded on mutual respect, personal introspection and growth, preservation of lore  ",
 			"@HL[Goals:] explore spiritual lore; foster balance between mortal needs and spiritual concerns; supply resources, information, and encouragement for personal growth  ",
-			"@HL[Allies:] [Breakers of Chains](rule/aff_antislavery), deities of the [dwarven pantheon](main/faiths_pantheons), {faith/Desna/ns}, [Vanguard of Liberty](rule/aff_vangard), followers of {faith/Arshea} and other empyreal lords, [Steel Knights](rule/aff_lawknights) (Order of the Torrent only), [Irorans](faith/irori)  ",
+			"@HL[Allies:] {rule/Breakers of Chains}, deities of the [dwarven pantheon](main/faiths_pantheons), {faith/Desna/ns}, {rule/Vangard of Liberty}, followers of {faith/Arshea} and other empyreal lords, {rule/Steel Knights} (Order of the Torrent only), {faith/Iror/ans>i}  ",
 			"@HL[Enemies:] duergar  ",
 			"@HL[Rivals:] none",
 			"",
@@ -925,6 +952,8 @@
 			"aff_storms"
 		]
 	},
+	"dwarven_animists": { "redirect": "aff_animists" },
+	"rivethun": { "redirect": "aff_animists" },
 	"aff_rebels": {
 		"name": "The Rebellion",
 		"subtitle": "Affiliation",
@@ -935,8 +964,8 @@
 			"@HL[Alignment:] CG  ",
 			"@HL[Values:] artistic integrity and creativity, equality between the races, free trade, freedom of religion and speech, small government  ",
 			"@HL[Goals:] defend the region from colonial oppression, support regions oppressed by despotism and tyranny by providing them with aid and training  ",
-			"@HL[Allies:] [Breakers of Chains](rule/aff_antislavery), [Caydenites](faith/cayden_cailean), [Thieves' Guild](rule/aff_thieves), [Vanguard of Liberty](rule/aff_vangard), [Scarred Ladies (Rebloomers)](rule/aff_scarred_ladies), [Sarenites](faith/sarenrae), {faith/Shelyn/ites}  ",
-			"@HL[Enemies:] [Asmodeans](faith/asmodeus), followers of archdevils, [Scarred Ladies (Sisterhood)](rule/aff_scarred_ladies), [Steel Knights](rule/aff_lawknights) (primarily the Order of the Rack), {faith/Norgorber/ites}, slavers  ",
+			"@HL[Allies:] {rule/Breakers of Chains}, {faith/Cayden/ites>_cailean}, {rule/Thieves' Guild}, {rule/Vangard of Liberty}, {rule/Scarred Ladies/ (Rebloomers)}, {faith/Saren/ites>rae}, {faith/Shelyn/ites}  ",
+			"@HL[Enemies:] {faith/Asmode/ans>us}, followers of archdevils, {rule/Scarred Ladies/ (Sisterhood)}, {rule/Steel Knights} (primarily the Order of the Rack), {faith/Norgorber/ites}, slavers  ",
 			"@HL[Rivals:] none",
 			"",
 			"### Associated Concepts",
@@ -947,7 +976,7 @@
 			"",
 			"@HL[Feats:] {feat/Devil Sense}, {feat/Diva Advance}, {feat/Diva Strike}, {feat/Diva Style}",
 			"",
-			"@HL[Magic Items:] In addition to the classic [silver raven figurine of wondrous power](magic-wondrous/figurine_of_wondrous_power_silver_raven), members of The Rebellion are known to utilize the following specialized items: {magic-weapon/Devil Catcher}, {magic-wondrous/Discretion Charm}, {magic-wondrous/Sterling Salt}",
+			"@HL[Magic Items:] In addition to the classic {magic-wondrous/silver raven |figurine of wondrous power>_silver_raven}, members of The Rebellion are known to utilize the following specialized items: {magic-weapon/Devil Catcher}, {magic-wondrous/Discretion Charm}, {magic-wondrous/Sterling Salt}",
 			"",
 			"@HL[Spells:] {spell/Instant Portrait}, {spell/Wall of Silver}"
 		],
@@ -976,6 +1005,8 @@
 			"aff_storms"
 		]
 	},
+	"the_rebellion": { "redirect": "aff_rebels" },
+	"silver_ravens": { "redirect": "aff_rebels" },
 	"aff_storms": {
 		"name": "Storm Seekers",
 		"subtitle": "Affiliation",
@@ -986,7 +1017,7 @@
 			"@HL[Alignment:] CN  ",
 			"@HL[Values:] enlightenment, fearlessness, freedom, unity of consciousness, worship of {faith/Gozreh}  ",
 			"@HL[Goals:] merge with the consciousness of the god Gozreh, recover and reclaim lost lore from previous generations of Storm Seekers  ",
-			"@HL[Allies:] druids of the {faith/Green Faith}, [Gozrens](faith/gozreh), hermits, madmen, [The Ancient School](rule/aff_i_school), vagabonds, wanderers  ",
+			"@HL[Allies:] druids of the {faith/Green Faith}, {faith/Gozre/ns>h}, hermits, madmen, {rule/The Ancient School}, vagabonds, wanderers  ",
 			"@HL[Enemies:] heretics of Gozreh, humanoid tribes (boggards, lizardfolk), pirates, scavengers/looters  ",
 			"@HL[Rivals:] none",
 			"",
@@ -1027,6 +1058,8 @@
 			"aff_storms"
 		]
 	},
+	"storm_seekers": { "redirect": "aff_storms" },
+	"storm_kindlers": { "redirect": "aff_storms" },
 	"bargaining": {
 		"name": "Bargaining",
 		"subtitle": "Optional Subsystems",
@@ -1741,7 +1774,7 @@
 			"@HL[Alignment:] NE  ",
 			"@HL[Good Class Choices:] Fighter, Rogue, Sorcerer, Wizard  ",
 			"@HL[Challenging Class Choices:] Cleric (of a good deity), Druid, Paladin  ",
-			"**Also See:** [Crimson Syndicate (affiliation)](rule/aff_profiteers)",
+			"**Also See:** {rule/Crimson Syndicate/ (affiliation)}",
 			"",
 			"### Joining",
 			"",
@@ -1810,7 +1843,7 @@
 			"@HL[Alignment:] CG  ",
 			"@HL[Good Class Choices:] Bard, Cleric, Paladin, Ranger, Rogue  ",
 			"@HL[Challenging Class Choices:] Barbarian, Fighter  ",
-			"**Also See:** [Breakers of Chains (affiliation)](rule/aff_antislavery)",
+			"**Also See:** {rule/Breakers of Chains/ (affiliation)}",
 			"",
 			"### Joining",
 			"",
@@ -1933,8 +1966,9 @@
 			"f_gravepath"
 		]
 	},
+	"bloodstone_swords": { "redirect": "f_merceneries" },
 	"f_vangard": {
-		"name": "Vanguard of Liberty",
+		"name": "Vangard of Liberty",
 		"subtitle": "Faction",
 		"sources": [ "Faction Guide" ],
 		"description": [
@@ -1943,11 +1977,11 @@
 			"@HL[Alignment:] NG  ",
 			"@HL[Good Class Choices:] Bard, Fighter, Paladin, Ranger  ",
 			"@HL[Challenging Class Choices:] Barbarian, Druid  ",
-			"**Also See:** [Vanguard of Liberty (affiliation)](rule/aff_vangard)",
+			"**Also See:** {rule/Vangard of Liberty/ (affiliation)}",
 			"",
 			"### Joining",
 			"",
-			"Given their activities guarding the land, their pursuit of slavers outside of their homeland, and the secret operations of the {pclass/Twilight Talon/s}, the Vanguard is open to any who support the ideals of their organization - including trustworthy folk willing to be secret agents in evil lands.",
+			"Given their activities guarding the land, their pursuit of slavers outside of their homeland, and the secret operations of the {pclass/Twilight Talon/s}, the Vangard is open to any who support the ideals of their organization - including trustworthy folk willing to be secret agents in evil lands.",
 			"",
 			"### Gaining Prestige",
 			"",
@@ -1955,7 +1989,7 @@
 			"",
 			"### Resources",
 			"",
-			"The Vanguard's strength is not only their considerable military, but also in their rhetoric. Common folk favor them wherever they roam, but they are not universally welcomed or well established. PA costs increase by 5 in evil lands and other places far from their home. Some of these resources are military ranks within the organization, which also allow the members to purchase certain magic items at a discount; the listed CPA cost for these rewards only applies to acquiring the rank (in other words, the character doesn't have to spend CPA every time he wants to purchase the item associated with that rank).",
+			"The Vangard's strength is not only their considerable military, but also in their rhetoric. Common folk favor them wherever they roam, but they are not universally welcomed or well established. PA costs increase by 5 in evil lands and other places far from their home. Some of these resources are military ranks within the organization, which also allow the members to purchase certain magic items at a discount; the listed CPA cost for these rewards only applies to acquiring the rank (in other words, the character doesn't have to spend CPA every time he wants to purchase the item associated with that rank).",
 			"",
 			"@HL[5 TPA, variable CPA:] Purchase a magical service from the following list: detect charm (1 CPA), forbiddance (4 CPA per 60-foot cube), freedom (9 CPA), heroes' feast (4 CPA), phantom steed (1 CPA), refuge (10 CPA), suppress charms and compulsions (1 CPA), wind walk (4 CPA).",
 			"",
@@ -1965,7 +1999,7 @@
 			"",
 			"@HL[5 TPA, 5 CPA:] Gain diplomatic privilege, which gives the character a +2 circumstance bonus on Bluff, Diplomacy, Intimidate, Knowledge (local), Knowledge (nobility), Perform (oratory), and Sense Motive checks with citizens of one country. This bonus increases to +4 on checks made to avoid legal trouble.",
 			"",
-			"@HL[10 TPA, 2 CPA:] Gain the temporary service of a celestial giant eagle as if using {spell/lesser planar ally}. The member of the faction must negotiate and pay for the eagle's service, though he can spend his CPA to have the Vanguard pay the price for the service. If the faction member is a poor negotiator, he can spend 1 CPA to hire a charismatic advocate to argue on his behalf.",
+			"@HL[10 TPA, 2 CPA:] Gain the temporary service of a celestial giant eagle as if using {spell/lesser planar ally}. The member of the faction must negotiate and pay for the eagle's service, though he can spend his CPA to have the Vangard pay the price for the service. If the faction member is a poor negotiator, he can spend 1 CPA to hire a charismatic advocate to argue on his behalf.",
 			"",
 			"@HL[10 TPA, 3 CPA, Lance Corporal:] Gain the rank of captain and Perform (oratory) as a class skill. Captains may purchase golden eagle epaulets at a 10% discount.",
 			"",
@@ -1979,9 +2013,9 @@
 			"",
 			"@HL[20 TPA:] Purchase magic items from the following list at a 10% discount: boots of speed, bracelet of friends, chime of opening, eyes of the eagle, goggles of night, hat of disguise, ring of friend shield, ring of swimming.",
 			"",
-			"@HL[20 TPA, 3 CPA:] Gain the temporary service of an avoral as if using {spell/planar ally}. The member of the faction must negotiate and pay for the avoral's service, though he can spend CPA to have the Vanguard pay the price for the service. If the faction member is a poor negotiator, he can pay 1 CPA to hire a charismatic advocate argue on his behalf.",
+			"@HL[20 TPA, 3 CPA:] Gain the temporary service of an avoral as if using {spell/planar ally}. The member of the faction must negotiate and pay for the avoral's service, though he can spend CPA to have the Vangard pay the price for the service. If the faction member is a poor negotiator, he can pay 1 CPA to hire a charismatic advocate argue on his behalf.",
 			"",
-			"@HL[30 TPA, 10 CPA, Major:] Gain the rank of commander, Knowledge (geography) as a class skill, and a loyal team of 1 captain (5th-level fighter) and 5-8 lance corporals (3rd-level fighters); one of the lance corporals may instead be a 3rd-level cleric, sorcerer, or wizard. Commanders may purchase a talon sword at a 10% discount. If the commander is assigned to fortification (such as a castle, fort, or other Vanguard outpost), he also gains 10-20 guardsmen (1st-level fighters) and a support staff (5-10 noncombatant 1st-level commoners and experts) to handle the needs of his subordinates. If assigned to a military ship, he instead gains 10-20 marines (1st-level fighters) and a support staff for the ship. Most commanders lead brigades of ground troops or captain military ships; characters who do not want these specific duties are treated as inactive, unassigned officers in the military."
+			"@HL[30 TPA, 10 CPA, Major:] Gain the rank of commander, Knowledge (geography) as a class skill, and a loyal team of 1 captain (5th-level fighter) and 5-8 lance corporals (3rd-level fighters); one of the lance corporals may instead be a 3rd-level cleric, sorcerer, or wizard. Commanders may purchase a talon sword at a 10% discount. If the commander is assigned to fortification (such as a castle, fort, or other Vangard outpost), he also gains 10-20 guardsmen (1st-level fighters) and a support staff (5-10 noncombatant 1st-level commoners and experts) to handle the needs of his subordinates. If assigned to a military ship, he instead gains 10-20 marines (1st-level fighters) and a support staff for the ship. Most commanders lead brigades of ground troops or captain military ships; characters who do not want these specific duties are treated as inactive, unassigned officers in the military."
 		],
 		"parent_topics": [
 			"optional_subsystems",
@@ -2014,7 +2048,7 @@
 			"@HL[Alignment:] LN  ",
 			"@HL[Good Class Choices:] Cleric, Fighter, Paladin  ",
 			"@HL[Challenging Class Choices:] Barbarian, Bard, Rogue  ",
-			"**Also See:** [Steel Knights (affiliation)](rule/aff_lawknights)",
+			"**Also See:** {rule/Steel Knights/ (affiliation)}",
 			"",
 			"### Joining",
 			"",
@@ -2151,6 +2185,7 @@
 			"f_gravepath"
 		]
 	},
+	"kitharodian_academy": { "redirect": "f_bards" },
 	"f_clans": {
 		"name": "Clans of the Perfect Army",
 		"subtitle": "Faction",
@@ -2229,6 +2264,7 @@
 			"f_gravepath"
 		]
 	},
+	"kusari_gama": { "redirect": "f_clans" },
 	"f_legion": {
 		"name": "The Lost Legion",
 		"subtitle": "Faction",
@@ -2313,6 +2349,7 @@
 			"f_gravepath"
 		]
 	},
+	"ninth_battalion": { "redirect": "f_legion" },
 	"f_old_cults": {
 		"name": "Old Cults",
 		"subtitle": "Faction",
@@ -2369,6 +2406,7 @@
 			"f_gravepath"
 		]
 	},
+	"old_cults": { "redirect": "f_old_cults" },
 	"f_profits": {
 		"name": "The Profits",
 		"subtitle": "Faction",
@@ -2435,6 +2473,8 @@
 			"f_gravepath"
 		]
 	},
+	"prophets_of_kalistrade": { "redirect": "f_profits" },
+	"prophecies_of_kalistrade": { "redirect": "f_profits" },
 	"f_second_life": {
 		"name": "The Second Life",
 		"subtitle": "Faction",
@@ -2503,6 +2543,7 @@
 			"f_gravepath"
 		]
 	},
+	"risen_guard": { "redirect": "f_second_life" },
 	"f_imperial": {
 		"name": "Imperial Guard",
 		"subtitle": "Faction",
@@ -2567,6 +2608,7 @@
 			"f_gravepath"
 		]
 	},
+	"ulfen_guard": { "redirect": "f_imperial" },
 	"f_gravepath": {
 		"name": "The Gravepath",
 		"subtitle": "Faction",
@@ -2635,6 +2677,7 @@
 			"f_gravepath"
 		]
 	},
+	"whispering_way": { "redirect": "f_gravepath" },
 	"faction_costs": {
 		"name": "Standard Faction Costs",
 		"subtitle": "Optional Subsystems",

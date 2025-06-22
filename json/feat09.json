@@ -3107,7 +3107,7 @@
 			"{SOURCE Faction Guide/56}",
 			"",
 			"You have trained at the feet of the masters of the Kusari-Gama, a secret society of monk warriors. With their secrets you have mastered new ways to apply your ki.  ",
-			"**Prerequisites:** Ki pool class feature, Wis 13, [Kusari-Gama](rule/f_clans) 25 TPA.  ",
+			"**Prerequisites:** Ki pool class feature, Wis 13, {rule/Kusari-Gama} 25 TPA.  ",
 			"**Benefit:** You learn how to channel your ki in a new ability. Choose one of the following ki powers:",
 			"",
 			">@HL[Bone Crusher:] When you succeed at a trip or disarm combat maneuver, you may spend 1 point from your ki pool as a swift action to deal damage to your opponent as if you had hit them with an unarmed strike.",

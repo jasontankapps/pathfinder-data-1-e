@@ -61,7 +61,7 @@
 			"",
 			"{SOURCE NPC Codex/233}  ",
 			"**XP** 19,200  ",
-			"Gnome cleric of the [Old Cults](rule/f_old_cults) 9/Pathfinder chronicler 4  ",
+			"Gnome cleric of the {rule/Old Cults} 9/Pathfinder chronicler 4  ",
 			"CE Small humanoid (gnome)  ",
 			"**Init** +5; **Senses** low-light vision; Perception +17",
 			"",
@@ -410,7 +410,7 @@
 			"",
 			"::sh[Description]",
 			"",
-			"The business acumen of the adherents of the [Prophecies of Kalistrade](rule/f_profits) is largely responsible for earning the nation of Druma a place beside the wealthiest nations in the region. Though they bedeck themselves in white robes from head to toe, and live by the strictures of a detailed code of sexual and dietary prohibitions, prophets of Kalistrade are anything but modest when it comes to their wealth. In fact, it is one of their faith's core tenets that a prophet dress opulently as to indicate to all that such wealth comes as a reward for forgoing other of life's indulgences.",
+			"The business acumen of the adherents of the {rule/Prophecies of Kalistrade} is largely responsible for earning the nation of Druma a place beside the wealthiest nations in the region. Though they bedeck themselves in white robes from head to toe, and live by the strictures of a detailed code of sexual and dietary prohibitions, prophets of Kalistrade are anything but modest when it comes to their wealth. In fact, it is one of their faith's core tenets that a prophet dress opulently as to indicate to all that such wealth comes as a reward for forgoing other of life's indulgences.",
 			"",
 			"Frequently masters of divination and enchantment - which aid them in business dealings ranging from prospecting to negotiation - prophets of Kalistrade generally see magic as a means to an end rather than as a goal to be attained in and of itself. The accumulation of knowledge about magical artifacts, whether of arcane or divine power, is typically valued more in terms of how much such items can be sold for to the right buyer rather than for any scholarly purpose. Prophets take a similar view of just about everything in life, from their political and social alliances to the very jewelry and ornamentation they wear so proudly on their persons. The more value one can amass, the more power one can wield over those who value such splendor."
 		]
@@ -1889,7 +1889,7 @@
 			"",
 			"::sh[Description]",
 			"",
-			"The [cyphermages](rule/aff_i_tradition) of the pirate town of Riddleport are students of ancient Thassilonian history and runic lore. Members of the mysterious Order of Cyphers, they pursue lost knowledge and keep their discoveries secret from outsiders - and in their overwhelming ambition to be the first to solve great mysteries, keep secrets even from the other members of their enigmatic order.",
+			"The {rule/cyphermages} of the pirate town of Riddleport are students of ancient Thassilonian history and runic lore. Members of the mysterious Order of Cyphers, they pursue lost knowledge and keep their discoveries secret from outsiders - and in their overwhelming ambition to be the first to solve great mysteries, keep secrets even from the other members of their enigmatic order.",
 			"",
 			"Because all cyphermages are especially attuned to runes - whether the runes are newly scribed or ancient carvings in Thassilonian ruins like Riddleport's Cyphergate - they have unusual skill at using written magic such as scrolls, and can draw extra power from these items."
 		]

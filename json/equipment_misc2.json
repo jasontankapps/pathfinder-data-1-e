@@ -2688,7 +2688,7 @@
 			"**Price** 140 gp; **Weight** 15 lbs.  ",
 			"**Category** Kits",
 			"",
-			"This kit is useful to [Pathfinders](rule/aff_scholars) who must practice guile and deception in order to acquire useful information, and includes a set of {eq-misc/caltrops}, {eq-misc/chalk}, a {eq-misc/disguise kit}, an {eq-misc/ear trumpet}, {eq-misc/fake footprint shoes}, a {eq-misc/skeleton key}, and a {eq-misc/wrist sheath}. For Small creatures, the weight of an infiltration kit is 9 pounds."
+			"This kit is useful to {rule/Pathfinders} who must practice guile and deception in order to acquire useful information, and includes a set of {eq-misc/caltrops}, {eq-misc/chalk}, a {eq-misc/disguise kit}, an {eq-misc/ear trumpet}, {eq-misc/fake footprint shoes}, a {eq-misc/skeleton key}, and a {eq-misc/wrist sheath}. For Small creatures, the weight of an infiltration kit is 9 pounds."
 		]
 	},
 	"iniquitous_panacea": {

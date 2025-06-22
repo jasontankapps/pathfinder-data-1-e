@@ -35,7 +35,7 @@
 		"nameSuffix": "(Ex)",
 		"compilationSources": [ [ "Inner Sea Intrigue", 33 ] ],
 		"description": [
-			"A vigilante with this talent has learned to pass secret messages more efficiently by observing the coded messages of the [Bellflower Network](rule/aff_antislavery) or another secret organization. He can pass a secret message with Bluff in the same amount of time it would normally take to convey the message without encryption. The words and meaning of his secret messages cannot be gleaned from him or those he directly delivered the message to by divinations unless the caster succeeds at a caster level check (DC = 15 + the vigilante's level)."
+			"A vigilante with this talent has learned to pass secret messages more efficiently by observing the coded messages of the {rule/Bellflower Network} or another secret organization. He can pass a secret message with Bluff in the same amount of time it would normally take to convey the message without encryption. The words and meaning of his secret messages cannot be gleaned from him or those he directly delivered the message to by divinations unless the caster succeeds at a caster level check (DC = 15 + the vigilante's level)."
 		]
 	},
 	"case_the_joint": {

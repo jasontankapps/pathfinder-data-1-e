@@ -596,7 +596,7 @@
 			"{SOURCE Faction Guide/57}",
 			"",
 			"You have trained to fight onrushing enemy hordes. With a carefully timed strike you ensure that their reckless charge will be their undoing.  ",
-			"**Prerequisites:** {race/Dwarf}, [Ninth Battalion](rule/f_legion) 25 TPA.  ",
+			"**Prerequisites:** {race/Dwarf}, {rule/Ninth Battalion} 25 TPA.  ",
 			"**Benefit:** You treat all one- or two-handed melee weapons as if they had the {misc/brace} special feature.  ",
 			"**Normal:** Only weapons with the brace special feature can be readied against {rule/charge/s}."
 		]
@@ -1596,7 +1596,7 @@
 			"",
 			"::h3[Obscuring Mist]{jl}",
 			"",
-			"Shastalla of the Shackles was a bloodthirsty pirate, famous for her raids on Chelish patrols under the cover of {spell/obscuring mist}. After Shastalla was caught and executed, the [Pathfinder Society](rule/aff_scholars) purchased her magical library for a small fortune to learn her secrets. In addition to the feat, skill, or other requirements listed in parentheses for each of these tricks, you must have the Magic Trick (obscuring mist) feat to use the trick.[^C]",
+			"Shastalla of the Shackles was a bloodthirsty pirate, famous for her raids on Chelish patrols under the cover of {spell/obscuring mist}. After Shastalla was caught and executed, the {rule/Pathfinder Society} purchased her magical library for a small fortune to learn her secrets. In addition to the feat, skill, or other requirements listed in parentheses for each of these tricks, you must have the Magic Trick (obscuring mist) feat to use the trick.[^C]",
 			"",
 			"@HL[Clinging Mist] ({feat/Extend Spell}, Spellcraft 6 ranks): Your thick mist is difficult to escape. A creature that leaves the *obscuring mist* continues to treat other creatures as if they had {rule/concealment} for 1d4+1 rounds after it leaves.",
 			"",
@@ -2438,7 +2438,7 @@
 			"{SOURCE Faction Guide/57}",
 			"",
 			"When using your bardic performance abilities, you grant your allies greater bonuses.  ",
-			"**Prerequisites:** {ability/Bardic performance} class feature, {feat/Extra Performance}, [Kitharodian Academy](rule/f_bards) 15 TPA.  ",
+			"**Prerequisites:** {ability/Bardic performance} class feature, {feat/Extra Performance}, {rule/Kitharodian Academy} 15 TPA.  ",
 			"**Benefit:** When any of your bardic performance abilities grant your allies a bonus, that bonus is increased by +1."
 		]
 	},

@@ -1416,7 +1416,7 @@
 			"{SOURCE Faction Guide/57}",
 			"",
 			"Regular contact with an elemental guardian of the Ruby Prince (such as Khemet's invisible fire elemental cohort Janhelia) has left you able to shrug off many sources of unnatural heat, even if the effort required sometimes makes it difficult to defend yourself from attacks.  ",
-			"**Prerequisites:** {feat/Endurance}, [Risen Guard](rule/f_second_life) rank, Risen Guard 15 TPA.  ",
+			"**Prerequisites:** {feat/Endurance}, {rule/Risen Guard} rank, Risen Guard 15 TPA.  ",
 			"**Benefit:** You gain fire resistance 5 and a +2 bonus on all saving throws to resist the effects of fire or heat. As a swift action, you can increase your fire resistance to 10 and your save bonus to +4 until your next turn; this causes you to lose your Dexterity bonus to Armor Class until your next turn (which leaves you vulnerable to {ability/sneak attack/s})."
 		]
 	},
@@ -2796,7 +2796,7 @@
 			"",
 			"{SOURCE Adventurer's Guide/86}",
 			"",
-			"As a veteran [Gray Maiden](rule/aff_scarred_ladies), you can endure a staggering amount of punishment.  ",
+			"As a veteran {rule/Gray Maiden>s}, you can endure a staggering amount of punishment.  ",
 			"**Prerequisites:** Con 13, {feat/Endurance}, {feat/Toughness}, fighter level 4th.  ",
 			"**Benefit:** Whenever you gain 1 hit point as a fighter {rule/favored class} benefit, you gain an additional hit point. Treat your effective Constitution score as being 4 higher for the purpose of determining when you would die from hit point damage. These benefits are retroactive."
 		]

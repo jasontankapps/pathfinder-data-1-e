@@ -2042,6 +2042,7 @@
 		],
 		"className": "hasStatblock"
 	},
+	"dreamlands": { "redirect": "dimension_of_dreams" },
 	"dimension_of_time": {
 		"name": "Dimension of Time",
 		"subtitle": "Planar Adventures, Specific Campaigns",
@@ -2129,7 +2130,7 @@
 			"",
 			"Hao Jin was a legendary sorceress from the city of Goka in the Dragon Empires, but she has been absent from her home city (and indeed the Material Plane) for many centuries. The crown jewel of her collection was her personal demiplane, the Hao Jin Tapestry. She ripped entire cities and mountains out of their places on Golarion and transported them to this demiplane fully intact, where they were preserved in carefully controlled climates. She also used this so-called \"Woven Museum\" to safeguard her most dangerous artifacts and treasures, but after she left the Material Plane to travel into the Great Beyond, she hid her tapestry away from the world.",
 			"",
-			"Although the demiplane remained sealed away for centuries, it was far from uninhabited when the [Pathfinder Society](rule/aff_scholars) rediscovered and began to explore it. The places that Hao Jin claimed had not all been abandoned, and the descendants of these original peoples maintain communities to this day across the demiplane. The Hao Jin Tapestry is home to races from across Golarion, including {monster/dark stalker/s} whose ancestors once inhabited the Darklands and {monster/lizardfolk} descended from inhabitants of Osirion's deserts. Unfortunately for these inhabitants, Hao Jin's carefully sculpted climate preservation spells have begun to unravel. The demiplane has developed its own strange weather system from the interactions of its once-carefully controlled ecosystems. Rivers have changed course, deserts have flooded, and oceans have evaporated into salty plains. Those who live within the Tapestry fear that the end of their world may be nigh - and they may well be right."
+			"Although the demiplane remained sealed away for centuries, it was far from uninhabited when the {rule/Pathfinder Society} rediscovered and began to explore it. The places that Hao Jin claimed had not all been abandoned, and the descendants of these original peoples maintain communities to this day across the demiplane. The Hao Jin Tapestry is home to races from across Golarion, including {monster/dark stalker/s} whose ancestors once inhabited the Darklands and {monster/lizardfolk} descended from inhabitants of Osirion's deserts. Unfortunately for these inhabitants, Hao Jin's carefully sculpted climate preservation spells have begun to unravel. The demiplane has developed its own strange weather system from the interactions of its once-carefully controlled ecosystems. Rivers have changed course, deserts have flooded, and oceans have evaporated into salty plains. Those who live within the Tapestry fear that the end of their world may be nigh - and they may well be right."
 		],
 		"parent_topics": [
 			"gm_specific_campaigns",

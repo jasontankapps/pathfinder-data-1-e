@@ -342,7 +342,7 @@
 			"**Type:** Regional  ",
 			"**Region:** Cheliax",
 			"",
-			"Your family has a long tradition of service in the [Hellknights](rule/aff_lawknights), and your strict upbringing and training have given you a forceful aura of command. You gain a +1 trait bonus on Intimidate checks, and Intimidate is always a class skill for you."
+			"Your family has a long tradition of service in the {rule/Hellknights}, and your strict upbringing and training have given you a forceful aura of command. You gain a +1 trait bonus on Intimidate checks, and Intimidate is always a class skill for you."
 		],
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
@@ -420,7 +420,7 @@
 			"**Type:** Regional  ",
 			"**Region:** Cheliax",
 			"",
-			"You are a tiller in the secretive [Bellflower Network](rule/aff_antislavery) in Cheliax and carefully move slaves from one hideout to the next. You gain a +5 trait bonus on all Survival skill checks made to get along in the wild, travel in severe weather, keep from getting lost, or predict the weather."
+			"You are a tiller in the secretive {rule/Bellflower Network} in Cheliax and carefully move slaves from one hideout to the next. You gain a +5 trait bonus on all Survival skill checks made to get along in the wild, travel in severe weather, keep from getting lost, or predict the weather."
 		],
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
@@ -629,7 +629,7 @@
 			"**Type:** Regional  ",
 			"**Region:** Jalmeray",
 			"",
-			"You have begun training to enter one of the [Houses of Perfection](rule/aff_monasteries), and have honed your body, mind, and spirit into one well-trained weapon. You gain a +1 trait bonus on attack of opportunity attack rolls made with unarmed strikes."
+			"You have begun training to enter one of the {rule/Houses of Perfection}, and have honed your body, mind, and spirit into one well-trained weapon. You gain a +1 trait bonus on attack of opportunity attack rolls made with unarmed strikes."
 		],
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
@@ -1048,7 +1048,7 @@
 			"**Type:** Regional  ",
 			"**Region:** Thornkeep or Echo Wood",
 			"",
-			"You trained with the [Hellknights](rule/aff_lawknights) at Fort Inevitable or the paladins of Iomedae at Fort Riverwatch. If you trained with the Hellknights, you gain a +1 trait bonus on saving throws against chaotic spells and the spell-like abilities of chaotic outsiders. If you trained with the Iomedaean Paladins, you gain this bonus against evil spells and evil outsiders instead."
+			"You trained with the {rule/Hellknights} at Fort Inevitable or the paladins of Iomedae at Fort Riverwatch. If you trained with the Hellknights, you gain a +1 trait bonus on saving throws against chaotic spells and the spell-like abilities of chaotic outsiders. If you trained with the Iomedaean Paladins, you gain this bonus against evil spells and evil outsiders instead."
 		],
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
@@ -1070,7 +1070,7 @@
 			"**Type:** Regional  ",
 			"**Region:** Mediogalti Island",
 			"",
-			"Your parents were both Red Mantis assassins and your family has a long tradition of service in the [Red Mantis](rule/aff_assassins) cult. Your strict, fanatical upbringing and familiarity with murder have bestowed upon you an air of confidence and menace. This grants you a +1 trait bonus on Intimidate checks. If you act during the surprise round, as a free action during that round you can draw a light weapon (or two if you have the {feat/Two-Weapon Fighting} feat)."
+			"Your parents were both Red Mantis assassins and your family has a long tradition of service in the {rule/Red Mantis} cult. Your strict, fanatical upbringing and familiarity with murder have bestowed upon you an air of confidence and menace. This grants you a +1 trait bonus on Intimidate checks. If you act during the surprise round, as a free action during that round you can draw a light weapon (or two if you have the {feat/Two-Weapon Fighting} feat)."
 		],
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
@@ -1136,7 +1136,7 @@
 			"**Type:** Regional  ",
 			"**Region:** Riddleport",
 			"",
-			"You've sold relics to a [Cyphermage](rule/aff_i_tradition) in the past, and she's agreed to assist you with future findings. When in Riddleport, you can use your contact to gain information about artifacts and history. Treat this ability as a single Knowledge (arcana) or Knowledge (history) check with a skill bonus of +15. You may make this check once per day that you spend in Riddleport. You can make a new check every day. Each time you do so, you can choose whether to use Knowledge (arcana) or Knowledge (history)."
+			"You've sold relics to a {rule/Cyphermage} in the past, and she's agreed to assist you with future findings. When in Riddleport, you can use your contact to gain information about artifacts and history. Treat this ability as a single Knowledge (arcana) or Knowledge (history) check with a skill bonus of +15. You may make this check once per day that you spend in Riddleport. You can make a new check every day. Each time you do so, you can choose whether to use Knowledge (arcana) or Knowledge (history)."
 		],
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
@@ -1263,7 +1263,7 @@
 			"**Type:** Regional  ",
 			"**Region:** Druma",
 			"",
-			"As an adherent of the [Prophecies of Kalistrade](rule/f_profits), you understand the importance of a good deal. You gain a +1 trait bonus on Appraise checks, and a +1 trait bonus on Bluff checks when trying to make a deal with nonbelievers."
+			"As an adherent of the {rule/Prophecies of Kalistrade}, you understand the importance of a good deal. You gain a +1 trait bonus on Appraise checks, and a +1 trait bonus on Bluff checks when trying to make a deal with nonbelievers."
 		],
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
@@ -3460,7 +3460,7 @@
 			"**Region:** Druma  ",
 			"**Requirements:** Ratfolk",
 			"",
-			"While you might not be a practicing follower of the [Prophecies of Kalistrade](rule/f_profits), you value human coin more than most ratfolk do and have taken the mercantile practices of the Prophecies to heart. Whenever you roll a skill check to earn money, increase the amount of money that you earn by 5%."
+			"While you might not be a practicing follower of the {rule/Prophecies of Kalistrade}, you value human coin more than most ratfolk do and have taken the mercantile practices of the Prophecies to heart. Whenever you roll a skill check to earn money, increase the amount of money that you earn by 5%."
 		],
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},

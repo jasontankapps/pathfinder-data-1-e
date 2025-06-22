@@ -677,7 +677,7 @@
 			"",
 			"On the round it appears, the devil identifies itself (typically by name and with a brief recitation of honors) and states it is prepared to do battle with a sole mortal champion. In the same round, either you or a creature you designate while casting the spell must identify the devil's challenger. For the duration of the spell, the devil does everything in its power to kill the challenger. You do not control the devil or have any influence over how it conducts itself in battle, but the devil cannot leave the testing ground. Unlike with summon monster and similar spells, you cannot dismiss the devil. Rather, the conjured devil remains until any one of the following criteria is met: it is reduced below 0 hit points or otherwise defeated, its challenger is slain, its challenger leaves the testing ground, or it takes damage from any source other than its challenger. Upon any of these occurrences, the devil vanishes.",
 			"",
-			"Conjuring a devil is typically an evil act. If cast for any purpose besides the administering of a [Hellknight](rule/aff_lawknights) test, this spell has the evil descriptor."
+			"Conjuring a devil is typically an evil act. If cast for any purpose besides the administering of a {rule/Hellknight>s} test, this spell has the evil descriptor."
 		]
 	},
 	"infernal_healing": {
@@ -4100,7 +4100,7 @@
 			"**Duration** 1 day  ",
 			"**Saving Throw** Will negates (harmless); **Spell Resistance** no",
 			"",
-			"The [Lantern Bearers](rule/aff_lights) must often make difficult decisions during their missions, such as determining what to do with captured enemies-should they be executed, imprisoned, set free, or given a chance to mend their ways? With this spell, you grant a creature the ability to foresee moral consequences, as if the creature were wearing a phylactery of faithfulness. The spell's guidance focuses on the protection of beauty and encourages peaceful resolution and mercy."
+			"The {rule/Lantern Bearers} must often make difficult decisions during their missions, such as determining what to do with captured enemies-should they be executed, imprisoned, set free, or given a chance to mend their ways? With this spell, you grant a creature the ability to foresee moral consequences, as if the creature were wearing a phylactery of faithfulness. The spell's guidance focuses on the protection of beauty and encourages peaceful resolution and mercy."
 		]
 	},
 	"pressure_adaptation": {

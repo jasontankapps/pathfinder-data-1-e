@@ -60,7 +60,7 @@
 			"{SOURCE Adventurer's Guide/96;Path of the Hellknight/63}  ",
 			"**Price** varies; **Weight** varies  ",
 			"",
-			"[Hellknights](rule/aff_lawknights) often equip their steeds with armor similar to their own. Typical barding for Hellknight steeds is spiked (the spikes are ornamental, however, and cannot deal damage). Such barding is usually designed to look similar to the armor of the horse's rider, or to look skeletal, fiendish, or similar to a nightmare. Hellknight barding can be made from {eq-armor/Hellknight leather}, {eq-armor/Hellknight plate}, or {eq-armor/Hellknight half-plate}; it costs four times as much and weighs twice as much. Hellknight leather barding slows a mount from 40 feet to 30 feet, from 50 feet to 35 feet, or from 60 feet to 40 feet. Hellknight half-plate barding or Hellknight plate barding also slows a mount, and a mount wearing such armor moves at only triple its normal speed when running instead of quadruple."
+			"{rule/Hellknights} often equip their steeds with armor similar to their own. Typical barding for Hellknight steeds is spiked (the spikes are ornamental, however, and cannot deal damage). Such barding is usually designed to look similar to the armor of the horse's rider, or to look skeletal, fiendish, or similar to a nightmare. Hellknight barding can be made from {eq-armor/Hellknight leather}, {eq-armor/Hellknight plate}, or {eq-armor/Hellknight half-plate}; it costs four times as much and weighs twice as much. Hellknight leather barding slows a mount from 40 feet to 30 feet, from 50 feet to 35 feet, or from 60 feet to 40 feet. Hellknight half-plate barding or Hellknight plate barding also slows a mount, and a mount wearing such armor moves at only triple its normal speed when running instead of quadruple."
 		]
 	},
 	"armored_kilt": {
@@ -258,7 +258,7 @@
 			"**Arcane Spell Failure Chance** 15%; **Speed** 30 ft./20 ft.  ",
 			"**Category** Light armor",
 			"",
-			"There are instances where wearing full plate armor can jeopardize a Hellknight's life. Primarily worn by [Hellknight](rule/aff_lawknights) sailors, this studded leather armor includes heavy gloves and a helm of sculpted leather designed to look like a skull: either a human's or that of some aquatic creature. Hellknight leather's statistics are identical to those of {eq-armor/studded leather}, except it costs 5 gp more and weighs 5 pounds more."
+			"There are instances where wearing full plate armor can jeopardize a Hellknight's life. Primarily worn by {rule/Hellknight>s} sailors, this studded leather armor includes heavy gloves and a helm of sculpted leather designed to look like a skull: either a human's or that of some aquatic creature. Hellknight leather's statistics are identical to those of {eq-armor/studded leather}, except it costs 5 gp more and weighs 5 pounds more."
 		]
 	},
 	"hide_shirt": {
@@ -867,7 +867,7 @@
 			"**Arcane Spell Failure Chance** 35%; **Speed** 20 ft./15 ft.  ",
 			"**Category** Heavy armor",
 			"",
-			"The [Gray Maidens'](rule/aff_scarred_ladies) distinctive armor is one of their most iconic identifiers. Gray Maiden plate is mechanically identical to {eq-armor/full plate}, and any effect that functions with full plate functions with Gray Maiden plate. Certain options for Gray Maidens function only when they wear Gray Maiden plate."
+			"The {rule/Gray Maidens'} distinctive armor is one of their most iconic identifiers. Gray Maiden plate is mechanically identical to {eq-armor/full plate}, and any effect that functions with full plate functions with Gray Maiden plate. Certain options for Gray Maidens function only when they wear Gray Maiden plate."
 		]
 	},
 	"hellknight_plate": {
@@ -884,7 +884,7 @@
 			"**Arcane Spell Failure Chance** 35%; **Speed** 20 ft./15 ft.  ",
 			"**Category** Heavy armor",
 			"",
-			"These distinctive suits of armor are a special type of {rule/masterwork>_armor} {eq-armor/full plate} that grant additional effects when worn by a character with levels in the {pclass/Hellknight} prestige class. Apart from its distinctive look (each order of [Hellknights](rule/aff_lawknights) has its own style of armor), a suit of Hellknight plate functions the same as a suit of masterwork full plate."
+			"These distinctive suits of armor are a special type of {rule/masterwork>_armor} {eq-armor/full plate} that grant additional effects when worn by a character with levels in the {pclass/Hellknight} prestige class. Apart from its distinctive look (each order of {rule/Hellknights} has its own style of armor), a suit of Hellknight plate functions the same as a suit of masterwork full plate."
 		]
 	},
 	"stoneplate": {

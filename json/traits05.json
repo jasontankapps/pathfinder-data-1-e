@@ -887,7 +887,7 @@
 			"**Type:** Race  ",
 			"**Requirements:** Elf",
 			"",
-			"You are a member of the [Lantern Bearers](rule/aff_lights) or an agent of the Winter Council, tasked with ensuring that knowledge of the elves' secret shame - the drow - never reaches the surface. You gain a +2 trait bonus on Knowledge checks pertaining to drow and drow settlements."
+			"You are a member of the {rule/Lantern Bearers} or an agent of the Winter Council, tasked with ensuring that knowledge of the elves' secret shame - the drow - never reaches the surface. You gain a +2 trait bonus on Knowledge checks pertaining to drow and drow settlements."
 		],
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
@@ -1840,7 +1840,7 @@
 			"**Type:** Race  ",
 			"**Requirements:** Halfling",
 			"",
-			"Before you were old enough to be a [Bellflower Network](rule/aff_antislavery) member, you kept an ear out for information useful to slave liberators. You gain a +1 trait bonus on Perception checks, Sense Motive checks to understand secret messages, and Bluff checks to send secret messages."
+			"Before you were old enough to be a {rule/Bellflower Network} member, you kept an ear out for information useful to slave liberators. You gain a +1 trait bonus on Perception checks, Sense Motive checks to understand secret messages, and Bluff checks to send secret messages."
 		],
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
@@ -1849,7 +1849,7 @@
 		"compilationSources": [ [ "Faction Guide" ] ],
 		"description": [
 			"**Type:** Race  ",
-			"**Requirements:** Halfling; Member of The [Bellflower Network](rule/aff_antislavery)",
+			"**Requirements:** Halfling; Member of The {rule/Bellflower Network}",
 			"",
 			"You grew up as a slave in Cheliax and know the ins and outs of Chelish nobility better than most. You gain a +1 trait bonus on Diplomacy and Knowledge (nobility) checks and Knowledge (nobility) is a class skill for you."
 		],
@@ -2593,7 +2593,7 @@
 			"**Type:** Race  ",
 			"**Requirements:** Human; Mwangi",
 			"",
-			"You have spent time at [Magaambya](rule/aff_i_school), the magical academy of Nantambu, absorbing the ancient knowledge taught there. You gain a +1 trait bonus on Knowledge (arcana) and Spellcraft checks, and you may make these checks untrained."
+			"You have spent time at {rule/Magaambya}, the magical academy of Nantambu, absorbing the ancient knowledge taught there. You gain a +1 trait bonus on Knowledge (arcana) and Spellcraft checks, and you may make these checks untrained."
 		],
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
@@ -2703,7 +2703,7 @@
 			"**Type:** Race  ",
 			"**Requirements:** Human; Taldan",
 			"",
-			"You spent countless hours of your youth wandering the open campuses of the [Kitharodian Academy](rule/f_bards) and the Rhapsodic College, listening to wonderful musicians and singers and daydreaming of your life as a bard. You gain a +1 trait bonus to one category of Perform checks and a +2 trait bonus to any Knowledge (local) checks that deal with the Oppara music scene."
+			"You spent countless hours of your youth wandering the open campuses of the {rule/Kitharodian Academy} and the Rhapsodic College, listening to wonderful musicians and singers and daydreaming of your life as a bard. You gain a +1 trait bonus to one category of Perform checks and a +2 trait bonus to any Knowledge (local) checks that deal with the Oppara music scene."
 		],
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},

@@ -144,7 +144,7 @@
 		"compilationSources": [ [ "Adventurer's Guide", 53 ] ],
 		"category": "Primary Sneak Attack Talents",
 		"description": [
-			"Using magic stolen from the [Hellknights](rule/aff_lawknights), Council agents can render foes silent. When a creature is damaged by the rogue's sneak attack, the rogue magically renders the creature mute for 1 round unless it succeeds at a Will save (DC = 10 + half the rogue's level + the rogue's Charisma modifier). Silencing strike can be used a number of times per day equal to half the rogue's level."
+			"Using magic stolen from the {rule/Hellknights}, Council agents can render foes silent. When a creature is damaged by the rogue's sneak attack, the rogue magically renders the creature mute for 1 round unless it succeeds at a Will save (DC = 10 + half the rogue's level + the rogue's Charisma modifier). Silencing strike can be used a number of times per day equal to half the rogue's level."
 		],
 		"addenda": [ "sneakattack" ]
 	},
@@ -571,7 +571,7 @@
 		"compilationSources": [ [ "Magic Tactics Toolbox", 7 ] ],
 		"category": "Use Magic Device Talents",
 		"description": [
-			"Mercenaries in the employ of the [Aspis Consortium](rule/aff_profiteers) often use *wands of invisibility* to attack protected targets, then blend into the crowd to escape or disguise the source of the next attack. A rogue with this ability is practiced at attacking from magical concealment. He can use spell-trigger and spell completion items as if the following spells were on a spell list to which he has access: {spell/greater invisibility}, {spell/invisibility}, and {spell/vanish}.",
+			"Mercenaries in the employ of the {rule/Aspis Consortium} often use *wands of invisibility* to attack protected targets, then blend into the crowd to escape or disguise the source of the next attack. A rogue with this ability is practiced at attacking from magical concealment. He can use spell-trigger and spell completion items as if the following spells were on a spell list to which he has access: {spell/greater invisibility}, {spell/invisibility}, and {spell/vanish}.",
 			"",
 			"Additionally, if the rogue becomes visible as a result of a weapon or spell attack, he can sheathe his weapon as a free action and instantly adopt a neutral posture. With a successful Bluff or Disguise check (opposed by witnesses' Sense Motive or Perception checks, whichever is higher), there is no obvious sign that the rogue is the source of the attack (though a lack of any other reasonable candidate can still lead observers to draw the correct conclusion)."
 		]

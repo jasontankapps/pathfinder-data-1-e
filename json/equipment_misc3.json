@@ -835,7 +835,7 @@
 			"**Price** 200 gp; **Weight** 5 lbs.  ",
 			"**Category** Animal Gear",
 			"",
-			"Developed by [Al-Zabriti](rule/aff_deserts) riders, a Qadiran saddle is sturdy but minimal, allowing horse and rider to communicate through slight muscle shifts and delicate balance adjustments. A Qadiran saddle gives a rider a +2 circumstance bonus on Ride checks, and it allows a rider to ignore the AC penalty from a charge when she is mounted and her mount charges."
+			"Developed by {rule/Al-Zabriti} riders, a Qadiran saddle is sturdy but minimal, allowing horse and rider to communicate through slight muscle shifts and delicate balance adjustments. A Qadiran saddle gives a rider a +2 circumstance bonus on Ride checks, and it allows a rider to ignore the AC penalty from a charge when she is mounted and her mount charges."
 		]
 	},
 	"questing_knight_package": {
@@ -1757,7 +1757,7 @@
 			"**Price** 10 gp; **Weight** 1 lb.  ",
 			"**Category** Alchemical Remedies",
 			"",
-			"This alchemical substance, originally developed by secretive worshipers of {faith/Zon-Kuthon} to hide the marks of their devotion, has become popular among former [Gray Maidens](rule/aff_scarred_ladies). When applied to scarred areas of the body, scarsalve causes those scars to fade from view for 1 day. A character who gains benefits from having visible scars loses those benefits while under the effects of scarsalve, but she also gains a +2 alchemical bonus on Disguise checks."
+			"This alchemical substance, originally developed by secretive worshipers of {faith/Zon-Kuthon} to hide the marks of their devotion, has become popular among former {rule/Gray Maidens}. When applied to scarred areas of the body, scarsalve causes those scars to fade from view for 1 day. A character who gains benefits from having visible scars loses those benefits while under the effects of scarsalve, but she also gains a +2 alchemical bonus on Disguise checks."
 		]
 	},
 	"scavenger_beetle_colony": {

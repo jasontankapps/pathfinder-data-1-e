@@ -537,7 +537,7 @@
 			"",
 			"::sh[Description]",
 			"",
-			"Those who watch the stars and delve into forgotten lore often uncover truths that should have remained hidden. Many are destroyed by what they find, but a few gain great power at the cost of their sanity. These mystics draw others to them through promises of secret knowledge, founding hidden cults that serve entities whose existence is an affront to reality itself. While the practices of any one of these cults in particular is likely isolated to certain regions of Golarion, those who venerate the [Old Cults](rule/f_old_cults) can be found hidden away in virtually any land, making their infiltration of society that much more insidious."
+			"Those who watch the stars and delve into forgotten lore often uncover truths that should have remained hidden. Many are destroyed by what they find, but a few gain great power at the cost of their sanity. These mystics draw others to them through promises of secret knowledge, founding hidden cults that serve entities whose existence is an affront to reality itself. While the practices of any one of these cults in particular is likely isolated to certain regions of Golarion, those who venerate the {rule/Old Cults} can be found hidden away in virtually any land, making their infiltration of society that much more insidious."
 		]
 	},
 	"pathfinder_chronicler": {
@@ -1166,7 +1166,7 @@
 			"",
 			"::sh[Description]",
 			"",
-			"Information confers advantage, and advantage confers profit. To maintain its advantage over competitors in trade and exploration, the [Aspis Consortium](rule/aff_profiteers) makes use of spies cleverly placed in influential businesses, governments, and households. A given spy's assignment may be a deepcover role lasting for years, or may last for just a few critical days or even hours. Some spies maintain only a single cover identity. Others make use of several in a single day.",
+			"Information confers advantage, and advantage confers profit. To maintain its advantage over competitors in trade and exploration, the {rule/Aspis Consortium} makes use of spies cleverly placed in influential businesses, governments, and households. A given spy's assignment may be a deepcover role lasting for years, or may last for just a few critical days or even hours. Some spies maintain only a single cover identity. Others make use of several in a single day.",
 			"",
 			"The paramount responsibility of Aspis Consortium spies is to escape notice, so they favor innocuous personas such as household servants. Aspis spies stay vigilant at all times for tidbits of valuable information, and what they can't overhear, they steal. Information is typically passed on through coded drops at prearranged locations to maintain cover. Many spies go for months or years between meetings with their handlers.",
 			"",
@@ -1769,7 +1769,7 @@
 			"",
 			"::sh[Description]",
 			"",
-			"[Hellknights](rule/aff_lawknights) are living embodiments of unyielding law, striving to impose order on everyone and believing that justice can only be achieved through the suppression of mortals' chaotic tendencies. They are feared wherever they go by criminals and law-abiding citizens alike."
+			"{rule/Hellknights} are living embodiments of unyielding law, striving to impose order on everyone and believing that justice can only be achieved through the suppression of mortals' chaotic tendencies. They are feared wherever they go by criminals and law-abiding citizens alike."
 		]
 	},
 	"lucky_mage": {
@@ -1884,7 +1884,7 @@
 			"",
 			"::sh[Description]",
 			"",
-			"The scholars of the ancient Mwangi magic academy known as the [Magaambya](rule/aff_i_school) follow an ancient tradition that dates back to the Age of Destiny. In the jungles of central Garund, Old-Mage Jatembe and his Ten Magic Warriors brought civilization back to the Inner Sea, pulling humanity out of the Age of Darkness. Believing powers of arcane magic should be employed for the betterment of the world, Jatembe and his acolytes founded the [Magaambya](rule/aff_i_school) to teach others the secrets he learned.",
+			"The scholars of the ancient Mwangi magic academy known as the {rule/Magaambya} follow an ancient tradition that dates back to the Age of Destiny. In the jungles of central Garund, Old-Mage Jatembe and his Ten Magic Warriors brought civilization back to the Inner Sea, pulling humanity out of the Age of Darkness. Believing powers of arcane magic should be employed for the betterment of the world, Jatembe and his acolytes founded the {rule/Magaambya} to teach others the secrets he learned.",
 			"",
 			"Millennia later, the righteous wizards, sorcerers, bards, magi, and witches who study at Garund's premier magical institution blend the careful study of ancient, eldritch secrets with the raw force of nature, often adopting spells used by druids to combat evil. The Magaambya doesn't require its students to be good, but does expel those they discover to be evil. They take in scholars from throughout the Inner Sea in hopes of sharing their light and knowledge with the rest of the world. Through careful study and the practice of honored traditions, they believe, the study of magic will promote goodwill in the students and will help arcanists achieve a sense of enlightenment.",
 			"",
@@ -2186,7 +2186,7 @@
 			"",
 			"::sh[Description]",
 			"",
-			"Following the devastation of Isger's Goblinblood Wars, many Isgeri children found themselves without parents. To care for these orphans, as well as those orphaned more recently by years of unchecked bandit attacks, Cheliax's House of Thrune established numerous orphanages throughout that land under the auspices of the Sisters of the Golden Erinyes, an unholy monastic order sworn to {faith/Asmodeus}. Here, orphans are clothed, sheltered, and fed by the sisters, but this humanitarian outreach is just a front for a darker purpose. Almost as soon as they arrive, these children are baptized into Asmodeus's faith, rigorously taught infernal laws and philosophies, and trained in the exotic martial arts of Hell's devils. By the time they reach adulthood, most of these orphans are ready to take their places in the disciplined ranks of Cheliax's Hell-inspired military or religious orders. Many young men leave the orphanages for the ranks of the [Hellknights](rule/aff_lawknights) or the church of Asmodeus, while most of the women are inducted into the order to become full-fledged \"devil nuns\" themselves.",
+			"Following the devastation of Isger's Goblinblood Wars, many Isgeri children found themselves without parents. To care for these orphans, as well as those orphaned more recently by years of unchecked bandit attacks, Cheliax's House of Thrune established numerous orphanages throughout that land under the auspices of the Sisters of the Golden Erinyes, an unholy monastic order sworn to {faith/Asmodeus}. Here, orphans are clothed, sheltered, and fed by the sisters, but this humanitarian outreach is just a front for a darker purpose. Almost as soon as they arrive, these children are baptized into Asmodeus's faith, rigorously taught infernal laws and philosophies, and trained in the exotic martial arts of Hell's devils. By the time they reach adulthood, most of these orphans are ready to take their places in the disciplined ranks of Cheliax's Hell-inspired military or religious orders. Many young men leave the orphanages for the ranks of the {rule/Hellknights} or the church of Asmodeus, while most of the women are inducted into the order to become full-fledged \"devil nuns\" themselves.",
 			"",
 			"The Sisters of the Golden Erinyes are all skilled practitioners of hamatalatsu, a deadly martial art inspired by and based on the fighting style of barbed devils. A hamatalatsu master can pierce armor with her bare hands and inflict excruciating pain on her opponents with her unarmed strikes. Sisters of the Golden Erinyes also train in exotic weapons not normally found in the lands of the Inner Sea, and are more than ready to defend their monasteries, their young charges, and their faith against any who oppose them."
 		]
