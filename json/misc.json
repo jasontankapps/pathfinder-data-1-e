@@ -769,6 +769,7 @@
 		"topLink": [ "Attack", "rule/attack" ]
 	},
 	"fight_defensively": { "redirect": "fighting_defensively" },
+	"fights_defensively": { "redirect": "fighting_defensively" },
 	"dismissible": {
 		"name": "Dismissible Spells",
 		"sources": [ "PRPG Core Rulebook" ],
@@ -783,5 +784,14 @@
 		"type": "Rule",
 		"topLink": [ "Spell Duration", "rule/duration" ]
 	},
-	"dismiss": { "redirect": "dismissible" }
+	"dismiss": { "redirect": "dismissible" },
+	"hold_your_breath": {
+		"name": "Holding Your Breath",
+		"sources": [ "PRPG Core Rulebook" ],
+		"description": [
+			"{SOURCE PRPG Core Rulebook/108}  ",
+			"You can hold your breath for a number of rounds equal to twice your Constitution score, but only if you do nothing other than take move actions or free actions. If you take a standard action or a full-round action (such as making an attack), the remainder of the duration for which you can hold your breath is reduced by 1 round. (Effectively, a character in combat can hold his breath only half as long as normal.) After that period of time, you must make a DC 10 Constitution check every round to continue holding your breath. Each round, the DC for that check increases by 1. If you fail the Constitution check, you begin to {rule/suffocate}."
+		]
+	},
+	"hold_its_breath": { "redirect": "hold_your_breath" }
 }

@@ -2314,8 +2314,8 @@
 			"A typical orc trail ration consists of coarse black bread, thin sausages as hard as leather that must be chewed slowly to soften them, dried meat of uncertain origin, and pungent peppers. If you are an {race/orc} or {race/half-orc} who subsists on nothing but these rations for at least 1 week, you add +2 to the DC to resist any Intimidate checks you make. This bonus lasts until you eat a meal other than the rations or go for a full day without eating a day's worth."
 		]
 	},
-	"orrery_calculating_grand": {
-		"name": "Orrery (calculating grand)",
+	"orrery": {
+		"name": "Orrery",
 		"sources": [ "People of the Stars" ],
 		"description": [
 			"## Orrery",
@@ -2332,25 +2332,29 @@
 			"- A *calculating orrery* is an orrery that indicates with rotating numerals on each arm the current distance between each body and its star (or its planet, in the case of moons), increasing the circumstance bonus on relevant skill checks to +4."
 		]
 	},
+	"orrery_calculating_grand": {
+		"name": "Orrery (calculating grand)",
+		"copyof": "orrery"
+	},
 	"orrery_calculating_standard": {
 		"name": "Orrery (calculating standard)",
-		"copyof": "orrery_calculating_grand"
+		"copyof": "orrery"
 	},
 	"orrery_calculating_tellurium": {
 		"name": "Orrery (calculating tellurium)",
-		"copyof": "orrery_calculating_grand"
+		"copyof": "orrery"
 	},
 	"orrery_grand": {
 		"name": "Orrery (grand)",
-		"copyof": "orrery_calculating_grand"
+		"copyof": "orrery"
 	},
 	"orrery_standard": {
 		"name": "Orrery (standard)",
-		"copyof": "orrery_calculating_grand"
+		"copyof": "orrery"
 	},
 	"orrery_tellurium": {
 		"name": "Orrery (tellurium)",
-		"copyof": "orrery_calculating_grand"
+		"copyof": "orrery"
 	},
 	"ostentatious_garment": {
 		"name": "Ostentatious garment",
