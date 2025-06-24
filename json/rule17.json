@@ -1110,7 +1110,7 @@
 			"",
 			"@HL[Blind-Fight:] The monster rolls miss chances due to {rule/concealment} twice and takes the higher result.",
 			"",
-			"@HL[Bombs:] As a standard action, the monster creates a bomb and throws it with a range of 20 feet. Use the throw splash weapon special attack. On a direct hit, the bomb deals fire damage equal to the monster's low weapon damage, using 3d6 damage dice. Splash damage is 6 + 1/2 the monster's CR.",
+			"@HL[Bombs:] As a standard action, the monster creates a bomb and throws it with a range of 20 feet. Use the {rule/throw splash weapon} special attack. On a direct hit, the bomb deals fire damage equal to the monster's low weapon damage, using 3d6 damage dice. Splash damage is 6 + 1/2 the monster's CR.",
 			"",
 			"@HL[Challenge:] Once per day as a swift action, the monster can challenge one target within sight. The monster gains a bonus on melee damage rolls equal to its CR (minimum 1) against that creature, but takes a -2 penalty to AC against attacks made by creatures other than the target. The target remains challenged until it is killed, falls unconscious, or the combat ends. The monster can use this ability three times per day at CR 5, and at will at CR 14.",
 			"",

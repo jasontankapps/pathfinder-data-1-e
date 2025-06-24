@@ -200,8 +200,8 @@
 			"**Requirements** {feat/Craft Wondrous Item}, {spell/nondetection}, {spell/poison}; **Cost** 2,500 gp"
 		]
 	},
-	"bag_of_concealment_type_1": {
-		"name": "Bag of Concealment (Type I)",
+	"bag_of_concealment": {
+		"name": "Bag of Concealment",
 		"sources": [ "Classic Treasures Revisited" ],
 		"description": [
 			"## Bag of Concealment",
@@ -219,20 +219,24 @@
 			"**Requirements** {feat/Craft Wondrous Item}, {spell/fabricate}, {spell/magic aura}, {spell/secret chest}; **Cost** 2,500 gp (type I), 5,000 gp (type II), 7,400 gp (type III), 10,000 gp (type IV)"
 		]
 	},
+	"bag_of_concealment_type_1": {
+		"name": "Bag of Concealment (Type I)",
+		"copyof": "bag_of_concealment_type"
+	},
 	"bag_of_concealment_type_i": { "redirect": "bag_of_concealment_type_1" },
 	"bag_of_concealment_type_2": {
 		"name": "Bag of Concealment (Type II)",
-		"copyof": "bag_of_concealment_type_1"
+		"copyof": "bag_of_concealment_type"
 	},
 	"bag_of_concealment_type_ii": { "redirect": "bag_of_concealment_type_2" },
 	"bag_of_concealment_type_3": {
 		"name": "Bag of Concealment (Type III)",
-		"copyof": "bag_of_concealment_type_1"
+		"copyof": "bag_of_concealment_type"
 	},
 	"bag_of_concealment_type_iii": { "redirect": "bag_of_concealment_type_3" },
 	"bag_of_concealment_type_4": {
 		"name": "Bag of Concealment (Type IV)",
-		"copyof": "bag_of_concealment_type_1"
+		"copyof": "bag_of_concealment_type"
 	},
 	"bag_of_concealment_type_iv": { "redirect": "bag_of_concealment_type_4" },
 	"vial_of_reckless_courage": {
@@ -1379,8 +1383,8 @@
 		]
 	},
 	"greater_time_bomb": { "redirect": "time_bomb_greater" },
-	"ioun_memory_node_type_1": {
-		"name": "Ioun Memory Node (Type I)",
+	"ioun_memory_node_type": {
+		"name": "Ioun Memory Node",
 		"sources": [ "Pathfinder #123: The Flooded Cathedral" ],
 		"description": [
 			"## Ioun Memory Node",
@@ -1405,20 +1409,24 @@
 			"**Requirements** {feat/Craft Wondrous Item}, {spell/awaken construct}; **Cost** 3,000 gp (Type I), 7,000 gp (Type II), 12,000 gp (Type III), 18,000 gp (Type IV)"
 		]
 	},
+	"ioun_memory_node_type_1": {
+		"name": "Ioun Memory Node (Type I)",
+		"copyof": "ioun_memory_node_type"
+	},
 	"ioun_memory_node_type_i": { "redirect": "ioun_memory_node_type_1" },
 	"ioun_memory_node_type_2": {
 		"name": "Ioun Memory Node (Type II)",
-		"copyof": "ioun_memory_node_type_1"
+		"copyof": "ioun_memory_node_type"
 	},
 	"ioun_memory_node_type_ii": { "redirect": "ioun_memory_node_type_2" },
 	"ioun_memory_node_type_3": {
 		"name": "Ioun Memory Node (Type III)",
-		"copyof": "ioun_memory_node_type_1"
+		"copyof": "ioun_memory_node_type"
 	},
 	"ioun_memory_node_type_iii": { "redirect": "ioun_memory_node_type_3" },
 	"ioun_memory_node_type_4": {
 		"name": "Ioun Memory Node (Type IV)",
-		"copyof": "ioun_memory_node_type_1"
+		"copyof": "ioun_memory_node_type"
 	},
 	"ioun_memory_node_type_iv": { "redirect": "ioun_memory_node_type_4" },
 	"wavecutters_figurine": {

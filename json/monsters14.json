@@ -3714,7 +3714,7 @@
 			"",
 			"::sh[Special Abilities]",
 			"",
-			"**Gastrolith (Ex)** Once every 1d4 rounds, an irlgaunt can violently regurgitate a clot of brittle stone and digestive acids. This gastrolith is treated as a thrown splash weapon with a range increment of 30 feet. In addition to damaging any creature struck (as noted above), any creature within 10 feet of the point where the gastrolith strikes (whether a creature or a grid intersection) takes 1d6 points of acid damage. A gastrolith that misses its target hits a nearby point, just like [a normal miss with a splash weapon](rule/throw_splash_weapon). An irlgaunt has a separate orifice for ejecting gastroliths. Thus, it can make a ranged attack in addition to all its normal melee attacks.",
+			"**Gastrolith (Ex)** Once every 1d4 rounds, an irlgaunt can violently regurgitate a clot of brittle stone and digestive acids. This gastrolith is treated as a {rule/throw[n] splash weapon} with a range increment of 30 feet. In addition to damaging any creature struck (as noted above), any creature within 10 feet of the point where the gastrolith strikes (whether a creature or a grid intersection) takes 1d6 points of acid damage. A gastrolith that misses its target hits a nearby point, just like [a normal miss with a splash weapon](rule/throw_splash_weapon). An irlgaunt has a separate orifice for ejecting gastroliths. Thus, it can make a ranged attack in addition to all its normal melee attacks.",
 			"",
 			"**Stone Step (Ex)** An irlgaunt can move through any sort of natural difficult terrain at its normal speed while in rocky or subterranean terrain. Magically altered terrain affects an irlgaunt as normal.",
 			"",

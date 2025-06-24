@@ -1476,7 +1476,7 @@
 			"",
 			"::sh[Special Abilities]",
 			"",
-			"**Festering Heads (Su)** Once the heads in a shenzuzhou's collection rot out naturally, it can hurl them as a thrown splash weapon (range increment 30 ft.) as a standard action. A thrown head ruptures on impact, releasing noxious gas that produces an effect identical to a stinking cloud spell (DC 22). The save is Charisma-based. A typical shenzuzhou carries 1d4 festering heads. The heads do not rupture if thrown by another creature.",
+			"**Festering Heads (Su)** Once the heads in a shenzuzhou's collection rot out naturally, it can hurl them as a {rule/throw[n] splash weapon} (range increment 30 ft.) as a standard action. A thrown head ruptures on impact, releasing noxious gas that produces an effect identical to a stinking cloud spell (DC 22). The save is Charisma-based. A typical shenzuzhou carries 1d4 festering heads. The heads do not rupture if thrown by another creature.",
 			"",
 			"::sh[Description]",
 			"",

@@ -66,8 +66,8 @@
 			"**Requirements** {feat/Craft Wondrous Item}, {spell/polymorph}; **Cost** 500 gp"
 		]
 	},
-	"belt_of_superior_maneuvers_1": {
-		"name": "Belt of Superior Maneuvers (+1)",
+	"belt_of_superior_maneuvers": {
+		"name": "Belt of Superior Maneuvers",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Belt of Superior Maneuvers",
@@ -82,6 +82,10 @@
 			"",
 			"**Requirements** {feat/Craft Wondrous Item}, {spell/divine favor}, creator's caster level must be at least triple the belt's bonus; **Cost** 1,000 gp (+1), 4,000 gp (+2), 9,000 gp (+3), 16,000 gp (+4), 25,000 gp (+5)"
 		]
+	},
+	"belt_of_superior_maneuvers_1": {
+		"name": "Belt of Superior Maneuvers (+1)",
+		"copyof": "belt_of_superior_maneuvers"
 	},
 	"bladed_belt": {
 		"name": "Bladed Belt",
@@ -230,8 +234,8 @@
 			"**Requirements** {feat/Craft Wondrous Item}, {spell/cat's grace}; **Cost** 1,600 gp"
 		]
 	},
-	"belt_of_mighty_constitution_2": {
-		"name": "Belt of Mighty Constitution (+2)",
+	"belt_of_mighty_constitution": {
+		"name": "Belt of Mighty Constitution",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -250,8 +254,12 @@
 			"**Requirements** {feat/Craft Wondrous Item}, {spell/bear's endurance}; **Cost** 2,000 gp (+2), 8,000 gp (+4), 18,000 gp (+6)"
 		]
 	},
-	"belt_of_giant_strength_2": {
-		"name": "Belt of Giant Strength (+2)",
+	"belt_of_mighty_constitution_2": {
+		"name": "Belt of Mighty Constitution (+2)",
+		"copyof": "belt_of_mighty_constitution"
+	},
+	"belt_of_giant_strength": {
+		"name": "Belt of Giant Strength",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -270,8 +278,12 @@
 			"**Requirements** {feat/Craft Wondrous Item}, {spell/bull's strength}; **Cost** 2,000 gp (+2), 8,000 gp (+4), 18,000 gp (+6)"
 		]
 	},
-	"belt_of_incredible_dexterity_2": {
-		"name": "Belt of Incredible Dexterity (+2)",
+	"belt_of_giant_strength_2": {
+		"name": "Belt of Giant Strength (+2)",
+		"copyof": "belt_of_giant_strength"
+	},
+	"belt_of_incredible_dexterity": {
+		"name": "Belt of Incredible Dexterity",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -289,6 +301,10 @@
 			"",
 			"**Requirements** {feat/Craft Wondrous Item}, {spell/cat's grace}; **Cost** 2,000 gp (+2), 8,000 gp (+4), 18,000 gp (+6)"
 		]
+	},
+	"belt_of_incredible_dexterity_2": {
+		"name": "Belt of Incredible Dexterity (+2)",
+		"copyof": "belt_of_incredible_dexterity"
 	},
 	"belt_of_teeth": {
 		"name": "Belt of Teeth",
@@ -560,7 +576,7 @@
 	},
 	"belt_of_superior_maneuvers_2": {
 		"name": "Belt of Superior Maneuvers (+2)",
-		"copyof": "belt_of_superior_maneuvers_1"
+		"copyof": "belt_of_superior_maneuvers"
 	},
 	"serpent_belt": {
 		"name": "Serpent Belt",
@@ -613,8 +629,8 @@
 			"**Requirements** {feat/Craft Wondrous Item}, {spell/beast shape I}, {spell/cat's grace}; **Cost** 4,700 gp"
 		]
 	},
-	"belt_of_physical_might_2": {
-		"name": "Belt of Physical Might (+2)",
+	"belt_of_physical_might": {
+		"name": "Belt of Physical Might",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -632,6 +648,10 @@
 			"",
 			"**Requirements** {feat/Craft Wondrous Item}, {spell/bear's endurance}, {spell/bull's strength}, and/or {spell/cat's grace}; **Cost** 5,000 gp (+2), 20,000 gp (+4), 45,000 gp (+6)"
 		]
+	},
+	"belt_of_physical_might_2": {
+		"name": "Belt of Physical Might (+2)",
+		"copyof": "belt_of_physical_might"
 	},
 	"belt_of_the_weasel": {
 		"name": "Belt of the Weasel",
@@ -869,8 +889,8 @@
 			"**Requirements** {feat/Craft Wondrous Item}, {spell/bear's endurance}, {spell/lesser restoration}; **Cost** 7,500 gp"
 		]
 	},
-	"belt_of_physical_perfection_2": {
-		"name": "Belt of Physical Perfection (+2)",
+	"belt_of_physical_perfection": {
+		"name": "Belt of Physical Perfection",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -889,17 +909,21 @@
 			"**Requirements** {feat/Craft Wondrous Item}, {spell/bear's endurance}, {spell/bull's strength}, {spell/cat's grace}; **Cost** 8,000 gp (+2), 32,000 gp (+4), 77,000 gp (+6)"
 		]
 	},
+	"belt_of_physical_perfection_2": {
+		"name": "Belt of Physical Perfection (+2)",
+		"copyof": "belt_of_physical_perfection"
+	},
 	"belt_of_mighty_constitution_4": {
 		"name": "Belt of Mighty Constitution (+4)",
-		"copyof": "belt_of_mighty_constitution_2"
+		"copyof": "belt_of_mighty_constitution"
 	},
 	"belt_of_incredible_dexterity_4": {
 		"name": "Belt of Incredible Dexterity (+4)",
-		"copyof": "belt_of_incredible_dexterity_2"
+		"copyof": "belt_of_incredible_dexterity"
 	},
 	"belt_of_giant_strength_4": {
 		"name": "Belt of Giant Strength (+4)",
-		"copyof": "belt_of_giant_strength_2"
+		"copyof": "belt_of_giant_strength"
 	},
 	"belt_of_impossible_action_vudrani": {
 		"name": "Belt of Impossible Action (Vudrani)",
@@ -923,7 +947,7 @@
 	"belt_of_impossible_action": { "redirect": "belt_of_impossible_action_vudrani" },
 	"belt_of_superior_maneuvers_3": {
 		"name": "Belt of Superior Maneuvers (+3)",
-		"copyof": "belt_of_superior_maneuvers_1"
+		"copyof": "belt_of_superior_maneuvers"
 	},
 	"monkey_belt_greater": {
 		"name": "Monkey Belt (Greater)",
@@ -1125,7 +1149,7 @@
 	"greater_infernal_cord": { "redirect": "infernal_cord_greater" },
 	"belt_of_superior_maneuvers_4": {
 		"name": "Belt of Superior Maneuvers (+4)",
-		"copyof": "belt_of_superior_maneuvers_1"
+		"copyof": "belt_of_superior_maneuvers"
 	},
 	"merform_belt": {
 		"name": "Merform Belt",
@@ -1146,15 +1170,15 @@
 	},
 	"belt_of_mighty_constitution_6": {
 		"name": "Belt of Mighty Constitution (+6)",
-		"copyof": "belt_of_mighty_constitution_2"
+		"copyof": "belt_of_mighty_constitution"
 	},
 	"belt_of_giant_strength_6": {
 		"name": "Belt of Giant Strength (+6)",
-		"copyof": "belt_of_giant_strength_2"
+		"copyof": "belt_of_giant_strength"
 	},
 	"belt_of_incredible_dexterity_6": {
 		"name": "Belt of Incredible Dexterity (+6)",
-		"copyof": "belt_of_incredible_dexterity_2"
+		"copyof": "belt_of_incredible_dexterity"
 	},
 	"mirroring_belt": {
 		"name": "Mirroring Belt",
@@ -1179,7 +1203,7 @@
 	},
 	"belt_of_physical_might_4": {
 		"name": "Belt of Physical Might (+4)",
-		"copyof": "belt_of_physical_might_2"
+		"copyof": "belt_of_physical_might"
 	},
 	"belt_of_mighty_hurling_greater": {
 		"name": "Belt of Mighty Hurling (Greater)",
@@ -1201,7 +1225,7 @@
 	"greater_belt_of_mighty_hurling": { "redirect": "belt_of_mighty_hurling_greater" },
 	"belt_of_superior_maneuvers_5": {
 		"name": "Belt of Superior Maneuvers (+5)",
-		"copyof": "belt_of_superior_maneuvers_1"
+		"copyof": "belt_of_superior_maneuvers"
 	},
 	"anchoring_belt": {
 		"name": "Anchoring Belt",
@@ -1244,7 +1268,7 @@
 	},
 	"belt_of_physical_perfection_4": {
 		"name": "Belt of Physical Perfection (+4)",
-		"copyof": "belt_of_physical_perfection_2"
+		"copyof": "belt_of_physical_perfection"
 	},
 	"coven_charm": {
 		"name": "Coven Charm",
@@ -1269,7 +1293,7 @@
 	},
 	"belt_of_physical_might_6": {
 		"name": "Belt of Physical Might (+6)",
-		"copyof": "belt_of_physical_might_2"
+		"copyof": "belt_of_physical_might"
 	},
 	"shadowform_belt": {
 		"name": "Shadowform Belt",
@@ -1290,7 +1314,7 @@
 	},
 	"belt_of_physical_perfection_6": {
 		"name": "Belt of Physical Perfection (+6)",
-		"copyof": "belt_of_physical_perfection_2"
+		"copyof": "belt_of_physical_perfection"
 	},
 	"glorious_tabard_lesser": {
 		"name": "Glorious Tabard (Lesser)",
@@ -1467,8 +1491,8 @@
 			"**Requirements** {feat/Craft Wondrous Item}, {spell/endure elements}; **Cost** 2,500 gp"
 		]
 	},
-	"bodywrap_of_mighty_strikes_1": {
-		"name": "Bodywrap of Mighty Strikes (+1)",
+	"bodywrap_of_mighty_strikes": {
+		"name": "Bodywrap of Mighty Strikes",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Bodywrap of Mighty Strikes",
@@ -1487,6 +1511,10 @@
 			"",
 			"**Requirements** {feat/Craft Wondrous Item}, {spell/greater magic fang}, creator's caster level must be at least three times the bodywrap's bonus, plus any requirements of the melee weapon special abilities; **Cost** 1,500 gp (+1), 6,000 gp (+2), 13,500 gp (+3), 24,000 gp (+4), 37,500 gp (+5), 54,000 gp (+6), 73,500 gp (+7)"
 		]
+	},
+	"bodywrap_of_mighty_strikes_1": {
+		"name": "Bodywrap of Mighty Strikes (+1)",
+		"copyof": "bodywrap_of_mighty_strikes"
 	},
 	"corset_of_the_vishkanya": {
 		"name": "Corset of the Vishkanya",
@@ -2029,7 +2057,7 @@
 	},
 	"bodywrap_of_mighty_strikes_2": {
 		"name": "Bodywrap of Mighty Strikes (+2)",
-		"copyof": "bodywrap_of_mighty_strikes_1"
+		"copyof": "bodywrap_of_mighty_strikes"
 	},
 	"harness_of_hovering": {
 		"name": "Harness of Hovering",
@@ -2275,7 +2303,7 @@
 	},
 	"bodywrap_of_mighty_strikes_3": {
 		"name": "Bodywrap of Mighty Strikes (+3)",
-		"copyof": "bodywrap_of_mighty_strikes_1"
+		"copyof": "bodywrap_of_mighty_strikes"
 	},
 	"robe_of_scintillating_colors": {
 		"name": "Robe of Scintillating Colors",
@@ -2414,7 +2442,7 @@
 	},
 	"bodywrap_of_mighty_strikes_4": {
 		"name": "Bodywrap of Mighty Strikes (+4)",
-		"copyof": "bodywrap_of_mighty_strikes_1"
+		"copyof": "bodywrap_of_mighty_strikes"
 	},
 	"smugglers_collapsible_robe": {
 		"name": "Smuggler's Collapsible Robe",
@@ -2544,7 +2572,7 @@
 	},
 	"bodywrap_of_mighty_strikes_5": {
 		"name": "Bodywrap of Mighty Strikes (+5)",
-		"copyof": "bodywrap_of_mighty_strikes_1"
+		"copyof": "bodywrap_of_mighty_strikes"
 	},
 	"resplendent_robe_of_the_thespian": {
 		"name": "Resplendent Robe of the Thespian",
@@ -2674,7 +2702,7 @@
 	},
 	"bodywrap_of_mighty_strikes_6": {
 		"name": "Bodywrap of Mighty Strikes (+6)",
-		"copyof": "bodywrap_of_mighty_strikes_1"
+		"copyof": "bodywrap_of_mighty_strikes"
 	},
 	"robe_of_magma": {
 		"name": "Robe of Magma",
@@ -2721,7 +2749,7 @@
 	},
 	"bodywrap_of_mighty_strikes_7": {
 		"name": "Bodywrap of Mighty Strikes (+7)",
-		"copyof": "bodywrap_of_mighty_strikes_1"
+		"copyof": "bodywrap_of_mighty_strikes"
 	},
 	"robes_of_xin_edasseril": {
 		"name": "Robes of Xin-Edasseril",

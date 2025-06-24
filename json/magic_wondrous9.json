@@ -3293,8 +3293,8 @@
 			"**Requirements** {feat/Craft Wondrous Item}, {spell/detect magic}, {spell/divination}; **Cost** 6,250 gp"
 		]
 	},
-	"bag_of_holding_giant_type_5": {
-		"name": "Bag of Holding (Giant) (Type V)",
+	"bag_of_holding_giant": {
+		"name": "Bag of Holding (Giant)",
 		"sources": [ "Pathfinder #93: Forge of the Giant God" ],
 		"description": [
 			"## Bag of Holding (Giant)",
@@ -3319,12 +3319,17 @@
 			"**Requirements** {feat/Craft Wondrous Item}, {spell/secret chest}; **Cost** 6,250 gp (Type V), 7,500 gp (Type VI)"
 		]
 	},
+	"giant_bag_of_holding": { "redirect": "bag_of_holding_giant" },
+	"bag_of_holding_giant_type_5": {
+		"name": "Bag of Holding (Giant) (Type V)",
+		"copyof": "bag_of_holding_giant"
+	},
 	"bag_of_holding_giant_type_v": { "redirect": "bag_of_holding_giant_type_5" },
 	"giant_bag_of_holding_type_5": { "redirect": "bag_of_holding_giant_type_5" },
 	"giant_bag_of_holding_type_v": { "redirect": "bag_of_holding_giant_type_5" },
 	"bag_of_holding_giant_type_6": {
 		"name": "Bag of Holding (Giant) (Type VI)",
-		"copyof": "bag_of_holding_giant_type_5"
+		"copyof": "bag_of_holding_giant"
 	},
 	"bag_of_holding_giant_type_vi": { "redirect": "bag_of_holding_giant_type_6" },
 	"giant_bag_of_holding_type_6": { "redirect": "bag_of_holding_giant_type_6" },

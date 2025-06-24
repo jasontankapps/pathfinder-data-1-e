@@ -2262,8 +2262,8 @@
 			"**Requirements** {feat/Craft Wondrous Item}, {spell/erase}, {spell/nondetection}, {spell/secret page}; **Cost** 1,000 gp"
 		]
 	},
-	"satchel_of_plentiful_feed_type_1": {
-		"name": "Satchel of Plentiful Feed (Type I)",
+	"satchel_of_plentiful_feed_type": {
+		"name": "Satchel of Plentiful Feed",
 		"sources": [ "Villain Codex" ],
 		"description": [
 			"## Satchel of Plentiful Feed",
@@ -2286,20 +2286,24 @@
 			"**Requirements** {feat/Craft Wondrous Item}, {spell/create food and water}; **Cost** 1,000 gp (Type I), 2,000 gp (Type II), 3,750 gp (Type III), 7,500 gp (Type IV)"
 		]
 	},
+	"satchel_of_plentiful_feed_type_1": {
+		"name": "Satchel of Plentiful Feed (Type I)",
+		"copyof": "satchel_of_plentiful_feed_type"
+	},
 	"satchel_of_plentiful_feed_type_i": { "redirect": "satchel_of_plentiful_feed_type_1" },
 	"satchel_of_plentiful_feed_type_2": {
 		"name": "Satchel of Plentiful Feed (Type II)",
-		"copyof": "satchel_of_plentiful_feed_type_1"
+		"copyof": "satchel_of_plentiful_feed_type"
 	},
 	"satchel_of_plentiful_feed_type_ii": { "redirect": "satchel_of_plentiful_feed_type_2" },
 	"satchel_of_plentiful_feed_type_3": {
 		"name": "Satchel of Plentiful Feed (Type III)",
-		"copyof": "satchel_of_plentiful_feed_type_1"
+		"copyof": "satchel_of_plentiful_feed_type"
 	},
 	"satchel_of_plentiful_feed_type_iii": { "redirect": "satchel_of_plentiful_feed_type_3" },
 	"satchel_of_plentiful_feed_type_4": {
 		"name": "Satchel of Plentiful Feed (Type IV)",
-		"copyof": "satchel_of_plentiful_feed_type_1"
+		"copyof": "satchel_of_plentiful_feed_type"
 	},
 	"satchel_of_plentiful_feed_type_iv": { "redirect": "satchel_of_plentiful_feed_type_4" },
 	"wayfinder_shining": {
@@ -3178,8 +3182,8 @@
 			"**Requirements** Blind Fight, {feat/Craft Wondrous Item}, {feat/Improved Trip}, {feat/Lunge}, {feat/Nimble Moves}, {spell/good hope}; **Cost** 1,250 gp"
 		]
 	},
-	"bag_of_holding_type_1": {
-		"name": "Bag of Holding (Type I)",
+	"bag_of_holding": {
+		"name": "Bag of Holding",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -3211,24 +3215,24 @@
 			"**Requirements** {feat/Craft Wondrous Item}, {spell/secret chest}; **Cost** 1,250 gp (Type I), 2,500 gp (Type II), 3,700 gp (Type III), 5,000 gp (Type IV)"
 		]
 	},
-	"bag_of_holding_type_i": { "redirect": "bag_of_holding_type_1" },
-	"bag_of_holding": {
-		"name": "Bag of Holding",
-		"copyof": "bag_of_holding_type_1"
+	"bag_of_holding_type_i": { "redirect": "bag_of_holding" },
+	"bag_of_holding_type_1": {
+		"name": "Bag of Holding (Type I)",
+		"copyof": "bag_of_holding"
 	},
 	"bag_of_holding_type_2": {
 		"name": "Bag of Holding (Type II)",
-		"copyof": "bag_of_holding_type_1"
+		"copyof": "bag_of_holding"
 	},
 	"bag_of_holding_type_ii": { "redirect": "bag_of_holding_type_2" },
 	"bag_of_holding_type_3": {
 		"name": "Bag of Holding (Type III)",
-		"copyof": "bag_of_holding_type_1"
+		"copyof": "bag_of_holding"
 	},
 	"bag_of_holding_type_iii": { "redirect": "bag_of_holding_type_3" },
 	"bag_of_holding_type_4": {
 		"name": "Bag of Holding (Type IV)",
-		"copyof": "bag_of_holding_type_1"
+		"copyof": "bag_of_holding"
 	},
 	"bag_of_holding_type_iv": { "redirect": "bag_of_holding_type_4" },
 	"urgathoas_breath": {

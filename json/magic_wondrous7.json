@@ -81,8 +81,8 @@
 			"**Requirements** {feat/Craft Wondrous Item}, {spell/shield}; **Cost** 100 gp"
 		]
 	},
-	"protean_cloak_1_bonus": {
-		"name": "Protean Cloak (+1 bonus)",
+	"protean_cloak": {
+		"name": "Protean Cloak",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"## Protean Cloak",
@@ -99,6 +99,10 @@
 			"",
 			"**Requirements** {feat/Craft Wondrous Item}, {spell/entropic shield}, {spell/resistance}, creator must be chaotic, creator's caster level must be at least three times the cloak's bonus; **Cost** 250 gp (+1 bonus), 1,000 gp (+2 bonus), 2,250 gp (+3 bonus), 4,000 gp (+4 bonus), 6,250 gp (+5 bonus)"
 		]
+	},
+	"protean_cloak_1_bonus": {
+		"name": "Protean Cloak (+1 bonus)",
+		"copyof": "protean_cloak"
 	},
 	"protean_cloak_1": { "redirect": "protean_cloak_1_bonus" },
 	"cloak_of_human_guise": {
@@ -121,7 +125,7 @@
 			"**Requirements** {feat/Craft Wondrous Item}, {spell/disguise self}; **Cost** 450 gp"
 		]
 	},
-	"cloak_of_resistance_1": {
+	"cloak_of_resistance": {
 		"name": "Cloak of Resistance (+1)",
 		"sources": [
 			"Ultimate Equipment",
@@ -140,6 +144,10 @@
 			"",
 			"**Requirements** {feat/Craft Wondrous Item}, {spell/resistance}, creator's caster level must be at least three times the cloak's bonus; **Cost** 500 gp (+1), 2,000 gp (+2), 4,500 gp (+3), 8,000 gp (+4), 12,500 gp (+5)"
 		]
+	},
+	"cloak_of_resistance_1": {
+		"name": "Cloak of Resistance (+1)",
+		"copyof": "cloak_of_resistance"
 	},
 	"muleback_cords": {
 		"name": "Muleback Cords",
@@ -338,7 +346,7 @@
 	},
 	"protean_cloak_2_bonus": {
 		"name": "Protean Cloak (+2 bonus)",
-		"copyof": "protean_cloak_1_bonus"
+		"copyof": "protean_cloak"
 	},
 	"protean_cloak_2": { "redirect": "protean_cloak_2_bonus" },
 	"entangling_aiguillette": {
@@ -480,8 +488,8 @@
 			"**Requirements** {feat/Craft Wondrous Item}, {spell/invisibility}, {spell/silent image}; **Cost** 1,300 gp"
 		]
 	},
-	"caparison_of_resistance_1_bonus": {
-		"name": "Caparison of Resistance (+1 bonus)",
+	"caparison_of_resistance": {
+		"name": "Caparison of Resistance",
 		"sources": [ "Adventurer's Guide" ],
 		"description": [
 			"## Caparison of Resistance",
@@ -496,6 +504,10 @@
 			"",
 			"**Requirements** {feat/Craft Wondrous Item}, {spell/resistance}, creator's caster level must be at least three times the cloak's bonus; **Cost** 1,350 gp (+1 bonus), 5,400 gp (+2 bonus), 12,150 gp (+3 bonus), 21,600 gp (+4 bonus), 33,750 gp (+5 bonus)"
 		]
+	},
+	"caparison_of_resistance_1_bonus": {
+		"name": "Caparison of Resistance (+1 bonus)",
+		"copyof": "caparison_of_resistance"
 	},
 	"caparison_of_resistance_1": { "redirect": "caparison_of_resistance_1_bonus" },
 	"cloak_of_the_crusader": {
@@ -762,8 +774,8 @@
 			"**Requirements** {feat/Craft Wondrous Item}, {spell/expeditious retreat}; **Cost** 1,800 gp"
 		]
 	},
-	"swordlords_cloak_1_bonus": {
-		"name": "Swordlord's Cloak (+1 bonus)",
+	"swordlords_cloak": {
+		"name": "Swordlord's Cloak",
 		"sources": [ "Adventurer's Guide" ],
 		"description": [
 			"## Swordlord's Cloak",
@@ -774,17 +786,21 @@
 			"",
 			"This exotic, fur-trimmed cloak is decorated with golden filigree. In addition to offering magical protection, the cloak guides a skilled wearer's blade to block attacks. Such cloaks are often commissioned by Aldori Academy graduates when they attain swordlord status.",
 			"",
-			"A swordlord's cloak acts as a {magic-wondrous/cloak of resistance>_1}. In addition, whenever the wearer is benefiting from the defensive parry class feature, he receives an insight bonus to his AC equal to the cloak's resistance bonus.",
+			"A swordlord's cloak acts as a {magic-wondrous/cloak of resistance}. In addition, whenever the wearer is benefiting from the defensive parry class feature, he receives an insight bonus to his AC equal to the cloak's resistance bonus.",
 			"",
 			"### Construction",
 			"",
 			"**Requirements** {feat/Craft Wondrous Item}, {spell/anticipate peril}, {spell/resistance}; **Cost** 2,000 gp (+1 bonus), 8,000 gp (+2 bonus), 18,500 gp (+3 bonus), 32,000 gp (+4 bonus), 50,000 gp (+5 bonus)"
 		]
 	},
+	"swordlords_cloak_1_bonus": {
+		"name": "Swordlord's Cloak (+1 bonus)",
+		"copyof": "swordlords_cloak"
+	},
 	"swordlords_cloak_1": { "redirect": "swordlords_cloak_1_bonus" },
 	"cloak_of_resistance_2": {
 		"name": "Cloak of Resistance (+2)",
-		"copyof": "cloak_of_resistance_1"
+		"copyof": "cloak_of_resistance"
 	},
 	"cloak_of_the_yeti": {
 		"name": "Cloak of the Yeti",
@@ -822,7 +838,7 @@
 	},
 	"protean_cloak_3_bonus": {
 		"name": "Protean Cloak (+3 bonus)",
-		"copyof": "protean_cloak_1_bonus"
+		"copyof": "protean_cloak"
 	},
 	"protean_cloak_3": { "redirect": "protean_cloak_3_bonus" },
 	"golden_eagle_epaulets": {
@@ -1142,7 +1158,7 @@
 	},
 	"protean_cloak_4_bonus": {
 		"name": "Protean Cloak (+4 bonus)",
-		"copyof": "protean_cloak_1_bonus"
+		"copyof": "protean_cloak"
 	},
 	"protean_cloak_4": { "redirect": "protean_cloak_4_bonus" },
 	"aspergillum_cloak": {
@@ -1183,7 +1199,7 @@
 	},
 	"cloak_of_resistance_3": {
 		"name": "Cloak of Resistance (+3)",
-		"copyof": "cloak_of_resistance_1"
+		"copyof": "cloak_of_resistance"
 	},
 	"arbalest_cloak": {
 		"name": "Arbalest Cloak",
@@ -1347,7 +1363,7 @@
 	"minor_stone_cloak": { "redirect": "stone_cloak_minor" },
 	"caparison_of_resistance_2_bonus": {
 		"name": "Caparison of Resistance (+2 bonus)",
-		"copyof": "caparison_of_resistance_1_bonus"
+		"copyof": "caparison_of_resistance"
 	},
 	"caparison_of_resistance_2": { "redirect": "caparison_of_resistance_2_bonus" },
 	"cape_of_the_mountebank": {
@@ -1463,7 +1479,7 @@
 	},
 	"protean_cloak_5_bonus": {
 		"name": "Protean Cloak (+5 bonus)",
-		"copyof": "protean_cloak_1_bonus"
+		"copyof": "protean_cloak"
 	},
 	"protean_cloak_5": { "redirect": "protean_cloak_5_bonus" },
 	"cloak_of_good_fortune": {
@@ -1715,12 +1731,12 @@
 	},
 	"swordlords_cloak_2_bonus": {
 		"name": "Swordlord's Cloak (+2 bonus)",
-		"copyof": "swordlords_cloak_1_bonus"
+		"copyof": "swordlords_cloak"
 	},
 	"swordlords_cloak_2": { "redirect": "swordlords_cloak_2_bonus" },
 	"cloak_of_resistance_4": {
 		"name": "Cloak of Resistance (+4)",
-		"copyof": "cloak_of_resistance_1"
+		"copyof": "cloak_of_resistance"
 	},
 	"hyena_spirit_skin": {
 		"name": "Hyena Spirit Skin",
@@ -2098,12 +2114,12 @@
 	"minor_cloak_of_displacement": { "redirect": "cloak_of_displacement_minor" },
 	"caparison_of_resistance_3_bonus": {
 		"name": "Caparison of Resistance (+3 bonus)",
-		"copyof": "caparison_of_resistance_1_bonus"
+		"copyof": "caparison_of_resistance"
 	},
 	"caparison_of_resistance_3": { "redirect": "caparison_of_resistance_3_bonus" },
 	"cloak_of_resistance_5": {
 		"name": "Cloak of Resistance (+5)",
-		"copyof": "cloak_of_resistance_1"
+		"copyof": "cloak_of_resistance"
 	},
 	"melding_cloak": {
 		"name": "Melding Cloak",
@@ -2237,7 +2253,7 @@
 	},
 	"swordlords_cloak_3_bonus": {
 		"name": "Swordlord's Cloak (+3 bonus)",
-		"copyof": "swordlords_cloak_1_bonus"
+		"copyof": "swordlords_cloak"
 	},
 	"swordlords_cloak_3": { "redirect": "swordlords_cloak_3_bonus" },
 	"plumed_mantle": {
@@ -2285,7 +2301,7 @@
 	},
 	"caparison_of_resistance_4_bonus": {
 		"name": "Caparison of Resistance (+4 bonus)",
-		"copyof": "caparison_of_resistance_1_bonus"
+		"copyof": "caparison_of_resistance"
 	},
 	"caparison_of_resistance_4": { "redirect": "caparison_of_resistance_4_bonus" },
 	"charlatans_cape": {
@@ -2448,7 +2464,7 @@
 	},
 	"swordlords_cloak_4_bonus": {
 		"name": "Swordlord's Cloak (+4 bonus)",
-		"copyof": "swordlords_cloak_1_bonus"
+		"copyof": "swordlords_cloak"
 	},
 	"swordlords_cloak_4": { "redirect": "swordlords_cloak_4_bonus" },
 	"immolation_cloak": {
@@ -2472,7 +2488,7 @@
 	},
 	"caparison_of_resistance_5_bonus": {
 		"name": "Caparison of Resistance (+5 bonus)",
-		"copyof": "caparison_of_resistance_1_bonus"
+		"copyof": "caparison_of_resistance"
 	},
 	"caparison_of_resistance_5": { "redirect": "caparison_of_resistance_5_bonus" },
 	"wings_of_the_gargoyle": {
@@ -2511,7 +2527,7 @@
 	},
 	"swordlords_cloak_5_bonus": {
 		"name": "Swordlord's Cloak (+5 bonus)",
-		"copyof": "swordlords_cloak_1_bonus"
+		"copyof": "swordlords_cloak"
 	},
 	"swordlords_cloak_5": { "redirect": "swordlords_cloak_5_bonus" },
 	"sleeves_of_many_garments": {
@@ -2565,8 +2581,8 @@
 			"**Requirements** {feat/Craft Wondrous Item}, {spell/status}; **Cost** 375 gp"
 		]
 	},
-	"bracers_of_armor_1": {
-		"name": "Bracers of Armor (+1)",
+	"bracers_of_armor": {
+		"name": "Bracers of Armor",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -2586,6 +2602,10 @@
 			"",
 			"**Requirements** {feat/Craft Wondrous Item}, {spell/mage armor}, creator's caster level must be at least two times that of the bonus placed on the bracers, plus any requirements of the armor special abilities; **Cost** 500 gp (+1), 2,000 gp (+2), 4,500 gp (+3), 8,000 gp (+4), 12,500 gp (+5), 18,000 gp (+6), 24,500 gp (+7), 32,000 gp (+8)"
 		]
+	},
+	"bracers_of_armor_1": {
+		"name": "Bracers of Armor (+1)",
+		"copyof": "bracers_of_armor"
 	},
 	"decorum_band": {
 		"name": "Decorum Band",
@@ -2761,7 +2781,7 @@
 	},
 	"bracers_of_armor_2": {
 		"name": "Bracers of Armor (+2)",
-		"copyof": "bracers_of_armor_1"
+		"copyof": "bracers_of_armor"
 	},
 	"bracers_of_falcons_aim": {
 		"name": "Bracers of Falcon's Aim",
@@ -3114,7 +3134,7 @@
 	},
 	"bracers_of_armor_3": {
 		"name": "Bracers of Armor (+3)",
-		"copyof": "bracers_of_armor_1"
+		"copyof": "bracers_of_armor"
 	},
 	"bracelets_of_defiant_wind": {
 		"name": "Bracelets of Defiant Wind",
@@ -3430,7 +3450,7 @@
 	},
 	"bracers_of_armor_4": {
 		"name": "Bracers of Armor (+4)",
-		"copyof": "bracers_of_armor_1"
+		"copyof": "bracers_of_armor"
 	},
 	"bracelet_of_good_luck_charms_halfling": {
 		"name": "Bracelet of Good Luck Charms (Halfling)",
@@ -3578,7 +3598,7 @@
 	},
 	"bracers_of_armor_5": {
 		"name": "Bracers of Armor (+5)",
-		"copyof": "bracers_of_armor_1"
+		"copyof": "bracers_of_armor"
 	},
 	"bracers_of_archery_greater": {
 		"name": "Bracers of Archery (Greater)",
@@ -3772,7 +3792,7 @@
 	},
 	"bracers_of_armor_6": {
 		"name": "Bracers of Armor (+6)",
-		"copyof": "bracers_of_armor_1"
+		"copyof": "bracers_of_armor"
 	},
 	"bracers_of_the_shield_mates": {
 		"name": "Bracers of the Shield Mates",
@@ -3795,11 +3815,11 @@
 	},
 	"bracers_of_armor_7": {
 		"name": "Bracers of Armor (+7)",
-		"copyof": "bracers_of_armor_1"
+		"copyof": "bracers_of_armor"
 	},
 	"bracers_of_armor_8": {
 		"name": "Bracers of Armor (+8)",
-		"copyof": "bracers_of_armor_1"
+		"copyof": "bracers_of_armor"
 	},
 	"bracers_of_antiquity": {
 		"name": "Bracers of Antiquity",
@@ -3817,7 +3837,7 @@
 			"",
 			"**6th Level** The wearer gains a +2 competence bonus on Knowledge (arcana), Spellcraft, and Use Magic Device checks.",
 			"",
-			"**9th Level** The bracers act as {magic-enh/spell storing>_a} {magic-wondrous/bracers of armor>_1}.",
+			"**9th Level** The bracers act as {magic-enh/spell storing>_a} {magic-wondrous/bracers of armor}.",
 			"",
 			"**12th Level** While at least one ioun stone is embedded in the bracers, the wearer can speak and understand any language, as per {spell/tongues}.",
 			"",

@@ -1677,8 +1677,8 @@
 			"**Requirements** {feat/Craft Wondrous Item}, {spell/deathwatch}; **Cost** 750 gp"
 		]
 	},
-	"circlet_of_spell_eating_type_1": {
-		"name": "Circlet of Spell-Eating (Type I)",
+	"circlet_of_spell_eating_type": {
+		"name": "Circlet of Spell-Eating",
 		"sources": [ "Black Markets" ],
 		"description": [
 			"## Circlet of Spell-Eating",
@@ -1696,20 +1696,24 @@
 			"**Requirements** {feat/Craft Wondrous Item}, {spell/bestow curse}, {spell/imbue with spell ability}; **Cost** 750 gp (Type I), 3,000 gp (Type II), 6,750 gp (Type III), 12,000 gp (Type IV)"
 		]
 	},
+	"circlet_of_spell_eating_type_1": {
+		"name": "Circlet of Spell-Eating (Type I)",
+		"copyof": "circlet_of_spell_eating_type"
+	},
 	"circlet_of_spell_eating_type_i": { "redirect": "circlet_of_spell_eating_type_1" },
 	"circlet_of_spell_eating_type_2": {
 		"name": "Circlet of Spell-Eating (Type II)",
-		"copyof": "circlet_of_spell_eating_type_1"
+		"copyof": "circlet_of_spell_eating_type"
 	},
 	"circlet_of_spell_eating_type_ii": { "redirect": "circlet_of_spell_eating_type_2" },
 	"circlet_of_spell_eating_type_3": {
 		"name": "Circlet of Spell-Eating (Type III)",
-		"copyof": "circlet_of_spell_eating_type_1"
+		"copyof": "circlet_of_spell_eating_type"
 	},
 	"circlet_of_spell_eating_type_iii": { "redirect": "circlet_of_spell_eating_type_3" },
 	"circlet_of_spell_eating_type_4": {
 		"name": "Circlet of Spell-Eating (Type IV)",
-		"copyof": "circlet_of_spell_eating_type_1"
+		"copyof": "circlet_of_spell_eating_type"
 	},
 	"circlet_of_spell_eating_type_iv": { "redirect": "circlet_of_spell_eating_type_4" },
 	"false_face": {
@@ -4751,8 +4755,8 @@
 			"**Requirements** {feat/Craft Wondrous Item}, {spell/doom}, {spell/shrink item}; **Cost** 1,800 gp"
 		]
 	},
-	"headband_of_inspired_wisdom_2": {
-		"name": "Headband of Inspired Wisdom (+2)",
+	"headband_of_inspired_wisdom": {
+		"name": "Headband of Inspired Wisdom",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -4771,20 +4775,20 @@
 			"**Requirements** {feat/Craft Wondrous Item}, {spell/owl's wisdom}; **Cost** 2,000 gp (+2), 8,000 gp (+4), 18,000 gp (+6)"
 		]
 	},
-	"headband_of_inspired_wisdom": {
-		"name": "Headband of Inspired Wisdom",
-		"copyof": "headband_of_inspired_wisdom_2"
+	"headband_of_inspired_wisdom_2": {
+		"name": "Headband of Inspired Wisdom (+2)",
+		"copyof": "headband_of_inspired_wisdom"
 	},
 	"headband_of_inspired_wisdom_4": {
 		"name": "Headband of Inspired Wisdom (+4)",
-		"copyof": "headband_of_inspired_wisdom_2"
+		"copyof": "headband_of_inspired_wisdom"
 	},
 	"headband_of_inspired_wisdom_6": {
 		"name": "Headband of Inspired Wisdom (+6)",
-		"copyof": "headband_of_inspired_wisdom_2"
+		"copyof": "headband_of_inspired_wisdom"
 	},
-	"headband_of_vast_intelligence_2": {
-		"name": "Headband of Vast Intelligence (+2)",
+	"headband_of_vast_intelligence": {
+		"name": "Headband of Vast Intelligence",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -4803,20 +4807,20 @@
 			"**Requirements** {feat/Craft Wondrous Item}, {spell/fox's cunning}; **Cost** 2,000 gp (+2), 8,000 gp (+4), 18,000 gp (+6)"
 		]
 	},
-	"headband_of_vast_intelligence": {
-		"name": "Headband of Vast Intelligence",
-		"copyof": "headband_of_vast_intelligence_2"
+	"headband_of_vast_intelligence_2": {
+		"name": "Headband of Vast Intelligence (+2)",
+		"copyof": "headband_of_vast_intelligence"
 	},
 	"headband_of_vast_intelligence_4": {
 		"name": "Headband of Vast Intelligence (+4)",
-		"copyof": "headband_of_vast_intelligence_2"
+		"copyof": "headband_of_vast_intelligence"
 	},
 	"headband_of_vast_intelligence_6": {
 		"name": "Headband of Vast Intelligence (+6)",
-		"copyof": "headband_of_vast_intelligence_2"
+		"copyof": "headband_of_vast_intelligence"
 	},
-	"headband_of_alluring_charisma_2": {
-		"name": "Headband of Alluring Charisma (+2)",
+	"headband_of_alluring_charisma": {
+		"name": "Headband of Alluring Charisma",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -4835,16 +4839,16 @@
 			"**Requirements** {feat/Craft Wondrous Item}, {spell/eagle's splendor}; **Cost** 2,000 gp (+2), 8,000 gp (+4), 18,000 gp (+6)"
 		]
 	},
-	"headband_of_alluring_charisma": {
-		"name": "Headband of Alluring Charisma",
-		"copyof": "headband_of_alluring_charisma_2"
+	"headband_of_alluring_charisma_2": {
+		"name": "Headband of Alluring Charisma (+2)",
+		"copyof": "headband_of_alluring_charisma"
 	},
 	"headband_of_alluring_charisma_4": {
 		"name": "Headband of Alluring Charisma (+4)",
-		"copyof": "headband_of_alluring_charisma_2"
+		"copyof": "headband_of_alluring_charisma"
 	},
 	"headband_of_alluring_charisma_6": {
 		"name": "Headband of Alluring Charisma (+6)",
-		"copyof": "headband_of_alluring_charisma_2"
+		"copyof": "headband_of_alluring_charisma"
 	}
 }

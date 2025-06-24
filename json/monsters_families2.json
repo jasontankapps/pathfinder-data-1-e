@@ -774,6 +774,7 @@
 			"- {monster/Flesh Golem>_mythic}"
 		]
 	},
+	"shield_guardian": { "redirect": "golem" },
 	"great_old_one": {
 		"name": "Great Old One",
 		"sources": [ "Bestiary 4" ],
