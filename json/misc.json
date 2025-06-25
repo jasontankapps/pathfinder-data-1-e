@@ -791,7 +791,36 @@
 		"description": [
 			"{SOURCE PRPG Core Rulebook/108}  ",
 			"You can hold your breath for a number of rounds equal to twice your Constitution score, but only if you do nothing other than take move actions or free actions. If you take a standard action or a full-round action (such as making an attack), the remainder of the duration for which you can hold your breath is reduced by 1 round. (Effectively, a character in combat can hold his breath only half as long as normal.) After that period of time, you must make a DC 10 Constitution check every round to continue holding your breath. Each round, the DC for that check increases by 1. If you fail the Constitution check, you begin to {rule/suffocate}."
-		]
+		],
+		"searchgroup": "rule",
+		"type": "Rule",
+		"topLink": [ "Swim", "skill/swim" ]
 	},
-	"hold_its_breath": { "redirect": "hold_your_breath" }
+	"hold_its_breath": { "redirect": "hold_your_breath" },
+	"spell_completion": {
+		"name": "Spell Completion Items",
+		"sources": [],
+		"description": [
+			"## Spell Completion",
+			"",
+			"{SOURCE PRPG Core Rulebook/458}  ",
+			"This is the activation method for {rule/scrolls}. A scroll is a spell that is mostly finished. The preparation is done for the caster, so no preparation time is needed beforehand as with normal spellcasting. All that's left to do is perform the finishing parts of the spellcasting (the final gestures, words, and so on). To use a spell completion item safely, a character must be of high enough level in the right class to cast the spell already. If he can't already cast the spell, there's a chance he'll make a mistake. Activating a spell completion item is a standard action (or the spell's casting time, whichever is longer) and provokes attacks of opportunity exactly as casting a spell does."
+		],
+		"searchgroup": "rule",
+		"type": "Rule",
+		"topLink": [ "Using Magic Items", "rule/using_items" ]
+	},
+	"spell_trigger": {
+		"name": "Spell Trigger Items",
+		"sources": [],
+		"description": [
+			"## Spell Trigger",
+			"",
+			"{SOURCE PRPG Core Rulebook/458}  ",
+			"Spell trigger activation is similar to {misc/spell completion}, but it's even simpler. No gestures or spell finishing is needed, just a special knowledge of spellcasting that an appropriate character would know, and a single word that must be spoken. Spell trigger items can be used by anyone whose class can cast the corresponding spell. This is the case even for a character who can't actually cast spells, such as a 3rd-level paladin. The user must still determine what spell is stored in the item before she can activate it. Activating a spell trigger item is a standard action and does not provoke attacks of opportunity."
+		],
+		"searchgroup": "rule",
+		"type": "Rule",
+		"topLink": [ "Using Magic Items", "rule/using_items" ]
+	}
 }

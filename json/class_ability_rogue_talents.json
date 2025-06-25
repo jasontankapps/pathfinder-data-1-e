@@ -553,7 +553,7 @@
 		"compilationSources": [ [ "Magic Tactics Toolbox", 7 ] ],
 		"category": "Use Magic Device Talents",
 		"description": [
-			"Street thieves in Absalom expect wares to be securely locked, and sometimes it takes high-quality tools and magic training to ensure there's a meal at the end of the day. A rogue with this ability can use spell-trigger and spell-completion items as if the following spells were on a spell list to which he has access: {spell/detect secret doors}, {spell/detect snares and pits}, {spell/knock}, {spell/locate object}, and {spell/obscure object}. If the spell-trigger device allows a wielder to apply his own caster level (such as with a staff), the rogue may use his class level as his caster level. The rogue may also use *knock* as a supernatural ability once per day, using his rogue level as his caster level."
+			"Street thieves in Absalom expect wares to be securely locked, and sometimes it takes high-quality tools and magic training to ensure there's a meal at the end of the day. A rogue with this ability can use spell trigger and spell completion items as if the following spells were on a spell list to which he has access: {spell/detect secret doors}, {spell/detect snares and pits}, {spell/knock}, {spell/locate object}, and {spell/obscure object}. If the {misc/spell-trigger} device allows a wielder to apply his own caster level (such as with a staff), the rogue may use his class level as his caster level. The rogue may also use *knock* as a supernatural ability once per day, using his rogue level as his caster level."
 		]
 	},
 	"spell_storing": {
@@ -571,7 +571,7 @@
 		"compilationSources": [ [ "Magic Tactics Toolbox", 7 ] ],
 		"category": "Use Magic Device Talents",
 		"description": [
-			"Mercenaries in the employ of the {rule/Aspis Consortium} often use *wands of invisibility* to attack protected targets, then blend into the crowd to escape or disguise the source of the next attack. A rogue with this ability is practiced at attacking from magical concealment. He can use spell-trigger and spell completion items as if the following spells were on a spell list to which he has access: {spell/greater invisibility}, {spell/invisibility}, and {spell/vanish}.",
+			"Mercenaries in the employ of the {rule/Aspis Consortium} often use *wands of invisibility* to attack protected targets, then blend into the crowd to escape or disguise the source of the next attack. A rogue with this ability is practiced at attacking from magical concealment. He can use spell trigger and spell completion items as if the following spells were on a spell list to which he has access: {spell/greater invisibility}, {spell/invisibility}, and {spell/vanish}.",
 			"",
 			"Additionally, if the rogue becomes visible as a result of a weapon or spell attack, he can sheathe his weapon as a free action and instantly adopt a neutral posture. With a successful Bluff or Disguise check (opposed by witnesses' Sense Motive or Perception checks, whichever is higher), there is no obvious sign that the rogue is the source of the attack (though a lack of any other reasonable candidate can still lead observers to draw the correct conclusion)."
 		]

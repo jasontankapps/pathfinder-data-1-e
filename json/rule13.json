@@ -1910,6 +1910,7 @@
 			"city_lights"
 		]
 	},
+	"siege_weapon": { "redirect": "siege_engines" },
 	"city_streets": {
 		"name": "City Streets",
 		"subtitle": "Urban Adventures",

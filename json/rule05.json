@@ -1379,7 +1379,7 @@
 		"description": [
 			"{SOURCE PRPG Core Rulebook/190}",
 			"",
-			"When your character's current hit points drop to a negative amount equal to his Constitution score or lower, or if he succumbs to [massive damage](rule/loss_of_hit_points), he's dead. A character can also die from taking {rule/ability damage>_drain} or suffering an ability drain that reduces his Constitution score to 0.",
+			"When your character's current hit points drop to a negative amount equal to his Constitution score or lower, or if he succumbs to [massive damage](rule/loss_of_hit_points), he's dead. A character can also die from taking {rule/ability damage} or suffering an ability drain that reduces his Constitution score to 0.",
 			"",
 			"Certain types of powerful magic, such as {spell/raise dead} and {spell/resurrection}, can restore life to a dead character."
 		],
@@ -1451,7 +1451,7 @@
 			"",
 			"@HL[Healing Limits:] You can never recover more hit points than you lost. Magical healing won't raise your current hit points higher than your full normal hit point total.",
 			"",
-			"@HL[Healing Ability Damage:] Temporary {rule/ability damage>_drain} returns at the rate of 1 point per night of rest (8 hours) for each affected ability score. Complete bed rest restores 2 points per day (24 hours) for each affected ability score."
+			"@HL[Healing Ability Damage:] Temporary {rule/ability damage} returns at the rate of 1 point per night of rest (8 hours) for each affected ability score. Complete bed rest restores 2 points per day (24 hours) for each affected ability score."
 		],
 		"parent_topics": [
 			"combat",
@@ -3442,6 +3442,10 @@
 			"spell_resistance_2"
 		]
 	},
+	"drain": { "redirect": "ability_damage_drain" },
+	"ability_drain": { "redirect": "ability_damage_drain" },
+	"ability_damage": { "redirect": "ability_damage_drain" },
+	"ab_damage": { "redirect": "ability_damage_drain" },
 	"afflictions": {
 		"name": "Afflictions",
 		"sources": [ "PRPG Core Rulebook" ],
@@ -3466,7 +3470,7 @@
 			"",
 			"Afflictions without a frequency occur only once, immediately upon contraction (or after the onset time if one is listed).",
 			"",
-			"@HL[Effect:] This is the effect that the character suffers each time if he fails his saving throw against the affliction. Most afflictions cause {rule/ability damage>_drain} or hit point damage. These effects are cumulative, but they can be cured normally. Other afflictions cause the creature to take penalties or other effects. These effects are sometimes cumulative, with the rest only affecting the creature if it failed its most recent save. Some afflictions have different effects after the first save is failed. These afflictions have an initial effect, which occurs when the first save is failed, and a secondary effect, when additional saves are failed, as noted in the text. Hit point and ability score damage caused by an affliction cannot be healed naturally while the affliction persists.",
+			"@HL[Effect:] This is the effect that the character suffers each time if he fails his saving throw against the affliction. Most afflictions cause {rule/ability damage} or hit point damage. These effects are cumulative, but they can be cured normally. Other afflictions cause the creature to take penalties or other effects. These effects are sometimes cumulative, with the rest only affecting the creature if it failed its most recent save. Some afflictions have different effects after the first save is failed. These afflictions have an initial effect, which occurs when the first save is failed, and a secondary effect, when additional saves are failed, as noted in the text. Hit point and ability score damage caused by an affliction cannot be healed naturally while the affliction persists.",
 			"",
 			"@HL[Cure:] This tells you how the affliction is cured. Commonly, this is a number of saving throws that must be made consecutively. Even if the affliction has a limited frequency, it might be cured prematurely if enough saving throws are made. Hit point damage and ability score damage is not removed when an affliction is cured. Such damage must be healed normally. Afflictions without a cure entry can only be cured through powerful spells, such as {spell/neutralize poison} and {spell/remove curse}. No matter how many saving throws are made, these afflictions continue to affect the target.",
 			"",

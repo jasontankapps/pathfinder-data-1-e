@@ -151,7 +151,7 @@
 			"{SOURCE Cohorts and Companions/23}  ",
 			"The divine guardian devotes herself to the protection and guardianship of one creature at a time, be that her liege lord, an allied cleric, or an innocent facing overwhelming danger at the hands of evil.",
 			"",
-			"**Martial Focus:** The divine guardian devotes herself to the concerns of the material world, eschewing some divine studies. She does not gain access to divine spellcasting and cannot use spell-completion magic items.",
+			"**Martial Focus:** The divine guardian devotes herself to the concerns of the material world, eschewing some divine studies. She does not gain access to divine spellcasting and cannot use {misc/spell-completion} magic items.",
 			"",
 			"**Divine Troth (Sp):** Once per day the divine guardian pledges her protection to a willing creature for the day. This is done at the same time she prepares her spells. When the paladin first selects a creature for divine troth, that creature must be present and agree to receive the paladin's protection, but if the paladin already has a creature selected for divine troth, she can maintain that selection each day without her charge being present. Once per day, the divine guardian can cast {spell/locate creature} to find the current target of her divine troth. This ability replaces detect evil.",
 			"",

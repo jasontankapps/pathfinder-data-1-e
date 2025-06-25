@@ -1935,7 +1935,7 @@
 			"",
 			"When your opponent is unable to adequately defend against them, your precise unarmed strikes break bone and tear tissue.  ",
 			"**Prerequisites:** Dex 13, {feat/Improved Grapple}, {feat/Improved Unarmed Strike}, {feat/Jawbreaker}, {feat/Stunning Fist}, Heal 9 ranks.  ",
-			"**Benefit:** When you make a successful Stunning Fist attempt against an opponent that is grappled, helpless, or stunned, you can forgo any other Stunning Fist effect to deal 1d6 {rule/ability<Strength or Dexterity| damage>_drain} to that opponent.",
+			"**Benefit:** When you make a successful Stunning Fist attempt against an opponent that is grappled, helpless, or stunned, you can forgo any other Stunning Fist effect to deal 1d6 {rule/ab<Strength or Dexterity| damage} to that opponent.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/114}",

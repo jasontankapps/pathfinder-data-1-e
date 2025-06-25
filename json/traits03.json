@@ -3056,7 +3056,7 @@
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Dalenydra}",
 			"",
-			"You have experienced firsthand the horrors of war, which have left you physically or mentally scarred. Now you have committed yourself to the teachings of the Blessed Attendant, seeking to heal those wounded in combat and to prevent battles from occurring whenever you can. You gain a +1 trait bonus on Diplomacy checks outside of combat. In addition, when you heal creatures other than yourself using class abilities, feats, spells, and spell-completion or spell-trigger magic items, you restore 1 additional hit point."
+			"You have experienced firsthand the horrors of war, which have left you physically or mentally scarred. Now you have committed yourself to the teachings of the Blessed Attendant, seeking to heal those wounded in combat and to prevent battles from occurring whenever you can. You gain a +1 trait bonus on Diplomacy checks outside of combat. In addition, when you heal creatures other than yourself using class abilities, feats, spells, and spell completion or spell trigger magic items, you restore 1 additional hit point."
 		],
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
@@ -3718,7 +3718,7 @@
 			"**Type:** Religion  ",
 			"**Religion:** Great Old Ones",
 			"",
-			"Your existence is so meaningless to your chosen patron that it cares nothing for how you wield its power. You may prepare and cast spells whose alignment is in opposition to your patron's, but doing so causes you to take 1 point of Wisdom damage per spell level when the spell is cast. This does not permit you to use spell trigger or completion items of opposing alignments."
+			"Your existence is so meaningless to your chosen patron that it cares nothing for how you wield its power. You may prepare and cast spells whose alignment is in opposition to your patron's, but doing so causes you to take 1 point of Wisdom damage per spell level when the spell is cast. This does not permit you to use {misc/spell trigger} or {misc/spell completion} items of opposing alignments."
 		],
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
