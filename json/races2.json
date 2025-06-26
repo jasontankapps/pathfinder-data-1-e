@@ -2576,55 +2576,5 @@
 			"[^E]: {source/Blood of the Beast/ pg. 20}",
 			"[^F]: {source/Wilderness Origins/ pg. 8}"
 		]
-	},
-	"reptoid": {
-		"name": "Reptoid",
-		"sources": [ "Bestiary 5" ],
-		"description": [
-			"## Reptoid",
-			"",
-			"{SOURCE Bestiary 5/202}  ",
-			"Reptoids are bipedal reptiles from another planet, or perhaps even another plane - they refuse to reveal their origins to humanoids, even under duress. Disguised as members of others races, the reptoids seek positions of power in order to secretly prepare for an invasion from their homeworld. Even those who are aware of reptoids in their midst can never be truly sure who is real and who is an alien, as these creatures are often adept at enchantment and psychic magic, which they use to cover the tracks of their deceptions and to ensure the complacency or even collusion of their soon-to-be thralls.",
-			"",
-			"### Reptoid Racial Traits",
-			"",
-			">**+2 Strength, +2 Charisma, -2 Dexterity:** Reptoids are both manipulative and strong, but they're deliberate in their movements.  ",
-			">**Medium:** Reptoids are Medium creatures and have no bonuses or penalties due to their size.  ",
-			">**Humanoid:** Reptoids are humanoids with the reptilian and shapechanges subtypes.  ",
-			">**Normal Speed:** Reptoids have a base speed of 30 feet.  ",
-			">**Low-Light Vision (Ex):** Reptoids can see twice as far as humans in dim light.  ",
-			">**Scales:** When in its natural form, a reptoid has a +1 natural armor bonus.  ",
-			">**Cold-Blooded (Ex):** Reptoids receive a +2 racial saving throw bonus against mind-affecting effects and poison.  ",
-			">**Natural Weapons (Ex):** When in its natural form, a reptoid has a bite attack and two claw attacks that deal 1d3 points of damage each.  ",
-			">**Change Shape (Su):** A reptoid can assume the appearance of a specific single Medium humanoid. The reptoid always takes this specific form when it uses this ability. The reptoid gains a +10 racial bonus on Disguise checks to appear as that type of humanoid. This ability otherwise functions as {spell/alter self}, except the reptoid does not adjust its ability scores. A reptoid can select a new humanoid form by spending 1 week preparing itself for the change, but can then no longer assume its previous humanoid form.  ",
-			">**Mental Potency (Ex):** A reptoid's mental effects can affect more powerful creatures or a greater number of creatures than normal. Both the Hit Die limit and the total number of Hit Dice affected by each enchantment or illusion spell it casts increase by 1. For enchantment and illusion spells it casts that target a number of creatures greater than one, the number of creatures affected also increases by one (so a spell that targets one creature per level would be affected, but a spell that targets only one creature would not be). This ability stacks with the {class/mesmerist/'s} ability of the same name.  ",
-			">**Languages:** All reptoids begin play speaking Common and Reptoid. Reptoids with high Intelligence scores can choose any languages they want (except for secret languages, such as Druidic)."
-		]
-	},
-	"rougarou": {
-		"name": "Rougarou",
-		"sources": [ "Bestiary 6" ],
-		"description": [
-			"## Rougarou",
-			"",
-			"{SOURCE Bestiary 6/242}  ",
-			"Rougarous are wolf-headed humanoids who can transform into wolves. While this sometimes confuses others into mistaking a rougarou for a werewolf, these humanoids are not {family/lycanthrope/s}. In fact, most detest werewolves and hunt them mercilessly.",
-			"",
-			"The race isn't numerous or widespread, and rougarous tend to live in secluded communities. They are very protective of their families and friends, and the communities they form tend to be strict and lawful. In their homeland, rougarous are most plentiful in southern swamps and marshes, where it is believed they originated, but have since spread throughout the rest of the world.",
-			"",
-			"While most of rougarou society is upstanding and trustworthy, as with any group there are some violent and aggressive members. These evil, loner rougarous occasionally form into packs that raid the countryside and prey upon the just and kind. Thankfully, rougarous are generally civilized and loyal, and most are quick to hunt down and punish their feral kin for their foul deeds.",
-			"",
-			"Rougarous age like humans, but they tend to be slightly taller and heavier than typical humans.",
-			"",
-			"### Rougarou Racial Traits",
-			"",
-			">**+2 Str, +2 Wis, -2 Int:** Rougarous are strong and alert, but simplistic.  ",
-			">**Medium:** Rougarous are Medium creatures.  ",
-			">**Normal Speed:** Rougarous have a base speed of 30 feet.  ",
-			">**Senses:** Rougarous have low-light vision and the scent special ability.  ",
-			">**Change Shape (Su)** A rougarou can change shape once per day into a wolf as a standard action, as {spell/beast shape I}. A rougarou can revert to its true form as a swift action.  ",
-			">**Natural Weapon:** Rougarous have a bite attack that deals 1d4 points of damage. This is a secondary attack if a rougarou wields a manufactured weapon.  ",
-			">**Languages:** Rougarous speak Common and their own racial language of Rougarou. Rougarous with high Intelligence scores can choose from these bonus languages: Aklo, Elven, Gnoll, Gnome, Goblin, or Sylvan."
-		]
 	}
 }
