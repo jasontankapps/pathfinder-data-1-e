@@ -467,7 +467,7 @@
 			"{SOURCE Ultimate Magic/153}",
 			"",
 			"Your summoned minions are infused with the power of the moon.  ",
-			"**Prerequisites:** {feat/Spell Focus} (conjuration), able to cast {spell/summon nature's ally>_1}.  ",
+			"**Prerequisites:** {feat/Spell Focus} (conjuration), able to cast {spell/summon nature's ally}.  ",
 			"**Benefit:** Creatures you summon shed light as a {spell/light} spell. They are immune to confusion and sleep effects, and their natural weapons are treated as silver for the purposes of overcoming damage reduction."
 		]
 	},
@@ -1686,7 +1686,7 @@
 			"{SOURCE Inner Sea Gods/214;Faiths of Purity/24}",
 			"",
 			"Your summoned natural allies may walk the wild parts of the world unimpeded.  ",
-			"**Prerequisites:** {feat/Augment Summoning}, {feat/Spell Focus} (conjuration), ability to cast {spell/summon nature's ally>_1}, caster level 6th, worshiper of {faith/Erastil}.  ",
+			"**Prerequisites:** {feat/Augment Summoning}, {feat/Spell Focus} (conjuration), ability to cast {spell/summon nature's ally}, caster level 6th, worshiper of {faith/Erastil}.  ",
 			"**Benefit:** Creatures you summon with *summon nature's ally* can move through any sort of undergrowth (such as natural thorns, briars, and similar terrain) at their normal speeds without taking damage or suffering other impairment. Thorns, briars, and undergrowth areas that have been magically manipulated to impede motion, however, still affect summoned creatures."
 		]
 	},

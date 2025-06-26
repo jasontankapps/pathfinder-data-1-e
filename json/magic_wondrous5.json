@@ -221,22 +221,22 @@
 	},
 	"bag_of_concealment_type_1": {
 		"name": "Bag of Concealment (Type I)",
-		"copyof": "bag_of_concealment_type"
+		"copyof": "bag_of_concealment"
 	},
 	"bag_of_concealment_type_i": { "redirect": "bag_of_concealment_type_1" },
 	"bag_of_concealment_type_2": {
 		"name": "Bag of Concealment (Type II)",
-		"copyof": "bag_of_concealment_type"
+		"copyof": "bag_of_concealment"
 	},
 	"bag_of_concealment_type_ii": { "redirect": "bag_of_concealment_type_2" },
 	"bag_of_concealment_type_3": {
 		"name": "Bag of Concealment (Type III)",
-		"copyof": "bag_of_concealment_type"
+		"copyof": "bag_of_concealment"
 	},
 	"bag_of_concealment_type_iii": { "redirect": "bag_of_concealment_type_3" },
 	"bag_of_concealment_type_4": {
 		"name": "Bag of Concealment (Type IV)",
-		"copyof": "bag_of_concealment_type"
+		"copyof": "bag_of_concealment"
 	},
 	"bag_of_concealment_type_iv": { "redirect": "bag_of_concealment_type_4" },
 	"vial_of_reckless_courage": {

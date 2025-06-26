@@ -3306,7 +3306,7 @@
 			"**Requirements** {feat/Craft Wondrous Item}, {feat/Craft Magic Arms and Armor}, {spell/protection from arrows}, {spell/true strike}; **Cost** 6,950 gp"
 		]
 	},
-	"vambraces_of_the_genie_efreeti": {
+	"vambraces_of_the_genie": {
 		"name": "Vambraces of the Genie (Efreeti)",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
@@ -3331,6 +3331,7 @@
 			"**Requirements** {feat/Craft Wondrous Item}, {spell/endure elements}, and the three spells the wearer can use; **Cost** 7,200 gp (Efreeti), 9,450 gp (Djinni), 9,450 gp (Marid), 9,450 gp (Shaitan)"
 		]
 	},
+	"vambraces_of_the_genie_efreeti": { "redirect": "vambraces_of_the_genie" },
 	"bracelet_of_bargaining": {
 		"name": "Bracelet of Bargaining",
 		"sources": [ "Ultimate Equipment" ],
@@ -3547,15 +3548,15 @@
 	},
 	"vambraces_of_the_genie_djinni": {
 		"name": "Vambraces of the Genie (Djinni)",
-		"copyof": "vambraces_of_the_genie_efreeti"
+		"copyof": "vambraces_of_the_genie"
 	},
 	"vambraces_of_the_genie_marid": {
 		"name": "Vambraces of the Genie (Marid)",
-		"copyof": "vambraces_of_the_genie_efreeti"
+		"copyof": "vambraces_of_the_genie"
 	},
 	"vambraces_of_the_genie_shaitan": {
 		"name": "Vambraces of the Genie (Shaitan)",
-		"copyof": "vambraces_of_the_genie_efreeti"
+		"copyof": "vambraces_of_the_genie"
 	},
 	"bracelet_of_friends": {
 		"name": "Bracelet of Friends",

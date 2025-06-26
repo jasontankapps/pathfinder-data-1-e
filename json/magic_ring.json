@@ -2632,7 +2632,7 @@
 			"**Requirements** {feat/Forge Ring}, {spell/aid}, {spell/resistance}, {spell/vampiric touch}; **Cost** 10,000 gp"
 		]
 	},
-	"ring_of_wizardry_type": {
+	"ring_of_wizardry": {
 		"name": "Ring of Wizardry",
 		"sources": [
 			"Ultimate Equipment",
@@ -2654,7 +2654,7 @@
 	},
 	"ring_of_wizardry_type_1": {
 		"name": "Ring of Wizardry (type I)",
-		"copyof": "ring_of_wizardry_type"
+		"copyof": "ring_of_wizardry"
 	},
 	"ring_of_mysticism": {
 		"name": "Ring of Mysticism",

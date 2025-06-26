@@ -388,7 +388,7 @@
 			"## Dual Initiative (Ex) [Mythic]",
 			"",
 			"{SOURCE Mythic Adventures/227}  ",
-			"The creature gets two turns each round, one on its initiative count and another on its initiative count - 20. For example, if the monster's initiative is 23, on its first turn it could make a full attack (and take a 5-foot step) at initiative 23, and on its second turn at initiative 3 it could take a move action and cast a spell. This allows the monster to perform two actions per round that normally take an entire round, such as using a {spell/summon monster>_1} spell. For the purposes of spells and effects that have a duration of a round or longer or trigger at the beginning of the creature's round or the start of its turn (such as saving throws against ongoing effects or taking bleed damage), only the monster's first turn each round counts toward such durations.",
+			"The creature gets two turns each round, one on its initiative count and another on its initiative count - 20. For example, if the monster's initiative is 23, on its first turn it could make a full attack (and take a 5-foot step) at initiative 23, and on its second turn at initiative 3 it could take a move action and cast a spell. This allows the monster to perform two actions per round that normally take an entire round, such as using a {spell/summon monster} spell. For the purposes of spells and effects that have a duration of a round or longer or trigger at the beginning of the creature's round or the start of its turn (such as saving throws against ongoing effects or taking bleed damage), only the monster's first turn each round counts toward such durations.",
 			"",
 			"**Format:** 21  ",
 			"**Location:** Init."
@@ -1797,7 +1797,7 @@
 			"## Summon (Sp)",
 			"",
 			"{SOURCE Bestiary 5/300}  ",
-			"A creature with the summon ability can summon other specific creatures of its kind much as though casting a {spell/summon monster>_1} spell, but it usually has only a limited chance of success (as specified in the creature's entry). Roll d%; on a failure, no creature answers the summons. Summoned creatures automatically return to wherever they came from after 1 hour. A creature summoned in this way cannot use any spells or spell-like abilities that require material components costing more than 1 gp unless those components are supplied, nor can it use its own summon ability for 1 hour. An appropriate spell level is given for each summoning ability for the purposes of caster level checks, {rule/concentration} checks, and Will saves. No experience points are awarded for defeating summoned monsters.",
+			"A creature with the summon ability can summon other specific creatures of its kind much as though casting a {spell/summon monster} spell, but it usually has only a limited chance of success (as specified in the creature's entry). Roll d%; on a failure, no creature answers the summons. Summoned creatures automatically return to wherever they came from after 1 hour. A creature summoned in this way cannot use any spells or spell-like abilities that require material components costing more than 1 gp unless those components are supplied, nor can it use its own summon ability for 1 hour. An appropriate spell level is given for each summoning ability for the purposes of caster level checks, {rule/concentration} checks, and Will saves. No experience points are awarded for defeating summoned monsters.",
 			"",
 			"**Format:** 1/day-summon (level 4, 1 {monster/hezrou} 35%)  ",
 			"**Location:** Spell-Like Abilities."

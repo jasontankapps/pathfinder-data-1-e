@@ -131,7 +131,7 @@
 		"nameSuffix": "(Sp; any order)",
 		"compilationSources": [ [ "Path of the Hellknight", 59 ] ],
 		"description": [
-			"The Hellknight can summon a creature or creatures to help her, as if using a {spell/summon monster>_1} spell. At 3rd level, she can summon 1d3 {monster/hell hound/s}. At 6th level, she can summon 1d3 {template/advanced} hell hounds or one {monster/axiomite}. And at 9th level, she can summon 1d4+1 hell hounds, 1d3 axiomites, or one {monster/zelekhut/ inevitable}."
+			"The Hellknight can summon a creature or creatures to help her, as if using a {spell/summon monster} spell. At 3rd level, she can summon 1d3 {monster/hell hound/s}. At 6th level, she can summon 1d3 {template/advanced} hell hounds or one {monster/axiomite}. And at 9th level, she can summon 1d4+1 hell hounds, 1d3 axiomites, or one {monster/zelekhut/ inevitable}."
 		]
 	},
 	"trace": {

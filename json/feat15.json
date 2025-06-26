@@ -365,7 +365,7 @@
 			"",
 			"Instead of casting a cure spell, you can instead cast summon nature's ally.  ",
 			"**Prerequisites:** Knowledge (nature) 5 ranks, ability to spontaneously cast {main/cure or inflict |spell/s>_groupings}, {domain/Animal} or {domain/Plant} domain.  ",
-			"**Benefit:** You can \"lose\" a prepared spell in order to cast any {spell/summon nature's ally>_1} spell of the same level or lower, instead of casting a *cure* spell or an *inflict* spell as you normally would. For the purpose of this feat only, the *summon nature's ally* spells of the appropriate spell levels count as being on your spell list at {main/the same |spell[ level a]s [for a ]druid}."
+			"**Benefit:** You can \"lose\" a prepared spell in order to cast any {spell/summon nature's ally} spell of the same level or lower, instead of casting a *cure* spell or an *inflict* spell as you normally would. For the purpose of this feat only, the *summon nature's ally* spells of the appropriate spell levels count as being on your spell list at {main/the same |spell[ level a]s [for a ]druid}."
 		]
 	},
 	"sprightly_armor": {
@@ -777,7 +777,7 @@
 			"{SOURCE Ultimate Magic/157}",
 			"",
 			"Your summoned minions slink along under the shadows of the stars.  ",
-			"**Prerequisites:** {feat/Spell Focus} (conjuration), able to cast {spell/summon nature's ally>_1}.  ",
+			"**Prerequisites:** {feat/Spell Focus} (conjuration), able to cast {spell/summon nature's ally}.  ",
 			"**Benefit:** Creatures you summon gain the {feat/Blind-Fight} feat, a +5 bonus to Perception and Stealth checks in dim light or darkness, and their natural weapons are treated as cold iron for overcoming damage reduction."
 		]
 	},
@@ -2202,7 +2202,7 @@
 			"",
 			"You can summon the aid of creatures driven their very nature to destroy goodness.  ",
 			"**Prerequisites:** Evil alignment.  ",
-			"**Benefit:** When casting {spell/summon monster>_1}, you also have access to the list of evil monsters on this page. When summoning a creature from this list, your debased nature allows you to cast the spell as a standard action. The summoned creature appears as normal for the spell but can't act until next your next turn. It is not {rule/flat-footed}, however, and it can make attacks of opportunity as normal. These effects don't apply for creatures from the standard list that aren't also on this list.  ",
+			"**Benefit:** When casting {spell/summon monster}, you also have access to the list of evil monsters on this page. When summoning a creature from this list, your debased nature allows you to cast the spell as a standard action. The summoned creature appears as normal for the spell but can't act until next your next turn. It is not {rule/flat-footed}, however, and it can make attacks of opportunity as normal. These effects don't apply for creatures from the standard list that aren't also on this list.  ",
 			"**Special:** If you possess the {feat/Sacred Summons} feat, you can apply it to a creature on this list whose alignment (as opposed to its subtype or subtypes) matches your aura.",
 			"",
 			"- 1st Level",
@@ -2288,7 +2288,7 @@
 			"",
 			"You can summon the aid of creatures driven by their very nature to destroy evil.  ",
 			"**Prerequisites:** Good alignment.  ",
-			"**Benefit:** When casting {spell/summon monster>_1}, you also gain access to the list of good monsters below. Your righteous determination grants these summoned creatures the {feat/Diehard} feat. You may still summon creatures from the standard list, but without the Diehard feat.",
+			"**Benefit:** When casting {spell/summon monster}, you also gain access to the list of good monsters below. Your righteous determination grants these summoned creatures the {feat/Diehard} feat. You may still summon creatures from the standard list, but without the Diehard feat.",
 			"- 1st Level",
 			"    - {template/Celestial} {monster/dog} (NG)",
 			"    - Celestial {monster/dolphin} (NG)",
@@ -2377,7 +2377,7 @@
 			"",
 			"You can summon creatures that embody the forces of balance.  ",
 			"**Prerequisites:** Chaotic neutral, lawful neutral, or neutral alignment.  ",
-			"**Benefit:** When casting a {spell/summon monster>_1} spell, you gain access to the list of neutral creatures on this page. You may also summon creatures from the standard *summon monster* list and apply the {template/counterpoised/ creature simple template} to applicable creatures instead of the {template/celestial} or {template/fiendish} template. Creatures you summon from the list on this page and creatures you summon with the counterpoised template gain a +2 resistance bonus on Will saves.",
+			"**Benefit:** When casting a {spell/summon monster} spell, you gain access to the list of neutral creatures on this page. You may also summon creatures from the standard *summon monster* list and apply the {template/counterpoised/ creature simple template} to applicable creatures instead of the {template/celestial} or {template/fiendish} template. Creatures you summon from the list on this page and creatures you summon with the counterpoised template gain a +2 resistance bonus on Will saves.",
 			"",
 			"- 1st Level",
 			"    - {monster/Sprite} (CN)",

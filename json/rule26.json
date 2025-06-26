@@ -394,7 +394,7 @@
 			"| 50-56 | Spell affects caster and target |",
 			"| 57-63 | Spell affects one additional eligible target (chosen randomly) |",
 			"| 64-70 | Spell is affected by all of the following metamagic feats that could apply, with no increase to the spell's effective level: {feat/Enlarge Spell}, {feat/Extend Spell}, {feat/Maximize Spell}, {feat/Widen Spell} |",
-			"| 71-77 | Summon an uncontrolled creature as per a {spell/summon nature's ally>_1} of same spell level |",
+			"| 71-77 | Summon an uncontrolled creature as per a {spell/summon nature's ally} of same spell level |",
 			"| 78-100 | Spell effect resolves normally |",
 			"",
 			"### Shaping",

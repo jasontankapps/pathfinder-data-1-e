@@ -84,7 +84,7 @@
 			"",
 			"This alters the unchained summoner's class skills.",
 			"",
-			"**Nature's Call:** Instead of summoning creatures from the summon monster list, the fey caller's summoning spell-like ability summons creatures from the list for the {spell/summon nature's ally>_1} spell of the same level. It still follows the other rules and restrictions for the summoner's summon monster spell-like ability.",
+			"**Nature's Call:** Instead of summoning creatures from the summon monster list, the fey caller's summoning spell-like ability summons creatures from the list for the {spell/summon nature's ally} spell of the same level. It still follows the other rules and restrictions for the summoner's summon monster spell-like ability.",
 			"",
 			"This ability alters the summoner's summon monster spell-like ability.",
 			"",
@@ -180,7 +180,7 @@
 			"",
 			"This alters the summoner's eidolon.",
 			"",
-			"**Summon Nature's Ally (Sp):** A leshy caller can cast {spell/summon nature's ally>_1} as a spell-like ability a number of times per day equal to 3 + her Charisma modifier. At levels where a regular summoner would gain access to a new level of summon monster as a spell-like ability, the leshy caller instead gains the equivalent summon nature's ally spell; at 19th level, she can cast {spell/summon nature's ally IX} or {spell/gate}. When a leshy caller gains a summon nature's ally spell as a spell-like ability, she adds it to her class spell list (though she must still select it as a spell known if she wants to gain the ability to cast it as a normal spell). She adds {monster/leaf leshy/s}, {monster/gourd leshy/s}, {monster/fungus leshy/s}, {monster/seaweed leshy/s}, and {monster/lotus leshy/s} to her list of creatures for summon nature's ally I, II, III, IV, and V, respectively.",
+			"**Summon Nature's Ally (Sp):** A leshy caller can cast {spell/summon nature's ally} as a spell-like ability a number of times per day equal to 3 + her Charisma modifier. At levels where a regular summoner would gain access to a new level of summon monster as a spell-like ability, the leshy caller instead gains the equivalent summon nature's ally spell; at 19th level, she can cast {spell/summon nature's ally IX} or {spell/gate}. When a leshy caller gains a summon nature's ally spell as a spell-like ability, she adds it to her class spell list (though she must still select it as a spell known if she wants to gain the ability to cast it as a normal spell). She adds {monster/leaf leshy/s}, {monster/gourd leshy/s}, {monster/fungus leshy/s}, {monster/seaweed leshy/s}, and {monster/lotus leshy/s} to her list of creatures for summon nature's ally I, II, III, IV, and V, respectively.",
 			"",
 			"This alters summon monster."
 		]
@@ -228,7 +228,7 @@
 			"",
 			"This alters life link.",
 			"",
-			"**Weakened Summoning:** A soulbound summoner's eidolon is usually the result of unintended magic, trauma, or a singular pact, instead of rigorous arcane study. Soulbound summoners do not gain the ability to cast the {spell/summon monster>_1} or {spell/gate} spells as a spell-like ability.",
+			"**Weakened Summoning:** A soulbound summoner's eidolon is usually the result of unintended magic, trauma, or a singular pact, instead of rigorous arcane study. Soulbound summoners do not gain the ability to cast the {spell/summon monster} or {spell/gate} spells as a spell-like ability.",
 			"",
 			"**Soulbound Evolution:** A soulbound summoner's eidolon gains power from its unusually strong bond with its summoner. At 3rd level, and again at 5th, 7th, and 9th level, the eidolon adds 1 point to its evolution pool. At 11th level, and again at 15th, 17th, and 19th level, the eidolon adds 2 points to its evolution pool. At 7th level, the eidolon can select evolutions even if it does not meet the subtype requirements for that evolution.",
 			"",

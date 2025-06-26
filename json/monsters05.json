@@ -269,7 +269,7 @@
 			"*Constant*-{spell/true seeing}  ",
 			"*At will*-{spell/align weapon} (chaos only), {spell/animate dead}, {spell/cause fear} (DC 23), {spell/chaos hammer} (DC 26), {spell/death knell}, {spell/death ward}, {spell/dispel law}, {spell/magic circle against law}, {spell/protection from law}, {spell/slay living} (DC 27)  ",
 			"*3/day*-{spell/animate objects}, {spell/cloak of chaos} (DC 30), {spell/create greater undead}, {spell/create undead}, {spell/destruction} (DC 29), {spell/word of chaos} (DC 29)  ",
-			"*1/day*-{spell/summon monster>_1}",
+			"*1/day*-{spell/summon monster}",
 			"",
 			"::sh[Statistics]",
 			"",

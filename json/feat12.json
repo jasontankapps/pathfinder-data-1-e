@@ -1034,7 +1034,7 @@
 			"",
 			"You know how to preserve and reconstitute extraplanar monsters as well as normal animals.  ",
 			"**Prerequisites:** {arc-alchemist/Preservationist} alchemist archetype.  ",
-			"**Benefit:** For every {spell/summon nature's ally>_1} extract you know, you learn the equivalent {spell/summon monster>_1} spell as an extract. If you later learn other *summon nature's ally* extracts, you automatically learn the equivalent *summon monster* spell as an extract."
+			"**Benefit:** For every {spell/summon nature's ally} extract you know, you learn the equivalent {spell/summon monster} spell as an extract. If you later learn other *summon nature's ally* extracts, you automatically learn the equivalent *summon monster* spell as an extract."
 		]
 	},
 	"planar_sensitivity": {
@@ -1942,7 +1942,7 @@
 			"{SOURCE Horror Adventures/91}",
 			"",
 			"Your study of fiends grants you advantages when summoning or fighting them.  ",
-			"**Prerequisites:** Int 13, Knowledge (planes) 4 ranks, ability to cast a {spell/summon monster>_1} spell.  ",
+			"**Prerequisites:** Int 13, Knowledge (planes) 4 ranks, ability to cast a {spell/summon monster} spell.  ",
 			"**Benefit:** You gain a +5 bonus on Knowledge (planes) checks involving evil outsiders. Additionally, when you cast a *summon monster* spell to summon an evil outsider, treat your caster level as 2 levels higher for the purpose of determining the duration."
 		]
 	},
@@ -2539,7 +2539,7 @@
 			"{SOURCE Horror Adventures/91}",
 			"",
 			"You summon creatures whose very presence turns the stomach of your foes.  ",
-			"**Prerequisites:** {feat/Spell Focus} (conjuration); ability to cast {spell/summon monster>_1} or {spell/summon nature's ally>_1}.  ",
+			"**Prerequisites:** {feat/Spell Focus} (conjuration); ability to cast {spell/summon monster} or {spell/summon nature's ally}.  ",
 			"**Benefit:** When you cast a *summon monster* or *summon nature's ally* spell, you can choose to summon a single creature that exudes a putrid odor or befouls the water surrounding it, granting it the {umr/stench} universal monster ability. The duration of the {misc/sickened} condition created by this stench is a number of rounds equal to the spell's level. When performing a putrid summon, you summon a creature from the next lower list than the spell you are casting. For instance, if you cast {spell/summon monster IV}, you summon a creature from the {spell/summon monster III} list."
 		]
 	},

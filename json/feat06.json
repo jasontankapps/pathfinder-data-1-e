@@ -1048,7 +1048,7 @@
 			"{SOURCE Monster Summoner's Handbook/28}",
 			"",
 			"You can summon allies beyond the reach of most conjurers.  ",
-			"**Prerequisites:** Ability to cast a {spell/summon monster>_1} spell.  ",
+			"**Prerequisites:** Ability to cast a {spell/summon monster} spell.  ",
 			"**Benefit:** For each spell level 1-9, select two creatures from the table below. You then add these creatures to the summon monster table of the same level, allowing you to summon them with the appropriate summon monster spell. Once made, these choices can't be changed.  ",
 			"**Special:** You can take this feat multiple times. Each time you do, you can select two more monsters from the table below to add to the summon monster table of the same level.",
 			"",
@@ -2318,7 +2318,7 @@
 			"{SOURCE Ultimate Magic/150}",
 			"",
 			"You can summon monsters more often each day.  ",
-			"**Prerequisites:** Ability to cast {spell/summon monster>_1} as a spell-like ability, {class/summoner} 1st.  ",
+			"**Prerequisites:** Ability to cast {spell/summon monster} as a spell-like ability, {class/summoner} 1st.  ",
 			"**Benefit:** You gain 1 additional use of your summon monster spell-like ability per day.  ",
 			"**Special:** You can take this feat multiple times, but it can only be taken once for every five summoner levels you possess."
 		]

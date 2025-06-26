@@ -772,7 +772,7 @@
 			"| 14th | 8,000 gp | 50,000 gp |",
 			"| 18th | 32,000 gp | 200,000 gp |",
 			"",
-			"**Summon Fey Allies:** At 3rd level, the fey courtier gains {feat/Augment Summoning} as a bonus feat and can call upon natural allies who owe him favors. He adds {spell/summon nature's ally I} to his list of 1st-level bard spells known. Whenever he gains access to another spell level, he adds the next-higher {spell/summon nature's ally>_1} spell to his list of bard spells known. The fey courtier adds the following creatures to the summon nature's ally list: 1st-{monster/grimple/ (gremlin)}, {monster/mite}, {monster/sprite}; 2nd-{monster/atomie}, {monster/fuath/ (gremlin)}, {monster/nixie}; 3rd-{monster/leprechaun}, {monster/nuglub/ (gremlin)}, {monster/pooka}; 4th-{monster/kelpie}, {monster/korred}, {monster/twigjack}; 5th-{monster/lampad}, {monster/lurker in light}, {monster/swan maiden}; 6th-{monster/cold rider}, {monster/oceanid}, {monster/sangoi}.",
+			"**Summon Fey Allies:** At 3rd level, the fey courtier gains {feat/Augment Summoning} as a bonus feat and can call upon natural allies who owe him favors. He adds {spell/summon nature's ally I} to his list of 1st-level bard spells known. Whenever he gains access to another spell level, he adds the next-higher {spell/summon nature's ally} spell to his list of bard spells known. The fey courtier adds the following creatures to the summon nature's ally list: 1st-{monster/grimple/ (gremlin)}, {monster/mite}, {monster/sprite}; 2nd-{monster/atomie}, {monster/fuath/ (gremlin)}, {monster/nixie}; 3rd-{monster/leprechaun}, {monster/nuglub/ (gremlin)}, {monster/pooka}; 4th-{monster/kelpie}, {monster/korred}, {monster/twigjack}; 5th-{monster/lampad}, {monster/lurker in light}, {monster/swan maiden}; 6th-{monster/cold rider}, {monster/oceanid}, {monster/sangoi}.",
 			"",
 			"This replaces inspire competence."
 		]
@@ -866,7 +866,7 @@
 			"{SOURCE Legacy of the First World/11}  ",
 			"Most cultures tell stories of people stolen away by the fey, only to return years later, forever changed. The First World minstrel was changed in such a way by the fey, and his performances channel the mysterious powers of the First World.",
 			"",
-			"**Fey Magic:** A First World minstrel adds {spell/summon nature's ally>_1} spells to his spell list instead of the equivalent {spell/summon monster>_1} spells.",
+			"**Fey Magic:** A First World minstrel adds {spell/summon nature's ally} spells to his spell list instead of the equivalent {spell/summon monster} spells.",
 			"",
 			"This ability alters the First World minstrel's spell list.",
 			"",

@@ -788,8 +788,8 @@
 			"This spell functions as {spell/summon monster I}, except you can summon 1d3 Tiny or smaller animals, such as bats, lizards, monkeys, rats, ravens, toads, or weasels. The summoned animals must all be the same type of creature. As with animals summoned with summon monster I, you may apply one alignment-appropriate template to these animals."
 		]
 	},
-	"summon_monster_1": {
-		"name": "Summon Monster I",
+	"summon_monster": {
+		"name": "Summon Monster",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Monster Summoner's Handbook"
@@ -1024,73 +1024,53 @@
 			"This spell functions like summon monster I, except that you can summon one creature from the 9th-level list, 1d3 creatures of the same kind from the 8th-level list, or 1d4+1 creatures of the same kind from a lower-level list."
 		]
 	},
+	"summon_monster_1": {
+		"name": "Summon Monster I",
+		"copyof": "summon_monster"
+	},
 	"summon_monster_2": {
 		"name": "Summon Monster II",
-		"copyof": "summon_monster_1"
+		"copyof": "summon_monster"
 	},
 	"summon_monster_3": {
 		"name": "Summon Monster III",
-		"copyof": "summon_monster_1"
+		"copyof": "summon_monster"
 	},
 	"summon_monster_4": {
 		"name": "Summon Monster IV",
-		"copyof": "summon_monster_1"
+		"copyof": "summon_monster"
 	},
 	"summon_monster_5": {
 		"name": "Summon Monster V",
-		"copyof": "summon_monster_1"
+		"copyof": "summon_monster"
 	},
 	"summon_monster_6": {
 		"name": "Summon Monster VI",
-		"copyof": "summon_monster_1"
+		"copyof": "summon_monster"
 	},
 	"summon_monster_7": {
 		"name": "Summon Monster VII",
-		"copyof": "summon_monster_1"
+		"copyof": "summon_monster"
 	},
 	"summon_monster_8": {
 		"name": "Summon Monster VIII",
-		"copyof": "summon_monster_1"
+		"copyof": "summon_monster"
 	},
 	"summon_monster_9": {
 		"name": "Summon Monster IX",
-		"copyof": "summon_monster_1"
+		"copyof": "summon_monster"
 	},
 	"summon_monster_i": { "redirect": "summon_monster_1" },
-	"summon_monster_ii": {
-		"name": "Summon Monster II",
-		"copyof": "summon_monster_1"
-	},
-	"summon_monster_iii": {
-		"name": "Summon Monster III",
-		"copyof": "summon_monster_1"
-	},
-	"summon_monster_iv": {
-		"name": "Summon Monster IV",
-		"copyof": "summon_monster_1"
-	},
-	"summon_monster_v": {
-		"name": "Summon Monster V",
-		"copyof": "summon_monster_1"
-	},
-	"summon_monster_vi": {
-		"name": "Summon Monster VI",
-		"copyof": "summon_monster_1"
-	},
-	"summon_monster_vii": {
-		"name": "Summon Monster VII",
-		"copyof": "summon_monster_1"
-	},
-	"summon_monster_viii": {
-		"name": "Summon Monster VIII",
-		"copyof": "summon_monster_1"
-	},
-	"summon_monster_ix": {
-		"name": "Summon Monster IX",
-		"copyof": "summon_monster_1"
-	},
-	"summon_natures_ally_1": {
-		"name": "Summon Nature's Ally I",
+	"summon_monster_ii": { "redirect": "summon_monster_2" },
+	"summon_monster_iii": { "redirect": "summon_monster_3" },
+	"summon_monster_iv": { "redirect": "summon_monster_4" },
+	"summon_monster_v": { "redirect": "summon_monster_5" },
+	"summon_monster_vi": { "redirect": "summon_monster_6" },
+	"summon_monster_vii": { "redirect": "summon_monster_7" },
+	"summon_monster_viii": { "redirect": "summon_monster_8" },
+	"summon_monster_ix": { "redirect": "summon_monster_9" },
+	"summon_natures_ally": {
+		"name": "Summon Nature's Ally",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Inner Sea Races"
@@ -1335,71 +1315,51 @@
 			"This spell functions like summon nature's ally I, except that you can summon one 9th-level creature, 1d3 8th-level creatures of the same kind, or 1d4+1 lower-level creatures of the same kind."
 		]
 	},
+	"summon_natures_ally_1": {
+		"name": "Summon Nature's Ally I",
+		"copyof": "summon_natures_ally"
+	},
 	"summon_natures_ally_2": {
 		"name": "Summon Nature's Ally II",
-		"copyof": "summon_natures_ally_1"
+		"copyof": "summon_natures_ally"
 	},
 	"summon_natures_ally_3": {
 		"name": "Summon Nature's Ally III",
-		"copyof": "summon_natures_ally_1"
+		"copyof": "summon_natures_ally"
 	},
 	"summon_natures_ally_4": {
 		"name": "Summon Nature's Ally IV",
-		"copyof": "summon_natures_ally_1"
+		"copyof": "summon_natures_ally"
 	},
 	"summon_natures_ally_5": {
 		"name": "Summon Nature's Ally V",
-		"copyof": "summon_natures_ally_1"
+		"copyof": "summon_natures_ally"
 	},
 	"summon_natures_ally_6": {
 		"name": "Summon Nature's Ally VI",
-		"copyof": "summon_natures_ally_1"
+		"copyof": "summon_natures_ally"
 	},
 	"summon_natures_ally_7": {
 		"name": "Summon Nature's Ally VII",
-		"copyof": "summon_natures_ally_1"
+		"copyof": "summon_natures_ally"
 	},
 	"summon_natures_ally_8": {
 		"name": "Summon Nature's Ally VIII",
-		"copyof": "summon_natures_ally_1"
+		"copyof": "summon_natures_ally"
 	},
 	"summon_natures_ally_9": {
 		"name": "Summon Nature's Ally IX",
-		"copyof": "summon_natures_ally_1"
+		"copyof": "summon_natures_ally"
 	},
 	"summon_natures_ally_i": { "redirect": "summon_natures_ally_1" },
-	"summon_natures_ally_ii": {
-		"name": "Summon Nature's Ally II",
-		"copyof": "summon_natures_ally_1"
-	},
-	"summon_natures_ally_iii": {
-		"name": "Summon Nature's Ally III",
-		"copyof": "summon_natures_ally_1"
-	},
-	"summon_natures_ally_iv": {
-		"name": "Summon Nature's Ally IV",
-		"copyof": "summon_natures_ally_1"
-	},
-	"summon_natures_ally_v": {
-		"name": "Summon Nature's Ally V",
-		"copyof": "summon_natures_ally_1"
-	},
-	"summon_natures_ally_vi": {
-		"name": "Summon Nature's Ally VI",
-		"copyof": "summon_natures_ally_1"
-	},
-	"summon_natures_ally_vii": {
-		"name": "Summon Nature's Ally VII",
-		"copyof": "summon_natures_ally_1"
-	},
-	"summon_natures_ally_viii": {
-		"name": "Summon Nature's Ally VIII",
-		"copyof": "summon_natures_ally_1"
-	},
-	"summon_natures_ally_ix": {
-		"name": "Summon Nature's Ally IX",
-		"copyof": "summon_natures_ally_1"
-	},
+	"summon_natures_ally_ii": { "redirect": "summon_natures_ally_2" },
+	"summon_natures_ally_iii": { "redirect": "summon_natures_ally_3" },
+	"summon_natures_ally_iv": { "redirect": "summon_natures_ally_4" },
+	"summon_natures_ally_v": { "redirect": "summon_natures_ally_5" },
+	"summon_natures_ally_vi": { "redirect": "summon_natures_ally_6" },
+	"summon_natures_ally_vii": { "redirect": "summon_natures_ally_7" },
+	"summon_natures_ally_viii": { "redirect": "summon_natures_ally_8" },
+	"summon_natures_ally_ix": { "redirect": "summon_natures_ally_9" },
 	"summon_kami": {
 		"name": "Summon Kami",
 		"copyof": "summon_natures_ally_1"

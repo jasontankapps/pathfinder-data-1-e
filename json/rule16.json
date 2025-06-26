@@ -1867,7 +1867,7 @@
 			"",
 			"@HL[Required Array:] Spellcaster.",
 			"",
-			"@HL[Statistics Adjustments:] Increase Fortitude and Reflex saving throw bonuses by 1; skill-master Knowledge (planes); options-spontaneous casting ({spell/summon monster>_1}), one magic.",
+			"@HL[Statistics Adjustments:] Increase Fortitude and Reflex saving throw bonuses by 1; skill-master Knowledge (planes); options-spontaneous casting ({spell/summon monster}), one magic.",
 			"",
 			"@HL[CR 3:] Options-one any.",
 			"",
@@ -1985,7 +1985,7 @@
 			"",
 			"### Animal Companions and Mounts",
 			"",
-			"If you decide a monster should have an animal companion or mount, choose an animal from the list of a {spell/summon nature's ally>_1} spell. The spell must have a level no higher than 1/2 the monster's CR. Treat the companion as an additional creature in the encounter, awarding XP for defeating it as if it were an independent creature rather than an animal companion.",
+			"If you decide a monster should have an animal companion or mount, choose an animal from the list of a {spell/summon nature's ally} spell. The spell must have a level no higher than 1/2 the monster's CR. Treat the companion as an additional creature in the encounter, awarding XP for defeating it as if it were an independent creature rather than an animal companion.",
 			"",
 			"Alternatively, you can create an animal from scratch using simple monster creation. This monster should have a CR no higher than 1 + 1/2 the primary monster's CR. Award XP for defeating it as if it were not an animal companion."
 		],
