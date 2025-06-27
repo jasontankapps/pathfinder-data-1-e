@@ -751,6 +751,7 @@ section[data-footnotes] li[id] {
 	transition: background-color 0.5s ease-in 1.5s;
 }
 *[data-hash-target] a,
+ion-item-divider[id],
 ion-item-divider[id] a {
 	transition: color 0.5s ease-in 1.5s;
 }
@@ -763,7 +764,9 @@ span.innerlink.backToPreviousLink {
 	background-color: var(--ion-color-success) !important;
 	transition: background-color 0.25s ease-out 0s !important;
 }
-*.highlight a {
+*.highlight a,
+ion-item-divider[id],
+ion-item-divider[id] a {
 	color: var(--ion-color-success-contrast) !important;
 	transition: color 0.25s ease-out 0s !important;
 }

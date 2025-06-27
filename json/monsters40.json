@@ -2308,5 +2308,6 @@
 			"A few deep ones never stop growing over the eons of their endless lives. Many elder deep ones claim the names of monsters or gods for their own-Mother Hydra and Father Dagon being two of the more legendary of their kind. Elder deep ones ascend to the status of near-gods in deep one society, towering over their kin and ruling their sunken cities. Just as they are worshiped, so do the elder deep ones worship the Great Old Ones and Outer Gods themselves."
 		]
 	},
-	"elder_deep_one": { "redirect": "deep_one_elder_deep_one" }
+	"elder_deep_one": { "redirect": "deep_one_elder_deep_one" },
+	"deep_one_elder": { "redirect": "deep_one_elder_deep_one" }
 }
