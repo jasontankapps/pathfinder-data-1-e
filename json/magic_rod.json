@@ -3602,7 +3602,7 @@
 			"",
 			"**Alignment** chaotic evil; **Ego** 3  ",
 			"**Senses** 30 ft.  ",
-			"**Int** 5, Wis 10, Cha 8  ",
+			"**Int** 5, **Wis** 10, **Cha** 8  ",
 			"**Communication** none (none)"
 		]
 	},
@@ -3632,7 +3632,7 @@
 			"",
 			"**Alignment** chaotic neutral; **Ego** 6  ",
 			"**Senses** 120 ft., darkvision  ",
-			"**Int** 10, Wis 10, Cha 8  ",
+			"**Int** 10, **Wis** 10, **Cha** 8  ",
 			"**Communication** telepathy (Aklo)"
 		]
 	},
@@ -3663,7 +3663,7 @@
 			"",
 			"**Alignment** lawful good; **Ego** 10  ",
 			"**Senses** 30 ft.  ",
-			"**Int** 10, Wis 13, Cha 12  ",
+			"**Int** 10, **Wis** 13, **Cha** 12  ",
 			"**Communication** telepathy (Celestial; truespeech)"
 		]
 	},
@@ -3700,7 +3700,7 @@
 			"",
 			"**Alignment** lawful neutral; **Ego** 20  ",
 			"**Senses** 120 ft.  ",
-			"**Int** 18, Wis 14, Cha 10  ",
+			"**Int** 18, **Wis** 14, **Cha** 10  ",
 			"**Communication** telepathy (Common and eight other languages)"
 		]
 	},

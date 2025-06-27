@@ -3637,7 +3637,7 @@
 			"",
 			"**Alignment** lawful good; **Ego** 7  ",
 			"**Senses** 60 ft.  ",
-			"**Int** 12, Wis 15, Cha 12  ",
+			"**Int** 12, **Wis** 15, **Cha** 12  ",
 			"**Communication** empathy"
 		]
 	},
@@ -3663,7 +3663,7 @@
 			"",
 			"**Alignment** neutral; **Ego** 7  ",
 			"**Senses** 30 ft.  ",
-			"**Int** 12, Wis 10, Cha 11  ",
+			"**Int** 12, **Wis** 10, **Cha** 11  ",
 			"**Communication** empathy"
 		]
 	},
@@ -3698,7 +3698,7 @@
 			"",
 			"**Alignment** varies; **Ego** 11  ",
 			"**Senses** 30 ft.  ",
-			"**Int** 17, Wis 10, Cha 13  ",
+			"**Int** 17, **Wis** 10, **Cha** 13  ",
 			"**Communication** telepathy (Common and seven other languages)"
 		]
 	},

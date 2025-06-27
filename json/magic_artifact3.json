@@ -145,7 +145,7 @@
 			"",
 			"**Alignment** CE; **Ego** 24  ",
 			"**Senses** darkvision 120 ft., hearing  ",
-			"**Int** 17, Wis 10, Cha 17  ",
+			"**Int** 17, **Wis** 10, **Cha** 17  ",
 			"**Communication** read languages, speech, telepathy (Abyssal, Azlanti, Thassilonian)"
 		]
 	},
@@ -267,7 +267,7 @@
 			"",
 			"**Alignment** CE; **Ego** 18  ",
 			"**Senses** 30 ft. hearing and tremorsense, true seeing  ",
-			"**Int** 7, Wis 14, Cha 13  ",
+			"**Int** 7, **Wis** 14, **Cha** 13  ",
 			"**Communication** empathy  ",
 			"**Special Purpose** slay all non-Angazhan worshipers  ",
 			"**Spell-Like Abilities** (CL 20th; concentration +21)  ",
@@ -609,7 +609,7 @@
 			"",
 			"**Alignment** CG; **Ego** 8  ",
 			"**Senses** 60 ft.  ",
-			"**Int** 10, Wis 13, Cha 13  ",
+			"**Int** 10, **Wis** 13, **Cha** 13  ",
 			"**Communication** empathy (see above)"
 		]
 	},
@@ -654,7 +654,7 @@
 			"",
 			"**Alignment** NE; **Ego** 37  ",
 			"**Senses** darkvision 120 ft., hearing  ",
-			"**Int** 18, Wis 14, Cha 20  ",
+			"**Int** 18, **Wis** 14, **Cha** 20  ",
 			"**Communication** read languages, {spell/read magic}, speech, telepathy (Abyssal, Aklo, Azlanti, Thassilonian)"
 		]
 	},
@@ -818,7 +818,7 @@
 			"",
 			"**Alignment** LE; **Ego** 25  ",
 			"**Senses** 30 ft. (vision and hearing)  ",
-			"**Int** 18, Wis 10, Cha 10  ",
+			"**Int** 18, **Wis** 10, **Cha** 10  ",
 			"**Communication** speech/telepathy (Common, Thassilonian)  ",
 			"**Powers** If the sword is active (see Dormancy above), it can cast {spell/create food and water}, {spell/endure elements}, and {spell/cure serious wounds} 3 times per day."
 		]
@@ -851,7 +851,7 @@
 			"",
 			"**Alignment** LE; **Ego** 25  ",
 			"**Senses** 30 ft., sight and hearing  ",
-			"**Int** 18, Wis 10, Cha 10  ",
+			"**Int** 18, **Wis** 10, **Cha** 10  ",
 			"**Communication** telepathy (Common, Thassilonian)  ",
 			"**Powers** 3/day - {spell/create food and water}, {spell/cure serious wounds}, {spell/endure elements}"
 		]
@@ -881,7 +881,7 @@
 			"",
 			"**Alignment** LE; **Ego** 25  ",
 			"**Senses** 30 ft. (vision and hearing)  ",
-			"**Int** 18, Wis 10, Cha 10  ",
+			"**Int** 18, **Wis** 10, **Cha** 10  ",
 			"**Communication** speech/telepathy (Common, Thassilonian)  ",
 			"**Powers** If the sword is active (see Dormancy above), it can cast {spell/create food and water}, {spell/endure elements}, and {spell/cure serious wounds} 3 times per day."
 		]
@@ -913,7 +913,7 @@
 			"",
 			"**Alignment** LE; **Ego** 25  ",
 			"**Senses** 30 ft. (vision and hearing)  ",
-			"**Int** 18, Wis 10, Cha 10  ",
+			"**Int** 18, **Wis** 10, **Cha** 10  ",
 			"**Communication** speech/telepathy (Common, Thassilonian)  ",
 			"**Dedicated Powers** If the sword is active (see above), it can cast {spell/create food and water}, {spell/endure elements}, and {spell/cure serious wounds} 3 times per day each."
 		]
@@ -940,7 +940,7 @@
 			"",
 			"**Alignment** LE; **Ego** 25  ",
 			"**Senses** 30 ft. (vision and hearing)  ",
-			"**Int** 18, Wis 10, Cha 10  ",
+			"**Int** 18, **Wis** 10, **Cha** 10  ",
 			"**Communication** speech/telepathy (Common, Thassilonian)  ",
 			"**Powers** If the sword is active (see Dormancy above), it can cast {spell/create food and water}, endure elements, and cure serious wounds 3 times per day."
 		]
@@ -984,7 +984,7 @@
 			"",
 			"**Alignment** LE; **Ego** 25  ",
 			"**Senses** 30 ft. (vision and hearing)  ",
-			"**Int** 18, Wis 10, Cha 10  ",
+			"**Int** 18, **Wis** 10, **Cha** 10  ",
 			"**Communication** speech/telepathy (Common, Thassilonian)  ",
 			"**Powers** If the sword is active (see Dormancy above), it can cast {spell/create food and water}, {spell/endure elements}, and {spell/cure serious wounds} 3 times per day."
 		]
@@ -1057,7 +1057,7 @@
 			"",
 			"**Alignment** LE; **Ego** 25  ",
 			"**Senses** sight 30 ft., hearing  ",
-			"**Int** 18, Wis 10, Cha 10  ",
+			"**Int** 18, **Wis** 10, **Cha** 10  ",
 			"**Communication** read languages, speech, telepathy (Thassilonian)  ",
 			"**Powers** {spell/create food and water} 3/day, {spell/endure elements} 3/day, {spell/cure serious wounds} 3/day"
 		]

@@ -2907,7 +2907,10 @@
 			"[^L]: No alignment-based descriptors were provided, but a Leng hound is chaotic evil and your GM may determine the spell gains the chaotic and evil descriptors."
 		]
 	},
-	"contact_entity_1": { "redirect": "contact_entity" },
+	"contact_entity_1": {
+		"name": "Contact Entity I",
+		"copyof": "contact_entity"
+	},
 	"contact_entity_i": { "redirect": "contact_entity_1" },
 	"contact_entity_2": {
 		"name": "Contact Entity II",

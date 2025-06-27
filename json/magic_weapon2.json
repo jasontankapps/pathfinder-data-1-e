@@ -3895,7 +3895,7 @@
 			"",
 			"**Alignment** neutral good; **Ego** 7  ",
 			"**Senses** 30 ft.  ",
-			"**Int** 10, Wis 12, Cha 14  ",
+			"**Int** 10, **Wis** 12, **Cha** 14  ",
 			"**Communication** empathy"
 		]
 	},
@@ -3925,7 +3925,7 @@
 			"",
 			"**Alignment** chatoic evil; **Ego** 10  ",
 			"**Senses** 30 ft. (darkvision)  ",
-			"**Int** 10, Wis 14, Cha 10  ",
+			"**Int** 10, **Wis** 14, **Cha** 10  ",
 			"**Communication** speech (Common and Orc)"
 		]
 	},
@@ -3954,7 +3954,7 @@
 			"",
 			"**Alignment** lawful good; **Ego** 10  ",
 			"**Senses** 60 ft.  ",
-			"**Int** 10, Wis 14, Cha 12  ",
+			"**Int** 10, **Wis** 14, **Cha** 12  ",
 			"**Communication** empathy"
 		]
 	},
@@ -3980,7 +3980,7 @@
 			"",
 			"**Alignment** chaotic evil; **Ego** 14  ",
 			"**Senses** 60 ft. (vision and hearing)  ",
-			"**Int** 16, Wis 12, Cha 14  ",
+			"**Int** 16, **Wis** 12, **Cha** 14  ",
 			"**Communication** speech (Abyssal, Common, Giant)"
 		]
 	},
@@ -4004,7 +4004,7 @@
 			"",
 			"**Alignment** chaotic neutral; **Ego** 17  ",
 			"**Senses** 60 ft., darkvision, read magic  ",
-			"**Int** 20, Wis 13, Cha 14  ",
+			"**Int** 20, **Wis** 13, **Cha** 14  ",
 			"**Communication** not listed (Aklo, Azlanti, Common, Draconic, Kelish, Vudrani)"
 		]
 	},
@@ -4032,7 +4032,7 @@
 			"",
 			"**Alignment** n/a; **Ego** 23  ",
 			"**Senses** 60 ft., blindsense  ",
-			"**Int** 11, Wis 16, Cha 12  ",
+			"**Int** 11, **Wis** 16, **Cha** 12  ",
 			"**Communication** telepathy (Ancient Osiriani)"
 		]
 	},
@@ -4057,7 +4057,7 @@
 			"",
 			"**Alignment** chaotic neutral; **Ego** 14  ",
 			"**Senses** 30 ft., darkvision  ",
-			"**Int** 10, Wis 16, Cha 14  ",
+			"**Int** 10, **Wis** 16, **Cha** 14  ",
 			"**Communication** speech (Common)"
 		]
 	},
@@ -4086,7 +4086,7 @@
 			"",
 			"**Alignment** neutral; **Ego** 9  ",
 			"**Senses** 120 ft.  ",
-			"**Int** 6, Wis 11, Cha 11  ",
+			"**Int** 6, **Wis** 11, **Cha** 11  ",
 			"**Communication** speech (Auran)"
 		]
 	},
@@ -4116,7 +4116,7 @@
 			"",
 			"**Alignment** lawful neutral; **Ego** 14  ",
 			"**Senses** 120 ft.  ",
-			"**Int** 12, Wis 14, Cha 10  ",
+			"**Int** 12, **Wis** 14, **Cha** 10  ",
 			"**Communication** empathy"
 		]
 	},
@@ -4166,7 +4166,7 @@
 			"",
 			"**Alignment** neutral; **Ego** 13  ",
 			"**Senses** 60 ft., darkvision  ",
-			"**Int** 12, Wis 16, Cha 10  ",
+			"**Int** 12, **Wis** 16, **Cha** 10  ",
 			"**Communication** speech (Common, Orc, Skald)"
 		]
 	},
@@ -4194,7 +4194,7 @@
 			"",
 			"**Alignment** chaotic good; **Ego** 17  ",
 			"**Senses** 30 ft.  ",
-			"**Int** 14, Wis 12, Cha 18  ",
+			"**Int** 14, **Wis** 12, **Cha** 18  ",
 			"**Communication** speech (Common and four other languages)"
 		]
 	},
