@@ -220,6 +220,8 @@
 			"",
 			"::main[Herbalism]{to=rule/herbalism}",
 			"",
+			"::main[Idols]{to=rule/idols}",
+			"",
 			"::main[Infernal Contracts]{to=rule/infernal_contracts}",
 			"",
 			"::main[Leadership]{to=rule/leadership}",

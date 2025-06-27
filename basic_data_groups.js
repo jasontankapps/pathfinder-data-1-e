@@ -347,16 +347,17 @@ import rule24 from './json/rules_campaigns05.json' with {type: 'json'};
 import rule25 from './json/rules_campaigns06.json' with {type: 'json'};
 import rule26 from './json/rules_campaigns07.json' with {type: 'json'};
 import rule27 from './json/rules_rulesets01.json' with {type: 'json'};
-import rule28 from './json/rules_subsystems01.json' with {type: 'json'};
-import rule29 from './json/rules_subsystems02.json' with {type: 'json'};
-import rule30 from './json/rules_subsystems03.json' with {type: 'json'};
-import rule31 from './json/rules_subsystems04.json' with {type: 'json'};
-import rule32 from './json/rules_opt_skills01.json' with {type: 'json'};
-import rule33 from './json/rules_opt_combat01.json' with {type: 'json'};
-import rule34 from './json/rules_opt_alignment_pc_adv01.json' with {type: 'json'};
-import rule35 from './json/rules_opt_magic01.json' with {type: 'json'};
-import rule36 from './json/rules_opt_magic02.json' with {type: 'json'};
-import rule37 from './json/rules_opt_magic03.json' with {type: 'json'};
+import rule28 from './json/rules_rulesets02.json' with {type: 'json'};
+import rule29 from './json/rules_subsystems01.json' with {type: 'json'};
+import rule30 from './json/rules_subsystems02.json' with {type: 'json'};
+import rule31 from './json/rules_subsystems03.json' with {type: 'json'};
+import rule32 from './json/rules_subsystems04.json' with {type: 'json'};
+import rule33 from './json/rules_opt_skills01.json' with {type: 'json'};
+import rule34 from './json/rules_opt_combat01.json' with {type: 'json'};
+import rule35 from './json/rules_opt_alignment_pc_adv01.json' with {type: 'json'};
+import rule36 from './json/rules_opt_magic01.json' with {type: 'json'};
+import rule37 from './json/rules_opt_magic02.json' with {type: 'json'};
+import rule38 from './json/rules_opt_magic03.json' with {type: 'json'};
 import spell1 from './json/spells.json' with {type: 'json'};
 import spell2 from './json/spells2.json' with {type: 'json'};
 import spell3 from './json/spells3.json' with {type: 'json'};
@@ -684,6 +685,14 @@ const basic_data_groups = {
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 37,
+		type: "Rules"
+	},
+	"rule38": {
+		data: rule38,
+		datatype: "rule",
+		searchgroup: 12, // rule
+		link: "rule",
+		num: 38,
 		type: "Rules"
 	},
 	"misc": {
