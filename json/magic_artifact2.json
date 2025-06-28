@@ -2084,11 +2084,11 @@
 			"**Aura** strong necromancy; **CL** 20th  ",
 			"**Slot** none; **Price** -; **Weight** 6 lbs.",
 			"",
-			"The Bound Blade is a +3 unholy adamantine bastard sword, forged from the claws of Kazavon. For worshipers of Abadar, the Bound Blade is heresy made manifest. The sword grants the user a +6 enhancement bonus to Strength. As a free action, upon using the sword to reduce a sentient living creature to 0 or fewer hit points, the wielder can cast soul bind, forcing that creature to make a successful DC 25 Will save or have its soul trapped within the sword. While there is a soul trapped within the sword, the Bound Blade emanates the effects of the spell desecrate in a 50-foot-radius aura. This aura lasts for a number of days equal to the number of Hit Dice the slain creature possessed. After that period passes, the soul within the sword is destroyed and cannot be restored by any method short of divine intervention. The sword wielder can release a trapped soul by using the blade's soul bind ability on another creature.",
+			"The Bound Blade is a +3 {magic-enh/unholy} {eq-material/adamantine} {eq-weapon/bastard sword}, forged from the claws of Kazavon. For worshipers of {faith/Abadar}, the Bound Blade is heresy made manifest. The sword grants the user a +6 enhancement bonus to Strength. As a free action, upon using the sword to reduce a sentient living creature to 0 or fewer hit points, the wielder can cast {spell/soul bind}, forcing that creature to make a successful DC 25 Will save or have its soul trapped within the sword. While there is a soul trapped within the sword, the Bound Blade emanates the effects of the spell {spell/desecrate} in a 50-foot-radius aura. This aura lasts for a number of days equal to the number of Hit Dice the slain creature possessed. After that period passes, the soul within the sword is destroyed and cannot be restored by any method short of divine intervention. The sword wielder can release a trapped soul by using the blade's *soul bind* ability on another creature.",
 			"",
 			"### Destruction",
 			"",
-			"The Bound Blade shatters if used by a paladin of Abadar to slay a fallen paladin dedicated to Zon-Kuthon.",
+			"The Bound Blade shatters if used by a {class/paladin} of Abadar to slay a fallen paladin dedicated to {faith/Zon-Kuthon}.",
 			"",
 			"### Statistics",
 			"",
@@ -2096,8 +2096,8 @@
 			"**Senses** 30 ft.  ",
 			"**Int** 10, **Wis** 10, **Cha** 12  ",
 			"**Communication** empathy  ",
-			"**Powers** constant - deathwatch  ",
-			"3/day - deeper darkness, rage, slow (DC 14)"
+			"**Powers** constant - {spell/deathwatch}  ",
+			"3/day - {spell/deeper darkness}, {spell/rage}, {spell/slow} (DC 14)"
 		]
 	},
 	"relic_of_kazavon_crown_of_fangs": {
@@ -2110,11 +2110,11 @@
 			"**Aura** strong enchantment, illusion, necromancy; **CL** 20th  ",
 			"**Slot** head; **Price** -; **Weight** 4 lbs.",
 			"",
-			"Kazavon's teeth were set into a jeweled circlet of gold, creating the Crown of Fangs. The crown grants its wearer a +6 enhancement bonus to Constitution and Charisma, as well as regeneration 20. Only the blade {magic-artifact/Serithtial}, a holy avenger, or a paladin's smite evil ability can deal lethal damage to the wearer. Additionally, the wearer gains the personal benefits of the spell foresight.",
+			"Kazavon's teeth were set into a jeweled circlet of gold, creating the Crown of Fangs. The crown grants its wearer a +6 enhancement bonus to Constitution and Charisma, as well as {umr/regeneration} 20. Only the blade {magic-artifact/Serithtial}, a {magic-weapon/holy avenger}, or a {class/paladin/'s} smite evil ability can deal lethal damage to the wearer. Additionally, the wearer gains the personal benefits of the spell {spell/foresight}.",
 			"",
 			"### Destruction",
 			"",
-			"The Crown of Fangs is destroyed if struck by a holy sword forged by a once-mortal god.",
+			"The Crown of Fangs is destroyed if struck by a {magic-enh/holy} sword forged by a once-mortal god.",
 			"",
 			"### Statistics",
 			"",
@@ -2122,7 +2122,7 @@
 			"**Senses** 30 ft.  ",
 			"**Int** 10, **Wis** 10, **Cha** 12  ",
 			"**Communication** empathy  ",
-			"**Powers** 3/day - alter self, dominate person (DC 17), major image (DC 17), mirror image, mislead (DC 19)"
+			"**Powers** 3/day - {spell/alter self}, {spell/dominate person} (DC 17), {spell/major image} (DC 17), {spell/mirror image}, {spell/mislead} (DC 19)"
 		]
 	},
 	"relic_of_kazavon_howling_horn": {
@@ -2138,7 +2138,7 @@
 			"**Aura** strong evocation; **CL** 20th  ",
 			"**Slot** none; **Price** -; **Weight** 12 lbs.",
 			"",
-			"Shaped from Kazavon's horns into a deadly musical instrument, the Howling Horn grants the bearer a +4 enhancement bonus to Dexterity and Charisma. Sounding the Howling Horn forces all nonevil creatures within 40 feet to make a successful DC 25 Fortitude save or be deafened for 2d6 rounds. A user who succeeds at a DC 20 Perform (wind instruments) check while using the horn summons forth the roar of Kazavon, a blast that affects creatures in a 40-foot cone, dealing 20d6 points of sonic damage and deafening them for 4d6 rounds (a successful DC 25 Fortitude save reduces the damage by half and negates the deafening). Unattended crystalline objects take double damage. Nonevil creatures within 10 feet of the horn when the roar is sounded must succeed at an additional DC 25 Will save or be affected as per the spell insanity.",
+			"Shaped from Kazavon's horns into a deadly musical instrument, the Howling Horn grants the bearer a +4 enhancement bonus to Dexterity and Charisma. Sounding the Howling Horn forces all nonevil creatures within 40 feet to make a successful DC 25 Fortitude save or be {misc/deafened} for 2d6 rounds. A user who succeeds at a DC 20 Perform (wind instruments) check while using the horn summons forth the roar of Kazavon, a blast that affects creatures in a 40-foot cone, dealing 20d6 points of sonic damage and deafening them for 4d6 rounds (a successful DC 25 Fortitude save reduces the damage by half and negates the deafening). Unattended crystalline objects take double damage. Nonevil creatures within 10 feet of the horn when the roar is sounded must succeed at an additional DC 25 Will save or be affected as per the spell {spell/insanity}.",
 			"",
 			"### Destruction",
 			"",
@@ -2150,7 +2150,7 @@
 			"**Senses** 30 ft.  ",
 			"**Int** 10, **Wis** 10, **Cha** 12  ",
 			"**Communication** empathy  ",
-			"**Powers** 3/day - circle of death (DC 19), repulsion (DC 19), waves of exhaustion"
+			"**Powers** 3/day - {spell/circle of death} (DC 19), {spell/repulsion} (DC 19), {spell/waves of exhaustion}"
 		]
 	},
 	"relic_of_kazavon_shredskin": {
@@ -2166,11 +2166,11 @@
 			"**Aura** strong divination and illusion; **CL** 20th  ",
 			"**Slot** chest; **Price** -; **Weight** 20 lbs.",
 			"",
-			"Kazavon's shattered ribs were twisted into a mantle of bone fragments known as the Shredskin. The mantle grants its wearer a +6 enhancement bonus to Wisdom, a +5 resistance bonus on all saving throws, and the ability to hide in plain sight as per the shadowdancer class feature. The wearer can speak with any shadow, in a way similar to the effects of the spell stone tell. Shadows willingly tell the wearer what dangers they obscure and what creatures have come in contact with them in the past 24 hours. The shadows can only relate information about creatures they've enshrouded. Creatures bearing a light source are not usually touched by shadows, though shadows can tell when they've been disrupted by passing light.",
+			"Kazavon's shattered ribs were twisted into a mantle of bone fragments known as the Shredskin. The mantle grants its wearer a +6 enhancement bonus to Wisdom, a +5 resistance bonus on all saving throws, and the ability to hide in plain sight as per the {pclass/shadowdancer} class feature. The wearer can speak with any shadow, in a way similar to the effects of the spell {spell/stone tell}. Shadows willingly tell the wearer what dangers they obscure and what creatures have come in contact with them in the past 24 hours. The shadows can only relate information about creatures they've enshrouded. Creatures bearing a light source are not usually touched by shadows, though shadows can tell when they've been disrupted by passing light.",
 			"",
 			"### Destruction",
 			"",
-			"The Shredskin must be taken to the Positive Energy Plane or Sarenrae's domain on Nirvana and exposed to direct light for 1 month.",
+			"The Shredskin must be taken to the Positive Energy Plane or {faith/Sarenrae/'s} domain on {rule/Nirvana} and exposed to direct light for 1 month.",
 			"",
 			"### Statistics",
 			"",
@@ -2178,7 +2178,7 @@
 			"**Senses** 30 ft.  ",
 			"**Int** 10, **Wis** 12, **Cha** 10  ",
 			"**Communication** empathy  ",
-			"**Powers** 3/day - deeper darkness, shadow walk (DC 19), symbol of pain (DC 17)"
+			"**Powers** 3/day - {spell/deeper darkness}, {spell/shadow walk} (DC 19), {spell/symbol of pain} (DC 17)"
 		]
 	},
 	"relic_of_kazavon_staff_of_the_slain": {
@@ -2194,7 +2194,7 @@
 			"**Aura** strong evocation; **CL** 20th  ",
 			"**Slot** none; **Price** -; **Weight** 6 lbs.",
 			"",
-			"Crafted from the tailbones of Kazavon, the Staff of the Slain is an intelligent +5 {magic-enh/spell storing} {magic-enh/shock} {eq-weapon/quarterstaff} that grants its wielder a +4 enhancement bonus to Intelligence. In addition, the staff allows the wielder to change the energy type of any spell he casts that deals energy damage to electricity (such as causing a fireball to deal electricity damage). The staff harbors two personalities: the neutral good wizard Kolwyddon (dominant during the day) and the dragon Kazavon (dominant at night). Some of the staff's powers change depending on the time of day and which personality is in control.",
+			"Crafted from the tailbones of Kazavon, the Staff of the Slain is an intelligent +5 {magic-enh/spell storing} {magic-enh/shock} {eq-weapon/quarterstaff} that grants its wielder a +4 enhancement bonus to Intelligence. In addition, the staff allows the wielder to change the energy type of any spell he casts that deals energy damage to electricity (such as causing a {spell/fireball} to deal electricity damage). The staff harbors two personalities: the neutral good wizard Kolwyddon (dominant during the day) and the dragon Kazavon (dominant at night). Some of the staff's powers change depending on the time of day and which personality is in control.",
 			"",
 			"### Destruction",
 			"",
@@ -2207,8 +2207,8 @@
 			"**Int** 12, **Wis** 10, **Cha** 10  ",
 			"**Communication** empathy  ",
 			"**Powers** at will - {spell/detect magic}, ventriloquism (DC 11)  ",
-			"3/day - create water, dimension door (during the day), lightning bolt (at night; DC 14), major image (DC 14), veil (DC 19)  ",
-			"1/day - hallucinatory terrain (DC 16), mirage arcana (DC 17)"
+			"3/day - {spell/create water}, {spell/dimension door} (during the day), {spell/lightning bolt} (at night; DC 14), {spell/major image} (DC 14), {spell/veil} (DC 19)  ",
+			"1/day - {spell/hallucinatory terrain} (DC 16), {spell/mirage arcana} (DC 17)"
 		]
 	},
 	"relic_of_kazavon_throne_of_nalt": {
@@ -2224,7 +2224,7 @@
 			"**Aura** strong divination and enchantment; **CL** 20th  ",
 			"**Slot** none; **Price** -; **Weight** 3,475 lbs.",
 			"",
-			"Great horns of gold, a massive sea serpent's skull, and the wings of Kazavon form the ornate Throne of Nalt. The throne grants whoever is seated upon it a +6 enhancement bonus to Charisma and Wisdom. Once per day, the user can cast geas/quest. Any creature with the evil subtype takes a -6 penalty on saving throws to resist this effect.",
+			"Great horns of gold, a massive sea serpent's skull, and the wings of Kazavon form the ornate Throne of Nalt. The throne grants whoever is seated upon it a +6 enhancement bonus to Charisma and Wisdom. Once per day, the user can cast {spell/geas//quest}. Any creature with the evil subtype takes a -6 penalty on saving throws to resist this effect.",
 			"",
 			"### Destruction",
 			"",
@@ -2251,15 +2251,15 @@
 			"**Aura** strong conjuration and evocation [earth]; **CL** 20th  ",
 			"**Slot** weapon; **Price** -; **Weight** 80 lbs.",
 			"",
-			"Riftcarver is an immense weapon carved from exoskeleton plates pried from the body of the now-long-forgotten monstrosity that birthed Deskari into the Abyss. The demon lord emerged fully formed, and the crafting of this weapon was among the first of his acts-Riftcarver aided the demon lord tremendously in those first few thousand centuries of his life, and was the primary tool he used to dig the Rasping Rifts.",
+			"Riftcarver is an immense weapon carved from exoskeleton plates pried from the body of the now-long-forgotten monstrosity that birthed {faith/Deskari} into the Abyss. The demon lord emerged fully formed, and the crafting of this weapon was among the first of his acts-Riftcarver aided the demon lord tremendously in those first few thousand centuries of his life, and was the primary tool he used to dig the Rasping Rifts.",
 			"",
-			"Riftcarver is a Gargantuan +5 defending unholy wounding scythe. As part of its first successful hit against a target in any one round, Riftcarver can infest the creature hit with rot grubs. Once per minute as a standard action by striking at the ground, Riftcarver can create an earthquake centered on the target's location. Riftcarver's wielder never suffers any ill effects from earthquakes created by the scythe. Once per day, the scythe can be swept through the air as a standard action to rip a hole between worlds that serves as a 20-foot-diameter gate - this gate can be used only for planar travel, not for calling creatures. Riftcarver is made of the chitin of an Abyssal monster, yet it is treated as adamantine for the purposes of damaging objects and penetrating hardness.",
+			"Riftcarver is a Gargantuan +5 {magic-enh/defending} {magic-enh/unholy} {magic-enh/wounding} {eq-weapon/scythe}. As part of its first successful hit against a target in any one round, Riftcarver can infest the creature hit with {infestation/rot grubs}. Once per minute as a standard action by striking at the ground, Riftcarver can create an {spell/earthquake} centered on the target's location. Riftcarver's wielder never suffers any ill effects from earthquakes created by the scythe. Once per day, the scythe can be swept through the air as a standard action to rip a hole between worlds that serves as a 20-foot-diameter {spell/gate} - this gate can be used only for planar travel, not for calling creatures. Riftcarver is made of the chitin of an Abyssal monster, yet it is treated as adamantine for the purposes of damaging objects and penetrating hardness.",
 			"",
-			"Smaller versions of this artifact, built to be used by Medium cultists, also exist. Called rotcarvers, the majority of these weapons have been captured and destroyed by the crusaders by the Fifth Crusade. {magic-weapon/A |rotcarver} is a +3 scythe that can infest those it strikes with rot grubs, or can transform its user into a rot grub swarm.",
+			"Smaller versions of this artifact, built to be used by Medium cultists, also exist. Called rotcarvers, the majority of these weapons have been captured and destroyed by the crusaders by the Fifth Crusade. {magic-weapon/A |rotcarver} is a +3 scythe that can infest those it strikes with rot grubs, or can transform its user into a {monster/rot grub swarm}.",
 			"",
 			"### Destruction",
 			"",
-			"If the remains of its ancient, forgotten source can be located and restored to life, Riftcarver can be destroyed by using it to deliver a coup de grace against that creature. If the attack slays the resurrected horror, Riftcarver crumbles to dust."
+			"If the remains of its ancient, forgotten source can be located and restored to life, Riftcarver can be destroyed by using it to deliver a {misc/coup de grace} against that creature. If the attack slays the resurrected horror, Riftcarver crumbles to dust."
 		]
 	},
 	"ring_of_nine_facets": {
@@ -2284,10 +2284,10 @@
 			"| 2 | Indigo | Wearer needs no air to survive |",
 			"| 3 | Orange | Wearer gains a +5 natural armor bonus |",
 			"| 4 | Violet | Wearer gains low-light vision |",
-			"| 5 | Red | Wearer gains fast healing 1 |",
+			"| 5 | Red | Wearer gains {umr/fast healing} 1 |",
 			"| 6 | Blue | Wearer can use fly at will |",
 			"| 7 | White | Wearer gains cold resistance 30 |",
-			"| 8 | Yellow | Wearer gains freedom of movement |",
+			"| 8 | Yellow | Wearer gains {spell/freedom of movement} |",
 			"| 9 | Copper | Wearer gains a +5 resistance bonus on saving throws |",
 			"| 10[^R] | Roll again |",
 			"",
@@ -2308,16 +2308,16 @@
 			"**Aura** strong transmutation (evil); **CL** 20th  ",
 			"**Slot** body; **Price** -; **Weight** 1 lb.",
 			"",
-			"The Robe of the Rifts is crafted of what appears to be fine silk, but is in fact forged of congealed dreams siphoned from the minds of slumbering spellcasters as they were ritually murdered. It was created by Areelu Vorlesh to augment her melee prowess soon after her transformation into a half-succubus in a process that involved humiliating favors granted to 13 separate demon lords. The Robe of the Rifts grants the following enhancements when it is worn.",
+			"The Robe of the Rifts is crafted of what appears to be fine silk, but is in fact forged of congealed dreams siphoned from the minds of slumbering spellcasters as they were ritually murdered. It was created by Areelu Vorlesh to augment her melee prowess soon after her transformation into a half-{monster/succubus} in a process that involved humiliating favors granted to 13 separate demon lords. The Robe of the Rifts grants the following enhancements when it is worn.",
 			"",
 			"- The wearer's attack rolls and damage rolls with all melee weapons are modified by her Intelligence modifier, not her Strength modifier. This modifier is never halved for secondary attacks, but neither is it increased for two-handed attacks.",
 			"- The wearer applies her armor and natural armor bonuses (if any) to her touch AC.",
 			"- The wearer gains a +6 profane bonus on all saving throws.",
-			"- The robes infuse the wearer's natural attacks (if any) as if she wore an unholy amulet of mighty fists +5.",
+			"- The robes infuse the wearer's natural attacks (if any) as if she wore an unholy {magic-wondrous/amulet of mighty fists +5}.",
 			"",
 			"### Destruction",
 			"",
-			"The Robe of the Rifts must be donned by a humanoid with an Intelligence score of 3 or lower, who must repeat the 13 debasements Areelu performed for demon lords when creating the robe with 13 different and unwilling angels."
+			"The Robe of the Rifts must be donned by a humanoid with an Intelligence score of 3 or lower, who must repeat the 13 debasements Areelu performed for demon lords when creating the robe with 13 different and unwilling {family/angel/s}."
 		]
 	},
 	"runewell_of_greed": {
@@ -2330,11 +2330,11 @@
 			"**Aura** strong necromancy; **CL** 20th  ",
 			"**Slot** none; **Price** -; **Weight** 900 lbs.",
 			"",
-			"Currently hidden at the heart of the Eye of Avarice in a demiplane lodged between Leng and the Material Plane, Karzoug's runewell of greed is the key to both his escape from the destruction of Thassilon and his eventual return to life. The runewell itself is a core part of the Rise of the Runelords Adventure Path, but by the time the PCs arrive at the Eye of Avarice, the circular well (which appears to be filled with molten gold) has already done its job absorbing fragments of greedy souls and is in the process of using that energy to finalize Karzoug's escape.",
+			"Currently hidden at the heart of the Eye of Avarice in a demiplane lodged between {rule/Leng} and the Material Plane, Karzoug's runewell of greed is the key to both his escape from the destruction of Thassilon and his eventual return to life. The runewell itself is a core part of the Rise of the Runelords Adventure Path, but by the time the PCs arrive at the Eye of Avarice, the circular well (which appears to be filled with molten gold) has already done its job absorbing fragments of greedy souls and is in the process of using that energy to finalize Karzoug's escape.",
 			"",
-			"Beyond this effect, though, Karzoug can utilize the runewell in other ways. It grants him the ability to use scrying at will, although the runewell's range is limited to the Xin-Shalast region or to specific agents like Mokmurian, Xanesha, and Lucrecia. Creatures that wear magic items marked with the Sihedron take a -4 penalty on saves against this effect. The runewell allows Karzoug to see through the eyes and speak through the mouths of anyone who wears a Sihedron medallion. He can also, given time, call up from the runewell a live adult blue dragon minion to serve him as an ally or mount. This essentially functions as a gate spell, save that the dragon is actually created by the runewell rather than called. Karzoug can only have one such dragon in existence at any one time, and must wait 8 hours after a previous dragon's death before calling a new blue dragon to serve him.",
+			"Beyond this effect, though, Karzoug can utilize the runewell in other ways. It grants him the ability to use scrying at will, although the runewell's range is limited to the Xin-Shalast region or to specific agents like Mokmurian, Xanesha, and Lucrecia. Creatures that wear magic items marked with the Sihedron take a -4 penalty on saves against this effect. The runewell allows Karzoug to see through the eyes and speak through the mouths of anyone who wears a Sihedron medallion. He can also, given time, call up from the runewell a live adult {family/blue dragon} minion to serve him as an ally or mount. This essentially functions as a {spell/gate} spell, save that the dragon is actually created by the runewell rather than called. Karzoug can only have one such dragon in existence at any one time, and must wait 8 hours after a previous dragon's death before calling a new blue dragon to serve him.",
 			"",
-			"The runewell itself is 10 feet in diameter and 10 feet deep. The liquid it contains functions in all ways as molten gold - dealing damage is if it were lava upon creatures splashed or immersed within it. Gold drawn from the runewell cools normally and is permanent - the runewell immediately replenishes gold taken from its supplies - yet this gold cannot exist more than 30 feet from the runewell's rim. If brought beyond this range, it vanishes in an instant.",
+			"The runewell itself is 10 feet in diameter and 10 feet deep. The liquid it contains functions in all ways as molten gold - dealing damage is if it were {rule/lava>_effects} upon creatures splashed or immersed within it. Gold drawn from the runewell cools normally and is permanent - the runewell immediately replenishes gold taken from its supplies - yet this gold cannot exist more than 30 feet from the runewell's rim. If brought beyond this range, it vanishes in an instant.",
 			"",
 			"Runewells associated with other runelords and sins exist throughout the ruins of Thassilon; each of these artifacts is a unique item with its own powers.",
 			"",
@@ -2353,11 +2353,11 @@
 			"**Aura** strong necromancy; **CL** 20th  ",
 			"**Slot** none; **Price** -; **Weight** 900 lbs.",
 			"",
-			"Alaznist's runewell of wrath is located within the Eye of Fury, a demiplane hidden within the uppermost reaches of the runelord's realm of Hollow Mountain. The runewell's job of absorbing fragments of wrath from souls has already finished and allowed Alaznist to emerge, but it retains a few additional powers of note, beyond providing a portal between the Eye of Fury and Alaznist's Demesne. It grants Alaznist the ability to cast {spell/scrying} at will, although its range is limited to Hollow Mountain and the surrounding environs of Rivenrake Island. It also allows Alaznist to grant immunity to fire to anyone she chooses; this immunity is permanent until she revokes it, but it functions only while a creature is in the Eye of Fury. The runewell itself is 10 feet in diameter and 10 feet deep; the fiery liquid it contains functions as magma for the purposes of objects or creatures placed within it. Alaznist can extract up to 50,000 gp worth of material components (usually gemstones for casting spells like {spell/wish} or {spell/forcecage}) per day from this liquid fire; these material components fade if not used in 24 hours.",
+			"Alaznist's runewell of wrath is located within the Eye of Fury, a demiplane hidden within the uppermost reaches of the runelord's realm of Hollow Mountain. The runewell's job of absorbing fragments of wrath from souls has already finished and allowed Alaznist to emerge, but it retains a few additional powers of note, beyond providing a portal between the Eye of Fury and Alaznist's Demesne. It grants Alaznist the ability to cast {spell/scrying} at will, although its range is limited to Hollow Mountain and the surrounding environs of Rivenrake Island. It also allows Alaznist to grant immunity to fire to anyone she chooses; this immunity is permanent until she revokes it, but it functions only while a creature is in the Eye of Fury. The runewell itself is 10 feet in diameter and 10 feet deep; the fiery liquid it contains functions as [magma](rule/lava_effects) for the purposes of objects or creatures placed within it. Alaznist can extract up to 50,000 gp worth of material components (usually gemstones for casting spells like {spell/wish} or {spell/forcecage}) per day from this liquid fire; these material components fade if not used in 24 hours.",
 			"",
 			"### Destruction",
 			"",
-			"The {magic-artifact/runewell of wrath} is linked to Alaznist, and as long as she lives, the runewell cannot be destroyed. If Alaznist is slain, the liquid fire within the runewell immediately cools and becomes ordinary water, destroying the runewell in the process (although it can still be used as a portal to travel to Alaznist's Demesne, provided the {magic-artifact/anima focus} at area E10 still functions)."
+			"The runewell of wrath is linked to Alaznist, and as long as she lives, the runewell cannot be destroyed. If Alaznist is slain, the liquid fire within the runewell immediately cools and becomes ordinary water, destroying the runewell in the process (although it can still be used as a portal to travel to Alaznist's Demesne, provided the {magic-artifact/anima focus} at area E10 still functions)."
 		]
 	},
 	"saint_cuthberts_mace": {
@@ -2370,7 +2370,7 @@
 			"**Aura** strong abjuration, conjuration, and transmutation; **CL** 20th  ",
 			"**Slot** none; **Price** -; **Weight** 8 lbs.",
 			"",
-			"Despite its ragged appearance, Saint Cuthbert's Mace is a +5 axiomatic holy disruption heavy mace that allows the bearer to cast the spell {spell/searing light} at will. Any evil creature that attempts to wield the Mace is damaged as though it were struck by the weapon's searing light ability every round it wields the artifact.",
+			"Despite its ragged appearance, Saint Cuthbert's Mace is a +5 {magic-enh/axiomatic} {magic-enh/holy} {magic-enh/disruption} {eq-weapon/heavy mace} that allows the bearer to cast the spell {spell/searing light} at will. Any evil creature that attempts to wield the Mace is damaged as though it were struck by the weapon's searing light ability every round it wields the artifact.",
 			"",
 			"On the 20th of Pharast every year, the mace makes use of {spell/greater teleport}, {spell/interplanetary teleport}, or {spell/plane shift} to instantly travel to a location anywhere in the multiverse where it is needed, typically appearing where a worthy lawful good wielder will soon pass. The mace's bearer has no control over this effect and is not included in the artifact's teleportation.",
 			"",
@@ -2389,7 +2389,7 @@
 			"**Aura** overwhelming transmutation; **CL** 25th  ",
 			"**Slot** none; **Price** -; **Weight** 8 lbs.",
 			"",
-			"The Scepter of Ages can be wielded as a +4 heavy mace with a critical threat range of 18-20. In addition to the damage this weapon deals, any creature struck by the scepter ages a number of years equal to the damage taken. On a critical hit, not only does the scepter deal greater damage, but the victim ages 2 years for every point of damage taken. Creatures aged in this manner [might have their physical ability scores reduced](rule/age). For the wide range of unlisted humanoids and non-humanoids this aging might affect, GMs should use their judgment, general knowledge, and creature descriptions to decide how the effects of aging apply on a race-by-race basis. GMs looking for a quick way to approximate the ages of minor opponents should alter Strength, Dexterity, and Constitution by -1 for every 10 years aged and consider +40 years to be a creature's maximum age. Any creature aged to greater than its maximum age immediately dies. Constructs, outsiders, and undead are immune to the effects of aging. The mental abilities of those affected by this form of aging do not increase. Creatures that gain abilities dependant on their age gain these abilities as normal (though, at the GM's discretion, these abilities might not be immediately usable). The spell regenerate restores 1 year of premature aging for every hit point it heals. Creatures killed by aging can only be restored by {spell/miracle}, {spell/true resurrection}, or {spell/wish}, but even these spells do not heal aging, returning the target to life only 1 year younger than his maximum age.",
+			"The Scepter of Ages can be wielded as a +4 {eq-weapon/heavy mace} with a critical threat range of 18-20. In addition to the damage this weapon deals, any creature struck by the scepter {rule/age/s} a number of years equal to the damage taken. On a critical hit, not only does the scepter deal greater damage, but the victim ages 2 years for every point of damage taken. Creatures aged in this manner might have their physical ability scores reduced. For the wide range of unlisted humanoids and non-humanoids this aging might affect, GMs should use their judgment, general knowledge, and creature descriptions to decide how the effects of aging apply on a race-by-race basis. GMs looking for a quick way to approximate the ages of minor opponents should alter Strength, Dexterity, and Constitution by -1 for every 10 years aged and consider +40 years to be a creature's maximum age. Any creature aged to greater than its maximum age immediately dies. Constructs, outsiders, and undead are immune to the effects of aging. The mental abilities of those affected by this form of aging do not increase. Creatures that gain abilities dependant on their age gain these abilities as normal (though, at the GM's discretion, these abilities might not be immediately usable). The spell {spell/regenerate} restores 1 year of premature aging for every hit point it heals. Creatures killed by aging can only be restored by {spell/miracle}, {spell/true resurrection}, or {spell/wish}, but even these spells do not heal aging, returning the target to life only 1 year younger than his maximum age.",
 			"",
 			"In addition to its use as a weapon, the Scepter of Ages can open a portal through time. To do this, the scepter's bearer must spend 10 minutes precisely aligning the delicate mechanisms within the artifact's head to the exact dates she wishes to travel to. This requires the bearer to make either a DC 30 Knowledge (history) check to program a precise date or a DC 30 Wisdom check to travel to a general period. The bearer can rush through calibrating the scepter, activating it in 1 minute, but doing so increases the associated DCs by +10. Regardless of whether or not this check is successful, a 5-foot-wide glowing tear in time opens within 15 feet. This rift cannot be used as a weapon or to destructive effect. What time the passage opens to is determined by whether the bearer succeeds at the check (opening a portal to the desired time) or fails (opening a portal to the incorrect time, determined by how significantly he failed, as shown on the Accidental Time Travel Results table below). The time beyond the portal cannot be viewed and can only be discovered by passing completely through. The rift remains open for 1 minute before closing. What creatures or conditions lie beyond the portal are determined by the GM (see the Different Ages table below).",
 			"",
@@ -2401,15 +2401,15 @@
 			"",
 			"Those who use the Scepter of Ages may step through time, with all the dangers and repercussions that might entail.",
 			"",
-			"**Laws of Time:** The Scepter of Ages is the key to time traveling adventures, and all the perils and conundrums such stories entail. If a GM does not want time traveling elements in her game, is it strongly recommended that she not use the Scepter of Ages.",
+			"@HL[Laws of Time:] The Scepter of Ages is the key to time traveling adventures, and all the perils and conundrums such stories entail. If a GM does not want time traveling elements in her game, is it strongly recommended that she not use the Scepter of Ages.",
 			"",
-			"That said, time travel can be as simple or as complicated as a GM pleases. Nothing says a game has to become bogged down with split timelines, temporal paradoxes, and existence-shattering repercussions. GMs who want the effects of time travel to be like the ripples of a pebble dropped into a still pool might enjoy tracking every deed and ramification. Alternatively, some GMs might prefer the effects of time travel to be like a pebble dropped into a swift moving stream, having minor effects near the point of contact, but ultimately having no effect on the course of the water. Still other GMs might want to do away with popular rules of time travel entirely and invent their own, perhaps making time itself resistant to changes or revealing guardians of time (like the hounds of Tindalos).",
+			"That said, time travel can be as simple or as complicated as a GM pleases. Nothing says a game has to become bogged down with split timelines, temporal paradoxes, and existence-shattering repercussions. GMs who want the effects of time travel to be like the ripples of a pebble dropped into a still pool might enjoy tracking every deed and ramification. Alternatively, some GMs might prefer the effects of time travel to be like a pebble dropped into a swift moving stream, having minor effects near the point of contact, but ultimately having no effect on the course of the water. Still other GMs might want to do away with popular rules of time travel entirely and invent their own, perhaps making time itself resistant to changes or revealing guardians of time (like the {monster/hound[s] of Tindalos}).",
 			"",
 			"Beyond the mundane rules of time, GMs should consider how they want to handle other issues like magic. For example, can a cleric of a god who hasn't been born yet gain her magic in the distant past? Does magic change, and will it be as reliable in the far future as it is currently? Additionally, a GM should decide whether or not the key can ever open to a time totally antithetical to the scepter's bearer - such as a past before the creation of the Material Plane or a future where the entire planet has decayed to dust.",
 			"",
 			"Time travel opens the door to innumerable new adventures, but also requires considerable forethought on the laws of reality and the cultures that might be visited. GMs should feel free to create these details to suit the stories they want to tell, but are encouraged to remain consistent so players can enjoy the mystery of discovering these secrets of reality.",
 			"",
-			"Travels in Time: The future is a mysterious time, which might be a setting as fantastical, futuristic, or similar to the real world as GMs please. Traveling far enough essentially opens the door to new campaign settings, which GMs can design however they see fit.",
+			"@HL[Travels in Time:] The future is a mysterious time, which might be a setting as fantastical, futuristic, or similar to the real world as GMs please. Traveling far enough essentially opens the door to new campaign settings, which GMs can design however they see fit.",
 			"",
 			"#### Table: Accidental Time Travel Results",
 			"",
@@ -2433,7 +2433,7 @@
 			"| --- | --- | --- |",
 			"| Primeval past | Earlier than -50,000,001 | Prehistoric beasts and lethal environments |",
 			"| Prehistoric past | -50,000,00 to -1,000,001 | Beasts and dragons dominate |",
-			"| Primitive past | -1,000,000 to -10,001 | Serpentfolk and non-human domination |",
+			"| Primitive past | -1,000,000 to -10,001 | {monster/Serpentfolk} and non-human domination |",
 			"| Legendary past | -10,000 to -4,295 | Age of Darkness |",
 			"| Ages past | -4,294 AR to -1 AR | Ancient empires dominate |",
 			"| Distant past | 1 AR to 4,605 AR | |",
@@ -2455,11 +2455,11 @@
 			"**Aura** overwhelming (no school); **CL** 20th  ",
 			"**Slot** none; **Price** -; **Weight** 8 lbs.",
 			"",
-			"This scepter consists of two spiraling pieces of metal, one of iron and the other of adamantine, twisted around one another like two snakes. Each spiral terminates in a clenched fist.",
+			"This scepter consists of two spiraling pieces of metal, one of iron and the other of {eq-material/adamantine}, twisted around one another like two snakes. Each spiral terminates in a clenched fist.",
 			"",
-			"Nine times per day, the bearer of the Scepter of Alaznist can empower, expand, or maximize a spell she casts as though she were using a greater empower metamagic rod, greater expand metamagic rod, or greater maximize metamagic rod, except that she can simultaneously apply two or all three of these metamagic effects to the same spell, expending two or three of the scepter's daily uses, respectively. Each daily use spent when casting a spell lowers the DC of the spell by 2 (to a maximum reduction of 6); however, this reduction doesn't apply to evocation spells.",
+			"Nine times per day, the bearer of the Scepter of Alaznist can empower, expand, or maximize a spell she casts as though she were using a {magic-rod/greater empower metamagic rod}, {magic-rod/greater extend metamagic rod}, or {magic-rod/greater maximize metamagic rod}, except that she can simultaneously apply two or all three of these metamagic effects to the same spell, expending two or three of the scepter's daily uses, respectively. Each daily use spent when casting a spell lowers the DC of the spell by 2 (to a maximum reduction of 6); however, this reduction doesn't apply to evocation spells.",
 			"",
-			"The scepter also functions as a +5 adamantine light mace. When the wielder hits a creature, the wielder can cast a single targeted spell of up to 3rd level on the creature, as {magic-enh/spell-storing} weapon, by expending one of the scepter's daily uses as a swift action. The spell cast can't be empowered, extended, or maximized by the Scepter of Alaznist, but its DC isn't lowered for a daily use expended this way.",
+			"The scepter also functions as a +5 adamantine {eq-weapon/light mace}. When the wielder hits a creature, the wielder can cast a single targeted spell of up to 3rd level on the creature, as a {magic-enh/spell-storing} weapon, by expending one of the scepter's daily uses as a swift action. The spell cast can't be empowered, extended, or maximized by the Scepter of Alaznist, but its DC isn't lowered for a daily use expended this way.",
 			"",
 			"### Destruction",
 			"",
@@ -2476,7 +2476,7 @@
 			"**Aura** overwhelming all; **CL** 30th  ",
 			"**Slot** none; **Price** -; **Weight** 4 lbs.",
 			"",
-			"Pazuzu's weapon is the Scepter of Shibaxet, a staff of black metal with a large hook at its tip. The scepter functions as a rod of enemy detection that can be used any number of times per day. If Pazuzu presents the scepter as a standard action, all creatures within 30 feet who view it become panicked for 1d6 rounds unless they succeed at a DC 23 Will save (this is a mind-affecting fear effect). Once per day, Pazuzu can use the Scepter of Shibaxet as a {magic-rod/rod of cancellation} (this does not deplete or harm the scepter). As a standard action, he can call the scepter to his hand from any distance, even across planar boundaries. As an immediate action, Pazuzu can transform the scepter into a +5 anarchic keen unholy longsword or return it to its normal shape. None of its other powers can be used in sword form.",
+			"{monster/Pazuzu/'s} weapon is the Scepter of Shibaxet, a staff of black metal with a large hook at its tip. The scepter functions as a {magic-rod/rod of enemy detection} that can be used any number of times per day. If Pazuzu presents the scepter as a standard action, all creatures within 30 feet who view it become {misc/panicked} for 1d6 rounds unless they succeed at a DC 23 Will save (this is a mind-affecting fear effect). Once per day, Pazuzu can use the Scepter of Shibaxet as a {magic-rod/rod of cancellation} (this does not deplete or harm the scepter). As a standard action, he can call the scepter to his hand from any distance, even across planar boundaries. As an immediate action, Pazuzu can transform the scepter into a +5 {magic-enh/anarchic} {magic-enh/keen} {magic-enh/unholy} {eq-weapon/longsword} or return it to its normal shape. None of its other powers can be used in sword form.",
 			"",
 			"### Destruction",
 			"",
@@ -2497,16 +2497,16 @@
 			"",
 			"An individual seeking to wield the scepter must first bond with the artifact by permanently offering it one use of her mythic power. Thereafter, the owner must always keep one use of power unspent to maintain the bond. If the owner expends all her mythic power, the bond breaks and the individual can no longer access any of the scepter's power until she reestablishes her bond of ownership.",
 			"",
-			"Once bonded, the scepter can be wielded as a +6 brilliant energy light mace that grants a +4 enhancement bonus to its bonded owner's Charisma score. In addition, the owner can expend one use of mythic power and ring the scepter's bells to produce the following effects:",
+			"Once bonded, the scepter can be wielded as a +6 {magic-enh/brilliant energy} {eq-weapon/light mace} that grants a +4 enhancement bonus to its bonded owner's Charisma score. In addition, the owner can expend one use of mythic power and ring the scepter's bells to produce the following effects:",
 			"",
-			"- The wielder can ring the bell of authority to cast command targeting any non-mythic creature.",
-			"- The wielder can ring the bell of banishment to cast dismissal upon any non-mythic outsider with a CR at least 3 less than the wielder's total class level plus her tier.",
-			"- The wielder can ring the bell of dominion to cast sanctuary on any non-mythic creature.",
-			"- The wielder can ring the bell of imprisonment to cast forcecage on any non-mythic creature with a CR at least 3 less than the wielder's total class level plus her tier.",
+			"- The wielder can ring the bell of authority to cast {spell/command} targeting any non-mythic creature.",
+			"- The wielder can ring the bell of banishment to cast {spell/dismissal} upon any non-mythic outsider with a CR at least 3 less than the wielder's total class level plus her tier.",
+			"- The wielder can ring the bell of dominion to cast {spell/sanctuary} on any non-mythic creature.",
+			"- The wielder can ring the bell of imprisonment to cast {spell/forcecage} on any non-mythic creature with a CR at least 3 less than the wielder's total class level plus her tier.",
 			"",
 			"The caster level for all four effects is equal to the owner's total character level plus her tier. When she rings a bell, she can also expend an additional use of mythic power to increase the DC of the spell-like ability's saving throw by 10.",
 			"",
-			"Lastly, the owner can use the scepter to appoint a mythic agent to be a protector and advocate of the owner's people. When she does so, she bestows 1d4 uses of mythic power upon that creature that last for 1 month if the creature is mythic, or until they are spent if the creature is non-mythic. If the agent is mythic, these points increase the agent's maximum number of mythic uses for the month. If the champion is non-mythic, as long as that agent retains at least one use of mythic power, it gains the hard to kill and surge {rule/base mythic abilities}.",
+			"Lastly, the owner can use the scepter to appoint a mythic agent to be a protector and advocate of the owner's people. When she does so, she bestows 1d4 uses of mythic power upon that creature that last for 1 month if the creature is mythic, or until they are spent if the creature is non-mythic. If the agent is mythic, these points increase the agent's maximum number of mythic uses for the month. If the champion is non-mythic, as long as that agent retains at least one use of mythic power, it gains the *hard to kill* and *surge* {rule/base mythic abilities}.",
 			"",
 			"### Destruction",
 			"",
@@ -2543,11 +2543,11 @@
 			"**Aura** overwhelming conjuration; **CL** 23rd  ",
 			"**Slot** none; **Price** -; **Weight** 3 lbs.",
 			"",
-			"This innocuous-looking scrap is nothing less than the physical manifestation of a man-made demiplane known as Kakishon, and the rune covering the scroll is in fact a representation of the plane's several island regions. To open the gate, one must unfurl the scroll and speak the names Aliskiren, Isles of Night, Ismaizade, Kakishon, Khandelwal, Khosravi, and Serpent Isles, each time touching the section of the rune corresponding to the named island group. Once, this process allowed the user to choose where to appear within the realm, but the scroll is now damaged, and upon activation, all creatures within 50 feet with line of effect to the scroll must make a DC 40 Reflex save. Those who fail are sucked into the scroll and bodily transported to one of the waypoints within the demiplane of Kakishon. At the same instant creatures enter the plane, any being that previously entered the plane involuntarily may choose to depart, being expelled from the scroll back to the Material Plane. Once inside Kakishon, escape can prove difficult, requiring those trapped within to wait for others to enter, for the casting of a spell similar to plane shift, or for the discovery of one of the foundations of Kakishon's reality, all of which transport the subjects back to the Material Plane to a point within 10 feet of the Scroll of Kakishon.",
+			"This innocuous-looking scrap is nothing less than the physical manifestation of a man-made demiplane known as Kakishon, and the rune covering the scroll is in fact a representation of the plane's several island regions. To open the gate, one must unfurl the scroll and speak the names Aliskiren, Isles of Night, Ismaizade, Kakishon, Khandelwal, Khosravi, and Serpent Isles, each time touching the section of the rune corresponding to the named island group. Once, this process allowed the user to choose where to appear within the realm, but the scroll is now damaged, and upon activation, all creatures within 50 feet with line of effect to the scroll must make a DC 40 Reflex save. Those who fail are sucked into the scroll and bodily transported to one of the waypoints within the demiplane of Kakishon. At the same instant creatures enter the plane, any being that previously entered the plane involuntarily may choose to depart, being expelled from the scroll back to the Material Plane. Once inside Kakishon, escape can prove difficult, requiring those trapped within to wait for others to enter, for the casting of a spell similar to {spell/plane shift}, or for the discovery of one of the foundations of Kakishon's reality, all of which transport the subjects back to the Material Plane to a point within 10 feet of the Scroll of Kakishon.",
 			"",
 			"### Destruction",
 			"",
-			"Containing even a small group of chaotic beings such as azatas, proteans, or demons will gradually cause Kakishon to unravel, while a larger group or a more powerful chaotic entity can rend the demiplane to shreds in moments."
+			"Containing even a small group of chaotic beings such as {family/azata/s}, {family/protean/s}, or {family/demon/s} will gradually cause Kakishon to unravel, while a larger group or a more powerful chaotic entity can rend the demiplane to shreds in moments."
 		]
 	},
 	"serithtial": {
@@ -2564,15 +2564,15 @@
 			"**Aura** strong abjuration; **CL** 17th  ",
 			"**Slot** none; **Price** -; **Weight** 5 lbs.",
 			"",
-			"Serithtial is a +4 {magic-enh/holy} bastard sword crafted, it is said, by {faith/Iomedae} herself as a gift to Mandraivus's great-grandfather, a man who led several crusades against Nidal. The sword was handed down through the generations, finally coming into the hands of a well-respected hero of Lastwall: Mandraivus. Serithtial was the perfect weapon for Mandraivus's assault on Scarwall, and some scholars of history now believe that Iomedae had foreseen its need and forged it early to ensure that Mandraivus not only would inherit it, but would respect its traditions all the more.",
+			"Serithtial is a +4 {magic-enh/holy} {eq-weapon/bastard sword} crafted, it is said, by {faith/Iomedae} herself as a gift to Mandraivus's great-grandfather, a man who led several crusades against Nidal. The sword was handed down through the generations, finally coming into the hands of a well-respected hero of Lastwall: Mandraivus. Serithtial was the perfect weapon for Mandraivus's assault on Scarwall, and some scholars of history now believe that Iomedae had foreseen its need and forged it early to ensure that Mandraivus not only would inherit it, but would respect its traditions all the more.",
 			"",
-			"Although made of steel, Serithtial is treated as if made of both cold iron and silver for the purpose of penetrating damage reduction. Serithtial glows with the equivalent of a {spell/continual flame}, but its wielder can extinguish or ignite this glow as a move action. In addition, it gains a further +2 enhancement bonus and deals an extra 2d6 points of damage against foes who serve or worship {faith/Zon-Kuthon}, as if it had the {magic-enh/bane} weapon special ability against such foes. This effect also functions against Queen Ileosa and those who directly serve her - including creatures like the dragon Zarmangarof (who serves her under magical compulsion) and the {rule/Red Mantis} assassins (who serve as paid mercenaries). While Serithtial was forged as a bastard sword and reverts to this shape when no one wields it, when held in the hand, the sword immediately transforms into the type of blade its owner is most proficient with (choosing from dagger, short sword, longsword, scimitar, falchion, greatsword, rapier, or bastard sword - the GM can add additional sword-like weapons as she sees fit).",
+			"Although made of steel, Serithtial is treated as if made of both cold iron and silver for the purpose of penetrating damage reduction. Serithtial glows with the equivalent of a {spell/continual flame}, but its wielder can extinguish or ignite this glow as a move action. In addition, it gains a further +2 enhancement bonus and deals an extra 2d6 points of damage against foes who serve or worship {faith/Zon-Kuthon}, as if it had the {magic-enh/bane} weapon special ability against such foes. This effect also functions against Queen Ileosa and those who directly serve her - including creatures like the dragon Zarmangarof (who serves her under magical compulsion) and the {pclass/Red Mantis assassin/s} (who serve as paid mercenaries). While Serithtial was forged as a bastard sword and reverts to this shape when no one wields it, when held in the hand, the sword immediately transforms into the type of blade its owner is most proficient with (choosing from {eq-weapon/dagger}, {eq-weapon/short sword}, {eq-weapon/longsword}, {eq-weapon/scimitar}, {eq-weapon/falchion}, {eq-weapon/greatsword}, {eq-weapon/rapier}, or bastard sword - the GM can add additional sword-like weapons as she sees fit).",
 			"",
 			"Serithtial can cast {spell/cure moderate wounds} and {spell/zone of truth} three times per day each, and usually reserves its healing power to use on its wielder when he is reduced to 1/4 his total hit points.",
 			"",
 			"Serithtial's wielder gains the benefits of {spell/death ward} and {spell/freedom of movement} against attacks and effects generated by followers of Zon-Kuthon (and by extension, Queen Ileosa and her followers).",
 			"",
-			"Although Serithtial is lawful good, as long as its wielder is dedicated to the defeat of Kazavon and those he has corrupted (such as Queen Ileosa), the sword does not attempt to seize control of its wielder. If its wielder does go against its wishes, Serithtial tries to force him to relinquish the blade to a more appropriate wielder. As with all holy weapons, Serithtial imposes 1 negative level on any evil creature attempting to wield it. The negative level remains as long as the creature holds the weapon in its hand and disappears when the weapon is no longer wielded. A worshiper of Zon-Kuthon who wields Serithtial takes 4 negative levels and is nauseated as long as these negative levels persist. The negative levels and any additional side effects cannot be overcome in any way (including by {spell/restoration} spells) while the weapon is wielded.",
+			"Although Serithtial is lawful good, as long as its wielder is dedicated to the defeat of Kazavon and those he has corrupted (such as Queen Ileosa), the sword does not attempt to seize control of its wielder. If its wielder does go against its wishes, Serithtial tries to force him to relinquish the blade to a more appropriate wielder. As with all holy weapons, Serithtial imposes 1 {rule/negative level>s} on any evil creature attempting to wield it. The negative level remains as long as the creature holds the weapon in its hand and disappears when the weapon is no longer wielded. A worshiper of Zon-Kuthon who wields Serithtial takes 4 negative levels and is {misc/nauseated} as long as these negative levels persist. The negative levels and any additional side effects cannot be overcome in any way (including by {spell/restoration} spells) while the weapon is wielded.",
 			"",
 			"### Destruction",
 			"",
@@ -2603,10 +2603,10 @@
 			"",
 			"This artifact was crafted ages ago, weaving together wispy strands of shadow into a twisted black staff. The Shadowstaff makes the wielder slightly shadowy and incorporeal, granting him a +4 bonus to AC and on Reflex saves (which stacks with any other bonuses). However, in bright light (such as that of the sun, but not a torch) or in absolute darkness, the wielder takes a -2 penalty on all attack rolls, saves, and checks. The Shadowstaff also has these powers.",
 			"",
-			"- Summon Shadows: Three times per day the staff may summon 2d4 shadows. Immune to turning, they serve the wielder as if called by a {spell/summon monster V} spell cast at 20th level.",
-			"- Summon Nightshade: Once per month, the staff can summon an advanced shadow demon that serves the wielder as if called by a {spell/summon monster IX} spell cast at 20th level.",
-			"- Shadow Form: Three times per day the wielder can become a living shadow, with all the movement powers granted by gaseous form.",
-			"- Shadow Bolt: Three times per day the staff can project a ray attack that deals 10d6 points of cold damage to a single target. The shadow bolt has a range of 100 feet.",
+			"- @HL[Summon Shadows:] Three times per day the staff may summon 2d4 {monster/shadow/s}. Immune to turning, they serve the wielder as if called by a {spell/summon monster V} spell cast at 20th level.",
+			"- @HL[Summon Nightshade:] Once per month, the staff can summon an {template/advanced} {monster/shadow demon} that serves the wielder as if called by a {spell/summon monster IX} spell cast at 20th level.",
+			"- @HL[Shadow Form:] Three times per day the wielder can become a living shadow, with all the movement powers granted by {spell/gaseous form}.",
+			"- @HL[Shadow Bolt:] Three times per day the staff can project a ray attack that deals 10d6 points of cold damage to a single target. The shadow bolt has a range of 100 feet.",
 			"",
 			"### Destruction",
 			"",
@@ -2640,13 +2640,13 @@
 			"**Aura** overwhelming abjuration; **CL** 25th  ",
 			"**Slot** none; **Price** -; **Weight** 1 lb.",
 			"",
-			"The Shard of Envy is made of shimmering green noqual. As long as the Shard of Envy is carried, its owner can use {spell/dispel magic} as a spell-like ability once per day, gains a +2 insight bonus on saves versus abjuration spells and spell-like abilities, and gains a +1 insight bonus to AC.",
+			"The Shard of Envy is made of shimmering green {eq-material/noqual}. As long as the Shard of Envy is carried, its owner can use {spell/dispel magic} as a spell-like ability once per day, gains a +2 insight bonus on saves versus abjuration spells and spell-like abilities, and gains a +1 insight bonus to AC.",
 			"",
-			">*Curse:* The owner covets the success, wealth, and appearance of all other creatures, and becomes sickened whenever she is within 30 feet of any creature of the same race or character class as herself. Physical contact with such a creature nauseates the owner for 2d6 rounds if she fails a DC 20 Fortitude save.",
+			">*Curse:* The owner covets the success, wealth, and appearance of all other creatures, and becomes {misc/sickened} whenever she is within 30 feet of any creature of the same race or character class as herself. Physical contact with such a creature {misc/nauseate/s>d} the owner for 2d6 rounds if she fails a DC 20 Fortitude save.",
 			"",
 			"### Destruction",
 			"",
-			"A shard of the Sihedron cannot be destroyed individually. Only by recombining them into the Sihedron and then using that artifact's method of destruction can one destroy the shards."
+			"A shard of the {magic-artifact/Sihedron} cannot be destroyed individually. Only by recombining them into the Sihedron and then using that artifact's method of destruction can one destroy the shards."
 		]
 	},
 	"shard_of_gluttony": {
@@ -2659,13 +2659,13 @@
 			"**Aura** overwhelming necromancy; **CL** 25th  ",
 			"**Slot** none; **Price** -; **Weight** 1 lb.",
 			"",
-			"The Shard of Gluttony is made of pale inubrix. As long as the Shard of Gluttony is carried, its owner can use {spell/vampiric touch} as a spell-like ability once per day, gains a +2 insight bonus on saves versus necromancy spells, and increases his maximum hit points by 1 point per Hit Die.",
+			"The Shard of Gluttony is made of pale {eq-material/inubrix}. As long as the Shard of Gluttony is carried, its owner can use {spell/vampiric touch} as a spell-like ability once per day, gains a +2 insight bonus on saves versus necromancy spells, and increases his maximum hit points by 1 point per Hit Die.",
 			"",
-			">*Curse:* The owner is always hungry and thirsty, and is sickened whenever he has not eaten food in the past hour. The owner must make a DC 20 Will save to resist consuming any food or beverage (including potions and the like) he carries immediately. If the save is successful, the owner can resist the urge for 1 hour before being forced to make the save again.",
+			">*Curse:* The owner is always hungry and thirsty, and is {misc/sickened} whenever he has not eaten food in the past hour. The owner must make a DC 20 Will save to resist consuming any food or beverage (including potions and the like) he carries immediately. If the save is successful, the owner can resist the urge for 1 hour before being forced to make the save again.",
 			"",
 			"### Destruction",
 			"",
-			"A shard of the Sihedron cannot be destroyed individually. Only by recombining them into the Sihedron and then using that artifact's method of destruction can one destroy the shards."
+			"A shard of the {magic-artifact/Sihedron} cannot be destroyed individually. Only by recombining them into the Sihedron and then using that artifact's method of destruction can one destroy the shards."
 		]
 	},
 	"shard_of_greed": {
@@ -2678,13 +2678,13 @@
 			"**Aura** overwhelming transmutation; **CL** 25th  ",
 			"**Slot** none; **Price** -; **Weight** 1 lb.",
 			"",
-			"The Shard of Greed is made of black adamantine. As long as the Shard of Greed is carried, its owner can use {spell/haste} as a spell-like ability once per day, gains a +2 insight bonus on saves versus transmutation spells, and gains a +1 insight bonus on attack rolls.",
+			"The Shard of Greed is made of black {eq-material/adamantine}. As long as the Shard of Greed is carried, its owner can use {spell/haste} as a spell-like ability once per day, gains a +2 insight bonus on saves versus transmutation spells, and gains a +1 insight bonus on attack rolls.",
 			"",
-			">*Curse:* The owner becomes greedy, and is sickened whenever she is not wearing at least 500 gp per Hit Die in nonmagical jewelry and fine clothing. Each time the owner sells a belonging or gives one away, she must succeed at a DC 20 Will save or take 1d4 points of Wisdom damage.",
+			">*Curse:* The owner becomes greedy, and is {misc/sickened} whenever she is not wearing at least 500 gp per Hit Die in nonmagical jewelry and fine clothing. Each time the owner sells a belonging or gives one away, she must succeed at a DC 20 Will save or take 1d4 points of Wisdom damage.",
 			"",
 			"### Destruction",
 			"",
-			"A shard of the Sihedron cannot be destroyed individually. Only by recombining them into the Sihedron and then using that artifact's method of destruction can one destroy the shards."
+			"A shard of the {magic-artifact/Sihedron} cannot be destroyed individually. Only by recombining them into the Sihedron and then using that artifact's method of destruction can one destroy the shards."
 		]
 	},
 	"shard_of_lust": {
@@ -2697,13 +2697,13 @@
 			"**Aura** overwhelming enchantment; **CL** 25th  ",
 			"**Slot** none; **Price** -; **Weight** 1 lb.",
 			"",
-			"The Shard of Lust is made of a deep red djezet alloy. As long as the Shard of Lust is carried, its owner can use {spell/suggestion} as a spell-like ability once per day, gains a +2 insight bonus on saves versus enchantment spells, and gains a +4 insight bonus on Initiative checks.",
+			"The Shard of Lust is made of a deep red {eq-material/djezet} alloy. As long as the Shard of Lust is carried, its owner can use {spell/suggestion} as a spell-like ability once per day, gains a +2 insight bonus on saves versus enchantment spells, and gains a +4 insight bonus on Initiative checks.",
 			"",
-			">*Curse:* The owner becomes narcissistic, and is sickened whenever he has not engaged in sexual relations with another creature within the past 12 hours. While the owner wears any sort of armor or magic item that occupies the body slot, he is staggered.",
+			">*Curse:* The owner becomes narcissistic, and is {misc/sickened} whenever he has not engaged in sexual relations with another creature within the past 12 hours. While the owner wears any sort of armor or magic item that occupies the body slot, he is {misc/staggered}.",
 			"",
 			"### Destruction",
 			"",
-			"A shard of the Sihedron cannot be destroyed individually. Only by recombining them into the Sihedron and then using that artifact's method of destruction can one destroy the shards."
+			"A shard of the {magic-artifact/Sihedron} cannot be destroyed individually. Only by recombining them into the Sihedron and then using that artifact's method of destruction can one destroy the shards."
 		]
 	},
 	"shard_of_pride": {
@@ -2716,13 +2716,13 @@
 			"**Aura** overwhelming illusion; **CL** 25th  ",
 			"**Slot** none; **Price** -; **Weight** 1 lb.",
 			"",
-			"The Shard of Pride is made of coppery horacalcum. As long as the Shard of Pride is carried, its owner can use {spell/major image} as a spell-like ability once per day, gains a +2 insight bonus on saves versus illusion spells, and gains a +2 insight bonus on all skill checks.",
+			"The Shard of Pride is made of coppery {eq-material/horacalcum}. As long as the Shard of Pride is carried, its owner can use {spell/major image} as a spell-like ability once per day, gains a +2 insight bonus on saves versus illusion spells, and gains a +2 insight bonus on all skill checks.",
 			"",
-			">*Curse:* The owner suffers delusions of grandeur, and is sickened whenever she must serve another creature as a subordinate of any sort for as long as that arrangement persists. She cannot gain the benefit of the aid another action, nor can she take the aid another action.",
+			">*Curse:* The owner suffers delusions of grandeur, and is {misc/sickened} whenever she must serve another creature as a subordinate of any sort for as long as that arrangement persists. She cannot gain the benefit of the {rule/aid another>_2} action, nor can she take the aid another action.",
 			"",
 			"### Destruction",
 			"",
-			"A shard of the Sihedron cannot be destroyed individually. Only by recombining them into the Sihedron and then using that artifact's method of destruction can one destroy the shards."
+			"A shard of the {magic-artifact/Sihedron} cannot be destroyed individually. Only by recombining them into the Sihedron and then using that artifact's method of destruction can one destroy the shards."
 		]
 	},
 	"shard_of_sloth": {
@@ -2735,13 +2735,13 @@
 			"**Aura** overwhelming conjuration; **CL** 25th  ",
 			"**Slot** none; **Price** -; **Weight** 1 lb.",
 			"",
-			"The Shard of Sloth is made of blue-green glowing abysium. As long as the Shard of Sloth is carried, its owner can use {spell/summon monster III} as a spell-like ability once per day, gains a +2 insight bonus on saves versus conjuration spells, and gains a +4 insight bonus on all concentration and caster level checks.",
+			"The Shard of Sloth is made of blue-green glowing {eq-material/abysium}. As long as the Shard of Sloth is carried, its owner can use {spell/summon monster III} as a spell-like ability once per day, gains a +2 insight bonus on saves versus conjuration spells, and gains a +4 insight bonus on all concentration and caster level checks.",
 			"",
-			">*Curse:* The owner becomes lazy and sedentary, and becomes sickened for 1 hour whenever he makes more than a single move action in any round. All of the owner's movement speeds are halved.",
+			">*Curse:* The owner becomes lazy and sedentary, and becomes {misc/sickened} for 1 hour whenever he makes more than a single move action in any round. All of the owner's movement speeds are halved.",
 			"",
 			"### Destruction",
 			"",
-			"A shard of the Sihedron cannot be destroyed individually. Only by recombining them into the Sihedron and then using that artifact's method of destruction can one destroy the shards."
+			"A shard of the {magic-artifact/Sihedron} cannot be destroyed individually. Only by recombining them into the Sihedron and then using that artifact's method of destruction can one destroy the shards."
 		]
 	},
 	"shard_of_wrath": {
@@ -2754,13 +2754,13 @@
 			"**Aura** overwhelming evocation; **CL** 25th  ",
 			"**Slot** none; **Price** -; **Weight** 1 lb.",
 			"",
-			"The Shard of Wrath is made of sparkling silver siccatite that feels hot one day, but cold the next. As long as the Shard of Wrath is carried, its owner can use {spell/fireball} as a spell-like ability once per day, gains a +2 insight bonus on saves versus evocation spells, and gains a +2 insight bonus on all weapon damage rolls.",
+			"The Shard of Wrath is made of sparkling silver {eq-material/siccatite} that feels hot one day, but cold the next. As long as the Shard of Wrath is carried, its owner can use {spell/fireball} as a spell-like ability once per day, gains a +2 insight bonus on saves versus evocation spells, and gains a +2 insight bonus on all weapon damage rolls.",
 			"",
-			">*Curse:* The owner becomes addicted to violence, and is sickened whenever she hasn't brought a living creature to -1 hit points or fewer within the last hour. Once the owner attacks a creature, she must make a DC 20 Will save if she wants to cease attacking; otherwise, she does what she can to kill the creature.",
+			">*Curse:* The owner becomes addicted to violence, and is {misc/sickened} whenever she hasn't brought a living creature to -1 hit points or fewer within the last hour. Once the owner attacks a creature, she must make a DC 20 Will save if she wants to cease attacking; otherwise, she does what she can to kill the creature.",
 			"",
 			"### Destruction",
 			"",
-			"A shard of the Sihedron cannot be destroyed individually. Only by recombining them into the Sihedron and then using that artifact's method of destruction can one destroy the shards."
+			"A shard of the {magic-artifact/Sihedron} cannot be destroyed individually. Only by recombining them into the Sihedron and then using that artifact's method of destruction can one destroy the shards."
 		]
 	},
 	"shelana_the_mother_deck": {
@@ -2773,7 +2773,7 @@
 			"**Aura** strong (all schools); **CL** 20th  ",
 			"**Slot** none; **Price** -; **Weight** -",
 			"",
-			"Shelana the Mother Deck operates as an intelligent deck of many things, save that all her benefits and penalties are doubled (for example, the Star card grants a +4 bonus to ability stats instead of +2, the Skull card summons two dread wraiths at a time, and so on). Shelana can cast teleport once per day, transporting herself and her puzzle box only.",
+			"Shelana the Mother Deck operates as an intelligent {magic-artifact/deck of many things}, save that all her benefits and penalties are doubled (for example, the Star card grants a +4 bonus to ability stats instead of +2, the Skull card summons two dread wraiths at a time, and so on). Shelana can cast {spell/teleport} once per day, transporting herself and her puzzle box only.",
 			"",
 			"### Destruction",
 			"",
@@ -2801,15 +2801,15 @@
 			"**Aura** strong abjuration; **CL** 20th  ",
 			"**Slot** shield; **Price** -; **Weight** 10 lbs.",
 			"",
-			"The Shield of Aroden is a +5 light fortification spell resistance (17) heavy wooden shield. Once per day, the bearer can invoke a form of fire shield that protects against cold attacks and damages opponents with fire and holy damage similarly to the spell flame strike. Once per round as an immediate action, if an adjacent ally is hit by a ranged or melee attack, the bearer can use the shield to redirect the attack to himself, taking all effects from that attack as if he were the intended target. All allies within 100 feet of the bearer gain the effect of bless and prayer. Additionally, all allies within 100 feet of the bearer know his relative position and condition, as per the spell status.",
+			"The Shield of Aroden is a +5 {magic-enh/light fortification} {magic-enh/spell resistance (17)} {eq-armor/heavy wooden shield}. Once per day, the bearer can invoke a form of {spell/fire shield} that protects against cold attacks and damages opponents with fire and holy damage similarly to the spell {spell/flame strike}. Once per round as an immediate action, if an adjacent ally is hit by a ranged or melee attack, the bearer can use the shield to redirect the attack to himself, taking all effects from that attack as if he were the intended target. All allies within 100 feet of the bearer gain the effect of {spell/bless} and {spell/prayer}. Additionally, all allies within 100 feet of the bearer know his relative position and condition, as per the spell {spell/status}.",
 			"",
-			"Beyond these properties, the Shield of Aroden is designed to protect its bearer from death. Any attack that would kill the bearer (not merely make him unconscious or dying) triggers this ability, redirecting the lethal attack fully upon the shield and leaving the bearer unharmed (even if the attack normally only works on living creatures). For example, if the bearer failed a saving throw against flesh to stone, the shield would turn to stone and shatter instead, whereas if the bearer failed his save against horrid wilting, the shield would turn to dry splinters. This power always destroys the shield, reducing it to 1d20 nearly invulnerable shards that suggest the way in which it was last destroyed.",
+			"Beyond these properties, the Shield of Aroden is designed to protect its bearer from death. Any attack that would kill the bearer (not merely make him unconscious or dying) triggers this ability, redirecting the lethal attack fully upon the shield and leaving the bearer unharmed (even if the attack normally only works on living creatures). For example, if the bearer failed a saving throw against {spell/flesh to stone}, the shield would turn to stone and shatter instead, whereas if the bearer failed his save against {spell/horrid wilting}, the shield would turn to dry splinters. This power always destroys the shield, reducing it to 1d20 nearly invulnerable shards that suggest the way in which it was last destroyed.",
 			"",
-			"The Shield of Aroden bestows two negative levels on any chaotic creature that attempts to wield it. These negative levels remain as long as the shield is held or carried. These negative levels never result in actual level loss, but they cannot be overcome in any way (including restoration spells) while the creature possesses the shield.",
+			"The Shield of Aroden bestows two {rule/negative levels} on any chaotic creature that attempts to wield it. These negative levels remain as long as the shield is held or carried. These negative levels never result in actual level loss, but they cannot be overcome in any way (including {spell/restoration} spells) while the creature possesses the shield.",
 			"",
 			"### Destruction",
 			"",
-			"The Shield of Aroden is designed to be destroyed, but the supposedly invulnerable shards left by its destruction can be utterly destroyed if they are consumed by a chaotic neutral being at least as powerful as a demigod, such as the proteans' Speakers of the Depths or the Eldest known as Count Ranalc."
+			"The Shield of Aroden is designed to be destroyed, but the supposedly invulnerable shards left by its destruction can be utterly destroyed if they are consumed by a chaotic neutral being at least as powerful as a demigod, such as the proteans' {faith/Speakers of the Depths} or the Eldest known as {faith/Count Ranalc}."
 		]
 	},
 	"shield_of_xin_undoros": {
@@ -2824,13 +2824,13 @@
 			"",
 			"The boss of this large black shield resembles a deformed skull of tarnished silver. The shield bears many dents and scratches from past battles.",
 			"",
-			"The Shield of Xin-Undoros is a +5 heavy steel shield that makes its bearer unnaturally strong and resilient like a rune giant, granting a +6 enhancement bonus to Constitution and Strength as long as the shield is readied. As a standard action, the bearer can increase his size by up to two size categories, to a maximum of Gargantuan. For each size category increased, the bearer gains a +2 size bonus to Constitution and Strength and takes a -2 penalty to Dexterity. The bearer can shrink back to his normal size with another standard action; the effect also ends if he loses the shield.",
+			"The Shield of Xin-Undoros is a +5 {eq-armor/heavy steel shield} that makes its bearer unnaturally strong and resilient like a {monster/rune giant}, granting a +6 enhancement bonus to Constitution and Strength as long as the shield is readied. As a standard action, the bearer can increase his size by up to two size categories, to a maximum of Gargantuan. For each size category increased, the bearer gains a +2 size bonus to Constitution and Strength and takes a -2 penalty to Dexterity. The bearer can shrink back to his normal size with another standard action; the effect also ends if he loses the shield.",
 			"",
 			"When readied, the Shield of Xin-Undoros also grants the bearer spell resistance 31. The bearer can ready an action to attempt to reflect a spell; if a spellcaster fails her caster level check to overcome the spell resistance granted by the shield, the shield's bearer can reflect the spell back at its caster as per {spell/spell turning}.",
 			"",
 			"### Destruction",
 			"",
-			"The shield explodes if an enemy successfully targets the bearer of the shield with a spell that overcomes the shield's spell resistance and then, within 1 round, succeeds at a sunder combat maneuver check against the shield that deals enough damage to destroy it in a single blow. The explosion of the shield's destruction deals 12d8 points of sonic damage to each creature and object within 30 feet (no save)."
+			"The shield explodes if an enemy successfully targets the bearer of the shield with a spell that overcomes the shield's spell resistance and then, within 1 round, succeeds at a {rule/sunder} combat maneuver check against the shield that deals enough damage to destroy it in a single blow. The explosion of the shield's destruction deals 12d8 points of sonic damage to each creature and object within 30 feet (no save)."
 		]
 	},
 	"shroud_of_flies": {
@@ -2845,9 +2845,9 @@
 			"",
 			"Crystal baubles that resemble insect wings line the edge of this luxurious but fraying cloak. The garment was once a cloak of displacement, but the harbinger spirit trapped within has warped and twisted it - now it offers false hope rather than security. The Shroud of Flies grants its wearer a +2 profane bonus to Constitution and +4 resistance bonus on Reflex and Will saves, but imposes a -6 penalty on Fortitude saves against disease.",
 			"",
-			"Three times per day, the wearer can brush another creature with the shawl to remove all lingering effects caused by a disease, poison, or curse, as per {spell/break enchantment}, {spell/remove curse}, or {spell/remove disease}. These effects are not eliminated, and return immediately with all accrued penalties after 24 hours. Any creature embraced in this way must immediately succeed at a DC 18 Fortitude save or be infected with one of the following diseases: blinding sickness, cackle fever, devil chills, or leprosy. Any creature the wearer touches while offering medical aid, such as casting cure spells, administering a potion, or using the Heal skill, must likewise succeed at this Fortitude save or become infected.",
+			"Three times per day, the wearer can brush another creature with the shawl to remove all lingering effects caused by a disease, poison, or curse, as per {spell/break enchantment}, {spell/remove curse}, or {spell/remove disease}. These effects are not eliminated, and return immediately with all accrued penalties after 24 hours. Any creature embraced in this way must immediately succeed at a DC 18 Fortitude save or be infected with one of the following diseases: {disease/blinding sickness}, {disease/cackle fever}, {disease/devil chills}, or {disease/leprosy}. Any creature the wearer touches while offering medical aid, such as casting *cure* spells, administering a potion, or using the {skill/Heal} skill, must likewise succeed at this Fortitude save or become infected.",
 			"",
-			"The Shroud of Flies can be wielded as a net as well, but only against daemons. Any creature that has worn the shroud for at least 24 hours is considered proficient in its use as a weapon.",
+			"The Shroud of Flies can be wielded as a {eq-weapon/net} as well, but only against {family/daemon/s}. Any creature that has worn the shroud for at least 24 hours is considered proficient in its use as a weapon.",
 			"",
 			"### Destruction",
 			"",
@@ -2873,35 +2873,35 @@
 			"",
 			"Alas, Xin's ideals for the diversity of Thassilon were misplaced, and even as his rule continued, he found himself increasingly paranoid and unwilling to share the powers granted by the Sihedron. The fact that the item was intended to be a powerful shared artifact but has never properly been used in this manner is one of the greatest ironies of Thassilon.",
 			"",
-			"The Sihedron itself is a relatively plain-looking item. The seven different hues of its composite metals give it some color, but the artifact lacks any of the decorative runes and markings that are so common on other Thassilonian artifacts. Even the artifact itself, built in the image of the sign of Lissala and the rune for the Thassilonian schools of magic, seems somewhat plain, lacking the distinctive hook-like shapes along the Sihedron rune's arms. Instead, these hooks are represented in the device by seven ioun stones embedded on the arms.",
+			"The Sihedron itself is a relatively plain-looking item. The seven different hues of its composite metals give it some color, but the artifact lacks any of the decorative runes and markings that are so common on other Thassilonian artifacts. Even the artifact itself, built in the image of the sign of {faith/Lissala>_pre_earthfall} and the rune for the Thassilonian schools of magic, seems somewhat plain, lacking the distinctive hook-like shapes along the Sihedron rune's arms. Instead, these hooks are represented in the device by seven ioun stones embedded on the arms.",
 			"",
 			"To activate the Sihedron, a person needs only to touch the center of the star where all seven arms meet and concentrate as a swift action - the Sihedron then immediately rises up into the air behind the user's head like a halo and floats along behind him wherever he goes, even teleporting along with him. Although the Sihedron is not in physical contact with the user, it is in all ways treated as if it were an attended object being held or carried. Once activated, the Sihedron glows with a warm yellow light that sheds illumination as per a {spell/daylight} spell. It implants knowledge of all its powers and how to activate them into the mind of anyone who activates it in this way.",
 			"",
-			"Once activated, the Sihedron protects its user in a number of ways. First, it constantly infuses the wearer with magical energy, granting him fast healing 5. Second, it grants the user the constant effects of a {spell/foresight} spell (providing a +2 insight bonus to AC and on Reflex saves, and preventing the user from being surprised or flat-footed). Third, up to once per day, the Sihedron can target its bearer with {spell/true resurrection} the instant he is slain - he need not activate this power, as the Sihedron automatically triggers if the user is killed.",
+			"Once activated, the Sihedron protects its user in a number of ways. First, it constantly infuses the wearer with magical energy, granting him {umr/fast healing} 5. Second, it grants the user the constant effects of a {spell/foresight} spell (providing a +2 insight bonus to AC and on Reflex saves, and preventing the user from being surprised or flat-footed). Third, up to once per day, the Sihedron can target its bearer with {spell/true resurrection} the instant he is slain - he need not activate this power, as the Sihedron automatically triggers if the user is killed.",
 			"",
 			"When the user activates the Sihedron, he must select one of the star's points to be ascendant, causing the Sihedron to rotate so that this point is oriented straight upward. The user immediately gains an additional defensive ability and an at-will spell-like ability, as detailed below. Each point is opposed by two other points; the user can change which point is ascendant by concentrating as a standard action, but he cannot change the point to an opposing point. The effects granted by each of the Sihedron's points (as well as the two opposing points for each) are listed at the end of this item description.",
 			"",
 			"As an immediate action (but no more than once per combat round), the current user of the Sihedron can instantaneously transfer the artifact to another willing creature within 120 feet. The Sihedron teleports from the current user and appears behind the head of the target creature. As it does so, it unleashes a surge of potent magic that affects both creatures, granting a +2 insight bonus on saving throws for 1 round and restoring 2d8+10 points of damage for each creature. This transfer occurs so quickly that it can grant the bonus on a saving throw after the saving throw itself has been rolled, but the transfer must be made before the outcome of that roll is announced by the GM. Likewise, the healing granted can occur in the instant before a creature takes damage from any source, possibly healing a heavily wounded target before additional damage renders it unconscious or even kills it. When the Sihedron is granted to a new target in this manner, the new target can automatically select which point of the Sihedron is ascendant, even if that point is oppositional to the previously ascendant point.",
 			"",
-			"Each of the Sihedron's arms contains an ioun stone embedded in a small receptacle. These ioun stones cannot be removed as long as the Sihedron is whole, and they help to power the following additional abilities when one of the points is ascendant.",
+			"Each of the Sihedron's arms contains an {magic-wondrous/ioun stone} embedded in a small receptacle. These ioun stones cannot be removed as long as the Sihedron is whole, and they help to power the following additional abilities when one of the points is ascendant.",
 			"",
-			"Charity: Grants a +4 insight bonus to AC and {spell/dimensional anchor} as a spell-like ability. Opposed by both kindness and temperance.",
+			"@HL[Charity:] Grants a +4 insight bonus to AC and {spell/dimensional anchor} as a spell-like ability. Opposed by both kindness and temperance.",
 			"",
-			"Generosity: Grants a +4 insight bonus on attack rolls and {spell/beast shape II} as a spell-like ability. Opposed by humility and love.",
+			"@HL[Generosity:] Grants a +4 insight bonus on attack rolls and {spell/beast shape II} as a spell-like ability. Opposed by humility and love.",
 			"",
-			"Humility: Grants a +8 insight bonus on skill checks and {spell/greater invisibility} as a spell-like ability. Opposed by generosity and zeal.",
+			"@HL[Humility:] Grants a +8 insight bonus on skill checks and {spell/greater invisibility} as a spell-like ability. Opposed by generosity and zeal.",
 			"",
-			"Kindness: Grants a +4 insight bonus on weapon damage rolls and {spell/ice storm} as a spell-like ability. Opposed by charity and zeal.",
+			"@HL[Kindness:] Grants a +4 insight bonus on weapon damage rolls and {spell/ice storm} as a spell-like ability. Opposed by charity and zeal.",
 			"",
-			"Love: Grants a +8 insight bonus on initiative checks and {spell/charm monster} as a spell-like ability. Opposed by generosity and temperance.",
+			"@HL[Love:] Grants a +8 insight bonus on initiative checks and {spell/charm monster} as a spell-like ability. Opposed by generosity and temperance.",
 			"",
-			"Temperance: Grants fast healing 10 (this replaces the standard fast healing granted by the Sihedron) and {spell/fear} as a spell-like ability. Opposed by charity and love.",
+			"@HL[Temperance:] Grants fast healing 10 (this replaces the standard fast healing granted by the Sihedron) and {spell/fear} as a spell-like ability. Opposed by charity and love.",
 			"",
-			"Zeal: Grants a +8 insight bonus on concentration and caster level checks and {spell/dimension door} as a spell-like ability. Opposed by humility and kindness.",
+			"@HL[Zeal:] Grants a +8 insight bonus on concentration and caster level checks and {spell/dimension door} as a spell-like ability. Opposed by humility and kindness.",
 			"",
 			"### Destruction",
 			"",
-			"The Sihedron must be crushed under the foot of the Oliphaunt of Jandelay while it is being used by a character who willingly allows himself (along with the Sihedron) to be so destroyed."
+			"The Sihedron must be crushed under the foot of the {monster/Oliphaunt of Jandelay} while it is being used by a character who willingly allows himself (along with the Sihedron) to be so destroyed."
 		]
 	},
 	"silver_maiden": {
@@ -2916,7 +2916,7 @@
 			"",
 			"With its shimmering, luminous silver-gray sails and tendency to briefly shift in and out of phase with the Material Plane, this star-faring sailing ship is often mistaken for a ghost ship. Though non-mythic creatures can board the ship as passengers, the Silver Maiden requires a mythic creature to be its captain. If the ship currently has no captain, a mythic character can claim the captaincy by touching the ship's wheel and stating her desire to be captain. The captain then serves until death or voluntarily retirement. Upon assuming the captaincy, the captain becomes aware of all of the ship's powers, and can propel the ship completely unaided from anywhere aboard the vessel, whether sailing the high seas of a terrestrial world or gliding through the vast blackness of deep space.",
 			"",
-			"At will, the captain can expend two uses of mythic power to launch the Silver Maiden into outer space. Once in space, the ship can sail through the vacuum at incredible speeds. Although exact travel times vary, a voyage between two planets within a solar system takes 2d20 days, and a voyage to another star system takes 2d20 weeks (or more at the GM's discretion). The captain must know which world she wishes to travel to (as if the captain cast greater teleport). When the ship arrives at its destination, it slowly descends to the surface (as the {spell/feather fall} spell), and typically lands in a body of water. Once earthbound, the ship moves as a standard sailing ship. If the planet has no water or comparable liquid, the ship lands on solid ground and is unable to move until the captain once again launches the ship back into space.",
+			"At will, the captain can expend two uses of mythic power to launch the Silver Maiden into outer space. Once in space, the ship can sail through the vacuum at incredible speeds. Although exact travel times vary, a voyage between two planets within a solar system takes 2d20 days, and a voyage to another star system takes 2d20 weeks (or more at the GM's discretion). The captain must know which world she wishes to travel to (as if the captain cast {spell/greater teleport}). When the ship arrives at its destination, it slowly descends to the surface (as the {spell/feather fall} spell), and typically lands in a body of water. Once earthbound, the ship moves as a standard sailing ship. If the planet has no water or comparable liquid, the ship lands on solid ground and is unable to move until the captain once again launches the ship back into space.",
 			"",
 			"The Silver Maiden can also sail the Outer Planes. At will, the captain can expend three uses of mythic power to transport the ship to another plane, as the {spell/plane shift} spell. When the ship arrives at its extraplanar destination, it appears in a body of water or comparable liquid, 1 to 100 miles from the captain's intended destination. If the plane has no water (such as the Plane of Earth) the ship appears on solid ground, and is unable to move until the captain transports it to another plane. If the plane has neither water nor a solid surface, such as the Plane of Air, the ship continues to slowly fall (as the feather fall spell) until the captain transports it to another plane.",
 			"",
@@ -2940,19 +2940,19 @@
 			"**Aura** overwhelming all; **CL** 30th  ",
 			"**Slot** none; **Price** -; **Weight** 150 lbs.",
 			"",
-			"More than just a powerful artifact, the Skull of Ydersius is the actual skull of a deity, the vessel through which the much-diminished god of serpents perceives and influences existence. Ydersius's clerics still receive spells from their prayers, granted by the skull regardless of its location or ownership. There is no way a mortal can block this effect. Possession of the skull grants several abilities.",
+			"More than just a powerful artifact, the Skull of Ydersius is the actual skull of a deity, the vessel through which the much-diminished god of serpents perceives and influences existence. {faith/Ydersius/'s} clerics still receive spells from their prayers, granted by the skull regardless of its location or ownership. There is no way a mortal can block this effect. Possession of the skull grants several abilities.",
 			"",
-			"Blessing of Scales: All reptilian creatures (including worshipers of Ydersius, sorcerers with the serpentine or draconic bloodline, and druids wild-shaped into reptilian forms) within 160 feet of the Skull of Ydersius gain spell resistance 25 and fast healing 10.",
+			"@HL[Blessing of Scales:] All reptilian creatures (including worshipers of Ydersius, sorcerers with the serpentine or draconic bloodline, and druids wild-shaped into reptilian forms) within 160 feet of the Skull of Ydersius gain spell resistance 25 and {umr/fast healing} 10.",
 			"",
-			"Unholy Aura: The skull treats the 80-foot-radius area around it as though an unhallow spell had been cast with the Skull of Ydersius as the point of origin. This effect carries with it two linked spells that affect only worshipers of Ydersius (death ward and freedom of movement), and two linked spells that affect all non-worshipers of Ydersius (bane and dimensional anchor).",
+			"@HL[Unholy Aura:] The skull treats the 80-foot-radius area around it as though an {spell/unhallow} spell had been cast with the Skull of Ydersius as the point of origin. This effect carries with it two linked spells that affect only worshipers of Ydersius ({spell/death ward} and {spell/freedom of movement}), and two linked spells that affect all non-worshipers of Ydersius ({spell/bane} and {spell/dimensional anchor}).",
 			"",
-			"Voice of the Serpent: Once per day, a creature that touches the skull may cast commune to speak with Ydersius. A non-worshiper of Ydersius who uses this power must make a successful DC 25 Will save each time the power is used to avoid succumbing to a feeblemind spell.",
+			"@HL[Voice of the Serpent:] Once per day, a creature that touches the skull may cast {spell/commune} to speak with Ydersius. A non-worshiper of Ydersius who uses this power must make a successful DC 25 Will save each time the power is used to avoid succumbing to a {spell/feeblemind} spell.",
 			"",
-			"Any good-aligned creature that carries the Skull of Ydersius, even via an extradimensional space such as a portable hole, gains three negative levels. These negative levels remain as long as the skull is carried and disappear when the skull is released. These negative levels never result in actual level loss, but they cannot be overcome in any way (including restoration spells) while the skull is carried. A creature that suffers from these negative levels has a 50% spell failure chance on all divine spellcasting attempts.",
+			"Any good-aligned creature that carries the Skull of Ydersius, even via an extradimensional space such as a {magic-wondrous/portable hole}, gains three {rule/negative levels}. These negative levels remain as long as the skull is carried and disappear when the skull is released. These negative levels never result in actual level loss, but they cannot be overcome in any way (including {spell/restoration} spells) while the skull is carried. A creature that suffers from these negative levels has a 50% spell failure chance on all divine spellcasting attempts.",
 			"",
 			"### Destruction",
 			"",
-			"The only way to destroy the Skull of Ydersius is to reunite it with Ydersius's mindless, decapitated body. Doing so returns Ydersius to life, though in a weakened state. This manifestation can be combated and even slain, though it regenerates from nearly any wound short of re-decapitation. For an instant, before the whole body begins to regenerate, Ydersius's spirit is untethered from his form. If Ydersius is dragged to the Boneyard and slain in Pharasma's presence, the goddess of death can judge the serpent god, causing his body and skull to disintegrate to dust."
+			"The only way to destroy the Skull of Ydersius is to reunite it with Ydersius's mindless, decapitated body. Doing so returns Ydersius to life, though in a weakened state. This manifestation can be combated and even slain, though it regenerates from nearly any wound short of re-decapitation. For an instant, before the whole body begins to regenerate, Ydersius's spirit is untethered from his form. If Ydersius is dragged to the Boneyard and slain in {faith/Pharasma/'s} presence, the goddess of death can judge the serpent god, causing his body and skull to disintegrate to dust."
 		]
 	},
 	"skullsoul": {
@@ -2966,11 +2966,11 @@
 			"**Aura** strong necromancy; **CL** 18th  ",
 			"**Slot** none; **Price** -; **Weight** 8 lbs.",
 			"",
-			"This grim, alabaster figurine is the size of a human skull with an elaborately sculpted base. The Skullsoul is inert until it is bonded with a living creature. It then becomes a powerful and never-questioning companion. The Skullsoul functions as a demilich without the devour soul, rejuvenation, telekinetic storm, and torpor abilities, and with a hardness of 10. It is under the complete control of whoever bonds with the skull. Bonding with the Skullsoul is a ritual that takes 24 hours to perform, and doing so is an evil act. Paladins and good clerics who do so become ex-paladins and ex-clerics respectively. If they wish to atone, they must intercede with their deities (expending 2,500 gp in rare incense and offerings) and must promise to contain the skull.",
+			"This grim, alabaster figurine is the size of a human skull with an elaborately sculpted base. The Skullsoul is inert until it is bonded with a living creature. It then becomes a powerful and never-questioning companion. The Skullsoul functions as a {monster/demilich} without the *devour soul, rejuvenation, telekinetic storm,* and *torpor* abilities, and with a hardness of 10. It is under the complete control of whoever bonds with the skull. Bonding with the Skullsoul is a ritual that takes 24 hours to perform, and doing so is an evil act. Paladins and good clerics who do so become ex-paladins and ex-clerics respectively. If they wish to {spell/atone>ment}, they must intercede with their deities (expending 2,500 gp in rare incense and offerings) and must promise to contain the skull.",
 			"",
 			"### Destruction",
 			"",
-			"The Skullsoul cannot be destroyed but it can be contained. As long as the Skullsoul stays pierced by either a weapon with the vorpal special ability or a holy avenger, it is contained and entirely inert until the sword is removed."
+			"The Skullsoul cannot be destroyed but it can be contained. As long as the Skullsoul stays pierced by either a weapon with the {magic-enh/vorpal} special ability or a {magic-weapon/holy avenger}, it is contained and entirely inert until the sword is removed."
 		]
 	}
 }
