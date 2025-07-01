@@ -254,6 +254,13 @@ $All.forEach(([link, object]) => {
 //    $KnownProps.race.ratfolk = true
 //    $KnownProps.race.rat = undefined
 
+const checkForMalformedLinks = (line) => {
+	// \t"[^"]*(?<!\])\{(?![-a-z_]+/[^}]+\})(?!SOURCE|table[0-9]+|className|c=|jumplist)
+	if(line.match(/(?<!\])\{(?![-a-z_]+[/][^}]+\})(?!SOURCE|table[0-9]+|className|c=|jumplist)/)) {
+		return `Malformed link:\n\t\t => "${line}"`;
+	}
+};
+
 const parseTree = (tree) => {
 	const feats = $KnownProps.feat;
 	const found = new Set();
@@ -387,6 +394,10 @@ const testLinks = () => {
 						invalid.push(fulltext === `{${potential}}` ? fulltext : `${fulltext} => ${potential}`)
 					}
 					temp = post;
+				}
+				const malformed = checkForMalformedLinks(line);
+				if(malformed) {
+					msg.push(malformed);
 				}
 			});
 			// Test validity of topLink properties

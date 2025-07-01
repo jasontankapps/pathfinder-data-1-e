@@ -86,9 +86,9 @@ const logError = (...message) => {
 })();
 
 // Handle implicit jumplists
-const jl = (text, id) => {
+const jl = (text, id, possibleText) => {
 	const jl = $.flags.implicitJumplist || [];
-	$.flags.implicitJumplist = [...jl, [text, id] ];
+	$.flags.implicitJumplist = [...jl, [(typeof possibleText === "string") && possibleText !== "jl" ? possibleText : text, id] ];
 };
 
 const alternateBlocks = {
@@ -161,7 +161,7 @@ const alternateBlocks = {
 		} else if ("h2h3h4h5h6".indexOf(n) >= 0) {
 			if(attrs.jl) {
 				const id = $.prefix + (attrs.id || text.toLowerCase().replace(/ +/g, "-").replace(/[^-a-z0-9]/g, ""));
-				jl(text, id);
+				jl(text, id, attrs.jl);
 				if(attrs.extra) {
 					return `<${n} id="${id}" data-hash-target>${text} ${attrs.extra}</${n}>\n`;
 				}
@@ -190,7 +190,7 @@ const alternateBlocks = {
 			}
 			if(attrs.jl) {
 				const id = $.prefix + (attrs.id || linktext.toLowerCase().replace(/ +/g, "-").replace(/[^-a-z0-9]/g, ""));
-				jl(linktext, id);
+				jl(linktext, id, attrs.jl);
 				return `<${t} id="${id}" data-hash-target>${inner}</${t}>\n`;
 			}
 			return `<${t}>${inner}</${t}>`;
@@ -269,7 +269,7 @@ const inlineTags = {
 						.toLowerCase()
 						.replace(/[^-a-z0-9]/g, "")
 				);
-				jl(text, id);
+				jl(text, id, attrs.jl);
 				return id;
 			}
 		};
@@ -320,12 +320,10 @@ const inlineTags = {
 				return false;
 		}
 		const marked2 = makeNewMarkedInstance();
-		const s = attrs.s || "/";
-		const texts = text.split(s);
-		const id = $.prefix + (attrs.id || texts[0].replace(/ +/g, "-").toLowerCase().replace(/[^-a-z0-9]/g, ""));
+		const id = $.prefix + (attrs.id || text.replace(/ +/g, "-").toLowerCase().replace(/[^-a-z0-9]/g, ""));
 		// implicit jumplist
-		attrs.jl && jl(texts[0], id);
-		return `<${tag} id="${id}" data-hash-target>${marked2.parseInline(texts.join(""))}</${tag}>`;
+		attrs.jl && jl(text, id, attrs.jl);
+		return `<${tag} id="${id}" data-hash-target>${marked2.parseInline(text)}</${tag}>`;
 	}
 };
 
@@ -417,8 +415,11 @@ const postprocess = (tables) => {
 			.replace(/&#39;/g, "'")
 			// Replace unneeded HTML entity for the quotation mark
 			.replace(/&quot;/g, "\"")
+			// Restore { and }
+			.replace(/&#123;/g, "{")
+			.replace(/&#125;/g, "}")
 			// Remove whitespace at start and end
-			.trim()
+			.trim();
 		let output = "";
 		let m = false;
 		//<sup><a id="footnotey-ref-H" href="#footnotey-H" data-footnotey-ref aria-describedby="footnotey-label">1</a></sup>
@@ -446,21 +447,6 @@ const postprocess = (tables) => {
 			output = output + `${pre}<InnerLink id="backlink-${$.prefix}${to}-${noteNumber}" data-hash-target to="${$.prefix}${to}-${noteNumber}"${aria}-${noteNumber}">${linktext}</InnerLink>`;
 			text = post;
 			$.flags.innerlink = true;
-		}
-		text = output + text;
-		output = "";
-		//{jumplist header / etc}
-		//Create JumpLists out of the plain-text code
-		while(m = text.match(/^(.*?)<p>(?:\{|&#123;)jumplist ([^}]+)(?:\}|&#125;)<[/]p>(.*)$/)) {
-			const [, pre, jumplist, post] = m;
-			output = output + `${pre}<div className="jumpList" id="${$.prefix}jumplist"><h2>Jump to:</h2><ul>`;
-			jumplist.split(/ +[/] +/).forEach(input => {
-				const hash = input.replace(/ +/g, "-").toLowerCase().replace(/[^-a-z0-9]/g, "");
-				output = output + `<li tabIndex={0} role="link" onKeyDown={(e)=>e.key==="Enter"&&jumpScroller("${$.prefix}${hash}")} onClick={()=>jumpScroller("${$.prefix}${hash}")}>${input}</li>`;
-			});
-			output = output + `</ul></div>`;
-			text = post;
-			$.flags.jumplist = true;
 		}
 		text = output + text;
 		output = "";
@@ -511,14 +497,21 @@ const postprocess = (tables) => {
 		output = output + text;
 		//Create implicit jumplists
 		if($.flags.implicitJumplist) {
-			let pre = `<div className="jumpList" id="${$.prefix}jumplist"><h2>Jump to:</h2><ul>`;
+			let div = `<div className="jumpList" id="${$.prefix}jumplist"><h2>Jump to:</h2><ul>`;
 			$.flags.implicitJumplist.forEach(pair => {
 				const [text, id] = pair;
-				pre = pre + `<li tabIndex={0} role="link" onKeyDown={(e)=>e.key==="Enter"&&jumpScroller("${id}")} onClick={()=>jumpScroller("${id}")}>${text}</li>`;
+				div = div + `<li tabIndex={0} role="link" onKeyDown={(e)=>e.key==="Enter"&&jumpScroller("${id}")} onClick={()=>jumpScroller("${id}")}>${text}</li>`;
 			});
-			pre = pre + `</ul></div>`;
+			div = div + `</ul></div>`;
 			$.flags.jumplist = true;
-			output = pre + output;
+			// Use a marker if a jumplist needs to be placed specially.
+			const m = output.match(/^(.*)<p>\{jumplist\}<[/]p>(.*)$/);
+			if(m) {
+				const [, one, two] = m;
+				output = one + div + two;
+			} else {
+				output = div + output;
+			}
 		}
 		//Restore newlines
 		return output.replace(/%%% split here %%%/g, "\n");

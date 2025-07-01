@@ -132,7 +132,7 @@
 		"compilationSources": [ [ "Martial Arts Handbook", 18 ] ],
 		"category": "Other Talents",
 		"description": [
-			"({race.Samsaran} only.) Once per day, a samsaran slayer can draw upon insights from his previous lifetimes to help identify a foe or recall a key piece of information. As a swift action, the slayer can attempt a Knowledge check as if he had a number of ranks in the appropriate Knowledge skill equal to his slayer level. A slayer can use this talent one additional time per day for every 5 slayer levels he has."
+			"({race/Samsaran} only.) Once per day, a samsaran slayer can draw upon insights from his previous lifetimes to help identify a foe or recall a key piece of information. As a swift action, the slayer can attempt a Knowledge check as if he had a number of ranks in the appropriate Knowledge skill equal to his slayer level. A slayer can use this talent one additional time per day for every 5 slayer levels he has."
 		]
 	},
 	"extra_earthcraft": {

@@ -2168,6 +2168,7 @@
 	},
 	"wooden_unholy_symbol": { "redirect": "wooden_holy_symbol" },
 	"unholy_symbol_wooden": { "redirect": "wooden_holy_symbol" },
+	"unholy_symbol": { "redirect": "wooden_holy_symbol" },
 	"holy_symbol_wooden": { "redirect": "wooden_holy_symbol" },
 	"holy_text": {
 		"name": "Holy text",

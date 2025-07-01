@@ -1013,8 +1013,6 @@
 			"Bestiary 5"
 		],
 		"description": [
-			"{jumplist Table 3-1: Base Damage of Natural Attacks by Size}",
-			"",
 			"## Natural Attacks",
 			"",
 			"{SOURCE Bestiary 5/296}  ",
@@ -1030,7 +1028,7 @@
 			"",
 			"See Table 3-1 for typical damage values for natural attacks by creature size.",
 			"",
-			"### Table 3-1: Base Damage of Natural Attacks by Size",
+			"::h3[Table 3-1: Base Damage of Natural Attacks by Size]{jl}",
 			"",
 			"*(Individual creatures vary from values below as appropriate.)*",
 			"",

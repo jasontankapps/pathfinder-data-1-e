@@ -3214,7 +3214,7 @@
 			"**Duration** 1 round/level (D)  ",
 			"**Saving Throw** none; **Spell Resistance** yes",
 			"",
-			"A floating chain of force with hooks at each end appears within an unoccupied space of your choosing within range. This chain is a Medium object that has a 10-foot reach. Physical attacks cannot hit or harm the chain of perdition, but {spell/dispel magic}, {disintegrate}, a {magic-artifact/sphere of annihilation}, or a {magic-rod/rod of cancellation} affects it normally. The chain's AC against touch attacks is 10 + your Charisma modifier (sorcerer), Intelligence modifier (wizard), or Wisdom modifier (cleric).",
+			"A floating chain of force with hooks at each end appears within an unoccupied space of your choosing within range. This chain is a Medium object that has a 10-foot reach. Physical attacks cannot hit or harm the chain of perdition, but {spell/dispel magic}, {spell/disintegrate}, a {magic-artifact/sphere of annihilation}, or a {magic-rod/rod of cancellation} affects it normally. The chain's AC against touch attacks is 10 + your Charisma modifier (sorcerer), Intelligence modifier (wizard), or Wisdom modifier (cleric).",
 			"",
 			"The chain can perform the dirty trick (blind or entangle), drag, reposition, and trip combat maneuvers, using your caster level in place of your Combat Maneuver Bonus, and your Charisma modifier (sorcerer), Intelligence modifier (wizard), or Wisdom modifier (cleric) in place of your Strength or Dexterity modifier. The chain does not provoke attacks of opportunity for making combat maneuvers. It suffers no penalty or miss chance due to darkness, invisibility, or other forms of concealment.",
 			"",
