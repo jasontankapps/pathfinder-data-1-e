@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import fs from 'fs';
 import basic_data_groups from './basic_data_groups.js';
 
@@ -46,6 +47,8 @@ const $fuseIndex = [];
 const $dataIndex = [];
 // A list of plain copies that don't need to be indexed
 const $allIncludingCopies = [];
+// Raw info containing redirects
+const $redirects = {};
 
 const recordType = (type) => {
 	if(!$typesFound[type]) {
@@ -94,8 +97,13 @@ Object.entries(basic_data_groups).forEach(([file, groupobject]) => {
 		if(copyof && !data[copyof]) {
 			console.log(`>>>ERROR>>> ${file}.${prop}.copyof = [${copyof}], not found in same file`);
 			return;
-		} else if (redirect && !data[redirect]) {
-			console.log(`>>>ERROR>>> ${file}.${prop}.redirect = [${redirect}], not found in same file`);
+		} else if (redirect) {
+			if(!data[redirect]) {
+				console.log(`>>>ERROR>>> ${file}.${prop}.redirect = [${redirect}], not found in same file`);
+			} else {
+				$redirects[`${link}/${prop}`] = `${link}/${redirect}`;
+			}
+			// Either way, we can now ignore this entry.
 			return;
 		} else if (alternateOf && !data[alternateOf]) {
 			console.log(`>>>ERROR>>> ${file}.${prop}.alternateOf = [${alternateOf}], not found in same file`);
@@ -169,7 +177,8 @@ const $data_pairs = [
 		searchindex: SEARCHINDEX
 	})],
 	['./src/json/_data__fuse-index.json', JSON.stringify($fuseIndex)],
-	['./src/json/_data__all_links.json', JSON.stringify($allLinks)]
+	['./src/json/_data__all_links.json', JSON.stringify($allLinks)],
+	['./src/json/_data__redirects.json', JSON.stringify($redirects).trim()]
 ];
 
 $data_pairs.forEach(pair => {

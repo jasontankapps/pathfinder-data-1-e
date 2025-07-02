@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import fs from 'fs';
 import { Marked } from 'marked';
 import markedFootnote from 'marked-footnote';
@@ -10,17 +11,38 @@ import featInfo from './src/json/_data__all_links.json' with {type: 'json'};
 import colorJSON from './json/colors.json' with {type: 'json'};
 
 // Globally available variables
-
 const $ = {
 	flags: {},
 	prefix: "",
 	current: "",
 	errorCount: 0,
 	savedCount: 0,
-	redirects: {}
+	parsedCount: 0,
+	limit: false
 };
-
 const footnoteNames = "ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890!@&%#;?_=+~".split('');
+
+// Parse command-line arguments
+process.argv.forEach(bit => {
+	if(!bit.match(/^[A-Z]:[\\/]/)) {
+		// Ignore file stuff
+		if(!$.limit) {
+			// If any limits are found, assume we're skipping colors and feat tree
+			$.limit = [];
+			$.skipColors = true;
+			$.skipFeatTree = true;
+		}
+		if(bit === "CSS") {
+			// restore colors
+			$.skipColors = false;
+		} else if(bit === "TREE") {
+			// restore feat tree
+			$.skipFeatTree = false;
+		} else {
+			$.limit.push(bit);
+		}
+	}
+});
 
 // Get file contents
 const get = (filename, logError = false) => {
@@ -42,7 +64,7 @@ const logError = (...message) => {
 };
 
 // Colors section
-(() => {
+$.skipColors || (() => {
 	const {light, dark} = colorJSON;
 	const colors = Object.keys(light).filter(c => c.match(/^[a-z]+$/));
 	const filename = './src/store/generated/__colors.tsx';
@@ -64,8 +86,9 @@ const logError = (...message) => {
 	} else {
 		console.log(`UNCHANGED ${filename}`);
 	}
+	$.parsedCount++;
 })();
-(() => {
+$.skipColors || (() => {
 	const {light, dark} = colorJSON;
 	const colors = Object.keys(light);
 	const filename = './src/components/__Bookmarks.css';
@@ -83,6 +106,7 @@ const logError = (...message) => {
 	} else {
 		console.log(`UNCHANGED ${filename}`);
 	}
+	$.parsedCount++;
 })();
 
 // Handle implicit jumplists
@@ -415,9 +439,6 @@ const postprocess = (tables) => {
 			.replace(/&#39;/g, "'")
 			// Replace unneeded HTML entity for the quotation mark
 			.replace(/&quot;/g, "\"")
-			// Restore { and }
-			.replace(/&#123;/g, "{")
-			.replace(/&#125;/g, "}")
 			// Remove whitespace at start and end
 			.trim();
 		let output = "";
@@ -505,7 +526,7 @@ const postprocess = (tables) => {
 			div = div + `</ul></div>`;
 			$.flags.jumplist = true;
 			// Use a marker if a jumplist needs to be placed specially.
-			const m = output.match(/^(.*)<p>\{jumplist\}<[/]p>(.*)$/);
+			const m = output.match(/^(.*)<p>(?:\{|&#123;)jumplist(?:\}|&#125;)<[/]p>(.*)$/);
 			if(m) {
 				const [, one, two] = m;
 				output = one + div + two;
@@ -805,11 +826,6 @@ const createCopyItem = (info, prop, copy) => {
 	return output + "};";
 };
 
-const all_usable_groups = {...basic_data_groups};
-// Ignoring sources, they are a special case
-delete all_usable_groups["sources"];
-const number_of_groups = Object.keys(all_usable_groups).length;
-
 // If entities are used inside links inside tables.data, they must be converted before being saved to a file.
 const entities_in_tables = [
 	// [
@@ -824,80 +840,83 @@ const entities_in_tables = [
 ];
 
 // DO THE THINGS
-const getFeatName = (prop) => {
-	return featInfo[`feat/${prop}`] || false;
-};
-const parseFeatTree = (tree, ids = []) => {
-	const anchor = "featTreePageAnchor-";
-	const output = [];
-	tree.forEach(branch => {
-		const { prop, coparents, coparentsNolink, primary, leaves } = branch;
-		$.current = "Feat Tree: " + prop;
-		const link = "feat/" + prop;
-		const title = getFeatName(prop);
-		if(!title) {
-			logError(`Cannot find tree.`);
-			return output.push(`<div><strong>ERROR</strong> trying to find "${prop}".</div>`);
-		}
-		const id = primary ? (anchor + prop) : undefined;
-		const hasCoparents = coparents || coparentsNolink;
-		output.push(
-			`<div className="leaf${(hasCoparents ? " hasCoparents" : "")}"${id ? ` id="${id}"` : ""}>`,
-			`<div className="leafName">${ids.length === 0 ? "" : String.fromCharCode(10551) + " "}`,
-			`<Link to="/${link}">${title}</Link></div>`
-		);
-//		id && output.push(`<div id="${"dummy-" + id}"></div>`);
-		if(hasCoparents) {
+if(!$.skipFeatTree) {
+	const getFeatName = (prop) => {
+		return featInfo[`feat/${prop}`] || false;
+	};
+	const parseFeatTree = (tree, ids = []) => {
+		const anchor = "featTreePageAnchor-";
+		const output = [];
+		tree.forEach(branch => {
+			const { prop, coparents, coparentsNolink, primary, leaves } = branch;
+			$.current = "Feat Tree: " + prop;
+			const link = "feat/" + prop;
+			const title = getFeatName(prop);
+			if(!title) {
+				logError(`Cannot find tree.`);
+				return output.push(`<div><strong>ERROR</strong> trying to find "${prop}".</div>`);
+			}
+			const id = primary ? (anchor + prop) : undefined;
+			const hasCoparents = coparents || coparentsNolink;
 			output.push(
-				`<div className="coparents"><strong>Also requires:</strong> `,
-				(coparents || []).map(cp => {
-					const title = getFeatName(cp);
-					if(!title) {
-						logError(`Couldn't find coparent "${cp}".`)
-						return `<strong>ERROR</strong> trying to find "${cp}".`
-					}
-					const id = ids.join("-") + `-${prop}-coparent-${cp}`;
-					return `<span className="coparent" id="${id}"><InnerLink mid to="${anchor + cp}">${title}</InnerLink></span>`;
-				}).join(", "),
-				(coparentsNolink || []).map(cp => {
-					const title = getFeatName(cp);
-					if(!title) {
-						logError(`Couldn't find coparent (nolink) "${cp}".`)
-						return `<strong>ERROR</strong> trying to find "${cp}".`
-					}
-					return `<span className="coparent">${title}</span>`;
-				}).join(", "),
-				"</div>"
+				`<div className="leaf${(hasCoparents ? " hasCoparents" : "")}"${id ? ` id="${id}"` : ""}>`,
+				`<div className="leafName">${ids.length === 0 ? "" : String.fromCharCode(10551) + " "}`,
+				`<Link to="/${link}">${title}</Link></div>`
 			);
-		} else if (ids.length === 0) {
-			output.push(`<div className="coparents"><strong>Base Feat</strong></div>`);
-		}
-		leaves && output.push(parseFeatTree(leaves, [...ids, prop]));
-		output.push("</div>");
-	});
-	return output.join("");
-};
+//			id && output.push(`<div id="${"dummy-" + id}"></div>`);
+			if(hasCoparents) {
+				output.push(
+					`<div className="coparents"><strong>Also requires:</strong> `,
+					(coparents || []).map(cp => {
+						const title = getFeatName(cp);
+						if(!title) {
+							logError(`Couldn't find coparent "${cp}".`)
+							return `<strong>ERROR</strong> trying to find "${cp}".`
+						}
+						const id = ids.join("-") + `-${prop}-coparent-${cp}`;
+						return `<span className="coparent" id="${id}"><InnerLink mid to="${anchor + cp}">${title}</InnerLink></span>`;
+					}).join(", "),
+					(coparentsNolink || []).map(cp => {
+						const title = getFeatName(cp);
+						if(!title) {
+							logError(`Couldn't find coparent (nolink) "${cp}".`)
+							return `<strong>ERROR</strong> trying to find "${cp}".`
+						}
+						return `<span className="coparent">${title}</span>`;
+					}).join(", "),
+					"</div>"
+				);
+			} else if (ids.length === 0) {
+				output.push(`<div className="coparents"><strong>Base Feat</strong></div>`);
+			}
+			leaves && output.push(parseFeatTree(leaves, [...ids, prop]));
+			output.push("</div>");
+		});
+		return output.join("");
+	};
 
-const featTreePage = [
-	"import Link from '../../components/Link';",
-	"import InnerLink from '../../components/InnerLink';",
-	"const jsx=<>"
-		//+ parseFeatTree(featTreeData)
-		+ featTreeData.map(ftd => `<section>${parseFeatTree([ftd])}</section>`).join("")
-		+ "</>;",
-	"export default jsx;"
-].join("\n").trim();;
+	const featTreePage = [
+		"import Link from '../../components/Link';",
+		"import InnerLink from '../../components/InnerLink';",
+		"const jsx=<>"
+			//+ parseFeatTree(featTreeData)
+			+ featTreeData.map(ftd => `<section>${parseFeatTree([ftd])}</section>`).join("")
+			+ "</>;",
+		"export default jsx;"
+	].join("\n").trim();;
 
-let testfile = get(`./src/pages/subpages/__feat_tree_page.tsx`).trim();
+	const testfile = get(`./src/pages/subpages/__feat_tree_page.tsx`).trim();
 
-if(testfile === featTreePage) {
-	console.log(`UNCHANGED: ./src/pages/subpages/__feat_tree_page.tsx`);
-} else {
-	// Write that file
-	fs.writeFileSync(`./src/pages/subpages/__feat_tree_page.tsx`, featTreePage);
-	// Announce success
-	console.log(`Saved ./src/pages/subpages/__feat_tree_page.tsx`);
-	$.savedCount++;
+	if(testfile === featTreePage) {
+		console.log(`UNCHANGED: ./src/pages/subpages/__feat_tree_page.tsx`);
+	} else {
+		// Write that file
+		fs.writeFileSync(`./src/pages/subpages/__feat_tree_page.tsx`, featTreePage);
+		// Announce success
+		console.log(`Saved ./src/pages/subpages/__feat_tree_page.tsx`);
+		$.savedCount++;
+	}
+	$.parsedCount++;
 }
 
 if($.errorCount) {
@@ -905,9 +924,30 @@ if($.errorCount) {
 	$.errorCount = 0;
 }
 
+// Detemine what we're parsing
+const getParsing = () => {
+	const groups = {...basic_data_groups};
+	// Ignoring sources, they are a special case
+	delete groups["sources"];
+	if(!$.limit) {
+		const number_of_groups = Object.keys(groups).length;
+		return [groups, number_of_groups];
+	}
+	const newGroups = {};
+	$.limit.forEach(prop => {
+		if(groups[prop]) {
+			newGroups[prop] = groups[prop];
+		} else {
+			console.log(`CANNOT FIND: ["${prop}"]`);
+			$.errorCount++;
+		}
+	});
+	return [newGroups, Object.keys(newGroups).length];
+};
+const [all_usable_groups, number_of_groups] = getParsing();
+
 //   Create all other files, including ___link.tsx files.
 Object.entries(all_usable_groups).forEach((pairing, groupindex) => {
-//Object.entries({"main01": all_usable_groups["main01"]}).forEach((pairing, groupindex) => {
 	const [groupProp, group] = pairing;
 	const {
 		data,
@@ -918,7 +958,6 @@ Object.entries(all_usable_groups).forEach((pairing, groupindex) => {
 	const final = [];
 	const baselink = num ? `${link}${num}` : link;
 	const copies = [];
-	const redirections = [];
 	const copyRecord = {};
 	const groupFlags = {};
 	const template = templates_by_link[link] || templates_by_link._basic;
@@ -1034,9 +1073,7 @@ Object.entries(all_usable_groups).forEach((pairing, groupindex) => {
 		Object.keys(newflags).forEach((flag) => {groupFlags[flag] = true});
 		if(copyof) {
 			copies.push([prop, copyof, {...info}]);
-		} else if (redirect) {
-			redirections.push([prop, redirect]);
-		} else {
+		} else if (!redirect) {
 			copyRecord[prop] = true;
 			final.push([prop, createItem(info, prop)]);
 		}
@@ -1049,13 +1086,8 @@ Object.entries(all_usable_groups).forEach((pairing, groupindex) => {
 		const missing = [];
 		remaining.forEach(([prop, copyof, info]) => {
 			if(copyRecord[copyof]) {
-				if(Object.entries(info).filter(pair => pair[1] !== undefined).length === 0) {
-					// This is a bare redirect.
-					$.redirects[`${link}/${prop}`] = `${link}/${copyof}`;
-				} else {
-					final.push([prop, createCopyItem(info, prop, copyof)]);
-					copyRecord[prop] = true;
-				}
+				final.push([prop, createCopyItem(info, prop, copyof)]);
+				copyRecord[prop] = true;
 				somethingChanged = true;
 			} else {
 				missing.push([prop, copyof, info]);
@@ -1063,15 +1095,8 @@ Object.entries(all_usable_groups).forEach((pairing, groupindex) => {
 		});
 		remaining = missing;
 	} while ((remaining.length > 0) && somethingChanged);
-	redirections.forEach(([prop, redirect]) => {
-		if(copyRecord[redirect]) {
-			$.redirects[`${link}/${prop}`] = `${link}/${redirect}`;
-		} else {
-			remaining.push([prop, redirect, false]);
-		}
-	});
-	remaining.forEach(([prop, copyof, flag]) => {
-		logError(`MISSING "${copyof}" property in ${prop}.${flag ? "copyof" : "redirect"}`);
+	remaining.forEach(([prop, copyof]) => {
+		logError(`MISSING "${copyof}" property in ${prop}.copyof`);
 	});
 	const imports = [];
 	const ionic = [];
@@ -1104,7 +1129,7 @@ Object.entries(all_usable_groups).forEach((pairing, groupindex) => {
 	output.push(`export default {${allprops.map(prop => `${prop}:_${prop}`).join(",")}}`);
 
 	const filename = `./src/pages/subpages/__${baselink}.tsx`;
-	testfile = get(filename).trim();
+	const testfile = get(filename).trim();
 	const theOutput = output.join("\n").trim();
 
 	if(testfile === theOutput) {
@@ -1121,22 +1146,10 @@ Object.entries(all_usable_groups).forEach((pairing, groupindex) => {
 		console.log(`Saved ${filename} (${groupindex + 1} of ${number_of_groups})`);
 		$.savedCount++;
 	}
+	$.parsedCount++;
 });
 
-const filename = `./src/json/_data__redirects.json`;
-testfile = get(filename).trim();
-const theOutput = JSON.stringify($.redirects).trim();
-if(testfile === theOutput) {
-	console.log(`UNCHANGED: ${filename}`);
-} else {
-	// Write that file
-	fs.writeFileSync(filename, theOutput);
-	// Announce success
-	console.log(`Saved ${filename}`);
-	$.savedCount++;
-}
-
-console.log(`\n\n>> Saved [${$.savedCount}] new files (out of ${number_of_groups + 4}).`);
+console.log(`\n\n>> Saved [${$.savedCount}] new files (out of ${$.parsedCount}).`);
 
 if($.errorCount) {
 	console.log(`\n\n>> Found [${$.errorCount}] errors.`);
