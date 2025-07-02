@@ -197,6 +197,7 @@
 		"name": "Golem Manual (Flesh)",
 		"copyof": "golem_manual_junk"
 	},
+	"flesh_golem_manual": { "redirect": "golem_manual_flesh" },
 	"golem_manual_alchemical": {
 		"name": "Golem Manual (Alchemical)",
 		"copyof": "golem_manual_junk"

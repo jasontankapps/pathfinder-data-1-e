@@ -1280,7 +1280,7 @@
 			"",
 			"### Dust Devil (Desert, Hill, Plain)",
 			"",
-			"A dust devil is a whirlwind not associated with a storm, particularly in a region with little or no topsoil. Treat a dust devil as a [duststorm](rule/storms), [sandstorm](rule/severe_events), or [tornado](rule/severe_events).",
+			"A dust devil is a whirlwind not associated with a storm, particularly in a region with little or no topsoil. Treat a dust devil as a {rule/dust|storm>s}, [sandstorm, or tornado](rule/severe_events).",
 			"",
 			"### Grass Fire (Hill, Plain)",
 			"",
