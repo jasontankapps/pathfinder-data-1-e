@@ -2143,7 +2143,7 @@
 			"**Religion:** {faith/Zogmugot}  ",
 			"**Requirements:** Goblin",
 			"",
-			"You are adept at swimming and holding your breath. You gain a +1 trait bonus on Swim checks, and can hold your breath for a number of rounds equal to three times your Constitution score before you risk drowning."
+			"You are adept at swimming and holding your breath. You gain a +1 trait bonus on Swim checks, and can {misc/hold your breath} for a number of rounds equal to three times your Constitution score before you risk drowning."
 		],
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
@@ -3387,7 +3387,7 @@
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Gozreh}",
 			"",
-			"Your faith in Gozreh's grace gives you the confidence to swim without fear. You gain a +2 trait bonus on Swim checks, and can hold your breath for an extra 2 rounds when underwater."
+			"Your faith in Gozreh's grace gives you the confidence to swim without fear. You gain a +2 trait bonus on Swim checks, and can {misc/hold your breath} for an extra 2 rounds when underwater."
 		],
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},

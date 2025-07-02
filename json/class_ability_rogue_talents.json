@@ -1418,7 +1418,7 @@
 		"compilationSources": [ [ "Ultimate Combat", 69 ] ],
 		"category": "Other Talents",
 		"description": [
-			"**Rogue Only:** A rogue with this talent increases the number of rounds she can [hold her breath](rule/suffocation) by 2. She can take this talent multiple times."
+			"**Rogue Only:** A rogue with this talent increases the number of rounds she can {misc/hold her breath} by 2. She can take this talent multiple times."
 		]
 	},
 	"ki_pool": {

@@ -1491,7 +1491,7 @@
 			"**Type:** Race  ",
 			"**Requirements:** Half-elf",
 			"",
-			"You are skilled at finding treasures in the warm coastal waters near the desert. You gain a +2 trait bonus on Perception checks while underwater and can hold your breath for a number of rounds equal to three times your Constitution score before you risk drowning."
+			"You are skilled at finding treasures in the warm coastal waters near the desert. You gain a +2 trait bonus on Perception checks while underwater and can {misc/hold your breath} for a number of rounds equal to three times your Constitution score before you risk drowning."
 		],
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
@@ -3209,7 +3209,7 @@
 			"**Type:** Race  ",
 			"**Requirements:** Kobold; Black-scaled",
 			"",
-			"Swimming comes naturally to you, as does hunting marsh vipers and other aquatic creatures. Increase the number of rounds you can hold your breath underwater by an amount equal to your Constitution score. You gain a +2 bonus on Stealth checks in swamps and in underwater environments."
+			"Swimming comes naturally to you, as does hunting marsh vipers and other aquatic creatures. Increase the number of rounds you can {misc/hold your breath} underwater by an amount equal to your Constitution score. You gain a +2 bonus on Stealth checks in swamps and in underwater environments."
 		],
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
@@ -3429,7 +3429,7 @@
 			"**Type:** Race  ",
 			"**Requirements:** Monkey goblin",
 			"",
-			"You have spent long hours scouring shipwrecks and shoreline tide pools during low tide for shiny treasure. You gain a +2 trait bonus on Perception checks while underwater and can hold your breath for a number of rounds equal to three times your Constitution score before you risk drowning."
+			"You have spent long hours scouring shipwrecks and shoreline tide pools during low tide for shiny treasure. You gain a +2 trait bonus on Perception checks while underwater and can {misc/hold your breath} for a number of rounds equal to three times your Constitution score before you risk drowning."
 		],
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},

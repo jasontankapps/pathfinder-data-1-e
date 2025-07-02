@@ -1972,7 +1972,7 @@
 			"",
 			"::sh[Special Abilities]",
 			"",
-			"**Aura of Breathlessness (Su)** The agonized gasping of an immured displaces oxygen within 10 feet of it, automatically extinguishing nonmagical fires within this range. Breathing creatures within the aura must hold their breath or risk suffocation. Whenever an immured deals nonlethal damage to a creature holding its breath in the aura, the duration the target can hold its breath for decreases by a number of rounds equal to the nonlethal damage dealt. The immured cannot dismiss this aura.",
+			"**Aura of Breathlessness (Su)** The agonized gasping of an immured displaces oxygen within 10 feet of it, automatically extinguishing nonmagical fires within this range. Breathing creatures within the aura must {misc/hold their breath} or risk {rule/suffocation}. Whenever an immured deals nonlethal damage to a creature holding its breath in the aura, the duration the target can hold its breath for decreases by a number of rounds equal to the nonlethal damage dealt. The immured cannot dismiss this aura.",
 			"",
 			"**Bound (Su)** Immured are bound to the locations in which they died. Each hour an immured remains away from the tomb or building in which it died, it takes 1d6 points of damage that can't be healed until it returns to its place of death.",
 			"",

@@ -796,6 +796,9 @@
 		"type": "Rule",
 		"topLink": [ "Swim", "skill/swim" ]
 	},
+	"hold_his_breath": { "redirect": "hold_your_breath" },
+	"hold_her_breath": { "redirect": "hold_your_breath" },
+	"hold_their_breath": { "redirect": "hold_your_breath" },
 	"hold_its_breath": { "redirect": "hold_your_breath" },
 	"spell_completion": {
 		"name": "Spell Completion Items",
