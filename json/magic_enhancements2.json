@@ -9,7 +9,7 @@
 			"**Aura** faint transmutation; **CL** 6th  ",
 			"**Price** +1 bonus; **Weight** -",
 			"",
-			"This special ability can be placed only on melee weapons. The wielder of a leveraging weapon gains a bonus equal to the weapon's enhancement bonus to her Combat Maneuver Defense against bull rush, drag, reposition, and trip combat maneuvers. The leveraging weapon's enhancement bonus is doubled when applied to combat maneuver checks to attempt bull rush, drag, reposition, and trip combat maneuvers.",
+			"This special ability can be placed only on melee weapons. The wielder of a leveraging weapon gains a bonus equal to the weapon's enhancement bonus to her Combat Maneuver Defense against {rule/bull rush}, {rule/drag}, {rule/reposition}, and {rule/trip} combat maneuvers. The leveraging weapon's enhancement bonus is doubled when applied to combat maneuver checks to attempt bull rush, drag, reposition, and trip combat maneuvers.",
 			"",
 			"### Construction",
 			"",
@@ -26,7 +26,7 @@
 			"**Aura** faint evocation; **CL** 5th  ",
 			"**Slot** weapon quality; **Price** +1 bonus; **Weight** -",
 			"",
-			"When a limning weapon is wielded, a pale glow outlines it. On a successful strike against a creature affected by a means of magical concealment, the weapon outlines the creature in faerie fire (as the spell) for 1 round. Magical means of concealment include {spell/blur}, {spell/displacement}, {spell/invisibility}, and similar effects, whether from a spell, spell-like ability, or supernatural means, but not those provided by extraordinary abilities. A limning weapon has no special effect against creatures merely hiding or concealed by nonmagical means, or those hidden by environmental conditions (even magical) such as darkness or fog.",
+			"When a limning weapon is wielded, a pale glow outlines it. On a successful strike against a creature affected by a means of magical concealment, the weapon outlines the creature in *faerie fire* (as the spell) for 1 round. Magical means of concealment include {spell/blur}, {spell/displacement}, {spell/invisibility}, and similar effects, whether from a spell, spell-like ability, or supernatural means, but not those provided by extraordinary abilities. A limning weapon has no special effect against creatures merely hiding or concealed by nonmagical means, or those hidden by environmental conditions (even magical) such as darkness or fog.",
 			"",
 			"### Construction",
 			"",
@@ -46,7 +46,7 @@
 			"**Aura** moderate illusion; **CL** 10th  ",
 			"**Slot** weapon quality; **Price** +1 bonus; **Weight** -",
 			"",
-			"This special ability can only be placed on melee weapons. A menacing weapon helps allies deal with flanked foes. When the wielder is adjacent to a creature that is being flanked by an ally, the flanking bonus on attack rolls for all flanking allies increases by +2. This ability works even if the wielder is not one of the characters flanking the creature.",
+			"This special ability can only be placed on melee weapons. A menacing weapon helps allies deal with flanked foes. When the wielder is adjacent to a creature that is being flanked by an ally, the {rule/flanking} bonus on attack rolls for all flanking allies increases by +2. This ability works even if the wielder is not one of the characters flanking the creature.",
 			"",
 			"### Construction",
 			"",
@@ -120,7 +120,7 @@
 			"**Aura** moderate conjuration; **CL** 8th  ",
 			"**Price** +1 bonus; **Weight** -",
 			"",
-			"A miserable weapon cuts through the energy resistance of certain foes. Miserable weapons must be crafted with a designated creature type (just like bane weapons), and each time they deal damage to their designated foes, their magic halves the creatures' natural energy resistances for 1 round.",
+			"A miserable weapon cuts through the energy resistance of certain foes. Miserable weapons must be crafted with a designated creature type (just like {magic-enh/bane} weapons), and each time they deal damage to their designated foes, their magic halves the creatures' natural energy resistances for 1 round.",
 			"",
 			"### Construction",
 			"",
@@ -171,7 +171,7 @@
 			"**Aura** faint evocation; **CL** 5th  ",
 			"**Slot** weapon quality; **Price** +1 bonus; **Weight** -",
 			"",
-			"This special ability can only be placed on melee weapons. An ominous weapon trails a shadowy haze behind every stroke, and moans a menacing dirge in battle. An ominous weapon adds its enhancement bonus on Intimidate checks made by the wielder. In addition, when an ominous weapon confirms a critical hit, the target is shaken for 1 minute (DC 13 Will negates); if the weapon's critical multiplier is greater than &times;2, this condition lasts 1 additional minute per multiple over &times;2. A creature that gains the shaken condition from an ominous weapon cannot gain that condition again from the same weapon for 24 hours.",
+			"This special ability can only be placed on melee weapons. An ominous weapon trails a shadowy haze behind every stroke, and moans a menacing dirge in battle. An ominous weapon adds its enhancement bonus on Intimidate checks made by the wielder. In addition, when an ominous weapon confirms a critical hit, the target is {misc/shaken} for 1 minute (DC 13 Will negates); if the weapon's critical multiplier is greater than &times;2, this condition lasts 1 additional minute per multiple over &times;2. A creature that gains the shaken condition from an ominous weapon cannot gain that condition again from the same weapon for 24 hours.",
 			"",
 			"### Construction",
 			"",
@@ -188,7 +188,7 @@
 			"**Aura** moderate conjuration; **CL** 10th  ",
 			"**Slot** none; **Price** +1 bonus; **Weight** -",
 			"",
-			"A patriotic weapon radiates with the collective power and strength of a particular nation of people. If the wielder is a member of that nationality, he gains several benefits. First, the wielder gains a +4 insight bonus on Bluff, Disguise, and Sleight of Hand checks to conceal the weapon from members of other nationalities. On a successful hit against a flat-footed target of a different nationality, the target must succeed at DC 13 Will save or be shaken for 1 minute. Finally, the wielder receives a +2 bonus to confirm critical hits against members of other nationalities.",
+			"A patriotic weapon radiates with the collective power and strength of a particular nation of people. If the wielder is a member of that nationality, he gains several benefits. First, the wielder gains a +4 insight bonus on Bluff, Disguise, and Sleight of Hand checks to conceal the weapon from members of other nationalities. On a successful hit against a {rule/flat-footed} target of a different nationality, the target must succeed at DC 13 Will save or be {misc/shaken} for 1 minute. Finally, the wielder receives a +2 bonus to confirm critical hits against members of other nationalities.",
 			"",
 			"The nationality affected must be determined at the patriotic weapon's creation and cannot be altered. At the GM's discretion, the nationality named may be a specified human ethnicity, such as Chelaxian or Shoanti.",
 			"",
@@ -258,7 +258,7 @@
 			"**Aura** moderate transmutation; **CL** 7th  ",
 			"**Slot** none; **Price** +1 bonus; **Weight** -",
 			"",
-			"A weapon with the rusting special ability is so badly tarnished that no amount of cleaning can restore it. Although the weapon constantly sheds flecks of rust and corroded metal, it remains structurally sound. When the wielder confirms a critical hit with a rusting weapon, she can forgo any extra damage to instead deal normal damage to the target and affect the target or the target's armor with the rusting grasp spell. A rusting weapon cannot be used against unattended inanimate objects. A rusting weapon is immune to mundane or magical rust, including the attack of a rust monster.",
+			"A weapon with the rusting special ability is so badly tarnished that no amount of cleaning can restore it. Although the weapon constantly sheds flecks of rust and corroded metal, it remains structurally sound. When the wielder confirms a critical hit with a rusting weapon, she can forgo any extra damage to instead deal normal damage to the target and affect the target or the target's armor with the *rusting grasp* spell. A rusting weapon cannot be used against unattended inanimate objects. A rusting weapon is immune to mundane or magical rust, including the attack of a {monster/rust monster}.",
 			"",
 			"### Construction",
 			"",
@@ -277,7 +277,7 @@
 			"",
 			"A sacred weapon is filled with divine energy, and acts as a holy symbol. When wielded by a creature that can cast divine spells, the weapon automatically displays an image of that creature's holy symbol, often as a glowing rune on the weapon's blade or along its haft.",
 			"",
-			"Additionally, if the wielder has the blessings class feature, whenever he channels energy, he can choose one ally or ally's weapon within the area of the channeled energy and bestow upon that creature or weapon the benefits of one of his minor blessings at a cost of one use of that blessing.",
+			"Additionally, if the wielder has the {ability/blessings} class feature, whenever he {ability/channel[s] energy}, he can choose one ally or ally's weapon within the area of the channeled energy and bestow upon that creature or weapon the benefits of one of his minor blessings at a cost of one use of that blessing.",
 			"",
 			"### Construction",
 			"",
@@ -294,7 +294,7 @@
 			"**Aura** faint enchantment; **CL** 5th  ",
 			"**Price** +1 bonus; **Weight** -",
 			"",
-			"This special ability can be placed on only weapons that deal nonlethal damage. A sapping weapon deals an additional 2d6 points of nonlethal damage. When the wielder confirms a critical hit with the weapon, the target becomes fatigued for 5 rounds.",
+			"This special ability can be placed on only weapons that deal nonlethal damage. A sapping weapon deals an additional 2d6 points of nonlethal damage. When the wielder confirms a critical hit with the weapon, the target becomes {misc/fatigued} for 5 rounds.",
 			"",
 			"### Construction",
 			"",
@@ -311,7 +311,7 @@
 			"**Aura** moderate transmutation; **CL** 7th  ",
 			"**Slot** weapon quality; **Price** +1 bonus; **Weight** -",
 			"",
-			"This special ability can only be placed on melee weapons. A seaborne weapon functions easily in watery environments. With the weapon in hand, the wielder gains a bonus on Swim checks equal to twice the weapon's enhancement bonus. In addition, the wielder does not take the normal penalties to attack and damage rolls imposed by being underwater, as if he were subject to the spell freedom of movement.",
+			"This special ability can only be placed on melee weapons. A seaborne weapon functions easily in watery environments. With the weapon in hand, the wielder gains a bonus on Swim checks equal to twice the weapon's enhancement bonus. In addition, the wielder does not take the normal penalties to attack and damage rolls imposed by being underwater, as if he were subject to the spell *freedom of movement.*",
 			"",
 			"### Construction",
 			"",
@@ -348,7 +348,7 @@
 			"**Aura** faint divination; **CL** 5th  ",
 			"**Slot** none; **Price** +1 bonus; **Weight** -",
 			"",
-			"This special ability can be placed only on light or one-handed piercing melee weapons. Weapons with this enhancement are particularly devastating in the hands of a swashbuckler. Anytime the weapon threatens a critical hit, the wielder can spend 1 panache point as an immediate action to automatically confirm the critical hit. When the swashbuckler confirms a critical hit in this fashion, she doesn't regain panache for confirming the critical hit, though she can regain panache normally if the attack is a killing blow.",
+			"This special ability can be placed only on light or one-handed piercing melee weapons. Weapons with this enhancement are particularly devastating in the hands of a {class/swashbuckler}. Anytime the weapon threatens a critical hit, the wielder can spend 1 panache point as an immediate action to automatically confirm the critical hit. When the swashbuckler confirms a critical hit in this fashion, she doesn't regain panache for confirming the critical hit, though she can regain panache normally if the attack is a killing blow.",
 			"",
 			"### Construction",
 			"",
@@ -365,7 +365,7 @@
 			"**Aura** moderate transmutation; **CL** 11th  ",
 			"**Slot** none; **Price** +1 bonus; **Weight** -",
 			"",
-			"This special ability can be placed only on a melee weapon. A slithering weapon can bend and flex when swung at a target, allowing it to fit through narrow gaps and around difficult angles with greater ease and making the weapon difficult to strike. When a slithering weapon is used to attack a creature with cover, the target's cover bonus to Armor Class is halved. In addition, the wielder adds the weapon's enhancement bonus to her CMD against attempts to disarm or sunder her slithering weapon. If the wielder is squeezing in a narrow space, she takes only half the normal penalty on attack rolls with her slithering weapon.",
+			"This special ability can be placed only on a melee weapon. A slithering weapon can bend and flex when swung at a target, allowing it to fit through narrow gaps and around difficult angles with greater ease and making the weapon difficult to strike. When a slithering weapon is used to attack a creature with {rule/cover}, the target's cover bonus to Armor Class is halved. In addition, the wielder adds the weapon's enhancement bonus to her CMD against attempts to {rule/disarm} or {rule/sunder} her slithering weapon. If the wielder is {misc/squeezing} in a narrow space, she takes only half the normal penalty on attack rolls with her slithering weapon.",
 			"",
 			"### Construction",
 			"",
@@ -382,7 +382,7 @@
 			"**Aura** moderate conjuration; **CL** 10th  ",
 			"**Slot** none; **Price** +1 bonus; **Weight** -",
 			"",
-			"This special ability can be placed only on melee bludgeoning weapons. A smashing weapon deals an additional 2d6 points of damage to inanimate objects, including when it is used to sunder armor and weapons.",
+			"This special ability can be placed only on melee bludgeoning weapons. A smashing weapon deals an additional 2d6 points of damage to inanimate objects, including when it is used to {rule/sunder} armor and weapons.",
 			"",
 			"### Construction",
 			"",
@@ -408,7 +408,9 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Magic Arms and Armor}, creator must be a caster of at least 12th level; **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, creator must be a caster of at least 12th level; **Price** -",
+			"",
+			">*See also: {magic-enh/spell storing armor/ enhancement}*"
 		]
 	},
 	"spell_storing_w": { "redirect": "spell_storing" },
@@ -423,7 +425,7 @@
 			"**Aura** moderate conjuration; **CL** 8th  ",
 			"**Slot** none; **Price** +1 bonus; **Weight** -",
 			"",
-			"A spirit-hunting weapon excels against enemies with either the mystery or spirit class feature (but has no effect against a shaman who has a temporary bond to the appropriate spirit by way of the wandering spirit class feature or similar effect). Against a designated foe, the weapon's enhancement bonus is 2 better than its actual bonus. It also deals 2d6 additional points of damage against such foes. When combined with abilities like bane or blood-hunting, the enhancement bonus increases granted by these abilities do not stack, but an additional 1d6 points of damage are added to the additional damage for each special ability beyond the first. (For example, a bane spirit-hunting weapon would deal 3d6 additional points of damage, and a bane blood-hunting spirit-hunting weapon would deal 4d6 additional points of damage.) To randomly determine a weapon's designated foe, roll on the following table. Other designated foes are possible, but most of these weapons are tuned against creatures with the following mysteries or spirits.",
+			"A spirit-hunting weapon excels against enemies with either the mystery or spirit class feature (but has no effect against a shaman who has a temporary bond to the appropriate spirit by way of the wandering spirit class feature or similar effect). Against a designated foe, the weapon's enhancement bonus is 2 better than its actual bonus. It also deals 2d6 additional points of damage against such foes. When combined with abilities like {magic-enh/bane} or {magic-enh/blood-hunting}, the enhancement bonus increases granted by these abilities do not stack, but an additional 1d6 points of damage are added to the additional damage for each special ability beyond the first. (For example, a bane spirit-hunting weapon would deal 3d6 additional points of damage, and a bane blood-hunting spirit-hunting weapon would deal 4d6 additional points of damage.) To randomly determine a weapon's designated foe, roll on the following table. Other designated foes are possible, but most of these weapons are tuned against creatures with the following mysteries or spirits.",
 			"",
 			"| d% | Designated Foe |",
 			"| --- | --- |",
@@ -453,7 +455,7 @@
 			"**Aura** moderate transmutation; **CL** 8th  ",
 			"**Slot** none; **Price** +1 bonus; **Weight** -",
 			"",
-			"This special ability can be placed only on reach weapons, piercing melee weapons, and weapons from the flail fighter weapon training group. When a sticky weapon scores a critical hit against a target, instead of rolling to confirm the critical threat, the wielder can deal normal damage and attempt a steal combat maneuver check against the target of the attack. This combat maneuver doesn't provoke an attack of opportunity, and the wielder gains a +2 bonus on the combat maneuver check.",
+			"This special ability can be placed only on reach weapons, piercing melee weapons, and weapons from the flail fighter {ability/weapon[ training] group>s}. When a sticky weapon scores a critical hit against a target, instead of rolling to confirm the critical threat, the wielder can deal normal damage and attempt a {rule/steal} combat maneuver check against the target of the attack. This combat maneuver doesn't provoke an attack of opportunity, and the wielder gains a +2 bonus on the combat maneuver check.",
 			"",
 			"### Construction",
 			"",
@@ -470,7 +472,7 @@
 			"**Aura** moderate conjuration; **CL** 8th  ",
 			"**Slot** none; **Price** +1 bonus; **Weight** -",
 			"",
-			"A summon bane weapon excels against summoned creatures, including those summoned by conjuration (summoning) spells (such as summon monster and summon nature's ally spells), those summoned by conjuration (calling) spells (such as {spell/planar ally} and {spell/planar binding}), and eidolons. Against such summoned creatures, the weapon's enhancement bonus is +2 better than its normal bonus. It also deals an extra 2d6 points of damage against such foes.",
+			"A summon bane weapon excels against summoned creatures, including those summoned by conjuration (summoning) spells (such as *summon monster* and *summon nature's ally* spells), those summoned by conjuration (calling) spells (such as {spell/planar ally} and {spell/planar binding}), and eidolons. Against such summoned creatures, the weapon's enhancement bonus is +2 better than its normal bonus. It also deals an extra 2d6 points of damage against such foes.",
 			"",
 			"### Construction",
 			"",
@@ -527,7 +529,7 @@
 			"**Aura** faint necromancy; **CL** 5th  ",
 			"**Slot** weapon quality; **Price** +1 bonus; **Weight** -",
 			"",
-			"A thundering weapon creates a cacophonous roar like thunder whenever it strikes a target with a successful critical hit. The sonic energy does not harm the wielder. A thundering weapon deals an extra 1d8 points of sonic damage on a successful critical hit. If the weapon's critical multiplier is &times;3, add an extra 2d8 points of sonic damage instead, and if the multiplier is &times;4, add an extra 3d8 points of sonic damage. Subjects dealt critical hits by a thundering weapon must make a successful DC 14 Fortitude save or be deafened permanently.",
+			"A thundering weapon creates a cacophonous roar like thunder whenever it strikes a target with a successful critical hit. The sonic energy does not harm the wielder. A thundering weapon deals an extra 1d8 points of sonic damage on a successful critical hit. If the weapon's critical multiplier is &times;3, add an extra 2d8 points of sonic damage instead, and if the multiplier is &times;4, add an extra 3d8 points of sonic damage. Subjects dealt critical hits by a thundering weapon must make a successful DC 14 Fortitude save or be {misc/deafened} permanently.",
 			"",
 			"### Construction",
 			"",
@@ -544,7 +546,7 @@
 			"**Aura** faint transmutation; **CL** 3rd  ",
 			"**Slot** none; **Price** +1 bonus; **Weight** -",
 			"",
-			"Popular among those who seek to impersonate skilled warriors, a training weapon grants one combat feat to the wielder as long as the weapon is drawn and in hand. The feat is chosen when this special ability is placed on the weapon. That feat cannot be used as a prerequisite for any other feats and functions for the wielder only if she meets its prerequisites. Once chosen, the feat stored in the weapon cannot be changed.",
+			"Popular among those who seek to impersonate skilled warriors, a training weapon grants one {main/feats_<combat/ feat} to the wielder as long as the weapon is drawn and in hand. The feat is chosen when this special ability is placed on the weapon. That feat cannot be used as a prerequisite for any other feats and functions for the wielder only if she meets its prerequisites. Once chosen, the feat stored in the weapon cannot be changed.",
 			"",
 			"### Construction",
 			"",
@@ -561,7 +563,7 @@
 			"**Aura** faint abjuration; **CL** 5th  ",
 			"**Slot** none; **Price** +1 bonus; **Weight** -",
 			"",
-			"Typically forged by aeons or other creatures that eschew commonly held structures of morality, unaligned weapons quell the effects of extreme alignments on the wielder. The wielder counts her Hit Dice as 4 lower than her actual total HD when someone attempts to detect her alignment using {spell/detect chaos}, {spell/detect evil}, {spell/detect good}, {spell/detect law}, or similar spells or effects. Furthermore, if the wielder is an outsider and is targeted by a spell or effect with an alignment descriptor that deals additional damage to or has an additional effect on outsiders (such as {spell/holy smite}), she adds a bonus equal to the unaligned weapon's enhancement bonus on saving throws she attempts against that spell or effect. Finally, the wielder takes no penalties on her Charisma-, Intelligence-, or Wisdom-based checks from a plane's mildly aligned or strongly aligned traits, regardless of her actual alignment.",
+			"Typically forged by {family/aeon/s} or other creatures that eschew commonly held structures of morality, unaligned weapons quell the effects of extreme alignments on the wielder. The wielder counts her Hit Dice as 4 lower than her actual total HD when someone attempts to detect her alignment using {spell/detect chaos}, {spell/detect evil}, {spell/detect good}, {spell/detect law}, or similar spells or effects. Furthermore, if the wielder is an outsider and is targeted by a spell or effect with an alignment descriptor that deals additional damage to or has an additional effect on outsiders (such as {spell/holy smite}), she adds a bonus equal to the unaligned weapon's enhancement bonus on saving throws she attempts against that spell or effect. Finally, the wielder takes no penalties on her Charisma-, Intelligence-, or Wisdom-based checks from a plane's mildly aligned or strongly aligned traits, regardless of her actual alignment.",
 			"",
 			"### Construction",
 			"",
@@ -578,7 +580,7 @@
 			"**Aura** faint divination; **CL** 5th  ",
 			"**Slot** none; **Price** +1 bonus; **Weight** -",
 			"",
-			"This ability can be placed only on a melee bludgeoning or slashing weapon. Melee attacks with the weapon don't take the usual -2 penalty for attacking underwater, and they deal full damage.",
+			"This ability can be placed only on a melee bludgeoning or slashing weapon. Melee attacks with the weapon don't take the usual -2 penalty for {rule/physical_<attack«s»[ing] underwater}, and they deal full damage.",
 			"",
 			"### Construction",
 			"",
@@ -595,7 +597,7 @@
 			"**Aura** faint divination; **CL** 5th  ",
 			"**Slot** weapon quality; **Price** +1 bonus; **Weight** -",
 			"",
-			"This special ability can only be placed on melee weapons. When a cavalier wielding a valiant weapon targets a foe with his challenge ability, the valiant weapon deals an additional 1d6 points of damage against that foe. The wielder receives a +2 bonus on combat maneuver checks made to disarm or sunder a challenged foe's weapon as well as a +4 bonus to his CMD against disarm and sunder attacks from that foe.",
+			"This special ability can only be placed on melee weapons. When a {class/cavalier} wielding a valiant weapon targets a foe with his challenge ability, the valiant weapon deals an additional 1d6 points of damage against that foe. The wielder receives a +2 bonus on combat maneuver checks made to {rule/disarm} or {rule/sunder} a challenged foe's weapon as well as a +4 bonus to his CMD against disarm and sunder attacks from that foe.",
 			"",
 			"### Construction",
 			"",
@@ -615,7 +617,7 @@
 			"**Aura** faint necromancy; **CL** 5th  ",
 			"**Price** +1 bonus; **Weight** -",
 			"",
-			"This special ability can be placed only on piercing or slashing melee weapons. The first time each round that the wielder hits a living target with a vampiric weapon, the weapon restores an amount of hit points to the wielder equal to 1/2 the damage dealt to the target, to a maximum equal to the wielder's number of Hit Dice. If the damage was more than enough to kill the target, any excess damage doesn't count toward the amount healed. A creature can regain no more than 2 hit points per Hit Die from a vampiric weapon each day. A new owner gains no healing from a vampiric weapon until she owns it for 24 consecutive hours, and a wielder can be attuned to only one vampiric or greater vampiric weapon at a time. Finally, a wielder healed by a vampiric weapon can't exceed her maximum hit point total, though excess healing also doesn't count toward the daily limit of hit points she can regain.",
+			"This special ability can be placed only on piercing or slashing melee weapons. The first time each round that the wielder hits a living target with a vampiric weapon, the weapon restores an amount of hit points to the wielder equal to 1/2 the damage dealt to the target, to a maximum equal to the wielder's number of Hit Dice. If the damage was more than enough to kill the target, any excess damage doesn't count toward the amount healed. A creature can regain no more than 2 hit points per Hit Die from a vampiric weapon each day. A new owner gains no healing from a vampiric weapon until she owns it for 24 consecutive hours, and a wielder can be attuned to only one vampiric or {magic-enh/greater vampiric} weapon at a time. Finally, a wielder healed by a vampiric weapon can't exceed her maximum hit point total, though excess healing also doesn't count toward the daily limit of hit points she can regain.",
 			"",
 			"Both living and undead creatures can benefit from the healing. A vampiric weapon automatically converts the stolen energy into positive or negative energy, as appropriate for the wielder.",
 			"",
@@ -671,7 +673,7 @@
 			"**Aura** moderate enchantment; **CL** 7th  ",
 			"**Slot** none; **Price** +2,500 gp; **Weight** -",
 			"",
-			"This special ability can be placed only on a whip. A prehensile whip can, as a swift action, be attached to an object as if it were a grappling hook. The whip can then be used to climb surfaces or to swing across a room or any open area. By spending 1 panache point as a free action, a swashbuckler increases a prehensile whip's reach to 20 feet for a single attack, and can use the whip with his precise strike ability even though it's not a light or one-handed piercing weapon.",
+			"This special ability can be placed only on a {eq-weapon/whip}. A prehensile whip can, as a swift action, be attached to an object as if it were a grappling hook. The whip can then be used to climb surfaces or to swing across a room or any open area. By spending 1 panache point as a free action, a swashbuckler increases a prehensile whip's reach to 20 feet for a single attack, and can use the whip with his precise strike ability even though it's not a light or one-handed piercing weapon.",
 			"",
 			"### Construction",
 			"",
@@ -710,7 +712,9 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/fabricate}, {spell/make whole}; **Price** +1,500 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/fabricate}, {spell/make whole}; **Price** +1,500 gp",
+			"",
+			">*See also: {magic-enh/impervious armor/ enhancement}*"
 		]
 	},
 	"impervious_w": { "redirect": "impervious" },
@@ -725,7 +729,7 @@
 			"**Aura** faint necromancy; **CL** 1st  ",
 			"**Slot** none; **Price** +3,750 gp; **Weight** -",
 			"",
-			"When the wielder of an exclusionary weapon damages a creature with it, she can choose to not affect that creature with any channel energy ability she uses within the next minute. The maximum number of targets the wielder can exclude at one time is equal to her Wisdom bonus plus the enhancement bonus of the exclusionary weapon. If the wielder of an exclusionary weapon strikes a creature that would cause her to go over this limit, she loses the ability to exclude the target she has been excluding for the longest amount of time.",
+			"When the wielder of an exclusionary weapon damages a creature with it, she can choose to not affect that creature with any {ability/channel energy} ability she uses within the next minute. The maximum number of targets the wielder can exclude at one time is equal to her Wisdom bonus plus the enhancement bonus of the exclusionary weapon. If the wielder of an exclusionary weapon strikes a creature that would cause her to go over this limit, she loses the ability to exclude the target she has been excluding for the longest amount of time.",
 			"",
 			"### Construction",
 			"",
@@ -742,11 +746,13 @@
 			"**Aura** moderate illusion; **CL** 10th  ",
 			"**Slot** weapon quality; **Price** +4,000 gp; **Weight** -",
 			"",
-			"A glamered weapon can be commanded to change its shape and appearance to assume the form of another object of similar size. The weapon retains all its properties (including weight) when so disguised but does not radiate magic. Only true seeing or similar magic reveals the true nature of a glamered weapon while it is disguised. After a glamered weapon is used to attack, this special ability is suppressed for 1 minute.",
+			"A glamered weapon can be commanded to change its shape and appearance to assume the form of another object of similar size. The weapon retains all its properties (including weight) when so disguised but does not radiate magic. Only {spell/true seeing} or similar magic reveals the true nature of a glamered weapon while it is disguised. After a glamered weapon is used to attack, this special ability is suppressed for 1 minute.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/disguise self}, {spell/magic aura}; **Price** +2,000 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/disguise self}, {spell/magic aura}; **Price** +2,000 gp",
+			"",
+			">*See also: {magic-enh/glamered armor/ enhancement}*"
 		]
 	},
 	"glamered_w": { "redirect": "glamered_weapon" },
@@ -777,7 +783,7 @@
 			"**Aura** moderate evocation; **CL** 8th  ",
 			"**Slot** none; **Price** +5,000 gp; **Weight** -",
 			"",
-			"Taking the form of a deity's favored weapon, a sacrosanct weapon serves as both a martial implement and the corresponding deity's holy (or unholy) symbol. Once per day when the wielder uses the sacrosanct weapon to channel energy, she can increase the radius of the channel energy to 40 feet. They wielder must be able to channel positive or negative energy to use this ability.",
+			"Taking the form of a deity's favored weapon, a sacrosanct weapon serves as both a martial implement and the corresponding deity's holy (or unholy) symbol. Once per day when the wielder uses the sacrosanct weapon to {ability/channel energy}, she can increase the radius of the channel energy to 40 feet. They wielder must be able to channel positive or negative energy to use this ability.",
 			"",
 			"Alternatively, the wielder can expend one use of mythic power to use this ability instead of expending its daily use. When using mythic power to activate this ability, it can be done at will.",
 			"",
@@ -796,7 +802,7 @@
 			"**Aura** moderate necromancy; **CL** 7th  ",
 			"**Slot** none; **Price** +5,000 gp; **Weight** -",
 			"",
-			"This special ability can be placed only on a melee weapon. Once per day as a free action, the wielder of a sneaky weapon can designate a single foe within his melee reach as his prey. If the wielder has the sneak attack class feature, he adds his sneak attack damage to the next attack he makes against his prey, even if the wielder is not flanking and the target is not denied its Dexterity bonus to AC, as long as that attack is made before the end of the wielder's next turn. If the wielder is a rogue or slayer with the hunter's surprise talent, he can use that talent one additional time per day.",
+			"This special ability can be placed only on a melee weapon. Once per day as a free action, the wielder of a sneaky weapon can designate a single foe within his melee reach as his prey. If the wielder has the {ability/sneak attack} class feature, he adds his sneak attack damage to the next attack he makes against his prey, even if the wielder is not {rule/flanking} and the target is not denied its Dexterity bonus to AC, as long as that attack is made before the end of the wielder's next turn. If the wielder is a rogue or slayer with the {talent/hunter's surprise} talent, he can use that talent one additional time per day.",
 			"",
 			"### Construction",
 			"",
@@ -832,7 +838,7 @@
 			"",
 			"This special ability can be placed only on a light or one-handed melee weapon. A concealed weapon alters its shape at its wielder's command, transforming into a non-weapon object of the wielder's choice. This object must be a mundane item whose size and shape is similar to that of the concealed weapon or smaller, and it must be sized for a creature of the same size as the weapon's intended wielder. For example, a Medium short sword can transform into a quill sized for a Medium creature, but it cannot transform into a saw sized for a Small creature. A concealed weapon cannot transform into a consumable item, and if its alternate form is that of a container, any contents stored within the concealed weapon's alternate form are ejected into the wielder's space when the weapon transforms back to its original form.",
 			"",
-			"While transformed, a concealed weapon doesn't register as magical, as per {spell/magic aura}, though it retains the weight, hit points, and any hardness of its original form. A concealed weapon cannot assume the form of an object made from a special material (such as adamantine) unless it is already made of that material. For instance, a wooden club cannot transform into a mithral frying pan, but a mithral dagger can.",
+			"While transformed, a concealed weapon doesn't register as magical, as per {spell/magic aura}, though it retains the weight, hit points, and any hardness of its original form. A concealed weapon cannot assume the form of an object made from a special material (such as {eq-material/adamantine}) unless it is already made of that material. For instance, a wooden club cannot transform into a mithral frying pan, but a {eq-material/mithral} dagger can.",
 			"",
 			"Transforming a concealed weapon into a mundane form requires a standard action, while returning it to its weapon form requires a move action. This transformation lasts until it is changed back into its original form or has been left unattended for 8 hours, whichever comes sooner.",
 			"",
@@ -855,7 +861,9 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/feather step}; **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/feather step}; **Price** -",
+			"",
+			">*See also: {magic-enh/advancing armor/ enhancement}*"
 		]
 	},
 	"advancing_w": { "redirect": "advancing" },
@@ -867,18 +875,36 @@
 			"PRPG Core Rulebook"
 		],
 		"description": [
-			"## Anarchic",
+			"## Anarchic, Axiomatic, Holy, Unholy",
 			"",
-			"{SOURCE Ultimate Equipment/135;PRPG Core Rulebook/469}  ",
+			"{SOURCE Ultimate Equipment/135-6, 143, 149;PRPG Core Rulebook/469}  ",
 			"**Aura** moderate evocation; **CL** 7th  ",
 			"**Slot** weapon quality; **Price** +2 bonus; **Weight** -",
 			"",
-			"An anarchic weapon is infused with the power of chaos. It makes the weapon chaotically aligned and thus bypasses the corresponding damage reduction. It deals an extra 2d6 points of damage against all creatures of lawful alignment. It bestows one permanent negative level on any lawful creature attempting to wield it. The negative level remains as long as the weapon is in hand and disappears when the weapon is no longer wielded. This negative level cannot be overcome in any way (including {spell/restoration} spells) while the weapon is wielded.",
+			"An anarchic weapon is infused with the power of chaos. It makes the weapon chaotically aligned and thus bypasses the corresponding damage reduction. It deals an extra 2d6 points of damage against all creatures of lawful alignment. It bestows one permanent {rule/negative level>s} on any lawful creature attempting to wield it. The negative level remains as long as the weapon is in hand and disappears when the weapon is no longer wielded. This negative level cannot be overcome in any way (including {spell/restoration} spells) while the weapon is wielded.",
+			"",
+			"An axiomatic weapon behaves like an anarchic weapon, but is law-aligned and deals its extra damage to - or bestows a negative level on - chaotic creatures.",
+			"",
+			"A holy weapon behaves like an anarchic weapon, but is good-aligned and deals its extra damage to - or bestows a negative level on - evil creatures.",
+			"",
+			"An unholy weapon behaves like an anarchic weapon, but is evil-aligned and deals its extra damage to - or bestows a negative level on - good creatures.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/chaos hammer}, creator must be chaotic; **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor} and one of the following: {spell/chaos hammer} and the creator must be chaotic (anarchic only), {spell/order's wrath} and the creator must be lawful (axiomatic only), {spell/holy smite} and the creator must be good (holy only), or {spell/unholy blight} and the creator must be evil (unholy only); **Price** -"
 		]
+	},
+	"axiomatic": {
+		"name": "Axiomatic",
+		"copyof": "anarchic"
+	},
+	"holy": {
+		"name": "Holy",
+		"copyof": "anarchic"
+	},
+	"unholy": {
+		"name": "Unholy",
+		"copyof": "anarchic"
 	},
 	"anchoring": {
 		"name": "Anchoring",
@@ -895,26 +921,6 @@
 			"### Construction",
 			"",
 			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/levitate}; **Price** -"
-		]
-	},
-	"axiomatic": {
-		"name": "Axiomatic",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook"
-		],
-		"description": [
-			"## Axiomatic",
-			"",
-			"{SOURCE Ultimate Equipment/136;PRPG Core Rulebook/469}  ",
-			"**Aura** moderate evocation; **CL** 7th  ",
-			"**Slot** weapon quality; **Price** +2 bonus; **Weight** -",
-			"",
-			"An axiomatic weapon is infused with lawful power. It makes the weapon law-aligned and thus bypasses the corresponding damage reduction. It deals an extra 2d6 points of damage against chaotic creatures. It bestows one permanent negative level on any chaotic creature attempting to wield it. The negative level remains as long as the weapon is in hand and disappears when the weapon is no longer wielded. This negative level cannot be overcome in any way (including {spell/restoration} spells) while the weapon is wielded.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/order's wrath}, creator must be lawful; **Price** -"
 		]
 	},
 	"burning": {
@@ -991,7 +997,9 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Heroic Defiance}, {spell/break enchantment}, {spell/stabilize}; **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Heroic Defiance}, {spell/break enchantment}, {spell/stabilize}; **Price** -",
+			"",
+			">*See also: {magic-enh/defiant armor/ enhancement}*"
 		]
 	},
 	"defiant_w": { "redirect": "defiant_weapon" },
@@ -1159,26 +1167,6 @@
 			"### Construction",
 			"",
 			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/align weapon}, {spell/weapon of awe}, creator must be a member of the attuned religion; **Price** -"
-		]
-	},
-	"holy": {
-		"name": "Holy",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook"
-		],
-		"description": [
-			"## Holy",
-			"",
-			"{SOURCE Ultimate Equipment/143;PRPG Core Rulebook/469}  ",
-			"**Aura** moderate evocation; **CL** 7th  ",
-			"**Slot** weapon quality; **Price** +2 bonus; **Weight** -",
-			"",
-			"A holy weapon is imbued with holy power. This power makes the weapon good-aligned and thus bypasses the corresponding damage reduction. It deals an extra 2d6 points of damage against all creatures of evil alignment. It bestows one permanent negative level on any evil creature attempting to wield it. The negative level remains as long as the weapon is in hand and disappears when the weapon is no longer wielded. This negative level cannot be overcome in any way (including by {spell/restoration} spells) while the weapon is wielded.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/holy smite}, creator must be good; **Price** -"
 		]
 	},
 	"icy_burst": {
@@ -1638,26 +1626,6 @@
 			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/greater dispel magic}, {spell/true strike}; **Price** -"
 		]
 	},
-	"unholy": {
-		"name": "Unholy",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook"
-		],
-		"description": [
-			"## Unholy",
-			"",
-			"{SOURCE Ultimate Equipment/149;PRPG Core Rulebook/469}  ",
-			"**Aura** moderate evocation; **CL** 7th  ",
-			"**Slot** weapon quality; **Price** +2 bonus; **Weight** -",
-			"",
-			"An unholy weapon is imbued with unholy power. This power makes the weapon evil-aligned and thus bypasses the corresponding damage reduction. It deals an extra 2d6 points of damage against all creatures of good alignment. It bestows one permanent negative level on any good creature attempting to wield it. The negative level remains as long as the weapon is in hand and disappears when the weapon is no longer wielded. This negative level cannot be overcome in any way (including {spell/restoration} spells) while the weapon is wielded.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/unholy blight}, creator must be evil; **Price** -"
-		]
-	},
 	"unseen": {
 		"name": "Unseen",
 		"sources": [ "Ultimate Intrigue" ],
@@ -1750,7 +1718,9 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/cat's grace}; **Price** +7,000 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/cat's grace}; **Price** +7,000 gp",
+			"",
+			">*See also: {magic-enh/dueling (PSFG)/ enhancement}*"
 		]
 	},
 	"transformative_greater": {

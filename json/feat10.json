@@ -811,7 +811,7 @@
 			"",
 			"You pick your way nimbly through even the most dangerous and uneven terrain.  ",
 			"**Prerequisites:** {feat/Acrobatic Steps}, {feat/Nimble Moves}, {race/elf}.  ",
-			"**Benefit:** You can ignore the effects of difficult terrain in natural environments, as if it were normal terrain."
+			"**Benefit:** You can ignore the effects of {rule/difficult terrain} in natural environments, as if it were normal terrain."
 		]
 	},
 	"lighting_the_way": {
@@ -1196,7 +1196,7 @@
 			"",
 			"Your long stride allows you extra maneuverability.  ",
 			"**Prerequisites:** Giant subtype, size Large or larger.  ",
-			"**Benefit:** Your land speed increases by 5 feet, and you can ignore up to 20 feet of nonmagical difficult terrain each round you move."
+			"**Benefit:** Your land speed increases by 5 feet, and you can ignore up to 20 feet of nonmagical {rule/difficult terrain} each round you move."
 		]
 	},
 	"lookout": {
@@ -1606,7 +1606,7 @@
 			"",
 			"@HL[Obscure Self] (Stealth 6 ranks): You reduce the area of the *obscuring mist* to your space plus all adjacent squares, but the mist is no longer stationary and instead automatically moves with you when you move. This does not create enough concealment to attempt Stealth checks. As a swift action, you can anchor the mist, causing it to become stationary and allowing enough concealment to hide. You can release the mist as a swift action, allowing it to move with you again. If you take any fire damage while this trick is in effect, the spell immediately ends.",
 			"",
-			"@HL[Obscure Terrain] ({feat/Selective Spell}): Your mist rests low to the ground, blocking sight to all underfoot and making the area difficult to traverse. Your *obscuring mist* takes up the same area, but no longer blocks sight of other creatures. Instead, all creatures moving through the mist treat the area as difficult terrain. A creature can spend a move action to treat the area as normal terrain until the end of its turn.",
+			"@HL[Obscure Terrain] ({feat/Selective Spell}): Your mist rests low to the ground, blocking sight to all underfoot and making the area difficult to traverse. Your *obscuring mist* takes up the same area, but no longer blocks sight of other creatures. Instead, all creatures moving through the mist treat the area as {rule/difficult terrain}. A creature can spend a move action to treat the area as normal terrain until the end of its turn.",
 			"",
 			"@HL[Quenching Mist] (Spellcraft 6 ranks or water subtype): You can issue a forceful blast of pressurized mist in a 15-foot cone instead of casting *obscuring mist* normally. This blast automatically quenches any nonmagical fires and functions as {spell/dispel magic} against magical fires as long as those fires are Medium or smaller. The duration changes to instantaneous and the spell gains the water descriptor. Creatures with the fire subtype within the cone take 1d6 points of damage for every 2 caster levels (maximum 5d6) you have (half on a successful Reflex save).",
 			"",

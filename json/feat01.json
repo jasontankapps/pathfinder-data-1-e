@@ -268,7 +268,7 @@
 			"",
 			"You can easily move over and through obstacles.  ",
 			"**Prerequisites:** Dex 15, {feat/Nimble Moves}.  ",
-			"**Benefit:** Whenever you move, you may move through up to 15 feet of difficult terrain each round as if it were normal terrain. The effects of this feat stack with those provided by {feat/Nimble Moves} (allowing you to move normally through a total of 20 feet of difficult terrain each round)."
+			"**Benefit:** Whenever you move, you may move through up to 15 feet of {rule/difficult terrain} each round as if it were normal terrain. The effects of this feat stack with those provided by {feat/Nimble Moves} (allowing you to move normally through a total of 20 feet of difficult terrain each round)."
 		]
 	},
 	"acupuncture_specialist": {
@@ -1504,7 +1504,7 @@
 			"{SOURCE Planar Adventures/22}",
 			"",
 			"Your spell becomes infused with the devastating horror personified by the Horsemen of the Apocalypse, temporarily transforming reality into a treacherous ruin.  ",
-			"**Benefit:** You can alter a spell with an area of effect and a duration of instantaneous to become an apocalyptic spell. When you cast the spell, the area affected by the spell's instantaneous effect becomes ruined and devastated in appearance. All surfaces in the area are treated as difficult terrain, and Climb, Fly, and Swim checks attempted in the area take a penalty equal to the spell's original spell level. The difficult terrain and skill penalties last for a number of rounds equal to the spell's original spell level. An apocalyptic spell gains the evil descriptor.",
+			"**Benefit:** You can alter a spell with an area of effect and a duration of instantaneous to become an apocalyptic spell. When you cast the spell, the area affected by the spell's instantaneous effect becomes ruined and devastated in appearance. All surfaces in the area are treated as {rule/difficult terrain}, and Climb, Fly, and Swim checks attempted in the area take a penalty equal to the spell's original spell level. The difficult terrain and skill penalties last for a number of rounds equal to the spell's original spell level. An apocalyptic spell gains the evil descriptor.",
 			"",
 			"An apocalyptic spell uses a spell slot 1 level higher than the spell's normal spell level. Spells with the good descriptor can't be apocalyptic spells."
 		]
@@ -2922,7 +2922,7 @@
 			"",
 			"You move across the battlefield in a blur.  ",
 			"**Prerequisites:** {feat/Agile Maneuvers}, {feat/Azata Mischief}, {feat/Azata Style}, {feat/Dodge}, {feat/Mobility}, {feat/Wind Stance}, base attack bonus +10.  ",
-			"**Benefit:** While using Azata Style, your base speed increases by 10 feet and you ignore the movement penalties applied by the first 10 feet of difficult terrain you move through in the round."
+			"**Benefit:** While using Azata Style, your base speed increases by 10 feet and you ignore the movement penalties applied by the first 10 feet of {rule/difficult terrain} you move through in the round."
 		]
 	},
 	"azata_style": {

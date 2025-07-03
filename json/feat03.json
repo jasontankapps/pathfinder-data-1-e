@@ -586,7 +586,7 @@
 			"",
 			"This style originated among shamanic monks who spent their lives in the wild, allowing them to quickly subdue both game and poachers using the element of surprise. Practitioners of Charging Stag Style can charge fluidly around trees, taking enemies by surprise in the wilderness.  ",
 			"**Prerequisites:** Dex 13, {feat/Dodge}, {feat/Improved Unarmed Strike}, {feat/Mobility}.  ",
-			"**Benefit:** When using this style and not mounted, you can charge through difficult terrain and spaces containing allies. You can also make a single turn of up to 90 degrees during your charge. You must see your target at the beginning of your charge, and can make only a single attack at the end, even if you would normally be able to make multiple attacks (such as with the {umr/pounce} ability).  ",
+			"**Benefit:** When using this style and not mounted, you can charge through {rule/difficult terrain} and spaces containing allies. You can also make a single turn of up to 90 degrees during your charge. You must see your target at the beginning of your charge, and can make only a single attack at the end, even if you would normally be able to make multiple attacks (such as with the {umr/pounce} ability).  ",
 			"**Normal:** You can't charge through allies' spaces or difficult terrain."
 		]
 	},
@@ -818,7 +818,7 @@
 			"",
 			"You are skilled at moving quickly through forbidding parts of cities.  ",
 			"**Prerequisites:** {feat/Street Smarts}.  ",
-			"**Benefit:** You do not treat crowds as difficult terrain. You also gain an additional +2 bonus on Acrobatics checks to move along rooftops and on slippery sections of city streets and sewers."
+			"**Benefit:** You do not treat {rule/crowds} as {rule/difficult terrain}. You also gain an additional +2 bonus on Acrobatics checks to move along rooftops and on slippery sections of city streets and sewers."
 		]
 	},
 	"city_locked": {
@@ -846,7 +846,7 @@
 			"",
 			"You are as at home in the cities of mankind as your elven ancestors are within the forests.  ",
 			"**Prerequisites:** Stealth 1 rank, {race/half-elf}.  ",
-			"**Benefit:** You do not treat crowds as difficult terrain, and you gain a +5 circumstance bonus on Stealth checks when using a crowd as {rule/cover}."
+			"**Benefit:** You do not treat {rule/crowds} as {rule/difficult terrain}, and you gain a +5 circumstance bonus on Stealth checks when using a crowd as {rule/cover}."
 		]
 	},
 	"civilized_ghoulishness": {

@@ -488,7 +488,7 @@
 			"**Price** 10 gp; **Weight** 1 lb.  ",
 			"**Category** Alchemical Tools",
 			"",
-			"When you add this 1-pound bag of green powder to a gallon of water, the two combine to form 50 cubic feet of thick green foam. Unless contained, in 1 round the foam fills a 5-foot-square to a depth of 2 feet. When multiple pounds of powder are used, the foam expands at a rate of one 5-foot square per round. Ground covered with the foam is treated as difficult terrain, but is otherwise harmless. After 1 hour, the foam hardens to form a buoyant material roughly the density of honeycomb. The cured foam is easy to cut, with hardness 0 and 5 hit points per foot of thickness. The cured foam breaks down over a few days, and even faster if exposed to water. Casting {spell/transmute mud to rock} on uncured foam converts it into a soft, pumice-like stone (hardness 2, 5 hit points per inch of thickness).",
+			"When you add this 1-pound bag of green powder to a gallon of water, the two combine to form 50 cubic feet of thick green foam. Unless contained, in 1 round the foam fills a 5-foot-square to a depth of 2 feet. When multiple pounds of powder are used, the foam expands at a rate of one 5-foot square per round. Ground covered with the foam is treated as {rule/difficult terrain}, but is otherwise harmless. After 1 hour, the foam hardens to form a buoyant material roughly the density of honeycomb. The cured foam is easy to cut, with hardness 0 and 5 hit points per foot of thickness. The cured foam breaks down over a few days, and even faster if exposed to water. Casting {spell/transmute mud to rock} on uncured foam converts it into a soft, pumice-like stone (hardness 2, 5 hit points per inch of thickness).",
 			"",
 			"**Construction:** Craft (Alchemy) DC 20"
 		]
@@ -2858,7 +2858,7 @@
 			"**Price** 20 gp; **Weight** 4 lbs.  ",
 			"**Category** Alchemical Tools",
 			"",
-			"This ruby-red earth can be sprinkled over a 5-foot patch of ground as a standard action that provokes attacks of opportunity. Non-creature plants and fungi in the area grow with alarming speed, and the ground becomes weedy, difficult terrain for non-plant creatures. Any non-plant creature in the square must succeed at a DC 15 Reflex save or it becomes {rule/entangled} by the surging plants. Any plant creature in the affected square is healed of 1d6 points of damage.",
+			"This ruby-red earth can be sprinkled over a 5-foot patch of ground as a standard action that provokes attacks of opportunity. Non-creature plants and fungi in the area grow with alarming speed, and the ground becomes weedy, {rule/difficult terrain} for non-plant creatures. Any non-plant creature in the square must succeed at a DC 15 Reflex save or it becomes {rule/entangled} by the surging plants. Any plant creature in the affected square is healed of 1d6 points of damage.",
 			"",
 			"**{rule/Spontaneous Alchemy} Recipe** (15 {eq-reagent/magnesium} + 20 {eq-reagent/phosphorus} + 10 {eq-reagent/salt})/calcination; **Craft DC** 20  ",
 			"**Time** 1 hour; **Tools** {eq-misc/crucible}; **Type** alchemical tool"

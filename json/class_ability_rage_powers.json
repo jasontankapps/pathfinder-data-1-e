@@ -461,7 +461,7 @@
 		"nameSuffix": "(Ex)",
 		"compilationSources": [ [ "Advanced Player's Guide" ] ],
 		"description": [
-			"Once per rage, the barbarian can attack the floor around her as a standard action. This attack automatically hits and deals damage normally. If the barbarian manages to deal more damage than the floor's hardness, the space she occupies and all of the squares adjacent to her become difficult terrain. Creatures in these squares, except the barbarian, must make a DC 15 Reflex save or be knocked {rule/prone}. A barbarian must be at least 6th level to select this rage power."
+			"Once per rage, the barbarian can attack the floor around her as a standard action. This attack automatically hits and deals damage normally. If the barbarian manages to deal more damage than the floor's hardness, the space she occupies and all of the squares adjacent to her become {rule/difficult terrain}. Creatures in these squares, except the barbarian, must make a DC 15 Reflex save or be knocked {rule/prone}. A barbarian must be at least 6th level to select this rage power."
 		]
 	},
 	"greater_ground_breaker": {
@@ -2193,7 +2193,7 @@
 		"category": "Blood",
 		"compilationSources": [ [ "Advanced Class Guide" ] ],
 		"description": [
-			"While raging, when the barbarian charges, she ignores difficult terrain (including magical terrain, but not other creatures). You must be 6th level and have the {ragepower/lesser fey blood} rage power to select this power."
+			"While raging, when the barbarian charges, she ignores {rule/difficult terrain} (including magical terrain, but not other creatures). You must be 6th level and have the {ragepower/lesser fey blood} rage power to select this power."
 		]
 	},
 	"greater_fey_blood": {

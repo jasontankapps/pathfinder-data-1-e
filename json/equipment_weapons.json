@@ -3210,7 +3210,7 @@
 			"## Blade boot",
 			"{SOURCE Adventurer's Armory/2}",
 			"",
-			"Blade boots come with a spring-mounted knife that pops out when triggered with the right combination of toe presses. You can use a blade boot as an off-hand weapon. Releasing the knife is a swift action; rearming it is a full-round action. When the blade is extended, you treat normal terrain as difficult and difficult terrain as impassable.",
+			"Blade boots come with a spring-mounted knife that pops out when triggered with the right combination of toe presses. You can use a blade boot as an off-hand weapon. Releasing the knife is a swift action; rearming it is a full-round action. When the blade is extended, you treat normal terrain as difficult and {rule/difficult terrain} as impassable.",
 			"",
 			"**Cost** 25 gp **Weight** 2 lbs.  ",
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** -; **Type** P; **Special** see text  ",

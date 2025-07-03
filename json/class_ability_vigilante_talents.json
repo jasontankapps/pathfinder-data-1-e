@@ -661,7 +661,7 @@
 		"compilationSources": [ [ "Ultimate Intrigue", 16 ] ],
 		"category": "Other Talents",
 		"description": [
-			"The vigilante can move at full speed while using the Stealth and Acrobatics skills without penalty. At 8th level, he can move at full speed across difficult terrain."
+			"The vigilante can move at full speed while using the Stealth and Acrobatics skills without penalty. At 8th level, he can move at full speed across {rule/difficult terrain}."
 		]
 	},
 	"surprise_strike": {

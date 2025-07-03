@@ -306,7 +306,7 @@
 			"",
 			"**Subjugate (Ex):** At 8th level, whenever the cavalier confirms a critical hit with a melee weapon against a creature of chaotic alignment with an Intelligence score of 3 or higher, or against a creature that the cavalier has witnessed committing a crime within the past hour, he adds his Charisma modifier to the total critical hit damage. If the critical hit kills the creature or renders it unconscious, as an immediate action the cavalier can attempt an Intimidate check to demoralize all foes within 15 feet who can see him. This ability can be used only once per combat.",
 			"",
-			"**Hand of the Law (Ex):** At 15th level, the cavalier can declare himself an enforcer of martial law as a swift action. For a number of rounds equal to his Charisma modifier, the cavalier can ignore difficult terrain and gains an additional +2 bonus on attack rolls while charging. Any creatures the cavalier demoralizes while this ability is in effect are shaken for a number of additional rounds equal to the cavalier's Charisma modifier. Additionally, when these creatures attack the cavalier, attempt saving throws against the cavalier's abilities, or attempt opposed skill checks against the cavalier, they take a -3 penalty for being shaken (instead of -2). A cavalier can use this ability only once per combat."
+			"**Hand of the Law (Ex):** At 15th level, the cavalier can declare himself an enforcer of martial law as a swift action. For a number of rounds equal to his Charisma modifier, the cavalier can ignore {rule/difficult terrain} and gains an additional +2 bonus on attack rolls while charging. Any creatures the cavalier demoralizes while this ability is in effect are shaken for a number of additional rounds equal to the cavalier's Charisma modifier. Additionally, when these creatures attack the cavalier, attempt saving throws against the cavalier's abilities, or attempt opposed skill checks against the cavalier, they take a -3 penalty for being shaken (instead of -2). A cavalier can use this ability only once per combat."
 		]
 	},
 	"order_of_the_first_law": {
@@ -360,7 +360,7 @@
 			"",
 			"**Daunting Success (Ex):** At 8th level, whenever the cavalier confirms a critical hit with a melee weapon, as an immediate action he can attempt an Intimidate check to demoralize all foes within 15 feet who can see him. This ability can be used only once per combat.",
 			"",
-			"**Blaze of Glory (Ex):** At 15th level, the cavalier can declare a blaze of glory as a standard action. For a number of rounds equal to his Charisma modifier, the cavalier increases his base speed by 10 feet, can ignore difficult terrain while charging, and gains a +4 bonus on his attack rolls (instead of +2). A cavalier can use this ability only once per combat."
+			"**Blaze of Glory (Ex):** At 15th level, the cavalier can declare a blaze of glory as a standard action. For a number of rounds equal to his Charisma modifier, the cavalier increases his base speed by 10 feet, can ignore {rule/difficult terrain} while {rule/charg/ing>e}, and gains a +4 bonus on his attack rolls (instead of +2). A cavalier can use this ability only once per combat."
 		]
 	},
 	"order_of_the_green": {
@@ -498,7 +498,7 @@
 			"",
 			"**Terrain Training (Ex):** At 8th level, the cavalier may select a terrain type from the ranger {ability/Favored Terrain/s} table. As a standard action, he can shout orders that grant all allies within 60 feet a competence bonus equal to his Charisma modifier on initiative checks and Knowledge (geography), Perception, and Survival checks while they are in this terrain for a number of rounds equal to 1/2 his cavalier level. At 12th level and every four levels thereafter, the cavalier may select a new terrain type that this ability can affect.",
 			"",
-			"**Wild Charge (Ex):** At 15th level, the cavalier and his mount can ignore difficult terrain for the purpose of making a charge attack. In addition, if the charge attack is successful and both he and his opponent are occupying squares with difficult terrain, the cavalier gains a +2 competence bonus when using his mighty charge ability to make a bull rush, disarm, sunder, or trip {rule/combat maneuver>s}."
+			"**Wild Charge (Ex):** At 15th level, the cavalier and his mount can ignore {rule/difficult terrain} for the purpose of making a {rule/charge} attack. In addition, if the charge attack is successful and both he and his opponent are occupying squares with difficult terrain, the cavalier gains a +2 competence bonus when using his mighty charge ability to make a bull rush, disarm, sunder, or trip {rule/combat maneuver>s}."
 		]
 	},
 	"order_of_the_lion": {

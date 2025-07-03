@@ -1228,7 +1228,7 @@
 			"",
 			"The deadly power of the Negative Energy Plane creates a field that snuffs out life forces at the cost of your own vitality.  ",
 			"**Prerequisites:** Knowledge (planes) 5 ranks.  ",
-			"**Benefit:** As a move action, you can exude deadly energy from your body. While this death field is in effect, small plants wither and recoil from you, allowing you to ignore the effects of difficult terrain caused by plant life and ignore the effects of spells like {spell/entangle} that compel vegetation to grasp at you, provided the spell's level is 3rd or lower (the death field cannot affect more powerful plant magic).",
+			"**Benefit:** As a move action, you can exude deadly energy from your body. While this death field is in effect, small plants wither and recoil from you, allowing you to ignore the effects of {rule/difficult terrain} caused by plant life and ignore the effects of spells like {spell/entangle} that compel vegetation to grasp at you, provided the spell's level is 3rd or lower (the death field cannot affect more powerful plant magic).",
 			"",
 			"Any {subtype/swarm} that enters your space takes 1d6 points of negative energy damage; this damage is applied before you are affected by any swarm attacks, so if the damage is enough to destroy the swarm, it does not harm you.",
 			"",
@@ -2444,7 +2444,7 @@
 			"",
 			"You can force foes to move cautiously when near you.  ",
 			"**Prerequisites:** Base attack bonus +5, weapon training class feature with a melee weapon.  ",
-			"**Benefit:** When you make a full attack with an appropriate melee weapon, you can force creatures to treat squares adjacent to you as difficult terrain until the beginning of your next turn. You can choose to allow any creature you are aware of to ignore the difficult terrain you effectively create with this feat."
+			"**Benefit:** When you make a full attack with an appropriate melee weapon, you can force creatures to treat squares adjacent to you as {rule/difficult terrain} until the beginning of your next turn. You can choose to allow any creature you are aware of to ignore the difficult terrain you effectively create with this feat."
 		]
 	},
 	"dilettante": {

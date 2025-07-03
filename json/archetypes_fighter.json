@@ -567,7 +567,7 @@
 			"",
 			"**Piledriver (Ex):** At 11th level, as a standard action, a foehammer may make a single melee attack with a weapon from the hammer weapon training group. If the attack hits, he may make a bull rush or trip combat maneuver against the target of his attack as a free action that does not provoke an attack of opportunity. This ability replaces armor training 3.",
 			"",
-			"**Ground Breaker (Ex):** At 13th level, as a full-round action, a foehammer may strike the ground with his hammer. If the attack deals more damage than the floor's hardness, the space he occupies and all adjacent squares become difficult terrain. Creatures in those squares, except for the foehammer, are knocked prone (DC 15 Reflex negates). This ability replaces weapon training 3.",
+			"**Ground Breaker (Ex):** At 13th level, as a full-round action, a foehammer may strike the ground with his hammer. If the attack deals more damage than the floor's hardness, the space he occupies and all adjacent squares become {rule/difficult terrain}. Creatures in those squares, except for the foehammer, are knocked prone (DC 15 Reflex negates). This ability replaces weapon training 3.",
 			"",
 			"**Hammer Master (Ex):** At 17th level, any combat feats a foehammer has learned with any weapon from the hammer weapon training group (e.g., {feat/Improved Critical}, {feat/Weapon Focus}) apply to all weapons from that group. This ability replaces weapon training 4.",
 			"",
@@ -942,7 +942,7 @@
 			"",
 			"**Burst of Speed (Ex):** At 3rd level, a Dawnflower dervish takes only a -1 penalty to her AC after charging. At 7th level, the Dawnflower dervish can charge with no penalty. This ability replaces armor training 1.",
 			"",
-			"**Desert Stride (Ex):** At 7th level, a Dawnflower dervish can move through 10 feet of difficult terrain each round as if it were normal terrain. This benefit stacks with the benefits provided by the {feat/Acrobatic Steps} and {feat/Nimble Moves} feats. This ability replaces armor training 2.",
+			"**Desert Stride (Ex):** At 7th level, a Dawnflower dervish can move through 10 feet of {rule/difficult terrain} each round as if it were normal terrain. This benefit stacks with the benefits provided by the {feat/Acrobatic Steps} and {feat/Nimble Moves} feats. This ability replaces armor training 2.",
 			"",
 			"**Rapid Attack (Ex):** At 11th level, a Dawnflower dervish can combine a full attack with a single move. She must forgo the attack at her highest bonus but may take the remaining attacks at any point during her movement. This movement provokes attacks of opportunity as normal. This ability replaces armor training 3.",
 			"",
@@ -988,7 +988,7 @@
 			"",
 			"**Ride Them Down (Ex):** At 15th level, can spur his mount on while readying an attack. If a roughrider's mount takes a single move, the roughrider can make a full attack, taking his attacks at any point during his mount's movement. If he has the {feat/Trample} feat, he may substitute an overrun combat maneuver for each of his attacks. This movement provokes attacks of opportunity against the roughrider but not his mount. This ability replaces armor training 4.",
 			"",
-			"**Unavoidable Onslaught (Ex):** At 15th level, a roughrider's mounted charge is not blocked by friendly creatures or difficult terrain. This ability replaces armor training 4.",
+			"**Unavoidable Onslaught (Ex):** At 15th level, a roughrider's mounted charge is not blocked by friendly creatures or {rule/difficult terrain}. This ability replaces armor training 4.",
 			"",
 			"**Indomitable Steed (Ex):** At 19th level, a roughrider and his steed gain DR 5/- when mounted. This ability replaces armor mastery."
 		]
@@ -1006,11 +1006,11 @@
 			"",
 			"**Natural Savagery (Ex):** At 5th level, a savage warrior gains a +1 bonus on attack and damage rolls with natural weapons. This bonus also applies to CMB and CMD for grappling. This bonus increases by +1 for every four levels beyond 5th. This ability replaces weapon training 1.",
 			"",
-			"**Savage Charge (Ex):** At 9th level, when a savage warrior attacks with a natural weapon at the end of a charge, he gains a bonus on his natural weapon attack rolls equal to half his fighter level, while suffering a penalty to his AC equal to half his fighter level. These replace the normal attack roll bonus and AC penalty for charging. This bonus also applies to his CMB for a bull rush or overrun combat maneuvers made when charging. This ability replaces weapon training 2.",
+			"**Savage Charge (Ex):** At 9th level, when a savage warrior attacks with a natural weapon at the end of a {rule/charge}, he gains a bonus on his natural weapon attack rolls equal to half his fighter level, while suffering a penalty to his AC equal to half his fighter level. These replace the normal attack roll bonus and AC penalty for charging. This bonus also applies to his CMB for a bull rush or overrun combat maneuvers made when charging. This ability replaces weapon training 2.",
 			"",
 			"**Careful Claw (Ex):** At 13th level, when using a natural weapon to attack a creature using fire shield or a similar effect that damages creatures attacking it (such as a {monster/barbed devil/'s} barbed defense), a savage warrior reduces the damage from such effects by an amount equal to 1/2 his fighter level. This ability replaces weapon training 3.",
 			"",
-			"**Greater Savage Charge (Ex):** At 17th level, when using savage charge, the AC penalty is reduced to 1/4 his fighter level instead of 1/2 his fighter level. In addition, a savage warrior can charge through friendly creatures and difficult terrain. This ability replaces weapon training 4.",
+			"**Greater Savage Charge (Ex):** At 17th level, when using savage charge, the AC penalty is reduced to 1/4 his fighter level instead of 1/2 his fighter level. In addition, a savage warrior can charge through friendly creatures and {rule/difficult terrain}. This ability replaces weapon training 4.",
 			"",
 			"**Natural Weapon Mastery (Ex):** At 20th level, a savage warrior must choose one natural weapon. This ability replaces weapon mastery."
 		]

@@ -68,7 +68,7 @@
 			"",
 			"**Thundering Hooves (Ex):** At 3rd level, a charger's hoof attack deals an additional 1d6 points of damage and its critical threat range increases to 19-20. This effect doesn't stack with any other effect that expands the critical threat range of a weapon. Whenever he performs a charge, the charger can make an additional hoof attack against his target with a -5 penalty on his attack roll. This ability replaces cavalier's charge.",
 			"",
-			"**Courser (Ex):** At 4th level, a charger's constant training increases his land speed by 10 feet. A charger can also move through up to 10 feet of difficult terrain each round as if it were normal terrain. These benefits apply only when he is wearing no armor, light armor, or medium armor, and not carrying a heavy load. Apply this bonus before modifying the charger's speed because of any load carried or armor worn. These bonuses stack with any other bonuses to the charger's land speed or ability to ignore difficult terrain. This ability replaces expert trainer.",
+			"**Courser (Ex):** At 4th level, a charger's constant training increases his land speed by 10 feet. A charger can also move through up to 10 feet of {rule/difficult terrain} each round as if it were normal terrain. These benefits apply only when he is wearing no armor, light armor, or medium armor, and not carrying a heavy load. Apply this bonus before modifying the charger's speed because of any load carried or armor worn. These bonuses stack with any other bonuses to the charger's land speed or ability to ignore difficult terrain. This ability replaces expert trainer.",
 			"",
 			"**Ride Down (Ex):** At 11th level, a charger can attempt to overrun any number of targets in the path of his charge as a free action. For each successful overrun combat maneuver check, the charger automatically deals an amount of damage to the overrun target equal to that of his hoof attack and can continue with his charge. If any overrun attempt fails during the charge, the charger's progress ends in the space directly in front of the target where the maneuver failed. These overrun attempts do not provoke attacks of opportunity. For each target in the path of his charge, the charger incurs a cumulative -2 penalty on his overrun combat maneuver checks. This ability replaces mighty charge."
 		]
@@ -114,7 +114,7 @@
 			"",
 			"**Class Skills:** Perception is a class skill for constables. This alters the cavalier's class skills.",
 			"",
-			"**Apprehend (Ex):** A constable gains {feat/Improved Unarmed Strike} as a bonus feat and can attempt a grapple combat maneuver check in place of the attack at the end of a charge. At 2nd level, the constable receives a +1 bonus on Perception checks and combat maneuver checks to disarm, grapple, or trip opponents. At 7th level and every 5 levels thereafter, this bonus improves by 1. At 4th level, the constable does not treat crowds as difficult terrain. This ability replaces mount.",
+			"**Apprehend (Ex):** A constable gains {feat/Improved Unarmed Strike} as a bonus feat and can attempt a grapple combat maneuver check in place of the attack at the end of a charge. At 2nd level, the constable receives a +1 bonus on Perception checks and combat maneuver checks to disarm, grapple, or trip opponents. At 7th level and every 5 levels thereafter, this bonus improves by 1. At 4th level, the constable does not treat {rule/crowds} as difficult terrain. This ability replaces mount.",
 			"",
 			"**Squad Commander (Ex):** At 3rd level, a constable can spend 1 minute laying out a plan to activate the tactician ability without having it count against his number of uses per day. The ability must be triggered within 1 hour of the plan being made, and the benefits last for 1 minute per cavalier level he has. The constable can have only one plan at a time, and if a new plan is made, any old plan is lost. This ability replaces cavalier's charge.",
 			"",
@@ -232,7 +232,7 @@
 			"",
 			"This ability replaces banner and greater banner.",
 			"",
-			"**Agile Charger (Ex):** At 11th level, a disciple of the pike takes no penalties caused by difficult terrain while charging. His movement is still hampered by obstacles, poor visibility, and other conditions. This ability doesn't allow him to move through impassible terrain.",
+			"**Agile Charger (Ex):** At 11th level, a disciple of the pike takes no penalties caused by {rule/difficult terrain} while charging. His movement is still hampered by obstacles, poor visibility, and other conditions. This ability doesn't allow him to move through impassible terrain.",
 			"",
 			"This ability replaces mighty charge.",
 			"",
@@ -422,7 +422,7 @@
 			"",
 			"**Fearless (Su):** At 3rd level, a ghost rider becomes immune to fear. Each ally within 10 feet of the ghost rider gains a +4 morale bonus on saving throws against fear effects. This ability functions only while the ghost rider is conscious, not if she is unconscious or dead. This ability replaces cavalier's charge.",
 			"",
-			"**Spirited Mount (Su):** At 5th level, the ghost rider's mount ignores difficult terrain. At 8th level, it gains the ability to use {spell/water walk} at will. This ability replaces expert trainer and banner.",
+			"**Spirited Mount (Su):** At 5th level, the ghost rider's mount ignores {rule/difficult terrain}. At 8th level, it gains the ability to use {spell/water walk} at will. This ability replaces expert trainer and banner.",
 			"",
 			"**Ghost Wind (Su):** At 11th level, the ghost rider's ghost mount can use {spell/air walk} (as the spell, no action required) at will for up to 1 round at a time, after which it falls to the ground. At 14th level, the mount can fly at its speed with a bonus on Fly skill checks equal to the ghost rider's class level. This ability replaces mighty charge and greater banner."
 		]
@@ -955,7 +955,7 @@
 			"",
 			"**Shieldvines (Ex):** Allies within 10 feet do not provoke attacks of opportunity when leaving threatened squares; this increases to 20 feet at 9th level.",
 			"",
-			"**Floatflower (Ex):** Allies within 10 feet ignore the effects of nonmagical difficult terrain. At 9th level, they also gain the effects of {spell/air walk} while within 10 feet of the verdivant.",
+			"**Floatflower (Ex):** Allies within 10 feet ignore the effects of nonmagical {rule/difficult terrain}. At 9th level, they also gain the effects of {spell/air walk} while within 10 feet of the verdivant.",
 			"",
 			"At 5th level, a verdivant gains the following efflorescences.",
 			"",

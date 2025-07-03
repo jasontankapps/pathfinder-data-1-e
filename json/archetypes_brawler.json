@@ -20,7 +20,7 @@
 			"",
 			"This replaces brawler's cunning.",
 			"",
-			"**Rolling Flurry (Ex):** When a battle dancer uses her brawler's flurry, she must move 5 feet before each melee attack or combat maneuver. If she is unable to move 5 feet, she can't attempt any further attacks or combat maneuvers. She can't exceed her maximum speed. This movement does not provoke attacks of opportunity if the brawler would be able to take a 5-foot step normally; if she would be unable to (for instance, if she were in difficult terrain), the movement provokes attacks of opportunity as normal unless she succeeds at the appropriate Acrobatics checks. While using this ability, she can still take her normal 5-foot step before or after making her attacks.",
+			"**Rolling Flurry (Ex):** When a battle dancer uses her brawler's flurry, she must move 5 feet before each melee attack or combat maneuver. If she is unable to move 5 feet, she can't attempt any further attacks or combat maneuvers. She can't exceed her maximum speed. This movement does not provoke attacks of opportunity if the brawler would be able to take a 5-foot step normally; if she would be unable to (for instance, if she were in {rule/difficult terrain}), the movement provokes attacks of opportunity as normal unless she succeeds at the appropriate Acrobatics checks. While using this ability, she can still take her normal 5-foot step before or after making her attacks.",
 			"",
 			"This alters brawler's flurry.",
 			"",
@@ -340,7 +340,7 @@
 			"",
 			"This replaces maneuver training.",
 			"",
-			"**Terrain Mastery (Su):** At 4th level, a turfer gains the benefits of {spell/endure elements} and a +10 foot enhancement bonus to her base speed, but only in her favored terrains. In addition, she can move through difficult terrain in her favored terrains at her normal speed without taking damage or suffering any other impairment, but she can't do so through difficult terrain that has been magically manipulated. At 10th and 16th levels, her enhancement bonus to her base speed increases by 10 feet within her favored terrains. The turfer loses this ability if she wears medium or heavy armor or carries a medium or heavy load.",
+			"**Terrain Mastery (Su):** At 4th level, a turfer gains the benefits of {spell/endure elements} and a +10 foot enhancement bonus to her base speed, but only in her favored terrains. In addition, she can move through {rule/difficult terrain} in her favored terrains at her normal speed without taking damage or suffering any other impairment, but she can't do so through difficult terrain that has been magically manipulated. At 10th and 16th levels, her enhancement bonus to her base speed increases by 10 feet within her favored terrains. The turfer loses this ability if she wears medium or heavy armor or carries a medium or heavy load.",
 			"",
 			"This replaces knockout."
 		]

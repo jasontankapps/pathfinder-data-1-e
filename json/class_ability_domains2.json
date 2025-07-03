@@ -616,7 +616,7 @@
 			"",
 			"**Replacement Power:** The following granted power replaces the wooden fist power of the Plant domain.",
 			"",
-			">**Cruel Thicket (Su):** As a standard action, you can cause the ground in a 5-foot-radius {misc/burst} centered on you to sprout twisting, thorny vines. Any creature moving through it must travel at half speed or take {rule/bleed} damage equal to half your cleric level; if you activate this ability in an area with numerous plants (grass, weeds, trees, etc.), the area also becomes difficult terrain. These effects last for 1 minute, after which the vines crumble to dust. Creatures able to move through natural undergrowth unhindered ignore the effects of this ability. You can use this ability a number of times per day equal to 3 + your Wisdom modifier.",
+			">**Cruel Thicket (Su):** As a standard action, you can cause the ground in a 5-foot-radius {misc/burst} centered on you to sprout twisting, thorny vines. Any creature moving through it must travel at half speed or take {rule/bleed} damage equal to half your cleric level; if you activate this ability in an area with numerous plants (grass, weeds, trees, etc.), the area also becomes {rule/difficult terrain}. These effects last for 1 minute, after which the vines crumble to dust. Creatures able to move through natural undergrowth unhindered ignore the effects of this ability. You can use this ability a number of times per day equal to 3 + your Wisdom modifier.",
 			"",
 			"**Replacement Domain Spells:** 1st-{spell/thorn javelin}, 3rd-{spell/thorny entanglement}, 4th-{spell/thorn body}."
 		]
@@ -1109,7 +1109,7 @@
 			"",
 			"**Granted Powers:** You are an explorer and find enlightenment in the simple joy of travel, be it by foot or conveyance or magic. Increase your base speed by 10 feet.",
 			"",
-			"**Agile Feet (Su):** As a free action, you can gain increased mobility for 1 round. For the next round, you ignore all difficult terrain and do not take any penalties for moving through it. You can use this ability a number of times per day equal to 3 + your Wisdom modifier.",
+			"**Agile Feet (Su):** As a free action, you can gain increased mobility for 1 round. For the next round, you ignore all {rule/difficult terrain} and do not take any penalties for moving through it. You can use this ability a number of times per day equal to 3 + your Wisdom modifier.",
 			"",
 			"**Dimensional Hop (Sp):** At 8th level, you can teleport up to 10 feet per cleric level per day as a move action. This teleportation must be used in 5-foot increments and such movement does not provoke attacks of opportunity. You must have line of sight to your destination to use this ability. You can bring other willing creatures with you, but you must expend an equal amount of distance for each creature brought.",
 			"",
@@ -1331,7 +1331,7 @@
 			"",
 			"**Replacement Power:** The following granted power replaces the part the veil power of the Void domain.",
 			"",
-			">**Aura of Isolation (Su):** As a standard action, you can create a 20-foot aura that causes enemies within to be overcome with feelings of isolation and loss. Your enemies treat the aura as difficult terrain, as they become sluggish within its area of effect. Furthermore, while within the aura, your enemies can't flank with one another, nor can they use or benefit from the {rule/aid another>_2} action. The aura lasts for a number of rounds equal to 3 + your Wisdom modifier, but the rounds need not be consecutive. This is a mind-affecting emotion effect.",
+			">**Aura of Isolation (Su):** As a standard action, you can create a 20-foot aura that causes enemies within to be overcome with feelings of isolation and loss. Your enemies treat the aura as {rule/difficult terrain}, as they become sluggish within its area of effect. Furthermore, while within the aura, your enemies can't flank with one another, nor can they use or benefit from the {rule/aid another>_2} action. The aura lasts for a number of rounds equal to 3 + your Wisdom modifier, but the rounds need not be consecutive. This is a mind-affecting emotion effect.",
 			"",
 			"**Replacement Domain Spells:** 4th-{spell/crushing despair}, 6th-{spell/wall of force}, 8th-{spell/prismatic wall}.",
 			"",
@@ -1561,7 +1561,7 @@
 			"",
 			"**Replacement Power:** The following granted power replaces the lightning lord power of the Weather domain.",
 			"",
-			">**Gale Aura (Su):** At 6th level, as a standard action, you can create a 30-foot aura of gale-like winds that slows the progress of enemies. Creatures in the aura cannot take a 5-foot step. Enemies in the aura treat each square that brings them closer to you as difficult terrain. They can move normally in any other direction. You can use this ability for a number of rounds per day equal to your cleric level. The rounds do not need to be consecutive.",
+			">**Gale Aura (Su):** At 6th level, as a standard action, you can create a 30-foot aura of gale-like winds that slows the progress of enemies. Creatures in the aura cannot take a 5-foot step. Enemies in the aura treat each square that brings them closer to you as {rule/difficult terrain}. They can move normally in any other direction. You can use this ability for a number of rounds per day equal to your cleric level. The rounds do not need to be consecutive.",
 			"",
 			"**Replacement Domain Spells:** 5th-{spell/call lightning storm}, 6th-{spell/sirocco}."
 		]

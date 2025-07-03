@@ -150,7 +150,7 @@
 		"compilationSources": [ [ "Advanced Race Guide" ] ],
 		"category": "Primary Bomb Discoveries",
 		"description": [
-			"These poisonous bombs clear away foliage, dealing extra damage to plant creatures. When the alchemist creates a bomb, he can choose to have it deal extra damage against plant creatures but less damage against other creatures. Against creatures with the plant type, a defoliant bomb deals 1d8 points of damage, plus 1d8 points of damage for every odd-numbered level the alchemist possesses, instead of 1d6. Against all other creatures, the defoliant bomb only deals 1d4 points of damage, plus 1d4 points of damage for every odd-numbered level, instead of 1d6. This is a poison effect. A defoliant bomb kills all normal vegetation in the target's square and its splash area; any plant-based difficult terrain in the affected area becomes normal terrain."
+			"These poisonous bombs clear away foliage, dealing extra damage to plant creatures. When the alchemist creates a bomb, he can choose to have it deal extra damage against plant creatures but less damage against other creatures. Against creatures with the plant type, a defoliant bomb deals 1d8 points of damage, plus 1d8 points of damage for every odd-numbered level the alchemist possesses, instead of 1d6. Against all other creatures, the defoliant bomb only deals 1d4 points of damage, plus 1d4 points of damage for every odd-numbered level, instead of 1d6. This is a poison effect. A defoliant bomb kills all normal vegetation in the target's square and its splash area; any plant-based {rule/difficult terrain} in the affected area becomes normal terrain."
 		],
 		"addenda": [ "primarybomb" ]
 	},

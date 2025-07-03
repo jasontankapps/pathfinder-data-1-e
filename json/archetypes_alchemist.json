@@ -250,7 +250,7 @@
 			"{SOURCE Advanced Race Guide/44}  ",
 			"Some half-elven alchemists merge human curiosity with their elven link to nature. Such alchemists can manipulate the forces of alchemy to create bombs that reshape terrain and defoliate swaths of vegetation or to create mutagens that bestow the resilience of oak or the tenacity of bamboo. A bramble brewer has the following class features.",
 			"",
-			"**Briar Bombs (Su):** At 2nd level, a bramble brewer gains the tanglefoot bomb discovery, but the entanglement's duration persists for a number of rounds equal to the bramble brewer's Intelligence modifier (minimum 1 round). Additionally, when a bramble brewer throws a tanglefoot bomb, it transforms all squares in its splash radius into difficult terrain that persists for as long as the bomb's entangling effect. Although these bombs deal no damage, for every 1d6 points of damage the bramble brewer's regular bombs deal, the briar bomb's splash radius increases by 5 feet. This ability replaces the 2nd-level discovery class feature.",
+			"**Briar Bombs (Su):** At 2nd level, a bramble brewer gains the tanglefoot bomb discovery, but the entanglement's duration persists for a number of rounds equal to the bramble brewer's Intelligence modifier (minimum 1 round). Additionally, when a bramble brewer throws a tanglefoot bomb, it transforms all squares in its splash radius into {rule/difficult terrain} that persists for as long as the bomb's entangling effect. Although these bombs deal no damage, for every 1d6 points of damage the bramble brewer's regular bombs deal, the briar bomb's splash radius increases by 5 feet. This ability replaces the 2nd-level discovery class feature.",
 			"",
 			"**Dendrite Mutagen (Su):** At 1st level, a bramble brewer's mutagen still contains transformative power, but grants a tree-like sturdiness rather than the feral power of standard mutagens. When imbibed, dendrite mutagen grants a +4 natural armor bonus, a +2 alchemical bonus to one physical ability score, and a -2 penalty to the corresponding mental ability score. In addition, the alchemist gains fast healing 1 as long as he is in an area of bright light (such as sunlight or inside the area of a {spell/daylight} spell). This otherwise works like the standard mutagen class feature and replaces that ability.",
 			"",
@@ -782,7 +782,7 @@
 			">",
 			">**Grasping Gloom:** The gloom creates an area equal to double its splash radius that functions as {spell/black tentacles}. The effect lasts for a number of rounds equal to half the alchemist's level. An alchemist must be at least 8th level before selecting this discovery.",
 			">",
-			">**Mucilaginous Gloom:** The gloom leaves a chilly gray residue that turns each square in its splash radius into difficult terrain. This effect lasts for a number of rounds equal to the alchemist's level.",
+			">**Mucilaginous Gloom:** The gloom leaves a chilly gray residue that turns each square in its splash radius into {rule/difficult terrain}. This effect lasts for a number of rounds equal to the alchemist's level.",
 			">",
 			">**Rime-Bound Gloom:** The gloom creates an area of freezing shadow in its splash radius that deals 2d6 points of cold damage to all creatures in the area each turn. This effect lasts 1 round for every 2 alchemist levels. An alchemist must be at least 6th level to select this discovery."
 		]

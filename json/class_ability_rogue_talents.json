@@ -1880,7 +1880,7 @@
 		"category": "Advanced Combat Talents",
 		"topLink": [ "Advanced Rogue Talents", "ability/advanced_rogue_talents" ],
 		"description": [
-			"**Unchained Rogue Only:** The rogue can move at full speed through difficult terrain and can take 5-foot steps into difficult terrain. A rogue must have the {talent/ledge walker} rogue talent before choosing light walker."
+			"**Unchained Rogue Only:** The rogue can move at full speed through {rule/difficult terrain} and can take 5-foot steps into difficult terrain. A rogue must have the {talent/ledge walker} rogue talent before choosing light walker."
 		]
 	},
 	"opportunist": {

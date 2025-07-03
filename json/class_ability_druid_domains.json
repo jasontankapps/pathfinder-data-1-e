@@ -215,7 +215,7 @@
 			"",
 			"**Granted Powers:** You have mastered the mighty powers of the great mountains that pierce the sky and stand aloof above the lowlands.",
 			"",
-			"**Foothold (Su):** As a standard action, you can cause an adjacent stone surface up to 10 feet square to mold itself into ridges and creases. A foothold that is created on a horizontal surface is treated as difficult terrain, and a Medium or smaller creature standing in the area or moving through it takes a -2 penalty on Acrobatics checks and to CMD due to poor footing. A foothold that is created on a vertical surface grants a +10 bonus on Climb checks to climb it. The stone remains altered for 1 hour. You can use this ability a number of times per day equal to 3 + your Wisdom modifier.",
+			"**Foothold (Su):** As a standard action, you can cause an adjacent stone surface up to 10 feet square to mold itself into ridges and creases. A foothold that is created on a horizontal surface is treated as {rule/difficult terrain}, and a Medium or smaller creature standing in the area or moving through it takes a -2 penalty on Acrobatics checks and to CMD due to poor footing. A foothold that is created on a vertical surface grants a +10 bonus on Climb checks to climb it. The stone remains altered for 1 hour. You can use this ability a number of times per day equal to 3 + your Wisdom modifier.",
 			"",
 			"**Thin Air (Su):** At 8th level, as a free action, you can surround yourself with a 5-foot aura of supernaturally thin air that draws the breath from creatures adjacent to you. Creatures beginning their turn in the aura are {misc/fatigued} (Fortitude negates). A fatigued creature that begins its turn in the aura must save or suffer from [altitude sickness](rule/mountain_travel), taking 1 point of ability damage to all ability scores. At 16th level, the aura increases to 10 feet. Creatures that do not breathe are immune to this aura. You can use this ability for a number of rounds per day equal to your druid level; the rounds need not be consecutive.",
 			"",
@@ -285,7 +285,7 @@
 			"",
 			"**Granted Powers:** You can navigate the untold wonders of the Plane of Earth with ease. In addition, you can use wild empathy to influence a creature with the earth subtype if its Intelligence score is 1 or 2.",
 			"",
-			"**Spelunker (Su):** You ably clamber through underground areas. As a free action, you can ignore difficult terrain from stony surfaces, you take no penalties for squeezing through rocky areas, and you gain damage reduction 5/- against rocky hazards such as spike growth. This effect lasts for 1 round, and you can use this ability a number of times per day equal to 3 + your Wisdom modifier.",
+			"**Spelunker (Su):** You ably clamber through underground areas. As a free action, you can ignore {rule/difficult terrain} from stony surfaces, you take no penalties for squeezing through rocky areas, and you gain damage reduction 5/- against rocky hazards such as spike growth. This effect lasts for 1 round, and you can use this ability a number of times per day equal to 3 + your Wisdom modifier.",
 			"",
 			"**One with the Stone (Su):** At 8th level as a swift action, you gain the {umr/earth glide} universal monster ability with a speed equal to your base speed. You can breathe normally while using this ability. You can use this ability for a number of rounds per day equal to your druid level, and these rounds don't need to be consecutive.",
 			"",
@@ -346,7 +346,7 @@
 			"",
 			"**Remembrance (Sp):** At 4th level, when within a ruin or other structure that is no longer claimed by civilization, you can call upon the wisdom of the land and its long-dead residents. Once per day for every 4 druid levels you possess, you can cast {spell/divination} as a spell-like ability. Additionally, if you are within ruins when you cast {spell/commune with nature}, you gain information about the crumbling structures around you as though they were part of nature.",
 			"",
-			"**Surefooted (Ex):** At 8th level, your speed is not reduced by difficult terrain unless the terrain has been magically manipulated to impede motion.",
+			"**Surefooted (Ex):** At 8th level, your speed is not reduced by {rule/difficult terrain} unless the terrain has been magically manipulated to impede motion.",
 			"",
 			"**Domain Spells:** 1st-{spell/magic stone}, 2nd-{spell/stone call}, 3rd-{spell/meld into stone}, 4th-{spell/rusting grasp}, 5th-{spell/commune with nature}, 6th-{spell/stone tell}, 7th-{spell/statue}, 8th-{spell/earthquake}, 9th-{spell/clashing rocks}."
 		]

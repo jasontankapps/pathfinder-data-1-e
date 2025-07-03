@@ -2085,7 +2085,7 @@
 			"",
 			"You can leap through difficult terrain like a deer or elk.  ",
 			"**Prerequisites:** Dex 15, {feat/Nimble Moves}.  ",
-			"**Benefit:** You gain a +2 bonus on Acrobatics checks to keep your balance and Reflex saves to avoid falling. Additionally, select one terrain type from the ranger list of favored terrains. Within that terrain, the maximum number of feet of difficult terrain you can move through as if it were normal terrain increases by 10 feet.  ",
+			"**Benefit:** You gain a +2 bonus on Acrobatics checks to keep your balance and Reflex saves to avoid falling. Additionally, select one terrain type from the ranger list of favored terrains. Within that terrain, the maximum number of feet of {rule/difficult terrain} you can move through as if it were normal terrain increases by 10 feet.  ",
 			"**Normal:** {feat/Nimble Moves} allows you to move through 5 feet of difficult terrain each round as if it were normal terrain.  ",
 			"**Special:** If you have the {ability/favored terrain} class feature, you do not select a terrain with this feat. Instead, this feat's increased movement through difficult terrain applies to all of your favored terrains."
 		]
@@ -2167,7 +2167,7 @@
 			"",
 			"You have studied the bold fighting style of Grand Prince Cyricas and emulate his intrepid tread through jungles and other dangerous lands.  ",
 			"**Prerequisites:** Dex 15, {feat/Acrobatic Steps}, {feat/Nimble Moves}.  ",
-			"**Benefit:** When you charge or run, you treat difficult terrain as normal terrain."
+			"**Benefit:** When you charge or run, you treat {rule/difficult terrain} as normal terrain."
 		]
 	},
 	"bravery_in_action": {
@@ -2338,7 +2338,7 @@
 			"",
 			"You deal damage to opponents when bull rushing them through difficult terrain, using the environment itself to harm your targets.  ",
 			"**Prerequisites:** Str 13, {feat/Improved Bull Rush}, {feat/Power Attack}, base attack bonus +3.  ",
-			"**Benefit:** When you successfully {rule/bull rush} a creature, it takes 1d4 points of damage for every 5 feet it is pushed through naturally occurring difficult terrain. This damage is in addition to any damage the creature might normally take from moving through the difficult terrain. Creatures with the {ability/woodland stride} special ability or who are otherwise unaffected by difficult terrain are immune to this extra damage."
+			"**Benefit:** When you successfully {rule/bull rush} a creature, it takes 1d4 points of damage for every 5 feet it is pushed through naturally occurring {rule/difficult terrain}. This damage is in addition to any damage the creature might normally take from moving through the difficult terrain. Creatures with the {ability/woodland stride} special ability or who are otherwise unaffected by difficult terrain are immune to this extra damage."
 		]
 	},
 	"bristling_drag": {
@@ -2351,7 +2351,7 @@
 			"",
 			"You deal damage to opponents when dragging them through difficult terrain.  ",
 			"**Prerequisites:** Str 13, {feat/Improved Drag}, {feat/Power Attack}, base attack bonus +3.  ",
-			"**Benefit:** When you successfully {rule/drag} a creature, it takes 1d4 points of damage for every 5 feet it is dragged through naturally occurring difficult terrain. This damage is in addition to any damage the creature might normally take from moving through the difficult terrain. Creatures with the {ability/woodland stride} special ability or who are otherwise unaffected by difficult terrain are immune to this extra damage."
+			"**Benefit:** When you successfully {rule/drag} a creature, it takes 1d4 points of damage for every 5 feet it is dragged through naturally occurring {rule/difficult terrain}. This damage is in addition to any damage the creature might normally take from moving through the difficult terrain. Creatures with the {ability/woodland stride} special ability or who are otherwise unaffected by difficult terrain are immune to this extra damage."
 		]
 	},
 	"broken_wing_gambit": {

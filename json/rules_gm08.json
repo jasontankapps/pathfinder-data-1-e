@@ -1942,6 +1942,7 @@
 			"city_lights"
 		]
 	},
+	"crowds": { "redirect": "city_streets" },
 	"above_and_beneath_the_streets": {
 		"name": "Above and Beneath the Streets",
 		"subtitle": "Urban Adventures",

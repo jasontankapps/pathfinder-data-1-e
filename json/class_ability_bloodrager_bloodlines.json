@@ -406,7 +406,7 @@
 			"",
 			"**Confusing Critical (Su):** At 1st level, fey power courses through your attacks. Each time you confirm a critical hit, the target must succeed at a Will saving throw or be {misc/confused} for 1 round. The DC of this save is equal to 10 + 1/2 your bloodrager level + your Constitution modifier. This is a mind-affecting compulsion effect.",
 			"",
-			"**Leaping Charger (Su):** At 4th level, you are able to leap over overgrowth and similar impediments with ease while charging. When you charge, you ignore difficult terrain (but not other creatures). You can move through it at normal speed, and it does not impede your charge.",
+			"**Leaping Charger (Su):** At 4th level, you are able to leap over overgrowth and similar impediments with ease while charging. When you {rule/charge}, you ignore {rule/difficult terrain} (but not other creatures). You can move through it at normal speed, and it does not impede your charge.",
 			"",
 			"**Blurring Movement (Su):** At 8th level, you become a blur of motion when you move. As long as you move at least 10 feet, you gain the effects of {spell/blur} for 1 round.",
 			"",

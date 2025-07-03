@@ -841,7 +841,7 @@
 			"**Associated Blasts** {kinetic/Earth Blast}, {kinetic/Magma Blast}, {kinetic/Metal Blast}, {kinetic/Mud Blast}  ",
 			"**Saving Throw** none",
 			"",
-			"You infuse the ground in a 20-foot radius anywhere within 120 feet of you on an earthen surface (if you are using a {kinetic/metal blast}, this infusion affects a metal surface instead). The ground roils and buckles beneath the affected area. All creatures and objects in contact with the ground within the area when you create it automatically take 1/4 of the normal damage from your blast with no saving throw. Any time a creature enters the area, it takes half the normal damage from your blast, as do creatures that end their turns in the area. The entire area counts as difficult terrain. This infusion lasts for a number of rounds equal to your Constitution modifier or until you use it again."
+			"You infuse the ground in a 20-foot radius anywhere within 120 feet of you on an earthen surface (if you are using a {kinetic/metal blast}, this infusion affects a metal surface instead). The ground roils and buckles beneath the affected area. All creatures and objects in contact with the ground within the area when you create it automatically take 1/4 of the normal damage from your blast with no saving throw. Any time a creature enters the area, it takes half the normal damage from your blast, as do creatures that end their turns in the area. The entire area counts as {rule/difficult terrain}. This infusion lasts for a number of rounds equal to your Constitution modifier or until you use it again."
 		]
 	},
 	"detonation": {
@@ -1460,7 +1460,7 @@
 			"**Associated Blasts** {kinetic/Blizzard Blast}, {kinetic/Charged Water Blast}, {kinetic/Cold Blast}, {kinetic/Ice Blast}, {kinetic/Water Blast}  ",
 			"**Saving Throw** Reflex negates",
 			"",
-			"Your blast leaves behind slippery water or ice in its area for as long as the blast is in that area and for 1 round thereafter, making the area difficult terrain and increasing the DC of Acrobatics checks attempted in the area by 5. You can use this infusion only if you also use a form infusion that has an area of effect."
+			"Your blast leaves behind slippery water or ice in its area for as long as the blast is in that area and for 1 round thereafter, making the area {rule/difficult terrain} and increasing the DC of Acrobatics checks attempted in the area by 5. You can use this infusion only if you also use a form infusion that has an area of effect."
 		]
 	},
 	"snake": {
@@ -2332,7 +2332,7 @@
 			"{SOURCE Occult Adventures/24}  ",
 			"**Element** earth; **Type** utility (Su); **Level** 1; **Burn** 0",
 			"",
-			"Because you meld very slightly into the earth, when you are standing on an earthen surface, you ignore difficult terrain caused by rocks, earth, or mud, and while on such surfaces you add your elemental overflow bonus to your CMD against being moved or tripped and on Acrobatics checks to balance."
+			"Because you meld very slightly into the earth, when you are standing on an earthen surface, you ignore {rule/difficult terrain} caused by rocks, earth, or mud, and while on such surfaces you add your elemental overflow bonus to your CMD against being moved or tripped and on Acrobatics checks to balance."
 		]
 	},
 	"earthmeld": {

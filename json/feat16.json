@@ -1639,7 +1639,7 @@
 			"",
 			"Your positive energy makes trailblazers of those you heal.  ",
 			"**Prerequisites:** {ability/Channel energy} 3d6, worshiper of {faith/Desna}.  ",
-			"**Benefit:** Once per day when you channel positive energy, you can cause healed creatures to be unimpeded by difficult terrain for a number of minutes equal to your Charisma modifier (minimum 1 minute)."
+			"**Benefit:** Once per day when you channel positive energy, you can cause healed creatures to be unimpeded by {rule/difficult terrain} for a number of minutes equal to your Charisma modifier (minimum 1 minute)."
 		]
 	},
 	"train_plants": {
@@ -1794,7 +1794,7 @@
 			"",
 			"You can use your tail to defend against trip attacks and to hang from nearby protrusions.  ",
 			"**Prerequisites:** Acrobatics 1 rank, {race/vanara}.  ",
-			"**Benefit:** You gain a +2 bonus to your CMD against all {rule/trip} attacks. If your square has a branch or other sturdy large object that you could hang from, as a swift action you may make a DC 15 Acrobatics check to jump upward and use your tail to hang from that object. While hanging, you can't be tripped, you ignore the effects of difficult terrain in your square, and you gain a +2 bonus to your CMD against bull rush, drag, and reposition attacks. If you leave that square (including if you are moved against your will), you lose your grip on the object and are no longer hanging. While hanging, you cannot use your tail for anything else.",
+			"**Benefit:** You gain a +2 bonus to your CMD against all {rule/trip} attacks. If your square has a branch or other sturdy large object that you could hang from, as a swift action you may make a DC 15 Acrobatics check to jump upward and use your tail to hang from that object. While hanging, you can't be tripped, you ignore the effects of {rule/difficult terrain} in your square, and you gain a +2 bonus to your CMD against bull rush, drag, and reposition attacks. If you leave that square (including if you are moved against your will), you lose your grip on the object and are no longer hanging. While hanging, you cannot use your tail for anything else.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/134}",
@@ -3032,7 +3032,7 @@
 			"{SOURCE People of the Sands/9}",
 			"",
 			"You and your allies take advantage of shifting terrain to unbalance enemies.  ",
-			"**Benefit:** When you use a combat maneuver to move a creature into or through a square adjacent to an ally with this feat, your opponent treats all squares adjacent to that ally as difficult terrain during his next turn. In addition, the DC of any of your opponent's Acrobatics checks in the affected squares increases by 2 for each of your allies with this feat who are adjacent to him."
+			"**Benefit:** When you use a combat maneuver to move a creature into or through a square adjacent to an ally with this feat, your opponent treats all squares adjacent to that ally as {rule/difficult terrain} during his next turn. In addition, the DC of any of your opponent's Acrobatics checks in the affected squares increases by 2 for each of your allies with this feat who are adjacent to him."
 		]
 	},
 	"undermining_exploit": {
@@ -3048,7 +3048,7 @@
 			"",
 			"Your familiarity with earth and stone gives you a distinct advantage on rocky battlefields.  ",
 			"**Prerequisites:** Knowledge (dungeoneering) 4 ranks.  ",
-			"**Benefit:** You gain a +4 insight bonus on combat maneuver checks against opponents occupying a square of rocky difficult terrain such as rubble, broken ground, or steep stairs."
+			"**Benefit:** You gain a +4 insight bonus on combat maneuver checks against opponents occupying a square of rocky {rule/difficult terrain} such as rubble, broken ground, or steep stairs."
 		]
 	},
 	"undersized_mount": {

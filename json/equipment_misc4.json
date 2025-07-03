@@ -3133,7 +3133,7 @@
 			"",
 			"**{eq-weapon/Flash Powder}:** The DC of the Fortitude save increases to 15, and targets are {misc/dazzled} for 1d4+1 rounds whether or not they succeed at their saving throw.",
 			"",
-			"**{eq-weapon/Holy Water}:** The splash area becomes difficult terrain for undead and evil outsiders, and undead or evil outsiders that end their turn in the affected area take 2 points of damage. Both of these effects last 3 rounds.",
+			"**{eq-weapon/Holy Water}:** The splash area becomes {rule/difficult terrain} for undead and evil outsiders, and undead or evil outsiders that end their turn in the affected area take 2 points of damage. Both of these effects last 3 rounds.",
 			"",
 			"**{eq-misc/Impact Foam}:** The foam does not dissolve when exposed to acid or water, and instead becomes a pliable-yet-rigid platform that can be dragged onto water and used as a makeshift raft for up to 5 Medium creatures. The 10-minute duration still applies.",
 			"",
@@ -3824,7 +3824,7 @@
 			"**Price** 40 gp; **Weight** -  ",
 			"**Category** Alchemical Tools",
 			"",
-			"This sealed copper tube contains a packet of alchemical fertilizer and several sprouted seedlings from the First World. Once shaken and opened as a standard action, the tube exudes a multitude of vines that spill into an adjacent square for 3 rounds. Left alone, these vines create an area of difficult terrain in the square, but a creature holding the tube can shape the vines as they emerge into a crude tool, piece of furniture, or other object of wood or rope weighing 20 pounds or less with a successful DC 10 Craft (baskets or carpentry) check. The vine construct lasts for 10 minutes before crumbling to pieces. Crafting this item requires a successful DC 25 Craft (alchemy) check.",
+			"This sealed copper tube contains a packet of alchemical fertilizer and several sprouted seedlings from the First World. Once shaken and opened as a standard action, the tube exudes a multitude of vines that spill into an adjacent square for 3 rounds. Left alone, these vines create an area of {rule/difficult terrain} in the square, but a creature holding the tube can shape the vines as they emerge into a crude tool, piece of furniture, or other object of wood or rope weighing 20 pounds or less with a successful DC 10 Craft (baskets or carpentry) check. The vine construct lasts for 10 minutes before crumbling to pieces. Crafting this item requires a successful DC 25 Craft (alchemy) check.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 25"
 		]

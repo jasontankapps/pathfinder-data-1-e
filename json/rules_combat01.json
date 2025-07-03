@@ -1649,9 +1649,9 @@
 		]
 	},
 	"terrain_and_obstacles": {
-		"name": "Terrain and Obstacles",
+		"name": "Difficult Terrain and Obstacles",
 		"subtitle": "Movement, Combat",
-		"tags": "Difficult terrain, Squeezing",
+		"tags": "Squeezing",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/193}",
@@ -1689,6 +1689,7 @@
 			"special_movement_rules"
 		]
 	},
+	"difficult_terrain": { "redirect": "terrain_and_obstacles" },
 	"special_movement_rules": {
 		"name": "Special Movement Rules",
 		"subtitle": "Combat",
@@ -3097,6 +3098,7 @@
 			"prone"
 		]
 	},
+	"pin": { "redirect": "grapple_conditions" },
 	"pinned": { "redirect": "grapple_conditions" },
 	"grappled": { "redirect": "grapple_conditions" },
 	"incorporeal": {

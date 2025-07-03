@@ -468,7 +468,7 @@
 			"",
 			"**Evasion (Ex):** At 9th level, an ironskin monk gains {ability/evasion}. This ability replaces improved evasion.",
 			"",
-			"**Surefooted (Ex):** At 17th level, an ironskin monk's speed is not reduced by difficult terrain. This ability replaces tongue of the sun and moon.",
+			"**Surefooted (Ex):** At 17th level, an ironskin monk's speed is not reduced by {rule/difficult terrain}. This ability replaces tongue of the sun and moon.",
 			"",
 			"**Unbreakable (Ex):** At 20th level, an ironskin monk sets aside many of the frailties of mortal flesh. He becomes immune to death effects and stunning. He is not subject to ability damage or ability drain, and has a 75% chance of ignoring the extra damage dealt by critical hits and sneak attacks. This ability replaces perfect self."
 		]
@@ -1697,7 +1697,7 @@
 			"",
 			"This replaces evasion.",
 			"",
-			"**Desert Strider (Ex):** At 4th level, a wasteland meditant ignores movement penalties for difficult terrain when in desert terrain. Additionally, he kicks up dust around his body whenever he performs a double move action in desert terrain. This dust grants the wasteland meditant {rule/concealment}. The miss chance granted by this concealment starts at 10% at 4th level and increases by 10% at 6th level and every 2 levels thereafter, to a maximum of 80% at 18th level. This concealment lasts until the start of the meditant's next turn and stacks with any concealment provided by movement, such as from the {feat/Wind Stance} feat.",
+			"**Desert Strider (Ex):** At 4th level, a wasteland meditant ignores movement penalties for {rule/difficult terrain} when in desert terrain. Additionally, he kicks up dust around his body whenever he performs a double move action in desert terrain. This dust grants the wasteland meditant {rule/concealment}. The miss chance granted by this concealment starts at 10% at 4th level and increases by 10% at 6th level and every 2 levels thereafter, to a maximum of 80% at 18th level. This concealment lasts until the start of the meditant's next turn and stacks with any concealment provided by movement, such as from the {feat/Wind Stance} feat.",
 			"",
 			"This replaces slow fall.",
 			"",

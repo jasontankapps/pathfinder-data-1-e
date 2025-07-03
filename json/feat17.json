@@ -367,7 +367,7 @@
 			"**Prerequisites:** [Jiang-shi](template/vampire).  ",
 			"**Benefit:** You gain the ability to create a different type of prayer scroll. You may create a prayer scroll with this ability by using any strip of parchment and a writing instrument, but doing so requires 10 minutes of uninterrupted work. Swapping your current prayer scroll for a different prepared one is a standard action. When wearing a different prayer scroll, you gain its special abilities, but lose your normal prayer scroll's immunity to spell completion and spell trigger magic items. Your prayer scrolls can be used only by you, and have no effect when used by other jiang-shis. When you choose this feat, select one of the following prayer scroll types.",
 			"",
-			">@HL[Embalmed Form:] This prayer scroll alters your physical form to how you looked 1 day before your death. Treat this as an {spell/alter self} spell that affects you regardless of your original or current type; your caster level is equal to your Hit Dice. Your speed increases by 10 feet, but you lose your immunity to trip attacks and your ability to move through difficult terrain unhindered. These effects persist indefinitely as long as you wear the prayer scroll, but end immediately if you use a different prayer scroll or 24 hours after you remove this prayer scroll.",
+			">@HL[Embalmed Form:] This prayer scroll alters your physical form to how you looked 1 day before your death. Treat this as an {spell/alter self} spell that affects you regardless of your original or current type; your caster level is equal to your Hit Dice. Your speed increases by 10 feet, but you lose your immunity to trip attacks and your ability to move through {rule/difficult terrain} unhindered. These effects persist indefinitely as long as you wear the prayer scroll, but end immediately if you use a different prayer scroll or 24 hours after you remove this prayer scroll.",
 			">",
 			">@HL[Enduring Dust:] If you crumble into dust from hit point damage, you reform after 1 round instead of 1 minute. Scattering your dust does not prevent you from reforming as long none of your dust is more than 30 feet from any other part of your dust. Storing a portion of your dust in an air-tight container prevents you from reforming. If you are unable to reform after 1 minute, you are destroyed.",
 			">",
@@ -2110,7 +2110,7 @@
 			"",
 			"Hexing your enemies causes them to be ensnared in tangling vines.  ",
 			"**Prerequisites:** Hex class feature; {patron/summer}, {patron/thorns}, or {patron/woodlands} patron.  ",
-			"**Benefit:** When you gain this feat, choose one hex that you can use to affect no more than one opponent. If the target of your hex fails its saving throw to resist your hex, the square it occupies becomes overgrown with thorny plants that count as difficult terrain. A creature moving in or out of the square must succeed at a Reflex save or Acrobatics check (DC = 10 + half your level + your Charisma modifier) or take 1d6 points of piercing damage and immediately end its movement. For every 5 by which the target fails its save against your hex, you can create 1 additional square of difficult terrain adjacent to any square the target occupies. The difficult terrain lasts a number of rounds equal to your Charisma modifier (minimum 1). The ground must be composed of a material able to support plant life (such as soil)."
+			"**Benefit:** When you gain this feat, choose one hex that you can use to affect no more than one opponent. If the target of your hex fails its saving throw to resist your hex, the square it occupies becomes overgrown with thorny plants that count as {rule/difficult terrain}. A creature moving in or out of the square must succeed at a Reflex save or Acrobatics check (DC = 10 + half your level + your Charisma modifier) or take 1d6 points of piercing damage and immediately end its movement. For every 5 by which the target fails its save against your hex, you can create 1 additional square of difficult terrain adjacent to any square the target occupies. The difficult terrain lasts a number of rounds equal to your Charisma modifier (minimum 1). The ground must be composed of a material able to support plant life (such as soil)."
 		]
 	},
 	"wild_speaker": {
@@ -2548,7 +2548,7 @@
 			"",
 			"You put the terrain between yourself and your opponents to avoid attacks.  ",
 			"**Prerequisites:** Dex 15, {feat/Dodge}, base attack bonus +6.  ",
-			"**Benefit:** If you take two actions to move or a {rule/withdraw/al} action in a turn while starting or ending your movement in either naturally occurring difficult terrain (bushes, brambles, etc.) or a space with a natural object providing at least partial {rule/cover} (a tree, rock, etc.), you gain {rule/concealment} until you attack, until you move out of that space, or until the end of your next turn, whichever occurs first."
+			"**Benefit:** If you take two actions to move or a {rule/withdraw/al} action in a turn while starting or ending your movement in either naturally occurring {rule/difficult terrain} (bushes, brambles, etc.) or a space with a natural object providing at least partial {rule/cover} (a tree, rock, etc.), you gain {rule/concealment} until you attack, until you move out of that space, or until the end of your next turn, whichever occurs first."
 		]
 	},
 	"word_of_healing": {

@@ -2382,7 +2382,7 @@
 			"**Price** 100 gp; **Weight** 4 lbs.  ",
 			"**Category** Clothing",
 			"",
-			"This silk cape is constructed of many carefully arranged overlapping layers that are loosely stitched together. When exposed to a sudden influx of air, like that caused by falling, the cloak unfolds like a crude parachute. When falling, a creature wearing a billow cape is treated as if he had deliberately jumped from the height. When worn in areas of strong wind or greater, a billow cape hampers movement. In such wind conditions, the wearer treats all terrain as difficult terrain and takes a -4 penalty on Fly checks. Because of the strange and somewhat fragile construction of this cape, only Small or smaller billow capes function properly. Larger billow capes take all the penalties resulting from high winds, but grant none of the benefits when the wearer falls."
+			"This silk cape is constructed of many carefully arranged overlapping layers that are loosely stitched together. When exposed to a sudden influx of air, like that caused by falling, the cloak unfolds like a crude parachute. When falling, a creature wearing a billow cape is treated as if he had deliberately jumped from the height. When worn in areas of strong wind or greater, a billow cape hampers movement. In such wind conditions, the wearer treats all terrain as {rule/difficult terrain} and takes a -4 penalty on Fly checks. Because of the strange and somewhat fragile construction of this cape, only Small or smaller billow capes function properly. Larger billow capes take all the penalties resulting from high winds, but grant none of the benefits when the wearer falls."
 		]
 	},
 	"billy_ten_bells": {
@@ -4728,7 +4728,7 @@
 			"**Price** 500 gp; **Weight** 25 lbs.  ",
 			"**Category** Alchemical Tools",
 			"",
-			"This 2-foot-tall wooden clockwork automaton is shaped roughly like a short-backed, wheeled chair. When wound up with the folding handle at its side, the clockwork prowler trundles forward at a speed of 15 feet per round for up to 2 minutes. A clockwork prowler cannot move through difficult terrain. Each round of vigorous winding powers 2 rounds of movement. If its brake is not released immediately after winding, the prowler loses 1 round of movement for every 2 rounds it sits idle. The clockwork prowler can carry up to 20 pounds of weight at full speed, or up to 50 pounds at a speed of 10 feet. Higher weights prevent the prowler from moving. A clockwork prowler has hardness 5 and 90 hit points, and when in motion has AC 12 (a motionless clockwork prowler has AC 5)."
+			"This 2-foot-tall wooden clockwork automaton is shaped roughly like a short-backed, wheeled chair. When wound up with the folding handle at its side, the clockwork prowler trundles forward at a speed of 15 feet per round for up to 2 minutes. A clockwork prowler cannot move through {rule/difficult terrain}. Each round of vigorous winding powers 2 rounds of movement. If its brake is not released immediately after winding, the prowler loses 1 round of movement for every 2 rounds it sits idle. The clockwork prowler can carry up to 20 pounds of weight at full speed, or up to 50 pounds at a speed of 10 feet. Higher weights prevent the prowler from moving. A clockwork prowler has hardness 5 and 90 hit points, and when in motion has AC 12 (a motionless clockwork prowler has AC 5)."
 		]
 	},
 	"cloud_puff": {

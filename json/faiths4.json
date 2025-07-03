@@ -2410,7 +2410,7 @@
 			">",
 			">1. **Cloud the Mind of the Unwary (Sp)** {spell/hypnotism} 3/day, {spell/daze monster} 2/day, or {spell/suggestion} 1/day",
 			">2. **Repair the Damaged Body (Su)** Up to three times per day, when you can cast a conjuration (healing) spell with a range of touch, treat it as having a range of close instead.",
-			">3. **Walk Above the Earth (Su)** You hover several inches off the ground as if levitating. This doesn't affect your speed, and makes you immune to most kinds of difficult terrain, traps triggered by pressure, and potentially other effects. You can levitate over solid surfaces only, so you fall if you step off a cliff or over a liquid. You can, however, raise or lower yourself as {spell/levitate}. If you make an attack while hovering, you are not subject to the attack and damage penalties listed in the levitate spell description. However, if you move yourself higher in the air using a move action, you become subject to the attack and damage penalties until you return to the ground.",
+			">3. **Walk Above the Earth (Su)** You hover several inches off the ground as if levitating. This doesn't affect your speed, and makes you immune to most kinds of {rule/difficult terrain}, traps triggered by pressure, and potentially other effects. You can levitate over solid surfaces only, so you fall if you step off a cliff or over a liquid. You can, however, raise or lower yourself as {spell/levitate}. If you make an attack while hovering, you are not subject to the attack and damage penalties listed in the levitate spell description. However, if you move yourself higher in the air using a move action, you become subject to the attack and damage penalties until you return to the ground.",
 			">",
 			">### Boons: Sentinel",
 			">",
