@@ -3910,6 +3910,10 @@
 		"name": "Wagon (heavy) (travel, per mile)",
 		"copyof": "wagon_heavy"
 	},
+	"wagon_light_or_medium_travel_per_mile": {
+		"name": "Wagon (light or medium) (travel, per mile)",
+		"copyof": "wagon_heavy"
+	},
 	"wagon_light": {
 		"name": "Wagon (light)",
 		"copyof": "wagon_heavy"

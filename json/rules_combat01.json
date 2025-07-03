@@ -2666,10 +2666,7 @@
 	"ready_an_action": { "redirect": "ready" },
 	"conditions": {
 		"name": "Conditions",
-		"sources": [
-			"PRPG Core Rulebook",
-			"Ultimate Equipment"
-		],
+		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/565}",
 			"",

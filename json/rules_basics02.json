@@ -38,7 +38,10 @@
 	"wealth_and_money": {
 		"name": "Wealth and Money",
 		"tags": "Selling treasure trade goods coins gp cp pp sp gold pieces silver pieces copper pieces platinum pieces",
-		"sources": [ "PRPG Core Rulebook" ],
+		"sources": [
+			"PRPG Core Rulebook",
+			"Ultimate Equipment"
+		],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/40;Ultimate Equipment/93}",
 			"",
@@ -591,7 +594,10 @@
 	},
 	"other_goods_and_services": {
 		"name": "Other Goods and Services",
-		"sources": [ "PRPG Core Rulebook" ],
+		"sources": [
+			"PRPG Core Rulebook",
+			"Ultimate Equipment"
+		],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/155;Ultimate Equipment/56}",
 			"",
@@ -607,9 +613,9 @@
 			"",
 			"@HL[Food, Drink, and Lodging:] These prices are for [meals and accommodations](main/equipment_food_and_drink) at establishments in an average city, as well as things like trail rations.",
 			"",
-			"@HL[Mounts, Pets and Related Gear:] These are listed separately under [mounts or pets] and [animal gear](main/equipment_animal_gear).",
+			"@HL[Mounts, Pets and Related Gear:] These are listed separately under {main/equipment_<mounts[ or] pets} and {main/equipment_<animal gear}.",
 			"",
-			"@HL[Transport:] This includes a cost per mile for [riding in a vehicle](main/equipment_transport), and costs for purchasing vehicles outright. Vehicle prices generally exclude crew or animals.",
+			"@HL[Transport:] [This section](main/equipment_transport) includes a cost per mile for riding in a vehicle, and costs for purchasing vehicles outright. Vehicle prices generally exclude crew or animals.",
 			"",
 			"@HL[Entertainment, Spellcasting, and Services:] Many adventurers like to sit down and play a game now and then to pass the time - or make some easy gold. But sometimes the best solution to a problem is to [hire someone else](main/equipment_entertainment_services) to take care of it."
 		],
@@ -3051,7 +3057,7 @@
 			"| 99 | Character cannot cast any spells. |",
 			"| 100 | Either pick one of the above that's appropriate or create a drawback specifically for that item. |",
 			"",
-			"@HL[Specific Cursed Items:] Perhaps the most dangerous and insidious of all cursed items are those whose intended functions are completely replaced by a curse. Yet even these items can have their uses, particularly as traps or weapons. The cursed items listed [here](main/magic_cursed) provided as specific examples of cursed items. Instead of prerequisites, each cursed item is associated with one or more ordinary magic items whose creation might result in the cursed item. Cursed items can be sold, if the curse is not known to the buyer, as if they were the item they appear to be.",
+			"@HL[Specific Cursed Items:] Perhaps the most dangerous and insidious of all cursed items are those whose intended functions are completely replaced by a curse. Yet even these items can have their uses, particularly as traps or weapons. The cursed items listed [here](main/magic_cursed) are provided as specific examples of cursed items. Instead of prerequisites, each cursed item is associated with one or more ordinary magic items whose creation might result in the cursed item. Cursed items can be sold, if the curse is not known to the buyer, as if they were the item they appear to be.",
 			"",
 			"Cursed suits of armor and weapons can come in many forms, and the examples listed here are merely the most common. For example, a cursed -2 sword, might appear as a +3 shortsword or a +1 dagger, with a similar negative instead of the listed -2."
 		],
