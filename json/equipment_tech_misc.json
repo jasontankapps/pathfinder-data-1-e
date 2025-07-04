@@ -536,15 +536,15 @@
 			"",
 			"| Color | Primary Effect | Secondary Effect | CL |",
 			"| --- | --- | --- | --- |",
-			"| Brown | 1d8+1 healing | {spell/Remove sickness} | 1st |",
-			"| Black | 2d8+3 healing | {spell/Lesser restoration} | 3rd |",
-			"| White | 3d8+5 healing | {spell/Remove disease} | 5th |",
-			"| Gray | 4d8+7 healing | {spell/Neutralize poison} | 7th |",
-			"| Green | 5d8+9 healing | {spell/Breath of life} | 9th |",
-			"| Red | 6d8+11 healing | {spell/Heal} | 11th |",
-			"| Blue | 7d8+13 healing | {spell/Regenerate} | 13th |",
-			"| Orange | 8d8+15 healing | {spell/Greater restoration} | 15th |",
-			"| Prismatic | 9d8+17 healing | {spell/True resurrection} | 16th |"
+			"| Brown | 1d8+1 healing | @ripple[spell/Remove sickness] | 1st |",
+			"| Black | 2d8+3 healing | @ripple[spell/Lesser restoration] | 3rd |",
+			"| White | 3d8+5 healing | @ripple[spell/Remove disease] | 5th |",
+			"| Gray | 4d8+7 healing | @ripple[spell/Neutralize poison] | 7th |",
+			"| Green | 5d8+9 healing | @ripple[spell/Breath of life] | 9th |",
+			"| Red | 6d8+11 healing | @ripple[spell/Heal] | 11th |",
+			"| Blue | 7d8+13 healing | @ripple[spell/Regenerate] | 13th |",
+			"| Orange | 8d8+15 healing | @ripple[spell/Greater restoration] | 15th |",
+			"| Prismatic | 9d8+17 healing | @ripple[spell/True resurrection] | 16th |"
 		]
 	},
 	"nanite_hypogun_blue": {

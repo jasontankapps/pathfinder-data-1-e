@@ -2694,14 +2694,14 @@
 			"",
 			"| Ooze | Construction Cost | Craft DC |",
 			"| --- | --- | --- |",
-			"| {monster/Gelatinous cube} | 1,600 gp | 16 |",
-			"| {monster/Gray ooze} | 3,600 gp | 18 |",
-			"| {monster/Slithering tracker} | 3,600 gp | 18 |",
-			"| {monster/Ochre jelly} | 4,900 gp | 20 |",
-			"| {monster/Black pudding} | 8,100 gp | 24 |",
-			"| {monster/Magma ooze} | 8,100 gp | 24 |",
-			"| {monster/Deathtrap ooze} | 8,100 gp | 26 |",
-			"| {monster/Carnivorous crystal} | 16,900 gp | 32 |"
+			"| @ripple[monster/Gelatinous cube] | 1,600 gp | 16 |",
+			"| @ripple[monster/Gray ooze] | 3,600 gp | 18 |",
+			"| @ripple[monster/Slithering tracker] | 3,600 gp | 18 |",
+			"| @ripple[monster/Ochre jelly] | 4,900 gp | 20 |",
+			"| @ripple[monster/Black pudding] | 8,100 gp | 24 |",
+			"| @ripple[monster/Magma ooze] | 8,100 gp | 24 |",
+			"| @ripple[monster/Deathtrap ooze] | 8,100 gp | 26 |",
+			"| @ripple[monster/Carnivorous crystal] | 16,900 gp | 32 |"
 		]
 	},
 	"craft_pharmaceutical": {

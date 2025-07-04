@@ -452,11 +452,11 @@
 			"",
 			"| Monk Ability | Level Gained |",
 			"| --- | --- |",
-			"| {ability/Evasion} | 4th |",
+			"| @ripple[ability/Evasion] | 4th |",
 			"| Fast movement | 4th |",
 			"| Slow fall | 4th |",
 			"| High jump | 5th |",
-			"| {ability/Improved evasion} | 9th |"
+			"| @ripple[ability/Improved evasion] | 9th |"
 		]
 	}
 }

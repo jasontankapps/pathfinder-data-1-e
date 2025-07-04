@@ -214,15 +214,15 @@
 			"",
 			"| Spell Level | Sponantious Spell |",
 			"| --- | --- |",
-			"| 1 | {spell/Bless water} |",
-			"| 2 | {spell/Slipstream} |",
-			"| 3 | {spell/Water breathing} |",
-			"| 4 | {spell/Control water} |",
-			"| 5 | {spell/Geyser} |",
-			"| 6 | {spell/Fluid form} |",
-			"| 7 | {spell/Elemental body IV} (water only) |",
-			"| 8 | {spell/Seamantle} |",
-			"| 9 | {spell/Elemental swarm} (water only) |"
+			"| 1 | @ripple[spell/Bless water] |",
+			"| 2 | @ripple[spell/Slipstream] |",
+			"| 3 | @ripple[spell/Water breathing] |",
+			"| 4 | @ripple[spell/Control water] |",
+			"| 5 | @ripple[spell/Geyser] |",
+			"| 6 | @ripple[spell/Fluid form] |",
+			"| 7 | @ripple[spell/Elemental body IV/ (water only)] |",
+			"| 8 | @ripple[spell/Seamantle] |",
+			"| 9 | @ripple[spell/Elemental swarm/ (water only)] |"
 		]
 	},
 	"crusader": {
@@ -404,15 +404,15 @@
 			"",
 			"| Spell Level | Spontaneous Spell |",
 			"| --- | --- |",
-			"| 1st level | {spell/command} |",
-			"| 2nd level | {spell/enthrall} |",
-			"| 3rd level | {spell/tongues} |",
-			"| 4th level | {spell/suggestion} |",
-			"| 5th level | {spell/greater command} |",
-			"| 6th level | {spell/geas//quest} |",
-			"| 7th level | {spell/mass suggestion} |",
-			"| 8th level | {spell/sympathy} |",
-			"| 9th level | {spell/demand} |"
+			"| 1st level | @ripple[spell/command] |",
+			"| 2nd level | @ripple[spell/enthrall] |",
+			"| 3rd level | @ripple[spell/tongues] |",
+			"| 4th level | @ripple[spell/suggestion] |",
+			"| 5th level | @ripple[spell/greater command] |",
+			"| 6th level | @ripple[spell/geas//quest] |",
+			"| 7th level | @ripple[spell/mass suggestion] |",
+			"| 8th level | @ripple[spell/sympathy] |",
+			"| 9th level | @ripple[spell/demand] |"
 		]
 	},
 	"fiendish_vessel": {

@@ -3565,12 +3565,12 @@
 			"",
 			"| Species | CR | Size | HD |",
 			"| --- | --- | --- | --- |",
-			"| {monster/King crab} | 1/4 | Tiny | 1d8 |",
+			"| @ripple[monster/King crab] | 1/4 | Tiny | 1d8 |",
 			"| Coconut crab | 1/2 | Small | 1d8 |",
 			"| Rock crab | 4 | Large | 5d8 |",
-			"| {monster/Shark-eating crab} | 7 | Huge | 8d8 |",
+			"| @ripple[monster/Shark-eating crab] | 7 | Huge | 8d8 |",
 			"| Great reef crab | 10 | Gargantuan | 11d8 |",
-			"| {monster/Shipwrecker crab} | 13 | Colossal | 14d8 |"
+			"| @ripple[monster/Shipwrecker crab] | 13 | Colossal | 14d8 |"
 		]
 	},
 	"giant_crab": { "redirect": "crab_giant_crab" },

@@ -89,10 +89,10 @@
 			"",
 			"| Level | Fire Spell | Earth Spell | Water Spell | Air Spell |",
 			"| --- | --- | --- | --- | --- |",
-			"| 1st | {spell/burning hands} | {spell/grease} | {spell/hydraulic push} | {spell/shocking grasp} |",
-			"| 5th | {spell/scorching ray} | {spell/glitterdust} | {spell/frigid touch} | {spell/levitate} |",
-			"| 10th | {spell/wall of fire} | {spell/calcific touch} | {spell/ice storm} | {spell/ball lightning} |",
-			"| 15th | {spell/contagious flame} | {spell/flesh to stone} | {spell/freezing sphere} | {spell/chain lightning} |"
+			"| 1st | @ripple[spell/burning hands] | @ripple[spell/grease] | @ripple[spell/hydraulic push] | @ripple[spell/shocking grasp] |",
+			"| 5th | @ripple[spell/scorching ray] | @ripple[spell/glitterdust] | @ripple[spell/frigid touch] | @ripple[spell/levitate] |",
+			"| 10th | @ripple[spell/wall of fire] | @ripple[spell/calcific touch] | @ripple[spell/ice storm] | @ripple[spell/ball lightning] |",
+			"| 15th | @ripple[spell/contagious flame] | @ripple[spell/flesh to stone] | @ripple[spell/freezing sphere] | @ripple[spell/chain lightning] |"
 		]
 	},
 	"ghoul": {
