@@ -312,7 +312,7 @@ const inlineTags = {
 				const id = maybeJL(attrs, text);
 				return `<strong className="hl"${id ? ` id="${id}" data-hash-target` : ""}><Link to="/${link}">${text}</Link></strong>`
 			}
-			logError(`Bad :${tag} => [${text}]`);
+			logError(`Bad @${tag} => [${text}]`);
 			tag = "b";
 		} else if(
 			(tag === "primary" && !hasAlternateText)
