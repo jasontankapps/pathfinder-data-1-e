@@ -484,6 +484,7 @@
 			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Heighten Spell} (greater hushing arrow only), {spell/silence}; **Price** 277 gp (normal), 577 gp (greater)"
 		]
 	},
+	"hushing_arrow": { "redirect": "hushing_arrow_normal" },
 	"mute_dart": {
 		"name": "Mute Dart",
 		"sources": [ "Ranged Tactics Toolbox" ],
@@ -3994,6 +3995,7 @@
 		"name": "Mace of Smiting (normal)",
 		"copyof": "mace_of_smiting_lesser"
 	},
+	"mace_of_smiting": { "redirect": "mace_of_smiting_normal" },
 	"lesser_mace_of_smiting": { "redirect": "mace_of_smiting_lesser" },
 	"tsuruhashi_the_silent_crane": {
 		"name": "Tsuruhashi, the Silent Crane",
