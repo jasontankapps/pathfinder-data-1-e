@@ -354,11 +354,12 @@ import rule31 from './json/rules_subsystems02.json' with {type: 'json'};
 import rule32 from './json/rules_subsystems03.json' with {type: 'json'};
 import rule33 from './json/rules_subsystems04.json' with {type: 'json'};
 import rule34 from './json/rules_opt_skills01.json' with {type: 'json'};
-import rule35 from './json/rules_opt_combat01.json' with {type: 'json'};
-import rule36 from './json/rules_opt_alignment_pc_adv01.json' with {type: 'json'};
-import rule37 from './json/rules_opt_magic01.json' with {type: 'json'};
-import rule38 from './json/rules_opt_magic02.json' with {type: 'json'};
-import rule39 from './json/rules_opt_magic03.json' with {type: 'json'};
+import rule35 from './json/rules_opt_alignment01.json' with {type: 'json'};
+import rule36 from './json/rules_opt_combat01.json' with {type: 'json'};
+import rule37 from './json/rules_opt_pc_adv01.json' with {type: 'json'};
+import rule38 from './json/rules_opt_magic01.json' with {type: 'json'};
+import rule39 from './json/rules_opt_magic02.json' with {type: 'json'};
+import rule40 from './json/rules_opt_magic03.json' with {type: 'json'};
 import spell1 from './json/spells.json' with {type: 'json'};
 import spell2 from './json/spells2.json' with {type: 'json'};
 import spell3 from './json/spells3.json' with {type: 'json'};
@@ -398,7 +399,7 @@ const basic_data_groups = {
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 1,
-		type: "Rules"
+		type: "Basic Rules"
 	},
 	"rule02": {
 		data: rule2,
@@ -406,7 +407,7 @@ const basic_data_groups = {
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 2,
-		type: "Rules"
+		type: "Basic Rules"
 	},
 	"rule03": {
 		data: rule3,
@@ -414,7 +415,7 @@ const basic_data_groups = {
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 3,
-		type: "Rules"
+		type: "Basic Rules"
 	},
 	"rule04": {
 		data: rule4,
@@ -422,7 +423,7 @@ const basic_data_groups = {
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 4,
-		type: "Rules"
+		type: "Basic Rules"
 	},
 	"rule05": {
 		data: rule5,
@@ -430,7 +431,7 @@ const basic_data_groups = {
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 5,
-		type: "Rules"
+		type: "Combat Rules"
 	},
 	"rule06": {
 		data: rule6,
@@ -438,7 +439,7 @@ const basic_data_groups = {
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 6,
-		type: "Rules"
+		type: "Rules (Gamemastery)"
 	},
 	"rule07": {
 		data: rule7,
@@ -446,7 +447,7 @@ const basic_data_groups = {
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 7,
-		type: "Rules"
+		type: "Rules (Gamemastery)"
 	},
 	"rule08": {
 		data: rule8,
@@ -454,7 +455,7 @@ const basic_data_groups = {
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 8,
-		type: "Rules"
+		type: "Rules (Gamemastery)"
 	},
 	"rule09": {
 		data: rule9,
@@ -462,7 +463,7 @@ const basic_data_groups = {
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 9,
-		type: "Rules"
+		type: "Rules (Gamemastery)"
 	},
 	"rule10": {
 		data: rule10,
@@ -470,7 +471,7 @@ const basic_data_groups = {
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 10,
-		type: "Rules"
+		type: "Rules (Gamemastery)"
 	},
 	"rule11": {
 		data: rule11,
@@ -478,7 +479,7 @@ const basic_data_groups = {
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 11,
-		type: "Rules"
+		type: "Rules (Gamemastery)"
 	},
 	"rule12": {
 		data: rule12,
@@ -486,7 +487,7 @@ const basic_data_groups = {
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 12,
-		type: "Rules"
+		type: "Rules (Gamemastery)"
 	},
 	"rule13": {
 		data: rule13,
@@ -494,7 +495,7 @@ const basic_data_groups = {
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 13,
-		type: "Rules"
+		type: "Rules (Gamemastery)"
 	},
 	"rule14": {
 		data: rule14,
@@ -502,7 +503,7 @@ const basic_data_groups = {
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 14,
-		type: "Rules"
+		type: "Rules (Adv. Player Topics)"
 	},
 	"rule15": {
 		data: rule15,
@@ -510,7 +511,7 @@ const basic_data_groups = {
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 15,
-		type: "Rules"
+		type: "Rules (Adv. GM Topics)"
 	},
 	"rule16": {
 		data: rule16,
@@ -518,7 +519,7 @@ const basic_data_groups = {
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 16,
-		type: "Rules"
+		type: "Rules (Adv. GM Topics)"
 	},
 	"rule17": {
 		data: rule17,
@@ -526,7 +527,7 @@ const basic_data_groups = {
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 17,
-		type: "Rules"
+		type: "Rules (Adv. GM Topics)"
 	},
 	"rule18": {
 		data: rule18,
@@ -534,7 +535,7 @@ const basic_data_groups = {
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 18,
-		type: "Rules"
+		type: "Rules (Adv. GM Topics)"
 	},
 	"rule19": {
 		data: rule19,
@@ -542,7 +543,7 @@ const basic_data_groups = {
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 19,
-		type: "Rules"
+		type: "Rules (Adv. GM Topics)"
 	},
 	"rule20": {
 		data: rule20,
@@ -550,7 +551,7 @@ const basic_data_groups = {
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 20,
-		type: "Rules"
+		type: "Rules (Adv. Magic Topics)"
 	},
 	"rule21": {
 		data: rule21,
@@ -558,7 +559,7 @@ const basic_data_groups = {
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 21,
-		type: "Rules"
+		type: "Rules (Specific Campaigns)"
 	},
 	"rule22": {
 		data: rule22,
@@ -566,7 +567,7 @@ const basic_data_groups = {
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 22,
-		type: "Rules"
+		type: "Rules (Specific Campaigns)"
 	},
 	"rule23": {
 		data: rule23,
@@ -574,7 +575,7 @@ const basic_data_groups = {
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 23,
-		type: "Rules"
+		type: "Rules (Specific Campaigns)"
 	},
 	"rule24": {
 		data: rule24,
@@ -582,7 +583,7 @@ const basic_data_groups = {
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 24,
-		type: "Rules"
+		type: "Rules (Specific Campaigns)"
 	},
 	"rule25": {
 		data: rule25,
@@ -590,7 +591,7 @@ const basic_data_groups = {
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 25,
-		type: "Rules"
+		type: "Rules (Specific Campaigns)"
 	},
 	"rule26": {
 		data: rule26,
@@ -598,7 +599,7 @@ const basic_data_groups = {
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 26,
-		type: "Rules"
+		type: "Rules (Specific Campaigns)"
 	},
 	"rule27": {
 		data: rule27,
@@ -606,7 +607,7 @@ const basic_data_groups = {
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 27,
-		type: "Rules"
+		type: "Rules (Specific Campaigns)"
 	},
 	"rule28": {
 		data: rule28,
@@ -614,7 +615,7 @@ const basic_data_groups = {
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 28,
-		type: "Rules"
+		type: "Rules (Specific Rulesets)"
 	},
 	"rule29": {
 		data: rule29,
@@ -622,7 +623,7 @@ const basic_data_groups = {
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 29,
-		type: "Rules"
+		type: "Rules (Specific Rulesets)"
 	},
 	"rule30": {
 		data: rule30,
@@ -630,7 +631,7 @@ const basic_data_groups = {
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 30,
-		type: "Rules"
+		type: "Rules (Opt. Subsystems)"
 	},
 	"rule31": {
 		data: rule31,
@@ -638,7 +639,7 @@ const basic_data_groups = {
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 31,
-		type: "Rules"
+		type: "Rules (Opt. Subsystems)"
 	},
 	"rule32": {
 		data: rule32,
@@ -646,7 +647,7 @@ const basic_data_groups = {
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 32,
-		type: "Rules"
+		type: "Rules (Opt. Subsystems)"
 	},
 	"rule33": {
 		data: rule33,
@@ -654,7 +655,7 @@ const basic_data_groups = {
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 33,
-		type: "Rules"
+		type: "Rules (Opt. Subsystems)"
 	},
 	"rule34": {
 		data: rule34,
@@ -662,7 +663,7 @@ const basic_data_groups = {
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 34,
-		type: "Rules"
+		type: "Rules (Opt. Skill Changes)"
 	},
 	"rule35": {
 		data: rule35,
@@ -670,7 +671,7 @@ const basic_data_groups = {
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 35,
-		type: "Rules"
+		type: "Rules (Opt. Alignment Changes)"
 	},
 	"rule36": {
 		data: rule36,
@@ -678,7 +679,7 @@ const basic_data_groups = {
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 36,
-		type: "Rules"
+		type: "Rules (Opt. Combat Changes)"
 	},
 	"rule37": {
 		data: rule37,
@@ -686,7 +687,7 @@ const basic_data_groups = {
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 37,
-		type: "Rules"
+		type: "Rules (Opt. PC Adv. Changes)"
 	},
 	"rule38": {
 		data: rule38,
@@ -694,7 +695,7 @@ const basic_data_groups = {
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 38,
-		type: "Rules"
+		type: "Rules (Opt. Magic Changes)"
 	},
 	"rule39": {
 		data: rule39,
@@ -702,7 +703,15 @@ const basic_data_groups = {
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 39,
-		type: "Rules"
+		type: "Rules (Opt. Magic Changes)"
+	},
+	"rule40": {
+		data: rule40,
+		datatype: "rule",
+		searchgroup: 12, // rule
+		link: "rule",
+		num: 40,
+		type: "Rules (Opt. Magic Changes)"
 	},
 	"misc": {
 		data: misc,

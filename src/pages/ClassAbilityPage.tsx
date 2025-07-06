@@ -1,6 +1,7 @@
 import { lazy } from 'react';
 import { useParams } from 'wouter';
 import data from '../json/_data_ability.json';
+import ErrorPage from './ErrorPage';
 import './Page.css';
 
 type ID = keyof typeof data;
@@ -25,7 +26,7 @@ const ClassAbilityPage: React.FC = () => {
 
 	const { id } = useParams<{id:ID}>();
 
-	const Page = pages[id ? ((data[id] || 1) - 1) : 0];
+	const Page = pages[id ? ((data[id] || 1) - 1) : 0] || ErrorPage;
 
 	return <Page id={id || "not_found"} />;
 

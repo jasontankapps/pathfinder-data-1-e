@@ -1,6 +1,7 @@
 import { lazy } from 'react';
 import { useParams } from 'wouter';
 import data from '../json/_data_magic-wondrous.json';
+import ErrorPage from './ErrorPage';
 import './Page.css';
 
 type Params = { id?: keyof typeof data };
@@ -33,7 +34,7 @@ const MagicWondrousPage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
-	const Page = pages[id ? ((data[id] || 1) - 1) : 0];
+	const Page = pages[id ? ((data[id] || 1) - 1) : 0] || ErrorPage;
 
 	return <Page id={id || "not_found"} />;
 

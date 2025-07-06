@@ -1,6 +1,7 @@
 import { lazy } from 'react';
 import { useParams } from 'wouter';
 import data from '../json/_data_rule.json';
+import ErrorPage from './ErrorPage';
 import './Page.css';
 
 type Params = { id?: keyof typeof data };
@@ -43,6 +44,8 @@ const RulesGroup35Page = lazy(() => import("./RulesGroup35Page"));
 const RulesGroup36Page = lazy(() => import("./RulesGroup36Page"));
 const RulesGroup37Page = lazy(() => import("./RulesGroup37Page"));
 const RulesGroup38Page = lazy(() => import("./RulesGroup38Page"));
+const RulesGroup39Page = lazy(() => import("./RulesGroup39Page"));
+const RulesGroup40Page = lazy(() => import("./RulesGroup40Page"));
 
 interface PageProps {
 	id: string
@@ -87,13 +90,15 @@ const pages = [
 	(props: PageProps) => <RulesGroup36Page id={props.id} />,
 	(props: PageProps) => <RulesGroup37Page id={props.id} />,
 	(props: PageProps) => <RulesGroup38Page id={props.id} />,
+	(props: PageProps) => <RulesGroup39Page id={props.id} />,
+	(props: PageProps) => <RulesGroup40Page id={props.id} />,
 ];
 
 const RulesPage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
-	const Page = pages[id ? ((data[id] || 1) - 1) : 0];
+	const Page = pages[id ? ((data[id] || 1) - 1) : 0] || ErrorPage;
 
 	return <Page id={id || "not_found"} />;
 
