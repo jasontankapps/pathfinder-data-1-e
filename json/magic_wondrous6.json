@@ -3485,7 +3485,7 @@
 		]
 	},
 	"crystal_ball": {
-		"name": "Crystal Ball (Normal)",
+		"name": "Crystal Ball",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -3514,8 +3514,11 @@
 			"[^T]: The viewer is able to send and receive silent mental messages with the person appearing in the crystal ball. Once per day, the character may attempt to implant a {spell/suggestion} (as the spell, Will DC 14 negates) as well."
 		]
 	},
-	"crystal_ball_normal": { "redirect": "crystal_ball" },
-	"normal_crystal_ball": { "redirect": "crystal_ball" },
+	"crystal_ball_normal": {
+		"copyof": "crystal_ball",
+		"name": "Crystal Ball (Normal)"
+	},
+	"normal_crystal_ball": { "redirect": "crystal_ball_normal" },
 	"crystal_ball_see_invisibility": {
 		"name": "Crystal Ball (See Invisibility)",
 		"copyof": "crystal_ball"
