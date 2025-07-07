@@ -1777,7 +1777,8 @@
 		"name": "Ioun Stones",
 		"sources": [
 			"Pathfinder Society Primer",
-			"PRPG Core Rulebook"
+			"PRPG Core Rulebook",
+			"Seekers of Secrets"
 		],
 		"description": [
 			"## Ioun Stones",
@@ -1802,13 +1803,27 @@
 			"",
 			"Only 75% of ioun stones grant resonant powers when placed in a wayfinder.",
 			"",
-			"::h3[Cracked Ioun Stones]{jl}",
+			"::h3[Inferior Ioun Stones]{jl}",
 			"",
-			"A cracked ioun stone bears an obvious chink or cleft; its power is usually the same as that of an undamaged stone, but weaker. Only 25% of cracked ioun stones grant resonant powers when placed in a wayfinder.",
+			"{SOURCE Seekers of Secrets/46}",
 			"",
-			"::h3[Flawed Ioun Stones]{jl}",
+			"There are very few reports of ioun stones that have negative side effects; even those created by incompetent item-crafters merely create inferior specimens - still valuable to poor adventurers who cannot afford the normal variety. They fall into one of the following categories.",
 			"",
-			"A flawed ioun stone's power is usually similar to and weaker than that of a normal ioun stone, but sometimes it has side effects or slightly different effects than its normal counterpart. Only 25% of flawed ioun stones grant resonant powers when placed in a wayfinder.",
+			"::h4[Cracked Ioun Stones]{jl}",
+			"",
+			"These stones bear an obvious crack, whether as a result of the crafting process, because the raw stone was already cracked, or because the stone has been damaged (for example, if it gains the broken quality). A cracked stone's power is usually the same as an undamaged stone, but weaker. Only 25% of cracked ioun stones grant resonant powers when placed in a wayfinder.",
+			"",
+			"::h4[Flawed Ioun Stones]{jl}",
+			"",
+			"These stones have a flaw other than a crack, such as irregular faceting or impurities in the crystal. A flawed stone's power is usually similar to and weaker than a normal ioun stone, but sometimes it has side effects or slightly different effects than its normal counterpart. Only 25% of flawed ioun stones grant resonant powers when placed in a wayfinder.",
+			"",
+			"::h4[Scorched Ioun Stones]{jl}",
+			"",
+			"These stones are depleted somehow, but not so much as to render them completely burned out and powerless; some achieve this state from damaging exposure to extreme heat or electricity. A scorched stone's power functions erratically (typically a 50% chance per day for constant-effect items, or 50% chance per use for use-activated items) but is essentially the same as an intact stone of the same type. For example, a scorched {magic-ioun/pearly white spindle} ioun stone might give the wearer a 50% chance per 10 minutes to regenerate 1 hit point. Only 10% of scorched ioun stones have resonant powers.",
+			"",
+			"::h4[Cursed Ioun Stones]{jl}",
+			"",
+			"When a magic item creation skill check to create an ioun stone fails by 5 or more but less than 15, there is a 50% chance the result is a cracked stone and a 50% chance the result is a flawed stone. If the check fails by 15 or more, the stone is actually cursed; roll on [Table 15-27: Common Item Curses](rule/common_cursed_item_effects) to determine the effects of the stone's curse.",
 			"",
 			"::h3[Specific Ioun Stones]{jl}",
 			"",
@@ -1824,10 +1839,13 @@
 					{ "header": "Effect", "size": 8.5 },
 					{ "header": "Cost", "type": "gp", "size": 4, "align": "start" }
 				],
+				"filter": [
+					{ "col": 1, "equals": [ "Normal", "Flawed", "Cracked" ] }
+				],
 				"data": [
-					[ "{magic-ioun/Dull Gray>_stone}", "Flawed", "Stone", null, 25 ],
-					[ "{magic-ioun/Dull Gray>_stone}", "Cracked", "Stone", null, 25 ],
-					[ "{magic-ioun/Dull Gray>_stone}", "Normal", "Stone", null, 25 ],
+					[ "{magic-ioun/Dull Gray}", "Normal", "Any", null, 25 ],
+					[ "{magic-ioun/Dull Gray}", "Flawed", "Any", null, 25 ],
+					[ "{magic-ioun/Dull Gray}", "Cracked", "Any", null, 25 ],
 					[ "{magic-ioun/Amethyst>_pyramid}", "Cracked", "Pyramid", "+2 Knowledge (religion) to identify undead", 150 ],
 					[ "{magic-ioun/Gold>_nodule}", "Cracked", "Nodule", "+1 competence bonus to Linguistics checks", 150 ],
 					[ "{magic-ioun/Deep Red>_sphere}", "Cracked", "Sphere", "+1 competence bonus on one Dexterity-based skill", 200 ],
