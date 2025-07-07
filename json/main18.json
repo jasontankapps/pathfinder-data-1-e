@@ -3028,6 +3028,7 @@
 					[ "{eq-poison/Hemlock}", "ingested", "Fortitude DC 18", "10 minutes", "1/minute for 6 minutes", "1d6 Dex, see text", 2500 ],
 					[ "{eq-poison/Hydrofluoric acid}", "contact", "Fortitude DC 20", "1 minute", "1/round for 6 rounds", "1d2 Str drain, 1d2 Con damage, 2d6 acid", 2500 ],
 					[ "{eq-poison/Id Moss}", "ingested", "Fortitude DC 14", "10 minutes", "1/minute for 6 minutes", "1d3 Int damage", 125 ],
+					[ "{eq-poison/Indigo dreams}", "ingested", "Fortitude DC 13", "10 minutes", "1/minute for 6 minutes", "1d3 Wis damage", 150 ],
 					[ "{eq-poison/Insanity Mist}", "inhaled", "Fortitude DC 15", null, "1/rounds for 6 rounds", "1d3 Wis damage", 1500 ],
 					[ "{eq-poison/Insecticide}", "inhaled", "Fortitude DC 10 (see text)", null, "1/round for 3 rounds", "1 Str damage or stunned 1 round", 175 ],
 					[ "{eq-poison/Jackalroot essence}", "injury", "Fortitude DC 18", null, "1/round for 1d6 rounds", "uncontrollble laughter (as per hideous laughter)", 600 ],

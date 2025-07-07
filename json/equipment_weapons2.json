@@ -462,6 +462,16 @@
 		],
 		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
 	},
+	"composite_bow": {
+		"name": "Composite Bow",
+		"sources": [],
+		"description": [
+			"## Composite bow",
+			"",
+			"This can refer to either the {eq-weapon/composite longbow} or the {eq-weapon/composite shortbow}."
+		],
+		"disambiguation": true
+	},
 	"composite_longbow": {
 		"name": "Composite longbow",
 		"sources": [

@@ -2442,5 +2442,20 @@
 			"",
 			"This cunning supernatural venom was originally engineered by {rule/Red Mantis} alchemists. Fool's leprosy is a slow-acting but ultimately fatal ingested toxin that, once it takes hold in its victim's system, closely mimics the effects of a fast-moving form of {disease/leprosy}. An attempt to divine its nature via {spell/detect poison} fails unless the caster succeeds at a DC 25 caster level check, and use of a spell like {spell/diagnose disease} always misidentifies the venom as a disease unless the caster succeeds at a DC 25 caster level check. In either event, the GM should roll for these caster level checks in secret. {spell/Neutralize poison} and {spell/delay poison} function normally on a person suffering from fool's leprosy, but spells like {spell/remove disease} do not, as the condition is a poison effect, not a disease effect. {spell/Heal} can cure the effects of fool's leprosy but does nothing to educate the caster about the nature of the effect it removes. As long as the truth about fool's leprosy remains hidden, a successful DC 35 Heal check is required to recognize that someone suffering from its effects is affected by poison, not a disease."
 		]
+	},
+	"indigo_dreams": {
+		"name": "Indigo Dreams",
+		"sources": [ "Ultimate Equipment" ],
+		"description": [
+			"## Indigo Dreams",
+			"",
+			"{SOURCE Ultimate Equipment/111}",
+			"",
+			"**Price** 150 gp; **Weight** &mdash;  ",
+			"**Type** ingested; **Save** Fortitude DC 13  ",
+			"**Onset** 10 minutes; **Frequency** 1/minute for 6 minutes  ",
+			"**Effect** 1d3 Wis damage  ",
+			"**Cure** 2 saves"
+		]
 	}
 }
