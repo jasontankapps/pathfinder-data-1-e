@@ -1600,7 +1600,7 @@
 			"",
 			"@HL[Clinging Mist] ({feat/Extend Spell}, Spellcraft 6 ranks): Your thick mist is difficult to escape. A creature that leaves the *obscuring mist* continues to treat other creatures as if they had {rule/concealment} for 1d4+1 rounds after it leaves.",
 			"",
-			"@HL[Hydrating Mist] (Survival 3 ranks): Your mist clings to creatures, soaking them and their equipment. This grants each creature a +4 bonus on Fortitude saves to resist effects of {rule/heat>_dangers} and a -4 penalty on saves against effects that deal electricity damage and spells with the electricity descriptor. This effect functions as submersion in water for aquatic creatures and penetrates the skin, hydrating creatures in the mist as if they consumed a canteen full of water.",
+			"@HL[Hydrating Mist] (Survival 3 ranks): Your mist clings to creatures, soaking them and their equipment. This grants each creature a +4 bonus on Fortitude saves to resist effects of {rule/heat} and a -4 penalty on saves against effects that deal electricity damage and spells with the electricity descriptor. This effect functions as submersion in water for aquatic creatures and penetrates the skin, hydrating creatures in the mist as if they consumed a canteen full of water.",
 			"",
 			"@HL[Mist Screen] ({feat/Heighten Spell}): You can shape your *obscuring mist* into a dense wall of mist with an area up to one 10-foot square per 2 levels. The sections of wall are 5 feet thick and must remain contiguous, but they do not need to be anchored to a solid surface. At least one section of the wall must include your space. Creatures standing within the wall have {rule/concealment}. Creatures on the opposite side of the wall have total concealment.",
 			"",

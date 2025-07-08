@@ -1431,6 +1431,7 @@
 			"character_background"
 		]
 	},
+	"aging": { "redirect": "age" },
 	"height_and_weight": {
 		"name": "Height and Weight",
 		"sources": [ "PRPG Core Rulebook" ],

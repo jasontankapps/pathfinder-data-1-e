@@ -1906,7 +1906,7 @@
 			"{SOURCE Occult Adventures/22}  ",
 			"**Element** air; **Type** utility (Sp); **Level** 1; **Burn** 0",
 			"",
-			"You are immune to [altitude sickness](rule/mountain_travel), and gain an amount of electricity resistance equal to twice your current amount of burn."
+			"You are immune to {rule/altitude sickness}, and gain an amount of electricity resistance equal to twice your current amount of burn."
 		]
 	},
 	"aerial_evasion": {
@@ -2651,7 +2651,7 @@
 			"**Prerequisite** {kinetic/fire blast} or {kinetic/positive blast}  ",
 			"**Saving Throw** none; **SR** yes",
 			"",
-			"You surround a creature with glowing flames that outline it, as per {spell/faerie fire}. If you use foxfire with positive energy, the flames don't give off heat. If you use it with fire, the flames still aren't hot enough to deal damage immediately, but the illuminated creature counts as being under the effects of {rule/severe |heat>_dangers} and must succeed at a Fortitude save against nonlethal damage after 10 minutes. A creature can extinguish the foxfire automatically as a full-round action."
+			"You surround a creature with glowing flames that outline it, as per {spell/faerie fire}. If you use foxfire with positive energy, the flames don't give off heat. If you use it with fire, the flames still aren't hot enough to deal damage immediately, but the illuminated creature counts as being under the effects of {rule/severe |heat} and must succeed at a Fortitude save against nonlethal damage after 10 minutes. A creature can extinguish the foxfire automatically as a full-round action."
 		]
 	},
 	"from_the_ashes": {

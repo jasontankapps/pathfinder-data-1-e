@@ -2501,7 +2501,7 @@
 			"",
 			"@HL[Jumper (2 RP):] **Prerequisite:** The race has at least a +2 racial bonus to Dexterity; **Benefit:** Members of this race are always considered to have a running start when making Acrobatics checks to jump.",
 			"",
-			"@HL[Mountaineer (1 RP):] **Prerequisites:** None; **Benefit:** Members of this race are immune to [altitude sickness](rule/mountain_travel) and do not lose their Dexterity bonus to AC when making Climb checks or Acrobatics checks to cross narrow or slippery surfaces.",
+			"@HL[Mountaineer (1 RP):] **Prerequisites:** None; **Benefit:** Members of this race are immune to {rule/altitude sickness} and do not lose their Dexterity bonus to AC when making Climb checks or Acrobatics checks to cross narrow or slippery surfaces.",
 			"",
 			"@HL[Sprinter (1 RP):] **Prerequisite:** Normal speed; **Benefit:** Members of this race gain a +10 foot racial bonus to their speed when using the charge, run, or withdraw actions.",
 			"",

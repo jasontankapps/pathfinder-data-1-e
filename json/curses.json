@@ -270,7 +270,7 @@
 			"",
 			"{SOURCE Horror Adventures/145}  ",
 			"**Type** regional curse; **Save** Will DC 23  ",
-			"**Effect** The weather in the cursed region changes drastically, even bringing snow to a blazing desert. The area is plagued by your choice of {rule/very |cold /conditions>dangers}, [very hot conditions](rule/heat_dangers), or {rule/frequent powerful |storms}. The weather remains unpredictable, and can change over time (as determined by the GM), but the baseline weather is altered as long as the curse remains.  ",
+			"**Effect** The weather in the cursed region changes drastically, even bringing snow to a blazing desert. The area is plagued by your choice of {rule/very |cold/ conditions}, [very hot conditions](rule/heat_dangers), or {rule/frequent powerful |storms}. The weather remains unpredictable, and can change over time (as determined by the GM), but the baseline weather is altered as long as the curse remains.  ",
 			"**Cure** The cursed weather can be returned to normal only by casting {spell/remove curse} at the center of the affected area, followed by a casting of {spell/control weather}."
 		]
 	},

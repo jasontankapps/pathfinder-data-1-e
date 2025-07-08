@@ -1494,6 +1494,7 @@
 			"mountain_travel"
 		]
 	},
+	"altitude_sickness": { "redirect": "mountain_travel" },
 	"desert_terrain": {
 		"name": "Desert Terrain",
 		"subtitle": "Wilderness",
@@ -2441,6 +2442,7 @@
 			"water_dangers"
 		]
 	},
+	"cold": { "redirect": "cold_dangers" },
 	"darkness": {
 		"name": "Darkness",
 		"subtitle": "Environmental Rules",
@@ -2608,6 +2610,7 @@
 			"water_dangers"
 		]
 	},
+	"heat": { "redirect": "heat_dangers" },
 	"catching_on_fire": {
 		"name": "Catching on Fire",
 		"subtitle": "Environmental Rules",

@@ -1100,7 +1100,7 @@
 		"nameSuffix": "(Su)",
 		"compilationSources": [ [ "Ultimate Wilderness" ] ],
 		"description": [
-			"The barbarian's rage rejuvenates her physically and spiritually. While raging, she ignores penalties to her ability scores due to {rule/ag/ing>e}. She also ignores penalties from negative levels, though she retains any negative levels she has until they are removed normally. A barbarian can have only one season-themed rage power, choosing between spring, {ragepower/summer>_rage}, {ragepower/autumn>_rage}, or {ragepower/winter>_rage} rage."
+			"The barbarian's rage rejuvenates her physically and spiritually. While raging, she ignores penalties to her ability scores due to {rule/aging}. She also ignores penalties from negative levels, though she retains any negative levels she has until they are removed normally. A barbarian can have only one season-themed rage power, choosing between spring, {ragepower/summer>_rage}, {ragepower/autumn>_rage}, or {ragepower/winter>_rage} rage."
 		]
 	},
 	"staggering_drunk": {
@@ -1942,7 +1942,7 @@
 		"category": "Totem",
 		"compilationSources": [ [ "Qadira, Jewel of the East" ] ],
 		"description": [
-			"The sun's fire invigorates the barbarian. She is immune to environmental effects from {rule/heat /and severe heat>dangers}, and she gains a +2 bonus on Fortitude saves against the effects of extreme heat. In addition, the barbarian gains fire resistance 5 while raging.",
+			"The sun's fire invigorates the barbarian. She is immune to environmental effects from {rule/heat/ and severe heat}, and she gains a +2 bonus on Fortitude saves against the effects of extreme heat. In addition, the barbarian gains fire resistance 5 while raging.",
 			"",
 			"**Totem** rage powers are only available to barbarians taking the {arc-barbarian/Totem Warrior} archetype. A barbarian cannot select from more than one group of totem rage powers; for example, a barbarian who selects a *beast* totem rage power cannot later choose to gain any of the *dragon* totem rage powers (any rage power with \"dragon totem\" in its title)."
 		],

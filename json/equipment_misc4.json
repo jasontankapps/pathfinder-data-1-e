@@ -1346,7 +1346,7 @@
 			"**Price** 150 gp; **Weight** -  ",
 			"**Category** Tincture",
 			"",
-			"This tincture contains powdered plant roots and comes in {rule/cold-/weather>dangers} and [hot-weather](rule/heat_dangers) varieties. For 6 hours after drinking the tincture, you gain a +5 alchemical bonus on Fortitude saving throws to resist the effects of the chosen temperature. The tincture interferes with blood flow, causing you to take a -2 penalty on all other Fortitude saving throws for the same duration.",
+			"This tincture contains powdered plant roots and comes in {rule/cold/-weather} and [hot-weather](rule/heat_dangers) varieties. For 6 hours after drinking the tincture, you gain a +5 alchemical bonus on Fortitude saving throws to resist the effects of the chosen temperature. The tincture interferes with blood flow, causing you to take a -2 penalty on all other Fortitude saving throws for the same duration.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 20"
 		]
@@ -2571,7 +2571,7 @@
 			"{SOURCE Ultimate Equipment/77}  ",
 			"**Price** 1 gp (common), 2 gp (umbrella); **Weight** 2 lbs. (common), 3 lbs. (umbrella)",
 			"",
-			"This folding umbrella is translucent and not waterproof. It cuts down on the heat from direct sunlight. In very hot conditions where the sun is a factor (such as a desert), it gives you a +1 circumstance bonus on your hourly Fortitude saves against {rule/heat>_dangers}, and reduces the damage from a failed save by 1 hit point (minimum 1). It provides insufficient protection in conditions of severe or extreme heat. You must hold a parasol in one hand and use it to shade yourself from the sun. Alternatively, you can hold the parasol and use it to shade another creature of your size or smaller. The listed price is for a simple, functional parasol made of fabric or lacquered paper. A parasol used as a fashion accessory can be far more expensive, depending on the materials used, and can cost from 1 gp to 10 gp.",
+			"This folding umbrella is translucent and not waterproof. It cuts down on the heat from direct sunlight. In very hot conditions where the sun is a factor (such as a desert), it gives you a +1 circumstance bonus on your hourly Fortitude saves against {rule/heat}, and reduces the damage from a failed save by 1 hit point (minimum 1). It provides insufficient protection in conditions of severe or extreme heat. You must hold a parasol in one hand and use it to shade yourself from the sun. Alternatively, you can hold the parasol and use it to shade another creature of your size or smaller. The listed price is for a simple, functional parasol made of fabric or lacquered paper. A parasol used as a fashion accessory can be far more expensive, depending on the materials used, and can cost from 1 gp to 10 gp.",
 			"",
 			"**Umbrella:** An umbrella is a heavier, waterproof parasol made of oiled or waxed cloth. It is intended to keep you dry in the rain or snow, but can still protect against sunlight just like a standard parasol."
 		]
@@ -4494,7 +4494,7 @@
 			"**Price** 1 gp; **Weight** -  ",
 			"**Category** Alchemical Remedies",
 			"",
-			"{race/Tengu/s} mix special salves to protect their feathers from the elements. This one-ounce vial of wing oil gives a feathered creature a +1 bonus on all saving throws to resist the effects of {rule/cold /weather>dangers}. Its effects last 24 hours.",
+			"{race/Tengu/s} mix special salves to protect their feathers from the elements. This one-ounce vial of wing oil gives a feathered creature a +1 bonus on all saving throws to resist the effects of {rule/cold/ weather}. Its effects last 24 hours.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 20"
 		]

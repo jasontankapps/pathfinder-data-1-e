@@ -904,6 +904,7 @@
 			"**Cure** 1 save"
 		]
 	},
+	"scorpion_venom": { "redirect": "large_scorpion_venom" },
 	"spellscorch": {
 		"name": "Spellscorch",
 		"sources": [ "Advanced Race Guide" ],
