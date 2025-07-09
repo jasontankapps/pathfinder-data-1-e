@@ -655,7 +655,7 @@
 			"",
 			"**Fear Aura (Su):** The use of this ability is a free action. The aura can freeze an opponent (as in the case of a {monster/mummy/'s despair}) or function like the {spell/fear} spell. Other effects are possible. A fear aura is an area effect. The descriptive text gives the size and kind of the area.",
 			"",
-			"**Fear Cone (Sp) and Ray (Su):** These effects usually work like the {spell/fear} spell. If a fear effect allows a saving throw, it is a Will save (DC = 10 + 1/2 the fearsome creature's racial HD + that creature's Charisma modifier; the exact DC is given in the creature's descriptive text). All fear attacks are mind-affecting fear effects.",
+			"**Fear Cone (Sp) and Ray (Su):** These effects usually work like the *fear* spell. If a fear effect allows a saving throw, it is a Will save (DC = 10 + 1/2 the fearsome creature's racial HD + that creature's Charisma modifier; the exact DC is given in the creature's descriptive text). All fear attacks are mind-affecting fear effects.",
 			"",
 			"**Format:** fear aura (30 ft., DC 17) or fear cone (50 ft., DC 19)  ",
 			"**Location:** Aura or Special Attacks."
@@ -1205,7 +1205,7 @@
 			"- **Mythic:** An usher functions as a 10th-rank mythic creature, including having the mythic power ability (10/day, surge +1d12). It can expend uses of mythic power to use the mythic versions of any spell-like ability denoted with a superscript \"M,\" as if the ability were a mythic spell.",
 			"- **Spell-Like Abilities:**  ",
 			"    - *At will*-{spell/discern location}, {spell/fabricate}, {spell/polymorph any object} (when used on objects or creatures that are native to the realm, the polymorph duration factor increases by 6), and {spell/rest eternal};  ",
-			"    - *1/day*-{spell/miracle} (limited to physical effects that manipulate the realm or to effects that are relevant to the usher's area of concern), {spell/true resurrection} (the usher can use {spell/true resurrection} to restore slain outsiders to life)."
+			"    - *1/day*-{spell/miracle} (limited to physical effects that manipulate the realm or to effects that are relevant to the usher's area of concern), {spell/true resurrection} (the usher can use *true resurrection* to restore slain outsiders to life)."
 		]
 	},
 	"rock_throwing": {
@@ -1485,7 +1485,7 @@
 			"## Mythic Immortality (Su) [Mythic]",
 			"",
 			"{SOURCE Bestiary 4/296}  ",
-			"If the creature is killed, it returns to life 24 hours later, regardless of the condition of its body or the means by which it was killed. When it returns to life, it isn't treated as if it had rested, and doesn't regain the use of abilities that are restored with rest until it next rests. This ability doesn't apply if the creature is killed by a coup de grace or critical hit performed by either a mythic creature (or creature of even greater power) or a non-mythic creature wielding a weapon capable of bypassing epic damage reduction. If the creature is 10th mythic rank, it can be killed only by a coup de grace or critical hit made with an artifact. (This ability is called \"immortal\" in *Mythic Adventures*.)",
+			"If the creature is killed, it returns to life 24 hours later, regardless of the condition of its body or the means by which it was killed. When it returns to life, it isn't treated as if it had rested, and doesn't regain the use of abilities that are restored with rest until it next rests. This ability doesn't apply if the creature is killed by a coup de grace or critical hit performed by either a mythic creature (or creature of even greater power) or a non-mythic creature wielding a weapon capable of bypassing epic damage reduction. If the creature is 10th mythic rank, it can be killed only by a coup de grace or critical hit made with an artifact. (This ability is called \"immortal\" in *Mythic Adventures.*)",
 			"",
 			"**Format:** mythic immortality  ",
 			"**Location:** SQ."

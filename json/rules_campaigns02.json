@@ -1194,7 +1194,7 @@
 			"",
 			"@HL[Near-Fatal Conclusion:] The GM might rule that, once the timer expires, the structure collapses - a fate that probably means death for anyone trapped inside. See the {rule/Cave-Ins and Collapses} rules. The GM might add the threat of additional damage to those trapped within (or who try to rescue those left behind) if the conditions call for it - like dealing additional fire damage to those caught beneath a collapsed burning ruin.",
 			"",
-			"@HL[Horror Considerations:] Write a 10 on a whiteboard or set a die at 10 in front of the PCs. After their first turn trying to escape, change the number to 9. Decrease the number every turn. A generous GM might let them know that when the count reaches 0, the structure collapses (to whatever terrible end; consider the rules for {rule/cave-ins and collapses}) or not. In either case, few things motivate a group like a ticking clock. Beyond collapsing structures, PCs may need to flee a burning topiary garden, a tsunami-battered village, the nightmare of a waking dreamer, a city being destroyed by {family/kaiju}, or a forest come to life."
+			"@HL[Horror Considerations:] Write a 10 on a whiteboard or set a die at 10 in front of the PCs. After their first turn trying to escape, change the number to 9. Decrease the number every turn. A generous GM might let them know that when the count reaches 0, the structure collapses (to whatever terrible end; consider the rules for cave-ins and collapses) or not. In either case, few things motivate a group like a ticking clock. Beyond collapsing structures, PCs may need to flee a burning topiary garden, a tsunami-battered village, the nightmare of a waking dreamer, a city being destroyed by {family/kaiju}, or a forest come to life."
 		],
 		"parent_topics": [
 			"gm_specific_campaigns",
@@ -1800,7 +1800,7 @@
 			"",
 			"If your kingdom's Unrest is 11 or higher, the kingdom begins to lose control of hexes it has claimed.",
 			"",
-			"If your kingdom's Unrest ever reaches 20, the kingdom falls into anarchy (see {rule/Kingdom Upkeep Phase})."
+			"If your kingdom's Unrest ever reaches 20, the kingdom falls into anarchy (see Kingdom Upkeep Phase)."
 		],
 		"parent_topics": [
 			"gm_specific_campaigns",
@@ -1844,7 +1844,7 @@
 			"",
 			"Running a kingdom takes place over a series of turns, similar to how combat takes place over a series of rounds. A [kingdom turn](rule/kingdom_turn_sequence) takes 1 month of game time. Each turn has four phases which you resolve in order: the Upkeep phase, where you pay the kingdom's bills; the Edict phase, where you levy taxes and build improvements; the Income phase, where you collect taxes; and the Events phase, where you see if something especially good or bad happens to your kingdom.",
 			"",
-			"If this is your first time reading these rules, start with the section on {rule/Founding a Settlement} and read the rest of the kingdom-building rules in order. If you find a term you're not familiar with, check the {rule/Kingdom Terminology} section or refer to the {rule/Kingdom Building Overview} for a better idea of where you can find that information."
+			"If this is your first time reading these rules, start with the section on {rule/Founding a Settlement} and read the rest of the kingdom-building rules in order. If you find a term you're not familiar with, check the Kingdom Terminology section or refer to the {rule/Kingdom Building Overview} for a better idea of where you can find that information."
 		],
 		"parent_topics": [
 			"gm_specific_campaigns",

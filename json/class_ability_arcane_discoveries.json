@@ -202,7 +202,7 @@
 			"",
 			"It is in your best interest to call this creature only sparingly, and occasionally reward it in some fashion to mollify its wrath. If you repeatedly fail to offer it a reward appropriate to its type and ethos, the creature may begin plotting ways to destroy the bond between you, whether by creating an accident that will destroy your memory of the name, by plaguing you with nuisances or dangers until you vow never to call on it again, or by actively seeking to destroy you through its own devices or those of an underling. If this creature is of a lawful type and you are violating its ethos, its superiors may even destroy it or you rather than allow you to contaminate their servant further. Worse, they may establish situations where it is necessary for you to summon this outsider, opening gateways to infernal or angelic interference, in order to gain a foothold on the Material Plane.",
 			"",
-			"You may select this discovery multiple times. Each time you select this discovery, it applies to a different, specific outsider. You must be at least an 11th-level wizard to select this discovery. If you select this discovery at 15th level or higher, the creature may have up to 18 Hit Dice and the call acts as {spell/greater planar binding} instead of {spell/planar binding}."
+			"You may select this discovery multiple times. Each time you select this discovery, it applies to a different, specific outsider. You must be at least an 11th-level wizard to select this discovery. If you select this discovery at 15th level or higher, the creature may have up to 18 Hit Dice and the call acts as {spell/greater planar binding} instead of *planar binding.*"
 		]
 	},
 	"werewolf_shape": {

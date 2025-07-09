@@ -1272,7 +1272,7 @@
 			"",
 			"Your introduction to the ways of the {pclass/bloatmage} allows you to use elaborate rituals and gruesome rites to increase the amount of blood and lymph in your body, expanding your reserves of magical energy.  ",
 			"**Prerequisites:** {feat/Spell Focus} (any school).  ",
-			"**Benefit:** You learn the basics of the ancient art of hemotheurgy. Pick one school of magic in which you possess the {feat/Spell Focus} feat - you cast spells from this school of magic at +1 caster level. This bonus stacks with the bonus from Spell Focus. Unfortunately, the bloating side effects increase your girth to such a point that you are constantly under the effects of a medium load - your maximum bonus to AC from Dexterity is +3, you gain an armor check penalty of -3, and your speed decreases as appropriate (generally from 30 feet to 20 feet for a Medium creature)."
+			"**Benefit:** You learn the basics of the ancient art of hemotheurgy. Pick one school of magic in which you possess the Spell Focus feat - you cast spells from this school of magic at +1 caster level. This bonus stacks with the bonus from Spell Focus. Unfortunately, the bloating side effects increase your girth to such a point that you are constantly under the effects of a medium load - your maximum bonus to AC from Dexterity is +3, you gain an armor check penalty of -3, and your speed decreases as appropriate (generally from 30 feet to 20 feet for a Medium creature)."
 		]
 	},
 	"block_chakras": {
@@ -1302,7 +1302,7 @@
 			"",
 			"You can block additional chakras.  ",
 			"**Prerequisites:** {feat/Block Chakras}, {feat/Psychic Sensitivity}, ki pool, character level 8th.  ",
-			"**Benefit:** When you use {feat/Block Chakras}, you can also select from the heart, throat, brow, and crown {rule/activating_<chakras}, as long as you can open the chosen chakra yourself, with the following effects.",
+			"**Benefit:** When you use Block Chakras, you can also select from the heart, throat, brow, and crown {rule/activating_<chakras}, as long as you can open the chosen chakra yourself, with the following effects.",
 			"",
 			"- **Heart:** The target can't recover hit points from any source for 1 minute. This prevents hit point recovery from {umr/fast healing} and {umr/regeneration} but doesn't deactivate regeneration altogether, so it does not allow a creature with regeneration to be killed through hit point damage. On a successful save, the target recovers only half as many hit points for 1 round.",
 			"- **Throat:** The target can't speak or cast spells with a {rule/thought |component>s_oa} for 1 round, and for 1 minute, actions that require speaking or thought components have a 20% chance to fail. On a successful save, actions that require speaking or thought components have a 50% chance to fail for 1 round.",
@@ -2086,7 +2086,7 @@
 			"You can leap through difficult terrain like a deer or elk.  ",
 			"**Prerequisites:** Dex 15, {feat/Nimble Moves}.  ",
 			"**Benefit:** You gain a +2 bonus on Acrobatics checks to keep your balance and Reflex saves to avoid falling. Additionally, select one terrain type from the ranger list of favored terrains. Within that terrain, the maximum number of feet of {rule/difficult terrain} you can move through as if it were normal terrain increases by 10 feet.  ",
-			"**Normal:** {feat/Nimble Moves} allows you to move through 5 feet of difficult terrain each round as if it were normal terrain.  ",
+			"**Normal:** Nimble Moves allows you to move through 5 feet of difficult terrain each round as if it were normal terrain.  ",
 			"**Special:** If you have the {ability/favored terrain} class feature, you do not select a terrain with this feat. Instead, this feat's increased movement through difficult terrain applies to all of your favored terrains."
 		]
 	},
@@ -3293,7 +3293,7 @@
 			"",
 			"You have posted loyal followers in the most vital places.  ",
 			"**Prerequisites:** {feat/Leadership} score 13, hold a leadership role related to running a kingdom.  ",
-			"**Benefit:** Choose a building in your kingdom as your center of power, and dedicate one of the followers granted to you by the {feat/Leadership} feat to overseeing that location. For every kingdom turn in which that follower does nothing but oversee that location, the benefits that building grants to your kingdom's Economy, Fame, Loyalty, and Stability are doubled and any penalties are negated. This feat does not allow a building to grant benefits it does not normally provide, and has no effect on a building's other effects.",
+			"**Benefit:** Choose a building in your kingdom as your center of power, and dedicate one of the followers granted to you by the Leadership feat to overseeing that location. For every kingdom turn in which that follower does nothing but oversee that location, the benefits that building grants to your kingdom's Economy, Fame, Loyalty, and Stability are doubled and any penalties are negated. This feat does not allow a building to grant benefits it does not normally provide, and has no effect on a building's other effects.",
 			"",
 			"This feat only applies to one building, and committing multiple followers to this or different buildings has no effect - the selected location is treated as being of particular importance to you, and its uniqueness combined with the follower's loyalty grants it special efficiencies. The same follower does not have to oversee your center of power every month, but you must keep at least one follower dedicated to this location for the entire month to gain this feat's benefits. Once per year, you may change which building is your center of power."
 		]
@@ -3323,7 +3323,7 @@
 			"",
 			"When you strike from three directions, you channel deadly force into each blow.  ",
 			"**Prerequisites:** {feat/Cerberus Snare}, {feat/Cerberus Style}, {feat/Vital Strike}, base attack bonus +13 or monk level 13th.  ",
-			"**Benefit:** You can apply the benefits of {feat/Vital Strike}, {feat/Improved Vital Strike}, and {feat/Greater Vital Strike} to all attacks made using {feat/Cerberus Style}."
+			"**Benefit:** You can apply the benefits of Vital Strike, {feat/Improved Vital Strike}, and {feat/Greater Vital Strike} to all attacks made using Cerberus Style."
 		]
 	},
 	"cerberus_snare": {
@@ -3336,7 +3336,7 @@
 			"",
 			"Your strikes latch onto your opponent like the jaws of a cerberus, preventing them from fleeing across planes.  ",
 			"**Prerequisites:** {feat/Cerberus Style}, base attack bonus +9 or monk level 9th.  ",
-			"**Benefit:** Whenever you damage an opponent with {feat/Cerberus Style}, except that its duration is 1 round. Spell resistance applies; for the purpose of checks to overcome spell resistance, your caster level is equal to your character level."
+			"**Benefit:** Whenever you damage an opponent with Cerberus Style, except that its duration is 1 round. Spell resistance applies; for the purpose of checks to overcome spell resistance, your caster level is equal to your character level."
 		]
 	},
 	"cerberus_style": {

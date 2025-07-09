@@ -2051,7 +2051,7 @@
 			"",
 			"Your arms flail about in a confusing pattern of strikes that trips and batters your foes.  ",
 			"**Prerequisites:** Dex 13, {feat/Dodge}, {feat/Improved Trip}, {feat/Octopus Focus}, {feat/Octopus Style}, Acrobatics 7 ranks, Perception 7 ranks.  ",
-			"**Benefit:** While using {feat/Octopus Style}, when you threaten two enemies who are adjacent to each other, you can attempt a {rule/trip} combat maneuver check against both targets at once in place of a melee attack. You attempt a single combat maneuver check at a -5 penalty and apply the result to both targets."
+			"**Benefit:** While using Octopus Style, when you threaten two enemies who are adjacent to each other, you can attempt a {rule/trip} combat maneuver check against both targets at once in place of a melee attack. You attempt a single combat maneuver check at a -5 penalty and apply the result to both targets."
 		]
 	},
 	"ogre_crush": {
@@ -2102,7 +2102,7 @@
 			"{SOURCE Faction Guide/57}",
 			"",
 			"Your walk, stance, and voice all amplify your status as a {rule/Hellknight>s} when you cast spells or use spell-like abilities against opponents.  ",
-			"**Prerequisites:** Hellknight rank, {rule/Hellknight>s} 10 TPA.  ",
+			"**Prerequisites:** Hellknight rank, Hellknight 10 TPA.  ",
 			"**Benefit:** Whenever you cast a spell or use a spell-like ability from the compulsion, fear, phantasm, or shadow sub-schools, add +1 to the DC of the saving throw against that spell or effect."
 		]
 	},
@@ -2318,7 +2318,7 @@
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/128}",
 			">",
-			">As long as you have at least 1 stamina point in your stamina pool, the bonus on {feat/Cleave} attacks against humanoids with the orc subtype increases to +4."
+			">As long as you have at least 1 stamina point in your stamina pool, the bonus on Cleave attacks against humanoids with the orc subtype increases to +4."
 		]
 	},
 	"orc_rampage": {
@@ -2668,7 +2668,7 @@
 			"",
 			"You hoist your opponent above your head before slamming him to the ground, temporarily staggering the foe.  ",
 			"**Prerequisites:** Str 13, {feat/Improved Grapple}, {feat/Improved Unarmed Strike}, {feat/Savage Slam}.  ",
-			"**Benefit:** While you are using {feat/Savage Slam}, if you succeed at your grapple combat maneuver check to knock your opponent {rule/prone}, the opponent must succeed at a Fortitude save (DC = 10 + your base attack bonus) or be {misc/staggered} for 1 round. Oozes, incorporeal creatures, and creatures that are immune to critical hits are immune to this effect."
+			"**Benefit:** While you are using Savage Slam, if you succeed at your grapple combat maneuver check to knock your opponent {rule/prone}, the opponent must succeed at a Fortitude save (DC = 10 + your base attack bonus) or be {misc/staggered} for 1 round. Oozes, incorporeal creatures, and creatures that are immune to critical hits are immune to this effect."
 		]
 	},
 	"overpowering_stare": {
@@ -2786,7 +2786,7 @@
 			"",
 			"You can move with the quiet grace of an owl.  ",
 			"**Prerequisites:** Dex 13, {feat/Skill Focus} (Stealth), Stealth 1 rank.  ",
-			"**Benefit:** While using this style, you can use your base attack bonus in place of your ranks in Stealth to determine your Stealth skill modifier (as usual, this does not replace your ranks for other purposes, such as determining the effects of {feat/Skill Focus}). While in this stance and using Stealth, you can {rule/charge} at a -10 penalty beyond the penalty you take for using Stealth at full speed (which is typically -5). Foes that fail their Perception checks and don't otherwise notice you (for instance, with an ability like {umr/blindsight}) are denied their Dexterity bonuses to AC against all attacks you make against them during or at the end of that charge instead of just against the first attack."
+			"**Benefit:** While using this style, you can use your base attack bonus in place of your ranks in Stealth to determine your Stealth skill modifier (as usual, this does not replace your ranks for other purposes, such as determining the effects of Skill Focus). While in this stance and using Stealth, you can {rule/charge} at a -10 penalty beyond the penalty you take for using Stealth at full speed (which is typically -5). Foes that fail their Perception checks and don't otherwise notice you (for instance, with an ability like {umr/blindsight}) are denied their Dexterity bonuses to AC against all attacks you make against them during or at the end of that charge instead of just against the first attack."
 		]
 	},
 	"owl_swoop": {
@@ -2901,7 +2901,7 @@
 			"",
 			"You recruit a page who heralds your approach and has the ability to smooth the path of your diplomatic missions.  ",
 			"**Prerequisites:** Character level 4th, proficiency with martial weapons.  ",
-			"**Benefit:** This feat is similar to the {feat/Leadership} feat, with several exceptions. You can attract only a 1st-level cohort (referred to hereafter as a page) with this feat, and can't recruit followers. You determine your Leadership score according to the rules presented in the {feat/Leadership} feat, but your page is always at least 3 levels lower than your level.",
+			"**Benefit:** This feat is similar to the {feat/Leadership} feat, with several exceptions. You can attract only a 1st-level cohort (referred to hereafter as a page) with this feat, and can't recruit followers. You determine your Leadership score according to the rules presented in the Leadership feat, but your page is always at least 3 levels lower than your level.",
 			"",
 			"A page can take levels in {class/bard}, {class/cavalier}, or {class/paladin}. She cannot multiclass, though she can take any archetype for which she qualifies.",
 			"",
@@ -2909,7 +2909,7 @@
 			"",
 			"If a page gains enough XP to bring her to 2 levels lower than your level, she doesn't gain the new level until you gain your next level; until then, her XP total remains 1 less than the amount needed to attain the next level and she gains no additional XP until you advance in level.",
 			"",
-			"If you release your page from service or otherwise lose your page, you can recruit a new one. At 7th level, you can swap this feat for the {feat/Leadership} feat."
+			"If you release your page from service or otherwise lose your page, you can recruit a new one. At 7th level, you can swap this feat for the Leadership feat."
 		]
 	},
 	"painful_anchor": {

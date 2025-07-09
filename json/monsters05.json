@@ -653,7 +653,7 @@
 			"",
 			"**Ill Luck (Su)** When a chickcharney hits a creature with one of its natural attacks, the target is exposed to the chickcharney's curse.",
 			"",
-			">*Curse of Ill Luck:* *save* Will DC 14; *effect* the creature takes a -1 penalty on attack rolls, saving throws, ability checks, and skill checks. A creature can be affected by a curse of ill luck multiple times (up to a maximum cumulative penalty of -4). Chickcharneys are immune to this curse. The save DC is Charisma-based.",
+			">*Curse of Ill Luck: save* Will DC 14; *effect* the creature takes a -1 penalty on attack rolls, saving throws, ability checks, and skill checks. A creature can be affected by a curse of ill luck multiple times (up to a maximum cumulative penalty of -4). Chickcharneys are immune to this curse. The save DC is Charisma-based.",
 			"",
 			"**Maddening Screech (Su)** Three times per day as a standard action, a chickcharney can emit a piercing cry that affects all other creatures within a 30-foot radius. An affected creature must succeed at a DC 13 Fortitude save or become confused for 1d3 rounds. This is a sonic, mind-affecting effect. The save DC is Constitution-based.",
 			"",
@@ -2768,7 +2768,7 @@
 			"",
 			"**CL** 12th; **Price** 40,250 gp",
 			"",
-			"**Requirements** {feat/Craft Construct}, {feat/Exotic Weapon Proficiency} (pistol), *haste*, {spell/geas//quest}, *slow*, creator must be caster level 12th; Skill Craft (clockwork) DC 20; **Cost** 21,750 gp",
+			"**Requirements** {feat/Craft Construct}, {feat/Exotic Weapon Proficiency} (pistol), *haste,* {spell/geas//quest}, *slow,* creator must be caster level 12th; Skill Craft (clockwork) DC 20; **Cost** 21,750 gp",
 			"",
 			"[^B]: Bonus feat."
 		]
@@ -3186,7 +3186,7 @@
 			"",
 			"**CL** 12th; **Price** 42,000 gp",
 			"",
-			"**Requirements** *Craft Construct*, {spell/geas//quest} and *haste*, creator must be at least caster level 12th; Skill Craft (clockwork) DC 20; **Cost** 22,000 gp",
+			"**Requirements** Craft Construct, {spell/geas//quest} and *haste,* creator must be at least caster level 12th; Skill Craft (clockwork) DC 20; **Cost** 22,000 gp",
 			"",
 			"[^B]: Bonus feat."
 		]

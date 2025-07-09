@@ -39,7 +39,7 @@
 			"",
 			"When you pull a dirty trick, your foe is truly hindered.  ",
 			"**Prerequisites:** Int 13, {feat/Combat Expertise}, {feat/Improved Dirty Trick}, base attack bonus +6.  ",
-			"**Benefit:** You receive a +2 bonus on checks made to attempt a {rule/dirty trick}. This bonus stacks with the bonus granted by {feat/Improved Dirty Trick}. Whenever you successfully perform a dirty trick, the penalty lasts for 1d4 rounds, plus 1 round for every 5 by which your attack exceeds the target's CMD. In addition, removing the condition requires the target to spend a standard action.  ",
+			"**Benefit:** You receive a +2 bonus on checks made to attempt a {rule/dirty trick}. This bonus stacks with the bonus granted by Improved Dirty Trick. Whenever you successfully perform a dirty trick, the penalty lasts for 1d4 rounds, plus 1 round for every 5 by which your attack exceeds the target's CMD. In addition, removing the condition requires the target to spend a standard action.  ",
 			"**Normal:** The condition imposed by a dirty trick lasts for 1 round plus 1 round for every 5 by which your attack exceeds the target's CMD. Removing the condition requires the target to spend a move action.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -193,7 +193,7 @@
 			"",
 			"Maintaining a grapple is second nature to you.  ",
 			"**Prerequisites:** {feat/Improved Grapple}, {feat/Improved Unarmed Strike}, base attack bonus +6, Dex 13.  ",
-			"**Benefit:** You receive a +2 bonus on checks made to {misc/grapple} a foe. This bonus stacks with the bonus granted by {feat/Improved Grapple}. Once you have grappled a creature, maintaining the grapple is a move action. This feat allows you to make two grapple checks each round (to move, harm, or pin your opponent), but you are not required to make two checks. You only need to succeed at one of these checks to maintain the grapple.  ",
+			"**Benefit:** You receive a +2 bonus on checks made to {misc/grapple} a foe. This bonus stacks with the bonus granted by Improved Grapple. Once you have grappled a creature, maintaining the grapple is a move action. This feat allows you to make two grapple checks each round (to move, harm, or pin your opponent), but you are not required to make two checks. You only need to succeed at one of these checks to maintain the grapple.  ",
 			"**Normal:** Maintaining a grapple is a standard action.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -287,7 +287,7 @@
 			"",
 			"Enemies must dive to avoid your dangerous move.  ",
 			"**Prerequisites:** {feat/Improved Overrun}, {feat/Power Attack}, base attack bonus +6, Str 13.  ",
-			"**Benefit:** You receive a +2 bonus on checks made to overrun a foe. This bonus stacks with the bonus granted by {feat/Improved Overrun}. Whenever you {rule/overrun} opponents, they provoke attacks of opportunity if they are knocked {rule/prone} by your overrun.  ",
+			"**Benefit:** You receive a +2 bonus on checks made to overrun a foe. This bonus stacks with the bonus granted by Improved Overrun. Whenever you {rule/overrun} opponents, they provoke attacks of opportunity if they are knocked {rule/prone} by your overrun.  ",
 			"**Normal:** Creatures knocked prone by your overrun do not provoke an attack of opportunity.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -309,7 +309,7 @@
 			"",
 			"Your attacks penetrate the defenses of most foes.  ",
 			"**Prerequisites:** {feat/Penetrating Strike}, {feat/Weapon Focus}, 16th-level fighter.  ",
-			"**Benefit:** Your attacks with weapons selected with {feat/Weapon Focus} ignore up to 10 points of damage reduction. This amount is reduced to 5 points for damage reduction without a type (such as DR 10/-).",
+			"**Benefit:** Your attacks with weapons selected with Weapon Focus ignore up to 10 points of damage reduction. This amount is reduced to 5 points for damage reduction without a type (such as DR 10/-).",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/121}",
@@ -340,7 +340,7 @@
 			"",
 			"Your mentor begins to look upon you as an equal and can even answer your call.  ",
 			"**Prerequisites:** {feat/Improved Planar Mentor}, {feat/Planar Mentor}, character level 13th.  ",
-			"**Benefit:** You can benefit from your {feat/Planar Mentor} feat one additional time per day. You add the following to the list of spell-like abilities you can cast using Improved Planar Mentor for their respective alignments, each of which affects only a single target within 30 feet: {spell/blasphemy} (evil), {spell/dictum} (lawful), {spell/holy word} (good), {spell/slay living} (neutral), and {spell/word of chaos} (chaotic).",
+			"**Benefit:** You can benefit from your Planar Mentor feat one additional time per day. You add the following to the list of spell-like abilities you can cast using Improved Planar Mentor for their respective alignments, each of which affects only a single target within 30 feet: {spell/blasphemy} (evil), {spell/dictum} (lawful), {spell/holy word} (good), {spell/slay living} (neutral), and {spell/word of chaos} (chaotic).",
 			"",
 			"Once per week you can cast {spell/greater planar ally} as a spell-like ability, but only to conjure your planar mentor. Your mentor requires only half the normal payment for its services."
 		]
@@ -397,7 +397,7 @@
 			"",
 			"When you reposition foes, they are left vulnerable to the attacks of your allies.  ",
 			"**Prerequisites:** Int 13, {feat/Combat Expertise}, {feat/Improved Reposition}, base attack bonus +6.  ",
-			"**Benefit:** You receive a +2 bonus on checks made to {rule/reposition} a foe. This bonus stacks with the bonus granted by {feat/Improved Reposition}. Whenever you reposition a foe, his movement provokes attacks of opportunity from all of your allies (but not you).  ",
+			"**Benefit:** You receive a +2 bonus on checks made to {rule/reposition} a foe. This bonus stacks with the bonus granted by Improved Reposition. Whenever you reposition a foe, his movement provokes attacks of opportunity from all of your allies (but not you).  ",
 			"**Normal:** Creatures moved by reposition do not provoke attacks of opportunity.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
@@ -518,7 +518,7 @@
 			"{SOURCE PRPG Core Rulebook/125}",
 			"",
 			"Choose a school of magic to which you have already applied the {feat/Spell Focus} feat. Any spells you cast of this school are very hard to resist.  ",
-			"**Prerequisites:** {feat/Spell Focus}.  ",
+			"**Prerequisites:** Spell Focus.  ",
 			"**Benefit:** Add +1 to the Difficulty Class for all saving throws against spells from the school of magic you select. This bonus stacks with the bonus from Spell Focus.  ",
 			"**Special:** You can gain this feat multiple times. Its effects do not stack. Each time you take the feat, it applies to a new school to which you already have applied the Spell Focus feat."
 		]
@@ -559,7 +559,7 @@
 			"",
 			"Your ability to defeat magic has grown stronger with use.  ",
 			"**Prerequisites:** Cha 13, character level 5th, {race/ghoran}, spelleater racial trait.  ",
-			"**Benefit:** Once per week, instead of casting {spell/dispel magic} as a spell-like ability, you can cast {spell/greater dispel magic}. This exhausts your daily use of {spell/dispel magic} granted by the spelleater racial trait. In all other respects, this ability is treated as the spelleater racial trait."
+			"**Benefit:** Once per week, instead of casting {spell/dispel magic} as a spell-like ability, you can cast {spell/greater dispel magic}. This exhausts your daily use of *dispel magic* granted by the spelleater racial trait. In all other respects, this ability is treated as the spelleater racial trait."
 		]
 	},
 	"greater_spring_attack": {
@@ -608,7 +608,7 @@
 			"",
 			"You can modify your spell's superficial qualities in a greater variety of ways.  ",
 			"**Prerequisites:** {feat/Stylized Spell}, Bluff 10 ranks, Spellcraft 10 ranks.  ",
-			"**Benefit:** When you modify a spell with Stylized Spell, you can apply one of the stylized magic options (see the {feat/Stylized Spell} metamagic feat) without reducing the DC of the check to identify the spell. In addition, you can apply up to two additional stylized magic options, reducing the DC of checks to identify the spell by 5 per option as normal."
+			"**Benefit:** When you modify a spell with Stylized Spell, you can apply one of the stylized magic options (see the Stylized Spell metamagic feat) without reducing the DC of the check to identify the spell. In addition, you can apply up to two additional stylized magic options, reducing the DC of checks to identify the spell by 5 per option as normal."
 		]
 	},
 	"greater_subjective_slam": {
@@ -790,7 +790,7 @@
 			"",
 			"In animal form, your natural attacks are as deadly as the weapons you were holding.  ",
 			"**Prerequisites:** {feat/Improved Weapon Shift}, {feat/Weapon Shift}, base attack bonus +8, wild shape class feature.  ",
-			"**Benefit:** When you apply a melee weapon's damage type and properties to your natural attacks using the {feat/Weapon Shift} feat, your natural attacks also gain an enhancement bonus on attack and damage rolls equal to the enhancement bonus (if any) of the weapon."
+			"**Benefit:** When you apply a melee weapon's damage type and properties to your natural attacks using the Weapon Shift feat, your natural attacks also gain an enhancement bonus on attack and damage rolls equal to the enhancement bonus (if any) of the weapon."
 		]
 	},
 	"greater_weapon_specialization": {
@@ -942,7 +942,7 @@
 			"",
 			"You recruit a professional groom to care for your mount.  ",
 			"**Prerequisites:** Character level 4th.  ",
-			"**Benefit:** This feat is similar to the {feat/Leadership} feat, with several exceptions to note. You can attract only a 1st-level cohort (referred to hereafter as a groom) with this feat, and cannot recruit followers of his own. You determine your Leadership score according to the rules presented in the {feat/Leadership} feat, but your groom is always at least 3 levels lower than your level.",
+			"**Benefit:** This feat is similar to the {feat/Leadership} feat, with several exceptions to note. You can attract only a 1st-level cohort (referred to hereafter as a groom) with this feat, and cannot recruit followers of his own. You determine your Leadership score according to the rules presented in the Leadership feat, but your groom is always at least 3 levels lower than your level.",
 			"",
 			"A groom can take levels in bard, fighter, or ranger. A groom can't multiclass, though he can take any archetype for which he qualifies.",
 			"",
@@ -950,7 +950,7 @@
 			"",
 			"If a groom gains enough XP to bring him to 2 levels lower than your level, he doesn't gain the new level until you gain your next level; until you advance, his XP total remains 1 less than the amount needed to attain the next level.",
 			"",
-			"If you release your groom from service or otherwise lose your groom, you can recruit a new one. At 7th level, you can swap this feat for the {feat/Leadership} feat."
+			"If you release your groom from service or otherwise lose your groom, you can recruit a new one. At 7th level, you can swap this feat for the Leadership feat."
 		]
 	},
 	"ground_grabber": {
@@ -1063,7 +1063,7 @@
 			"",
 			"#### Ritual",
 			"",
-			"**Requirements** Grow Plant Creature, Knowledge (nature) 12 ranks, {spell/entangle}, {spell/summon nature's ally VII}; **Skill Check** Knowledge (nature) DC 32"
+			"**Requirements** Grow Plant Creature, Knowledge (nature) 12 ranks, *entangle,* {spell/summon nature's ally VII}; **Skill Check** Knowledge (nature) DC 32"
 		]
 	},
 	"growth_in_ash": {
@@ -1267,7 +1267,7 @@
 			"",
 			"You can spin and juggle a small firearm, making it difficult to predict where you will shoot.  ",
 			"**Prerequisites:** {feat/Amateur Gunslinger} feat or grit class feature, {feat/Dazzling Display}, {feat/Weapon Focus}.  ",
-			"**Benefit:** You can spend 1 grit point to make a {rule/feint} attempt using a one-handed firearm for which you have {feat/Weapon Focus} (instead of a melee weapon). The target of this feint must be within 30 feet of you and be able to see you.",
+			"**Benefit:** You can spend 1 grit point to make a {rule/feint} attempt using a one-handed firearm for which you have Weapon Focus (instead of a melee weapon). The target of this feint must be within 30 feet of you and be able to see you.",
 			"",
 			"If you have the {feat/Quick Draw} feat, you can holster a one-handed firearm as a free action as long as you have at least 1 grit point."
 		]
@@ -1827,7 +1827,7 @@
 			"",
 			"Like the daring Heaven's Step Offensive championed by Grand Prince Gennaris III of Taldor, you confidently take the fight to your enemy and strike an unexpected blow.  ",
 			"**Prerequisites:** Dex 15, {feat/Following Step}, {feat/Step Up}, {feat/Step Up and Strike}, base attack bonus +10.  ",
-			"**Benefit:** When you make an attack using {feat/Step Up and Strike}, you can also make an extra attack with your offhand weapon using your highest base attack bonus. Both attacks take the normal penalties for {rule/two-weapon fighting}."
+			"**Benefit:** When you make an attack using Step Up and Strike, you can also make an extra attack with your offhand weapon using your highest base attack bonus. Both attacks take the normal penalties for {rule/two-weapon fighting}."
 		]
 	},
 	"heavy_gravity_acclimation": {
@@ -1948,7 +1948,7 @@
 			"{SOURCE Path of the Hellknight/62}",
 			"",
 			"Performing daily {rule/Hellknight>s} reckonings grants you special boons.  ",
-			"**Prerequisites:** Knowledge (planes) 3 ranks, must swear allegiance to a single {rule/Hellknight>s} order.  ",
+			"**Prerequisites:** Knowledge (planes) 3 ranks, must swear allegiance to a single Hellknight order.  ",
 			"**Benefit:** Upon taking this feat, you gain proficiency in all of your {ability/Hellknight order's} favored weapons. Additionally, by meditating and inflicting strenuous reckonings upon yourself, you unlock the power behind your order's doctrine. Each Hellknight order has its own unique reckoning - a trial of obedience and pain. When coupled with the necessary reflection and meditation, this reckoning takes 1 hour per day to perform. Once you have performed your order's reckoning, you gain the benefit of a special ability as indicated in the Reckoning entry for the Hellknight order to which you've sworn allegiance. If you have at least 12 Hit Dice, you also gain the first boon granted by the Hellknight order. If you have at least 16 Hit Dice, you also gain the Hellknight order's second boon. If you have 20 Hit Dice or more, you also gain the Hellknight order's third boon. Unless a specific duration or number of uses per day is listed in a boon's description, the boon's effects are constant.",
 			"",
 			"If you ever fail to perform a daily reckoning, you lose all access to the benefits and boons granted by this feat until you next perform the reckoning.",
@@ -1974,7 +1974,7 @@
 			"",
 			"You equate pain with discipline and can inflict damage upon yourself to unlock greater power.  ",
 			"**Prerequisites:** {feat/Hellknight Obedience}, Knowledge (planes) 3 ranks, must swear allegiance to a single {rule/Hellknight>s} order.  ",
-			"**Benefit:** During your hour-long {rule/Hellknight>s} reckoning, if you choose to deal lethal damage to yourself, you reach a state of fantastic focus. Once during the next 24 hours, you can draw upon this focus to gain the benefits of any one of the following effects. To activate the ability, you must deal 1 point of lethal damage to yourself as a swift action (unless otherwise noted). Members of the {hkorder/Order of the Nail} often install a sharp barb within their armor that deals this damage when the wearer is subject to a critical hit; if you're struck by a critical hit while wearing such armor, using this ability doesn't require a swift action.",
+			"**Benefit:** During your hour-long Hellknight reckoning, if you choose to deal lethal damage to yourself, you reach a state of fantastic focus. Once during the next 24 hours, you can draw upon this focus to gain the benefits of any one of the following effects. To activate the ability, you must deal 1 point of lethal damage to yourself as a swift action (unless otherwise noted). Members of the {hkorder/Order of the Nail} often install a sharp barb within their armor that deals this damage when the wearer is subject to a critical hit; if you're struck by a critical hit while wearing such armor, using this ability doesn't require a swift action.",
 			"",
 			">@HL[Fervor:] The DCs to resist the effects of the boons granted by your Hellknight Obedience feat increase by 1 for 1 hour.",
 			">",

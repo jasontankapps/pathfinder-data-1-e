@@ -2339,7 +2339,7 @@
 		"description": [
 			"{SOURCE Pathfinder Unchained/151}",
 			"",
-			"If esoteric components are mandatory, casting any spell that requires a material component requires expending the proper amount of esoteric material components instead. A 6th-level wizard casting {spell/fireball} must expend 18 gp worth of entropic resin, and can expend 36 gp worth to make the spell more powerful with its greater component effect. If he doesn't have enough components, he can't cast the spell. However, if he had 15 gp worth of entropic resin, he could cast the {spell/fireball} at caster level 5th. A spell that doesn't require material components can be cast normally, but the caster can choose to expend esoteric components for the greater component effect.",
+			"If esoteric components are mandatory, casting any spell that requires a material component requires expending the proper amount of esoteric material components instead. A 6th-level wizard casting {spell/fireball} must expend 18 gp worth of entropic resin, and can expend 36 gp worth to make the spell more powerful with its greater component effect. If he doesn't have enough components, he can't cast the spell. However, if he had 15 gp worth of entropic resin, he could cast the *fireball* at caster level 5th. A spell that doesn't require material components can be cast normally, but the caster can choose to expend esoteric components for the greater component effect.",
 			"",
 			"Under this system, a spell component pouch includes 1 gp worth of each common component, plus an additional 1 gp worth of a common type of the buyer's choice. Requiring esoteric components significantly impacts a spellcaster's treasure acquisition, so the mandatory components variant should be used with caution, especially if the campaign already uses variants that make spellcasting less powerful (such as {rule/limited magic}. Include esoteric components in most treasure hoards and in NPC spellcasters' gear.",
 			"",
@@ -2501,7 +2501,7 @@
 		"description": [
 			"{SOURCE Pathfinder Unchained/154}",
 			"",
-			"Scrolls, wands, and magic items can be crafted using esoteric components. This increases the cost of the item accordingly. If a wizard expends 56 gp worth of prismatic sand while creating a {spell/scroll of |black tentacles}, that spell gains the greater component effect when cast from the scroll. For a staff or wand, the creator must make the same decision for all castings of a particular spell and pay the full price for each. He can't make a wand with 30 charges of {spell/cure light wounds} and 20 charges of {spell/cure light wounds} with the greater component effect, but can spend an additional 100 gp to give all the charges the greater component effect (for a CL 1st wand). In a game that uses mandatory components, magic item crafting becomes much more expensive since each casting of the spell requires spending components. A {spell/wand of |burning hands} would cost a minimum of 800 gp (750 gp + 1 gp per charge)."
+			"Scrolls, wands, and magic items can be crafted using esoteric components. This increases the cost of the item accordingly. If a wizard expends 56 gp worth of prismatic sand while creating a {spell/scroll of |black tentacles}, that spell gains the greater component effect when cast from the scroll. For a staff or wand, the creator must make the same decision for all castings of a particular spell and pay the full price for each. He can't make a wand with 30 charges of {spell/cure light wounds} and 20 charges of *cure light wounds* with the greater component effect, but can spend an additional 100 gp to give all the charges the greater component effect (for a CL 1st wand). In a game that uses mandatory components, magic item crafting becomes much more expensive since each casting of the spell requires spending components. A {spell/wand of |burning hands} would cost a minimum of 800 gp (750 gp + 1 gp per charge)."
 		],
 		"parent_topics": [
 			"optional_magic_changes",
@@ -2787,7 +2787,7 @@
 			"",
 			"When using a {main/feats_<metamagic/ feat} to modify a spell cast from a spell pool, the caster is treated as if he were a spontaneous caster (increasing the casting time to a full-round action if applicable). The spell must still fall under the level he can cast with his pool. Otherwise, he must still expend one of his spell slots to prepare it.",
 			"",
-			"For instance, our example 13th-level necromancer could cast an {feat/enlarged} {spell/fireball} as a full-round action using his spell pool, but to cast an {feat/empowered} {spell/fireball}, he would have to expend a 5th-level spell slot to prepare it, since 5th-level spells aren't part of his pool."
+			"For instance, our example 13th-level necromancer could cast an {feat/enlarged} {spell/fireball} as a full-round action using his spell pool, but to cast an {feat/empowered} *fireball,* he would have to expend a 5th-level spell slot to prepare it, since 5th-level spells aren't part of his pool."
 		],
 		"parent_topics": [
 			"optional_magic_changes",

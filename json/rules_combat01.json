@@ -3066,7 +3066,7 @@
 		"subtitle": "Grappled, Pinned",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"@HL[Grappled:] A grappled creature is restrained by a creature, trap, or effect. Grappled creatures cannot move and take a -4 penalty to Dexterity. A grappled creature takes a -2 penalty on all attack rolls and combat maneuver checks, except those made to grapple or escape a grapple. In addition, grappled creatures can take no action that requires two hands to perform. A grappled character who attempts to cast a spell or use a spell-like ability must make a {rule/concentration} check (DC 10 + grappler's CMB + spell level, see {rule/Concentration}), or lose the spell. Grappled creatures cannot make attacks of opportunity.",
+			"@HL[Grappled:] A grappled creature is restrained by a creature, trap, or effect. Grappled creatures cannot move and take a -4 penalty to Dexterity. A grappled creature takes a -2 penalty on all attack rolls and combat maneuver checks, except those made to grapple or escape a grapple. In addition, grappled creatures can take no action that requires two hands to perform. A grappled character who attempts to cast a spell or use a spell-like ability must make a concentration check (DC 10 + grappler's CMB + spell level, see {rule/Concentration}), or lose the spell. Grappled creatures cannot make attacks of opportunity.",
 			"",
 			"A grappled creature cannot use Stealth to hide from the creature grappling it, even if a special ability, such as hide in plain sight, would normally allow it to do so. If a grappled creature becomes invisible, through a spell or other ability, it gains a +2 circumstance bonus on its CMD to avoid being grappled, but receives no other benefit.",
 			"",
@@ -3956,7 +3956,7 @@
 			"",
 			"A creature with temporary negative levels receives a new saving throw to remove the negative level each day. The DC of this save is the same as the effect that caused the negative levels.",
 			"",
-			"Some abilities and spells (such as {spell/raise dead}) bestow permanent level drain on a creature. These are treated just like temporary negative levels, but they do not allow a new save each day to remove them. Level drain can be removed through spells like {spell/restoration}. Permanent negative levels remain after a dead creature is restored to life. A creature whose permanent negative levels equal its Hit Dice cannot be brought back to life through spells like {spell/raise dead} and {spell/resurrection} without also receiving a restoration spell, cast the round after it is restored to life."
+			"Some abilities and spells (such as {spell/raise dead}) bestow permanent level drain on a creature. These are treated just like temporary negative levels, but they do not allow a new save each day to remove them. Level drain can be removed through spells like {spell/restoration}. Permanent negative levels remain after a dead creature is restored to life. A creature whose permanent negative levels equal its Hit Dice cannot be brought back to life through spells like *raise dead* and {spell/resurrection} without also receiving a restoration spell, cast the round after it is restored to life."
 		],
 		"parent_topics": [
 			"combat",

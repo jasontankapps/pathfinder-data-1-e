@@ -1224,7 +1224,7 @@
 			"",
 			">**Aura of Heroism (Su):** At 8th level, you can emit a 30-foot aura of heroism for a number of rounds per day equal to your cleric level. Using this ability is a swift action. Allies in the area are treated as if they were under the effects of {spell/heroism}. These rounds do not need to be consecutive.",
 			"",
-			"**Replacement Domain Spells:** 3rd-{spell/heroism}, 6th-{spell/greater heroism}.",
+			"**Replacement Domain Spells:** 3rd-*heroism,* 6th-{spell/greater heroism}.",
 			"",
 			"::h3[Honor Subdomain]{jl}",
 			"",

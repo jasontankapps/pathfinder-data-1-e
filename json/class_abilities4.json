@@ -199,7 +199,7 @@
 					[ "{arcana/Arcane Deed}", [ 3, "3rd" ], "Learn a swashbuckler deed." ],
 					[ "{arcana/Arcane Edge}", [ 9, "9th" ], "Add bleed damage to an attack." ],
 					[ "{arcana/Arcane Redoubt}", [ 3, "3rd" ], "Add your shield bonus as a touch AC bonus." ],
-					[ "{arcana/Arcane Redoubt, Greater}", [ 12, "12th" ], "Gain evasion when you use *arcane redoubt*." ],
+					[ "{arcana/Arcane Redoubt, Greater}", [ 12, "12th" ], "Gain evasion when you use *arcane redoubt.*" ],
 					[ "{arcana/Arcane Scent}", [ 3, "3rd" ], "Gain scent vs spellcasting creatures." ],
 					[ "{arcana/Bane Blade}", [ 15, "15th" ], "Add *bane* to a weapon you wield." ],
 					[ "{arcana/Book-Bound}", [ 3, "3rd" ], "Bonus to concentration while holding your spellbook." ],
@@ -229,7 +229,7 @@
 					[ "{arcana/Planar Hunter}", [ 9, "9th" ], "You can add the planar and phase locking special abilities to your weapons." ],
 					[ "{arcana/Pool Ray}", [ 3, "3rd" ], "Imbue your weapon with elemental power." ],
 					[ "{arcana/Pool Strike}", [ 3, "3rd" ], "Imbue your hand with elemental power." ],
-					[ "{arcana/Pool Strike, Arcing}", [ 12, "12th" ], "Hit more creatures with *pool strike*." ],
+					[ "{arcana/Pool Strike, Arcing}", [ 12, "12th" ], "Hit more creatures with *pool strike.*" ],
 					[ "{arcana/Pool Strike, Clinging}", [ 9, "9th" ], "Your *pool strike* hits again the next round." ],
 					[ "{arcana/Pool Strike, Thunderous}", [ 6, "6th" ], "Your *pool strike* causes thunder damage and can deafen." ],
 					[ "{arcana/Prescient Attack}", [ 6, "6th" ], "A creature you hit becomes easier to hit again." ],
@@ -254,7 +254,7 @@
 					[ "{arcana/Throwing Magus}", [ 3, "3rd" ], "Your weapon can gain the returning and throwing abilities, and you regain pool points when you hit." ],
 					[ "{arcana/Vision-Clouding Strike}", [ 9, "9th" ], "Your weapon can cloud the vision of your targets." ],
 					[ "{arcana/Wand Mastery}", [ 3, "3rd" ], "Use your intelligence modifier for the DCs of wands you use." ],
-					[ "{arcana/Wand Wielder}", [ 3, "3rd" ], "Use a wand or staff instead of casting a spell in *spell combat*." ]
+					[ "{arcana/Wand Wielder}", [ 3, "3rd" ], "Use a wand or staff instead of casting a spell in *spell combat.*" ]
 				],
 				"initialColumn": 0
 			}

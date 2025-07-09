@@ -68,7 +68,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {feat/Improved Unarmed Strike}, {spell/stone fist}; **Cost** 2,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, Improved Unarmed Strike, {spell/stone fist}; **Cost** 2,000 gp"
 		]
 	},
 	"talisman_of_beast_training": {
@@ -166,7 +166,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/bestow weapon proficiency}, {spell/comprehend languages}, {spell/dancing lights}, {spell/darkness}, {spell/faerie fire}, {spell/misdirection}; **Cost** 6,075 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/bestow weapon proficiency}, {spell/comprehend languages}, *dancing lights, darkness, faerie fire,* {spell/misdirection}; **Cost** 6,075 gp"
 		]
 	},
 	"thundering_collar": {
@@ -776,7 +776,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, Alignment Channel, {spell/detect chaos}, [evil](spell/detect_evil), [good](spell/detect_good), and [law](spell/detect_law), {spell/protection from chaos}, [evil](spell/protection_from_evil), [good](spell/protection_from_good), and [law](spell/protection_from_law); **Cost** 4,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, Alignment Channel, *detect chaos,* [evil](spell/detect_evil), [good](spell/detect_good), and [law](spell/detect_law), {spell/protection from chaos}, [evil](spell/protection_from_evil), [good](spell/protection_from_good), and [law](spell/protection_from_law); **Cost** 4,000 gp"
 		]
 	},
 	"choker_of_the_queen_bee": {
@@ -872,7 +872,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/animate dead}, {spell/daylight}, {spell/see invisibility}; **Cost** 4,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/animate dead}, *daylight, see invisibility;* **Cost** 4,000 gp"
 		]
 	},
 	"amulet_of_the_spirits_heavens": {
@@ -889,23 +889,23 @@
 			"",
 			"**Battle:** This amulet is shaped like a tiny dagger that hangs point down. Once per day as a swift action, the wearer can activate a battle ward, which grants her a +3 deflection bonus to AC. Each time she is attacked, the deflection bonus is reduced by 1 (whether the attack succeeds or not) until the ward fades away when the bonus reaches +0. In addition, once per day as a swift action the wearer can curse a creature within 30 feet, making it take more damage from bleed effects and causing its wounds to heal at a slower rate. When the cursed creature takes bleed damage, it takes 1 additional point of bleed damage (even if the bleed is ability damage). Furthermore, when the target is subject to an effect that would restore its hit points, that effect restores only half the normal amount of hit points. This curse lasts for 8 rounds. Moderate necromancy; **CL** 8th; {feat/Craft Wondrous Item}, bestow curse, entropic shield.",
 			"",
-			"**Bones:** This amulet is a necklace made of petrified bones. Once per day as a swift action, the wearer can activate a bone ward, which causes a group of flying bones to encircle her, granting her a +2 deflection bonus to AC for 8 rounds. In addition, once per day as a swift action the wearer can target a creature within 30 feet, causing it to become frightened for 1 round (Will DC 13 negates). Moderate necromancy; **CL** 8th; {feat/Craft Wondrous Item}, entropic shield, scare.",
+			"**Bones:** This amulet is a necklace made of petrified bones. Once per day as a swift action, the wearer can activate a bone ward, which causes a group of flying bones to encircle her, granting her a +2 deflection bonus to AC for 8 rounds. In addition, once per day as a swift action the wearer can target a creature within 30 feet, causing it to become frightened for 1 round (Will DC 13 negates). Moderate necromancy; **CL** 8th; Craft Wondrous Item, entropic shield, scare.",
 			"",
-			"**Flame:** This amulet is a single fire opal hanging from a chain of brass. Twice per day as a swift action, the wearer can activate a fire ward. The next time she is struck with a melee weapon, the creature making the attack takes 1d6+4 points of fire damage. The ward lasts for 1 minute, after which it fades away if not expended. In addition, twice per day as a swift action the wearer can cause a creature within 30 feet to become vulnerable to fire until the end of the wearer's turn. Whenever the creature takes fire damage, it takes half again as much damage (+50%). If the creature is already vulnerable to fire, this hex has no effect. Fire immunity and resistances apply as normal, and any saving throw allowed by the effect that caused the damage reduces it as normal. Moderate evocation; **CL** 8th; {feat/Craft Wondrous Item}, burning hands.",
+			"**Flame:** This amulet is a single fire opal hanging from a chain of brass. Twice per day as a swift action, the wearer can activate a fire ward. The next time she is struck with a melee weapon, the creature making the attack takes 1d6+4 points of fire damage. The ward lasts for 1 minute, after which it fades away if not expended. In addition, twice per day as a swift action the wearer can cause a creature within 30 feet to become vulnerable to fire until the end of the wearer's turn. Whenever the creature takes fire damage, it takes half again as much damage (+50%). If the creature is already vulnerable to fire, this hex has no effect. Fire immunity and resistances apply as normal, and any saving throw allowed by the effect that caused the damage reduces it as normal. Moderate evocation; **CL** 8th; Craft Wondrous Item, burning hands.",
 			"",
-			"**Heavens:** This black cat's eye hanging from a silver chain reflects any light that hits its surface back as a six-pointed star. Whenever the wearer can see the open sky at night, she can determine her precise location, and can add her Wisdom modifier to her Charisma modifier on all Charisma checks and Charisma-based skill checks. In addition, as a standard action the wearer can cause one enemy within 30 feet to treat the light level as two steps lower: bright light becomes dim light, normal light becomes darkness, and areas of dim light and darkness become supernaturally dark (like darkness, but even creatures with darkvision can't see). This effect lasts for 8 rounds (Will DC 13 negates). This action doesn't provoke attacks of opportunity. Moderate divination; **CL** 8th; {feat/Craft Wondrous Item}, darkness, locate creature.",
+			"**Heavens:** This black cat's eye hanging from a silver chain reflects any light that hits its surface back as a six-pointed star. Whenever the wearer can see the open sky at night, she can determine her precise location, and can add her Wisdom modifier to her Charisma modifier on all Charisma checks and Charisma-based skill checks. In addition, as a standard action the wearer can cause one enemy within 30 feet to treat the light level as two steps lower: bright light becomes dim light, normal light becomes darkness, and areas of dim light and darkness become supernaturally dark (like darkness, but even creatures with darkvision can't see). This effect lasts for 8 rounds (Will DC 13 negates). This action doesn't provoke attacks of opportunity. Moderate divination; **CL** 8th; Craft Wondrous Item, darkness, locate creature.",
 			"",
-			"**Life:** This amulet is formed from a petrified robin's egg strung on a simple thong of woven hair. The wearer becomes more receptive to healing magic, regaining an additional 1d6 hit points from any cure spell cast upon her. In addition, once per day as a standard action, the wearer can cut off any single creature within 30 feet from all forms of magical healing and effects that remove conditions. A DC 13 Will saving throw negates this effect, which otherwise lasts for 1 minute. Moderate conjuration and necromancy; **CL** 10th; {feat/Craft Wondrous Item}, cure light wounds, inflict moderate wounds.",
+			"**Life:** This amulet is formed from a petrified robin's egg strung on a simple thong of woven hair. The wearer becomes more receptive to healing magic, regaining an additional 1d6 hit points from any cure spell cast upon her. In addition, once per day as a standard action, the wearer can cut off any single creature within 30 feet from all forms of magical healing and effects that remove conditions. A DC 13 Will saving throw negates this effect, which otherwise lasts for 1 minute. Moderate conjuration and necromancy; **CL** 10th; Craft Wondrous Item, cure light wounds, inflict moderate wounds.",
 			"",
 			"**Stone:** This rounded river rock hangs from a copper chain. Once per day as a swift action, the wearer can activate a ward of stone, granting herself DR 5/adamantine against the next two melee attacks against her. This ward lasts for 1 minute, after which it fades away if not expended. In addition, once per day as a swift action the wearer can cause a creature within 30 feet to become slightly magnetic; this effect lasts for 2 rounds. Whenever the creature is attacked by a melee or ranged weapon made primarily of metal, it takes a -4 penalty to AC. Moderate abjuration; **CL** 8th; {feat/Craft Wondrous Item}, heat metal, stoneskin.",
 			"",
-			"**Waves:** This amulet is a small conch hanging from a cord of woven seaweed. Once per day as a swift action, the wearer can activate a ward of mist, granting herself {rule/concealment} as the {spell/blur} spell. The mist dissipates after it causes two attacks to miss because of concealment or after 1 minute, whichever comes first. In addition, as a swift action once per day the wearer can cause one creature within 30 feet to become more susceptible to the sapping powers of cold for 1 minute. When a creature takes cold damage while under this effect, it is entangled for 1 round. If the creature takes cold damage while already entangled by this effect, the duration of the entangled condition increases by 1 round. Moderate illusion; **CL** 8th; {feat/Craft Wondrous Item}, blur, chill touch.",
+			"**Waves:** This amulet is a small conch hanging from a cord of woven seaweed. Once per day as a swift action, the wearer can activate a ward of mist, granting herself {rule/concealment} as the {spell/blur} spell. The mist dissipates after it causes two attacks to miss because of concealment or after 1 minute, whichever comes first. In addition, as a swift action once per day the wearer can cause one creature within 30 feet to become more susceptible to the sapping powers of cold for 1 minute. When a creature takes cold damage while under this effect, it is entangled for 1 round. If the creature takes cold damage while already entangled by this effect, the duration of the entangled condition increases by 1 round. Moderate illusion; **CL** 8th; Craft Wondrous Item, blur, chill touch.",
 			"",
-			"**Wind:** This feather hangs from a chain of slender twigs reminiscent of a bird's nest. Once per day as a swift action, the wearer can activate a ward of wind that lasts for 1 minute. When she is attacked with an arrow, ray, or other ranged attack that requires an attack roll, that attack roll has a 20% miss chance. In addition, once per day as a swift action the wearer can cause a creature within 30 feet to spark and shimmer with electrical energy. While this does not harm the creature, it does cause the creature to emit light like a torch, preventing it from gaining any benefit from {rule/concealment} or {spell/invisibility}. Furthermore, while the aura lasts, whenever the target is hit with a metal melee weapon, it also takes 5 points of electricity damage. The sparking aura lasts 4 rounds. Moderate abjuration and evocation; **CL** 8th; {feat/Craft Wondrous Item}, entropic shield, shocking grasp.",
+			"**Wind:** This feather hangs from a chain of slender twigs reminiscent of a bird's nest. Once per day as a swift action, the wearer can activate a ward of wind that lasts for 1 minute. When she is attacked with an arrow, ray, or other ranged attack that requires an attack roll, that attack roll has a 20% miss chance. In addition, once per day as a swift action the wearer can cause a creature within 30 feet to spark and shimmer with electrical energy. While this does not harm the creature, it does cause the creature to emit light like a torch, preventing it from gaining any benefit from concealment or {spell/invisibility}. Furthermore, while the aura lasts, whenever the target is hit with a metal melee weapon, it also takes 5 points of electricity damage. The sparking aura lasts 4 rounds. Moderate abjuration and evocation; **CL** 8th; Craft Wondrous Item, entropic shield, shocking grasp.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, additional spells (see text), creator must be a shaman with the appropriate spirit; **Cost** 6,000 gp (Battle), 6,000 gp (Bones), 5,000 gp (Flame), 4,000 gp (Heavens), 6,000 gp (Life), 5,000 gp (Stone), 5,000 gp (Waves), 4,000 gp (Wind)"
+			"**Requirements** Craft Wondrous Item, additional spells (see text), creator must be a shaman with the appropriate spirit; **Cost** 6,000 gp (Battle), 6,000 gp (Bones), 5,000 gp (Flame), 4,000 gp (Heavens), 6,000 gp (Life), 5,000 gp (Stone), 5,000 gp (Waves), 4,000 gp (Wind)"
 		]
 	},
 	"amulet_of_the_spirits_wind": {
@@ -1320,13 +1320,13 @@
 			"",
 			"**Aberrant:** This chunk of pitch-black onyx is suspended on a chain of silver. Strange whorls and tentacle-like shapes are etched upon its surface. The wearer gains a 25% chance to negate any critical hit or sneak attack (as the light fortification armor special ability). When making a melee touch attack, the wearer's reach increases by 5 feet. Moderate illusion; **CL** 9th; {feat/Craft Wondrous Item}, blur, enlarge person.",
 			"",
-			"**Abyssal:** This amulet is a chunk of bright red garnet in which fire seems to dance when light plays across its surface. It hangs from a chain of brass. The wearer gains electricity resistance 5 and a +2 bonus on saving throws against poison. In addition, the wearer can grow claws as a free action. The claws are treated as natural weapons, and allows the wearer to make two claw attacks as a full attack action using his full base attack bonus. The claws deal 1d4 points of damage each (1d3 if the wearer is Small) plus the wearer's Strength modifier. Moderate abjuration; **CL** 9th; {feat/Craft Wondrous Item}, delay poison, magic fang, resist energy.",
+			"**Abyssal:** This amulet is a chunk of bright red garnet in which fire seems to dance when light plays across its surface. It hangs from a chain of brass. The wearer gains electricity resistance 5 and a +2 bonus on saving throws against poison. In addition, the wearer can grow claws as a free action. The claws are treated as natural weapons, and allows the wearer to make two claw attacks as a full attack action using his full base attack bonus. The claws deal 1d4 points of damage each (1d3 if the wearer is Small) plus the wearer's Strength modifier. Moderate abjuration; **CL** 9th; Craft Wondrous Item, delay poison, magic fang, resist energy.",
 			"",
-			"**Accursed:** This swirling green malachite hangs from a chain of oxidized copper. Sinister, unblinking eyes are etched upon its surface. The wearer gains a +2 bonus on saving throws against charm, cold, fear, fire, and sleep effects. Three times per day as a standard action, the wearer can fix his gaze on any one creature within 60 feet. The target becomes staggered for 4 rounds unless it succeeds at a Will saving throw (DC 18). Only one target can be affected by the wearer's gaze at a time; if the wearer attempts to stagger a new opponent, the previous target immediately recovers whether the new attempt is successful or not. Moderate necromancy; **CL** 9th; {feat/Craft Wondrous Item}, bestow curse, resist energy, resistance.",
+			"**Accursed:** This swirling green malachite hangs from a chain of oxidized copper. Sinister, unblinking eyes are etched upon its surface. The wearer gains a +2 bonus on saving throws against charm, cold, fear, fire, and sleep effects. Three times per day as a standard action, the wearer can fix his gaze on any one creature within 60 feet. The target becomes staggered for 4 rounds unless it succeeds at a Will saving throw (DC 18). Only one target can be affected by the wearer's gaze at a time; if the wearer attempts to stagger a new opponent, the previous target immediately recovers whether the new attempt is successful or not. Moderate necromancy; **CL** 9th; Craft Wondrous Item, bestow curse, resist energy, resistance.",
 			"",
-			"**Celestial:** This large, polished opal hangs from a chain of smoky gray steel. The wearer gains acid resistance 5 and cold resistance 5. Three times per day as a standard action, the wearer can unleash a ray of heavenly fire as a ranged touch attack, targeting any foe within 30 feet. Against evil creatures, the ray deals 1d4+4 points of damage. The damage is divine and not subject to energy resistance or immunity. The ray heals good creatures of 1d4+4 points of damage, but a good creature cannot benefit from the heavenly fire more than once per day. Neutral creatures are unaffected by the ray. Moderate abjuration and evocation; **CL** 9th; {feat/Craft Wondrous Item}, resist energy, scorching ray.",
+			"**Celestial:** This large, polished opal hangs from a chain of smoky gray steel. The wearer gains acid resistance 5 and cold resistance 5. Three times per day as a standard action, the wearer can unleash a ray of heavenly fire as a ranged touch attack, targeting any foe within 30 feet. Against evil creatures, the ray deals 1d4+4 points of damage. The damage is divine and not subject to energy resistance or immunity. The ray heals good creatures of 1d4+4 points of damage, but a good creature cannot benefit from the heavenly fire more than once per day. Neutral creatures are unaffected by the ray. Moderate abjuration and evocation; **CL** 9th; Craft Wondrous Item, resist energy, scorching ray.",
 			"",
-			"**Destined:** This chunk of uncut quartz hangs on a platinum chain. The wearer gains a +2 luck bonus on all saving throws and to AC during surprise rounds or any time he is otherwise unaware of an attack. Once per day, the wearer can reroll one attack roll, critical hit confirmation roll, or caster level check to overcome spell resistance. He must decide to use this ability after the first roll is made but before the result is revealed. He must take the second result, even if it's lower. Moderate enchantment; **CL** 7th; {feat/Craft Wondrous Item}, aid.",
+			"**Destined:** This chunk of uncut quartz hangs on a platinum chain. The wearer gains a +2 luck bonus on all saving throws and to AC during surprise rounds or any time he is otherwise unaware of an attack. Once per day, the wearer can reroll one attack roll, critical hit confirmation roll, or caster level check to overcome spell resistance. He must decide to use this ability after the first roll is made but before the result is revealed. He must take the second result, even if it's lower. Moderate enchantment; **CL** 7th; Craft Wondrous Item, aid.",
 			"",
 			"**Draconic:** This amulet comes in a variety of minerals depending on its powers, as shown in the table below, and is formed into the shape of a dragon's scale. The wearer gains resistance 5 against the energy type shown in the table, as well as a +1 natural armor bonus to AC. Once per day as a standard action, the wearer can produce a breath weapon. This breath weapon deals 4d6 points of damage of the energy type and shape listed (Reflex DC 13 half). Moderate abjuration and evocation; **CL** 9th; {feat/Craft Wondrous Item}, fire breath, resist energy.",
 			"",
@@ -1337,7 +1337,7 @@
 			"| 51-75 | Red Agate | Fire | 30-foot cone |",
 			"| 76-100 | Calcite | Cold | 30-foot cone |",
 			"",
-			"**Elemental:** This amulet comes in a variety of minerals depending on its powers, as shown in the table below. The wearer gains resistance 5 against the energy type shown in the table. Once per day as a standard action, the wearer can unleash a blast of elemental power. This 20-foot-radius burst deals 4d6 points of damage (Reflex DC 14 half) of the energy type listed. Creatures that fail their saves gain vulnerability to the energy type until the end of the wearer's next turn. Moderate evocation; **CL** 9th; {feat/Craft Wondrous Item}, elemental aura, resist energy.",
+			"**Elemental:** This amulet comes in a variety of minerals depending on its powers, as shown in the table below. The wearer gains resistance 5 against the energy type shown in the table. Once per day as a standard action, the wearer can unleash a blast of elemental power. This 20-foot-radius burst deals 4d6 points of damage (Reflex DC 14 half) of the energy type listed. Creatures that fail their saves gain vulnerability to the energy type until the end of the wearer's next turn. Moderate evocation; **CL** 9th; Craft Wondrous Item, elemental aura, resist energy.",
 			"",
 			"| d% | Material | Energy Type |",
 			"| --- | --- | --- |",
@@ -1348,13 +1348,13 @@
 			"",
 			"**Fey:** This drop of amber hangs on a silk cord. The wearer can turn invisible for 9 rounds per day (as greater invisibility). The rounds don't need to be consecutive. Three times per day, the wearer can make a melee touch attack to cause a creature to burst out laughing. That creature can take only a move action, but can defend itself normally. Once a creature has been affected by this laughter, it is immune to it for 24 hours. This is a mind-affecting effect. Moderate illusion; **CL** 9th; {feat/Craft Wondrous Item}, greater invisibility, hideous laughter.",
 			"",
-			"**Infernal:** This chunk of black marble hangs from a chain of brass. The wearer gains fire resistance 5 and a +2 bonus on saving throws against poison. Three times per day the wearer can make a melee touch attack to cause a creature to become shaken for 4 rounds. Multiple touches do not stack, but do add to the duration. Moderate abjuration; **CL** 9th; {feat/Craft Wondrous Item}, chill touch, resist energy.",
+			"**Infernal:** This chunk of black marble hangs from a chain of brass. The wearer gains fire resistance 5 and a +2 bonus on saving throws against poison. Three times per day the wearer can make a melee touch attack to cause a creature to become shaken for 4 rounds. Multiple touches do not stack, but do add to the duration. Moderate abjuration; **CL** 9th; Craft Wondrous Item, chill touch, resist energy.",
 			"",
-			"**Undead:** This chunk of petrified bone dangles from a silver chain. The wearer gains cold resistance 5 and DR 5/- against nonlethal damage. Three times per day the wearer can make a melee touch attack to cause a creature to become shaken for 4 rounds. Touching a creature that is already shaken causes it to become frightened for 1 round if it has fewer than 8 Hit Dice. Moderate abjuration; **CL** 9th; {feat/Craft Wondrous Item}, chill touch, resist energy.",
+			"**Undead:** This chunk of petrified bone dangles from a silver chain. The wearer gains cold resistance 5 and DR 5/- against nonlethal damage. Three times per day the wearer can make a melee touch attack to cause a creature to become shaken for 4 rounds. Touching a creature that is already shaken causes it to become frightened for 1 round if it has fewer than 8 Hit Dice. Moderate abjuration; **CL** 9th; Craft Wondrous Item, chill touch, resist energy.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, additional spells (see text), creator must be a sorcerer of the appropriate bloodline; **Cost** 7,500 gp (Aberrant), 6,000 gp (Abyssal), 6,000 gp (Accursed), 6,000 gp (Celestial), 5,000 gp (Destined), 6,000 gp (Draconic), 6,000 gp (Elemental), 5,000 gp (Fey), 6,000 gp (Infernal), 6,000 gp (Undead)"
+			"**Requirements** Craft Wondrous Item, additional spells (see text), creator must be a sorcerer of the appropriate bloodline; **Cost** 7,500 gp (Aberrant), 6,000 gp (Abyssal), 6,000 gp (Accursed), 6,000 gp (Celestial), 5,000 gp (Destined), 6,000 gp (Draconic), 6,000 gp (Elemental), 5,000 gp (Fey), 6,000 gp (Infernal), 6,000 gp (Undead)"
 		]
 	},
 	"amulet_of_the_blooded_fey": {
@@ -2416,7 +2416,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/modify memory}, {spell/nightmare}, {spell/soul bind}; **Cost** 14,400 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, *modify memory, nightmare,* {spell/soul bind}; **Cost** 14,400 gp"
 		]
 	},
 	"medallion_of_demonic_disruption": {
@@ -2469,7 +2469,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/dominate person}, {spell/modify memory}; **Cost** 17,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, *dominate person, modify memory;* **Cost** 17,000 gp"
 		]
 	},
 	"amulet_of_proof_against_detection_and_location": {
@@ -2589,7 +2589,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/calm emotions}, {spell/endure elements}, {spell/frigid touch}; **Cost** 21,600 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/calm emotions}, *endure elements, frigid touch;* **Cost** 21,600 gp"
 		]
 	},
 	"necklace_of_netted_stars": {
@@ -2656,7 +2656,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, Craft (leather) 4 ranks, {spell/alter self}, {spell/hold person}, {spell/transformation}, coven hex; **Cost** 23,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, Craft (leather) 4 ranks, {spell/alter self}, {spell/hold person}, *transformation,* coven hex; **Cost** 23,000 gp"
 		]
 	},
 	"iron_road": {
@@ -2677,7 +2677,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/gate}, {spell/greater planar binding}, ability to conjure and bind a greater devil; **Cost** 25,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, *gate,* {spell/greater planar binding}, ability to conjure and bind a greater devil; **Cost** 25,000 gp"
 		]
 	},
 	"star_cinder": {
@@ -2771,7 +2771,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/sending}, {spell/undetectable alignment}, {spell/wish}; **Cost** 35,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, *sending,* {spell/undetectable alignment}, {spell/wish}; **Cost** 35,000 gp"
 		]
 	},
 	"shrunken_head": {
@@ -3303,7 +3303,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/charm person}; **Cost** 75 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, *charm person;* **Cost** 75 gp"
 		]
 	},
 	"elixir_of_repression": {
@@ -3679,7 +3679,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/blindness>_deafness}, {spell/true seeing}; **Cost** 125 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/blindness>_deafness}, *true seeing;* **Cost** 125 gp"
 		]
 	},
 	"oil_of_silence": {
@@ -4109,19 +4109,19 @@
 			"",
 			"**Conformity:** A conquering brand of conformity can create a brand of conformity. Faint transmutation; **CL** 1st; {feat/Craft Wondrous Item}, brand, {spell/brand of conformity}.",
 			"",
-			"**Geas:** A conquering brand of geas can affect the recipient as per geas/quest. When the brand is used in this way, it takes 10 minutes for its tip to heat up. If not used to create a brand, the mark left by the branding iron is nonmagical and not tied to the spell effect, so removing it doesn't remove the spell effect. Moderate enchantment; **CL** 11th; {feat/Craft Wondrous Item}, brand, {spell/geas//quest}.",
+			"**Geas:** A conquering brand of geas can affect the recipient as per geas/quest. When the brand is used in this way, it takes 10 minutes for its tip to heat up. If not used to create a brand, the mark left by the branding iron is nonmagical and not tied to the spell effect, so removing it doesn't remove the spell effect. Moderate enchantment; **CL** 11th; Craft Wondrous Item, brand, {spell/geas//quest}.",
 			"",
-			"**Hobbling:** A conquering brand of hobbling can create a brand of hobbling. Faint transmutation; **CL** 4th; {feat/Craft Wondrous Item}, brand, {spell/brand of hobbling}.",
+			"**Hobbling:** A conquering brand of hobbling can create a brand of hobbling. Faint transmutation; **CL** 4th; Craft Wondrous Item, brand, {spell/brand of hobbling}.",
 			"",
-			"**Justice:** A conquering brand of justice can create a mark of justice, as per the spell. When the brand is used this way, it takes 10 minutes for its tip to heat up. Faint necromancy; **CL** 9th; {feat/Craft Wondrous Item}, brand, {spell/mark of justice}.",
+			"**Justice:** A conquering brand of justice can create a mark of justice, as per the spell. When the brand is used this way, it takes 10 minutes for its tip to heat up. Faint necromancy; **CL** 9th; Craft Wondrous Item, brand, {spell/mark of justice}.",
 			"",
-			"**Lesser Geas:** A conquering brand of lesser geas allows you to affect the recipient as per lesser geas. When the brand is used in this way, it takes 1 round for its tip to heat up. If not used to create a brand, the mark left by the branding iron is nonmagical and not tied to the spell effect, so removing it doesn't remove the spell effect. Faint enchantment; **CL** 7th; {feat/Craft Wondrous Item}, brand, {spell/lesser geas}.",
+			"**Lesser Geas:** A conquering brand of lesser geas allows you to affect the recipient as per lesser geas. When the brand is used in this way, it takes 1 round for its tip to heat up. If not used to create a brand, the mark left by the branding iron is nonmagical and not tied to the spell effect, so removing it doesn't remove the spell effect. Faint enchantment; **CL** 7th; Craft Wondrous Item, brand, {spell/lesser geas}.",
 			"",
-			"**Subjugation:** This brand can create a greater brand, except it blazes when brought within 30 feet of the Nail's symbol. Moderate transmutation; **CL** 10th; {feat/Craft Wondrous Item}, brand, greater brand. Tracking A conquering brand of tracking can create a brand of tracking. Moderate transmutation; **CL** 9th; {feat/Craft Wondrous Item}, brand, {spell/brand of tracking}.",
+			"**Subjugation:** This brand can create a greater brand, except it blazes when brought within 30 feet of the Nail's symbol. Moderate transmutation; **CL** 10th; {feat/Craft Wondrous Item}, brand, greater brand. Tracking A conquering brand of tracking can create a brand of tracking. Moderate transmutation; **CL** 9th; Craft Wondrous Item, brand, {spell/brand of tracking}.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/brand}, additional spells (see text); **Cost** 220 gp (Conformity), 13,220 gp (Geas), 1,420 gp (Hobbling), 9,020 gp (Justice), 5,020 gp (Lesser Geas), 7,220 gp (Subjugation), 7,220 gp (Tracking)"
+			"**Requirements** Craft Wondrous Item, {spell/brand}, additional spells (see text); **Cost** 220 gp (Conformity), 13,220 gp (Geas), 1,420 gp (Hobbling), 9,020 gp (Justice), 5,020 gp (Lesser Geas), 7,220 gp (Subjugation), 7,220 gp (Tracking)"
 		]
 	},
 	"conquering_brand_hobbling": {
@@ -4181,11 +4181,11 @@
 			"",
 			"*Basic Pit:* This acid creates a pit, as the create pit spell, where it lands. Faint conjuration; **CL** 3rd; {feat/Craft Wondrous Item}, {spell/create pit}.",
 			"",
-			"*Corrosive Pit:* This acid affects matter as well, creating an acid pit where it lands. Faint conjuration; **CL** 7th; {feat/Craft Wondrous Item}, {spell/acid pit}.",
+			"*Corrosive Pit:* This acid affects matter as well, creating an acid pit where it lands. Faint conjuration; **CL** 7th; Craft Wondrous Item, {spell/acid pit}.",
 			"",
-			"*Jagged Pit:* This acid creates a spiked pit spell where it lands. Moderate conjuration; **CL** 5th; {feat/Craft Wondrous Item}, {spell/spiked pit}.",
+			"*Jagged Pit:* This acid creates a spiked pit spell where it lands. Moderate conjuration; **CL** 5th; Craft Wondrous Item, {spell/spiked pit}.",
 			"",
-			"*Living Pit:* This acid burns into a living dimension, creating a hungry pit where it lands. Moderate conjuration; **CL** 9th; {feat/Craft Wondrous Item}, {spell/hungry pit}.",
+			"*Living Pit:* This acid burns into a living dimension, creating a hungry pit where it lands. Moderate conjuration; **CL** 9th; Craft Wondrous Item, {spell/hungry pit}.",
 			"",
 			"### Construction",
 			"",
@@ -4235,7 +4235,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/detect magic}; **Cost** 225 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, *detect magic;* **Cost** 225 gp"
 		]
 	},
 	"guiding_vellum_1st": {
@@ -4485,7 +4485,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/create water} (lesser), {spell/create food and water} (standard), {spell/create food and water}, {spell/stoneskin} (greater); **Cost** 250 gp (lesser), 1,000 gp (standard), 2,000 gp (greater)"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/create water} (lesser), {spell/create food and water} (standard), *create food and water,* {spell/stoneskin} (greater); **Cost** 250 gp (lesser), 1,000 gp (standard), 2,000 gp (greater)"
 		]
 	},
 	"lesser_replenishing_aquarium_ball": { "redirect": "replenishing_aquarium_ball_lesser" },

@@ -448,7 +448,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/disguise self}, {spell/endure elements}, {spell/flare}, {spell/know direction}, {spell/lesser restoration}, {spell/longstrider}; **Cost** 1,250 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/disguise self}, *endure elements, flare, know direction,* {spell/lesser restoration}, *longstrider;* **Cost** 1,250 gp"
 		]
 	},
 	"rockfall_cloak": {
@@ -669,7 +669,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/beast shape II}, {spell/bless}, creator must have 5 ranks in Intimidate; **Cost** 1,650 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, *beast shape II,* {spell/bless}, creator must have 5 ranks in Intimidate; **Cost** 1,650 gp"
 		]
 	},
 	"rimepelt": {
@@ -688,7 +688,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/beast shape IV}; **Cost** 1,675 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, *beast shape IV;* **Cost** 1,675 gp"
 		]
 	},
 	"cloak_of_woodland_creatures": {
@@ -771,7 +771,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/expeditious retreat}; **Cost** 1,800 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, *expeditious retreat;* **Cost** 1,800 gp"
 		]
 	},
 	"swordlords_cloak": {
@@ -816,7 +816,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/barkskin}, {spell/cause fear}, {spell/endure elements}; **Cost** 2,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/barkskin}, {spell/cause fear}, *endure elements;* **Cost** 2,000 gp"
 		]
 	},
 	"featherscale_cloak": {
@@ -833,7 +833,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/beast shape I}, {spell/feather fall}, {spell/hide from animals}; **Cost** 2,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, *beast shape I,* {spell/feather fall}, {spell/hide from animals}; **Cost** 2,000 gp"
 		]
 	},
 	"protean_cloak_3_bonus": {
@@ -934,7 +934,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/endure elements}, {spell/resistance}; **Cost** 2,875 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, *endure elements,* {spell/resistance}; **Cost** 2,875 gp"
 		]
 	},
 	"cloak_of_heavenly_fire": {
@@ -971,7 +971,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/beast shape I}; **Cost** 3,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, *beast shape I;* **Cost** 3,000 gp"
 		]
 	},
 	"dead_mans_shroud": {
@@ -1080,7 +1080,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/calm animals}, {spell/calm emotions}; **Cost** 3,250 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, *calm animals, calm emotions;* **Cost** 3,250 gp"
 		]
 	},
 	"eagle_cape": {
@@ -1097,7 +1097,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/beast shape I}, {spell/feather fall}, {spell/perceive cues}; **Cost** 3,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, *beast shape I,* {spell/feather fall}, {spell/perceive cues}; **Cost** 3,500 gp"
 		]
 	},
 	"cloak_of_the_manta_ray": {
@@ -1119,7 +1119,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/beast shape II}, {spell/water breathing}; **Cost** 3,600 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, *beast shape II,* {spell/water breathing}; **Cost** 3,600 gp"
 		]
 	},
 	"plagueborn_mantle": {
@@ -1153,7 +1153,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/beast shape I}; **Cost** 3,750 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, *beast shape I;* **Cost** 3,750 gp"
 		]
 	},
 	"protean_cloak_4_bonus": {
@@ -1194,7 +1194,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/speak with animals}, {spell/summon swarm}; **Cost** 4,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, *speak with animals,* {spell/summon swarm}; **Cost** 4,000 gp"
 		]
 	},
 	"cloak_of_resistance_3": {
@@ -1211,7 +1211,7 @@
 			"**Aura** moderate transmutation; **CL** 9th  ",
 			"**Slot** shoulders; **Price** 9,000 gp; **Weight** 8 lbs.",
 			"",
-			"Images of ballistae ornament this metallic cloak, which fits easily over armor and other bulky clothing. The wearer can activate this cloak as a swift action, causing the garment to splay outward for 1 round, its jagged hem protruding around the wearer in stiff, sharp points. While the cloak is active, the wearer counts as wearing masterwork armor spikes with which she is proficient, and she can walk on air (as though using the {spell/air walk} spell). If she's riding a mount, the {spell/air walk} effect instead affects the mount while the cloak is active, and the mount can move with the item's help even if it's not specially trained to move with the aid of {spell/air walk}. If the wearer (or her mount) isn't standing on a solid surface by the end of the round, she immediately falls, taking any applicable falling damage.",
+			"Images of ballistae ornament this metallic cloak, which fits easily over armor and other bulky clothing. The wearer can activate this cloak as a swift action, causing the garment to splay outward for 1 round, its jagged hem protruding around the wearer in stiff, sharp points. While the cloak is active, the wearer counts as wearing masterwork armor spikes with which she is proficient, and she can walk on air (as though using the {spell/air walk} spell). If she's riding a mount, the *air walk* effect instead affects the mount while the cloak is active, and the mount can move with the item's help even if it's not specially trained to move with the aid of *air walk.* If the wearer (or her mount) isn't standing on a solid surface by the end of the round, she immediately falls, taking any applicable falling damage.",
 			"",
 			"In addition, on her first successful charge attack during the round the cloak is active, the wearer deals an additional 1d6 points of piercing damage (1d4 if she is Small), plus another 1d6 (or 1d4 if she is Small) for every 20 feet the wearer traveled in a straight line during the charge (maximum 3d6).",
 			"",
@@ -1219,7 +1219,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/air walk}, {spell/bull's strength}; **Cost** 4,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, *air walk,* {spell/bull's strength}; **Cost** 4,500 gp"
 		]
 	},
 	"cape_of_daring_deeds": {
@@ -1253,7 +1253,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/burning hands}, {spell/cause fear}; **Cost** 4,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, *burning hands,* {spell/cause fear}; **Cost** 4,500 gp"
 		]
 	},
 	"phantom_entourage": {
@@ -1457,7 +1457,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/beast shape II}; **Cost** 6,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, *beast shape II;* **Cost** 6,000 gp"
 		]
 	},
 	"mantle_of_the_protector": {
@@ -1692,7 +1692,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/endure elements}; **Cost** 7,800 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, *endure elements;* **Cost** 7,800 gp"
 		]
 	},
 	"pelt_of_the_beast": {
@@ -1803,7 +1803,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/cape of wasps}, {spell/glitterdust}; **Cost** 8,750 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, *cape of wasps,* {spell/glitterdust}; **Cost** 8,750 gp"
 		]
 	},
 	"cloak_of_daggers": {
@@ -2087,7 +2087,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/beast shape I}, {spell/speak with animals}, creator must be a skinwalker; **Cost** 12,000 gp (boar, rat, wolf), 20,000 gp (brown bear, bat, crocodile, shark, tiger)"
+			"**Requirements** {feat/Craft Wondrous Item}, *beast shape I,* {spell/speak with animals}, creator must be a skinwalker; **Cost** 12,000 gp (boar, rat, wolf), 20,000 gp (brown bear, bat, crocodile, shark, tiger)"
 		]
 	},
 	"lycanthrope_skin_boar_rat_wolf": { "redirect": "lycanthrope_skin_skinwalker_boar_rat_wolf" },
@@ -2159,7 +2159,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/beast shape III}, {spell/fly}; **Cost** 13,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, *beast shape III,* {spell/fly}; **Cost** 13,000 gp"
 		]
 	},
 	"pelt_of_primal_power": {
@@ -2176,7 +2176,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/beast shape II}, {spell/mage armor}; **Cost** 13,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, *beast shape II,* {spell/mage armor}; **Cost** 13,000 gp"
 		]
 	},
 	"arms_of_the_marilith": {
@@ -2438,7 +2438,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {feat/Mythic Crafter}, {spell/breath of life}, {spell/elemental body II}; **Cost** 27,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {feat/Mythic Crafter}, {spell/breath of life}, *elemental body II;* **Cost** 27,500 gp"
 		]
 	},
 	"deadened_shadows_cloak": {
@@ -2737,7 +2737,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {feat/Silent Spell}, {spell/detect magic}, {spell/mage hand}, {spell/resistance}; **Cost** 1,050 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {feat/Silent Spell}, *detect magic,* {spell/mage hand}, {spell/resistance}; **Cost** 1,050 gp"
 		]
 	},
 	"seafaring_stanchions": {
@@ -2964,7 +2964,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/entangle}, {spell/plant growth}; **Cost** 3,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, *entangle,* {spell/plant growth}; **Cost** 3,000 gp"
 		]
 	},
 	"howling_bracers": {
@@ -3061,7 +3061,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/calm emotions}, {spell/charm person}, {spell/cure moderate wounds}, {spell/prayer}, {spell/shadow weapon}; **Cost** 4,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/calm emotions}, *charm person,* {spell/cure moderate wounds}, {spell/prayer}, {spell/shadow weapon}; **Cost** 4,000 gp"
 		]
 	},
 	"duelists_vambraces": {
@@ -3210,7 +3210,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/detect magic}, {spell/magic aura}, {spell/resistance}, creator must have 3 ranks in Sense Motive; **Cost** 4,950 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, *detect magic,* {spell/magic aura}, {spell/resistance}, creator must have 3 ranks in Sense Motive; **Cost** 4,950 gp"
 		]
 	},
 	"bracers_of_might": {
@@ -3320,9 +3320,9 @@
 			"",
 			">*Djinni:* These mithral bracers allow the wearer to use {spell/gaseous form}, {spell/invisibility}, and {spell/wind wall} each once per day.",
 			">",
-			">*Efreeti:* These scorched bronze bracers allow the wearer to use {spell/invisibility} (self only), {spell/produce flame}, and {spell/pyrotechnics} each once per day.",
+			">*Efreeti:* These scorched bronze bracers allow the wearer to use *invisibility* (self only), {spell/produce flame}, and {spell/pyrotechnics} each once per day.",
 			">",
-			">*Marid:* These coral bracers allow the wearer to use {spell/hydraulic torrent}, {spell/invisibility}, and {spell/water breathing} each once per day.",
+			">*Marid:* These coral bracers allow the wearer to use {spell/hydraulic torrent}, *invisibility,* and {spell/water breathing} each once per day.",
 			">",
 			">*Shaitan:* These adamantine bracers allow the wearer to use {spell/glitterdust}, {spell/meld into stone}, and {spell/stone shape} each once per day.",
 			"",
@@ -3388,7 +3388,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/magic missile}, {spell/telekinesis}; **Cost** 7,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, *magic missile,* {spell/telekinesis}; **Cost** 7,500 gp"
 		]
 	},
 	"style_stealing_vambrace": {
@@ -3765,13 +3765,13 @@
 			"**Aura** strong transmutation; **CL** 17th  ",
 			"**Slot** wrists; **Price** 32,000 gp; **Weight** 1 lb.",
 			"",
-			"This rune-carved bracelet is made of thick, bright gold and allows the wearer to manipulate time through electricity magic. As a swift action, the wearer can activate the bracer, creating a nimbus of crackling blue energy that surrounds the hand wearing the electro-temporal bracer for up to 3 minutes each day. This duration need not be continuous, but it must be used in 1-minute increments. While the nimbus is active, spells with the electricity descriptor cast by the wearer have an additional effect, chosen by the wearer as each spell is cast: the spell dazzles all targets of the spell for 1 round, the spell staggers a single target of the spell for 1 round, or the spell provides a single target of the spell the benefits of {spell/haste} for 1 round. The staggered and {spell/haste} effects affect only one target selected by the caster as the spell is cast, even if the spell affects multiple targets. There is no saving throw for these additional effects, but a target that avoids the effects of the electricity spell entirely (such as by negating the effect with a successful save, or by having immunity to the spell's damage) is not subject to the additional effect. (A target of an additional effect that successfully saves against the electricity spell but still takes partial damage is still subject to the additional effect.)",
+			"This rune-carved bracelet is made of thick, bright gold and allows the wearer to manipulate time through electricity magic. As a swift action, the wearer can activate the bracer, creating a nimbus of crackling blue energy that surrounds the hand wearing the electro-temporal bracer for up to 3 minutes each day. This duration need not be continuous, but it must be used in 1-minute increments. While the nimbus is active, spells with the electricity descriptor cast by the wearer have an additional effect, chosen by the wearer as each spell is cast: the spell dazzles all targets of the spell for 1 round, the spell staggers a single target of the spell for 1 round, or the spell provides a single target of the spell the benefits of {spell/haste} for 1 round. The staggered and *haste* effects affect only one target selected by the caster as the spell is cast, even if the spell affects multiple targets. There is no saving throw for these additional effects, but a target that avoids the effects of the electricity spell entirely (such as by negating the effect with a successful save, or by having immunity to the spell's damage) is not subject to the additional effect. (A target of an additional effect that successfully saves against the electricity spell but still takes partial damage is still subject to the additional effect.)",
 			"",
 			"If the wearer takes at least 50 points of electricity damage from a single source (such as a trap or a spell), the wearer immediately benefits from the effects of time stop, and the electro-temporal bracer ceases functioning for 1 month.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/haste}, {spell/slow}, {spell/time stop}; **Cost** 16,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, *haste,* {spell/slow}, {spell/time stop}; **Cost** 16,000 gp"
 		]
 	},
 	"thorned_manacles": {
@@ -3920,7 +3920,7 @@
 			"",
 			"**8th Level:** The wearer gains {ability/woodland stride}, as the druid class ability.",
 			"",
-			"**12th Level:** The wearer is constantly under the effect of {spell/endure elements} and is automatically considered [acclimated to high altitudes](rule/mountain_travel). Should the {spell/endure elements} effect be dispelled, he can resume it as a free action.",
+			"**12th Level:** The wearer is constantly under the effect of {spell/endure elements} and is automatically considered [acclimated to high altitudes](rule/mountain_travel). Should the *endure elements* effect be dispelled, he can resume it as a free action.",
 			"",
 			"**16th Level:** Once per day, the wearer can use {spell/find the path} as a spell-like ability.",
 			"",
@@ -4632,7 +4632,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {magic-wondrous/headband of vast intelligence +4}; **Cost** -"
+			"**Requirements** *headband of vast intelligence +4;* **Cost** -"
 		]
 	},
 	"helm_of_ikimizi": {

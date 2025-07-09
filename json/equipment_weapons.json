@@ -360,8 +360,8 @@
 			"### {rule/Spontaneous Alchemy} Recipes",
 			"",
 			"@HL[Adamantine:] (50 {eq-reagent/cold iron} + 75 {eq-reagent/magnesium} + 50 {eq-reagent/saltpeter})/congelation; **Craft DC** 30  ",
-			"@HL[Cold Iron:] (100 {eq-reagent/cold iron} + 50 {eq-reagent/phosphorus} + 20 {eq-reagent/saltpeter})/congelation; **Craft DC** 25  ",
-			"@HL[Silver:] (40 {eq-reagent/quicksilver} + 15 {eq-reagent/saltpeter} + 25 {eq-reagent/silver})/congelation; **Craft DC** 25  ",
+			"@HL[Cold Iron:] (100 cold iron + 50 {eq-reagent/phosphorus} + 20 saltpeter)/congelation; **Craft DC** 25  ",
+			"@HL[Silver:] (40 {eq-reagent/quicksilver} + 15 saltpeter + 25 {eq-reagent/silver})/congelation; **Craft DC** 25  ",
 			"**Time** 1 hour; **Tools** {eq-misc/crucible}; **Type** alchemical weapon"
 		],
 		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
@@ -2399,7 +2399,7 @@
 			"A brass knife has the {misc/fragile} quality. A fragile weapon gains the broken condition if the wielder rolls a natural 1 on an attack roll with the weapon. If a fragile weapon is already broken, rolling a natural 1 destroys it instead.",
 			"",
 			"**Cost** 2 gp **Weight** 1 lb.  ",
-			"**Damage** 1d3 (small), 1d4 (medium); **Critical** 19-20/&times;2; **Range** 10 ft.; **Type** P or S; **Special** {misc/fragile}  ",
+			"**Damage** 1d3 (small), 1d4 (medium); **Critical** 19-20/&times;2; **Range** 10 ft.; **Type** P or S; **Special** fragile  ",
 			"**Category** Light; **Proficiency** Simple"
 		],
 		"topLink": [ "Light Weapons", "main/equipment_weapons_light" ]
@@ -3569,7 +3569,7 @@
 			"Forged in pairs, these solid metal blades end in curved hooks, while the hand guards are hammered into outward-facing spiked crescents. Both the crescent and the tip of the hilt are sharpened for combat. They can be wielded as single weapons or with two-weapon fighting styles. These weapons gain the {misc/disarm} special feature when they are used individually. A pair of shang gou can also be formed into a single one-handed weapon to gain the {misc/trip} special feature.",
 			"",
 			"**Cost** 6 gp **Weight** 1 lb.  ",
-			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** -; **Type** S; **Special** {misc/disarm} or {misc/trip}, {misc/monk}  ",
+			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** -; **Type** S; **Special** disarm or trip, {misc/monk}  ",
 			"**Category** Light; **Proficiency** Martial  ",
 			"**{ability/Weapon Group>s}** Monk"
 		],

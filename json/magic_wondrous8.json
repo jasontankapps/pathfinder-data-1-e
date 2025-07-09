@@ -36,7 +36,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/cat's grace}, {spell/endure elements}, {spell/pass without trace}; **Cost** 1,250 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/cat's grace}, *endure elements,* {spell/pass without trace}; **Cost** 1,250 gp"
 		]
 	},
 	"horseshoes_of_great_burden": {
@@ -645,7 +645,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {feat/Deflect Arrows}, {spell/deflection}; **Cost** 4,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, Deflect Arrows, {spell/deflection}; **Cost** 4,000 gp"
 		]
 	},
 	"soles_of_the_silent_stride": {
@@ -1116,7 +1116,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/cat's grace}, {spell/endure elements}, {spell/giant form I}, {spell/pass without trace}; **Cost** 10,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/cat's grace}, {spell/endure elements}, *giant form I,* {spell/pass without trace}; **Cost** 10,000 gp"
 		]
 	},
 	"horseshoes_of_sacred_silver": {
@@ -1292,7 +1292,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/beast shape IV}, {spell/magic circle against chaos[/evil/good/law]}; **Cost** 19,800 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, *beast shape IV,* {spell/magic circle against chaos[/evil/good/law]}; **Cost** 19,800 gp"
 		]
 	},
 	"boots_of_fiendish_escape_tiefling": {
@@ -1393,7 +1393,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/ride the waves}, {spell/slipstream}; **Cost** 36,600 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/ride the waves}, *slipstream;* **Cost** 36,600 gp"
 		]
 	},
 	"earthquake_boots": {
@@ -1410,7 +1410,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/earthquake}, {spell/see invisibility}; **Cost** 33,750 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, *earthquake,* {spell/see invisibility}; **Cost** 33,750 gp"
 		]
 	},
 	"seven_league_boots": {
@@ -1576,7 +1576,7 @@
 			"**Aura** faint divination and evocation; **CL** 5th  ",
 			"**Slot** hand; **Price** 1,600 gp; **Weight** 5 lbs.",
 			"",
-			"Much like {magic-wondrous/wayfinder/s}, an ioun gauntlet grants enhanced or altogether new abilities depending on the type of {magic-wondrous/ioun stone} inserted into its matrix. In its base form, an ioun gauntlet grants its wearer the ability to cast {spell/detect magic} as a spell-like ability once per day. When the {spell/detect magic} effect is active, the gauntlet also sheds illumination as {spell/light} in the 60-foot cone of the {spell/detect magic} effect.",
+			"Much like {magic-wondrous/wayfinder/s}, an ioun gauntlet grants enhanced or altogether new abilities depending on the type of {magic-wondrous/ioun stone} inserted into its matrix. In its base form, an ioun gauntlet grants its wearer the ability to cast {spell/detect magic} as a spell-like ability once per day. When the *detect magic* effect is active, the gauntlet also sheds illumination as {spell/light} in the 60-foot cone of the *detect magic* effect.",
 			"",
 			"An ioun gauntlet features a single matrix in the back of the hand, suitable for one ioun stone. When an ioun stone is inserted into the matrix as a standard action, the wearer gains the associated bonus from the ioun stone as well an additional effect based on the shape of the ioun stone inserted, as listed below. While a creature can put on two ioun gauntlets, the wearer gains the additional benefit from only one inserted ioun stone.",
 			"",
@@ -1713,7 +1713,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {feat/Extend Spell}, {spell/fly}; **Cost** 2,250 gp (+2), 21,000 gp (+4), 40,500 gp (+6)"
+			"**Requirements** {feat/Craft Wondrous Item}, {feat/Extend Spell}, *fly;* **Cost** 2,250 gp (+2), 21,000 gp (+4), 40,500 gp (+6)"
 		]
 	},
 	"headband_of_aerial_agility_2": {
@@ -1923,7 +1923,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/augury}; **Cost** 3,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, *augury;* **Cost** 3,500 gp"
 		]
 	},
 	"phylactery_of_the_shepherd": {
@@ -2478,7 +2478,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/unnatural lust}; **Cost** 20,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, *unnatural lust;* **Cost** 20,000 gp"
 		]
 	},
 	"headband_of_mental_resilience": {
@@ -2535,7 +2535,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/dominate monster}, {spell/possession}; **Cost** 94,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/dominate monster}, *possession;* **Cost** 94,500 gp"
 		]
 	},
 	"talisman_lesser_beneficial_winds": {
@@ -2560,7 +2560,7 @@
 			"",
 			"@b[Hamsa Talisman/:]{jl} A stern eye adorns the palm of this hand-shaped clay talisman. When the wearer fails a saving throw against a witch's hex, a spell or spell-like ability with the curse descriptor, or a hag's supernatural ability, he can attempt a second saving throw. If he succeeds at the second saving throw, the creature that targeted him must succeed at a saving throw using the same DC or suffer the effect. The talisman has no effect on spells and effects that don't allow a saving throw. Strong abjuration; **CL** 13th; {spell/remove curse}, {spell/spell turning}.",
 			"",
-			"@b[Pentacle Talisman/:]{jl} The five-pointed star carved on this round silver talisman glows blue whenever an evil creature targets the wearer with magic jar, possession, or a similar effect, or with a charm or compulsion spell or effect that allows the creature to exercise control over the wearer (such as suggestion, but not sleep). If the spell or effect allows a saving throw and the wearer fails it, he receives a second saving throw. If he succeeds at the second saving throw, the wearer is also protected by {spell/protection from evil} for 5 rounds. Faint abjuration; **CL** 1st; {spell/protection from evil}.",
+			"@b[Pentacle Talisman/:]{jl} The five-pointed star carved on this round silver talisman glows blue whenever an evil creature targets the wearer with magic jar, possession, or a similar effect, or with a charm or compulsion spell or effect that allows the creature to exercise control over the wearer (such as suggestion, but not sleep). If the spell or effect allows a saving throw and the wearer fails it, he receives a second saving throw. If he succeeds at the second saving throw, the wearer is also protected by {spell/protection from evil} for 5 rounds. Faint abjuration; **CL** 1st; *protection from evil.*",
 			"",
 			"@b[Scarab Talisman/:]{jl} This amethyst necklace is carved in the shape of a scarab beetle. When the wearer fails a saving throw against a swarm's poison or distraction ability, he can attempt a second saving throw. If he succeeds at the second saving throw, the wearer becomes immune to the poison and distraction abilities of swarms for 5 rounds. Faint conjuration; **CL** 3rd; {spell/summon swarm}.",
 			"",
@@ -2580,7 +2580,7 @@
 			"",
 			"@b[Talisman of Protection from Flames/:]{jl} These talismans bear symbols of fire and flames, surrounded by circles, triangles, or other shapes to show the flames as being contained. The first time that the wearer takes 5 or more points of fire damage in a single round, he is automatically affected by protection from energy, which protects him from subsequent fire damage. Talismans that protect against other energy types are much less common. Faint abjuration; **CL** 5th; {spell/protection from energy}.",
 			"",
-			"@b[Talisman of Sealed Summons/:]{jl} These talismans bear intricate seals and symbols often used in the binding of outsiders. The first time that the wearer is hit by a natural attack from an evil summoned creature, the wearer is automatically affected by {spell/protection from evil}. Other versions of this talisman, which affect chaotic, lawful, and good summoned creatures, are much less common. Faint abjuration; **CL** 1st; {spell/protection from evil}.",
+			"@b[Talisman of Sealed Summons/:]{jl} These talismans bear intricate seals and symbols often used in the binding of outsiders. The first time that the wearer is hit by a natural attack from an evil summoned creature, the wearer is automatically affected by {spell/protection from evil}. Other versions of this talisman, which affect chaotic, lawful, and good summoned creatures, are much less common. Faint abjuration; **CL** 1st; *protection from evil.*",
 			"",
 			"@b[Talisman of Warrior's Courage/:]{jl} These talismans bear the names of mighty and fearless warriors and symbols of power and martial prowess. The first time that the wearer would gain the frightened or panicked condition, he gains the shaken condition instead. Faint abjuration; **CL** 1st; {spell/remove fear}.",
 			"",
@@ -3456,7 +3456,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/remove curse}; **Cost** 1,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, *remove curse;* **Cost** 1,500 gp"
 		]
 	},
 	"key_of_the_second_vault": {
@@ -3478,7 +3478,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/fox's cunning}, {spell/shield of faith}, {spell/summon monster II}, creator must have 5 ranks in Appraise; **Cost** 1,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/fox's cunning}, {spell/shield of faith}, *summon monster II,* creator must have 5 ranks in Appraise; **Cost** 1,500 gp"
 		]
 	},
 	"pantheistic_clasp": {
@@ -4041,7 +4041,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/light}; **Cost** 250 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, *light;* **Cost** 250 gp"
 		]
 	},
 	"seers_tea": {
@@ -4117,7 +4117,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/solid fog}; **Cost** 300 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, *solid fog;* **Cost** 300 gp"
 		]
 	},
 	"cathedral_pit_stone": {

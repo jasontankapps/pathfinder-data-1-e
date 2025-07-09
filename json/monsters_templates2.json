@@ -153,9 +153,9 @@
 			"",
 			"{monster/Eclipse Giant}: Eclipse mongrels have dark gray skin and appear somewhat overweight. They gain immunity to death effects and can use the following spell-like abilities once per day: {spell/daylight} or {spell/deeper darkness} (choose one) and {spell/heal} or {spell/harm} (choose one). Wisdom +2.",
 			"",
-			"{monster/Fire Giant}: Fire mongrels have orange hair and red or black skin. They gain the {subtype/fire} subtype (including immunity to fire and vulnerability to cold), and gain {feat/Martial Weapon Proficiency} (greatsword) as a bonus feat. Strength +2.",
+			"{monster/Fire Giant}: Fire mongrels have orange hair and red or black skin. They gain the {subtype/fire} subtype (including immunity to fire and vulnerability to cold), and gain Martial Weapon Proficiency (greatsword) as a bonus feat. Strength +2.",
 			"",
-			"{monster/Frost Giant}: Frost mongrels have light blue skin and dirty yellow hair. They gain the {subtype/cold} subtype (including immunity to cold and vulnerability to fire), and gain {feat/Martial Weapon Proficiency} (greataxe) as a bonus feat. Constitution +4.",
+			"{monster/Frost Giant}: Frost mongrels have light blue skin and dirty yellow hair. They gain the {subtype/cold} subtype (including immunity to cold and vulnerability to fire), and gain Martial Weapon Proficiency (greataxe) as a bonus feat. Constitution +4.",
 			"",
 			"{monster/Jungle Giant}: Jungle mongrels have brown and green skin that is textured like fibrous plant material or tree bark. They gain immunity to poison and gain the jungle giant's archery expert ability. Dexterity +2.",
 			"",
@@ -205,7 +205,7 @@
 			"",
 			"**Quick Rules:** +2 on all rolls based on Dex and Wis; gains the {feat/Improved Unarmed Strike} feat. When the creature makes a full attack with unarmed strikes or natural attacks, it can make an extra attack of the same type (of its choice) with a -5 penalty. If the creature uses unarmed strikes, it deals damage as if it were a monk of a level equal to its HD (maximum 20 HD). A creature with 10 or more HD that uses natural attacks instead increases the damage dealt by all of its natural attacks by one die step. If the creature is wearing no armor, it gains a bonus to AC equal to 2 + its Wis modifier. This bonus to AC increases by 1 for every 4 HD it possesses (to a maximum of +5 at 20 HD). The creature gains evasion (improved evasion if the creature has 10 or more HD).",
 			"",
-			"**Rebuild Rules:** **Defensive Abilities** evasion (improved evasion if the creature has 10 or more HD), and if the creature is wearing no armor, it gains a bonus to AC equal its Wis modifier. This bonus to AC increases by 1 for every 4 HD (to a maximum of +5 at 20 HD); **Special Attacks** when the creature makes a full attack with unarmed strikes or natural attacks, it can make an extra attack of the same type with a -5 penalty. If the creature uses unarmed strikes, it deals damage as if it were a monk with a level equal to its HD (maximum 20 HD). A creature with 10 or more HD that uses natural attacks increases the damage dealt by all of its natural attacks by one die step instead; **Ability Scores** +4 Dexterity and Wisdom; **Feats** {feat/Improved Unarmed Strike}."
+			"**Rebuild Rules:** **Defensive Abilities** evasion (improved evasion if the creature has 10 or more HD), and if the creature is wearing no armor, it gains a bonus to AC equal its Wis modifier. This bonus to AC increases by 1 for every 4 HD (to a maximum of +5 at 20 HD); **Special Attacks** when the creature makes a full attack with unarmed strikes or natural attacks, it can make an extra attack of the same type with a -5 penalty. If the creature uses unarmed strikes, it deals damage as if it were a monk with a level equal to its HD (maximum 20 HD). A creature with 10 or more HD that uses natural attacks increases the damage dealt by all of its natural attacks by one die step instead; **Ability Scores** +4 Dexterity and Wisdom; **Feats** Improved Unarmed Strike."
 		]
 	},
 	"mummified_animal": {
@@ -883,7 +883,7 @@
 			"",
 			"**Special Attacks:** A pallid vector gains stench (10 rounds) and disease. The DCs are Constitution-based.",
 			"",
-			"**Disease (Su):** All of a pallid vector's melee attacks, even with manufactured weapons, carry the {disease/pallid gift} disease.",
+			"**Disease (Su):** All of a pallid vector's melee attacks, even with manufactured weapons, carry the pallid gift disease.",
 			"",
 			"**Ability Scores:** Str +2, Con +4, Wis +2."
 		]
@@ -2083,7 +2083,7 @@
 			"",
 			"**Quick Rules:** darkvision 120 ft.; +1 to AC; +2 on rolls based on Con; +2 hp/HD; {umr/light blindness}; can't gain morale bonuses; regretful gaze (shaken 1 round, 30 ft., Will save negates, DC = 10 + 1/2 HD + Cha modifier); after taking 3 points of damage per HD in a single attack, gain a +2 profane bonus on attack rolls, damage rolls, saving throws, and skill checks for 1 round.",
 			"",
-			"**Rebuild Rules:** **Senses** darkvision 120 ft.; **AC** gain a deflection bonus to AC equal to 1/4 CR (minimum 1); **Weaknesses** {umr/light blindness}, can't gain morale bonuses; **Special Attacks** regretful {umr/gaze} (shaken 1 round, 30 ft., Will negates, DC = 10 + 1/2 HD + Cha modifier); after taking 3 points of damage per HD in a single attack, gain a +2 profane bonus on attack rolls, damage rolls, saving throws, and skill checks for 1 round; **Ability Scores** +4 Con."
+			"**Rebuild Rules:** **Senses** darkvision 120 ft.; **AC** gain a deflection bonus to AC equal to 1/4 CR (minimum 1); **Weaknesses** light blindness, can't gain morale bonuses; **Special Attacks** regretful {umr/gaze} (shaken 1 round, 30 ft., Will negates, DC = 10 + 1/2 HD + Cha modifier); after taking 3 points of damage per HD in a single attack, gain a +2 profane bonus on attack rolls, damage rolls, saving throws, and skill checks for 1 round; **Ability Scores** +4 Con."
 		]
 	},
 	"shadowfire_creature": {
@@ -2151,7 +2151,7 @@
 			"",
 			"When druids are faced with threats to the natural world, they are steadfast and, at times, relentless in their defense of the land. Even in the face of overwhelming odds - an incursion of demons from the Abyss, a creeping plague of necromantic corruption, an unstoppable blight of magical radiation, or a similar supernatural threat to the natural world - some sects of druids refuse to give up or abandon their duties. In these tragic cases, the desperate druids adopt the blasphemous tactic of accepting the corruption into themselves and becoming powerful undead guardians. They fight on not only against the original source of the corruption, but against all living creatures, for these druids become siabraes, and are filled with bitterness and hatred for all others - particularly other druids, whom they regard as cowards. Siabraes do not form spontaneously; they arise only as the result of the horrific {spell/Welcome the Blighted Soul} ritual.",
 			"",
-			"\"Siabrae\" is an acquired template that can be added to any druid who successfully performs the {spell/welcome the blighted soul} ritual (hereafter referred to as the base creature). A siabrae can't have the {arc-druid/blight druid} archetype. A siabrae retains all the base creature's statistics and special abilities except as noted here.",
+			"\"Siabrae\" is an acquired template that can be added to any druid who successfully performs the *welcome the blighted soul* ritual (hereafter referred to as the base creature). A siabrae can't have the {arc-druid/blight druid} archetype. A siabrae retains all the base creature's statistics and special abilities except as noted here.",
 			"",
 			"**CR:** Base creature's CR + 2.",
 			"",

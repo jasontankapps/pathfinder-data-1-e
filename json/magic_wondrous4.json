@@ -181,7 +181,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/consecrate}; **Cost** 550 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, *consecrate;* **Cost** 550 gp"
 		]
 	},
 	"kalistocrats_coin": {
@@ -441,7 +441,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/shield other}, {spell/status}, creator must have at least 4 ranks in Craft (alchemy); **Cost** 600 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, *shield other,* {spell/status}, creator must have at least 4 ranks in Craft (alchemy); **Cost** 600 gp"
 		]
 	},
 	"briar_bomb": {
@@ -626,7 +626,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/beast shape II}, {spell/darkvision}; **Cost** 700 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, *beast shape II,* {spell/darkvision}; **Cost** 700 gp"
 		]
 	},
 	"ghost_powder": {
@@ -662,7 +662,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {feat/Mythic Crafter}, {spell/beast shape II}; **Cost** 700 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {feat/Mythic Crafter}, *beast shape II;* **Cost** 700 gp"
 		]
 	},
 	"incense_of_corporeality": {
@@ -959,7 +959,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/identify}, {spell/open//close}; **Cost** 750 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/identify}, *open/close;* **Cost** 750 gp"
 		]
 	},
 	"healers_satchel_normal": {
@@ -1129,7 +1129,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/endure elements}, {spell/light} (standard lantern of the four elements); {feat/Craft Wondrous Item}, {spell/endure elements}, {spell/light}, {spell/air bubble}, {spell/levitate}, {spell/resist energy}, {spell/spider climb} (greater lantern of the four elements); **Cost** 750 gp (standard), 3,250 gp (greater)"
+			"**Requirements** {feat/Craft Wondrous Item}, *endure elements,* {spell/light} (standard lantern of the four elements); Craft Wondrous Item, *endure elements, light,* {spell/air bubble}, {spell/levitate}, {spell/resist energy}, {spell/spider climb} (greater lantern of the four elements); **Cost** 750 gp (standard), 3,250 gp (greater)"
 		]
 	},
 	"lantern_of_the_four_elements_greater": {
@@ -1978,13 +1978,13 @@
 			"**Aura** faint divination; **CL** 1st  ",
 			"**Slot** none; **Price** 2,000 gp; **Weight** 2 lbs.",
 			"",
-			"A lantern of auras is a bullseye lantern made of cold iron with a series of lenses and colored glass filters that can be flipped down in front of its main aperture. The lantern functions as a bullseye lantern but needs no oil to shed its light. If its command word is spoken, it begins to reveal magic auras as the {spell/detect magic} spell. It will reveal all auras {spell/detect magic} reveals over the normal duration of 3 rounds, as long as its light is held on the same area for this duration. Anyone who takes a full-round action to observe the revealed auras during each of these rounds can attempt a Knowledge (arcana) skill check to determine the school of any magic aura revealed, or a Spellcraft check to identify the properties of a magic item within the area.",
+			"A lantern of auras is a bullseye lantern made of cold iron with a series of lenses and colored glass filters that can be flipped down in front of its main aperture. The lantern functions as a bullseye lantern but needs no oil to shed its light. If its command word is spoken, it begins to reveal magic auras as the {spell/detect magic} spell. It will reveal all auras *detect magic* reveals over the normal duration of 3 rounds, as long as its light is held on the same area for this duration. Anyone who takes a full-round action to observe the revealed auras during each of these rounds can attempt a Knowledge (arcana) skill check to determine the school of any magic aura revealed, or a Spellcraft check to identify the properties of a magic item within the area.",
 			"",
 			"Roughly 45% of these lanterns have the command word etched on the bottom of the lantern. Casting identify on a lantern of auras reveals the command word.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/detect magic}, {spell/light}; **Cost** 1,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, *detect magic,* {spell/light}; **Cost** 1,000 gp"
 		]
 	},
 	"liberators_key": {
@@ -2323,7 +2323,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/detect evil}, {spell/light}, {spell/protection from evil}; **Cost** 1,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, *detect evil,* {spell/light}, *protection from evil;* **Cost** 1,000 gp"
 		]
 	},
 	"shining_wayfinder": { "redirect": "wayfinder_shining" },
@@ -2415,7 +2415,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/heroism} (battle), {spell/protection from evil} (honor), {spell/eagle's splendor} (parley); **Cost** 1,100 gp (Honor), 2,250 gp (Battle), 2,250 gp (Parley)"
+			"**Requirements** {feat/Craft Wondrous Item}, *heroism* (battle), *protection from evil* (honor), {spell/eagle's splendor} (parley); **Cost** 1,100 gp (Honor), 2,250 gp (Battle), 2,250 gp (Parley)"
 		]
 	},
 	"knights_pennon_battle": {
@@ -2651,7 +2651,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/snare}, {spell/hold monster}; **Cost** 1,200 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/snare}, *hold monster;* **Cost** 1,200 gp"
 		]
 	},
 	"rhombocrystal": {
@@ -2758,7 +2758,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/endure elements}; **Cost** 1,200 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, *endure elements;* **Cost** 1,200 gp"
 		]
 	},
 	"sovereign_glue": {
@@ -2834,7 +2834,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/endure elements}, {spell/spider climb}; **Cost** 1,225 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, *endure elements,* {spell/spider climb}; **Cost** 1,225 gp"
 		]
 	},
 	"apple_of_eternal_sleep": {
@@ -3431,7 +3431,7 @@
 			"| 96-99 | 1 week |",
 			"| 100 | Permanent |",
 			"",
-			"The transformation can be ended prematurely by {spell/remove curse} - {spell/dispel magic} has no effect. However, when the effect ends, the drinker's head immediately returns to normal. If the head is not within 5 feet of its body when the elixir's duration expires, the creature is slain immediately. The drinker knows when the elixir's effects will end 1 minute before they do so (no earlier). If the drinker's body is harmed or destroyed while its head is elsewhere, it takes that damage as soon as it reunites with its body, or is slain if its body has been destroyed. Until the elixir's duration ends, the drinker can only reattach its head to its body through the use of {spell/remove curse}. The drinker's body is considered helpless while the head is unattached.",
+			"The transformation can be ended prematurely by {spell/remove curse} - {spell/dispel magic} has no effect. However, when the effect ends, the drinker's head immediately returns to normal. If the head is not within 5 feet of its body when the elixir's duration expires, the creature is slain immediately. The drinker knows when the elixir's effects will end 1 minute before they do so (no earlier). If the drinker's body is harmed or destroyed while its head is elsewhere, it takes that damage as soon as it reunites with its body, or is slain if its body has been destroyed. Until the elixir's duration ends, the drinker can only reattach its head to its body through the use of *remove curse.* The drinker's body is considered helpless while the head is unattached.",
 			"",
 			"### Construction",
 			"",
@@ -3509,13 +3509,13 @@
 			"",
 			"**Acid Pit:** Woven from green and yellow fabric, a portable acid pit drops victims 30 feet into a pool of boiling acid. The fall deals 2d6 points of damage and an additional 1d6 points of nonlethal damage, while the acid deals 2d6 points of acid damage every round. The film of slick acid coating the pit walls imposes a -10 circumstance penalty on Climb checks. Moderate conjuration; **CL** 7th; {feat/Craft Wondrous Item}, acid pit.",
 			"",
-			"**Blunt Pit:** Created in a spiraling weave of blue and brown wool, a portable blunt pit drops the victim 20 feet onto hard-packed earth, and the victim takes 2d6 points of damage from the fall. Faint conjuration; **CL** 4th; {feat/Craft Wondrous Item}, create pit.",
+			"**Blunt Pit:** Created in a spiraling weave of blue and brown wool, a portable blunt pit drops the victim 20 feet onto hard-packed earth, and the victim takes 2d6 points of damage from the fall. Faint conjuration; **CL** 4th; Craft Wondrous Item, create pit.",
 			"",
-			"**Hungry Pit:** Spun from blood-red silk and studded with tiny teeth, a portable hungry pit transforms into a 40-foot-deep pit, dealing 4d6 points of damage to any victims who fall into it. Its ravenous walls then begin to grind like the stomach of a massive beast, dealing 4d6 points of bludgeoning damage every round to any creature in the pit. The convulsing walls impose a -15 circumstance penalty on Climb checks. Moderate conjuration; **CL** 9th; {feat/Craft Wondrous Item}, hungry pit.",
+			"**Hungry Pit:** Spun from blood-red silk and studded with tiny teeth, a portable hungry pit transforms into a 40-foot-deep pit, dealing 4d6 points of damage to any victims who fall into it. Its ravenous walls then begin to grind like the stomach of a massive beast, dealing 4d6 points of bludgeoning damage every round to any creature in the pit. The convulsing walls impose a -15 circumstance penalty on Climb checks. Moderate conjuration; **CL** 9th; Craft Wondrous Item, hungry pit.",
 			"",
-			"**Persistent Pit:** This pit drops victims 20 feet, dealing 2d6 points of damage, and resumes its disguised form (expelling anyone trapped within) after 1 minute like other portable pits, but doesn't become inert once activated. A portable persistent pit continues to activate whenever a new creature walks across it. Faint conjuration; **CL** 4th; {feat/Craft Wondrous Item}, create pit.",
+			"**Persistent Pit:** This pit drops victims 20 feet, dealing 2d6 points of damage, and resumes its disguised form (expelling anyone trapped within) after 1 minute like other portable pits, but doesn't become inert once activated. A portable persistent pit continues to activate whenever a new creature walks across it. Faint conjuration; **CL** 4th; Craft Wondrous Item, create pit.",
 			"",
-			"**Spiked Pit:** A portable spiked pit is woven from cotton fibers and thorns. Once activated, it drops victims 20 feet onto a bed of spikes. Each victim takes 2d6 points of damage from the fall, and lands on 1d4 spikes (Atk +10, 1d4+2 damage each). Faint conjuration; **CL** 5th; {feat/Craft Wondrous Item}, spiked pit.",
+			"**Spiked Pit:** A portable spiked pit is woven from cotton fibers and thorns. Once activated, it drops victims 20 feet onto a bed of spikes. Each victim takes 2d6 points of damage from the fall, and lands on 1d4 spikes (Atk +10, 1d4+2 damage each). Faint conjuration; **CL** 5th; Craft Wondrous Item, spiked pit.",
 			"",
 			"### Construction",
 			"",
@@ -4077,7 +4077,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/alarm}, {spell/minor image}, {spell/summon nature's ally I}; **Cost** 1,600 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/alarm}, {spell/minor image}, *summon nature's ally I;* **Cost** 1,600 gp"
 		]
 	},
 	"charts_of_the_fair_winds": {
@@ -4176,7 +4176,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/summon monster VI}; **Cost** 1,650 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, *summon monster VI;* **Cost** 1,650 gp"
 		]
 	},
 	"imploding_stone": {

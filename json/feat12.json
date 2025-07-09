@@ -913,7 +913,7 @@
 			"",
 			"**Basic:** {rule/The |Maelstrom} grants you the ability to react to unpredictable situations, while also helping you to be more unpredictable. You gain a +1 bonus on initiative checks, a +1 bonus on Reflex saves, and a +2 bonus on Bluff checks to {rule/feint} in combat.",
 			"",
-			"**Improved:** The whimsical entropy of the Maelstrom runs through your veins. Once per day, you can use {spell/confusion} as a spell-like ability.",
+			"**Improved:** The whimsical entropy of the Maelstrom runs through your veins. Once per day, you can use *confusion* as a spell-like ability.",
 			"",
 			"**Greater:** You can invoke the pure chaos of the Maelstrom with a word. Once per day, you can use {spell/word of chaos} as a spell-like ability.",
 			"",
@@ -1350,7 +1350,7 @@
 			"",
 			"**Granted Spell-like Ability** {spell/decompose corpse}; if you use this ability on a corpse rather than on a corporeal undead, you receive nourishment as though you had eaten a normal meal for a Medium creature.",
 			"",
-			"**Note:** This feat was originally titled *Pantheistic Blessing*."
+			"**Note:** This feat was originally titled *Pantheistic Blessing.*"
 		]
 	},
 	"pommel_strike_deed": {

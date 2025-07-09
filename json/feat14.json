@@ -231,7 +231,7 @@
 			"A familiar is more than just an animal. It's a spirit and an intelligence, and your familiar can choose to take more than one physical form.  ",
 			"**Prerequisites:** {ability/Familiar} class feature, caster level 7th.  ",
 			"**Benefit:** Your {sidekick/familiar} gains the {umr/change shape} universal monster ability. This ability functions as {spell/beast shape II} and grants access to a single alternate form, which must be the same size as the familiar. Once chosen, this form cannot be changed.  ",
-			"**Special:** You can gain this feat multiple times. Each time you take this feat, your familiar gains an additional alternate form. If taken by a familiar that already has the {umr/change shape} universal monster ability (like an {monster/imp}), this grants a single additional form."
+			"**Special:** You can gain this feat multiple times. Each time you take this feat, your familiar gains an additional alternate form. If taken by a familiar that already has the change shape universal monster ability (like an {monster/imp}), this grants a single additional form."
 		]
 	},
 	"shapeshifter_foil": {
@@ -257,7 +257,7 @@
 			"",
 			"You have enough control over your transformations that you can lash out at an opponent while assuming your alternate form.  ",
 			"**Prerequisites:** {feat/Shapeshifter Style}, {feat/Shapeshifter Twist}, base attack bonus +8, change shape ability, shapechanger subtype.  ",
-			"**Benefit:** While you are using {feat/Shapeshifter Style}, if you use your change shape or wild shape ability as a standard action, you can also make a single melee attack with one of your natural weapons at your highest base attack bonus against one foe within your reach.  ",
+			"**Benefit:** While you are using Shapeshifter Style, if you use your change shape or wild shape ability as a standard action, you can also make a single melee attack with one of your natural weapons at your highest base attack bonus against one foe within your reach.  ",
 			"**Special:** A character with the wild shape class feature counts as having the change shape ability and shapechanger subtype for the purpose of meeting this feat's prerequisites."
 		]
 	},
@@ -294,7 +294,7 @@
 			"",
 			"Your form flexes and contorts in unexpected ways, making it difficult for enemies to move you against your will.  ",
 			"**Prerequisites:** {feat/Shapeshifter Style}, base attack bonus +5, change shape ability, shapechanger subtype.  ",
-			"**Benefit:** While you are using {feat/Shapeshifter Style}, you gain a +2 bonus to your CMD versus {rule/bull rush}, {rule/drag}, {rule/grapple}, {rule/overrun}, {rule/reposition}, and {rule/trip} combat maneuvers. If you begin your turn with the grappled condition, you can attempt a combat maneuver check or an Escape Artist check as a move action to attempt to break the grapple.  ",
+			"**Benefit:** While you are using Shapeshifter Style, you gain a +2 bonus to your CMD versus {rule/bull rush}, {rule/drag}, {rule/grapple}, {rule/overrun}, {rule/reposition}, and {rule/trip} combat maneuvers. If you begin your turn with the grappled condition, you can attempt a combat maneuver check or an Escape Artist check as a move action to attempt to break the grapple.  ",
 			"**Special:** A character with the wild shape class feature counts as having the change shape ability and shapechanger subtype for the purpose of meeting this feat's prerequisites."
 		]
 	},
@@ -970,7 +970,7 @@
 			"",
 			"You can hit an enemy unexpectedly with a maneuver.  ",
 			"**Prerequisites:** Dex 15, {feat/Shielded Staff Style}, base attack bonus +4.  ",
-			"**Benefit:** While in {feat/Shielded Staff Style}, if you hit a target with a shielded staff, you can attempt either a {rule/bull rush}, {rule/disarm}, {rule/sunder}, or {rule/trip} combat maneuver check as an immediate action. You lose your shield bonus until the start of your next turn if you attempt this combat maneuver."
+			"**Benefit:** While in Shielded Staff Style, if you hit a target with a shielded staff, you can attempt either a {rule/bull rush}, {rule/disarm}, {rule/sunder}, or {rule/trip} combat maneuver check as an immediate action. You lose your shield bonus until the start of your next turn if you attempt this combat maneuver."
 		]
 	},
 	"shielded_staff_master": {
@@ -983,7 +983,7 @@
 			"",
 			"Your staff and shield act as a single item.  ",
 			"**Prerequisites:** Dex 17, {feat/Improved Two-Weapon Fighting}, {feat/Shielded Staff Style}, {feat/Two-Weapon Fighting}, base attack bonus +8.  ",
-			"**Benefit:** While using {feat/Shielded Staff Style}, you add the attached buckler's or shield's enhancement bonus (if any) to the shield bonus you gain from this style. In addition, you do not take the -1 penalty to attacks made with a shielded staff. If both your shield and weapon have an enhancement bonus, use the higher of the two bonuses to determine your shielded staff's enhancement bonus to attack and damage rolls."
+			"**Benefit:** While using Shielded Staff Style, you add the attached buckler's or shield's enhancement bonus (if any) to the shield bonus you gain from this style. In addition, you do not take the -1 penalty to attacks made with a shielded staff. If both your shield and weapon have an enhancement bonus, use the higher of the two bonuses to determine your shielded staff's enhancement bonus to attack and damage rolls."
 		]
 	},
 	"shielded_staff_style": {
@@ -1063,7 +1063,7 @@
 			"",
 			"You channel a magic item's power to enhance its improvised attacks, even though it was never meant to be used as a weapon.  ",
 			"**Prerequisites:** {feat/Catch Off-Guard} or {feat/Throw Anything}, {feat/Shikigami Mimicry}, {feat/Shikigami Style}, Use Magic Device 5 ranks.  ",
-			"**Benefit:** While using {feat/Shikigami Style}, you can treat any magical item you're using as an {misc/improvised weapon} as if it granted an enhancement bonus on attack and damage rolls equal to the item's caster level divided by 4 (minimum +1), to a maximum bonus of +5.  ",
+			"**Benefit:** While using Shikigami Style, you can treat any magical item you're using as an {misc/improvised weapon} as if it granted an enhancement bonus on attack and damage rolls equal to the item's caster level divided by 4 (minimum +1), to a maximum bonus of +5.  ",
 			"**Special:** A character with this feat and {feat/Equipment Trick} who uses magical equipment to perform a trick can add a bonus equal to the item's caster level divided by 4 (minimum +1) on skill or combat maneuver checks attempted as part of the trick."
 		]
 	},
@@ -1077,7 +1077,7 @@
 			"",
 			"Your unique understanding of improvised tools enables you to turn the intrinsic form of all manner of objects to your advantage in combat.  ",
 			"**Prerequisites:** {feat/Catch Off-Guard} or {feat/Throw Anything}, {feat/Shikigami Style}.  ",
-			"**Benefit:** While in {feat/Shikigami Style}, you can take a -2 penalty on attack rolls to treat an {misc/improvised weapon} as if it had one of the following weapon special qualities until the start of your next turn: {misc/blocking}, {misc/brace}, {misc/disarm}, {misc/distracting}, {misc/nonlethal}, {misc/performance}, or {misc/trip}. If the weapon has the {misc/fragile} special quality or {misc/broken} condition, you can treat it as if it had the [jagged](rule/improvised_weapon_special_features) special quality."
+			"**Benefit:** While in Shikigami Style, you can take a -2 penalty on attack rolls to treat an {misc/improvised weapon} as if it had one of the following weapon special qualities until the start of your next turn: {misc/blocking}, {misc/brace}, {misc/disarm}, {misc/distracting}, {misc/nonlethal}, {misc/performance}, or {misc/trip}. If the weapon has the {misc/fragile} special quality or {misc/broken} condition, you can treat it as if it had the [jagged](rule/improvised_weapon_special_features) special quality."
 		]
 	},
 	"shikigami_style": {
@@ -1144,7 +1144,7 @@
 			"",
 			"The collectors of the lost dead prefer to use complex theology or blunt warnings to gather wayward spirits, but sometimes a more direct approach is necessary. One of them shared a trade secret with you.  ",
 			"**Prerequisites:** Ability to cast {spell/disrupt undead}, character level 3rd, {race/duskwalker}.  ",
-			"**Benefit:** The damage dealt by your {spell/disrupt undead} spell increases by 1d6. It increases by an additional 1d6 at 6th level and every 3 levels thereafter (to a maximum of 7d6 at 18th level)."
+			"**Benefit:** The damage dealt by your *disrupt undead* spell increases by 1d6. It increases by an additional 1d6 at 6th level and every 3 levels thereafter (to a maximum of 7d6 at 18th level)."
 		]
 	},
 	"shot_on_the_run": {
@@ -2846,7 +2846,7 @@
 			"",
 			"You incorporate your two-handed reach weapon into a dizzying martial dance.  ",
 			"**Prerequisites:** {feat/Weapon Focus} (any two-handed reach weapon), Perform (dance) 4 ranks.  ",
-			"**Benefit:** Each time you hit a creature with a two-handed reach weapon that you have {feat/Weapon Focus} in, the creature is {misc/dazzled} for 1 round.",
+			"**Benefit:** Each time you hit a creature with a two-handed reach weapon that you have Weapon Focus in, the creature is {misc/dazzled} for 1 round.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Weapon Master's Handbook/25}",
@@ -2995,7 +2995,7 @@
 			"",
 			"You can fire bullets of arcane energy when your ammunition runs low.  ",
 			"**Prerequisites:** {feat/Arcane Strike}, ability to cast arcane spells, proficient with firearms.  ",
-			"**Benefit:** While your gun is imbued with power from the {feat/Arcane Strike} feat, you can fire force bullets instead of regular ammunition. A force bullet deals 1d4 points of force damage for every five caster levels you have. Force bullets do not use black powder or ammunition and count as magic for the purpose of bypassing damage reduction."
+			"**Benefit:** While your gun is imbued with power from the Arcane Strike feat, you can fire force bullets instead of regular ammunition. A force bullet deals 1d4 points of force damage for every five caster levels you have. Force bullets do not use black powder or ammunition and count as magic for the purpose of bypassing damage reduction."
 		]
 	},
 	"spell_chain": {
@@ -3326,9 +3326,9 @@
 			"**Prerequisites:** Ability to cast *summon monster or *summon nature's ally* spells, {race/drow}.  ",
 			"**Benefit:** When casting either a *summon monster* spell or a *summon nature's ally* spell, your options increase. Depending on the level of the spell, you can summon the spiders listed below.",
 			"",
-			">@hll[spell/Summon Monster:>_1] 1st level-{monster/giant crab spider}\\*; 4th level-{monster/giant black widow}\\*; 5th level-{monster/ogre spider}\\*; 7th level-{monster/giant tarantula}\\*",
+			">@hll[spell/Summon Monster:] 1st level-{monster/giant crab spider}\\*; 4th level-{monster/giant black widow}\\*; 5th level-{monster/ogre spider}\\*; 7th level-{monster/giant tarantula}\\*",
 			">",
-			">@hll[spell/Summon Nature's Ally:>_1] 1st level-giant crab spider; 4th level-giant black widow; 5th level-ogre spider; 7th level-giant tarantula",
+			">@hll[spell/Summon Nature's Ally:] 1st level-giant crab spider; 4th level-giant black widow; 5th level-ogre spider; 7th level-giant tarantula",
 			"",
 			"Creatures marked with an asterisk (\\*) are summoned with the {template/celestial} template if you are good, and the {template/fiendish} template if you are evil. If you are neutral, you may choose which template to apply to the creature.",
 			"",

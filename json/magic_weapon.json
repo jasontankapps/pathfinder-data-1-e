@@ -96,7 +96,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/reduce person}; **Price** 86 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, *reduce person;* **Price** 86 gp"
 		]
 	},
 	"blade_of_lifes_defense": {
@@ -257,7 +257,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/dispel magic}; **Price** 125 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, *dispel magic;* **Price** 125 gp"
 		]
 	},
 	"unerring_grenade": {
@@ -730,7 +730,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/cup of dust}, {spell/summon monster I}; **Price** 880 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, *cup of dust,* {spell/summon monster I}; **Price** 880 gp"
 		]
 	},
 	"boulder_bullet_normal": {
@@ -1274,7 +1274,7 @@
 			"**Aura** strong evocation; **CL** 13th  ",
 			"**Slot** none; **Price** 4,315 gp; **Weight** 4 lbs.",
 			"",
-			"This intimidating weapon appears to be a longsword with multiple hooks, barbs, and serrations along the blade, excellent for catching and sundering a foe's weapon. Wielders without the {feat/Improved Sunder} feat use a shatterspike as a +1 {eq-weapon/longsword} only. Wielders with the Improved Sunder feat instead use shatterspike as a +4 {eq-weapon/longsword} when attempting to sunder an opponent's weapon. Shatterspike can damage weapons with an enhancement bonus of +4 or lower.",
+			"This intimidating weapon appears to be a longsword with multiple hooks, barbs, and serrations along the blade, excellent for catching and sundering a foe's weapon. Wielders without the {feat/Improved Sunder} feat use a shatterspike as a +1 {eq-weapon/longsword} only. Wielders with the Improved Sunder feat instead use shatterspike as a +4 longsword when attempting to sunder an opponent's weapon. Shatterspike can damage weapons with an enhancement bonus of +4 or lower.",
 			"",
 			"### Construction",
 			"",
@@ -1627,7 +1627,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/defoliate} (plus {spell/summon monster I} for animal or plant bane); **Price** 2,930 gp (5,930 gp for animal or plant bane)"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, *defoliate* (plus {spell/summon monster I} for animal or plant bane); **Price** 2,930 gp (5,930 gp for animal or plant bane)"
 		]
 	},
 	"bloatstrike_tail": {
@@ -1646,7 +1646,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/enlarge person}; **Price** 3,101 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, *enlarge person;* **Price** 3,101 gp"
 		]
 	},
 	"whispering_shrike": {
@@ -1663,7 +1663,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/shield other}; **Price** 3,140 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, *shield other;* **Price** 3,140 gp"
 		]
 	},
 	"bonespur_dagger": {
@@ -2006,7 +2006,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/true strike}, {spell/undeath to death}; **Price** 4,016 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, *true strike,* {spell/undeath to death}; **Price** 4,016 gp"
 		]
 	},
 	"dagger_of_venom": {
@@ -2133,7 +2133,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Magic Arms and Armor}; {spell/spider climb} (lesser) or {spell/confusion}, {spell/magic stone}, {spell/spider climb} (greater); **Price** 4,315 gp (lesser), 25,315 gp (greater)"
+			"**Requirements** {feat/Craft Magic Arms and Armor}; {spell/spider climb} (lesser) or {spell/confusion}, {spell/magic stone}, *spider climb* (greater); **Price** 4,315 gp (lesser), 25,315 gp (greater)"
 		]
 	},
 	"lesser_leng_flail": { "redirect": "leng_flail_lesser" },
@@ -2229,7 +2229,7 @@
 			"**Aura** strong evocation; **CL** 13th  ",
 			"**Slot** none; **Price** 8,810 gp; **Weight** 2 lbs.",
 			"",
-			"As black as coal, this short sword grows more potent the farther it is kept from light. It acts as a +1 {eq-weapon/short sword} when in dim light. In darkness, it acts as +2 {eq-weapon/short sword}. When surrounded by supernatural darkness, such as in an area of deeper darkness, it acts a +2 short sword and bestows the benefit of the {feat/Blind-Fight} feat on its wielder. In daylight or bright illumination, the sword temporarily loses all its magical enhancement bonuses and acts as a masterwork weapon, though it resumes its magical functions once it is no longer in the bright light.",
+			"As black as coal, this short sword grows more potent the farther it is kept from light. It acts as a +1 {eq-weapon/short sword} when in dim light. In darkness, it acts as +2 short sword. When surrounded by supernatural darkness, such as in an area of deeper darkness, it acts a +2 short sword and bestows the benefit of the {feat/Blind-Fight} feat on its wielder. In daylight or bright illumination, the sword temporarily loses all its magical enhancement bonuses and acts as a masterwork weapon, though it resumes its magical functions once it is no longer in the bright light.",
 			"",
 			"### Construction",
 			"",
@@ -2446,7 +2446,7 @@
 			"**Aura** moderate transmutation; **CL** 8th  ",
 			"**Slot** none; **Price** 9,512 gp; **Weight** 10 lbs.",
 			"",
-			"This well-crafted +1 {eq-weapon/glaive-guisarme} has an image of a roaring lion built into its fastener, and the entire weapon is unnaturally warm to the touch. When used to brace against a charge, this weapon acts as a +3 {eq-weapon/glaive-guisarme} and deals an additional 2d6 points of precision damage on a successful hit, in addition to dealing double damage against a charging character for being a weapon with the brace special feature.",
+			"This well-crafted +1 {eq-weapon/glaive-guisarme} has an image of a roaring lion built into its fastener, and the entire weapon is unnaturally warm to the touch. When used to brace against a charge, this weapon acts as a +3 glaive-guisarme and deals an additional 2d6 points of precision damage on a successful hit, in addition to dealing double damage against a charging character for being a weapon with the brace special feature.",
 			"",
 			"### Construction",
 			"",
@@ -2555,7 +2555,7 @@
 			"**Aura** moderate evocation, necromancy, and transmutation; **CL** 10th  ",
 			"**Slot** none; **Price** 9,875 gp; **Weight** 8 lbs.",
 			"",
-			"This +1 {magic-enh/flaming} {eq-weapon/falchion} is engraved with leering, long-tongued demonic faces. As a standard action, the bearer can will the weapon to transform into a +1 flaming {eq-weapon/kukri} or back to its larger form. The weapon has an affinity for humanoid blood and remains slick and wet with it long after it would normally dry. If the wielder kills a humanoid with Redlust's Daughter, she can lick clean this blood as a move action to heal 1d4 hit points. Lamashtu's church also creates a similar weapon called Chillheart's Daughter, which is a +1 {magic-enh/frost} {eq-weapon/falchion} that otherwise has the same properties as this weapon.",
+			"This +1 {magic-enh/flaming} {eq-weapon/falchion} is engraved with leering, long-tongued demonic faces. As a standard action, the bearer can will the weapon to transform into a +1 flaming {eq-weapon/kukri} or back to its larger form. The weapon has an affinity for humanoid blood and remains slick and wet with it long after it would normally dry. If the wielder kills a humanoid with Redlust's Daughter, she can lick clean this blood as a move action to heal 1d4 hit points. Lamashtu's church also creates a similar weapon called Chillheart's Daughter, which is a +1 {magic-enh/frost} falchion that otherwise has the same properties as this weapon.",
 			"",
 			"### Construction",
 			"",
@@ -3576,7 +3576,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Craft Wondrous Item}, {feat/Deadly Dealer}, {spell/magic missile}; **Price** 6,500 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Craft Wondrous Item}, Deadly Dealer, {spell/magic missile}; **Price** 6,500 gp"
 		]
 	},
 	"focused_shadowcraft_weapon": {
@@ -3699,7 +3699,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/aqueous orb}, {spell/ray of frost}, {spell/spark}; **Price** 7,015 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, *aqueous orb,* {spell/ray of frost}, {spell/spark}; **Price** 7,015 gp"
 		]
 	},
 	"greenblood_scourge": {
@@ -3822,7 +3822,7 @@
 			"**Aura** moderate conjuration; **CL** 8th  ",
 			"**Slot** none; **Price** 14,350 gp; **Weight** 8 lbs.",
 			"",
-			"This +1 {eq-weapon/greatsword} is made of blackened steel and embodies the Lambreth ideal that all crimes must be punished twice. Once per day after the wielder slays a creature with the Black Eagle's blade, the wielder can empower the weapon to become a +2 {magic-enh/bane} {eq-weapon/greatsword} as an immediate action; the sword's bane ability is keyed to the same creature type as the one that the wielder killed to activate the effect. This effect lasts for 8 rounds or until the wielder kills a second creature with the weapon, whichever comes first.",
+			"This +1 {eq-weapon/greatsword} is made of blackened steel and embodies the Lambreth ideal that all crimes must be punished twice. Once per day after the wielder slays a creature with the Black Eagle's blade, the wielder can empower the weapon to become a +2 {magic-enh/bane} greatsword as an immediate action; the sword's bane ability is keyed to the same creature type as the one that the wielder killed to activate the effect. This effect lasts for 8 rounds or until the wielder kills a second creature with the weapon, whichever comes first.",
 			"",
 			"### Construction",
 			"",
@@ -4028,7 +4028,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/dimension door}, {spell/shifting sand}; **Price** 9,302 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, *dimension door,* {spell/shifting sand}; **Price** 9,302 gp"
 		]
 	},
 	"shard_of_cocytus": {
@@ -4151,7 +4151,7 @@
 			"",
 			"As a standard action, the wielder of a hangman's noose can attempt a combat maneuver check to wrap the whip around a creature's neck. If she succeeds, the victim can't move outside of the whip's reach. As a standard action, the wielder can attempt a reposition combat maneuver check to move the victim within the whip's reach or to pull the whip tighter, strangling the victim (see the rules for {rule/suffocation}). Once the target is being strangled, the wielder can attempt a combat maneuver check as a standard action to squeeze the air out of the victim's lungs. This reduces the amount of time the victim can {misc/hold his breath} by 1d6+1 rounds.",
 			"",
-			"A victim can escape the noose with a successful Escape Artist check (DC = the wielder's CMD), or by severing the noose with an attack or a successful sunder combat maneuver check. The noose has AC 18, hardness 2, and 12 hp. If severed, the noose can still be used as a +1 {eq-weapon/whip} and repairs itself after 1 hour.",
+			"A victim can escape the noose with a successful Escape Artist check (DC = the wielder's CMD), or by severing the noose with an attack or a successful sunder combat maneuver check. The noose has AC 18, hardness 2, and 12 hp. If severed, the noose can still be used as a +1 whip and repairs itself after 1 hour.",
 			"",
 			"### Construction",
 			"",
@@ -4345,7 +4345,7 @@
 			"**Aura** strong transmutation; **CL** 15th  ",
 			"**Slot** none; **Price** 18,600 gp; **Weight** 8 lbs.",
 			"",
-			"These paired firearms - a +1 {magic-enh/flaming} {eq-weapon/dragon pistol} and a +1 {magic-enh/frost} {eq-weapon/dragon pistol} - are ornately inscribed and carefully carved to resemble fire and ice drakes as a tribute to an infamous pair of quarreling drake siblings (though the names of the drakes have been lost to time).",
+			"These paired firearms - a +1 {magic-enh/flaming} {eq-weapon/dragon pistol} and a +1 {magic-enh/frost} dragon pistol - are ornately inscribed and carefully carved to resemble fire and ice drakes as a tribute to an infamous pair of quarreling drake siblings (though the names of the drakes have been lost to time).",
 			"",
 			"As a swift action, the guns of the twin drakes can be joined together to function as a double-barreled weapon. As a standard action, the joined weapons can be fired at the same time; in this case they must be fired at the same target, and each shot uses a separate attack roll and takes a -4 penalty. When fired this way, the first shot deals 1d4 additional points of fire damage and the second deals 1d4 additional points of cold damage; this damage is instead of the extra damage normally granted by the flaming and frost weapon special abilities.",
 			"",

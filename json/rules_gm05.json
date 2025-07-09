@@ -924,7 +924,7 @@
 			"| 87-89 | 1d4 {monster/worg/s} | 4 |",
 			"| 90-91 | 1 {monster/barghest} | 4 |",
 			"| 92-94 | 1d6 {monster/shocker lizard/s} | 5 |",
-			"| 95-100 | 3d8 {monster/goblin/s} | 5 |",
+			"| 95-100 | 3d8 goblins | 5 |",
 			"",
 			"### Table 7-10: Graveyard/Necropolis",
 			"",
@@ -1670,7 +1670,7 @@
 			"",
 			"- Magically Morphic: Parts of the Shadow Plane continually flow onto other planes. As a result, creating a precise map of the plane is next to impossible, despite the presence of landmarks. In addition, certain spells, such as {spell/shadow conjuration} and {spell/shadow evocation}, modify the base material of the Shadow Plane. The utility and power of these spells within the Shadow Plane make them particularly useful for explorers and natives alike.",
 			"- Mildly Neutral-Aligned",
-			"- Enhanced Magic: Spells with the {spelldef/shadow>_descriptor} descriptor are enhanced on the Shadow Plane. Furthermore, specific spells become more powerful on the Shadow Plane. {spell/Shadow conjuration} and {spell/shadow evocation} spells are 30% as powerful as the conjurations and evocations they mimic (as opposed to 20%). {spell/Greater shadow conjuration} and {spell/greater shadow evocation} are 70% as powerful (not 60%), and a {spell/shades} spell conjures at 90% of the power of the original (not 80%). Despite the dark nature of the Shadow Plane, spells that produce, use, or manipulate darkness are unaffected by the plane.",
+			"- Enhanced Magic: Spells with the {spelldef/shadow>_descriptor} descriptor are enhanced on the Shadow Plane. Furthermore, specific spells become more powerful on the Shadow Plane. *Shadow conjuration* and *shadow evocation* spells are 30% as powerful as the conjurations and evocations they mimic (as opposed to 20%). {spell/Greater shadow conjuration} and {spell/greater shadow evocation} are 70% as powerful (not 60%), and a {spell/shades} spell conjures at 90% of the power of the original (not 80%). Despite the dark nature of the Shadow Plane, spells that produce, use, or manipulate darkness are unaffected by the plane.",
 			"- Impeded Magic: Spells with the {spelldef/light} descriptor or that use or generate light or fire are impeded on the Shadow Plane. Spells that produce light are less effective in general, because all light sources have their ranges halved on the Shadow Plane."
 		],
 		"parent_topics": [
@@ -2033,7 +2033,7 @@
 			"- Subjective Directional Gravity",
 			"- Timeless: Age, hunger, thirst, afflictions (such as diseases, curses, and poisons), and natural healing don't function in the Astral Plane, though they resume functioning when the traveler leaves the Astral Plane.",
 			"- Mildly Neutral-Aligned",
-			"- Enhanced Magic: All spells and spell-like abilities used within the Astral Plane may be employed as if they were improved by the {feat/Quicken Spell} or {feat/Quicken Spell-Like Ability} feats. Already quickened spells and spell-like abilities are unaffected, as are spells from magic items. Spells so quickened are still prepared and cast at their unmodified level. As with the {feat/Quicken Spell} feat, only one quickened spell or spell-like ability can be cast per round."
+			"- Enhanced Magic: All spells and spell-like abilities used within the Astral Plane may be employed as if they were improved by the {feat/Quicken Spell} or {feat/Quicken Spell-Like Ability} feats. Already quickened spells and spell-like abilities are unaffected, as are spells from magic items. Spells so quickened are still prepared and cast at their unmodified level. As with the Quicken Spell feat, only one quickened spell or spell-like ability can be cast per round."
 		],
 		"parent_topics": [
 			"gamemastery",
@@ -2743,7 +2743,7 @@
 			"| 22-27 | 2d4 {monster/unicorn/s} | 7 |",
 			"| 28-31 | 1d6 {monster/harp/ies>y} | 7 |",
 			"| 32-36 | 2d4 {monster/pegas/i>us} | 7 |",
-			"| 37-39 | 1d6 {template/half-celestial} {monster/unicorn/s} | 7 |",
+			"| 37-39 | 1d6 {template/half-celestial} unicorns | 7 |",
 			"| 40-42 | 1d4 {monster/bralani/s} | 8 |",
 			"| 43-46 | 1d6 {monster/babau/s} | 8 |",
 			"| 47-50 | 1 {monster/spirit naga} | 9 |",
@@ -2798,7 +2798,7 @@
 			"| 09-12 | 1d4 {monster/giant eagle/s} | 5 |",
 			"| 13-16 | 1d6 {monster/dryad/s} | 6 |",
 			"| 17-21 | 1d6 {monster/unicorn/s} | 6 |",
-			"| 22-25 | 1d4 {template/half-celestial} {monster/unicorn/s} | 6 |",
+			"| 22-25 | 1d4 {template/half-celestial} unicorns | 6 |",
 			"| 26-29 | 2d6 {monster/lantern archon/s} | 7 |",
 			"| 30-35 | 1d4 {monster/djinn>i} | 7 |",
 			"| 36-39 | 1d6 {monster/hound archon/s} | 7 |",

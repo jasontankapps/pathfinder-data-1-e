@@ -172,9 +172,9 @@
 			"",
 			"**Sealed Poppet (Price +200 gp):** A layer of protective sealants protects the poppet from flames. The poppet loses its vulnerability to fire. **Requirements:** {spell/resist energy}; **Cost:** +100 gp.",
 			"",
-			"**Soaring Poppet (Price +800 gp):** The poppet gains a rudimentary pair of wings, granting it the ability to fly at a speed of 20 feet with poor maneuverability. A poppet can gain this augmentation a second time to increase its fly speed to 30 feet and gain {feat/Hover} as a bonus feat. A poppet must have the {feat/Acrobatic} feat before gaining this augmentation. **Requirements:** {spell/fly}, {spell/minor creation}; **Cost:** +400 gp.",
+			"**Soaring Poppet (Price +800 gp):** The poppet gains a rudimentary pair of wings, granting it the ability to fly at a speed of 20 feet with poor maneuverability. A poppet can gain this augmentation a second time to increase its fly speed to 30 feet and gain {feat/Hover} as a bonus feat. A poppet must have the {feat/Acrobatic} feat before gaining this augmentation. **Requirements:** {spell/fly}, *minor creation;* **Cost:** +400 gp.",
 			"",
-			"**Swimming Poppet (Price +400 gp):** The poppet bears fins, flippers, or other accessories to assist with swimming. It gains a swim speed of 20 feet. A poppet must have the {feat/Athletic} feat before gaining this augmentation. **Requirements:** {spell/minor creation}, {spell/water breathing}; **Cost:** +200 gp."
+			"**Swimming Poppet (Price +400 gp):** The poppet bears fins, flippers, or other accessories to assist with swimming. It gains a swim speed of 20 feet. A poppet must have the Athletic feat before gaining this augmentation. **Requirements:** *minor creation,* {spell/water breathing}; **Cost:** +200 gp."
 		]
 	},
 	"tiny_poppet": { "redirect": "poppet_poppet_tiny" },
@@ -2349,7 +2349,7 @@
 			"A rune guardian's body is carved from a single block of semiprecious stone, then polished and treated with rare dusts and oils worth at least 500 gp.",
 			"",
 			"**CL** 11th; **Price** 6,500 gp  ",
-			"**Requirements** {feat/Craft Construct}, {spell/fly}, {spell/geas//quest}, plus *burning hands*, *color spray*, *hold portal*, *ray of enfeeblement*, *reduce person*, *sleep*, or *summon monster I*, creator must be caster level 11th; Skill Craft (stonecarving) DC 16; **Cost** 3,500 gp"
+			"**Requirements** {feat/Craft Construct}, {spell/fly}, {spell/geas//quest}, plus *burning hands, color spray, hold portal, ray of enfeeblement, reduce person, sleep,* or *summon monster I,* creator must be caster level 11th; Skill Craft (stonecarving) DC 16; **Cost** 3,500 gp"
 		]
 	},
 	"rusalka": {

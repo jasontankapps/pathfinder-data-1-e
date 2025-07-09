@@ -509,7 +509,7 @@
 			"",
 			"| Item | Craft Skill | Craft DC |",
 			"| --- | --- | --- |",
-			"| A weapon with the {misc/fragile} special quality | Weapon or Bow | Normal DC -5 |",
+			"| A weapon with the fragile special quality | Weapon or Bow | Normal DC -5 |",
 			"| One-handed firearm | Firearm | 20 |",
 			"| Two-handed firearm | Firearm | 20 |",
 			"| Siege firearm, heavy | Firearm | 25 |",
@@ -2205,7 +2205,7 @@
 			"",
 			"You channel all of your rage into one massive blow to crush your enemy.  ",
 			"**Prerequisites:** Rage class feature, {feat/Vital Strike}, base attack bonus +6.  ",
-			"**Benefit:** While raging, when you use the {feat/Vital Strike} feat, you can choose not to roll your damage dice and instead deal damage equal to the maximum roll possible on those damage dice. If you do, your rage immediately ends, and you are {misc/fatigued} (even if you would not normally be)."
+			"**Benefit:** While raging, when you use the Vital Strike feat, you can choose not to roll your damage dice and instead deal damage equal to the maximum roll possible on those damage dice. If you do, your rage immediately ends, and you are {misc/fatigued} (even if you would not normally be)."
 		]
 	},
 	"furious_focus": {
@@ -2222,7 +2222,7 @@
 			"",
 			"Even in the midst of fierce and furious blows, you can find focus in the carnage and your seemingly wild blows strike home.  ",
 			"**Prerequisites:** Str 13, {feat/Power Attack}, base attack bonus +1.  ",
-			"**Benefit:** When you are wielding a two-handed weapon or a one-handed weapon with two hands, and using the {feat/Power Attack} feat, you do not suffer Power Attack's penalty on melee attack rolls on the first attack you make each turn. You still suffer the penalty on any additional attacks, including attacks of opportunity.",
+			"**Benefit:** When you are wielding a two-handed weapon or a one-handed weapon with two hands, and using the Power Attack feat, you do not suffer Power Attack's penalty on melee attack rolls on the first attack you make each turn. You still suffer the penalty on any additional attacks, including attacks of opportunity.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/120}",
@@ -2334,7 +2334,7 @@
 			"",
 			"You've learned to defend yourself against spell and storm with dazzling flourishes of your weapon.  ",
 			"**Prerequisites:** {feat/Alertness}, {feat/Exotic Weapon Proficiency} (Aldori dueling sword), {feat/Weapon Focus} (Aldori dueling sword), base attack bonus +4.  ",
-			"**Prerequisites:** {feat/Alertness}, base attack bonus +4.  ",
+			"**Prerequisites:** Alertness, base attack bonus +4.  ",
 			"**Benefit:** Whenever you use {feat/Combat Expertise}, {misc/fight defensively}, or take the {misc/total defense} action, choose a type of saving throw. (You can choose a different type each time you take such an action.) Once per round before attempting a saving throw using the selected save, you gain a +2 bonus on that save. If you have a base attack bonus of +11 or higher, this bonus increases to +3. If you have a base attack bonus of +16 or higher, the bonus instead increases to +4."
 		]
 	},
@@ -2553,7 +2553,7 @@
 			"",
 			"When you strike hard, you knock smaller foes off their feet.  ",
 			"**Prerequisites:** Str 13, {feat/Power Attack}, {feat/Vital Strike}, base attack bonus +6, giant subtype.  ",
-			"**Benefit:** If you hit a creature at least one size category smaller than you with a melee attack while using both {feat/Power Attack} and {feat/Vital Strike}, the creature that you attacked is also knocked {rule/prone}. A successful Reflex save negates this effect (DC = 10 + your base attack bonus). You must choose to use this feat before making the attack roll.  ",
+			"**Benefit:** If you hit a creature at least one size category smaller than you with a melee attack while using both Power Attack and Vital Strike, the creature that you attacked is also knocked {rule/prone}. A successful Reflex save negates this effect (DC = 10 + your base attack bonus). You must choose to use this feat before making the attack roll.  ",
 			"**Special:** This effect stacks with the effect of {feat/Giant's Wallop}."
 		]
 	},
@@ -2580,7 +2580,7 @@
 			"",
 			"When you strike, you knock the sense out of smaller foes.  ",
 			"**Prerequisites:** Str 13, {feat/Power Attack}, {feat/Vital Strike}, base attack bonus +6, giant subtype.  ",
-			"**Benefit:** If you hit a creature at least one size category smaller than you with a melee attack while using both {feat/Power Attack} and {feat/Vital Strike}, the creature you attacked is also {misc/dazed} for 1 round. A successful Fortitude save negates this effect (DC = 10 + your base attack bonus). You must choose to use this feat before making the attack roll.  ",
+			"**Benefit:** If you hit a creature at least one size category smaller than you with a melee attack while using both Power Attack and Vital Strike, the creature you attacked is also {misc/dazed} for 1 round. A successful Fortitude save negates this effect (DC = 10 + your base attack bonus). You must choose to use this feat before making the attack roll.  ",
 			"**Special:** This effect stacks with the effect of {feat/Giant's Crush}."
 		]
 	},
@@ -2709,7 +2709,7 @@
 			"{SOURCE Heroes of Golarion/9}",
 			"",
 			"The goddess {faith/Sarenrae} welcomes all who seek good in the world into her fold, and some goblins are drawn to worship her, in part due to her incarnation as a giant ball of fire.  ",
-			"**Prerequisites:** {race/Goblin}, worshiper of {faith/Sarenrae}.  ",
+			"**Prerequisites:** {race/Goblin}, worshiper of Sarenrae.  ",
 			"**Benefit:** If the sun is visible, you can spend 1 round performing a wild dance in worship of the Dawnflower. Starting at the beginning of your next turn, allies who can see you gain a +1 morale bonus on attack rolls, skill checks, and saving throws. This effect lasts for a number of rounds equal to half your character level + your Wisdom modifier (minimum 1 round). At 9th level, this bonus increases to +2."
 		]
 	},
@@ -2975,7 +2975,7 @@
 			"",
 			"By drawing upon wells of savagery, you can slay your foe in creative and horrifyingly gruesome manners, intimidating nearby foes.  ",
 			"**Prerequisites:** {feat/Dazzling Display}, {feat/Weapon Focus}.  ",
-			"**Benefit:** When you use the attack action, you can use a weapon with which you have {feat/Weapon Focus} to make a single attack at your highest base attack bonus. If you reduce your target to negative hit points, you can spend a swift action to make an {skill/Intimidate} check to demoralize all foes within 30 feet who could see your attack.",
+			"**Benefit:** When you use the attack action, you can use a weapon with which you have Weapon Focus to make a single attack at your highest base attack bonus. If you reduce your target to negative hit points, you can spend a swift action to make an {skill/Intimidate} check to demoralize all foes within 30 feet who could see your attack.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/120}",
@@ -3015,7 +3015,7 @@
 			"",
 			"You can snatch up an item to use as a weapon in the blink of an eye.  ",
 			"**Prerequisites:** {feat/Catch Off-Guard} or {feat/Throw Anything}, base attack bonus +1.  ",
-			"**Benefit:** As a free action, you can pick up an unattended item as part of a movement. Picking up the item does not provoke an attack of opportunity. If you have {feat/Throw Anything}, you can pick up a number of closely gathered items that could be held in one hand (such as dishes from a stack of plates) equal to your Dexterity modifier (minimum 1). You must have a hand free to use this feat."
+			"**Benefit:** As a free action, you can pick up an unattended item as part of a movement. Picking up the item does not provoke an attack of opportunity. If you have Throw Anything, you can pick up a number of closely gathered items that could be held in one hand (such as dishes from a stack of plates) equal to your Dexterity modifier (minimum 1). You must have a hand free to use this feat."
 		]
 	},
 	"grabbing_drag": {
@@ -3172,7 +3172,7 @@
 			"",
 			"You have trained to cast spells while wrestling an opponent.  ",
 			"**Prerequisites:** {feat/Combat Casting}.  ",
-			"**Benefit:** You gain a +4 bonus on {rule/concentration} checks to cast spells while grappled. This bonus stacks with the bonus granted by {feat/Combat Casting}."
+			"**Benefit:** You gain a +4 bonus on {rule/concentration} checks to cast spells while grappled. This bonus stacks with the bonus granted by Combat Casting."
 		]
 	},
 	"grasping_strike": {
@@ -3225,7 +3225,7 @@
 			"",
 			"You use unusual gravities to adjust your vital strikes.  ",
 			"**Prerequisites:** {feat/Vital Strike}; {feat/Heavy Gravity Acclimation} or {feat/Light Gravity Acclimation}.  ",
-			"**Benefit:** When using any {feat/Vital Strike} feat in an area of light or heavy {rule/gravity>_traits}, roll the weapon's damage dice for the attack one additional time. For example, if using {feat/Improved Vital Strike}, you would roll the weapon's damage dice for the attack four times before adding other damage bonuses, instead of three times. You must have the appropriate prerequisite feat associated with the plane's gravity trait to gain this benefit."
+			"**Benefit:** When using any Vital Strike feat in an area of light or heavy {rule/gravity>_traits}, roll the weapon's damage dice for the attack one additional time. For example, if using {feat/Improved Vital Strike}, you would roll the weapon's damage dice for the attack four times before adding other damage bonuses, instead of three times. You must have the appropriate prerequisite feat associated with the plane's gravity trait to gain this benefit."
 		]
 	},
 	"gray_dwarf_magic": {
@@ -3482,7 +3482,7 @@
 			"",
 			"Your bull rush attacks throw enemies off balance.  ",
 			"**Prerequisites:** {feat/Improved Bull Rush}, {feat/Power Attack}, base attack bonus +6, Str 13.  ",
-			"**Benefit:** You receive a +2 bonus on checks made to {rule/bull rush} a foe. This bonus stacks with the bonus granted by {feat/Improved Bull Rush}. Whenever you bull rush an opponent, his movement provokes attacks of opportunity from all of your allies (but not you).  ",
+			"**Benefit:** You receive a +2 bonus on checks made to {rule/bull rush} a foe. This bonus stacks with the bonus granted by Improved Bull Rush. Whenever you bull rush an opponent, his movement provokes attacks of opportunity from all of your allies (but not you).  ",
 			"**Normal:** Creatures moved by bull rush do not provoke attacks of opportunity.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",

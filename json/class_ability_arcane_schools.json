@@ -462,7 +462,16 @@
 			"",
 			"::h3[Aether Spells]{jl}",
 			"",
-			"0-{spell/telekinetic projectile}; 1st-{spell/floating disk}, {spell/magic missile}, {spell/unseen servant}; 2nd-{spell/blur}, {spell/pilfering hand}, {spell/spiritual weapon}; 3rd-{spell/ablative barrier}, {spell/blink}, {spell/ectoplasmic snare}, {spell/force punch}, {spell/tiny hut}; 4th-{spell/resilient sphere}, {spell/spiritual ally}, {spell/telekinetic charge}, {spell/telekinetic maneuver}; 5th-{spell/condensed ether}, {spell/ethereal envelope}, {spell/interposing hand}, {spell/mage's faithful hound}, {spell/secret chest}, {spell/telekinesis}, {spell/wall of ectoplasm}; 6th-{spell/animate objects}, {spell/enemy hammer}, {spell/forceful hand}, {spell/leashed shackles}; 7th-{spell/ectoplasmic eruption}, {spell/ethereal jaunt}, {spell/grasping hand}, {spell/phase door}; 8th-{spell/clenched fist}, {spell/telekinetic sphere}; 9th-{spell/etherealness}, {spell/telekinetic storm}"
+			"- 0-*telekinetic projectile*",
+			"- 1st-{spell/floating disk}, {spell/magic missile}, {spell/unseen servant}",
+			"- 2nd-{spell/blur}, {spell/pilfering hand}, *spiritual weapon*",
+			"- 3rd-{spell/ablative barrier}, {spell/blink}, {spell/ectoplasmic snare}, {spell/force punch}, {spell/tiny hut}",
+			"- 4th-{spell/resilient sphere}, *spiritual ally,* {spell/telekinetic charge}, {spell/telekinetic maneuver}",
+			"- 5th-{spell/condensed ether}, *ethereal envelope,* {spell/interposing hand}, {spell/mage's faithful hound}, {spell/secret chest}, {spell/telekinesis}, {spell/wall of ectoplasm}",
+			"- 6th-*animate objects,* {spell/enemy hammer}, {spell/forceful hand}, {spell/leashed shackles}",
+			"- 7th-*ectoplasmic eruption,* {spell/ethereal jaunt}, {spell/grasping hand}, {spell/phase door}",
+			"- 8th-{spell/clenched fist}, {spell/telekinetic sphere}",
+			"- 9th-{spell/etherealness}, *telekinetic storm*"
 		]
 	},
 	"air": {
@@ -477,7 +486,7 @@
 			"{SOURCE Advanced Player's Guide/142}  ",
 			"The air elementalist uses the forces of the wind, sky, clouds, and lightning to confuse and destroy his foes, all while flying through the air with ease.",
 			"",
-			"**Air Supremacy (Su):** You gain a +2 enhancement bonus on Fly skill checks. This bonus increases by +1 for every five wizard levels you possess. In addition, you can cast {spell/feather fall} on yourself at will. At 5th level, you can cast levitate on yourself at will. At 10th level, you can cast {spell/fly} on yourself at will. At 20th level, whenever you make a Fly skill check, assume the roll resulted in a natural 20.",
+			"**Air Supremacy (Su):** You gain a +2 enhancement bonus on Fly skill checks. This bonus increases by +1 for every five wizard levels you possess. In addition, you can cast {spell/feather fall} on yourself at will. At 5th level, you can cast {spell/levitate} on yourself at will. At 10th level, you can cast {spell/fly} on yourself at will. At 20th level, whenever you make a Fly skill check, assume the roll resulted in a natural 20.",
 			"",
 			"**Lightning Flash (Su):** As a standard action, you can unleash a flash of electricity. This flash deals 1d6 points of electricity damage + 1 point for every two wizard levels you possess to all creatures within 5 feet of you and {misc/dazzle/s>d} them for 1d4 rounds. A successful Reflex save negates the dazzled effect and halves the damage. The DC of this save is equal to 10 + 1/2 your wizard level + your Intelligence modifier. You can use this ability a number of times per day equal to 3 + your Intelligence modifier.",
 			"",
@@ -507,7 +516,16 @@
 			"",
 			"::h3[Air Spells]{jl}",
 			"",
-			"0-{spell/message}; 1st-{spell/alter winds}, {spell/feather fall}, {spell/shocking grasp}; 2nd-{spell/elemental speech}, {spell/elemental touch}, {spell/resist energy}, {spell/summon monster II}, {spell/glide}, {spell/gust of wind}, {spell/levitate}, {spell/whispering wind}; 3rd-{spell/draconic reservoir}, {spell/elemental aura}, {spell/protection from energy}, {spell/cloak of winds}, {spell/fly}, {spell/gaseous form}, {spell/lightning bolt}, {spell/wind wall}; 4th-{spell/detonate}, {spell/dragon's breath}, {spell/elemental body I}, {spell/summon monster IV}, {spell/ball lightning}, {spell/river of wind}, {spell/shout}; 5th-{spell/elemental body II}, {spell/planar adaptation}, {spell/lesser planar binding}, {spell/summon monster V}, {spell/overland flight}, {spell/suffocation}, {spell/cone of cold}, {spell/geyser}; 6th-{spell/elemental body III}, {spell/planar binding}, {spell/summon monster VI}, {spell/chain lightning}, {spell/sirocco}; 7th-{spell/elemental body IV}, {spell/mass planar adaptation}, {spell/summon monster VII}, {spell/control weather}, {spell/mass fly}; 8th-{spell/greater planar binding}, {spell/summon monster VIII}, {spell/greater shout}, {spell/stormbolts}; 9th-{spell/gate}, {spell/mass suffocation}, {spell/winds of vengeance}"
+			"- 0-{spell/message}",
+			"- 1st-{spell/alter winds}, *feather fall,* {spell/shocking grasp}",
+			"- 2nd-{spell/elemental speech}, {spell/elemental touch}, {spell/glide}, {spell/gust of wind}, *levitate,* {spell/resist energy}, {spell/summon monster II}, {spell/whispering wind}",
+			"- 3rd-{spell/cloak of winds}, {spell/draconic reservoir}, {spell/elemental aura}, *fly, gaseous form,* {spell/lightning bolt}, {spell/protection from energy}, {spell/wind wall}",
+			"- 4th-{spell/ball lightning}, {spell/detonate}, {spell/dragon's breath}, {spell/elemental body I}, {spell/river of wind}, {spell/shout}, {spell/summon monster IV}",
+			"- 5th-{spell/cone of cold}, {spell/elemental body II}, {spell/geyser}, {spell/overland flight}, {spell/planar adaptation}, {spell/lesser planar binding}, {spell/suffocation}, {spell/summon monster V}",
+			"- 6th-{spell/chain lightning}, {spell/elemental body III}, {spell/planar binding}, {spell/sirocco}, {spell/summon monster VI}",
+			"- 7th-{spell/control weather}, {spell/elemental body IV}, {spell/mass fly}, {spell/mass planar adaptation}, {spell/summon monster VII}",
+			"- 8th-{spell/greater planar binding}, {spell/greater shout}, {spell/stormbolts}, {spell/summon monster VIII}",
+			"- 9th-{spell/gate}, {spell/mass suffocation}, {spell/winds of vengeance}"
 		]
 	},
 	"earth": {
@@ -552,7 +570,16 @@
 			"",
 			"::h3[Earth Spells]{jl}",
 			"",
-			"0-{spell/acid splash}; 1st-{spell/expeditious excavation}, {spell/grease}, {spell/stone fist}; 2nd-{spell/elemental speech}, {spell/elemental touch}, {spell/resist energy}, {spell/summon monster II}, {spell/acid arrow}, {spell/create pit}, {spell/glitterdust}, {spell/shatter}, {spell/stone call}; 3rd-{spell/draconic reservoir}, {spell/elemental aura}, {spell/protection from energy}, {spell/shifting sand}, {spell/spiked pit}, {spell/stinking cloud}; 4th-{spell/detonate}, {spell/dragon's breath}, {spell/elemental body I}, {spell/summon monster IV}, {spell/acid pit}, {spell/calcific touch}, {spell/stone shape}, {spell/stoneskin}; 5th-{spell/elemental body II}, {spell/planar adaptation}, {spell/lesser planar binding}, {spell/summon monster V}, {spell/hungry pit}, {spell/passwall}, {spell/transmute mud to rock}, {spell/transmute rock to mud}, {spell/wall of stone}, {spell/cone of cold}, {spell/geyser}; 6th-{spell/elemental body III}, {spell/planar binding}, {spell/summon monster VI}, {spell/acid fog}, {spell/flesh to stone}, {spell/move earth}, {spell/stone to flesh}, {spell/wall of iron}; 7th-{spell/elemental body IV}, {spell/mass planar adaptation}, {spell/summon monster VII}, {spell/rampart}, {spell/reverse gravity}, {spell/statue}; 8th-{spell/greater planar binding}, {spell/summon monster VIII}, {spell/iron body}, {spell/wall of lava}; 9th-{spell/gate}, {spell/clashing rocks}, {spell/world wave}"
+			"- 0-{spell/acid splash}",
+			"- 1st-{spell/expeditious excavation}, {spell/grease}, {spell/stone fist}",
+			"- 2nd-{spell/acid arrow}, {spell/create pit}, {spell/elemental speech}, {spell/glitterdust}, {spell/elemental touch}, {spell/resist energy}, {spell/shatter}, {spell/stone call}, {spell/summon monster II}",
+			"- 3rd-{spell/draconic reservoir}, {spell/elemental aura}, {spell/protection from energy}, {spell/shifting sand}, {spell/spiked pit}, {spell/stinking cloud}",
+			"- 4th-{spell/acid pit}, {spell/calcific touch}, {spell/detonate}, {spell/dragon's breath}, {spell/elemental body I}, {spell/stone shape}, {spell/stoneskin}, {spell/summon monster IV}",
+			"- 5th-{spell/cone of cold}, {spell/elemental body II}, {spell/geyser}, {spell/hungry pit}, {spell/passwall}, {spell/planar adaptation}, {spell/lesser planar binding}, {spell/summon monster V}, {spell/transmute mud to rock}, {spell/transmute rock to mud}, {spell/wall of stone}",
+			"- 6th-{spell/acid fog}, {spell/elemental body III}, {spell/flesh to stone}, {spell/move earth}, {spell/planar binding}, {spell/stone to flesh}, {spell/summon monster VI}, {spell/wall of iron}",
+			"- 7th-{spell/elemental body IV}, {spell/mass planar adaptation}, {spell/rampart}, {spell/reverse gravity}, {spell/statue}, {spell/summon monster VII}",
+			"- 8th-{spell/iron body}, {spell/greater planar binding}, {spell/summon monster VIII}, {spell/wall of lava}",
+			"- 9th-{spell/clashing rocks}, {spell/gate}, {spell/world wave}"
 		]
 	},
 	"fire": {
@@ -597,7 +624,16 @@
 			"",
 			"::h3[Fire Spells]{jl}",
 			"",
-			"0-{spell/spark}; 1st-{spell/burning hands}, {spell/dancing lantern}; 2nd-{spell/elemental speech}, {spell/elemental touch}, {spell/resist energy}, {spell/summon monster II}, {spell/burning gaze}, {spell/fire breath}, {spell/flaming sphere}, {spell/pyrotechnics}, {spell/scorching ray}; 3rd-{spell/draconic reservoir}, {spell/elemental aura}, {spell/protection from energy}, {spell/campfire wall}, {spell/fireball}, {spell/flame arrow}; 4th-{spell/detonate}, {spell/dragon's breath}, {spell/elemental body I}, {spell/summon monster IV}, {spell/fire shield}, {spell/fire trap}, {spell/firefall}, {spell/wall of fire}; 5th-{spell/elemental body II}, {spell/planar adaptation}, {spell/lesser planar binding}, {spell/summon monster V}, {spell/fire snake}, {spell/geyser}, {spell/cone of cold}, {spell/geyser}; 6th-{spell/elemental body III}, {spell/planar binding}, {spell/summon monster VI}, {spell/contagious flame}, {spell/sirocco}; 7th-{spell/elemental body IV}, {spell/mass planar adaptation}, {spell/summon monster VII}, {spell/delayed blast fireball}, {spell/firebrand}; 8th-{spell/greater planar binding}, {spell/summon monster VIII}, {spell/incendiary cloud}, {spell/wall of lava}; 9th-{spell/gate}, {spell/fiery body}, {spell/meteor swarm}"
+			"- 0-{spell/spark}",
+			"- 1st-{spell/burning hands}, {spell/dancing lantern}",
+			"- 2nd-{spell/burning gaze}, {spell/elemental speech}, {spell/elemental touch}, {spell/fire breath}, {spell/flaming sphere}, {spell/pyrotechnics}, {spell/resist energy}, {spell/scorching ray}, {spell/summon monster II}",
+			"- 3rd-{spell/campfire wall}, {spell/draconic reservoir}, {spell/elemental aura}, {spell/fireball}, {spell/flame arrow}, {spell/protection from energy}",
+			"- 4th-{spell/detonate}, {spell/dragon's breath}, {spell/elemental body I}, {spell/fire shield}, {spell/fire trap}, {spell/firefall}, {spell/summon monster IV}, {spell/wall of fire}",
+			"- 5th-{spell/cone of cold}, {spell/elemental body II}, {spell/fire snake}, {spell/geyser}, {spell/planar adaptation}, {spell/lesser planar binding}, {spell/summon monster V}",
+			"- 6th-{spell/contagious flame}, {spell/elemental body III}, {spell/planar binding}, {spell/sirocco}, {spell/summon monster VI}",
+			"- 7th-{spell/elemental body IV}, {spell/delayed blast fireball}, {spell/firebrand}, {spell/mass planar adaptation}, {spell/summon monster VII}",
+			"- 8th-{spell/incendiary cloud}, {spell/greater planar binding}, {spell/summon monster VIII}, {spell/wall of lava}",
+			"- 9th-{spell/fiery body}, {spell/gate}, {spell/meteor swarm}"
 		]
 	},
 	"metal": {
@@ -621,7 +657,16 @@
 			"",
 			"::h3[Metal Spells]{jl}",
 			"",
-			"0-{spell/mending}; 1st-{spell/gravity bow}, {spell/magic weapon}, {spell/shocking grasp}; 2nd-{spell/defensive shock}, {spell/glitterdust}, {spell/make whole}, {spell/shatter}, {spell/silk to steel}; 3rd-{spell/chill metal}, {spell/heat metal}, {spell/lightning bolt}, {spell/keen edge}, {spell/greater magic weapon}, {spell/versatile weapon}; 4th-{spell/malfunction}, {spell/shout}, {spell/stoneskin}; 5th-{spell/lightning arc}, {spell/major creation}, {spell/rapid repair}, {spell/rusting grasp}, {spell/soothe construct}, {spell/unbreakable construct}; 6th-{spell/chain lightning}, {spell/disintegrate}, {spell/wall of iron}; 7th-{spell/control construct}, {spell/statue}; 8th-{spell/call construct}, {spell/iron body}, {spell/greater shout}, {spell/stormbolts}; 9th-{spell/meteor swarm}, {spell/repel metal or stone}, {spell/ride the lightning}"
+			"- 0-{spell/mending}",
+			"- 1st-{spell/gravity bow}, {spell/magic weapon}, {spell/shocking grasp}",
+			"- 2nd-{spell/defensive shock}, {spell/glitterdust}, {spell/make whole}, {spell/shatter}, {spell/silk to steel}",
+			"- 3rd-*chill metal, heat metal,* {spell/lightning bolt}, {spell/keen edge}, {spell/greater magic weapon}, {spell/versatile weapon}",
+			"- 4th-{spell/malfunction}, {spell/shout}, {spell/stoneskin}",
+			"- 5th-{spell/lightning arc}, {spell/major creation}, {spell/rapid repair}, *rusting grasp,* {spell/soothe construct}, {spell/unbreakable construct}",
+			"- 6th-{spell/chain lightning}, {spell/disintegrate}, {spell/wall of iron}",
+			"- 7th-{spell/control construct}, {spell/statue}",
+			"- 8th-{spell/call construct}, {spell/iron body}, {spell/greater shout}, {spell/stormbolts}",
+			"- 9th-{spell/meteor swarm}, *repel metal or stone,* {spell/ride the lightning}"
 		]
 	},
 	"void": {
@@ -645,7 +690,16 @@
 			"",
 			"::h3[Void Spells]{jl}",
 			"",
-			"0-{spell/guidance}; 1st-{spell/gravity bow}, {spell/keen senses}, {spell/shield}, {spell/true strike}; 2nd-{spell/continual flame}, {spell/haunting mists}, {spell/invisibility}, {spell/masterwork transformation}, {spell/see invisibility}, {spell/share memory}; 3rd-{spell/arcane sight}, {spell/clairaudience//clairvoyance}, {spell/dispel magic}, {spell/nondetection}, {spell/seek thoughts}, {spell/twilight knife}; 4th-{spell/minor creation}, {spell/moonstruck}, {spell/wandering star motes}; 5th-{spell/fabricate}, {spell/major creation}, {spell/mind fog}, {spell/telepathic bond}, {spell/teleport}; 6th-{spell/greater dispel magic}, {spell/legend lore}, {spell/true seeing}, {spell/mage's lucubration}; 7th-{spell/greater teleport}, {spell/simulacrum}, {spell/vision}; 8th-{spell/mind blank}, {spell/moment of prescience}, {spell/orb of the void}, {spell/whirlwind}; 9th-{spell/foresight}, {spell/mage's disjunction}, {spell/time stop}"
+			"- 0-{spell/guidance}",
+			"- 1st-{spell/gravity bow}, *keen senses,* {spell/shield}, {spell/true strike}",
+			"- 2nd-{spell/continual flame}, {spell/haunting mists}, {spell/invisibility}, {spell/masterwork transformation}, {spell/see invisibility}, {spell/share memory}",
+			"- 3rd-{spell/arcane sight}, {spell/clairaudience//clairvoyance}, {spell/dispel magic}, {spell/nondetection}, {spell/seek thoughts}, *twilight knife*",
+			"- 4th-{spell/minor creation}, {spell/moonstruck}, *wandering star motes*",
+			"- 5th-{spell/fabricate}, {spell/major creation}, {spell/mind fog}, {spell/telepathic bond}, {spell/teleport}",
+			"- 6th-{spell/greater dispel magic}, {spell/legend lore}, *true seeing,* {spell/mage's lucubration}",
+			"- 7th-{spell/greater teleport}, {spell/simulacrum}, {spell/vision}",
+			"- 8th-{spell/mind blank}, *moment of prescience,* {spell/orb of the void}, {spell/whirlwind}",
+			"- 9th-{spell/foresight}, {spell/mage's disjunction}, {spell/time stop}"
 		]
 	},
 	"water": {
@@ -690,7 +744,16 @@
 			"",
 			"::h3[Water Spells]{jl}",
 			"",
-			"0-{spell/ray of frost}; 1st-{spell/hydraulic push}, {spell/obscuring mist}, {spell/touch of the sea}; 2nd-{spell/elemental speech}, {spell/elemental touch}, {spell/resist energy}, {spell/summon monster II}, {spell/accelerate poison}, {spell/fog cloud}, {spell/slipstream}; 3rd-{spell/draconic reservoir}, {spell/elemental aura}, {spell/protection from energy}, {spell/aqueous orb}, {spell/hydraulic torrent}, {spell/sleet storm}, {spell/water breathing}; 4th-{spell/detonate}, {spell/dragon's breath}, {spell/elemental body I}, {spell/summon monster IV}, {spell/ice storm}, {spell/solid fog}, {spell/wall of ice}; 5th-{spell/elemental body II}, {spell/planar adaptation}, {spell/lesser planar binding}, {spell/summon monster V}, {spell/cloudkill}, {spell/cone of cold}, {spell/geyser}; 6th-{spell/elemental body III}, {spell/planar binding}, {spell/summon monster VI}, {spell/fluid form}, {spell/freezing sphere}; 7th-{spell/elemental body IV}, {spell/mass planar adaptation}, {spell/summon monster VII}, {spell/control weather}, {spell/vortex}; 8th-{spell/greater planar binding}, {spell/summon monster VIII}, {spell/horrid wilting}, {spell/polar ray}, {spell/seamantle}; 9th-{spell/gate}, {spell/tsunami}, {spell/world wave}"
+			"- 0-{spell/ray of frost}",
+			"- 1st-{spell/hydraulic push}, {spell/obscuring mist}, {spell/touch of the sea}",
+			"- 2nd-{spell/accelerate poison}, {spell/elemental speech}, {spell/elemental touch}, {spell/fog cloud}, {spell/resist energy}, {spell/slipstream}, {spell/summon monster II}",
+			"- 3rd-{spell/aqueous orb}, {spell/draconic reservoir}, {spell/elemental aura}, {spell/hydraulic torrent}, {spell/protection from energy}, {spell/sleet storm}, {spell/water breathing}",
+			"- 4th-{spell/detonate}, {spell/dragon's breath}, {spell/elemental body I}, {spell/ice storm}, {spell/solid fog}, {spell/summon monster IV}, {spell/wall of ice}",
+			"- 5th-{spell/cloudkill}, {spell/cone of cold}, {spell/elemental body II}, {spell/geyser}, {spell/planar adaptation}, {spell/lesser planar binding}, {spell/summon monster V}",
+			"- 6th-{spell/elemental body III}, {spell/fluid form}, {spell/freezing sphere}, {spell/planar binding}, {spell/summon monster VI}",
+			"- 7th-{spell/control weather}, {spell/elemental body IV}, {spell/mass planar adaptation}, {spell/summon monster VII}, {spell/vortex}",
+			"- 8th-{spell/horrid wilting}, {spell/greater planar binding}, {spell/polar ray}, {spell/seamantle}, {spell/summon monster VIII}",
+			"- 9th-{spell/gate}, {spell/tsunami}, {spell/world wave}"
 		]
 	},
 	"wood": {
@@ -712,7 +775,16 @@
 			"",
 			"::h3[Wood Spells]{jl}",
 			"",
-			"0-{spell/light}; 1st-{spell/alter winds}, {spell/animate rope}, {spell/charm person}; 2nd-{spell/cat's grace}, {spell/entangle}, {spell/protection from arrows}, {spell/web}, {spell/whispering wind}; 3rd-{spell/cloak of winds}, {spell/tongues}, {spell/tree shape}, {spell/wind wall}; 4th-{spell/charm monster}, {spell/hallucinatory terrain}, {spell/minor creation}, {spell/plant growth}, {spell/river of wind}, {spell/secure shelter}, {spell/sirocco}; 5th-{spell/command plants}, {spell/fabricate}, {spell/fickle winds}, {spell/mirage arcana}, {spell/sending}, {spell/telepathic bond}; 6th-{spell/battlemind link}, {spell/mass cat's grace}, {spell/tree stride}; 7th-{spell/control weather}, {spell/liveoak}, {spell/scouring winds}; 8th-{spell/mass charm monster}, {spell/euphoric tranquility}, {spell/transmute metal to wood}; 9th-{spell/control plants}, {spell/refuge}, {spell/winds of vengeance}."
+			"- 0-{spell/light}",
+			"- 1st-{spell/alter winds}, {spell/animate rope}, {spell/charm person}",
+			"- 2nd-{spell/cat's grace}, *entangle,* {spell/protection from arrows}, {spell/web}, {spell/whispering wind}",
+			"- 3rd-{spell/cloak of winds}, {spell/tongues}, *tree shape,* {spell/wind wall}",
+			"- 4th-{spell/charm monster}, {spell/hallucinatory terrain}, {spell/minor creation}, *plant growth,* {spell/river of wind}, {spell/secure shelter}, {spell/sirocco}",
+			"- 5th-*command plants,* {spell/fabricate}, {spell/fickle winds}, {spell/mirage arcana}, {spell/sending}, {spell/telepathic bond}",
+			"- 6th-{spell/battlemind link}, {spell/mass cat's grace}, *tree stride*",
+			"- 7th-{spell/control weather}, *liveoak,* {spell/scouring winds}",
+			"- 8th-{spell/mass charm monster}, {spell/euphoric tranquility}, *transmute metal to wood*",
+			"- 9th-*control plants,* {spell/refuge}, {spell/winds of vengeance}."
 		]
 	}
 }

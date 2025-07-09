@@ -358,7 +358,7 @@
 			"**Aura** faint divination, necromancy, and transmutation; **CL** 3rd  ",
 			"**Slot** armor; **Price** 3,860 gp; **Weight** 15 lbs.",
 			"",
-			"This +1 {eq-armor/leather} armor is usually inscribed with {faith/Irori/'s} open-hand symbol at the neck, and with meditative mantras along the sleeves. The wearer can use *guidance,* *stone fist,* and *touch of fatigue* each once per day.",
+			"This +1 {eq-armor/leather} armor is usually inscribed with {faith/Irori/'s} open-hand symbol at the neck, and with meditative mantras along the sleeves. The wearer can use *guidance, stone fist,* and *touch of fatigue* each once per day.",
 			"",
 			"### Construction",
 			"",
@@ -445,7 +445,7 @@
 			"**Aura** faint abjuration, divination, evocation, and transmutation; **CL** 3rd  ",
 			"**Slot** armor; **Price** 4,180 gp; **Weight** 50 lbs.",
 			"",
-			"This +1 {eq-armor/half-plate} is usually sized for a dwarf and decorated with one or more sacred hammer symbols of {faith/Torag}. Once per day, the wearer may use *mending,* *protection from evil,* and *spark.* Once per day as a full-round action, the wearer can attempt a Knowledge check (with a +10 bonus) to identify a creature he is currently in combat with, even if he possesses no ranks in the appropriate Knowledge skill.",
+			"This +1 {eq-armor/half-plate} is usually sized for a dwarf and decorated with one or more sacred hammer symbols of {faith/Torag}. Once per day, the wearer may use *mending, protection from evil,* and *spark.* Once per day as a full-round action, the wearer can attempt a Knowledge check (with a +10 bonus) to identify a creature he is currently in combat with, even if he possesses no ranks in the appropriate Knowledge skill.",
 			"",
 			"### Construction",
 			"",
@@ -668,7 +668,7 @@
 			"**Aura** moderate divination, evocation, and necromancy; **CL** 7th  ",
 			"**Slot** armor; **Price** 5,380 gp; **Weight** 40 lbs.",
 			"",
-			"This blue-white +1 {magic-enh/deathless} {eq-armor/chainmail} is made of an intricate pattern of light and dark links that form the shape of {faith/Pharasma/'s} spiral on the armor's chest. The wearer can use *detect undead,* *disrupt undead,* and *light* each once per day.",
+			"This blue-white +1 {magic-enh/deathless} {eq-armor/chainmail} is made of an intricate pattern of light and dark links that form the shape of {faith/Pharasma/'s} spiral on the armor's chest. The wearer can use *detect undead, disrupt undead,* and *light* each once per day.",
 			"",
 			"### Construction",
 			"",
@@ -719,7 +719,7 @@
 			"**Aura** faint conjuration, evocation, illusion, and transmutation; **CL** 5th  ",
 			"**Slot** armor; **Price** 5,720 gp; **Weight** 15 lbs.",
 			"",
-			"This +1 {magic-enh/shadow} {eq-armor/leather} armor is usually a neutral brown or gray color and is tight-fitting so it can be worn under bulky clothing or a disguise. The wearer can use *acid splash,* *dancing lights,* and *mage hand* each once per day.",
+			"This +1 {magic-enh/shadow} {eq-armor/leather} armor is usually a neutral brown or gray color and is tight-fitting so it can be worn under bulky clothing or a disguise. The wearer can use *acid splash, dancing lights,* and *mage hand* each once per day.",
 			"",
 			"### Construction",
 			"",
@@ -1302,7 +1302,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/archon's aura}, {spell/veil of positive energy}, creator must worship {faith/Iomedae}; **Price** 7,100 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/archon's aura}, {spell/veil of positive energy}, creator must worship Iomedae; **Price** 7,100 gp"
 		]
 	},
 	"folding_plate": {
@@ -3064,7 +3064,7 @@
 			"**Aura** strong abjuration [evil]; **CL** 15th  ",
 			"**Slot** armor; **Price** 141,240 gp; **Weight** 50 lbs.",
 			"",
-			"This jet-black +3 {magic-enh/unrighteous} {eq-armor/full plate} is made in the image of the armor worn by {monster/thanatotic titan/s} and grants the wearer a fragment of their immense power. The wearer of thanatotic plate gains SR 21 against divine spells. In addition, the wearer can speak a command word to gain the benefits of *air walk,* *break enchantment,* or *spell turning* once per day each. Once per week, the wearer can use *greater planar ally* to call upon a {monster/tarry demodand}.",
+			"This jet-black +3 {magic-enh/unrighteous} {eq-armor/full plate} is made in the image of the armor worn by {monster/thanatotic titan/s} and grants the wearer a fragment of their immense power. The wearer of thanatotic plate gains SR 21 against divine spells. In addition, the wearer can speak a command word to gain the benefits of *air walk, break enchantment,* or *spell turning* once per day each. Once per week, the wearer can use *greater planar ally* to call upon a {monster/tarry demodand}.",
 			"",
 			"A newly created set of thanatotic plate always includes a {magic-armor/thanatotic visage}; this is included in the price and weight. A set of thanatotic plate missing its visage has its price reduced by that of the visage.",
 			"",
@@ -4373,7 +4373,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {magic-armor/breastplate of command}, +1 {eq-armor/full plate}; **Cost** -"
+			"**Requirements** {magic-armor/breastplate of command}, +1 full plate; **Cost** -"
 		]
 	},
 	"constrictor_armor": {
@@ -4430,13 +4430,13 @@
 			"**Aura** strong conjuration; **CL** 17th  ",
 			"**Slot** shield; **Weight** 15 lbs.",
 			"",
-			"This shield behaves in all ways as an {magic-armor/absorbing shield} until its owner attempts to use its disintegration power in combat. Once he does, it instead causes one or more monsters to pour forth from the shield and attack the nearest creature each round (including the shield-bearer) for 1d6 rounds before retreating by the safest possible route. If there is no such path for them to escape, the monsters fight to the death. To determine the nature and number of the monsters, roll 2d4 to determine the level of the {spell/summon monster>_3} spell and roll 1d3 to determine the number of creatures that appear. Monsters conjured by this shield remain until killed, act as normal for their kind, and are treated as summoned creatures with a permanent duration.",
+			"This shield behaves in all ways as an {magic-armor/absorbing shield} until its owner attempts to use its disintegration power in combat. Once he does, it instead causes one or more monsters to pour forth from the shield and attack the nearest creature each round (including the shield-bearer) for 1d6 rounds before retreating by the safest possible route. If there is no such path for them to escape, the monsters fight to the death. To determine the nature and number of the monsters, roll 2d4 to determine the level of the {spell/summon monster} spell and roll 1d3 to determine the number of creatures that appear. Monsters conjured by this shield remain until killed, act as normal for their kind, and are treated as summoned creatures with a permanent duration.",
 			"",
 			"Once its curse activates, the shield calls forth monsters three times per day, approximately every 8 hours. If the monsters cannot emerge directly from the shield and survive (for example, because it's buried or underwater), they instead appear at the nearest safe location within 50 feet. Successful curse-breaking magic cast on the shield restores it to its previous guise as an absorbing shield and allows its wearer to abandon it.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {magic-armor/absorbing shield}; **Cost** -"
+			"**Requirements** *absorbing shield;* **Cost** -"
 		]
 	}
 }

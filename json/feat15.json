@@ -287,7 +287,7 @@
 			"",
 			"Your {misc/fragile} weapon works to your advantage, breaking off fragments in wounds you inflict.  ",
 			"**Prerequisites:** Base attack bonus +1, proficient with weapon, weapon made of {main/equipment<primitive| material>s}.  ",
-			"**Benefit:** Whenever you use a melee or thrown weapon with the {misc/fragile} weapon feature or similar quality and hit an opponent, you can give your weapon the {misc/broken} condition to deal that opponent 1d4 points of {rule/bleed} damage."
+			"**Benefit:** Whenever you use a melee or thrown weapon with the fragile weapon feature or similar quality and hit an opponent, you can give your weapon the {misc/broken} condition to deal that opponent 1d4 points of {rule/bleed} damage."
 		]
 	},
 	"split_hex": {
@@ -626,7 +626,7 @@
 			"",
 			"You are a master of stage and nonlethal combats.  ",
 			"**Prerequisites:** {feat/Weapon Focus}, base attack bonus +5  ",
-			"**Benefit:** When you make an attack with a weapon that you have {feat/Weapon Focus} in, you take no penalty on the attack roll when you are attempting to make an attack that deals no damage or nonlethal damage.  ",
+			"**Benefit:** When you make an attack with a weapon that you have Weapon Focus in, you take no penalty on the attack roll when you are attempting to make an attack that deals no damage or nonlethal damage.  ",
 			"**Normal:** When making attacks that deal no damage or nonlethal damage, you take a -4 penalty on attack rolls.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",

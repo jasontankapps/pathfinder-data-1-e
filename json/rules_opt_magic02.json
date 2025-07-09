@@ -188,9 +188,9 @@
 			"",
 			"@HL[Adding Scaling Abilities:] Use the following steps to assign additional abilities and spells, and the levels at which those abilities unlock.",
 			"",
-			"@HL[Adding Unlockable Abilities:] Determine the first unlockable ability or increase in power. Price the item again, using the new ability plus all the abilities of the base item; you will use this price to determine the level at which the ability unlocks (see below). However, because many scaling items have a large range of limited-use abilities, following the standard rules can result in items that are too expensive for their actual utility. Therefore, on worn items, you should typically waive the 50% increase in price for an additional power unless it's a particularly useful ability or has a strong synergy with the item's other abilities. For instance, if you create a set of gloves with a {spell/burning hands} effect, you wouldn't need to pay the extra cost for a higher-level ability that grants you fire resistance, but you would for an ability that grants fire resistance to all allies within 10 feet of you since that ability complements {spell/burning hands} so well.",
+			"@HL[Adding Unlockable Abilities:] Determine the first unlockable ability or increase in power. Price the item again, using the new ability plus all the abilities of the base item; you will use this price to determine the level at which the ability unlocks (see below). However, because many scaling items have a large range of limited-use abilities, following the standard rules can result in items that are too expensive for their actual utility. Therefore, on worn items, you should typically waive the 50% increase in price for an additional power unless it's a particularly useful ability or has a strong synergy with the item's other abilities. For instance, if you create a set of gloves with a {spell/burning hands} effect, you wouldn't need to pay the extra cost for a higher-level ability that grants you fire resistance, but you would for an ability that grants fire resistance to all allies within 10 feet of you since that ability complements *burning hands* so well.",
 			"",
-			"@HL[Adding Spells:] Assign a price for any spells the item allows its owner to use. Table 4-14: Spell Prices includes the typical prices of one daily use of spells at different caster levels. Because the price of spells varies based on the item's caster level, it's usually best to price other abilities first, then estimate the finished caster level, then price the spell at that caster level. If a spell doesn't improve significantly at higher caster levels, price it using the item's minimum caster level. If the spell becomes more powerful with level increases (as does {spell/fireball}), use the caster level of the level at which it's unlocked to determine its price. Cap a spell's caster level at the highest level that makes a significant difference, such as 10th level for {spell/fireball}. Generally, if only the spell's duration changes with caster level, spells with a duration of 1 minute per level or 1 round per level should use the full caster level, but those with longer durations (10 minutes per level or more) should use the minimum caster level.",
+			"@HL[Adding Spells:] Assign a price for any spells the item allows its owner to use. Table 4-14: Spell Prices includes the typical prices of one daily use of spells at different caster levels. Because the price of spells varies based on the item's caster level, it's usually best to price other abilities first, then estimate the finished caster level, then price the spell at that caster level. If a spell doesn't improve significantly at higher caster levels, price it using the item's minimum caster level. If the spell becomes more powerful with level increases (as does {spell/fireball}), use the caster level of the level at which it's unlocked to determine its price. Cap a spell's caster level at the highest level that makes a significant difference, such as 10th level for *fireball.* Generally, if only the spell's duration changes with caster level, spells with a duration of 1 minute per level or 1 round per level should use the full caster level, but those with longer durations (10 minutes per level or more) should use the minimum caster level.",
 			"",
 			"Remember to readjust the price at each further power unlock level, since the caster level of the item will match the owner's level. On a worn item, waive the standard 50% price increase on the additional spells.",
 			"",
@@ -306,7 +306,7 @@
 			"",
 			"#### Description",
 			"",
-			"A suit of armageddon plate acts as +1 full plate for nearly any wearer - it automatically resizes when donned to fit wearers of size Small to Large. The armor is blackened, with joints and helm in a style reminiscent of the legendary tarrasque.",
+			"A suit of armageddon plate acts as +1 {eq-armor/full plate} for nearly any wearer - it automatically resizes when donned to fit wearers of size Small to Large. The armor is blackened, with joints and helm in a style reminiscent of the legendary tarrasque.",
 			"",
 			"@HL[6th Level:] Armageddon plate is +1 {magic-enh/light fortification} full plate.",
 			"",
@@ -314,13 +314,13 @@
 			"",
 			"@HL[11th Level:] Armageddon plate is +1 {magic-enh/moderate fortification} full plate.",
 			"",
-			"@HL[13th Level:] Armageddon plate is +2 {magic-enh/moderate fortification} full plate. The save DC of its fear effect increases to 20, and it affects attackers who use both ranged and melee weapons.",
+			"@HL[13th Level:] Armageddon plate is +2 *moderate fortification* full plate. The save DC of its fear effect increases to 20, and it affects attackers who use both ranged and melee weapons.",
 			"",
-			"@HL[16th Level:] Armageddon plate is +2 {magic-enh/moderate fortification} full plate of {magic-enh/invulnerability}. Armageddon plate grants DR 5/- instead of DR 5/magic.",
+			"@HL[16th Level:] Armageddon plate is +2 *moderate fortification* full plate of {magic-enh/invulnerability}. Armageddon plate grants DR 5/- instead of DR 5/magic.",
 			"",
-			"@HL[18th Level:] Armageddon plate is +2 {magic-enh/moderate fortification} adamantine full plate of {magic-enh/determination} and {magic-enh/invulnerability}. The damage reduction from adamantine stacks with the modified invulnerability effect for a total of DR 8/-.",
+			"@HL[18th Level:] Armageddon plate is +2 *moderate fortification* adamantine full plate of {magic-enh/determination} and *invulnerability.* The damage reduction from adamantine stacks with the modified invulnerability effect for a total of DR 8/-.",
 			"",
-			"@HL[20th Level:] Armageddon plate is +2 {magic-enh/heavy fortification} adamantine full plate of {magic-enh/determination} and {magic-enh/invulnerability}. Once per day, the wearer can lengthen the spines of the armor and release a volley of six spines as a full-attack action, all at the wearer's highest base attack bonus with a range increment of 120 feet. Each spine that hits deals 2d10 damage + the wearer's Strength bonus. If the spines attack multiple targets, all targets must be within 30 feet of each other. Once per day, the wearer can change her base land speed to 150 feet for 1 round as a free action. If she chooses to do so, she does not apply any other modifications that increase her movement speed for that round.",
+			"@HL[20th Level:] Armageddon plate is +2 {magic-enh/heavy fortification} adamantine full plate of *determination* and *invulnerability.* Once per day, the wearer can lengthen the spines of the armor and release a volley of six spines as a full-attack action, all at the wearer's highest base attack bonus with a range increment of 120 feet. Each spine that hits deals 2d10 damage + the wearer's Strength bonus. If the spines attack multiple targets, all targets must be within 30 feet of each other. Once per day, the wearer can change her base land speed to 150 feet for 1 round as a free action. If she chooses to do so, she does not apply any other modifications that increase her movement speed for that round.",
 			"",
 			"#### Construction Requirements",
 			"",
@@ -560,7 +560,7 @@
 			"",
 			"### Construction Requirements",
 			"",
-			"{feat/Craft Magic Arms and Armor}, {spell/detect animals or plants}, {spell/know direction}, {spell/locate creature}, {spell/telekinesis}; **Cost** 10,380 gp"
+			"{feat/Craft Magic Arms and Armor}, {spell/detect animals or plants}, {spell/know direction}, *locate creature,* {spell/telekinesis}; **Cost** 10,380 gp"
 		],
 		"parent_topics": [
 			"optional_magic_changes",
@@ -670,7 +670,7 @@
 			"",
 			"These five golden rings are each set with a fire opal and are linked together by thin golden chains (making them take up only a single ring item slot). The wearer can release up to five {spell/scorching ray/s} each day, one from each of the five rings. She can release one ray as a standard action or two rays (from two different rings) as a full-round action.",
 			"",
-			"@HL[12th Level:] Each day, the wearer can ignore up to 40 points of fire damage as if using {spell/protection from energy}. This fire damage is absorbed into the fivefold rings of fire; when this happens, if the wearer has already expended one or more of her {spell/scorching ray/s} for the day, she can recharge one of the rings for every 20 points of fire damage she absorbs.",
+			"@HL[12th Level:] Each day, the wearer can ignore up to 40 points of fire damage as if using {spell/protection from energy}. This fire damage is absorbed into the fivefold rings of fire; when this happens, if the wearer has already expended one or more of her *scorching rays* for the day, she can recharge one of the rings for every 20 points of fire damage she absorbs.",
 			"",
 			"@HL[14th Level:] In place of a {spell/scorching ray}, the wearer can choose to create a {spell/flaming sphere}. The effect takes the form of hollow rings of flame instead of a sphere, but otherwise functions as the spell.",
 			"",
@@ -678,7 +678,7 @@
 			"",
 			"### Construction Requirements",
 			"",
-			"{feat/Craft Wondrous Item}, {spell/flaming sphere}, {spell/protection from energy}, {spell/scorching ray}; **Cost** 23,625 gp"
+			"{feat/Craft Wondrous Item}, *flaming sphere, protection from energy, scorching ray;* **Cost** 23,625 gp"
 		],
 		"parent_topics": [
 			"optional_magic_changes",
@@ -720,7 +720,7 @@
 			"",
 			"### Construction Requirements",
 			"",
-			"{feat/Forge Ring}, {spell/form of the dragon II}, {spell/haste}, {spell/resist energy}; **Cost** 66,000 gp"
+			"{feat/Forge Ring}, *form of the dragon II,* {spell/haste}, {spell/resist energy}; **Cost** 66,000 gp"
 		],
 		"parent_topics": [
 			"optional_magic_changes",
@@ -762,7 +762,7 @@
 			"",
 			"### Construction Requirements",
 			"",
-			"{feat/Forge Ring}, {spell/form of the dragon II}, {spell/haste}, {spell/resist energy}; **Cost** 66,000 gp"
+			"{feat/Forge Ring}, *form of the dragon II,* {spell/haste}, {spell/resist energy}; **Cost** 66,000 gp"
 		],
 		"parent_topics": [
 			"optional_magic_changes",
@@ -804,7 +804,7 @@
 			"",
 			"### Construction Requirements",
 			"",
-			"{feat/Forge Ring}, {spell/form of the dragon II}, {spell/haste}, {spell/resist energy}; **Cost** 66,000 gp"
+			"{feat/Forge Ring}, *form of the dragon II,* {spell/haste}, {spell/resist energy}; **Cost** 66,000 gp"
 		],
 		"parent_topics": [
 			"optional_magic_changes",
@@ -846,7 +846,7 @@
 			"",
 			"### Construction Requirements",
 			"",
-			"{feat/Forge Ring}, {spell/form of the dragon II}, {spell/haste}, {spell/resist energy}; **Cost** 66,000 gp"
+			"{feat/Forge Ring}, *form of the dragon II,* {spell/haste}, {spell/resist energy}; **Cost** 66,000 gp"
 		],
 		"parent_topics": [
 			"optional_magic_changes",
@@ -884,15 +884,15 @@
 			"",
 			"@HL[14th Level:] The wearer can use {spell/stone shape} twice per day and use {spell/stoneskin} on herself once per week.",
 			"",
-			"@HL[16th Level:] The wearer can use {spell/wall of stone} once per day and can now use {spell/meld into stone} three times per day.",
+			"@HL[16th Level:] The wearer can use {spell/wall of stone} once per day and can now use *meld into stone* three times per day.",
 			"",
 			"@HL[17th Level:] The wearer can use {spell/passwall} once per week and can now use {spell/meld into stone} at will.",
 			"",
-			"@HL[18th Level:] The wearer can now use {spell/passwall} twice per week and {spell/soften earth and stone} at will.",
+			"@HL[18th Level:] The wearer can now use *passwall* twice per week and {spell/soften earth and stone} at will.",
 			"",
 			"### Construction Requirements",
 			"",
-			"{feat/Forge Ring}, {spell/meld into stone}, {spell/passwall}, {spell/soften earth and stone}, {spell/stone shape}, {spell/stoneskin}, {spell/summon monster VI}, {spell/wall of stone}; **Cost** 79,500 gp"
+			"{feat/Forge Ring}, *meld into stone, passwall, soften earth and stone,* {spell/stone shape}, {spell/stoneskin}, {spell/summon monster VI}, *wall of stone;* **Cost** 79,500 gp"
 		],
 		"parent_topics": [
 			"optional_magic_changes",
@@ -936,7 +936,7 @@
 			"",
 			"### Construction Requirements",
 			"",
-			"{feat/Forge Ring}, {spell/major creation}, {spell/mirror image}, {spell/prestidigitation}; **Cost** 18,000 gp"
+			"{feat/Forge Ring}, *major creation,* {spell/mirror image}, {spell/prestidigitation}; **Cost** 18,000 gp"
 		],
 		"parent_topics": [
 			"optional_magic_changes",
@@ -980,7 +980,7 @@
 			"",
 			"#### Construction Requirements",
 			"",
-			"{feat/Craft Rod}, {spell/disguise self}, {spell/memorize page}, {spell/tongues}; **Cost** 4,625 gp",
+			"{feat/Craft Rod}, *disguise self,* {spell/memorize page}, {spell/tongues}; **Cost** 4,625 gp",
 			"",
 			"### Rod of the Deadlord",
 			"",
@@ -997,7 +997,7 @@
 			"",
 			"@HL[15th Level:] If the wielder confirms a critical hit, instead of gaining a temporary negative level the target gains a permanent negative level with no saving throw. Each day thereafter, the target must succeed at a Fortitude save (using the same DC as the 13th-level unlockable ability) or acquire another negative level. This is a curse effect that continues until removed (DC 23) or until the target dies. A target slain by this curse cannot be revived from death until the curse is removed.",
 			"",
-			"@HL[17th Level:] The rod's enhancement bonus increases to +3. Once per day, the rod's owner can tap the rod on the ground as a standard action to duplicate the effects of {spell/animate dead}. The total HD of undead the owner can control in this way is equal to her level. If she controls other undead from castings of {spell/animate dead}, she uses only the highest maximum she can control; the values do not stack. She ceases to control undead created by the rod if the rod leaves her possession.",
+			"@HL[17th Level:] The rod's enhancement bonus increases to +3. Once per day, the rod's owner can tap the rod on the ground as a standard action to duplicate the effects of {spell/animate dead}. The total HD of undead the owner can control in this way is equal to her level. If she controls other undead from castings of *animate dead,* she uses only the highest maximum she can control; the values do not stack. She ceases to control undead created by the rod if the rod leaves her possession.",
 			"",
 			"#### Construction Requirements",
 			"",
@@ -1038,21 +1038,21 @@
 			"- {spell/Spark} (1 charge)",
 			"- {spell/Scorching ray} (2 charges)",
 			"",
-			"@HL[10th Level:] {spell/Scorching ray} now costs only 1 charge, and the staff allows the use of {spell/fireball} for 2 charges.",
+			"@HL[10th Level:] *Scorching ray* now costs only 1 charge, and the staff allows the use of {spell/fireball} for 2 charges.",
 			"",
-			"@HL[12th Level:] The staff's {spell/fireball} spells become {feat/empowered} {spell/fireball}. The staff counts as a +1 {magic-enh/flaming} quarterstaff when used as a weapon.",
+			"@HL[12th Level:] The staff's *fireball* spells become {feat/empowered} *fireball.* The staff counts as a +1 {magic-enh/flaming} quarterstaff when used as a weapon.",
 			"",
 			"@HL[14th Level:] The staff allows the use of {spell/summon monster VI} for 2 charges to summon fire elementals only.",
 			"",
-			"@HL[16th Level:] The staff replaces {spell/summon monster VI} with {spell/summon monster VIII} for 3 charges to summon fire elementals only. It also allows the use of {spell/fire storm} for 2 charges.",
+			"@HL[16th Level:] The staff replaces *summon monster VI* with {spell/summon monster VIII} for 3 charges to summon fire elementals only. It also allows the use of {spell/fire storm} for 2 charges.",
 			"",
-			"@HL[18th Level:] The staff allows the use of {spell/meteor swarm} for 3 charges. The cost for {spell/summon monster VIII} decreases to 2 charges, and {feat/empowered} {spell/fireball} now costs 1 charge.",
+			"@HL[18th Level:] The staff allows the use of {spell/meteor swarm} for 3 charges. The cost for *summon monster VIII* decreases to 2 charges, and empowered *fireball* now costs 1 charge.",
 			"",
-			"@HL[20th Level:] The cost of {spell/meteor swarm} and {spell/fire storm} each decrease to 1 charge.",
+			"@HL[20th Level:] The cost of *meteor swarm* and *fire storm* each decrease to 1 charge.",
 			"",
 			"#### Construction Requirements",
 			"",
-			"{feat/Craft Staff}, {feat/Empower Spell}, {spell/fire storm}, {spell/fireball}, {spell/meteor swarm}, {spell/scorching ray}, {spell/spark}, {spell/summon monster VI}, {spell/summon monster VIII}; **Cost** 132,000 gp",
+			"{feat/Craft Staff}, {feat/Empower Spell}, *fire storm,* {spell/fireball}, *meteor swarm,* {spell/scorching ray}, {spell/spark}, {spell/summon monster VI}, *summon monster VIII;* **Cost** 132,000 gp",
 			"",
 			"### Staff of Ways",
 			"",
@@ -1067,19 +1067,19 @@
 			"- {spell/Expeditious retreat} (2 charges)",
 			"- {spell/Monkey fish} (2 charges)",
 			"",
-			"@HL[12th Level:] The staff allows the use of {spell/spider climb} for 2 charges. The cost of {spell/expeditious retreat} and {spell/monkey fish} each reduce to 1 charge.",
+			"@HL[12th Level:] The staff allows the use of {spell/spider climb} for 2 charges. The cost of *expeditious retreat* and *monkey fish* each reduce to 1 charge.",
 			"",
-			"@HL[14th Level:] The staff allows the use of {spell/fly} for 2 charges. The cost of {spell/spider climb} decreases to 1 charge.",
+			"@HL[14th Level:] The staff allows the use of {spell/fly} for 2 charges. The cost of *spider climb* decreases to 1 charge.",
 			"",
-			"@HL[16th Level:] The staff grants its owner a permanent +10-foot enhancement bonus to her base movement speed, a swim speed of 10 feet, and a climb speed of 10 feet. The staff can no longer be used to cast {spell/longstrider} or {spell/monkey fish}. The staff allows the use of {spell/freedom of movement} for 2 charges and {spell/water breathing} for 3 charges. The cost of {spell/fly} decreases to 1 charge.",
+			"@HL[16th Level:] The staff grants its owner a permanent +10-foot enhancement bonus to her base movement speed, a swim speed of 10 feet, and a climb speed of 10 feet. The staff can no longer be used to cast *longstrider* or *monkey fish.* The staff allows the use of {spell/freedom of movement} for 2 charges and {spell/water breathing} for 3 charges. The cost of *fly* decreases to 1 charge.",
 			"",
-			"@HL[18th Level:] The staff allows the use of {spell/find the path} for 3 charges. The cost for {spell/water breathing} decreases to 1 charge.",
+			"@HL[18th Level:] The staff allows the use of {spell/find the path} for 3 charges. The cost for *water breathing* decreases to 1 charge.",
 			"",
-			"@HL[20th Level:] The staff grants its owner a fly speed of 30 feet (poor maneuverability). {spell/Find the path} now costs 2 charges, and {spell/freedom of movement} costs only 1 charge. If the staff's wielder breaks the staff in two as a full-round action, she can transport herself and up to 19 allies to a safe location she knows extremely well. This ability ignores local conditions as if it were the transport travelers effect of a {spell/wish}.",
+			"@HL[20th Level:] The staff grants its owner a fly speed of 30 feet (poor maneuverability). *Find the path* now costs 2 charges, and *freedom of movement* costs only 1 charge. If the staff's wielder breaks the staff in two as a full-round action, she can transport herself and up to 19 allies to a safe location she knows extremely well. This ability ignores local conditions as if it were the transport travelers effect of a {spell/wish}.",
 			"",
 			"#### Construction Requirements",
 			"",
-			"{feat/Craft Staff}, {spell/expeditious retreat}, {spell/find the path}, {spell/fly}, {spell/freedom of movement}, {spell/longstrider}, {spell/monkey fish}, {spell/spider climb}, {spell/water breathing}; **Cost** 66,500 gp"
+			"{feat/Craft Staff}, {spell/expeditious retreat}, *find the path,* {spell/fly}, *freedom of movement,* {spell/longstrider}, {spell/monkey fish}, {spell/spider climb}, *water breathing;* **Cost** 66,500 gp"
 		],
 		"parent_topics": [
 			"optional_magic_changes",
@@ -1184,7 +1184,7 @@
 			"",
 			"### Construction Requirements",
 			"",
-			"{feat/Craft Wondrous Item}, {spell/spider climb}, {spell/summon swarm}, {spell/vermin shape II}, {spell/web}; **Cost** 30,750 gp"
+			"{feat/Craft Wondrous Item}, {spell/spider climb}, *summon swarm, vermin shape II,* {spell/web}; **Cost** 30,750 gp"
 		],
 		"parent_topics": [
 			"optional_magic_changes",
@@ -1318,21 +1318,21 @@
 			"",
 			"@HL[7th Level:] The cloak grants its wearer a +5 competence bonus on Stealth checks.",
 			"",
-			"@HL[10th Level:] The wearer can grasp the edges of the cloak to fly (as the {spell/fly} spell) for up to 7 minutes three times per day, but only in dim light or lower. After each use of this ability, the wearer must wait for at least as long as the {spell/fly} effect lasted until using this ability again.",
+			"@HL[10th Level:] The wearer can grasp the edges of the cloak to fly (as the {spell/fly} spell) for up to 7 minutes three times per day, but only in dim light or lower. After each use of this ability, the wearer must wait for at least as long as the *fly* effect lasted until using this ability again.",
 			"",
-			"@HL[12th Level:] For each daily use of {spell/fly}, the wearer can instead choose to transform into an ordinary bat as {spell/beast shape III} for the same duration.",
+			"@HL[12th Level:] For each daily use of *fly,* the wearer can instead choose to transform into an ordinary bat as {spell/beast shape III} for the same duration.",
 			"",
-			"@HL[14th Level:] The wearer can use {spell/fly} or {spell/beast shape III} any number of times per day, but is still subject to the dim light restriction and the limit on using the ability again after a previous use.",
+			"@HL[14th Level:] The wearer can use *fly* or *beast shape III* any number of times per day, but is still subject to the dim light restriction and the limit on using the ability again after a previous use.",
 			"",
-			"@HL[16th Level:] The wearer can also transform into a dire bat with {spell/beast shape III}, and he can summon a swarm of bats at will as {spell/summon swarm}.",
+			"@HL[16th Level:] The wearer can also transform into a dire bat with *beast shape III,* and he can summon a swarm of bats at will as {spell/summon swarm}.",
 			"",
 			"@HL[18th Level:] The wearer constantly gains the echolocation of a bat. He can hear high-pitched sounds such as bat echolocation, and he gains blindsense 20 feet. This blindsense is sound-based, and is blocked by spells such as {spell/silence}.",
 			"",
-			"@HL[20th Level:] The wearer's blindsense increases to blindsense 60 feet, like that of a dire bat. Instead of using beast shape or {spell/fly}, he can transform himself into a bat swarm, gaining the abilities of a bat as {spell/beast shape III} plus the bat swarm's distraction, immunity to weapon damage, swarm traits, and wounding abilities.",
+			"@HL[20th Level:] The wearer's blindsense increases to blindsense 60 feet, like that of a dire bat. Instead of using beast shape or {spell/fly}, he can transform himself into a bat swarm, gaining the abilities of a bat as *beast shape III* plus the bat swarm's distraction, immunity to weapon damage, swarm traits, and wounding abilities.",
 			"",
 			"### Construction Requirements",
 			"",
-			"{feat/Craft Wondrous Item}, {spell/beast shape III}, {spell/echolocation}, {spell/fly}, {spell/summon swarm}; **Cost** 66,000 gp"
+			"{feat/Craft Wondrous Item}, {spell/beast shape III}, {spell/echolocation}, *fly, summon swarm;* **Cost** 66,000 gp"
 		],
 		"parent_topics": [
 			"optional_magic_changes",
@@ -1543,7 +1543,7 @@
 			"",
 			"### Construction Requirements",
 			"",
-			"{feat/Craft Wondrous Item}, {spell/expeditious retreat}, {spell/feather step}, {spell/haste}, {spell/tree stride}, creator must be an {race/elf}; **Cost** 22,000 gp"
+			"{feat/Craft Wondrous Item}, {spell/expeditious retreat}, {spell/feather step}, *haste, tree stride,* creator must be an {race/elf}; **Cost** 22,000 gp"
 		],
 		"parent_topics": [
 			"optional_magic_changes",
@@ -1746,11 +1746,11 @@
 			"",
 			"@HL[18th Level:] At will, when the wearer envelops herself in the cloak as a standard action, she can become invisible as {spell/invisibility}.",
 			"",
-			"@HL[20th Level:] If the wearer also wears the [boots of the elven spirit](rule/swi_boots_elven_spirit), she can focus the cloak's {spell/invisibility} effect. As a free action, she can choose to make it so her attacks do not end the {spell/invisibility} effect for 1 round. She can use this ability for 10 rounds per day, but the rounds need not be consecutive.",
+			"@HL[20th Level:] If the wearer also wears the [boots of the elven spirit](rule/swi_boots_elven_spirit), she can focus the cloak's *invisibility* effect. As a free action, she can choose to make it so her attacks do not end the *invisibility* effect for 1 round. She can use this ability for 10 rounds per day, but the rounds need not be consecutive.",
 			"",
 			"### Construction Requirements",
 			"",
-			"{feat/Craft Wondrous Item}, {spell/blend}, {spell/greater invisibility}, {spell/invisibility}, creator must be an {race/elf}; **Cost** 22,000 gp"
+			"{feat/Craft Wondrous Item}, {spell/blend}, {spell/greater invisibility}, *invisibility,* creator must be an {race/elf}; **Cost** 22,000 gp"
 		],
 		"parent_topics": [
 			"optional_magic_changes",
@@ -1898,7 +1898,7 @@
 			"",
 			"### Construction Requirements",
 			"",
-			"{feat/Craft Wondrous Item}, {spell/air walk}, {spell/ice crystal teleport}, {spell/ice storm}, {spell/summon monster VIII}, {spell/wind walk}; **Cost** 132,000 gp"
+			"{feat/Craft Wondrous Item}, {spell/air walk}, {spell/ice crystal teleport}, {spell/ice storm}, *summon monster VIII, wind walk;* **Cost** 132,000 gp"
 		],
 		"parent_topics": [
 			"optional_magic_changes",
@@ -1963,13 +1963,13 @@
 			"",
 			"@HL[16th Level:] The wearer's enhancement bonus to natural armor increases to +4, and his fire resistance increases to 20.",
 			"",
-			"@HL[18th Level:] The wearer can use {spell/dragon's breath} three times per day. The wearer can also use {spell/form of the dragon III} once per day, with a save DC equal to 22 + the wearer's Constitution modifier.",
+			"@HL[18th Level:] The wearer can use *dragon's breath* three times per day. The wearer can also use {spell/form of the dragon III} once per day, with a save DC equal to 22 + the wearer's Constitution modifier.",
 			"",
-			"@HL[20th Level:] The wearer's enhancement bonus to natural armor increases to +5 and his fire resistance to 30. In addition, any {spell/dragon's breath} effect created by this item is {feat/maximized}.",
+			"@HL[20th Level:] The wearer's enhancement bonus to natural armor increases to +5 and his fire resistance to 30. In addition, any *dragon's breath* effect created by this item is {feat/maximized}.",
 			"",
 			"### Construction Requirements",
 			"",
-			"{feat/Craft Wondrous Item}, {feat/Maximize Spell}, {spell/darkvision}, {spell/dragon's breath}, {spell/form of the dragon III}, {spell/resist energy}; **Cost** 132,000 gp"
+			"{feat/Craft Wondrous Item}, {feat/Maximize Spell}, {spell/darkvision}, {spell/dragon's breath}, *form of the dragon III,* {spell/resist energy}; **Cost** 132,000 gp"
 		],
 		"parent_topics": [
 			"optional_magic_changes",
@@ -2105,11 +2105,11 @@
 			"",
 			"@HL[10th Level:] The rags begin to crawl with insects and spiders, granting the wearer familiarity with the feeling of tiny creatures crawling over her body. After wearing the rags for 24 consecutive hours, the wearer gains a +2 circumstance bonus on saving throws against the distraction ability of swarms. Once per day, she can make the spiders in her rags swarm out and attack her foes, causing the rags to expel spiders as the spell {spell/vomit swarm}.",
 			"",
-			"@HL[11th Level:] Wasps build a small hive somewhere in the rags' interior. When the wearer uses {spell/vomit swarm}, she can choose between spiders and wasps.",
+			"@HL[11th Level:] Wasps build a small hive somewhere in the rags' interior. When the wearer uses *vomit swarm,* she can choose between spiders and wasps.",
 			"",
 			"@HL[13th Level:] The rags' diseases become more communicable. Any living creature striking the wearer with a bite attack contracts {disease/filth fever}. A successful DC 14 Fortitude negates the disease. Oozes and vermin are immune to this effect, as are creatures such as {monster/otyugh/s} and rats that are at home in exceptional filth.",
 			"",
-			"@HL[16th Level:] Army ants build a colony within the rags, and the rags' filth becomes utterly vile. The wearer can also choose army ants when using {spell/vomit swarm}. Any biting creature that fails its saving throw against the rags' filth fever becomes nauseated for 1d4 rounds, and even on a successful save, the creature is still sickened for 1 round.",
+			"@HL[16th Level:] Army ants build a colony within the rags, and the rags' filth becomes utterly vile. The wearer can also choose army ants when using *vomit swarm.* Any biting creature that fails its saving throw against the rags' filth fever becomes nauseated for 1d4 rounds, and even on a successful save, the creature is still sickened for 1 round.",
 			"",
 			"### Construction Requirements",
 			"",
@@ -2251,11 +2251,11 @@
 			"",
 			"@HL[10th Level:] If the wearer has created a heavy shield of force, the wearer can expend 1 minute of the shield's duration to make a single shield bash attack as if the shield had the {magic-enh/bashing} special ability, with an enhancement bonus on the attack roll equal to 1/4 the wearer's Hit Dice (maximum +5).",
 			"",
-			"@HL[12th Level:] If the wearer has created a tower shield of force, the wearer can release the tower shield from his person and use it as a {spell/forceful hand} with hit points equal to 1/2 the wearer's hit points. The wearer gains none of the benefits of using a tower shield while the {spell/forceful hand} exists. Each round of using the forceful hand consumes 1 minute of duration from each bracer.",
+			"@HL[12th Level:] If the wearer has created a tower shield of force, the wearer can release the tower shield from his person and use it as a {spell/forceful hand} with hit points equal to 1/2 the wearer's hit points. The wearer gains none of the benefits of using a tower shield while the *forceful hand* exists. Each round of using the forceful hand consumes 1 minute of duration from each bracer.",
 			"",
 			"### Construction Requirements",
 			"",
-			"{feat/Craft Wondrous Item}, {spell/forceful hand}, {spell/shield}; **Cost** 8,100 gp"
+			"{feat/Craft Wondrous Item}, *forceful hand,* {spell/shield}; **Cost** 8,100 gp"
 		],
 		"parent_topics": [
 			"optional_magic_changes",
@@ -2322,7 +2322,7 @@
 			"",
 			"@HL[11th Level:] The forgemaster's gauntlets are +1 gauntlets.",
 			"",
-			"@HL[12th Level:] The wearer of the forgemaster's gauntlets can heat objects she touches. She can use {spell/heat metal} (DC 13) at will. If she's targeting a metal object worn by a foe, she must succeed at a melee touch attack. If the targeted item is being held or wielded, the wearer of the forgemaster's gauntlets must attempt a combat maneuver check as if she were attempting to sunder the item. This maneuver does not provoke attacks of opportunity, even if the wearer does not have the {feat/Improved Sunder} feat.",
+			"@HL[12th Level:] The wearer of the forgemaster's gauntlets can heat objects she touches. She can use *heat metal* (DC 13) at will. If she's targeting a metal object worn by a foe, she must succeed at a melee touch attack. If the targeted item is being held or wielded, the wearer of the forgemaster's gauntlets must attempt a combat maneuver check as if she were attempting to sunder the item. This maneuver does not provoke attacks of opportunity, even if the wearer does not have the {feat/Improved Sunder} feat.",
 			"",
 			"@HL[13th Level:] The wearer's fire resistance increases to 10.",
 			"",
@@ -2407,7 +2407,7 @@
 			"",
 			"### Construction Requirements",
 			"",
-			"{feat/Craft Wondrous Item}, {spell/create food and water}, {spell/cure moderate wounds}, {spell/delay poison}, {spell/goodberry}, {spell/heroes' feast}, {spell/lesser restoration}, {spell/remove paralysis}; **Cost** 6,000 gp"
+			"{feat/Craft Wondrous Item}, {spell/create food and water}, {spell/cure moderate wounds}, *delay poison,* {spell/goodberry}, *heroes' feast, lesser restoration, remove paralysis;* **Cost** 6,000 gp"
 		],
 		"parent_topics": [
 			"optional_magic_changes",
@@ -2480,7 +2480,7 @@
 			"",
 			"### Construction Requirements",
 			"",
-			"{feat/Craft Wondrous Item}, {spell/chain lightning}, {spell/shocking grasp}; **Cost** 18,302 gp"
+			"{feat/Craft Wondrous Item}, *chain lightning,* {spell/shocking grasp}; **Cost** 18,302 gp"
 		],
 		"parent_topics": [
 			"optional_magic_changes",
@@ -2545,11 +2545,11 @@
 			"",
 			"@HL[12th Level:] The wearer can improve someone's attitude up to three steps when using Diplomacy. When she uses Intimidate to influence someone, she can present herself as glorious and powerful without threatening them, causing the attempt to operate like a Diplomacy check to influence instead.",
 			"",
-			"@HL[14th Level:] When the wearer uses the gorget's {spell/good hope} ability, it lasts 1 additional round for every 10 by which her result exceeds the Perform (oratory) check DC. Once per day, she can extend the duration to the full duration of {spell/good hope}.",
+			"@HL[14th Level:] When the wearer uses the gorget's *good hope* ability, it lasts 1 additional round for every 10 by which her result exceeds the Perform (oratory) check DC. Once per day, she can extend the duration to the full duration of *good hope.*",
 			"",
 			"### Construction Requirements",
 			"",
-			"{feat/Craft Wondrous Item}, {spell/good hope}; **Cost** 13,875 gp"
+			"{feat/Craft Wondrous Item}, *good hope;* **Cost** 13,875 gp"
 		],
 		"parent_topics": [
 			"optional_magic_changes",
@@ -2620,7 +2620,7 @@
 			"",
 			"### Construction Requirements",
 			"",
-			"{feat/Craft Wondrous Item}, {spell/cloudkill}, {spell/control weather}, {spell/fog cloud}; **Cost** 13,875 gp"
+			"{feat/Craft Wondrous Item}, *cloudkill,* {spell/control weather}, *fog cloud;* **Cost** 13,875 gp"
 		],
 		"parent_topics": [
 			"optional_magic_changes",
@@ -2823,19 +2823,19 @@
 			"",
 			"### Description",
 			"",
-			"This small pendant of brass and glass is crafted in the shape of a lantern and continuously sheds light as a {spell/light} spell. As a move action, the wearer can open the miniature lantern pendant and direct the tiny phantasmal fire within to float to any point within 110 feet. This functions as {spell/dancing lights}, but the wearer can create a number of lights equal to 1/2 his character level, up to a maximum of four, and can create only torch-like lights, not glowing spheres or humanoid shapes. While the {spell/dancing lights} are active, the light of the lantern pendant itself is extinguished.",
+			"This small pendant of brass and glass is crafted in the shape of a lantern and continuously sheds light as a {spell/light} spell. As a move action, the wearer can open the miniature lantern pendant and direct the tiny phantasmal fire within to float to any point within 110 feet. This functions as {spell/dancing lights}, but the wearer can create a number of lights equal to 1/2 his character level, up to a maximum of four, and can create only torch-like lights, not glowing spheres or humanoid shapes. While the *dancing lights* are active, the light of the lantern pendant itself is extinguished.",
 			"",
-			"@HL[6th Level:] Once per day, the wearer can command the phantasmal fire to fly forth and limn all creatures in an area as {spell/faerie fire}. Just as when using {spell/dancing lights}, the pendant's light is extinguished throughout the duration.",
+			"@HL[6th Level:] Once per day, the wearer can command the phantasmal fire to fly forth and limn all creatures in an area as {spell/faerie fire}. Just as when using *dancing lights,* the pendant's light is extinguished throughout the duration.",
 			"",
-			"@HL[8th Level:] The wearer can choose between {spell/faerie fire} and {spell/glitterdust} (Will DC 13) when he uses the 6th-level ability.",
+			"@HL[8th Level:] The wearer can choose between *faerie fire* and {spell/glitterdust} (Will DC 13) when he uses the 6th-level ability.",
 			"",
-			"@HL[10th Level:] Once per day, the wearer can focus the lantern's power, causing its light to increase from the {spell/light} spell to the {spell/daylight} spell, with a duration as {spell/daylight}. The {spell/daylight} is suppressed whenever he activates any other ability that extinguishes the pendant's light, but such time still counts against its duration.",
+			"@HL[10th Level:] Once per day, the wearer can focus the lantern's power, causing its light to increase from the *light* spell to the {spell/daylight} spell, with a duration as *daylight.* The *daylight* is suppressed whenever he activates any other ability that extinguishes the pendant's light, but such time still counts against its duration.",
 			"",
 			"@HL[13th Level:] Once per day, the wearer can release the lantern's lights in the form of {spell/wandering star motes} (Will DC 16). During the duration, the pendant's light is extinguished.",
 			"",
 			"### Construction Requirements",
 			"",
-			"{feat/Craft Wondrous Item}, {spell/dancing lights}, {spell/daylight}, {spell/faerie fire}, {spell/light}, {spell/wandering star motes}; **Cost** 10,500 gp"
+			"{feat/Craft Wondrous Item}, {spell/dancing lights}, *daylight, faerie fire,* {spell/light}, *wandering star motes;* **Cost** 10,500 gp"
 		],
 		"parent_topics": [
 			"optional_magic_changes",
@@ -2965,17 +2965,17 @@
 			"",
 			"@HL[8th Level:] The wearer can transform into the target creature's shape, as {spell/disguise self}. Additionally, 10 minutes after the command word is spoken, the mask can alter the target's memories as well as absorb them, as {spell/modify memory} (Will DC 17 negates).",
 			"",
-			"@HL[10th Level:] The creature speaking the command can substitute {spell/nightmare} for {spell/modify memory}, with the same DC. Additionally, the mask's wearer can understand and read (but not speak) all languages the target creature knows.",
+			"@HL[10th Level:] The creature speaking the command can substitute {spell/nightmare} for *modify memory,* with the same DC. Additionally, the mask's wearer can understand and read (but not speak) all languages the target creature knows.",
 			"",
 			"@HL[12th Level:] The mask's wearer can also speak the languages the target creature knows. Additionally, she can attempt to pry the answers to specific questions from the absorbed memories once per day. Treat this as {spell/speak with dead} if the target creature was dead, and otherwise as {spell/contact other plane} to contact a creature from the Astral Plane with no chance of ability score decrease.",
 			"",
-			"@HL[14th Level:] If the target creature is a humanoid, the wearer can take its form as {spell/alter self} instead of {spell/disguise self}.",
+			"@HL[14th Level:] If the target creature is a humanoid, the wearer can take its form as {spell/alter self} instead of *disguise self.*",
 			"",
-			"@HL[17th Level:] If the target creature is a Small or Medium monstrous humanoid, the wearer can take its form as {spell/monstrous physique I} instead of {spell/disguise self}.",
+			"@HL[17th Level:] If the target creature is a Small or Medium monstrous humanoid, the wearer can take its form as {spell/monstrous physique I} instead of *disguise self.*",
 			"",
 			"### Construction Requirements",
 			"",
-			"{feat/Craft Wondrous Item}, {spell/alter self}, {spell/contact other plane}, {spell/detect thoughts}, {spell/disguise self}, {spell/modify memory}, {spell/monstrous physique>_1}, {spell/nightmare}, {spell/speak with dead}, {spell/tongues}; **Cost** 30,750 gp"
+			"{feat/Craft Wondrous Item}, *alter self, contact other plane,* {spell/detect thoughts}, {spell/disguise self}, {spell/modify memory}, {spell/monstrous physique>_1}, {spell/nightmare}, *speak with dead,* {spell/tongues}; **Cost** 30,750 gp"
 		],
 		"parent_topics": [
 			"optional_magic_changes",
@@ -3186,21 +3186,21 @@
 			"",
 			"@HL[4th Level:] Once per day, the owner can imbue the pixie dust she draws from the pouch with fey power to reveal the unseen. This functions as {spell/faerie fire} with a 1-minute duration, but she must throw the powder as a thrown weapon with a range increment of 10 feet against an AC of 5 to hit the correct grid intersection. On a miss, treat the dust as a splash weapon to determine the center of the effect.",
 			"",
-			"@HL[6th Level:] The owner can use the {spell/faerie fire} ability three times per day.",
+			"@HL[6th Level:] The owner can use the *faerie fire* ability three times per day.",
 			"",
-			"@HL[8th Level:] The owner can use the {spell/faerie fire} ability at will.",
+			"@HL[8th Level:] The owner can use the *faerie fire* ability at will.",
 			"",
 			"@HL[10th Level:] The owner can increase the power of the pixie dust once per day, producing a {spell/glitterdust} effect (Will DC 13 negates the blindness) for 3 rounds. She must throw the powder as a thrown weapon with a range increment of 10 feet against an AC of 5 to hit the correct grid intersection. On a miss, treat the dust as a splash weapon to determine the center of the effect.",
 			"",
-			"@HL[13th Level:] The owner can use the {spell/glitterdust} ability three times per day.",
+			"@HL[13th Level:] The owner can use the *glitterdust* ability three times per day.",
 			"",
 			"@HL[15th Level:] The owner can sprinkle the pixie dust on herself or an adjacent willing target once per day, granting the target the ability to fly (as the {spell/fly} spell) for 5 minutes.",
 			"",
-			"@HL[18th Level:] The owner can use the fly ability three times per day, and she can also throw the pixie dust to grant {spell/fly} to a non-adjacent target. To hit a willing non-adjacent target with the pixie dust, she must throw the dust as a thrown weapon with a range increment of 10 feet and hit an AC of 5 + any modifiers that add to both the target's flat-footed and touch AC, such as deflection bonuses and cover bonuses. On a miss, treat the dust as a splash weapon; if there are creatures in the resulting square, randomly determine which creature in that square is targeted by the {spell/fly} effect.",
+			"@HL[18th Level:] The owner can use the fly ability three times per day, and she can also throw the pixie dust to grant *fly* to a non-adjacent target. To hit a willing non-adjacent target with the pixie dust, she must throw the dust as a thrown weapon with a range increment of 10 feet and hit an AC of 5 + any modifiers that add to both the target's flat-footed and touch AC, such as deflection bonuses and cover bonuses. On a miss, treat the dust as a splash weapon; if there are creatures in the resulting square, randomly determine which creature in that square is targeted by the *fly* effect.",
 			"",
 			"### Construction Requirements",
 			"",
-			"{feat/Craft Wondrous Item}, {spell/faerie fire}, {spell/fly}, {spell/glitterdust}; **Cost** 13,250 gp"
+			"{feat/Craft Wondrous Item}, {spell/faerie fire}, *fly,* {spell/glitterdust}; **Cost** 13,250 gp"
 		],
 		"parent_topics": [
 			"optional_magic_changes",
@@ -3277,7 +3277,7 @@
 			"",
 			"### Construction Requirements",
 			"",
-			"{feat/Craft Wondrous Item}, {spell/eagle's splendor}, {spell/faerie fire}, {spell/fly}, {spell/mage's magnificent mansion}, {spell/sunburst}, {spell/suggestion}, creator must be fey; **Cost** 132,000 gp"
+			"{feat/Craft Wondrous Item}, {spell/eagle's splendor}, {spell/faerie fire}, {spell/fly}, *mage's magnificent mansion,* {spell/sunburst}, {spell/suggestion}, creator must be fey; **Cost** 132,000 gp"
 		],
 		"parent_topics": [
 			"optional_magic_changes",
@@ -3340,13 +3340,13 @@
 			"",
 			"@HL[9th Level:] When the wearer concentrates, she can perceive the thoughts of a single creature as writing in the air, rendered in the subject's native language. This functions as though the wearer had concentrated on the creature for 3 rounds using {spell/detect thoughts}, and can be blocked with a successful Will save with a DC equal to the wearer's character level + 6 (to a maximum DC of 20). A creature that succeeds at its save can't be affected again for 24 hours. Maintaining concentration requires a standard action each round (as for a spell), and once the wearer ceases concentrating on a creature, she cannot observe thoughts again for 1 minute. This ability can be used for a total of 5 minutes per day. These minutes do not need to be consecutive, but must be used in 1-minute increments. The glasses fail to function against creatures with an Intelligence score of 2 or lower or without a written language.",
 			"",
-			"@HL[11th Level:] The competence bonus on Sense Motive checks increases to +8. The {spell/detect thoughts} effect can be used for 10 minutes per day. In addition to seeing the creature's thoughts in its native language, the wearer gets visual impressions of the creature's thoughts. She might see the face of someone the creature is thinking about, for instance, or see an image of that creature stabbing someone if it's planning an attack.",
+			"@HL[11th Level:] The competence bonus on Sense Motive checks increases to +8. The *detect thoughts* effect can be used for 10 minutes per day. In addition to seeing the creature's thoughts in its native language, the wearer gets visual impressions of the creature's thoughts. She might see the face of someone the creature is thinking about, for instance, or see an image of that creature stabbing someone if it's planning an attack.",
 			"",
-			"@HL[13th Level:] The competence bonus on Sense Motive checks increases to +10. The {spell/detect thoughts} effect is constant - the wearer no longer needs to concentrate to maintain it, and there is no longer a limit on the number of rounds per day.",
+			"@HL[13th Level:] The competence bonus on Sense Motive checks increases to +10. The *detect thoughts* effect is constant - the wearer no longer needs to concentrate to maintain it, and there is no longer a limit on the number of rounds per day.",
 			"",
 			"### Construction Requirements",
 			"",
-			"{feat/Craft Wondrous Item}, {spell/detect thoughts}, creator must have 10 ranks in Sense Motive; **Cost** 15,250 gp"
+			"{feat/Craft Wondrous Item}, *detect thoughts,* creator must have 10 ranks in Sense Motive; **Cost** 15,250 gp"
 		],
 		"parent_topics": [
 			"optional_magic_changes",
@@ -3407,15 +3407,15 @@
 			"",
 			"When touched to an eye, this star-shaped gem affixes itself until willingly removed or pried from an unconscious wearer. On command, the wearer can share her vision of her surroundings with allies within 60 feet. This gives them the benefit of any special visual sense she has (such as {spell/darkvision} or {spell/see invisibility}) and even allows blind allies to see, assuming the wearer is not herself blind. This effect lasts for 1 minute, and once used, can't be activated again for 30 minutes. While the effect is active, an ally of the wearer can switch back and forth at will between sharing the wearer's vision and seeing through his own eyes.",
 			"",
-			"@HL[12th Level:] The shared senses effect lasts for 10 minutes. While sharing senses, the wearer automatically discovers the number and location of secret doors in a 60-foot cone in front of her, as though she had been studying the area for 2 rounds with {spell/detect secret doors}. (This effect doesn't grant any of the other benefits of {spell/detect secret doors}.)",
+			"@HL[12th Level:] The shared senses effect lasts for 10 minutes. While sharing senses, the wearer automatically discovers the number and location of secret doors in a 60-foot cone in front of her, as though she had been studying the area for 2 rounds with {spell/detect secret doors}. (This effect doesn't grant any of the other benefits of *detect secret doors.*)",
 			"",
-			"@HL[14th Level:] While sharing senses, the wearer gains the benefit of {spell/see invisibility}.",
+			"@HL[14th Level:] While sharing senses, the wearer gains the benefit of *see invisibility.*",
 			"",
 			"@HL[16th Level:] Once per day, when the wearer activates the star of vision, she gains the benefit of {spell/true seeing} for the duration of the effect.",
 			"",
 			"### Construction Requirements",
 			"",
-			"{feat/Craft Wondrous Item}, {spell/detect secret doors}, {spell/see invisibility}, {spell/telepathic bond}, {spell/true seeing}; **Cost** 23,625 gp"
+			"{feat/Craft Wondrous Item}, *detect secret doors,* {spell/see invisibility}, {spell/telepathic bond}, *true seeing;* **Cost** 23,625 gp"
 		],
 		"parent_topics": [
 			"optional_magic_changes",
@@ -3486,7 +3486,7 @@
 			"",
 			"### Construction Requirements",
 			"",
-			"{feat/Craft Wondrous Item}, {feat/Reach Spell}, {spell/clairaudience//clairvoyance}, {spell/keen senses}; **Cost** 6,000 gp"
+			"{feat/Craft Wondrous Item}, Reach Spell, {spell/clairaudience//clairvoyance}, {spell/keen senses}; **Cost** 6,000 gp"
 		],
 		"parent_topics": [
 			"optional_magic_changes",
@@ -3549,7 +3549,7 @@
 			"",
 			"@HL[9th Level:] The owner can also activate the strand's bead of healing to cast {spell/cure serious wounds} once per day.",
 			"",
-			"@HL[10th Level:] The owner can also activate the strand's bead of healing to cast {spell/remove blindness//deafness} or {spell/remove disease} instead of {spell/cure serious wounds}.",
+			"@HL[10th Level:] The owner can also activate the strand's bead of healing to cast {spell/remove blindness//deafness} or {spell/remove disease} instead of *cure serious wounds.*",
 			"",
 			"@HL[14th Level:] The owner can also activate the strand's bead of smiting to cast {spell/chaos hammer}, {spell/holy smite}, {spell/order's wrath}, or {spell/unholy blight} (whichever was used to craft the item) once per day.",
 			"",
@@ -3559,7 +3559,7 @@
 			"",
 			"### Construction Requirements",
 			"",
-			"{feat/Craft Wondrous Item}, {spell/bless}, {spell/cure serious wounds}, {spell/remove blindness//deafness}, {spell/remove disease}, {spell/righteous might}, {spell/wind walk}, and either {spell/chaos hammer}, {spell/holy smite}, {spell/order's wrath}, or {spell/unholy blight}; **Cost** 51,375 gp"
+			"{feat/Craft Wondrous Item}, {spell/bless}, {spell/cure serious wounds}, {spell/remove blindness//deafness}, {spell/remove disease}, {spell/righteous might}, *wind walk,* and either *chaos hammer, holy smite, order's wrath,* or *unholy blight;* **Cost** 51,375 gp"
 		],
 		"parent_topics": [
 			"optional_magic_changes",
@@ -3632,7 +3632,7 @@
 			"",
 			"### Construction Requirements",
 			"",
-			"{feat/Craft Wondrous Item}, {spell/arcane eye}, {spell/blend}, {spell/blur}, {spell/command plants}, {spell/prying eyes}, {spell/tree shape}, {spell/tree stride}; **Cost** 66,000 gp"
+			"{feat/Craft Wondrous Item}, {spell/arcane eye}, {spell/blend}, *blur,* {spell/command plants}, *prying eyes,* {spell/tree shape}, *tree stride;* **Cost** 66,000 gp"
 		],
 		"parent_topics": [
 			"optional_magic_changes",
@@ -3695,13 +3695,13 @@
 			"",
 			"@HL[11th Level:] Once per day, the wearer can remove the shaken or sickened condition from himself or an ally with a touch. This is a standard action, or a swift action if he cures himself. In addition, the wearer can't be compelled to keep a cursed item. This doesn't prevent the cursed item's effects, but does allow the wearer to freely discard the item.",
 			"",
-			"@HL[13th Level:] Once per day as an immediate action, the wearer can use {spell/break enchantment} against an effect that has just taken hold of him, even if the effect causes him to lose consciousness or control of his actions. Only a single effect can be targeted by this use of {spell/break enchantment}. This protection can be recharged by casting {spell/break enchantment} on the vest.",
+			"@HL[13th Level:] Once per day as an immediate action, the wearer can use {spell/break enchantment} against an effect that has just taken hold of him, even if the effect causes him to lose consciousness or control of his actions. Only a single effect can be targeted by this use of *break enchantment.* This protection can be recharged by casting *break enchantment* on the vest.",
 			"",
 			"@HL[15th Level:] The conditions the wearer can remove with a touch now also include cursed (as {spell/remove curse}), dazed, and frightened.",
 			"",
 			"### Construction Requirements",
 			"",
-			"{feat/Craft Wondrous Item}, {spell/break enchantment}; **Cost** 18,000 gp"
+			"{feat/Craft Wondrous Item}, *break enchantment;* **Cost** 18,000 gp"
 		],
 		"parent_topics": [
 			"optional_magic_changes",

@@ -205,7 +205,7 @@
 			"#### Behemoth Golem",
 			"",
 			"**CL** 18th; **Price** 305,000 gp  ",
-			"**Requirements** {feat/Craft Construct}, *earthquake*, {spell/geas//quest}, {spell/mage's magnificent mansion}, {spell/wish}, creator must be at least caster level 18th; Skill Craft (stonemasonry) and Knowledge (history) DC 26; **Cost** 165,000 gp"
+			"**Requirements** {feat/Craft Construct}, *earthquake,* {spell/geas//quest}, {spell/mage's magnificent mansion}, {spell/wish}, creator must be at least caster level 18th; Skill Craft (stonemasonry) and Knowledge (history) DC 26; **Cost** 165,000 gp"
 		]
 	},
 	"golem_behemoth": { "redirect": "golem_behemoth_golem" },
@@ -423,7 +423,7 @@
 			"",
 			"**CL** 17th; **Price** 180,000 gp",
 			"",
-			"**Requirements** {feat/Craft Construct}, {spell/geas//quest}, {spell/incendiary cloud}, {spell/limited wish}, *see invisibility*, creator must be caster level 17th; Skill Craft (armor) or Craft (blacksmithing) DC 22; **Cost** 100,000 gp"
+			"**Requirements** {feat/Craft Construct}, {spell/geas//quest}, {spell/incendiary cloud}, {spell/limited wish}, *see invisibility,* creator must be caster level 17th; Skill Craft (armor) or Craft (blacksmithing) DC 22; **Cost** 100,000 gp"
 		]
 	},
 	"golem_brass": { "redirect": "golem_brass_golem" },
@@ -715,7 +715,7 @@
 			"",
 			"**CL** 15th; **Price** 120,000 gp",
 			"",
-			"**Requirements** {feat/Craft Construct}, {spell/animate objects}, {spell/blade barrier}, {spell/geas//quest}, *grease*, {spell/telekinesis}, creator must be caster level 15th; Skill Craft (clocks) or Craft (locks) DC 20; **Cost** 65,000 gp"
+			"**Requirements** {feat/Craft Construct}, {spell/animate objects}, {spell/blade barrier}, {spell/geas//quest}, *grease,* {spell/telekinesis}, creator must be caster level 15th; Skill Craft (clocks) or Craft (locks) DC 20; **Cost** 65,000 gp"
 		]
 	},
 	"golem_clockwork": { "redirect": "golem_clockwork_golem" },
@@ -861,7 +861,7 @@
 			"",
 			"**CL** 15th; **Price** 127,000 gp",
 			"",
-			"**Requirements** {feat/Craft Construct}, {spell/geas//quest}, {spell/limited wish}, *possession*, {spell/thoughtsense}, creator must be caster level 15th; Skill Craft (glass) or Craft (jewelry) DC 22; **Cost** 67,000 gp"
+			"**Requirements** {feat/Craft Construct}, {spell/geas//quest}, {spell/limited wish}, *possession,* {spell/thoughtsense}, creator must be caster level 15th; Skill Craft (glass) or Craft (jewelry) DC 22; **Cost** 67,000 gp"
 		]
 	},
 	"golem_crystal": { "redirect": "golem_crystal_golem" },
@@ -1489,7 +1489,7 @@
 			"",
 			"**CL** 16th; **Price** 300,000 gp",
 			"",
-			"**Requirements** {feat/Craft Construct}, *air walk*, {spell/enervation}, {spell/geas//quest}, {spell/limited wish}, creator must be caster level 16th; Skill Craft (armor) or Craft (weapons) DC 26; **Cost** 195,000 gp"
+			"**Requirements** {feat/Craft Construct}, *air walk,* {spell/enervation}, {spell/geas//quest}, {spell/limited wish}, creator must be caster level 16th; Skill Craft (armor) or Craft (weapons) DC 26; **Cost** 195,000 gp"
 		]
 	},
 	"golem_inubrix": { "redirect": "golem_inubrix_golem" },
@@ -1722,7 +1722,7 @@
 			"",
 			"**CL** 7th; **Price** 10,200 gp",
 			"",
-			"**Requirements** {feat/Craft Construct}, {spell/false life}, {spell/lesser geas}, {spell/minor creation}, *rusting grasp*, creator must be caster level 7th; Skill Craft (sculpture); **Cost** 5,200 gp"
+			"**Requirements** {feat/Craft Construct}, {spell/false life}, {spell/lesser geas}, {spell/minor creation}, *rusting grasp,* creator must be caster level 7th; Skill Craft (sculpture); **Cost** 5,200 gp"
 		]
 	},
 	"golem_junk": { "redirect": "golem_junk_golem" },
@@ -2037,7 +2037,7 @@
 			"A mask golem's body is made from hundreds of iron masks, as well as a few that are plated in silver and trimmed with gold, worth a total of 2,000 gp. In addition, the crafter must place a sapphire worth 500 gp into the golem's forehead to complete its creation.",
 			"",
 			"**CL** 9th; **Price** 22,500 gp  ",
-			"**Requirements** {feat/Craft Construct}, {spell/dominate person}, *see invisibility*, {spell/telekinesis}, creator must be caster level 9th; Skill Craft (sculptures) DC 16; **Cost** 12,500 gp"
+			"**Requirements** {feat/Craft Construct}, {spell/dominate person}, *see invisibility,* {spell/telekinesis}, creator must be caster level 9th; Skill Craft (sculptures) DC 16; **Cost** 12,500 gp"
 		]
 	},
 	"golem_mask": { "redirect": "golem_mask_golem" },
@@ -2108,7 +2108,7 @@
 			"",
 			"**CL** 18th; **Price** 250,000 gp",
 			"",
-			"**Requirements** {feat/Craft Construct}, {spell/animate objects}, {spell/geas//quest}, *haste*, {spell/polymorph any object}, {spell/wish}, creator must be caster level 18th; Skill Craft (sculpture) DC 25; **Cost** 150,000 gp",
+			"**Requirements** {feat/Craft Construct}, {spell/animate objects}, {spell/geas//quest}, *haste,* {spell/polymorph any object}, {spell/wish}, creator must be caster level 18th; Skill Craft (sculpture) DC 25; **Cost** 150,000 gp",
 			"",
 			"[^B]: Bonus feat."
 		]
@@ -2346,7 +2346,7 @@
 			"",
 			"**CL** 11th; **Price** 48,500 gp",
 			"",
-			"**Requirements** {feat/Craft Construct}, {spell/animate objects}, {spell/bless}, {spell/commune}, {spell/prayer}, {spell/resurrection}, {spell/searing light}, *true seeing*, creator must be caster level 11th; Skill Craft (pottery) or Craft (sculpture) DC 16; **Cost** 28,500 gp",
+			"**Requirements** {feat/Craft Construct}, {spell/animate objects}, {spell/bless}, {spell/commune}, {spell/prayer}, {spell/resurrection}, {spell/searing light}, *true seeing,* creator must be caster level 11th; Skill Craft (pottery) or Craft (sculpture) DC 16; **Cost** 28,500 gp",
 			"",
 			"### Variant Panthereons",
 			"",
@@ -2431,7 +2431,7 @@
 			"",
 			"**Immunity to Magic (Ex)** A Quantium golem is immune to any spell or spell-like ability that allows spell resistance. In addition, certain spells and effects function differently against the creature, as noted.",
 			"",
-			"- A magical attack that deals cold damage against the crimson golem or electricity damage against the green golem slows it (as the {spell/slow} spell) for 1 round, with no saving throw.",
+			"- A magical attack that deals cold damage against the crimson golem or electricity damage against the green golem slows it (as the *slow* spell) for 1 round, with no saving throw.",
 			"- A Quantium golem and its equipment are immune to rust attacks.",
 			"",
 			"**Link (Su):** Each Quantium golem always knows the exact location of the other.",
@@ -3732,7 +3732,7 @@
 			"",
 			"A typical hag coven can cast the spells listed in the green hag's monster entry. Blood hags, storm hags, and winter hags always grant the spells and abilities listed in their bestiary entries. To reflect the diversity of powers hags can invoke, Game Masters can customize the spell lists of covens based on their membership; each type of hag makes specific spells available to cast as coven magic.",
 			"",
-			"All covens can cast the following spells, regardless of the hags that comprise them: {spell/animate dead}, {spell/baleful polymorph}, *bestow curse*, {spell/clairaudience//clairvoyance}, {spell/commune}, {spell/dream}, {spell/forcecage}, {spell/mind blank}, {spell/reincarnate}, *speak with dead*, {spell/veil}, {spell/vision}",
+			"All covens can cast the following spells, regardless of the hags that comprise them: {spell/animate dead}, {spell/baleful polymorph}, *bestow curse,* {spell/clairaudience//clairvoyance}, {spell/commune}, {spell/dream}, {spell/forcecage}, {spell/mind blank}, {spell/reincarnate}, *speak with dead,* {spell/veil}, {spell/vision}",
 			"",
 			"**Family:** {family/Hag}"
 		]
@@ -3810,7 +3810,7 @@
 			"",
 			"A typical hag coven can cast the spells listed in the green hag's monster entry. Blood hags, storm hags, and winter hags always grant the spells and abilities listed in their bestiary entries. To reflect the diversity of powers hags can invoke, Game Masters can customize the spell lists of covens based on their membership; each type of hag makes specific spells available to cast as coven magic.",
 			"",
-			"All covens can cast the following spells, regardless of the hags that comprise them: {spell/animate dead}, {spell/baleful polymorph}, *bestow curse*, {spell/clairaudience//clairvoyance}, {spell/commune}, {spell/dream}, {spell/forcecage}, {spell/mind blank}, {spell/reincarnate}, *speak with dead*, {spell/veil}, {spell/vision}",
+			"All covens can cast the following spells, regardless of the hags that comprise them: {spell/animate dead}, {spell/baleful polymorph}, *bestow curse,* {spell/clairaudience//clairvoyance}, {spell/commune}, {spell/dream}, {spell/forcecage}, {spell/mind blank}, {spell/reincarnate}, *speak with dead,* {spell/veil}, {spell/vision}",
 			"",
 			"The Mute Hag adds the following spells to the coven: {spell/epidemic}, greater age resistance, {spell/insanity}, {spell/malicious spite}, {spell/vengeful outrage}",
 			"",

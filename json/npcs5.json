@@ -655,7 +655,7 @@
 			"**Cleric Spells Prepared** (CL 4th; concentration +8)  ",
 			"*2nd*-{spell/barkskin}[^D], {spell/hold person} (2, DC 16), {spell/summon monster II}  ",
 			"*1st*-{spell/cause fear} (DC 15), {spell/cure light wounds}, {spell/endure elements}[^D], {spell/entangle} (DC 15), {spell/entropic shield}  ",
-			"*0 (at will)*-{spell/bleed} (2, *DC 14)*, {spell/guidance}, {spell/light}  ",
+			"*0 (at will)*-{spell/bleed} (2, DC 14), {spell/guidance}, {spell/light}  ",
 			"**Domains** {domain/Plant}, {domain/Weather}",
 			"",
 			"::sh[Tactics]",

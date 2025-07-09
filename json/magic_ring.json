@@ -117,7 +117,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Forge Ring}, {spell/endure elements}, {spell/prestidigitation}; **Cost** 500 gp"
+			"**Requirements** {feat/Forge Ring}, *endure elements,* {spell/prestidigitation}; **Cost** 500 gp"
 		]
 	},
 	"ring_of_the_faithful_dead": {
@@ -500,7 +500,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Forge Ring}, {spell/plant growth}, {spell/summon nature's ally I}; **Cost** 1,400 gp"
+			"**Requirements** {feat/Forge Ring}, {spell/plant growth}, *summon nature's ally I;* **Cost** 1,400 gp"
 		]
 	},
 	"knight_inheritors_ring": {
@@ -753,7 +753,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Forge Ring}, {spell/beast shape I}, {spell/shield of faith}, {spell/summon monster I}, creator must be at least 3rd level; **Cost** 2,350 gp"
+			"**Requirements** {feat/Forge Ring}, *beast shape I,* {spell/shield of faith}, *summon monster I,* creator must be at least 3rd level; **Cost** 2,350 gp"
 		]
 	},
 	"ring_of_delayed_doom_1_stone": {
@@ -1177,7 +1177,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Forge Ring}, {spell/commune with nature}, {spell/summon nature's ally III}; **Cost** 3,900 gp"
+			"**Requirements** {feat/Forge Ring}, {spell/commune with nature}, *summon nature's ally III;* **Cost** 3,900 gp"
 		]
 	},
 	"ring_of_summoning_affinity_aeon": {
@@ -1213,7 +1213,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Forge Ring}, {spell/arcane sight}, {spell/detect magic}, {spell/spell resistance}, creator cannot be a divine spellcaster, creator must be of a level at least three times higher than the bonus of the ring; **Cost** 4,000 gp (+1), 8,500 gp (+2), 13,500 gp (+3), 19,000 gp (+4), 25,000 gp (+5)"
+			"**Requirements** {feat/Forge Ring}, {spell/arcane sight}, *detect magic,* {spell/spell resistance}, creator cannot be a divine spellcaster, creator must be of a level at least three times higher than the bonus of the ring; **Cost** 4,000 gp (+1), 8,500 gp (+2), 13,500 gp (+3), 19,000 gp (+4), 25,000 gp (+5)"
 		]
 	},
 	"ring_of_the_godless_1": {
@@ -1735,7 +1735,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Forge Ring}, {feat/Self-Sufficient}, {spell/endure elements}; **Cost** 5,000 gp"
+			"**Requirements** {feat/Forge Ring}, {feat/Self-Sufficient}, *endure elements;* **Cost** 5,000 gp"
 		]
 	},
 	"ring_of_swimming_improved": {
@@ -1827,7 +1827,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Forge Ring}, {spell/dimension door}; **Cost** 5,400 gp"
+			"**Requirements** {feat/Forge Ring}, *dimension door;* **Cost** 5,400 gp"
 		]
 	},
 	"holdout_ring": {
@@ -1997,11 +1997,11 @@
 			"**Aura** moderate evocation (fire); **CL** 10th  ",
 			"**Slot** ring; **Price** 12,000 gp; **Weight** -",
 			"",
-			"A ring of immolation is made of pumice and hardened ash but is as strong as metal. As a free action, the wearer can activate the ring to create a {spell/fire shield} (warm) on himself. The wearer of a ring of immolation can activate a {spell/fire shield} on himself for up to 10 rounds each day (these rounds need not be used consecutively). If the wearer would take magical cold damage and any rounds of duration remain, the ring automatically activates for 1 round and protects the wearer from the cold damage as per {spell/fire shield}.",
+			"A ring of immolation is made of pumice and hardened ash but is as strong as metal. As a free action, the wearer can activate the ring to create a {spell/fire shield} (warm) on himself. The wearer of a ring of immolation can activate a *fire shield* on himself for up to 10 rounds each day (these rounds need not be used consecutively). If the wearer would take magical cold damage and any rounds of duration remain, the ring automatically activates for 1 round and protects the wearer from the cold damage as per *fire shield.*",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Forge Ring}, {spell/fire shield}; **Cost** 6,000 gp"
+			"**Requirements** {feat/Forge Ring}, *fire shield;* **Cost** 6,000 gp"
 		]
 	},
 	"ring_of_retreat": {
@@ -2093,7 +2093,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Forge Ring}, {spell/greater magic fang}, {spell/summon nature's ally IV}; **Cost** 6,440 gp"
+			"**Requirements** {feat/Forge Ring}, {spell/greater magic fang}, *summon nature's ally IV;* **Cost** 6,440 gp"
 		]
 	},
 	"ghost_battling_ring": {
@@ -2157,7 +2157,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Forge Ring}, {spell/dimension door}, {spell/touch of the sea}; **Cost** 7,000 gp"
+			"**Requirements** {feat/Forge Ring}, *dimension door,* {spell/touch of the sea}; **Cost** 7,000 gp"
 		]
 	},
 	"duxotars_signet": {
@@ -2276,7 +2276,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/fear}, {spell/speak with dead}; **Cost** 7,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, *fear, speak with dead;* **Cost** 7,500 gp"
 		]
 	},
 	"ring_of_water_walking": {
@@ -2339,7 +2339,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Forge Ring}, {spell/holy smite}, {spell/magic circle against evil}; **Cost** 8,000 gp"
+			"**Requirements** {feat/Forge Ring}, {spell/holy smite}, *magic circle against evil;* **Cost** 8,000 gp"
 		]
 	},
 	"dungeon_ring_jailers": {
@@ -2390,11 +2390,11 @@
 			"**Aura** moderate abjuration; **CL** 10th  ",
 			"**Slot** ring; **Price** 16,200 gp; **Weight** -",
 			"",
-			"This gold ring resembles tiny angel wings folded around a clear crystal. Once per day, the wearer can target herself with a {spell/protection from chaos} or {spell/protection from law} effect that lasts for 10 minutes. However, if the wearer uses the ring of entropy and order to gain {spell/protection from chaos} while on a plane with the mildly chaos-aligned or strongly chaos-aligned trait, or to gain {spell/protection from law} while on a plane with the mildly law-aligned or strongly law-aligned trait, the effect instead lasts for 1 hour. If the wearer fails a saving throw against a charm or compulsion effect while on a plane with the mildly chaos-aligned, mildly law-aligned, strongly chaos-aligned, or strongly law-aligned traits, she can activate the effect as an immediate action.",
+			"This gold ring resembles tiny angel wings folded around a clear crystal. Once per day, the wearer can target herself with a {spell/protection from chaos} or {spell/protection from law} effect that lasts for 10 minutes. However, if the wearer uses the ring of entropy and order to gain *protection from chaos* while on a plane with the mildly chaos-aligned or strongly chaos-aligned trait, or to gain *protection from law* while on a plane with the mildly law-aligned or strongly law-aligned trait, the effect instead lasts for 1 hour. If the wearer fails a saving throw against a charm or compulsion effect while on a plane with the mildly chaos-aligned, mildly law-aligned, strongly chaos-aligned, or strongly law-aligned traits, she can activate the effect as an immediate action.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Forge Ring}, {spell/contingency}, {spell/protection from chaos}, {spell/protection from law}; **Cost** 8,100 gp"
+			"**Requirements** {feat/Forge Ring}, {spell/contingency}, *protection from chaos, protection from law;* **Cost** 8,100 gp"
 		]
 	},
 	"ring_of_the_godless_2": {
@@ -2771,7 +2771,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Forge Ring}, {spell/dimension door}, {spell/summon swarm}; **Cost** 13,000 gp"
+			"**Requirements** {feat/Forge Ring}, *dimension door,* {spell/summon swarm}; **Cost** 13,000 gp"
 		]
 	},
 	"ring_of_the_godless_3": {
@@ -2815,7 +2815,7 @@
 			"",
 			"This ornate ring of sanctified silver is engraved with a golden signet that incorporates the holy symbol of the wearer's deity after being worn for 24 hours. The ring can be used to seal parchments or to mark any surface as the arcane mark spell at will. The wearer is marked as a scholarly leader of the faith and gains a +5 competence bonus on Diplomacy and Knowledge (religion) checks. If the wearer has the {feat/Leadership} feat, she may attract double the normal number of followers, and her followers' zealous devotion grants them a +4 morale bonus on Will saves against enchantment spells and effects.",
 			"",
-			"Once per day, the wearer of the ring can use *prayer* and *enter image*, often using the latter power to speak and observe through portraits, statues, and even minted coinage bearing their likeness.",
+			"Once per day, the wearer of the ring can use *prayer* and *enter image,* often using the latter power to speak and observe through portraits, statues, and even minted coinage bearing their likeness.",
 			"",
 			"### Construction",
 			"",
@@ -2992,7 +2992,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Forge Ring}, {spell/endure elements}, {spell/resistance}, {spell/shield}; **Cost** 17,500 gp"
+			"**Requirements** {feat/Forge Ring}, *endure elements,* {spell/resistance}, {spell/shield}; **Cost** 17,500 gp"
 		]
 	},
 	"ring_of_resistance_5": {
@@ -3136,7 +3136,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Forge Ring}, {spell/eagle's splendor}, {spell/good hope}, {spell/shout}; **Cost** 25,000 gp"
+			"**Requirements** {feat/Forge Ring}, {spell/eagle's splendor}, {spell/good hope}, *shout;* **Cost** 25,000 gp"
 		]
 	},
 	"ring_of_friend_shield": {
@@ -3280,7 +3280,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Forge Ring}, {spell/death ward}, {spell/dimension door}, {spell/mislead}; **Cost** 25,080 gp"
+			"**Requirements** {feat/Forge Ring}, {spell/death ward}, *dimension door,* {spell/mislead}; **Cost** 25,080 gp"
 		]
 	},
 	"ring_of_inner_fortitude_greater": {
@@ -3357,7 +3357,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Forge Ring}, {spell/regenerate}; **Cost** 45,000 gp"
+			"**Requirements** {feat/Forge Ring}, *regenerate;* **Cost** 45,000 gp"
 		]
 	},
 	"ring_of_spell_turning": {
@@ -3471,7 +3471,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Forge Ring}, {spell/mindscape door}; **Cost** 75,000 gp"
+			"**Requirements** {feat/Forge Ring}, *mindscape door;* **Cost** 75,000 gp"
 		]
 	},
 	"ring_of_the_hidden_psyche": {
@@ -3840,7 +3840,7 @@
 			"",
 			"**14th Level:** The wearer can use {spell/guards and wards} once per day as a spell-like ability.",
 			"",
-			"**17th Level:** The wearer adds {spell/binding} to his class spell list and list of spells known. The wearer can use {spell/binding} once per day as a spell-like ability, but he must provide the expensive material component for the spell.",
+			"**17th Level:** The wearer adds {spell/binding} to his class spell list and list of spells known. The wearer can use *binding* once per day as a spell-like ability, but he must provide the expensive material component for the spell.",
 			"",
 			"**Goal:** The wearer must defeat an undead creature or evil outsider whose CR is at least 4 greater than his Hit Dice.  ",
 			"**Reward:** The wearer is constantly under the effect of {spell/protection from evil} with a caster level equal to his character level. Should this effect be dispelled, he can resume it as a free action."

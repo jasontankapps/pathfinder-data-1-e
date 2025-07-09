@@ -976,7 +976,7 @@
 			"**Aura** moderate evocation; **CL** 8th  ",
 			"**Slot** none; **Price** +2 bonus; **Weight** -",
 			"",
-			"This special ability can be placed only on melee slashing weapons. When a culling weapon is used to make an attack using the {feat/Cleave} or {feat/Great Cleave} feat, it deals an additional 2d6 points of damage on both the initial attack and any additional attacks granted by {feat/Cleave} or {feat/Great Cleave}. The weapon also applies the bonus 2d6 points of damage to successful attacks granted by use of the {feat/Cleaving Finish} and {feat/Improved Cleaving Finish} feats.",
+			"This special ability can be placed only on melee slashing weapons. When a culling weapon is used to make an attack using the {feat/Cleave} or {feat/Great Cleave} feat, it deals an additional 2d6 points of damage on both the initial attack and any additional attacks granted by Cleave or Great Cleave. The weapon also applies the bonus 2d6 points of damage to successful attacks granted by use of the {feat/Cleaving Finish} and {feat/Improved Cleaving Finish} feats.",
 			"",
 			"### Construction",
 			"",
@@ -997,7 +997,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Heroic Defiance}, {spell/break enchantment}, {spell/stabilize}; **Price** -",
+			"**Requirements** {feat/Craft Magic Arms and Armor}, Heroic Defiance, {spell/break enchantment}, {spell/stabilize}; **Price** -",
 			"",
 			">*See also: {magic-enh/defiant armor/ enhancement}*"
 		]
@@ -1019,7 +1019,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/greater dispel magic}, creator must be a caster of at least 12th level; **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, *greater dispel magic,* creator must be a caster of at least 12th level; **Price** -"
 		]
 	},
 	"disruption": {
@@ -1551,7 +1551,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/silence}; **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, *silence;* **Price** -"
 		]
 	},
 	"stalking": {

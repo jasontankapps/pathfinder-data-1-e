@@ -100,7 +100,7 @@
 			"",
 			"**Replacement Blessing:** The following minor blessing replaces the communal aid ability of the Community blessing.",
 			"",
-			"*Team Effort (minor)*: At 1st level, you can touch an ally and grant it the blessing of cooperation. Choose one teamwork feat that you have. The touched ally gains the benefit of the chosen teamwork feat for a number of rounds equal to 1/2 your warpriest level (minimum 1). Alternatively, you can choose one teamwork feat that a touched ally has and gain the benefit of the chosen feat for a number of rounds equal to 1/2 your warpriest level (minimum 1)."
+			"*Team Effort (minor):* At 1st level, you can touch an ally and grant it the blessing of cooperation. Choose one teamwork feat that you have. The touched ally gains the benefit of the chosen teamwork feat for a number of rounds equal to 1/2 your warpriest level (minimum 1). Alternatively, you can choose one teamwork feat that a touched ally has and gain the benefit of the chosen feat for a number of rounds equal to 1/2 your warpriest level (minimum 1)."
 		]
 	},
 	"cooperation": { "redirect": "community" },
@@ -294,7 +294,7 @@
 			"",
 			"**Replacement Blessing:** The following minor blessing replaces the powerful healer ability of the Healing blessing.",
 			"",
-			"*Ameliorating Touch (minor)*: At 1st level, your touch is a balm to your suffering allies. You can touch an ally as a swift action to temporarily relieve that ally of the {misc/fatigued}, {misc/shaken}, or {misc/sickened} condition. This blessing suppresses those conditions for 1 minute. At 2nd level, you can spend two uses of your blessing ability whenever you heal yourself or an ally with your fervor class ability to use this minor blessing as a free action instead of a swift action.",
+			"*Ameliorating Touch (minor):* At 1st level, your touch is a balm to your suffering allies. You can touch an ally as a swift action to temporarily relieve that ally of the {misc/fatigued}, {misc/shaken}, or {misc/sickened} condition. This blessing suppresses those conditions for 1 minute. At 2nd level, you can spend two uses of your blessing ability whenever you heal yourself or an ally with your fervor class ability to use this minor blessing as a free action instead of a swift action.",
 			"",
 			"::h3[Resurrection]{jl}",
 			"",
@@ -302,7 +302,7 @@
 			"",
 			"**Replacement Blessing:** The following major blessing replaces the fast healing ability of the Healing blessing.",
 			"",
-			"*Return of the Fallen (major)*: At 10th level, your touch can defy the cold claws of death itself. You can temporarily revive a touched ally to continue fighting, as if you had cast {spell/raise dead} on her. The revived ally is also {misc/staggered} for a number of rounds equal to 1/2 your warpriest level, after which she immediately dies. The ally is free to act as she sees fit during this time, and you are granted no control over her."
+			"*Return of the Fallen (major):* At 10th level, your touch can defy the cold claws of death itself. You can temporarily revive a touched ally to continue fighting, as if you had cast {spell/raise dead} on her. The revived ally is also {misc/staggered} for a number of rounds equal to 1/2 your warpriest level, after which she immediately dies. The ally is free to act as she sees fit during this time, and you are granted no control over her."
 		]
 	},
 	"resurrection": { "redirect": "healing" },
@@ -357,7 +357,7 @@
 			"",
 			"**Replacement Blessing:** The following major blessing replaces the freedom's shout ability of the Liberation blessing.",
 			"",
-			"*Greater Liberation (major)*: At 10th level, when you use the liberation ability of the Liberation blessing, its effects last for 1 minute."
+			"*Greater Liberation (major):* At 10th level, when you use the liberation ability of the Liberation blessing, its effects last for 1 minute."
 		]
 	},
 	"freedom": { "redirect": "liberation" },
@@ -425,7 +425,7 @@
 			"",
 			"**Replacement Blessing:** The following major blessing replaces the lead by example ability of the Nobility blessing.",
 			"",
-			"*Martyr's Sacrifice (major)*: At 10th level, your body can accept wounds meant for others you deem worthy. You can shoulder the wounds of an ally within 50 feet for 1 minute, and during this time, the ally is affected as if you had cast {spell/shield other} on her (except with a range of 50 feet). You can have only one use of this ability active at a time; if you use this major blessing again, the previous use immediately expires."
+			"*Martyr's Sacrifice (major):* At 10th level, your body can accept wounds meant for others you deem worthy. You can shoulder the wounds of an ally within 50 feet for 1 minute, and during this time, the ally is affected as if you had cast {spell/shield other} on her (except with a range of 50 feet). You can have only one use of this ability active at a time; if you use this major blessing again, the previous use immediately expires."
 		]
 	},
 	"martyr": { "redirect": "nobility" },

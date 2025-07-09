@@ -1890,7 +1890,7 @@
 			"",
 			"{SOURCE Heroes of Golarion/10}",
 			"",
-			"Your faith in {faith/Sarenrae} and the power of flame allows you to lace fire with holy power and burn things that normally can't be burned.  ",
+			"Your faith in Sarenrae and the power of flame allows you to lace fire with holy power and burn things that normally can't be burned.  ",
 			"**Prerequisites:** {race/Goblin}, worshiper of {faith/Sarenrae}.  ",
 			"**Benefit:** Whenever you make an attack or cast a spell that deals fire damage, the fire damage applies to incorporeal creatures, regardless of whether the fire is magical. An incorporeal creature's 50% reduction in damage from corporeal sources does not apply to any fire damage that you deal."
 		]
@@ -2228,7 +2228,7 @@
 			"",
 			"You leap into the air while holding your opponent and slam him to the ground.  ",
 			"**Prerequisites:** {feat/Improved Grapple}, {feat/Improved Unarmed Strike}, {feat/Savage Slam}, base attack bonus +12 or monk level 10th.  ",
-			"**Benefit:** When you use {feat/Savage Slam}, you can move yourself and your target up to half your speed before releasing the grapple. You provoke attacks of opportunity from this movement, but your target does not. If your target takes damage from {feat/Savage Slam}, the target is {misc/shaken} for 1 round. You become {rule/flat-footed} until the start of your next turn if you move before using {feat/Savage Slam} in this way."
+			"**Benefit:** When you use Savage Slam, you can move yourself and your target up to half your speed before releasing the grapple. You provoke attacks of opportunity from this movement, but your target does not. If your target takes damage from Savage Slam, the target is {misc/shaken} for 1 round. You become {rule/flat-footed} until the start of your next turn if you move before using Savage Slam in this way."
 		]
 	},
 	"savage_slam": {
@@ -2666,7 +2666,7 @@
 			"",
 			"You abandon all notion of personal space when in danger, scurrying about your allies in search of the best vantage point from which to strike at your foes.  ",
 			"**Prerequisites:** {race/Ratfolk}, swarming racial trait.  ",
-			"**Benefit:** You can use your swarming racial trait to enter the square of any willing ally that is the same size as you or up to one size category larger, granting you the benefits of the swarming racial trait as if your ally were also a {race/ratfolk} with the swarming racial trait. Your ally gains no benefits from sharing its space with you unless it also has the swarming racial trait. Additionally, you treat any ally who shares its space with you as having the same {main/feats_<teamwork/ feats} that you do for the purpose of determining whether you gain a bonus from teamwork feats. Your ally doesn't gain any of the bonuses from these feats unless she actually has the teamwork feats. You and your ally's positioning and actions must still meet the prerequisites listed in a teamwork feat's description in order to gain the teamwork feat's listed bonus, but your ally is considered to be adjacent to you while you share her space for the purpose of determining whether you or your ally gains a benefit."
+			"**Benefit:** You can use your swarming racial trait to enter the square of any willing ally that is the same size as you or up to one size category larger, granting you the benefits of the swarming racial trait as if your ally were also a ratfolk with the swarming racial trait. Your ally gains no benefits from sharing its space with you unless it also has the swarming racial trait. Additionally, you treat any ally who shares its space with you as having the same {main/feats_<teamwork/ feats} that you do for the purpose of determining whether you gain a bonus from teamwork feats. Your ally doesn't gain any of the bonuses from these feats unless she actually has the teamwork feats. You and your ally's positioning and actions must still meet the prerequisites listed in a teamwork feat's description in order to gain the teamwork feat's listed bonus, but your ally is considered to be adjacent to you while you share her space for the purpose of determining whether you or your ally gains a benefit."
 		]
 	},
 	"scuttle": {

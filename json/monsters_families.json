@@ -1124,11 +1124,7 @@
 			"- {family/Dragon (Primal)}",
 			"- {family/Dragon (Red)}",
 			"- {family/Dragon (Silver)}",
-			"- {family/Dragon (White)}",
-			"- {family/Dragon (Black)}",
-			"- {family/Dragon (Black)}",
-			"- {family/Dragon (Black)}",
-			"- {family/Dragon (Black)}"
+			"- {family/Dragon (White)}"
 		]
 	},
 	"true_dragon": { "redirect": "dragon_true" },
@@ -2595,8 +2591,7 @@
 			"",
 			"### Mythic Members of This Family:",
 			"",
-			"- {monster/Wyrm Red Dragon}",
-			"- {monster/Young Red Dragon}"
+			"- {monster/Wyrm Red Dragon}"
 		]
 	},
 	"red_dragon": { "redirect": "dragon_red" },

@@ -224,12 +224,12 @@
 			"- 5th-{spell/dissolution}, {spell/major creation}, {spell/open arms}, {spell/treasure stitching}",
 			"- 4th-{spell/adjustable polymorph}, {spell/calcific touch}, {spell/greater darkvision}, {spell/liquefy}, {spell/rags to riches}, {spell/shout}",
 			"- 3rd-{spell/anthropomorphic animal}, {spell/deft digits}, {spell/disable construct}, {spell/dispel magic}, {spell/fly}, {spell/lightning bolt}",
-			"- 2nd-{spell/arcane lock}, {spell/darkness}, {spell/detect thoughts}, {spell/full pouch}, {spell/masterwork transformation}, {spell/shatter}, {spell/silk to steel}, {spell/twisted space}",
+			"- 2nd-*arcane lock,* {spell/darkness}, {spell/detect thoughts}, {spell/full pouch}, {spell/masterwork transformation}, {spell/shatter}, {spell/silk to steel}, {spell/twisted space}",
 			"- 1st-{spell/ant haul}, {spell/burning hands}, {spell/endure elements}, {spell/jump}, {spell/mage armor}, {spell/mirror strike}, {spell/true strike}, {spell/vocal alteration}",
 			"",
 			"#### Ritual",
 			"",
-			"**Enduring Alteration (Su)** Your spells resist reality's attempts to restore the things you change. You can spend this boon to apply the benefits of the {feat/Extend Spell} feat to a transmutation spell as you cast it. This also increases the DC to dispel that spell (via {spell/dispel magic} or similar abilities) by 4. This boon does not increase the spell level or casting time of your spell."
+			"**Enduring Alteration (Su)** Your spells resist reality's attempts to restore the things you change. You can spend this boon to apply the benefits of the {feat/Extend Spell} feat to a transmutation spell as you cast it. This also increases the DC to dispel that spell (via *dispel magic* or similar abilities) by 4. This boon does not increase the spell level or casting time of your spell."
 		]
 	},
 	"defensive_primer": {
@@ -470,7 +470,7 @@
 			"",
 			"#### Ritual",
 			"",
-			"**Eyes of Rul Thaven (Su)** You use a trick perfected by Rul Thaven to ferret out invisible creatures. Spend this boon's effect as a swift action. You gain the effects of {spell/see invisibility} for 1 round.",
+			"**Eyes of Rul Thaven (Su)** You use a trick perfected by Rul Thaven to ferret out invisible creatures. Spend this boon's effect as a swift action. You gain the effects of *see invisibility* for 1 round.",
 			"",
 			"[^S]: A spell from the caster's specialty school.  ",
 			"[^OP]: A spell from the spellbook creator's opposition school."
@@ -551,9 +551,9 @@
 			"- 6th-{spell/contagious flame}, {spell/disintegrate}, {spell/greater dispel magic}[^OP], {spell/legend lore}, {spell/planar binding}[^S], {spell/wall of iron}[^S]",
 			"- 5th-{spell/cloudkill}[^S], {spell/cone of cold}, {spell/contact other plane}, {spell/hungry pit}[^S], {spell/magic jar}, {spell/overland flight}, {spell/permanency}, {spell/secret chest}[^S], {spell/symbol of pain}",
 			"- 4th-{spell/ball lightning}, {spell/black tentacles}[^S], {spell/detect scrying}, {spell/dimension door}[^S], {spell/enervation}, {spell/greater invisibility}, {spell/resilient sphere}, {spell/remove curse}[^OP]",
-			"- 3rd-{spell/blink}, {spell/daylight}, {spell/enter image}, {spell/fireball}, {spell/gentle repose}, {spell/secret page}, {spell/sepia snake sigil}[^S], {spell/stinking cloud}[^S]",
+			"- 3rd-{spell/blink}, {spell/daylight}, {spell/enter image}, {spell/fireball}, {spell/gentle repose}, *secret page, sepia snake sigil*[^S], {spell/stinking cloud}[^S]",
 			"- 2nd-{spell/darkvision}, {spell/false life}, {spell/glitterdust}[^S], {spell/make whole}, {spell/mirror image}, {spell/resist energy}[^OP], {spell/see invisibility}, {spell/summon swarm}[^S], {spell/web}[^S]",
-			"- 1st-{spell/burning hands}, {spell/detect undead}, {spell/disguise self}, {spell/grease}[^S], {spell/mage armor}[^S], {spell/magic aura}, {spell/magic missile}, {spell/ray of enfeeblement}, {spell/unseen servant}[^S]",
+			"- 1st-{spell/burning hands}, {spell/detect undead}, {spell/disguise self}, {spell/grease}[^S], {spell/mage armor}[^S], *magic aura,* {spell/magic missile}, {spell/ray of enfeeblement}, {spell/unseen servant}[^S]",
 			"",
 			"#### Ritual",
 			"",
@@ -580,7 +580,7 @@
 			"",
 			"- 5th-{spell/break enchantment}, {spell/mage's private sanctum}, {spell/polymorph}, {spell/treasure stitching}",
 			"- 4th-{spell/charm monster}, {spell/dimension door}, {spell/greater invisibility}, {spell/moonstruck}, {spell/true form}",
-			"- 3rd-{spell/cloak of winds}, {spell/explosive runes}, {spell/haste}, {spell/lightning bolt}, {spell/nondetection}, {spell/twilight knife}",
+			"- 3rd-{spell/cloak of winds}, *explosive runes,* {spell/haste}, {spell/lightning bolt}, {spell/nondetection}, {spell/twilight knife}",
 			"- 2nd-{spell/acid arrow}, {spell/burning gaze}, {spell/dust of twilight}, {spell/fog cloud}, {spell/protection from arrows}, {spell/spider climb}",
 			"- 1st-{spell/alter winds}, {spell/ant haul}, {spell/burning hands}, {spell/cause fear}, {spell/hold portal}, {spell/identify}, {spell/magic missile}, {spell/sleep}, {spell/stone fist}, {spell/vanish}",
 			"",
@@ -766,7 +766,7 @@
 			"- 5th-{spell/baleful polymorph}, {spell/beast shape III}, {spell/contact other plane}, {spell/monstrous physique III}, {spell/open arms}, {spell/permanency}, {spell/polymorph}, {spell/rune of ruin}, {spell/telekinesis}, {spell/treasure stitching}",
 			"- 4th-{spell/arcane eye}, {spell/black tentacles}, {spell/dimension door}, {spell/fire shield}, {spell/greater darkvision}, {spell/monstrous physique II}, {spell/obsidian flow}, {spell/stoneskin}, {spell/telekinetic charge}, {spell/true form}",
 			"- 3rd-{spell/deft digits}, {spell/disable construct}, {spell/enter image}, {spell/excruciating deformation}, {spell/fly}, {spell/greater magic weapon}, {spell/haste}, {spell/heroism}, {spell/lightning bolt}, {spell/monstrous physique I}, {spell/protection from energy}, {spell/strangling hair}",
-			"- 2nd-{spell/arcane lock}, {spell/continual flame}, {spell/disfiguring touch}, {spell/locate object}, {spell/make whole}, {spell/masterwork transformation}, {spell/protection from arrows}, {spell/scorching ray}, {spell/see invisibility}, {spell/shatter}, {spell/summon swarm}, {spell/telekinetic assembly}",
+			"- 2nd-*arcane lock,* {spell/continual flame}, {spell/disfiguring touch}, {spell/locate object}, {spell/make whole}, {spell/masterwork transformation}, {spell/protection from arrows}, {spell/scorching ray}, {spell/see invisibility}, {spell/shatter}, {spell/summon swarm}, {spell/telekinetic assembly}",
 			"- 1st-{spell/ant haul}, {spell/burning hands}, {spell/color spray}, {spell/comprehend languages}, {spell/identify}, {spell/jump}, {spell/mage armor}, {spell/magic missile}, {spell/mirror strike}, {spell/reduce person}, {spell/thunderstomp}, {spell/youthful appearance}",
 			"",
 			"#### Ritual",
@@ -816,7 +816,7 @@
 			"",
 			"- 2nd-{spell/marching chant}, {spell/path of glory}, {spell/scare}",
 			"- 1st-{spell/cure light wounds}, {spell/heightened awareness}, {spell/remove fear}",
-			"- 0 (at will)-*dancing lights*, *ghost sound*, *lullaby*, *mage hand*, *mending*, *resistance*",
+			"- 0 (at will)-*dancing lights, ghost sound, lullaby, mage hand, mending, resistance*",
 			"",
 			"#### Ritual",
 			"",
@@ -974,7 +974,7 @@
 			"",
 			"#### Ritual",
 			"",
-			"**Keeper of Stone (Ex/Su)** The *Tome of Stone Wards* covers the geography of caves and mountains (especially the Five Kings Mountains) thoroughly, and gives eldritch insights into how such terrain is formed. This boon is not spent, but grants you a +1 insight bonus on Knowledge (dungeoneering), Knowledge (geography), and Knowledge (nature) checks, as well as on Survival checks attempted in hills, mountains, and underground terrain. In addition, whenever you cast {spell/mending}, {spell/make whole}, or {spell/greater make whole} on an object made entirely from stone, add 1d6 to the number of hit points restored to the object. These benefits last until you next regain spell slots or prepare spells."
+			"**Keeper of Stone (Ex/Su)** The *Tome of Stone Wards* covers the geography of caves and mountains (especially the Five Kings Mountains) thoroughly, and gives eldritch insights into how such terrain is formed. This boon is not spent, but grants you a +1 insight bonus on Knowledge (dungeoneering), Knowledge (geography), and Knowledge (nature) checks, as well as on Survival checks attempted in hills, mountains, and underground terrain. In addition, whenever you cast {spell/mending}, *make whole,* or *greater make whole* on an object made entirely from stone, add 1d6 to the number of hit points restored to the object. These benefits last until you next regain spell slots or prepare spells."
 		]
 	},
 	"tome_of_the_transmuter": {
@@ -994,7 +994,7 @@
 			"#### Spells",
 			"",
 			"- 4th-{spell/beast shape II}[^S], {spell/calcific touch}[^S], {spell/confusion}, {spell/dimension door}, {spell/stone shape}[^S]",
-			"- 3rd-{spell/arcane sight}, {spell/dispel magic}, {spell/explosive runes}, {spell/lightning bolt}, {spell/greater magic weapon}[^S], {spell/slow}[^S]",
+			"- 3rd-{spell/arcane sight}, {spell/dispel magic}, *explosive runes,* {spell/lightning bolt}, {spell/greater magic weapon}[^S], {spell/slow}[^S]",
 			"- 2nd-{spell/alter self}[^S], {spell/flaming sphere}, {spell/knock}[^S], {spell/pyrotechnics}[^S], {spell/resist energy}, {spell/see invisibility}, {spell/whispering wind}[^S]",
 			"- 1st-{spell/animate rope}[^S], {spell/charm person}, {spell/color spray}[^OP], {spell/erase}[^S], {spell/floating disk}, {spell/mage armor}, {spell/magic missile}, {spell/protection from chaos}, {spell/unseen servant}",
 			"",

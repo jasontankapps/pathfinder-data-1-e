@@ -89,7 +89,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Staff}, {spell/know direction}, {spell/pass without trace}, {spell/summon nature's ally I}; **Cost** 4,800 gp"
+			"**Requirements** {feat/Craft Staff}, {spell/know direction}, {spell/pass without trace}, *summon nature's ally I;* **Cost** 4,800 gp"
 		]
 	},
 	"monstrification_staff": {
@@ -472,7 +472,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Staff}, {spell/black tentacles}, {spell/summon monster VI}; **Cost** 11,400 gp"
+			"**Requirements** {feat/Craft Staff}, {spell/black tentacles}, *summon monster VI;* **Cost** 11,400 gp"
 		]
 	},
 	"staff_of_swarming_insects": {
@@ -562,11 +562,11 @@
 			"- {spell/Aura sight} (3 charges)",
 			"- {spell/Summon nature's ally IV} (animals only, 4 charges)",
 			"",
-			"A shaman who wields the staff can cast {spell/summon nature's ally II} and {spell/summon nature's ally IV} from the staff even though those spells are not on her spell list. Additionally, once per day when a druid or shaman uses the staff to cast either of those spells, she can instead summon the creature to perform a single task for her with a duration of up to 1 hour per level. If summoned in this fashion, the summoned creature refuses to enter combat and is immediately dismissed if it takes damage from any source.",
+			"A shaman who wields the staff can cast *summon nature's ally II* and *summon nature's ally IV* from the staff even though those spells are not on her spell list. Additionally, once per day when a druid or shaman uses the staff to cast either of those spells, she can instead summon the creature to perform a single task for her with a duration of up to 1 hour per level. If summoned in this fashion, the summoned creature refuses to enter combat and is immediately dismissed if it takes damage from any source.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Staff}, {spell/aura sight}, {spell/protection from evil}, {spell/summon nature's ally I}, {spell/summon nature's ally II}, {spell/zone of truth}; **Cost** 12,400 gp"
+			"**Requirements** {feat/Craft Staff}, *aura sight, protection from evil,* {spell/summon nature's ally I}, *summon nature's ally II,* {spell/zone of truth}; **Cost** 12,400 gp"
 		]
 	},
 	"staff_of_size_alteration": {
@@ -613,11 +613,11 @@
 			"- {spell/Speak with animals} (1 charge)",
 			"- {spell/Greater longstrider} (2 charges)",
 			"",
-			"If the staff's wielder has the {feat/Fleet} feat, castings of {spell/greater longstrider}, {spell/longstrider}, or {spell/monkey fish} from the staff are automatically extended, as the {feat/Extend Spell} feat. If the wielder has the {feat/Animal Affinity} feat, then {spell/charm animal} or {spell/speak with animals} spells cast from the staff are automatically extended, as the {feat/Extend Spell} feat. This does not increase the spells' level or casting time.",
+			"If the staff's wielder has the {feat/Fleet} feat, castings of *greater longstrider, longstrider,* or *monkey fish* from the staff are automatically extended, as the {feat/Extend Spell} feat. If the wielder has the {feat/Animal Affinity} feat, then *charm animal* or *speak with animals* spells cast from the staff are automatically extended, as the Extend Spell feat. This does not increase the spells' level or casting time.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Craft Staff}, {spell/charm animal}, {spell/greater longstrider}, {spell/longstrider}, {spell/monkey fish}, {spell/speak with animals}; **Cost** 13,600 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Craft Staff}, {spell/charm animal}, *greater longstrider, longstrider, monkey fish, speak with animals;* **Cost** 13,600 gp"
 		]
 	},
 	"staff_of_journeys": {
@@ -797,7 +797,7 @@
 			"The staff allows the use of the following spells.",
 			"",
 			"- Magic mouth (1 charge)",
-			"- {spell/Beast shape I} (see text; 2 charges)",
+			"- *Beast shape I* (see text; 2 charges)",
 			"- Hungry pit (3 charges)",
 			"",
 			"### Construction",
@@ -846,7 +846,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Craft Staff}, {spell/spider climb}, {spell/summon monster III}, {spell/web}; **Cost** 15,400 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Craft Staff}, {spell/spider climb}, *summon monster III,* {spell/web}; **Cost** 15,400 gp"
 		]
 	},
 	"oaken_staff": {
@@ -935,7 +935,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Staff}, {spell/blindness//deafness}, {spell/prying eyes}, {spell/summon monster II}; **Cost** 16,000 gp"
+			"**Requirements** {feat/Craft Staff}, {spell/blindness//deafness}, {spell/prying eyes}, *summon monster II;* **Cost** 16,000 gp"
 		]
 	},
 	"musical_staff": {
@@ -1618,7 +1618,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Craft Staff}, {spell/spiritual ally}, {spell/spiritual weapon}, {spell/summon monster VI}, {spell/telekinesis}; **Cost** 28,300 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Craft Staff}, {spell/spiritual ally}, {spell/spiritual weapon}, *summon monster VI,* {spell/telekinesis}; **Cost** 28,300 gp"
 		]
 	},
 	"staff_of_cackling_wrath": {
@@ -1795,7 +1795,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Staff}, {spell/shield}, {spell/shield of faith}, {spell/shield} of law, {spell/shield other}, creator must be lawful; **Cost** 31,000 gp"
+			"**Requirements** {feat/Craft Staff}, {spell/shield}, {spell/shield of faith}, {spell/shield of law}, {spell/shield other}, creator must be lawful; **Cost** 31,000 gp"
 		]
 	},
 	"staff_of_stoneweaving": {
@@ -1871,7 +1871,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Staff}, {spell/darkness}, {spell/enervation}, {spell/planar binding}, {spell/ray of enfeeblement}, {spell/summon monster V}, {spell/vampiric touch}; **Cost** 34,650 gp"
+			"**Requirements** {feat/Craft Staff}, {spell/darkness}, {spell/enervation}, {spell/planar binding}, {spell/ray of enfeeblement}, *summon monster V,* {spell/vampiric touch}; **Cost** 34,650 gp"
 		]
 	},
 	"quiemas_branch": {
@@ -1912,9 +1912,9 @@
 			"- Fly (1 charge)",
 			"- Protection from energy (1 charge)",
 			"- Dragon's breath (2 charges)",
-			"- {spell/Form of the dragon II} (4 charges)",
+			"- *Form of the dragon II* (4 charges)",
 			"",
-			"In addition to these powers, the wielder of the dragon staff also receives a +2 natural armor bonus to her AC and the ability to make a bite attack as a primary natural weapon. This bite deals 1d8 points of damage if the wielder is Medium. These bonuses are a polymorph effect and are replaced by those gained from casting {spell/form of the dragon II}, or other similar spells.",
+			"In addition to these powers, the wielder of the dragon staff also receives a +2 natural armor bonus to her AC and the ability to make a bite attack as a primary natural weapon. This bite deals 1d8 points of damage if the wielder is Medium. These bonuses are a polymorph effect and are replaced by those gained from casting *form of the dragon II,* or other similar spells.",
 			"",
 			"### Construction",
 			"",
@@ -1999,7 +1999,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Staff}, {spell/cloudkill}, {spell/minor creation}, {spell/stinking cloud}, {spell/summon monster VI}, {spell/summon swarm}, {spell/unseen servant}; **Cost** 41,000 gp"
+			"**Requirements** {feat/Craft Staff}, {spell/cloudkill}, {spell/minor creation}, {spell/stinking cloud}, *summon monster VI,* {spell/summon swarm}, {spell/unseen servant}; **Cost** 41,000 gp"
 		]
 	},
 	"staff_of_divination": {
@@ -2290,7 +2290,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Craft Staff}, {spell/animate plants}, {spell/barkskin}, {spell/charm animal}, {spell/pass without trace}, {spell/speak with animals}, {spell/summon nature's ally VI}, {spell/wall of thorns}; **Cost** 50,500 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Craft Staff}, {spell/animate plants}, {spell/barkskin}, {spell/charm animal}, {spell/pass without trace}, {spell/speak with animals}, *summon nature's ally VI,* {spell/wall of thorns}; **Cost** 50,500 gp"
 		]
 	},
 	"staff_of_life": {

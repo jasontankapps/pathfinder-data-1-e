@@ -1403,7 +1403,7 @@
 			"",
 			"@HL[Very Rare Guns:] Early firearms are rare; advanced firearms, the gunslinger class, the {feat/Amateur Gunslinger} feat, and archetypes that use the firearm rules do not exist in this type of campaign. Firearms are treated more like magic items - things of wonder and mystery - rather than like things that are mass-produced. Few know the strange secrets of firearm creation. Only NPCs can take the {feat/Gunsmithing} feat.",
 			"",
-			"@HL[Emerging Guns:] Firearms become more common. They are mass-produced by small guilds, lone gunsmiths, dwarven clans, or maybe even a nation or two - the secret is slipping out, and the occasional rare adventurer uses guns. The baseline gunslinger rules and the prices for ammunition are for this type of campaign. Early firearms are available, but are relatively rare. Adventurers who want to use guns must take the {feat/Gunsmithing} feat just to make them feasible weapons. Advanced firearms may exist, but only as rare and wondrous items - the stuff of high-level treasure troves.",
+			"@HL[Emerging Guns:] Firearms become more common. They are mass-produced by small guilds, lone gunsmiths, dwarven clans, or maybe even a nation or two - the secret is slipping out, and the occasional rare adventurer uses guns. The baseline gunslinger rules and the prices for ammunition are for this type of campaign. Early firearms are available, but are relatively rare. Adventurers who want to use guns must take the Gunsmithing feat just to make them feasible weapons. Advanced firearms may exist, but only as rare and wondrous items - the stuff of high-level treasure troves.",
 			"",
 			"@HL[Commonplace Guns:] While still expensive and tricky to wield, early firearms are readily available. Instead of requiring the {feat/Exotic Weapon Proficiency} feat, all firearms are martial weapons. Early firearms and their ammunition cost 25% of the amounts listed, but advanced firearms and their ammunition are still rare and cost the full price to purchase or craft.",
 			"",
@@ -1429,7 +1429,7 @@
 			"",
 			"@HL[Firearm Proficiency:] The {feat/Exotic Weapon Proficiency} (firearms) feat allows you to use all firearms without penalty. A nonproficient character takes the standard -4 penalty on attack rolls with firearms, and a nonproficient character who loads a firearm increases all misfire values by 4 for the shots he loads.",
 			"",
-			"Even though the {feat/Exotic Weapon Proficiency} (firearms) feat grants you proficiency with all firearms, anytime you take a feat that modifies a single type of weapon (such as {feat/Weapon Focus} or {feat/Rapid Reload}), you must still pick one specific type of firearm (such as musket, axe musket, blunderbuss, pistol, or double pistol) for that feat to affect.",
+			"Even though the Exotic Weapon Proficiency (firearms) feat grants you proficiency with all firearms, anytime you take a feat that modifies a single type of weapon (such as {feat/Weapon Focus} or {feat/Rapid Reload}), you must still pick one specific type of firearm (such as musket, axe musket, blunderbuss, pistol, or double pistol) for that feat to affect.",
 			"",
 			"All firearms are part of the same weapon group for the purposes of the fighter's weapon training class feature.",
 			"",
@@ -1439,7 +1439,7 @@
 			"",
 			"@HL[Early Firearms:] When firing an early firearm, the attack resolves against the target's touch AC when the target is within the first range increment of the weapon, but this type of attack is not considered a touch attack for the purposes of feats and abilities such as {feat/Deadly Aim}. At higher range increments, the attack resolves normally, including taking the normal cumulative -2 penalty for each full range increment. Unlike other projectile weapons, early firearms have a maximum range of five range increments.",
 			"",
-			"@HL[Advanced Firearms:] Advanced firearms resolve their attacks against touch AC when the target is within the first five range increments, but this type of attack is not considered a touch attack for the purposes of feats such as {feat/Deadly Aim}. At higher range increments, the attack resolves normally, including taking the normal cumulative -2 penalty for each full-range increment. Advanced firearms have a maximum range of 10 range increments.",
+			"@HL[Advanced Firearms:] Advanced firearms resolve their attacks against touch AC when the target is within the first five range increments, but this type of attack is not considered a touch attack for the purposes of feats such as Deadly Aim. At higher range increments, the attack resolves normally, including taking the normal cumulative -2 penalty for each full-range increment. Advanced firearms have a maximum range of 10 range increments.",
 			"",
 			"@HL[Loading a Firearm:] You need at least one hand free to load one-handed and two-handed firearms. In the case of two-handed firearms, you hold the weapon in one hand and load it with the other - you only need to hold it in two hands to aim and shoot the firearm. Loading siege firearms requires both hands, and one hand usually manipulates a large ramrod (which can be wielded as a club in combat).",
 			"",
@@ -1449,7 +1449,7 @@
 			"",
 			"@HL[Early Firearms:] Early firearms are muzzle-loaded, requiring bullets or pellets and black powder to be rammed down the muzzle. If an early firearm has multiple barrels, each barrel must be loaded separately. It is a standard action to load each barrel of a one-handed early firearm and a full-round action to load each barrel of a two-handed early firearm. It takes three full-round actions by one person to load a siege firearm. This can be reduced to two full-round actions if more than one person is loading the cannon.",
 			"",
-			"@HL[Advanced Firearms:] Advanced firearms are chamber-loaded. It is a move action to load a one-handed or two-handed advanced firearm to its full capacity. The {feat/Rapid Reload} feat reduces this to a free action.",
+			"@HL[Advanced Firearms:] Advanced firearms are chamber-loaded. It is a move action to load a one-handed or two-handed advanced firearm to its full capacity. The Rapid Reload feat reduces this to a free action.",
 			"",
 			"@HL[Misfires:] If the natural result of your attack roll falls within a firearm's misfire value, that shot misses, even if you would have otherwise hit the target. When a firearm misfires, it gains the broken condition. While it has the broken condition, it suffers the normal disadvantages that broken weapons do, and its misfire value increases by 4 unless the wielder has gun training in the particular type of firearm (see the {class/gunslinger} class). In that case, the misfire value increases by 2 instead of 4.",
 			"",
@@ -2279,7 +2279,7 @@
 		"description": [
 			"{SOURCE Ultimate Intrigue/130}",
 			"",
-			"Social interactions and the bonds between people are some of the most important elements in any story. One of the best ways to portray those ties and bring a supporting cast of NPCs to life is through the {feat/Leadership} feat, though getting the most out of it can sometimes be a challenge for both players and GMs. This section offers an in-depth overview of the {feat/Leadership} feat, presenting suggestions for how to include cohorts and followers in your game and incorporate them into various rules systems."
+			"Social interactions and the bonds between people are some of the most important elements in any story. One of the best ways to portray those ties and bring a supporting cast of NPCs to life is through the {feat/Leadership} feat, though getting the most out of it can sometimes be a challenge for both players and GMs. This section offers an in-depth overview of the Leadership feat, presenting suggestions for how to include cohorts and followers in your game and incorporate them into various rules systems."
 		],
 		"parent_topics": [ "specific_rulesets" ],
 		"subtopics": [
@@ -2375,7 +2375,7 @@
 		"description": [
 			"{SOURCE Ultimate Intrigue/131}",
 			"",
-			"Conflicting loyalties and potential betrayals are part of the excitement of the {feat/Leadership} feat. Having fully loyal followers weakens the tension of the game - imagine if all the PCs and NPCs used {feat/Leadership} to surround themselves with implacably loyal allies who neither side could subvert, trick, or recruit. Cohorts and followers begin genuinely loyal to their leaders, but they aren't immune to bribery, blackmail, replacement with an impostor, and other manners of threats and enticements.",
+			"Conflicting loyalties and potential betrayals are part of the excitement of the {feat/Leadership} feat. Having fully loyal followers weakens the tension of the game - imagine if all the PCs and NPCs used Leadership to surround themselves with implacably loyal allies who neither side could subvert, trick, or recruit. Cohorts and followers begin genuinely loyal to their leaders, but they aren't immune to bribery, blackmail, replacement with an impostor, and other manners of threats and enticements.",
 			"",
 			"On the other hand, players like to receive a more concrete benefit from their feats - the benefits of {feat/Toughness} and {feat/Skill Focus}, for example, can't be reduced by bribes or chicanery. For that reason, as well as to balance the spotlight, consider making the Leadership feat free in an intrigue-focused campaign, with the caveat that players' cohorts and followers may change their loyalties in certain circumstances. Sometimes, a little warning is all it takes to avoid an unpleasant clash of expectations later in the game.",
 			"",

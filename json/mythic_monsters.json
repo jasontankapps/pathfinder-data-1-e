@@ -437,7 +437,7 @@
 			"",
 			"**CL** 14th; **Price** 100,000 gp",
 			"",
-			"**Requirements** {feat/Craft Construct}, {feat/Mythic Crafter}, {spell/antimagic field}, *good hope*, {spell/remove fear}, *vengeful outrage*, {spell/wish}, creator must be at least mythic rank or tier 6th"
+			"**Requirements** {feat/Craft Construct}, {feat/Mythic Crafter}, {spell/antimagic field}, *good hope,* {spell/remove fear}, *vengeful outrage,* {spell/wish}, creator must be at least mythic rank or tier 6th"
 		]
 	},
 	"champion_of_the_gilded_host": { "redirect": "champion_of_the_gilded_host_mythic" },
@@ -778,7 +778,7 @@
 			"",
 			"**CL** 11th; **Price** 100,000 gp",
 			"",
-			"**Requirements** {feat/Craft Construct}, {feat/Mythic Crafter}, {feat/Quicken Spell}, 4th mythic rank or tier, {spell/antimagic field}, {spell/limited wish}, *moment of prescience*, *true strike*; Skill Craft (stonemasonry) DC 25; **Cost** 62,500 gp"
+			"**Requirements** {feat/Craft Construct}, {feat/Mythic Crafter}, {feat/Quicken Spell}, 4th mythic rank or tier, {spell/antimagic field}, {spell/limited wish}, *moment of prescience, true strike;* Skill Craft (stonemasonry) DC 25; **Cost** 62,500 gp"
 		]
 	},
 	"colossus_sphinx_colossus": { "redirect": "colossus_sphinx_colossus_mythic" },
@@ -856,7 +856,7 @@
 			"",
 			"**CL** 15th; **Price** 300,000 gp",
 			"",
-			"**Requirements** {feat/Craft Construct}, {feat/Mythic Crafter}, mythic rank or tier 8, {spell/antimagic field}, {spell/mage's magnificent mansion}, {spell/make whole}, *wall of stone*, {spell/wish}; Skill Craft (stonemasonry) DC 30; **Cost** 170,000 gp",
+			"**Requirements** {feat/Craft Construct}, {feat/Mythic Crafter}, mythic rank or tier 8, {spell/antimagic field}, {spell/mage's magnificent mansion}, {spell/make whole}, *wall of stone,* {spell/wish}; Skill Craft (stonemasonry) DC 30; **Cost** 170,000 gp",
 			"",
 			"[^I]: This creature may expend one mythic power to treat its initiative roll as a natural 20, per Mythic Improved Initiative."
 		]

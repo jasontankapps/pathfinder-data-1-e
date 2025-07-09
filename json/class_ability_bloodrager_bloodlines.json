@@ -109,7 +109,7 @@
 			"",
 			"While others of your kin may be powerful wizards and sorcerers, the eldritch nature of the blood coursing through your veins transforms you into a spell-breaking terror.",
 			"",
-			"**Bonus Feats:** {feat/Combat Reflexes}, {feat/Disruptive*}, {feat/Improved Initiative}, {feat/Iron Will}, {feat/Power Attack}, {feat/Quick Draw}, {feat/Spellbreaker*}. (Your bloodrager levels count as fighter levels for the purposes of qualifying for any feats marked with an asterisk [\\*].) This stacks with any levels in fighter you have.",
+			"**Bonus Feats:** {feat/Combat Reflexes}, {feat/Disruptive}\\*, {feat/Improved Initiative}, {feat/Iron Will}, {feat/Power Attack}, {feat/Quick Draw}, {feat/Spellbreaker}\\*. (Your bloodrager levels count as fighter levels for the purposes of qualifying for any feats marked with an asterisk [\\*].) This stacks with any levels in fighter you have.",
 			"",
 			"**Bonus Spells:** {spell/magic missile} (7th), {spell/invisibility} (10th), {spell/lightning bolt} (13th), {spell/dimension door} (16th)",
 			"",
@@ -410,11 +410,11 @@
 			"",
 			"**Blurring Movement (Su):** At 8th level, you become a blur of motion when you move. As long as you move at least 10 feet, you gain the effects of {spell/blur} for 1 round.",
 			"",
-			"**Quickling Bloodrage (Sp):** At 12th level, while bloodraging you're treated as if you are under the effects of {spell/haste}.",
+			"**Quickling Bloodrage (Sp):** At 12th level, while bloodraging you're treated as if you are under the effects of *haste.*",
 			"",
 			"**One with Nature (Su):** At 16th level, creatures of the animal or plant types don't attack you unless compelled to do so by magic or you attack them first. Three times per day, you can transport yourself from one tree to another tree, as {spell/tree stride} with half the transport range. Moving from one tree to another in this manner is a move action. You gain these abilities even while not bloodraging.",
 			"",
-			"**Fury of the Fey (Su):** At 20th level, when entering a bloodrage you can choose one type of creature (and subtype for humanoids or outsiders) that can be affected by the {magic-enh/bane} weapon special ability. All of your melee attacks are considered to have *bane* against that type. This ability doesn't stack with other forms of *bane*."
+			"**Fury of the Fey (Su):** At 20th level, when entering a bloodrage you can choose one type of creature (and subtype for humanoids or outsiders) that can be affected by the {magic-enh/bane} weapon special ability. All of your melee attacks are considered to have *bane* against that type. This ability doesn't stack with other forms of *bane.*"
 		]
 	},
 	"hag": {
@@ -441,7 +441,7 @@
 			"",
 			"**Hag Transformation (Su):** At 12th level, your form grows more twisted and powerful while bloodraging, but clumsy, blind aggression clouds your mind. Your morale bonus to Strength increases by 2, and you gain low-light vision and darkvision (60 feet), but you take a -2 penalty to both Dexterity and Wisdom for the duration of your bloodrage. At 16th level, you apply your morale bonus on Will saving throws while bloodraging to Fortitude and Reflex saving throws against spells and spell-like abilities.",
 			"",
-			"**Covenguard (Su):** At 16th level, you can cast {spell/bestow curse} three times per day as a spell-like ability. You count as a {family/hag} for the purposes of joining a coven; the coven must contain at least one hag.",
+			"**Covenguard (Su):** At 16th level, you can cast *bestow curse* three times per day as a spell-like ability. You count as a {family/hag} for the purposes of joining a coven; the coven must contain at least one hag.",
 			"",
 			"**Curse Conduit (Su):** At 20th level, you gain immunity to negative energy damage and all spells with the curse descriptor. Whenever you confirm a critical hit with a melee weapon, you can immediately target your opponent with a *bestow curse* spell or spell-like ability as a free action."
 		]
@@ -631,7 +631,7 @@
 			"",
 			"**Molten Wings (Su):** At 12th level, when entering a bloodrage you can choose to have wings of flame sprout from your back, giving you a fly speed of 60 feet with average maneuverability. At 16th level, your fly speed increases to 80 feet with good maneuverability.",
 			"",
-			"**Self-Resurrection (Su):** From the ashes of your body springs forth new life. At 16th level, once per day when you are reduced below 0 hit points while you are bloodraging, you can call upon the power in your blood to pull yourself back from death. This functions as a {spell/breath of life} spell cast upon yourself. At 20th level, this instead functions as a {spell/heal} spell, except that the healing can return you to life as per {spell/breath of life}, using your bloodrager level as your caster level. Using this ability does not take an action. This ability does not function if your body is completely destroyed by an effect such as {spell/disintegrate}.",
+			"**Self-Resurrection (Su):** From the ashes of your body springs forth new life. At 16th level, once per day when you are reduced below 0 hit points while you are bloodraging, you can call upon the power in your blood to pull yourself back from death. This functions as a {spell/breath of life} spell cast upon yourself. At 20th level, this instead functions as a {spell/heal} spell, except that the healing can return you to life as per *breath of life,* using your bloodrager level as your caster level. Using this ability does not take an action. This ability does not function if your body is completely destroyed by an effect such as {spell/disintegrate}.",
 			"",
 			"**Phoenix Fire (Su):** The power of the phoenix brings righteous destruction to any who oppose it. At 20th level, while bloodraging, you gain the following effects: your melee attacks deal an additional 2d6 points of fire damage, any enemies within 20 feet of you must succeed at a Reflex save (DC = 10 + 1/2 your bloodrager level + your Constitution modifier) or take 4d6 points of fire damage at the start of their turn, and any creature that attacks you with a natural or non-reach weapon takes 1d6 points of fire damage (no save) with each successful hit."
 		]

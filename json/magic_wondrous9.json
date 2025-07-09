@@ -1150,7 +1150,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/speak with dead}, {spell/stone tell}; **Cost** 1,800 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, *speak with dead,* {spell/stone tell}; **Cost** 1,800 gp"
 		]
 	},
 	"nobles_vigilant_pillbox": {
@@ -1710,7 +1710,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {feat/Extend Spell}, {spell/dimensional anchor}, {spell/magic circle against evil}; **Cost** 2,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {feat/Extend Spell}, *dimensional anchor,* {spell/magic circle against evil}; **Cost** 2,000 gp"
 		]
 	},
 	"wolf_callers_horn": {
@@ -2033,7 +2033,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/magic weapon}, {spell/shield other}, creator must have 5 ranks in Craft (armor) or Craft (weapons); **Cost** 2,400 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/magic weapon}, *shield other,* creator must have 5 ranks in Craft (armor) or Craft (weapons); **Cost** 2,400 gp"
 		]
 	},
 	"kyonin_bliss": {
@@ -3369,7 +3369,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/comprehend languages}, {spell/explosive runes}, creator must worship a demon lord; **Cost** 6,300 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, *comprehend languages,* {spell/explosive runes}, creator must worship a demon lord; **Cost** 6,300 gp"
 		]
 	},
 	"gem_of_brightness": {
@@ -3824,7 +3824,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/control water}, {spell/dismissal}, {spell/fear}, {spell/summon nature's ally V}, creator must be a triton; **Cost** 7,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/control water}, {spell/dismissal}, {spell/fear}, *summon nature's ally V,* creator must be a triton; **Cost** 7,500 gp"
 		]
 	},
 	"lucky_horseshoe_communal": {
@@ -4380,7 +4380,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/deathwatch}, {spell/summon monster VIII}; **Cost** 22,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, *deathwatch,* {spell/summon monster VIII}; **Cost** 22,500 gp"
 		]
 	},
 	"cube_of_varied_force_walls": {

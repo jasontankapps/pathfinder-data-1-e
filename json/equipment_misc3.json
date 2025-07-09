@@ -72,7 +72,7 @@
 			"",
 			"If you are using {rule/spontaneous alchemy}, adding {eq-reagent/urea} to the alchemical recipe delays a poison diffuser's activation time. For every 20 doses of urea (worth a total of 10 gp) incorporated into the alchemical creation process, the time from which the diffuser is added to the poison to the time the poison begins spreading into the air increases by 1 round.",
 			"",
-			"**{rule/Spontaneous Alchemy} Recipe** (100 {eq-reagent/brimstone} + 180 {eq-reagent/salt} + 180 {eq-reagent/spirit of wine})/fermentation; **Craft DC** 25  ",
+			"**Spontaneous Alchemy Recipe** (100 {eq-reagent/brimstone} + 180 {eq-reagent/salt} + 180 {eq-reagent/spirit of wine})/fermentation; **Craft DC** 25  ",
 			"**Time** 1 day; **Tools** heat source; **Type** alchemical tool"
 		]
 	},

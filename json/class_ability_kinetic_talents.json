@@ -841,7 +841,7 @@
 			"**Associated Blasts** {kinetic/Earth Blast}, {kinetic/Magma Blast}, {kinetic/Metal Blast}, {kinetic/Mud Blast}  ",
 			"**Saving Throw** none",
 			"",
-			"You infuse the ground in a 20-foot radius anywhere within 120 feet of you on an earthen surface (if you are using a {kinetic/metal blast}, this infusion affects a metal surface instead). The ground roils and buckles beneath the affected area. All creatures and objects in contact with the ground within the area when you create it automatically take 1/4 of the normal damage from your blast with no saving throw. Any time a creature enters the area, it takes half the normal damage from your blast, as do creatures that end their turns in the area. The entire area counts as {rule/difficult terrain}. This infusion lasts for a number of rounds equal to your Constitution modifier or until you use it again."
+			"You infuse the ground in a 20-foot radius anywhere within 120 feet of you on an earthen surface (if you are using a metal blast, this infusion affects a metal surface instead). The ground roils and buckles beneath the affected area. All creatures and objects in contact with the ground within the area when you create it automatically take 1/4 of the normal damage from your blast with no saving throw. Any time a creature enters the area, it takes half the normal damage from your blast, as do creatures that end their turns in the area. The entire area counts as {rule/difficult terrain}. This infusion lasts for a number of rounds equal to your Constitution modifier or until you use it again."
 		]
 	},
 	"detonation": {
@@ -1118,7 +1118,7 @@
 			"{SOURCE Ultimate Wilderness/58;Psychic Anthology/20}  ",
 			"**Element** fire, wood; **Type** substance infusion (Sp); **Level** 3; **Burn** 2  ",
 			"**Prerequisite** {kinetic/foxfire} or {kinetic/positive blast}  ",
-			"**Associated Blasts** {kinetic/Blue Flame Blast}, {kinetic/Fire Blast}, {kinetic/Positive Blast}  ",
+			"**Associated Blasts** {kinetic/Blue Flame Blast}, {kinetic/Fire Blast}, Positive Blast  ",
 			"**Saving Throw** Will partial",
 			"",
 			"Your blast leaves behind flickering flames that reveal the target's location as per {spell/faerie fire} for 1 minute (or until your next turn if the target succeeds at its save). This effect occurs even if the foe doesn't take damage, as long as the attack overcomes spell resistance (if any). You can reduce the blast's damage by half to increase the DC of this saving throw by 2. A creature can remove the revealing flames early by taking a full-round action to extinguish them."
@@ -1336,7 +1336,7 @@
 			"{SOURCE Ultimate Wilderness/24}  ",
 			"**Element** wood; **Type** substance infusion; **Level** 1; **Burn** 1  ",
 			"**Prerequisite** {kinetic/positive blast}  ",
-			"**Associated Blasts** {kinetic/Positive Blast}  ",
+			"**Associated Blasts** Positive Blast  ",
 			"**Saving Throw** none",
 			"",
 			"Your blast damages living creatures with light. This deals normal damage to undead creatures but also deals minimum damage (1 point of damage per d6, can't be increased by the 9th-level improvement to metakinesis) to living creatures. Undead creatures that are particularly vulnerable to sunlight, such as {template/vampire/s}, take 1 extra point of damage per die from the infused blast."
@@ -2720,7 +2720,7 @@
 			"**Element** fire; **Type** utility (Sp); **Level** 8; **Burn** 0  ",
 			"**Prerequisite** {kinetic/fire steed}, {kinetic/improved fire steed}",
 			"",
-			"When using {kinetic/fire steed}, the mount gains immunity to fire and its speed increases by an additional 10 feet. In addition, when the mount takes a run action, it can run up steep slopes at its normal speed and down steep slopes without its rider needing to attempt a Ride check."
+			"When using fire steed, the mount gains immunity to fire and its speed increases by an additional 10 feet. In addition, when the mount takes a run action, it can run up steep slopes at its normal speed and down steep slopes without its rider needing to attempt a Ride check."
 		]
 	},
 	"fire_steed_greater": { "redirect": "greater_fire_steed" },
@@ -2903,7 +2903,7 @@
 			"**Element** fire; **Type** utility (Sp); **Level** 5; **Burn** 0  ",
 			"**Prerequisite** {kinetic/fire steed}",
 			"",
-			"When using {kinetic/fire steed}, the mount's fire resistance increases to 20 and its speed increases by an additional 10 feet. The mount can move over lava without difficulty or a decrease in speed."
+			"When using fire steed, the mount's fire resistance increases to 20 and its speed increases by an additional 10 feet. The mount can move over lava without difficulty or a decrease in speed."
 		]
 	},
 	"infernal_bargain": {
@@ -3118,7 +3118,7 @@
 			"**Element** universal; **Type** utility (Su); **Level** 1; **Burn** 0  ",
 			"**Prerequisite** {race/kitsune}",
 			"",
-			"You can cast a spell-like ability granted to you by any {feat/Magical Tail} feat you have by accepting 1 point of burn, even if you have no daily uses of that spell-like ability remaining. You must be able to use wild talents of a level equal to the number of extra tails required to use a spell-like ability granted by a {feat/Magical Tail} feat to use this ability to cast that spell-like ability (for example, you would need to be 15th level and able to use 8th-level wild talents to use this talent to cast the {spell/dominate person} spell-like ability granted by {feat/Magical Tail}). In addition, you can learn a {feat/Magical Tail} feat that you qualify for in place of gaining a new infusion or utility wild talent."
+			"You can cast a spell-like ability granted to you by any {feat/Magical Tail} feat you have by accepting 1 point of burn, even if you have no daily uses of that spell-like ability remaining. You must be able to use wild talents of a level equal to the number of extra tails required to use a spell-like ability granted by a Magical Tail feat to use this ability to cast that spell-like ability (for example, you would need to be 15th level and able to use 8th-level wild talents to use this talent to cast the {spell/dominate person} spell-like ability granted by Magical Tail). In addition, you can learn a Magical Tail feat that you qualify for in place of gaining a new infusion or utility wild talent."
 		]
 	},
 	"no_breath": {

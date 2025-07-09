@@ -1323,7 +1323,7 @@
 		"category": "Elemental",
 		"compilationSources": [ [ "Planes of Power" ] ],
 		"description": [
-			"When the barbarian rages, enemies find it difficult to escape the vortex of her fury. As a full-round action while raging, the barbarian can attempt a single combat maneuver check against each creature within 10 feet of her. If her roll equals or exceeds a creature's CMD, she moves that creature 5 feet closer to her. Once per day after attempting this maneuver, she can attack each adjacent creature as a free action as if using the {feat/Whirlwind Attack} feat. If she has the {feat/Whirlwind Attack} feat, she can also use it as a free action in this way one additional time per day.",
+			"When the barbarian rages, enemies find it difficult to escape the vortex of her fury. As a full-round action while raging, the barbarian can attempt a single combat maneuver check against each creature within 10 feet of her. If her roll equals or exceeds a creature's CMD, she moves that creature 5 feet closer to her. Once per day after attempting this maneuver, she can attack each adjacent creature as a free action as if using the {feat/Whirlwind Attack} feat. If she has the Whirlwind Attack feat, she can also use it as a free action in this way one additional time per day.",
 			"",
 			"**Elemental Power:** You must be at least 6th level to take this power, and you can only use one elemental rage power at a time. An {class/unchained barbarian} can take this if they have the {ragepower/elemental stance} stance rage power, and must adopt that stance to use this power. A barbarian or {class/skald} must have the {ragepower/lesser elemental rage} or {ragepower/lesser elemental blood} rage power."
 		]
@@ -1463,7 +1463,7 @@
 		"category": "Totem",
 		"compilationSources": [ [ "Champions of Purity" ] ],
 		"description": [
-			"While raging, the barbarian shines with a righteous light. This effect bestows upon the barbarian a halo of gleaming light that shines as if it were {spell/daylight} and triggers an {spell/invisibility purge} effect in the barbarian's square and each adjacent square. The {spell/invisibility purge} only affects nongood creatures. A barbarian must be at least 8th level and have the {ragepower/lesser celestial totem} to select this rage power."
+			"While raging, the barbarian shines with a righteous light. This effect bestows upon the barbarian a halo of gleaming light that shines as if it were {spell/daylight} and triggers an {spell/invisibility purge} effect in the barbarian's square and each adjacent square. The *invisibility purge* only affects nongood creatures. A barbarian must be at least 8th level and have the {ragepower/lesser celestial totem} to select this rage power."
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},

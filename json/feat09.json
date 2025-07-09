@@ -802,19 +802,19 @@
 			"",
 			"As you grow, so too does your mentor's influence.  ",
 			"**Prerequisites:** {feat/Planar Mentor}, character level 7th.  ",
-			"**Benefit:** You can benefit from your {feat/Planar Mentor} feat one additional time per day. While your mentor's boon is active, weapons and natural weapons you wield overcome damage reduction as though they were weapons of that alignment (e.g., as good weapons for earning good approval). For neutral approval, your weapons and natural weapons overcome damage reduction as cold iron and silver weapons.",
+			"**Benefit:** You can benefit from your Planar Mentor feat one additional time per day. While your mentor's boon is active, weapons and natural weapons you wield overcome damage reduction as though they were weapons of that alignment (e.g., as good weapons for earning good approval). For neutral approval, your weapons and natural weapons overcome damage reduction as cold iron and silver weapons.",
 			"",
 			"Once per day while benefiting from your mentor's boon, you can cast one of the following spell-like abilities based on the active boon's alignment (CL = your character level). Once you cast the spell-like ability, your mentor's boon ends immediately.",
 			"",
 			">@HL[Chaotic:] {spell/Chaos hammer}, {spell/magic circle against law}, {spell/summon monster IV} (chaotic outsiders only).",
 			">",
-			">@HL[Evil:] {spell/Magic circle against good}, {spell/summon monster IV} (evil outsiders only), {spell/unholy blight}.",
+			">@HL[Evil:] {spell/Magic circle against good}, *summon monster IV* (evil outsiders only), {spell/unholy blight}.",
 			">",
-			">@HL[Good:] {spell/Holy smite}, {spell/magic circle against evil}, {spell/summon monster IV} (good outsiders only).",
+			">@HL[Good:] {spell/Holy smite}, {spell/magic circle against evil}, *summon monster IV* (good outsiders only).",
 			">",
-			">@HL[Lawful:] {spell/Magic circle against chaos}, {spell/order's wrath}, {spell/summon monster IV} (lawful outsiders only).",
+			">@HL[Lawful:] {spell/Magic circle against chaos}, {spell/order's wrath}, *summon monster IV* (lawful outsiders only).",
 			">",
-			">@HL[Neutral:] {spell/Bestow curse}, {spell/prayer}, {spell/summon monster IV} (outsiders without alignment subtypes only)."
+			">@HL[Neutral:] {spell/Bestow curse}, {spell/prayer}, *summon monster IV* (outsiders without alignment subtypes only)."
 		]
 	},
 	"improved_plane_shift": {
@@ -1210,7 +1210,7 @@
 			"",
 			"You have mastered the art of planar travel through your time on Cynosure.  ",
 			"**Prerequisites:** {feat/Stellar Wanderer}, Knowledge (planes) 15 ranks.  ",
-			"**Benefit:** When using the {feat/Stellar Wanderer} feat for planar travel, you can choose up to eight creatures to be transported with you. You now appear 1 to 100 miles (1d%) from your intended destination rather than 5 to 500 miles."
+			"**Benefit:** When using the Stellar Wanderer feat for planar travel, you can choose up to eight creatures to be transported with you. You now appear 1 to 100 miles (1d%) from your intended destination rather than 5 to 500 miles."
 		]
 	},
 	"improved_stench": {
@@ -1564,7 +1564,7 @@
 			"",
 			"When you change forms, your natural attacks take on not just the physical properties of your weapons, but their magical abilities as well.  ",
 			"**Prerequisites:** {feat/Weapon Shift}, base attack bonus +6, wild shape class feature.  ",
-			"**Benefit:** When you apply a melee weapon's damage type and properties to your natural attacks using the {feat/Weapon Shift} special ability or any special abilities limited to thrown or ranged weapons, and it does not apply the weapon's enhancement bonuses to your attacks."
+			"**Benefit:** When you apply a melee weapon's damage type and properties to your natural attacks using the Weapon Shift special ability or any special abilities limited to thrown or ranged weapons, and it does not apply the weapon's enhancement bonuses to your attacks."
 		]
 	},
 	"improved_whip_mastery": {
@@ -1924,7 +1924,7 @@
 			"",
 			"You can improve your arcane ammunition with more powerful magic.  ",
 			"**Prerequisites:** Int 15, {feat/Arcane Strike}, {feat/Spell Cartridges}, ability to cast 4th-level arcane spells, proficient with firearms.  ",
-			"**Benefit:** While your gun is imbued with power from the {feat/Arcane Strike} feat, you can spend a standard action to cast a spell of 3rd level or lower and deliver it via a force bullet. The spell must have a range of touch or produce a ray; if the spell would produce multiple rays, the bullet delivers the effect of only one ray. If the force bullet strikes a target, it deals its force damage and also delivers the effects of the spell. If the force bullet critically hits a target, the spell deals double damage."
+			"**Benefit:** While your gun is imbued with power from the Arcane Strike feat, you can spend a standard action to cast a spell of 3rd level or lower and deliver it via a force bullet. The spell must have a range of touch or produce a ray; if the spell would produce multiple rays, the bullet delivers the effect of only one ray. If the force bullet strikes a target, it deals its force damage and also delivers the effects of the spell. If the force bullet critically hits a target, the spell deals double damage."
 		]
 	},
 	"innate_arcana": {

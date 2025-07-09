@@ -1385,11 +1385,11 @@
 			"",
 			"### Homunculus Starting Statistics",
 			"",
-			"**Size** Small; **Speed** 20 ft., fly 30 ft. (poor); **AC** +2 natural armor; **Attack** bite (1d4); **Ability Scores** **Str** 10, **Dex** 15, **Con** -, **Int** 10, **Wis** 12, **Cha** 7; **Special Qualities** darkvision, low-light vision; **Languages** Common (can't speak).",
+			"**Size** Small; **Speed** 20 ft., fly 30 ft. (poor); **AC** +2 natural armor; **Attack** bite (1d4); **Ability Scores Str** 10, **Dex** 15, **Con** -, **Int** 10, **Wis** 12, **Cha** 7; **Special Qualities** darkvision, low-light vision; **Languages** Common (can't speak).",
 			"",
 			"#### 4th-Level Advancement",
 			"",
-			"**Size** Medium; **Speed** 30 ft., fly 40 ft. (average); **Attack** bite (1d6 plus poison), 2 claws (1d6); **Ability Scores** **Str** +4, **Dex** -2; **Special Attacks** poison (bite-injury *frequency* 1/minute for 60 minutes; *effect* sleep for 1 minute; *cure* 1 save, Con-based DC with a +2 racial bonus)."
+			"**Size** Medium; **Speed** 30 ft., fly 40 ft. (average); **Attack** bite (1d6 plus poison), 2 claws (1d6); **Ability Scores Str** +4, **Dex** -2; **Special Attacks** poison (bite-injury *frequency* 1/minute for 60 minutes; *effect* sleep for 1 minute; *cure* 1 save, Con-based DC with a +2 racial bonus)."
 		]
 	},
 	"psychonaut": {

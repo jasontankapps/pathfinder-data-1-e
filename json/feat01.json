@@ -218,7 +218,7 @@
 			"",
 			"You can trip flying opponents with your ranged attacks.  ",
 			"**Prerequisites:** Dex 13, {feat/Deadly Aim}, {feat/Ranged Trip}, base attack bonus +6, weapon training class feature with a ranged weapon.  ",
-			"**Benefit:** You don't take the -2 penalty for making {rule/trip} attempts with a ranged weapon using {feat/Ranged Trip}, and you can attempt special ranged trip combat maneuver checks against flying creatures. If the combat maneuver succeeds, the target falls at a rate of up to 100 feet per round (assuming it is conscious and attempting to remain airborne; otherwise, it falls at a rate of 500 feet per round) until it hits the ground. Upon impact, it falls {rule/prone} and takes {rule/falling/ damage} (half the normal damage if it fell 100 feet per round; otherwise, normal damage for the distance fallen). A falling creature is considered {rule/entangled} until it hits the ground, but it can attempt a Fly check at the start of its turn to stop falling before it hits the ground (DC = 15 + your base attack bonus); otherwise, it is unable to move (other than falling) but can act normally."
+			"**Benefit:** You don't take the -2 penalty for making {rule/trip} attempts with a ranged weapon using Ranged Trip, and you can attempt special ranged trip combat maneuver checks against flying creatures. If the combat maneuver succeeds, the target falls at a rate of up to 100 feet per round (assuming it is conscious and attempting to remain airborne; otherwise, it falls at a rate of 500 feet per round) until it hits the ground. Upon impact, it falls {rule/prone} and takes {rule/falling/ damage} (half the normal damage if it fell 100 feet per round; otherwise, normal damage for the distance fallen). A falling creature is considered {rule/entangled} until it hits the ground, but it can attempt a Fly check at the start of its turn to stop falling before it hits the ground (DC = 15 + your base attack bonus); otherwise, it is unable to move (other than falling) but can act normally."
 		]
 	},
 	"acrobatic": {
@@ -268,7 +268,7 @@
 			"",
 			"You can easily move over and through obstacles.  ",
 			"**Prerequisites:** Dex 15, {feat/Nimble Moves}.  ",
-			"**Benefit:** Whenever you move, you may move through up to 15 feet of {rule/difficult terrain} each round as if it were normal terrain. The effects of this feat stack with those provided by {feat/Nimble Moves} (allowing you to move normally through a total of 20 feet of difficult terrain each round)."
+			"**Benefit:** Whenever you move, you may move through up to 15 feet of {rule/difficult terrain} each round as if it were normal terrain. The effects of this feat stack with those provided by Nimble Moves (allowing you to move normally through a total of 20 feet of difficult terrain each round)."
 		]
 	},
 	"acupuncture_specialist": {
@@ -771,7 +771,7 @@
 			"",
 			"You gain the ability to bless equipment with abilities that make them more effective against outsiders.  ",
 			"**Prerequisites:** {feat/Alignment Channel}, {feat/Bless Equipment}, caster level 3rd, {ability/channel energy} class feature.  ",
-			"**Benefit:** In addition to the blessings provided by Bless Equipment, you can imbue weapons, shields, and suits of armor with the special abilities listed in the following table. If a special ability is followed by an alignment set in parentheses, you must be able to channel energy capable of healing or harming outsiders of that alignment subtype with {feat/Alignment Channel}. For example, a cleric must have Alignment Channel (good) to bless a weapon with the holy special ability, Alignment Channel (law) to bless a shield with the vigilant special ability, and so on. Aligned equipment blessings otherwise follow all the same rules as the equipment blessings granted by Bless Equipment.",
+			"**Benefit:** In addition to the blessings provided by Bless Equipment, you can imbue weapons, shields, and suits of armor with the special abilities listed in the following table. If a special ability is followed by an alignment set in parentheses, you must be able to channel energy capable of healing or harming outsiders of that alignment subtype with Alignment Channel. For example, a cleric must have Alignment Channel (good) to bless a weapon with the holy special ability, Alignment Channel (law) to bless a shield with the vigilant special ability, and so on. Aligned equipment blessings otherwise follow all the same rules as the equipment blessings granted by Bless Equipment.",
 			"",
 			"### Aligned Equipment Blessings",
 			"",
@@ -843,7 +843,7 @@
 			"",
 			"You deliver unchecked destruction when you stand against multiple foes, sometimes to your own detriment.  ",
 			"**Prerequisites:** Str 13, {feat/Power Attack}, {feat/Cleave}, {feat/Vital Strike}, base attack bonus +8.  ",
-			"**Benefit:** Whenever you use Cleave or Great Cleave, you can apply the additional damage you would gain from {feat/Vital Strike}, {feat/Improved Vital Strike}, or {feat/Greater Vital Strike} to the initial target of your attack. When you do so, the strain on your body causes you to take an amount of damage equal to the extra damage dealt by your Vital Strike feat. This self-inflicted damage is not reduced by damage reduction."
+			"**Benefit:** Whenever you use Cleave or Great Cleave, you can apply the additional damage you would gain from Vital Strike, {feat/Improved Vital Strike}, or {feat/Greater Vital Strike} to the initial target of your attack. When you do so, the strain on your body causes you to take an amount of damage equal to the extra damage dealt by your Vital Strike feat. This self-inflicted damage is not reduced by damage reduction."
 		]
 	},
 	"allied_spellcaster": {
@@ -1113,7 +1113,7 @@
 			"",
 			"You know how to perform deadly strikes against even the most nebulous of targets.  ",
 			"**Prerequisites:** {feat/Weapon Focus}, base attack bonus +12.  ",
-			"**Benefit:** Choose one weapon with which you have the {feat/Weapon Focus} feat. When you strike an opponent that has a chance of negating critical hits or sneak attacks, such as from the {magic-enh/fortification} armor special ability, reduce that chance by 25%. Treat creatures that are normally immune to critical hits and sneak attacks as instead having a 75% chance to negate the critical hit or sneak attack, taking only the attack's normal damage.  ",
+			"**Benefit:** Choose one weapon with which you have the Weapon Focus feat. When you strike an opponent that has a chance of negating critical hits or sneak attacks, such as from the {magic-enh/fortification} armor special ability, reduce that chance by 25%. Treat creatures that are normally immune to critical hits and sneak attacks as instead having a 75% chance to negate the critical hit or sneak attack, taking only the attack's normal damage.  ",
 			"**Special:** You can take this feat multiple times. Each time you take the feat, it applies to a different weapon."
 		]
 	},
@@ -1549,7 +1549,7 @@
 			"",
 			"Your skill with your chosen weapons is so great that you can use them underwater without impediment.  ",
 			"**Prerequisites:** {feat/Weapon Focus}, base attack bonus +1.  ",
-			"**Benefit:** You don't take additional penalties on attack and damage rolls for fighting underwater with bludgeoning and slashing melee weapons for which you have taken the {feat/Weapon Focus} feat.  ",
+			"**Benefit:** You don't take additional penalties on attack and damage rolls for fighting underwater with bludgeoning and slashing melee weapons for which you have taken the Weapon Focus feat.  ",
 			"**Normal:** When using bludgeoning and slashing melee weapons underwater, you take a -2 penalty on attack rolls and deal half damage."
 		]
 	},
@@ -2227,7 +2227,7 @@
 			"",
 			"**Reactive Mobility** ({feat/Mobility}, {feat/Nimble Moves}): Practice has honed your reactions so that you react quickly and instinctively to threats. You add your dodge bonus granted by Mobility to your AC against all attacks of opportunity that you provoke, not just against those that are caused when you move out of or within a threatened area.",
 			"",
-			"**Reflexive Mobility** ({feat/Combat Reflexes}, {feat/Mobility}): You have learned to sacrifice an opportunity to wound an opponent in order to avoid being wounded yourself. When you provoke an attack of opportunity from an opponent, you can expend one of your own potential attacks of opportunity for that round to double the bonus to your AC that you gain from the Mobility feat against that attack. This benefit applies to all attacks of opportunity that you provoke with the same action. If you are unable to take any more attacks of opportunity this turn, you cannot use this ability.",
+			"**Reflexive Mobility** ({feat/Combat Reflexes}, Mobility): You have learned to sacrifice an opportunity to wound an opponent in order to avoid being wounded yourself. When you provoke an attack of opportunity from an opponent, you can expend one of your own potential attacks of opportunity for that round to double the bonus to your AC that you gain from the Mobility feat against that attack. This benefit applies to all attacks of opportunity that you provoke with the same action. If you are unable to take any more attacks of opportunity this turn, you cannot use this ability.",
 			"",
 			"**Sliding Charge** ({feat/Improved Trip}, base attack bonus +4): You can use your momentum to confound your opponents. Whenever you charge an opponent and attempt a trip combat maneuver check against that opponent as a melee attack, you can drop to the ground as a swift action in order to slide into your target. When doing so, you add your Dexterity bonus (up to your armor's maximum Dexterity bonus) to the combat maneuver check. Whether or not you succeed at the check, you are prone at the end of your charge.",
 			"",
@@ -2239,9 +2239,9 @@
 			"",
 			"**Heavy Versatility** ({feat/Armor Focus}, Armor Trick [Heavy Armor]): You take advantage of all the defensive capabilities your armor can offer. You can treat medium armor as heavy armor for the purpose of which armor tricks you can perform in it.",
 			"",
-			"**Light Versatility** ({feat/Armor Focus}, Armor Trick [Light Armor]): You are so comfortable in your armor that it seems lighter than it is. You can treat medium armor as light armor for the purpose of what armor tricks you can perform in it.",
+			"**Light Versatility** (Armor Focus, Armor Trick [Light Armor]): You are so comfortable in your armor that it seems lighter than it is. You can treat medium armor as light armor for the purpose of what armor tricks you can perform in it.",
 			"",
-			"**Roll into the Blow** ({feat/Mobility}): You keep your wits about you when attacked and can turn the situation to your advantage. Once per day when you are hit by an attack of opportunity, you can lunge toward your attacker, throwing it off-balance. The attacker takes a -4 penalty on all melee attack rolls until the beginning of its next turn. You can use this ability a second time each day when your base attack bonus reaches +4, and an additional time per day for every 4 points of bonus you accrue thereafter.",
+			"**Roll into the Blow** (Mobility): You keep your wits about you when attacked and can turn the situation to your advantage. Once per day when you are hit by an attack of opportunity, you can lunge toward your attacker, throwing it off-balance. The attacker takes a -4 penalty on all melee attack rolls until the beginning of its next turn. You can use this ability a second time each day when your base attack bonus reaches +4, and an additional time per day for every 4 points of bonus you accrue thereafter.",
 			"",
 			"**Versatile Armor** ({feat/Combat Expertise}): You can adjust how you present yourself and maneuver in your armor to maximize your speed and mobility or to maximize your defenses. While using your armor for speed, your movement is not affected by your armor and its armor check penalty and armor bonus to AC both decrease by 2. While using your armor for defense, your armor's check penalty increases by 3 and its armor bonus to AC increases by 1. Adjusting how you use your armor is a move action, and the adjustment remains until you change it, take off your armor, or lose your Dexterity bonus to AC (if any).",
 			"",
@@ -2251,7 +2251,7 @@
 			"",
 			"**Blade among the Folds** ({skill/Sleight of Hand} 3 ranks): You are adept at concealing small weapons in your armor. While wearing heavy armor, you gain a +2 bonus on Sleight of Hand checks to conceal a light melee weapon or an easily concealed ranged weapon, such as a {eq-weapon/dart}, {eq-weapon/sling}, or {eq-weapon/hand crossbow}, within your armor. In addition, a searcher doesn't gain the usual +4 bonus on Perception checks to find the hidden weapon as long as you are wearing your armor, even if the searcher frisks you. This trick functions even in heavy armor that uses magic or materials to be treated as medium armor.",
 			"",
-			"**Protected Limbs** ({feat/Combat Expertise}): Whenever you attempt a disarm, grapple, sunder, or trip combat maneuver check, you gain a +4 bonus to your AC against any attack of opportunity you provoke as a result of attempting the combat maneuver check, and to your CMD against any combat maneuver your foe attempts against you before the beginning of your next turn.",
+			"**Protected Limbs** (Combat Expertise): Whenever you attempt a disarm, grapple, sunder, or trip combat maneuver check, you gain a +4 bonus to your AC against any attack of opportunity you provoke as a result of attempting the combat maneuver check, and to your CMD against any combat maneuver your foe attempts against you before the beginning of your next turn.",
 			"",
 			"**Shrug It Off** ({feat/Great Fortitude}): Once per day as an immediate action, when you are hit by a confirmed critical hit or {ability/sneak attack}, you can direct the blow to the thickest section of your armor to lessen the damage dealt. This reduces the attack to dealing its minimum damage, though it remains a successful critical hit or sneak attack (the minimum damage calculated includes all additional dice for the critical hit or sneak attack, and any abilities that apply due to it being a critical hit or sneak attack function normally). You can use this ability a second time each day when your base attack bonus reaches +4, and an additional time per day for every 4 points of bonus you accrue thereafter.",
 			"",
@@ -2573,7 +2573,7 @@
 			"",
 			"Taking inspiration from the many faces of asuras, you have learned to split your focus to avoid being caught off guard.  ",
 			"**Prerequisites:** {feat/Asura Style}, base attack bonus +9 or monk level 9th.  ",
-			"**Benefit:** When using {feat/Asura Style}, you gain {ability/improved uncanny dodge} as a rogue of your character level."
+			"**Benefit:** When using Asura Style, you gain {ability/improved uncanny dodge} as a rogue of your character level."
 		]
 	},
 	"asura_spellrend": {
@@ -2587,7 +2587,7 @@
 			"Your blasphemies shatter divine magic.  ",
 			"**Prerequisites:** {feat/Asura Sight}, {feat/Asura Style}, base attack bonus +13 or monk level 13th.",
 			"",
-			"You can replace one of your attacks at your highest base attack bonus each round with a spellrending strike. If your spellrending strike hits, it deals no damage, but you can attempt to dispel a harmless divine spell affecting this target as per {spell/dispel magic}, with a caster level equal to your character level. If you succeed at your dispel check, the target is {misc/sickened} as if you had interrupted the spell with {feat/Asura Style} and receives no saving throw to reduce the sickened duration."
+			"You can replace one of your attacks at your highest base attack bonus each round with a spellrending strike. If your spellrending strike hits, it deals no damage, but you can attempt to dispel a harmless divine spell affecting this target as per {spell/dispel magic}, with a caster level equal to your character level. If you succeed at your dispel check, the target is {misc/sickened} as if you had interrupted the spell with Asura Style and receives no saving throw to reduce the sickened duration."
 		]
 	},
 	"asura_style": {
@@ -2909,7 +2909,7 @@
 			"",
 			"You move with uncommon grace that disorients enemies, causing foes that strike at you to overreach and stumble.  ",
 			"**Prerequisites:** {feat/Agile Maneuvers}, {feat/Azata Style}, {feat/Dodge}, {feat/Mobility}, base attack bonus +6.  ",
-			"**Benefit:** While using Azata Style, whenever an opponent misses you with an attack of opportunity provoked by your movement through its threatened squares, you can attempt a trip combat maneuver against that creature at the end of your turn as a swift action, provided you are still adjacent to the creature when you end your movement for the round. This trip attempt does not provoke attacks of opportunity. You gain a bonus on your combat maneuver check equal to any bonuses to AC you gain against attacks of opportunity provoked by movement (such as that granted by the {feat/Mobility} feat)."
+			"**Benefit:** While using Azata Style, whenever an opponent misses you with an attack of opportunity provoked by your movement through its threatened squares, you can attempt a trip combat maneuver against that creature at the end of your turn as a swift action, provided you are still adjacent to the creature when you end your movement for the round. This trip attempt does not provoke attacks of opportunity. You gain a bonus on your combat maneuver check equal to any bonuses to AC you gain against attacks of opportunity provoked by movement (such as that granted by the Mobility feat)."
 		]
 	},
 	"azata_sprint": {

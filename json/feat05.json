@@ -93,7 +93,7 @@
 			"Although soldiers and mercenaries alike in Cheliax claim that the martial techniques detailed within Wrath and Punishment, the most well-known fighting manual of the Church of {faith/Asmodeus}, are as old as time itself, martial experts across the Inner Sea region note that Wrath and Punishment is less than 3 decades old. Of course, few in Cheliax dare to publicly make such claims. Outside of Cheliax, copies of Wrath and Punishment tend to be found in {rule/Hellknight>s} enclaves.[^B]  ",
 			"**Initial Benefit:** Whenever you threaten a critical hit with a {eq-weapon/light mace} or {eq-weapon/heavy mace} on a foe, that foe becomes {misc/sickened} for 1 round. If you confirm the critical hit, the sickened effect lasts for 2 rounds. The duration of the sickened effect doesn't stack with multiple critical threats.  ",
 			"**Advanced Prerequisites:** Int 13; {feat/Combat Expertise}; {feat/Divine Fighting Technique}; {feat/Improved Feint}; base attack bonus +10 or Bluff 10 ranks.  ",
-			"**Advanced Benefit:** An opponent that you hit with a light mace or heavy mace who is denied his Dexterity bonus to AC is also hindered by the attack. You can attempt a {rule/dirty trick} combat maneuver check as a swift action that doesn't provoke an attack of opportunity immediately after damage from the attack is resolved.",
+			"**Advanced Benefit:** An opponent that you hit with a light mace or heavy mace who is denied his Dexterity bonus to AC is also hindered by the attack. You can attempt a dirty trick combat maneuver check as a swift action that doesn't provoke an attack of opportunity immediately after damage from the attack is resolved.",
 			"",
 			"::h3[Calistria's Poisoned Lash]{jl}",
 			"",
@@ -127,7 +127,7 @@
 			"Sometimes used as a companion piece to the Parables of Erastil, the lesser-known Horns of the Elk is a manual completely dedicated to archery. Lacking the folktales that the Parables are celebrated for, the Horns of the Elk instead focuses on covering a wide array of beginner and advanced archery tactics. A copy of the manual can be found virtually anywhere a shrine to {faith/Erastil} exists.[^D]  ",
 			"**Optional Replacement:** A lawful good {class/ranger} who worships Erastil can choose Divine Fighting Technique as the bonus feat granted by his combat style if he chooses archery as his combat style.  ",
 			"**Initial Benefit:** As a standard action, you can fire a distracting shot from your {eq-weapon/longbow} or {eq-weapon/shortbow}; when you do, select one ally who is adjacent to the creature you are targeting with the distracting shot. If you hit the creature, the chosen ally gains a +2 bonus to her Armor Class against that creature. This bonus to her Armor Class lasts until the start of your next turn.  ",
-			"**Advanced Prerequisites:** Dex 17, Divine Fighting Technique, {feat/Point-Blank Shot}, {feat/Precise Shot}, base attack bonus +10.  ",
+			"**Advanced Prerequisites:** Dex 17, Divine Fighting Technique, Point-Blank Shot, {feat/Precise Shot}, base attack bonus +10.  ",
 			"**Optional Replacement:** A lawful good ranger who worships Erastil and has the Divine Fighting Technique feat can replace the bonus feat granted by his combat style at 10th level with the following advanced benefit without meeting its prerequisites.  ",
 			"**Advanced Benefit:** When you fire a distracting shot at a creature and hit the creature, you grant a +4 Armor Class bonus to the selected adjacent ally and a +2 Armor Class bonus to all other allies within 30 feet of the selected adjacent ally against attacks by the targeted creature.",
 			"",
@@ -136,7 +136,7 @@
 			"{faith/Gorum} teaches devastating greatsword techniques.[^C]  ",
 			"**Optional Replacement:** A chaotic neutral {class/barbarian} or {class/fighter} who worships Gorum can replace a bonus feat or rage power with the following initial benefit.  ",
 			"**Initial Benefit:** If you have the {feat/Vital Strike} feat, you can apply its effect to an attack you make with a {eq-weapon/greatsword} at the end of a charge. If you don't have the Vital Strike feat, that attack deals 1 additional point of damage instead. The first time you make an attack of opportunity with a greatsword after using Vital Strike with a greatsword on your turn, you can apply Vital Strike to that attack of opportunity.  ",
-			"**Advanced Prerequisites:** Str 13, {feat/Cleave}, {feat/Power Attack}, {feat/Vital Strike}, base attack bonus +10.  ",
+			"**Advanced Prerequisites:** Str 13, {feat/Cleave}, {feat/Power Attack}, Vital Strike, base attack bonus +10.  ",
 			"**Optional Replacement:** A chaotic neutral barbarian or fighter of at least 10th level who worships Gorum can replace a bonus feat or rage power with the following advanced benefit, even if she doesn't meet the prerequisites.  ",
 			"**Advanced Benefit:** When you use Vital Strike, {feat/Improved Vital Strike}, or {feat/Greater Vital Strike} with a greatsword, the damage counts as continuous damage from an injury for the purpose of determining whether a target must attempt a {rule/concentration} check to cast spells.",
 			"",
@@ -160,7 +160,7 @@
 			"",
 			"Most copies of Ravage and Ruin, the divine fighting manual of the Rough Beast {faith/Rovagug}, are scrawled in blood upon flensed skins by orc priests - and indeed the vile techniques described within originated from the Hold of Belkzen not long after the orcs first seized that land as their own. Reviled across the Inner Sea, Ravage and Ruin sees additional use among savage Ulfen clans who have fallen to the Rough Beast's urges to become corrupt, lunatic cannibals who relish despoiling beauty in Rovagug's name.[^E]  ",
 			"**Initial Benefit:** Whenever you succeed at a {rule/dirty trick} combat maneuver check against an opponent, you deal an amount of nonlethal damage equal to 1d6 + your Charisma modifier. In addition, whenever your dirty trick combat maneuver check beats an opponent's CMD by 5 or more, you can forgo increasing the duration of your condition by 1 or more rounds to instead impose a -2 penalty on all of that opponent's Charisma-based checks. This penalty doesn't stack with itself, and it lasts for a number of minutes equal to your Charisma modifier (minimum of 1 minute) or until the target receives any form of magical healing.  ",
-			"**Advanced Prerequisites:** {feat/Power Attack}, Divine Fighting Technique, base attack bonus +10.  ",
+			"**Advanced Prerequisites:** Power Attack, Divine Fighting Technique, base attack bonus +10.  ",
 			"**Optional Replacement:** A chaotic evil {class/barbarian} of at least 10th level who worships Rovagug can replace a rage power with the following advanced benefit without meeting its prerequisites.  ",
 			"**Advanced Benefit:** Anytime you use Power Attack with a great axe or a natural attack, you ignore an amount of the target's hardness or damage reduction equal to the penalty Power Attack imparts to your attack roll. This benefit stacks with {feat/Penetrating Strike} and {feat/Greater Penetrating Strike}.",
 			"",
@@ -175,7 +175,7 @@
 			"",
 			"Copies of Lessons of the Father, the divine fighting manual of {faith/Torag}, are somewhat rare outside of the Five Kings Mountains, as tradition mandates that all copies of Lessons of the Father must be scribed by hand in Dwarven on iron sheets and bound between slabs of stone hand-carved by a cleric of Torag. As a result, these tomes are somewhat cumbersome to transport (even the smallest copy of the book weighs 50 pounds, and most exceed 100 pounds in weight). Those who have mastered the Lessons of the Father are highly respected within the faith.[^F]  ",
 			"**Initial Benefit:** Whenever you wield a {eq-weapon/warhammer}, add your Wisdom bonus to the total number of attacks of opportunity that you can make per round. These additional attacks of opportunity don't stack with those granted by {feat/Combat Reflexes}, but this benefit counts as Combat Reflexes for the purpose of satisfying feat prerequisites and prestige class requirements. In addition, you can make attacks of opportunity while you're {rule/flat-footed}.  ",
-			"**Advanced Prerequisites:** Divine Fighting Technique, {feat/Vital Strike}, {feat/Weapon Focus} (warhammer), base attack bonus +10.  ",
+			"**Advanced Prerequisites:** Divine Fighting Technique, {feat/Vital Strike}, Weapon Focus (warhammer), base attack bonus +10.  ",
 			"**Advanced Benefit:** Once per round, before you make an attack of opportunity with a warhammer, you can declare an opportunistic strike. If the attack hits, you can apply the effects of your Vital Strike feat. You can apply the {feat/Improved Vital Strike} or {feat/Greater Vital Strike} feat instead if you have either of those feats. If you confirm a critical hit with an opportunistic strike, you can attempt a {rule/disarm} or {rule/trip} combat maneuver check against the target as a free action - this combat maneuver does not provoke an attack of opportunity.",
 			"",
 			"::h3[Urgathoa's Hunger]{jl}",
@@ -873,7 +873,7 @@
 			"",
 			"You can fly short distances through the air.  ",
 			"**Prerequisites:** Dex 15, Wis 15, {feat/Dragonfly Style}, {feat/Dragonfly Wings}, {feat/Improved Unarmed Strike}, Acrobatics 10 ranks, Climb 10 ranks.  ",
-			"**Benefit:** While using {feat/Dragonfly Style}, you can attempt an Acrobatics check to high jump as a move action, and then immediately {spell/glide} as the spell for 1 round. If you have not used your standard action after using Dragonfly Flight to make a high jump and start gliding, you can charge while gliding. This {rule/charge} follows the rules for charging when you are only able to take a standard action."
+			"**Benefit:** While using Dragonfly Style, you can attempt an Acrobatics check to high jump as a move action, and then immediately {spell/glide} as the spell for 1 round. If you have not used your standard action after using Dragonfly Flight to make a high jump and start gliding, you can charge while gliding. This {rule/charge} follows the rules for charging when you are only able to take a standard action."
 		]
 	},
 	"dragonfly_style": {
@@ -899,7 +899,7 @@
 			"",
 			"You can jump off willing allies and unwilling opponents to attack creatures from above.  ",
 			"**Prerequisites:** Dex 15, Wis 15, {feat/Dragonfly Style}, {feat/Improved Unarmed Strike}, Acrobatics 5 ranks, Climb 5 ranks.  ",
-			"**Benefit:** While using {feat/Dragonfly Style}, the bonus on your melee attacks increases to +2 and applies to opponents up to two size categories larger than you. In addition, you can substitute a creature your size or larger in place of a vertical surface. You can freely use a willing creature in such a manner, but using a hostile creature requires a successful Acrobatics check with a DC equal to the creature's CMD. If you fail this check by 5 or more, you provoke an attack of opportunity from the hostile creature."
+			"**Benefit:** While using Dragonfly Style, the bonus on your melee attacks increases to +2 and applies to opponents up to two size categories larger than you. In addition, you can substitute a creature your size or larger in place of a vertical surface. You can freely use a willing creature in such a manner, but using a hostile creature requires a successful Acrobatics check with a DC equal to the creature's CMD. If you fail this check by 5 or more, you provoke an attack of opportunity from the hostile creature."
 		]
 	},
 	"dragonheart": {
@@ -995,7 +995,7 @@
 			"",
 			"Your brutal maneuvers shock any who would dare to stand against you.  ",
 			"**Prerequisites:** {feat/Dazzling Display}, {feat/Improved Grapple}, {feat/Improved Unarmed Strike}, {feat/Savage Slam}, {feat/Weapon Focus}.  ",
-			"**Benefit:** While you are using {feat/Savage Slam}, if you succeed at your grapple combat maneuver check to knock the opponent prone, you can spend a swift action to attempt an Intimidate check to demoralize foes within 30 feet who could see your attack."
+			"**Benefit:** While you are using Savage Slam, if you succeed at your grapple combat maneuver check to knock the opponent prone, you can spend a swift action to attempt an Intimidate check to demoralize foes within 30 feet who could see your attack."
 		]
 	},
 	"dreadful_carnage": {
@@ -2414,11 +2414,11 @@
 			"",
 			"**Kindess:** 1st-{spell/charm person}, 2nd-{spell/blessing of courage and life}, 3rd-{spell/good hope}, 4th-{spell/mass charm person}, 5th-{spell/waves of ecstasy}, 6th-{spell/sympathy}. &mdash {source/Psychic Anthology/ pg. 4}",
 			"",
-			"**Remorse:** 1st-{spell/inflict light wounds}, 2nd-{spell/disfiguring touch}, 3rd-{spell/howling agony}, 4th-{spell/debilitating portent}, 5th-{spell/nightmare}, 6th-{spell/harm}. &mdash {source/Occult Origins/ pg. 19}",
+			"**Remorse:** 1st-{spell/inflict light wounds}, 2nd-*disfiguring touch,* 3rd-*howling agony,* 4th-*debilitating portent,* 5th-*nightmare,* 6th-{spell/harm}. &mdash {source/Occult Origins/ pg. 19}",
 			"",
 			"**Whimsey:** 1st-{spell/color spray}, 2nd-{spell/hideous laughter}, 3rd-{spell/major image}, 4th-{spell/hallucinatory terrain}, 5th-{spell/baleful polymorph}, 6th-{spell/mislead}. &mdash {source/Heroes from the Fringe/ pg. 17}",
 			"",
-			"**Zeal:** 1st-{spell/delusional pride}, 2nd-{spell/false life}, 3rd-{spell/heroism}, 4th-{spell/freedom of movement}, 5th-{spell/joyful rapture}, 6th-{spell/greater heroism}.",
+			"**Zeal:** 1st-{spell/delusional pride}, 2nd-{spell/false life}, 3rd-{spell/heroism}, 4th-{spell/freedom of movement}, 5th-{spell/joyful rapture}, 6th-*greater heroism.*",
 			"",
 			":::"
 		]
@@ -2636,7 +2636,7 @@
 			"",
 			"When you gather your might, it lasts long enough to improve your defenses and attacks of opportunity.  ",
 			"**Prerequisites:** {feat/Gather Might}.  ",
-			"**Benefit:** When you use {feat/Gather Might}, the ability score bonuses last until the beginning of your next turn."
+			"**Benefit:** When you use Gather Might, the ability score bonuses last until the beginning of your next turn."
 		]
 	},
 	"enemy_cult": {
@@ -2829,7 +2829,7 @@
 			"",
 			"You to excel in a particular area thanks to your noble family's field of expertise.  ",
 			"**Prerequisites:** Cha 13, {feat/Noble Scion}, Knowledge (nobility) 1 rank.  ",
-			"**Benefit:** You gain an additional benefit based on the flavor of your noble family chosen with the {feat/Noble Scion} feat.",
+			"**Benefit:** You gain an additional benefit based on the flavor of your noble family chosen with the Noble Scion feat.",
 			"",
 			">@HL[Scion of the Arts:] A number of times per day equal to your Charisma modifier, you can roll 2d20 for a Perform check and take the better result.",
 			">",

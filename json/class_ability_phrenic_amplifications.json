@@ -163,7 +163,7 @@
 		"nameSuffix": "(Su)",
 		"compilationSources": [ [ "Occult Adventures", 62 ] ],
 		"description": [
-			"When the psychic undercasts a spell, she can spend points from her phrenic pool to increase the spell's effective level, essentially using up a lower-level spell slot to cast a higher-level version of the spell. This costs 2 points per spell level increased. She can't use this ability to cast a version higher than the version she knows. For instance, a psychic who knows {spell/mind thrust III} but not {spell/mind thrust IV} could cast {spell/mind thrust II} and spend 2 points to treat it as {spell/mind thrust III}, but couldn't spend 4 points to treat it as {spell/mind thrust IV}. This amplification can be linked only to spells that can be undercast."
+			"When the psychic undercasts a spell, she can spend points from her phrenic pool to increase the spell's effective level, essentially using up a lower-level spell slot to cast a higher-level version of the spell. This costs 2 points per spell level increased. She can't use this ability to cast a version higher than the version she knows. For instance, a psychic who knows {spell/mind thrust III} but not {spell/mind thrust IV} could cast {spell/mind thrust II} and spend 2 points to treat it as *mind thrust III,* but couldn't spend 4 points to treat it as *mind thrust IV.* This amplification can be linked only to spells that can be undercast."
 		]
 	},
 	"whisper_of_ancients": {

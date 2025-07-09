@@ -92,7 +92,7 @@
 			">",
 			">@HL[Hurl Scabbard;] *({feat/Quick Draw}):* You can draw your weapon in such a way that you send your combat scabbard whirling off to strike at any creature in sight. This ranged attack is a swift action and is treated as a thrown weapon.",
 			">",
-			">@HL[Steer Opponent;] *({feat/Improved Bull Rush}):* You can use your scabbard to move a foe into the perfect position for you to make your attack. As a swift action, use your scabbard to make a {rule/bull rush} against an opponent. If you succeed, instead of pushing him back, you direct your target into the path of your next attack. You gain a +2 bonus on your next attack roll against the target, and +1 for every additional 5 feet your bull rush could have pushed your opponent if you had chosen to push him back. If you fail the bull rush attempt, you are considered {rule/flat-footed} against that target until your next turn.",
+			">@HL[Steer Opponent;] *({feat/Improved Bull Rush}):* You can use your scabbard to move a foe into the perfect position for you to make your attack. As a swift action, use your scabbard to make a bull rush against an opponent. If you succeed, instead of pushing him back, you direct your target into the path of your next attack. You gain a +2 bonus on your next attack roll against the target, and +1 for every additional 5 feet your bull rush could have pushed your opponent if you had chosen to push him back. If you fail the bull rush attempt, you are considered {rule/flat-footed} against that target until your next turn.",
 			">",
 			">@HL[Tangle Leg;] *({feat/Improved Trip}, {feat/Throw Anything}):* When you draw your weapon, you may send its combat scabbard whirling off to strike an opponent's legs. This bonus attack is a swift action and requires you to make a {rule/trip} attack against the target. The target can be no larger than your own size category, and the range penalty applies to your trip attempt. If you succeed, the target is knocked {rule/prone}. Failing this attempt does not knock you prone unless you are within your opponent's reach."
 		]
@@ -110,7 +110,7 @@
 			"**Benefit:** You can use any {feat/Equipment Trick} related to the chosen item as long as you meet the trick's prerequisites. If the item would normally be considered an {misc/improvised weapon}, you can treat it as either a normal weapon or an improvised weapon, depending on which is more beneficial for you.  ",
 			"**Special:** You can gain Equipment Trick multiple times. Each time you take the feat, it applies to a new type of equipment. (These are listed as separate feats for reading convenience.)",
 			"",
-			"Bards and other musicians must sometimes improvise more than their music. These instrument tricks expand any {eq-misc/musical instrument/'s} uses and supplement the {feat/Equipment Trick} feat. Some tricks might be unusable for certain instruments at the GM's discretion; for example, an organ is too unwieldy to use as an improvised weapon. In addition to the feat, skill, or other requirements listed for each of these tricks, you must have the Equipment Trick (instrument) feat to use a trick.[^D]",
+			"Bards and other musicians must sometimes improvise more than their music. These instrument tricks expand any {eq-misc/musical instrument/'s} uses and supplement the Equipment Trick feat. Some tricks might be unusable for certain instruments at the GM's discretion; for example, an organ is too unwieldy to use as an improvised weapon. In addition to the feat, skill, or other requirements listed for each of these tricks, you must have the Equipment Trick (instrument) feat to use a trick.[^D]",
 			"",
 			">@HL[Attention Grabber;] *(Perform 5 ranks, Bluff 5 ranks or {ability/bardic performance} or raging song class feature):* Your loud or discordant performance covers your allies' movements. Creatures within 30 feet of you that can hear you play an instrument take a -2 penalty on Perception checks, other than Perception checks made in response to your actions, for as long as you play.",
 			">",
@@ -324,7 +324,7 @@
 			"",
 			">@HL[Break Ground;] *({feat/Improved Trip}, {feat/Throw Anything}):* In place of a melee attack, you can throw your shield at an opponent's feet, interfering with his movement and perhaps tripping him. You must be holding (not wearing) your shield or using a {eq-armorenh/throwing shield} to use this trick. Make a trip attack against your opponent. The opponent can be no larger than your own size category, and the range penalty applies to your trip attempt. If you succeed, the target is knocked prone. Failing this attempt does not knock you prone unless you are within your opponent's reach. Whether or not you succeed, as long as your shield remains where you threw it, the opponent treats that square as {rule/difficult terrain} until he moves out of the square.",
 			">",
-			">@HL[Hurl Shield;] *(Throw Anything):* You can throw your shield as a ranged improvised weapon. You must be holding (not wearing) your shield to perform this trick. If you are using a {eq-armorenh/throwing shield}, there is no reason to use this trick.",
+			">@HL[Hurl Shield;] *(Throw Anything):* You can throw your shield as a ranged improvised weapon. You must be holding (not wearing) your shield to perform this trick. If you are using a throwing shield, there is no reason to use this trick.",
 			">",
 			">@HL[Little Wall;] *(Escape Artist 5 ranks):* You can contort your body behind your shield in order to gain a brief moment of security. Whenever you use the total defense action, you may choose to gain cover instead of the normal dodge bonus to AC.",
 			">",
@@ -480,7 +480,7 @@
 			">",
 			">@HL[Evolve Resilience;] *(Knowledge [arcana] 1 rank, eidolon class feature):* Your eidolon can consume a thunderstone as a standard action to bolster its resilience against certain effects. For 1 hour, your eidolon gains the {evolution/resistance} evolution or {unchevolution/resistance} unchained evolution (electricity or sonic only) as appropriate. Your eidolon cannot gain both resistances from this trick at the same time. During this time, the eidolon is immune to the effects of thunderstones.",
 			">",
-			">@HL[Startling Noise;] *(Stealth 3 ranks or stalker vigilante specialization):* Your thunderstones are especially effective when foes don't know they're coming. Any creature that is completely unaware of your presence takes a -4 penalty on saving throws against thunderstones you use and, if {misc/deafened}, takes an amount of nonlethal damage equal to your number of sneak attack or hidden strike dice (if any).",
+			">@HL[Startling Noise;] *(Stealth 3 ranks or stalker vigilante specialization):* Your thunderstones are especially effective when foes don't know they're coming. Any creature that is completely unaware of your presence takes a -4 penalty on saving throws against thunderstones you use and, if deafened, takes an amount of nonlethal damage equal to your number of sneak attack or hidden strike dice (if any).",
 			">",
 			">@HL[Thunderclap;] *({feat/Weapon Focus} [any hammer]):* Your thunderstones enhance the concussive force of hammers you wield. This trick only works with hammers to which your Weapon Focus feat applies. As a move action, you can wedge a thunderstone in place on your hammer's striking surface. When you hit a foe with that hammer, the thunderstone detonates. You gain a +4 bonus on your saving throw against the thunderstone's effect (if necessary), and your foe takes a -4 penalty on its saving throw against the thunderstone's effect."
 		]
@@ -620,7 +620,7 @@
 			"{SOURCE Pathfinder Unchained/154}",
 			"",
 			"Scrying and other difficult divinations become more likely to get to the truth when you use verdant salts.  ",
-			"**Benefit:** When you cast a divination spell using verdant salts as an {rule/esoteric material component>s}, you're more likely to get good information. You gain one of the following benefits, as appropriate to the spell: you increase the likelihood of a percentage-based divination to work correctly by 5% (giving a -5 penalty on the d% roll for {spell/contact other plane}, for example), you gain a +2 competence bonus on Perception checks while perceiving through a divination (scrying) spell such as {spell/scrying}, or you can ask one additional question (with {spell/contact other plane} or {spell/speak with dead}).",
+			"**Benefit:** When you cast a divination spell using verdant salts as an {rule/esoteric material component>s}, you're more likely to get good information. You gain one of the following benefits, as appropriate to the spell: you increase the likelihood of a percentage-based divination to work correctly by 5% (giving a -5 penalty on the d% roll for {spell/contact other plane}, for example), you gain a +2 competence bonus on Perception checks while perceiving through a divination (scrying) spell such as {spell/scrying}, or you can ask one additional question (with *contact other plane* or {spell/speak with dead}).",
 			"",
 			"When you gain verdant salts' greater component effect with a divination spell, increase the DC by an additional 1."
 		]
@@ -2507,7 +2507,7 @@
 			"",
 			"Through training and persistence inspired by the Great Purge of Stavian I, you have learned to detect the sources of divine magic in such effects' auras.  ",
 			"**Prerequisites:** Ability to cast {spell/detect magic} as a spell or spell-like ability.  ",
-			"**Benefit:** When you use {spell/detect magic} to determine the strength and location of the aura of a functioning spell, if that spell's caster used a holy symbol as a divine focus to cast the spell, you see a ghostly image of the deity's holy symbol as part of the spell's aura. Effects that block divination spells or effects also block the effects of this feat."
+			"**Benefit:** When you use *detect magic* to determine the strength and location of the aura of a functioning spell, if that spell's caster used a holy symbol as a divine focus to cast the spell, you see a ghostly image of the deity's holy symbol as part of the spell's aura. Effects that block divination spells or effects also block the effects of this feat."
 		]
 	},
 	"eyes_of_the_twilight": {

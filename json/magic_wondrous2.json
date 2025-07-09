@@ -443,7 +443,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {feat/Arcane Strike}, {spell/magic weapon}; **Cost** 2,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, Arcane Strike, {spell/magic weapon}; **Cost** 2,500 gp"
 		]
 	},
 	"poisoners_gloves": {
@@ -1922,7 +1922,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/detect undead}, {spell/protection from evil}; **Cost** 1,420 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, *detect undead,* {spell/protection from evil}; **Cost** 1,420 gp"
 		]
 	},
 	"diabolical_masquerade_mask": {
@@ -2029,7 +2029,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/endure elements}, {spell/floating disk}, {spell/hide from animals}, {spell/unseen servant}; **Cost** 1,600 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, *endure elements,* {spell/floating disk}, {spell/hide from animals}, {spell/unseen servant}; **Cost** 1,600 gp"
 		]
 	},
 	"shawl_of_the_lingering_phantom": {
@@ -2105,7 +2105,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/cause fear}, {spell/command}; **Cost** 1,750 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/cause fear}, *command;* **Cost** 1,750 gp"
 		]
 	},
 	"mortuary_mask": {
@@ -2184,7 +2184,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/detect animals or plants}, {spell/polymorph}, {spell/summon monster II}, creator must have 5 ranks in Handle Animal and Heal; **Cost** 1,800 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/detect animals or plants}, {spell/polymorph}, *summon monster II,* creator must have 5 ranks in Handle Animal and Heal; **Cost** 1,800 gp"
 		]
 	},
 	"kybwaka_war_mask": {
@@ -2218,7 +2218,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/greensight}; **Cost** 1,850 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, *greensight;* **Cost** 1,850 gp"
 		]
 	},
 	"lore_needle": {
@@ -2269,7 +2269,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/animate rope}, {spell/endure elements}, {spell/rope trick}; **Cost** 2,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/animate rope}, *endure elements,* {spell/rope trick}; **Cost** 2,000 gp"
 		]
 	},
 	"vagrants_hood": {
@@ -2451,7 +2451,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/detect magic}, {spell/disguise self}, {spell/magic missile}, {spell/read magic}; **Cost** 2,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, *detect magic,* {spell/disguise self}, {spell/magic missile}, {spell/read magic}; **Cost** 2,500 gp"
 		]
 	},
 	"mask_of_destruction_and_creation": { "redirect": "mask_of_destruction_and_creation_nethys" },
@@ -2550,7 +2550,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/air bubble}, {spell/detect magic}; **Cost** 3,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/air bubble}, *detect magic;* **Cost** 3,000 gp"
 		]
 	},
 	"beautiful_war_paint": {
@@ -2802,7 +2802,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/beast shape I}, {spell/charm animal}, {spell/detect animals or plants}, {spell/endure elements}, {spell/speak with animals}, creator must have 5 ranks in Handle Animal and Ride; **Cost** 4,250 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/beast shape I}, {spell/charm animal}, {spell/detect animals or plants}, *endure elements,* {spell/speak with animals}, creator must have 5 ranks in Handle Animal and Ride; **Cost** 4,250 gp"
 		]
 	},
 	"shepsi_aks_funerary_mask": {
@@ -2912,7 +2912,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/vermin shape I}; **Cost** 4,800 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, *vermin shape I;* **Cost** 4,800 gp"
 		]
 	},
 	"dervish_sikke": {
@@ -3088,7 +3088,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/endure elements}, {spell/grove of respite}; **Cost** 5,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, *endure elements,* {spell/grove of respite}; **Cost** 5,500 gp"
 		]
 	},
 	"hyena_shawl": {
@@ -3126,7 +3126,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/augury}, {spell/detect magic}; **Cost** 6,675 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/augury}, *detect magic;* **Cost** 6,675 gp"
 		]
 	},
 	"cap_of_the_free_thinker": {
@@ -3675,7 +3675,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/speak with animals}, {spell/summon nature's ally III}; **Cost** 11,300 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/speak with animals}, *summon nature's ally III;* **Cost** 11,300 gp"
 		]
 	},
 	"visage_of_the_bound": {
@@ -3810,7 +3810,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/beast shape III}, {spell/charm animal}, {spell/detect animals or plants}, {spell/endure elements}, {spell/speak with animals}, creator must have 5 ranks in Handle Animal and Ride; **Cost** 12,350 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, *beast shape III,* {spell/charm animal}, {spell/detect animals or plants}, *endure elements,* {spell/speak with animals}, creator must have 5 ranks in Handle Animal and Ride; **Cost** 12,350 gp"
 		]
 	},
 	"hat_of_infinite_disguises": {
@@ -3903,7 +3903,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/disguise self}, {spell/eagle's splendor}, {spell/fox's cunning}, {spell/levitate}, {spell/feather fall}; **Cost** 13,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, *disguise self,* {spell/eagle's splendor}, {spell/fox's cunning}, *levitate,* {spell/feather fall}; **Cost** 13,500 gp"
 		]
 	},
 	"helm_of_telepathy": {
@@ -3988,7 +3988,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {feat/Leadership}, {spell/eagle's splendor}, {spell/greater command}; **Cost** 14,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, Leadership, {spell/eagle's splendor}, {spell/greater command}; **Cost** 14,500 gp"
 		]
 	},
 	"crown_of_ash": {
@@ -4098,7 +4098,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/alter self}, {spell/blindness//deafness}, {spell/summon monster VI}; **Cost** 15,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/alter self}, {spell/blindness//deafness}, *summon monster VI;* **Cost** 15,000 gp"
 		]
 	},
 	"thremyrs_beard_lesser": {
@@ -4499,7 +4499,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/divide mind}, {spell/possession}, {spell/tower of iron will V}; **Cost** 45,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/divide mind}, {spell/possession}, *tower of iron will V;* **Cost** 45,000 gp"
 		]
 	},
 	"mask_of_giants_greater": {
@@ -4540,11 +4540,11 @@
 			"- {spell/Beast shape III} (snake form only, 1/day)",
 			"- Poison (1/day)",
 			"",
-			"A mythic creature can expend one use of mythic power when using the {spell/beast shape III} spell-like ability to instead cast it as mythic {spell/beast shape III}. Alternatively, he can expend two uses of mythic power to instead cast the augmented version of mythic {spell/beast shape III}.",
+			"A mythic creature can expend one use of mythic power when using the *beast shape III* spell-like ability to instead cast it as mythic *beast shape III.* Alternatively, he can expend two uses of mythic power to instead cast the augmented version of mythic *beast shape III.*",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Mythic Crafter}, {spell/beast shape III}, {spell/summon nature's ally III}; **Cost** 48,000 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Mythic Crafter}, *beast shape III, summon nature's ally III;* **Cost** 48,000 gp"
 		]
 	},
 	"hood_of_privacy": {
@@ -4662,7 +4662,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/aura of doom}, {spell/detect evil}, {spell/dispel evil}, {spell/magic circle against evil}, {spell/tongues}; **Cost** 75,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/aura of doom}, {spell/detect evil}, {spell/dispel evil}, *magic circle against evil,* {spell/tongues}; **Cost** 75,000 gp"
 		]
 	},
 	"centering_jewel": {

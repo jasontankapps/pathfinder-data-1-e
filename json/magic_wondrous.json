@@ -157,7 +157,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/cure light wounds}, {spell/endure elements}, {spell/feather fall}, {spell/light}; **Cost** 1,250 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/cure light wounds}, *endure elements,* {spell/feather fall}, {spell/light}; **Cost** 1,250 gp"
 		]
 	},
 	"aquatic_cummerbund": {
@@ -376,7 +376,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/rage}, {spell/summon monster I}; **Cost** 2,250 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/rage}, *summon monster I;* **Cost** 2,250 gp"
 		]
 	},
 	"gutbite_belt": {
@@ -1000,7 +1000,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/neutralize poison}, {spell/remove disease}, {spell/remove paralysis}; **Cost** 10,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, *neutralize poison, remove disease, remove paralysis;* **Cost** 10,000 gp"
 		]
 	},
 	"serpent_belt_greater": {
@@ -1088,7 +1088,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/bear's endurance}, {spell/elemental body III}; **Cost** 12,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/bear's endurance}, *elemental body III;* **Cost** 12,000 gp"
 		]
 	},
 	"mountainshapers_girdle": {
@@ -1632,7 +1632,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/endure elements}, {spell/gust of wind}; **Cost** 2,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, *endure elements,* {spell/gust of wind}; **Cost** 2,000 gp"
 		]
 	},
 	"liars_robe": {
@@ -2155,7 +2155,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {feat/Hamatulatsu}, {spell/righteous might} or {spell/transformation}, {spell/unholy blight}; **Cost** 7,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, Hamatulatsu, {spell/righteous might} or {spell/transformation}, {spell/unholy blight}; **Cost** 7,000 gp"
 		]
 	},
 	"vestments_of_war": {
@@ -2782,7 +2782,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/calm emotions}, {spell/protection from spells}, {spell/shield}, {spell/secret chest}; **Cost** 99,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, *calm emotions,* {spell/protection from spells}, {spell/shield}, {spell/secret chest}; **Cost** 99,000 gp"
 		]
 	},
 	"robes_of_xin_shalast": {
@@ -3229,7 +3229,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/vermin shape I}; **Cost** 3,750 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, *vermin shape I;* **Cost** 3,750 gp"
 		]
 	},
 	"blouse_of_the_boastful_bastard": {
@@ -3399,7 +3399,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {feat/Lunge}, {spell/cat's grace}; **Cost** 5,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, Lunge, {spell/cat's grace}; **Cost** 5,000 gp"
 		]
 	},
 	"unfettered_shirt": {
@@ -3470,7 +3470,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/beast shape III}; **Cost** 6,250 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, *beast shape III;* **Cost** 6,250 gp"
 		]
 	},
 	"pickpockets_bandolier": {
@@ -3663,7 +3663,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/vermin shape II}; **Cost** 18,750 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, *vermin shape II;* **Cost** 18,750 gp"
 		]
 	},
 	"greater_coat_of_the_undercity": { "redirect": "coat_of_the_undercity_greater" },
@@ -4161,7 +4161,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/detect secret doors}, {spell/identify}, {spell/locate object}; **Cost** 3,200 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/detect secret doors}, *identify,* {spell/locate object}; **Cost** 3,200 gp"
 		]
 	},
 	"inquisitors_monocle": {
@@ -4380,7 +4380,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {feat/Improved Blind-Fight}, {spell/darkness}; **Cost** 6,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, Improved Blind-Fight, {spell/darkness}; **Cost** 6,000 gp"
 		]
 	},
 	"goggles_of_night": {
@@ -4489,7 +4489,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {feat/Mythic Crafter}, {spell/arcane sight}, {spell/see invisibility}, and any one of the following: {spell/detect chaos}, {spell/detect evil}, {spell/detect good}, {spell/detect law}, or {spell/detect magic}; **Cost** 6,350 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {feat/Mythic Crafter}, {spell/arcane sight}, {spell/see invisibility}, and any one of the following: *detect chaos, detect evil, detect good, detect law,* or *detect magic;* **Cost** 6,350 gp"
 		]
 	},
 	"discerning_goggles": {
@@ -4578,7 +4578,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/arcane sight}, {spell/true seeing}; **Cost** 7,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, *arcane sight,* {spell/true seeing}; **Cost** 7,500 gp"
 		]
 	},
 	"triple_eyes_of_vivid_auras": {
@@ -4595,7 +4595,7 @@
 			"",
 			"If the detection would normally be automatically foiled by an illusion or abjuration but arcane sight (or another detection effect of 3rd level or lower) would have a chance of seeing through that effect, the wearer gets a chance to see through it even with lower-level detection effects.",
 			"",
-			"Three times per day, the wearer of the triple eyes of vivid auras can use greater {spell/detect magic} with a command word.",
+			"Three times per day, the wearer of the triple eyes of vivid auras can use greater *detect magic* with a command word.",
 			"",
 			"### Construction",
 			"",
@@ -4802,7 +4802,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/fox's cunning}, {spell/comprehend languages}; **Cost** 16,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/fox's cunning}, *comprehend languages;* **Cost** 16,000 gp"
 		]
 	},
 	"captains_eye_patch": {

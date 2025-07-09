@@ -597,7 +597,7 @@
 			"",
 			"You have a special bond with things that creep, crawl, skitter, and sting.  ",
 			"**Prerequisites:** {ability/Wild empathy} class feature.  ",
-			"**Benefit:** You may target vermin with spells and special abilities that only affect animals (although they are still affected by spells targeting vermin as well). You may use {ability/wild empathy} to influence vermin as easily as you influence animals."
+			"**Benefit:** You may target vermin with spells and special abilities that only affect animals (although they are still affected by spells targeting vermin as well). You may use wild empathy to influence vermin as easily as you influence animals."
 		]
 	},
 	"versatile_channeler": {
@@ -1272,7 +1272,7 @@
 			"",
 			"Your faith speeds you in battle and further strengthens your mind and confidence.  ",
 			"**Prerequisites:** Warrior Priest.  ",
-			"**Benefit:** You gain a bonus equal to half your tier both on initiative checks and on {rule/concentration} checks to cast a spell or use a spell-like ability when casting defensively or while grappled. These bonuses stack with the bonuses from Warrior Priest."
+			"**Benefit:** You gain a bonus equal to half your tier both on initiative checks and on concentration checks to cast a spell or use a spell-like ability when casting defensively or while grappled. These bonuses stack with the bonuses from Warrior Priest."
 		]
 	},
 	"wary_smuggler": {
@@ -1421,7 +1421,7 @@
 			"",
 			"You attract a weapon bearer to aid you in your endeavors.  ",
 			"**Prerequisites:** Character level 4th, proficient with all martial weapons.  ",
-			"**Benefit:** This feat is similar to the {feat/Leadership} feat, with several exceptions. You can attract only a 1st-level cohort (referred to hereafter as a weapon bearer) with this feat, and can't recruit followers. You determine your Leadership score according to the rules presented in the {feat/Leadership} feat, but your weapon bearer is always at least 3 levels lower than yourself.",
+			"**Benefit:** This feat is similar to the {feat/Leadership} feat, with several exceptions. You can attract only a 1st-level cohort (referred to hereafter as a weapon bearer) with this feat, and can't recruit followers. You determine your Leadership score according to the rules presented in the Leadership feat, but your weapon bearer is always at least 3 levels lower than yourself.",
 			"",
 			"A weapon bearer can take levels in only cavalier, fighter, or gunslinger. She cannot multiclass, though she can take any archetype for which she qualifies.",
 			"",
@@ -1429,7 +1429,7 @@
 			"",
 			"If a weapon bearer gains enough XP to bring her to 2 levels lower than your level, she doesn't gain the new level until you gain your next level; until you advance, her XP total remains 1 less than the amount needed to attain the next level.",
 			"",
-			"If you release your weapon bearer from service or otherwise lose your weapon bearer, you can recruit a new one. At 7th level, you can swap this feat for the {feat/Leadership} feat."
+			"If you release your weapon bearer from service or otherwise lose your weapon bearer, you can recruit a new one. At 7th level, you can swap this feat for the Leadership feat."
 		]
 	},
 	"weapon_evoker_mastery": {
@@ -1678,7 +1678,7 @@
 			"",
 			"@HL[Mindful Dodge] ({feat/Dodge}): As an immediate action, you can gain a +4 dodge bonus to your AC against a single of which attack you are aware. You must make this decision before the attack roll is revealed. You are staggered on your next turn.",
 			"",
-			"@HL[Strike and Seize] ({feat/Improved Disarm}, base attack bonus +6): As a standard action, you can make a single attack with your weapon and attempt to perform a {rule/disarm} combat maneuver with your free hand, taking no penalties for two-weapon fighting.",
+			"@HL[Strike and Seize] ({feat/Improved Disarm}, base attack bonus +6): As a standard action, you can make a single attack with your weapon and attempt to perform a disarm combat maneuver with your free hand, taking no penalties for two-weapon fighting.",
 			"",
 			"@HL[Stylish Riposte] ({feat/Combat Reflexes}, base attack bonus +4): When your AC exceeds the result of a foe's melee attack against you by 5 or more, that foe provokes an attack of opportunity from you. Once you make such an attack of opportunity against a foe, you can't again use this trick against the foe that day.",
 			"",
@@ -1738,7 +1738,7 @@
 			"",
 			"@HL[Hindering Shot] ({feat/Precise Shot}, {feat/Snap Shot}): You can distract a foe at a crucial moment, making it vulnerable to your allies' abilities. You can {rule/ready an action} to make a ranged attack against a foe when an ally forces the foe to attempt a saving throw. If your attack hits the foe and deals damage, the foe takes a -4 penalty on the saving throw that triggered your readied action.",
 			"",
-			"@HL[Suppressing Shot] ({feat/Far Shot}, {feat/Precise Shot}): You can cover an ally's momentary vulnerability. You can ready an action to make a ranged attack against a foe when it makes an attack of opportunity. If your attack hits and damages the foe, the foe's attack of opportunity automatically misses its target."
+			"@HL[Suppressing Shot] ({feat/Far Shot}, Precise Shot): You can cover an ally's momentary vulnerability. You can ready an action to make a ranged attack against a foe when it makes an attack of opportunity. If your attack hits and damages the foe, the foe's attack of opportunity automatically misses its target."
 		]
 	},
 	"weapon_trick_two_handed_weapon": {
@@ -1761,11 +1761,11 @@
 			"",
 			"@HL[Cleaving Smash] ({feat/Cleave}, {feat/Improved Vital Strike}, {feat/Power Attack}): When you use Cleave, you can add the additional damage from {feat/Vital Strike} to both your initial and your secondary attacks. If you also have the {feat/Greater Vital Strike} feat, you can instead add the damage from Improved Vital Strike to both your initial and your secondary attacks.",
 			"",
-			"@HL[Crush Armor] ({feat/Improved Sunder}, {feat/Power Attack}): When you deal damage to a foe's armor with a successful {rule/sunder} combat maneuver check while using a two-handed weapon, the foe must succeed at a Fortitude save (DC = 10 + 1/2 your base attack bonus + your Strength modifier) or be {misc/fatigued} for 1 round. If the armor has the {misc/broken} condition after you damage it, the foe must continue making this save every round until he removes the armor or the armor loses the broken condition. If the armor is destroyed by your sunder attempt, the foe is automatically fatigued for 1 round. The foe cannot become {misc/exhausted} this way.",
+			"@HL[Crush Armor] ({feat/Improved Sunder}, Power Attack): When you deal damage to a foe's armor with a successful {rule/sunder} combat maneuver check while using a two-handed weapon, the foe must succeed at a Fortitude save (DC = 10 + 1/2 your base attack bonus + your Strength modifier) or be {misc/fatigued} for 1 round. If the armor has the {misc/broken} condition after you damage it, the foe must continue making this save every round until he removes the armor or the armor loses the broken condition. If the armor is destroyed by your sunder attempt, the foe is automatically fatigued for 1 round. The foe cannot become {misc/exhausted} this way.",
 			"",
 			"@HL[Two-Handed Menace] (Intimidate 5 ranks): Capitalizing on the fear inspired by massive weapons, you can take 10 on {skill/Intimidate} checks even when distracted or in combat.",
 			"",
-			"@HL[Warding Weapon] ({feat/Combat Expertise}): While you are using the {misc/total defense} action, {misc/fighting defensively}, or using {feat/Combat Expertise}, you gain a +1 shield bonus to AC.",
+			"@HL[Warding Weapon] ({feat/Combat Expertise}): While you are using the {misc/total defense} action, {misc/fighting defensively}, or using Combat Expertise, you gain a +1 shield bonus to AC.",
 			"",
 			"@HL[One-Handed Lunge] (base attack bonus +6): As a standard action, you can release one of your hands holding a two-handed weapon and make a melee attack with the weapon, increasing your reach by 5 feet for the duration of the attack. If the attack hits, you deal damage as if using a one-handed weapon, adding only your Strength bonus to damage if you are using your primary hand or half your Strength bonus if you are using your off hand, instead of 1-1/2 times your Strength bonus. Otherwise, you take no penalty for using the weapon one-handed. The extra reach doesn't stack with the {feat/Lunge} feat or other effects that extend your melee reach beyond that granted by your size category."
 		]
@@ -1796,7 +1796,7 @@
 			"",
 			"@HL[Piercing Climb] (Climb 8 ranks): You can use piercing weapons to climb as if your hands were free. You take a -4 penalty on Stealth checks while doing so. You can take 10 on such Climb checks even while distracted or endangered.",
 			"",
-			"@HL[Weapon Juggle] ({feat/Two-Weapon Fighting}): You can draw a weapon even while wielding two weapons. Doing so takes the same type of action as drawing that weapon normally would. As part of the action to draw the weapon, you must sheathe one of the two weapons you were wielding."
+			"@HL[Weapon Juggle] (Two-Weapon Fighting): You can draw a weapon even while wielding two weapons. Doing so takes the same type of action as drawing that weapon normally would. As part of the action to draw the weapon, you must sheathe one of the two weapons you were wielding."
 		]
 	},
 	"weapon_trick_weapon_and_shield": {

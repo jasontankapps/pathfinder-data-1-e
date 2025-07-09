@@ -2281,7 +2281,7 @@
 			"",
 			"If the check fails, the wizard cannot understand or copy the spell. He cannot attempt to learn or copy that spell again until one week has passed. If the spell was from a scroll, a failed Spellcraft check does not cause the spell to vanish.",
 			"",
-			"In most cases, wizards charge a fee for the privilege of copying spells from their spellbooks. This fee is usually equal to half the cost to write the spell into a spellbook (see {rule/Writing a New Spell into a Spellbook}). Rare and unique spells might cost significantly more.",
+			"In most cases, wizards charge a fee for the privilege of copying spells from their spellbooks. This fee is usually equal to half the cost to write the spell into a spellbook (see Writing a New Spell into a Spellbook). Rare and unique spells might cost significantly more.",
 			"",
 			"@HL[Independent Research:] A wizard can also research a spell independently, duplicating an existing spell or creating an entirely new one. The cost to research a new spell, and the time required, are left up to GM discretion, but it should probably take at least 1 week and cost at least 1,000 gp per level of the spell to be researched. This should also require a number of Spellcraft and Knowledge (arcana) checks."
 		],
@@ -2629,7 +2629,7 @@
 			"",
 			"If a character class grants a spell-like ability that is not based on an actual spell, the ability's effective spell level is equal to the highest-level class spell the character can cast, and is cast at the class level the ability is gained.",
 			"",
-			"@HL[Supernatural Abilities:] These can't be disrupted in combat and generally don't provoke attacks of opportunity. They aren't subject to spell resistance, counterspells, or {spell/dispel magic}, and don't function in antimagic areas.",
+			"@HL[Supernatural Abilities:] These can't be disrupted in combat and generally don't provoke attacks of opportunity. They aren't subject to spell resistance, counterspells, or *dispel magic,* and don't function in antimagic areas.",
 			"",
 			"@HL[Extraordinary Abilities:] These abilities cannot be disrupted in combat, as spells can, and they generally do not provoke attacks of opportunity. Effects or areas that negate or disrupt magic have no effect on extraordinary abilities. They are not subject to dispelling, and they function normally in an antimagic field. Indeed, extraordinary abilities do not qualify as magical, though they may break the laws of physics.",
 			"",

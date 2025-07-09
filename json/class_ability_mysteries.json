@@ -48,7 +48,7 @@
 			"",
 			"### Final Revelation",
 			"",
-			"Upon reaching 20th level, you become one with the spirits of your ancestors. You gain a bonus on Will saving throws equal to your Charisma modifier, {umr/blindsense} out to a range of 60 feet, and a +4 bonus on your caster level for all divination spells. You can cast {spell/astral projection} as a spell-like ability once per day without requiring material components."
+			"Upon reaching 20th level, you become one with the spirits of your ancestors. You gain a bonus on Will saving throws equal to your Charisma modifier, {umr/blindsense} out to a range of 60 feet, and a +4 bonus on your caster level for all divination spells. You can cast *astral projection* as a spell-like ability once per day without requiring material components."
 
 		]
 	},
@@ -216,13 +216,13 @@
 			"",
 			"**Spirit Walk (Su):** As a standard action, you can become incorporeal and invisible. While in this form, you can move in any direction and through any object (except for those made of force). You can take no action other than to move while in this form. You remain in this form for a number of rounds equal to your oracle level, but you can end this effect prematurely with a standard action. You can use this ability once per day at 11th level, and twice per day at 15th level. You must be at least 11th level to select this revelation.",
 			"",
-			"**Undead Servitude (Su):** You gain {feat/Command Undead} as a bonus feat. You can {ability/channel negative energy} (as an evil cleric) a number of times per day equal to 3 + your Charisma modifier, but only to use Command Undead. You can take other feats to add to this ability, such as {feat/Improved Channel}, but not feats that alter this ability, such as {feat/Alignment Channel}.",
+			"**Undead Servitude (Su):** You gain Command Undead as a bonus feat. You can {ability/channel negative energy} (as an evil cleric) a number of times per day equal to 3 + your Charisma modifier, but only to use Command Undead. You can take other feats to add to this ability, such as {feat/Improved Channel}, but not feats that alter this ability, such as {feat/Alignment Channel}.",
 			"",
 			"**Voice of the Grave (Su):** You can {spell/speak with dead}, as per the spell, for a number of rounds per day equal to your oracle level. These rounds do not need to be consecutive. At 5th level, and every five levels thereafter, the dead creature takes a cumulative -2 penalty on its Will save to resist this effect.",
 			"",
 			"### Final Revelation",
 			"",
-			"Upon reaching 20th level, you become a master of death. Once per round, you can cast {spell/bleed} or {spell/stabilize} as a free action. If you are brought to below 0 hit points, you automatically stabilize. You can cast {spell/animate dead} at will without paying a material component cost (although you are still subject to the usual Hit Die control limit). Once per day, you can cast {spell/power word kill}, but the spell can target a creature with 150 hit points or less."
+			"Upon reaching 20th level, you become a master of death. Once per round, you can cast {spell/bleed} or {spell/stabilize} as a free action. If you are brought to below 0 hit points, you automatically stabilize. You can cast *animate dead* at will without paying a material component cost (although you are still subject to the usual Hit Die control limit). Once per day, you can cast {spell/power word kill}, but the spell can target a creature with 150 hit points or less."
 
 		]
 	},
@@ -300,7 +300,7 @@
 			"",
 			"**Dragon Senses (Ex):** Your senses take on a keen draconic edge. You gain either darkvision with a range of 60 feet or low-light vision. At 5th level, you can select darkvision with a range of 60 feet or low-light vision if you do not yet have both, or you can add 60 feet to the range of your darkvision. At 11th level, you gain {umr/blindsense} with a range of 30 feet. If you already have blindsense, you instead increase its range by 30 feet. At 15th level, you gain either the {umr/scent} ability or a +4 bonus on Perception checks.",
 			"",
-			"**Form of the Dragon (Su):** Your kinship with dragonkind allows you to take on the form of a dragon. As a standard action, you can assume the form of a Medium dragon, as per {spell/form of the dragon I}. At 15th level, you can assume the form of a Large dragon, as per {spell/form of the dragon II}. At 19th level, you can assume the form of a Huge dragon, as per {spell/form of the dragon III}. You can use this ability once per day, but the duration is 10 minutes per oracle level. If you are at least 15th level and choose to have this ability function as per *form of the dragon I,* the duration is instead 1 hour per oracle level.",
+			"**Form of the Dragon (Su):** Your kinship with dragonkind allows you to take on the form of a dragon. As a standard action, you can assume the form of a Medium dragon, as per {spell/form of the dragon I}. At 15th level, you can assume the form of a Large dragon, as per {spell/form of the dragon II}. At 19th level, you can assume the form of a Huge dragon, as per *form of the dragon III.* You can use this ability once per day, but the duration is 10 minutes per oracle level. If you are at least 15th level and choose to have this ability function as per *form of the dragon I,* the duration is instead 1 hour per oracle level.",
 			"",
 			"You must be at least 11th level to select this revelation. Rather than form of the dragon spells, you can choose for this revelation to act as {spell/form of the alien dragon I/, II, and III} or {spell/form of the exotic dragon I/, II, and III}. This choice must be made when you first gain this revelation, and cannot be changed.",
 			"",
@@ -709,7 +709,7 @@
 			"",
 			"**Gift of Claw and Horn (Su):** As a swift action, you gain a {umr/natural weapon>s}. The natural weapon lasts for a number of rounds equal to half your oracle level (minimum 1). You must choose a bite, claw, or gore attack. These attacks deal the normal damage for a creature of your size. At 5th level, your natural weapon gains a +1 enhancement bonus. This bonus increases by +1 at 10th, 15th, and 20th level. At 11th level, you gain two natural weapons at a time. You can use this ability a number of times per day equal to 3 + your Charisma modifier.",
 			"",
-			"**Mantle of Moonlight (Su):** Your innate understanding of the moon renders you immune to the curse of lycanthropy. Additionally, you may disrupt a {template/lycanthrope/'s} connection to the moon with a successful touch attack. This action automatically forces the lycanthrope into its humanoid form, in which it must remain for a number of rounds equal to your oracle level. Upon reaching 5th level, you can use this ability to force others into a {spell/rage}, as the spell. Using this ability is a melee touch attack. You can use this ability once per day at 5th level plus one additional time per day for every 5 levels above 5th.",
+			"**Mantle of Moonlight (Su):** Your innate understanding of the moon renders you immune to the curse of lycanthropy. Additionally, you may disrupt a {template/lycanthrope/'s} connection to the moon with a successful touch attack. This action automatically forces the lycanthrope into its humanoid form, in which it must remain for a number of rounds equal to your oracle level. Upon reaching 5th level, you can use this ability to force others into a *rage,* as the spell. Using this ability is a melee touch attack. You can use this ability once per day at 5th level plus one additional time per day for every 5 levels above 5th.",
 			"",
 			"**Moonbeam (Su):** You can fire a ray of moonlight as a ranged touch attack at any creature within 30 feet. This ray deals 1d6 points of damage + 1 for every 2 oracle levels you possess. In addition, the target must succeed at a Fortitude save or become {misc/blinded} for 1 round. You can use this ability a number of times per day equal to your Charisma modifier (minimum 1).",
 			"",
@@ -769,7 +769,7 @@
 			"",
 			"### Final Revelation",
 			"",
-			"Upon reaching 20th level, you become a master of iron and steel. You gain the benefits of {feat/Weapon Focus}, {feat/Greater Weapon Focus}, and {feat/Improved Critical} with any one metal weapon that you are proficient with. Your armor is like a second skin to you - while wearing metal armor you are proficient with, the armor's maximum Dexterity bonus increases by +5 and you take no armor check penalty. In addition, any metal you create with your magic (such as {spell/wall of iron}) has its hardness increased by +10."
+			"Upon reaching 20th level, you become a master of iron and steel. You gain the benefits of {feat/Weapon Focus}, {feat/Greater Weapon Focus}, and {feat/Improved Critical} with any one metal weapon that you are proficient with. Your armor is like a second skin to you - while wearing metal armor you are proficient with, the armor's maximum Dexterity bonus increases by +5 and you take no armor check penalty. In addition, any metal you create with your magic (such as *wall of iron*) has its hardness increased by +10."
 
 		]
 	},
@@ -862,7 +862,7 @@
 			"",
 			"### Final Revelation",
 			"",
-			"Upon reaching 20th level, you become one with the spirits. You become immune to death effects, exhaustion, fatigue, nausea, negative levels, and the sickened condition. You can cast {spell/astral projection} and {spell/true seeing} once per day as spell-like abilities without requiring material components. Should you die, you rise again 2d4 days later as a ghost."
+			"Upon reaching 20th level, you become one with the spirits. You become immune to death effects, exhaustion, fatigue, nausea, negative levels, and the sickened condition. You can cast *astral projection* and {spell/true seeing} once per day as spell-like abilities without requiring material components. Should you die, you rise again 2d4 days later as a ghost."
 
 		]
 	},
@@ -982,7 +982,7 @@
 			"",
 			"**Living Shadow (Sp):** Your body dissolves, and you become a living shadow. This ability functions as {spell/gaseous form}. At 14th level, this ability functions as {spell/shadow body} instead, except you also gain DR 10/magic and become immune to poison, sneak attacks, and critical hits as if also using *gaseous form.* You can use this ability a number of minutes per day equal to your oracle level. This duration does not need to be consecutive, but it must be spent in 1-minute increments. You must be at least 7th level to choose this revelation.",
 			"",
-			"**Pierce the Shadows (Su):** The shadows step aside from your baleful gaze, affording you sight in even the deepest darkness. You gain darkvision 60 feet. If you already have darkvision, increase your existing darkvision by 60 feet instead. At 11th level, you can see perfectly in darkness of any kind, even in absolute darkness or the darkness created by a {spell/deeper darkness} spell.",
+			"**Pierce the Shadows (Su):** The shadows step aside from your baleful gaze, affording you sight in even the deepest darkness. You gain darkvision 60 feet. If you already have darkvision, increase your existing darkvision by 60 feet instead. At 11th level, you can see perfectly in darkness of any kind, even in absolute darkness or the darkness created by a *deeper darkness* spell.",
 			"",
 			"**Shadow Armament (Su):** You can create a quasi-real simple or martial masterwork weapon appropriate for your current size. You are considered proficient with this weapon. The first time you hit a creature with this weapon, that creature can attempt a Will save to disbelieve; failure means the weapon deals damage normally, while success means the creature takes only 1 point of damage from the weapon's attacks. The weapon deals only 1 point of damage to objects. At 3rd level, and again at 11th level and 19th level, the weapon gains a cumulative +1 enhancement bonus. At 7th level, the weapon gains either the {magic-enh/frost} or {magic-enh/keen} weapon special ability, chosen when the weapon is created. These abilities don't function against a target that succeeds at its Will save. At 15th level, the weapon deals minimum damage (as if it had rolled a 1 on each of its damage dice) against targets that succeed at their saves instead of 1 point of damage. You can use this ability for a number of minutes per day equal to your oracle level. This duration does not need to be consecutive, but it must be used in 1-minute increments. The weapon disappears after 1 round if it leaves your grasp.",
 			"",
@@ -1034,7 +1034,7 @@
 			"",
 			"**Starlight Agility:** You gain {feat/Dodge} as a bonus feat. At 8th level, you gain {feat/Wind Stance} as a bonus feat. At 15th level, you gain {feat/Lightning Stance} as a bonus feat. You do not need to meet the prerequisites to receive these feats.",
 			"",
-			"**Sun Stride:** You can travel between areas of natural sunlight as if by means of a {spell/dimension door} spell. This ability does not function in areas of less than bright light, though it does work within the area of a {spell/daylight} spell. At 5th level, you can sun stride up to 40 feet per day; this can be a single stride of 40 feet or four strides of 10 feet each. At 9th level and every 4 levels thereafter, the distance you can sun stride doubles (80 feet at 9th level, 160 feet at 13th level, and 32 feet at 17th level). This amount can be split among many strides, but each one, no matter how small, counts as a 10-foot increment. You must be at least 5th level to select this revelation.",
+			"**Sun Stride:** You can travel between areas of natural sunlight as if by means of a *dimension door* spell. This ability does not function in areas of less than bright light, though it does work within the area of a *daylight* spell. At 5th level, you can sun stride up to 40 feet per day; this can be a single stride of 40 feet or four strides of 10 feet each. At 9th level and every 4 levels thereafter, the distance you can sun stride doubles (80 feet at 9th level, 160 feet at 13th level, and 32 feet at 17th level). This amount can be split among many strides, but each one, no matter how small, counts as a 10-foot increment. You must be at least 5th level to select this revelation.",
 			"",
 			"**Sungazer (Sp):** You can study the sun and gaze upon any place its light touches. You can use {spell/clairaudience//clairvoyance} as a spell-like ability, but only for visual observation and you can only place your sensor in places currently being touched by sunlight. At 10th level, you can instead use {spell/scrying} to observe any area touched by sunlight. At 15th level, you can use {spell/greater scrying} instead. You must be at least 5th level to select this revelation. You can sungaze for 1 minute per day per oracle level; the duration need not be continuous, but it must be used in 1-minute increments.",
 			"",
@@ -1072,7 +1072,7 @@
 			"",
 			"**Eldritch Scar (Su):** Once per day when you damage a creature with a spell you cast, you may, as a swift action, cause your magic to leave an eldritch scar upon that creature. An eldritch scar appears as a normal scar, save that it flickers with faint radiance of a color of your choice. The next time that creature casts a spell, uses a spell-like ability, or activates a magic item, it triggers a {rule/primal magic/ event} of a CR equal to your caster level. This causes the eldritch scar to vanish. A creature can be marked by only one eldritch scar at a time (a more powerful one replaces a weaker one). An eldritch scar fades automatically after 24 hours. It can be removed before that point via any effect capable of removing a {rule/curse>s} (the curse's level equals your caster level), but if an attempt to remove an eldritch scar fails, that attempt triggers a primal magic event - an event triggered this way does not cause the eldritch scar to fade. You must be at least 7th level to select this revelation.",
 			"",
-			"**Magic Penetration (Ex):** You gain a +2 bonus on any caster level check made to dispel or remove a magic effect (such as when using the {spell/dispel magic} or {spell/remove curse} spell). If you are 9th level or higher, the bonus increases to +4.",
+			"**Magic Penetration (Ex):** You gain a +2 bonus on any caster level check made to dispel or remove a magic effect (such as when using the *dispel magic* or {spell/remove curse} spell). If you are 9th level or higher, the bonus increases to +4.",
 			"",
 			"**Mystic Null (Ex):** You gain a +2 insight bonus on saves against spells and spell-like abilities. At 7th level, this bonus also applies on saves against supernatural abilities. At 11th level, the bonus increases to +4.",
 			"",
@@ -1264,7 +1264,7 @@
 			"",
 			"### Final Revelation",
 			"",
-			"Upon reaching 20th level, you become a true master of time and stop aging. You cannot be magically aged and no longer take penalties to your ability scores for aging. {rule/Age/ bonuses} still accrue, and any aging penalties that you have already accrued remain in place. You cannot die of old age, but you can be killed or die through accident, disease, poison, or other external effects. In addition, you can cast {spell/time stop} once per day as a spell-like ability."
+			"Upon reaching 20th level, you become a true master of time and stop aging. You cannot be magically aged and no longer take penalties to your ability scores for aging. {rule/Age/ bonuses} still accrue, and any aging penalties that you have already accrued remain in place. You cannot die of old age, but you can be killed or die through accident, disease, poison, or other external effects. In addition, you can cast *time stop* once per day as a spell-like ability."
 
 		]
 	},
@@ -1465,9 +1465,9 @@
 			"",
 			"**Blizzard (Su):** As a standard action, you can create a blizzard of snow and ice. You can create one 10-foot-cube of this storm per oracle level. These cubes can be arranged in any pattern you desire, but each cube must be adjacent to another, and at least one must be adjacent to you. Any creature caught in the blizzard takes 1d4 points of cold damage per oracle level, with a successful Reflex save resulting in half damage. The storm lasts for a number of rounds equal to your Charisma modifier; the ground remains icy (+5 to Acrobatics DCs) as long as local conditions permit. The blizzard obscures sight beyond 5 feet, providing total concealment. A creature within 5 feet has {rule/concealment}. You can use this ability once per day. You must be 11th level to select this revelation.",
 			"",
-			"**Child of Winter (Ex):** You gain the constant benefit of {spell/endure elements}, but only against cold temperatures. You can move across regular snow without penalty, and heavy snow costs you only 2 squares of movement instead of 4. You can move across icy surfaces without penalty, and never need to make Acrobatics checks to run or charge on ice. You leave no trail in ice or snow, and cannot be tracked (you may choose to leave a trail if you so desire). During winter months, you gain a +2 insight bonus on Initiative checks and Reflex saving throws.",
+			"**Child of Winter (Ex):** You gain the constant benefit of *endure elements,* but only against cold temperatures. You can move across regular snow without penalty, and heavy snow costs you only 2 squares of movement instead of 4. You can move across icy surfaces without penalty, and never need to make Acrobatics checks to run or charge on ice. You leave no trail in ice or snow, and cannot be tracked (you may choose to leave a trail if you so desire). During winter months, you gain a +2 insight bonus on Initiative checks and Reflex saving throws.",
 			"",
-			"**Cold Aura (Su):** As a swift action, you can cause waves of cold to radiate from your body. This cold deals 1d6 points of cold damage per 2 oracle levels to all creatures within 10 feet. A successful Fortitude save halves the damage. In addition, a flurry of snow momentarily surrounds you, granting you {rule/concealment} until your next turn. You can use this ability once per day, plus one additional time per day at 5th level and every 5 levels thereafter.",
+			"**Cold Aura (Su):** As a swift action, you can cause waves of cold to radiate from your body. This cold deals 1d6 points of cold damage per 2 oracle levels to all creatures within 10 feet. A successful Fortitude save halves the damage. In addition, a flurry of snow momentarily surrounds you, granting you concealment until your next turn. You can use this ability once per day, plus one additional time per day at 5th level and every 5 levels thereafter.",
 			"",
 			"**Freezing Spells (Su):** Whenever a creature fails a saving throw and takes cold damage from one of your spells, it is slowed (as the {spell/slow} spell) for 1 round. Spells that do not allow saves do not slow creatures. At 11th level, the slow duration increases to 1d4 rounds.",
 			"",
@@ -1485,7 +1485,7 @@
 			"",
 			"### Final Revelation",
 			"",
-			"Upon reaching 20th level, you become an avatar of winter and the North. Your body permanently transforms into living ice, as the {spell/ice body} spell. In addition, your mastery of winter magic is such that any of your attacks that deal cold damage bypass cold immunity or cold resistance."
+			"Upon reaching 20th level, you become an avatar of winter and the North. Your body permanently transforms into living ice, as the *ice body* spell. In addition, your mastery of winter magic is such that any of your attacks that deal cold damage bypass cold immunity or cold resistance."
 
 		]
 	},

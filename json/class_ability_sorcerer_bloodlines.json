@@ -162,7 +162,7 @@
 			">",
 			">*Aquatic Telepathy (Su):* At 9th level, you gain {umr/telepathy} (100 feet) and can communicate with creatures with a swim speed or the aquatic or water types regardless of intelligence. You may cast {spell/suggestion} on such creatures a number of times per day equal to your Charisma modifier. This ability is telepathic and does not require audible or visual components. At 15th level, once per day you can telepathically call and request a service from an aquatic, water, or swimming creature as if using {spell/demand} or {spell/greater planar ally}.",
 			">",
-			">*Raise the Deep (Sp):* At 15th level, you raise water as per {spell/control water}, but no water need be present. This created water is stationary and does not flow out of the area where you create it; it lasts 1 round per sorcerer level and then disappears. At 20th level, the dimensions of the effect are doubled. You may use this ability once per day.",
+			">*Raise the Deep (Sp):* At 15th level, you raise water as per *control water,* but no water need be present. This created water is stationary and does not flow out of the area where you create it; it lasts 1 round per sorcerer level and then disappears. At 20th level, the dimensions of the effect are doubled. You may use this ability once per day.",
 			">",
 			">*Deep One (Ex):* At 20th level, you gain blindsense 60 feet and your body is covered with fine, slippery scales granting DR 10/piercing, resist cold 20, and continuous {spell/freedom of movement}. Underwater, you gain evasion and {umr/blindsight} 120 feet, and you are immune to [pressure damage](rule/water_dangers) from deep water.",
 			"",
@@ -200,7 +200,7 @@
 			"",
 			">*Arcane Bond (Su):* At 1st level, you gain an arcane bond, as a {class/wizard} equal to your sorcerer level. Your sorcerer levels stack with any wizard levels you possess when determining the powers of your familiar or bonded object. This ability does not allow you to have both a familiar and a bonded item. Once per day, your bonded item allows you to cast any one of your spells known (unlike a wizard's bonded item, which allows him to cast any one spell in his spellbook).",
 			">",
-			">*Metamagic Adept (Ex):* At 3rd level, you can apply any one {main/feats_<metamagic/ feat} you know to a spell you are about to cast without increasing the casting time. You must still expend a higher-level spell slot to cast this spell. You can use this ability once per day at 3rd level and one additional time per day for every four sorcerer levels you possess beyond 3rd, up to five times per day at 19th level. At 20th level, this ability is replaced by *arcane apotheosis*.",
+			">*Metamagic Adept (Ex):* At 3rd level, you can apply any one {main/feats_<metamagic/ feat} you know to a spell you are about to cast without increasing the casting time. You must still expend a higher-level spell slot to cast this spell. You can use this ability once per day at 3rd level and one additional time per day for every four sorcerer levels you possess beyond 3rd, up to five times per day at 19th level. At 20th level, this ability is replaced by *arcane apotheosis.*",
 			">",
 			">*New Arcana (Ex):* At 9th level, you can add any one spell from the {main/spells<sorcerer|//wizard/ spell list} to your list of spells known. This spell must be of a level that you are capable of casting. You can also add one additional spell at 13th level and 17th level.",
 			">",
@@ -242,13 +242,13 @@
 			"",
 			">*Astral Warp (Sp):* At 1st level, you can create a sparkling field within 30 feet that distorts time within a 5-foot cube. This field lasts until the beginning of your next turn. Any creature that enters the area or that starts its turn within the cube takes 1d4 points of force damage + 1 point of force damage per 2 sorcerer levels you have (Fortitude negates). While within the area, a creature takes a -1 penalty on Reflex saves and to AC. You can use this ability a number of times per day equal to 3 + your Charisma modifier.",
 			">",
-			">*Peerless Speed (Su):* At 3rd level, you can tap into the power of the Astral's enhanced magical nature to gain the ability to accelerate your spellcasting dramatically. Once per day as a swift action, you can cast one cantrip you know as though it were augmented by the {feat/Quicken Spell} metamagic feat, without altering the cantrip's level. At 5th level and every 2 levels thereafter, the maximum level of the spell you can augment with this ability increases by 1, to a maximum of an 8th-level spell at 19th level. If you use this ability while on the Astral Plane or on any plane whose {rule/enhanced |magic trait>s} allows you to cast a spell as if augmented by Quicken Spell, you can instead choose to augment the spell as though you had applied the {feat/Empower Spell} or {feat/Maximize Spell} metamagic feats instead.",
+			">*Peerless Speed (Su):* At 3rd level, you can tap into the power of the Astral's enhanced magical nature to gain the ability to accelerate your spellcasting dramatically. Once per day as a swift action, you can cast one cantrip you know as though it were augmented by the Quicken Spell metamagic feat, without altering the cantrip's level. At 5th level and every 2 levels thereafter, the maximum level of the spell you can augment with this ability increases by 1, to a maximum of an 8th-level spell at 19th level. If you use this ability while on the Astral Plane or on any plane whose {rule/enhanced |magic trait>s} allows you to cast a spell as if augmented by Quicken Spell, you can instead choose to augment the spell as though you had applied the {feat/Empower Spell} or {feat/Maximize Spell} metamagic feats instead.",
 			">",
 			">*Astral Voyager (Sp):* At 9th level, you can send your consciousness to the Astral Plane once per day. This functions as {spell/lesser astral projection} and allows you to bring with you up to one additional willing creature for every 2 sorcerer levels you have. At 13th level, you can cast {spell/plane shift} once per day, but only on yourself and willing targets that accompany you, and only from the Material Plane to the Astral Plane and vice versa. At 17th level, this ability instead functions as {spell/astral projection}.",
 			">",
 			">*Arrest the Flow (Su):* At 15th level, once per day as an immediate action, you can attune yourself to the Astral's timeless nature to halt the effects of one condition or affliction (such as {rule/paralyzed}, {misc/stunned}, a poison, or a curse), including permanent and instantaneous conditions, until the end of your next turn. You can use this ability even when a condition or affliction would normally prevent you from doing so, regardless of whether you're targeting that prevention effect's source. At the end of your next turn the condition or affliction resumes its normal effect and the round delayed by this ability does not count toward the condition or affliction's duration. This ability has no effect on hit point damage, ability damage, or the dead condition. Alternatively, you can use this ability to extend the duration of any one effect affecting you until the end of your next turn; this does not extend the duration for any other creatures under the effect. At 19th level, you can use this ability twice per day.",
 			">",
-			">*Timeless Soul (Ex):* At 20th level, the silver skies and conduits of the Astral Plane are permanently connected to you. You become immune to the retroactive aging side effects incurred when leaving a plane with the {rule/time[less planar] trait>s}. You do not gain negative levels when slain on the Astral Plane while using {spell/astral projection}, and any effect that would sever your silver cord instead returns you to your physical body if you succeed at a Will save (DC = 10 + the CR of the creature or caster level of the effect that severed the cord). In addition, when applying the {feat/Quicken Spell} metamagic feat to a spell, it uses up a spell slot only 3 levels higher than the spell's actual level. This ability does not stack with other abilities that would reduce the spell's final adjusted level."
+			">*Timeless Soul (Ex):* At 20th level, the silver skies and conduits of the Astral Plane are permanently connected to you. You become immune to the retroactive aging side effects incurred when leaving a plane with the {rule/time[less planar] trait>s}. You do not gain negative levels when slain on the Astral Plane while using *astral projection,* and any effect that would sever your silver cord instead returns you to your physical body if you succeed at a Will save (DC = 10 + the CR of the creature or caster level of the effect that severed the cord). In addition, when applying the {feat/Quicken Spell} metamagic feat to a spell, it uses up a spell slot only 3 levels higher than the spell's actual level. This ability does not stack with other abilities that would reduce the spell's final adjusted level."
 		]
 	},
 	"boreal": {
@@ -508,7 +508,7 @@
 			">",
 			">*Power of the Djinn (Su):* At 20th level, you gain the power of genies to grant wishes. Once per day, you can cast {spell/limited wish} as a spell-like ability. Such wishes must begin with the words \"I wish,\" and cannot duplicate a wish you have granted within the past 24 hours. If you use this ability to duplicate a spell with a costly material component, you must provide that component.",
 			">",
-			">You also become immune to electricity damage, and can use {spell/plane shift} once per day to travel to or from the Plane of Air."
+			">You also become immune to electricity damage, and can use *plane shift* once per day to travel to or from the Plane of Air."
 		]
 	},
 	"draconic": {
@@ -527,7 +527,7 @@
 			"",
 			"**Bonus Spells:** {spell/mage armor} (3rd), {spell/resist energy} (5th), {spell/fly} (7th), {spell/fear} (9th), {spell/spell resistance} (11th), {spell/form of the dragon I} (13th), {spell/form of the dragon II} (15th), {spell/form of the dragon III} (17th), {spell/wish} (19th).",
 			"",
-			"**Bonus Feats:** {feat/Blind-Fight}, {feat/Great Fortitude}, {feat/Improved Initiative}, {feat/Power Attack}, {feat/Quicken Spell}, {feat/Skill Focus} (Fly), {feat/Skill Focus} (Knowledge [arcana]), {feat/Toughness}",
+			"**Bonus Feats:** {feat/Blind-Fight}, {feat/Great Fortitude}, {feat/Improved Initiative}, {feat/Power Attack}, {feat/Quicken Spell}, {feat/Skill Focus} (Fly), Skill Focus (Knowledge [arcana]), {feat/Toughness}",
 			"",
 			"**Bloodline Arcana:** Whenever you cast a spell with an energy descriptor that matches your draconic bloodline's energy type, that spell deals +1 point of damage per die rolled.",
 			"",
@@ -659,7 +659,7 @@
 			">",
 			">*Dreamshaper (Sp):* At 9th level, you can manipulate the dreamscape of others, drawing forth or tampering with their subconscious minds. This power allows you to tamper with the target's memories as if using {spell/modify memory}, or you may ask questions as if using {spell/speak with dead} upon a corpse. A successful Will save negates the effect. The DC of this save is equal to 10 + 1/2 your sorcerer level + your Charisma modifier, with further modifiers as the {spell/nightmare} spell. You can use this ability once per day at 9th level. At 17th level you can use this ability twice per day, and at 20th, three times per day.",
 			">",
-			">*Eye of Somnus (Sp):* At 15th level, you can project your consciousness as if using {spell/arcane eye}. In addition, at any point you can cause the {spell/arcane eye} to become visible. The eye can no longer be moved, but it acts as a {spell/symbol of sleep} to all who see it. You may use this power once per day.",
+			">*Eye of Somnus (Sp):* At 15th level, you can project your consciousness as if using {spell/arcane eye}. In addition, at any point you can cause the *arcane eye* to become visible. The eye can no longer be moved, but it acts as a {spell/symbol of sleep} to all who see it. You may use this power once per day.",
 			">",
 			">*Solipsism (Ex):* At 20th level, you can drift into the dream world, fading from the world around you. You can become incorporeal for 1 minute per sorcerer level. You gain the {subtype/incorporeal} subtype and take only half damage from corporeal magical attacks (you take no damage from nonmagical weapons and objects). Your spells deal only half damage to corporeal creatures, but spells and abilities that do not deal damage function normally. The duration need not be continuous, but it must be used in 1-minute increments.",
 			"",
@@ -673,7 +673,7 @@
 			"",
 			"**Bloodline Powers:** Your dreams hint at the future.",
 			"",
-			">*Visions (Sp):* At 9th level, when you sleep, you can gain information through prophetic visions. Once per day when sleeping, you may gain information about actions taken in the next week as if you had cast a {spell/divination} spell. You can gain information about a single question at 9th level. At 17th level, you can have two questions answered while you sleep, and at 20th level, three questions. This bloodline power replaces *dreamshaper.*"
+			">*Visions (Sp):* At 9th level, when you sleep, you can gain information through prophetic visions. Once per day when sleeping, you may gain information about actions taken in the next week as if you had cast a *divination* spell. You can gain information about a single question at 9th level. At 17th level, you can have two questions answered while you sleep, and at 20th level, three questions. This bloodline power replaces *dreamshaper.*"
 		]
 	},
 	"ectoplasm": {
@@ -689,7 +689,7 @@
 			"",
 			"**Bonus Spells:** {spell/obscuring mist} (3rd), {spell/ghost whip} (5th), {spell/ectoplasmic snare} (7th), {spell/spirit-bound blade} (9th), {spell/wall of ectoplasm} (11th), {spell/ethereal jaunt} (13th), {spell/ectoplasmic eruption} (15th), {spell/create demiplane} (17th), {spell/etherealness} (19th).",
 			"",
-			"**Bonus Feats:** {feat/Blind-Fight}, {feat/Dodge}, {feat/Ectoplasmic Spell}, {feat/Lingering Spell}, {feat/Silent Spell}, {feat/Skill Focus} (Fly), {feat/Skill Focus} (Stealth), {feat/Spell Focus}",
+			"**Bonus Feats:** {feat/Blind-Fight}, {feat/Dodge}, {feat/Ectoplasmic Spell}, {feat/Lingering Spell}, {feat/Silent Spell}, {feat/Skill Focus} (Fly), Skill Focus (Stealth), {feat/Spell Focus}",
 			"",
 			"**Bloodline Arcana:** Incorporeal creatures take 75% of the normal amount of damage from your damaging spells, and when incorporeal creatures attempt saving throws against your non-damaging spells, they roll twice and must take the lower result.",
 			"",
@@ -737,7 +737,7 @@
 			">",
 			">*Power of the Efreet (Su):* At 20th level, you gain the power of genies to grant wishes. Once per day, you can cast {spell/limited wish} as a spell-like ability. Such wishes must begin with the words \"I wish,\" and cannot duplicate a wish you have granted within the past 24 hours. If you use this ability to duplicate a spell with a costly material component, you must provide that component.",
 			">",
-			">You also become immune to fire damage, and can use {spell/plane shift} once per day to travel to or from the Plane of Fire."
+			">You also become immune to fire damage, and can use *plane shift* once per day to travel to or from the Plane of Fire."
 		]
 	},
 	"elemental": {
@@ -751,7 +751,7 @@
 			"",
 			"**Class Skill:** Knowledge (planes).",
 			"",
-			"**Bonus Spells:** {spell/burning hands*} (3rd), {spell/scorching ray*} (5th), {spell/protection from energy} (7th), {spell/elemental body I} (9th), {spell/elemental body II} (11th), {spell/elemental body III} (13th), {spell/elemental body IV} (15th), {spell/summon monster VIII/ (elementals only)} (17th), {spell/elemental swarm} (19th).",
+			"**Bonus Spells:** {spell/burning hands}\\* (3rd), {spell/scorching ray}\\* (5th), {spell/protection from energy} (7th), {spell/elemental body I} (9th), {spell/elemental body II} (11th), {spell/elemental body III} (13th), {spell/elemental body IV} (15th), {spell/summon monster VIII/ (elementals only)} (17th), {spell/elemental swarm} (19th).",
 			"",
 			"\\*These spells always deal a type of damage determined by your element. In addition, the subtype of these spells changes to match the energy type of your element.",
 			"",
@@ -880,7 +880,7 @@
 			"",
 			">*Ghoulish Claws (Su):* Starting at 1st level, you can grow claws as a free action. These claws are treated as {umr/natural weapons}, allowing you to make two claw attacks as a full attack using your full base attack bonus. Each of these attacks deals 1d4 points of damage + your Strength modifier (1d3 if you are Small). At 5th level, creatures damaged with your claw attack are {rule/paralyzed} for 1 round, as the {monster/ghoul} ability (Fortitude negates). At 7th level, the duration of the paralysis increases to 1d4+1 rounds, and the claws are considered magic weapons for the purpose of overcoming DR. You can use your claws for a number of rounds per day equal to 3 + your Charisma modifier. These rounds do not need to be consecutive.",
 			">",
-			">If you're a {monster/ghoul} with this bloodline, instead of gaining this ability, your levels in sorcerer stack with your racial Hit Dice when determining the DC of your paralysis and disease special abilities.",
+			">If you're a ghoul with this bloodline, instead of gaining this ability, your levels in sorcerer stack with your racial Hit Dice when determining the DC of your paralysis and disease special abilities.",
 			">",
 			">*Leathery Skin (Ex):* At 3rd level, you gain cold resistance 5 and a +1 natural armor bonus to AC. At 9th level, your cold resistance increases to 10 and natural armor bonus increases to +2. At 15th level, your natural armor bonus increases to +4.",
 			">",
@@ -1114,7 +1114,7 @@
 			">",
 			">*Power of the Marid (Su):* At 20th level, you gain the power of genies to grant wishes. Once per day, you can cast {spell/limited wish} as a spell-like ability. Such wishes must begin with the words \"I wish,\" and cannot duplicate a wish you have granted within the past 24 hours. If you use this ability to duplicate a spell with a costly material component, you must provide that component.",
 			"",
-			"You become immune to cold damage, and can use {spell/plane shift} once per day to travel to or from the Plane of Water.",
+			"You become immune to cold damage, and can use *plane shift* once per day to travel to or from the Plane of Water.",
 			"",
 			"::h3[Shahzada (Wildblooded Mutation)]{jl}",
 			"",
@@ -1190,7 +1190,7 @@
 			"",
 			"**Bloodline Powers:** You can draw upon the ancient magic of the nagas to ensnare the minds of lesser creatures and destroy those who would defy your will.",
 			"",
-			">*Vanishing (Sp):* At 1st level, you can cloak yourself in illusory magic as a standard action, making you invisible (as per {spell/invisibility}) for a number of rounds per day equal to your sorcerer level + your Charisma bonus (if any). These rounds need not be used consecutively.",
+			">*Vanishing (Sp):* At 1st level, you can cloak yourself in illusory magic as a standard action, making you invisible (as per *invisibility*) for a number of rounds per day equal to your sorcerer level + your Charisma bonus (if any). These rounds need not be used consecutively.",
 			">",
 			">*Naga Resistances (Ex):* At 3rd level, you gain a +2 bonus on saving throws against mind-affecting effects and poison effects. At 9th level, this bonus increases to +4.",
 			">",
@@ -1228,7 +1228,7 @@
 			">",
 			">*Distributed Body (Ex):* At 15th level, anytime you are struck by a critical hit or a sneak attack, there is a 25% chance that your nanites scatter and reincorporate around the attack, negating the extra damage and causing the attack to deal damage as normal instead.",
 			">",
-			">*Living Swarm (Su):* At 20th level, you and the machines within you become one. Your nanites consume and replicate your body, allowing swift and radical physical alterations with little more than a thought. You become immune to bleed effects, diseases, and poisons, and gain DR 5/-. At will, you can break down your body and move in a shimmering stream of flying nanites, as if affected by {spell/gaseous form}."
+			">*Living Swarm (Su):* At 20th level, you and the machines within you become one. Your nanites consume and replicate your body, allowing swift and radical physical alterations with little more than a thought. You become immune to bleed effects, diseases, and poisons, and gain DR 5/-. At will, you can break down your body and move in a shimmering stream of flying nanites, as if affected by *gaseous form.*"
 		]
 	},
 	"oni": {
@@ -1282,13 +1282,13 @@
 			"",
 			">*Touch of Rage (Sp):* At 1st level, you can touch a creature as a standard action, giving it a morale bonus on attack rolls, damage rolls, and Will saving throws equal to 1/2 your sorcerer level (minimum 1) for 1 round. You can use this ability a number of times per day equal to 3 + your Charisma modifier.",
 			">",
-			">*Fearless (Ex):* At 3rd level, you gain a +4 bonus on saving throws made against fear and a +1 natural armor bonus. At 9th level, you lose your {umr/light sensitivity}, gain immunity to fear, and your natural armor bonus increases to +2.",
+			">*Fearless (Ex):* At 3rd level, you gain a +4 bonus on saving throws made against fear and a +1 natural armor bonus. At 9th level, you lose your light sensitivity, gain immunity to fear, and your natural armor bonus increases to +2.",
 			">",
 			">*Strength of the Beast (Ex):* At 9th level, you gain a +2 inherent bonus to your Strength. This bonus increases to +4 at 13th level, and to +6 at 17th level.",
 			">",
 			">*Power of Giants (Sp):* At 15th level, you may grow to Large size as a standard action. At this size you gain a +6 size bonus to Strength, a -2 penalty to Dexterity, a +4 size bonus to Constitution, and a +4 natural armor bonus. You may return to your normal size as a standard action. You may remain in this size for up to 1 minute per character level per day; this duration does not need to be consecutive, but it must be used in 1 minute increments.",
 			">",
-			">*Warlord Reborn (Su):* At 20th level, you become a true orc warlord of legend. You gain immunity to fire and DR 5/-. Once per day, you can cast {spell/transformation} as a spell-like ability using your sorcerer level as your caster level."
+			">*Warlord Reborn (Su):* At 20th level, you become a true orc warlord of legend. You gain immunity to fire and DR 5/-. Once per day, you can cast *transformation* as a spell-like ability using your sorcerer level as your caster level."
 		]
 	},
 	"pestilence": {
@@ -1378,7 +1378,7 @@
 			">",
 			">*One Body, Two Minds (Sp):* At 15th level, once per day, you can improve the effectiveness of a single spell by having your possessing spirit channel that spell. The spell acts as though it were affected by both the {feat/Silent Spell} and {feat/Still Spell} metamagic feats. If the spell chosen is a mind-affecting spell, it also benefits from the {feat/Extend Spell} metamagic feat. This ability does not use up a spell slot higher than the level of the base spell, nor does it increase the level of the base spell.",
 			">",
-			">*Dual Spirit (Su):* At 20th level, you gain immunity to mind-affecting effects. Whenever you successfully employ a possession effect (such as {spell/magic jar} or {spell/possession}), you remain in complete control of your body and the body of your possessed target."
+			">*Dual Spirit (Su):* At 20th level, you gain immunity to mind-affecting effects. Whenever you successfully employ a possession effect (such as {spell/magic jar} or *possession*), you remain in complete control of your body and the body of your possessed target."
 		]
 	},
 	"protean": {
@@ -1446,7 +1446,7 @@
 			">",
 			">*Mental Resistance (Ex):* At 3rd level, your mind blocks attempts to assail it. You gain a +2 bonus on saving throws against mind-affecting effects. At 9th level, this bonus increases to +4.",
 			">",
-			">*Undercasting Prodigy (Sp):* Starting at 9th level, whenever you gain a new level of spells, you automatically replace any psychic bloodline spells that can be undercast with the highest-level version you can cast in your list of spells known. For example, at 9th level, you would replace {spell/mind thrust I}, {spell/id insinuation I}, and {spell/ego whip I} with {spell/mind thrust IV}, {spell/id insinuation III}, and {spell/ego whip II}, respectively, as spells known.",
+			">*Undercasting Prodigy (Sp):* Starting at 9th level, whenever you gain a new level of spells, you automatically replace any psychic bloodline spells that can be undercast with the highest-level version you can cast in your list of spells known. For example, at 9th level, you would replace *mind thrust I, id insinuation I,* and *ego whip I* with {spell/mind thrust IV}, {spell/id insinuation III}, and {spell/ego whip II}, respectively, as spells known.",
 			">",
 			">*Thoughtsense (Sp):* At 15th level, you can detect the thoughts of others around you, as a constant {umr/thoughtsense} effect with a range of 30 feet instead of 60 feet.",
 			">",
@@ -1496,7 +1496,7 @@
 			"",
 			"**Bonus Spells:** {spell/magic weapon} (3rd), {spell/molten orb} (5th), {spell/magic vestment} (7th), {spell/fire shield/ (warm shield)} (9th), {spell/fire snake} (11th), {spell/tar pool} (13th), {spell/firebrand} (15th), {spell/wall of lava} (17th), {spell/meteor swarm} (19th).",
 			"",
-			"**Bonus Feats:** {feat/Cleave}, {feat/Craft Wondrous Item}, {feat/Iron Will}, {feat/Power Attack}, {feat/Prodigy}, {feat/Skill Focus} (Acrobatics), {feat/Skill Focus} (Perception), {feat/Toughness}",
+			"**Bonus Feats:** {feat/Cleave}, {feat/Craft Wondrous Item}, {feat/Iron Will}, {feat/Power Attack}, {feat/Prodigy}, {feat/Skill Focus} (Acrobatics), Skill Focus (Perception), {feat/Toughness}",
 			"",
 			"**Bloodline Arcana:** The DCs of your sorcerer spells increase by 2 against creatures that are suffering ongoing fire damage.",
 			"",
@@ -1616,7 +1616,7 @@
 			">",
 			">*Shadow Well (Sp):* At 9th level, you can use the Stealth skill even while being observed and without cover or concealment, as long as you are within 10 feet of a shadow other than your own. In addition, when within an area of darkness or dim light, as a standard action you may choose to switch places with a willing ally within 60 feet, who must also be in darkness or dim light. At 13th level, you can instead switch the positions of two willing allies, each of whom must be within 60 feet of you. Unless otherwise noted, this travel is identical to {spell/dimension door}. You may use the ability to switch places once per day at 9th level, plus one additional time per day at 17th level and 20th level.",
 			">",
-			">*Enveloping Darkness (Sp):* At 15th level, you may create an area of {spell/deeper darkness} that you can see through without penalty. All creatures except you are entangled within this darkness unless using {spell/freedom of movement} or a similar effect. You may use this ability once per day.",
+			">*Enveloping Darkness (Sp):* At 15th level, you may create an area of *deeper darkness* that you can see through without penalty. All creatures except you are entangled within this darkness unless using {spell/freedom of movement} or a similar effect. You may use this ability once per day.",
 			">",
 			">*Shadow Master (Su):* At 20th level, you can see perfectly in natural or magical darkness. When you use shadow conjuration or shadow evocation spells, your creations are 20% more real, and any creatures you create gain the benefits of the {feat/Augment Summoning} feat.",
 			"",
@@ -1662,7 +1662,7 @@
 			">",
 			">*Power of the Shaitan (Su):* At 20th level, you gain the power of genies to grant wishes. Once per day, you can cast {spell/limited wish} as a spell-like ability. Such wishes must begin with the words \"I wish,\" and cannot duplicate a wish you have granted within the past 24 hours. If you use this ability to duplicate a spell with a costly material component, you must provide that component.",
 			">",
-			">You become immune to acid damage, and can use {spell/plane shift} once per day to travel to or from the Plane of Earth."
+			">You become immune to acid damage, and can use *plane shift* once per day to travel to or from the Plane of Earth."
 		]
 	},
 	"shapechanger": {
@@ -1796,7 +1796,7 @@
 			">",
 			">*Ride the Lightning (Sp):* At 15th level, as a full-round action you can become a living lightning bolt and move in a straight line up to 10 times your speed. You do not provoke attacks of opportunity while moving in this way. Creatures or objects in your path are affected as by your *thunderbolt* power. Creatures do not block your movement but solid barriers do unless they are reduced to 0 hit points. You can use this power once per day for a number of rounds equal to your sorcerer level.",
 			">",
-			">*Storm Lord (Ex):* At 20th level, you are one with the storm. You gain immunity to deafness, stunning, and wind effects and gain {umr/blindsight} 120 feet against {rule/concealment} from natural or magical fog, mist, or weather. Once per day, when attacked with an electricity or sonic effect, you may forgo your saving throw and absorb the energies of the attack, healing 1 point of damage for every 3 points of damage the attack would otherwise have dealt.",
+			">*Storm Lord (Ex):* At 20th level, you are one with the storm. You gain immunity to deafness, stunning, and wind effects and gain {umr/blindsight} 120 feet against concealment from natural or magical fog, mist, or weather. Once per day, when attacked with an electricity or sonic effect, you may forgo your saving throw and absorb the energies of the attack, healing 1 point of damage for every 3 points of damage the attack would otherwise have dealt.",
 			"",
 			"::h3[Arial (Wildblooded Mutation)]{jl}",
 			"",

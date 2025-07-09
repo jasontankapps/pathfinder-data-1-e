@@ -49,7 +49,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Inscribe Magical Tattoo}, {spell/detect magic}, {spell/guidance}; **Cost** 500 gp"
+			"**Requirements** {feat/Inscribe Magical Tattoo}, *detect magic,* {spell/guidance}; **Cost** 500 gp"
 		]
 	},
 	"radiant_tattoo": {

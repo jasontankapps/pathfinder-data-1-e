@@ -355,7 +355,7 @@
 			"",
 			"The {feat/Leadership} feat can grant you followers - people loyal to you who assist you if they are able. In the downtime system, followers provide additional Influence or Labor to supplement your activities at no cost to you. This increases the effect of Influence or Labor you spend by 50%, to a maximum of 1 additional Influence or Labor for every 2 followers in the settlement where the downtime activity takes place.",
 			"",
-			"Example: Alice's character has a {feat/Leadership} score of 10, and 4 of his 5 followers live in Sandpoint. Assistance from her followers can provide a maximum of 2 (1/2 of 4) points of Influence or Labor when she takes downtime actions in Sandpoint. If Alice spends 2 points of Influence or Labor, it counts as 2 &times; 50% = 3; if she spends 6 points of Influence or Labor, however, it counts as 8, because the maximum increase her 4 followers can provide is 2.",
+			"Example: Alice's character has a Leadership score of 10, and 4 of his 5 followers live in Sandpoint. Assistance from her followers can provide a maximum of 2 (1/2 of 4) points of Influence or Labor when she takes downtime actions in Sandpoint. If Alice spends 2 points of Influence or Labor, it counts as 2 &times; 50% = 3; if she spends 6 points of Influence or Labor, however, it counts as 8, because the maximum increase her 4 followers can provide is 2.",
 			"",
 			"Under certain circumstances, the GM may rule that followers provide less of a benefit than the standard 50% increase. For example, if your followers live in a different settlement and must travel to your location, but bandit activity makes travel risky or they have been away from home for a week or more, the GM might decide that your followers increase the effect of Influence or Labor by only 1 for every 3 followers or even 1 for every 4. Your followers are loyal to you, but they are not slaves and can provide only so much help before they go about their normal lives."
 		],
@@ -1721,9 +1721,9 @@
 			"",
 			"Example: An Acolyte is a low-level divine spellcaster. In a Cult, Acolytes are the lowest-ranked members of the group and handle most of the interactions with new converts. In a Thieves' Guild, they are responsible for patching up members of the guild after a robbery or gang war. In a Mercenary Company, they look after the spiritual needs and physical injuries of the soldiers.",
 			"",
-			"@HL[Teams and Leadership:] One advantage of having followers from the {feat/Leadership} feat is that they increase the effect of Influence and Labor you spend in a settlement (see {rule/Using Followers}). As the primary component of the price of recruiting teams is Influence, having followers in a settlement makes it easier to get the word out about the organization you want to build.",
+			"@HL[Teams and Leadership:] One advantage of having followers from the Leadership feat is that they increase the effect of Influence and Labor you spend in a settlement (see {rule/Using Followers}). As the primary component of the price of recruiting teams is Influence, having followers in a settlement makes it easier to get the word out about the organization you want to build.",
 			"",
-			"The people in your organization obey you because you pay them, or at least keep regular contact with them and direct their activities. Unlike with cohorts and followers gained from the {feat/Leadership} feat (who are loyal toward you because of your reputation and behavior), if you're away from your organization for a long period of time, you might lose your connection with it. In the Upkeep Phase section, see [Step 3-Determine Capital Attrition](rule/upkeep_phase).",
+			"The people in your organization obey you because you pay them, or at least keep regular contact with them and direct their activities. Unlike with cohorts and followers gained from the Leadership feat (who are loyal toward you because of your reputation and behavior), if you're away from your organization for a long period of time, you might lose your connection with it. In the Upkeep Phase section, see [Step 3-Determine Capital Attrition](rule/upkeep_phase).",
 			"",
 			"In addition to the ways to combat attrition mentioned in the Upkeep Phase section, recruiting your followers into your organization can help with this problem. You can automatically add followers to your organizations as you recruit teams. For every five of your followers who are also members of your organization, you gain a +1 bonus on the leadership check to avoid attrition. As most followers are low-level characters with NPC classes, most teams of followers aren't trained for combat and are usually recruited to be Acolytes, Bureaucrats, Craftspeople, Lackeys, and so on (see {rule/Teams}).",
 			"",
@@ -2071,7 +2071,7 @@
 			"**Size** 40-100 squares  ",
 			"**Upgrades To** Sports Field",
 			"",
-			"This enclosed field is used for some form of dangerous contest, from nonlethal sports like wrestling or boxing to lethal blood sports such as animal fights or gladiatorial combat. It includes seating for spectators, appropriate flooring (padded or sandy), and often some manner of barrier between the audience and combatants. Each day, the person in charge of the Battle Ring can grant one combatant a +2 bonus on Intimidate and {rule/performance combat} checks. This benefit applies only within the settlement."
+			"This enclosed field is used for some form of dangerous contest, from nonlethal sports like wrestling or boxing to lethal blood sports such as animal fights or gladiatorial combat. It includes seating for spectators, appropriate flooring (padded or sandy), and often some manner of barrier between the audience and combatants. Each day, the person in charge of the Battle Ring can grant one combatant a +2 bonus on Intimidate and performance combat checks. This benefit applies only within the settlement."
 		],
 		"parent_topics": [
 			"optional_subsystems",
@@ -2447,7 +2447,7 @@
 			"**Create** 6 Goods, 1 Influence, 6 Labor, 1 Magic (370 gp); **Time** 16 days  ",
 			"**Size** 4-12 squares",
 			"",
-			"An Infirmary is used for treating injured and sick people. It contains beds or cots, a wash basin, and medical supplies. This counts as having a {eq-misc/healer's kit} for up to two healers at a time. As long as the building doesn't have the broken condition, you don't need to track individual uses of these healer's kits.",
+			"An Infirmary is used for treating injured and sick people. It contains beds or cots, a wash basin, and medical supplies. This counts as having a healer's kit for up to two healers at a time. As long as the building doesn't have the broken condition, you don't need to track individual uses of these healer's kits.",
 			"",
 			"### Kitchen",
 			"",
@@ -2490,7 +2490,7 @@
 			"**Create** 7 Goods, 1 Influence, 7 Labor (310 gp); **Time** 16 days  ",
 			"**Size** 4-10 squares",
 			"",
-			"This workshop includes a sturdy table, stool, vats, drying racks, and tools designed for turning raw hides into leather. The Leather Workshop counts as {eq-misc/masterwork artisan's tools} for up to three people creating leather goods with skills such as Craft (leather) and Craft (shoes).",
+			"This workshop includes a sturdy table, stool, vats, drying racks, and tools designed for turning raw hides into leather. The Leather Workshop counts as masterwork artisan's tools for up to three people creating leather goods with skills such as Craft (leather) and Craft (shoes).",
 			"",
 			"### Lodging",
 			"",
@@ -2661,7 +2661,7 @@
 			"**Create** 6 Goods, 1 Influence, 5 Labor, 3 Magic (550 gp); **Time** 16 days  ",
 			"**Size** 4-16 squares",
 			"",
-			"A Scrying Room is built to be a quiet place for scrying, seances, and similar divinations. It contains a table, chairs, and either a pool of water (at no additional cost) or a suitable focus object for a {spell/scrying} spell (for an additional 1,000 gp). A caster using {spell/scrying}, {spell/locate creature}, or a similar targeted divination from here increases the spell's DC by 1.",
+			"A Scrying Room is built to be a quiet place for scrying, seances, and similar divinations. It contains a table, chairs, and either a pool of water (at no additional cost) or a suitable focus object for a {spell/scrying} spell (for an additional 1,000 gp). A caster using *scrying,* {spell/locate creature}, or a similar targeted divination from here increases the spell's DC by 1.",
 			"",
 			"### Secret Room",
 			"",
@@ -2683,7 +2683,7 @@
 			"**Earnings** gp, Goods, or Influence +10  ",
 			"**Benefit** counts as {eq-misc/masterwork artisan's tools} for one Craft skill  ",
 			"**Create** 8 Goods, 7 Labor (300 gp); **Time** 16 days  ",
-			"**Size** 6-12 squares A Sewing Room is used for designing heraldry and making cloth garments, tapestries, blankets, carpets, linens, and other textiles. It contains a loom; a spinning wheel; tapestry frames; shelves for fabric; worktables; and tools for spinning, weaving, and sewing. Up to three people can use the room at once; gaining the benefit of {eq-misc/masterwork artisan's tools} for skills such as Craft (cloth) and Craft (clothing), and for related skills such as Craft (baskets).",
+			"**Size** 6-12 squares A Sewing Room is used for designing heraldry and making cloth garments, tapestries, blankets, carpets, linens, and other textiles. It contains a loom; a spinning wheel; tapestry frames; shelves for fabric; worktables; and tools for spinning, weaving, and sewing. Up to three people can use the room at once; gaining the benefit of masterwork artisan's tools for skills such as Craft (cloth) and Craft (clothing), and for related skills such as Craft (baskets).",
 			"",
 			"### Shack",
 			"",
@@ -2847,7 +2847,7 @@
 			"**Create** 8 Goods, 7 Labor (300 gp); **Time** 16 days  ",
 			"**Size** 8-16 squares",
 			"",
-			"This includes a table, chair, and appropriate {eq-misc/masterwork artisan's tools} for one Craft or Profession skill you choose when you build the room. For example, if intended for a carpenter, it has clamps, saws, nails, hammers, and a sturdy worktable. Up to three people can use the room at a time."
+			"This includes a table, chair, and appropriate masterwork artisan's tools for one Craft or Profession skill you choose when you build the room. For example, if intended for a carpenter, it has clamps, saws, nails, hammers, and a sturdy worktable. Up to three people can use the room at a time."
 		],
 		"parent_topics": [
 			"optional_subsystems",
@@ -3069,7 +3069,7 @@
 			"",
 			"@HL[Lead-Lined Walls:] Lead-lined walls block nearly all divinations from passing through, but are ineffective as long as any door is open so much as a crack. Detection and location magic generally is blocked as long as there is an unbroken lead barrier directly between the caster and the protected creature or object, but scrying effects, {spell/discern location}, and other spells that aren't limited to straight lines of effect are blocked only if the protected creature or object is seamlessly enclosed by lead-lined walls. Because of this and the fact that they are rumored to cause insanity in anyone who dwells within long enough, these walls are rarely used in any structures other than vaults and panic rooms. The price includes adding lead lining to any doors, shutters, and other openings into the room so that the lead seal is complete when they are closed. A room sealed fast against divination from all directions by lead is also airtight, potentially suffocating anyone trapped inside. A lead-lined wall costs an extra 250 gp for each 5-foot-wide by 10-foot-tall section of wall. This augmentation cannot be applied to paper walls.",
 			"",
-			"@HL[Secrecy Runes:] Magically reinforced walls can incorporate secrecy runes to prevent magic from allowing someone to see within. Sounds cannot pass out of an area enclosed by secrecy runes on all sides (including ceilings and floors), as long as all exits are closed. In addition, the runes block divinations of or below a specified spell level (as indicated on the table below) from entering an area enclosed by secrecy runes on all sides (including ceilings and floors), even while portals to the area are open. See the table below for prices and the maximum level of spells each type of runes can block. Creating secrecy runes requires the {feat/Craft Wondrous Item} feat, the spell {spell/mage's private sanctum}, and the expenditure of the listed amount of gold for each 5-foot-by-10-foot section of wall.",
+			"@HL[Secrecy Runes:] Magically reinforced walls can incorporate secrecy runes to prevent magic from allowing someone to see within. Sounds cannot pass out of an area enclosed by secrecy runes on all sides (including ceilings and floors), as long as all exits are closed. In addition, the runes block divinations of or below a specified spell level (as indicated on the table below) from entering an area enclosed by secrecy runes on all sides (including ceilings and floors), even while portals to the area are open. See the table below for prices and the maximum level of spells each type of runes can block. Creating secrecy runes requires the Craft Wondrous Item feat, the spell {spell/mage's private sanctum}, and the expenditure of the listed amount of gold for each 5-foot-by-10-foot section of wall.",
 			"",
 			"| Runes of Secrecy | Maximum Spell Level of Divination Blocked | Cost per Section of Wall[^1] |",
 			"| --- | --- | --- |",

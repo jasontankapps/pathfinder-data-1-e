@@ -1141,7 +1141,7 @@
 		"compilationSources": [ [ "Ultimate Magic" ] ],
 		"category": "Other Discoveries",
 		"description": [
-			"The alchemist gains the ability to create a {spell/lesser simulacrum}. This works like the {spell/lesser simulacrum} spell, except it costs 100 gp in alchemical materials per Hit Die of the simulacrum, requires 24 hours to grow, and decays into inert flesh rather than ice or snow if killed. An alchemist must be at least 8th level before selecting this discovery. The created simulacrum is a creature, not a supernatural effect."
+			"The alchemist gains the ability to create a {spell/lesser simulacrum}. This works like the *lesser simulacrum* spell, except it costs 100 gp in alchemical materials per Hit Die of the simulacrum, requires 24 hours to grow, and decays into inert flesh rather than ice or snow if killed. An alchemist must be at least 8th level before selecting this discovery. The created simulacrum is a creature, not a supernatural effect."
 		]
 	},
 	"doppelganger_simulacrum": {
