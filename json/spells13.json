@@ -309,6 +309,7 @@
 			"*Counterspell:* This functions as dispel magic, but you receive a +4 bonus on your dispel check to counter the other spellcaster's spell."
 		]
 	},
+	"dispel": { "redirect": "dispel_magic" },
 	"dispel_magic_greater": {
 		"name": "Greater Dispel Magic",
 		"copyof": "dispel_magic"

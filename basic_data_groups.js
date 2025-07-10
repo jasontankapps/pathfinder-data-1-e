@@ -138,6 +138,7 @@ import magicgraft from './json/magic_fungal_grafts.json' with {type: 'json'};
 import magicpoison from './json/magic_infused_poisons.json' with {type: 'json'};
 import magicioun from './json/magic_ioun_stones.json' with {type: 'json'};
 import magicfetish from './json/magic_juju_fetishes.json' with {type: 'json'};
+import magiclegacy from './json/magic_legacy_items.json' with {type: 'json'};
 import magicnecrograft from './json/magic_necrografts.json' with {type: 'json'};
 import magicnecrotoxin from './json/magic_necrotoxins.json' with {type: 'json'};
 import magicplant from './json/magic_plant.json' with {type: 'json'};
@@ -2115,6 +2116,14 @@ const basic_data_groups = {
 		exportablelink: "magicfetish",
 		num: 0,
 		type: "Juju Fetish"
+	},
+	"magic_legacy_items": {
+		data: magiclegacy,
+		searchgroup: 5, // magic
+		link: "magic-legacy",
+		exportablelink: "magiclegacy",
+		num: 0,
+		type: "Legacy Item"
 	},
 	"magic_necrografts": {
 		data: magicnecrograft,

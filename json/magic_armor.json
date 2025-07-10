@@ -1479,7 +1479,7 @@
 			"",
 			"This battered +1 {eq-material/mithral} {eq-armor/breastplate} bears a resemblance to a stylized turtle shell. On command, its wearer can vanish inside the armor, leaving the breastplate behind while she stays safely hidden in an extradimensional space. This space is barely large enough for the wearer to sit comfortably, but does provides breathable air and light to see by. The wearer cannot perceive the environs around the armor while inside. A second command word returns the wearer to the armor's location, wearing the armor. If the wearer can't return to the space the armor is in, she is instead shunted to the nearest empty space that can contain her, but no longer wearing the armor.",
 			"",
-			"If the breastplate is destroyed, the wearer immediately returns to the square the armor was in when it was destroyed. Successfully {spell/dispel/ling>_magic} the armor likewise returns the wearer, though in this case still wearing the armor.",
+			"If the breastplate is destroyed, the wearer immediately returns to the square the armor was in when it was destroyed. Successfully {spell/dispel/ling} the armor likewise returns the wearer, though in this case still wearing the armor.",
 			"",
 			"### Construction",
 			"",
@@ -4206,58 +4206,6 @@
 			"### Construction",
 			"",
 			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/antimagic field}; **Price** 60,930 gp"
-		]
-	},
-	"conquerors_breastplate": {
-		"name": "Conqueror's Breastplate",
-		"sources": [ "Chronicle of Legends" ],
-		"description": [
-			"## Conqueror's Breastplate",
-			"",
-			"{SOURCE Chronicle of Legends/20}  ",
-			"**Slot** armor; **CL** 10th; **Weight** 15 lbs.  ",
-			"**Aura** moderate enchantment",
-			"",
-			"The chasing of this +1 {eq-material/mithral} {eq-armor/breastplate} makes it appear to be crafted of dragon's scales. Originally worn by Choral Rogarvia, the armor was imitated, at great expense, by Issian nobles hoping to curry favor with the new ruler of Brevoy, but its power was never duplicated.",
-			"",
-			"The armor's dazzling finish often impresses onlookers, and its wearer can adjust a creature's attitude up to three steps when using Diplomacy, instead of the normal limit of two steps.",
-			"",
-			"**5th Level:** Conqueror's breastplate acts as a +2 mithral breastplate.",
-			"",
-			"**10th Level:** Once per day as an immediate action, the wearer can use {spell/draconic reservoir} as a spell-like ability.",
-			"",
-			"**15th Level:** Conqueror's breastplate acts as a +3 {magic-enh/determination} mithral breastplate.",
-			"",
-			"**Goal:** At least 20 people whose CR is equal to or greater than the wearer's Hit Dice - 4 must swear fealty or pledge their loyalty to the wearer.  ",
-			"**Reward:** The wearer's grandiose bearing cows the weak willed. He gains the {umr/frightful presence} universal monster ability with a 30-foot-radius range and a Will save DC equal to 10 + his character level + his Charisma modifier. He can suppress or resume this ability as a free action."
-		]
-	},
-	"unyielding_aegis": {
-		"name": "Unyielding Aegis",
-		"sources": [ "Chronicle of Legends" ],
-		"description": [
-			"## Unyielding Aegis",
-			"",
-			"{SOURCE Chronicle of Legends/22}  ",
-			"**Slot** shield; **CL** 10th; **Weight** 10 lbs.  ",
-			"**Aura** moderate abjuration",
-			"",
-			"This shield is made from a thick glass that is as sturdy as steel. The shield functions as a +1 {eq-armor/heavy steel shield}. The former First Captain of the {rule/Risen Guard} known as the Spearwoman of Sothis originally crafted the shield using glass from the nearby deserts. Legends claim that she originally perished attempting to hold off an uprising in Sothis, but her shield continued to defend innocents, animated by some unknown force. The Spearwoman reclaimed the shield after her resurrection and has since gifted the unyielding aegis to the Risen Guard who loan it to members about to embark on particularly dangerous tasks.",
-			"",
-			"As an immediate action, the wielder of the unyielding aegis can raise the shield to intercept an attack targeting her or an ally within reach. The shield reduces the damage from the attack by 5, as if the target had DR 5/-. This does not damage the shield in any way.",
-			"",
-			"**3rd Level:** The wielder gains a +2 bonus to Reflex saves.",
-			"",
-			"**7th Level:** The unyielding aegis acts as a +2 {magic-enh/animated} heavy steel shield. The wielder can still activate the shield's intercepting ability, even while it is animated.",
-			"",
-			"**11th Level:** The unyielding aegis reduces damage from attacks by 10, as if the target had DR 10/-. In addition, the wielder's bonus to Reflex saves increases to +4.",
-			"",
-			"**15th Level:** The unyielding aegis acts as a +3 animated {magic-enh/reflecting} heavy steel shield.",
-			"",
-			"**19th Level:** The unyielding aegis reduces damage from attacks by 15, as if the target had DR 15/-.",
-			"",
-			"**Goal:** The wielder must prevent a total of 1,000 points of damage with the unyielding aegis.  ",
-			"**Reward:** The wielder can animate the unyielding aegis as if it had the animated special property for up to 1 minute at a time. While animated in this way, the wielder can command the shield to defend a creature within 30 feet as a swift action. The shield flies to that creature immediately, granting that creature the benefits of the shield as if it were wielding the shield. The original wielder of the shield can still spend her immediate action to use the shield to intercept attacks while the shield is defending a different creature."
 		]
 	},
 	"shield_of_the_mage": {

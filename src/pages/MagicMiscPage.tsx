@@ -10,6 +10,7 @@ import magic_fleshcrafting from './subpages/__magic-fleshcraft';
 import magic_fungal_grafts from './subpages/__magic-graft';
 import magic_infused_poisons from './subpages/__magic-poison';
 import magic_juju_fetishes from './subpages/__magic-fetish';
+import magic_legacy from './subpages/__magic-legacy';
 import magic_necrografts from './subpages/__magic-necrograft';
 import magic_necrotoxins from './subpages/__magic-necrotoxin';
 import magic_plant from './subpages/__magic-plant';
@@ -32,6 +33,7 @@ const magic = {
 	...magic_fungal_grafts,
 	...magic_infused_poisons,
 	...magic_juju_fetishes,
+	...magic_legacy,
 	...magic_necrografts,
 	...magic_necrotoxins,
 	...magic_plant,

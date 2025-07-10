@@ -6,6 +6,7 @@
 			"esoteric_material_components",
 			"relics",
 			"scaling_items",
+			"legacy_items",
 			"simplified_spellcasting",
 			"words_of_power"
 		],
@@ -45,6 +46,7 @@
 			"esoteric_material_components",
 			"relics",
 			"scaling_items",
+			"legacy_items",
 			"simplified_spellcasting",
 			"words_of_power"
 		]
@@ -2251,6 +2253,7 @@
 			"esoteric_material_components",
 			"relics",
 			"scaling_items",
+			"legacy_items",
 			"simplified_spellcasting",
 			"words_of_power"
 		]
@@ -2560,7 +2563,7 @@
 			"",
 			"PCs playing in the War for the Crown Adventure Path have the opportunity to discover two relics in each of the first four adventures (each of which is detailed in the following pages), and they can gradually increase the power of their relics by using them to perform bold deeds that help return Taldor to the resplendence of its heyday.",
 			"",
-			"**Also See:** {rule/Scaling Items}"
+			"**Also See:** {rule/Scaling Items} and {rule/Legacy Items}"
 		],
 		"parent_topics": [ "optional_magic_changes" ],
 		"subtopics": [
@@ -2573,6 +2576,7 @@
 			"esoteric_material_components",
 			"relics",
 			"scaling_items",
+			"legacy_items",
 			"simplified_spellcasting",
 			"words_of_power"
 		]
@@ -2674,6 +2678,7 @@
 			"esoteric_material_components",
 			"relics",
 			"scaling_items",
+			"legacy_items",
 			"simplified_spellcasting",
 			"words_of_power"
 		]

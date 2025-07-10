@@ -16,7 +16,7 @@
 			"",
 			"The weakest items, baubles, represent 5% of a PC's [character wealth at her level](rule/placing_treasure) and can be compared to consumable magic items (even though baubles aren't destroyed by use). Items in the middle category, prizes, represent 15% of a PC's suggested wealth and correspond to magic items of moderate power. An item of the most valuable category, wonders, represents 30% of a PC's suggested wealth and corresponds to a major magic item, such as a fighter's most beloved and powerful sword. Wonders exceed the normal cost assumptions of the game at their highest level. Such items approach the power of minor artifacts, though they're not indestructible and can still be created normally.",
 			"",
-			"**Also See:** {rule/Relics}"
+			"**Also See:** {rule/Relics} and {rule/Legacy Items}"
 		],
 		"parent_topics": [ "optional_magic_changes" ],
 		"subtopics": [
@@ -32,6 +32,7 @@
 			"esoteric_material_components",
 			"relics",
 			"scaling_items",
+			"legacy_items",
 			"simplified_spellcasting",
 			"words_of_power"
 		]
@@ -3746,6 +3747,34 @@
 			"swi_strand",
 			"swi_vest_golden",
 			"swi_vest_eldritch"
+		]
+	},
+	"legacy_items": {
+		"name": "Legacy Items",
+		"subtitle": "Optional Magic Changes",
+		"sources": [ "Chronicle of Legends" ],
+		"description": [
+			"{SOURCE Chronicle of Legends/20}",
+			"",
+			"Whether members of professionally acquisitive organizations such as the {rule/Pathfinder Society} or simply amateur treasure hunters, adventurers dream of discovering powerful relics wielded by legendary figures from the murky past. While these might be simple artifacts or heirlooms, some rare items are infused by the mighty deeds of their former owners, and an adventurer lucky enough to recover such items could unlock their hidden potential should their own exploits prove worthy. Legacy items work much like the {rule/scaling items} introduced in *Pathfinder Unchained,* save that each has a unique reward ability unlocked by attaining a goal related to the item's original owner. These items represent famous possessions of specific individuals from the history of Golarion, so unlike typical magic items, they cannot be crafted, though they can still be destroyed normally.",
+			"",
+			"Legacy items can be found under {main/magic_<Misc/ellaneous Magic Items}.",
+			"",
+			"### Purchasing Legacy Items",
+			"",
+			"Though legacy items are not intended for purchase, some GMs may wish to allow their PCs to purchase these items. In this case, GMs should look to the *scaling items* section to more accurately determine the price. Alternatively, GMs can instead use the following quick pricing rules.",
+			"",
+			"An item that requires a slot has a price of 3,000 gp, a set of armor or shield has a price of 4,000 gp, a weapon has a price of 5,000 gp, and a slotless item has a price of 6,000 gp. The price is increased for each ability that would be active at the PC's current level, with each ability adding 1,000 gp times the ability’s level. Finally, the total price of the legacy item is increased by 50% to pay for the reward ability. A PC would need to pay for abilities as they unlock them. For example, the {magic-legacy/ring of sealed souls} would cost 11,000 gp for an 8th-level PC (3,000 gp base price plus 8,000 gp for the 8th-level ability) and she would have to pay 5,500 gp if she were to accomplish the item's goal to unlock that ability. She would then pay 11,000 gp to unlock the 11th-level ability, and so on."
+		],
+		"parent_topics": [ "optional_magic_changes" ],
+		"siblings": [
+			"dynamic_magic_item_creation",
+			"esoteric_material_components",
+			"relics",
+			"scaling_items",
+			"legacy_items",
+			"simplified_spellcasting",
+			"words_of_power"
 		]
 	}
 }

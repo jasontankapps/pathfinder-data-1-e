@@ -67,7 +67,7 @@
 		"compilationSources": [ [ "Healer's Handbook", 25 ] ],
 		"category": "6",
 		"description": [
-			"The paladin {spell/dispel/s>_magic} any magical effects that are reducing one of the target's ability scores (paladin's choice)."
+			"The paladin {spell/dispel/s} any magical effects that are reducing one of the target's ability scores (paladin's choice)."
 		]
 	},
 	"haunted": {

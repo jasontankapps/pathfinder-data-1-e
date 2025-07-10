@@ -466,7 +466,7 @@
 			"{SOURCE Ultimate Intrigue/94}",
 			"",
 			"Your magic is difficult to unravel.  ",
-			"**Benefit:** Increase the DC of caster level checks to counter or dispel a tenacious spell by 2. If a tenacious spell is {spell/dispel/led>_magic} or dismissed, it lasts for 1d4 further rounds (to a maximum of the spell's normal duration) before ending (this does not occur if {spell/antimagic field} or a similar spell or effect suppresses or ends the spell's effect without dispelling or dismissing it). The lingering auras of tenacious spells detectable with {spell/detect magic} last for twice as long as usual after the spells end. A tenacious spell uses up a spell slot 1 level higher than the spell's actual level."
+			"**Benefit:** Increase the DC of caster level checks to counter or dispel a tenacious spell by 2. If a tenacious spell is {spell/dispel/led} or dismissed, it lasts for 1d4 further rounds (to a maximum of the spell's normal duration) before ending (this does not occur if {spell/antimagic field} or a similar spell or effect suppresses or ends the spell's effect without dispelling or dismissing it). The lingering auras of tenacious spells detectable with {spell/detect magic} last for twice as long as usual after the spells end. A tenacious spell uses up a spell slot 1 level higher than the spell's actual level."
 		]
 	},
 	"tenacious_survivor": {
@@ -492,7 +492,7 @@
 			"",
 			"Your mastery of the magic of changing makes your transmutations more durable.  ",
 			"**Prerequisites:** {feat/Spell Focus} (transmutation).  ",
-			"**Benefit:** The DC of caster level checks to {spell/dispel>_magic} or remove your transmutations increases by 2; even if the spell is negated, its effects persist for 1 additional round before dissipating."
+			"**Benefit:** The DC of caster level checks to {spell/dispel} or remove your transmutations increases by 2; even if the spell is negated, its effects persist for 1 additional round before dissipating."
 		]
 	},
 	"tenebrous_spell": {
@@ -504,7 +504,7 @@
 			"{SOURCE Inner Sea Magic/15}",
 			"",
 			"You blend shadow into your spells, increasing their efficacy at the price of susceptibility to light.  ",
-			"**Benefit:** When you cast a tenebrous spell in darkness or dim light, the spell's effective caster level and any associated save DCs are increased by 1. Any attempts at dispelling a tenebrous spell in darkness or dim light take a -2 penalty on the {spell/dispel>_magic} check.",
+			"**Benefit:** When you cast a tenebrous spell in darkness or dim light, the spell's effective caster level and any associated save DCs are increased by 1. Any attempts at dispelling a tenebrous spell in darkness or dim light take a -2 penalty on the {spell/dispel} check.",
 			"",
 			"Casting a tenebrous spell in bright light is difficult, and requires a {rule/concentration} check (DC 15 + twice the tenebrous spell's effective spell level). Attempts to dispel a tenebrous spell in bright light gain a +4 bonus on the dispel check.",
 			"",
@@ -3331,7 +3331,7 @@
 			"{SOURCE Pathfinder Unchained/154}",
 			"",
 			"When you cast a spell using esoteric materials, you reinforce your spell's magical structure, making the spell difficult to stop or remove.  ",
-			"**Benefit:** When you use {rule/esoteric material components} as part of casting a spell, you gain a +2 bonus on {rule/concentration} checks to cast that spell, and the spell is treated as though its caster level were 2 higher against attempts to {spell/dispel>_magic} it. This increase is in addition to any increases due to greater component or limited magic benefits."
+			"**Benefit:** When you use {rule/esoteric material components} as part of casting a spell, you gain a +2 bonus on {rule/concentration} checks to cast that spell, and the spell is treated as though its caster level were 2 higher against attempts to {spell/dispel} it. This increase is in addition to any increases due to greater component or limited magic benefits."
 		]
 	},
 	"untwisting_iron_skin": {

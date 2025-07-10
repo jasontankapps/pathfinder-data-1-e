@@ -1463,7 +1463,7 @@
 			"",
 			"You deconstruct a spell into its constituent glyphs, storing them to replenish your crystalline dust.  ",
 			"**Prerequisites:** {feat/Improved Counterspell}, {race/aphorite}, crystalline dust racial trait.  ",
-			"**Benefit:** Once per day when you successfully {rule/counterspell>s} or {spell/dispel>_magic} a spell, you can instead deconstruct the spell to regain a number of rounds of your crystalline dust racial trait equal to half the level of the spell. You can't use this feat to gain more than your maximum number of rounds of your crystalline dust racial trait."
+			"**Benefit:** Once per day when you successfully {rule/counterspell>s} or {spell/dispel} a spell, you can instead deconstruct the spell to regain a number of rounds of your crystalline dust racial trait equal to half the level of the spell. You can't use this feat to gain more than your maximum number of rounds of your crystalline dust racial trait."
 		]
 	},
 	"decoys_misdirection": {
@@ -2988,7 +2988,7 @@
 			"",
 			"By tearing away an opponent's magical defenses, you leave your enemy vulnerable, making it difficult for him to resist your spells.  ",
 			"**Prerequisites:** Spellcraft 5 ranks.  ",
-			"**Benefit:** If you successfully {spell/dispel>_magic} an ongoing magical effect on an opponent, that opponent takes a -2 penalty on saving throws against your spells until the end of your next turn."
+			"**Benefit:** If you successfully {spell/dispel} an ongoing magical effect on an opponent, that opponent takes a -2 penalty on saving throws against your spells until the end of your next turn."
 		]
 	},
 	"dispelling_blood": {
