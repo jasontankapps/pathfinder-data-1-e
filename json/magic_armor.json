@@ -224,7 +224,7 @@
 			"**Aura** no aura (nonmagical); **CL**  ",
 			"**Slot** armor; **Price** 3,300 gp; **Weight** 50 lbs.",
 			"",
-			"This suit of {eq-armor/full plate} is made of {eq-material/dragonhide}, rather than metal, so druids can wear it. It is otherwise identical to {rule/masterwork>_armor} full plate.",
+			"This suit of {eq-armor/full plate} is made of {eq-material/dragonhide}, rather than metal, so druids can wear it. It is otherwise identical to {rule/masterwork>_a} full plate.",
 			"",
 			"The wearer of dragonhide plate tends to draw the ire of dragons of the same type as that used in the armor's creation."
 		]
@@ -1113,7 +1113,7 @@
 			"",
 			"A suit of gnome scrap armor protects its wearer as +2 {eq-armor/studded leather} armor, but myriad metal trinkets festoon it in place of studs. A number of these badges bear a special dweomer; each such badge can be removed as a move action, at which point it turns into a full-sized version of the trinket. The wearer automatically recognizes which badges have this property, and only the wearer can detach them.",
 			"",
-			"A fully stocked suit of gnome scrap armor holds 20 badges representing the following gear: a flask of {eq-weapon/acid}, two flasks of {eq-weapon/alchemist's fire}, a {eq-misc/block and tackle}, a buckler, a {eq-misc/crowbar}, a {eq-weapon/heavy pick}, a folded {eq-weapon/net}, a potion of {spell/invisibility}, a potion of {spell/lesser restoration}, a {eq-misc/shovel}, two lit {eq-misc/sunrod/s}, two {eq-weapon/tanglefoot bag/s}, a {eq-weapon/throwing axe}, a {eq-weapon/thunderstone}, a {eq-weapon/warhammer}, a {eq-misc/bottle of fine wine}, and a {eq-misc/winter |blanket}. When the armor has 10 or fewer badges remaining, it is reduced to +1 studded leather armor until sufficient badges are returned. If all the patches are removed, the armor becomes nonmagical {rule/masterwork>_armor} studded leather armor.",
+			"A fully stocked suit of gnome scrap armor holds 20 badges representing the following gear: a flask of {eq-weapon/acid}, two flasks of {eq-weapon/alchemist's fire}, a {eq-misc/block and tackle}, a buckler, a {eq-misc/crowbar}, a {eq-weapon/heavy pick}, a folded {eq-weapon/net}, a potion of {spell/invisibility}, a potion of {spell/lesser restoration}, a {eq-misc/shovel}, two lit {eq-misc/sunrod/s}, two {eq-weapon/tanglefoot bag/s}, a {eq-weapon/throwing axe}, a {eq-weapon/thunderstone}, a {eq-weapon/warhammer}, a {eq-misc/bottle of fine wine}, and a {eq-misc/winter |blanket}. When the armor has 10 or fewer badges remaining, it is reduced to +1 studded leather armor until sufficient badges are returned. If all the patches are removed, the armor becomes nonmagical {rule/masterwork>_a} studded leather armor.",
 			"",
 			"While the armor retains any magic, the wearer can return badges to the armor by casting *shrink item* on the appropriate object while wearing the armor and touching the object to the armor. This can even convert appropriate potions into badges, despite *shrink item* not normally working on magic items. Only items exactly corresponding to missing badges can be merged with the armor. Merging a potion reduces the potion's caster level to the minimum caster level for that spell. Items produced by gnome scrap armor match the size of the armor, so the typical {race/gnome}-sized version of the suit produces items sized for Small creatures.",
 			"",

@@ -1172,7 +1172,7 @@
 			"- [spiked light shield](eq-armorenh/shield_spikes)",
 			"- {eq-weapon/tekko-kagi}",
 			"- {eq-weapon/tonfa}",
-			"- [unarmed strike](rule/attack)",
+			"- {rule/unarmed strike}",
 			"- {eq-armor/war-shield, dwarven}",
 			"- {eq-weapon/waveblade}",
 			"- {eq-weapon/wooden stake}",
@@ -1303,13 +1303,13 @@
 			"- {eq-weapon/tonfa}",
 			"- {eq-weapon/traveling kettle}",
 			"- {eq-weapon/tri-point double-edged sword}",
-			"- [unarmed strike](rule/attack)",
+			"- {rule/unarmed strike}",
 			"- {eq-weapon/urumi}",
 			"- {eq-weapon/wushu dart}",
 			"",
 			"::h3[Natural]{jl}",
 			"",
-			"- [unarmed strike](rule/attack)",
+			"- {rule/unarmed strike}",
 			"- all natural attacks (claw, bite, gore, etc.)",
 			"",
 			"::h3[Polearms]{jl}",
@@ -1418,7 +1418,7 @@
 			"- {eq-weapon/shortspear}",
 			"- {eq-weapon/spear}",
 			"- {eq-weapon/throwing axe}",
-			"- [unarmed strike](rule/attack)"
+			"- {rule/unarmed strike}"
 		],
 		"topLink": [ "Fighter", "class/fighter" ]
 	},

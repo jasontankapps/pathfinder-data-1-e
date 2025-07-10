@@ -919,6 +919,7 @@
 			"Sometimes referred to as a \"misery whip,\" this long blade (between 4 and 12 feet) is lined with numerous metal teeth. Thick handholds at each end of the blade allow a Medium or larger creature to grip one end with both hands. When a creature pulls on a handle (a move action) with another creature on the opposite side ready to pull after, those wielders can use the duo saw to cut through an object at exceptional speeds. This maneuver deals 10 points of damage per round of sawing to an object, ignoring up to 5 points of hardness on any nonmetallic substance. These saws are typically employed in the felling of large trees."
 		]
 	},
+	"two_person_saw": { "redirect": "duo_saw" },
 	"dusk_lantern": {
 		"name": "Dusk lantern",
 		"sources": [
@@ -3595,7 +3596,7 @@
 			"**Price** 500 gp; **Weight** 8 lbs.  ",
 			"**Category** Kits",
 			"",
-			"This small, latched wooden case contains numerous tools and devices used in hunting and slaying vampires. It contains 10 cloves of garlic, four {rule/masterwork>_weapons} {eq-weapon/wooden stake/s}, a {eq-misc/hammer}, a silvered {eq-misc/mirror}, 4 vials of {eq-weapon/holy water}, 1 application of {magic-wondrous/silversheen}, and a {eq-misc/masterwork |holy symbol}. It also contains numerous regents and powders used for treating wounds and making wards, salves, and other concoctions. In addition to its general usefulness, when displayed, a vampire slayer's kit grants its owner a +2 bonus on all Charisma-based skill checks made to investigate or seek out vampires."
+			"This small, latched wooden case contains numerous tools and devices used in hunting and slaying vampires. It contains 10 cloves of garlic, four {rule/masterwork>_w} {eq-weapon/wooden stake/s}, a {eq-misc/hammer}, a silvered {eq-misc/mirror}, 4 vials of {eq-weapon/holy water}, 1 application of {magic-wondrous/silversheen}, and a {eq-misc/masterwork |holy symbol}. It also contains numerous regents and powders used for treating wounds and making wards, salves, and other concoctions. In addition to its general usefulness, when displayed, a vampire slayer's kit grants its owner a +2 bonus on all Charisma-based skill checks made to investigate or seek out vampires."
 		]
 	},
 	"vapors_of_easy_breath": {
@@ -4376,9 +4377,9 @@
 			"",
 			"This equipment package is appropriate for any lightly-armored combatant in the wild, such as a barbarian, hunter, or ranger. If the PC can cast spells, add a spell component pouch and holly and mistletoe. The GM might consider altering which weapon is masterwork, based on the PC's specialization. For example, an archery-focused ranger might prefer a masterwork composite longbow over a masterwork greataxe.",
 			"",
-			"**Armor:** {eq-armor/Light wooden quickdraw shield}, {rule/masterwork>_armor} {eq-armor/studded leather armor}.",
+			"**Armor:** {eq-armor/Light wooden quickdraw shield}, {rule/masterwork>_a} {eq-armor/studded leather armor}.",
 			"",
-			"**Weapons:** {eq-material/Cold iron} {eq-weapon/flail}, {eq-weapon/composite longbow} with 20 arrows, {rule/masterwork>_weapons} {eq-weapon/greataxe}, {eq-weapon/short sword}.",
+			"**Weapons:** {eq-material/Cold iron} {eq-weapon/flail}, {eq-weapon/composite longbow} with 20 arrows, {rule/masterwork>_w} {eq-weapon/greataxe}, {eq-weapon/short sword}.",
 			"",
 			"**Combat Gear:** {eq-weapon/Alchemist's fire} (2), {eq-misc/antitoxin}, potion of {spell/keen senses}, {eq-misc/sunrod/s} (3).",
 			"",

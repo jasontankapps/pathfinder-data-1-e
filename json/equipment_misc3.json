@@ -2151,7 +2151,7 @@
 			"",
 			"Skulking through a city or a dungeon, the shadowy stalker is equipped to strike quickly and fade away. This equipment package is appropriate for stealthy characters such as rangers, rogues, and slayers, and for some bards and investigators. If the PC can cast spells, add a spell component pouch.",
 			"",
-			"**Armor:** {rule/Masterwork>_armor} {eq-armor/leather armor}.",
+			"**Armor:** {rule/masterwork>_a} {eq-armor/leather armor}.",
 			"",
 			"**Weapons:** {eq-weapon/Dagger/s} (3), {rule/masterwork/>_weapons} {eq-weapon/sickle}, {eq-weapon/sap}.",
 			"",

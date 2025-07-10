@@ -335,7 +335,7 @@
 			"",
 			"**Environment** any (Hagreach)  ",
 			"**Organization** solitary or patrol (2-8)  ",
-			"**Treasure** NPC gear ({rule/masterwork>_armor} {eq-armor/leather armor}, +1 {eq-weapon/composite longbow}, 20 {eq-weapon/arrow/s}, 20 {eq-material/cold iron} arrows, 5 +1 {magic-enh/flaming} arrows, {rule/masterwork>_weapons} {eq-weapon/battleaxe}, potions of {spell/cure moderate wounds} (2), acid [4], alchemist's fire [4], {magic-wondrous/cloak of resistance +1}, {eq-misc/cold weather>_outfit} survival gear, other treasure)",
+			"**Treasure** NPC gear ({rule/masterwork>_a} {eq-armor/leather armor}, +1 {eq-weapon/composite longbow}, 20 {eq-weapon/arrow/s}, 20 {eq-material/cold iron} arrows, 5 +1 {magic-enh/flaming} arrows, {rule/masterwork>_w} {eq-weapon/battleaxe}, potions of {spell/cure moderate wounds} (2), acid [4], alchemist's fire [4], {magic-wondrous/cloak of resistance +1}, {eq-misc/cold weather>_outfit} survival gear, other treasure)",
 			"",
 			"::sh[Description]",
 			"",

@@ -437,6 +437,7 @@
 			"masterwork_weapons"
 		]
 	},
+	"masterwork_w": { "redirect": "masterwork_weapons" },
 	"armor": {
 		"name": "Armor",
 		"tags": "sleeping in armor, maximum dex bonus, shields, armor check penalty, Arcane Spell Failure Chance, armor proficiency",
@@ -522,6 +523,7 @@
 			"getting_into_and_out_of_armor"
 		]
 	},
+	"masterwork_a": { "redirect": "masterwork_armor" },
 	"armor_for_unusual_creatures": {
 		"name": "Armor for Unusual Creatures",
 		"sources": [ "PRPG Core Rulebook" ],

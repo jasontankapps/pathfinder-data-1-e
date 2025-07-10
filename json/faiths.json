@@ -799,7 +799,7 @@
 			"**Areas of Concern** Battle, honor, martial arts  ",
 			"**Domains** {domain/Evil}, {domain/Glory}, {domain/Law}, {domain/War}  ",
 			"**Subdomains** {domain/Blood}, {domain/Fear}, {domain/Honor}, {domain/Tactics}  ",
-			"**Favored Weapon** [Unarmed strike](rule/attack)",
+			"**Favored Weapon** {rule/Unarmed strike}",
 			"",
 			"::hl2[feat/Fiendish Obedience]{jl}",
 			"",

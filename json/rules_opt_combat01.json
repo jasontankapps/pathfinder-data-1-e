@@ -1255,7 +1255,7 @@
 		"subtopics": [
 			"the_basics",
 			"two_weapon_fighting_pu",
-			"natural_attacks",
+			"natural_attacks_pu",
 			"special_cases",
 			"variant_mobile_melee"
 		],
@@ -1312,12 +1312,12 @@
 		],
 		"subtopics": [
 			"attacking_multiple_targets",
-			"critical_hits"
+			"critical_hits_pu"
 		],
 		"siblings": [
 			"the_basics",
 			"two_weapon_fighting_pu",
-			"natural_attacks",
+			"natural_attacks_pu",
 			"special_cases",
 			"variant_mobile_melee"
 		]
@@ -1338,10 +1338,10 @@
 		],
 		"siblings": [
 			"attacking_multiple_targets",
-			"critical_hits"
+			"critical_hits_pu"
 		]
 	},
-	"critical_hits": {
+	"critical_hits_pu": {
 		"name": "Critical Hits",
 		"subtitle": "Removing Iterative Attacks",
 		"sources": [ "Pathfinder Unchained" ],
@@ -1357,7 +1357,7 @@
 		],
 		"siblings": [
 			"attacking_multiple_targets",
-			"critical_hits"
+			"critical_hits_pu"
 		]
 	},
 	"two_weapon_fighting_pu": {
@@ -1378,12 +1378,12 @@
 		"siblings": [
 			"the_basics",
 			"two_weapon_fighting_pu",
-			"natural_attacks",
+			"natural_attacks_pu",
 			"special_cases",
 			"variant_mobile_melee"
 		]
 	},
-	"natural_attacks": {
+	"natural_attacks_pu": {
 		"name": "Natural Attacks",
 		"subtitle": "Removing Iterative Attacks",
 		"sources": [ "Pathfinder Unchained" ],
@@ -1401,7 +1401,7 @@
 		"siblings": [
 			"the_basics",
 			"two_weapon_fighting_pu",
-			"natural_attacks",
+			"natural_attacks_pu",
 			"special_cases",
 			"variant_mobile_melee"
 		]
@@ -1434,7 +1434,7 @@
 		"siblings": [
 			"the_basics",
 			"two_weapon_fighting_pu",
-			"natural_attacks",
+			"natural_attacks_pu",
 			"special_cases",
 			"variant_mobile_melee"
 		]
@@ -1459,7 +1459,7 @@
 		"siblings": [
 			"the_basics",
 			"two_weapon_fighting_pu",
-			"natural_attacks",
+			"natural_attacks_pu",
 			"special_cases",
 			"variant_mobile_melee"
 		]
