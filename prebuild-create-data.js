@@ -18,6 +18,7 @@ const $ = {
 	errorCount: 0,
 	savedCount: 0,
 	parsedCount: 0,
+	unsavedCount: 0,
 	limit: false
 };
 const footnoteNames = "ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890!@&%#;?_=+~".split('');
@@ -1135,11 +1136,13 @@ Object.entries(all_usable_groups).forEach((pairing, groupindex) => {
 	if(testfile === theOutput) {
 		//console.log(`UNCHANGED: ${filename} (${groupindex + 1} of ${number_of_groups})`);
 		//return;
-		const x = groupindex + 1;
-		if(Math.floor(x/25) === (x/25)) {
-			console.log(`... (passing ${x} of ${number_of_groups})`);
+		$.unsavedCount++;
+		if($.unsavedCount === 25) {
+			console.log(`... (passing ${groupindex + 1} of ${number_of_groups})`);
+			$.unsavedCount = 0;
 		}
 	} else {
+		$.unsavedCount = 0;
 		// Write that file
 		fs.writeFileSync(filename, theOutput);
 		// Announce success
