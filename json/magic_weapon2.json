@@ -4100,7 +4100,7 @@
 			"**Int** 12, **Wis** 5 (originally 14), **Cha** 16  ",
 			"**Communication** speech (Dwarven, Undercommon)  ",
 			"**Powers** Knowledge (dungeoneering) +14 (10 ranks), dispel magic 1/day, invisibility purge 1/day  ",
-			"**Special Purpose** defeat dwarves (Norgir's Ruin can detect dwarves within 60 ft., and can cast earthquake once per day in any area that includes structures built by dwarves)"
+			"**{rule/Special Purpose>_items}** defeat dwarves (Norgir's Ruin can detect dwarves within 60 ft., and can cast earthquake once per day in any area that includes structures built by dwarves)"
 		]
 	},
 	"skullduster": {

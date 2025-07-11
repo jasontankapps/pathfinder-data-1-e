@@ -182,7 +182,7 @@
 			"**Communication** read languages, speech (Azlanti, Elven, Thassilonian)  ",
 			"**Powers** {spell/detect thoughts} 3/day, {spell/modify memory} 1/day  ",
 			"**Dedicated Powers** consume magic (see above)  ",
-			"**Special Purpose** defeat arcane spellcasters"
+			"**{rule/Special Purpose>_items}** defeat arcane spellcasters"
 		]
 	},
 	"bellwether_brooch": {
@@ -1449,7 +1449,7 @@
 			"**Communication** empathy  ",
 			"**Powers** {spell/bestow curse} 3/day (DC 19), {spell/spell immunity} 1/day (CL 17th)  ",
 			"**Dedicated Powers** wielder gains fire immunity and the ability to cast {spell/repulsion} 1/day (CL 17th)  ",
-			"**Special Purpose** defend the servants and interests of Asmodeus"
+			"**{rule/Special Purpose>_items}** defend the servants and interests of Asmodeus"
 		]
 	},
 	"invidian_eye": {
@@ -1570,7 +1570,7 @@
 			"**Communication** read languages, speak, telepathy (Ignan, Thassilonian)  ",
 			"**Powers** {spell/cure moderate wounds} on wielder 3/day, {spell/faerie fire} 3/day, {spell/major image} (DC 16) 1/day  ",
 			"**Dedicated Powers** {spell/fireball} (CL 17th; DC 16)  ",
-			"**Special Purpose** defeat non-spellcasters"
+			"**{rule/Special Purpose>_items}** defeat non-spellcasters"
 		]
 	},
 	"lamentation_of_the_faithless": {

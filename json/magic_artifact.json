@@ -1649,7 +1649,7 @@
 			"**Senses** 60 ft., darkvision  ",
 			"**Int** 10, **Wis** 12, **Cha** 14  ",
 			"**Communication** telepathy  ",
-			"**Special Purpose** slay all  ",
+			"**{rule/Special Purpose>_items}** slay all  ",
 			"**Spell-Like Abilities** (CL 20th, concentration +22)  ",
 			"3/day-{spell/alter self}, {spell/darkness}, {spell/spider climb}, {spell/true strike};  ",
 			"1/day-{spell/clairaudience//clairvoyance}, {spell/deeper darkness}, {spell/dimension door}, {spell/greater invisibility}"
@@ -2030,7 +2030,7 @@
 			"**Int** 11, **Wis** 12, **Cha** 15  ",
 			"**Communication** empathy  ",
 			"**Dedicated Powers** wielder gains {spell/freedom of movement} and {spell/dispel magic} (CL 20th) against opposing attacks and effects (the *dispel magic* power attempts to dispel any offensive effect only once and only as it first takes effect on the sword's wielder)  ",
-			"**Special Purpose** defeat/slay all  ",
+			"**{rule/Special Purpose>_items}** defeat/slay all  ",
 			"**Spell-Like Abilities** (CL 17th, concentration +19)  ",
 			"3/day - {spell/aid}  ",
 			"1/day - {spell/modify memory}"
