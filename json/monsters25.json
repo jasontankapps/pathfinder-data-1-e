@@ -1708,7 +1708,7 @@
 			"",
 			"**Fire Healing (Ex)** A magical attack that deals fire damage heals the wickerman 1 point of damage for every 3 points of damage the attack would otherwise deal.",
 			"",
-			"**Wicker Cage (Su)** If a wickerman successfully grapples a creature, as a move action it can shove the grabbed creature into the cage built into its chest. This works like swallow whole (4d6 fire damage plus the target automatically [catches on fire](rule/catching_on_fire)), AC 17, 15 hp). The DC to put out this fire is 17. If a creature cuts its way free, the wickerman can't use this ability again until it is fully healed. The save DC is Constitution-based.",
+			"**Wicker Cage (Su)** If a wickerman successfully grapples a creature, as a move action it can shove the grabbed creature into the cage built into its chest. This works like swallow whole (4d6 fire damage plus the target automatically {rule/catch[es] on fire}), AC 17, 15 hp). The DC to put out this fire is 17. If a creature cuts its way free, the wickerman can't use this ability again until it is fully healed. The save DC is Constitution-based.",
 			"",
 			"::sh[Description]",
 			"",

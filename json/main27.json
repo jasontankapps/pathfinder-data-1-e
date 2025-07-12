@@ -29,7 +29,6 @@
 					[ "{magic-weapon/Tracer Bullet}", 100, 0, null, [ 1, "&mdash;" ], [ 1, "&mdash;" ] ],
 					[ "{magic-weapon/Sleep Arrow}", 132, 0.1, null, [ 1, "&mdash;" ], [ 1, "&mdash;" ] ],
 					[ "{magic-weapon/Dwindling Bullet}", 166, 0, null, [ 1, "&mdash;" ], [ 1, "&mdash;" ] ],
-					[ "{magic-weapon/Blade of Life's Defense}", 170, 6, null, [ 1, "&mdash;" ], [ 1, "&mdash;" ] ],
 					[ "{magic-weapon/Mage Shot (Acid)}", 178, 0, null, [ 1, "&mdash;" ], [ 1, "&mdash;" ] ],
 					[ "{magic-weapon/Mage Shot (Cold)}", 178, 0, null, [ 1, "&mdash;" ], [ 1, "&mdash;" ] ],
 					[ "{magic-weapon/Mage Shot (Electricity)}", 178, 0, null, [ 1, "&mdash;" ], [ 1, "&mdash;" ] ],
@@ -2468,7 +2467,8 @@
 		"description": [
 			":::item",
 			"",
-			"Adding an enhancement to armor, shields, and weapons raises the base price of the [armor, shield](rule/magic_armor), or [weapon](rule/magic_weapons) being enhanced. This is either equivalent to a standard +1 (or other) bonus, or it's a fixed amount of gold.",
+			"Adding an enhancement to armor, shields, and weapons raises the base price of the {rule/magic_<armor,/ shield}, or {rule/magic_<weapon>s} being enhanced. This is either equivalent to a standard +1 (or other) bonus, or it's a fixed amount of gold.",
+
 			"",
 			":::",
 			"",

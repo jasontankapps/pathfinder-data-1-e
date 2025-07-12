@@ -1540,7 +1540,7 @@
 			"| &mdash; | &mdash; | &mdash; | +8[^J] | 128,000 gp |",
 			"| &mdash; | &mdash; | &mdash; | +9[^J] | 162,000 gp |",
 			"| &mdash; | &mdash; | &mdash; | +10[^J] | 200,000 gp |",
-			"| 86-90 | 63-68 | 50-63 | [Specific weapon](rule/magic_weapons) | &mdash; |",
+			"| 86-90 | 63-68 | 50-63 | {rule/magic<Specific| weapon>s} | &mdash; |",
 			"| 91-100 | 69-100 | 64-100 | Special ability and roll again[^K] | &mdash; |",
 			"",
 			"### Table 5-17: Magic Melee Weapon Special Abilities",

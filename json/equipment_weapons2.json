@@ -2947,6 +2947,7 @@
 		],
 		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
 	},
+	"sling_staff": { "redirect": "halfling_sling_staff" },
 	"halfling_stitched_sling": {
 		"name": "Halfling stitched sling",
 		"sources": [ "Halflings of Golarion" ],
@@ -2954,7 +2955,7 @@
 			"## Halfling stitched sling",
 			"{SOURCE Halflings of Golarion/22}",
 			"",
-			"Technically not a unique kind of weapon, a stitched sling is a {eq-weapon/sling}, {eq-weapon/halfling_<sling staff}, or {eq-weapon/halfling_<double sling} whose cup is sewn closed around the ammunition, creating a weak sort of {eq-weapon/light flail}. The ammunition sewn into the sling is irrelevant to the type and amount of damage it causes. A stitched sling cannot be used to fire ammunition unless the thread or cord holding the cup closed is cut open (a full-round action that provokes attacks of opportunity).",
+			"Technically not a unique kind of weapon, a stitched sling is a {eq-weapon/sling}, {eq-weapon/sling staff}, or {eq-weapon/double sling} whose cup is sewn closed around the ammunition, creating a weak sort of {eq-weapon/light flail}. The ammunition sewn into the sling is irrelevant to the type and amount of damage it causes. A stitched sling cannot be used to fire ammunition unless the thread or cord holding the cup closed is cut open (a full-round action that provokes attacks of opportunity).",
 			"",
 			"**Cost** - **Weight** 1 lb.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** {misc/disarm}, {misc/trip}  ",

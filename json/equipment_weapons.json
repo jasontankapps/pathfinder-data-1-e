@@ -1991,7 +1991,7 @@
 			"## Barbed arrow",
 			"{SOURCE Ranged Tactics Toolbox/19}",
 			"",
-			"The head of a barbed arrow resembles that of a {eq-weapon/harpoon}. When a barbed arrow is attached to a length of silk rope and fired from a bow, the arrow's range increment is reduced to 30 feet, but it gains the {misc/grapple} special weapon quality. Barbed bolts exist for crossbows.",
+			"The head of a barbed arrow resembles that of a {eq-weapon/harpoon}. When a barbed arrow is attached to a length of silk rope and fired from a bow, the arrow's range increment is reduced to 30 feet, but it gains the {misc/grapple} special weapon quality. Barbed {eq-weapon/bolt/s} exist for crossbows.",
 			"",
 			"**Cost** 0.1 gp **Weight** 0.15 lbs.  ",
 			"**Category** Ammunition; **Proficiency** Ammunition",
@@ -4323,5 +4323,24 @@
 			"**{ability/Weapon Group>s}** Blades, Heavy"
 		],
 		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
+	},
+	"blade_of_lifes_defense": {
+		"name": "Blade of Life's Defense",
+		"sources": [
+			"Merchant's Manifest",
+			"Ultimate Equipment"
+		],
+		"description": [
+			"## Blade of Life's Defense",
+			"{SOURCE Merchant's Manifest/7;Ultimate Equipment/20}",
+			"",
+			"This {eq-weapon/khopesh} has a silver blade polished to an almost blinding sheen and etched with motifs of vines and leaves. Blades of life's defense can be bought in Anuli's Sword Alley, and are becoming more popular as rumblings of an open war with Geb continue to grow ever louder. Each blade is imbued with a shimmer of nonmagical might against undead that grants the blade's bearer a +1 sacred bonus on saving throws against the abilities of undead. It is otherwise treated as a standard khopesh.",
+			"",
+			"**Cost** 170 gp **Weight** 6 lbs.  ",
+			"**Damage** 1d6 (small), 1d8 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** S; **Special** {misc/trip}  ",
+			"**Category** One-Handed; **Proficiency** Exotic  ",
+			"**{ability/Weapon Group>s}** Blades, Heavy"
+		],
+		"topLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
 	}
 }

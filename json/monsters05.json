@@ -2541,7 +2541,7 @@
 			"",
 			"**Integrated Dogslicer (Ex)** One of a clockwork goblin's arms ends in an integrated dogslicer. This weapon cannot be disarmed, sundered, or removed. Some models of clockwork goblin sport an integrated horsechopper instead.",
 			"",
-			"**Searing Eyebeam (Su)** Once every 1d4 rounds, as a free action, a clockwork goblin can unleash a fiery beam from its eyes at a target within 20 feet as a ranged touch attack. This beam deals 2d6 points of fire damage, and a creature struck must succeed at a DC 14 Reflex save or [catch on fire](rule/catching_on_fire). The save DC is Constitution-based.",
+			"**Searing Eyebeam (Su)** Once every 1d4 rounds, as a free action, a clockwork goblin can unleash a fiery beam from its eyes at a target within 20 feet as a ranged touch attack. This beam deals 2d6 points of fire damage, and a creature struck must succeed at a DC 14 Reflex save or {rule/catch on fire}. The save DC is Constitution-based.",
 			"",
 			"**Unstable Construction (Ex)** Due to its shoddy and slapdash construction, a clockwork goblin stays wound for only 12 hours per winding. In addition, when a clockwork goblin's hit points are reduced to 0, the creature bursts into an explosion of shrapnel and flames that deals 1d6 points of slashing damage plus 2d6 points of fire damage to creatures within 5 feet. A target that succeeds at a DC 14 Reflex save takes half the damage. This save is Constitution-based.",
 			"",
