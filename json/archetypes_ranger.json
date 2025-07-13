@@ -142,7 +142,7 @@
 			"",
 			"This ability replaces favored terrain.",
 			"",
-			"**Focused Fire (Ex):** At 6th level, the bow nomad must select the Manyshot feat as her 6th-level combat style feat. In addition to the normal benefit of Manyshot, the bow nomad can specify the bow in her off hands as the source of the second arrow (precision damage and critical damage are still only added once). The bow nomad takes no two-weapon penalties when using this ability, but she cannot use it and Two-Weapon Fighting in the same round. The nomad can still choose to use Manyshot in the normal manner.",
+			"**Focused Fire (Ex):** At 6th level, the bow nomad must select the Manyshot feat as her 6th-level combat style feat. In addition to the normal benefit of Manyshot, the bow nomad can specify the bow in her off hands as the source of the second arrow ({misc/precision damage} and critical damage are still only added once). The bow nomad takes no two-weapon penalties when using this ability, but she cannot use it and Two-Weapon Fighting in the same round. The nomad can still choose to use Manyshot in the normal manner.",
 			"",
 			"At 11th and 16th level, the bow nomad can apply this ability to each of her iterative attacks. This ability alters the 6th-level combat style feat and replaces camouflage and hide in plain sight."
 		]
@@ -914,7 +914,7 @@
 			"",
 			"**Astral Plane:** Each day, the planar scout can teleport up to 5 feet per ranger level as a move action. This must be used in 5-foot increments. At 10th level, he can do so as a swift action.",
 			"",
-			"**Ethereal Plane:** The planar scout can damage incorporeal creatures with mundane weapons as if they were {magic-enh/ghost touch} weapons, and at 10th level, he can inflict critical hits and deal precision damage to incorporeal creatures.",
+			"**Ethereal Plane:** The planar scout can damage incorporeal creatures with mundane weapons as if they were {magic-enh/ghost touch} weapons, and at 10th level, he can inflict critical hits and deal {misc/precision damage} to incorporeal creatures.",
 			"",
 			"**First World:** As a swift action a number of times per day equal to his Wisdom modifier, a planar scout can gain {umr/fast healing} 2 for a number of rounds equal to his ranger level.",
 			"",
@@ -1287,7 +1287,7 @@
 			"",
 			"This replaces swift tracker.",
 			"",
-			"**Invincible (Su):** At 17th level, a summit sentinel takes on the unyielding hardness of the mountains. While in her roots of the mountain defensive stance, she is immune to critical hits and precision damage.",
+			"**Invincible (Su):** At 17th level, a summit sentinel takes on the unyielding hardness of the mountains. While in her roots of the mountain defensive stance, she is immune to critical hits and {misc/precision damage}.",
 			"",
 			"This replaces hide in plain sight."
 		]

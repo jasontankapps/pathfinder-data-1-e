@@ -2308,7 +2308,7 @@
 			"",
 			"You strike at your enemies with both weapons simultaneously.  ",
 			"**Prerequisites:** Dex 15; {feat/Quick Draw}; {feat/Twin Fang Style}; {feat/Two-Weapon Fighting}; Acrobatics 6 ranks; base attack bonus +6 or monk level 6th.  ",
-			"**Benefit:** While using Twin Fang Style, when you take an {rule/attack} action while wielding two {eq-weapon/dagger/s} or two {eq-weapon/kama}, you can strike with both your primary and off-hand weapons. If you do so, both attacks take a -4 penalty and you apply precision damage and effects that occur when you hit only once, even if you hit with both attacks."
+			"**Benefit:** While using Twin Fang Style, when you take an {rule/attack} action while wielding two {eq-weapon/dagger/s} or two {eq-weapon/kama}, you can strike with both your primary and off-hand weapons. If you do so, both attacks take a -4 penalty and you apply {misc/precision damage} and effects that occur when you hit only once, even if you hit with both attacks."
 		]
 	},
 	"twin_fang_style": {

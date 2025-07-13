@@ -524,7 +524,7 @@
 			"",
 			"You can use a creature's diseased state against it.  ",
 			"**Prerequisites:** Base attack bonus +3.  ",
-			"**Benefit:** When you hit a diseased creature with a weapon attack, you deal an additional 1d6 points of damage. This is precision damage. Additionally, you gain a +2 bonus on combat maneuver checks against diseased creatures."
+			"**Benefit:** When you hit a diseased creature with a weapon attack, you deal an additional 1d6 points of damage. This is {misc/precision damage}. Additionally, you gain a +2 bonus on combat maneuver checks against diseased creatures."
 		]
 	},
 	"rebounding_leap": {
@@ -958,7 +958,7 @@
 			"",
 			"Your claw attacks do greater harm to your enemy.  ",
 			"**Prerequisites:** Str 13, two claw natural weapon attacks, base attack bonus +6.  ",
-			"**Benefit:** If you hit a creature with two claw attacks in the same turn, the second claw attack deals an additional 1d6 points of damage. This damage is precision damage and is not multiplied on a critical hit. You can use this feat once per round.",
+			"**Benefit:** If you hit a creature with two claw attacks in the same turn, the second claw attack deals an additional 1d6 points of damage. This damage is {misc/precision damage} and is not multiplied on a critical hit. You can use this feat once per round.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/130}",
@@ -2210,7 +2210,7 @@
 			"",
 			"With your victory and a roar, you push yourself on with increased savagery.  ",
 			"**Prerequisites:** {feat/Dazzling Display}.  ",
-			"**Benefit:** When you spend a swift action to make a {rule/performance combat} check, you gain a +2 bonus on your performance combat check and gain a +1d6 bonus on damage rolls until the end of your next turn. This extra damage is not precision damage.",
+			"**Benefit:** When you spend a swift action to make a {rule/performance combat} check, you gain a +2 bonus on your performance combat check and gain a +1d6 bonus on damage rolls until the end of your next turn. This extra damage is not {misc/precision damage}.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/130}",
@@ -3246,7 +3246,7 @@
 			"",
 			"When bypassing a foe's defenses while feinting, you can deal devastating damage.  ",
 			"**Prerequisites:** {feat/Exotic Weapon Proficiency} (Aldori dueling sword), {feat/Weapon Focus} (Aldori dueling sword), base attack bonus +6.  ",
-			"**Benefit:** Once per round when you hit a foe you have successfully {rule/feint/ed} against via a melee attack using an {eq-weapon/Aldori dueling sword}, you deal an extra 2d6 points of precision damage. When your base attack bonus reaches +11, this damage bonus increases to +3d6, and at base attack bonus +16, it increases to +4d6. This precision damage does not stack with damage from {ability/sneak attack}, a vigilante's sudden strike, or similar effects. Any effect which protects against sneak attack damage also protects against this additional damage."
+			"**Benefit:** Once per round when you hit a foe you have successfully {rule/feint/ed} against via a melee attack using an {eq-weapon/Aldori dueling sword}, you deal an extra 2d6 points of {misc/precision damage}. When your base attack bonus reaches +11, this damage bonus increases to +3d6, and at base attack bonus +16, it increases to +4d6. This precision damage does not stack with damage from {ability/sneak attack}, a vigilante's sudden strike, or similar effects. Any effect which protects against sneak attack damage also protects against this additional damage."
 		]
 	},
 	"servant_in_the_house_of_truth": {

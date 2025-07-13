@@ -2652,7 +2652,7 @@
 			"::hl2[rule/Divine Gift>s]{jl}",
 			"",
 			">{SOURCE Planar Adventures/81}  ",
-			">The recipient can perform a 10-minute prayer (this can be part of her daily ritual to prepare spells) involving self-flagellation or other forms of self-inflicted pain to replace her body with a shadowy duplicate of her true form for 24 hours. During this time, the character exists as a strange, shadowy incarnation of her normal self, and is immune to precision damage and bleed, fear, negative energy, and pain effects, and she treats all piercing and slashing damage as nonlethal damage. The character is treated as undead for the purposes of determining the effects of damage or healing caused by negative or positive energy.",
+			">The recipient can perform a 10-minute prayer (this can be part of her daily ritual to prepare spells) involving self-flagellation or other forms of self-inflicted pain to replace her body with a shadowy duplicate of her true form for 24 hours. During this time, the character exists as a strange, shadowy incarnation of her normal self, and is immune to {misc/precision damage} and {rule/bleed}, fear, negative energy, and pain effects, and she treats all piercing and slashing damage as nonlethal damage. The character is treated as undead for the purposes of determining the effects of damage or healing caused by negative or positive energy.",
 			"",
 			"::hl2[feat/Deific Obedience]{jl}",
 			"",

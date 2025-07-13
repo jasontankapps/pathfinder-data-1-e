@@ -1439,7 +1439,7 @@
 			"| 10 | Vis | Once, during the next 24 hours, the character can reroll a single die roll he has just made and take the second result, as if using the good fortune ability from the {domain/Luck} domain. |",
 			"| 11 | Fyeh | The character gains 100 points of fire immunity, as if using {spell/protection from energy}. |",
 			"| 12 | Xal | The character gains the benefits of a {spell/heroism} spell for the next 200 minutes. |",
-			"| 13 | Yaq | For the next 24 hours, when the character hits a target he is {rule/flanking} with a melee weapon, the attack does +1d6 points of precision damage. |",
+			"| 13 | Yaq | For the next 24 hours, when the character hits a target he is {rule/flanking} with a melee weapon, the attack does +1d6 points of {misc/precision damage}. |",
 			"| 14 | Gib | Once in the next 24 hours, the character can cast {spell/faerie fire} (caster level equal to his character level). This ability is lost if the character rolls this result again with the knucklebone of fickle fortune before the 24 hours is concluded. |",
 			"| 15 | Xku | The character is immune to fear for the next 24 hours. |",
 			"| 16 | Lev | Once in the next 24 hours, the character can cast a {spell/lightning bolt} (caster level equal to his character level). This ability is lost if the character rolls this result again with the knucklebone of fickle fortune before the 24 hours is concluded. |",

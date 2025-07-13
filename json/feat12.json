@@ -193,7 +193,7 @@
 			"",
 			"Your deep strikes allow you to deliver poison efficiently when your opponent is off guard.  ",
 			"**Prerequisites:** {ability/Sneak attack} +2d6.  ",
-			"**Benefit:** When you hit an opponent with a poisoned weapon and would deal sneak attack damage, you can choose to forgo some or all of the sneak attack damage to increase the poison's chance of success. For every 2d6 points of sneak attack damage you forgo, add 1 to the saving throw DC of the poison delivered with your attack. This increase to the poison save DC does not apply to creatures that are immune to precision damage."
+			"**Benefit:** When you hit an opponent with a poisoned weapon and would deal sneak attack damage, you can choose to forgo some or all of the sneak attack damage to increase the poison's chance of success. For every 2d6 points of sneak attack damage you forgo, add 1 to the saving throw DC of the poison delivered with your attack. This increase to the poison save DC does not apply to creatures that are immune to {misc/precision damage}."
 		]
 	},
 	"persistent_spell": {
@@ -399,7 +399,7 @@
 			"",
 			"Your phantom remains partly immaterial even when fully manifested in ectoplasmic form.  ",
 			"**Prerequisites:** Phantom class feature, {sidekick/phantom} with the incorporeal flight ability.  ",
-			"**Benefit:** Your phantom has a 50% chance of ignoring critical hits and precision-based damage when fully manifested in its ectoplasmic form, as if wearing armor with the {magic-enh/moderate fortification} special ability. This doesn't stack with other similar effects, and doesn't apply against attacks made with {magic-enh/ghost touch} weapons or weapon-like constructs made of force (such as a {spell/clenched fist}, {spell/mage's sword}, or {spell/spiritual weapon})."
+			"**Benefit:** Your phantom has a 50% chance of ignoring critical hits and {misc/precision[-based] damage} when fully manifested in its ectoplasmic form, as if wearing armor with the {magic-enh/moderate fortification} special ability. This doesn't stack with other similar effects, and doesn't apply against attacks made with {magic-enh/ghost touch} weapons or weapon-like constructs made of force (such as a {spell/clenched fist}, {spell/mage's sword}, or {spell/spiritual weapon})."
 		]
 	},
 	"phase_strike": {
@@ -692,7 +692,7 @@
 			"",
 			">@HL[Air:] You gain a constant {spell/feather fall} effect. At 10th level, you instead gain a constant {spell/levitate} effect.",
 			">",
-			">@HL[Chaotic:] Your form shifts subtly, making it difficult for others to aim precise attacks against you. You gain a 25% chance to negate extra damage from critical hits and precision damage from attacks made against you (such as from {ability/sneak attack/s}). Only chaotic characters can use this planar focus.",
+			">@HL[Chaotic:] Your form shifts subtly, making it difficult for others to aim precise attacks against you. You gain a 25% chance to negate extra damage from critical hits and {misc/precision damage} from attacks made against you (such as from {ability/sneak attack/s}). Only chaotic characters can use this planar focus.",
 			">",
 			">@HL[Cold:] Creatures that attack you with natural attacks or melee weapons take 1d4 points of cold damage for every 2 class levels you possess.",
 			">",
@@ -795,7 +795,7 @@
 			"",
 			"**Improved:** You are never far from the comforts and safety of urban life. You can use {spell/secure shelter} once per day as a spell-like ability.",
 			"",
-			"**Greater:** You can transform yourself into a whirling cloud of glowing glyphs and symbols as a standard action. While in this form, you gain a fly speed of 60 feet with perfect maneuverability and can move through small cracks as per {spell/gaseous form} (but you are not prohibited from entering water). You gain DR 10/chaos and {umr/regeneration} 5/chaos and are immune to precision damage and critical hits while in glyph form. You can remain in this form for up to 1 minute per level each day, but these minutes need not be used consecutively.",
+			"**Greater:** You can transform yourself into a whirling cloud of glowing glyphs and symbols as a standard action. While in this form, you gain a fly speed of 60 feet with perfect maneuverability and can move through small cracks as per {spell/gaseous form} (but you are not prohibited from entering water). You gain DR 10/chaos and {umr/regeneration} 5/chaos and are immune to {misc/precision damage} and critical hits while in glyph form. You can remain in this form for up to 1 minute per level each day, but these minutes need not be used consecutively.",
 			"",
 			"::h4[Boneyard]{jl}",
 			"",
@@ -1784,7 +1784,7 @@
 			"",
 			"You are skilled at striking where it counts, as long as an ally distracts your foe.  ",
 			"**Prerequisites:** Dex 13, base attack bonus +1.  ",
-			"**Benefit:** Whenever you and an ally who also has this feat are {rule/flanking} the same the creature, you deal an additional 1d6 points of precision damage with each successful melee attack. This bonus damage stacks with other sources of precision damage, such as {ability/sneak attack}. This bonus damage is not multiplied on a critical hit.",
+			"**Benefit:** Whenever you and an ally who also has this feat are {rule/flanking} the same the creature, you deal an additional 1d6 points of {misc/precision damage} with each successful melee attack. This bonus damage stacks with other sources of precision damage, such as {ability/sneak attack}. This bonus damage is not multiplied on a critical hit.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/129}",

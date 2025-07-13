@@ -1261,7 +1261,7 @@
 		"name": "Two-Fanged Pounce",
 		"compilationSources": [ [ "Villain Codex" ] ],
 		"description": [
-			"If the barbarian is wielding a pair of {eq-weapon/dagger/s}, {eq-weapon/kukri/s}, or {eq-weapon/punching dagger/s}, she can attack once with each of the two weapons when she charges. If she does, she loses the bonus on attack rolls for charging and takes an additional -2 penalty to her AC, and she applies precision damage or effects that occur on a hit only once, even if she hits with both attacks."
+			"If the barbarian is wielding a pair of {eq-weapon/dagger/s}, {eq-weapon/kukri/s}, or {eq-weapon/punching dagger/s}, she can attack once with each of the two weapons when she charges. If she does, she loses the bonus on attack rolls for charging and takes an additional -2 penalty to her AC, and she applies {misc/precision damage} or effects that occur on a hit only once, even if she hits with both attacks."
 		]
 	},
 	"unexpected_strike": {

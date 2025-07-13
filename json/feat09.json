@@ -2850,7 +2850,7 @@
 			"",
 			"When you leap to the attack, your blows are like bolts from on high.  ",
 			"**Prerequisites:** {feat/Improved Unarmed Strike}, {feat/Janni Style}, {feat/Janni Tempest}, Acrobatics 8 ranks, Perform (dance) 8 ranks.  ",
-			"**Benefit:** While using Janni Style, you are always considered to have a running start when jumping. Further, if you jump as part of a {rule/charge} and make an unarmed strike against the designated opponent, a hit allows you to roll the unarmed strike's damage dice twice and add the results together before adding modifiers (such as from Strength) or extra dice (such as precision-based damage or dice from weapon abilities). The extra damage dice are not multiplied on a successful critical hit.",
+			"**Benefit:** While using Janni Style, you are always considered to have a running start when jumping. Further, if you jump as part of a {rule/charge} and make an unarmed strike against the designated opponent, a hit allows you to roll the unarmed strike's damage dice twice and add the results together before adding modifiers (such as from Strength) or extra dice (such as {misc/precision[-based] damage} or dice from weapon abilities). The extra damage dice are not multiplied on a successful critical hit.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/124}",
@@ -3022,7 +3022,7 @@
 			"",
 			"You can avoid a charge, leaving your opponent vulnerable to attacks by you or your allies.  ",
 			"**Prerequisites:** Dex 13, {feat/Dodge}, {feat/Mobility}, {feat/Sidestep}.  ",
-			"**Benefit:** When an opponent {rule/charge/s} you, you gain a +4 dodge bonus to your AC. If the charger's attack roll misses you and his movement ends while he is adjacent to you, you can switch places with the opponent as an immediate action, and he is considered to be {rule/flank/ed>ing} by you until the end of your next turn. You can't use the benefits of Juke if you {rule/ready an action} to set a weapon with the {misc/brace} special quality against a charging foe."
+			"**Benefit:** When an opponent {rule/charge/s} you, you gain a +4 dodge bonus to your AC. If the charger's attack roll misses you and his movement ends while he is adjacent to you, you can switch places with the opponent as an immediate action, and he is considered to be {rule/flanked} by you until the end of your next turn. You can't use the benefits of Juke if you {rule/ready an action} to set a weapon with the {misc/brace} special quality against a charging foe."
 		]
 	},
 	"jumper": {
@@ -3280,7 +3280,7 @@
 			"",
 			"Your intimate knowledge of anatomy, deep hatred of your own kind, and delight in spilling your people's blood make you a lethal combatant against your own race.  ",
 			"**Prerequisites:** Knowledge 3 ranks (see special), evil alignment.  ",
-			"**Benefit:** Your attacks deal an additional 1d6 points of precision damage against creatures that have the same creature type (and subtype, if applicable) as you. This bonus damage stacks with other sources of precision damage, such as {ability/sneak attack}. If you have more than one subtype, you must choose one of them - this feat applies only to targets of that subtype. Once made, this choice can't be changed.  ",
+			"**Benefit:** Your attacks deal an additional 1d6 points of {misc/precision damage} against creatures that have the same creature type (and subtype, if applicable) as you. This bonus damage stacks with other sources of precision damage, such as {ability/sneak attack}. If you have more than one subtype, you must choose one of them - this feat applies only to targets of that subtype. Once made, this choice can't be changed.  ",
 			"**Special:** The {skill/Knowledge} skill used to qualify for this feat must be appropriate for identifying creatures of your type."
 		]
 	},

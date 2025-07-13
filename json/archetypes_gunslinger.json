@@ -58,7 +58,7 @@
 			">",
 			">This deed replaces the {deed/gunslinger initiative} deed.",
 			">",
-			">**Cheap Shot (Ex):** At 3rd level, if the blatherskite has at least 1 grit point and makes a successful attack against an unarmed target with a firearm that is not making a scattering shot, he deals 1d6 additional points of damage. This is precision damage and is not multiplied on a critical hit.",
+			">**Cheap Shot (Ex):** At 3rd level, if the blatherskite has at least 1 grit point and makes a successful attack against an unarmed target with a firearm that is not making a scattering shot, he deals 1d6 additional points of damage. This is {misc/precision damage} and is not multiplied on a critical hit.",
 			">",
 			">This deed replaces the {deed/pistol-whip} deed.",
 			">",
@@ -312,7 +312,7 @@
 			">",
 			">**Staggering Shot (Ex):** At 15th level, when the gulch gunner hits an adjacent target with a ranged firearm attack, the target must also make a Fortitude save (DC 10 + 1/2 the gulch gunner's level + the gulch gunner's Wisdom modifier) or be staggered for 1d4 rounds. This deed replaces the {deed/menacing shot} deed.",
 			"",
-			"**Belly Shot (Ex):** At 9th level, a gulch gunner can press her firearm directly against a vulnerable location of an adjacent target, dealing additional damage. When the gulch gunner successfully hits an adjacent target with a ranged firearm attack, she deals +1d6 points of damage. This damage increases to +2d6 at 13th level and to +3d6 at 17th level. Creatures immune to precision damage, critical hits, or sneak attacks do not take this additional damage. This ability replaces the gun training ability gained at 9th, 13th, and 17th level."
+			"**Belly Shot (Ex):** At 9th level, a gulch gunner can press her firearm directly against a vulnerable location of an adjacent target, dealing additional damage. When the gulch gunner successfully hits an adjacent target with a ranged firearm attack, she deals +1d6 points of damage. This damage increases to +2d6 at 13th level and to +3d6 at 17th level. Creatures immune to {misc/precision damage}, critical hits, or sneak attacks do not take this additional damage. This ability replaces the gun training ability gained at 9th, 13th, and 17th level."
 		]
 	},
 	"gun_scavenger": {
@@ -330,7 +330,7 @@
 			"",
 			"**Deeds:** A gun scavenger gains the following deeds at the listed level.",
 			"",
-			">**Change Out (Ex):** At 1st level, as a full-round action, a gun scavenger can remove the broken condition from a single firearm she is currently wielding, as long as that condition was gained by a firearm misfire. When she does, she can replace the broken part with a specialized, short-lived component that does one of the following: gives the firearm the [scatter](rule/weapon_descriptions) weapon quality; increases the damage dealt by the pistolwhip deed by one die size; or increases the firearm's range increment by 10 feet. A firearm with such a modification increases its misfire chance cumulatively by 1 each time it is fired until it misfires. When it does misfire, the effects of the temporary component are lost. A gun scavenger must have at least 1 grit point to perform this deed. Alternatively, if the gun scavenger spends 1 grit point to perform a change out, she can either perform the change out as a standard action instead of a full-round action, or perform the change out on a firearm that isn't broken. This deed replaces the {deed/quick clear} deed.",
+			">**Change Out (Ex):** At 1st level, as a full-round action, a gun scavenger can remove the broken condition from a single firearm she is currently wielding, as long as that condition was gained by a firearm misfire. When she does, she can replace the broken part with a specialized, short-lived component that does one of the following: gives the firearm the {misc/scatter} weapon quality; increases the damage dealt by the pistol-whip deed by one die size; or increases the firearm's range increment by 10 feet. A firearm with such a modification increases its misfire chance cumulatively by 1 each time it is fired until it misfires. When it does misfire, the effects of the temporary component are lost. A gun scavenger must have at least 1 grit point to perform this deed. Alternatively, if the gun scavenger spends 1 grit point to perform a change out, she can either perform the change out as a standard action instead of a full-round action, or perform the change out on a firearm that isn't broken. This deed replaces the {deed/quick clear} deed.",
 			">",
 			">**Jury-Rig (Ex):** At 7th level, as a standard action, a gun scavenger can adjust a firearm she is currently wielding to fire in an unconventional way. She can spend 1 grit point to grant her firearm one of the following magic weapon enhancements for 1 round per gunslinger level: {magic-enh/distance}, {magic-enh/flaming}, {magic-enh/glamered>_w}, or {magic-enh/thundering}. If she spends 2 grit points, she can instead grant the firearm {magic-enh/flaming burst} or {magic-enh/stalking}. Multiple uses of this ability don't stack with themselves. This deed replaces the {deed/targeting} deed.",
 			"",
@@ -463,7 +463,7 @@
 			"",
 			"**Deeds:** A pistolero swaps a trio of deeds for the following.",
 			"",
-			">**Up Close and Deadly (Ex):** At 1st level, when the pistolero hits a target with a one-handed firearm that is not making a scatter shot, she can spend 1 grit point to deal 1d6 points of extra damage on a hit. If she misses with the attack, she grazes the target, dealing half the extra damage anyway. This is precision damage and is not multiplied if the attack is a critical hit. This precision damage increases to 2d6 at 5th level, to 3d6 at 10th level, to 4d6 at 15th level, and to 5d6 at 20th level. This precision damage stacks with {ability/sneak attack} and other forms of precision damage. The cost of using this deed cannot be reduced with the {feat/Signature Deed} feat, the true grit class feature, or any similar effect. This deed replaces the {deed/deadeye} deed.",
+			">**Up Close and Deadly (Ex):** At 1st level, when the pistolero hits a target with a one-handed firearm that is not making a scatter shot, she can spend 1 grit point to deal 1d6 points of extra damage on a hit. If she misses with the attack, she grazes the target, dealing half the extra damage anyway. This is {misc/precision damage} and is not multiplied if the attack is a critical hit. This precision damage increases to 2d6 at 5th level, to 3d6 at 10th level, to 4d6 at 15th level, and to 5d6 at 20th level. This precision damage stacks with {ability/sneak attack} and other forms of precision damage. The cost of using this deed cannot be reduced with the {feat/Signature Deed} feat, the true grit class feature, or any similar effect. This deed replaces the {deed/deadeye} deed.",
 			">",
 			">**Deadeye (Ex):** At 7th level, the pistolero gains the deadeye deed, which is normally a 1st-level gunslinger deed. This deed replaces the {deed/startling shot} deed.",
 			">",
@@ -561,7 +561,7 @@
 			"",
 			"**Deeds:** A siege gunner swaps a pair of deeds of her choosing for the following.",
 			"",
-			">**Targeted Blast (Ex):** At 1st level, when using a firearm or siege engine that targets an area rather than a specific creature, the siege gunner can spend 1 grit point to focus the brunt of the blast on a single creature within the target area. The target creature takes 1 additional point of damage for each level the siege gunner possesses. This is precision damage and is not multiplied on a critical hit. At 5th level and for every 5 levels the siege gunner possesses beyond that, she can select an additional creature to target with this bonus damage. Targets must be selected before any attack rolls or saving throws are made. This ability replaces deadeye.",
+			">**Targeted Blast (Ex):** At 1st level, when using a firearm or siege engine that targets an area rather than a specific creature, the siege gunner can spend 1 grit point to focus the brunt of the blast on a single creature within the target area. The target creature takes 1 additional point of damage for each level the siege gunner possesses. This is {misc/precision damage} and is not multiplied on a critical hit. At 5th level and for every 5 levels the siege gunner possesses beyond that, she can select an additional creature to target with this bonus damage. Targets must be selected before any attack rolls or saving throws are made. This ability replaces deadeye.",
 			">",
 			">**Scattershot (Ex):** At 3rd level, if the siege gunner has at least 1 grit point, she can increase the effectiveness of [scattering shots](rule/weapon_descriptions) from hand-held firearms and blast shots from siege engines. The cone radius of scattering shots or blast shots increases by 5 feet for every three levels the siege gunner possesses (to a maximum of 30 feet at 18th level). This ability replaces gunslinger initiative.",
 			"",

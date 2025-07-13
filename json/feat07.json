@@ -1792,7 +1792,7 @@
 			"",
 			"Your deep knowledge of natural environments allows you to take your enemy by surprise, dealing a deadly blow.  ",
 			"**Prerequisites:** Stealth 1 rank, Survival 1 rank.  ",
-			"**Benefit:** In natural environments, you can spend 5 minutes to cover yourself in loose debris (such as branches, grass, or dirt) and take 20 on a Stealth check. You fall {rule/prone} and are considered to have {rule/concealment} for purposes of being allowed to attempt Stealth checks. As a full-round action that doesn't provoke attacks of opportunity, you can burst from your hiding place, stand, and make a single melee attack or ranged attack against a target within 30 feet. If the target didn't notice you before you jumped from hiding and your attack hits, that attack deals an additional 1d6 points of precision damage. Effects that negate {ability/sneak attack} damage also negate this damage."
+			"**Benefit:** In natural environments, you can spend 5 minutes to cover yourself in loose debris (such as branches, grass, or dirt) and take 20 on a Stealth check. You fall {rule/prone} and are considered to have {rule/concealment} for purposes of being allowed to attempt Stealth checks. As a full-round action that doesn't provoke attacks of opportunity, you can burst from your hiding place, stand, and make a single melee attack or ranged attack against a target within 30 feet. If the target didn't notice you before you jumped from hiding and your attack hits, that attack deals an additional 1d6 points of {misc/precision damage}. Effects that negate {ability/sneak attack} damage also negate this damage."
 		]
 	},
 	"forester": {
@@ -2465,7 +2465,7 @@
 			"",
 			"Your blade is keen enough to hew incorporeal creatures.  ",
 			"**Prerequisites:** Base attack bonus +1, Knowledge (religion) 1 rank.  ",
-			"**Benefit:** As a swift action, you can imbue a weapon you wield with spiritual energies for 1 round. An imbued weapon damages incorporeal creatures as though it were magical. If the imbued weapon has an enhancement bonus of +2 or greater, it functions as a {magic-enh/ghost touch} weapon. A weapon imbued in this way can deal precision damage (such as {ability/sneak attack} damage) to incorporeal creatures."
+			"**Benefit:** As a swift action, you can imbue a weapon you wield with spiritual energies for 1 round. An imbued weapon damages incorporeal creatures as though it were magical. If the imbued weapon has an enhancement bonus of +2 or greater, it functions as a {magic-enh/ghost touch} weapon. A weapon imbued in this way can deal {misc/precision damage} (such as {ability/sneak attack} damage) to incorporeal creatures."
 		]
 	},
 	"giant_killer": {
@@ -2996,7 +2996,7 @@
 			"",
 			"You protect an ally from attacks he doesn't see coming.  ",
 			"**Prerequisites:** Int 13, {feat/Combat Expertise}.  ",
-			"**Benefit:** If you successfully use the {rule/aid another>_2} action to give an ally who also has this feat a +2 bonus to AC against an opponent's next attack, the ally is also not considered {rule/flank/ed>ing} or {rule/flat-footed} against that opponent until the beginning of your next turn.  ",
+			"**Benefit:** If you successfully use the {rule/aid another>_2} action to give an ally who also has this feat a +2 bonus to AC against an opponent's next attack, the ally is also not considered {rule/flanked} or {rule/flat-footed} against that opponent until the beginning of your next turn.  ",
 			"**Normal:** You can use aid another to grant an ally a +2 bonus to AC against the next attack from an adjacent foe.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",

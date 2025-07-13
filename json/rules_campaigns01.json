@@ -184,6 +184,7 @@
 			"spells"
 		]
 	},
+	"attacking_underwater": { "redirect": "physical_attacks_underwater" },
 	"off_balance_and_prone_underwater": {
 		"name": "Off-Balance and Prone Underwater",
 		"subtitle": "Fighting Underwater, Aquatic Adventures",

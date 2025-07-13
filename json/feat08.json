@@ -1482,7 +1482,7 @@
 			"",
 			"By manifesting an eerie, spiritual eye of its own, your possessed hand can \"see\" on your behalf.  ",
 			"**Prerequisites:** {feat/Possessed Hand}.  ",
-			"**Benefit:** While your possessed hand isn't carrying anything, you gain darkvision with a range of 60 feet and cannot be {rule/flank/ed>ing}."
+			"**Benefit:** While your possessed hand isn't carrying anything, you gain darkvision with a range of 60 feet and cannot be {rule/flanked}."
 		]
 	},
 	"harder_they_fall": {
@@ -2903,7 +2903,7 @@
 			"",
 			"After much practice, you and an ally have become adept at fighting in close proximity to one another.  ",
 			"**Prerequisites:** {feat/Back to Back}, Perception 5 ranks.  ",
-			"**Benefit:** While you are adjacent to an ally who is {rule/flank/ed>ing} and also has this feat, you can spend a swift action to gain a +2 bonus to AC against all flankers until the start of your next turn."
+			"**Benefit:** While you are adjacent to an ally who is {rule/flanked} and also has this feat, you can spend a swift action to gain a +2 bonus to AC against all flankers until the start of your next turn."
 		]
 	},
 	"improved_balor_whip": {

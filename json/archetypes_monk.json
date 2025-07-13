@@ -1452,7 +1452,7 @@
 			"",
 			"This @primary[alters quivering palm.] @alternate[ability applies only if the monk selects the *quivering palm* ki power.]",
 			"",
-			"**Resilient Body (Su):** At 19th level, a softstrike monk's mastery of nonlethal combat lets him apply his techniques to his defense. A softstrike monk converts any precision damage he takes to nonlethal damage.",
+			"**Resilient Body (Su):** At 19th level, a softstrike monk's mastery of nonlethal combat lets him apply his techniques to his defense. A softstrike monk converts any {misc/precision damage} he takes to nonlethal damage.",
 			"",
 			"This replaces empty body."
 		]
@@ -1689,7 +1689,7 @@
 			"",
 			"When used against a plant creature or a creature with the water subtype, dehydrating strike inflicts the above conditions (as applicable) on a failed save and also deals 1d6 points of damage, plus 1d6 additional points of damage at 4th level and every 4 levels thereafter. This damage is in addition to the wasteland meditant's normal unarmed strike damage. A wasteland meditant can use this ability a number of times per day equal to 3 + his Wisdom modifier but only once per round.",
 			"",
-			"Creatures immune to critical hits or precision damage are immune to this ability.",
+			"Creatures immune to critical hits or {misc/precision damage} are immune to this ability.",
 			"",
 			"This replaces stunning fist.",
 			"",

@@ -195,7 +195,7 @@
 			"",
 			"**Trickster's Edge (Lesser, Su):** Choose any two skills. These skills count as class skills for you, and you are treated as if you had an additional number of ranks in those skills equal to your medium level (to a maximum of your character level).",
 			"",
-			"**Surprise Strike (Intermediate, Su):** When you attack an opponent that's denied its Dexterity bonus to AC, you deal 1d6 points of extra precision damage for every 3 medium levels. Your target counts as {rule/flat-footed} against the first attack you make against that target in a day, regardless of abilities like {ability/uncanny dodge}. After your first attack, that target is immune to being made flat-footed by your surprise strike for 24 hours.",
+			"**Surprise Strike (Intermediate, Su):** When you attack an opponent that's denied its Dexterity bonus to AC, you deal 1d6 points of extra {misc/precision damage} for every 3 medium levels. Your target counts as {rule/flat-footed} against the first attack you make against that target in a day, regardless of abilities like {ability/uncanny dodge}. After your first attack, that target is immune to being made flat-footed by your surprise strike for 24 hours.",
 			"",
 			"**Transfer Magic (Greater, Su):** You can allow the trickster to gain 1 point of influence over you to make a melee touch attack against another creature as a standard action. If the attack succeeds, you randomly steal one of the harmless spells of the highest spell level active on that creature, ending the effect for the original creature and gaining all remaining duration for yourself. This ability does not work on personal-range or instantaneous- or permanent-duration spells.",
 			"",

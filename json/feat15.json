@@ -1850,7 +1850,7 @@
 			"",
 			"Your inspiration guides your strikes when you take a moment to assess your foe.  ",
 			"**Prerequisites:** Int 13, {feat/Amateur Investigator}, base attack bonus +6, 1 rank in at least one Knowledge skill, no levels in a class that has the inspiration class feature.  ",
-			"**Benefit:** You can expend one use of inspiration as a move action to study a single enemy that you can see. When you do so, you gain a +2 insight bonus on melee attack rolls and a +2 bonus on damage rolls for a number of rounds equal to your Intelligence modifier. The bonus on damage rolls is precision damage, and is not multiplied on a critical hit. Once affected by this feat, a target cannot be affect by your use of it again for 24 hours."
+			"**Benefit:** You can expend one use of inspiration as a move action to study a single enemy that you can see. When you do so, you gain a +2 insight bonus on melee attack rolls and a +2 bonus on damage rolls for a number of rounds equal to your Intelligence modifier. The bonus on damage rolls is {misc/precision damage}, and is not multiplied on a critical hit. Once affected by this feat, a target cannot be affect by your use of it again for 24 hours."
 		]
 	},
 	"studied_expertise": {
@@ -2832,7 +2832,7 @@
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/133}",
 			">",
-			">When you hit a foe that has been denied its Dexterity bonus by this feat, you can spend 2 stamina points to deal an extra 1d6 points of damage. This damage is precision damage and is not multiplied on a critical hit."
+			">When you hit a foe that has been denied its Dexterity bonus by this feat, you can spend 2 stamina points to deal an extra 1d6 points of damage. This damage is {misc/precision damage} and is not multiplied on a critical hit."
 		]
 	},
 	"surprise_maneuver": {

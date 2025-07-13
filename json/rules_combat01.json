@@ -642,23 +642,7 @@
 			"",
 			"Some natural attacks are denoted as secondary natural attacks, such as tails and wings. Attacks with secondary natural attacks are made using your base attack bonus minus 5. These attacks deal an amount of damage depending on their type, but you only add half your Strength modifier on damage rolls.",
 			"",
-			"You can make attacks with natural weapons in combination with attacks made with a melee weapon and unarmed strikes, so long as a different limb is used for each attack. For example, you cannot make a claw attack and also use that hand to make attacks with a longsword. When you make additional attacks in this way, all of your natural attacks are treated as secondary natural attacks, using your base attack bonus minus 5 and adding only 1/2 of your Strength modifier on damage rolls. Feats such as {feat/Two-Weapon Fighting} and {feat/Multiattack} can reduce these penalties.",
-			"",
-			"@HL[Multiple Attacks:] A character who can make more than one attack per round must use the [full-attack action](rule/full_round_actions) in order to get more than one attack.",
-			"",
-			"@HL[Fighting Defensively as a Standard Action:] You can choose to fight defensively when attacking. If you do so, you take a -4 penalty on all attacks in a round to gain a +2 dodge bonus to AC until the start of your next turn.",
-			"",
-			"@HL[Critical Hits:] When you make an attack roll and get a natural 20 (the d20 shows 20), you hit regardless of your target's Armor Class, and you have scored a \"threat,\" meaning the hit might be a critical hit (or \"crit\"). To find out if it's a critical hit, you immediately make an attempt to \"confirm\" the critical hit - another attack roll with all the same modifiers as the attack roll you just made. If the confirmation roll also results in a hit against the target's AC, your original hit is a critical hit. (The critical roll just needs to hit to give you a crit, it doesn't need to come up 20 again.) If the confirmation roll is a miss, then your hit is just a regular hit.",
-			"",
-			"A critical hit means that you roll your damage more than once, with all your usual bonuses, and add the rolls together. Unless otherwise specified, the threat range for a critical hit on an attack roll is 20, and the multiplier is &times;2.",
-			"",
-			"@HL[Exception:] Precision damage (such as from a rogue's {ability/sneak attack} class feature) and additional damage dice from weapon special abilities (such as {magic-enh/flaming}) are not multiplied when you score a critical hit.",
-			"",
-			"@HL[Increased Threat Range:] Sometimes your threat range is greater than 20. That is, you can score a threat on a lower number. In such cases, a roll of lower than 20 is not an automatic hit. Any attack roll that doesn't result in a hit is not a threat.",
-			"",
-			"@HL[Increased Critical Multiplier:] Some weapons deal better than double damage on a critical hit.",
-			"",
-			"@HL[Spells and Critical Hits:] A spell that requires an attack roll can score a critical hit. A spell attack that requires no attack roll cannot score a critical hit. If a spell causes {rule/ability damage[ or] drain}, the damage or drain is doubled on a critical hit."
+			"You can make attacks with natural weapons in combination with attacks made with a melee weapon and unarmed strikes, so long as a different limb is used for each attack. For example, you cannot make a claw attack and also use that hand to make attacks with a longsword. When you make additional attacks in this way, all of your natural attacks are treated as secondary natural attacks, using your base attack bonus minus 5 and adding only 1/2 of your Strength modifier on damage rolls. Feats such as {feat/Two-Weapon Fighting} and {feat/Multiattack} can reduce these penalties."
 		],
 		"parent_topics": [
 			"combat",
@@ -708,7 +692,7 @@
 			"",
 			"A critical hit means that you roll your damage more than once, with all your usual bonuses, and add the rolls together. Unless otherwise specified, the threat range for a critical hit on an attack roll is 20, and the multiplier is &times;2.",
 			"",
-			"@HL[Exception:] Precision damage (such as from a rogue's {ability/sneak attack} class feature) and additional damage dice from weapon special abilities (such as {magic-enh/flaming}) are not multiplied when you score a critical hit.",
+			">@HL[Exception:] Precision damage (such as from a rogue's {ability/sneak attack} class feature) and additional damage dice from weapon special abilities (such as {magic-enh/flaming}) are not multiplied when you score a critical hit.",
 			"",
 			"@HL[Increased Threat Range:] Sometimes your threat range is greater than 20. That is, you can score a threat on a lower number. In such cases, a roll of lower than 20 is not an automatic hit. Any attack roll that doesn't result in a hit is not a threat.",
 			"",
@@ -2044,6 +2028,7 @@
 			"helpless_defenders"
 		]
 	},
+	"flanked": { "redirect": "flanking" },
 	"helpless_defenders": {
 		"name": "Helpless Defenders",
 		"subtitle": "Combat",

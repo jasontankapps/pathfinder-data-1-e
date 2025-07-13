@@ -1053,6 +1053,7 @@
 			"magic"
 		]
 	},
+	"damaging_objects": { "redirect": "breaking_things" },
 	"magic": {
 		"name": "Magic and Spellcasting",
 		"sources": [ "PRPG Core Rulebook" ],

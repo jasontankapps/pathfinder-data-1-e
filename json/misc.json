@@ -397,7 +397,7 @@
 			"",
 			"Some weapons have special features in addition to those noted in their descriptions.",
 			"",
-			"@HL[Blocking:] When you use this weapon to fight defensively, you gain a +1 shield bonus to AC."
+			"@HL[Blocking:] When you use this weapon to {misc/fight defensively}, you gain a +1 shield bonus to AC."
 		],
 		"searchgroup": "rule",
 		"type": "Rule",
@@ -412,7 +412,7 @@
 			"",
 			"Some weapons have special features in addition to those noted in their descriptions.",
 			"",
-			"@HL[Brace:] If you use a readied action to set a brace weapon against a charge, you deal double damage on a successful hit against a charging character."
+			"@HL[Brace:] If you use a readied action to set a brace weapon against a {rule/charge}, you deal double damage on a successful hit against a charging character."
 		],
 		"searchgroup": "rule",
 		"type": "Rule",
@@ -624,7 +624,7 @@
 			"",
 			"Some weapons have special features in addition to those noted in their descriptions.",
 			"",
-			"@HL[Automatic:] This weapon can act as a {misc/semi-automatic} weapon, or it can fire a burst of shots with a single pull of the trigger to attack all creatures in a line. This line starts from any corner of the wielder's space and extends to the limit of the weapon's range or until it strikes a barrier it cannot penetrate. When using an automatic weapon to attack all creatures in a line, the wielder makes a separate attack roll against each creature in the line. Each creature in the line can be attacked with only one shot from each burst. Each attack roll takes a -2 penalty, and its damage cannot be modified by precision damage or damage-increasing feats such as {feat/Vital Strike}. Effects that grant {rule/concealment}, such as fog or smoke, or the {spell/blur}, {spell/invisibility}, or {spell/mirror image} spells, do not affect an automatic weapon's line attack. Roll to confirm each attack roll that threatens a critical hit separately. A single burst with an automatic weapon consumes 10 charges. When taking a full-attack action with an automatic weapon, the wielder can fire as many bursts in a round as he has attacks, provided he has enough charges to make all of the attacks."
+			"@HL[Automatic:] This weapon can act as a {misc/semi-automatic} weapon, or it can fire a burst of shots with a single pull of the trigger to attack all creatures in a line. This line starts from any corner of the wielder's space and extends to the limit of the weapon's range or until it strikes a barrier it cannot penetrate. When using an automatic weapon to attack all creatures in a line, the wielder makes a separate attack roll against each creature in the line. Each creature in the line can be attacked with only one shot from each burst. Each attack roll takes a -2 penalty, and its damage cannot be modified by {misc/precision damage} or damage-increasing feats such as {feat/Vital Strike}. Effects that grant {rule/concealment}, such as fog or smoke, or the {spell/blur}, {spell/invisibility}, or {spell/mirror image} spells, do not affect an automatic weapon's line attack. Roll to confirm each attack roll that threatens a critical hit separately. A single burst with an automatic weapon consumes 10 charges. When taking a full-attack action with an automatic weapon, the wielder can fire as many bursts in a round as he has attacks, provided he has enough charges to make all of the attacks."
 		],
 		"searchgroup": "rule",
 		"type": "Rule",
@@ -684,7 +684,7 @@
 			"",
 			"Some weapons have special features in addition to those noted in their descriptions.",
 			"",
-			"@HL[Scatter:] A weapon with the scatter weapon quality can shoot two different types of ammunition. It can fire normal bullets that target one creature, or it can make a scattering shot, attacking all creatures within a cone. Cannons with the scatter weapon quality only fire grapeshot, unless their descriptions state otherwise. When a scatter weapon attacks all creatures within a cone, it makes a separate attack roll against each creature within the cone. Each attack roll takes a -2 penalty, and its attack damage cannot be modified by precision damage or damage-increasing feats such as {feat/Vital Strike}. Effects that grant {rule/concealment}, such as fog or smoke, or the {spell/blur}, {spell/invisibility}, or {spell/mirror image} spells, do not foil a scatter attack. If any of the attack rolls threaten a critical, confirm the critical for that attack roll alone. A firearm that makes a scatter shot misfires only if all of the attack rolls made misfire. If a scatter weapon explodes on a misfire, it deals triple its damage to all creatures within the misfire radius."
+			"@HL[Scatter:] A weapon with the scatter weapon quality can shoot two different types of ammunition. It can fire normal bullets that target one creature, or it can make a scattering shot, attacking all creatures within a cone. Cannons with the scatter weapon quality only fire grapeshot, unless their descriptions state otherwise. When a scatter weapon attacks all creatures within a cone, it makes a separate attack roll against each creature within the cone. Each attack roll takes a -2 penalty, and its attack damage cannot be modified by {misc/precision damage} or damage-increasing feats such as {feat/Vital Strike}. Effects that grant {rule/concealment}, such as fog or smoke, or the {spell/blur}, {spell/invisibility}, or {spell/mirror image} spells, do not foil a scatter attack. If any of the attack rolls threaten a critical, confirm the critical for that attack roll alone. A firearm that makes a scatter shot misfires only if all of the attack rolls made misfire. If a scatter weapon explodes on a misfire, it deals triple its damage to all creatures within the misfire radius."
 		],
 		"searchgroup": "rule",
 		"type": "Rule",
@@ -804,7 +804,7 @@
 	"hold_its_breath": { "redirect": "hold_your_breath" },
 	"spell_completion": {
 		"name": "Spell Completion Items",
-		"sources": [],
+		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"## Spell Completion",
 			"",
@@ -817,7 +817,7 @@
 	},
 	"spell_trigger": {
 		"name": "Spell Trigger Items",
-		"sources": [],
+		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"## Spell Trigger",
 			"",
@@ -827,5 +827,16 @@
 		"searchgroup": "rule",
 		"type": "Rule",
 		"topLink": [ "Using Magic Items", "rule/using_items" ]
+	},
+	"precision_damage": {
+		"name": "Precision Damage",
+		"sources": [],
+		"description": [
+			"## Precision Damage",
+			"",
+			"This is extra damage that is caused because of a well-aimed attack at a vulnerable area. It is not multiplied on a {rule/critical hit>s}. The most common type of precision damage is the {ability/sneak attack}. If an ability or attack deals precision damage, it will say so in its description. If something is immune to sneak attack damage, it is usually immune to all precision damage."
+		],
+		"searchgroup": "rule",
+		"type": "Rule"
 	}
 }
