@@ -318,22 +318,6 @@
 			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/command undead}; **Price** 157 gp"
 		]
 	},
-	"masterwork_silver_dagger": {
-		"name": "Masterwork Silver Dagger",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook"
-		],
-		"description": [
-			"## Masterwork Silver Dagger",
-			"",
-			"{SOURCE Ultimate Equipment/157;PRPG Core Rulebook/471}  ",
-			"**Aura** no aura (nonmagical); **CL**  ",
-			"**Slot** none; **Price** 322 gp; **Weight** 1 lb.",
-			"",
-			"As a {rule/masterwork w/eapon}, this {eq-material/alchemical silver} {eq-weapon/dagger} has a +1 enhancement bonus on attack rolls (but not on damage rolls)."
-		]
-	},
 	"alchemists_bullet": {
 		"name": "Alchemist's Bullet",
 		"sources": [ "Ultimate Equipment" ],
@@ -349,22 +333,6 @@
 			"### Construction",
 			"",
 			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/shrink item}; **Price** 180 gp"
-		]
-	},
-	"cold_iron_masterwork_longsword": {
-		"name": "Cold Iron Masterwork Longsword",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook"
-		],
-		"description": [
-			"## Cold Iron Masterwork Longsword",
-			"",
-			"{SOURCE Ultimate Equipment/153;PRPG Core Rulebook/471}  ",
-			"**Aura** no aura (nonmagical); **CL**  ",
-			"**Slot** none; **Price** 330 gp; **Weight** 4 lbs.",
-			"",
-			"This nonmagical {eq-weapon/longsword} is crafted out of {eq-material/cold iron}. As a {rule/masterwork w/eapon}, it has a +1 enhancement bonus on attack rolls."
 		]
 	},
 	"splitting_bolt": {
@@ -804,21 +772,6 @@
 		]
 	},
 	"slaying_arrow": { "redirect": "slaying_arrow_normal" },
-	"crossbow_of_the_crab": {
-		"name": "Crossbow of the Crab",
-		"sources": [ "Pathfinder #123: The Flooded Cathedral" ],
-		"description": [
-			"## Crossbow of the Crab",
-			"",
-			"{SOURCE Pathfinder #123: The Flooded Cathedral/46}  ",
-			"**Aura** no aura (nonmagical); **CL**  ",
-			"**Price** 2,500 gp; **Weight** 24 lbs.",
-			"",
-			"This Large {rule/masterwork>_w} {eq-weapon/repeating heavy crossbow} is powered by a system of clockwork gears and torsion springs. It functions like its normal counterpart above water, but it can also be used underwater, where it has a range increment of 50 feet. Pulling a lever on the crossbow as a move action extends and retracts the weapon's stock and opens and collapses its limbs for easy stowage, making it small enough for a Medium character to carry in a backpack. The crossbow can be enchanted with weapon abilities like any normal masterwork crossbow.",
-			"",
-			"When mounted on the pincers of an {magic-wondrous/apparatus of the crab} or another similar device (which takes a full-round action), a character operating the vehicle can aim and shoot the crossbow up to twice per round (attack bonus +12) by pulling the lever that normally snaps the pincers. While using the crossbow in this way, a character without {feat/Exotic Weapon Proficiency} (repeating heavy crossbow) doesn't take a penalty for nonproficiency. While the crossbow is thus mounted, the apparatus can't make attacks with the pincers. If a character operates the lever that extends and retracts the pincers and feelers while the crossbow is mounted, the apparatus ejects the crossbow instead, enabling the vehicle to make pincer attacks again."
-		]
-	},
 	"effortless_lace": {
 		"name": "Effortless Lace",
 		"sources": [ "Giant Hunter's Handbook" ],
@@ -904,38 +857,6 @@
 			"### Construction",
 			"",
 			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/bless}, {spell/remove fear}; **Price** 1,654 gp"
-		]
-	},
-	"adamantine_dagger": {
-		"name": "Adamantine Dagger",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook"
-		],
-		"description": [
-			"## Adamantine Dagger",
-			"",
-			"{SOURCE Ultimate Equipment/150;PRPG Core Rulebook/471}  ",
-			"**Aura** no aura (nonmagical); **CL**  ",
-			"**Slot** none; **Price** 3,002 gp; **Weight** 1 lb.",
-			"",
-			"This nonmagical {eq-weapon/dagger} is made out of {eq-material/adamantine}. As a {rule/masterwork w/eapon}, it has a +1 enhancement bonus on attack rolls."
-		]
-	},
-	"adamantine_battleaxe": {
-		"name": "Adamantine Battleaxe",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook"
-		],
-		"description": [
-			"## Adamantine Battleaxe",
-			"",
-			"{SOURCE Ultimate Equipment/150;PRPG Core Rulebook/471}  ",
-			"**Aura** no aura (nonmagical); **CL**  ",
-			"**Slot** none; **Price** 3,010 gp; **Weight** 6 lbs.",
-			"",
-			"This nonmagical {eq-weapon/battleaxe} is made of {eq-material/adamantine}. As a {rule/masterwork w/eapon}, it has a +1 enhancement bonus on attack rolls."
 		]
 	},
 	"carousers_retort": {
