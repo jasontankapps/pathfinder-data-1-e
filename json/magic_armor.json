@@ -8,22 +8,6 @@
 			"Unable to find the requested magic armor."
 		]
 	},
-	"mithral_shirt": {
-		"name": "Mithral Shirt",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook"
-		],
-		"description": [
-			"## Mithral Shirt",
-			"",
-			"{SOURCE Ultimate Equipment/128;PRPG Core Rulebook/464}  ",
-			"**Aura** no aura (nonmagical); **CL**  ",
-			"**Slot** armor; **Price** 1,100 gp; **Weight** 10 lbs.",
-			"",
-			"This extremely light {eq-armor/chain shirt} is made of very fine {eq-material/mithral} links. The armor has an arcane spell failure chance of 10%, a maximum Dexterity bonus of +6, and no armor check penalty. It is considered light armor."
-		]
-	},
 	"mistmail": {
 		"name": "Mistmail",
 		"sources": [
@@ -209,24 +193,6 @@
 			"### Construction",
 			"",
 			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/aspect of the nightingale}, {spell/summon instrument}; **Price** 1,965 gp"
-		]
-	},
-	"dragonhide_plate": {
-		"name": "Dragonhide Plate",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook"
-		],
-		"description": [
-			"## Dragonhide Plate",
-			"",
-			"{SOURCE Ultimate Equipment/126;PRPG Core Rulebook/464}  ",
-			"**Aura** no aura (nonmagical); **CL**  ",
-			"**Slot** armor; **Price** 3,300 gp; **Weight** 50 lbs.",
-			"",
-			"This suit of {eq-armor/full plate} is made of {eq-material/dragonhide}, rather than metal, so druids can wear it. It is otherwise identical to {rule/masterwork>_a} full plate.",
-			"",
-			"The wearer of dragonhide plate tends to draw the ire of dragons of the same type as that used in the armor's creation."
 		]
 	},
 	"pallid_chain": {
@@ -586,22 +552,6 @@
 			"### Construction",
 			"",
 			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/command}, {spell/owl's wisdom}, {spell/peacebond}; **Price** 2,730 gp"
-		]
-	},
-	"elven_chain": {
-		"name": "Elven Chain",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook"
-		],
-		"description": [
-			"## Elven Chain",
-			"",
-			"{SOURCE Ultimate Equipment/126;PRPG Core Rulebook/464}  ",
-			"**Aura** no aura (nonmagical); **CL**  ",
-			"**Slot** armor; **Price** 5,150 gp; **Weight** 20 lbs.",
-			"",
-			"This extremely light {eq-armor/chainmail} is made of very fine {eq-material/mithral} links. This armor is treated, in all ways, like light armor, including when determining proficiency. The armor has an arcane spell failure chance of 20%, a maximum Dexterity bonus of +4, and an armor check penalty of -2."
 		]
 	},
 	"rhino_hide": {
@@ -1006,22 +956,6 @@
 			"### Construction",
 			"",
 			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/gaseous form}, {spell/gust of wind}; **Price** 4,100 gp"
-		]
-	},
-	"adamantine_breastplate": {
-		"name": "Adamantine Breastplate",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook"
-		],
-		"description": [
-			"## Adamantine Breastplate",
-			"",
-			"{SOURCE Ultimate Equipment/124;PRPG Core Rulebook/464}  ",
-			"**Aura** no aura (nonmagical); **CL**  ",
-			"**Slot** armor; **Price** 10,200 gp; **Weight** 30 lbs.",
-			"",
-			"This nonmagical {eq-armor/breastplate} is made of {eq-material/adamantine}, giving its wearer damage reduction 2/-."
 		]
 	},
 	"soothsayers_raiment": {
@@ -1518,7 +1452,7 @@
 			"**Aura** strong abjuration; **CL** 12th  ",
 			"**Slot** armor; **Price** 16,150 gp; **Weight** 20 lbs.",
 			"",
-			"This set of +2 {magic-armor/elven chain} grants its wearer a +4 *resistance* bonus on saving throws against spells, spell-like abilities, and other effects created by worshipers and minions of a specific demon lord, chosen when the armor is created. Against such foes, the armor's enhancement bonus increases to +4. The first suit of this armor was created quite recently by Perelir for her close friend Malindil as part of the ranger's vengeful crusade against {faith/Abraxas}; since then, many other suits focused against other powerful demons (particularly the nascent demon lord {monster/Treerazer}) have been crafted.",
+			"This set of +2 {eq-armor/elven chain} grants its wearer a +4 *resistance* bonus on saving throws against spells, spell-like abilities, and other effects created by worshipers and minions of a specific demon lord, chosen when the armor is created. Against such foes, the armor's enhancement bonus increases to +4. The first suit of this armor was created quite recently by Perelir for her close friend Malindil as part of the ranger's vengeful crusade against {faith/Abraxas}; since then, many other suits focused against other powerful demons (particularly the nascent demon lord {monster/Treerazer}) have been crafted.",
 			"",
 			"### Construction",
 			"",
@@ -1581,22 +1515,6 @@
 			"### Construction",
 			"",
 			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/deflection}, {spell/shield}; **Price** 8,700 gp"
-		]
-	},
-	"dwarven_plate": {
-		"name": "Dwarven Plate",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook"
-		],
-		"description": [
-			"## Dwarven Plate",
-			"",
-			"{SOURCE Ultimate Equipment/126;PRPG Core Rulebook/464}  ",
-			"**Aura** no aura (nonmagical); **CL**  ",
-			"**Slot** armor; **Price** 16,500 gp; **Weight** 50 lbs.",
-			"",
-			"This full plate is made of {eq-material/adamantine}, giving its wearer damage reduction 3/-."
 		]
 	},
 	"heros_hauberk": {
@@ -2728,7 +2646,7 @@
 			"**Aura** moderate necromancy; **CL** 11th  ",
 			"**Slot** armor; **Price** 41,300 gp; **Weight** 50 lbs.",
 			"",
-			"This specialized suit of full plate is made from the tanned hide of a linnorm and acts as +4 {magic-armor/dragonhide plate}. If a creature is slain while wearing such armor, its killer is subject to a curse. The cursed creature must succeed at a DC 17 Will save or gain vulnerability to fire until the curse is removed. This curse can be removed only by a {spell/break enchantment}, {spell/miracle}, or {spell/wish} spell. This particular suit of armor is made from the hide of a {monster/crag linnorm}, though others exist, each with a different curse effect similar to the curse of the associated linnorm.",
+			"This specialized suit of full plate is made from the tanned hide of a linnorm and acts as +4 {eq-armor/dragonhide plate}. If a creature is slain while wearing such armor, its killer is subject to a curse. The cursed creature must succeed at a DC 17 Will save or gain vulnerability to fire until the curse is removed. This curse can be removed only by a {spell/break enchantment}, {spell/miracle}, or {spell/wish} spell. This particular suit of armor is made from the hide of a {monster/crag linnorm}, though others exist, each with a different curse effect similar to the curse of the associated linnorm.",
 			"",
 			"Once per day as a swift action, the wear of this armor can summon forth the uncanny movement powers of a linnorm, gaining the benefits of *freedom of movement* for 10 minutes.",
 			"",
@@ -3100,67 +3018,6 @@
 			"### Construction",
 			"",
 			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/dimensional anchor}, {spell/mind blank}, {spell/neutralize poison}, {spell/resist energy}, {spell/stone to flesh}, and {spell/prismatic sphere}, {spell/prismatic spray}, or {spell/prismatic wall}; **Price** 81,150 gp"
-		]
-	},
-	"living_steel_heavy_shield": {
-		"name": "Living Steel Heavy Shield",
-		"sources": [ "Ultimate Equipment" ],
-		"description": [
-			"## Living Steel Heavy Shield",
-			"",
-			"{SOURCE Ultimate Equipment/132}  ",
-			"**Aura** no aura (nonmagical); **CL**  ",
-			"**Slot** shield; **Price** 120 gp; **Weight** 15 lbs.",
-			"",
-			"This nonmagical {eq-armor/heavy steel shield} is made out of {eq-material/living steel}. It has no enhancement bonus, but its material and construction can damage metal weapons that strike it. Whenever the wielder of a metal weapon (other than one made of adamantine) rolls a natural 1 on an attack against a creature wielding this shield, the item must make a DC 20 Fortitude save or gain the {misc/broken} condition. If the weapon already has the broken condition, it is instead destroyed."
-		]
-	},
-	"darkwood_buckler": {
-		"name": "Darkwood Buckler",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook"
-		],
-		"description": [
-			"## Darkwood Buckler",
-			"",
-			"{SOURCE Ultimate Equipment/131;PRPG Core Rulebook/467}  ",
-			"**Aura** no aura (nonmagical); **CL**  ",
-			"**Slot** shield; **Price** 203 gp; **Weight** 2-1/2 lbs.",
-			"",
-			"This nonmagical masterwork {eq-armor/light wooden shield} is made out of {eq-material/darkwood}. It has no enhancement bonus, but its construction material makes it lighter than a normal wooden shield. It has no armor check penalty."
-		]
-	},
-	"darkwood_shield": {
-		"name": "Darkwood Shield",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook"
-		],
-		"description": [
-			"## Darkwood Shield",
-			"",
-			"{SOURCE Ultimate Equipment/131;PRPG Core Rulebook/467}  ",
-			"**Aura** no aura (nonmagical); **CL**  ",
-			"**Slot** shield; **Price** 257 gp; **Weight** 5 lbs.",
-			"",
-			"This nonmagical masterwork {eq-armor/heavy wooden shield} is made out of {eq-material/darkwood}. It has no enhancement bonus, but its construction material makes it lighter than a normal wooden shield. It has no armor check penalty."
-		]
-	},
-	"mithral_heavy_shield": {
-		"name": "Mithral Heavy Shield",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook"
-		],
-		"description": [
-			"## Mithral Heavy Shield",
-			"",
-			"{SOURCE Ultimate Equipment/132;PRPG Core Rulebook/467}  ",
-			"**Aura** no aura (nonmagical); **CL**  ",
-			"**Slot** shield; **Price** 1,020 gp; **Weight** 5 lbs.",
-			"",
-			"This {eq-armor/heavy «steel_»shield} is made of {eq-material/mithral} and is thus much lighter than a standard steel shield. It has a 5% arcane spell failure chance and no armor check penalty."
 		]
 	},
 	"zombie_skin_shield": {

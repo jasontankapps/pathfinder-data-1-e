@@ -8,6 +8,98 @@
 			"Unable to find the requested armor."
 		]
 	},
+	"mithral_shirt": {
+		"name": "Mithral Shirt",
+		"sources": [
+			"Ultimate Equipment",
+			"PRPG Core Rulebook"
+		],
+		"description": [
+			"## Mithral Shirt",
+			"",
+			"{SOURCE Ultimate Equipment/128;PRPG Core Rulebook/464}  ",
+			"**Cost** 1,100 gp **Weight** 10 lbs.  ",
+			"**Armor Bonus** +4; **Max Dex Bonus** +6; **Armor Check Penalty** 0  ",
+			"**Arcane Spell Failure Chance** 10%; **Speed** 30 ft./20 ft.  ",
+			"**Category** Light armor",
+			"",
+			"This extremely light {eq-armor/chain shirt} is made of very fine {eq-material/mithral} links. The armor has an arcane spell failure chance of 10%, a maximum Dexterity bonus of +6, and no armor check penalty. It is considered light armor."
+		]
+	},
+	"elven_chain": {
+		"name": "Elven Chain",
+		"sources": [
+			"Ultimate Equipment",
+			"PRPG Core Rulebook"
+		],
+		"description": [
+			"## Elven Chain",
+			"",
+			"{SOURCE Ultimate Equipment/126;PRPG Core Rulebook/464}  ",
+			"**Cost** 5,150 gp **Weight** 20 lbs.  ",
+			"**Armor Bonus** +6; **Max Dex Bonus** +4; **Armor Check Penalty** -2  ",
+			"**Arcane Spell Failure Chance** 20%; **Speed** 30 ft./20 ft.  ",
+			"**Category** Light armor",
+			"",
+			"This extremely light {eq-armor/chainmail} is made of very fine {eq-material/mithral} links. This armor is treated, in all ways, like light armor, including when determining proficiency. The armor has an arcane spell failure chance of 20%, a maximum Dexterity bonus of +4, and an armor check penalty of -2."
+		]
+	},
+	"adamantine_breastplate": {
+		"name": "Adamantine Breastplate",
+		"sources": [
+			"Ultimate Equipment",
+			"PRPG Core Rulebook"
+		],
+		"description": [
+			"## Adamantine Breastplate",
+			"",
+			"{SOURCE Ultimate Equipment/124;PRPG Core Rulebook/464}  ",
+			"**Cost** 10,200 gp **Weight** 30 lbs.  ",
+			"**Armor Bonus** +6; **Max Dex Bonus** +3; **Armor Check Penalty** -3  ",
+			"**Arcane Spell Failure Chance** 25%; **Speed** 20 ft./15 ft.  ",
+			"**Category** Medium armor",
+			"",
+			"This nonmagical {eq-armor/breastplate} is made of {eq-material/adamantine}, giving its wearer damage reduction 2/-."
+		]
+	},
+	"dragonhide_plate": {
+		"name": "Dragonhide Plate",
+		"sources": [
+			"Ultimate Equipment",
+			"PRPG Core Rulebook"
+		],
+		"description": [
+			"## Dragonhide Plate",
+			"",
+			"{SOURCE Ultimate Equipment/126;PRPG Core Rulebook/464}  ",
+			"**Cost** 3,300 gp **Weight** 50 lbs.  ",
+			"**Armor Bonus** +9; **Max Dex Bonus** +1; **Armor Check Penalty** -5  ",
+			"**Arcane Spell Failure Chance** 35%; **Speed** 20 ft./15 ft.  ",
+			"**Category** Heavy armor",
+			"",
+			"This suit of {eq-armor/full plate} is made of {eq-material/dragonhide}, rather than metal, so druids can wear it. It is otherwise identical to {rule/masterwork>_a} full plate.",
+			"",
+			"The wearer of dragonhide plate tends to draw the ire of dragons of the same type as that used in the armor's creation."
+		]
+	},
+	"dwarven_plate": {
+		"name": "Dwarven Plate",
+		"sources": [
+			"Ultimate Equipment",
+			"PRPG Core Rulebook"
+		],
+		"description": [
+			"## Dwarven Plate",
+			"",
+			"{SOURCE Ultimate Equipment/126;PRPG Core Rulebook/464}  ",
+			"**Cost** 16,500 gp **Weight** 50 lbs.  ",
+			"**Armor Bonus** +9; **Max Dex Bonus** +1; **Armor Check Penalty** -5  ",
+			"**Arcane Spell Failure Chance** 35%; **Speed** 20 ft./15 ft.  ",
+			"**Category** Heavy armor",
+			"",
+			"This full plate is made of {eq-material/adamantine}, giving its wearer damage reduction 3/-."
+		]
+	},
 	"barding": {
 		"name": "Barding",
 		"sources": [
@@ -1268,6 +1360,71 @@
 			"This massive wooden shield is nearly as tall as its user. In most situations, it provides the indicated shield bonus to your AC. As a standard action, however, you can use a tower shield to grant you {rule/total |cover} until the beginning of your next turn. When using a tower shield in this way, you must choose one edge of your space. That edge is treated as a solid wall for attacks targeting you only. You gain total cover for attacks that pass through this edge and no cover for attacks that do not pass through this edge (see {rule/cover}). The shield does not, however, provide cover against targeted spells; a spellcaster can cast a spell on you by targeting the shield you are holding. You cannot bash with a tower shield, nor can you use your shield hand for anything else.",
 			"",
 			"When employing a tower shield in combat, you take a -2 penalty on attack rolls because of the shield's encumbrance."
+		]
+	},
+	"living_steel_heavy_shield": {
+		"name": "Living Steel Heavy Shield",
+		"sources": [ "Ultimate Equipment" ],
+		"description": [
+			"## Living Steel Heavy Shield",
+			"",
+			"{SOURCE Ultimate Equipment/132}  ",
+			"**Cost** 30 gp **Weight** 15 lbs.  ",
+			"**Armor Bonus** +2; **Max Dex Bonus** &mdash;; **Armor Check Penalty** -2  ",
+			"**Arcane Spell Failure Chance** 15%",
+			"",
+			"This nonmagical {eq-armor/heavy steel shield} is made out of {eq-material/living steel}. It has no enhancement bonus, but its material and construction can damage metal weapons that strike it. Whenever the wielder of a metal weapon (other than one made of adamantine) rolls a natural 1 on an attack against a creature wielding this shield, the item must make a DC 20 Fortitude save or gain the {misc/broken} condition. If the weapon already has the broken condition, it is instead destroyed."
+		]
+	},
+	"darkwood_buckler": {
+		"name": "Darkwood Buckler",
+		"sources": [
+			"Ultimate Equipment",
+			"PRPG Core Rulebook"
+		],
+		"description": [
+			"## Darkwood Buckler",
+			"",
+			"{SOURCE Ultimate Equipment/131;PRPG Core Rulebook/467}  ",
+			"**Cost** 203 gp **Weight** 2-1/2 lbs.  ",
+			"**Armor Bonus** +1; **Max Dex Bonus** &mdash;; **Armor Check Penalty** 0  ",
+			"**Arcane Spell Failure Chance** 5%",
+			"",
+			"This nonmagical masterwork {eq-armor/light wooden shield} is made out of {eq-material/darkwood}. It has no enhancement bonus, but its construction material makes it lighter than a normal wooden shield. It has no armor check penalty."
+		]
+	},
+	"darkwood_shield": {
+		"name": "Darkwood Shield",
+		"sources": [
+			"Ultimate Equipment",
+			"PRPG Core Rulebook"
+		],
+		"description": [
+			"## Darkwood Shield",
+			"",
+			"{SOURCE Ultimate Equipment/131;PRPG Core Rulebook/467}  ",
+			"**Cost** 257 gp **Weight** 5 lbs.  ",
+			"**Armor Bonus** +2; **Max Dex Bonus** &mdash;; **Armor Check Penalty** 0  ",
+			"**Arcane Spell Failure Chance** 15%",
+			"",
+			"This nonmagical masterwork {eq-armor/heavy wooden shield} is made out of {eq-material/darkwood}. It has no enhancement bonus, but its construction material makes it lighter than a normal wooden shield. It has no armor check penalty."
+		]
+	},
+	"mithral_heavy_shield": {
+		"name": "Mithral Heavy Shield",
+		"sources": [
+			"Ultimate Equipment",
+			"PRPG Core Rulebook"
+		],
+		"description": [
+			"## Mithral Heavy Shield",
+			"",
+			"{SOURCE Ultimate Equipment/132;PRPG Core Rulebook/467}  ",
+			"**Cost** 1,020 gp **Weight** 5 lbs.  ",
+			"**Armor Bonus** +2; **Max Dex Bonus** &mdash;; **Armor Check Penalty** 0  ",
+			"**Arcane Spell Failure Chance** 5%",
+			"",
+			"This {eq-armor/heavy «steel_»shield} is made of {eq-material/mithral} and is thus much lighter than a standard steel shield. It has a 5% arcane spell failure chance and no armor check penalty."
 		]
 	}
 }

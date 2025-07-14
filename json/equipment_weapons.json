@@ -4386,10 +4386,7 @@
 		"sources": [ "Pathfinder #123: The Flooded Cathedral" ],
 		"description": [
 			"## Crossbow of the Crab",
-			"",
-			"{SOURCE Pathfinder #123: The Flooded Cathedral/46}  ",
-			"**Aura** no aura (nonmagical); **CL**  ",
-			"**Price** 2,500 gp; **Weight** 24 lbs.",
+			"{SOURCE Pathfinder #123: The Flooded Cathedral/46}",
 			"",
 			"This Large {rule/masterwork>_w} {eq-weapon/repeating heavy crossbow} is powered by a system of clockwork gears and torsion springs. It functions like its normal counterpart above water, but it can also be used underwater, where it has a range increment of 50 feet. Pulling a lever on the crossbow as a move action extends and retracts the weapon's stock and opens and collapses its limbs for easy stowage, making it small enough for a Medium character to carry in a backpack. The crossbow can be enchanted with weapon abilities like any normal masterwork crossbow.",
 			"",
