@@ -64,11 +64,11 @@
 			"**Aura** moderate conjuration; **CL** 7th  ",
 			"**Slot** none; **Price** 19,502 gp; **Weight** 6 lbs.",
 			"",
-			"When thrown, this +1 {magic-enh/returning} {eq-weapon/spear} is considered a one-handed weapon and gains a +2 bonus on the attack roll. If the spear hits when thrown, the wielder can, as an immediate action, expend one use of mythic power to teleport to an unoccupied space adjacent to the creature struck. This effect is treated as {spell/dimension door}, except the wielder can act after teleporting. The spear comes back to its wielder's hand when he appears. If he hadn't taken a move action prior to throwing the spear, he can continue a full attack with the spear.",
+			"When thrown, this +1 {magic-enh/returning} {eq-weapon/spear} is considered a one-handed weapon and gains a +2 bonus on the attack roll. If the spear hits when thrown, the wielder can, as an immediate action, expend one use of mythic power to teleport to an unoccupied space adjacent to the creature struck. This effect is treated as *dimension door,* except the wielder can act after teleporting. The spear comes back to its wielder's hand when he appears. If he hadn't taken a move action prior to throwing the spear, he can continue a full attack with the spear.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Mythic Crafter}, *dimension door,* {spell/telekinesis}; **Price** 9,902 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Mythic Crafter}, {spell/dimension door}, {spell/telekinesis}; **Price** 9,902 gp"
 		]
 	},
 	"talon_sword_normal": {
@@ -1012,11 +1012,11 @@
 			"",
 			"An artful rapier with a lotus petal guard, this magnificent weapon dedicated to Arazni's former incarnation is useful to warriors and artists alike.",
 			"",
-			"The tip of this narrow +3 {eq-weapon/rapier} can be used as a mundane writing instrument, producing any color of ink the wielder desires. Once per day as a free action when the wielder confirms a critical hit against a creature with the Red Crusader's quill, she can inscribe an {spell/arcane mark} on the creature. Once per month, the wielder can instead inscribe a {spell/mark of justice}; this mark ends immediately if the wielder inscribes another *mark of justice* with the Red Crusader's quill.",
+			"The tip of this narrow +3 {eq-weapon/rapier} can be used as a mundane writing instrument, producing any color of ink the wielder desires. Once per day as a free action when the wielder confirms a critical hit against a creature with the Red Crusader's quill, she can inscribe an *arcane mark* on the creature. Once per month, the wielder can instead inscribe a *mark of justice;* this mark ends immediately if the wielder inscribes another *mark of justice* with the Red Crusader's quill.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Magic Arms and Armor}, *arcane mark, mark of justice,* creator must worship {faith/Arazni}; **Price** 12,820 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/arcane mark}, {spell/mark of justice}, creator must worship {faith/Arazni}; **Price** 12,820 gp"
 		]
 	},
 	"oathbow": {
@@ -2158,13 +2158,13 @@
 			"**Aura** moderate evocation; **CL** 9th  ",
 			"**Slot** none; **Price** 39,515 gp; **Weight** 2 lbs.",
 			"",
-			"This +2 {magic-enh/frost} {eq-weapon/short sword} has a blade made of sparkling blue ice. Anyone wielding an ice fang is protected from cold weather as if they were affected by {spell/endure elements}. As a move action, the wielder may cause the blade to either grow to the size of a longsword, melt away to the size of a dagger, or return to its original size. An ice fang left unattended automatically reverts to its original size in 1 minute. An ice fang functions as a dagger, short sword, or longsword depending on the current size of its blade.",
+			"This +2 {magic-enh/frost} {eq-weapon/short sword} has a blade made of sparkling blue ice. Anyone wielding an ice fang is protected from cold weather as if they were affected by *endure elements.* As a move action, the wielder may cause the blade to either grow to the size of a longsword, melt away to the size of a dagger, or return to its original size. An ice fang left unattended automatically reverts to its original size in 1 minute. An ice fang functions as a dagger, short sword, or longsword depending on the current size of its blade.",
 			"",
 			"Once per day upon confirming a critical hit, the wielder may choose to have the blade shatter and send razor-sharp shards of ice flying in a 15-foot cone. The original target of the attack must be within this cone's area of effect. Roll the damage for the critical hit normally and apply to the original target. All other creatures in the cone take damage equal to the amount of the critical hit; one half of this damage is piercing, the other half is cold damage. A successful DC 16 Reflex saving throw reduces the damage by half. After using this ability, the wielder must spend a standard action to reform the blade of the ice fang, at any size, before it can be used as a weapon again.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Magic Arms and Armor}, *endure elements,* {spell/ice storm}, {spell/shrink item}; **Price** 19,915 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/endure elements}, {spell/ice storm}, {spell/shrink item}; **Price** 19,915 gp"
 		]
 	},
 	"dragons_doom": {
@@ -2235,11 +2235,11 @@
 			"",
 			"This +1 {eq-material/mithral} {eq-weapon/bladed scarf} is unusually long and ornate, patched and expanded over several generations into a garish collection of colors and stitching in the shapes of Varisian names and stylized map icons. Because of its extra length and magically enhanced balance and accuracy, when the wielder makes a full attack with Trailwalker, he can strike foes with it as if the item had the reach quality and still attack opponents adjacent to the wielder. This doesn't expand the wielder's reach for any attacks beyond those made as part of the full attack (such as attacks of opportunity).",
 			"",
-			"Once per day as a standard action, Trailwalker's wielder can whirl the scarf through the air and teleport as though using {spell/dimension door}. The wielder can't transport other creatures with this ability. If this ability is used to take the wielder from one spot on a road or trail to another spot on that or a connected road or trail (even if the connection is lengthy or indirect), this is a move action instead.",
+			"Once per day as a standard action, Trailwalker's wielder can whirl the scarf through the air and teleport as though using *dimension door.* The wielder can't transport other creatures with this ability. If this ability is used to take the wielder from one spot on a road or trail to another spot on that or a connected road or trail (even if the connection is lengthy or indirect), this is a move action instead.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Magic Arms and Armor}, *dimension door;* **Price** 20,842 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/dimension door}; **Price** 20,842 gp"
 		]
 	},
 	"valors_minion": {
@@ -2326,11 +2326,11 @@
 			"",
 			"The summoner's sorrow is a +2 {eq-material/cold iron} {eq-weapon/glaive} that deals an extra 2d6 points of damage against summoned creatures, including eidolons. Once each round when the summoner's sorrow damages a summoned or illusory creature, the wielder can make a dispel check as a free action to send away or destroy the creature. This is treated as a dispel magic spell targeted against the spell that created the creature, except that the wielder's base attack bonus is used in place of the wielder's or item's caster level. This ability has no effect on creatures that are called rather than summoned, or on summoned creatures that cannot be dispelled, such as a summoner's eidolon.",
 			"",
-			"Once per day as a free action, the wielder can attempt a {spell/dismissal} against a creature damaged by the weapon instead of dispelling it. This ability functions only against extraplanar creatures (whether summoned or not), and works as the spell of the same name with a Will save DC of 17. The wielder cannot both dispel and dismiss in the same round.",
+			"Once per day as a free action, the wielder can attempt a *dismissal* against a creature damaged by the weapon instead of dispelling it. This ability functions only against extraplanar creatures (whether summoned or not), and works as the spell of the same name with a Will save DC of 17. The wielder cannot both dispel and dismiss in the same round.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Magic Arms and Armor}, *dismissal,* {spell/dispel magic}; **Price** 21,566 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/dismissal}, {spell/dispel magic}; **Price** 21,566 gp"
 		]
 	},
 	"jackals_blade": {
@@ -3110,11 +3110,11 @@
 			"**Aura** strong abjuration, conjuration, and evocation; **CL** 17th  ",
 			"**Slot** none; **Price** 66,750 gp; **Weight** 5 lbs.",
 			"",
-			"Forged with a wicked barbed end that resembles a key, this +2 {magic-enh/redeemed} {eq-weapon/longsword} was once the unholy sword of a diabolist - before a party of adventurers retrieved it from his corpse and repurposed the weapon for good. The devil's key is designed to permanently slay evil outsiders by bringing the fight to their plane of origin so they can be killed outright. Once per day as a swift action after a successful attack against an evil outsider, the wielder can activate the sword to {spell/plane shift} the wielder and the target of the attack to the creature's home plane. The targeted outsider can resist this effect with a successful DC 20 Will save. Once the target of this ability is slain by the wielder, the sword activates another plane shift as an immediate action that brings the wielder back to the exact spot it previously left.",
+			"Forged with a wicked barbed end that resembles a key, this +2 {magic-enh/redeemed} {eq-weapon/longsword} was once the unholy sword of a diabolist - before a party of adventurers retrieved it from his corpse and repurposed the weapon for good. The devil's key is designed to permanently slay evil outsiders by bringing the fight to their plane of origin so they can be killed outright. Once per day as a swift action after a successful attack against an evil outsider, the wielder can activate the sword to *plane shift* the wielder and the target of the attack to the creature's home plane. The targeted outsider can resist this effect with a successful DC 20 Will save. Once the target of this ability is slain by the wielder, the sword activates another plane shift as an immediate action that brings the wielder back to the exact spot it previously left.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/consecrate}, {spell/holy smite}, *plane shift,* creator must be good; **Price** 33,533 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/consecrate}, {spell/holy smite}, {spell/plane shift}, creator must be good; **Price** 33,533 gp"
 		]
 	},
 	"karusetsu_the_cutting_light": {
@@ -3146,7 +3146,7 @@
 			"",
 			"This elegant, short-hafted spear has a razor-sharp head carved from a single piece of ivory. A twisting ring of ivory and jade tentacles hovers and slowly rotates just beneath the spearhead. Along the walnut haft sparkle tiny chips of peridot, each the size of a pinhead. Seaspike is a {magic-enh/+3 aberration |bane} {eq-weapon/shortspear} with three special properties.",
 			"",
-			"First, the wielder of Seaspike can cast {spell/fire shield} (chill) on herself three times per day as a 7th-level sorcerer. The chill shield takes the appearance of luminous blue and green flames that swirl around the wielder as if underwater.",
+			"First, the wielder of Seaspike can cast *fire shield* (chill) on herself three times per day as a 7th-level sorcerer. The chill shield takes the appearance of luminous blue and green flames that swirl around the wielder as if underwater.",
 			"",
 			"Second, Seaspike grants its wielder a swim speed of 30 feet when held. If the wielder already has a swim speed, Seaspike increases the swim speed by 10 feet.",
 			"",
@@ -3154,7 +3154,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** Craft Weapon, *fire shield,* {spell/magic weapon}, creator must have the Weapon Finesse feat, creator must have 5 ranks in Swim; **Price** 35,169 gp"
+			"**Requirements** Craft Weapon, {spell/fire shield}, {spell/magic weapon}, creator must have the Weapon Finesse feat, creator must have 5 ranks in Swim; **Price** 35,169 gp"
 		]
 	},
 	"spellbreaker": {
@@ -3344,7 +3344,7 @@
 			"**Aura** strong abjuration and conjuration; **CL** 15th  ",
 			"**Slot** none; **Price** 82,000 gp; **Weight** 8 lbs.",
 			"",
-			"This +3 {magic-enh/aberration-|bane} {magic-enh/conserving} heavy crossbow is crafted with a darkwood body and embedded with brass, gold, and silver inlays. A creature struck by a bolt from this crossbow is affected by {spell/calm emotions} (Will DC 16). On a confirmed critical hit, the save DC for this effect increases by 4.",
+			"This +3 {magic-enh/aberration-|bane} {magic-enh/conserving} heavy crossbow is crafted with a darkwood body and embedded with brass, gold, and silver inlays. A creature struck by a bolt from this crossbow is affected by *calm emotions* (Will DC 16). On a confirmed critical hit, the save DC for this effect increases by 4.",
 			"",
 			"Up to three times per day as a swift action, the wielder can modify a loaded bolt into a brain-boring shot. These shots are not replenished by the conserving property of the weapon and are destroyed on impact or miss.",
 			"",
@@ -3352,7 +3352,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/break enchantment}, *calm emotions,* {spell/mind fog}; **Price** 41,175 gp"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/break enchantment}, {spell/calm emotions}, {spell/mind fog}; **Price** 41,175 gp"
 		]
 	},
 	"shockwave_blunderbuss": {
@@ -3868,7 +3868,7 @@
 			"",
 			"Ukwar is a +1 {magic-enh/conductive} {eq-weapon/battleaxe} infused with the angry spirit of a Deadwatcher orc leader named Ukwar. After perishing in Scarwall and rising soon thereafter as a {monster/fext}, Ukwar spent decades longing to be free of her curse. When she is permanently slain, her spirit enters her axe. As long as the PCs continue to adventure in Scarwall, she doesn't attempt to exert influence over her wielder - she wants to see each and every one of Scarwall's denizens suffer. If her wielder spends more than 1 day outside of Scarwall (and the castle remains cursed), she attempts to take control and force her wielder to return and finish this job.",
 			"",
-			"As long as Ukwar remains intelligent, the blade grants weapon proficiency with the battleaxe to her wielder. If the wielder is already proficient with battleaxes, he instead gains a +1 bonus on all attack rolls and damage rolls made with Ukwar. She imposes negative levels on nonchaotic evil wielders only when they are outside of Scarwall. She can cast {spell/rage} once per day, and does so on her wielder the first time each day he attacks one of the spirit anchors or the chained spirit - she can be convinced to cast *rage* on her wielder at another time with a successful DC 20 Diplomacy or Intimidate check (a standard action).",
+			"As long as Ukwar remains intelligent, the blade grants weapon proficiency with the battleaxe to her wielder. If the wielder is already proficient with battleaxes, he instead gains a +1 bonus on all attack rolls and damage rolls made with Ukwar. She imposes negative levels on nonchaotic evil wielders only when they are outside of Scarwall. She can cast *rage* once per day, and does so on her wielder the first time each day he attacks one of the spirit anchors or the chained spirit - she can be convinced to cast *rage* on her wielder at another time with a successful DC 20 Diplomacy or Intimidate check (a standard action).",
 			"",
 			"Ukwar's special purpose is to lift Scarwall's curse, and as long as her wielder is engaged in this quest and is within Scarwall, the weapon functions as a +1 conductive undead-{magic-enh/bane} battleaxe. If Scarwall's curse is lifted, Ukwar's spirit leaves the axe behind, and this weapon returns to being an unintelligent +1 conductive battleaxe.",
 			"",
@@ -3876,7 +3876,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Magic Arms and Armor}, *rage,* {spell/spectral hand}, {spell/summon monster I}; **Price** 14,335 gp",
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/rage}, {spell/spectral hand}, {spell/summon monster I}; **Price** 14,335 gp",
 			"",
 			"### Statistics",
 			"",
