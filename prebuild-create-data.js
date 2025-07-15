@@ -234,18 +234,19 @@ const specialContainerBlocks = {
 	renderer: (token) => {
 		const {text = "", attrs = {}, meta} = token;
 		const n = meta.name;
-		const { c = "" } = attrs;
-		let marked2;
+		let marked2; // don't make an instance unless we really need it
 		switch(n) {
 			case "archetype":
+				const { c = "" } = attrs;
 				const trimmed = text.trim();
 				const [ title = "", repl = "", desc = "" ] = trimmed.split(/\n+/);
 				const link = convertTextToLink(title);
 				$.flags.link = true;
+				marked2 = makeNewMarkedInstance();
 				return `<div className="archetype">`
-					+ `<p><Link to="/arc-${c}/${link}">${title}</Link></p>`
-					+ `<p><strong>Modifes or Replaces:</strong> ${repl}</p>`
-					+ `<p>${desc}</p>`
+					+ `<p><Link to="/arc-${c}/${link}">${removeCurlyBrackets(marked2.parse(title))}</Link></p>`
+					+ `<p><strong>Modifes or Replaces:</strong> ${removeCurlyBrackets(marked2.parse(repl))}</p>`
+					+ `<p>${removeCurlyBrackets(marked2.parse(desc))}</p>`
 					+ `</div>\n`;
 			case "item":
 				$.flags.item = true;
@@ -259,9 +260,7 @@ const specialContainerBlocks = {
 			case "aside":
 				marked2 = makeNewMarkedInstance();
 				return (
-					`<${n}>${
-						removeCurlyBrackets(marked2.parse(text))
-					}</${n}>`
+					`<aside>${removeCurlyBrackets(marked2.parse(text))}</aside>`
 				);
 		}
 		return false;
