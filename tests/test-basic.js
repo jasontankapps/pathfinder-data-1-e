@@ -279,7 +279,7 @@ function isGood(object, what, index) {
 	}
 	let found = false;
 	if(!Object.entries(object).some(([prop, value]) => {
-		const { copyof, redirect, ...etc } = value;
+		const { copyof, redirect, description = [], ...etc } = value;
 		if(redirect) {
 			if(!object[redirect]) {
 				msg.push("Invalid redirect property of " + prop);

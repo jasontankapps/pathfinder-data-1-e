@@ -1669,10 +1669,7 @@
 	"mote_archon_swarm": { "redirect": "archon_swarm_mote_archon_swarm" },
 	"archon_bastion_archon": {
 		"name": "Bastion Archon",
-		"sources": [
-			"Planar Adventures",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Planar Adventures" ],
 		"description": [
 			"*This massive, four-armed figure is protected by thick layers of rocky armor. Its face is a shimmering, pulsating globe of holy light.*",
 			"",
@@ -1766,10 +1763,7 @@
 	"archon_bastion": { "redirect": "archon_bastion_archon" },
 	"archon_codex_archon": {
 		"name": "Codex Archon",
-		"sources": [
-			"Monster Summoner's Handbook",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
 			"*This enormous book has wings of glowing light and an angelic figure on the cover that gazes out watchfully as though alive.*",
 			"",
@@ -1835,10 +1829,7 @@
 	"archon_codex": { "redirect": "archon_codex_archon" },
 	"archon_exscinder": {
 		"name": "Exscinder (Archon)",
-		"sources": [
-			"Bestiary 5",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Bestiary 5" ],
 		"description": [
 			"*This massive humanoid figure has no mouth, and carries a burning sword that matches its flaming wings.*",
 			"",
@@ -1899,10 +1890,7 @@
 	"exscinder": { "redirect": "archon_exscinder" },
 	"archon_gate_archon": {
 		"name": "Gate Archon",
-		"sources": [
-			"Bestiary 5",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Bestiary 5" ],
 		"description": [
 			"*This masked humanoid being has wings and armor of rune-carved gray stone, and its eyes glow blue.*",
 			"",
@@ -1974,10 +1962,7 @@
 	"archon_gate": { "redirect": "archon_gate_archon" },
 	"archon_hammer_archon": {
 		"name": "Hammer Archon",
-		"sources": [
-			"Pathfinder #107: Scourge of the Godclaw",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Pathfinder #107: Scourge of the Godclaw" ],
 		"description": [
 			"*This stern-looking humanoid wears a suit of armor decorated with sharp lines. He wields a hammer-headed polearm with a wicked spike on its reverse side.*",
 			"",
@@ -2061,10 +2046,7 @@
 	"archon_hammer": { "redirect": "archon_hammer_archon" },
 	"archon_harbinger_archon": {
 		"name": "Harbinger Archon",
-		"sources": [
-			"Bestiary 3",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Bestiary 3" ],
 		"description": [
 			"*What appears to be a miniaturized orrery zips through the air, with thin, sharp blades flashing periodically from within.*",
 			"",
@@ -2259,10 +2241,7 @@
 	"archon_lantern": { "redirect": "archon_lantern_archon" },
 	"archon_legion_archon": {
 		"name": "Legion Archon",
-		"sources": [
-			"Bestiary 3",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Bestiary 3" ],
 		"description": [
 			"*This celestial knight bears a flaming blade as it flies through the air on metallic wings that seem to grow from its armor.*",
 			"",
@@ -2330,10 +2309,7 @@
 	"archon_legion": { "redirect": "archon_legion_archon" },
 	"archon_preceptor_archon": {
 		"name": "Preceptor Archon",
-		"sources": [
-			"Heaven Unleashed",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Heaven Unleashed" ],
 		"description": [
 			"*This creature resembles a tengu, save for its eyes' golden glow. Its immaculate white robes contrast starkly with its black feathers, and its willow staff sheds a pale light.*",
 			"",
@@ -2394,10 +2370,7 @@
 	"archon_preceptor": { "redirect": "archon_preceptor_archon" },
 	"archon_shield_archon": {
 		"name": "Shield Archon",
-		"sources": [
-			"Bestiary 2",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Bestiary 2" ],
 		"description": [
 			"*This armored giant is sheathed in metal from head to toe. One arm ends in a spear-like blade, the other in a massive shield.*",
 			"",
@@ -2461,10 +2434,7 @@
 	"archon_shield": { "redirect": "archon_shield_archon" },
 	"archon_spyglass_archon": {
 		"name": "Spyglass Archon",
-		"sources": [
-			"Chronicle of the Righteous",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Chronicle of the Righteous" ],
 		"description": [
 			"*The movements of this black-skinned humanoid are unnaturally quiet, clearly belonging to one used to slinking unseen and unheard through dark places. Ebon wings and a matching mask complete this figure's stealthy appearance.*",
 			"",
@@ -2531,10 +2501,7 @@
 	"archon_spyglass": { "redirect": "archon_spyglass_archon" },
 	"archon_stag_archon": {
 		"name": "Stag Archon",
-		"sources": [
-			"Inner Sea Gods",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Inner Sea Gods" ],
 		"description": [
 			"*This stag-headed humanoid has large, sweeping antlers and wields a finely-crafted longbow.*",
 			"",
@@ -2594,10 +2561,7 @@
 	"archon_stag": { "redirect": "archon_stag_archon" },
 	"archon_star_archon": {
 		"name": "Star Archon",
-		"sources": [
-			"Bestiary 2",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Bestiary 2" ],
 		"description": [
 			"*This powerful humanoid floats in the air on a nimbus of pearly light. He grips a golden starknife in one hand.*",
 			"",
@@ -3615,10 +3579,7 @@
 	"asurendra": { "redirect": "asura_asurendra" },
 	"asura_hishandura": {
 		"name": "Hishandura (Asura)",
-		"sources": [
-			"Pathfinder #136: Temple of the Peacock Spirit",
-			"Bestiary 3"
-		],
+		"sources": [ "Pathfinder #136: Temple of the Peacock Spirit" ],
 		"description": [
 			"*This muscular fiend has two vertically mirrored faces, four arms, and a quartet of sinister punching daggers*",
 			"",
@@ -3700,10 +3661,7 @@
 	"hishandura": { "redirect": "asura_hishandura" },
 	"asura_japalisura": {
 		"name": "Japalisura (Asura)",
-		"sources": [
-			"Pathfinder #136: Temple of the Peacock Spirit",
-			"Bestiary 3"
-		],
+		"sources": [ "Pathfinder #136: Temple of the Peacock Spirit" ],
 		"description": [
 			"*This lithe, six-armed humanoid has tusks that curve from his chin and carries a pair of bows.*",
 			"",
@@ -3785,10 +3743,7 @@
 	"japalisura": { "redirect": "asura_japalisura" },
 	"asura_nikaramsa": {
 		"name": "Nikaramsa (Asura)",
-		"sources": [
-			"Book of the Damned",
-			"Bestiary 3"
-		],
+		"sources": [ "Book of the Damned" ],
 		"description": [
 			"*This muscular giant has two ferocious lion heads, each with a long, black, lashing tongue.*",
 			"",
@@ -3980,10 +3935,7 @@
 	"upasunda": { "redirect": "asura_upasunda" },
 	"asura_vayuphak": {
 		"name": "Vayuphak (Asura)",
-		"sources": [
-			"Occult Bestiary",
-			"Bestiary 3"
-		],
+		"sources": [ "Occult Bestiary" ],
 		"description": [
 			"*This blue-skinned humanoid has two pairs of ebony wings protruding from its waist. Talon-like nails grace its hands.*",
 			"",

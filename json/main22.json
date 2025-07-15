@@ -1,7 +1,6 @@
 {
 	"spells_evocation": {
 		"title": "Evocation Spells",
-		"sources": [],
 		"description": [
 			":::item",
 			"",
@@ -400,7 +399,6 @@
 	},
 	"spells_illusion": {
 		"title": "Illusion Spells",
-		"sources": [],
 		"description": [
 			":::item",
 			"",
@@ -666,7 +664,6 @@
 	},
 	"spells_necromancy": {
 		"title": "Necromancy Spells",
-		"sources": [],
 		"description": [
 			":::item",
 			"",
@@ -1029,7 +1026,6 @@
 	},
 	"spells_transmutation": {
 		"title": "Transmutation Spells",
-		"sources": [],
 		"description": [
 			":::item",
 			"",

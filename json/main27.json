@@ -1,7 +1,6 @@
 {
 	"magic_weapons": {
 		"title": "Magic Weapons",
-		"sources": [],
 		"description": [
 			"::main[Magic Weapons]{to=rule/magic_weapons}",
 			"",
@@ -517,7 +516,6 @@
 	},
 	"magic_rings": {
 		"title": "Magic Rings",
-		"sources": [],
 		"description": [
 			"::main[Rings]{to=rule/rings}",
 			"",
@@ -766,7 +764,6 @@
 	},
 	"magic_rods": {
 		"title": "Magic Rods",
-		"sources": [],
 		"description": [
 			"::main[Rods]{to=rule/rods}",
 			"",
@@ -1047,12 +1044,13 @@
 			"Champions of Corruption",
 			"Chronicle of Legends",
 			"Elemental Master's Handbook",
+			"Faiths of Balance",
 			"Heroes of the High Court",
 			"Horror Adventures",
 			"Inner Sea Gods",
+			"Inner Sea Magic",
 			"Pathfinder #39: The City of Seven Spears",
 			"Pathfinder #128: Songbird, Scion, Saboteur",
-			"Ultimate Magic",
 			"Ultimate Wilderness"
 		],
 		"description": [
@@ -1631,7 +1629,6 @@
 	},
 	"magic_armor": {
 		"title": "Magic Armor",
-		"sources": [],
 		"description": [
 			"::main[Magic Armor]{to=rule/magic_armor}",
 			"",
@@ -1895,7 +1892,6 @@
 	},
 	"magic_artifacts": {
 		"title": "Artifacts",
-		"sources": [],
 		"description": [
 			"::main[Artifacts]{to=rule/artifacts}",
 			"",
@@ -2254,7 +2250,6 @@
 	},
 	"magic_cursed": {
 		"title": "Cursed Items",
-		"sources": [],
 		"searchgroup": "magic",
 		"description": [
 			"::main[Cursed Magic Items]{to=rule/cursed_items}",
@@ -2448,7 +2443,6 @@
 	},
 	"magic_enhancements": {
 		"title": "Magic - Enhancements",
-		"sources": [],
 		"description": [
 			":::item",
 			"",
@@ -2822,7 +2816,6 @@
 	},
 	"magic_staves": {
 		"title": "Magic Staves",
-		"sources": [],
 		"description": [
 			":::item",
 			"",

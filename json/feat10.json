@@ -294,7 +294,10 @@
 	},
 	"leadership": {
 		"name": "Leadership",
-		"sources": [ "PRPG Core Rulebook" ],
+		"sources": [
+			"PRPG Core Rulebook",
+			"Ultimate Intrigue"
+		],
 		"description": [
 			"## Leadership",
 			"",

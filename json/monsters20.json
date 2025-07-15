@@ -1,10 +1,7 @@
 {
 	"rakshasa": {
 		"name": "Rakshasa",
-		"sources": [
-			"Pathfinder RPG Bestiary",
-			"Bestiary 3"
-		],
+		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*This figure's backward-bending fingers and its bestial, snarling visage leave little doubt as to its fiendish nature.*",
 			"",
@@ -65,10 +62,7 @@
 	},
 	"rakshasa_amanusya": {
 		"name": "Amanusya (Rakshasa)",
-		"sources": [
-			"Occult Bestiary",
-			"Bestiary 3"
-		],
+		"sources": [ "Occult Bestiary" ],
 		"description": [
 			"*This lithe dancer would be beautiful were it not for her clawed hands, backward-facing head, and long, lolling tongue.*",
 			"",
@@ -133,10 +127,7 @@
 	"amanusya": { "redirect": "rakshasa_amanusya" },
 	"rakshasa_avatarana": {
 		"name": "Avatarana (Rakshasa)",
-		"sources": [
-			"Occult Bestiary",
-			"Bestiary 3"
-		],
+		"sources": [ "Occult Bestiary" ],
 		"description": [
 			"*Instead of legs, this bald, emaciated humanoid has a second set of long, muscular arms and a leathery flap covering its face.*",
 			"",
@@ -338,10 +329,7 @@
 	"marai": { "redirect": "rakshasa_marai" },
 	"rakshasa_orsatka": {
 		"name": "Orsatka (Rakshasa)",
-		"sources": [
-			"Book of the Damned",
-			"Bestiary 3"
-		],
+		"sources": [ "Book of the Damned" ],
 		"description": [
 			"*This hulking bear-headed fiend has a mouth full of fangs and clawed, six-fingered hands with too many knuckles.*",
 			"",
@@ -632,10 +620,7 @@
 	"tataka": { "redirect": "rakshasa_tataka" },
 	"rakshasa_zalyakavat": {
 		"name": "Zalyakavat (Rakshasa)",
-		"sources": [
-			"Pathfinder #130: City in the Lion's Eye",
-			"Bestiary 3"
-		],
+		"sources": [ "Pathfinder #130: City in the Lion's Eye" ],
 		"description": [
 			"*This sinewy humanoid with putrid green skin and a grotesque, shrew-like snout wears little more than a colorful silk sarong and a thin, flexible blade worn as a belt.*",
 			"",
@@ -2302,11 +2287,7 @@
 	"annihilator_robot": { "redirect": "robot_annihilator_robot" },
 	"robot_arachnid_robot": {
 		"name": "Arachnid Robot",
-		"sources": [
-			"Numeria, Land of Fallen Stars",
-			"Inner Sea Bestiary",
-			"Bestiary 5"
-		],
+		"sources": [ "Numeria, Land of Fallen Stars" ],
 		"description": [
 			"*This dog-sized, spider-like robot has a plasma torch mounted on a stinger-like limb and gripping claws on its forelegs.*",
 			"",
@@ -2366,11 +2347,7 @@
 	"arachnid_robot": { "redirect": "robot_arachnid_robot" },
 	"robot_collector_robot": {
 		"name": "Collector Robot",
-		"sources": [
-			"Pathfinder #85: Fires of Creation",
-			"Inner Sea Bestiary",
-			"Bestiary 5"
-		],
+		"sources": [ "Pathfinder #85: Fires of Creation" ],
 		"description": [
 			"*A soft whirring noise accompanies this flying mechanical creature. Its arms and hands end in spindly, multi-jointed fingers, and four circular rotors hold the creature aloft.*",
 			"",
@@ -2454,11 +2431,7 @@
 	"collector_robot": { "redirect": "robot_collector_robot" },
 	"robot_director_robot": {
 		"name": "Director Robot",
-		"sources": [
-			"Pathfinder #90: The Divinity Drive",
-			"Inner Sea Bestiary",
-			"Bestiary 5"
-		],
+		"sources": [ "Pathfinder #90: The Divinity Drive" ],
 		"description": [
 			"*A humanoid torso and four spindly legs sprout from the top of this black-paneled orb. Buzzing mechanical tentacles churn and writhe below its bulk.*",
 			"",
@@ -2547,11 +2520,7 @@
 	"director_robot": { "redirect": "robot_director_robot" },
 	"robot_evaluator_robot": {
 		"name": "Evaluator Robot",
-		"sources": [
-			"Pathfinder #90: The Divinity Drive",
-			"Inner Sea Bestiary",
-			"Bestiary 5"
-		],
+		"sources": [ "Pathfinder #90: The Divinity Drive" ],
 		"description": [
 			"*With wings and an unearthly glow, this mechanical being could easily be mistaken for an angel.*",
 			"",
@@ -2699,11 +2668,7 @@
 	"gearsman_robot": { "redirect": "robot_gearsman_robot" },
 	"robot_gladiator_robot": {
 		"name": "Gladiator Robot",
-		"sources": [
-			"Construct Handbook",
-			"Inner Sea Bestiary",
-			"Bestiary 5"
-		],
+		"sources": [ "Construct Handbook" ],
 		"description": [
 			"*One of this metallic humanoid's four arms ends in the barrel of a large-bore rifle, while another ends in a spinning circular blade. Its final two arms grasp a massive chainsaw.*",
 			"",
@@ -2793,11 +2758,7 @@
 	"gladiator_robot": { "redirect": "robot_gladiator_robot" },
 	"robot_juggernaut_robot": {
 		"name": "Juggernaut Robot",
-		"sources": [
-			"Pathfinder #89: Palace of Fallen Stars",
-			"Inner Sea Bestiary",
-			"Bestiary 5"
-		],
+		"sources": [ "Pathfinder #89: Palace of Fallen Stars" ],
 		"description": [
 			"*This towering mechanical humanoid stares down from a soulless violet eye. Its metallic fists crackle with electricity.*",
 			"",
@@ -2885,11 +2846,7 @@
 	"juggernaut_robot": { "redirect": "robot_juggernaut_robot" },
 	"robot_mannequin_robot": {
 		"name": "Mannequin Robot",
-		"sources": [
-			"Numeria, Land of Fallen Stars",
-			"Inner Sea Bestiary",
-			"Bestiary 5"
-		],
+		"sources": [ "Numeria, Land of Fallen Stars" ],
 		"description": [
 			"*This impassive humanoid has shiny, pale skin and an eerily expressionless face.*",
 			"",
@@ -3026,11 +2983,7 @@
 	"myrmidon_robot": { "redirect": "robot_myrmidon_robot" },
 	"robot_observer_robot": {
 		"name": "Observer Robot",
-		"sources": [
-			"Pathfinder #86: Lords of Rust",
-			"Inner Sea Bestiary",
-			"Bestiary 5"
-		],
+		"sources": [ "Pathfinder #86: Lords of Rust" ],
 		"description": [
 			"*This small robot is reminiscent of a beetle with a pair of pincers extending from the front of its body.*",
 			"",
@@ -3097,11 +3050,7 @@
 	"robot_observer": { "redirect": "robot_observer_robot" },
 	"robot_observer_robot_swarm": {
 		"name": "Observer Robot Swarm",
-		"sources": [
-			"Pathfinder #86: Lords of Rust",
-			"Inner Sea Bestiary",
-			"Bestiary 5"
-		],
+		"sources": [ "Pathfinder #86: Lords of Rust" ],
 		"description": [
 			"::mh[Observer Robot Swarm]{cr=\"10\"}",
 			"",
@@ -3161,11 +3110,7 @@
 	"robot_observer_swarm": { "redirect": "robot_observer_robot_swarm" },
 	"robot_octopod_mechanic_drone": {
 		"name": "Octopod Mechanic Drone",
-		"sources": [
-			"Construct Handbook",
-			"Inner Sea Bestiary",
-			"Bestiary 5"
-		],
+		"sources": [ "Construct Handbook" ],
 		"description": [
 			"*This octopus-like robot has eight tentacles that it uses to repair multiple machines at a time.*",
 			"",
@@ -3234,11 +3179,7 @@
 	"octopod_mechanic_drone": { "redirect": "robot_octopod_mechanic_drone" },
 	"robot_reclamation_robot": {
 		"name": "Reclamation Robot",
-		"sources": [
-			"Pathfinder #88: Valley of the Brain Collectors",
-			"Inner Sea Bestiary",
-			"Bestiary 5"
-		],
+		"sources": [ "Pathfinder #88: Valley of the Brain Collectors" ],
 		"description": [
 			"*This complex-looking automaton's multiple arms end in gripping talons. It moves about on a set of four legs and has a strange bell-shaped head.*",
 			"",
@@ -3333,11 +3274,7 @@
 	"reclamation_robot": { "redirect": "robot_reclamation_robot" },
 	"robot_repair_robot": {
 		"name": "Repair Robot",
-		"sources": [
-			"Construct Handbook",
-			"Inner Sea Bestiary",
-			"Bestiary 5"
-		],
+		"sources": [ "Construct Handbook" ],
 		"description": [
 			"*This quadruped robot has glowing eyes and dexterous hands capable of examining and fixing machinery.*",
 			"",
@@ -3401,11 +3338,7 @@
 	"repair_robot": { "redirect": "robot_repair_robot" },
 	"robot_scrapyard_robot": {
 		"name": "Scrapyard Robot",
-		"sources": [
-			"Numeria, Land of Fallen Stars",
-			"Inner Sea Bestiary",
-			"Bestiary 5"
-		],
+		"sources": [ "Numeria, Land of Fallen Stars" ],
 		"description": [
 			"*Frayed wires and broken-off protrusions sprout from mechanical construct, and one of its salvaged arms ends in a spinning blade.*",
 			"",
@@ -3472,11 +3405,7 @@
 	"scrapyard_robot": { "redirect": "robot_scrapyard_robot" },
 	"robot_surgeon_robot": {
 		"name": "Surgeon Robot",
-		"sources": [
-			"Pathfinder #89: Palace of Fallen Stars",
-			"Inner Sea Bestiary",
-			"Bestiary 5"
-		],
+		"sources": [ "Pathfinder #89: Palace of Fallen Stars" ],
 		"description": [
 			"*This robot has the general appearance of a skeletal preying mantis fashioned entirely from gleaming metal. An array of limbs fitted with laser scalpels, syringes, and other surgical devices spring from its body.*",
 			"",
@@ -3562,10 +3491,7 @@
 	"surgeon_robot": { "redirect": "robot_surgeon_robot" },
 	"robot_terraformer_robot": {
 		"name": "Terraformer Robot",
-		"sources": [
-			"Bestiary 5",
-			"Inner Sea Bestiary"
-		],
+		"sources": [ "Bestiary 5" ],
 		"description": [
 			"*This large robot's arms end in an assortment of drills, torches, hammers, and vices.*",
 			"",
@@ -3627,11 +3553,7 @@
 	"terraformer_robot": { "redirect": "robot_terraformer_robot" },
 	"robot_thought_harvester_robot": {
 		"name": "Thought Harvester Robot",
-		"sources": [
-			"Pathfinder #87: The Choking Tower",
-			"Inner Sea Bestiary",
-			"Bestiary 5"
-		],
+		"sources": [ "Pathfinder #87: The Choking Tower" ],
 		"description": [
 			"*Rows of crystal spheres line the back of this four-legged robot. A single glowing eye sits in the middle of its head.*",
 			"",
@@ -3706,11 +3628,7 @@
 	"thought_harvester_robot": { "redirect": "robot_thought_harvester_robot" },
 	"robot_torturer_robot": {
 		"name": "Torturer Robot",
-		"sources": [
-			"Numeria, Land of Fallen Stars",
-			"Inner Sea Bestiary",
-			"Bestiary 5"
-		],
+		"sources": [ "Numeria, Land of Fallen Stars" ],
 		"description": [
 			"*Spinning blades, long needles, and crystal-tipped rods stud the surface of this hovering metallic sphere.*",
 			"",
@@ -3773,11 +3691,7 @@
 	"torturer_robot": { "redirect": "robot_torturer_robot" },
 	"robot_warden_robot": {
 		"name": "Warden Robot",
-		"sources": [
-			"Pathfinder #87: The Choking Tower",
-			"Inner Sea Bestiary",
-			"Bestiary 5"
-		],
+		"sources": [ "Pathfinder #87: The Choking Tower" ],
 		"description": [
 			"*Crafted of a strange, dull metal, this bulky construct stomps forward on stout, multi-jointed legs.*",
 			"",

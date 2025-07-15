@@ -189,7 +189,10 @@
 		"name": "Sanity and Madness",
 		"tags": "curing insanity, types of insanity",
 		"subtitle": "Gamemastery",
-		"sources": [ "GameMastery Guide" ],
+		"sources": [
+			"GameMastery Guide",
+			"Horror Adventures"
+		],
 		"description": [
 			"{SOURCE GameMastery Guide/250}",
 			"",

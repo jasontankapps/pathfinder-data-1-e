@@ -1281,10 +1281,7 @@
 	},
 	"kami_dosojin": {
 		"name": "Dosojin (Kami)",
-		"sources": [
-			"Pathfinder #52: Forest of Spirits",
-			"Bestiary 3"
-		],
+		"sources": [ "Pathfinder #52: Forest of Spirits" ],
 		"description": [
 			"*This ancient, weathered statue of a venerable monk with a shaven head possesses an air of both reverence and patience.*",
 			"",
@@ -1360,10 +1357,7 @@
 	"dosojin": { "redirect": "kami_dosojin" },
 	"kami_dunagh": {
 		"name": "Dunagh (Kami)",
-		"sources": [
-			"Daughters of Fury",
-			"Bestiary 3"
-		],
+		"sources": [ "Daughters of Fury" ],
 		"description": [
 			"*This spectral woman holds a silver urn and floats in midair with an unearthly grace and demanding presence.*",
 			"",
@@ -1426,10 +1420,7 @@
 	"dunagh": { "redirect": "kami_dunagh" },
 	"kami_fukujin": {
 		"name": "Fukujin (Kami)",
-		"sources": [
-			"Pathfinder #52: Forest of Spirits",
-			"Bestiary 3"
-		],
+		"sources": [ "Pathfinder #52: Forest of Spirits" ],
 		"description": [
 			"*This diminutive humanoid looks like a truly ancient but proud old warrior. A tiny tree branch juts from the top of his head.*",
 			"",
@@ -1590,10 +1581,7 @@
 	"jinushigami": { "redirect": "kami_jinushigami" },
 	"kami_kaminari": {
 		"name": "Kaminari (Kami)",
-		"sources": [
-			"Pathfinder #52: Forest of Spirits",
-			"Bestiary 3"
-		],
+		"sources": [ "Pathfinder #52: Forest of Spirits" ],
 		"description": [
 			"*This enormous humanoid possesses vibrant green skin and equally loud hair, and is surrounded by a ring of huge drums and storm clouds.*",
 			"",
@@ -1798,10 +1786,7 @@
 	"shikigami": { "redirect": "kami_shikigami" },
 	"kami_suijin": {
 		"name": "Suijin (Kami)",
-		"sources": [
-			"Pathfinder #52: Forest of Spirits",
-			"Bestiary 3"
-		],
+		"sources": [ "Pathfinder #52: Forest of Spirits" ],
 		"description": [
 			"*This massive, serpentine carp explodes forth from the water, its rainbow-colored scales gleaming in the sunlight and glossy eyes bright with good-natured intelligence.*",
 			"",
@@ -3108,10 +3093,7 @@
 	"leech_swarm": { "redirect": "leech_leech_swarm" },
 	"leshy_cactus_leshy": {
 		"name": "Cactus Leshy",
-		"sources": [
-			"Pathfinder #115: Trail of the Hunted",
-			"Bestiary 3"
-		],
+		"sources": [ "Pathfinder #115: Trail of the Hunted" ],
 		"description": [
 			"*A prickly cactus's arms are covered in vicious spines.*",
 			"",
@@ -3189,10 +3171,7 @@
 	"cactus_leshy": { "redirect": "leshy_cactus_leshy" },
 	"leshy_flytrap_leshy": {
 		"name": "Flytrap Leshy",
-		"sources": [
-			"Bestiary 5",
-			"Bestiary 3"
-		],
+		"sources": [ "Bestiary 5" ],
 		"description": [
 			"*This cluster of flytraps has a vaguely humanoid shape. The beady eyes atop the largest flytrap glare menacingly.*",
 			"",
@@ -3493,10 +3472,7 @@
 	"leaf_leshy": { "redirect": "leshy_leaf_leshy" },
 	"leshy_lichen_leshy": {
 		"name": "Lichen Leshy",
-		"sources": [
-			"Pathfinder #116: Fangs of War",
-			"Bestiary 3"
-		],
+		"sources": [ "Pathfinder #116: Fangs of War" ],
 		"description": [
 			"*This miniature plant person has a body composed of lichens and a rain cape woven from leafy growths.*",
 			"",
@@ -3573,10 +3549,7 @@
 	"lichen_leshy": { "redirect": "leshy_lichen_leshy" },
 	"leshy_lotus_leshy": {
 		"name": "Lotus Leshy",
-		"sources": [
-			"Bestiary 5",
-			"Bestiary 3"
-		],
+		"sources": [ "Bestiary 5" ],
 		"description": [
 			"*A plant whose body resembles a blooming lotus flower exudes an air of serenity.*",
 			"",
@@ -3724,10 +3697,7 @@
 	"seaweed_leshy": { "redirect": "leshy_seaweed_leshy" },
 	"leshy_snapdragon_leshy": {
 		"name": "Snapdragon Leshy",
-		"sources": [
-			"Pathfinder #116: Fangs of War",
-			"Bestiary 3"
-		],
+		"sources": [ "Pathfinder #116: Fangs of War" ],
 		"description": [
 			"*Verdant stalks entwine one another to create a humanoid shape with a giant snapdragon blossom for a head.*",
 			"",
@@ -3802,10 +3772,7 @@
 	"snapdragon_leshy": { "redirect": "leshy_snapdragon_leshy" },
 	"leshy_sunflower_leshy": {
 		"name": "Sunflower Leshy",
-		"sources": [
-			"Pathfinder #115: Trail of the Hunted",
-			"Bestiary 3"
-		],
+		"sources": [ "Pathfinder #115: Trail of the Hunted" ],
 		"description": [
 			"*The petals of this small plant's large, flat, flowering head reflect light in unnatural ways.*",
 			"",

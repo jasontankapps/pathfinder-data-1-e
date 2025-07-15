@@ -1886,10 +1886,7 @@
 	},
 	"demon_lord_baphomet": {
 		"name": "Baphomet (Demon Lord)",
-		"sources": [
-			"Pathfinder #77: Herald of the Ivory Labyrinth",
-			"Bestiary 4"
-		],
+		"sources": [ "Pathfinder #77: Herald of the Ivory Labyrinth" ],
 		"description": [
 			"*Fire burns on the central horn and in the rheumy eyes of this bestial winged demon, who stands more than twice a human's height.*",
 			"",
@@ -2051,10 +2048,7 @@
 	"dagon": { "redirect": "demon_lord_dagon" },
 	"demon_lord_deskari": {
 		"name": "Deskari (Demon Lord)",
-		"sources": [
-			"Pathfinder #78: City of Locusts",
-			"Bestiary 4"
-		],
+		"sources": [ "Pathfinder #78: City of Locusts" ],
 		"description": [
 			"*Larger than an elephant, this towering insectile nightmare wields a scythe made of bone. Its wings are swarms of biting flies, and its inhuman eyes glitter with cruel intelligence.*",
 			"",
@@ -2222,10 +2216,7 @@
 	"kostchtchie": { "redirect": "demon_lord_kostchtchie" },
 	"demon_lord_nocticula": {
 		"name": "Nocticula (Demon Lord)",
-		"sources": [
-			"Pathfinder #76: The Midnight Isles",
-			"Bestiary 4"
-		],
+		"sources": [ "Pathfinder #76: The Midnight Isles" ],
 		"description": [
 			"*This frighteningly majestic creature spreads wide her runeadorned wings. Molten iron weeps from her hooves, and her three tails are studded with barbs.*",
 			"",
@@ -2391,10 +2382,7 @@
 	"pazuzu": { "redirect": "demon_lord_pazuzu" },
 	"demon_lord_shax": {
 		"name": "Shax (Demon Lord)",
-		"sources": [
-			"Pathfinder #74: Sword of Valor",
-			"Bestiary 4"
-		],
+		"sources": [ "Pathfinder #74: Sword of Valor" ],
 		"description": [
 			"*This stork-headed, winged humanoid is spattered with blood and wields a pair of gory, razor-sharp daggers in his dripping hands.*",
 			"",
@@ -2478,10 +2466,7 @@
 	"shax": { "redirect": "demon_lord_shax" },
 	"demon_lord_sifkesh": {
 		"name": "Sifkesh (Demon Lord)",
-		"sources": [
-			"Pathfinder #75: Demon's Heresy",
-			"Bestiary 4"
-		],
+		"sources": [ "Pathfinder #75: Demon's Heresy" ],
 		"description": [
 			"*This gaunt woman has blood-soaked hair, eyes and lips stitched shut with wire, and severed limbs that float nearby as if they were still attached.*",
 			"",
@@ -2564,10 +2549,7 @@
 	"sifkesh": { "redirect": "demon_lord_sifkesh" },
 	"demon_lord_xoveron": {
 		"name": "Xoveron (Demon Lord)",
-		"sources": [
-			"Pathfinder #73: The Worldwound Incursion",
-			"Bestiary 4"
-		],
+		"sources": [ "Pathfinder #73: The Worldwound Incursion" ],
 		"description": [
 			"*This hulking, four-armed, four-headed, sting-tailed gargoyle stands as tall as a house.*",
 			"",

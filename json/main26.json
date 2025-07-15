@@ -1,7 +1,6 @@
 {
 	"traits_combat": {
 		"title": "Combat Traits",
-		"sources": [],
 		"searchgroup": "trait",
 		"compileFrom": {
 			"source": "trait",
@@ -20,7 +19,6 @@
 	},
 	"traits_faith": {
 		"title": "Faith Traits",
-		"sources": [],
 		"searchgroup": "trait",
 		"compileFrom": {
 			"source": "trait",
@@ -40,7 +38,6 @@
 	"traits_social": {
 		"title": "Social Traits",
 		"searchgroup": "trait",
-		"sources": [],
 		"compileFrom": {
 			"source": "trait",
 			"targets": [
@@ -58,7 +55,6 @@
 	},
 	"traits_magic": {
 		"title": "Magic Traits",
-		"sources": [],
 		"searchgroup": "trait",
 		"compileFrom": {
 			"source": "trait",

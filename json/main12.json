@@ -1,7 +1,6 @@
 {
 	"spells_wizard": {
 		"title": "All Wizard Spells",
-		"sources": [],
 		"description": [
 			"::main[Wizard Spells (Level 0)]{endem=\"(36 spells)\" to=main/spells_wizard_0}",
 			"",
@@ -25,7 +24,6 @@
 	},
 	"spells_wizard_0": {
 		"title": "Wizard Spells Level 0",
-		"sources": [],
 		"description": [
 			"::main[Wizard Spells Level 1]{to=main/spells_wizard_1}",
 			"",
@@ -128,7 +126,6 @@
 	},
 	"spells_wizard_1": {
 		"title": "Wizard Spells Level 1",
-		"sources": [],
 		"description": [
 			"::main[Wizard Spells Level 0]{to=main/spells_wizard_0}",
 			"",
@@ -442,7 +439,6 @@
 	},
 	"spells_wizard_2": {
 		"title": "Wizard Spells Level 2",
-		"sources": [],
 		"description": [
 			"::main[Wizard Spells Level 0]{to=main/spells_wizard_0}",
 			"",
@@ -839,7 +835,6 @@
 	},
 	"spells_wizard_3": {
 		"title": "Wizard Spells Level 3",
-		"sources": [],
 		"description": [
 			"::main[Wizard Spells Level 0]{to=main/spells_wizard_0}",
 			"",
@@ -1244,7 +1239,6 @@
 	},
 	"spells_wizard_4": {
 		"title": "Wizard Spells Level 4",
-		"sources": [],
 		"description": [
 			"::main[Wizard Spells Level 0]{to=main/spells_wizard_0}",
 			"",
@@ -1597,7 +1591,6 @@
 	},
 	"spells_wizard_5": {
 		"title": "Wizard Spells Level 5",
-		"sources": [],
 		"description": [
 			"::main[Wizard Spells Level 0]{to=main/spells_wizard_0}",
 			"",
@@ -1898,7 +1891,6 @@
 	},
 	"spells_wizard_6": {
 		"title": "Wizard Spells Level 6",
-		"sources": [],
 		"description": [
 			"::main[Wizard Spells Level 0]{to=main/spells_wizard_0}",
 			"",
@@ -2128,7 +2120,6 @@
 	},
 	"spells_wizard_7": {
 		"title": "Wizard Spells Level 7",
-		"sources": [],
 		"description": [
 			"::main[Wizard Spells Level 0]{to=main/spells_wizard_0}",
 			"",
@@ -2327,7 +2318,6 @@
 	},
 	"spells_wizard_8_9": {
 		"title": "Wizard Spells Levels 8-9",
-		"sources": [],
 		"description": [
 			"::main[Wizard Spells Level 0]{to=main/spells_wizard_0}",
 			"",

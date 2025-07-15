@@ -2,22 +2,6 @@
 	"feats": {
 		"title": "Feats",
 		"searchgroup": "rule",
-		"sources": [
-			"Advanced Player's Guide",
-			"Champions of Corruption",
-			"Faction Guide",
-			"Familiar Folio",
-			"Legacy of Fire Player's Guide",
-			"Magic Tactics Toolbox",
-			"Martial Arts Handbook",
-			"Pathfinder Unchained",
-			"Planar Adventures",
-			"Plane-Hopper's Handbook",
-			"PRPG Core Rulebook",
-			"Ranged Tactics Toolbox",
-			"Ultimate Combat",
-			"Ultimate Magic"
-		],
 		"description": [
 			"::mainheader[Basic Feat Types]",
 			"",
@@ -106,7 +90,6 @@
 	},
 	"feats_general": {
 		"title": "Feats - General",
-		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			":::item",
 			"",

@@ -710,6 +710,8 @@
 		"subtitle": "Character Backgrounds",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
+			"{SOURCE Ultimate Campaign/16}",
+			"",
 			"The background generator is intended to remove the creative pressure that can sometimes frustrate players as they try to flesh out the murky details of their characters' backgrounds. This generator provides these details with either a simple roll of the die or the players deliberately selecting from options on the furnished tables and lists. Think of each element on the background generator's tables as a piece of story material that you can link together with other random pieces to create a story you otherwise might now have imagined. Use this tool to inspire creativity rather than as hard-and-fast rules to mandate rigid and seamless character backgrounds. Though the generator provides many foundational details of a character's background, it takes some creative thought to massage the specifics together. As you use the generator, feel free at any point to reject or reroll contradictory elements or ones that go against your vision of the emerging character. Like the background questions presented earlier, the ideas on these tables are simply suggestions designed to channel and focus your imagination.",
 			"",
 			"To generate a background, you roll on a number of tables and subtables, but before you do this, you must decide the gender, race, and class of your PC. Such decisions will help to inform the tables you'll use. After you've determined these basic character elements, you can begin using the background generator to determine your character's unique background by following the three steps summarized below, which are detailed further in the sections that follow.",
@@ -749,6 +751,8 @@
 		"subtitle": "Character Backgrounds",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
+			"{SOURCE Ultimate Campaign/16}",
+			"",
 			"The tables below determine the basics of your family and homeland. These establish the circumstances of your upbringing, the composition of your family, and your family's social standing, as well as a major event you experienced in childhood. To determine these aspects of your background, do the following:",
 			"",
 			"1. Find the sections for your race and roll on the Homeland, Parents, and Siblings tables within the section. If you have siblings, also consult [Relative Age of Sibling table](rule/siblings) and the Race of Adopted Sibling table to determine the relative age of your siblings and the race of adopted siblings.",
@@ -788,6 +792,8 @@
 		"subtitle": "Character Backgrounds",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
+			"{SOURCE Ultimate Campaign/16}",
+			"",
 			"Many dwarves come from industrious and tight-knit communities of like-minded individuals who work together to accomplish a common goal.",
 			"",
 			"### Dwarf Homeland",
@@ -843,6 +849,8 @@
 		"subtitle": "Character Backgrounds",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
+			"{SOURCE Ultimate Campaign/17}",
+			"",
 			"Elves are often raised in insular elven communities, and the longevity of these people means that elven children often grow up with the help of a large social network.",
 			"",
 			"### Elf Homeland",
@@ -897,6 +905,8 @@
 		"subtitle": "Character Backgrounds",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
+			"{SOURCE Ultimate Campaign/17}",
+			"",
 			"The capricious and carefree gnomes of the world are widespread and varied. They typically either form their own gnome communities or integrate themselves into other humanoid societies.",
 			"",
 			"### Gnome Homeland",
@@ -950,6 +960,8 @@
 		"subtitle": "Character Backgrounds",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
+			"{SOURCE Ultimate Campaign/18}",
+			"",
 			"Born of two very different worlds, half-elves rarely have easy childhoods. Torn as half-elves are between disparate peoples, the presence of their families helps ensure they do not grow up totally alone, though orphaned half-elves have to create families of their own.",
 			"",
 			"### Half-Elf Homeland",
@@ -1003,6 +1015,8 @@
 		"subtitle": "Character Backgrounds",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
+			"{SOURCE Ultimate Campaign/18}",
+			"",
 			"Only rarely the result of a happy union between the humans and orcs that bring them into the world, half-orcs are often regarded as monsters. This bleak reality makes those rare half-orcs, cherished as much as the young of any other race, even more extraordinary.",
 			"",
 			"### Half-Orc Homeland",
@@ -1058,6 +1072,8 @@
 		"subtitle": "Character Backgrounds",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
+			"{SOURCE Ultimate Campaign/18}",
+			"",
 			"Social and amicable by nature, halflings fit equally well in both communities of humans and those of their wily kinsfolk. Prone to wanderlust, halflings can be found anywhere civilized humanoids settle.",
 			"",
 			"### Halfling Homeland",
@@ -1111,6 +1127,8 @@
 		"subtitle": "Character Backgrounds",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
+			"{SOURCE Ultimate Campaign/19}",
+			"",
 			"As diverse as they are widespread, humans tend to grow up in small or large societies of people with similar origins and histories, though individuals' paths may run the gamut from idealized to tragic.",
 			"",
 			"### Human Homeland",
@@ -1165,6 +1183,8 @@
 		"subtitle": "Character Backgrounds",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
+			"{SOURCE Ultimate Campaign/19}",
+			"",
 			"If you have at least one sibling, roll on the table below to determine the relative age of each sibling. For each adopted sibling, roll on the Race of Adopted Sibling table to determine that sibling's race.",
 			"",
 			"### Relative Age of Sibling",
@@ -1241,6 +1261,8 @@
 		"subtitle": "Character Backgrounds",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
+			"{SOURCE Ultimate Campaign/20}",
+			"",
 			"You grew up in a region not typically associated with the lands that your people call home. Roll on the Unusual Homeland table to determine the homeland of your family. If the result is one that is typical for your race, this region is one where there are few other members of your race, outside of your family.",
 			"",
 			"### Unusual Homeland",
@@ -1284,6 +1306,8 @@
 		"subtitle": "Character Backgrounds",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
+			"{SOURCE Ultimate Campaign/20}",
+			"",
 			"### Circumstance of Birth",
 			"",
 			"Roll once to determine the circumstances of your birth.",
@@ -1410,6 +1434,8 @@
 		"subtitle": "Character Backgrounds",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
+			"{SOURCE Ultimate Campaign/25}",
+			"",
 			"The training you undertake during your youth decides the person you will become in adulthood. To determine these aspects of your background, do the following:",
 			"",
 			"1. Roll on the class table corresponding to the class you've selected.",
@@ -1439,6 +1465,8 @@
 		"subtitle": "Character Backgrounds",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
+			"{SOURCE Ultimate Campaign/25-43}",
+			"",
 			"::h3[Alchemist]{jl}",
 			"",
 			"Instead of wielding magic as divine and arcane casters know it, alchemists master fiery concoctions and mutagens by studying formulae that unlock the secrets of reagent reactions. Though some alchemists use their discoveries and knowledge of rare and exotic components to benefit the world, others are not so scrupulous with their powerful potables. Roll on the table below to determine what event inspired you to study alchemy.",
@@ -1779,6 +1807,8 @@
 		"subtitle": "Character Backgrounds",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
+			"{SOURCE Ultimate Campaign/44}",
+			"",
 			"Influential associates are people who had (or continue to have) a strong influence upon your development. They are archetypes and templates for NPCs that you can customize to fit your background. Roll on the table below to determine an associate or ally who had a major influence on your life. Then flesh out the details to show how this person fits within your story. You might also wish to use other tables in this section to randomly fill in this person's details.",
 			"",
 			"### Influential Associates",
@@ -1823,6 +1853,8 @@
 		"subtitle": "Character Backgrounds",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
+			"{SOURCE Ultimate Campaign/46}",
+			"",
 			"With age come the events and relationships that leave a definitive mark on your personality. You face and resolve moral challenges, your romantic relationships blossom and sometimes wilt, you meet those who become adventuring companions, and you face your vulnerabilities either in the form of personal challenges or adversaries who represent some side of yourself.",
 			"",
 			"To determine a major conflict you had in the past, as well as your romantic relationships and personality drawbacks, do the following:",
@@ -2048,6 +2080,8 @@
 		"subtitle": "Character Backgrounds",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
+			"{SOURCE Ultimate Campaign/48-49}",
+			"",
 			"Roll on the table below to determine the kinds of romantic relationships you have had in the past. You might have a background that requires you to roll a d12 on this table instead of a d20.",
 			"",
 			"### Romantic Relationships",
@@ -2112,6 +2146,8 @@
 		"subtitle": "Character Backgrounds",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
+			"{SOURCE Ultimate Campaign/49}",
+			"",
 			"Character drawbacks are emotional weak points - chinks your armor. A drawback gives you a small mechanical penalty and a roleplaying hook. Drawbacks also serve as loopholes in the alignment system. When roleplaying your drawback, you might act well outside the bounds of your alignment within certain situations. Each of the following grants a drawback you may choose to take. If you take a drawback option, you may take three traits you have access to instead of two. Roll on the following table to determine your character's drawback.",
 			"",
 			"Discuss with the GM the details of this drawback, such as what the attachment is or who the person involved might be.",

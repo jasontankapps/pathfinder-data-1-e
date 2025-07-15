@@ -81,10 +81,7 @@
 	},
 	"gigas_abaddon_gigas": {
 		"name": "Abaddon Gigas",
-		"sources": [
-			"Pathfinder #96: Shadow of the Storm Tyrant",
-			"Pathfinder #30: The Twice-Damned Prince"
-		],
+		"sources": [ "Pathfinder #96: Shadow of the Storm Tyrant" ],
 		"description": [
 			"*This lurching mass of spiked iron armor, rotting translucent flesh, and twisted black thorns resembles a dead giant with the head of an oversized boar.*",
 			"",
@@ -172,10 +169,7 @@
 	"abaddon_gigas": { "redirect": "gigas_abaddon_gigas" },
 	"gigas_abyss_gigas": {
 		"name": "Abyss Gigas",
-		"sources": [
-			"The Witchwar Legacy",
-			"Pathfinder #30: The Twice-Damned Prince"
-		],
+		"sources": [ "The Witchwar Legacy" ],
 		"description": [
 			"*This ebon-skinned monstrosity has a gaping maw with boar-like tusks and a wide nose beneath a furrowed brow that lacks any sort of eyes or visible visual organs. Its corded muscles twist and writhe beneath its smooth, hairless jet hide, giving its frame a gnarled, unbalanced asymmetry. It moves with a loping gait, however, and wears its armor, composed of thick, welded plates, effortlessly.*",
 			"",

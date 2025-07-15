@@ -2811,6 +2811,8 @@
 		"subtitle": "Blinded, Confused, Dazed, Dazzled, Deafened, Fascinated, Helpless, Staggered, Stunned, Unconscious",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
+			"{SOURCE PRPG Core Rulebook/565}",
+			"",
 			"@HL[Blinded:] The creature cannot see. It takes a -2 penalty to Armor Class, loses its Dexterity bonus to AC (if any), and takes a -4 penalty on most Strength- and Dexterity-based skill checks and on opposed Perception skill checks. All checks and activities that rely on vision (such as reading and Perception checks based on sight) automatically fail. All opponents are considered to have total concealment (50% miss chance) against the blinded character. Blind creatures must make a DC 10 Acrobatics skill check to move faster than half speed. Creatures that fail this check fall prone. Characters who remain blinded for a long time grow accustomed to these drawbacks and can overcome some of them. Also see: {rule/Darkness}.",
 			"",
 			"@HL[Confused:] A confused creature is mentally befuddled and cannot act normally. A confused creature cannot tell the difference between ally and foe, treating all creatures as enemies. Allies wishing to cast a beneficial spell that requires a touch on a confused creature must succeed on a melee touch attack. If a confused creature is attacked, it attacks the creature that last attacked it until that creature is dead or out of sight.",
@@ -2874,6 +2876,8 @@
 		"subtitle": "Condition",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
+			"{SOURCE PRPG Core Rulebook/565}",
+			"",
 			"@HL[Broken:] Items that have taken damage in excess of half their total hit points gain the broken condition, meaning they are less effective at their designated task. The broken condition has the following effects, depending upon the item.",
 			"",
 			"- If the item is a weapon, any attacks made with the item suffer a -2 penalty on attack and damage rolls. Such weapons only score a critical hit on a natural 20 and only deal &times;2 damage on a confirmed critical hit.",
@@ -2922,6 +2926,8 @@
 		"subtitle": "Bleed Damage, Condition",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
+			"{SOURCE PRPG Core Rulebook/565}",
+			"",
 			"A creature that is taking bleed damage takes the listed amount of damage at the beginning of its turn. Bleeding can be stopped by a DC 15 Heal check or through the application of any spell that cures hit point damage (even if the bleed is ability damage). Some bleed effects cause {rule/ability damage [or even ability ]drain}. Bleed effects do not stack with each other unless they deal different kinds of damage. When two or more bleed effects deal the same kind of damage, take the worse effect. In this case, ability drain is worse than ability damage."
 		],
 		"parent_topics": [
@@ -2952,6 +2958,8 @@
 		"subtitle": "Dead, Disabled, Dying, Stable",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
+			"{SOURCE PRPG Core Rulebook/566}",
+			"",
 			"@HL[Dead:] The character's hit points are reduced to a negative amount equal to his Constitution score, his Constitution drops to 0, or he is killed outright by a spell or effect. The character's soul leaves his body. Dead characters cannot benefit from normal or magical healing, but they can be restored to life via magic. A dead body decays normally unless magically preserved, but magic that restores a dead character to life also restores the body either to full health or to its condition at the time of death (depending on the spell or device). Either way, resurrected characters need not worry about rigor mortis, decomposition, and other conditions that affect dead bodies.",
 			"",
 			"@HL[Disabled:] A character with 0 hit points, or one who has negative hit points but has become stable and conscious, is disabled. A disabled character may take a single move action or standard action each round (but not both, nor can he take full-round actions, but he can still take swift, immediate, and free actions). He moves at half speed. Taking move actions doesn't risk further injury, but performing any standard action (or any other action the GM deems strenuous, including some free actions such as casting a quickened spell) deals 1 point of damage after the completion of the act. Unless the action increased the disabled character's hit points, he is now in negative hit points and dying.",
@@ -2992,6 +3000,8 @@
 		"subtitle": "Condition",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
+			"{SOURCE PRPG Core Rulebook/567}",
+			"",
 			"@HL[Energy Drained:] The character gains one or more negative levels, which might become permanent. If the subject has at least as many negative levels as Hit Dice, he dies. See {rule/Energy Drain and Negative levels} more information."
 		],
 		"parent_topics": [
@@ -3022,6 +3032,8 @@
 		"subtitle": "Condition",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
+			"{SOURCE PRPG Core Rulebook/567}",
+			"",
 			"@HL[Entangled:] The character is ensnared. Being entangled impedes movement, but does not entirely prevent it unless the bonds are anchored to an immobile object or tethered by an opposing force. An entangled creature moves at half speed, cannot run or charge, and takes a -2 penalty on all attack rolls and a -4 penalty to Dexterity. An entangled character who attempts to cast a spell must make a {rule/concentration} check (DC 15 + spell level) or lose the spell."
 		],
 		"parent_topics": [
@@ -3052,6 +3064,8 @@
 		"subtitle": "Exhausted, Fatigued",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
+			"{SOURCE PRPG Core Rulebook/567}",
+			"",
 			"@HL[Exhausted:] An exhausted character moves at half speed, cannot run or charge, and takes a -6 penalty to Strength and Dexterity. After 1 hour of complete rest, an exhausted character becomes fatigued. A fatigued character becomes exhausted by doing something else that would normally cause fatigue.",
 			"",
 			"@HL[Fatigued:] A fatigued character can neither run nor charge and takes a -2 penalty to Strength and Dexterity. Doing anything that would normally cause fatigue causes the fatigued character to become exhausted. After 8 hours of complete rest, fatigued characters are no longer fatigued."
@@ -3084,6 +3098,8 @@
 		"subtitle": "Cowering, Frightened, Panicked, Shaken",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
+			"{SOURCE PRPG Core Rulebook/566}",
+			"",
 			"@HL[Cowering:] The character is frozen in fear and can take no actions. A cowering character takes a -2 penalty to Armor Class and loses his Dexterity bonus (if any).",
 			"",
 			"@HL[Frightened:] A frightened creature flees from the source of its fear as best it can. If unable to flee, it may fight. A frightened creature takes a -2 penalty on all attack rolls, saving throws, skill checks, and ability checks. A frightened creature can use special abilities, including spells, to flee; indeed, the creature must use such means if they are the only way to escape.",
@@ -3124,6 +3140,8 @@
 		"subtitle": "Condition",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
+			"{SOURCE PRPG Core Rulebook/567}",
+			"",
 			"@HL[Flat-Footed:] A character who has not yet acted during a combat is flat-footed, unable to react normally to the situation. A flat-footed character loses his Dexterity bonus to AC (if any) and cannot make attacks of opportunity."
 		],
 		"parent_topics": [
@@ -3154,6 +3172,8 @@
 		"subtitle": "Grappled, Pinned",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
+			"{SOURCE PRPG Core Rulebook/567}",
+			"",
 			"@HL[Grappled:] A grappled creature is restrained by a creature, trap, or effect. Grappled creatures cannot move and take a -4 penalty to Dexterity. A grappled creature takes a -2 penalty on all attack rolls and combat maneuver checks, except those made to grapple or escape a grapple. In addition, grappled creatures can take no action that requires two hands to perform. A grappled character who attempts to cast a spell or use a spell-like ability must make a concentration check (DC 10 + grappler's CMB + spell level, see {rule/Concentration}), or lose the spell. Grappled creatures cannot make attacks of opportunity.",
 			"",
 			"A grappled creature cannot use Stealth to hide from the creature grappling it, even if a special ability, such as hide in plain sight, would normally allow it to do so. If a grappled creature becomes invisible, through a spell or other ability, it gains a +2 circumstance bonus on its CMD to avoid being grappled, but receives no other benefit.",
@@ -3191,6 +3211,8 @@
 		"subtitle": "Condition",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
+			"{SOURCE PRPG Core Rulebook/567}",
+			"",
 			"@HL[Incorporeal:] Creatures with the incorporeal condition do not have a physical body. Incorporeal creatures are immune to all nonmagical attack forms. Incorporeal creatures take half damage (50%) from magic weapons, spells, spell-like effects, and supernatural effects. Incorporeal creatures take full damage from other incorporeal creatures and effects, as well as all force effects."
 		],
 		"parent_topics": [
@@ -3221,6 +3243,8 @@
 		"subtitle": "Condition",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
+			"{SOURCE PRPG Core Rulebook/567}",
+			"",
 			"@HL[Invisible:] Invisible creatures are visually undetectable. An invisible creature gains a +2 bonus on attack rolls against a sighted opponent, and ignores its opponent's Dexterity bonus to AC (if any). See {rule/Invisibility}, under Special Abilities."
 		],
 		"parent_topics": [
@@ -3251,6 +3275,8 @@
 		"subtitle": "Nauseated, Sickened",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
+			"{SOURCE PRPG Core Rulebook/568}",
+			"",
 			"@HL[Nauseated:] Creatures with the nauseated condition experience stomach distress. Nauseated creatures are unable to attack, cast spells, concentrate on spells, or do anything else requiring attention. The only action such a character can take is a single move action per turn.",
 			"",
 			"@HL[Sickened:] The character takes a -2 penalty on all attack rolls, weapon damage rolls, saving throws, skill checks, and ability checks."
@@ -3283,6 +3309,8 @@
 		"subtitle": "Condition",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
+			"{SOURCE PRPG Core Rulebook/568}",
+			"",
 			"@HL[Paralyzed:] A paralyzed character is frozen in place and unable to move or act. A paralyzed character has effective Dexterity and Strength scores of 0 and is helpless, but can take purely mental actions. A winged creature flying in the air at the time that it becomes paralyzed cannot flap its wings and falls. A paralyzed swimmer can't swim and may drown. A creature can move through a space occupied by a paralyzed creature - ally or not. Each square occupied by a paralyzed creature, however, counts as 2 squares to move through."
 		],
 		"parent_topics": [
@@ -3313,6 +3341,8 @@
 		"subtitle": "Condition",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
+			"{SOURCE PRPG Core Rulebook/568}",
+			"",
 			"@HL[Petrified:] A petrified character has been turned to stone and is considered unconscious. If a petrified character cracks or breaks, but the broken pieces are joined with the body as he returns to flesh, he is unharmed. If the character's petrified body is incomplete when it returns to flesh, the body is likewise incomplete and there is some amount of permanent hit point loss and/or debilitation."
 		],
 		"parent_topics": [
@@ -3343,6 +3373,8 @@
 		"subtitle": "Condition",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
+			"{SOURCE PRPG Core Rulebook/568}",
+			"",
 			"@HL[Prone:] The character is lying on the ground. A prone attacker has a -4 penalty on melee attack rolls and cannot use a ranged weapon (except for a crossbow). A prone defender gains a +4 bonus to Armor Class against ranged attacks, but takes a -4 penalty to AC against melee attacks.",
 			"",
 			"Standing up is a move-equivalent action that provokes an attack of opportunity."
@@ -3715,10 +3747,7 @@
 	},
 	"infestations": {
 		"name": "Infestations",
-		"sources": [
-			"GameMastery Guide",
-			"Numeria, Land of Fallen Stars"
-		],
+		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/245}",
 			"",
@@ -3746,7 +3775,10 @@
 	},
 	"poison": {
 		"name": "Poison",
-		"sources": [ "PRPG Core Rulebook" ],
+		"sources": [
+			"PRPG Core Rulebook",
+			"Inner Sea Intrigue"
+		],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/557;Inner Sea Intrigue/51}",
 			"",
@@ -4071,6 +4103,7 @@
 		]
 	},
 	"negative_levels": { "redirect": "energy_drain_and_negative_levels" },
+	"negative_level": { "redirect": "energy_drain_and_negative_levels" },
 	"energy_drain": { "redirect": "energy_drain_and_negative_levels" },
 	"energy_immunity_and_vulnerability": {
 		"name": "Energy Immunity, Vulnerability, and Resistance",

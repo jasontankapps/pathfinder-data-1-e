@@ -2023,11 +2023,7 @@
 	},
 	"clockwork_clockwork_angel": {
 		"name": "Clockwork Angel",
-		"sources": [
-			"Bestiary 6",
-			"Bestiary 3",
-			"Pathfinder #123: The Flooded Cathedral"
-		],
+		"sources": [ "Bestiary 6" ],
 		"description": [
 			"*Brass, bronze, and silver components adorn this angelic figure. Moving gears are visible within the gaps of its metallic body.*",
 			"",
@@ -2094,11 +2090,7 @@
 	"clockwork_angel": { "redirect": "clockwork_clockwork_angel" },
 	"clockwork_clockwork_assassin": {
 		"name": "Clockwork Assassin",
-		"sources": [
-			"Bestiary 6",
-			"Bestiary 3",
-			"Pathfinder #123: The Flooded Cathedral"
-		],
+		"sources": [ "Bestiary 6" ],
 		"description": [
 			"*This sleek, one-eyed construct crouches, ready for battle. Its arms end in weapons - a rapier and a compact crossbow bolt launcher.*",
 			"",
@@ -2168,9 +2160,7 @@
 		"name": "Clockwork Dragon",
 		"sources": [
 			"Bestiary 4",
-			"Pathfinder #66: The Dead Heart of Xin",
-			"Bestiary 3",
-			"Pathfinder #123: The Flooded Cathedral"
+			"Pathfinder #66: The Dead Heart of Xin"
 		],
 		"description": [
 			"*Though made of thousands of metal parts, this masterpiece of gleaming metal glides through the air with impossible grace.*",
@@ -2259,11 +2249,7 @@
 	"clockwork_dragon": { "redirect": "clockwork_clockwork_dragon" },
 	"clockwork_clockwork_excavator": {
 		"name": "Clockwork Excavator",
-		"sources": [
-			"Pathfinder #117: Assault on Longshadow",
-			"Bestiary 3",
-			"Pathfinder #123: The Flooded Cathedral"
-		],
+		"sources": [ "Pathfinder #117: Assault on Longshadow" ],
 		"description": [
 			"*Set atop spoked wheels, this huge contraption has two hinged arms that appear to be designed to shovel rocks into its open maw. Gleaming drills set around the construct's base look like they could easily break apart stone, and a gleaming scope of dark-hued glass projects from the end of a jointed arm.*",
 			"",
@@ -2352,9 +2338,7 @@
 		"name": "Clockwork Familiar",
 		"sources": [
 			"Bestiary 5",
-			"Pathfinder #63: The Asylum Stone",
-			"Bestiary 3",
-			"Pathfinder #123: The Flooded Cathedral"
+			"Pathfinder #63: The Asylum Stone"
 		],
 		"description": [
 			"*This tiny metallic creature is shaped like a raven, gears and belts whirring beneath its shining, articulated plates.*",
@@ -2422,11 +2406,7 @@
 	"clockwork_familiar": { "redirect": "clockwork_clockwork_familiar" },
 	"clockwork_clockwork_fiend": {
 		"name": "Clockwork Fiend",
-		"sources": [
-			"Bestiary 6",
-			"Bestiary 3",
-			"Pathfinder #123: The Flooded Cathedral"
-		],
+		"sources": [ "Bestiary 6" ],
 		"description": [
 			"*Resembling a metallic horned devil, this apparatus whirs with the sound of internal mechanisms.*",
 			"",
@@ -2495,11 +2475,7 @@
 	"clockwork_fiend": { "redirect": "clockwork_clockwork_fiend" },
 	"clockwork_clockwork_goblin": {
 		"name": "Clockwork Goblin",
-		"sources": [
-			"Construct Handbook",
-			"Bestiary 3",
-			"Pathfinder #123: The Flooded Cathedral"
-		],
+		"sources": [ "Construct Handbook" ],
 		"description": [
 			"*Haphazard in its creation, this mechanical creature has the shape of a goblin wielding a dogslicer.*",
 			"",
@@ -2565,10 +2541,7 @@
 	"clockwork_goblin": { "redirect": "clockwork_clockwork_goblin" },
 	"clockwork_clockwork_goliath": {
 		"name": "Clockwork Goliath",
-		"sources": [
-			"Bestiary 3",
-			"Pathfinder #123: The Flooded Cathedral"
-		],
+		"sources": [ "Bestiary 3" ],
 		"description": [
 			"*The gears of this enormous, four-armed mechanical giant shriek and grind in a deafening cacophony as it lumbers forth.*",
 			"",
@@ -2636,11 +2609,7 @@
 	"clockwork_goliath": { "redirect": "clockwork_clockwork_goliath" },
 	"clockwork_clockwork_guardian": {
 		"name": "Clockwork Guardian",
-		"sources": [
-			"Bestiary 6",
-			"Bestiary 3",
-			"Pathfinder #123: The Flooded Cathedral"
-		],
+		"sources": [ "Bestiary 6" ],
 		"description": [
 			"*This human-shaped construct has a helm-like head with a single crystalline eye. One arm ends in a large shield-like sheet of metal.*",
 			"",
@@ -2703,11 +2672,7 @@
 	"clockwork_guardian": { "redirect": "clockwork_clockwork_guardian" },
 	"clockwork_clockwork_gunslinger": {
 		"name": "Clockwork Gunslinger",
-		"sources": [
-			"Construct Handbook",
-			"Bestiary 3",
-			"Pathfinder #123: The Flooded Cathedral"
-		],
+		"sources": [ "Construct Handbook" ],
 		"description": [
 			"*One of this slim construct's arms ends in a whirling clockwork pistol, and a crystalline hourglass fits snugly between its pectoral armor plates.*",
 			"",
@@ -2776,11 +2741,7 @@
 	"clockwork_gunslinger": { "redirect": "clockwork_clockwork_gunslinger" },
 	"clockwork_clockwork_hound": {
 		"name": "Clockwork Hound",
-		"sources": [
-			"Bestiary 6",
-			"Bestiary 3",
-			"Pathfinder #123: The Flooded Cathedral"
-		],
+		"sources": [ "Bestiary 6" ],
 		"description": [
 			"*Two emerald crystal eyes stare out from this artificial hound's brass-, bronze-, and iron-forged body.*",
 			"",
@@ -2849,10 +2810,7 @@
 	"clockwork_hound": { "redirect": "clockwork_clockwork_hound" },
 	"clockwork_clockwork_leviathan": {
 		"name": "Clockwork Leviathan",
-		"sources": [
-			"Bestiary 3",
-			"Pathfinder #123: The Flooded Cathedral"
-		],
+		"sources": [ "Bestiary 3" ],
 		"description": [
 			"*Long and metallic, this serpentine construction resembles a mechanical eel with several paddle-like limbs.*",
 			"",
@@ -2924,11 +2882,7 @@
 	"clockwork_leviathan": { "redirect": "clockwork_clockwork_leviathan" },
 	"clockwork_clockwork_mage": {
 		"name": "Clockwork Mage",
-		"sources": [
-			"Bestiary 4",
-			"Bestiary 3",
-			"Pathfinder #123: The Flooded Cathedral"
-		],
+		"sources": [ "Bestiary 4" ],
 		"description": [
 			"*This faceless construct has a crystal wand set into its chest, bristling with arcane energy.*",
 			"",
@@ -3000,11 +2954,7 @@
 	"clockwork_mage": { "redirect": "clockwork_clockwork_mage" },
 	"clockwork_clockwork_nautiloid": {
 		"name": "Clockwork Nautiloid",
-		"sources": [
-			"Pathfinder #125: Tower of the Drowned Dead",
-			"Bestiary 3",
-			"Pathfinder #123: The Flooded Cathedral"
-		],
+		"sources": [ "Pathfinder #125: Tower of the Drowned Dead" ],
 		"description": [
 			"*Nestled in a massive spiraled armored shell, this clockwork creature has several dozen grasping tentacles surrounding its octopus-like beak.*",
 			"",
@@ -3100,10 +3050,7 @@
 	"clockwork_nautiloid": { "redirect": "clockwork_clockwork_nautiloid" },
 	"clockwork_clockwork_overseer": {
 		"name": "Clockwork Overseer",
-		"sources": [
-			"Pathfinder #123: The Flooded Cathedral",
-			"Bestiary 3"
-		],
+		"sources": [ "Pathfinder #123: The Flooded Cathedral" ],
 		"description": [
 			"*One arm of this six-limbed clockwork construct ends in a broad fist, and the other extends into an articulated metal lash.*",
 			"",
@@ -3194,11 +3141,7 @@
 	"clockwork_overseer": { "redirect": "clockwork_clockwork_overseer" },
 	"clockwork_clockwork_priest": {
 		"name": "Clockwork Priest",
-		"sources": [
-			"Construct Handbook",
-			"Bestiary 3",
-			"Pathfinder #123: The Flooded Cathedral"
-		],
+		"sources": [ "Construct Handbook" ],
 		"description": [
 			"*This four-armed clockwork construct has a glowing crystal globe as a head and a shining crystal set into its chest.*",
 			"",
@@ -3267,10 +3210,7 @@
 	"clockwork_priest": { "redirect": "clockwork_clockwork_priest" },
 	"clockwork_clockwork_servant": {
 		"name": "Clockwork Servant",
-		"sources": [
-			"Bestiary 3",
-			"Pathfinder #123: The Flooded Cathedral"
-		],
+		"sources": [ "Bestiary 3" ],
 		"description": [
 			"*This four-armed, human-sized clockwork construct balances on three legs that rise into a central body.*",
 			"",
@@ -3338,11 +3278,7 @@
 	"clockwork_servant": { "redirect": "clockwork_clockwork_servant" },
 	"clockwork_clockwork_snail": {
 		"name": "Clockwork Snail",
-		"sources": [
-			"Wardens of the Reborn Forge",
-			"Bestiary 3",
-			"Pathfinder #123: The Flooded Cathedral"
-		],
+		"sources": [ "Wardens of the Reborn Forge" ],
 		"description": [
 			"*The torso of this constructed gastropod is elongated and eerily humanoid. Smog pours from the shell-like posterior of the machine, while toxic green ooze courses through its translucent pipes.*",
 			"",
@@ -3409,10 +3345,7 @@
 	"clockwork_snail": { "redirect": "clockwork_clockwork_snail" },
 	"clockwork_clockwork_soldier": {
 		"name": "Clockwork Soldier",
-		"sources": [
-			"Bestiary 3",
-			"Pathfinder #123: The Flooded Cathedral"
-		],
+		"sources": [ "Bestiary 3" ],
 		"description": [
 			"*Cogs and gears are visible in the gaps of this metallic creature's armor. It wields a polearm as it stands ready at attention.*",
 			"",
@@ -3482,11 +3415,7 @@
 	"clockwork_soldier": { "redirect": "clockwork_clockwork_soldier" },
 	"clockwork_clockwork_songbird": {
 		"name": "Clockwork Songbird",
-		"sources": [
-			"Construct Handbook",
-			"Bestiary 3",
-			"Pathfinder #123: The Flooded Cathedral"
-		],
+		"sources": [ "Construct Handbook" ],
 		"description": [
 			"*This gilded mechanical bird produces melodious songs from its complex clockwork voice box.*",
 			"",
@@ -3553,10 +3482,7 @@
 	"clockwork_songbird": { "redirect": "clockwork_clockwork_songbird" },
 	"clockwork_clockwork_spy": {
 		"name": "Clockwork Spy",
-		"sources": [
-			"Bestiary 3",
-			"Pathfinder #123: The Flooded Cathedral"
-		],
+		"sources": [ "Bestiary 3" ],
 		"description": [
 			"*This tiny steel creature has one oversized eye, a spherical body, and several spider-like legs of grinding metal.*",
 			"",
@@ -3621,11 +3547,7 @@
 	"clockwork_spy": { "redirect": "clockwork_clockwork_spy" },
 	"clockwork_clockwork_steed": {
 		"name": "Clockwork Steed",
-		"sources": [
-			"Bestiary 4",
-			"Bestiary 3",
-			"Pathfinder #123: The Flooded Cathedral"
-		],
+		"sources": [ "Bestiary 4" ],
 		"description": [
 			"*Gleaming gears whir and buzz in an orchestra of motion whenever this red-eyed steed moves.*",
 			"",
@@ -3694,11 +3616,7 @@
 	"clockwork_steed": { "redirect": "clockwork_clockwork_steed" },
 	"clockwork_clockwork_vivisectionist": {
 		"name": "Clockwork Vivisectionist",
-		"sources": [
-			"Pathfinder #112: The Whisper Out of Time",
-			"Bestiary 3",
-			"Pathfinder #123: The Flooded Cathedral"
-		],
+		"sources": [ "Pathfinder #112: The Whisper Out of Time" ],
 		"description": [
 			"*The mechanical workings of this humanoid figure are incredibly complex, but the gore-spattered scalpels it has on one hand and the glistening syringes inside its cage-like chest make its intentions clear.*",
 			"",
@@ -3782,11 +3700,7 @@
 	"clockwork_vivisectionist": { "redirect": "clockwork_clockwork_vivisectionist" },
 	"clockwork_mechanical_efreeti": {
 		"name": "Mechanical Efreeti",
-		"sources": [
-			"Tombs of Golarion",
-			"Bestiary 3",
-			"Pathfinder #123: The Flooded Cathedral"
-		],
+		"sources": [ "Tombs of Golarion" ],
 		"description": [
 			"*This crimson-skinned genie has an artificial, sculpted appearance.*",
 			"",
@@ -3853,11 +3767,7 @@
 	"mechanical_efreeti": { "redirect": "clockwork_mechanical_efreeti" },
 	"clockwork_toy_golem": {
 		"name": "Toy Golem",
-		"sources": [
-			"Tombs of Golarion",
-			"Bestiary 3",
-			"Pathfinder #123: The Flooded Cathedral"
-		],
+		"sources": [ "Tombs of Golarion" ],
 		"description": [
 			"*This amalgam of mechanical toys clacks and whirs.*",
 			"",

@@ -1,10 +1,7 @@
 {
 	"gremlin_drexin": {
 		"name": "Drexin (Gremlin)",
-		"sources": [
-			"Pathfinder #109: In Search of Sanity",
-			"Bestiary 2"
-		],
+		"sources": [ "Pathfinder #109: In Search of Sanity" ],
 		"description": [
 			"*This pale, spindly creature has a vaguely humanoid shape, but with arms unnaturally long for its torso. Strands of long white hair sprout from its bulbous head, and its eyes are pools of liquid darkness.*",
 			"",
@@ -83,10 +80,7 @@
 	"drexin": { "redirect": "gremlin_drexin" },
 	"gremlin_erinat": {
 		"name": "Erinat (Gremlin)",
-		"sources": [
-			"Andoran, Birthplace of Freedom",
-			"Bestiary 2"
-		],
+		"sources": [ "Andoran, Birthplace of Freedom" ],
 		"description": [
 			"*The pockets of this urchin are stuffed with worthless objects.*",
 			"",
@@ -149,10 +143,7 @@
 	"erinat": { "redirect": "gremlin_erinat" },
 	"gremlin_fuath": {
 		"name": "Fuath (Gremlin)",
-		"sources": [
-			"Bestiary 3",
-			"Bestiary 2"
-		],
+		"sources": [ "Bestiary 3" ],
 		"description": [
 			"*This waterlogged gremlin has lobster claws for hands and an almost canine face with webbed ears.*",
 			"",
@@ -220,8 +211,7 @@
 		"name": "Grimple (Gremlin)",
 		"sources": [
 			"Bestiary 4",
-			"Fey Revisited",
-			"Bestiary 2"
+			"Fey Revisited"
 		],
 		"description": [
 			"*This putrid-looking humanoid bears a disquieting resemblance to a half-starved, mange-ridden opossum.*",
@@ -290,8 +280,7 @@
 		"name": "Haniver (Gremlin)",
 		"sources": [
 			"Bestiary 4",
-			"Pathfinder #25: The Bastards of Erebus",
-			"Bestiary 2"
+			"Pathfinder #25: The Bastards of Erebus"
 		],
 		"description": [
 			"*This small, bizarre humanoid creature has fin-like wings, strange yellow skin, and tiny black eyes burning with malevolence.*",
@@ -355,10 +344,7 @@
 	"haniver": { "redirect": "gremlin_haniver" },
 	"gremlin_hobkins": {
 		"name": "Hobkins (Gremlin)",
-		"sources": [
-			"Bestiary 5",
-			"Bestiary 2"
-		],
+		"sources": [ "Bestiary 5" ],
 		"description": [
 			"*This small, blue-gray humanoid has glowing eyes and huge ears on its round, oversized head.*",
 			"",
@@ -498,10 +484,7 @@
 	"jinkin": { "redirect": "gremlin_jinkin" },
 	"gremlin_monaciello": {
 		"name": "Monaciello (Gremlin)",
-		"sources": [
-			"Bestiary 4",
-			"Bestiary 2"
-		],
+		"sources": [ "Bestiary 4" ],
 		"description": [
 			"*Dressed in red robes like those of a monk, this little monster displays a sharp-toothed smile and flips a gold coin in its hand.*",
 			"",
@@ -630,10 +613,7 @@
 	"nuglub": { "redirect": "gremlin_nuglub" },
 	"gremlin_nuno": {
 		"name": "Nuno (Gremlin)",
-		"sources": [
-			"Bestiary 5",
-			"Bestiary 2"
-		],
+		"sources": [ "Bestiary 5" ],
 		"description": [
 			"*This withered, eyeless little creature has a mushroom cap for a head, and a stringy fungus beard frames his toothless grin.*",
 			"",
@@ -3087,10 +3067,7 @@
 	},
 	"gargoyle": {
 		"name": "Gargoyle",
-		"sources": [
-			"Pathfinder RPG Bestiary",
-			"Classic Horrors Revisited"
-		],
+		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*Seemingly carved from a dark gray stone, this sinister crouching humanoid resembles a horned, winged demon.*",
 			"",
@@ -3145,10 +3122,7 @@
 	},
 	"gargoyle_four_armed_gargoyle": {
 		"name": "Four-Armed Gargoyle",
-		"sources": [
-			"Pathfinder #48: Shadows of Gallowspire",
-			"Classic Horrors Revisited"
-		],
+		"sources": [ "Pathfinder #48: Shadows of Gallowspire" ],
 		"description": [
 			"*The stone statue of a menacing fiend crouches here, as though ready to spring to life and devour innocent passersby. Then it moves - to do just that.*",
 			"",
@@ -3201,10 +3175,7 @@
 	"four_armed_gargoyle": { "redirect": "gargoyle_four_armed_gargoyle" },
 	"gargoyle_gargoyle_abductor": {
 		"name": "Gargoyle Abductor",
-		"sources": [
-			"Pathfinder #48: Shadows of Gallowspire",
-			"Classic Horrors Revisited"
-		],
+		"sources": [ "Pathfinder #48: Shadows of Gallowspire" ],
 		"description": [
 			"*The stone statue of a menacing fiend crouches here, as though ready to spring to life and devour innocent passersby. Then it moves - to do just that.*",
 			"",
@@ -3258,10 +3229,7 @@
 	"gargoyle_abductor": { "redirect": "gargoyle_gargoyle_abductor" },
 	"gargoyle_gargoyle_guardian": {
 		"name": "Gargoyle Guardian",
-		"sources": [
-			"Pathfinder #48: Shadows of Gallowspire",
-			"Classic Horrors Revisited"
-		],
+		"sources": [ "Pathfinder #48: Shadows of Gallowspire" ],
 		"description": [
 			"*The stone statue of a menacing fiend crouches here, as though ready to spring to life and devour innocent passersby. Then it moves - to do just that.*",
 			"",
@@ -3326,10 +3294,7 @@
 	"gargoyle_guardian": { "redirect": "gargoyle_gargoyle_guardian" },
 	"gargoyle_kapoacinth_hunter": {
 		"name": "Kapoacinth Hunter (Gargoyle)",
-		"sources": [
-			"Pathfinder #48: Shadows of Gallowspire",
-			"Classic Horrors Revisited"
-		],
+		"sources": [ "Pathfinder #48: Shadows of Gallowspire" ],
 		"description": [
 			"*The stone statue of a menacing fiend crouches here, as though ready to spring to life and devour innocent passersby. Then it moves - to do just that.*",
 			"",

@@ -1,7 +1,6 @@
 {
 	"spells_warpriest": {
 		"title": "Spells",
-		"sources": [],
 		"searchgroup": "spell",
 		"description": [
 			"::main[Warpriest Spells (Levels 0-1)]{endem=\"(178 spells)\" to=main/spells_warpriest_0_1}",
@@ -17,7 +16,6 @@
 	},
 	"spells_warpriest_0_1": {
 		"title": "Warpriest Spells Levels 0-1",
-		"sources": [],
 		"description": [
 			"::main[Warpriest Spells Level 2]{to=main/spells_warpriest_2}",
 			"",
@@ -258,7 +256,6 @@
 	},
 	"spells_warpriest_2": {
 		"title": "Warpriest Spells Level 2",
-		"sources": [],
 		"description": [
 			"::main[Warpriest Spells Levels 0-1]{to=main/spells_warpriest_0_1}",
 			"",
@@ -536,7 +533,6 @@
 	},
 	"spells_warpriest_3": {
 		"title": "Warpriest Spells Level 3",
-		"sources": [],
 		"description": [
 			"::main[Warpriest Spells Levels 0-1]{to=main/spells_warpriest_0_1}",
 			"",
@@ -796,7 +792,6 @@
 	},
 	"spells_warpriest_4": {
 		"title": "Warpriest Spells Level 4",
-		"sources": [],
 		"description": [
 			"::main[Warpriest Spells Levels 0-1]{to=main/spells_warpriest_0_1}",
 			"",
@@ -1015,7 +1010,6 @@
 	},
 	"spells_warpriest_5_6": {
 		"title": "Warpriest Spells Levels 5-6",
-		"sources": [],
 		"description": [
 			"::main[Warpriest Spells Levels 0-1]{to=main/spells_warpriest_0_1}",
 			"",
@@ -1307,7 +1301,6 @@
 	},
 	"spells_bard": {
 		"title": "Bard Spells",
-		"sources": [],
 		"searchgroup": "spell",
 		"description": [
 			"::main[Bard Spells (Levels 0-1)]{endem=\"(208 spells)\" to=main/spells_bard_0_1}",
@@ -1321,7 +1314,6 @@
 	},
 	"spells_bard_0_1": {
 		"title": "Bard Spells Levels 0-1",
-		"sources": [],
 		"description": [
 			"::main[Bard Spells Level 2]{to=main/spells_bard_2}",
 			"",
@@ -1591,7 +1583,6 @@
 	},
 	"spells_bard_2": {
 		"title": "Bard Spells Level 2",
-		"sources": [],
 		"description": [
 			"::main[Bard Spells Level 0-1]{to=main/spells_bard_0_1}",
 			"",
@@ -1888,7 +1879,6 @@
 	},
 	"spells_bard_3_4": {
 		"title": "Bard Spells Levels 3-4",
-		"sources": [],
 		"description": [
 			"::main[Bard Spells Level 0-1]{to=main/spells_bard_0_1}",
 			"",
@@ -2233,7 +2223,6 @@
 	},
 	"spells_bard_5_6": {
 		"title": "Bard Spells Levels 5-6",
-		"sources": [],
 		"description": [
 			"::main[Bard Spells Level 0-1]{to=main/spells_bard_0_1}",
 			"",
@@ -2432,10 +2421,11 @@
 	},
 	"occult_rituals": {
 		"title": "Occult Rituals",
-		"sources": [ "Occult Adventures" ],
 		"searchgroup": "spell",
 		"description": [
 			":::item",
+			"",
+			"Information about occult rituals can be found [here](rule/occult_rituals).",
 			"",
 			"{table0}",
 			"",

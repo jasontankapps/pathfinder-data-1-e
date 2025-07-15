@@ -1,7 +1,6 @@
 {
 	"spells_antipaladin": {
 		"title": "All Antipaladin Spells",
-		"sources": [],
 		"description": [
 			":::item",
 			"",
@@ -336,7 +335,6 @@
 	},
 	"spells_magus": {
 		"title": "All Magus Spells",
-		"sources": [],
 		"description": [
 			"::main[Magus Spells (Levels 0-1)]{endem=\"(112 spells)\" to=main/spells_magus_0_1}",
 			"",
@@ -348,7 +346,6 @@
 	},
 	"spells_magus_0_1": {
 		"title": "Magus Spells Levels 0-1",
-		"sources": [],
 		"description": [
 			"::main[Magus Spells Levels 2-3]{to=main/spells_magus_2_3}",
 			"",
@@ -891,7 +888,6 @@
 	},
 	"spells_magus_2_3": {
 		"title": "Magus Spells Levels 2-3",
-		"sources": [],
 		"description": [
 			"::main[Magus Spells Levels 0-1]{to=main/spells_magus_0_1}",
 			"",
@@ -1156,7 +1152,6 @@
 	},
 	"spells_magus_4_6": {
 		"title": "Magus Spells Levels 4-6",
-		"sources": [],
 		"description": [
 			"::main[Magus Spells Levels 0-1]{to=main/spells_magus_0_1}",
 			"",
@@ -1482,7 +1477,6 @@
 	},
 	"spells_occultist": {
 		"title": "All Occultist Spells",
-		"sources": [],
 		"description": [
 			"::main[Occultist Spells (Levels 0-1)]{endem=\"(132 spells)\" to=main/spells_occultist_0_1}",
 			"",
@@ -1498,7 +1492,6 @@
 	},
 	"spells_occultist_0_1": {
 		"title": "Occultist Spells Levels 0-1",
-		"sources": [],
 		"description": [
 			"::main[Occultist Spells Level 2]{to=main/spells_occultist_2}",
 			"",
@@ -1693,7 +1686,6 @@
 	},
 	"spells_occultist_2": {
 		"title": "Occultist Spells Level 2",
-		"sources": [],
 		"description": [
 			"::main[Occultist Spells Levels 0-1]{to=main/spells_occultist_0_1}",
 			"",
@@ -1900,7 +1892,6 @@
 	},
 	"spells_occultist_3": {
 		"title": "Occultist Spells Level 3",
-		"sources": [],
 		"description": [
 			"::main[Occultist Spells Levels 0-1]{to=main/spells_occultist_0_1}",
 			"",
@@ -2093,7 +2084,6 @@
 	},
 	"spells_occultist_4": {
 		"title": "Occultist Spells Level 4",
-		"sources": [],
 		"description": [
 			"::main[Occultist Spells Levels 0-1]{to=main/spells_occultist_0_1}",
 			"",
@@ -2277,7 +2267,6 @@
 	},
 	"spells_occultist_5_6": {
 		"title": "Occultist Spells Levels 5-6",
-		"sources": [],
 		"description": [
 			"::main[Occultist Spells Levels 0-1]{to=main/spells_occultist_0_1}",
 			"",
@@ -2475,7 +2464,6 @@
 	},
 	"spells_mesmerist": {
 		"title": "All Mesmerist Spells",
-		"sources": [],
 		"description": [
 			"::main[Mesmerist Spells (Levels 0-1)]{endem=\"(128 spells)\" to=main/spells_mesmerist_0_1}",
 			"",
@@ -2489,7 +2477,6 @@
 	},
 	"spells_mesmerist_0_1": {
 		"title": "Mesmerist Spells Levels 0-1",
-		"sources": [],
 		"description": [
 			"::main[Mesmerist Spells Level 2]{to=main/spells_mesmerist_2}",
 			"",
@@ -2677,7 +2664,6 @@
 	},
 	"spells_mesmerist_2": {
 		"title": "Mesmerist Spells Level 2",
-		"sources": [],
 		"description": [
 			"::main[Mesmerist Spells Levels 0-1]{to=main/spells_mesmerist_0_1}",
 			"",
@@ -2873,7 +2859,6 @@
 	},
 	"spells_mesmerist_3_4": {
 		"title": "Mesmerist Spells Levels 3-4",
-		"sources": [],
 		"description": [
 			"::main[Mesmerist Spells Levels 0-1]{to=main/spells_mesmerist_0_1}",
 			"",
@@ -3123,7 +3108,6 @@
 	},
 	"spells_mesmerist_5_6": {
 		"title": "Mesmerist Spells Levels 5-6",
-		"sources": [],
 		"description": [
 			"::main[Mesmerist Spells Levels 0-1]{to=main/spells_mesmerist_0_1}",
 			"",

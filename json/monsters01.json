@@ -1,7 +1,6 @@
 {
 	"not_found": {
 		"name": "Unknown",
-		"sources": [],
 		"description": [
 			"## Error",
 			"",
@@ -1036,10 +1035,7 @@
 	},
 	"aeon_agnoia": {
 		"name": "Agnoia (Aeon)",
-		"sources": [
-			"Concordance of Rivals",
-			"Bestiary 2"
-		],
+		"sources": [ "Concordance of Rivals" ],
 		"description": [
 			"*This cylindrical creature of pale fog and dark shadow stands on three clawed feet. Three pale arms jut from around the column, each ending in a hand with long, black claws.*",
 			"",
@@ -1246,10 +1242,7 @@
 	"bythos": { "redirect": "aeon_bythos" },
 	"aeon_lipika": {
 		"name": "Lipika (Aeon)",
-		"sources": [
-			"Bestiary 5",
-			"Bestiary 2"
-		],
+		"sources": [ "Bestiary 5" ],
 		"description": [
 			"*Shrouded in a dark cloak, this featureless humanoid has four forearms that each split off at the elbow, and an eye on each of its eight palms.*",
 			"",
@@ -1324,10 +1317,7 @@
 	"lipika": { "redirect": "aeon_lipika" },
 	"aeon_othaos": {
 		"name": "Othaos (Aeon)",
-		"sources": [
-			"Bestiary 5",
-			"Bestiary 2"
-		],
+		"sources": [ "Bestiary 5" ],
 		"description": [
 			"*Four limbs - two black and two white - reach out from a swirling vortex of pulsing light and deep darkness.*",
 			"",
@@ -1538,10 +1528,7 @@
 	"pleroma": { "redirect": "aeon_pleroma" },
 	"aeon_synesis": {
 		"name": "Synesis (Aeon)",
-		"sources": [
-			"Occult Bestiary",
-			"Bestiary 2"
-		],
+		"sources": [ "Occult Bestiary" ],
 		"description": [
 			"*A pair of three-fingered arms sprouts from either end of this hourglass-shaped creature composed of cosmic starstuff.*",
 			"",
@@ -1786,10 +1773,7 @@
 	"avoral": { "redirect": "agathion_avoral" },
 	"agathion_bishop_agathion": {
 		"name": "Bishop Agathion (Agathion)",
-		"sources": [
-			"Pathfinder #61: Shards of Sin",
-			"Bestiary 2"
-		],
+		"sources": [ "Pathfinder #61: Shards of Sin" ],
 		"description": [
 			"*Layers of translucent, shimmering fins flow along this fishman's spindly body. Tentacles curl below its stately mouth, and its human-like hands and feet end in stubby but sharp claws.*",
 			"",
@@ -1867,10 +1851,7 @@
 	"bishop_agathion": { "redirect": "agathion_bishop_agathion" },
 	"agathion_cervapral": {
 		"name": "Cervapral (Agathion)",
-		"sources": [
-			"Andoran, Birthplace of Freedom",
-			"Bestiary 2"
-		],
+		"sources": [ "Andoran, Birthplace of Freedom" ],
 		"description": [
 			"*This sleek, long-legged, antelope-like figure has majestic pronged horns and ruffs of white fur on its chest and neck.*",
 			"",
@@ -1940,8 +1921,7 @@
 		"name": "Cervinal (Agathion)",
 		"sources": [
 			"Bestiary 5",
-			"Chronicle of the Righteous",
-			"Bestiary 2"
+			"Chronicle of the Righteous"
 		],
 		"description": [
 			"*Beneath a crown of antlers, this centaur-like creature blends the upper body of a humanoid with the lower body of a majestic elk.*",
@@ -2071,10 +2051,7 @@
 	"cetaceal": { "redirect": "agathion_cetaceal" },
 	"agathion_chelonidal": {
 		"name": "Chelonidal (Agathion)",
-		"sources": [
-			"Pathfinder #121: The Lost Outpost",
-			"Bestiary 2"
-		],
+		"sources": [ "Pathfinder #121: The Lost Outpost" ],
 		"description": [
 			"*This creature resembles a cross between a humanoid and a sea turtle, with flipper-like hands and a heavy shell covering its back.*",
 			"",
@@ -2321,10 +2298,7 @@
 	"leonal": { "redirect": "agathion_leonal" },
 	"agathion_muldnal": {
 		"name": "Muldnal (Agathion)",
-		"sources": [
-			"Pathfinder #117: Assault on Longshadow",
-			"Bestiary 2"
-		],
+		"sources": [ "Pathfinder #117: Assault on Longshadow" ],
 		"description": [
 			"*This diminutive, small-eyed creature is covered in dense, charcoal-gray fur and wears a dirt-stained smock; its pink nose twitches ceaselessly.*",
 			"",
@@ -2416,10 +2390,7 @@
 	"muldnal": { "redirect": "agathion_muldnal" },
 	"agathion_mustelidal": {
 		"name": "Mustelidal (Agathion)",
-		"sources": [
-			"Pathfinder #108: Hell Comes to Westcrown",
-			"Bestiary 2"
-		],
+		"sources": [ "Pathfinder #108: Hell Comes to Westcrown" ],
 		"description": [
 			"*The head of this muscular, furry humanoid figure is that of an angry badger; it looks ready to strike at a moment's notice.*",
 			"",
@@ -2502,10 +2473,7 @@
 	"mustelidal": { "redirect": "agathion_mustelidal" },
 	"agathion_procyal": {
 		"name": "Procyal (Agathion)",
-		"sources": [
-			"Pathfinder #99: Dance of the Damned",
-			"Bestiary 2"
-		],
+		"sources": [ "Pathfinder #99: Dance of the Damned" ],
 		"description": [
 			"*Wide of chest and waist, this finely dressed man has a graymuzzled raccoon's head and beady, darting eyes.*",
 			"",
@@ -2592,10 +2560,7 @@
 	"procyal": { "redirect": "agathion_procyal" },
 	"agathion_reptial": {
 		"name": "Reptial (Agathion)",
-		"sources": [
-			"Bestiary 5",
-			"Bestiary 2"
-		],
+		"sources": [ "Bestiary 5" ],
 		"description": [
 			"*This iguana-headed scholar wears a robe of frills and scales covered in baubles and trinkets.*",
 			"",

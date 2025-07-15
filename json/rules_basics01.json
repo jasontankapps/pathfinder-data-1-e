@@ -4,7 +4,8 @@
 		"description": [
 			"Unable to find the requested rule."
 		],
-		"parent_topics": [ "basics" ]
+		"parent_topics": [ "basics" ],
+		"siblings": [ "not_found" ]
 	},
 	"basics": {
 		"name": "Basics",
@@ -586,7 +587,8 @@
 		"name": "Races",
 		"sources": [
 			"PRPG Core Rulebook",
-			"Advanced Race Guide"
+			"Advanced Race Guide",
+			"Advanced Player's Guide"
 		],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/20;Advanced Race Guide/8}  ",
@@ -1035,8 +1037,7 @@
 			"Advanced Player's Guide",
 			"Ultimate Combat",
 			"Ultimate Intrigue",
-			"Ultimate Magic",
-			"Ultimate Wilderness"
+			"Ultimate Magic"
 		],
 		"description": [
 			"{SOURCE Advanced Player's Guide/26;Ultimate Combat/9;Ultimate Intrigue/9;Ultimate Magic/9}  ",
@@ -1584,8 +1585,7 @@
 			"Chronicle of Legends",
 			"Cohorts and Companions",
 			"Wilderness Origins",
-			"Occult Mysteries",
-			"Ultimate Campaign"
+			"Occult Mysteries"
 		],
 		"description": [
 			"{SOURCE Advanced Player's Guide/326}",
@@ -2921,6 +2921,8 @@
 			"Martial Arts Handbook",
 			"Pathfinder #139: The Dead Road",
 			"Planar Adventures",
+			"Plane-Hopper's Handbook",
+			"Potions and Poisons",
 			"Ultimate Combat"
 		],
 		"description": [

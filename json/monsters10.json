@@ -340,10 +340,7 @@
 	},
 	"familiar_archaeopteryx": {
 		"name": "Archaeopteryx (Familiar)",
-		"sources": [
-			"Bestiary 4",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Bestiary 4" ],
 		"description": [
 			"::mh[Archaeopteryx]{cr=\"1/4\"}",
 			"",
@@ -394,8 +391,7 @@
 		"name": "Arctic Hare (Familiar)",
 		"sources": [
 			"Ultimate Wilderness",
-			"Reign of Winter Player's Guide",
-			"Pathfinder RPG Bestiary"
+			"Reign of Winter Player's Guide"
 		],
 		"description": [
 			"*With shorter ears and limbs than other rabbits, this white rabbit is hard to spot in the snow.*",
@@ -445,8 +441,7 @@
 		"name": "Arctic Tern (Familiar)",
 		"sources": [
 			"Ultimate Wilderness",
-			"Reign of Winter Player's Guide",
-			"Pathfinder RPG Bestiary"
+			"Reign of Winter Player's Guide"
 		],
 		"description": [
 			"*This white-and-gray bird has a reddish-orange beak.*",
@@ -498,8 +493,7 @@
 		"name": "Armadillo (Familiar)",
 		"sources": [
 			"Ultimate Wilderness",
-			"Animal Archive",
-			"Pathfinder RPG Bestiary"
+			"Animal Archive"
 		],
 		"description": [
 			"*This round, dust-colored creature's snout pokes out of its bony armor shell.*",
@@ -600,10 +594,7 @@
 	"bat": { "redirect": "familiar_bat" },
 	"familiar_blue_ringed_octopus": {
 		"name": "Blue-Ringed Octopus (Familiar)",
-		"sources": [
-			"Ultimate Magic",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"::mh[Blue-Ringed Octopus]{cr=\"1/2\"}",
 			"",
@@ -660,10 +651,7 @@
 	"octopus_blue_ringed": { "redirect": "familiar_blue_ringed_octopus" },
 	"familiar_butterfly_moth": {
 		"name": "Butterfly/Moth (Familiar)",
-		"sources": [
-			"Ultimate Wilderness",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"*This graceful winged insect is a riot of color that glides through the air like a flittering dream.*",
 			"",
@@ -759,8 +747,7 @@
 		"sources": [
 			"Ultimate Wilderness",
 			"Familiar Folio",
-			"Bestiary 5",
-			"Pathfinder RPG Bestiary"
+			"Bestiary 5"
 		],
 		"description": [
 			"*This fowl has a compact body, a short beak flanked by red wattles, and a crimson comb on the crown of its head.*",
@@ -815,10 +802,7 @@
 	"chicken": { "redirect": "familiar_chicken" },
 	"familiar_cockroach": {
 		"name": "Cockroach (Familiar)",
-		"sources": [
-			"Ultimate Wilderness",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"*This swift brown insect scampers up walls, its antennae flailing.*",
 			"",
@@ -866,10 +850,7 @@
 	"cockroach": { "redirect": "familiar_cockroach" },
 	"familiar_creeper_ivy": {
 		"name": "Creeper Ivy (Familiar)",
-		"sources": [
-			"Ultimate Wilderness",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"*The creeping tendrils of this plant creature guide its way up tree trunks and walls.*",
 			"",
@@ -919,8 +900,7 @@
 		"sources": [
 			"Ultimate Wilderness",
 			"Pathfinder #55: The Wormwood Mutiny",
-			"Bestiary 4",
-			"Pathfinder RPG Bestiary"
+			"Bestiary 4"
 		],
 		"description": [
 			"*This plump, gray, flightless bird waddles about on ungainly legs, fearlessly bobbing its prodigious beak.*",
@@ -966,10 +946,7 @@
 	"dodo": { "redirect": "familiar_dodo" },
 	"familiar_donkey_rat": {
 		"name": "Donkey Rat (Familiar)",
-		"sources": [
-			"Ultimate Magic",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"::mh[Donkey Rat]{cr=\"1/4\"}",
 			"",
@@ -1015,8 +992,7 @@
 		"name": "Dwarf Caiman (Familiar)",
 		"sources": [
 			"Ultimate Wilderness",
-			"Pathfinder #55: The Wormwood Mutiny",
-			"Pathfinder RPG Bestiary"
+			"Pathfinder #55: The Wormwood Mutiny"
 		],
 		"description": [
 			"*This lithe, green-scaled reptile looks like a miniature crocodile with a stunted muzzle.*",
@@ -1066,10 +1042,7 @@
 	"dwarf_caiman": { "redirect": "familiar_dwarf_caiman" },
 	"familiar_dweomer_cap": {
 		"name": "Dweomer Cap (Familiar)",
-		"sources": [
-			"Ultimate Wilderness",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"*Undulating patterns of purple and orange luminescence play across this strange mushroom's gills.*",
 			"",
@@ -1123,10 +1096,7 @@
 	"dweomer_cap": { "redirect": "familiar_dweomer_cap" },
 	"familiar_fire_salamander": {
 		"name": "Fire Salamander (Familiar)",
-		"sources": [
-			"Ultimate Wilderness",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"*Yellow spots and stripes run from this amphibian's wide snout to the tip of its tail.*",
 			"",
@@ -1179,10 +1149,7 @@
 	"fire_salamander": { "redirect": "familiar_fire_salamander" },
 	"familiar_flowering_lattice": {
 		"name": "Flowering Lattice (Familiar)",
-		"sources": [
-			"Ultimate Wilderness",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"*This scuttling patchwork plant features flowers of many different shapes and colors.*",
 			"",
@@ -1235,10 +1202,7 @@
 	"flowering_lattice": { "redirect": "familiar_flowering_lattice" },
 	"familiar_flying_fox": {
 		"name": "Flying Fox (Familiar)",
-		"sources": [
-			"Bestiary 5",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Bestiary 5" ],
 		"description": [
 			"::mh[Flying Fox]{cr=\"1/3\"}",
 			"",
@@ -1282,10 +1246,7 @@
 	"flying_fox": { "redirect": "familiar_flying_fox" },
 	"familiar_flying_squirrel": {
 		"name": "Flying Squirrel (Familiar)",
-		"sources": [
-			"Bestiary 3",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Bestiary 3" ],
 		"description": [
 			"::mh[Flying Squirrel]{cr=\"1/3\"}",
 			"",
@@ -1338,8 +1299,7 @@
 		"name": "Fox (Familiar)",
 		"sources": [
 			"Bestiary 3",
-			"Ultimate Magic",
-			"Pathfinder RPG Bestiary"
+			"Ultimate Magic"
 		],
 		"description": [
 			"::mh[Fox]{cr=\"1/4\"}",
@@ -1386,8 +1346,7 @@
 		"name": "Giant Isopod (Familiar)",
 		"sources": [
 			"Ultimate Wilderness",
-			"Pathfinder #55: The Wormwood Mutiny",
-			"Pathfinder RPG Bestiary"
+			"Pathfinder #55: The Wormwood Mutiny"
 		],
 		"description": [
 			"*This many-legged crustacean is the size of a sewer rat, its body protected by several thick shell-like plates.*",
@@ -1439,10 +1398,7 @@
 	"isopod_giant": { "redirect": "familiar_giant_isopod" },
 	"familiar_giant_tardigrade": {
 		"name": "Giant Tardigrade (Familiar)",
-		"sources": [
-			"Ultimate Wilderness",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"*This strange eight-legged creature looks vaguely like an insectile bear as it swims through the water.*",
 			"",
@@ -1496,8 +1452,7 @@
 		"name": "Goat (Familiar)",
 		"sources": [
 			"Bestiary 3",
-			"Ultimate Magic",
-			"Pathfinder RPG Bestiary"
+			"Ultimate Magic"
 		],
 		"description": [
 			"::mh[Goat]{cr=\"1/3\"}",
@@ -1586,10 +1541,7 @@
 	"falcon": { "redirect": "familiar_hawk" },
 	"familiar_hedgehog": {
 		"name": "Hedgehog (Familiar)",
-		"sources": [
-			"Ultimate Magic",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"::mh[Hedgehog]{cr=\"1/8\"}",
 			"",
@@ -1636,10 +1588,7 @@
 	"hedgehog": { "redirect": "familiar_hedgehog" },
 	"familiar_horned_lizard": {
 		"name": "Horned Lizard (Familiar)",
-		"sources": [
-			"Ultimate Wilderness",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"*The blunt snout of this lizard bears bony horns, and its flat, round body is adorned with many spines.*",
 			"",
@@ -1695,10 +1644,7 @@
 	"horned_lizard": { "redirect": "familiar_horned_lizard" },
 	"familiar_house_centipede": {
 		"name": "House Centipede (Familiar)",
-		"sources": [
-			"Ultimate Magic",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"::mh[House Centipede]{cr=\"1/8\"}",
 			"",
@@ -1751,8 +1697,7 @@
 		"name": "Ioun Wyrd (Familiar)",
 		"sources": [
 			"Ultimate Wilderness",
-			"Familiar Folio",
-			"Pathfinder RPG Bestiary"
+			"Familiar Folio"
 		],
 		"description": [
 			"*This strange creature appears as a floating swarm of gemstones surrounding a larger stone that pulses with dim light.*",
@@ -1818,10 +1763,7 @@
 	"ioun_wyrd": { "redirect": "familiar_ioun_wyrd" },
 	"familiar_jerboa": {
 		"name": "Jerboa (Familiar)",
-		"sources": [
-			"Ultimate Wilderness",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"*This small, sand-colored rodent has long hind legs and large ears. Its tufted tail is longer than the animal itself.*",
 			"",
@@ -1871,8 +1813,7 @@
 		"name": "Kakapo (Familiar)",
 		"sources": [
 			"Ultimate Wilderness",
-			"Familiar Folio",
-			"Pathfinder RPG Bestiary"
+			"Familiar Folio"
 		],
 		"description": [
 			"*This rotund parrot has vibrant green-and-black feathers, a short hooked beak, and an array of white whiskers.*",
@@ -1925,10 +1866,7 @@
 	"kakapo": { "redirect": "familiar_kakapo" },
 	"familiar_king_crab": {
 		"name": "King Crab (Familiar)",
-		"sources": [
-			"Ultimate Magic",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"::mh[King Crab]{cr=\"1/4\"}",
 			"",
@@ -1981,8 +1919,7 @@
 		"name": "Koala (Familiar)",
 		"sources": [
 			"Ultimate Wilderness",
-			"Familiar Folio",
-			"Pathfinder RPG Bestiary"
+			"Familiar Folio"
 		],
 		"description": [
 			"*This wide-faced animal looks like a small, plump bear with a flat black nose, small round eyes, and white-tufted ears.*",
@@ -2030,10 +1967,7 @@
 	"koala": { "redirect": "familiar_koala" },
 	"familiar_lamprey": {
 		"name": "Lamprey (Familiar)",
-		"sources": [
-			"Ultimate Wilderness",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"*This serpentine fish has a horrific circular mouth filled with hook-like teeth.*",
 			"",
@@ -2084,8 +2018,7 @@
 		"name": "Lemming (Familiar)",
 		"sources": [
 			"Ultimate Wilderness",
-			"Reign of Winter Player's Guide",
-			"Pathfinder RPG Bestiary"
+			"Reign of Winter Player's Guide"
 		],
 		"description": [
 			"*This small, plump rodent has a calico mix of color and a short tail.*",
@@ -2136,8 +2069,7 @@
 		"name": "Leopard Slug (Familiar)",
 		"sources": [
 			"Ultimate Wilderness",
-			"Familiar Folio",
-			"Pathfinder RPG Bestiary"
+			"Familiar Folio"
 		],
 		"description": [
 			"*This dark-yellow, hand-length slug is covered in a pattern of black spots and stripes.*",
@@ -2237,10 +2169,7 @@
 	"lizard": { "redirect": "familiar_lizard" },
 	"familiar_margay_cat": {
 		"name": "Margay Cat (Familiar)",
-		"sources": [
-			"Ultimate Wilderness",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"*Black rosettes and streaks mark the brown fur of this slender feline.*",
 			"",
@@ -2290,10 +2219,7 @@
 	"cat_margay": { "redirect": "familiar_margay_cat" },
 	"familiar_meerkat": {
 		"name": "Meerkat (Familiar)",
-		"sources": [
-			"Ultimate Wilderness",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"*This curious, sand-colored, weasel-like creature has dark bands around its inquisitive eyes.*",
 			"",
@@ -2349,10 +2275,7 @@
 	"meerkat": { "redirect": "familiar_meerkat" },
 	"familiar_mole_uw": {
 		"name": "Mole (UW) (Familiar)",
-		"sources": [
-			"Ultimate Wilderness",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"*This brown rodent has a furry, cylindrical body, a pointed snout, and large, thick paws that end in digging claws.*",
 			"",
@@ -2401,10 +2324,7 @@
 	"mole_uw": { "redirect": "familiar_mole_uw" },
 	"familiar_mole_ff": {
 		"name": "Mole (FF) (Familiar)",
-		"sources": [
-			"Familiar Folio",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Familiar Folio" ],
 		"description": [
 			"*This brown, apparently eyeless rodent has a furry cylindrical body, a pointed snout, and large, thick paws that end in digging claws.*",
 			"",
@@ -2495,10 +2415,7 @@
 	"monkey": { "redirect": "familiar_monkey" },
 	"familiar_otter": {
 		"name": "Otter (Familiar)",
-		"sources": [
-			"Bestiary 3",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Bestiary 3" ],
 		"description": [
 			"::mh[Otter]{cr=\"1/4\"}",
 			"",
@@ -2588,8 +2505,7 @@
 		"name": "Peafowl (Familiar)",
 		"sources": [
 			"Familiar Folio",
-			"Ultimate Wilderness",
-			"Pathfinder RPG Bestiary"
+			"Ultimate Wilderness"
 		],
 		"description": [
 			"*This bird's royal-blue body is upstaged only by the magnificent array of feathers that radiate from its back.*",
@@ -2649,8 +2565,7 @@
 		"sources": [
 			"Ultimate Wilderness",
 			"Familiar Folio",
-			"Bestiary 5",
-			"Pathfinder RPG Bestiary"
+			"Bestiary 5"
 		],
 		"description": [
 			"*This three-foot-tall, thick-set bird has black and white coloration, a long beak, and black flippers that lie flat against its sides instead of wings.*",
@@ -2705,8 +2620,7 @@
 		"name": "Petrifern (Familiar)",
 		"sources": [
 			"Ultimate Wilderness",
-			"Familiar Folio",
-			"Pathfinder RPG Bestiary"
+			"Familiar Folio"
 		],
 		"description": [
 			"*This tiny, unassuming tree is shaped like a miniature person, with branches for arms and roots for feet.*",
@@ -2764,8 +2678,7 @@
 		"name": "Pig (Familiar)",
 		"sources": [
 			"Bestiary 3",
-			"Ultimate Magic",
-			"Pathfinder RPG Bestiary"
+			"Ultimate Magic"
 		],
 		"description": [
 			"::mh[Pig]{cr=\"1/3\"}",
@@ -2812,8 +2725,7 @@
 		"sources": [
 			"Ultimate Wilderness",
 			"Animal Archive",
-			"Bestiary 4",
-			"Pathfinder RPG Bestiary"
+			"Bestiary 4"
 		],
 		"description": [
 			"*This creature is plump, brown, and covered in sleek fur, but it has a duck's bill, a flat tail, and webbed feet.*",
@@ -2871,10 +2783,7 @@
 	"platypus": { "redirect": "familiar_platypus" },
 	"familiar_popoto_dolphin": {
 		"name": "Popoto Dolphin (Familiar)",
-		"sources": [
-			"Ultimate Wilderness",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"*This sleek mammal has a short snout and black, white, and gray markings along its body.*",
 			"",
@@ -2922,8 +2831,7 @@
 		"name": "Ptarmigan (Familiar)",
 		"sources": [
 			"Ultimate Wilderness",
-			"Reign of Winter Player's Guide",
-			"Pathfinder RPG Bestiary"
+			"Reign of Winter Player's Guide"
 		],
 		"description": [
 			"*This small bird has a mix of brown and white feathers and makes a loud croaking sound.*",
@@ -2974,8 +2882,7 @@
 		"name": "Pufferfish (Familiar)",
 		"sources": [
 			"Ultimate Wilderness",
-			"Familiar Folio",
-			"Pathfinder RPG Bestiary"
+			"Familiar Folio"
 		],
 		"description": [
 			"*This spotted fish has pronounced eyes, a wide mouth, and tiny, brightly colored spikes protruding from its body.*",
@@ -3033,8 +2940,7 @@
 		"name": "Puffin (Familiar)",
 		"sources": [
 			"Ultimate Wilderness",
-			"Reign of Winter Player's Guide",
-			"Pathfinder RPG Bestiary"
+			"Reign of Winter Player's Guide"
 		],
 		"description": [
 			"*This squat, black-and-white bird has a bright red-and-black beak.*",
@@ -3085,8 +2991,7 @@
 		"name": "Rabbit (Familiar)",
 		"sources": [
 			"Ultimate Wilderness",
-			"Animal Archive",
-			"Pathfinder RPG Bestiary"
+			"Animal Archive"
 		],
 		"description": [
 			"*This small, furry creature has long ears and oversized feet.*",
@@ -3135,10 +3040,7 @@
 	"rabbit": { "redirect": "familiar_rabbit" },
 	"familiar_raccoon": {
 		"name": "Raccoon (Familiar)",
-		"sources": [
-			"Bestiary 3",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Bestiary 3" ],
 		"description": [
 			"::mh[Raccoon]{cr=\"1/2\"}",
 			"",
@@ -3270,10 +3172,7 @@
 	"raven": { "redirect": "familiar_raven" },
 	"familiar_ravenous_tumbleweed": {
 		"name": "Ravenous Tumbleweed (Familiar)",
-		"sources": [
-			"Ultimate Wilderness",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"*This tangle of dry-looking vegetation has grown into a spherical ball of thorny twigs and roots.*",
 			"",
@@ -3326,10 +3225,7 @@
 	"ravenous_tumbleweed": { "redirect": "familiar_ravenous_tumbleweed" },
 	"familiar_razor_fern": {
 		"name": "Razor Fern (Familiar)",
-		"sources": [
-			"Ultimate Wilderness",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"*This vaguely human-shaped plant slashes out with dangerous-looking barbed fronds.*",
 			"",
@@ -3381,10 +3277,7 @@
 	"razor_fern": { "redirect": "familiar_razor_fern" },
 	"familiar_red_panda": {
 		"name": "Red Panda (Familiar)",
-		"sources": [
-			"Bestiary 5",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Bestiary 5" ],
 		"description": [
 			"::mh[Red Panda]{cr=\"1/2\"}",
 			"",
@@ -3430,8 +3323,7 @@
 		"name": "Rhamphorhynchus (Familiar)",
 		"sources": [
 			"Ultimate Wilderness",
-			"Pathfinder #37: Souls for Smuggler's Shiv",
-			"Pathfinder RPG Bestiary"
+			"Pathfinder #37: Souls for Smuggler's Shiv"
 		],
 		"description": [
 			"*This creature looks like a cross between a bird and a reptile, sporting leathery wings, a beak filled with needle-like teeth, and a long tail ending in a diamond-shaped vane.*",
@@ -3484,10 +3376,7 @@
 	"rhamphorhynchus": { "redirect": "familiar_rhamphorhynchus" },
 	"familiar_sawleg_locust": {
 		"name": "Sawleg Locust (Familiar)",
-		"sources": [
-			"Ultimate Wilderness",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"*The cat-sized insect has a long, cigar-shaped body. Its spiny back legs are long and limber.*",
 			"",
@@ -3544,8 +3433,7 @@
 		"sources": [
 			"Ultimate Wilderness",
 			"Pathfinder #55: The Wormwood Mutiny",
-			"Bestiary 5",
-			"Pathfinder RPG Bestiary"
+			"Bestiary 5"
 		],
 		"description": [
 			"*This sleek aquatic mammal has a pair of flippers, a powerful tail, and a muzzle full of small, sharp teeth.*",
@@ -3592,10 +3480,7 @@
 	"seal": { "redirect": "familiar_seal" },
 	"familiar_shimmerwing_dragonfly": {
 		"name": "Shimmerwing Dragonfly (Familiar)",
-		"sources": [
-			"Ultimate Wilderness",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"*This sizable insect has a slender body and two pairs of long, elegant, iridescent wings.*",
 			"",
@@ -3643,10 +3528,7 @@
 	"dragonfly_shimmerwing": { "redirect": "familiar_shimmerwing_dragonfly" },
 	"familiar_sloth": {
 		"name": "Sloth (Familiar)",
-		"sources": [
-			"Bestiary 4",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Bestiary 4" ],
 		"description": [
 			"::mh[Sloth]{cr=\"1/6\"}",
 			"",
@@ -3690,10 +3572,7 @@
 	"sloth": { "redirect": "familiar_sloth" },
 	"familiar_spiny_starfish": {
 		"name": "Spiny Starfish (Familiar)",
-		"sources": [
-			"Ultimate Wilderness",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"*This brightly colored, star-shaped creature has many spines growing from its five arms.*",
 			"",
@@ -3750,8 +3629,7 @@
 		"name": "Squirrel (Familiar)",
 		"sources": [
 			"Ultimate Wilderness",
-			"Animal Archive",
-			"Pathfinder RPG Bestiary"
+			"Animal Archive"
 		],
 		"description": [
 			"*A small, bright-eyed bundle of fur, this woodland creature has a bushy tail as big as the rest of its body.*",
@@ -3800,10 +3678,7 @@
 	"squirrel": { "redirect": "familiar_squirrel" },
 	"familiar_suture_vine": {
 		"name": "Suture Vine (Familiar)",
-		"sources": [
-			"Ultimate Wilderness",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"*This twitching, slithering coil of bright-green vines is covered with hooked thorns and tiny barbs.*",
 			"",
@@ -3861,10 +3736,7 @@
 	"suture_vine": { "redirect": "familiar_suture_vine" },
 	"familiar_tarsier": {
 		"name": "Tarsier (Familiar)",
-		"sources": [
-			"Ultimate Wilderness",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"*This small, furry creature has enormous glossy eyes, long legs, and elongated fingers.*",
 			"",
@@ -3917,10 +3789,7 @@
 	"tarsier": { "redirect": "familiar_tarsier" },
 	"familiar_thrush": {
 		"name": "Thrush (Familiar)",
-		"sources": [
-			"Ultimate Magic",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"::mh[Thrush]{cr=\"1/3\"}",
 			"",
@@ -4007,10 +3876,7 @@
 	"toad": { "redirect": "familiar_toad" },
 	"familiar_trilobite": {
 		"name": "Trilobite (Familiar)",
-		"sources": [
-			"Bestiary 5",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Bestiary 5" ],
 		"description": [
 			"::mh[Trilobite]{cr=\"1/4\"}",
 			"",
@@ -4062,10 +3928,7 @@
 	"trilobite": { "redirect": "familiar_trilobite" },
 	"familiar_tuatara": {
 		"name": "Tuatara (Familiar)",
-		"sources": [
-			"Bestiary 4",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Bestiary 4" ],
 		"description": [
 			"::mh[Tuatara]{cr=\"1/4\"}",
 			"",
@@ -4108,10 +3971,7 @@
 	"tuatara": { "redirect": "familiar_tuatara" },
 	"familiar_vampire_squid": {
 		"name": "Vampire Squid (Familiar)",
-		"sources": [
-			"Ultimate Wilderness",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"*This eerie-looking squid has red eyes and webbing between its hook-lined tentacles.*",
 			"",
@@ -4219,8 +4079,7 @@
 		"name": "Wallaby (Familiar)",
 		"sources": [
 			"Ultimate Wilderness",
-			"Familiar Folio",
-			"Pathfinder RPG Bestiary"
+			"Familiar Folio"
 		],
 		"description": [
 			"*This bipedal mammal has a long tail, short arms, and long, limber legs that afford a strange hopping gait.*",

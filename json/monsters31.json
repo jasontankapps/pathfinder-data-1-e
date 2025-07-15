@@ -1933,10 +1933,7 @@
 	},
 	"drake_desert_drake": {
 		"name": "Desert Drake",
-		"sources": [
-			"Bestiary 3",
-			"Bestiary 2"
-		],
+		"sources": [ "Bestiary 3" ],
 		"description": [
 			"*This sleek dragon has scales mottled in desert colors, lacks forelimbs, and sports massive wings on its lissome back.*",
 			"",
@@ -1999,10 +1996,7 @@
 	"desert_drake": { "redirect": "drake_desert_drake" },
 	"drake_ether_drake": {
 		"name": "Ether Drake",
-		"sources": [
-			"Bestiary 5",
-			"Bestiary 2"
-		],
+		"sources": [ "Bestiary 5" ],
 		"description": [
 			"*Bony plates cover the upper body of this dragon. Its lower frame has a glassy sheen, and bone wings protrude from its back.*",
 			"",
@@ -2261,10 +2255,7 @@
 	"frost_drake": { "redirect": "drake_frost_drake" },
 	"drake_jungle_drake": {
 		"name": "Jungle Drake",
-		"sources": [
-			"Bestiary 5",
-			"Bestiary 2"
-		],
+		"sources": [ "Bestiary 5" ],
 		"description": [
 			"*The skin of this rugged dragon is mottled in hues of blue and green. Its elongated tail hides a menacing stinger.*",
 			"",
@@ -2329,10 +2320,7 @@
 	"jungle_drake": { "redirect": "drake_jungle_drake" },
 	"drake_lava_drake": {
 		"name": "Lava Drake",
-		"sources": [
-			"Bestiary 4",
-			"Bestiary 2"
-		],
+		"sources": [ "Bestiary 4" ],
 		"description": [
 			"*This muscular two-legged dragon is covered with scales of thick volcanic stone.*",
 			"",
@@ -2394,10 +2382,7 @@
 	"lava_drake": { "redirect": "drake_lava_drake" },
 	"drake_mist_drake": {
 		"name": "Mist Drake",
-		"sources": [
-			"Bestiary 4",
-			"Bestiary 2"
-		],
+		"sources": [ "Bestiary 4" ],
 		"description": [
 			"*This lanky dragon's dappled grayish scales and sprawling wings shift and fade in color, blending in with the mist.*",
 			"",
@@ -2462,10 +2447,7 @@
 	"mist_drake": { "redirect": "drake_mist_drake" },
 	"drake_rift_drake": {
 		"name": "Rift Drake",
-		"sources": [
-			"Bestiary 3",
-			"Bestiary 2"
-		],
+		"sources": [ "Bestiary 3" ],
 		"description": [
 			"*Horns jut from this muscular dragon's beaked head, and spikes cover the dragon's hide even in places on its winged arms.*",
 			"",
@@ -2528,10 +2510,7 @@
 	"rift_drake": { "redirect": "drake_rift_drake" },
 	"drake_river_drake": {
 		"name": "River Drake",
-		"sources": [
-			"Bestiary 3",
-			"Bestiary 2"
-		],
+		"sources": [ "Bestiary 3" ],
 		"description": [
 			"*With graceful wings and wide fins, this sleek dragon looks equally well equipped to glide through sea and sky.*",
 			"",
@@ -2658,10 +2637,7 @@
 	"sea_drake": { "redirect": "drake_sea_drake" },
 	"drake_shadow_drake": {
 		"name": "Shadow Drake",
-		"sources": [
-			"Bestiary 4",
-			"Bestiary 2"
-		],
+		"sources": [ "Bestiary 4" ],
 		"description": [
 			"*This tiny black dragon-like creature has charcoal-colored scales and shadowy wings.*",
 			"",
@@ -2725,10 +2701,7 @@
 	"shadow_drake": { "redirect": "drake_shadow_drake" },
 	"drake_spire_drake": {
 		"name": "Spire Drake",
-		"sources": [
-			"Bestiary 4",
-			"Bestiary 2"
-		],
+		"sources": [ "Bestiary 4" ],
 		"description": [
 			"*This reptilian creature's gaunt body, legs, and bat-like face are covered in long spines. Two wings stretch out from its torso.*",
 			"",
@@ -2793,10 +2766,7 @@
 	"spire_drake": { "redirect": "drake_spire_drake" },
 	"fleshwarp_drider": {
 		"name": "Drider (Fleshwarp)",
-		"sources": [
-			"Pathfinder RPG Bestiary",
-			"Bestiary 4"
-		],
+		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*The dry rasping of spidery legs brings this hideous monstrosity into view - a nightmarish, centaurian fusion of drow and spider.*",
 			"",
@@ -3106,10 +3076,7 @@
 	"irnakurse": { "redirect": "fleshwarp_irnakurse" },
 	"fleshwarp_oronci": {
 		"name": "Oronci (Fleshwarp)",
-		"sources": [
-			"Inner Sea Bestiary",
-			"Bestiary 4"
-		],
+		"sources": [ "Inner Sea Bestiary" ],
 		"description": [
 			"*A cruel face and orc features dominate this creature's upper half, while its lower quarters bear the sinewy shape of a centipede.*",
 			"",

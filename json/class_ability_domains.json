@@ -1,7 +1,6 @@
 {
 	"not_found": {
 		"name": "Unknown",
-		"sources": [],
 		"description": [
 			"## Error",
 			"",
@@ -238,7 +237,6 @@
 	},
 	"alchemy": {
 		"name": "Alchemy",
-		"sources": [],
 		"description": [
 			"## Alchemy",
 			"",
@@ -395,7 +393,6 @@
 	},
 	"azata": {
 		"name": "Azata",
-		"sources": [],
 		"description": [
 			"## Azata",
 			"",
@@ -404,7 +401,6 @@
 	},
 	"demodand": {
 		"name": "Demodand and Demon",
-		"sources": [],
 		"description": [
 			"## Demodand and Demon",
 			"",
@@ -558,7 +554,6 @@
 	"cooperation": { "redirect": "community" },
 	"education": {
 		"name": "Education",
-		"sources": [],
 		"description": [
 			"## Education",
 			"",
@@ -648,7 +643,6 @@
 	"night": { "redirect": "darkness" },
 	"shadow": {
 		"name": "Shadow",
-		"sources": [],
 		"description": [
 			"## Shadow",
 			"",
@@ -772,7 +766,6 @@
 	"murder": { "redirect": "death" },
 	"plague": {
 		"name": "Plague",
-		"sources": [],
 		"description": [
 			"## Plague",
 			"",
@@ -781,7 +774,6 @@
 	},
 	"psychopomp": {
 		"name": "Psychopomp",
-		"sources": [],
 		"description": [
 			"## Psychopomp",
 			"",
@@ -1105,7 +1097,6 @@
 	"daemon": { "redirect": "evil" },
 	"devil": {
 		"name": "Devil and Kyton",
-		"sources": [],
 		"description": [
 			"## Devil and Kyton",
 			"",
@@ -1273,7 +1264,6 @@
 	"honor": { "redirect": "glory" },
 	"hubris": {
 		"name": "Hubris",
-		"sources": [],
 		"description": [
 			"## Hubris",
 			"",
@@ -1371,7 +1361,6 @@
 	"agathion": { "redirect": "good" },
 	"archon": {
 		"name": "Archon",
-		"sources": [],
 		"description": [
 			"## Archon",
 			"",
@@ -1549,7 +1538,6 @@
 	"aeon": { "redirect": "knowledge" },
 	"espionage": {
 		"name": "Espionage",
-		"sources": [],
 		"description": [
 			"## Espionage",
 			"",

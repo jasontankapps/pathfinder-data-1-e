@@ -1,7 +1,6 @@
 {
 	"monsters_outsiders": {
 		"title": "Outsiders",
-		"sources": [],
 		"description": [
 			":::item",
 			"",
@@ -629,7 +628,6 @@
 	},
 	"monsters_outsiders_elemental": {
 		"title": "Elementals",
-		"sources": [],
 		"description": [
 			":::item",
 			"",
@@ -756,7 +754,6 @@
 	},
 	"monsters_outsiders_native": {
 		"title": "Native Outsiders",
-		"sources": [],
 		"description": [
 			":::item",
 			"",

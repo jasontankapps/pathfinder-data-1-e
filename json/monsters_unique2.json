@@ -167,10 +167,7 @@
 	"cthulhu": { "redirect": "great_old_one_cthulhu" },
 	"great_old_one_ghatanothoa": {
 		"name": "Ghatanothoa (Great Old One)",
-		"sources": [
-			"Pathfinder #114: Black Stars Beckon",
-			"Bestiary 4"
-		],
+		"sources": [ "Pathfinder #114: Black Stars Beckon" ],
 		"description": [
 			"*An insane tangle of eyes and mouths, arms and legs, tentacles and worse rises up upon itself, a mountain of madness come to life.*",
 			"",
@@ -326,10 +323,7 @@
 	"hastur": { "redirect": "great_old_one_hastur" },
 	"great_old_one_ithaqua": {
 		"name": "Ithaqua (Great Old One)",
-		"sources": [
-			"Pathfinder #109: In Search of Sanity",
-			"Bestiary 4"
-		],
+		"sources": [ "Pathfinder #109: In Search of Sanity" ],
 		"description": [
 			"*This looming humanoid shape has long, gangly limbs, glowing red eyes, and a gaping mouth full of fangs.*",
 			"",
@@ -418,10 +412,7 @@
 	"ithaqua": { "redirect": "great_old_one_ithaqua" },
 	"great_old_one_mhar": {
 		"name": "Mhar (Great Old One)",
-		"sources": [
-			"Pathfinder #138: Rise of New Thassilon",
-			"Bestiary 4"
-		],
+		"sources": [ "Pathfinder #138: Rise of New Thassilon" ],
 		"description": [
 			"*Eight pairs of crystalline legs support this enormous volcano. The volcano's crater constantly spews smoke and roiling lava.*",
 			"",
@@ -499,10 +490,7 @@
 	"mhar": { "redirect": "great_old_one_mhar" },
 	"great_old_one_mordiggian": {
 		"name": "Mordiggian (Great Old One)",
-		"sources": [
-			"Pathfinder #110: The Thrushmoor Terror",
-			"Bestiary 4"
-		],
+		"sources": [ "Pathfinder #110: The Thrushmoor Terror" ],
 		"description": [
 			"*This massive worm-like creature appears to be made of solid darkness that sucks surrounding light into its body to be forever extinguished.*",
 			"",
@@ -585,10 +573,7 @@
 	"mordiggian": { "redirect": "great_old_one_mordiggian" },
 	"great_old_one_rhan_tegoth": {
 		"name": "Rhan-Tegoth (Great Old One)",
-		"sources": [
-			"Bestiary 6",
-			"Bestiary 4"
-		],
+		"sources": [ "Bestiary 6" ],
 		"description": [
 			"*This six-legged, spider-like monstrosity has a bloated abdomen and a hideous face from which three bulbous eyes glare.*",
 			"",
@@ -671,10 +656,7 @@
 	"rhan_tegoth": { "redirect": "great_old_one_rhan_tegoth" },
 	"great_old_one_tawil_atumr": {
 		"name": "Tawil At'umr (Great Old One)",
-		"sources": [
-			"Bestiary 6",
-			"Bestiary 4"
-		],
+		"sources": [ "Bestiary 6" ],
 		"description": [
 			"*A gray robe and veil obscure this humanoid's form, save for a foaming mass of bubbles and tentacles extending from below.*",
 			"",
@@ -758,10 +740,7 @@
 	"tawil_atumr": { "redirect": "great_old_one_tawil_atumr" },
 	"great_old_one_tsathoggua": {
 		"name": "Tsathoggua (Great Old One)",
-		"sources": [
-			"Pathfinder #111: Dreams of the Yellow King",
-			"Bestiary 4"
-		],
+		"sources": [ "Pathfinder #111: Dreams of the Yellow King" ],
 		"description": [
 			"*Neither quite humanoid nor quite toad, this lumbering monstrosity maintains a malevolent expression on its bat-like face.*",
 			"",
@@ -857,10 +836,7 @@
 	"tsathoggua": { "redirect": "great_old_one_tsathoggua" },
 	"great_old_one_xhamen_dor": {
 		"name": "Xhamen-Dor (Great Old One)",
-		"sources": [
-			"Pathfinder #113: What Grows Within",
-			"Bestiary 4"
-		],
+		"sources": [ "Pathfinder #113: What Grows Within" ],
 		"description": [
 			"*A hideous tangle of hair-like fungal filaments writhes with nauseating purpose. Bones lie tangled in the wriggling mass, arrayed around a central draconic skull.*",
 			"",
@@ -943,10 +919,7 @@
 	"xhamen_dor": { "redirect": "great_old_one_xhamen_dor" },
 	"great_old_one_yig": {
 		"name": "Yig (Great Old One)",
-		"sources": [
-			"Bestiary 6",
-			"Bestiary 4"
-		],
+		"sources": [ "Bestiary 6" ],
 		"description": [
 			"*This green-scaled humanoid has a long, serpentine neck and head, and its brow is marked by a distinctive crescent shape.*",
 			"",
@@ -1204,10 +1177,7 @@
 	"basileus": { "redirect": "herald_basileus" },
 	"herald_ends_voice": {
 		"name": "End's Voice (Herald)",
-		"sources": [
-			"Pathfinder #64: Beyond the Doomsday Door",
-			"Inner Sea Gods"
-		],
+		"sources": [ "Pathfinder #64: Beyond the Doomsday Door" ],
 		"description": [
 			"*A long crimson cloak drapes over the form of this large faceless being, which floats just above the ground on footless legs as its menacing flail crackles with blue currents of electricity.*",
 			"",
@@ -1286,10 +1256,7 @@
 	"ends_voice": { "redirect": "herald_ends_voice" },
 	"herald_gravedragger": {
 		"name": "Gravedragger (Herald)",
-		"sources": [
-			"Pathfinder #89: Palace of Fallen Stars",
-			"Inner Sea Gods"
-		],
+		"sources": [ "Pathfinder #89: Palace of Fallen Stars" ],
 		"description": [
 			"*This creature's body rises from the ground in an amorphous mass of grave dirt and eroded bone. Its upper half is humanoid-shaped and wields an enormous pick made from a giant's rib and skull.*",
 			"",
@@ -1371,10 +1338,7 @@
 	"gravedragger": { "redirect": "herald_gravedragger" },
 	"herald_great_elder_iuu": {
 		"name": "Great Elder Iuu (Herald)",
-		"sources": [
-			"Pathfinder #93: Forge of the Giant God",
-			"Inner Sea Gods"
-		],
+		"sources": [ "Pathfinder #93: Forge of the Giant God" ],
 		"description": [
 			"*This ancient stone giant towers over others of his kind and has a crown of crystalline growths sprouting from his head. He holds a warhammer made of meteoric stone pierced by natural deposits of glinting metallic ore.*",
 			"",
@@ -1526,10 +1490,7 @@
 	"hand_of_the_inheritor": { "redirect": "herald_hand_of_the_inheritor" },
 	"herald_latten_mechanism": {
 		"name": "Latten Mechanism (Herald)",
-		"sources": [
-			"Pathfinder #86: Lords of Rust",
-			"Inner Sea Gods"
-		],
+		"sources": [ "Pathfinder #86: Lords of Rust" ],
 		"description": [
 			"*This clockwork termite is the size of a rhinoceros and has an oversized head with a humanoid face on it. Multiple apertures along its body sprout tool-wielding limbs, and a human-sized hatch on its abdomen chitters and clicks like a menacing maw.*",
 			"",
@@ -1616,10 +1577,7 @@
 	"latten_mechanism": { "redirect": "herald_latten_mechanism" },
 	"herald_mothers_maw": {
 		"name": "Mother's Maw (Herald)",
-		"sources": [
-			"Pathfinder #47: Ashes at Dawn",
-			"Inner Sea Gods"
-		],
+		"sources": [ "Pathfinder #47: Ashes at Dawn" ],
 		"description": [
 			"*This skull is as large as an ogre and surrounded by buzzing flies. Its bat wings are too small to actually carry it, yet it moves through the air as easily as a bird. It is surrounded by the stink of rotting meat, spice, and perfume.*",
 			"",

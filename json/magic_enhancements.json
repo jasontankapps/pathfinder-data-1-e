@@ -1,7 +1,6 @@
 {
 	"not_found": {
 		"name": "Unknown",
-		"sources": [],
 		"description": [
 			"## Error",
 			"",
@@ -272,7 +271,10 @@
 	},
 	"fortification": {
 		"name": "Fortification",
-		"sources": [ "Ultimate Equipment" ],
+		"sources": [
+			"Ultimate Equipment",
+			"PRPG Core Rulebook"
+		],
 		"description": [
 			"## Fortification",
 			"",
@@ -1695,7 +1697,7 @@
 			"**Aura** moderate transmutation; **CL** 10th  ",
 			"**Slot** armor quality; **Price** +27,000 gp; **Weight** -",
 			"",
-			"Righteous armor is often engraved or enameled with religious symbols. Once per day on command, the wearer can invoke an effect, as per the spell *righteous might,* lasting for 10 rounds. Righteous armor is always aligned toward good (positive energy), for the effects of *righteous might.* Righteous armor bestows one permanent {rule/negative level>s} on any evil creature attempting to wear it. The negative level remains as long as the armor is worn and disappears when it is removed. This negative level cannot be overcome in any way (including by {spell/restoration} spells) while the armor is worn.",
+			"Righteous armor is often engraved or enameled with religious symbols. Once per day on command, the wearer can invoke an effect, as per the spell *righteous might,* lasting for 10 rounds. Righteous armor is always aligned toward good (positive energy), for the effects of *righteous might.* Righteous armor bestows one permanent {rule/negative level} on any evil creature attempting to wear it. The negative level remains as long as the armor is worn and disappears when it is removed. This negative level cannot be overcome in any way (including by {spell/restoration} spells) while the armor is worn.",
 			"",
 			"Unrighteous armor is often sculpted with unholy symbols, and works the same as righteous armor, except the effect is aligned toward evil (negative energy), and bestows a negative level on good creatures that wear it.",
 			"",

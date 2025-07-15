@@ -254,10 +254,7 @@
 	"cairn_linnorm": { "redirect": "linnorm_cairn_linnorm" },
 	"linnorm_crag_linnorm": {
 		"name": "Crag Linnorm",
-		"sources": [
-			"Pathfinder RPG Bestiary",
-			"Bestiary 3"
-		],
+		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*This immense, wingless dragon rears up on a serpentine body. Its triple tail and powerful talons swipe at the air.*",
 			"",
@@ -384,10 +381,7 @@
 	"fjord_linnorm": { "redirect": "linnorm_fjord_linnorm" },
 	"linnorm_gare_linnorm": {
 		"name": "Gare Linnorm",
-		"sources": [
-			"Pathfinder #50: Night of Frozen Shadows",
-			"Bestiary 3"
-		],
+		"sources": [ "Pathfinder #50: Night of Frozen Shadows" ],
 		"description": [
 			"*An enormous draconic head rises up atop a massive serpentine neck wider than a galleon's mainmast. Seemingly endless coils break the water's surface around it, only hinting at the monster's terrifying size, as it opens its steam-shrouded maw with a hiss.*",
 			"",
@@ -466,10 +460,7 @@
 	"gare_linnorm": { "redirect": "linnorm_gare_linnorm" },
 	"linnorm_ice_linnorm": {
 		"name": "Ice Linnorm",
-		"sources": [
-			"Pathfinder RPG Bestiary",
-			"Bestiary 3"
-		],
+		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*A snake-like, dragon-headed monster of tremendous size rises up, drifts of snow and ice tumbling from its coiling flanks.*",
 			"",
@@ -535,10 +526,7 @@
 	"ice_linnorm": { "redirect": "linnorm_ice_linnorm" },
 	"linnorm_sea_linnorm": {
 		"name": "Sea Linnorm",
-		"sources": [
-			"Pathfinder #126: Beyond the Veiled Past",
-			"Bestiary 3"
-		],
+		"sources": [ "Pathfinder #126: Beyond the Veiled Past" ],
 		"description": [
 			"*This unfathomably large serpent sports a distinctly draconic face. Its body is deep, blackened gray with swatches of crimson. An entrancing set of lures dangles off its face, each glowing with a pulsating orange light accented by regular electrical discharges.*",
 			"",
@@ -677,10 +665,7 @@
 	"taiga_linnorm": { "redirect": "linnorm_taiga_linnorm" },
 	"linnorm_tarn_linnorm": {
 		"name": "Tarn Linnorm",
-		"sources": [
-			"Pathfinder RPG Bestiary",
-			"Bestiary 3"
-		],
+		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*This nightmarishly huge, snake-like dragon possesses two equally fearsome heads. Its twin jaws seethe with acid and poison.*",
 			"",
@@ -1263,10 +1248,7 @@
 	},
 	"megafauna_archelon": {
 		"name": "Archelon (Megafauna)",
-		"sources": [
-			"Bestiary 3",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Bestiary 3" ],
 		"description": [
 			"*The shell of this immense sea turtle easily spans 12 feet in length. Its narrow head ends in a hooked beak.*",
 			"",
@@ -1318,10 +1300,7 @@
 	"archelon": { "redirect": "megafauna_archelon" },
 	"megafauna_arsinoitherium": {
 		"name": "Arsinoitherium (Megafauna)",
-		"sources": [
-			"Bestiary 2",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Bestiary 2" ],
 		"description": [
 			"*This creature is much like a rhino, some six feet tall and ten feet long, with a pair of massive, knife-like horns curving up from its nose.*",
 			"",
@@ -1368,10 +1347,7 @@
 	"arsinoitherium": { "redirect": "megafauna_arsinoitherium" },
 	"megafauna_baluchitherium": {
 		"name": "Baluchitherium (Megafauna)",
-		"sources": [
-			"Bestiary 3",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Bestiary 3" ],
 		"description": [
 			"*This towering armored herbivore resembles a hornless rhinoceros, but with longer legs and a longer neck.*",
 			"",
@@ -1420,10 +1396,7 @@
 	"baluchitherium": { "redirect": "megafauna_baluchitherium" },
 	"megafauna_basilosaurus": {
 		"name": "Basilosaurus (Megafauna)",
-		"sources": [
-			"Bestiary 3",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Bestiary 3" ],
 		"description": [
 			"*This immense primeval whale has a sleek body that looks more serpentine than mammal, and jaws filled with sharp teeth.*",
 			"",
@@ -1473,10 +1446,7 @@
 	"basilosaurus": { "redirect": "megafauna_basilosaurus" },
 	"megafauna_brontotherium": {
 		"name": "Brontotherium (Megafauna)",
-		"sources": [
-			"Bestiary 6",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Bestiary 6" ],
 		"description": [
 			"*This stocky quadruped's lowered head puts its intimidating Y-shaped horn on full display.*",
 			"",
@@ -1525,8 +1495,7 @@
 		"name": "Chalicotherium (Megafauna)",
 		"sources": [
 			"Bestiary 5",
-			"Pathfinder #91: Battle of Bloodmarch Hills",
-			"Pathfinder RPG Bestiary"
+			"Pathfinder #91: Battle of Bloodmarch Hills"
 		],
 		"description": [
 			"*This huge, rather slow-moving and sloth-like creature has long, clawed forelimbs and short rear legs.*",
@@ -1579,8 +1548,7 @@
 		"name": "Deinotherium (Megafauna)",
 		"sources": [
 			"Bestiary 6",
-			"Pathfinder #91: Battle of Bloodmarch Hills",
-			"Pathfinder RPG Bestiary"
+			"Pathfinder #91: Battle of Bloodmarch Hills"
 		],
 		"description": [
 			"*This creature resembles an elephant, though it has a shorter, thicker trunk and sharp, downward-curving tusks.*",
@@ -1634,10 +1602,7 @@
 	"deinotherium": { "redirect": "megafauna_deinotherium" },
 	"megafauna_elasmotherium": {
 		"name": "Elasmotherium (Megafauna)",
-		"sources": [
-			"Bestiary 6",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Bestiary 6" ],
 		"description": [
 			"*This lumbering, four-legged, rhino-like beast has thick hide and a single immense horn protruding from the top of its head.*",
 			"",
@@ -1690,10 +1655,7 @@
 	"elasmotherium": { "redirect": "megafauna_elasmotherium" },
 	"megafauna_embolotherium": {
 		"name": "Embolotherium (Megafauna)",
-		"sources": [
-			"Pathfinder #91: Battle of Bloodmarch Hills",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Pathfinder #91: Battle of Bloodmarch Hills" ],
 		"description": [
 			"*This creature is reminiscent of a rhinoceros, but instead of pointed horns on its nose, this creature possesses a blunt, bony protrusion.*",
 			"",
@@ -1743,10 +1705,7 @@
 	"embolotherium": { "redirect": "megafauna_embolotherium" },
 	"megafauna_glyptodon": {
 		"name": "Glyptodon (Megafauna)",
-		"sources": [
-			"Bestiary 2",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Bestiary 2" ],
 		"description": [
 			"*This armored creature has a bony, turtle-like shell from which protrude short limbs, a blunt head, and a short spiky tail.*",
 			"",
@@ -1792,10 +1751,7 @@
 	"glyptodon": { "redirect": "megafauna_glyptodon" },
 	"megafauna_kaprosuchus": {
 		"name": "Kaprosuchus (Megafauna)",
-		"sources": [
-			"Bestiary 5",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Bestiary 5" ],
 		"description": [
 			"*This massive, squat crocodilian has forward facing eyes, jutting teeth, and a pronounced snout.*",
 			"",
@@ -1846,10 +1802,7 @@
 	"kaprosuchus": { "redirect": "megafauna_kaprosuchus" },
 	"megafauna_megalania": {
 		"name": "Megalania (Megafauna)",
-		"sources": [
-			"Bestiary 3",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Bestiary 3" ],
 		"description": [
 			"*This gigantic lizard has short but powerful limbs, a muscular tail, and a spiny crest that runs the length of its body.*",
 			"",
@@ -1904,8 +1857,7 @@
 		"name": "Megaloceros (Megafauna)",
 		"sources": [
 			"Bestiary 2",
-			"Pathfinder #31: Stolen Land",
-			"Pathfinder RPG Bestiary"
+			"Pathfinder #31: Stolen Land"
 		],
 		"description": [
 			"*The massive and majestic elk stands fully the height of a human at its shoulder, and its antlers stretch over ten feet across.*",
@@ -1955,10 +1907,7 @@
 	"megaloceros": { "redirect": "megafauna_megaloceros" },
 	"megafauna_megatherium": {
 		"name": "Megatherium (Megafauna)",
-		"sources": [
-			"Bestiary 2",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Bestiary 2" ],
 		"description": [
 			"*The great sloth, standing on its hind legs, can reach the treetops with its agile tongue to grab at foliage.*",
 			"",
@@ -2005,10 +1954,7 @@
 	"megatherium": { "redirect": "megafauna_megatherium" },
 	"megafauna_moa": {
 		"name": "Moa (Megafauna)",
-		"sources": [
-			"Bestiary 5",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Bestiary 5" ],
 		"description": [
 			"*Standing on muscular legs that end in enormous talons, this flightless bird is almost twice the height of a man.*",
 			"",
@@ -2056,10 +2002,7 @@
 	"moa": { "redirect": "megafauna_moa" },
 	"megafauna_titanoboa": {
 		"name": "Titanoboa (Megafauna)",
-		"sources": [
-			"Bestiary 6",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Bestiary 6" ],
 		"description": [
 			"*This immense serpent moves in deliberate, slithering undulations, its forked tongue tasting the air eagerly for the scent of prey.*",
 			"",
@@ -2108,10 +2051,7 @@
 	"titanoboa": { "redirect": "megafauna_titanoboa" },
 	"megafauna_uintatherium": {
 		"name": "Uintatherium (Megafauna)",
-		"sources": [
-			"Bestiary 5",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Bestiary 5" ],
 		"description": [
 			"*This large creature is built like a rhinoceros, but with fangs like a saber-toothed tiger and smaller horn-like ridges.*",
 			"",
@@ -3265,10 +3205,7 @@
 	"dark_naga": { "redirect": "naga_dark_naga" },
 	"naga_deep_naga": {
 		"name": "Deep Naga",
-		"sources": [
-			"Pathfinder #118: Siege of Stone",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Pathfinder #118: Siege of Stone" ],
 		"description": [
 			"*This creature's massive, serpentine body is covered in dark purple scales. Its humanoid head has a wide mouth filled with fangs.*",
 			"",
@@ -3352,8 +3289,7 @@
 		"name": "Dream Naga",
 		"sources": [
 			"Bestiary 6",
-			"Occult Bestiary",
-			"Pathfinder RPG Bestiary"
+			"Occult Bestiary"
 		],
 		"description": [
 			"*This large, flying serpent has a humanoid head outlined by a colorful, frilled hood.*",
@@ -3483,10 +3419,7 @@
 	"guardian_naga": { "redirect": "naga_guardian_naga" },
 	"naga_lunar_naga": {
 		"name": "Lunar Naga",
-		"sources": [
-			"Bestiary 3",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Bestiary 3" ],
 		"description": [
 			"*Stark white hair frames the fair face of this snake-bodied woman, and its black scales sparkle hypnotically.*",
 			"",
@@ -3555,8 +3488,7 @@
 		"name": "Royal Naga",
 		"sources": [
 			"Bestiary 3",
-			"Pathfinder #27: What Lies in Dust",
-			"Pathfinder RPG Bestiary"
+			"Pathfinder #27: What Lies in Dust"
 		],
 		"description": [
 			"*This snake-bodied creature has five necks, each with a regal, humanoid face in a cobra-like hood.*",
@@ -3627,8 +3559,7 @@
 		"name": "Slime Naga",
 		"sources": [
 			"Bestiary 6",
-			"Pathfinder #100: A Song of Silver",
-			"Pathfinder RPG Bestiary"
+			"Pathfinder #100: A Song of Silver"
 		],
 		"description": [
 			"*This slime-covered serpentine creature has a humanoid head resembling that of an angry old man.*",
@@ -3768,8 +3699,7 @@
 		"name": "Water Naga",
 		"sources": [
 			"Bestiary 3",
-			"Bonus Bestiary",
-			"Pathfinder RPG Bestiary"
+			"Bonus Bestiary"
 		],
 		"description": [
 			"*Slender spines and brightly colored frills stretch back from the human-like face of this massive aquatic snake.*",

@@ -160,7 +160,6 @@
 	"judgment": { "redirect": "law" },
 	"legislation": {
 		"name": "Legislation",
-		"sources": [],
 		"description": [
 			"## Legislation",
 			"",
@@ -237,7 +236,6 @@
 	"revolution": { "redirect": "liberation" },
 	"self_realization": {
 		"name": "Self-Realization",
-		"sources": [],
 		"description": [
 			"## Self-Realization",
 			"",

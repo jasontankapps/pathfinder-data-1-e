@@ -1,7 +1,6 @@
 {
 	"not_found": {
 		"name": "Unknown",
-		"sources": [],
 		"description": [
 			"## Error",
 			"",
@@ -338,7 +337,6 @@
 	},
 	"power_generator": {
 		"name": "Power Generator",
-		"sources": [],
 		"description": [
 			"### Power Generator",
 			"",

@@ -1658,10 +1658,7 @@
 	"angheuvore": { "redirect": "mortic_angheuvore" },
 	"mortic_etioling": {
 		"name": "Etioling (Mortic)",
-		"sources": [
-			"Pathfinder #142: Gardens of Gallowspire",
-			"Pathfinder #139: The Dead Road"
-		],
+		"sources": [ "Pathfinder #142: Gardens of Gallowspire" ],
 		"description": [
 			"*Glowing veins of green creep across the flesh of this pale, spasming gnome. Stifled giggles escape her rictus grin.*",
 			"",
@@ -1746,10 +1743,7 @@
 	"etioling": { "redirect": "mortic_etioling" },
 	"mortic_gurgist": {
 		"name": "Gurgist (Mortic)",
-		"sources": [
-			"Pathfinder #140: Eulogy for Roslar's Coffer",
-			"Pathfinder #139: The Dead Road"
-		],
+		"sources": [ "Pathfinder #140: Eulogy for Roslar's Coffer" ],
 		"description": [
 			"*This woman's clothing is a jumbled quilt of fine fabrics and elegant stitching, topped with a magnificent mask of painted wood and feathers. Bruises and sores cover her skin.*",
 			"",
@@ -1891,10 +1885,7 @@
 	"jitterbone": { "redirect": "mortic_jitterbone" },
 	"mortic_lifeleecher": {
 		"name": "Lifeleecher (Mortic)",
-		"sources": [
-			"Pathfinder #141: Last Watch",
-			"Pathfinder #139: The Dead Road"
-		],
+		"sources": [ "Pathfinder #141: Last Watch" ],
 		"description": [
 			"*The pallid flesh of this ferocious, orc-like creature is covered in scars and burns. Its muscles are thick and corded, and its hatefilled eyes seem to reflect death wherever they stare.*",
 			"",
@@ -1974,10 +1965,7 @@
 	"lifeleecher": { "redirect": "mortic_lifeleecher" },
 	"mortic_relictner": {
 		"name": "Relictner (Mortic)",
-		"sources": [
-			"Pathfinder #143: Borne by the Sun's Grace",
-			"Pathfinder #139: The Dead Road"
-		],
+		"sources": [ "Pathfinder #143: Borne by the Sun's Grace" ],
 		"description": [
 			"*This withered, decrepit dwarf has crumbling skin and wears ancient leather armor but moves with eerie agility.*",
 			"",

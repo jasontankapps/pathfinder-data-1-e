@@ -1,7 +1,6 @@
 {
 	"not_found": {
 		"name": "Unknown",
-		"sources": [],
 		"description": [
 			"## Error",
 			"",
@@ -1029,7 +1028,6 @@
 	},
 	"light_shield": {
 		"name": "Light Shield",
-		"sources": [],
 		"description": [
 			"## Light Shield",
 			"",
@@ -1235,7 +1233,6 @@
 	"dwarven_war_shield": { "redirect": "war_shield_dwarven" },
 	"heavy_shield": {
 		"name": "Heavy Shield",
-		"sources": [],
 		"description": [
 			"## Heavy Shield",
 			"",

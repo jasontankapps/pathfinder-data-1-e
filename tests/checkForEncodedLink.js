@@ -106,4 +106,45 @@ export const convertTextToLink = (input) => {
 	return input.toLowerCase().replace(/[-_ /]/g, "_").replace(/[^0-9_a-z]/g, "");
 };
 
+export const convertSpecialTextToLink = (input) => {
+	let m, matched = input, linkpre, linkpost;
+	// pre_<link
+	if(m = matched.match(/(^.*?)<(.*$)/)) {
+		matched = m[2];
+		linkpre = m[1];
+	}
+	// post>_link
+	if(m = matched.match(/(^.*)>(.*$)/)) {
+		matched = m[1];
+		linkpost = m[2];
+	}
+	// Double-slashes
+	while(m = matched.match(/(^.*?)[/]{2}(.*$)/)) {
+		matched = `${m[1]}_${m[2]}`;
+	}
+	// Slashes in [brackets]
+	while(m = matched.match(/(^.*?\[[^\[\]]*)[/]([^\[\]]*\].*$)/)) {
+		matched = `${m[1]}${m[2]}`;
+	}
+	// pre|text
+	if(m = matched.match(/(^.*?)\|(.*$)/)) {
+		matched = m[2];
+	}
+	// post/text
+	if(m = matched.match(/(^.*?)[/](.*$)/)) {
+		matched = m[1];
+	}
+	// enclosed [extra]«link_and» text
+	let temp = matched;
+	let linkmatched = "";
+	matched = "";
+	while(m = temp.match(/^(.*?)(?:\[(.*?)\]|«(.*?)»)(.*)$/)) {
+		const [, pre, , extraLink, post] = m;
+		linkmatched = linkmatched + pre + (extraLink || "");
+		temp = post;
+	}
+	linkmatched = linkmatched + temp;
+	return linkmatched.toLowerCase().replace(/[-_ /]/g, "_").replace(/[^0-9_a-z]/g, "");
+};
+
 export default checkForEncodedLink;

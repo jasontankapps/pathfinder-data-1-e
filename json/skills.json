@@ -1,7 +1,6 @@
 {
 	"not_found": {
 		"name": "Unknown",
-		"sources": [],
 		"description": [
 			"## Error",
 			"",
@@ -364,7 +363,6 @@
 		"name": "Craft (any)",
 		"sources": [
 			"PRPG Core Rulebook",
-			"Ultimate Combat",
 			"Ultimate Wilderness",
 			"Technology Guide",
 			"Pathfinder Unchained"
@@ -885,7 +883,6 @@
 	"handle_animal": {
 		"name": "Handle Animal",
 		"sources": [
-			"Animal Archive",
 			"PRPG Core Rulebook",
 			"Ultimate Wilderness",
 			"Pathfinder Unchained"
@@ -1251,7 +1248,6 @@
 		"sources": [
 			"PRPG Core Rulebook",
 			"Occult Adventures",
-			"Technology Guide",
 			"Pathfinder Unchained",
 			"Spymaster's Handbook"
 		],
@@ -1347,10 +1343,7 @@
 		"name": "Knowledge (dungeoneering)",
 		"sources": [
 			"PRPG Core Rulebook",
-			"Occult Adventures",
-			"Technology Guide",
-			"Pathfinder Unchained",
-			"Spymaster's Handbook"
+			"Pathfinder Unchained"
 		],
 		"description": [
 			"## Knowledge (dungeoneering)",
@@ -1401,10 +1394,8 @@
 		"name": "Knowledge (engineering)",
 		"sources": [
 			"PRPG Core Rulebook",
-			"Occult Adventures",
 			"Technology Guide",
-			"Pathfinder Unchained",
-			"Spymaster's Handbook"
+			"Pathfinder Unchained"
 		],
 		"description": [
 			"## Knowledge (engineering)",
@@ -1461,10 +1452,8 @@
 		"name": "Knowledge (geography)",
 		"sources": [
 			"PRPG Core Rulebook",
-			"Occult Adventures",
 			"Technology Guide",
-			"Pathfinder Unchained",
-			"Spymaster's Handbook"
+			"Pathfinder Unchained"
 		],
 		"description": [
 			"## Knowledge (geography)",
@@ -1518,10 +1507,7 @@
 		"name": "Knowledge (history)",
 		"sources": [
 			"PRPG Core Rulebook",
-			"Occult Adventures",
-			"Technology Guide",
-			"Pathfinder Unchained",
-			"Spymaster's Handbook"
+			"Pathfinder Unchained"
 		],
 		"description": [
 			"## Knowledge (history)",
@@ -1566,8 +1552,6 @@
 		"name": "Knowledge (local)",
 		"sources": [
 			"PRPG Core Rulebook",
-			"Occult Adventures",
-			"Technology Guide",
 			"Pathfinder Unchained",
 			"Spymaster's Handbook"
 		],
@@ -1634,8 +1618,6 @@
 		"name": "Knowledge (nature)",
 		"sources": [
 			"PRPG Core Rulebook",
-			"Occult Adventures",
-			"Technology Guide",
 			"Pathfinder Unchained",
 			"Spymaster's Handbook"
 		],
@@ -1701,8 +1683,6 @@
 		"name": "Knowledge (nobility)",
 		"sources": [
 			"PRPG Core Rulebook",
-			"Occult Adventures",
-			"Technology Guide",
 			"Pathfinder Unchained",
 			"Spymaster's Handbook"
 		],
@@ -1760,10 +1740,7 @@
 		"name": "Knowledge (planes)",
 		"sources": [
 			"PRPG Core Rulebook",
-			"Occult Adventures",
-			"Technology Guide",
-			"Pathfinder Unchained",
-			"Spymaster's Handbook"
+			"Pathfinder Unchained"
 		],
 		"description": [
 			"## Knowledge (planes)",
@@ -1813,8 +1790,6 @@
 		"name": "Knowledge (religion)",
 		"sources": [
 			"PRPG Core Rulebook",
-			"Occult Adventures",
-			"Technology Guide",
 			"Pathfinder Unchained",
 			"Spymaster's Handbook"
 		],
@@ -2245,7 +2220,6 @@
 		"name": "Profession (any)",
 		"sources": [
 			"PRPG Core Rulebook",
-			"Ultimate Wilderness",
 			"Pathfinder Unchained"
 		],
 		"description": [

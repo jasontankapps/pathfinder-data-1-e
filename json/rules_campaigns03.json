@@ -137,6 +137,8 @@
 		"subtitle": "Kingdoms, Specific Campaigns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
+			"{SOURCE Ultimate Campaign/221}",
+			"",
 			"@HL[Archaeological Find:] A well-preserved ruin is found in your kingdom, with historical artifacts connected to the people who lived in your land long ago. Lore increases by 1. If you have a Museum, the discoverers donate 10,000 gp worth of historical artifacts to its collection (if you have multiple Museums, choose one as the recipient).",
 			"",
 			"@HL[Diplomatic Overture:] A nearby kingdom sends an ambassador to you to negotiate an embassy (01-60), treaty (61-90), or alliance (91-100), as if using a {rule/diplomatic edict>s}. If the GM doesn't have an appropriate kingdom in mind when this event occurs, determine the kingdom's alignment randomly; it may be hostile or friendly. The ambassador bears 1d4 BP worth of gifts for your kingdom.",
@@ -175,6 +177,8 @@
 		"subtitle": "Kingdoms, Specific Campaigns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
+			"{SOURCE Ultimate Campaign/221}",
+			"",
 			"@HL[Assassination Attempt:] One of your leaders (determined randomly) is the target of an assassination attempt. If the target is a PC, the GM should run the attempt as an encounter, using an assassin of a CR equal to the targeted PC's level. If the target is an NPC, you must succeed at a Stability check to prevent the assassination. If the assassination occurs, Unrest increases by 1d6 and the kingdom immediately incurs the penalties for not having a leader in that role.",
 			"",
 			"@HL[Bandit Activity:] Bandits are preying upon those who travel through your kingdom. Attempt a Stability check. If you succeed, your kingdom's defenses stop the bandits before they cause any harm. If you fail, the bandits reduce your kingdom's Treasury by 1d6 BP (each time you roll a 6, add the result to the total and roll again).",
@@ -219,6 +223,8 @@
 		"subtitle": "Kingdoms, Specific Campaigns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
+			"{SOURCE Ultimate Campaign/221}",
+			"",
 			"@HL[Boomtown (Settlement):] Randomly select one settlement. Commerce booms among that settlement. Until the next Event phase, Economy increases by the number of buildings in the settlement that grant an Economy bonus, and Corruption increases by 1d4 in that settlement.",
 			"",
 			"@HL[Discovery (Settlement):] Scholars unearth a bit of ancient lore or devise important new research of their own. Fame increases by 1 and Lore increases by 1d4.",
@@ -257,6 +263,8 @@
 		"subtitle": "Kingdoms, Specific Campaigns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
+			"{SOURCE Ultimate Campaign/221}",
+			"",
 			"@HL[Building Demand (Settlement, Continuous):] The citizens demand a particular building be built (01-75) or demolished (76-100). Select the building type randomly from those available for the settlement. If the demand is not met by the next Event phase, Unrest increases by 1. Alternatively, you can suppress the citizens' demands and negate the event by succeeding at a Loyalty check, but this reduces Loyalty by 2 and increases Unrest by 1.",
 			"",
 			"@HL[Crop Failure (Settlement):] Pests, blight, and weather ruin the harvest in the settlement's hex and all adjacent hexes. Attempt two Stability checks. If both succeed, the problem is fixed before your kingdom takes any penalties from the event. If only one succeeds, affected farms reduce Consumption by 1 (instead of the normal reduction) in the next Upkeep phase. If neither succeeds, affected farms do not reduce Consumption at all in the next Upkeep phase.",

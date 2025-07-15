@@ -1,7 +1,6 @@
 {
 	"not_found": {
 		"name": "Unknown",
-		"sources": [],
 		"description": [
 			"Unable to find the requested family."
 		]
@@ -676,6 +675,8 @@
 		"description": [
 			"## Daemonic Harbinger",
 			"",
+			"{SOURCE Druma, Profit and Prophecy/58;Inner Sea Bestiary/62}",
+			"",
 			"A daemonic harbinger is a powerful {family/daemon} that has not yet made the full transition from unique daemon to a horseman.",
 			"",
 			"### Members of This Family:",
@@ -1134,6 +1135,7 @@
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"## Dragon (Black)",
+			"{SOURCE Pathfinder RPG Bestiary/92}",
 			"",
 			"| Age Category | Special Abilities | Caster Level |",
 			"| --- | --- | --- |",
@@ -1187,6 +1189,7 @@
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"## Dragon (Blue)",
+			"{SOURCE Pathfinder RPG Bestiary/94}",
 			"",
 			"| Age Category | Special Abilities | Caster Level |",
 			"| --- | --- | --- |",
@@ -1238,6 +1241,7 @@
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"## Brass Dragon",
+			"{SOURCE Pathfinder RPG Bestiary/102}",
 			"",
 			"**Family:** {family/True Dragon}",
 			"",
@@ -1276,6 +1280,7 @@
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"## Bronze Dragon",
+			"{SOURCE Pathfinder RPG Bestiary/104}",
 			"",
 			"**Family:** {family/True Dragon}",
 			"",
@@ -1310,6 +1315,7 @@
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"## Copper Dragon",
+			"{SOURCE Pathfinder RPG Bestiary/106}",
 			"",
 			"**Family:** {family/True Dragon}",
 			"",
@@ -1476,6 +1482,7 @@
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"## Gold Dragon",
+			"{SOURCE Pathfinder RPG Bestiary/108}",
 			"",
 			"**Family:** {family/True Dragon}",
 			"",
@@ -1510,6 +1517,7 @@
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"## Green Dragon",
+			"{SOURCE Pathfinder RPG Bestiary/96}",
 			"",
 			"**Family:** {family/True Dragon}",
 			"",
@@ -1547,7 +1555,7 @@
 		"description": [
 			"## Dragon (Imperial)",
 			"",
-			"{SOURCE Bestiary 3}",
+			"{SOURCE Bestiary 3/92}",
 			"",
 			"Although chromatic and metallic dragons are the most widely known, other categories of true dragon exist, such as the five imperial dragons, regal guardians of ancient lands and servants of cosmic balance.",
 			"",
@@ -1568,6 +1576,8 @@
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"## Dragon (Imperial, Forest)",
+			"",
+			"{SOURCE Bestiary 3/94}",
 			"",
 			"**Family:** {family/Imperial Dragon}",
 			"",
@@ -1614,6 +1624,8 @@
 		"description": [
 			"## Dragon (Imperial, Sea)",
 			"",
+			"{SOURCE Bestiary 3/96}",
+			"",
 			"**Family:** {family/Imperial Dragon}",
 			"",
 			"| Age Category | Special Abilities | Caster Level |",
@@ -1656,6 +1668,8 @@
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"## Dragon (Imperial, Sky)",
+			"",
+			"{SOURCE Bestiary 3/98}",
 			"",
 			"**Family:** {family/Imperial Dragon}",
 			"",
@@ -1702,6 +1716,8 @@
 		"description": [
 			"## Dragon (Imperial, Sovereign)",
 			"",
+			"{SOURCE Bestiary 3/100}",
+			"",
 			"**Family:** {family/Imperial Dragon}",
 			"",
 			"| Age Category | Special Abilities | Caster Level |",
@@ -1744,6 +1760,8 @@
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"## Dragon (Imperial, Underworld)",
+			"",
+			"{SOURCE Bestiary 3/102}",
 			"",
 			"**Family:** {family/Imperial Dragon}",
 			"",
@@ -1788,7 +1806,7 @@
 		"description": [
 			"## Dragon (Outer)",
 			"",
-			"{SOURCE Bestiary 4}",
+			"{SOURCE Bestiary 4/64}",
 			"",
 			"Outer dragons, natives of the vast reaches of space, can be encountered on diverse worlds. They are generally neutral, but their alignments vary more than those of other dragons.",
 			"",
@@ -1809,6 +1827,8 @@
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"## Dragon (Outer, Lunar)",
+			"",
+			"{SOURCE Bestiary 4/66}",
 			"",
 			"**Family:** {family/Outer Dragon}",
 			"",
@@ -1855,6 +1875,8 @@
 		"description": [
 			"## Dragon (Outer, Solar)",
 			"",
+			"{SOURCE Bestiary 4/68}",
+			"",
 			"**Family:** {family/Outer Dragon}",
 			"",
 			"| Age Category | Special Abilities | Caster Level |",
@@ -1897,6 +1919,8 @@
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"## Dragon (Outer, Time)",
+			"",
+			"{SOURCE Bestiary 4/70}",
 			"",
 			"**Family:** {family/Outer Dragon}",
 			"",
@@ -1943,6 +1967,8 @@
 		"description": [
 			"## Dragon (Outer, Void)",
 			"",
+			"{SOURCE Bestiary 4/72}",
+			"",
 			"**Family:** {family/Outer Dragon}",
 			"",
 			"| Age Category | Special Abilities | Caster Level |",
@@ -1986,6 +2012,8 @@
 		"description": [
 			"## Dragon (Outer, Vortex)",
 			"",
+			"{SOURCE Bestiary 4/74}",
+			"",
 			"**Family:** {family/Outer Dragon}",
 			"",
 			"| Age Category | Special Abilities | Caster Level |",
@@ -2026,13 +2054,13 @@
 	"dragon_planar": {
 		"name": "Dragon (Planar)",
 		"sources": [
-			"Bestiary 3",
+			"Bestiary 6",
 			"Pathfinder #137: The City Outside of Time"
 		],
 		"description": [
 			"## Dragon (Planar)",
 			"",
-			"{SOURCE Pathfinder #137: The City Outside of Time}",
+			"{SOURCE Bestiary 6/96;Pathfinder #137: The City Outside of Time}",
 			"",
 			"Planar dragons originate in the outer Planes, but migrate via portals or other methods to the Material Plane. There, they reshape their lairs to reflect their home planes.",
 			"",
@@ -2098,9 +2126,9 @@
 		"description": [
 			"## Dragon (Planar, Crypt)",
 			"",
-			"{SOURCE Bestiary 6}",
+			"{SOURCE Bestiary 6/98}",
 			"",
-			"Planar dragons originate in the outer Planes, but migrate via portals or other methods to the Material Plane. There, they reshape their lairs to reflect their home planes.",
+			"Crypt dragons patrol the Inner Planes, ever vigilant for transgressions against the honored dead or the passage of souls to the afterlife - be they the souls of heroes or villains.",
 			"",
 			"**Family:** {family/Planar Dragon}",
 			"",
@@ -2230,9 +2258,9 @@
 		"description": [
 			"## Dragon (Planar, Havoc)",
 			"",
-			"{SOURCE Bestiary 6}",
+			"{SOURCE Bestiary 6/100}",
 			"",
-			"Planar dragons originate in the outer Planes, but migrate via portals or other methods to the Material Plane. There, they reshape their lairs to reflect their home planes.",
+			"Despite their best intentions, the appropriately named havoc dragons often cause collateral damage as they develop whimsical wonderlands of revelry and relaxation.",
 			"",
 			"**Family:** {family/Planar Dragon}",
 			"",
@@ -2250,9 +2278,9 @@
 		"description": [
 			"## Dragon (Planar, Infernal)",
 			"",
-			"{SOURCE Bestiary 6}",
+			"{SOURCE Bestiary 6/102}",
 			"",
-			"Planar dragons originate in the outer Planes, but migrate via portals or other methods to the Material Plane. There, they reshape their lairs to reflect their home planes.",
+			"Infernal dragons delight in recruiting large entourages of overly ambitious mortals who gladly debase themselves in exchange for influence.",
 			"",
 			"**Family:** {family/Planar Dragon}",
 			"",
@@ -2270,9 +2298,9 @@
 		"description": [
 			"## Dragon (Planar, Paradise)",
 			"",
-			"{SOURCE Bestiary 6}",
+			"{SOURCE Bestiary 6/104}",
 			"",
-			"Planar dragons originate in the outer Planes, but migrate via portals or other methods to the Material Plane. There, they reshape their lairs to reflect their home planes.",
+			"Paradise dragons create holy sanctums of light and harmony to shield their followers from the multiverse’s evil.",
 			"",
 			"**Family:** {family/Planar Dragon}",
 			"",
@@ -2290,9 +2318,9 @@
 		"description": [
 			"## Dragon (Planar, Rift)",
 			"",
-			"{SOURCE Bestiary 6}",
+			"{SOURCE Bestiary 6/106}",
 			"",
-			"Planar dragons originate in the outer Planes, but migrate via portals or other methods to the Material Plane. There, they reshape their lairs to reflect their home planes.",
+			"Wherever they go, rift dragons leave behind shattered ruins. These scaled terrors often intimidate local humanoid groups into worshiping them as demigods of destruction. ",
 			"",
 			"**Family:** {family/Planar Dragon}",
 			"",
@@ -2330,7 +2358,7 @@
 		"description": [
 			"## Dragon (Primal)",
 			"",
-			"{SOURCE Bestiary 2}",
+			"{SOURCE Bestiary 2/92}",
 			"",
 			"Though chromatic and metallic dragons are the most widely known, other categories of true dragon exist, such as the five primal dragons - powerful creatures that hail from the elemental planes and the Plane of Shadows.",
 			"",
@@ -2351,6 +2379,8 @@
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"## Dragon (Primal, Brine)",
+			"",
+			"{SOURCE Bestiary 2/94}",
 			"",
 			"**Family:** {family/Primal Dragon}",
 			"",
@@ -2392,6 +2422,8 @@
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"## Dragon (Primal, Cloud)",
+			"",
+			"{SOURCE Bestiary 2/96}",
 			"",
 			"**Family:** {family/Primal Dragon}",
 			"",
@@ -2436,6 +2468,8 @@
 		"description": [
 			"## Dragon (Primal, Crystal)",
 			"",
+			"{SOURCE Bestiary 2/98}",
+			"",
 			"**Family:** {family/Primal Dragon}",
 			"",
 			"| Age Category | Special Abilities | Caster Level |",
@@ -2479,6 +2513,8 @@
 		"description": [
 			"## Dragon (Primal, Magma)",
 			"",
+			"{SOURCE Bestiary 2/100}",
+			"",
 			"**Family:** {family/Primal Dragon}",
 			"",
 			"| Age Category | Special Abilities | Caster Level |",
@@ -2519,6 +2555,8 @@
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"## Dragon (Primal, Umbral)",
+			"",
+			"{SOURCE Bestiary 2/102}",
 			"",
 			"**Family:** {family/Primal Dragon}",
 			"",
@@ -2566,6 +2604,7 @@
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"## Red Dragon",
+			"{SOURCE Pathfinder RPG Bestiary/98}",
 			"",
 			"**Family:** {family/True Dragon}",
 			"",
@@ -2600,6 +2639,7 @@
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"## Silver Dragon",
+			"{SOURCE Pathfinder RPG Bestiary/110}",
 			"",
 			"**Family:** {family/True Dragon}",
 			"",
@@ -2636,6 +2676,7 @@
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"## White Dragon",
+			"{SOURCE Pathfinder RPG Bestiary/100}",
 			"",
 			"**Family:** {family/True Dragon}",
 			"",

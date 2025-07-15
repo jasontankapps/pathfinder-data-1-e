@@ -1139,10 +1139,7 @@
 	},
 	"thassilonian_sentinel_bronze_sentinel": {
 		"name": "Bronze Sentinel (Thassilonian Sentinel)",
-		"sources": [
-			"Pathfinder #62: Curse of the Lady's Light",
-			"Pathfinder #134: It Came from Hollow Mountain"
-		],
+		"sources": [ "Pathfinder #62: Curse of the Lady's Light" ],
 		"description": [
 			"*Sculpted from bronze in the form of a large humanoid head, this creature perches on six mechanical legs, its eyes intermittently shining with an orange glow.*",
 			"",
@@ -1351,10 +1348,7 @@
 	"ivory_sentinel": { "redirect": "thassilonian_sentinel_ivory_sentinel" },
 	"thassilonian_sentinel_marble_sentinel": {
 		"name": "Marble Sentinel (Thassilonian Sentinel)",
-		"sources": [
-			"Pathfinder #62: Curse of the Lady's Light",
-			"Pathfinder #134: It Came from Hollow Mountain"
-		],
+		"sources": [ "Pathfinder #62: Curse of the Lady's Light" ],
 		"description": [
 			"*Crouched on six jointed metal legs, this large humanoid head crafted from polished marble gazes intently with its glowing green eyes.*",
 			"",
@@ -2279,10 +2273,7 @@
 	"elysian_titan": { "redirect": "titan_elysian" },
 	"titan_hekatonkheires": {
 		"name": "Hekatonkheires (Titan)",
-		"sources": [
-			"Bestiary 3",
-			"Bestiary 2"
-		],
+		"sources": [ "Bestiary 3" ],
 		"description": [
 			"*This behemoth looks like a towering humanoid with fifty heads and twice as many hands, each wielding a different weapon.*",
 			"",

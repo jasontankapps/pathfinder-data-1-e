@@ -827,8 +827,7 @@
 		"name": "Balisse (Angel)",
 		"sources": [
 			"Bestiary 5",
-			"Chronicle of the Righteous",
-			"Pathfinder RPG Bestiary"
+			"Chronicle of the Righteous"
 		],
 		"description": [
 			"*This celestial being is obscured by darkness, but its wings glow brilliantly, silhouetting a stern individual with shining eyes.*",
@@ -891,10 +890,7 @@
 	"balisse": { "redirect": "angel_balisse" },
 	"angel_cassisian": {
 		"name": "Cassisian (Angel)",
-		"sources": [
-			"Bestiary 2",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Bestiary 2" ],
 		"description": [
 			"*This finely crafted golden helm is decorated with intricate filigree, and flutters gracefully through the air on feathered wings.*",
 			"",
@@ -960,8 +956,7 @@
 		"name": "Choral (Angel)",
 		"sources": [
 			"Bestiary 5",
-			"Chronicle of the Righteous",
-			"Pathfinder RPG Bestiary"
+			"Chronicle of the Righteous"
 		],
 		"description": [
 			"*This shimmering being looks like a miniature human with broad, iridescent wings and hair that slowly ripples through the air.*",
@@ -1024,10 +1019,7 @@
 	"choral": { "redirect": "angel_choral" },
 	"angel_dapsara": {
 		"name": "Dapsara (Angel)",
-		"sources": [
-			"Inner Sea Gods",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Inner Sea Gods" ],
 		"description": [
 			"*This otherworldly dancer moves with incredible grace. A second pair of ghostly arms complement the motions of her physical arms.*",
 			"",
@@ -1096,10 +1088,7 @@
 	"dapsara": { "redirect": "angel_dapsara" },
 	"angel_empyrean": {
 		"name": "Empyrean (Angel)",
-		"sources": [
-			"Bestiary 5",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Bestiary 5" ],
 		"description": [
 			"*Light spills out through cracks in this humanoid being's clothing and armor, and its four wings are composed of wispy blue light.*",
 			"",
@@ -1194,10 +1183,7 @@
 	"empyrean": { "redirect": "angel_empyrean" },
 	"angel_erelim": {
 		"name": "Erelim (Angel)",
-		"sources": [
-			"Pathfinder #104: Wrath of Thrune",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Pathfinder #104: Wrath of Thrune" ],
 		"description": [
 			"*This athletic, winged humanoid has handsome features and wields a shining lance.*",
 			"",
@@ -1283,10 +1269,7 @@
 	"erelim": { "redirect": "angel_erelim" },
 	"angel_iophanite": {
 		"name": "Iophanite (Angel)",
-		"sources": [
-			"Inner Sea Gods",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Inner Sea Gods" ],
 		"description": [
 			"*This disc of flying metal is about the size of a wagon wheel and burns with yellow-white flame.*",
 			"",
@@ -1345,10 +1328,7 @@
 	"iophanite": { "redirect": "angel_iophanite" },
 	"angel_kuribu": {
 		"name": "Kuribu (Angel)",
-		"sources": [
-			"Pathfinder #103: The Hellfire Compact",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Pathfinder #103: The Hellfire Compact" ],
 		"description": [
 			"*The skin of this halfling-sized, winged humanoid is as smooth as polished marble. It wields a bow and carries a quiver full of arrows on its back.*",
 			"",
@@ -1432,10 +1412,7 @@
 	"kuribu": { "redirect": "angel_kuribu" },
 	"angel_monadic_deva": {
 		"name": "Monadic Deva (Angel)",
-		"sources": [
-			"Bestiary 2",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Bestiary 2" ],
 		"description": [
 			"*This angelic being has smooth skin, a muscular body, and large golden wings, and wields a large mace.*",
 			"",
@@ -1497,10 +1474,7 @@
 	"monadic_deva": { "redirect": "angel_monadic_deva" },
 	"angel_movanic_deva": {
 		"name": "Movanic Deva (Angel)",
-		"sources": [
-			"Bestiary 2",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Bestiary 2" ],
 		"description": [
 			"*This angel is all sharp lines and angles, muscular but lean, with large wings and a mighty flaming greatsword.*",
 			"",
@@ -1559,10 +1533,7 @@
 	"movanic_deva": { "redirect": "angel_movanic_deva" },
 	"angel_ninkonda": {
 		"name": "Ninkonda (Angel)",
-		"sources": [
-			"Pathfinder #108: Hell Comes to Westcrown",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Pathfinder #108: Hell Comes to Westcrown" ],
 		"description": [
 			"*This golden-winged humanoid wears sturdy armor, including a crowned helm with a blank faceplate and a gleaming mirror on their broad chest. Large metal spikes pierce the creature's arms, hands, and shoulders.*",
 			"",
@@ -1703,10 +1674,7 @@
 	"aboleth": { "redirect": "alghollthu_aboleth" },
 	"alghollthu_enisysian": {
 		"name": "Enisysian (Alghollthu)",
-		"sources": [
-			"Pathfinder #124: City in the Deep",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Pathfinder #124: City in the Deep" ],
 		"description": [
 			"*Three lidless eyes with vertical pupils stare out from a small umbrella-shaped creature. It moves about using squirming tentacles, each moving independently in a mesmerizing motion.*",
 			"",
@@ -1786,8 +1754,7 @@
 		"name": "Omnipath (Alghollthu)",
 		"sources": [
 			"Occult Bestiary",
-			"Bestiary 6",
-			"Pathfinder RPG Bestiary"
+			"Bestiary 6"
 		],
 		"description": [
 			"*This monstrous eel-like creature has jaws within jaws, each bearing transparent, glass-like teeth.*",
@@ -1876,10 +1843,7 @@
 	"omnipath": { "redirect": "alghollthu_omnipath" },
 	"alghollthu_plizeazoth": {
 		"name": "Plizeazoth (Alghollthu)",
-		"sources": [
-			"Pathfinder #125: Tower of the Drowned Dead",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Pathfinder #125: Tower of the Drowned Dead" ],
 		"description": [
 			"*This massive ray-like aquatic creature has five bulbous red eyes. Long tentacles protrude from the sides of its wide mouth, and its slimy skin undulates with sickening shudders.*",
 			"",
@@ -1960,10 +1924,7 @@
 	"plizeazoth": { "redirect": "alghollthu_plizeazoth" },
 	"alghollthu_thalassic_architect": {
 		"name": "Thalassic Architect (Alghollthu)",
-		"sources": [
-			"Pathfinder #121: The Lost Outpost",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Pathfinder #121: The Lost Outpost" ],
 		"description": [
 			"*This piscine nightmare glares with five eyes. Four tentacles, two of them terminating in small claws, flank its fanged jaws.*",
 			"",
@@ -2045,8 +2006,7 @@
 		"name": "Veiled Master (Alghollthu)",
 		"sources": [
 			"Bestiary 6",
-			"Inner Sea Bestiary",
-			"Pathfinder RPG Bestiary"
+			"Inner Sea Bestiary"
 		],
 		"description": [
 			"*This monstrosity has six eyes and six long tentacles - four that end in glowing spheres, and two with what look like hands.*",

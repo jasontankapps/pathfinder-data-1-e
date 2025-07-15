@@ -664,10 +664,7 @@
 	},
 	"skeleton_armored_ogre_skeleton": {
 		"name": "Armored Ogre Skeleton",
-		"sources": [
-			"Pathfinder #44: Trial of the Beast",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Pathfinder #44: Trial of the Beast" ],
 		"description": [
 			"::mh[Armored Ogre Skeleton]{cr=\"2\"}",
 			"",
@@ -707,10 +704,7 @@
 	"skeleton_armored_ogre": { "redirect": "skeleton_armored_ogre_skeleton" },
 	"skeleton_four_armed_mudra_skeleton": {
 		"name": "Four-Armed Mudra Skeleton",
-		"sources": [
-			"Pathfinder #44: Trial of the Beast",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Pathfinder #44: Trial of the Beast" ],
 		"description": [
 			"*Bones rattle against cracked bones as this ancient, fleshless corpse clatters forth.*",
 			"",
@@ -751,10 +745,7 @@
 	"skeleton_four_armed_mudra": { "redirect": "skeleton_four_armed_mudra_skeleton" },
 	"skeleton_multiplying_t_rex_skeleton": {
 		"name": "Multiplying T-Rex Skeleton",
-		"sources": [
-			"Pathfinder #44: Trial of the Beast",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Pathfinder #44: Trial of the Beast" ],
 		"description": [
 			"::mh[Multiplying T-Rex Skeleton]{cr=\"9\"}",
 			"",
@@ -801,10 +792,7 @@
 	"skeleton_multiplying_t_rex": { "redirect": "skeleton_multiplying_t_rex_skeleton" },
 	"skeleton_skeletal_mage": {
 		"name": "Skeletal Mage (Skeleton)",
-		"sources": [
-			"Pathfinder #44: Trial of the Beast",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Pathfinder #44: Trial of the Beast" ],
 		"description": [
 			"::mh[Skeletal Mage]{cr=\"5\"}",
 			"",
@@ -860,10 +848,7 @@
 	"skeletal_mage": { "redirect": "skeleton_skeletal_mage" },
 	"skeleton_skeletal_mount": {
 		"name": "Skeletal Mount (Skeleton)",
-		"sources": [
-			"Pathfinder #44: Trial of the Beast",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Pathfinder #44: Trial of the Beast" ],
 		"description": [
 			"::mh[Skeletal Mount]{cr=\"1\"}",
 			"",

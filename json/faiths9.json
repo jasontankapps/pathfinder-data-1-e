@@ -1125,7 +1125,10 @@
 	},
 	"xhamen_dor": {
 		"name": "Xhamen-Dor",
-		"sources": [ "Pathfinder #113: What Grows Within" ],
+		"sources": [
+			"Pathfinder #113: What Grows Within",
+			"Pathfinder #109: In Search of Sanity"
+		],
 		"description": [
 			"::fh[Xhamen-Dor]{sub=\"The Inmost Blot\"}",
 			"",
@@ -1356,7 +1359,7 @@
 			">",
 			">1. **Gargoyle's Gift (Sp)** {spell/sanctuary} 3/day, {spell/shatter} 2/day, or {spell/vampiric touch} 1/day",
 			">2. **Glutton's Feast (Sp)** You can cast heroes' feast once per day as a spell-like ability. The food created by this effect consists of rancid milk and raw or rotting meat. Those who partake of this feast consume their food shockingly fast, as if they were starving - it takes only 1 minute to gain the benefits of this spell. Those who don't worship Xoveron must succeed at a Fortitude save (DC = 16 + your Charisma modifier) or be sickened by the feast for 6 hours (though all other benefits of the feast still apply).",
-			">3. **Death-Stealing Gaze (Su)** You gain the death-stealing gaze ability of a {monster/nabasu}. You can activate this ability as a free action and use it for up to 3 rounds per day plus a number of additional rounds equal to your Constitution modifier - these rounds need not be consecutive, but they must be used in 1-round increments. All living creatures within 30 feet of you when your death-stealing gaze is active must succeed at a Fortitude save (DC = 10 + half your Hit Dice + your Charisma modifier) or gain a {rule/negative level>s}. A humanoid slain in this manner immediately transforms into a {monster/ghoul} under your control. You can create only one ghoul in this manner per round. If multiple humanoids die from this ability simultaneously, you choose which of them rises as a ghoul. Nabasu demons that gain this boon can instead use their death-stealing gaze at will, regardless of their total number of growth points.",
+			">3. **Death-Stealing Gaze (Su)** You gain the death-stealing gaze ability of a {monster/nabasu}. You can activate this ability as a free action and use it for up to 3 rounds per day plus a number of additional rounds equal to your Constitution modifier - these rounds need not be consecutive, but they must be used in 1-round increments. All living creatures within 30 feet of you when your death-stealing gaze is active must succeed at a Fortitude save (DC = 10 + half your Hit Dice + your Charisma modifier) or gain a {rule/negative level}. A humanoid slain in this manner immediately transforms into a {monster/ghoul} under your control. You can create only one ghoul in this manner per round. If multiple humanoids die from this ability simultaneously, you choose which of them rises as a ghoul. Nabasu demons that gain this boon can instead use their death-stealing gaze at will, regardless of their total number of growth points.",
 			">",
 			">#### Boons: Sentinel",
 			">",
@@ -1877,7 +1880,7 @@
 			"",
 			"::h2[Description]{jl}",
 			"",
-			">{SOURCE Book of the Damned/105}  ",
+			">{SOURCE Book of the Damned/105;Book of the Damned - Volume 2: Lords of Chaos/28}  ",
 			"Yhidothrus is a hideous demon lord associated with the negative aspects of time - aging, the destruction of all matter via erosion, and entropy. Among humanity, Yhidothrus's cultists are typically loners obsessed with the encroaching threat of old age; desperate to avoid their fate, these few turn to blasphemy and demon worship as a means of escape. Many become {template/lich/es} as a result of their obsession - a Yhidothrin lich typically appears worm-eaten and moist compared to the typical specimen of that kind of undead. Others in his cult avoid death by transforming into the monstrosities known as the {template/worm[s] that walk>s} - either as the result of their obedience to the demon lord (see *The Very Worm That Gnaws* above) or through other fell rituals. Very few of these cultists actively seek to contact Yhidothrus or call upon the worm's powers directly, as they fear the immense demon lord just as their more sane kin would.",
 			"",
 			"Yhidothrus appears as an immense worm with oily, night-black flesh and a mouth that folds back to reveal a dozen hook-like ivory jaws surrounding a gullet ringed with countless teeth. None but the mad can claim to have seen what lies at the other end of the Ravager Worm's impossibly long body, and the accounts of such lunatics are not to be trusted - but nearly all of them seem to contain similar elements, suggesting that the farther one travels along Yhidothrus's body, the more ancient it grows. These rumors suggest that the far end of Yhidothrus remains rooted in a deep, forgotten Abyssal crevice where the qlippoth still rule and the concept of mortal sin, and thus the very idea of demonic life, has not yet penetrated. Scholars and philosophers have come to agree that this may be the most likely explanation - but if true, this explanation raises more questions than it answers. Was Yhidothrus originally a qlippoth lord, and is he, in fact, still a qlippoth lord at the far end of his body? If Yhidothrus were to break free from his source, would he be able to climb out of the Abyss entirely to encircle the Great Beyond itself? And perhaps most disturbingly, what of the mind-numbing rumors that what is believed to be Yhidothrus's body is nothing more than the tip of some unimaginably vast leviathan's tongue?"

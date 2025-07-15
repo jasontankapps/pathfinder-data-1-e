@@ -1,7 +1,6 @@
 {
 	"spells_psychic": {
 		"title": "All Psychic Spells",
-		"sources": [],
 		"description": [
 			"::main[Psychic Spells (Levels 0-1)]{endem=\"(172 spells)\" to=main/spells_psychic_0_1}",
 			"",
@@ -21,7 +20,6 @@
 	},
 	"spells_psychic_0_1": {
 		"title": "Psychic Spells Levels 0-1",
-		"sources": [],
 		"description": [
 			"::main[Psychic Spells Level 2]{to=main/spells_psychic_2}",
 			"",
@@ -261,7 +259,6 @@
 	},
 	"spells_psychic_2": {
 		"title": "Psychic Spells Levels 2",
-		"sources": [],
 		"description": [
 			"::main[Psychic Spells Levels 0-1]{to=main/spells_psychic_0_1}",
 			"",
@@ -540,7 +537,6 @@
 	},
 	"spells_psychic_3": {
 		"title": "Psychic Spells Levels 3",
-		"sources": [],
 		"description": [
 			"::main[Psychic Spells Levels 0-1]{to=main/spells_psychic_0_1}",
 			"",
@@ -768,7 +764,6 @@
 	},
 	"spells_psychic_4": {
 		"title": "Psychic Spells Levels 4",
-		"sources": [],
 		"description": [
 			"::main[Psychic Spells Levels 0-1]{to=main/spells_psychic_0_1}",
 			"",
@@ -991,7 +986,6 @@
 	},
 	"spells_psychic_5": {
 		"title": "Psychic Spells Levels 5",
-		"sources": [],
 		"description": [
 			"::main[Psychic Spells Levels 0-1]{to=main/spells_psychic_0_1}",
 			"",
@@ -1186,7 +1180,6 @@
 	},
 	"spells_psychic_6_7": {
 		"title": "Psychic Spells Levels 6-7",
-		"sources": [],
 		"description": [
 			"::main[Psychic Spells Levels 0-1]{to=main/spells_psychic_0_1}",
 			"",
@@ -1422,7 +1415,6 @@
 	},
 	"spells_psychic_8_9": {
 		"title": "Psychic Spells Levels 8-9",
-		"sources": [],
 		"description": [
 			"::main[Psychic Spells Levels 0-1]{to=main/spells_psychic_0_1}",
 			"",
@@ -1586,7 +1578,6 @@
 	},
 	"spells_skald": {
 		"title": "All Skald Spells",
-		"sources": [],
 		"description": [
 			"::main[Skald Spells (Levels 0-1)]{endem=\"(207 spells)\" to=main/spells_skald_0_1}",
 			"",
@@ -1602,7 +1593,6 @@
 	},
 	"spells_skald_0_1": {
 		"title": "Skald Spells Levels 0-1",
-		"sources": [],
 		"description": [
 			"::main[Skald Spells Level 2]{to=main/spells_skald_2}",
 			"",
@@ -2516,7 +2506,6 @@
 	},
 	"spells_skald_2": {
 		"title": "Skald Spells Level 2",
-		"sources": [],
 		"description": [
 			"::main[Skald Spells Levels 0-1]{to=main/spells_skald_0_1}",
 			"",
@@ -2810,7 +2799,6 @@
 	},
 	"spells_skald_3": {
 		"title": "Skald Spells Level 3",
-		"sources": [],
 		"description": [
 			"::main[Skald Spells Levels 0-1]{to=main/spells_skald_0_1}",
 			"",
@@ -3038,7 +3026,6 @@
 	},
 	"spells_skald_4": {
 		"title": "Skald Spells Level 4",
-		"sources": [],
 		"description": [
 			"::main[Skald Spells Levels 0-1]{to=main/spells_skald_0_1}",
 			"",
@@ -3208,7 +3195,6 @@
 	},
 	"spells_skald_5_6": {
 		"title": "Skald Spells Levels 5-6",
-		"sources": [],
 		"description": [
 			"::main[Skald Spells Levels 0-1]{to=main/spells_skald_0_1}",
 			"",

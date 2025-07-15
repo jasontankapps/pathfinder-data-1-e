@@ -1570,10 +1570,7 @@
 	},
 	"strangler_uc": {
 		"name": "Strangler (UC)",
-		"sources": [
-			"Ultimate Combat",
-			"Pathfinder Unchained"
-		],
+		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## Strangler (UC) (Combat)",
 			"",

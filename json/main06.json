@@ -1,7 +1,6 @@
 {
 	"magic_wondrous_belt_headband": {
 		"title": "Belt/Headband Slot Wondrous Items",
-		"sources": [],
 		"description": [
 			"::main[Wondrous Items]{to=main/magic_wondrous}",
 			"",
@@ -185,7 +184,6 @@
 	},
 	"magic_wondrous_body_chest": {
 		"title": "Body/Chest Slot Wondrous Items",
-		"sources": [],
 		"description": [
 			"::main[Wondrous Items]{to=main/magic_wondrous}",
 			"",
@@ -352,7 +350,6 @@
 	},
 	"magic_wondrous_head": {
 		"title": "Head Slot Wondrous Items",
-		"sources": [],
 		"description": [
 			"::main[Wondrous Items]{to=main/magic_wondrous}",
 			"",
@@ -557,7 +554,6 @@
 	},
 	"magic_wondrous_neck": {
 		"title": "Neck Slot Wondrous Items",
-		"sources": [],
 		"description": [
 			"::main[Wondrous Items]{to=main/magic_wondrous}",
 			"",
@@ -864,7 +860,6 @@
 	},
 	"magic_wondrous_hands_wrists": {
 		"title": "Hands/Wrists Slot Wondrous Items",
-		"sources": [],
 		"description": [
 			"::main[Wondrous Items]{to=main/magic_wondrous}",
 			"",
@@ -1072,7 +1067,6 @@
 	},
 	"magic_wondrous_shoulders": {
 		"title": "Shoulders Slot Wondrous Items",
-		"sources": [],
 		"description": [
 			"::main[Wondrous Items]{to=main/magic_wondrous}",
 			"",
@@ -1257,7 +1251,6 @@
 	},
 	"magic_wondrous_eyes_feet": {
 		"title": "Eyes/Feet Slot Wondrous Items",
-		"sources": [],
 		"description": [
 			"::main[Wondrous Items]{to=main/magic_wondrous}",
 			"",
@@ -1447,7 +1440,6 @@
 	},
 	"magic_wondrous_a_f": {
 		"title": "A-F Slotless Wondrous Items",
-		"sources": [],
 		"description": [
 			"::main[Wondrous Items]{to=main/magic_wondrous}",
 			"",
@@ -1939,7 +1931,6 @@
 	},
 	"magic_wondrous_g_p": {
 		"title": "G-P Slotless Wondrous Items",
-		"sources": [],
 		"description": [
 			"::main[Wondrous Items]{to=main/magic_wondrous}",
 			"",
@@ -2432,7 +2423,6 @@
 	},
 	"magic_wondrous_q_z": {
 		"title": "Q-Z Slotless Wondrous Items",
-		"sources": [],
 		"description": [
 			"::main[Wondrous Items]{to=main/magic_wondrous}",
 			"",

@@ -1,7 +1,6 @@
 {
 	"monsters_magical_beasts": {
 		"title": "Magical Beasts",
-		"sources": [],
 		"description": [
 			":::item",
 			"",
@@ -286,7 +285,6 @@
 	},
 	"monsters_monstrous_humanoids": {
 		"title": "Monstrous Humanoids",
-		"sources": [],
 		"description": [
 			":::item",
 			"",
@@ -473,7 +471,6 @@
 	},
 	"monsters_plants": {
 		"title": "Plants",
-		"sources": [],
 		"description": [
 			":::item",
 			"",
@@ -629,7 +626,6 @@
 	},
 	"monsters_undead": {
 		"title": "Undead",
-		"sources": [],
 		"description": [
 			":::item",
 			"",
@@ -887,7 +883,6 @@
 	},
 	"monsters_vermin": {
 		"title": "Vermin",
-		"sources": [],
 		"description": [
 			":::item",
 			"",
@@ -1076,7 +1071,6 @@
 	},
 	"monsters_aquatic": {
 		"title": "Aquatic Monsters",
-		"sources": [],
 		"description": [
 			":::item",
 			"",
@@ -1372,7 +1366,6 @@
 	},
 	"monsters_incorporeal": {
 		"title": "Incorporeal Monsters",
-		"sources": [],
 		"description": [
 			":::item",
 			"",

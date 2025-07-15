@@ -3,8 +3,7 @@
 		"name": "Veranallia (Azata)",
 		"sources": [
 			"Bestiary 6",
-			"Chronicle of the Righteous",
-			"Pathfinder RPG Bestiary"
+			"Chronicle of the Righteous"
 		],
 		"description": [
 			"*This beautiful, rosy-haired woman has a lower body composed of a column of autumnal leaves and gently swaying vines.*",
@@ -102,8 +101,7 @@
 		"name": "Yamah (Azata)",
 		"sources": [
 			"Bestiary 6",
-			"Magnimar, City of Monuments",
-			"Pathfinder RPG Bestiary"
+			"Magnimar, City of Monuments"
 		],
 		"description": [
 			"*This blue-skinned woman has blue-and-white butterfly wings. Her black hair sparkles like a starlit sky.*",
@@ -2756,10 +2754,7 @@
 	},
 	"beheaded_flaming_skull": {
 		"name": "Flaming Skull (Beheaded)",
-		"sources": [
-			"Pathfinder #43: Haunting of Harrowstone",
-			"Bestiary 4"
-		],
+		"sources": [ "Pathfinder #43: Haunting of Harrowstone" ],
 		"description": [
 			"*This humanoid head floats silently and ominously, bits of flesh still hanging from its face and graying teeth clattering slightly as it bobs in the air.*",
 			"",
@@ -2824,10 +2819,7 @@
 	"flaming_skull": { "redirect": "beheaded_flaming_skull" },
 	"beheaded_giant_beheaded": {
 		"name": "Giant Beheaded",
-		"sources": [
-			"Pathfinder #43: Haunting of Harrowstone",
-			"Bestiary 4"
-		],
+		"sources": [ "Pathfinder #43: Haunting of Harrowstone" ],
 		"description": [
 			"*This humanoid head floats silently and ominously, bits of flesh still hanging from its face and graying teeth clattering slightly as it bobs in the air.*",
 			"",
@@ -2894,10 +2886,7 @@
 	"beheaded_giant": { "redirect": "beheaded_giant_beheaded" },
 	"beheaded_medusa_head": {
 		"name": "Medusa Head (Beheaded)",
-		"sources": [
-			"Pathfinder #43: Haunting of Harrowstone",
-			"Bestiary 4"
-		],
+		"sources": [ "Pathfinder #43: Haunting of Harrowstone" ],
 		"description": [
 			"*This humanoid head floats silently and ominously, bits of flesh still hanging from its face and graying teeth clattering slightly as it bobs in the air.*",
 			"",
@@ -2969,10 +2958,7 @@
 	"medusa_head": { "redirect": "beheaded_medusa_head" },
 	"beheaded_severed_head": {
 		"name": "Severed Head (Beheaded)",
-		"sources": [
-			"Pathfinder #43: Haunting of Harrowstone",
-			"Bestiary 4"
-		],
+		"sources": [ "Pathfinder #43: Haunting of Harrowstone" ],
 		"description": [
 			"*This humanoid head floats silently and ominously, bits of flesh still hanging from its face and graying teeth clattering slightly as it bobs in the air.*",
 			"",
@@ -3036,10 +3022,7 @@
 	"severed_head": { "redirect": "beheaded_severed_head" },
 	"beheaded_skull_swarm": {
 		"name": "Skull Swarm (Beheaded)",
-		"sources": [
-			"Pathfinder #43: Haunting of Harrowstone",
-			"Bestiary 4"
-		],
+		"sources": [ "Pathfinder #43: Haunting of Harrowstone" ],
 		"description": [
 			"*This humanoid head floats silently and ominously, bits of flesh still hanging from its face and graying teeth clattering slightly as it bobs in the air.*",
 			"",
@@ -3106,10 +3089,7 @@
 	"skull_swarm": { "redirect": "beheaded_skull_swarm" },
 	"behemoth_ravener": {
 		"name": "Ravener (Behemoth)",
-		"sources": [
-			"Pathfinder #30: The Twice-Damned Prince",
-			"Bestiary 3"
-		],
+		"sources": [ "Pathfinder #30: The Twice-Damned Prince" ],
 		"description": [
 			"*The ground quakes as a colossal, elephantine beast of rocky, armored plates presses forward. Elaborate horns crown its head, and multiple rock-encrusted tusks jut from its toothy maw. With a bellowing roar, the creature shakes its massive head in challenge, then paws the ground and charges.*",
 			"",

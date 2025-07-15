@@ -310,7 +310,7 @@
 			"",
 			"::h2[Description]{jl}",
 			"",
-			"{SOURCE Book of the Damned/30}  ",
+			"{SOURCE Book of the Damned/30;Book of the Damned - Volume 2: Lords of Chaos/12}  ",
 			"Although Baphomet is traditionally the god of the minotaur race, his cult is on the rise among humanity. His human worshipers hold secret sermons in his name and hand down his teachings along family lines across generations, forming clandestine societies that tend to hold great political power in Golarion's larger cities. They remain silent about their allegiance to Baphomet, however, patiently awaiting a time when he might call upon them to rise up against their enemies and return the world to the dominion of the beast. These secret societies use complex hand gestures, passwords, sigils, and signs to identify themselves to one another and pass messages; in these communications, worshipers use their \"true names\" and refer to themselves as Templars of the Ivory Labyrinth in honor of Baphomet's labyrinthine Abyssal realm.",
 			"",
 			"Minotaurs themselves worship Baphomet in a different way; they are less secretive about their faith and value Baphomet as the epitome of their kind. A minotaur that worships Baphomet typically sets aside a portion of its maze lair as sacred to Baphomet, where the walls are carved with prayers and only the devout are allowed to tread without fear of triggering magical traps.",
@@ -636,7 +636,7 @@
 			">{SOURCE Book of the Damned/34}",
 			">",
 			">1. **Desires of Mortals (Sp)** {spell/charm person} 3/day, {spell/unnatural lust} 2/day, or {spell/seek thoughts} 1/day",
-			">2. **The Palest Kiss (Su)** Like Belial, you can offer great pleasures at an even greater price. Twice per day when you lure a creature into an act of passion, such as a kiss, as a standard action you can bestow a {rule/negative level>s} on the creature and cause it to be {misc/exhausted} for a number of rounds equal to half your Hit Dice. You can affect an unwilling creature, but that creature must be grappled for you to use this ability. A creature can negate the negative level and exhaustion effect with a successful Will saving throw (DC = 10 + half your Hit Dice + your Charisma modifier).",
+			">2. **The Palest Kiss (Su)** Like Belial, you can offer great pleasures at an even greater price. Twice per day when you lure a creature into an act of passion, such as a kiss, as a standard action you can bestow a {rule/negative level} on the creature and cause it to be {misc/exhausted} for a number of rounds equal to half your Hit Dice. You can affect an unwilling creature, but that creature must be grappled for you to use this ability. A creature can negate the negative level and exhaustion effect with a successful Will saving throw (DC = 10 + half your Hit Dice + your Charisma modifier).",
 			">3. **Skeletal Palace (Sp)** Deep understanding of the Pale Kiss has taught you how to lure chattel to your side with sweet promises of pleasure, lulling them into a sense of complacency before they realize they can never escape your iron grasp. Once per day, you can cast {spell/mass hold monster} as a spell-like ability, assaulting potential victims' minds with promises of pleasures.",
 			">",
 			">### Boons: Sentinel",
@@ -1775,7 +1775,8 @@
 		"name": "Camazotz",
 		"sources": [
 			"Inner Sea Gods",
-			"Pathfinder #18: Descent Into Midnight"
+			"Pathfinder #18: Descent Into Midnight",
+			"Planar Adventures"
 		],
 		"description": [
 			"::fh[Camazotz]{sub=\"Master of Black Wings\"}",
@@ -2333,7 +2334,7 @@
 			">",
 			">1. **Death's Grace (Sp)** {spell/ray of enfeeblement} 3/day, {spell/death knell} 2/day, or {spell/sands of time} 1/day",
 			">2. **Hunger of the Styx (Su)** By channeling the memory-sapping ability of the River Styx, you can stun foes with a sudden but temporary loss of all memory. You can use this ability three times per day, activating it as a swift action when you strike a foe in combat with a melee weapon. The creature struck is {misc/stunned} for 1 round and then {misc/staggered} for an additional 1d4+1 rounds if it fails a Will save (DC = 10 + half your Hit Dice + your Charisma modifier). On a successful save, the creature is instead staggered for 1 round. This is a mind-affecting effect.",
-			">3. **Grasp of the Styx (Sp)** Once per day as a standard action, you can call upon the waters of the Styx to bubble up and manifest as an immense, skeletal talon of mud and black water. This effect duplicates the effects of {spell/grasping hand}, except any creature that is grappled by the hand must also succeed at a Fortitude save against the spell or gain 1 {rule/negative level>s}.",
+			">3. **Grasp of the Styx (Sp)** Once per day as a standard action, you can call upon the waters of the Styx to bubble up and manifest as an immense, skeletal talon of mud and black water. This effect duplicates the effects of {spell/grasping hand}, except any creature that is grappled by the hand must also succeed at a Fortitude save against the spell or gain 1 {rule/negative level}.",
 			">",
 			">### Boons: Sentinel",
 			">",

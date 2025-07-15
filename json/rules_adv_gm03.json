@@ -1998,6 +1998,8 @@
 		"subtitle": "Simple Monster Creation",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
+			"{SOURCE Pathfinder Unchained/195}",
+			"",
 			"The monster statistics below aren't defined in the individual steps. Calculate them at the end of the process.",
 			"",
 			"@HL[CMB:] A monster's CMB is equal to its high attack bonus.",

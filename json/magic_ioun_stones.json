@@ -1,7 +1,6 @@
 {
 	"not_found": {
 		"name": "Unknown",
-		"sources": [],
 		"description": [
 			"## Error",
 			"",
@@ -1083,7 +1082,7 @@
 			"### Emerald Ellipsoid (Flawed) Ioun Stone",
 			"",
 			"**Price** 10,000 gp  ",
-			"This stone grants the wearer 5 temporary hit points (stacking to 25 for multiple emerald ellipsoids of any kind), which are restored automatically at a specific time of day unique to each stone (typically sunrise or sunset). Each stone inflicts one {rule/negative level>s} upon you (no known limit); these negative levels remain as long as the stone is in use, and disappear when it is no longer in use. These negative levels never result in actual level loss, but they cannot be overcome in any way while the stone is used.",
+			"This stone grants the wearer 5 temporary hit points (stacking to 25 for multiple emerald ellipsoids of any kind), which are restored automatically at a specific time of day unique to each stone (typically sunrise or sunset). Each stone inflicts one {rule/negative level} upon you (no known limit); these negative levels remain as long as the stone is in use, and disappear when it is no longer in use. These negative levels never result in actual level loss, but they cannot be overcome in any way while the stone is used.",
 			"",
 			"### Emerald Ellipsoid (Cracked) Ioun Stone",
 			"",

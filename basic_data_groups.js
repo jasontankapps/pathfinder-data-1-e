@@ -394,7 +394,7 @@ const basic_data_groups = {
 		num: 0,
 		type: "Skill"
 	},
-	"rule01": {
+	"rules_basics01": {
 		data: rule1,
 		datatype: "rule",
 		searchgroup: 12, // rule
@@ -402,7 +402,7 @@ const basic_data_groups = {
 		num: 1,
 		type: "Basic Rules"
 	},
-	"rule02": {
+	"rules_basics02": {
 		data: rule2,
 		datatype: "rule",
 		searchgroup: 12, // rule
@@ -410,7 +410,7 @@ const basic_data_groups = {
 		num: 2,
 		type: "Basic Rules"
 	},
-	"rule03": {
+	"rules_basics03": {
 		data: rule3,
 		datatype: "rule",
 		searchgroup: 12, // rule
@@ -418,7 +418,7 @@ const basic_data_groups = {
 		num: 3,
 		type: "Basic Rules"
 	},
-	"rule04": {
+	"rules_basics04": {
 		data: rule4,
 		datatype: "rule",
 		searchgroup: 12, // rule
@@ -426,7 +426,7 @@ const basic_data_groups = {
 		num: 4,
 		type: "Basic Rules"
 	},
-	"rule05": {
+	"rules_combat01": {
 		data: rule5,
 		datatype: "rule",
 		searchgroup: 12, // rule
@@ -434,7 +434,7 @@ const basic_data_groups = {
 		num: 5,
 		type: "Combat Rules"
 	},
-	"rule06": {
+	"rules_gm01": {
 		data: rule6,
 		datatype: "rule",
 		searchgroup: 12, // rule
@@ -442,7 +442,7 @@ const basic_data_groups = {
 		num: 6,
 		type: "Rules (Gamemastery)"
 	},
-	"rule07": {
+	"rules_gm02": {
 		data: rule7,
 		datatype: "rule",
 		searchgroup: 12, // rule
@@ -450,7 +450,7 @@ const basic_data_groups = {
 		num: 7,
 		type: "Rules (Gamemastery)"
 	},
-	"rule08": {
+	"rules_gm03": {
 		data: rule8,
 		datatype: "rule",
 		searchgroup: 12, // rule
@@ -458,7 +458,7 @@ const basic_data_groups = {
 		num: 8,
 		type: "Rules (Gamemastery)"
 	},
-	"rule09": {
+	"rules_gm04": {
 		data: rule9,
 		datatype: "rule",
 		searchgroup: 12, // rule
@@ -466,7 +466,7 @@ const basic_data_groups = {
 		num: 9,
 		type: "Rules (Gamemastery)"
 	},
-	"rule10": {
+	"rules_gm05": {
 		data: rule10,
 		datatype: "rule",
 		searchgroup: 12, // rule
@@ -474,7 +474,7 @@ const basic_data_groups = {
 		num: 10,
 		type: "Rules (Gamemastery)"
 	},
-	"rule11": {
+	"rules_gm06": {
 		data: rule11,
 		datatype: "rule",
 		searchgroup: 12, // rule
@@ -482,7 +482,7 @@ const basic_data_groups = {
 		num: 11,
 		type: "Rules (Gamemastery)"
 	},
-	"rule12": {
+	"rules_gm07": {
 		data: rule12,
 		datatype: "rule",
 		searchgroup: 12, // rule
@@ -490,7 +490,7 @@ const basic_data_groups = {
 		num: 12,
 		type: "Rules (Gamemastery)"
 	},
-	"rule13": {
+	"rules_gm08": {
 		data: rule13,
 		datatype: "rule",
 		searchgroup: 12, // rule
@@ -498,7 +498,7 @@ const basic_data_groups = {
 		num: 13,
 		type: "Rules (Gamemastery)"
 	},
-	"rule14": {
+	"rules_adv_pc01": {
 		data: rule14,
 		datatype: "rule",
 		searchgroup: 12, // rule
@@ -506,7 +506,7 @@ const basic_data_groups = {
 		num: 14,
 		type: "Rules (Adv. Player Topics)"
 	},
-	"rule15": {
+	"rules_adv_gm01": {
 		data: rule15,
 		datatype: "rule",
 		searchgroup: 12, // rule
@@ -514,7 +514,7 @@ const basic_data_groups = {
 		num: 15,
 		type: "Rules (Adv. GM Topics)"
 	},
-	"rule16": {
+	"rules_adv_gm02": {
 		data: rule16,
 		datatype: "rule",
 		searchgroup: 12, // rule
@@ -522,7 +522,7 @@ const basic_data_groups = {
 		num: 16,
 		type: "Rules (Adv. GM Topics)"
 	},
-	"rule17": {
+	"rules_adv_gm03": {
 		data: rule17,
 		datatype: "rule",
 		searchgroup: 12, // rule
@@ -530,7 +530,7 @@ const basic_data_groups = {
 		num: 17,
 		type: "Rules (Adv. GM Topics)"
 	},
-	"rule18": {
+	"rules_adv_gm04": {
 		data: rule18,
 		datatype: "rule",
 		searchgroup: 12, // rule
@@ -538,7 +538,7 @@ const basic_data_groups = {
 		num: 18,
 		type: "Rules (Adv. GM Topics)"
 	},
-	"rule19": {
+	"rules_adv_gm05": {
 		data: rule19,
 		datatype: "rule",
 		searchgroup: 12, // rule
@@ -546,7 +546,7 @@ const basic_data_groups = {
 		num: 19,
 		type: "Rules (Adv. GM Topics)"
 	},
-	"rule20": {
+	"rules_adv_magic01": {
 		data: rule20,
 		datatype: "rule",
 		searchgroup: 12, // rule
@@ -554,7 +554,7 @@ const basic_data_groups = {
 		num: 20,
 		type: "Rules (Adv. Magic Topics)"
 	},
-	"rule21": {
+	"rules_campaigns01": {
 		data: rule21,
 		datatype: "rule",
 		searchgroup: 12, // rule
@@ -562,7 +562,7 @@ const basic_data_groups = {
 		num: 21,
 		type: "Rules (Specific Campaigns)"
 	},
-	"rule22": {
+	"rules_campaigns02": {
 		data: rule22,
 		datatype: "rule",
 		searchgroup: 12, // rule
@@ -570,7 +570,7 @@ const basic_data_groups = {
 		num: 22,
 		type: "Rules (Specific Campaigns)"
 	},
-	"rule23": {
+	"rules_campaigns03": {
 		data: rule23,
 		datatype: "rule",
 		searchgroup: 12, // rule
@@ -578,7 +578,7 @@ const basic_data_groups = {
 		num: 23,
 		type: "Rules (Specific Campaigns)"
 	},
-	"rule24": {
+	"rules_campaigns04": {
 		data: rule24,
 		datatype: "rule",
 		searchgroup: 12, // rule
@@ -586,7 +586,7 @@ const basic_data_groups = {
 		num: 24,
 		type: "Rules (Specific Campaigns)"
 	},
-	"rule25": {
+	"rules_campaigns05": {
 		data: rule25,
 		datatype: "rule",
 		searchgroup: 12, // rule
@@ -594,7 +594,7 @@ const basic_data_groups = {
 		num: 25,
 		type: "Rules (Specific Campaigns)"
 	},
-	"rule26": {
+	"rules_campaigns06": {
 		data: rule26,
 		datatype: "rule",
 		searchgroup: 12, // rule
@@ -602,7 +602,7 @@ const basic_data_groups = {
 		num: 26,
 		type: "Rules (Specific Campaigns)"
 	},
-	"rule27": {
+	"rules_campaigns07": {
 		data: rule27,
 		datatype: "rule",
 		searchgroup: 12, // rule
@@ -610,7 +610,7 @@ const basic_data_groups = {
 		num: 27,
 		type: "Rules (Specific Campaigns)"
 	},
-	"rule28": {
+	"rules_rulesets01": {
 		data: rule28,
 		datatype: "rule",
 		searchgroup: 12, // rule
@@ -618,7 +618,7 @@ const basic_data_groups = {
 		num: 28,
 		type: "Rules (Specific Rulesets)"
 	},
-	"rule29": {
+	"rules_rulesets02": {
 		data: rule29,
 		datatype: "rule",
 		searchgroup: 12, // rule
@@ -626,7 +626,7 @@ const basic_data_groups = {
 		num: 29,
 		type: "Rules (Specific Rulesets)"
 	},
-	"rule30": {
+	"rules_subsystems01": {
 		data: rule30,
 		datatype: "rule",
 		searchgroup: 12, // rule
@@ -634,7 +634,7 @@ const basic_data_groups = {
 		num: 30,
 		type: "Rules (Opt. Subsystems)"
 	},
-	"rule31": {
+	"rules_subsystems02": {
 		data: rule31,
 		datatype: "rule",
 		searchgroup: 12, // rule
@@ -642,7 +642,7 @@ const basic_data_groups = {
 		num: 31,
 		type: "Rules (Opt. Subsystems)"
 	},
-	"rule32": {
+	"rules_subsystems03": {
 		data: rule32,
 		datatype: "rule",
 		searchgroup: 12, // rule
@@ -650,7 +650,7 @@ const basic_data_groups = {
 		num: 32,
 		type: "Rules (Opt. Subsystems)"
 	},
-	"rule33": {
+	"rules_subsystems04": {
 		data: rule33,
 		datatype: "rule",
 		searchgroup: 12, // rule
@@ -658,7 +658,7 @@ const basic_data_groups = {
 		num: 33,
 		type: "Rules (Opt. Subsystems)"
 	},
-	"rule34": {
+	"rules_opt_skills01": {
 		data: rule34,
 		datatype: "rule",
 		searchgroup: 12, // rule
@@ -666,7 +666,7 @@ const basic_data_groups = {
 		num: 34,
 		type: "Rules (Opt. Skill Changes)"
 	},
-	"rule35": {
+	"rules_opt_alignment01": {
 		data: rule35,
 		datatype: "rule",
 		searchgroup: 12, // rule
@@ -674,7 +674,7 @@ const basic_data_groups = {
 		num: 35,
 		type: "Rules (Opt. Alignment Changes)"
 	},
-	"rule36": {
+	"rules_opt_combat01": {
 		data: rule36,
 		datatype: "rule",
 		searchgroup: 12, // rule
@@ -682,7 +682,7 @@ const basic_data_groups = {
 		num: 36,
 		type: "Rules (Opt. Combat Changes)"
 	},
-	"rule37": {
+	"rules_opt_pc_adv01": {
 		data: rule37,
 		datatype: "rule",
 		searchgroup: 12, // rule
@@ -690,7 +690,7 @@ const basic_data_groups = {
 		num: 37,
 		type: "Rules (Opt. PC Adv. Changes)"
 	},
-	"rule38": {
+	"rules_opt_magic01": {
 		data: rule38,
 		datatype: "rule",
 		searchgroup: 12, // rule
@@ -698,7 +698,7 @@ const basic_data_groups = {
 		num: 38,
 		type: "Rules (Opt. Magic Changes)"
 	},
-	"rule39": {
+	"rules_opt_magic02": {
 		data: rule39,
 		datatype: "rule",
 		searchgroup: 12, // rule
@@ -706,7 +706,7 @@ const basic_data_groups = {
 		num: 39,
 		type: "Rules (Opt. Magic Changes)"
 	},
-	"rule40": {
+	"rules_opt_magic03": {
 		data: rule40,
 		datatype: "rule",
 		searchgroup: 12, // rule
@@ -1036,7 +1036,7 @@ const basic_data_groups = {
 		num: 0,
 		type: "Medium Spirit"
 	},
-	"class_ability_talents": {
+	"class_ability_rogue_talents": {
 		data: talent,
 		datatype: "compileable",
 		searchgroup: 1, //classes
@@ -1767,7 +1767,7 @@ const basic_data_groups = {
 		num: 0,
 		type: "Weapon Enhancement"
 	},
-	"traits": {
+	"traits01": {
 		data: trait1,
 		datatype: "compileable",
 		searchgroup: 4, // trait
@@ -1775,7 +1775,7 @@ const basic_data_groups = {
 		num: 1,
 		type: "Trait"
 	},
-	"traits2": {
+	"traits02": {
 		data: trait2,
 		datatype: "compileable",
 		searchgroup: 4, // trait
@@ -1783,7 +1783,7 @@ const basic_data_groups = {
 		num: 2,
 		type: "Trait"
 	},
-	"traits3": {
+	"traits03": {
 		data: trait3,
 		datatype: "compileable",
 		searchgroup: 4, // trait
@@ -1791,7 +1791,7 @@ const basic_data_groups = {
 		num: 3,
 		type: "Trait"
 	},
-	"traits4": {
+	"traits04": {
 		data: trait4,
 		datatype: "compileable",
 		searchgroup: 4, // trait
@@ -1799,7 +1799,7 @@ const basic_data_groups = {
 		num: 4,
 		type: "Trait"
 	},
-	"traits5": {
+	"traits05": {
 		data: trait5,
 		datatype: "compileable",
 		searchgroup: 4, // trait
@@ -1870,119 +1870,119 @@ const basic_data_groups = {
 		num: 9,
 		type: "Deity/Faith"
 	},
-	"feats": {
+	"feat01": {
 		data: feat1,
 		searchgroup: 3, // feat
 		link: "feat",
 		num: 1,
 		type: "Feat"
 	},
-	"feats2": {
+	"feat02": {
 		data: feat2,
 		searchgroup: 3, // feat
 		link: "feat",
 		num: 2,
 		type: "Feat"
 	},
-	"feats3": {
+	"feat03": {
 		data: feat3,
 		searchgroup: 3, // feat
 		link: "feat",
 		num: 3,
 		type: "Feat"
 	},
-	"feats4": {
+	"feat04": {
 		data: feat4,
 		searchgroup: 3, // feat
 		link: "feat",
 		num: 4,
 		type: "Feat"
 	},
-	"feats5": {
+	"feat05": {
 		data: feat5,
 		searchgroup: 3, // feat
 		link: "feat",
 		num: 5,
 		type: "Feat"
 	},
-	"feats6": {
+	"feat06": {
 		data: feat6,
 		searchgroup: 3, // feat
 		link: "feat",
 		num: 6,
 		type: "Feat"
 	},
-	"feats7": {
+	"feat07": {
 		data: feat7,
 		searchgroup: 3, // feat
 		link: "feat",
 		num: 7,
 		type: "Feat"
 	},
-	"feats8": {
+	"feat08": {
 		data: feat8,
 		searchgroup: 3, // feat
 		link: "feat",
 		num: 8,
 		type: "Feat"
 	},
-	"feats9": {
+	"feat09": {
 		data: feat9,
 		searchgroup: 3, // feat
 		link: "feat",
 		num: 9,
 		type: "Feat"
 	},
-	"feats10": {
+	"feat10": {
 		data: feat10,
 		searchgroup: 3, // feat
 		link: "feat",
 		num: 10,
 		type: "Feat"
 	},
-	"feats11": {
+	"feat11": {
 		data: feat11,
 		searchgroup: 3, // feat
 		link: "feat",
 		num: 11,
 		type: "Feat"
 	},
-	"feats12": {
+	"feat12": {
 		data: feat12,
 		searchgroup: 3, // feat
 		link: "feat",
 		num: 12,
 		type: "Feat"
 	},
-	"feats13": {
+	"feat13": {
 		data: feat13,
 		searchgroup: 3, // feat
 		link: "feat",
 		num: 13,
 		type: "Feat"
 	},
-	"feats14": {
+	"feat14": {
 		data: feat14,
 		searchgroup: 3, // feat
 		link: "feat",
 		num: 14,
 		type: "Feat"
 	},
-	"feats15": {
+	"feat15": {
 		data: feat15,
 		searchgroup: 3, // feat
 		link: "feat",
 		num: 15,
 		type: "Feat"
 	},
-	"feats16": {
+	"feat16": {
 		data: feat16,
 		searchgroup: 3, // feat
 		link: "feat",
 		num: 16,
 		type: "Feat"
 	},
-	"feats17": {
+	"feat17": {
 		data: feat17,
 		searchgroup: 3, // feat
 		link: "feat",
@@ -3204,8 +3204,9 @@ const basic_data_groups = {
 export const basic_data_by_link = {};
 Object.values(basic_data_groups).forEach(object => {
 	const {data, link, exportablelink} = object;
-	const info = {...(basic_data_by_link[exportablelink || link] || {}), ...data};
-	basic_data_by_link[exportablelink || link] = info;
+	const prop = exportablelink || link;
+	const info = {...(basic_data_by_link[prop] || {}), ...data};
+	basic_data_by_link[prop] = info;
 });
 
 export const templates_by_link = {

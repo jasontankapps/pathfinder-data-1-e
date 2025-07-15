@@ -1,7 +1,6 @@
 {
 	"spells_unchained_summoner": {
 		"title": "All Unchained Summoner Spells",
-		"sources": [],
 		"description": [
 			":::item",
 			"",
@@ -419,7 +418,6 @@
 	},
 	"spells_druid": {
 		"title": "All Druid Spells",
-		"sources": [],
 		"description": [
 			"::main[Druid Spells (Levels 0-1)]{endem=\"(142 spells)\" to=main/spells_druid_0_1}",
 			"",
@@ -437,7 +435,6 @@
 	},
 	"spells_druid_0_1": {
 		"title": "Druid Spells Levels 0-1",
-		"sources": [],
 		"description": [
 			"::main[Druid Spells Level 2]{to=main/spells_druid_2}",
 			"",
@@ -642,7 +639,6 @@
 	},
 	"spells_druid_2": {
 		"title": "Druid Spells Level 2",
-		"sources": [],
 		"description": [
 			"::main[Druid Spells Levels 0-1]{to=main/spells_druid_0_1}",
 			"",
@@ -871,7 +867,6 @@
 	},
 	"spells_druid_3": {
 		"title": "Druid Spells Level 3",
-		"sources": [],
 		"description": [
 			"::main[Druid Spells Levels 0-1]{to=main/spells_druid_0_1}",
 			"",
@@ -1079,7 +1074,6 @@
 	},
 	"spells_druid_4": {
 		"title": "Druid Spells Level 4",
-		"sources": [],
 		"description": [
 			"::main[Druid Spells Levels 0-1]{to=main/spells_druid_0_1}",
 			"",
@@ -1249,7 +1243,6 @@
 	},
 	"spells_druid_5_6": {
 		"title": "Druid Spells Levels 5-6",
-		"sources": [],
 		"description": [
 			"::main[Druid Spells Levels 0-1]{to=main/spells_druid_0_1}",
 			"",
@@ -1451,7 +1444,6 @@
 	},
 	"spells_druid_7_9": {
 		"title": "Druid Spells Levels 7-9",
-		"sources": [],
 		"description": [
 			"::main[Druid Spells Levels 0-1]{to=main/spells_druid_0_1}",
 			"",
@@ -1609,7 +1601,6 @@
 	},
 	"spells_hunter": {
 		"title": "All Hunter Spells",
-		"sources": [],
 		"description": [
 			"::main[Hunter Spells (Levels 0-1)]{endem=\"(197 spells)\" to=main/spells_hunter_0_1}",
 			"",
@@ -1623,7 +1614,6 @@
 	},
 	"spells_hunter_0_1": {
 		"title": "Hunter Spells Levels 0-1",
-		"sources": [],
 		"description": [
 			"::main[Hunter Spells Level 2]{to=main/spells_hunter_2}",
 			"",
@@ -1881,7 +1871,6 @@
 	},
 	"spells_hunter_2": {
 		"title": "Hunter Spells Level 2",
-		"sources": [],
 		"description": [
 			"::main[Hunter Spells Levels 0-1]{to=main/spells_hunter_0_1}",
 			"",
@@ -2142,7 +2131,6 @@
 	},
 	"spells_hunter_3": {
 		"title": "Hunter Spells Level 3",
-		"sources": [],
 		"description": [
 			"::main[Hunter Spells Levels 0-1]{to=main/spells_hunter_0_1}",
 			"",
@@ -2378,7 +2366,6 @@
 	},
 	"spells_hunter_4_6": {
 		"title": "Hunter Spells Levels 4-6",
-		"sources": [],
 		"description": [
 			"::main[Hunter Spells Levels 0-1]{to=main/spells_hunter_0_1}",
 			"",

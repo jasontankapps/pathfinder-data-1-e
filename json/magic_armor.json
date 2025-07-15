@@ -1,7 +1,6 @@
 {
 	"not_found": {
 		"name": "Unknown",
-		"sources": [],
 		"description": [
 			"## Error",
 			"",
@@ -1625,7 +1624,7 @@
 			"",
 			"The tall, silver collar on this +2 {eq-material/mithral} {eq-armor/armored coat} is attractively set off by the coat's deep navy hues and ivory silk trim. A lifecollar coat occupies both the chest and the neck magic item slots. The wearer receives a +2 circumstance bonus to AC and CMD against attacks or maneuvers that specifically target the wearer's neck or throat (such as a vampire's check to establish or maintain a {rule/pin>ned} or the roll to confirm a critical hit with a {magic-enh/vorpal} weapon).",
 			"",
-			"Additionally, when struck by an attack that would bestow a {rule/negative level>s}, the wearer has a 50% chance of avoiding the negative level. The wearer may not avoid more than 1 negative level per round in this fashion. This effect does not mitigate any other damage or remove negative levels previously gained.",
+			"Additionally, when struck by an attack that would bestow a {rule/negative level}, the wearer has a 50% chance of avoiding the negative level. The wearer may not avoid more than 1 negative level per round in this fashion. This effect does not mitigate any other damage or remove negative levels previously gained.",
 			"",
 			"The silver collar can be collapsed and lowered as a full-round action. Doing so frees up the wearer's neck slot for other items, but the wearer loses the circumstance bonus to AC and CMD against attacks and maneuvers targeting the neck or throat.",
 			"",
@@ -2726,7 +2725,7 @@
 			"",
 			"This plate armor is fashioned to make the wearer appear to be a demon. Glowing red energy emanates from sigils engraved on the armor's key plates and joints, and the runes intermittently surge with fiendish power. This +4 {eq-armor/full plate} allows the wearer to make claw attacks that deal 1d10 points of damage, strike as +1 weapons, and afflict the target as if she had been struck by a *contagion* spell (Fortitude DC 14 negates). Use of *contagion* requires a normal melee attack with the claws. The \"claws\" are built into the armor's vambraces and gauntlets, and cannot be disarmed.",
 			"",
-			"A suit of demon armor is infused with evil, and as a result it bestows one {rule/negative level>s} on any nonevil creature wearing it. This negative level persists as long as the armor is worn and disappears when the armor is removed. The negative level cannot be overcome in any way (including {spell/restoration} spells) while the armor is worn.",
+			"A suit of demon armor is infused with evil, and as a result it bestows one {rule/negative level} on any nonevil creature wearing it. This negative level persists as long as the armor is worn and disappears when the armor is removed. The negative level cannot be overcome in any way (including {spell/restoration} spells) while the armor is worn.",
 			"",
 			"### Construction",
 			"",

@@ -1,7 +1,6 @@
 {
 	"spells_witch": {
 		"title": "All Witch Spells",
-		"sources": [],
 		"searchgroup": "spell",
 		"description": [
 			"::main[Witch Spells (Levels 0-1)]{endem=\"(187 spells)\" to=main/spells_witch_0_1}",
@@ -19,7 +18,6 @@
 	},
 	"spells_witch_0_1": {
 		"title": "Witch Spells Levels 0-1",
-		"sources": [],
 		"searchgroup": "spell",
 		"description": [
 			"::main[Witch Spells Level 2]{to=main/spells_witch_2}",
@@ -272,7 +270,6 @@
 	},
 	"spells_witch_2": {
 		"title": "Witch Spells Level 2",
-		"sources": [],
 		"searchgroup": "spell",
 		"description": [
 			"::main[Witch Spells Levels 0-1]{to=main/spells_witch_0_1}",
@@ -952,7 +949,6 @@
 	},
 	"spells_witch_3": {
 		"title": "Witch Spells Level 3",
-		"sources": [],
 		"searchgroup": "spell",
 		"description": [
 			"::main[Witch Spells Levels 0-1]{to=main/spells_witch_0_1}",
@@ -1239,7 +1235,6 @@
 	},
 	"spells_witch_4": {
 		"title": "Witch Spells Level 4",
-		"sources": [],
 		"searchgroup": "spell",
 		"description": [
 			"::main[Witch Spells Levels 0-1]{to=main/spells_witch_0_1}",
@@ -1468,7 +1463,6 @@
 	},
 	"spells_witch_5_6": {
 		"title": "Witch Spells Levels 5-6",
-		"sources": [],
 		"searchgroup": "spell",
 		"description": [
 			"::main[Witch Spells Levels 0-1]{to=main/spells_witch_0_1}",
@@ -1758,7 +1752,6 @@
 	},
 	"spells_witch_7_9": {
 		"title": "Witch Spells Levels 7-9",
-		"sources": [],
 		"searchgroup": "spell",
 		"description": [
 			"::main[Witch Spells Levels 0-1]{to=main/spells_witch_0_1}",
@@ -1989,7 +1982,6 @@
 	},
 	"spells_shaman": {
 		"title": "All Shaman Spells",
-		"sources": [],
 		"description": [
 			"::main[Shaman Spells (Levels 0-1)]{endem=\"(119 spells)\" to=main/spells_shaman_0_1}",
 			"",
@@ -2007,7 +1999,6 @@
 	},
 	"spells_shaman_0_1": {
 		"title": "Shaman Spells Levels 0-1",
-		"sources": [],
 		"description": [
 			"::main[Shaman Spells Level 2]{to=main/spells_shaman_2}",
 			"",
@@ -2190,7 +2181,6 @@
 	},
 	"spells_shaman_2": {
 		"title": "Shaman Spells Level 2",
-		"sources": [],
 		"description": [
 			"::main[Shaman Spells Levels 0-1]{to=main/spells_shaman_0_1}",
 			"",
@@ -2378,7 +2368,6 @@
 	},
 	"spells_shaman_3": {
 		"title": "Shaman Spells Level 3",
-		"sources": [],
 		"description": [
 			"::main[Shaman Spells Levels 0-1]{to=main/spells_shaman_0_1}",
 			"",
@@ -2552,7 +2541,6 @@
 	},
 	"spells_shaman_4": {
 		"title": "Shaman Spells Level 4",
-		"sources": [],
 		"description": [
 			"::main[Shaman Spells Levels 0-1]{to=main/spells_shaman_0_1}",
 			"",
@@ -2717,7 +2705,6 @@
 	},
 	"spells_shaman_5_6": {
 		"title": "Shaman Spells Levels 5-6",
-		"sources": [],
 		"description": [
 			"::main[Shaman Spells Levels 0-1]{to=main/spells_shaman_0_1}",
 			"",
@@ -2903,7 +2890,6 @@
 	},
 	"spells_shaman_7_9": {
 		"title": "Shaman Spells Levels 7-9",
-		"sources": [],
 		"description": [
 			"::main[Shaman Spells Levels 0-1]{to=main/spells_shaman_0_1}",
 			"",

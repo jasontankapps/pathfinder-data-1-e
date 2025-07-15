@@ -21,18 +21,35 @@
 								"category": { "type": "string" },
 								"sources": { "$ref": "#uniqueArray" },
 								"description": { "$ref": "#stringArray" },
-								"noFinder": { "type": "boolean" },
 								"tables": { "$ref": "#tables" },
 								"searchgroup": { "$ref": "#searchgroup" },
-								"parent_topics": { "$ref": "#uniquePropArray" },
-								"siblings": { "$ref": "#uniquePropArray" },
-								"subtopics": { "$ref": "#uniquePropArray" },
 								"topLink": { "$ref": "#link" },
 								"type": { "type": "string" },
 								"className": { "type": "string" },
 								"disambiguation": { "type": "boolean" }
 							},
 							"required": [ "description", "name" ],
+							"unevaluatedProperties": false
+						},
+						{
+							"$comment": "Basic rules item",
+							"properties": {
+								"name": { "type": "string" },
+								"subtitle": { "type": "string" },
+								"tags": { "type": "string" },
+								"sources": { "$ref": "#uniqueArray" },
+								"description": { "$ref": "#stringArray" },
+								"tables": { "$ref": "#tables" },
+								"parent_topics": { "$ref": "#uniquePropArray" },
+								"siblings": { "$ref": "#uniquePropArray" },
+								"subtopics": { "$ref": "#uniquePropArray" },
+								"className": { "type": "string" }
+							},
+							"required": [ "description", "name" ],
+							"dependentRequired": {
+								"parent_topics": [ "siblings" ],
+								"siblings": [ "parent_topics" ]
+							},
 							"unevaluatedProperties": false
 						},
 						{
@@ -44,7 +61,6 @@
 								"sources": { "$ref": "#uniqueArray" },
 								"description": { "$ref": "#stringArray" },
 								"searchgroup": { "$ref": "#searchgroup" },
-								"noFinder": { "type": "boolean" },
 								"tables": { "$ref": "#tables" },
 								"className": { "type": "string" }
 							},
@@ -59,7 +75,6 @@
 								"tags": { "type": "string" },
 								"sources": { "$ref": "#uniqueArray" },
 								"searchgroup": { "$ref": "#searchgroup" },
-								"noFinder": { "type": "boolean" },
 								"compileFrom": { "$ref": "#compileFrom" }
 							},
 							"required": [ "compileFrom", "title" ],
@@ -129,7 +144,6 @@
 								"subtitle": { "type": "string" },
 								"tags": { "type": "string" },
 								"sources": { "$ref": "#uniqueArray" },
-								"noFinder": { "type": "boolean" },
 								"topLink": { "$ref": "#link" },
 								"compileFrom": { "$ref": "#compileFrom" }
 							},

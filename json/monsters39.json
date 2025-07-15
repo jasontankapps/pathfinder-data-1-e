@@ -128,10 +128,7 @@
 	"criosphinx": { "redirect": "sphinx_criosphinx" },
 	"sphinx_cynosphinx": {
 		"name": "Cynosphinx (Sphinx)",
-		"sources": [
-			"Pathfinder #82: Secrets of the Sphinx",
-			"Bestiary 3"
-		],
+		"sources": [ "Pathfinder #82: Secrets of the Sphinx" ],
 		"description": [
 			"*A jackal's head draped in a tattered headdress extends from a winged, leonine body.*",
 			"",
@@ -212,10 +209,7 @@
 	"cynosphinx": { "redirect": "sphinx_cynosphinx" },
 	"sphinx_elder_sphinx": {
 		"name": "Elder Sphinx (Sphinx)",
-		"sources": [
-			"Pathfinder #83: The Slave Trenches of Hakotep",
-			"Bestiary 3"
-		],
+		"sources": [ "Pathfinder #83: The Slave Trenches of Hakotep" ],
 		"description": [
 			"*The brooding face of this towering limestone statue of a gynosphinx reflects a harsh wisdom acquired through untold ages of experience.*",
 			"",
@@ -291,10 +285,7 @@
 	"elder_sphinx": { "redirect": "sphinx_elder_sphinx" },
 	"sphinx_gynosphinx": {
 		"name": "Gynosphinx (Sphinx)",
-		"sources": [
-			"Pathfinder RPG Bestiary",
-			"Bestiary 3"
-		],
+		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*This creature has the body of a lion, the wings of a falcon, and the head and torso of a beautiful human woman.*",
 			"",
@@ -958,10 +949,7 @@
 	"ogre_spider": { "redirect": "spider_ogre_spider" },
 	"spider_scarlet_spider": {
 		"name": "Scarlet Spider",
-		"sources": [
-			"Ultimate Magic",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"::mh[Scarlet Spider]{cr=\"1/4\"}",
 			"",
@@ -2131,10 +2119,7 @@
 	},
 	"troll_canopy_troll": {
 		"name": "Canopy Troll",
-		"sources": [
-			"Pathfinder #116: Fangs of War",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Pathfinder #116: Fangs of War" ],
 		"description": [
 			"*Prominent tusks and unruly green fur mark this fearsome creature as a troll despite its small size. It hangs overhead, swinging between its oversized forearms and lashing, claw-tipped tail.*",
 			"",
@@ -2211,10 +2196,7 @@
 	"troll_canopy": { "redirect": "troll_canopy_troll" },
 	"troll_chimney_troll": {
 		"name": "Chimney Troll",
-		"sources": [
-			"Daughters of Fury",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Daughters of Fury" ],
 		"description": [
 			"*Filth and soot cover this large, emaciated humanoid's pallid skin, and its beady black eyes glint with desperate hunger.*",
 			"",
@@ -2279,10 +2261,7 @@
 	"troll_chimney": { "redirect": "troll_chimney_troll" },
 	"troll_flood_troll": {
 		"name": "Flood Troll",
-		"sources": [
-			"Pathfinder #91: Battle of Bloodmarch Hills",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Pathfinder #91: Battle of Bloodmarch Hills" ],
 		"description": [
 			"*This tall, gangly giant has a thick hide of mottled blue; protruding yellowed canines; narrow slits for eyes; and large, powerful hands that end in wicked claws.*",
 			"",
@@ -2360,10 +2339,7 @@
 	"troll_flood": { "redirect": "troll_flood_troll" },
 	"troll_ice_troll": {
 		"name": "Ice Troll",
-		"sources": [
-			"Bestiary 2",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Bestiary 2" ],
 		"description": [
 			"*This large creature has light blue-green skin and cold, piercing eyes. Dressed in rough furs, its tusked jaw juts forth in a long underbite.*",
 			"",
@@ -2422,10 +2398,7 @@
 	"troll_ice": { "redirect": "troll_ice_troll" },
 	"troll_jotund_troll": {
 		"name": "Jotund Troll",
-		"sources": [
-			"Bestiary 3",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Bestiary 3" ],
 		"description": [
 			"*This immense green-skinned brute wields a tree branch for a club and has nine heads, each filled with jutting teeth and tusks.*",
 			"",
@@ -2488,10 +2461,7 @@
 	"troll_jotund": { "redirect": "troll_jotund_troll" },
 	"troll_moss_troll": {
 		"name": "Moss Troll",
-		"sources": [
-			"Bestiary 3",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Bestiary 3" ],
 		"description": [
 			"*This large and lanky moss-colored humanoid has an elongated, toothy snout and appears to be covered in bits of foliage.*",
 			"",
@@ -2555,10 +2525,7 @@
 	"troll_moss": { "redirect": "troll_moss_troll" },
 	"troll_mountain_troll": {
 		"name": "Mountain Troll",
-		"sources": [
-			"Lands of the Linnorm Kings",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Lands of the Linnorm Kings" ],
 		"description": [
 			"*This enormous, stooped creature has powerful limbs; a mane of gritty brown fur; and a ferocious, tusked underbite.*",
 			"",
@@ -2620,10 +2587,7 @@
 	"troll_mountain": { "redirect": "troll_mountain_troll" },
 	"troll_rock_troll": {
 		"name": "Rock Troll",
-		"sources": [
-			"Bestiary 2",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Bestiary 2" ],
 		"description": [
 			"*This bulky creature has beady eyes, and rocky skin studded with small crystals. Its jutting underbite holds large, crystalline teeth.*",
 			"",
@@ -2679,10 +2643,7 @@
 	"troll_rock": { "redirect": "troll_rock_troll" },
 	"troll_sewer_troll": {
 		"name": "Sewer Troll",
-		"sources": [
-			"Monster Codex",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Monster Codex" ],
 		"description": [
 			"*This creature looks like a lanky, underfed troll. Its oversized claws drag along the ground, and its large eyes glow with inner light.*",
 			"",
@@ -2743,10 +2704,7 @@
 	"troll_sewer": { "redirect": "troll_sewer_troll" },
 	"troll_troll_acolyte": {
 		"name": "Troll Acolyte",
-		"sources": [
-			"Monster Codex",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Monster Codex" ],
 		"description": [
 			"::mh[Troll Acolyte]{cr=\"6\"}",
 			"",
@@ -2805,10 +2763,7 @@
 	"troll_acolyte": { "redirect": "troll_troll_acolyte" },
 	"troll_troll_berserker": {
 		"name": "Troll Berserker",
-		"sources": [
-			"Monster Codex",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Monster Codex" ],
 		"description": [
 			"::mh[Troll Berserker]{cr=\"9\"}",
 			"",
@@ -2860,10 +2815,7 @@
 	"troll_berserker": { "redirect": "troll_troll_berserker" },
 	"troll_troll_brute": {
 		"name": "Troll Brute",
-		"sources": [
-			"Monster Codex",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Monster Codex" ],
 		"description": [
 			"::mh[Troll Brute]{cr=\"7\"}",
 			"",
@@ -2916,10 +2868,7 @@
 	"troll_brute": { "redirect": "troll_troll_brute" },
 	"troll_troll_elder_matron": {
 		"name": "Troll Elder Matron",
-		"sources": [
-			"Monster Codex",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Monster Codex" ],
 		"description": [
 			"::mh[Troll Elder Matron]{cr=\"10\"}",
 			"",
@@ -2978,10 +2927,7 @@
 	"troll_elder_matron": { "redirect": "troll_troll_elder_matron" },
 	"troll_troll_fury": {
 		"name": "Troll Fury",
-		"sources": [
-			"Monster Codex",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Monster Codex" ],
 		"description": [
 			"::mh[Troll Fury]{cr=\"8\"}",
 			"",
@@ -3040,10 +2986,7 @@
 	"troll_fury": { "redirect": "troll_troll_fury" },
 	"troll_troll_monarch": {
 		"name": "Troll Monarch",
-		"sources": [
-			"Monster Codex",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Monster Codex" ],
 		"description": [
 			"::mh[Troll Monarch]{cr=\"15\"}",
 			"",
@@ -3100,10 +3043,7 @@
 	"troll_monarch": { "redirect": "troll_troll_monarch" },
 	"troll_troll_render": {
 		"name": "Troll Render",
-		"sources": [
-			"Monster Codex",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Monster Codex" ],
 		"description": [
 			"::mh[Troll Render]{cr=\"10\"}",
 			"",
@@ -3155,10 +3095,7 @@
 	"troll_render": { "redirect": "troll_troll_render" },
 	"troll_troll_ripper": {
 		"name": "Troll Ripper",
-		"sources": [
-			"Monster Codex",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Monster Codex" ],
 		"description": [
 			"::mh[Troll Ripper]{cr=\"8\"}",
 			"",
@@ -3206,10 +3143,7 @@
 	"troll_ripper": { "redirect": "troll_troll_ripper" },
 	"troll_troll_warden": {
 		"name": "Troll Warden",
-		"sources": [
-			"Monster Codex",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Monster Codex" ],
 		"description": [
 			"::mh[Troll Warden]{cr=\"6\"}",
 			"",
@@ -3315,10 +3249,7 @@
 	},
 	"thriae_thriae_constructor": {
 		"name": "Thriae Constructor",
-		"sources": [
-			"Bestiary 5",
-			"Bestiary 3"
-		],
+		"sources": [ "Bestiary 5" ],
 		"description": [
 			"*A droning hum surrounds this gargantuan half-bee, half-woman with insectile wings.*",
 			"",
@@ -3378,8 +3309,7 @@
 		"name": "Thriae Dancer",
 		"sources": [
 			"Bestiary 5",
-			"Pathfinder #81: Shifting Sands",
-			"Bestiary 3"
+			"Pathfinder #81: Shifting Sands"
 		],
 		"description": [
 			"*This elegant half-woman, half-bee wields a glaive and is clad in flowing, gauzy garments. A veil covers most of her face.*",

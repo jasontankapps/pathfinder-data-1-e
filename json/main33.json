@@ -1,7 +1,6 @@
 {
 	"spells_mythic": {
 		"title": "All Mythic Spells",
-		"sources": [],
 		"searchgroup": "spell",
 		"description": [
 			"::mainheader[Arcane Mythic Spells by Class]",
@@ -214,7 +213,6 @@
 	},
 	"spells_mythic_arcanist_sorcerer_wizard": {
 		"title": "Mythic Arcanist, Sorcerer and Wizard Spells",
-		"sources": [],
 		"searchgroup": "spell",
 		"description": [
 			":::item",
@@ -325,7 +323,6 @@
 	},
 	"spells_mythic_alchemist": {
 		"title": "Mythic Alchemist Extracts",
-		"sources": [],
 		"searchgroup": "spell",
 		"description": [
 			"::main[Alchemist Extracts]{to=Mythic}",
@@ -374,7 +371,6 @@
 	},
 	"spells_mythic_investigator": {
 		"title": "Mythic Investigator Extracs",
-		"sources": [],
 		"searchgroup": "spell",
 		"description": [
 			"::main[Investigator Extracs]{to=Mythic}",
@@ -423,7 +419,6 @@
 	},
 	"spells_mythic_summoner": {
 		"title": "Mythic Summoner Spells",
-		"sources": [],
 		"searchgroup": "spell",
 		"description": [
 			":::item",
@@ -462,7 +457,6 @@
 	},
 	"spells_mythic_unchained_summoner": {
 		"title": "Mythic Unchained Summoner Spells",
-		"sources": [],
 		"searchgroup": "spell",
 		"description": [
 			":::item",
@@ -502,7 +496,6 @@
 	},
 	"spells_mythic_bard_skald": {
 		"title": "Mythic Bard and Skald Spells",
-		"sources": [],
 		"searchgroup": "spell",
 		"description": [
 			":::item",
@@ -550,7 +543,6 @@
 	},
 	"spells_mythic_magus": {
 		"title": "Mythic Magus Spells",
-		"sources": [],
 		"searchgroup": "spell",
 		"description": [
 			":::item",
@@ -612,7 +604,6 @@
 	},
 	"spells_mythic_witch": {
 		"title": "Mythic Witch Spells",
-		"sources": [],
 		"searchgroup": "spell",
 		"description": [
 			":::item",
@@ -683,7 +674,6 @@
 	},
 	"spells_mythic_bloodrager": {
 		"title": "Mythic Bloodrager Spells",
-		"sources": [],
 		"searchgroup": "spell",
 		"description": [
 			":::item",
@@ -741,7 +731,6 @@
 	},
 	"spells_mythic_cleric_oracle": {
 		"title": "Mythic Cleric and Oracle Spells",
-		"sources": [],
 		"searchgroup": "spell",
 		"description": [
 			":::item",
@@ -807,7 +796,6 @@
 	},
 	"spells_mythic_druid": {
 		"title": "Mythic Druid Spells",
-		"sources": [],
 		"searchgroup": "spell",
 		"description": [
 			":::item",
@@ -863,7 +851,6 @@
 	},
 	"spells_mythic_rangers": {
 		"title": "Mythic Ranger Spells",
-		"sources": [],
 		"searchgroup": "spell",
 		"description": [
 			":::item",
@@ -899,7 +886,6 @@
 	},
 	"spells_mythic_hunter": {
 		"title": "Mythic Hunter Spells",
-		"sources": [],
 		"searchgroup": "spell",
 		"description": [
 			":::item",
@@ -949,7 +935,6 @@
 	},
 	"spells_mythic_inquisitor": {
 		"title": "Mythic Inquisitor Spells",
-		"sources": [],
 		"searchgroup": "spell",
 		"description": [
 			":::item",
@@ -999,7 +984,6 @@
 	},
 	"spells_mythic_warpriest": {
 		"title": "Mythic Warpriest Spells",
-		"sources": [],
 		"searchgroup": "spell",
 		"description": [
 			":::item",
@@ -1057,7 +1041,6 @@
 	},
 	"spells_mythic_paladin": {
 		"title": "Mythic Paladin Spells",
-		"sources": [],
 		"searchgroup": "spell",
 		"description": [
 			":::item",
@@ -1093,7 +1076,6 @@
 	},
 	"spells_mythic_antipaladin": {
 		"title": "Mythic Antipaladin Spells",
-		"sources": [],
 		"searchgroup": "spell",
 		"description": [
 			":::item",
@@ -1131,7 +1113,6 @@
 	},
 	"spells_mythic_shaman": {
 		"title": "Mythic Shaman Spells",
-		"sources": [],
 		"searchgroup": "spell",
 		"description": [
 			":::item",
@@ -1187,7 +1168,6 @@
 	},
 	"spells_mythic_medium": {
 		"title": "Mythic Medium Spells",
-		"sources": [],
 		"searchgroup": "spell",
 		"description": [
 			":::item",
@@ -1235,7 +1215,6 @@
 	},
 	"spells_mythic_mesmerist": {
 		"title": "Mythic Mesmerist Spells",
-		"sources": [],
 		"searchgroup": "spell",
 		"description": [
 			":::item",
@@ -1289,7 +1268,6 @@
 	},
 	"spells_mythic_occultist": {
 		"title": "Mythic Occultist Spells",
-		"sources": [],
 		"searchgroup": "spell",
 		"description": [
 			":::item",
@@ -1357,7 +1335,6 @@
 	},
 	"spells_mythic_psychic": {
 		"title": "Mythic Psychic Spells",
-		"sources": [],
 		"searchgroup": "spell",
 		"description": [
 			":::item",
@@ -1436,7 +1413,6 @@
 	},
 	"spells_mythic_spiritualist": {
 		"title": "Mythic Spiritualist Spells",
-		"sources": [],
 		"searchgroup": "spell",
 		"description": [
 			":::item",
@@ -1487,7 +1463,6 @@
 	},
 	"spells_redmantisassassin": {
 		"title": "All Red Mantis Assassin Spells",
-		"sources": [],
 		"searchgroup": "spell",
 		"description": [
 			":::item",

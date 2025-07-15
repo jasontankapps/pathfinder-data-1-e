@@ -1,7 +1,6 @@
 {
 	"npcs": {
 		"title": "NPCs",
-		"sources": [],
 		"searchgroup": "monster",
 		"description": [
 			"::mainheader[NPCs by Class]",
@@ -551,7 +550,6 @@
 	},
 	"npcs_npc_classes": {
 		"title": "NPCs: NPC Classes",
-		"sources": [],
 		"searchgroup": "monster",
 		"description": [
 			"::mainheader[Adepts]",
@@ -751,7 +749,6 @@
 	},
 	"npcs_bards_sorcerers_wizards": {
 		"title": "NPCs: Core Arcane Classes",
-		"sources": [],
 		"searchgroup": "monster",
 		"description": [
 			"::mainheader[Bards]",
@@ -913,7 +910,6 @@
 	},
 	"npcs_clerics_druids_paladins": {
 		"title": "NPCs: Core Divine Classes",
-		"sources": [],
 		"searchgroup": "monster",
 		"description": [
 			"::mainheader[Clerics]",
@@ -1127,7 +1123,6 @@
 	"npcs_other_core": {
 		"title": "NPCs: Core Non-Spellcasters",
 		"searchgroup": "monster",
-		"sources": [],
 		"description": [
 			"::mainheader[Barbarians]",
 			"",
@@ -1390,7 +1385,6 @@
 	},
 	"npcs_other": {
 		"title": "NPCs: Non-Core Classes",
-		"sources": [],
 		"searchgroup": "monster",
 		"description": [
 			"::mainheader[Alchemist]",
@@ -1505,7 +1499,6 @@
 	},
 	"tech_armor": {
 		"title": "Technology - Armor",
-		"sources": [ "Technology Guide" ],
 		"description": [
 			":::item",
 			"",
@@ -1561,7 +1554,6 @@
 	},
 	"tech_weapons": {
 		"title": "Technology - Weapons",
-		"sources": [ "Technology Guide" ],
 		"description": [
 			":::item",
 			"",
@@ -1655,7 +1647,6 @@
 	},
 	"tech_cybertech": {
 		"title": "Technology - Cybertech",
-		"sources": [ "Technology Guide" ],
 		"description": [
 			":::item",
 			"",
@@ -1709,7 +1700,6 @@
 	},
 	"tech_pharmaceuticals": {
 		"title": "Technology - Pharmaceuticals",
-		"sources": [ "Technology Guide" ],
 		"description": [
 			":::item",
 			"",
@@ -1749,7 +1739,6 @@
 	},
 	"tech_artifacts": {
 		"title": "Technology - Artifacts",
-		"sources": [ "Technology Guide" ],
 		"description": [
 			":::item",
 			"",
@@ -1800,6 +1789,8 @@
 			":::",
 			"",
 			":::item",
+			"",
+			"{SOURCE Technology Guide}",
 			"",
 			"Most of the technological treasures that await discovery in Numeria fall into this catch-all category. Each piece of technological gear detailed here has a full description, including a set of abbreviated statistics. This information is organized as follows.",
 			"",
@@ -2105,7 +2096,6 @@
 	},
 	"equipment_siegeengines": {
 		"title": "Siege Engines",
-		"sources": [],
 		"searchgroup": "equip",
 		"description": [
 			":::item",
@@ -2913,10 +2903,7 @@
 	},
 	"equipment_poisons": {
 		"title": "Poisons",
-		"sources": [
-			"PRPG Core Rulebook",
-			"Inner Sea Intrigue"
-		],
+		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			":::item",
 			"",

@@ -284,10 +284,7 @@
 	"nightcrawler": { "redirect": "nightshade_nightcrawler" },
 	"nightshade_nightprowler": {
 		"name": "Nightprowler (Nightshade)",
-		"sources": [
-			"Pathfinder #102: Breaking the Bones of Hell",
-			"Bestiary 2"
-		],
+		"sources": [ "Pathfinder #102: Breaking the Bones of Hell" ],
 		"description": [
 			"*This bulky predator's feline form is cloaked in shadows, save for its red eyes, which glow with a baleful hatred.*",
 			"",

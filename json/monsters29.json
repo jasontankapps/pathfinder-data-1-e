@@ -1,10 +1,7 @@
 {
 	"dark_folk_caligni": {
 		"name": "Caligni (Dark Folk)",
-		"sources": [
-			"Bestiary 5",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Bestiary 5" ],
 		"description": [
 			"*Beneath ragged shreds, this lean figure's chalky skin darkens to charred hues at the extremities.*",
 			"",
@@ -69,10 +66,7 @@
 	"caligni": { "redirect": "dark_folk_caligni" },
 	"dark_folk_dark_caller": {
 		"name": "Dark Caller (Dark Folk)",
-		"sources": [
-			"Bestiary 4",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Bestiary 4" ],
 		"description": [
 			"*Wrapped in tatters of dark musty robes, this humanoid figure weaves malevolent magic.*",
 			"",
@@ -138,10 +132,7 @@
 	"dark_caller": { "redirect": "dark_folk_dark_caller" },
 	"dark_folk_dark_champion": {
 		"name": "Dark Champion (Dark Folk)",
-		"sources": [
-			"Cradle of Night",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Cradle of Night" ],
 		"description": [
 			"*This gaunt humanoid's body is entirely cased in black plate armor. Its open-faced helm reveals its pale skin and shallow, fleshy hollows where its eyes should be.*",
 			"",
@@ -265,10 +256,7 @@
 	"dark_creeper": { "redirect": "dark_folk_dark_creeper" },
 	"dark_folk_dark_dancer": {
 		"name": "Dark Dancer (Dark Folk)",
-		"sources": [
-			"Bestiary 4",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Bestiary 4" ],
 		"description": [
 			"*Dancing in a wicked celebration, this slight humanoid is wrapped head to toe in dirty scraps of dark cloth.*",
 			"",
@@ -327,10 +315,7 @@
 	"dark_dancer": { "redirect": "dark_folk_dark_dancer" },
 	"dark_folk_dark_empath": {
 		"name": "Dark Empath (Dark Folk)",
-		"sources": [
-			"Occult Bestiary",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Occult Bestiary" ],
 		"description": [
 			"*This gaunt, hunched humanoid's unblinking eyes stare out from a pale face wrapped in dark cloth.*",
 			"",
@@ -393,10 +378,7 @@
 	"dark_empath": { "redirect": "dark_folk_dark_empath" },
 	"dark_folk_dark_slayer": {
 		"name": "Dark Slayer (Dark Folk)",
-		"sources": [
-			"Bestiary 2",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Bestiary 2" ],
 		"description": [
 			"*This small humanoid is clothed in tattered rags from head to foot. Only its sinister eyes and pale hands are visible.*",
 			"",
@@ -526,10 +508,7 @@
 	"dark_stalker": { "redirect": "dark_folk_dark_stalker" },
 	"demodand_gristly_demodand": {
 		"name": "Gristly Demodand",
-		"sources": [
-			"Bestiary 5",
-			"Bestiary 3"
-		],
+		"sources": [ "Bestiary 5" ],
 		"description": [
 			"*This obese humanoid has a wide mouth, bat-like wings, and pale fluid seeping from rolls of black, greasy skin.*",
 			"",
@@ -713,10 +692,7 @@
 	"demodand_slimy": { "redirect": "demodand_slimy_demodand" },
 	"demodand_squamous_demodand": {
 		"name": "Squamous Demodand",
-		"sources": [
-			"Book of the Damned",
-			"Bestiary 3"
-		],
+		"sources": [ "Book of the Damned" ],
 		"description": [
 			"*This titanic mass of flesh is covered in razor-sharp scales and has bony wings, four taloned arms, and a toothy, toad-like head.*",
 			"",
@@ -786,8 +762,7 @@
 		"name": "Stringy Demodand",
 		"sources": [
 			"Bestiary 5",
-			"Pathfinder #77: Herald of the Ivory Labyrinth",
-			"Bestiary 3"
+			"Pathfinder #77: Herald of the Ivory Labyrinth"
 		],
 		"description": [
 			"*This lanky, winged humanoid is covered in layers of long, ropy skin growths.*",
@@ -913,8 +888,7 @@
 		"name": "Abrikandilu (Demon)",
 		"sources": [
 			"Bestiary 5",
-			"The Worldwound",
-			"Pathfinder RPG Bestiary"
+			"The Worldwound"
 		],
 		"description": [
 			"*This deformed, horned, hunchbacked humanoid has a forked, rat-like tail and two thumbs on each taloned hand.*",
@@ -980,10 +954,7 @@
 	"abrikandilu": { "redirect": "demon_abrikandilu" },
 	"demon_andrazku": {
 		"name": "Andrazku (Demon)",
-		"sources": [
-			"Pathfinder #69: Maiden, Mother, Crone",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Pathfinder #69: Maiden, Mother, Crone" ],
 		"description": [
 			"*This burly, primitive-looking creature has an ape-like upper body, demonic horns, cloven hooves, and skin the color of a snow-buried corpse.*",
 			"",
@@ -1218,8 +1189,7 @@
 		"name": "Brimorak (Demon)",
 		"sources": [
 			"Bestiary 6",
-			"Book of the Damned - Volume 2: Lords of Chaos",
-			"Pathfinder RPG Bestiary"
+			"Book of the Damned - Volume 2: Lords of Chaos"
 		],
 		"description": [
 			"*This muscular, red-eyed, goat-headed demon wields a burning sword. Fire licks up from its flaming hooves.*",
@@ -1286,8 +1256,7 @@
 		"name": "Cambion (Demon)",
 		"sources": [
 			"Bestiary 5",
-			"Pathfinder #76: The Midnight Isles",
-			"Pathfinder RPG Bestiary"
+			"Pathfinder #76: The Midnight Isles"
 		],
 		"description": [
 			"*This red-skinned, demonic humanoid has a forked tongue, and a pair of black horns sprout from its brow.*",
@@ -1356,10 +1325,7 @@
 	"cambion": { "redirect": "demon_cambion" },
 	"demon_coloxus": {
 		"name": "Coloxus (Demon)",
-		"sources": [
-			"Bestiary 3",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Bestiary 3" ],
 		"description": [
 			"*This figure would be the picture of elegance and refinement were it not for its grotesque fly head and shivering insectile wings.*",
 			"",
@@ -1424,10 +1390,7 @@
 	"coloxus": { "redirect": "demon_coloxus" },
 	"demon_derakni": {
 		"name": "Derakni (Demon)",
-		"sources": [
-			"The Worldwound",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "The Worldwound" ],
 		"description": [
 			"*The size of a horse, this demonic locust has a scorpion's stinger and an almost-human face. Its front legs end in clawed hands.*",
 			"",
@@ -1545,10 +1508,7 @@
 	"dretch": { "redirect": "demon_dretch" },
 	"demon_gallu": {
 		"name": "Gallu (Demon)",
-		"sources": [
-			"The Worldwound",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "The Worldwound" ],
 		"description": [
 			"*This horned, winged, wolf-headed demon has bone-white flesh onto which have been riveted plates of spiky armor.*",
 			"",
@@ -1619,10 +1579,7 @@
 	"gallu": { "redirect": "demon_gallu" },
 	"demon_ghalzarokh": {
 		"name": "Ghalzarokh (Demon)",
-		"sources": [
-			"Book of the Damned",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Book of the Damned" ],
 		"description": [
 			"*This corpulent, four-armed fiend is covered in yellow-orange dragon scales, and draconic wings sprout from its back.*",
 			"",
@@ -1680,10 +1637,7 @@
 	"ghalzarokh": { "redirect": "demon_ghalzarokh" },
 	"demon_gibrileth": {
 		"name": "Gibrileth (Demon)",
-		"sources": [
-			"The Worldwound",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "The Worldwound" ],
 		"description": [
 			"*This flying, bulbous, tumor-riddled mass has numerous arms, no legs, and a leering, three-eyed face.*",
 			"",
@@ -1804,10 +1758,7 @@
 	"glabrezu": { "redirect": "demon_glabrezu" },
 	"demon_hala": {
 		"name": "Hala (Demon)",
-		"sources": [
-			"Pathfinder #49: The Brinewall Legacy",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Pathfinder #49: The Brinewall Legacy" ],
 		"description": [
 			"*Skin the color of thunderheads and wings made for soaring through the most violent winds mark this lean, cyclopic being as a master of terrible storms. The sound of shrieking wind emanates from its mouth full of needle-sharp teeth.*",
 			"",
@@ -1952,10 +1903,7 @@
 	"hezrou": { "redirect": "demon_hezrou" },
 	"demon_incubus": {
 		"name": "Incubus (Demon)",
-		"sources": [
-			"Bestiary 3",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Bestiary 3" ],
 		"description": [
 			"*This darkly handsome humanoid's bat-like wings, curving horns, and bestial legs betray his demonic origin.*",
 			"",
@@ -2016,10 +1964,7 @@
 	"incubus": { "redirect": "demon_incubus" },
 	"demon_kalavakus": {
 		"name": "Kalavakus (Demon)",
-		"sources": [
-			"Bestiary 2",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Bestiary 2" ],
 		"description": [
 			"*This muscular, violet demon walks upon elephantine feet. Large, razor-sharp horns cover its body.*",
 			"",
@@ -2079,10 +2024,7 @@
 	"kalavakus": { "redirect": "demon_kalavakus" },
 	"demon_katpaskir": {
 		"name": "Katpaskir (Demon)",
-		"sources": [
-			"Pathfinder #78: City of Locusts",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Pathfinder #78: City of Locusts" ],
 		"description": [
 			"*Four clawed arms sprout from this fiend's chest like the limbs of a buried insect struggling to crawl free. Overlapping iridescent plates of chitin cascade down the monster's back, shrouding four membranous dragonfly wings.*",
 			"",
@@ -2161,10 +2103,7 @@
 	"katpaskir": { "redirect": "demon_katpaskir" },
 	"demon_kithangian": {
 		"name": "Kithangian (Demon)",
-		"sources": [
-			"The Worldwound",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "The Worldwound" ],
 		"description": [
 			"*This creature combines the features of a scorpion and a horse-slavering humanoid faces peer from between its two pincers.*",
 			"",
@@ -2229,10 +2168,7 @@
 	"kithangian": { "redirect": "demon_kithangian" },
 	"demon_larva": {
 		"name": "Larva (Demon)",
-		"sources": [
-			"Pathfinder #76: The Midnight Isles",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Pathfinder #76: The Midnight Isles" ],
 		"description": [
 			"::mh[Larva]{cr=\"1\"}",
 			"",
@@ -2276,8 +2212,7 @@
 		"name": "Lilitu (Demon)",
 		"sources": [
 			"Bestiary 6",
-			"The Worldwound",
-			"Pathfinder RPG Bestiary"
+			"The Worldwound"
 		],
 		"description": [
 			"*While this seductive woman has goat horns, goat hooves, and a serpentine tail, her eyeless face is her most disturbing feature.*",
@@ -2548,8 +2483,7 @@
 		"name": "Omox (Demon)",
 		"sources": [
 			"Bestiary 2",
-			"Pathfinder #16: Endless Night",
-			"Pathfinder RPG Bestiary"
+			"Pathfinder #16: Endless Night"
 		],
 		"description": [
 			"*This rancid-smelling mound of animated ooze has about its shifting countenance the hideous shape of a half-melted man.*",
@@ -2616,8 +2550,7 @@
 		"name": "Oolioddroo (Demon)",
 		"sources": [
 			"Bestiary 6",
-			"The Worldwound",
-			"Pathfinder RPG Bestiary"
+			"The Worldwound"
 		],
 		"description": [
 			"*This skeletally thin woman has a moth-like face, flies upon dragonfly wings, and is wrapped in shadows.*",
@@ -2693,10 +2626,7 @@
 	"oolioddroo": { "redirect": "demon_oolioddroo" },
 	"demon_painajai": {
 		"name": "Painajai (Demon)",
-		"sources": [
-			"Occult Bestiary",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Occult Bestiary" ],
 		"description": [
 			"*The eight spider eyes of this pale, towering humanoid glisten hungrily, and its mouth contains dozens of sharp teeth. It carries a barbed spear with a long, clinking chain attached to its end.*",
 			"",
@@ -2824,10 +2754,7 @@
 	"quasit": { "redirect": "demon_quasit" },
 	"demon_schir": {
 		"name": "Schir (Demon)",
-		"sources": [
-			"Bestiary 3",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Bestiary 3" ],
 		"description": [
 			"*This goat-headed humanoid is covered in a mangy gray hide that only partly covers its gaunt but muscled frame.*",
 			"",
@@ -2893,8 +2820,7 @@
 		"name": "Seraptis (Demon)",
 		"sources": [
 			"Bestiary 5",
-			"Book of the Damned - Volume 2: Lords of Chaos",
-			"Pathfinder RPG Bestiary"
+			"Book of the Damned - Volume 2: Lords of Chaos"
 		],
 		"description": [
 			"*This woman's flesh is pale and clammy, as if her body had been drained of blood from the fanged slashes on her four arms.*",
@@ -2959,10 +2885,7 @@
 	"seraptis": { "redirect": "demon_seraptis" },
 	"demon_shachath": {
 		"name": "Shachath (Demon)",
-		"sources": [
-			"Pathfinder #75: Demon's Heresy",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Pathfinder #75: Demon's Heresy" ],
 		"description": [
 			"*This winged abomination is a horrid mix of demonic and angelic features, as if two bodies were carelessly fused into one. Its fanged, inhuman face is frozen in permanent contempt, while a beautiful visage with an expression of horror bulges from the back of its skull.*",
 			"",
@@ -3103,8 +3026,7 @@
 		"name": "Shemhazian (Demon)",
 		"sources": [
 			"Bestiary 2",
-			"Pathfinder #5: Sins of the Saviors",
-			"Pathfinder RPG Bestiary"
+			"Pathfinder #5: Sins of the Saviors"
 		],
 		"description": [
 			"*This enormous, bestial demon combines the worst aspects of a bear, a mantis, a wolf, and a reptilian humanoid.*",
@@ -3226,10 +3148,7 @@
 	"succubus": { "redirect": "demon_succubus" },
 	"demon_swaithe": {
 		"name": "Swaithe (Demon)",
-		"sources": [
-			"Inner Sea Gods",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Inner Sea Gods" ],
 		"description": [
 			"*This creepy ash-gray goblin-like creature has empty eye sockets and scraggly, stained teeth.*",
 			"",
@@ -3299,10 +3218,7 @@
 	"swaithe": { "redirect": "demon_swaithe" },
 	"demon_thoxel_demon": {
 		"name": "Thoxel Demon (Demon)",
-		"sources": [
-			"Pathfinder #74: Sword of Valor",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Pathfinder #74: Sword of Valor" ],
 		"description": [
 			"*Dead white scars and raw red flesh crisscross this creature's scorched and sallow skin as though it has been flogged and branded a thousand times.*",
 			"",
@@ -3380,10 +3296,7 @@
 	"demon_thoxel": { "redirect": "demon_thoxel_demon" },
 	"demon_ulkreth": {
 		"name": "Ulkreth (Demon)",
-		"sources": [
-			"Pathfinder #73: The Worldwound Incursion",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Pathfinder #73: The Worldwound Incursion" ],
 		"description": [
 			"*This towering monstrosity is clad in cracked boulders, jagged shards of rock, spars of crooked metal, and shredded steel. Four immense arms end in rocky fists, and bony wings protrude from its back.*",
 			"",
@@ -3465,8 +3378,7 @@
 		"name": "Vavakia (Demon)",
 		"sources": [
 			"Bestiary 6",
-			"Book of the Damned - Volume 2: Lords of Chaos",
-			"Pathfinder RPG Bestiary"
+			"Book of the Damned - Volume 2: Lords of Chaos"
 		],
 		"description": [
 			"*This reptilian demon has a quadrupedal dinosaur's lower body, a vaguely humanoid upper torso, and a draconic saurian head.*",
@@ -3542,8 +3454,7 @@
 		"name": "Vermlek (Demon)",
 		"sources": [
 			"Bestiary 6",
-			"Book of the Damned - Volume 2: Lords of Chaos",
-			"Pathfinder RPG Bestiary"
+			"Book of the Damned - Volume 2: Lords of Chaos"
 		],
 		"description": [
 			"*A hideous, pale, worm-like head pushes violently up and out of a corpulent man's body.*",
@@ -3607,10 +3518,7 @@
 	"vermlek": { "redirect": "demon_vermlek" },
 	"demon_vilsteth": {
 		"name": "Vilsteth (Demon)",
-		"sources": [
-			"Pathfinder #77: Herald of the Ivory Labyrinth",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Pathfinder #77: Herald of the Ivory Labyrinth" ],
 		"description": [
 			"*This fiend seems carved from weathered ivory, and runes and symbols of power cover its pale flesh. Its eyes glow an eerie yellow, and horns curl from its eerie, mouthless head.*",
 			"",
@@ -3748,10 +3656,7 @@
 	"vrock": { "redirect": "demon_vrock" },
 	"demon_vrolikai": {
 		"name": "Vrolikai (Demon)",
-		"sources": [
-			"Bestiary 2",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Bestiary 2" ],
 		"description": [
 			"*This black-skinned, bat-winged demon has four arms; a long, thin tail; and a leering, fanged face with dead, white eyes.*",
 			"",
@@ -3817,8 +3722,7 @@
 		"name": "Yaenit (Demon)",
 		"sources": [
 			"Bestiary 6",
-			"Broken Chains",
-			"Pathfinder RPG Bestiary"
+			"Broken Chains"
 		],
 		"description": [
 			"*Patches of fur adorn the sickly flesh of this gangly but muscular hyena-headed humanoid.*",

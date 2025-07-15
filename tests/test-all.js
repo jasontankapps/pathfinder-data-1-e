@@ -2,12 +2,14 @@ import archTest from './test-archetypes.js';
 import basicsTest from './test-basic.js';
 import rulesTest from './test-rules.js';
 import linksTest from './test-links.js';
+import sourcesTest from './test-sources.js';
 
 const data = [
 	...basicsTest(),
 	rulesTest(),
 	...archTest(),
-	linksTest()
+	linksTest(),
+	sourcesTest()
 ];
 
 const output = [];

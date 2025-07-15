@@ -21,6 +21,7 @@
 		"subtitle": "Specific Campaigns",
 		"sources": [ "Aquatic Adventures" ],
 		"description": [
+			"{SOURCE Aquatic Adventures}  ",
 			"The rules presented in the Pathfinder RPG Core Rulebook assume the default perspective of a game based on land, with only occasional hazards and encounters involving water - typically as ways to get terrestrial PCs out of their comfort zone. However, when you're running a game with significant portions set underwater, you often wind up needing to make a number of tricky adjudications in order to make gameplay work. This section includes advice and adjudications that make it an invaluable resource for those running and playing in aquatic adventures.",
 			"",
 			"**Also see:** The Gamemastery Guide section on {rule/aquatic adventures}."
@@ -48,6 +49,7 @@
 		"subtitle": "Specific Campaigns",
 		"sources": [ "Aquatic Adventures" ],
 		"description": [
+			"{SOURCE Aquatic Adventures}  ",
 			"Barring the use of magic, swimming is the main way to travel in an aquatic adventure. However, the Swim skill was written from the perspective of a primarily land-based campaign.",
 			"",
 			"### The Basics",
@@ -77,6 +79,7 @@
 		"subtitle": "Aquatic Adventures, Specific Campaigns",
 		"sources": [ "Aquatic Adventures" ],
 		"description": [
+			"{SOURCE Aquatic Adventures}  ",
 			"When a creature fails its Swim check by 5 or more, or when it doesn't spend any actions to swim (whether voluntarily or due to paralysis or similar conditions), it either sinks or rises based on its buoyancy. There are three normal states of buoyancy: sinking, rising, and neutral. If a creature's buoyancy is sinking, it naturally sinks; if its buoyancy is rising, it naturally rises to the surface; and if its buoyancy is neutral, it hangs in place unless it expends effort.",
 			"",
 			"Land-dwelling creatures generally have a sinking buoyancy unless they are carrying a substantial amount of low-density gear (like wooden items, at least until they become waterlogged) and little or no high-density gear (such as items made from metal or stone). {eq-misc/Air tank/s} in particular make it much easier to change your buoyancy to rising. It's also possible to adjust an air tank to hold just enough air to achieve a neutral buoyancy - but once a creature has done so, if it picks up other objects or uses the tank to breathe underwater, it loses its neutral buoyancy until it readjusts (which may require returning to the surface to refill the air tank).",
@@ -110,6 +113,7 @@
 		"subtitle": "Aquatic Adventures, Specific Campaigns",
 		"sources": [ "Aquatic Adventures" ],
 		"description": [
+			"{SOURCE Aquatic Adventures}  ",
 			"While flying creatures can add a third dimension to land-based combat, such creatures are an exception rather than the rule. The main challenge three-dimensional adventuring presents is representing a creature's vertical position during combat. This challenge is tougher than usual because most flying in adventures still involves encounters relatively close to the ground, rather than in the open sky, but plenty of encounters in an underwater adventure may occur in open water, nowhere near the surface or bottom. Typical solutions for flying creatures like using stackable tokens or transparent dice boxes to elevate the flying creature all depend on the main map being a consistent bottom altitude, but in an underwater fight, the combatants could just as easily move farther down.",
 			"",
 			"One way to avoid physically representing the third dimension is to use your imagination instead of a battlemap, but given that it's even harder to keep track of all three dimensions in your head, it becomes difficult to keep accurate relative distances that way. Another simple way to handle it is to mark a creature's depth relative to its starting depth, either on a small token you move along with the creature or directly on the battle map. This solution doesn't involve as much work as creating a complicated three-dimensional representation of the battle, but it isn't always easy to judge the relative vertical position without looking at the numbers and thinking about them. In the end, use the solution that works best for you whether that's judging distances in your head or crafting elaborate physical representations.",
@@ -136,6 +140,7 @@
 		"subtitle": "Aquatic Adventures, Specific Campaigns",
 		"sources": [ "Aquatic Adventures" ],
 		"description": [
+			"{SOURCE Aquatic Adventures}  ",
 			"Combat underwater is more complex than on land, both because of the three-dimensional nature of the environment, and because being underwater changes how many actions work. This section contains rules advice and adjudication for major factors that change because of the water.",
 			"",
 			"While most skills work the same underwater, {skill/Perception} and {skill/Survival} work somewhat differently. See the notes under those skills for more information."
@@ -162,6 +167,7 @@
 		"tags": "underwater combat",
 		"sources": [ "Aquatic Adventures" ],
 		"description": [
+			"{SOURCE Aquatic Adventures}  ",
 			"One of the most immediately noticeable differences when fighting underwater is that slashing and bludgeoning attacks are made with a -2 penalty and deal half damage, making piercing weapons the best bet for an underwater adventure. If you're off-balance (see {rule/Off-Balance and Prone Underwater}), your attacks with piercing weapons also take a -2 penalty and deal half damage. {spell/Freedom of movement} can negate these penalties entirely and has [a variety of other effects](rule/freedom_of_movement). Additionally, {feat/Aquadynamic Focus} can specifically assist with this situation. Creatures with a natural swim speed from the aquatic or water subtype don't take these penalties with their inherent natural attacks. For instance, a kraken's bludgeoning tentacle attacks don't take penalties, but if it took the ectoplasmatist {class/spiritualist} archetype and gained two slashing ectoplasmic lash attacks, those would still take the penalties. Attacks that deal bludgeoning damage by pushing water, such as a {class/kineticist/'s} water blast, also take no penalty and deal full damage underwater.",
 			"",
 			"@HL[Ranged Attacks:] Traditional physical ranged weapon attacks underwater are much more challenging due to the increased drag from the water compared to air. Ranged attacks normally take a -2 penalty for every 5 feet of water, in addition to the normal penalty for range increments. The exceptions are the underwater light crossbow and underwater heavy crossbow, which ignore the penalty for ranged attacks underwater but have a significantly reduced range increment underwater. Thrown attacks don't usually work underwater at all, but if you can move directly above your opponent, you can throw a properly prepared piercing weapon (one made of stone, metal, or another particularly dense material) straight down, counting on its sinking buoyancy to propel it to its target.",
@@ -191,6 +197,7 @@
 		"tags": "underwater combat",
 		"sources": [ "Aquatic Adventures" ],
 		"description": [
+			"{SOURCE Aquatic Adventures}  ",
 			"@HL[\"Off-balance\"] is a special state (though not technically a condition) that is listed in the [Combat Adjustments Underwater table](rule/underwater_combat). A creature off-balance in the water loses its Dexterity bonus to AC, its opponents gain a +2 bonus on attack rolls against it, and attacks it makes with piercing weapons are made at a -2 penalty and deal half damage. A creature typically becomes off-balance by failing a Swim check, which makes it off-balance for a round, even if it has a neutral buoyancy and doesn't sink or rise.",
 			"",
 			"@HL[Tripping Underwater:] While flying creatures specifically can't be tripped, the Core Rulebook doesn't specify whether the same is true of swimming creatures. Being prone doesn't mean much for a swimming creature, so instead, a successful trip against a swimming creature forces that creature to attempt a Swim check at a DC equal to the result of the combat maneuver check to trip; failing the Swim check causes the creature to become off-balance. Many aquatic creatures can't be tripped or have a high Swim bonus and thus can always take 10, so this tactic isn't always effective, but when it is, it can make dexterous foes much easier to hit. However, being off-balance doesn't affect most of the target's attack rolls, and the target can regain its balance simply by succeeding at a Swim check to move on its next turn as normal."
@@ -213,6 +220,7 @@
 		"tags": "underwater combat",
 		"sources": [ "Aquatic Adventures" ],
 		"description": [
+			"{SOURCE Aquatic Adventures}  ",
 			"In addition to preventing a character from being grappled and several other nasty conditions, {spell/freedom of movement} enables the target to move and attack normally while underwater. Thus, a creature benefitting from freedom of movement can swing weapons without penalties (though objects that leave its possession, like thrown weapons or ammo from ranged weapons, lose this benefit), lift objects without drag, and walk along the bottom at full speed. The creature automatically succeeds at all Swim checks as the water offers no significant resistance to its movement. If the creature has the ability to do so, it can fly or use spells like {spell/air walk} to freely move around as if it were in air. Creatures who need just the movement benefits from freedom of movement without the benefits against grapple, paralysis, and magic effects that hinder movement should consider the lower-level spell {spell/free swim}."
 		],
 		"parent_topics": [
@@ -233,6 +241,7 @@
 		"tags": "underwater combat",
 		"sources": [ "Aquatic Adventures" ],
 		"description": [
+			"{SOURCE Aquatic Adventures}  ",
 			"While various spells have different effects underwater, the most fundamental hindrance to spellcasting, at least at low levels, is the fact that a creature holding its breath must succeed at a {rule/concentration} check (DC = 15 + spell level) to cast a spell at all, whether or not the spell has a verbal component. If the spell has a verbal component, expelling the air needed to incant the spell reduces the creature's remaining number of rounds of breath by 3 (which stacks with the reduction from performing a standard or full-round action; see the [Drowning section](rule/drowning_aa)), and a creature can't finish the spell if it doesn't have enough breath left. Spells that have verbal components and casting times of swift or immediate actions instead decrease the caster's remaining number of rounds of breath by 1.",
 			"",
 			"Mundane spell components generally work fine underwater as long as they're stored in watertight containers, and aquatic-appropriate substitutions exist for any mundane component that would be inherently impossible to use underwater. The Core Rulebook describes the effect of [fire spells underwater](rule/underwater_combat); some other spells exist that function differently.",
@@ -268,6 +277,7 @@
 		"subtitle": "Aquatic Adventures, Specific Campaigns",
 		"sources": [ "Aquatic Adventures" ],
 		"description": [
+			"{SOURCE Aquatic Adventures}  ",
 			"In addition to the ways in which being underwater affects normal actions, an underwater environment presents a variety of special dangers and features that can prove hazardous to surface-dwellers and aquatic creatures alike."
 		],
 		"parent_topics": [
@@ -291,6 +301,7 @@
 		"subtitle": "Aquatic Adventures, Specific Campaigns",
 		"sources": [ "Aquatic Adventures" ],
 		"description": [
+			"{SOURCE Aquatic Adventures}  ",
 			"Drowning is one of the most obvious dangers of underwater adventuring. As creature can typically hold its breath for a number of rounds equal to twice its Constitution score. Whenever a creature takes a standard or full-round action, it expends 1 additional round of breath, so practically speaking, if a creature wants to fight or double move each round, it can do so only for a number of rounds equal to its Constitution score. Intentionally exhaling breath expends 1 to 3 rounds for each exhaling action - generally 1 round for a small exhalation, and 3 rounds for an extended exhalation like singing a song or casting a spell. Certain magic, like the {spell/suffocation} spell, can expel all of a creature's held breath.",
 			"",
 			"Once a creature has used up these rounds of safety, it lives on a knife's edge between life and death. Each round, the creature must succeed at a Constitution check, with a DC starting at 10 and increasing by 1 each round after the first. Once it fails this check, the creature begins to drown, falling unconscious (and dropping to 0 hit points if it currently had more), dropping to -1 hit points on the next round, and dying on the round after that. At any point, if the creature becomes able to breathe (perhaps because someone dragged it out of the water or cast a spell to assist it), it ceases drowning but doesn't regain any lost hit points. Note that if a creature holds its breath in a situation where it could normally breathe, it won't fall unconscious if it fails its Constitution check.",
@@ -314,6 +325,7 @@
 		"subtitle": "Aquatic Adventures, Specific Campaigns",
 		"sources": [ "Aquatic Adventures" ],
 		"description": [
+			"{SOURCE Aquatic Adventures}  ",
 			"The ocean is divided into four zones: the sunlight zone (from the surface to 600 feet below), the twilight zone (from 600 feet down to 3,300 feet), the midnight zone (from 3,300 feet down to 13,000 feet - which often reaches the bottom), and the Abyssal zone (from 13,000 feet to the bottom in depths greater than 13,000 feet). Some oceanographers add a fifth zone, the Abaddonian zone, which describes areas 20,000 feet and below in the deepest ocean trenches.",
 			"",
 			"@HL[Pressure:] Most aquatic creatures have adapted to depths corresponding roughly to one or more of these zones in particular, and ignore pressure damage while within their native depth range unless they instantaneously transport from one depth to another, as with {spell/dimension door}. [Pressure damage rules are found here.](rule/water_dangers) Surface creatures, on the other hand, treat depths of 0 to 100 feet as their native zone. For every minute spent below their native zone, a creature must succeed at a Fortitude save or take 1d6 points of damage, plus an additional 1d6 points of damage for every additional 100 feet beyond the first. The DC is initially 15, and it increases by 1 for every minute after the first. After five successful Fortitude saves (consecutive or not), the creature adapts to the pressure. If a creature is within its native depth range but experiencing pressure dangers due to instantaneous travel, this adaptation to the new pressure happens all at once. If the creature is outside its native range, this adaptation adjusts its native range down or up by 100 feet, as appropriate. A surface dweller swimming downward may adapt to the new depth, but will then experience pressure hazards when it ascends back to the surface.",
@@ -351,6 +363,7 @@
 		"subtitle": "Aquatic Adventures, Specific Campaigns",
 		"sources": [ "Aquatic Adventures" ],
 		"description": [
+			"{SOURCE Aquatic Adventures}  ",
 			"Currents in the ocean (or a similarly large body of water) work similarly to [rivers](rule/aquatic_terrain). Each current has a particular speed (measured in feet per round), width, and direction, and at the beginning of a creature's turn, the current pushes it that distance. This movement provokes attacks of opportunity to creatures not in the same current. A creature can try to swim against the current's flow on its turn to stay in place, but it's usually a better idea to swim perpendicular to the current to reach the edge and exit the current. Fortunately, while rivers can reach speeds up to 90 feet per round, the fastest natural ocean currents are usually not much faster than 50 feet per round in the sunlight zone, and are slower the deeper one travels. This is because currents are mainly influenced by the weather near the surface and tiny discrepancies in temperature far below the surface, and the effects of the latter are not as strong. Currents always count as at least rough water ({skill/Swim} DC 15), and faster currents count as at least stormy water (Swim DC 20).",
 			"",
 			"The majority of the ocean does not count as running water, but currents do. Thus while the spell {spell/locate creature} functions underwater, it rarely extends to its full range, since even an extremely slow current blocks the spell. Likewise, {template/vampire/s} tempt fate in the ocean by exposing themselves to the risk of an unexpected current."
@@ -372,6 +385,7 @@
 		"subtitle": "Aquatic Adventures, Specific Campaigns",
 		"sources": [ "Aquatic Adventures" ],
 		"description": [
+			"{SOURCE Aquatic Adventures}  ",
 			"When currents flowing in opposite directions meet, they create a whirlpool. Most whirlpools are harmless, but some mighty maelstroms formed by powerful tides are capable of great destruction. The most powerful whirlpools can reach a maximum current speed of around 200 feet per round, spinning in a circle and generating a centripetal force to pull nearby creatures and objects into the whirlpool and prevent those caught in the whirlpool from leaving. Whirlpool movement doesn't normally provoke attacks of opportunity, because no one caught in the current is in a position to make one.",
 			"",
 			"Conditions are so rough in maelstroms that Swim checks reach DC 40 or higher. Creatures caught in a whirlpool take 1d6 points of bludgeoning damage per round for every 50 feet of the whirlpool's speed. Sometimes the only way to survive a whirlpool is to reach the center, since - unlike when a water elemental creates and controls a whirlpool with mischief in mind - a natural whirlpool eventually drags its captives to the bottom and out."

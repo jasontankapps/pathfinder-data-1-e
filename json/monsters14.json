@@ -2541,10 +2541,7 @@
 	"arbiter": { "redirect": "inevitable_arbiter" },
 	"inevitable_hykariut": {
 		"name": "Hykariut (Inevitable)",
-		"sources": [
-			"Pathfinder #131: The Reaper's Right Hand",
-			"Bestiary 2"
-		],
+		"sources": [ "Pathfinder #131: The Reaper's Right Hand" ],
 		"description": [
 			"*This imposing anthropomorphic being comprised of stone and spiked steel armor hefts an intimidating hammer.*",
 			"",
@@ -2625,10 +2622,7 @@
 	"hykariut": { "redirect": "inevitable_hykariut" },
 	"inevitable_impariut": {
 		"name": "Impariut (Inevitable)",
-		"sources": [
-			"Pathfinder #131: The Reaper's Right Hand",
-			"Bestiary 2"
-		],
+		"sources": [ "Pathfinder #131: The Reaper's Right Hand" ],
 		"description": [
 			"*Dressed in noble regalia, this humanoid creature of metal and wood has a piercing gaze.*",
 			"",
@@ -2709,10 +2703,7 @@
 	"impariut": { "redirect": "inevitable_impariut" },
 	"inevitable_kastamut": {
 		"name": "Kastamut (Inevitable)",
-		"sources": [
-			"Pathfinder #118: Siege of Stone",
-			"Bestiary 2"
-		],
+		"sources": [ "Pathfinder #118: Siege of Stone" ],
 		"description": [
 			"*This squat figure seems to be a clockwork approximation of a dwarf, crafted from dark bronze or a strange steel alloy. Its eyes glow with a piercing white light.*",
 			"",
@@ -2997,10 +2988,7 @@
 	"marut": { "redirect": "inevitable_marut" },
 	"inevitable_novenarut": {
 		"name": "Novenarut (Inevitable)",
-		"sources": [
-			"Planar Adventures",
-			"Bestiary 2"
-		],
+		"sources": [ "Planar Adventures" ],
 		"description": [
 			"*Fashioned of jade and steel and wielding a gleaming katana, this mechanical samurai has six green gemstone eyes.*",
 			"",
@@ -3061,10 +3049,7 @@
 	"novenarut": { "redirect": "inevitable_novenarut" },
 	"inevitable_rokyamut": {
 		"name": "Rokyamut (Inevitable)",
-		"sources": [
-			"Concordance of Rivals",
-			"Bestiary 2"
-		],
+		"sources": [ "Concordance of Rivals" ],
 		"description": [
 			"*Built of steel and clockwork, this massive figure has the lower body of an elephant and the upper body of a four-armed giant.*",
 			"",
@@ -3142,10 +3127,7 @@
 	"rokyamut": { "redirect": "inevitable_rokyamut" },
 	"inevitable_valharut": {
 		"name": "Valharut (Inevitable)",
-		"sources": [
-			"Planar Adventures",
-			"Bestiary 2"
-		],
+		"sources": [ "Planar Adventures" ],
 		"description": [
 			"*This four-armed faceless woman has flesh that appears to be made of pale marble veined with traceries of blue lines.*",
 			"",
@@ -3206,10 +3188,7 @@
 	"valharut": { "redirect": "inevitable_valharut" },
 	"inevitable_yarahkut": {
 		"name": "Yarahkut (Inevitable)",
-		"sources": [
-			"Pathfinder #90: The Divinity Drive",
-			"Bestiary 2"
-		],
+		"sources": [ "Pathfinder #90: The Divinity Drive" ],
 		"description": [
 			"*Metallic plating and stone make up this creature's body. Sharpened brass wings stretch from its back, and its head bears three faces.*",
 			"",

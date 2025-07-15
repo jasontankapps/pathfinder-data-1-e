@@ -1,7 +1,6 @@
 {
 	"spells_cleric": {
 		"title": "Cleric Spells",
-		"sources": [],
 		"searchgroup": "spell",
 		"description": [
 			"::main[Cleric Spells (Levels 0-1)]{endem=\"(179 spells)\" to=main/spells_cleric_0_1}",
@@ -19,7 +18,6 @@
 	},
 	"spells_cleric_0_1": {
 		"title": "Cleric Spells Levels 0-1",
-		"sources": [],
 		"description": [
 			"::main[Cleric Spells Level 2]{to=main/spells_cleric_2}",
 			"",
@@ -263,7 +261,6 @@
 	},
 	"spells_cleric_2": {
 		"title": "Cleric Spells Level 2",
-		"sources": [],
 		"description": [
 			"::main[Cleric Spells Levels 0-1]{to=main/spells_cleric_0_1}",
 			"",
@@ -543,7 +540,6 @@
 	},
 	"spells_cleric_3": {
 		"title": "Cleric Spells Level 3",
-		"sources": [],
 		"description": [
 			"::main[Cleric Spells Levels 0-1]{to=main/spells_cleric_0_1}",
 			"",
@@ -806,7 +802,6 @@
 	},
 	"spells_cleric_4": {
 		"title": "Cleric Spells Level 4",
-		"sources": [],
 		"description": [
 			"::main[Cleric Spells Levels 0-1]{to=main/spells_cleric_0_1}",
 			"",
@@ -1028,7 +1023,6 @@
 	},
 	"spells_cleric_5_6": {
 		"title": "Cleric Spells Level 5-6",
-		"sources": [],
 		"description": [
 			"::main[Cleric Spells Levels 0-1]{to=main/spells_cleric_0_1}",
 			"",
@@ -1323,7 +1317,6 @@
 	},
 	"spells_cleric_7_9": {
 		"title": "Cleric Spells Level 7-9",
-		"sources": [],
 		"description": [
 			"::main[Cleric Spells Levels 0-1]{to=main/spells_cleric_0_1}",
 			"",
@@ -1536,7 +1529,6 @@
 	},
 	"spells_oracle": {
 		"title": "Oracle Spells",
-		"sources": [],
 		"searchgroup": "spell",
 		"description": [
 			"::main[Oracle Spells (Levels 0-1)]{endem=\"(177 spells)\" to=main/spells_oracle_0_1}",
@@ -1556,7 +1548,6 @@
 	},
 	"spells_oracle_0_1": {
 		"title": "Oracle Spells Levels 0-1",
-		"sources": [],
 		"description": [
 			"::main[Oracle Spells Level 2]{to=main/spells_cleric_2}",
 			"",
@@ -1800,7 +1791,6 @@
 	},
 	"spells_oracle_2": {
 		"title": "Oracle Spells Level 2",
-		"sources": [],
 		"description": [
 			"::main[Oracle Spells Levels 0-1]{to=main/spells_cleric_0_1}",
 			"",
@@ -2081,7 +2071,6 @@
 	},
 	"spells_oracle_3": {
 		"title": "Oracle Spells Level 3",
-		"sources": [],
 		"description": [
 			"::main[Oracle Spells Levels 0-1]{to=main/spells_cleric_0_1}",
 			"",
@@ -2346,7 +2335,6 @@
 	},
 	"spells_oracle_4": {
 		"title": "Oracle Spells Level 4",
-		"sources": [],
 		"description": [
 			"::main[Oracle Spells Levels 0-1]{to=main/spells_cleric_0_1}",
 			"",
@@ -2571,7 +2559,6 @@
 	},
 	"spells_oracle_5": {
 		"title": "Oracle Spells Level 5",
-		"sources": [],
 		"description": [
 			"::main[Oracle Spells Levels 0-1]{to=main/spells_cleric_0_1}",
 			"",
@@ -2765,7 +2752,6 @@
 	},
 	"spells_oracle_6_7": {
 		"title": "Oracle Spells Levels 6-7",
-		"sources": [],
 		"description": [
 			"::main[Oracle Spells Levels 0-1]{to=main/spells_cleric_0_1}",
 			"",
@@ -2986,7 +2972,6 @@
 	},
 	"spells_oracle_8_9": {
 		"title": "Oracle Spells Levels 8-9",
-		"sources": [],
 		"description": [
 			"::main[Oracle Spells Levels 0-1]{to=main/spells_cleric_0_1}",
 			"",

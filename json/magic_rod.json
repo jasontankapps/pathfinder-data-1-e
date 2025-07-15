@@ -1,7 +1,6 @@
 {
 	"not_found": {
 		"name": "Unknown",
-		"sources": [],
 		"description": [
 			"## Error",
 			"",
@@ -1662,7 +1661,7 @@
 			"",
 			"If the wielder of a scepter of heaven wears a {magic-wondrous/crown of heaven}, the scepter's caster level increases to 15th (increasing its aura to strong) and, when used as a weapon, it gains the {magic-enh/holy} property. A good-aligned wielder may also use *holy smite, holy sword,* and *holy word,* as the spells, once per day each.",
 			"",
-			"A scepter of heaven is of good alignment, and any evil creature attempting to wield one gains one {rule/negative level>s}. The negative level remains as long as the rod is in hand and disappears when the rod is no longer held. This negative level cannot be overcome in any way (including {spell/restoration} spells) while the rod is being held.",
+			"A scepter of heaven is of good alignment, and any evil creature attempting to wield one gains one {rule/negative level}. The negative level remains as long as the rod is in hand and disappears when the rod is no longer held. This negative level cannot be overcome in any way (including {spell/restoration} spells) while the rod is being held.",
 			"",
 			"### Construction",
 			"",
@@ -1798,7 +1797,7 @@
 			"**Aura** moderate enchantment and necromancy; **CL** 10th  ",
 			"**Slot** none; **Price** 120,000 gp; **Weight** 5 lbs.",
 			"",
-			"On command, this rod beats with a slow, steady pulse, sending a deep, almost inaudible thrum through the air. At the start of each successive round of holding the rod, its bearer takes 1d10 points of damage that can't be reduced in any way, and must succeed at a DC 20 Fortitude save or gain a permanent {rule/negative level>s}. While the rod is held, creatures within 120 feet take a -2 penalty on attack rolls, saving throws, ability checks, skill checks, and weapon damage rolls. This is a mind-affecting emotion effect. While held by a mythic creature, the rod prevents all creatures of an equal or lower mythic tier within its radius from expending mythic power. Mythic abilities that don't require expending uses of mythic power are unaffected.",
+			"On command, this rod beats with a slow, steady pulse, sending a deep, almost inaudible thrum through the air. At the start of each successive round of holding the rod, its bearer takes 1d10 points of damage that can't be reduced in any way, and must succeed at a DC 20 Fortitude save or gain a permanent {rule/negative level}. While the rod is held, creatures within 120 feet take a -2 penalty on attack rolls, saving throws, ability checks, skill checks, and weapon damage rolls. This is a mind-affecting emotion effect. While held by a mythic creature, the rod prevents all creatures of an equal or lower mythic tier within its radius from expending mythic power. Mythic abilities that don't require expending uses of mythic power are unaffected.",
 			"",
 			"### Construction",
 			"",

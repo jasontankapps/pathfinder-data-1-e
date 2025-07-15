@@ -1254,10 +1254,7 @@
 	},
 	"dueling_cape": {
 		"name": "Dueling Cape",
-		"sources": [
-			"Advanced Class Guide",
-			"Pathfinder Unchained"
-		],
+		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Dueling Cape (Combat, Panache)",
 			"",

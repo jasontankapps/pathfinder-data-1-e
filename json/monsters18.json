@@ -1872,10 +1872,7 @@
 	},
 	"oni_atamahuta": {
 		"name": "Atamahuta (Oni)",
-		"sources": [
-			"Pathfinder #51: The Hungry Storm",
-			"Bestiary 3"
-		],
+		"sources": [ "Pathfinder #51: The Hungry Storm" ],
 		"description": [
 			"*This large humanoid creature has two heads, one brutish-looking, the other with three eyes and gems and tattoos decorating its forehead.*",
 			"",
@@ -1951,10 +1948,7 @@
 	"atamahuta": { "redirect": "oni_atamahuta" },
 	"oni_earth_yai": {
 		"name": "Earth Yai (Oni)",
-		"sources": [
-			"Pathfinder #53: Tide of Honor",
-			"Bestiary 3"
-		],
+		"sources": [ "Pathfinder #53: Tide of Honor" ],
 		"description": [
 			"*Jagged cracks and pebbled growths mar the surface of this three-eyed giant's rocky skin, making it appear to have burst forth from rugged stone.*",
 			"",
@@ -2170,10 +2164,7 @@
 	"ice_yai": { "redirect": "oni_ice_yai" },
 	"oni_ja_noi": {
 		"name": "Ja Noi (Oni)",
-		"sources": [
-			"Pathfinder #52: Forest of Spirits",
-			"Bestiary 3"
-		],
+		"sources": [ "Pathfinder #52: Forest of Spirits" ],
 		"description": [
 			"*This hunchbacked, fiery-skinned humanoid possesses black eyes beneath the bony ridges of its brow, wears elaborate heavy armor, and wields an ornate metal club.*",
 			"",
@@ -2248,10 +2239,7 @@
 	"ja_noi": { "redirect": "oni_ja_noi" },
 	"oni_kigyo": {
 		"name": "Kigyo (Oni)",
-		"sources": [
-			"Pathfinder #124: City in the Deep",
-			"Bestiary 3"
-		],
+		"sources": [ "Pathfinder #124: City in the Deep" ],
 		"description": [
 			"*This humanoid has the lower body of a giant seahorse and a round, colorful face dominated by wide, staring eyes and hideous fangs.*",
 			"",
@@ -2383,10 +2371,7 @@
 	"kuwa": { "redirect": "oni_kuwa" },
 	"oni_najikai": {
 		"name": "Najikai (Oni)",
-		"sources": [
-			"Book of the Damned",
-			"Bestiary 3"
-		],
+		"sources": [ "Book of the Damned" ],
 		"description": [
 			"*This scaly-skinned humanoid has long venomous fangs, claws, and unblinking reptilian eyes.*",
 			"",
@@ -2450,10 +2435,7 @@
 	"najikai": { "redirect": "oni_najikai" },
 	"oni_nogitsune": {
 		"name": "Nogitsune (Oni)",
-		"sources": [
-			"Pathfinder #50: Night of Frozen Shadows",
-			"Bestiary 3"
-		],
+		"sources": [ "Pathfinder #50: Night of Frozen Shadows" ],
 		"description": [
 			"*This fox-headed humanoid has a sleek, feminine form that moves with seductive grace. As she steps into a defensive posture, a mass of bushy tails flicks at the air above her back and she reveals teeth flecked with blood.*",
 			"",
@@ -2531,10 +2513,7 @@
 	"nogitsune": { "redirect": "oni_nogitsune" },
 	"oni_ogre_mage": {
 		"name": "Ogre Mage (Oni)",
-		"sources": [
-			"Pathfinder RPG Bestiary",
-			"Bestiary 3"
-		],
+		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*Clad in beautiful armor, this exotically garbed giant roars, its tusks glistening and its eyes afire with murderous intent.*",
 			"",
@@ -2796,10 +2775,7 @@
 	"water_yai": { "redirect": "oni_water_yai" },
 	"oni_wind_yai": {
 		"name": "Wind Yai (Oni)",
-		"sources": [
-			"Pathfinder #54: The Empty Throne",
-			"Bestiary 3"
-		],
+		"sources": [ "Pathfinder #54: The Empty Throne" ],
 		"description": [
 			"*A third eye rests on the forehead of this ornately robed giantess, her figure half-shrouded in the darkness of a starry night that swirls continuously about her.*",
 			"",
@@ -2875,10 +2851,7 @@
 	"wind_yai": { "redirect": "oni_wind_yai" },
 	"oni_yamabushi_tengu": {
 		"name": "Yamabushi Tengu (Oni)",
-		"sources": [
-			"Pathfinder #49: The Brinewall Legacy",
-			"Bestiary 3"
-		],
+		"sources": [ "Pathfinder #49: The Brinewall Legacy" ],
 		"description": [
 			"*This humanoid creature has a fearsome mien, with a cruel red face, glaring yellow eyes, a prodigious nose, and large raven-like wings.*",
 			"",

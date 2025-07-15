@@ -835,10 +835,7 @@
 	},
 	"protean_akizendri": {
 		"name": "Akizendri (Protean)",
-		"sources": [
-			"Concordance of Rivals",
-			"Bestiary 2"
-		],
+		"sources": [ "Concordance of Rivals" ],
 		"description": [
 			"*This cackling protean's serpentine body is surrounded by flowing, illuminated script pulled from nearby tomes and pages.*",
 			"",
@@ -899,8 +896,7 @@
 		"name": "Azuretzi (Protean)",
 		"sources": [
 			"Bestiary 6",
-			"Pathfinder #98: Turn of the Torrent",
-			"Bestiary 2"
+			"Pathfinder #98: Turn of the Torrent"
 		],
 		"description": [
 			"*Brilliant blue scales with purple highlights cover this sinuous creature's body, and its slender reptilian maw is filled with tiny, sharp teeth.*",
@@ -965,8 +961,7 @@
 		"name": "Hegessik (Protean)",
 		"sources": [
 			"Bestiary 6",
-			"Pathfinder #101: The Kintargo Contract",
-			"Bestiary 2"
+			"Pathfinder #101: The Kintargo Contract"
 		],
 		"description": [
 			"*This serpentine creature has shimmering golden plumage that transitions into sparkling gemstones on its back.*",
@@ -1033,10 +1028,7 @@
 	"hegessik": { "redirect": "protean_hegessik" },
 	"protean_ibshaunet": {
 		"name": "Ibshaunet (Protean)",
-		"sources": [
-			"Concordance of Rivals",
-			"Bestiary 2"
-		],
+		"sources": [ "Concordance of Rivals" ],
 		"description": [
 			"*This nightmarish serpentine creature bears crackling wings of chaotic energy and bristling fins of insubstantial fire.*",
 			"",
@@ -1097,10 +1089,7 @@
 	"ibshaunet": { "redirect": "protean_ibshaunet" },
 	"protean_illureshi": {
 		"name": "Illureshi (Protean)",
-		"sources": [
-			"Concordance of Rivals",
-			"Bestiary 2"
-		],
+		"sources": [ "Concordance of Rivals" ],
 		"description": [
 			"*This anemic protean wears a wizard's robe and garish jewelry.*",
 			"",
@@ -1232,10 +1221,7 @@
 	"imentesh": { "redirect": "protean_imentesh" },
 	"protean_izfiitar": {
 		"name": "Izfiitar (Protean)",
-		"sources": [
-			"Bestiary 6",
-			"Bestiary 2"
-		],
+		"sources": [ "Bestiary 6" ],
 		"description": [
 			"*This serpentine monster has six arms and is crowned by a halo of ever-changing symbols.*",
 			"",
@@ -1470,10 +1456,7 @@
 	"naunet": { "redirect": "protean_naunet" },
 	"protean_oshageros": {
 		"name": "Oshageros (Protean)",
-		"sources": [
-			"Bestiary 6",
-			"Bestiary 2"
-		],
+		"sources": [ "Bestiary 6" ],
 		"description": [
 			"*This crocodile-jawed creature has two talon-tipped hands and luminescent tentacles extending from its back.*",
 			"",
@@ -1537,8 +1520,7 @@
 		"name": "Ourdivar (Protean)",
 		"sources": [
 			"Bestiary 6",
-			"Pathfinder #92: The Hill Giant's Pledge",
-			"Bestiary 2"
+			"Pathfinder #92: The Hill Giant's Pledge"
 		],
 		"description": [
 			"*The upper body of this creature is that of a multicolored bestial humanoid, while its lower section ends in a serpentine tail.*",
@@ -1615,8 +1597,7 @@
 		"name": "Pelagastr (Protean)",
 		"sources": [
 			"Bestiary 6",
-			"Pathfinder #99: Dance of the Damned",
-			"Bestiary 2"
+			"Pathfinder #99: Dance of the Damned"
 		],
 		"description": [
 			"*This glittering serpent's body ends in a looping length of tail. Its scales glow softly in ever-changing patterns.*",
@@ -1743,10 +1724,7 @@
 	"voidworm": { "redirect": "protean_voidworm" },
 	"psychopomp_ahmuuth": {
 		"name": "Ahmuuth (Psychopomp)",
-		"sources": [
-			"Inner Sea Gods",
-			"Bestiary 4"
-		],
+		"sources": [ "Inner Sea Gods" ],
 		"description": [
 			"*This somberly dressed humanoid wears an ominous mask. Gravestones float near it like heavy shields.*",
 			"",
@@ -1807,10 +1785,7 @@
 	"ahmuuth": { "redirect": "psychopomp_ahmuuth" },
 	"psychopomp_algea": {
 		"name": "Algea (Psychopomp)",
-		"sources": [
-			"Bestiary 6",
-			"Bestiary 4"
-		],
+		"sources": [ "Bestiary 6" ],
 		"description": [
 			"*This shrill swarm of whippoorwills flies in a spiral, their airborne antics infused with streamers of pale blue mist.*",
 			"",
@@ -1874,10 +1849,7 @@
 	"algea": { "redirect": "psychopomp_algea" },
 	"psychopomp_calaca": {
 		"name": "Calaca (Psychopomp)",
-		"sources": [
-			"Pathfinder #143: Borne by the Sun's Grace",
-			"Bestiary 4"
-		],
+		"sources": [ "Pathfinder #143: Borne by the Sun's Grace" ],
 		"description": [
 			"*This figure wears a fine suit, vest, gloves, and ascot and has a guitar at the ready. The creature's face is hidden by an intricately decorated skull mask.*",
 			"",
@@ -2023,10 +1995,7 @@
 	"catrina": { "redirect": "psychopomp_catrina" },
 	"psychopomp_ember_weaver": {
 		"name": "Ember Weaver (Psychopomp)",
-		"sources": [
-			"Monster Summoner's Handbook",
-			"Bestiary 4"
-		],
+		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
 			"*This slim, glowing figure is draped with voluminous gossamer shawls and veils that obscure its shape.*",
 			"",
@@ -2089,8 +2058,7 @@
 		"name": "Esobok (Psychopomp)",
 		"sources": [
 			"Bestiary 6",
-			"Pathfinder #80: Empty Graves",
-			"Bestiary 4"
+			"Pathfinder #80: Empty Graves"
 		],
 		"description": [
 			"*This stout, hunched predator has a ruff of dirty feathers and a crocodilian skull for a head.*",
@@ -2153,10 +2121,7 @@
 	"esobok": { "redirect": "psychopomp_esobok" },
 	"psychopomp_fulgati": {
 		"name": "Fulgati (Psychopomp)",
-		"sources": [
-			"Concordance of Rivals",
-			"Bestiary 4"
-		],
+		"sources": [ "Concordance of Rivals" ],
 		"description": [
 			"*This towering, muscular, female figure wears an iron, ram-headed mask. Four stout arms crackle with primal energies, while four additional arms emerge from her hips, supporting her bulk in place of legs.*",
 			"",
@@ -2238,10 +2203,7 @@
 	"fulgati": { "redirect": "psychopomp_fulgati" },
 	"psychopomp_kere": {
 		"name": "Kere (Psychopomp)",
-		"sources": [
-			"Pathfinder #64: Beyond the Doomsday Door",
-			"Bestiary 4"
-		],
+		"sources": [ "Pathfinder #64: Beyond the Doomsday Door" ],
 		"description": [
 			"*This unnaturally pale woman is dressed in the somber garb of a mourner, her countenance covered by a lengthy black veil.*",
 			"",
@@ -2331,8 +2293,7 @@
 		"name": "Memitim (Psychopomp)",
 		"sources": [
 			"Bestiary 6",
-			"Inner Sea Bestiary",
-			"Bestiary 4"
+			"Inner Sea Bestiary"
 		],
 		"description": [
 			"*Eyes with the dead cast of onyx glare from beneath the legionnaire's helmet worn by this ominous, black-winged woman.*",
@@ -2391,10 +2352,7 @@
 	"memitim": { "redirect": "psychopomp_memitim" },
 	"psychopomp_morbai": {
 		"name": "Morbai (Psychopomp)",
-		"sources": [
-			"Concordance of Rivals",
-			"Bestiary 4"
-		],
+		"sources": [ "Concordance of Rivals" ],
 		"description": [
 			"*This hunched, barefoot old woman leans heavily on her gnarled staff. She wears two plague masks on opposite sides of her head.*",
 			"",
@@ -2596,10 +2554,7 @@
 	"nosoi": { "redirect": "psychopomp_nosoi" },
 	"psychopomp_olethros": {
 		"name": "Olethros (Psychopomp)",
-		"sources": [
-			"Bestiary 6",
-			"Bestiary 4"
-		],
+		"sources": [ "Bestiary 6" ],
 		"description": [
 			"*This moth-winged woman wears a spiral mask and a white, silken gown glimmering with tiny bronze mirrors.*",
 			"",
@@ -2682,8 +2637,7 @@
 		"name": "Shoki (Psychopomp)",
 		"sources": [
 			"Bestiary 6",
-			"Inner Sea Bestiary",
-			"Bestiary 4"
+			"Inner Sea Bestiary"
 		],
 		"description": [
 			"*A wooden staff topped with a silver cage containing a ghostly face keeps this grizzled, snail-backed creature upright.*",
@@ -2810,8 +2764,7 @@
 		"name": "Viduus (Psychopomp)",
 		"sources": [
 			"Bestiary 6",
-			"Inner Sea Bestiary",
-			"Bestiary 4"
+			"Inner Sea Bestiary"
 		],
 		"description": [
 			"*This dour being has a mostly humanoid form with its lower body wrapped in a cocoon-like husk.*",

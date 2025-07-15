@@ -1,10 +1,7 @@
 {
 	"empyreal_lord_arshea": {
 		"name": "Arshea (Empyreal Lord)",
-		"sources": [
-			"Bestiary 6",
-			"Bestiary 4"
-		],
+		"sources": [ "Bestiary 6" ],
 		"description": [
 			"*Blue-gray wings extend over the jeweled bangles and gossamer veils of this androgynous angel.*",
 			"",
@@ -86,10 +83,7 @@
 	"arshea": { "redirect": "empyreal_lord_arshea" },
 	"empyreal_lord_ashava": {
 		"name": "Ashava (Empyreal Lord)",
-		"sources": [
-			"Pathfinder #134: It Came from Hollow Mountain",
-			"Bestiary 4"
-		],
+		"sources": [ "Pathfinder #134: It Came from Hollow Mountain" ],
 		"description": [
 			"*This graceful humanoid woman wears a flowing gown of sparkling starlight and a circlet of moss.*",
 			"",
@@ -174,10 +168,7 @@
 	"ashava": { "redirect": "empyreal_lord_ashava" },
 	"empyreal_lord_black_butterfly": {
 		"name": "Black Butterfly (Empyreal Lord)",
-		"sources": [
-			"Bestiary 6",
-			"Bestiary 4"
-		],
+		"sources": [ "Bestiary 6" ],
 		"description": [
 			"*This living silhouette of a graceful woman has white hair and eyes. Her butterfly wings shimmer with twinkling stars.*",
 			"",
@@ -456,10 +447,7 @@
 	"korada": { "redirect": "empyreal_lord_korada" },
 	"empyreal_lord_ragathiel": {
 		"name": "Ragathiel (Empyreal Lord)",
-		"sources": [
-			"Bestiary 6",
-			"Bestiary 4"
-		],
+		"sources": [ "Bestiary 6" ],
 		"description": [
 			"*This towering angelic general has five wings of fire, a flaming bastard sword, and resplendent golden armor.*",
 			"",
@@ -979,10 +967,7 @@
 	},
 	"great_old_one_atlach_nacha": {
 		"name": "Atlach-Nacha (Great Old One)",
-		"sources": [
-			"Pathfinder #112: The Whisper Out of Time",
-			"Bestiary 4"
-		],
+		"sources": [ "Pathfinder #112: The Whisper Out of Time" ],
 		"description": [
 			"*The size of a bull elephant, this red-and-black arachnid has a bloated body and spindly legs, made all the more horrifying by the all-too-human appearance of its baleful visage.*",
 			"",
@@ -1145,10 +1130,7 @@
 	"king_mogaru": { "redirect": "kaiju_mogaru" },
 	"kaiju_varklops": {
 		"name": "Varklops (Kaiju)",
-		"sources": [
-			"Bestiary 6",
-			"Bestiary 4"
-		],
+		"sources": [ "Bestiary 6" ],
 		"description": [
 			"*This immense, fiery-orange serpent has three horned heads, a pair of draconic wings, and a long tail tipped with four bony spikes.*",
 			"",
@@ -1223,10 +1205,7 @@
 	"varklops": { "redirect": "kaiju_varklops" },
 	"kaiju_vorgozen": {
 		"name": "Vorgozen (Kaiju)",
-		"sources": [
-			"Bestiary 6",
-			"Bestiary 4"
-		],
+		"sources": [ "Bestiary 6" ],
 		"description": [
 			"*This mountain of filthy green sludge heaps up on itself, extending six tentacles and unfolding its core to reveal a single red eye.*",
 			"",
@@ -1303,10 +1282,7 @@
 	"vorgozen": { "redirect": "kaiju_vorgozen" },
 	"kaiju_yarthoon": {
 		"name": "Yarthoon (Kaiju)",
-		"sources": [
-			"Bestiary 6",
-			"Bestiary 4"
-		],
+		"sources": [ "Bestiary 6" ],
 		"description": [
 			"*This immense pale blue worm raises one end of its body like a serpent, its many-toothed maw opening amid a ring of glowing eyes.*",
 			"",

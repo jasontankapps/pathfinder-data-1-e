@@ -1244,10 +1244,7 @@
 	"duergar_tyrant": { "redirect": "duergar_duergar_tyrant" },
 	"dinosaur_allosaurus": {
 		"name": "Allosaurus (Dinosaur)",
-		"sources": [
-			"Bestiary 2",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Bestiary 2" ],
 		"description": [
 			"*This bipedal dinosaur has a mouth filled with sharp teeth and short, powerful arms that end in sharp claws.*",
 			"",
@@ -1294,10 +1291,7 @@
 	"allosaurus": { "redirect": "dinosaur_allosaurus" },
 	"dinosaur_amargasaurus": {
 		"name": "Amargasaurus (Dinosaur)",
-		"sources": [
-			"Bestiary 6",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Bestiary 6" ],
 		"description": [
 			"*This sauropod has an elongated neck and a long, tapering tail. Two spiny frills run along the back of the creature's neck.*",
 			"",
@@ -1441,10 +1435,7 @@
 	"brachiosaurus": { "redirect": "dinosaur_brachiosaurus" },
 	"dinosaur_ceratosaurus": {
 		"name": "Ceratosaurus (Dinosaur)",
-		"sources": [
-			"Bestiary 5",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Bestiary 5" ],
 		"description": [
 			"*Blade-like horns jut from the snout and eye ridges of this toothy, bipedal dinosaur.*",
 			"",
@@ -1492,10 +1483,7 @@
 	"ceratosaurus": { "redirect": "dinosaur_ceratosaurus" },
 	"dinosaur_compsognathus": {
 		"name": "Compsognathus (Dinosaur)",
-		"sources": [
-			"Bestiary 2",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Bestiary 2" ],
 		"description": [
 			"*This small reptile has a snake-like neck and head, a bird-like body with strong legs for running, and a whip-like tail.*",
 			"",
@@ -1595,10 +1583,7 @@
 	"deinonychus": { "redirect": "dinosaur_deinonychus" },
 	"dinosaur_dimetrodon": {
 		"name": "Dimetrodon (Dinosaur)",
-		"sources": [
-			"Bestiary 3",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Bestiary 3" ],
 		"description": [
 			"*The massive sail on the back of this squat reptilian creature flexes and twitches as the beast stalks forward.*",
 			"",
@@ -1653,8 +1638,7 @@
 		"name": "Dimorphodon (Dinosaur)",
 		"sources": [
 			"Bestiary 4",
-			"Pathfinder #37: Souls for Smuggler's Shiv",
-			"Pathfinder RPG Bestiary"
+			"Pathfinder #37: Souls for Smuggler's Shiv"
 		],
 		"description": [
 			"*The head of this colorful red and purple flying reptile is overly large, and its jaws are lined with tiny sharp teeth.*",
@@ -1709,10 +1693,7 @@
 	"dimorphodon": { "redirect": "dinosaur_dimorphodon" },
 	"dinosaur_diplodocus": {
 		"name": "Diplodocus (Dinosaur)",
-		"sources": [
-			"Bestiary 4",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Bestiary 4" ],
 		"description": [
 			"*This enormous, long-necked quadruped moves with an uncanny grace, holding its lengthy, whip-like tail out level behind it.*",
 			"",
@@ -1809,10 +1790,7 @@
 	"elasmosaurus": { "redirect": "dinosaur_elasmosaurus" },
 	"dinosaur_giganotosaurus": {
 		"name": "Giganotosaurus (Dinosaur)",
-		"sources": [
-			"Bestiary 6",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Bestiary 6" ],
 		"description": [
 			"*This bipedal dinosaur has a large head and cavernous jaws full of large, sharp teeth.*",
 			"",
@@ -1859,10 +1837,7 @@
 	"giganotosaurus": { "redirect": "dinosaur_giganotosaurus" },
 	"dinosaur_iguanodon": {
 		"name": "Iguanodon (Dinosaur)",
-		"sources": [
-			"Bestiary 3",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Bestiary 3" ],
 		"description": [
 			"*This dinosaur seems comfortable on two legs or four. Its front limbs are each adorned with a cruel-looking, thumb-like spike.*",
 			"",
@@ -1915,10 +1890,7 @@
 	"iguanodon": { "redirect": "dinosaur_iguanodon" },
 	"dinosaur_kentrosaurus": {
 		"name": "Kentrosaurus (Dinosaur)",
-		"sources": [
-			"Bestiary 6",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Bestiary 6" ],
 		"description": [
 			"*This quadrupedal dinosaur has two rows of dorsal spikes, a spiked tail, and two more spikes projecting from its shoulders.*",
 			"",
@@ -1972,10 +1944,7 @@
 	"kentrosaurus": { "redirect": "dinosaur_kentrosaurus" },
 	"dinosaur_pachycephalosaurus": {
 		"name": "Pachycephalosaurus (Dinosaur)",
-		"sources": [
-			"Bestiary 3",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Bestiary 3" ],
 		"description": [
 			"*This bipedal reptile has a rounded, dome-like head adorned with bony frills and ridges.*",
 			"",
@@ -2028,10 +1997,7 @@
 	"pachycephalosaurus": { "redirect": "dinosaur_pachycephalosaurus" },
 	"dinosaur_parasaurolophus": {
 		"name": "Parasaurolophus (Dinosaur)",
-		"sources": [
-			"Bestiary 2",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Bestiary 2" ],
 		"description": [
 			"*This thick-bodied dinosaur has a whip-like tail and a long neck, its head topped by the crest of a backward-curving horn.*",
 			"",
@@ -2077,10 +2043,7 @@
 	"parasaurolophus": { "redirect": "dinosaur_parasaurolophus" },
 	"dinosaur_plesiosaurus": {
 		"name": "Plesiosaurus (Dinosaur)",
-		"sources": [
-			"Bestiary 5",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Bestiary 5" ],
 		"description": [
 			"*This streamlined reptile has a long, serpentine neck, at the end of which glares a many-fanged head.*",
 			"",
@@ -2183,8 +2146,7 @@
 		"name": "Quetzalcoatlus (Dinosaur)",
 		"sources": [
 			"Bestiary 6",
-			"Pathfinder #37: Souls for Smuggler's Shiv",
-			"Pathfinder RPG Bestiary"
+			"Pathfinder #37: Souls for Smuggler's Shiv"
 		],
 		"description": [
 			"*This immense flying reptile has a staggering wingspan and a brightly colored head with a razor-sharp beak.*",
@@ -2238,10 +2200,7 @@
 	"quetzalcoatlus": { "redirect": "dinosaur_quetzalcoatlus" },
 	"dinosaur_spinosaurus": {
 		"name": "Spinosaurus (Dinosaur)",
-		"sources": [
-			"Bestiary 3",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Bestiary 3" ],
 		"description": [
 			"*This titanic saurian has a crocodilian snout, powerful front claws, and a colorful sail-like ridge that runs down its back.*",
 			"",
@@ -2335,10 +2294,7 @@
 	"stegosaurus": { "redirect": "dinosaur_stegosaurus" },
 	"dinosaur_styracosaurus": {
 		"name": "Styracosaurus (Dinosaur)",
-		"sources": [
-			"Bestiary 4",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Bestiary 4" ],
 		"description": [
 			"*This bulky, four-legged dinosaur has a long nasal horn and a crest studded with additional horns sweeping back from its skull.*",
 			"",
@@ -2394,10 +2350,7 @@
 	"styracosaurus": { "redirect": "dinosaur_styracosaurus" },
 	"dinosaur_therizinosaurus": {
 		"name": "Therizinosaurus (Dinosaur)",
-		"sources": [
-			"Bestiary 5",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Bestiary 5" ],
 		"description": [
 			"*This feathered bipedal saurian looks somewhat comical - save for its outlandish sword-sized claws.*",
 			"",
@@ -2501,10 +2454,7 @@
 	"triceratops": { "redirect": "dinosaur_triceratops" },
 	"dinosaur_troodon": {
 		"name": "Troodon (Dinosaur)",
-		"sources": [
-			"Bestiary 5",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Bestiary 5" ],
 		"description": [
 			"*This small, slender-necked dinosaur's bright, inquisitive eyes seem to miss nothing.*",
 			"",
@@ -2556,10 +2506,7 @@
 	"troodon": { "redirect": "dinosaur_troodon" },
 	"dinosaur_tylosaurus": {
 		"name": "Tylosaurus (Dinosaur)",
-		"sources": [
-			"Bestiary 2",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Bestiary 2" ],
 		"description": [
 			"*Surging out of the water, this massive lizard is shaped like a giant fish with a powerful, toothed maw.*",
 			"",
@@ -2658,10 +2605,7 @@
 	"tyrannosaurus": { "redirect": "dinosaur_tyrannosaurus" },
 	"dinosaur_velociraptor": {
 		"name": "Velociraptor (Dinosaur)",
-		"sources": [
-			"Bestiary 4",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Bestiary 4" ],
 		"description": [
 			"*This small, sleek dinosaur has vicious, snapping jaws and feet that end in large talons for gutting prey.*",
 			"",
@@ -4136,10 +4080,7 @@
 	"akvan": { "redirect": "div_akvan" },
 	"div_bushyasta": {
 		"name": "Bushyasta (Div)",
-		"sources": [
-			"Book of the Damned",
-			"Bestiary 3"
-		],
+		"sources": [ "Book of the Damned" ],
 		"description": [
 			"*This gaunt figure has ashy yellow skin and a strange, feathered mask covering most of her face, save for her wide, fang-filled mouth.*",
 			"",
@@ -4272,10 +4213,7 @@
 	"doru": { "redirect": "div_doru" },
 	"div_druj_nasu": {
 		"name": "Druj Nasu (Div)",
-		"sources": [
-			"Pathfinder #113: What Grows Within",
-			"Bestiary 3"
-		],
+		"sources": [ "Pathfinder #113: What Grows Within" ],
 		"description": [
 			"*A sickly smell of feral musk, rotting flesh, and acrid sweat surrounds this fly-like creature. Its wings fill the air with a dreadful drone even when the creature is still.*",
 			"",

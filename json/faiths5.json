@@ -69,7 +69,7 @@
 			"",
 			"::h2[Description]{jl}",
 			"",
-			">{SOURCE Book of the Damned/58}  ",
+			">{SOURCE Book of the Damned/58;Book of the Damned - Volume 2: Lords of Chaos/14}  ",
 			"In certain rural areas, particularly in the region of Darkmoon Vale or within the gloomy woodlands of Lozeri in northern Ustalav, the howls of wolves carry an additional implied threat when they echo across the land on nights of the full moon. Here, stories of werewolves and their bloody predations on rural folk are facts of life.",
 			"",
 			"The original source of lycanthropy has long fascinated scholars and philosophers, for it is an affliction that has plagued civilization from the very beginning. Many religious texts point to a woman named Jezelda as the first to spread lycanthropy among the mortals of the world, but strangely, the texts of Jezelda's own worshipers do not support this claim; instead they remain strangely silent upon her history, as if it held a secret the world is not yet meant to know. That Jezelda was once a mortal woman seems apparent enough, and that she suffered lycanthropy seems logical, but her worshipers are noncommittal when asked about her origins. That she exists to be worshiped is enough for the faithful of the Mistress of the Hungry Moon.",
@@ -333,7 +333,7 @@
 			"",
 			"::h2[Description]{jl}",
 			"",
-			">{SOURCE Book of the Damned/62}  ",
+			">{SOURCE Book of the Damned/62;Book of the Damned - Volume 2: Lords of Chaos/18}  ",
 			"It is said that when the first humanoid (an elf, it so happened) to feed upon the flesh of his brother died, he was reborn in the Abyss in the reeking bowels of a vast necropolis that the plane created in his honor. This first ghoul abandoned his previous life and embraced his new undeath, becoming the demon lord Kabriri. For his first few centuries of existence, he traveled among the worlds of the Material Plane, sampling like a gourmand the contents of graveyards and spreading the infectious \"word\" of his condition to any who would listen - in effect, infecting the inhabitants of innumerable worlds with the first and strongest strain of ghoul fever. Yet wherever Kabriri traveled, he took pains to avoid the burial grounds of elves, and did not spread his word among their kind. Whether his restraint was due to a fragment of shame over his first act of cannibalism or fear of confronting even a tiny fragment of the life he'd left behind, Kabriri left the elven people alone. Repercussions of his avoidance continue to this very day, as the touch of ghouls cannot paralyze elves. In contrast, other humanoids who succumb to the disease find their ears growing long and pointed, as if in some cosmic mockery of the elven form.",
 			"",
 			"Kabriri appears as a muscular ghoul with pointed ears, sharp teeth, a long tongue, and pale gray flesh. His eyes are beady and red, his hands are talons, and his feet are hooves. (Strangely, the ghouls who revere him generally sport humanoid feet, while it is the ghouls of Leng who walk upon hooves.) His favored weapon is a two-headed flail of iron and bone, its twin heads made from skulls wrapped in strips of spiked iron. This weapon is capable of transforming those it strikes into ghouls, and causes the flesh of the living to rot away. Kabriri's breath can also transform the living into ghouls, and his gaze can instill an unholy cannibalistic hunger that can drive sane folk to go on murderous, gluttonous rampages."
@@ -554,7 +554,10 @@
 	},
 	"kelizandri": {
 		"name": "Kelizandri",
-		"sources": [ "Inner Sea Gods" ],
+		"sources": [
+			"Inner Sea Gods",
+			"Planes of Power"
+		],
 		"description": [
 			"::fh[Kelizandri]{sub=\"Brackish Emperor\"}",
 			"",
@@ -1679,7 +1682,7 @@
 			"",
 			"::h2[Description]{jl}",
 			"",
-			">{SOURCE Book of the Damned/66}  ",
+			">{SOURCE Book of the Damned/66;Book of the Damned - Volume 2: Lords of Chaos/6}  ",
 			"Lamashtu appears as a heavily pregnant human woman with the head of a three-eyed jackal, a raven's wings, a snake's tail, and a vulture's feet. Her distended belly is crisscrossed with ragged scars, and she wields twin blades - Chillheart (a blade made of sentient ice) and Redlust (a blade made of sentient fire). The length of these blades can vary from {eq-weapon/kukri} to {eq-weapon/falchion}; in art, she is often depicted with kukris, but in battle, she prefers to wield both as falchions with horrific skill.",
 			"",
 			"Lamashtu revels in destroying the most innocent, whether by defiling their flesh or tainting their minds. To her, a nursery is a banquet. Although she is a fertility goddess and mothers who pray to her are in fact more likely to survive childbirth, their offspring are inevitably tainted. She is called the Demon Mother, the Demon Queen, and the Mother of Monsters, though despite her titles, she is not the creator of the demon race, merely the first of their kind to achieve true godhood.",
@@ -1839,7 +1842,9 @@
 		"name": "Lissala",
 		"sources": [
 			"Inner Sea Gods",
-			"Pathfinder #65: Into the Nightmare Rift"
+			"Pathfinder #65: Into the Nightmare Rift",
+			"Planar Adventures",
+			"Inner Sea World Guide"
 		],
 		"description": [
 			"::fh[Lissala]{sub=\"The Sihedron Scion\"}",
@@ -2929,7 +2934,7 @@
 			"",
 			"::h2[Description]{jl}",
 			"",
-			">{SOURCE Book of the Damned/72}  ",
+			">{SOURCE Book of the Damned/72;Book of the Damned - Volume 2: Lords of Chaos/20}  ",
 			"Mazmezz appears as a hideous tangle of spidery legs - far more limbs than any worldly spider could command. Some legs end in claws, others in pincers, and still others in spinnerets. At their center, a sickening clot of wriggling hair writhes around a roughly spherical body, with the only concession toward a \"front\" being an immense spider's mouth surrounded by thrashing pedipalps and filled with fangs.",
 			"",
 			"Mazmezz has the ability to wrap herself in gauzy swaths of webbing that can magically alter her form to anything she can imagine. She often chooses the form of a beautiful woman or female drider when she deals with victims she wishes to capture and keep as trophies in her horrific harem. Yet when punishing foes or in battle, the Creeping Queen reverts to her nauseating true form, in which she is capable of making a bewildering number of attacks, lashing out with her multitude of web-tangled limbs at every creature within her considerable reach.",

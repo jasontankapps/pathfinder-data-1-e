@@ -1,7 +1,6 @@
 {
 	"not_found": {
 		"name": "Unknown",
-		"sources": [],
 		"description": [
 			"## Error",
 			"",
@@ -710,7 +709,7 @@
 			"",
 			"Each time a card is taken from the deck, it is replaced (making it possible to draw the same card twice) unless the draw is the Jester or the Fool, in which case the card is discarded from the pack. A deck of many things contains 22 cards. To simulate the magic cards, you may want to use tarot cards, as indicated in the second column of the accompanying table. If no tarot deck is available, substitute ordinary playing cards instead, as indicated in the third column. The effects of each card, summarized on the table, are clarified below.",
 			"",
-			">@HL[Balance:] The character must change to a radically different alignment. If the character fails to act according to the new alignment, she gains a {rule/negative level>s}.",
+			">@HL[Balance:] The character must change to a radically different alignment. If the character fails to act according to the new alignment, she gains a {rule/negative level}.",
 			">",
 			">@HL[Comet:] The character must single-handedly defeat the next hostile monster or monsters encountered, or the benefit is lost. If successful, the character gains enough XP to attain the next experience level.",
 			">",
@@ -1427,7 +1426,7 @@
 			"",
 			"| d20 | Rune Name | Effect |",
 			"| --- | --- | --- |",
-			"| 1 | Eya-Doh | The character gains 1 permanent {rule/negative level>s}. |",
+			"| 1 | Eya-Doh | The character gains 1 permanent {rule/negative level}. |",
 			"| 2 | Bvu | The character is subject to a powerful compulsion never to roll the knucklebone of fickle fortune again. He can shake this compulsion only by succeeding a DC 25 Will saving throw. He can attempt this saving throw only once per day. |",
 			"| 3 | Eij | The character is affected by a {spell/harm} spell (caster level 15th). |",
 			"| 4 | Hor | The character is subject to a powerful compulsion to roll the knucklebone three more times immediately (Will DC 25 negates). All three of these rolls are made with a -5 penalty on the knucklebone's die roll (minimum 1). |",
@@ -1817,7 +1816,7 @@
 			"",
 			"The crystal tends to spontaneously create necropyre creatures from the tortured souls within it and sometimes reabsorbs these creatures into itself if they are nearby. The necropyres never harm you, nor are they under your command.",
 			"",
-			"The crystal bestows one {rule/negative level>s} on any non-evil creature touching or carrying it. The negative level remains as long as the crystal is touched, held, or carried, and disappears when the weapon is no longer wielded. This negative level never results in actual level loss, but it cannot be overcome in any way (including {spell/restoration} spells) while you possess the crystal. The crystal is semi-sentient and hungry for souls. Over time it corrupts you, turning you chaotic evil and eventually forcing you to murder others to sate the crystal's craving for life energy (friends, family, and innocents are the crystal's favorite targets).",
+			"The crystal bestows one {rule/negative level} on any non-evil creature touching or carrying it. The negative level remains as long as the crystal is touched, held, or carried, and disappears when the weapon is no longer wielded. This negative level never results in actual level loss, but it cannot be overcome in any way (including {spell/restoration} spells) while you possess the crystal. The crystal is semi-sentient and hungry for souls. Over time it corrupts you, turning you chaotic evil and eventually forcing you to murder others to sate the crystal's craving for life energy (friends, family, and innocents are the crystal's favorite targets).",
 			"",
 			"Destroying the crystal requires physical or magical force (hardness 8, hp 100). When the crystal is destroyed, all the spirits trapped within it (as well as any necropyre creatures created by it) are freed and escape to their reward in the afterlife (after the crystal's destruction, these victims can be raised from the dead normally)."
 		]
@@ -2776,7 +2775,7 @@
 			"**Aura** strong transmutation; **CL** 20th  ",
 			"**Slot** none; **Price** -; **Weight** -",
 			"",
-			"This sphere originates within the Negative Energy Plane as either a naturally occurring phenomenon or a normal {magic-artifact/sphere of annihilation} empowered or even damaged by beings there. The sphere of bleeding snowflakes radiates a cold, dense fog of black energy extending 60 feet into its surrounding area, infusing the region with negative energy, and dealing 4d6 negative energy damage (as a cleric's {ability/channel[ed] energy}) and 1 permanent {rule/negative level>s} per round to everything within 60 feet. While spells such as {spell/death ward} may negate the energy's ill effects, any who die as a result of these effects, or who die by other means within the sphere's affected radius, cannot be returned to life by anything short of {spell/miracle}, {spell/true resurrection}, or {spell/wish}.",
+			"This sphere originates within the Negative Energy Plane as either a naturally occurring phenomenon or a normal {magic-artifact/sphere of annihilation} empowered or even damaged by beings there. The sphere of bleeding snowflakes radiates a cold, dense fog of black energy extending 60 feet into its surrounding area, infusing the region with negative energy, and dealing 4d6 negative energy damage (as a cleric's {ability/channel[ed] energy}) and 1 permanent {rule/negative level} per round to everything within 60 feet. While spells such as {spell/death ward} may negate the energy's ill effects, any who die as a result of these effects, or who die by other means within the sphere's affected radius, cannot be returned to life by anything short of {spell/miracle}, {spell/true resurrection}, or {spell/wish}.",
 			"",
 			"### Destruction",
 			"",
@@ -3393,7 +3392,7 @@
 			"**Aura** stong abjuration; **CL** 18th  ",
 			"**Slot** none; **Price** -; **Weight** 2,000 lbs.",
 			"",
-			"This huge, ornate throne, carved from white marble and inlaid with flickering, smoking, multicolored spirals of serpentstone, is uncomfortably tall and thin for most humans, as it is designed to seat a high priest of the {monster/serpentfolk}. While seated upon the throne, a divine caster who worships {faith/Ydersius} may use a spell slot or exchange any prepared divine spell (including domain spells) of 3rd level or higher to cast {spell/dispel magic}. Once per day, a divine caster of sufficient level may instead cast {spell/greater dispel magic} in place of a spell of 6th level or higher. This ability is in most other ways identical to the spontaneous casting of clerics and druids, but may also be employed by antipaladins, inquisitors, oracles, or other divine casters faithful to Ydersius. The throne bestows one permanent {rule/negative level>s} on any creature that sits upon it, other than divine casters who worship Ydersius. This negative level remains as long as the non-sentient or heretical creature sits upon the throne and disappears when the throne is vacated. This negative level cannot be overcome in any way (including by {spell/restoration} spells) while the throne is occupied.",
+			"This huge, ornate throne, carved from white marble and inlaid with flickering, smoking, multicolored spirals of serpentstone, is uncomfortably tall and thin for most humans, as it is designed to seat a high priest of the {monster/serpentfolk}. While seated upon the throne, a divine caster who worships {faith/Ydersius} may use a spell slot or exchange any prepared divine spell (including domain spells) of 3rd level or higher to cast {spell/dispel magic}. Once per day, a divine caster of sufficient level may instead cast {spell/greater dispel magic} in place of a spell of 6th level or higher. This ability is in most other ways identical to the spontaneous casting of clerics and druids, but may also be employed by antipaladins, inquisitors, oracles, or other divine casters faithful to Ydersius. The throne bestows one permanent {rule/negative level} on any creature that sits upon it, other than divine casters who worship Ydersius. This negative level remains as long as the non-sentient or heretical creature sits upon the throne and disappears when the throne is vacated. This negative level cannot be overcome in any way (including by {spell/restoration} spells) while the throne is occupied.",
 			"",
 			"### Destruction",
 			"",

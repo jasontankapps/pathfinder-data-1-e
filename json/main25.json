@@ -1,7 +1,6 @@
 {
 	"faiths": {
 		"title": "Deities and Faiths",
-		"sources": [],
 		"searchgroup": "faith",
 		"description": [
 			":::item",
@@ -33,7 +32,6 @@
 	},
 	"faiths_all": {
 		"title": "All Deities",
-		"sources": [],
 		"description": [
 			":::item",
 			"",
@@ -566,7 +564,6 @@
 	},
 	"faiths_pantheons": {
 		"title": "Deities/Faiths by Pantheon",
-		"sources": [],
 		"description": [
 			"::main[View All Deities/Faiths]{to=main/faiths}",
 			"",
@@ -633,7 +630,6 @@
 	},
 	"faiths_domains": {
 		"title": "Deities/Faiths by Domain",
-		"sources": [],
 		"description": [
 			"::main[View All Deities/Faiths]{to=main/faiths}",
 			"",
@@ -691,7 +687,6 @@
 	},
 	"faiths_subdomains": {
 		"title": "Deities/Faiths by Subdomains",
-		"sources": [],
 		"description": [
 			"::main[View All Deities/Faiths]{to=main/faiths}",
 			"",
@@ -853,7 +848,6 @@
 	},
 	"faiths_alignments": {
 		"title": "Deities/Faiths by Alignment",
-		"sources": [],
 		"searchgroup": "faith",
 		"description": [
 			"::main[View All Deities/Faiths]{to=main/faiths}",

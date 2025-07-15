@@ -1,7 +1,6 @@
 {
 	"spells_inquisitor": {
 		"title": "All Inquisitor Spells",
-		"sources": [],
 		"description": [
 			"::main[Inquisitor Spells (Levels 0-1)]{endem=\"(144 spells)\" to=main/spells_inquisitor_0_1}",
 			"",
@@ -17,7 +16,6 @@
 	},
 	"spells_inquisitor_0_1": {
 		"title": "Inquisitor Spells Levels 0-1",
-		"sources": [],
 		"description": [
 			"::main[Inquisitor Spells Level 2]{to=main/spells_inquisitor_2}",
 			"",
@@ -224,7 +222,6 @@
 	},
 	"spells_inquisitor_2": {
 		"title": "Inquisitor Spells Level 2",
-		"sources": [],
 		"description": [
 			"::main[Inquisitor Spells Levels 0-1]{to=main/spells_inquisitor_0_1}",
 			"",
@@ -443,7 +440,6 @@
 	},
 	"spells_inquisitor_3": {
 		"title": "Inquisitor Spells Level 3",
-		"sources": [],
 		"description": [
 			"::main[Inquisitor Spells Levels 0-1]{to=main/spells_inquisitor_0_1}",
 			"",
@@ -645,7 +641,6 @@
 	},
 	"spells_inquisitor_4": {
 		"title": "Inquisitor Spells Level 4",
-		"sources": [],
 		"description": [
 			"::main[Inquisitor Spells Levels 0-1]{to=main/spells_inquisitor_0_1}",
 			"",
@@ -809,7 +804,6 @@
 	},
 	"spells_inquisitor_5_6": {
 		"title": "Inquisitor Spells Levels 5-6",
-		"sources": [],
 		"description": [
 			"::main[Inquisitor Spells Levels 0-1]{to=main/spells_inquisitor_0_1}",
 			"",
@@ -981,7 +975,6 @@
 	},
 	"spells_medium": {
 		"title": "All Medium Spells",
-		"sources": [],
 		"searchgroup": "spell",
 		"description": [
 			"::main[Medium Spells (Levels 0-1)]{endem=\"(103 spells)\" to=main/spells_medium_0_1}",
@@ -993,7 +986,6 @@
 	},
 	"spells_medium_0_1": {
 		"title": "Medium Spells Levels 0-1",
-		"sources": [],
 		"searchgroup": "spell",
 		"description": [
 			"::main[Medium Spells Level 2]{to=main/spells_medium_2}",
@@ -1434,7 +1426,6 @@
 	},
 	"spells_medium_2": {
 		"title": "Medium Spells Level 2",
-		"sources": [],
 		"searchgroup": "spell",
 		"description": [
 			"::main[Medium Spells Levels 0-1]{to=main/spells_medium_0_1}",
@@ -1612,7 +1603,6 @@
 	},
 	"spells_medium_3_6": {
 		"title": "Medium Spells Level 3 and Above",
-		"sources": [],
 		"searchgroup": "spell",
 		"description": [
 			"::main[Medium Spells Levels 0-1]{to=main/spells_medium_0_1}",
@@ -1828,7 +1818,6 @@
 	},
 	"spells_ranger": {
 		"title": "All Ranger Spells",
-		"sources": [],
 		"description": [
 			"::main[Ranger Spells (Level 1)]{endem=\"(121 spells)\" to=main/spells_ranger_1}",
 			"",
@@ -1840,7 +1829,6 @@
 	},
 	"spells_ranger_1": {
 		"title": "Ranger Spells Level 1",
-		"sources": [],
 		"description": [
 			"::main[Ranger Spells Level 2]{to=main/spells_ranger_2}",
 			"",
@@ -2018,7 +2006,6 @@
 	},
 	"spells_ranger_2": {
 		"title": "Ranger Spells Level 2",
-		"sources": [],
 		"description": [
 			"::main[Ranger Spells Level 1]{to=main/spells_ranger_1}",
 			"",
@@ -2193,7 +2180,6 @@
 	},
 	"spells_ranger_3_4": {
 		"title": "Ranger Spells Level 3-4",
-		"sources": [],
 		"description": [
 			"::main[Ranger Spells Level 1]{to=main/spells_ranger_1}",
 			"",
@@ -2401,7 +2387,6 @@
 	},
 	"spells_investigator": {
 		"title": "All Investigator Formulae",
-		"sources": [],
 		"description": [
 			"::main[Investigator Formulae (Levels 1-2)]{endem=\"(181 spells)\" to=main/spells_investigator_1_2}",
 			"",
@@ -2411,7 +2396,6 @@
 	},
 	"spells_investigator_1_2": {
 		"title": "Investigator Formulae Levels 1-2",
-		"sources": [],
 		"description": [
 			"::main[Investigator Formulae Levels 3-6]{to=main/spells_investigator_3_6}",
 			"",
@@ -2649,7 +2633,6 @@
 	},
 	"spells_investigator_3_6": {
 		"title": "Investigator Formulae Levels 3-6",
-		"sources": [],
 		"description": [
 			"::main[Investigator Formulae Levels 1-2]{to=main/spells_investigator_1_2}",
 			"",
@@ -2925,7 +2908,6 @@
 	},
 	"spells_adept": {
 		"title": "All Adept Spells",
-		"sources": [],
 		"description": [
 			":::item",
 			"",

@@ -1,7 +1,6 @@
 {
 	"traits_campaign": {
 		"title": "Campaign Traits",
-		"sources": [],
 		"description": [
 			":::item",
 			"",
@@ -242,6 +241,7 @@
 		"description": [
 			":::item",
 			"",
+			"{SOURCE Ultimate Campaign}  ",
 			"Race traits are tied to specific races. Your character must be of the specified race to select a race trait.",
 			"",
 			":::",
@@ -689,14 +689,6 @@
 	},
 	"traits_drawback": {
 		"title": "Drawback Traits",
-		"sources": [
-			"Antihero's Handbook",
-			"Blood of the Coven",
-			"Champions of Corruption",
-			"Quests and Campaigns",
-			"Spymaster's Handbook",
-			"Ultimate Campaign"
-		],
 		"searchgroup": "trait",
 		"compileFrom": {
 			"source": "trait",
@@ -715,7 +707,6 @@
 	},
 	"traits_equipment": {
 		"title": "Equipment Traits",
-		"sources": [],
 		"searchgroup": "trait",
 		"compileFrom": {
 			"source": "trait",
@@ -734,7 +725,6 @@
 	},
 	"traits_family": {
 		"title": "Family Traits",
-		"sources": [],
 		"searchgroup": "trait",
 		"compileFrom": {
 			"source": "trait",
@@ -753,7 +743,6 @@
 	},
 	"traits_mount": {
 		"title": "Mount Traits",
-		"sources": [],
 		"searchgroup": "trait",
 		"compileFrom": {
 			"source": "trait",
@@ -772,7 +761,6 @@
 	},
 	"traits_cosmic": {
 		"title": "Cosmic Traits",
-		"sources": [],
 		"searchgroup": "trait",
 		"compileFrom": {
 			"source": "trait",
@@ -795,6 +783,7 @@
 		"description": [
 			":::item",
 			"",
+			"{SOURCE Advanced Player's Guide}  ",
 			"Religion traits indicate that your character has an established faith in a specific deity; you need not be a member of a class that can wield divine magic to pick a religion trait, but you do have to have a patron deity and have some amount of religion in your background to justify this trait. Unlike the other categories of traits, religion traits can go away if you abandon your religion, as detailed under {rule/Restrictions on Trait Selection}.",
 			"",
 			"{table0}",
@@ -1037,6 +1026,7 @@
 		"description": [
 			":::item",
 			"",
+			"{SOURCE Ultimate Campaign}  ",
 			"Regional traits are tied to particular regions, often specific nations, territories, or cities in a campaign. The following regional traits represent several generic regions that can be use in most campaign settings. It also includes many traits specific to regions on Golarion.",
 			"",
 			":::",
@@ -1513,7 +1503,7 @@
 	"traits_exemplar": {
 		"title": "Exemplar Traits",
 		"tags": "Artist of Battle in All Forms Charming Smile Cunning Soul Curator of Mystic Secrets Faith Unshakable and Unassailable Traveler of a Hundred Lands",
-		"sources": [ "Ultimate Campaign" ],
+		"sources": [ "Chronicle of Legends" ],
 		"description": [
 			":::item",
 			"",
@@ -1521,6 +1511,7 @@
 			"",
 			"**Exemplar Type** Combat Exemplar",
 			"",
+			"{SOURCE Chronicle of Legends/2}  ",
 			"You employ complex combat tactics with ease. Choose a type of combat maneuver. You gain a +1 trait bonus on combat maneuver checks to perform that maneuver, and you do not provoke an attack of opportunity from the target unless that creature has the appropriate Improved feat, such as {feat/Improved Grapple} if you attempt a combat maneuver check to grapple. For every two other combat traits you have, choose an additional type of combat maneuver to gain these benefits.",
 			"",
 			":::",
@@ -1531,6 +1522,7 @@
 			"",
 			"**Exemplar Type** Social Exemplar",
 			"",
+			"{SOURCE Chronicle of Legends/3}  ",
 			"You know how to guilefully weave words, sway hearts and minds, verbally destroy rivals, and pierce cunning lies. You gain a +1 trait bonus on Bluff, Diplomacy, Intimidate, and Sense Motive checks. This bonus increases by 1 for every two other social traits you have.",
 			"",
 			":::",
@@ -1541,6 +1533,7 @@
 			"",
 			"**Exemplar Type** Magic Exemplar",
 			"",
+			"{SOURCE Chronicle of Legends/3}  ",
 			"Your broad collection of lore grants unparalleled understanding of magic's underlying principles. Twice per day when spontaneously casting a spell altered by metamagic, you can do so without increasing the spell's casting time. For each other magic trait you have, you can use this trait's benefit an additional time each day.",
 			"",
 			":::",
@@ -1551,6 +1544,7 @@
 			"",
 			"**Exemplar Type** Faith Exemplar",
 			"",
+			"{SOURCE Chronicle of Legends/3}  ",
 			"Your dedication to your ideals is stronger than steel. You gain a +2 trait bonus on Will saves against charm, compulsion, and fear effects. For every two other faith traits you have, this bonus increases by 1.",
 			"",
 			":::",
@@ -1561,6 +1555,7 @@
 			"",
 			"**Exemplar Type** Regional Exemplar",
 			"",
+			"{SOURCE Chronicle of Legends/3}  ",
 			"You have learned the ways of many lands. Choose any two skills; each of those skills becomes a class skill for you. For every other regional trait you have, select an additional skill to treat as a class skill.",
 			"",
 			":::"

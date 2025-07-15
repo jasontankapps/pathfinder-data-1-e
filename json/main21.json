@@ -1,7 +1,6 @@
 {
 	"spells_abjuration": {
 		"title": "Abjuration Spells",
-		"sources": [],
 		"description": [
 			":::item",
 			"",
@@ -365,7 +364,6 @@
 	},
 	"spells_conjuration": {
 		"title": "Conjuration Spells",
-		"sources": [],
 		"description": [
 			":::item",
 			"",
@@ -876,7 +874,6 @@
 	},
 	"spells_divination": {
 		"title": "Divination Spells",
-		"sources": [],
 		"description": [
 			":::item",
 			"",
@@ -1187,7 +1184,6 @@
 	},
 	"spells_enchantment": {
 		"title": "Enchantment Spells",
-		"sources": [],
 		"description": [
 			":::item",
 			"",

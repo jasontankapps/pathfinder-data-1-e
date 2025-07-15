@@ -1,7 +1,6 @@
 {
 	"monsters_humanoids": {
 		"title": "Humanoids",
-		"sources": [],
 		"description": [
 			":::item",
 			"",
@@ -354,7 +353,6 @@
 	},
 	"monsters_humanoids_giant": {
 		"title": "Giants",
-		"sources": [],
 		"description": [
 			":::item",
 			"",
@@ -488,7 +486,6 @@
 	},
 	"monsters_humanoids_goblinoid": {
 		"title": "Goblinoids",
-		"sources": [],
 		"description": [
 			":::item",
 			"",
@@ -570,7 +567,6 @@
 	},
 	"monsters_shapechanger": {
 		"title": "Shapechanger Monsters",
-		"sources": [],
 		"description": [
 			":::item",
 			"",
@@ -730,7 +726,6 @@
 	},
 	"monsters_swarm": {
 		"title": "Swarms",
-		"sources": [],
 		"description": [
 			":::item",
 			"",
@@ -851,7 +846,6 @@
 	"spell_groupings": {
 		"title": "Spell Groupings",
 		"tags": "cure spells, inflict spells, symbol spells, glyph spells, rune spells, sigil spells",
-		"sources": [],
 		"description": [
 			":::item",
 			"",

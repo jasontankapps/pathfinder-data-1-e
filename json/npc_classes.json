@@ -1,7 +1,6 @@
 {
 	"not_found": {
 		"name": "Unknown",
-		"sources": [],
 		"description": [
 			"## Error",
 			"",
@@ -10,10 +9,7 @@
 	},
 	"adept": {
 		"name": "Adept",
-		"sources": [
-			"PRPG Core Rulebook",
-			"Blood of the Beast"
-		],
+		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"## Adept",
 			"",
@@ -73,10 +69,7 @@
 	},
 	"aristocrat": {
 		"name": "Aristocrat",
-		"sources": [
-			"PRPG Core Rulebook",
-			"Blood of the Beast"
-		],
+		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"## Aristocrat",
 			"",
@@ -120,10 +113,7 @@
 	},
 	"commoner": {
 		"name": "Commoner",
-		"sources": [
-			"PRPG Core Rulebook",
-			"Blood of the Beast"
-		],
+		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"## Commoner",
 			"",
@@ -167,10 +157,7 @@
 	},
 	"expert": {
 		"name": "Expert",
-		"sources": [
-			"PRPG Core Rulebook",
-			"Blood of the Beast"
-		],
+		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"## Expert",
 			"",
@@ -214,10 +201,7 @@
 	},
 	"warrior": {
 		"name": "Warrior",
-		"sources": [
-			"PRPG Core Rulebook",
-			"Blood of the Beast"
-		],
+		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"## Warrior",
 			"",

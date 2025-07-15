@@ -1,7 +1,6 @@
 {
 	"equipment": {
 		"title": "Equipment",
-		"sources": [],
 		"description": [
 			"::mainheader[Armor]",
 			"",
@@ -89,6 +88,7 @@
 			"",
 			":::item",
 			"",
+			"{SOURCE PRPG Core Rulebook}  ",
 			"The cost of the armor is for Small or Medium humanoid creatures. For other creatures, see [here](rule/armor_for_unusual_creatures).",
 			"",
 			"Weight figures are for armor sized to fit Medium characters. Armor fitted for Small characters weighs half as much, and armor fitted for Large characters weighs twice as much.",
@@ -206,7 +206,6 @@
 	},
 	"equipment_armorenhancements": {
 		"title": "Armor and Shield Enhancements",
-		"sources": [],
 		"searchgroup": "equip",
 		"description": [
 			":::item",
@@ -264,6 +263,7 @@
 			"",
 			":::item",
 			"",
+			"{SOURCE PRPG Core Rulebook}  ",
 			"Cost given is the same for a Small or Medium version of the weapon. A Large version costs twice the listed price.",
 			"",
 			"Weight figures are for Medium weapons. A Small weapon weighs half as much, and a Large weapon weighs twice as much.",
@@ -1440,6 +1440,7 @@
 		"description": [
 			":::item",
 			"",
+			"{SOURCE PRPG Core Rulebook}  ",
 			"Cost given is the same for a Small or Medium version of the weapon. A Large version costs twice the listed price.",
 			"",
 			"Weight figures are for Medium weapons. A Small weapon weighs half as much, and a Large weapon weighs twice as much.",

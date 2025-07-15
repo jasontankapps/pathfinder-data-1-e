@@ -552,10 +552,7 @@
 	},
 	"troop_barrier_breaker_troop": {
 		"name": "Barrier Breaker Troop",
-		"sources": [
-			"Pathfinder #141: Last Watch",
-			"Bestiary 6"
-		],
+		"sources": [ "Pathfinder #141: Last Watch" ],
 		"description": [
 			"*This wretched collection of undead have tight leathery skin, sunken eyes, and emaciated frames.*",
 			"",
@@ -790,10 +787,7 @@
 	"troop_outlaw": { "redirect": "troop_outlaw_troop" },
 	"troop_sodden_drauger_troop": {
 		"name": "Sodden Drauger Troop",
-		"sources": [
-			"Pathfinder #141: Last Watch",
-			"Bestiary 6"
-		],
+		"sources": [ "Pathfinder #141: Last Watch" ],
 		"description": [
 			"*This mob of undead is draped in soggy seaweed.*",
 			"",
@@ -908,10 +902,7 @@
 	"troop_dottari": { "redirect": "troops_dottari_troop" },
 	"troops_glorious_reclamation": {
 		"name": "Glorious Reclamation (Troops)",
-		"sources": [
-			"Pathfinder #108: Hell Comes to Westcrown",
-			"Pathfinder #100: A Song of Silver"
-		],
+		"sources": [ "Pathfinder #108: Hell Comes to Westcrown" ],
 		"description": [
 			"*The white-and-gold tabards of this tight formation of armored soldiers are spotless, and their swords and armor are polished to a mirror-bright sheen.*",
 			"",
@@ -996,10 +987,7 @@
 	"glorious_reclamation": { "redirect": "troops_glorious_reclamation" },
 	"troops_hobgoblin_phalanx_troop": {
 		"name": "Hobgoblin Phalanx Troop",
-		"sources": [
-			"Pathfinder #117: Assault on Longshadow",
-			"Pathfinder #100: A Song of Silver"
-		],
+		"sources": [ "Pathfinder #117: Assault on Longshadow" ],
 		"description": [
 			"::mh[Hobgoblin Phalanx Troop]{cr=\"10\"}",
 			"",
@@ -1055,10 +1043,7 @@
 	"troop_hobgoblin_phalanx": { "redirect": "troops_hobgoblin_phalanx_troop" },
 	"troops_hound_archon_troop": {
 		"name": "Hound Archon Troop",
-		"sources": [
-			"Pathfinder #108: Hell Comes to Westcrown",
-			"Pathfinder #100: A Song of Silver"
-		],
+		"sources": [ "Pathfinder #108: Hell Comes to Westcrown" ],
 		"description": [
 			"::mh[Hound Archon Troop]{cr=\"16\"}",
 			"",
@@ -1165,10 +1150,7 @@
 	"troop_inquisitor": { "redirect": "troops_inquisitor_troop" },
 	"troops_ironfang_magehunter_troop": {
 		"name": "Ironfang Magehunter Troop",
-		"sources": [
-			"Pathfinder #120: Vault of the Onyx Citadel",
-			"Pathfinder #100: A Song of Silver"
-		],
+		"sources": [ "Pathfinder #120: Vault of the Onyx Citadel" ],
 		"description": [
 			"*This grim band of hobgoblin hunters is equipped with sturdy armor and well-used weapons.*",
 			"",
@@ -1228,10 +1210,7 @@
 	"troop_ironfang_magehunter": { "redirect": "troops_ironfang_magehunter_troop" },
 	"troops_ironfang_siege_alchemist_troop": {
 		"name": "Ironfang Siege Alchemist Troop",
-		"sources": [
-			"Pathfinder #120: Vault of the Onyx Citadel",
-			"Pathfinder #100: A Song of Silver"
-		],
+		"sources": [ "Pathfinder #120: Vault of the Onyx Citadel" ],
 		"description": [
 			"*A wild-eyed band of hobgoblins cluster tightly around fortified carts containing hoses and reservoirs brimming with strange fluids.*",
 			"",
@@ -1290,10 +1269,7 @@
 	"troop_ironfang_siege_alchemist": { "redirect": "troops_ironfang_siege_alchemist_troop" },
 	"troops_ironfang_yzobu_rider_troop": {
 		"name": "Ironfang Yzobu Rider Troop",
-		"sources": [
-			"Pathfinder #120: Vault of the Onyx Citadel",
-			"Pathfinder #100: A Song of Silver"
-		],
+		"sources": [ "Pathfinder #120: Vault of the Onyx Citadel" ],
 		"description": [
 			"*These hobgoblin knights ride atop brutish stinking yaks that paw the ground angrily.*",
 			"",
@@ -1354,10 +1330,7 @@
 	"troop_ironfang_yzobu_rider": { "redirect": "troops_ironfang_yzobu_rider_troop" },
 	"troops_morlock_swarmer_troop": {
 		"name": "Morlock Swarmer Troop",
-		"sources": [
-			"Pathfinder #117: Assault on Longshadow",
-			"Pathfinder #100: A Song of Silver"
-		],
+		"sources": [ "Pathfinder #117: Assault on Longshadow" ],
 		"description": [
 			"::mh[Morlock Swarmer Troop]{cr=\"7\"}",
 			"",
@@ -1415,10 +1388,7 @@
 	"troop_morlock_swarmer": { "redirect": "troops_morlock_swarmer_troop" },
 	"troops_warmaze_disciples_troop": {
 		"name": "Warmaze Disciples Troop",
-		"sources": [
-			"Pathfinder #117: Assault on Longshadow",
-			"Pathfinder #100: A Song of Silver"
-		],
+		"sources": [ "Pathfinder #117: Assault on Longshadow" ],
 		"description": [
 			"::mh[Warmaze Disciples Troop]{cr=\"11\"}",
 			"",

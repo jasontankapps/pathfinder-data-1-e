@@ -464,7 +464,6 @@
 	},
 	"composite_bow": {
 		"name": "Composite Bow",
-		"sources": [],
 		"description": [
 			"## Composite bow",
 			"",
@@ -3280,7 +3279,6 @@
 	"light_repeating_crossbow": { "redirect": "repeating_light_crossbow" },
 	"repeating_crossbow": {
 		"name": "Repeating crossbow",
-		"sources": [],
 		"description": [
 			"## Repeating crossbow",
 			"",

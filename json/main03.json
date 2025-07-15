@@ -1,7 +1,6 @@
 {
 	"traits": {
 		"title": "Traits",
-		"sources": [],
 		"description": [
 			":::item",
 			"",
@@ -45,7 +44,6 @@
 	},
 	"traits_all": {
 		"title": "All Traits",
-		"sources": [],
 		"searchgroup": "trait",
 		"description": [
 			":::item",

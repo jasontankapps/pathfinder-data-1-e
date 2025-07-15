@@ -1,7 +1,6 @@
 {
 	"feats_mythic": {
 		"title": "Mythic Feats",
-		"sources": [],
 		"description": [
 			":::item",
 			"",
@@ -195,7 +194,6 @@
 	},
 	"feats_meditation": {
 		"title": "Feats - Meditation",
-		"sources": [ "Faiths and Philosophies" ],
 		"searchgroup": "feat",
 		"description": [
 			":::item",
@@ -224,7 +222,6 @@
 	},
 	"feats_weapon_mastery": {
 		"title": "Feats - Weapon Mastery",
-		"sources": [],
 		"searchgroup": "feat",
 		"description": [
 			":::item",
@@ -256,7 +253,6 @@
 	},
 	"feats_armor_mastery": {
 		"title": "Feats - Armor Mastery",
-		"sources": [],
 		"searchgroup": "feat",
 		"description": [
 			":::item",
@@ -282,7 +278,6 @@
 	},
 	"feats_shield_mastery": {
 		"title": "Feats - Shield Mastery",
-		"sources": [],
 		"searchgroup": "feat",
 		"description": [
 			":::item",
@@ -311,7 +306,6 @@
 	},
 	"feats_item_mastery": {
 		"title": "Feats - Item Mastery",
-		"sources": [],
 		"searchgroup": "feat",
 		"description": [
 			":::item",
@@ -345,7 +339,6 @@
 	},
 	"feats_monster": {
 		"title": "Feats - Monster",
-		"sources": [ "Horror Adventures" ],
 		"searchgroup": "feat",
 		"description": [
 			":::item",
@@ -400,7 +393,6 @@
 	},
 	"feats_teamwork": {
 		"title": "Feats - Teamwork",
-		"sources": [ "Advanced Player's Guide" ],
 		"searchgroup": "feat",
 		"description": [
 			":::item",
@@ -620,7 +612,6 @@
 	},
 	"feats_betrayal": {
 		"title": "Feats - Betrayal",
-		"sources": [ "Advanced Player's Guide" ],
 		"searchgroup": "feat",
 		"description": [
 			":::item",
@@ -641,7 +632,6 @@
 	},
 	"feats_coven": {
 		"title": "Feats - Teamwork, etc",
-		"sources": [ "Advanced Player's Guide" ],
 		"searchgroup": "feat",
 		"description": [
 			":::item",
@@ -659,7 +649,6 @@
 	"feats_trick": {
 		"title": "Feats - Mesmerist Tricks",
 		"searchgroup": "feat",
-		"sources": [],
 		"description": [
 			":::item",
 			"",
@@ -680,7 +669,6 @@
 	"feats_stare": {
 		"title": "Feats - Mesmerist Stares",
 		"searchgroup": "feat",
-		"sources": [],
 		"description": [
 			":::item",
 			"",
@@ -710,7 +698,6 @@
 	},
 	"feats_story": {
 		"title": "Feats - Story",
-		"sources": [ "Ultimate Campaign" ],
 		"searchgroup": "feat",
 		"description": [
 			":::item",
@@ -814,7 +801,6 @@
 	},
 	"feats_style": {
 		"title": "Feats - Style",
-		"sources": [ "Ultimate Combat" ],
 		"searchgroup": "feat",
 		"description": [
 			":::item",
@@ -1083,7 +1069,6 @@
 	},
 	"feats_grit": {
 		"title": "Feats - Grit",
-		"sources": [ "Ultimate Combat" ],
 		"searchgroup": "feat",
 		"description": [
 			":::item",
@@ -1119,7 +1104,6 @@
 	},
 	"feats_panache": {
 		"title": "Feats - Panache",
-		"sources": [ "Advanced Class Guide" ],
 		"searchgroup": "feat",
 		"description": [
 			":::item",

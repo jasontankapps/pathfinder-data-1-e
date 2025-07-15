@@ -1,7 +1,6 @@
 {
 	"spells_sorcerer": {
 		"title": "All Sorcerer Spells",
-		"sources": [],
 		"description": [
 			"::main[Sorcerer Spells (Level 0)]{endem=\"(35 spells)\" to=main/spells_sorcerer_0}",
 			"",
@@ -25,7 +24,6 @@
 	},
 	"spells_sorcerer_0": {
 		"title": "Sorcerer Spells Level 0",
-		"sources": [],
 		"description": [
 			"::main[Sorcerer Spells Level 1]{to=main/spells_sorcerer_1}",
 			"",
@@ -128,7 +126,6 @@
 	},
 	"spells_sorcerer_1": {
 		"title": "Sorcerer Spells Level 1",
-		"sources": [],
 		"description": [
 			"::main[Sorcerer Spells Level 0]{to=main/spells_sorcerer_0}",
 			"",
@@ -441,7 +438,6 @@
 	},
 	"spells_sorcerer_2": {
 		"title": "Sorcerer Spells Level 2",
-		"sources": [],
 		"description": [
 			"::main[Sorcerer Spells Level 0]{to=main/spells_sorcerer_0}",
 			"",
@@ -837,7 +833,6 @@
 	},
 	"spells_sorcerer_3": {
 		"title": "Sorcerer Spells Level 3",
-		"sources": [],
 		"description": [
 			"::main[Sorcerer Spells Level 0]{to=main/spells_sorcerer_0}",
 			"",
@@ -1239,7 +1234,6 @@
 	},
 	"spells_sorcerer_4": {
 		"title": "Sorcerer Spells Level 4",
-		"sources": [],
 		"description": [
 			"::main[Sorcerer Spells Level 0]{to=main/spells_sorcerer_0}",
 			"",
@@ -1589,7 +1583,6 @@
 	},
 	"spells_sorcerer_5": {
 		"title": "Sorcerer Spells Level 5",
-		"sources": [],
 		"description": [
 			"::main[Sorcerer Spells Level 0]{to=main/spells_sorcerer_0}",
 			"",
@@ -1889,7 +1882,6 @@
 	},
 	"spells_sorcerer_6": {
 		"title": "Sorcerer Spells Level 6",
-		"sources": [],
 		"description": [
 			"::main[Sorcerer Spells Level 0]{to=main/spells_sorcerer_0}",
 			"",
@@ -2118,7 +2110,6 @@
 	},
 	"spells_sorcerer_7": {
 		"title": "Sorcerer Spells Level 7",
-		"sources": [],
 		"description": [
 			"::main[Sorcerer Spells Level 0]{to=main/spells_sorcerer_0}",
 			"",
@@ -2317,7 +2308,6 @@
 	},
 	"spells_sorcerer_8_9": {
 		"title": "Sorcerer Spells Levels 8-9",
-		"sources": [],
 		"description": [
 			"::main[Sorcerer Spells Level 0]{to=main/spells_sorcerer_0}",
 			"",

@@ -62,10 +62,7 @@
 	"bralani": { "redirect": "azata_bralani" },
 	"azata_brijidine": {
 		"name": "Brijidine (Azata)",
-		"sources": [
-			"Bestiary 2",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Bestiary 2" ],
 		"description": [
 			"*This beautiful woman has flesh made of lava. She soars through the sky on a trail of fire.*",
 			"",
@@ -134,10 +131,7 @@
 	"brijidine": { "redirect": "azata_brijidine" },
 	"azata_gancanagh": {
 		"name": "Gancanagh (Azata)",
-		"sources": [
-			"Bestiary 5",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Bestiary 5" ],
 		"description": [
 			"*This incredibly handsome man's pointed ears and otherworldly grace betray an inhuman beauty.*",
 			"",
@@ -343,8 +337,7 @@
 		"name": "Lyrakien (Azata)",
 		"sources": [
 			"Bestiary 2",
-			"Pathfinder #2: The Skinsaw Murders",
-			"Pathfinder RPG Bestiary"
+			"Pathfinder #2: The Skinsaw Murders"
 		],
 		"description": [
 			"*This tiny woman has a lithe form with delicate butterfly wings. She is surrounded by sparkling lights and gentle rainbow arcs.*",
@@ -408,10 +401,7 @@
 	"lyrakien": { "redirect": "azata_lyrakien" },
 	"azata_nualidu": {
 		"name": "Nualidu (Azata)",
-		"sources": [
-			"Pathfinder #105: The Inferno Gate",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Pathfinder #105: The Inferno Gate" ],
 		"description": [
 			"*Clear, flowing water forms the arms and the lower half of this angelic, elf-like being.*",
 			"",
@@ -495,10 +485,7 @@
 	"nualidu": { "redirect": "azata_nualidu" },
 	"azata_prydanu": {
 		"name": "Prydanu (Azata)",
-		"sources": [
-			"Pathfinder #126: Beyond the Veiled Past",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Pathfinder #126: Beyond the Veiled Past" ],
 		"description": [
 			"*Translucent wings protrude from this statuesque figure's back. Patches of pale scales glisten on its skin.*",
 			"",
@@ -585,8 +572,7 @@
 		"name": "Raelis (Azata)",
 		"sources": [
 			"Bestiary 5",
-			"Pathfinder #66: The Dead Heart of Xin",
-			"Pathfinder RPG Bestiary"
+			"Pathfinder #66: The Dead Heart of Xin"
 		],
 		"description": [
 			"*This bronze-skinned humanoid is muscular yet lithe, garbed in colorful clothing emblazoned with glowing runes.*",
@@ -656,10 +642,7 @@
 	"raelis": { "redirect": "azata_raelis" },
 	"azata_thyrlien": {
 		"name": "Thyrlien (Azata)",
-		"sources": [
-			"Inner Sea Gods",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Inner Sea Gods" ],
 		"description": [
 			"*This fey-looking humanoid is colored in shades of gray. Its wings are decorated with colored motes resembling a starry night sky.*",
 			"",
@@ -722,8 +705,7 @@
 		"name": "Uinuja (Azata)",
 		"sources": [
 			"Bestiary 6",
-			"Occult Bestiary",
-			"Pathfinder RPG Bestiary"
+			"Occult Bestiary"
 		],
 		"description": [
 			"*This dark-skinned woman has diaphanous wings, four large eyes - one pair under the other - and a tangle of night-blue hair.*",

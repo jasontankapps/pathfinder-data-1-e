@@ -1,10 +1,7 @@
 {
 	"golem_adamantine_golem": {
 		"name": "Adamantine Golem",
-		"sources": [
-			"Bestiary 2",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Bestiary 2" ],
 		"description": [
 			"*This huge construct of black metal is all spikes and armor, save for several forge-like stacks that burn atop its crown and back.*",
 			"",
@@ -69,10 +66,7 @@
 	"adamantine_golem": { "redirect": "golem_adamantine_golem" },
 	"golem_alchemical_golem": {
 		"name": "Alchemical Golem",
-		"sources": [
-			"Bestiary 2",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Bestiary 2" ],
 		"description": [
 			"*A rickety construction of glass tubing, metal, and wood convey the brain and two eyes afloat in this figure's glass skull.*",
 			"",
@@ -138,10 +132,7 @@
 	"alchemical_golem": { "redirect": "golem_alchemical_golem" },
 	"golem_behemoth_golem": {
 		"name": "Behemoth Golem",
-		"sources": [
-			"Lost Kingdoms",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Lost Kingdoms" ],
 		"description": [
 			"::mh[Behemoth Golem]{cr=\"17\"}",
 			"",
@@ -212,10 +203,7 @@
 	"behemoth_golem": { "redirect": "golem_behemoth_golem" },
 	"golem_blood_golem": {
 		"name": "Blood Golem",
-		"sources": [
-			"Bestiary 4",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Bestiary 4" ],
 		"description": [
 			"*A tower of blood in humanoid form sloshes within the clotted surface that holds it in a stable form.*",
 			"",
@@ -284,10 +272,7 @@
 	"blood_golem": { "redirect": "golem_blood_golem" },
 	"golem_bone_golem": {
 		"name": "Bone Golem",
-		"sources": [
-			"Bestiary 3",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Bestiary 3" ],
 		"description": [
 			"*This horrific humanoid figure is a mass of bones and skulls tied together with slick ropes of sinew.*",
 			"",
@@ -357,8 +342,7 @@
 		"name": "Brass Golem",
 		"sources": [
 			"Bestiary 3",
-			"Pathfinder #24: The Final Wish",
-			"Pathfinder RPG Bestiary"
+			"Pathfinder #24: The Final Wish"
 		],
 		"description": [
 			"*This towering brass statue, built to resemble an evil horned humanoid, carries a gigantic curved sword in its metal fists.*",
@@ -430,10 +414,7 @@
 	"brass_golem": { "redirect": "golem_brass_golem" },
 	"golem_cannon_golem": {
 		"name": "Cannon Golem",
-		"sources": [
-			"Bestiary 3",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Bestiary 3" ],
 		"description": [
 			"*This collection of jagged metal rears up into a humanoid form, its enormous cannon tracking movement with mechanical precision.*",
 			"",
@@ -510,8 +491,7 @@
 		"name": "Carrion Golem",
 		"sources": [
 			"Bestiary 2",
-			"Pathfinder #7: Edge of Anarchy",
-			"Pathfinder RPG Bestiary"
+			"Pathfinder #7: Edge of Anarchy"
 		],
 		"description": [
 			"*A lurching mash-up of rotting flesh, jagged bone, and coarse hair, this humanoid monstrosity reeks of death and decay.*",
@@ -651,10 +631,7 @@
 	"clay_golem": { "redirect": "golem_clay_golem" },
 	"golem_clockwork_golem": {
 		"name": "Clockwork Golem",
-		"sources": [
-			"Bestiary 2",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Bestiary 2" ],
 		"description": [
 			"*A vaguely humanoid shape made of metal lurches to life with the grinding whir and frantic ticking of hundreds of gears.*",
 			"",
@@ -724,8 +701,7 @@
 		"name": "Coral Golem",
 		"sources": [
 			"Bestiary 4",
-			"Isles of the Shackles",
-			"Pathfinder RPG Bestiary"
+			"Isles of the Shackles"
 		],
 		"description": [
 			"*This tall creature appears to be made of wrinkled stone and coral, bits of plant life clinging to its creased body and claw-like hands.*",
@@ -796,10 +772,7 @@
 	"coral_golem": { "redirect": "golem_coral_golem" },
 	"golem_crystal_golem": {
 		"name": "Crystal Golem",
-		"sources": [
-			"Bestiary 5",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Bestiary 5" ],
 		"description": [
 			"*This burly humanoid figure is cut from blue crystal that shines with an inner light.*",
 			"",
@@ -868,10 +841,7 @@
 	"crystal_golem": { "redirect": "golem_crystal_golem" },
 	"golem_dragonhide_golem": {
 		"name": "Dragonhide Golem",
-		"sources": [
-			"Construct Handbook",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Construct Handbook" ],
 		"description": [
 			"*This massive, hunched monstrosity has a hide that appears to be a mix of reptilian scales of various colors.*",
 			"",
@@ -964,10 +934,7 @@
 	"dragonhide_golem": { "redirect": "golem_dragonhide_golem" },
 	"golem_equine_bone_golem": {
 		"name": "Equine Bone Golem",
-		"sources": [
-			"Tombs of Golarion",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Tombs of Golarion" ],
 		"description": [
 			"*This mass of bones is shaped like a horse, with bizarre limbs.*",
 			"",
@@ -1087,7 +1054,8 @@
 			"",
 			"### Varient Flesh Golems",
 			"",
-			"{SOURCE Classic Horrors Revisited/12} The exact methods of creating a flesh golem frequently differ as a result of knowledge, geography, or culture. These variations in the creation process can sometimes result in flesh golems with previously unheard-of powers and abilities.",
+			"{SOURCE Classic Horrors Revisited/12}  ",
+			"The exact methods of creating a flesh golem frequently differ as a result of knowledge, geography, or culture. These variations in the creation process can sometimes result in flesh golems with previously unheard-of powers and abilities.",
 			"",
 			"**Electrified Flesh Golem:** Through unknown processes, some flesh golems retain some of the electrical power used in their creation, while others are fashioned with implanted electro-thaumaturgical dynamos and capacitors that generate and store electrical energy. Electrified golems are able to channel this electricity into their attacks, as well as absorb electrical attacks to increase their speed. An electrified flesh golem's melee attacks deal 1d6 points of electricity damage in addition to their normal damage.",
 			"",
@@ -1113,10 +1081,7 @@
 	"flesh_golem": { "redirect": "golem_flesh_golem" },
 	"golem_fossil_golem": {
 		"name": "Fossil Golem",
-		"sources": [
-			"Bestiary 3",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Bestiary 3" ],
 		"description": [
 			"*Fossilized bones make up the body of this animated construct, from its horned shoulders to its tyrannosaur-skulled hands.*",
 			"",
@@ -1184,10 +1149,7 @@
 	"fossil_golem": { "redirect": "golem_fossil_golem" },
 	"golem_glass_golem": {
 		"name": "Glass Golem",
-		"sources": [
-			"Bestiary 2",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Bestiary 2" ],
 		"description": [
 			"*This jagged construct of glass has a human's shape, save that one arm ends in a jagged hammer and another in a spike of glass.*",
 			"",
@@ -1259,10 +1221,7 @@
 	"glass_golem": { "redirect": "golem_glass_golem" },
 	"golem_gold_golem": {
 		"name": "Gold Golem",
-		"sources": [
-			"Bestiary 6",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Bestiary 6" ],
 		"description": [
 			"*This golden statue stands proud, bearing a regal scepter in one hand. Its other arm is stretched out, ending in an upraised fist.*",
 			"",
@@ -1406,10 +1365,7 @@
 	"ice_golem": { "redirect": "golem_ice_golem" },
 	"golem_inubrix_golem": {
 		"name": "Inubrix Golem",
-		"sources": [
-			"Construct Handbook",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Construct Handbook" ],
 		"description": [
 			"*This hulking figure shines with a metallic luster as a heavy yellow gas flows from the creature's back.*",
 			"",
@@ -1496,10 +1452,7 @@
 	"inubrix_golem": { "redirect": "golem_inubrix_golem" },
 	"golem_ioun_golem": {
 		"name": "Ioun Golem",
-		"sources": [
-			"Pathfinder #126: Beyond the Veiled Past",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Pathfinder #126: Beyond the Veiled Past" ],
 		"description": [
 			"*This four-armed metal construct has a roughly humanoid shape, with the obvious exception of a missing head. Veins of brass overlay a body of meshed platinum and silver, with intricate circular grooves visible above, below, and between its twin sets of arms.*",
 			"",
@@ -1656,10 +1609,7 @@
 	"iron_golem": { "redirect": "golem_iron_golem" },
 	"golem_junk_golem": {
 		"name": "Junk Golem",
-		"sources": [
-			"Bestiary 4",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Bestiary 4" ],
 		"description": [
 			"*A walking rubbish heap, this roughly man-shaped creature seems to be barely holding itself together.*",
 			"",
@@ -1729,10 +1679,7 @@
 	"junk_golem": { "redirect": "golem_junk_golem" },
 	"golem_lead_golem": {
 		"name": "Lead Golem",
-		"sources": [
-			"Bestiary 5",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Bestiary 5" ],
 		"description": [
 			"*Resembling an unearthed vein of dull gray minerals, this crude, hunchbacked humanoid figure uses its arms to support itself.*",
 			"",
@@ -1803,10 +1750,7 @@
 	"lead_golem": { "redirect": "golem_lead_golem" },
 	"golem_magnetitie_golem": {
 		"name": "Magnetitie Golem",
-		"sources": [
-			"Pathfinder #95: Anvil of Fire",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Pathfinder #95: Anvil of Fire" ],
 		"description": [
 			"*This vaguely humanoid mass of polished black metal lumbers forward, with all manner of metallic objects clinging to its body.*",
 			"",
@@ -1891,10 +1835,7 @@
 	"magnetitie_golem": { "redirect": "golem_magnetitie_golem" },
 	"golem_marrowstone_golem": {
 		"name": "Marrowstone Golem",
-		"sources": [
-			"Inner Sea Bestiary",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Inner Sea Bestiary" ],
 		"description": [
 			"*Thin veins of black rock crisscross the frame of this hulking construct.*",
 			"",
@@ -1961,10 +1902,7 @@
 	"marrowstone_golem": { "redirect": "golem_marrowstone_golem" },
 	"golem_mask_golem": {
 		"name": "Mask Golem",
-		"sources": [
-			"Masks of the Living God",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Masks of the Living God" ],
 		"description": [
 			"*This creature is made of hundreds of metal masks, welded together to form a roughly humanoid body. The masks are mostly iron, but some - such as the hands, knees, and feet - are made of silver lined with gold. The mask that makes up its head is made of porcelain with gold trim and has a large sapphire set into its brow. At the creature moves, the masks seem to shift and stare.*",
 			"",
@@ -2044,10 +1982,7 @@
 	"mask_golem": { "redirect": "golem_mask_golem" },
 	"golem_mithral_golem": {
 		"name": "Mithral Golem",
-		"sources": [
-			"Bestiary 2",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Bestiary 2" ],
 		"description": [
 			"*Made of polished silvery metal, this immense humanoid construct moves with shocking grace and speed.*",
 			"",
@@ -2117,10 +2052,7 @@
 	"mithral_golem": { "redirect": "golem_mithral_golem" },
 	"golem_noqual_golem": {
 		"name": "Noqual Golem",
-		"sources": [
-			"Inner Sea Bestiary",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Inner Sea Bestiary" ],
 		"description": [
 			"*Pale green metal makes up the body of this automaton. Despite its towering size, it moves with lithe quickness.*",
 			"",
@@ -2197,10 +2129,7 @@
 	"noqual_golem": { "redirect": "golem_noqual_golem" },
 	"golem_obsidian_golem": {
 		"name": "Obsidian Golem",
-		"sources": [
-			"Bestiary 6",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Bestiary 6" ],
 		"description": [
 			"*This statue resembles a lean human cut from blackened glass stone. Numerous razor-sharp protuberances jut from its body.*",
 			"",
@@ -2270,10 +2199,7 @@
 	"obsidian_golem": { "redirect": "golem_obsidian_golem" },
 	"golem_panthereon": {
 		"name": "Panthereon",
-		"sources": [
-			"Pathfinder #82: Secrets of the Sphinx",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Pathfinder #82: Secrets of the Sphinx" ],
 		"description": [
 			"*This finely sculpted statue is formed of hardened clay. Its muscular body is topped with the head of a feline predator.*",
 			"",
@@ -2384,10 +2310,7 @@
 	"panthereon": { "redirect": "golem_panthereon" },
 	"golem_quantium_golem": {
 		"name": "Quantium Golem",
-		"sources": [
-			"Inner Sea Bestiary",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Inner Sea Bestiary" ],
 		"description": [
 			"*This towering metal construct crackles with eldritch energy and wields an immense sword in its hands.*",
 			"",
@@ -2455,10 +2378,7 @@
 	"quantium_golem": { "redirect": "golem_quantium_golem" },
 	"golem_quintessence_golem": {
 		"name": "Quintessence Golem",
-		"sources": [
-			"Bestiary 6",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Bestiary 6" ],
 		"description": [
 			"*This partially humanoid creature appears to be carved of smoky glass. Ghostly, screaming faces swirl within its immense body.*",
 			"",
@@ -2529,10 +2449,7 @@
 	"quintessence_golem": { "redirect": "golem_quintessence_golem" },
 	"golem_robot_golem": {
 		"name": "Robot Golem",
-		"sources": [
-			"Numeria, Land of Fallen Stars",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Numeria, Land of Fallen Stars" ],
 		"description": [
 			"*Though corroded and damaged, this bipedal metallic construct moves silently, as though powered by some force other than its own rattling gears.*",
 			"",
@@ -2599,10 +2516,7 @@
 	"robot_golem": { "redirect": "golem_robot_golem" },
 	"golem_sand_golem": {
 		"name": "Sand Golem",
-		"sources": [
-			"Construct Handbook",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Construct Handbook" ],
 		"description": [
 			"*This towering creature appears to be made entirely of sand, with pockets of soft earth and rock reinforcing its tall, humanoid form.*",
 			"",
@@ -2689,10 +2603,7 @@
 	"sand_golem": { "redirect": "golem_sand_golem" },
 	"golem_sentient_wax_golem": {
 		"name": "Sentient Wax Golem",
-		"sources": [
-			"Pathfinder #47: Ashes at Dawn",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Pathfinder #47: Ashes at Dawn" ],
 		"description": [
 			"::mh[Sentient Wax Golem]{cr=\"4\"}",
 			"",
@@ -2775,10 +2686,7 @@
 	"sentient_wax_golem": { "redirect": "golem_sentient_wax_golem" },
 	"golem_shadow_golem": {
 		"name": "Shadow Golem",
-		"sources": [
-			"Pathfinder #102: Breaking the Bones of Hell",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Pathfinder #102: Breaking the Bones of Hell" ],
 		"description": [
 			"*This towering humanoid figure seems to be made of solidified shadows. Two pale orbs glare from its otherwise blank visage.*",
 			"",
@@ -2925,10 +2833,7 @@
 	"stone_golem": { "redirect": "golem_stone_golem" },
 	"golem_viridium_golem": {
 		"name": "Viridium Golem",
-		"sources": [
-			"Bestiary 6",
-			"Pathfinder RPG Bestiary"
-		],
+		"sources": [ "Bestiary 6" ],
 		"description": [
 			"*This green glass statue has four arms, one of which forms a jagged sword and another that ends in a formidable shield.*",
 			"",
@@ -2999,8 +2904,7 @@
 		"name": "Wax Golem",
 		"sources": [
 			"Bestiary 4",
-			"Pathfinder #47: Ashes at Dawn",
-			"Pathfinder RPG Bestiary"
+			"Pathfinder #47: Ashes at Dawn"
 		],
 		"description": [
 			"*This eerily expressionless woman has a glistening quality about her, as though she's covered in an oily sheen.*",
@@ -3256,8 +3160,7 @@
 		"sources": [
 			"Bestiary 3",
 			"Blood of the Coven",
-			"Bonus Bestiary",
-			"Classic Horrors Revisited"
+			"Bonus Bestiary"
 		],
 		"description": [
 			"*This repulsive, hunchbacked crone has skin the color of a fresh bruise. Despite her hunch, she looms taller than a human.*",
@@ -3330,8 +3233,7 @@
 		"name": "Ash Hag",
 		"sources": [
 			"Blood of the Coven",
-			"Cheliax, the Infernal Empire",
-			"Classic Horrors Revisited"
+			"Cheliax, the Infernal Empire"
 		],
 		"description": [
 			"*This spindly, hunched crone's skin is a sickly gray color, as is her stringy hair, which is peppered with globs of what appear to be ashes.*",
@@ -3411,8 +3313,7 @@
 		"name": "Blood Hag",
 		"sources": [
 			"Bestiary 4",
-			"Blood of the Coven",
-			"Classic Horrors Revisited"
+			"Blood of the Coven"
 		],
 		"description": [
 			"*This woman would be pretty if it were not for her sharp teeth and nails, and her ghastly pale skin.*",
@@ -3497,8 +3398,7 @@
 		"name": "Dreamthief Hag",
 		"sources": [
 			"Blood of the Coven",
-			"Occult Bestiary",
-			"Classic Horrors Revisited"
+			"Occult Bestiary"
 		],
 		"description": [
 			"*This hideously gaunt woman has tangled white hair, goat-like horns, and menacing eyes that blaze with green light.*",
@@ -3578,8 +3478,7 @@
 		"name": "Green Hag",
 		"sources": [
 			"Blood of the Coven",
-			"Pathfinder RPG Bestiary",
-			"Classic Horrors Revisited"
+			"Pathfinder RPG Bestiary"
 		],
 		"description": [
 			"*Knots of dark, moldering hair spill over the features of this sickly, thin, green-skinned crone.*",
@@ -3664,8 +3563,7 @@
 		"name": "Moon Hag",
 		"sources": [
 			"Blood of the Coven",
-			"Planar Adventures",
-			"Classic Horrors Revisited"
+			"Planar Adventures"
 		],
 		"description": [
 			"*The flesh of this withered woman's face stretches tightly over her skull, with one red eye bulging fat in its socket.*",
@@ -3743,8 +3641,7 @@
 		"name": "Mute Hag",
 		"sources": [
 			"Blood of the Coven",
-			"The Harrowing",
-			"Classic Horrors Revisited"
+			"The Harrowing"
 		],
 		"description": [
 			"*Empty eye sockets and jagged teeth punctuate the palpable hate that roils off this twisted, gray-skinned crone.*",
@@ -3823,8 +3720,7 @@
 		"name": "Night Hag",
 		"sources": [
 			"Blood of the Coven",
-			"Pathfinder RPG Bestiary",
-			"Classic Horrors Revisited"
+			"Pathfinder RPG Bestiary"
 		],
 		"description": [
 			"*Grisly fetishes and the rags of once fine clothes hang off the corpse-thin frame of this horrifying, sharp-fanged crone.*",
@@ -3901,8 +3797,7 @@
 		"name": "Sea Hag",
 		"sources": [
 			"Blood of the Coven",
-			"Pathfinder RPG Bestiary",
-			"Classic Horrors Revisited"
+			"Pathfinder RPG Bestiary"
 		],
 		"description": [
 			"*Hair like rotting seaweed drapes this ancient witch. Loose, algae-colored skin sags off her starved frame.*",
@@ -3981,8 +3876,7 @@
 		"sources": [
 			"Bestiary 5",
 			"Blood of the Coven",
-			"Pathfinder #72: The Witch Queen's Revenge",
-			"Classic Horrors Revisited"
+			"Pathfinder #72: The Witch Queen's Revenge"
 		],
 		"description": [
 			"*This hag's hair, claws, and teeth crackle with sparks of electricity. Her windswept hair billows up from her brow like a thunderhead.*",
@@ -4065,8 +3959,7 @@
 		"name": "Winter Hag",
 		"sources": [
 			"Bestiary 4",
-			"Blood of the Coven",
-			"Classic Horrors Revisited"
+			"Blood of the Coven"
 		],
 		"description": [
 			"*This woman has black, frostbitten skin, white hair, and a black ice staff decorated with bones and gems.*",

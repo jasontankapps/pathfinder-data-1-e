@@ -1381,10 +1381,7 @@
 	"d_ziriak": { "redirect": "dziriak" },
 	"daemon_acrididaemon": {
 		"name": "Acrididaemon (Daemon)",
-		"sources": [
-			"Feast of Dust",
-			"Bestiary 2"
-		],
+		"sources": [ "Feast of Dust" ],
 		"description": [
 			"*This wicked creature has the claws and mandibles of an enormous insect, and its lower body is made entirely of swarming locusts.*",
 			"",
@@ -1513,10 +1510,7 @@
 	"astradaemon": { "redirect": "daemon_astradaemon" },
 	"daemon_bibliodaemon": {
 		"name": "Bibliodaemon (Daemon)",
-		"sources": [
-			"Druma, Profit and Prophecy",
-			"Bestiary 2"
-		],
+		"sources": [ "Druma, Profit and Prophecy" ],
 		"description": [
 			"*Flowing black robes hang all around this four-armed, weasel-faced humanoid. Feathers that resemble quills emerge from each knuckle of its clawed upper hands.*",
 			"",
@@ -1705,10 +1699,7 @@
 	"greater_ceustodaemon": { "redirect": "daemon_ceustodaemon" },
 	"daemon_crucidaemon": {
 		"name": "Crucidaemon (Daemon)",
-		"sources": [
-			"Bestiary 3",
-			"Bestiary 2"
-		],
+		"sources": [ "Bestiary 3" ],
 		"description": [
 			"*Its body seemingly made of iron, this shapely feminine form has wrists pierced by chains that end in curved blades.*",
 			"",
@@ -1836,8 +1827,7 @@
 		"name": "Erodaemon (Daemon)",
 		"sources": [
 			"Bestiary 6",
-			"Book of the Damned - Volume 3: Horsemen of the Apocalypse",
-			"Bestiary 2"
+			"Book of the Damned - Volume 3: Horsemen of the Apocalypse"
 		],
 		"description": [
 			"*This blue-skinned woman has ram's horns, a third eye in her forehead, and a long, scaled tail that ends in a hissing viper's head.*",
@@ -1899,10 +1889,7 @@
 	"erodaemon": { "redirect": "daemon_erodaemon" },
 	"daemon_genthodaemon": {
 		"name": "Genthodaemon (Daemon)",
-		"sources": [
-			"Pathfinder #71: Rasputin Must Die!",
-			"Bestiary 2"
-		],
+		"sources": [ "Pathfinder #71: Rasputin Must Die!" ],
 		"description": [
 			"*Jagged bits of metal, armor, and sharp pieces of wire embed the flesh of this towering fiend.*",
 			"",
@@ -2053,8 +2040,7 @@
 		"name": "Lacridaemon (Daemon)",
 		"sources": [
 			"Bestiary 6",
-			"Book of the Damned - Volume 3: Horsemen of the Apocalypse",
-			"Bestiary 2"
+			"Book of the Damned - Volume 3: Horsemen of the Apocalypse"
 		],
 		"description": [
 			"*The face of this gray-skinned humanoid stretches in a manic grin, even though it weeps steaming tears. Frost crusts its flesh.*",
@@ -2120,10 +2106,7 @@
 	"lacridaemon": { "redirect": "daemon_lacridaemon" },
 	"daemon_lapsudaemon": {
 		"name": "Lapsudaemon (Daemon)",
-		"sources": [
-			"Pathfinder #106: For Queen and Empire",
-			"Bestiary 2"
-		],
+		"sources": [ "Pathfinder #106: For Queen and Empire" ],
 		"description": [
 			"*This grotesque and malevolent creature appears to be a crushed ball of broken humanoid body parts spraying blood.*",
 			"",
@@ -2342,10 +2325,7 @@
 	"meladaemon": { "redirect": "daemon_meladaemon" },
 	"daemon_nixudaemon": {
 		"name": "Nixudaemon (Daemon)",
-		"sources": [
-			"Pathfinder #96: Shadow of the Storm Tyrant",
-			"Bestiary 2"
-		],
+		"sources": [ "Pathfinder #96: Shadow of the Storm Tyrant" ],
 		"description": [
 			"*This four-armed fiend has blue-green skin covered in white scars. Its two upper arms end in long, barbed whips of calloused flesh.*",
 			"",
@@ -2427,8 +2407,7 @@
 		"name": "Obcisidaemon (Daemon)",
 		"sources": [
 			"Bestiary 6",
-			"Book of the Damned - Volume 3: Horsemen of the Apocalypse",
-			"Bestiary 2"
+			"Book of the Damned - Volume 3: Horsemen of the Apocalypse"
 		],
 		"description": [
 			"*This massive fiend has eagle wings, a tusked canine face, and a muscular frame. It wields an immense, cruel-looking halberd.*",
@@ -2593,8 +2572,7 @@
 		"name": "Phasmadaemon (Daemon)",
 		"sources": [
 			"Bestiary 6",
-			"Book of the Damned - Volume 3: Horsemen of the Apocalypse",
-			"Bestiary 2"
+			"Book of the Damned - Volume 3: Horsemen of the Apocalypse"
 		],
 		"description": [
 			"*This serpentine monstrosity has the long snout of a crocodile, ram's horns, and mantis claws projecting from its sinuous body.*",
@@ -2782,8 +2760,7 @@
 		"name": "Sangudaemon (Daemon)",
 		"sources": [
 			"Bestiary 6",
-			"Book of the Damned - Volume 3: Horsemen of the Apocalypse",
-			"Bestiary 2"
+			"Book of the Damned - Volume 3: Horsemen of the Apocalypse"
 		],
 		"description": [
 			"*This human-sized, serpent-headed spider seems to be made of clotted blood, its dragonfly-like wings dripping crimson streamers.*",
@@ -2848,10 +2825,7 @@
 	"sangudaemon": { "redirect": "daemon_sangudaemon" },
 	"daemon_sepsidaemon": {
 		"name": "Sepsidaemon (Daemon)",
-		"sources": [
-			"Book of the Damned",
-			"Bestiary 2"
-		],
+		"sources": [ "Book of the Damned" ],
 		"description": [
 			"*A long-beaked, crested head on a twisted neck rises from a formless, glowing mass of a body. Now and then, a grasping claw extends forth.*",
 			"",
@@ -2913,8 +2887,7 @@
 		"name": "Suspiridaemon (Daemon)",
 		"sources": [
 			"Bestiary 6",
-			"Book of the Damned - Volume 3: Horsemen of the Apocalypse",
-			"Bestiary 2"
+			"Book of the Damned - Volume 3: Horsemen of the Apocalypse"
 		],
 		"description": [
 			"*This tall, three-legged, vulture-headed fiend has a grotesquely long, suckered tongue and gangly arms that end in claws.*",
@@ -2984,8 +2957,7 @@
 		"name": "Temerdaemon (Daemon)",
 		"sources": [
 			"Bestiary 6",
-			"Book of the Damned - Volume 3: Horsemen of the Apocalypse",
-			"Bestiary 2"
+			"Book of the Damned - Volume 3: Horsemen of the Apocalypse"
 		],
 		"description": [
 			"*This humanoid creature's limbs - four arms and four legs - bend in awkward configurations. It wields a scythe in its largest arms.*",
@@ -3114,8 +3086,7 @@
 		"name": "Venedaemon (Daemon)",
 		"sources": [
 			"Bestiary 6",
-			"Book of the Damned - Volume 3: Horsemen of the Apocalypse",
-			"Bestiary 2"
+			"Book of the Damned - Volume 3: Horsemen of the Apocalypse"
 		],
 		"description": [
 			"*Tentacles protrude from the robes of this floating hooded figure in place of arms and legs. Its face is a disturbing, toothless maw.*",
@@ -3184,10 +3155,7 @@
 	"venedaemon": { "redirect": "daemon_venedaemon" },
 	"daemon_vulnudaemon": {
 		"name": "Vulnudaemon (Daemon)",
-		"sources": [
-			"Bestiary 3",
-			"Bestiary 2"
-		],
+		"sources": [ "Bestiary 3" ],
 		"description": [
 			"*A bloody, tooth-filled mouth that looks almost like a horrific gash gasps in the neck of this pale, childlike horror.*",
 			"",

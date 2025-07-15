@@ -1,7 +1,6 @@
 {
 	"monsters_oozes": {
 		"title": "Oozes",
-		"sources": [],
 		"description": [
 			":::item",
 			"",
@@ -118,7 +117,6 @@
 	},
 	"monsters_good": {
 		"title": "Good Monsters",
-		"sources": [],
 		"searchgroup": "monster",
 		"description": [
 			"::mainheader[Good Monsters]",
@@ -255,7 +253,6 @@
 	},
 	"monsters_evil": {
 		"title": "Evil Monsters",
-		"sources": [],
 		"searchgroup": "monster",
 		"description": [
 			"::mainheader[Evil Monsters]",
@@ -549,7 +546,6 @@
 	},
 	"monsters_lawful": {
 		"title": "Lawful Monsters",
-		"sources": [],
 		"searchgroup": "monster",
 		"description": [
 			"::mainheader[Lawful Monsters]",
@@ -731,7 +727,6 @@
 	},
 	"monsters_chaotic": {
 		"title": "Chaotic Monsters",
-		"sources": [],
 		"searchgroup": "monster",
 		"description": [
 			"::mainheader[Chaotic Monsters]",
@@ -914,7 +909,6 @@
 	},
 	"monsters_unique": {
 		"title": "Unique Monsters",
-		"sources": [],
 		"searchgroup": "monster",
 		"description": [
 			"::mainheader[Names and Descriptions]",
@@ -1308,7 +1302,6 @@
 	},
 	"monsters_mythic": {
 		"title": "Mythic Monsters",
-		"sources": [],
 		"searchgroup": "monster",
 		"description": [
 			"::mainheader[Names and Descriptions]",

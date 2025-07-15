@@ -1,7 +1,6 @@
 {
 	"not_found": {
 		"name": "Unknown",
-		"sources": [],
 		"description": [
 			"## Error",
 			"",
@@ -3889,7 +3888,6 @@
 	},
 	"flail": {
 		"name": "Flail",
-		"sources": [],
 		"description": [
 			"## Flail",
 			"",

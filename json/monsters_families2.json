@@ -19,6 +19,7 @@
 			"- Proficient with whatever type of armor (light, medium, or heavy) it is described as wearing, as well as all lighter types. Elementals not indicated as wearing armor are not proficient with armor. Elementals are proficient with shields if they are proficient with any form of armor.",
 			"- Elementals do not breathe, eat, or sleep.",
 			"",
+			"{SOURCE Bestiary 2;Bestiary 5}  ",
 			"Other elementals also exist: {family/aether>_elemental}, {family/ice>_elemental}, {family/lightning>_elemental}, {family/magma>_elemental}, and {family/mud>_elemental}."
 		]
 	},
@@ -65,6 +66,8 @@
 		"description": [
 			"## Elemental (Air)",
 			"",
+			"{SOURCE Pathfinder RPG Bestiary/120}",
+			"",
 			"**Family:** {family/Elemental}",
 			"",
 			"Air elementals are fast, flying creatures made of living air. Primitive and territorial, they resent being summoned or doing the bidding of mortals, and much prefer to spend their time on the Plane of Air, swooping and racing through the endless skies.",
@@ -109,6 +112,8 @@
 		"description": [
 			"## Elemental (Earth)",
 			"",
+			"{SOURCE Pathfinder RPG Bestiary/122}",
+			"",
 			"**Family:** {family/Elemental}",
 			"",
 			"Earth elementals are plodding, stubborn creatures made of living stone or earth. When utterly still, they resemble a heap of stone or a small hill.",
@@ -152,6 +157,8 @@
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"## Elemental (Fire)",
+			"",
+			"{SOURCE Pathfinder RPG Bestiary/124}",
 			"",
 			"**Family:** {family/Elemental}",
 			"",
@@ -199,6 +206,8 @@
 		"description": [
 			"## Elemental (Ice)",
 			"",
+			"{SOURCE Bestiary 2/114}",
+			"",
 			"**Family:** {family/Elemental}",
 			"",
 			"Ice elementals are creatures made of animated snow and ice. They form in especially cold parts of the Plane of Water and along its border with the Plane of Air, where giant icebergs careen off of world-high waterfalls into the open sky. Ice elementals vary in their exact appearance.",
@@ -232,6 +241,8 @@
 		"description": [
 			"## Elemental (Lightning)",
 			"",
+			"{SOURCE Bestiary 2/116}",
+			"",
 			"**Family:** {family/Elemental}",
 			"",
 			"Though most think of the Plane of Air as a vast expanse of clear sky, that plane also holds the power of the storm, including monstrous hurricanes larger than entire worlds and thunderstorms whose peals and claps can shatter stone. Whether lightning elementals are the byproduct of common air elementals spending too much time near these electrically charged storms or are merely calved off like forgotten flurries, they are aggressive and almost suicidal in their willingness to leap into battle. They particularly enjoy attacking creatures that are made of metal and creatures that wear metal armor or wield metal weapons.",
@@ -262,6 +273,8 @@
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"## Elemental (Magma)",
+			"",
+			"{SOURCE Bestiary 2/118}",
 			"",
 			"**Family:** {family/Elemental}",
 			"",
@@ -294,6 +307,8 @@
 		"description": [
 			"## Elemental (Mud)",
 			"",
+			"{SOURCE Bestiary 2/120}",
+			"",
 			"**Family:** {family/Elemental}",
 			"",
 			"Where the Plane of Earth borders the Plane of Water, a mixing of the fundamental elements occurs - it is in this borderland that the mud elementals dwell. Scorned by earth and water elementals, mud elementals usually look like vaguely recognizable blobs of mud in the shape of a Material Plane creature, whether a humanoid, an animal, or even an immense insect. The exact density of their muddy bodies varies - some might be composed of silty water, while others are thick, like river clay. Large and powerful mud elementals tend to have worm-like, reptilian, or frog-like forms.",
@@ -322,6 +337,8 @@
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"## Elemental (Water)",
+			"",
+			"{SOURCE Pathfinder RPG Bestiary/126}",
 			"",
 			"**Family:** {family/Elemental}",
 			"",

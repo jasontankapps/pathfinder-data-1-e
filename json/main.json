@@ -1,7 +1,6 @@
 {
 	"main": {
 		"title": "Pf Data 1e",
-		"sources": [],
 		"description": [
 			"::main[Pathfinder Rules]{to=main/rules}",
 			"",
@@ -32,7 +31,6 @@
 	},
 	"rules": {
 		"title": "All Rules",
-		"sources": [],
 		"description": [
 			"::mainheader[Basics]",
 			"",
@@ -341,7 +339,6 @@
 	},
 	"spells": {
 		"title": "Spells",
-		"sources": [],
 		"searchgroup": "spell",
 		"description": [
 			"::main[View All Spells]{endem=\"(3,028 spells)\" to=main/spells_all}",
@@ -441,7 +438,6 @@
 	},
 	"races": {
 		"title": "Races",
-		"sources": [],
 		"description": [
 			":::item",
 			"",
@@ -1022,7 +1018,6 @@
 	},
 	"magic": {
 		"title": "Magic Items",
-		"sources": [],
 		"description": [
 			"::mainheader[Magic Items by Type]",
 			"",
@@ -1053,7 +1048,6 @@
 	},
 	"magic_wondrous": {
 		"title": "Magic Items",
-		"sources": [],
 		"description": [
 			"::mainheader[Wondrous Items by Slot]",
 			"",
@@ -1090,6 +1084,7 @@
 		"description": [
 			":::item",
 			"",
+			"{SOURCE PRPG Core Rulebook;Pathfinder Unchained}  ",
 			"{rule/Skills} represent some of the most basic and yet most fundamental abilities your character possesses. As your character advances in level, he can gain new skills and improve his existing skills dramatically.",
 			"",
 			"The section on {rule/skill descriptions} goes into more detail about what each skill entry looks like.",
@@ -1165,11 +1160,9 @@
 	},
 	"spell_definitions": {
 		"title": "Spell Definitions",
-		"sources": [],
 		"searchgroup": "rule",
 		"description": [
 			"::mainheader[Schools and Subschools]",
-			"",
 			"",
 			"::main[Abjuration]{to=spelldef/abjuration}",
 			"",
@@ -1217,9 +1210,7 @@
 			"",
 			"::main[Polymorph]{ind to=spelldef/polymorph}",
 			"",
-			"",
 			"::mainheader[Descriptors]",
-			"",
 			"",
 			"::main[Acid]{to=spelldef/acid}",
 			"",
@@ -1280,7 +1271,6 @@
 	},
 	"umr": {
 		"title": "Universal Monster Rules",
-		"sources": [],
 		"searchgroup": "rule",
 		"description": [
 			"::main[Creature Types]{endem=\"(13 types)\" to=main/umr_types}",
@@ -1302,7 +1292,6 @@
 	},
 	"umr_types": {
 		"title": "Creature Types",
-		"sources": [],
 		"searchgroup": "rule",
 		"description": [
 			"::main[Aberration]{to=type/aberration}",
@@ -1334,7 +1323,6 @@
 	},
 	"umr_subtypes": {
 		"title": "Creature Subtypes",
-		"sources": [],
 		"searchgroup": "rule",
 		"description": [
 			"::main[Adlet]{to=subtype/adlet}",
@@ -1508,7 +1496,6 @@
 	},
 	"umr_all": {
 		"title": "All Universal Monster Rules",
-		"sources": [],
 		"searchgroup": "rule",
 		"description": [
 			"::main[Ability Damage and Drain (Ex or Su)]{to=umr/ability_damage_and_drain}",
@@ -1781,7 +1768,6 @@
 	"umr_basic": {
 		"title": "UMR - Basic Info",
 		"tags": "universal monster rules",
-		"sources": [],
 		"searchgroup": "rule",
 		"description": [
 			"::main[All-Around Vision (Ex)]{to=umr/all_around_vision}",
@@ -1828,7 +1814,6 @@
 	"umr_offense": {
 		"title": "UMR - Offense Info",
 		"tags": "universal monster rules",
-		"sources": [],
 		"searchgroup": "rule",
 		"description": [
 			"::main[Ability Damage and Drain (Ex or Su)]{to=umr/ability_damage_and_drain}",
@@ -1945,7 +1930,6 @@
 	"umr_defense": {
 		"title": "UMR - Defense Info",
 		"tags": "universal monster rules",
-		"sources": [],
 		"searchgroup": "rule",
 		"description": [
 			"::main[All-Around Vision (Ex)]{to=umr/all_around_vision}",
@@ -2026,7 +2010,6 @@
 	"umr_statistics": {
 		"title": "UMR - Statistics Info",
 		"tags": "universal monster rules",
-		"sources": [],
 		"searchgroup": "rule",
 		"description": [
 			"::main[Amphibious (Ex)]{to=umr/amphibious}",
@@ -2076,7 +2059,6 @@
 	},
 	"monsters": {
 		"title": "Monsters and NPCs",
-		"sources": [],
 		"description": [
 			"::mainheader[Monsters by CR]",
 			"",
@@ -2183,7 +2165,6 @@
 	},
 	"monster_families": {
 		"title": "Monster Families",
-		"sources": [],
 		"searchgroup": "monster",
 		"description": [
 			"::main[Aeon]{to=family/aeon}",
@@ -2453,7 +2434,6 @@
 	},
 	"monster_templates": {
 		"title": "Monster Templates",
-		"sources": [],
 		"description": [
 			":::item",
 			"",
@@ -2651,7 +2631,6 @@
 	},
 	"haunts": {
 		"title": "Haunts",
-		"sources": [],
 		"searchgroup": "rule",
 		"description": [
 			":::item",
@@ -2711,7 +2690,6 @@
 	},
 	"corruptions": {
 		"title": "Corruptions",
-		"sources": [],
 		"searchgroup": "rule",
 		"description": [
 			":::item",
@@ -2742,7 +2720,6 @@
 	},
 	"drugs": {
 		"title": "Drugs",
-		"sources": [],
 		"description": [
 			":::item",
 			"",
@@ -2811,7 +2788,6 @@
 	"ogc": {
 		"title": "Licenses",
 		"tags": "Open Game Content ogc",
-		"sources": [],
 		"description": [
 			":::item",
 			"",
@@ -3394,7 +3370,6 @@
 	},
 	"cheatsheet": {
 		"title": "Cheatsheet",
-		"sources": [ "GameMastery Guide" ],
 		"description": [
 			":::item",
 			"",

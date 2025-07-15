@@ -3966,6 +3966,8 @@
 		"tags": "Academy, Alchemist, Arena, Bank, Bardic College, Barracks, Black Market, Brewery, Bridge, Bureau",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
+			"{SOURCE Ultimate Campaign/215}",
+			"",
 			"### Academy (52 BP, 2 Lots)",
 			"",
 			"**Kingdom** Economy +2, Loyalty +2  ",
@@ -4073,6 +4075,8 @@
 		"tags": "Caster's Tower, Castle, Cathedral, Cistern, City Wall, Dance Hall, Dump, Everflowing Spring, Exotic Artisan",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
+			"{SOURCE Ultimate Campaign/216}",
+			"",
 			"### Caster's Tower (30 BP, 1 Lot)",
 			"",
 			"**Kingdom** Economy +1, Loyalty +1  ",
@@ -4167,6 +4171,8 @@
 		"tags": "Foreign Quarter, Foundry, Garrison, Granery, Graveyard, Guildhall, Herbalist, Hospital, House, Inn",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
+			"{SOURCE Ultimate Campaign/216}",
+			"",
 			"### Foreign Quarter (30 BP, 4 Lots)",
 			"",
 			"**Kingdom** Economy +3, Stability -1  ",
@@ -4272,6 +4278,8 @@
 		"tags": "Jail, Library, Luxury Store, Magic Shop, Magical Academy, Magical Streetlamps, Mansion, Market, Menagerie, Military Academy",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
+			"{SOURCE Ultimate Campaign/217}",
+			"",
 			"### Jail (14 BP, 1 Lot)",
 			"",
 			"**Kingdom** Loyalty +2, Stability +2, Unrest -2  ",
@@ -4384,6 +4392,8 @@
 		"tags": "Mill, Mint, Moat, Monastery, Monument, Museum, Noble Villa, Observatory, Orphanage, Palace",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
+			"{SOURCE Ultimate Campaign/218}",
+			"",
 			"### Mill (6 BP, 1 Lot)",
 			"",
 			"**Kingdom** Economy +1, Stability +1  ",
@@ -4482,6 +4492,8 @@
 		"tags": "Park, Paved Streets, Pier, Sewer System, Shop, Shrine, Smithy, Stable, Stockyard, Tannery",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
+			"{SOURCE Ultimate Campaign/218}",
+			"",
 			"### Park (4 BP, 1 Lot)",
 			"",
 			"**Kingdom** Loyalty +1, Unrest -1",
@@ -4587,6 +4599,8 @@
 		"tags": "Tavern, Temple, Tenement, Theater, Town Hall, Trade Shop, University, Watchtower, Waterfront, Waterway",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
+			"{SOURCE Ultimate Campaign/219}",
+			"",
 			"### Tavern (12 BP, 1 Lot)",
 			"",
 			"**Kingdom** Economy +1, Loyalty +1  ",
