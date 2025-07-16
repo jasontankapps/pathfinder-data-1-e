@@ -323,7 +323,9 @@
 		"category": "2",
 		"addenda": [ "2pts" ],
 		"description": [
-			"An eidolon grows larger muscles, gains faster reflexes, achieves greater intelligence, or acquires another increase to one of its abilities. Increase one of the eidolon's ability scores by +2. This evolution can be selected more than once. It can only be applied once to an individual ability score, plus 1 additional time for every 6 levels the summoner possesses."
+			"An eidolon grows larger muscles, gains faster reflexes, achieves greater intelligence, or acquires another increase to one of its abilities. Increase one of the eidolon's ability scores by +2. This evolution can be selected more than once. It can only be applied once to an individual ability score, plus 1 additional time for every 6 levels the summoner possesses.",
+			"",
+			"The ability increase evolution costs twice as much (4 evolution points) when adding to the Strength or Constitution scores of a {evolution/Large/ or Huge} eidolon."
 		]
 	},
 	"alignment_smite": {
@@ -762,6 +764,7 @@
 			"The ability increase evolution costs twice as much (4 evolution points) when adding to the Strength or Constitution scores of a Large or Huge eidolon."
 		]
 	},
+	"huge": { "redirect": "large" },
 	"lifesense": {
 		"name": "Lifesense",
 		"nameSuffix": "(Su)",
