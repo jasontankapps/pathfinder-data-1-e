@@ -533,9 +533,11 @@
 	},
 	"inquisitions": {
 		"name": "Inquisitions",
+		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"## Inquisitions",
 			"",
+			"{SOURCE Ultimate Magic/42}  ",
 			"While inquisitors often take on the domains permitted to the clerics of the faith, they are privy to special lore not open to priests and other agents of their religion. These divine pursuits, called inquisitions, grant inquisitors the tools necessary for the fight against enemies of the faith. An inquisitor may select an inquisition in place of a domain.",
 			"",
 			"If an inquisition's granted power calls for a saving throw, the DC of the save is equal to 10 + 1/2 the character's inquisitor level + her Wisdom modifier. Unless otherwise stated, the caster level for granted power spell-like abilities is equal to the inquisitor's class level.",
@@ -617,27 +619,13 @@
 			"| @ripple[faith/Urgathoa] | {inquisition/Heresy}, {inquisition/Persistence}, {inquisition/Possession}, {inquisition/Sin}, {inquisition/Vengeance} |",
 			"| @ripple[faith/Zon-Kuthon] | {inquisition/Damnation}, {inquisition/Heresy}, {inquisition/Oblivion}, {inquisition/Sin}, {inquisition/Torture} |"
 		],
-		"sources": [
-			"Ultimate Magic",
-			"Ultimate Combat",
-			"Blood of Angels",
-			"Magical Marketplace",
-			"Inner Sea Intrigue",
-			"Ultimate Intrigue",
-			"Blood of Fiends",
-			"Faiths and Philosophies",
-			"Champions of Purity"
-		],
 		"topLink": [ "Inquisitor", "class/inquisitor" ]
 	},
 	"oaths": {
 		"name": "Paladin Oaths",
-		"sources": [
-			"Divine Anthology",
-			"Inner Sea Combat",
-			"Ultimate Magic"
-		],
+		"sources": [ "Ultimate Magic" ],
 		"description": [
+			"{SOURCE Ultimate Magic/60}  ",
 			"While all paladins have their own codes of conduct, either taught by an order, handed down from the gods, or inspired by personal conviction, an oathbound paladin devotes herself to a singular cause, which grants her additional powers but also gives further edicts she must follow. An oathbound paladin swears an oath to eradicate a certain kind of evil. This powerful oath gives her access to new spells and adds to or alters typical paladin abilities.",
 			"",
 			"An oathbound paladin can take multiple oaths, but none of the other oaths can replace or alter the same class feature from the paladin class as another alternate class feature. For example, a paladin cannot take the Oath against Corruption and the Oath against the Wyrm because they both replace the aura of courage class feature.",
@@ -679,32 +667,8 @@
 	"orders": {
 		"name": "Orders",
 		"sources": [
-			"Advanced Class Guide",
 			"Advanced Player's Guide",
-			"Advanced Race Guide",
-			"Adventurer's Guide",
-			"Aquatic Adventures",
-			"Blood of the Elements",
-			"Blood of the Sea",
-			"Champions of Balance",
-			"Disciple's Doctrine",
-			"Distant Shores",
-			"Heroes from the Fringe",
-			"Heroes of the Wild",
-			"Inner Sea Combat",
-			"Knights of the Inner Sea",
-			"Legacy of the First World",
-			"Merchant's Manifest",
-			"Monster Hunter's Handbook",
-			"Occult Adventures",
-			"Path of the Hellknight",
-			"People of the River",
-			"People of the Sands",
-			"Qadira, Jewel of the East",
-			"The Harrow Handbook",
-			"Ultimate Combat",
-			"Ultimate Wilderness",
-			"Villain Codex"
+			"Ultimate Combat"
 		],
 		"description": [
 			"## Cavalier/Samurai Orders",
@@ -764,10 +728,8 @@
 	"stares": {
 		"name": "Mesmerist Stares",
 		"sources": [
-			"Heroes of Golarion",
 			"Occult Adventures",
-			"Occult Origins",
-			"Occult Realms"
+			"Occult Origins"
 		],
 		"compileFrom": {
 			"source": "stare",
@@ -775,8 +737,10 @@
 				[
 					"## Mesmerist Stares",
 					"",
+					"{SOURCE Occult Adventures/42}  ",
 					"At 3rd level and every 4 levels thereafter, a mesmerist's hypnotic stare imposes a further effect upon its target. The mesmerist chooses one option each time he gains a new bold stare improvement, and the choice can't be changed later. The mesmerist can't choose the same bold stare improvement more than once unless otherwise noted. All of the mesmerist's bold stare improvements affect the target as long as it is affected by the mesmerist's hypnotic stare.",
 					"",
+					"{SOURCE Occult Origins/13}  ",
 					"Chelish mesmerists have refined their hypnotic stares to include a suite of gaze attacks useful for negotiating with or undermining outsiders. In the decades since, these secrets have begun to slip beyond the Hell-bound nation's borders, and now can be found throughout the Inner Sea region, especially in areas that interact frequently with outsiders.",
 					"",
 					"Devilbane gazes (stares that start with \"Devilbane\" below) can be selected beginning at 3rd level as options for the mesmerist's bold stare improvements. They tend to be more limited in their scope than standard bold stare improvements, but cut to the core of an outsider's being. When a devilbane gaze is used against a creature with the outsider type, double the hypnotic stare penalty applied by the devilbane gaze improvement (but not the Will save penalty the original hypnotic stare imposes). Despite their moniker, devilbane gazes affect all outsiders equally well.",
@@ -1033,10 +997,14 @@
 	},
 	"weapon_groups": {
 		"name": "Weapon Groups",
-		"sources": [ "PRPG Core Rulebook" ],
+		"sources": [
+			"PRPG Core Rulebook",
+			"Ultimate Wilderness"
+		],
 		"description": [
 			"## Fighter Weapon Groups",
 			"",
+			"{SOURCE PRPG Core Rulebook/56}",
 			"Weapon groups are defined as follows (GMs may add other weapons to these groups, or add entirely new groups):",
 			"",
 			"::h3[Axes]{jl}",
@@ -1157,7 +1125,6 @@
 			"- heavy shield, {eq-armor/heavy_<wood>en_shield} or {eq-armor/heavy_<steel>_shield}",
 			"- {eq-weapon/iron brush}",
 			"- {eq-weapon/katar}",
-			"- {eq-weapon/katar, tri-bladed}",
 			"- {eq-armor/klar}",
 			"- light shield, {eq-armor/light_<wood>en_shield} or {eq-armor/light_<steel>_shield}",
 			"- madu, {eq-armor/madu_shield_<leather} or {eq-armor/madu_shield_<steel}",
@@ -1409,6 +1376,7 @@
 			"",
 			"::h3[Tribal]{jl}",
 			"",
+			"{SOURCE Ultimate Wilderness/51}  ",
 			"- {eq-weapon/club}",
 			"- {eq-weapon/dagger}",
 			"- {eq-weapon/greatclub}",
@@ -1424,23 +1392,11 @@
 	},
 	"wild_utility_talents": {
 		"name": "Wild Utility Talents",
-		"sources": [
-			"Elemental Master's Handbook",
-			"Healer's Handbook",
-			"Heroes of Golarion",
-			"Horror Adventures",
-			"Occult Adventures",
-			"Occult Origins",
-			"Occult Realms",
-			"Plane-Hopper's Handbook",
-			"Psychic Anthology",
-			"Ultimate Intrigue",
-			"Ultimate Wilderness",
-			"Wilderness Origins"
-		],
+		"sources": [ "Occult Adventures" ],
 		"description": [
 			"## Utility Wild Talents",
 			"",
+			"{SOURCE Occult Adventures/22}  ",
 			"A kineticist can select one of the following wild talents at each even level, provided she meets the prerequisites.",
 			"",
 			"{table0}"

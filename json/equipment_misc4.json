@@ -359,11 +359,7 @@
 	},
 	"dire_bat": {
 		"name": "Dire bat",
-		"sources": [
-			"Ultimate Equipment",
-			"Advanced Race Guide",
-			"Animal Archive"
-		],
+		"sources": [ "Animal Archive" ],
 		"description": [
 			"## Dire bat",
 			"{SOURCE Animal Archive/15}  ",
@@ -987,7 +983,10 @@
 	},
 	"ear_trumpet_common": {
 		"name": "Ear trumpet (common)",
-		"sources": [ "Ranged Tactics Toolbox" ],
+		"sources": [
+			"Ranged Tactics Toolbox",
+			"Ultimate Equipment"
+		],
 		"description": [
 			"## Ear trumpet",
 			"{SOURCE Ranged Tactics Toolbox/20}  ",
@@ -3292,9 +3291,7 @@
 	},
 	"treasure_chest_small": {
 		"name": "Treasure chest (small)",
-		"sources": [
-			"Adventurer's Armory 2",
-			"Pirates of the Inner Sea"
+		"sources": ["Adventurer's Armory 2"
 		],
 		"description": [
 			"## Treasure chest",
@@ -3888,10 +3885,7 @@
 	},
 	"wagon_heavy": {
 		"name": "Wagon (heavy)",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook"
-		],
+		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Wagon",
 			"{SOURCE Ultimate Equipment/87}  ",

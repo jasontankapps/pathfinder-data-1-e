@@ -439,30 +439,28 @@
 		"name": "Arcane Schools",
 		"sources": [
 			"Advanced Player's Guide",
-			"Adventurer's Guide",
-			"Black Markets",
-			"Disciple's Doctrine",
-			"Dragon Empires Primer",
-			"Elemental Master's Handbook",
-			"Inner Sea Primer",
 			"PRPG Core Rulebook",
 			"Ultimate Magic"
 		],
 		"description": [
 			"## Arcane Schools",
 			"",
+			"{SOURCE PRPG Core Rulebook/79}  ",
 			"The following descriptions detail each arcane school and its corresponding powers.",
 			"",
 			"### Focused Arcane Schools",
 			"",
+			"{SOURCE Advanced Player's Guide/143}  ",
 			"Wizards that specialize in one of the schools of magic can instead chose to focus their studies still further. Wizards who choose a focused arcane school retain the bonus spells from their school and must select two prohibited schools as normal, but the focused school changes one or more of the powers granted by their arcane school. A wizard must take all of the replacement powers associated with his focused arcane school. Once a focused arcane school is chosen, it cannot be changed.",
 			"",
 			"### Elemental Arcane Schools",
 			"",
+			"{SOURCE Advanced Player's Guide/142}  ",
 			"Instead of specializing in one of the standard eight schools of magic, a wizard can choose to specialize in one of the four elemental schools of magic. Like a normal arcane school, an elemental school grants a number of school powers and one bonus spell slot of each level the wizard can cast, from 1st on up. This bonus spell slot must be used to prepare a spell from the elemental school's spell list. Unlike a normal arcane school, each elemental school requires the wizard to select his opposed element as his opposition school (air opposes earth, fire opposes water). He does not need to select a second opposition school. He must expend two spell slots to prepare a spell from his opposed elemental school as normal.",
 			"",
 			"### Five Elements Variant",
 			"",
+			"{SOURCE Ultimate Magic/88}  ",
 			"In some lands, scholars of magic insist that material things consist of five elements, not four: fire, earth, metal, water, and wood. Rather than directly opposing each other, these five elements counter and generate each other in a wheel-like formation: wood overcomes earth, earth overcomes water, water overcomes fire, fire overcomes metal, and metal overcomes wood. Similar to the four types of elemental wizard schools, some wizards specialize in the schools of magic based on metal or wood. Like a normal arcane school, an elemental school grants a number of school powers and one bonus spell slot of each level the wizard can cast, from 1st on up. This bonus spell slot must be used to prepare a spell from the elemental school's spell list. Unlike a normal arcane school, each elemental school requires the wizard to select his opposed element as his opposition school - in the case of the five-element system, he must choose the element that overcomes his element as his opposition element (so a metal elementalist must select fire as his opposition school because fire overcomes metal). He does not need to select a second opposition school. He must expend two spell slots to prepare a spell from his opposed elemental school as normal.",
 			"",
 			"| School | Focused Schools |",
@@ -489,7 +487,10 @@
 	},
 	"aspects": {
 		"name": "Aspects",
-		"sources": [ "Ultimate Wilderness" ],
+		"sources": [
+			"Ultimate Wilderness",
+			"Wilderness Origins"
+		],
 		"description": [
 			"{SOURCE Ultimate Wilderness;Wilderness Origins}",
 			"",
@@ -567,39 +568,11 @@
 	},
 	"bardic_masterpieces": {
 		"name": "Bardic Masterpieces",
-		"sources": [
-			"Arcane Anthology",
-			"Artifacts and Legends",
-			"Bastards of Golarion",
-			"Blood of Angels",
-			"Blood of Fiends",
-			"Blood of the Ancients",
-			"Blood of the Sea",
-			"Champions of Purity",
-			"Disciple's Doctrine",
-			"Distant Realms",
-			"Divine Anthology",
-			"Dragonslayer's Handbook",
-			"Elemental Master's Handbook",
-			"Healer's Handbook",
-			"Heroes from the Fringe",
-			"Heroes of the High Court",
-			"Horror Realms",
-			"Legacy of the First World",
-			"Lost Treasures",
-			"Magical Marketplace",
-			"Melee Tactics Toolbox",
-			"Merchant's Manifest",
-			"Monster Summoner's Handbook",
-			"Pathfinder #114: Black Stars Beckon",
-			"Pathfinder #134: It Came from Hollow Mountain",
-			"People of the River",
-			"The Harrow Handbook",
-			"Ultimate Magic"
-		],
+		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"## Bardic Masterpieces",
 			"",
+			"{SOURCE Ultimate Magic/21}  ",
 			"Talented bards can learn or create masterpieces, unusual applications of the {ability/bardic performance} ability requiring special training. Masterpiece descriptions adhere to the following guidelines.",
 			"",
 			"**Masterpiece Name:** In addition to the name of the masterpiece, this line indicates which Perform skill or skills the masterpiece relies upon.",
@@ -712,7 +685,8 @@
 		"name": "Warpriest Blessings",
 		"sources": [
 			"Advanced Class Guide",
-			"Healer's Handbook"
+			"Healer's Handbook",
+			"Ultimate Wilderness"
 		],
 		"description": [
 			"## Warpriest Blessings",
@@ -955,15 +929,11 @@
 	},
 	"composite_kinetic_blasts": {
 		"name": "Composite Blasts",
-		"sources": [
-			"Occult Adventures",
-			"Occult Origins",
-			"Psychic Anthology",
-			"Ultimate Wilderness"
-		],
+		"sources": [ "Occult Adventures" ],
 		"description": [
 			"## Composite Kinetic Blasts",
 			"",
+			"{SOURCE Occult Adventures/15}  ",
 			"Composite blasts combine elements to form a new blast. When a kineticist gains a new element through expanded element, she gains access to all composite blasts for which she qualifies. Most composite blasts are either physical or energy blasts, like simple blasts. Physical composite blasts deal an amount of damage equal to 2d6+2 + the kineticist's Constitution modifier, increasing by 2d6+2 for every 2 kineticist levels beyond 1st; energy composite blasts deal an amount of damage equal to 2d6 + 1/2 the kineticist's Constitution modifier, increasing by 2d6 for every 2 kineticist levels beyond 1st.",
 			"",
 			"{table0}"
@@ -1010,26 +980,11 @@
 	},
 	"oracle_curses": {
 		"name": "Oracle Curses",
-		"sources": [
-			"Horror Realms",
-			"Blood of Angels",
-			"Monster Codex",
-			"Advanced Player's Guide",
-			"Blood of Fiends",
-			"Legacy of Dragons",
-			"Elemental Master's Handbook",
-			"Heroes of Golarion",
-			"Inner Sea Monster Codex",
-			"Legacy of the First World",
-			"Wilderness Origins",
-			"Blood of the Sea",
-			"Villain Codex",
-			"Pathfinder #88: Valley of the Brain Collectors",
-			"Dirty Tactics Toolbox"
-		],
+		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"## Oracle Curses",
 			"",
+			"{SOURCE Advanced Player's Guide/43}  ",
 			"Each oracle is cursed, but this curse comes with a benefit as well as a hindrance. This choice is made at 1st level, and once made, it cannot be changed. The oracle's curse cannot be removed or dispelled without the aid of a deity. An oracle's curse is based on her oracle level plus one for every two levels or Hit Dice other than oracle. Each oracle must choose one of the following curses.",
 			"",
 			"| Curse | Description |",
@@ -1108,14 +1063,11 @@
 	},
 	"defense_wild_talents": {
 		"name": "Defense Wild Talents",
-		"sources": [
-			"Occult Adventures",
-			"Occult Origins",
-			"Ultimate Wilderness"
-		],
+		"sources": [ "Occult Adventures" ],
 		"description": [
 			"## Defense Wild Talents",
 			"",
+			"{SOURCE Occult Adventures/16}  ",
 			"A kineticist gains the defense wild talent from her primary element at 2nd level.",
 			"",
 			"| Defense | Element | Burn |",
@@ -1132,22 +1084,9 @@
 	},
 	"disciplines": {
 		"name": "Psychic Disciplines",
-		"sources": [
-			"Adventurer's Guide",
-			"Blood of Shadows",
-			"Blood of the Beast",
-			"Blood of the Coven",
-			"Disciple's Doctrine",
-			"Haunted Heroes Handbook",
-			"Heroes from the Fringe",
-			"Heroes of the High Court",
-			"Legacy of the First World",
-			"Occult Adventures",
-			"Occult Origins",
-			"Occult Realms",
-			"Ultimate Wilderness"
-		],
+		"sources": [ "Occult Adventures" ],
 		"description": [
+			"{SOURCE Occult Adventures/64}  ",
 			"The following disciplines represent those most commonly chosen by psychics. Followers of a discipline might come to it in a variety of different ways, and though some might join together in orders, others follow personal, singular interpretations of the discipline.",
 			"",
 			"{table0}"

@@ -3,17 +3,7 @@
 		"name": "Witch Patrons",
 		"sources": [
 			"Advanced Player's Guide",
-			"Blood of the Coven",
-			"Champions of Purity",
-			"Healer's Handbook",
-			"Heroes of the High Court",
-			"Heroes of the Wild",
-			"Horror Adventures",
-			"Occult Adventures",
-			"Pathfinder #72: The Witch Queen's Revenge",
-			"Paths of the Righteous",
-			"Ultimate Magic",
-			"Ultimate Wilderness"
+			"Blood of the Coven"
 		],
 		"compileFrom": {
 			"source": "patron",
@@ -407,21 +397,15 @@
 		"name": "Shaman Spirits",
 		"sources": [
 			"Advanced Class Guide",
-			"Adventurer's Guide",
-			"Cohorts and Companions",
-			"Healer's Handbook",
-			"Heroes of Golarion",
-			"Heroes of the Streets",
-			"Heroes of the Wild",
-			"Horror Realms",
-			"Ultimate Wilderness",
-			"Wilderness Origins"
+			"Healer's Handbook"
 		],
 		"description": [
 			"## Shaman Spirits",
 			"",
+			"{SOURCE Advanced Class Guide/37}  ",
 			"Each shaman must select from the following spirits. Unless otherwise noted, the DC to save against the special abilities granted by a spirit is equal to 10 + 1/2 the shaman's level + the shaman's Wisdom modifier.",
 			"",
+			"{SOURCE Healer's Handbook/27}  ",
 			"**Spirit specializations** are more specific focuses for shaman spirits that allow shamans greater flexibility in customizing their characters and building character backstories. The **Restoration** spirit is listed below, specializing the **Life** spirit, but it is far from the only spirit specialization that exists.",
 			"",
 			"Each spirit specialization replaces one or more hexes that the shaman can gain, as well as one or more of the spirit's abilities and a number of the spells in the spirit's spirit magic spell list. A spirit specialization never replaces all of the spirit's hexes or all of the spirit's abilities.",
@@ -455,15 +439,11 @@
 	},
 	"simple_kinetic_blasts": {
 		"name": "Simple Blasts",
-		"sources": [
-			"Occult Adventures",
-			"Occult Origins",
-			"Psychic Anthology",
-			"Ultimate Wilderness"
-		],
+		"sources": [ "Occult Adventures" ],
 		"description": [
 			"## Simple Kinetic Blasts",
 			"",
+			"{SOURCE Occult Adventures/15}  ",
 			"A kineticist gains a simple blast from her primary element at 1st level. Some elements offer more than one option. When a kineticist gains a new element via the expanded element class feature, she gains a simple blast from that element as well. Each simple blast is either a physical blast or an energy blast. Physical blasts are ranged attacks that deal an amount of damage equal to 1d6+1 + the kineticist's Constitution modifier, increasing by 1d6+1 for every 2 kineticist levels beyond 1st. Spell resistance doesn't apply against physical blasts. Energy blasts are ranged touch attacks that deal an amount of damage equal to 1d6 + 1/2 the kineticist's Constitution modifier, increasing by 1d6 for every 2 kineticist levels beyond 1st.",
 			"",
 			"{table0}"

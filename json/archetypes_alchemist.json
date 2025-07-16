@@ -911,7 +911,10 @@
 	},
 	"horticulturist": {
 		"name": "Horticulturist",
-		"sources": [ "Ultimate Wilderness" ],
+		"sources": [
+			"Ultimate Wilderness",
+			"Heroes of the Wild"
+		],
 		"description": [
 			"## Horticulturist",
 			"",

@@ -429,7 +429,10 @@
 	},
 	"winding_path_renegade": {
 		"name": "Winding Path Renegade",
-		"sources": [ "Adventurer's Guide" ],
+		"sources": [
+			"Adventurer's Guide",
+			"Advanced Class Origins"
+		],
 		"description": [
 			"## Winding Path Renegade",
 			"",

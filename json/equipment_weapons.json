@@ -2584,24 +2584,6 @@
 		],
 		"topLink": [ "Light Weapons", "main/equipment_weapons_light" ]
 	},
-	"katar": {
-		"name": "Katar",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook"
-		],
-		"description": [
-			"## Katar",
-			"",
-			"A katar uses the same statistics as a {eq-weapon/punching dagger}.",
-			"",
-			"**Cost** 2 gp **Weight** 1 lb.  ",
-			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;3; **Range** -; **Type** P; **Special** -  ",
-			"**Category** Light; **Proficiency** Simple  ",
-			"**{ability/Weapon Group>s}** Close"
-		],
-		"topLink": [ "Light Weapons", "main/equipment_weapons_light" ]
-	},
 	"sickle": {
 		"name": "Sickle",
 		"sources": [
@@ -3410,6 +3392,10 @@
 			"**{ability/Weapon Group>s}** Close"
 		],
 		"topLink": [ "Light Weapons", "main/equipment_weapons_light" ]
+	},
+	"katar": {
+		"name": "Katar",
+		"copyof": "katar_tri_bladed"
 	},
 	"kerambit": {
 		"name": "Kerambit",

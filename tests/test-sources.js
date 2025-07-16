@@ -37,18 +37,26 @@ const sourcesTest = () => {
 		delete data.not_found;
 		Object.entries(data).forEach((pair) => {
 			const [item, entry] = pair;
-			const {sources: s, compilationSources, copyof, alternateOf, redirect, description = []} = entry;
+			const {sources: s, compilationSources, compileFrom, copyof, alternateOf, redirect, description = []} = entry;
+			if(compileFrom) {
+				const { targets = [] } = compileFrom;
+				targets.forEach(bit => {
+					if(Array.isArray(bit)) {
+						description.push(...bit);
+					}
+				});
+			}
 			if (description.some(line =>
 				line.match(/^>*[^>].*\{SOURCE/)
 				|| line.match(/^>*\{SOURCE[^}]+\}(?!  $).+$/)
 			)) {
-				msg.push(`<+> ${prop}.${item} has bad {SOURCE} multisource`);
+				msg.push(`<+> ${item} has bad {SOURCE} multisource`);
 				// No point in going further since the error will probably mess with the other things.
 				return;
 			}
 			const sources = s ? s.map(x => convertTextToLink(x)) : [];
 			if(!s && !compilationSources && !copyof && !alternateOf && !redirect) {
-				//msg.push(`Missing ${prop}.${item}.sources or .compilationSources`);
+				//msg.push(`Missing ${item}.sources or .compilationSources`);
 				return;
 			} else if (compilationSources) {
 				// comp sources are auto-added to the text in post, no need to check
@@ -56,20 +64,20 @@ const sourcesTest = () => {
 			const found = checkForSourceLinks(description);
 			const fSet = new Set(found);
 			const sSet = new Set(sources);
-			const diff = sources.filter(x => !fSet.has(x));
-			const diff2 = found.filter(x => !sSet.has(x));
-			if(diff.length) {
-				msg.push(`+ ${prop}.${item}.sources contains [${diff.join("] [")}]`);
+			const diff = new Set(sources.filter(x => !fSet.has(x)));
+			const diff2 = new Set(found.filter(x => !sSet.has(x)));
+			if(diff.size) {
+				msg.push(`+ ${item}.sources contains [${[...diff].join("] [")}]`);
 			}
-			if(diff2.length) {
-				msg.push(`- ${prop}.${item}.sources missing [${diff2.join("] [")}]`);
+			if(diff2.size) {
+				msg.push(`- ${item}.sources missing [${[...diff2].join("] [")}]`);
 			}
 		});
 		if(msg.length) {
 			result.push(`>>\n>>${prop}\n>>\n\n  ${msg.join("\n  ")}\n\n\n`);
 		}
 	});
-	return [!!result.length, "sources", result];
+	return [result.length > 0, "sources", result];
 };
 
 export default sourcesTest;

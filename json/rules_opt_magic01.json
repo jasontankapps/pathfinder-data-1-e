@@ -339,30 +339,30 @@
 			"",
 			"| d% | Challenge |",
 			"| --- | --- |",
-			"| 01-04 | [Aberrant mutation](rule/rc_aberrant_mutation) |",
-			"| 05-08 | [Challenging construction](rule/rc_challenging_construction) |",
-			"| 09-12 | [Contradictory instructions](rule/rc_contradictory_instructions) |",
-			"| 13-16 | [Cryptic cross-reference](rule/rc_cryptic_cross_reference) |",
-			"| 17-20 | [Distracting visitor](rule/rc_distracting_visitor) |",
-			"| 21-24 | [Emotion requirement](rule/rc_emotion_requirement) |",
-			"| 25-28 | [Energy overload](rule/rc_energy_overload) |",
-			"| 29-32 | [Enticing offer](rule/rc_enticing_offer) |",
-			"| 33-36 | [Fragile components](rule/rc_fragile_components) |",
-			"| 37-40 | [Historic stumbling block](rule/rc_historic_stumbling_block) |",
-			"| 41-44 | [Illegal ingredients](rule/rc_illegal_ingredients) |",
-			"| 45-48 | [Infested ingredients](rule/rc_infested_ingredients) |",
-			"| 49-52 | [Ingredients develop quasi-sentience](rule/rc_ingredients_develop_quasi_sentience) |",
-			"| 53-56 | [Intrusive spirit](rule/rc_intrusive_spirit) |",
-			"| 57-60 | [Ley line convergence](rule/rc_ley_line_convergence) |",
-			"| 61-64 | [Magical resonance](rule/rc_magical_resonance) |",
-			"| 65-68 | [Planar peculiarity](rule/rc_planar_peculiarity) |",
-			"| 69-72 | [Rare reference](rule/rc_rare_reference) |",
-			"| 73-76 | [Reagent shortage](rule/rc_reagent_shortage) |",
-			"| 77-80 | [Regal requisite](rule/rc_regal_requisite) |",
-			"| 81-84 | [Sesquipedalian elucidation](rule/rc_sesquipedalian_elucidation) |",
-			"| 85-88 | [Structural flaw](rule/rc_structural_flaw) |",
-			"| 89-92 | [Sudden inspiration](rule/rc_sudden_inspiration) |",
-			"| 93-100 | [Class-specific challenge](rule/class_specific_challenges) |"
+			"| 01-04 | @ripple[rule/rc_<Aberrant mutation] |",
+			"| 05-08 | @ripple[rule/rc_<Challenging construction] |",
+			"| 09-12 | @ripple[rule/rc_<Contradictory instructions] |",
+			"| 13-16 | @ripple[rule/rc_<Cryptic cross-reference] |",
+			"| 17-20 | @ripple[rule/rc_<Distracting visitor] |",
+			"| 21-24 | @ripple[rule/rc_<Emotion requirement] |",
+			"| 25-28 | @ripple[rule/rc_<Energy overload] |",
+			"| 29-32 | @ripple[rule/rc_<Enticing offer] |",
+			"| 33-36 | @ripple[rule/rc_<Fragile components] |",
+			"| 37-40 | @ripple[rule/rc_<Historic stumbling block] |",
+			"| 41-44 | @ripple[rule/rc_<Illegal ingredients] |",
+			"| 45-48 | @ripple[rule/rc_<Infested ingredients] |",
+			"| 49-52 | @ripple[rule/rc_<Ingredients develop quasi-sentience] |",
+			"| 53-56 | @ripple[rule/rc_<Intrusive spirit] |",
+			"| 57-60 | @ripple[rule/rc_<Ley line convergence] |",
+			"| 61-64 | @ripple[rule/rc_<Magical resonance] |",
+			"| 65-68 | @ripple[rule/rc_<Planar peculiarity] |",
+			"| 69-72 | @ripple[rule/rc_<Rare reference] |",
+			"| 73-76 | @ripple[rule/rc_<Reagent shortage] |",
+			"| 77-80 | @ripple[rule/rc_<Regal requisite] |",
+			"| 81-84 | @ripple[rule/rc_<Sesquipedalian elucidation] |",
+			"| 85-88 | @ripple[rule/rc_<Structural flaw] |",
+			"| 89-92 | @ripple[rule/rc_<Sudden inspiration] |",
+			"| 93-100 | @ripple[rule/Class-specific challenge>s] |"
 		],
 		"parent_topics": [
 			"optional_magic_changes",
@@ -412,6 +412,7 @@
 		"subtitle": "Random Challenge, Dynamic Magic Item Creation, Optional",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
+			"{SOURCE Pathfinder Unchained/182}  ",
 			"The item's components have mutated, and so has your item, evolving in strange new ways.",
 			"",
 			"### Tasks",
@@ -466,6 +467,7 @@
 		"subtitle": "Random Challenge, Dynamic Magic Item Creation, Optional",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
+			"{SOURCE Pathfinder Unchained/182}  ",
 			"One or more elements of your item's design are particularly difficult to execute.",
 			"",
 			"### Tasks",
@@ -520,6 +522,7 @@
 		"subtitle": "Random Challenge, Dynamic Magic Item Creation, Optional",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
+			"{SOURCE Pathfinder Unchained/182}  ",
 			"Two respected sources disagree vehemently on the next step in the process.",
 			"",
 			"### Tasks",
@@ -574,6 +577,7 @@
 		"subtitle": "Random Challenge, Dynamic Magic Item Creation, Optional",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
+			"{SOURCE Pathfinder Unchained/182}  ",
 			"You're having trouble figuring out where to find the information you need across multiple volumes.",
 			"",
 			"### Tasks",
@@ -628,6 +632,7 @@
 		"subtitle": "Random Challenge, Dynamic Magic Item Creation, Optional",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
+			"{SOURCE Pathfinder Unchained/182}  ",
 			"An unwanted interloper shows up while you're trying to work, making it challenging to concentrate.",
 			"",
 			"### Tasks",
@@ -682,6 +687,7 @@
 		"subtitle": "Random Challenge, Dynamic Magic Item Creation, Optional",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
+			"{SOURCE Pathfinder Unchained/182}  ",
 			"In order to create the item, you need to harness a particular raw emotion.",
 			"",
 			"### Tasks",
@@ -736,6 +742,7 @@
 		"subtitle": "Random Challenge, Dynamic Magic Item Creation, Optional",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
+			"{SOURCE Pathfinder Unchained/183}  ",
 			"A sudden surge of energy builds up within your item, threatening to damage or destroy it.",
 			"",
 			"### Tasks",
@@ -790,6 +797,7 @@
 		"subtitle": "Random Challenge, Dynamic Magic Item Creation, Optional",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
+			"{SOURCE Pathfinder Unchained/183}  ",
 			"A shady figure approaches you with an offer that would make completing your item faster and cheaper.",
 			"",
 			"### Tasks",
@@ -844,6 +852,7 @@
 		"subtitle": "Random Challenge, Dynamic Magic Item Creation, Optional",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
+			"{SOURCE Pathfinder Unchained/182}  ",
 			"Some of the most important components of your item are extremely fragile.",
 			"",
 			"### Tasks",
@@ -898,6 +907,7 @@
 		"subtitle": "Random Challenge, Dynamic Magic Item Creation, Optional",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
+			"{SOURCE Pathfinder Unchained/184}  ",
 			"Your creation techniques have run across a challenging difficulty experienced by many past crafters.",
 			"",
 			"### Tasks",
@@ -952,6 +962,7 @@
 		"subtitle": "Random Challenge, Dynamic Magic Item Creation, Optional",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
+			"{SOURCE Pathfinder Unchained/184}  ",
 			"One or more of the necessary ingredients is flagrantly illegal, and needs to be acquired through criminal means.",
 			"",
 			"### Tasks",
@@ -1006,6 +1017,7 @@
 		"subtitle": "Random Challenge, Dynamic Magic Item Creation, Optional",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
+			"{SOURCE Pathfinder Unchained/184}  ",
 			"Critical ingredients were infested by an exotic rot or colony of vermin, rendering them unusable.",
 			"",
 			"### Tasks",
@@ -1060,6 +1072,7 @@
 		"subtitle": "Random Challenge, Dynamic Magic Item Creation, Optional",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
+			"{SOURCE Pathfinder Unchained/184}  ",
 			"Somehow, one or more of your item's components have developed a limited intelligence.",
 			"",
 			"### Tasks",
@@ -1114,6 +1127,7 @@
 		"subtitle": "Random Challenge, Dynamic Magic Item Creation, Optional",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
+			"{SOURCE Pathfinder Unchained/184}  ",
 			"Your item's creation draws the attention of a wandering spirit with some affinity for the item.",
 			"",
 			"### Tasks",
@@ -1168,6 +1182,7 @@
 		"subtitle": "Random Challenge, Dynamic Magic Item Creation, Optional",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
+			"{SOURCE Pathfinder Unchained/184}  ",
 			"The item's creation is dependent on the energy of intersecting ley lines or of another magical location.",
 			"",
 			"### Tasks",
@@ -1222,6 +1237,7 @@
 		"subtitle": "Random Challenge, Dynamic Magic Item Creation, Optional",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
+			"{SOURCE Pathfinder Unchained/184}  ",
 			"The magical auras of several components thrum with a strange resonance whenever they are near each other.",
 			"",
 			"### Tasks",
@@ -1276,6 +1292,7 @@
 		"subtitle": "Random Challenge, Dynamic Magic Item Creation, Optional",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
+			"{SOURCE Pathfinder Unchained/184}  ",
 			"You realize that your item's creation is influenced by planar convergences or other peculiarities.",
 			"",
 			"### Tasks",
@@ -1330,6 +1347,7 @@
 		"subtitle": "Random Challenge, Dynamic Magic Item Creation, Optional",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
+			"{SOURCE Pathfinder Unchained/185}  ",
 			"You uncovered a reference that a rare book located in a large library will help with the item's creation.",
 			"",
 			"### Tasks",
@@ -1384,6 +1402,7 @@
 		"subtitle": "Random Challenge, Dynamic Magic Item Creation, Optional",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
+			"{SOURCE Pathfinder Unchained/185}  ",
 			"You suddenly realize that you don't have enough stock of an important ingredient.",
 			"",
 			"### Tasks",
@@ -1438,6 +1457,7 @@
 		"subtitle": "Random Challenge, Dynamic Magic Item Creation, Optional",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
+			"{SOURCE Pathfinder Unchained/185}  ",
 			"Your item requires a king's hair, a prince's kiss, or some other participation from high-ranking nobility.",
 			"",
 			"### Tasks",
@@ -1492,6 +1512,7 @@
 		"subtitle": "Random Challenge, Dynamic Magic Item Creation, Optional",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
+			"{SOURCE Pathfinder Unchained/185}  ",
 			"The instructions for your next component are nearly impossible to understand due to abstruse language.",
 			"",
 			"### Tasks",
@@ -1546,6 +1567,7 @@
 		"subtitle": "Random Challenge, Dynamic Magic Item Creation, Optional",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
+			"{SOURCE Pathfinder Unchained/185}  ",
 			"Partway through the creation process, you notice a flaw in the item's physical design.",
 			"",
 			"### Tasks",
@@ -1600,6 +1622,7 @@
 		"subtitle": "Random Challenge, Dynamic Magic Item Creation, Optional",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
+			"{SOURCE Pathfinder Unchained/185}  ",
 			"You are struck with a sudden stroke of brilliance and alter the creation process.",
 			"",
 			"### Tasks",

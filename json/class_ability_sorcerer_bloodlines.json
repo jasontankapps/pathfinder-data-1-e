@@ -9,7 +9,10 @@
 	},
 	"aberrant": {
 		"name": "Aberrant",
-		"sources": [ "PRPG Core Rulebook" ],
+		"sources": [
+			"PRPG Core Rulebook",
+			"Ultimate Magic"
+		],
 		"description": [
 			"## Aberrant",
 			"",
@@ -66,7 +69,10 @@
 	},
 	"abyssal": {
 		"name": "Abyssal",
-		"sources": [ "PRPG Core Rulebook" ],
+		"sources": [
+			"PRPG Core Rulebook",
+			"Ultimate Magic"
+		],
 		"description": [
 			"## Abyssal",
 			"",
@@ -138,7 +144,10 @@
 	},
 	"aquatic": {
 		"name": "Aquatic",
-		"sources": [ "Advanced Player's Guide" ],
+		"sources": [
+			"Advanced Player's Guide",
+			"Ultimate Magic"
+		],
 		"description": [
 			"## Aquatic",
 			"",
@@ -180,7 +189,10 @@
 	},
 	"arcane": {
 		"name": "Arcane",
-		"sources": [ "PRPG Core Rulebook" ],
+		"sources": [
+			"PRPG Core Rulebook",
+			"Ultimate Magic"
+		],
 		"description": [
 			"## Arcane",
 			"",
@@ -252,7 +264,10 @@
 	},
 	"boreal": {
 		"name": "Boreal",
-		"sources": [ "Advanced Player's Guide" ],
+		"sources": [
+			"Advanced Player's Guide",
+			"Ultimate Magic"
+		],
 		"description": [
 			"## Boreal",
 			"",
@@ -294,7 +309,10 @@
 	},
 	"celestial": {
 		"name": "Celestial",
-		"sources": [ "PRPG Core Rulebook" ],
+		"sources": [
+			"PRPG Core Rulebook",
+			"Ultimate Magic"
+		],
 		"description": [
 			"## Celestial",
 			"",
@@ -366,7 +384,10 @@
 	},
 	"deep_earth": {
 		"name": "Deep Earth",
-		"sources": [ "Advanced Player's Guide" ],
+		"sources": [
+			"Advanced Player's Guide",
+			"Ultimate Magic"
+		],
 		"description": [
 			"## Deep Earth",
 			"",
@@ -408,7 +429,10 @@
 	},
 	"destined": {
 		"name": "Destined",
-		"sources": [ "PRPG Core Rulebook" ],
+		"sources": [
+			"PRPG Core Rulebook",
+			"Ultimate Magic"
+		],
 		"description": [
 			"## Destined",
 			"",
@@ -514,7 +538,8 @@
 		"name": "Draconic",
 		"sources": [
 			"PRPG Core Rulebook",
-			"Legacy of Dragons"
+			"Legacy of Dragons",
+			"Ultimate Magic"
 		],
 		"description": [
 			"## Draconic",
@@ -635,7 +660,10 @@
 	},
 	"dreamspun": {
 		"name": "Dreamspun",
-		"sources": [ "Advanced Player's Guide" ],
+		"sources": [
+			"Advanced Player's Guide",
+			"Ultimate Magic"
+		],
 		"description": [
 			"## Dreamspun",
 			"",
@@ -741,7 +769,11 @@
 	},
 	"elemental": {
 		"name": "Elemental",
-		"sources": [ "PRPG Core Rulebook" ],
+		"sources": [
+			"PRPG Core Rulebook",
+			"Blood of the Elements",
+			"Ultimate Magic"
+		],
 		"description": [
 			"## Elemental",
 			"",
@@ -804,7 +836,11 @@
 	},
 	"fey": {
 		"name": "Fey",
-		"sources": [ "PRPG Core Rulebook" ],
+		"sources": [
+			"PRPG Core Rulebook",
+			"People of the River",
+			"Ultimate Magic"
+		],
 		"description": [
 			"## Fey",
 			"",
@@ -984,7 +1020,10 @@
 	},
 	"infernal": {
 		"name": "Infernal",
-		"sources": [ "PRPG Core Rulebook" ],
+		"sources": [
+			"PRPG Core Rulebook",
+			"Ultimate Magic"
+		],
 		"description": [
 			"## Infernal",
 			"",
@@ -1086,7 +1125,10 @@
 	},
 	"marid": {
 		"name": "Marid",
-		"sources": [ "Ultimate Magic" ],
+		"sources": [
+			"Ultimate Magic",
+			"Blood of the Elements"
+		],
 		"description": [
 			"## Marid",
 			"",
@@ -1130,7 +1172,10 @@
 	},
 	"martyred": {
 		"name": "Martyred",
-		"sources": [ "Blood of Angels" ],
+		"sources": [
+			"Blood of Angels",
+			"People of the River"
+		],
 		"description": [
 			"## Martyred",
 			"",
@@ -1382,7 +1427,10 @@
 	},
 	"protean": {
 		"name": "Protean",
-		"sources": [ "Advanced Player's Guide" ],
+		"sources": [
+			"Advanced Player's Guide",
+			"Ultimate Magic"
+		],
 		"description": [
 			"## Protean",
 			"",
@@ -1550,7 +1598,10 @@
 	},
 	"serpentine": {
 		"name": "Serpentine",
-		"sources": [ "Advanced Player's Guide" ],
+		"sources": [
+			"Advanced Player's Guide",
+			"Ultimate Magic"
+		],
 		"description": [
 			"## Serpentine",
 			"",
@@ -1592,7 +1643,10 @@
 	},
 	"shadow": {
 		"name": "Shadow",
-		"sources": [ "Advanced Player's Guide" ],
+		"sources": [
+			"Advanced Player's Guide",
+			"Ultimate Magic"
+		],
 		"description": [
 			"## Shadow",
 			"",
@@ -1726,7 +1780,10 @@
 	},
 	"starsoul": {
 		"name": "Starsoul",
-		"sources": [ "Advanced Player's Guide" ],
+		"sources": [
+			"Advanced Player's Guide",
+			"Ultimate Magic"
+		],
 		"description": [
 			"## Starsoul",
 			"",
@@ -1770,7 +1827,10 @@
 	},
 	"stormborn": {
 		"name": "Stormborn",
-		"sources": [ "Advanced Player's Guide" ],
+		"sources": [
+			"Advanced Player's Guide",
+			"Ultimate Magic"
+		],
 		"description": [
 			"## Stormborn",
 			"",
@@ -1812,7 +1872,10 @@
 	},
 	"undead": {
 		"name": "Undead",
-		"sources": [ "PRPG Core Rulebook" ],
+		"sources": [
+			"PRPG Core Rulebook",
+			"Ultimate Magic"
+		],
 		"description": [
 			"## Undead",
 			"",
@@ -1884,7 +1947,10 @@
 	},
 	"verdant": {
 		"name": "Verdant",
-		"sources": [ "Advanced Player's Guide" ],
+		"sources": [
+			"Advanced Player's Guide",
+			"Ultimate Magic"
+		],
 		"description": [
 			"## Verdant",
 			"",

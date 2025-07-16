@@ -227,7 +227,10 @@
 	},
 	"order_of_the_scourge": {
 		"name": "Order of the Scourge",
-		"sources": [ "Path of the Hellknight" ],
+		"sources": [
+			"Path of the Hellknight",
+			"Inner Sea NPC Codex"
+		],
 		"description": [
 			"## Order of the Scourge",
 			"",

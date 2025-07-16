@@ -367,10 +367,7 @@
 	},
 	"possessed_oracle": {
 		"name": "Possessed Oracle",
-		"sources": [
-			"Ultimate Magic",
-			"Legacy of the First World"
-		],
+		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"## Possessed Oracle",
 			"",

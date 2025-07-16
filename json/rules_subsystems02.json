@@ -1980,6 +1980,8 @@
 		"tags": "Alchemy Lab, Altar, Animal Pen, Armory, Artisan's Workshop, Auditorium, Ballroom, Bar, Bath, Battle Ring",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
+			"{SOURCE Ultimate Campaign/94}",
+			"",
 			"### Alchemy Lab",
 			"",
 			"**Earnings** gp, Goods, or Magic +10  ",
@@ -2100,6 +2102,8 @@
 		"tags": "Bedroom, Bell Tower, Book Repository, Brewery, Bunks, Burial Ground, Cell, Ceremonial Room, Classroom, Clockwork Shop",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
+			"{SOURCE Ultimate Campaign/95}",
+			"",
 			"### Bedroom",
 			"",
 			"**Earnings** gp or Influence +3  ",
@@ -2214,6 +2218,8 @@
 		"tags": "Common Room, Confessional, Courtyard, Crypt, Defensive Wall, Dock, Dojo, Drawbridge, Escape Route",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
+			"{SOURCE Ultimate Campaign/96}",
+			"",
 			"### Common Room",
 			"",
 			"**Earnings** gp or Influence +7  ",
@@ -2314,6 +2320,8 @@
 		"tags": "False Front, Farmland, Forge, Game Room, Garden, Gatehouse, Gauntlet, Greenhouse, Guard Post",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
+			"{SOURCE Ultimate Campaign/97}",
+			"",
 			"### False Front",
 			"",
 			"**Earnings** gp or Goods +2  ",
@@ -2423,6 +2431,8 @@
 		"tags": "Habitat, Hatchery, Infirmary, Kitchen, Labyrinth, Laundry, Lavatory, Leather Workshop, Lodging, Magical Repository",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
+			"{SOURCE Ultimate Campaign/98}",
+			"",
 			"### Habitat",
 			"",
 			"**Earnings** gp or Influence +12  ",
@@ -2538,6 +2548,8 @@
 		"tags": "Mill Room, Nursery, Observation Dome, Office, Pit, Printer, Reliquary, Sanctum, Sauna, Scriptorium",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
+			"{SOURCE Ultimate Campaign/100}",
+			"",
 			"### Mill Room",
 			"",
 			"**Earnings** gp or Goods +8  ",
@@ -2654,6 +2666,8 @@
 		"tags": "Scrying Room, Secret Room, Sewer Access, Sewing Room, Shack, Sitting Room, Sports Field, Stall, Statue, Storage",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
+			"{SOURCE Ultimate Campaign/101}",
+			"",
 			"### Scrying Room",
 			"",
 			"**Earnings** gp or Influence +2  ",
@@ -2764,6 +2778,8 @@
 		"tags": "Storefront, Summmoning Chamber, Throne Room, Toolbooth, Torture Chamber, Trap, Trophy Room, Vault, War Room, Workstation",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
+			"{SOURCE Ultimate Campaign/103}",
+			"",
 			"### Storefront",
 			"",
 			"**Earnings** capital +5 (of a type the building already generates)  ",

@@ -16,6 +16,7 @@
 		"description": [
 			"## Abjuration",
 			"",
+			"{SOURCE Occult Adventures/50}  ",
 			"Abjuration implements are objects associated with protection and wards.",
 			"",
 			"**Implements:** Amulet, armor, bell, bracers, brooch, cloak, holy symbol, shield.",
@@ -60,6 +61,7 @@
 		"description": [
 			"## Conjuration",
 			"",
+			"{SOURCE Occult Adventures/51}  ",
 			"Implements used in conjuration allow the occultist to perform magic that transports or calls creatures.",
 			"",
 			"**Implements:** Bowl, brazier, compass, figurine, lantern, mirror.",
@@ -101,6 +103,7 @@
 		"description": [
 			"## Divination",
 			"",
+			"{SOURCE Occult Adventures/52}  ",
 			"Implements of the divination school grant powers related to foresight and remote viewing.",
 			"",
 			"**Implements:** Book, crystal ball, goggles, harrow deck, headband, lenses, planchette.",
@@ -137,6 +140,7 @@
 		"description": [
 			"## Enchantment",
 			"",
+			"{SOURCE Occult Adventures/53}  ",
 			"Enchantment implements allow the occultist to befuddle the mind and charm his foes.",
 			"",
 			"**Implements:** Censer, crown, helm, musical instrument, necklace.",
@@ -181,6 +185,7 @@
 		"description": [
 			"## Evocation",
 			"",
+			"{SOURCE Occult Adventures/54}  ",
 			"Implements focused on evocation grant the ability to create and direct energy to protect and to destroy.",
 			"",
 			"**Implements:** Gloves, rod, staff, wand.",
@@ -225,6 +230,7 @@
 		"description": [
 			"## Illusion",
 			"",
+			"{SOURCE Occult Adventures/55}  ",
 			"Illusion implements allow the occultist to distort the senses and cloak creatures from sight.",
 			"",
 			"**Implements:** Crystal, hat, mask, prism, ring.",
@@ -269,6 +275,7 @@
 		"description": [
 			"## Necromancy",
 			"",
+			"{SOURCE Occult Adventures/56}  ",
 			"Implements that draw power from necromancy can control undead and harm the living.",
 			"",
 			"**Implements:** Bone, coin, doll, drum, robe, skull.",
@@ -313,6 +320,7 @@
 		"description": [
 			"## Transmutation",
 			"",
+			"{SOURCE Occult Adventures/57}  ",
 			"Transmutation implements can alter the properties of both objects and creatures.",
 			"",
 			"**Implements:** Belt, boots, sandals, vest, weapon.",
@@ -354,6 +362,7 @@
 		"description": [
 			"## Mage's Paraphernalia",
 			"",
+			"{SOURCE Psychic Anthology/26}  ",
 			"This panoply is associated with the arcane arts and the masters of manipulating magic.",
 			"",
 			"**Implements:** Crystal ball (divination), robe (necromancy), and wand (evocation).",
@@ -381,6 +390,7 @@
 		"description": [
 			"## Performer's Accoutrements",
 			"",
+			"{SOURCE Psychic Anthology/27}  ",
 			"This panoply is associated with those who deceive as well as those who entertain.",
 			"",
 			"**Implements:** Mask (illusion) and musical instrument (enchantment).",
@@ -408,6 +418,7 @@
 		"description": [
 			"## Saint's Holy Regalia",
 			"",
+			"{SOURCE Psychic Anthology/27}  ",
 			"This panoply is associated with devoted members of a good-aligned faith and the power of belief.",
 			"",
 			"**Implements:** Censer (conjuration) and holy symbol (abjuration).",
@@ -435,6 +446,7 @@
 		"description": [
 			"## Trappings of the Warrior",
 			"",
+			"{SOURCE Psychic Anthology/28}  ",
 			"This panoply is associated with brave and stalwart warriors, martial skill, and the defense of one's allies.",
 			"",
 			"**Implements:** Shield (abjuration) and weapon (transmutation).",

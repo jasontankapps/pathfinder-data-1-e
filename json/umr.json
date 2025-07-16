@@ -1007,10 +1007,7 @@
 	},
 	"natural_attacks": {
 		"name": "Natural Attacks",
-		"sources": [
-			"Bestiary 3",
-			"Bestiary 5"
-		],
+		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Natural Attacks",
 			"",
@@ -1420,7 +1417,10 @@
 	},
 	"trample": {
 		"name": "Trample",
-		"sources": [ "Bestiary 5" ],
+		"sources": [
+			"Bestiary 5",
+			"Pathfinder RPG Bestiary"
+		],
 		"description": [
 			"## Trample (Ex)",
 			"",

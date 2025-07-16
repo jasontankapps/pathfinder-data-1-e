@@ -8,6 +8,7 @@
 				[
 					"## Subtypes",
 					"",
+					"{SOURCE Pathfinder Unchained/29}  ",
 					"The first time a summoner calls his {sidekick/unchained_<eidolon}, he must decide on its subtype. The eidolon's subtype determines a number of its base statistics and abilities, as well as its overall look and theme. The subtype also determines what sort of {ability/unchained_<evolutions} the summoner can select for his eidolon using the evolution pool. Once the choice of subtype is made, it cannot be changed.",
 					"",
 					"As a summoner gains levels, his eidolon gains specific evolutions based on its subtype. Each subtype entry below includes the following information.",
@@ -24,6 +25,7 @@
 					"",
 					"#### Eidolons and Alignment",
 					"",
+					"{SOURCE Pathfinder Unchained/35}  ",
 					"Generally, the summoner controls the actions of his eidolon, even during combat, either through verbal commands or through the link ability, but this does not mean that the eidolon is a puppet that follows every command without question. Eidolons have been known to refuse actions that are against their ethoses or alignments (subject to the GM's discretion) and are quick to chide the summoner about such requests. In addition, should the action of the summoner cause a shift in alignment such that the summoner's alignment is more than one step away from the eidolon's, the eidolon refuses the call of the summoner (although the summoner can still use his summon monster class feature). If the summoner manages to restore his alignment, the eidolon returns to his service."
 				],
 				{
@@ -160,24 +162,11 @@
 	},
 	"magus_arcana": {
 		"name": "Magus Arcana",
-		"sources": [
-			"Advanced Class Guide",
-			"Agents of Evil",
-			"Bastards of Golarion",
-			"Blood of the Moon",
-			"Disciple's Doctrine",
-			"Heroes of the Streets",
-			"Magical Marketplace",
-			"Monster Summoner's Handbook",
-			"Ranged Tactics Toolbox",
-			"The Harrow Handbook",
-			"Ultimate Combat",
-			"Ultimate Magic"
-		],
+		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"## Magus Arcana",
 			"",
-			"{SOURCE Ultimate Magic}  ",
+			"{SOURCE Ultimate Magic/10}  ",
 			"As he gains levels, a magus learns arcane secrets tailored to his specific way of blending martial puissance and magical skill. Starting at 3rd level, a magus gains one magus arcana. He gains an additional magus arcana for every three levels of magus attained after 3rd level. Unless specifically noted in a magus arcana's description, a magus cannot select a particular magus arcana more than once. Magus arcana that affect spells can only be used to modify spells from the {main/spells_<magus/ spell list} unless otherwise noted.",
 			"",
 			"{table0}"
@@ -494,34 +483,11 @@
 	},
 	"mysteries": {
 		"name": "Oracle Mysteries",
-		"sources": [
-			"Advanced Player's Guide",
-			"Blood of Shadows",
-			"Blood of the Moon",
-			"Elemental Master's Handbook",
-			"Faiths and Philosophies",
-			"Healer's Handbook",
-			"Heroes of the Streets",
-			"Inner Sea Magic",
-			"Legacy of Dragons",
-			"Legacy of the First World",
-			"Monster Codex",
-			"Occult Mysteries",
-			"Path of the Hellknight",
-			"Pathfinder #139: The Dead Road",
-			"Pathfinder #39: The City of Seven Spears",
-			"Pathfinder #71: Rasputin Must Die!",
-			"Pathfinder #95: Anvil of Fire",
-			"People of the North",
-			"The Harrow Handbook",
-			"Ultimate Intrigue",
-			"Ultimate Magic",
-			"Villain Codex"
-		],
+		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"## Mysteries",
 			"",
-			"{SOURCE Advanced Player's Guide}  ",
+			"{SOURCE Advanced Player's Guide/45}  ",
 			"Each oracle must choose from among the following mysteries. Unless otherwise noted, the DC to save against these revelations is equal to 10 + 1/2 the oracle's level + the oracle's Charisma modifier.",
 			"",
 			"| Mystery | Deities |",

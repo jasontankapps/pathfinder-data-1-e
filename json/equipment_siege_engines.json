@@ -769,10 +769,7 @@
 	"huge_ram": { "redirect": "ram_huge" },
 	"siege_tower_colossal": {
 		"name": "Siege Tower, colossal",
-		"sources": [
-			"Ultimate Combat",
-			"PRPG Core Rulebook"
-		],
+		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## Siege Tower",
 			"{SOURCE Ultimate Combat/166}",

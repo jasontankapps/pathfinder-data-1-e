@@ -134,7 +134,7 @@
 		"description": [
 			"{SOURCE PRPG Core Rulebook/140}",
 			"",
-			"From the common longsword to the exotic dwarven urgrosh, [weapons](main/equipment_weapons) come in a wide variety of shapes and sizes.",
+			"From the common longsword to the exotic dwarven urgrosh, {main/equipment_<weapons} come in a wide variety of shapes and sizes.",
 			"",
 			"All weapons deal hit point damage. This damage is subtracted from the current hit points of any creature struck by the weapon. When the result of the die roll to make an attack is a natural 20 (that is, the die actually shows a 20), this is known as a critical threat (although some weapons can score a critical threat on a roll of less than 20). If a critical threat is scored, another attack roll is made, using the same modifiers as the original attack roll. If this second attack roll is equal to or greater than the target's AC, the hit becomes a critical hit, dealing additional damage.",
 			"",

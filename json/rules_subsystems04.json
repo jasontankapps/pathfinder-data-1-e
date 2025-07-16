@@ -3124,6 +3124,7 @@
 		"subtitle": "Undead Hunger, Optional Subsystems",
 		"sources": [ "Blood of the Night" ],
 		"description": [
+			"{SOURCE Blood of the Night/22}  ",
 			"For vampires, managing their hunger is an integral part of unlife. Some revel in the feast, but for others it is nothing but a constant source of stress and shame. A vampire who refuses to feed on intelligent beings is relegated to the dull taste of animal blood out of necessity, and forsakes the euphoria of a true feed.",
 			"",
 			"Some see little choice but to give in to their desires with resignation. The joy dulls and the process becomes rote, but they accept it as part of their nature and never seek to break the cycle. This is especially true of spawn still under the control of their creator, who often view their hunger as just another restriction on their freedom.",
@@ -3148,6 +3149,7 @@
 		"subtitle": "Undead Hunger, Optional Subsystems",
 		"sources": [ "Blood of the Night" ],
 		"description": [
+			"{SOURCE Blood of the Night/22}  ",
 			"Where the living suffer physically from starvation, undead suffer mentally. After long enough without a \"meal,\" even the most arrogant vampire becomes a bestial creature of instinct. Withdrawal weakens the monster, and as its natural defenses fail, its behavior becomes irrational, particularly when it's around sources of what it is denied or has denied itself.",
 			"",
 			"A carnivorous or otherwise life-draining undead may safely go a number of days equal to its Hit Dice without a dose of its preferred meal before it starts to feel the effects of hunger. Each additional day after this grace period, the undead must make a Will save (DC 10 + 1/2 the undead creature's Hit Dice, + 1 for each previous check). If the undead creature fails its save, it enters withdrawal and begins to take penalties according to the [Withdrawal Penalties table](rule/withdrawal_effects). It must continue to save each day until it feeds again. Additional failed checks increase the penalties as shown on the table. Feats and abilities that affect mortal hunger (such as {feat/Endurance} or a {magic-ring/ring of sustenance}) do not apply to vampire hunger.",
@@ -3172,6 +3174,7 @@
 		"subtitle": "Undead Hunger, Optional Subsystems",
 		"sources": [ "Blood of the Night" ],
 		"description": [
+			"{SOURCE Blood of the Night/22}  ",
 			"An undead that hasn't fed recently suffers from withdrawal, depending on the number of hunger saves it has failed. As shown on the Withdrawal Penalties table, an undead creature suffering from withdrawal takes penalties to channel resistance, on Will saves, to Strength and Charisma scores, to damage reduction, to fast healing, and on Disguise checks. The withdrawal penalties apply only if the creature has the ability in question. For example, a hungry moroi's damage reduction decreases, but a hungry ghoul ignores that column because it doesn't have damage reduction. All penalties are removed when the creature completes a single feeding. This only ends the withdrawal penalties, and does not grant the creature any feeding bonuses beyond those granted by the creature's ability associated with feeding.",
 			"",
 			"If the undead's Strength or Charisma penalties equal its Strength or Charisma, it becomes inert, helpless, and wracked by nightmares of hunger; it only revives if fed by another. An undead creature's channel resistance, damage reduction, and fast healing cannot fall below 0.",
@@ -3207,6 +3210,7 @@
 		"subtitle": "Undead Hunger, Optional Subsystems",
 		"sources": [ "Blood of the Night" ],
 		"description": [
+			"{SOURCE Blood of the Night/23}  ",
 			"What constitutes a feeding differs for each undead creature according to its own addiction. For creatures with a blood drain, level drain, or ability drain ability, each use of that ability counts as a feeding. Hungering creatures that lack a drain ability, such as zombies and ghouls, count consuming 1 pound of flesh as feeding (larger and smaller undead require proportionately more or less flesh). For these creatures, the flesh of a creature that has been dead for more than 1 hour staves off withdrawal but does not grant any other benefits, such as feeding bonuses (see below).",
 			"",
 			"If an undead creature can sate its hunger by feeding on a living creature with an Intelligence score of 5 or higher, it gains the following benefits from the feeding. These benefits are in addition to any listed in the creature's feeding-related ability.",

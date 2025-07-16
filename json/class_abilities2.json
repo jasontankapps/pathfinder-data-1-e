@@ -329,7 +329,7 @@
 		"description": [
 			"## Kineticist Elements",
 			"",
-			"{SOURCE Occult Adventures}  ",
+			"{SOURCE Occult Adventures/14}  ",
 			"A kineticist can choose from among the following elements. Infusion wild talents are marked with a dagger (&dagger;); all other wild talents listed below from 1st-9th are utility wild talents.",
 			"",
 			"::h3[Aether]{jl}",
@@ -476,6 +476,7 @@
 			"",
 			"::h3[Void]{jl}",
 			"",
+			"{SOURCE Occult Origins/6}  ",
 			"Like aether, void forms where elemental energy meets another material, in this case the substance of the Negative Energy Plane. Chaokineticists command this strange force in a way that in some respects resembles the manipulation of aether.",
 			"",
 			"**Class Skills:** A chaokineticist adds Knowledge (dungeoneering) and Escape Artist to her list of class skills.",
@@ -532,6 +533,7 @@
 			"",
 			"::h3[Wood]{jl}",
 			"",
+			"{SOURCE Ultimate wilderness/58}  ",
 			"Kineticists who focus on the concept of wood as an element are known as phytokineticists. Phytokineticists share a strong bond with the First World and channel the power of primordial life. As there is no \"Elemental Plane of Wood,\" the phytokineticist draws upon pockets of vital energy that form when the Elemental Planes grind against the borders of the First World.",
 			"",
 			"**Class Skills:** A phytokineticist adds Handle Animal and Knowledge (nature) to her list of class skills.",
@@ -656,11 +658,7 @@
 	},
 	"unchained_evolutions": {
 		"name": "Unchained Eidolon Evolutions",
-		"sources": [
-			"Pathfinder Unchained",
-			"Horror Realms",
-			"Legacy of the First World"
-		],
+		"sources": [ "Pathfinder Unchained" ],
 		"compileFrom": {
 			"source": "unchevolution",
 			"targets": [
@@ -837,21 +835,9 @@
 	"familiars": {
 		"name": "Familiars",
 		"sources": [
-			"Animal Archive",
-			"Bestiary 3",
-			"Bestiary 4",
-			"Bestiary 5",
-			"Druma, Profit and Prophecy",
 			"Familiar Folio",
-			"Pathfinder #115: Trail of the Hunted",
-			"Pathfinder #118: Siege of Stone",
-			"Pathfinder #119: Prisoners of the Blight",
-			"Pathfinder #124: City in the Deep",
-			"Pathfinder #25: The Bastards of Erebus",
-			"Pathfinder #85: Fires of Creation",
 			"PRPG Core Rulebook",
-			"Reign of Winter Player's Guide",
-			"Ultimate Wilderness"
+			"Ultimate Magic"
 		],
 		"description": [
 			"## Familiars",
@@ -1036,12 +1022,7 @@
 	},
 	"greater_exploits": {
 		"name": "Greater Exploits",
-		"sources": [
-			"Advanced Class Guide",
-			"Disciple's Doctrine",
-			"Heroes of Golarion",
-			"Plane-Hopper's Handbook"
-		],
+		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Greater Exploits",
 			"",
@@ -1200,10 +1181,7 @@
 	},
 	"hellknight_orders": {
 		"name": "Hellknight Orders",
-		"sources": [
-			"Path of the Hellknight",
-			"Pathfinder #98: Turn of the Torrent"
-		],
+		"sources": [ "Inner Sea World Guide" ],
 		"description": [
 			"## Hellknight Orders",
 			"",
@@ -1305,47 +1283,11 @@
 	},
 	"improved_familiars": {
 		"name": "Improved Familiars",
-		"sources": [
-			"Advanced Race Guide",
-			"Bestiary 2",
-			"Bestiary 3",
-			"Bestiary 4",
-			"Bestiary 5",
-			"Cheliax, the Infernal Empire",
-			"Construct Handbook",
-			"Curse of the Crimson Throne",
-			"Familiar Folio",
-			"Gallows of Madness",
-			"Heroes from the Fringe",
-			"Inner Sea Bestiary",
-			"Ire of the Storm",
-			"Legacy of Dragons",
-			"Monster Codex",
-			"Nidal, Land of Shadows",
-			"Occult Bestiary",
-			"Pathfinder #103: The Hellfire Compact",
-			"Pathfinder #107: Scourge of the Godclaw",
-			"Pathfinder #128: Songbird, Scion, Saboteur",
-			"Pathfinder #133: Secrets of Roderic's Cove",
-			"Pathfinder #19: Howl of the Carrion King",
-			"Pathfinder #2: The Skinsaw Murders",
-			"Pathfinder #31: Stolen Land",
-			"Pathfinder #36: Sound of a Thousand Screams",
-			"Pathfinder #40: Vaults of Madness",
-			"Pathfinder #43: Haunting of Harrowstone",
-			"Pathfinder #47: Ashes at Dawn",
-			"Pathfinder #55: The Wormwood Mutiny",
-			"Pathfinder #58: Island of Empty Eyes",
-			"Pathfinder #61: Shards of Sin",
-			"Pathfinder #63: The Asylum Stone",
-			"Pathfinder #73: The Worldwound Incursion",
-			"Pathfinder #87: The Choking Tower",
-			"PRPG Core Rulebook",
-			"Ultimate Magic"
-		],
+		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"## Improved Familiars",
 			"",
+			"{SOURCE PRPG Core Rulebook}",
 			"The {feat/Improved Familiar} feat allows you to acquire a powerful familiar, but only when you could normally acquire a new familiar.",
 			"",
 			"When choosing a familiar, the creatures listed below are also available to you. You may choose a familiar with an alignment up to one step away on each alignment axis (lawful through chaotic, good through evil).",
@@ -1531,7 +1473,7 @@
 			"- {monster/Pseudodragon}",
 			"- {monster/Silvanshee/ agathion}",
 			"",
-			"[^C]: A clockwork familiar needs crafting; see monstery entry",
+			"[^C]: A clockwork familiar needs crafting; see monster entry",
 			"[^T]: This may be replaced with any other animal from the standard {ability/familiar} list, with the appropriate template ({template/celestial}, {template/entropic}, {template/fey-touched}, {template/fiendish}, or {template/resolute}) applied to it.",
 			"[^H]: The master must first create the homunculus.",
 			"[^P]: The pyrausta's heart spark glows slightly less brightly, but more steadily. This removes its fast healing ability and heart of flame special abilities.",
@@ -1542,20 +1484,11 @@
 	},
 	"infusion_wild_talents": {
 		"name": "Infusions",
-		"sources": [
-			"Elemental Master's Handbook",
-			"Heroes of Golarion",
-			"Martial Arts Handbook",
-			"Occult Adventures",
-			"Occult Origins",
-			"Plane-Hopper's Handbook",
-			"Psychic Anthology",
-			"Ultimate Wilderness",
-			"Wilderness Origins"
-		],
+		"sources": [ "Occult Adventures" ],
 		"description": [
 			"## Infusion Wild Talents",
 			"",
+			"{SOURCE Occult Adventures/17}  ",
 			"Infusion wild talents change the way kineticists use their kinetic blasts.",
 			"",
 			"{table0}"

@@ -1758,10 +1758,7 @@
 		"name": "Backpack (common)",
 		"sources": [
 			"Ultimate Equipment",
-			"Ultimate Wilderness",
-			"PRPG Core Rulebook",
-			"Adventurer's Armory",
-			"Advanced Player's Guide"
+			"PRPG Core Rulebook"
 		],
 		"description": [
 			"## Backpack",
@@ -4081,10 +4078,7 @@
 	},
 	"cauldron_mithral": {
 		"name": "Cauldron (mithral)",
-		"sources": [
-			"Ultimate Equipment",
-			"Advanced Player's Guide"
-		],
+		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Cauldron",
 			"{SOURCE Ultimate Equipment/56}  ",
@@ -4421,8 +4415,7 @@
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide",
-			"Adventurer's Armory",
-			"PRPG Core Rulebook"
+			"Adventurer's Armory"
 		],
 		"description": [
 			"## Chest",

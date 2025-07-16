@@ -13,12 +13,7 @@
 			"Ultimate Wilderness",
 			"Goblins of Golarion",
 			"Horror Adventures",
-			"Blood of the Beast",
-			"Ultimate Intrigue",
-			"Disciple's Doctrine",
-			"Inner Sea Combat",
-			"Advanced Class Guide",
-			"Aquatic Adventures"
+			"Blood of the Beast"
 		],
 		"description": [
 			"## Ranger",
@@ -784,7 +779,6 @@
 		"sources": [
 			"Blood of the Beast",
 			"Chronicle of Legends",
-			"Heroes of Golarion",
 			"Ultimate Wilderness",
 			"Wilderness Origins"
 		],
@@ -1946,34 +1940,16 @@
 	"barbarian": {
 		"name": "Barbarian",
 		"sources": [
-			"Advanced Class Guide",
 			"Advanced Player's Guide",
 			"Advanced Race Guide",
-			"Agents of Evil",
-			"Animal Archive",
-			"Blood of the Elements",
-			"Blood of the Moon",
 			"Blood of Shadows",
 			"Blood of the Beast",
-			"Champions of Balance",
-			"Champions of Corruption",
-			"Champions of Purity",
 			"Chronicle of Legends",
-			"Demon Hunter's Handbook",
-			"Dirty Tactics Toolbox",
 			"Horror Adventures",
 			"Kobolds of Golarion",
-			"Legacy of the First World",
 			"Monster Codex",
-			"Pathfinder #139: The Dead Road",
-			"People of the River",
-			"Planes of Power",
 			"PRPG Core Rulebook",
-			"Qadira, Jewel of the East",
-			"Ultimate Combat",
-			"Ultimate Wilderness",
-			"Villain Codex",
-			"Wilderness Origins"
+			"Ultimate Wilderness"
 		],
 		"description": [
 			"## Barbarian",

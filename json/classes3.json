@@ -473,9 +473,7 @@
 			"Blood of the Beast",
 			"Chronicle of Legends",
 			"Horror Adventures",
-			"Occult Adventures",
-			"Occult Origins",
-			"Psychic Anthology"
+			"Occult Adventures"
 		],
 		"description": [
 			"## Occultist",
@@ -820,36 +818,17 @@
 		"sources": [
 			"Advanced Player's Guide",
 			"Advanced Race Guide",
-			"Blood of Shadows",
 			"Blood of the Beast",
-			"Blood of the Moon",
 			"Blood of the Sea",
 			"Chronicle of Legends",
-			"Elemental Master's Handbook",
-			"Faiths and Philosophies",
 			"Goblins of Golarion",
-			"Healer's Handbook",
 			"Heroes of Golarion",
-			"Heroes of the Streets",
 			"Horror Adventures",
-			"Inner Sea Magic",
 			"Legacy of Dragons",
 			"Legacy of the First World",
-			"Monster Codex",
-			"Occult Mysteries",
-			"Path of the Hellknight",
 			"Pathfinder #101: The Kintargo Contract",
-			"Pathfinder #139: The Dead Road",
-			"Pathfinder #39: The City of Seven Spears",
-			"Pathfinder #71: Rasputin Must Die!",
-			"Pathfinder #95: Anvil of Fire",
-			"People of the North",
 			"Plane-Hopper's Handbook",
-			"The Harrow Handbook",
-			"Ultimate Intrigue",
-			"Ultimate Magic",
-			"Ultimate Wilderness",
-			"Villain Codex"
+			"Ultimate Wilderness"
 		],
 		"description": [
 			"## Oracle",
@@ -1303,16 +1282,13 @@
 			"Blood of Shadows",
 			"Blood of the Beast",
 			"Chronicle of Legends",
-			"Divine Anthology",
 			"Healer's Handbook",
 			"Heroes of Golarion",
 			"Horror Adventures",
-			"Inner Sea Combat",
 			"Kobolds of Golarion",
 			"Legacy of Dragons",
 			"Plane-Hopper's Handbook",
-			"PRPG Core Rulebook",
-			"Ultimate Magic"
+			"PRPG Core Rulebook"
 		],
 		"description": [
 			"## Paladin",
@@ -1933,23 +1909,13 @@
 	"psychic": {
 		"name": "Psychic",
 		"sources": [
-			"Adventurer's Guide",
 			"Blood of Shadows",
 			"Blood of the Beast",
-			"Blood of the Coven",
 			"Chronicle of Legends",
 			"Darklands Revisited",
-			"Disciple's Doctrine",
-			"Haunted Heroes Handbook",
-			"Heroes from the Fringe",
 			"Heroes of Golarion",
-			"Heroes of the High Court",
 			"Horror Adventures",
-			"Legacy of the First World",
-			"Occult Adventures",
-			"Occult Origins",
-			"Occult Realms",
-			"Ultimate Wilderness"
+			"Occult Adventures"
 		],
 		"description": [
 			"## Psychic",

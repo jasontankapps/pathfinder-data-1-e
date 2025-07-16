@@ -3403,6 +3403,7 @@
 		"subtitle": "Specific Campaigns",
 		"sources": [ "Technology Guide" ],
 		"description": [
+			"{SOURCE Technology Guide/55}  ",
 			"The technology found in the hands of Numeria's denizens isn't usually pristine. Between languishing in forgotten ruins open to the elements, being used by those ignorant of the nature of this technology, and having no one skilled at building, maintaining, or repairing such devices, most technological items are \"timeworn\" - damaged and malfunctioning (when not completely non-functional). These malfunctions manifest in two ways: limited charges and glitches.",
 			"",
 			"Only technological items that consume charges (including nanite canisters) or are pharmaceutical items can be affected by these timeworn rules, though any technological item can still become broken or non-functional just as any other item.",
@@ -3755,6 +3756,7 @@
 		"subtitle": "Technology, Specific Campaigns",
 		"sources": [ "Technology Guide" ],
 		"description": [
+			"{SOURCE Technology Guide/16}  ",
 			"The process of building technological items has much in common with magic item creation, though it uses different feats, skills, and facilities. As with magic items, the creator invests time and money in the creation process and at the end attempts a single skill check to complete construction. Since technological items do not have caster levels, the DC of this check is defined in the description of each technological item. Failing this check means that the item does not function and the materials are wasted. Failing this check by 5 or more may result in a catastrophic failure, such as electrocution or an explosion, at the GM's discretion.",
 			"",
 			"Unlike magic items, which often require spells as prerequisites for construction, high-tech items require a specialized laboratory with the necessary tools for fabrication. Using a crafting lab to build a high-tech item consumes an amount of power each day. Days when the crafting lab is without power effectively delay continued construction of a high-tech item, but time already spent building the item is not lost. In addition, crafting an item requires an expenditure of time (from a character with the appropriate crafting feat) and an expenditure of money used to secure the technological components and expendable resources needed for the work.",
@@ -3795,6 +3797,7 @@
 		"subtitle": "High-Tech Items, Technology",
 		"sources": [ "Technology Guide" ],
 		"description": [
+			"{SOURCE Technology Guide/16}  ",
 			"Although there is a wide range of technological items, the types of laboratories needed to craft objects are relatively limited. Crafting laboratories are, unfortunately, incredibly rare, and those whose locations are currently known and found in relatively safe regions are firmly controlled. A crafting laboratory is similar to a technological artifact, in that it cannot be assembled or built with current resources. In order to craft a technological item, one must secure a laboratory for use. (This allows GMs to limit the role high-tech crafting plays in any one game; make sure to inform your players of the limited availability of crafting laboratories at the start of your game so they know whether selecting high-tech crafting feats is a useful option for their PCs!)",
 			"",
 			"The six types of laboratories are listed below. Each lab also lists the number of charges required for a day's work on a single project; these numbers are generally rather high, and laboratories that don't draw power from a generator can consume staggering amounts of battery power. A laboratory that uses power from a generator applies the listed charges to that generator's dedicated yield for as long as work on the item continues.",
@@ -3828,6 +3831,7 @@
 		"tags": "hybrid items",
 		"sources": [ "Technology Guide" ],
 		"description": [
+			"{SOURCE Technology Guide/17}  ",
 			"Items with both magical and technological components, such as the {tech-weapon/null blade}, use a special crafting process. The creator must first succeed at a skill check at the listed DC for crafting the technological portion of the item, and then must succeed at a check based on the item's caster level for crafting the magical portion. Any spell or level-based prerequisites not met increase this crafting DC, as described for {rule/magic item creation}. The skill used for each check is based on the item creation feats required by the item. Failure on either check ruins the item. Use the item's listed price as normal for determining crafting time, and the item's cost for raw materials. If the creator has feats or abilities that accelerate item creation, only the least favorable bonus applies. In other words, to create a hybrid item faster, the creator needs to be able to create both magical and technological items faster.",
 			"",
 			"It is also possible to enhance high-tech armor and high-tech weaponry with armor special abilities or weapon special abilities, including magical enhancement bonuses. One could build a +2 {tech-weapon/laser rifle}, a +4 {magic-enh/dancing} humanoid {magic-enh/bane} {tech-weapon/chainsaw}, or a +1 {magic-enh/ghost touch>_a} {tech-armor/spacesuit}. In theory, a magic item creator could even infuse a technological item with {rule/magical |intelligen/ce>t_items}.",
@@ -3852,6 +3856,7 @@
 		"subtitle": "Technology, Specific Campaigns",
 		"sources": [ "Technology Guide" ],
 		"description": [
+			"{SOURCE Technology Guide/17}  ",
 			"New technological items can and should be created, using existing items for inspiration. A new item may resemble an existing magic item, such as how {tech-misc/jetpack/s} function like {magic-wondrous/winged boots}, but there should be differences beyond just battery power to keep technology distinct. When pricing a new technological item, use the [existing guidelines](rule/magic_item_gold_piece_values) for estimating magic item value. There's no extra cost associated with technological items since they have extra weaknesses to go along with their advantages. Items that use charges should be priced as if they were use-activated, not as if they were charged in the way a wand or {magic-ring/ring of the ram} is charged, unless the item is disposable and has 50 or fewer charges, as the assumption is that a newly crafted technological item can be recharged with relative ease."
 		],
 		"parent_topics": [
@@ -3871,6 +3876,7 @@
 		"tags": "radiation poisoning",
 		"sources": [ "Technology Guide" ],
 		"description": [
+			"{SOURCE Technology Guide/55}  ",
 			"Radiation is a very real threat to those who explore the technological ruins of Numeria. Radiation is a poison effect whose initial effect causes Constitution drain and secondary effect causes Strength damage. Radiation poisoning dangers are organized into four categories: low, medium, high, and severe.",
 			"",
 			"@HL[Area of Effect:] Radiation suffuses a spherical area of effect that can extend into solid objects. The closer one gets to the center of an area of radiation, the stronger the radiation effect becomes. Radiation entries list the maximum level of radiation in an area, as well as the radius out to which this radiation level applies. Each increment up to an equal length beyond that radius degrades the radiation strength by one level. For example, a spherical area of high radiation with a radius of 20 feet creates a zone of medium radiation 21 feet to 40 feet from the center in all directions, and a similar zone of low radiation from 41 to 60 feet.",
@@ -3911,6 +3917,7 @@
 		"subtitle": "Specific Campaigns",
 		"sources": [ "Technology Guide" ],
 		"description": [
+			"{SOURCE Technology Guide/56}  ",
 			"Mundane and magical traps can incorporate technological elements in their construction. Computers and AIs can also be connected to traps, allowing them to selectively trigger the traps remotely. Traps that incorporate technology gain the technological type, in addition to their normal type (see the following examples). The following technological triggers are available to traps",
 			"",
 			"@HL[Electric Eyes:] Similar to a visual trigger, the trap incorporates a camera or other visual and audio recording device. Electric eyes typically have darkvision to a range of 120 feet, low-light vision, and a Perception bonus of +15. This trigger adds +1 to the trap's CR and +5 to its crafting DC.",
@@ -3964,6 +3971,7 @@
 		"sources": [ "Technology Guide" ],
 		"subtopics": [ "creating_an_ai" ],
 		"description": [
+			"{SOURCE Technology Guide/58}  ",
 			"Among the most marvelous of technological wonders are artificial intelligences. Each artificial intelligence (or AI) has its own personality and interests, but its actual ability to interact with the world requires a being installed into a robot or structure (known as a host).",
 			"",
 			"When an AI is installed in a technological structure with an integrated computer network, it can manipulate anything that is connected to that structure, such as traps, doors, or weapons. To destroy an AI in a host structure, either the physical device that contains the AI's programming must be destroyed (the magnitude of this task can vary widely - the host may be merely a single computer with hardness 10 and 20 hit points or an entire building that must be destroyed over multiple encounters or adventures) or all three of its ability scores must be reduced to 0 via ability drain effects directed at the AI's core processor (typically a large computer in the most well-defended part of a complex, but sometimes a processor housed in a robot). Ability damage dealt to an AI at best merely inconveniences it, and at worst renders it comatose for a limited time.",
@@ -3993,6 +4001,7 @@
 		"subtitle": "Technology, Specific Campaigns",
 		"sources": [ "Technology Guide" ],
 		"description": [
+			"{SOURCE Technology Guide/58}  ",
 			"An artificial intelligence's stat block is similar to that of an intelligent magic item. Note that these statistics reflect only the intelligence itself, not the host. Building an AI stat block requires the following statistics.",
 			"",
 			"@HL[CR:] An artificial intelligence's CR sets its ability scores, saves, and skill checks. It also sets its XP value for defeating it - this award is typically granted as a story award once the AI has been overcome, but in some cases (such as when an AI is installed in a single robot), this XP award is replaced by the standard XP for defeating that robot.",

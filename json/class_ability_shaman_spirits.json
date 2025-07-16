@@ -387,7 +387,10 @@
 	},
 	"mammoth": {
 		"name": "Mammoth",
-		"sources": [ "Adventurer's Guide" ],
+		"sources": [
+			"Adventurer's Guide",
+			"Advanced Class Origins"
+		],
 		"description": [
 			"## Mammoth",
 			"",

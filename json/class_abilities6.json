@@ -37,31 +37,7 @@
 	"sorcerer_bloodlines": {
 		"name": "Sorcerer Bloodlines",
 		"sources": [
-			"Advanced Player's Guide",
-			"Advanced Race Guide",
-			"Blood of Angels",
-			"Blood of Fiends",
-			"Blood of the Ancients",
-			"Blood of the Elements",
-			"Blood of the Beast",
-			"Champions of Balance",
-			"Distant Realms",
-			"Dragon Empires Primer",
-			"Elemental Master's Handbook",
-			"Haunted Heroes Handbook",
-			"Heroes of Golarion",
-			"Legacy of Dragons",
-			"Legacy of the First World",
-			"Monster Codex",
-			"Occult Adventures",
-			"Orcs of Golarion",
-			"Pathfinder #29: Mother of Flies",
-			"People of the River",
-			"People of the Sands",
-			"Potions and Poisons",
 			"PRPG Core Rulebook",
-			"Qadira, Jewel of the East",
-			"The Harrow Handbook",
 			"Ultimate Magic"
 		],
 		"description": [
@@ -132,17 +108,13 @@
 	"spirits": {
 		"name": "Medium Spirits",
 		"sources": [
-			"Adventurer's Guide",
-			"Blood of the Ancients",
-			"Heroes of Golarion",
-			"Horror Adventures",
 			"Occult Realms",
-			"Pathfinder #132: The Six-Legend Soul",
-			"Psychic Anthology"
+			"Occult Adventures"
 		],
 		"description": [
 			"## Medium Spirits",
 			"",
+			"{SOURCE Occult Adventures/33}  ",
 			"A medium's spirits are entities from the Astral Plane - the clinging echoes of heroes and villains from the distant past, sustained throughout time by myths and legends. The number of spirits is countless, and each has its own idiosyncrasies that make it distinct. Nonetheless, all spirits arise from one of the following six legends: {spirit/archmage}, {spirit/champion}, {spirit/guardian}, {spirit/hierophant}, {spirit/marshal}, or {spirit/trickster}.",
 			"",
 			"### Legendary Spirits",
@@ -186,6 +158,7 @@
 		"name": "Evasion",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
+			"{SOURCE PRPG Core Rulebook}  ",
 			"A character with evasion can avoid damage from many area-effect attacks. If they succeed at a Reflex saving throw against an attack that normally deals half damage on a successful save, they instead take no damage. Evasion can be used only if a character is wearing light armor or no armor. A {misc/helpless} character does not gain the benefit of evasion.",
 			"",
 			"This ability is gained at 2nd level by the {class/rogue}, {class/monk}, {class/unchained rogue}, {class/unchained monk}, {sidekick/eidolon}, and {sidekick/unchained eidolon}, and at 3rd level by {sidekick/animal companion/s}. A {class/ranger} gains it at 9th level, and it applies when wearing medium armor, too."
@@ -195,6 +168,7 @@
 		"name": "Improved Evasion",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
+			"{SOURCE PRPG Core Rulebook}  ",
 			"This is an improved version of {ability/evasion}. The character still takes no damage on a successful Reflex saving throw against attacks, but henceforth they take only half damage on a failed save. A {misc/helpless} character does not gain the benefit of improved evasion.",
 			"",
 			"This ability is gained by {sidekick/familiar/s} at 1st level, and at 9th level by the {class/monk} and {class/unchained monk}. Rogues and unchained rogues can access it via the {talent/improved evasion} advanced rogue talent. An {sidekick/eidolon} or {sidekick/unchained eidolon} gains this ability at 14th level, and an {sidekick/animal companion} gains it at 15th level. The {class/ranger} gains it at 16th level, and it applies when wearing medium armor, too."
@@ -204,6 +178,7 @@
 		"name": "Uncanny Dodge",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
+			"{SOURCE PRPG Core Rulebook}  ",
 			"A character with this ability can react to danger before their senses would normally allow them to do so. They cannot be caught flat-footed, nor do they lose their Dexterity bonus to AC if the attacker is invisible. They still loses their Dexterity bonus to AC if immobilized, or if an opponent successfully uses the feint action against them.",
 			"",
 			"This ability is gained at 2nd level by the {class/bloodrager}, {class/barbarian}, and {class/unchained barbarian}. It is gained at 4th level by the {class/rogue}, {class/unchained rogue}, {class/ninja}, and {class/skald}.",
@@ -215,6 +190,7 @@
 		"name": "Improved Uncanny Dodge",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
+			"{SOURCE PRPG Core Rulebook}  ",
 			"A character with this ability can no longer be flanked. This defense denies rogues (or other classes with the {ability/sneak attack} ability) the ability to sneak attack them by flanking them, unless the attacker has at least four more rogue levels (or levels in the class granting sneak attack) than the target has levels in the class that grants improved uncanny dodge.",
 			"",
 			"This ability is gained at 5th level by the {class/bloodrager}, {class/barbarian}, and {class/unchained barbarian}, and at 8th level by the {class/rogue}, {class/unchained rogue}, {class/ninja}, and {class/skald}.",
@@ -226,6 +202,7 @@
 		"name": "Wild Empathy",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
+			"{SOURCE PRPG Core Rulebook}  ",
 			"A character with this ability can improve the initial attitude of an animal. This ability functions as a {skill/Diplomacy} check to improve the attitude of a person. The character rolls 1d20 and adds their class level (the level of the class that grants them wild empathy) and their Charisma modifier to determine the wild empathy check result. The typical domestic animal has a starting attitude of indifferent, while wild animals are usually unfriendly.",
 			"",
 			"To use wild empathy, the character and the animal must be within 30 feet of one another under normal conditions. Generally, influencing an animal in this way takes 1 minute but, as with influencing people, it might take more or less time.",
@@ -239,6 +216,7 @@
 		"name": "Favored Enemy",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
+			"{SOURCE PRPG Core Rulebook}  ",
 			"At 1st level, a {class/ranger} selects a creature type from the options below. He gains a +2 bonus on Bluff, Knowledge, Perception, Sense Motive, and Survival checks against creatures of his selected type. Likewise, he gets a +2 bonus on weapon attack and damage rolls against them. A ranger may make Knowledge skill checks untrained when attempting to identify these creatures.",
 			"",
 			":::div{className=columnar}",
@@ -288,6 +266,7 @@
 		"name": "Favored Terrain",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
+			"{SOURCE PRPG Core Rulebook}  ",
 			"At 3rd level, a {class/ranger} may select a type of terrain from the Favored Terrains table. The ranger gains a +2 bonus on initiative checks and Knowledge (geography), Perception, Stealth, and Survival skill checks when he is in this terrain. A ranger traveling through his favored terrain normally leaves no trail and cannot be tracked (though he may leave a trail if he so chooses).",
 			"",
 			"| Favored Terrain |",
@@ -313,6 +292,7 @@
 		"name": "Woodland Stride",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
+			"{SOURCE PRPG Core Rulebook}  ",
 			"Starting at 2nd level, a {class/druid} may move through any sort of undergrowth (such as natural thorns, briars, overgrown areas, and similar terrain) at her normal speed and without taking damage or suffering any other impairment. Thorns, briars, and overgrown areas that have been magically manipulated to impede motion, however, still affect her.",
 			"",
 			"{class/Shifter/s} gain this feature at 3rd level. A {class/hunter} and their animal companion gain it at 5th level, while {class/ranger/s} gain it at 7th level."
@@ -322,6 +302,7 @@
 		"name": "Trackless Step",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
+			"{SOURCE PRPG Core Rulebook}  ",
 			"Starting at 3rd level, a {class/druid} leaves no trail in natural surroundings and cannot be tracked. She may choose to leave a trail if so desired.",
 			"",
 			"A {class/shifter} gains this feature at 5th level."
@@ -331,6 +312,7 @@
 		"name": "Resist Nature's Lure",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
+			"{SOURCE PRPG Core Rulebook}  ",
 			"Starting at 4th level, a druid gains a +4 bonus on saving throws against the spell-like and supernatural abilities of {type/fey}. This bonus also applies to spells and effects that utilize or target plants, such as {spell/blight}, {spell/entangle}, {spell/spike growth}, and {spell/warp wood}."
 		]
 	},
@@ -338,6 +320,7 @@
 		"name": "Poison Use",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
+			"{SOURCE Advanced Player's Guide}  ",
 			"{class/Alchemist/s} are trained in the use of poison and starting at 2nd level, cannot accidentally poison themselves when applying poison to a weapon.",
 			"",
 			"{class/Ninja/s} gain this ability at 1st level."
@@ -347,6 +330,7 @@
 		"name": "Trapfinding",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
+			"{SOURCE PRPG Core Rulebook}  ",
 			"A {class/rogue} or {class/investigator} adds 1/2 her level to Perception skill checks made to locate traps and to Disable Device skill checks (minimum +1). A rogue or investigator can use Disable Device to disarm magic traps."
 		]
 	},
@@ -354,6 +338,7 @@
 		"name": "Lay on Hands",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
+			"{SOURCE PRPG Core Rulebook}  ",
 			"Beginning at 2nd level, a {class/paladin} can heal wounds (her own or those of others) by touch. Each day she can use this ability a number of times equal to 1/2 her paladin level plus her Charisma modifier. With one use of this ability, a paladin can heal 1d6 hit points of damage for every two paladin levels she possesses. Using this ability is a standard action, unless the paladin targets herself, in which case it is a swift action. Despite the name of this ability, a paladin only needs one free hand to use this ability.",
 			"",
 			"Alternatively, a paladin can use this healing power to deal damage to undead creatures, dealing 1d6 points of damage for every two levels the paladin possesses. Using lay on hands in this way requires a successful melee touch attack and doesn't provoke an attack of opportunity. Undead do not receive a saving throw against this damage."
@@ -366,6 +351,7 @@
 			"Advanced Class Guide"
 		],
 		"description": [
+			"{SOURCE PRPG Core Rulebook;Advanced Class Guide}  ",
 			"This is an intuitive sense that alerts a character to danger from traps, giving her a +1 bonus on Reflex saves made to avoid traps and a +1 dodge bonus to AC against attacks made by traps. These bonuses rise to +2 when she reaches 6th level, to +3 when she reaches 9th level, to +4 when she reaches 12th level, to +5 at 15th, and to +6 at 18th level.",
 			"",
 			"Trap sense bonuses gained from multiple classes stack.",
@@ -380,6 +366,7 @@
 			"Ultimate Combat"
 		],
 		"description": [
+			"{SOURCE PRPG Core Rulebook;Ultimate Combat}  ",
 			"Sneak Attack is a signature ability of the {class/rogue} (and {class/unchained rogue}).",
 			"",
 			"If a rogue can catch an opponent when he is unable to defend himself effectively from her attack, she can strike a vital spot for extra damage.",
@@ -400,6 +387,7 @@
 			"Advanced Player's Guide"
 		],
 		"description": [
+			"{SOURCE PRPG Core Rulebook;Advanced Player's Guide}  ",
 			"At 1st level, regardless of alignment, any {class/cleric} can release a wave of energy by channeling the power of her faith through her holy (or unholy) symbol. This energy can be used to cause or heal damage, depending on the type of energy channeled and the creatures targeted.",
 			"",
 			"A good cleric (or one who worships a good deity) channels positive energy and can choose to deal damage to undead creatures or to heal living creatures. An evil cleric (or one who worships an evil deity) channels negative energy and can choose to deal damage to living creatures or to heal undead creatures. A neutral cleric who worships a neutral deity (or one who is not devoted to a particular deity) must choose whether she channels positive or negative energy. Once this choice is made, it cannot be reversed. This decision also determines whether the cleric casts spontaneous {main/cure or inflict |spell/s>_groupings}.",
@@ -494,6 +482,7 @@
 		"description": [
 			"## Animal Tricks",
 			"",
+			"{SOURCE PRPG Core Rulebook;Animal Archive;Ultimate Wilderness}  ",
 			"This is a list of tricks (and their associated DCs) that can be taught to animals using the {skill/Handle Animal} skill.",
 			"",
 			"---",

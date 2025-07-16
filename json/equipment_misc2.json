@@ -1331,11 +1331,7 @@
 	},
 	"grog_cup": {
 		"name": "Grog (cup)",
-		"sources": [
-			"Ultimate Equipment",
-			"Adventurer's Armory",
-			"Pirates of the Inner Sea"
-		],
+		"sources": [ "Pirates of the Inner Sea" ],
 		"description": [
 			"## Grog",
 			"{SOURCE Pirates of the Inner Sea/21}  ",
@@ -2036,10 +2032,7 @@
 	},
 	"holy_symbol_gold_compartment": {
 		"name": "Holy symbol (gold, compartment)",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook"
-		],
+		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Holy symbol (compartment)",
 			"{SOURCE Ultimate Equipment/57}  ",
@@ -2072,10 +2065,7 @@
 	"holy_symbol_compartment_wooden": { "redirect": "holy_symbol_wooden_compartment" },
 	"holy_symbol_gold_flask": {
 		"name": "Holy symbol (gold, flask)",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook"
-		],
+		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Holy symbol (flask)",
 			"{SOURCE Ultimate Equipment/57}  ",
@@ -2110,7 +2100,6 @@
 		"name": "Holy symbol (gold)",
 		"sources": [
 			"Ultimate Equipment",
-			"PRPG Core Rulebook",
 			"NPC Codex"
 		],
 		"description": [
@@ -3804,11 +3793,7 @@
 	"superior_lock": { "redirect": "lock_superior" },
 	"lock_of_the_saved_average": {
 		"name": "Lock of the saved (average)",
-		"sources": [
-			"Adventurer's Armory",
-			"Ultimate Equipment",
-			"PRPG Core Rulebook"
-		],
+		"sources": [ "Adventurer's Armory" ],
 		"description": [
 			"## Lock of the saved",
 			"{SOURCE Adventurer's Armory/25}  ",
@@ -4133,13 +4118,7 @@
 	},
 	"manacles_with_barbs_common": {
 		"name": "Manacles with barbs (common)",
-		"sources": [
-			"Advanced Race Guide",
-			"Path of the Hellknight",
-			"Ultimate Equipment",
-			"PRPG Core Rulebook",
-			"Melee Tactics Toolbox"
-		],
+		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Manacle barbs",
 			"{SOURCE Advanced Race Guide/123}  ",
