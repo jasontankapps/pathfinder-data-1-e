@@ -976,7 +976,7 @@ Object.entries(all_usable_groups).forEach((pairing, groupindex) => {
 		// Get data
 		const {
 			name: n, title: t, description: d, copyof,
-			sources, tables, topLink, parent_topics,
+			sources = [], tables, topLink, parent_topics,
 			subtopics, siblings, noFinder, className,
 			nameSuffix, compilationSources, redirect,
 			compileFrom, addenda, disambiguation
@@ -1024,19 +1024,21 @@ Object.entries(all_usable_groups).forEach((pairing, groupindex) => {
 				}
 				break;
 			case "compileable":
-				info.title = n;
-				info.topLink = topLink;
-				info.addenda = addenda;
-				converted = convertCompileableDescription(
-					temporaryFlags,
-					template,
-					d,
-					n,
-					nameSuffix,
-					`${link}-${prop}-`,
-					compilationSources
-				);
-				info.sources = converted.pop();
+				if(!redirect) {
+					info.title = n;
+					info.topLink = topLink;
+					info.addenda = addenda;
+					converted = convertCompileableDescription(
+						temporaryFlags,
+						template,
+						d,
+						n,
+						nameSuffix,
+						`${link}-${prop}-`,
+						compilationSources
+					);
+					info.sources = converted.pop();
+				}
 				break;
 			case "rule":
 				info.parent_topics = parent_topics;
