@@ -32,11 +32,11 @@
 			"**Aura** faint abjuration and transmutation; **CL** 5th  ",
 			"**Slot** feet; **Price** 2,500 gp; **Weight** 1 lb.",
 			"",
-			"The wearer of these boots is able to travel across snow at her normal speed, leaving no tracks. Additionally, the boots enable her to travel at normal speed across the slipperiest ice (horizontal surfaces only, not vertical or sharply slanted ones) without falling or slipping. Finally, boots of the winterlands warm the wearer, as if she were affected by an {spell/endure elements} spell.",
+			"The wearer of these boots is able to travel across snow at her normal speed, leaving no tracks. Additionally, the boots enable her to travel at normal speed across the slipperiest ice (horizontal surfaces only, not vertical or sharply slanted ones) without falling or slipping. Finally, boots of the winterlands warm the wearer, as if she were affected by an *endure elements* spell.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/cat's grace}, *endure elements,* {spell/pass without trace}; **Cost** 1,250 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/cat's grace}, {spell/endure elements}, {spell/pass without trace}; **Cost** 1,250 gp"
 		]
 	},
 	"horseshoes_of_great_burden": {
@@ -1112,11 +1112,11 @@
 			"**Aura** moderate transmutation; **CL** 10th  ",
 			"**Slot** feet; **Price** 20,000 gp; **Weight** -;",
 			"",
-			"Crafted of stout, wax-treated leather and wrapped with warm fur reminiscent of a frost giant's beard, these boots are sometimes given as gifts by the frost giant tribes of the north to their smaller allies. In addition to functioning as boots of the winterlands, the boots of the winter jarl enable their wearer to take the form of a frost giant once per day, as with the {spell/giant form I} spell. While in giant form, the wearer gains a +6 size bonus to Strength, a -2 penalty to Dexterity, a +4 size bonus to Constitution, a +4 natural armor bonus, low-light vision, rock catching, rock throwing, and resist cold 20, but also gains vulnerability to fire. The wearer can remain in giant form for up to 10 minutes.",
+			"Crafted of stout, wax-treated leather and wrapped with warm fur reminiscent of a frost giant's beard, these boots are sometimes given as gifts by the frost giant tribes of the north to their smaller allies. In addition to functioning as boots of the winterlands, the boots of the winter jarl enable their wearer to take the form of a frost giant once per day, as with the *giant form I* spell. While in giant form, the wearer gains a +6 size bonus to Strength, a -2 penalty to Dexterity, a +4 size bonus to Constitution, a +4 natural armor bonus, low-light vision, rock catching, rock throwing, and resist cold 20, but also gains vulnerability to fire. The wearer can remain in giant form for up to 10 minutes.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/cat's grace}, {spell/endure elements}, *giant form I,* {spell/pass without trace}; **Cost** 10,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/cat's grace}, {spell/endure elements}, {spell/giant form I}, {spell/pass without trace}; **Cost** 10,000 gp"
 		]
 	},
 	"horseshoes_of_sacred_silver": {
@@ -1288,11 +1288,11 @@
 			"**Aura** moderate abjuration and transmutation; **CL** 11th  ",
 			"**Slot** feet; **Price** 39,600 gp; **Weight** 12 lbs.",
 			"",
-			"These massive horseshoes sport deadly spikes that jut from their front. Once per day on command, the rider of a mount wearing these shoes may choose to either increase the mount's size by one size increment (maximum Huge), or change its type to magical beast, as {spell/beast shape IV}. In addition, while the mount is augmented in either of these two ways, it gains DR/5 chaos, evil, good, or law (selected by the rider). These horseshoes are part of a set and require all four to be worn by the same animal to properly function.",
+			"These massive horseshoes sport deadly spikes that jut from their front. Once per day on command, the rider of a mount wearing these shoes may choose to either increase the mount's size by one size increment (maximum Huge), or change its type to magical beast, as *beast shape IV.* In addition, while the mount is augmented in either of these two ways, it gains DR/5 chaos, evil, good, or law (selected by the rider). These horseshoes are part of a set and require all four to be worn by the same animal to properly function.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, *beast shape IV,* {spell/magic circle against chaos[/evil/good/law]}; **Cost** 19,800 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/beast shape IV}, {spell/magic circle against chaos[/evil/good/law]}; **Cost** 19,800 gp"
 		]
 	},
 	"boots_of_fiendish_escape_tiefling": {
@@ -1389,11 +1389,11 @@
 			"",
 			"Created by a race of unknown undersea creatures only passingly familiar with humanoid physiology, these tall, uncomfortable boots are made of slimy skin that wriggles slightly. The boots function as {magic-wondrous/slippers of the triton}, allowing the wearer to breathe and swim underwater. The boots constantly murmur telepathically to the wearer, alternating between sycophantic praise of the wearer's prowess and smug assurance that the boots will ensure that the wearer comes to no harm while underwater. The unctuous waders urge the wearer to explore beneath the waves, hoping to find some clues as to their creators and purpose, which the boots have long ago forgotten. If the wearer goes for more than a week without submerging herself in the ocean, the unctuous waders become less obsequious and more demanding. The unctuous waders can remove the ability to allow the wielder to breathe underwater, which they might do as a threat to compel obedience, or out of mere petulance.",
 			"",
-			"Three times per day as a standard action, the unctuous waders can exude slimy water from the heels to propel the user, as the {spell/slipstream} spell.",
+			"Three times per day as a standard action, the unctuous waders can exude slimy water from the heels to propel the user, as the *slipstream* spell.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/ride the waves}, *slipstream;* **Cost** 36,600 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/ride the waves}, {spell/slipstream}; **Cost** 36,600 gp"
 		]
 	},
 	"earthquake_boots": {
@@ -1406,11 +1406,11 @@
 			"**Aura** strong evocation; **CL** 15th  ",
 			"**Slot** feet; **Price** 67,500 gp; **Weight** 1 lb.",
 			"",
-			"These thick hide boots allow the wearer to detect unseen enemies, and they provide a final line of defense against overwhelming foes. The wearer gains tremorsense with a range of up to 60 feet as long as she is standing on solid ground. Additionally, once per day, by stomping repeatedly on an earthen or stone surface as a full-round action that provokes attacks of opportunity, the wearer can cast {spell/earthquake} as a spell-like ability.",
+			"These thick hide boots allow the wearer to detect unseen enemies, and they provide a final line of defense against overwhelming foes. The wearer gains tremorsense with a range of up to 60 feet as long as she is standing on solid ground. Additionally, once per day, by stomping repeatedly on an earthen or stone surface as a full-round action that provokes attacks of opportunity, the wearer can cast *earthquake* as a spell-like ability.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, *earthquake,* {spell/see invisibility}; **Cost** 33,750 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/earthquake}, {spell/see invisibility}; **Cost** 33,750 gp"
 		]
 	},
 	"seven_league_boots": {
@@ -1707,13 +1707,13 @@
 			"**Aura** moderate transmutation; **CL** 8th  ",
 			"**Slot** headband; **Price** 4,500 gp (+2), 42,000 gp (+4), 81,000 gp (+6); **Weight** -;",
 			"",
-			"This headband is decorated with feathers from a number of colorful birds. It grants boons to flying magic, and more powerful versions grant the power of flight. The wearer of a headband of aerial agility +2 treats his caster level as if it were one level higher when casting spells or creating extracts that grant flight. A headband of aerial agility +4 gains the same benefits and, on command, grants the wearer the ability to fly (as the {spell/fly} spell) three times per day. A headband of aerial agility +6 functions like a +4 version, but the headband grants the ability to use fly at will.",
+			"This headband is decorated with feathers from a number of colorful birds. It grants boons to flying magic, and more powerful versions grant the power of flight. The wearer of a headband of aerial agility +2 treats his caster level as if it were one level higher when casting spells or creating extracts that grant flight. A headband of aerial agility +4 gains the same benefits and, on command, grants the wearer the ability to fly (as the *fly* spell) three times per day. A headband of aerial agility +6 functions like a +4 version, but the headband grants the ability to use fly at will.",
 			"",
 			"All versions also grant the wearer an enhancement bonus to one mental ability score (Intelligence, Wisdom, or Charisma) of +2, +4, or +6. Treat this as a temporary ability bonus for the first 24 hours the headband is worn. This bonus is chosen when the headband is created and cannot be changed. If the headband grants a bonus to Intelligence, it also grants skill ranks as a {magic-wondrous/headband of vast intelligence}, usually granting ranks in Fly, Acrobatics, or Knowledge (planes).",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {feat/Extend Spell}, *fly;* **Cost** 2,250 gp (+2), 21,000 gp (+4), 40,500 gp (+6)"
+			"**Requirements** {feat/Craft Wondrous Item}, {feat/Extend Spell}, {spell/fly}; **Cost** 2,250 gp (+2), 21,000 gp (+4), 40,500 gp (+6)"
 		]
 	},
 	"headband_of_aerial_agility_2": {
@@ -1919,11 +1919,11 @@
 			"**Aura** faint divination; **CL** 3rd  ",
 			"**Slot** headband; **Price** 7,000 gp; **Weight** 1 lb.",
 			"",
-			"This headband gives its wearer the gift of foresight, effectively allowing her to determine whether or not a particular course of action will grant weal and/or woe. Three times per day the wearer of this headband can, as a standard action, gain information about a specified course of action as if using the {spell/augury} spell, except that the wearer always gets a meaningful reply.",
+			"This headband gives its wearer the gift of foresight, effectively allowing her to determine whether or not a particular course of action will grant weal and/or woe. Three times per day the wearer of this headband can, as a standard action, gain information about a specified course of action as if using the *augury* spell, except that the wearer always gets a meaningful reply.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, *augury;* **Cost** 3,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/augury}; **Cost** 3,500 gp"
 		]
 	},
 	"phylactery_of_the_shepherd": {
@@ -2474,11 +2474,11 @@
 			"**Aura** faint enchantment and transmutation; **CL** 5th  ",
 			"**Slot** headband; **Price** 40,000 gp; **Weight** 1 lb.",
 			"",
-			"This plain white band makes the wearer seem more attractive. The wearer gains a +2 competence bonus on Charisma-based checks with other members of his creature type. If the wearer is of the humanoid type, he gains a +5 competence bonus on creatures of his subtype instead. Once per day, the wearer can attempt to affect a creature as the spell {spell/unnatural lust} but with a duration of 10 minutes.",
+			"This plain white band makes the wearer seem more attractive. The wearer gains a +2 competence bonus on Charisma-based checks with other members of his creature type. If the wearer is of the humanoid type, he gains a +5 competence bonus on creatures of his subtype instead. Once per day, the wearer can attempt to affect a creature as the spell *unnatural lust* but with a duration of 10 minutes.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, *unnatural lust;* **Cost** 20,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/unnatural lust}; **Cost** 20,000 gp"
 		]
 	},
 	"headband_of_mental_resilience": {
@@ -2531,11 +2531,11 @@
 			"**Aura** strong enchantment; **CL** 15th  ",
 			"**Slot** headband; **Price** 189,000 gp; **Weight** -;",
 			"",
-			"This elegant headband has an intricately carved crystal located in its center. The crystal shimmers with arcane energy. The wearer can remove or replace this crystal as a swift action. As a standard action, the wearer can attempt to force the gem onto a construct's body with a touch attack that provokes an attack of opportunity. Once the crystal is attached to a construct, the construct must succeed at a DC 23 Will save or become dominated by the crystal and follow the orders of whomever is wearing the headband. The wearer of the headband can assume direct control of the construct as a full-round action, controlling all of the construct's actions as {spell/possession}. The wearer can end this control at any time as a free action. The wearer can remove the crystal from a construct as a standard action, allowing the wearer to use the crystal on a different construct and returning control of the construct to its original master. If the construct is destroyed while the crystal is attached, there is a 10% chance that the crystal is destroyed along with the construct.",
+			"This elegant headband has an intricately carved crystal located in its center. The crystal shimmers with arcane energy. The wearer can remove or replace this crystal as a swift action. As a standard action, the wearer can attempt to force the gem onto a construct's body with a touch attack that provokes an attack of opportunity. Once the crystal is attached to a construct, the construct must succeed at a DC 23 Will save or become dominated by the crystal and follow the orders of whomever is wearing the headband. The wearer of the headband can assume direct control of the construct as a full-round action, controlling all of the construct's actions as *possession.* The wearer can end this control at any time as a free action. The wearer can remove the crystal from a construct as a standard action, allowing the wearer to use the crystal on a different construct and returning control of the construct to its original master. If the construct is destroyed while the crystal is attached, there is a 10% chance that the crystal is destroyed along with the construct.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/dominate monster}, *possession;* **Cost** 94,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/dominate monster}, {spell/possession}; **Cost** 94,500 gp"
 		]
 	},
 	"talisman_lesser_beneficial_winds": {
@@ -3450,13 +3450,13 @@
 			"**Aura** faint abjuration; **CL** 5th  ",
 			"**Slot** neck; **Price** 3,000 gp; **Weight** 2 lbs.",
 			"",
-			"This mummified human hand comes from an honest man punished for a crime he didn't commit, and is dried and hung from a simple twine thong around the neck. The hand's scapegoat origins offer some protection to its wearer. When the wearer of a hand of the honest man is targeted by a curse or a misfortune effect such as a witch's misfortune or evil eye hex, the curse is instead transferred to the hand with no ill effects to the wearer. The hand retains the curse (even if it normally expires after a set duration) until the effect is removed with a {spell/remove curse} spell or similar effect. A spellcaster receives a +2 bonus on her caster level check to remove a curse stored in a hand of the honest man. Removing a hand of the honest man while it holds a curse instantly transfers the curse to its wearer. A hand of the honest man can hold only one curse or effect at a time. If the wearer is targeted by another curse while the hand is currently storing a curse, the new curse takes effect normally. A hand of the honest man has no effect on curses already affecting a creature.",
+			"This mummified human hand comes from an honest man punished for a crime he didn't commit, and is dried and hung from a simple twine thong around the neck. The hand's scapegoat origins offer some protection to its wearer. When the wearer of a hand of the honest man is targeted by a curse or a misfortune effect such as a witch's misfortune or evil eye hex, the curse is instead transferred to the hand with no ill effects to the wearer. The hand retains the curse (even if it normally expires after a set duration) until the effect is removed with a *remove curse* spell or similar effect. A spellcaster receives a +2 bonus on her caster level check to remove a curse stored in a hand of the honest man. Removing a hand of the honest man while it holds a curse instantly transfers the curse to its wearer. A hand of the honest man can hold only one curse or effect at a time. If the wearer is targeted by another curse while the hand is currently storing a curse, the new curse takes effect normally. A hand of the honest man has no effect on curses already affecting a creature.",
 			"",
 			"The wearer of a hand of the honest man is riddled with guilt over any untruths she utters, and takes a -2 penalty on all Bluff checks while wearing the hand.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, *remove curse;* **Cost** 1,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/remove curse}; **Cost** 1,500 gp"
 		]
 	},
 	"key_of_the_second_vault": {
@@ -3474,11 +3474,11 @@
 			"",
 			"This elaborate key on a fine gold chain always glints, even in the dimmest light. The bearer can use it to lock (but not unlock) any nonmagical lock as if it were the proper key. Once per day, the bearer can turn the key clockwise once to activate a shield of faith upon herself (though if the wearer is chaotic it provides only a +1 deflection bonus).",
 			"",
-			"If Abadar is the bearer's patron, the key counts as a holy symbol. Once per day, the bearer can speak a command word and summon a two-headed eagle as if using {spell/summon monster II} (the eagle's extra head does not grant it an extra attack). This eagle obeys the bearer's commands as if they shared a common language. While the key is worn as a pendant or held in hand, the bearer gains a +2 bonus on Appraise checks to assess an object's value.",
+			"If Abadar is the bearer's patron, the key counts as a holy symbol. Once per day, the bearer can speak a command word and summon a two-headed eagle as if using *summon monster II* (the eagle's extra head does not grant it an extra attack). This eagle obeys the bearer's commands as if they shared a common language. While the key is worn as a pendant or held in hand, the bearer gains a +2 bonus on Appraise checks to assess an object's value.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/fox's cunning}, {spell/shield of faith}, *summon monster II,* creator must have 5 ranks in Appraise; **Cost** 1,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/fox's cunning}, {spell/shield of faith}, {spell/summon monster II}, creator must have 5 ranks in Appraise; **Cost** 1,500 gp"
 		]
 	},
 	"pantheistic_clasp": {
@@ -4037,11 +4037,11 @@
 			"**Aura** faint evocation; **CL** 5th  ",
 			"**Slot** none; **Price** 500 gp; **Weight** 1 lb.",
 			"",
-			"A small magical device patterned on the design of ancient Azlanti relics, a wayfinder is a compact compass typically made from silver and bearing gold accents. While it serves as a badge of office for agents of the {rule/Pathfinder Society}, a wayfinder is as much a handy tool as a status symbol. With a command word, you can cause a wayfinder to shine (as the {spell/light} spell). A wayfinder also acts as a nonmagical (magnetic) {eq-misc/compass}, granting you a +2 circumstance bonus on Survival checks to avoid becoming lost. All wayfinders feature a small indentation designed to hold a single {magic-wondrous/ioun stone}. An ioun stone slotted in this manner grants you its normal benefits as if it were orbiting your head; some ioun stones can grant additional powers once they are fitted into a wayfinder, at the GM's discretion.",
+			"A small magical device patterned on the design of ancient Azlanti relics, a wayfinder is a compact compass typically made from silver and bearing gold accents. While it serves as a badge of office for agents of the {rule/Pathfinder Society}, a wayfinder is as much a handy tool as a status symbol. With a command word, you can cause a wayfinder to shine (as the *light* spell). A wayfinder also acts as a nonmagical (magnetic) {eq-misc/compass}, granting you a +2 circumstance bonus on Survival checks to avoid becoming lost. All wayfinders feature a small indentation designed to hold a single {magic-wondrous/ioun stone}. An ioun stone slotted in this manner grants you its normal benefits as if it were orbiting your head; some ioun stones can grant additional powers once they are fitted into a wayfinder, at the GM's discretion.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, *light;* **Cost** 250 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/light}; **Cost** 250 gp"
 		]
 	},
 	"seers_tea": {
@@ -4109,7 +4109,7 @@
 			"",
 			"The iridescent, hazy contents of this glass container eddy briefly into different shapes. A bottled cloud can be thrown as a splash weapon. When it strikes, it unleashes a bank of whitish-gray, semi-solid clouds in one of two configurations - a 20-foot-radius cloud or a 40-foot-radius sheet of mist that hovers a few inches above the ground. The user selects which version of the clouds she wishes to create as she throws the bottled cloud.",
 			"",
-			"If the bottled cloud forms a 20-foot-radius cloud, it functions as a {spell/solid fog} spell.",
+			"If the bottled cloud forms a 20-foot-radius cloud, it functions as a *solid fog* spell.",
 			"",
 			"If the bottled cloud is instead used to form a sheet, the layer of mist can be walked upon as if it were solid ground. While the bottled cloud must be thrown against solid ground in order to shatter the container and release the cloud, it can be deliberately poured out on a liquid surface to form a sheet as well. The cloud sheet extends over liquid surfaces, but pours into concavities and holes - one can use a bottled cloud to traverse water, but not a pit or chasm. The sheet of mist also allows safe movement over {eq-misc/caltrops}, difficult terrain that lies low to the ground (GM's discretion), and other low-lying hazards (such as a sheet of [green slime](rule/slimes_molds_and_fungi)) and traps that are triggered via pressure plates.",
 			"",
@@ -4117,7 +4117,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, *solid fog;* **Cost** 300 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/solid fog}; **Cost** 300 gp"
 		]
 	},
 	"cathedral_pit_stone": {

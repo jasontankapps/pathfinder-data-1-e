@@ -442,13 +442,13 @@
 			"**Aura** faint abjuration; **CL** 5th  ",
 			"**Slot** shoulders; **Price** 2,500 gp; **Weight** 1 lb.",
 			"",
-			"This dark hooded cloak is decorated with embroidered comets, moons, and stars along its edge. If the wearer sleeps while wearing the cloak, it protects him from hot and cold environments, as {spell/endure elements}, and the wearer can sleep in medium armor without becoming fatigued. The wearer can use {spell/know direction} once per day.",
+			"This dark hooded cloak is decorated with embroidered comets, moons, and stars along its edge. If the wearer sleeps while wearing the cloak, it protects him from hot and cold environments, as *endure elements,* and the wearer can sleep in medium armor without becoming fatigued. The wearer can use *know direction* once per day.",
 			"",
-			"If Desna is the wearer's patron, as a standard action the wearer can cause additional celestial bodies to appear on the cloak so that they match the current configuration in the sky above the wearer. The wearer can use {spell/longstrider} once per day. Once per day, the wearer can throw a tiny, white-burning meteor that acts as a {spell/flare} effect. Some priests of Desna claim to have cloaks of this type that also allow them to travel from shadow to shadow when under a starry night sky.",
+			"If Desna is the wearer's patron, as a standard action the wearer can cause additional celestial bodies to appear on the cloak so that they match the current configuration in the sky above the wearer. The wearer can use *longstrider* once per day. Once per day, the wearer can throw a tiny, white-burning meteor that acts as a *flare* effect. Some priests of Desna claim to have cloaks of this type that also allow them to travel from shadow to shadow when under a starry night sky.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/disguise self}, *endure elements, flare, know direction,* {spell/lesser restoration}, *longstrider;* **Cost** 1,250 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/disguise self}, {spell/endure elements}, {spell/flare}, {spell/know direction}, {spell/lesser restoration}, {spell/longstrider}; **Cost** 1,250 gp"
 		]
 	},
 	"rockfall_cloak": {
@@ -665,11 +665,11 @@
 			"",
 			"This large bearskin cloak is almost too big for a human to wear comfortably. The wearer gains a +2 competence bonus on Intimidate checks. Once per day, the wearer can use bless; using this ability causes the hair on the cloak to bristle menacingly.",
 			"",
-			"If the stone giant deity Urazra is the wearer's patron, the wearer can use {spell/beast shape II} once per day to transform into a black or brown bear for up to 7 minutes. Some champions of Urazra claim to have more powerful pelts that allow them to take the form of polar bears or even dire bears.",
+			"If the stone giant deity Urazra is the wearer's patron, the wearer can use *beast shape II* once per day to transform into a black or brown bear for up to 7 minutes. Some champions of Urazra claim to have more powerful pelts that allow them to take the form of polar bears or even dire bears.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, *beast shape II,* {spell/bless}, creator must have 5 ranks in Intimidate; **Cost** 1,650 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/beast shape II}, {spell/bless}, creator must have 5 ranks in Intimidate; **Cost** 1,650 gp"
 		]
 	},
 	"rimepelt": {
@@ -682,13 +682,13 @@
 			"**Aura** moderate transmutation; **CL** 11th  ",
 			"**Slot** shoulders; **Price** 3,350 gp; **Weight** 5 lbs.",
 			"",
-			"This snow-white fur pelt of a winter wolf can be worn over the shoulders as a cloak. The pelt functions as furs, granting its wearer a +2 bonus on Fortitude saves to resist cold weather. The wearer can, as a standard action, transform into a Large winter wolf as if using {spell/beast shape IV}. In certain special locations where winter wolves have the ability to take human form, such as the Howlings district of Whitethrone or the town of Redtooth, the wearer of a rimepelt in wolf form can take human form as winter wolves do, appearing as a whitehaired, blue-eyed human. In either wolf or human form, the wearer of a rimepelt smells like a winter wolf to other winter wolves and creatures with the scent ability. When the wearer returns to his normal form, or after 2 hours have elapsed, the rimepelt becomes a mundane winter wolf pelt.",
+			"This snow-white fur pelt of a winter wolf can be worn over the shoulders as a cloak. The pelt functions as furs, granting its wearer a +2 bonus on Fortitude saves to resist cold weather. The wearer can, as a standard action, transform into a Large winter wolf as if using *beast shape IV.* In certain special locations where winter wolves have the ability to take human form, such as the Howlings district of Whitethrone or the town of Redtooth, the wearer of a rimepelt in wolf form can take human form as winter wolves do, appearing as a whitehaired, blue-eyed human. In either wolf or human form, the wearer of a rimepelt smells like a winter wolf to other winter wolves and creatures with the scent ability. When the wearer returns to his normal form, or after 2 hours have elapsed, the rimepelt becomes a mundane winter wolf pelt.",
 			"",
 			"Very rarely, a properly skinned winter wolf pelt manifests the properties of a rimepelt without requiring additional enchantment. A winter wolf whose pelt has such potential usually manifests some telltale physical attribute, such as heterochromatic eyes. Creating a rimepelt from such a rare creature requires a successful DC 25 Profession (hunter) or Survival check. Taking 20 is not allowed in this situation, and a failed check results in the pelt being utterly ruined for any use.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, *beast shape IV;* **Cost** 1,675 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/beast shape IV}; **Cost** 1,675 gp"
 		]
 	},
 	"cloak_of_woodland_creatures": {
@@ -767,11 +767,11 @@
 			"**Aura** faint illusion and transmutation; **CL** 1st  ",
 			"**Slot** shoulders; **Price** 3,600 gp; **Weight** 1 lb.",
 			"",
-			"Song-o halflings often use these cloaks to evade larger creatures in the jungles of the Mwangi Expanse. The wearer of an elusion cloak gains a +5 competence bonus on Stealth checks against creatures of at least one size category larger than she is. In addition, once per day as a free action when the wearer fails a saving throw against a fear effect, she can gain the benefits of {spell/expeditious retreat} for 5 rounds or for as long as she is affected by the fear effect, whichever is shorter.",
+			"Song-o halflings often use these cloaks to evade larger creatures in the jungles of the Mwangi Expanse. The wearer of an elusion cloak gains a +5 competence bonus on Stealth checks against creatures of at least one size category larger than she is. In addition, once per day as a free action when the wearer fails a saving throw against a fear effect, she can gain the benefits of *expeditious retreat* for 5 rounds or for as long as she is affected by the fear effect, whichever is shorter.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, *expeditious retreat;* **Cost** 1,800 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/expeditious retreat}; **Cost** 1,800 gp"
 		]
 	},
 	"swordlords_cloak": {
@@ -812,11 +812,11 @@
 			"**Aura** faint abjuration; **CL** 3rd  ",
 			"**Slot** shoulders; **Price** 4,000 gp; **Weight** 5 lbs.",
 			"",
-			"This heavy cloak is crafted from shaggy white yeti fur. When the cloak's hood is pulled up over the wearer's head, it takes on a semblance of its arctic namesake's fearsome visage. Northern warriors value its ability to ward against the chill of winter, as well as the protection it provides in combat. The cloak of the yeti provides a constant {spell/endure elements} effect in cold weather (it has no effect in hot weather). In battle, the cloak wraps around the wearer, granting a +1 natural armor bonus. In addition, with the hood drawn over the wearer's head, the cloak grants a +2 competence bonus on Intimidate skill checks.",
+			"This heavy cloak is crafted from shaggy white yeti fur. When the cloak's hood is pulled up over the wearer's head, it takes on a semblance of its arctic namesake's fearsome visage. Northern warriors value its ability to ward against the chill of winter, as well as the protection it provides in combat. The cloak of the yeti provides a constant *endure elements* effect in cold weather (it has no effect in hot weather). In battle, the cloak wraps around the wearer, granting a +1 natural armor bonus. In addition, with the hood drawn over the wearer's head, the cloak grants a +2 competence bonus on Intimidate skill checks.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/barkskin}, {spell/cause fear}, *endure elements;* **Cost** 2,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/barkskin}, {spell/cause fear}, {spell/endure elements}; **Cost** 2,000 gp"
 		]
 	},
 	"featherscale_cloak": {
@@ -829,11 +829,11 @@
 			"**Aura** faint abjuration and transmutation; **CL** 5th  ",
 			"**Slot** shoulders; **Price** 4,000 gp; **Weight** 1 lb.",
 			"",
-			"This heavy linen cloak has a fish-scale pattern that darkens toward the bottom and white feathers on the shoulders. Once per day, the wearer can use {spell/beast shape I}, but only to transform into a bird or fish. In addition, the wearer can use hide from animals (affecting only the wearer) once per day. The wearer gains a +5 competence bonus on Swim checks. Once per day, the wearer can use feather fall.",
+			"This heavy linen cloak has a fish-scale pattern that darkens toward the bottom and white feathers on the shoulders. Once per day, the wearer can use *beast shape I,* but only to transform into a bird or fish. In addition, the wearer can use hide from animals (affecting only the wearer) once per day. The wearer gains a +5 competence bonus on Swim checks. Once per day, the wearer can use feather fall.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, *beast shape I,* {spell/feather fall}, {spell/hide from animals}; **Cost** 2,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/beast shape I}, {spell/feather fall}, {spell/hide from animals}; **Cost** 2,000 gp"
 		]
 	},
 	"protean_cloak_3_bonus": {
@@ -930,11 +930,11 @@
 			"",
 			"The wearer also gains a +2 competence bonus on Intimidate checks. This bonus increases to +5 while the pauldrons cast blue light.",
 			"",
-			"The wearer of the Iron Guard pauldrons gains the benefits of {spell/endure elements}, but only for cold temperatures.",
+			"The wearer of the Iron Guard pauldrons gains the benefits of *endure elements,* but only for cold temperatures.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, *endure elements,* {spell/resistance}; **Cost** 2,875 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/endure elements}, {spell/resistance}; **Cost** 2,875 gp"
 		]
 	},
 	"cloak_of_heavenly_fire": {
@@ -967,11 +967,11 @@
 			"**Aura** faint transmutation; **CL** 5th  ",
 			"**Slot** shoulders; **Price** 6,000 gp; **Weight** 1 lb.",
 			"",
-			"This unassuming cloak initially appears to be made of plain leather. When the wearer speaks the command word, however, the cloak of the scuttling rat wraps itself around her, transforming her into a dire rat as if using {spell/beast shape I}. The wearer can remain in dire rat form for up to 5 minutes per day. This duration need not be consecutive, but it must be used in 1-minute increments.",
+			"This unassuming cloak initially appears to be made of plain leather. When the wearer speaks the command word, however, the cloak of the scuttling rat wraps itself around her, transforming her into a dire rat as if using *beast shape I.* The wearer can remain in dire rat form for up to 5 minutes per day. This duration need not be consecutive, but it must be used in 1-minute increments.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, *beast shape I;* **Cost** 3,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/beast shape I}; **Cost** 3,000 gp"
 		]
 	},
 	"dead_mans_shroud": {
@@ -1076,11 +1076,11 @@
 			"**Aura** faint enchantment; **CL** 3rd  ",
 			"**Slot** shoulders; **Price** 6,500 gp; **Weight** 2 lbs.",
 			"",
-			"Snowborn frequently fight off hostile enemies of both the intelligent and animalistic varieties. The smart half-elf knows that he can't lose a fight that never begins and makes every attempt to stave off combat. This white fur stole helps the wary snowborn, or anyone else, temporarily calm down opponents. While wearing this stole, the wearer gains a +2 competence bonus on Diplomacy checks to improve someone's attitude and on {ability/wild empathy} checks to improve an animal's attitude. Three times per day on command, the wearer can activate the stole to gain a 20-foot radius aura of either {spell/calm animals} or {spell/calm emotions} for 1 minute (Will DC 13 negates). The stole also functions as cold weather clothing.",
+			"Snowborn frequently fight off hostile enemies of both the intelligent and animalistic varieties. The smart half-elf knows that he can't lose a fight that never begins and makes every attempt to stave off combat. This white fur stole helps the wary snowborn, or anyone else, temporarily calm down opponents. While wearing this stole, the wearer gains a +2 competence bonus on Diplomacy checks to improve someone's attitude and on {ability/wild empathy} checks to improve an animal's attitude. Three times per day on command, the wearer can activate the stole to gain a 20-foot radius aura of either *calm animals* or *calm emotions* for 1 minute (Will DC 13 negates). The stole also functions as cold weather clothing.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, *calm animals, calm emotions;* **Cost** 3,250 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/calm animals}, {spell/calm emotions}; **Cost** 3,250 gp"
 		]
 	},
 	"eagle_cape": {
@@ -1093,11 +1093,11 @@
 			"**Aura** moderate transmutation; **CL** 7th  ",
 			"**Slot** shoulders; **Price** 7,000 gp; **Weight** 1 lb.",
 			"",
-			"Large eagle feathers decorate the back and arms of this magnificent cape. Should the cape's wearer fall more than 5 feet, the cape spreads out behind the wearer and she gently drifts to the ground. This acts exactly like a feather fall spell for the wearer only. Once per day, if the wearer grasps the edges of the cape and spreads her arms, she transforms into an eagle (as per the {spell/beast shape I} spell, except that it allows only eagle form and the wearer gains the eagle's full fly speed of 80 feet). This effect lasts for 10 minutes but can be ended prematurely as a standard action. In addition, while in eagle form, the wearer gains a +5 competence bonus on Perception checks.",
+			"Large eagle feathers decorate the back and arms of this magnificent cape. Should the cape's wearer fall more than 5 feet, the cape spreads out behind the wearer and she gently drifts to the ground. This acts exactly like a feather fall spell for the wearer only. Once per day, if the wearer grasps the edges of the cape and spreads her arms, she transforms into an eagle (as per the *beast shape I* spell, except that it allows only eagle form and the wearer gains the eagle's full fly speed of 80 feet). This effect lasts for 10 minutes but can be ended prematurely as a standard action. In addition, while in eagle form, the wearer gains a +5 competence bonus on Perception checks.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, *beast shape I,* {spell/feather fall}, {spell/perceive cues}; **Cost** 3,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/beast shape I}, {spell/feather fall}, {spell/perceive cues}; **Cost** 3,500 gp"
 		]
 	},
 	"cloak_of_the_manta_ray": {
@@ -1113,13 +1113,13 @@
 			"**Aura** moderate transmutation; **CL** 9th  ",
 			"**Slot** shoulders; **Price** 7,200 gp; **Weight** 1 lb.",
 			"",
-			"This cloak appears to be made of leather until the wearer enters salt water. At that time, the cloak of the manta ray adheres to the individual, and he appears nearly identical to a manta ray (as the {spell/beast shape II} spell, except that it allows only manta ray form). He gains a +3 natural armor bonus, the ability to breathe underwater, and a swim speed of 60 feet, like a real manta ray.",
+			"This cloak appears to be made of leather until the wearer enters salt water. At that time, the cloak of the manta ray adheres to the individual, and he appears nearly identical to a manta ray (as the *beast shape II* spell, except that it allows only manta ray form). He gains a +3 natural armor bonus, the ability to breathe underwater, and a swim speed of 60 feet, like a real manta ray.",
 			"",
 			"The cloak also allows the wearer to attack with a sting ray's tail spine, dealing 1d6 points of damage. This attack can be used in addition to any other attack the character has, using his highest melee attack bonus. The wearer can release his arms from the cloak without sacrificing underwater movement if so desired.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, *beast shape II,* {spell/water breathing}; **Cost** 3,600 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/beast shape II}, {spell/water breathing}; **Cost** 3,600 gp"
 		]
 	},
 	"plagueborn_mantle": {
@@ -1149,11 +1149,11 @@
 			"**Aura** faint transmutation; **CL** 5th  ",
 			"**Slot** shoulders; **Price** 7,500 gp; **Weight** 1 lb.",
 			"",
-			"Usually made from the skins of giant serpents, these cloaks are designed to help rangers, hunters, and trackers blend in with and travel quickly through the areas they are most familiar with. If the wearer has the {ability/favored terrain} class ability and is traveling through one of his favored terrains, he can transform himself into an animal native to that environment. This works identically to the {spell/beast shape I} spell, save that it is limited to creatures native to the environment (as defined in the appropriate Bestiary entry or per the GMs discretion). This effect lasts for 10 minutes per day. The duration need not be continuous, but it must be used in 1-minute increments.",
+			"Usually made from the skins of giant serpents, these cloaks are designed to help rangers, hunters, and trackers blend in with and travel quickly through the areas they are most familiar with. If the wearer has the {ability/favored terrain} class ability and is traveling through one of his favored terrains, he can transform himself into an animal native to that environment. This works identically to the *beast shape I* spell, save that it is limited to creatures native to the environment (as defined in the appropriate Bestiary entry or per the GMs discretion). This effect lasts for 10 minutes per day. The duration need not be continuous, but it must be used in 1-minute increments.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, *beast shape I;* **Cost** 3,750 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/beast shape I}; **Cost** 3,750 gp"
 		]
 	},
 	"protean_cloak_4_bonus": {
@@ -1188,13 +1188,13 @@
 			"**Aura** moderate transmutation; **CL** 7th  ",
 			"**Slot** shoulders; **Price** 8,000 gp; **Weight** 1 lb.",
 			"",
-			"This flowing, black silken cloak glitters with an iridescent sheen like the feathers of a crow's wing. When the wearer moves, the fabric seems to dance on the air, as though it longed to take flight. The wearer can speak with birds while wearing the cloak, as if under the effects of {spell/speak with animals}. Druids of northern Avistan have long favored these cloaks as a means of communicating with birds of the region, but they grew increasingly popular among several sects in Lirgen as well in the decades leading up to the Age of Lost Omens - despite the fact that crows themselves are not native to that particular land. Certainly, the exotic nature of the ebon feathers had an aesthetic appeal, for in a land where brightly colored songbirds were the norm, the concept of a midnight black avian couldn't help but to be somewhat intriguing to the residents.",
+			"This flowing, black silken cloak glitters with an iridescent sheen like the feathers of a crow's wing. When the wearer moves, the fabric seems to dance on the air, as though it longed to take flight. The wearer can speak with birds while wearing the cloak, as if under the effects of *speak with animals.* Druids of northern Avistan have long favored these cloaks as a means of communicating with birds of the region, but they grew increasingly popular among several sects in Lirgen as well in the decades leading up to the Age of Lost Omens - despite the fact that crows themselves are not native to that particular land. Certainly, the exotic nature of the ebon feathers had an aesthetic appeal, for in a land where brightly colored songbirds were the norm, the concept of a midnight black avian couldn't help but to be somewhat intriguing to the residents.",
 			"",
 			"As a move action, the wearer of a crow brother's cloak can command the item to dissolve into a swirling murder of crows, which faithfully surround the wearer for up to 13 rounds per day. These rounds need not be consecutive. The murder of crows functions as a {monster/bat swarm}. The murder of crows deals no damage to the wearer and provides {rule/concealment} as long as the wearer remains within it. As a free action, the wearer can recall the swarm into cloak form or issue it a simple command (such as to direct its movement or to instruct it to follow the wearer). If the swarm is reduced to 0 hit points, it returns to its cloak form immediately and cannot be transformed again for 24 hours.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, *speak with animals,* {spell/summon swarm}; **Cost** 4,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/speak with animals}, {spell/summon swarm}; **Cost** 4,000 gp"
 		]
 	},
 	"cloak_of_resistance_3": {
@@ -1211,7 +1211,7 @@
 			"**Aura** moderate transmutation; **CL** 9th  ",
 			"**Slot** shoulders; **Price** 9,000 gp; **Weight** 8 lbs.",
 			"",
-			"Images of ballistae ornament this metallic cloak, which fits easily over armor and other bulky clothing. The wearer can activate this cloak as a swift action, causing the garment to splay outward for 1 round, its jagged hem protruding around the wearer in stiff, sharp points. While the cloak is active, the wearer counts as wearing masterwork armor spikes with which she is proficient, and she can walk on air (as though using the {spell/air walk} spell). If she's riding a mount, the *air walk* effect instead affects the mount while the cloak is active, and the mount can move with the item's help even if it's not specially trained to move with the aid of *air walk.* If the wearer (or her mount) isn't standing on a solid surface by the end of the round, she immediately falls, taking any applicable falling damage.",
+			"Images of ballistae ornament this metallic cloak, which fits easily over armor and other bulky clothing. The wearer can activate this cloak as a swift action, causing the garment to splay outward for 1 round, its jagged hem protruding around the wearer in stiff, sharp points. While the cloak is active, the wearer counts as wearing masterwork armor spikes with which she is proficient, and she can walk on air (as though using the *air walk* spell). If she's riding a mount, the *air walk* effect instead affects the mount while the cloak is active, and the mount can move with the item's help even if it's not specially trained to move with the aid of *air walk.* If the wearer (or her mount) isn't standing on a solid surface by the end of the round, she immediately falls, taking any applicable falling damage.",
 			"",
 			"In addition, on her first successful charge attack during the round the cloak is active, the wearer deals an additional 1d6 points of piercing damage (1d4 if she is Small), plus another 1d6 (or 1d4 if she is Small) for every 20 feet the wearer traveled in a straight line during the charge (maximum 3d6).",
 			"",
@@ -1219,7 +1219,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, *air walk,* {spell/bull's strength}; **Cost** 4,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/air walk}, {spell/bull's strength}; **Cost** 4,500 gp"
 		]
 	},
 	"cape_of_daring_deeds": {
@@ -1249,11 +1249,11 @@
 			"**Aura** faint evocation; **CL** 5th  ",
 			"**Slot** shoulders; **Price** 9,000 gp; **Weight** 2 lbs.",
 			"",
-			"This long cloak is a patchwork of beast and humanoid hides roughly stitched together. A crude, crown-shaped patch of yellow-dyed fabric is sewn on the back, and a length of knotted hemp rope secures the cloak around the wearer's neck. The wearer gains a +5 competence bonus on Intimidate checks and the ability to use {spell/burning hands} as a spell-like ability three times per day.",
+			"This long cloak is a patchwork of beast and humanoid hides roughly stitched together. A crude, crown-shaped patch of yellow-dyed fabric is sewn on the back, and a length of knotted hemp rope secures the cloak around the wearer's neck. The wearer gains a +5 competence bonus on Intimidate checks and the ability to use *burning hands* as a spell-like ability three times per day.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, *burning hands,* {spell/cause fear}; **Cost** 4,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/burning hands}, {spell/cause fear}; **Cost** 4,500 gp"
 		]
 	},
 	"phantom_entourage": {
@@ -1453,11 +1453,11 @@
 			"**Aura** moderate transmutation; **CL** 10th  ",
 			"**Slot** shoulders; **Price** 12,000 gp; **Weight** 1 lb.",
 			"",
-			"Made from a single male lion's coat with the mane surrounding its hood, the lion cloak is an impressive sight. A creature wearing the cloak gains a +2 resistance bonus on saving throws made against mind-affecting and fear effects and a +2 circumstance bonus on Intimidate checks. Once per day, the wearer can pull the hood over her head, assuming the form of a lion (as the {spell/beast shape II} spell, except that it allows only lion form) for up to 10 minutes. If the wearer has the smite class feature, she can use this power more than once per day by expending uses of her smite; at most she can take the lion form as many times as she has smites plus one additional time. While in this lion form the wearer cannot use its normal smite ability.",
+			"Made from a single male lion's coat with the mane surrounding its hood, the lion cloak is an impressive sight. A creature wearing the cloak gains a +2 resistance bonus on saving throws made against mind-affecting and fear effects and a +2 circumstance bonus on Intimidate checks. Once per day, the wearer can pull the hood over her head, assuming the form of a lion (as the *beast shape II* spell, except that it allows only lion form) for up to 10 minutes. If the wearer has the smite class feature, she can use this power more than once per day by expending uses of her smite; at most she can take the lion form as many times as she has smites plus one additional time. While in this lion form the wearer cannot use its normal smite ability.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, *beast shape II;* **Cost** 6,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/beast shape II}; **Cost** 6,000 gp"
 		]
 	},
 	"mantle_of_the_protector": {
@@ -1688,11 +1688,11 @@
 			"**Aura** faint abjuration and necromancy; **CL** 5th  ",
 			"**Slot** shoulders; **Price** 15,600 gp; **Weight** 1 lb.",
 			"",
-			"A favored cloak of rangers, this cloak is a patchwork of hides and fur. Comfort's cloak grants a constant {spell/endure elements} effect to the wearer, and grants a +4 competence bonus to saves against disease, energy drain, effects that cause fatigue or exhaustion, and poisons. Furthermore, while the wearer is resting he regains twice his Hit Dice in hit points for 8 hours of rest instead of the typical 1 hit point per Hit Die. When taking a full 24 hours of rest, the character regains 5 times his Hit Dice in hit points instead of twice his Hit Dice in hit points.",
+			"A favored cloak of rangers, this cloak is a patchwork of hides and fur. Comfort's cloak grants a constant *endure elements* effect to the wearer, and grants a +4 competence bonus to saves against disease, energy drain, effects that cause fatigue or exhaustion, and poisons. Furthermore, while the wearer is resting he regains twice his Hit Dice in hit points for 8 hours of rest instead of the typical 1 hit point per Hit Die. When taking a full 24 hours of rest, the character regains 5 times his Hit Dice in hit points instead of twice his Hit Dice in hit points.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, *endure elements;* **Cost** 7,800 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/endure elements}; **Cost** 7,800 gp"
 		]
 	},
 	"pelt_of_the_beast": {
@@ -1799,11 +1799,11 @@
 			"**Aura** moderate conjuration; **CL** 7th  ",
 			"**Slot** shoulders; **Price** 17,500 gp; **Weight** 1 lb.",
 			"",
-			"This knee-length cape is decorated with images of butterflies, moths, and stars. Once per day, the wearer can speak a command word to cause the cape to transform into a cloud of butterflies or moths. This functions as {spell/cape of wasps}, except the swarm doesn't deal poison damage and deals full damage to incorporeal creatures. In addition, the wearer can use glitterdust once per day.",
+			"This knee-length cape is decorated with images of butterflies, moths, and stars. Once per day, the wearer can speak a command word to cause the cape to transform into a cloud of butterflies or moths. This functions as *cape of wasps,* except the swarm doesn't deal poison damage and deals full damage to incorporeal creatures. In addition, the wearer can use glitterdust once per day.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, *cape of wasps,* {spell/glitterdust}; **Cost** 8,750 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/cape of wasps}, {spell/glitterdust}; **Cost** 8,750 gp"
 		]
 	},
 	"cloak_of_daggers": {
@@ -2083,11 +2083,11 @@
 			"",
 			"The following wondrous item is generally available only to members of the indicated race or ethnicity.",
 			"",
-			"This animal-skin cloak comes in eight varieties (one for each kind of skinwalker). The wearer gains the ability to speak with animals of the matching species and related species as per the spell speak with animals. For example, a werewolf skin allows the wearer to speak with canines. If the wearer is a skinwalker, and her skinwalker heritage matches that of the cloak, the wearer can take the listed animal's form as if using the change shape ability, gaining the base creature's size, form, and special abilities as per {spell/beast shape I}. As normal for a skinwalker's transformation, her animal form lasts until she chooses to end it.",
+			"This animal-skin cloak comes in eight varieties (one for each kind of skinwalker). The wearer gains the ability to speak with animals of the matching species and related species as per the spell speak with animals. For example, a werewolf skin allows the wearer to speak with canines. If the wearer is a skinwalker, and her skinwalker heritage matches that of the cloak, the wearer can take the listed animal's form as if using the change shape ability, gaining the base creature's size, form, and special abilities as per *beast shape I.* As normal for a skinwalker's transformation, her animal form lasts until she chooses to end it.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, *beast shape I,* {spell/speak with animals}, creator must be a skinwalker; **Cost** 12,000 gp (boar, rat, wolf), 20,000 gp (brown bear, bat, crocodile, shark, tiger)"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/beast shape I}, {spell/speak with animals}, creator must be a skinwalker; **Cost** 12,000 gp (boar, rat, wolf), 20,000 gp (brown bear, bat, crocodile, shark, tiger)"
 		]
 	},
 	"lycanthrope_skin_boar_rat_wolf": { "redirect": "lycanthrope_skin_skinwalker_boar_rat_wolf" },
@@ -2155,11 +2155,11 @@
 			"",
 			"Fashioned of dark brown or black cloth, this cloak bestows a +5 competence bonus on Stealth checks. The wearer is also able to hang upside down from the ceiling like a bat.",
 			"",
-			"By holding the edges of the garment, the wearer is able to fly as per the spell (including a +7 bonus on Fly skill checks). If he desires, the wearer can actually polymorph himself into an ordinary bat and fly accordingly (as {spell/beast shape III}). All possessions worn or carried are part of the transformation. Flying, either with the cloak or in bat form, can be accomplished only in darkness (either under the night sky or in a lightless or near-lightless environment underground). Either of the flying powers is usable for up to 7 minutes at a time, but after a flight of any duration the cloak cannot bestow any flying power for a like period of time.",
+			"By holding the edges of the garment, the wearer is able to fly as per the spell (including a +7 bonus on Fly skill checks). If he desires, the wearer can actually polymorph himself into an ordinary bat and fly accordingly (as *beast shape III*). All possessions worn or carried are part of the transformation. Flying, either with the cloak or in bat form, can be accomplished only in darkness (either under the night sky or in a lightless or near-lightless environment underground). Either of the flying powers is usable for up to 7 minutes at a time, but after a flight of any duration the cloak cannot bestow any flying power for a like period of time.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, *beast shape III,* {spell/fly}; **Cost** 13,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/beast shape III}, {spell/fly}; **Cost** 13,000 gp"
 		]
 	},
 	"pelt_of_primal_power": {
@@ -2172,11 +2172,11 @@
 			"**Aura** moderate transmutation; **CL** 7th  ",
 			"**Slot** shoulders; **Price** 26,000 gp; **Weight** 10 lbs.",
 			"",
-			"A prized item among Ulfen berserkers and vikings, a pelt of primal power is a large bearskin worn as a cloak, with the bear's head sitting atop the wearer's head. When donned, a pelt of primal power grants its wearer a +4 armor bonus to AC. In addition, once per day the wearer can transform into a grizzly bear (as {spell/beast shape II}) for up to 10 minutes.",
+			"A prized item among Ulfen berserkers and vikings, a pelt of primal power is a large bearskin worn as a cloak, with the bear's head sitting atop the wearer's head. When donned, a pelt of primal power grants its wearer a +4 armor bonus to AC. In addition, once per day the wearer can transform into a grizzly bear (as *beast shape II*) for up to 10 minutes.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, *beast shape II,* {spell/mage armor}; **Cost** 13,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/beast shape II}, {spell/mage armor}; **Cost** 13,000 gp"
 		]
 	},
 	"arms_of_the_marilith": {
@@ -2434,11 +2434,11 @@
 			"",
 			"This cloak is made of tough leather, and is decorated with brilliant red and orange feathers. As a free action, the wearer can rub her hands together, setting them alight - thus granting her natural attacks and unarmed strikes the {umr/burn} special ability (1d6, Reflex DC 14). The wearer can use this ability for up to 10 rounds per day, which don't need to be consecutive.",
 			"",
-			"If the wearer takes damage that would reduce her below 0 hit points, she can expend one use of mythic power to transform into a phoenix-like being. This doesn't require an action. When this happens, she is immediately affected as though targeted with a breath of life spell (CL 9th) and polymorphs into a bird-like creature made of flames (as {spell/elemental body II}, CL 9; fire elemental only). While in this form, the wearer also gains a fly speed of 50 feet with good maneuverability, as well as a +4 bonus on Fly skill checks due to this maneuverability.",
+			"If the wearer takes damage that would reduce her below 0 hit points, she can expend one use of mythic power to transform into a phoenix-like being. This doesn't require an action. When this happens, she is immediately affected as though targeted with a breath of life spell (CL 9th) and polymorphs into a bird-like creature made of flames (as *elemental body II,* CL 9; fire elemental only). While in this form, the wearer also gains a fly speed of 50 feet with good maneuverability, as well as a +4 bonus on Fly skill checks due to this maneuverability.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {feat/Mythic Crafter}, {spell/breath of life}, *elemental body II;* **Cost** 27,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {feat/Mythic Crafter}, {spell/breath of life}, {spell/elemental body II}; **Cost** 27,500 gp"
 		]
 	},
 	"deadened_shadows_cloak": {
@@ -2731,13 +2731,13 @@
 			"**Aura** faint abjuration; **CL** 5th  ",
 			"**Slot** wrists; **Price** 2,100 gp; **Weight** 1 lb.",
 			"",
-			"Dozens of variants of this bracer exist, but they are usually leather, always ornately patterned, and bear a single spherical polished stone or gem (typically a carbuncle, olivine, or sard) mounted near the wrist. Medium to high-ranking Nethysian priests and priestesses often wear spellsight bracers, which also serve as a quick means of identifying fellow followers of the All-Seeing Eye. The wearer can use {spell/detect magic} once per day. When she does, the spherical stone or gem in the bracer appears to open like a human eye. The bracer also provides a +1 resistance bonus on Will saving throws. A spellsight bracer uses up the wearer's entire wrists slot; the wearer may not use another item (even another spellsight bracer) that also uses the wrists slot, though a matching nonmagical bracer is often worn on the other wrist.",
+			"Dozens of variants of this bracer exist, but they are usually leather, always ornately patterned, and bear a single spherical polished stone or gem (typically a carbuncle, olivine, or sard) mounted near the wrist. Medium to high-ranking Nethysian priests and priestesses often wear spellsight bracers, which also serve as a quick means of identifying fellow followers of the All-Seeing Eye. The wearer can use *detect magic* once per day. When she does, the spherical stone or gem in the bracer appears to open like a human eye. The bracer also provides a +1 resistance bonus on Will saving throws. A spellsight bracer uses up the wearer's entire wrists slot; the wearer may not use another item (even another spellsight bracer) that also uses the wrists slot, though a matching nonmagical bracer is often worn on the other wrist.",
 			"",
 			"If Nethys is the wearer's patron, the wearer can use the bracer as if it were a lesser silent metamagic rod once per day. The wearer can spontaneously convert prepared spells or use available spell slots to cast mage hand, even if this spell is not on the wearer's class spell list or the wearer does not know the spell. Using either of these abilities also causes the eye in the bracer to open.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {feat/Silent Spell}, *detect magic,* {spell/mage hand}, {spell/resistance}; **Cost** 1,050 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {feat/Silent Spell}, {spell/detect magic}, {spell/mage hand}, {spell/resistance}; **Cost** 1,050 gp"
 		]
 	},
 	"seafaring_stanchions": {
@@ -2958,13 +2958,13 @@
 			"**Aura** faint conjuration; **CL** 5th  ",
 			"**Slot** wrist; **Price** 6,000 gp; **Weight** -;",
 			"",
-			"Consisting of a vine with five green berries, a verdant vine is worn tied around the wrist. Once per day on command, the wearer can pinch a berry off the vine, and throw it up to 30 feet away, like a splash weapon. Viciously thorny vines erupt in a 20-foot radius from the point of impact, even if the berry misses its target. Creatures within the area must succeed at a DC 16 Reflex saving throw or become entangled, as the spell {spell/entangle}, as the vines coil around the creature's legs. The vines persist, but at the start of the affected creature's turn, it gains a new saving throw against the effect. If the affected creature fails the saving throw, it also takes 1d4 points of damage.",
+			"Consisting of a vine with five green berries, a verdant vine is worn tied around the wrist. Once per day on command, the wearer can pinch a berry off the vine, and throw it up to 30 feet away, like a splash weapon. Viciously thorny vines erupt in a 20-foot radius from the point of impact, even if the berry misses its target. Creatures within the area must succeed at a DC 16 Reflex saving throw or become entangled, as the spell *entangle,* as the vines coil around the creature's legs. The vines persist, but at the start of the affected creature's turn, it gains a new saving throw against the effect. If the affected creature fails the saving throw, it also takes 1d4 points of damage.",
 			"",
 			"A DC 20 Strength check, made as a standard action, allows an affected creature to break free and end the effect. Failing the check causes the vines to constrict, dealing 1d4 points of damage.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, *entangle,* {spell/plant growth}; **Cost** 3,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/entangle}, {spell/plant growth}; **Cost** 3,000 gp"
 		]
 	},
 	"howling_bracers": {
@@ -3053,7 +3053,7 @@
 			"",
 			"**Healthy Apple:** When detached, this charm becomes an apple that when eaten (a standard action that provokes attacks of opportunity) heals 2d8 hit points. In addition, if the creature eating the apple is afflicted with any poison or diseases, it can attempt a new saving throw against each such affliction. Each successful saving throw immediately ends the corresponding affliction.",
 			"",
-			"**Loving Heart:** Upon detaching this charm, the wearer can use {spell/charm person} as a spell-like ability (as the spell, Will DC 11) any time before the end of her next turn.",
+			"**Loving Heart:** Upon detaching this charm, the wearer can use *charm person* as a spell-like ability (as the spell, Will DC 11) any time before the end of her next turn.",
 			"",
 			"**Lucky Star:** When this charm is activated, it releases good luck in a 20-foot-radius burst centered on the wearer. The wearer and her allies within the burst gain a +2 luck bonus on ability checks, attack rolls, saving throws, and skill checks for 1 round.",
 			"",
@@ -3061,7 +3061,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/calm emotions}, *charm person,* {spell/cure moderate wounds}, {spell/prayer}, {spell/shadow weapon}; **Cost** 4,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/calm emotions}, {spell/charm person}, {spell/cure moderate wounds}, {spell/prayer}, {spell/shadow weapon}; **Cost** 4,000 gp"
 		]
 	},
 	"duelists_vambraces": {
@@ -3206,11 +3206,11 @@
 			"",
 			"This slender silver bracelet is worked in an intertwined design of three flowers. A DC 20 Knowledge (nature) check identifies the flowers as acacia, apocynum, and bilberry, symbolizing concealment, treachery, and falsehood.",
 			"",
-			"The bracelet grants the wearer a +5 competence bonus on Sense Motive checks, and a +5 resistance bonus on Will saves against enchantment effects. If the wearer makes a successful Will save against an enchantment, the caster of that spell incorrectly senses the effect has succeeded. Additionally, the bracelet's wearer knows an enchantment targeted him and the enchantment's source. Seducer's bane creates an aura on its wearer, visible to {spell/detect magic}, matching the failed enchantment spell or effect, and lasting as long as the intended enchantment's duration. However, if the bracelet's wearer attacks the caster or its allies, or otherwise acts in a way that's contradictory to the failed spell's effect, the caster of that spell immediately realizes the enchantment was ineffective.",
+			"The bracelet grants the wearer a +5 competence bonus on Sense Motive checks, and a +5 resistance bonus on Will saves against enchantment effects. If the wearer makes a successful Will save against an enchantment, the caster of that spell incorrectly senses the effect has succeeded. Additionally, the bracelet's wearer knows an enchantment targeted him and the enchantment's source. Seducer's bane creates an aura on its wearer, visible to *detect magic,* matching the failed enchantment spell or effect, and lasting as long as the intended enchantment's duration. However, if the bracelet's wearer attacks the caster or its allies, or otherwise acts in a way that's contradictory to the failed spell's effect, the caster of that spell immediately realizes the enchantment was ineffective.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, *detect magic,* {spell/magic aura}, {spell/resistance}, creator must have 3 ranks in Sense Motive; **Cost** 4,950 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/detect magic}, {spell/magic aura}, {spell/resistance}, creator must have 3 ranks in Sense Motive; **Cost** 4,950 gp"
 		]
 	},
 	"bracers_of_might": {
@@ -3384,11 +3384,11 @@
 			"",
 			"These bracers find particular use by Aspis agents who often tangle with the {rule/Pathfinder Society}. As a standard action, a creature wearing these bracers can attempt a steal combat maneuver check to nab any orbiting ioun stone within 30 feet, though the ioun stone's owner receives a +4 circumstance bonus to her CMD. If the bracers' wearer succeeds, the stolen ioun stone embeds itself in one of the bracers' four available slots (each bracer has two). Embedded ioun stones provide their bonuses to the wearer and can be removed with a move action.",
 			"",
-			"As a standard action, the wearer can temporarily drain the power of any ioun stone that is embedded in the bracers and isn't dull gray, and can then channel that power to cast {spell/magic missile} as a spell-like ability, firing three missiles at a target or targets up to 160 feet away. Drained ioun stones become dull gray for the next 2d4 hours.",
+			"As a standard action, the wearer can temporarily drain the power of any ioun stone that is embedded in the bracers and isn't dull gray, and can then channel that power to cast *magic missile* as a spell-like ability, firing three missiles at a target or targets up to 160 feet away. Drained ioun stones become dull gray for the next 2d4 hours.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, *magic missile,* {spell/telekinesis}; **Cost** 7,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/magic missile}, {spell/telekinesis}; **Cost** 7,500 gp"
 		]
 	},
 	"style_stealing_vambrace": {
@@ -3765,13 +3765,13 @@
 			"**Aura** strong transmutation; **CL** 17th  ",
 			"**Slot** wrists; **Price** 32,000 gp; **Weight** 1 lb.",
 			"",
-			"This rune-carved bracelet is made of thick, bright gold and allows the wearer to manipulate time through electricity magic. As a swift action, the wearer can activate the bracer, creating a nimbus of crackling blue energy that surrounds the hand wearing the electro-temporal bracer for up to 3 minutes each day. This duration need not be continuous, but it must be used in 1-minute increments. While the nimbus is active, spells with the electricity descriptor cast by the wearer have an additional effect, chosen by the wearer as each spell is cast: the spell dazzles all targets of the spell for 1 round, the spell staggers a single target of the spell for 1 round, or the spell provides a single target of the spell the benefits of {spell/haste} for 1 round. The staggered and *haste* effects affect only one target selected by the caster as the spell is cast, even if the spell affects multiple targets. There is no saving throw for these additional effects, but a target that avoids the effects of the electricity spell entirely (such as by negating the effect with a successful save, or by having immunity to the spell's damage) is not subject to the additional effect. (A target of an additional effect that successfully saves against the electricity spell but still takes partial damage is still subject to the additional effect.)",
+			"This rune-carved bracelet is made of thick, bright gold and allows the wearer to manipulate time through electricity magic. As a swift action, the wearer can activate the bracer, creating a nimbus of crackling blue energy that surrounds the hand wearing the electro-temporal bracer for up to 3 minutes each day. This duration need not be continuous, but it must be used in 1-minute increments. While the nimbus is active, spells with the electricity descriptor cast by the wearer have an additional effect, chosen by the wearer as each spell is cast: the spell dazzles all targets of the spell for 1 round, the spell staggers a single target of the spell for 1 round, or the spell provides a single target of the spell the benefits of *haste* for 1 round. The staggered and *haste* effects affect only one target selected by the caster as the spell is cast, even if the spell affects multiple targets. There is no saving throw for these additional effects, but a target that avoids the effects of the electricity spell entirely (such as by negating the effect with a successful save, or by having immunity to the spell's damage) is not subject to the additional effect. (A target of an additional effect that successfully saves against the electricity spell but still takes partial damage is still subject to the additional effect.)",
 			"",
 			"If the wearer takes at least 50 points of electricity damage from a single source (such as a trap or a spell), the wearer immediately benefits from the effects of time stop, and the electro-temporal bracer ceases functioning for 1 month.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, *haste,* {spell/slow}, {spell/time stop}; **Cost** 16,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/haste}, {spell/slow}, {spell/time stop}; **Cost** 16,000 gp"
 		]
 	},
 	"thorned_manacles": {

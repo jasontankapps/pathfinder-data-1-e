@@ -162,11 +162,11 @@
 			"**Aura** faint evocation and illusion; **CL** 3rd  ",
 			"**Slot** neck; **Price** 4,800 gp; **Weight** -;",
 			"",
-			"This amulet allows the wearer to use the same spells many drow can cast innately. The wearer can use each of the following spells once per day as a spell-like ability: {spell/dancing lights}, {spell/darkness}, and {spell/faerie fire}. In addition, while wearing this item, the wearer is granted the ability to speak and understand Undercommon and gains proficiency with the hand crossbow, the rapier, and the short sword. While the target is wearing the amulet, she radiates the aura of a chaotic evil creature for the purposes of spells such as {spell/detect chaos} and {spell/detect evil}. A bloodlink can serve as the focus for a {spell/recorporeal incarnation} spell.",
+			"This amulet allows the wearer to use the same spells many drow can cast innately. The wearer can use each of the following spells once per day as a spell-like ability: *dancing lights, darkness,* and *faerie fire.* In addition, while wearing this item, the wearer is granted the ability to speak and understand Undercommon and gains proficiency with the hand crossbow, the rapier, and the short sword. While the target is wearing the amulet, she radiates the aura of a chaotic evil creature for the purposes of spells such as {spell/detect chaos} and {spell/detect evil}. A bloodlink can serve as the focus for a {spell/recorporeal incarnation} spell.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/bestow weapon proficiency}, {spell/comprehend languages}, *dancing lights, darkness, faerie fire,* {spell/misdirection}; **Cost** 6,075 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/bestow weapon proficiency}, {spell/comprehend languages}, {spell/dancing lights}, {spell/darkness}, {spell/faerie fire}, {spell/misdirection}; **Cost** 6,075 gp"
 		]
 	},
 	"thundering_collar": {
@@ -770,13 +770,13 @@
 			"",
 			"The fine chain bears a glass-fronted locket. If a piece of an outsider with an alignment subtype - such as a tooth from a demon or an angel's wing feather - is held in the locket for 24 hours, the blessed keepsake's magic activates. If the creature has more than one alignment subtype, one must be chosen when the piece is added to the locket.",
 			"",
-			"The wearer can detect creatures of the chosen alignment at will, as the corresponding {spell/detect chaos}/evil/good/law spell. Three times per day, the wearer can use the blessed keepsake to gain protection from creatures of that alignment, as the corresponding protection from chaos/evil/good/law spell. Lastly, if the wearer has the channel energy ability, she can channel energy to affect outsiders with that subtype as if she possessed the {feat/Alignment Channel} feat.",
+			"The wearer can detect creatures of the chosen alignment at will, as the corresponding *detect chaos/evil/good/law* spell. Three times per day, the wearer can use the blessed keepsake to gain protection from creatures of that alignment, as the corresponding *protection from chaos/evil/good/law* spell. Lastly, if the wearer has the channel energy ability, she can channel energy to affect outsiders with that subtype as if she possessed the {feat/Alignment Channel} feat.",
 			"",
 			"If the piece of outsider is removed, the blessed keepsake is inactive until a new piece is attuned.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, Alignment Channel, *detect chaos,* [evil](spell/detect_evil), [good](spell/detect_good), and [law](spell/detect_law), {spell/protection from chaos}, [evil](spell/protection_from_evil), [good](spell/protection_from_good), and [law](spell/protection_from_law); **Cost** 4,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, Alignment Channel, {spell/detect [chaos, ]evil/, good, and law}, {spell/protection from [chaos, ]evil/, good, and law}; **Cost** 4,000 gp"
 		]
 	},
 	"choker_of_the_queen_bee": {
@@ -868,11 +868,11 @@
 			"**Aura** faint varied; **CL** 5th  ",
 			"**Slot** neck; **Price** 8,000 gp; **Weight** 2 lbs.",
 			"",
-			"This mummified human hand hangs around a character's neck by a leather cord (taking up space as a magic necklace would). If a magic ring is placed on one of the fingers of the hand, the wearer benefits from the ring as if wearing it herself, and it does not count against her two ring limit. The hand can wear only one ring at a time. Even without a ring, the hand itself allows its wearer to use {spell/daylight} and {spell/see invisibility} each once per day.",
+			"This mummified human hand hangs around a character's neck by a leather cord (taking up space as a magic necklace would). If a magic ring is placed on one of the fingers of the hand, the wearer benefits from the ring as if wearing it herself, and it does not count against her two ring limit. The hand can wear only one ring at a time. Even without a ring, the hand itself allows its wearer to use *daylight* and *see invisibility* each once per day.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/animate dead}, *daylight, see invisibility;* **Cost** 4,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/animate dead}, {spell/daylight}, {spell/see invisibility}; **Cost** 4,000 gp"
 		]
 	},
 	"amulet_of_the_spirits_heavens": {
@@ -2412,11 +2412,11 @@
 			"",
 			"Mothmen sometimes create these tokens when they know their powers won't be needed for a long period of time or they are close to death and wish to preserve their legacies. A mothman memento can be any item that is worn around the neck, such as an amulet or pendant. As a full-round action while wearing a mothman memento, a mothman can simultaneously kill itself and inject its soul into the item.",
 			"",
-			"A mothman memento can lie untouched for years or even decades before it winds up in the hands of another creature. Any humanoid or monstrous humanoid that wears the memento gains the ability to cast {spell/modify memory} as a spell-like ability three times per day (caster level 12th). If a creature goes to sleep or falls unconscious while wearing a mothman memento, the wearer must succeed at a DC 19 Will save or be affected as though by a {spell/nightmare} spell (no modifiers due to knowledge or physical connection; caster level 12th). A creature can be affected by this nightmare effect only once every 24 hours. After the first time the wearer is affected by the nightmare effect, the memento can only be removed by means of a {spell/remove curse} spell. A creature that dies from the nightmare effect rises as a {monster/mothman} the next morning.",
+			"A mothman memento can lie untouched for years or even decades before it winds up in the hands of another creature. Any humanoid or monstrous humanoid that wears the memento gains the ability to cast *modify memory* as a spell-like ability three times per day (caster level 12th). If a creature goes to sleep or falls unconscious while wearing a mothman memento, the wearer must succeed at a DC 19 Will save or be affected as though by a *nightmare* spell (no modifiers due to knowledge or physical connection; caster level 12th). A creature can be affected by this nightmare effect only once every 24 hours. After the first time the wearer is affected by the nightmare effect, the memento can only be removed by means of a {spell/remove curse} spell. A creature that dies from the nightmare effect rises as a {monster/mothman} the next morning.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, *modify memory, nightmare,* {spell/soul bind}; **Cost** 14,400 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/modify memory}, {spell/nightmare}, {spell/soul bind}; **Cost** 14,400 gp"
 		]
 	},
 	"medallion_of_demonic_disruption": {
@@ -2465,11 +2465,11 @@
 			"",
 			"Platinum filigree wraps around this small, spiral-shell amulet, which hangs on an ornate chain that resembles entwined tentacles. Enchantment spells and effects created by the wearer of a masters' call are treated as though they came from an aboleth source, so gillman targets take their racial -2 penalty on Will saves to resist the amulet's effects.",
 			"",
-			"Once per day, the wearer can speak a trigger phrase in the Aboleth language to cast {spell/dominate person} on a single target (Will DC 18 negates). Regardless of whether the dominate person spell succeeds, the wearer can then attempt to cast {spell/modify memory} on the same target to change its memory of either the actions the target performed while dominated or the attempted domination (Will DC 17 negates).",
+			"Once per day, the wearer can speak a trigger phrase in the Aboleth language to cast *dominate person* on a single target (Will DC 18 negates). Regardless of whether the dominate person spell succeeds, the wearer can then attempt to cast *modify memory* on the same target to change its memory of either the actions the target performed while dominated or the attempted domination (Will DC 17 negates).",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, *dominate person, modify memory;* **Cost** 17,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/dominate person}, {spell/modify memory}; **Cost** 17,000 gp"
 		]
 	},
 	"amulet_of_proof_against_detection_and_location": {
@@ -2585,11 +2585,11 @@
 			"**Aura** strong abjuration; **CL** 9th  ",
 			"**Slot** neck; **Price** 40,000 gp; **Weight** -;",
 			"",
-			"These talismans are crafted by evil spellcasters on the first steps of the path of the wendigo. The amulet, a tiny human figure formed from unmelting ice, rests on the wearer's chest. When worn, it freezes the wearer's heart solid, chilling body and soul. The wearer immediately develops hypothermia, becoming permanently fatigued for as long as he wears the amulet, but is otherwise protected against cold weather by a constant {spell/endure elements} effect. The amulet also grants 10 points of cold resistance, immunity to bleed effects, and a +4 resistance bonus on saving throws against spells with the emotion descriptor. Once per day as a standard action, the wearer can use {spell/frigid touch} as a spell-like ability. Removing the amulet thaws the wearer's heart but leaves him fatigued until he spends 8 hours warming up.",
+			"These talismans are crafted by evil spellcasters on the first steps of the path of the wendigo. The amulet, a tiny human figure formed from unmelting ice, rests on the wearer's chest. When worn, it freezes the wearer's heart solid, chilling body and soul. The wearer immediately develops hypothermia, becoming permanently fatigued for as long as he wears the amulet, but is otherwise protected against cold weather by a constant *endure elements* effect. The amulet also grants 10 points of cold resistance, immunity to bleed effects, and a +4 resistance bonus on saving throws against spells with the emotion descriptor. Once per day as a standard action, the wearer can use *frigid touch* as a spell-like ability. Removing the amulet thaws the wearer's heart but leaves him fatigued until he spends 8 hours warming up.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/calm emotions}, *endure elements, frigid touch;* **Cost** 21,600 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/calm emotions}, {spell/endure elements}, {spell/frigid touch}; **Cost** 21,600 gp"
 		]
 	},
 	"necklace_of_netted_stars": {
@@ -2652,11 +2652,11 @@
 			"",
 			"**Dreadful Gaze:** Three times per day as a swift action, the wearer can command the hags' heads to lock their terrible gazes on one humanoid within 30 feet. The target of this gaze attack must succeed at a DC 15 Will save or become paralyzed with terror (as the effect of the hold person spell). This is a mind-affecting fear effect.",
 			"",
-			"**Hag Form:** Once per day as a standard action, the wearer can assume the form of a powerfully built Medium crone that resembles the horrific union of an annis hag, a green hag, and a sea hag. This metamorphosis is identical to the {spell/transformation} spell, including the violent change to the wearer's mindset and the loss of spellcasting ability.",
+			"**Hag Form:** Once per day as a standard action, the wearer can assume the form of a powerfully built Medium crone that resembles the horrific union of an annis hag, a green hag, and a sea hag. This metamorphosis is identical to the *transformation* spell, including the violent change to the wearer's mindset and the loss of spellcasting ability.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, Craft (leather) 4 ranks, {spell/alter self}, {spell/hold person}, *transformation,* coven hex; **Cost** 23,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, Craft (leather) 4 ranks, {spell/alter self}, {spell/hold person}, {spell/transformation}, coven hex; **Cost** 23,000 gp"
 		]
 	},
 	"iron_road": {
@@ -2669,7 +2669,7 @@
 			"**Aura** strong conjuration; **CL** 18th  ",
 			"**Slot** neck; **Price** 50,000 gp; **Weight** -;",
 			"",
-			"The Iron Road is a {magic-talisman/melancholic talisman}, a potent magic item that contains a bound hellmouth devil (a portal to Hell crafted from a devil). Once per day the wearer can activate the talisman to summon a hellmouth, which takes the form of Jyangzipao, an eyeless, amphisbaenic underworld dragon with corroded iron scales. Each of Jyangzipao's two mouths forms a 10-foot portal to Hell; one connects to Avernus and the other to Dis. Only one portal can be used each time the talisman is activated, remaining open for 10 minutes (or until the wearer dismisses it) and functioning as the spell {spell/gate}. The portal cannot connect to any other locations, so should the wearer of the Iron Road pass through the gate and linger in Hell for more than 10 minutes, the hellmouth closes behind him and traps him in Hell. Jyangzipao currently exists only as a portal, and is not an independent creature with his own desires or needs.",
+			"The Iron Road is a {magic-talisman/melancholic talisman}, a potent magic item that contains a bound hellmouth devil (a portal to Hell crafted from a devil). Once per day the wearer can activate the talisman to summon a hellmouth, which takes the form of Jyangzipao, an eyeless, amphisbaenic underworld dragon with corroded iron scales. Each of Jyangzipao's two mouths forms a 10-foot portal to Hell; one connects to Avernus and the other to Dis. Only one portal can be used each time the talisman is activated, remaining open for 10 minutes (or until the wearer dismisses it) and functioning as the spell *gate.* The portal cannot connect to any other locations, so should the wearer of the Iron Road pass through the gate and linger in Hell for more than 10 minutes, the hellmouth closes behind him and traps him in Hell. Jyangzipao currently exists only as a portal, and is not an independent creature with his own desires or needs.",
 			"",
 			"The hellmouth maw that connects to Dis always connects to the Souk Sinister, an auction house in the city of Dis operated by Hasharizi, a heavily tattooed contract devil. Hasharizi happily offers her services as a fence for stolen goods, and she is willing to search the markets of Dis for rare treasures for a commission (typically 10% of the item's cost), providing the talisman's wearer a portable means of liquidating wealth and securing otherwise unavailable goods. It usually takes at least a day for the devil to fence or find the requested items. For those requiring more immediate boons, Hasharizi is always willing to tailor an infernal contract to meet her patron's needs.",
 			"",
@@ -2677,7 +2677,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, *gate,* {spell/greater planar binding}, ability to conjure and bind a greater devil; **Cost** 25,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/gate}, {spell/greater planar binding}, ability to conjure and bind a greater devil; **Cost** 25,000 gp"
 		]
 	},
 	"star_cinder": {
@@ -2767,11 +2767,11 @@
 			"**Aura** strong evocation; **CL** 17th  ",
 			"**Slot** neck; **Price** 70,000 gp; **Weight** -;",
 			"",
-			"A whispering amulet looks like a bejeweled glabrezu head to the person who owns it, but to anyone else appears to be a relatively unremarkable necklace. As long as it is worn, a whispering amulet masks the wearer's alignment as if by undetectable alignment. Once per day by grasping the amulet in one hand and whispering, as a standard action, the wearer may send a single message of no more than 25 words to another creature as if via {spell/sending} - the message arrives at the intended target in the form of a soft whisper in the left ear, and the recipient can opt to whisper a return message to the wearer of the amulet. A single glabrezu is linked to each whispering amulet, and any message sent or received via the amulet can be heard by the demon as well. Finally, by grasping the amulet and whispering the glabrezu's name, the wearer can make a single wish. This destroys the whispering amulet, and as the wish itself is granted by the glabrezu, it likely has unexpected and unintended consequences. If the glabrezu has already used its wish ability during that month, the attempt to wish fails and the amulet is not destroyed; there's a 5% chance that this occurs if the GM doesn't already know for sure if the glabrezu's wish is available.",
+			"A whispering amulet looks like a bejeweled glabrezu head to the person who owns it, but to anyone else appears to be a relatively unremarkable necklace. As long as it is worn, a whispering amulet masks the wearer's alignment as if by undetectable alignment. Once per day by grasping the amulet in one hand and whispering, as a standard action, the wearer may send a single message of no more than 25 words to another creature as if via *sending* - the message arrives at the intended target in the form of a soft whisper in the left ear, and the recipient can opt to whisper a return message to the wearer of the amulet. A single glabrezu is linked to each whispering amulet, and any message sent or received via the amulet can be heard by the demon as well. Finally, by grasping the amulet and whispering the glabrezu's name, the wearer can make a single wish. This destroys the whispering amulet, and as the wish itself is granted by the glabrezu, it likely has unexpected and unintended consequences. If the glabrezu has already used its wish ability during that month, the attempt to wish fails and the amulet is not destroyed; there's a 5% chance that this occurs if the GM doesn't already know for sure if the glabrezu's wish is available.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, *sending,* {spell/undetectable alignment}, {spell/wish}; **Cost** 35,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/sending}, {spell/undetectable alignment}, {spell/wish}; **Cost** 35,000 gp"
 		]
 	},
 	"shrunken_head": {
@@ -3299,11 +3299,11 @@
 			"**Aura** faint enchantment; **CL** 4th  ",
 			"**Slot** none; **Price** 150 gp; **Weight** -;",
 			"",
-			"This sweet-tasting liquid causes the character drinking it to become enraptured with the first creature she sees after consuming the draft (as {spell/charm person} - the drinker must be a humanoid of Medium or smaller size, Will DC 14 negates). The charm effect wears off in 1d3 hours.",
+			"This sweet-tasting liquid causes the character drinking it to become enraptured with the first creature she sees after consuming the draft (as *charm person* - the drinker must be a humanoid of Medium or smaller size, Will DC 14 negates). The charm effect wears off in 1d3 hours.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, *charm person;* **Cost** 75 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/charm person}; **Cost** 75 gp"
 		]
 	},
 	"elixir_of_repression": {
@@ -3673,13 +3673,13 @@
 			"**Aura** faint divination; **CL** 5th  ",
 			"**Slot** none; **Price** 250 gp; **Weight** -;",
 			"",
-			"Nightmare tears are a toxic alchemical solution that, when applied to the eyes, allows the individual to see past certain supernatural effects, as the spell {spell/true seeing}. These include reality-warping effects such as those caused by the Plateau of Leng and spells or supernatural powers that create phantasms such as weird, nightmare, and phantasmal killer. The effect of the tears lasts for 1 hour.",
+			"Nightmare tears are a toxic alchemical solution that, when applied to the eyes, allows the individual to see past certain supernatural effects, as the spell *true seeing.* These include reality-warping effects such as those caused by the Plateau of Leng and spells or supernatural powers that create phantasms such as weird, nightmare, and phantasmal killer. The effect of the tears lasts for 1 hour.",
 			"",
 			"Nightmare tears have horrific side effects - users suffer both temporary blindness and insanity. Immediately after applying the tears, the user goes blind for 1d4 rounds and looses 1d4 points of Wisdom until the tears wear off. However, if the user fails a DC 11 Will save, both effects become permanent.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/blindness>_deafness}, *true seeing;* **Cost** 125 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/blindness>_deafness}, {spell/true seeing}; **Cost** 125 gp"
 		]
 	},
 	"oil_of_silence": {
@@ -4231,11 +4231,11 @@
 			"**Aura** weak divination; **CL** 1st  ",
 			"**Slot** none; **Price** 450 gp; **Weight** -;",
 			"",
-			"This simple copper coin establishes a connection with the most recent person to keep it under her tongue for 24 hours. Once established, this connection allows its owner to determine its current direction and distance each time she casts {spell/detect magic}. The connection instantly breaks if the coin travels to another plane or enters an antimagic field.",
+			"This simple copper coin establishes a connection with the most recent person to keep it under her tongue for 24 hours. Once established, this connection allows its owner to determine its current direction and distance each time she casts *detect magic.* The connection instantly breaks if the coin travels to another plane or enters an antimagic field.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, *detect magic;* **Cost** 225 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/detect magic}; **Cost** 225 gp"
 		]
 	},
 	"guiding_vellum_1st": {

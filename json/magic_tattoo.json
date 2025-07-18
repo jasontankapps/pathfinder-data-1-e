@@ -45,11 +45,11 @@
 			"**Aura** faint divination; **CL** 1st  ",
 			"**Slot** none; **Price** 1,000 gp; **Weight** -",
 			"",
-			"Each of these tattoos is keyed to a single school of magic. The bearer can use {spell/detect magic} at will, but only to sense auras of that school. The bearer gains a +1 insight bonus on saving throws against spells and spell-like abilities of the keyed school and knows when such a spell or spell-like ability has been cast within 60 feet.",
+			"Each of these tattoos is keyed to a single school of magic. The bearer can use *detect magic* at will, but only to sense auras of that school. The bearer gains a +1 insight bonus on saving throws against spells and spell-like abilities of the keyed school and knows when such a spell or spell-like ability has been cast within 60 feet.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Inscribe Magical Tattoo}, *detect magic,* {spell/guidance}; **Cost** 500 gp"
+			"**Requirements** {feat/Inscribe Magical Tattoo}, {spell/detect magic}, {spell/guidance}; **Cost** 500 gp"
 		]
 	},
 	"radiant_tattoo": {

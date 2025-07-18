@@ -1144,13 +1144,13 @@
 			"**Aura** strong divination and necromancy; **CL** 12th  ",
 			"**Slot** none; **Price** 3,600 gp; **Weight** 1/2 lb.",
 			"",
-			"After standing above the remains of a creature for many years, a headstone or grave marker often develops a psychic resonance for the spirit of the creature as it was in life. When this aromatic salve is applied to the surface of a gravestone or similar monument, the user can ask six questions of the monument and receive answers as if she had successfully cast {spell/speak with dead} on the creature that was buried beneath. The user of the monument's truth need not have shared a language with the creature interred beneath the stone for the item to function, but the monument can speak only about what the creature knew in life. It cannot answer any questions that pertain to events that occurred after the creature's death.",
+			"After standing above the remains of a creature for many years, a headstone or grave marker often develops a psychic resonance for the spirit of the creature as it was in life. When this aromatic salve is applied to the surface of a gravestone or similar monument, the user can ask six questions of the monument and receive answers as if she had successfully cast *speak with dead* on the creature that was buried beneath. The user of the monument's truth need not have shared a language with the creature interred beneath the stone for the item to function, but the monument can speak only about what the creature knew in life. It cannot answer any questions that pertain to events that occurred after the creature's death.",
 			"",
 			"A creature with an Intelligence score of at least 3 while it was alive must have been buried beneath the monument for at least 1 year for monument's truth to function. If more than one such creature is buried beneath the monument, the effect fails, the psychic impressions having become too tangled to transmit comprehensible information.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, *speak with dead,* {spell/stone tell}; **Cost** 1,800 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/speak with dead}, {spell/stone tell}; **Cost** 1,800 gp"
 		]
 	},
 	"nobles_vigilant_pillbox": {
@@ -1704,13 +1704,13 @@
 			"**Aura** moderate abjuration; **CL** 9th  ",
 			"**Slot** none; **Price** 4,000 gp; **Weight** -;",
 			"",
-			"This silver powder typically comes in a fist-sized leather bag. When poured on the ground, the dust animates over the course of 1 round to scribble silver thaumaturgic script and symbols in a circular pattern with a 20-foot radius. This circle acts as the perfectly scribed special diagram of a {spell/magic circle against /chaos, evil, good, or law>evil} and bars extradimensional movement as if the user had attached {spell/dimensional anchor} to the magic circle. The scribed circle lasts 24 hours. A bag of thaumaturgic powder can be used only once.",
+			"This silver powder typically comes in a fist-sized leather bag. When poured on the ground, the dust animates over the course of 1 round to scribble silver thaumaturgic script and symbols in a circular pattern with a 20-foot radius. This circle acts as the perfectly scribed special diagram of a {spell/magic circle against [chaos, ]evil/, good, or law} and bars extradimensional movement as if the user had attached *dimensional anchor* to the magic circle. The scribed circle lasts 24 hours. A bag of thaumaturgic powder can be used only once.",
 			"",
 			"An extraplanar creature of the appropriate alignment that is called or summoned into the circle can attempt to break through the circle once during the circle's duration, just as if trying to break free from a {spell/lesser planar binding} spell with either its spell resistance or a DC 26 Charisma check.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {feat/Extend Spell}, *dimensional anchor,* {spell/magic circle against evil}; **Cost** 2,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {feat/Extend Spell}, {spell/dimensional anchor}, {spell/magic circle against evil}; **Cost** 2,000 gp"
 		]
 	},
 	"wolf_callers_horn": {
@@ -2029,11 +2029,11 @@
 			"",
 			"This iron blacksmith's hammer bears designs of Torag's holy symbol; it is not designed for combat, but the bearer can use it as a Medium light hammer. Once per day, the bearer can strike the hammer hard against a weapon to target that weapon with magic weapon. The owner gains a +2 competence bonus on all smithing (armorsmithing, blacksmithing, weaponsmithing, and so on) skill checks made when crafting with the forgehammer.",
 			"",
-			"If Torag is the owner's patron, once per day the owner can strike the hammer against another character's armor or shield to cast {spell/shield other} on that character. If the owner can craft magic weapons or armor and uses the forgehammer during the crafting, the total time to craft the item is decreased by 25% (minimum 1 day). This does not reduce the cost to create the item. A particular forgehammer can aid in only one item's crafting at a time.",
+			"If Torag is the owner's patron, once per day the owner can strike the hammer against another character's armor or shield to cast *shield other* on that character. If the owner can craft magic weapons or armor and uses the forgehammer during the crafting, the total time to craft the item is decreased by 25% (minimum 1 day). This does not reduce the cost to create the item. A particular forgehammer can aid in only one item's crafting at a time.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/magic weapon}, *shield other,* creator must have 5 ranks in Craft (armor) or Craft (weapons); **Cost** 2,400 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/magic weapon}, {spell/shield other}, creator must have 5 ranks in Craft (armor) or Craft (weapons); **Cost** 2,400 gp"
 		]
 	},
 	"kyonin_bliss": {
@@ -3363,13 +3363,13 @@
 			"",
 			"This chunk of yellow crystal glows like a torch, shedding normal light in a 20-foot radius and increasing the light level for an additional 20 feet by one step, up to normal light. The crystal floats in the air 1 foot above any solid surface and can be moved with little effort.",
 			"",
-			"Any form of Abyssal writing (books, scrolls, etc.) read by the light of Dagon's eye can be understood by any creature that perceives it, as if under the effects of a {spell/comprehend languages} spell.",
+			"Any form of Abyssal writing (books, scrolls, etc.) read by the light of Dagon's eye can be understood by any creature that perceives it, as if under the effects of a *comprehend languages* spell.",
 			"",
 			"If any form of Celestial writing is placed in the light of Dagon's Eye, the words erupt into a searing fireball that deals 6d6 points of fire damage to all creatures within 20 feet of the writing. Creatures in the area take only half damage with a successful DC 14 Reflex save. This ability functions once every 10 minutes.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, *comprehend languages,* {spell/explosive runes}, creator must worship a demon lord; **Cost** 6,300 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/comprehend languages}, {spell/explosive runes}, creator must worship a demon lord; **Cost** 6,300 gp"
 		]
 	},
 	"gem_of_brightness": {
@@ -3817,14 +3817,14 @@
 			"This device is a large, intricately inscribed and decorated conch shell that can be blown once per day (except by a triton, who can sound it three times per day). Blowing the horn activates any one of the following functions:",
 			"",
 			"- Calm rough waters in a 1-mile radius. Alternatively, this functions as a dismissal spell against a targeted water elemental (DC 19 negates).",
-			"- Summon 1d4+1 sharks or 1d3 advanced sharks as if using {spell/summon nature's ally V}.",
+			"- Summon 1d4+1 sharks or 1d3 advanced sharks as if using *summon nature's ally V.*",
 			"- Create a fear effect (DC 16 negates) in a 500-foot radius that only affects creatures with the aquatic or amphibious subtype which have Intelligence scores of 1 or 2.",
 			"",
 			"Any sounding of a horn of the tritons can be heard by all tritons within a 3-mile radius.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/control water}, {spell/dismissal}, {spell/fear}, *summon nature's ally V,* creator must be a triton; **Cost** 7,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/control water}, {spell/dismissal}, {spell/fear}, {spell/summon nature's ally V}, creator must be a triton; **Cost** 7,500 gp"
 		]
 	},
 	"lucky_horseshoe_communal": {
@@ -4376,11 +4376,11 @@
 			"**Aura** strong conjuration; **CL** 15th  ",
 			"**Slot** none; **Price** 55,000 gp; **Weight** 2 lbs.",
 			"",
-			"The bell of this slightly curved horn resembles the head of a roaring lioness. The horn functions in many ways like a {magic-wondrous/horn of valhalla}, but while held in one hand, the wielder gains the benefits of {spell/deathwatch}. Once per year when the wielder sounds the horn, she can summon one {monster/sleipnir} with a saddle for 1 hour in place of summoning the barbarians. The sleipnir willingly serves as a mount or combatant.",
+			"The bell of this slightly curved horn resembles the head of a roaring lioness. The horn functions in many ways like a {magic-wondrous/horn of valhalla}, but while held in one hand, the wielder gains the benefits of *deathwatch.* Once per year when the wielder sounds the horn, she can summon one {monster/sleipnir} with a saddle for 1 hour in place of summoning the barbarians. The sleipnir willingly serves as a mount or combatant.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, *deathwatch,* {spell/summon monster VIII}; **Cost** 22,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/deathwatch}, {spell/summon monster VIII}; **Cost** 22,500 gp"
 		]
 	},
 	"cube_of_varied_force_walls": {

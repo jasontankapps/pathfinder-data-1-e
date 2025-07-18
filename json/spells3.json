@@ -2921,27 +2921,12 @@
 			"This spell instantly delivers 10 points of damage per caster level. If the spell slays the target, it consumes the remains utterly in holy (or unholy) fire (but not its equipment or possessions). If the target's Fortitude saving throw succeeds, it instead takes 10d6 points of damage. The only way to restore life to a character who has failed to save against this spell (and was slain) is to use {spell/true resurrection}, a carefully worded {spell/wish} spell followed by {spell/resurrection}, or {spell/miracle}."
 		]
 	},
-	"detect_aberration": {
-		"name": "Detect Aberration",
-		"sources": [ "Advanced Player's Guide" ],
-		"description": [
-			"## Detect Aberration",
-			"",
-			"{SOURCE Advanced Player's Guide/215}  ",
-			"**School** {spelldef/divination}; **Level** druid 1, hunter 1, psychic 1, ranger 1  ",
-			"**Casting Time** 1 standard action  ",
-			"**Components** V, S  ",
-			"**Range** long (400 ft. + 40 ft./level)  ",
-			"**Area** cone-shaped emanation  ",
-			"**Duration** concentration, up to 10 minutes/level (D)  ",
-			"**Saving Throw** none; **Spell Resistance** no",
-			"",
-			"This spell functions like detect animals or plants, except it detects creatures of the aberration type."
-		]
-	},
 	"detect_animals_or_plants": {
 		"name": "Detect Animals or Plants",
-		"sources": [ "PRPG Core Rulebook" ],
+		"sources": [
+			"PRPG Core Rulebook",
+			"Advanced Player's Guide"
+		],
 		"description": [
 			"## Detect Animals or Plants",
 			"",
@@ -2974,47 +2959,19 @@
 			"",
 			"If a creature falls into more than one category, the spell indicates the weaker of the two.",
 			"",
-			"Each round you can turn to detect a kind of animal or plant in a new area. The spell can penetrate barriers, but 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt blocks it."
+			"Each round you can turn to detect a kind of animal or plant in a new area. The spell can penetrate barriers, but 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt blocks it.",
+			"",
+			"::h2[Detect Aberration]{jl}",
+			"",
+			"{SOURCE Advanced Player's Guide/215}  ",
+			"**School** {spelldef/divination}; **Level** druid 1, hunter 1, psychic 1, ranger 1 ",
+			"",
+			"This spell functions like *detect animals or plants,* except it detects creatures of the aberration type."
 		]
 	},
-	"detect_chaos": {
-		"name": "Detect Chaos",
-		"sources": [ "PRPG Core Rulebook" ],
-		"description": [
-			"## Detect Chaos",
-			"",
-			"{SOURCE PRPG Core Rulebook/266}  ",
-			"**School** {spelldef/divination}; **Level** adept 1, cleric 1, inquisitor 1, oracle 1, shaman 1, spiritualist 1, warpriest 1  ",
-			"**Casting Time** 1 standard action  ",
-			"**Components** V, S, DF  ",
-			"**Range** 60 ft.  ",
-			"**Area** cone-shaped emanation  ",
-			"**Duration** concentration, up to 10 min./level (D)  ",
-			"**Saving Throw** none; **Spell Resistance** no",
-			"",
-			"This spell functions like {spell/detect evil}, except that it detects the auras of chaotic creatures, clerics of chaotic deities, chaotic spells, and chaotic magic items, and you are vulnerable to an overwhelming chaotic aura if you are lawful."
-		]
-	},
-	"detect_charm": {
-		"name": "Detect Charm",
-		"sources": [
-			"Adventurer's Guide",
-			"Andoran, Spirit of Liberty"
-		],
-		"description": [
-			"## Detect Charm",
-			"",
-			"{SOURCE Adventurer's Guide/77;Andoran, Spirit of Liberty/27}  ",
-			"**School** {spelldef/divination}; **Level** arcanist 1, bard 1, cleric 1, inquisitor 1, medium 1, mesmerist 1, occultist 1, oracle 1, paladin 1, psychic 1, shaman 1, skald 1, sorcerer 1, spiritualist 1, warpriest 1, witch 1, wizard 1  ",
-			"**Casting Time** 1 standard action  ",
-			"**Components** V, S  ",
-			"**Range** 60 ft.  ",
-			"**Area** cone-shaped emanation  ",
-			"**Duration** concentration, up to 1 minute/level (D)  ",
-			"**Saving Throw** none; **Spell Resistance** no",
-			"",
-			"This spell functions as per {spell/detect magic}, except that it detects only charm, compulsion, and possession effects. You immediately detect the strength and location of each such aura on all creatures in the area. You can attempt to identify the properties of each aura (see {skill/Spellcraft}). In addition to noticing the targets of these effects, you can recognize when creatures in the area are using these effects on others by attempting a Sense Motive check as a standard action (DC = 20 + caster level). If you succeed, you can attempt a Spellcraft check to identify what magic it is using (even if the target is not in the area)."
-		]
+	"detect_aberration": {
+		"name": "Detect Aberration",
+		"copyof": "detect_animals_or_plants"
 	},
 	"detect_demon": {
 		"name": "Detect Demon",
@@ -3046,7 +3003,10 @@
 	},
 	"detect_evil": {
 		"name": "Detect Evil",
-		"sources": [ "PRPG Core Rulebook" ],
+		"sources": [
+			"PRPG Core Rulebook",
+			"Agents of Evil"
+		],
 		"description": [
 			"## Detect Evil",
 			"",
@@ -3092,70 +3052,62 @@
 			"| Cleric or paladin of an aligned deity[^A] (class levels) | - | 1 | 2-4 | 05-10 | 11 or higher |",
 			"| Aligned magic item or spell (caster level) | 5th or lower | 6th-10th | 11th-15th | 16th-20th | 21st or higher |",
 			"",
+			"::h2[Detect Chaos]{jl}",
+			"",
+			"{SOURCE PRPG Core Rulebook/267}  ",
+			"**School** {spelldef/divination}; **Level** adept 1, cleric 1, inquisitor 1, oracle 1, shaman 1, spiritualist 1, warpriest 1",
+			"",
+			"This spell functions like *detect evil,* except that it detects the auras of chaotic creatures, clerics of chaotic deities, chaotic spells, and chaotic magic items, and you are vulnerable to an overwhelming chaotic aura if you are lawful.",
+			"",
+			"::h2[Detect Good]{jl}",
+			"",
+			"{SOURCE PRPG Core Rulebook/267}  ",
+			"**School** {spelldef/divination}; **Level** adept 1, cleric 1, inquisitor 1, oracle 1, shaman 1, spiritualist 1, warpriest 1",
+			"",
+			"This spell functions like *detect evil,* except that it detects the auras of good creatures, clerics or paladins of good deities, good spells, and good magic items, and you are vulnerable to an overwhelming good aura if you are evil.",
+			"",
+			"::h2[Detect Law]{jl}",
+			"",
+			"{SOURCE PRPG Core Rulebook/267}  ",
+			"**School** {spelldef/divination}; **Level** adept 1, cleric 1, inquisitor 1, oracle 1, shaman 1, spiritualist 1, warpriest 1",
+			"",
+			"This spell functions like *detect evil,* except that it detects the auras of lawful creatures, clerics of lawful deities, lawful spells, and lawful magic items, and you are vulnerable to an overwhelming lawful aura if you are chaotic.",
+			"",
+			"::h2[Detect Fiendish Presence]{jl}",
+			"",
+			"{SOURCE Agents of Evil/16}  ",
+			"**School** {spelldef/divination}; **Level** arcanist 0, bard 0, cleric 0, magus 0, oracle 0, skald 0, sorcerer 0, warpriest 0, witch 0, wizard 0",
+			"",
+			"This spell functions like *detect evil,* except that it detects only outsiders with the evil subtype, as well as the lingering effects caused by their gifts, presence, and spells. It can also detect clerics and paladins of fiendish deities, including Asmodeus, archdevils, daemonic harbingers, and demon lords.",
+			"",
 			"[^A]: Some characters who are not clerics may radiate an aura of equivalent power. The class description will indicate whether this applies.",
 			"[^E]: Excludes undead and outsiders, which have their own entries on the table."
 		]
 	},
-	"detect_fiendish_presence": {
-		"name": "Detect Fiendish Presence",
-		"sources": [ "Agents of Evil" ],
-		"description": [
-			"## Detect Fiendish Presence",
-			"",
-			"{SOURCE Agents of Evil/16}  ",
-			"**School** {spelldef/divination}; **Level** arcanist 0, bard 0, cleric 0, magus 0, oracle 0, skald 0, sorcerer 0, warpriest 0, witch 0, wizard 0  ",
-			"**Casting Time** 1 standard action  ",
-			"**Components** V, S  ",
-			"**Range** 60 ft.  ",
-			"**Area** cone-shaped emanation  ",
-			"**Duration** concentration, up to 10 minutes/level (D)  ",
-			"**Saving Throw** none; **Spell Resistance** no",
-			"",
-			"This spell functions like {spell/detect evil}, except that it detects only outsiders with the evil subtype, as well as the lingering effects caused by their gifts, presence, and spells. It can also detect clerics and paladins of fiendish deities, including Asmodeus, archdevils, daemonic harbingers, and demon lords."
-		]
+	"detect_chaos": {
+		"name": "Detect Chaos",
+		"copyof": "detect_evil"
 	},
 	"detect_good": {
 		"name": "Detect Good",
-		"sources": [ "PRPG Core Rulebook" ],
-		"description": [
-			"## Detect Good",
-			"",
-			"{SOURCE PRPG Core Rulebook/267}  ",
-			"**School** {spelldef/divination}; **Level** adept 1, cleric 1, inquisitor 1, oracle 1, shaman 1, spiritualist 1, warpriest 1  ",
-			"**Casting Time** 1 standard action  ",
-			"**Components** V, S, DF  ",
-			"**Range** 60 ft.  ",
-			"**Area** cone-shaped emanation  ",
-			"**Duration** concentration, up to 10 min./level (D)  ",
-			"**Saving Throw** none; **Spell Resistance** no",
-			"",
-			"This spell functions like {spell/detect evil}, except that it detects the auras of good creatures, clerics or paladins of good deities, good spells, and good magic items, and you are vulnerable to an overwhelming good aura if you are evil."
-		]
+		"copyof": "detect_evil"
 	},
 	"detect_law": {
 		"name": "Detect Law",
-		"sources": [ "PRPG Core Rulebook" ],
-		"description": [
-			"## Detect Law",
-			"",
-			"{SOURCE PRPG Core Rulebook/267}  ",
-			"**School** {spelldef/divination}; **Level** adept 1, cleric 1, inquisitor 1, oracle 1, shaman 1, spiritualist 1, warpriest 1  ",
-			"**Casting Time** 1 standard action  ",
-			"**Components** V, S, DF  ",
-			"**Range** 60 ft.  ",
-			"**Area** cone-shaped emanation  ",
-			"**Duration** concentration, up to 10 min./level (D)  ",
-			"**Saving Throw** none; **Spell Resistance** no",
-			"",
-			"This spell functions like {spell/detect evil}, except that it detects the auras of lawful creatures, clerics of lawful deities, lawful spells, and lawful magic items, and you are vulnerable to an overwhelming lawful aura if you are chaotic."
-		]
+		"copyof": "detect_evil"
+	},
+	"detect_fiendish_presence": {
+		"name": "Detect Fiendish Presence",
+		"copyof": "detect_evil"
 	},
 	"detect_magic": {
 		"name": "Detect Magic",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Ultimate Intrigue",
-			"Potions and Poisons"
+			"Potions and Poisons",
+			"Adventurer's Guide",
+			"Andoran, Spirit of Liberty"
 		],
 		"description": [
 			"## Detect Magic",
@@ -3199,18 +3151,19 @@
 			"| Functioning spell (spell level) | 3rd or lower | 4th-6th | 7th-9th | 10th+ (deity-level) |",
 			"| Magic item (caster level) | 5th or lower | 6th-11th | 12th-20th | 21st+ (artifact) |",
 			"",
+			"::h3[Detect Charm]{jl}",
+			"",
+			"{SOURCE Adventurer's Guide/77;Andoran, Spirit of Liberty/27}  ",
+			"**School** {spelldef/divination}; **Level** arcanist 1, bard 1, cleric 1, inquisitor 1, medium 1, mesmerist 1, occultist 1, oracle 1, paladin 1, psychic 1, shaman 1, skald 1, sorcerer 1, spiritualist 1, warpriest 1, witch 1, wizard 1",
+			"",
+			"This spell functions as per *detect magic,* except that it detects only charm, compulsion, and possession effects. You immediately detect the strength and location of each such aura on all creatures in the area. You can attempt to identify the properties of each aura (see {skill/Spellcraft}). In addition to noticing the targets of these effects, you can recognize when creatures in the area are using these effects on others by attempting a {skill/Sense Motive} check as a standard action (DC = 20 + caster level). If you succeed, you can attempt a Spellcraft check to identify what magic it is using (even if the target is not in the area).",
+			"",
 			"::h3[Greater Detect Magic]{jl}",
 			"",
 			"{SOURCE Ultimate Intrigue/212}  ",
-			"**School** {spelldef/divination}; **Level** arcanist 2, bard 2, cleric 2, druid 2, hunter 2, inquisitor 2, magus 2, medium 2, mesmerist 2, occultist 2, oracle 2, psychic 2, shaman 2, skald 2, sorcerer 2, spiritualist 2, summoner 2, unchained summoner 2, warpriest 2, witch 2, wizard 2  ",
-			"**Casting Time** 1 standard action  ",
-			"**Components** V, S  ",
-			"**Range** 60 ft.  ",
-			"**Area** cone-shaped emanation  ",
-			"**Duration** concentration, up to 1 minute/level (D)  ",
-			"**Saving Throw** none; **Spell Resistance** no",
+			"**School** {spelldef/divination}; **Level** arcanist 2, bard 2, cleric 2, druid 2, hunter 2, inquisitor 2, magus 2, medium 2, mesmerist 2, occultist 2, oracle 2, psychic 2, shaman 2, skald 2, sorcerer 2, spiritualist 2, summoner 2, unchained summoner 2, warpriest 2, witch 2, wizard 2",
 			"",
-			"This spell functions as detect magic, except that you can glean much more information from the magical auras that you find, and those auras can be found after a much greater length of time. You can detect a lingering aura for up to 1 day per caster level you have, regardless of the aura's original strength.",
+			"This spell functions as *detect magic,* except that you can glean much more information from the magical auras that you find, and those auras can be found after a much greater length of time. You can detect a lingering aura for up to 1 day per caster level you have, regardless of the aura's original strength.",
 			"",
 			"Additionally, when you use a standard action to concentrate on this spell, you can also study a creature within the spell's area and attempt a Spellcraft check in order to determine the last spell that the creature cast by identifying lingering traces that the spell left in the caster's aura. The DC to identify the spell is equal to 20 + the creature's caster level.",
 			"",
@@ -3227,7 +3180,7 @@
 			"**Duration** 3 rounds + 1 round/level (D)  ",
 			"**Saving Throw** Will negates (harmless); **Spell Resistance** yes (harmless)",
 			"",
-			"This spell infuses a spark of magical energy into the veins of the target, allowing it to feel the presence of magic the way one might feel the thrum of vibrations in the air. For the spell's duration, the target gains the benefits of the spell detect magic and also gains a +5 enhancement bonus on Spellcraft checks to identify the properties and command words of magic items. Further, the target can attempt such checks untrained while under the effects of this spell. This ability does not allow the target to identify artifacts."
+			"This spell infuses a spark of magical energy into the veins of the target, allowing it to feel the presence of magic the way one might feel the thrum of vibrations in the air. For the spell's duration, the target gains the benefits of the spell *detect magic* and also gains a +5 enhancement bonus on Spellcraft checks to identify the properties and command words of magic items. Further, the target can attempt such checks untrained while under the effects of this spell. This ability does not allow the target to identify artifacts."
 		]
 	},
 	"detect_magic_greater": {
@@ -3237,6 +3190,10 @@
 	"greater_detect_magic": { "redirect": "detect_magic_greater" },
 	"identifiers_eye": {
 		"name": "Identifier's Eye",
+		"copyof": "detect_magic"
+	},
+	"detect_charm": {
+		"name": "Detect Charm",
 		"copyof": "detect_magic"
 	},
 	"detect_metal": {
@@ -3272,7 +3229,7 @@
 			"**Duration** concentration, up to 1 minute/level (D)  ",
 			"**Saving Throw** Will negates, see text; **Spell Resistance** no",
 			"",
-			"This spell functions similarly to detect thoughts, allowing you to sense when one or more creatures' consciousnesses are inside a {rule/mindscape>s}. The amount of information revealed depends on how long you study a particular subject.",
+			"This spell functions similarly to {spell/detect thoughts}, allowing you to sense when one or more creatures' consciousnesses are inside a {rule/mindscape>s}. The amount of information revealed depends on how long you study a particular subject.",
 			"",
 			"*First Round:* You sense the presence or absence of a mindscape. At least one of the creatures inside the mindscape must be within the cone-shaped area for you to detect the mindscape.",
 			"",

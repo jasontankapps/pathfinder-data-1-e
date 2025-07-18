@@ -175,13 +175,13 @@
 			"**Aura** faint evocation; **CL** 5th  ",
 			"**Slot** none; **Price** 1,100 gp; **Weight** 5 lbs.",
 			"",
-			"When poured on ground in a circle, this pure white salt sanctifies the enclosed area as the spell {spell/consecrate}. Applying the salt takes 1 round per dose. A single dose is sufficient to form a 5-foot radius circle, with each additional dose increasing the circle's radius by 5 feet. The area within the circle remains consecrated for 1 hour per dose, though any corporeal creature can spend a standard action to break the circle and end the effect prematurely. A newly created pouch of grave salt holds 5 doses.",
+			"When poured on ground in a circle, this pure white salt sanctifies the enclosed area as the spell *consecrate.* Applying the salt takes 1 round per dose. A single dose is sufficient to form a 5-foot radius circle, with each additional dose increasing the circle's radius by 5 feet. The area within the circle remains consecrated for 1 hour per dose, though any corporeal creature can spend a standard action to break the circle and end the effect prematurely. A newly created pouch of grave salt holds 5 doses.",
 			"",
 			"Grave salt can also be used directly against restless spirits. A single dose can be hurled up to 15 feet as a ranged touch attack. An incorporeal undead creature struck by the salt must make a DC 14 Will save or take 1d4 points of Charisma damage. Strong winds and other effects that penalize ranged attacks make it impossible to employ the salt in this manner.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, *consecrate;* **Cost** 550 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/consecrate}; **Cost** 550 gp"
 		]
 	},
 	"kalistocrats_coin": {
@@ -437,11 +437,11 @@
 			"",
 			"This sweet white wine contains notes of apple, lemon, and peach and is among the most citrus-flavored of the local wines produced in Caliphas. According to traditional legends, drinking glasses of wine of concordance together can forge strong bonds between those individuals who share it, both emotionally and magically.",
 			"",
-			"Drinking a glass of wine of concordance takes at least 1 round, though many imbibers take longer to savor the wine's fruity flavor. Creatures that each finish at least one glass of the wine while within 10 feet of each other become aware of each other, as per status (each drinker is aware of the direction and distance to each other and any conditions affecting the others). In addition, while they're within 100 feet of each other, the drinkers share equally in any wounds they take, as per {spell/shield other}. If a drinker moves more than 100 feet from any other drinker, the *shield other* effect is suppressed, but it resumes functioning once the drinker moves within range again. These effects last for 3 hours. A bottle of wine of concordance contains six glasses' worth of wine.",
+			"Drinking a glass of wine of concordance takes at least 1 round, though many imbibers take longer to savor the wine's fruity flavor. Creatures that each finish at least one glass of the wine while within 10 feet of each other become aware of each other, as per status (each drinker is aware of the direction and distance to each other and any conditions affecting the others). In addition, while they're within 100 feet of each other, the drinkers share equally in any wounds they take, as per *shield other.* If a drinker moves more than 100 feet from any other drinker, the *shield other* effect is suppressed, but it resumes functioning once the drinker moves within range again. These effects last for 3 hours. A bottle of wine of concordance contains six glasses' worth of wine.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, *shield other,* {spell/status}, creator must have at least 4 ranks in Craft (alchemy); **Cost** 600 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/shield other}, {spell/status}, creator must have at least 4 ranks in Craft (alchemy); **Cost** 600 gp"
 		]
 	},
 	"briar_bomb": {
@@ -622,11 +622,11 @@
 			"**Aura** moderate transmutation; **CL** 7th  ",
 			"**Slot** none; **Price** 1,400 gp; **Weight** -;",
 			"",
-			"This slender tube contains an acrid black sludge that feels warm to the touch. When she consumes this elixir, the imbiber is transformed into a gray cat for 1 hour (as {spell/beast shape II}), leaving behind any worn belongings on the ground. While under the effects of the elixir, the imbiber gains darkvision with a range of 30 feet, and her paw prints leave a trail of scorch marks that smell faintly of sulfur. If the imbiber's original form already has darkvision, the range increases by 30 feet. When the effect ends, the imbiber transforms back into her original form.",
+			"This slender tube contains an acrid black sludge that feels warm to the touch. When she consumes this elixir, the imbiber is transformed into a gray cat for 1 hour (as *beast shape II*), leaving behind any worn belongings on the ground. While under the effects of the elixir, the imbiber gains darkvision with a range of 30 feet, and her paw prints leave a trail of scorch marks that smell faintly of sulfur. If the imbiber's original form already has darkvision, the range increases by 30 feet. When the effect ends, the imbiber transforms back into her original form.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, *beast shape II,* {spell/darkvision}; **Cost** 700 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/beast shape II}, {spell/darkvision}; **Cost** 700 gp"
 		]
 	},
 	"ghost_powder": {
@@ -656,13 +656,13 @@
 			"**Aura** moderate transmutation; **CL** 7th  ",
 			"**Slot** none; **Price** 1,400 gp; **Weight** 1/2 lb.",
 			"",
-			"When a humanoid consumes these bitter herbs, they awaken the animal within him, no matter how civilized the consumer believes himself to be. They grant the partaker low-light vision and the scent ability for 1 hour. If the consumer has the rage class feature, he can expend one use of mythic power as part of entering a rage to take the form of an animal (as {spell/beast shape II}) while gaining the usual benefits of rage. When the rage ends, any remaining duration of the herbs is lost.",
+			"When a humanoid consumes these bitter herbs, they awaken the animal within him, no matter how civilized the consumer believes himself to be. They grant the partaker low-light vision and the scent ability for 1 hour. If the consumer has the rage class feature, he can expend one use of mythic power as part of entering a rage to take the form of an animal (as *beast shape II*) while gaining the usual benefits of rage. When the rage ends, any remaining duration of the herbs is lost.",
 			"",
 			"A creature without the humanoid type, including a monstrous humanoid, gains no benefits from the herbs. It instead becomes nauseated for 1 round, then sickened for 1d4 rounds. A successful DC 13 Fortitude save leaves the creature sickened for 1 round and negates the nausea.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {feat/Mythic Crafter}, *beast shape II;* **Cost** 700 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {feat/Mythic Crafter}, {spell/beast shape II}; **Cost** 700 gp"
 		]
 	},
 	"incense_of_corporeality": {
@@ -955,11 +955,11 @@
 			"**Aura** faint transmutation; **CL** 3rd  ",
 			"**Slot** none; **Price** 1,500 gp; **Weight** -;",
 			"",
-			"This small iron key has the number 9 and a right triangle engraved upon it. While the Nine-Eaves key is held, the bearer can use {spell/open//close} at will, but only to open, not to close. Once per day as a standard action, the bearer can touch the Nine-Eaves key to a magic item. For the following 24 hours, all Use Magic Device skill checks to use or activate the touched magic item gain a +4 insight bonus.",
+			"This small iron key has the number 9 and a right triangle engraved upon it. While the Nine-Eaves key is held, the bearer can use *open/close* at will, but only to open, not to close. Once per day as a standard action, the bearer can touch the Nine-Eaves key to a magic item. For the following 24 hours, all Use Magic Device skill checks to use or activate the touched magic item gain a +4 insight bonus.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/identify}, *open/close;* **Cost** 750 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/identify}, {spell/open//close}; **Cost** 750 gp"
 		]
 	},
 	"healers_satchel_normal": {
@@ -1121,7 +1121,7 @@
 			"**Aura** faint transmutation; **CL** 5th  ",
 			"**Slot** none; **Price** 1,500 gp (standard), 6,500 gp (greater); **Weight** 2 lbs.",
 			"",
-			"This bronze lantern has a square base and four glass panels, each of which represents one of the fundamental elements in the color, shape, and quality of the light that passes through it. The lantern shines light as per the light spell, and as long as the bearer carries it the lantern protects her from heat and cold as per {spell/endure elements}. (The bearer can turn the lantern's light off or on as a standard action.)",
+			"This bronze lantern has a square base and four glass panels, each of which represents one of the fundamental elements in the color, shape, and quality of the light that passes through it. The lantern shines light as per the light spell, and as long as the bearer carries it the lantern protects her from heat and cold as per *endure elements.* (The bearer can turn the lantern's light off or on as a standard action.)",
 			"",
 			"In addition, while carrying the lantern, the bearer gains a +2 competence bonus on Spellcraft checks to identify spells with the air, earth, fire, or water descriptor and a +2 competence bonus on Knowledge (planes) checks to identify creatures that are native to the Elemental Planes.",
 			"",
@@ -1129,7 +1129,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, *endure elements,* {spell/light} (standard lantern of the four elements); Craft Wondrous Item, *endure elements, light,* {spell/air bubble}, {spell/levitate}, {spell/resist energy}, {spell/spider climb} (greater lantern of the four elements); **Cost** 750 gp (standard), 3,250 gp (greater)"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/endure elements}, {spell/light} (standard lantern of the four elements); Craft Wondrous Item, *endure elements, light,* {spell/air bubble}, {spell/levitate}, {spell/resist energy}, {spell/spider climb} (greater lantern of the four elements); **Cost** 750 gp (standard), 3,250 gp (greater)"
 		]
 	},
 	"lantern_of_the_four_elements_greater": {
@@ -1978,13 +1978,13 @@
 			"**Aura** faint divination; **CL** 1st  ",
 			"**Slot** none; **Price** 2,000 gp; **Weight** 2 lbs.",
 			"",
-			"A lantern of auras is a bullseye lantern made of cold iron with a series of lenses and colored glass filters that can be flipped down in front of its main aperture. The lantern functions as a bullseye lantern but needs no oil to shed its light. If its command word is spoken, it begins to reveal magic auras as the {spell/detect magic} spell. It will reveal all auras *detect magic* reveals over the normal duration of 3 rounds, as long as its light is held on the same area for this duration. Anyone who takes a full-round action to observe the revealed auras during each of these rounds can attempt a Knowledge (arcana) skill check to determine the school of any magic aura revealed, or a Spellcraft check to identify the properties of a magic item within the area.",
+			"A lantern of auras is a bullseye lantern made of cold iron with a series of lenses and colored glass filters that can be flipped down in front of its main aperture. The lantern functions as a bullseye lantern but needs no oil to shed its light. If its command word is spoken, it begins to reveal magic auras as the *detect magic* spell. It will reveal all auras *detect magic* reveals over the normal duration of 3 rounds, as long as its light is held on the same area for this duration. Anyone who takes a full-round action to observe the revealed auras during each of these rounds can attempt a Knowledge (arcana) skill check to determine the school of any magic aura revealed, or a Spellcraft check to identify the properties of a magic item within the area.",
 			"",
 			"Roughly 45% of these lanterns have the command word etched on the bottom of the lantern. Casting identify on a lantern of auras reveals the command word.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, *detect magic,* {spell/light}; **Cost** 1,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/detect magic}, {spell/light}; **Cost** 1,000 gp"
 		]
 	},
 	"liberators_key": {
@@ -2319,11 +2319,11 @@
 			"**Aura** faint divination; **CL** 3rd  ",
 			"**Slot** none; **Price** 2,000 gp; **Weight** 1 lb.",
 			"",
-			"A shining wayfinder appears as a polished silver compass. In addition to the usual functions of a {magic-wondrous/wayfinder} (including the ability to create light) a shining wayfinder can be used to cast {spell/detect evil} - when so used, its needle points not to the north but rather to the nearest source of evil within 60 feet. Once per day, a shining wayfinder can be used to cast {spell/protection from evil} upon the wayfinder's bearer. A shining wayfinder functions only for a creature that is good-aligned. When held by an evil creature, the shining wayfinder's needle spins in a frantic circle. When held by any creature that is both nonevil and nongood, the needle does not point to anything in particular (not even to the north).",
+			"A shining wayfinder appears as a polished silver compass. In addition to the usual functions of a {magic-wondrous/wayfinder} (including the ability to create light) a shining wayfinder can be used to cast *detect evil* - when so used, its needle points not to the north but rather to the nearest source of evil within 60 feet. Once per day, a shining wayfinder can be used to cast *protection from evil* upon the wayfinder's bearer. A shining wayfinder functions only for a creature that is good-aligned. When held by an evil creature, the shining wayfinder's needle spins in a frantic circle. When held by any creature that is both nonevil and nongood, the needle does not point to anything in particular (not even to the north).",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, *detect evil,* {spell/light}, *protection from evil;* **Cost** 1,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/detect evil}, {spell/light}, {spell/protection from evil}; **Cost** 1,000 gp"
 		]
 	},
 	"shining_wayfinder": { "redirect": "wayfinder_shining" },
@@ -2407,15 +2407,15 @@
 			"",
 			"This narrow cloth flag is made to attach to the end a knight's lance, though it can be flown from a spear, polearm, or even a staff. It has no effect if not mounted appropriately. A knight's pennon grants different benefits depending on its color and design.",
 			"",
-			"**Battle:** The red knight's pennon of battle allows its bearer to benefit from {spell/heroism} once per day.",
+			"**Battle:** The red knight's pennon of battle allows its bearer to benefit from *heroism* once per day.",
 			"",
-			"**Honor:** The gold knight's pennon of honor bestows {spell/protection from evil} upon the bearer once per day.",
+			"**Honor:** The gold knight's pennon of honor bestows *protection from evil* upon the bearer once per day.",
 			"",
 			"**Parley:** The white knight's pennon of parley, when displayed approaching a negotiation, grants the bearer a +4 enhancement bonus on Bluff, Diplomacy, Intimidate, and Sense Motive checks for 1 hour, so long as the bearer does not initiate any hostile action.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, *heroism* (battle), *protection from evil* (honor), {spell/eagle's splendor} (parley); **Cost** 1,100 gp (Honor), 2,250 gp (Battle), 2,250 gp (Parley)"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/heroism} (battle), {spell/protection from evil} (honor), {spell/eagle's splendor} (parley); **Cost** 1,100 gp (Honor), 2,250 gp (Battle), 2,250 gp (Parley)"
 		]
 	},
 	"knights_pennon_battle": {
@@ -2647,11 +2647,11 @@
 			"**Aura** moderate enchantment; **CL** 9th  ",
 			"**Slot** none; **Price** 2,250 gp; **Weight** 2 lbs.",
 			"",
-			"Once the command word is spoken, this 5-foot-diameter loop of wire blends with its surroundings. To find it, a character with the trapfinding ability must succeed at a DC 30 Perception check. Setting the snare is a full-round action that provokes attacks of opportunity. Any creature that steps into the snare must succeed at a DC 26 Will save or become magically paralyzed, as the spell {spell/hold monster}. This effect can be ended by uttering the command word, succeeding at a DC 30 Disable Device check, or succeeding at the Will save. The snare is destroyed when the effect ends.",
+			"Once the command word is spoken, this 5-foot-diameter loop of wire blends with its surroundings. To find it, a character with the trapfinding ability must succeed at a DC 30 Perception check. Setting the snare is a full-round action that provokes attacks of opportunity. Any creature that steps into the snare must succeed at a DC 26 Will save or become magically paralyzed, as the spell *hold monster.* This effect can be ended by uttering the command word, succeeding at a DC 30 Disable Device check, or succeeding at the Will save. The snare is destroyed when the effect ends.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/snare}, *hold monster;* **Cost** 1,200 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/snare}, {spell/hold monster}; **Cost** 1,200 gp"
 		]
 	},
 	"rhombocrystal": {
@@ -2754,11 +2754,11 @@
 			"**Aura** faint abjuration; **CL** 1st  ",
 			"**Slot** none; **Price** 2,400 gp; **Weight** 3 lbs.",
 			"",
-			"A sashimono of comfort is a purple Tian silk banner, typically 3 feet tall and 1 foot wide, decorated with three stylized orchid flowers. The banner is attached to a lance, polearm, staff, or frame, which can be worn on the back of a creature, carried by a mounted creature, flown from a wagon, or planted in the ground. A sashimono of comfort keeps creatures comfortable in extreme weather conditions. It has no effect when not mounted properly or when lying on the ground. When worn or carried by a creature, the banner grants the effects of {spell/endure elements} to the bearer. When carried by a mounted creature, it grants both mount and rider this benefit. If it is flown from a wagon, the wagon's driver, passengers, and draft team all gain this benefit. If planted firmly in the ground, the banner grants this benefit to all creatures within 30 feet. In addition, a caravan equipped with a sashimono of comfort gains a +2 bonus on Security checks to resist the effects of severe weather. These effects function at temperatures between -50 and 140 F. If conditions are beyond these extremes, creatures using a sashimono of comfort treat the ambient temperature as if it were 50 F warmer or cooler respectively, thereby possibly allowing additional castings of endure elements to work normally.",
+			"A sashimono of comfort is a purple Tian silk banner, typically 3 feet tall and 1 foot wide, decorated with three stylized orchid flowers. The banner is attached to a lance, polearm, staff, or frame, which can be worn on the back of a creature, carried by a mounted creature, flown from a wagon, or planted in the ground. A sashimono of comfort keeps creatures comfortable in extreme weather conditions. It has no effect when not mounted properly or when lying on the ground. When worn or carried by a creature, the banner grants the effects of *endure elements* to the bearer. When carried by a mounted creature, it grants both mount and rider this benefit. If it is flown from a wagon, the wagon's driver, passengers, and draft team all gain this benefit. If planted firmly in the ground, the banner grants this benefit to all creatures within 30 feet. In addition, a caravan equipped with a sashimono of comfort gains a +2 bonus on Security checks to resist the effects of severe weather. These effects function at temperatures between -50 and 140 F. If conditions are beyond these extremes, creatures using a sashimono of comfort treat the ambient temperature as if it were 50 F warmer or cooler respectively, thereby possibly allowing additional castings of endure elements to work normally.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, *endure elements;* **Cost** 1,200 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/endure elements}; **Cost** 1,200 gp"
 		]
 	},
 	"sovereign_glue": {
@@ -2830,11 +2830,11 @@
 			"**Aura** moderate transmutation; **CL** 7th  ",
 			"**Slot** none; **Price** 2,450 gp; **Weight** -;",
 			"",
-			"When imbibed, an elixir of the peaks gives the user the ability to scale and survive in mountainous terrain with great skill. The imbiber is treated as if acclimated to all high altitudes lower than a death zone, and gains a +2 competence bonus on all Survival checks made at elevations of above 5,000 feet. She also gains a +10 competence bonus on Climb checks and Survival checks in mountainous terrain (these bonuses stack with the altitude-based bonus above). Finally, the imbiber gains the benefits of an {spell/endure elements} spell. The effects of this elixir wear off after 8 hours.",
+			"When imbibed, an elixir of the peaks gives the user the ability to scale and survive in mountainous terrain with great skill. The imbiber is treated as if acclimated to all high altitudes lower than a death zone, and gains a +2 competence bonus on all Survival checks made at elevations of above 5,000 feet. She also gains a +10 competence bonus on Climb checks and Survival checks in mountainous terrain (these bonuses stack with the altitude-based bonus above). Finally, the imbiber gains the benefits of an *endure elements* spell. The effects of this elixir wear off after 8 hours.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, *endure elements,* {spell/spider climb}; **Cost** 1,225 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/endure elements}, {spell/spider climb}; **Cost** 1,225 gp"
 		]
 	},
 	"apple_of_eternal_sleep": {
@@ -4071,13 +4071,13 @@
 			"",
 			"All three of these banners must be planted in the ground, with no two banners more than 40 feet apart, before they activate. An illusory mastiff manifests once all three banners are planted and walks a triangular circuit from banner to banner, moving at a speed of 30 feet. The illusory hound lasts for as long as the banners remain planted, to a maximum of 8 hours. After 8 hours, the ward ceases to function. The banners cannot be replanted and reactivated for 12 hours.",
 			"",
-			"Anytime a creature of Tiny or larger size crosses into the area delineated by the banners, the mastiff erupts in earsplitting barks. At the same time, the banners summon a riding dog (as per {spell/summon nature's ally I}). The dog appears adjacent to the square in which the ward was breached; if the ward was breached in multiple areas, the dog appears adjacent to a randomly selected breached square. The dog attacks the nearest intruder immediately.",
+			"Anytime a creature of Tiny or larger size crosses into the area delineated by the banners, the mastiff erupts in earsplitting barks. At the same time, the banners summon a riding dog (as per *summon nature's ally I*). The dog appears adjacent to the square in which the ward was breached; if the ward was breached in multiple areas, the dog appears adjacent to a randomly selected breached square. The dog attacks the nearest intruder immediately.",
 			"",
 			"Any creatures standing within the warded area when the third banner is planted are excluded from the effects of the item, and can freely cross into and out of the area without triggering the mastiff's attack.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/alarm}, {spell/minor image}, *summon nature's ally I;* **Cost** 1,600 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/alarm}, {spell/minor image}, {spell/summon nature's ally I}; **Cost** 1,600 gp"
 		]
 	},
 	"charts_of_the_fair_winds": {
@@ -4172,11 +4172,11 @@
 			"**Aura** moderate conjuration [evil]; **CL** 11th  ",
 			"**Slot** none; **Price** 3,300 gp; **Weight** -;",
 			"",
-			"This water-polished stone is carved in the shape of a frog-like head and decorated with evil runes. It feels lighter than it should, as if hollow and partially filled with liquid. When a hydrodaemon runestone is crushed, smashed, or broken (a standard action), a hydrodaemon appears as if summoned by a {spell/summon monster VI} spell. Normally, the daemon is under the control of the creature that broke the runestone, but there is a 25% chance that the daemon is uncontrolled and attacks its summoner.",
+			"This water-polished stone is carved in the shape of a frog-like head and decorated with evil runes. It feels lighter than it should, as if hollow and partially filled with liquid. When a hydrodaemon runestone is crushed, smashed, or broken (a standard action), a hydrodaemon appears as if summoned by a *summon monster VI* spell. Normally, the daemon is under the control of the creature that broke the runestone, but there is a 25% chance that the daemon is uncontrolled and attacks its summoner.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, *summon monster VI;* **Cost** 1,650 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/summon monster VI}; **Cost** 1,650 gp"
 		]
 	},
 	"imploding_stone": {

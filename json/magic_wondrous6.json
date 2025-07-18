@@ -1013,11 +1013,11 @@
 			"",
 			"This small pane of glass in a frame made of black metal looks like a small hand mirror at first glance, but when a creature spends at least 1 minute staring into its reflection, the image shifts and changes, showing the landscape of another plane. If the lambent window is activated on the Material Plane, it shows the corresponding location on the Shadow Plane, along with any creatures at that location. Likewise, when used on the Shadow Plane, it shows the corresponding location on the Material Plane. This item only allows those staring into it to see the corresponding location on the other plane; they cannot hear through or gain other sensual information about the other side by way of the window. This effect can be used for up to 10 minutes per day. Those minutes need not be consecutive, and the 1 minute it takes to activate the lambent window does not count against this limit.",
 			"",
-			"A person holding an active lambent window can use it as a special focus when casting {spell/plane shift} or using plane shift as a spell-like ability to reach the specific location shown in the mirror, rather than 5-500 miles from the bearer's intended destination.",
+			"A person holding an active lambent window can use it as a special focus when casting *plane shift* or using plane shift as a spell-like ability to reach the specific location shown in the mirror, rather than 5-500 miles from the bearer's intended destination.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, *plane shift,* {spell/scrying}; **Cost** 10,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/plane shift}, {spell/scrying}; **Cost** 10,000 gp"
 		]
 	},
 	"banner_of_tactical_command_lesser": {
@@ -1057,11 +1057,11 @@
 			"",
 			"This rectangular wooden board displays an arch of alphabetical letters, numbers, and short affirmative and negative messages, and comes with a small, heart-shaped, three-legged pointer. Though it can be used in place of a mundane talking board (such as those used by spiritualists and seance-holders to speak to nearby haunts or their own subconscious minds), this item's magical properties don't rely on the presence of a haunt or a psychically sensitive individual to establish communications. When used for the automatic writing skill unlock in place of a mundane talking board, a magic talking board provides a +5 circumstance bonus on the Linguistics check.",
 			"",
-			"Once per day, a magic talking board can be used to call upon the spirit of a single deceased humanoid creature, as the spell {spell/call spirit}. The spirit can attempt a DC 17 Will save to resist the summons; if it's successful, a spirit with malevolent intent always takes the place of the intended spirit. The spirit does not manifest as a vaporous apparition or speak; its communications instead come through the board itself. The spirit answers posed questions by guiding the pointer to specific letters at the rate of one word per round for as long as the user concentrates. Up to four creatures can use the board simultaneously, and the called spirit takes a penalty on its saving throw equal to the number of users beyond the first.",
+			"Once per day, a magic talking board can be used to call upon the spirit of a single deceased humanoid creature, as the spell *call spirit.* The spirit can attempt a DC 17 Will save to resist the summons; if it's successful, a spirit with malevolent intent always takes the place of the intended spirit. The spirit does not manifest as a vaporous apparition or speak; its communications instead come through the board itself. The spirit answers posed questions by guiding the pointer to specific letters at the rate of one word per round for as long as the user concentrates. Up to four creatures can use the board simultaneously, and the called spirit takes a penalty on its saving throw equal to the number of users beyond the first.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, *call spirit;* **Cost** 10,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/call spirit}; **Cost** 10,000 gp"
 		]
 	},
 	"masters_perfect_golden_bell": {
@@ -1201,7 +1201,7 @@
 			"",
 			"As part of the process of crafting a third eye, the creator grafts an actual eye into the palm of the recipient's hand. Once an eye is grafted into a palm, it is undetectable while closed and doesn't hinder the user's manual dexterity in the slightest. When in use, the eye opens.",
 			"",
-			"The owner of a third eye can use it to see through the donor creature's remaining eye. The third eye can also be attuned to specially prepared bloodstones, allowing the user to observe things in each bloodstone's vicinity as if the bloodstone were an eye as well. Preparing a bloodstone in this manner requires soaking it in a potion of {spell/clairvoyance//clairaudience} for a week, at the end of which the owner drinks the potion and spits the bloodstone into the hand bearing the third eye. These bloodstones are often incorporated into magic items like phylacteries, rings, and amulets, allowing the user to gift such items to other creatures and thus gain a new viewpoint. This remote viewing ability functions at any range as long as the owner is on the same plane at the bloodstone. It also allows the owner to cast {spell/clairaudience//clairvoyance} up to three times per day.",
+			"The owner of a third eye can use it to see through the donor creature's remaining eye. The third eye can also be attuned to specially prepared bloodstones, allowing the user to observe things in each bloodstone's vicinity as if the bloodstone were an eye as well. Preparing a bloodstone in this manner requires soaking it in a potion of *clairvoyance/clairaudience* for a week, at the end of which the owner drinks the potion and spits the bloodstone into the hand bearing the third eye. These bloodstones are often incorporated into magic items like phylacteries, rings, and amulets, allowing the user to gift such items to other creatures and thus gain a new viewpoint. This remote viewing ability functions at any range as long as the owner is on the same plane at the bloodstone. It also allows the owner to cast *clairaudience//clairvoyance* up to three times per day.",
 			"",
 			"As long as the third eye is open in a hand that isn't holding an object, the owner has all-round vision, gaining a +4 bonus on Perception checks and making it impossible to flank the owner. {monster/Rakshasa/s}, whose fingers bend backwards, can use the powers of their third eyes while holding objects since their third eyes effectively look out of the \"backs\" of their hands.",
 			"",
@@ -1209,7 +1209,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, clairaudience,* access to obscure traditions and lore; **Cost** 10,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/clairaudience//clairvoyance}, access to obscure traditions and lore; **Cost** 10,000 gp"
 		]
 	},
 	"trapmakers_sack": {
@@ -1589,7 +1589,7 @@
 			"",
 			"1 charge: The drinker gains 1d8 temporary hit points (as if from an aid spell), which last for 1 minute.",
 			"",
-			"2 charges: The drinker gains 1d8+5 temporary hit points and is enlarged, as the spell {spell/enlarge person}, for 5 minutes.",
+			"2 charges: The drinker gains 1d8+5 temporary hit points and is enlarged, as the spell *enlarge person,* for 5 minutes.",
 			"",
 			"3 charges: The drinker gains 1d8+10 temporary hit points, is enlarged for 10 minutes, and gains the benefit of a heroism spell for as long as she is enlarged.",
 			"",
@@ -1597,7 +1597,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/aid}, *enlarge person,* {spell/heroism}; **Cost** 12,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/aid}, {spell/enlarge person}, {spell/heroism}; **Cost** 12,000 gp"
 		]
 	},
 	"eye_stealing_locket": {
@@ -1667,7 +1667,7 @@
 			"",
 			"- entropic shield (1 charge)",
 			"- lesser confusion (1 charge)",
-			"- {spell/magic circle against law} (1 charge)",
+			"- *magic circle against law* (1 charge)",
 			"- chaos hammer (2 charges)",
 			"",
 			"A newly created chaos emerald has 1d6+2 charges. It can hold a maximum of 10 charges and automatically regains 1d3-1 charges each day.",
@@ -1676,7 +1676,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/chaos hammer}, {spell/entropic shield}, {spell/lesser confusion}, *magic circle against law,* creator must be chaotic; **Cost** 12,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/chaos hammer}, {spell/entropic shield}, {spell/lesser confusion}, {spell/magic circle against law}, creator must be chaotic; **Cost** 12,500 gp"
 		]
 	},
 	"nail_of_blood": {
@@ -2834,13 +2834,13 @@
 			"**Aura** moderate necromancy; **CL** 13th  ",
 			"**Slot** none; **Price** 32,000 gp; **Weight** -;",
 			"",
-			"A thrum of the hidden soul appears as a single, unbreakable crimson thread. To use the thrum, you tie the thread around any Fine or smaller nonmagical object and will your soul into the marked object. The thread disintegrates and your soul transfers into the marked object as if it were a {spell/magic jar}, leaving your body alive but catatonic. You cannot move your body or use its senses. You can remain within the *magic jar* for an unlimited amount of time, but cannot sense your surroundings or possess any other living creature. You may return to your original body at will. If your body is slain, you may only escape the *magic jar* if your body is resurrected or else a {spell/wish}, {spell/miracle}, or similar effect is used to restore you.",
+			"A thrum of the hidden soul appears as a single, unbreakable crimson thread. To use the thrum, you tie the thread around any Fine or smaller nonmagical object and will your soul into the marked object. The thread disintegrates and your soul transfers into the marked object as if it were a *magic jar,* leaving your body alive but catatonic. You cannot move your body or use its senses. You can remain within the *magic jar* for an unlimited amount of time, but cannot sense your surroundings or possess any other living creature. You may return to your original body at will. If your body is slain, you may only escape the *magic jar* if your body is resurrected or else a {spell/wish}, {spell/miracle}, or similar effect is used to restore you.",
 			"",
 			"While within the *magic jar,* your soul is shielded from divination attempts. Spells such as {spell/scrying} show the location of your corpse, and spells such as {spell/divination} return information consistent with your body's death. While your soul inhabits it, the *magic jar* appears non-magical to divination magic, including {spell/detect magic}, {spell/identify}, and {spell/legend lore}.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, *magic jar,* {spell/permanency}; **Cost** 16,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/magic jar}, {spell/permanency}; **Cost** 16,000 gp"
 		]
 	},
 	"verdict_of_the_nether_court": {
@@ -3781,11 +3781,11 @@
 			"**Aura** strong varied; **CL** 18th  ",
 			"**Slot** none; **Price** 48,000 gp; **Weight** 6 lbs.",
 			"",
-			"This glass sphere is 8 inches in diameter. The possessor can call forth all manner of weather, even supernaturally destructive storms. Once per day, she can call upon the orb to use a control weather spell. Once per month, she can conjure a storm of vengeance. The possessor of the orb is continually protected by an {spell/endure elements} effect.",
+			"This glass sphere is 8 inches in diameter. The possessor can call forth all manner of weather, even supernaturally destructive storms. Once per day, she can call upon the orb to use a control weather spell. Once per month, she can conjure a storm of vengeance. The possessor of the orb is continually protected by an *endure elements* effect.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/control weather}, *endure elements,* {spell/storm of vengeance}; **Cost** 24,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/control weather}, {spell/endure elements}, {spell/storm of vengeance}; **Cost** 24,000 gp"
 		]
 	},
 	"orgone_accumulator": {

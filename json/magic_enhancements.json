@@ -2845,11 +2845,11 @@
 			"**Aura** strong abjuration; **CL** 10th  ",
 			"**Slot** weapon quality; **Price** +1 bonus; **Weight** -",
 			"",
-			"A dispelling weapon functions like a {magic-enh/spell-storing} weapon, but it may only store {spell/dispel magic}; however, the caster level check to dispel gains an additional bonus equal to the weapon's enhancement bonus. This bonus also applies to a magus's {arcana/dispelling strike} arcana or a barbarian's {ragepower/spell sunder} or {ragepower/sunder enchantment} combat maneuver check.",
+			"A dispelling weapon functions like a {magic-enh/spell-storing} weapon, but it may only store *dispel magic;* however, the caster level check to dispel gains an additional bonus equal to the weapon's enhancement bonus. This bonus also applies to a magus's {arcana/dispelling strike} arcana or a barbarian's {ragepower/spell sunder} or {ragepower/sunder enchantment} combat maneuver check.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Magic Arms and Armor}, *dispel magic,* creator must be a caster of at least 10th level; **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/dispel magic}, creator must be a caster of at least 10th level; **Price** -"
 		]
 	},
 	"distracting": {

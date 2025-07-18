@@ -17,7 +17,7 @@
 			"**Aura** faint transmutation; **CL** 1st  ",
 			"**Slot** belt; **Price** 800 gp; **Weight** 1 lb.",
 			"",
-			"This thin and flexible cotton cord is meant to be wrapped several times around wearer's waist. The belt's wearer gains a +4 competence bonus on Acrobatics checks made to move through a threatened square or through an enemy's space.",
+			"This thin and flexible cotton cord is meant to be wrapped several times around wearer's waist. The belt's wearer gains a +4 competence bonus on {skill/Acrobatics} checks made to move through a threatened square or through an enemy's space.",
 			"",
 			"### Construction",
 			"",
@@ -34,7 +34,7 @@
 			"**Aura** moderate transmutation; **CL** 9th  ",
 			"**Slot** belt; **Price** 1,000 gp; **Weight** 2 lbs.",
 			"",
-			"This bandolier is made of finely tanned leather. It has slots for up to 200 rounds of ammunition. Pellets and black powder are kept in tiny individual pouches, and bullets in small loops. The bandolier alters itself as needed to accommodate both. There are also places on the beneficial bandolier for a gunsmith's kit and a powder horn. Regardless of what quantities of these items are placed within the beneficial bandolier, its weight does not change.",
+			"This bandolier is made of finely tanned leather. It has slots for up to 200 rounds of ammunition. Pellets and black powder are kept in tiny individual pouches, and bullets in small loops. The bandolier alters itself as needed to accommodate both. There are also places on the beneficial bandolier for a {eq-misc/gunsmith's kit} and a {eq-misc/powder horn}. Regardless of what quantities of these items are placed within the beneficial bandolier, its weight does not change.",
 			"",
 			"As a swift action, the wearer can command a single round of ammunition from the beneficial bandolier to teleport into a firearm of the appropriate type that he is wielding.",
 			"",
@@ -58,7 +58,7 @@
 			"",
 			"This narrow cloth belt has a silver buckle in the shape of four rings. The belt allows a creature to wear a magic ring on each foot in addition to the ring on each hand, though only two rings function at any given time. As a swift action, the wearer can change which of his rings are active (both hands, both feet, left hand and right foot, and so on). For example, a creature could wear a ring of protection, ring of energy resistance, ring of swimming, and ring of counterspells, switching between any two of them as a swift action each round as it desires.",
 			"",
-			"The belt does not change the type of action required to activate a ring (for example, activating a ring of invisibility is still a standard action), but allows the wearer to easily switch between the constant powers of several worn rings. While the belt is worn, wearing a ring on a foot counts toward the attunement process of certain rings (such as a ring of sustenance) even if the belt isn't used to make that ring active during that attunement period.",
+			"The belt does not change the type of action required to activate a ring (for example, activating a ring of invisibility is still a standard action), but allows the wearer to easily switch between the constant powers of several worn rings. While the belt is worn, wearing a ring on a foot counts toward the attunement process of certain rings (such as a {magic-ring/ring of sustenance}) even if the belt isn't used to make that ring active during that attunement period.",
 			"",
 			"### Construction",
 			"",
@@ -75,7 +75,7 @@
 			"**Aura** faint evocation; **CL** 5th  ",
 			"**Slot** belt; **Price** 2,000 gp (+1), 8,000 gp (+2), 18,000 gp (+3), 32,000 gp (+4), 50,000 gp (+5); **Weight** -;",
 			"",
-			"This thin, black canvas belt is typically tied loosely about the waist to secure a robe, kimono, or martial artist's dobok. Three times per day as a free action, the wearer can select a combat maneuver and receive an enhancement bonus of +1 to +5 on combat maneuver checks for this combat maneuver and a +1 to +5 bonus to CMD when defending against this maneuver for 1 round. Additionally, when worn by a brawler, the belt grants one additional use of her martial flexibility class feature each day.",
+			"This thin, black canvas belt is typically tied loosely about the waist to secure a robe, kimono, or martial artist's dobok. Three times per day as a free action, the wearer can select a {rule/combat maneuver>s} and receive an enhancement bonus of +1 to +5 on combat maneuver checks for this combat maneuver and a +1 to +5 bonus to CMD when defending against this maneuver for 1 round. Additionally, when worn by a {class/brawler}, the belt grants one additional use of her martial flexibility class feature each day.",
 			"",
 			"### Construction",
 			"",
@@ -96,7 +96,7 @@
 			"**Aura** faint transmutation; **CL** 1st  ",
 			"**Slot** belt; **Price** 2,000 gp; **Weight** 3 lbs.",
 			"",
-			"Rather than being made of one continuous line of material, this belt consists of many bits of tanned leather joined together by thick metal studs. On command, the belt's wearer can transform the belt into a single masterwork slashing and/or piercing melee weapon of her choice. As long as she is holding the weapon, she can also revert it back to belt form with a command. Furthermore, the belt can be enchanted like a piercing and slashing melee weapon, using the cost of the belt as the cost of the masterwork item.",
+			"Rather than being made of one continuous line of material, this belt consists of many bits of tanned leather joined together by thick metal studs. On command, the belt's wearer can transform the belt into a single {rule/masterwork>_w} slashing and/or piercing melee weapon of her choice. As long as she is holding the weapon, she can also revert it back to belt form with a command. Furthermore, the belt can be enchanted like a piercing and slashing melee weapon, using the cost of the belt as the cost of the masterwork item.",
 			"",
 			"### Construction",
 			"",
@@ -113,7 +113,7 @@
 			"**Aura** faint conjuration and necromancy; **CL** 3rd  ",
 			"**Slot** belt; **Price** 2,000 gp; **Weight** 2 lbs.",
 			"",
-			"This wide black leather belt is inlaid with spiraling copper runes. If the wearer is a living creature, she heals each time she is within the area of a burst of channeled positive energy used to deal damage to undead creatures. If the wearer is an undead creature, it heals each time it is within the area of a burst of channeled negative energy used to deal damage to living creatures. The wearer regains 1 hit point for each 1d6 points of energy channeled. The belt has no effect if its wearer is the one channeling energy.",
+			"This wide black leather belt is inlaid with spiraling copper runes. If the wearer is a living creature, she heals each time she is within the area of a {misc/burst} of {ability/channel[ed] positive energy} used to deal damage to undead creatures. If the wearer is an undead creature, it heals each time it is within the area of a burst of channeled negative energy used to deal damage to living creatures. The wearer regains 1 hit point for each 1d6 points of energy channeled. The belt has no effect if its wearer is the one channeling energy.",
 			"",
 			"### Construction",
 			"",
@@ -130,7 +130,7 @@
 			"**Aura** faint transmutation; **CL** 1st  ",
 			"**Slot** belt; **Price** 2,000 gp; **Weight** 3 lbs.",
 			"",
-			"This wide leather is held together with two strands of oxen skin threaded through holes on each end. The belt's wearer is affected as though subject to a permanent ant haul spell.",
+			"This wide leather is held together with two strands of oxen skin threaded through holes on each end. The belt's wearer is affected as though subject to a permanent *ant haul* spell.",
 			"",
 			"### Construction",
 			"",
@@ -150,13 +150,13 @@
 			"**Aura** faint abjuration; **CL** 5th  ",
 			"**Slot** belt or head; **Price** 2,500 gp; **Weight** -;",
 			"",
-			"This long strip of red Qadiran fabric is wrapped around the wearer's waist or head several times and held in place by an ankh-shaped clasp of red gold. The wearer is protected as if by {spell/endure elements}, but only in warm environments. If the wearer unwraps the sash to its full length and holds the clasp in her hand, she can use feather fall once per day, briefly leaving behind a trail of pleasant red-gold light as bright as a torch that lasts for 1 round.",
+			"This long strip of red Qadiran fabric is wrapped around the wearer's waist or head several times and held in place by an ankh-shaped clasp of red gold. The wearer is protected as if by *endure elements,* but only in warm environments. If the wearer unwraps the sash to its full length and holds the clasp in her hand, she can use *feather fall* once per day, briefly leaving behind a trail of pleasant red-gold light as bright as a {eq-misc/torch} that lasts for 1 round.",
 			"",
-			"If Sarenrae is the wearer's patron, the wearer can use the sash to cast cure light wounds once per day on command. The wearer can trigger this ability as an immediate action if reduced to -1 hit points or fewer, though thereafter the sash must be recharged by placing it in strong sunlight for 8 continuous hours. As a swift action, the wearer can cause the clasp to shine as brightly as a torch or cease this illumination; the light is warm, feels like sunlight, and is bright enough to make sun-fearing creatures slightly uncomfortable but not so bright as to cause them harm.",
+			"If {faith/Sarenrae} is the wearer's patron, the wearer can use the sash to cast *cure light wounds* once per day on command. The wearer can trigger this ability as an immediate action if reduced to -1 hit points or fewer, though thereafter the sash must be recharged by placing it in strong sunlight for 8 continuous hours. As a swift action, the wearer can cause the clasp to shine as brightly as a torch or cease this illumination; the light is warm, feels like sunlight, and is bright enough to make sun-fearing creatures slightly uncomfortable but not so bright as to cause them harm.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/cure light wounds}, *endure elements,* {spell/feather fall}, {spell/light}; **Cost** 1,250 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/cure light wounds}, {spell/endure elements}, {spell/feather fall}, {spell/light}; **Cost** 1,250 gp"
 		]
 	},
 	"aquatic_cummerbund": {
@@ -169,7 +169,7 @@
 			"**Aura** faint transmutation; **CL** 5th  ",
 			"**Slot** belt; **Price** 2,600 gp; **Weight** -;",
 			"",
-			"Long believed to have been gnome in origin, this stately cummerbund features a number of dancing dolphins embroidered on its deep blue material. The cummerbund grants its wearer a +4 competence bonus on Swim checks, and allows her to take 10 on such checks even if distracted or endangered.",
+			"Long believed to have been {race/gnome} in origin, this stately cummerbund features a number of dancing dolphins embroidered on its deep blue material. The cummerbund grants its wearer a +4 competence bonus on {skill/Swim} checks, and allows her to take 10 on such checks even if distracted or endangered.",
 			"",
 			"### Construction",
 			"",
@@ -192,7 +192,7 @@
 			"",
 			"This belt writhes like a living snake, and even hisses and blinks its red eyes. It clasps by holding its tail in its mouth. The wearer gains a +1 enhancement bonus to natural armor.",
 			"",
-			"If the serpentfolk god Ydersius is the wearer's patron, once per day, the wearer can use magic fang on one of his own natural weapons.",
+			"If the serpentfolk god {faith/Ydersius} is the wearer's patron, once per day, the wearer can use *magic fang* on one of his own natural weapons.",
 			"",
 			"### Construction",
 			"",
@@ -209,7 +209,7 @@
 			"**Aura** faint enchantment; **CL** 1st  ",
 			"**Slot** belt; **Price** 3,000 gp; **Weight** 1/2 lb.",
 			"",
-			"This silk scarf is embroidered with all the colors of a flame and tasseled in tiny beads. When wrapped around the hips, it grants the wearer a +5 competence bonus on Perform (dance) checks. The scarf adds +1 to the saving throw DC of the wearer's fascinate and suggestion bardic performances.",
+			"This silk scarf is embroidered with all the colors of a flame and tasseled in tiny beads. When wrapped around the hips, it grants the wearer a +5 competence bonus on {skill/Perform} (dance) checks. The scarf adds +1 to the saving throw DC of the wearer's {performance/fascinate} and {performance/suggestion} bardic performances.",
 			"",
 			"### Construction",
 			"",
@@ -226,7 +226,7 @@
 			"**Aura** faint transmutation; **CL** 3rd  ",
 			"**Slot** belt; **Price** 3,200 gp; **Weight** 1 lb.",
 			"",
-			"This belt is worked with images of horses stampeding across a barren, windswept plain. The belt's wearer automatically succeeds at any check to guide with the knees, stay in the saddle, fight with a combat-trained mount, control a mount in battle, or make a fast mount or dismount, as long as the belt's wearer is wearing medium, light, or no armor. Furthermore, the belt grants a +4 competence bonus on all other Ride checks, including ones made while the wearer is in heavy armor.",
+			"This belt is worked with images of horses stampeding across a barren, windswept plain. The belt's wearer automatically succeeds at any check to guide with the knees, stay in the saddle, fight with a combat-trained mount, control a mount in battle, or make a fast mount or dismount, as long as the belt's wearer is wearing medium, light, or no armor. Furthermore, the belt grants a +4 competence bonus on all other {skill/Ride} checks, including ones made while the wearer is in heavy armor.",
 			"",
 			"### Construction",
 			"",
@@ -332,7 +332,7 @@
 			"**Aura** faint conjuration and necromancy; **CL** 5th  ",
 			"**Slot** belt; **Price** 4,000 gp; **Weight** 1 lb.",
 			"",
-			"Often created by those who venerate Trelmarixian, the Horseman of Famine, this dark leather belt has a piece of a cracked soul gem in its plain brass buckle. the wearer of a belt of Trelmarixian doesn't need to eat and is immune to the effects of starvation, though she begins to take on an emaciated appearance after several days. Three times per day, the wearer can touch a creature (requiring a successful touch melee attack) to affect it with incredibly painful pangs of hunger. If the target fails a DC 15 Fortitude save, it takes 2d6 points of nonlethal damage and is fatigued. Creatures that don't need to eat or are immune to nonlethal damage are immune to this ability.",
+			"Often created by those who venerate {faith/Trelmarixian}, the Horseman of Famine, this dark leather belt has a piece of a cracked soul gem in its plain brass buckle. the wearer of a belt of Trelmarixian doesn't need to eat and is immune to the effects of starvation, though she begins to take on an emaciated appearance after several days. Three times per day, the wearer can touch a creature (requiring a successful touch melee attack) to affect it with incredibly painful pangs of hunger. If the target fails a DC 15 Fortitude save, it takes 2d6 points of nonlethal damage and is {misc/fatigued}. Creatures that don't need to eat or are immune to nonlethal damage are immune to this ability.",
 			"",
 			"### Construction",
 			"",
@@ -349,7 +349,7 @@
 			"**Aura** faint transmutation; **CL** 3rd  ",
 			"**Slot** belt; **Price** 4,000 gp; **Weight** 1 lb.",
 			"",
-			"As a free action, the wearer of this brown leather belt can compress himself to fit through tight spaces as though affected by a squeeze spell for up to 10 rounds per day. When using the belt's squeezing ability, the wearer gains a +5 circumstance bonus on Escape Artist checks. Once per day as a move action, the wearer can reduce his size by one step, as the reduce person spell, for 1 round. These effects can be used simultaneously.",
+			"As a free action, the wearer of this brown leather belt can compress himself to fit through tight spaces as though affected by a *squeeze spell* for up to 10 rounds per day. When using the belt's squeezing ability, the wearer gains a +5 circumstance bonus on {skill/Escape Artist} checks. Once per day as a move action, the wearer can reduce his size by one step, as the *reduce person* spell, for 1 round. These effects can be used simultaneously.",
 			"",
 			"### Construction",
 			"",
@@ -369,13 +369,13 @@
 			"**Aura** faint conjuration; **CL** 5th  ",
 			"**Slot** belt; **Price** 4,500 gp; **Weight** 5 lbs.",
 			"",
-			"This 8-foot length of corroded, broken chain is threaded with a leather strap to hold it together; it is worn like a belt and must be tied in place, as it lacks a buckle. Once per day, the wearer can call upon its power to summon an evil creature from the {spell/summon monster I} list; the creature attacks the wearer's enemies if any are present, but it is not under the wearer's control and attacks the wearer or the wearer's allies if there are no more enemies to kill.",
+			"This 8-foot length of corroded, broken chain is threaded with a leather strap to hold it together; it is worn like a belt and must be tied in place, as it lacks a buckle. Once per day, the wearer can call upon its power to summon an evil creature from the summon monster I list; the creature attacks the wearer's enemies if any are present, but it is not under the wearer's control and attacks the wearer or the wearer's allies if there are no more enemies to kill.",
 			"",
-			"If Rovagug is the wearer's patron, the wearer can gain the benefits of a rage spell once per day by speaking the god's name. If the wearer is ever bound, shackled, or otherwise rendered helpless while still conscious, this rage ability automatically activates if the wearer hasn't already used it that day.",
+			"If {faith/Rovagug} is the wearer's patron, the wearer can gain the benefits of a *rage* spell once per day by speaking the god's name. If the wearer is ever bound, shackled, or otherwise rendered helpless while still conscious, this *rage* ability automatically activates if the wearer hasn't already used it that day.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/rage}, *summon monster I;* **Cost** 2,250 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/rage}, {spell/summon monster I}; **Cost** 2,250 gp"
 		]
 	},
 	"gutbite_belt": {
@@ -388,7 +388,7 @@
 			"**Aura** moderate transmutation; **CL** 8th  ",
 			"**Slot** belt; **Price** 4,500 gp; **Weight** 1 lb.",
 			"",
-			"This heavy leather belt is reinforced with metal and detailed to resemble a gut wound that has sprouted teeth. In addition to functioning as a belt of mighty constitution +2, the mouth on the belt animates whenever the wearer gains the grappled condition, damaging the wearer's opponent as if it were armor spikes (1d6 points of damage for a Medium wearer, 1d4 for Small). Similar to armor spikes, the mouth can be made into a magic weapon in its own right; it can also be temporarily enhanced with magic such as magic weapon. The wearer can use the mouth to eat meat, gaining nutrition from it as if he had eaten with his own mouth (the mouth refuses any food other than meat).",
+			"This heavy leather belt is reinforced with metal and detailed to resemble a gut wound that has sprouted teeth. In addition to functioning as a {magic-wondrous/belt of mighty constitution +2}, the mouth on the belt animates whenever the wearer gains the {rule/grappled} condition, damaging the wearer's opponent as if it were {eq-armorenh/armor spikes} (1d6 points of damage for a Medium wearer, 1d4 for Small). Similar to armor spikes, the mouth can be made into a magic weapon in its own right; it can also be temporarily enhanced with magic such as {spell/magic weapon}. The wearer can use the mouth to eat meat, gaining nutrition from it as if he had eaten with his own mouth (the mouth refuses any food other than meat).",
 			"",
 			"### Construction",
 			"",
@@ -441,15 +441,15 @@
 			"**Aura** moderate transmutation; **CL** 8th  ",
 			"**Slot** belt; **Price** 5,000 gp (Normal), 31,000 gp (Greater); **Weight** 1 lb.",
 			"",
-			"The entirety of this thick hide belt is scarred with impressions of fiendish visages, each shifting between a scowl and a smile. Commonly used by the servants of Asmodeus in Cheliax, this belt grants its wearer a +2 enhancement bonus to Constitution. Treat this Constitution bonus as a temporary ability bonus for the first 24 hours the belt is worn.",
+			"The entirety of this thick hide belt is scarred with impressions of fiendish visages, each shifting between a scowl and a smile. Commonly used by the servants of {faith/Asmodeus} in Cheliax, this belt grants its wearer a +2 enhancement bonus to Constitution. Treat this Constitution bonus as a temporary ability bonus for the first 24 hours the belt is worn.",
 			"",
-			"Whenever an enemy scores a critical hit against the wearer, the wearer gains fast healing 1 for 1 minute. This ability doesn't trigger if the critical hit deals only nonlethal damage. Damage caused by silver weapons, good-aligned weapons, or spells or effects with the good descriptor doesn't trigger the fast healing, and suppresses the fast healing for 1 round if it's already active.",
+			"Whenever an enemy scores a critical hit against the wearer, the wearer gains {umr/fast healing} 1 for 1 minute. This ability doesn't trigger if the critical hit deals only nonlethal damage. Damage caused by silver weapons, good-aligned weapons, or spells or effects with the good descriptor doesn't trigger the fast healing, and suppresses the fast healing for 1 round if it's already active.",
 			"",
-			"The wearer of an infernal cord can be detected as though she were an evil creature, and can sense the item's evil while wearing it. This belt imparts 1 negative level to any nonevil creature that wears it until the belt is removed.",
+			"The wearer of an infernal cord can be detected as though she were an evil creature, and can sense the item's evil while wearing it. This belt imparts 1 {rule/negative level} to any nonevil creature that wears it until the belt is removed.",
 			"",
-			"Greater Infernal Cord: This item functions as an infernal cord, but it grants a +4 enhancement bonus to Constitution, and the fast healing effect increases to fast healing 4. Treat the Constitution bonus as a temporary ability bonus for the first 24 hours the belt is worn.",
+			"@HL[Greater Infernal Cord:] This item functions as an infernal cord, but it grants a +4 enhancement bonus to Constitution, and the fast healing effect increases to fast healing 4. Treat the Constitution bonus as a temporary ability bonus for the first 24 hours the belt is worn.",
 			"",
-			"The wearer can be detected as though she were an evil cleric, not just an evil creature.",
+			"The wearer can be detected as though she were an evil {class/cleric}, not just an evil creature.",
 			"",
 			"### Construction",
 			"",
@@ -471,7 +471,7 @@
 			"**Aura** faint enchantment; **CL** 5th  ",
 			"**Slot** belt; **Price** 5,000 gp; **Weight** 1 lb.",
 			"",
-			"This thick leather belt is adorned with several oversized iron plates and disks depicting images of orc gladiators in battle. The wearer of a victor's belt gains a +2 morale bonus on all combat maneuver checks and to Combat Maneuver Defense. In addition, the wearer can enter a rage (as the rage spell) as a standard action once per day. Whenever the wearer takes an amount of damage equal to at least half his current hit points in a single round, there is a 50% chance that the belt activates its rage ability automatically as an immediate action, provided the power has not already been activated that day and the wearer is not already raging. Regardless of how the rage is activated, it lasts for 5 rounds.",
+			"This thick leather belt is adorned with several oversized iron plates and disks depicting images of orc gladiators in battle. The wearer of a victor's belt gains a +2 morale bonus on all {rule/combat maneuver>s} checks and to Combat Maneuver Defense. In addition, the wearer can enter a rage (as the *rage* spell) as a standard action once per day. Whenever the wearer takes an amount of damage equal to at least half his current hit points in a single round, there is a 50% chance that the belt activates its *rage* ability automatically as an immediate action, provided the power has not already been activated that day and the wearer is not already raging. Regardless of how the rage is activated, it lasts for 5 rounds.",
 			"",
 			"### Construction",
 			"",
@@ -995,11 +995,11 @@
 			"**Aura** moderate conjuration; **CL** 7th  ",
 			"**Slot** belt; **Price** 20,000 gp; **Weight** 1 lb.",
 			"",
-			"Due to the toxic nature of many environments found within the Darklands, this belt is designed to protect its wearer from exotic diseases, paralyzing attacks, and poisonous molds. The wearer gains a +2 bonus on saving throws to resist disease, paralysis, and poison. This bonus increases to +4 on saving throws to resist such effects caused by molds or slimes. Additionally, the wearer can cast a single spell from the following list as a spell-like ability once per day: {spell/neutralize poison}, {spell/remove disease}, or {spell/remove paralysis}. Activating this ability is a purely mental action that can be taken even while paralyzed or otherwise helpless. The chosen spell affects only the belt's wearer.",
+			"Due to the toxic nature of many environments found within the Darklands, this belt is designed to protect its wearer from exotic diseases, paralyzing attacks, and poisonous molds. The wearer gains a +2 bonus on saving throws to resist disease, paralysis, and poison. This bonus increases to +4 on saving throws to resist such effects caused by molds or slimes. Additionally, the wearer can cast a single spell from the following list as a spell-like ability once per day: *neutralize poison, remove disease,* or *remove paralysis.* Activating this ability is a purely mental action that can be taken even while paralyzed or otherwise helpless. The chosen spell affects only the belt's wearer.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, *neutralize poison, remove disease, remove paralysis;* **Cost** 10,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/neutralize poison}, {spell/remove disease}, {spell/remove paralysis}; **Cost** 10,000 gp"
 		]
 	},
 	"serpent_belt_greater": {
@@ -1081,13 +1081,13 @@
 			"**Aura** moderate transmutation; **CL** 11th  ",
 			"**Slot** belt; **Price** 24,000 gp; **Weight** 3 lbs.",
 			"",
-			"This belt is constructed of flat pieces of slate connected with strong leather straps. This belt grants its wearer a +4 enhancement bonus to Constitution, and the wearer is immune to effects that would push, pull, or forcefully move the wearer. This offers no protection from teleportation effects. Furthermore, once per day on command, the wearer can take the form of a Large earth elemental, and though subject to the {spell/elemental body III} spell.",
+			"This belt is constructed of flat pieces of slate connected with strong leather straps. This belt grants its wearer a +4 enhancement bonus to Constitution, and the wearer is immune to effects that would push, pull, or forcefully move the wearer. This offers no protection from teleportation effects. Furthermore, once per day on command, the wearer can take the form of a Large earth elemental, and though subject to the *elemental body III* spell.",
 			"",
 			"Treat the enhancement bonus to Constitution as a temporary ability bonus for the first 24 hours the belt is worn.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/bear's endurance}, *elemental body III;* **Cost** 12,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/bear's endurance}, {spell/elemental body III}; **Cost** 12,000 gp"
 		]
 	},
 	"mountainshapers_girdle": {
@@ -1627,11 +1627,11 @@
 			"**Aura** faint abjuration; **CL** 5th  ",
 			"**Slot** body and helm (see text); **Price** 4,000 gp; **Weight** 30 lbs.",
 			"",
-			"This magical full-body suit completely protects the wearer from temperature extremes (as if by {spell/endure elements}) and pressure dangers of hard vacuum and all worlds in the system (save the sun), though it only carries enough air for 3 days before it must be recharged in breathable atmosphere (such as that inside a ship). If the suit's seal is broken - such as the helmet being removed to eat or drink - all the air escapes in 2d6 rounds. A suit with a broken seal confers only the benefits of endure elements. The suit automatically repairs small holes, but if it is struck by a critical hit from a piercing or slashing weapon, the wearer of the pressure suit must succeed at a Reflex save (DC equal to the opponent's confirmation roll) or the seal breaks. A suit with a broken seal can be repaired with a DC 18 Craft (armor) check or a make whole spell. The suit does not compensate for changes in gravity. Wearing a pressure suit imposes a -1 armor check penalty; this penalty stacks with those provided by other equipment (such as armor). Since it takes up both the body and helm slots, armor can be worn over a pressure suit, but robes and helms cannot.",
+			"This magical full-body suit completely protects the wearer from temperature extremes (as if by *endure elements*) and pressure dangers of hard vacuum and all worlds in the system (save the sun), though it only carries enough air for 3 days before it must be recharged in breathable atmosphere (such as that inside a ship). If the suit's seal is broken - such as the helmet being removed to eat or drink - all the air escapes in 2d6 rounds. A suit with a broken seal confers only the benefits of endure elements. The suit automatically repairs small holes, but if it is struck by a critical hit from a piercing or slashing weapon, the wearer of the pressure suit must succeed at a Reflex save (DC equal to the opponent's confirmation roll) or the seal breaks. A suit with a broken seal can be repaired with a DC 18 Craft (armor) check or a make whole spell. The suit does not compensate for changes in gravity. Wearing a pressure suit imposes a -1 armor check penalty; this penalty stacks with those provided by other equipment (such as armor). Since it takes up both the body and helm slots, armor can be worn over a pressure suit, but robes and helms cannot.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, *endure elements,* {spell/gust of wind}; **Cost** 2,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/endure elements}, {spell/gust of wind}; **Cost** 2,000 gp"
 		]
 	},
 	"liars_robe": {
@@ -2777,11 +2777,11 @@
 			"**Aura** strong abjuration and conjuration; **CL** 16th  ",
 			"**Slot** body; **Price** 198,000 gp; **Weight** 1 lb.",
 			"",
-			"The traditional robes of the Runelord of Wrath are known as the robes of Xin-Bakrakhan. Woven of the finest of crimson silks and accented with precious gold, the robes are surprisingly light and easy to move in. The robes of Xin-Bakrakhan aid and accentuate their wearer's spellcasting ability. They grant a +5 shield bonus and spell resistance 24, and the wearer casts all spells at +1 caster level. Two of the robe's pockets function as {magic-wondrous/handy haversack/s}. The wearer of these robes is immune to the effects of {spell/calm emotions} and can use all skills and abilities that require patience or concentration when under the effects of a {spell/rage} spell or similar effect.",
+			"The traditional robes of the Runelord of Wrath are known as the robes of Xin-Bakrakhan. Woven of the finest of crimson silks and accented with precious gold, the robes are surprisingly light and easy to move in. The robes of Xin-Bakrakhan aid and accentuate their wearer's spellcasting ability. They grant a +5 shield bonus and spell resistance 24, and the wearer casts all spells at +1 caster level. Two of the robe's pockets function as {magic-wondrous/handy haversack/s}. The wearer of these robes is immune to the effects of *calm emotions* and can use all skills and abilities that require patience or concentration when under the effects of a {spell/rage} spell or similar effect.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, *calm emotions,* {spell/protection from spells}, {spell/shield}, {spell/secret chest}; **Cost** 99,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/calm emotions}, {spell/protection from spells}, {spell/shield}, {spell/secret chest}; **Cost** 99,000 gp"
 		]
 	},
 	"robes_of_xin_shalast": {
@@ -3224,11 +3224,11 @@
 			"**Aura** faint transmutation; **CL** 5th  ",
 			"**Slot** chest; **Price** 7,500 gp; **Weight** 5 lbs.",
 			"",
-			"This dirty, tattered-looking gray coat would not look out of place wrapped around a drifter or vagrant. When the wearer speaks the command word, the coat of the undercity shifts into a wave of clacking chitin, transforming the wearer into a giant cockroach as {spell/vermin shape I}. This transformation can occur only in an urban environment. The wearer can remain transformed for up to 5 minutes per day. This duration doesn't need to be consecutive, but must be used in 1-minute increments.",
+			"This dirty, tattered-looking gray coat would not look out of place wrapped around a drifter or vagrant. When the wearer speaks the command word, the coat of the undercity shifts into a wave of clacking chitin, transforming the wearer into a giant cockroach as *vermin shape I.* This transformation can occur only in an urban environment. The wearer can remain transformed for up to 5 minutes per day. This duration doesn't need to be consecutive, but must be used in 1-minute increments.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, *vermin shape I;* **Cost** 3,750 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/vermin shape I}; **Cost** 3,750 gp"
 		]
 	},
 	"blouse_of_the_boastful_bastard": {
@@ -3465,11 +3465,11 @@
 			"**Aura** strong transmutation; **CL** 10th  ",
 			"**Slot** chest; **Price** 12,500 gp; **Weight** 5 lbs.",
 			"",
-			"This soft fur vest comes in a variety of shades of brown, black, and white. Any creature larger than the wearer takes a -1, -2, -4, or -8 penalty on Perception checks to notice the wearer, depending on whether it is one, two, three, or four or more size categories larger than the wearer, respectively. In addition, the wearer can use {spell/beast shape III} once per day to transform into a mouse.",
+			"This soft fur vest comes in a variety of shades of brown, black, and white. Any creature larger than the wearer takes a -1, -2, -4, or -8 penalty on Perception checks to notice the wearer, depending on whether it is one, two, three, or four or more size categories larger than the wearer, respectively. In addition, the wearer can use *beast shape III* once per day to transform into a mouse.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, *beast shape III;* **Cost** 6,250 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/beast shape III}; **Cost** 6,250 gp"
 		]
 	},
 	"pickpockets_bandolier": {
@@ -3654,7 +3654,7 @@
 			"**Aura** moderate transmtuation; **CL** 9th  ",
 			"**Slot** chest; **Price** 37,500 gp; **Weight** 5 lbs.",
 			"",
-			"This coat functions much like the {magic-wondrous/coat of the undercity}, except the wearer can transform into a venomroach as if using {spell/vermin shape II}.",
+			"This coat functions much like the {magic-wondrous/coat of the undercity}, except the wearer can transform into a venomroach as if using *vermin shape II.*",
 			"",
 			"Alternatively, the wearer can take the form of a giant cockroach swarm. This swarm of Tiny vermin has a number of hit points equal to the wearer, uses the wearer's mental ability scores, skills, and saving throws, and gains a +2 resistance bonus on saving throws against mind-affecting effects instead of being immune to them. The swarm otherwise has the same movement, Armor Class, swarm traits, swarm damage, distraction and disease abilities as a typical rat swarm (including the abilities having a DC of 12). While in swarm form, the wearer can't use any of her activated abilities (extraordinary, supernatural, spell-like, or otherwise), cast spells, or use items, although she can end the effect as a standard action.",
 			"",
@@ -3662,7 +3662,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, *vermin shape II;* **Cost** 18,750 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/vermin shape II}; **Cost** 18,750 gp"
 		]
 	},
 	"greater_coat_of_the_undercity": { "redirect": "coat_of_the_undercity_greater" },
@@ -4156,11 +4156,11 @@
 			"",
 			"Once per day on command, the wearer gains the ability to locate object as per the spell, but only to detect 100 or more coins in a small area, such as a backpack, chest, pouch, or sack.",
 			"",
-			"Three times per day, the wearer may use {spell/identify}.",
+			"Three times per day, the wearer may use *identify.*",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/detect secret doors}, *identify,* {spell/locate object}; **Cost** 3,200 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/detect secret doors}, {spell/identify}, {spell/locate object}; **Cost** 3,200 gp"
 		]
 	},
 	"inquisitors_monocle": {
@@ -4484,11 +4484,11 @@
 			"**Aura** faint divination; **CL** 5th  ",
 			"**Slot** eyes; **Price** 12,700 gp; **Weight** -;",
 			"",
-			"The wearer of this crystal monocle gains the ability to use {spell/detect chaos}, {spell/detect evil}, {spell/detect good}, {spell/detect magic}, or {spell/detect law}, each at will for as long as he concentrates, but only one at a time. Any caster level checks to penetrate magical protections receive a +5 bonus, and use the higher of the item's caster level or the wearer's character level. The wearer can expend one use of mythic power to gain the benefits of arcane sight and see invisibility for 1 hour, or until the monocle is removed.",
+			"The wearer of this crystal monocle gains the ability to use *detect chaos, detect evil, detect good, detect magic,* or *detect law,* each at will for as long as he concentrates, but only one at a time. Any caster level checks to penetrate magical protections receive a +5 bonus, and use the higher of the item's caster level or the wearer's character level. The wearer can expend one use of mythic power to gain the benefits of arcane sight and see invisibility for 1 hour, or until the monocle is removed.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {feat/Mythic Crafter}, {spell/arcane sight}, {spell/see invisibility}, and any one of the following: *detect chaos, detect evil, detect good, detect law,* or *detect magic;* **Cost** 6,350 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {feat/Mythic Crafter}, {spell/arcane sight}, {spell/see invisibility}, and any one of the following: {spell/detect chaos}, {spell/detect evil}, {spell/detect good}, {spell/detect law}, or {spell/detect magic}; **Cost** 6,350 gp"
 		]
 	},
 	"discerning_goggles": {
@@ -4571,13 +4571,13 @@
 			"**Aura** strong divination; **CL** 15th  ",
 			"**Slot** eyes; **Price** 15,000 gp; **Weight** 1 lb.",
 			"",
-			"This set of goggles is engraved with geometric patterns and arcane runes. The wearer can immediately see and discern magical auras within 60 feet, as {spell/arcane sight}. In addition, the wearer is more clearly able to see the animating forces of incorporeal creatures and can therefore harm incorporeal creatures with nonmagical attacks, though these attacks deal only half damage. If the wearer uses a magic weapon to attack an incorporeal creature, the attack deals full damage instead. The goggles have no effect on attacks made with {magic-enh/ghost touch} weapons.",
+			"This set of goggles is engraved with geometric patterns and arcane runes. The wearer can immediately see and discern magical auras within 60 feet, as *arcane sight.* In addition, the wearer is more clearly able to see the animating forces of incorporeal creatures and can therefore harm incorporeal creatures with nonmagical attacks, though these attacks deal only half damage. If the wearer uses a magic weapon to attack an incorporeal creature, the attack deals full damage instead. The goggles have no effect on attacks made with {magic-enh/ghost touch} weapons.",
 			"",
 			"Once per day on command, the wearer can amplify the goggles' ability to sense animating forces for 1 hour. This amplification allows the wearer the ability to notice, locate, and distinguish between living and undead creatures within 30 feet, just as if she had a psychopomp's [spiritsense](family/psychopomp) ability. The goggles do not grant the wearer the ability to discern magical auras while amplified.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, *arcane sight,* {spell/true seeing}; **Cost** 7,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/arcane sight}, {spell/true seeing}; **Cost** 7,500 gp"
 		]
 	},
 	"triple_eyes_of_vivid_auras": {
@@ -4797,11 +4797,11 @@
 			"**Aura** moderate transmutation; **CL** 8th  ",
 			"**Slot** eyes; **Price** 32,000 gp; **Weight** -;",
 			"",
-			"Captured in a battle of wits with a brilliant cyclops by the goblin hero Gribbet, this handsome monocle grants a +4 enhancement bonus to Intelligence. The wearer also understands all written words read through the monocle, as {spell/comprehend languages}. He further gains a +2 insight bonus on Knowledge checks, and may make Knowledge checks even if untrained.",
+			"Captured in a battle of wits with a brilliant cyclops by the goblin hero Gribbet, this handsome monocle grants a +4 enhancement bonus to Intelligence. The wearer also understands all written words read through the monocle, as *comprehend languages.* He further gains a +2 insight bonus on Knowledge checks, and may make Knowledge checks even if untrained.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/fox's cunning}, *comprehend languages;* **Cost** 16,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/fox's cunning}, {spell/comprehend languages}; **Cost** 16,000 gp"
 		]
 	},
 	"captains_eye_patch": {

@@ -1395,11 +1395,11 @@
 			"**Aura** moderate divination; **CL** 9th  ",
 			"**Slot** none; **Price** 50,000 gp; **Weight** 3 lbs.",
 			"",
-			"This bifurcated mithral rod resembles an oversized tuning fork. The forked rod acts as a focus for {spell/plane shift}, but the plane to which it is attuned to can be adjusted as a standard action - a forked rod can be attuned to any plane that a common tuning fork (see *plane shift*) can be attuned to. Once per day, a forked rod can be used to cast *plane shift* to the plane it is currently attuned to. Three times per day as a standard action, the user can attack a creature or object with a forked rod as if it were a +1 {eq-weapon/light mace}. On a hit, the forked rod deals no damage, but affects the target with {spell/dimensional anchor} for 9 minutes. As long as a target is affected in this way, the forked rod is inert and cannot be used to cast *plane shift,* as a focus for *plane shift,* or to affect another target with *dimensional anchor.*",
+			"This bifurcated mithral rod resembles an oversized tuning fork. The forked rod acts as a focus for *plane shift,* but the plane to which it is attuned to can be adjusted as a standard action - a forked rod can be attuned to any plane that a common tuning fork (see *plane shift*) can be attuned to. Once per day, a forked rod can be used to cast *plane shift* to the plane it is currently attuned to. Three times per day as a standard action, the user can attack a creature or object with a forked rod as if it were a +1 {eq-weapon/light mace}. On a hit, the forked rod deals no damage, but affects the target with *dimensional anchor* for 9 minutes. As long as a target is affected in this way, the forked rod is inert and cannot be used to cast *plane shift,* as a focus for *plane shift,* or to affect another target with *dimensional anchor.*",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Rod}, *dimensional anchor, plane shift;* **Cost** 25,000 gp"
+			"**Requirements** {feat/Craft Rod}, {spell/dimensional anchor}, {spell/plane shift}; **Cost** 25,000 gp"
 		]
 	},
 	"rod_of_absorption": {
@@ -1778,13 +1778,13 @@
 			"**Aura** moderate varies; **CL** 11th  ",
 			"**Slot** none; **Price** 85,000 gp; **Weight** 4 lbs.",
 			"",
-			"This rod is indistinguishable from a +1 {eq-weapon/light mace}. The rod bestows a +1 insight bonus on initiative checks. If grasped firmly, it enables the wielder to use {spell/detect chaos}, {spell/detect evil}, {spell/detect good}, {spell/detect law}, {spell/detect magic}, {spell/discern lies}, {spell/light}, or {spell/see invisibility}. Each different use is a standard action.",
+			"This rod is indistinguishable from a +1 {eq-weapon/light mace}. The rod bestows a +1 insight bonus on initiative checks. If grasped firmly, it enables the wielder to use *detect chaos, detect evil, detect good, detect law, detect magic, discern lies, light,* or *see invisibility.* Each different use is a standard action.",
 			"",
 			"If the head of a rod of alertness is planted in the ground and the possessor wills it to alertness (a standard action), the rod senses any creatures within 120 feet that intend to harm the possessor. At the same time, the rod creates the effect of a *prayer* spell upon all creatures friendly to the possessor in a 20-foot radius. Immediately thereafter, the rod sends forth a mental alert to these friendly creatures, warning them of any unfriendly creatures within the 120-foot radius. These effects last for 10 minutes, and the rod can perform this function once per day. Last, the rod can be used to simulate the casting of an *animate objects* spell, utilizing any 11 (or fewer) Small objects located roughly around the perimeter of a 5-foot-radius circle centered on the rod when planted in the ground. Objects remain animated for 11 rounds. The rod can perform this function once per day.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Rod}, {spell/alarm}, {spell/animate objects}, {spell/prayer}, *detect chaos, detect evil, detect good, detect law, detect magic, discern lies, light, see invisibility;* **Cost** 42,500 gp"
+			"**Requirements** {feat/Craft Rod}, {spell/alarm}, {spell/animate objects}, {spell/prayer}, {spell/detect [chaos, detect ]evil/ detect good, detect law}, {spell/detect magic}, {spell/discern lies}, {spell/light}, {spell/see invisibility}; **Cost** 42,500 gp"
 		]
 	},
 	"dolorous_rod": {
@@ -1867,14 +1867,14 @@
 			"| 01 | The wielder gains a major spellblight. The GM may determine the spellblight randomly, or may design a custom spellblight based on the magic effect the wielder commanded the scepter to create. The DC to remove this spellblight (using the normal rules for eliminating spellblights) is 35 (or 40, if the target still has the Scepter of the Arclords in his possession), and isn't reduced with the passage of time. |",
 			"| 02-05 | The Scepter creates a permanently magic-dead area with a radius of d% &times; 100 feet. |",
 			"| 06-10 | The Scepter creates a permanent area of {rule/primal magic} with a radius of d% &times; 100 feet. |",
-			"| 11-80 | The wielder's command is fulfilled with a {spell/limited wish}. If a limited wish can't fulfill the command, the scepter comes as close to fulfilling it as a *limited wish* can (GM's discretion). |",
-			"| 81-100 | The wielder's command is fulfilled with a {spell/wish}. If a *wish* can't fulfill the command, the scepter comes as close to fulfilling it as a *wish* can (GM's discretion). Additionally, one random creature of the outsider type learns the wielder has the scepter and just used it to gain a *wish;* the nature of the *wish* and the location of the wielder aren't revealed. The GM secretly determines which outsider gains this knowledge. |",
+			"| 11-80 | The wielder's command is fulfilled with a *limited wish.* If a limited wish can't fulfill the command, the scepter comes as close to fulfilling it as a *limited wish* can (GM's discretion). |",
+			"| 81-100 | The wielder's command is fulfilled with a *wish.* If a *wish* can't fulfill the command, the scepter comes as close to fulfilling it as a *wish* can (GM's discretion). Additionally, one random creature of the outsider type learns the wielder has the scepter and just used it to gain a *wish;* the nature of the *wish* and the location of the wielder aren't revealed. The GM secretly determines which outsider gains this knowledge. |",
 			"",
 			"The eye-like spheres on the Scepter sometimes swivel of their own accord, and although the Scepter isn't intelligent, it's capable of sliding on its own at a speed of 5 feet.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Rod}, *limited wish, wish;* **Cost** 100,000 gp"
+			"**Requirements** {feat/Craft Rod}, {spell/limited wish}, {spell/wish}; **Cost** 100,000 gp"
 		]
 	},
 	"rod_of_metamagic_eclipsed_lesser": {

@@ -68,11 +68,11 @@
 			"**Aura** strong necromancy; **CL** 15th  ",
 			"**Slot** none; **Price** 5,000 gp; **Weight** 2 lbs.",
 			"",
-			"An empty soul jar can be used to contain a soul that has been successfully trapped in a black sapphire via {spell/soul bind}. Holding the gemstone against the soul jar's lid for 1 full round transfers the soul in the gem to the soul jar (which can hold the soul of a creature of up to 20 Hit Dice), leaving the black sapphire unharmed 50% of the time. The rest of the time, transferring the soul from gem to jar shatters the black sapphire. A creature that can use *soul bind* as a spell-like ability (and thus does not use a focus) can automatically place a captured soul in a held soul jar as the spell-like ability is used. A soul in a soul jar cannot travel to the Boneyard to be judged, but can be restored to life via {spell/resurrection} or more powerful magic. A soul jar can contain only one soul at a time. Soul jars are fragile (hardness 1, hp 10); if a soul jar is broken, the soul held within immediately escapes to the Boneyard.",
+			"An empty soul jar can be used to contain a soul that has been successfully trapped in a black sapphire via *soul bind.* Holding the gemstone against the soul jar's lid for 1 full round transfers the soul in the gem to the soul jar (which can hold the soul of a creature of up to 20 Hit Dice), leaving the black sapphire unharmed 50% of the time. The rest of the time, transferring the soul from gem to jar shatters the black sapphire. A creature that can use *soul bind* as a spell-like ability (and thus does not use a focus) can automatically place a captured soul in a held soul jar as the spell-like ability is used. A soul in a soul jar cannot travel to the Boneyard to be judged, but can be restored to life via {spell/resurrection} or more powerful magic. A soul jar can contain only one soul at a time. Soul jars are fragile (hardness 1, hp 10); if a soul jar is broken, the soul held within immediately escapes to the Boneyard.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, *soul bind;* **Cost** 2,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/soul bind}; **Cost** 2,500 gp"
 		]
 	},
 	"spell_capturing_gem": {
@@ -314,13 +314,13 @@
 			"**Aura** moderate abjuration; **CL** 9th  ",
 			"**Slot** none; **Price** 5,040 gp; **Weight** 7 lbs.",
 			"",
-			"This magical standard appears to be a rather plain banner of nondescript canvas cloth, but on command it takes on the device or pattern chosen by the person using it. Once per day when the banner is planted firmly in the ground, it creates a calm and comfortable environment in a 20-foot radius from the banner, granting those within the area the benefits of {spell/endure elements}. This area of calm and comfort can even resist magical weather effects, but only if those effects are of a caster level lower than that of the banner.",
+			"This magical standard appears to be a rather plain banner of nondescript canvas cloth, but on command it takes on the device or pattern chosen by the person using it. Once per day when the banner is planted firmly in the ground, it creates a calm and comfortable environment in a 20-foot radius from the banner, granting those within the area the benefits of *endure elements.* This area of calm and comfort can even resist magical weather effects, but only if those effects are of a caster level lower than that of the banner.",
 			"",
 			"Also, the banner wards the area of calm and comfort as if by an alarm spell (audible alarm). The creature that plants the banner into the ground chooses the password upon doing so. The area created by the banner lasts for 8 hours or until the banner is taken out of the ground.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/alarm}, *endure elements;* **Cost** 2,520 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/alarm}, {spell/endure elements}; **Cost** 2,520 gp"
 		]
 	},
 	"universal_lock": {
@@ -532,11 +532,11 @@
 			"**Aura** moderate divination; **CL** 9th  ",
 			"**Price** 5,500 gp; **Weight** 5 lbs.",
 			"",
-			"This hardened, oversized eyeball is nearly a foot in diameter. The possessor gains a +1 insight bonus on the saving throw DCs of any spells of the divination school he casts, as well as a +1 insight bonus on dispel checks made against divination effects. In addition, once per week, the possessor of an all-seeing eye can cast {spell/commune} as a spell-like ability without the need for a material component. Using an all-seeing eye in this way effectively uses up its magic for a week, and the possessor does not benefit from the insight bonuses it grants until a week after commune was cast.",
+			"This hardened, oversized eyeball is nearly a foot in diameter. The possessor gains a +1 insight bonus on the saving throw DCs of any spells of the divination school he casts, as well as a +1 insight bonus on dispel checks made against divination effects. In addition, once per week, the possessor of an all-seeing eye can cast *commune* as a spell-like ability without the need for a material component. Using an all-seeing eye in this way effectively uses up its magic for a week, and the possessor does not benefit from the insight bonuses it grants until a week after commune was cast.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, *commune,* {spell/guidance}; **Cost** 2,250 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/commune}, {spell/guidance}; **Cost** 2,250 gp"
 		]
 	},
 	"grave_candle": {
@@ -1206,11 +1206,11 @@
 			"**Aura** faint conjuration; **CL** 5th  ",
 			"**Slot** none; **Price** 6,000 gp; **Weight** -;",
 			"",
-			"These finely crafted yellow-ivory pipes are bound in bronze and decorated with bits of amber. If the possessor learns the proper tune, once per day he can use these pipes to summon 1d4+1 dire rats as if using {spell/summon monster III}. The summoned dire rats also have the swarming racial trait, and count as ratfolk for the purposes of the ratfolk's swarming racial trait.",
+			"These finely crafted yellow-ivory pipes are bound in bronze and decorated with bits of amber. If the possessor learns the proper tune, once per day he can use these pipes to summon 1d4+1 dire rats as if using *summon monster III.* The summoned dire rats also have the swarming racial trait, and count as ratfolk for the purposes of the ratfolk's swarming racial trait.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, *summon monster III;* **Cost** 3,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/summon monster III}; **Cost** 3,000 gp"
 		]
 	},
 	"pocket_prey": {
@@ -1642,11 +1642,11 @@
 			"**Aura** faint divination; **CL** 5th  ",
 			"**Slot** none; **Price** 6,400 gp; **Weight** 1 lb.",
 			"",
-			"This telescoping brass spyglass functions as a normal spyglass and allows clear vision to the horizon 3 miles away at sea level. From atop a typical crow's nest or 70-foot-tall tower like Tidewater Rock, this vision extends to over 10 miles. Once per day, the user of a farglass can activate a {spell/clairaudience//clairvoyance} effect upon any location seen through the farglass's lens. As long as the location is kept in sight through the lens, the clairaudience/clairvoyance sensor can move with the location. This effect lasts for up to 5 minutes.",
+			"This telescoping brass spyglass functions as a normal spyglass and allows clear vision to the horizon 3 miles away at sea level. From atop a typical crow's nest or 70-foot-tall tower like Tidewater Rock, this vision extends to over 10 miles. Once per day, the user of a farglass can activate a *clairaudience/clairvoyance* effect upon any location seen through the farglass's lens. As long as the location is kept in sight through the lens, the clairaudience/clairvoyance sensor can move with the location. This effect lasts for up to 5 minutes.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, *clairaudience/clairvoyance;* **Cost** 3,700 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/clairaudience//clairvoyance}; **Cost** 3,700 gp"
 		]
 	},
 	"tillers_pendant": {
@@ -1738,11 +1738,11 @@
 			"**Aura** moderate abjuration; **CL** 6th  ",
 			"**Slot** none; **Price** 6,500 gp; **Weight** 1 lb.",
 			"",
-			"This trumpet adapts itself to its owner, so it produces either a good or an evil effect depending on the owner's alignment. If the owner is neither good nor evil, the horn has no power whatsoever. If she is good, then blowing the horn has the effect of a {spell/magic circle against evil}. If she is evil, then blowing the horn has the effect of a {spell/magic circle against good}. In either case, this ward lasts for 1 hour. The horn can be blown once per day.",
+			"This trumpet adapts itself to its owner, so it produces either a good or an evil effect depending on the owner's alignment. If the owner is neither good nor evil, the horn has no power whatsoever. If she is good, then blowing the horn has the effect of a *magic circle against evil.* If she is evil, then blowing the horn has the effect of a *magic circle against good.* In either case, this ward lasts for 1 hour. The horn can be blown once per day.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, *magic circle against evil, magic circle against good;* **Cost** 3,250 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/magic circle against evil}, {spell/magic circle against good}; **Cost** 3,250 gp"
 		]
 	},
 	"horn_of_goodness_or_evil": { "redirect": "horn_of_goodness_evil" },
@@ -2624,11 +2624,11 @@
 			"**Aura** moderate divination; **CL** 7th  ",
 			"**Slot** none; **Price** 8,000 gp; **Weight** 1 lb.",
 			"",
-			"This short aspergillum is made of silver. An inquisitor who carries it may use {spell/detect undead} as if it were one of the spells associated with her detect alignment ability. Once per day, the item can alter an inquisitor's judgment ability; by spending one use of her judgment ability, she can allow her spells of 3rd level and lower to have full effect against incorporeal creatures, as though using the Ectoplasmic Spell feat. This lasts until the combat ends.",
+			"This short aspergillum is made of silver. An inquisitor who carries it may use *detect undead* as if it were one of the spells associated with her detect alignment ability. Once per day, the item can alter an inquisitor's judgment ability; by spending one use of her judgment ability, she can allow her spells of 3rd level and lower to have full effect against incorporeal creatures, as though using the Ectoplasmic Spell feat. This lasts until the combat ends.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {feat/Ectoplasmic Spell}, *detect undead,* creator must be an inquisitor; **Cost** 4,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {feat/Ectoplasmic Spell}, {spell/detect undead}, creator must be an inquisitor; **Cost** 4,000 gp"
 		]
 	},
 	"force_casket": {
@@ -2879,11 +2879,11 @@
 			"**Aura** moderate abjuration and transmutation; **CL** 10th  ",
 			"**Slot** none; **Price** 8,000 gp; **Weight** 1,000 lbs.",
 			"",
-			"This altar takes the form of a throne sized for a Large humanoid. It's carved from mountain stone, and its surface is inscribed with prayers to Gozreh in Thassilonian and to Ioz-om in Giant. The Throne of the Sky-Father projects a {spell/magic circle against law} that affects creatures within 50 feet of the throne. A character within this area can speak a prayer to Gozreh to gain a temporary blessing from the altar (treat this as speaking a command word to activate a magic item). Praying at the altar grants a +4 resistance bonus on saving throws against weather effects and a +2 circumstance bonus on Acrobatics, Climb, and Fly checks. This blessing ends after 24 hours (or earlier, if dispelled or ended by the actions of the worshiper). The altar can provide its blessing only once per creature per day.",
+			"This altar takes the form of a throne sized for a Large humanoid. It's carved from mountain stone, and its surface is inscribed with prayers to Gozreh in Thassilonian and to Ioz-om in Giant. The Throne of the Sky-Father projects a *magic circle against law* that affects creatures within 50 feet of the throne. A character within this area can speak a prayer to Gozreh to gain a temporary blessing from the altar (treat this as speaking a command word to activate a magic item). Praying at the altar grants a +4 resistance bonus on saving throws against weather effects and a +2 circumstance bonus on Acrobatics, Climb, and Fly checks. This blessing ends after 24 hours (or earlier, if dispelled or ended by the actions of the worshiper). The altar can provide its blessing only once per creature per day.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/control winds}, {spell/guidance}, *magic circle against law,* {spell/stone shape}, creator must worship {faith/Gozreh}; **Cost** 4,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/control winds}, {spell/guidance}, {spell/magic circle against law}, {spell/stone shape}, creator must worship {faith/Gozreh}; **Cost** 4,000 gp"
 		]
 	},
 	"wayfinder_of_revelation": {
@@ -2933,11 +2933,11 @@
 			"**Aura** faint illusion; **CL** 5th  ",
 			"**Slot** none; **Price** 8,000 gp; **Weight** 1 lb.",
 			"",
-			"Vanishing wayfinders are crafted of ivory chased with gold and silver. In addition to the usual functions of a {magic-wondrous/wayfinder} (including the ability to create light), the bearer of a vanishing wayfinder can press a hidden catch as a standard action to become invisible (as the spell {spell/invisibility}) for as long as she concentrates, up to a maximum duration of 5 minutes per day. These minutes need not be consecutive, but each activation uses 1 minute of duration, even if the user becomes visible by making an attack or by some other means before that minute is up.",
+			"Vanishing wayfinders are crafted of ivory chased with gold and silver. In addition to the usual functions of a {magic-wondrous/wayfinder} (including the ability to create light), the bearer of a vanishing wayfinder can press a hidden catch as a standard action to become invisible (as the spell *invisibility*) for as long as she concentrates, up to a maximum duration of 5 minutes per day. These minutes need not be consecutive, but each activation uses 1 minute of duration, even if the user becomes visible by making an attack or by some other means before that minute is up.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, *invisibility,* {spell/light}; **Cost** 4,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/invisibility}, {spell/light}; **Cost** 4,000 gp"
 		]
 	},
 	"vanishing_wayfinder": { "redirect": "wayfinder_vanishing" },
@@ -3170,13 +3170,13 @@
 			"**Aura** strong necromancy [evil]; **CL** 13th  ",
 			"**Slot** none; **Price** 9,000 gp; **Weight** 1 lb.",
 			"",
-			"Molded from a pale, milky-green wax into the shape of a column of screaming souls and stamped on the bottom with the unholy symbol of one of the Four Horsemen, a candle of Abaddon is a boon to evil spellcasters and any who would summon or interact with daemons. When burned, the candle sheds eerie dim illumination in a radius of 15 feet similar to Abaddon's perpetual eclipse. This candle lowers existing light levels in the area to dim conditions; this effect functions as a 6th-level spell with the darkness descriptor. A spellcaster within the radius of a burning candle of Abaddon gains a +2 bonus to his effective caster level when casting spells with the evil descriptor. The light also acts as per {spell/magic circle against evil}, but only against daemons. Natural healing doesn't work within the light's radius of illumination, and magical healing requires a successful DC 25 caster level check to take effect.",
+			"Molded from a pale, milky-green wax into the shape of a column of screaming souls and stamped on the bottom with the unholy symbol of one of the Four Horsemen, a candle of Abaddon is a boon to evil spellcasters and any who would summon or interact with daemons. When burned, the candle sheds eerie dim illumination in a radius of 15 feet similar to Abaddon's perpetual eclipse. This candle lowers existing light levels in the area to dim conditions; this effect functions as a 6th-level spell with the darkness descriptor. A spellcaster within the radius of a burning candle of Abaddon gains a +2 bonus to his effective caster level when casting spells with the evil descriptor. The light also acts as per *magic circle against evil,* but only against daemons. Natural healing doesn't work within the light's radius of illumination, and magical healing requires a successful DC 25 caster level check to take effect.",
 			"",
 			"A candle of Abaddon normally burns for 4 hours, but any burning consumes at least 10 minutes of its overall life span, even if it was lit for less than 10 minutes. It is possible to extinguish the candle simply by blowing it out, so users often place it in a lantern to protect it from drafts and the like (this doesn't interfere with its magical properties).",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/desecrate}, *magic circle against evil,* creator must be evil; **Cost** 4,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/desecrate}, {spell/magic circle against evil}, creator must be evil; **Cost** 4,500 gp"
 		]
 	},
 	"chest_of_keeping": {
@@ -3229,13 +3229,13 @@
 			"",
 			"To use the confabulation plates on a dead entity, the user must clamp the plates around part of the subject's body and attach the tube to the subject's bare skin. Then the user has to crank the winding key for 1 minute. Once this is complete, the user can ask the corpse two questions, and the response emits from the device in a metallic, buzzing tone. This effect is identical to speak with dead.",
 			"",
-			"If the device is selected to be able to communicate with plants and clamped onto a plant, the user can communicate freely with the subject for 5 minutes as the spell {spell/speak with plants}.",
+			"If the device is selected to be able to communicate with plants and clamped onto a plant, the user can communicate freely with the subject for 5 minutes as the spell *speak with plants.*",
 			"",
 			"Confabulation plates can be used once per day.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/speak with dead}, *speak with plants;* **Cost** 4,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/speak with dead}, {spell/speak with plants}; **Cost** 4,500 gp"
 		]
 	},
 	"decanter_of_endless_water": {
