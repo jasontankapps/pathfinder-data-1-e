@@ -3472,7 +3472,7 @@
 		"description": [
 			"{SOURCE PRPG Core Rulebook/554}",
 			"",
-			"Some spells and abilities increase your ability scores. Ability score increases with a duration of 1 day or less give only temporary bonuses. For every two points of increase to a single ability, apply a +1 bonus to the skills and statistics listed with the relevant ability.",
+			"Some spells and abilities increase your ability scores. Ability score increases with a duration of 1 day or less give only **temporary bonuses.** For every two points of increase to a single ability, apply a +1 bonus to the skills and statistics listed with the relevant ability.",
 			"",
 			"@HL[Strength:] Temporary increases to your Strength score give you a bonus on Strength-based skill checks, melee attack rolls, and weapon damage rolls (if they rely on Strength). The bonus also applies to your Combat Maneuver Bonus (if you are Small or larger) and to your Combat Maneuver Defense.",
 			"",
@@ -3512,6 +3512,7 @@
 			"spell_resistance_2"
 		]
 	},
+	"temporary_ability_bonus": { "redirect": "ability_score_bonuses" },
 	"ability_damage_drain": {
 		"name": "Ability Score Damage, Penalty, and Drain",
 		"tags": "ability drain, ability damage",
