@@ -1521,7 +1521,7 @@
 			"",
 			"*Hammers:* As a standard action, you can grant yourself a +4 enhancement bonus to Strength for 1 minute. While this bonus persists, you can reroll any bull rush, grapple, or sunder combat maneuver checks. You must use the result of this second roll, even if it is worse.",
 			"",
-			"*Keys:* As a standard action, you can grant yourself a +4 enhancement bonus to Dexterity for 1 minute. While this bonus persists, you gain evasion, as the rogue class feature. If you already possess evasion, you instead gain improved evasion, as the advanced rogue talent.",
+			"*Keys:* As a standard action, you can grant yourself a +4 enhancement bonus to Dexterity for 1 minute. While this bonus persists, you gain {ability/evasion}, as the rogue class feature. If you already possess evasion, you instead gain {talent/improved evasion}, as the advanced rogue talent.",
 			"",
 			"*Shields:* As a standard action, you can grant yourself a +4 enhancement bonus to Constitution for 1 minute. While this bonus persists, you gain fast healing 1 and don't die until you reach a number of negative hit points equal to double your Constitution.",
 			"",

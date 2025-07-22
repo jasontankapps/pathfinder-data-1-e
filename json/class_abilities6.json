@@ -169,7 +169,7 @@
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook}  ",
-			"This is an improved version of {ability/evasion}. The character still takes no damage on a successful Reflex saving throw against attacks, but henceforth they take only half damage on a failed save. A {misc/helpless} character does not gain the benefit of improved evasion.",
+			"This is an improved version of {ability/evasion}. The character still takes no damage on a successful Reflex saving throw against attacks while wearing light armor or no armor, but henceforth they take only half damage on a failed save. A {misc/helpless} character does not gain the benefit of improved evasion.",
 			"",
 			"This ability is gained by {sidekick/familiar/s} at 1st level, and at 9th level by the {class/monk} and {class/unchained monk}. Rogues and unchained rogues can access it via the {talent/improved evasion} advanced rogue talent. An {sidekick/eidolon} or {sidekick/unchained eidolon} gains this ability at 14th level, and an {sidekick/animal companion} gains it at 15th level. The {class/ranger} gains it at 16th level, and it applies when wearing medium armor, too."
 		]
@@ -179,7 +179,7 @@
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook}  ",
-			"A character with this ability can react to danger before their senses would normally allow them to do so. They cannot be caught flat-footed, nor do they lose their Dexterity bonus to AC if the attacker is invisible. They still loses their Dexterity bonus to AC if immobilized, or if an opponent successfully uses the feint action against them.",
+			"A character with this ability can react to danger before their senses would normally allow them to do so. They cannot be caught {rule/flat-footed}, nor do they lose their Dexterity bonus to AC if the attacker is invisible. They still loses their Dexterity bonus to AC if immobilized, or if an opponent successfully uses the {rule/feint} action against them.",
 			"",
 			"This ability is gained at 2nd level by the {class/bloodrager}, {class/barbarian}, and {class/unchained barbarian}. It is gained at 4th level by the {class/rogue}, {class/unchained rogue}, {class/ninja}, and {class/skald}.",
 			"",
