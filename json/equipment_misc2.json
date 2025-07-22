@@ -2316,10 +2316,7 @@
 		"name": "Horse (heavy, combat trained)",
 		"copyof": "horse_heavy"
 	},
-	"heavy_horse_combat_trained": {
-		"name": "Horse (heavy, combat trained)",
-		"copyof": "horse_heavy"
-	},
+	"heavy_horse_combat_trained": { "redirect": "horse_heavy_combat_trained" },
 	"horse_light": {
 		"name": "Horse (light)",
 		"copyof": "horse_heavy"
@@ -2329,18 +2326,13 @@
 		"name": "Horse (light, combat trained)",
 		"copyof": "horse_heavy"
 	},
-	"horse_light_combat_trained": {
-		"name": "Horse (light, combat trained)",
-		"copyof": "horse_heavy"
-	},
+	"horse_light_combat_trained": { "redirect": "light_horse_combat_trained" },
+	"light_combat_trained_horse": { "redirect": "light_horse_combat_trained" },
 	"horse_pony": {
 		"name": "Horse (pony)",
 		"copyof": "horse_heavy"
 	},
-	"pony": {
-		"name": "Horse (pony)",
-		"copyof": "horse_heavy"
-	},
+	"pony": { "redirect": "horse_pony" },
 	"horse": {
 		"name": "Horse",
 		"copyof": "horse_heavy"
@@ -2349,10 +2341,7 @@
 		"name": "Horse (pony, combat trained)",
 		"copyof": "horse_heavy"
 	},
-	"horse_pony_combat_trained": {
-		"name": "Horse (pony, combat trained)",
-		"copyof": "horse_heavy"
-	},
+	"horse_pony_combat_trained": { "redirect": "pony_combat_trained" },
 	"horse_whip": {
 		"name": "Horse whip",
 		"sources": [ "Merchant's Manifest" ],

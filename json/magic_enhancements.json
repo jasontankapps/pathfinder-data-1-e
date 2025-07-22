@@ -1746,10 +1746,7 @@
 		"name": "Greater Aquadynamic",
 		"copyof": "aquadynamic"
 	},
-	"aquadynamic_greater": {
-		"name": "Greater Aquadynamic",
-		"copyof": "aquadynamic"
-	},
+	"aquadynamic_greater": { "redirect": "greater_aquadynamic" },
 	"shadow_greater": {
 		"name": "Greater Shadow",
 		"sources": [

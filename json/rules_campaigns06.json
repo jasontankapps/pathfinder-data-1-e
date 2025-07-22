@@ -642,7 +642,7 @@
 		]
 	},
 	"possession": {
-		"name": "Possession",
+		"name": "Possession: Overview",
 		"subtitle": "Occult Rules",
 		"sources": [ "Occult Adventures" ],
 		"description": [
@@ -1536,7 +1536,7 @@
 		]
 	},
 	"astrological_events": {
-		"name": "The Cosmic Caravan",
+		"name": "Astrological Events",
 		"sources": [ "Occult Mysteries" ],
 		"description": [
 			"{SOURCE Occult Mysteries/38}",

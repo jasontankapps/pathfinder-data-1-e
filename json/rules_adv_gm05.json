@@ -3980,7 +3980,7 @@
 		]
 	},
 	"tea_shield": {
-		"name": "Random Armor Special Abilities",
+		"name": "Random Magic Shields",
 		"subtitle": "Type E, Treasure Generator",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
@@ -4402,7 +4402,7 @@
 		]
 	},
 	"tew_magic_weapons": {
-		"name": "Random Magic Weapons",
+		"name": "Random Specific Magic Weapons",
 		"subtitle": "Type E, Treasure Generator",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [

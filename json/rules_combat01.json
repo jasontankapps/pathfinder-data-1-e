@@ -561,6 +561,7 @@
 	},
 	"attack": {
 		"name": "Attack",
+		"subtitle": "Standard Action",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/182}",
@@ -588,7 +589,7 @@
 	},
 	"melee_and_ranged_attacks": {
 		"name": "Melee and Ranged Attacks",
-		"subtitle": "Attack Action",
+		"subtitle": "Standard Action",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/182}",
@@ -633,7 +634,7 @@
 	"unarmed_strike": { "redirect": "melee_and_ranged_attacks" },
 	"natural_attacks": {
 		"name": "Natural Attacks",
-		"subtitle": "Attack Action",
+		"subtitle": "Standard Action",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/182}",
@@ -659,7 +660,7 @@
 	},
 	"multiple_attacks_and_fighting_defensively": {
 		"name": "Multiple Attacks and Fighting Defensively",
-		"subtitle": "Attack Action",
+		"subtitle": "Standard Action",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/184}",
@@ -683,7 +684,7 @@
 	},
 	"critical_hits": {
 		"name": "Critical Hits",
-		"subtitle": "Attack Action",
+		"subtitle": "Standard Action",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/184}",
@@ -715,6 +716,7 @@
 	},
 	"activate_magic_item": {
 		"name": "Activate Magic Item",
+		"subtitle": "Standard Action",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/183}",
@@ -740,6 +742,7 @@
 	},
 	"cast_a_spell": {
 		"name": "Cast a Spell",
+		"subtitle": "Standard Action",
 		"tags": "holding the charge ranged touch spells concentration",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
@@ -790,6 +793,7 @@
 	},
 	"use_special_ability": {
 		"name": "Use Special Ability",
+		"subtitle": "Standard Action",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/186}",
@@ -889,6 +893,7 @@
 	},
 	"move": {
 		"name": "Move",
+		"subtitle": "Move Action",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/186}",
@@ -916,6 +921,7 @@
 	},
 	"draw_or_sheathe_a_weapon": {
 		"name": "Draw or Sheathe a Weapon",
+		"subtitle": "Move Action",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/186}",
@@ -941,6 +947,7 @@
 	},
 	"mount_dismount_a_steed": {
 		"name": "Mount/Dismount a Steed",
+		"subtitle": "Move Action",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/187}",
@@ -964,6 +971,7 @@
 	},
 	"ready_or_drop_a_shield": {
 		"name": "Ready or Drop a Shield",
+		"subtitle": "Move Action",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/187}",
@@ -985,6 +993,7 @@
 	},
 	"other_move_actions": {
 		"name": "Other Move Actions",
+		"subtitle": "Move Action",
 		"tags": "manipulating an item stand up from prone direct spell redirect spell",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
@@ -1058,6 +1067,7 @@
 	},
 	"full_attack": {
 		"name": "Full Attack",
+		"subtitle": "Full-Round Action",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/187}",
@@ -1086,8 +1096,7 @@
 		]
 	},
 	"cast_a_spell_2": {
-		"name": "Cast a Spell",
-		"subtitle": "Full-Round Action, Combat",
+		"name": "Cast a Spell (Full-Round Action)",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/187}",
@@ -1119,7 +1128,7 @@
 	},
 	"run": {
 		"name": "Run",
-		"subtitle": "Full-Round Action, Combat",
+		"subtitle": "Full-Round Action",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/188}",
@@ -1147,7 +1156,7 @@
 	},
 	"withdraw": {
 		"name": "Withdraw",
-		"subtitle": "Full-Round Action, Combat",
+		"subtitle": "Full-Round Action",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/188}",
@@ -1271,6 +1280,7 @@
 	},
 	"miscellaneous_actions": {
 		"name": "Miscellaneous Actions",
+		"subtitle": "Combat",
 		"tags": "delay take 5-foot step perform combat maneuver use feat use skill",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
@@ -1312,6 +1322,7 @@
 	},
 	"take_5_foot_step": {
 		"name": "Take 5-Foot Step",
+		"subtitle": "Combat Action",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/189}",

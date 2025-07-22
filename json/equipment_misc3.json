@@ -1586,10 +1586,7 @@
 		"name": "Saddle (military)",
 		"copyof": "saddle_exotic_military"
 	},
-	"saddle_military": {
-		"name": "Saddle (military)",
-		"copyof": "saddle_exotic_military"
-	},
+	"saddle_military": { "redirect": "military_saddle" },
 	"saddle_pack": {
 		"name": "Saddle (pack)",
 		"copyof": "saddle_exotic_military"
@@ -1727,10 +1724,7 @@
 		"name": "Scarf (reinforced)",
 		"copyof": "scarf_pocketed"
 	},
-	"reinforced_scarf": {
-		"name": "Scarf (reinforced)",
-		"copyof": "scarf_pocketed"
-	},
+	"reinforced_scarf": { "redirect": "scarf_reinforced" },
 	"pocketed_scarf": { "redirect": "scarf_pocketed" },
 	"scarf": {
 		"name": "Scarf",
@@ -1883,10 +1877,7 @@
 		"name": "Scribe (text)",
 		"copyof": "scribe_map"
 	},
-	"scribe": {
-		"name": "Scribe (text)",
-		"copyof": "scribe_map"
-	},
+	"scribe": { "redirect": "scribe_text" },
 	"scriveners_kit": {
 		"name": "Scrivener's kit",
 		"sources": [ "Ultimate Equipment" ],

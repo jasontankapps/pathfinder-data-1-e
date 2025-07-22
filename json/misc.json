@@ -624,7 +624,7 @@
 		"topLink": [ "Weapon Special Features", "rule/weapon_special_features" ]
 	},
 	"sunder": {
-		"name": "Blocking",
+		"name": "Sunder",
 		"subtitle": "Weapon Special Feature",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [

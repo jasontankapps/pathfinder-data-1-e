@@ -55,7 +55,7 @@
 		"parent_topics": [ "specific_rulesets" ]
 	},
 	"setting_up_a_bar_fight": {
-		"name": "Bar Fights",
+		"name": "Setting Up a Bar Fight",
 		"sources": [ "Inner Sea Taverns" ],
 		"description": [
 			"{SOURCE Inner Sea Taverns/55}",
@@ -83,7 +83,7 @@
 		]
 	},
 	"running_a_bar_fight": {
-		"name": "Bar Fights",
+		"name": "Running a Bar Fight",
 		"sources": [ "Inner Sea Taverns" ],
 		"description": [
 			"{SOURCE Inner Sea Taverns/55}",

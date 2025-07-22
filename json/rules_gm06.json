@@ -3927,6 +3927,7 @@
 			"volcano"
 		]
 	},
+	"snow_blindness": { "redirect": "reflective_snow" },
 	"spellgorging_plants": {
 		"name": "Spellgorging Plants",
 		"subtitle": "Wilderness Hazard",

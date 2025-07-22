@@ -3122,10 +3122,15 @@
 			"",
 			"Fecund and secretive, rats are omnivorous rodents that particularly thrive in urban areas.",
 			"",
-			"**Family:** {family/Familiar}"
+			"**Family:** {family/Familiar}",
+			"",
+			"### Mouse",
+			"",
+			"There are no published statistics for mice in Pathfinder, even though multiple published sources refer to them. As an unofficial suggestion to create a mouse, consider using the rat above with the {template/young} template."
 		]
 	},
 	"rat": { "redirect": "familiar_rat" },
+	"mouse": { "redirect": "familiar_rat" },
 	"familiar_raven": {
 		"name": "Raven (Familiar)",
 		"sources": [ "Pathfinder RPG Bestiary" ],

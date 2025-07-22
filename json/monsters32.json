@@ -4001,13 +4001,15 @@
 			"",
 			"The statistics above are for a typical riding horse, called by some a \"light horse.\" Some horses are larger and heartier, bred for labor such as pulling plows or carriages. These horses are called \"heavy horses\" and gain the following adjustments to the base statistics detailed above.",
 			"",
-			">**Heavy Horse:** A heavy horse gains the {template/advanced} simple template. In addition, it also gains a bite attack that inflicts 1d4 damage, and its hoof damage increases to 1d6. As with a light horse, a heavy horse can be specifically trained for combat with the Handle Animal skill.",
+			">@HL[Heavy Horse:] A heavy horse gains the {template/advanced} simple template. In addition, it also gains a bite attack that inflicts 1d4 damage, and its hoof damage increases to 1d6. As with a light horse, a heavy horse can be specifically trained for combat with the Handle Animal skill.",
 			"",
-			"[Ponies](monster/pony) are smaller breeds of horses better suited to halflings, gnomes, and dwarves, but they also make fond pets for humans as well. They stand 3 to 4 feet tall and weigh about 600 pounds.",
+			"{monster/Pon/ies>y} are smaller breeds of horses better suited to halflings, gnomes, and dwarves, but they also make fond pets for humans as well. They stand 3 to 4 feet tall and weigh about 600 pounds.",
 			"",
 			"[^B]: Bonus feat."
 		]
 	},
+	"heavy_horse": { "redirect": "horse" },
+	"light_horse": { "redirect": "horse" },
 	"horse_pony": {
 		"name": "Pony",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -4048,7 +4050,7 @@
 			"",
 			"::sh[Description]",
 			"",
-			"Ponies are smaller breeds of horses better suited to halflings, gnomes, and dwarves, but they also make fond pets for humans as well. They stand 3 to 4 feet tall and weigh about 600 pounds.",
+			"Ponies are smaller breeds of {monster/horse/s} better suited to halflings, gnomes, and dwarves, but they also make fond pets for humans as well. They stand 3 to 4 feet tall and weigh about 600 pounds.",
 			"",
 			"A light load for a pony is up to 100 pounds, a medium load is 101-200 pounds, and a heavy load is 201-300 pounds. A pony can drag 1,500 pounds.",
 			"",

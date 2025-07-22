@@ -2791,7 +2791,7 @@
 			"**Type:** Race  ",
 			"**Requirements:** Human; Tian",
 			"",
-			"After a close call with snow blindness on the Crown of the World or the scouring winds of Hongal, you honed your instincts to protect your eyes. You gain a +2 trait bonus on saving throws to avoid being blinded or dazzled."
+			"After a close call with {rule/snow blindness} on the Crown of the World or the scouring winds of Hongal, you honed your instincts to protect your eyes. You gain a +2 trait bonus on saving throws to avoid being blinded or dazzled."
 		],
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},

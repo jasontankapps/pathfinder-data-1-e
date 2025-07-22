@@ -3091,7 +3091,7 @@
 		]
 	},
 	"necklace_of_fireballs_type_1": {
-		"name": "Necklace of Fireballs",
+		"name": "Necklace of Fireballs (Type I)",
 		"copyof": "necklace_of_fireballs"
 	},
 	"necklace_of_fireballs_type_i": { "redirect": "necklace_of_fireballs_type_1" },
