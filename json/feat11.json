@@ -728,7 +728,7 @@
 			"",
 			"You are used to fighting in muck and slime, and happily hurl it in your foes' eyes in the heat of battle.  ",
 			"**Prerequisites:** {feat/Throw Anything}.  ",
-			"**Benefit:** As a standard action when in urban or subterranean terrain, you can scoop filth, sewage, mud, or similar grime off a nearby surface and hurl it at a foe as a ranged touch attack with a range increment of 5 feet. If the attack hits, you can immediately attempt a {rule/dirty trick} combat maneuver against the target as a free action; this dirty trick can be used only to {misc/blind>ed} the target. As a ranged touch attack, this action provokes attacks of opportunity, even if your dirty trick attempts normally wouldn't provoke such attacks (such as via the {feat/Improved Dirty Trick} feat).  ",
+			"**Benefit:** As a standard action when in urban or subterranean terrain, you can scoop filth, sewage, mud, or similar grime off a nearby surface and hurl it at a foe as a ranged touch attack with a range increment of 5 feet. If the attack hits, you can immediately attempt a {rule/dirty trick} combat maneuver against the target as a free action; this dirty trick can be used only to {misc/blind} the target. As a ranged touch attack, this action provokes attacks of opportunity, even if your dirty trick attempts normally wouldn't provoke such attacks (such as via the {feat/Improved Dirty Trick} feat).  ",
 			"**Special:** A character with {ability/favored terrain} (as the ranger class feature) can use this feat when in any of his favored terrains in addition to urban and subterranean."
 		]
 	},
@@ -1493,7 +1493,7 @@
 			"",
 			"You have become very proficient at using your net to hinder your enemies.  ",
 			"**Prerequisites:** {feat/Exotic Weapon Proficiency} (net), {feat/Net Adept}, {feat/Net Maneuvering}, base attack bonus +6.  ",
-			"**Benefit:** In place of one of your melee attacks, you can use your {eq-weapon/net} to attempt a {rule/dirty trick} combat maneuver to {misc/blind>ed} an opponent. If you have an opponent entangled in your net, you can attempt to {rule/trip} that opponent as long as he is within your net's reach or you control the trailing rope on your net. You also gain a +2 bonus on {rule/drag} and {rule/reposition} combat maneuver checks you make using your net.",
+			"**Benefit:** In place of one of your melee attacks, you can use your {eq-weapon/net} to attempt a {rule/dirty trick} combat maneuver to {misc/blind} an opponent. If you have an opponent entangled in your net, you can attempt to {rule/trip} that opponent as long as he is within your net's reach or you control the trailing rope on your net. You also gain a +2 bonus on {rule/drag} and {rule/reposition} combat maneuver checks you make using your net.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/127}",

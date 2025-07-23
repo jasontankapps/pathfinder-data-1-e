@@ -2850,7 +2850,7 @@
 			"",
 			"You have learned how to fire the big guns.  ",
 			"**Prerequisites:** {race/Goblin}.  ",
-			"**Benefit:** You can wield Medium firearms without taking the penalty for an inappropriately sized weapon.  ",
+			"**Benefit:** You can wield Medium firearms without taking the penalty for an {misc/inappropriately sized weapon}.  ",
 			"**Normal:** You take a -2 penalty when using an inappropriately sized weapon.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",

@@ -869,6 +869,7 @@
 		"name": "Figurine of Wondrous Power (Silver Raven)",
 		"copyof": "figurine_of_wondrous_power"
 	},
+	"silver_raven_figurine_of_wondrous_power": { "redirect": "figurine_of_wondrous_power_silver_raven" },
 	"figurine_of_wondrous_power_tin_imp": {
 		"name": "Figurine of Wondrous Power (Tin Imp)",
 		"copyof": "figurine_of_wondrous_power"

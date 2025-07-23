@@ -54,12 +54,12 @@
 			"The key parts of the downtime rules that you'll be referencing often are the following:",
 			"",
 			"- Explanation of the {rule/downtime terminology} used throughout this section.",
-			"- [Earning downtime capital](rule/gaining_capital) such as Goods, Influence, and Labor.",
-			"- The [phase sequence](rule/downtime_phases) for using downtime.",
-			"- The kinds of [activities](rule/downtime_activities) you can do with this system.",
+			"- {rule/gaining<Earning downtime| capital} such as Goods, Influence, and Labor.",
+			"- The {rule/downtime_<phase/ sequence>s} for using downtime.",
+			"- The kinds of {rule/downtime_<activities} you can do with this system.",
 			"- Constructing {rule/rooms>_and_teams}, the building blocks of buildings such as guildhalls or temples, and recruiting teams such as apprentices and guards.",
 			"- [Example](rule/buildings_and_organizations) buildings constructed out of rooms, and example organizations built out of teams.",
-			"- Positive and negative [events](rule/downtime_events) that can occur during downtime.",
+			"- Positive and negative {rule/downtime_<events} that can occur during downtime.",
 			"- Downtime tracking sheet (included in physical book only)."
 		],
 		"parent_topics": [
@@ -558,6 +558,7 @@
 			"event_phase"
 		]
 	},
+	"generate_capital": { "redirect": "income_phase" },
 	"event_phase": {
 		"name": "Event Phase",
 		"subtitle": "Downtime",

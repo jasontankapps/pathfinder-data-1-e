@@ -394,6 +394,7 @@
 		],
 		"topLink": [ "Weapon Encumbrance and Size", "rule/weapon_encumbrance" ]
 	},
+	"inappropriately_sized_weapon": { "redirect": "weapon_size" },
 	"weapon_category": { "redirect": "weapon_size" },
 	"burst": {
 		"name": "Burst",
