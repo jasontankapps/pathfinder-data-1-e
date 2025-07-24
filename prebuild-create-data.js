@@ -93,7 +93,7 @@ $.skipColors || (() => {
 	const {light, dark} = colorJSON;
 	const colors = Object.keys(light);
 	const filename = './src/components/__Bookmarks.css';
-	const prefix = `ion-icon, ion-item, ion-text ion-toggle {\n`;
+	const prefix = `ion-icon, ion-item, ion-text, ion-toggle {\n`;
 	const output =
 		`${prefix}\t${colors.map(c => `--${c}: ${light[c]}`).join(";\n\t")};\n}\n\n`
 		+`@media (prefers-color-scheme: dark) {\n\t${prefix}\t\t`
