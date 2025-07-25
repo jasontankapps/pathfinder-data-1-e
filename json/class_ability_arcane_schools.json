@@ -119,6 +119,7 @@
 			">**Shift (Su):** At 1st level, you can teleport to a nearby space as a swift action as if using {spell/dimension door}. This movement does not provoke an attack of opportunity. You must be able to see the space that you are moving into. You cannot take other creatures with you when you use this ability (except for familiars). You can move 5 feet for every two wizard levels you possess (minimum 5 feet). You can use this ability a number of times per day equal to 3 + your Intelligence modifier."
 		]
 	},
+	"conjurer": { "redirect": "conjuration" },
 	"divination": {
 		"name": "Divination",
 		"sources": [
