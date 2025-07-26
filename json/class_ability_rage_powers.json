@@ -226,7 +226,7 @@
 		"nameSuffix": "(Su)",
 		"compilationSources": [ [ "Ultimate Wilderness" ] ],
 		"description": [
-			"While the barbarian is raging, {rule/vision_and<the| light/ level} within 10 feet of her lowers by one step. She can't decrease the light level below normal darkness with this ability. Multiple barbarians with this rage power don't further reduce the light level. A barbarian must be at least 6th level to choose this rage power."
+			"While the barbarian is raging, the {rule/light level} within 10 feet of her lowers by one step. She can't decrease the light level below normal darkness with this ability. Multiple barbarians with this rage power don't further reduce the light level. A barbarian must be at least 6th level to choose this rage power."
 		]
 	},
 	"greater_eclipsing_rage": {
@@ -235,7 +235,7 @@
 		"compilationSources": [ [ "Ultimate Wilderness" ] ],
 		"level": 1,
 		"description": [
-			"Whenever the barbarian rages, {rule/vision_and<the| light/ level} within 20 feet of her lowers by two steps instead of one. She still can't decrease the light level below normal darkness with this ability. A barbarian must be at least 10th level and have the {ragepower/eclipsing rage} rage power to choose this rage power."
+			"Whenever the barbarian rages, the {rule/light level} within 20 feet of her lowers by two steps instead of one. She still can't decrease the light level below normal darkness with this ability. A barbarian must be at least 10th level and have the {ragepower/eclipsing rage} rage power to choose this rage power."
 		]
 	},
 	"eclipsing_rage_greater": { "redirect": "greater_eclipsing_rage" },

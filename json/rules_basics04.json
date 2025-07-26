@@ -885,6 +885,7 @@
 			"magic"
 		]
 	},
+	"light_level": { "redirect": "vision_and_light" },
 	"breaking_things": {
 		"name": "Breaking Things",
 		"subtitle": "Hardness, AC",

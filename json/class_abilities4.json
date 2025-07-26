@@ -585,6 +585,7 @@
 		],
 		"topLink": [ "Oracle", "class/oracle" ]
 	},
+	"mystery": { "redirect": "mysteries" },
 	"ninja_tricks": {
 		"name": "Ninja Tricks",
 		"sources": [ "Ultimate Combat" ],
