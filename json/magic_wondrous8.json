@@ -3012,16 +3012,23 @@
 			"## Aegis of Recovery",
 			"",
 			"{SOURCE Ultimate Equipment/254;Rival Guide/5}  ",
-			"**Aura** faint abjuration and conjuration; **CL** 3rd  ",
-			"**Slot** neck; **Price** 1,500 gp; **Weight** -;",
+			"**Aura** faint (normal) or moderate (greater) abjuration and conjuration; **CL** 3rd (normal), 9th (greater)  ",
+			"**Slot** neck; **Price** 1,500 gp (normal), 3,750 gp (greater); **Weight** -;",
 			"",
-			"An aegis of recovery grants its wearer a +2 resistance bonus on all saving throws made to recover from a continuing effect, such as ongoing poison damage, daily saving throws against a disease, a hold person spell, or lingering damage from an attack. This bonus does not help against initial saving throws against such effects. Should the wearer ever drop below 0 hit points, the aegis heals the wearer for 2d8+3 points of damage and then crumbles to dust.",
+			"An @HL[aegis of recovery] grants its wearer a +2 resistance bonus on all saving throws made to recover from a continuing effect, such as ongoing poison damage, daily saving throws against a disease, a hold person spell, or lingering damage from an attack. This bonus does not help against initial saving throws against such effects. Should the wearer ever drop below 0 hit points, the aegis heals the wearer for 2d8+3 points of damage and then crumbles to dust.",
+			"",
+			"A @HL[greater aegis of recovery] has a thick medallion that is typically carved with the image of bared fangs or a poisoned dagger. It functions as an aegis of recovery, except it grants the wearer a +5 resistance bonus on all saving throws to recover from a continuing effect, such as ongoing poison damage, daily saving throws against a disease, a hold person spell, or lingering damage from an attack. Should the wearer drop below 0 hit points, the greater aegis of recovery heals the wearer for 5d8+7 points of damage and then crumbles to dust.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/barkskin}, {spell/cure moderate wounds}; **Cost** 750 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/barkskin}, {spell/cure moderate wounds} (normal) or {spell/breath of life} (greater); **Cost** 750 gp (normal), 1,875 gp (greater)"
 		]
 	},
+	"aegis_of_recovery_greater": {
+		"name": "Greater Aegis of Recovery",
+		"copyof": "aegis_of_recovery"
+	},
+	"greater_aegis_of_recovery": { "redirect": "aegis_of_recovery_greater" },
 	"brooch_of_shielding": {
 		"name": "Brooch of Shielding",
 		"sources": [
@@ -3766,24 +3773,6 @@
 			"**Requirements** {feat/Craft Wondrous Item}, {spell/delusional pride}; **Cost** 1,800 gp"
 		]
 	},
-	"aegis_of_recovery_greater": {
-		"name": "Greater Aegis of Recovery",
-		"sources": [ "Potions and Poisons" ],
-		"description": [
-			"## Greater Aegis of Recovery",
-			"",
-			"{SOURCE Potions and Poisons/30}  ",
-			"**Aura** moderate abjuration and conjuration; **CL** 9th  ",
-			"**Slot** neck; **Price** 3,750 gp; **Weight** -;",
-			"",
-			"This aegis has a thick medallion that is typically carved with the image of bared fangs or a poisoned dagger. It functions as an {magic-wondrous/aegis of recovery}, except it grants the wearer a +5 resistance bonus on all saving throws to recover from a continuing effect, such as ongoing poison damage, daily saving throws against a disease, a hold person spell, or lingering damage from an attack. Should the wearer drop below 0 hit points, the greater aegis of recovery heals the wearer for 5d8+7 points of damage and then crumbles to dust.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/barkskin}, {spell/breath of life}; **Cost** 1,875 gp"
-		]
-	},
-	"greater_aegis_of_recovery": { "redirect": "aegis_of_recovery_greater" },
 	"orb_of_the_waybringer": {
 		"name": "Orb of the Waybringer",
 		"sources": [

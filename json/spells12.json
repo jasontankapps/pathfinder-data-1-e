@@ -564,8 +564,8 @@
 		"copyof": "bears_endurance"
 	},
 	"mass_bears_endurance": { "redirect": "bears_endurance_mass" },
-	"beast_shape_1": {
-		"name": "Beast Shape I",
+	"beast_shape": {
+		"name": "Beast Shape",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Mythic Adventures",
@@ -724,33 +724,37 @@
 
 		]
 	},
+	"beast_shape_1": {
+		"name": "Beast Shape I",
+		"copyof": "beast_shape"
+	},
 	"beast_shape_i": { "redirect": "beast_shape_1" },
 	"beast_shape_2": {
 		"name": "Beast Shape II",
-		"copyof": "beast_shape_1"
+		"copyof": "beast_shape"
 	},
 	"beast_shape_ii": { "redirect": "beast_shape_2" },
 	"beast_shape_3": {
 		"name": "Beast Shape III",
-		"copyof": "beast_shape_1"
+		"copyof": "beast_shape"
 	},
 	"beast_shape_iii": { "redirect": "beast_shape_3" },
 	"beast_shape_4": {
 		"name": "Beast Shape IV",
-		"copyof": "beast_shape_1"
+		"copyof": "beast_shape"
 	},
 	"beast_shape_iv": { "redirect": "beast_shape_4" },
 	"magical_beast_shape": {
 		"name": "Magical Beast Shape",
-		"copyof": "beast_shape_1"
+		"copyof": "beast_shape"
 	},
 	"share_shape": {
 		"name": "Share Shape",
-		"copyof": "beast_shape_1"
+		"copyof": "beast_shape"
 	},
 	"animal_shapes": {
 		"name": "Animal Shapes",
-		"copyof": "beast_shape_1"
+		"copyof": "beast_shape"
 	},
 	"beastspeak": {
 		"name": "Beastspeak",

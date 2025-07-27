@@ -33,7 +33,7 @@ import {
 	useIonAlert
 } from '@ionic/react';
 import Circle from '@uiw/react-color-circle';
-import getPageName from '../components/getPageName';
+import getPageName, { doesPageExist } from '../components/getPageName';
 import { goTo } from '../store/historySlice';
 import {
 	addDivider, Color, universalBookmarkDividerId, editBookmark,
@@ -59,7 +59,7 @@ interface BookmarkDividerProps extends BaseProps {
 }
 interface BookmarkItemProps extends BaseProps {
 	link: string,
-	doEdit: (title: string, position: number) => void
+	doEdit: (link: string, title: string, position: number) => void
 }
 
 const ListContext = createContext<HTMLIonListElement|null>(null);
@@ -73,20 +73,32 @@ const BookmarkItem: FC<BookmarkItemProps> = (props) => {
 	useEffect(() => {
 		findingInProgress && listElement && listElement.closeSlidingItems();
 	}, [findingInProgress, listElement]);
+	// there is a tiny chance a link may be invalid
+	const valid = doesPageExist(link);
+	const labelElement = valid ? (
+		<IonLabel onClick={() => { navigate(link); dispatch(goTo(link)); }}>{title}</IonLabel>
+	) : (
+		<IonLabel><strong>[INVALID LINK]</strong> {title}</IonLabel>
+	);
+	const renameElement = valid ? (
+		<IonItemOption color="secondary" onClick={() => doEdit(link, title, index)}>
+			<IonIcon slot="top" icon={pencil} />
+			Rename
+		</IonItemOption>
+	) : (
+		<></>
+	);
 	return (
 		<IonItemSliding disabled={findingInProgress}>
 			<IonItem detail={false} className="link">
 				<IonReorder slot="start">
 					<IonIcon icon={reorderTwo} />
 				</IonReorder>
-				<IonLabel onClick={() => { navigate(link); dispatch(goTo(link)); }}>{title}</IonLabel>
+				{labelElement}
 				<IonIcon slot="end" icon="/icons/swipe-left.svg" />
 			</IonItem>
 			<IonItemOptions side="end">
-				<IonItemOption color="secondary" onClick={() => doEdit(title, index)}>
-					<IonIcon slot="top" icon={pencil} />
-					Rename
-				</IonItemOption>
+				{renameElement}
 				<IonItemOption color="danger" onClick={() => dispatch(removeBookmark({id, position: index}))}>
 					<IonIcon slot="top" icon={trash} />
 					Delete
@@ -168,9 +180,9 @@ const KeyedBookmarkPage: FC<{id: string}> = ({id}) => {
 		);
 	}, [scrollObj]);
 
-	const doEdit = useCallback((current: string, position: number) => {
+	const doEdit = useCallback((link: string, current: string, position: number) => {
 		listElement && listElement.closeSlidingItems();
-		const base = getPageName(id);
+		const base = getPageName(link);
 		doAlert({
 			header: "Rename Bookmark",
 			inputs: [
@@ -232,7 +244,7 @@ const KeyedBookmarkPage: FC<{id: string}> = ({id}) => {
 		return contents.map((info, position) => {
 			const [link, title] = info;
 			if(title === universalBookmarkDividerId) {
-				return <BookmarkDivider color={color} index={position} title={title} id={id} key={`orderable-bookmark-${link}-in-group-${id || ""}`} />;
+				return <BookmarkDivider color={color} index={position} title={title} id={id} key={`orderable-bookmark-divider-${link}-in-group-${id || ""}`} />;
 			}
 			return <BookmarkItem id={id} link={link} index={position} title={title} doEdit={doEdit} key={`orderable-bookmark-${link}-in-group-${id || ""}`} />;
 		});

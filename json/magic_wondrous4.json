@@ -40,18 +40,25 @@
 			"## Time Bomb",
 			"",
 			"{SOURCE Ultimate Intrigue/251}  ",
-			"**Aura** faint evocation; **CL** 5th  ",
-			"**Slot** none; **Price** 1,000 gp; **Weight** 1 lb.",
+			"**Aura** faint (normal) or strong (greater) evocation; **CL** 5th (normal), 13th (greater)  ",
+			"**Slot** none; **Price** 1,000 gp (normal), 6,000 gp (greater); **Weight** 1 lb.",
 			"",
-			"A time bomb consists of an 6-inch-tall hourglass in an obsidian frame etched with tiny runes. To activate it, the user must uncap one end and place an amount of ground sulfur sand inside. The hourglass can hold as little as 1 minute's worth of sand to as much as 1 hour's worth. Once the sand is inside and the time bomb is recapped, the magic is activated. If left undisturbed, after the sand has run down, the time bomb explodes as a fireball spell dealing 5d6 points of fire damage (Reflex DC 14 half).",
+			"A @HL[time bomb] consists of an 6-inch-tall {eq-misc/hourglass} in an obsidian frame etched with tiny runes. To activate it, the user must uncap one end and place an amount of ground sulfur sand inside. The hourglass can hold as little as 1 minute's worth of sand to as much as 1 hour's worth. Once the sand is inside and the time bomb is recapped, the magic is activated. If left undisturbed, after the sand has run down, the time bomb explodes as a *fireball* spell dealing 5d6 points of fire damage (Reflex DC 14 half).",
 			"",
 			"If an activated time bomb is broken, tipped over, or otherwise disturbed before its sand drains completely and it detonates, the magic is ruined. If it is disarmed in this manner without being damaged, the item can thereafter function as a normal hourglass.",
 			"",
+			"A @HL[greater time bomb] functions as a time bomb, but deals 13d6 points of fire damage (Reflex DC 20 half).",
+			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/alarm}, {spell/fireball}; **Cost** 500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/alarm}, {spell/fireball} (normal only), {spell/delayed blast fireball} (greater only); **Cost** 500 gp (normal), 3,000 gp (greater)"
 		]
 	},
+	"time_bomb_greater": {
+		"name": "Greater Time Bomb",
+		"copyof": "time_bomb"
+	},
+	"greater_time_bomb": { "redirect": "time_bomb_greater" },
 	"unbalanced_scales": {
 		"name": "Unbalanced Scales",
 		"sources": [ "Villain Codex" ],

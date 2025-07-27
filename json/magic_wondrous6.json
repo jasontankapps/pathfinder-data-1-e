@@ -958,28 +958,6 @@
 			"**Requirements** {feat/Craft Wondrous Item}, {spell/daze monster}; **Cost** 10,000 gp"
 		]
 	},
-	"horn_of_blasting": {
-		"name": "Horn of Blasting",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook"
-		],
-		"description": [
-			"## Horn of Blasting",
-			"",
-			"{SOURCE Ultimate Equipment/302;PRPG Core Rulebook/519}  ",
-			"**Aura** moderate evocation; **CL** 7th  ",
-			"**Slot** none; **Price** 20,000 gp; **Weight** 1 lb.",
-			"",
-			"This spiraling animal horn can be sounded as a normal horn, but if the command word is spoken and the instrument is then played, it deals 5d6 points of sonic damage to creatures within a 40-foot cone and causes them to be deafened for 2d6 rounds (a DC 16 Fortitude save reduces the damage by half and negates the deafening). Crystalline objects and creatures take 7d6 points of sonic damage, with no save unless they're held, worn, or carried by creatures (Fortitude DC 16 negates).",
-			"",
-			"If a horn of blasting is used magically more than once in a given day, there is a 20% cumulative chance with each extra use that it explodes and deals 10d6 points of sonic damage to the person sounding it.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/shout}; **Cost** 10,000 gp"
-		]
-	},
 	"impossible_bottle": {
 		"name": "Impossible Bottle",
 		"sources": [ "Pathfinder #58: Island of Empty Eyes" ],
@@ -1081,28 +1059,6 @@
 			"**Requirements** {feat/Craft Wondrous Item}, {spell/banishment}; **Cost** 10,000 gp"
 		]
 	},
-	"monster_almanac_greater": {
-		"name": "Greater Monster Almanac",
-		"sources": [ "Horror Adventures" ],
-		"description": [
-			"## Greater Monster Almanac",
-			"",
-			"{SOURCE Horror Adventures/221}  ",
-			"**Aura** moderate divination; **CL** 11th  ",
-			"**Slot** none; **Price** 20,000 gp; **Weight** 4 lbs.",
-			"",
-			"The countless pages of this heavy tome bear detailed illustrations and descriptions of creatures from the Material Plane and other planes, including numerous Material Plane planets and the vast black spaces between the stars. The book looks slim when closed, but when a user turns its pages, more and more pages appear.",
-			"",
-			"The user must spend at least 10 minutes researching a particular type of monster to get any benefit from the almanac. If the user is trained in the appropriate Knowledge skill to identify the monster, she gets a +5 circumstance bonus on her skill check. She can attempt a Knowledge check to identify a creature despite being untrained in the appropriate skill (without the +5 bonus) regardless of the DC.",
-			"",
-			"If the user spends 24 hours instead of 10 minutes, she can treat the check as though she got a result of 25. This functions much like using an extensive library and doesn't require the user to be trained in the relevant Knowledge skill.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/legend lore}, {spell/major image}; **Cost** 10,000 gp"
-		]
-	},
-	"greater_monster_almanac": { "redirect": "monster_almanac_greater" },
 	"necromancers_athame": {
 		"name": "Necromancer's Athame",
 		"sources": [

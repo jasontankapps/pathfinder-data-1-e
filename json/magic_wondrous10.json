@@ -422,25 +422,33 @@
 			"**Requirements** {feat/Craft Construct}, creator must be caster level 18th, {spell/earthquake}, {spell/geas//quest}, {spell/mage's magnificent mansion}, {spell/wish}; **Cost** 35,000 gp"
 		]
 	},
-	"horn_of_blasting_greater": {
-		"name": "Horn of Blasting (Greater)",
+	"horn_of_blasting": {
+		"name": "Horn of Blasting",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
 		"description": [
-			"## Horn of Blasting (Greater)",
+			"## Horn of Blasting",
 			"",
 			"{SOURCE Ultimate Equipment/302;PRPG Core Rulebook/519}  ",
-			"**Aura** strong evocation; **CL** 16th  ",
-			"**Slot** none; **Price** 70,000 gp; **Weight** 1 lb.",
+			"**Aura** moderate (normal) or string (greater) evocation; **CL** 7th (normal), 16th (greater)  ",
+			"**Slot** none; **Price** 20,000 gp (normal), 70,000 gp (greater); **Weight** 1 lb.",
 			"",
-			"This horn functions as a horn of blasting, except that it deals 10d6 points of sonic damage, stuns creatures for 1 round, and deafens them for 4d6 rounds (a DC 19 Fortitude save reduces the damage by half and negates the stunning and deafening). Crystalline objects take 16d6 points of sonic damage as described for the horn of blasting. A greater horn of blasting also has a 20% cumulative chance of exploding for each usage beyond the first each day.",
+			"This spiraling animal horn can be sounded as a normal horn, but if the command word is spoken and the instrument is then played, it deals 5d6 points of sonic damage to creatures within a 40-foot cone and causes them to be {misc/deafened} for 2d6 rounds (a DC 16 Fortitude save reduces the damage by half and negates the deafening). Crystalline objects and creatures take 7d6 points of sonic damage, with no save unless they're held, worn, or carried by creatures (Fortitude DC 16 negates).",
+			"",
+			"If a horn of blasting is used magically more than once in a given day, there is a 20% cumulative chance with each extra use that it explodes and deals 10d6 points of sonic damage to the person sounding it.",
+			"",
+			"A @HL[greater horn of blasting] functions as a horn of blasting, except that it deals 10d6 points of sonic damage, {misc/stun/s>ned} creatures for 1 round, and deafens them for 4d6 rounds (a DC 19 Fortitude save reduces the damage by half and negates the stunning and deafening). Crystalline objects take 16d6 points of sonic damage as described for the horn of blasting. A greater horn of blasting also has a 20% cumulative chance of exploding for each usage beyond the first each day.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/greater shout}; **Cost** 35,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/shout} (normal only), {spell/greater shout} (greater only); **Cost** 10,000 gp (normal), 35,000 gp (greater)"
 		]
+	},
+	"horn_of_blasting_greater": {
+		"name": "Horn of Blasting (Greater)",
+		"copyof": "horn_of_blasting"
 	},
 	"greater_horn_of_blasting": { "redirect": "horn_of_blasting_greater" },
 	"independent_cube_of_force": {

@@ -347,16 +347,23 @@
 			"## Assassin's Sight",
 			"",
 			"{SOURCE Ranged Tactics Toolbox/28}  ",
-			"**Aura** faint divination; **CL** 5th  ",
-			"**Slot** none; **Price** 5,250 gp; **Weight** 4 lbs.",
+			"**Aura** faint (normal) or moderate (greater) divination; **CL** 5th (normal), 9th (greater)  ",
+			"**Slot** none; **Price** 5,250 gp (normal) 12,250 gp (greater); **Weight** 4 lbs. (normal), 2 lbs. (greater)",
 			"",
-			"This black telescopic sight is made of lusterless metal and features a thick glass lens. It can be mounted on the stock of a light or heavy crossbow, but not a hand crossbow. An assassin's sight allows the wielder to make ranged sneak attacks from greater distances than normal. This sight has two settings: 0-30 feet and 30-60 feet. A character using a crossbow equipped with an assassin's sight can make sneak attacks against foes within the selected range. For example, by setting the range to 30-60 feet, a character can make sneak attacks against creatures only if they are between 30 and 60 feet of the wielder; attacks against targets closer than 30 feet or farther than 60 feet would not count as sneak attacks, even if they met all the other requirements for making a sneak attack. Setting the range on an assassin's sight is a full-round action that provokes attacks of opportunity.",
+			"This black telescopic sight is made of lusterless metal and features a thick glass lens. It can be mounted on the stock of a {eq-weapon/light>_crossbow} or {eq-weapon/heavy crossbow}, but not a hand crossbow. An @HL[assassin's sight] allows the wielder to make ranged {ability/sneak attack/s} from greater distances than normal. This sight has two settings: 0-30 feet and 30-60 feet. A character using a crossbow equipped with an assassin's sight can make sneak attacks against foes within the selected range. For example, by setting the range to 30-60 feet, a character can make sneak attacks against creatures only if they are between 30 and 60 feet of the wielder; attacks against targets closer than 30 feet or farther than 60 feet would not count as sneak attacks, even if they met all the other requirements for making a sneak attack. Setting the range on an assassin's sight is a full-round action that provokes attacks of opportunity.",
+			"",
+			"A @HL[greater assassin's sight] is similar to the standard assassin's sight, but it has a noticeably sleeker design and provides its wielder greater range. It has three settings: 0-30 feet, 30-60 feet, and 60-90 feet. In addition, setting the range on a greater assassin's sight is a standard action (though it still provokes attacks of opportunity). Finally, a greater assassin's sight grants a +4 competence bonus on attack rolls to confirm critical hits within the set range",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/locate weakness}, {spell/true strike}; **Cost** 2,625 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/locate weakness}, {spell/true strike}; **Cost** 2,625 gp (normal), 6,125 gp (greater)"
 		]
 	},
+	"assassins_sight_greater": {
+		"name": "Greater Assassin's Sight",
+		"copyof": "assassins_sight"
+	},
+	"greater_assassins_sight": { "redirect": "assassins_sight_greater" },
 	"tankard_of_the_drunken_hero": {
 		"name": "Tankard of the Drunken Hero",
 		"sources": [
@@ -1366,24 +1373,6 @@
 			"**Requirements** {feat/Craft Wondrous Item}, {spell/divine favor}, the creator must be a halfling; **Cost** 3,000 gp"
 		]
 	},
-	"time_bomb_greater": {
-		"name": "Greater Time Bomb",
-		"sources": [ "Ultimate Intrigue" ],
-		"description": [
-			"## Greater Time Bomb",
-			"",
-			"{SOURCE Ultimate Intrigue/251}  ",
-			"**Aura** strong evocation; **CL** 13th  ",
-			"**Slot** none; **Price** 6,000 gp; **Weight** 1 lb.",
-			"",
-			"A greater time bomb functions as a {magic-wondrous/time bomb}, but deals 13d6 points of fire damage (Reflex DC 20 half).",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/alarm}, {spell/delayed blast fireball}; **Cost** 3,000 gp"
-		]
-	},
-	"greater_time_bomb": { "redirect": "time_bomb_greater" },
 	"ioun_memory_node_type": {
 		"name": "Ioun Memory Node",
 		"sources": [ "Pathfinder #123: The Flooded Cathedral" ],

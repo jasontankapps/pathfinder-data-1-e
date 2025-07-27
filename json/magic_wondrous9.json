@@ -1528,18 +1528,31 @@
 			"## Monster Almanac",
 			"",
 			"{SOURCE Horror Adventures/221}  ",
-			"**Aura** faint divination; **CL** 3rd  ",
-			"**Slot** none; **Price** 4,000 gp; **Weight** 1/2 lb.",
+			"**Aura** faint (normal) or moderate (greater) divination; **CL** 3rd (normal), 11th (greater)  ",
+			"**Slot** none; **Price** 4,000 gp (normal), 20,000 gp (greater); **Weight** 1/2 lb. (normal), 4 lbs. (greater)",
 			"",
 			"This sketchbook has up to 100 pages full of scribbled notes and hasty sketches about monsters. When the user focuses on a particular page, the text and pictures start moving, revealing more details about the creature.",
 			"",
-			"The user must spend 10 minutes researching a particular type of monster to get any benefit from the almanac. If the user is trained in the appropriate Knowledge skill to identify a monster, he gets a +2 circumstance bonus on his check. He can attempt a Knowledge check to identify a creature despite being untrained in the appropriate skill (but without the +2 bonus) as long as thecheck's DC is no higher than 15.",
+			"The user must spend 10 minutes researching a particular type of monster to get any benefit from the almanac. If the user is trained in the appropriate {skill/Knowledge} skill to identify a monster, he gets a +2 circumstance bonus on his check. He can attempt a Knowledge check to identify a creature despite being untrained in the appropriate skill (but without the +2 bonus) as long as thecheck's DC is no higher than 15.",
+			"",
+			"## Greater Monster Almanac",
+			"",
+			"The countless pages of this heavy tome bear detailed illustrations and descriptions of creatures from the Material Plane and other planes, including numerous Material Plane planets and the vast black spaces between the stars. The book looks slim when closed, but when a user turns its pages, more and more pages appear.",
+			"",
+			"The user must spend at least 10 minutes researching a particular type of monster to get any benefit from the almanac. If the user is trained in the appropriate Knowledge skill to identify the monster, she gets a +5 circumstance bonus on her skill check. She can attempt a Knowledge check to identify a creature despite being untrained in the appropriate skill (without the +5 bonus) regardless of the DC.",
+			"",
+			"If the user spends 24 hours instead of 10 minutes, she can treat the check as though she got a result of 25. This functions much like using an extensive library and doesn't require the user to be trained in the relevant Knowledge skill.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/augury}, {spell/silent image}; **Cost** 2,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/augury} (normal only), {spell/silent image} (normal only), {spell/legend lore} (greater only), {spell/major image} (greater only); **Cost** 2,000 gp (normal), 10,000 gp (greater)"
 		]
 	},
+	"monster_almanac_greater": {
+		"name": "Greater Monster Almanac",
+		"copyof": "monster_almanac"
+	},
+	"greater_monster_almanac": { "redirect": "monster_almanac_greater" },
 	"mutineers_bane_earring": {
 		"name": "Mutineer's Bane Earring",
 		"sources": [ "Pathfinder #59: The Price of Infamy" ],
@@ -3181,24 +3194,6 @@
 			"**Requirements** {feat/Craft Wondrous Item}, {spell/sending}; **Cost** 6,100 gp"
 		]
 	},
-	"assassins_sight_greater": {
-		"name": "Greater Assassin's Sight",
-		"sources": [ "Ranged Tactics Toolbox" ],
-		"description": [
-			"## Greater Assassin's Sight",
-			"",
-			"{SOURCE Ranged Tactics Toolbox/28}  ",
-			"**Aura** moderate divination; **CL** 9th  ",
-			"**Slot** none; **Price** 12,250 gp; **Weight** 2 lbs.",
-			"",
-			"A greater assassin's sight is similar to the standard {magic-wondrous/assassin's sight}, but it has a noticeably sleeker design and provides its wielder greater range. It has three settings: 0-30 feet, 30-60 feet, and 60-90 feet. In addition, setting the range on a greater assassin's sight is a standard action (though it still provokes attacks of opportunity). Finally, a greater assassin's sight grants a +4 competence bonus on attack rolls to confirm critical hits within the set range",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/locate weakness}, {spell/true strike}; **Cost** 6,125 gp"
-		]
-	},
-	"greater_assassins_sight": { "redirect": "assassins_sight_greater" },
 	"jungle_seekers_monocle": {
 		"name": "Jungle Seeker's Monocle",
 		"sources": [ "Merchant's Manifest" ],
