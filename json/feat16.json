@@ -504,7 +504,7 @@
 			"{SOURCE Inner Sea Magic/15}",
 			"",
 			"You blend shadow into your spells, increasing their efficacy at the price of susceptibility to light.  ",
-			"**Benefit:** When you cast a tenebrous spell in darkness or dim light, the spell's effective caster level and any associated save DCs are increased by 1. Any attempts at dispelling a tenebrous spell in darkness or dim light take a -2 penalty on the {spell/dispel} check.",
+			"**Benefit:** When you cast a tenebrous spell in darkness or {rule/dim light}, the spell's effective caster level and any associated save DCs are increased by 1. Any attempts at dispelling a tenebrous spell in darkness or dim light take a -2 penalty on the {spell/dispel} check.",
 			"",
 			"Casting a tenebrous spell in bright light is difficult, and requires a {rule/concentration} check (DC 15 + twice the tenebrous spell's effective spell level). Attempts to dispel a tenebrous spell in bright light gain a +4 bonus on the dispel check.",
 			"",
@@ -1601,7 +1601,7 @@
 			"",
 			"You highlight the path of your projectile with light, allowing your allies to better spot the target.  ",
 			"**Prerequisites:** {feat/Point-Blank Shot}, {feat/Precise Shot}.  ",
-			"**Benefit:** As a standard action, you can make a single ranged attack at your highest base attack bonus with an illuminated throwing weapon or piece of ammunition, such as a {magic-enh/flaming} {eq-weapon/shuriken} or an arrow imbued with a magical light effect. If the attack hits its target, attacks against the same target gain a +2 circumstance bonus for 1 round, so long as those attacks originate in dim light or darker areas. The target counts as being in bright light until the projectile is removed or extinguished. Removing the projectile is a move action that provokes an attack of opportunity."
+			"**Benefit:** As a standard action, you can make a single ranged attack at your highest base attack bonus with an illuminated throwing weapon or piece of ammunition, such as a {magic-enh/flaming} {eq-weapon/shuriken} or an arrow imbued with a magical light effect. If the attack hits its target, attacks against the same target gain a +2 circumstance bonus for 1 round, so long as those attacks originate in {rule/dim light} or darker areas. The target counts as being in bright light until the projectile is removed or extinguished. Removing the projectile is a move action that provokes an attack of opportunity."
 		]
 	},
 	"trade_initiative": {

@@ -56,7 +56,7 @@
 			"",
 			"You can pierce the veil between the Shadow Plane and the Material Plane more often, and to greater effect.  ",
 			"**Prerequisites:** {race/Fetchling}, shadow walk spell-like ability.  ",
-			"**Benefit:** You can expend one use of your *shadow walk* spell-like ability to use {spell/dimension door} as a spell-like ability. Your start and end locations for this ability must be in dim light or darkness."
+			"**Benefit:** You can expend one use of your *shadow walk* spell-like ability to use {spell/dimension door} as a spell-like ability. Your start and end locations for this ability must be in {rule/dim light} or darkness."
 		]
 	},
 	"shadows_embrace": {
@@ -69,7 +69,7 @@
 			"",
 			"Shadows rise and fall at your whim.  ",
 			"**Prerequisites:** Shadow illusion class feature.  ",
-			"**Benefit:** Your *shadow illusion* ability can encase you in shadows as the {spell/darkness} spell, using your {pclass/shadowdancer} level as the caster level. As a standard action, you can raise or lower the illumination level of the effect, from darkness up to normal light."
+			"**Benefit:** Your *shadow illusion* ability can encase you in shadows as the {spell/darkness} spell, using your {pclass/shadowdancer} level as the caster level. As a standard action, you can raise or lower the {rule/illumination level} of the effect, from darkness up to normal light."
 		]
 	},
 	"shadows_of_fear": {
@@ -112,7 +112,7 @@
 			"",
 			"In dim light, you resemble little more than a shadow.  ",
 			"**Prerequisites:** {race/Wayang}.  ",
-			"**Benefit:** Whenever you are in an area of dim light or darkness, you can move at full speed using Stealth without taking the normal -5 penalty for doing so.  ",
+			"**Benefit:** Whenever you are in an area of {rule/dim light} or darkness, you can move at full speed using Stealth without taking the normal -5 penalty for doing so.  ",
 			"**Normal:** When moving at more than half your speed and up to your normal speed, you take a -5 penalty on Stealth checks."
 		]
 	},

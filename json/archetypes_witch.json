@@ -808,7 +808,7 @@
 			"",
 			"**{patron/Plague}-Diseased Touch (Ex):** Once per day, the familiar can inflict {disease/filth fever} with its natural attacks for 1 round. At 10th level, the familiar can inflict {disease/red ache} instead. At 20th level, it can inflict {disease/demon fever} instead. The familiar may be able to inflict other injury diseases instead at the GM's discretion.",
 			"",
-			"**{patron/Shadow}-Fearsome Shadows (Sp):** Once per day, the familiar can use {spell/cause fear} as a spell-like ability as long as it is in an area of normal or dim light, affecting a single living creature with a number of Hit Dice up to the familiar's Intelligence score. Thus, creatures normally immune to cause fear because they have 6 or more Hit Dice may not be immune to the familiar's cause fear spell-like ability.",
+			"**{patron/Shadow}-Fearsome Shadows (Sp):** Once per day, the familiar can use {spell/cause fear} as a spell-like ability as long as it is in an area of normal or {rule/dim light}, affecting a single living creature with a number of Hit Dice up to the familiar's Intelligence score. Thus, creatures normally immune to cause fear because they have 6 or more Hit Dice may not be immune to the familiar's cause fear spell-like ability.",
 			"",
 			"**{patron/Strength}-Strength of Mind (Su):** A number of times per day equal to its master's Intelligence modifier (minimum once per day), the familiar can swap its Strength and Intelligence scores as a standard action. This effect lasts for a number of rounds equal to 1/2 the master's caster level.",
 			"",

@@ -2184,6 +2184,7 @@
 			}
 		]
 	},
+	"equipment_siege_engines": { "redirect": "equipment_siegeengines" },
 	"equipment_clothing": {
 		"title": "Clothing",
 		"description": [

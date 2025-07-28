@@ -1131,7 +1131,7 @@
 			"**Price** 25 gp; **Weight** 1 lb.  ",
 			"**Category** Alchemical Tools",
 			"",
-			"This variant {eq-misc/sunrod} was developed by {race/fetchling} {class/alchemist/s}. When twisted as a standard action, a gloomstick begins drawing in light from the surrounding area, reducing the light level by one step (to a minimum of dim light) in a 20-foot radius. A gloomstick remains active for 1 minute before crumbling to dust.",
+			"This variant {eq-misc/sunrod} was developed by {race/fetchling} {class/alchemist/s}. When twisted as a standard action, a gloomstick begins drawing in light from the surrounding area, reducing the {rule/light level} by one step (to a minimum of dim light) in a 20-foot radius. A gloomstick remains active for 1 minute before crumbling to dust.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 25"
 		]
@@ -2233,7 +2233,7 @@
 			"**Price** 7 gp (normal), 12 gp (waterproof); **Weight** 2 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
-			"A hooded lantern sheds normal light in a 30-foot radius and increases the light level by one step for an additional 30 feet beyond that area (darkness becomes dim light and dim light becomes normal light). A hooded lantern does not increase the light level in normal light or bright light. A lantern burns for 6 hours on 1 pint of oil. You can carry a lantern in one hand.",
+			"A hooded lantern sheds normal light in a 30-foot radius and increases the {rule/light level} by one step for an additional 30 feet beyond that area (darkness becomes dim light and dim light becomes normal light). A hooded lantern does not increase the light level in normal light or bright light. A lantern burns for 6 hours on 1 pint of oil. You can carry a lantern in one hand.",
 			"",
 			"**Waterproof Lantern:** Meant to shelter its flame from both water and wind, this lantern treats severe winds as strong winds, windstorms as severe winds, and hurricanes as windstorms for the purpose of determining whether they extinguish its flame. It holds enough air to burn underwater for 5 rounds before going dark."
 		]
@@ -3330,7 +3330,7 @@
 			"**Price** 1 sp; **Weight** 1 lb.  ",
 			"**Category** Adventuring Gear",
 			"",
-			"A common lamp illuminates a small area, providing normal light in a 15-foot radius and increasing the light level by one step for an additional 15 feet beyond that area (darkness becomes dim light and dim light becomes normal light). A lamp does not increase the light level in normal light or bright light. A lamp burns for 6 hours on 1 pint of {eq-misc/oil}. You can carry a lamp in one hand."
+			"A common lamp illuminates a small area, providing normal light in a 15-foot radius and increasing the {rule/light level} by one step for an additional 15 feet beyond that area (darkness becomes dim light and dim light becomes normal light). A lamp does not increase the light level in normal light or bright light. A lamp burns for 6 hours on 1 pint of {eq-misc/oil}. You can carry a lamp in one hand."
 		]
 	},
 	"land_limbs": {
@@ -3495,7 +3495,7 @@
 			"**Price** 1 gp; **Weight** -  ",
 			"**Category** Alchemical Tools",
 			"",
-			"This hand-sized metal plate is covered with a thin layer of light-sensitive transparent paste. If exposed to light, the paste darkens and becomes opaque, depending on the amount of light. Bright light causes it to fully darken in 1 round, normal light in 3 rounds, and dim light in 10 rounds. It is mainly used by creatures with darkvision to determine whether creatures carrying light have recently passed through an area. The plate is sold wrapped in a thick black cloth to prevent accidental light exposure from ruining the plate.",
+			"This hand-sized metal plate is covered with a thin layer of light-sensitive transparent paste. If exposed to light, the paste darkens and becomes opaque, depending on the amount of light. Bright light causes it to fully darken in 1 round, normal light in 3 rounds, and {rule/dim light} in 10 rounds. It is mainly used by creatures with darkvision to determine whether creatures carrying light have recently passed through an area. The plate is sold wrapped in a thick black cloth to prevent accidental light exposure from ruining the plate.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 10"
 		]
@@ -4810,7 +4810,7 @@
 			"**Price** 15 gp (normal), 20 gp (waterproof); **Weight** 2 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
-			"A smaller version of the {eq-misc/bullseye lantern}, a miner's lantern provides normal light in a 30-foot cone and increases the light level by one step in the area beyond that, out to a 60-foot cone (darkness becomes dim light and dim light becomes normal light). A miner's lantern does not increase the light level in normal light or bright light. It burns for 6 hours on 1 pint of {eq-misc/oil}. A miner's lantern comes with straps for attachment to a helmet or other piece of sturdy headgear, but it can also be carried in one hand.",
+			"A smaller version of the {eq-misc/bullseye lantern}, a miner's lantern provides normal light in a 30-foot cone and increases the {rule/light level} by one step in the area beyond that, out to a 60-foot cone (darkness becomes dim light and dim light becomes normal light). A miner's lantern does not increase the light level in normal light or bright light. It burns for 6 hours on 1 pint of {eq-misc/oil}. A miner's lantern comes with straps for attachment to a helmet or other piece of sturdy headgear, but it can also be carried in one hand.",
 			"",
 			"**Waterproof Lantern:** Meant to shelter its flame from both water and wind, this lantern treats severe winds as strong winds, windstorms as severe winds, and hurricanes as windstorms for the purpose of determining whether they extinguish its flame. It holds enough air to burn underwater for 5 rounds before going dark."
 		]

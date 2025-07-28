@@ -886,6 +886,8 @@
 		]
 	},
 	"light_level": { "redirect": "vision_and_light" },
+	"illumination_level": { "redirect": "vision_and_light" },
+	"dim_light": { "redirect": "vision_and_light" },
 	"breaking_things": {
 		"name": "Breaking Things",
 		"subtitle": "Hardness, AC",

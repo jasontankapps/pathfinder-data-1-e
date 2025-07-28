@@ -3182,7 +3182,7 @@
 			"**Aura** strong evocation; **CL** 12th  ",
 			"**Slot** ring; **Price** 50,000 gp; **Weight** -",
 			"",
-			"This ring has two modes of operation: one for when the wearer is in dim light or outdoors at night, and a second one when the wearer is underground or indoors at night. At night or in areas of shadow or darkness, the ring of shooting stars can perform the following functions on command.",
+			"This ring has two modes of operation: one for when the wearer is in {rule/dim light} or outdoors at night, and a second one when the wearer is underground or indoors at night. At night or in areas of shadow or darkness, the ring of shooting stars can perform the following functions on command.",
 			"",
 			"- {spell/Dancing lights} (once per hour)",
 			"- *Light* (twice per night)",

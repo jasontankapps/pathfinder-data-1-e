@@ -620,7 +620,7 @@
 			"",
 			"**Replacement Power:** The following granted power replaces the touch of darkness power of the Darkness domain.",
 			"",
-			">**Night Hunter (Su):** As a standard action, you can blend into the shadows of the night, becoming nearly invisible. As long as you are in an area of dim light or darkness, you are invisible (as per {spell/invisibility}) to creatures without darkvision. This ability lasts for a number of rounds equal to 1/2 your cleric level (minimum 1). You can use this ability for a number of times per day equal to 3 + your Wisdom modifier.",
+			">**Night Hunter (Su):** As a standard action, you can blend into the shadows of the night, becoming nearly invisible. As long as you are in an area of {rule/dim light} or darkness, you are invisible (as per {spell/invisibility}) to creatures without darkvision. This ability lasts for a number of rounds equal to 1/2 your cleric level (minimum 1). You can use this ability for a number of times per day equal to 3 + your Wisdom modifier.",
 			"",
 			"**Replacement Domain Spells:** 1st-{spell/sleep}, 6th-{spell/nightmare}.",
 			"",

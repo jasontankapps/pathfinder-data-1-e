@@ -778,7 +778,7 @@
 			"",
 			"Your summoned minions slink along under the shadows of the stars.  ",
 			"**Prerequisites:** {feat/Spell Focus} (conjuration), able to cast {spell/summon nature's ally}.  ",
-			"**Benefit:** Creatures you summon gain the {feat/Blind-Fight} feat, a +5 bonus to Perception and Stealth checks in dim light or darkness, and their natural weapons are treated as cold iron for overcoming damage reduction."
+			"**Benefit:** Creatures you summon gain the {feat/Blind-Fight} feat, a +5 bonus to Perception and Stealth checks in {rule/dim light} or darkness, and their natural weapons are treated as cold iron for overcoming damage reduction."
 		]
 	},
 	"starry_grace": {

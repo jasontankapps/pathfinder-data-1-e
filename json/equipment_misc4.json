@@ -846,7 +846,7 @@
 			"**Price** 5 gp; **Weight** -  ",
 			"**Category** Alchemical Tools",
 			"",
-			"This unique, salty alchemical powder is crafted in Darklands communities where fresh water is either scarce or guarded by dangerous predators. Consuming 1 dose allows you to go without water for 3 days instead of 1, in growing discomfort but without any negative effects. After this time, you must attempt a Constitution check once every 6 hours instead of once per hour to avoid taking nonlethal damage. One dose of drought powder functions for 1 week, after which penalties for {rule/starvation_and_<thirst} accrue at their normal pace."
+			"This unique, salty alchemical powder is crafted in Darklands communities where fresh water is either scarce or guarded by dangerous predators. Consuming 1 dose allows you to go without water for 3 days instead of 1, in growing discomfort but without any negative effects. After this time, you must attempt a Constitution check once every 6 hours instead of once per hour to avoid taking nonlethal damage. One dose of drought powder functions for 1 week, after which penalties for {rule/thirst} accrue at their normal pace."
 		]
 	},
 	"drowners_helm": {
@@ -928,7 +928,7 @@
 			"**Price** 35 gp (normal), 40 gp (waterproof); **Weight** 4 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
-			"This specialized {eq-misc/bullseye lantern} has a ruby lens that covers the original lens, providing a deep crimson hue to the lantern's light, allowing for more stealth when used in areas of darkness. This special lens can be set in place or removed as a swift action. While the ruby lens is in place, the lantern only provides dim light in a 60-foot cone. A dusk lantern's red light is imperceptible to creatures relying on darkvision as their sole form of sight.",
+			"This specialized {eq-misc/bullseye lantern} has a ruby lens that covers the original lens, providing a deep crimson hue to the lantern's light, allowing for more stealth when used in areas of darkness. This special lens can be set in place or removed as a swift action. While the ruby lens is in place, the lantern only provides {rule/dim light} in a 60-foot cone. A dusk lantern's red light is imperceptible to creatures relying on darkvision as their sole form of sight.",
 			"",
 			"**Waterproof Lantern:** Meant to shelter its flame from both water and wind, this lantern treats severe winds as strong winds, windstorms as severe winds, and hurricanes as windstorms for the purpose of determining whether they extinguish its flame. It holds enough air to burn underwater for 5 rounds before going dark."
 		]
@@ -1712,7 +1712,7 @@
 			"**Price** 10 gp; **Weight** 1 lb.  ",
 			"**Category** Alchemical Tools",
 			"",
-			"This 1-foot-long, silver-tipped tin rod glows dimly when struck as a standard action. It sheds dim light in a 30-foot radius. However, the light given off by a moonrod is particularly easily to perceive for creatures with low-light vision. For such creatures, a moonrod increases the light level by one step (to a maximum of normal) for a 60-foot radius. It glows for 6 hours, after which the silver tip is burned out and worthless.",
+			"This 1-foot-long, silver-tipped tin rod glows dimly when struck as a standard action. It sheds dim light in a 30-foot radius. However, the light given off by a moonrod is particularly easily to perceive for creatures with low-light vision. For such creatures, a moonrod increases the {rule/light level} by one step (to a maximum of normal) for a 60-foot radius. It glows for 6 hours, after which the silver tip is burned out and worthless.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 25"
 		]

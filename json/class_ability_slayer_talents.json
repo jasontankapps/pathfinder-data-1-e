@@ -300,7 +300,7 @@
 		"compilationSources": [ [ "Advanced Class Guide", 54 ] ],
 		"category": "Other Talents",
 		"description": [
-			"The slayer gains Disable Device as a class skill. The slayer also gains the trapfinding and {ability/trap sense} {class/rogue} abilities, using his slayer level as his effective rogue level."
+			"The slayer gains Disable Device as a class skill. The slayer also gains the {ability/trapfinding} and {ability/trap sense} {class/rogue} abilities, using his slayer level as his effective rogue level."
 		]
 	},
 	"unbalancing_trick": {

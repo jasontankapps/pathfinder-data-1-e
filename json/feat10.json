@@ -1547,7 +1547,7 @@
 			"",
 			"@HL[Convincing Halo] (Knowledge [religion] 3 ranks): When you cast *daylight* on a piece of headgear, you can make it appear as a halo. This grants the creature wearing the headgear a +2 circumstance bonus on Diplomacy and Bluff checks against good outsiders.",
 			"",
-			"@HL[Pin Sunlight] ({feat/Precise Shot}): When you cast *daylight* on a piece of ammunition or thrown weapon, you can cause the spell to transfer to the target of a successful ranged attack with that piece of ammunition or thrown weapon, causing the creature to radiate light from its body. If the creature succeeds at a Will save against your *daylight* spell DC, it instead glows with dim light in a 5-foot radius for 1 minute.",
+			"@HL[Pin Sunlight] ({feat/Precise Shot}): When you cast *daylight* on a piece of ammunition or thrown weapon, you can cause the spell to transfer to the target of a successful ranged attack with that piece of ammunition or thrown weapon, causing the creature to radiate light from its body. If the creature succeeds at a Will save against your *daylight* spell DC, it instead glows with {rule/dim light} in a 5-foot radius for 1 minute.",
 			"",
 			"@HL[Vessel of Light] (no additional prerequisites): When you cast *daylight* on a torch, lantern, or other tool used to produce mundane light, you increase the duration of your spell to 1 hour per level.",
 			"",

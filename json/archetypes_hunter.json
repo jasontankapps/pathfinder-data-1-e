@@ -431,7 +431,7 @@
 			">The creature's attacks ignore the first 5 points of hardness. This improves to ignore the first 7 points of hardness at 8th level and the first 10 points of hardness at 15th level.",
 			">",
 			">**Deep One:**  ",
-			">The creature reduces [pressure damage](rule/water_dangers) it takes by 10. At 12th level, the creature is immune to damage from changing pressure.",
+			">The creature reduces {rule/pressure damage} it takes by 10. At 12th level, the creature is immune to damage from changing pressure.",
 			">",
 			">**Hippocampus:**  ",
 			">The creature gains a +4 competence bonus on Swim checks. This bonus increases to +6 at 8th level and +8 at 15th level.",

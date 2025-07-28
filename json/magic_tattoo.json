@@ -272,7 +272,7 @@
 			"**Aura** faint evocation; **CL** 3rd  ",
 			"**Slot** none; **Price** 24,000 gp; **Weight** -",
 			"",
-			"This ritualistic scar is infused with shadowstuff that shifts and writhes within the bearer's skin. Whenever the bearer is exposed to illumination brighter than dim light, the tattoo emits a vapor, shrouding the bearer in a dusky haze that provides the benefits of *protective penumbra.*",
+			"This ritualistic scar is infused with shadowstuff that shifts and writhes within the bearer's skin. Whenever the bearer is exposed to illumination brighter than {rule/dim light}, the tattoo emits a vapor, shrouding the bearer in a dusky haze that provides the benefits of *protective penumbra.*",
 			"",
 			"### Construction",
 			"",

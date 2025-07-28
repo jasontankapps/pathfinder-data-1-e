@@ -2716,6 +2716,10 @@
 			"water_dangers"
 		]
 	},
+	"starvation": { "redirect": "starvation_and_thirst" },
+	"starve": { "redirect": "starvation_and_thirst" },
+	"starving": { "redirect": "starvation_and_thirst" },
+	"thirst": { "redirect": "starvation_and_thirst" },
 	"suffocation": {
 		"name": "Suffocation",
 		"subtitle": "Environmental Rules",
@@ -2778,6 +2782,7 @@
 			"water_dangers"
 		]
 	},
+	"pressure_damage": { "redirect": "water_dangers" },
 	"drowning": {
 		"name": "Drowning",
 		"subtitle": "Environmental Rules",

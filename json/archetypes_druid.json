@@ -108,7 +108,7 @@
 			"",
 			"**Seaborn (Ex):** At 9th level, an aquatic druid gains the {subtype/aquatic} subtype, the {umr/amphibious} trait, and a swim speed equal to her land speed. She also can endure cold climate effects as if using {spell/endure elements}. This ability replaces venom immunity.",
 			"",
-			"**Deep Diver (Ex):** At 13th level, an aquatic druid gains DR/slashing or piercing equal to 1/2 her level. This damage reduction also applies against spells and spell-like abilities that inflict damage by grappling or crushing (e.g., {spell/black tentacles}, {spell/crushing hand}). She never takes [pressure damage](rule/water_dangers) from deep water. This ability replaces a thousand faces."
+			"**Deep Diver (Ex):** At 13th level, an aquatic druid gains DR/slashing or piercing equal to 1/2 her level. This damage reduction also applies against spells and spell-like abilities that inflict damage by grappling or crushing (e.g., {spell/black tentacles}, {spell/crushing hand}). She never takes {rule/pressure damage} from deep water. This ability replaces a thousand faces."
 		]
 	},
 	"arctic_druid": {

@@ -202,7 +202,7 @@
 			">",
 			">@HL[Lantern Bomb;] *({feat/Quick Draw}):* You can throw a lamp or lantern with at least 4 hours of oil remaining in it as a splash weapon, using the rules for {eq-weapon/alchemist's fire}.",
 			">",
-			">@HL[Lesser Light;] *(no additional prerequisites):* When lighting a lamp or lantern, you reduce the size of its flame to provide only dim light in the area in which the lantern usually provides normal light. The lamp or lantern uses oil at half the usual rate. The lamp or lantern must be extinguished and re-lit to shed light normally.",
+			">@HL[Lesser Light;] *(no additional prerequisites):* When lighting a lamp or lantern, you reduce the size of its flame to provide only {rule/dim light} in the area in which the lantern usually provides normal light. The lamp or lantern uses oil at half the usual rate. The lamp or lantern must be extinguished and re-lit to shed light normally.",
 			">",
 			">@HL[Oil Splash;] *({feat/Improved Dirty Trick}):* You can attempt a {rule/dirty trick} combat maneuver against an opponent while either you or the opponent is holding a lamp or lantern. If you succeed at this combat maneuver check, you can knock some oil from the lamp or lantern into your target's face. Your target is {misc/blinded} as normal by the dirty trick and takes 1 point of fire damage each round the blindness lasts."
 		]
@@ -412,7 +412,7 @@
 			">",
 			">@HL[Lure;] *(Handle Animal 5 ranks):* As a move action while holding a lit sunrod in your hand, you can attempt to move an animal in any direction you desire. Make a Handle Animal check against a DC of 15 + the target animal's CR. If you are successful, the animal moves 5 feet in the desired direction on its next turn. For every 5 points by which your check exceeds the DC, the animal moves another 5 feet, up to the animal's maximum speed. This movement provokes attacks of opportunity as normal, though if one is taken, the animal immediately stops moving (whether or not the attack hits). You cannot move an animal into an obvious hazard with this trick, but you can (for example) lure it into an open cage.",
 			">",
-			">@HL[Twice as Brightly;] *(Craft [alchemy] 5 ranks):* As full-round action, you can tamper with an unused sunrod such that it burns out in a single hour, but shines much more brightly. It sheds bright light in a 30-foot radius and increases the light level by two steps for an additional 30 feet beyond that area (darkness becomes normal light, and dim light or normal light becomes bright light). It does not increase the light level in bright light."
+			">@HL[Twice as Brightly;] *(Craft [alchemy] 5 ranks):* As full-round action, you can tamper with an unused sunrod such that it burns out in a single hour, but shines much more brightly. It sheds bright light in a 30-foot radius and increases the {rule/light level} by two steps for an additional 30 feet beyond that area (darkness becomes normal light, and dim light or normal light becomes bright light). It does not increase the light level in bright light."
 		]
 	},
 	"equipment_trick_tanglefoot_bag": {
@@ -2520,7 +2520,7 @@
 			"",
 			"Your eyes have grown accustomed to the half-light of dusk and dawn.  ",
 			"**Prerequisites:** {feat/Sharp Senses}, Perception 7 ranks, keen senses racial trait, low-light vision.  ",
-			"**Benefit:** Creatures within an area of dim light don't gain {rule/concealment} from you. You're still effectively {misc/blinded} in an area of darkness.  ",
+			"**Benefit:** Creatures within an area of {rule/dim light} don't gain {rule/concealment} from you. You're still effectively {misc/blinded} in an area of darkness.  ",
 			"**Normal:** Creatures within an area of dim light gain concealment (20% miss chance in combat) from those without darkvision or the ability to see in darkness."
 		]
 	},

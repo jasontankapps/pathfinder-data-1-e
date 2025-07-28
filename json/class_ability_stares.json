@@ -128,7 +128,7 @@
 		"name": "Restriction",
 		"compilationSources": [ [ "Occult Realms", 16 ] ],
 		"description": [
-			"The target of the hypnotic stare treats all areas of dim light or darker as {rule/difficult terrain}."
+			"The target of the hypnotic stare treats all areas of {rule/dim light} or darker as {rule/difficult terrain}."
 		]
 	},
 	"sabotage": {

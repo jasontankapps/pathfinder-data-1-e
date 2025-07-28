@@ -2471,7 +2471,7 @@
 			"",
 			"**Tiger Cloves:** Cloves are used in both sweet and savory foods, brewed into teas, and chewed as a breath freshener. When chewed for 1 minute, a dose of tiger cloves removes nauseated or sickened conditions caused by disease or poison effects. When used to season a meal, a dose of tiger cloves grants a +2 alchemical bonus on saving throws to resist the nauseated or sickened conditions for 24 hours after the meal is eaten. A single dose of tiger cloves sells for 25 gp and seasons one meal.",
 			"",
-			"**Violet Salt:** Salt is of vital importance for retaining a body's water. If a dose of Qadiran violet salt is consumed as part of a meal, it grants a +4 alchemical bonus on Constitution checks to resist the effects of ongoing {rule/starvation_and_<thirst} for the next 24 hours. A dose of violet salt sells for 5 gp and seasons one meal."
+			"**Violet Salt:** Salt is of vital importance for retaining a body's water. If a dose of Qadiran violet salt is consumed as part of a meal, it grants a +4 alchemical bonus on Constitution checks to resist the effects of ongoing {rule/thirst} for the next 24 hours. A dose of violet salt sells for 5 gp and seasons one meal."
 		]
 	},
 	"flaming_sumac": {
@@ -3343,7 +3343,7 @@
 			"**Price** 12 gp (normal), 17 gp (waterproof); **Weight** 3 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
-			"A bullseye lantern provides normal light in a 60-foot cone and increases the light level by one step in the area beyond that, out to a 120-foot cone (darkness becomes dim light and dim light becomes normal light). A bullseye lantern does not increase the light level in normal light or bright light. A lantern burns for 6 hours on 1 pint of {eq-misc/oil}. You can carry a lantern in one hand.",
+			"A bullseye lantern provides normal light in a 60-foot cone and increases the {rule/light level} by one step in the area beyond that, out to a 120-foot cone (darkness becomes dim light and dim light becomes normal light). A bullseye lantern does not increase the light level in normal light or bright light. A lantern burns for 6 hours on 1 pint of {eq-misc/oil}. You can carry a lantern in one hand.",
 			"",
 			"**Waterproof Lantern:** Meant to shelter its flame from both water and wind, this lantern treats severe winds as strong winds, windstorms as severe winds, and hurricanes as windstorms for the purpose of determining whether they extinguish its flame. It holds enough air to burn underwater for 5 rounds before going dark."
 		]
@@ -3718,7 +3718,7 @@
 			"**Price** 1 cp; **Weight** -  ",
 			"**Category** Adventuring Gear",
 			"",
-			"A candle dimly illuminates a small area, increasing the light level in a 5-foot radius by one step (darkness becomes dim light and dim light becomes normal light). A candle cannot increase the light level above normal light. A candle burns for 1 hour."
+			"A candle dimly illuminates a small area, increasing the {rule/light level} in a 5-foot radius by one step (darkness becomes dim light and dim light becomes normal light). A candle cannot increase the light level above normal light. A candle burns for 1 hour."
 		]
 	},
 	"candles": { "redirect": "candle" },
@@ -3868,7 +3868,7 @@
 			"**Price** 25 gp; **Weight** 1/2 lb.  ",
 			"**Category** Alchemical Tools",
 			"",
-			"This small leather pouch is filled with a faintly radioactive ore called {eq-material/caphorite}, with a small percentage of reactants that activate the dust. When used, caphorite dust must be sprinkled in a 5-foot square, which then becomes the center of the dust's effect. All bright or normal light within 30 feet of the activated dust is reduced to dim light, and any creature attempting to cast a spell with the light descriptor in this area must succeed at a DC 15 caster level check or have spell's effect be negated. If caphorite is exposed to sunlight, it immediately becomes permanently inert. Each pouch contains enough dust for two applications. Crafting this item requires a successful DC 25 Craft (alchemy) check.",
+			"This small leather pouch is filled with a faintly radioactive ore called {eq-material/caphorite}, with a small percentage of reactants that activate the dust. When used, caphorite dust must be sprinkled in a 5-foot square, which then becomes the center of the dust's effect. All bright or normal light within 30 feet of the activated dust is reduced to {rule/dim light}, and any creature attempting to cast a spell with the light descriptor in this area must succeed at a DC 15 caster level check or have spell's effect be negated. If caphorite is exposed to sunlight, it immediately becomes permanently inert. Each pouch contains enough dust for two applications. Crafting this item requires a successful DC 25 Craft (alchemy) check.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 25"
 		]
@@ -4462,7 +4462,7 @@
 			"**Price** 15 gp; **Weight** 1 lb.  ",
 			"**Category** Alchemical Tools",
 			"",
-			"This sticky light blue paste grows pleasantly cool to the touch whenever it is exposed to light. Spreading a dose on your face and hands takes a full-round action and grants you a +2 alchemical bonus on saves to resist [hot weather](rule/heat_dangers). In areas of bright light this bonus increases to +4, while in areas of dim light or darkness it is negated. A dose of chill cream lasts for 1 hour after being applied. A newly crafted bottle of chill cream holds 5 doses.",
+			"This sticky light blue paste grows pleasantly cool to the touch whenever it is exposed to light. Spreading a dose on your face and hands takes a full-round action and grants you a +2 alchemical bonus on saves to resist [hot weather](rule/heat_dangers). In areas of bright light this bonus increases to +4, while in areas of {rule/dim light} or darkness it is negated. A dose of chill cream lasts for 1 hour after being applied. A newly crafted bottle of chill cream holds 5 doses.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 15"
 		]

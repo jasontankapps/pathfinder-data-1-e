@@ -1556,7 +1556,7 @@
 			"",
 			"You excel at hunting humans in the dead of night and murdering them quietly.  ",
 			"**Prerequisites:** {feat/Skill Focus} (Stealth), darkvision, {template/half-ogre} or {monster/ogre}, size Large or larger.  ",
-			"**Benefit:** While in areas of dim lighting or natural darkness, you ignore all size penalties on Stealth checks and gain a +2 bonus on attack rolls against flat-footed enemies."
+			"**Benefit:** While in areas of {rule/dim light/ing} or natural darkness, you ignore all size penalties on Stealth checks and gain a +2 bonus on attack rolls against flat-footed enemies."
 		]
 	},
 	"nightmare_chains": {
@@ -1788,7 +1788,7 @@
 			">",
 			">@HL[Scion of Kyonin:] You use your Dexterity modifier instead of your Charisma modifier for the purpose of the Leadership feat.",
 			">",
-			">@HL[Scion of Nidal:] You gain low-light vision. If you already have low-light vision, you instead gain a +2 bonus on Perception checks in areas of dim light.",
+			">@HL[Scion of Nidal:] You gain low-light vision. If you already have low-light vision, you instead gain a +2 bonus on Perception checks in areas of {rule/dim light}.",
 			">",
 			">@HL[Scion of Numeria:] You gain a +1 bonus on skill checks when interacting with technology and a +2 bonus on damage rolls against creatures of the robot subtype.",
 			">",
@@ -2553,7 +2553,7 @@
 			"",
 			"You and your allies use the sun's glare to your advantage.  ",
 			"**Prerequisites:** Bluff 3 ranks, Stealth 3 ranks.  ",
-			"**Benefit:** When you hit with a melee attack, you can attempt a {skill/Bluff} check as a move action to feint. You do not gain the benefits of this {rule/feint}; instead, if you succeed at your Bluff check, an ally with this feat who is adjacent to you or your opponent gains the benefits, such that the opponent is denied its Dexterity bonus to AC (if any) against your ally's next melee attack against that opponent. This attack must be made before the end of your ally's next turn. You gain a +2 circumstance bonus on your Bluff check in bright light. This bonus increases to +4 in natural sunlight. You cannot use this feat in dim light or darkness.  ",
+			"**Benefit:** When you hit with a melee attack, you can attempt a {skill/Bluff} check as a move action to feint. You do not gain the benefits of this {rule/feint}; instead, if you succeed at your Bluff check, an ally with this feat who is adjacent to you or your opponent gains the benefits, such that the opponent is denied its Dexterity bonus to AC (if any) against your ally's next melee attack against that opponent. This attack must be made before the end of your ally's next turn. You gain a +2 circumstance bonus on your Bluff check in bright light. This bonus increases to +4 in natural sunlight. You cannot use this feat in {rule/dim light} or darkness.  ",
 			"**Special:** If you have the {feat/Improved Feint} feat, you can feint with Out of the Sun as a swift action after you hit with a melee attack."
 		]
 	},

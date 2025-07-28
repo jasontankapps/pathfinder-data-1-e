@@ -614,9 +614,9 @@
 			"",
 			"### Adapting to Aquatic Adventures",
 			"",
-			"The rules presented in the Pathfinder RPG Core Rulebook for [underwater combat](rule/fighting_underwater) apply to creatures not native to this dangerous environment, such as most PCs. For extended aquatic adventures or for particularly deep explorations, PCs will doubtless need to use magic to continue their adventures. {spell/Water breathing} is of obvious use, while {spell/endure elements} can help with temperature. [Pressure damage](rule/water_dangers) can be avoided entirely with effects such as {spell/freedom of movement}. Polymorph spells are perhaps the most useful in water, though, if the form assumed is aquatic in nature.",
+			"The rules presented in the Pathfinder RPG Core Rulebook for [underwater combat](rule/fighting_underwater) apply to creatures not native to this dangerous environment, such as most PCs. For extended aquatic adventures or for particularly deep explorations, PCs will doubtless need to use magic to continue their adventures. {spell/Water breathing} is of obvious use, while {spell/endure elements} can help with temperature. {rule/Pressure damage} can be avoided entirely with effects such as {spell/freedom of movement}. Polymorph spells are perhaps the most useful in water, though, if the form assumed is aquatic in nature.",
 			"",
-			"@HL[Natural Adaptation:] Any creature that has the aquatic subtype can breathe water easily and is unaffected by water temperature extremes that are found in that creature's typical environment. Aquatic creatures and creatures with the {umr/hold breath} ability are much more resistant to [pressure damage](rule/water_dangers); they do not suffer damage from pressure unless they are moved instantaneously from one depth to another in the blink of an eye (in which case they adapt to the pressure change after successfully making five successive Fortitude saves against the pressure effects).",
+			"@HL[Natural Adaptation:] Any creature that has the aquatic subtype can breathe water easily and is unaffected by water temperature extremes that are found in that creature's typical environment. Aquatic creatures and creatures with the {umr/hold breath} ability are much more resistant to {rule/pressure damage}; they do not suffer damage from pressure unless they are moved instantaneously from one depth to another in the blink of an eye (in which case they adapt to the pressure change after successfully making five successive Fortitude saves against the pressure effects).",
 			"",
 			"**Also see:** the sourcebook [Aquatic Adventures](rule/aquatic_adventures_aa)."
 		],
@@ -1312,7 +1312,7 @@
 			"",
 			"Deserts are defined not by climate, but rather by the amount of rainfall a region receives; they can be cold, temperate, or hot. They exist in weather shadows, blocked from ordinary precipitation patterns. Desert vegetation is tough and sparse, able to store water for long periods, which means in turn that the soil in a desert is loose and barren, if not entirely rocky. Desert animals tend to be smaller insects, arachnids, mammals, and lizards, with some predatory birds. Venomous creatures are common. In hot deserts, the days are scorching; but at night the heat dissipates quickly, and those who don't have proper cover or clothing can suffer from exposure.",
 			"",
-			"{rule/Desert terrain/ is described here,} but encounters in the desert might also include exposure to either severe {rule/heat} or {rule/cold}; {rule/storms}, whether blizzards, sandstorms, or thunderstorms, which can lead to flash {rule/floods} in the higher deserts in particular; and {rule/starvation_and_<thirst}, when water stores eventually vanish."
+			"{rule/Desert terrain/ is described here,} but encounters in the desert might also include exposure to either severe {rule/heat} or {rule/cold}; {rule/storms}, whether blizzards, sandstorms, or thunderstorms, which can lead to flash {rule/floods} in the higher deserts in particular; and {rule/thirst}, when water stores eventually vanish."
 		],
 		"parent_topics": [
 			"gamemastery",

@@ -45,7 +45,7 @@
 			"{SOURCE Potions and Poisons/27}  ",
 			"**Type** inhaled; **Addiction** minor, Fortitude DC 15  ",
 			"**Price** 15 gp  ",
-			"**Effect** 1d4&times;10 minutes; the user gains the benefits of a constant {spell/detect magic} effect, but she treats illumination in the area as dim light; areas of dim light and darkness are treated as darkness  ",
+			"**Effect** 1d4&times;10 minutes; the user gains the benefits of a constant {spell/detect magic} effect, but she treats illumination in the area as {rule/dim light}; areas of dim light and darkness are treated as darkness  ",
 			"**Effect** 1 hour; the user gains the {misc/dazzled} condition  ",
 			"**Damage** 1d2 Wis damage",
 			"",

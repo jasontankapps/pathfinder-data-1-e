@@ -577,7 +577,7 @@
 			"**Price** 30 gp; **Weight** 1/2 lb.  ",
 			"**Category** Adventuring Gear",
 			"",
-			"This chunk of crystal shines with the colors of the rainbow. A prismatic crystal can be used as a focus for the {skill/read aura} occult skill unlock to reduce the time needed to read an aura from 10 minutes to 5 minutes. When held by psychic creatures, these crystals also emit light in a small area, increasing the light level in a 10-foot radius by one step (darkness becomes dim light, and dim light becomes normal light). A prismatic crystal can't increase the light level above normal light."
+			"This chunk of crystal shines with the colors of the rainbow. A prismatic crystal can be used as a focus for the {skill/read aura} occult skill unlock to reduce the time needed to read an aura from 10 minutes to 5 minutes. When held by psychic creatures, these crystals also emit light in a small area, increasing the {rule/light level} in a 10-foot radius by one step (darkness becomes dim light, and dim light becomes normal light). A prismatic crystal can't increase the light level above normal light."
 		]
 	},
 	"privacy_shelter": {
@@ -1157,7 +1157,7 @@
 			"**Price** 20 gp; **Weight** 1 lb.  ",
 			"**Category** Alchemical Tools",
 			"",
-			"This otherwise normal-looking {eq-misc/torch} is encrusted with lithium salts and burns with a dark red flame. It sheds only dim light in a 10-foot radius, and the light it casts is undetectable outside this radius by normal vision, darkvision, or low-light vision. This torch burns for 1 hour."
+			"This otherwise normal-looking {eq-misc/torch} is encrusted with lithium salts and burns with a dark red flame. It sheds only {rule/dim light} in a 10-foot radius, and the light it casts is undetectable outside this radius by normal vision, darkvision, or low-light vision. This torch burns for 1 hour."
 		]
 	},
 	"reindeer": {
@@ -1641,7 +1641,7 @@
 			"**Price** 1 gp; **Weight** -  ",
 			"**Category** Alchemical Remedies",
 			"",
-			"These tablets of pressed salt help stave off [dehydration](rule/starvation_and_thirst. Taking a salt tablet once every 24 hours grants you a +2 circumstance bonus on saving throws to avoid heatstroke and on Constitution checks to avoid thirst.",
+			"These tablets of pressed salt help stave off [dehydration](rule/starvation_and_thirst). Taking a salt tablet once every 24 hours grants you a +2 circumstance bonus on saving throws to avoid {rule/heat/stroke>_dangers} and on Constitution checks to avoid thirst.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 10"
 		]
@@ -2058,7 +2058,7 @@
 			"**Price** 7 gp; **Weight** 1/2 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
-			"Sentry seeds are small, hollow, ovoid glass beads with flat sides. A specially crafted pouch, containing enough seeds to fill eight 5-foot squares, allows the user to evenly scatter these seeds across any flat, hard, mostly level surface. When stepped upon, the glass beads break with audible pops (Perception DC 10), warning of potential intruders. Although they are easy to see in the light (Perception DC 10), sentry seeds are difficult to spot in dim light or darkness (Perception DC 20)."
+			"Sentry seeds are small, hollow, ovoid glass beads with flat sides. A specially crafted pouch, containing enough seeds to fill eight 5-foot squares, allows the user to evenly scatter these seeds across any flat, hard, mostly level surface. When stepped upon, the glass beads break with audible pops (Perception DC 10), warning of potential intruders. Although they are easy to see in the light (Perception DC 10), sentry seeds are difficult to spot in {rule/dim light} or darkness (Perception DC 20)."
 		]
 	},
 	"serpent_line": {
@@ -3173,7 +3173,7 @@
 			"**Price** 25 gp; **Weight** 1 lb.  ",
 			"**Category** Alchemical Tools",
 			"",
-			"When inhaled, this incense causes creatures to see dazzling auras around light sources, drawing their attention to such illumination as the moon or stars and away from other nearby creatures. Any creature inhaling sparkle smoke that fails a DC 15 Fortitude saving throw takes a -4 penalty on Perception checks to notice creatures smaller than itself in areas of at least dim light for 1 hour. Crafting a dose of sparkle smoke requires a successful DC 15 Craft (alchemy) check.",
+			"When inhaled, this incense causes creatures to see dazzling auras around light sources, drawing their attention to such illumination as the moon or stars and away from other nearby creatures. Any creature inhaling sparkle smoke that fails a DC 15 Fortitude saving throw takes a -4 penalty on Perception checks to notice creatures smaller than itself in areas of at least {rule/dim light} for 1 hour. Crafting a dose of sparkle smoke requires a successful DC 15 Craft (alchemy) check.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 15"
 		]
@@ -3573,7 +3573,7 @@
 			"**Price** 75 gp; **Weight** 18 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
-			"This large contraption functions like a {eq-misc/hooded lantern}, shedding large amounts of light in a single direction. A spotlight also contains several mirrors which amplify and aim the light. A spotlight creates a 5-foot-wide beam of normal light, which extends to a distance of 90 feet and continues for another 90 feet as dim light. It does not radiate any light outside the area of the beam. A spotlight does not increase the light level in normal light or bright light. A lantern burns for 1 hour on 1 pint of oil, and requires two hands to move and one hand to aim."
+			"This large contraption functions like a {eq-misc/hooded lantern}, shedding large amounts of light in a single direction. A spotlight also contains several mirrors which amplify and aim the light. A spotlight creates a 5-foot-wide beam of normal light, which extends to a distance of 90 feet and continues for another 90 feet as {rule/dim light}. It does not radiate any light outside the area of the beam. A spotlight does not increase the light level in normal light or bright light. A lantern burns for 1 hour on 1 pint of oil, and requires two hands to move and one hand to aim."
 		]
 	},
 	"spys_kit": {
@@ -4141,7 +4141,7 @@
 			"**Price** 2 gp; **Weight** 1 lb.  ",
 			"**Category** Alchemical Tools",
 			"",
-			"This 1-foot-long, gold-tipped iron rod glows brightly when struck (a standard action). It sheds normal light in a 30-foot radius and increases the light level by one step for an additional 30 feet beyond that area (darkness becomes dim light and dim light becomes normal light). A sunrod does not increase the light level in normal light or bright light. It glows for 6 hours, after which the gold tip is burned out and worthless.",
+			"This 1-foot-long, gold-tipped iron rod glows brightly when struck (a standard action). It sheds normal light in a 30-foot radius and increases the {rule/light level} by one step for an additional 30 feet beyond that area (darkness becomes dim light and dim light becomes normal light). A sunrod does not increase the light level in normal light or bright light. It glows for 6 hours, after which the gold tip is burned out and worthless.",
 			"",
 			"**{rule/Spontaneous Alchemy} Recipe** (2 {eq-reagent/magnesium} + 2 {eq-reagent/phosphorus})/ceration; **Craft DC** 25  ",
 			"**Time** 10 minutes; **Tools** {eq-misc/crucible}; **Type** alchemical tool"
@@ -4915,7 +4915,7 @@
 			"**Price** 1 cp; **Weight** 1 lb.  ",
 			"**Category** Adventuring Gear",
 			"",
-			"A torch burns for 1 hour, shedding normal light in a 20-foot radius and increasing the light level by one step for an additional 20 feet beyond that area (darkness becomes dim light and dim light becomes normal light). A torch does not increase the light level in normal light or bright light. If a torch is used in combat, treat it as a one-handed improvised weapon that deals bludgeoning damage equal to that of a gauntlet of its size, plus 1 point of fire damage."
+			"A torch burns for 1 hour, shedding normal light in a 20-foot radius and increasing the {rule/light level} by one step for an additional 20 feet beyond that area (darkness becomes dim light and dim light becomes normal light). A torch does not increase the light level in normal light or bright light. If a torch is used in combat, treat it as a one-handed improvised weapon that deals bludgeoning damage equal to that of a gauntlet of its size, plus 1 point of fire damage."
 		]
 	},
 	"torches": { "redirect": "torch" },
