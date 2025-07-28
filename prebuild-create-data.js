@@ -123,21 +123,22 @@ const alternateBlocks = {
 		const {text, attrs = {}, meta} = token;
 		const {id, ind, rev, to, end, endem, bottom} = attrs;
 		const n = meta.name || "";
+		const maybeClear = attrs.clear ? `<div style={{clear:"both"}}></div>` : "";
 		if(n === "mh") {
 			const {cr, mr} = attrs;
 			if(cr || mr) {
 				const ender = (cr && mr) ? `CR ${cr}/MR ${mr}` : (cr ? `CR ${cr}` : `MR ${mr}`);
-				return `<p className="statblockHeaderFull"><span>${text}</span><span>${ender}</span></p>\n`;
+				return `${maybeClear}<p className="statblockHeaderFull"><span>${text}</span><span>${ender}</span></p>\n`;
 			}
-			return `<p className="statblockHeader">${text}</p>\n`;
+			return `${maybeClear}<p className="statblockHeader">${text}</p>\n`;
 		} else if (n === "sh") {
-			return `<p className="statblockSubHeader">${text}</p>\n`;
+			return `${maybeClear}<p className="statblockSubHeader">${text}</p>\n`;
 		} else if (n === "fh") {
 			const {sub} = attrs;
 			if(sub) {
-				return `<div className="headerLike"><div>${text}</div><div className="sub">${sub}</div></div>\n`;
+				return `${maybeClear}<div className="headerLike"><div>${text}</div><div className="sub">${sub}</div></div>\n`;
 			}
-			return `<div className="headerLike">${text}</div>\n`;
+			return `${maybeClear}<div className="headerLike">${text}</div>\n`;
 		} else if (n === "ph") {
 			const {sub, desc, cat} = attrs;
 			let main = `<p className="statblockHeader"><span>${text}</span></p>`;
@@ -150,14 +151,14 @@ const alternateBlocks = {
 			if(cat) {
 				main = main + `<div><strong>Category</strong> ${cat}</div>`;
 			}
-			return main + "\n";
+			return maybeClear + main + "\n";
 		} else if (n === "mhr") {
 			$.flags.divider = true;
-			return `<IonItemDivider className="mainItem divider"></IonItemDivider>`;
+			return `${maybeClear}<IonItemDivider className="mainItem divider"></IonItemDivider>`;
 		} else if (n === "mainheader") {
 			$.flags.divider = true;
 			$.flags.label = true;
-			return `<IonItemDivider className="mainItem"${id ? ` id="${$.prefix}${id}"` : ""}><IonLabel>${text}</IonLabel></IonItemDivider>`;
+			return `${maybeClear}<IonItemDivider className="mainItem"${id ? ` id="${$.prefix}${id}"` : ""}><IonLabel>${text}</IonLabel></IonItemDivider>`;
 		} else if (n === "main") {
 			$.flags.mainlink = true;
 			let cn;
@@ -182,23 +183,23 @@ const alternateBlocks = {
 			if(bottom) {
 				output = output + `bottom="${bottom}" `;
 			}
-			return `${output}info="${text}" />`;
+			return `${maybeClear}${output}info="${text}" />`;
 		} else if ("h2h3h4h5h6".indexOf(n) >= 0) {
 			if(attrs.jl) {
 				const id = $.prefix + (attrs.id || text.toLowerCase().replace(/ +/g, "-").replace(/[^-a-z0-9]/g, ""));
 				jl(text, id, attrs.jl);
 				if(attrs.extra) {
-					return `<${n} id="${id}" data-hash-target>${text} ${attrs.extra}</${n}>\n`;
+					return `${maybeClear}<${n} id="${id}" data-hash-target>${text} ${attrs.extra}</${n}>\n`;
 				}
-				return `<${n} id="${id}" data-hash-target>${text}</${n}>\n`;
+				return `${maybeClear}<${n} id="${id}" data-hash-target>${text}</${n}>\n`;
 			}
-			return `<${n}>${text}</${n}>`;
+			return `${maybeClear}<${n}>${text}</${n}>`;
 		} else if ("hl2hl3hl4hl5hl6".indexOf(n) >= 0) {
 			const m = checkForEncodedLink(text, { bare: true });
 			const t = "h" + n.slice(-1);
 			if(!m) {
 				logError(`Bad ::${n} => [${text}]`);
-				return `<${t}>${text}</${t}>\n`;
+				return `${maybeClear}<${t}>${text}</${t}>\n`;
 			}
 			$.flags.link = true;
 			const { pre, post, extra } = attrs;
@@ -216,9 +217,9 @@ const alternateBlocks = {
 			if(attrs.jl) {
 				const id = $.prefix + (attrs.id || linktext.toLowerCase().replace(/ +/g, "-").replace(/[^-a-z0-9]/g, ""));
 				jl(linktext, id, attrs.jl);
-				return `<${t} id="${id}" data-hash-target>${inner}</${t}>\n`;
+				return `${maybeClear}<${t} id="${id}" data-hash-target>${inner}</${t}>\n`;
 			}
-			return `<${t}>${inner}</${t}>`;
+			return `${maybeClear}<${t}>${inner}</${t}>`;
 		}
 		return false;
 	}

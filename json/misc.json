@@ -873,7 +873,7 @@
 		"description": [
 			"## Precision Damage",
 			"",
-			"This is extra damage that is caused because of a well-aimed attack at a vulnerable area. It is not multiplied on a {rule/critical hit>s}. The most common type of precision damage is the {ability/sneak attack}. If an ability or attack deals precision damage, it will say so in its description. If something is immune to sneak attack damage, it is usually immune to all precision damage."
+			"This is extra damage that is caused because of a well-aimed attack at a vulnerable area. It is not multiplied on a {rule/critical hit>s}. The most common type of precision damage is the {ability/sneak attack}. If an ability or attack deals precision damage, it will say so in its description. If something is immune to sneak attack damage and/or critical hits, it is usually immune to all precision damage."
 		],
 		"searchgroup": "rule",
 		"type": "Rule"

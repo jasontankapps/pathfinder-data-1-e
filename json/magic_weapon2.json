@@ -4001,7 +4001,7 @@
 			"{SOURCE Ultimate Equipment/357}",
 			"",
 			"**Aura** moderate conjuration; **CL** 10th  ",
-			"**Price** 54,212 gp; **Weight** 5 lbs.",
+			"**Slot** none; **Price** 54,212 gp; **Weight** 5 lbs.",
 			"",
 			"This special +3 {magic-enh/bane} {eq-weapon/warhammer} seeks only to crush the enemy of its wielder in battle. The hammer can speak Common, constantly mutters, curses when it is not engaged in battle, and sings deeply of its love of carnage when it is being used in a fight. The hammer of enemies is always eager to point out potential enemies within its vision. Because of its bloodlust it does not bestow {rule/negative levels} on creatures that do not share its alignment - it is willing to fight for anyone. Additionally, three times per day, the hammer of enemies can change the creature type of its bane ability. A creature type remains until a new one is chosen.",
 			"",
@@ -4084,7 +4084,7 @@
 			"",
 			"{SOURCE Dungeons of Golarion/9}  ",
 			"**Aura** strong evocation; **CL** 15th  ",
-			"**Price** 91,712 gp; **Weight** 5 lbs.",
+			"**Slot** none; **Price** 91,712 gp; **Weight** 5 lbs.",
 			"",
 			"Norgir's Ruin is an intelligent +2 dwarf {magic-enh/bane} {eq-weapon/warhammer}. It has spent the past several generations in the possession of the same enemies it was once crafted to defeat. In that time, the weapon has gone somewhat insane, warped to thirst for the death of non-duergar dwarves and eager to please the line of duergar rulers of Tar Vermilon. Restoring it to its original purpose is possible only by seeking out a living descendant of Vald Norgir and securing an {spell/atonement} spell from that dwarf to absolve the magic warhammer of its madness. Doing so re-aligns its special purpose to oppose duergar, changes its alignment to lawful good, and raises its Wisdom score up to 14.",
 			"",
@@ -4457,6 +4457,23 @@
 			"### Construction",
 			"",
 			"**Requirements** +2 glaive; **Cost** -"
+		]
+	},
+	"sunlords_feather": {
+		"name": "Sunlord's Feather",
+		"sources": [ "Inner Sea Temples" ],
+		"description": [
+			"## Sunlord's Feather",
+			"",
+			"{SOURCE Inner Sea Temples/52}  ",
+			"**Aura** moderate transmutation; **CL** 10th  ",
+			"**Slot** none; **Price** 1,100 gp; **Weight** -;",
+			"",
+			"Named after {faith/Sarenrae/'s} herald, {monster/Sunlord Thalachos}, this +1 {magic-enh/flaming} {magic-enh/holy} {eq-weapon/arrow} has a platinum arrowhead and brilliant white fletching. When the arrow successfully strikes an evil-aligned creature, it explodes in a shower of golden sparks that summons a swarm of celestial doves (treat as a {template/celestial} {monster/bat swarm}) that continues to attack the arrow's target for 10 rounds or until destroyed or dismissed. If the target is slain before the duration expires, the remaining doves fly off into the horizon.",
+			"",
+			"### Construction",
+			"",
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/flame strike}, {spell/holy smite}, {spell/summon swarm}, creator must be good; **Cost** 550 gp"
 		]
 	}
 }

@@ -2642,6 +2642,7 @@
 			"greater_splash_weapon"
 		]
 	},
+	"splash_weapon": { "redirect": "throw_splash_weapon" },
 	"greater_splash_weapon": {
 		"name": "Greater Splash Weapon",
 		"subtitle": "Combat",
@@ -3960,6 +3961,8 @@
 			"",
 			"The numerical part of a creature's damage reduction (or DR) is the amount of damage the creature ignores from normal attacks. Usually, a certain type of weapon can overcome this reduction (see Overcoming DR). This information is separated from the damage reduction number by a slash. For example, DR 5/magic means that a creature takes 5 less points of damage from all weapons that are not magic. If a dash follows the slash, then the damage reduction is effective against any attack that does not ignore damage reduction.",
 			"",
+			"Some DR has multiple parts, separated by an \"and\" or an \"or\". An attack must have **all** qualities of an \"and\" DR in order to bypass it (e.g. a {template/lich/'s} DR 15/bludgeoning and magic), but needs only **one** quality of an \"or\" DR to get through (e.g. a {monster/dretch/'s} DR 5/cold iron or good).",
+			"",
 			"Whenever damage reduction completely negates the damage from an attack, it also negates most special effects that accompany the attack, such as injury poison, a monk's stunning, and injury-based disease. Damage reduction does not negate touch attacks, energy damage dealt along with an attack, or energy drains. Nor does it affect poisons or diseases delivered by inhalation, ingestion, or contact.",
 			"",
 			"Attacks that deal no damage because of the target's damage reduction do not disrupt spells.",
@@ -3981,6 +3984,10 @@
 			"| Cold Iron/Silver | +3 |",
 			"| Adamantine[^1] | +4 |",
 			"| Alignment-based | +5 |",
+			"",
+			"{rule/Some |weapon«_description»s} deal damage of multiple types. If a weapon causes two types of damage, the type it deals is not half one type and half another; all damage caused is of both types. Therefore, a creature would have to be immune to both types of damage to ignore any of the damage caused by such a weapon (e.g. a +3 {eq-weapon/morningstar} [B and P damage] deals full damage to a lich).",
+			"",
+			"In other cases, a weapon can deal either of two types of damage. In a situation where the damage type is significant, the wielder can choose which type of damage to deal with such a weapon (e.g. a +3 {eq-weapon/lucerne hammer} [B or P damage] only overcomes a lich's DR when used to deal bludgeoning damage).",
 			"",
 			"[^1]: Note that this does not give the ability to ignore hardness, like an actual {eq-material/adamantine} weapon does"
 		],
