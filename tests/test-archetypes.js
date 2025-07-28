@@ -139,15 +139,43 @@ const whats = [
 	"archetypes: wizard"
 ];
 
+function getCopyOf (object, copiedProp, etc, counter = 0) {
+	(counter > 80) && console.log(`${copiedProp}, ${Object.keys(etc).join(", ")}`);
+	const maybe = object[copiedProp];
+	if(!maybe) { return false; }
+	const final = {...maybe, ...etc};
+	if(final.copyof) {
+		if(counter > 100) {
+			console.log(`Death spiral loop checking "${copiedProp}".`);
+			return false;
+		}
+		const { copyof, ...rest } = final
+		return getCopyOf(object, copyof, rest, counter + 1);
+	}
+	return final;
+}
+
 function isGood(archValue, what) {
 	const msg = [ "\n...beginning test: [" + what + "]\n" ];
 	let found = false;
 	if(!Object.entries(archValue).some(([prop, value]) => {
-		const test = value;
-		if(test && (test.copyof || test.redirect)) {
-			// Ignore
-		} else if(test && test.alternateOf) {
-			const {alternateOf} = test;
+		const {copyof, redirect, ...etc} = value;
+		if(redirect) {
+			if(!archValue[redirect]) {
+				msg.push("Invalid redirect property of " + prop);
+				found = true;
+				return true;
+			}
+			return false;
+		}
+		const test = copyof ? getCopyOf(archValue, copyof, etc) : etc;
+		if(copyof && test && test.redirect) {
+			msg.push(`Invalid ${prop}.copyof => ${copyof} has redirect property`);
+			found = true;
+			return true;
+		}
+		const {alternateOf, tables} = test || {};
+		if(test && alternateOf) {
 			if(!alternateOf|| alternateOf === prop || !archValue[alternateOf] || archValue[alternateOf].alternateOf ) {
 				msg.push("Invalid alternateOf property of " + prop);
 				found = true;
@@ -160,8 +188,8 @@ function isGood(archValue, what) {
 			msg.push(found || `Basic problem with ${prop}`);
 			found = true;
 			return true;
-		} else if (test.tables) {
-			const result = checkForBadTables(test.tables, what + "." + prop);
+		} else if (tables) {
+			const result = checkForBadTables(tables, what + "." + prop);
 			result && msg.push(result);
 			return result;
 		}

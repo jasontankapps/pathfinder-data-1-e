@@ -279,7 +279,7 @@ function isGood(object, what, index) {
 	}
 	let found = false;
 	if(!Object.entries(object).some(([prop, value]) => {
-		const { copyof, redirect, description = [], ...etc } = value;
+		const { copyof, redirect, ...etc } = value;
 		if(redirect) {
 			if(!object[redirect]) {
 				msg.push("Invalid redirect property of " + prop);
@@ -289,7 +289,11 @@ function isGood(object, what, index) {
 			return false;
 		}
 		const test = copyof ? getCopyOf(object, copyof, etc) : etc;
-		if(test && test.alternateOf) {
+		if(copyof && test && test.redirect) {
+			msg.push(`Invalid ${prop}.copyof => ${copyof} has redirect property`);
+			found = true;
+			return true;
+		} else if(test && test.alternateOf) {
 			const {alternateOf} = test;
 			if(!alternateOf|| alternateOf === prop || !object[alternateOf] || object[alternateOf].alternateOf ) {
 				msg.push("Invalid alternateOf property of " + prop);

@@ -9,7 +9,7 @@ function isGood(value) {
 	let found = false;
 	if(!Object.entries(value).some(([prop, value]) => {
 		const test = value;
-		if (prop === "not_found") {
+		if (prop === "not_found" || test.redirect) {
 			// Skip
 			return false;
 		} else if (test.siblings) {

@@ -2865,7 +2865,7 @@
 	"greater_bracers_of_archery": { "redirect": "bracers_of_archery_greater" },
 	"bracers_of_archery_lesser": {
 		"name": "Bracers of Archery (Lesser)",
-		"copyof": "greater_bracers_of_archery"
+		"copyof": "bracers_of_archery_greater"
 	},
 	"lesser_bracers_of_archery": { "redirect": "bracers_of_archery_lesser" },
 	"spellguard_bracers": {
