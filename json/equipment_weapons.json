@@ -794,6 +794,34 @@
 		],
 		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
 	},
+	"fireworks": {
+		"name": "Fireworks",
+		"description": [
+			"## Fireworks",
+			"",
+			"\"Fireworks\" can refer to seventeen different types of firework.",
+			"",
+			"1. Firework (banshee ballerina)",
+			"1. Firework (coughing dragon)",
+			"1. Firework (dancing peonies)",
+			"1. Firework (fire wheel)",
+			"1. Firework (firecracker)",
+			"1. Firework (firecracker, spirit)",
+			"1. Firework (flame fountain)",
+			"1. Firework (flashing fiend)",
+			"1. Firework (holy fountain)",
+			"1. Firework (jumping jenny)",
+			"1. Firework (paper candle)",
+			"1. Firework (signal rocket)",
+			"1. Firework (skydragon)",
+			"1. Firework (skyrocket)",
+			"1. Firework (sparking pinwheel)",
+			"1. Firework (star candle)",
+			"1. Firework (starfountain)"
+		],
+		"disambiguation": true,
+		"topLink": [ "Alchemical Weapons", "main/equipment_weapons_alchemical" ]
+	},
 	"firework_banshee_ballerina": {
 		"name": "Firework (banshee ballerina)",
 		"sources": [ "Ultimate Equipment" ],
