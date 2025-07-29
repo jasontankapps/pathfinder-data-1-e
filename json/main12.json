@@ -22,6 +22,7 @@
 		],
 		"searchgroup": "spell"
 	},
+	"wizard_spell": { "redirect": "spells_wizard" },
 	"spells_wizard_0": {
 		"title": "Wizard Spells Level 0",
 		"description": [

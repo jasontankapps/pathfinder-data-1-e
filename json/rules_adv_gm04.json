@@ -2107,7 +2107,7 @@
 			"weather_in_the_wilderness"
 		],
 		"subtopics": [
-			"wind",
+			"wind_uw",
 			"cloud_cover",
 			"severe_events"
 		],
@@ -2117,7 +2117,7 @@
 			"weather_details"
 		]
 	},
-	"wind": {
+	"wind_uw": {
 		"name": "Wind",
 		"subtitle": "Weather, Wilderness, Advanced GM Topics",
 		"sources": [ "Ultimate Wilderness" ],
@@ -2154,7 +2154,7 @@
 			"weather_details"
 		],
 		"siblings": [
-			"wind",
+			"wind_uw",
 			"cloud_cover",
 			"severe_events"
 		]
@@ -2183,7 +2183,7 @@
 			"weather_details"
 		],
 		"siblings": [
-			"wind",
+			"wind_uw",
 			"cloud_cover",
 			"severe_events"
 		]
@@ -2222,7 +2222,7 @@
 			"weather_details"
 		],
 		"siblings": [
-			"wind",
+			"wind_uw",
 			"cloud_cover",
 			"severe_events"
 		]

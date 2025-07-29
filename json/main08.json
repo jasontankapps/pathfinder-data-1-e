@@ -16,6 +16,7 @@
 			"::main[Cleric Spells (Levels 7-9)]{endem=\"(148 spells)\" to=main/spells_cleric_7_9}"
 		]
 	},
+	"cleric_spell": { "redirect": "spells_cleric" },
 	"spells_cleric_0_1": {
 		"title": "Cleric Spells Levels 0-1",
 		"description": [

@@ -393,7 +393,7 @@
 			"**Caster Level** 7th; **Deity** {faith/Gozreh}  ",
 			"**Notice** Perception DC 0 (to hear a rumbling thunderstorm)  ",
 			"**hp** 31; **Weakness** chaotic, evil, good, or lawful effects; **Trigger** proximity; **Reset** 1 day  ",
-			"**Effect** A fierce storm rages, bringing [windstorm-strength winds and pouring rain](rule/weather). Each round for 6 rounds, a bolt of lightning strikes a random creature within the area, dealing 5d10 points of damage (Reflex DC 17 half). A worshiper of Gozreh who stays in the area of the resonance for its entire 6-round duration gains the ability to cast each of the following spells once, with a caster level equal to her Hit Dice: {spell/alter winds}, {spell/resist energy} (electricity only), and {spell/water breathing}. The ability to cast these spells persists until it is expended.  ",
+			"**Effect** A fierce storm rages, bringing {rule/windstorm-strength |winds} and [pouring rain](rule/weather). Each round for 6 rounds, a bolt of lightning strikes a random creature within the area, dealing 5d10 points of damage (Reflex DC 17 half). A worshiper of Gozreh who stays in the area of the resonance for its entire 6-round duration gains the ability to cast each of the following spells once, with a caster level equal to her Hit Dice: {spell/alter winds}, {spell/resist energy} (electricity only), and {spell/water breathing}. The ability to cast these spells persists until it is expended.  ",
 			"**Destruction** {spell/Control weather} immediately destroys this haunt. When the spell is cast to destroy a drought's end, the spell has no other effect on the surrounding weather.",
 			"",
 			"### Description",

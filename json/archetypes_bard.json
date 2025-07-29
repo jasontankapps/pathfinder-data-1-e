@@ -1074,7 +1074,7 @@
 			">",
 			">This ability replaces dirge of doom and frightening tune.",
 			"",
-			"**Cryptic Whisper (Ex):** At 2nd level, the impervious messenger internalizes his understanding of language and ciphers, and filters them through his bardic abilities. He adds half his bard level to all Linguistics checks and Bluff checks to deliver secret messages, and he gains a +4 bonus on saving throws against [glyph spells, symbol spells,](main/spell_groupings) and language-dependent effects.",
+			"**Cryptic Whisper (Ex):** At 2nd level, the impervious messenger internalizes his understanding of language and ciphers, and filters them through his bardic abilities. He adds half his bard level to all Linguistics checks and Bluff checks to deliver secret messages, and he gains a +4 bonus on saving throws against {main/glyph spells, |symbol spells,} and language-dependent effects.",
 			"",
 			"This ability replaces bardic knowledge and well-versed."
 		]
@@ -1791,7 +1791,7 @@
 			"",
 			"This ability replaces distraction.",
 			"",
-			"**Comparative Arcane Studies (Su):** At 6th level, the studious librarian is exposed to a wide variety of magical writing, and can use his own magic to duplicate spells from other classes' spell lists. Once per day, a studious librarian can cast any spell from the {main/spells_<bard}, {main/spells<sorcerer|//wizard}, or {main/spells_<witch} spell lists from a scroll or spellbook in hand as if it were one of his bard spells known, expending a bard spell slot of the same spell level to cast the desired spell. Casting a spell from a scroll this way does not cause the spell to vanish from the scroll. A spell cast in this way cannot be modified by metamagic. The studious librarian gains one additional daily use of this ability at 10th level and again every 4 bard levels thereafter, to a maximum of four times per day at 18th level.",
+			"**Comparative Arcane Studies (Su):** At 6th level, the studious librarian is exposed to a wide variety of magical writing, and can use his own magic to duplicate spells from other classes' spell lists. Once per day, a studious librarian can cast any spell from the {main/spells_<bard}, {main/spells<sorcerer|//wizard}, or {main/witch spell/ lists} from a scroll or spellbook in hand as if it were one of his bard spells known, expending a bard spell slot of the same spell level to cast the desired spell. Casting a spell from a scroll this way does not cause the spell to vanish from the scroll. A spell cast in this way cannot be modified by metamagic. The studious librarian gains one additional daily use of this ability at 10th level and again every 4 bard levels thereafter, to a maximum of four times per day at 18th level.",
 			"",
 			"This ability replaces suggestion and jack-of-all-trades.",
 			"",

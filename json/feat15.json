@@ -364,7 +364,7 @@
 			"{SOURCE Advanced Class Guide/157}",
 			"",
 			"Instead of casting a cure spell, you can instead cast summon nature's ally.  ",
-			"**Prerequisites:** Knowledge (nature) 5 ranks, ability to spontaneously cast {main/cure or inflict |spell/s>_groupings}, {domain/Animal} or {domain/Plant} domain.  ",
+			"**Prerequisites:** Knowledge (nature) 5 ranks, ability to spontaneously cast {main/cure or |inflict spells}, {domain/Animal} or {domain/Plant} domain.  ",
 			"**Benefit:** You can \"lose\" a prepared spell in order to cast any {spell/summon nature's ally} spell of the same level or lower, instead of casting a *cure* spell or an *inflict* spell as you normally would. For the purpose of this feat only, the *summon nature's ally* spells of the appropriate spell levels count as being on your spell list at {main/the same |spell[ level a]s [for a ]druid}."
 		]
 	},
@@ -2664,7 +2664,7 @@
 			"{SOURCE Heroes of the Wild/26}",
 			"",
 			"Combining magical detection with your tracking skills allows you to sense and track a creature's lingering presence.  ",
-			"**Prerequisites:** Survival 1 rank, ability to cast a {main/detect |spell>_groupings}.  ",
+			"**Prerequisites:** Survival 1 rank, ability to cast a {main/detect spell>s}.  ",
 			"**Benefit:** You can cast a *detect* spell that specifies a creature type, such as {spell/detect animals or plants} or {spell/detect undead}, to augment your ability to track such creatures instead of the spell's normal benefit; you can see a soft glow that highlights tracks of passage left by creatures of that type. For a duration of 1 hour per level of the spell, you gain a bonus equal to 5 + the spell's level on Survival checks to track creatures of the specified type. For this duration, you can track such creatures as if you are trained in the {skill/Survival} skill, even if you are not."
 		]
 	},

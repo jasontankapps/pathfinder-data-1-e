@@ -333,6 +333,7 @@
 			}
 		]
 	},
+	"antipaladin_spell": { "redirect": "spells_antipaladin" },
 	"spells_magus": {
 		"title": "All Magus Spells",
 		"description": [
@@ -344,6 +345,7 @@
 		],
 		"searchgroup": "spell"
 	},
+	"magus_spell": { "redirect": "spells_magus" },
 	"spells_magus_0_1": {
 		"title": "Magus Spells Levels 0-1",
 		"description": [
@@ -1490,6 +1492,7 @@
 		],
 		"searchgroup": "spell"
 	},
+	"occultist_spell": { "redirect": "spells_occultist" },
 	"spells_occultist_0_1": {
 		"title": "Occultist Spells Levels 0-1",
 		"description": [
@@ -2475,6 +2478,7 @@
 		],
 		"searchgroup": "spell"
 	},
+	"mesmerist_spell": { "redirect": "spells_mesmerist" },
 	"spells_mesmerist_0_1": {
 		"title": "Mesmerist Spells Levels 0-1",
 		"description": [

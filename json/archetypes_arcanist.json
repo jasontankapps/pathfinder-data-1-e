@@ -289,7 +289,7 @@
 			"",
 			"**Familiar:** An unlettered arcanist does not keep a spellbook. Instead, she gains a {sidekick/familiar} in which she stores her spells as a {class/witch} does, though she does not gain a witch's patron. Treat her arcanist level as her witch level for determining the abilities and benefits granted by the familiar. Anything that would allow an unlettered arcanist to add spells to her spellbook allows her to add spells to her familiar instead. This ability replaces spellbooks.",
 			"",
-			"**Witch Spells:** An unlettered arcanist follows a different arcane tradition. She uses the {main/spells_<witch/ spell list} instead of the {main/spells_<wizard[/sorcerer spell list]}. This ability alters the spells class feature."
+			"**Witch Spells:** An unlettered arcanist follows a different arcane tradition. She uses the {main/witch spell/ list} instead of the {main/spells_<wizard[/sorcerer spell list]}. This ability alters the spells class feature."
 		]
 	},
 	"white_mage": {
@@ -301,7 +301,7 @@
 			"{SOURCE Advanced Class Guide/79}  ",
 			"A white mage is an arcanist touched by a divine power and gifted with the ability to heal others.",
 			"",
-			"**Spontaneous Healing (Su):** At 1st level, a white mage can expend 1 point from her arcane reservoir to use one of her spell slots to cast a {main/cure |spell>_groupings} (any spell with \"cure\" in its name) from the cleric spell list as if it were on her spell list and prepared. The spell must be of a level the arcanist can cast. At 10th level, the white mage can expend 5 points from her arcane reservoir and a spell slot of at least 5th level to cast {spell/breath of life}. This ability replaces the arcanist exploits gained at 1st and 9th levels.",
+			"**Spontaneous Healing (Su):** At 1st level, a white mage can expend 1 point from her arcane reservoir to use one of her spell slots to cast a {main/cure spell>s} (any spell with \"cure\" in its name) from the cleric spell list as if it were on her spell list and prepared. The spell must be of a level the arcanist can cast. At 10th level, the white mage can expend 5 points from her arcane reservoir and a spell slot of at least 5th level to cast {spell/breath of life}. This ability replaces the arcanist exploits gained at 1st and 9th levels.",
 			"",
 			"**Greater Exploit:** At 11th level, a white mage can select the following greater exploit.",
 			"",

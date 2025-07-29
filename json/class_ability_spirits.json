@@ -130,7 +130,7 @@
 			"",
 			">*Instead of your normal spells per day for your medium level, you use the spells per day from the {class/Mesmerist} class. For each level of spell you can now cast (including level 0), each time you channel a hierophant spirit, select a single spell of that level from the {main/spells_<cleric[/oracle spell list]} to add to your medium spell list and spells known until you lose contact with the hierophant. When you cast these spells, they count as divine (though not for the purpose of fulfilling prerequisites), and thus you must provide verbal and somatic components instead of thought and emotion components.*",
 			"",
-			"**Energy Font (Intermediate, Su):** You can {ability/channel energy} a number of times per day equal to 1 + your Charisma modifier. Choose whether you channel positive or negative energy each time you contact a hierophant spirit; this choice must match the spirit's faith. If you choose positive energy, add {main/cure |spell/s>_groupings} of each level you can cast from the cleric list to your medium spell list and spells known. Otherwise, add inflict spells in the same way. These spells count as divine, as in the divine surge spirit power.",
+			"**Energy Font (Intermediate, Su):** You can {ability/channel energy} a number of times per day equal to 1 + your Charisma modifier. Choose whether you channel positive or negative energy each time you contact a hierophant spirit; this choice must match the spirit's faith. If you choose positive energy, add {main/cure spells} of each level you can cast from the cleric list to your medium spell list and spells known. Otherwise, add inflict spells in the same way. These spells count as divine, as in the divine surge spirit power.",
 			"",
 			"**Overflowing Grace (Greater, Su):** When you heal a creature to full hit points or a creature already at full hit points with your positive or negative energy, that creature gains a +1 sacred bonus on attack rolls, skill checks, ability checks, and saving throws for 1 round. The bonus is sacred if you use positive energy and profane if you use negative energy. If you destroy or kill one or more creatures with positive or negative energy, you gain a +1 bonus of the same type on attack rolls, skill checks, ability checks, and saving throws for 1 round.",
 			"",
@@ -448,7 +448,7 @@
 			"",
 			"**Heresy (Lesser, Su):** This functions as the *divine surge* lesser spirit power but you gain the following {class/inquisitor} spells at the indicated spell levels, instead of selecting a set of cleric spells each day: 0-{spell/guidance}; 1st-{spell/divine favor}; 2nd-{spell/castigate}; 3rd-{spell/terrible remorse}; 4th-{spell/reprobation}; 5th-{spell/mass castigate}; 6th-{spell/overwhelming presence}. Whenever you use your spirit surge on a skill check or ability check to convince or trick someone into perverting his faith in the good deity you chose with your vow, the Heretic is pleased and does not gain the usual point of influence over you.",
 			"",
-			"**False Front (Intermediate, Su):** You gain the effects of the *energy font* intermediate spirit power, but you must match the faith you chose to pervert, meaning that you always {ability/channel positive energy} and add {main/cure |spell/s>_groupings}.",
+			"**False Front (Intermediate, Su):** You gain the effects of the *energy font* intermediate spirit power, but you must match the faith you chose to pervert, meaning that you always {ability/channel positive energy} and add {main/cure spells}.",
 			"",
 			"**Stolen Grace (Greater, Su):** When a member of your chosen faith who believes that you are a member of that faith's clergy requests you to cast a cleric spell of a spell level you can cast, you can allow the Heretic to gain 1 point of influence over you and expend a spell slot of the appropriate level to cast the spell."
 		]
@@ -470,7 +470,7 @@
 			"",
 			"**Taboos:** If you accept a taboo while channeling Kelksiomides, you may not deal lethal damage.",
 			"",
-			"**Student of the Earth (Lesser, Su):** This power functions as the {spirit/archmage} arcana spirit power, except that you add spells from the {main/spells_<druid/ spell list} instead of the sorcerer/wizard spell list. When you cast these spells, they count as divine.",
+			"**Student of the Earth (Lesser, Su):** This power functions as the {spirit/archmage} arcana spirit power, except that you add spells from the {main/druid spell/ list} instead of the sorcerer/wizard spell list. When you cast these spells, they count as divine.",
 			"",
 			">*Instead of your normal spells per day for your medium level, you use the spells per day from the {class/Mesmerist} class. For each level of spell you can now cast (including level 0), each time you channel Kelksiomides, select a single spell of that level from the druid spell list to add to your medium spell list and spells known until you lose contact with Kelksiomides. When you cast these spells, they count as divine (though not for the purpose of fulfilling prerequisites), and thus you must provide verbal and somatic components instead of thought and emotion components.*",
 			"",

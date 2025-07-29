@@ -1248,7 +1248,7 @@
 			"**Immunity to Magic (Ex)** A living rune is immune to spells and spell-like abilities that allow spell resistance. In addition, certain other spells and effects function differently against the creature as noted below.",
 			"",
 			"- An {spell/erase} spell deals 6d6 points of damage to a living rune.",
-			"- A living rune caught in the radius of any [symbol spell](main/spell_groupings) is immune to its effects and heals 1d8 points of damage per spell level. Hit points beyond its total maximum are gained as temporary hit points that fade in 1 hour.",
+			"- A living rune caught in the radius of any {main/symbol spell>s} is immune to its effects and heals 1d8 points of damage per spell level. Hit points beyond its total maximum are gained as temporary hit points that fade in 1 hour.",
 			"- A living rune is affected normally by {spell/magic missile}, {spell/maze}, and spells that deal sonic damage.",
 			"",
 			"**Symbols of Power (Su):** As a standard action, a living rune can shift its form into a number of powerful symbols whose effects can damage or incapacitate opponents. Each round the living rune can choose a new effect, but a particular symbol form can only be used once every 4 rounds. This attack is resolved with a touch attack and the save DC is Charisma-based.",
@@ -1278,7 +1278,7 @@
 			"",
 			"### Origins",
 			"",
-			"In the annals of recorded history, ancient texts mentioning living runes always seem to do so in relation to the forgotten goddess Lissala, leading scholars to believe that either the creatures served worshipers of the deity in some way, or were rewarded as gifts to particularly devout supplicants. Some even speculate that Lissala herself is responsible for the creation of living runes. Others conjecture that living runes have always been, and are among the universe's eldest creatures, having escaped from the lips of some primordial god when the first words of creation were uttered. Evidence seems to dispute both these claims - the creatures are known to spring up from the scribbled text and graffiti of magic-soured ruins or untriggered [symbol spells](main/spell_groupings) long left to rot. Whatever the truth, these haughty creatures do not discuss their origins."
+			"In the annals of recorded history, ancient texts mentioning living runes always seem to do so in relation to the forgotten goddess Lissala, leading scholars to believe that either the creatures served worshipers of the deity in some way, or were rewarded as gifts to particularly devout supplicants. Some even speculate that Lissala herself is responsible for the creation of living runes. Others conjecture that living runes have always been, and are among the universe's eldest creatures, having escaped from the lips of some primordial god when the first words of creation were uttered. Evidence seems to dispute both these claims - the creatures are known to spring up from the scribbled text and graffiti of magic-soured ruins or untriggered {main/symbol spells} long left to rot. Whatever the truth, these haughty creatures do not discuss their origins."
 		]
 	},
 	"living_sandstorm_living_sandstorm_humanoid": {

@@ -662,6 +662,7 @@
 			}
 		]
 	},
+	"illusion_spell": { "redirect": "spells_illusion" },
 	"spells_necromancy": {
 		"title": "Necromancy Spells",
 		"description": [

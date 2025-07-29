@@ -386,7 +386,7 @@
 		"name": "Spell Blending",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
-			"**Spell Blending (Ex):** When a magus selects this arcana, he must select one spell from the {main/spells_<wizard/ spell list} that is of a magus spell level he can cast. He adds this spell to his spellbook and list of magus spells known as a magus spell of its wizard spell level. He can instead select two spells to add in this way, but both must be at least one level lower than the highest-level magus spell he can cast. A magus can select this magus arcana more than once. &mdash; {source/Ultimate Magic/ pg. 12}"
+			"**Spell Blending (Ex):** When a magus selects this arcana, he must select one spell from the {main/wizard spell/ list} that is of a magus spell level he can cast. He adds this spell to his spellbook and list of magus spells known as a magus spell of its wizard spell level. He can instead select two spells to add in this way, but both must be at least one level lower than the highest-level magus spell he can cast. A magus can select this magus arcana more than once. &mdash; {source/Ultimate Magic/ pg. 12}"
 		]
 	},
 	"spell_shield": {

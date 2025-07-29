@@ -246,7 +246,7 @@
 			"",
 			"This ability alters hunter's bond.",
 			"",
-			"**Dandy Spells (Su):** At 4th level, the dandy gains a different sort of spellcasting than most rangers. A dandy uses his Charisma instead of his Wisdom to determine spells per day, DCs, and other factors related to spellcasting. He casts spells spontaneously from the {main/spells_<bard/ spell list} (rather than the ranger spell list) with the same number of spells known and spells per day as a {class/medium} of his ranger level.",
+			"**Dandy Spells (Su):** At 4th level, the dandy gains a different sort of spellcasting than most rangers. A dandy uses his Charisma instead of his Wisdom to determine spells per day, DCs, and other factors related to spellcasting. He casts spells spontaneously from the {main/bard spell/ list} (rather than the ranger spell list) with the same number of spells known and spells per day as a {class/medium} of his ranger level.",
 			"",
 			"This ability alters the ranger's spellcasting.",
 			"",
@@ -884,7 +884,7 @@
 			"",
 			"**Spells:** At 4th level, a Nirmathi irregular increases his number of spells per day by +1 for every spell level. This means the irregular gets at least 1 spell per day as soon as he gains access to a level of spells, even if Table 3-12: Ranger in the Core Rulebook lists 0 for spells per day.",
 			"",
-			"A Nirmathi irregular also learns to draw upon druidic magic, perhaps from association with the druids of Crystalhurst or a natural connection to the magic of the Fangwood. Each day when the ranger prepares spells, he may choose one {main/spells_<druid/ spell} and prepare it as if it were on the ranger spell list as a ranger spell of its druid spell level."
+			"A Nirmathi irregular also learns to draw upon druidic magic, perhaps from association with the druids of Crystalhurst or a natural connection to the magic of the Fangwood. Each day when the ranger prepares spells, he may choose one {main/druid spell} and prepare it as if it were on the ranger spell list as a ranger spell of its druid spell level."
 		]
 	},
 	"planar_scout": {
@@ -1006,7 +1006,7 @@
 			"",
 			"This ability replaces camouflage.",
 			"",
-			"**Argent Magic:** A raven master casts spells as do most rangers, but her spell list is somewhat expanded from the normal options most rangers can choose from, for her association with the bards and other talented performers among the Silver Ravens allows her to add a limited number of {main/spells_<bard/ spells} to her spell list. These spells function as divine spells, and are cast and prepared in the same manner as her other ranger spells.",
+			"**Argent Magic:** A raven master casts spells as do most rangers, but her spell list is somewhat expanded from the normal options most rangers can choose from, for her association with the bards and other talented performers among the Silver Ravens allows her to add a limited number of {main/bard spell/s} to her spell list. These spells function as divine spells, and are cast and prepared in the same manner as her other ranger spells.",
 			"",
 			"At 6th level, the raven master selects one 1st-level bard spell of her choice and adds it to her spell list as a 1st-level ranger spell. At 9th level she does the same but for a 2nd-level bard spell. She adds a 3rd-level bard spell at 12th level, and adds a 4th-level bard spell at 15th level.",
 			"",

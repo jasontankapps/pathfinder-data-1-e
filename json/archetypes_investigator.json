@@ -787,7 +787,7 @@
 			"",
 			"This ability alters inspiration.",
 			"",
-			"**Spells:** A questioner casts arcane spells drawn from the {main/spells_<bard/ spell list}. He can cast any spell he knows without preparing it ahead of time. To learn or cast a spell, a questioner must have an Intelligence score equal to at least 10 + the spell's level. The saving throw DC against a questioner's spell is equal to 10 + the spell's level + the questioner's Intelligence modifier.",
+			"**Spells:** A questioner casts arcane spells drawn from the {main/bard spell/ list}. He can cast any spell he knows without preparing it ahead of time. To learn or cast a spell, a questioner must have an Intelligence score equal to at least 10 + the spell's level. The saving throw DC against a questioner's spell is equal to 10 + the spell's level + the questioner's Intelligence modifier.",
 			"",
 			"Like other spellcasters, a questioner can cast only a certain number of spells of each spell level per day. He knows the same number of spells and receives the same number of spell slots per day as a {class/bard} of his investigator level, including for cantrips. In addition, he receives {rule/determine_<bonus/ spells per day>es} if he has a high Intelligence score.",
 			"",

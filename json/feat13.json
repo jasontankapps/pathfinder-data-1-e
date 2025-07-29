@@ -2305,7 +2305,7 @@
 			"",
 			"Calling on the power of Erastil, you can fire an arrow that heals instead of harms.  ",
 			"**Prerequisites:** Ability to cast *cure* spells, proficient with longbow, worshiper of {faith/Erastil}.  ",
-			"**Benefit:** Once per day when you cast a {main/cure |spell/>_groupings}, you can replace the normal somatic component with drawing a {eq-weapon/longbow} to create a shaft of green glowing light. When you fire the bow as a part of casting the spell and hit your target with a ranged touch attack, the green shaft of light cures the target as if it were touched by the *cure* spell."
+			"**Benefit:** Once per day when you cast a {main/cure spell>s}, you can replace the normal somatic component with drawing a {eq-weapon/longbow} to create a shaft of green glowing light. When you fire the bow as a part of casting the spell and hit your target with a ranged touch attack, the green shaft of light cures the target as if it were touched by the *cure* spell."
 		]
 	},
 	"scale_and_skin": {
@@ -3277,7 +3277,7 @@
 			"**Prerequisites:** Neutral evil, patron deity {faith/Zon-Kuthon}.  ",
 			"**Benefit:** Add the following spells to your druid spell list. 0-{spell/disrupt undead}, {spell/ray of frost}; 1st-{spell/ghost sound}, {spell/touch of fatigue}; 2nd-{spell/chill touch}, {spell/spectral hand}; 3rd-{spell/ghoul touch}, {spell/invisibility}; 4th-{spell/displacement}, {spell/ray of exhaustion}; 5th-{spell/animate dead}, {spell/phantasmal killer}; 6th-{spell/nightmare}, {spell/waves of fatigue}; 7th-{spell/circle of death}, {spell/shadow walk}; 8th-{spell/mass invisibility}, {spell/waves of exhaustion}; 9th-{spell/horrid wilting}, {spell/weird}.",
 			"",
-			"Remove all spells with the fire descriptor from all your spell lists (not just your {main/spells_<druid/ spell list}). You cannot cast any spells with the fire descriptor, nor activate them off scrolls, wands, or any other magic devices. In addition, you may not use wild shape to take the form of any creature with the fire subtype.",
+			"Remove all spells with the fire descriptor from all your spell lists (not just your {main/druid spell/ list}). You cannot cast any spells with the fire descriptor, nor activate them off scrolls, wands, or any other magic devices. In addition, you may not use wild shape to take the form of any creature with the fire subtype.",
 			"",
 			"**Special:** As part of this feat, you create a personal Umbrae-Token that ties your soul and your doings to the fell power of the Uskwood. This potent object is treated as a wooden unholy symbol that radiates faint necromancy magic. If your Umbrae-Token is ever destroyed, your connection to the shadowy heart of the Uskwood is severed and all benefits of this feat are lost until another is created. This process requires a journey to the Uskwood and an {spell/atonement} spell cast by a fellow worshiper of Zon-Kuthon."
 		]

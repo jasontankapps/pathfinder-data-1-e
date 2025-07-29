@@ -478,7 +478,7 @@
 			"",
 			"You have learned magical secrets from the fey.  ",
 			"**Prerequisites:** Cha 13, Spellcraft 1 rank, ability to cast {class/ranger} spells.  ",
-			"**Benefit:** Choose a 1st-level spell, a 2nd-level spell, a 3rd-level spell, and a 4th-level spell from the {main/spells_<bard}, {main/spells<sorcerer|//wizard}, or {main/spells_<witch} spell list that is either from the enchantment or illusion school or a spell with the curse descriptor. Add those spells to your ranger spell list. Once chosen, these spells cannot be changed."
+			"**Benefit:** Choose a 1st-level spell, a 2nd-level spell, a 3rd-level spell, and a 4th-level spell from the {main/spells_<bard}, {main/spells<sorcerer|//wizard}, or {main/witch spell/ list} that is either from the enchantment or illusion school or a spell with the curse descriptor. Add those spells to your ranger spell list. Once chosen, these spells cannot be changed."
 		]
 	},
 	"fey_guarded": {
@@ -876,7 +876,7 @@
 			"{SOURCE Ultimate Magic/150}",
 			"",
 			"Your ability to command fire and bardic music has created a strange blend of both magics.  ",
-			"**Prerequisites:** Spellcraft 5 ranks, ability to cast {main/spells_<bard/ spells}, ability to cast an arcane fire spell from some other spellcasting class.  ",
+			"**Prerequisites:** Spellcraft 5 ranks, ability to cast {main/bard spell/s}, ability to cast an arcane fire spell from some other spellcasting class.  ",
 			"**Benefit:** When you cast a bard spell that deals damage, you may replace the spell's normal damage with fire damage or split the spell's damage so that half of it is the normal damage type and half is fire damage.",
 			"",
 			"If you cast a {spell/summon monster} spell as a bard spell, you may choose to give the summoned creature a fiery appearance, which gives it fire resistance 5 and adds +1 fire damage to all of its natural attacks. The creature sheds {rule/dim light} in a 5-foot radius. This aspect of the feat has no effect if the creature already has the fire subtype.",
@@ -2607,7 +2607,7 @@
 			"",
 			"Although shoreborn see little of their aquatic parents, they can still call on their underwater kin for help.  ",
 			"**Prerequisites:** Shoreborn {race/half-elf}.  ",
-			"**Benefit:** Once per day, you can fill a vial with water from a natural source and the water will turn magical, functioning as a potion of a 1st-level {main/spells_<druid/ spell} of your choice with a caster level equal to your Hit Dice. This potion becomes inert after a number of hours equal to your Hit Dice."
+			"**Benefit:** Once per day, you can fill a vial with water from a natural source and the water will turn magical, functioning as a potion of a 1st-level {main/druid spell} of your choice with a caster level equal to your Hit Dice. This potion becomes inert after a number of hours equal to your Hit Dice."
 		]
 	},
 	"gilded_weapons": {

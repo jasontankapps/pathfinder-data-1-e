@@ -1312,6 +1312,7 @@
 			"::main[Bard Spells (Levels 5-6)]{endem=\"(138 spells)\" to=main/spells_bard_5_6}"
 		]
 	},
+	"bard_spell": { "redirect": "spells_bard" },
 	"spells_bard_0_1": {
 		"title": "Bard Spells Levels 0-1",
 		"description": [

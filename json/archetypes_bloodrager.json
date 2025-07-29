@@ -64,7 +64,7 @@
 			"",
 			"**Infernal-Hellish Aura (Su):** Animals don't willingly approach the familiar unless the animal's master succeeds at a DC 15 Handle Animal, Ride, or {ability/wild empathy} check. This DC increases to 20 at 10th level, and to 25 at 20th level. Animal companions, familiars and mounts are immune to this effect.",
 			"",
-			"**Undead-Unliving Physiology (Su):** The familiar is alive, but is treated as undead for all effects that affect undead differently from living creatures, such as {main/cure |spell/s>_groupings} and channeled energy.",
+			"**Undead-Unliving Physiology (Su):** The familiar is alive, but is treated as undead for all effects that affect undead differently from living creatures, such as {main/cure spells} and channeled energy.",
 			"",
 			":::"
 		]
@@ -421,7 +421,7 @@
 			"",
 			"**Restrained Magic (Su):** At 3rd level, an urban bloodrager can attune her spells so they are less likely to impact her allies or innocent bystanders. When the bloodrager casts a spell, she can grant a +2 bonus on the saving throw against that spell to any creatures she is aware of that are targeted by the spell or within the spell's area. Any creature that receives this bonus and succeeds at its save is unaffected by the spell, as if it hadn't been targeted or wasn't in the area. This ability replaces blood sanctuary.",
 			"",
-			"**Adopted Magic:** At 7th level, an urban bloodrager learns some of the secrets of other magical traditions from other denizens of the city. She can select from the {main/spells_<bard} or {main/spells_<magus} spell list any spell of a level she can cast, and add it to her bloodrager spell list and to her bloodrager spells known. At 10th level and every 3 levels thereafter, the urban bloodrager can add another such spell to her spell list and spells known. If she chooses to learn a new spell in place of an old one, she can exchange a bard or magus spell for another. This ability replaces damage reduction.",
+			"**Adopted Magic:** At 7th level, an urban bloodrager learns some of the secrets of other magical traditions from other denizens of the city. She can select from the {main/spells_<bard} or {main/magus spell/ list} any spell of a level she can cast, and add it to her bloodrager spell list and to her bloodrager spells known. At 10th level and every 3 levels thereafter, the urban bloodrager can add another such spell to her spell list and spells known. If she chooses to learn a new spell in place of an old one, she can exchange a bard or magus spell for another. This ability replaces damage reduction.",
 			"",
 			"**Bloodline:** The following bloodlines are especially suitable for an urban bloodrager, reflecting either a more nuanced origin or ancestry from city-dwelling magical creatures: {blrgbloodline/aberrant}, {blrgbloodline/arcane}, {blrgbloodline/celestial}, {blrgbloodline/destined}, {blrgbloodline/infernal}, and {blrgbloodline/undead}."
 		]

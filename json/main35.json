@@ -970,5 +970,9 @@
 			":::"
 		],
 		"searchgroup": "spell"
-	}
+	},
+	"cure_spells": { "redirect": "spell_groupings" },
+	"inflict_spells": { "redirect": "spell_groupings" },
+	"symbol_spells": { "redirect": "spell_groupings" },
+	"detect_spells": { "redirect": "spell_groupings" }
 }

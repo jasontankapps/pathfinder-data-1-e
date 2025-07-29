@@ -416,6 +416,7 @@
 			}
 		]
 	},
+	"unchained_summoner_spell": { "redirect": "spells_unchained_summoner" },
 	"spells_druid": {
 		"title": "All Druid Spells",
 		"description": [
@@ -433,6 +434,7 @@
 		],
 		"searchgroup": "spell"
 	},
+	"druid_spell": { "redirect": "spells_druid" },
 	"spells_druid_0_1": {
 		"title": "Druid Spells Levels 0-1",
 		"description": [

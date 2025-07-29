@@ -1231,7 +1231,7 @@
 			"",
 			"**Weapon and Armor Proficiency:** An inquisitor is proficient with all simple weapons, plus the {eq-weapon/hand crossbow}, {eq-weapon/longbow}, {eq-weapon/repeating crossbow}, {eq-weapon/shortbow}, and the favored weapon of her deity. She is also proficient with light armor, medium armor, and shields (except tower shields).",
 			"",
-			"@b[Spells:]{jl=Spells} An inquisitor casts divine spells drawn from the {main/spells_<inquisitor/ spell list}. She can cast any spell she knows at any time without preparing it ahead of time, assuming she has not yet used up her allotment of spells per day for the spell's level.",
+			"@b[Spells:]{jl=Spells} An inquisitor casts divine spells drawn from the {main/inquisitor spell/ list}. She can cast any spell she knows at any time without preparing it ahead of time, assuming she has not yet used up her allotment of spells per day for the spell's level.",
 			"",
 			"To learn or cast a spell, an inquisitor must have a Wisdom score equal to at least 10 + the spell level. The DC for a saving throw against an inquisitor's spell is 10 + the spell level + the inquisitor's Wisdom modifier.",
 			"",

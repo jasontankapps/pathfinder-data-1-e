@@ -266,7 +266,7 @@
 		"compilationSources": [ [ "Magical Marketplace" ] ],
 		"category": "Primary Bomb Discoveries",
 		"description": [
-			"When the alchemist creates a bomb, he can choose to have it heal damage instead of dealing it. Creating a healing bomb requires the alchemist to expend an infused extract or potion containing a [cure spell](main/spell_groupings). A creature that takes a direct hit from a healing bomb is healed as if she had imbibed the infusion or potion used to create the bomb. Creatures in the splash radius are healed for the minimum amount of damage the cure spell is capable of healing. A healing bomb damages undead instead of healing them."
+			"When the alchemist creates a bomb, he can choose to have it heal damage instead of dealing it. Creating a healing bomb requires the alchemist to expend an infused extract or potion containing a {main/cure spell>s}. A creature that takes a direct hit from a healing bomb is healed as if she had imbibed the infusion or potion used to create the bomb. Creatures in the splash radius are healed for the minimum amount of damage the cure spell is capable of healing. A healing bomb damages undead instead of healing them."
 		],
 		"addenda": [ "primarybomb" ]
 	},
@@ -1304,7 +1304,7 @@
 		"compilationSources": [ [ "Cohorts and Companions" ] ],
 		"category": "Other Discoveries",
 		"description": [
-			"Your studies into how all things are interconnected have taught you to cast a very limited number of spells. Select a single spell from the {main/spells_<sorcerer}/{main/spells_<wizard} spell list that is at least 2 levels lower than your highest-level extract known. You can prepare and cast this spell as an arcane spell. Preparing the spell uses up an extract slot 1 level higher than the spell's level. Your caster level is equal to your alchemist level, and your save DCs and {rule/concentration} checks are Intelligence-based. You're considered to have this spell on your spell list for purposes of prerequisites, {misc/spell completion} items, and {misc/spell trigger} items. You may select this discovery more than once. Each time, it grants you access to another spell from the sorcerer/wizard spell list."
+			"Your studies into how all things are interconnected have taught you to cast a very limited number of spells. Select a single spell from the {main/spells_<sorcerer}/{main/wizard spell/ list} that is at least 2 levels lower than your highest-level extract known. You can prepare and cast this spell as an arcane spell. Preparing the spell uses up an extract slot 1 level higher than the spell's level. Your caster level is equal to your alchemist level, and your save DCs and {rule/concentration} checks are Intelligence-based. You're considered to have this spell on your spell list for purposes of prerequisites, {misc/spell completion} items, and {misc/spell trigger} items. You may select this discovery more than once. Each time, it grants you access to another spell from the sorcerer/wizard spell list."
 		]
 	},
 	"spontaneous_healing": {

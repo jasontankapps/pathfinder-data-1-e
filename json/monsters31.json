@@ -1736,7 +1736,7 @@
 			"",
 			"::sh[Special Abilities]",
 			"",
-			"**Breath Weapons (Su)** As a standard action, a dragon horse can breathe out a 30-foot cone of mist. This mist either deals 10d6 points of cold damage (DC 20 Reflex half), creates a region of fog in the area that lasts for 1 minute (similar to that created by a fog cloud spell), or creates a blast of severe wind (see the [wind effects table](rule/weather)) in the area. The dragon horse may use this breath weapon once every 1d4 rounds. The save DC is Constitution-based.",
+			"**Breath Weapons (Su)** As a standard action, a dragon horse can breathe out a 30-foot cone of mist. This mist either deals 10d6 points of cold damage (DC 20 Reflex half), creates a region of fog in the area that lasts for 1 minute (similar to that created by a {spell/fog cloud} spell), or creates a blast of severe wind (see the {rule/wind/ effects table}) in the area. The dragon horse may use this breath weapon once every 1d4 rounds. The save DC is Constitution-based.",
 			"",
 			"**Flying Charge (Ex)** A dragon horse gains a +4 bonus on damage rolls if it charges while flying.",
 			"",

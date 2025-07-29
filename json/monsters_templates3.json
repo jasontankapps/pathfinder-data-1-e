@@ -1068,6 +1068,8 @@
 			""
 		]
 	},
+	"werewolf": { "redirect": "lycanthrope" },
+	"werewolves": { "redirect": "lycanthrope" },
 	"lycanthropic_creature": {
 		"name": "Lycanthropic Creature",
 		"sources": [ "Horror Adventures" ],

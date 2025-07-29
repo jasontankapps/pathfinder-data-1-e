@@ -353,6 +353,7 @@
 			}
 		]
 	},
+	"paladin_spell": { "redirect": "spells_paladin" },
 	"spells_alchemist": {
 		"title": "Alchemist Spells",
 		"searchgroup": "spell",
@@ -891,6 +892,7 @@
 		],
 		"searchgroup": "spell"
 	},
+	"spiritualist_spell": { "redirect": "spells_spiritualist" },
 	"spells_spiritualist_0_2": {
 		"title": "Spiritualist Spells Levels 0-2",
 		"description": [
@@ -1851,6 +1853,7 @@
 			}
 		]
 	},
+	"bloodrager_spell": { "redirect": "spells_bloodrager" },
 	"spells_summoner": {
 		"title": "All Summoner Spells",
 		"description": [
@@ -2318,5 +2321,6 @@
 				]
 			}
 		]
-	}
+	},
+	"summoner_spell": { "redirect": "spells_summoner" }
 }

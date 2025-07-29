@@ -16,6 +16,7 @@
 			"::main[Witch Spells (Levels 7-9)]{endem=\"(165 spells)\" to=main/spells_witch_7_9}"
 		]
 	},
+	"witch_spell": { "redirect": "spells_witch" },
 	"spells_witch_0_1": {
 		"title": "Witch Spells Levels 0-1",
 		"searchgroup": "spell",
@@ -1997,6 +1998,7 @@
 		],
 		"searchgroup": "spell"
 	},
+	"shaman_spell": { "redirect": "spells_shaman" },
 	"spells_shaman_0_1": {
 		"title": "Shaman Spells Levels 0-1",
 		"description": [

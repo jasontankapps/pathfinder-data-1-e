@@ -14,6 +14,7 @@
 		],
 		"searchgroup": "spell"
 	},
+	"inquisitor_spell": { "redirect": "spells_inquisitor" },
 	"spells_inquisitor_0_1": {
 		"title": "Inquisitor Spells Levels 0-1",
 		"description": [
@@ -984,6 +985,7 @@
 			"::main[Medium Spells (Level 3+)]{endem=\"(157 spells)\" to=main/spells_medium_3_6}"
 		]
 	},
+	"medium_spell": { "redirect": "spells_medium" },
 	"spells_medium_0_1": {
 		"title": "Medium Spells Levels 0-1",
 		"searchgroup": "spell",
@@ -1827,6 +1829,7 @@
 		],
 		"searchgroup": "spell"
 	},
+	"ranger_spell": { "redirect": "spells_ranger" },
 	"spells_ranger_1": {
 		"title": "Ranger Spells Level 1",
 		"description": [
@@ -3032,5 +3035,6 @@
 				]
 			}
 		]
-	}
+	},
+	"adept_spell": { "redirect": "spells_adept" }
 }

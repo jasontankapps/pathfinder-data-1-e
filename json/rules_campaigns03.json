@@ -1521,13 +1521,13 @@
 			"",
 			"@HL[Fortifications:] An army located in a fortification adds the fortification's Defense to its DV. A settlement's Defense is determined by the types of buildings it contains, as detailed in the {rule/kingdom-building/ rules}. If the game isn't using the kingdom-building rules, a typical fortification increases DV by 8.",
 			"",
-			"@HL[Rain:] Rain affects modifiers to OM in the Ranged phase as if it were severe wind; see [Table 13-10: Wind Effects](rule/weather).",
+			"@HL[Rain:] Rain affects modifiers to OM in the Ranged phase as if it were severe wind; see {rule/Table 13-10: |Wind[ Effect]s}.",
 			"",
 			"@HL[Sandstorm:] A sandstorm counts as fog and deals 1 hp of damage to all armies during each Ranged and Melee phase.",
 			"",
 			"@HL[Snow:] Snow affects ranged attacks like rain, and affects damage like fog.",
 			"",
-			"@HL[Wind:] The wind modifiers to ranged attacks apply to OM in the Ranged phase; see [Table 13-10: Wind Effects](rule/weather)."
+			"@HL[Wind:] The wind modifiers to ranged attacks apply to OM in the Ranged phase; see {rule/Table 13-10: |Wind[ Effect]s}."
 		],
 		"parent_topics": [
 			"gm_specific_campaigns",
