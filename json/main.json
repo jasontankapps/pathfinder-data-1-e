@@ -188,6 +188,8 @@
 			"",
 			"::main[Aquatic Adventures]{to=rule/aquatic_adventures_aa}",
 			"",
+			"::main[Caravans]{to=rule/caravans}",
+			"",
 			"::main[Horror Rules]{to=rule/horror_rules}",
 			"",
 			"::main[Intrigue]{to=rule/intrigue_systems}",
