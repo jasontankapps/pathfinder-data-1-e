@@ -46,6 +46,9 @@ const RulesGroup37Page = lazy(() => import("./RulesGroup37Page"));
 const RulesGroup38Page = lazy(() => import("./RulesGroup38Page"));
 const RulesGroup39Page = lazy(() => import("./RulesGroup39Page"));
 const RulesGroup40Page = lazy(() => import("./RulesGroup40Page"));
+const RulesGroup41Page = lazy(() => import("./RulesGroup41Page"));
+const RulesGroup42Page = lazy(() => import("./RulesGroup42Page"));
+const RulesGroup43Page = lazy(() => import("./RulesGroup43Page"));
 
 interface PageProps {
 	id: string
@@ -92,6 +95,9 @@ const pages = [
 	(props: PageProps) => <RulesGroup38Page id={props.id} />,
 	(props: PageProps) => <RulesGroup39Page id={props.id} />,
 	(props: PageProps) => <RulesGroup40Page id={props.id} />,
+	(props: PageProps) => <RulesGroup41Page id={props.id} />,
+	(props: PageProps) => <RulesGroup42Page id={props.id} />,
+	(props: PageProps) => <RulesGroup43Page id={props.id} />,
 ];
 
 const RulesPage: React.FC = () => {

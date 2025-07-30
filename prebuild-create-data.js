@@ -113,7 +113,21 @@ $.skipColors || (() => {
 // Handle implicit jumplists
 const jl = (text, id, possibleText) => {
 	const jl = $.flags.implicitJumplist || [];
-	$.flags.implicitJumplist = [...jl, [(typeof possibleText === "string") && possibleText !== "jl" ? possibleText : text, id] ];
+	let newText = text;
+	if(typeof possibleText === "string") {
+		switch(possibleText) {
+			case "jl":
+				// Ignore
+				break;
+			case "strip":
+				// Remove non-alphanumerics and parentheticals at end
+				newText = text.replace(/( +\(.+?\))*([^-a-zA-Z0-9])*$/, "");
+				break;
+			default:
+				newText = possibleText;
+		}
+	}
+	$.flags.implicitJumplist = [...jl, [newText, id] ];
 };
 
 const alternateBlocks = {
@@ -125,6 +139,7 @@ const alternateBlocks = {
 		const n = meta.name || "";
 		const maybeClear = attrs.clear ? `<div style={{clear:"both"}}></div>` : "";
 		if(n === "mh") {
+			// Monster Header
 			const {cr, mr} = attrs;
 			if(cr || mr) {
 				const ender = (cr && mr) ? `CR ${cr}/MR ${mr}` : (cr ? `CR ${cr}` : `MR ${mr}`);
@@ -132,14 +147,17 @@ const alternateBlocks = {
 			}
 			return `${maybeClear}<p className="statblockHeader">${text}</p>\n`;
 		} else if (n === "sh") {
+			// Subheader
 			return `${maybeClear}<p className="statblockSubHeader">${text}</p>\n`;
 		} else if (n === "fh") {
+			// Faith Header
 			const {sub} = attrs;
 			if(sub) {
 				return `${maybeClear}<div className="headerLike"><div>${text}</div><div className="sub">${sub}</div></div>\n`;
 			}
 			return `${maybeClear}<div className="headerLike">${text}</div>\n`;
 		} else if (n === "ph") {
+			// Plane Header
 			const {sub, desc, cat} = attrs;
 			let main = `<p className="statblockHeader"><span>${text}</span></p>`;
 			if(sub) {
@@ -153,6 +171,7 @@ const alternateBlocks = {
 			}
 			return maybeClear + main + "\n";
 		} else if (n === "mhr") {
+			// Main page Horizontal rule
 			$.flags.divider = true;
 			return `${maybeClear}<IonItemDivider className="mainItem divider"></IonItemDivider>`;
 		} else if (n === "mainheader") {
