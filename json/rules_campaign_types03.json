@@ -1,0 +1,1648 @@
+{
+	"fleshwarping": {
+		"name": "Fleshwarping",
+		"subtitle": "Horror, Specific Campaigns",
+		"sources": [ "Horror Adventures" ],
+		"description": [
+			"{SOURCE Horror Adventures/164}",
+			"",
+			"While the pain of physical torture and of a ghoul stripping flesh from the bones of its alive-but-paralyzed prey are horrible ends, few fates are as ghastly as the dire transformations made by the fleshwarper. Fleshwarping is the general term for two main magical and alchemical practices: \"true fleshwarping\" and fleshcrafting. It is also used to describe transformative mutations caused by exposure to polluted alchemy labs, magical radiation, or either cursed or corrupted magic, which are properly known as fleshwarp mutations.",
+			"",
+			"True fleshwarping is a vile and violent practice, both alchemical and magical, used to transform one creature into an entirely new form. It's a horrific art practiced by the drow and other depraved societies to create servants or to bind creatures into twisted forms as sadistic punishment. Fleshcrafting uses a similar process to physically modify the subject by mutating or replacing a body part with that of another creature. This gruesome discipline can also be used to create fleshcraft elixirs that grant creatures temporary versions of fleshcraft grafts.",
+			"",
+			"In addition to the intentional practices of true fleshwarping and fleshcrafting is a transformation called a fleshwarp mutation, which also involves the nightmarish metamorphosis of a creature into a new form. This type of fleshwarping, however, is a phenomenon rather than a willful act, and typically occurs after a creature interacts with a particularly strong magical or alchemical hazard. The more a creature is exposed to that hazard, the greater the effects of the fleshwarp mutation."
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"horror_rules"
+		],
+		"subtopics": [
+			"true_fleshwarping",
+			"fleshcrafting",
+			"fleshwarp_mutations"
+		],
+		"siblings": [
+			"horror_characters",
+			"fear_ha",
+			"sanity",
+			"corruption",
+			"curses_ha",
+			"horrific_diseases",
+			"horror_environments",
+			"fleshwarping",
+			"madness",
+			"running_horror_adventures"
+		]
+	},
+	"true_fleshwarping": {
+		"name": "True Fleshwarping",
+		"subtitle": "Horror, Specific Campaigns",
+		"sources": [ "Horror Adventures" ],
+		"description": [
+			"{SOURCE Horror Adventures/164}",
+			"",
+			"Willfully transforming one creature into another through magical and alchemical processes is a terrifying technique performed by the most cruel and vicious of creatures. Power-hungry necromancers, heartless alchemists, demon worshipers, {monster/aboleth/s}, and the {race/drow} are some of the best-known practitioners of this foul art, using dark knowledge and secret formulas to flay the creature's flesh and twist them into amalgamated forms.",
+			"",
+			"Some sages theorize that other amalgamated creatures, such as {monster/chimera/s}, {monster/owlbear/s}, and maybe even {monster/skum} and {monster/bulette/s}, could have also been the result of an archaic form of fleshwarping. Legends involving {faith/Lamashtu/'s} creation of the chimera give a certain amount of credence to this theory, but even it's true, the secrets to these early fleshwarps are long lost.",
+			"",
+			"While fleshwarping often yields results useful to those depraved enough to carry it out, the act of creating a fleshwarp is always evil, as it requires unspeakable acts and horrific physiological and psychological torture inflicted upon the subject of the transformation. Unfortunately, this has not stopped the occasional alchemist or arcanist from pursuing fleshwarping for the well-meaning but ultimately deluded purposes of species genesis.",
+			"",
+			"Worse still, while the rare fleshwarp formula develops a truly unique race, this seems to be the exception rather than the rule. In the majority of cases, the process involves the utter corruption of sentient beings warped into lurching monstrosities that are both intellectually stunted and existentially compromised. As such, most fleshwarp creatures are sterile. The most famous fleshwarp mutation, the {monster/drider}, is the chief exception to this rule. Still, the process of creating a drider is no blessing, but rather a cruel punishment perpetrated by the depraved dark elves upon their own kind. If possible, the processes drow inflict on other creatures are even crueler. This also points to another rule of fleshwarping: creatures that are inherently evil tend to take forms that are useful and powerful, while good creatures tend to metamorphose into more twisted and helpless forms. Another quirk of true fleshwarping is that targets of mixed race, such has half-elves and half-orcs, usually transform into creatures that more strongly reflect their non-human parentage. Lastly, while dwarves have proven strangely resilient to drow methods of fleshwarping, the methods of other races have successfully warped dwarves into new creatures.",
+			"",
+			"@HL[Fleshwarping Process:] The creation of a true fleshwarp is partly magical and partly alchemical. While a team of alchemists, spellcasters, and torturers is often assembled to perform fleshwarping, it must be led by at least one creature that has the {feat/Fleshwarper} feat and must be performed on a living creature or creatures. Any attempt to fleshwarp a corpse automatically fails.",
+			"",
+			"Before the process, a fleshwarper usually restrains the subject or subjects. She then must make precise cuts in a subject's flesh and insert tubes into those incisions. These tubes connect to vats of bubbling alchemical substances, which are pumped into the subject's body, racking it with agony. These fluids break down the subject's corporeal form, making it more malleable. Each subject undergoing the fleshwarping process must succeed at a DC 15 Fortitude save or instantly die from this procedure. If the fleshwarper succeeds at a DC 20 Heal check during this process, she grants the subject a +2 bonus on this saving throw.",
+			"",
+			"Assuming a subject survives the fluid infusion, the fleshwarper then forces a breathing tube down the subject's throat. Unable to speak, the subject is at best able to make strangled noises as the fleshwarper immerses it into the alchemical concoction that completes its transformation. Once immersed in the alchemical compound, the subject's body goes through a rapid series of transformations. During this arduous process, attendants must periodically remove necrotic tissue and organs, as well as flesh that has sloughed off the creature's body.",
+			"",
+			"The entire fleshwarping process requires 1 day per Hit Die of the final fleshwarped creature. During this time, the fleshwarper must succeed at a Craft (alchemy) check with a DC equal to the creation DC of the fleshwarped creature (typically, 15 + the final fleshwarped creature's Hit Dice) each day. Creating a fleshwarped creature takes a number of days equal to 1 + the final fleshwarped creature's CR. The fleshwarper can't gain the benefit of aid another nor can she take 10 on these checks. Failure indicates each subject undergoing the fleshwarping process takes 1d3 points of Constitution damage, which can't be healed until the process is complete, and that day's work doesn't count toward the creation time. If a fleshwarping subject's Constitution damage (whether from this failure or the final Constitution damage at the conclusion) ever equals or exceeds its Constitution score, its body collapses into protoplasmic goo. Creatures slain in such a fashion can't be raised from the dead except by {spell/true resurrection} or equally powerful magic, and if any of the component creatures breaks down in this way, the final fleshwarp fails.",
+			"",
+			"During the entire process, the subject is racked with the agony of the change. At the conclusion of the fleshwarping process, the final creation takes 2d6 points of Constitution damage. A successful DC 25 Heal check made by an attending participant can mitigate the suffering a subject undergoes, reducing the Constitution damage to 1d6 points.",
+			"",
+			"The alchemical components for fleshwarping are expensive, difficult to create, and expended after a single use. The ingredients for fleshwarping vary from one practitioner to the next, but often include corrosive fungi, poison from several breeds of giant insects, assorted pulverized oozes, essences from a chaos beast, protean spittle, and other exotic reagents. These reagents have a combined cost of 10,000 gp per subject to be fleshwarped in addition to other costs associated with specific fleshwarping procedures.",
+			"",
+			"### Fleshwarped Creatures",
+			"",
+			"Below is a list of creatures commonly created by fleshwarping, the requirements to create them, and the sourcebooks where they are detailed. The cost listed in each entry refers to the cost beyond the base reagents. If you want to create a new fleshwarp, you can develop a new monster using the various monsters below as guidelines or choose an existing monster and apply the simple {template/fleshwarped creature/ template}.",
+			"",
+			"{monster/Drider} (CR 7): Cost 1,500 gp; Creation DC 24, 8 days; Creatures 1 {race/drow} with at least 6 class levels, 1 {monster/giant spider}.",
+			"",
+			"{monster/Fleshdreg} (CR 1): Cost 500 gp; Creation DC 17, 2 days; Creatures 1 humanoid.",
+			"",
+			"{monster/Ghonhatine} (CR 10): Cost 4,600 gp; Creation DC 27, 11 days; Creatures 1 {monster/troglodyte/ paragon} or 1 troglodyte with at least 8 class levels.",
+			"",
+			"{monster/Grothlut} (CR 3): Cost 1,050 gp; Creation DC 20, 4 days; Creatures 1 {race/human}.",
+			"",
+			"{monster/Halsora} (CR 7): Cost 1,475 gp; Creation DC 25, 8 days; Creatures 1 {monster/vegepygmy/ chieftain}.",
+			"",
+			"{monster/Irnakurse} (CR 9): Cost 3,500 gp; Creation DC 25, 10 days; Creatures 1 {race/elf} with at least 8 class levels.",
+			"",
+			"{monster/Sinspawn} (CR 2): Cost 1,000 gp; Creation DC 18, 3 days; Creatures 1 human."
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"horror_rules",
+			"fleshwarping"
+		],
+		"siblings": [
+			"true_fleshwarping",
+			"fleshcrafting",
+			"fleshwarp_mutations"
+		]
+	},
+	"fleshcrafting": {
+		"name": "Fleshcrafting",
+		"subtitle": "Horror, Specific Campaigns",
+		"sources": [ "Horror Adventures" ],
+		"description": [
+			"{SOURCE Horror Adventures/165}",
+			"",
+			"Fleshcrafting involves the same processes and applications as true fleshwarping, but is used to modify only a single portion of a living creature. Fleshcrafts are living pieces of tissue that can be attached to any corporeal, living creature via a graft or grown by a consumed elixir. Once attached, a fleshcraft immediately begins functioning and grants its listed abilities to the grafted creature. While a fleshcraft is partially magical in genesis, it doesn't radiate magic or have a caster level, regardless of whether it has been grafted to the subject or supplied via an elixir.",
+			"",
+			"@HL[Fleshcraft Grafts:] Creating a fleshcraft graft requires the {feat/Fleshwarper} feat and an alchemy lab worth at least 1,000 gp as well as 1 pound of living tissue per 1,000 gp value of the graft to be created. Creating a fleshcraft graft is like creating a magic item and requires 1 day of crafting time per 1,000 gp of the graft's value.",
+			"",
+			"Applying a fleshcraft graft to a target requires a 1-hour surgical procedure, during which time the subject must be either willing or helpless. At the end of the hour, the surgeon must attempt a Heal check against the graft's listed DC. Failure indicates the patient's body rejects the graft and the graft dies. Regardless of the surgery's success, the subject takes 1d4 points of Constitution damage and 1d4 points of Wisdom damage (or 1d8 points of sanity damage, if employing the {rule/sanity/ system}). Although fleshcraft grafts are not magical, some occupy a magic item slot on the body, preventing that slot from being used for any magic item or other graft.",
+			"",
+			"A fleshcraft graft can be removed with another hour-long surgery and a successful Heal check against the original DC. On a failure, either the graft remains or the surgeon removes the graft, destroying it and killing the subject (surgeon's choice). Alternatively, the surgeon can remove the graft more delicately and use healing magic to save the subject, attempting a DC 15 Heal check and applying a {spell/heal} or {spell/regenerate} spell immediately afterward. Failing this Heal check always results in the destruction of both graft and subject. A successful surgery removes and destroys the graft. Regardless of the method used and the surgery's success, the subject takes 1d4 points of Constitution damage and 1d4 points of Wisdom damage (or 1d8 points of sanity damage, if using the sanity system).",
+			"",
+			"@HL[Fleshcraft Elixirs:] A creature with the Fleshwarper feat can also create fleshcraft elixirs. Doing so requires an alchemy lab worth at least 1,000 gp as well as 1 pound of living tissue per 1,000 gp value of the elixir, just like creating a graft, but the components are distilled into the elixir. Creating a fleshcraft elixir is like creating a magic item and requires 1 day of crafting time per 1,000 gp of the graft's value. These potion-like concoctions can bestow the effect of an individual fleshcraft graft (a creature can't benefit from more than one at a time), but for a limited period of time. Imbibing a fleshcraft elixir works similarly to imbibing other potions or elixirs, except that it's slow acting, taking effect the round after it is imbibed (as if the imbiber were casting a 1-round casting time spell). Fleshcraft elixirs are foul and potentially dangerous.",
+			"",
+			"A fleshcraft elixir is keyed to a specific type of fleshcraft, and each elixir provides a Fortitude save that the imbiber must succeed at in order to gain that graft's effect for the limited duration. On a failed saving throw, the imbiber gains only the graft's penalty for its duration, and if the imbiber fails the saving throw by 5 or more, the imbiber also takes 1d6 points of Constitution damage. While not strictly magical (and not applicable for reuse with {spell/alchemical allocation}), they count as both transmutation and poison effects that affect only living creatures for the purposes of saving throws and resistances.",
+			"",
+			"Linked below are some examples of fleshcrafts. In addition to the name, slot, and effect, each fleshcraft presents information for both the elixir and the graft versions. Each category of information is explained below.",
+			"",
+			"@HL[Temporary Duration:] This is the length of time the fleshcraft lasts if the recipient is merely imbibing a fleshcraft elixir for its limited effects. This does not apply to a permanent fleshcraft such as a graft. If the graft has a limited number of uses per day, a creature affected by its corresponding elixir can use the ability the same number of times during the elixir's duration.",
+			"",
+			"@HL[Saving Throw:] This is the DC of the Fortitude saving throw the imbiber must succeed at to gain the benefits rather than just the penalties of the fleshcraft when imbibing a fleshcraft elixir. A creature imbibing a corresponding elixir that fails this saving throw by 5 or more also takes 1d6 points of Constitution damage.",
+			"",
+			"@HL[Penalty:] This is the penalty that a creature takes while benefiting from a fleshcraft graft or elixir, or takes if it fails the saving throw after imbibing a fleshcraft elixir.",
+			"",
+			"Fleshcrafts can be found in the {main/miscellaneous |magic /section>misc}."
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"horror_rules",
+			"fleshwarping"
+		],
+		"siblings": [
+			"true_fleshwarping",
+			"fleshcrafting",
+			"fleshwarp_mutations"
+		]
+	},
+	"fleshwarp_mutations": {
+		"name": "Fleshwarp Mutations",
+		"subtitle": "Horror, Specific Campaigns",
+		"sources": [ "Horror Adventures" ],
+		"description": [
+			"{SOURCE Horror Adventures/170}",
+			"",
+			"Not all fleshwarping is intentional. On occasion, creatures are exposed to environmental hazards that replicate the adverse results of fleshwarping with less grace and precision than the alchemical and magical process of true fleshwarping. Areas of intense magical radiation, alchemical pollution, wild magic, and corrupted ley lines all might cause spontaneous fleshwarp mutations, and in the presence of supremely alien creatures such as the {family/Great Old One/s}, the laws of reality can break down and sometimes create a similar effect, resulting in severe mutation and disfigurement.",
+			"",
+			"Fleshwarp mutations come at an even higher cost to the target's health, sanity, and life span than intentional fleshwarping. Fleshwarp mutations become more severe with greater exposure. Early mutations are typically cosmetic and act as a sign of something unnatural. Advanced fleshwarp mutations are always detrimental, causing physical and mental trauma to the creature.",
+			"",
+			"Fleshwarp mutations progress similarly to {rule/corruption/s}, so at the GM's discretion, spells or effects that help against corruptions might also apply to them.",
+			"",
+			"@HL[Acquiring Fleshwarp Mutations:] Any long-term magical hazard can potentially carry the risk of fleshwarp mutation. Exposure to polluted alchemical labs, vile curses, bizarre rituals, wild magic zones, and cursed magic items are all good examples of fleshwarp mutations sources. A source of fleshwarp mutation is a hazard and is assigned a corresponding CR that reflects its relative severity.",
+			"",
+			"For every hour a living creature is exposed to a fleshwarp mutation source, that creature must succeed at a Fortitude save (DC = 15 + the CR of the corruptive source). Success means the creature has fought off the fleshwarping effects for the time being. On the first failed save, the exposed creature immediate gains an early fleshwarp mutation (see Table 5-1) and takes 1d3 points of Wisdom damage (or 1d6 points of sanity damage, if using the {rule/sanity/ system}) due to the sudden and horrific nature of the metamorphosis. The second failed saving throw while the creature is within the same area increases the severity of the mutation. The creature gains an advanced mutation (see Table 5-2), and takes 1d6 points of Wisdom damage (or 2d4 points of sanity damage). Once a creature has at least one advanced mutation, further exposure within the same area causes another advanced mutation on a failed save. However, this level of physical deformity is extremely taxing on a mutated creature, and each subsequent new mutation imposes a cumulative -2 penalty to the creature's Constitution score as long as the fleshwarped creature has the mutation. If the total penalties from mutations are greater than or equal to a character's normal Constitution score, its body can't support all the conflicting mutations, and it either dies or spontaneously warps into a mad, horrific creature.",
+			"",
+			"Fleshwarp mutation effects are transmutation effects, and may also be poison effects based on the nature of the corruption causing the mutations. All mutations are extraordinary abilities. Fleshwarp mutations can be healed with curative magic. {spell/Lesser restoration}, {spell/restoration}, or greater healing magic can remove all early fleshwarp mutations. {spell/Greater restoration}, {spell/heal}, or *restoration* can remove all advanced fleshwarp mutations.",
+			"",
+			"### Table 5-1: Early Fleshwarp Mutations",
+			"",
+			"| d% | Mutation |",
+			"| --- | --- |",
+			"| 01-04 | **Animal Traits:** Fur or scales grow all over the creature's body. |",
+			"| 05-08 | **Bloated Neck:** The creature's neck becomes inflated and toad-like. |",
+			"| 09-12 | **Bone Protrusions:** Bony protrusions grow across the creature's body. |",
+			"| 13-16 | **Bulbous Cranium:** Misshapen lumps and nodules cover the creature's head. |",
+			"| 17-20 | **Elongated Tongue:** The creature's tongue elongates and cannot fit inside its mouth properly. |",
+			"| 21-24 | **Eye Stalks:** The creature's eyes protrude from their sockets on short stalks. |",
+			"| 25-28 | **Forked Tongue:** The creature's tongue becomes forked like a snake's. |",
+			"| 29-32 | **Gnarled:** The creature's flesh takes on knotty, whorled patterns all over the body. |",
+			"| 33-36 | **Hair Loss:** Hair falls out in clumpy patches across the creature's body. |",
+			"| 37-40 | **Huge Ears:** The creature's ears become large and floppy, like those of an elephant. |",
+			"| 41-44 | **Lidless Eyes:** The creature's eyes become saucer-like and lidless. |",
+			"| 45-48 | **Lipless Mouth:** The creature's mouth becomes lipless, with exposed teeth and gums. |",
+			"| 49-52 | **Long Fingers:** The creature's digits elongate and gain additional joints. |",
+			"| 53-56 | **Lurching:** The creature grows a few inches taller, becomes gaunter, and walks with a lurching and ponderous gait. |",
+			"| 57-60 | **Molten Flesh:** The creature's skin sags, appearing to run like a melted candle. |",
+			"| 61-64 | **Noseless:** The creature's nose rots away, exposing its sinus cavity. |",
+			"| 65-68 | **Pallid:** The creature's flesh becomes translucent, revealing the veins and muscle beneath. |",
+			"| 69-72 | **Ridges:** Prominent ridged protrusions grow on the creature's forehead. |",
+			"| 73-76 | **Sores:** Painful blisters and sores erupt all over the creature's body. |",
+			"| 77-80 | **Tumors:** Tumorous growths appear across the creature's body. |",
+			"| 81-84 | **Unnatural Eyes:** The creature's pupils become unnaturally shaped or colored. |",
+			"| 85-88 | **Vertical Eyelids:** The creature's eyelids now form vertical slits that open and close from side to side. |",
+			"| 89-92 | **Vestigial Digits:** Additional vestigial digits grow from the creature's hands and feet. |",
+			"| 93-96 | **Webbing:** Webbing grows between the creature's fingers and toes. |",
+			"| 97-100 | **Wide Eyes:** The creature's eyes subtly migrate toward the sides of its head. |",
+			"",
+			"### Table 5-2: Advanced Fleshwarp Mutations",
+			"",
+			"| d% | Mutation |",
+			"| --- | --- |",
+			"| 01-05 | **Bioluminescent:** The creature's flesh sheds an eerie light, the strength of a candle's. The creature takes a -4 penalty on Stealth checks. |",
+			"| 06-11 | **Clogged Ears:** The creature's ears close up and become useless. The creature is deafened. |",
+			"| 12-17 | **Crooked Spine:** Strange ridges and dislocations mar the creature's spine. Reduce its carrying capacity by half. |",
+			"| 18-25 | **Deformed Joints:** The creature's joints are knobby and twisted. It takes a -4 penalty on Dexterity-based skill checks. |",
+			"| 26-30 | **Deformed Legs:** The creature's legs are warped or misshapen in some fashion. Reduce its land speed by half. |",
+			"| 31-37 | **Dermal Fissures:** The creature's flesh painfully splits in dry cracks and exposes tender tissue beneath. Double the armor check penalty of any armor it wears and increases any bleed damage it takes by 1 point. |",
+			"| 38-43 | **Elongated Limbs:** The creature's limbs elongate slightly, causing bone aches. It takes a -2 penalty on attack rolls and Strength-based skill checks. |",
+			"| 44-59 | **Eye Clusters:** The creature's eyes divide and cluster into multiple, smaller eyes contained in each socket. It takes a -4 penalty on visual Perception checks. |",
+			"| 60-62 | **Frail:** The creature's organs fail easily. It takes a -2 penalty on Fortitude saves and on Constitution checks to stabilize while dying. |",
+			"| 63-68 | **Light Sensitivity:** The creature's eyes take on a reflective sheen, and it gains the {umr/light sensitivity} universal monster ability. |",
+			"| 69-74 | **Malformed Gills:** The creature gains non-functional gills that don't allow it to breathe water, but it also has difficulty breathing air and develops a wet, labored breathing. Additionally, it becomes fatigued for 1 hour anytime it runs or charges on land, though this condition ends if it submerges itself in water for 1 minute. |",
+			"| 75-80 | **Misshapen Mouth:** The creature's mouth is warped and deformed. All spells with verbal components suffer a 10% spell-failure chance and the creature takes a -4 penalty on checks that require it to speak, such as Diplomacy or Perform (oratory) checks. |",
+			"| 81-87 | **Rubbery Flesh:** Thick, rubbery hide replaces the creature's skin. It takes a -2 penalty on Dexterity-based skill checks and Reflex saves. |",
+			"| 88-94 | **Tumorous Brain:** Large tumors form in the creature's brain, causing its skull to deform. Anytime the creature casts a spell or attempts an Intelligence-based skill check, it becomes staggered for 1 round. |",
+			"| 95-100 | **Weeping Sores:** Open sores weep strange fluids down the creature's body. The creature takes a -4 penalty on Fortitude saves to resist diseases. |"
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"horror_rules",
+			"fleshwarping"
+		],
+		"siblings": [
+			"true_fleshwarping",
+			"fleshcrafting",
+			"fleshwarp_mutations"
+		]
+	},
+	"madness": {
+		"name": "Madness",
+		"subtitle": "Horror, Specific Campaigns",
+		"sources": [ "Horror Adventures" ],
+		"description": [
+			"{SOURCE Horror Adventures/182}",
+			"",
+			"Fractures, cuts, and abrasions wound the body, but madness undermines the mind, spirit, and personality. Suffering from madness can be terrifying, causing those afflicted to act contrary to their desires or reason.",
+			"",
+			"Madnesses are afflictions, similar in structure to poisons, diseases, and curses. They are used as part of the {rule/sanity/ system} as an outcome of severe assaults on a character's sanity, but GMs can use madness in other cases as well. Because madnesses are presented as afflictions, they can be used with the [alternate sanity and madness](rule/sanity_and_madness) system. If you're using the alternate rules, when those rules call for a character to gain an insanity, roll d%. The character gains a lesser madness on a roll of 1-70%, and a greater madness on a 71-100%. Once the potency of the madness is determined, roll on the appropriate table (Table 5-1 for a lesser madness and Table 5-2 for a greater madness) to determine the kind of madness the character gains, or select an appropriate madness that fits the situation.",
+			"",
+			"The madnesses in this section are works of fantasy. None are statements about or descriptions of existing maladies.",
+			"",
+			"### Table 5-1: Lesser Madness",
+			"",
+			"| d% | Madness |",
+			"| --- | --- |",
+			"| 01-10 | @ripple[madness/Delirium] |",
+			"| 11-22 | @ripple[madness/Delusion] |",
+			"| 23-32 | @ripple[madness/Fugue] |",
+			"| 33-42 | @ripple[madness/Hallucination] |",
+			"| 43-54 | @ripple[madness/Mania] |",
+			"| 55-66 | @ripple[madness/Melancholia] |",
+			"| 67-76 | @ripple[madness/Night Terrors] |",
+			"| 77-86 | @ripple[madness/Paranoid] |",
+			"| 87-100 | @ripple[madness/Phobia] |",
+			"",
+			"### Table 5-2: Greater Madness",
+			"",
+			"| d% | Madness |",
+			"| --- | --- |",
+			"| 01-18 | @ripple[madness/Amnesia] |",
+			"| 19-30 | @ripple[madness/Catatonia] |",
+			"| 31-48 | @ripple[madness/Cognitive Block] |",
+			"| 49-66 | @ripple[madness/Dissociated Identity] |",
+			"| 67-78 | @ripple[madness/Moral Insanity] |",
+			"| 79-85 | @ripple[madness/Psychosomatic Loss] |",
+			"| 86-100 | @ripple[madness/Schizophrenia] |"
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"horror_rules"
+		],
+		"subtopics": [
+			"reading_a_madness_stat_block",
+			"curing_madness",
+			"horrific_madnesses"
+		],
+		"siblings": [
+			"horror_characters",
+			"fear_ha",
+			"sanity",
+			"corruption",
+			"curses_ha",
+			"horrific_diseases",
+			"horror_environments",
+			"fleshwarping",
+			"madness",
+			"running_horror_adventures"
+		]
+	},
+	"reading_a_madness_stat_block": {
+		"name": "Reading a Madness Stat Block",
+		"subtitle": "Horror, Specific Campaigns",
+		"sources": [ "Horror Adventures" ],
+		"description": [
+			"{SOURCE Horror Adventures/182}",
+			"",
+			"Madnesses are formatted in the same way as other {rule/afflictions}, with the following changes.",
+			"",
+			"@HL[Save:] Unless the character has gained the madness via the {rule/sanity/ system}, this is the save necessary to avoid contracting the madness. It is also the base saving throw needed to cure the madness (see {rule/Curing Madness} below) and the saving throw the effects of the madness require. If, during the course of treating a madness, the affliction's DC decreases, that new reduced saving throw also becomes the DC the afflicted character must succeed at to avoid any of the madness's effects. It's possible to suffer from multiple forms of the same madness. If a character becomes afflicted with a form of madness from which he is already suffering (even if it takes a slightly different form, such as phobias of different objects), the current DC of that madness increases by 5. All madnesses are mind-affecting effects.",
+			"",
+			"@HL[Onset:] When a character suffers madness from the sanity system (due to a sanity attack that deals sanity damage greater than or equal to his sanity edge), this onset time does not apply. Use this entry only when the character contracts the madness in other ways. During the onset time, the character gradually gains the madness effect, rather then suddenly experiencing the full effect after a number of days.",
+			"",
+			"@HL[Effect:] This is the effect of the madness. An afflicted character typically suffers this effect at all times, but some madnesses manifest only during certain situations. For complex effects or effects that rely on roleplaying, the description section of the madness contains a more detailed description of the effect. If you're using the sanity system, this effect manifests as long as the madness is not dormant.",
+			"",
+			"@HL[Dormancy Effect:] If you're using the sanity system, the afflicted character suffers this effect while the madness is dormant. Otherwise, ignore this entry."
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"horror_rules",
+			"madness"
+		],
+		"siblings": [
+			"reading_a_madness_stat_block",
+			"curing_madness",
+			"horrific_madnesses"
+		]
+	},
+	"curing_madness": {
+		"name": "Curing Madness",
+		"subtitle": "Horror, Specific Campaigns",
+		"sources": [ "Horror Adventures" ],
+		"description": [
+			"{SOURCE Horror Adventures/182}",
+			"",
+			"Each madness has a DC representing its strength. Among other things, that DC specifies the saving throw the afflicted character must succeed at to recover from the madness. Recovering from a madness without magical aid is a lengthy process requiring significant rest. After 7 consecutive days of uninterrupted rest, the afflicted character can attempt a Will save against the madness's current DC. If she succeeds, the DC is reduced by a number of points equal to 1/2 the character's Charisma modifier (minimum 1). Instead of relying on her own strength of personality to reduce the effects of madness, a character can also seek out a single confidante, priest, or other advisor. The recovering character must meet with that person regularly (at least 8 hours each day) and gain guidance during the 7 days of rest. At the end of the rest period, the ally can attempt a Wisdom or Intelligence check (whichever is higher) with a DC of 15 for a lesser madness or a DC of 20 for a greater madness. On a success, the recovering character can reduce the madness's DC by 1/2 the ally's Wisdom or Intelligence modifier (whichever is higher, minimum 1) in addition to the decrease for resting. The character suffers the madness's effect until the DC is reduced to 0.",
+			"",
+			"Certain spells can also aid in recovery from madnesses or cure them outright. {spell/Lesser restoration} has no effect on greater madnesses, but reduces the current DC of one lesser madness afflicting the target by 2, up to once per day. {spell/Restoration} and {spell/heal} reduce the current DC of one lesser madness afflicting the target by 5 or of one greater madness afflicting the target by 2, up to once per day each. {spell/Greater restoration}, {spell/limited wish}, and {spell/psychic surgery} all either cure the target of all lesser madnesses or reduce the DC of one greater madness by the spell's caster level (caster's choice), while {spell/miracle} or {spell/wish} immediately cure a target of all lesser and greater madnesses."
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"horror_rules",
+			"madness"
+		],
+		"siblings": [
+			"reading_a_madness_stat_block",
+			"curing_madness",
+			"horrific_madnesses"
+		]
+	},
+	"horrific_madnesses": {
+		"name": "Horrific Madnesses",
+		"subtitle": "Horror, Specific Campaigns",
+		"sources": [ "Horror Adventures" ],
+		"description": [
+			"{SOURCE Horror Adventures/185}",
+			"",
+			"{spell/Lesser restoration} has no effect on insanity, but under these rules it can be used to treat lesser madnesses. Conversely, {spell/greater restoration}, {spell/heal}, and {spell/psychic surgery} have reduced effects against greater madnesses in this system compared to in the previous books. This allows madnesses to play a larger part at both higher and lower levels in horror games, or any other game featuring psychological threats. If you want to feature the madnesses as afflictions that are simple to remove for high-level spellcasters while outside the reach of anyone else - as per the more baseline Pathfinder RPG experience - assume lesser madnesses are not affected by *lesser restoration,* and *greater restoration, heal,* and *psychic surgery* remove all madnesses, whether lesser or greater."
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"horror_rules",
+			"madness"
+		],
+		"siblings": [
+			"reading_a_madness_stat_block",
+			"curing_madness",
+			"horrific_madnesses"
+		]
+	},
+	"running_horror_adventures": {
+		"name": "Running Horror Adventures",
+		"subtitle": "Specific Campaigns",
+		"sources": [ "Horror Adventures" ],
+		"description": [
+			"{SOURCE Horror Adventures/190}",
+			"",
+			"Game Masters don't have to run a horror-themed Pathfinder adventure differently from how they would any other adventure - but they can. Before running a horror adventure, though, the GM should consider a basic question: Who is she trying to scare? That might seem obvious, but horror adventures are about fear, so the GM needs to understand the nature of that fear.",
+			"",
+			"If a GM doesn't want to scare anyone, she can incorporate these options into her game like those from any other Pathfinder RPG book. The options herein might feature darker themes, but that's all that makes them different.",
+			"",
+			"But perhaps a GM decides she does want to frighten someone, and naturally, she targets the player characters. In this case, the game changes to incorporate elements meant to shock the PCs or explore darker parts of the campaign setting. Ultimately, this probably doesn't mean much more than deciding which monsters and settings the game employs. An otherwise normal Pathfinder adventure featuring ghosts, haunted houses, faceless murderers, and similar creepiness might be all a GM needs to effectively spook the PCs.",
+			"",
+			"If the GM wants to frighten her players, she must do so with the utmost care and thought, making changes from how she would run other Pathfinder adventures. This doesn't mean making the game a farce to startle the participants. Rather, it gives the GM the opportunity to use her adventure like a storyteller telling a ghost story, using the medium to build tension and unnerve the other participants, each of whom expects to enjoy a good scare. This sort of game focuses on intentionally evoking feelings from the players themselves, rather than their characters. So long as the players know what they're in for and explicitly want to be scared, horror-themed games can be exceptionally memorable.",
+			"",
+			"This section includes tips on how to run any sort of horror adventure, describing various horror subgenres and including tips on how to create horror adventures, cultivate an unnerving atmosphere, and use the Pathfinder RPG rules to adjudicate terrifying encounters. Before any of that, though, the GM should understand how horror adventures differ from normal Pathfinder adventures and why she should take exceptional care to make sure her players are willing participants."
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"horror_rules"
+		],
+		"subtopics": [
+			"horror_versus_heroism",
+			"horror_games_and_consent",
+			"horror_subgenres",
+			"creating_horror_adventures",
+			"horror_storytelling",
+			"going_too_far",
+			"creating_atmosphere",
+			"rules_improvisation"
+		],
+		"siblings": [
+			"horror_characters",
+			"fear_ha",
+			"sanity",
+			"corruption",
+			"curses_ha",
+			"horrific_diseases",
+			"horror_environments",
+			"fleshwarping",
+			"madness",
+			"running_horror_adventures"
+		]
+	},
+	"horror_versus_heroism": {
+		"name": "Horror Versus Heroism",
+		"subtitle": "Specific Campaigns",
+		"sources": [ "Horror Adventures" ],
+		"description": [
+			"{SOURCE Horror Adventures/190}",
+			"",
+			"Especially if a GM has run frightening adventures using other roleplaying games, she should understand that the Pathfinder Roleplaying Game is not designed with horror in mind. The Pathfinder RPG is a game of heroic adventure where the characters gradually become more powerful than they were at the game's outset - by accumulating special abilities, treasure, and so on. In most games designed to tell frightening tales, however, the characters instead begin play on a downward trajectory toward corruption, insanity, or death. Yet using this section's techniques doesn't mean transforming the Pathfinder RPG into an entirely different game.",
+			"",
+			"Nor does a horror-themed Pathfinder game suggest that the PCs become less heroic or that they are suddenly destined for a grim fate. It might change what plots, monsters, and locations are included and what sorts of characters players make, but the assumption remains that the PCs will undertake adventures, win treasure, gain power, and ultimately accomplish their quests. The GM might mask these assumptions a bit more than usual - there's no sense of threat if success seems like a foregone conclusion. In the end, though, it gives the GM the opportunity to pit the PCs against escalating horrors and levels of terror."
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"horror_rules",
+			"running_horror_adventures"
+		],
+		"siblings": [
+			"horror_versus_heroism",
+			"horror_games_and_consent",
+			"horror_subgenres",
+			"creating_horror_adventures",
+			"horror_storytelling",
+			"going_too_far",
+			"creating_atmosphere",
+			"rules_improvisation"
+		]
+	},
+	"horror_games_and_consent": {
+		"name": "Horror Games and Consent",
+		"subtitle": "Specific Campaigns",
+		"sources": [ "Horror Adventures" ],
+		"description": [
+			"{SOURCE Horror Adventures/190}",
+			"",
+			"If the story's objective is to unsettle the players rather than their characters, the GM needs something before even starting to seriously think about running such an adventure: the players' consent. Players should understand what it might mean to participate in a horror adventure. Knowing that the game is intended to be creepy is not enough - in the same way that some filmgoers might be on board to see a horror movie aimed at teenage audiences but not one exclusively for adults.",
+			"",
+			"Anyone planning on participating in a horror adventure should read the following section-GMs and players alike. Of all the content in this section, this particular area is the most serious because it doesn't deal with fictional characters, but with real people and reactions."
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"horror_rules",
+			"running_horror_adventures"
+		],
+		"subtopics": [
+			"for_game_masters",
+			"for_players"
+		],
+		"siblings": [
+			"horror_versus_heroism",
+			"horror_games_and_consent",
+			"horror_subgenres",
+			"creating_horror_adventures",
+			"horror_storytelling",
+			"going_too_far",
+			"creating_atmosphere",
+			"rules_improvisation"
+		]
+	},
+	"for_game_masters": {
+		"name": "For Game Masters",
+		"subtitle": "Horror, Specific Campaigns",
+		"sources": [ "Horror Adventures" ],
+		"description": [
+			"{SOURCE Horror Adventures/191}",
+			"",
+			"The Pathfinder RPG styles itself as a fantasy RPG, not as a horror RPG. Horror adventures often feature unsettling content, and while many players enjoy exploring macabre places, that is not universally true. It is part of your responsibility to make sure your players know that the game will feature frightening elements and give them a sense of what themes to expect. If players express discomfort or concern, change or remove the objectionable aspects or, if necessary, invite the player to participate in a different game.",
+			"",
+			"You might worry that revealing your story's themes might spoil it. Don't. This preliminary description can act more as a film's trailer, providing the players with glimpses necessary to make informed decisions about whether they'll enjoy the experience. Veiling a game's content is not worth making players feel endangered or like they've been tricked into publicly visiting dark personal places. You can't simply assume that you know what your players will be okay with. No matter how long you might have been playing with someone, nobody broadcasts his every phobia, secret fear, or private experience. So, for the comfort of everyone, make sure your players know what they're getting into.",
+			"",
+			"Additionally, despite the fact that horror games include more ominous themes than other adventures, just calling something a horror game does not provide an excuse to vent your darkest thoughts without further warning. While many frightening games feature gore, menace, and tragedy, the inclusion of such elements doesn't in itself indicate to your players that scenes of torture, sexual violence, child endangerment, or other brutalities are on the table. \"Grittiness\" and \"realism\" are not excuses to surprise players with this content midgame. If a game might feature such elements, you remain responsible for making your players aware of that beforehand and letting them decide whether they want to play.",
+			"",
+			"Finally, sometimes opinions and expectations simply change. Let players know that if they become uncomfortable with any part of your game, it's perfectly fine for them to leave the game space. Make yourself available to discuss your game's content if a player so desires - but understand you are not owed any insight into your players' reactions. If a player expresses concerns about a game's content, he doesn't need to explain himself; either remove the sensitive element, run a different game, or ask the player to participate in a different game. If you keep these considerations in mind and prioritize your players' enjoyment, you'll be on your way to running an adventure your group remembers for its creepiness, not its unintended negative consequences."
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"horror_rules",
+			"running_horror_adventures",
+			"horror_games_and_consent"
+		],
+		"siblings": [
+			"for_game_masters",
+			"for_players"
+		]
+	},
+	"for_players": {
+		"name": "For Players",
+		"subtitle": "Horror, Specific Campaigns",
+		"sources": [ "Horror Adventures" ],
+		"description": [
+			"{SOURCE Horror Adventures/191}",
+			"",
+			"The Pathfinder RPG is a storytelling game, and as with stories in any medium, sometimes the tale ventures into dark places. If you are a participant in a game that makes you feel uncomfortable or threatened, you can stop playing at any time. You don't have to endure a game that unsettles you in a way you don't enjoy. If that occurs, it's entirely acceptable to leave the game and remove yourself to a safe space.",
+			"",
+			"If you want to tell the group that you need a break or have a private discussion with the GM, you may, but don't feel obligated to. Sometimes GMs seek to include disturbing content in their games to be shocking, to be gritty, or to mimic content from television or film. Unfortunately, such elements often overlap with real-world truths and traumas that are anything but entertaining. Just as you might avoid that content in other media, you have every right to avoid it in gaming.",
+			"",
+			"A good way to avoid a game that focuses on content that you're not comfortable with is to talk with your GM before the game starts and find out what sort of adventure she intends to run. Ask whether the GM expects any extreme or R-rated content. As discussed above, it is part of every GM's responsibility to assure that her players have a good time, but (unfortunately) you can't trust every GM to act on this. If a GM proves reticent to reveal a game's themes or implies that there will be disturbing or adult content without elaborating on what, strongly consider not attending that game.",
+			"",
+			"Just as you would want the GM and other players to respect your boundaries, make sure to respect theirs. Unless the other players and the GM have already agreed to a truly dark game, don't contribute to making a game uncomfortable by playing a depraved character or by going into explicit detail about your character's horrid deeds. And if other players feel they need to leave the game, either help change the game to something everyone enjoys or support their decision to leave.",
+			"",
+			"Everyone should be working together to create a game that's fun for the entire group, so know that it's literally in [the Pathfinder game's rules](rule/how_to_play) that playing the Pathfinder RPG is supposed to be rewarding for everyone involved."
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"horror_rules",
+			"running_horror_adventures",
+			"horror_games_and_consent"
+		],
+		"siblings": [
+			"for_game_masters",
+			"for_players"
+		]
+	},
+	"horror_subgenres": {
+		"name": "Horror Subgenres",
+		"subtitle": "Specific Campaigns",
+		"sources": [ "Horror Adventures" ],
+		"description": [
+			"{SOURCE Horror Adventures/191}",
+			"",
+			"Horror stories are not all alike, and neither are all horror adventures. In fiction and film, horror is divided into numerous subgenres. This section introduces just a few of those subgenres to help the GM choose the type of horror story she wants to tell and create adventures that match. While nowhere near a complete listing, the following horror subgenres have been singled out either because they translate easily into Pathfinder RPG adventures or they are particularly challenging to translate and often need more advice than usual to succeed.",
+			"",
+			"Each of the following subgenres follows a similar format: a general description, followed by four sections.",
+			"",
+			"@HL[Storytelling:] This section features notes on themes common to stories in this subgenre and elements to consider including in a subgenre-based Pathfinder adventure.",
+			"",
+			"@HL[Monsters and Threats:] This section includes a selection of creatures and rules content that make appropriate threats for this subgenre.",
+			"",
+			"@HL[Basic Plots:] This section contains examples of plots with central subgenre elements that make fine one-off adventures. A GM can flesh out these ideas or use them as departure points to create her own adventures.",
+			"",
+			"@HL[Advanced Plots:] Advanced plots are more complex, and can serve as the basis for entire campaigns. Again, they can be used to inspire unique adventures."
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"horror_rules",
+			"running_horror_adventures"
+		],
+		"subtopics": [
+			"body_horror",
+			"cosmic_horror",
+			"dark_fantasy",
+			"ghost_story",
+			"gothic_horror",
+			"psychological_horror",
+			"slasher_horror"
+		],
+		"siblings": [
+			"horror_versus_heroism",
+			"horror_games_and_consent",
+			"horror_subgenres",
+			"creating_horror_adventures",
+			"horror_storytelling",
+			"going_too_far",
+			"creating_atmosphere",
+			"rules_improvisation"
+		]
+	},
+	"body_horror": {
+		"name": "Body Horror",
+		"subtitle": "Specific Campaigns",
+		"sources": [ "Horror Adventures" ],
+		"description": [
+			"{SOURCE Horror Adventures/192}",
+			"",
+			"The body is a frail, little-understood thing that might betray its host-consciousness at any moment. This visceral subgenre concerns itself with the organic terror of the flesh, including disease, physical corruption, and transformation. At its basest level, body horror is the revulsion felt upon hearing a bone break or seeing a joint violently bend in the wrong direction. Elaborated upon, it's the terror of becoming physically monstrous and the awfulness that might hide within.",
+			"",
+			"@HL[Storytelling:] Body horror plots often concern themselves with transformation. This might be in a mundane fashion, such as a character racing to find a cure for a withering disease, trying to escape enemy territory with a broken leg, or knowing that a parasite is devouring his flesh. Unleashed from reality, body horror might involve an uncontrolled transformation, a disease that has gained sentience, or a monster that consumes flesh or blood. Body horror plots can involve a timeline or countdown, evoking a disease running its course or an untreated wound turning gangrenous. The only way to stop the spread of whatever fleshy terror has been unleashed is to cure it medically or excise it with sword or spell before it is too late. Doing so often comes with the greatest threat of body horror: infection. Characters might suffer {rule/curses}, [contract terrible illnesses](rule/diseases), {rule/undergo horrific |corruption/s}, or become host to ravenous parasites. Customize body horror effects to the story's needs, pairing nauseating descriptions with game-affecting effects like loss of limbs, hit point damage, ability score drain, inability to naturally heal, or worse.",
+			"",
+			"GMs running body horror adventures will likely find that many players have powerful reactions to descriptions of gore and disease symptoms. A GM should describe such scenes in a way that's right for her players, and remember that gratuitous descriptions quickly lose their impact. Uncertainty and time are also powerful factors in body horror stories, with PCs often unsure whether they or those they love are safe from infection - and if they don't show signs today, what about tomorrow?",
+			"",
+			"The enemy in a body horror game can also be unclear. While it might be individuals spreading a plague, a race of sentient parasites, or a mad scientist transforming victims, it might also be simply a disease itself. The former examples lend themselves toward common Pathfinder plots. The latter, though, might unfold as a scavenger hunt or series of challenges that contribute toward concocting a cure. In such cases, the final challenge should be the most harrowing and present the greatest risk of exposure to infection. In that way, the defeat of the invisible menace has a climax, but it also has the extremely personal threat of another outbreak.",
+			"",
+			"@HL[Monsters and Threats:] Parasites and diseases often feature in body horror stories, so consider rot grubs (of the [giant variety](monster/giant_rot_grub) or more {rule/common |hazards}), {infestation/ear seekers}, {monster/intellect devourer/s}, or [visceral plagues of disease](rule/diseases) (though consider using the [unchained rules for diseases](rule/diseases_and_poisons)). Creatures that implant their eggs or are born from other creatures include {monster/lunarma/s}, [vegepygmies](monster/vegepygmy), and {monster/xill/s}, while those who cling to or take over a host's body include {monster/incutilis/es} and {monster/wizard's shackle/s}. {family/Fleshwarp/s} and oozes like {monster/carnivorous blob/s} embody the horror of abominable transformation, {monster/beheaded} and {monster/crawling hand/s} are unbound body parts, and {race/drow} and {family/kyton/s} use flesh as mediums for their art or taboo experimentations. Many of the corruptions and the {rule/fleshwarping/ rules} also allow a PC to experience the terror of transformation firsthand.",
+			"",
+			"@HL[Basic Plots:] A quarantine traps the PCs in a city suffering from bubonic plague. A breed of oozes infests a community's sewers, changing those they touch into melting zombies. {monster/Ghorazagh/s} capture the PCs in a labyrinthine scab-hive.",
+			"",
+			"@HL[Advanced Plots:] The secret of an incestuous imperial dynasty reveals an undercity of vain, inbred [mongrelmen](monster/mongrelman) lurking beneath the capital. A mind-altering disease (to which elves are mysteriously immune) becomes sentient, infects the minds of hundreds, and launches a pogrom against those it can't infect. A nation's pervasive, cow-like herd animals stave off famine, but the nation turns on the PCs when they expose that the creatures are semi-sentient {monster/drakainia} spawn."
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"horror_rules",
+			"running_horror_adventures",
+			"horror_subgenres"
+		],
+		"siblings": [
+			"body_horror",
+			"cosmic_horror",
+			"dark_fantasy",
+			"ghost_story",
+			"gothic_horror",
+			"psychological_horror",
+			"slasher_horror"
+		]
+	},
+	"cosmic_horror": {
+		"name": "Cosmic Horror",
+		"subtitle": "Specific Campaigns",
+		"sources": [ "Horror Adventures" ],
+		"description": [
+			"{SOURCE Horror Adventures/192}",
+			"",
+			"Often called cosmicism or Lovecraftian horror, stories in this subgenre involve the realization that humanity and all its struggles are insignificant amid the greater workings of the universe. Such plots typically involve revelations of the truth that shelters the limited, shared lie society calls reality. The forces beyond this veil are fundamentally unfathomable, indifferent, and dangerous. Brushes with these powers typically scar a character, resulting in death, insanity, or understandings that make her an outcast from society. Ignorance and willful delusion then become virtues, shields that protect a fragile narrative from the truth of a vast, apathetic cosmos.",
+			"",
+			"@HL[Storytelling:] Cosmic horror stories aren't about tentacles - they're about the truths mortals are better off not knowing. Perhaps these revelations are the secrets of cosmic overlords, or maybe they're leaps of understanding - realities radically different from what society thinks it knows. The pursuit of greater knowledge can begin as a noble quest, gradually revealing an organic conspiracy propagating truths too great for the characters to influence. A GM might provide bread crumbs leading toward this knowledge, but the PCs' limited perspective grants only glimpses of the terrible whole. The discovery of strange cults or unsettling artifacts might push characters to uncover devices and creatures not native to their understanding of the world. These elements are best revealed slowly, like evidence in a mystery story, and they should build upon one another to suggest ever-greater threats. Ultimately, the threat might be entities from beyond gulfs of existence, or even be something like the arrangement of the stars themselves - foes that can't be defeated with sword and spell. While the PCs might win a skirmish with such forces and prevent the apocalypse du jour, their world's days are numbered. Depending on how much the PCs learn, they might never again be able to share in the vision of reality needed to function in society. If that wasn't terrible enough, when they glimpse the truths beyond the veil, those sanity-bending forces gaze back.",
+			"",
+			"@HL[Monsters and Threats:] Cosmic horror games frequently feature aliens - intruders from other worlds, planes, or epochs. These are not typically spiritual beings, like angels or demons, but neighbors in existence that prove the laws of reality aren't exactly fair. Many creatures from the works of H. P. Lovecraft and other authors of this subgenre exist in the Pathfinder RPG and fit naturally into cosmic horror adventures, such as {monster/deep one/s}, {monster/denizen[s] of Leng}, {monster/elder thing/s}, {family/Great Old One/s}, {monster/mi-go}, {monster/shoggoth/s}, and {monster/Yithian/s}, to name just a few. Lovecraftian creatures don't have exclusive dominion over this subgenre, though. Given the right backstory, any creature with an aberrant form or mind makes a useful cosmic horror foe, like {monster/aboleth/s}, {monster/choker/s}, {monster/cloaker/s}, {monster/hundun/s}, {monster/hyakume/s}, {monster/immortal ichor/s}, and {monster/otyugh/s}. Consider casting whole races or creature types as manipulators from other worlds or beings possessed of enigmatic agendas, such as aberrations, certain monstrous humanoids, or fey.",
+			"",
+			"Beyond bizarre monsters, tools and artifacts from other worlds might prove to be equally dangerous. Consider taking a familiar item and describing it in an otherworldly fashion - a crossbow takes on an entirely different aspect if it screams every time it's fired. Magic, too, if learned from otherworldly sources, might gain a dangerous cast, perhaps dealing damage to the caster or eroding a character's ability scores. Shocking discoveries can also present their own dangers in the form of sanity effects. See {rule/Madness} for a host of reactions characters might experience when their visions of reality shake and their pillars of sanity crumble.",
+			"",
+			"@HL[Basic Plots:] An ally, fearing for his life, provides the PCs with a secret or relic pursued by servants of a god-ocean that covers a distant moon. Opening an ancient vault unleashes a member of a race for which time means nothing. A town forsakes its religions after a seasonally appearing comet lands atop a windmill outside their community.",
+			"",
+			"@HL[Advanced Plots:] A strange nightmare, swift-growing plant, or spreading wound holds a means of communicating with a future dominated by another species. In the wake of a planetary alignment, an entire race begins fleeing the planet. A musician discovers tones that allow her to reshape reality, drawing the attention of otherworldly star-shrieks."
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"horror_rules",
+			"running_horror_adventures",
+			"horror_subgenres"
+		],
+		"siblings": [
+			"body_horror",
+			"cosmic_horror",
+			"dark_fantasy",
+			"ghost_story",
+			"gothic_horror",
+			"psychological_horror",
+			"slasher_horror"
+		]
+	},
+	"dark_fantasy": {
+		"name": "Dark Fantasy",
+		"subtitle": "Horror, Specific Campaigns",
+		"sources": [ "Horror Adventures" ],
+		"description": [
+			"{SOURCE Horror Adventures/194}",
+			"",
+			"As its name implies, dark fantasy isn't a subgenre of horror but rather a fantasy subgenre that relies on horror themes. Dark fantasies typically involve the same tropes as fantasy tales - swords, castles, magic, heroics - but viewed through a grim lens. Deadliness, despair, and the macabre are common here, elements that threaten innocents with forces beyond their power to understand or overcome.",
+			"",
+			"@HL[Storytelling:] In these tales, magic and the supernatural take on a darker and deadlier cast. Enchanted lands become accursed places filled with ravenous predators and dangerous outcasts. Magic might bear the threat of arcane backlash or addiction. Monsters are fearful things, whether they are born from the corpses of former neighbors, demonic incarnations of temptations, or terrifying beasts that city walls dubiously hold at bay. It's a pessimistic sort of fantasy where threats are many and death seems likely, yet the heroes of these stories have the opportunity to defend the rare places of warmth and light. Not unlike other fantasy heroes, they become champions of the helpless and foes of evil. However, here the odds are stacked far more heavily against them.",
+			"",
+			"@HL[Monsters and Threats:] Aberrations, constructs, evil outsiders, and undead are common in dark fantasy adventures, as are grim reimaginings of magical beasts and other classic fantasy creatures. Evil spells, cursed magic items, and magical environmental hazards are also typical. With a properly grim twist, nearly any fantasy element could find its home in a dark fantasy adventure.",
+			"",
+			"@HL[Basic Plots:] Necromancers use the corpses of a plague-scoured village to create a {monster/gashadokuro}. A {monster/gargoyle} trophy hunter is responsible for a series of baffling murders. A {monster/troll} uses the sewer to slip into the basement of the royal archives and preys upon scholars who linger too long after dark.",
+			"",
+			"@HL[Advanced Plots:] A genius arcanist seeks to recreate the empire of a fallen undead tyrant by retracing his path to {template/lich/dom}. A rift between realities allows the hordes of the Abyss to invade the world. The corpse of everyone who dies returns as a {monster/ghoul} within 1 day, forcing the PCs to investigate why souls are not passing on to the afterlife."
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"horror_rules",
+			"running_horror_adventures",
+			"horror_subgenres"
+		],
+		"siblings": [
+			"body_horror",
+			"cosmic_horror",
+			"dark_fantasy",
+			"ghost_story",
+			"gothic_horror",
+			"psychological_horror",
+			"slasher_horror"
+		]
+	},
+	"ghost_story": {
+		"name": "Ghost Story",
+		"subtitle": "Horror, Specific Campaigns",
+		"sources": [ "Horror Adventures" ],
+		"description": [
+			"{SOURCE Horror Adventures/194}",
+			"",
+			"These stories feature ghosts - whether they're actual spirits or the characters simply believe in those spirits. Usually relatively short tales, stories in this subgenre focus on wayward souls and the tragic events that keep them from passing on. They usually feature a haunted place - such as the archetypical haunted house - but this might be any location, object, person, or other element that is somehow tied to the spirit's unfortunate past. The protagonists of a ghost story tend to be latecomers to the tragedy. By entering the zone of spiritual fallout, they either embroil themselves in healing residual scars or try to escape before becoming the next victims.",
+			"",
+			"@HL[Storytelling:] Ghost stories make fantastic single-adventure plots because they typically link an atmospheric story with a specific location. The tie between a ghost and its haunting grounds means that PCs can indulge in a ghost story without it necessarily interfering with a wider campaign.",
+			"",
+			"Ghosts come in an enormous variety, but for horror adventures, the two most useful are ghosts that want something and violent ghosts. The former might be sorrowful entities that make the PCs their agents in the hopes of being set free. The latter are vicious things, incarnations of madness and violence that take their wrath out on any who dare trespass on their haunting grounds. In neither case does a ghost need to be a sympathetic character, but in both, the spirit's origins affect its appearance, abilities, and behavior. While revealing the lore behind a haunting might be story enough, in a typical Pathfinder ghost story, learning the spirit's background and using it to put the ghost to rest is central to the plot.",
+			"",
+			"With the wealth of ghost stories in fiction and film, a GM can plunder existing works for inspiration and experiment with the definitions of \"ghost\" and \"haunting.\" She might also consider giving the ghost story a trigger, an event that activates a dormant haunting. Perhaps the return of a family member to his ancestral home or a PC gazing through an orb that reveals the spirit world sparks a full-blown ghost story.",
+			"",
+			"@HL[Monsters and Threats:] Obviously, these tales focus on ghosts, but in the Pathfinder RPG, \"ghost\" might mean a variety of things, not just the monster of the same name. However, a {template/ghost} is an excellent choice of monster due to its rejuvenation ability, which means the spirit can only be truly defeated if the PCs discover the correct means. This ability forces the PCs to involve themselves in a ghost story to defeat their foe. A GM might use any number of ghostly spirits to create specific sorts of ghost stories - for instance, {monster/banshee/s} terrorize barren moors, {monster/poltergeist/s} disturb peaceful households, and {monster/yuki-onna/s} haunt snowy vistas. Looking up creatures with the {subtype/incorporeal/ subtype} can point to strong ghost story candidates. Ghosts don't need to be incorporeal. {family/Phantom armor/s}, {monster/revenant/s}, {template/skeletal champion/s}, and {monster/zuvembie/s}, for example, all make fine corporeal threats. A \"ghost\" also doesn't need to be undead, especially as the line between spirit and outsider is often blurry. Consider having any of a variety of fiends - such as {monster/owb/s} or {monster/vulnudaemon/s} - haunt a ghost story. For story purposes, a GM shouldn't hesitate to give non-ghosts the rejuvenation ability as well, but only so long as the threat stays bound to a single plot-rich locale. More so than in other subgenres, {rule/haunts} make obvious choices. Spectral beings (especially {monster/geist/s}) teamed with a variety of flavorful haunts can work together to create a wider and more satisfying haunting.",
+			"",
+			"@HL[Basic Plots:] The destruction of a local asylum releases years of pent-up mental trauma as an allip or caller in darkness, the dominant personality of which wants nothing more than to visit the sea once more. The ghost of a golemcrafter intimidates a young trespasser into reactivating her laboratory and creating a soulbound body for her to inhabit. A painting from a far-off land drags the ghost of the portrait's subject with it, a noble but frustrated foreign warrior who speaks only his native language.",
+			"",
+			"@HL[Advanced Plots:] A ghost becomes the PCs' patron, offering its treasure (or home) if they complete what it left undone. A violent, mute ghost the PCs thought exorcised reappears - could they have mistaken its identity? The ghost of a defeated villain or a fallen ally becomes linked to one of the PCs' pieces of equipment, though the connection seems to be stronger than simply that between victim and murder weapon."
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"horror_rules",
+			"running_horror_adventures",
+			"horror_subgenres"
+		],
+		"siblings": [
+			"body_horror",
+			"cosmic_horror",
+			"dark_fantasy",
+			"ghost_story",
+			"gothic_horror",
+			"psychological_horror",
+			"slasher_horror"
+		]
+	},
+	"gothic_horror": {
+		"name": "Gothic Horror",
+		"subtitle": "Specific Campaigns",
+		"sources": [ "Horror Adventures" ],
+		"description": [
+			"{SOURCE Horror Adventures/195}",
+			"",
+			"Gothic horrors exude atmosphere and portent. This is the subgenre of The Castle of Otranto, The Raven, and Dracula. Lightning-illuminated castles, baroque cathedrals, tortured minds, and unquiet souls fill these stories, every element fostering moodiness and presaging dooms - often through ornate description. While gothic horror regularly focuses on darkness, decay, fallen grandeur, and the wages of sin, it can also be rich with romance and bravery, making it well suited to Pathfinder adventures.",
+			"",
+			"@HL[Storytelling:] More than any specific monster or type of fear, in the best of these stories, grim details work together to create an oppressive atmosphere of perpetual fall or winter, where secret transgressions exert dark prices in the form decrepitude, sickness, curses, and monstrous predation. Settings, characters, and plot all work together in gothic tales, and a GM should strive to insinuate that dark things are to come through elements of the narrative. If any subgenre is going to feature sudden thunderstorms, ominous coincidences, or peasant warnings, it's gothic horror. The evil force at the end of this foreboding path might have the statistics of a brooding vampire or an ageless wizard, but by the time the PCs meet her, what they've experienced should have built her up as something much more.",
+			"",
+			"Gothic horror tales highlight and develop wealth, extravagance, and the noble or positive qualities of characters to better wring pathos from their ruination. Romances are also common, whether as the spark that ignites dark passions or as the motivation for heroics. Death, desperation, and madness are frequent results of both themes, paving the way for encounters with the fantastic, deals with wicked forces, and passions that keep characters from a peaceful death. Indulging these themes suggests not only a host of settings (like crumbling manors, grim cathedrals, and misty graveyards), but also stock characters (suspicious townsfolk, penniless nobles, and ghostly governesses) waiting to populate a gothic tale.",
+			"",
+			"@HL[Monsters and Threats:] The mainstays of gothic horror include some of the most identifiable monsters in fiction and folklore: fiends, {template/ghost/s}, {family/hag/s}, {template/lycanthrope/s}, murderous animals, {template/skeleton/s}, {template/vampire/s}, {monster/yeth hound/s}, and the like. Almost any monster could make a fine villain in a gothic horror story, though, so long as it has a tragic background and intentions of menace. For example, the sorrow of a lovelorn dryad might extend beyond herself, transforming a wilderness into a savage nightmare. Insidious magic items - like {magic-artifact/monkey's paw/s} and {magic-artifact/soul portrait/s} - also often appear in gothic stories, the objects taking on the sins of their past owners. Bargains with fiends, foul gods, or perhaps even death itself can inspire tragic villains. {rule/Haunts} also make useful threats for gothic horror tales, their descriptive dangers providing a way to reveal mournful histories - perhaps piece by piece through a series of interrelated, tragic events.",
+			"",
+			"@HL[Basic Plots:] Every hundred years, a {template/graveknight} appears and challenges the high priest of the goddess of valor, whose cathedral stands upon an ancient battlefield. A {race/changeling} begs for the PCs' protection, fearful of the crone she's seen in her nightmares. The PCs must retrieve a lost locket from a spectral house that appears only on the night of the winter solstice.",
+			"",
+			"@HL[Advanced Plots:] A PC is the reincarnated lover of an ancient vampire baroness. A {monster/mothman} follows the PCs from afar, intent on creating, ending, or repeating an age-long curse. The entire faith of a just deity is convinced a PC holds the key to a horrible prophecy and can't be allowed to live."
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"horror_rules",
+			"running_horror_adventures",
+			"horror_subgenres"
+		],
+		"siblings": [
+			"body_horror",
+			"cosmic_horror",
+			"dark_fantasy",
+			"ghost_story",
+			"gothic_horror",
+			"psychological_horror",
+			"slasher_horror"
+		]
+	},
+	"psychological_horror": {
+		"name": "Psychological Horror",
+		"subtitle": "Specific Campaigns",
+		"sources": [ "Horror Adventures" ],
+		"description": [
+			"{SOURCE Horror Adventures/196}",
+			"",
+			"As a counterpoint to body horror, the psychological horror subgenre plays upon the fears and uncertainties rooted deep within the mind. The possibility of becoming detached from reality, plots to drive people mad, and the menace of taboo urges all fill the surreal world of psychological horror. While these stories might involve supernatural elements, it's often difficult for characters to be sure whether such menaces are real or entirely within their heads.",
+			"",
+			"@HL[Storytelling:] Among the most challenging subgenres of horror to re-create in a Pathfinder adventure, psychological horror stories often deal with themes of conspiracy, doubt, and paranoia. In film and fiction, these stories might focus on a single individual being pushed beyond her limit as the lines of reality blur around her. In a Pathfinder adventure, it's difficult to make one PC the victim of such horror - but it is possible. While the rules for sanity simulate a variety of psychological effects, these are most effective when a player chooses to roleplay their effects, forcing the group to acknowledge that the character's grip on reality has slipped. Beyond those rules, the techniques described in the [Warp Reality section](rule/fear_from_the_unexpected) and in the {rule/Secrets and Suspicion} section can help sow uncertainty among the players, leaving them wondering what's real and who they can trust.",
+			"",
+			"Easier to create are adventures where another individual has lost his grip on reality, leading him to commit monstrous acts and possibly transform his home into a manifestation of his delusions. Conspiracy plots might unite a cadre of foes seeking to hide some shocking truth, perhaps making the PCs question whether lifelong beliefs have been lies all along. In more extreme cases, the PCs might become victims of gaslighting (perhaps by a {arc-mesmerist/gaslighter/ mesmerist}), either in subtle ways or in elaborate experiments - like a dungeon of shifting passages or a deadly puzzle room - meant to drive them insane.",
+			"",
+			"@HL[Monsters and Threats:] Cunning shapechangers (like {monster/aranea/s}, {monster/doppelganger/s}, and {monster/rakshasa/s}) and creatures with manipulative mind powers (like {monster/aboleth/s}, {monster/gray/s}, and {monster/lotus tree/s}) make fantastic foes in psychological horror adventures. Psychic magic is an obvious threat in these tales, warping memories and outright controlling the weak willed, but so are illusions, which can manipulate what a victim perceives or thinks he knows. More insidious than monsters in psychological horror stories are the everyday people who manufacture plots to undermine someone's sanity or the individuals whose stresses and delusions become uncontrollable enough to set them on deadly courses - like a deranged individual who makes his home a trap-filled murder pit or a zealot who believes his sins can only be purified with innocent blood.",
+			"",
+			"@HL[Basic Plots:] A divine emissary in animal form comes to a PC and encourages her to slay a secret enemy of the faith - but it only speaks when the PC is alone. The PCs need to cure a scholar who has gone insane by entering his hag-haunted nightmares. The PCs come to a town where a teenage girl can turn herself invisible, and everyone lives in fear of what she does, doesn't, or could know.",
+			"",
+			"@HL[Advanced Plots:] The PCs become aware they are the only true humanoids in a society that consists entirely of doppelgangers. {monster/Derro/s} kidnap the inhabitants of an entire village without their knowledge, relocating them to a near-perfect re-creation of their community deep underground. A {monster/pakalchi/ sahkil} convinces the queen that her court mages have turned against her, leading her to start a bloody witch hunt throughout the entire nation."
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"horror_rules",
+			"running_horror_adventures",
+			"horror_subgenres"
+		],
+		"siblings": [
+			"body_horror",
+			"cosmic_horror",
+			"dark_fantasy",
+			"ghost_story",
+			"gothic_horror",
+			"psychological_horror",
+			"slasher_horror"
+		]
+	},
+	"slasher_horror": {
+		"name": "Slasher Horror",
+		"subtitle": "Specific Campaigns",
+		"sources": [ "Horror Adventures" ],
+		"description": [
+			"{SOURCE Horror Adventures/197}",
+			"",
+			"Violent stories that pit relentless murderers against defenseless victims, slasher horror is the home of some of film's most brutal killers. These tales typically follow the rampage of a single weapon-wielding psychopath and his targets' desperate attempts to survive. The slasher is usually more than a normal person, possessing a drive or fortitude that makes him more akin to a deadly force of nature. Only bravery and cunning hold any hope of defeating the slasher, and even then, usually only after he has spilled seas of blood.",
+			"",
+			"@HL[Storytelling:] Of primary importance to a slasher story is the sense of inescapability. If the would-be victims can just leave an area and escape the slasher, his threat is undermined. Therefore, seclusion is important. Perhaps the PCs - the likely victims - are isolated by geography (on an island, in the mountains), by terrible weather, or by some other physical factor (a flood washed out the road, the PCs are in a labyrinth that's supposedly inescapable). Social factors can also create seclusion. Perhaps the PCs don't speak the language and can't effectively go for help, know the town guard wants to shield the murderer, have a responsibility to stay in a place, or are cursed and can't leave an area. In any case, the PCs are trapped with a menace they're not likely able to physically overcome.",
+			"",
+			"As monsters and combat are such fundamental parts of the Pathfinder RPG, it's easy for a slasher attack to become just another fight. Elusiveness, relentlessness, and the perception of invincibility are the slasher's greatest weapons. To avoid this, the slasher can't just be an opponent the PCs outmatch, making them have to find ways other than combat to defeat their foe. A GM should make the slasher difficult to fight, but not impossible to defeat. The PCs need to be able to find tools and prepare traps that give them an edge over their foe. Objects meaningful to the slasher (and perhaps his origins) might aid them in their fight. The plot might encourage characters to split up to defeat the slasher and thus make them vulnerable to their foe - see {rule/Splitting the Party} for ways to help build tension in situations like this.",
+			"",
+			"Signature weapons are powerful elements in slasher stories. A GM might give the slasher a weapon that's threatening but also metaphorical - like a headsman's axe or a scythe. Tools and unique creations that tie into the slasher's history and origins also make great murder weapons - like a harpoon, a dagger-like quilting needle, or a shark jaw fitted onto an iron mask.",
+			"",
+			"@HL[Monsters and Threats:] Slasher tales are monster stories. What constitutes the monster, though, is entirely up to the GM. The {template/implacable stalker} template specifically allows for slashers to be made out of any sort of creature or character.",
+			"",
+			"Often slashers are murderous humanoids who have been driven violently insane or who have become possessed by brutal objectives. These sort of slashers emphasize the monstrousness of everyday people, which might be a concept a GM wants indulge.",
+			"",
+			"Actual monsters can also make fine slashers. Creatures that bear a semblance to everyday people but obviously aren't work well for this, like apes, {monster/bugbear/s}, {monster/goblin/s}, {template/ogrekin}, {monster/redcap/s}, and {monster/troll/s}. Finally, more monstrous creatures easily become slashers, even though the PCs might have a limited ability to see something of themselves in such foes. Rather than creatures with obviously monstrous forms, certain beings might pass as humanoids with the right disguises or magic, like {monster/babau/ demons}, [bogeymen](monster/bogeyman), {monster/dark stalker/s}, {monster/denizen[s] of Leng}, or {monster/dullahan/s}. Or perhaps the slasher's form is inconsequential, and the true murderous entity is the sentient weapon he bears.",
+			"",
+			"@HL[Basic Plots:] The daughter of a villain the PCs slew years ago catches up to them at a lonely country inn and proceeds to poison everyone in the establishment, one at a time. The PCs' journey forces them to pass through the Valley of the Skulleater, home to a strangely intelligent and elusive bear that relentlessly stalks trespassers. A {monster/marsh giant} shaman begins murdering everyone associated with the village that killed his son.",
+			"",
+			"@HL[Advanced Plots:] The PCs find a crimson garrote that belonged to a famous killer, leading to a rash of murders following in their wake. Mere months after raiding a crypt, a {monster/mummy lord} appears and attempts to slay the PCs, reappearing yearly on the anniversary of the defiling. Because of her remarkable lineage, the notorious serial killer known only as the Queen of Razors can't be killed without infuriating the royal church, but the PCs can't allow her to kill again."
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"horror_rules",
+			"running_horror_adventures",
+			"horror_subgenres"
+		],
+		"siblings": [
+			"body_horror",
+			"cosmic_horror",
+			"dark_fantasy",
+			"ghost_story",
+			"gothic_horror",
+			"psychological_horror",
+			"slasher_horror"
+		]
+	},
+	"creating_horror_adventures": {
+		"name": "Creating Horror Adventures",
+		"subtitle": "Specific Campaigns",
+		"sources": [ "Horror Adventures" ],
+		"description": [
+			"{SOURCE Horror Adventures/198}",
+			"",
+			"Typically, when creating a Pathfinder adventure, a GM begins with nothing more than the kernel of an idea - a setting she wants to explore, a monster she wants to use, or a scheme on which she'd like to elaborate. This basic idea provides the framework upon which she hangs the other elements of the story. A GM can create a horror adventure in the same manner.",
+			"",
+			"[The GameMastery Guide](rule/getting_started) provides extensive details on creating and running adventures. As horror adventures are just another type of Pathfinder RPG adventure, all of that advice still pertains. The difference, though, is that now the GM has an additional goal: to make the story scary. The following advice supplements the advice in the *GameMastery Guide* to help GMs do just that."
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"horror_rules",
+			"running_horror_adventures"
+		],
+		"subtopics": [
+			"know_the_medium",
+			"choose_the_terror",
+			"spread_the_terror",
+			"fear_from_the_unexpected",
+			"horrible_success_terrible_rewards"
+		],
+		"siblings": [
+			"horror_versus_heroism",
+			"horror_games_and_consent",
+			"horror_subgenres",
+			"creating_horror_adventures",
+			"horror_storytelling",
+			"going_too_far",
+			"creating_atmosphere",
+			"rules_improvisation"
+		]
+	},
+	"know_the_medium": {
+		"name": "Know the Medium",
+		"subtitle": "Horror, Specific Campaigns",
+		"sources": [ "Horror Adventures" ],
+		"description": [
+			"{SOURCE Horror Adventures/198}",
+			"",
+			"Through the entire adventure design process, GMs should keep in mind that they're not writing a horror novel or screenplay - they're writing a horror RPG adventure. It's easy to get distracted by nuanced lore and charismatic villains, but all GMs should remember that the PCs are the stars of the story and ultimately the most important characters. Along with this, remember that Pathfinder characters have a variety of magic and other options that might allow them to make things that frighten everyday people meaningless or that instantly reveal any secrets. Therefore, it's important for GMs to know characters' strengths as much as their weaknesses and customize the adventure to play upon what they fear most (see {rule/Choose the Terror} for more details). These powers might be daunting in their effects or variety, but each ability might provide a new way to reveal terrors."
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"horror_rules",
+			"running_horror_adventures",
+			"creating_horror_adventures"
+		],
+		"siblings": [
+			"know_the_medium",
+			"choose_the_terror",
+			"spread_the_terror",
+			"fear_from_the_unexpected",
+			"horrible_success_terrible_rewards"
+		]
+	},
+	"choose_the_terror": {
+		"name": "Choose the Terror",
+		"subtitle": "Horror, Specific Campaigns",
+		"sources": [ "Horror Adventures" ],
+		"description": [
+			"{SOURCE Horror Adventures/198}",
+			"",
+			"Once a GM has decided to create a frightening adventure, what sort of terror should be included? As explained in the discussion of horror subgenres, there are many types of horror. A GM should be able to boil her horror story down to something basic, perhaps even a singular fear. This might be as primal as a fear of spiders or of losing one's teeth, or it could be more sophisticated, like the fear of abandonment or mechanical disasters. Once the GM has chosen a fear, then she can choose an avatar or incarnation of that fear. This might be a monster, person, or other threat that embodies that fear and proliferates it. For example, nothing exploits a fear of spiders quite like giant spiders or spider swarms, while representing the fear of abandonment might require a creature like an {monster/attic whisperer} or the spirit of a bitter old man who waits for death but can't be convinced that he's dead. This avatar can be anything a GM wants. Feel free to make it more terrifying or unnatural if that helps - the giant spiders could actually be scheming {monster/Leng spider/s}, or the attic whisperer might control an army of animated dolls. This can work as mere flavor, or a GM might search out rules (or designs of her own) to back it up. Remember that the chosen threat might not need to be a literal embodiment; for instance, a fear of alien abductions and experimentation is literally embodied by {monster/gray/s} but also metaphorically embodied by {monster/derro/s}."
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"horror_rules",
+			"running_horror_adventures",
+			"creating_horror_adventures"
+		],
+		"siblings": [
+			"know_the_medium",
+			"choose_the_terror",
+			"spread_the_terror",
+			"fear_from_the_unexpected",
+			"horrible_success_terrible_rewards"
+		]
+	},
+	"spread_the_terror": {
+		"name": "Spread the Terror",
+		"subtitle": "Horror, Specific Campaigns",
+		"sources": [ "Horror Adventures" ],
+		"description": [
+			"{SOURCE Horror Adventures/198}",
+			"",
+			"Once the incarnation of a fear is chosen, the GM can then support it with surroundings and allies that evoke the same theme. Horror often takes place at night since the dark holds the promise of lurking threats, but a horror tale might take place anytime or anywhere with a disturbing atmosphere that reinforces the chosen menace. For example, the [tooth fairies](monster/tooth_fairy) that embody the fear of loosing teeth might have created an underground hive constructed from billions of molars, and a mechanical terror could unfold in a half-functioning clock tower. Whatever the choice, it should provide challenges for the characters to overcome, as this - or another later setting - will likely become a sort of dungeon to explore.",
+			"",
+			"While the horrors of fiction and film often work alone, such is rarely the case in Pathfinder adventures. GMs should choose lesser threats that prop up the horror's main avatar. These might be its allies, opportunistic hangers on, deranged victims, the remnants of the creature's work, or the source of the creature's monstrousness. These allies might be less powerful than a primary foe, or at the very least, less actively horrific. For example, the {monster/Leng spider/s} might surround themselves with a cult of {monster/ettercap/s}, while the tooth faeries might feed their stolen teeth to a half-slumbering, albino {monster/purple worm}. Traps, hazards, haunts, and other challenges should provide lesser encounters that grant the PCs experience but also winnow away their resources, causing them to face the final threat with some vulnerabilities."
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"horror_rules",
+			"running_horror_adventures",
+			"creating_horror_adventures"
+		],
+		"siblings": [
+			"know_the_medium",
+			"choose_the_terror",
+			"spread_the_terror",
+			"fear_from_the_unexpected",
+			"horrible_success_terrible_rewards"
+		]
+	},
+	"fear_from_the_unexpected": {
+		"name": "Fear from the Unexpected",
+		"subtitle": "Horror, Specific Campaigns",
+		"sources": [ "Horror Adventures" ],
+		"description": [
+			"{SOURCE Horror Adventures/199}",
+			"",
+			"While the Pathfinder rules present a finite number of statistics and rules options, how a GM pieces them together allows for infinite scenarios. In the case of horror adventures, this also means infinite opportunities to shock even the most jaded, rules-obsessed players. Opportunities abound in adventures to surprise the characters by revealing terrible secrets or presenting images that make them realize things are far worse than expected. For example, perhaps the PCs find a life-sized mother doll among the {monster/attic whisperer/'s} collection, one that's tending to a mewling newborn. Or maybe the automatic clockwinder at the top of the clock tower is rebuilding the interior to account for a thirteenth hour that occurs only once every eon.",
+			"",
+			"While startling revelations in a narrative are most powerful, a GM can also twist the game rules specifically to unsettle the players.",
+			"",
+			"@HL[Mask Monsters:] There's no reason a GM must adhere to the basic bestiary descriptions of monsters. By adjusting or completely revising monster descriptions, she gains not only new versatility from the bestiaries, but also the adventure-perfect foe for whatever terror she's unleashed. The PCs might be horrified by the thrashing pile of snakes and maggots that tangle their legs, knocking them into its squirming maws, but behind the GM screen are just the stats for a {monster/wolf}.",
+			"",
+			"@HL[Transform Monsters:] Veteran players might immediately identify a ravenous corpse as a {monster/ghoul}, but if the [tooth fairies](monster/tooth_fairy) have stolen its teeth, perhaps its bite attack is changed to a harmless, wet gnawing. While this might mean the ghoul is less powerful, the shock and revulsion it evokes is far more important to a horror adventure than dealing 1d6 points of damage. Altering creature statistics can be easy, particularly if a GM does so with the intention of creating unsettling encounters, not of making a creature more powerful. Swap around attack types or perhaps exchange abilities with creatures of similar CRs. As long as a GM doesn't intentionally combine powers that can be exploited for some lethal synergy, such a unique encounter should be fine. And if a GM accidentally improvises something that's more deadly than it is narratively unsettling, she can err in the PCs' favor and keep the story moving. The {rule/Rules Improvisation} section includes tips on how to make the Pathfinder RPG rules work for a horror tale.",
+			"",
+			"@HL[Warp Reality:] The rules are the physics of the game - the laws of what can and can't happen - and sometimes the most unsettling thing a GM can do in horror adventure is plan to break those rules. Maybe the PCs have a bizarre group nightmare, are pursued by a reality warping {monster/mothman}, or begin to lose their minds. Regardless, a GM can convey this by having the game not work the way the PCs expect. Maybe a {spell/detect magic} spell reveals its information as a chorus of screams, an isolated character can momentarily walk on walls, time reverses for an instant, or when a PC tries to use an ability, he's told it doesn't work, without explanation. These tricks work best when used sparingly and when the PCs' lives aren't in jeopardy, because they signal that perhaps the world isn't as reliable (or unbiased) as the characters thought."
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"horror_rules",
+			"running_horror_adventures",
+			"creating_horror_adventures"
+		],
+		"siblings": [
+			"know_the_medium",
+			"choose_the_terror",
+			"spread_the_terror",
+			"fear_from_the_unexpected",
+			"horrible_success_terrible_rewards"
+		]
+	},
+	"horrible_success_terrible_rewards": {
+		"name": "Horrible Success, Terrible Rewards",
+		"subtitle": "Horror, Specific Campaigns",
+		"sources": [ "Horror Adventures" ],
+		"description": [
+			"{SOURCE Horror Adventures/199}",
+			"",
+			"In most Pathfinder adventures, the PCs are destined to succeed. When running a horror adventure, that doesn't necessarily mean it should be more challenging, and it certainly shouldn't be a guaranteed total party kill. Most of the time, a GM wants the PCs to be unsettled by the story instead of their die rolls, so she should plan for the PCs' success; many adventures have horrific consequences for failure, but in a horror adventure, consider the various ways that success, too, could have horrific consequences.",
+			"",
+			"During the course of the adventure, the PCs should have numerous victories over lesser enemies, traps, haunts, and other challenges. This is standard for Pathfinder adventures, and a GM should reward the PCs as normal with experience and treasure. Follow the usual rules for awarding experience, but don't save experience just for successful combat encounters. Horror adventures often include investigation, research, and roleplaying encounters. If a GM wants players to take those elements of the game just as seriously as the combat encounters, she can reward them for successes in those arenas, typically with an XP reward equal to their average party level. See the {rule/Encouraging Horror Roleplaying} section for more details on using experience in horror adventures.",
+			"",
+			"Treasure can also be particularly useful in horror adventures, both in revealing more of the plot and in unnerving the PCs. A GM can customize treasure to her adventure's needs. There should rarely be just a +1 dagger lying around in a horror adventure. Rather, that +1 dagger could bear the symbol of the city watch and the letters \"J. B.,\" the initials of the guard who disappeared after claiming he saw spiders drag a dog into the sewers. Even when an encounter just calls for a heap of coins and mundane supplies, don't hesitate to slip in letters, journals, or books the PCs can research to learn more about the plot (though try to avoid the adventure cliche of including a bizarrely specific letter or unnecessary journal entry that directly reveals the story in an awkward and heavy-handed manner). Tidbits that make sense for that NPC and that the PCs can piece together contribute more to the air of mystery and horror. Evidence that the PCs aren't the first to face the horror can be rattling - especially if their predecessors failed - and can also serve as a reason for why magic items perfect for fighting a creature are in its lair. Additionally, rewards that act as a double-edged sword, such as a partially cursed item that provides just what the PCs need at a cost, often work better than cursed items that the PCs could just avoid as if they were other hazards. This gives the PCs the chance to dig their own graves and tempts them to keep the rewards around.",
+			"",
+			"Finally, a GM should know what success means for her adventure. PCs often assume that violence puts an end to things. For instance, they may think that killing the attic whisperer or setting the clock tower on fire destroys the fear. But fear and evil are notoriously resilient. Truly destroying the horror might require learning its origins or discovering its special weakness. If the attic whisperer continually arises from the ashes, eventually - with a little guidance - the PCs could discover that the creature's father is still alive, and might even be the priest who asked them to put an end to the lonely creature's menace. Of course, even then, it's difficult for the characters within a horror story to know whether an evil is truly exorcised - or merely lying in wait for a sequel."
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"horror_rules",
+			"running_horror_adventures",
+			"creating_horror_adventures"
+		],
+		"siblings": [
+			"know_the_medium",
+			"choose_the_terror",
+			"spread_the_terror",
+			"fear_from_the_unexpected",
+			"horrible_success_terrible_rewards"
+		]
+	},
+	"horror_storytelling": {
+		"name": "Horror Storytelling",
+		"subtitle": "Specific Campaigns",
+		"sources": [ "Horror Adventures" ],
+		"description": [
+			"{SOURCE Horror Adventures/200}",
+			"",
+			"The promise of fear is often obvious from the first glimpse of a horror film or story, as subtly abnormal choices in the ambience set the mood for terror. Horror adventures should feel much the same. More so than other Pathfinder RPG adventures, these rely on the creation of the atmosphere, the mood that surrounds the game. Atmosphere can mean the difference between a normal session and a truly frightening experience. This section focuses on gameplay techniques and storytelling special effects aimed at creating a moodier, more disturbing atmosphere. These suggestions step beyond game rules, and the advice herein can help GMs deftly defy the expectations of both the characters and their players.",
+			"",
+			"Ten Questions to Help You Design a Horror Adventure",
+			"",
+			"1. What is there to be afraid of?",
+			"",
+			"2. What caused the horrific situation to develop or spike?",
+			"",
+			"3. How does the adventure's environment reinforce the horror's fearsomeness or a sense of dread?",
+			"",
+			"4. What hides the horror or builds the tension?",
+			"",
+			"5. What do the PCs fear losing?",
+			"",
+			"6. Do the PCs have resources that allow them to negate the horror?",
+			"",
+			"7. What gives the PCs hope of defeating their enemy?",
+			"",
+			"8. What shocking event lets the PCs know that nothing is safe?",
+			"",
+			"9. What scenes or settings exist to release tension?",
+			"",
+			"10. Are elements unintentionally predictable, cliched, or similar to well-known horror tales?"
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"horror_rules",
+			"running_horror_adventures"
+		],
+		"subtopics": [
+			"how_to_scare_heroes",
+			"how_to_scare_players",
+			"secrets_and_suspicion",
+			"dice_and_other_deceits",
+			"stress_and_uncertainty",
+			"death_and_bargaining",
+			"encouraging_horror_roleplaying"
+		],
+		"siblings": [
+			"horror_versus_heroism",
+			"horror_games_and_consent",
+			"horror_subgenres",
+			"creating_horror_adventures",
+			"horror_storytelling",
+			"going_too_far",
+			"creating_atmosphere",
+			"rules_improvisation"
+		]
+	},
+	"how_to_scare_heroes": {
+		"name": "How to Scare Heroes",
+		"subtitle": "Horror, Specific Campaigns",
+		"sources": [ "Horror Adventures" ],
+		"description": [
+			"{SOURCE Horror Adventures/201}",
+			"",
+			"There's no one route to telling a good horror story, nor is there just one way to run a great horror adventure. GMs can take a three-pronged approach to unsettling the PCs.",
+			"",
+			"@HL[Narrative Dread:] Something can be made frightening by building tension. A GM wants her story to evoke a sense of dread, which is the expectation of harm or terrible things. Stories should be built so the characters expect horrible things before they actually see anything. Situations should get gradually worse and be punctuated by encounters that feature terrible creatures or that provide evidence of gruesome fates. Don't give the characters all of the details, though. Let them imagine that things are even worse than they appear. Then, when the situation is at its most tense, the monster or other shocking feature of the story is revealed. For more details, see {rule/Creating Horror Adventures}.",
+			"",
+			"@HL[Dramatic Storytelling:] {rule/The Art of GMing} section presents numerous tips to help anyone become a more engaging Game Master. A GM is the window through which players experience a horror story. A GM can follow the techniques of skilled ghost storytellers and consider how her voice, tempo, movements, and what she chooses to focus on can work to build an ominous atmosphere.",
+			"",
+			"@HL[Ominous Setting:] The adventure's most fearful moments transpire in the players' imaginations, but what happens in the real world can help it along. See {rule/Creating Atmosphere} for suggestions on how to prepare a game space for terror."
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"horror_rules",
+			"running_horror_adventures",
+			"horror_storytelling"
+		],
+		"siblings": [
+			"how_to_scare_heroes",
+			"how_to_scare_players",
+			"secrets_and_suspicion",
+			"dice_and_other_deceits",
+			"stress_and_uncertainty",
+			"death_and_bargaining",
+			"encouraging_horror_roleplaying"
+		]
+	},
+	"how_to_scare_players": {
+		"name": "How to Scare Players",
+		"subtitle": "Horror, Specific Campaigns",
+		"sources": [ "Horror Adventures" ],
+		"description": [
+			"{SOURCE Horror Adventures/201}",
+			"",
+			"Numerous guides, stories, and films exist that can help GMs tell a better horror story. However, few explicitly help a GM run better horror adventures. Telling a great story is only part of a horror adventure. The GM still runs a Pathfinder game, and unlike most horror stories, this means the players are not just her audience but also the stars of her story. While she wants to terrify the characters, she wants to give the players the opportunity to dread something as well - to share a sympathetic sort of fear with their characters. While the game's atmosphere can contribute to players' fear, a GM can also subtly alter the roleplaying game experience to sow suspicion and dismay. The following techniques are essentially GM special effects and are best used sparingly."
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"horror_rules",
+			"running_horror_adventures",
+			"horror_storytelling"
+		],
+		"siblings": [
+			"how_to_scare_heroes",
+			"how_to_scare_players",
+			"secrets_and_suspicion",
+			"dice_and_other_deceits",
+			"stress_and_uncertainty",
+			"death_and_bargaining",
+			"encouraging_horror_roleplaying"
+		]
+	},
+	"secrets_and_suspicion": {
+		"name": "Secrets and Suspicion",
+		"subtitle": "Horror, Specific Campaigns",
+		"sources": [ "Horror Adventures" ],
+		"description": [
+			"{SOURCE Horror Adventures/201}",
+			"",
+			"Players occasionally learn things at different times or find themselves in cahoots with the GM regarding some larger plot. Rather than trying to hide that one player has secret information, consider broadcasting it. As soon as the players know they don't share an even footing, matters of trust and suspicion become a choice rather than a foregone conclusion. Consider the following techniques to build suspicion between players.",
+			"",
+			"@HL[The Secret:] The GM has one player step outside of the room with her or otherwise out of earshot of the other players. She then provides him with secret information he's learned during the course of play or something only he's noticed. She possibly gets a brief response, then as swiftly as possible, they return to the game table. How and whether that information is shared with the rest of the party is up to the player - but now everyone knows that something special happened to him.",
+			"",
+			"@HL[The Bluff:] The GM pulls a player away from the table and asks him how he thinks the game is going, or how his day is, or tells him there's nothing special to reveal. Then they return to the game. Now all the other players think the player has a secret. Even if the player tells the truth and explains that he was pulled away for no reason, who in the party's going to believe him?",
+			"",
+			"@HL[The Observation:] The GM pulls a player away and tells him something inconsequential - maybe that his character feels like rats are staring at him, that he never noticed the hint of blond in the bard's hair, or that all the fallen leaves seem to point to the west. Now the player has to wonder whether this is a meaningful secret or just a random observation. Maybe he fixates on it - especially if the GM encourages him to do so. Perhaps he mentions it to the other players, at which point the GM can decide whether to confirm the observation and have the other characters notice too, or to deny it, causing the other characters to mistrust the observer and causing the observer to mistrust her. This works particularly well if a single character has become slightly unhinged or if one character is legitimately more perceptive than the others.",
+			"",
+			"@HL[The Shell Game:] Combining the techniques above, the GM calls each player away from the table one at a time. She tells one character something relevant, but provides the others with either nothing or pointless observations. The players who got nothing now have to wonder if they were the only ones, while the player who learned a secret has to wonder what other players learned. This works well in situations where one player has become the GM's coconspirator - perhaps via an enchantment effect on the player's character or by the PC being replaced by a monster."
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"horror_rules",
+			"running_horror_adventures",
+			"horror_storytelling"
+		],
+		"siblings": [
+			"how_to_scare_heroes",
+			"how_to_scare_players",
+			"secrets_and_suspicion",
+			"dice_and_other_deceits",
+			"stress_and_uncertainty",
+			"death_and_bargaining",
+			"encouraging_horror_roleplaying"
+		]
+	},
+	"dice_and_other_deceits": {
+		"name": "Dice and Other Deceits",
+		"subtitle": "Horror, Specific Campaigns",
+		"sources": [ "Horror Adventures" ],
+		"description": [
+			"{SOURCE Horror Adventures/202}",
+			"",
+			"Much of the structure of a Pathfinder game can seem like a foregone conclusion. But in a horror game, nothing need be sacred. Consider manipulating the fundamental activities of the game to keep the players off guard.",
+			"",
+			"@HL[The Mystery Roll:] The GM asks a player to roll a d20 and makes a show of noting the result. When the player asks what the roll was for, the GM tells him not to worry about it. She might not need this roll for anything at all, but the players won't know that. This works particularly well for refocusing the attention of distracted players.",
+			"",
+			"@HL[The Stolen Check:] The GM rolls a d20 and asks a player what his Perception modifier is. She notes the result. Repeat for the entire group - or not. This could just be a technique to make the players wonder if they've missed something, or it could be a legitimate hidden check (there are even several sorts of rolls that generally dictate that they are rolled by the GM). This trick works best when used in both ways throughout a game, leaving the players wondering about any given stolen check. As a variation, the GM might have the players roll 10 Perception checks at the start of the session and keep the results on hand. During the adventure, don't ask players to roll Perception checks, just reference the existing bank for results. That way the players won't know whether they rolled well and noticed all there is or poorly enough that they should search again.",
+			"",
+			"@HL[Reconsider Game Aides:] Many Pathfinder adventures feature a variety of tools that encourage strategy and precision gaming. A GM could throw precision out the window. When vague horrors are reduced to pawns and squares, the fearfulness of the unknown withers. Instead, the GM might play faster and looser with game measurements, tracking player arrangements vaguely on whiteboards or in the imagination alone, erring in the PCs' favor in terms of range and movement whenever possible. It takes some experimentation, but GMs can find that players identify more intimately with characters in their heads than with miniatures on the game table."
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"horror_rules",
+			"running_horror_adventures",
+			"horror_storytelling"
+		],
+		"siblings": [
+			"how_to_scare_heroes",
+			"how_to_scare_players",
+			"secrets_and_suspicion",
+			"dice_and_other_deceits",
+			"stress_and_uncertainty",
+			"death_and_bargaining",
+			"encouraging_horror_roleplaying"
+		]
+	},
+	"stress_and_uncertainty": {
+		"name": "Stress and Uncertainty",
+		"subtitle": "Horror, Specific Campaigns",
+		"sources": [ "Horror Adventures" ],
+		"description": [
+			"{SOURCE Horror Adventures/202}",
+			"",
+			"The PCs should never feel like they're entirely in control in a horror game. Just as their characters should feel unsure about what's going to happen, the players should experience their own uncertainty. Whether in a GM's storytelling or how she runs encounters, the following techniques can help add tension to a game.",
+			"",
+			"@HL[Accentuate the Unnatural:] The GM is the game's narrator. That doesn't mean she has to be an impartial or reliable narrator. Consider having the world seem to function in ways it shouldn't - or in outright supernatural manners. A creak might sound like a player's name; the wind coming through the window might cease as soon as the PCs enter the room; a rat might stop in the middle of the hall, rise on its back legs, look into the characters' eyes, and whisper \"Beware.\" These elements don't need rules because they're not dangers or things to fight, they're glimpses into the world - a world where something is unsettlingly wrong.",
+			"",
+			"@HL[Acting with Urgency:] The GM can describe a battle as being as hectic as she pleases, but if the PCs have lengthy strategic conversations during combat, it loses any hint of urgency. The GM can make the situation's stressfulness real by demanding that PCs act swiftly. Speak quickly and demand to know what a PC will do as soon as his turn comes up in initiative. If he falters or reaches for a book, the GM insists that he either delay his turn or make a decision in 6 seconds or else he loses his action - then begin counting down. The purpose here isn't to cheat players out of turns, but a constrained window of action lets the players share the same strain as their characters. Don't be too much of a stickler about the countdown, especially with players new to the game.",
+			"",
+			"@HL[Countdown to Terror:] During a stressful situation, the GM starts a tally of rounds that pass, sets a timer or countdown, or makes a show of accounting for the time - \"This is round three, right\"? Ideally, this countdown leads to an occurrence on a particular round, but it doesn't have to. It could just be a trick to make the PCs worry that something's coming. Alternatively, a GM can strip the mystery away and let the players know something their characters couldn't: that when the countdown ends, something terrible will happen. What? That's up to the GM. But unless the PCs manage to defeat the monster, activate the device, or escape, things are about to get worse.",
+			"",
+			"@HL[Purposeful Misperceptions:] The GM tells a PC that he thinks he hears something. When he asks what, he's told he doesn't know, and then can decide whether he investigates further. Maybe the GM tells him he thinks it's nothing - but can he be sure? It could be something the character heard, a shadow he thought he saw move, or even just a memory that pops to mind. Regardless, by giving PCs bits of uncertain or unsettlingly meaningless information, they begin to wonder what's important and what's not, what's real and what's just in their character's head.",
+			"",
+			"@HL[Refuse Rest:] When the PCs rest, they recover hit points, spells, and other abilities or elements the adventure has worn down. But when the PCs can't rest, the situation becomes more dire. Spellcasters covet their last spells, healers wait to dole out their last potions, and combatants think more strategically and retreat more readily when their hit points run low. How a GM denies the party rest might involve the adventure needing to occur within a limited span of time or there merely being no convenient safe space. As an alternative, circumstances might prevent a rest from recovering the PCs' resources (for instance, the nightmare spell prevents an arcane spellcaster from preparing spells). While this technique is crucial for portraying dwindling resources and maintaining momentum and tension, use it with care. Players quickly grow frustrated if the restrictions seem artificial rather than tied to the story.",
+			"",
+			"@HL[Splitting the Party:] It's relatively common in horror stories for the protagonists to become separated. If this happens in a game, the GM divides the group and sends those who aren't currently playing out of the room - she doesn't want them knowing their allies' fate or distracting the players currently in the limelight. Switch between groups about every 10 or 15 minutes until the group meets back up, trying to end each scene with a group either on a mini-cliffhanger or at a point when they have something to discuss (which can happen away from the table). Keep the party split for as brief a period as possible; not only are divided groups weaker in a fight, but players quickly lose their immersion when away from the game table and forced to put the game on hold."
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"horror_rules",
+			"running_horror_adventures",
+			"horror_storytelling"
+		],
+		"siblings": [
+			"how_to_scare_heroes",
+			"how_to_scare_players",
+			"secrets_and_suspicion",
+			"dice_and_other_deceits",
+			"stress_and_uncertainty",
+			"death_and_bargaining",
+			"encouraging_horror_roleplaying"
+		]
+	},
+	"death_and_bargaining": {
+		"name": "Death and Bargaining",
+		"subtitle": "Horror, Specific Campaigns",
+		"sources": [ "Horror Adventures" ],
+		"description": [
+			"{SOURCE Horror Adventures/203}",
+			"",
+			"Sometimes characters die. That's not fun for anyone, though - especially if the GM has spent a considerable amount of time on a story that now might never take shape. While players should feel like doom looms around the next corner, the threat of death and the idea of defeat are far more useful than actually killing off the entire group. Few GMs are above fudging a die roll, having a foe die suddenly, or having villains start taking prisoners if bad rolls turn an encounter against the players. Total party kills should be reserved for when they make the best stories, like at the hands of a truly terrible foe.",
+			"",
+			"Still, sometimes characters die, and it's not always convenient or plausible to stop the adventure to find a cleric capable of restoring them. In such cases, a GM might take it on herself to make a deal with a player, trading a miraculous recovery (and thus, his continued role in the game) for a price she determines. Such a bargain might last for a set period: until the session's end, until it's convenient to make a new character, until the party comes up with a better solution, or - most menacingly - simply until the GM says so. The terms of the deal should be set outside the earshot of the other players, and the PC has the right to refuse. Regardless of the specifics, if the PC accepts, he works for the GM now, a factor that can lend new threats to several sorts of horror games. In all of these cases, the GM should take the blame for the PC's treachery because she doesn't want to cause hurt feelings between players.",
+			"",
+			"@HL[The Doppelganger:] Inform the PC that he barely survived - but only because he was replaced by a shapeshifting creature at some point in the past. He is now playing a monster with the exact same statistics as his character. When he sees an opportune moment, he should attack or otherwise betray the party to the villain. Once this occurs and the player's monstrous nature is revealed, it raises the question of what happened to the real character: they might now be a prisoner somewhere, waiting to be saved by the others.",
+			"",
+			"@HL[The Evil Spirit:] Inform the PC that he died, but his corpse has been animated by an evil spirit. He can continue to play as normal, but when something in particular happens in the story (or simply when the GM says \"now\"), he should turn on the rest of the party or perform some other action prescribed - like attack the paladin. The GM might grant the character some fitting special ability or other monstrous power.",
+			"",
+			"@HL[The Devil:] Inform the PC that he died and now stands before a devil, a grim reaper, or something worse. This god-like entity offers to return the PC to life but will come to call later and demand a service. Whatever this service might be, the PC is compelled to comply and also to keep the terms of the bargain secret. Perhaps the GM knows what the entity wants at the bargain's outset, but even if not, this kind of loose thread is perfect for future exploitation."
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"horror_rules",
+			"running_horror_adventures",
+			"horror_storytelling"
+		],
+		"siblings": [
+			"how_to_scare_heroes",
+			"how_to_scare_players",
+			"secrets_and_suspicion",
+			"dice_and_other_deceits",
+			"stress_and_uncertainty",
+			"death_and_bargaining",
+			"encouraging_horror_roleplaying"
+		]
+	},
+	"encouraging_horror_roleplaying": {
+		"name": "Encouraging Horror Roleplaying",
+		"subtitle": "Specific Campaigns",
+		"sources": [ "Horror Adventures" ],
+		"description": [
+			"{SOURCE Horror Adventures/203}",
+			"",
+			"Pathfinder is not a game anyone wins, but it's not uncommon for players to want to overcome challenges in an exceptional fashion or with the minimum expenditure of resources. That means that some players view time spent indulging in terrified reactions and unheroic roleplaying as a waste of time - particularly when such roleplaying arises during combat encounters. If a GM wants her players to care about and emphasize not just roleplaying but also reacting to horror, it's up to her to encourage it - or at least not to penalize it. To incentivize her players into displaying frightened reactions, she can point them toward the {rule/Playing a Horror Hero} discussion, and consider employing the following techniques.",
+			"",
+			"@HL[Time for Terror:] Many players' first reaction to a threat, no matter how overwhelming, will be to fight. Before rolling initiative for a particularly terrifying scene, the GM can ask the players whether any of them would like to use the instant before combat for a terrified reaction. This is not a surprise round or any other in-game unit of measurement, but rather a special instance for characters who want to play up their reaction to the scene with a free action like yelling a warning, dropping an object, falling backward, or shrieking. In this way, the GM rewards players who want to express their shock and gets the group's reactions all at once, rather than drawing out the first round of combat.",
+			"",
+			"@HL[Reward Terror:] Whenever a player does something that improves the game's story, enhances the session's atmosphere, or just seems cool, the GM can give the party an ad hoc experience award. There are few more powerful ways to encourage behavior that benefits the game than with immediate positive reinforcement, and the GM has an endless supply of experience points to dole out. This shouldn't be much, maybe as little as 50 XP at lower levels, maybe creeping up to 200 XP at higher levels - nothing that feels like a game-changer. Even then, though, a little reward can serve as a strong incentive to encourage good roleplaying and story investment. Best of all, it encourages not just one player but the entire group to prioritize behavior the GM rewards."
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"horror_rules",
+			"running_horror_adventures",
+			"horror_storytelling"
+		],
+		"siblings": [
+			"how_to_scare_heroes",
+			"how_to_scare_players",
+			"secrets_and_suspicion",
+			"dice_and_other_deceits",
+			"stress_and_uncertainty",
+			"death_and_bargaining",
+			"encouraging_horror_roleplaying"
+		]
+	},
+	"going_too_far": {
+		"name": "Going Too Far",
+		"subtitle": "Horror, Specific Campaigns",
+		"sources": [ "Horror Adventures" ],
+		"description": [
+			"{SOURCE Horror Adventures/204}",
+			"",
+			"Some GMs make the mistake of thinking that if a frightening gimmick works for a haunted house or campfire story, then it will work for their horror adventures. Such is rarely the case. At best, overdoing it on artificial, half-creepy tricks can break the atmosphere and distract from the game. At worst, they become jokes or can upset players. As a rule, a GM should keep a horror game on the game table. Here are a few gimmicks to absolutely avoid.",
+			"",
+			"@HL[Don't Fake Emergencies:] Faking choking or pretending the slasher attack is real can be legitimately scary in a way that violates players' trust. The game must remain a game, and as soon as it breaks the fourth wall and enters reality, things can go off the rails fast. Never risk someone getting hurt or having the authorities get involved.",
+			"",
+			"@HL[Don't Involve People Outside the Game:] Those who haven't joined the game should not have to experience the game's creepy elements, whether that be loud music, in-character shrieking, or other disruptive sounds. Additionally, never ask outside coconspirators to secretly participate in the game unbeknownst to the players.",
+			"",
+			"@HL[Don't Touch the Players:] Whether this means getting into character and clamping a cold hand on a player's shoulder or physically dropping plastic spiders from the ceiling, never invade the players' personal space or set up tricks that could backfire and cause physical harm.",
+			"",
+			"@HL[Don't Use Costumes or Makeup:] Costumes and fake blood are distractions. If a GM tries to make herself look creepy, it might work for a minute, but most games run longer than that. After a while, the prop or special effect becomes commonplace, or worse, just silly."
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"horror_rules",
+			"running_horror_adventures"
+		],
+		"siblings": [
+			"horror_versus_heroism",
+			"horror_games_and_consent",
+			"horror_subgenres",
+			"creating_horror_adventures",
+			"horror_storytelling",
+			"going_too_far",
+			"creating_atmosphere",
+			"rules_improvisation"
+		]
+	},
+	"creating_atmosphere": {
+		"name": "Creating Atmosphere",
+		"subtitle": "Horror, Specific Campaigns",
+		"sources": [ "Horror Adventures" ],
+		"description": [
+			"{SOURCE Horror Adventures/204}",
+			"",
+			"An adventure might be a masterpiece of terror, but if it's being played on a sunny day with people laughing in the background, the players still might not be able to feel the mood. The surroundings can be a GM's greatest ally in telling a truly effective horror tale, but they might also work against her entirely. Consider the game space as a stage. This section includes ways that a GM might manipulate that performance space to create an atmosphere perfect for horror adventures."
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"horror_rules",
+			"running_horror_adventures"
+		],
+		"subtopics": [
+			"game_space",
+			"lighting_ha",
+			"music_ha",
+			"house_ruling_distractions"
+		],
+		"siblings": [
+			"horror_versus_heroism",
+			"horror_games_and_consent",
+			"horror_subgenres",
+			"creating_horror_adventures",
+			"horror_storytelling",
+			"going_too_far",
+			"creating_atmosphere",
+			"rules_improvisation"
+		]
+	},
+	"game_space": {
+		"name": "Game Space",
+		"subtitle": "Horror, Specific Campaigns",
+		"sources": [ "Horror Adventures" ],
+		"description": [
+			"{SOURCE Horror Adventures/204}",
+			"",
+			"Since playing Pathfinder can take up a considerable area, the size of which is often limited by any number of practical constraints, game space can be one of the most difficult environmental factors to influence. If the GM has a choice, though, she can seek a quiet place where interruptions will be few - traffic and background noise can negatively impact the atmosphere being created. If she has to share a space, it might help for the GM to tell non-players that she's running a game and would appreciate not being interrupted, or she might schedule a time when disturbances will be limited. While a GM might consider running the game outside or in creepy surroundings like a crypt or cabin in the woods, keep in mind that such a venue could be distracting in itself and is probably more trouble than it's worth."
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"horror_rules",
+			"running_horror_adventures",
+			"creating_atmosphere"
+		],
+		"siblings": [
+			"game_space",
+			"lighting_ha",
+			"music_ha",
+			"house_ruling_distractions"
+		]
+	},
+	"lighting_ha": {
+		"name": "Lighting",
+		"subtitle": "Horror, Specific Campaigns",
+		"sources": [ "Horror Adventures" ],
+		"description": [
+			"{SOURCE Horror Adventures/204}",
+			"",
+			"Dimming the lights can go a long way in creating a moodier environment. Shadows add an air of the unknown, and cause everyday distractions to fade away. Make sure that the players can see, though - there's a lot of reading and page referencing in Pathfinder that GMs don't want to turn into a chore. A room with lights on a dimmer switch works well, as does turning off overhead lighting and moving a single-bulb lamp into the room. Candles and non-electric lamps typically prove distracting and troublesome, if not outright hazardous. While rooms with natural lighting can create issues during the day, at night, the dark can make them prime game spaces."
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"horror_rules",
+			"running_horror_adventures",
+			"creating_atmosphere"
+		],
+		"siblings": [
+			"game_space",
+			"lighting_ha",
+			"music_ha",
+			"house_ruling_distractions"
+		]
+	},
+	"music_ha": {
+		"name": "Music",
+		"subtitle": "Horror, Specific Campaigns",
+		"sources": [ "Horror Adventures" ],
+		"description": [
+			"{SOURCE Horror Adventures/204}",
+			"",
+			"Used well, music can be a powerful tool for creating atmosphere. Handled poorly, it can be a major distraction that irreparably warps, or even completely ruins, a game's mood. When a GM uses music in her horror game, the goal is to create a subtle but ever-present auditory undercurrent that reinforces her descriptions of settings and events. The music fills in gaps in the action with content that supports the story's atmosphere. Often breaks in play get filled in with distractions, but effective musical choices can counter that. Consider the following tips when selecting music to include in a horror adventure.",
+			"",
+			"@HL[Avoid the Familiar:] Music should evoke a theme, but not a specific scene or character. Therefore, be wary of using immediately recognizable songs. Players who identify a particular theme will naturally associate a game with the source's events, often to distracting ends.",
+			"",
+			"@HL[Keep It Simple:] Don't let tinkering with audio devices or searching for the perfect song get in the way of a game. Assemble a playlist before the game. Select a theme for major NPCs and significant events, a few for prominent locations, one or two for battles, and one for a final battle. If a GM can run her music from a computer or phone, preferably linked to a wireless speaker, she can readily switch between tracks without leaving the game table.",
+			"",
+			"@HL[Repetition:] RPG scenes usually last longer than a typical music track. Rather than assembling dozens of pieces of music for every event or location in a game, find songs that work well in repetition. Video game scores work well for this as they're often designed with repeat listening in mind. Set a music player to repeat a track, changing it when the scene or story demands. Avoid songs that have an obvious element to them, like a particularly dramatic crescendo - so players don't notice the same section every time. In the best cases, players will notice the music for only a few moments at a time before their attention shifts back to the game.",
+			"",
+			"@HL[Steady Mood, No Lyrics:] A GM shouldn't have to compete with the music for the players' attention. When selecting music for a game, instrumental music that fades into the background is ideal. Avoid music with lyrics, as language distracts from what's being said and is noticed more readily when it repeats. By the same token, a GM wants songs that inspire a consistent mood. If a piece jumps from somber to upbeat, it won't serve when needed for one or the other.",
+			"",
+			"@HL[Volume Manipulation:] Most times, a GM wants background music to be low and subtle so players focus on the game. That said, manipulating volume allows her to create a number of special effects. Try using the music's volume to manipulate player attention. If the players' attention drifts, a GM can slowly turn up the volume until their focus shifts back to her. Once they've noticed she's waiting or has begun speaking, she can turn it back down. This is a fantastic way to end breaks and signal that play is restarting.",
+			"",
+			"@HL[Volume Matching:] In action-packed scenes, a GM can turn an energetic track up and raise her voice over it, quickening her speech's tempo to evoke a sense of urgency. If everyone has to speak louder to be heard over the music, it's easier to envision the hectic or dangerous nature of the accompanying scene. As with all narrative special effects, this technique works best when used infrequently."
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"horror_rules",
+			"running_horror_adventures",
+			"creating_atmosphere"
+		],
+		"siblings": [
+			"game_space",
+			"lighting_ha",
+			"music_ha",
+			"house_ruling_distractions"
+		]
+	},
+	"house_ruling_distractions": {
+		"name": "House-Ruling Distractions",
+		"subtitle": "Horror, Specific Campaigns",
+		"sources": [ "Horror Adventures" ],
+		"description": [
+			"{SOURCE Horror Adventures/205}",
+			"",
+			"Portable games, social media, and other hobbies vie for everyone's attention. A GM, though, is the arbiter of the rules, both those in the game books and in her own house rules. Consider setting a simple house rule: When at the game table, the group is playing Pathfinder - and nothing else. Phones are away, computers are off, other hobbies and distractions - even RPG-related ones like painting miniatures - are set aside. The GM might expand this to most food and drink as well since eating and the presence of food containers undermine immersion.",
+			"",
+			"There are a number of reasons to adopt such rules. The first is simple engagement. Some players say they can do two things at once, but if they're not focused on the game, they're not imagining the story, thinking in character, or noticing the atmosphere. The second is a matter of verisimilitude. The characters likely don't have electronic devices. It's easier for everyone to envision their fellow players as their characters if they're not engaged in activities that run counter to what's possible in the game world. The final reason is just a matter of courtesy. A GM puts thought and time into an adventure, and the other players invest a similar degree of consideration in developing their characters. Just as an audience would in any other storytelling medium, players should repay such efforts with their respectful attention.",
+			"",
+			"If including rules for what is and isn't allowed at a game table, the GM should make them clear before the game starts, possibly explaining why or showing players this section of text as reasoning. The goal here is to create as atmospheric and immersive an experience as possible, not to be a tyrant."
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"horror_rules",
+			"running_horror_adventures",
+			"creating_atmosphere"
+		],
+		"siblings": [
+			"game_space",
+			"lighting_ha",
+			"music_ha",
+			"house_ruling_distractions"
+		]
+	},
+	"rules_improvisation": {
+		"name": "Rules Improvisation",
+		"subtitle": "Horror, Specific Campaigns",
+		"sources": [ "Horror Adventures" ],
+		"description": [
+			"{SOURCE Horror Adventures/206}",
+			"",
+			"It's impossible to predict every character action, and Game Masters often have to improvise when a party follows an unanticipated plot thread. While GMs can cultivate the ability to remain flexible in the face of unpredictability, coming up with new plot elements on the fly is only one challenge. Creating and employing new rules without any preparation is another one entirely. In the context of a horror adventure, such rules improvisation is not only useful, but all the more critical, as interruptions and page flipping can ruin a scene's atmosphere, while a quick improvised decision can keep the tension intact.",
+			"",
+			"Fortunately, as a benefit of being a well-developed game system, the Pathfinder RPG offers guidelines and subsystems for adjudicating hundreds of hazards and encounter types. Still, the game rules can't account for everything. In such cases, it's up to the GM to use her knowledge of the rules to improvise options. Coming up with quick, simple ways to support characters who find themselves in unique situations or who want to attempt audacious actions is usually preferable to avoiding such game-defining events. Depending on the case, a GM might ask players to merely roll an ability or skill check, setting a DC that seems appropriate. Another option - which can often be more fun - involves considering the situation and adapting existing rules to work for the game's needs.",
+			"",
+			"The remainder of this section presents a variety of situations that might appear in a horror adventure, but for which concrete rules don't exist. Each of the following sections references existing Pathfinder RPG rules that GMs could retrofit to handle the encounter. These aren't definitive rules for any of the situations described below. Instead, they are a primer on customizing rules to meet specific needs, and they should help GMs look beyond the overt purpose of certain rules systems and identify precedents and components that might be repurposed in unlimited ways.",
+			"",
+			"### Improvisation Benchmarks",
+			"",
+			"While encyclopedic knowledge of existing rules certainly helps with improvising new ones, it's not necessary by any means. The majority of the time, existing rules supply all the direction needed. In cases where they don't, don't worry! Almost everything in the Pathfinder RPG comes down to the roll of a d20. So the main questions are often simply how high to set a DC and what sort of bonus the PC should apply to it. While the latter is largely thematic and up to the GM's judgment, setting DCs can get a bit more technical. Fortunately, the likelihood of a too-high or too-low DC \"ruining\" an adventure is infinitesimal, especially when taking the following into account.",
+			"",
+			"@HL[Custom DCs:] Need to generate a DC for a specific situation on the fly? Look at tables like those for the Acrobatics, Bluff, Escape Artist, and other skills and extrapolate whether the challenge should be harder or easier based on the DC precedents there. GMs can find some great charts for adhoc DCs for parties of various levels in the sections on {rule/social conflicts} and {rule/influence}.",
+			"",
+			"@HL[Monster Statistics:] Need something other than a DC? [Table 1-1](rule/step_2_target_statistics) provides a wealth of level-appropriate benchmarks for creature hit points, Armor Class, damage, saving throw DCs, and more. These aren't just for monsters, though. Consider finding the party's level and using these statistics for any challenge required, increasing or decreasing the figures as necessary to adjust the difficulty."
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"horror_rules",
+			"running_horror_adventures"
+		],
+		"subtopics": [
+			"buried_alive",
+			"burned_at_the_stake",
+			"burning_buildings_and_crumbling_structures",
+			"guillotine",
+			"hanging",
+			"thematic_creepiness"
+		],
+		"siblings": [
+			"horror_versus_heroism",
+			"horror_games_and_consent",
+			"horror_subgenres",
+			"creating_horror_adventures",
+			"horror_storytelling",
+			"going_too_far",
+			"creating_atmosphere",
+			"rules_improvisation"
+		]
+	},
+	"buried_alive": {
+		"name": "Buried Alive",
+		"subtitle": "Horror, Specific Campaigns",
+		"sources": [ "Horror Adventures" ],
+		"description": [
+			"{SOURCE Horror Adventures/206}",
+			"",
+			"A character wakes up in a claustrophobic space, walls barely a hand's breadth above his face and to either side. The air is already growing sour, and his increasing heart rate and frantic breathing aren't helping the situation. There's only one thing to do: he has to escape.",
+			"",
+			"@HL[By the Rules:] In a coffin, a character's ability to move is restricted by the tight confines. Even if he's able to move, the coffin itself and the earth beyond present nearly insurmountable barriers to escape. Relevant to these challenges are the {skill/Escape Artist/ skill}, [rules on hardness](rule/breaking_things), and details on {rule/cave-ins and collapses}, as well as the bury alive ability of the {monster/gravebound}, which uses the aforementioned systems to determine the ability's effects, including the amount of time it takes to dig up a buried character, with or without a shovel.",
+			"",
+			"@HL[Extrapolation:] The Escape Artist skill allows a character to move through a tight space by spending 1 minute and succeeding at a DC 30 Escape Artist check. This seems similar to the difficulty of moving within a coffin. As such, the GM might rule that for any action requiring motion to be successful - such as producing an item, making an attack, casting a spell, and so on - the character must spend 1 minute and succeed at this check.",
+			"",
+			"As for the coffin itself, a normal casket is probably of similar quality to a good wooden door or treasure chest, which would mean it has a hardness of 5 and 15 hit points. As soon as the coffin is broken, though, things get much worse for the character who was buried alive. According to the rules on cave-ins and collapses, characters take 1d6 points of nonlethal damage per minute while buried. If such a character falls unconscious, he must succeed at a DC 15 Constitution check each minute. If he fails this check, he takes 1d6 points of lethal damage each minute until freed or dead. Thus, a GM might rule that a character can attempt a DC 20 Strength check every minute. If the character succeeds, he manages to clear enough dirt to drag himself upward 1 foot. At that rate, then, it would require six successful Strength checks for a character to dig himself free from a coffin buried 6 feet underground. This, of course, assumes that loose dirt covers the coffin. Other substances, like rocks or metal slabs, would make such a dig far more difficult, at the least, if not outright impossible.",
+			"",
+			"@HL[Horror Considerations:] The experience of being buried alive can be all the worse if a character isn't alone. Tiny or smaller creatures would not have their movement restricted in a coffin constructed for a Medium creature. {monster/Crawling hand/s}, {infestation/rot grubs}, {monster/scarlet spider/s}, and {monster/viper/s} all make particularly horrible coffinmates, particularly if they're crawling all over the character in swarms. Additionally, breaking out of a coffin and finding himself underwater, buried in a walled-off enclosure, or at the bottom of a tank of flesh-eating beetles might make a character quickly regret his escape."
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"horror_rules",
+			"running_horror_adventures",
+			"rules_improvisation"
+		],
+		"siblings": [
+			"buried_alive",
+			"burned_at_the_stake",
+			"burning_buildings_and_crumbling_structures",
+			"guillotine",
+			"hanging",
+			"thematic_creepiness"
+		]
+	},
+	"burned_at_the_stake": {
+		"name": "Burned at the Stake",
+		"subtitle": "Horror, Specific Campaigns",
+		"sources": [ "Horror Adventures" ],
+		"description": [
+			"{SOURCE Horror Adventures/207}",
+			"",
+			"Public burning tops the list of preferred ways to dispose of witches, heretics, and undesirables of all sorts.",
+			"",
+			"@HL[By the Rules:] This is a simple matter of reskinning an existing rules set: being burned at the stake rather than being trapped in a [forest fire](rule/forest_fires). With rules for heat damage, catching fire, and - most realistically - smoke inhalation, the forest fire rules can be combined with the {rule/grapple/ rules for tying someone up} to provide everything necessary for binding a character to a stake and lighting the roaring flames.",
+			"",
+			"@HL[Extrapolation:] Binding a character to a stake - and setting a DC to escape said bindings - can be covered by the tie-up options detailed in the grapple combat maneuver. Once the character is bound, likely amid heaps of unlit kindling, the process of starting the fire is relatively simple. Given dry conditions and a ready flame, a GM might rule that it takes 1 minute to get the fire burning to a point that smoke inhalation becomes a threat to a bound victim. After some initial encouragement, the fire takes over; after 1 minute, the victim begins taking 1d6 points of fire damage every round while facing additional Fortitude saving throws as detailed in the heat damage portion of the forest fire rules. Finally, 1 minute later and every minute after that, the victim must succeed at a DC 15 Reflex saving throw or catch fire, as per the {rule/catching on fire/ rules}. Characters still bound to the stake take a -4 penalty on this saving throw.",
+			"",
+			"@HL[Horror Considerations:] Don't trust a burning wooden post in an open square to hold every heretic. Cages and magical paralysis are more effective at restraining victims, while illusions can lure unfortunates into traps. Placing the stake at the top of a spire or the bottom of a pit also makes access and escape more challenging and could extend the threat of smoke hazards."
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"horror_rules",
+			"running_horror_adventures",
+			"rules_improvisation"
+		],
+		"siblings": [
+			"buried_alive",
+			"burned_at_the_stake",
+			"burning_buildings_and_crumbling_structures",
+			"guillotine",
+			"hanging",
+			"thematic_creepiness"
+		]
+	},
+	"burning_buildings_and_crumbling_structures": {
+		"name": "Burning Buildings and Crumbling Structures",
+		"subtitle": "Horror, Specific Campaigns",
+		"sources": [ "Horror Adventures" ],
+		"description": [
+			"{SOURCE Horror Adventures/207}",
+			"",
+			"The fire in the tavern has gotten out of control, the ancient fortress is falling apart, the villain's death causes his dark castle to collapse into the darkness below, or the powers holding together the alien sanctum have failed and are tearing the place apart. Is there any hope of escape, or will the PCs find themselves just another group of casualties in this catastrophe?",
+			"",
+			"@HL[By the Rules:] Few of the game's ordinary rules operate on the same timer as a self-destructing structure, least of all the abstractions of combat rounds and character actions. Characters counting squares to move out of a dungeon as swiftly as possible hardly captures the adrenaline of panicked flight, rather resembling a chess endgame. But the rules for {rule/chases} work more like a race against the clock and thus fit the situation far better than combat rounds would.",
+			"",
+			"@HL[Extrapolation:] In this case, a chase isn't that different from an escape from a structure that's collapsing around the characters; all it requires is a few tweaks to represent the differing circumstances. The GM can simply do away with the \"fleeing character\" entirely (unless the PCs are also chasing another character out of the collapsing structure) and instead set out a slate of obstacle the PCs must overcome to get out of the structure in time.",
+			"",
+			"These might include dodging falling timbers, leaping across gaps in the floor, noticing paths that circumvent dangers, squeezing through narrow gaps in the rubble, fighting off the effects of smoke inhalation, and so on. Some challenges might allow characters to charge through walls of flame, weakened barriers, or splintering banisters, causing them to take hit point damage in exchange for successes. Typically these barriers deal an appropriate amount of damage to add to the sense of urgency for characters of the PCs' level without making the barriers themselves harmful enough to kill the PCs - unless they press their luck on these damaging barriers one too many times. In total, the GM should establish a number of challenges just like she would for a normal chase, but replace the threat of a fleeing character \"getting away\" with the threat of the PCs failing to escape the crumbling structure before it's too late.",
+			"",
+			"This does mean that all the PCs will have to navigate the escape all the way to its end, or die trying. This means that it's more important than usual to consider each of the pairings in the chase and make sure to include at least one option in each pairing that the characters will be able to attempt. For example, pairing a DC 15 Knowledge (engineering) check with a high DC Escape Artist check might mean that the paladin can't possibly pass that chase square; for a normal chase, this would put the paladin out of the action for a little while, but in this modified chase, it means the paladin might be guaranteed to die.",
+			"",
+			"GMs should consider whether or not players can aid one another during an escape. If they're allowed to do so, perhaps any character near an adjacent obstacle can use the aid another action to assist another character. Additionally, the GM might want to have monsters or other enemies factor into the escape, giving the PCs the choice of standing their ground and fighting - while the timer continues to count down - or to continue fleeing, now with some foe nipping at their heels.",
+			"",
+			"How long characters have to escape the structure is up to the GM. This should be a number of turns that exceeds the number of challenges by 2 or 3 (or even fewer in particularly harrowing situations). Once that time expires, the GM determines the consequences - which should be ones decided on before the escape begins, even though the GM won't reveal her decision to the players until afterward, the better to build tension. Consider the following three options.",
+			"",
+			"@HL[No Threat:] Perhaps the whole escape might simply be for show - dramatics that heighten tension but pose no actual lethal threat (not that the PCs should be allowed to know that). Immediately after the last PC escapes, the structure collapses, implying that the characters escaped at the last possible moment.",
+			"",
+			"@HL[Heightened Danger:] Once the time limit expires, the situation in the structure becomes increasingly dangerous. Perhaps anyone still in the structure now takes damage every round. This might begin as 1d6 points of fire damage (or whatever is appropriate), but every 2 or 3 rounds the amount of damage doubles, suggesting a worsening situation. Or in the case of an alien sanctum falling apart into an unknowable void, perhaps strange and dangerous creatures crawl their way out of the nothingness with increasing frequency. Either way, this makes lagging behind dangerous, but not immediately fatal.",
+			"",
+			"@HL[Near-Fatal Conclusion:] The GM might rule that, once the timer expires, the structure collapses - a fate that probably means death for anyone trapped inside. See the {rule/Cave-Ins and Collapses} rules. The GM might add the threat of additional damage to those trapped within (or who try to rescue those left behind) if the conditions call for it - like dealing additional fire damage to those caught beneath a collapsed burning ruin.",
+			"",
+			"@HL[Horror Considerations:] Write a 10 on a whiteboard or set a die at 10 in front of the PCs. After their first turn trying to escape, change the number to 9. Decrease the number every turn. A generous GM might let them know that when the count reaches 0, the structure collapses (to whatever terrible end; consider the rules for cave-ins and collapses) or not. In either case, few things motivate a group like a ticking clock. Beyond collapsing structures, PCs may need to flee a burning topiary garden, a tsunami-battered village, the nightmare of a waking dreamer, a city being destroyed by {family/kaiju}, or a forest come to life."
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"horror_rules",
+			"running_horror_adventures",
+			"rules_improvisation"
+		],
+		"siblings": [
+			"buried_alive",
+			"burned_at_the_stake",
+			"burning_buildings_and_crumbling_structures",
+			"guillotine",
+			"hanging",
+			"thematic_creepiness"
+		]
+	},
+	"guillotine": {
+		"name": "Guillotine",
+		"subtitle": "Horror, Specific Campaigns",
+		"sources": [ "Horror Adventures" ],
+		"description": [
+			"{SOURCE Horror Adventures/208}",
+			"",
+			"Simple and relatively clean, execution by guillotine proves as humane as it is grisly. But when the PCs need to prevent such an execution, the rules and timing become more important.",
+			"",
+			"@HL[By the Rules:] Traps like the {trap/wall scythe>_trap} already provide rules for hurtling a significant mechanical blade at a hapless character. With the pillory-like restraint at the guillotine's bottom holding a character, the dropping blade essentially makes a strike against its victim's neck a [coup de grace](rule/helpless_defenders).",
+			"",
+			"@HL[Extrapolation:] One can easily treat a guillotine as a special kind of mechanical trap. Without the restraint, it might function exactly as a wall scythe trap. With the pillory, it becomes more deadly. Any creature in the pillory is considered helpless and so, the guillotine, when activated, makes a coup de grace attack against the victim - potentially causing death. If the guillotine strikes a killing blow, the victim is decapitated. If it fails, there has been some malfunction with the device, catching the blade part way through the pillory. A standard wooden pillory holds a character's head and both wrists. A character might slip free by spending 1 minute and succeeding at a DC 40 Escape Artist check.",
+			"",
+			"@HL[Horror Considerations:] A GM might use an even more [horrific versions of the guillotine in which the creature it killed has its soul trapped within the lethal blade](magic-artifact/final_blade), preventing {spell/resurrection}."
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"horror_rules",
+			"running_horror_adventures",
+			"rules_improvisation"
+		],
+		"siblings": [
+			"buried_alive",
+			"burned_at_the_stake",
+			"burning_buildings_and_crumbling_structures",
+			"guillotine",
+			"hanging",
+			"thematic_creepiness"
+		]
+	},
+	"hanging": {
+		"name": "Hanging",
+		"subtitle": "Horror, Specific Campaigns",
+		"sources": [ "Horror Adventures" ],
+		"description": [
+			"{SOURCE Horror Adventures/209}",
+			"",
+			"Whether by the snapping of a neck or lengthy strangulation, hanging is a time-tested form of execution, and stories abound of heroes rescuing a victim in the nick of time.",
+			"",
+			"@HL[By the Rules:] Being hanged kills by either breaking the victim's neck or strangling the victim. Breaking the neck implies a quick, instant death from damage, like a [coup de grace](rule/helpless_defenders). Getting into a noose (and the DC for escaping it) would be covered by the {rule/tie up aspect of the |grapple/ rules}. Strangulation suggests consulting the rules for {rule/suffocation}.",
+			"",
+			"@HL[Extrapolation:] How a PC might have wound up in a noose is up to the GM, but once he has, a few things might occur. If the execution involves a drop, the noose could deal 1d6 points of damage + 1d6 for every 5 feet he falls, to a maximum of 20d6. The victim is considered helpless, and this attack is treated as a coup de grace - requiring a successful Fortitude save (DC = 10 + damage dealt) to avoid death. If the character has his hands free and uses them to hold on to the noose during the drop, he gains a +2 bonus on this saving throw.",
+			"",
+			"Once a character has survived the drop (or if one never occurred), his time is still limited as the noose chokes him to death. As the rules for tying someone up describe, a character can bind someone, creating a situation where the DC to escape such bonds is equal to 20 + the rope-tying character's CMB. This seems like a good way to set a DC for escaping a noose. A character can attempt to escape a noose, but doing so requires that his hands be free (otherwise, he must escape from those restraints first). Once they are, he can attempt to break the noose's \"grapple\". While dangling from a noose, a character is helpless.",
+			"",
+			"@HL[Horror Considerations:] A noose quickly turns into a lifeline when the ground is hundreds of feet below a struggling victim. Nooses made of chain or metal cord might also be more difficult to escape."
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"horror_rules",
+			"running_horror_adventures",
+			"rules_improvisation"
+		],
+		"siblings": [
+			"buried_alive",
+			"burned_at_the_stake",
+			"burning_buildings_and_crumbling_structures",
+			"guillotine",
+			"hanging",
+			"thematic_creepiness"
+		]
+	},
+	"thematic_creepiness": {
+		"name": "Thematic Creepiness",
+		"subtitle": "Horror, Specific Campaigns",
+		"sources": [ "Horror Adventures" ],
+		"description": [
+			"{SOURCE Horror Adventures/209}",
+			"",
+			"Be it a misbehaving reflection, a whispering taxidermy, or a leering portrait, sometimes the most minor supernatural effect - noticeable as the subtlest feeling of wrongness - proves the most unsettling.",
+			"",
+			"@HL[By the Rules:] The rules for {rule/haunts} allow GMs to generate practically infinite terrifying effects and create creepy but harmless encounters with which the players can interact.",
+			"",
+			"@HL[Extrapolation:] A purely thematic or otherwise harmless haunt probably shouldn't grant experience points and so shouldn't have a CR.",
+			"",
+			"@HL[Horror Considerations:] One doesn't have to bother with rules at all. GMs don't need to explain every thematic effect or unnerving embellishment, especially when these exist in the space between supernatural manifestations and the PCs' own uncertain observations. If a situation doesn't require hard-and-fast rules, a GM doesn't need to complicate things."
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"horror_rules",
+			"running_horror_adventures",
+			"rules_improvisation"
+		],
+		"siblings": [
+			"buried_alive",
+			"burned_at_the_stake",
+			"burning_buildings_and_crumbling_structures",
+			"guillotine",
+			"hanging",
+			"thematic_creepiness"
+		]
+	}
+}

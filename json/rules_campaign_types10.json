@@ -1,0 +1,980 @@
+{
+	"the_first_world": {
+		"name": "The First World",
+		"subtitle": "Planar Adventures, Specific Campaigns",
+		"sources": [ "Ultimate Wilderness" ],
+		"description": [
+			"{SOURCE Ultimate Wilderness/128}",
+			"",
+			"Located before, between, and beyond the Material Plane, the First World is a dimension of extremes and unpredictability. While the Shadow Plane straddles the metaphysical gulf between the Material Plane and the Negative Energy Plane, the First World lies between the Material Plane and the Positive Energy Plane. The First World has been said to be a sort of \"first draft\" of reality - under a sky of whirling stars and moons that change shape and texture as they track their way through the vibrant heavens, inconsistent natural laws and wellsprings of {rule/primal magic} and natural splendor create vistas unfathomable to mortal minds. Here stand ancient forests as tall as mountains, living lakes and rivers, traveling faerie courts alternately benevolent or sadistic, and landscapes of all manner that constantly shift and reinvent themselves. And ruling over all in this realm are those powerful entities known as the Eldest. It is from this realm that dread linnorms, fey creatures, the original gnomes, and far stranger beings hail.",
+			"",
+			"### First World Planar Traits",
+			"",
+			"The First World has the following planar traits. For more information on planar traits, see {rule/Planar Traits}.",
+			"",
+			"@HL[Erratic Time:] Time progresses faster in some areas and slower in others, often according to the whim of the Eldest or other powerful individuals. For most visitors from other planes, their own timestream clings to them like a protective shell, but it's not uncommon for a creature who spends a day in the First World to find upon their return home that a year or more has passed.",
+			"",
+			"@HL[Highly Morphic:] The First World can be altered by strong-willed individuals, such as the Eldest.",
+			"",
+			"@HL[Minor Positive Dominant:] The First World grants fast healing to creatures only in certain areas where life is particularly potent and concentrated.",
+			"",
+			"@HL[Mildly Neutral-Aligned:] The First World does not impart alignment-based Charisma check penalties to anyone."
+		],
+		"parent_topics": [ "gm_specific_campaigns" ],
+		"subtopics": [
+			"history_of_the_first_world",
+			"features_and_inhabitants",
+			"getting_to_the_first_world",
+			"hazards_of_the_first_world"
+		],
+		"siblings": [
+			"aquatic_adventures_aa",
+			"horror_rules",
+			"intrigue_systems",
+			"kingdoms_and_war",
+			"mythic_rules",
+			"occult_rules",
+			"planar_adventures",
+			"the_first_world",
+			"technological_equipment"
+		]
+	},
+	"history_of_the_first_world": {
+		"name": "History of the First World",
+		"subtitle": "Planar Adventures, Specific Campaigns",
+		"sources": [ "Ultimate Wilderness" ],
+		"description": [
+			"{SOURCE Ultimate Wilderness/128}",
+			"",
+			"To account for the full history of the First World is to look back before the beginning of time itself, to a period in history before history when the Material Plane did not yet exist. Ancient legends hold that mortal life began in the First World. If these tales are to believed, in this early pre-genesis period of all things, a coalition of deities decided to create a new form of life, but unlike existing servitors (outsiders such as angels and devils), these new \"mortal\" entities would serve a greater function, acting as filters for the fundamental life energy of the universe. The energy would be translated into discrete, self-directing portions called \"souls,\" which would use the experience of a finite lifespan to shape and expand the realities of the Great Beyond itself.",
+			"",
+			"Of course, these new beings would need a place to live apart from the domains of the gods, and so the gods crafted the First World - a vast blank canvas where they could experiment with reality and try out different laws for how existence and mortal life could or should operate. After an age of experimentation, they had a fully functional model for the realm that would become known as the Material Plane.",
+			"",
+			"And then, like so many great artists, they painted directly over it.",
+			"",
+			"When the Material Plane came into being, the gods didn't erase the original experiments. They did not destroy these original \"doodles and blueprints\" but merely abandoned them. Thus, this rough draft continued to grow and evolve on its own, eventually stabilizing, more or less, into the reality known today as the First World.",
+			"",
+			"Whether these stories are true in totality or only in part, the fact of the First World remains: it is an ancient realm filled with mystery and danger and a reality where vast secrets and mind-expanding truths await discovery side by side with the ever-present opportunity for death and destruction. It is nature unrestrained - a primal and primeval wilderness where everything that exists does so on a grand scale."
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"the_first_world"
+		],
+		"siblings": [
+			"history_of_the_first_world",
+			"features_and_inhabitants",
+			"getting_to_the_first_world",
+			"hazards_of_the_first_world"
+		]
+	},
+	"features_and_inhabitants": {
+		"name": "Features and Inhabitants",
+		"subtitle": "The First World, Planar Adventures",
+		"sources": [ "Ultimate Wilderness" ],
+		"description": [
+			"{SOURCE Ultimate Wilderness/129}",
+			"",
+			"While the majority of the Material Plane's universe is empty space populated by a diverse and seemingly endless number of different star systems and worlds, the First World is simply that: a single world that seems to stretch forever in every direction. Everything in the Material Plane has analogues in the First World, but the First World versions are often exaggerated in some way. Mountains are taller, oceans are deeper, and forests grow at unusual angles. Colors are more vibrant, flavors more potent; everything is amplified to oversaturated extremes, the cause of which is the First World's proximity to the Positive Energy Plane. Much as the Shadow Plane is a realm of muted colors and near darkness due to its proximity to the Negative Energy Plane, so too is the First World skewed in the opposite direction.",
+			"",
+			"The flora and fauna of the First World both resembles that of the Material Plane and exceeds it. What entities resided on the First World in its fledgling moments remains unknown, but ancient dragons and other primal forces of nature are likely candidates. Since then, all manner of wildly alien and unimaginable creatures have come to call the First World home, themselves exaggerated in much the same way as the plane's geography. Creatures are more vivacious, more energetic, and more fecund. The most widespread of the First World's denizens are creatures of the fey type, making up more than half of the First World's populace, but they are neither the first denizens of the plane nor the most powerful. Any creature found on the Material Plane could conceivably be found in the First World, different from their mortal cousins in subtle or dramatic ways. The easiest way to represent the differences between a Material Plane creature and its First World counterpart is to apply the {template/fey creature/ template}. But even something as simple as changing a creature's appearance or abilities can transform a mundane specimen into a denizen of the First World.",
+			"",
+			"Between the suffusion of positive energy throughout the First World and the unique qualities drafted into its planar tapestry, the cycle of life and death is not linear as it is on the Material Plane. Creatures native to the First World that die either are outright reborn anywhere from a day to a year after their death or are otherwise recycled into the plane and reconstituted as another member of their kind. Some creatures even lead asynchronous lives, having memories of versions of themselves that have not come to pass (or may never) rather than just memories of their pasts. As such, natives of the First World do not always understand the concept of death; this can lead to deadly misunderstandings with travelers from the Material Plane or natives of the First World stranded on the Material Plane. In the latter case, the death of a First World native on the Material Plane is the absolute end of its life, and the soul is instead subject to the rules of the Material Plane - often without realizing it until it is too late.",
+			"",
+			"Notable inhabitants of the First World include creatures of the animal, fey, plant, and vermin types. Of the fey, the most legendary of the First World denizens are the members of the {family/wild hunt}, but all fey have ties back to this realm. Beyond animals, fey, and plants, the following creatures are among those most often encountered in this dimension: {monster/almiraj/es}, {template/animal lord/s}, {monster/bandersnatch/es}, {monster/blink dog/s}, {monster/catoblepas/es}, {monster/cerynitis}, {monster/delgeth/s}, {monster/drakainia/s}, {family/drake/s (all)}, {family/elemental/s (all)}, [elohims](monster/elohim_mythic), {monster/ettercap/s}, {monster/fachen/s}, {monster/faerie dragon/s}, {type/fey/ creatures}, {monster/giant eagle/s}, {monster/grodair/s}, {monster/grootslang/s}, {monster/jabberwock/s}, {monster/jubjub bird/s}, {monster/leucrotta/s}, {family/linnorm/s}, {monster/manitou/s}, [pegasi](monster/pegasus), {monster/sard/s}, {monster/shining child/ren}, {monster/thrasfyr/s}, {monster/thunderbird/s}, {monster/unicorn/s}, {monster/vishap/s}, {monster/wendigo/s}, {monster/will-o'-wisp/s}, {monster/worg/s}, [winter wolves](monster/winter_wolf), and {monster/yeth hound/s}. Undead are incredibly rare in the First World, but those that do exist there tend to be powerful and unique."
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"the_first_world"
+		],
+		"subtopics": [ "the_eldest" ],
+		"siblings": [
+			"history_of_the_first_world",
+			"features_and_inhabitants",
+			"getting_to_the_first_world",
+			"hazards_of_the_first_world"
+		]
+	},
+	"the_eldest": {
+		"name": "The Eldest",
+		"subtitle": "The First World, Planar Adventures",
+		"sources": [ "Ultimate Wilderness" ],
+		"description": [
+			"{SOURCE Ultimate Wilderness/131}",
+			"",
+			"Large swaths of the First World are carved up into fiefdoms and other such dominions by native inhabitants of great power. The demigods who call the First World home are some of the oldest beings in creation, and many have resided on this plane since before the Material Plane was woven into existence. Known collectively as the Eldest, they are as reclusive and secretive as they are ancient. The Eldest have relatively little interaction with the gods who dwell elsewhere in the Great Beyond, but like those divinities, they maintain cults and sects on countless Material Plane worlds. The religions of the Eldest are most commonly found in regions where the boundaries between the Material Plane and the First World grow thin. Fey often worship members of the Eldest, and many gnomes look back to their ancient roots in the First World and venerate the Eldest as well. Though the Eldest have nothing against cities or civilization, their worship tends to be less popular in heavily populated areas. Barbarians, druids, hunters, and others who live in the wild often venerate a member of the Eldest or the pantheon as a whole.",
+			"",
+			"Table 4-3: The Eldest lists the most widely worshiped members of the Eldest, along with their areas of concern, domains, subdomains, and favored weapon for cleric and warpriest followers.",
+			"",
+			"### Table 4-3: The Eldest",
+			"",
+			"| Name | AL | Title | Areas of Concern | Domains | Subdomains | Favored Weapon |",
+			"| --- | --- | --- | --- | --- | --- | --- |",
+			"| @ripple[faith/Count Ranalc] | CN | The Traitor | Betrayal, exiles, shadows | {domain/Chaos}, {domain/Darkness}, {domain/Nobility}, {domain/Travel} | Exploration, Loss, Martyr, Night | @ripple[eq-weapon/Rapier] |",
+			"| @ripple[faith/The Green Mother] | NE | The Feasting Flower | Carnivorous plants, intrigue, seduction | {domain/Charm}, {domain/Earth}, {domain/Evil}, {domain/Plant} | Caves, Decay, Growth, Lust | @ripple[eq-weapon/Sickle] |",
+			"| @ripple[faith/Imbrex] | LN | The Twins | Endings, statues, twins | {domain/Community}, {domain/Earth}, {domain/Law}, {domain/Strength} | Family, Home, Metal, Resolve | @ripple[eq-weapon/Dire flail] |",
+			"| @ripple[faith/The Lantern King] | CN | The Laughing Lie | Laughter, mischief, transformation | {domain/Chaos}, {domain/Charm}, {domain/Madness}, {domain/Trickery} | Deception, Love, Lust, Thievery | @ripple[eq-weapon/Dagger] |",
+			"| @ripple[faith/The Lost Prince] | N | The Melancholy Lord | Forgotten things, sadness, solitude | {domain/Knowledge}, {domain/Madness}, {domain/Nobility}, {domain/Repose} | Ancestors, Insanity, Martyr, Memory | @ripple[eq-weapon/Quarterstaff] |",
+			"| @ripple[faith/Magdh] | LN | The Three | Complexity, fate, triplets | {domain/Knowledge}, {domain/Law}, {domain/Luck}, {domain/Rune} | Curse, Fate, Thought, Wards | @ripple[eq-weapon/Scythe] |",
+			"| @ripple[faith/Ng] | N | The Hooded | Seasons, secrets, wanderers | {domain/Knowledge}, {domain/Magic}, {domain/Travel}, {domain/Weather} | Exploration, Seasons, Thought, Trade | @ripple[eq-weapon/Gauntlet] |",
+			"| @ripple[faith/Ragadahn] | CE | The Water Lord | Linnorms, oceans, spirals | {domain/Chaos}, {domain/Evil}, {domain/Scalykind}, {domain/Water} | Ancestors, Dragon, Oceans, Venom | @ripple[eq-weapon/Whip] |",
+			"| @ripple[faith/Shyka] | N | The Many | Entropy, reincarnation, time | {domain/Death}, {domain/Destruction}, {domain/Madness}, {domain/Magic} | Arcane, Catastrophe, Divine, Insanity | @ripple[eq-weapon/Light mace] |"
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"the_first_world",
+			"features_and_inhabitants"
+		],
+		"siblings": [ "the_eldest" ]
+	},
+	"getting_to_the_first_world": {
+		"name": "Getting to the First World",
+		"subtitle": "Planar Adventures, Specific Campaigns",
+		"sources": [ "Ultimate Wilderness" ],
+		"description": [
+			"{SOURCE Ultimate Wilderness/130}",
+			"",
+			"The First World is a coterminous plane and therefore overlaps the Material Plane, but unlike the Shadow Plane, the First World does not mimic the Material Plane's geography. {rule/Ley lines}, supernatural conduits that connect the planes and channel experiences, magic, memories, and the souls of the dead and the unborn through them, crisscross the First World just as they do the Material Plane. Unlike those on the Material Plane, ley lines found in the First World do not stay in one place for long and typically wander vast distances, writhing through the world like disquieted snakes. Where these ley lines penetrate the barrier between the First World and the Material Plane, thin spots known as breaches form, allowing passage between the First World and the Material Plane without the aid of magic. These breaches typically manifest as circles of mushrooms, puddles of water with a rainbow-hued surface, trees in a peculiar arch, or other seemingly innocuous patterns. Simply stepping through one of these portals is often enough to travel from one plane to the other, but breaches are not always two-sided. Some doorways to the Material Plane are one-way, stranding extraplanar travelers in a seemingly dull and lifeless world, while Material visitors to the First World could be stranded for decades or more as they try to find a way back home. Other means of traveling to and from the First World include powerful spells such as {spell/fey gate}, {spell/gate}, and {spell/plane shift}."
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"the_first_world"
+		],
+		"siblings": [
+			"history_of_the_first_world",
+			"features_and_inhabitants",
+			"getting_to_the_first_world",
+			"hazards_of_the_first_world"
+		]
+	},
+	"hazards_of_the_first_world": {
+		"name": "Hazards of the First World",
+		"subtitle": "Planar Adventures, Specific Campaigns",
+		"sources": [ "Ultimate Wilderness" ],
+		"description": [
+			"{SOURCE Ultimate Wilderness/130}",
+			"",
+			"In the First World, the terrain itself can be as dangerous as any denizen. The following are just a handful of hazards found on the borders of or within this fey realm. These hazards can also manifest on the Material Plane in areas where ley lines from the First World cross over and weaken the boundaries between realms."
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"the_first_world"
+		],
+		"subtopics": [
+			"phantom_ring",
+			"pixie_pollen",
+			"weeping_waste"
+		],
+		"siblings": [
+			"history_of_the_first_world",
+			"features_and_inhabitants",
+			"getting_to_the_first_world",
+			"hazards_of_the_first_world"
+		]
+	},
+	"phantom_ring": {
+		"name": "Phantom Ring",
+		"subtitle": "The First World, Planar Adventures",
+		"sources": [ "Ultimate Wilderness" ],
+		"description": [
+			"{SOURCE Ultimate Wilderness/130}",
+			"",
+			"**CR 9**",
+			"",
+			"Sometimes rings of mushrooms known as \"fairy rings\" mark thin spots that function as gateways into the First World. When fairy rings become corrupted due to pollution, the effects of curses, the machinations of evil fey, or other fell influences, they can become unstable and dangerous, becoming phantom rings. These circles of magical mushrooms function like a magical trap (Perception DC 25, Disable Device DC 30), though a character can use the Survival skill in place of Perception to notice the danger presented by a phantom ring.",
+			"",
+			"A phantom ring typically occupies a single 5-foot square. A character entering a phantom ring must succeed at a DC 19 Will save or be drawn into a gap in reality between the Material Plane and the First World, caught in a fragmented shard of the Ethereal Plane where she is unable to fully pass into the First World or return to the Material Plane. The character is invisible and ethereal, and she can see a dim and warped image of the Material Plane she just left, but she is unable to move more than 30 feet away from the phantom ring, which remains the only thing that appears solid and real in this ethereal pocket dimension. The character is trapped within this realm as if she had been called with a {spell/planar binding} spell.",
+			"",
+			"After 1d4 rounds, a disembodied spirit emerges from the phantom ring into the pocket dimension to confront the trapped character. This spirit appears as a spectral fey version of the trapped character, and it is treated as an {template/animus shade}, save that it is chaotic neutral in alignment and can exist only inside the pocket dimension created by the phantom ring. The animus shade might be friendly and talkative, or it might be cold, aloof, and demanding. The trapped character can attempt to bargain with the shade for her release, either into the First World or back into the Material Plane, but she must succeed at an opposed Charisma check to successfully persuade her captor. If the trapped character succeeds at this check, she can return to the Material Plane or enter the First World, but if she fails the check, the shade immediately attacks her. If the shade manages to kill the trapped character, it can manifest in the Material Plane, whereupon it is free to spread mayhem and its phantom ring dissolves away into sludge.",
+			"",
+			"A trapped character can bolster her chances of success when bargaining with the animus shade by offering a bribe of magic items or performing a service. Each animus shade's desires for bribes or service should vary, generally representing strange distortions of the trapped character's personality. For example, a trapped bard might be required to perform a humiliating display of self-mockery, or a barbarian might be required to undertake a diplomatic mission without resorting to combat. Services rendered to an animus shade take place in a {rule/mindscape>s} and typically require three out of five successful skill checks to complete. Bribes must be in the form of a valued magical item worth at least 500 gp per character level of the trapped character. If the service or bribe is successful, the trapped character can roll her opposed Charisma check twice (applying a +4 bonus on each roll) and use the better of the two rolls as her actual result when resolving the opposed Charisma check against the animus shade.",
+			"",
+			"A trapped creature can always opt to simply fight the animus shade, as both are on the Ethereal Plane, though neither can move more than 30 feet from the phantom ring. If the animus shade is slain, the trapped character reappears in the Material Plane and the phantom ring becomes inert for 2d4 days before becoming active again.",
+			"",
+			"Once a creature escapes from a phantom ring, the hazard relocates to a random location within 1d6 miles."
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"the_first_world",
+			"hazards_of_the_first_world"
+		],
+		"siblings": [
+			"phantom_ring",
+			"pixie_pollen",
+			"weeping_waste"
+		]
+	},
+	"pixie_pollen": {
+		"name": "Pixie Pollen",
+		"subtitle": "The First World, Planar Adventures",
+		"sources": [ "Ultimate Wilderness" ],
+		"description": [
+			"{SOURCE Ultimate Wilderness/131}",
+			"",
+			"**CR 2**",
+			"",
+			"When strange spores or magical seeds from the First World sprout up through the planar verge, they can graft themselves onto existing flowering plants. Such plants flower profusely and in vivid colors of unearthly beauty, even blooming out of season. While this may be seen as a mark of divine blessing for their fecundity, this fey influence also infuses their natural nectar and pollen with a dreamy, soporific quality that entices the unwary to drowsy contemplation.",
+			"",
+			"Animals, humanoids, and monstrous humanoids that come within 30 feet of a plant that exudes pixie pollen must succeed at a DC 10 Will save or become drowsy and inattentive of their surroundings, caught up in the loveliness of the flowers. Creatures that succeed at their saving throws but remain within the area must each attempt a new save once per minute to stave off the effects of the pixie pollen.",
+			"",
+			"Affected creatures take a -5 penalty on Perception checks and a -2 penalty on saving throws against sleep effects; each such creature must attempt an additional Will save at the end of each round it remains within the area or become fascinated and unwilling to leave. If the fascinate effect is broken by an attack or through the help of an ally, a drowsy creature must attempt a new Will save each round to avoid becoming fascinated again.",
+			"",
+			"In addition, each minute a drowsy creature remains within an area of pixie pollen, it must also succeed at a DC 10 Fortitude save or become fatigued (or exhausted if already fatigued). An exhausted creature that fails this save falls asleep for 1 minute, after which time it can attempt a new Fortitude save once per hour to awaken. Creatures with the {feat/Endurance} feat can apply that bonus on their Fortitude save against this effect.",
+			"",
+			"The effects of pixie pollen are supernatural, mind-affecting sleep effects."
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"the_first_world",
+			"hazards_of_the_first_world"
+		],
+		"siblings": [
+			"phantom_ring",
+			"pixie_pollen",
+			"weeping_waste"
+		]
+	},
+	"weeping_waste": {
+		"name": "Weeping Waste",
+		"subtitle": "The First World, Planar Adventures",
+		"sources": [ "Ultimate Wilderness" ],
+		"description": [
+			"{SOURCE Ultimate Wilderness/132}",
+			"",
+			"**CR 10**",
+			"",
+			"There are places of desolation and loneliness in the wild: trackless regions without a trace of intelligent habitation to be found. In such places, the sense of desperation and isolation can crush the spirit of a sentient being, reducing victims to tearful hopelessness and unending despair, but few such regions are as dangerous as the weeping wastes.",
+			"",
+			"A weeping waste can be found in any kind of terrain, though they are most common in deserts and plains. Always sizable, they might be a few miles across or might stretch on for hundreds of leagues. Some weeping wastes are shrouded in an endless, gray drizzle that chills and soaks to the bone, while others are utterly cloudless, with no change in the vast and empty dome of the sky above.",
+			"",
+			"The sinister influence of the weeping waste blurs the horizon in every direction both above and beyond the natural bleakness of the land, obliterating any trace of mountains or natural landmarks more than 1 mile away unless the viewer succeeds at a DC 20 Will save; this is an illusion effect. A creature failing this save takes a -10 penalty on Survival checks to avoid getting lost. Spells that aid navigation such as {spell/know direction}, {spell/locate object}, or {spell/find the path} (or the ability to sense direction and distance from a {spell/status} spell) function in a weeping waste only if the caster succeeds at a DC 20 caster level check. Natural tracks left by creatures fade with astonishing swiftness within a weeping waste, increasing the DC to track by 1 for every minute that has passed since the tracks were made, rather than increasing by 1 every 24 hours.",
+			"",
+			"The privations of surviving in the wild are felt more keenly in a weeping waste. A creature that fails a Survival check to avoid getting lost or a sentient creature with Intelligence of 3 or higher that fails a Constitution check or Fortitude save to avoid taking nonlethal damage from a cold or hot environment, hunger or thirst, or a forced march or other exertion must succeed at a Will save against the same DC. Non-humanoids gain a +4 bonus on this Will save. Creatures that fail this save are driven to melancholy and are affected as if by {spell/crushing despair}, which persists until either the nonlethal damage is removed or the affected creature spends 24 hours outside of the weeping waste, whichever comes first; if no save is allowed to avoid nonlethal damage, no save is allowed against this *crushing despair* either. In addition to the spell's usual effects, affected creatures cannot benefit from morale effects.",
+			"",
+			"Even for creatures able to resist the depths of depression, traveling through a weeping waste instills an insidious loneliness and melancholy that leaves sentient humanoids desperate for friendly contact. They become blindly trusting, taking a -5 penalty on Sense Motive checks and a -2 penalty on saves against charm effects, and they take a -5 penalty on initiative checks if combat begins directly after they converse with an intelligent creature. This lonely desperation persists for 1d4 days after leaving the weeping waste."
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"the_first_world",
+			"hazards_of_the_first_world"
+		],
+		"siblings": [
+			"phantom_ring",
+			"pixie_pollen",
+			"weeping_waste"
+		]
+	},
+	"technological_equipment": {
+		"name": "Technological Adventures",
+		"subtitle": "Specific Campaigns",
+		"tags": "Technology",
+		"sources": [ "Technology Guide" ],
+		"description": [
+			"{SOURCE Technology Guide/19}  ",
+			"To set a technological campaign apart from a standard fantasy adventure, you need a variety of unusual futuristic items. But be it a laser gun in the hands of a terrible enemy or a set of strange gravity armor found in the treasure trove of an oddly uniform metal dungeon, technology from the future (or even the present-day real world) in a fantasy setting should be handled in a manner similar to magic items elsewhere in the Pathfinder Roleplaying Game.",
+			"",
+			"Many technological items replicate specific spells or magical effects. However, they do not use magic in any way, and thus function normally in areas of antimagic or {rule/primal magic}, and are otherwise unaffected by any effects that target or affect magic items.",
+			"",
+			"There are dozens of new items in the following categories.",
+			"",
+			"@HL[Weapons:] The majority of technological weapons are ranged weapons, although some high-tech melee weapons can be found in dungeons as well.",
+			"",
+			"@HL[Armor:] Technological armor works in a similar manner to standard armor, but often requires a power source to fully function.",
+			"",
+			"@HL[Pharmaceuticals:] Pharmaceuticals include drugs, poisons, and medicines. They can be ingested or injected, and generally have relatively minor or temporary effects.",
+			"",
+			"@HL[Cybertech:] Cybertech is a form of technology that must be implanted in a body before it can function. Cybertech typically augments a character's abilities and statistics.",
+			"",
+			"@HL[Technological Gear:] This catch-all category includes a wide range of devices, from relatively minor gizmos like zipsticks to technological wonders like clonepods.",
+			"",
+			"Technological items can be found [here](main/equipment) under the **Technological Equipment** section.",
+			"",
+			"### Color Code",
+			"",
+			"Many technological items follow a color code that organizes similar items (such as nanite hypoguns, force fields, or gravity clips) according to their overall power. The power level for each color is listed below. Note that there are nine colors in the scale: the effects of an item of any individual color should roughly correspond to the power level of a spell of the associated level. Seven of these colors are associated with the seven {eq-material/skymetal/s}. The least of the colors, brown, is associated with base ores, while the greatest of the colors, prismatic, is associated with all of the skymetals. In some technological items, actual skymetals of the appropriate color are used in the creation of the object, but in most, synthetic plastics and metals are used in place of the more valuable skymetals.",
+			"",
+			">@HL[Brown:] Roughly equivalent to a 1st-level spell. This color is not associated with skymetal.",
+			">",
+			">@HL[Black:] Roughly equivalent to a 2nd-level spell. This color is associated with {eq-material/adamantine}.",
+			">",
+			">@HL[White:] Roughly equivalent to a 3rd-level spell. This color is associated with {eq-material/siccatite}.",
+			">",
+			">@HL[Gray:] Roughly equivalent to a 4th-level spell. This color is associated with {eq-material/inubrix}.",
+			">",
+			">@HL[Green:] Roughly equivalent to a 5th-level spell. This color is associated with {eq-material/noqual}.",
+			">",
+			">@HL[Red:] Roughly equivalent to a 6th-level spell. This color is associated with {eq-material/djezet}.",
+			">",
+			">@HL[Blue:] Roughly equivalent to a 7th-level spell. This color is associated with {eq-material/abysium}.",
+			">",
+			">@HL[Orange:] Roughly equivalent to an 8th-level spell. This color is associated with {eq-material/horacalcum}.",
+			">",
+			">@HL[Prismatic:] Roughly equivalent to a 9th-level spell. This color is associated with all skymetals.",
+			"",
+			"### Power Sources",
+			"",
+			"Most of the technological wonders presented here require energy to function. These items each have a capacity score, which indicates the maximum number of charges the item can store at any one time. The number of charges an item consumes when it is used varies from item to item. An item's capacity can be filled from any power source - like a battery or a generator - as a standard action. When an item is charged, it always takes as many charges from the attached power source as it can hold, filling as close to its capacity as possible. Note that charging an item from a generator is more efficient, as any charges drained from a battery in excess of the number of charges an item can store are lost.",
+			"",
+			"### Timeworn Technology",
+			"",
+			"The equipment presented in this section is described in full working condition and priced as such. While a high-technology setting may have many fully functional technological devices in it, that isn't the case in the campaign setting. Equipment that has been damaged or degraded over time works less consistently and is worth less money than new technological items. Such equipment is called \"timeworn.\""
+		],
+		"parent_topics": [ "gm_specific_campaigns" ],
+		"subtopics": [
+			"timeworn_technology",
+			"tech_weapons",
+			"tech_armor",
+			"cybertech",
+			"pharmaceuticals",
+			"tech_misc",
+			"tech_artifacts",
+			"crafting_high_tech_items",
+			"radiation",
+			"traps_and_technology",
+			"artificial_intelligence"
+		],
+		"siblings": [
+			"aquatic_adventures_aa",
+			"horror_rules",
+			"intrigue_systems",
+			"kingdoms_and_war",
+			"mythic_rules",
+			"occult_rules",
+			"planar_adventures",
+			"the_first_world",
+			"technological_equipment"
+		]
+	},
+	"timeworn_technology": {
+		"name": "Timeworn Technology",
+		"subtitle": "Specific Campaigns",
+		"sources": [ "Technology Guide" ],
+		"description": [
+			"{SOURCE Technology Guide/55}  ",
+			"The technology found in the hands of Numeria's denizens isn't usually pristine. Between languishing in forgotten ruins open to the elements, being used by those ignorant of the nature of this technology, and having no one skilled at building, maintaining, or repairing such devices, most technological items are \"timeworn\" - damaged and malfunctioning (when not completely non-functional). These malfunctions manifest in two ways: limited charges and glitches.",
+			"",
+			"Only technological items that consume charges (including nanite canisters) or are pharmaceutical items can be affected by these timeworn rules, though any technological item can still become broken or non-functional just as any other item.",
+			"",
+			"A piece of timeworn technology may have additional aesthetic and functional differences from a new piece of the same equipment. Many of these effects are purely cosmetic, such as cracks in the casing of an arc grenade or primitive etchings on a suit of technological armor placed there by a barbarian millennia ago. Pieces of timeworn technology may also have minor mechanical effects beyond glitches (at the GM's discretion). A timeworn laser pistol might constantly hum at a low but noticeable frequency, imparting a -1 penalty on Stealth checks. A timeworn plasma grenade could be caked in a strange viscous fluid that has a pungent odor, making its wielder more easily tracked via scent. Timeworn technological items should clearly evoke a sense of age and danger, and even the most standard piece of Androffan gear can be made unique based on individual deteriorations.",
+			"",
+			"Note that not every technological item in Numeria is timeworn, but most technology that PCs encounter outside of the deepest and most remote of Numerian ruins will be (though the Technic League jealously guards a significant number of pristine technological artifacts). These items function as presented, can be recharged, and do not suffer glitches.",
+			"",
+			"A timeworn technological item that is still somewhat functioning is worth half of its normal listed price, though one drained of its charges is worth 1% of its normal value, as a curiosity to collectors. Timeworn technology also has the following properties.",
+			"",
+			"@HL[Non-Rechargable:] Timeworn technological items can't be recharged. When a timeworn technological item is properly identified or first used, roll randomly to determine how many charges it has left before it becomes useless.",
+			"",
+			"@HL[Glitches:] Timeworn technology sometimes doesn't work the way it was originally intended to. When an item glitches, its effect is hampered or enhanced, as determined by a d% roll. See the inside front cover for a complete list of glitch effects for armor, weapons, pharmaceuticals, and other technological equipment. Not all glitches are catastrophic; they represent unpredictable effects, for good and ill.",
+			"",
+			"When a timeworn technological item is first used after a month or more of inactivity, there's a 50% chance that it will glitch. Additionally, when using an item in a way that would drain its last charge, there's a 50% chance it will glitch. If an item requires a d20 roll (such as a skill check or an attack roll) to activate or use, it has a 50% chance to glitch on a natural 1."
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"technological_equipment"
+		],
+		"siblings": [
+			"timeworn_technology",
+			"tech_weapons",
+			"tech_armor",
+			"cybertech",
+			"pharmaceuticals",
+			"tech_misc",
+			"tech_artifacts",
+			"crafting_high_tech_items",
+			"radiation",
+			"traps_and_technology",
+			"artificial_intelligence"
+		]
+	},
+	"tech_weapons": {
+		"name": "Tech Weapons",
+		"subtitle": "Technology, Specific Campaigns",
+		"sources": [ "Technology Guide" ],
+		"description": [
+			"{SOURCE Technology Guide/20}  ",
+			"Each {main/tech[nological] weapon>s} has a full description, including a set of abbreviated statistics. This information is organized as follows.",
+			"",
+			"@HL[Price:] This is the cost (in gold pieces) to purchase the weapon if it's available for sale. As with magic weapons, a technological weapon can be sold by PCs for half this value.",
+			"",
+			"@HL[Type:] This indicates whether the weapon is a light, one-handed, or two-handed melee or ranged weapon.",
+			"",
+			"@HL[Proficiency:] This entry lists whether the weapon is simple, martial, or exotic. If an existing weapon proficiency allows the new weapon's use, that weapon proficiency is listed in parentheses. Note that {feat/Exotic Weapon Proficiency} (heavy weaponry) works similarly to Exotic Weapon Proficiency (firearms) in that it allows access to a wide range of similar weapons.",
+			"",
+			"Some GMs may wish to replace Weapon Proficiency (firearms) with Weapon Proficiency (technological firearms) to further restrict access to these devices to player characters in their campaigns.",
+			"",
+			"@HL[Damage:] This is the weapon's base damage. The type of damage dealt by the weapon is listed after the damage value. Most weapons list the damage dealt by Medium and Small versions of the weapon; weapons with only one damage entry deal the same amount of damage regardless of size.",
+			"",
+			"@HL[Critical:] This entry lists the weapon's critical threat range and critical damage multiplier.",
+			"",
+			"@HL[Range:] This lists the weapon's range increment; no listing is given for melee weapons that cannot be thrown. Unless otherwise noted, all firearms in this section are treated as projectile weapons for the purpose of determining their maximum range.",
+			"",
+			"@HL[Capacity:] Unless otherwise specified, this value is the maximum number of charges the weapon can hold.",
+			"",
+			"@HL[Usage:] This value lists the number of charges the weapon consumes from its capacity each time it is activated.",
+			"",
+			"@HL[Special:] This entry lists any special weapon qualities the weapon might have. New weapon qualities are listed below. @HL[Weight:] This is the weight of the weapon in pounds. The weights given are for Medium weapons. A Small weapon weighs half as much; a Large weapon weighs twice as much.",
+			"",
+			">*Automatic:* This weapon can act as a semi-automatic weapon (see below), or it can fire a burst of shots with a single pull of the trigger to attack all creatures in a line. This line starts from any corner of the wielder's space and extends to the limit of the weapon's range or until it strikes a barrier it cannot penetrate. When using an automatic weapon to attack all creatures in a line, the wielder makes a separate attack roll against each creature in the line. Each creature in the line can be attacked with only one shot from each burst. Each attack roll takes a -2 penalty, and its damage cannot be modified by precision damage or damage-increasing feats such as {feat/Vital Strike}. Effects that grant {rule/concealment}, such as fog or smoke, or the {spell/blur}, {spell/invisibility}, or {spell/mirror image} spells, do not affect an automatic weapon's line attack. Roll to confirm each attack roll that threatens a critical hit separately. A single burst with an automatic weapon consumes 10 charges. When taking a full-attack action with an automatic weapon, the wielder can fire as many bursts in a round as he has attacks, provided he has enough charges to make all of the attacks.",
+			">",
+			">*Semi-Automatic:* A semi-automatic weapon normally fires one shot as an attack. However, the user can take a full-attack action to fire twice, as if using the {feat/Rapid Shot} feat (including taking a -2 penalty on all attacks). If the wielder has the Rapid Shot feat, she can use the additional shot from that as well, but the penalty for all shots fired in that round increases to -6.",
+			">",
+			">*Slow-Firing:* A slow-firing weapon requires a full-round action to use, and thus cannot be used to make iterative attacks.",
+			">",
+			">*Touch:* Attacks with the weapon resolve as touch attacks.",
+			"",
+			"@HL[Description:] This section describes the weapon's abilities and appearance.",
+			"",
+			"@HL[Construction:] Certain requirements must be met for a character to craft a technological weapon. These requirements generally consist of having a feat and access to a [particular kind of manufacturing facility](rule/crafting_high_tech_items).",
+			"",
+			"@HL[Craft:] This is the Craft DC required to create the weapon. It is also the Knowledge (engineering) DC to correctly identify the weapon.",
+			"",
+			"@HL[Cost:] This is the cost in gold pieces to create the weapon. Generally this cost is equal to half the price of the weapon"
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"technological_equipment"
+		],
+		"siblings": [
+			"timeworn_technology",
+			"tech_weapons",
+			"tech_armor",
+			"cybertech",
+			"pharmaceuticals",
+			"tech_misc",
+			"tech_artifacts",
+			"crafting_high_tech_items",
+			"radiation",
+			"traps_and_technology",
+			"artificial_intelligence"
+		]
+	},
+	"tech_armor": {
+		"name": "Tech Armor",
+		"subtitle": "Technology, Specific Campaigns",
+		"sources": [ "Technology Guide" ],
+		"description": [
+			"{SOURCE Technology Guide/29}  ",
+			"Each [suit of technological armor](main/tech_armor) has a full description, including a set of abbreviated statistics. This information is organized as follows.",
+			"",
+			"@HL[Price:] This is the cost in gold pieces to purchase the suit of armor if it's available for sale. As with magic armor, a technological suit of armor can be sold by PCs for half this value.",
+			"",
+			"@HL[Weight:] The weight of the armor in pounds. Weight figures are for armor sized to fit Medium characters. Armor fitted for Small characters weighs half as much, and armor fitted for Large characters weighs twice as much.",
+			"",
+			"@HL[Type:] This indicates if the suit is light, medium, or heavy armor.",
+			"",
+			"@HL[AC:] The protective value of the armor. This armor bonus is added to the wearer's Armor Class.",
+			"",
+			"@HL[Max Dex:] This number is the maximum Dexterity bonus that this type of armor allows.",
+			"",
+			"@HL[Penalty:] This lists the armor check penalty of the suit of armor.",
+			"",
+			"@HL[Spell Failure:] This indicates the armor's arcane spell failure chance.",
+			"",
+			"@HL[Speed:] This lists a character's adjusted speed while wearing the armor. Adjusted speeds for characters with base speeds of 20 ft. and 30 ft. are included.",
+			"",
+			"@HL[Capacity:] The armor's charge capacity is listed here. If the armor doesn't use energy, this entry is omitted.",
+			"",
+			"@HL[Usage:] This value lists the number of charges the armor consumes over time while activated. (Activating powered armor is a standard action, and deactivating is a free action.) The charge is immediately spent at the beginning of the duration, and any time remaining when the armor is deactivated is lost. @HL[Description:] This describes the armor's appearance, powers, and abilities.",
+			"",
+			"@HL[Construction:] Certain requirements must be met for a character to craft a suit of technological armor. These requirements generally consist of having a feat and access to a manufacturing facility.",
+			"",
+			"@HL[Craft:] This is the Craft DC required to create the armor. It is also the Knowledge (engineering) DC to correctly identify the armor.",
+			"",
+			"@HL[Cost:] This is the cost in gold pieces to create the technological item. Generally, this cost is equal to half the price of the armor."
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"technological_equipment"
+		],
+		"siblings": [
+			"timeworn_technology",
+			"tech_weapons",
+			"tech_armor",
+			"cybertech",
+			"pharmaceuticals",
+			"tech_misc",
+			"tech_artifacts",
+			"crafting_high_tech_items",
+			"radiation",
+			"traps_and_technology",
+			"artificial_intelligence"
+		]
+	},
+	"cybertech": {
+		"name": "Cybertech",
+		"subtitle": "Technology, Specific Campaigns",
+		"sources": [ "Technology Guide" ],
+		"description": [
+			"{SOURCE Technology Guide/35}  ",
+			"[Cybertech](main/tech_cybertech) is a form of technology that must be surgically implanted into a host body before it functions. Cybertech takes up a special set of slots that correspond to a creature's body. Most cybertech is designed for a creature with a humanoid shape - installing cybertech in a non-humanoid-shaped body is more difficult, but possible.",
+			"",
+			"Each piece of cybertech has an implantation value that indicates how invasive the implant is. The total combined implantation values of all cybertech implanted in a single creature can't exceed either that creature's Constitution score or Intelligence score - a creature's Constitution sets the physical limit of what its body can accept in the form of cybernetic implants, while the creature's Intelligence sets the mental limit of what its brain can control. An implant whose implantation value would cause the total to exceed either of these two scores does not function but still takes up a body slot. In addition, as long as a character has cybernetic implants installed whose combined implantation exceeds his Constitution or Intelligence, he takes a -4 penalty on all saving throws.",
+			"",
+			"A creature with neither a Constitution score nor an Intelligence score cannot receive benefits from cybertech, but a creature with only one of these scores can.",
+			"",
+			"Installing a piece of cybertech takes a number of hours equal to the cybertech's implantation value if the installation is done by hand - certain technological items can speed this installation time. The target must be willing or helpless during the entire installation, at the end of which the installer attempts a Heal check against the cybertech's Install DC - this specific value is listed for each cybertech item. On a success, the target takes Constitution damage equal to the cybertech's implantation value and the cybertech immediately activates. On a failed check, the target still takes the Constitution damage but the installation fails; a new attempt to install the cybertech can be made, although it's wise to wait for the Constitution damage to heal before trying again.",
+			"",
+			"Cybertech can be extracted using the same procedure as implanting it, with a failed Heal check indicating the attempt to extract the item failed. Fortunately, extraction is a simpler task than installment, and Heal checks to remove cybertech gain a +10 bonus. Extracting a piece of cybertech from a dead body requires no Heal check but takes a number of rounds equal to the cybertech's implantation value. You can only install or extract a single piece of cybertech at a time.",
+			"",
+			"An NPC generally charges an amount equal to 1/10 the total price of a piece of cybertech for the service of installing the item.",
+			"",
+			"Each piece of cybertech has a full description, including a set of abbreviated statistics at the start. This information is organized as follows.",
+			"",
+			"@HL[Price:] This is the cost in gold pieces to buy the implant if it's available for sale. This value does not include the cost to have the object surgically implanted. As with magic items, a piece of cybertech can be sold by PCs for half this value.",
+			"",
+			"@HL[Slot:] This is the part of the body into which the cybertech must be implanted. A single slot can only ever host a single piece of cybertech. Cybertech slots are separate from normal magic item slots and do not count as being used for the purposes of worn magic items.",
+			"",
+			"@HL[Weight:] This is the weight of the cybertech in pounds. Once installed, the cybertech's weight does not count against a creature's encumbrance or maximum load.",
+			"",
+			"@HL[Install:] This is the Heal check DC required to successfully implant or remove the cybertech from a creature.",
+			"",
+			"@HL[Implantation:] A numerical value indicating how invasive the cybertech is. The higher the number, the more invasive the cybertech. Implantation influences the time and difficulty of installing and removing the cybertech.",
+			"",
+			"@HL[Description:] This section describes the cybertech's appearance and abilities.",
+			"",
+			"@HL[Construction:] Certain requirements must be met for a character to craft cybertech. These requirements generally consist of having a feat and access to [a manufacturing facility](rule/crafting_high_tech_items).",
+			"",
+			"@HL[Craft:] This is the Craft DC required to create the cybertech. It is also the Knowledge (engineering) DC to correctly identify the cybertech.",
+			"",
+			"@HL[Cost:] This is the cost in gold pieces to create the item. Generally this cost is equal to half the price of the item"
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"technological_equipment"
+		],
+		"siblings": [
+			"timeworn_technology",
+			"tech_weapons",
+			"tech_armor",
+			"cybertech",
+			"pharmaceuticals",
+			"tech_misc",
+			"tech_artifacts",
+			"crafting_high_tech_items",
+			"radiation",
+			"traps_and_technology",
+			"artificial_intelligence"
+		]
+	},
+	"pharmaceuticals": {
+		"name": "Pharmaceuticals",
+		"subtitle": "Technology, Specific Campaigns",
+		"sources": [ "Technology Guide" ],
+		"description": [
+			"{SOURCE Technology Guide/33}  ",
+			"A [pharmaceutical](main/tech_pharmaceuticals) takes a standard action to consume, or a move action if administered by a {tech-misc/medlance}. A single dose of any pharmaceutical weighs only a tenth of a pound - no entry for weight is given for the following item descriptions. Individual doses of pharmaceuticals can take various forms, from an injected serum to an ingested pill. Each pharmaceutical is assumed to contain a means of delivery included in its weight and cost. Any pharmaceutical can be used with a medlance to speed up its administration time, regardless of its form.",
+			"",
+			"Each pharmaceutical has a full description, including a set of abbreviated statistics, organized as follows.",
+			"",
+			"A creature with neither a Constitution score nor an Intelligence score cannot receive benefits from cybertech, but a creature with only one of these scores can.",
+			"",
+			"Installing a piece of cybertech takes a number of hours equal to the cybertech's implantation value if the installation is done by hand - certain technological items can speed this installation time. The target must be willing or helpless during the entire installation, at the end of which the installer attempts a Heal check against the cybertech's Install DC - this specific value is listed for each cybertech item. On a success, the target takes Constitution damage equal to the cybertech's implantation value and the cybertech immediately activates. On a failed check, the target still takes the Constitution damage but the installation fails; a new attempt to install the cybertech can be made, although it's wise to wait for the Constitution damage to heal before trying again.",
+			"",
+			"Cybertech can be extracted using the same procedure as implanting it, with a failed Heal check indicating the attempt to extract the item failed. Fortunately, extraction is a simpler task than installment, and Heal checks to remove cybertech gain a +10 bonus. Extracting a piece of cybertech from a dead body requires no Heal check but takes a number of rounds equal to the cybertech's implantation value. You can only install or extract a single piece of cybertech at a time.",
+			"",
+			"An NPC generally charges an amount equal to 1/10 the total price of a piece of cybertech for the service of installing the item.",
+			"",
+			"Each piece of cybertech has a full description, including a set of abbreviated statistics at the start. This information is organized as follows.",
+			"",
+			"@HL[Price:] This is the cost in gold pieces to buy the implant if it's available for sale. This value does not include the cost to have the object surgically implanted. As with magic items, a piece of cybertech can be sold by PCs for half this value.",
+			"",
+			"@HL[Slot:] This is the part of the body into which the cybertech must be implanted. A single slot can only ever host a single piece of cybertech. Cybertech slots are separate from normal magic item slots and do not count as being used for the purposes of worn magic items.",
+			"",
+			"@HL[Weight:] This is the weight of the cybertech in pounds. Once installed, the cybertech's weight does not count against a creature's encumbrance or maximum load.",
+			"",
+			"@HL[Install:] This is the Heal check DC required to successfully implant or remove the cybertech from a creature.",
+			"",
+			"@HL[Implantation:] A numerical value indicating how invasive the cybertech is. The higher the number, the more invasive the cybertech. Implantation influences the time and difficulty of installing and removing the cybertech.",
+			"",
+			"@HL[Description:] This section describes the cybertech's appearance and abilities.",
+			"",
+			"@HL[Construction:] Certain requirements must be met for a character to craft cybertech. These requirements generally consist of having a feat and access to [a manufacturing facility](rule/crafting_high_tech_items).",
+			"",
+			"@HL[Craft:] This is the Craft DC required to create the cybertech. It is also the Knowledge (engineering) DC to correctly identify the cybertech.",
+			"",
+			"@HL[Cost:] This is the cost in gold pieces to create the item. Generally this cost is equal to half the price of the item"
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"technological_equipment"
+		],
+		"siblings": [
+			"timeworn_technology",
+			"tech_weapons",
+			"tech_armor",
+			"cybertech",
+			"pharmaceuticals",
+			"tech_misc",
+			"tech_artifacts",
+			"crafting_high_tech_items",
+			"radiation",
+			"traps_and_technology",
+			"artificial_intelligence"
+		]
+	},
+	"tech_artifacts": {
+		"name": "Tech Artifacts",
+		"subtitle": "Technology, Specific Campaigns",
+		"tags": "Power Generators",
+		"sources": [ "Technology Guide" ],
+		"description": [
+			"{SOURCE Technology Guide/60}  ",
+			"In the case of technological items, artifact status refers to an item that is beyond the means of anyone on Golarion to create or replicate, as well as beyond conventional measures of value. Unlike magical artifacts, technological artifacts can be destroyed just as other items could, and indeed may be quite fragile.",
+			"",
+			"### Power Generators",
+			"",
+			"Power generators are a specific type of technological artifact capable of providing large amounts of sustained energy, and that can supply charges to entire compounds. Every robot has a dedicated power generator within it that provides enough energy to run that robot and nothing more. Generators that are free-standing devices or built into complexes can be used to charge technological items capable of being recharged. A device hooked directly to a functioning power generator uses the generator's energy rather than its own stored energy.",
+			"",
+			"Generators are large, cumbersome devices that are difficult, if not impossible, to move. They must be built on site or into vehicles large enough to transport their heavy bulks. Most of the generators have long since fallen into disrepair, and those few that still function are jealously defended. Some wonder if portable generators exist, but no one has found evidence of any.",
+			"",
+			"The total amount of energy a generator can provide is known as it's yield - the number of charges it generates per hour. A portion of this yield may be dedicated to devices directly wired into it, such as keeping infrastructure running in a complex-this is referred to as dedicated yield. Dedicated yield isn't available for other purposes while it's providing power to those devices. A generator's available yield is what's left over, and can be used to power or recharge devices that can be removed.",
+			"",
+			"Two items can be used to draw power from a generator: a power cable and a power receiver. A generator's integrated power transmitter can broadcast power to a receiver within 1,000 feet unless otherwise noted. This distance is halved for every 5 feet of metal or 20 feet of solid stone between the generator and the receiver.",
+			"",
+			"An item that uses a set number of charges per hour reduces a generator's available yield by that amount, making the yield dedicated while the item is attached, as if the item is hard-wired into the generator. An item that uses 1 or more charges each time it's activated (such as most weapons) reduces the generator's yield by that amount each time it is activated. For example, a laser pistol would consume 1 charge from the yield each time it's fired. A nuclear resonator, on the other hand, consumes 5 charges each time it's fired - thus, when attached to a generator, it consumes 5 charges from the generator's yield each time it's used.",
+			"",
+			"A generator can be forced to exceed its yield, but this can result in disaster. Whenever charges are drawn from a generator in excess of its yield, the generator must attempt a Fortitude saving throw (DC = 10 + 1 per charge over that hour's yield + 5 per incidence of exceeded yield in the past hour). Success indicates that the generator outputs the additional charges (with a 5% chance that the item glitches as though it were timeworn). Failure indicates that the generator doesn't deliver the additional charges and the item doesn't activate. If it fails by 5 or more, the generator shuts down, cutting off all power to all items using it, and cannot be restarted for 1 hour. (Restarting a generator that's shut down in this way requires a successful DC 25 Disable Device check, but other actions may be necessary as well at the GM's discretion.) If a generator fails this Fortitude save by 10 or more, it explodes - the details of this explosion vary by generator type. (Other circumstances may cause a generator to explode, with the DC at the GM's discretion.)",
+			"",
+			"All generators have hardness and hit points. An active generator that is reduced to 0 hit points must succeed at a DC 20 Fortitude saving throw or explode. All generators are Colossal objects, and thus have an AC of -5. Most generators emit a lot of noise, steam, and other distracting elements, penalizing Perception checks attempted to perceive anything within 60 feet (other than the generator) by the indicated amount."
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"technological_equipment"
+		],
+		"siblings": [
+			"timeworn_technology",
+			"tech_weapons",
+			"tech_armor",
+			"cybertech",
+			"pharmaceuticals",
+			"tech_misc",
+			"tech_artifacts",
+			"crafting_high_tech_items",
+			"radiation",
+			"traps_and_technology",
+			"artificial_intelligence"
+		]
+	},
+	"tech_misc": {
+		"name": "Miscellaneous Gear",
+		"subtitle": "Technology, Specific Campaigns",
+		"sources": [ "Technology Guide" ],
+		"description": [
+			"{SOURCE Technology Guide/39}  ",
+			"Most of the technological treasures that await discovery in Numeria fall into this catch-all category. Each piece of technological gear detailed here has a full description, including a set of abbreviated statistics. This information is organized as follows.",
+			"",
+			"@HL[Price:] This value is the cost in gold pieces for the PCs to purchase the item - if it's available for sale. As with magic items, a technological item can be sold by PCs for half of this amount.",
+			"",
+			"@HL[Slot:] This is the part of the body the item must be worn on, if any. If the item's slot matches one of the existing magic item slots, wearing the item prevents the user from wearing or gaining the benefit from a magic item in the same slot.",
+			"",
+			"@HL[Weight:] This entry lists the weight of the item in pounds.",
+			"",
+			"@HL[Capacity:] This is the maximum number of charges the item can hold.",
+			"",
+			"@HL[Usage:] This value lists the number of charges the item consumes from its capacity each time it is activated.",
+			"",
+			"@HL[Description:] This section describes the gear's appearance and abilities.",
+			"",
+			"@HL[Construction:] This section describes the requirements that must be met for a character to craft the item. These requirements generally consist of having a feat and access to a manufacturing facility.",
+			"",
+			"@HL[Craft:] This is the Craft DC required to create the item. It is also the Knowledge (engineering) DC to correctly identify the item.",
+			"",
+			"@HL[Cost:] This amount is the cost in gold pieces to create the item. Generally, this cost is equal to half the price of the item"
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"technological_equipment"
+		],
+		"siblings": [
+			"timeworn_technology",
+			"tech_weapons",
+			"tech_armor",
+			"cybertech",
+			"pharmaceuticals",
+			"tech_misc",
+			"tech_artifacts",
+			"crafting_high_tech_items",
+			"radiation",
+			"traps_and_technology",
+			"artificial_intelligence"
+		]
+	},
+	"crafting_high_tech_items": {
+		"name": "Crafting High-Tech Items",
+		"subtitle": "Technology, Specific Campaigns",
+		"sources": [ "Technology Guide" ],
+		"description": [
+			"{SOURCE Technology Guide/16}  ",
+			"The process of building technological items has much in common with magic item creation, though it uses different feats, skills, and facilities. As with magic items, the creator invests time and money in the creation process and at the end attempts a single skill check to complete construction. Since technological items do not have caster levels, the DC of this check is defined in the description of each technological item. Failing this check means that the item does not function and the materials are wasted. Failing this check by 5 or more may result in a catastrophic failure, such as electrocution or an explosion, at the GM's discretion.",
+			"",
+			"Unlike magic items, which often require spells as prerequisites for construction, high-tech items require a specialized laboratory with the necessary tools for fabrication. Using a crafting lab to build a high-tech item consumes an amount of power each day. Days when the crafting lab is without power effectively delay continued construction of a high-tech item, but time already spent building the item is not lost. In addition, crafting an item requires an expenditure of time (from a character with the appropriate crafting feat) and an expenditure of money used to secure the technological components and expendable resources needed for the work.",
+			"",
+			"Creating a technological item requires 8 hours of work per 1,000 gp in the item's base price (or fraction thereof). The creator must spend the gold at the beginning of the construction process. The process can be accelerated to 4 hours of work per 1,000 gp by increasing the DC to create the item by 5. When determining the required time, ignore any fixed costs such as the weapon portion of implanted weaponry.",
+			"",
+			"The creator can work for a maximum of 8 hours per day, even if she doesn't require sleep or rest. These days need not be consecutive. Ideally, the creator can work for at least 4 hours at a time uninterrupted, but if this is not possible (such as while adventuring), the creator can devote 4 hours of work broken up over the day, accomplishing a net of 2 hours of progress. Work under distracting or dangerous conditions nets only half the progress as well. If the creator can't dedicate at least 4 hours of work during a day (even if broken up or under distracting conditions), any work performed that day is wasted.",
+			"",
+			"A character can work on multiple technological items at a time, or even in the same day as long as at least 2 hours net labor can be spent on each item. This doesn't let a creator exceed the limits on work accomplished in a single day, but does require separate power expenditures for each item (working on multiple projects at a time is not particularly energy efficient).",
+			"",
+			"Technological items can be repaired using the appropriate crafting feats in the same way magical items can be repaired, but such methods cannot repair the more fundamental ravages of time that afflict timeworn technological items."
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"technological_equipment"
+		],
+		"siblings": [
+			"timeworn_technology",
+			"tech_weapons",
+			"tech_armor",
+			"cybertech",
+			"pharmaceuticals",
+			"tech_misc",
+			"tech_artifacts",
+			"crafting_high_tech_items",
+			"radiation",
+			"traps_and_technology",
+			"artificial_intelligence"
+		],
+		"subtopics": [
+			"crafting_laboratories",
+			"hybrid_items",
+			"pricing_and_creating_new_technological_items"
+		]
+	},
+	"crafting_laboratories": {
+		"name": "Crafting Laboratories",
+		"subtitle": "High-Tech Items, Technology",
+		"sources": [ "Technology Guide" ],
+		"description": [
+			"{SOURCE Technology Guide/16}  ",
+			"Although there is a wide range of technological items, the types of laboratories needed to craft objects are relatively limited. Crafting laboratories are, unfortunately, incredibly rare, and those whose locations are currently known and found in relatively safe regions are firmly controlled. A crafting laboratory is similar to a technological artifact, in that it cannot be assembled or built with current resources. In order to craft a technological item, one must secure a laboratory for use. (This allows GMs to limit the role high-tech crafting plays in any one game; make sure to inform your players of the limited availability of crafting laboratories at the start of your game so they know whether selecting high-tech crafting feats is a useful option for their PCs!)",
+			"",
+			"The six types of laboratories are listed below. Each lab also lists the number of charges required for a day's work on a single project; these numbers are generally rather high, and laboratories that don't draw power from a generator can consume staggering amounts of battery power. A laboratory that uses power from a generator applies the listed charges to that generator's dedicated yield for as long as work on the item continues.",
+			"",
+			"@HL[Cybernetics Lab (100 charges):] A cybernetics lab is used to craft {main/tech_<cyber/netic equipment>tech} and devices that interface directly with a living creature's biology.",
+			"",
+			"@HL[Graviton Lab (250 charges):] A graviton lab is used to craft items that utilize graviton technology, such as {tech-weapon/gravity rifle/s}, {tech-misc/force field/s>_brown}, and {tech-misc/magboots}.",
+			"",
+			"@HL[Medical Lab (20 charges):] This lab is used to craft medical items like {tech-misc/trauma pack/s} and {tech-misc/medlance/s} and pharmaceuticals.",
+			"",
+			"@HL[Military Lab (100 charges):] A military lab is used to craft {main/tech_<weapons} that don't require more specialized laboratories.",
+			"",
+			"@HL[Nanotech Lab (150 charges):] This lab is used to craft devices that utilize nanotechnology, such as {tech-weapon/id rifle/s}.",
+			"",
+			"@HL[Production Lab (50 charges):] A production lab is used to craft objects that don't require more specialized laboratories."
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"technological_equipment",
+			"crafting_high_tech_items"
+		],
+		"siblings": [
+			"crafting_laboratories",
+			"hybrid_items",
+			"pricing_and_creating_new_technological_items"
+		]
+	},
+	"hybrid_items": {
+		"name": "Hybrid Magic/Tech Items",
+		"subtitle": "High-Tech Items, Technology",
+		"tags": "hybrid items",
+		"sources": [ "Technology Guide" ],
+		"description": [
+			"{SOURCE Technology Guide/17}  ",
+			"Items with both magical and technological components, such as the {tech-weapon/null blade}, use a special crafting process. The creator must first succeed at a skill check at the listed DC for crafting the technological portion of the item, and then must succeed at a check based on the item's caster level for crafting the magical portion. Any spell or level-based prerequisites not met increase this crafting DC, as described for {rule/magic item creation}. The skill used for each check is based on the item creation feats required by the item. Failure on either check ruins the item. Use the item's listed price as normal for determining crafting time, and the item's cost for raw materials. If the creator has feats or abilities that accelerate item creation, only the least favorable bonus applies. In other words, to create a hybrid item faster, the creator needs to be able to create both magical and technological items faster.",
+			"",
+			"It is also possible to enhance high-tech armor and high-tech weaponry with armor special abilities or weapon special abilities, including magical enhancement bonuses. One could build a +2 {tech-weapon/laser rifle}, a +4 {magic-enh/dancing} humanoid {magic-enh/bane} {tech-weapon/chainsaw}, or a +1 {magic-enh/ghost touch>_a} {tech-armor/spacesuit}. In theory, a magic item creator could even infuse a technological item with {rule/magical |intelligen/ce>t_items}.",
+			"",
+			"To create a magical high-tech item like this, one must first secure the high-tech item itself, either via purchase, discovery, or crafting. All high-tech weapons and armor are considered masterwork for the purposes of adding magical enhancements to them (though they do not gain the other typical benefits for masterwork items). At the GM's discretion, some magical special abilities might simply not be appropriate for application to certain technological items.",
+			"",
+			"When a character crafts an existing technological item into a magic item in this manner, he does not need to meet the base item's crafting requirements; a wizard with {feat/Craft Magic Arms and Armor} can create a +1 arc pistol from a normal {tech-weapon/arc pistol} without having {feat/Craft Technological Arms and Armor} and without having access to a [military laboratory](rule/crafting_laboratories). In a situation where a character wishes to craft the entire item from scratch, the nonmagical technological item must be fully crafted and completed before work on magically enhancing it can begin."
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"technological_equipment",
+			"crafting_high_tech_items"
+		],
+		"siblings": [
+			"crafting_laboratories",
+			"hybrid_items",
+			"pricing_and_creating_new_technological_items"
+		]
+	},
+	"pricing_and_creating_new_technological_items": {
+		"name": "Pricing and Creating New Technological Items",
+		"subtitle": "Technology, Specific Campaigns",
+		"sources": [ "Technology Guide" ],
+		"description": [
+			"{SOURCE Technology Guide/17}  ",
+			"New technological items can and should be created, using existing items for inspiration. A new item may resemble an existing magic item, such as how {tech-misc/jetpack/s} function like {magic-wondrous/winged boots}, but there should be differences beyond just battery power to keep technology distinct. When pricing a new technological item, use the [existing guidelines](rule/magic_item_gold_piece_values) for estimating magic item value. There's no extra cost associated with technological items since they have extra weaknesses to go along with their advantages. Items that use charges should be priced as if they were use-activated, not as if they were charged in the way a wand or {magic-ring/ring of the ram} is charged, unless the item is disposable and has 50 or fewer charges, as the assumption is that a newly crafted technological item can be recharged with relative ease."
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"technological_equipment",
+			"crafting_high_tech_items"
+		],
+		"siblings": [
+			"crafting_laboratories",
+			"hybrid_items",
+			"pricing_and_creating_new_technological_items"
+		]
+	},
+	"radiation": {
+		"name": "Radiation",
+		"subtitle": "Technology, Specific Campaigns",
+		"tags": "radiation poisoning",
+		"sources": [ "Technology Guide" ],
+		"description": [
+			"{SOURCE Technology Guide/55}  ",
+			"Radiation is a very real threat to those who explore the technological ruins of Numeria. Radiation is a poison effect whose initial effect causes Constitution drain and secondary effect causes Strength damage. Radiation poisoning dangers are organized into four categories: low, medium, high, and severe.",
+			"",
+			"@HL[Area of Effect:] Radiation suffuses a spherical area of effect that can extend into solid objects. The closer one gets to the center of an area of radiation, the stronger the radiation effect becomes. Radiation entries list the maximum level of radiation in an area, as well as the radius out to which this radiation level applies. Each increment up to an equal length beyond that radius degrades the radiation strength by one level. For example, a spherical area of high radiation with a radius of 20 feet creates a zone of medium radiation 21 feet to 40 feet from the center in all directions, and a similar zone of low radiation from 41 to 60 feet.",
+			"",
+			"@HL[Initial Effect:] Radiation initially deals Constitution drain unless the affected character succeeds at a Fortitude save. A new saving throw must be attempted to resist radiation's initial damage each round a victim remains exposed to it.",
+			"",
+			"@HL[Secondary Effect:] Secondary effects from radiation deal Strength damage at a much slower rate than most poisons. This secondary effect ends only after a character succeeds at two consecutive Fortitude saving throws to resist secondary radiation damage. If a character has Strength damage equal to his current Strength score, further damage dealt by a secondary effect is instead Constitution damage.",
+			"",
+			"@HL[Removing Radiation Effects:] All radiation damage is a poison effect, and as such it can be removed with any effect that neutralizes poison. {rule/Ability damage[ and] drain} caused by radiation damage can be healed normally",
+			"",
+			"| Radiation Level | Fort DC | Initial Effect | Secondary Effect |",
+			"| --- | --- | --- | --- |",
+			"| Low | 13 | 1 Con drain | 1 Str damage/day |",
+			"| Medium | 17 | 1d4 Con drain | 1d4 Str damage/day |",
+			"| High | 22 | 2d4 Con drain | 1d6 Str damage/day |",
+			"| Severe | 30 | 4d6 Con drain | 2d6 Str damage/day |"
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"technological_equipment"
+		],
+		"siblings": [
+			"timeworn_technology",
+			"tech_weapons",
+			"tech_armor",
+			"cybertech",
+			"pharmaceuticals",
+			"tech_misc",
+			"tech_artifacts",
+			"crafting_high_tech_items",
+			"radiation",
+			"traps_and_technology",
+			"artificial_intelligence"
+		]
+	},
+	"traps_and_technology": {
+		"name": "Traps and Technology",
+		"subtitle": "Specific Campaigns",
+		"sources": [ "Technology Guide" ],
+		"description": [
+			"{SOURCE Technology Guide/56}  ",
+			"Mundane and magical traps can incorporate technological elements in their construction. Computers and AIs can also be connected to traps, allowing them to selectively trigger the traps remotely. Traps that incorporate technology gain the technological type, in addition to their normal type (see the following examples). The following technological triggers are available to traps",
+			"",
+			"@HL[Electric Eyes:] Similar to a visual trigger, the trap incorporates a camera or other visual and audio recording device. Electric eyes typically have darkvision to a range of 120 feet, low-light vision, and a Perception bonus of +15. This trigger adds +1 to the trap's CR and +5 to its crafting DC.",
+			"",
+			"@HL[Genetic:] A genetic trigger works in a fashion similar to scent. It can be set to target or not target living creatures within 30 feet (adjusted by wind as for scent) based on an individual, close family, or species relationship. For example, a trap could be set to target orcs, or to not target an NPC and his close relations. Genetic triggers are used in conjunction with other triggers and limit the maximum range of those triggers. A trap can incorporate up to half its CR in different genetic samples and conditions. This trigger adds +1 to the trap's CR and +5 to its crafting DC.",
+			"",
+			"### Concealed Laser Turret",
+			"",
+			"#### CR 4",
+			"**Type** mechanical and technological; **Perception DC** 20; **Disable Device** DC 28",
+			"",
+			"**Trigger** camera (Perception +15); **Reset** automatic (1 round)  ",
+			"**Effect** Atk +10 ranged touch (2d6 fire), range increment 150 ft. (see {tech-weapon/laser pistol} for rules on lasers)",
+			"",
+			"### Proximity Mine",
+			"#### CR 5",
+			"**Type** genetic, proximity **Perception DC** 28; **Disable Device** DC 20",
+			"",
+			"**Trigger** camera (Perception +15); **Reset** none  ",
+			"**Effect** one {tech-weapon/bang_>grenade} worth 1,000 gp or less, multiple targets and saves (see grenade for rules)",
+			"",
+			"### Electrified Door",
+			"#### CR 11",
+			"**Type** mechanical and technological; **Perception DC** 32; **Disable Device** DC 29",
+			"",
+			"**Trigger** touch (see text); **Reset** automatic (1 minute; see text)  ",
+			"**Effect** 10d8 electricity damage (Reflex DC 25 half) to anyone touching the door; typically an electrified door triggers only if a creature attempts to bypass or force the door; electrified doors connected to a generator have no charge limit, otherwise the trap has only enough energy to function once with no reset"
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"technological_equipment"
+		],
+		"siblings": [
+			"timeworn_technology",
+			"tech_weapons",
+			"tech_armor",
+			"cybertech",
+			"pharmaceuticals",
+			"tech_misc",
+			"tech_artifacts",
+			"crafting_high_tech_items",
+			"radiation",
+			"traps_and_technology",
+			"artificial_intelligence"
+		]
+	},
+	"artificial_intelligence": {
+		"name": "Artificial Intelligence",
+		"subtitle": "Technology, Specific Campaigns",
+		"tags": "AI",
+		"sources": [ "Technology Guide" ],
+		"subtopics": [ "creating_an_ai" ],
+		"description": [
+			"{SOURCE Technology Guide/58}  ",
+			"Among the most marvelous of technological wonders are artificial intelligences. Each artificial intelligence (or AI) has its own personality and interests, but its actual ability to interact with the world requires a being installed into a robot or structure (known as a host).",
+			"",
+			"When an AI is installed in a technological structure with an integrated computer network, it can manipulate anything that is connected to that structure, such as traps, doors, or weapons. To destroy an AI in a host structure, either the physical device that contains the AI's programming must be destroyed (the magnitude of this task can vary widely - the host may be merely a single computer with hardness 10 and 20 hit points or an entire building that must be destroyed over multiple encounters or adventures) or all three of its ability scores must be reduced to 0 via ability drain effects directed at the AI's core processor (typically a large computer in the most well-defended part of a complex, but sometimes a processor housed in a robot). Ability damage dealt to an AI at best merely inconveniences it, and at worst renders it comatose for a limited time.",
+			"",
+			"An AI that is installed in a robot enhances that robot with the {template/aggregate/ template}."
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"technological_equipment"
+		],
+		"siblings": [
+			"timeworn_technology",
+			"tech_weapons",
+			"tech_armor",
+			"cybertech",
+			"pharmaceuticals",
+			"tech_misc",
+			"tech_artifacts",
+			"crafting_high_tech_items",
+			"radiation",
+			"traps_and_technology",
+			"artificial_intelligence"
+		]
+	},
+	"creating_an_ai": {
+		"name": "Creating an AI",
+		"subtitle": "Technology, Specific Campaigns",
+		"sources": [ "Technology Guide" ],
+		"description": [
+			"{SOURCE Technology Guide/58}  ",
+			"An artificial intelligence's stat block is similar to that of an intelligent magic item. Note that these statistics reflect only the intelligence itself, not the host. Building an AI stat block requires the following statistics.",
+			"",
+			"@HL[CR:] An artificial intelligence's CR sets its ability scores, saves, and skill checks. It also sets its XP value for defeating it - this award is typically granted as a story award once the AI has been overcome, but in some cases (such as when an AI is installed in a single robot), this XP award is replaced by the standard XP for defeating that robot.",
+			"",
+			"@HL[Alignment and Type:] An AI can be any alignment. Its type is \"artificial intelligence,\" and it counts as a construct for all effects that target creature type.",
+			"",
+			"@HL[Initiative:] The installed AI modifies its initiative check with its Intelligence modifier, not its Dexterity modifier.",
+			"",
+			"@HL[Senses:] An AI needs access to a robot, cameras, microphones, or other mechanical sensory tools in order to be able to notice things in the outside world. These senses should be listed in the appropriate encounter areas, not in the AI's stats, since it's likely that an AI will have access to a variety of sensory devices over a large area.",
+			"",
+			"@HL[Defenses:] An AI doesn't have an AC, hit points, or other statistics related to a physical form; it relies on its host robot or structure for those scores. An AI uses its own saving throws only against attacks that target its mind - in most cases, this means it primarily uses its Will save. An AI uses its CR as its effective Hit Dice for determining its base saves - it has good Will saves and poor Fortitude and Reflex saves.",
+			"",
+			"@HL[Ability Scores:] An AI's base ability scores are 14, 12, and 10. Arrange them in any order desired. For every 2 points of CR it possesses, it gains a +2 bonus to an ability score (assigned by the GM).",
+			"",
+			"@HL[Skills:] An AI has skill points equal to 6 + its Intelligence modifier per point of CR. An AI has a number of class skills equal to its Charisma modifier. These may be any skill, though the most common class skills for AIs are: Bluff, Diplomacy, Intimidate, Knowledge (all), Linguistics, Perception, and Sense Motive.",
+			"",
+			"@HL[Feats:] An AI has a number of feats equal to half its CR (minimum 1). An AI must meet all prerequisites of its feats. AIs also gain {feat/Technologist} as a bonus feat.",
+			"",
+			"@HL[Languages:] AIs speak Androffan. An AI knows a number of additional languages equal to its {rule/Intelligence} modifier.",
+			"",
+			"@HL[Special Abilities:] Use this section to cover any unusual abilities the AI possesses."
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"technological_equipment",
+			"artificial_intelligence"
+		],
+		"siblings": [ "creating_an_ai" ]
+	}
+}

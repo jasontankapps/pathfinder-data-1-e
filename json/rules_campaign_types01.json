@@ -1,0 +1,743 @@
+{
+	"gm_specific_campaigns": {
+		"name": "Specific Campaign Types",
+		"subtopics": [
+			"aquatic_adventures_aa",
+			"horror_rules",
+			"intrigue_systems",
+			"kingdoms_and_war",
+			"mythic_rules",
+			"occult_rules",
+			"planar_adventures",
+			"the_first_world",
+			"technological_equipment"
+		],
+		"description": [
+			"These topics contain GM-focused information regarding specific types of campaigns or campaign settings."
+		]
+	},
+	"aquatic_adventures_aa": {
+		"name": "Aquatic Adventures",
+		"subtitle": "Specific Campaigns",
+		"sources": [ "Aquatic Adventures" ],
+		"description": [
+			"{SOURCE Aquatic Adventures}  ",
+			"The rules presented in the Pathfinder RPG Core Rulebook assume the default perspective of a game based on land, with only occasional hazards and encounters involving water - typically as ways to get terrestrial PCs out of their comfort zone. However, when you're running a game with significant portions set underwater, you often wind up needing to make a number of tricky adjudications in order to make gameplay work. This section includes advice and adjudications that make it an invaluable resource for those running and playing in aquatic adventures.",
+			"",
+			"**Also see:** The Gamemastery Guide section on {rule/aquatic adventures}."
+		],
+		"parent_topics": [ "gm_specific_campaigns" ],
+		"subtopics": [
+			"swimming_and_aquatic_adventures",
+			"fighting_underwater",
+			"underwater_hazards_and_features"
+		],
+		"siblings": [
+			"aquatic_adventures_aa",
+			"horror_rules",
+			"intrigue_systems",
+			"kingdoms_and_war",
+			"mythic_rules",
+			"occult_rules",
+			"planar_adventures",
+			"the_first_world",
+			"technological_equipment"
+		]
+	},
+	"swimming_and_aquatic_adventures": {
+		"name": "Swimming and Aquatic Adventures",
+		"subtitle": "Specific Campaigns",
+		"sources": [ "Aquatic Adventures" ],
+		"description": [
+			"{SOURCE Aquatic Adventures}  ",
+			"Barring the use of magic, swimming is the main way to travel in an aquatic adventure. However, the Swim skill was written from the perspective of a primarily land-based campaign.",
+			"",
+			"### The Basics",
+			"",
+			"The basics of the {skill/Swim/ skill} are the same in an aquatic campaign. When a creature uses a move or full-round action to swim, it attempts a Swim check against the appropriate DC based on how calm the water is and other local factors. On a success, it can move up to one quarter of its land speed with a single move, or half its land speed with a double move. On a failure, it doesn't make any progress, and on a failure by 5 or more it goes underwater. This last part, however, doesn't make any sense if the PC is already underwater. Instead, if a PC fails her check by 5 or more while underwater (or doesn't spend any actions to swim, thus not even attempting the check), she sinks or rises based on her {rule/buoyancy}.",
+			"",
+			"While swimming, a PC can't normally use the run or charge actions or take a 5-foot step. Every hour of swimming requires a successful DC 20 Swim check to avoid fatigue. Even on a success, an hour of swimming is still at least as strenuous as marching for an hour, and extensive swimming eventually requires a PC to attempt checks as per [forced marches](rule/overland_movement). Similarly, continually taking a double move to swim at half land speed counts as hustling. A creature can also walk on the ocean floor, lake bed, or other solid ground underwater as long as its buoyancy is swiftly sinking. When it does so, it moves at half its land speed without needing to attempt a Swim check.",
+			"",
+			"@HL[Swim Speed:] Creatures with a swim speed have a variety of advantages underwater. First of all, they can swim through normal water at their full swim speed without needing to attempt a Swim check. They can use the run and charge actions and take 5-foot steps with their swim speed. When they do need to attempt Swim checks to deal with a hazardous situation or perform a special action, they benefit from a sizable +8 racial bonus on their Swim checks. There might be an unusual circumstance where a creature has a swim speed that's actually slower than one-quarter of its land speed (for instance, a monk using the spell {spell/monkey fish} to gain a swim speed of 10 feet). Such a creature can swim at one-quarter of its land speed instead, but it sacrifices the benefits of its swim speed on rounds when it isn't using its swim speed."
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"aquatic_adventures_aa"
+		],
+		"subtopics": [
+			"buoyancy",
+			"thinking_in_three_dimensions"
+		],
+		"siblings": [
+			"swimming_and_aquatic_adventures",
+			"fighting_underwater",
+			"underwater_hazards_and_features"
+		]
+	},
+	"buoyancy": {
+		"name": "Buoyancy",
+		"subtitle": "Aquatic Adventures, Specific Campaigns",
+		"sources": [ "Aquatic Adventures" ],
+		"description": [
+			"{SOURCE Aquatic Adventures}  ",
+			"When a creature fails its Swim check by 5 or more, or when it doesn't spend any actions to swim (whether voluntarily or due to paralysis or similar conditions), it either sinks or rises based on its buoyancy. There are three normal states of buoyancy: sinking, rising, and neutral. If a creature's buoyancy is sinking, it naturally sinks; if its buoyancy is rising, it naturally rises to the surface; and if its buoyancy is neutral, it hangs in place unless it expends effort.",
+			"",
+			"Land-dwelling creatures generally have a sinking buoyancy unless they are carrying a substantial amount of low-density gear (like wooden items, at least until they become waterlogged) and little or no high-density gear (such as items made from metal or stone). {eq-misc/Air tank/s} in particular make it much easier to change your buoyancy to rising. It's also possible to adjust an air tank to hold just enough air to achieve a neutral buoyancy - but once a creature has done so, if it picks up other objects or uses the tank to breathe underwater, it loses its neutral buoyancy until it readjusts (which may require returning to the surface to refill the air tank).",
+			"",
+			"In addition to these three normal states of buoyancy, there are two extreme states: swiftly sinking and swiftly rising. If a creature is swiftly sinking, it and its gear are so dense that it can walk on the bottom of the body of water, but it also needs to succeed at a DC 20 Swim check to swim towards the surface or to stay off the bottom. A creature carrying plenty of dense stone or metal items gains this buoyancy state. If a creature is swiftly rising, it needs to succeed at a DC 20 Swim check to submerge itself and stay submerged; a sizable air tank or other flotation device, or the help of magic, is needed to achieve this state.",
+			"",
+			"@HL[Aquatic and Water Creatures:] Most naturally aquatic creatures (those with the aquatic subtype) have some form of air bladder or other organ that allows them to adjust their buoyancy on the fly, enabling them to maintain neutral buoyancy as a free action on their turn (unless they are carrying something large with particularly high or low density), and creatures with the water subtype naturally have the same buoyancy as water.",
+			"",
+			"@HL[Buoyancy Speed:] A creature begins to sink or rise at the end of its turn the first time it badly fails (or does not attempt) a Swim check, moving up or down as appropriate at a speed of 10 feet; this speed increases by 10 feet each subsequent round unless the creature is stopped, to a maximum speed of 30 feet after 3 rounds. This movement provokes attacks of opportunity as normal. While sinking or rising because of its buoyancy, creatures are considered {rule/off-balance>_and_prone_underwater}.",
+			"",
+			"Once per round, a creature sinking or rising because of its buoyancy can stop its momentum by succeeding at a Swim check as a move action. A creature that chooses to continue moving in the direction of its buoyancy under its own power, rather than through uncontrolled rising or sinking, can do so with a successful Swim check without needing to stop first.",
+			"",
+			"If a creature's buoyancy changes instantly while sinking or rising from buoyancy (such as via jettisoning something it's holding or using magic), its buoyancy speed adjusts by 10 feet in the new direction each round. A creature that fails the DC 20 Swim check to move against its buoyancy while swiftly sinking or swiftly rising moves 30 feet in the appropriate direction immediately.",
+			"",
+			"@HL[Moving Against Buoyancy:] Much like flying upwards uses up twice as much of a flying creature's movement, each square of movement swimming in the opposite direction of a creature's buoyancy costs twice as much movement as normal (see {rule/Thinking in Three Dimensions} for more details). Creatures with a neutral buoyancy ignore this hindrance.",
+			"",
+			"@HL[Drag:] Sometimes, because a PC might want to alter her buoyancy (or simply because she wants to drag a particularly large piece of treasure back home), she might swim with an item that has significant surface area, like a giant treasure chest. In these cases, her speed is reduced by half (or more, at the GM's discretion). If the object is narrower in one dimension, like a pole, she can avoid drag by turning it so the narrow side faces the direction she wants to move; however, this adjustment requires a move action, so it slows her down if she needs to turn often."
+		],
+		"siblings": [
+			"buoyancy",
+			"thinking_in_three_dimensions"
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"aquatic_adventures_aa",
+			"swimming_and_aquatic_adventures"
+		]
+	},
+	"thinking_in_three_dimensions": {
+		"name": "Thinking in Three Dimensions",
+		"subtitle": "Aquatic Adventures, Specific Campaigns",
+		"sources": [ "Aquatic Adventures" ],
+		"description": [
+			"{SOURCE Aquatic Adventures}  ",
+			"While flying creatures can add a third dimension to land-based combat, such creatures are an exception rather than the rule. The main challenge three-dimensional adventuring presents is representing a creature's vertical position during combat. This challenge is tougher than usual because most flying in adventures still involves encounters relatively close to the ground, rather than in the open sky, but plenty of encounters in an underwater adventure may occur in open water, nowhere near the surface or bottom. Typical solutions for flying creatures like using stackable tokens or transparent dice boxes to elevate the flying creature all depend on the main map being a consistent bottom altitude, but in an underwater fight, the combatants could just as easily move farther down.",
+			"",
+			"One way to avoid physically representing the third dimension is to use your imagination instead of a battlemap, but given that it's even harder to keep track of all three dimensions in your head, it becomes difficult to keep accurate relative distances that way. Another simple way to handle it is to mark a creature's depth relative to its starting depth, either on a small token you move along with the creature or directly on the battle map. This solution doesn't involve as much work as creating a complicated three-dimensional representation of the battle, but it isn't always easy to judge the relative vertical position without looking at the numbers and thinking about them. In the end, use the solution that works best for you whether that's judging distances in your head or crafting elaborate physical representations.",
+			"",
+			"@HL[Flanking:] All the usual rules for flanking still apply in three dimensions, but now there are far more ways for a target to potentially be flanked. It also means a larger number of weaker creatures can gang up on a stronger creature, since there are 26 valid spaces adjacent to a given square, rather than 8.",
+			"",
+			"@HL[Flexible Movement:] In a normal adventure, particularly before magical flight becomes easily accessible, it's easier to predict a character's exact path. For instance, on land, to get to a cave in the woods, the characters have to walk through the woods, and they are likely to use a forest trail that allows them to move quickly, rather than heading off into the deep foliage. Particularly in a dungeon, denizens can place traps with the expectation that characters will step in very particular places, and in all likelihood, a character will do so. However, underwater, all bets are off. If the PCs need to get to a cave in a kelp forest, they can just swim over the kelp forest until they are directly above the cave and then swim down, barely spending any time in the kelp forest at all.",
+			"",
+			"Even in an underwater dungeon, unless both the ceiling and walls narrow to 5 feet (which could be a giveaway that the characters are being channeled into a trap), the characters have significant more leeway in where they move, which means that dungeon denizens should set proximity traps covering a wider radius, rather than depending on a particular square. The third dimension also makes it harder to blockade or patrol a perimeter, since there are so many more ways to slip past; essentially, defenders are patrolling along the surface of a sphere instead of the perimeter of a circle."
+		],
+		"siblings": [
+			"buoyancy",
+			"thinking_in_three_dimensions"
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"aquatic_adventures_aa",
+			"swimming_and_aquatic_adventures"
+		]
+	},
+	"fighting_underwater": {
+		"name": "Fighting Underwater",
+		"tags": "underwater combat",
+		"subtitle": "Aquatic Adventures, Specific Campaigns",
+		"sources": [ "Aquatic Adventures" ],
+		"description": [
+			"{SOURCE Aquatic Adventures}  ",
+			"Combat underwater is more complex than on land, both because of the three-dimensional nature of the environment, and because being underwater changes how many actions work. This section contains rules advice and adjudication for major factors that change because of the water.",
+			"",
+			"While most skills work the same underwater, {skill/Perception} and {skill/Survival} work somewhat differently. See the notes under those skills for more information."
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"aquatic_adventures_aa"
+		],
+		"subtopics": [
+			"physical_attacks_underwater",
+			"off_balance_and_prone_underwater",
+			"freedom_of_movement",
+			"spells"
+		],
+		"siblings": [
+			"swimming_and_aquatic_adventures",
+			"fighting_underwater",
+			"underwater_hazards_and_features"
+		]
+	},
+	"physical_attacks_underwater": {
+		"name": "Physical Attacks",
+		"subtitle": "Fighting Underwater, Aquatic Adventures",
+		"tags": "underwater combat",
+		"sources": [ "Aquatic Adventures" ],
+		"description": [
+			"{SOURCE Aquatic Adventures}  ",
+			"One of the most immediately noticeable differences when fighting underwater is that slashing and bludgeoning attacks are made with a -2 penalty and deal half damage, making piercing weapons the best bet for an underwater adventure. If you're off-balance (see {rule/Off-Balance and Prone Underwater}), your attacks with piercing weapons also take a -2 penalty and deal half damage. {spell/Freedom of movement} can negate these penalties entirely and has [a variety of other effects](rule/freedom_of_movement). Additionally, {feat/Aquadynamic Focus} can specifically assist with this situation. Creatures with a natural swim speed from the aquatic or water subtype don't take these penalties with their inherent natural attacks. For instance, a kraken's bludgeoning tentacle attacks don't take penalties, but if it took the ectoplasmatist {class/spiritualist} archetype and gained two slashing ectoplasmic lash attacks, those would still take the penalties. Attacks that deal bludgeoning damage by pushing water, such as a {class/kineticist/'s} water blast, also take no penalty and deal full damage underwater.",
+			"",
+			"@HL[Ranged Attacks:] Traditional physical ranged weapon attacks underwater are much more challenging due to the increased drag from the water compared to air. Ranged attacks normally take a -2 penalty for every 5 feet of water, in addition to the normal penalty for range increments. The exceptions are the underwater light crossbow and underwater heavy crossbow, which ignore the penalty for ranged attacks underwater but have a significantly reduced range increment underwater. Thrown attacks don't usually work underwater at all, but if you can move directly above your opponent, you can throw a properly prepared piercing weapon (one made of stone, metal, or another particularly dense material) straight down, counting on its sinking buoyancy to propel it to its target.",
+			"",
+			"Hypothetically, you could do the reverse with a weapon of extremely low density, but achieving such a low density while still having a shape that allows for throwing and enough mass to damage would generally require an unusual material or magical assistance. At the end of a downward-thrown object's maximum range, it continues to sink, but its trajectory is far too unpredictable to hit anything with its dangerous end.",
+			"",
+			"@HL[Combat Maneuvers:] Most combat maneuvers work underwater, although you take a -2 penalty on {rule/grapple} combat maneuver checks if you don't have a Swim speed (a successful damage action taken as part of a maintained grapple deals full damage, even if your unarmed strike deals bludgeoning damage). Even {rule/trip/ping} is possible underwater with [special rules](rule/off_balance_and_prone_underwater).",
+			"",
+			"@HL[Cover from the Surface:] Due to water's surface tension, creatures attempting to attack through water's surface count its surface as {rule/total |cover} (if a creature is partially submerged, it gains proportionally less cover); this applies even to spells that require attack rolls. The exception to this rule is attacks that deal piercing damage: these can penetrate the water's surface but take a -2 penalty to do so. This is a change from the [rule on cover](rule/underwater_combat) from the water's surface in the Core Rulebook, but it allows actions like spearfishing and firing harpoons from whaling ships."
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"aquatic_adventures_aa",
+			"fighting_underwater"
+		],
+		"siblings": [
+			"physical_attacks_underwater",
+			"off_balance_and_prone_underwater",
+			"freedom_of_movement",
+			"spells"
+		]
+	},
+	"attacking_underwater": { "redirect": "physical_attacks_underwater" },
+	"off_balance_and_prone_underwater": {
+		"name": "Off-Balance and Prone Underwater",
+		"subtitle": "Fighting Underwater, Aquatic Adventures",
+		"tags": "underwater combat",
+		"sources": [ "Aquatic Adventures" ],
+		"description": [
+			"{SOURCE Aquatic Adventures}  ",
+			"@HL[\"Off-balance\"] is a special state (though not technically a condition) that is listed in the [Combat Adjustments Underwater table](rule/underwater_combat). A creature off-balance in the water loses its Dexterity bonus to AC, its opponents gain a +2 bonus on attack rolls against it, and attacks it makes with piercing weapons are made at a -2 penalty and deal half damage. A creature typically becomes off-balance by failing a Swim check, which makes it off-balance for a round, even if it has a neutral buoyancy and doesn't sink or rise.",
+			"",
+			"@HL[Tripping Underwater:] While flying creatures specifically can't be tripped, the Core Rulebook doesn't specify whether the same is true of swimming creatures. Being prone doesn't mean much for a swimming creature, so instead, a successful trip against a swimming creature forces that creature to attempt a Swim check at a DC equal to the result of the combat maneuver check to trip; failing the Swim check causes the creature to become off-balance. Many aquatic creatures can't be tripped or have a high Swim bonus and thus can always take 10, so this tactic isn't always effective, but when it is, it can make dexterous foes much easier to hit. However, being off-balance doesn't affect most of the target's attack rolls, and the target can regain its balance simply by succeeding at a Swim check to move on its next turn as normal."
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"aquatic_adventures_aa",
+			"fighting_underwater"
+		],
+		"siblings": [
+			"physical_attacks_underwater",
+			"off_balance_and_prone_underwater",
+			"freedom_of_movement",
+			"spells"
+		]
+	},
+	"freedom_of_movement": {
+		"name": "Freedom of Movement",
+		"subtitle": "Fighting Underwater, Aquatic Adventures",
+		"tags": "underwater combat",
+		"sources": [ "Aquatic Adventures" ],
+		"description": [
+			"{SOURCE Aquatic Adventures}  ",
+			"In addition to preventing a character from being grappled and several other nasty conditions, {spell/freedom of movement} enables the target to move and attack normally while underwater. Thus, a creature benefitting from freedom of movement can swing weapons without penalties (though objects that leave its possession, like thrown weapons or ammo from ranged weapons, lose this benefit), lift objects without drag, and walk along the bottom at full speed. The creature automatically succeeds at all Swim checks as the water offers no significant resistance to its movement. If the creature has the ability to do so, it can fly or use spells like {spell/air walk} to freely move around as if it were in air. Creatures who need just the movement benefits from freedom of movement without the benefits against grapple, paralysis, and magic effects that hinder movement should consider the lower-level spell {spell/free swim}."
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"aquatic_adventures_aa",
+			"fighting_underwater"
+		],
+		"siblings": [
+			"physical_attacks_underwater",
+			"off_balance_and_prone_underwater",
+			"freedom_of_movement",
+			"spells"
+		]
+	},
+	"spells": {
+		"name": "Spells",
+		"subtitle": "Fighting Underwater, Aquatic Adventures",
+		"tags": "underwater combat",
+		"sources": [ "Aquatic Adventures" ],
+		"description": [
+			"{SOURCE Aquatic Adventures}  ",
+			"While various spells have different effects underwater, the most fundamental hindrance to spellcasting, at least at low levels, is the fact that a creature holding its breath must succeed at a {rule/concentration} check (DC = 15 + spell level) to cast a spell at all, whether or not the spell has a verbal component. If the spell has a verbal component, expelling the air needed to incant the spell reduces the creature's remaining number of rounds of breath by 3 (which stacks with the reduction from performing a standard or full-round action; see the [Drowning section](rule/drowning_aa)), and a creature can't finish the spell if it doesn't have enough breath left. Spells that have verbal components and casting times of swift or immediate actions instead decrease the caster's remaining number of rounds of breath by 1.",
+			"",
+			"Mundane spell components generally work fine underwater as long as they're stored in watertight containers, and aquatic-appropriate substitutions exist for any mundane component that would be inherently impossible to use underwater. The Core Rulebook describes the effect of [fire spells underwater](rule/underwater_combat); some other spells exist that function differently.",
+			"",
+			"@HL[Acid Spells:] Conjuration (creation) spells that conjure nonmagical acid, like {spell/acid arrow}, don't work properly underwater, as the water dilutes the acid harmlessly. Evocation spells that deal magical acid damage, like a {spell/fireball} affected by the {feat/Elemental Spell} metamagic feat, work normally underwater.",
+			"",
+			"@HL[Cloud and Weather Spells:] Cloud spells such as {spell/fog cloud} and {spell/obscuring mist} specifically say that they don't work underwater, though the {feat/Murky Spell} metamagic feat can create equivalent mist spells underwater. Other spells that create weather that would be appropriate only on land, like {spell/ice storm} and {spell/sleet storm}, do not function underwater at all. {spell/Twilight haze}, however, is an illusion and thus works underwater.",
+			"",
+			"@HL[Cold Spells:] Spells that deal cold damage but don't normally conjure ice, like {spell/cone of cold}, instead deal half cold damage and half piercing damage, as the cold creates jagged ice shards underwater. This has no effect on spells that already create ice, rather than just cold damage.",
+			"",
+			"@HL[Electricity Spells:] While normal electricity, such as that from a natural thunderstorm, tends to disperse in all directions underwater, magical electricity spells hold their integrity enough to have normal effects underwater, with one exception: visible and audible lightning bolts and sparks are the result of combusted air, and they don't happen underwater. Because of this, creatures that fail to identify an electricity spell that requires a ranged touch attack are flat-footed against the first such ranged touch attack during a fight, as they don't realize they need to dodge the invisible projectile (unless they otherwise have reason to expect it, like a spellcaster who can cast such spells). This doesn't apply to melee touch spells like {spell/shocking grasp}, since the creature can still see the spellcaster's hand moving towards it.",
+			"",
+			"@HL[Fire Spells:] While normal fire (including alchemist's fire) and most supernatural fire can't burn underwater at all, fire spells have a chance to transform into steam instead. Whenever you cast a fire spell underwater, you must succeed at a caster level check (DC = 20 + the spell's level) in order to channel the heat into the water and create steam, dealing the same amount of fire damage as normal but without secondary effects of fire, like igniting combustibles. A fire spell must be either entirely steam or entirely fire, which means that if it covers an area that would normally extend beyond the water's surface, you must choose whether to affect the region above the water or below, and the surface blocks line of effect for the rest of the spell. A spell or spell-like ability with the fire descriptor that already creates steam (like a {class/kineticist/'s} steam blast) doesn't require the caster level check to create steam; only spells that would normally create an actual fire require the check. The {feat/Steam Spell} metamagic feat makes it easier to cast fire spells underwater.",
+			"",
+			"@HL[Invisibility:] Underwater, an invisible creature still displaces water, making it possible to spot and target it as if it had only {rule/concealment}, as per the description of {spell/invisibility}. The {spell/invisibility bubble} series of spells hide the displaced water and thus allow effective invisibility underwater.",
+			"",
+			"@HL[Sonic Spells:] While sound travels four times faster and farther in water than air, it also takes more energy to do so, so in the end sonic spells have the same results underwater as they do on land. At the GM's discretion, a spellcaster can choose to instead double the range or area, halve the damage, and decrease the DC by 2 for sonic attacks."
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"aquatic_adventures_aa",
+			"fighting_underwater"
+		],
+		"siblings": [
+			"physical_attacks_underwater",
+			"off_balance_and_prone_underwater",
+			"freedom_of_movement",
+			"spells"
+		]
+	},
+	"underwater_hazards_and_features": {
+		"name": "Underwater Hazards and Features",
+		"subtitle": "Aquatic Adventures, Specific Campaigns",
+		"sources": [ "Aquatic Adventures" ],
+		"description": [
+			"{SOURCE Aquatic Adventures}  ",
+			"In addition to the ways in which being underwater affects normal actions, an underwater environment presents a variety of special dangers and features that can prove hazardous to surface-dwellers and aquatic creatures alike."
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"aquatic_adventures_aa"
+		],
+		"subtopics": [
+			"drowning_aa",
+			"oceanic_zones",
+			"currents_and_running_water",
+			"whirlpools"
+		],
+		"siblings": [
+			"swimming_and_aquatic_adventures",
+			"fighting_underwater",
+			"underwater_hazards_and_features"
+		]
+	},
+	"drowning_aa": {
+		"name": "Drowning",
+		"subtitle": "Aquatic Adventures, Specific Campaigns",
+		"sources": [ "Aquatic Adventures" ],
+		"description": [
+			"{SOURCE Aquatic Adventures}  ",
+			"Drowning is one of the most obvious dangers of underwater adventuring. As creature can typically hold its breath for a number of rounds equal to twice its Constitution score. Whenever a creature takes a standard or full-round action, it expends 1 additional round of breath, so practically speaking, if a creature wants to fight or double move each round, it can do so only for a number of rounds equal to its Constitution score. Intentionally exhaling breath expends 1 to 3 rounds for each exhaling action - generally 1 round for a small exhalation, and 3 rounds for an extended exhalation like singing a song or casting a spell. Certain magic, like the {spell/suffocation} spell, can expel all of a creature's held breath.",
+			"",
+			"Once a creature has used up these rounds of safety, it lives on a knife's edge between life and death. Each round, the creature must succeed at a Constitution check, with a DC starting at 10 and increasing by 1 each round after the first. Once it fails this check, the creature begins to drown, falling unconscious (and dropping to 0 hit points if it currently had more), dropping to -1 hit points on the next round, and dying on the round after that. At any point, if the creature becomes able to breathe (perhaps because someone dragged it out of the water or cast a spell to assist it), it ceases drowning but doesn't regain any lost hit points. Note that if a creature holds its breath in a situation where it could normally breathe, it won't fall unconscious if it fails its Constitution check.",
+			"",
+			"Because of the prohibitive limitations of holding one's breath, underwater explorers from the surface use a variety of techniques to extend their ability to breathe underwater. The most common is {spell/water breathing}, which is extremely long-lasting and can protect an entire group with one casting. A simpler, short-term solution is {spell/air bubble}, which can protect a single creature for a few minutes - but not usually enough for an underwater adventure. The most powerful option is {spell/life bubble}; while its duration is half that of water breathing, it also protects against many other underwater hazards such as extreme temperature and pressure. Those who prefer a mundane alternative to ephemeral (and dispellable) magic tend to use {eq-misc/air tank/s} to store additional air, but characters hoping to stay underwater find that carrying around more than a few extra breaths of air sets their buoyancy to swiftly rising, almost like wearing a giant life preserver, so this solution is effective only for a strong swimmer or someone with access to magic to alter buoyancy."
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"aquatic_adventures_aa",
+			"underwater_hazards_and_features"
+		],
+		"siblings": [
+			"drowning_aa",
+			"oceanic_zones",
+			"currents_and_running_water",
+			"whirlpools"
+		]
+	},
+	"oceanic_zones": {
+		"name": "Oceanic Zones",
+		"subtitle": "Aquatic Adventures, Specific Campaigns",
+		"sources": [ "Aquatic Adventures" ],
+		"description": [
+			"{SOURCE Aquatic Adventures}  ",
+			"The ocean is divided into four zones: the sunlight zone (from the surface to 600 feet below), the twilight zone (from 600 feet down to 3,300 feet), the midnight zone (from 3,300 feet down to 13,000 feet - which often reaches the bottom), and the Abyssal zone (from 13,000 feet to the bottom in depths greater than 13,000 feet). Some oceanographers add a fifth zone, the Abaddonian zone, which describes areas 20,000 feet and below in the deepest ocean trenches.",
+			"",
+			"@HL[Pressure:] Most aquatic creatures have adapted to depths corresponding roughly to one or more of these zones in particular, and ignore pressure damage while within their native depth range unless they instantaneously transport from one depth to another, as with {spell/dimension door}. [Pressure damage rules are found here.](rule/water_dangers) Surface creatures, on the other hand, treat depths of 0 to 100 feet as their native zone. For every minute spent below their native zone, a creature must succeed at a Fortitude save or take 1d6 points of damage, plus an additional 1d6 points of damage for every additional 100 feet beyond the first. The DC is initially 15, and it increases by 1 for every minute after the first. After five successful Fortitude saves (consecutive or not), the creature adapts to the pressure. If a creature is within its native depth range but experiencing pressure dangers due to instantaneous travel, this adaptation to the new pressure happens all at once. If the creature is outside its native range, this adaptation adjusts its native range down or up by 100 feet, as appropriate. A surface dweller swimming downward may adapt to the new depth, but will then experience pressure hazards when it ascends back to the surface.",
+			"",
+			"For instance, if Valeros swims down 220 feet, he is 120 feet outside his native range of 0 to 100 feet, so he needs to attempt a Fortitude save every minute to avoid taking 2d6 points of damage. If he succeeds at five Fortitude saves, his native range shifts to 100-200 feet, and he must attempt Fortitude saves to avoid taking 1d6 points of damage each minute. After five more successful Fortitude saves, his native range is now 200-300 feet, and he takes no further damage from pressure, but if he ascends back to the surface, he must resume attempting Fortitude saves to avoid taking 2d6 points of damage from the reversing pressure. Because of the dangers of changing pressure, aquatic explorers find it safest to adjust their depth gradually unless they have special means of avoiding pressure hazards. Spells like {spell/freedom of movement} and {spell/life bubble} prevent pressure damage. {spell/Pressure adaptation} and {spell/stabilize pressure} are more focused and lower-level options.",
+			"",
+			"@HL[Temperature:] Immersion in water can cause hypothermia in land-dwelling creatures at temperatures that would normally be perfectly safe on land. Generally, creatures in water that is 80&deg; F or higher are safe from hypothermia. Water from 60&deg; to 80&deg; F is equivalent to cold weather (a creature must succeed at a Fortitude save each hour to avoid taking 1d6 points of nonlethal cold damage; [see here](rule/cold_dangers) for information on determining the DC). Water from 40&deg; to 60&deg; F functions like severe cold (a creature must succeed at a Fortitude save every 10 minutes to avoid taking 1d6 points of nonlethal cold damage). Water from 32&deg; to 40&deg; F acts as extreme cold (dealing an automatic 1d6 points of lethal cold damage each minute). Water below 32&deg; F (which is generally possible only in areas with high levels of salt) deals an automatic 2d6 points of lethal cold damage per minute.",
+			"",
+			"Sea creatures are adapted to the water temperature in their native zones. The {spell/endure elements} spell protects its target from water as cold as 32&deg; F (rather than -50&deg; F in air), which is generally enough to cover temperature extremes in the ocean. By contrast, water rarely becomes warm enough to provide heat dangers except in the presence of a hazard like a hydrothermal vent, as even the most extreme temperatures in the sunlight zone tend to cap at around 104&deg; F.",
+			"",
+			"@HL[Sunlight Zone:] The sunlight zone contains all aquatic plants that require light for photosynthesis, so it's home to both phytoplankton and seaweed. It's also the home of most marine mammals, many sharks, some jellyfish, and most of the fish familiar to fisherfolk. The visibility estimates in the {skill/Perception} rules assume sufficient light levels (or a means of seeing in the dark), which are typically present only in the sunlight zone. The water temperature in the sunlight zone varies based on the surface conditions, anywhere from over 100&deg; F to below 30&deg; F.",
+			"",
+			"@HL[Twilight Zone:] In the twilight zone, only about 1% of the light from the surface remains: not enough for photosynthesis. This also isn't enough light for a creature with normal vision to see, but creatures with low-light vision can still see to a distance of around 60 feet as though in dim light. Many creatures living in this zone either have darkvision or rely on precise senses other than sight to guide them, while others are bioluminescent. Roughly 90% of Golarion's fish live in this zone. The temperature in the twilight zone ranges from about 68&deg; F at the top to around 39&deg; F at the bottom, with very few variations at any given depth.",
+			"",
+			"@HL[Midnight Zone:] The midnight zone has no light whatsoever from the surface, requiring darkvision or nonvisual senses for any creature that doesn't have its own source of light. Fueled by the detritus that sinks from above, many types of {monster/squid/s} and {monster/octopus/es} and some {monster/kraken/s} live in this zone, along with some large {monster/whale/s} and other creatures of the deep, but it's harder for fish to survive here. The temperature in the midnight zone is generally 39&deg; F throughout. The midnight zone usually extends to the bottom.",
+			"",
+			"@HL[Abyssal Zone:] In regions where the ocean floor is more than 13,000 feet below the surface, the Abyssal zone lurks beneath the midnight zone, a region that's dark and cold even compared to the midnight zone, and devoid of even the falling detritus scavenged by midnight zone denizens. Named for {rule/the Abyss}, this zone contains unnatural and horrific creatures mixed in with other fauna. {monster/Giant squid/s}, krakens, and other tentacled horrors thrive in this zone, despite the 35&deg; to 39&deg; F temperature. Other creatures congregate around the warmth of the zone's hydrothermal vents, gaining nourishment from the vents' expulsions.",
+			"",
+			"@HL[Abaddonian Zone:] Some scholars, particularly among deep-sea races, utter dark whispers of a fifth and final zone that exists only in the depths of the deepest ocean trenches, over 20,000 feet below the water's surface. Supposedly, pressures over 1,000 times that of the surface world, combined with low temperatures and ambient magic, create within these trenches a nightmarish tableau that hardly seems it could exist on the Material Plane. Amorphous creatures like jellyfish, sea cucumbers, and tube worms cling to life in this inhospitable environment, eking out a life amidst beings of unfathomable malevolence. While scholars have funded expeditions to gather information on the Abaddonian zone, there are few, if any, survivors to give their accounts of those expeditions, and certainly none who remained sane."
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"aquatic_adventures_aa",
+			"underwater_hazards_and_features"
+		],
+		"siblings": [
+			"drowning_aa",
+			"oceanic_zones",
+			"currents_and_running_water",
+			"whirlpools"
+		]
+	},
+	"currents_and_running_water": {
+		"name": "Currents and Running Water",
+		"subtitle": "Aquatic Adventures, Specific Campaigns",
+		"sources": [ "Aquatic Adventures" ],
+		"description": [
+			"{SOURCE Aquatic Adventures}  ",
+			"Currents in the ocean (or a similarly large body of water) work similarly to [rivers](rule/aquatic_terrain). Each current has a particular speed (measured in feet per round), width, and direction, and at the beginning of a creature's turn, the current pushes it that distance. This movement provokes attacks of opportunity to creatures not in the same current. A creature can try to swim against the current's flow on its turn to stay in place, but it's usually a better idea to swim perpendicular to the current to reach the edge and exit the current. Fortunately, while rivers can reach speeds up to 90 feet per round, the fastest natural ocean currents are usually not much faster than 50 feet per round in the sunlight zone, and are slower the deeper one travels. This is because currents are mainly influenced by the weather near the surface and tiny discrepancies in temperature far below the surface, and the effects of the latter are not as strong. Currents always count as at least rough water ({skill/Swim} DC 15), and faster currents count as at least stormy water (Swim DC 20).",
+			"",
+			"The majority of the ocean does not count as running water, but currents do. Thus while the spell {spell/locate creature} functions underwater, it rarely extends to its full range, since even an extremely slow current blocks the spell. Likewise, {template/vampire/s} tempt fate in the ocean by exposing themselves to the risk of an unexpected current."
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"aquatic_adventures_aa",
+			"underwater_hazards_and_features"
+		],
+		"siblings": [
+			"drowning_aa",
+			"oceanic_zones",
+			"currents_and_running_water",
+			"whirlpools"
+		]
+	},
+	"whirlpools": {
+		"name": "Whirlpools",
+		"subtitle": "Aquatic Adventures, Specific Campaigns",
+		"sources": [ "Aquatic Adventures" ],
+		"description": [
+			"{SOURCE Aquatic Adventures}  ",
+			"When currents flowing in opposite directions meet, they create a whirlpool. Most whirlpools are harmless, but some mighty maelstroms formed by powerful tides are capable of great destruction. The most powerful whirlpools can reach a maximum current speed of around 200 feet per round, spinning in a circle and generating a centripetal force to pull nearby creatures and objects into the whirlpool and prevent those caught in the whirlpool from leaving. Whirlpool movement doesn't normally provoke attacks of opportunity, because no one caught in the current is in a position to make one.",
+			"",
+			"Conditions are so rough in maelstroms that Swim checks reach DC 40 or higher. Creatures caught in a whirlpool take 1d6 points of bludgeoning damage per round for every 50 feet of the whirlpool's speed. Sometimes the only way to survive a whirlpool is to reach the center, since - unlike when a water elemental creates and controls a whirlpool with mischief in mind - a natural whirlpool eventually drags its captives to the bottom and out."
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"aquatic_adventures_aa",
+			"underwater_hazards_and_features"
+		],
+		"siblings": [
+			"drowning_aa",
+			"oceanic_zones",
+			"currents_and_running_water",
+			"whirlpools"
+		]
+	},
+	"intrigue_systems": {
+		"name": "Intrigue Systems",
+		"subtitle": "Specific Campaigns",
+		"sources": [ "Ultimate Intrigue" ],
+		"description": [
+			"{SOURCE Ultimate Intrigue/98}",
+			"",
+			"Any adventure can contain elements of intrigue, and even the most combat-filled dungeon crawl often benefits from breaking up the action with more nuanced encounters as a change of pace. Because it's less confrontational than physical combat, intrigue acts as a counterpoint to battles, and serves to highlight and strengthen a campaign's high-octane moments, helping tension to build slowly and naturally and creating satisfying storytelling moments.",
+			"",
+			"All references to \"an intrigue-based game\" in the following topics apply to a game that incorporates any amount of intrigue, from one with a splash of deviousness to a full-on political thriller.",
+			"",
+			"@HL[Influence:] This rules system measures how characters gain {rule/influence} and reputation with various organizations. Rather than boiling a social interaction down to just a skill check or two, influence creates a back-and-forth that plays out over a longer scene. It provides concrete rewards for engaging with such groups, which can be customized to fit your game.",
+			"",
+			"@HL[Heists:] This sections presents tips on organizing and running {rule/heists}, such as running a con or penetrating a set of complex defenses to steal an object, rescue a person, or attain some other goal. This section also discusses the similar topic of infiltration.",
+			"",
+			"@HL[Leadership:] Expanding upon the {feat/Leadership} feat, this section offers ways to incorporate {rule/leadership} into the game so the PCs can attract hirelings and other followers. Discover advice on how leadership works in an intrigue-based game, and the role that cohorts and followers can take on in such campaigns.",
+			"",
+			"@HL[Nemeses:] To amp up the dramatic thrusts and parries of an adversarial relationship, the [nemesis system](rule/nemeses) adds nasty stratagems an enemy can employ against the party. This section also includes suggestions for how to escalate the animosity, as well as specific strategies and XP rewards.",
+			"",
+			"@HL[Pursuit:] For long-lasting chases that take several days, these new {rule/pursuit} rules make the back-and-forth of such engagements fun and strategic, offering opportunities to gain edges over your pursuers or quarries.",
+			"",
+			"@HL[Research:] Obscure information lies hidden within great libraries and other repositories of knowledge. The {rule/research/ system} gives a procedure for digging into the ancient tomes and gleaning those rare pieces of information.",
+			"",
+			"@HL[Spells of Intrigue:] Many spells cause problems with an intrigue-based game by enabling characters to easily detect lies, charm creatures who have needed knowledge, or otherwise bypass social interactions. [This section](rule/spells_of_intrigue) talks about these spells both in general terms and in specifics for certain prominent spells."
+		],
+		"parent_topics": [ "gm_specific_campaigns" ],
+		"subtopics": [
+			"intrigue_elements",
+			"intrigue_themes"
+		],
+		"siblings": [
+			"aquatic_adventures_aa",
+			"horror_rules",
+			"intrigue_systems",
+			"kingdoms_and_war",
+			"mythic_rules",
+			"occult_rules",
+			"planar_adventures",
+			"the_first_world",
+			"technological_equipment"
+		]
+	},
+	"intrigue_elements": {
+		"name": "Intrigue Elements",
+		"subtitle": "Specific Campaigns",
+		"sources": [ "Ultimate Intrigue" ],
+		"description": [
+			"{SOURCE Ultimate Intrigue/98}",
+			"",
+			"The following elements are ingredients that can help add intrigue to your game. You can use a single element to introduce complications into an otherwise low-intrigue game or session, or put several of them together to weave a complex web of intrigue throughout your campaign.",
+			"",
+			"Even a group that's primarily involved in dungeon-delving might get embroiled in a power struggle back in the town where they make their home base, or be stuck between two rivals who attempt to use the PCs as cat's-paws. In a campaign that uses just one element for a bit of flavor, it's important to incorporate that element on a regular basis - but not necessarily every session."
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"intrigue_systems"
+		],
+		"subtopics": [
+			"relationships_and_loyalty",
+			"measure_and_countermeasure",
+			"the_importance_of_appearances",
+			"bargains_and_compromise",
+			"the_power_of_secrets"
+		],
+		"siblings": [
+			"intrigue_elements",
+			"intrigue_themes"
+		]
+	},
+	"relationships_and_loyalty": {
+		"name": "Relationships and Loyalty",
+		"subtitle": "Intrigue, Specific Campaigns",
+		"sources": [ "Ultimate Intrigue" ],
+		"description": [
+			"{SOURCE Ultimate Intrigue/98}",
+			"",
+			"In an intrigue-based game, interpersonal relationships are spotlighted, and serve a variety of different roles and purposes. The way that people's reactions and feelings change with time and interaction is central to the plot in such a game, rather than something to ignore or skip through with a single roll. Relationships and loyalty can make their marks in a campaign in many ways.",
+			"",
+			"@HL[Non-monetary Rewards:] Relationships with other characters and the perks and privileges granted by those relationships are fundamental rewards, equally or even more valuable than simple coin. The right friends can grant access to social events, give gifts, provide information, make problems go away, or perform various other favors on a character's behalf. Sometimes, a friendship can blossom into something more, and that can be its own reward.",
+			"",
+			"@HL[Loyalties and Tension:] All characters have their own agenda and loyalties, even those allied with the PCs. Characters act and respond to the events in the world around them in ways that serve their interests and match their worldviews. Some of the tension in such games comes from the uncertainty of how others will act, particularly at a decisive moment when conflicting loyalties clash. Can the PC thieves trust their friend in the guard not to crack when her commanding officer puts pressure on her, or will she reveal what she knows? Will the princess the PCs assisted in gaining the throne keep her promise to the PCs to grant asylum to witches now that she's queen, or will she backpedal to the more popular stance when the dukes threaten to secede? Will a PC's steward cave to the crime boss's threats against his kidnapped family and secretly embezzle from the PCs, or will he inform them and risk his family?",
+			"",
+			"How NPCs react in these high-pressure situations also serves to characterize and humanize them. If an NPC sides with the PCs in any of these example situations, that NPC has made a powerful demonstration of loyalty to the PCs. If the PCs have been earning that loyalty as a reward, it will serve as reinforcement of the PCs' accomplishments. Either way, it's likely to impress the PCs and bring them closer to the NPC. Even if the NPC buckles, it doesn't make her a villain, and it could catapult her role into that of a reluctant adversary to the PCs with significant pathos.",
+			"",
+			"@HL[Betrayal:] In contrast to a former ally being forced by circumstances and conflicting loyalties to act against the PCs' interests, nothing inspires hatred for an NPC quite like a good old-fashioned betrayal. Whether it's an NPC who hires the PCs under false pretenses as a means of setting them up or a seeming ally who is providing information to the enemy, a traitor ups the stakes and provides a powerful emotional response.",
+			"",
+			"Of course, betrayal is much more interesting if it's the exception, rather than the rule. If NPCs betray the PCs too often, you undermine the campaign's focus on relationships by making the PCs regret the efforts they took to build up alliances with NPCs and earn their loyalty. The exception to this guideline is in a grittier, more cynical game where alliances are necessary to even survive but betrayal is the status quo. When you're running such a game, it is critical that the players know this in advance, or at least shortly after the first time they deal with the cynical and treacherous aspects of society. Even in such games, though the possibility of betrayal is ubiquitous and constantly on both the players' and characters' minds, not every relationship should end in betrayal, or it quickly loses its impact.",
+			"",
+			"@HL[Hierarchies:] Hierarchies are a structured system of loyalties, whether political, social, military, or another sort entirely. Progression up a hierarchy is a great way to track the non-monetary rewards in an intrigue-based game. Hierarchies are also an excellent source of interesting plotlines and conflicting loyalties, from either direction on the hierarchy. Becoming a member of a hierarchy gives PCs a strong sense of belonging and reason to take actions and pursue an intrigue adventure. Enemies operating within a hierarchy make great opponents, as their membership in the hierarchy can be alternately a source of strength and a vulnerability. If the enemy and a PC are both members of the same hierarchy, things can become particularly interesting, as both characters are empowered and constrained by their places in the system."
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"intrigue_systems",
+			"intrigue_elements"
+		],
+		"siblings": [
+			"relationships_and_loyalty",
+			"measure_and_countermeasure",
+			"the_importance_of_appearances",
+			"bargains_and_compromise",
+			"the_power_of_secrets"
+		]
+	},
+	"measure_and_countermeasure": {
+		"name": "Measure and Countermeasure",
+		"subtitle": "Intrigue, Specific Campaigns",
+		"sources": [ "Ultimate Intrigue" ],
+		"description": [
+			"{SOURCE Ultimate Intrigue/99}",
+			"",
+			"In intrigue-themed games, adversaries engage in clandestine activities and seek to prevent each other's actions. Just like in the real world, the invention of new measures and countermeasures leads to secretive and escalating clashes that roil under the surface, as each side seeks to exploit the other's vulnerabilities or shore up its own. In a fantasy world, these advancements can be both magical and mundane, from a new way of encoding information to a spell that bypasses the enemy's security. In this regard, it can be fun to include new spells, perhaps from an obscure spellbook, or even invented by a PC. After the PCs' adversaries catch on, though, they eventually devise a counter for it, and the cycle continues.",
+			"",
+			"Be careful when using this element. Ideally, you want to have the PCs' adversaries participate in this intrigue arms race at about the same pace as the PCs do so that they seem like credible rivals, rather than incompetent pushovers. If the PCs aren't interested in this aspect at all, though, don't have the NPCs keep escalating. This advice is even true for the basic spells from the Pathfinder RPG Core Rulebook. The PCs and the precautions they take and expect are a bellwether of the approximate precautions the NPCs should be taking.",
+			"",
+			"The exception is when trying to introduce the notion of measures and countermeasures to a play group that doesn't typically use them or that consists of new players who aren't familiar with all the spells and tools at their disposal. For such a group, the first time they learn about using basic countermeasures might be when an NPC has used them. For example, say the PCs begin an investigation of a crime at the request of an NPC; the NPC could start by telling the PCs what investigative measures he has already taken - and thus what countermeasures he suspects the perpetrator might have used. This introduces the PCs to those measures and countermeasures seamlessly as an established element of the game world, rather than an obstacle that comes out of the blue during play. With this sort of introduction planned, you can design a plot revolving around bypassing or exploiting those countermeasures from the outset."
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"intrigue_systems",
+			"intrigue_elements"
+		],
+		"siblings": [
+			"relationships_and_loyalty",
+			"measure_and_countermeasure",
+			"the_importance_of_appearances",
+			"bargains_and_compromise",
+			"the_power_of_secrets"
+		]
+	},
+	"the_importance_of_appearances": {
+		"name": "The Importance of Appearances",
+		"subtitle": "Intrigue, Specific Campaigns",
+		"sources": [ "Ultimate Intrigue" ],
+		"description": [
+			"{SOURCE Ultimate Intrigue/99}",
+			"",
+			"In some games, success and failure are measured in the court of public opinion, and appearing to be a certain way is often more important than being that way. This leads to plenty of deception and betrayal, and can also lead to wars of popular belief, wherein both sides seek to paint the other as evil and subjective opinions hold sway over the truth of the matter. In these situations, it is important to be able to keep up appearances, which is a key skill set in an intrigue-focused adventuring party. The necessity of appearances often restricts certain actions a group can take, resulting in indirect, discreet, and unusual tactics, rather than rushing into an adversary's home and annihilating everyone with steel and spells. Using social pressure to restrict the actions under consideration is a great way to highlight the varied skills and abilities of each party member, as long as these restrictions make sense and fit into the way the situation is structured. For instance, if the PCs want to help the evil duke's younger sister stir up dissent against the duke by proving that the duke was guilty of murdering his majordomo, murdering the duke's loyal retainers and new majordomo would make the PCs look hypocritical (as well as like desperate maniacs), and so isn't a wise tactic. Similarly, if a certain type of magic, such as necromancy or compulsions, is illegal in a society, then it makes sense that the PCs must use those tactics sparingly to avoid their deeds being overshadowed by their unlawful uses of magic."
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"intrigue_systems",
+			"intrigue_elements"
+		],
+		"siblings": [
+			"relationships_and_loyalty",
+			"measure_and_countermeasure",
+			"the_importance_of_appearances",
+			"bargains_and_compromise",
+			"the_power_of_secrets"
+		]
+	},
+	"bargains_and_compromise": {
+		"name": "Bargains and Compromise",
+		"subtitle": "Intrigue, Specific Campaigns",
+		"sources": [ "Ultimate Intrigue" ],
+		"description": [
+			"{SOURCE Ultimate Intrigue/100}",
+			"",
+			"In a campaign revolving around physical combat between good and evil, there's little room for compromise. But in an intrigue-based game, where each character acts according to her interests and loyalties, there comes a point where the writing is on the wall, at which a reasonable opponent offers a bargain rather than follow the struggle all the way through to destruction. These compromises might even offer the PCs more than they would get for destroying their foe, while allowing the foe to keep what's most important to her. In most campaigns, the PCs are going to win, but this sort of offer is a great opportunity for the PCs to establish their priorities and make a real decision about how they win. For example, suppose the PCs have a main goal of emancipating enslaved halflings, and during this conflict, the proslavery faction bribes an influential magistrate to make life difficult for the PCs. The PCs are able to turn the tables and discover damning evidence that could destroy the magistrate's career forever, so the magistrate offers the PCs a deal: if they withhold the evidence and allow her to keep her job, she'll use her influence to assist in halfling emancipation and give the PCs a strong advantage. Can the PCs trust her? Which is stronger, their desire to help the halflings, or their desire to see the magistrate get her just desserts?"
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"intrigue_systems",
+			"intrigue_elements"
+		],
+		"siblings": [
+			"relationships_and_loyalty",
+			"measure_and_countermeasure",
+			"the_importance_of_appearances",
+			"bargains_and_compromise",
+			"the_power_of_secrets"
+		]
+	},
+	"the_power_of_secrets": {
+		"name": "The Power of Secrets",
+		"subtitle": "Intrigue, Specific Campaigns",
+		"sources": [ "Ultimate Intrigue" ],
+		"description": [
+			"{SOURCE Ultimate Intrigue/100}",
+			"",
+			"Secrets are powerful in any Pathfinder game, even ones entirely focused on combat, since discovering secrets enables characters to learn an enemy's strengths and weaknesses and plan accordingly. However, when you're using intrigue in your game, secrets are even more significant. In fact, a truly powerful secret can be a far greater reward than even a dragon's hoard. Secrets are tied into all the other elements of an intrigue-based game. They can destroy relationships and change loyalties, often to the advantage of the one who holds or releases the secret. Disclosing a secret can shatter someone's false appearance. For instance, no matter how high the PCs roll on Diplomacy, their words alone can't persuade the kind and faithful queen to help assassinate or oust her husband, an evil king who has convinced everyone - even his wife, whom he truly loves - that he is a good man. But if the PCs expose the king's dark secrets in a convincing way, then pull off a skilled effort to influence the queen, they just might succeed. Secrets are also part and parcel of blackmail plots, which can lead to fascinating bargains and backroom deals. Of course, though using extortion might earn you an ally of sorts, such alliances are built on ill will. Because of the dangers of leaked secrets, protecting secrets is a main impetus of the arms race of measures and countermeasures mentioned earlier. And, of course, sometimes the most dangerous thing a character can do is discover a secret that someone powerful doesn't want anyone to know."
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"intrigue_systems",
+			"intrigue_elements"
+		],
+		"siblings": [
+			"relationships_and_loyalty",
+			"measure_and_countermeasure",
+			"the_importance_of_appearances",
+			"bargains_and_compromise",
+			"the_power_of_secrets"
+		]
+	},
+	"intrigue_themes": {
+		"name": "Intrigue Themes",
+		"subtitle": "Specific Campaigns",
+		"sources": [ "Ultimate Intrigue" ],
+		"description": [
+			"{SOURCE Ultimate Intrigue/100}",
+			"",
+			"If intrigue elements are ingredients, then the following intrigue themes are sample recipes that combine those components in various specific ways, opening the door to adventures and campaigns that delve deeper into the world of intrigue than ones that contain a mere sprinkling of elements here and there."
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"intrigue_systems"
+		],
+		"subtopics": [
+			"a_game_of_nobles",
+			"the_criminal_underworld",
+			"war_of_propaganda",
+			"law_and_order",
+			"ultimate_intrigue"
+		],
+		"siblings": [
+			"intrigue_elements",
+			"intrigue_themes"
+		]
+	},
+	"a_game_of_nobles": {
+		"name": "A Game of Nobles",
+		"subtitle": "Intrigue, Specific Campaigns",
+		"sources": [ "Ultimate Intrigue" ],
+		"description": [
+			"{SOURCE Ultimate Intrigue/100}",
+			"",
+			"Adventuring among the double-dealing and self-serving schemes of the nobility combines the Relationships and Loyalty, The Importance of Appearances, Bargains and Compromise, and The Power of Secrets elements. Whether the PCs start off as members of the nobility, guards and servants seeking to improve their status and fortune, illegitimate children hoping to claim their noble parents' titles, or simply adventurers hired by the wrong noble house, they quickly become tangled up in a tapestry of power and betrayal. In this theme, since the major players exercise great influence, the stakes are extremely high, allowing even lower-level PCs to become big movers and shakers as long as they are experts at playing along. When using this theme, it is understood that everyone has their own agendas and attempts to increase their personal standing, so self-serving actions are the status quo, whereas moments of true sacrifice and loyalty are rare and touching. With the shifting tides of politics, an enemy today can be a friend tomorrow, and it's likely that many characters will be neutral on the good/evil axis, or at least only mildly good or evil, muddying the waters and making the choice of whom to support less obvious."
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"intrigue_systems",
+			"intrigue_themes"
+		],
+		"siblings": [
+			"a_game_of_nobles",
+			"the_criminal_underworld",
+			"war_of_propaganda",
+			"law_and_order",
+			"ultimate_intrigue"
+		]
+	},
+	"the_criminal_underworld": {
+		"name": "The Criminal Underworld",
+		"subtitle": "Intrigue, Specific Campaigns",
+		"sources": [ "Ultimate Intrigue" ],
+		"description": [
+			"{SOURCE Ultimate Intrigue/100}",
+			"",
+			"Though it can benefit from the use of other elements, a campaign set in the criminal underworld is fundamentally built around the tensions from the Relationships and Loyalty, Measures and Countermeasures, and Bargains and Compromise elements. The importance of maintaining a positive public appearance keeps a noble from engaging in too many illicit activities, but a crime boss isn't limited in this way. In the criminal underworld, the relationships a character builds and her loyalties and reputations are the main things keeping her alive. Adventures exploring the criminal underworld tend to involve nongood PCs with a central goal of acquiring money and power. However, it is certainly possible to have a group of well-intentioned outlaws in the vein of Robin Hood fighting against a corrupt government or trying to aid the oppressed. In this case, navigating the criminal underworld is even more challenging and dangerous, as the PCs might find that their moral qualms make bargaining and building trust and reputations among other criminals more difficult.",
+			"",
+			"An engaging criminal campaign often involves heists, cons, and other underhanded antics. In these cases, the Measures and Countermeasures element rises to the forefront, and the PCs must scout adversaries' defenses and come up with a plan to circumvent them or exploit their flaws and weaknesses.",
+			"",
+			"In a campaign with this theme, the hidden world of criminals lurks under the surface of even the most harmless places and people. A benevolent group of healers who cross national borders to help cure disease outbreaks might contain an element that smuggles in illegal alchemical substances. A sheriff renowned for eliminating most of the gangs in a city might have been working under the patronage and assistance of the gang that stood to gain by taking over its rivals' territory and operations. The PCs, as people in the know, experience this secret underbelly wherever they go and live in this shadowy realm of murky morals. Even if they start with good intentions, it is easy for them to become cynical about the world around them."
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"intrigue_systems",
+			"intrigue_themes"
+		],
+		"siblings": [
+			"a_game_of_nobles",
+			"the_criminal_underworld",
+			"war_of_propaganda",
+			"law_and_order",
+			"ultimate_intrigue"
+		]
+	},
+	"war_of_propaganda": {
+		"name": "War of Propaganda",
+		"subtitle": "Intrigue, Specific Campaigns",
+		"sources": [ "Ultimate Intrigue" ],
+		"description": [
+			"{SOURCE Ultimate Intrigue/101}",
+			"",
+			"A campaign that features wars of propaganda and public opinion centers on The Importance of Appearance, flavored with the Bargains and Compromise and The Power of Secrets elements. In a game using this theme, the PCs seek to influence public opinion in a particular way. They might be political fixers who seek to improve their clients' image, or they might be lobbyists for a particular political movement attempting to build and garner support for that movement. Either way, the PCs become involved in managing information (particularly damaging secrets) and forging temporary bargains and alliances in order to further their cause. Unlike many other types of adventures that involve PCs discovering a secret and nefarious plot, in a propaganda war, the PCs must uncover and decide how to use damaging secrets about the opposite side. They must also bury their own secrets and those of their allies. Despite being politically damaging, these secrets usually arise from humanizing flaws or lapses in judgment in an otherwise respectable ally, rather than from the ally being actively nefarious. However, the PCs might have to make a hard choice if a legitimately despicable character offers them the support they need or retains their services. In a war of propaganda, social conflict is nearly a given, and since the battlefield is in the court of public opinion, influence and verbal duels are likely to play a part as well."
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"intrigue_systems",
+			"intrigue_themes"
+		],
+		"siblings": [
+			"a_game_of_nobles",
+			"the_criminal_underworld",
+			"war_of_propaganda",
+			"law_and_order",
+			"ultimate_intrigue"
+		]
+	},
+	"law_and_order": {
+		"name": "Law and Order",
+		"subtitle": "Intrigue, Specific Campaigns",
+		"sources": [ "Ultimate Intrigue" ],
+		"description": [
+			"{SOURCE Ultimate Intrigue/101}",
+			"",
+			"In a campaign where characters serve as part of the criminal justice system, such as detectives or lawyers, Measures and Countermeasures and The Power of Secrets are the two most important intrigue elements. Much like investigative or courtroom TV shows, games using this theme tend to be somewhat episodic in nature, with a \"mystery of the week\" or \"case of the week,\" though they still likely carry a significant plotline that keeps popping up over the course of the campaign.",
+			"",
+			"For a group of detectives, mysteries involve unraveling the holes in the criminals' countermeasures against detection, mirroring the way criminals seek to defeat the countermeasures defending their targets. Each mystery might draw the detectives deeper into a web of intrigue and connected plots, and they might be forced to make a hard decision when their investigations unearth disturbing truths about those around them.",
+			"",
+			"Lawyer characters often also dip into investigation as well, but they focus on finding the vulnerabilities in their opposition's case. A court proceeding before a magistrate or jury might involve one or more verbal duels between the attorneys, interspersed with investigation and interactions between the characters involved, with the case itself being a larger social conflict."
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"intrigue_systems",
+			"intrigue_themes"
+		],
+		"siblings": [
+			"a_game_of_nobles",
+			"the_criminal_underworld",
+			"war_of_propaganda",
+			"law_and_order",
+			"ultimate_intrigue"
+		]
+	},
+	"ultimate_intrigue": {
+		"name": "Ultimate Intrigue",
+		"subtitle": "Specific Campaigns",
+		"sources": [ "Ultimate Intrigue" ],
+		"description": [
+			"{SOURCE Ultimate Intrigue/101}",
+			"",
+			"In a campaign that fully embraces all the diverse elements of intrigue, all of the previous themes come together. On the one side, there are scheming nobles seeking to gain advantage, and on the other side, the underbelly of the criminal underworld, with people like political fixers, lobbyists, and law enforcement all caught in between - supporting, using, and being used in turn by both sides. The PCs must navigate these treacherous worlds, facing difficult decisions about how to deal with their divided loyalties or putting aside their differences to deal with a common threat. For instance, suppose that an evil duchess, eager to usurp the throne from her older brother, enlists the aid of a major crime family, offering magical assistance to the malefactors so that they can murder a series of nobles without leaving evidence. The party might consist of the unlikely alliance of the detective assigned to investigate the murders, the son of one of the murdered nobles, and the daughter of a rival crime boss. All three of them would be determined to traverse the web of intrigue for their own reasons, but each comes from such a different world that there's bound to be tension and conflict when those worlds collide. Each would have a different set of resources and contacts, all of which would be necessary to unearth the duchess's involvement and then cut through her lies and propaganda to prove what she did to the people and to her brother, the king."
+		],
+		"parent_topics": [
+			"gm_specific_campaigns",
+			"intrigue_systems",
+			"intrigue_themes"
+		],
+		"siblings": [
+			"a_game_of_nobles",
+			"the_criminal_underworld",
+			"war_of_propaganda",
+			"law_and_order",
+			"ultimate_intrigue"
+		]
+	}
+}
