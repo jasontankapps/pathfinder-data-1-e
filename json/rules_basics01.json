@@ -2601,7 +2601,7 @@
 			"",
 			"@HL[Extra Costs:] Any potion, scroll, or wand that stores a spell with a costly material component also carries a commensurate cost. For potions and scrolls, the creator must expend the material component cost when creating the item. For a wand, the creator must expend 50 units of the material component. Some magic items similarly incur extra costs in material components, as noted in their descriptions.",
 			"",
-			"@HL[Skill Check:] Successfully creating a magic item requires a Spellcraft check with a DC equal to 5 + the item's caster level. Alternatively, you can use an associated Craft or Profession skill to attempt this check instead, depending upon the item being crafted. See {rule/Magic Item Creation} for more details on which Craft and Profession checks may be substituted in this manner. The DC of this check can increase if the crafter is rushed or does not meet all of the prerequisites. A failed check ruins the materials used, while a check that fails by 5 or more results in a cursed item. See Magic Items for more details.",
+			"@HL[Skill Check:] Successfully creating a magic item requires a Spellcraft check with a DC equal to 5 + the item's caster level. Alternatively, you can use an associated Craft or Profession skill to attempt this check instead, depending upon the item being crafted. See {rule/Magic Item Creation} for more details on which Craft and Profession checks may be substituted in this manner. The DC of this check can increase if the crafter is rushed or does not meet all of the prerequisites. A failed check ruins the materials used, while a check that fails by 5 or more results in a cursed item.",
 			"",
 			"::h3[Metamagic Feats]{jl}",
 			"",

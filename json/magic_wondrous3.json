@@ -608,21 +608,26 @@
 			"**Requirements** {feat/Craft Wondrous Item}, {spell/animate rope}; **Cost** 3,600 gp"
 		]
 	},
-	"medalion_of_sar_gorog": {
-		"name": "Medalion of Sar-Gorog",
-		"sources": [ "Heaven Unleashed" ],
+	"medallion_of_sar_gorog": {
+		"name": "Medallion of Sar-Gorog",
+		"sources": [
+			"Heaven Unleashed",
+			"Ultimate Equipment",
+			"PRPG Core Rulebook"
+		],
 		"description": [
-			"## Medalion of Sar-Gorog",
+			"## Medallion of Sar-Gorog",
 			"",
 			"{SOURCE Heaven Unleashed/55}  ",
-			"**Aura** strong evil; **CL**  ",
+			"**Aura** faint conjuration, strong evil; **CL** 5th  ",
 			"**Slot** neck; **Price** 7,500 gp; **Weight** -;",
 			"",
 			"This {magic-wondrous/periapt of health} functions only for a wearer who has consumed at least 1 pound of humanoid flesh within the past week.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements**; **Cost** 3,750 gp"
+			"{SOURCE Ultimate Equipment/260;PRPG Core Rulebook/525}  ",
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/remove disease}; **Cost** 3,750 gp"
 		]
 	},
 	"periapt_of_health": {

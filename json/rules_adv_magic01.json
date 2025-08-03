@@ -2320,6 +2320,7 @@
 			"spellblights"
 		]
 	},
+	"magic_items_for_familiars_and_animal_companions": { "redirect": "magic_item_familiars_companions" },
 	"spellblights": {
 		"name": "Spellblights",
 		"subtitle": "Advanced Magic Topics",

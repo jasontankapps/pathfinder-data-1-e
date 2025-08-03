@@ -4358,5 +4358,39 @@
 			"",
 			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/feast of ashes}, {spell/lesser restoration}; **Price** 9,801 gp"
 		]
+	},
+	"sacrificial_knife_of_the_old_ones": {
+		"name": "Sacrificial Knife of the Old Ones",
+		"sources": [ "Heaven Unleashed" ],
+		"description": [
+			"## Sacrificial Knife of the Old Ones",
+			"",
+			"{SOURCE Heaven Unleashed/55}  ",
+			"**Aura** moderate conjuration, strong evil; **CL** 8th  ",
+			"**Slot** none; **Price** 8,302 gp; **Weight** 1 lb.",
+			"",
+			"When this curved +1 {eq-weapon/dagger} is used to perform a successful {misc/coup de grace} attack on a human, it gains the human-{magic-enh/bane} weapon special ability for the next 24 hours.",
+			"",
+			"### Construction",
+			"",
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/summon monster I}; **Price** 4,302 gp"
+		]
+	},
+	"weeping_scepter": {
+		"name": "Weeping Scepter",
+		"sources": [ "Heaven Unleashed" ],
+		"description": [
+			"## Weeping Scepter",
+			"",
+			"{SOURCE Heaven Unleashed/55}  ",
+			"**Aura** moderate abjuration, strong evil; **CL** 8th  ",
+			"**Slot** none; **Price** 12,912 gp; **Weight** 8 lbs.",
+			"",
+			"This {magic-weapon/mace of blood} functions as a +1 {magic-enh/wounding} {eq-weapon/heavy mace} rather than a +3 heavy mace. Its head resembles six twisted faces.",
+			"",
+			"### Construction",
+			"",
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/bleed}; **Cost** 6,612 gp"
+		]
 	}
 }
