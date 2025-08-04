@@ -23,6 +23,7 @@
 		],
 		"siblings": [
 			"diseases_and_poisons",
+			"catastrophes",
 			"exploration_ucp",
 			"discovery_and_exploration",
 			"duels",
@@ -348,6 +349,7 @@
 		],
 		"siblings": [
 			"diseases_and_poisons",
+			"catastrophes",
 			"exploration_ucp",
 			"discovery_and_exploration",
 			"duels",
@@ -699,6 +701,7 @@
 		],
 		"siblings": [
 			"diseases_and_poisons",
+			"catastrophes",
 			"exploration_ucp",
 			"discovery_and_exploration",
 			"duels",
@@ -1298,6 +1301,7 @@
 		],
 		"siblings": [
 			"diseases_and_poisons",
+			"catastrophes",
 			"exploration_ucp",
 			"discovery_and_exploration",
 			"duels",
@@ -1425,6 +1429,7 @@
 		],
 		"siblings": [
 			"diseases_and_poisons",
+			"catastrophes",
 			"exploration_ucp",
 			"discovery_and_exploration",
 			"duels",
@@ -1699,6 +1704,7 @@
 		],
 		"siblings": [
 			"diseases_and_poisons",
+			"catastrophes",
 			"exploration_ucp",
 			"discovery_and_exploration",
 			"duels",
@@ -2225,6 +2231,397 @@
 			"wind_uw",
 			"cloud_cover",
 			"severe_events"
+		]
+	},
+	"catastrophes": {
+		"name": "Catastrophes",
+		"subtitle": "Advanced GM Topics",
+		"sources": [ "Pathfinder #30: The Twice-Damned Prince" ],
+		"description": [
+			"{SOURCE Pathfinder #30: The Twice-Damned Prince/56}  ",
+			"Above the chaos of the wilds and savage frontiers, cities stand as bastions of order. With the sheer number of people crowded into such areas, method and routine prove essential to daily life. Yet even in the best-governed communities, circumstances rise that threaten to throw the balance of these places into chaos. Be such incidents natural, political, or magical, the tenuous grip of civilization breaks swiftly, leaving the fates of thousands adrift in the face of catastrophe.",
+			"",
+			"Faceless threats, the dangers of ruin, flame, and flood sow devastation as surely and wantonly as any rampaging monster, and prove all the more difficult to slay. Lives tinged by the illusion of control crumble in the face of such onslaughts, disasters having their way even in the face of the most desperate defenses. In the end, only time, luck, or the rare godlike act ends such tragedies, leaving survivors to wonder if it's even worth rebuilding their lives. Such calamities might come about in a variety of ways. Natural disasters account for the most unexpected and typically most ruinous of such collapses. Unpredictable earthquakes might reduce whole regions to rubble. A simple lightning strike can spark an enormous fire that spreads and encompasses several blocks. Excess water from unusually heavy rains or tropical storms can overflow and cause buildings to flood.",
+			"",
+			"The Pathfinder RPG Core Rulebook presents several tools for allowing GMs to handle issues of mass devastation, from hurricanes to forest fires, cave-ins to cold weather. Expanding on the environmental hazards presented in {rule/Gamemastery} (all articles starting with the Dungeon section), this article adds new rules systems for handling a variety of hazards, specifically those that might affect urban centers as the result of civil unrest or environmental threat. It's one thing to be caught in a flood, but quite another to face waters rising within a cramped basement, and fires prove all the deadlier when they bring down whole buildings as terror-stricken victims race for escape. This article seeks to address such dangers by expanding three environmental threats.",
+			"",
+			"@HL[Collapse:] The system presented herein offers methods of handling falling buildings in a game, aimed at giving the GMs the rules they need to handle an adventure when the dungon is literally falling down around the PCs. These collapses occur when a building or other construction slowly begins to fail. This is not a sudden toppling of an entire structure, but rather what happens when the structure becomes unstable and starts to crumble, piece by piece. There are often periods of calm from one moment to the next, and then a sudden structural failure causes debris to rain down, walls to collapse, or doors to jam, potentially trapping victims within as the edifice transforms into a ruinous tomb.",
+			"",
+			"@HL[Fire:] One of the greatest threats to fantasy communities comes in the form of uncontrolled fires. Structural fires most commonly occur in buildings that are made of flammable materials, although even those of stone and masonry might have supports and features susceptible to spreading deadly flames. This section details the speed and method by which a fire spreads, as well as the effects of the blaze upon anyone trapped within. Also included are rules for extinguishing the fire, the speed at which a building is completely incinerated, and how backdrafts might turn a structural fire even deadlier.",
+			"",
+			"@HL[Floods:] Floods might be caused by hurricanes, excessive rain, or possibly the collapse of a major piece of infrastructure, such as a levy, reservoir, or dam. This section discusses the various factors that GMs must keep in mind when creating a flood scenario. Also within this section are rules for rescuing drowning individuals, dealing with the potential cold of floodwater, and what sort of damage a flood might do to a structure, particularly when the flood is sudden rather than gradual."
+		],
+		"parent_topics": [ "advanced_gm_topics" ],
+		"subtopics": [
+			"causing_disasters",
+			"collapse",
+			"fire",
+			"floods_catastrophe"
+		],
+		"siblings": [
+			"diseases_and_poisons",
+			"catastrophes",
+			"exploration_ucp",
+			"discovery_and_exploration",
+			"duels",
+			"verbal_duels",
+			"heists",
+			"infiltration",
+			"nemeses",
+			"performance_combat",
+			"pursuit",
+			"simple_monster_creation",
+			"skills_in_conflict",
+			"social_conflicts",
+			"spells_of_intrigue",
+			"spells_of_the_wild",
+			"taxation",
+			"treasure_generator",
+			"trophies",
+			"weather_in_the_wilderness"
+		]
+	},
+	"causing_disasters": {
+		"name": "Causing Disasters",
+		"subtitle": "Catastrophes, Advanced GM Topics",
+		"sources": [ "Pathfinder #30: The Twice-Damned Prince" ],
+		"description": [
+			"{SOURCE Pathfinder #30: The Twice-Damned Prince/57}  ",
+			"The possible scenarios PCs might face over the course of their adventures are as varied and unusual as the GM can imagine. Even though the Pathfinder RPG Core Rulebook accounts for the most common environmental dangers, the menaces of the natural world prove vast, varied, and occasionally unbelievable. GMs have an assortment of options when presenting such dangers. While the Environment chapter of the Core Rulebook offers subsystems for a variety of catastrophes, GMs might also look to other resources like spell effects for options when creating specific dangers. The spell {spell/earthquake}, for example, summarizes the effects of a nonmagical earthquake, and GMs are encouraged to look to similar spells when designing unusual natural events. Beyond pure rules elements, GMs looking to add new and unexpected dangers to their campaigns might research unusual but still natural dangers. Events like limnic eruptions, lahars, asteroid strikes, gustnados, tsunamis, pyroclastic flows, cinder cones, sudden climate change, and the like all might occur and jeopardize lives in fantasy worlds as surely as in the real world. Combining rules elements to simulate such events can make for exciting and unexpected encounters, and might even form the basis of whole adventures when villains take advantage of nature's anger or deadly beasts are forced to flee an even more destructive force.",
+			"",
+			"Fantasy worlds also bring with them their own hosts of dangers. While many fantastical lands operate at least in part like the real world, unique and magical environments might give rise to all manner of new dangers - areas where magic doesn't function, random magical effects, hauntings, and the like. The various planes of existence raise the bar even higher, with all manner of impossible environments, from flows of freezing lava to vertically rushing floods, quakes upon the backs of titanic beings, winds filled with razors, and endless other possibilities.",
+			"",
+			"Ultimately, GMs should not feel limited in their environmental creations by events they can find exact rules for, and are encouraged to combine and customize those elements they find useful to create the encounters and disasters they desire. Confronting PCs with an enemy that can't be defeated by sword and spell or that provides opportunities for everyday heroics might prove a refreshing and exciting change from the usual dungeon crawl."
+		],
+		"parent_topics": [
+			"advanced_gm_topics",
+			"catastrophes"
+		],
+		"siblings": [
+			"causing_disasters",
+			"collapse",
+			"fire",
+			"floods_catastrophe"
+		]
+	},
+	"collapse": {
+		"name": "Collapsing Structures",
+		"tags": "collapse, collapsing buildings, structural collapse, failing structures",
+		"subtitle": "Catastrophes, Advanced GM Topics",
+		"sources": [ "Pathfinder #30: The Twice-Damned Prince" ],
+		"description": [
+			"{SOURCE Pathfinder #30: The Twice-Damned Prince/58}  ",
+			"Any enclosed space, natural or constructed, that is designed to provide safety and shelter can collapse under the right circumstances. The factors that can weaken these structures to the point of collapse are numerous: direct damage, earthquakes, extreme weather, fires, floods, and so on. Underground fortresses and lairs are likewise subject to the same sorts of structural failure. Characters trapped inside of these spaces during a collapse face the dangers of falling debris and becoming trapped within. {rule/Cave-Ins and Collapses} provides basic rules for characters caught within a collapse. These rules are sufficient when dealing with normal underground environments that collapse rapidly, but might prove overly lethal when dealing with manufactured structures and more gradual collapses.",
+			"",
+			"Following whatever event compromises a structure, several rounds might pass during which nothing happens, followed by several rounds in a row of structural failures presenting hazards to the characters. GMs should roll on the Failing Structure chart to determine what danger occurs that round, if any. This might reveal several rounds of safety or of deadly collapse events. Should collapse events arise, roll on the Structural Collapse event table to determine the threat.",
+			"",
+			"### Failing Structure",
+			"",
+			"| 1d20 | Collapse Event |",
+			"| --- | --- |",
+			"| 1-5 | No event for 1d6 rounds. |",
+			"| 6-9 | No event this round. |",
+			"| 10-17 | Collapse event this round. |",
+			"| 18-20 | Collapse events for 1d4 rounds. |",
+			"",
+			"### Structural Collapse",
+			"",
+			"Should a structure be undermined but not completely destroyed, it begins collapsing in on itself. Those within must then contend with the building falling apart around them as they seek their escape. While dangers might be separated by minutes of seeming calm, the giving way of a load-bearing support might rain death upon those who don't make a hasty escape. Should a round call for a collapse event, roll on the following chart to determine what occurs. GMs might revise any of these effects to account for buildings with unusual structures or made of strange materials, or that face added threats, such as fire.",
+			"",
+			"#### Structural Collapses",
+			"",
+			"| 1d10 | Collapse Event |",
+			"| --- | --- |",
+			"| 1 | @HL[Falling Debris:] Chunks of debris fall from above. All characters within a 10-foot square must make a DC 15 Reflex save or take 1d6 points of damage. |",
+			"| 2 | @HL[Door Shifts:] The nearest door is either stuck open or closed (whichever it is at the time the failure occurs), requiring a DC 25 Strength check to open. If the nearest door is an undiscovered secret door, it shifts enough to reveal its existence, though it requires the same Strength check to open as described above. |",
+			"| 3 | @HL[Wall Collapse:] A 5-foot section of wall splits and falls away near the characters, potentially allowing access into an adjacent opening. |",
+			"| 4 | @HL[Moderate Falling Debris:] A large section of material falls from above. All characters within a 15-foot square must make a DC 15 Reflex save or take 2d6 points of damage. |",
+			"| 5 | @HL[Floor Collapse:] The floor the PCs are walking on falls out from under their feet. All characters within a 15-foot square must make a DC 18 Reflex save or fall onto the floor below - typically, about a 10- to 15-foot drop dealing 1d6 points of damage, though potentially more. If on the lowest floor, falling characters sustain 1d4 points of damage from shifting debris. |",
+			"| 6 | @HL[Large Falling Debris:] Beams and other falling debris rain down upon the area. Characters within a 15-foot square must make a DC 15 Reflex save or take 3d6 points of damage. |",
+			"| 7 | @HL[Trembling:] No significant damage occurs, though decorations fall from the walls and a cloud of particles obscures vision on the entire floor. Each character on the floor must make a Fortitude save each round or spend that round choking and coughing (as per smoke inhalation, see {rule/Forest Fires}). This provides {rule/concealment} to characters within. |",
+			"| 8 | @HL[Collapse:] Parts of the ceiling and contents from floors above come down. This collapse has a 10- foot radius bury zone and a 5-foot-wide slide zone beyond that. Characters in the bury zone take 4d6 points of damage and are buried (Reflex DC 15 half). Characters in the slide zone take 1d6 damage (Reflex DC 15 negates). Those in the slide zone who fail their save are buried. The collapse otherwise functions like those described in {rule/Cave-Ins and Collapses}. |",
+			"| 9 | @HL[Cacophony:] The trembling of the structure creates a deafening clamor for 1d4 minutes. This is so loud that it effectively drowns out all other speaking and noise, affecting characters in the building as if they were under the effects of a {spell/silence} spell. |",
+			"| 10 | @HL[Massive Collapse:] A significant portion of the floors above comes down on the PCs. This collapse has a 15-foot radius bury zone and a 10-foot-wide slide zone beyond. It otherwise functions like a collapse described in Cave-Ins and Collapses. |"
+		],
+		"parent_topics": [
+			"advanced_gm_topics",
+			"catastrophes"
+		],
+		"siblings": [
+			"causing_disasters",
+			"collapse",
+			"fire",
+			"floods_catastrophe"
+		]
+	},
+	"fire": {
+		"name": "Fire",
+		"subtitle": "Catastrophes, Advanced GM Topics",
+		"sources": [ "Pathfinder #30: The Twice-Damned Prince" ],
+		"description": [
+			"{SOURCE Pathfinder #30: The Twice-Damned Prince/59}  ",
+			"Fires occur when indoor or outdoor areas that contain or are constructed from flammable materials are exposed to flame and catch fire. As the blaze spreads, creatures in the nearby area are subject to the deadly effects of fire and smoke inhalation. GMs running a fire encounter might refer to the rules for {rule/forest fires}. The fires detailed here suggest more easily combatable fires, such as those newly sparked or spreading within an urban setting."
+		],
+		"parent_topics": [
+			"advanced_gm_topics",
+			"catastrophes"
+		],
+		"siblings": [
+			"causing_disasters",
+			"collapse",
+			"fire",
+			"floods_catastrophe"
+		],
+		"subtopics": [
+			"the_spread_of_fire",
+			"burning_buildings",
+			"dense_smoke_inhalation",
+			"backdrafts",
+			"firefighting_magic",
+			"dousing_a_fire"
+		]
+	},
+	"the_spread_of_fire": {
+		"name": "The Spread of Fire",
+		"subtitle": "Catastrophes, Advanced GM Topics",
+		"sources": [ "Pathfinder #30: The Twice-Damned Prince" ],
+		"description": [
+			"{SOURCE Pathfinder #30: The Twice-Damned Prince/59}  ",
+			"Unchecked, fire tends to spread both rapidly and unpredictably. Minor factors, such as the dryness of the burning material, the presence of wind or breeze, flammable finish on flooring, dry vegetation in an area, and countless other factors can all contribute to the spread of a fire. Once a fire has burned an area, it will not return to that area. Likewise, once an area has been doused with water or covered with a non-flammable substance, such as dirt, that area is safe from further effects of the blaze for the immediate future.",
+			"",
+			"Every round that a fire burns, regardless of whether characters are attempting to control it, roll 1d20 and consult the following table to determine the activity of the fire for that round and how many (if any) 5-foot squares the fire spreads to. The GM chooses which squares a fire spreads into if multiple possibilities exist. Fire cannot spread into areas where it has already been extinguished (unless noted otherwise), nor can it spread into squares where flammable materials are not present. Characters who are inside of a square when it catches fire are subject to damage, as per the rules for {rule/catching on fire}.",
+			"",
+			"#### Progress of Spreading Fire",
+			"",
+			"| 1d20 | Fire Reaction |",
+			"| --- | --- |",
+			"| 1 | The fire does not grow this round. |",
+			"| 2 | The fire grows 1 square to the north. |",
+			"| 3 | The fire grows 1 square to the east. |",
+			"| 4 | The fire grows 1 square to the south. |",
+			"| 5 | The fire grows 1 square to the west. |",
+			"| 6 | The fire grows 1 square in all directions. |",
+			"| 7-8 | The fire does not grow this round. |",
+			"| 9 | The fire grows 2 squares to the north. |",
+			"| 10 | The fire grows 2 squares to the east. |",
+			"| 11 | The fire grows 2 squares to the south. |",
+			"| 12 | The fire grows 2 squares to the west. |",
+			"| 13 | The fire grows 2 squares in all directions. |",
+			"| 14-18 | The fire does not grow this round. |",
+			"| 19 | The fire grows 3 squares in all directions. |",
+			"| 20 | The fire grows 4 squares in all directions |"
+		],
+		"parent_topics": [
+			"advanced_gm_topics",
+			"catastrophes",
+			"fire"
+		],
+		"siblings": [
+			"the_spread_of_fire",
+			"burning_buildings",
+			"dense_smoke_inhalation",
+			"backdrafts",
+			"firefighting_magic",
+			"dousing_a_fire"
+		]
+	},
+	"burning_buildings": {
+		"name": "Burning Buildings",
+		"subtitle": "Fire, Catastrophes, Advanced GM Topics",
+		"sources": [ "Pathfinder #30: The Twice-Damned Prince" ],
+		"description": [
+			"{SOURCE Pathfinder #30: The Twice-Damned Prince/59}  ",
+			"Buildings that catch fire are quickly engulfed and are often a complete loss. If there are no characters or NPCs attempting to put a fire out, a building becomes unsalvageable in a space of time dependent on the size of the building. Ultimately how fast a building burns is left up to the GM to decide and depends on a variety of factors, but a rough guideline is as follows: small one-floor buildings (as occupied by many commoners) are consumed in 6d8 minutes; larger homes (like town houses and the homes of merchants) are totally consumed 4d20 minutes after catching fire; and major structures (like villas, castles, or cathedrals) are consumed in 2d4 hours. Buildings built entirely of flammable materials burn in half the time, while structures consisting mainly of non-flammable materials take half again as much time to burn. While burning, most structures begin collapsing. See the [previous section](rule/collapse) for details on how to deal with such dangers."
+		],
+		"parent_topics": [
+			"advanced_gm_topics",
+			"catastrophes",
+			"fire"
+		],
+		"siblings": [
+			"the_spread_of_fire",
+			"burning_buildings",
+			"dense_smoke_inhalation",
+			"backdrafts",
+			"firefighting_magic",
+			"dousing_a_fire"
+		]
+	},
+	"dense_smoke_inhalation": {
+		"name": "Dense Smoke Inhalation",
+		"subtitle": "Fire, Catastrophes, Advanced GM Topics",
+		"sources": [ "Pathfinder #30: The Twice-Damned Prince" ],
+		"description": [
+			"{SOURCE Pathfinder #30: The Twice-Damned Prince/59}  ",
+			"Dense smoke, as might fill a burning building, can prove even more dangerous than the flames that create it. In addition to the rules for smoke inhalation presented under {rule/Forest Fires}, a character in dense smoke must make a DC 10 Fortitude save every round that she is subject to these conditions. A character may fail this save a number of times equal to her Constitution modifier. After failing to save for the last time, the character falls unconscious and is subject to {rule/suffocation}."
+		],
+		"parent_topics": [
+			"advanced_gm_topics",
+			"catastrophes",
+			"fire"
+		],
+		"siblings": [
+			"the_spread_of_fire",
+			"burning_buildings",
+			"dense_smoke_inhalation",
+			"backdrafts",
+			"firefighting_magic",
+			"dousing_a_fire"
+		]
+	},
+	"backdrafts": {
+		"name": "Backdrafts",
+		"subtitle": "Fire, Catastrophes, Advanced GM Topics",
+		"sources": [ "Pathfinder #30: The Twice-Damned Prince" ],
+		"description": [
+			"{SOURCE Pathfinder #30: The Twice-Damned Prince/60}  ",
+			"Fuel-starved flames bursting into freshly opened chambers pose a lethal threat to fire fighters. Such hazards typically arise from rooms no larger than 40 square feet and sealed from ample airflows. When these rooms catch fire, they deplete the supply of oxygen in 2d6 &times; 5 minutes. After such a point, the fire continues to burn, but the combustion is a slow smolder. When a door or obstruction is opened or removed, the air from outside the room rushes in and instantly restarts the flames, resulting in a fiery eruption. Any characters that are either already in the room or are within 15 feet of the newly opened entryway take 5d6 points of fire damage (DC 15 Reflex save for half). The area opened to must be oxygen-rich for a backdraft to happen, and does not occur if one oxygen-starved room opens into another."
+		],
+		"parent_topics": [
+			"advanced_gm_topics",
+			"catastrophes",
+			"fire"
+		],
+		"siblings": [
+			"the_spread_of_fire",
+			"burning_buildings",
+			"dense_smoke_inhalation",
+			"backdrafts",
+			"firefighting_magic",
+			"dousing_a_fire"
+		]
+	},
+	"firefighting_magic": {
+		"name": "Firefighting Magic",
+		"subtitle": "Catastrophes, Advanced GM Topics",
+		"sources": [ "Pathfinder #30: The Twice-Damned Prince" ],
+		"description": [
+			"{SOURCE Pathfinder #30: The Twice-Damned Prince/60}  ",
+			"A number of spells have the potential to affect areas that have caught fire and can serve to reduce the seriousness of a blaze. While these are by no means all the spells that might aid a fire-fighting spellcaster, these account for the majority of the magical effects that can be brought to bear against flames. Other obvious spells, such as control water, rely on the specifics of a situation and are left to the GM to determine the effects.",
+			"",
+			"@hll[spell/Control Weather:] In general, weather conjured by this spell has a 40% chance to extinguish an uncovered square full of flame every round. This does not prevent flames from spreading, but those left exposed are quenched with relative swiftness. Fires burning within a structure are unaffected by this spell unless it has some obvious point of entry (such as through an open roof or large window).",
+			"",
+			"@hll[spell/Gust of Wind:] This powerful wind blows out 10 feet of fire in its path. Flames blown out can be reignited by nearby flames.",
+			"",
+			"@hll[spell/Ice Storm:] An *ice storm* extinguishes fire in the area it affects. The hail from the spell melts and leaves an area soaked, preventing it from catching fire again.",
+			"",
+			"@hll[spell/Polar Ray:] This spell extinguishes the fire along the ray's path. The ice from the spell melts due to the heat and leaves an area soaked, preventing it from catching fire again.",
+			"",
+			"@hll[spell/Pyrotechnics:] Upon affecting a fire, a *pyrotechnics* spell extinguishes up to four squares of fire. Affecting flames with this spell can backfire upon a caster, though, potentially hindering those nearby with even more light and smoke.",
+			"",
+			"@hll[spell/Summon Monster:] Several summoned creatures might possess qualities allowing them to aid in putting out fires, whether special abilities or the power to cast any of the spells noted here. {family/Water elemental/s} especially can put out flames in any square they cross, though burning squares count as {rule/difficult terrain} for them while purposefully trying to extinguish flames. Even water elementals take damage from fire, and can be destroyed by entering a blaze."
+		],
+		"parent_topics": [
+			"advanced_gm_topics",
+			"catastrophes",
+			"fire"
+		],
+		"siblings": [
+			"the_spread_of_fire",
+			"burning_buildings",
+			"dense_smoke_inhalation",
+			"backdrafts",
+			"firefighting_magic",
+			"dousing_a_fire"
+		]
+	},
+	"dousing_a_fire": {
+		"name": "Dousing a Fire",
+		"subtitle": "Catastrophes, Advanced GM Topics",
+		"sources": [ "Pathfinder #30: The Twice-Damned Prince" ],
+		"description": [
+			"{SOURCE Pathfinder #30: The Twice-Damned Prince/60}  ",
+			"Dousing a fire requires a large amount of water or other non-flammable material, such as dirt, to be deposited on the burning area. One effective strategy for extinguishing a fire quickly is to surround the burning area with nonflammable material. PCs doing this must make a ranged touch attack against an AC of 10 to deliver their payload to the intended square. The following indicates how many 5-foot squares of fire a number of the listed containers can extinguish with successful delivery.",
+			"",
+			"@hll[eq-misc/Waterskin:] Twenty waterskins full of water extinguish one square.",
+			"",
+			"@hll[eq-misc/Bucket:] Four buckets full of non-flammable material extinguish one square.",
+			"",
+			"@HL[Gallon Container:] Twelve gallon containers of nonflammable material extinguish one square.",
+			"",
+			"@hll[eq-misc/Cauldron:] One cauldron of non-flammable material extinguishes one square.",
+			"",
+			"@hll[magic-wondrous/Portable Hole:] A portable hole filled with non-flammable material extinguishes a 12-square-by-12-square area.",
+			"",
+			"@hll[magic-wondrous/Bag of Holding:] A bag of holding, type I filled with nonflammable material extinguishes a 3-square-by-3-square area, type II extinguishes a 5-square-by-5-square area, type III extinguishes a 7-square-by-7-square area, and type IV extinguishes a 10-square-by-10-square area."
+		],
+		"parent_topics": [
+			"advanced_gm_topics",
+			"catastrophes",
+			"fire"
+		],
+		"siblings": [
+			"the_spread_of_fire",
+			"burning_buildings",
+			"dense_smoke_inhalation",
+			"backdrafts",
+			"firefighting_magic",
+			"dousing_a_fire"
+		]
+	},
+	"floods_catastrophe": {
+		"name": "Floods",
+		"subtitle": "Catastrophes, Advanced GM Topics",
+		"sources": [ "Pathfinder #30: The Twice-Damned Prince" ],
+		"description": [
+			"{SOURCE Pathfinder #30: The Twice-Damned Prince/60}  ",
+			"Floods occur when the water levels in an area rise beyond their usual levels. This might be caused by river banks overflowing into a town, a sudden and unexpected rush of water from a broken reservoir, the effects of a powerful storm, or a similar incident. GMs contemplating a flood in their games should consider the basic rules for {rule/floods}, as well as those for {rule/aquatic terrain}, {rule/underwater combat}, {skill/swim/ming}, and {rule/drowning}."
+		],
+		"parent_topics": [
+			"advanced_gm_topics",
+			"catastrophes"
+		],
+		"siblings": [
+			"causing_disasters",
+			"collapse",
+			"fire",
+			"floods_catastrophe"
+		],
+		"subtopics": [
+			"slow_rise",
+			"flash_floods"
+		]
+	},
+	"slow_rise": {
+		"name": "Slow Rise",
+		"subtitle": "Floods, Catastrophes, Advanced GM Topics",
+		"sources": [ "Pathfinder #30: The Twice-Damned Prince" ],
+		"description": [
+			"{SOURCE Pathfinder #30: The Twice-Damned Prince/60}  ",
+			"Floods can easily turn structures into watery deathtraps. Characters trapped in an underground complex or even merely a structure at a low elevation when a flood occurs might find themselves facing rising waters, dwindling pockets of air, and the risk of drowning.",
+			"",
+			"Before a flood begins, the GM needs to determine how high the ceiling is in a given area - typically 10 to 12 feet high, though variable depending on the structure's location and purpose. This height determines the length of time it takes for that space to fill with water. During a slow flood, water levels rise at a constant rate. The GM can determine this rate arbitrarily, or roll 1d6 to determine the number of inches that the water rises per round.",
+			"",
+			"The next issue the GM must consider is where the displaced air goes. If this is an underground dungeon, the air might rise through cracks and grates, disappearing into areas where the PCs may not be able to follow. Since doorways tend to be lower than ceilings, many rooms in structures not designed with airflow in mind might flood only until the water level has risen to the top of a door frame, trapping a pocket of air in a room. However, just because characters occupy an area where a pocket of air is trapped does not mean that they are safe. Characters trapped within a flooded area must succeed at {skill/Swim} checks to stay afloat, typically DC 10 for calm water, but armor and encumbrance can make even such a check deadly for unprepared characters. GMs dealing with characters trapped for several hours might also seek to address the risk of air depletion. As a rule of thumb, a resting Medium character takes 12 hours to deplete the air from a 5-foot cube (with Large creatures depleting half again as much, Small characters depleting only half as much, and so on). When a character is exerting himself, he consumes double the amount of air. With this information, a GM should be able to take the number of 5-foot cubes comprising an air pocket and formulate a rough estimate of how long it takes creatures trapped within to deplete the air. Once the air is depleted, characters begin {rule/suffocati/ng>on}."
+		],
+		"parent_topics": [
+			"advanced_gm_topics",
+			"catastrophes",
+			"floods_catastrophe"
+		],
+		"siblings": [
+			"slow_rise",
+			"flash_floods"
+		]
+	},
+	"flash_floods": {
+		"name": "Flash Floods",
+		"subtitle": "Catastrophes, Advanced GM Topics",
+		"sources": [ "Pathfinder #30: The Twice-Damned Prince" ],
+		"description": [
+			"{SOURCE Pathfinder #30: The Twice-Damned Prince/61}  ",
+			"Flash floods have the same issues associated with slow floods, but they also have the added danger of rapid flowing water. Most move through low-lying areas at a speed of 60 feet, sweeping away everything in their path. A creature can detect the onset of a flash flood with a DC 20 {skill/Perception} check, success granting the creature 2d6 rounds to prepare. The first sign of a flash flood is a rumbling and a sudden flow of water along the ground. The wall of water that follows arrives quickly, striking only 1d4 rounds later.",
+			"",
+			"A creature struck by a flash flood is immediately subjected to a {rule/bull rush} (as if by a creature with a CMB of +20). A successful bull rush indicates that the creature is swept away. Creatures carried along by a flash flood travel in the direction of the flood at a speed of 60 feet and take 2d6 points of damage per round from buffeting (Reflex DC 12 negates). If those swept away are air-breathers, they must {misc/hold their breath} or begin to drown. Swim checks are possible in a flash flood, but the water is treated as stormy, requiring a DC 20 Swim check to navigate. Most flash floods last for only 3d6 minutes before the rushing water either disperses or slows and becomes standing water (depending on the topography)."
+		],
+		"parent_topics": [
+			"advanced_gm_topics",
+			"catastrophes",
+			"floods_catastrophe"
+		],
+		"siblings": [
+			"slow_rise",
+			"flash_floods"
 		]
 	}
 }

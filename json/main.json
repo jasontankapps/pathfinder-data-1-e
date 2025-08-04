@@ -134,6 +134,8 @@
 			"",
 			"::main[Alternate Disease and Poison Rules]{to=rule/diseases_and_poisons}",
 			"",
+			"::main[Catastrophes]{to=rule/catastrophes}",
+			"",
 			"::main[Exploration]{to=rule/exploration_ucp}",
 			"",
 			"::main[Wilderness Exploration]{ind to=rule/discovery_and_exploration}",
