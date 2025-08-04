@@ -619,6 +619,7 @@
 			"air_vehicles"
 		]
 	},
+	"vehicle_rules": { "redirect": "vehicle_basics" },
 	"full_vehicle_rules": {
 		"name": "Full Vehicle Rules",
 		"subtitle": "Specific Rulesets",
