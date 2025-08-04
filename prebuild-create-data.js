@@ -138,7 +138,10 @@ const alternateBlocks = {
 		const {id, ind, rev, to, end, endem, bottom} = attrs;
 		const n = meta.name || "";
 		const maybeClear = attrs.clear ? `<div style={{clear:"both"}}></div>` : "";
-		if(n === "mh") {
+		if(n === "gh") {
+			// General Header
+			return `${maybeClear}<p className="statblockHeader">${text}</p>\n`;
+		} else if(n === "mh") {
 			// Monster Header
 			const {cr, mr} = attrs;
 			if(cr || mr) {
